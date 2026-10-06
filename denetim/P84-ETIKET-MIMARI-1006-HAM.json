@@ -1,0 +1,1506 @@
+{
+ "dosya": 146,
+ "tembel": 76,
+ "hata": [],
+ "kart": 804,
+ "EKOKUMA_TUR": [
+  "sebep-sonuc",
+  "magazin",
+  "merak",
+  "antlasma",
+  "tartisma",
+  "teknik-bilimsel",
+  "kimdir",
+  "dis-yankilar",
+  "kahramanlik",
+  "menkibeler",
+  "sok-haberler",
+  "edebiyat",
+  "savas-hikayesi",
+  "karsi-anlati",
+  "bu-ulke-neden-var"
+ ],
+ "tanimsiz": [],
+ "turDagilim": {
+  "sebep-sonuc": 212,
+  "antlasma": 27,
+  "teknik-bilimsel": 82,
+  "merak": 15,
+  "tartisma": 228,
+  "magazin": 57,
+  "edebiyat": 7,
+  "savas-hikayesi": 51,
+  "kahramanlik": 2,
+  "dis-yankilar": 17,
+  "kimdir": 62,
+  "menkibeler": 2,
+  "sok-haberler": 4,
+  "karsi-anlati": 34,
+  "bu-ulke-neden-var": 4
+ },
+ "aday": [
+  {
+   "g": "MERAK",
+   "id": "canakkale-hisar-ve-zincir",
+   "tur": "merak",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "İstanbul Boğazı'na iki hisar yapıldı da Çanakkale Boğazı'na niçin yapılmadı — ve Bizans Haliç'e zincir gerdiğine göre Osmanlı niçin boğazlara zincir germeyi düşünmedi? · "
+  },
+  {
+   "g": "EKOKUMA_ANTLASMA2",
+   "id": "antlasma-kasr-i-sirin-1639",
+   "tur": "antlasma",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "antlasma-kasr-i-sirin-1639"
+  },
+  {
+   "g": "EKOKUMA_ANTLASMA2",
+   "id": "sebep-sonuc-kasr-i-sirin-1639",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "Üç günlük müzakere niçin iki asır sınır oldu? · sebep-sonuc-kasr-i-sirin-1639"
+  },
+  {
+   "g": "EKOKUMA_MAGAZIN",
+   "id": "sehzade-mustafa-katli-entrika",
+   "tur": "magazin",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Şehzade Mustafa'nın katli: bir saray entrikası mı? · Mustafa'nın katlinde Hürrem'in payı ne? · sehzade-mustafa-katli-entrika"
+  },
+  {
+   "g": "EKOKUMA_MAGAZIN",
+   "id": "abdulhamid-hal-korkusu-hafiye",
+   "tur": "magazin",
+   "kelime": [
+    "cami",
+    "saray",
+    "yapi"
+   ],
+   "baslik": "Tahttan indirilme korkusu: hafiyeler ve saraya yapışık cami · Abdülhamid neyden korkuyordu? · abdulhamid-hal-korkusu-hafiye"
+  },
+  {
+   "g": "EKOKUMA_MAGAZIN",
+   "id": "mustafa1-kubbeyi-delen-asiler-1622",
+   "tur": "magazin",
+   "kelime": [
+    "kubbe"
+   ],
+   "baslik": "Kubbeyi delip padişah çıkaran âsiler · Âsiler Mustafa'yı kilitli odadan nasıl çıkardı? · mustafa1-kubbeyi-delen-asiler-1622"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-sultanahmet",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami",
+    "minare",
+    "yapi"
+   ],
+   "baslik": "Altı minareli ilk selâtin camii — ve hazineden, fetih zaferi olmadan yapılan ilki. · mimari-sultanahmet"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-suleymaniye",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kubbe",
+    "yapi"
+   ],
+   "baslik": "Mimar Sinan'ın kendi 'kalfalık eserim' dediği yapı — akustik için kubbeye gömülü 64 boş küp. · mimari-suleymaniye"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-selimiye",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kubbe",
+    "yapi"
+   ],
+   "baslik": "Sinan'ın 'ustalık eserim' dediği yapı — 31,3 metrelik kubbesiyle Ayasofya'yı geçmeyi hedefledi. · mimari-selimiye"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-mostar-koprusu",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kemer",
+    "kopru",
+    "yapi"
+   ],
+   "baslik": "28,59 metrelik tek kemer — 1993'te yıkıldı, 2004'te aslına uygun yeniden yapıldı. · mimari-mostar-koprusu"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-mihrimah-edirnekapi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami",
+    "kubbe"
+   ],
+   "baslik": "Sinan'ın tek kubbeli camiler tipinin en büyük örneği — üç sıra pencereyle aydınlık bir iç mekân. · mimari-mihrimah-edirnekapi"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-nuruosmaniye",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kulliye"
+   ],
+   "baslik": "Osmanlı mimarisinde Avrupa barok üslubunun ilk büyük uygulaması — klasik külliye şemasından kopuş. · mimari-nuruosmaniye"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-topkapi-sarayi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "saray",
+    "kosk",
+    "yapi"
+   ],
+   "baslik": "Tek bir bina değil, dört yüzyıl boyunca eklenen yapılardan oluşan bir bütün. En eski parçası 1472 tarihli Çinili Köşk, Orta Asya yapı geleneğini sürdürür. · mimari-topkap"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "tartisma-topkapi-sarayi",
+   "tur": "tartisma",
+   "kelime": [
+    "saray",
+    "kosk"
+   ],
+   "baslik": "Topkapı Sarayı: az bilinen hususlar ve kapanmamış tartışmalar · Sarayın adı yüzyıllarca Topkapı değildi, başlangıç tarihi belli değil ve kapısındaki kulelerin kime ait ol"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-dolmabahce-sarayi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "saray",
+    "kosk",
+    "yapi"
+   ],
+   "baslik": "Topkapı'nın tam tersi: avlulara dağılmış köşkler yerine tek bir büyük gövde. Avrupa sarayları tarzında yapılan saray barok, rokoko, ampir ve neoklasik öğeleri bir arada k"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-fatih-camii",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kulliye",
+    "cami",
+    "yapi"
+   ],
+   "baslik": "Fetihten sonraki ilk selâtin külliyesi. Bugün görülen cami, 1766 depreminde çöken ilk yapının yerine 1771'de farklı bir planla yeniden yapılmıştır: silüeti klasik, ayrınt"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-rumelihisari",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami",
+    "minare"
+   ],
+   "baslik": "Dört-beş ayda yükselen kalenin üç büyük kulesini üç ayrı paşa yaptırdı. Kulelerin duvarı 7 metreye varır; camisinin minaresindeki merdiven tek parça meşe tomruğundan oyul"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-sehzade-camii",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami",
+    "kubbe"
+   ],
+   "baslik": "Sinan'ın mimarbaşı olarak yaptığı ilk selâtin camii. Payandaları galerilerin içine gizleyip duvarları pencerelere açtığı dört yarım kubbeli simetrik plan, Selimiye'ye gid"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-yeni-cami",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "carsi",
+    "kulliye",
+    "cami"
+   ],
+   "baslik": "Temeli 1598'de atılıp 67 yıl sonra ibadete açılan cami. Deniz kıyısındaki zemin kurşun kuşaklı kazıklarla sağlamlaştırıldı; plan klasik şemayı XVII. yüzyılda sürdürür, kü"
+  },
+  {
+   "g": "EKOKUMA_MIMARI",
+   "id": "mimari-beyazit-camii",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami"
+   ],
+   "baslik": "Mimarı üç ayrı isimle anılan cami. Yabancı yazarların sık tekrarladığı 'Ayasofya taklidi' iddiasına TDV'nin cevabı statikten gelir. · mimari-beyazit-camii"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-mohac-1526",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Mohaç Meydan Muharebesi (29 Ağustos 1526) · Yaklaşık iki saat sürdü; bir krallığı üçe böldü ve bir buçuk asırlık bir mücadeleyi başlattı. · savas-mohac-1526"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-varna-1444",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Varna Muharebesi (10 Kasım 1444) · Tahttan çekilmiş bir sultan orduya geri çağrıldı; meydandan ayrılmayı reddetmesi savaşın gidişini değiştirdi. · savas-varna-1444"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-otranto-1480-1481",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Otranto: çıkarma, on üç aylık işgal ve tahliye (1480-1481) · İtalya'ya ayak basan tek Osmanlı ordusu bir yıldan fazla dayandı — sonunu bir meydan yenilgisi değil, gelmeye"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-budin-1541",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Budin'in Alınışı ve Eyalete Dönüşü (1541) · Habsburg kuşatmasından kurtarılmak için sefere çıkılan şehir, himaye altındaki bir krallığın başkenti olmaktan çıkarılıp doğru"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-hacova-1596",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Haçova Meydan Savaşı (26 Ekim 1596) · Merkezi yarılıp ağırlıkları yağmalanan Osmanlı ordusu, padişahın sahadan ayrılmaması sayesinde toparlandı ve bozguna dönmek üzere ol"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-cesme-1770",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "cesme",
+    "liman"
+   ],
+   "baslik": "Çeşme Baskını (6-7 Temmuz 1770) · Rus filosunun önünden çekilip dar Çeşme limanına sığınan Osmanlı donanması, bir gecede ateş kayıklarıyla yakıldı; yalnız kaptanıderyânın"
+  },
+  {
+   "g": "EKOKUMA_SAVAS",
+   "id": "savas-kanije-1601",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "surlar"
+   ],
+   "baslik": "Kanije Savunması (10 Eylül – 18 Kasım 1601) · Bir yıl önce alınmış, surları henüz onarılmamış bir sınır kalesi; yardım gelmeyen bir garnizon ve yetmiş gün sonra kuşatmayı"
+  },
+  {
+   "g": "EKOKUMA_SH104",
+   "id": "topkapi-sarayi-insasi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "mimar",
+    "saray",
+    "insa"
+   ],
+   "baslik": "Saray tek bina değil, dıştan içe artan bir GİZLİLİK zinciriydi — mimarisi devletin kendi hiyerarşisiydi. · topkapi-sarayi-insasi"
+  },
+  {
+   "g": "EKOKUMA_TARTISMA",
+   "id": "istanbul-rasathanesi-yiktirilmasi-tartisma",
+   "tur": "tartisma",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Osmanlı'nın tek gözlemevi sekiz yıl sonra neden yıkıldı — dinî bir hüküm mü, saray içi bir hesaplaşma mı? · istanbul-rasathanesi-yiktirilmasi-tartisma"
+  },
+  {
+   "g": "EKOKUMA_TARTISMA",
+   "id": "tartisma-murad-giray-1683-viyana",
+   "tur": "tartisma",
+   "kelime": [
+    "han "
+   ],
+   "baslik": "1683'te Kırım hanı ihanet mi etti? · Viyana bozgunundan sonra suç büyük ölçüde Kırım Hanı Murad Giray'a yüklendi ve han tahtından indirildi. Dönemin bazı kaynakları hanı "
+  },
+  {
+   "g": "EKOKUMA_KADIN",
+   "id": "kimdir-hurrem-sultan",
+   "tur": "kimdir",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Hürrem Sultan · Bir cariyeden nikâhlı Haseki Sultan'a: Kanûnî'nin resmen nikâhlandığı ilk ve tek eşi, oğlunun tahtı için sarayın en güçlü kadını oldu. · kimdir-hurrem-sul"
+  },
+  {
+   "g": "EKOKUMA_KADIN",
+   "id": "kimdir-turhan-hatice-sultan",
+   "tur": "kimdir",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Turhan Hatice Sultan · Rakibi Kösem'i saf dışı bırakıp devleti Köprülü Mehmed Paşa'ya emanet ederek yaklaşık yarım asır sürecek bir dönemi açan vâlide sultan. · kimdir-tu"
+  },
+  {
+   "g": "EKOKUMA_EKONOMI",
+   "id": "1585-tagsis-fiyat-devrimi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Akçenin gümüşü bir gecede yarılandı — üç yıl sonra saray kuşatıldı. · 1585-tagsis-fiyat-devrimi"
+  },
+  {
+   "g": "EKOKUMA_EKONOMI",
+   "id": "balta-limani-mehmed-ali-ticaret-acilimi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "II. Mahmud'un Mehmed Ali'ye karşı İngiliz desteği araması, Osmanlı pazarını serbest ticarete açtı. · balta-limani-mehmed-ali-ticaret-acilimi"
+  },
+  {
+   "g": "EKOKUMA_DALGA2",
+   "id": "kimdir-orhan-gazi",
+   "tur": "kimdir",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Orhan Gazi · Babasından bir uç beyliği devraldı, oğluna Rumeli'de köprübaşı kurmuş bir devlet bıraktı; ömrünü Bursa'da bir veba salgını bitirdi. · kimdir-orhan-gazi"
+  },
+  {
+   "g": "EKOKUMA_DALGA2",
+   "id": "savas-trabzon-1461",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "surlar"
+   ],
+   "baslik": "Trabzon'un teslimi (1461) · Bizans dünyasının son kalıntısını surlardan çok dağlar koruyordu; Fâtih o dağları aşınca imparator ailesiyle gemiye bindirilip İstanbul'a gönd"
+  },
+  {
+   "g": "EKOKUMA_DALGA2",
+   "id": "kirim-eminek-kefe-1475",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Kırım'ı Osmanlı'ya bir meydan savaşı değil, Cenevizlilerin görevden aldırdığı bir kabile beyinin öfkesi getirdi. · kirim-eminek-kefe-1475"
+  },
+  {
+   "g": "EKOKUMA_HANEDAN",
+   "id": "tartisma-ahmed1-kardes-katli-terki",
+   "tur": "tartisma",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "I. Ahmed kardeşi Mustafa'yı niçin öldürtmedi — ve kardeş katli gerçekten 'kaldırıldı' mı? · Kaynaklar dört ayrı açıklama öne çıkarıyor: vâris yokluğu, kamuoyu tepkisi, sa"
+  },
+  {
+   "g": "EKOKUMA_STATU",
+   "id": "statu-iki-tarihyazimi",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "'İç isyan' mı, 'bağımsızlık savaşı' mı? Bağlı yapıların hikâyesi niçin iki farklı dille anlatılır · Osmanlı kaynakları bağlı bir yapının başkaldırısını çoğu zaman bir ita"
+  },
+  {
+   "g": "EKOKUMA_STATU",
+   "id": "statu-eflak",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Eflak: ikili hükümranlıktan tâbi voyvodalığa · Eflak hiçbir zaman eyalet yapılmadı; toprağı tımara bölünmeden yerli voyvodalarca yönetilen, haraç veren tâbi bir voyvodalı"
+  },
+  {
+   "g": "EKOKUMA_STATU",
+   "id": "statu-bogdan",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Boğdan: 'kılıçla değil rızasıyla tâbi' bir prenslik · Boğdan İstanbul'un fethinden sonra Osmanlı'ya tâbi oldu; iç işlerine karışılmadı, eyalet yapılmadı. Osmanlı diplomas"
+  },
+  {
+   "g": "EKOKUMA_STATU",
+   "id": "statu-erdel",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Erdel: muhtar prenslik, haraçgüzâr voyvodalık · 1541'den 1699'a kadar Erdel içeride kendi prensleri, soyluları ve Protestan kiliseleriyle yaşayan, dışarıda İstanbul'a bağ"
+  },
+  {
+   "g": "EKOKUMA_IBRAHIM",
+   "id": "ibrahim-kosem-anne-ogul-cekismesi",
+   "tur": "magazin",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Oğlunu kurtaran anne, sarayından çıkarılan vâlide · Kösem Sultan oğlu İbrahim'le neden bozuştu? · ibrahim-kosem-anne-ogul-cekismesi"
+  },
+  {
+   "g": "EKOKUMA_IBRAHIM",
+   "id": "ibrahim-samur-meraki-falci-hikayesi",
+   "tur": "magazin",
+   "kelime": [
+    "kosk"
+   ],
+   "baslik": "Falcı kadının masalı ve samurla döşenen köşkler · İbrahim'in samur merakı bir masaldan mı doğdu? · ibrahim-samur-meraki-falci-hikayesi"
+  },
+  {
+   "g": "EKOKUMA_IBRAHIM",
+   "id": "varvar-ali-pasa-perihan-hanim-1648",
+   "tur": "magazin",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Bir kadını saraya göndermeyen paşa, onun kocası eliyle öldü · Varvar Ali Paşa hangi emirleri reddedip isyan etti? · varvar-ali-pasa-perihan-hanim-1648"
+  },
+  {
+   "g": "EKOKUMA_KASRISIRIN",
+   "id": "sebep-sonuc-kasrisirin-arka-plan",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "On altı yıllık bir savaş, bir şehrin kaybıyla başladı ve aynı şehrin geri alınmasıyla bitti. · sebep-sonuc-kasrisirin-arka-plan"
+  },
+  {
+   "g": "EKOKUMA_KASRISIRIN",
+   "id": "antlasma-kasrisirin-1639-muzakere",
+   "tur": "antlasma",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "Zühâb ovasında üç gün: antlaşma nasıl imzalandı? · İki ordu karşı karşıyayken başlayan görüşmeler üç günde bitti; metnin padişaha ulaşıp tasdik edilmesi ise altı ay sürdü"
+  },
+  {
+   "g": "EKOKUMA_KASRISIRIN",
+   "id": "antlasma-kasrisirin-1639-sinir",
+   "tur": "antlasma",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "Kasr-ı Şirin'in hükümleri: kim neyi aldı, neyi bıraktı? · Özü basit bir takastı: Osmanlılar Irak'ı tuttu, Safevîler Revan'ı. Hattın ayrıntısı ise yüzyıllarca tartışıldı. "
+  },
+  {
+   "g": "EKOKUMA_KASRISIRIN",
+   "id": "sebep-sonuc-kasrisirin-kalicilik",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "kasr",
+    "yapi"
+   ],
+   "baslik": "Üç günde yapılan bir antlaşma, iki yüz yıl sonra hâlâ masadaki temel belgeydi. · sebep-sonuc-kasrisirin-kalicilik"
+  },
+  {
+   "g": "EKOKUMA_KASRISIRIN",
+   "id": "tartisma-kasrisirin-tarih-yazimi",
+   "tur": "tartisma",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "Kurucu belge mi, kurucu efsane mi? Kasr-ı Şirin'e iki bakış · 1639 genellikle dünyanın en eski sınırlarından birinin doğum tarihi sayılır. Bazı tarihçiler bu anlatının fa"
+  },
+  {
+   "g": "EKOKUMA_MIMARI2",
+   "id": "mimari-uc-serefeli-camii",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami",
+    "kubbe",
+    "minare"
+   ],
+   "baslik": "Osmanlı'nın ilk merkezî planlı camisi: 24 metrelik bir kubbe, köşelerinde birbirine benzemeyen dört minareli revaklı avlu ve zamanının en yüksek minaresi — üç ayrı merdiv"
+  },
+  {
+   "g": "EKOKUMA_MIMARI2",
+   "id": "mimari-drina-koprusu",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kemer",
+    "kopru",
+    "kosk"
+   ],
+   "baslik": "On bir gözlü, 179 metrelik taş köprü; bir ucu dik açıyla kıvrılır, ortasında kitabe köşkü durur. Kemerleri iki dünya savaşında yıkılıp yeniden örüldü, dünya şöhretini ise"
+  },
+  {
+   "g": "EKOKUMA_MIMARI2",
+   "id": "mimari-sadabad",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "kanal",
+    "rihtim",
+    "saray",
+    "bahce",
+    "yapi"
+   ],
+   "baslik": "Kâğıthane deresi mermer rıhtımlı düz bir kanala alındı, çağlayanlar ve havuzlar yapıldı: Paris'e giden ilk Osmanlı elçisinin anlattığı Fransız saray bahçeleri İstanbul'da"
+  },
+  {
+   "g": "EKOKUMA_KIRIMRUS",
+   "id": "tartisma-kirimrus-pominki-harac",
+   "tur": "tartisma",
+   "kelime": [
+    "bahce"
+   ],
+   "baslik": "Hediye mi, haraç mı? Moskova'nın Kırım hanına her yıl gönderdiği hazine · Aynı sandık dolusu kürk ve para, Bahçesaray'da 'haraç', Moskova'da 'hediye' diye kaydedildi. İsi"
+  },
+  {
+   "g": "EKOKUMA_KURUM",
+   "id": "teknik-osmanli-idari-yapi-degisimi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "saray",
+    "yapi"
+   ],
+   "baslik": "Bir devlet üç asır boyunca aynı çatı altında toplandı, sonra o çatı sessizce boşaldı — karar mekanizması aynı sarayın içinde bir avludan ötekine taşındı. · teknik-osmanli"
+  },
+  {
+   "g": "EKOKUMA_KURUM",
+   "id": "teknik-osmanli-hukuk-sistemi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "carsi"
+   ],
+   "baslik": "Bir kadı aynı anda hem şeriatın hem padişahın kanununun adamıydı — ve mahkemesi çarşıyı, yetimin malını, kale bakımını da kapsardı. · teknik-osmanli-hukuk-sistemi"
+  },
+  {
+   "g": "EKOKUMA_KURUM",
+   "id": "kimdir-naima",
+   "tur": "kimdir",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Naîmâ kimdi? — imparatorluğun ilk RESMÎ tarihçisi · Halep'te doğan bir saray kâtibi, otuz yaşlarında devletin ilk 'vakanüvis'i (resmî tarihçi) unvanını aldı. · kimdir-nai"
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "kahve-kahvehane-yasagi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "yangin"
+   ],
+   "baslik": "İstanbul'a gelişinden seksen yıl sonra kahve, bir yangının suçlusu ilan edilip yasaklandı. · kahve-kahvehane-yasagi"
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "mahalle-teskilati-sorumluluk",
+   "tur": "tartisma",
+   "kelime": [
+    "mahalle"
+   ],
+   "baslik": "Osmanlı mahallesinde polis değil, KOMŞU sorumluydu · Bir olayın zararını bütün mahalle öderdi — devlet gözetimi değil, komşuluk dayanışması işi yürütüyordu. · mahalle-tes"
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "darussaade-agasi-harem-hiyerarsisi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Harem otuz sekiz yıl bir sarayın YAN ODASIYDI, sonra kendi başına bir teşkilat oldu. · darussaade-agasi-harem-hiyerarsisi"
+  },
+  {
+   "g": "EKOKUMA_TOPLUM",
+   "id": "feshane-osmanli-sanayilesme-girisimi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "insa"
+   ],
+   "baslik": "Bir ordunun şapkasını üretmek için kurulan fabrika, yüz yıl sonra bin insanı çalıştıran bir sanayi devi oldu. · feshane-osmanli-sanayilesme-girisimi"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya-iran-topraklari-tartisma",
+   "tur": "tartisma",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "Osmanlı, aldığı İran topraklarını neden hep geri verdi? · Tebriz üç kez, Bağdat iki kez el değiştirdi — ordu her seferinde galip ayrıldı, ama kazandığı toprakta kalamadı."
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya-girit-seferinin-bedeli",
+   "tur": "tartisma",
+   "kelime": [
+    "insa"
+   ],
+   "baslik": "Yirmi bir yıl süren Kandiye kuşatması dünya askerî tarihinin en uzun kuşatmalarından biri sayılır — ama TDV'nin okunan maddeleri insan ve para kaybını sayıyla vermiyor. ·"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya-donanmanin-buyuk-zaferleri",
+   "tur": "tartisma",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Talihsizliklerin karşısında bir de bu liste durur: gemilerin karadan yürütüldüğü bir kuşatma, sayıca üstün bir Haçlı donanmasının dağıtıldığı bir meydan savaşı, bir boğaz"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "savas2-atina-1687-parthenon-patlamasi",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "cami"
+   ],
+   "baslik": "Atina'nın kaybı ve Parthenon'un patlaması (21-26 Eylül 1687) · Yüzyıllardır cami olarak kullanılan bir tapınağa cephane istiflendi; bir Venedik güllesi onu tarihin en ünl"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya4-rusyanin-denize-cikisi-sicak-denizler",
+   "tur": "tartisma",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Rusya'nın üç denizi vardı — üçü de ya donuyor ya kilitliydi. Karadeniz dördüncü seçenek değil, TEK seçenekti. · Petersburg'un kendi limanı bile yılın birkaç ayı buzla kap"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya4-vahran-mersalkebir-1708",
+   "tur": "tartisma",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Osmanlı 1516'da Cezayir'e yerleşti; bu iki liman şehri kapının hemen dibinde durduğu hâlde İSPANYA'DA kalmaya 192 yıl devam etti — çünkü onlar da tıpkı Kandiye ve Korfu g"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya6-vehhabiler-kimdir-ve-arabistan-sinirlari",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Vehhâbîler kimdir ve Osmanlı Arabistan'ın hangi köşelerine hiç giremedi · Bir kadının oğlu, çölün ortasındaki küçük bir vahada bir emirle ittifak kurdu — ve doksan yıl so"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya7-istanbulun-buyuk-depremleri",
+   "tur": "sok-haberler",
+   "kelime": [
+    "cami",
+    "kubbe"
+   ],
+   "baslik": "İstanbul'un büyük depremleri — dört yüzyılda dört kıyamet · 1509'da şehri yıkan deprem halk dilinde 'Küçük Kıyamet' adını aldı; iki buçuk asır sonra 1766'da fetih camisin"
+  },
+  {
+   "g": "EKOKUMA_DUNYA",
+   "id": "dunya7-istanbulun-buyuk-yanginlari",
+   "tur": "sok-haberler",
+   "kelime": [
+    "yangin",
+    "ahsap"
+   ],
+   "baslik": "İstanbul'un büyük yangınları — ahşap bir şehrin bedeli · Bir kalafatçının ateşi Cibali'den başlayıp şehrin beşte birini kül etti; yirmi yedi yıl sonra bir başka yangın ye"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "tartisma-idam-edilen-devlet-adamlari",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Makam en tehlikeli koltuktu: Osmanlı'da idam edilen sadrazamlar ve şeyhülislamlar · On dört yıl sadrazamlık yapıp hançerle öldürülen de vardı, dört ay sadrazamlık yapıp a"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-kemankes-mustafa-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Kemankeş (Kara) Mustafa Paşa · Hazineye yılda 6000 kese fazla kazandıran mali disiplini, onu saray çevresinde o kadar çok düşman kazandırdı ki altı yıl sonra aynı disipli"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-gedik-ahmed-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Gedik Ahmed Paşa · Osmanlı ordusunu ilk kez İtalya toprağına çıkaran kumandan, yeni padişahın kendisinden şüphelenmesi yüzünden bir saray ziyafetinde boğduruldu. · kimdir"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-koca-ragib-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "yangin"
+   ],
+   "baslik": "Koca Ragıp Paşa · Yedi Yıl Savaşları Avrupa'yı yakıp yıkarken Osmanlı'yı bu yangının dışında tutmayı başaran şair-sadrazam, altı yıllık görevinin sonunda kendi yatağında "
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-koprulu-mehmed-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Köprülü Mehmed Paşa · Seksen yaşına yakın bir aşçı çırağı, mührü ancak padişaha ve valide sultana kendi koşullarını dikte ettirdikten sonra aldı — ve on üç sadrazamın sek"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-koprulu-fazil-ahmed-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Köprülüzâde Fâzıl Ahmed Paşa · Babası sert bir disiplinle devleti ayağa kaldırmıştı; o, aynı otoriteyi hoşgörü ve bilgiyle sürdürüp on beş yılda Girit'i, Podolya'yı ve Uk"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-merzifonlu-kara-mustafa-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Merzifonlu Kara Mustafa Paşa · Dört yaşında yetim kalıp Köprülü ailesinin himayesinde büyüyen bir çocuk, otuz yıl sonra Viyana kapılarına kadar ordu yürüttü — ve orada al"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-mustafa-resid-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "mimar"
+   ],
+   "baslik": "Mustafa Reşid Paşa · Paris ve Londra'da öğrendiği Avrupa diplomasisini bir fermana döktü ve 1839'da Gülhane'de okuttu — Tanzimat'ın mimarı sayılır, ama altı kez sadrazam "
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "tartisma-2viyana-bozgun-sebepleri",
+   "tur": "tartisma",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Viyana'da Osmanlı'yı yenen şey neydi? Top, sayı, yeniçeri ve bir hanın sessizliği · Yeniçeriler tüfekleriyle siperlerde bekletilirken kale düşecek sanılıyordu; düşman gel"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "savas-hikayesi-parkan-1683",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Parkan Muharebesi (7-9 Ekim 1683) · İlk gün Osmanlı pusu kurup kazandı, kral neredeyse öldürülüyordu; iki gün sonra aynı ordu bir nehir kıyısında sırtı köprüye dayalı hal"
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "sebep-sonuc-don-volga-kanal-projesi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "kanal"
+   ],
+   "baslik": "Osmanlı, Hazar'a donanma taşıyacak bir kanal kazmaya çalıştı — ama proje aynı anda üç ayrı yerden çöktü: mühendislik, müttefik ihaneti ve İstanbul'un dikkatinin Kıbrıs'a "
+  },
+  {
+   "g": "EKOKUMA_VEZIR",
+   "id": "kimdir-rami-mehmed-pasa",
+   "tur": "kimdir",
+   "kelime": [
+    "mimar"
+   ],
+   "baslik": "Râmi Mehmed Paşa · Avrupalı delegeleri diplomatik ustalığıyla etkileyen barış mimarı, üç yıl sonra kendisini sadrazam yapan şeyhülislama karşı bir isyanı ateşleyip tahtın"
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "sebep-sonuc-cinar-vakasi-1656",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Ödenmeyen maaş bir meydanı idam sehpasına çevirdi — ve altı ay sonra seksen yaşında bir adam devleti kurtarmaya çağrıldı. · sebep-sonuc-cinar-vakasi-1656"
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "sebep-sonuc-bahcesaray-1681",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "bahce"
+   ],
+   "baslik": "Sekiz yıl ve binlerce can pahasına alınan bir kale — antlaşma masaya oturduğunda çoktan değersizleşmişti. · sebep-sonuc-bahcesaray-1681"
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "savas-zenta-1697",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Zenta Muharebesi (11 Eylül 1697) · Ordu bir nehri ikiye bölünmüş hâlde geçerken yakalandı — sadrazam, kendi kestirdiği köprünün başında kılıcıyla dururken öldü. · savas-z"
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "teknik-dogu-afrika-eyaletleri-idari-yapi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Kuzey Afrika'da 'ocak' yönetiyordu, Doğu Afrika'da başka bir sorun vardı: sınırın KENDİSİ hiç net değildi. · teknik-dogu-afrika-eyaletleri-idari-yapi"
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "tartisma-i-mahmud-diri-gomulme-rivayeti",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "'Canlı canlı gömülen padişah' — hikâye gerçekte KİMİN cenazesiydi? · Rivayet bir Fransız subayının anlattığı isimsiz bir olaydan doğdu — ve zamanla yanlış padişaha yapışt"
+  },
+  {
+   "g": "EKOKUMA_RIVAYET",
+   "id": "tartisma-cesme-sonrasi-venedige-nota",
+   "tur": "tartisma",
+   "kelime": [
+    "cesme"
+   ],
+   "baslik": "Rus filosu yarım Avrupa'yı dolaştı — Osmanlı'nın protestosu yanlış adrese gitti · Baltık'tan Cebelitarık'a, oradan Ege'ye: donanma koca bir kıtayı turladı. Osmanlı'nın öf"
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "tartisma-mustafa-i-kizlaragasi",
+   "tur": "tartisma",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Halk anlatısı onu 'padişahı kilitleyen adam' yapar; TDV'nin gerçek anlattığı kızlarağası ise kilitleyen değil, İKİ CÜLUSU DA yöneten bir saray operatörü. · tartisma-musta"
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "supheli-olum-cem-oguz-han",
+   "tur": "tartisma",
+   "kelime": [
+    "han "
+   ],
+   "baslik": "Cem Sultan sürgünde ağıt yazdığı bir oğlunu kaybetti — ama TDV kimin öldürdüğünü söylemiyor. · supheli-olum-cem-oguz-han"
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "tartisma-ibrahim-skandal-figurleri",
+   "tur": "tartisma",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Bir büyücü-hoca kazaskerliğe yükseldi, bir sadrazam öldükten sonra bin parçaya bölündüğü için adını aldı, bir vali karısını saraya vermeyi reddedip isyan etti — üçü de ay"
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "sebep-sonuc-mehmed-iv-avcilik",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "Yedi yaşında tahta çıkan çocuk, yirmi yıl süren Köprülü vesayetinde ava alıştı — vesayet kalkınca, artık kurumsallaşmış bu tutku onu tahtından etti. · sebep-sonuc-mehmed-"
+  },
+  {
+   "g": "EKOKUMA_PADISAH",
+   "id": "tartisma-osmanli-darbeleri-tipoloji",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "TDV'nin kendisi 'siyasi darbe' ile 'askeri darbe' ayrımını hiç kullanmıyor — dönemin kendi kelimeleriyle (hal', vak'a, isyan) anlatıyor. Ayrımı akademik literatür yapıyor"
+  },
+  {
+   "g": "EKOKUMA_KARADENIZ",
+   "id": "tartisma-voyvodaliklar-ittifak-osmanli-topragi",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Yabancı devletle ittifak yapan bir voyvodalık 'Osmanlı toprağı' sayılır mı? · Eflak, Boğdan ve Erdel'in iç işleri kendilerine aitti ama dış işlerinde İstanbul'a bağlıydıl"
+  },
+  {
+   "g": "EKOKUMA_ANTLASMA4",
+   "id": "antlasma4-karaman-1415",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "surlar"
+   ],
+   "baslik": "Karamanoğulları ile barış (1415) · Rumeli'de kardeşiyle savaşırken Bursa'yı yakan komşusuna Çelebi Mehmed, birliği sağlar sağlamaz Konya surlarının önünde cevap verdi. · "
+  },
+  {
+   "g": "EKOKUMA_ANTLASMA4",
+   "id": "antlasma4-memluk-1491",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Osmanlı-Memlük barışı (1491) · Altı yıl Çukurova'da el değiştiren kaleler kimseye kesin zafer vermedi; Tunus sultanının aracılığıyla yapılan barış, Adana ve Tarsus'u Mekk"
+  },
+  {
+   "g": "EKOKUMA_ANTLASMA4",
+   "id": "antlasma4-kasrisirin-dayanak-sayimi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "kasr"
+   ],
+   "baslik": "Kasr-ı Şirin niçin hep geri dönülen antlaşma oldu? Ona dayanan barışlar · 1639'dan sonra Osmanlı ile İran en az beş kez savaştı; aradaki kazançlar ya kısa sürede geri kay"
+  },
+  {
+   "g": "EKOKUMA_AVUSTURYA",
+   "id": "avusturya-prens-eugen-hafiza",
+   "tur": "dis-yankilar",
+   "kelime": [
+    "saray",
+    "meydan"
+   ],
+   "baslik": "Prens Eugen (Savoyalı Eugen) Avusturya hafızasında: \"soylu şövalye\" miti ve Viyana'daki izleri · Osmanlı kroniklerinde Eugen'in adı çoğu zaman ağır bir yenilginin yanında"
+  },
+  {
+   "g": "EKOKUMA_AVUSTURYA",
+   "id": "avusturya-osmanli-askeri-geri-kalis-1683-1718",
+   "tur": "tartisma",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Osmanlı ordusu Avusturya karşısında nerede geri kaldı? (Viyana 1683 – Pasarofça 1718) · 1683–1718 arasında Osmanlı ordusu meydan savaşlarında art arda yenildi: Viyana, Ze"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "yirmisekiz-elciligin-onemi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "imar"
+   ],
+   "baslik": "Yirmisekiz Çelebi'nin Paris elçiliği niçin önemli · Enver Ziya Karal'ın sözüyle 'Garp'ta açılmış ilk pencere': bir elçiye ilk kez resmen 'Fransa'nın imar ve bilgisinden u"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "yirmisekiz-merak-yolculuk",
+   "tur": "magazin",
+   "kelime": [
+    "kanal"
+   ],
+   "baslik": "İstanbul'dan Paris'e: kalyon, karantina, kanallar · Kırk altı günlük deniz yolu, salgın yüzünden bir adada karantina ve Marsilya yerine kanallardan dolaşan bir güzergâh. "
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "yirmisekiz-merak-kabul-toreni",
+   "tur": "magazin",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "On iki yaşındaki kralın huzurunda: tablo, madalyon ve gazete · Kabul töreni o kadar ses getirdi ki resmi yapıldı, madalyonu basıldı, gazetede ayrıntılı anlatıldı. · yirmi"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "yirmisekiz-merak-versailles",
+   "tur": "magazin",
+   "kelime": [
+    "cesme",
+    "saray"
+   ],
+   "baslik": "Versailles karşısında bir teselli: 'Dünya müminin zindanı, kâfirin cennetidir' · Saraylara, havuzlara, çeşmelere hayran kalan elçi, bu hayranlığı bilinen bir sözle dengel"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-mimari-ve-sehir",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "bent",
+    "cesme",
+    "kosk"
+   ],
+   "baslik": "Lâle Devri İstanbul'u: kasırlar, çeşmeler, bentler ve yeni yollar · Sâdâbâd iki ayda bitti; Kâğıthane deresinin iki yakası beyaz köşklerle doldu ve TDV'nin deyişiyle Vers"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-onemli-insanlar",
+   "tur": "kimdir",
+   "kelime": [
+    "insa"
+   ],
+   "baslik": "Lâle Devri'nin önemli insanları · Lâle Devri kadrosu · Bir padişah, bir sadrazam, bir elçi, bir matbaacı, iki büyük şair, bir minyatürcü — ve dönemi bitiren bir yeniçeri."
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "lale-devri-bitisi-patrona-isyani",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "saray",
+    "insa"
+   ],
+   "baslik": "Lâle Devri nasıl bitti: Patrona Halil İsyanı (25 Eylül – 25 Kasım 1730) · Beyazıt'ta toplanan bir avuç insan üç günde sadrazamın idamını, bir haftada padişahın tahttan in"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "kimdir-patrona-halil",
+   "tur": "kimdir",
+   "kelime": [
+    "hamam"
+   ],
+   "baslik": "Patrona Halil · Patrona Halil · Kalyonda leventlik yaptığı için 'Patrona' denen bir yeniçeri; hamam tellâğıyken bir padişahı tahttan indirdi, 100.000 altını 'İstanbul zat"
+  },
+  {
+   "g": "EKOKUMA_LALE",
+   "id": "patrona-isyancilarin-yaptiklari",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "carsi",
+    "kosk"
+   ],
+   "baslik": "İsyancıların İstanbul'u: yağmalar, sürüklenen cesetler, yıkılan köşkler (Ekim–Kasım 1730) · Padişah değişti ama sokak düzelmedi: çarşılar yağmalandı, konaklar basıldı, Sâ"
+  },
+  {
+   "g": "EKOKUMA_DIPLOMASI",
+   "id": "diplomasi-konsoloslugun-dogusu",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Konsolosluğun doğuşu: İtalyan tüccar kolonilerinden 1963 Viyana Sözleşmesi'ne · Konsolos başlangıçta bir devletin elçisi değil, yabancı bir limandaki tüccarlarının başı v"
+  },
+  {
+   "g": "EKOKUMA_ANTLASMA6",
+   "id": "antlasma6-trianon-1920",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "insa"
+   ],
+   "baslik": "Trianon Antlaşması (1920): Macaristan'ın toprak ve insan kaybı · Bin yıllık Macar krallığının sınırları bir günde yeniden çizildi; sonraki on sekiz yıl, antlaşmayı gözden"
+  },
+  {
+   "g": "EKOKUMA_CAMITARZ",
+   "id": "camitarz-bes-donem",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami"
+   ],
+   "baslik": "Osmanlı Cami Mimarisinde Beş Üslup Dönemi · Erken Osmanlı'dan 19. yüzyıl ampir-eklektik üsluba, yaklaşık beş asırlık bir mimari yolculuk. · camitarz-bes-donem"
+  },
+  {
+   "g": "EKOKUMA_CAMITARZ",
+   "id": "camitarz-bursa-ulucami",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "mimar",
+    "cami",
+    "kubbe"
+   ],
+   "baslik": "Bursa Ulu Camii — Erken Osmanlı'nın Çok Kubbeli Başyapıtı · 1399-1400'de tamamlanan yirmi kubbeli Ulu Cami, merkezî tek kubbeye henüz ulaşmamış erken Osmanlı mimarisinin "
+  },
+  {
+   "g": "EKOKUMA_CAMITARZ",
+   "id": "camitarz-nusretiye-camii",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "cami",
+    "insa"
+   ],
+   "baslik": "Nusretiye Camii — 19. Yüzyıl Ampir-Barok Karışımı Üslup · Tophane'de 1823-1826 arasında inşa edilen Nusretiye Camii, Avrupa'nın barok ve empire (ampir) üsluplarını harman"
+  },
+  {
+   "g": "EKOKUMA_TAMAMLA",
+   "id": "sebep-sonuc-hibetullah-sultan-dogum-senligi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Bir şehzadenin ya da sultanın doğumu, sünnet veya düğün kadar sık olmasa da, kendi başına bir saray şenliği ve edebî eser konusu olabilirdi. · sebep-sonuc-hibetullah-sult"
+  },
+  {
+   "g": "EKOKUMA_KURUM2",
+   "id": "teknik-muhendishane-i-bahri-i-humayun",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "cesme"
+   ],
+   "baslik": "Mühendishâne-i Bahrî-i Hümâyun (1775): Çeşme'den doğan ilk modern okul · Çeşme'de yanan bir donanmanın külünden bir okul doğdu — ilk müdürü Osmanlı değil, Macar asıllı bi"
+  },
+  {
+   "g": "EKOKUMA_KURUM2",
+   "id": "teknik-nizam-i-cedid",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Nizâm-ı Cedîd (1792-1807): sebebi, içeriği, direnişi ve sonu · Bir ordu savaş meydanında değil, oy birliğiyle ateşkes isteyerek yenildiğini kabul etti — ve o toplantıdan "
+  },
+  {
+   "g": "EKOKUMA_KARSI",
+   "id": "karsi-nigbolu-1396",
+   "tur": "karsi-anlati",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Niğbolu Savaşı: Haçlılar ve Macarlar gözünden · Fransa ve Burgonya'da Niğbolu büyük bir felaket olarak yazıldı; bozgunun sebebi Haçlı şövalyelerinin kibrinde, disiplinsiz"
+  },
+  {
+   "g": "EKOKUMA_KARSI",
+   "id": "karsi-mohac-1526",
+   "tur": "karsi-anlati",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Mohaç Meydan Muharebesi: Macarların gözünden · Osmanlı için Mohaç, iki saatte kazanılmış parlak bir zaferdir. Macarlar içinse beş yüz yıldır 'suçluyu' aradıkları bir mill"
+  },
+  {
+   "g": "EKOKUMA_KARSI",
+   "id": "karsi-viyana-1683",
+   "tur": "karsi-anlati",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "II. Viyana Kuşatması ve Kahlenberg: Avusturya, Lehistan ve Batı Avrupa gözünden · Avusturya ve Lehistan'da 12 Eylül 1683, Hristiyan Avrupa'nın Tanrı'nın yardımıyla kurtar"
+  },
+  {
+   "g": "EKOKUMA_KARSI",
+   "id": "karsi-kirim-1783",
+   "tur": "karsi-anlati",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Kırım'ın Rusya'ya ilhakı: Rus İmparatorluğu ve Kırım Tatarları gözünden · II. Katerina'nın manifestosu ilhakı, Tatarlara verilen özgürlüğün Osmanlı müdahalesiyle bozulmas"
+  },
+  {
+   "g": "EKOKUMA_SAVAS1770",
+   "id": "savas-kartal-kagul-1770",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "cesme",
+    "kopru",
+    "meydan"
+   ],
+   "baslik": "Kartal (Kagul) Bozgunu (1 Ağustos 1770) · Çeşme'de donanma yanmasından üç hafta sonra, sayıca kat kat üstün ana Osmanlı ordusu Tuna boyunda bir gece baskınıyla dağıldı; a"
+  },
+  {
+   "g": "EKOKUMA_AKDENIZ",
+   "id": "tartisma-akdeniz-vehran-onemi",
+   "tur": "tartisma",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Vehrân (Oran): iki asır boyunca alınıp verilen bir liman, Cezayir Ocaklığı için neden vazgeçilmezdi? · Şehir 1509'dan 1792'ye kadar üç kez el değiştirdi — İspanya'nın top"
+  },
+  {
+   "g": "EKOKUMA_1806",
+   "id": "kabakci-isyani-niye-cikti",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "mimar"
+   ],
+   "baslik": "İsyanı başlatan, yamaklara Nizâm-ı Cedîd elbisesi giydirileceği söylentisiydi; TDV'ye göre arka plandaki gerçek mimarlar sadâret kaymakamı ile şeyhülislâmdı. · kabakci-is"
+  },
+  {
+   "g": "EKOKUMA_BOLGE0073",
+   "id": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "insa"
+   ],
+   "baslik": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve "
+  },
+  {
+   "g": "EKOKUMA_BOLGE0073",
+   "id": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Mısır'ın yapıp Osmanlı'nın yapamadığı neydi? Bir vilâyetin modernleşmesi ile bir imparatorluğunki · Kaynaklar tek bir sebep vermez. Mehmed Ali rakip askerî kastını 1811'd"
+  },
+  {
+   "g": "EKOKUMA_P75A",
+   "id": "teknik-ilk-nufus-sayimi-1830-31",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "insa",
+    "yapi"
+   ],
+   "baslik": "Yeniçeri Ocağı kalkınca devletin elinde yeni ordusunu kuracak insan listesi yoktu — ilk düzenli sayım önce askerlik ve vergi için, yalnız erkekleri sayarak yapıldı. · tek"
+  },
+  {
+   "g": "EKOKUMA_P75A",
+   "id": "teknik-galata-koprusu-ne-zaman-acildi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "kopru"
+   ],
+   "baslik": "“Galata Köprüsü ne zaman açıldı?” sorusuna TDV'nin iki maddesi iki yıl veriyor — 1844 ve 1845 — açılış gününü ise hiçbiri yazmıyor. · teknik-galata-koprusu-ne-zaman-acild"
+  },
+  {
+   "g": "EKOKUMA_P75A",
+   "id": "teknik-tunel-karakoy-beyoglu-1875",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "tunel"
+   ],
+   "baslik": "Bir Fransız turist 1867'de Galata yokuşunda yürüyen kalabalığı görüp yeraltı demiryolu tasarladı — Tünel 17 Ocak 1875'te açıldı. · teknik-tunel-karakoy-beyoglu-1875"
+  },
+  {
+   "g": "EKOKUMA_P75A",
+   "id": "teknik-klasik-donemde-dis-borc-var-miydi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Osmanlı yöneticileri dışarıdan borç almaktan şiddetle kaçındı; 1850-51'de imzalanan ilk anlaşma bile onaylanmadı — ilk borç sözleşmesi 24 Ağustos 1854'te yapıldı. · tekni"
+  },
+  {
+   "g": "EKOKUMA_P75B",
+   "id": "sebep-sonuc-p75b-donanma-iskenderiye-1839",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Bir kaptan-ı deryanın kendi donanmasını isyancı valinin limanına götürmesi tek bir ihanet anı değil, korku, rekabet, söylenti ve dışarıdan cesaretlendirmenin birleştiği b"
+  },
+  {
+   "g": "EKOKUMA_P75B",
+   "id": "savas-p75b-sinop-1853",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Sinop Baskını (30 Kasım 1853): fırtınadan sığınan filo · Fırtınadan sığınmak için Sinop limanına giren hafif Osmanlı filosu, Rus hat gemilerinin obüs ateşine karşı bir gü"
+  },
+  {
+   "g": "EKOKUMA_P75B",
+   "id": "tartisma-p75b-donanma-yakilmaya-musait-mi",
+   "tur": "tartisma",
+   "kelime": [
+    "cesme",
+    "liman",
+    "meydan"
+   ],
+   "baslik": "Sinop, Çeşme, Navarin, İnebahtı: Osmanlı donanmasını dört kez yakan ortak bir sebep var mı? · Tarihseverlerin sık sorduğu 'bu donanma niçin bu kadar yakılmaya müsait?' so"
+  },
+  {
+   "g": "EKOKUMA_P75B",
+   "id": "sebep-sonuc-p75b-soci-tuapse-1838",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Rusya 1829'da Osmanlı'nın Çerkezler üzerindeki haklarından vazgeçtikten sonra 1838'de Soçi ve Tuapse limanlarını alarak Çerkesya'yı denizden koparmaya çalıştı; bu, on yıl"
+  },
+  {
+   "g": "EKOKUMA_P75C",
+   "id": "balta-limani-getirdikleri-goturdukleri-1838",
+   "tur": "tartisma",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Balta Limanı Antlaşması: Osmanlı ne kazanmayı umdu, ne verdi? · Bir gümrük tarifesi yenilemesi olarak başlayan pazarlık, dört yıl sonra Mısır valisini zayıflatma hesabıyl"
+  },
+  {
+   "g": "EKOKUMA_KOLEMEN",
+   "id": "tosun-pasa-film-mi-tarih-mi",
+   "tur": "karsi-anlati",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Kemal Sunal'ın Tosun Paşa'sı bu Tosun Paşa mı? — halk hafızası ile kaynağın ayrıldığı yer · Türkiye'de \"Tosun Paşa\" adı bir kumandanı değil bir komediyi çağırır. Kart iki"
+  },
+  {
+   "g": "EKOKUMA_P76B",
+   "id": "banka-klasik-donem-banka-islevi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Banka yokken bankanın işini kim yapıyordu? Cevap tek bir kurum değil, üç ayrı yapı: sarraflar, para vakıfları ve iltizam düzeninin kendisi. · banka-klasik-donem-banka-isl"
+  },
+  {
+   "g": "EKOKUMA_P76B",
+   "id": "seyahat-abdulaziz-1867-ingiltere",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "saray",
+    "yapi"
+   ],
+   "baslik": "Londra ayağı dokuz gün sürdü: Dover'a çıktı, Buckingham Sarayı'nda kaldı, Spithead'de kendisi için donanma geçit töreni yapıldı ve Dizbağı nişanı verildi. · seyahat-abdul"
+  },
+  {
+   "g": "EKOKUMA_P76B",
+   "id": "abdulhamid-donemi-yenilikler",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Aynı otuz üç yıl, Osmanlı'nın en yoğun okul, demiryolu ve telgraf yapımı dönemidir — bugün adı bilinen yüksek okulların çoğu bu dönemde açıldı. · abdulhamid-donemi-yenili"
+  },
+  {
+   "g": "EKOKUMA_P76B",
+   "id": "ilk-meclis-mebusan-secim-ve-yapi",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "İlk Osmanlı meclisinde mebusları halk seçmedi: daha önce halkın seçtiği il ve ilçe meclislerinin üyeleri seçti — ve kontenjan baştan belirlenmişti. · ilk-meclis-mebusan-s"
+  },
+  {
+   "g": "EKOKUMA_P76C",
+   "id": "babiali-baskini-1913-enver-yakup-cemil",
+   "tur": "sok-haberler",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Bâbıâli Baskını: Edirne'yi kurtarmak için yapılan darbe, Edirne'yi Edirne'de bıraktı · 23 Ocak 1913'te bir grup İttihatçı at üstünde hükümet konağına girdi; Harbiye nâzır"
+  },
+  {
+   "g": "EKOKUMA_P76D",
+   "id": "kimdir-ali-suavi-ve-ciragan-baskini",
+   "tur": "kimdir",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Gazeteci, hoca, sürgün, mektep müdürü — ve bir sabah iki yüz elli kişiyle saray basan adam. Ali Suâvi'nin sonu, başladığı yerden çok uzaktı. · kimdir-ali-suavi-ve-ciragan"
+  },
+  {
+   "g": "EKOKUMA_P76D",
+   "id": "sebep-sonuc-kuleli-vakasi-1859",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "cami"
+   ],
+   "baslik": "Osmanlı tarihinde bir padişaha karşı kurulan ilk gizli cemiyet, camide bir baskınla dağıtıldı — ve idam kararları infaz edilmedi. · sebep-sonuc-kuleli-vakasi-1859"
+  },
+  {
+   "g": "EKOKUMA_P76D",
+   "id": "sebep-sonuc-iskenderiye-1882-ingiliz-cikarmasi",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Bir donanmanın limanda tehlikede olduğu gerekçesi, yetmiş yıl sürecek bir işgalin başlangıcı oldu. · sebep-sonuc-iskenderiye-1882-ingiliz-cikarmasi"
+  },
+  {
+   "g": "EKOKUMA_P76E",
+   "id": "teknik-osmanli-demiryollari",
+   "tur": "teknik-bilimsel",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Devletin parası yoktu, demiryolu ise pahalıydı: hat nasıl yapıldı, bedeli kim ödedi? · teknik-osmanli-demiryollari"
+  },
+  {
+   "g": "EKOKUMA_P76E",
+   "id": "savas-hikayesi-domeke-1897",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Otuz günde Atina yolu açıldı; sonra ordu geri çağrıldı. Meydanda kazanılan bir savaş masada nasıl kaybedilir? · savas-hikayesi-domeke-1897"
+  },
+  {
+   "g": "EKOKUMA_P76F",
+   "id": "p76f-libya-direnis",
+   "tur": "tartisma",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Şehirler düştü, vilâyet düşmedi: Trablus, Bingazi, Derne ve Tobruk'ta ne oldu? · Dört liman on üç günde elden çıktı; buna rağmen İtalyanlar savaşın sonuna kadar kıyı şeri"
+  },
+  {
+   "g": "EKOKUMA_P76F",
+   "id": "p76f-karadeniz-baskini-sebep",
+   "tur": "tartisma",
+   "kelime": [
+    "liman"
+   ],
+   "baslik": "Karadeniz Baskını: stratejik bir hamle miydi, yoksa kapıyı kapatmak mı? · 29 Ekim 1914'te Rus limanlarının topa tutulması askerî bir kazanç getirmedi; getirdiği şey, geri"
+  },
+  {
+   "g": "EKOKUMA_P76F",
+   "id": "p76f-cihad-ilani-1914",
+   "tur": "tartisma",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Cihâd ilânı niçin beklenen etkiyi doğurmadı? · Halife sıfatıyla yapılan çağrı, sömürge idaresindeki müslümanları ayaklandırmayı hedefliyordu; çağrının kendisi bir ittifak"
+  },
+  {
+   "g": "EKOKUMA_P77A",
+   "id": "p80-saray-ovasi-ilhak-1448",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Osmanlı, sınırından yüzlerce kilometre içerideki Saray ovasını nasıl ilhak etti? Aradaki topraklar kimindi? · p80-saray-ovasi-ilhak-1448"
+  },
+  {
+   "g": "EKOKUMA_P77A",
+   "id": "p77a-kut-zaferi-nasil",
+   "tur": "sebep-sonuc",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Bir ordu, kendi aldığı şehirde nasıl teslim alınır? Kût kuşatmasında doğru yapılanlar ve İngilizlerin açmazı. · p77a-kut-zaferi-nasil"
+  },
+  {
+   "g": "EKOKUMA_P77B",
+   "id": "p77b-sarikamis-harekati-1914",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "yapi"
+   ],
+   "baslik": "Sarıkamış Harekâtı: amaç neydi, neden kışın yapıldı, nasıl kaybedildi? · Rus ordusunu arkasından sarıp Kafkasya'nın kapısını açmak isteyen bir kuşatma planı, karda yürüye"
+  },
+  {
+   "g": "EKOKUMA_P77B",
+   "id": "p77b-birinci-kanal-harekati-1915",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "kanal"
+   ],
+   "baslik": "Birinci Kanal Harekâtı: Süveyş'e neden gidildi, neden geri dönüldü? · Sina çölünü aşıp Süveyş Kanalı'na dayanan küçük bir Osmanlı kuvveti, Mısır'da bir halk ayaklanması b"
+  },
+  {
+   "g": "EKOKUMA_P77B",
+   "id": "p77b-abdulhamid-ittihad-i-islam-guc-mu-koz-mu",
+   "tur": "tartisma",
+   "kelime": [
+    "saray"
+   ],
+   "baslik": "Abdülhamid'in İslâm birliği siyaseti: gerçek bir güç mü, diplomatik bir koz mu? · Halifelik vurgusu Avrupa'yı gerçekten tedirgin etti; ama padişahın etkisini abartan rapo"
+  },
+  {
+   "g": "EKOKUMA_P77B",
+   "id": "p77b-sakarya-meydan-muharebesi-1921",
+   "tur": "savas-hikayesi",
+   "kelime": [
+    "meydan"
+   ],
+   "baslik": "Sakarya Meydan Muharebesi: yirmi iki günde Ankara'nın kapısında dönen savaş · Eskişehir'in kaybından sonra Sakarya'nın doğusuna çekilen Türk ordusu, Ankara'ya yönelen Yun"
+  },
+  {
+   "g": "EKOKUMA_P77C",
+   "id": "ermeni-1915-soykirim-tehcir-mukatele-tartisma",
+   "tur": "tartisma",
+   "kelime": [
+    "insa"
+   ],
+   "baslik": "1915: soykırım mı, tehcir mi, mukatele mi? — tarafların karşılıklı iddiaları · Olayın VARLIĞI tartışmalı değil: 1915'te Ermeniler kanunla yerlerinden edildi ve çok sayıda"
+  }
+ ]
+}

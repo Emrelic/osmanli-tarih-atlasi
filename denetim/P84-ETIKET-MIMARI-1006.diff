@@ -1,0 +1,270 @@
+diff --git a/data/ekokuma_camitarz.js b/data/ekokuma_camitarz.js
+index 90b2a76e..1b4393de 100644
+--- a/data/ekokuma_camitarz.js
++++ b/data/ekokuma_camitarz.js
+@@ -13,7 +13,7 @@
+ window.EKOKUMA_CAMITARZ = [
+   {
+     id: "camitarz-bes-donem",
+-    tur: "teknik-bilimsel",
++    tur: "mimari",
+     baslik: "Osmanlı Cami Mimarisinde Beş Üslup Dönemi",
+     kisa: "Erken Osmanlı'dan 19. yüzyıl ampir-eklektik üsluba, yaklaşık beş asırlık bir mimari yolculuk.",
+     metin: "Osmanlı cami mimarisi tek bir üslupta donmadı; yaklaşık beş asır boyunca birbirini izleyen, her biri kendi dönemin zevkini ve teknik birikimini taşıyan aşamalardan geçti.\n\n" +
+@@ -32,7 +32,7 @@ window.EKOKUMA_CAMITARZ = [
+   },
+   {
+     id: "camitarz-bursa-ulucami",
+-    tur: "teknik-bilimsel",
++    tur: "mimari",
+     baslik: "Bursa Ulu Camii — Erken Osmanlı'nın Çok Kubbeli Başyapıtı",
+     kisa: "1399-1400'de tamamlanan yirmi kubbeli Ulu Cami, merkezî tek kubbeye henüz ulaşmamış erken Osmanlı mimarisinin anıtsal örneğidir.",
+     metin: "Bursa Ulu Camii, I. Bayezid (Yıldırım) döneminde inşa edilip 802 (1399-1400) yılında tamamlandı — minberindeki kitabe bu tarihi taşır. Mimarının kesin kimliği tartışmalıdır; Ali Neccâr ve Hacı İvaz Paşa adları kaynaklarda geçen adaylardandır.\n\n" +
+@@ -46,7 +46,7 @@ window.EKOKUMA_CAMITARZ = [
+   },
+   {
+     id: "camitarz-nusretiye-camii",
+-    tur: "teknik-bilimsel",
++    tur: "mimari",
+     baslik: "Nusretiye Camii — 19. Yüzyıl Ampir-Barok Karışımı Üslup",
+     kisa: "Tophane'de 1823-1826 arasında inşa edilen Nusretiye Camii, Avrupa'nın barok ve empire (ampir) üsluplarını harmanlayan bir 19. yüzyıl Osmanlı cami örneğidir.",
+     metin: "İstanbul Tophane'de 24 Şubat 1823'teki büyük bir yangının Top Arabacıları Kışlası ile birlikte yok ettiği eski mescidin yerine II. Mahmud'un emriyle yeni bir cami yaptırıldı. İnşaata Haziran 1823'te başlandı, yapı 8 Nisan 1826'da tamamlandı.\n\n" +
+diff --git a/data/ekokuma_lale.js b/data/ekokuma_lale.js
+index ba64c4d1..5257e97a 100644
+--- a/data/ekokuma_lale.js
++++ b/data/ekokuma_lale.js
+@@ -143,7 +143,7 @@ window.EKOKUMA_LALE = [
+   kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+ 
+ // ── YENİLEŞME: MİMARİ ──────────────────────────────────────────────────────
+-{ id:"lale-devri-mimari-ve-sehir", tur:"teknik-bilimsel",
++{ id:"lale-devri-mimari-ve-sehir", tur:"mimari",
+   baslik:"Lâle Devri İstanbul'u: kasırlar, çeşmeler, bentler ve yeni yollar",
+   olay:["1722-06-01|Sâdâbâd"],
+   kisa:"Sâdâbâd iki ayda bitti; Kâğıthane deresinin iki yakası beyaz köşklerle doldu ve TDV'nin deyişiyle Versailles'a bir nazire oldu.",
+diff --git a/data/ekokuma_mimari.js b/data/ekokuma_mimari.js
+index 81bd8bfd..5ceea608 100644
+--- a/data/ekokuma_mimari.js
++++ b/data/ekokuma_mimari.js
+@@ -70,42 +70,42 @@
+ // gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
+ window.EKOKUMA_MIMARI = [
+ 
+-{ id:"mimari-sultanahmet", tur:"teknik-bilimsel",
++{ id:"mimari-sultanahmet", tur:"mimari",
+   olay:["1606-10-11","1609-08-09"],
+   kisa:"Altı minareli ilk selâtin camii — ve hazineden, fetih zaferi olmadan yapılan ilki.",
+   metin:"Sultan Ahmed Camii, I. Ahmed'in emriyle 1609'da Atmeydanı'nda başlanıp 1620'de tamamlandı; mimarı, Mimar Sinan'ın yanında yetişmiş Sedefkâr Mehmed Ağa'dır. Yapı, klasik Osmanlı cami şemasının revaklı avlulu düzenini izler: yaklaşık 22,4 metre çapındaki merkezî kubbe dört büyük payeye oturur, dört yönde birer yarım kubbeyle desteklenir ve bu yarım kubbeler üçer eksedrayla genişletilir. Döneme kadar denenmemiş bir düzenlemeyle altı minare yapılmıştır — TDV, bunun Kâbe'yle 'eşitlik' iddiasına yol açtığına dair yaygın rivayeti doğrulamaz, yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydeder.\n\nYapıda kesme küfeki taşı ağırlıklı malzeme olarak kullanılmış; iç mekân 21.000'i aşkın İznik ve Kütahya çinisiyle, mermer, ahşap ve maden süslemelerle donatılmıştır. 17. yüzyılın ilk çeyreğine ait olan cami, klasik Osmanlı mimarisinin son evresini temsil ederken bazı bölümlerinde barok motiflerle de karşılaşılır — yaklaşan üslup değişiminin ilk izleri.\n\nAyrı bir not: caminin banisi I. Ahmed, camiyi bir fetih zaferine dayanmadan doğrudan hazineden yaptırmıştır; bu, dönemin bazı çevrelerince eleştiri konusu olmuştur, çünkü büyük selâtin camileri geleneksel olarak bir zaferin anısına yapılırdı.",
+   kesinlik:"kesin",
+   kaynak:"TDV: sultan-ahmed-camii-ve-kulliyesi", ic_not_kaynak:"eski kaynak: TDV: sultan-ahmed-camii-ve-kulliyesi (gövde okundu, HTTP 200). Tarih: data/olaylar_ek7.js:67 (t:1609-08-09, temel atma) ve data/olaylar_ek17.js:23 (Sedefkâr Mehmed Ağa'nın başmimarlığa atanması, 1606)." },
+ 
+-{ id:"mimari-suleymaniye", tur:"teknik-bilimsel",
++{ id:"mimari-suleymaniye", tur:"mimari",
+   olay:["1550-06-01","1557-10-16"],
+   kisa:"Mimar Sinan'ın kendi 'kalfalık eserim' dediği yapı — akustik için kubbeye gömülü 64 boş küp.",
+   metin:"Süleymaniye Camii ve Külliyesi, Kanûnî Sultan Süleyman adına Mimar Sinan'ın baş mimarlığında inşa edildi; temeli 13 Haziran 1550'de (27 Cemâziyelevvel 957) atılmış, yapı 15 Ekim 1557'de (21 Zilhicce 964) tamamlanmıştır. Kareye yakın dikdörtgen planlı (yaklaşık 69×62,3 m) camide merkezî kubbe 27,40 metre çapındadır ve iki yarım kubbeyle desteklenir. İç mekânı aydınlatan çok sayıda pencerenin yanında, kubbe içine sesi düzenlemek amacıyla yerleştirilmiş 64 adet boş küp bulunur — dönemin akustik mühendisliğine dair somut bir kanıttır.\n\nYapı düzgün kesme taştan inşa edilmiş, kubbeler ise tuğla örgü tekniğiyle örülmüştür. Tezyinatta 16. yüzyıl İznik çinileri ve renkli taş kakmalar kullanılmıştır. Külliye yalnız camiden ibaret değildir: medreseler, dârüşşifa (hastane) ve kütüphaneyi de içeren, klasik dönemin en büyük eğitim-hayır kompleksidir.\n\nTDV, yapıyı Osmanlı klasik mimarisinin 'zirve noktalarından biri' ve 'Sinan okulunun' en önemli örneklerinden biri olarak tanımlar; Sinan'ın kendisi bu eseri 'kalfalık eserim' diye nitelendirmiştir — asıl 'ustalık eserim' dediği Selimiye'den önceki büyük aşama.",
+   kesinlik:"kesin",
+   kaynak:"TDV: suleymaniye-camii-ve-kulliyesi", ic_not_kaynak:"eski kaynak: TDV: suleymaniye-camii-ve-kulliyesi (gövde okundu, HTTP 200). Tarih: data/olaylar_ek7.js:35 (t:1550-06-01, inşaat başlangıcı) ve data/olaylar_ek2.js:24 (t:1557-10-16, açılış)." },
+ 
+-{ id:"mimari-selimiye", tur:"teknik-bilimsel",
++{ id:"mimari-selimiye", tur:"mimari",
+   olay:["1568-01-01|Selimiye","1575-03-01"],  // PAKET-A2 13 Eyl: 1568-01-01'de 5 madde (Hollanda, İsveç, Lehistan, Habsburg…), yalnız Selimiye ilgili
+   kisa:"Sinan'ın 'ustalık eserim' dediği yapı — 31,3 metrelik kubbesiyle Ayasofya'yı geçmeyi hedefledi.",
+   metin:"Selimiye Camii ve Külliyesi (Edirne), II. Selim adına Mimar Sinan tarafından 1568'de başlanıp altı yıl süren bir inşaatla 1574'te tamamlandı; arastanın batı dükkânları, tonozlu örtü, dua kubbesi ve sıbyan mektebi ise II. Selim'in ölümünden sonra III. Murad döneminde Dâvud Ağa tarafından tamamlandı. Sekiz destekli merkezî kubbeli plan üzerine kurulu caminin kubbe çapı 31,30 metre, yüksekliği 42,25 metredir — Sinan'ın bu ölçüyle Ayasofya'nın kubbesini geçmeyi hedeflediği kabul edilir. Dört köşedeki minareler 70,89 metre yüksekliğinde ve üçer şerefelidir.\n\nYapıda sarımtırak renkte kesme taş kullanılmış, pencere ve kemerlerde iki renkli taş malzemeyle zenginleştirilmiştir. TDV, iç mekân tasarımını 'geniş ve ferah bir mekân bütünlüğü' olarak tanımlar; merkezî kubbeden kademeli yarım kubbeler ve kemerlerin birleşimi Osmanlı klasik mimarisinin en yüksek düzeyini temsil eder. Yapı UNESCO Dünya Mirası listesindedir.\n\nMimar Sinan'ın kendi tabiriyle bu yapı onun 'ustalık eserim' dediği eseridir — Süleymaniye'yi (kendi tabiriyle 'kalfalık eserim') aşan, meslek hayatının doruk noktası sayılan çalışması.",
+   kesinlik:"kesin",
+   kaynak:"TDV: selimiye-camii-ve-kulliyesi--edirne", ic_not_kaynak:"eski kaynak: TDV: selimiye-camii-ve-kulliyesi--edirne (gövde okundu, HTTP 200; ⚠️ soneksiz 'selimiye-camii-ve-kulliyesi' 302 ÖLÜ). Tarih: data/olaylar_ek14.js:51 (t:1568-01-01, inşaat başlangıcı) ve data/olaylar_ek2.js:25 (t:1575-03-01, tamamlanma)." },
+ 
+-{ id:"mimari-mostar-koprusu", tur:"teknik-bilimsel",
++{ id:"mimari-mostar-koprusu", tur:"mimari",
+   olay:["1566-01-01|Mostar"],
+   kisa:"28,59 metrelik tek kemer — 1993'te yıkıldı, 2004'te aslına uygun yeniden yapıldı.",
+   metin:"Mostar Köprüsü, Neretva nehri üzerinde, Mimar Sinan'ın öğrencisi Mimar Hayreddin tarafından Kanûnî Sultan Süleyman döneminde inşa edildi. İnşaata Muharrem 965 başında (Ekim 1557) girişilmiş, 974'te (1566-67) tamamlanmıştır; 1568 tarihli resmî bir belgede köprüden söz edilmesi bu tarihi doğrular. Tek gözlü, sivri kemerli, kesme taştan yapılan köprünün kemer açıklığı 28,59 metre, kemer kavisinin yüksekliği 12,02 metredir; su seviyesine göre nehirden yaklaşık 21 metre yükseklikte durur. Köprü üstünün genişliği 4,50 metre, iki yandaki korkuluklar 25 santimetre kalınlık ve 95 santimetre yükseklikte, döşeme kademeli olarak düzenlenmiştir.\n\nTDV bu yapıyı 'mimari dehânın terkibiyle taştan yapılmış değil de muhayyilenin cisim halini almasıyla meydana gelmiş gibi efsanevî bir mâna ve ruh kazanmıştır' diye tanımlar; köprü UNESCO tarafından korunan bir dünya mimarlık anıtıdır.\n\nSonraki tarihçe: köprü 1993'te Bosna Savaşı sırasında yıkılmış, 2004'te özgün taş ocağından getirilen malzeme ve tarihî yöntemlerle yeniden inşa edilmiştir. Bugün ayakta olan yapı bir yeniden inşadır; yukarıdaki ölçüler ve tarihler özgün (1566-67) yapıya aittir.", ic_not_metin:"eski ifadeler: «⚠️ TARİHÇE NOTU (kaynak dışı, genel bilgi):» · «REKONSTRÜKSİYONdur» · «Görsel seçilirken bu ayrım (özgün dönem mi, 2004 rekonstrüksiyonu mu) açıkça belirtilmelidir.»",
+   kesinlik:"kesin",
+   kaynak:"TDV: mostar-koprusu", ic_not_kaynak:"eski kaynak: TDV: mostar-koprusu (gövde okundu, HTTP 200). Tarih: data/olaylar_ek14.js:36 (t:1566-01-01, tamamlanma). 1993/2004 rekonstrüksiyon notu TDV maddesinde değil — güncel/genel bilgi, ayrıca doğrulanmalı (ölçmedim)." },
+ 
+-{ id:"mimari-mihrimah-edirnekapi", tur:"teknik-bilimsel",
++{ id:"mimari-mihrimah-edirnekapi", tur:"mimari",
+   olay:["1566-01-01|Edirnekapı"],
+   kisa:"Sinan'ın tek kubbeli camiler tipinin en büyük örneği — üç sıra pencereyle aydınlık bir iç mekân.",
+   metin:"Edirnekapı'daki cami ve külliye, Kanûnî Sultan Süleyman'ın kızı Mihrimah Sultan için Mimar Sinan tarafından yapıldı; inşaya dair izin 1563'te (970 h.) teyit edilmiş, yapı 1566'da (973 h.) tamamlanmıştır. Dikdörtgen planlı, tek kubbeli caminin ana namaz mekânı 20,25 metre çapında bir kubbeyle örtülüdür; kubbe dört büyük kemere oturur ve yan kanatlardan ayrılır. Yan kanatlar alçak, kubbeli üçer bölümden oluşur.\n\nYapıda mermer ve granit sütunlar, mermer minber, tuğla ve taş yapı malzemesi kullanılmıştır. TDV bu camiyi Sinan'ın tek kubbeli camiler tipinde oluşturduğu en büyük örnek olarak tanımlar; medreseyle birleştirilmesi ve yan kanatlar tasarımı zenginleştirmiştir. Kubbe kasnağında ve büyük kemerlerde üç sıra hâlinde pencere bulunması, harimi bolca aydınlatan bir özelliktir — Sinan'ın İstanbul surlarına en yakın büyük eserlerinden birinde uyguladığı bu aydınlık iç mekân, döneminin diğer selâtin camilerinden ayırt edici bir yanıdır.\n\nMihrimah Sultan'ın Mimar Sinan'a yaptırdığı iki büyük camiden ikincisidir; ilki (Üsküdar İskele Külliyesi) 1547'de tamamlanmıştı, Edirnekapı'daki yaklaşık yirmi yıl sonra bitmiştir.",
+   kesinlik:"kesin",
+   kaynak:"TDV: edirnekapi-camii-ve-kulliyesi", ic_not_kaynak:"eski kaynak: TDV: edirnekapi-camii-ve-kulliyesi (gövde okundu, HTTP 200; ⚠️ 'mihrimah-sultan-camii' ve dört türevi 302 ÖLÜ — doğru madde adı bu değil). Tarih: data/olaylar_ek14.js:45 (t:1566-01-01, tamamlanma)." },
+ 
+-{ id:"mimari-nuruosmaniye", tur:"teknik-bilimsel",
++{ id:"mimari-nuruosmaniye", tur:"mimari",
+   olay:["1749-01-19","1755-12-05"],
+   kisa:"Osmanlı mimarisinde Avrupa barok üslubunun ilk büyük uygulaması — klasik külliye şemasından kopuş.",
+   metin:"Nuruosmaniye Külliyesi'nin mimarı Simeon (Simon) Kalfa'dır. Temeli I. Mahmud tarafından 19 Ocak 1749'da (29 Muharrem 1162) atılmış, ancak I. Mahmud tamamlanmasını görememiş; yapı kardeşi III. Osman döneminde 5 Aralık 1755'te (1 Rebîülevvel 1169) açılmıştır — caminin adı da açılışı gerçekleştiren III. Osman'a atfen 'Osman'ın Nuru' anlamına gelir. Kare planlı harimin ağırlığı dört büyük kemere dağılan tek ve büyük bir kubbe örter; kubbenin çapı 25,50 metredir. Külliyenin kütüphane ve diğer birimlerinde de kubbe ve tonoz sistemleri kullanılmıştır.\n\nYapıda mermer (mihrap ve işçilikte), taş (minarelerde), tuğla (kubbede) ve tunç (sebil şebekelerinde) malzemeler kullanılmıştır. Külliye; cami, medrese, kütüphane, türbe, sebil, çeşme, imaret ve dükkânlardan oluşan geniş bir kompleks olarak tasarlanmıştır.\n\nÜslup açısından Nuruosmaniye, TDV'nin tabiriyle 18. yüzyılda 'Türk sanatına sızan Avrupa'nın barok üslûbu'nu güçlü biçimde taşır: pencere profilleri, nişler, renkli camlı pencerelerin desenleri ve mermer mihrap barok motifleriyle süslenmiştir. Bu yönüyle klasik Osmanlı külliye şemasından belirgin biçimde ayrılan yapı, Osmanlı barok üslubunun İstanbul'daki ilk büyük ve olgun örneği kabul edilir.",
+@@ -121,7 +121,7 @@ window.EKOKUMA_MIMARI = [
+ // altı kartla aynı karar) + bir "tartisma" kartı (Topkapı'nın az bilinen hususları).
+ {
+   "id": "mimari-topkapi-sarayi",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1478-01-01|Topkapı",
+     "1478-09-01"
+@@ -151,7 +151,7 @@ window.EKOKUMA_MIMARI = [
+ 
+ {
+   "id": "mimari-dolmabahce-sarayi",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1856-06-07"
+   ],
+@@ -163,7 +163,7 @@ window.EKOKUMA_MIMARI = [
+ 
+ {
+   "id": "mimari-fatih-camii",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1470-12-01",
+     "1766-05-01"
+@@ -176,7 +176,7 @@ window.EKOKUMA_MIMARI = [
+ 
+ {
+   "id": "mimari-rumelihisari",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1452-08-31|Boğazkesen"
+   ],
+@@ -188,7 +188,7 @@ window.EKOKUMA_MIMARI = [
+ 
+ {
+   "id": "mimari-sehzade-camii",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1543-06-01",
+     "1548-08-01"
+@@ -201,7 +201,7 @@ window.EKOKUMA_MIMARI = [
+ 
+ {
+   "id": "mimari-yeni-cami",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1598-04-09",
+     "1598-09-01",
+@@ -216,7 +216,7 @@ window.EKOKUMA_MIMARI = [
+ 
+ {
+   "id": "mimari-beyazit-camii",
+-  "tur": "teknik-bilimsel",
++  "tur": "mimari",
+   "olay": [
+     "1505-10-13|Beyazıt"
+   ],
+diff --git a/data/ekokuma_mimari2.js b/data/ekokuma_mimari2.js
+index 397822fa..9d5c6f07 100644
+--- a/data/ekokuma_mimari2.js
++++ b/data/ekokuma_mimari2.js
+@@ -19,7 +19,7 @@
+ window.EKOKUMA_MIMARI2 = [
+ 
+ // ── 1447 ÜÇ ŞEREFELİ CAMİ ─────────────────────────────────────────────────
+-{ id:"mimari-uc-serefeli-camii", tur:"teknik-bilimsel",
++{ id:"mimari-uc-serefeli-camii", tur:"mimari",
+   olay:["1447-01-01|Üç Şerefeli"],
+   kisa:"Osmanlı'nın ilk merkezî planlı camisi: 24 metrelik bir kubbe, köşelerinde birbirine benzemeyen dört minareli revaklı avlu ve zamanının en yüksek minaresi — üç ayrı merdivenle çıkılan üç şerefe.",
+   metin:"YAPIM. II. Murad'ın yaptırdığı bu küçük külliye cami, saatli medrese, mektep, sebil, çeşme ve hazireden oluşur. Caminin 841-851 (1437-1447) yılları arasında Mimar Muslihuddin ve Şehâbeddin Usta tarafından yapıldığı kabul edilir. XV. yüzyılın ikinci yarısında Peykler Medresesi külliyeye eklendi.\n\nPLAN VE ÖLÇÜLER. Yapı kareye yakın dikdörtgen bir alana oturur: enine gelişen harim 60,41 × 23,90 m, revaklı avlu 60,70 × 35,50 m'dir. TDV onu Osmanlı mimarisinde merkezî planlı camilerin ilk örneği sayar ve şadırvanlı-revaklı avlusunu ayrıca önemli bulur. Harimin ortasını 24,10 m çapında bir ana kubbe örter; iki yanda 10,50 m çaplı ikişer kubbe, ana kubbe ile yan kubbeler arasında kalan üçgenlerde de mukarnaslı dört küçük kubbecik vardır. Dıştan yirmi dört köşeli bir kasnağa oturan ana kubbeyi kesme taştan altı geniş kemer taşır: doğu ve batıdaki iki kemer serbesttir, kuzey ve güneydeki dördü duvarlara gömülmüş altı payeye iner.\n\nAVLU. Yirmi iki birimli revaklı avlunun harim duvarı boyunca yedi birimli son cemaat yeri uzanır; birimlerden biri tekne tonozlu, ötekiler çokgen kasnaklı ve pandantifli kubbelerle örtülüdür. Revak sütunları çoğunlukla mermerdir, kuzey kanatta yeşil Eğriboz taşından ve granitten sütunlar da vardır. Avlu duvarlarında iki sıra pencere bulunur. Çarşıya bakan batı kapısı beyaz mermerden ve en gösterişlisidir; kuzey kapısı küfeki taşından ve daha yalın, doğu kapısı en mütevazı olanıdır.\n\nMİNARELER. Dört minarenin süslemesi birbirinden farklıdır. Camiye adını veren üç şerefeli minare harimin kuzeybatısındadır: 6 m çapında, 67,75 m boyundadır ve külahıyla 76 m'ye ulaşır. İçinde üç ayrı merdiven vardır — biri birinci ve ikinci şerefeye, biri ikinci ve üçüncüye, biri yalnız üçüncü şerefeye çıkar. TDV'ye göre zamanının en yüksek minaresi olmasıyla da önemlidir. Harimin kuzeydoğusundaki iki şerefeli ‘baklavalı minare’yi Fâtih, Peykler Medresesi yapılırken yaptırmıştır; gövdesinde kırmızı ve küfeki taşından verev kareler vardır. Avlunun kuzeybatı köşesindeki tek şerefeli ‘burmalı minare’ adını gövdesini helezon gibi saran kırmızı-beyaz kalın silmelerden alır; TDV'ye göre III. Mustafa'nın deprem sonrası onarımı sırasında yapılmıştır.\n\nONARIMLAR. 1762 depreminde hasar gören cami 1763-64'te III. Mustafa tarafından onartıldı; bu onarımın kitabesi son cemaat yeri revakında, taçkapı eksenindeki kemerin aynalarındadır. Harimin güneydoğu köşesindeki, XVII. yüzyılda eklendiği tahmin edilen hünkâr mahfili 1935'te kaldırıldı. Cami yakın zamanda da esaslı bir tamir geçirmiştir.",
+@@ -28,7 +28,7 @@ window.EKOKUMA_MIMARI2 = [
+   ic_not:"Bağlanan 1447-01-01 günü çekirdekte ÜÇ madde taşıyor (olaylar_ek14 Üç Şerefeli + kuyrukta Uluğ Bey + Esen Tayşi) ⇒ ayırt edici '|Üç Şerefeli' şart. Denenen ölü sluglar: uc-serefeli-cami · uc-serefeli-camii (302)." },
+ 
+ // ── 1577 DRİNA KÖPRÜSÜ ────────────────────────────────────────────────────
+-{ id:"mimari-drina-koprusu", tur:"teknik-bilimsel",
++{ id:"mimari-drina-koprusu", tur:"mimari",
+   olay:["1577-01-01|Drina"],
+   kisa:"On bir gözlü, 179 metrelik taş köprü; bir ucu dik açıyla kıvrılır, ortasında kitabe köşkü durur. Kemerleri iki dünya savaşında yıkılıp yeniden örüldü, dünya şöhretini ise bir Nobel romanına borçlu.",
+   metin:"BÂNİ, MİMAR, TARİH. Vişegrad'daki köprüyü Sadrazam Sokullu Mehmed Paşa yaptırdı; mimarı Hassa Başmimarı Sinan'dır ve Tezkiretü'l-ebniye köprüyü onun eserleri arasında sayar. Biri menba, öteki mansap tarafında duran iki manzum kitabe inşa tarihini 985 (1577-78) olarak verir. Bazı araştırmacılar birinci kitabenin tarih mısraını 979 (1571-72) okuyup bunu başlangıç, 985'i bitiş tarihi sayar; Ekrem Hakkı Ayverdi ise bozuk kısımları Evliya Çelebi Seyahatnâmesi'nin yazmalarıyla karşılaştırıp iki kitabenin de aynı tarihi verdiği sonucuna varmıştır. Bugünkü kitabeler, savaşlarda parçalanan asıllarının metinleri tespit edilip yeniden taşa işlenerek kitabe köşküne konmuştur.\n\nYAPI VE ÖLÇÜLER. Köprü çok düzgün işlenmiş kesme taştandır. Nehir üzerindeki asıl kısım, Cevdet Çulpan'ın ölçülerine göre 179 m uzunluğunda ve on bir gözlüdür. Ortadaki büyük kemerlerin açıklığı 14,79 ve 14,20 m, ötekilerinki 11,50 ile 13,50 m arasındadır. Ayakların kalınlığı ortalama 4 m kadardır; ayak aralarında içleri dolu ikişer kör kemer bulunur. TDV bunların aslında açık taşkın gözleri olarak mı düşünüldüğünü, yoksa cepheye hareket kazandırmak için baştan dolu mu yapıldığını tartışmaya açık bırakır. Yola bağlanan kısım bir ucunda 90 derecelik açı yapacak biçimde kıvrılır ve 120 m uzunluğundadır. Köprünün masif taş levhalardan korkulukları vardır.\n\nKÖŞK VE SOFA. Ortada, kademeli bir çıkma üzerine oturan, iki renkli geçmeli mermer kemerli bir kitabe köşkü; tam karşısında, yine bir çıkma üzerinde taş sedirli bir dinlenme sofası bulunur. Sofa, eski fotoğraflara dayanılarak 1949-1952 restorasyonunda yeniden yapılmıştır. Köşkteki üst kitabenin yazısı inşa dönemine uyar; alttaki 979 tarihli kitabe ise yazı biçiminden anlaşıldığına göre çok yenidir.\n\nONARIMLAR VE YIKIMLAR. Ayverdi'ye göre köprü 1664 ve 1875'te tamir edildi; 1896 taşkınında yalnız korkulukları zarar gördü. Avusturyalıların 1911 tamirinden sonra I. Dünya Savaşı'nda (1914-1915) batıdaki üçüncü ve dördüncü ayaklarla birlikte üç kemeri yıkıldı; bir süre üzerine konan ahşap bir ekle geçildi. 1939'da ihya edilen köprünün II. Dünya Savaşı'nda, 1943'te dört ayağı ve beş kemeri yeniden yıkıldı; tamir 1949'da başlayıp 1952'de bitti.\n\nŞÖHRET. Köprü, İvo Andrić'in 1945'te yayımladığı ve yazarına 1961'de Nobel edebiyat ödülünü kazandıran ‘Drina Köprüsü’ romanıyla dünyaca tanındı; roman 1965'te Türkçeye çevrildi. TDV, romanın köprünün mimarını Rade adlı bir Bosnalı olarak göstermesinin ilmî gerçeklere aykırı olduğunu belirtir.",
+@@ -37,7 +37,7 @@ window.EKOKUMA_MIMARI2 = [
+   ic_not:"Bağlanan 1577-01-01 günü çekirdek+kuyrukta ALTI madde taşıyor (Rasathane, Fizan, Drina, Azapkapı, El Greco, Vebi) ⇒ ayırt edici '|Drina' şart. `sokullu-mehmed-pasa-koprusu` 200 ama gövdesi 2407 karakter (boilerplate şüphesi, §4④) — kullanılmadı." },
+ 
+ // ── 1722 SÂDÂBÂD ──────────────────────────────────────────────────────────
+-{ id:"mimari-sadabad", tur:"teknik-bilimsel",
++{ id:"mimari-sadabad", tur:"mimari",
+   olay:["1722-06-01","1730-09-25|Sâdâbâd"],
+   kisa:"Kâğıthane deresi mermer rıhtımlı düz bir kanala alındı, çağlayanlar ve havuzlar yapıldı: Paris'e giden ilk Osmanlı elçisinin anlattığı Fransız saray bahçeleri İstanbul'da bir mesireye dönüştü — sekiz yıl sonra da bir isyanda yıkıldı.",
+   metin:"YER VE ÖNCESİ. ‘Uğurlu, mamur yer’ anlamına gelen Sâdâbâd, Kâğıthane deresinin iki yakasındadır. Vadi Kanûnî devrinden beri İstanbul halkının başlıca mesiresiydi: şâban ayında çayırlara çadırlar kurulur, gündüz hokkabaz gösterileri ve güreşler, gece kandiller altında saz meclisleri düzenlenirdi. Bölgede II. Bayezid'in yaptırıp Kanûnî'nin kâgire çevirdiği baruthane, Dâye Hatun adına bir cami ve hamam, bir yeniçeri tekkesi, İmrahor Çeşmesi ve Kasrı gibi erken yapılar vardı.\n\nYAPIM (1722). III. Ahmed vadiyi, sadrazamı Damad İbrâhim Paşa'nın 1717'de orada düzenlediği bir kır eğlencesinde tanıyıp sevdi. 1722'de padişah için yapılacak sarayın önündeki dere yatağı temizlendi ve iki yanı düzgün rıhtımlı, dümdüz bir kanala alındı. ‘Cedvel-i Sîm’ denen bu kanalın mermerleri Çengelköy'deki Kulelibahçe Kasrı'ndan getirildi. Yeni kanallar açıldı, setler ve çağlayanlarla küçük şelaleler kuruldu; sular bu çağlayanlardan geçerek mermer havuzlarda toplandı. Eylül 1722 tarihli bir fermanla Yoros dağlarından 450 çınar, ıhlamur, karaağaç, dişbudak ve kestane kökleriyle sökülüp gemilerle getirildi. Üç yeni havuzla düzenlenen bahçeye Hüsrevâbâd adı verildi; halkı taşıyan sandalların geçtiği yerler kapatıldı. Dere düzenlemesinden sonra köşklere geçildi ve devlet ileri gelenleri çevrede köşk ve bahçe kurmaya teşvik edildi.\n\nÜSLUP (TDV). Saray ve parkların, o sırada Avrupa'da yaygınlaşan Fransız modasının etkisiyle yapıldığı bilinir. 1719-1720'de Paris'e gönderilen ilk Türk elçisi Yirmisekiz Çelebi Mehmed Efendi raporunda Meudon (TDV'de ‘Moudon’), Versailles, Fontainebleau, Marly ve Trianon saray ve şatolarını geniş biçimde anlatmış; getirdiği çizim ve planlarla padişahı ve İbrâhim Paşa'yı etkilemişti. Sâdâbâd'ın yeniliği tek bir binadan çok, suyu düz kanal, çağlayan ve havuzlarla düzenleyen bahçe-saray kurgusundadır.\n\nYAPILAR. Kısa sürede Kasr-ı Sâdâbâd, Hürremâbâd, Çeşme-i Nevpeydâ, Çeşme-i Nûr, Kasr-ı Cenân, Kasr-ı Neşât, Kovanlı Köprü, Server Kasrı ve Beyaz Köprü gibi köşk, çeşme ve köprüler yükseldi; İbrâhim Paşa sarayın hemen yanına Hayrâbâd adlı bir cami yaptırdı. Çelebizâde Âsım Efendi'ye göre Sâdâbâd ile baruthane arasında 170 kadar köşk ve kasır vardı. Mesire saray çevresiyle sınırlı kalmadı; halk da tatil günlerinde yaldızlı arabalarla ve süslü kayıklarla buraya akın etti.\n\nYIKIM VE SONRASI. Bu parlak dönem 25 Eylül 1730'da çıkan Patrona İsyanı'yla bitti; Kâğıthane'deki yüzlerce yapı isyancılarca harap edildi, Ayvansarâyî 120 kasrın yıkıldığını yazar. I. Mahmud isyancıları Sâdâbâd Sarayı dışındaki yapıları yakmaktan vazgeçirdi ama yıkılmalarını önleyemedi. Sonraki padişahlar bölgeyi yeniden canlandırmaya çalıştı: 1736-37'de Kurşunlu Köşk, 1757'de Sâdâbâd Sahilsarayı, I. Abdülhamid döneminde (1775-1786) kasırlar, havuzlar ve su yolları, III. Selim döneminde (1792, 1794) Kasr-ı Hümâyun ve bentler onarıldı.",
+diff --git a/data/ekokuma_p75a.js b/data/ekokuma_p75a.js
+index a764ee37..1cfb3f75 100644
+--- a/data/ekokuma_p75a.js
++++ b/data/ekokuma_p75a.js
+@@ -221,7 +221,7 @@ window.EKOKUMA_P75A = [
+   kaynak:"TDV: sirket-i-hayriyye (Ali Akyıldız) · bogazici (M. Tayyib Gökbilgin; Boğaziçi'nde Nakil Vasıtaları ve Mesireler bölümü) · halic (Semavi Eyice)" },
+ 
+ // ── H-0043b · Galata Köprüsü ─────────────────────────────────────────────────
+-{ id:"teknik-galata-koprusu-ne-zaman-acildi", tur:"teknik-bilimsel",
++{ id:"teknik-galata-koprusu-ne-zaman-acildi", tur:"mimari",
+   kisa:"“Galata Köprüsü ne zaman açıldı?” sorusuna TDV'nin iki maddesi iki yıl veriyor — 1844 ve 1845 — açılış gününü ise hiçbiri yazmıyor.",
+   metin:"■ AKLA GELEN SORU: NE ZAMAN AÇILDI\n"
+     +"TDV'nin iki maddesi farklı yıl verir: Bezmiâlem Vâlide Sultan maddesi “Galata Köprüsü (Cisr-i Cedîd veya Vâlide Köprüsü)” başlığı altında köprünün 1844'te ahşap dubalar üzerinde yüzer olarak yaptırıldığını ve on sekiz yıl hizmet verdiğini yazar; Haliç maddesi ise “1845'te Karaköy ile Eminönü arasında yine dubalı ve ahşap olarak Tersâne-i Âmire'de yapılan ilk Karaköy Köprüsü kurulmuştur” der (aynı köprü). İkisini uzlaştıran bir cümle yok. Sayfanın yorumlaması: “yaptırıldı” 1844'te verilen emri, “kurulmuştur” 1845'teki hizmete girişi anlatıyor olabilir, ama TDV bunu yazmaz. Açılış gününün bulunduğu bir kayıt okunan iki maddede yok: `bulunamadı`. TDV'nin kendi başlığı (galata-koprusu) ayrı madde değil, HALİÇ maddesine yönlendirme (“bk.”).\n\n"
+@@ -239,7 +239,7 @@ window.EKOKUMA_P75A = [
+   kaynak:"TDV: halic (Semavi Eyice, bölüm: Haliç Köprüleri) · bezmialem-valide-sultan (M. Hüdai Şentürk; Galata Köprüsü başlığı) · galata-koprusu (bk. HALİÇ yönlendirmesi)" },
+ 
+ // ── H-0043c · Tünel ──────────────────────────────────────────────────────────
+-{ id:"teknik-tunel-karakoy-beyoglu-1875", tur:"teknik-bilimsel",
++{ id:"teknik-tunel-karakoy-beyoglu-1875", tur:"mimari",
+   kisa:"Bir Fransız turist 1867'de Galata yokuşunda yürüyen kalabalığı görüp yeraltı demiryolu tasarladı — Tünel 17 Ocak 1875'te açıldı.",
+   metin:"■ NEDEN YAPILDI\n"
+     +"Karaköy (Galata) bankacılık ve ticaret merkeziydi, Beyoğlu (Pera) eğlence ve sosyal hayatın; ikisini Yüksekkaldırım Yolu bağlıyordu. İTÜ Makine Fakültesi'nden bir makale Fransız mühendis Eugène-Henri Gavand'ın 1867'de İstanbul'a turist olarak geldiğini ve bu yolda çok sayıda insanın yürüdüğünü gördüğünü anlatır. Aynı makale, Gavand'a dayanarak günde yaklaşık 40.000 kişinin yürüdüğünü, yolun eğiminin %24, genişliğinin altı metre (yer yer dört metre) olduğunu aktarır. Gavand yer altı bir asansör biçiminde demiryolu önerdi.\n\n"
+diff --git a/data/ekokuma_tamamla.js b/data/ekokuma_tamamla.js
+index c51b018e..9170b65b 100644
+--- a/data/ekokuma_tamamla.js
++++ b/data/ekokuma_tamamla.js
+@@ -65,7 +65,7 @@ window.EKOKUMA_TAMAMLA = [
+ 
+ // ═══ H-0029 (1/2) — geleneksel spor ═════════════════════════════════════════
+ 
+-{ id:"teknik-osmanli-spor-gelenekleri", tur:"teknik-bilimsel",
++{ id:"teknik-osmanli-spor-gelenekleri", tur:"spor",
+   kisa:"Padişahlar pehlivanlara tekke açtı, ödül dağıttı, kimi zaman da yasakladı — güreş Osmanlı'da bir eğlence değil, devlet işiydi.",
+   metin:"■ GÜREŞÇİ TEKKELERİ\n"
+     +"Pehlivanlık kurumsal bir yapıydı: bir şeyh liderliğinde 'dervişler' denen güreşçiler tekkelerde örgütlenir, konaklama ve antrenman meydanı bu tekkelerde bulunur, giderleri vakıf gelirinden karşılanırdı. Orhan Bey Bursa'da, I. Murad Edirne'de (Ali Paşa Çarşısı yakınında) ilk tekkeleri açtı; II. Murad Manisa'da, sonra İstanbul'da Unkapanı ve Şebsafâ civarında benzerleri kuruldu.\n\n"
+@@ -102,7 +102,7 @@ window.EKOKUMA_TAMAMLA = [
+ 
+ // ═══ H-0034 — sosyal yaşam: kıyafet ve toplumsal statü ══════════════════════
+ 
+-{ id:"teknik-osmanli-kiyafet-statu", tur:"teknik-bilimsel",
++{ id:"teknik-osmanli-kiyafet-statu", tur:"kultur-sanat",
+   kisa:"Bir sadrazamı sokakta tanımak için konuşmasını duymaya gerek yoktu — kıyafeti zaten söylüyordu.",
+   metin:"■ KIYAFET, BİR KİMLİK KARTIYDI\n"
+     +"Osmanlı toplumunda giysi rastgele bir tercih değildi: resmî görevliler, askerî zümreler, din görevlileri ve tarikat mensuplarının her biri kendine has kıyafetiyle tanınırdı. Beyaz renk bir ayrıcalık sayılırdı — sadrazam ve şeyhülislâm gibi en üst rütbeliler beyaz merasim elbisesiyle ayırt edilirdi.\n\n"
+diff --git a/js/app.js b/js/app.js
+index 4cfab8ef..631dabce 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -11737,7 +11737,19 @@ var EKOKUMA_TUR = {
+   // veri-büyük" — burada yalnız (a) yapıldı, içerik AYRI iş).
+   "tartisma":        { etiket: "💬 Tartışma",        kaynak: function () { return _ekHavuz(); } },
+   "teknik-bilimsel": { etiket: "🔬 Teknik / Bilimsel", kaynak: function () { return _ekHavuz(); } },
+-  "kimdir":          { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
++  // 🆕 6 Ekim 2026 — paket 0084 / H-0004, Emre: *"okçuluk, cirit, güreş,
++  // atçılık — tüm sporla alâkalı maddeler SPOR; kültür-sanat ile alâkalı
++  // olanlar KÜLTÜR SANAT"* · ve aynı gün: *"mimari ile ilgili kartlara MİMARİ
++  // diye YENİ BİR KATEGORİ açalım; şehircilik, bayındırlık gibi konuları ve
++  // buna paralel konuları da dahil edelim."* Bu kartlar `teknik-bilimsel`
++  // altında "TEKNİK BİLİMSEL" yazıyordu. Kaynak AYNI havuz; gövde SON ÇARE
++  // dalından çizilir (teknik-bilimsel ile aynı yol). 🔴 Bu üç satır, kart
++  // `tur`u değişmeden ÖNCE ya da AYNI commit'te inmeli — yoksa kartlar
++  // SESSİZCE kaybolur (D099; P84-ETIKET-MIMARI-1006 ölçtü: 24 kart).
++  "spor":            { etiket: "🏅 Spor",             kaynak: function () { return _ekHavuz(); } },
++  "kultur-sanat":    { etiket: "🎨 Kültür Sanat",     kaynak: function () { return _ekHavuz(); } },
++  "mimari":          { etiket: "🏛️ Mimari ve Şehircilik", kaynak: function () { return _ekHavuz(); } },
++  "kimdir":         { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
+   "dis-yankilar":    { etiket: "🌐 Dış Yankılar",      kaynak: function () { return _ekHavuz(); } },
+   "kahramanlik":     { etiket: "🛡️ Kahramanlık",      kaynak: function () { return _ekHavuz(); } },
+   "menkibeler":      { etiket: "📖 Menkıbe",           kaynak: function () { return _ekHavuz(); } },
+@@ -11956,7 +11968,8 @@ function _ekEtiketiBol(et) {
+ var _EK_UST_KISA = {
+   "antlasma":        "ANTLAŞMA",         // etiket: "Antlaşma hükümleri" (18)
+   "savas-hikayesi":  "SAVAŞ HİKÂYESİ",   // etiket: "Savaşın Hikâyesi" (16)
+-  "teknik-bilimsel": "TEKNİK BİLİMSEL"   // etiket: "Teknik / Bilimsel" (17); Emre'nin yazdığı ad
++  "teknik-bilimsel": "TEKNİK BİLİMSEL",  // etiket: "Teknik / Bilimsel" (17); Emre'nin yazdığı ad
++  "mimari":          "MİMARİ"            // etiket: "Mimari ve Şehircilik" (20); Emre'nin yazdığı ad
+ };
+ function _ekKategoriUstYazi(tur, ad) {
+   return _EK_UST_KISA[tur] || String(ad == null ? tur : ad).toLocaleUpperCase("tr");
