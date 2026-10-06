@@ -148,7 +148,7 @@ window.PADISAHLAR = [
     baba:"I. Mehmed (Çelebi)",
     anne:"cariye (bazı kaynaklarda Şehzade Hatun)",
     tahta:"1421-06-25 (ilk saltanat); 1446-05 (ikinci saltanat)",
-    saltanat_yil:28,
+    saltanat_yil:23,   // yalnız 1. saltanat (1421-06 → 1444-08); 2. saltanat kendi kaydında (5) — dosya saltanat BAŞINA yazar
     lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın lakabı) dışında kendine özgü bir lakap zikredilmiyor",
     esler:["Hatice Halime Hatun (İsfendiyaroğlu)","Mara Branković (Sırp "
     + "prensesi, 1435 — siyasi evlilik, kaynaklara göre gerdek yapılmadı)",
