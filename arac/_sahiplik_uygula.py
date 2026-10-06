@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# 🔴 BU ARACI --yaz İLE KOŞTURMA — glob'daki İNMİŞ yamalar 174 kaydı GERİ ALIR (63'ü kaynaklı dönem
+#    siler, 93'ü kid'li tâbi dönemi siler; ölçüldü 6 Ekim 2026, denetim/YALAN-DAMGA-YERYAMA-1006.md).
+#    Geri alma kapısı inene ve inmiş yamalar glob dışına taşınana kadar (koordinatör hükmü) koşturulmaz.
 """SAHİPLİK YAMASI UYGULAYICI — yer_yama*.js  ->  yerlesimler*.js
 
     py arac/_sahiplik_uygula.py           KURU KOŞU (hiçbir şey yazmaz)
