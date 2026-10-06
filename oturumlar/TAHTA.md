@@ -5876,3 +5876,8 @@
 | M-5865 | 2026-10-06 16:06 | HAZIR KITA 0610 1605 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5866 | 2026-10-06 16:06 | HAZIR KITA 0610 1604 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5.5 · görev bekliyorum |
 | M-5867 | 2026-10-06 16:06 | HAZIR KITA 0610 1601 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
+| M-5868 | 2026-10-06 16:06 | HAZIR KITA 0610 1606 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5869 | 2026-10-06 16:06 | HAZIR KITA 0610 1608 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5870 | 2026-10-06 16:07 | HAZIR KITA 0610 1607 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5871 | 2026-10-06 16:07 | HAZIR KITA 0610 1601 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
+| M-5872 | 2026-10-06 16:07 | HAZIR KITA 0610 1609 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
