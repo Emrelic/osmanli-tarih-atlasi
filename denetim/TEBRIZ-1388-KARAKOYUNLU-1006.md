@@ -135,3 +135,38 @@ hassasiyeti DOĞRU (atlas DOĞRU — negatif bulgu).
    *Zafernâme* (1388-1393 Tebriz valilerini adıyla verir) · Faruk Sümer, *Kara Koyunlular*
    I (TTK 1967) — TDV `karakoyunlular`ın müellifi; 1388 muhafızının süresi orada olabilir ·
    EI² "Ḳara Ḳoyunlu" (Minorsky).
+
+## 7. HÜKÜM (A) SONRASI — DİFFLER (6 Ekim 2026, temel origin/makine/umit `9b55348c`, UYGULANMADI)
+UMIT İRTİBAT hükmü: (A). Üç diff, hepsi `git apply --cached --check` temiz, LF (CR 0):
+- `TEBRIZ-1388-KARAKOYUNLU-1006-KOORD.diff` — **istenen 37 nokta**: `timurlu` bitişi ve
+  `karakoyunlu` başlangıcı `1406-10-21 → 1408-04-13`; karakoyunlu dönemine `kaynak:` yazıldı
+  (Tebriz: TDV `karakoyunlular` Serdrûd + Iranica; öteki 36: "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI
+  DEĞİL (D208)"). Önceden `kaynak:` taşıyan 9 timurlu dönemine (ek26 ×5, sinir_kuzey ×4)
+  " · BİTİŞ 1406-10-21→1408-04-13" eki yapıldı; eski karakoyunlu `kaynak:`ı ("gün komşudan …
+  1406-10-21 çekirdek madde") yenisiyle değişti.
+- `TEBRIZ-1388-KARAKOYUNLU-1006-KOORD-40.diff` — **ÖNERİLEN** alternatif: 37 + Ardahan ·
+  Merîvan · Sarıkamış (aynı zincir, kutu dışında kaldıkları için ilk listeye girmemişti).
+  Gence DAHİL DEĞİL (celayirli→karakoyunlu, ayrı kalem). İkisinden yalnız BİRİ uygulanır.
+- `TEBRIZ-1388-KARAKOYUNLU-1006.diff` (UMIT tarafı): `olaylar_ek7.js:205` → **1406-10-15
+  Aras zaferi** (gün TDV'den; Tebriz iddiası çıkarıldı; `yer_id:""` + `odak_kimlik:"karakoyunlu"`;
+  eski hâli `ic_not_d`de) + çekirdeğe yeni **1408-04-13 Serdrûd** maddesi (`yer_id:"Tebriz"`,
+  TDV + Iranica birebir) · `kronoloji_karakoyunlu.js:158`e `ic_not_d` çelişki notu.
+  Niçin düzeltme + YENİ madde (yalnız taşıma değil): 1406-10-21'de kalan Gence (her iki
+  varyantta) ve 37'lik varyantta Ardahan/Merîvan/Sarıkamış kırılmalarının Değişmez 2
+  dayanağı Aras maddesidir (±6 gün); taşınsaydı açık doğardı.
+
+### denetle.py önce / sonra (kendi ağacımda iki diff birlikte uygulandı)
+| | önce | 37 (KOORD) | 40 (KOORD-40) + odak |
+|---|---|---|---|
+| Değişmez 2 | 623 · 0 açık | 623 · 0 | 623 · 0 |
+| 2s | 1720 · 186 AÇIK | 1721 · 186 | 1721 · 186 |
+| 2t | 13 (tavan 13) | 13 | 13 |
+| 2i | 171 · 1 | 171 · 1 | 171 · 1 |
+| 2sk yalnız-taraf (tavan 2247) | 2247 | **2248 ⚠️** | **2248 ⚠️** |
+| 7 sorgusuz enklav (beklenen 731) | 733 | **736** (Gence · Merîvan · Ardahan+Sarıkamış 1406-1408 karakoyunlu adası) | 733 |
+| kaynaksız `s:` (tavan 1930) | 1929 | 1913 | 1912 |
+| çıkış | 2 (yalnız D8 ölçülemedi: taze ağaçta `devletler_harita.js` yok) | 2 | 2 |
+Odak (`odak_olc.py`): `olaylar_ek7` ODAKSIZ 0 → 1 (yer_id boşalınca) → `odak_kimlik` ile **0**.
+⚠️ **2sk +1** her iki varyantta: ihlal değil ("SINIFI istenir"). Sınıfı ÖLÇÜLMEDİ; aday
+sebep: 1406-10 kovası artık Tebriz'i anan maddeye değil yer anmayan Aras maddesine kapanıyor.
+Tavan + sabit aynı commit'te iner (CLAUDE.md §3.4 ②) — koordinatör kararı.
