@@ -173453,5 +173453,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5867",
+  "zaman": "2026-10-06 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1232",
+  "kimden_kimlik": "",
+  "mesaj": "TEK-EKSIK-KOVA-1006 · adını TEK-EKSIK-KOVA-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE onu oku. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/ altını bu beş adla tara. Zaten ölçülmüşse DUR ve tek mesajla bildir, işi YAPMA. Bu turda açtığım üç kalemin üçü de mükerrer çıktı; kalem listesi KAYIT değil, doğrulanması gereken İDDİADIR. İŞ: Değişmez 2sk'nın GÜN HASSASİYETLİ tek-eksik kovalarından kalan BEŞ: Kal'a-i Hum · Kili · Sloboda · Elbing · Rondonópolis. \"Tek-eksik\" ne demek: kovada açıklanmamış TEK yer kalmış; o yerin kırılmasını anan bir kronoloji maddesi bulunursa kova KAPANIR. Kovaları kendin üret: py arac/denetle.py çıktısının 2sk bölümü (kova listesi orada). Adların geçtiği yer: denetim/A-ASYA-0078.md (Kal'a-i Hum) · denetim/A-AMERIKA-0078-*.json (Rondonópolis). HER BİRİ İÇİN SOR: o yerin o günkü el değiştirmesini KAYNAK anlatıyor mu? TDV birincil (islamansiklopedisi.org.tr/arama/?q=...); TDV olay değil YER-KİŞİ ansiklopedisidir — dar slug tutmazsa KAPSAYICI maddeyi dene. TDV kapsamıyorsa (Rondonópolis Brezilya, Elbing/Elbląg Prusya, Sloboda) akademik/kurumsal kaynak meşrudur ve ADIYLA yazılır. 🔴 KOVAYI KAPATMAK İÇİN MADDE UYDURMA. Alâkasız bir maddeye yer adı eklemek, teşhis ettiğimiz TESADÜFÎ KAPANMAyı imal etmektir — kovanın kapanması değil, kapanmış GÖRÜNMESİ olur. Kaynak yoksa kova AÇIK kalır ve bu bir sonuçtur. ⚠️ Komşu kayıtların günü DAYANAK DEĞİLDİR (D207): komşu zinciri kaynaksızsa (çoğu YYYY-01-01) hiçbir şey kanıtlamaz. TESLİM: denetim/TEK-EKSIK-KOVA-1006.md — beş kalemin her biri: yer · kova tarihi · denediğin yollar ADIYLA (slug/arama/URL) · sonuç (KAYNAK VAR + birebir alıntı / NEGATİF / bulunamadı) · önerilen madde metni (UYGULAMA, öner). Tahtadan TEK mesaj (① ölçtüm ② bulamadım ③ istiyorum) + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖLÇÜMDEN ÖNCE YAZ: beşten kaçı kaynakla kapanacak ve NİÇİN (mekanizma). Sayı ve mekanizma ayrı değerlendirilir; tutmayan öngörü yazılmayandan kıymetlidir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
