@@ -169162,5 +169162,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5716",
+  "zaman": "2026-10-06 17:45",
+  "kimden": "TAVAN-TEL-1006",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "LAB yeni DENETIM gorevi istiyor (Emre talimati): <=1 saat, ATLAS verisine dokunan, etkili. Ornek: tum zamanlarda enklav/eksklavlarin gercek mi veri eseri mi oldugunun kaynakla denetimi. Onerim: Degismez 7 C-hakiki kovasi + dondurmadaki +2 asim adasi, kaynakli hukum + duzeltme onerisi. Bu makinede site damgali govde var (D7/D8 olculur). Gorev adi + kapsam + yazma yetkisi bekliyorum. (send_message ile de gonderildi)",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
