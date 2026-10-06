@@ -54,7 +54,17 @@ DATA = os.path.join(KOK, "data")
 # 965 -> 966: Podgorica.
 # 966 -> 967.
 # 967 -> 968.
-BEKLENEN_YERLESIM = 968
+BEKLENEN_YERLESIM = 4299   # 968 -> 4299, 6 Ekim 2026 (ÖLÇÜLDÜ, yazmadan hemen önce)
+# 🔴 968 İKİ AYDIR BAYATTI ve kimse görmedi — LAB-TAVAN-TEL-1006 ölçtü: bu sabit
+#   DEKORATİF (çıkış kodunu hiç değiştirmiyor), o yüzden 4,4 KAT fark hiçbir alarm
+#   vermedi; her koşuda yalnız "! yerleşim sayısı beklenenden farklı (4299 ≠ 968)
+#   — sadece bilgi" satırı basıldı.
+# ⚠️ ASIL ZARAR SAYININ YANLIŞLIĞI DEĞİL: her koşuda "beklenenden farklı" basan bir
+#   satır, okuyucuyu O SATIRI YOK SAYMAYA alıştırır. Bu sabit bir KAPI değil DEĞİŞİM
+#   SEZİCİdir; yalnız gerçekten değiştiğinde konuşursa işe yarar. 4,4 kat sapmış bir
+#   sezici, kapalı bir seziciden kötüdür — çünkü çalışıyor görünür.
+# ⇒ Bağlanmadı, BİLGİ olarak kaldı (büyümesi kusur değil: nokta eklemek işin kendisi).
+#   Ama bundan sonra her yerleşim partisinde bu sayı da güncellenir, yoksa yine bayatlar.
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -336,7 +346,18 @@ BEKLENEN_BELGESIZ = 4   # 10 EYLUL 2026: 7 -> 4, aletin KENDI uyarisi
 # 462 -> 463: Podgorica yerlesimi + 1457 maddesi ayni commit te.
 # 463 -> 462: zemin yine oynadi; kosudan hemen once olculdu.
 # 462 -> 476: Oturum 14 in Port Said/parantez duzeltmeleri.
-BEKLENEN_KIRILMA = 476
+BEKLENEN_KIRILMA = 623   # 🔴 ÇEKİRDEK kırılması · 476 -> 623, 6 Ekim 2026 (ÖLÇÜLDÜ)
+# 🔴 "ÇEKİRDEK" KELİMESİ BURAYA LAB-TAVAN-TEL-1006'nın İKİNCİ TURUNDA EKLENDİ ve
+#   eksikliği bir TUZAKTI: `617ca672` (2 Ağustos 2026) çağrıyı `degismez2(Y)` →
+#   `degismez2(Y_cekirdek)` yaptı. O gün kuyruk BOŞTU, o yüzden 476 hâlâ doğruydu ve
+#   kimse farkı görmedi. Bugün 623 ÇEKİRDEK kırılmasıdır; kuyruk AYRI sayılıyor
+#   (15 + 121 + 485). ⇒ Bu sabiti bütün-`Y` ile güncelleyen biri YANLIŞ KÜMEYLE
+#   güncellemiş olur ve sayı "tazelendi" sanılır. Ölçülen küme adı yazılmayan bir
+#   sabit, bayat bir sabitten tehlikelidir: yanlış tazeleme doğru görünür.
+# 🔴 `BEKLENEN_YERLESIM` ile AYNI SINIF ve aynı sebeple bayatladı (LAB-TAVAN-TEL-1006:
+#   DEKORATİF, çıkış kodunu değiştirmiyor) — her koşuda "! kırılma sayısı beklenenden
+#   farklı (623 ≠ 476) — sadece bilgi" basıldı ve kimse bakmadı.
+#   Bu da bir KAPI değil DEĞİŞİM SEZİCİdir; sapması büyüdükçe sezici değil GÜRÜLTÜ olur.
 BEKLENEN_ACIK = 0
 # 🔴 İŞ KUYRUĞU AYRIMI (İş O + O-3, koordinatör kararı 2 Ağustos 2026):
 # önce Asya için verildi, aynı gün Avrupa +71 maddesiz kırılma getirince
@@ -791,7 +812,20 @@ BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem 
 # fetihle kuruldu. `m:` alani ZAMANSIZ oldugu icin sema bunu ayiramiyor.
 # ⇒ Bu bir gerileme DEGIL; YAPILACAKLAR'daki "k/m alanlari zamanli olmali"
 #   borcunun olculmus bir vakasi. Duzeltme burada degil, semada.
-BEKLENEN_CELISKI_UST_SINIR = 387
+# 🪦 ÖLÜ SORU — 6 Ekim 2026, LAB-TAVAN-TEL-1006 ölçtü ve koordinatör doğruladı.
+#   `BEKLENEN_CELISKI_UST_SINIR = 387` SİLİNDİ. Sebep: sabit dosyada YALNIZ kendi
+#   tanım satırında geçiyordu — hiçbir yerde OKUNMUYOR, ve ölçtüğü sayı çıktıda da
+#   BASILMIYOR. Yani ne kapıydı ne bilgi satırı; okuyana "bu soru korunuyor" izlenimi
+#   veren bir sayıdan başka bir şey değildi. `§3.4(5)`: bugün hiçbir şeyi susturmayan
+#   bir eşik, yarın gerçek bir ihlali susturur.
+# 🔴 AMA YUKARIDAKİ GEREKÇE BLOĞU SİLİNMEDİ — ve niçin silinmediği önemli: sabit
+#   gitti, SORU tarif edilmiş olarak kaldı. `m:` alanının ZAMANSIZ olması (Kili/
+#   Akkirman vakası) hâlâ açık bir şema borcudur (`YAPILACAKLAR`: "k/m alanları
+#   zamanlı olmalı"). Biri yarın bu ihtiyacı yeniden keşfederse, üstteki satırlar
+#   onu sıfırdan araştırmaktan kurtarır. Bugünkü INDIR-1001 emekliliğiyle aynı kalıp:
+#   dosya/sabit gidince NİÇİN var olduğu da giderse, altı hafta sonra yeniden icat edilir.
+#   ⇒ Soru yeniden SORULACAKSA yeni sabit BUGÜNÜN ölçümüyle yazılır (§3.4(0)),
+#     387'nin kaldığı yerden DEVAM ETTİRİLMEZ: 387 iki ay boyunca ölçülmemiş bir sayıdır.
 
 # Türkçe harf kümesi — kelime sınırı için. `denetle_eslesme.py` ile aynı;
 # oradan import EDİLMİYOR (stdout sarmalayıcı çakışması, bkz. _madde_yeri_aniyor).
@@ -6713,8 +6747,16 @@ def main():
                       "   ⛔ KOORDİNATA DOKUNMA")
             print("    → `CLAUDE.md §6`: nokta yoğunluğu sağlanmadan pencere AÇILMAZ."
                   " Bu kayıtlar pencere büyüyünce KENDİLİĞİNDEN canlanır.")
-        durum6 = "✓" if not kd else "✗"
-        if kd:
+        # 🔴 6 Ekim 2026 — LAB-TAVAN-TEL-1006: hüküm LİTERAL 0'a bağlıydı (`if kd:`),
+        #   sabit yalnız METİNDE geçiyordu. Ölçülen kanıt: sabite −1 yazılınca çıktı
+        #   "✓ 0 (beklenen -1)" basıyordu, yani ekranda eşik gibi görünen sayı hükmü
+        #   HİÇ ETKİLEMİYORDU. Artık TEK DOĞRULUK KAYNAĞI sabit.
+        #   ⚠️ Bugün davranış AYNIDIR (`BEKLENEN_MASKE_DISI = 0` ⇒ `len(kd) > 0` ≡
+        #   `if kd:`) — bu bir düzeltme değil, bir BAĞLAMA. Değeri: yarın sabit
+        #   değişirse hüküm onunla birlikte değişir; eskiden değişmezdi.
+        _maske_disi_ihlal = len(kd) > BEKLENEN_MASKE_DISI
+        durum6 = "✗" if _maske_disi_ihlal else "✓"
+        if _maske_disi_ihlal:
             ihlal = True
         print(f"Ek denetim  {durum6}  konum: {len(kd)} nokta kara maskesinin dışında "
               f"(beklenen {BEKLENEN_MASKE_DISI})")
