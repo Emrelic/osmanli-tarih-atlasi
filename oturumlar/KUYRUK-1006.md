@@ -300,3 +300,101 @@ işçi 3       23:07'de GEOS segfault (0xc0000005) — BELLEK DEĞİL, kütüpha
 ⚠️ Koşucu kendi başına durdurmaz/başlatmaz/bayrak değiştirmez; bir koşuda iki bayrak
    birden değiştirilmez.
 ```
+
+
+---
+
+## 8. 🔴 KOŞU 20 BİTTİ — ÖLÇÜLMÜŞ SONUÇ ve BİR SONRAKİ KOŞUNUN BAYRAĞI
+`2026-10-05 21:20:57 → 10-06 05:35:34` = **8 sa 14 dk 37 sn** · taban `fc380975` · yama yok
+· stderr 0 bayt · *"Doğrulama: tüm yerleşimlerin peteği geçerli ✓"* · önbellek 835 MB.
+
+### Aşama süreleri
+```
+Çöl tavanı              47 dk 02 sn
+Yabancı gövdeler      3 sa 32 dk 33 sn   (işçi 3 GEOS segfault 0xc0000005, 23:07)
+Dönemler (delta)      2 sa 28 dk
+Uzak coğrafya seyreltme + osm + sb      (05:06:57'den sonra)
+Ⓑ ufuk bantları         21 dk 58 sn      (ufuk_bantlari.js 264 MB)
+çıktı yazımı                   4 sn
+çapraz sayaç: yabancı gövde 4273 çağrı / 11 sa 07 dk (iplik toplamı) · varlık devri
+2 sa 56 dk · serbest kenar 1 sa 14 dk · Osmanlı gövde 1 sa 12 dk
+```
+
+### 🔴 BELLEK — koşu DUVARA 0,9 GB KALA geçti, ve yalnız PAGEFILE BÜYÜDÜĞÜ İÇİN sağ kaldı
+`denetim/HAVVA-KOSU20-BELLEK.tsv` (512 kayıt, 22:08:57 → 05:35:03) ölçümü:
+```
+TEPE TOPLAM BELLEK   60.261 MB  (4 süreç)   22:32:23  · Çöl tavanı
+TEPE TEK SÜREÇ       16.440 MB              05:08:32  · Uzak coğrafya seyreltme
+EN AZ BOŞ RAM             2 MB              22:22:54  · Çöl tavanı
+TEPE COMMIT        67,1 / 68,0 GB  (%99)    22:27:24  · Çöl tavanı
+```
+🔴 **COMMIT TOPLAMI SABİT DEĞİL — koşu sırasında BÜYÜDÜ:**
+`46,9 → 53,9 → 65,0 → 66,3 → 66,7 → 67,0 → 68,0 GB` (+21 GB). ⇒ Koşu 22:27'de
+**%99**'a dayandı ve ölmedi ÇÜNKÜ Windows pagefile'ı büyüttü. Disk dolu olsaydı ya da
+pagefile sabitlenmiş olsaydı koşu **1 saatte** ölürdü.
+**Süreç sayısına göre tepe toplam:**
+```
+4 süreç  60.261 MB  (süreç başı 15.065)  ← Çöl tavanı · DUVAR BURADA
+3 süreç  14.147 MB  (süreç başı  4.715)
+2 süreç  10.989 MB  (süreç başı  5.494)
+1 süreç  16.440 MB                        ← seyreltme; süreç sayısıyla ilgisi YOK
+```
+
+### 🔴 BİR SONRAKİ KOŞUNUN BAYRAĞI — artık TAHMİN DEĞİL, ÖLÇÜM
+```
+MOTOR_SUREC_ISCI=2        ✅ ÖLÇÜMLE DOĞRULANDI. Çöl tavanında 2 süreç ≈ 30 GB
+                             (4 süreç 60 GB idi) ⇒ rahat pay. =4 TEKRARLANAMAZ:
+                             sağ kalması pagefile'ın +21 GB büyümesine bağlıydı.
+MOTOR_PARALEL_ISCI        DOKUNULMAZ (varsayılan 4). İki bayrak AYNI koşuda değişmez.
+öteki bayraklar           BİREBİR AYNI: MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 ·
+                          MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56
+```
+📌 Tek süreç tepesi (16,4 GB) işçi sayısından BAĞIMSIZ — `Uzak coğrafya seyreltme`
+aşamasının kendi maliyeti. `=2` onu düşürmez; düşüren tek şey o aşamanın kendi yamasıdır.
+
+### 🔴 EŞİK DERSİ — bu gece ÜÇ KEZ aynı aile
+Koşuyu izlemek için üç eşik yazdım, **ÜÇÜ DE YANLIŞ KALİBREYDİ** ve üçünde de aynı kusur:
+*sayıyı kaynağından koparıp başka bir evrene taşımak.*
+```
+① "osm+sb < 45 dk"        → var OLMAYAN bir aşamaya verildi (koşu hâlâ Dönemler'deydi)
+② "ana süreç > 15.000 MB" → DÖRT süreçli duvardan alınan SÜREÇ BAŞINA sayı, TEK sürece
+                             uygulandı. Öttüğünde boş RAM 6,6 GB ve commit %36'ydı.
+③ "commit > 50 / 66 GB"   → PAYDA SABİT SANILDI. Gerçek payda 46,9'dan 68,0'a BÜYÜDÜ;
+                             46,9 toplamda "50 GB" ERİŞİLEMEZ bir eşiktir.
+```
+⇒ **KURAL: hareketli paydaya karşı MUTLAK eşik, eşik değildir.** Doğrusu YÜZDEdir:
+`commit > %85` · `boş RAM < toplam fiziğin %10'u`. Ve bir eşik yazılırken **hangi
+evrende ölçüldüğü** eşikle AYNI satıra yazılır (kaç süreç · hangi aşama · payda ne).
+
+### Denetim sonucu — çıkış 2, TEK sebep D8
+```
+D1 309/309 ✓ · 1c 4 · 1b 0 · D2 623 kırılma 0 açık ✓ · 2s 187 açık (tavan 189) ·
+2i 1 · 2t 13 · D4 0 hayalet · 4c 127 · 4d 324 · 4s 5 · D5 0 · 5a-muaf 1 ·
+konum 0 ✓ · dönem sağlığı 0 · kaynaksız s: 1930 (tavan 1968) · mükerrer 112 (≤113) ·
+🧊 D7 734 sorgusuz enklav (beklenen 731, +3) · D2sk 🧊 1665/1665
+🔴 ÇIKIŞ 2 · OLCULEMEDI_KOVA: "Değişmez 8 — GÖVDE UYUŞMUYOR: devletler_harita.js
+   yereldeki koşudan, site ise KODLANMIŞ sürümü yüklüyor (yerel ea4fef043e5a ↔
+   site 0ef2d3e23c4e). Değişmez 8 YAYINDA OLMAYAN bir haritayı ölçerdi; soru SORULMADI."
+```
+⇒ Çare `py arac/kodla.py kodla` (169 MB → 10 MB KAYIPSIZ), sonra `denetle.py` TEKRAR.
+**Yayın kararı D8'in cevabına BAĞLI** — ölçülemeyen soru temiz değildir (`§3`).
+
+### 🔴 İKİ GERİLEME — kimlik istendi, sayı yetmez
+```
+1 renksiz künye HARİTADA kullanılıyor   §1.5 bu satırda ✓ 0 diyor ⇒ YENİ HARİTA DELİĞİ
+D7 +3 enklav                            YENİ KAPSAM mı GERÇEK BORÇ mu — çareleri ters
+'dogrulanmadi' BILINEN_ALANLAR'da yok   yerlesimler_ek29.js: Deyrülkamer. O alanı
+                                        hiçbir kod OKUMUYOR (ölçüldü) ve veride göründü.
+```
+
+### 🔴 KOŞU ÇIKTISI git'e GİREMEZ — mimarî, kusur değil
+`.gitignore` TAM YOL olarak dışlıyor: `data/donemler.js` · `data/devletler_harita.js` ·
+`data/petek_govde.js` · `data/ufuk_bantlari.js`. ⇒ Siteye ulaşan tek yol KODLANMIŞ sürüm
+(`devlet_harita_ust.js` · `devlet_parcalar.js` · `petek_govde_parca.js` …).
+⚠️ **Dolayısıyla 8 sa 14 dk'lık işin TEK NÜSHASI `C:\atlas-kosu` worktree'sinde.**
+Kodlanmış sürüm commitlenene kadar o worktree SİLİNMEZ/TEMİZLENMEZ.
+📌 `6831b5da`in commitlediği 4 dosyadan yalnız `denetim/HAVVA-KOSU20-BELLEK.tsv` main'e
+alındı. `data/bolgeler.js` · `data/devirler.js` · `veri-kaynak/motor_kara.geojson`
+**BEKLETİLİYOR**: kodlanmış geometri kardeşleri gelmeden alınırsa main yeni bölge/devir
+ile ESKİ kodlanmış geometriyi birlikte taşır — yarım, tutarsız bir durum. Geometri ailesi
+TEK SETTE iner.
