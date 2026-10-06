@@ -1850,3 +1850,42 @@ bilmen için yazdım.
 📌 Ek kalem (bende): `tahta.py yaz` ULAŞMADI durumunda hâlâ **çıkış 0** veriyor. Düzeltilmesi
 gerek ama önce `yaz`ı çağıran betikler taranacak — bugün çıkış kodunu okuyan ne varsa yarın
 ötmeye başlayacak, ki amaç bu, ama kimin öteceğini bilmeden indirmem.
+
+
+### ⑲-EK · 🔴 KARARIN EN AĞIR GİRDİSİ: SENİN DÜĞMEN KAPI DÜŞSE DE YAYINLIYOR
+⑲'u yazdığımda iki zincirin adım listelerini biliyordum ama **SERTLİKLERİNİ** bilmiyordum.
+W55 ölçtü ve tablo tersine döndü:
+```
+ESKİ zincir (kosu_yayin.py)       yayın kapısı = UYARI      ⇒ kapı DÜŞSE DE yayınlar
+                                  push düşse de 0 dönüyor
+YENİ zincir (kos_ve_yayinla.py)   yayın kapısı = ÖLÜMCÜL    ⇒ kapı düşerse DURUR
+```
+🔴 **Ve `KOSU-BASLAT.bat` — "çift tıkla, Claude gerekmez" diye senin için yazılan düğme —
+ESKİ zinciri çağırıyor.** Yani sen elle koşturduğunda `denetle_yayin` ihlal bulsa bile
+yayın gider, ve push başarısız olsa bile zincir "tamam" der.
+📌 Bugün `denetle_yayin` bende **çıkış 1** veriyor (damga artışı) ve bu gece bir ara
+**PAKET BAYAT + PAKET İÇERİĞİ UYUŞMUYOR** da veriyordu. Eski zincirle o hâlde bir yayın
+yapılsaydı, kapı üç ihlali de görüp uyarı basacak ve yayın yine inecekti.
+⇒ ⑲'daki üç şıkkın ağırlığı değişti: **②/③ (birini öldür / görevi onar) artık yalnız
+"düzen" değil, bir GÜVENLİK kalemi.** Önerim hâlâ ① BİRLEŞTİRMEK, ama birleştirmede
+**sertlik YENİ zincirin sertliği olmalı** (ölümcül), eski zincirin uyarısı değil.
+
+**ARA ÇARE — W55'in ①'i, Emre onayı gerektirmiyor ama bilmen gerek:**
+`⑥b denetle_kronoloji` bugün **84 ihlal** veriyor (SABAH'ta 83'tü — izlenmeyen kapı gecede
+bir arttı) ⇒ **ölümcül YAPILAMAZ**, `olumcul=False` kalır. Ama `olumcul=False` dalı bugün
+**SESSİZ** (yalnız "→ kod=1" basıyor) ⇒ görünür bir **"⚠️ UYARI"** satırı eklenir.
+`⑥c denetle_arayuz` bugün **0** veriyor ⇒ **ölümcül YAPILABİLİR** ve yapılmalı.
+
+### ⑲-EK-2 · 🔴 ÜÇ CANLI HATA — bunlar KARAR DEĞİL, senden onay beklemiyorlar
+`kos_ve_yayinla.py` (fiilen koşan zincir) içinde W55'in bulduğu ve düzeltmeye verdiğim üçü:
+```
+:174  kilidi 240 dk sonra "takılmış" sayıp DEVRALIYOR — koşular 8-16 saat
+      🔴 KOŞU 20 tam 8 sa 14 dk sürdü ⇒ ortasında ikinci bir koşu başlayabilirdi,
+         ikisi aynı önbelleğe ve aynı çıktıya yazardı. Yorum "düzeltildi" diyor, kod 240.
+      ⇒ eşik 24 SAAT + devralma SESSİZ OLMAZ + pid tek başına kimlik değil (D266)
+:350  git add -A -- data index.html   ⇒ §7'nin ADIYLA yasakladığı şey, canlı zincirde
+:354  pull --rebase ÖLÜMCÜL DEĞİL    ⇒ çatışmada depo REBASE ORTASINDA kalır
+      = bu sabahki C:\atlas hâli; tahta.py'de kapattığımız sınıfın koşu zincirindeki İKİZİ
+```
+Üçü tek pakette (`KOSU-ZINCIR-UC-KUSUR-1006`) ve ikinci partide. **Hangi zincir seçilirse
+seçilsin bu üçü yanlıştır** — zincir kararı "hangisi koşsun", bunlar "koşan ne yapıyor".
