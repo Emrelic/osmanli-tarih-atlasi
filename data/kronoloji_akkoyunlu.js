@@ -309,7 +309,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","karakoyunlu","donum-noktasi","toprak","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"12 Rebîülâhir 872 (10 Kasım 1467) günü Uzun Hasan, Karakoyunlu hükümdarı Cihan Şah'ı Bingöl civarında bir şafak baskınıyla öldürdü; altı bin asker, Cihan Şah'ın iki oğlu (Muhammedî ve Yûsuf) ile bütün emîrleri esir alındı. Bir asırdır Akkoyunlu'nun önünü kesen rakip hanedan bu tek gecede tasfiye edildi ve Azerbaycan, Irak ve İran'ın kapıları açıldı.", ic_not_d:"⚠️ Bingöl'ün atlas kaydı YOKTUR. `dunya:2` var olan kayıttan DEVRALINDI.",
-  kaynak:"uzun-hasan · karakoyunlular · cihan-sah" },
+  kaynak:"TDV `uzun-hasan`: \"Cihan Şah kaçmaya çalışırken öldürüldü. … (12 Rebîülâhir 872 / 10 Kasım 1467). Bu zafer bir devletin çöküşü, diğer bir devletin doğuşu anlamına geliyordu.\" · karakoyunlular · cihan-sah (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #13); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1467-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #13)" },
 
 // ───────────────────────── UZUN HASAN · İMPARATORLUK (1468-1478)
 

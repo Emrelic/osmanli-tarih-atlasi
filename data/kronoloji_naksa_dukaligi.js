@@ -81,7 +81,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1537-11-01", b:"Barbaros Hayreddin Paşa'nın Kiklad seferi — dukalığın haraca bağlanması", tur:"vassal", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["askeri","vassal","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Barbaros Hayreddin Paşa'nın ada seferi sırasında Kikladlar'ın büyük bölümü alındı ve Duka IV. Giovanni Crispo yıllık ağır bir haraç karşılığında yerinde bırakıldı. Dukalık artık bir Osmanlı tâbi devletidir; duka Latin, tebaası Ortodoks, hükümdarı Osmanlı padişahıdır. Bu tuhaf üçlü düzen kırk yıl sürecektir.",
-  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
+  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27) · daha önce künyede (devletler.js) 1537-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
 
 { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],

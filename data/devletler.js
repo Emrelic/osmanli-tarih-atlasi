@@ -110,7 +110,6 @@ window.DEVLETLER = [
     { t:"1260-09-03", tur:"savas", b:"Ayn Câlût'ta Moğolları durdurdular" },
     { t:"1277-07-01", tur:"hukumdar", b:"I. Baybars öldü; kısa süre sonra Kalavun hanedanı iktidara geldi" },
     { t:"1291-05-18", tur:"toprak-kazanc", b:"Akkâ'nın fethiyle Haçlıların Levant'tan tasfiyesi" },
-    { t:"1382-01-01", tur:"bolunme", b:"Burci (Çerkes) Memlûkleri, Bahrî Memlûklerinin yerini aldı" },
     { t:"1400-01-01", tur:"isgal", b:"Timur, Halep ve Şam'ı yağmaladı" },
     { t:"1485-01-01", tur:"savas", b:"Osmanlı-Memlûk Çukurova savaşları başladı (1491'e dek, kesin sonuçsuz)" },
     { t:"1516-08-24", tur:"toprak-kayip", b:"Mercidabık'ta Kansu Gavri öldü; Suriye Osmanlı'ya geçti" },
@@ -125,7 +124,6 @@ window.DEVLETLER = [
   kaynak:"safeviler",
   kronoloji:[
     { t:"1501-07-01", tur:"kurulus", b:"Şah İsmâil Tebriz'i aldı, On İki İmam Şiîliğini resmî mezhep ilan etti" },
-    { t:"1507-01-01", tur:"toprak-kazanc", b:"Diyarbekir ve yöresi Safevîlere bağlandı (Bağdat ertesi yıl, 1508)", gun:"yıl — TDV ay/gün vermiyor · ⚠️ TDV KENDİ İÇİNDE: `safeviler` 912 H, `sah-ismail` 913 H (ikisi de 1507)", ic_not_b:"eski t: 1503-01-01 · eski b: Diyarbekir, Bağdat ve Musul ele geçirildi (KRONO-CELISKI-1006)", kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu. Ertesi yıl Bağdat hâkimiyet altına alındı.\" · Musul TDV'de bulunamadı, metinden çıkarıldı · ayrıntı kronoloji_safevi.js 1507-01-01 ve 1508-01-01 maddelerine TAŞINDI (§2 #29)" },
     { t:"1514-08-23", tur:"toprak-kayip", b:"Çaldıran'da Yavuz'a yenildi; doğu Anadolu kaybedildi" },
     { t:"1524-05-23", tur:"hukumdar", b:"Şah İsmâil öldü, I. Tahmasb tahta çıktı" },
     { t:"1555-05-29", tur:"antlasma", b:"Amasya Barışı — Irak-ı Arab Osmanlı'da kaldı" },
@@ -212,7 +210,6 @@ window.DEVLETLER = [
     { t:"1441-01-01", tur:"kurulus", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti" },
     { t:"1475-06-01", tur:"antlasma", b:"Osmanlı Kefe'yi fethetti; Kırım Hanlığı Osmanlı'ya tâbi oldu" },
     { t:"1502-01-01", tur:"toprak-kazanc", b:"Büyük Orda'yı ortadan kaldırdı" },
-    { t:"1571-05-24", tur:"savas", b:"Devlet Giray, Moskova'yı yaktı" },
     { t:"1648-05-01", tur:"ittifak", b:"Tugay Bey kuvvetleri Hetman Hmelnitski'nin Kazak ayaklanmasına destek verdi" },
     { t:"1687-01-01", tur:"savas", b:"Rus Kırım seferleri püskürtüldü (1689'a dek)" },
     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
@@ -366,7 +363,6 @@ window.DEVLETLER = [
     { t:"1479-01-25", tur:"toprak-kayip", b:"İstanbul Antlaşması — Arnavutluk/İşkodra Osmanlı'da kaldı" },
     { t:"1489-02-26", tur:"toprak-kazanc", b:"Kıbrıs Krallığı'nı devraldı (Lüzinyan hanedanının sonu)" },
     { t:"1571-08-01", tur:"toprak-kayip", b:"Kıbrıs Osmanlı'ya düştü (İnebahtı zaferine rağmen)" },
-    { t:"1645-01-01", tur:"savas", b:"Girit (Kandiye) Savaşı başladı — 24 yıllık kuşatma" },
     { t:"1669-09-27", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi" },
     { t:"1684-01-01", tur:"toprak-kazanc", b:"Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)" },
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça ile Mora resmen Venedik'e bağlandı" },
@@ -512,7 +508,6 @@ window.DEVLETLER = [
     { t:"1453-01-01", tur:"hukumdar", b:"Uzun Hasan Akkoyunlu tahtına çıktı" },
     { t:"1458-01-01", tur:"ittifak", b:"Trabzon Rum İmparatoru'nun kızıyla evlenerek Trabzon ile ittifak kurdu" },
     { t:"1464-01-01", tur:"ittifak", b:"Venedik ile Osmanlı'ya karşı ittifak kurdu" },
-    { t:"1467-11-10", tur:"toprak-kazanc", b:"Karakoyunlu Devleti'ni yıktı", ic_not_b:"eski t: 1467-01-01 · eski b: Karakoyunlu Devleti'ni yıktı (KRONO-CELISKI-1006)", kaynak:"TDV `uzun-hasan`: \"Cihan Şah kaçmaya çalışırken öldürüldü. … (12 Rebîülâhir 872 / 10 Kasım 1467). Bu zafer bir devletin çöküşü, diğer bir devletin doğuşu anlamına geliyordu.\" (§2 #13)" },
     { t:"1473-08-11", tur:"savas", b:"Otlukbeli'de Fatih'e yenildi" },
     { t:"1478-01-06", tur:"hukumdar", b:"Uzun Hasan öldü" },
     { t:"1481-01-01", tur:"antlasma", b:"Yakub Bey, Hasan Padişah Kanunnâmesi ile idareyi yeniden düzenledi" },
@@ -543,11 +538,6 @@ window.DEVLETLER = [
     { t:"1351-01-01", tur:"kurulus", b:"Bayram Hoca tarafından Van-Erciş bölgesinde kuruldu" },
     { t:"1380-01-01", tur:"hukumdar", b:"Kara Mehmed tahta çıktı, Tebriz'i alarak devleti güçlendirdi" },
     { t:"1400-01-01", tur:"antlasma", b:"Timur'a yenilip tâbi oldu" },
-    { t:"1408-04-13", tur:"toprak-kazanc", b:"Kara Yûsuf, Tebriz yakınındaki Serdrûd'da Timurlu Ebû Bekir Mirza'yı yenip Azerbaycan'ı ele geçirdi", ic_not_b:"eski t: 1406-01-01 · eski b: Kara Yûsuf, Celâyirlileri yenip Tebriz'i ele geçirdi (KRONO-CELISKI-1006)", kaynak:"TDV `karakoyunlular`: \"Tebriz yakınlarındaki Serdrûd’da yapılan ikinci savaşı da Yûsuf Bey kazandı (16 Zilkade 810 / 13 Nisan 1408). Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" · 1406 (15 Ekim, Aras) zaferinin rakibi de Celâyirli değil Timurlu Ebû Bekir Mirza'dır (§2 #14)" },
-    { t:"1410-08-30", tur:"savas", b:"Esed'de Celâyirli Sultan Ahmed'i yenip öldürttü — Celâyirli Devleti yıkıldı (Bağdat 1411'de alındı)", ic_not_b:"eski t: 1410-01-01 · eski b: Celâyirli Devleti'ni yıkıp Bağdat'ı aldı (KRONO-CELISKI-1006)", kaynak:"TDV `karakoyunlular`: \"Tebriz civarındaki Esed köyünde onu ağır bir yenilgiye uğrattı (28 Rebîülâhir 813 / 30 Ağustos 1410).\" · Bağdat: \"Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti\" — 814/1411 (814 H = Nisan 1411 – Nisan 1412) (§2 #15)" },
-    { t:"1420-11-13", tur:"hukumdar", b:"Kara Yûsuf'un ölümüyle oğulları arasında taht kavgaları başladı", ic_not_b:"eski t: 1420-01-01 · eski b: Kara Yûsuf'un ölümüyle oğulları arasında taht kavgaları başladı (KRONO-CELISKI-1006)", kaynak:"TDV `karakoyunlular`: \"Ancak Tebriz’in güneydoğusunda Ucan’a yakın bir yerde vefat etti (7 Zilkade 823 / 13 Kasım 1420).\" (§2 #16)" },
-    { t:"1438-04-19", tur:"hukumdar", b:"Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı", ic_not_b:"eski t: 1438-01-01 · eski b: Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı (KRONO-CELISKI-1006)", kaynak:"TDV `cihan-sah`: \"Cihan Şah durumdan faydalanarak 19 Nisan 1438’de “Muzafferüddin” lakabıyla Karakoyunlu tahtına geçti.\" · ⚠️ TDV KENDİ İÇİNDE: `karakoyunlular` İskender'in ölümünü Zilkade 841 / Mayıs 1438 verir (1 Zilkade 841 ≈ 25 Nisan 1438) — sıra ters (§3.1)" },
-    { t:"1447-03-12", tur:"antlasma", b:"Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu", ic_not_b:"eski t: 1447-01-01 · eski b: Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu (KRONO-CELISKI-1006)", kaynak:"TDV `timurlular`: \"Rey yakınında öldü (12 Mart 1447)\" · TDV `cihan-sah`: \"Şâhruh Mirza’nın 1447’de vefatı üzerine çıkan saltanat gailesinden faydalanan Cihan Şah sultan ve hakan unvanlarını aldı\" — günü yazılan Şâhruh'un ölümüdür, unvan/ilhakın günü TDV'de yok (§2 #18)" },
     { t:"1458-01-01", tur:"toprak-kazanc", b:"Timurlu iç kargaşasından yararlanıp Herat'ı kısa süreliğine aldı" },
     { t:"1469-04-01", tur:"toprak-kayip", b:"Akkoyunlu'ya yenildi; son hükümdar Hasan Ali öldürüldü", kaynak:"TDV karakoyunlular / uzun-hasan: Şevval 873 (Nisan 1469) — AY hassasiyeti" },
     { t:"1469-12-19", tur:"son", b:"Bağdat'taki son Karakoyunlu kolu da düştü; hanedan sona erdi", kaynak:"TDV karakoyunlular: 14 Cemâziyelâhir 874 / 19 Aralık 1469 (KRONO-DOGU-ISLAM-0929)" }
@@ -675,7 +665,6 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
-    { t:"1308-11-27", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı", ic_not_b:"eski t: 1308-06-15 — KAYNAKSIZ; ikizin kaynaklı gününe çekildi (KRONO-AKADEMIK-1006)", kaynak:"TDV `macaristan`: \"Anjou sülâlesinden I. Károly 1308’de kral seçildi ve 1310’da taç giydi.\" · gün: kronoloji_macaristan.js 1308-11-27 (Engel 2001, s. 124-131 — Pest meclisinde seçim; Engel metni bu turda okunamadı) · BEYAN (MGGP-NOT): kullanılan gün 1308-11-27 · kullanılmayan 1308-06-15 (kaynaksız; yıl da şüpheli — 15 Haziran bir 1309 taç giyme günü olarak anılıyor, kaynağı yalnız Vikipedi, dayanak DEĞİL) (KRONO-AKADEMIK-1006)" },
     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
     { t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
@@ -795,7 +784,6 @@ window.DEVLETLER = [
   ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 21'den 22'ye çekildi — TDV `fransa` maddesi \"22 Eylül'de de cumhuriyet ilân edildi\" diyor, önceki 21 bir gün erkendi. Ardılı için bkz. [[fransa-cumhuriyet]].",
   kaynak:"fransa",
   kronoloji:[
-    { t:"1536-02-18", tur:"ittifak", b:"I. François ile Kanunî arasında Kapitülasyonlar imzalandı", ic_not_b:"eski t: 1536-01-01 · eski b: I. François ile Kanunî arasında Kapitülasyonlar imzalandı (KRONO-CELISKI-1006)", kaynak:"TDV `fransa`: \"18 Şubat 1536’da, I. François adına elçi Jean de la Forest ile Kanûnî adına Sadrazam Makbul İbrâhim Paşa arasında Fransa’ya ticarî imtiyazlar tanıyan bir anlaşma gerçekleştirildi.\" (§2 #11)" },
     { t:"1798-07-01", tur:"savas", b:"(Devrim sonrası) Napolyon'un Mısır Seferi ile Osmanlı'ya savaş açıldı" },
     { t:"1792-09-22", tur:"son", b:"Krallık ilga edildi, Cumhuriyet ilan edildi" }
   ]
@@ -986,7 +974,6 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1205-01-01", tur:"kurulus", b:"IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu" },
     { t:"1311-03-15", tur:"toprak-kayip", b:"Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi", ic_not_b:"eski b: Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi (bkz. [[katalan]])" },
-    { t:"1388-01-01", tur:"toprak-kazanc", b:"Floransalı Nerio Acciaiuoli, Katalanlardan Atina'yı aldı" },
     { t:"1458-06-04", tur:"son", b:"Fatih tarafından ilhak edildi" }
   ]
 },
@@ -995,7 +982,6 @@ window.DEVLETLER = [
   ozet:"Bizans'ın Anadolu'da Türklere karşı kiraladığı, sonra kendisine düşman kesilen Katalan paralı asker kumpanyasının Frank Atina Dukalığı'nı ele geçirip Aragon/Sicilya tacı himayesinde kurduğu kısa ömürlü devlet.",
   kaynak:"atina",
   kronoloji:[
-    { t:"1303-01-01", tur:"kurulus", b:"Roger de Flor'un Katalan Kumpanyası, Bizans hizmetine Anadolu'da Türklere karşı savaşmak üzere girdi" },
     { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
     { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
     { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
@@ -1007,7 +993,6 @@ window.DEVLETLER = [
   kaynak:"naksa",
   kronoloji:[
     { t:"1207-01-01", tur:"kurulus", b:"Venedikli Marco Sanudo tarafından kuruldu" },
-    { t:"1537-01-01", tur:"antlasma", b:"Barbaros Hayreddin Paşa haraca bağladı" },
     { t:"1579-01-01", tur:"son", b:"Osmanlı tarafından tamamen ilhak edildi" }
   ]
 },
@@ -1051,7 +1036,6 @@ window.DEVLETLER = [
     { t:"1386-01-01", tur:"isgal", b:"Timur'un art arda seferleri ülkeyi harap etti" },
     { t:"1490-01-01", tur:"bolunme", b:"Krallık Kartli, Kaheti ve İmereti'ye bölündü, Samçhe (Meskheti) atabekliği de ayrıca bağımsızlaştı" },
     { t:"1555-05-29", tur:"bolunme", b:"Amasya Barışı ile Osmanlı-Safevî nüfuz bölgelerine bölündü" },
-    { t:"1578-08-24", tur:"savas", b:"Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi", ic_not_b:"eski t: 1578-01-01 · eski b: Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi (KRONO-CELISKI-1006)", kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (§2 #24)" },
     { t:"1590-03-21", tur:"toprak-kazanc", b:"Ferhad Paşa Antlaşması ile Gürcistan Osmanlı nüfuzuna girdi" },
     { t:"1762-01-01", tur:"birlesme", b:"II. Herakli, Kartli ve Kaheti'yi kişisel birlikte topladı" },
     { t:"1783-07-24", tur:"antlasma", b:"Georgievsk Antlaşması ile Kartli-Kaheti Rusya himayesine girdi" },
@@ -1816,11 +1800,8 @@ window.DEVLETLER = [
     { t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
     { t:"1387-01-01", tur:"savas", b:"İsfahan isyanı bastırılırken şehir yağmalandı" },
     { t:"1398-12-17", tur:"savas", b:"Delhi Sultanlığı'nı yenip şehri yağmaladı" },
-    { t:"1400-01-01", tur:"toprak-kazanc", b:"Halep ve Şam'ı ele geçirdi", ic_not_b:"eski b: Halep ve Şam'ı ele geçirdi (bkz. [[memluk]])" },
     { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
     { t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
-    { t:"1409-05-13", tur:"hukumdar", b:"Şâhruh, Herat merkezli olarak devletin başına geçti", ic_not_b:"eski t: 1409-01-01 · eski b: Şâhruh, Herat merkezli olarak devletin başına geçti (KRONO-CELISKI-1006)", kaynak:"TDV `sahruh`: \"27 Zilhicce 811 (13 Mayıs 1409) tarihinde hiçbir mukavemetle karşılaşmadan Semerkant’a giren Şâhruh\" · hükümdar listesi `timurlular`: \"Şâhruh 811 (1409)\" (§2 #21)" },
-    { t:"1447-01-01", tur:"hukumdar", b:"Uluğ Bey (Semerkant kolu) tahta çıktı", gun:"yıl — tahta çıkışın günü TDV'de yok; Şâhruh'un 12 Mart 1447'deki ölümü ÜZERİNE (yıl hassasiyeti sıralamada ölümün önüne düşer)", ic_not_b:"eski t: 1449-01-01 · eski b: Uluğ Bey (Semerkant kolu) tahta çıktı (KRONO-CELISKI-1006)", kaynak:"TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447). … Yerine oğlu Uluğ Bey geçti (1447-1449).\" · hükümdar listesi: \"Uluğ Bey 850 (1447)\" (§2 #22)" },
     { t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
     { t:"1507-05-01", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
   ]

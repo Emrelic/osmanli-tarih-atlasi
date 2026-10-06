@@ -402,7 +402,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1645-08-22", b:"Girit Savaşı'nın başlaması ve Hanya'nın düşüşü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Osmanlı ordusu Girit'e çıktı ve elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü)" },
+  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2)" },
 
 { t:"1646-03-01", b:"Patrisyenliğin satışa çıkarılması — savaşın anayasal bedeli", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","ekonomi","konu-ekonomi","konu-islahat","konu-hukuk"],

@@ -13,7 +13,7 @@ window.KRONOLOJI_KATALAN = [
 { t:"1303-09-01", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ittifak","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Sicilya savaşlarından işsiz kalan Roger de Flor kumandasındaki Katalan paralı askerleri, Türk beyliklerine karşı savaşmak üzere Bizans hizmetine alındı. Kumpanya Anadolu'da birkaç başarı kazandı ama disiplinsizliği ve talepleriyle imparatorluğu bunalttı. Ege tarihinin en tuhaf devletlerinden birinin çekirdeği budur: bir ŞİRKET olarak örgütlenmiş bir ordu.",
-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · devletler.js künye kronolojisi · gün yaklaşıktır" },
+  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · gün yaklaşıktır · TDV kapsamıyor · önceki \"devletler.js künye kronolojisi\" atfı kaldırıldı: atlas kaydı dayanak olamaz (D207) ve o künye maddesi silindi (KRONO-CELISKI-1006 §2 #26) · daha önce künyede (devletler.js) 1303-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #26)" },
 
 { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["kriz","askeri","isyan","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan"],
