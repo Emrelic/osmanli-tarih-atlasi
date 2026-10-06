@@ -24,7 +24,7 @@ window.KRONOLOJI_COK_SENKRON_0930 = [
     d:"Musa Çelebi ani bir baskınla Edirne'yi ele geçirdi; kaçmak isteyen Süleyman Çelebi yakalanıp öldürüldü ve Musa hükümdarlığını ilân etti. Süleyman'ın Anadolu'dan ayrılmasının ardından Bursa ve çevresi Mehmed Çelebi'nin eline geçti.",
     kaynak:"TDV: musa-celebi (MÛSÂ ÇELEBİ) · TDV: mehmed-i (MEHMED I) — gövde: \"Süleyman’ın Anadolu’dan ayrılmasının ardından Mehmed Bursa’yı yeniden ele geçirdi\"",
     taraflar:["fetret-suleyman","fetret-mehmed","fetret-musa"], yer_id:"Edirne", etiket:["konu-siyasi"],
-    ic_not_t:"Gün Süleyman'ın ölüm günüdür (TDV iki maddede aynı). Mehmed'in Bursa'yı alışının günü TDV'de YOK ('Süleyman'ın Anadolu'dan ayrılmasının ardından' — ayrılış 1410); veri Anadolu devrini 17 Şubat 1411'e koyuyor, kaynak gün vermiyor." },
+    ic_not_t:"Gün Süleyman'ın ölüm günüdür (TDV iki maddede aynı). Mehmed'in Bursa'yı alışının günü TDV'de YOK ('Süleyman'ın Anadolu'dan ayrılmasının ardından' [TDV: mehmed-i] — ayrılış 1410); veri Anadolu devrini 17 Şubat 1411'e koyuyor, kaynak gün vermiyor." },
   { t:"1413-07-05", k:"siyasi", b:"Çamurlu Derbent: Musa Çelebi'nin ölümü, Mehmed Çelebi tek hükümdar — Fetret Devri sona erer",
     gun:"5 Temmuz 1413 (5 Rebîülâhir 816)", yer:"Çamurlu Derbent (Samokov yakını)", kisiler:"Musa Çelebi · Mehmed Çelebi",
     d:"Yenilen Musa Çelebi yaralı hâlde Eflak'a kaçmak isterken Mehmed Çelebi'nin adamlarınca yakalanıp boğduruldu. Mehmed Çelebi Osmanlı topraklarını tek elde birleştirdi; Rumeli ve Anadolu'daki şehzade idareleri sona erdi.",
