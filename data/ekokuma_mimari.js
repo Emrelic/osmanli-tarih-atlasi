@@ -70,42 +70,42 @@
 // gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_MIMARI = [
 
-{ id:"mimari-sultanahmet", tur:"teknik-bilimsel",
+{ id:"mimari-sultanahmet", tur:"mimari",
   olay:["1606-10-11","1609-08-09"],
   kisa:"Altı minareli ilk selâtin camii — ve hazineden, fetih zaferi olmadan yapılan ilki.",
   metin:"Sultan Ahmed Camii, I. Ahmed'in emriyle 1609'da Atmeydanı'nda başlanıp 1620'de tamamlandı; mimarı, Mimar Sinan'ın yanında yetişmiş Sedefkâr Mehmed Ağa'dır. Yapı, klasik Osmanlı cami şemasının revaklı avlulu düzenini izler: yaklaşık 22,4 metre çapındaki merkezî kubbe dört büyük payeye oturur, dört yönde birer yarım kubbeyle desteklenir ve bu yarım kubbeler üçer eksedrayla genişletilir. Döneme kadar denenmemiş bir düzenlemeyle altı minare yapılmıştır — TDV, bunun Kâbe'yle 'eşitlik' iddiasına yol açtığına dair yaygın rivayeti doğrulamaz, yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydeder.\n\nYapıda kesme küfeki taşı ağırlıklı malzeme olarak kullanılmış; iç mekân 21.000'i aşkın İznik ve Kütahya çinisiyle, mermer, ahşap ve maden süslemelerle donatılmıştır. 17. yüzyılın ilk çeyreğine ait olan cami, klasik Osmanlı mimarisinin son evresini temsil ederken bazı bölümlerinde barok motiflerle de karşılaşılır — yaklaşan üslup değişiminin ilk izleri.\n\nAyrı bir not: caminin banisi I. Ahmed, camiyi bir fetih zaferine dayanmadan doğrudan hazineden yaptırmıştır; bu, dönemin bazı çevrelerince eleştiri konusu olmuştur, çünkü büyük selâtin camileri geleneksel olarak bir zaferin anısına yapılırdı.",
   kesinlik:"kesin",
   kaynak:"TDV: sultan-ahmed-camii-ve-kulliyesi", ic_not_kaynak:"eski kaynak: TDV: sultan-ahmed-camii-ve-kulliyesi (gövde okundu, HTTP 200). Tarih: data/olaylar_ek7.js:67 (t:1609-08-09, temel atma) ve data/olaylar_ek17.js:23 (Sedefkâr Mehmed Ağa'nın başmimarlığa atanması, 1606)." },
 
-{ id:"mimari-suleymaniye", tur:"teknik-bilimsel",
+{ id:"mimari-suleymaniye", tur:"mimari",
   olay:["1550-06-01","1557-10-16"],
   kisa:"Mimar Sinan'ın kendi 'kalfalık eserim' dediği yapı — akustik için kubbeye gömülü 64 boş küp.",
   metin:"Süleymaniye Camii ve Külliyesi, Kanûnî Sultan Süleyman adına Mimar Sinan'ın baş mimarlığında inşa edildi; temeli 13 Haziran 1550'de (27 Cemâziyelevvel 957) atılmış, yapı 15 Ekim 1557'de (21 Zilhicce 964) tamamlanmıştır. Kareye yakın dikdörtgen planlı (yaklaşık 69×62,3 m) camide merkezî kubbe 27,40 metre çapındadır ve iki yarım kubbeyle desteklenir. İç mekânı aydınlatan çok sayıda pencerenin yanında, kubbe içine sesi düzenlemek amacıyla yerleştirilmiş 64 adet boş küp bulunur — dönemin akustik mühendisliğine dair somut bir kanıttır.\n\nYapı düzgün kesme taştan inşa edilmiş, kubbeler ise tuğla örgü tekniğiyle örülmüştür. Tezyinatta 16. yüzyıl İznik çinileri ve renkli taş kakmalar kullanılmıştır. Külliye yalnız camiden ibaret değildir: medreseler, dârüşşifa (hastane) ve kütüphaneyi de içeren, klasik dönemin en büyük eğitim-hayır kompleksidir.\n\nTDV, yapıyı Osmanlı klasik mimarisinin 'zirve noktalarından biri' ve 'Sinan okulunun' en önemli örneklerinden biri olarak tanımlar; Sinan'ın kendisi bu eseri 'kalfalık eserim' diye nitelendirmiştir — asıl 'ustalık eserim' dediği Selimiye'den önceki büyük aşama.",
   kesinlik:"kesin",
   kaynak:"TDV: suleymaniye-camii-ve-kulliyesi", ic_not_kaynak:"eski kaynak: TDV: suleymaniye-camii-ve-kulliyesi (gövde okundu, HTTP 200). Tarih: data/olaylar_ek7.js:35 (t:1550-06-01, inşaat başlangıcı) ve data/olaylar_ek2.js:24 (t:1557-10-16, açılış)." },
 
-{ id:"mimari-selimiye", tur:"teknik-bilimsel",
+{ id:"mimari-selimiye", tur:"mimari",
   olay:["1568-01-01|Selimiye","1575-03-01"],  // PAKET-A2 13 Eyl: 1568-01-01'de 5 madde (Hollanda, İsveç, Lehistan, Habsburg…), yalnız Selimiye ilgili
   kisa:"Sinan'ın 'ustalık eserim' dediği yapı — 31,3 metrelik kubbesiyle Ayasofya'yı geçmeyi hedefledi.",
   metin:"Selimiye Camii ve Külliyesi (Edirne), II. Selim adına Mimar Sinan tarafından 1568'de başlanıp altı yıl süren bir inşaatla 1574'te tamamlandı; arastanın batı dükkânları, tonozlu örtü, dua kubbesi ve sıbyan mektebi ise II. Selim'in ölümünden sonra III. Murad döneminde Dâvud Ağa tarafından tamamlandı. Sekiz destekli merkezî kubbeli plan üzerine kurulu caminin kubbe çapı 31,30 metre, yüksekliği 42,25 metredir — Sinan'ın bu ölçüyle Ayasofya'nın kubbesini geçmeyi hedeflediği kabul edilir. Dört köşedeki minareler 70,89 metre yüksekliğinde ve üçer şerefelidir.\n\nYapıda sarımtırak renkte kesme taş kullanılmış, pencere ve kemerlerde iki renkli taş malzemeyle zenginleştirilmiştir. TDV, iç mekân tasarımını 'geniş ve ferah bir mekân bütünlüğü' olarak tanımlar; merkezî kubbeden kademeli yarım kubbeler ve kemerlerin birleşimi Osmanlı klasik mimarisinin en yüksek düzeyini temsil eder. Yapı UNESCO Dünya Mirası listesindedir.\n\nMimar Sinan'ın kendi tabiriyle bu yapı onun 'ustalık eserim' dediği eseridir — Süleymaniye'yi (kendi tabiriyle 'kalfalık eserim') aşan, meslek hayatının doruk noktası sayılan çalışması.",
   kesinlik:"kesin",
   kaynak:"TDV: selimiye-camii-ve-kulliyesi--edirne", ic_not_kaynak:"eski kaynak: TDV: selimiye-camii-ve-kulliyesi--edirne (gövde okundu, HTTP 200; ⚠️ soneksiz 'selimiye-camii-ve-kulliyesi' 302 ÖLÜ). Tarih: data/olaylar_ek14.js:51 (t:1568-01-01, inşaat başlangıcı) ve data/olaylar_ek2.js:25 (t:1575-03-01, tamamlanma)." },
 
-{ id:"mimari-mostar-koprusu", tur:"teknik-bilimsel",
+{ id:"mimari-mostar-koprusu", tur:"mimari",
   olay:["1566-01-01|Mostar"],
   kisa:"28,59 metrelik tek kemer — 1993'te yıkıldı, 2004'te aslına uygun yeniden yapıldı.",
   metin:"Mostar Köprüsü, Neretva nehri üzerinde, Mimar Sinan'ın öğrencisi Mimar Hayreddin tarafından Kanûnî Sultan Süleyman döneminde inşa edildi. İnşaata Muharrem 965 başında (Ekim 1557) girişilmiş, 974'te (1566-67) tamamlanmıştır; 1568 tarihli resmî bir belgede köprüden söz edilmesi bu tarihi doğrular. Tek gözlü, sivri kemerli, kesme taştan yapılan köprünün kemer açıklığı 28,59 metre, kemer kavisinin yüksekliği 12,02 metredir; su seviyesine göre nehirden yaklaşık 21 metre yükseklikte durur. Köprü üstünün genişliği 4,50 metre, iki yandaki korkuluklar 25 santimetre kalınlık ve 95 santimetre yükseklikte, döşeme kademeli olarak düzenlenmiştir.\n\nTDV bu yapıyı 'mimari dehânın terkibiyle taştan yapılmış değil de muhayyilenin cisim halini almasıyla meydana gelmiş gibi efsanevî bir mâna ve ruh kazanmıştır' diye tanımlar; köprü UNESCO tarafından korunan bir dünya mimarlık anıtıdır.\n\nSonraki tarihçe: köprü 1993'te Bosna Savaşı sırasında yıkılmış, 2004'te özgün taş ocağından getirilen malzeme ve tarihî yöntemlerle yeniden inşa edilmiştir. Bugün ayakta olan yapı bir yeniden inşadır; yukarıdaki ölçüler ve tarihler özgün (1566-67) yapıya aittir.", ic_not_metin:"eski ifadeler: «⚠️ TARİHÇE NOTU (kaynak dışı, genel bilgi):» · «REKONSTRÜKSİYONdur» · «Görsel seçilirken bu ayrım (özgün dönem mi, 2004 rekonstrüksiyonu mu) açıkça belirtilmelidir.»",
   kesinlik:"kesin",
   kaynak:"TDV: mostar-koprusu", ic_not_kaynak:"eski kaynak: TDV: mostar-koprusu (gövde okundu, HTTP 200). Tarih: data/olaylar_ek14.js:36 (t:1566-01-01, tamamlanma). 1993/2004 rekonstrüksiyon notu TDV maddesinde değil — güncel/genel bilgi, ayrıca doğrulanmalı (ölçmedim)." },
 
-{ id:"mimari-mihrimah-edirnekapi", tur:"teknik-bilimsel",
+{ id:"mimari-mihrimah-edirnekapi", tur:"mimari",
   olay:["1566-01-01|Edirnekapı"],
   kisa:"Sinan'ın tek kubbeli camiler tipinin en büyük örneği — üç sıra pencereyle aydınlık bir iç mekân.",
   metin:"Edirnekapı'daki cami ve külliye, Kanûnî Sultan Süleyman'ın kızı Mihrimah Sultan için Mimar Sinan tarafından yapıldı; inşaya dair izin 1563'te (970 h.) teyit edilmiş, yapı 1566'da (973 h.) tamamlanmıştır. Dikdörtgen planlı, tek kubbeli caminin ana namaz mekânı 20,25 metre çapında bir kubbeyle örtülüdür; kubbe dört büyük kemere oturur ve yan kanatlardan ayrılır. Yan kanatlar alçak, kubbeli üçer bölümden oluşur.\n\nYapıda mermer ve granit sütunlar, mermer minber, tuğla ve taş yapı malzemesi kullanılmıştır. TDV bu camiyi Sinan'ın tek kubbeli camiler tipinde oluşturduğu en büyük örnek olarak tanımlar; medreseyle birleştirilmesi ve yan kanatlar tasarımı zenginleştirmiştir. Kubbe kasnağında ve büyük kemerlerde üç sıra hâlinde pencere bulunması, harimi bolca aydınlatan bir özelliktir — Sinan'ın İstanbul surlarına en yakın büyük eserlerinden birinde uyguladığı bu aydınlık iç mekân, döneminin diğer selâtin camilerinden ayırt edici bir yanıdır.\n\nMihrimah Sultan'ın Mimar Sinan'a yaptırdığı iki büyük camiden ikincisidir; ilki (Üsküdar İskele Külliyesi) 1547'de tamamlanmıştı, Edirnekapı'daki yaklaşık yirmi yıl sonra bitmiştir.",
   kesinlik:"kesin",
   kaynak:"TDV: edirnekapi-camii-ve-kulliyesi", ic_not_kaynak:"eski kaynak: TDV: edirnekapi-camii-ve-kulliyesi (gövde okundu, HTTP 200; ⚠️ 'mihrimah-sultan-camii' ve dört türevi 302 ÖLÜ — doğru madde adı bu değil). Tarih: data/olaylar_ek14.js:45 (t:1566-01-01, tamamlanma)." },
 
-{ id:"mimari-nuruosmaniye", tur:"teknik-bilimsel",
+{ id:"mimari-nuruosmaniye", tur:"mimari",
   olay:["1749-01-19","1755-12-05"],
   kisa:"Osmanlı mimarisinde Avrupa barok üslubunun ilk büyük uygulaması — klasik külliye şemasından kopuş.",
   metin:"Nuruosmaniye Külliyesi'nin mimarı Simeon (Simon) Kalfa'dır. Temeli I. Mahmud tarafından 19 Ocak 1749'da (29 Muharrem 1162) atılmış, ancak I. Mahmud tamamlanmasını görememiş; yapı kardeşi III. Osman döneminde 5 Aralık 1755'te (1 Rebîülevvel 1169) açılmıştır — caminin adı da açılışı gerçekleştiren III. Osman'a atfen 'Osman'ın Nuru' anlamına gelir. Kare planlı harimin ağırlığı dört büyük kemere dağılan tek ve büyük bir kubbe örter; kubbenin çapı 25,50 metredir. Külliyenin kütüphane ve diğer birimlerinde de kubbe ve tonoz sistemleri kullanılmıştır.\n\nYapıda mermer (mihrap ve işçilikte), taş (minarelerde), tuğla (kubbede) ve tunç (sebil şebekelerinde) malzemeler kullanılmıştır. Külliye; cami, medrese, kütüphane, türbe, sebil, çeşme, imaret ve dükkânlardan oluşan geniş bir kompleks olarak tasarlanmıştır.\n\nÜslup açısından Nuruosmaniye, TDV'nin tabiriyle 18. yüzyılda 'Türk sanatına sızan Avrupa'nın barok üslûbu'nu güçlü biçimde taşır: pencere profilleri, nişler, renkli camlı pencerelerin desenleri ve mermer mihrap barok motifleriyle süslenmiştir. Bu yönüyle klasik Osmanlı külliye şemasından belirgin biçimde ayrılan yapı, Osmanlı barok üslubunun İstanbul'daki ilk büyük ve olgun örneği kabul edilir.",
@@ -121,7 +121,7 @@ window.EKOKUMA_MIMARI = [
 // altı kartla aynı karar) + bir "tartisma" kartı (Topkapı'nın az bilinen hususları).
 {
   "id": "mimari-topkapi-sarayi",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1478-01-01|Topkapı",
     "1478-09-01"
@@ -151,7 +151,7 @@ window.EKOKUMA_MIMARI = [
 
 {
   "id": "mimari-dolmabahce-sarayi",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1856-06-07"
   ],
@@ -163,7 +163,7 @@ window.EKOKUMA_MIMARI = [
 
 {
   "id": "mimari-fatih-camii",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1470-12-01",
     "1766-05-01"
@@ -176,7 +176,7 @@ window.EKOKUMA_MIMARI = [
 
 {
   "id": "mimari-rumelihisari",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1452-08-31|Boğazkesen"
   ],
@@ -188,7 +188,7 @@ window.EKOKUMA_MIMARI = [
 
 {
   "id": "mimari-sehzade-camii",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1543-06-01",
     "1548-08-01"
@@ -201,7 +201,7 @@ window.EKOKUMA_MIMARI = [
 
 {
   "id": "mimari-yeni-cami",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1598-04-09",
     "1598-09-01",
@@ -216,7 +216,7 @@ window.EKOKUMA_MIMARI = [
 
 {
   "id": "mimari-beyazit-camii",
-  "tur": "teknik-bilimsel",
+  "tur": "mimari",
   "olay": [
     "1505-10-13|Beyazıt"
   ],

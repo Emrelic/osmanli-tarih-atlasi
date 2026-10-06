@@ -94,3 +94,33 @@ Yanova (Ineu)"`. Yeri: `olaylar_ok109.js`te Trianon maddesinin hemen ardı (Değ
 - Antlaşmanın özgün (Fransızca/İngilizce) metninin kurumsal bir kopyası **aranmadı**: MNIR'in Romence resmî çevirisi md. 45'i
   birebir veriyor.
 - Mükerrer ZAYIF +1 çiftinin kimliği.
+
+---
+
+## 7. 1006b — koordinatör hükmü sonrası (temel `62e270eb`)
+⚠️ `BANAT-TRIANON-1006.diff` **BAYAT** (başına satır eklendi). Yerine:
+- **`BANAT-TRIANON-1006b.diff` (ÖNERİLEN, "T")** — yalnız Temeşvar ADIYLA. b: *"Banat bölüşüldü, Temeşvar Romanya'ya bırakıldı
+  (Trianon md. 27/3 ve 45)"* · `yer:"Temeşvar (Timișoara)"` · `odak_yer:["Temeşvar"]`. Lugoj **ve Yanova** b/yer/d/odak'ta YOK.
+- **`BANAT-TRIANON-1006b-YANOVALI.diff` ("TY")** — koordinatörün istediği biçim: + Yanova (Crișana cümlesi, TDV yanova).
+🔴 **Niçin T öneriliyor:** hükmün kendi ölçütü (bölge cümlesi şehre taşınmaz, D208) Yanova'yı da düşürür. TDV `yanova`
+gövdesinin Yanova'yı Romanya'yla bağlayan tek cümlesi *"Günümüzde Batı Romanya’da Arad idarî bölümü içinde …"* —
+**bugünkü konum**, Trianon ya da 1920 değil (gövdede `19[12]x|Trianon` araması yalnız bu cümleyi döndürdü). Yanova'yı
+Trianon'a bağlayan tek tanık MNIR'in **bölge** cümlesidir (Crișana). Yanova'nın "kendi kaynağı" bulunamadı.
+
+**Ölçüm** (`denetle.py`, aynı ağaç; LUGOS KOORD + UMIT taban; çıkış her koşuda 2, yalnız D8):
+| | LUGOS tabanı | + 1006b (T) | + 1006b-YANOVALI (TY) |
+|---|---|---|---|
+| 2sk yalnız-taraf | 2249 ⚠️ | **2247** 🧊 | **2247** 🧊 |
+| GÜN YER · TARAF | 1370 · 1586 | 1372 · 1584 | 1372 · 1584 |
+| 2s · 2i · D2 · mükerrer | 1721/186 · 172/1 · 623/0 · 95 | = | = |
+
+**Birim birim, 1920-06-04** (`_2s_yeri_aniyor`'un kolları ayrı ayrı sorularak):
+| birim | T | TY |
+|---|---|---|
+| Lugos | YER 0 · TARAF 2 ⇒ **yalnız-taraf** (AÇIK DEĞİL: 2s AÇIK 186 değişmedi) | aynı |
+| Temeşvar | YER ← `yer_id` + kendi adı | aynı |
+| Yanova | YER ← **yalnız `merkez m:Temeşvar`** | YER ← kendi adı + merkez |
+⇒ Koordinatörün sorusu: T'de Yanova'nın YER kapanışı **m: kolundan** geliyor (denetle.py'nin kendi tasarımı: madde bölge
+merkezini başlık/yer'de anıyor). TY'de kendi adından da geliyor — ama o ad bölge çıkarımıyla yazılmış.
+**Tavan:** her iki biçimde **2247 kalır** (Lugos'un 1918-11-11 ve 1920-06-04 birimleri yalnız-taraf; +2 − Temeşvar/Yanova'nın
+geçen 2'si = 0). BEKLENEN değişmez; LUGOS diff'leriyle tek commit'te inerse kapı 🧊 kalır.

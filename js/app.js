@@ -11737,7 +11737,19 @@ var EKOKUMA_TUR = {
   // veri-büyük" — burada yalnız (a) yapıldı, içerik AYRI iş).
   "tartisma":        { etiket: "💬 Tartışma",        kaynak: function () { return _ekHavuz(); } },
   "teknik-bilimsel": { etiket: "🔬 Teknik / Bilimsel", kaynak: function () { return _ekHavuz(); } },
-  "kimdir":          { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
+  // 🆕 6 Ekim 2026 — paket 0084 / H-0004, Emre: *"okçuluk, cirit, güreş,
+  // atçılık — tüm sporla alâkalı maddeler SPOR; kültür-sanat ile alâkalı
+  // olanlar KÜLTÜR SANAT"* · ve aynı gün: *"mimari ile ilgili kartlara MİMARİ
+  // diye YENİ BİR KATEGORİ açalım; şehircilik, bayındırlık gibi konuları ve
+  // buna paralel konuları da dahil edelim."* Bu kartlar `teknik-bilimsel`
+  // altında "TEKNİK BİLİMSEL" yazıyordu. Kaynak AYNI havuz; gövde SON ÇARE
+  // dalından çizilir (teknik-bilimsel ile aynı yol). 🔴 Bu üç satır, kart
+  // `tur`u değişmeden ÖNCE ya da AYNI commit'te inmeli — yoksa kartlar
+  // SESSİZCE kaybolur (D099; P84-ETIKET-MIMARI-1006 ölçtü: 24 kart).
+  "spor":            { etiket: "🏅 Spor",             kaynak: function () { return _ekHavuz(); } },
+  "kultur-sanat":    { etiket: "🎨 Kültür Sanat",     kaynak: function () { return _ekHavuz(); } },
+  "mimari":          { etiket: "🏛️ Mimari ve Şehircilik", kaynak: function () { return _ekHavuz(); } },
+  "kimdir":         { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
   "dis-yankilar":    { etiket: "🌐 Dış Yankılar",      kaynak: function () { return _ekHavuz(); } },
   "kahramanlik":     { etiket: "🛡️ Kahramanlık",      kaynak: function () { return _ekHavuz(); } },
   "menkibeler":      { etiket: "📖 Menkıbe",           kaynak: function () { return _ekHavuz(); } },
@@ -11956,7 +11968,8 @@ function _ekEtiketiBol(et) {
 var _EK_UST_KISA = {
   "antlasma":        "ANTLAŞMA",         // etiket: "Antlaşma hükümleri" (18)
   "savas-hikayesi":  "SAVAŞ HİKÂYESİ",   // etiket: "Savaşın Hikâyesi" (16)
-  "teknik-bilimsel": "TEKNİK BİLİMSEL"   // etiket: "Teknik / Bilimsel" (17); Emre'nin yazdığı ad
+  "teknik-bilimsel": "TEKNİK BİLİMSEL",  // etiket: "Teknik / Bilimsel" (17); Emre'nin yazdığı ad
+  "mimari":          "MİMARİ"            // etiket: "Mimari ve Şehircilik" (20); Emre'nin yazdığı ad
 };
 function _ekKategoriUstYazi(tur, ad) {
   return _EK_UST_KISA[tur] || String(ad == null ? tur : ad).toLocaleUpperCase("tr");

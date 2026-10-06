@@ -1,0 +1,299 @@
+bolum	yama_dosya:satir	no_ya_da_ad	damga_ya_da_alan	iddia_ya_da_hedef	hukum	ek
+2-DAMGA	yer_yama_acik.js:21	TDV-K1 (parti-emrelic-0004/H-0006)	cozuldu-oneri	Erzincan d f 1514-10-23	TAŞIMIYOR	
+2-DAMGA	yer_yama_acik.js:21	TDV-K1 (parti-emrelic-0004/H-0006)	cozuldu-oneri	Erzincan s karakoyunlu 1410-01-01→1422-01-01	TAŞIYOR	
+2-DAMGA	yer_yama_acik.js:29	TDV-K2 (parti-0002/H-0016 ailesi)	cozuldu-oneri	Konya s eretna f 1335-01-01	TAŞIMIYOR	
+2-DAMGA	yer_yama_acik.js:29	TDV-K2 (parti-0002/H-0016 ailesi)	cozuldu-oneri	Aksaray s eretna f 1335-01-01	TAŞIYOR	
+2-DAMGA	yer_yama_acik.js:29	TDV-K2 (parti-0002/H-0016 ailesi)	cozuldu-oneri	Niğde s eretna f 1335-01-01	TAŞIYOR	
+2-DAMGA	yer_yama_acik.js:37	TDV-K3 (parti-0002/H-0015 + parti-emrelic-0008/H-0001 + parti-emrelic-0029/H-0002)	cozuldu-oneri	Sivrihisar s germiyan YOK	TAŞIMIYOR	
+2-DAMGA	yer_yama_acik.js:37	TDV-K3 (parti-0002/H-0015 + parti-emrelic-0008/H-0001 + parti-emrelic-0029/H-0002)	cozuldu-oneri	Sivrihisar s karaman VAR	TAŞIYOR	
+2-DAMGA	yer_yama_acik.js:45	TDV-K4 (parti-0002/H-0015)	cozuldu-oneri	Çankırı s candar t 1392-11-01	TAŞIMIYOR	
+2-DAMGA	yer_yama_acik.js:45	TDV-K4 (parti-0002/H-0015)	cozuldu-oneri	Çankırı d f 1392-11-01	TAŞIMIYOR	
+2-DAMGA	yer_yama_acik.js:53	TDV-K10 (parti-0003/H-0018)	cozuldu-oneri	Eflak 11 nokta v[0].f 1417-01-01 (Bükreş/Tırgovişte/Piteşti/Slatina/Buzău/Rimnik-i Sârat (Râmnicu Sărat)/Krayova (Craiova)/Tırgu Jiu/Rimnik (Râmnicu Vâlcea)/Turnu Severin/Kımpulung (Câmpulung))	TAŞIMIYOR	
+2-DAMGA	yer_yama_acik.js:61	TDV-K11b (parti-emrelic-0008/H-0003)	cozuldu-oneri	Malatya s f 1315-04-28	TAŞIYOR	
+2-DAMGA	yer_yama_acik.js:61	TDV-K11b (parti-emrelic-0008/H-0003)	cozuldu-oneri	Malatya s dulkadir 1402-07-28→1516-07-28	TAŞIMIYOR	
+2-DAMGA	yer_yama_sahiplik.js:121	H-0060	cozuldu-oneri	Mersin s ramazanoglu 1352-01-01→1516-08-24	TAŞIMIYOR	
+2-DAMGA	yer_yama_sahiplik.js:121	H-0060	cozuldu-oneri	Mersin d f 1516-08-24	TAŞIMIYOR	
+2-DAMGA	yer_yama_sahiplik.js:283	EK-1b (ORHANGAZİ M-1364)	cozuldu-oneri	Kragujevac s avusturya 1689-09-24→1690-09-09	TAŞIYOR	
+2-DAMGA	yer_yama_uyg2.js:75	H-0003b	cozuldu-yazildi	Mîyandoab d 1585-09-25→1603-10-21	TAŞIYOR	
+2-DAMGA	yer_yama_uyg2.js:131	H-0007	cozuldu-yazildi	Dörtyol v 1832-07-29→1841-02-25	TAŞIMIYOR	
+2-DAMGA	yer_yama_uyg2.js:143	H-0007b	cozuldu-yazildi	Erzin v 1832-07-29→1841-02-25	TAŞIMIYOR	
+2-DAMGA	yer_yama_uyg2.js:155	H-0007c	cozuldu-yazildi	Yumurtalık v 1832-07-29→1841-02-25	TAŞIMIYOR	
+2-DAMGA	yer_yama_uyg2.js:171	H-0008	cozuldu-yazildi	Urfa v 1839-01-01→1840-01-01	TAŞIMIYOR	
+2-DAMGA	yer_yama_uyg2.js:171	H-0008	cozuldu-yazildi	Urfa v 1832-08-15 KALKMIŞ	TAŞIMIYOR	
+2-DAMGA	yer_yama_uyg2.js:187	H-0011	cozuldu-yazildi	Maraş v 1833-01-01→1834-08-01	TAŞIMIYOR	
+2-DAMGA	yer_yama_uyg2.js:187	H-0011	cozuldu-yazildi	Maraş v 1832-07-29 KALKMIŞ	TAŞIMIYOR	
+2-DAMGA	yer_yama_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_1923_bosluk_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=4	
+2-DAMGA	yer_yama_1923_duzeltme.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=4	
+2-DAMGA	yer_yama_1923_nepal_karayip.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=6	
+2-DAMGA	yer_yama_1923_yeni.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=6	
+2-DAMGA	yer_yama_acik.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	rapor/diğer=9	
+2-DAMGA	yer_yama_ada_istankoy.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_ada_kaynak.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=13	
+2-DAMGA	yer_yama_afrika_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=34	
+2-DAMGA	yer_yama_agadez_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_almanya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=48	
+2-DAMGA	yer_yama_amerika_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=3	
+2-DAMGA	yer_yama_anadolu.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=63	
+2-DAMGA	yer_yama_arnavutluk.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_avrupa_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=11	
+2-DAMGA	yer_yama_avrupa_dayanak_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=51	
+2-DAMGA	yer_yama_avrupa_isvec_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=42	
+2-DAMGA	yer_yama_balkan_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=13	
+2-DAMGA	yer_yama_balkan_trakya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=4	
+2-DAMGA	yer_yama_barka_dogu8.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=8	
+2-DAMGA	yer_yama_belgesiz4.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_belgesiz7.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=3	
+2-DAMGA	yer_yama_cermik_sason.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_cin.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=39	
+2-DAMGA	yer_yama_cukurova_isg_0907.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=15	
+2-DAMGA	yer_yama_dogafr.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=30	
+2-DAMGA	yer_yama_doguasya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=19	
+2-DAMGA	yer_yama_dogumakedonya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=4	
+2-DAMGA	yer_yama_egeadalari.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=10	
+2-DAMGA	yer_yama_elba.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_emilme.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	rapor/diğer=16	
+2-DAMGA	yer_yama_erken.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=8	
+2-DAMGA	yer_yama_ferhatpasa.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=4	
+2-DAMGA	yer_yama_fizan.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=12	
+2-DAMGA	yer_yama_floransa.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_fransa.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=70	
+2-DAMGA	yer_yama_gece_v1.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_gece_v3.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_gronland_col.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=9	
+2-DAMGA	yer_yama_guyana.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=5	
+2-DAMGA	yer_yama_hadramut_nokta.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_hayalet.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kademe=129	
+2-DAMGA	yer_yama_hayalet2.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kademe=118	
+2-DAMGA	yer_yama_hizan.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_ing.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=120	
+2-DAMGA	yer_yama_iran.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_isg_yunan_kaynak.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=25	
+2-DAMGA	yer_yama_ispanya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=75	
+2-DAMGA	yer_yama_isvec.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=87	
+2-DAMGA	yer_yama_italya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=72	
+2-DAMGA	yer_yama_japonya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=23	
+2-DAMGA	yer_yama_kademe.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py,_kademe_uygula.py	kademe=38	
+2-DAMGA	yer_yama_kademe2.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py,_kademe_uygula.py	kademe=1091	
+2-DAMGA	yer_yama_kademe_m_0905.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=23	
+2-DAMGA	yer_yama_kademe_zincir.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=17	
+2-DAMGA	yer_yama_kafkas.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py,_yama_indi_mi.py	sahiplik=2	
+2-DAMGA	yer_yama_kafkas_rusya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=4	
+2-DAMGA	yer_yama_kapsam.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=8	
+2-DAMGA	yer_yama_kid20_0907.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=25	
+2-DAMGA	yer_yama_kuzafr.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=13	
+2-DAMGA	yer_yama_litvanya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=19	
+2-DAMGA	yer_yama_macar.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=55	
+2-DAMGA	yer_yama_makdisu.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=5	
+2-DAMGA	yer_yama_manda_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=42	
+2-DAMGA	yer_yama_memluk.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=29	
+2-DAMGA	yer_yama_misir.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	kronoloji=35	
+2-DAMGA	yer_yama_misir_himaye.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=56	
+2-DAMGA	yer_yama_moskito.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_ok101.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=6	
+2-DAMGA	yer_yama_ok105.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_ok106.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_ok107.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_ok109.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_ok109_fetret.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=15	
+2-DAMGA	yer_yama_ok110.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_onikiada.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=13	
+2-DAMGA	yer_yama_ortadogu_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_ortadogu_misir_1923.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=7	
+2-DAMGA	yer_yama_p0035.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=3	
+2-DAMGA	yer_yama_p32.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	rapor/diğer=6	
+2-DAMGA	yer_yama_romanya.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=20	
+2-DAMGA	yer_yama_sahiplik.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	rapor/diğer=35	
+2-DAMGA	yer_yama_sh106.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_sh107.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=8	
+2-DAMGA	yer_yama_sibirya_beyan.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=8	
+2-DAMGA	yer_yama_silistre_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_sohum.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_sutter_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_tbmm_1920_0905.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=216	
+2-DAMGA	yer_yama_timbuktu.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_timbuktu_tam_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=1	
+2-DAMGA	yer_yama_uyg2.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=7	
+2-DAMGA	yer_yama_uyg3.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=2	
+2-DAMGA	yer_yama_vassal_kid_0906.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=367	
+2-DAMGA	yer_yama_veri31.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	rapor/diğer=14	
+2-DAMGA	yer_yama_yunananakara.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=17	
+2-DAMGA	yer_yama_zaza.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=7	
+2-DAMGA	yer_yama_zend_kacar.js	hayır	hayır	_sahiplik_uygula.py,yama_uygula.js,_yama_sinav.py	sahiplik=132	
+3-KURU	yer_yama_balkan_1923.js:119 yer_yama_erken.js:24 yer_yama_vassal_kid_0906.js:58	Akkirman	s:-2+1	yerlesimler.js:451	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07,2026-09-17 · hedef son commit 2e656b0d
+3-KURU	yer_yama_tbmm_1920_0905.js:6596	Aksaray	s:-2+1	yerlesimler.js:2308	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 0db86f2a
+3-KURU	yer_yama_cukurova_isg_0907.js:59	Akçakale		yerlesimler_ek25.js:42	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 11bcae71
+3-KURU	yer_yama_manda_0906.js:1721 yer_yama_ok109_fetret.js:52	Ammâre	s:-1+1	yerlesimler.js:1901	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 52222fa3
+3-KURU	yer_yama_tbmm_1920_0905.js:1545	Ankara		yerlesimler.js:164	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 52222fa3
+3-KURU	yer_yama_vassal_kid_0906.js:117	Annaba	v:-1+1	yerlesimler.js:991	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_misir_himaye.js:53 yer_yama_vassal_kid_0906.js:92	Asyut		yerlesimler.js:820	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2aec5d6e
+3-KURU	yer_yama_vassal_kid_0906.js:315	Ayasaranda (Sarandë)	v:-1+1	yerlesimler_epir.js:299	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:363	Aynı Beydâ	v:-1+1	yerlesimler_h2_kuzeyafrika.js:261	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_zend_kacar.js:35	Ağraham burnu	s:-1+1	yerlesimler.js:636	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17 · hedef son commit 3c4eb790
+3-KURU	yer_yama_tbmm_1920_0905.js:7801	Aşkale	d:-2+1 s:-3+0	yerlesimler_ek29.js:411	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-17 · hedef son commit 52222fa3
+3-KURU	yer_yama_vassal_kid_0906.js:269	Batna	v:-1+1	yerlesimler_afrika.js:633	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_balkan_1923.js:118 yer_yama_vassal_kid_0906.js:132	Bender	s:-2+1	yerlesimler.js:1382	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17 · hedef son commit 2e656b0d
+3-KURU	yer_yama_vassal_kid_0906.js:217	Benzert (Bizerte)	v:-2+1	yerlesimler_afrika.js:349	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:270	Berc Bû Areric	v:-1+1	yerlesimler_afrika.js:637	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_manda_0906.js:305 yer_yama_vassal_kid_0906.js:78	Beyrut	s:-1+1	yerlesimler.js:731	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06,2026-09-07 · hedef son commit 17cd2f98
+3-KURU	yer_yama_barka_dogu8.js:82 yer_yama_vassal_kid_0906.js:250	Beyzâ (Kirene)	d:-1+1 s:-0+1	yerlesimler_afrika.js:521	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2caba846
+3-KURU	yer_yama_vassal_kid_0906.js:118	Bicâye	v:-1+1	yerlesimler.js:993	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:237	Bin Gerdân	v:-2+1	yerlesimler_afrika.js:438	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_barka_dogu8.js:78 yer_yama_vassal_kid_0906.js:103	Bingazi	d:-2+2 s:-1+2	yerlesimler.js:862	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-07 · hedef son commit 9b92117f
+3-KURU	yer_yama_kid20_0907.js:79 yer_yama_romanya.js:73 yer_yama_vassal_kid_0906.js:63	Birlad (Bârlad)	s:-3+2 v:-2+1	yerlesimler.js:460	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:142	Biskra	v:-1+1	yerlesimler.js:1555	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_tbmm_1920_0905.js:4960	Bolayır		yerlesimler.js:1576	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit a97f19e2
+3-KURU	yer_yama_vassal_kid_0906.js:310	Brassó (Braşov)	v:-2+1	yerlesimler_ek29.js:91	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:67	Budin	v:-2+1	yerlesimler.js:470	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 2adb784a
+3-KURU	yer_yama_kid20_0907.js:207 yer_yama_romanya.js:141 yer_yama_vassal_kid_0906.js:157	Buzău	s:-3+2 v:-2+1	yerlesimler.js:2297	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:221	Bâce (Béja)	v:-2+1	yerlesimler_afrika.js:369	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_balkan_1923.js:121 yer_yama_gece_v3.js:45 yer_yama_kid20_0907.js:43 yer_yama_romanya.js:46 yer_yama_vassal_kid_0906.js:56	Bükreş	s:-3+2 v:-2+1	yerlesimler.js:449	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07,2026-09-17,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:222	Cendûbe	v:-2+1	yerlesimler_afrika.js:373	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:134	Cerbe (Djerba)	v:-2+1	yerlesimler.js:1439	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06,2026-09-19 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:236	Cerciş (Zarzis)	v:-2+1	yerlesimler_afrika.js:433	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:262	Cicel	v:-1+1	yerlesimler_afrika.js:605	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_tbmm_1920_0905.js:8160	Darende	d:-1+1 s:-1+1	yerlesimler_ok110.js:59	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 9102b7c6
+3-KURU	yer_yama_vassal_kid_0906.js:316	Debrecen	v:-2+1	yerlesimler_kdmacar.js:114	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 2adb784a
+3-KURU	yer_yama_vassal_kid_0906.js:314	Delvine	v:-1+1	yerlesimler_epir.js:174	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_tbmm_1920_0905.js:7226	Demirköy	d:-1+1 s:-1+1	yerlesimler_ek24.js:84	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_tbmm_1920_0905.js:1718	Denizli	d:-1+1 s:-1+1	yerlesimler.js:184	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 05900ef6
+3-KURU	yer_yama_tbmm_1920_0905.js:7172	Dereköy (Kırklareli)	d:-1+1 s:-1+1	yerlesimler_ek24.js:80	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_barka_dogu8.js:83 yer_yama_vassal_kid_0906.js:104	Derne	d:-1+1 s:-3+1	yerlesimler.js:895	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-07 · hedef son commit 9b92117f
+3-KURU	yer_yama_zend_kacar.js:152	Dihistan ovası (Meşhed-i Misriyân)	s:-1+1	yerlesimler.js:2143	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 3c4eb790
+3-KURU	yer_yama_misir_himaye.js:47 yer_yama_vassal_kid_0906.js:91	Dimyat		yerlesimler.js:818	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2aec5d6e
+3-KURU	yer_yama_tbmm_1920_0905.js:6333	Divriği	d:-1+1 s:-2+2	yerlesimler.js:2284	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_tbmm_1920_0905.js:2674	Diyarbakır	s:-5+2	yerlesimler.js:248	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 24fd1534
+3-KURU	yer_yama_vassal_kid_0906.js:396	Doyran	v:-1+1	yerlesimler_ok107.js:435	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:167	Dubrovnik	v:-1+1	yerlesimler.js:2318	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06,2026-09-17,2026-09-19 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:372	Dûz	v:-2+1	yerlesimler_h2_kuzeyafrika.js:358	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_barka_dogu8.js:79 yer_yama_vassal_kid_0906.js:248	Ecdâbiye	d:-1+1 s:-0+1	yerlesimler_afrika.js:510	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2caba846
+3-KURU	yer_yama_misir_himaye.js:191 yer_yama_vassal_kid_0906.js:192	El-Arîş	isg:-1+0	yerlesimler_afrika.js:186	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 7d0de725
+3-KURU	yer_yama_tbmm_1920_0905.js:3503	Elbistan	d:-1+1 s:-1+1	yerlesimler.js:1443	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-17 · hedef son commit 9102b7c6
+3-KURU	yer_yama_tbmm_1920_0905.js:884	Enez	s:-2+2	yerlesimler.js:126	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 9102b7c6
+3-KURU	yer_yama_kademe_m_0905.js:56 yer_yama_vassal_kid_0906.js:305	Eperjes (Prešov)	v:-1+1	yerlesimler_ek.js:119	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit fe6ebb85
+3-KURU	yer_yama_manda_0906.js:748 yer_yama_ok109_fetret.js:308	Erbil	s:-1+1	yerlesimler.js:1876	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 52222fa3
+3-KURU	yer_yama_vassal_kid_0906.js:66	Erdel (Kaloşvar)	v:-2+1	yerlesimler.js:468	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:309	Erdel Belgradı (Gyulafehérvár)	v:-2+1	yerlesimler_ek29.js:75	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_tbmm_1920_0905.js:2490	Erzincan	s:-3+3	yerlesimler.js:242	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17 · hedef son commit 0db86f2a
+3-KURU	yer_yama_kademe_m_0905.js:59 yer_yama_vassal_kid_0906.js:387	Fülek (Fiľakovo)	v:-1+1	yerlesimler_ek_macaristan.js:188	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:108	Gabes	v:-2+1	yerlesimler.js:959	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_balkan_trakya.js:60	Gümülcine	s:-3+1	yerlesimler.js:1486	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-02,2026-09-05 · hedef son commit 150ff06a
+3-KURU	yer_yama_vassal_kid_0906.js:218	Halkulvâdî	v:-2+1	yerlesimler_afrika.js:354	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:362	Hanşele (Khenchela)	v:-1+1	yerlesimler_h2_kuzeyafrika.js:255	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_tbmm_1920_0905.js:6956	Havsa	d:-1+1 s:-1+1	yerlesimler_ek24.js:50	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_vassal_kid_0906.js:390	Hayber	v:-2+2	yerlesimler_ok101.js:103	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_1923_bosluk_0906.js:14	Honolulu		yerlesimler_4ff22b.js:83	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 7e6049da
+3-KURU	yer_yama_balkan_1923.js:120 yer_yama_erken.js:25 yer_yama_vassal_kid_0906.js:131	Hotin	isg:-1+1	yerlesimler.js:1381	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17 · hedef son commit 9102b7c6
+3-KURU	yer_yama_zend_kacar.js:64	Hürmüz Adası	s:-1+1	yerlesimler.js:1687	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 58e9a412
+3-KURU	yer_yama_ok106.js:143	Kabartay (Nalçik)	s:-1+2	yerlesimler.js:619	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-02,2026-09-05 · hedef son commit 07235d99
+3-KURU	yer_yama_vassal_kid_0906.js:231	Kafsa	v:-2+1	yerlesimler_afrika.js:411	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_misir_himaye.js:35 yer_yama_vassal_kid_0906.js:89	Kahire	isg:-1+1	yerlesimler.js:814	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2aec5d6e
+3-KURU	yer_yama_balkan_1923.js:114 yer_yama_vassal_kid_0906.js:397	Kahul (Cahul)	s:-2+1	yerlesimler_p0037.js:47	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 2e656b0d
+3-KURU	yer_yama_kid20_0907.js:91 yer_yama_romanya.js:82 yer_yama_vassal_kid_0906.js:64	Kalas (Galatz)	s:-3+2 v:-2+1	yerlesimler.js:461	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:266	Kalme (Guelma)	v:-1+1	yerlesimler_afrika.js:621	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_avrupa_1923.js:157	Kalyari (Cagliari)	s:-2+2	yerlesimler.js:1670	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:230	Kasrayn	v:-2+1	yerlesimler_afrika.js:407	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:304	Kassa (Košice)	v:-1+1	yerlesimler_ek.js:111	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:107	Kayrevan	v:-2+1	yerlesimler.js:958	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:223	Kef	v:-2+1	yerlesimler_afrika.js:378	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_sh107.js:21 yer_yama_tbmm_1920_0905.js:7756	Kelkit	d:-2+1 s:-3+0	yerlesimler_ek29.js:405	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 52222fa3
+3-KURU	yer_yama_vassal_kid_0906.js:225	Kelîbiye	v:-2+1	yerlesimler_afrika.js:387	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_tbmm_1920_0905.js:3565	Kemah	s:-8+3	yerlesimler.js:1491	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-21 · hedef son commit 52222fa3
+3-KURU	yer_yama_vassal_kid_0906.js:145	Kerkene (Kerkennah)	v:-2+1	yerlesimler.js:1679	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_tbmm_1920_0905.js:3034	Keşan	d:-1+1 s:-1+1	yerlesimler.js:272	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_balkan_1923.js:113 yer_yama_erken.js:23 yer_yama_vassal_kid_0906.js:59	Kili	s:-5+2 v:-3+1	yerlesimler.js:452	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07,2026-09-17,2026-09-27 · hedef son commit 17cd2f98
+3-KURU	yer_yama_zend_kacar.js:66	Kiş (Kish)	s:-1+1	yerlesimler.js:1698	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 58e9a412
+3-KURU	yer_yama_zend_kacar.js:65	Kişm (Qeshm)	s:-1+1	yerlesimler.js:1694	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 58e9a412
+3-KURU	yer_yama_tbmm_1920_0905.js:7118	Kofçaz	d:-1+1 s:-1+1	yerlesimler_ek24.js:76	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_vassal_kid_0906.js:263	Kolo	v:-1+1	yerlesimler_afrika.js:609	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:110	Konstantin	v:-1+1	yerlesimler.js:961	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:152	Kragujevac	v:-1+1	yerlesimler.js:2292	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_kid20_0907.js:231 yer_yama_romanya.js:159 yer_yama_vassal_kid_0906.js:159	Krayova (Craiova)	s:-3+2 v:-2+1	yerlesimler.js:2299	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:393	Köprülü (Veles)	v:-1+1	yerlesimler_ok107.js:396	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:371	Kıbillî (Nefzâve)	v:-2+1	yerlesimler_h2_kuzeyafrika.js:353	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_kid20_0907.js:307 yer_yama_romanya.js:199 yer_yama_vassal_kid_0906.js:163	Kımpulung (Câmpulung)	s:-3+2 v:-2+1	yerlesimler.js:2303	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_tbmm_1920_0905.js:3302	Kırklareli	d:-1+1 s:-1+1	yerlesimler.js:330	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-16 · hedef son commit f51242f8
+3-KURU	yer_yama_tbmm_1920_0905.js:7064	Lalapaşa	d:-1+1 s:-1+1	yerlesimler_ek24.js:72	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_egeadalari.js:23 yer_yama_isg_yunan_kaynak.js:72	Limni	d:-1+1 s:-1+1 isg:-1+1	yerlesimler.js:535	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-07,2026-09-16,2026-09-21 · hedef son commit 17cd2f98
+3-KURU	yer_yama_tbmm_1920_0905.js:2944	Lüleburgaz	d:-1+1 s:-1+1	yerlesimler.js:268	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_cukurova_isg_0907.js:261 yer_yama_tbmm_1920_0905.js:2819 yer_yama_uyg2.js:189 yer_yama_vassal_kid_0906.js:38	Maraş	d:-1+1 s:-1+1 v:-1+0	yerlesimler.js:257	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-07 · hedef son commit a97f19e2
+3-KURU	yer_yama_tbmm_1920_0905.js:5014	Maydos (Eceabat)		yerlesimler.js:1577	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit a97f19e2
+3-KURU	yer_yama_vassal_kid_0906.js:234	Medenîn	v:-2+1	yerlesimler_afrika.js:425	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:84	Medine	v:-2+2	yerlesimler.js:759	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:229	Mehdiye	v:-2+1	yerlesimler_afrika.js:403	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:83	Mekke	v:-3+3	yerlesimler.js:756	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:367	Mekter (Maktar)	v:-2+1	yerlesimler_h2_kuzeyafrika.js:332	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_barka_dogu8.js:80 yer_yama_vassal_kid_0906.js:249	Merc	d:-1+1 s:-0+1	yerlesimler_afrika.js:516	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2caba846
+3-KURU	yer_yama_tbmm_1920_0905.js:7010	Meriç (İpsala kuzeyi)	d:-1+1 s:-1+1	yerlesimler_ek24.js:54	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_vassal_kid_0906.js:370	Metlâvî	v:-2+1	yerlesimler_h2_kuzeyafrika.js:347	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:258	Muaskar		yerlesimler_afrika.js:586	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:228	Munastır	v:-2+1	yerlesimler_afrika.js:399	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_kademe_m_0905.js:77 yer_yama_vassal_kid_0906.js:389	Munkács (Mukacheve)	v:-1+1	yerlesimler_ek_macaristan.js:248	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:219	Mâtir (Mateur)	v:-2+1	yerlesimler_afrika.js:358	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:265	Mîle	v:-1+1	yerlesimler_afrika.js:617	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:233	Nefta	v:-2+1	yerlesimler_afrika.js:421	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_p0035.js:103	Niğbolu		yerlesimler.js:364	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 874940ee
+3-KURU	yer_yama_tbmm_1920_0905.js:1912	Niğde	s:-2+1	yerlesimler.js:207	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-21 · hedef son commit 0db86f2a
+3-KURU	yer_yama_vassal_kid_0906.js:224	Nâbil (Nabeul)	v:-2+1	yerlesimler_afrika.js:382	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_balkan_1923.js:117 yer_yama_vassal_kid_0906.js:165	Orhei	s:-2+1	yerlesimler.js:2305	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07,2026-09-20 · hedef son commit 2e656b0d
+3-KURU	yer_yama_vassal_kid_0906.js:128	Peşte	v:-2+1	yerlesimler.js:1338	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 2adb784a
+3-KURU	yer_yama_kid20_0907.js:183 yer_yama_romanya.js:123 yer_yama_vassal_kid_0906.js:155	Piteşti	s:-3+2 v:-2+1	yerlesimler.js:2295	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:312	Prevadi (Provadia)	v:-1+1	yerlesimler_ek29.js:435	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 874940ee
+3-KURU	yer_yama_zend_kacar.js:38	Revan		yerlesimler.js:664	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06,2026-09-17,2026-09-30 · hedef son commit 17cd2f98
+3-KURU	yer_yama_misir_himaye.js:77 yer_yama_vassal_kid_0906.js:138	Reşîd (Rosetta)		yerlesimler.js:1494	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2aec5d6e
+3-KURU	yer_yama_kid20_0907.js:269 yer_yama_romanya.js:179 yer_yama_vassal_kid_0906.js:161	Rimnik (Râmnicu Vâlcea)	s:-3+2 v:-2+1	yerlesimler.js:2301	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_kid20_0907.js:219 yer_yama_romanya.js:150 yer_yama_vassal_kid_0906.js:158	Rimnik-i Sârat (Râmnicu Sărat)	s:-3+2 v:-2+1	yerlesimler.js:2298	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_tbmm_1920_0905.js:2469	Rize	d:-2+1 s:-3+0	yerlesimler.js:241	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 52222fa3
+3-KURU	yer_yama_kid20_0907.js:67 yer_yama_romanya.js:64 yer_yama_vassal_kid_0906.js:62	Roman	s:-3+2 v:-2+1	yerlesimler.js:459	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:311	Segesvár (Sighişoara)	v:-2+1	yerlesimler_ek29.js:97	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_egeadalari.js:67 yer_yama_isg_yunan_kaynak.js:73	Semadirek	isg:-1+1	yerlesimler.js:551	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-07,2026-09-21,2026-09-30 · hedef son commit 17cd2f98
+3-KURU	yer_yama_dogumakedonya.js:88	Serez	s:-2+2	yerlesimler.js:367	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-30 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:141	Setif	v:-1+1	yerlesimler.js:1554	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:116	Sfaks	v:-2+1	yerlesimler.js:989	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:264	Sikikde	v:-1+1	yerlesimler_afrika.js:613	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_kid20_0907.js:195 yer_yama_romanya.js:132 yer_yama_vassal_kid_0906.js:156	Slatina	s:-3+2 v:-2+1	yerlesimler.js:2296	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_kid20_0907.js:31 yer_yama_vassal_kid_0906.js:45	Sofya	v:-1+1	yerlesimler.js:335	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 874940ee
+3-KURU	yer_yama_balkan_1923.js:116 yer_yama_vassal_kid_0906.js:164	Soroka (Soroca)	s:-2+1	yerlesimler.js:2304	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07,2026-09-20 · hedef son commit 2e656b0d
+3-KURU	yer_yama_vassal_kid_0906.js:369	Sîdî Bû Zeyd	v:-2+1	yerlesimler_h2_kuzeyafrika.js:342	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:267	Sûk Ahrâs	v:-1+1	yerlesimler_afrika.js:625	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:227	Sûse	v:-2+1	yerlesimler_afrika.js:395	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:368	Sübaytıla	v:-2+1	yerlesimler_h2_kuzeyafrika.js:337	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_kademe_m_0905.js:95 yer_yama_vassal_kid_0906.js:73 yer_yama_zend_kacar.js:34	Tarki (Tarku)	s:-1+1	yerlesimler.js:635	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-06,2026-09-07,2026-09-21 · hedef son commit 3c4eb790
+3-KURU	yer_yama_vassal_kid_0906.js:235	Tatavin	v:-2+1	yerlesimler_afrika.js:429	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_egeadalari.js:53 yer_yama_isg_yunan_kaynak.js:74	Taşoz	isg:-1+1	yerlesimler.js:552	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05,2026-09-07,2026-09-21,2026-09-30 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:268	Tebesse	v:-1+1	yerlesimler_afrika.js:629	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_vassal_kid_0906.js:365	Testûr	v:-2+1	yerlesimler_h2_kuzeyafrika.js:322	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_barka_dogu8.js:85 yer_yama_vassal_kid_0906.js:251	Tobruk	d:-1+1 s:-0+1	yerlesimler_afrika.js:538	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2caba846
+3-KURU	yer_yama_kademe_m_0905.js:98 yer_yama_vassal_kid_0906.js:306	Tokaj	v:-1+1	yerlesimler_ek.js:126	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 2adb784a
+3-KURU	yer_yama_vassal_kid_0906.js:232	Tozer	v:-2+1	yerlesimler_afrika.js:417	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:106	Tunus	v:-2+1	yerlesimler.js:957	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_kid20_0907.js:288 yer_yama_romanya.js:189 yer_yama_vassal_kid_0906.js:162	Turnu Severin	s:-3+2 v:-2+1	yerlesimler.js:2302	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_vassal_kid_0906.js:136	Tâif	v:-2+2	yerlesimler.js:1444	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17 · hedef son commit c2dd9ec1
+3-KURU	yer_yama_kid20_0907.js:171 yer_yama_romanya.js:114 yer_yama_vassal_kid_0906.js:154	Tırgovişte	s:-3+2 v:-2+1	yerlesimler.js:2294	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-17,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_kid20_0907.js:250 yer_yama_romanya.js:169 yer_yama_vassal_kid_0906.js:160	Tırgu Jiu	s:-3+2 v:-2+1	yerlesimler.js:2300	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-20,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_kademe_m_0905.js:104 yer_yama_vassal_kid_0906.js:388	Ungvár (Uzhhorod)	v:-1+1	yerlesimler_ek_macaristan.js:210	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:395	Ustrumca (Strumica)	v:-1+1	yerlesimler_ok107.js:422	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 9102b7c6
+3-KURU	yer_yama_vassal_kid_0906.js:129	Varad (Oradea)	v:-1+1	yerlesimler.js:1358	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_vassal_kid_0906.js:46	Vidin		yerlesimler.js:359	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_tbmm_1920_0905.js:7832	Vize	d:-1+1 s:-1+1	yerlesimler_ek29.js:428	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_kid20_0907.js:355 yer_yama_ok110.js:71 yer_yama_vassal_kid_0906.js:313	Yagodina (Jagodina)	d:-1+1 v:-1+1	yerlesimler_ek29.js:488	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-29,2026-09-02,2026-09-05,2026-09-30 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:130	Yanova (Ineu)	v:-1+1	yerlesimler.js:1364	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit fe6ebb85
+3-KURU	yer_yama_erken.js:12	Yanıkkale (Győr)	s:-1+1	yerlesimler.js:1339	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-29,2026-09-02,2026-09-05 · hedef son commit 2adb784a
+3-KURU	yer_yama_balkan_1923.js:122 yer_yama_gece_v3.js:59 yer_yama_kid20_0907.js:55 yer_yama_romanya.js:55 yer_yama_vassal_kid_0906.js:57	Yaş	s:-3+2 v:-2+1	yerlesimler.js:450	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07,2026-09-17,2026-09-27 · hedef son commit 874940ee
+3-KURU	yer_yama_p0035.js:81 yer_yama_romanya.js:208	Yergöğü (Giurgiu)	s:-3+3 neden:yeni	yerlesimler.js:2317	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17,2026-09-21,2026-09-27 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:226	Zağvân	v:-2+1	yerlesimler_afrika.js:391	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:153	Çaçak	v:-1+1	yerlesimler.js:2293	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_tbmm_1920_0905.js:2899	Çorlu	d:-1+1 s:-1+1	yerlesimler.js:266	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit f51242f8
+3-KURU	yer_yama_vassal_kid_0906.js:366	Ğar Dimâv	v:-2+1	yerlesimler_h2_kuzeyafrika.js:327	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_vassal_kid_0906.js:364	Ğâru'l-Melh (Porto Farina)	v:-2+1	yerlesimler_h2_kuzeyafrika.js:316	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 17cd2f98
+3-KURU	yer_yama_romanya.js:91 yer_yama_vassal_kid_0906.js:65	İbrail	s:-3+3 v:-2+0	yerlesimler.js:462	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-08-30,2026-09-07,2026-09-20,2026-09-21,2026-09-27 · hedef son commit 17cd2f98
+3-KURU	yer_yama_manda_0906.js:455	İmâdiye (Amêdî)		yerlesimler_ok109.js:73	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-07 · hedef son commit 7e6049da
+3-KURU	yer_yama_misir_himaye.js:41 yer_yama_vassal_kid_0906.js:90	İskenderiye	isg:-1+1	yerlesimler.js:816	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 2aec5d6e
+3-KURU	yer_yama_balkan_1923.js:112 yer_yama_vassal_kid_0906.js:133	İsmail	s:-2+1	yerlesimler.js:1383	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-17,2026-09-21 · hedef son commit 2e656b0d
+3-KURU	yer_yama_tbmm_1920_0905.js:7280	İğneada	d:-1+1 s:-2+4	yerlesimler_ek24.js:88	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-05 · hedef son commit 464f91fd
+3-KURU	yer_yama_vassal_kid_0906.js:394	İştip (Štip)	v:-1+1	yerlesimler_ok107.js:409	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit 9102b7c6
+3-KURU	yer_yama_ok105.js:91	Şehirköy (Pirot)	d:-1+1 s:-5+1	yerlesimler_serhat.js:140	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-02 · hedef son commit 9102b7c6
+3-KURU	yer_yama_tbmm_1920_0905.js:8108	Şeyhrumi (Yücelen)	d:-1+1 s:-1+1	yerlesimler_sinir_dogu.js:128	GERI-ALIR	yama değeri kaydın geçmişinde: 2026-09-06 · hedef son commit a6da7cf4
+3-KURU	yer_yama_arnavutluk.js:48	Akçahisar (Kruja)	s:-2+5 v:-0+1 kaynak:yeni	yerlesimler.js:437	HIC-INMEMIS	yama değeri kaydın geçmişinde: - · hedef son commit 17cd2f98
+3-KURU	yer_yama_cukurova_isg_0907.js:302	Mersin	d:-1+1 s:-2+2 isg:-0+1	yerlesimler_ek27.js:51	HIC-INMEMIS	yama değeri kaydın geçmişinde: - · hedef son commit 7e6049da
+3-KURU	yer_yama_kademe_m_0905.js:107 yer_yama_vassal_kid_0906.js:74	Zagem (Kaheti)	v:-1+1	yerlesimler.js:663	HIC-INMEMIS	yama değeri kaydın geçmişinde: - · hedef son commit 17cd2f98
