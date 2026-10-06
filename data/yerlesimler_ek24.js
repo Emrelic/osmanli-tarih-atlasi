@@ -91,8 +91,8 @@ window.YERLESIMLER_EK24 = [
 
 // ───────── MUTLUDERE HATTI · BULGARİSTAN YAKASI (kuzey) ─────────
 { ad:"Mustafapaşa (Svilengrad)", tur:"kasaba", lat:41.766, lon:26.207, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
-  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  d:[{f:"1361-05-05",t:"1402-07-28",kaynak:"TDV cisr-i-mustafa-pasa--kasaba: 'Kasabanın bulunduğu bölge, 1362 yılında Edirne’nin fethi sırasında Osmanlı idaresine girmiş olmalıdır.' — YIL, ve 'olmalıdır' maddenin kendi çekincesi · GÜN KOMŞUDAN: Edirne · TDV murad-i (İnalcık): 'Edirne halkı şehri teslim etti (28 Cemâziyelâhir 762 / 5 Mayıs 1361)' — aynı olay (madde bölgeyi Edirne'nin fethine bağlıyor), 30 km · ⚠️ TDV KENDİYLE ÇELİŞİYOR: cisr-i-mustafa-pasa Edirne fethini 1362'ye, murad-i 1361'e koyuyor; atlasın Edirne kaydı murad-i'yi izliyor, ona uyuldu, taraf seçilmedi · nokta BÖLGE vekilidir: kasaba sonradan kuruldu (aynı madde: 'Buranın Cisr-i Mustafa Paşa adıyla bir kasaba haline gelmesi ise muhtemelen III. Murad devrinden (1574-1595) itibaren olmuştur.') · eski f:1361-01-01 veri-içi değerdi, kaynak yoktu (LUGOS-KLAGENFURT-1006)"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
 // 🔴 13 Ağustos 2026 · VERİ FETRET — 1371-01-01 → 1371-09-26 (Çirmen Savaşı)
 //    Emre'nin AÇIK YETKİSİYLE yazıldı. ⚠️ VE BU BİR ÇIKARIMDIR, ÖLÇÜM DEĞİL —
