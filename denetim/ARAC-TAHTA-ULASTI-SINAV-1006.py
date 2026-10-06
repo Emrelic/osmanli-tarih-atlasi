@@ -13,13 +13,15 @@ SENARYOLAR (hepsi gecici dizinde kurulur, sonunda silinir):
   S5 TEYIT commit'i reddedildi (M-numarasi uzakta eskiden var) → ULASMADI
   S6 pull --rebase CAKISIR                               → ULASMADI + depo YARIM KALMAZ
   S7 detached HEAD (push hedefi yok)                      → ULASTI DEMEZ
+  `yaz` CIKIS KODU (W50b) — tahta.py fikstur deposuna KOPYALANIP ALT SURECTE koşar:
+  Y1 push basarili → 0 · Y2 push REDDEDILDI → 1 · Y3 detached (olculemedi) → 2
 "Dogru" her senaryoda ARACTAN BAGIMSIZ olculur: bare depoda mesaji tasiyan
 icerik gercekten var mi (`git --git-dir <bare> log --all`).
 
 KULLANIM:
     py denetim/ARAC-TAHTA-ULASTI-SINAV-1006.py [--tahta <tahta.py>]
   --tahta  sinanacak tahta.py (varsayilan: bu agacin arac/tahta.py'si). BOZUK YON:
-           eski surumu verince sinav OTMELI (S2 · S4 · S5 · S6 · S7).
+           eski surumu verince sinav OTMELI (S2 · S4 · S5 · S6 · S7; W50b oncesi: Y2 · Y3).
 CIKIS: 0 temiz · 1 kusur · 2 olculemedi (fikstur kurulamadi)
 """
 import contextlib
@@ -144,6 +146,29 @@ def sonuc(ad, cikti, dogru, kabul, ek=""):
             print("         > " + s)
 
 
+def yaz_kos(A, isaret):
+    """tahta.py'yi fikstur deposuna kopyalar (KOK = fikstur) ve `yaz`i ALT SURECTE koşar."""
+    os.makedirs(os.path.join(A, "arac"), exist_ok=True)
+    shutil.copy(TAHTA, os.path.join(A, "arac", "tahta.py"))
+    r = subprocess.run([sys.executable, os.path.join(A, "arac", "tahta.py"), "yaz",
+                        "--kim", "SINAV", "--kime", "HEDEF", "--mesaj", isaret],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace",
+                       env=dict(os.environ, PYTHONIOENCODING="utf-8"))
+    return r.returncode, (r.stdout or "") + (r.stderr or "")
+
+
+def kod_sonuc(ad, kod, cikti, dogru, beklenen):
+    global HATA
+    ok = kod == beklenen and "yazıldı" in cikti
+    if not ok:
+        HATA += 1
+    print(("  OK   " if ok else "  HATA ") + "%s | dogru(uzakta)=%s · cikis=%s · beklenen=%s · 'yazıldı' %s"
+          % (ad, "VAR" if dogru else "YOK", kod, beklenen, "var" if "yazıldı" in cikti else "YOK"))
+    if not ok:
+        for s in cikti.strip().splitlines()[-8:]:
+            print("         > " + s)
+
+
 def main():
     global OLCULEMEDI
     print("TAHTA ULASTI SINAVI — sinanan: %s" % TAHTA)
@@ -216,6 +241,21 @@ def main():
         tahta_yaz(A4, [{"no": "M-0001", "mesaj": "S7-detached"}])
         c = gonder(A4, "TAHTA M-0001 — X -> Y")
         sonuc("S7 detached HEAD", c, uzakta_mi(R4, "S7-detached"), ("ULASMADI", "OLCULEMEDI"))
+
+        # ---- fikstur 5: `yaz` cikis kodu, uctan uca ----
+        k5 = os.path.join(kok, "f5")
+        R5 = bare_kur(k5)
+        A5 = klon_kur(k5, R5, "A", ilk=True)
+        kod, c = yaz_kos(A5, "Y1-ulasti")
+        kod_sonuc("Y1 yaz · push basarili", kod, c, uzakta_mi(R5, "Y1-ulasti"), 0)
+        ret_hook(R5, True)
+        kod, c = yaz_kos(A5, "Y2-ret")
+        kod_sonuc("Y2 yaz · push REDDEDILDI", kod, c, uzakta_mi(R5, "Y2-ret"), 1)
+        ret_hook(R5, False)
+        git("push", "-q", cwd=A5)
+        git("checkout", "-q", "--detach", cwd=A5)
+        kod, c = yaz_kos(A5, "Y3-detached")
+        kod_sonuc("Y3 yaz · detached (olculemedi)", kod, c, uzakta_mi(R5, "Y3-detached"), 2)
     except Exception as e:
         OLCULEMEDI += 1
         print("  OLCULEMEDI fikstur: %s: %s" % (type(e).__name__, e))
