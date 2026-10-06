@@ -4320,15 +4320,17 @@ window.DEVLETLER = [
   ]
 },
 { id:"buhara", ad:"Buhara Hanlığı / Emirliği", tur:"hanlik", bolge:"orta-asya",
-  f:"1500-01-01", t:"1920-09-02", baskent:"Buhara", harita:"buhara",
+  f:"1500-01-01", t:"1921-02-21", baskent:"Buhara", harita:"buhara",
   ozet:"16. yüzyıldan Sovyet işgaline dek Buhara merkezli hüküm süren dört ardışık hanedanın (Şeybânî, Canoğulları/Astrahanlı, Mangıt) ortak adı; Rus himayesine girdikten sonra Kızıl Ordu tarafından yıkıldı. (kaynak: TDV, madde: buhara-hanligi)",
-  kaynak:"buhara",
+  kaynak:"buhara · t (1921-02-21, de facto bitiş — emirin son üssü Düşenbe'nin düşüşü; koordinatör hükmü 6 Ekim 2026, D205 sınıf ②): Iranica, DUSHANBE — AYNEN: «The Red Army took Dushanbe on 21 February 1921; the amir fled farther east and eventually reached Afghanistan.» · de jure ilga 6 Ekim 1920 (TDV buhara · Iranica BUKHARA iii) · şehre giriş 2 Eylül 1920 (Iranica JADIDISM)",
   kronoloji:[
     { t:"1500-01-01", tur:"kurulus", b:"Şeybânî Han, Mâverâünnehir'i alarak hanlığı kurdu" },
     { t:"1599-01-01", tur:"bolunme", b:"Şeybânî hanedanı sona erdi, yerine Canoğulları (Astrahanlılar) geçti" },
     { t:"1785-01-01", tur:"bolunme", b:"Mangıt hanedanı iktidarı ele geçirip emirlik unvanını kullandı" },
     { t:"1868-01-01", tur:"antlasma", b:"Rusya'ya yenilip himaye altına girdi, toprak kaybetti" },
-    { t:"1920-09-02", tur:"son", b:"Kızıl Ordu Buhara'yı ele geçirdi, Buhara Halk Sovyet Cumhuriyeti ilan edildi" }
+    { t:"1920-09-02", tur:"savas", b:"Kızıl Ordu Buhara şehrine girdi; emir Doğu Buhara'ya (Düşenbe) çekildi" },
+    { t:"1920-10-06", tur:"bolunme", b:"Hanlık resmen ilga edildi; batıda Buhara Halk Sovyet Cumhuriyeti kuruldu" },
+    { t:"1921-02-21", tur:"son", b:"Kızıl Ordu Düşenbe'yi aldı; emir doğuya, oradan Afganistan'a geçti" }
   ]
 },
 { id:"hive", ad:"Hive Hanlığı", tur:"hanlik", bolge:"orta-asya",
