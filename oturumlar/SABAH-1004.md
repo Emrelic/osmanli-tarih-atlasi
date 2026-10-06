@@ -2366,3 +2366,57 @@ LAB'e son ölçüm verildi (`LAB-8A-IZGARA-1006`): `1.895.364` gerçek `d.area`d
 yoksa 2 km ızgaranın 4 km²'lik basamaklarından mı? **Üç gövdede birebir aynı çıkması,
 ızgara kuantizasyonunun farkı yutması da olabilir** — tam `1637 = 1637` tesadüfünü
 yakaladığımız mantıkla. `8a-alan`ı kapıya koymadan önce neyin ölçüsü olduğunu bilmem lazım.
+
+### ㉘e 🟢 TASARIM TAMAM — `8a-alan = Σ d.area`, ve ㉘d'nin sayısı da düzeltildi
+
+`LAB-8A-IZGARA-1006` (1101 satırlık TSV). **Bu kalemdeki son ölçüm.**
+
+#### ㉘d'de yazdığım `1.895.364` de yanlıştı — IZGARADAN türetilmiş
+```
+㉘d'de yazdığım   ızgara alanı   1.895.364 km²   = 4 × len(örnekler), KUANTİZE   ❌
+GERÇEK            Σ d.area       1.893.467,3 km²  ← KAPI ÖLÇÜSÜ
+fark              +1.896,7 km² (+%0,100)
+ızgara başlangıcı kayınca (AYNI geometride, 7 başlangıç)  4.708 km² = %0,25 oynuyor
+```
+🔴 İki ayrıntı kararı kesinleştiriyor:
+1. **Sapma sistematik ve YUKARI:** ızgara > gerçek **629** parçada, < **472**'de,
+   **= 0**'da. Hiçbir parçada eşit değil ⇒ bu gürültü değil **YANLILIK**.
+2. **En çok küçük parçalar şişiyor:** <20 km² olan 80 parçada ortalama **+%13**;
+   |oran| >%50 olan 15 parça (ör. Gadsden 630 → 556). ⇒ Eşiğe en yakın parçalar en çok
+   şişenler; ızgara alanıyla tavan kurmak **eşik kararsızlığını da büyütürdü.**
+🟢 `d.area` kodda **zaten hesaplanıyor** (`if d.area < D8_ALAN_8A`) ama hiçbir yerde
+toplanmıyor/basılmıyor. Yani ölçü elimizdeydi, kullanılmıyordu — yeni hesap gerekmiyor.
+
+#### NİHAÎ TASARIM
+```
+8a-alan    Σ d.area          1.893.467 km²   → KAPI, BİRİNCİL. Ofset gürültüsü 0.
+8a-parca   geometrik parça   1101            → KAPI, ikincil (eşiğe %9,7 duyarlı)
+8a-birim   mevcut sayaç      1509            → yalnız RAPOR KOLONU — ihlal yetkisi SENDE
+8a-girdi   R["a"] girdisi    1637            → ❌ etikete duyarlı (㉘d)
+ızgara alanı                 1.895.364       → ❌ kuantize; yalnız ETİKETLEME için kalır
+```
+
+#### Ve benim hipotezim ÇÜRÜDÜ — yazıyorum çünkü yöntem meselesi
+*"Üç gövdede birebir aynı çıkması, ızgara kuantizasyonunun farkı YUTMASI olabilir"*
+demiştim. LAB çürüttü: girdi geometri bayt bayt aynı, ızgara deterministik ⇒ aynı girdi
+aynı çıktı, **yutulacak fark yoktu.** Benim şüphem `1637 = 1637` tesadüfüyle kurulmuş bir
+**analojiydi** ve mekanizması farklıydı (orada etiket duyarlılığı, burada determinizm).
+> **Ama ölçümü istemek doğruydu ve asıl kusuru o buldu.** Kayda geçen kural: **yanlış bir
+> hipotez, doğru bir ölçümü tetikleyebilir — hipotez çürüdüğünde ölçüm çöpe gitmez.**
+> (Tersi de doğru, ve bu gece iki kez yaşandı: doğru sezgi + yanlış mekanizma.)
+
+### 🔴 SENDEN BEKLEYEN KARARLAR — ㉘ ailesinin TAMAMI, tek bakışta
+```
+①  8a-birim'in İHLAL YETKİSİ kalksın mı?      ÖNERİM: KALKSIN, rapor kolonu KALSIN
+    (ölçüldü: bugün 128 parçayı yutuyor · −646'ya kadar sessizce düşebiliyor ·
+     −1'lerin 622'sinde alan BİREBİR korunuyor ⇒ gizleme KESİN)
+②  Kapı ölçüsü Σ d.area + geometrik parça olsun mu?   ÖNERİM: EVET (㉘e tablosu)
+③  Eşik 5 km² kalsın mı, 8 olsun mu?          ÖNERİM: 8 (sessiz sınıfı sıfırlar,
+    bedeli alanın %0,008'i) — ama yalnız 8a-parca'yı etkiliyor, hüküm değişmez
+④  (B) "TAŞAN yerleşim"i saymak ayrı bir iş olarak sıraya girsin mi?   ÖNERİM: EVET,
+    aceleli değil — beyanla kodu hizalar (595e9947 "taşan" diyor, kod "taşılan"ı sayıyor)
+```
+⚠️ `denetle.py`ye **hiç dokunulmadı**: hem KOŞU 21 sürerken donuk, hem bunlar **ölçüt**
+kararları ve Değişmez 8'i sen tanımladın (H-0069/H-0086).
+🟢 Dokuz ölçüm, dokuz rapor diskte: `LAB-8A-KIMLIK` · `ALAN` · `KIRILGANLIK` · `BIRLESME` ·
+`ESIK` · `IZGARA` + `HANAK-D8A-1006` + `D268`. Karar ne olursa olsun dayanağı yazılı.

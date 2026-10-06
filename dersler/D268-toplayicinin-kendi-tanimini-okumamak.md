@@ -1,14 +1,18 @@
-# D268 — Toplayıcının kendi tanımını okumamak: bir gecede BEŞ vaka
+# D268 — Toplayıcının kendi tanımını okumamak: bir gecede ALTI vaka
 
 **Slogan:** *Bir sayıyı okumak, onu üreten toplayıcının ANAHTARINI okumaktır. Anahtarı
 okunmamış bir sayı, ölçtüğünü sandığın şeyi ölçmez.*
 
 6 Ekim 2026 gecesi, KOŞU 21 sürerken, `Değişmez 8a`nın `1508 → 1509` oynamasının sebebi
 arandı. Cevap dört adımda bulundu ve **her adım bir önceki adımın hatasıydı**; beşinci
-vaka ise cevabın kendisinde, yani **çarenin içinde** çıktı. Beşi de aynı kusurdan:
-toplayıcının/karşılaştırıcının kendi tanımını okumamak. **Üçü koordinatörün (YILDIRIM
-BAYEZIT), ikisi denetleyicinin (LAB) işinde** — yani kusur kişiye değil **işin kendisine**
-bağlı; ve ikisi de kusuru *kendi* işinde bulup geri döndü.
+vaka ise cevabın kendisinde, yani **çarenin içinde** çıktı; altıncısı o çarenin
+*düzeltilmiş* hâlinde. Altısı da aynı kusurdan: toplayıcının/karşılaştırıcının kendi
+tanımını okumamak. Kusur kişiye değil **işin kendisine** bağlı — hem koordinatör (YILDIRIM
+BAYEZIT) hem denetleyici (LAB) aynı kusuru işledi, ve ikisi de onu *kendi* işinde bulup
+geri döndü.
+🔴 **Ve en öğretici olanı sıralamadır:** kusur teşhis edildikçe çareye taşındı. Vaka 5
+çarenin içinde, vaka 6 çarenin düzeltilmiş hâlinde. ⇒ **Bir kusuru teşhis etmek, çareyi o
+kusurdan bağışık kılmaz; çare de ÖLÇÜLÜR.**
 
 ---
 
@@ -82,6 +86,31 @@ Gerçekten etikete duyarsız iki ölçü (parçalar etiketlemeden ÖNCE kaydedil
 > Ve bu vaka ötekilerden tehlikelidir: kusur **çarenin içine** yerleşmişti ve orada
 > "duyarsız" etiketiyle kapıya girecekti. Bir kusuru teşhis etmek, çaresini o kusurdan
 > bağışık kılmaz.
+
+## Vaka 6 (ikisi birden) — "alan" sanılan sayı IZGARADAN türetilmişti
+Düzeltilmiş tasarım `8a-alan = parça alanı 1.895.364 km²` diyordu. Koordinatör bu sayıyı
+LAB'den aldı ve **nasıl hesaplandığını sormadan** kapı ölçüsü yaptı.
+
+**Gerçek:** o sayı `4 × len(örnekler)`, yani 2 km'lik ızgaranın 4 km²'lik basamakları —
+**kuantize**. Gerçek `Σ d.area = 1.893.467,3 km²`. Izgara onu **+%0,100** şişiriyor ve
+**aynı geometride** ızgara başlangıcı kayınca **%0,25** (4.708 km²) oynuyor.
+Sapma gürültü değil **YANLILIK**: ızgara > gerçek 629 parçada, < 472'de, **= 0'da**. Ve en
+çok küçük parçalar şişiyor (<20 km² olanlarda ortalama +%13) — yani **eşiğe en yakın
+parçalar en çok şişenler**, iki kusur birbirini büyütüyor.
+🟢 `d.area` kodda zaten vardı (`if d.area < D8_ALAN_8A`), yalnız hiçbir yerde
+toplanmıyordu. Ölçü elimizdeydi, kullanılmıyordu.
+
+> **Kural:** bir sayıyı kapıya koymadan önce **neyin toplamı olduğu** sorulur. "Alan"
+> adını taşıyan bir değer, bir ÖRNEK SAYISI olabilir.
+
+### Ve bir yöntem notu: çürüyen hipotez, çöpe giden ölçüm değildir
+Koordinatör bu ölçümü *"üç gövdede birebir aynı çıkması, kuantizasyonun farkı YUTMASI
+olabilir"*  şüphesiyle istedi. Şüphe **çürüdü** (girdi bayt bayt aynı, ızgara deterministik
+⇒ yutulacak fark yoktu; `1637 = 1637` ile kurulan analojinin mekanizması farklıydı).
+**Ama ölçüm asıl kusuru buldu.**
+> **Kural:** yanlış bir hipotez doğru bir ölçümü tetikleyebilir; hipotez çürüdüğünde ölçüm
+> çöpe gitmez. Tersi de doğru — doğru sezgi yanlış ölçüm tetikleyebilir. İkisi **ayrı**
+> değerlendirilir (`§11` *"öngörü = SAYI + MEKANİZMA"*).
 
 ---
 
