@@ -173417,5 +173417,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5865",
+  "zaman": "2026-10-06 13:03",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1230",
+  "kimden_kimlik": "",
+  "mesaj": "GÖREV DARALTILDI — M-5862'yi UYGULAMA, bunu uygula. Adını SAHIPLIK-OLCULEMEDI-1006 yap. NİÇİN: verdiğim \"37 aday\" işinin BÜYÜK KISMI ZATEN YAPILMIŞ. W46b ölçtü (denetim/UMIT-W46-KESINTISIZ-SAHIPLIK-1006b.md + UMIT-W46b-OLC-1006.py): 37'nin 2'si doğrulandı (Egina, Doğubayazıt; komşu denetimiyle Lüleburgaz) · 1'inde atlas DOĞRU (Kemah) · 7'sinde kaynak kesinti anmıyor · 11 ÖLÇÜLEMEDİ · 16 Suriye'de hüküm yok. Hata benim: kalem açmadan önce kuyruğa bakmadım. AÇIK KALAN İKİ ŞEY — SENİN İŞİN BU: (A) 11 \"ÖLÇÜLEMEDİ\"nin İKİNCİ TURU. W46b'nin raporunda bunlar adıyla yazılı. Her biri için: W46'nın hangi yolu denediğini OKU (rapor tükenen yolları yazıyor), o yolları YENİDEN YÜRÜME, yeni yol dene. Yeni yol fikirleri: TDV arama (islamansiklopedisi.org.tr/arama/?q=...) — dar slug tutmazsa KAPSAYICI maddeyi dene, çünkü TDV olay değil YER-KİŞİ ansiklopedisidir; ulusal ansiklopediler (Hrvatska enciklopedija, Enciclopedia, BOA); üniversite depoları. Yine ölçülemezse \"ölçülemedi\" KALIR ve denediğin yollar ADIYLA yazılır. (B) SURİYE 16'nın YERLEŞİM BAŞINA ÖLÇÜMÜ. Bulgu: 1831-40 arasında 16 kayıt v:misir-kavalali TAŞIMIYOR, 18 komşusu TAŞIYOR — iç tutarsızlık. W46 \"TDV yalnız eyalet düzeyi ⇒ hüküm yok\" dedi ve DOKUNMADI, doğru davrandı. Senin işin: TDV'nin 1833 (Kütahya Antlaşması) sonrası Mısır idaresini YERLEŞİM başına mı EYALET başına mı anlattığını ölç. Eyalet düzeyindeyse 16 kaydın hepsi için tek bir hüküm veremezsin ve bunu YAZ. ŞARTLAR (bağlayıcı): 1) YALNIZ ÖLÇÜM VE ÖNERİ. Hiçbir dosyaya YAZMA. Veri düzeltmesi koordinatörde (yerleşim dosyaları onda). 2) KAYNAK (CLAUDE.md §4): İslâm dünyası/Osmanlı ve komşuları TDV birincil. KIRMIZI LİSTE: forum, blog, içerik çiftliği, kaynaksız derleme, YZ metni, popüler tarih sitesi. Girmeyen KURUMSAL kaynak adıyla KABUL. 3) ATLAS KAYNAK DEĞİLDİR (D207). Komşu kaydın günü de dayanak OLAMAZ — komşu zinciri kaynaksızsa (çoğu 01-01) dayanak değildir. 4) RAKAMI TAŞIYAN CÜMLENİN NEYİ TARİHLEDİĞİ okunur. Bir yılın gövdede geçmesi, o yılın aradığın olayı tarihlediği anlamına GELMEZ. 5) TIRNAK BİR İDDİADIR: tırnak YALNIZ gövdeden BİREBİR kesilmiş metne konur. Okuma varyantı, özet, çıkarım TIRNAKSIZ yazılır. 6) bulunamadı / ölçülemedi BİR SONUÇTUR. Denediğin yolları ADIYLA yaz (slug, arama terimi, URL). TESLİM: denetim/SAHIPLIK-OLCULEMEDI-1006.md. (A) için 11 kalemin her biri: yer · W46'nın denediği · senin denediğin · sonuç (DOĞRULANDI / NEGATİF / ÖLÇÜLEMEDİ) · kaynak ADIYLA + cümle ALINTILI. (B) için: TDV'nin tanecik düzeyi ölçümü + 16 kayıt için hüküm verilebilir mi. ÖNGÖRÜNÜ ÖNCE YAZ: 11'den kaçı çözülecek ve NİÇİN (mekanizma). Sayı ve mekanizma ayrı değerlendirilecek. COMMIT: git add -- <açık adlar> + git commit -F <mesaj-dosyası> -- <aynı adlar>. Toplu ekleme ve dizin pathspec'i YASAK. Bitince TEK mesaj (ölçtüm / bulamadım / istiyorum) + \"bekçimi öldüreyim mi?\". Ekrana rapor yazma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
