@@ -2090,3 +2090,49 @@ Ayrıca reddedilen kayıt yerelde **ÖLÜ** olarak kalıyor — `tahta.py` onu g
 İkisi birlikte de inebilir; (A) tek başına yeterlidir, (B) tek başına değildir.
 ⚠️ Hangisi olursa olsun **koşudan sonra** inecek: `tahta.py` koşu sırasında
 değiştirilirse çalışan bekçiler yarı yolda biçim değiştirir.
+
+---
+
+## ㉗ 🔴 HAVVA'NIN PAGEFILE'I — koşu iki kez duvara 1 GB kala geçti, kararın gerekiyor
+
+### ① Ne ölçtüm (hepsi HAVVA'nın nöbet kaydından, 6 Ekim akşamı)
+```
+20:17:46  BİRİNCİ TEPE   ana 12.904 + işçi 12.904 MB · boş RAM 916 MB (en az 697) ·
+                         commit 31,1/31,8 GB = %98   → pagefile BÜYÜDÜ, koşu kurtuldu
+20:36:49  İKİNCİ TEPE    ana 13.177 + işçi 10.575 MB · boş RAM 977 MB ·
+                         commit 30.448/30.725 MB = %99
+          limit DALGALANDI: 31,8 → 31,0 → 29,0 → 30,7 GB
+KOŞU 20 (dün, 4 işçi)    tepe 60.261 MB · commit 67,1/68,0 = %99 · en az boş RAM 2 MB
+                         pagefile 46,9 → 68,0 GB BÜYÜDÜ ve koşu O SAYEDE sağ kaldı
+```
+🔴 **Sebep senin temiz restart'ın:** restart pagefile'ı **5.376 MB**'a küçülttü (dün 68
+GB'a kadar büyümüştü). Restart makineyi rahatlattı — **ve aynı anda bu riski üretti.**
+İkisi birden doğru; "restart iyidir" yarım bir ders olurdu.
+⚠️ Ve bir varsayım iki yönde yanlışlandı: *"otomatik yönetim nasılsa büyütür"*.
+Limit yükselen baskı altında **AŞAĞI da gitti** (31,8 → 29,0) — Windows pagefile'ı
+tam ihtiyaç anında küçülttü.
+
+### ② Benim verdiğim karar (yetkim dahilinde) ve VERMEDİĞİM karar
+**VERDİĞİM:** koşu DURMADI. Asimetriyi ölçtüm — durdurmak da ölmek de aynı ~45 dakikayı
+(Çöl tavanı) kaybettiriyor, çünkü önbelleğe yazım aşama sonunda; sağ kalırsa kayıp SIFIR.
+⇒ Devam etmek durdurmaya kesin baskın. Ölürse HAVVA izin beklemeden `MOTOR_SUREC_ISCI=1`
+ile yeniden başlatacak (bayrak motor tuzunda DEĞİL ⇒ parmak izi aynı, önbellek geçerli;
+tepe ~14,7 GB'a iner, limitin yarısı).
+**VERMEDİĞİM:** pagefile'a dokunmadım ve HAVVA'ya da dokundurmadım. Bu bir **sistem
+ayarı**, makine senin, ve koşu sürerken pagefile'a dokunmak koşuyu o anda öldürebilir.
+
+### ③ 🔴 SENDEN İSTEDİĞİM KARAR — koşu bittikten SONRA uygulanacak
+```
+(A) SABİT BÜYÜK PAGEFILE   C: için otomatik yönetimi kapat, 64 GB sabit ver
+    ÖNERİM                 (disk 328 GB boş ⇒ %20'si). Risk KÖKTEN kapanır:
+                           4 işçiyle bile tepe 60 GB'dı, 64 GB onu da taşır.
+                           Bedel: 64 GB disk + bir yeniden başlatma.
+(B) OTOMATİK KALSIN        Bedel sıfır, ama bu akşam iki kez %98-99'a değdik ve
+                           limit tam tepede KÜÇÜLDÜ. Üçüncüsünde kurtulmayabilir.
+(C) ISCI=1 KALICI OLSUN    Ayar değişmez, tepe yarıya iner — ama her tam inşa
+                           koşusu saatlerce uzar. En pahalı seçenek.
+```
+📌 Niçin senin kararın: disk ayırmak ve makineyi yeniden başlatmak **senin makinende
+kalıcı bir değişiklik**. Ben ölçtüm, seçmedim.
+📌 Niçin acelesi yok ama unutulmamalı: bu koşu bitse bile **bir sonraki tam inşa aynı
+duvara gelecek.** Bir koşuyu 3 dakikada kaybetmek ucuz, **3 saatte** kaybetmek pahalı.

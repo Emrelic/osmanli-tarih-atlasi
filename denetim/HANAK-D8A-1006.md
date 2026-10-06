@@ -52,3 +52,120 @@ yap" denmez; önce hangi sebep olduğu ölçülür.
 
 ---
 Ölçen: YILDIRIM BAYEZIT (koordinatör, EMRELIC) · dayanak: UMIT'in kapı çıktısı
+
+---
+
+# 🔴 DÜZELTME (6 Ekim gecesi, LAB ölçtü) — YUKARIDAKİ HÜKÜM ÇÜRÜDÜ
+
+Yukarıdaki *"+1'in bugünkü veride SEBEBİ YOK"* hükmü **YANLIŞTIR.** Belgeyi silmiyorum,
+çünkü hatanın mekanizması kendi başına bir derstir.
+
+## LAB'in ölçümü — aynı geometri, iki veri hâli
+```
+600e2d00  site damgalı ESKİ geometri (0ef2d3e2, uret_petek 8b6aaea5)  →  8a = 1508
+2fe8ada7  AYNI geometri, DEĞİŞMİŞ veri                                →  8a = 1509  ✗
+```
+⇒ Geometri SABİT, veri DEĞİŞTİ, sayı OYNADI. **Tetikleyen VERİDİR.**
+
+🔴 **VE BU PARAGRAFIN İLK HÂLİ DE FAZLA İLERİ GİTTİ — LAB onu da düzeltti:**
+İlk yazdığım iki cümle *"Sebep VERİDİR, bayat gövde DEĞİL"* ve *"yeni geometri bunu
+kaldırmayacak"*. İkisi de eksik:
+1. İkilik yanlış kuruldu. Ölçülen şey **ESKİ geometri × YENİ veri** — karışık gövde.
+   Lugos 1918 Romanya kaydıyla çizilmiş, ama veri onu 1920-06-04'e dek Macaristan yapıyor.
+   Tetikleyen veri, **ama ölçüm karışık gövdede yapıldı**; "bayat gövde hiç rol oynamadı"
+   denemez.
+2. *"Yeni geometri bunu kaldırmayacak"* **KANITLANMADI.** KOŞU 21 Lugos'u YENİ kaydıyla
+   çizecek; taşma ve etiket DEĞİŞEBİLİR. Doğru hüküm: **koşu sonrası yeni geometriyle
+   yeniden ölç, sonucu ÖNCEDEN YAZMA.**
+📌 Ve bunun kendisi bir ders: yukarıda *"okumamı doğrulamadım"* diye kendimi düzelttiğim
+paragrafın **hemen altında** doğrulanmamış bir hüküm daha yazdım. **Bir hatayı yazmak,
+aynı türden ikincisini yapmaya engel değildir.**
+
+## HATAMIN MEKANİZMASI — ikisi birden
+**① Yarıçap gerekçesiz seçildi.** ④'te "60 km içinde SIFIR" yazdım. **60 km bir SINIR
+değil, bir TAHMİNDİ.** Voronoi'de bir peteğin menzili nokta YOĞUNLUĞUNA bağlıdır;
+Kafkas/Doğu Anadolu gibi seyrek bir bölgede peteği 100+ km'deki bir nokta pekâlâ
+oynatır. Yarıçabı veriden (ör. Hanak'ın gerçek petek komşularından) türetmedim.
+> **Ders: yarıçapı veriden TÜRETMEDEN kullanılan "yakınlık" ölçümü bir ELEME DEĞİLDİR.**
+> Boş kümeyi kanıt sanmamak için evreni yazmıştım (79 aday satır) — ama **evreni
+> yazmak, YANLIŞ SEÇİLMİŞ bir evreni doğru yapmaz.** İkinci sigorta ilkinin yerine geçmez.
+
+**② Evren yanlış aralığa kuruldu.** Bütün ölçümlerimi *"bugün (2026-10-06 00:00'dan beri)
+dokunulan"* commit'lere kurdum. Sorulması gereken aralık `600e2d00..2fe8ada7`ydi ve o
+aynı şey değil.
+
+**③ Ve okumamı doğrulamadım.** UMIT'in kapısı `8a YENİ d1829-osm-rus-1|1829-09-14|sol|Hanak`
+bastı; ben "YENİ" kelimesini *"bu birim yeni eklendi"* diye okudum ve **o okumayı hiç
+sınamadım** — listenin ilk satırı da olabilirdi. Bir ihlal satırını teşhis diye okumak,
+`§11`in *"ölçüm doğru, çıkarım yanlış"* ailesi.
+
+## AYAKTA KALAN
+- Hanak'ın kaydı `e634fdad~1` ↔ HEAD **BİREBİR AYNI** (bu ölçüm doğru ve hâlâ geçerli).
+- `yer_yama*.js`te Hanak **YOK** (geçerli).
+- `data/d_sinirlar.js`e 6 Ekim'de **SIFIR commit** (geçerli).
+⇒ Yani +1 Hanak'ın KENDİ kaydından ya da hattından gelmiyor. Ama bu, "+1 veriden
+gelmiyor" demek DEĞİL: komşuluk üzerinden gelmiş olabilir ve benim komşuluk taramam
+yetersizdi.
+
+## AÇIK — LAB'e verilen ölçüm (`LAB-8A-KIMLIK-1006`)
+```
+(a) 1509'un YENİ birimi Hanak mı, başka bir birim mi?  (kapı çıktısı DOĞRULANACAK)
+(b) O birimi hangi commit üretti?  600e2d00..2fe8ada7 ikili arama
+    ⚠️ Tekil commit `git log`u YETMEZ: LAB zaten ölçtü, 17 geçiş bir MERGE'ün KENDİ
+       değişikliğiydi ve dosya başına `git log` onları bulamıyor. Aynı tuzak burada da var.
+```
+Bu kapanmadan 8a tavanı oynatılmayacak (§3.4(0): sebebi bilinmeyen sayı tavan olmaz).
+
+---
+
+# 🟢 KAPANDI — SEBEP **LUGOS**, HANAK DEĞİL (LAB ölçtü, `LAB-8A-KIMLIK-1006`)
+
+## Ölçüm
+Her commit'in **kendi `denetle.py`siyle** `degismez8()` + `d8_sayac()` doğrudan çağrıldı,
+salt okunur (`defter yaz=False`), tam denetimle aynı sayıyı veriyor. Aralıkta D8 kodu,
+`d_sinirlar`, `bolgeler.js` ve 0086 defteri **DEĞİŞMEMİŞ** — yalnız girdi değişti.
+
+```
+GERÇEK FARK (600e2d00 → 2fe8ada7)
+  GİREN   Saarbrücken · Orsova · Tırgu Jiu
+  ÇIKAN   Trier · Lugos
+  b48276ac7  SAARBRÜCKEN NOKTASI  Trier→Saarbrücken, aynı hat, 63 km, etiket takası  NET 0
+  8b95eeb63  BANAT-TRIANON+LUGOS  Lugos ÇIKTI · Orsova (114 km) + Tırgu Jiu (129 km)  NET +1
+```
+`yerlesimler.js`te `8b95eeb63`ün değiştirdiği **TEK kayıt Lugos**: `romanya 1918-01-01` →
+`macaristan-habsburg ..1918-11-11` · `macaristan-naiplik ..1920-06-04` · `romanya`;
+artı `isg romanya 1919-07-22..1920-06-04`. Dosya ayrıştırmasıyla doğrulandı (yalnız
+`yerlesimler.js` → 1509; olaylar → 1508; Klagenfurt/Mustafapaşa → 1508).
+
+## 🔴 HANAK HİÇ DEĞİŞMEMİŞ — ve "YENİ" kelimesini yanlış okumuşum
+Hanak'ın **6 birimi** `600e2d00` ve `2fe8ada7`de BİREBİR aynı. Kapının bastığı
+`8a YENİ … Hanak` satırı `ic − defter["a"]`, yani **ESKİ DEFTERE göre fark** —
+`600e2d00`a göre değil. Sıralı listenin ilk satırı olduğu için göze çarpıyor
+(Posof, Gümrü, Şeyhrumi de o listede). ⇒ Bir ihlal satırını "yeni birim" sanmak,
+kapının **hangi tabana göre** fark aldığını okumamaktı.
+
+## 🟢 60 KM DERSİ EMPİRİK OLARAK DOĞRULANDI
+Etkilenen iki şehir **114 km** ve **129 km** uzakta. Benim gerekçesiz seçtiğim 60 km
+yarıçapı, sebebi **tam olarak dışarıda bırakıyordu**. Ders artık varsayım değil ölçüm:
+> **Petek/atıf menzili nokta yoğunluğundan türetilir; sabit bir yarıçap eleme yapmaz.**
+
+**Mekanizma (LAB):** D8'in yer etiketi, ızgara örneğine o gün **karşı tarafın EN YAKIN
+yerleşimini** atayan atıf dizininden gelir ve **dizin `isg:` OKUMAZ**. Lugos 1920-03-31'de
+Romanya ağacından çıkınca birimi 114/129 km'deki iki şehre geçti.
+
+## AÇIK KALAN — üçü de adıyla
+1. 🔴 **Alan 612 → 1692 km²** oldu. Saf etiket bölünmesi alanı KORURDU. Tırgu Jiu'nun
+   +1080 km²'sinin önceden niçin sayılmadığı **ÖLÇÜLMEDİ** ⇒ +1 daha büyük bir değişimi
+   gizliyor olabilir.
+2. **Atıf dizininin `isg:` okumaması** tasarım mı kusur mu — cevaplanmadı.
+   ⚠️ LAB kendi sınamasının GEÇERSİZ olduğunu da yazdı: `_d8_sahip`i bellekte `isg`
+   okuyacak şekilde yamadı, sonuç değişmedi — **ama etiket `_d8_sahip`ten gelmiyor**,
+   yani yama ilgili yola hiç dokunmadı. Çürütme DEĞİL; *"isg sayılsa da olurdu"*
+   çıkarılamaz. (Bir sınavın sonuç vermemesi, sınavın o soruyu sorduğunu göstermez.)
+3. **de jure atıf × "fiili" hat** (`d1920-hu-ro-fiili`) aynı günde karşılaştırılıyor —
+   tasarım mı kusur mu, yöntem sorusu.
+
+## KOŞU 21 SONRASI — tek ölçüm, sonucu ÖNCEDEN YAZILMAZ
+LAB aynı salt okunur betiği yeni geometriyle ~1 dk'da koşturacak ve `8a` ile bu hat-gününü
+yeniden ölçecek. **Beklenti yazılmıyor:** KOŞU 21 Lugos'u yeni kaydıyla çizecek, taşma ve
+etiket değişebilir. Tavan ancak o ölçümden sonra oynatılır (§3.4(0)).
