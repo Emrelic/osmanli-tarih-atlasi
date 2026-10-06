@@ -80,6 +80,14 @@ Tırnak **yalnız** gövdeden **BİREBİR** kesilmiş metne konur. Okuma varyant
   yaz, ve eski bir "bulunamadı"yı yeniden aramak mükerrer DEĞİLDİR.
   📌 Bu, üstteki 42/50'yi çürütmez, **sertleştirir**: oran bilinmiyorsa da, bilinen oran
   bayatlamışsa da sonuç aynı — yokluk kanıtı yok.
+- 🆕 🔴 **VE ORANDAN DAHA SERTİ: ARAMA "SONUÇ YOK" ⇒ "MADDE YOK" DEMEK DEĞİLDİR.**
+  Ölçülmüş vaka (GLM1, 6 Ekim 2026): `sarikamis-harekati` **GET 200**, gövdesi
+  *"SARIKAMIŞ HAREKÂTI"*, tamamen **CANLI** — ama TDV aramasında **HİÇ ÇIKMIYOR.**
+  ⇒ Üstteki madde bir ORAN veriyordu ("%16 kaçırma, o yüzden emin olma"); bu madde
+  **kesin bir VAKA** veriyor: canlı bir maddenin aramada hiç görünmemesi.
+  🔴 **Bir köprü ARAMADAN TEK BAŞINA kurulamaz: arama ADAY üretir, `GET` DOĞRULAR.**
+  Arama listesi ilk ~10 sonucu gösteriyor ve sayfa sayısı basmıyor — bu sınır da
+  raporda **ADIYLA** yazılır, yoksa sonraki tur "liste tükendi" sanır.
 - **NEGATİFİ DE YAZ:** "atlas DOĞRU" bir bulgudur.
 
 ## 8. ÖNGÖRÜ (`§11`)

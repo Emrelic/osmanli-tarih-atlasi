@@ -1,0 +1,1669 @@
+# KURTARMA — koordinatorun EMRELIC deposundaki stash yigini, diff'e cevrildi
+#
+# 6 Ekim 2026, YILDIRIM BAYEZIT. NICIN: `refs/stash` bir depoda PAYLASILIR; bir oturumun
+# `git stash pop` cagrisi yiginin TEPESINI alir ve tepede kimin isi oldugunu BILMEZ.
+# Bugun UMIT deposunda IKI yabanci stash kayboldu (WIP...6297a2fe ve 0f08fcae) ve W56
+# dokunmadigini ayrintiyla gosterdi. EMRELIC'in reflog'u temiz (hic pop/drop yok), yani
+# BURADA kayip olmadi - ama tehlike yiginin VAR OLMASINDAN doguyor.
+# ⇒ Yigin bosaltilacak. Bosaltmanin ONKOSULU bu dosyalardir: icerik once KALICI hale
+#   getirilir (commit + push), ANCAK ONDAN SONRA stash dusurulur. Ters sira, dropper'in
+#   yaptiginin aynisi olur.
+#
+# 🔴 BU BIR TESLIM EDILMIS YAMA DEGILDIR. UYGULANMADI ve oldugu gibi uygulanmaz:
+#    icerigin main'e ZATEN inip inmedigi OLCULMEDI (16-24 Eylul tarihli, arada yuzlerce
+#    commit var). Uygulamadan once "bu degisiklik bugunun govdesinde var mi" sorusu
+#    kalem kalem sorulur.
+#
+# KAYNAK : stash@{0}  sha d33e2879
+# TARIH  : 2026-09-24 16:31:34 +0300
+# KONU   : On main: autostash
+
+#
+diff --git a/denetim/SINIR-D-AVRUPA-BATI-0077.md b/denetim/SINIR-D-AVRUPA-BATI-0077.md
+index 3616172c..44ee6e8e 100644
+--- a/denetim/SINIR-D-AVRUPA-BATI-0077.md
++++ b/denetim/SINIR-D-AVRUPA-BATI-0077.md
+@@ -59,5 +59,12 @@ Tarayıcı uyarısı: `şerit kurulamadı (atlandı): d1923-be-nl-2@100, d1923-b
+ - es-gib: çitin 1923'ten beri kaymadığına kaynak **bulunamadı** (hat ~1 km, yaslama eşiği 10 km altı).
+ - it-shs · it-shs-zara · fr-it-DEGISTI ×5: 1947 öncesi hattın koordinatı çevrimdışı YOK. Öneri: CShapes 2.0
+   (ETH Zürih, hakemli) 1920-1941 İtalya–Yugoslavya ve 1947 öncesi FR–IT hattı — indirme izni gerekir; C olarak.
++- **CShapes 2.0 sınandı (24 Eyl, Emre'nin izniyle indirildi · `CShapes-2.0.geojson` 26.344.671 bayt ·
++  https://icr.ethz.ch/data/cshapes/ · CC BY-NC-SA 4.0 · Schvitz vd. 2022, JCR 66(1)) — KULLANILAMAZ.**
++  Nokta-içinde sınaması: Yugoslavya 1920-06-03 → 1991 çokgeni Pula, Rijeka, Postojna'yı İÇERİYOR
++  (1920-47 İtalyan); Fransa 1919 → 2019 çokgeni Tende ve Mont-Cenis'i İÇERİYOR (1947'ye dek İtalyan);
++  İtalya çokgeni hiçbirini içermiyor. ⇒ Derleme 1947 sonrası hattı geriye yaymış; 1923 hattını
++  vermiyor. İt-shs · zara · fr-it-DEGISTI ×5 YOK'ta kaldı. Alet ateşliyor (Tende'yi bir çokgende buldu).
++  Dosya işe yaramadığı için silindi, commitlenmedi.
+ - 62 tarihî YOK (1606-1920): ölçüye (1923-09-01) etkisi sıfır; dokunulmadı.
+   Fr–Es 1659-1868 için Capdevila (IGN) PDF'i 10 MB sınırını aştı, okunamadı.
+diff --git a/js/d_katman.js b/js/d_katman.js
+index a83a3d48..960919eb 100644
+--- a/js/d_katman.js
++++ b/js/d_katman.js
+@@ -312,10 +312,11 @@ var D_KABA_RENK = "#000000";
+ // girmiyordu — hat ekranda vardı, boya ona oturmuyordu. Yalnız Afrika 21.348 km,
+ // Amerika 20.943 km. Liste dört aileyle kalmıştı çünkü her aile ayrı gecede
+ // açılmıştı; kod zaten aileden bağımsız.
+-// 🔴 PERFORMANS ÖLÇÜLMEDİ: yaslama tarayıcıda poligon kesişimidir ve bu değişiklik
+-// hat sayısını kabaca iki katına çıkarır. Koruma zaten kodda (kısa hat yaslanmaz,
+-// yönü doğrulanmayan hat yaslanmaz, şerit önbelleği). Yavaşlama görülürse çare tek
+-// satır: aileyi listeden çıkar. İlk teslim eden bölge oturumu bunu ÖLÇECEK.
++// ✅ PERFORMANS ÖLÇÜLDÜ (SINIR-D-AFRIKA-0077, 24 Eylül 2026, 1923-09-01, dünya
++// kadrajı, önbellek soğuk): 4 aile 49,1 sn · 9 aile 56,7 sn — beş ailenin payı
++// yalnız +7,5 sn; asıl yük eskiden vardı ve ana iş parçacığını TEK PARÇA donduruyordu
++// (guncelle() ilk atlama 53 sn). "Aileyi çıkar" bu yüzden çare DEĞİL. Çare: hesap
++// dilimli (_dYaslaPlanla, aşağıda) — sonuç birebir aynı, en uzun donma ~1,7 sn.
+ var _D_YASLA_AILELER = [
+   "D_SINIRLAR", "D_SINIRLAR_KOMSU", "D_SINIRLAR_AVRUPA_BATI", "D_SINIRLAR_AVRUPA_ORTA",
+   "D_SINIRLAR_ORTADOGU", "D_SINIRLAR_AFRIKA", "D_SINIRLAR_ASYA", "D_SINIRLAR_AMERIKA",
+@@ -610,7 +611,21 @@ function _dAlanKm2(mp) {
+   return A;
+ }
+ var _dSeritOnbellek = {};
+-function _dSeritTek(h, w) {
++// 🆕 24 Eylül 2026 — SINIR-D-AFRIKA-0077: DİLİMLİ HESAP. Yaslamanın ağır işleri
++// (şerit, küme, kesim) ÜRETEÇ (function*) olarak yazıldı; her polygon-clipping
++// işleminden sonra `yield` eder. Eşzamanlı sarmalayıcı (_dSur) üreteci sonuna kadar
++// sürer ⇒ `_dSeritTek`/`_dSeritlerKume`/`_dYaslaGuncelle` ESKİ DAVRANIŞTA kalır
++// (denetim betikleri bunları eşzamanlı çağırıp sonucu hemen okuyor). Harita ise
++// `_dYaslaPlanla` ile aynı üreteci dilim dilim sürer — hesap AYNI KOD YOLUNDAN
++// geçer, yalnız NE ZAMAN yapıldığı değişir. Ölçüm (1923-09-01, 9 aile, soğuk):
++// ana iş parçacığı 53 sn tek parça donuyordu.
++function _dSur(it) {
++  var r;
++  do { r = it.next(); } while (!r.done);
++  return r.value;
++}
++function _dSeritTek(h, w) { return _dSur(_dSeritTekAdim(h, w)); }
++function* _dSeritTekAdim(h, w) {
+   var sol = [], sag = [], onceki = null;
+   for (var i = 0; i + 1 < h.length; i++) {
+     var p = h[i], q = h[i + 1];
+@@ -630,9 +645,11 @@ function _dSeritTek(h, w) {
+     }
+     onceki = { ux: ux, uy: uy, ox: ox, oy: oy };
+   }
+-  var S = _dPc("union", sol), R = _dPc("union", sag);
++  var S = _dPc("union", sol); yield;
++  var R = _dPc("union", sag); yield;
+   var S0 = _dPc("difference", [S, R]), R0 = _dPc("difference", [R, S]), K = _dPc("union", [S, R]);
+   if (w <= _D_HAT_KESIK_KM) return { sol: S0, sag: R0, kapsam: K };
++  yield;
+   // KIVRIM KAMASI (Emre, 24 Eylül — Meriç 1923: Enez deltası ve Karaağaç
+   // dirseğinde iki gövde üst üste kalıyordu). S−R / R−S keskin kıvrımda iki
+   // yanın dikdörtgenleri kesiştiği için o bölgeyi KARARSIZ bırakır. Oysa bant
+@@ -650,9 +667,11 @@ function _dSeritTek(h, w) {
+   var bas = uzat(h[1], h[0]), son = uzat(h[h.length - 2], h[h.length - 1]);
+   var hk = (bas ? [bas] : []).concat(h, son ? [son] : []);
+   try {
+-    var kesik = _dPc("difference", [K, _dSeritTek(hk, _D_HAT_KESIK_KM).kapsam]);
++    var kesici = (yield* _dSeritTekAdim(hk, _D_HAT_KESIK_KM)).kapsam;
++    var kesik = _dPc("difference", [K, kesici]); yield;
+     var yS = [], yR = [];
+-    kesik.forEach(function (poli) {
++    for (var j = 0; j < kesik.length; j++) {
++      var poli = kesik[j];
+       var aS = _dAlanKm2(_dPc("intersection", [[poli], S0]));
+       var aR = _dAlanKm2(_dPc("intersection", [[poli], R0]));
+       if (aS > 4 * aR) yS.push([poli]);
+@@ -662,8 +681,10 @@ function _dSeritTek(h, w) {
+         if (ps.length) yS.push(ps);
+         if (pr.length) yR.push(pr);
+       }
+-    });
+-    return { sol: yS.length ? _dPc("union", yS) : [], sag: yR.length ? _dPc("union", yR) : [], kapsam: K };
++      yield;
++    }
++    var solU = yS.length ? _dPc("union", yS) : []; yield;
++    return { sol: solU, sag: yR.length ? _dPc("union", yR) : [], kapsam: K };
+   } catch (e) {
+     return { sol: S0, sag: R0, kapsam: K };
+   }
+@@ -701,11 +722,13 @@ function _dPc(islem, girdiler) {
+ // Neden genişlikler düz birleştirilmiyor: geniş dikdörtgen/kamalar kıvrık hatta
+ // karşı yakaya taşıp yakındaki doğru kararı bozuyordu (aynı ölçüm).
+ var _dKumeOnbellek = {};
+-function _dSeritTekOnbellekli(kayit, w) {
++function* _dSeritTekOnbellekliAdim(kayit, w) {
+   var a = kayit.id + "@" + w;
+-  if (!_dSeritOnbellek[a]) _dSeritOnbellek[a] = _dSeritTek(_dSadelestir(kayit.hat, w * _D_SADE_ORAN), w);
++  // Yarıda kesilen hesap önbelleğe YAZILMAZ (yalnız tamamlanan sonuç yazılır).
++  if (!_dSeritOnbellek[a]) _dSeritOnbellek[a] = yield* _dSeritTekAdim(_dSadelestir(kayit.hat, w * _D_SADE_ORAN), w);
+   return _dSeritOnbellek[a];
+ }
++function _dSeritTekOnbellekli(kayit, w) { return _dSur(_dSeritTekOnbellekliAdim(kayit, w)); }
+ // Şerit, hattın w/10 km toleransla sadeleştirilmiş hâlinden kurulur. Hatta
+ // w/10'dan yakın bölge her zaman bir önceki (dar) genişliğin kapsamındadır
+ // (_D_SERIT_KM'de ardışık oran ≤ 2,5 < 10) ve _dSeritlerKume onu zaten düşer ⇒
+@@ -742,16 +765,19 @@ function _dKutu(mp) {
+   return k;
+ }
+ function _dKutuDeger(a, b) { return a[0] <= b[2] && b[0] <= a[2] && a[1] <= b[3] && b[1] <= a[3]; }
+-function _dSeritlerKume(kayitlar) {
++function _dSeritlerKume(kayitlar) { return _dSur(_dSeritlerKumeAdim(kayitlar)); }
++function* _dSeritlerKumeAdim(kayitlar) {
+   var anahtar = kayitlar.map(function (k) { return k.id; }).sort().join(",");
+   if (_dKumeOnbellek[anahtar]) return _dKumeOnbellek[anahtar];
+   var sonuc = {}, kapsanan = [], dusen = [];
+   kayitlar.forEach(function (k) { sonuc[k.id] = { sol: [], sag: [] }; });
+-  _D_SERIT_KM.forEach(function (w) {
++  for (var wi = 0; wi < _D_SERIT_KM.length; wi++) {
++    var w = _D_SERIT_KM[wi];
+     var buKapsam = [];
+-    kayitlar.forEach(function (k) {
++    for (var ki = 0; ki < kayitlar.length; ki++) {
++      var k = kayitlar[ki];
+       try {
+-        var s = _dSeritTekOnbellekli(k, w);
++        var s = yield* _dSeritTekOnbellekliAdim(k, w);
+         // Önceki genişliklerin kapsamından YALNIZ kutusu değenler düşülür —
+         // değmeyen parça farkı değiştirmez. Eskiden bütün hatların tek
+         // birleşimi kullanılıyordu: Avrupa aileleri eklenince (85 aday)
+@@ -760,24 +786,27 @@ function _dSeritlerKume(kayitlar) {
+         var engel = kapsanan.filter(function (c) { return _dKutuDeger(c.kt, kt); })
+                             .map(function (c) { return c.g; });
+         var E = engel.length > 1 ? _dPc("union", engel) : engel[0];
++        yield;
+         var yS = E ? _dPc("difference", [s.sol, E]) : s.sol;
+         var yR = E ? _dPc("difference", [s.sag, E]) : s.sag;
+         if (yS.length) sonuc[k.id].sol.push(yS);
+         if (yR.length) sonuc[k.id].sag.push(yR);
+         if (s.kapsam.length) buKapsam.push({ kt: kt, g: s.kapsam });
+       } catch (e) { dusen.push(k.id + "@" + w); }
+-    });
++      yield;
++    }
+     // Aynı genişlikte iki hattın ikisi de aynı noktayı isteyebilir (iki hattan
+     // eşit uzaklık) — o nokta ikisine de verilir, gövde birleştirmesi
+     // (_dYaslaGuncelle §2) kaynak başına ilk alanı tutar.
+     kapsanan = kapsanan.concat(buKapsam);
+-  });
++  }
+   if (dusen.length) console.warn("D YASLAMA: şerit kurulamadı (atlandı): " + dusen.join(", "));
+-  kayitlar.forEach(function (k) {
+-    var r = sonuc[k.id];
++  for (var ri = 0; ri < kayitlar.length; ri++) {
++    var r = sonuc[kayitlar[ri].id];
+     r.sol = r.sol.length ? _dPc("union", r.sol) : [];
+     r.sag = r.sag.length ? _dPc("union", r.sag) : [];
+-  });
++    yield;
++  }
+   sonuc.anahtar = anahtar;
+   _dKumeOnbellek[anahtar] = sonuc;
+   return sonuc;
+@@ -817,14 +846,79 @@ function _dOsmanliKaynaginiYaz(geo) {
+   harita.getSource("osmanli").setData(veri);
+ }
+ 
++// EŞZAMANLI giriş — denetim/ölçüm betikleri bunu çağırıp sonucu HEMEN okur
++// (SINIR-D-*-0077-olc.js). Davranışı 24 Eylül öncesiyle aynıdır.
+ function _dYaslaGuncelle(gun) {
+-  if (!_dHazirMi() || !harita.getSource("devlet")) return;
++  _dYaslaIsi = null;                       // sürmekte olan dilimli iş varsa bırakılır
++  var is = _dYaslaHazirla(gun);
++  if (is) _dSur(is);
++}
++// DİLİMLİ giriş — haritanın kendisi (guncelle sarmalayıcısı, görünüm anahtarı,
++// katman kurulumu) bunu çağırır. Aynı üreteç `_D_YASLA_DILIM_MS`lik dilimlerle
++// sürülür, aralarda tarayıcı çizer ve kullanıcıya cevap verir. Yeni bir gün/imza
++// gelirse eski iş BIRAKILIR (önbelleğe yazdığı şeritler kaybolmaz); aynı imza
++// gelirse hiçbir şey yapılmaz, iş sürer. İş bitene kadar ekranda bir önceki
++// hâl (ya da app.js'in ham gövdesi) durur — yarım yaslanmış bir gövde YAZILMAZ,
++// sonuç tek seferde uygulanır.
++var _D_YASLA_DILIM_MS = 25;
++var _dYaslaIsi = null;
++// Ölçü (konsoldan okunur): son işin dilim sayısı, en uzun dilim ve en uzun TEK
++// adım (ms) — ana iş parçacığının yaslama yüzünden en uzun donması `dilimMax`tır.
++var _dYaslaOlcu = { dilim: 0, dilimMax: 0, adimMax: 0, basla: 0, sure: 0 };
++// Sıradaki dilim MessageChannel ile kurulur: setTimeout gizli sekmede saniyede
++// bire kısılır (ölçüldü: 25 ms'lik dilimlerle hesap dakikalarca sürdü) ve iç içe
++// çağrıda 4 ms'ye kıstırılır. postMessage görevi kısılmaz; aralarda tarayıcı
++// çizer ve olayları işler.
++var _dYaslaKanal = null;
++function _dYaslaSonraki(fn) {
++  if (typeof MessageChannel === "undefined") { setTimeout(fn, 0); return; }
++  if (!_dYaslaKanal) {
++    _dYaslaKanal = new MessageChannel();
++    _dYaslaKanal.port1.onmessage = function () { var f = _dYaslaKanal.bekleyen; _dYaslaKanal.bekleyen = null; if (f) f(); };
++  }
++  _dYaslaKanal.bekleyen = fn;
++  _dYaslaKanal.port2.postMessage(0);
++}
++function _dYaslaPlanla(gun) {
++  var is = _dYaslaHazirla(gun);
++  if (!is) return;
++  _dYaslaIsi = is;
++  _dYaslaOlcu = { dilim: 0, dilimMax: 0, adimMax: 0, basla: performance.now(), sure: 0 };
++  _dYaslaSur(is);
++}
++function _dYaslaSur(is) {
++  if (_dYaslaIsi !== is) return;           // yerine yenisi geldi
++  var t0 = performance.now(), o = _dYaslaOlcu, bitti = false;
++  try {
++    while (performance.now() - t0 < _D_YASLA_DILIM_MS) {
++      var a0 = performance.now(), r = is.next(), ad = performance.now() - a0;
++      if (ad > o.adimMax) o.adimMax = ad;
++      if (r.done) { bitti = true; break; }
++    }
++  } catch (e) {
++    if (_dYaslaIsi === is) _dYaslaIsi = null;
++    console.warn("D YASLAMA: dilimli hesap düştü:", e);
++    return;
++  }
++  var d = performance.now() - t0;
++  o.dilim++; if (d > o.dilimMax) o.dilimMax = d;
++  if (bitti) {
++    if (_dYaslaIsi === is) _dYaslaIsi = null;
++    o.sure = performance.now() - o.basla;
++    return;
++  }
++  _dYaslaSonraki(function () { _dYaslaSur(is); });
++}
++// Ön hazırlık (ucuz, eşzamanlı): adaylar, gövdeler, imza, önbellek. Yapılacak
++// iş yoksa ya da sonuç önbellekten uygulandıysa null; varsa hesabın ÜRETECİNİ döner.
++function _dYaslaHazirla(gun) {
++  if (!_dHazirMi() || !harita.getSource("devlet")) return null;
+   if (!window.polygonClipping) {
+     if (_dYaslaImza !== "kutuphane-yok") {
+       console.warn("D YASLAMA: polygonClipping yüklenmedi — renk hatta dayandırılamıyor (index.html <script>).");
+       _dYaslaImza = "kutuphane-yok";
+     }
+-    return;
++    return null;
+   }
+   var adaylar = _dYaslaAdaylari(gun);
+   var isler = [], atlanan = [];
+@@ -848,28 +942,36 @@ function _dYaslaGuncelle(gun) {
+   // düzeltmemiz silinmiştir — imzaya onlar da girer.
+   var imza = isler.map(function (x) { return x.anahtar; }).join("+") +
+     "|dv:" + (typeof devletImza === "undefined" ? "?" : devletImza) + "|dn:" + aktifDonem;
+-  if (imza === _dYaslaImza) return;
++  if (imza === _dYaslaImza) return null;
+   _dYaslaImza = imza;
+   var sonucAnahtari = isler.map(function (x) { return x.anahtar; }).join("+");
+   var hazir = _dGovdeOnbellek[sonucAnahtari];
+   // `atlanan` güne bağlıdır (gövdesi o gün olmayan taraf) — önbellekten
+   // dönen sonucun kendi listesi değil, BUGÜNÜN listesi yazılır; yamaya bağlı
+   // atlamalar (kısa hat hariç, o yukarıda sayıldı) sonucun içinden eklenir.
+-  if (hazir) { _dYaslaUygula(gun, hazir, atlanan.concat(hazir.yamaAtlanan)); return; }
++  if (hazir) { _dYaslaUygula(gun, hazir, atlanan.concat(hazir.yamaAtlanan)); return null; }
++  return _dYaslaAdim(gun, isler, atlanan, imza, sonucAnahtari);
++}
++// Hesabın kendisi (üreteç). Gövdesi 24 Eylül öncesindeki `_dYaslaGuncelle`nin
++// hesap kısmıyla BİREBİR aynıdır; fark: forEach → for (yield edebilmek için) ve
++// her ağır adımdan sonra `yield`.
++function* _dYaslaAdim(gun, isler, atlanan, imza, sonucAnahtari) {
+   // 1) kayıt başına ham yamalar (gövde+hat+küme değişmedikçe önbellekten)
+   var yamalar = [], govde = {}, yaslanan = {}, kume = null, yamaAtlanan = [];
+-  isler.forEach(function (x) {
++  for (var xi = 0; xi < isler.length; xi++) {
++    var x = isler[xi];
+     govde[x.gs.hk] = x.gs; govde[x.gr.hk] = x.gr;
+     var ys = _dYamaOnbellek[x.anahtar];
+     if (!ys) {
+       ys = [];
+       try {
+-        if (!kume) kume = _dSeritlerKume(isler.map(function (y) { return y.kayit; }));
++        if (!kume) kume = yield* _dSeritlerKumeAdim(isler.map(function (y) { return y.kayit; }));
+         var s = kume[x.kayit.id];
+         // sağ tarafın sol şeride taşan gövdesi → sol tarafa geçer
+         var a = _dPc("intersection", [s.sol, x.gr.poli]);
+         // sol tarafın sağ şeride taşan gövdesi → sağ tarafa geçer
+         var b = _dPc("intersection", [s.sag, x.gs.poli]);
++        yield;
+         // YÖN DOĞRULAMASI: `sol_taraf` beyanı ters ya da hat yanlış yöne
+         // çizilmişse yaslama gövdeleri TAKAS ederdi. Her iki tarafın gövdesi
+         // kendi yanında, öbür yandakinden BÜYÜK olmalı; değilse dokunulmaz.
+@@ -896,36 +998,43 @@ function _dYaslaGuncelle(gun) {
+         else { console.warn("D YASLAMA: " + x.kayit.id + " kesilemedi:", e); ys = { atla: "kesim hatası" }; }
+       }
+       _dYamaOnbellek[x.anahtar] = ys;
++      yield;
+     }
+-    if (ys.atla) { atlanan.push(x.kayit.id + ": " + ys.atla); yamaAtlanan.push(x.kayit.id + ": " + ys.atla); return; }
++    if (ys.atla) { atlanan.push(x.kayit.id + ": " + ys.atla); yamaAtlanan.push(x.kayit.id + ": " + ys.atla); continue; }
+     yaslanan[x.kayit.id] = 1;
+     yamalar = yamalar.concat(ys);
+-  });
++  }
+   // 2) aynı kaynaktan iki hat aynı parçayı iki komşuya vermesin (üçlü nokta
+   //    yakını): kaynak başına sıralı — önce alınan, sonrakinden düşülür.
+   var alinan = {}, kazanilan = {};
+-  yamalar.forEach(function (y) {
++  for (var yi = 0; yi < yamalar.length; yi++) {
++    var y = yamalar[yi];
+     var g = y.g;
+-    try { if (alinan[y.kimden]) g = _dPc("difference", [g, alinan[y.kimden]]); } catch (e) { return; }
+-    if (!g.length) return;
++    try { if (alinan[y.kimden]) g = _dPc("difference", [g, alinan[y.kimden]]); } catch (e) { continue; }
++    if (!g.length) continue;
+     alinan[y.kimden] = alinan[y.kimden] ? _dPc("union", [alinan[y.kimden], g]) : g;
+     (kazanilan[y.kime] = kazanilan[y.kime] || []).push(g);
+-  });
++    yield;
++  }
+   // 3) etkilenen gövdeler: (gövde − verilen) ∪ alınan
+-  var yeni = {}, n = 0;
+-  Object.keys(govde).forEach(function (hk) {
+-    if (!alinan[hk] && !kazanilan[hk]) return;
++  var yeni = {}, n = 0, hkler = Object.keys(govde);
++  for (var hi = 0; hi < hkler.length; hi++) {
++    var hk = hkler[hi];
++    if (!alinan[hk] && !kazanilan[hk]) continue;
+     try {
+-      var g = govde[hk].poli;
+-      if (alinan[hk]) g = _dPc("difference", [g, alinan[hk]]);
+-      if (kazanilan[hk]) g = _dPc("union", [g].concat(kazanilan[hk]));
+-      yeni[hk] = g; n++;
++      var gv = govde[hk].poli;
++      if (alinan[hk]) { gv = _dPc("difference", [gv, alinan[hk]]); yield; }
++      if (kazanilan[hk]) gv = _dPc("union", [gv].concat(kazanilan[hk]));
++      yeni[hk] = gv; n++;
+     } catch (e) { console.warn("D YASLAMA: " + hk + " gövdesi birleştirilemedi:", e); }
+-  });
++    yield;
++  }
+   var sonuc = { yeni: yeni, yaslanan: yaslanan, yamaAtlanan: yamaAtlanan,
+                 sayac: { kayit: Object.keys(yaslanan).length, yama: yamalar.length, govde: n } };
+   _dGovdeOnbellekKoy(sonucAnahtari, sonuc);
+-  _dYaslaUygula(gun, sonuc, atlanan);
++  // Hesap sürerken başka bir imza devraldıysa (gün değişti) bu sonuç ekrana
++  // YAZILMAZ — önbellekte kalır, o gün yeniden gelinirse anında uygulanır.
++  if (_dYaslaImza === imza) _dYaslaUygula(gun, sonuc, atlanan);
+ }
+ // Son 24 hesap tutulur (oynatmada ileri-geri gidişte yeniden kesilmesin).
+ var _dGovdeOnbellek = {}, _dGovdeSira = [];
+@@ -993,7 +1102,7 @@ function _dGorunumAnahtariKur() {
+       boyaDugmeler();
+       if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
+         _dSinirGuncelle(suanki);
+-        _dYaslaGuncelle(suanki);
++        _dYaslaPlanla(suanki);
+       }
+     });
+     dugmeler[deger] = b;
+@@ -1124,7 +1233,7 @@ function _dKatmaniKur() {
+     });
+     if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
+       _dSinirGuncelle(suanki);
+-      _dYaslaGuncelle(suanki);
++      _dYaslaPlanla(suanki);
+     }
+   } catch (e) {
+     console.error("D KATMANI kurulamadı:", e);
+@@ -1169,7 +1278,7 @@ if (document.readyState === "loading") {
+     var r = _dEskiGuncelle.apply(this, arguments);
+     if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
+       _dSinirGuncelle(suanki);
+-      _dYaslaGuncelle(suanki);
++      _dYaslaPlanla(suanki);
+     }
+     return r;
+   };
+diff --git a/oturumlar/TAHTA.md b/oturumlar/TAHTA.md
+index a62537df..4aaa47ca 100644
+--- a/oturumlar/TAHTA.md
++++ b/oturumlar/TAHTA.md
+@@ -5131,3 +5131,5 @@
+ | M-5120 | 2026-09-24 16:30 | OPUS HAZIR KITA 2409 1629 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum (M-5105 1.MURAT'a gitmişti, tekrar) |
+ | M-5121 | 2026-09-24 16:30 | OPUS HAZIR KITA 2409 1625 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum (M-5100 1.MURAT adresine gitmişti, M-5110 gereği yeniden) |
+ | M-5122 | 2026-09-24 16:30 | OPUS HAZIR KITA 2409 1630 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum (M-5103 eski adrese 1.MURAT'a gitmişti) |
++| M-5123 | 2026-09-24 16:30 | OPUS HAZIR KITA 2409 1632 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum (M-5106 1.MURAT adresine gitmişti, M-5110 gereği yeniden) |
++| M-5124 | 2026-09-24 16:31 | OPUS HAZIR KITA 2409 1630 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+diff --git a/oturumlar/defter.json b/oturumlar/defter.json
+index 0de613ac..a9a5b243 100644
+--- a/oturumlar/defter.json
++++ b/oturumlar/defter.json
+@@ -52,8 +52,8 @@
+  ],
+  "_olcum": {
+   "kaynak": "kutu/emeklilik.py",
+-  "kosan": 1,
+-  "z": "2026-09-22 20:41"
++  "kosan": 39,
++  "z": "2026-09-24 16:25"
+  },
+  "oturumlar": {
+   "local_00d519a0-1f9c-4c41-af03-8e39bba37c97": {
+@@ -833,6 +833,27 @@
+    },
+    "olcum_zamani": "2026-09-19 10:48"
+   },
++  "local_13bb73ed-7fd8-489b-86a2-f251236ad54c": {
++   "ad": "EKOKUMA-0076-A",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_13bb73ed-7fd8-489b-86a2-f251236ad54c",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 410865,
++    "bosta_dk": 1282,
++    "hukum": "🟡 SESSİZ",
++    "istek": 251,
++    "rol": "isci",
++    "sebep": "21.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 411 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_13c75694-be75-4be4-a950-e4ac2ddb5f73": {
+    "ad": "KAPSAM-2025-0073 · 1923 sonrası genişlemenin maliyeti (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -1250,6 +1271,48 @@
+     "TAŞMA ÖLÇÜM"
+    ]
+   },
++  "local_2139987b-c647-434c-b987-3dccb56222ee": {
++   "ad": "OPUS HAZIR KITA 2309 0061 /kita",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_2139987b-c647-434c-b987-3dccb56222ee",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 348737,
++    "bosta_dk": 1282,
++    "hukum": "🟡 SESSİZ",
++    "istek": 189,
++    "rol": "isci",
++    "sebep": "21.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 349 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
++  "local_213d7ee2-a70e-4de2-b399-af6d91c82c23": {
++   "ad": "TK Yunanistan kuzey sınırı düzeltmesi",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_213d7ee2-a70e-4de2-b399-af6d91c82c23",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 123824,
++    "bosta_dk": 919,
++    "hukum": "🟡 SESSİZ",
++    "istek": 66,
++    "rol": "isci",
++    "sebep": "15.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 124 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_21706fd2-b30f-4f23-b73c-93da7913a45e": {
+    "ad": "Sonnet hazır kıta 8",
+    "calisiyor": false,
+@@ -1564,6 +1627,68 @@
+     "KOORDINATOR"
+    ]
+   },
++  "local_2b76af78-4cc3-4c79-923c-4dd8852804bd": {
++   "ad": "SINIR-D-ORTADOGU-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_2b76af78-4cc3-4c79-923c-4dd8852804bd",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 13:25",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242267502-dojj8m.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
++     "dakika": 179,
++     "dongu": false,
++     "kim": "SINIR-D-ORTADOGU-0077",
++     "pid": 6344
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 13:25",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242267502-dojj8m.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 179,
++     "dongu": false,
++     "kim": "SINIR-D-ORTADOGU-0077",
++     "pid": 10044
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 13:25",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242267502-dojj8m.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 179,
++     "dongu": false,
++     "kim": "SINIR-D-ORTADOGU-0077",
++     "pid": 18264
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 13:25",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim SINIR-D-ORTADOGU-0077 --cik",
++     "dakika": 179,
++     "dongu": false,
++     "kim": "SINIR-D-ORTADOGU-0077",
++     "pid": 20008
++    }
++   ],
++   "olcum": {
++    "baglam": 359970,
++    "bosta_dk": 175,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 251,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 175 dk boşta, bağlam 360 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_2cb2da04-ac09-48de-95e2-21df20edcec8": {
+    "ad": "NOKTA HALKA-2 1",
+    "calisiyor": false,
+@@ -1620,6 +1745,27 @@
+     "KAYNAK"
+    ]
+   },
++  "local_2d77b4c7-b3ed-4eb4-a6de-8062804cd8c2": {
++   "ad": "TK Yunanistan-Türkiye sınırı 1923",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_2d77b4c7-b3ed-4eb4-a6de-8062804cd8c2",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 175944,
++    "bosta_dk": 919,
++    "hukum": "🟡 SESSİZ",
++    "istek": 155,
++    "rol": "isci",
++    "sebep": "15.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 176 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_2dfc4932-454a-48c7-a9b0-918ab78d8915": {
+    "ad": "Osmanlı Tarih Atlası hazır kita",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -1712,6 +1858,27 @@
+    },
+    "olcum_zamani": "2026-09-15 03:51"
+   },
++  "local_32252c11-a14b-45e2-8f03-3c9ff71ef74b": {
++   "ad": "TK D tipi sınırların gösterimi",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_32252c11-a14b-45e2-8f03-3c9ff71ef74b",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 308540,
++    "bosta_dk": 997,
++    "hukum": "🟡 SESSİZ",
++    "istek": 289,
++    "rol": "isci",
++    "sebep": "16.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 309 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_32285801-d06d-4f37-aac2-25275a79fb6d": {
+    "ad": "KIRILMASIZ-9 · haritada karşılığı olmayan maddeler (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -1835,6 +2002,27 @@
+    },
+    "olcum_zamani": "2026-09-22 15:39"
+   },
++  "local_33b32112-689f-4ee9-9d3f-65e5151525c0": {
++   "ad": "SINIR-D-AFRIKA-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_33b32112-689f-4ee9-9d3f-65e5151525c0",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 345186,
++    "bosta_dk": 0,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 356,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 0 dk boşta, bağlam 345 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_3415ea86-52e1-4156-b05d-066550c5d846": {
+    "ad": "KRONO-YER-0075",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -2009,15 +2197,15 @@
+    "model": "?",
+    "nobetciler": [],
+    "olcum": {
+-    "baglam": 94335,
+-    "bosta_dk": 0,
+-    "hukum": "✅ sürdür",
+-    "istek": 12,
++    "baglam": 242966,
++    "bosta_dk": 11,
++    "hukum": "🔴 ÖNCE YAZ",
++    "istek": 1103,
+     "rol": "koordinator",
+-    "sebep": "bağlam 94 K < 208 K",
+-    "z": "2026-09-22 20:41"
++    "sebep": "bağlam 243 K ≥ 208 K (taze tabanın 2 katı) VE depoda 8 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
++    "z": "2026-09-24 16:25"
+    },
+-   "olcum_zamani": "2026-09-22 20:41"
++   "olcum_zamani": "2026-09-24 16:25"
+   },
+   "local_3a57a870-d749-4b60-a026-78319fb4fa61": {
+    "ad": "KADEME ZİNCİRİ",
+@@ -2443,6 +2631,27 @@
+     "KORIDOR SEMA"
+    ]
+   },
++  "local_45524a44-1dca-4f28-ab46-63efdd17d063": {
++   "ad": "Opus hazır kıta 2409 1628",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_45524a44-1dca-4f28-ab46-63efdd17d063",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 79589,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_47d7ee4a-15e6-458f-9f33-b8ad1fa1077d": {
+    "ad": "EKOKUMA-SIMGE-0070 · ek okuma simgesi (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -2980,6 +3189,48 @@
+    },
+    "olcum_zamani": "2026-09-18 22:08"
+   },
++  "local_5459f0fe-74d5-4f0d-b058-ad9daaab5e70": {
++   "ad": "Opus hazır kıta 2409 1623",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_5459f0fe-74d5-4f0d-b058-ad9daaab5e70",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 80307,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 8,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 8 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
++  "local_54ba2a41-e700-4643-8f40-b4a1de0ff6df": {
++   "ad": "Opus hazır kıta 2409 1633",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_54ba2a41-e700-4643-8f40-b4a1de0ff6df",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 78613,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 79 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_55f9e251-a9ee-4ee9-809e-80895deb6350": {
+    "ad": "MOTOR 2",
+    "calisiyor": false,
+@@ -3433,6 +3684,68 @@
+     "RENK DENİZ"
+    ]
+   },
++  "local_5ca43c31-0b1c-4497-9d3b-2f9c324c8625": {
++   "ad": "SINIR-D-ASYA-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_5ca43c31-0b1c-4497-9d3b-2f9c324c8625",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:59",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242305529-z80b6h.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 205,
++     "dongu": false,
++     "kim": "SINIR-D-ASYA-0077",
++     "pid": 4868
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:59",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242305529-z80b6h.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
++     "dakika": 205,
++     "dongu": false,
++     "kim": "SINIR-D-ASYA-0077",
++     "pid": 7620
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:59",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim SINIR-D-ASYA-0077 --cik",
++     "dakika": 205,
++     "dongu": false,
++     "kim": "SINIR-D-ASYA-0077",
++     "pid": 18344
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:59",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242305529-z80b6h.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 205,
++     "dongu": false,
++     "kim": "SINIR-D-ASYA-0077",
++     "pid": 19536
++    }
++   ],
++   "olcum": {
++    "baglam": 319912,
++    "bosta_dk": 173,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 281,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 173 dk boşta, bağlam 320 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_5cedd3c4-f2a1-4195-a8f9-5c087e9bfffb": {
+    "ad": "Sonnet Hazır Kita 101",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -3629,6 +3942,68 @@
+     "RENK"
+    ]
+   },
++  "local_6193017f-d09a-400c-9fec-38c5219a9b57": {
++   "ad": "SINIR-D-AVRUPA-BATI-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_6193017f-d09a-400c-9fec-38c5219a9b57",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:55",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim SINIR-D-AVRUPA-BATI-0077 --cik",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-BATI-0077",
++     "pid": 1312
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:55",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242250585-8bstar.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-BATI-0077",
++     "pid": 1368
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:55",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242250585-8bstar.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-BATI-0077",
++     "pid": 11976
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:55",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242250585-8bstar.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-BATI-0077",
++     "pid": 17820
++    }
++   ],
++   "olcum": {
++    "baglam": 221554,
++    "bosta_dk": 164,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 178,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 164 dk boşta, bağlam 222 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_627bafa4-cce3-466e-8027-d680a604c761": {
+    "ad": "GEMINI-DOGRULA · Gemini taslak doğrulama (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -3666,6 +4041,27 @@
+     "ÇAPRAZ BATI"
+    ]
+   },
++  "local_63aae488-aa34-4cfe-9dc9-82f67a5cde3a": {
++   "ad": "TK İsviçre Avusturya Macaristan 1923 sınırları",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_63aae488-aa34-4cfe-9dc9-82f67a5cde3a",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 206296,
++    "bosta_dk": 861,
++    "hukum": "🟡 SESSİZ",
++    "istek": 202,
++    "rol": "isci",
++    "sebep": "14.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 206 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_63ad2174-f653-4332-86b3-7fae798cf28d": {
+    "ad": "D-KAYNAK · eksik kronoloji (Afrika-Amerika) (Sonnet)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -3926,6 +4322,27 @@
+    },
+    "olcum_zamani": "2026-09-13 02:33"
+   },
++  "local_68bd1d7f-e7f4-4083-abc8-fab2c56f3252": {
++   "ad": "SINIR-CIZGI-0076",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_68bd1d7f-e7f4-4083-abc8-fab2c56f3252",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 366958,
++    "bosta_dk": 1951,
++    "hukum": "🟡 SESSİZ",
++    "istek": 293,
++    "rol": "isci",
++    "sebep": "32.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 367 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_695200e0-9040-42fa-b8ca-a816459e5434": {
+    "ad": "1.MURAT HÜDAVENDİGAR (koordinatör)",
+    "canli": "gorulmedi",
+@@ -3957,6 +4374,27 @@
+    },
+    "olcum_zamani": "2026-09-22 15:39"
+   },
++  "local_6a33cf60-4d91-4725-a29d-0b41ae167b6d": {
++   "ad": "Opus hazır kıta 2409 1631",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_6a33cf60-4d91-4725-a29d-0b41ae167b6d",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 78590,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 79 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_6aae0aae-99c8-4451-bfcb-86cd5e80b2c6": {
+    "ad": "D-GEOARAC · antlaşma haritası verisi + ek okuma denetimi (Sonnet)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -3978,6 +4416,27 @@
+    },
+    "olcum_zamani": "2026-09-19 02:00"
+   },
++  "local_6b1b2304-7e4a-4023-a586-b5c0d042d72c": {
++   "ad": "TK Hatay sınırı 1923 haritası düzeltme",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_6b1b2304-7e4a-4023-a586-b5c0d042d72c",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 132201,
++    "bosta_dk": 861,
++    "hukum": "🟡 SESSİZ",
++    "istek": 70,
++    "rol": "isci",
++    "sebep": "14.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 132 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_6b91260f-e712-488b-abd1-a57002b7e730": {
+    "ad": "EKO-ILGI-0073 · kart ↔ madde ilgisi + kategori (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -4467,6 +4926,27 @@
+    },
+    "olcum_zamani": "2026-09-22 15:39"
+   },
++  "local_77676615-4c37-4669-a8cd-424e52a50183": {
++   "ad": "SINIR-D-AMERIKA-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_77676615-4c37-4669-a8cd-424e52a50183",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 257096,
++    "bosta_dk": 176,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 158,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 176 dk boşta, bağlam 257 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_77779bd8-a2cc-4f87-822b-15223531a786": {
+    "ad": "Sonnet hazır kıta 1014",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -4488,6 +4968,27 @@
+    },
+    "olcum_zamani": "2026-09-21 01:59"
+   },
++  "local_7783a90f-00c1-4748-9c33-27675fa00555": {
++   "ad": "Opus hazır kıta 2409 1625",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_7783a90f-00c1-4748-9c33-27675fa00555",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 80541,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 8,
++    "rol": "isci",
++    "sebep": "bağlam 81 K · 8 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_77cadea3-c493-457c-b08b-a2cee64fe9fc": {
+    "ad": "HAZIR KITA — kimliksiz oturum (d602)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -4576,7 +5077,49 @@
+     "sebep": "47.9 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 155 K",
+     "z": "2026-09-13 02:33"
+    },
+-   "olcum_zamani": "2026-09-13 02:33"
++   "olcum_zamani": "2026-09-13 02:33"
++  },
++  "local_7ce97995-c0e5-4553-a43c-fb6e2c5609d1": {
++   "ad": "TK Avrupa ülke sınırları ve renklendirme",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_7ce97995-c0e5-4553-a43c-fb6e2c5609d1",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 180169,
++    "bosta_dk": 919,
++    "hukum": "🟡 SESSİZ",
++    "istek": 170,
++    "rol": "isci",
++    "sebep": "15.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 180 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
++  "local_7e5303b1-fe1a-4443-abb8-3a031a69d753": {
++   "ad": "Opus hazır kıta 2409 1622",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_7e5303b1-fe1a-4443-abb8-3a031a69d753",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 80344,
++    "bosta_dk": 1,
++    "hukum": "✅ çalışıyor",
++    "istek": 9,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 9 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
+   },
+   "local_7eb6a7b2-a2fd-4812-8470-a7165dc934a6": {
+    "ad": "UI-BUTON-0074 · oto/D-C butonları + iç not sızıntısı (Opus)",
+@@ -4599,6 +5142,68 @@
+    },
+    "olcum_zamani": "2026-09-22 15:39"
+   },
++  "local_7f2166c4-ebb3-4d6e-a0fc-4713f503c8aa": {
++   "ad": "SINIR-D-AVRUPA-ORTA-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_7f2166c4-ebb3-4d6e-a0fc-4713f503c8aa",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:54",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\python.exe arac/tahta_bekci.py --kim SINIR-D-AVRUPA-ORTA-0077 --cik",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-ORTA-0077",
++     "pid": 2944
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:54",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242296515-y62mnh.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-ORTA-0077",
++     "pid": 3280
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:54",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242296515-y62mnh.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-ORTA-0077",
++     "pid": 8700
++    },
++    {
++     "ad": "tahta bekçisi",
++     "baslangic": "2026-09-24 12:54",
++     "betik": "tahta_bekci.py",
++     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1790242296515-y62mnh.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
++     "dakika": 210,
++     "dongu": false,
++     "kim": "SINIR-D-AVRUPA-ORTA-0077",
++     "pid": 12652
++    }
++   ],
++   "olcum": {
++    "baglam": 268309,
++    "bosta_dk": 172,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 229,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 172 dk boşta, bağlam 268 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_7f777a38-b979-41db-a229-c2a63f433c5a": {
+    "acilis": "2026-09-22 14:01",
+    "ad": "OPUS HAZIR KITA 106",
+@@ -4629,6 +5234,27 @@
+    },
+    "olcum_zamani": "2026-09-21 01:39"
+   },
++  "local_8125bfe0-f522-40bb-9857-529355b47280": {
++   "ad": "TK Bulgaristan 1923 sınırları renklendirmesi",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_8125bfe0-f522-40bb-9857-529355b47280",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 107333,
++    "bosta_dk": 919,
++    "hukum": "🟡 SESSİZ",
++    "istek": 46,
++    "rol": "isci",
++    "sebep": "15.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 107 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_81612e0f-ad14-426e-96cf-5496d9f610a3": {
+    "ad": "SENUSI-NOKTA · Senûsî künyesi + Lugoş/Orşova (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -4692,6 +5318,27 @@
+    },
+    "olcum_zamani": "2026-09-13 02:33"
+   },
++  "local_859e85b3-c7ee-4072-b9be-e1da7b0cd1c7": {
++   "ad": "Opus hazır kıta 2409 1626",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_859e85b3-c7ee-4072-b9be-e1da7b0cd1c7",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 80263,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 7,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 7 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_87479e93-4a30-41fb-975e-c3d05bd09c96": {
+    "ad": "TİMUR SEFERLERİ (eski: OPUS HAZIR KITA 52)",
+    "canli": "gorulmedi",
+@@ -4740,6 +5387,27 @@
+    },
+    "olcum_zamani": "2026-09-21 01:39"
+   },
++  "local_89330249-0d77-4229-91e3-ca511898662a": {
++   "ad": "Opus hazır kıta 2409 1627",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_89330249-0d77-4229-91e3-ca511898662a",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 80021,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 10,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 10 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_8aae7ac2-1d69-49dd-8bf7-5908724bae6c": {
+    "acilis": "2026-09-04 10:24",
+    "ad": "KRONOLOJİ AFRİKA GÖVDE",
+@@ -5358,6 +6026,27 @@
+    },
+    "olcum_zamani": "2026-09-15 03:51"
+   },
++  "local_96607425-2f23-4f34-828e-ff7352951495": {
++   "ad": "OPUS HAZIR KITA 2309 0061 /kita",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_96607425-2f23-4f34-828e-ff7352951495",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 342576,
++    "bosta_dk": 1283,
++    "hukum": "🟡 SESSİZ",
++    "istek": 199,
++    "rol": "isci",
++    "sebep": "21.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 343 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_96a96086-03c6-4125-bc37-aa297d33b594": {
+    "ad": "KUNYE-DORT · dört künye düzeltmesi (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -5525,6 +6214,27 @@
+     "UI ELEMENT INSPECTOR"
+    ]
+   },
++  "local_9abd006c-e0a0-40e2-8be2-6caea9083e52": {
++   "ad": "HARITA-0076",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_9abd006c-e0a0-40e2-8be2-6caea9083e52",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 319405,
++    "bosta_dk": 1283,
++    "hukum": "🟡 SESSİZ",
++    "istek": 265,
++    "rol": "isci",
++    "sebep": "21.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 319 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_9b475df9-952e-4b71-b468-8520fc5c66f7": {
+    "ad": "KRONOLOJİ AFRİKA GÖVDE",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -5604,6 +6314,27 @@
+    },
+    "olcum_zamani": "2026-09-20 22:19"
+   },
++  "local_9bf0600b-01c6-4707-8f14-51220dee1b68": {
++   "ad": "Opus hazır kıta 2409 1624",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_9bf0600b-01c6-4707-8f14-51220dee1b68",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 80306,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 8,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 8 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_9cdff124-0a1f-40db-8a66-8aee5daccdec": {
+    "ad": "PROJEKSİYON",
+    "calisiyor": false,
+@@ -5804,6 +6535,27 @@
+    },
+    "olcum_zamani": "2026-09-21 01:39"
+   },
++  "local_9f9bec2c-56ec-4a2f-8da9-3a650766ff57": {
++   "ad": "KRONO-0076-C",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_9f9bec2c-56ec-4a2f-8da9-3a650766ff57",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 297647,
++    "bosta_dk": 2303,
++    "hukum": "🟡 SESSİZ",
++    "istek": 176,
++    "rol": "isci",
++    "sebep": "38.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 298 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_9fe0f2ff-f08d-4b0d-80dc-09b5b3a68821": {
+    "ad": "Osmanlı Tarih Atlası hazır kita",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -5994,6 +6746,27 @@
+    },
+    "olcum_zamani": "2026-09-19 02:52"
+   },
++  "local_a3db6eb7-75dc-4685-9e36-558baeb7fc9f": {
++   "ad": "SINIR-D-OKYANUSYA-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_a3db6eb7-75dc-4685-9e36-558baeb7fc9f",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 252395,
++    "bosta_dk": 176,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 178,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 176 dk boşta, bağlam 252 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_a4365633-ea58-40cd-ab89-113414e8c057": {
+    "ad": "NOKTA-ORTADOGU · 1b boşlukları (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -6092,6 +6865,27 @@
+     "ÖLÇÜM GEOMETRİ"
+    ]
+   },
++  "local_a651e303-59a9-4c60-848b-4282ab09e7a3": {
++   "ad": "Opus hazır kıta 2409 1630",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_a651e303-59a9-4c60-848b-4282ab09e7a3",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 78597,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 79 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_a6ba9533-f4c9-425c-8896-97862b727773": {
+    "ad": "PAKET  0019 TASNİF",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -7828,6 +8622,69 @@
+    },
+    "olcum_zamani": "2026-09-18 16:16"
+   },
++  "local_d4a17d10-c6c6-41f2-89ae-2040a149a521": {
++   "ad": "OPUS HAZIR KITA 2309 0058 /kita",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_d4a17d10-c6c6-41f2-89ae-2040a149a521",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 87078,
++    "bosta_dk": 1283,
++    "hukum": "🟡 SESSİZ",
++    "istek": 27,
++    "rol": "isci",
++    "sebep": "21.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 87 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
++  "local_d4a54f7a-62ab-479f-8145-4fb05090aef9": {
++   "ad": "KRONO-0076-A",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_d4a54f7a-62ab-479f-8145-4fb05090aef9",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 303706,
++    "bosta_dk": 1283,
++    "hukum": "🟡 SESSİZ",
++    "istek": 196,
++    "rol": "isci",
++    "sebep": "21.4 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 304 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
++  "local_d5a474ef-4312-40bc-af76-41297f4cb6d1": {
++   "ad": "SINIR-D-KOMSU-0077",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_d5a474ef-4312-40bc-af76-41297f4cb6d1",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 305810,
++    "bosta_dk": 176,
++    "hukum": "🟡 İŞ BÖLÜNMELİ",
++    "istek": 274,
++    "rol": "isci",
++    "sebep": "iş bitmedi, 176 dk boşta, bağlam 306 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_d5ec8115-3cd2-45c1-ab5e-5a8299bd3e37": {
+    "ad": "EKO-BOLGE-0073 · Mısır · Sudan · Hürmüz (Opus)",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -8297,6 +9154,27 @@
+    },
+    "olcum_zamani": "2026-09-05 01:12"
+   },
++  "local_e312658e-9def-4d4b-8960-c66aef007780": {
++   "ad": "Opus hazır kıta 2409 1629",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_e312658e-9def-4d4b-8960-c66aef007780",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 79523,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_e31ac3a3-104f-46d6-8ada-400fd2051095": {
+    "acilis": "2026-09-22 14:01",
+    "ad": "HABSBURG KRONOLOJI",
+@@ -8357,6 +9235,27 @@
+    },
+    "olcum_zamani": "2026-09-04 23:55"
+   },
++  "local_e4441af9-80c1-4864-9c59-e4c712956596": {
++   "ad": "TK sitesi ilk yükleme hızı",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_e4441af9-80c1-4864-9c59-e4c712956596",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 84117,
++    "bosta_dk": 997,
++    "hukum": "🟡 SESSİZ",
++    "istek": 15,
++    "rol": "isci",
++    "sebep": "16.6 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 84 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_e47331da-b32b-49d4-a477-10ecf3df2562": {
+    "ad": "Osmanlı Tarih Atlası hazır kita",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -8432,6 +9331,48 @@
+    },
+    "olcum_zamani": "2026-09-16 18:25"
+   },
++  "local_e6514683-6382-4c7b-86f7-cbab65eba9d9": {
++   "ad": "EKOKUMA-0076-B",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "BOSTA",
++   "kimlik": "local_e6514683-6382-4c7b-86f7-cbab65eba9d9",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 525656,
++    "bosta_dk": 1951,
++    "hukum": "🟡 SESSİZ",
++    "istek": 278,
++    "rol": "isci",
++    "sebep": "32.5 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 526 K",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
++  "local_e9f837fe-f9f4-47f6-bb18-afc0aab680f5": {
++   "ad": "Opus hazır kıta 2409 1634",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_e9f837fe-f9f4-47f6-bb18-afc0aab680f5",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 79594,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 80 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
++  },
+   "local_ec2dabdb-42c2-4d3a-9b45-fb0d24b5baa7": {
+    "ad": "KUNYE-BORC-0920 · sessiz borç + künyesiz kimlikler",
+    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+@@ -9028,6 +9969,27 @@
+     "z": "2026-09-22 15:39"
+    },
+    "olcum_zamani": "2026-09-22 15:39"
++  },
++  "local_ffd3697b-f7de-40d8-b2ce-ea6a5bd388b9": {
++   "ad": "Opus hazır kıta 2409 1632",
++   "dizin": "C:\\atlas",
++   "gecmis": [],
++   "gorev": "",
++   "hal": "CALISIYORUM",
++   "kimlik": "local_ffd3697b-f7de-40d8-b2ce-ea6a5bd388b9",
++   "kova": "gorevde",
++   "model": "?",
++   "nobetciler": [],
++   "olcum": {
++    "baglam": 78630,
++    "bosta_dk": 0,
++    "hukum": "✅ çalışıyor",
++    "istek": 5,
++    "rol": "isci",
++    "sebep": "bağlam 79 K · 5 istek",
++    "z": "2026-09-24 16:25"
++   },
++   "olcum_zamani": "2026-09-24 16:25"
+   }
+  }
+ }
+\ No newline at end of file
+diff --git a/oturumlar/tahta.json b/oturumlar/tahta.json
+index ad02f9bf..601fe07b 100644
+--- a/oturumlar/tahta.json
++++ b/oturumlar/tahta.json
+@@ -158451,5 +158451,23 @@
+   "kapanis": "",
+   "dayanak": "",
+   "aciliyet": "NORMAL"
++ },
++ {
++  "no": "M-5124",
++  "zaman": "2026-09-24 16:31",
++  "kimden": "OPUS HAZIR KITA 2409 1630",
++  "kime": "YILDIRIM BAYEZIT",
++  "kimden_kimlik": "",
++  "mesaj": "HAZIRIM · claude-opus-5-5 · görev bekliyorum",
++  "hal": "ACIK",
++  "cevap": "GEREKMEZ",
++  "vade": "",
++  "okuyan": {},
++  "yanit_no": "",
++  "cins": "BILGI",
++  "teyit": {},
++  "kapanis": "",
++  "dayanak": "",
++  "aciliyet": "NORMAL"
+  }
+ ]
+\ No newline at end of file

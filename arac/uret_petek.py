@@ -2064,6 +2064,10 @@ if MOTOR_YURUYUS:
         #    "Bedel > eşik" sorusu "bedel/eşik > 1" sorusuyla AYNIDIR ve
         #    contourpy tek skaler seviye alır. Eşik sıfır olamaz (bütçe
         #    her hâlde pozitif), bölme güvenli.
+        # 🆕 P84-UFUK-BANT-KOD-1006 — bölmeden ÖNCEKİ alan saklanır: bant
+        #    eşikleri (aşağıda) ÖZEL hücrede (çöl kelepçesi · BTB) SABİT kalmalı,
+        #    normalleştirilmiş alanın katı alınırsa çöl de büyür (§ bant döngüsü).
+        _yr_F_ham = _yr_F
         _yr_F = (_yr_F / _YR_ESIK).astype(_np.float32)
         _YR_BUTCE_KONTUR = 1.0
     _yr_km2 = ((KV_ADIM * 111.32) ** 2
@@ -2083,7 +2087,7 @@ if MOTOR_YURUYUS:
     _yr_ust = float(_yr_pF.max()) + 1.0
     _yr_T = int(round(YURUYUS_KARO / KV_ADIM))
 
-    def _yr_kontur(seviye):
+    def _yr_kontur(seviye, _alan=None):
         """Verilen seviyeden UZAK olan bölgenin poligonları.
 
         🔴 DÖNGÜ İŞLEVE ALINDI ki AYNI KOD birden çok seviyede koşabilsin —
@@ -2093,18 +2097,19 @@ if MOTOR_YURUYUS:
         farklı kural uygular ve bunu hiçbir denetim sormaz.
         (`_kv_dijkstra`nın işlev hâline getirilme gerekçesinin aynısı.)
         """
+        _pF, _ust = (_yr_pF, _yr_ust) if _alan is None else _alan
         _out = []
         for _j0 in range(0, _kvny + 1, _yr_T):
             _j1 = min(_j0 + _yr_T, _kvny + 1)
             for _i0 in range(0, _kvnx + 1, _yr_T):
                 _i1 = min(_i0 + _yr_T, _kvnx + 1)
-                _sub = _yr_pF[_j0:_j1 + 1, _i0:_i1 + 1]
+                _sub = _pF[_j0:_j1 + 1, _i0:_i1 + 1]
                 if float(_sub.max()) <= seviye:
                     continue
                 _gen = _cp.contour_generator(_yr_px[_i0:_i1 + 1],
                                              _yr_py[_j0:_j1 + 1], _sub,
                                              fill_type=_cp.FillType.OuterOffset)
-                _pl, _ol = _gen.filled(seviye, _yr_ust)
+                _pl, _ol = _gen.filled(seviye, _ust)
                 for _pts, _ofs in zip(_pl, _ol):
                     _hl = [_pts[_ofs[_k]:_ofs[_k + 1]] for _k in range(len(_ofs) - 1)]
                     _hl = [_h for _h in _hl if len(_h) >= 4]
@@ -2160,16 +2165,36 @@ if MOTOR_YURUYUS:
             if abs(_bs - YURUYUS_SAAT) < 1e-9:
                 _YR_BANT_UZAK[_bs] = (_YR_UZAK, _YR_UZAK_AGAC)   # taban: yeniden hesaplama
                 continue
-            # Kelepçe açıkken alan zaten normalleştirilmiş; bant seviyesi de
-            # AYNI ölçekte olmalı, yoksa bant başka bir eşikten geçer.
-            _sv = (_bs / YURUYUS_SAAT) if _YR_ESIK is not None else (_bs * NEHIR_KM_SAAT)
-            _pl = _yr_kontur(_sv)
+            # 🔴 P84-UFUK-BANT-KOD-1006 (H-0020 ③④ · H-0002 ③) — ESKİ HÂL:
+            #    `_sv = _bs / YURUYUS_SAAT` NORMALLEŞTİRİLMİŞ alanın KATINI
+            #    alıyordu. Alan hücre başına `bedel / eşik` olduğu için kat ÖZEL
+            #    hücrenin eşiğini de büyütüyordu: çöl (eşik 56 sa) 7 günde
+            #    56×1,4 = 78,4 sa, 10 günde 56×2 = 112 sa oluyordu — Emre'nin
+            #    "çölün ufku 7 gün" kararı (UFUK-KELEPCE-0930 §2 seçenek a:
+            #    "kelepçe 7 günde SABİT") bantta ÇİĞNENİYORDU ve fazlayı yalnız
+            #    çöl tavanının 300 km diski saklıyordu. BTB hücresinde de `pay`
+            #    saçağı 1,4 / 2 katına çıkıyordu.
+            #    YENİ HÂL: genel hücrede eşik bandın kendisi (`_bs` saat), ÖZEL
+            #    hücrede (eşiği genel bütçeden farklı olan) eşik SABİT.
+            #    ⇒ çölde 5 = 7 = 10 (KARAR GEREĞİ, kusur değil — beyan edilir).
+            #    Kelepçe/BTB kapalıyken `_YR_ESIK is None` ⇒ eski yol BİREBİR.
+            if _YR_ESIK is None:
+                _pl = _yr_kontur(_bs * NEHIR_KM_SAAT)
+            else:
+                _ozel = _YR_ESIK != _np.float32(_YR_BUTCE)
+                _esik_b = _np.where(_ozel, _YR_ESIK,
+                                    _np.float32(_bs * NEHIR_KM_SAAT)).astype(_np.float32)
+                _pFb = _np.pad((_yr_F_ham / _esik_b).astype(_np.float32), 1, mode="edge")
+                _pl = _yr_kontur(1.0, (_pFb, float(_pFb.max()) + 1.0))
+                del _pFb, _esik_b, _ozel
             _YR_BANT_UZAK[_bs] = (_pl, STRtree(_pl))
         print(f"  Ⓑ ufuk bantları: {', '.join('%g sa' % b for b in sorted(_YR_BANT_UZAK))}"
               f" · kontur parçaları "
               f"{', '.join(str(len(_YR_BANT_UZAK[b][0])) for b in sorted(_YR_BANT_UZAK))}"
               f" · {time.time() - _bt:.1f} sn")
     del _yr_u, _yr_F, _yr_pF, _yr_Kf, _yr_R, _yr_U
+    if _YR_ESIK is not None:
+        del _yr_F_ham
 
 
 def _yr_yerel_dijkstra(kaynak, izinli, tavan):
@@ -2882,7 +2907,7 @@ EPOK = "1281-01-01"
 # ayrı simplify + dışa taşırma hilesi kaldırıldı — gerek kalmadı.
 SADE_TOL = 0.012
 
-def kapat(g, yaricap=0.15):
+def kapat(g, yaricap=0.15, engel=None):
     """Morfolojik kapama: aralarında yaricap*2'den (≈33 km) daha az boşluk olan
     ayrı parçaları birleştirir. Aynı çekirdek beyliğin parçası olan komşu
     petekler, aralarına giren ince 'henüz o an aktif olmayan komşu' şeridi
@@ -2892,10 +2917,54 @@ def kapat(g, yaricap=0.15):
     kesişim alınacağından geçici deniz taşkını da temizlenir.
     Topoloji notu: mitre birleşim, buffer'ın yay örneklemesiyle kenara nokta
     eklemesini önler; sonuç orijinalle BİRLEŞTİRİLİR ki gidip-gelen buffer'ın
-    sayısal aşındırması ortak kenarı bir mikron bile oynatamasın (boşluk kaynağı)."""
+    sayısal aşındırması ortak kenarı bir mikron bile oynatamasın (boşluk kaynağı).
+
+    engel  🔴 PAKET-0083-B (H-0008 · H-0009, 5 Ekim 2026): O GÜN BAŞKA BİR
+           DEVLETE ait yerleşimlerin indeks kümesi. Kapamanın EKLEDİĞİ bir
+           bileşen böyle bir yerleşimin noktasını içeriyorsa o bileşen
+           eklenmez. Gerekçe ölçüldü: 0,15° kapama ≈33 km'den dar her deliği
+           ve girintiyi kapatıyordu ve bu, `delikleri_doldur`ın B1 ikinci
+           yasağından ÖNCE koştuğu için yasak hiç devreye girmiyordu —
+           Harmankaya (1299-1313, 118-167 km²) · Bursa (1305-1326, 282-422
+           km²) · İznik (1323-1331, 369 km²) Bizans adaları/çıkıntıları
+           Osmanlı gövdesine %97-100 yutuldu; iki gövde aynı toprağı kapladı
+           ve yumuşak kipte (varsayılan) alfa harmanı "iki katman" gösterdi.
+           ⚠️ Ölçüt BİLEREK DAR: B1'den farklı olarak "sahibi olmayan" ya da
+           "henüz kurulmamış" nokta ENGEL DEĞİLDİR — bu işlevin varlık
+           sebebi tam o şeridi köprülemek (yukarıdaki İnegöl 1299 vakası).
+           `None` ⇒ eski davranış bit-bit aynı."""
     if g.is_empty: return g
     k = temiz(g.buffer(yaricap, join_style=2, mitre_limit=2.0)).buffer(-yaricap, join_style=2, mitre_limit=2.0)
-    return unary_union([temiz(k), g])
+    k = temiz(k)
+    if engel and _TUM_AGAC is not None:
+        ek = temiz(k.difference(g))
+        at = []
+        for c in (list(ek.geoms) if ek.geom_type in ("MultiPolygon", "GeometryCollection") else [ek]):
+            if c.is_empty or c.area <= 0:
+                continue
+            yab = [int(q) for q in _TUM_AGAC.query(c)
+                   if int(q) in engel and c.contains(noktalar[int(q)])]
+            if yab:
+                at.append(c)
+                _B1_SAYAC["kapat_engel"] += 1
+                _B1_SAYAC["kapat_engel_ad"].add(YERLER[yab[0]]["ad"])
+        if at:
+            k = temiz(k.difference(unary_union(at)))
+    return unary_union([k, g])
+
+
+_SAHIPLI_EZBER = {}
+
+
+def _kapat_engel(aktif, a):
+    """`a` gününde YAZILI bir sahibi olan (s/d/v) ama `aktif`te OLMAYAN yerleşimler
+    ⇒ kapama bunların bulunduğu bileşeni yutamaz. Gün başına ezberli."""
+    s = _SAHIPLI_EZBER.get(a)
+    if s is None:
+        s = frozenset(j for j, y in enumerate(YERLER) if _sahipli(y, a))
+        _SAHIPLI_EZBER[a] = s
+    aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
+    return s - aks
 
 def poligonal(g):
     """intersection/difference çıktısı geçerli ama karışık bir GeometryCollection
@@ -2966,7 +3035,10 @@ _TUM_AGAC = STRtree(noktalar) if noktalar else None
 _ONB_KIM = [f"{y['lon']!r},{y['lat']!r};".encode("ascii") for y in YERLER]
 _ONB_KB = [1 if y.get("kasitli_bosluk") else 0 for y in YERLER]
 _ONB_BOS = [1 if y.get("bos") else 0 for y in YERLER]
-_B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set()}
+# `kapat_engel*` — PAKET-0083-B: kapamanın yutmadığı bileşen sayısı/adları. Bu
+# sözlükte durur ki süreç işçilerinden toplanırken (`_sr_sayac_al`) KAYBOLMASIN.
+_B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set(),
+             "kapat_engel": 0, "kapat_engel_ad": set()}
 
 
 def delikleri_doldur(g, muaf=True, sahip_ix=None):
@@ -4080,7 +4152,7 @@ if len(_kvdegisen) > 20:
 # 📌 ONCELIK.md K4'un yeni bir yuzu: OLCMEDEN VERILEN ONERI DE UC TUR DEMEK.
 #   Uygulansaydi ek17/ek18 gibi `bolge` dolgusu bol ama kiyisi sifir
 #   partiler yanlislikla ceza alirdi.
-BOZUK_KIYI_TABAN = 58
+BOZUK_KIYI_TABAN = 22
 
 # 🔴 NÖBETÇİ BURADA — ÇÖL TAVANINDAN ÖNCE. Bu çağrı, taban 32'yi üreten r217
 # koşusuyla AYNI ölçümdür (kıyı kesimi + ada kuralı + kara-kısıtlı sahiplik
@@ -4655,8 +4727,16 @@ else:
 # ZAMAN DİLİMLİ VORONOI'YE GEREK YOK. Diyagramı 441 kırılma için yeniden
 # hesaplamak pahalı ve gereksiz; ADA KURALI'nın kullandığı makine yeterli:
 # kurulmamış peteğin payı, o tarihte SAHNEDE OLAN en yakın komşuya devredilir.
-# Varlık kümesi yalnız kur:/bit: günlerinde değiştiği için sonuç önbelleklenir —
-# 917 nokta içinde 34 kur: + 3 bit: var, yani en çok ~37 ayrı epok.
+# Varlık kümesi yalnız kur:/bit: günlerinde değiştiği için sonuç önbelleklenir.
+# 🔴 SAYILAR BAYATLADI (YAMA-MOTOR-0930, 30 Eylül 2026). Bu satır ilk yazıldığında
+#   "917 nokta içinde 34 kur: + 3 bit: var, yani en çok ~37 ayrı epok" diyordu.
+#   Bugün (girdi.yukle() evreni, `denetim/ARAC-YAMA-MOTOR-0930-EPOK.py`):
+#     4296 nokta · 1669 kur: (744 farklı gün) · 19 bit: (17 farklı gün)
+#     ⇒ en çok 752 ayrı sınır günü — eski yorumun ~20 katı.
+#   Bedeli kosu18.log:1467'de ölçülü: `varlık devri (petek_epok)` 236 çağrı ·
+#   54 dk 33 sn = koşunun %21,9'u. Doğruluk etkilenmez (devir kuralı epok
+#   sayısından bağımsız), etkilenen SÜREdir. ⚠️ Sayıyı buraya yeniden elle
+#   yazmak onu yeniden bayatlatır; güncelini EPOK betiği verir.
 #
 # ⚠️ EN ÖNEMLİ KISIT: devir YALNIZ YANLIŞ BOYANAN peteklere uygulanır.
 # Ölçüt "kurulmamış" değil, "kurulmamış VE o tarihte bir sahibi yazılı".
@@ -5731,6 +5811,45 @@ def mp_koord(g):
         if halkalar: out.append(halkalar)
     return out
 
+
+def v_parcalar(g):
+    """`mp_koord`un parça SÜZGECİYLE aynı (area ≥ 0.0002): `kayit["v"]`nin parçalarıyla BİRE BİR hizalı
+    shapely poligon listesi. (`vk` yaması: parça başına kimlik emitmek için geometri gerekir; mp_koord
+    yalnız koordinat döndürür.)"""
+    if g.is_empty: return []
+    if isinstance(g, Polygon): g = MultiPolygon([g])
+    return [p for p in g.geoms if p.area >= 0.0002]
+
+
+def v_kid_ata(parcalar, tabi_kid):
+    """Tâbi gövdenin HER PARÇASINA kimlik ata. `parcalar`: v_parcalar çıktısı; `tabi_kid`: [(kid, petek_geometrisi)]
+    (yalnız `v:` dönemi `kid` taşıyan petekler). Parçayı en çok ALAN kesen kimlik kazanır; eşitlikte
+    alfabetik (belirlenimli). Hiçbir kimlikli petekle kesişmeyen parça (ekleyici kapının doldurduğu arazi,
+    kidsiz `v:` dönemi) "" alır — SESSİZCE bir komşunun kimliğini almaz."""
+    from shapely import STRtree
+    import re as _re
+    # 🔴 KİMLİK SÖZDİZİMİ KISITI [a-z0-9-] (LAB/UMIT okuyucu sınavı, 4 Ekim 2026): bare-anahtar tırnaklayan okuyucular
+    #   (`uret_devirler.oku_pencere`, `_alan_kaybi_sinavi.olc`: `([{,]\s*)(\w+)\s*:`) dize İÇİNDEKİ `, y:` yi anahtar sanıp
+    #   JSON'u bozar ⇒ boru hattı koşuda ÇÖKER. Bugün 28 kid / 478 dönem HEPSİ uygun; uymayan kimlik dosyaya İNMEZ, koşu durur.
+    for _kid, _ in tabi_kid:
+        if not _re.fullmatch(r"[a-z0-9-]+", _kid):
+            raise RuntimeError("vk kimliği [a-z0-9-] dışında: %r — virgül/iki nokta içeren kimlik "
+                               "uret_devirler.oku_pencere'yi bozar" % (_kid,))
+    if not tabi_kid:
+        return ["" for _ in parcalar]
+    ag = STRtree([g for _, g in tabi_kid])
+    out = []
+    for p in parcalar:
+        agirlik = {}
+        for i in ag.query(p, predicate="intersects"):
+            kid, g = tabi_kid[int(i)]
+            al = p.intersection(g).area
+            if al > 0:
+                agirlik[kid] = agirlik.get(kid, 0.0) + al
+        out.append(min(agirlik.items(), key=lambda kv: (-kv[1], kv[0]))[0] if agirlik else "")
+    return out
+
+
 # ---------------- Bölge (2. kademe merkez) toplu sınırları ----------------
 # Kural 6: her k3/k4 yerleşim en yakın k1/k2 merkeze bağlıdır; merkez, üyelerinin
 # peteklerini toplayan daha büyük bir bölge sınırına sahiptir → data/bolgeler.js
@@ -6668,7 +6787,8 @@ def _yabanci_govde_hesap(did, aktif, a, sira):
     Döner: (g, kesilen_km2, tamamen_bosaldi)."""
     g = unary_union([petek_epok(a)[j] for j in sira])
     # B1 ikinci yasagi: bu devletin OLMAYAN yerlesimini iceren halka DOLMAZ
-    g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+    # PAKET-0083-B: kapama da o gün başka devletin yerleşimini yutamaz
+    g = delikleri_doldur(kapat(g, engel=_kapat_engel(aktif, a)), sahip_ix=aktif)
     g = gosterim_duzelt(g, aktif)      # B2 enklav + B3 koridor
     # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
     # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
@@ -6698,7 +6818,7 @@ def _onb_ozet(g):
                        else shapely.to_wkb(g, output_dimension=2)).digest()
 
 
-def _onb_parca_anahtar(katman, gruplar, aktif, pe):
+def _onb_parca_anahtar(katman, gruplar, aktif, pe, engel=None):
     """Gövde türü hesapların (yabancı gövde · Osmanlı dönemi) önbellek anahtarı.
 
     Anahtar = tuz · KARA özeti · her parça GRUBU (yerleşim konumu + petek WKB,
@@ -6741,14 +6861,19 @@ def _onb_parca_anahtar(katman, gruplar, aktif, pe):
         R = max(hat + 0.15 + dmax, hat + 3.15, 0.45 * 4 + 0.15) + 0.5
         aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
         q = sorted(int(t) for t in _TUM_AGAC.query(box(x0 - R, y0 - R, x1 + R, y1 + R)))
-        cevre = b"".join(_ONB_KIM[t] + bytes((_ONB_KB[t], _ONB_BOS[t], 1 if t in aks else 0))
+        # PAKET-0083-B: `kapat` artık komşunun O GÜNKÜ sahipliğini okuyor
+        # (`engel`) ⇒ o bilgi anahtara girmezse önbellek BAYAT gövde döner.
+        eng = engel or ()
+        cevre = b"".join(_ONB_KIM[t] + bytes((_ONB_KB[t], _ONB_BOS[t], 1 if t in aks else 0,
+                                              1 if t in eng else 0))
                          for t in q)
     return _ONB_GEO.anahtar(katman, _ONB_GOVDE_TUZ, cevre, *parca), siralar
 
 
 def _govde_anahtar(aktif, a):
     """Yabancı gövde önbelleğinin anahtarı + kanonik birleşim sırası."""
-    k, (sira,) = _onb_parca_anahtar("govde", [aktif], aktif, petek_epok(a))
+    k, (sira,) = _onb_parca_anahtar("govde", [aktif], aktif, petek_epok(a),
+                                    engel=_kapat_engel(aktif, a))
     return k, sira
 
 
@@ -7054,7 +7179,7 @@ elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
             if not aktif: continue
             _t_gv = time.time()
             g = unary_union([petek_epok(a)[j] for j in aktif])
-            g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+            g = delikleri_doldur(kapat(g, engel=_kapat_engel(aktif, a)), sahip_ix=aktif)
             g = gosterim_duzelt(g, aktif)
             g = poligonal(g.intersection(KARA))
             if not PUAN_KAPALI and not g.is_empty:
@@ -7345,15 +7470,18 @@ def himaye_govdeleri(gruplar, pe, tabi, gt, kodla, sayac=None):
     return out
 
 
-def _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t):
+def _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t, engel=None):
     """Osmanlı döneminin doğrudan (g) ve tâbi (gt) gövdesi — M-4537'de işleve
     alındı, gövdesi AYNI; yalnız birleşim sırası `_sira_*`dan gelir (önbellek
-    kapalıyken özgün frozenset sırası). Döner: (g, gt)."""
+    kapalıyken özgün frozenset sırası). Döner: (g, gt).
+    engel — PAKET-0083-B: o gün başka devletin yerleşimleri (bkz. `kapat`)."""
     _gt_ham = None
     if tabi:
-        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_t])),
+        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_t]),
+                                                   engel=engel),
                                              sahip_ix=aktif).intersection(KARA))
-    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_d])),
+    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_d]),
+                                              engel=engel),
                                         sahip_ix=aktif).intersection(KARA))
 
     # Osmanlı dünyası TEK gövde olarak düzeltilir; Eflak artık "enklav" değil,
@@ -7523,15 +7651,17 @@ for i in range(len(tarihler) - 1):
     #   YANLIŞ EVRENDE çalışıyordu. Bu projede ölçülmüş bir sınıf.
     # 🧱 ÖNBELLEK (M-4537): anahtar = doğrudan + tâbi parçaları + çevre
     # (`_onb_parca_anahtar`). Değer (g, gt) geometri olarak saklanır (pickle WKB).
+    _engel = _kapat_engel(aktif, a)          # PAKET-0083-B — anahtara da GİRER
     if _ONB.acik:
-        _ok, (_sira_d, _sira_t) = _onb_parca_anahtar("osm", [dogrudan, tabi], aktif, _pe)
+        _ok, (_sira_d, _sira_t) = _onb_parca_anahtar("osm", [dogrudan, tabi], aktif, _pe,
+                                                     engel=_engel)
         _ovar, _ov = _ONB_GEO.oku("osm", _ok)
     else:
         _ok, _sira_d, _sira_t, _ovar, _ov = None, dogrudan, tabi, False, None
     if _ovar:
         g, gt = _ov
     else:
-        g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t)
+        g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t, engel=_engel)
         if _ok:
             _ONB_GEO.yaz("osm", _ok, (g, gt))
     kaplam = unary_union([g, gt]) if gt is not None else g
@@ -7597,6 +7727,30 @@ for i in range(len(tarihler) - 1):
                             "p": [round(_rp.x, 4), round(_rp.y, 4)]})
             if _vl:
                 kayit["vl"] = _vl
+        # ── TÂBİ PARÇA KİMLİKLERİ (`vk`) — MOTOR-V-KID-1004 (LAB ölçümü, 4 Ekim 2026)
+        # 🔴 NİÇİN: `kayit["v"]` parça İNDEKSLERİ taşır, KİMLİK taşımaz (10.258 öğe, hepsi int) ve `vl` etiket
+        #   çapasıdır: parçaların %68'i etikete bağlanamıyor ⇒ bu çıktıyla `Değişmez 8`e `v:` kolu YAZILAMAZ
+        #   (v: ile boyanan 556 dönem / 416 yerleşimde taraf olarak görülen v: noktası 0/556).
+        # ŞEMA: `d.vk` = `d.v` ile AYNI UZUNLUK ve SIRADA kimlik listesi (str; kimliği bilinmeyen parça "").
+        #   YALNIZ `v:` döneminin `kid`i (etiket `k` DEĞİL). KISIT: kimlik [a-z0-9-]+ (aksi RuntimeError). Hiçbir parça kimlik taşımıyorsa anahtar YAZILMAZ
+        #   (`vl`/`h` ile aynı kural); `|| []` ile okunmalıdır. Eşit uzunluk ihlali SESSİZ DEĞİL: koşu DURUR.
+        # ⚠️ Geometri BÖLÜNMEZ ve `v`/`vl` DEĞİŞMEZ: yalnız ek bir paralel liste.
+        _vkid = []
+        for _j in tabi:
+            _dn = next((p for p in (YERLER[_j].get("v") or [])
+                        if p.get("f") and p.get("t") and p["f"] <= a < p["t"]), None)
+            if _dn is None or not _dn.get("kid"):
+                continue
+            _hu = _pe[_j]
+            if _hu is None or _hu.is_empty:
+                continue
+            _vkid.append((_dn["kid"], _hu))
+        _vk = v_kid_ata(v_parcalar(gt), _vkid)
+        if len(_vk) != len(kayit["v"]):
+            raise RuntimeError("vk uzunluğu v ile uyuşmuyor (%d ≠ %d) — mp_koord süzgeci v_parcalar'dan ayrıldı"
+                               % (len(_vk), len(kayit["v"])))
+        if any(_vk):
+            kayit["vk"] = _vk
         # ── 🆕 HİMAYE GÖVDELERİ (`h`) — şema app.js:183-193. Boşsa YAZILMAZ.
         if _him_grup:
             # Sayaç yalnız YENİ dönemde artar (uzatılan dönemde grup yeniden
@@ -7659,6 +7813,12 @@ if _KB_MUAF:
 else:
     print("  delik doldurma muafiyeti: 0 halka atlandı "
           "— BEKLENEN BU (ölçüldü 11 Ağu 2026, 7 kesitin 7'sinde 0)")
+# PAKET-0083-B — boş kova da BASILIR (yukarıdaki gerekçe). Öngörü (5 Eki 2026,
+# yama ÖNCESİ çıktıdan): en az Harmankaya · Bursa · İznik (Osmanlı gövdesi) adları
+# burada GÖRÜNMELİ; 0 çıkarsa yama çalışmıyor demektir, "temiz" DEĞİL.
+print(f"  kapama engeli (başka devletin yerleşimi): {_B1_SAYAC['kapat_engel']} bileşen "
+      f"YUTULMADI · {len(_B1_SAYAC['kapat_engel_ad'])} ad: "
+      f"{', '.join(sorted(_B1_SAYAC['kapat_engel_ad'])[:20])}")
 
 # Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
 # Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)
@@ -7862,22 +8022,48 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
     _bant_kayit = []
     for _bi, _bs in enumerate(_bant_sirali) if _BANT_AKTIF is not None else []:
         _onceki = _bant_sirali[_bi - 1] if _bi else None
-        _ad = ("<=%g" % (_bs / 8.0)) if _onceki is None else \
-              ("%g-%g" % (_onceki / 8.0, _bs / 8.0))
-        # ── PETEK BANDI: artış (iç içe DEĞİL) ───────────────────────────
+        # Bantlar artık İÇ İÇE (tam bölge) ⇒ ad da "5-7" değil "<=7" olmalı;
+        # eski ad halka anlamı taşıyordu ve arayüz lejantı onu okuyor.
+        _ad = "<=%g" % (_bs / 8.0)
+        # ── PETEK BANDI: TAM BÖLGE (iç içe) ─────────────────────────────
+        # 🔴 5 EKİM 2026 — EMRE'NİN H-0013 ŞİKÂYETİ, ve bu bir çizim kusuru DEĞİL
+        #    TASARIM DEĞİŞİKLİĞİ: *"5 günlük bölge yerine 7 seçince olması gereken,
+        #    sanki 7 demişiz gibi parametresi 7 olan sürtünmeli yürüyüşün bölgeleri
+        #    renklendirilecek ve bölgelendirilecek."*
+        #    Eski kod her bandı bir ÖNCEKİNDEN ÇIKARIYORDU (`difference`) ⇒ geriye
+        #    bir HALKA kalıyordu; arayüz onu tabanın ÜSTÜNE ekliyordu. Üç görünür
+        #    sonucu vardı, üçü de ölçüldü:
+        #      ① halka ayrı katman olduğu için ayrı opaklıkla çiziliyor → KOYU
+        #      ② halkanın İÇ kenarı taban peteğinden başka kesilmiş → KOPUKLUK
+        #      ③ komşu devletlerin halkaları petek hakemliğinden geçmiyor → ÜST ÜSTE
+        #    🟢 VE MOTOR ZATEN DOĞRUSUNU HESAPLIYORDU: `_yr_kontur(_sv)` her bütçe
+        #       için TAM erişilebilir bölgeyi döndürür (`:2165`). Çıkarma onu ATIYORDU.
+        #       Yani üç ayrı koşuya gerek YOK — tek koşu üç TAM harita verir.
+        # ⚠️ BU BİR SÖZLEŞME DEĞİŞİKLİĞİDİR: bantlar artık İÇ İÇE. Arayüz bandı
+        #    tabanın ÜSTÜNE eklememeli, TABANI DEĞİŞTİRMELİ (js yaması ayrı dosyada:
+        #    denetim/ARAYUZ-BANT-TAM-1005.diff). İkisi AYNI koşuda inmeli; yalnız
+        #    biri inerse harita iç içe poligonları üst üste çizer.
+        # 🔴 YUKARIDAKİ YORUM YAMADAN SONRA TERSİNE DÜŞTÜ — düzeltildi 6 Ekim 2026
+        #    (koordinatör, yamayı uygularken). Yama `_ad`ı `"<=%g"`ye çevirdi ve
+        #    ARTIK `_onceki`yi KULLANMIYOR. ⇒ `_onceki` bugün TAM TERSİ: yalnız
+        #    HESAPTA kullanılıyor (aşağıda `_onceki is None` ilk bandı taban
+        #    peteğinden, ötekileri `_BANT_HAM`dan seçiyor), ETİKETTE kullanılmıyor.
+        #    Bırakılan eski cümle ("yalnız etiket için, hesapta değil") bant kodunu
+        #    okuyan birini yanlış yola sokardı — ve bu kod tam şu sıra H-0020 için
+        #    okunuyor. Bayat yorum, yanlış koddan daha sinsidir: kod çalışır, yorum
+        #    yalan söyler ve okuyan yoruma inanır.
+        # 🟢 VE YAMANIN DAYANAĞI DOĞRULANDI (aynı tur, ölçüm): `:3727`in kendi
+        #    beyanı — *"`_BANT_HAM[b]` bir 'eksik petek listesi' DEĞİL, o bütçedeki
+        #    TAM ÖRTÜdür (her peteğin b bütçesiyle kesilmiş hâli)"*. Yani `_BANT_HAM`
+        #    halka değil TAM BÖLGE tutuyor ⇒ iç içe bant sözleşmesi doğru yerden
+        #    besleniyor ve eski `difference` gerçekten tam örtüyü ATIYORDU.
+        #    Bu, 8 saatlik koşuya binmeden önce yapılması gereken doğrulamaydı.
         _pb = []
         for _i in range(len(PETEK_TAM)):
             _g = PETEK_D[_i] if _onceki is None else _BANT_HAM[_bs][_i]
             if _g is None or _g.is_empty:
                 _pb.append(None)
                 continue
-            if _onceki is not None:
-                _o = _BANT_HAM[_onceki][_i]
-                if _o is not None and not _o.is_empty:
-                    try:
-                        _g = poligonal(_g.difference(_o))
-                    except Exception:
-                        _g = Polygon()
             _pb.append(None if _g.is_empty else _g)
         # ── DEVLET BANDI: dönem dönem birleştir ─────────────────────────
         # 🔴 16 Eylül kararının istediği biçim: "motor çıktısı DEVLET BAŞINA
@@ -7895,6 +8081,26 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
             except Exception:
                 _bos += 1
                 continue
+            # 🔴 P84-UFUK-BANT-KOD-1006 (H-0020 ① ②) — PUANLAMA KAPISI BANDA DA.
+            #    Yabancı gövde `_yabanci_govde_hesap`ta `_puan_bolgesi` ile
+            #    KESİLİYOR (≥4 puan: kendi yerleşimine <200 km, ya da iki
+            #    yerleşime <300 km …); bant bu kapıdan HİÇ geçmiyordu. Bandın iç
+            #    kenarı `_BANT_HAM[40]` (kapısız 5 günlük erişim), tabanın dış
+            #    kenarı ise PUANLA KESİLMİŞ gövde ⇒ erişim puan bölgesini
+            #    aştığı her yerde arada BOŞLUK kalan HALKA (①). Çölde kelepçe
+            #    5 günlük erişimi 56 saate (≈282 km) çıkardığı için 200 km'lik
+            #    kapı orada en çok ısırır (Sahra). Erişim puan bölgesinin
+            #    içinde kalınca (yoğun yerleşim, yüksek sürtünme) gövde =
+            #    erişim ⇒ bant gövdeye BOŞLUKSUZ yapışır (②).
+            #    Osmanlı gövdesi puan kapısından GEÇMEZ (`:7354` yolu) ⇒ ona
+            #    uygulanmaz. Anahtar gövdeyle AYNI (`did`, aktif kümesi), yani
+            #    bölge tabanınkiyle bit bit aynıdır.
+            #    ⚠️ BEDEL ÖLÇÜLMEDİ: süreç yolunda `_PUAN_ONBELLEK` işçilerde
+            #       kalır, ana süreç her (did, aktif) için bir kez yeniden
+            #       hesaplar (bantlar arası paylaşılır). Kutu koşusunda ölçülmeli.
+            if _did != "OSMANLI" and not PUAN_KAPALI:
+                _pbz = _puan_bolgesi(_did, frozenset(_ak), _f)
+                _u = poligonal(_u.intersection(_pbz)) if _pbz is not None else Polygon()
             if _u.is_empty:
                 _bos += 1
                 continue
@@ -7911,7 +8117,8 @@ if _BANT_HAM and len(_BANT_HAM) > 1 and _bant_kayit:
     #    KÖTÜDÜR: arayüz onu "bu devlette bant yok" diye okur.
     _byol = os.path.join(KOK, "data", "ufuk_bantlari.js")
     _bj = ("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
-           "// Ⓑ UFUK BANTLARI — iç içe OLMAYAN artış bantları.\n"
+           "// Ⓑ UFUK BANTLARI — İÇ İÇE TAM BÖLGELER (her bant o bütçenin\n"
+           "//    TAMAMI; artış/halka DEĞİL — 5 Ekim 2026, H-0013).\n"
            "// ⚠️ index.html BU DOSYAYI YÜKLEMEZ: Ⓑ anahtarı açılınca fetch\n"
            "//    edilir (ölçülen boyut gerekçesi: B-GORUNUM-0072-BANT.md §2).\n"
            "// UFUK_BANT[k].dnm[] = {d: devlet kimliği, f, t, g: parça indeksleri}\n"
