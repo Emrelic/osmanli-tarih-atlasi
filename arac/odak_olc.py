@@ -16,7 +16,7 @@ yani YAZILMIŞ bir alanı doğrular, YAZILMAMIŞ odağı saymaz. Boş küme her
     ③ odak_kutu_kaynak         KUTU  → fitBounds    hukukî sınır kutusu
     ④ odak_yer ["<ad>",…]      KUTU  (≥1 ad tutmalı) "KAMERA BURAYA BAKACAK"
     ⑤ odak_kimlik ["id",…]     KUTU  (O GÜN ≥2 YERLEŞİM) devlet toprağı
-    ⑥ kapsam_genis:true        OSMANLI kutusu — BEYAN
+    ⑥ kapsam_genis:true        BEYAN — kamera YOLA göre gider (aşağıda)
 
 🔴 `yer_id` ≠ `odak_yer` ve bu ayrım kuralın KENDİSİdir (`app.js:11697`):
 `yer_id` *"olay BURADA oldu"* der ve KARTA da yazılır; `odak_yer` yalnız
@@ -24,35 +24,68 @@ yani YAZILMIŞ bir alanı doğrular, YAZILMAMIŞ odağı saymaz. Boş küme her
 yazmak kameraya yarar ama VERİYE YALAN yazar. ⇒ Bu alet ikisini AYRI sayar
 ve `yer_id`yi odak dolgusu olarak ÖNERMEZ.
 
-## 🔴 BEYANLI'NIN TUZAĞI — odaksızlıktan KÖTÜ
+## 🔴 BEYANLI'NIN TUZAĞI — İKİ YOL, İKİ AYRI KUSUR
 
-`app.js:11835`:
+`kapsam_genis:true` + odak yok: kameranın nereye gittiği maddenin AÇILDIĞI
+YOLA bağlıdır, dosyasına değil. İki yol iki ayrı işlevdir.
+
+**(b) OLAYLAR — Osmanlı listesi, `haritayiOlayaGotur`:**
 
     var _odakB = _odakKG ? _odakKG.kutu : ((di >= 0 && donemler[di].b) ? donemler[di].b : null);
 
-`kapsam_genis:true` + odak yok ⇒ kamera **`donemler[di].b`**ye gider ve o kutu
-O GÜNÜN **OSMANLI SINIRIDIR** (ölçüldü: ilk dönem `[29.32,39.58,30.54,40.22]`
-= Söğüt çevresi). ⇒ `kronoloji_japonya.js`te `kapsam_genis:true` yazmak
-*"kamerayı Osmanlı'ya gönder"* demektir; 1300'deki bir Balkan maddesinde
-kamera SÖĞÜT'ü çerçeveler.
-🔴 Bu ODAKSIZLIKTAN KÖTÜDÜR: odaksız maddede kamera DURUR ve panel *"nokta
-yeri işaretlenmemiş"* der — kullanıcı eksikliği OKUR. Burada hiçbir sinyal
-yoktur; yanlış yer KENDİNDEN EMİN gösterilir. (`dersler/D205` ailesi.)
+⇒ kamera **`donemler[di].b`**ye, yani O GÜNÜN **OSMANLI SINIRINA** gider
+(ölçüldü: ilk dönem `[29.32,39.58,30.54,40.22]` = Söğüt çevresi). Bu yol
+yalnız `OLAYLAR` dizilerinindir; orada beyan meşrudur (çıktıda "Osmanlı
+çekirdeğinde kalan meşru beyan").
 
-⚠️ **"→yabancı" sütunu KABA BİR SINAVDIR** — dosya adı `olaylar` ile
-başlıyorsa Osmanlı çekirdeği sayar. Gerçek hüküm MADDE BAŞINADIR:
-`kronoloji_anadolu.js`teki 1550 tarihli bir madde için imparatorluk kutusu
-meşru olabilir, 1300 tarihli bir Balkan maddesi için değildir. Alet SAYAR,
-hüküm vermez (`§11`: ölçüm doğru, çıkarım yanlış).
+**(a) SEKME — devlet sekmesi, `maddeAc` gövde dalı:** `→yabancı` sütunu BUDUR.
+⇒ kamera Osmanlı'ya GİTMEZ (UMIT-W13-ODAK-METIN-1006; eski metin bu yolu
+(b) sanıyordu). `maddeOdakKutusu(m)` kutu kurmazsa `devletiYay(d.harita ||
+d.id)` çağrılır:
+  · devletin O GÜN `DEVLET_HARITA` gövdesi varsa → BÜTÜN gövdeye açılır.
+    1600'de Viyana'yı anlatan bir madde Habsburg topraklarının tamamını
+    çerçeveler: yer DOĞRU devlet, ama ÖLÇEK yanlıştır.
+  · gövdesi yoksa (sahnede değil · harita kaydı yok · 1281 öncesi madde
+    1281'e kıstırılır) → `devletiYay` `false` döner ve KIRIM-ODAK-A-1006
+    geri düşüşü devreye girer: `maddeOdakKutusu({t, gi, odak_kimlik:
+    [d.id]})` — künyenin o gün ≥2 (tâbi dâhil) yerleşimi varsa onların
+    kutusuna uçar (SEKME_TABI_KUTU); yoksa kamera KIPIRDAMAZ, panele
+    *"Bu tarihte <devlet> haritada çizili değil"* yazılır ve
+    `SEKME_ODAK_DUSEN` sayılır (SEKME_SESSIZ).
+    ⚠️ A'dan ÖNCE bu dalda panel notu YOKTU (5 Ekim ölçümü, 355 madde:
+    302 gövde · 52 sahnede değil · 1 harita kaydı yok). Not artık var ama
+    kamera yine yerinde: ODAKSIZ ile aynı kusur sınıfıdır.
+    Örnek: `iran` künyesi 1555–1600 (`KRONOLOJI_IRAN` Pehlevi künyesine
+    bağlı; Safevî topraklarını `safevi` çizer — W13 1006c §2).
+    🆕 1006b: bu son kova `SEKME_SESSIZ` dalıdır ve tavanı vardır
+    (`sekme_sessiz`); sayı buradan değil koşudan okunur.
+⇒ `→yabancı` iş YÜKÜDÜR: odak yazılmalı. Ama kusur "Osmanlı'ya uçmak"
+değil, "kaba ölçek ya da kıpırdamayan kamera"dır.
 
 ## 🔴 ÇÖZÜM PYTHON'DA DEĞİL, `arac/odak_cozum.js`TE
 
 Sınıflandırma `js/suzgec.js`in GERÇEK işlevleriyle yapılır. Sebebi ölçülmüş:
 ilk Python sürümü İKİ yerde yanlıştı ve ikisi de "YANLIŞ TEMİZ" yönündeydi —
 `odak_kimlik` için kimlik sayısına bakıyordu (yerleşim sayısına değil), ve
-`yer_id` havuzunu `app.js:3101`in `d`/`v`/`s` süzgecinden geçirmiyordu.
-⇒ Python yalnız HANGİ dosyalar canlı (`GIRDI_DOSYALARI`, `§5`) ve TABLO;
+`yer_id` havuzunu süzgeçten geçirmiyordu.
+⇒ Python yalnız HANGİ betikler yükleniyor (`paket_coz.py`) ve TABLO;
 çözüm JS'te. İki dil, iki otorite, her biri kendi yerinde.
+
+## 🆕 EVREN = TARAYICI (UMIT-W13-ODAK-SEKME-1006)
+
+Eskiden evren `data/` DİSK listesiydi (`kronoloji_*` + `olaylar*`). Ölçüldü
+(`denetim/ODAK-OLC-KOR-NOKTA-1005.md`): 2975 künye-içi madde HİÇ görülmüyordu,
+2059 madde sayılıyordu ama hiçbir ekranda AÇILAMIYORDU, havuz app.js'in
+`AD_KONUM`u değildi (152 ad farkı). Artık `odak_cozum.js` index.html'in
+app.js'ten önce koşturduğu betikleri aynı sırayla koşturur ve app.js'in
+gerçek işlevlerini METİNLE keser. Kesemezse ÇIKIŞ 2 — ölçülemedi.
+
+    OLAYLAR   Osmanlı listesi — `haritayiOlayaGotur` yolu
+    SEKME     DEVLETLER[].kronoloji — `maddeAc` yolu (dalı: `sekmeDali`)
+    AÇILAMAZ  yüklenen ama hiçbir ekranda açılamayan — sınıf/tavan sayımına
+              GİRMEZ; kırık atıf sorusu YİNE sorulur
+
+`→yabancı` artık dosya adından değil YOLDAN okunur: SEKME'deki BEYANLI.
 
 ## YAYIN KAPISI — iki ayrı sertlik
 
@@ -72,6 +105,8 @@ KULLANIM
     py arac/odak_olc.py --kusur         yalnız ÇÖZÜLMEYEN odakları bas
     py arac/odak_olc.py --dosya <ad>    tek dosya
     py arac/odak_olc.py --json <yol>    makine okunur döküm
+    py arac/odak_olc.py --yay-dogrula   gövde taklidini GERÇEK devletiYay ile
+                                        karşılaştır (+1,1 GB bellek, +4 sn)
     py arac/odak_olc.py --tavan-yaz     bugünkü KİMLİK LİSTESİNİ dondur (yalnız İNER;
                                         kapıda ✗ varken REDDEDER, evreni genişletmez)
     py arac/odak_olc.py --tavan-yaz --ilk-dondurma
@@ -84,10 +119,15 @@ Tavan artık SAYI değil MADDE KİMLİĞİ LİSTESİdir (t | NFC(b), `odak_cozum
 Sayı tavanı dosyalar arası göçü göremiyordu — ölçüldü, iki temelde
 (`denetim/ODAK-KAPI-KORLUK-1006.md`): bir dosyadaki gerileme, başka bir
 dosyadan çıkan maddeyle 1'e 1 sıfırlanıyor, ihlal False dönüyordu.
-"→yabancı" de dosya adından değil maddenin GÖRÜNDÜĞÜ künye sekmesinden
-okunur (SEKME SESSİZ); `olaylar*` dışındaki maddeler Osmanlı kutusuna
-uçmaz, sekmede açılır (app.js `maddeAc`). Sınav, iki yönde:
+"→yabancı" de dosya adından değil maddenin AÇILDIĞI YOLDAN okunur (SEKME);
+`olaylar*` dışındaki maddeler Osmanlı kutusuna uçmaz, sekmede açılır
+(app.js `maddeAc`). Sınav, iki yönde:
 `py denetim/ODAK-KAPI-KIMLIK-SINAV-1006.py`.
+
+🆕 W57 (Z8, 6 Ekim 2026) — kimlik listesi TARAYICI evreninde tutulur:
+kimliğin "dosyası" app.js'in gördüğü KAYNAK dosyadır (paket değil);
+SEKME SESSİZ ve SEKME OKUNMAYAN çifti (kimlik, maddenin bağlandığı İLK
+künye) olarak dondurulur — `sekmeDali` tekil sayar, liste de tekildir.
 """
 import hashlib
 import io
@@ -102,6 +142,9 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 
 TAVAN_YOL = os.path.join(KOK, "denetim", "ODAK-TAVAN.json")
+SEKME_DALLARI = ("SEKME_NOKTA", "SEKME_KIPIRDAMAZ", "SEKME_OKUNMAYAN",
+                 "SEKME_KUTU", "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ",
+                 "SEKME_OLCULEMEDI")
 COZUCU = os.path.join(KOK, "arac", "odak_cozum.js")
 
 
@@ -114,42 +157,57 @@ def _arg(ad, argv=None):
     return None
 
 
-def canli_dosyalar(tek=None):
-    """Taranacak kronoloji/olay dosyaları."""
-    if tek:
-        return [tek]
+def disk_dosyalari():
+    """Diskteki kronoloji/olay dosyaları — artık EVREN DEĞİL, yalnız
+    "diskte var, tarayıcı yüklemiyor" farkını basmak için."""
     d = os.path.join(KOK, "data")
     return sorted(f for f in os.listdir(d)
                   if f.endswith(".js")
                   and (f.startswith("kronoloji_") or f.startswith("olaylar")))
 
 
-def olc(tek=None):
+def etiket_kaynak():
+    """index.html'in her `data/` etiketi → içindeki kaynak dosyalar, SIRAYLA.
+
+    Paket çözümü `paket_coz.py`nindir (TEK paylaşılan okuyucu, `D244`) —
+    burada regex yazılmaz. Boş/tutarsız künye `PaketCozHatasi` fırlatır."""
+    import paket_coz
+    harita = {}
+    kunye = None
+    for e in paket_coz.index_kaynaklari(KOK, ham=True):
+        if paket_coz._PAKET.match(e):
+            if kunye is None:
+                kunye = paket_coz._kunye(KOK)
+            if e not in kunye:
+                raise paket_coz.PaketCozHatasi("paket künyede yok: %s" % e)
+            harita[e] = list(kunye[e])
+        else:
+            harita[e] = [e]
+    return harita
+
+
+def olc(tek=None, yay_dogrula=False):
     """node çözücüsünü TEK süreçte koştur → döküm sözlüğü.
+
+    Evren HER ZAMAN bütün tarayıcıdır (bağlama bütün betiklere bağlı); `tek`
+    yalnız ÇIKTIYI o dosyaya süzer.
 
     🔴 Hata durumunda `{"hata": …}` döner ve çağıran bunu TEMİZ SAYMAZ
     (`denetle_yayin.py` deseni: ÖLÇÜLEMEDİ ≠ temiz)."""
     if not os.path.isfile(COZUCU):
         return {"hata": "arac/odak_cozum.js yok"}
     try:
-        import girdi
-        havuz = girdi.yukle(sessiz=True)
+        ek = etiket_kaynak()
     except Exception as e:                                  # noqa: BLE001
-        return {"hata": "yerleşim havuzu okunamadı: %s" % str(e)[:120]}
-
-    # süzgeç JS'te yapılacak; buraya yalnız çözüm için gereken alanlar gider
-    ince = []
-    for y in havuz:
-        ince.append({"ad": y.get("ad"), "lat": y.get("lat"), "lon": y.get("lon"),
-                     "d": y.get("d") or [], "v": y.get("v") or [],
-                     "s": y.get("s") or []})
+        return {"hata": "index.html betik listesi çözülemedi: %s" % str(e)[:160]}
 
     fd, yol = tempfile.mkstemp(suffix=".json", text=True)
     os.close(fd)
     try:
         io.open(yol, "w", encoding="utf-8").write(json.dumps(
-            {"kok": KOK.replace("\\", "/"), "yerlesimler": ince,
-             "dosyalar": canli_dosyalar(tek)}, ensure_ascii=False))
+            {"kok": KOK.replace("\\", "/"), "etiket_kaynak": ek,
+             "disk": disk_dosyalari(), "yay_dogrula": bool(yay_dogrula)},
+            ensure_ascii=False))
         r = subprocess.run(["node", COZUCU, yol], capture_output=True,
                            text=True, encoding="utf-8", errors="replace")
     finally:
@@ -157,17 +215,29 @@ def olc(tek=None):
             os.unlink(yol)
         except OSError:
             pass
+    D = None
+    try:
+        D = json.loads(r.stdout)
+    except Exception as e:                                  # noqa: BLE001
+        if r.returncode == 0:
+            return {"hata": "node çıktısı ayrıştırılamadı: %s · %s"
+                            % (str(e)[:80], (r.stdout or "")[:120])}
+    if isinstance(D, dict) and D.get("hata"):
+        return D                                # çözücünün kendi ÖLÇÜLEMEDİ'si (çıkış 2)
     if r.returncode != 0:
         return {"hata": "node çıkış %d: %s" % (r.returncode, (r.stderr or "")[:200])}
-    try:
-        return json.loads(r.stdout)
-    except Exception as e:                                  # noqa: BLE001
-        return {"hata": "node çıktısı ayrıştırılamadı: %s · %s"
-                        % (str(e)[:80], (r.stdout or "")[:120])}
+    if tek:
+        D["dosyalar"] = [d for d in D.get("dosyalar", []) if d.get("dosya") == tek]
+        if not D["dosyalar"]:
+            return {"hata": "%s tarayıcı evreninde madde vermedi (yüklenmiyor ya da "
+                            "kronoloji/olay değil)" % tek}
+    return D
 
 
 def ozetle(D):
-    """Döküm → (T, beyan_yab, kusur_listesi). `olaylar*` = Osmanlı çekirdeği."""
+    """Döküm → (T, beyan_yab, kusur_listesi).
+
+    `beyan_yab` = SEKME yolundaki BEYANLI (dosya adından değil, yoldan)."""
     T = {"KONUMLU": 0, "KUTULU": 0, "BEYANLI": 0, "ODAKSIZ": 0}
     beyan_yab = 0
     kusur = []
@@ -176,13 +246,21 @@ def ozetle(D):
             continue
         for k in T:
             T[k] += d["sinif"][k]
-        if not d["dosya"].startswith("olaylar"):
-            beyan_yab += d["sinif"]["BEYANLI"]
+        beyan_yab += d.get("beyanli_yabanci") or 0
         for x in d.get("kusur", []):
             y = dict(x)
             y["dosya"] = d["dosya"]
             kusur.append(y)
     return T, beyan_yab, kusur
+
+
+def sekme_ozet(D):
+    """Bütün evrenin sekme dalı sayımı."""
+    S = dict((k, 0) for k in SEKME_DALLARI)
+    for d in D.get("dosyalar", []):
+        for k in SEKME_DALLARI:
+            S[k] += (d.get("sekme") or {}).get(k) or 0
+    return S
 
 
 def tavan_oku():
@@ -202,15 +280,19 @@ def kimlik_ozetle(D):
 
     Dönüş sözlüğü:
       odaksiz      Counter{k}              ODAKSIZ maddeler (bütün dosyalar)
-      sessiz       Counter{(k, kunye)}     sekme dalında kamera KIPIRDAMIYOR
-      yab_beyanli  Counter{k}              `olaylar*` DIŞINDAKİ BEYANLI maddeler
-      cek_beyanli  Counter{k}              `olaylar*` İÇİNDEKİ BEYANLI maddeler
+      sessiz       Counter{(k, kunye)}     SEKME_SESSIZ: kamera KIPIRDAMIYOR
+      okunmayan    Counter{(k, kunye)}     SEKME_OKUNMAYAN: odak yazılı, sekmede etkisiz
+      yab_beyanli  Counter{k}              SEKME yolundaki BEYANLI maddeler
+      cek_beyanli  Counter{k}              OLAYLAR yolundaki BEYANLI maddeler
+    🆕 W57: yabancı/çekirdek ayrımı DOSYA ADINDAN değil maddenin açıldığı
+    YOLDAN (`odak_cozum.js` evreni) okunur; künye kimliği maddenin bağlandığı
+    İLK künyedir (`sekmeDali` tekil sayar).
       dosya        {k: set(dosya)}         kimliğin BUGÜN durduğu dosyalar
       sekme_olculemedi  int                sekme sınıfı ölçülemeyen çift
       hata         [dosya]                 ayrıştırılamayan dosyalar
       ozet         set(sha8)               bütün maddelerin evren özeti
     """
-    od, ss, yb, cb = Counter(), Counter(), Counter(), Counter()
+    od, ss, ok, yb, cb = Counter(), Counter(), Counter(), Counter(), Counter()
     yer = {}
     hata, olcm, ozet = [], 0, set()
     for d in D.get("dosyalar", []):
@@ -218,19 +300,20 @@ def kimlik_ozetle(D):
             hata.append(d["dosya"])
             continue
         ad = d["dosya"]
-        cek = ad.startswith("olaylar")
         for x in d.get("odaksiz") or []:
             od[x["k"]] += 1
             yer.setdefault(x["k"], set()).add(ad)
         for x in d.get("sekme_sessiz") or []:
             ss[(x["k"], x["kunye"])] += 1
             yer.setdefault(x["k"], set()).add(ad)
+        for x in d.get("okunmayan") or []:
+            ok[(x["k"], x["kunye"])] += 1        # `yer`e girmez: TAŞINDI bilgisi odaksız kovası içindir
         for x in d.get("beyanli") or []:
-            (cb if cek else yb)[x["k"]] += 1
+            (cb if x.get("yol") == "OLAYLAR" else yb)[x["k"]] += 1
             yer.setdefault(x["k"], set()).add(ad)
-        olcm += (d.get("sekme") or {}).get("OLCULEMEDI", 0)
+        olcm += (d.get("sekme") or {}).get("SEKME_OLCULEMEDI", 0)
         ozet.update(d.get("k8") or [])
-    return {"odaksiz": od, "sessiz": ss, "yab_beyanli": yb, "cek_beyanli": cb,
+    return {"odaksiz": od, "sessiz": ss, "okunmayan": ok, "yab_beyanli": yb, "cek_beyanli": cb,
             "dosya": yer, "sekme_olculemedi": olcm, "hata": hata, "ozet": ozet}
 
 
@@ -242,7 +325,21 @@ def _kisa(k, n=70):
     return k if len(k) <= n else k[:n - 1] + "…"
 
 
-def kapi_olcumu():
+def yay_satiri(D):
+    """Geometri-boş doğrulamasının (`--yay-dogrula`) DURUM satırı.
+
+    🔴 D265 (koordinatör, 6 Ekim 2026): doğrulama kapıya ALINMADI (bellek
+    345 → 1438 MB, o gün 0 vaka) ama "0 vaka" ile "SORULMADI" ayırt
+    edilebilmeli. Bu satır kapalıyken de basılır — sessizlik "temiz" sanılmasın.
+    Satır bilgi satırıdır, `ihlal` hükmünü DEĞİŞTİRMEZ."""
+    yd = D.get("yay_dogrulama")
+    if not yd:
+        return "ⓘ  geometri-boş doğrulaması KOŞULMADI (--yay-dogrula kapalı)"
+    return ("ⓘ  geometri-boş doğrulaması KOŞULDU: %d geometri-boş · %d uyuşmazlık "
+            "(%d halka)" % (len(yd["ucuncu_return"]), len(yd["uyusmazlik"]), yd["halka"]))
+
+
+def kapi_olcumu(yay_dogrula=False):
     """🔴 `denetle_yayin.py` BUNU çağırır. Dönüş:
 
         {"ihlal": bool, "satirlar": [str, …]}
@@ -256,9 +353,10 @@ def kapi_olcumu():
     taşınan beyanlı kusur ise "yeni" diye ötüyordu. `§3.4 ⑤`: istisna listesi
     tavan ailesidir — ve TAVANIN KENDİSİ de liste olmalıydı.
     Kimlik `odak_cozum.js`te üretilir (t | NFC(b)); burada yalnız karşılaştırılır.
+    `yay_dogrula` varsayılan KAPALI (D265); kapalı olduğu SATIRDA yazılır.
     """
     sat = []
-    D = olc()
+    D = olc(yay_dogrula=yay_dogrula)
     if D.get("hata"):
         return {"ihlal": True,
                 "satirlar": ["✗  odak nöbetçisi ÖLÇEMEDİ: %s" % D["hata"][:90]]}
@@ -274,7 +372,7 @@ def kapi_olcumu():
     if K["sekme_olculemedi"]:
         ihlal = True
         sat.append("✗  ÖLÇÜLEMEDİ: %d sekme çiftinin sınıfı ölçülemedi "
-                   "(`data/devlet_harita_ust.js` yok/bozuk ya da `t` gün değil)"
+                   "(`DEVLET_HARITA` tarayıcı evreninde yok/boş)"
                    % K["sekme_olculemedi"])
 
     tv = tavan_oku()
@@ -286,6 +384,12 @@ def kapi_olcumu():
         return {"ihlal": True, "satirlar": sat + [
             "✗  odak tavanı ESKİ BİÇİMDE (sayı) — kimlik listesi yok. Sayı tavanı "
             "göçü göremez; `--tavan-yaz --ilk-dondurma` ile listeye çevrilir."]}
+    if "sekme_okunmayan_kimlik" not in tv:
+        # W57: OKUNMAYAN listesi tavanla AYNI commit'te iner (§3.4-2); yoksa
+        # kapı o soruyu SORAMAZ — ölçülemeyen soru temiz sayılmaz.
+        return {"ihlal": True, "satirlar": sat + [
+            "✗  odak tavanında `sekme_okunmayan_kimlik` YOK — SEKME OKUNMAYAN "
+            "sorusu ÖLÇÜLEMEDİ (tavan, çözücüyle aynı commit'te iner)."]}
 
     # ① kırık atıf — YENİSİNE 0 TOLERANS; anahtar (kimlik, alan, değer), DOSYA YOK
     #    (dosya anahtardaydı ⇒ taşınan beyanlı kusur hem "yeni" hem "kapandı"
@@ -316,6 +420,7 @@ def kapi_olcumu():
     # ② tavan sağlaması — sayı ile liste AYNI şeyi söylemeli (elle düzenleme sezici)
     for sayi, liste, ad in (("odaksiz", "odaksiz_kimlik", "ODAKSIZ"),
                             ("sekme_sessiz", "sekme_sessiz_kimlik", "SEKME SESSİZ"),
+                            ("sekme_okunmayan", "sekme_okunmayan_kimlik", "SEKME OKUNMAYAN"),
                             ("beyanli_yabanci", "yabanci_beyanli_kimlik", "BEYANLI→yabancı"),
                             ("beyanli_cekirdek", "cekirdek_beyanli_kimlik", "BEYANLI çekirdek")):
         if tv.get(sayi) is not None and tv.get(liste) is not None \
@@ -385,32 +490,38 @@ def kapi_olcumu():
         sat.append("ⓘ  TAŞINDI: %d odaksız kimlik dosya değiştirdi — kova AYNI, "
                    "hüküm değişmez: %s" % (len(tasindi), "; ".join(_kisa(k, 50) for k in tasindi[:3])))
 
-    # ④ SEKME SESSİZ — "→yabancı" artık DOSYA ADINDAN DEĞİL, maddenin GÖRÜNDÜĞÜ
-    #    künye sekmesinden okunur (`odak_cozum.js` ⑥b, app.js `maddeAc`).
-    #    `olaylar*` dışındaki her madde YALNIZ künye sekmesinde açılır ve
-    #    `haritayiOlayaGotur`a yalnız `yer_id` çözülürse gider (app.js 15154) ⇒
-    #    eski "BEYANLI→yabancı = Osmanlı kutusuna uçar" sayısı o maddeler için
-    #    ölçülen davranış DEĞİLDİ. Gerçek kusur: kamera kıpırdamıyor (SESSİZ).
-    t_ss = _sayac(tv.get("sekme_sessiz_kimlik"), lambda x: (x["k"], x["kunye"]))
-    c_ss = K["sessiz"]
-    s_yeni = c_ss - t_ss
-    s_iyi = t_ss - c_ss
-    if s_yeni:
-        ihlal = True
-        sat.append("✗  SEKME SESSİZ GERİLEDİ: %d YENİ (madde × künye) çifti — künye "
-                   "sekmesinde kamera KIPIRDAMIYOR:" % sum(s_yeni.values()))
-        for (k, kid) in sorted(s_yeni)[:10]:
-            sat.append("     %-60s  sekme %s" % (_kisa(k, 60), kid))
-    else:
-        sat.append("✓  SEKME SESSİZ: yeni çift 0 (tavan %d çift · bugün %d)"
-                   % (sum(t_ss.values()), sum(c_ss.values())))
-    if s_iyi:
-        sat.append("✓  SEKME SESSİZ İYİLEŞME: %d çift kapandı — tavan indirilmeli "
-                   "(`--tavan-yaz`)" % sum(s_iyi.values()))
+    # ④ SEKME SESSİZ / OKUNMAYAN — "→yabancı" artık DOSYA ADINDAN DEĞİL,
+    #    maddenin açıldığı YOLDAN okunur (`odak_cozum.js` `sekmeDali`, app.js
+    #    `maddeAc`). `olaylar*` dışındaki her madde YALNIZ künye sekmesinde
+    #    açılır ⇒ eski "BEYANLI→yabancı = Osmanlı kutusuna uçar" sayısı o
+    #    maddeler için ölçülen davranış DEĞİLDİ. İki gerçek kusur:
+    #      SESSİZ    gövde yok + tâbi kutusu yok → kamera kıpırdamıyor
+    #      OKUNMAYAN odak/yer_kon YAZILMIŞ ama sekme dalı onu okumuyor
+    #    (UMIT-W13-ODAK-SEKME-1006 · W57: çift = (kimlik, İLK künye), tekil.)
+    for ad, alan, tarif in (
+            ("SEKME SESSİZ", "sessiz", "künye sekmesinde kamera KIPIRDAMIYOR"),
+            ("SEKME OKUNMAYAN", "okunmayan", "odak YAZILMIŞ, künye sekmesinde ETKİSİZ")):
+        t_x = _sayac(tv.get("sekme_%s_kimlik" % alan), lambda x: (x["k"], x["kunye"]))
+        c_x = K[alan]
+        x_yeni = c_x - t_x
+        x_iyi = t_x - c_x
+        if x_yeni:
+            ihlal = True
+            sat.append("✗  %s GERİLEDİ: %d YENİ (madde × künye) çifti — %s:"
+                       % (ad, sum(x_yeni.values()), tarif))
+            for (k, kid) in sorted(x_yeni)[:10]:
+                sat.append("     %-60s  sekme %s" % (_kisa(k, 60), kid))
+        else:
+            sat.append("✓  %s: yeni çift 0 (tavan %d çift · bugün %d)"
+                       % (ad, sum(t_x.values()), sum(c_x.values())))
+        if x_iyi:
+            sat.append("✓  %s İYİLEŞME: %d çift kapandı — tavan indirilmeli "
+                       "(`--tavan-yaz`)" % (ad, sum(x_iyi.values())))
 
     # ⑤ ÇEKİRDEĞE GÖÇ — yabancı BEYANLI bir madde `olaylar*`a taşınırsa sekme
     #    dökümünden ÇIKAR (iyileşme gibi görünür) ama artık ana listede açılır
-    #    ve kamera OSMANLI kutusuna uçar (app.js 11835) — odaksızlıktan KÖTÜ.
+    #    ve kamera OSMANLI kutusuna uçar (app.js `haritayiOlayaGotur`) —
+    #    odaksızlıktan KÖTÜ. W57: "çekirdek" = OLAYLAR YOLU (dosya adı değil).
     #    KORLUK-1006 E3a/E3e'nin kaçış yolu buydu.
     #    ⚠️ Çoklu küme FARKI: 52 dosyalar-arası ikiz grubunun bir kopyası
     #       zaten çekirdekte olabilir — ölçülen şey ARTIŞTIR, varlık değil.
@@ -423,6 +534,7 @@ def kapi_olcumu():
                    "artık OSMANLI kutusuna uçar:" % len(goc))
         for k in sorted(goc)[:10]:
             sat.append("     %-70s  %s" % (_kisa(k), ",".join(sorted(simdi_yer.get(k, ())))[:40]))
+    sat.append(yay_satiri(D))          # D265: bilgi satırı, `ihlal`e dokunmaz
     return {"ihlal": ihlal, "satirlar": sat}
 
 
@@ -482,7 +594,7 @@ def tavan_yaz(D, T, beyan_yab, kusur, ilk=False):
         print("🔴 ÖLÇÜLEMEDİ — ölçülemeyen ölçüm dondurulmaz: dosya hatası %s · sekme %d"
               % (K["hata"], K["sekme_olculemedi"]))
         return 2
-    od, yk, ss, yb, cb = [], [], [], [], []
+    od, yk, ss, ok, yb, cb = [], [], [], [], [], []
     for d in D["dosyalar"]:
         if d.get("hata"):
             continue
@@ -491,8 +603,10 @@ def tavan_yaz(D, T, beyan_yab, kusur, ilk=False):
             (od if ad in ev else yk).append({"k": x["k"], "d": ad})
         for x in d.get("sekme_sessiz") or []:
             ss.append({"k": x["k"], "kunye": x["kunye"], "d": ad})
+        for x in d.get("okunmayan") or []:
+            ok.append({"k": x["k"], "kunye": x["kunye"], "d": ad})
         for x in d.get("beyanli") or []:
-            (cb if ad.startswith("olaylar") else yb).append({"k": x["k"], "d": ad})
+            (cb if x.get("yol") == "OLAYLAR" else yb).append({"k": x["k"], "d": ad})
     srt = lambda L: sorted(L, key=lambda x: (x["k"], x.get("kunye", ""), x["d"]))  # noqa: E731
     if ilk:
         fark = []
@@ -514,6 +628,7 @@ def tavan_yaz(D, T, beyan_yab, kusur, ilk=False):
         "odaksiz": len(od), "odaksiz_kimlik": srt(od),
         "yeni_kapsam_kimlik": srt(yk),
         "sekme_sessiz": len(ss), "sekme_sessiz_kimlik": srt(ss),
+        "sekme_okunmayan": len(ok), "sekme_okunmayan_kimlik": srt(ok),
         "beyanli_yabanci": len(yb), "yabanci_beyanli_kimlik": srt(yb),
         "beyanli_cekirdek": len(cb), "cekirdek_beyanli_kimlik": srt(cb),
         "konumlu": T["KONUMLU"], "kutulu": T["KUTULU"], "madde": sum(T.values()),
@@ -536,9 +651,9 @@ def tavan_yaz(D, T, beyan_yab, kusur, ilk=False):
     _json_yaz(tv)
     print()
     print("✓ TAVAN YAZILDI: %s" % os.path.relpath(TAVAN_YOL, KOK))
-    print("  odaksiz %d · yeni kapsam %d · sekme sessiz %d · yabancı beyanlı %d · "
-          "çekirdek beyanlı %d · bilinen kusur %d · evren özeti %d"
-          % (len(od), len(yk), len(ss), len(yb), len(cb), len(kusur), len(K["ozet"])))
+    print("  odaksiz %d · yeni kapsam %d · sekme sessiz %d · sekme okunmayan %d · "
+          "yabancı beyanlı %d · çekirdek beyanlı %d · bilinen kusur %d · evren özeti %d"
+          % (len(od), len(yk), len(ss), len(ok), len(yb), len(cb), len(kusur), len(K["ozet"])))
     return 0
 
 
@@ -559,15 +674,27 @@ def main():
     yalniz_kusur = "--kusur" in sys.argv
     tek = _arg("--dosya")
 
-    D = olc(tek)
+    D = olc(tek, yay_dogrula="--yay-dogrula" in sys.argv)
     if D.get("hata"):
         print("🔴 ÖLÇÜLEMEDİ:", D["hata"])
         print("   ⚠️ ÖLÇÜLEMEDİ ≠ TEMİZ. Kapı bunu İHLAL sayar.")
         return 2
 
-    print("yerleşim %d · `sehirler` havuzu %d ad / %d kayıt (d/v/s süzgeci) · künye %d"
-          % (D.get("yerlesim", 0), D.get("sehir_havuzu", 0),
-             D.get("sehir_kayit", 0), D.get("kunye", 0)))
+    ev = D.get("evren_sayi") or {}
+    print("EVREN = TARAYICI · %d kaynak betik + %d satır içi · yerleşim %d · "
+          "`AD_KONUM` %d ad (eski d/v/s havuzunda olmayan %d) · künye %d"
+          % (D.get("yuklenen_kaynak", 0), D.get("satir_ici", 0), D.get("yerlesim", 0),
+             D.get("ad_konum", 0), D.get("havuz_fark_eski_sehir", 0), D.get("kunye", 0)))
+    print("madde: OLAYLAR %d · SEKME %d · AÇILAMAZ %d (sayıma girmez) · t+b ikizi "
+          "sekmede görünür %d" % (ev.get("OLAYLAR", 0), ev.get("SEKME", 0),
+                                  ev.get("ACILAMAZ", 0), ev.get("tb_ikizi_gorunur", 0)))
+    for u in D.get("yuk_uyari") or []:
+        print("   ⚠️ betik uyarısı: %s" % u)
+    if D.get("disk_tarayicida_yok"):
+        print("   ⚠️ diskte var, tarayıcı YÜKLEMİYOR: %s" % ", ".join(D["disk_tarayicida_yok"]))
+    if D.get("app_sonrasi_kronoloji"):
+        print("   ⚠️ app.js'ten SONRA yüklenen kronoloji (bağlama görmez): %s"
+              % ", ".join(D["app_sonrasi_kronoloji"]))
     print("=" * 104)
 
     T, beyan_yab, kusur = ozetle(D)
@@ -585,7 +712,7 @@ def main():
             n = d["madde"]
             if n == 0:
                 continue
-            by = 0 if d["dosya"].startswith("olaylar") else s["BEYANLI"]
+            by = d.get("beyanli_yabanci") or 0
             yuk = s["ODAKSIZ"] + by
             print("%-42s %6d %8d %7d %8d %9s %9d %6.1f" %
                   (d["dosya"], n, s["KONUMLU"], s["KUTULU"], s["BEYANLI"],
@@ -604,14 +731,45 @@ def main():
         print()
         print("🔴 ODAKSIZ %d — kamera KIPIRDAMIYOR (panel eksikliği YAZAR)."
               % T["ODAKSIZ"])
-        print("🟡 BEYANLI→yabancı %d — DOSYA ADINA göre (`olaylar*` dışı). Bu maddeler"
-              % beyan_yab)
-        print("   künye SEKMESİNDE açılır, Osmanlı kutusuna UÇMAZ (app.js `maddeAc`);")
-        print("   kamera kusurunun ölçüsü SEKME SESSİZ: %d (madde × künye) çifti."
-              % sum(len(d.get("sekme_sessiz") or []) for d in D["dosyalar"]))
-        print("   Osmanlı çekirdeğinde kalan meşru beyan: %d"
-              % (T["BEYANLI"] - beyan_yab))
+        print("🔴 BEYANLI→yabancı %d — devlet sekmesinde odak yok: kamera devletin "
+              "O GÜNKÜ BÜTÜN gövdesine açılır" % beyan_yab)
+        print("   (`devletiYay`); gövde yoksa künyenin tâbi/yerleşim kutusuna, o da yoksa "
+              "kıpırdamaz (panel notu). Osmanlı kutusuna GİTMEZ.")
+        print("   Osmanlı çekirdeğinde kalan meşru beyan: %d  (OLAYLAR yolu → "
+              "o günün Osmanlı kutusu)" % (T["BEYANLI"] - beyan_yab))
         print("⇒ TOPLAM İŞ: %d madde (%.1f%%)" % (yuk_t, 100.0 * yuk_t / max(n, 1)))
+        print()
+        # 🆕 O1 — devlet sekmesi (`maddeAc`) gerçekte ne yapıyor
+        S = sekme_ozet(D)
+        print("DEVLET SEKMESİ (`maddeAc` yolu, %d madde) — kamera GERÇEKTE ne yapıyor:"
+              % sum(S.values()))
+        for k, tarif in (("SEKME_NOKTA", "yer_id çözülüyor → noktaya uçar"),
+                         ("SEKME_KUTU", "kapsam_genis + odak kutusu kuruluyor"),
+                         ("SEKME_GOVDE", "kapsam_genis, odak yok → devletin BÜTÜN gövdesi"),
+                         ("SEKME_TABI_KUTU", "o gün GÖVDE YOK → künye kimliğiyle tâbi/yerleşim kutusu (KIRIM-ODAK-A)"),
+                         ("SEKME_SESSIZ", "o gün GÖVDE YOK, tâbi kutusu da yok → kıpırdamaz (panel notu VAR)"),
+                         ("SEKME_OLCULEMEDI", "DEVLET_HARITA tarayıcı evreninde yok — temiz DEĞİL"),
+                         ("SEKME_KIPIRDAMAZ", "kapsam_genis yok, odak yok → kamera durur"),
+                         ("SEKME_OKUNMAYAN", "odak/yer_kon YAZILMIŞ ama sekmede ETKİSİZ")):
+            print("   %-18s %6d  %s" % (k, S[k], tarif))
+        alt = D.get("sekme_alt") or {}
+        if alt:
+            print("   OKUNMAYAN ayrımı:", dict(sorted(alt.items())))
+        og = D.get("sekme_okunmayan_govde") or {}
+        if og:
+            print("   OKUNMAYAN gövde maddelerinin gövde sonucu (OKUNMAYAN'da sayılır):",
+                  dict(sorted(og.items())))
+        if D.get("sekme_sessiz_neden"):
+            print("   SESSİZ ayrımı:", dict(sorted(D["sekme_sessiz_neden"].items())))
+        if D.get("sekme_nokta_odak_kimlik"):
+            print("   ⓘ NOKTA dalında odak_kimlik yazılı %d madde — ham `m` (gi yok) ile"
+                  " sorulur" % D["sekme_nokta_odak_kimlik"])
+        ac = D.get("acilamaz_degisken") or {}
+        if ac:
+            print("AÇILAMAZ — yüklenen ama hiçbir ekranda açılamayan %d madde:"
+                  % sum(ac.values()))
+            for k, v in sorted(ac.items(), key=lambda r: -r[1]):
+                print("   %-34s %5d" % (k, v))
         print()
 
     print("🔴 ÇÖZÜLMEYEN ODAK ATFI: %d kayıt" % len(kusur))
@@ -636,11 +794,27 @@ def main():
         if rc:
             return rc
 
+    yd = D.get("yay_dogrulama")
+    print()
+    print(yay_satiri(D))
+    if yd:
+        print()
+        print("GÖVDE TAKLİDİ ↔ GERÇEK `devletiYay` (%d halka): %s"
+              % (yd["halka"], dict(sorted(yd["capraz"].items()))))
+        print("   geometri boş (taklit YANLIŞ TEMİZ): %d · taklit YANLIŞ KİRLİ: %d"
+              % (len(yd["ucuncu_return"]), len(yd["uyusmazlik"])))
+        for x in (yd["ucuncu_return"] + yd["uyusmazlik"])[:20]:
+            print("      %s" % x)
+
     jy = _arg("--json")
     if jy:
         io.open(jy, "w", encoding="utf-8").write(json.dumps(
-            {"toplam": T, "beyanli_yabanci": beyan_yab,
-             "kusur": kusur, "dosyalar": D["dosyalar"]},
+            {"toplam": T, "beyanli_yabanci": beyan_yab, "sekme": sekme_ozet(D),
+             "kusur": kusur, "dosyalar": D["dosyalar"],
+             "evren": dict((k, D.get(k)) for k in (
+                 "evren_sayi", "acilamaz_degisken", "sekme_alt", "sekme_sessiz_neden", "yerlesim",
+                 "ad_konum", "havuz_fark_eski_sehir", "disk_tarayicida_yok",
+                 "app_sonrasi_kronoloji", "yuk_uyari"))},
             ensure_ascii=False, indent=1))
         print("döküm yazıldı: %s" % jy)
     return 0
