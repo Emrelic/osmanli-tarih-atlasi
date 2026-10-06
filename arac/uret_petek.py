@@ -7862,22 +7862,48 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
     _bant_kayit = []
     for _bi, _bs in enumerate(_bant_sirali) if _BANT_AKTIF is not None else []:
         _onceki = _bant_sirali[_bi - 1] if _bi else None
-        _ad = ("<=%g" % (_bs / 8.0)) if _onceki is None else \
-              ("%g-%g" % (_onceki / 8.0, _bs / 8.0))
-        # ── PETEK BANDI: artış (iç içe DEĞİL) ───────────────────────────
+        # Bantlar artık İÇ İÇE (tam bölge) ⇒ ad da "5-7" değil "<=7" olmalı;
+        # eski ad halka anlamı taşıyordu ve arayüz lejantı onu okuyor.
+        _ad = "<=%g" % (_bs / 8.0)
+        # ── PETEK BANDI: TAM BÖLGE (iç içe) ─────────────────────────────
+        # 🔴 5 EKİM 2026 — EMRE'NİN H-0013 ŞİKÂYETİ, ve bu bir çizim kusuru DEĞİL
+        #    TASARIM DEĞİŞİKLİĞİ: *"5 günlük bölge yerine 7 seçince olması gereken,
+        #    sanki 7 demişiz gibi parametresi 7 olan sürtünmeli yürüyüşün bölgeleri
+        #    renklendirilecek ve bölgelendirilecek."*
+        #    Eski kod her bandı bir ÖNCEKİNDEN ÇIKARIYORDU (`difference`) ⇒ geriye
+        #    bir HALKA kalıyordu; arayüz onu tabanın ÜSTÜNE ekliyordu. Üç görünür
+        #    sonucu vardı, üçü de ölçüldü:
+        #      ① halka ayrı katman olduğu için ayrı opaklıkla çiziliyor → KOYU
+        #      ② halkanın İÇ kenarı taban peteğinden başka kesilmiş → KOPUKLUK
+        #      ③ komşu devletlerin halkaları petek hakemliğinden geçmiyor → ÜST ÜSTE
+        #    🟢 VE MOTOR ZATEN DOĞRUSUNU HESAPLIYORDU: `_yr_kontur(_sv)` her bütçe
+        #       için TAM erişilebilir bölgeyi döndürür (`:2165`). Çıkarma onu ATIYORDU.
+        #       Yani üç ayrı koşuya gerek YOK — tek koşu üç TAM harita verir.
+        # ⚠️ BU BİR SÖZLEŞME DEĞİŞİKLİĞİDİR: bantlar artık İÇ İÇE. Arayüz bandı
+        #    tabanın ÜSTÜNE eklememeli, TABANI DEĞİŞTİRMELİ (js yaması ayrı dosyada:
+        #    denetim/ARAYUZ-BANT-TAM-1005.diff). İkisi AYNI koşuda inmeli; yalnız
+        #    biri inerse harita iç içe poligonları üst üste çizer.
+        # 🔴 YUKARIDAKİ YORUM YAMADAN SONRA TERSİNE DÜŞTÜ — düzeltildi 6 Ekim 2026
+        #    (koordinatör, yamayı uygularken). Yama `_ad`ı `"<=%g"`ye çevirdi ve
+        #    ARTIK `_onceki`yi KULLANMIYOR. ⇒ `_onceki` bugün TAM TERSİ: yalnız
+        #    HESAPTA kullanılıyor (aşağıda `_onceki is None` ilk bandı taban
+        #    peteğinden, ötekileri `_BANT_HAM`dan seçiyor), ETİKETTE kullanılmıyor.
+        #    Bırakılan eski cümle ("yalnız etiket için, hesapta değil") bant kodunu
+        #    okuyan birini yanlış yola sokardı — ve bu kod tam şu sıra H-0020 için
+        #    okunuyor. Bayat yorum, yanlış koddan daha sinsidir: kod çalışır, yorum
+        #    yalan söyler ve okuyan yoruma inanır.
+        # 🟢 VE YAMANIN DAYANAĞI DOĞRULANDI (aynı tur, ölçüm): `:3727`in kendi
+        #    beyanı — *"`_BANT_HAM[b]` bir 'eksik petek listesi' DEĞİL, o bütçedeki
+        #    TAM ÖRTÜdür (her peteğin b bütçesiyle kesilmiş hâli)"*. Yani `_BANT_HAM`
+        #    halka değil TAM BÖLGE tutuyor ⇒ iç içe bant sözleşmesi doğru yerden
+        #    besleniyor ve eski `difference` gerçekten tam örtüyü ATIYORDU.
+        #    Bu, 8 saatlik koşuya binmeden önce yapılması gereken doğrulamaydı.
         _pb = []
         for _i in range(len(PETEK_TAM)):
             _g = PETEK_D[_i] if _onceki is None else _BANT_HAM[_bs][_i]
             if _g is None or _g.is_empty:
                 _pb.append(None)
                 continue
-            if _onceki is not None:
-                _o = _BANT_HAM[_onceki][_i]
-                if _o is not None and not _o.is_empty:
-                    try:
-                        _g = poligonal(_g.difference(_o))
-                    except Exception:
-                        _g = Polygon()
             _pb.append(None if _g.is_empty else _g)
         # ── DEVLET BANDI: dönem dönem birleştir ─────────────────────────
         # 🔴 16 Eylül kararının istediği biçim: "motor çıktısı DEVLET BAŞINA
@@ -7911,7 +7937,8 @@ if _BANT_HAM and len(_BANT_HAM) > 1 and _bant_kayit:
     #    KÖTÜDÜR: arayüz onu "bu devlette bant yok" diye okur.
     _byol = os.path.join(KOK, "data", "ufuk_bantlari.js")
     _bj = ("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
-           "// Ⓑ UFUK BANTLARI — iç içe OLMAYAN artış bantları.\n"
+           "// Ⓑ UFUK BANTLARI — İÇ İÇE TAM BÖLGELER (her bant o bütçenin\n"
+           "//    TAMAMI; artış/halka DEĞİL — 5 Ekim 2026, H-0013).\n"
            "// ⚠️ index.html BU DOSYAYI YÜKLEMEZ: Ⓑ anahtarı açılınca fetch\n"
            "//    edilir (ölçülen boyut gerekçesi: B-GORUNUM-0072-BANT.md §2).\n"
            "// UFUK_BANT[k].dnm[] = {d: devlet kimliği, f, t, g: parça indeksleri}\n"
