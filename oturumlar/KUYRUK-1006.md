@@ -473,3 +473,126 @@ kalıcı kazanç.
 🔴 **ŞİMDİ HİÇBİR ŞEY YAPILMIYOR:** veri koşularında bayrak ŞU ANKİ gibi verilmeye devam
 eder. Kalem `§4 B KUYRUĞU`nun üyesidir (motor tuzu, yalnız tam inşada).
 Yan kalemler: `KOSU-DEVIR-CEVRIMI.md:152/194` notu · `app.js:897` bayat yorumu.
+
+---
+
+## 10. 🔴 6 EKİM ÖĞLE (13:00-13:45) — DOKUZ DAĞITIM, YEDİ HÜKÜM, İKİ KENDİ HATAM
+
+### 10.1 Dokuz hazır kıta doldu — ve bir YAPISAL çare indi
+`M-5866…M-5874` · kıta `1231…1239` · hepsi push'lı. 1230 zaten `SAHIPLIK-OLCULEMEDI-1006`de.
+**Boş kıta kalmadı.** Dağıtılan kalemler UMIT'in *doğruladığı* açık kalem listesinden:
+Gence 1386 kaynağı · 5 gün-hassasiyetli tek-eksik kova · Ren sol yakası (Köln/Aachen/Trier
+1794-1814) · W30'un 264 tırnağı · komşu-kesinti 47'den rastgele 10 · 5 B-SINIR-YAKA ·
+Temeşvar/Brassó/Prekmurje · W37'nin 55 "çözülmedi" · W51'in ucuz okuma turu.
+
+🔴 **ÜÇ MÜKERRER ATAMANIN YAPISAL ÇARESİ — iki satır, ikisi de görev metninde:**
+```
+① MÜKERRER KAPISI GÖREVİN İLK ADIMIDIR. İşçi denetim/'i KENDİ kalemiyle tarar;
+   zaten ölçülmüşse DURUR ve bildirir. Kontrolü, kalemin BAĞLAMINA SAHİP OLAN yapar.
+② GÖREV METNİ TANIM DOSYASINI ADIYLA VERİR, kalemin TARİFİNİ VERMEZ.
+   Yazdığım cümle: "ben kalemin adını biliyorum, rapor tarifini biliyor."
+```
+**Niçin ②:** üç mükerrer atamanın ÜÇÜNDE de kalemi **ezberden** tarif etmiştim. Ezberden
+tarif, kalemi tarif etmez — kalemin bendeki **hatırasını** tarif eder, ve o hatıra bayattır.
+
+### 10.2 🔴 KENDİ HATAM — kuralı yazdıktan 20 dakika sonra ihlal ettim
+`ls denetim/ | grep "W37"` → **0** → *"rapor EMRELIC'te yok"* hükmü → UMIT'i gereksiz
+push'a yönlendirdim. Gerçek: raporlar **W numarasıyla değil KONUYLA** adlandırılıyor
+(`KRONOLOJI-COK-PAKET-1006.md` · `DEVLETLER-SLUG-IZ-1006.md`); W numarası dosyanın
+**İÇİNDE**. Üç dosya da çalışma ağacımda ve `origin/main`de **baştan beri VARDI**.
+⇒ **Ad üzerinden ölçmek de bir VEKİL ÖLÇÜMDÜR** ve adlandırma kuralı bilinmeden yapılmaz.
+Çare iki adım: ① iki üç dosyanın adına bak, kuralı gör ② ad tutmazsa **İÇERİĞİ** tara.
+📌 Ve bu, `oturumlar/OLCUM-KITA-SARTLARI.md §9`un birebir kendisiydi — **o dosyayı
+commitledikten 20 dakika sonra**. Kural yazılı olmayan kural değil, UNUTULAN kuraldır
+(`§9.1`in cümlesi, üçüncü kez doğrulandı). Vaka §9'a eklendi.
+📌 **Ters yönü de yazıldı:** bir adın `denetim/` altında GEÇMESİ kalemin KAPANDIĞINI da
+söylemez — kalemi AÇAN rapor da o adı anar. Bu yüzden `1006` öğlen attığım ad grep'i
+(`Gence → 83 dosya`) hiçbir şeye karar veremezdi, ve ben de ona karar verdirmedim.
+"Mükerrer mi" sorusu ada değil **HÜKME** bakar.
+
+### 10.3 🔴 YENİ TAVAN KURALI — "evren büyürken tavan düşerse"
+Z8 (ODAK-SEKME) evreni **9.984 → 12.576** maddeye çıkarırken tavanları **düşürüyor**
+(`odaksiz 401→374` · `beyanli_yabanci 426→312`). `§3.4(3)` *"iyileşince tavan iner"* der —
+**ama buradaki düşüş bir DÜZELTMEDEN değil EVREN DEĞİŞİMİNDEN geliyor.**
+```
+🔴 EVREN DEĞİŞİRKEN İNEN TAVAN, GEÇİŞ DOSYASI OLMADAN İNMEZ.
+   "27 azaldı" yetmez; 27'nin ADI gerekir: hangi kimlik hangi kovadan hangisine geçti.
+   Aksi hâlde eski tavan ile yeni tavan arasındaki ilişki ÖLÇÜLMEMİŞ olur,
+   ve ölçülmemiş bir düşüş SESSİZ BORÇtur.
+```
+Bu `§3.4(0)`ın ("tavan yazıldığı anda ölçülür, fark ADIYLA karşılaştırılır") evren yüzü.
+Z8'in dört şartı: ① geçiş dosyası adıyla ② yeni tavanlar (`sekme_okunmayan 1408` ·
+`sekme_sessiz 53`) commit anında ölçülür + 1408'in tek cümlelik tanımı ③ hepsi + kod tek
+commit ④ `bilinen_kusur []` (Ogaden) kapanışı GÖSTERİLİR, beyan edilmez.
+
+### 10.4 SIRA KARARI — W39d YERİNDE KALIR (hüküm (a))
+Ölçüm: `ebf1874d` (W39d **diff**) MAIN'DE · `c47120d8` (W39d **uygulanmış**) main'de DEĞİL ·
+`origin/makine/umit` main'den 4 commit önde ⇒ revert teknik olarak **mümkündü**.
+🔴 **Ama W39d, Z8'in RAKİBİ değil ÖNŞARTI:** W39d tavanı SAYIdan **KİMLİK LİSTESİne**
+çevirdi. Sayısal tavanla 9.984→12.576 geçişinde **her rakam oynar** ve *"evren büyüdü"* ile
+*"yeni kusur doğdu"* **ayırt edilemez**. Kimlik listesiyle fark ADIYLA okunur.
+⇒ Gerekçe "revert gereksiz iş" değil (o doğru ama zayıf); gerekçe **denetlenebilirlik**.
+
+### 10.5 SAAR — TAM İNŞA İLE (bölünerek)
+`§1.5`in *"Renksiz künye — HARİTA DELİĞİ"* satırı bugün zaten **🔴 1** (`itilaf-emaneti`/Lvov).
+Saarbrücken noktası veri koşusunda inerse 2 olur — ve çaresi (`renkler.py`) **motor
+tuzunda** (`§9.1②`), yani yalnız tam inşada iner. **Deliği açan ve kapatan AYNI koşuda.**
+```
+ŞİMDİ inebilir : devletler.js itilaf-emaneti kaynağına md.99/100 · saar künyesi md.49
+                 (W54b DEVLETLER partisi, P3-2 BİTTİKTEN SONRA, KENDİ partisinde)
+TAM İNŞADA     : Saarbrücken NOKTASI + RENK-TAMINSA yaması, birlikte
+```
+⚠️ Koşan zincire yeni diff katılmaz — `apply-check`i bozan tam bu.
+⚠️ MEMEL'in yerleşim kolu **bende**, ama DEVLETLER kolu indikten SONRA uygularım: ters
+sırada künyesi olmayan bir kimliğe yerleşim bağlamış olurum.
+📌 **Yeni kalem:** `boya_gerekli:true` beyanı bu kovayı **düşürmüyor**
+(`durum_tablosu.py:663` beyanı yalnız *sessiz* kovaya uyguluyor) ⇒ ya kapsatılır, ya niçin
+kapsamadığı yazılır. Beyan mekanizması VAR ama bu kovayı KAPSAMIYOR.
+
+### 10.6 🆕 🔴 TDV ARAMA KAÇIRMASI SABİT DEĞİL, KAYIYOR (GLM1 ölçtü)
+```
+Eylül'de arama sonucu dönen 137 slug  →  71'i bugün HİÇBİR sorguda dönmüyor
+                                          ve 71'in hepsi CANLI (GET 200, gövdeli)
+bugün dönen yeni aday 29 · aday SAYISI değişen 19 (has 12→8, esferayin 6→1, nisabur 3→5…)
+```
+⇒ 🔴 **"Eylül'de arandı, bulunamadı" BUGÜN İÇİN GEÇERLİ DEĞİLDİR.** Bir yokluk hükmü bir
+TARİHE bağlıdır; eski bir `bulunamadı`yı yeniden aramak **mükerrer değildir**.
+Şartnamedeki `42/50 (~%16 kaçırma)` rakamı **çürütülmedi, SERTLEŞTİ**: oran bilinmiyorsa da,
+bilinen oran bayatlamışsa da sonuç aynı — **yokluk kanıtı yok.** `OLCUM-KITA-SARTLARI.md §7`
+güncellendi (dokuz işçi o dosyayı şu anda okuyor).
+
+### 10.7 GLM1 — hipotezim çürüdü, talimat yine kazandı
+*"475 BOŞ kovası homojen değil, ölçtüğümüz kümelerle daralt"* dedim. Ölçüm: **beş kümede de
+kesişim SIFIR** — BOŞ evreni ötekilerden **ayrık**. Mekanizmam çürük.
+Ama talimat yine kazandı: **35 kalem düştü** (30 ölü-kaydı + 5 mükerrer-dolu → **414**) ve
+asıl bulgu çıktı: **414 slug hakkında bugüne dek HİÇ ölçüm yok** (Eylül hasadı 0 bayt yazıp
+geçmiş, hiçbir aramada aday olarak da dönmemişler). *"Daraltmanın tabanı burası."*
+📌 **Yanlış hipotezi ölçüp çürüten tur, doğrulayan turdan değerlidir.**
+414 GET onaylandı, üç koşulla: ① sonuç dağılımı DÖRT AYRI kovada sayılır
+(`gövde · 302 · 000 · boilerplate`) — çünkü `000` TAŞIMA ARIZASIdır ve boilerplate
+*"çekilemedi"*dir; karışırsa **414 yanlış ölüm** imal ederiz ② inen gövdenin YANINDA HTTP
+durumu durur ve yalnız `denetim/GLM1-*` altına yazılır — **paylaşılan TDV önbelleğine
+YAZILMAZ**, çünkü oradan okuyan bir sonraki işçi metni *"TDV gövdesi"* sayar ve doğrulama
+adımı atlanır. **Durum kodu yanında duran gövde VERİdir; durumsuz gövde İDDİAdır.**
+③ yazma sınırı aynı.
+
+### 10.8 Küçük hükümler
+- **INDIR-1001 emekliliği:** SİLİNMEDİ. Tüketici ölçüldü (çağıran kod **0**), başına
+  mezar taşı: `EMEKLİ — tarih · sebep · yerine geçen c47120d8 · tüketici 0 · KOŞTURMA`.
+  Silmek niçin yanlış: dosya gidince **niçin var olduğu** da gider.
+- **`yer_yama.js` c/e (tibhane · aynalıkavak):** sınıflandırma doğru, ikisi **BENDE** ama
+  **UYGULANMADI** — diff doğrulanamayan tırnağı tutup *"ALINTI DOĞRULANMADI"* ekliyor,
+  kural **KALDIRILIR** diyor. W49 yeniden üretince alınır. *"Bende ve bekliyor" ≠ "düştü".*
+- **Sarkık stash:** üçünün de index yarısı **0 dosya**. İkisi hesapta (su seviyesi ·
+  SABAH KF-1, ikisi de indi); **yalnız `30678e7f`** (bugün 10:16) hesapta değil ⇒ **yalnız
+  onun** WIP yarısı aranacak. `fsck`ı 255'e kadar koşturma. Bulunamazsa *"bulunamadı"*
+  yazılır, *"iş yoktu"* YAZILMAZ.
+- **Agadez (10. madde):** tarihi atlasın **kendi künyesinden** devralınmış ⇒ `§4` ihlali,
+  `D207`nin tam tarifi. Akademik kaynak ayrı kalem.
+- **W30'un "14 ölü slug"unun en az 4'ü SLUG DEĞİL** (W49b ölçtü): atlas künye kimliği ya da
+  `gecitler.js` TÜR değeri. Bir raporun **çerçevesini** çürüten ölçüm — içeriğini değil.
+  ⇒ Kalemin **SINIFINI** doğrula, sonra ölç.
+- **1006c (`79b1ad02`) ONAYLANDI:** sıra tam uygulandı — önce YER kapatma denendi,
+  Piłsudski kaynağı Częstochowa ve Łódź'u 1918 bağlamında **anmadı**, gövdeye eklenmedi,
+  tavan SON ÇARE olarak +2 (2245→2247) ve `denetle.py`de **adıyla** gerekçeli, sabitle
+  **aynı commit**. **Kaynağın hükmü verdiği tavan artışı** — meşru olanın tanımı budur.

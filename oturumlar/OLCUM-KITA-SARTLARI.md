@@ -73,6 +73,13 @@ Tırnak **yalnız** gövdeden **BİREBİR** kesilmiş metne konur. Okuma varyant
   yollarını yazdı, W52 onları atlayıp Schreiner'a gitti ve kaynağı buldu.
 - Bir aracın **kaçırma oranını** ölçmeden "yok" deme. Ölçülmüş vaka: TDV tam metin araması
   doğru maddeyi 42/50 döndürüyor (~%16 kaçırma) ⇒ "aday tükendi" **yokluk kanıtı değildir**.
+- 🆕 🔴 **VE O ORAN SABİT DEĞİL, KAYIYOR** (GLM1 ölçtü, 6 Ekim 2026): Eylül'de arama
+  sonucu dönen 137 slugdan **71'i bugün hiçbir sorguda dönmüyor — hepsi CANLI.** Bugün
+  dönen 29 yeni aday var; 19 slugun aday SAYISI değişti. ⇒ **"Eylül'de arandı, bulunamadı"
+  bugün için GEÇERLİ DEĞİLDİR.** Bir yokluk hükmü bir TARİHE bağlıdır: ölçümün gününü
+  yaz, ve eski bir "bulunamadı"yı yeniden aramak mükerrer DEĞİLDİR.
+  📌 Bu, üstteki 42/50'yi çürütmez, **sertleştirir**: oran bilinmiyorsa da, bilinen oran
+  bayatlamışsa da sonuç aynı — yokluk kanıtı yok.
 - **NEGATİFİ DE YAZ:** "atlas DOĞRU" bir bulgudur.
 
 ## 8. ÖNGÖRÜ (`§11`)
@@ -88,6 +95,17 @@ Bir metin işareti / desen eşleşmesi **ÖLÇÜM DEĞİL, ADAY ÜRETİCİSİDİ
 - ⇒ Aday sayısını bulgu diye raporlama. Örneklem **elle** okunur ve oranı yazılır.
 - 🔴 Deseni **VERİYE doğrula**: veri `t:"..."` biçimini kullanıyorsa `"t":` deseni **sıfır**
   döndürür ve bu **güvenilir görünen bir yanlış sıfırdır.**
+- 🆕 🔴 **AD ÜZERİNDEN ÖLÇMEK DE VEKİL ÖLÇÜMDÜR — adlandırma kuralını bilmeden yapılmaz.**
+  Ölçülmüş vaka (koordinatör, 6 Ekim, bu dosyayı commitledikten 20 dakika sonra):
+  `ls denetim/ | grep "W37"` koşturdum, 0 çıktı, "rapor burada yok" hükmü verdim ve bir
+  işçiyi gereksiz işe yönlendirdim. Oysa raporlar **W numarasıyla değil KONUYLA**
+  adlandırılıyor (`KRONOLOJI-COK-PAKET-1006.md`); W numarası dosyanın **İÇİNDE**. Dosya
+  baştan beri ordaydı.
+  ⇒ Bir şeyin "yok" olduğunu ADINDAN hükmetmeden önce **adlandırma kuralını ölç**: iki üç
+  dosyanın adına bak, kuralı gör, sonra ara. Ve ad tutmazsa **İÇERİĞİ** tara (`grep -l`).
+- 🆕 📌 **Ve ters yönde de doğrudur:** bir adın `denetim/` altında GEÇMESİ, o kalemin
+  kapandığını söylemez — kalemi AÇAN rapor da o adı anar. "Mükerrer mi" sorusu ada değil
+  **HÜKME** bakar: o kalem için yazılmış bir hüküm var mı?
 
 ## 10. COMMIT
 ```bash
