@@ -768,62 +768,19 @@ function ufukYukle(bitti) {
   }
 }
 
-// 🔴 5 Ekim 2026 (ARAYUZ-BANT-TAM-1005, H-0013) — BANT TABANIN YERİNE GEÇER.
-// Motor yamasıyla (MOTOR-BANT-TAM-1005.diff) bantlar İÇ İÇE TAM BÖLGE oldu;
-// Emre: "7 seçince sanki 7 demişiz gibi parametresi 7 olan yürüyüşün bölgeleri
-// renklendirilecek." Bant açıkken A'nın siyasî ZEMİN katmanları GİZLENİR,
-// kapanınca geri gelir — üst üste binme bu yüzden YOK: aynı toprakta tek dolgu.
-// ⚠️ Liste ZEMİN katmanlarıdır (dolgu + kenar/şerit/hale + A-rengi yaması
-//    `hukuki-sinir-dolgu`); TANIKLIK katmanları (işgal, isyan, halka, C HATTI,
-//    serbest kenar, Ⓑ) bantla birlikte GÖRÜNMEYE DEVAM EDER — onlar A'nın
-//    parçası değil işaretidir. Etiketler de kalır (okunabilirlik).
-// 🔴 GERİ GETİRME kör "visible" YAZMAZ: siyasî kovasının KUTUSUNA SORAR. O
-//    kutu aynı katmanların İKİNCİ denetçisidir (`katmanSinifla`); kör
-//    "visible" yazsaydık kullanıcı Siyasî'yi kapatmışken A'yı geri açardık —
-//    "iki denetim, biri sessizce kazanır" kusurunun ta kendisi (bkz.
-//    `KATMAN_KUMESI` içindeki ufuk notu). `katmanSeciciKur.uygula()` her
-//    değişimde bizi `zorla` ile yeniden çağırır: Siyasî kutusu bant açıkken
-//    çevrilirse A geri GELMESİN.
-var UFUK_TABAN_KATMANLAR = [
-  "devlet-dolgu", "devlet-cizgi", "imparatorluk-hale",
-  "vassal-serit-dis", "vassal-dolgu",
-  "himaye-serit-dis", "himaye-dolgu", "osmanli-dolgu",
-  "osmanli-cizgi", "himaye-serit-ic", "hukuki-sinir-dolgu"
-];
-var ufukTabanGizli = false;
-function ufukTabanDegistir(gizle, zorla) {
-  if (!zorla && gizle === ufukTabanGizli) return;  // her zaman adımında çağrılır — bedava olmalı
-  ufukTabanGizli = gizle;
-  var kutu = document.querySelector('input[data-katman="siyasi"]');
-  var siyasiAcik = !kutu || kutu.checked;          // kutu yoksa görür gibi davran
-  for (var i = 0; i < UFUK_TABAN_KATMANLAR.length; i++) {
-    try {
-      harita.setLayoutProperty(UFUK_TABAN_KATMANLAR[i], "visibility",
-                               gizle ? "none" : (siyasiAcik ? "visible" : "none"));
-    } catch (e) { /* katman henüz yok — stil geç yüklenebilir */ }
-  }
-}
-
 function ufukGuncelle(t) {
   if (!ufukVeri) return;
   // Açıklık KATMANDAN okunur (bkz. `ufukAcik`) — kapalıysa imza sıfırlanır
   // ki açıldığında kesit yeniden yazılsın (`dolguGuncelle` deseni).
-  if (!ufukAcik() || ufukGun <= 5) {
-    ufukImza = null;
-    ufukTabanDegistir(false);          // 🔴 H-0013: bant yoksa taban AÇIKTIR
-    return;
-  }
+  if (!ufukAcik() || ufukGun <= 5) { ufukImza = null; return; }
   var fs = [], imza = ufukGun + "|";
   for (var k = 0; k < ufukVeri.length; k++) {
     var b = ufukVeri[k];
-    // 🔴 5 Ekim 2026 (ARAYUZ-BANT-TAM-1005, H-0013) — SÖZLEŞME DEĞİŞTİ:
-    //    motor yamasıyla bantlar İÇ İÇE TAM BÖLGE oldu
-    //    (MOTOR-BANT-TAM-1005.diff). Eski kod ARTIŞ halkalarını tabanın
-    //    ÜSTÜNE EKLİYORDU (gun<=5'i atla, seçime kadar topla) — H-0013'teki
-    //    koyuluk/kopukluk bundandı. Artık YALNIZ seçilen günün TAM haritası
-    //    çizilir; taban `ufukTabanDegistir` ile gizlidir. 5 = A'nın kendisi
-    //    ⇒ bant çizilmez (erken çıkış yukarıda).
-    if (b.gun !== ufukGun) continue;
+    // 🔴 SEÇİLEN UFKA KADARKİLER BİRLEŞTİRİLEREK çizilir. Taban bandı
+    //    (<=5) A'nın kendisidir, onu ÇİZMEYİZ — zaten haritada. Yalnız
+    //    ARTIŞ bantları eklenir. Tekdüzelik ölçüldü (0 ihlal), yani
+    //    bantlar örtüşmez ve üst üste binme olmaz.
+    if (b.gun <= 5 || b.gun > ufukGun) continue;
     var dnm = b.dnm || [];
     for (var i = 0; i < dnm.length; i++) {
       var r = dnm[i];
@@ -875,8 +832,6 @@ function ufukSeciciKur() {
       try {
         harita.setLayoutProperty("ufuk-bant-alan", "visibility", ac ? "visible" : "none");
       } catch (e) { /* katman henüz yok */ }
-      ufukTabanDegistir(ac);   // 🔴 H-0013 (ARAYUZ-BANT-TAM-1005): bant tabanın
-                               //    ÜSTÜNE değil, YERİNE geçer — taban gizlenir
       ufukImza = null;                 // kapanınca/açılınca kesit yeniden yazılsın
       if (ac) { try { ufukGuncelle(suanki); } catch (e) {} }
       else {
@@ -2052,26 +2007,20 @@ harita.on("load", function () {
     paint: { "fill-color": ["get", "renk"], "fill-opacity": 1 } });
 
   // ═══════════════════════════════════════════════════════════════════
-  // Ⓑ UFUK BANTLARI — TABANIN YERİNE GEÇEN katman
-  // (B-GORUNUM-0072, 21 Eylül 2026 · ARAYUZ-BANT-TAM-1005, 5 Ekim 2026)
+  // Ⓑ UFUK BANTLARI — A'NIN ALTINDA (B-GORUNUM-0072, 21 Eylül 2026)
   // ═══════════════════════════════════════════════════════════════════
   // Emre'nin kararı: üç bant 5 / 7 / 10 gün. A = 5 gün (bugünkü harita);
-  // 7 ve 10 motorun AYNI koşuda ürettiği İÇ İÇE TAM bölgelerdir (H-0013
-  // sözleşme değişikliği; eski "artış halkası" tasarımı kalktı).
+  // 7 ve 10 motorun AYNI koşuda ürettiği iç içe OLMAYAN artış bantlarıdır.
   //
-  // 🔴 KATMAN SIRASI: `beforeId` çıpası `devlet-dolgu`dur — bant, A zemininin
-  //    eski yerinde durur; etiketlerin ve tanıklık katmanlarının (Ⓑ, C hattı,
-  //    işgal, halka…) ALTINDA kalır. Bant açıkken A zemini `ufukTabanDegistir`
-  //    ile GİZLENİR — bandı tabanın ÜSTÜNE çizip iki dolguyu bindirmeyiz
-  //    (H-0013'teki koyuluk buydu); konum artık çakışma çözümü değil, üst
-  //    katmanların bant ÜZERİNDEN okunabilmesi için bir çıpadır.
-  //    Kenar (`line`) yine YOK: bant kendi kenarını çizmez; gerekirse ayrı
-  //    bir görünüm kararı olarak eklenir.
-  // 📌 `fill-opacity` başlangıcı 1 (sert kip); YUMUŞAK kipte değer
-  //    `SIYASI_KIP`den gelir (OSMANLI 0.68 · ötekiler 0.44) — Emre: "aynı
-  //    renk olmalı." `#8e0b22` geri düşüşü BİLİNÇLİ kalır: ölçüldü, bugünkü
-  //    bant verisinde renksiz kayıt 0/12.397 — düşüş hiç atmıyordu; ileride
-  //    renksiz kimlik doğarsa görünür kırmızı BAYRAK olur, sessiz delik değil.
+  // 🔴 KATMAN SIRASI: bantlar A'nın ALTINDA. `beforeId` ile `devlet-dolgu`nun
+  //    ÖNÜNE konuyor — yani ekleniş sırası değil, AÇIKÇA yazılmış bir çıpa
+  //    belirliyor; araya yeni bir A katmanı girse bile bant altta kalır.
+  //    Gerekçe (1.MURAT, M-4938): A opak kalmalı, ve bant KENDİ KENARINI
+  //    ÇİZMEMELİ — iki kenar üst üste binerse sınır kalınlaşmış görünür.
+  //    Bu yüzden yalnız `fill` var, `line` YOK.
+  // 📌 Bant ile A zaten AYRIK (bant, A'nın ötesine düşen artıştır), yani
+  //    "altta" olmak bir çakışma çözümü değil, bir GÜVENCEdir: kılcal bir
+  //    örtüşme olursa A kazanır.
   harita.addSource("ufuk-bant", agirKaynak());
   harita.addLayer({ id: "ufuk-bant-alan", type: "fill", source: "ufuk-bant",
     layout: { visibility: "none" },
@@ -16127,21 +16076,9 @@ guncelle();
 // donmuş) o denetim bu sözlüğü okuyacak şekilde düzeltilecek.
 var SIYASI_KIP = {
   sert:    { "devlet-dolgu": 1,    "vassal-dolgu": 1,
-             "himaye-dolgu": 1,    "osmanli-dolgu": 1,
-             "ufuk-bant-alan": 1 },
-  // 🆕 5 Ekim 2026 (ARAYUZ-BANT-TAM-1005, H-0013 — Emre: "aynı renk olmalı"):
-  //    ufuk bandı da opaklığını buradan alır; bant açıkken taban GİZLİDİR,
-  //    yani bant TABANIN YERİDİR ve onun değerlerini taşır: OSMANLI kayıtları
-  //    `osmanli-dolgu`nun (0.68), ötekiler `devlet-dolgu`nun (0.44) değerini
-  //    alır. Tek katman iki sayı taşıyamayacağı için İFADE yazılır —
-  //    `setPaintProperty` sayı gibi ifadeyi de kabul eder (MapLibre 4.7).
-  //    Ölçülen dayanak: bantta 12.397 kayıt · 1.626'sı OSMANLI; görevli
-  //    (vassal) kimlik yalnız 14 kayıttır (eflak 6 · bogdan 3 · kirim 5) ve
-  //    bant sözleşmesi "kim ulaştı" olduğundan KENDİ renkleriyle yabancı
-  //    sayılırlar — 0.44 ikinci daldır, bilinen sınırdır.
+             "himaye-dolgu": 1,    "osmanli-dolgu": 1    },
   yumusak: { "devlet-dolgu": 0.44, "vassal-dolgu": 0.60,
-             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68,
-             "ufuk-bant-alan": ["match", ["get", "kim"], "OSMANLI", 0.68, 0.44] }
+             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68 }
 };
 
 // Kipi uygular ve GERÇEKTEN uygulanan katman sayısını döndürür.
@@ -16562,13 +16499,6 @@ function katmanSeciciKur() {
                    + " katman — " + kova.siniflanmamis.join(", ")
                    + " (kovalara girmedi; katman kutuları onları AÇIP KAPATAMAZ)");
     }
-
-    // 🔴 5 Ekim 2026 (ARAYUZ-BANT-TAM-1005) — bant açıkken bu `uygula` A'yı
-    //    GERİ AÇMASIN: ufuk bandı tabanın YERİNE geçer (H-0013). `zorla`
-    //    gerçek — eşik koruması bu yeniden uygulamayı atlatırdı; stil geç
-    //    yüklendiyse ilk seferde yakalanamayan katmanları da ikinci kez
-    //    yakalar (`styledata` bu `uygula`yı yeniden tetikler).
-    try { ufukTabanDegistir(ufukAcik() && ufukGun > 5, true); } catch (e) { /* stil geç */ }
   }
 
   // 🔴 ALTLIK ÜÇ ŞIKLI SEÇİCİ (29 Eylül 2026) — `input[data-katman]`
