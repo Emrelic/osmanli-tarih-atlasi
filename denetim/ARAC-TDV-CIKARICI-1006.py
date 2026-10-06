@@ -73,6 +73,84 @@ def alinti_metinleri(m):
     return [(ad, t) for ad, t in (("OZET", m.get("ozet", "")), ("GOVDE", m["govde"])) if t]
 
 
+# ---- TEK BİREBİR TANIMI (BIREBIR-TANIM-1006) ----
+# "Tırnak kaynakta BİREBİR var mı" sorusunun TEK cevabı burasıdır; W30 tarayıcısı (OZET-OLC) da ALINTI-264 de
+# bunu çağırır. Vaka: aynı #121 `millet` tırnağını W30 kelime sınırlı arayıp YOK, ALINTI-264 sınırsız arayıp
+# BİREBİR saydı. Koordinatör hükmü: kelime SINIRLI; sınır yalnız kenarda bozuluyorsa sessizce elenmez,
+# ADI OLAN `YAKIN-EK` kovasına düşer (D225) ve BİREBİR sayılmaz.
+#   normalleştirme : ARAC-NORMAL-0903.norm (Türkçe İ/ı tuzağı) + alfasayısal dışı her şey → tek boşluk
+#   parça         : ` · ` `...` `…` `[...]` `[…]` ile bölünür; parçalar SIRAYLA ve AYNI metinde aranır
+#   kenar         : SAG = son kelime gövde kelimesinin başı (ek kesilmiş/değişmiş) · SOL = ilk kelime gövde
+#                   kelimesinin sonu · IKI = ikisi birden
+_N_MOD = None
+BIREBIR_BOLUCU = re.compile(r" · |\.\.\.|…|\[\s*\.\.\.\s*\]|\[…\]")
+
+
+def _nrm():
+    global _N_MOD
+    if _N_MOD is None:
+        import importlib.util
+        sp = importlib.util.spec_from_file_location(
+            "nrm0903", os.path.join(os.path.dirname(os.path.abspath(__file__)), "ARAC-NORMAL-0903.py"))
+        _N_MOD = importlib.util.module_from_spec(sp)
+        sp.loader.exec_module(_N_MOD)
+    return _N_MOD
+
+
+@__import__("functools").lru_cache(maxsize=4096)     # aynı gövde binlerce tırnakla karşılaştırılır
+def birebir_norm(s):
+    """Karşılaştırma biçimi: ' kelime kelime ' (iki ucu boşluk dolgulu ⇒ `in` kelime sınırlıdır)."""
+    s = re.sub(r"[^a-z0-9]+", " ", _nrm().norm(s or ""))
+    return " " + re.sub(r"\s+", " ", s).strip() + " "
+
+
+def birebir_parcalari(alinti):
+    """Normalleştirilmiş, dolgulu parçalar; içi boş parça atılır."""
+    return [p for p in (birebir_norm(x) for x in BIREBIR_BOLUCU.split(alinti or "")) if p.strip()]
+
+
+def _sirali(parcalar, t):
+    """Parçalar t içinde SIRAYLA. Önce kelime sınırlı; tutmayan parça için sınırsız (kenar bozuk) aranır.
+    dönüş: None (sırayla yok) ya da her parça için kenar listesi ('' = sınır tam)."""
+    i, kenarlar = 0, []
+    for p in parcalar:
+        j = t.find(p, i)
+        if j >= 0:
+            kenarlar.append(""); i = j + len(p) - 1; continue
+        c = p.strip()
+        j = t.find(c, i)
+        if j < 0:
+            return None
+        sol, sag = t[j - 1] != " ", t[j + len(c)] != " "    # t dolgulu: j ≥ 1 ve j+len(c) < len(t)
+        kenarlar.append("IKI" if sol and sag else "SOL" if sol else "SAG")
+        i = j + len(c)
+    return kenarlar
+
+
+def birebir(alinti, metinler):
+    """TEK BİREBİR TANIMI. metinler: [(ad, metin)], ör. alinti_metinleri(m).
+    dönüş dict(kova, yer, kenar):
+      BIREBIR   bütün parçalar kelime sınırlı, sırayla, AYNI metinde      yer = o metnin adı
+      YAKIN-EK  aynı şart, ama en az bir parçanın KENARI kelimenin ortasına düşüyor (BİREBİR DEĞİLDİR)
+                kenar = parça parça 'SAG' / 'SOL' / 'IKI' ('-' = sınırı tam parça), '|' ile
+      YOK       hiçbir metinde sırayla yok
+      BOS       alıntıda harf/rakam yok (ölçülecek bir şey yok)
+    Birden çok metinde tutarsa BIREBIR > YAKIN-EK; eşitlikte metinler listesindeki sıra."""
+    pp = birebir_parcalari(alinti)
+    if not pp:
+        return dict(kova="BOS", yer="", kenar="")
+    yakin = None
+    for ad, metin in metinler:
+        k = _sirali(pp, birebir_norm(metin))
+        if k is None:
+            continue
+        if not any(k):
+            return dict(kova="BIREBIR", yer=ad, kenar="")
+        if yakin is None:
+            yakin = dict(kova="YAKIN-EK", yer=ad, kenar="|".join(x or "-" for x in k))
+    return yakin or dict(kova="YOK", yer="", kenar="")
+
+
 # ---- 5 Ekim tablolarının ESKİ çıkarıcıları (scratchpad'lerden birebir aktarıldı; yalnız ölçüm için) ----
 def _ham_metin(h):
     h = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", h)
