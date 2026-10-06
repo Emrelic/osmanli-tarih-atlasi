@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """MERGE HAZIRLIK DURUMU — tek ekran. SALT OKUR. ASCII."""
 import io, os, re, sys, subprocess, unicodedata
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def a(s):

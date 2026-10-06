@@ -12,7 +12,7 @@ ONCE sorulur"; yoksa cevabi yanlis alarmlarin gurultusunden okunur).
 SALT OKUR. Cikti ASCII.
 """
 import io, os, sys, math, unicodedata, collections
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
 

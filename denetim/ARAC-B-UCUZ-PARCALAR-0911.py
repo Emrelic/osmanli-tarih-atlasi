@@ -42,7 +42,8 @@ from shapely.ops import unary_union, nearest_points
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ---------------- veri yükle (yalnız oku) ----------------
 ham = io.open(KOK + r"\data\donemler.js", encoding="utf-8").read()

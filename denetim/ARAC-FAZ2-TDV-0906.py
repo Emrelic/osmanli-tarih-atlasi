@@ -12,7 +12,7 @@ import re
 import subprocess
 import sys
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(KOK)
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
