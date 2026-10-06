@@ -1,0 +1,25 @@
+diff --git a/arac/paketle.py b/arac/paketle.py
+index ce98507b..a9314712 100644
+--- a/arac/paketle.py
++++ b/arac/paketle.py
+@@ -172,15 +172,18 @@ def _govde_kur(no, kaynaklar):
+ 
+ def _paket_yaz(no, kaynaklar):
+     """Paketi diske yaz, künye kaydını döndür."""
++    # 🔴 "bayt" da sha gibi DÜZLENMİŞ içerikten (`_duzle`) sayılır (6 Ekim 2026):
++    # ham boyut core.autocrlf=true makinede CRLF'li sayılıyordu ⇒ içerik aynıyken
++    # künyede 222 satır makineden makineye oynuyordu. Künye makineden bağımsızdır.
+     kayit = [{"yol": y, "sha": _sha(_oku_ham(y)),
+-              "bayt": len(_oku_ham(y))} for y in kaynaklar]
++              "bayt": len(_duzle(_oku_ham(y)))} for y in kaynaklar]
+     govde = _govde_kur(no, kaynaklar)
+     ad = "%s%02d.js" % (PAKET_ONEK, no)
+     with io.open(os.path.join(KOK, ad.replace("/", os.sep)), "w",
+                  encoding="utf-8", newline="\n") as f:
+         f.write(govde)
+     return {"paket": ad, "kaynak": kayit,
+-            "bayt": len(govde.encode("utf-8"))}
++            "bayt": len(_duzle(govde.encode("utf-8")))}
+ 
+ 
+ # ---------------------------------------------------------------------------
