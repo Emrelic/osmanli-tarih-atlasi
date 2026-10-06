@@ -180,6 +180,28 @@ def _surec_var(pid, baslangic=None, son_nabiz=None):
     return False, "PID %d YENİDEN KULLANILMIŞ (başlangıç uyuşmuyor)" % pid
 
 
+def _kaynak(d):
+    """(kaynak, not) — bekçi tahtayı NEREDEN okuyor (TAHTA-ORIGIN-OKU-1006).
+
+    🔴 VAKA (6 Ekim 2026): UMIT'teki 11 bekçi CANLI idi ve bu alet CANLI dedi —
+    doğruydu. Ama hepsi YEREL çalışma ağacını okuyordu, ağaç 3 saattir pull
+    edilmemişti, EMRELIC'in 10 görev mesajı hiçbirine ulaşmadı. "Canlı mı"
+    sorusu sorulup "NEYİ okuyor" sorusu sorulmadığı için CANLI = SAĞIR ayırt
+    edilemiyordu.
+      "origin"   fetch ✓ — uzak tahta (∪ yerel) okunuyor
+      "yerel"    fetch ✗ ya da --kaynak yerel ya da depo yok — not ZORUNLU
+      "ESKI"     damgada `kaynak` alanı YOK ⇒ yama ÖNCESİ bekçi; o kod
+                 YALNIZ çalışma ağacını okur (kodla sabit, tahmin değil)
+    """
+    k = d.get("kaynak")
+    if not k:
+        return "ESKI", "yama öncesi bekçi — YALNIZ yerel çalışma ağacını okur, bayat olabilir"
+    not_ = d.get("kaynak_not") or ""
+    if k != "origin" and not not_:
+        not_ = "sebep yazılmamış"
+    return k, not_
+
+
 def oku():
     if not os.path.isdir(DIZIN):
         return []
@@ -236,11 +258,15 @@ def oku():
             #    duruma indirdim. Sınav yakaladı (2 kusur).
             #    `ölçülemedi ≠ yok ≠ temiz` — kendi yamamda ihlal ettim.
             hal = "OLCULEMEDI"
+        kaynak, kaynak_not = _kaynak(d)
         out.append({"ad": d.get("ad") or ad[:-5], "hal": hal, "yas": yas,
                     "ara": ara, "tur": d.get("tur"), "pid": d.get("pid"),
                     "zaman": d.get("zaman"), "sebep": d.get("sebep") or "",
                     "surec": surec_not, "baslangic": d.get("baslangic"),
-                    "dinlenen": d.get("dinlenen") or []})
+                    "dinlenen": d.get("dinlenen") or [],
+                    "kaynak": kaynak, "kaynak_not": kaynak_not,
+                    "fetch_hata": d.get("fetch_hata") or "",
+                    "yerel_ek": d.get("yerel_ek")})
     return out
 
 
@@ -339,7 +365,7 @@ def main(argv):
     print("=" * 74)
     print("BEKCI NABZI — %s" % time.strftime("%Y-%m-%d %H:%M:%S"))
     print("=" * 74)
-    print("%-26s %-11s %-10s %-7s %s" % ("ad", "hal", "son nabiz", "tur", "not"))
+    print("%-26s %-11s %-10s %-7s %-7s %s" % ("ad", "hal", "son nabiz", "tur", "kaynak", "not"))
     print("-" * 74)
     for k in sorted(kayit, key=lambda x: (x["hal"] not in ("ASILI","BITMIS"), x["ad"])):
         not_ = k.get("sebep") or ""
@@ -350,9 +376,11 @@ def main(argv):
             not_ = k["surec"]
         elif k["hal"] == "CIKTI":
             not_ = "duzgun cikis (%s) — olum DEGIL" % (not_ or "sebep yazilmamis")
-        print("%s%-25s %-11s %-10s %-7s %s"
+        if k.get("kaynak") != "origin" and k.get("kaynak_not") and k["hal"] in ("CANLI", "KUSKULU"):
+            not_ = (not_ + " · " if not_ else "") + "kaynak: " + k["kaynak_not"]
+        print("%s%-25s %-11s %-10s %-7s %-7s %s"
               % (ISARET.get(k["hal"], " "), k["ad"], k["hal"],
-                 _sure(k["yas"]), k.get("tur"), not_))
+                 _sure(k["yas"]), k.get("tur"), k.get("kaynak") or "?", not_))
     print("-" * 74)
     asili = [k["ad"] for k in kayit if k["hal"] == "ASILI"]
     bitmis = [k["ad"] for k in kayit if k["hal"] == "BITMIS"]
@@ -380,6 +408,20 @@ def main(argv):
         print("     damga bayat kalıntıdır; `--temizle` ile silinir.")
     if olcx:
         print("? OLCULEMEDI: %s" % ", ".join(olcx))
+    # 🔴 KAYNAK (TAHTA-ORIGIN-OKU-1006): nöbetteki (CANLI/KUSKULU) bir bekçi
+    #    origin'i okumuyorsa CANLI ama SAĞIR olabilir — 6 Ekim vakasının tam hâli.
+    nobet = [k for k in kayit if k["hal"] in ("CANLI", "KUSKULU")]
+    kay = {}
+    for k in nobet:
+        kay.setdefault(k.get("kaynak") or "?", []).append(k["ad"])
+    print("KAYNAK (nöbettekiler): " + (" · ".join(
+        "%s %d" % (x, len(kay[x])) for x in sorted(kay)) or "—"))
+    for x in sorted(kay):
+        if x == "origin":
+            continue
+        print("🔴 %s okuyan nöbetçi: %s" % (x.upper(), ", ".join(kay[x])))
+        print("   ⇒ Başka makinede yazılan mesajı GÖRMEYEBİLİR (tahta bayat olabilir)."
+              " Sebep satırında; 'ESKI' = bekçiyi yeniden kur.")
     # 🔴 Çıkış kodu YALNIZ gerçek alarmla 1 olur. `BITMIS` kodu kirletmez.
     return 1 if (asili or olcx) else 0
 

@@ -187,11 +187,39 @@ def _sade(s):
 
 
 def _oku():
+    """YEREL çalışma ağacındaki tahta. 🔴 Bekçi artık bunu TEK BAŞINA okumaz —
+    `_oku_kaynak()`e bak (TAHTA-ORIGIN-OKU-1006). Geriye dönük uyum için durur."""
     try:
         d = json.load(io.open(TAHTA, encoding="utf-8"))
     except Exception:
         return []
     return d if isinstance(d, list) else (d.get("mesajlar") or [])
+
+
+# ===================== KAYNAK: ORIGIN ∪ YEREL (TAHTA-ORIGIN-OKU-1006) ===========
+# 🔴 VAKA (6 Ekim 2026): `tahta.py yaz` ORIGIN'e push ediyor, bekçi YEREL ağacı
+#   okuyordu, kimse pull etmiyordu ⇒ EMRELIC'in 10 görev mesajı (M-5862…M-5874)
+#   UMIT'teki 11 CANLI bekçiye 3 SAAT ulaşmadı. Nabız CANLI diyordu — doğruydu;
+#   ama "neyi okuyorum" sorulmadığı için bayat tahta TAZE görünüyordu.
+# ⇒ Okuma `tahta_kaynak.Okuyucu`da: fetch (ağaca dokunmaz, ÖZEL ref'e) + git show
+#   + yerel birleşim. Kaynak ADIYLA nabız damgasına yazılır (`kaynak`), fetch
+#   hatası stderr'e VE damgaya düşer. Ayrıntı ve ölçüm: `arac/tahta_kaynak.py`,
+#   `denetim/UMIT-TAHTA-ORIGIN-OKU-1006.md`.
+_OKUYUCU = []          # main() kurar; _nabiz_yaz durumunu buradan okur
+
+
+def _oku_kaynak():
+    if not _OKUYUCU:
+        return _oku()
+    try:
+        return _OKUYUCU[0].oku()
+    except Exception as e:
+        # Okuyucu ASLA bekçiyi düşürmemeli — ama sessiz de geçilmez.
+        _diag("[BEKCI-KAYNAK] 🔴 okuyucu arızası (%s: %s) — YEREL okunuyor"
+              % (type(e).__name__, e))
+        _OKUYUCU[0].durum.update(kaynak="yerel",
+                                 kaynak_not="okuyucu arızası: %s" % type(e).__name__)
+        return _oku()
 
 
 def _defter_adlari(benler):
@@ -308,8 +336,19 @@ def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
     y = _nabiz_yol(kim)
     if not y:
         return
+    # 🔴 ŞART ② (TAHTA-ORIGIN-OKU-1006): damga HANGİ KAYNAKTAN okunduğunu söyler.
+    #   Okuyucu kurulmadıysa (eski çağrı / sınav) "yerel" + sebep — sessiz değil.
+    if _OKUYUCU:
+        _kd = _OKUYUCU[0].durum
+        kaynak = {"kaynak": _kd.get("kaynak"), "kaynak_not": _kd.get("kaynak_not") or "",
+                  "uzak": _kd.get("uzak"), "fetch_ok": _kd.get("fetch_ok"),
+                  "fetch_hata": _kd.get("fetch_hata") or "", "fetch_ms": _kd.get("fetch_ms"),
+                  "fetch_son_basari": _kd.get("fetch_son_basari"),
+                  "yerel_ek": _kd.get("yerel_ek")}
+    else:
+        kaynak = {"kaynak": "yerel", "kaynak_not": "okuyucu kurulmadı (yalnız çalışma ağacı)"}
     try:
-        io.open(y, "w", encoding="utf-8").write(json.dumps({
+        io.open(y, "w", encoding="utf-8").write(json.dumps(dict({
             "ad": kim,
             "durum": durum,          # nobette | cikti
             "sebep": sebep,          # cikisin sebebi (durum=cikti ise)
@@ -320,7 +359,7 @@ def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
             "tur": tur_no,
             "ara": ara,
             "dinlenen": sorted(benler) if benler else [],
-        }, ensure_ascii=False))
+        }, **kaynak), ensure_ascii=False))
     except Exception:
         pass
 # ===================== /NABIZ DAMGASI ====================================
@@ -393,13 +432,41 @@ def main(argv):
     toplu = (float(argv[argv.index("--toplu") + 1])
              if "--toplu" in argv else 0.0)
 
+    # 🔴 KAYNAK (TAHTA-ORIGIN-OKU-1006). Varsayılan ORIGIN (∪ yerel).
+    #   --kaynak yerel   eski davranış — damgaya AÇIKÇA "yerel (bayrakla)" düşer
+    #   --uzak / --dal   okunan uzak dal (varsayılan origin/main)
+    #   --fetch-ara SN   iki fetch arası en az süre (varsayılan 60 sn). Ölçüm ve
+    #                    gerekçe: denetim/UMIT-TAHTA-ORIGIN-OKU-1006.md
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import tahta_kaynak
+    _mod = argv[argv.index("--kaynak") + 1] if "--kaynak" in argv else "origin"
+    if _mod not in ("origin", "yerel"):
+        _diag("--kaynak yalnız 'origin' ya da 'yerel' olabilir")
+        return 2
+    _OKUYUCU[:] = [tahta_kaynak.Okuyucu(
+        TAHTA,
+        uzak=argv[argv.index("--uzak") + 1] if "--uzak" in argv else "origin",
+        dal=argv[argv.index("--dal") + 1] if "--dal" in argv else "main",
+        ref=tahta_kaynak.ref_adi(kim),
+        fetch_ara=(float(argv[argv.index("--fetch-ara") + 1])
+                   if "--fetch-ara" in argv else 60.0),
+        mod=_mod, bildir=_diag)]
+    anahtar = tahta_kaynak.anahtar
+
     if "--defter-yok" not in argv:
         benler, okundu = _defter_adlari(benler)
         if not okundu:
             _diag("[BEKCI] ⚠️ defter.json okunamadı — YALNIZ elle verilen "
                   "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
 
-    gorulen = {m.get("no") for m in _oku()}
+    # 🔴 Kimlik `no` DEĞİL `anahtar(m)` = (no, kimden, zaman): origin ∪ yerel
+    #   birleşiminde push'u düşmüş yerel bir mesaj ile origin'deki başka bir
+    #   mesaj AYNI numarayı taşıyabilir; `no` ile biri ötekini gizlerdi.
+    # 📌 İlk okuma da AYNI kaynaktan: yerelden okusaydık origin'de bekleyen
+    #   eski mesajlar ilk turda "yeni" sanılır; `--cik` + `son_dosya` varken
+    #   ise son görülen numaradan SONRAKİ origin mesajları DOĞRU olarak yeni
+    #   sayılır — 3 saat kaçan birikim ilk kurulumda TESLİM edilir.
+    gorulen = {anahtar(m) for m in _oku_kaynak()}
     # 🔴 19 Eylül 2026 — `--cik` KABUK ARKA PLANINDA (Bash run_in_background)
     # varsayılan yol oldu: Monitor 30 dk'da bir SÜRESİ DOLUP oturumu boşuna
     # uyandırıyordu (Emre: "bekçi neden zırt pırt yeniden kuruluyor").
@@ -409,6 +476,8 @@ def main(argv):
     son_dosya = os.path.join(os.path.dirname(os.path.abspath(TAHTA)),
                              ".bekci_son_" + re.sub(r"[^A-Za-z0-9]+", "_", kim) + ".txt")
     def _no(x):
+        if isinstance(x, tuple):
+            x = x[0]
         try:
             return int(str(x or "M-0").split("-")[-1])
         except ValueError:
@@ -422,9 +491,15 @@ def main(argv):
     # 🔴 BANNER — STDERR (18 Eylül 2026, bkz. dosya başı KULLANIM). Bu
     # satır gerçek bir mesaj DEĞİL; stdout'ta durursa Monitor onu her
     # kurulumda bir bildirim sayar ve boş nöbeti bile uyandırır.
+    _kd0 = _OKUYUCU[0].durum
     _diag("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn%s"
+          " · kaynak: %s%s"
           % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara,
-             (" · toplu:%.0f sn" % toplu) if toplu > 0 else ""))
+             (" · toplu:%.0f sn" % toplu) if toplu > 0 else "",
+             (_kd0.get("kaynak") or "?").upper(),
+             (" (%s)" % _kd0["kaynak_not"]) if _kd0.get("kaynak_not") else
+             (" %s · fetch %s ms · yerel_ek %s" % (_kd0.get("uzak"), _kd0.get("fetch_ms"),
+                                                    _kd0.get("yerel_ek")))))
     n = 0
     havuz = []
     son_toplu = time.time()
@@ -435,13 +510,16 @@ def main(argv):
     while True:
         time.sleep(ara)
         n += 1
+        # Okuma nabızdan ÖNCE: damga bu turun kaynağını (fetch ✓/✗) taşısın,
+        # bir önceki turunkini değil. Fetch zaman aşımı 45 sn < ara×2,5.
+        liste = _oku_kaynak()
         _nabiz_yaz(kim, "nobette", n, ara, benler)
         yeni = []
         tuzak = []
-        for m in _oku():
-            if m.get("no") in gorulen:
+        for m in liste:
+            if anahtar(m) in gorulen:
                 continue
-            gorulen.add(m.get("no"))
+            gorulen.add(anahtar(m))
             # 🔴 KENDİ MESAJIM BENİ UYANDIRMAZ (23 Eylül 2026, ölçülerek).
             # Vaka: koordinatör ACİL bir HERKES duyurusu yazdı; duyuru
             # bütün bekçileri uyandırdı — YAZANIN kendi bekçisi dâhil.
@@ -536,6 +614,16 @@ def main(argv):
                 _bas("%s %s → %s: %s"
                      % (m.get("no"), m.get("kimden"), m.get("kime"),
                         (m.get("mesaj") or "")[:120]))
+        # 🔴 UYANAN OTURUM MESAJI YERELDE BULAMAYABİLİR: bekçi origin'den gördü,
+        #   ama `tahta.py oku` (varsayılan) YEREL ağacı okur. Teşhis stderr'e —
+        #   uyandırmaz, log'da durur; okuma yolu adıyla verilir.
+        if yeni and _OKUYUCU:
+            _yk = {anahtar(x) for x in (_OKUYUCU[0]._yerel_liste or [])}
+            _yok = [m.get("no") for m in yeni if anahtar(m) not in _yk]
+            if _yok:
+                _diag("[BEKCI-KAYNAK] %s YEREL ağaçta YOK (origin'den görüldü). Okumak için: "
+                      "py arac/tahta.py oku --kim \"%s\" --kaynak origin"
+                      % (", ".join(str(x) for x in _yok), kim))
         # 🔴 HAVUZ KAÇAĞI — SINAMADA BULUNDU (17 Eylül 2026, ARAC-BEKCI).
         # Pencere kapanmadan süreç ÇIKARSA (`--tur` ya da `--cik`), o ana
         # kadar havuzda biriken eşleşmiş mesajlar hiç basılmadan gider —
