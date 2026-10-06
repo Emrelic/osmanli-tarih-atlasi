@@ -1,13 +1,14 @@
-# D268 — Toplayıcının kendi tanımını okumamak: bir gecede DÖRT vaka
+# D268 — Toplayıcının kendi tanımını okumamak: bir gecede BEŞ vaka
 
 **Slogan:** *Bir sayıyı okumak, onu üreten toplayıcının ANAHTARINI okumaktır. Anahtarı
 okunmamış bir sayı, ölçtüğünü sandığın şeyi ölçmez.*
 
 6 Ekim 2026 gecesi, KOŞU 21 sürerken, `Değişmez 8a`nın `1508 → 1509` oynamasının sebebi
-arandı. Cevap dört adımda bulundu ve **her adım bir önceki adımın hatasıydı.** Dördü de
-aynı kusurdan: toplayıcının/karşılaştırıcının kendi tanımını okumamak. İkisi
-koordinatörün (YILDIRIM BAYEZIT), ikisi denetleyicinin (LAB) işinde — yani kusur kişiye
-değil **işin kendisine** bağlı.
+arandı. Cevap dört adımda bulundu ve **her adım bir önceki adımın hatasıydı**; beşinci
+vaka ise cevabın kendisinde, yani **çarenin içinde** çıktı. Beşi de aynı kusurdan:
+toplayıcının/karşılaştırıcının kendi tanımını okumamak. **Üçü koordinatörün (YILDIRIM
+BAYEZIT), ikisi denetleyicinin (LAB) işinde** — yani kusur kişiye değil **işin kendisine**
+bağlı; ve ikisi de kusuru *kendi* işinde bulup geri döndü.
 
 ---
 
@@ -61,6 +62,26 @@ düzeyinde net: **+250 / −646**.
 
 > **Kural:** bir duyarlılık ölçümü, sayacın **gruplama düzeyinde** yapılır. Birim düzeyinde
 > yapılan sayım, birleşmeleri bölünme gibi gösterir ve işareti ters çevirir.
+
+---
+
+## Vaka 5 (koordinatör) — ÇARENİN İÇİNE aynı kusuru koymak
+Dört vaka teşhis edildikten sonra koordinatör çareyi tasarladı: *"ihlal etikete DUYARSIZ
+ölçüye bağlanacak — **ham parça 1637** ve taşma alanı"*. İki gövdede `1637 = 1637` çıkmıştı.
+
+**Gerçek:** `1637`, `R["a"]`nın **girdi sayısıdır** = parça × etiket. Bir parça iki etikete
+bölünürse **2 satır** olur ⇒ sayı etikete **DUYARLIDIR**. Eşitlik TESADÜFTÜ. LAB dinamik
+olarak kanıtladı: **1509 senaryonun 822'sinde girdi sayısı değişiyor** (−1: 518 · +1: 231 …).
+Aynı aileden ikinci hata: koordinatörün "taşma 1.895.260 km²" dediği şey **ETİKET** alanıydı
+(küçük paylar eşik altında düşer); **parça alanı 1.895.364**.
+Gerçekten etikete duyarsız iki ölçü (parçalar etiketlemeden ÖNCE kaydedilerek):
+**geometrik parça 1101** · **parça alanı 1.895.364 km²** — üç gövdede birebir aynı.
+
+> 🔴 **Kural:** İKİ ÖLÇÜMDE AYNI ÇIKAN SAYI KARARLI DEĞİLDİR. Kararlılık statik eşitlikle
+> değil, **değiştirici bir senaryoyla** sınanır — iki nokta bir eğri tarif etmez.
+> Ve bu vaka ötekilerden tehlikelidir: kusur **çarenin içine** yerleşmişti ve orada
+> "duyarsız" etiketiyle kapıya girecekti. Bir kusuru teşhis etmek, çaresini o kusurdan
+> bağışık kılmaz.
 
 ---
 

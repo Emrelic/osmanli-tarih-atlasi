@@ -41,3 +41,6 @@
 | toplam alan | hayır | 1 895 260 = 1 895 260 |
 
 Bugünkü tavan, motorun geometrisi değişmeden de **veri etiketleriyle** oynuyor. Yani tavan iki şeyi birlikte ölçüyor: taşma ve etiketleme. Parça sayısı ya da alan yalnız birincisini ölçer. Ama bir uyarıyla: etiket, raporun **okunabilirliği** için gerekli ("hangi şehrin peteği"). Sayacı değiştirmek etiketi raporda tutmayı engellemez.
+
+---
+> 🔴 **DÜZELTME (LAB-8A-ESIK-1006):** Yukarıdaki tabloda *"ham parça sayısı — etikete duyarlı mı: hayır"* satırı **YANLIŞ.** "Ham parça 1637" `R["a"]` girdisidir (parça × etiket) ve etiket çıkışı senaryolarının 822/1509'unda oynar; 600e/2fe8 eşitliği tesadüftü. Etiketten bağımsız olanlar **geometrik parça sayısı (1101)** ve **parça alanı (1 895 364 km²)**: üç gövdede de birebir.

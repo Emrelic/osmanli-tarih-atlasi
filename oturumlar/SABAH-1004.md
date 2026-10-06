@@ -2304,3 +2304,65 @@ Senaryoların gerçekçilik ağırlığı · eşzamanlı hareketler (Δ'lar topl
 şehrinin TAŞINMASI · GİRİŞ'te 3° kutu dışı adaylar · **eşik eğrisi** (5 km²; bölünen
 parçalar çoğu 4-8 km² ⇒ duyarlılığın bir kısmı eşik artefaktı olabilir — bu, (A)'nın
 TASARIMINI etkiler, kararı değil).
+
+### ㉘d 🔴 TASARIMIMDAKİ SAYI YANLIŞTI — "1637 ham parça" ETİKETE DUYARLI (LAB yakaladı)
+
+**㉘ · ㉘b · ㉘c'de geçen "ham parça 1637" ve "taşma 1.895.260 km²" rakamları, (A)
+seçeneğinin dayanağı olarak YANLIŞTIR.** Yukarıdaki bölümleri silmiyorum (hükümlerin
+gerekçesi onlarda), ama **kapıya girecek sayılar bunlardır:**
+
+```
+8a-alan     PARÇA ALANI        1.895.364 km²   ← KAPI ÖLÇÜSÜ (birincil)
+8a-parca    GEOMETRİK PARÇA    1101            ← KAPI ÖLÇÜSÜ (ikincil)
+8a-birim    mevcut sayaç       1509            ← yalnız RAPOR KOLONU
+8a-girdi    R["a"] girdisi     1637            ← ❌ KULLANILMAZ, etikete DUYARLI
+            (etiket alanı 1.895.260 km² de aynı sebeple kullanılmaz)
+```
+
+#### Niçin 1637 yanlıştı — ve niçin bu en tehlikeli hata türü
+`1637`, `R["a"]`nın **girdi sayısıdır** = parça × etiket. Bir parça iki etikete bölünürse
+**2 satır** olur. `600e`/`2fe8`'de `1637 = 1637` çıkması **TESADÜFTÜ**.
+LAB dinamik olarak kanıtladı: **1509 senaryonun 822'sinde girdi sayısı değişiyor**
+(−2: 14 · −1: 518 · 0: 687 · +1: 231 · +2: 45 · +3: 14).
+🔴 **Yani etikete DUYARLI bir sayıyı, duyarlılığın çaresi olarak kapıya koyacaktım.**
+> **Ders:** iki ölçümde aynı çıkan sayı KARARLI DEĞİLDİR. Kararlılık statik eşitlikle
+> değil, **değiştirici bir senaryoyla** sınanır — iki nokta bir eğri tarif etmez.
+Aynı aileden ikinci hata: benim "taşma 1.895.260" dediğim şey **ETİKET** alanıydı (küçük
+paylar eşik altında düşer); **parça alanı 1.895.364**.
+
+#### Gerçekten etikete duyarsız iki ölçü (parçalar etiketlemeden ÖNCE kaydedilerek ölçüldü)
+`GEOMETRİK PARÇA 1101` ve `PARÇA ALANI 1.895.364 km²` — **üçü de (`600e` · `99d3` · `2fe8`)
+birebir aynı.**
+
+#### Eşik eğrisi — alan tartışmayı bitiriyor
+```
+eşik   geom.parça   parça alanı     girdi   anahtar
+  1      1131       1.895.516       1693    1554
+  2      1127       1.895.500       1689    1552
+  4      1107       1.895.396       1669    1536
+  5      1101       1.895.364       1637    1509
+  8      1080       1.895.212       1626    1502
+ 10      1060       1.895.016       1592    1479
+ 20      1021       1.894.312       1515    1418
+```
+**Parça alanı 1→20 aralığında yalnız 1.204 km² (%0,064)** oynuyor; 5→10'da 348 km²
+(%0,018). Parça SAYISI ise %9,7 oynuyor. ⇒ **Alan, eşiğe karşı da en sağlam ölçü.**
+
+### 🔴 SENDEN İSTEDİĞİM İKİNCİ (KÜÇÜK) KARAR — eşik
+`8a-parca` kapıda kalacağı için eşik onu etkiliyor (alanı etkilemiyor).
+```
+(i)  EŞİK 5 km² KALSIN   süreklilik; ama LAB bir sessiz sınıf ölçtü: 5'te 10 parça
+     parça testini geçiyor ama TEK ÖRNEKLİ (4 km²) ⇒ "parça VAR, birim ÜRETEMEZ,
+     raporda GÖRÜNMEZ". Eşiğin iki yüzü uyuşmuyor: parça testi gerçek `d.area`ya,
+     etiket testi örnek SAYISINA bakıyor.
+(ii) EŞİK 8 km² OLSUN    ÖNERİM. O sınıfı SIFIRLIYOR. Bedeli −21 parça / −152 km²,
+     yani alanın %0,008'i. İki örnekli parça da 18 → 13'e iner.
+```
+📌 Bu sadece `8a-parca` için önemli; `8a-alan` birincil ölçü olduğu sürece kapının hükmü
+değişmez. Yani (i)'yi seçmek bir kayıp değil, yalnız bir sessiz sınıfın sürmesi demek.
+
+### Hâlâ ölçülüyor — kapı ölçüsünün KENDİ hassasiyeti
+LAB'e son ölçüm verildi (`LAB-8A-IZGARA-1006`): `1.895.364` gerçek `d.area`dan mı geliyor,
+yoksa 2 km ızgaranın 4 km²'lik basamaklarından mı? **Üç gövdede birebir aynı çıkması,
+ızgara kuantizasyonunun farkı yutması da olabilir** — tam `1637 = 1637` tesadüfünü
+yakaladığımız mantıkla. `8a-alan`ı kapıya koymadan önce neyin ölçüsü olduğunu bilmem lazım.
