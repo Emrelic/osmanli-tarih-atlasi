@@ -169,3 +169,54 @@ Romanya ağacından çıkınca birimi 114/129 km'deki iki şehre geçti.
 LAB aynı salt okunur betiği yeni geometriyle ~1 dk'da koşturacak ve `8a` ile bu hat-gününü
 yeniden ölçecek. **Beklenti yazılmıyor:** KOŞU 21 Lugos'u yeni kaydıyla çizecek, taşma ve
 etiket değişebilir. Tavan ancak o ölçümden sonra oynatılır (§3.4(0)).
+
+---
+
+# 🟢 NİHAÎ CEVAP — +1'i NE VERİ NE BAYAT GÖVDE, **SAYAÇ TANIMI** ÜRETTİ
+
+`LAB-8A-ALAN-1006` + benim kod ölçümüm. Bu, bu belgedeki **dördüncü ve son** hükümdür;
+önceki üçü sırayla Saarbrücken → Hanak → "veri" idi ve üçü de eksikti.
+
+## Ölçüm — geometri hiç değişmedi
+```
+600e2d00   ham parça 1637 · taşma 1.895.260 km² · 8a sayacı 1508 · çok parçalı anahtar 118
+2fe8ada7   ham parça 1637 · taşma 1.895.260 km² · 8a sayacı 1509 · çok parçalı anahtar 117
+```
+**Ham parça aynı, taşma alanı BİREBİR aynı, sayaç +1.** Lugoj'un `s:` düzeltmesi taşmayı
+değiştirmedi; o taşmanın **etiketini** böldü: tek anahtar (Lugos 612 + Lugos 1080) →
+iki anahtar (Orsova 612 + Tırgu Jiu 1080). Alanlar ve derinlikler birebir aynı.
+
+⚠️ Ve LAB'in bana bildirdiği *"alan 612 → 1692 km²"* rakamı **LAB'in kendi ölçüm
+hatasıydı** — ayrıntıyı `{anahtar: parça}` sözlüğünde topluyordu, Lugos'un aynı anahtarlı
+iki parçasından sonuncusu öncekini EZDİ ve 1080 km² görünmez oldu. Kendisi buldu ve
+geri geldi. Teşhisi aynen alınıyor:
+> **Tekilleştiren anahtarla toplanan ayrıntı, tekilleştirileni GİZLER.**
+📌 Bu, benim *"defter farkı = yeni birim"* hatamla **aynı ailedir**: ikisi de
+toplayıcının/karşılaştırıcının KENDİ TANIMINI okumamak. Aynı gece, iki ayrı oturum,
+aynı sınıf — ders adayı.
+
+## KÖK SEBEP (ben kodda ölçtüm): beyan ile kod ayrışmış
+`denetle.py:5447` → anahtar `hat|gün|yan|yer`.
+`yer` nereden geliyor (`:5388-5399`): `A = agac(karsi_ad, gun)` ile **KARŞI YAKANIN**
+ağacı kurulur, ızgara örneğine `query_nearest` ile karşı yakanın **en yakın yerleşimi**
+atanır. ⇒ **`yer` = TAŞILAN yerleşim, TAŞAN DEĞİL.**
+Oysa Değişmez 8'i getiren commit (`595e9947`) birimi *"≥5 km **taşan yerleşim**"* diye
+tarif ediyor. **Tavan, tanımın adını koyduğu birimi hiç ölçmüyor.** Anahtar
+fonksiyonunda tek satır yorum yok; gerekçe kodda, commit mesajında ve `D237`de YOK.
+
+## SONUÇ — bu belgedeki hüküm zinciri ve her adımın niçin eksik olduğu
+| # | hüküm | niçin eksikti |
+|---|---|---|
+| ① | sebep **Saarbrücken** | kapı çıktısı Hanak diyordu — hipotez, ölçüm değildi |
+| ② | sebep **Hanak** | kapının `ic − defter["a"]` farkını "yeni birim" sandım |
+| ③ | sebep **VERİ** (bayat gövde değil) | ikilik yanlış kuruldu; ölçüm karışık gövdede |
+| ④ | sebep **SAYAÇ TANIMI** | geometri hiç değişmemiş; ham parça ve alan BİREBİR aynı |
+📌 Dördü de "ölçüm doğru, çıkarım yanlış" ailesindendi ve her biri **bir önceki ölçümün
+evrenini genişletince** çürüdü. Tek ortak kusur: **ölçtüğüm şeyin TANIMINI sormamak.**
+
+## AÇIK — ikisi de sıraya girdi
+1. **Emre'nin kararı** (`SABAH-1004 ㉘`): ihlal etikete duyarsız ölçüye mi bağlanacak (A),
+   birim tanıma mı uydurulacak (B), olduğu gibi mi kalacak (C)? Önerim (A).
+2. **LAB ölçüyor** (`LAB-8A-KIRILGANLIK-1006`): 117 çok parçalı anahtar / 128 fazladan
+   parça ⇒ tavanın haritada hiçbir şey değişmeden oynayabileceği **ÜST SINIR** kaç?
+🔴 **8a tavanı bu ikisi kapanmadan OYNATILMAYACAK.**

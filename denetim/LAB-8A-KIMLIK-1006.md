@@ -54,3 +54,6 @@
 
 - Tırgu Jiu'nun +1080 km²'sinin kaynağı.
 - Lugos'un `macaristan-naiplik` dönemi D8'in "fiili" hattıyla (`d1920-hu-ro-fiili`, Paris hattı) aynı gün ölçülüyor. De jure atıf × fiili hat, tasarımsal bir kategori karşılaştırması mı, yoksa kusur mu: bu bir yöntem sorusu, cevaplamadım.
+
+---
+> 🔴 **DÜZELTME (LAB-8A-ALAN-1006):** Yukarıdaki *"Toplam alan da değişti: 612 → 1692 km²"* cümlesi **YANLIŞ** ve hata benim betiğimdeydi: ayrıntı sözlüğü aynı anahtarlı ikinci parçanın (Lugos 1080 km²) üzerine yazdı. Ham parça listesi: ÖNCE Lugos 612 + Lugos 1080, SONRA Orsova 612 + Tırgu Jiu 1080. **Alan sabit (1692 = 1692), evren toplamı sabit (1 895 260 km², 1637 parça).** +1 yalnız etiket bölünmesi. Ayrıntı: `LAB-8A-ALAN-1006.md`.

@@ -2136,3 +2136,61 @@ ayarı**, makine senin, ve koşu sürerken pagefile'a dokunmak koşuyu o anda ö
 kalıcı bir değişiklik**. Ben ölçtüm, seçmedim.
 📌 Niçin acelesi yok ama unutulmamalı: bu koşu bitse bile **bir sonraki tam inşa aynı
 duvara gelecek.** Bir koşuyu 3 dakikada kaybetmek ucuz, **3 saatte** kaybetmek pahalı.
+
+---
+
+## ㉘ 🔴 DEĞİŞMEZ 8a'NIN SAYMA BİRİMİ, TANIMIN ADINI KOYDUĞU BİRİM DEĞİL — senin kararın
+
+Bu, Değişmez 8'i **sen** tanımladığın için (H-0069/H-0086) senin kararın. Ben ölçtüm, seçmedim.
+
+### ① Ne ölçüldü — geometri HİÇ değişmeden tavan oynadı
+LAB iki gövdeyi aynı betikle ölçtü (`LAB-8A-ALAN-1006`, `LAB-8A-KIMLIK-1006`):
+```
+600e2d00   ham parça 1637 · taşma 1.895.260 km² · 8a sayacı 1508 · çok parçalı anahtar 118
+2fe8ada7   ham parça 1637 · taşma 1.895.260 km² · 8a sayacı 1509 · çok parçalı anahtar 117
+```
+**Ham parça aynı. Taşma alanı BİREBİR aynı. Sayaç +1.** Sebep: Lugoj'un `s:` düzeltmesi
+(`8b95eeb63`) taşmayı değiştirmedi, yalnız o taşmanın **etiketini** böldü — tek anahtar
+(Lugos) iki anahtar (Orsova + Tırgu Jiu) oldu.
+⇒ **8a tavanı, haritada hiçbir şey değişmeden ±n oynayabiliyor.** İki yönde de bozuk:
+doğru bir veri düzeltmesi **yanlış ÖTÜYOR**, ters yönde bir etiket birleşmesi gerçek bir
+taşma artışını **yanlış SUSTURUR**.
+
+### ② KÖK SEBEP — ben kodda ölçtüm, ve beyan ile kod ayrışmış
+`arac/denetle.py:5447` anahtarı: `hat | gün | yan | yer`.
+`yer` nereden geliyor (`:5388-5399`): `A = agac(karsi_ad, gun)` ile **KARŞI YAKANIN**
+ağacı kurulur, ızgara örneğine `query_nearest` ile **karşı yakanın EN YAKIN yerleşimi**
+atanır, `yer=kim` o ad olur.
+🔴 **Yani `yer` = TAŞILAN (komşunun, ihlâle uğrayan) yerleşim. TAŞAN yerleşim DEĞİL.**
+Oysa Değişmez 8'i getiren commit (`595e9947`) birimi şöyle tarif ediyor:
+> *"8a petek × D/E/F hattı (**≥5 km taşan yerleşim**) — 1611 birim"*
+⇒ **Beyan "taşan yerleşim" diyor, kod "taşılan yerleşim"i sayıyor.** Tavan, tanımın adını
+koyduğu birimi **hiç ölçmüyor**. Anahtar fonksiyonunda tek satır yorum da yok — gerekçe
+hiçbir yerde yazılı değil (aradım: kod, commit mesajı, `D237`).
+
+### ③ ÜÇ SEÇENEK — önerim (A)
+```
+(A) İHLALİ ETİKETE DUYARSIZ ÖLÇÜYE BAĞLA        ← ÖNERİM
+    ham parça sayısı + taşma km² ihlali belirler · "yer" etiketi RAPORDA kalır
+    (hangi şehir/hangi hat okunabilirliği değerli). Geometri değişmeden tavan oynamaz.
+    Bedel: tavan sayısı bir kez yeniden kurulur (1637 parça / 1.895.260 km² tabanı).
+(B) BİRİMİ TANIMA UYDUR — "TAŞAN yerleşim"i say
+    Beyanla kodu hizalar ve senin cümlene en yakın olan bu. Ama kod bugün taşan
+    yerleşimi HESAPLAMIYOR (karşı yakanın ağacını kuruyor); yeni hesap gerekir ve
+    o hesap bir KOŞU istemez ama motor çıktısını yeniden taramak ister.
+(C) OLDUĞU GİBİ KALSIN
+    Bedel sıfır, ama bu gece ölçüldü: tavan haritada hiçbir şey değişmeden oynuyor.
+    En kötü hâlin ÜST SINIRI ölçülüyor (117 çok parçalı anahtar, 128 fazladan parça ⇒
+    teorik olarak +128'e kadar) — LAB'e verildi, sabaha kadar sayı gelecek.
+```
+📌 (A) ile (B) birbirini dışlamıyor: (A) hemen inebilir, (B) ayrı bir iş olarak sıraya
+girebilir. Benim yapmayacağım şey **(C)'yi sessizce sürdürmek**.
+
+### ④ Benim şimdiye kadar YAPTIĞIM ve YAPMADIĞIM
+**YAPMADIM:** `denetle.py`ye dokunmadım — KOŞU 21 sürerken donuk, ve dahası bu bir
+**ölçüt** değişikliği, senin tanımına dokunuyor.
+**YAPACAĞIM (senin onayını beklemeyen kısım):** koşu sonrası ölçüm raporuna ham parça +
+taşma alanı **BİLGİ olarak** eklenecek. Bilgi eklemek ihlal ölçütünü değiştirmez; (A)'yı
+seçersen zemin hazır olur.
+🔴 **8a tavanı bu karar verilene kadar OYNATILMAYACAK** (§3.4(0): sebebi ve birimi
+tartışmalı olan sayı tavan olmaz).
