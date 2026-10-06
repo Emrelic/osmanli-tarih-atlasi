@@ -9127,6 +9127,32 @@ var TUR_ADI = { padisah:"Padişahlar", sadrazam:"Sadrazamlar", "vezir-pasa":"Vez
   edebiyatci:"Edebiyatçılar", hanedan:"Hanedan",
   "yabanci-hukumdar":"Yabancı Hükümdarlar", "yabanci-komutan":"Yabancı Komutanlar", siyasi:"Siyasî Figürler" };
 
+// Kişiler sekmesinin grupları: önce TUR_ADI sırası, sonra tanınmayan türler
+// (ham değer, büyük harfle) ve en sonda `tur` alanı OLMAYAN kayıtlar.
+// Tanınmayan / türsüz kayıt sayısı konsola basılır — sessiz kayıp YOK.
+function kisiGruplari(kisiler) {
+  var TURSUZ = "(tür belirtilmemiş)", gruplar = {};
+  kisiler.forEach(function (k) {
+    var t = k.tur || TURSUZ;
+    (gruplar[t] = gruplar[t] || []).push(k);
+  });
+  var diger = Object.keys(gruplar).filter(function (t) { return !TUR_ADI[t] && t !== TURSUZ; });
+  var sira = Object.keys(TUR_ADI).concat(diger, gruplar[TURSUZ] ? [TURSUZ] : []);
+  var bilinmeyen = 0;
+  var sonuc = [];
+  sira.forEach(function (t) {
+    if (!gruplar[t]) return;
+    if (!TUR_ADI[t]) bilinmeyen += gruplar[t].length;
+    sonuc.push({ tur: t, kisi: gruplar[t],
+                 ad: TUR_ADI[t] || (t === TURSUZ ? t : t.charAt(0).toUpperCase() + t.slice(1)) });
+  });
+  if (bilinmeyen)
+    console.warn("Atlas: Kişiler — TUR_ADI'de olmayan tür: " + bilinmeyen + " kayıt (" +
+                 diger.concat(gruplar[TURSUZ] ? [TURSUZ] : []).map(function (t) {
+                   return t + " " + gruplar[t].length; }).join(", ") + ") — ham adıyla gösterildi");
+  return sonuc;
+}
+
 function dizinDoldur(sekme) {
   var kutu = document.getElementById("dizin-icerik");
   kutu.innerHTML = "";
@@ -9146,12 +9172,14 @@ function dizinDoldur(sekme) {
   }
   if (sekme === "kisiler") {
     baslik("Padişahlar (36) — tarih ilerledikçe üstteki kartta");
-    var gruplar = {};
-    (window.KISILER || []).forEach(function (k) { (gruplar[k.tur] = gruplar[k.tur] || []).push(k); });
-    Object.keys(TUR_ADI).forEach(function (tur) {
-      if (!gruplar[tur]) return;
-      baslik(TUR_ADI[tur] + " (" + gruplar[tur].length + ")");
-      gruplar[tur].forEach(function (k) { satir(k.ad, k.donem || "", k.not || ""); });
+    // 🆕 6 Ekim 2026 (APP-KISI-BASLIK-1006) — tanınmayan `tur` artık SESSİZCE
+    // ELENMEZ: ham değeriyle kendi başlığı altında gösterilir ve konsola sayılarak
+    // basılır (D225). Devlet dizinindeki (`DEVLET_TUR_ADI` + `digerTurler`) kalıbın
+    // aynısı. Ölçüldü (W42): `sehzade`/`valide` kartvizitte planlı, TUR_ADI'de yok —
+    // veri gelince bu sekmeden kaybolurlardı.
+    kisiGruplari(window.KISILER || []).forEach(function (g) {
+      baslik(g.ad + " (" + g.kisi.length + ")");
+      g.kisi.forEach(function (k) { satir(k.ad, k.donem || "", k.not || ""); });
     });
   } else if (sekme === "savaslar") {
     savaslar.forEach(function (s) {
@@ -9395,7 +9423,10 @@ function dizinDoldur(sekme) {
     var KV_KADEME = [
       { ad: "K1 — Padişahlar", kisi: K1 },
       { ad: "K2 — Taht mücadelesini kaybedenler", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "sehzade"; }) },
-      { ad: "K3 — Vâlide sultanlar ve hanedan kadınları", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "valide" || k.tur === "hanedan"; }) },
+      // 🆕 6 Ekim 2026 (APP-KISI-BASLIK-1006): başlık VERİYE uyduruldu (D207).
+      // Ölçüldü (W42): bu kademenin 3 kaydının 2'si ERKEK (Cem Sultan · Abdülmecid
+      // Efendi, `tur:"hanedan"`); "hanedan kadınları" diyen başlık veriyle çelişiyordu.
+      { ad: "K3 — Hanedan üyeleri ve vâlide sultanlar", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "valide" || k.tur === "hanedan"; }) },
       { ad: "K4 — Sadrazamlar", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "sadrazam"; }) },
       { ad: "K5 — Komutanlar ve denizciler", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "komutan" || k.tur === "denizci"; }) }
     ];
