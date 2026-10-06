@@ -4656,7 +4656,12 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1568   # 1574 → 1568, 5 Ekim 2026 (ÜÇÜNCÜ kusur: `d1816-alm-ah-2`).
+BEKLENEN_D8A = 1508   # 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+#   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
+#   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
+#   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
+#   iki gövde, iki cevap. EMRELIC'te D8 ÖLÇÜLEMİYOR (yerel gövde uyuşmuyor).
+# 1574 → 1568, 5 Ekim 2026 (ÜÇÜNCÜ kusur: `d1816-alm-ah-2`).
 #   LAB-D8-UYE-1005, ikinci teslim. `sol_taraf` "habsburg" → "almanya" (iki kopya:
 #   d_sinirlar_avrupa_orta.js:164 + paket_28.js:1226). at-cs ile AYNI DESEN ve aynı
 #   kanıt türü: KARDEŞ HATLAR. `alm-ah-3` ve `-4` aynı taraflar/aynı tarihlerle
@@ -4705,7 +4710,7 @@ BEKLENEN_D8A = 1568   # 1574 → 1568, 5 Ekim 2026 (ÜÇÜNCÜ kusur: `d1816-alm
 #      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
 #      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
 #   ⇒ 1574 bir ONAY değil DONDURMA: ölçülemeyen 6 hat kapandıkça sayı yine oynar.
-BEKLENEN_D8B = 84
+BEKLENEN_D8B = 82   # 84 → 82, 6 Ekim 2026 (§3.4③; D8A ile aynı ölçüm ve aynı ŞERH: main gövdesi).
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,
