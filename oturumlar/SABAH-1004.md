@@ -1622,3 +1622,68 @@ olarak açalım ki bir dahaki sefere topoloji buna hazır olsun. ③'ü ⑭ kapa
 🔴 **UMIT'in davranışı DOĞRUYDU, not ediyorum:** *"Etrafından dolaşmıyorum, işçi mesajları
 kuyrukta bekliyor"* dedi. Sınırı dolanmaya çalışmak yerine beyan etmesi, kaybı
 ÖLÇÜLEBİLİR kıldı — dolanılsaydı mesajlar yanlış kanaldan gidip izi kaybolacaktı.
+
+
+## ⑲ 🔴 İKİ YAYIN ZİNCİRİ PARALEL YAŞIYOR — VE SENİN 22 AĞUSTOS'TA YAZDIRDIĞIN KAPI HİÇ KOŞMADI
+Bu, gecenin en ağır bulgusu ve tamamı ÖLÇÜLDÜ (hiçbiri çıkarım değil, kaynakları altta).
+
+### Dört başlatıcı, İKİ AYRI KAPI SETİ
+```
+KOSU-BASLAT.bat            → arac/kosu_yayin.py      ESKİ zincir  (8 adım)
+KOSUYU-SIMDI-BASLAT.bat    → arac/kos_ve_yayinla.py  YENİ zincir  (9 adım)
+arac/zincir_baslat.bat     → arac/kos_ve_yayinla.py  YENİ
+arac/kosu_ayrik_baslat.ps1 → arac/kos_ve_yayinla.py  YENİ
+```
+🔴 **VE İKİ ZİNCİR BİRBİRİNİN ÜST KÜMESİ DEĞİL** — hangisini koşturursan ÖTEKİNİN
+adımlarını KAYBEDİYORSUN:
+```
+ESKİDE VAR, YENİDE YOK:  ⑥b denetle_kronoloji   ⑥c denetle_arayuz
+YENİDE VAR, ESKİDE YOK:  uret_altlik   uret_bekleyenler   adres_nobetci
+```
+⇒ Hangi kapı adımlarının koştuğu, **hangi düğmeye basıldığına** bağlı. Ve `KOSU-BASLAT.bat`
+**SENİN düğmen** (18 Ağustos: *"çift tıkla — hepsi bu, Claude gerekmez"*) ⇒ sen elle
+koşturduğunda ⑥b/⑥c koşuyor ama `uret_altlik`/`uret_bekleyenler`/`adres_nobetci` koşmuyor;
+otomatik yol koştuğunda tam tersi.
+
+### 🔴 AMA DAHA KÖTÜSÜ: OTOMATİK ZİNCİRLERİN İKİSİ DE FİİLEN ÖLÜ
+```
+AtlasKosu     State=DISABLED · son koşu 2026-08-21 23:00:01 · sonuç 0 (başarılı)
+              → py.exe arac\kosu_yayin.py          (ESKİ zincir)
+ATLAS-ZINCIR  State=Ready    · son koşu 2026-09-11 03:00:55 · sonuç 0x8007042B (ABORTED)
+              → C:\atlas\arac\zincir_baslat.bat   (YENİ zincir) · NextRun BOŞ
+```
+⇒ **21 Ağustos'tan beri BAŞARIYLA koşmuş otomatik zincir YOK.** Biri kapatılmış, öteki
+11 Eylül'de çökmüş ve bir daha planlanmamış (NextRun boş).
+
+### 🔴 VE SONUÇ — iki kapı, iki ayrı kader
+```
+⑥b denetle_kronoloji  eklendi 2026-08-21 07:52:31  (72ba38e9)
+                      AtlasKosu son koşu 21-08 23:00 ⇒ SONRASINDA
+                      ⇒ TAM BİR KEZ koştu. Bugün 83 İHLAL + çıkış 1 veriyor.
+⑥c denetle_arayuz     eklendi 2026-08-22 23:58:54  (530c6998)
+                      AtlasKosu son koşu 21-08 23:00 ⇒ ÖNCESİNDE
+                      ⇒ 🔴 HİÇ KOŞMADI. BİR KEZ BİLE. Altı haftadır.
+```
+🔴 **Ve o commit'in mesajı aynen şu:** *"ARAYUZ DENETIMI EKLENDI — bugun UC kusuru
+KULLANICI buldu, denetim yoktu."* Yani üç kusuru SEN bulduğun için yazılan kapı, yazıldığı
+günden bu yana **hiç çalıştırılmadı.** Kapı var, soru sorulmuyor — ve bu sefer kapının
+kendisi değil, onu KOŞTURAN şey eksik.
+📌 Bu, W33'ün bu gece bulduğu üç gerilemeyi de açıklıyor: *"üçü de `denetle.py`ye bağlı
+değil ⇒ kapı temiz geçti"*. Kapılar var; onları koşturan zincir koşmuyor.
+
+### SENDEN İSTEDİĞİM — bu bir karar, ben vermiyorum
+```
+① ZİNCİRLERİ BİRLEŞTİR  tek zincir, iki tarafın BÜTÜN adımları. Bir zincir ötekinin
+                        üst kümesi olmazsa bu kusur yeniden doğar. Benim önerim bu.
+② BİRİNİ ÖLDÜR          eski zinciri ve KOSU-BASLAT.bat'ı emekliye ayır, ⑥b/⑥c'yi
+                        yeni zincire TAŞI. Daha temiz ama SENİN düğmeni değiştiriyor.
+③ ZAMANLANMIŞ GÖREV     ATLAS-ZINCIR'in 11 Eylül çökmesi onarılsın mı? (0x8007042B;
+                        `zincir_baslat.bat`in kendi yorumu boşluklu yol tuzağını
+                        anlatıyor — aynı sınıf olabilir, ÖLÇÜLMEDİ)
+```
+⚠️ **ÖLÇMEDİĞİM ŞEY, açıkça:** "21 Ağustos'tan beri bütün koşular elle yapıldı" bir
+ÇIKARIMDIR, ölçüm değil — görev durumlarından türedi. Kesinleştirmek için koşu logları
+(`kosu_otomatik.log`) okunmalı; o HAVVA'da. Ve ⑥c'nin BUGÜNKÜ çıkış kodu da ölçülmedi
+(`arac/` koşu sürerken donuk).
+📌 Kaynaklar: `git log -S` (iki commit tarihi) · `Get-ScheduledTask` + `Get-ScheduledTaskInfo`
+(iki görev durumu, son koşu, sonuç) · `grep` (dört başlatıcı) · UMIT'in adım listesi ölçümü.
