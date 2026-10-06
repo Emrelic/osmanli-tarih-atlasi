@@ -158,7 +158,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"Mehmed Bey'in ölümünden sonra Güneri Bey beyliğin liderliğini üstlendi ve toprakları Akdeniz kıyısına doğru genişletmeyi sürdürdü.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1286-01-01", b:"Güneri Bey, Lârende'yi (Karaman şehri) ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
@@ -182,7 +182,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"707 (1307-08) yılı civarında Mahmud Bey'in ölümüyle beylikte yönetim el değiştirdi.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1314-12-01", b:"Yahşi Bey Konya'yı ele geçirdi, İlhanlı kuvvetlerince yakalandı", tur:"toprak-kayip",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -236,7 +236,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","hukumdar","taht-kavgasi","konu-kisiler","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Süleyman Bey'in kendi akrabaları tarafından suikaste kurban gitmesinin ardından Alâeddin Bey iktidarı ele geçirdi; Alâeddin Bey'in 37 yıl sürecek uzun hükümdarlığı böyle başladı.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { t:"1366-01-01", b:"Alâeddin Bey, Konya'yı kalıcı olarak ele geçirip başkent yaptı", tur:"toprak-kazanc",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
@@ -272,7 +272,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"793 (1391) yılında Yıldırım Bayezid ile yapılan barış antlaşmasıyla Karamanoğulları'nın batı sınırındaki bazı topraklar Osmanlı'ya bırakıldı.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { t:"1397-01-01", b:"Akçay'da yenilgi; Konya kuşatılıp alındı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -344,13 +344,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","savas","konu-askeri"],
   yer_id:"",
   d:"846 (1442) yılında Macarların Osmanlı'ya karşı giriştiği saldırılarla eşzamanlı olarak İbrâhim Bey Osmanlı topraklarına akınlar düzenledi; II. Murad bu harekete karşılık beylik topraklarında yıkıcı bir sefer yaptı.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1444-08-01", b:"İbrâhim Bey ile II. Murad arasında antlaşma; Osmanlı üstünlüğü kabul edildi", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","vassal","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Ağustos 1444'te İbrâhim Bey ile II. Murad arasında yapılan antlaşmayla Karamanoğulları Osmanlı üstünlüğünü kabul edip rehine verdi.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1448-01-01", b:"İbrâhim Bey Kıbrıs'tan Körkes Kalesi'ni aldı, Konya'yı yeniden başkent yaptı", tur:"toprak-kazanc",
   onem:2, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
@@ -368,7 +368,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"dis", etiket:["isyan","hukumdar","ittifak","konu-diplomasi","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"870 (1465) yılında Fâtih Sultan Mehmed'in desteğini alan Pîr Ahmed, kardeşi İshak'ı yenerek beyliğin tamamına hâkim oldu; İshak aynı yıl öldü.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1468-04-01", b:"Osmanlılar Gevele ve Konya'yı aldı, Pîr Ahmed dağlara çekildi", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -404,19 +404,19 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","edebiyat","konu-kultur"],
   yer_id:"",
   d:"Alâeddin Bey döneminde (1361-1398, kesin tarih TDV'de verilmiyor), Yârcânî mahlaslı bir şair, beyliğin tarihini şehnâme tarzında anlatan Farsça \"Karamannâme\"yi kaleme aldı. Eser, beyliğin tarihi için TDV'nin de belirttiği gibi tek kaynak niteliğindedir; 16. yüzyıl başında Şikârî tarafından Türkçe nesre çevrilecektir.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1400-01-01", b:"Bölge tahıl, yün, deri, halı ve at ihraç ediyordu", tur:"ekonomi",
   onem:2, dunya:1, kapsam:"ic", etiket:["ekonomi","ticaret","konu-ekonomi"],
   yer_id:"",
   d:"Karamanoğulları toprakları buğday, arpa, yulaf ve pamuk üretiyor, ünlü Karaman koyunu ve soylu atlar yetiştiriyordu; tahıl, yün, deri, halı ve at Kıbrıs, Venedik, Ceneviz ve Memlük Sultanlığı'na ihraç ediliyordu.", ic_not_d:"(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1350-01-01", b:"Türkmen oymak konfederasyonlarına dayanan toplumsal yapı", tur:"sosyal",
   onem:1, dunya:1, kapsam:"ic", etiket:["sosyal","idari","konu-idari","konu-sosyal"],
   yer_id:"",
   d:"Beylik, Türkmen oymak konfederasyonlarına dayanıyordu; hanedan toprakları aile üyeleri ve ileri gelen beyler arasında pay ediyordu. Zâviye ve tekkeler bölgede yaygındı, Konya'da Mevlevî geleneği güçlüydü.", ic_not_d:"(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1431-01-01", b:"Aksaray Ulucamii tamamlandı", tur:"mimari",
   onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar","konu-kultur","konu-imar"],
@@ -1181,7 +1181,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["artuklu"], t:"1350-01-01", b:"Dicle üzerindeki köprüler ticaret yolunu güvence altına aldı", tur:"ekonomi",
   onem:2, dunya:2, kapsam:"ic", etiket:["ekonomi","ticaret","Dicle","kopru","imar","konu-ekonomi","konu-imar","konu-ulastirma"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["artuklu"], kapsam_genis:true,
   d:"Hasankeyf ve Malabadi köprüleri gibi Artuklu döneminde inşa edilen geçitler, Dicle ve kollarını aşan kervan yollarını güvenli hâle getirerek Doğu Anadolu-Kuzey Mezopotamya arasındaki İpek Yolu koluna hizmet etti. Bu altyapı, Diyarbakır-Mardin-Hasankeyf üçgeninin bölgesel ticaret merkezi olarak üç asır boyunca önemini korumasını sağladı.",
   kaynak:"bulunamadı — TDV'de müstakil ekonomik değerlendirme yok; genel çıkarım, dayanak: artuklular ve hasankeyf maddelerindeki mimari/ticarî bağlam" },
 
@@ -1250,7 +1250,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1343-01-01", b:"Halep kervanı Dulkadır topraklarında soyuldu", tur:"ekonomi",
   onem:2, dunya:1, kapsam:"dis", etiket:["ticaret", "kervan", "Halep", "konu-ekonomi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Halep'ten gelen büyük bir ticaret kervanı Dulkadır beyliği topraklarında soyuldu. Bu olay, beyliğin Suriye-Anadolu ticaret yolu üzerindeki konumunun hem ekonomik fırsat hem de güvenlik sorunu barındırdığını gösterir.",
   kaynak:"dulkadirogullari" },
 
@@ -1262,7 +1262,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1379-01-01", b:"Ayas Savaşı'nda Memlükler yenildi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["Ayas", "Memlük", "zafer", "konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Dulkadırlı kuvvetleri, Ayas Savaşı'nda Memlük kumandanı Timurbay'ı yenilgiye uğrattı. Bu zafer, beyliğin Memlük baskısına karşı güçlü direniş gösterebildiği dönemlerden biriydi.",
   kaynak:"dulkadirogullari" },
 
@@ -1280,19 +1280,19 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1386-01-01", b:"Halil Bey hançerlenerek öldürüldü", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi", "suikast", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Halil Bey hançerlenerek öldürüldü ve yerine Şaban Süli (Sevli) Bey beyliğin başına geçti. Bu dönemde beylik, Memlük baskısı altında istikrarsız bir yönetim değişimi yaşadı.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1395-01-01", b:"Sevli Bey, Memlük Sultanı Berkuk'un emriyle öldürüldü", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"dis", etiket:["hükümdar değişimi", "Memlük", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Şaban Süli (Sevli) Bey, Memlük Sultanı Berkuk'un emriyle öldürüldü. Yerine Sadaka Bey tahta çıktı, ancak onun hükümdarlığı da kısa sürdü.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1399-01-01", b:"Yıldırım Bayezid desteğiyle Nasîrüddin Mehmed Bey tahta çıktı", tur:"ittifak",
   onem:4, dunya:1, kapsam:"dis", etiket:["Osmanlı", "ittifak", "Yıldırım Bayezid", "konu-diplomasi", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Osmanlı Padişahı Yıldırım Bayezid'in yardımıyla Sadaka Bey tahttan indirilerek yerine Nasîrüddin Mehmed Bey geçirildi. Bu olay, Dulkadıroğulları'nın Memlük himayesinden çıkıp Osmanlı nüfuz alanına girişinin ilk önemli adımıydı.",
   kaynak:"dulkadirogullari" },
 
@@ -1310,13 +1310,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1440-01-01", b:"Mehmed Bey'in kızı Memlük Sultanı Çakmak ile evlendirildi", tur:"ittifak",
   onem:4, dunya:1, kapsam:"dis", etiket:["evlilik", "Memlük", "Çakmak", "konu-diplomasi", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Nasîrüddin Mehmed Bey, kızlarından birini Memlük Sultanı Çakmak ile evlendirerek Memlüklerle ittifakını pekiştirdi. Bu evlilik, beyliğin Osmanlı ve Memlük arasında sürdürdüğü dengeleyici siyasetin bir örneğiydi.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1442-01-01", b:"Nasîrüddin Mehmed Bey vefat etti, Süleyman Bey tahta çıktı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi","konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Uzun süre beyliği yöneten Nasîrüddin Mehmed Bey seksen yaşını aşkın bir ömrün ardından vefat etti. Yerine oğlu Süleyman Bey tahta çıkarak nispeten sakin bir dönem başlattı.",
   kaynak:"dulkadirogullari" },
 
@@ -1328,13 +1328,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1450-01-01", b:"Sitti Hatun, Şehzade Mehmed ile evlendirildi", tur:"ittifak",
   onem:5, dunya:1, kapsam:"dis", etiket:["evlilik", "Osmanlı", "Sitti Hatun", "Şehzade Mehmed", "konu-diplomasi", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Süleyman Bey, kızı Sitti Hatun'u II. Murad'ın oğlu Şehzade Mehmed (sonraki Fâtih Sultan Mehmed) ile evlendirdi. Bu evlilik, Dulkadıroğulları'nın Osmanlı hanedanıyla kurduğu en üst düzey akrabalık bağlarından biri oldu.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1454-01-01", b:"Süleyman Bey öldü, Melik Arslan Bey tahta çıktı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi","konu-kisiler","konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Barış ve sükûn içinde geçen bir dönemin ardından Süleyman Bey öldü. Yerine oğlu Melik Arslan Bey tahta çıktı.",
   kaynak:"dulkadirogullari" },
 
@@ -1352,13 +1352,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1472-01-01", b:"Şehsuvar Bey Memlükler tarafından idam edildi", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"dis", etiket:["idam", "Memlük", "hükümdar değişimi", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Memlüklere karşı uzun süre direnen Şehsuvar Bey yakalanarak idam edildi. Yerine Memlük yanlısı bir siyaset izleyen Şahbudak Bey tahta çıktı.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1480-01-01", b:"Alâüddevle Bozkurt Bey, kardeşi Şahbudak'ı yenerek tahta çıktı", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi","konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Alâüddevle Bozkurt Bey, kardeşi Şahbudak Bey'i yenilgiye uğratarak beyliğin başına geçti. Onun otuz beş yılı aşkın hükümdarlığı, beyliğin Osmanlı'ya yakınlaştığı ve nihayet ilhak edildiği döneme denk geldi.",
   kaynak:"dulkadirogullari" },
 
@@ -1400,7 +1400,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1514-01-01", b:"Alâüddevle Çaldıran seferine asker göndermedi", tur:"isyan",
   onem:4, dunya:2, kapsam:"dis", etiket:["Osmanlı", "Çaldıran", "itaatsizlik", "konu-isyan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Yavuz Sultan Selim'in Safevîler üzerine düzenlediği Çaldıran seferi sırasında Alâüddevle Bozkurt Bey, istenen desteği göndermeyi reddetti. Bu tutum, Osmanlı-Dulkadır ilişkilerini bozarak bir yıl sonraki Turnadağ Savaşı'nın zeminini hazırladı.",
   kaynak:"dulkadirogullari" },
 
@@ -1501,13 +1501,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:2, kapsam:"dis", etiket:["Kantakuzenos", "Bizans", "iç savaş", "ittifak", "konu-diplomasi"],
   yer_id:"",
   d:"Bizans İmparatoru III. Andronikos'un ölümünün ardından başlayan Bizans iç savaşında Umur Bey, Kantakuzenos'un en önemli destekçilerinden biri olarak öne çıktı. Bu ittifak Umur Bey'i Ege'de belirleyici bir güç konumuna taşıdı.",
-  kaynak:"aydinogullari", kapsam_genis:true },
+  kaynak:"aydinogullari", odak_kimlik:["aydin"], kapsam_genis:true },
 
 { taraflar:["aydin"], t:"1342-01-01", b:"Umur Bey'in 380 gemi ve 20.000 askerle Trakya seferi", tur:"ittifak",
   onem:4, dunya:2, kapsam:"dis", etiket:["Trakya", "Kantakuzenos", "donanma", "sefer", "konu-askeri", "konu-diplomasi"],
   yer_id:"",
   d:"Umur Bey, Kantakuzenos'a destek amacıyla 380 gemi ve yaklaşık 20.000 askerden oluşan büyük bir donanmayla Trakya'ya çıktı. Bu, Aydınoğulları donanmasının kaydedilen en büyük deniz aşırı seferlerinden biriydi.",
-  kaynak:"umur-bey", kapsam_genis:true },
+  kaynak:"umur-bey", odak_kimlik:["aydin"], kapsam_genis:true },
 
 { t:"1344-10-28", b:"İzmir Liman Kalesi'nin Haçlılar tarafından alınması", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["İzmir", "liman", "Haçlı seferi", "kayıp", "konu-askeri", "konu-ulastirma"],
@@ -1589,13 +1589,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["aydin"], t:"1403-01-01", b:"Musa Bey'in ölümü, II. Umur'un cülûsu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["Musa Bey", "II. Umur", "cülus", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["aydin"], kapsam_genis:true,
   d:"Timur sonrası dönemde beyliğin başında bulunan Musa Bey'in ölümü üzerine yerine II. Umur geçti. Bu dönem, Cüneyd Bey ve Kara Hasan'ın İzmir ile Ayasuluk'ta güç kazandığı çalkantılı bir geçiş sürecidir.",
   kaynak:"cuneyd-bey" },
 
 { taraflar:["aydin"], t:"1405-01-01", b:"II. Umur'un ölümü, Cüneyd Bey'in tek başına hâkimiyeti", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["Cüneyd Bey", "II. Umur", "hâkimiyet", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["aydin"], kapsam_genis:true,
   d:"II. Umur'un ölümünün ardından Fâtih İbrâhim Bey'in oğlu Cüneyd Bey, Alaşehir, Salihli ve Nif gibi yerleri de ele geçirerek beylik topraklarının tek hâkimi konumuna geldi. Cüneyd Bey'in yönetimi, Osmanlı şehzadeleriyle kurduğu değişken ittifaklarla belirlenecekti.",
   kaynak:"cuneyd-bey" },
 
@@ -1613,7 +1613,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["aydin"], t:"1422-01-01", b:"Cüneyd Bey'in II. Murad'a destek sözüyle beyliği yeniden ele geçirmesi", tur:"toprak-kazanc",
   onem:3, dunya:1, kapsam:"ic", etiket:["Cüneyd Bey", "II. Murad", "yeniden kuruluş", "konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["aydin"], kapsam_genis:true,
   d:"I. Mehmed'in ölümünün ardından yeniden Düzmece Mustafa'ya destek veren, ancak sonrasında II. Murad'a bağlılık sözü karşılığında serbest bırakılan Cüneyd Bey, eski Aydınoğulları topraklarını yeniden ele geçirdi. Bu, beyliğin son ve en kısa ömürlü canlanma dönemidir.",
   kaynak:"cuneyd-bey" },
 
@@ -1720,11 +1720,11 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["veraset", "zehirlenme", "konu-hanedan"],
   yer_id:"",
   d:"Kral III. Levon arsenikle zehirlenerek öldü; yerine oğlu II. Hetum geçti. II. Hetum'un saltanatı, tahttan üç kez çekilip üç kez geri dönmesiyle krallığın en istikrarsız dönemine sahne oldu.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1293-04-01", b:"II. Hetum tahttan çekildi, Fransisken keşiş oldu", tur:"idari",
   onem:2, dunya:1, kapsam:"ic", etiket:["Fransisken", "feragat", "Toros III", "konu-idari"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"II. Hetum tahtı kardeşi III. Toros'a bırakıp Mamistra'da Fransisken tarikatına katıldı; ancak fiilî nüfuzunu 'Büyük Baron' sıfatıyla korudu.",
   kaynak:"Bournoutian (2006); ikincil özetten derlendi" },
 
@@ -1732,7 +1732,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:1, kapsam:"ic", etiket:["Sempat","iç çatışma","kör etme","taht-kavgasi","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Taht kavgasında kardeş Sempat, III. Toros'u boğdurttu ve II. Hetum'u dağlayarak kısmen kör ettirdi, tahtı ele geçirdi; üç yıl sonra bir başka kardeş III. Konstantin tarafından devrildi.",
-  kaynak:"Bournoutian (2006); ikincil özetten (soy kütüğü kaynaklarıyla çapraz kontrol)", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten (soy kütüğü kaynaklarıyla çapraz kontrol)", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1299-01-01", b:"II. Hetum yeniden tahtta, Gazan Han'ın Suriye seferine katıldı", tur:"ittifak",
   onem:3, dunya:2, kapsam:"dis", etiket:["Gazan Han", "Moğol", "sefer", "konu-askeri", "konu-diplomasi"],
@@ -1754,7 +1754,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["kilikya-ermeni"], t:"1308-01-01", b:"Adana Konsili: 1307 kilise birliği reddedildi", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["Adana Konsili", "tepki", "konu-din", "konu-kultur"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"Büyük Ermenistan'daki ruhban sınıfının ve halkın güçlü tepkisi üzerine toplanan Adana Konsili, Sis Konsili'nin (1307) kararlarını reddetti; 1309'daki altıncı Sis Konsili bu reddi resmîleştirdi.",
   kaynak:"Council of Sis literatürü, ikincil akademik özetten derlendi" },
 
@@ -1762,13 +1762,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["Oşin", "taht", "Bilarga", "konu-hanedan"],
   yer_id:"",
   d:"Kral II. Hetum ve II. Levon'un katlinden sonra Oşin, Bilarga'nın kuvvetlerini yenerek Kilikya'dan sürdü ve İlhanlı hükümdarı Olcaytu'nun desteğiyle taç giydi.",
-  kaynak:"Stewart (2001); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Stewart (2001); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1320-07-20", b:"Oşin öldü, IV. Levon tahta geçti", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["veraset","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"Kral Oşin 37 yaşında öldü; oğlu IV. Levon (bazı kaynaklarda V. Levon) tahta geçti — Hetumid hanedanının son kralı olacaktı.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1322-01-01", b:"Memlükler Malatya'yı ele geçirdi", tur:"toprak-kayip",
   onem:2, dunya:2, kapsam:"dis", etiket:["Malatya", "Memlük", "İlhanlı", "konu-askeri"],
@@ -1778,13 +1778,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["kilikya-ermeni"], t:"1325-01-01", b:"Ayas limanı yeniden inşa edildi", tur:"ekonomi",
   onem:3, dunya:1, kapsam:"ic", etiket:["Ayas","liman","ticaret","imar","islahat","konu-ekonomi","konu-imar","konu-islahat","konu-ulastirma"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"Önceki Memlük akınlarında tahrip olan Ayas limanı krallık tarafından yeniden inşa edildi ve Memlük Sultanlığı tarafından ticaret limanı olarak tanındı; İtalyan tüccarlar (özellikle Cenevizliler) faaliyetlerine devam etti.",
   kaynak:"\"The Armenian Kingdom of Cilicia and the Mamluk Sultanate\", Orient dergisi (jstage.jst.go.jp) — hakemli akademik makale" },
 
 { taraflar:["kilikya-ermeni"], t:"1337-01-01", b:"Ayas limanı Memlüklerin eline geçti", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["Ayas", "Memlük", "işgal", "konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"Sultan Nâsır Muhammed'in ordusu Ayas'ı ele geçirdi; bir kadıyı öldürülmesi bahanesiyle şehirdeki Ermeni ve Frenk nüfusun neredeyse tamamı katledildi ya da esir alındı. Krallığın en önemli ticaret limanının kaybı ekonomik çöküşü hızlandırdı.",
   kaynak:"\"The Armenian Kingdom of Cilicia and the Mamluk Sultanate\", Orient dergisi (jstage.jst.go.jp)" },
 
@@ -1798,13 +1798,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"ic", etiket:["Lusignan", "hanedan değişimi", "taç", "konu-hanedan"],
   yer_id:"",
   d:"IV. Levon'un vârissiz ölümü üzerine, Kıbrıs Lusignan hanedanından anne tarafından akraba Guy de Lusignan tahta davet edildi ve II. Konstantin adıyla taç giydi; Hetumid hanedanı yerini Lusignanlara bıraktı.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1344-04-17", b:"II. Konstantin bir ayaklanmada öldürüldü", tur:"isyan",
   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","Lusignan","darbe-siyasi","konu-kisiler","konu-isyan","konu-darbe"],
   yer_id:"",
   d:"Yerli baronların yabancı (Latin) hanedana duyduğu güvensizlik yeniden patladı; II. Konstantin bir isyanda öldürüldü, yerine uzak akraba III. Konstantin geçti.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1375-04-14", b:"Memlûk fethiyle krallık sona erdi", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["son", "Memluk", "Sis", "konu-siyasi"],
