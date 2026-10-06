@@ -40,3 +40,6 @@ Koordinatörün tasarımındaki `8a-ham = ham parça sayısı (etikete duyarsız
 1. **(A) = parça alanı (km²).** Etiketten bağımsız (üç gövdede birebir, senaryolardan bağımsız), eşiğe neredeyse duyarsız (%0,06). Senin son sorunun cevabı: **tamamen bağımsız değil ama ihmal edilebilir**; düşen alan tanım gereği en küçük parçaların alanı.
 2. **İkinci kolon (rapor ya da ikinci tavan) = geometrik parça sayısı, `R["a"]` girdisi DEĞİL.** Girdi sayısı etikete bağlı; tasarımda "ham" adı onu çağrıştırıyor.
 3. **Eşik:** alan için fark etmez. Parça sayısı da kapıda kalacaksa **8 km²** öneririm. 2 km ızgaranın 2 örneğine denk düşer, "parça var ama birim üretemez" sınıfını (bugün 10) sıfırlar. Parça sayısını 21 düşürür, alanı 152 km².
+
+---
+> 🔴 **NOT (LAB-8A-IZGARA-1006):** Buradaki "parça alanı" sütunu **ızgara sayımıdır** (4 km² × 2 km ızgara örneği), gerçek alan değil. Gerçek `d.area` toplamı (5 km² eşikte) 1 893 467,3 km², yani ızgara +%0,100 şişiriyor. Izgara başlangıcı kaydırılınca aynı geometride %0,25 oynuyor. Kapı ölçüsü önerisi `d.area` olarak güncellendi.
