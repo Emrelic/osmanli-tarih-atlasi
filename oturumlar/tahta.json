@@ -173489,5 +173489,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5869",
+  "zaman": "2026-10-06 13:31",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "HAZIR KITA 0610 1234",
+  "kimden_kimlik": "",
+  "mesaj": "ALINTI-264-1006 · adını ALINTI-264-1006 yap (set_session_title). ŞARTLAR: oturumlar/OLCUM-KITA-SARTLARI.md — TAMAMI bağlayıcı, ÖNCE oku. Özellikle §5 (TIRNAK BİR İDDİADIR) bu görevin KALBİDİR. YALNIZ ÖLÇÜM VE ÖNERİ; hiçbir veri dosyasına YAZMA. 🔴 İLK ADIM — MÜKERRER KAPISI: denetim/ altında ALINTI-TARAMA-1006.md · UMIT-W30-ALINTI-DUZELT-1006.tsv · KRONO-SAHTE-ALINTI-1006.diff zaten var. Hangi tırnakların İŞLENDİĞİNİ oradan ölç; işlenmişi yeniden işleme. İŞ: W30'un kalan 264 tırnağının SINIFLANDIRILMASI (beş sınıf). TANIM: denetim/UMIT-W30-ALINTI-DUZELT-1006.tsv (482 satırlık ADAY değil, bu dosya) + denetim/ALINTI-TARAMA-1006.tsv. Beş sınıfın tarifini oradan al. ÖLÇÜT — her tırnak için tek soru: kaynak GÖVDESİNDE BİREBİR var mı? ✓ VAR, birebir → tırnak KALIR ✗ YOK ama anlam doğru → tırnak KALKAR, metin tırnaksız yazılır, kaynak işareti kalır ✗ YOK, anlam da desteksiz → tırnak KALKAR + bulgu olarak bildirilir ⓿ gövde çekilemedi → ÖLÇÜLEMEDİ (yok DEĞİL; hangi slug/URL denendi, yaz) 🔴 Tırnağı gövdeye UYDURACAK ŞEKİLDE YENİDEN YAZMAK YASAK — o sahte alıntı imal etmektir. 🔴 \"ALINTI DOĞRULANMADI\" şerhi eklemek tırnağı KURTARMAZ. Sebep ölçülmüş: insan şerhi görür, ARAÇ tırnağı SAYAR. Doğrulanamayan tırnak KALDIRILIR. ⚠️ TDV tuzağı: canlı slug yanlış madde olabilir (ordu → ordu--sehir); gövdeyi açmadan \"yok\" deme. Boilerplate gövde \"çekilemedi\"dir, \"yok\" değil. 000 taşıma arızasıdır. 264 çok: ÖRNEKLEM MEŞRUDUR ama oranı yaz. En az 40'ını elle oku, beş sınıfa dağılımı ölç, kalanı için tahmini oranla ve tahmin olduğunu SÖYLE. Desen eşleşmesi ADAY üreticisidir, bulgu değil. TESLİM: denetim/ALINTI-264-1006.md + yanında .tsv (tırnak · dosya · satır · kaynak · sınıf · gerekçe). Düzeltme önerisi diff olarak denetim/ALINTI-264-1006.diff (UYGULANMAMIŞ). Tahtadan TEK mesaj + \"bekçimi öldüreyim mi?\". ÖNGÖRÜNÜ ÖNCE YAZ: 264'ün yüzde kaçı hangi sınıfa düşecek ve NİÇİN (mekanizma).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
