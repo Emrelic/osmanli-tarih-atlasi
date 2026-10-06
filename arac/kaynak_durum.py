@@ -44,7 +44,10 @@ DENEME" demektir — 2 (kullanım hatası) ve 1 (arıza) ile karıştırılmaz.
     `--kapi-kok`: kapının ölçeceği ağaç (koşu AYRI worktree'de koşar — §7);
                   verilmezse bu betiğin ağacı.
     Çıkış: 4 = kapı ÖTTÜ (ilan YAZILMADI) · 5 = kapı KOŞAMADI (betik yok,
-           zaman aşımı, ayrıştırma hatası — ilan YAZILMADI).
+           zaman aşımı, ayrıştırma hatası — ilan YAZILMADI) · 6 = koşu kapı
+           damgası yazılamadı (ilan YAZILMADI; bkz. KOŞU KAPI DAMGASI).
+    Geçen ya da atlanan her KOSU ilanı iz bırakır: <kapi-kok>/oturumlar/KOSU-KAPI.json
+    + oturumlar/KOSU-KAPI-DEFTERI.jsonl (motor sha256 izi ile).
     `--kapi-atla "<gerekçe>"`: kapı KOŞAMIYORSA (çıkış 5) koşuyu kilitlememek
            için tek kapı. Gerekçe boşsa reddedilir; atlama ilanın İÇİNE yazılır
            (`kapi.durum = "ATLANDI"`). Kapı ÖTTÜYSE (4) atlama İŞLEMEZ — bilinen
@@ -74,6 +77,73 @@ KODLAR = {
 KAPI_KODLARI = {"KOSU"}
 KAPI_BETIK = os.path.join(KOK, "denetim", "ARAC-MOTOR-ENV-KAPI-1006.py")
 KAPI_SURE_SN = 300
+
+# 🔴 KOŞU KAPI DAMGASI (koordinatör şartı ③, UMIT-W10-LEGO-1006f): hangi
+#   koşunun kapıyı GEÇEREK, hangisinin ATLAYARAK koştuğu SONRADAN ölçülebilmeli.
+#   Ders: `uret_petek.py:1175` yıllarca "Bu koşunun damgasına yazılır" dedi;
+#   koşu damgası (`window.URETIM_IZI`) yalnız {girdi, motor} taşıyordu, YAZILMADI.
+#   Koşu damgasını motor yazar ve motor TUZDADIR ⇒ buradan yazılamaz. Bu yüzden
+#   iki iz bırakılır, ikisi de tuz DIŞINDA:
+#     ① <kapi-kok>/oturumlar/KOSU-KAPI.json  — koşunun KENDİ ağacında, son kayıt.
+#        Motor koşu başında bunu okuyup URETIM_IZI'ye geçirecek (B kuyruğu, metin).
+#     ② <KOK>/oturumlar/KOSU-KAPI-DEFTERI.jsonl — ilan makinesinde, EKLEMELİ defter.
+#        Her satır motorun sha256 izini taşır (`girdi.motor_izi()` ile AYNI üç
+#        dosya) ⇒ çıktıdaki URETIM_IZI.motor ile eşlenebilir.
+#   İz yazılamazsa ilan REDDEDİLİR (çıkış 6): izsiz atlama, şartın kendisini çiğner.
+KOSU_DAMGA_AD = os.path.join("oturumlar", "KOSU-KAPI.json")
+DEFTER = os.path.join(KOK, "oturumlar", "KOSU-KAPI-DEFTERI.jsonl")
+MOTOR_IZ_DOSYALARI = ("uret_petek.py", "renkler.py", "girdi.py")   # girdi.motor_izi() ile AYNI
+
+
+def kosu_damga_yolu(kok):
+    return os.path.join(kok, KOSU_DAMGA_AD)
+
+
+def _motor_izi(kok):
+    """{dosya: sha256} — `girdi.motor_izi()`nin aynısı, ithal ETMEDEN (girdi tuzda)."""
+    import hashlib
+    iz = {}
+    for ad in MOTOR_IZ_DOSYALARI:
+        yol = os.path.join(kok, "arac", ad)
+        try:
+            with io.open(yol, "rb") as f:
+                iz[ad] = hashlib.sha256(f.read()).hexdigest()
+        except OSError:
+            iz[ad] = "YOK"
+    return iz
+
+
+def _git_bas(kok):
+    try:
+        r = subprocess.run(["git", "-C", kok, "rev-parse", "HEAD"], capture_output=True,
+                           encoding="utf-8", errors="replace", timeout=30)
+        return r.stdout.strip() or None
+    except Exception:
+        return None
+
+
+def kosu_damgasi_yaz(kayit):
+    """① + ② izlerini yazar. (tamam, açıklama). Önce ①, sonra ②; ① yazılamazsa ② yazılmaz."""
+    k = kayit["kapi"]
+    damga = {"ilan": kayit["ilan"], "ilan_eden": kayit["ilan_eden"], "kod": kayit["kod"],
+             "kapi": k["durum"], "atlama_gerekce": k.get("atlama_gerekce"),
+             "kapi_kok": k["kok"], "git_head": _git_bas(k["kok"]),
+             "motor": _motor_izi(k["kok"]), "ozet": k.get("ozet", [])}
+    satir = json.dumps(damga, ensure_ascii=False, sort_keys=True)
+    y1 = kosu_damga_yolu(k["kok"])
+    try:
+        os.makedirs(os.path.dirname(y1), exist_ok=True)
+        with io.open(y1, "w", encoding="utf-8") as f:
+            f.write(satir + "\n")
+    except OSError as e:
+        return False, "koşu damgası yazılamadı: %s — %s" % (y1, e)
+    try:
+        os.makedirs(os.path.dirname(DEFTER), exist_ok=True)
+        with io.open(DEFTER, "a", encoding="utf-8") as f:
+            f.write(satir + "\n")
+    except OSError as e:
+        return False, "defter yazılamadı: %s — %s (koşu damgası YAZILDI: %s)" % (DEFTER, e, y1)
+    return True, y1
 
 
 def kosu_kapisi(kok):
@@ -222,6 +292,14 @@ def main(argv):
                 print("⚠️ KAPI KOŞAMADI ve ATLANDI — gerekçe ilana yazıldı: %s" % atla_gerekce)
             else:
                 print("✓ MOTOR ORTAM KAPISI GEÇTİ (%s)" % kapi_kok)
+            tamam, aciklama = kosu_damgasi_yaz(kayit)
+            if not tamam:
+                print("🔴 KOŞU İLANI REDDEDİLDİ — KOŞU KAPI DAMGASI YAZILAMADI")
+                print("   %s" % aciklama)
+                print("   Kapının geçildiği/atlandığı iz bırakılmadan koşu başlamaz.")
+                print("   KAYNAK-DURUM.json YAZILMADI.")
+                return 6
+            print("   koşu kapı damgası: %s · defter: %s" % (aciklama, DEFTER))
         _yaz(kayit)
         print("🔴 BEKÇİ YASAĞI İLAN EDİLDİ · kod %s" % kod)
         print("   dosya: %s" % DOSYA)

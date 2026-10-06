@@ -1,15 +1,20 @@
-# ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py çıktısı — UMIT-W10-LEGO-1006e · 2026-10-05 22:27 · ağaç C:\atlas-w10 · HEAD 7bb6b62c + MOTOR-ENV-KAPI-1006.diff uygulanmış
+# ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py çıktısı — UMIT-W10-LEGO-1006e + 1006f (koşu kapı damgası) · 2026-10-05 23:32 · ağaç C:\atlas-w10 · HEAD 7bb6b62c + MOTOR-ENV-KAPI-1006 + KAYNAK-DURUM-ENV-KAPI-1006 uygulanmış
 # komut: py denetim/ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py --kok C:\atlas-w10
-✓ S1: çıkış 4 (beklenen 4) · ilan yazılmadı (beklenen yazılmaz)
-✓ S2: çıkış 4 (beklenen 4) · ilan yazılmadı (beklenen yazılmaz)
-✓ S3: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=GECTI
-✓ S4: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=GECTI
-✓ S5: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=—
-✓ S6: çıkış 5 (beklenen 5) · ilan yazılmadı (beklenen yazılmaz)
-✓ S7: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · kapi=ATLANDI
-✓ S8: çıkış 2 (beklenen 2) · ilan yazılmadı (beklenen yazılmaz)
-✓ S9: çıkış 5 (beklenen 5) · ilan yazılmadı (beklenen yazılmaz)
-✓ GERÇEK C:\atlas-w10\oturumlar\KAYNAK-DURUM.json DOKUNULMADI: önce d9a96bbf121c · sonra d9a96bbf121c
+✓ S1: çıkış 4 (beklenen 4) · ilan yazılmadı (beklenen yazılmaz) · defter +0 (beklenen +0)
+✓ S2: çıkış 4 (beklenen 4) · ilan yazılmadı (beklenen yazılmaz) · defter +0 (beklenen +0)
+✓ S3: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · defter +1 (beklenen +1) · kapi=GECTI
+✓ D1: koşu damgası kapi=GECTI · motor izi uret_petek 72ec2ee22201 (beklenen 72ec2ee22201)
+✓ S4: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · defter +1 (beklenen +1) · kapi=GECTI
+✓ S5: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · defter +0 (beklenen +0) · kapi=—
+✓ S6: çıkış 5 (beklenen 5) · ilan yazılmadı (beklenen yazılmaz) · defter +0 (beklenen +0)
+✓ S7: çıkış 0 (beklenen 0) · ilan YAZILDI (beklenen yazılır) · defter +1 (beklenen +1) · kapi=ATLANDI
+✓ D2: koşu damgası kapi=ATLANDI · gerekçe 'kapı betiği silinmiş, LAB bakacak' · defterin son satırı = damga
+✓ S8: çıkış 2 (beklenen 2) · ilan yazılmadı (beklenen yazılmaz) · defter +0 (beklenen +0)
+✓ S9: çıkış 5 (beklenen 5) · ilan yazılmadı (beklenen yazılmaz) · defter +0 (beklenen +0)
+✓ D3: çıkış 6 (beklenen 6) · ilan yazılmadı (beklenen yazılmaz) · defter +0 (beklenen +0)
+✓ GERÇEK: C:\atlas-w10\oturumlar\KAYNAK-DURUM.json dokunulmadı: önce d9a96bbf121c · sonra d9a96bbf121c
+✓ GERÇEK: C:\atlas-w10\oturumlar\KOSU-KAPI-DEFTERI.jsonl dokunulmadı: önce YOK · sonra YOK
+✓ GERÇEK: C:\atlas-w10\oturumlar\KOSU-KAPI.json dokunulmadı: önce YOK · sonra YOK
 
-✓ SINAV GEÇTİ — 10 vaka
+✓ SINAV GEÇTİ
 # çıkış kodu: 0
