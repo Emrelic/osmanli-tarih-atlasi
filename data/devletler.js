@@ -675,7 +675,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
-    { t:"1308-06-15", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı" },
+    { t:"1308-11-27", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı", ic_not_b:"eski t: 1308-06-15 — KAYNAKSIZ; ikizin kaynaklı gününe çekildi (KRONO-AKADEMIK-1006)", kaynak:"TDV `macaristan`: \"Anjou sülâlesinden I. Károly 1308’de kral seçildi ve 1310’da taç giydi.\" · gün: kronoloji_macaristan.js 1308-11-27 (Engel 2001, s. 124-131 — Pest meclisinde seçim; Engel metni bu turda okunamadı) · BEYAN (MGGP-NOT): kullanılan gün 1308-11-27 · kullanılmayan 1308-06-15 (kaynaksız; yıl da şüpheli — 15 Haziran bir 1309 taç giyme günü olarak anılıyor, kaynağı yalnız Vikipedi, dayanak DEĞİL) (KRONO-AKADEMIK-1006)" },
     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
     { t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
@@ -858,7 +858,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
     { t:"1709-08-01", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
-    { t:"1714-02-01", tur:"antlasma", b:"Osmanlı topraklarını terk etti" }
+    { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" }
   ]
 },
 
