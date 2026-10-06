@@ -153,7 +153,7 @@ window.EKOKUMA_P76F = [
   metin:"Harekâtın hedefleri kayıtlıdır: Osmanlı donanması 29 Ekim 1914'te Rusya'nın Karadeniz kıyısındaki limanlarını, Sivastopol ve Novorossiysk'i topa tuttu.\n\nVerilen zararın dökümü — batırılan gemi sayısı, tahrip edilen tesisler, insan kaybı — kullanılan kaynakta yer almaz. Bu, zararın olmadığı anlamına gelmez; yalnız bu soruya cevap verecek rakamların ayrı bir kaynaktan aranması gerektiği anlamına gelir. Rakam uydurmaktansa boşluğu göstermek doğrudur.\n\nRus Karadeniz filosunun harekât anındaki konumu ve tepkisi için de aynı şey geçerlidir: bu kaynak filonun o gün nerede bulunduğunu ya da nasıl karşılık verdiğini kaydetmez.\n\nÖlçülebilen tek sonuç siyasîdir ve büyüktür: baskın, Rusya'nın 2 Kasım 1914'te Osmanlı Devleti'ne savaş ilân etmesine sebep oldu. Yani harekâtın bilançosu tonajla değil, açılan cephe sayısıyla tutulur.",
   kesinlik:"kesin",
   olay:["1914-10-29|Karadeniz Baskını"],
-  kaynak:"TDV İslâm Ansiklopedisi — «Birinci Dünya Savaşı» maddesi (gövdesi okundu): Sivastopol ve Novorossiysk limanlarının topa tutulması ve Rusya'nın 2 Kasım 1914 tarihli savaş ilânı. Zayiat dökümü ve Rus Karadeniz filosunun o günkü durumu bu maddede bulunamadı." },
+  kaynak:"TDV İslâm Ansiklopedisi — «Birinci Dünya Savaşı» maddesi (gövdesi okundu): Sivastopol ve Novorossiysk limanlarının topa tutulması ve Rusya'nın 2 Kasım 1914 tarihli savaş ilânı. Zayiat dökümü ve Rus Karadeniz filosunun o günkü durumu bu maddede bulunamadı. · [TDV: birinci-dunya-savasi]" },
 
 // ── 16 · CİHÂD İLÂNI ────────────────────────────────────────────────────────
 { id:"p76f-cihad-ilani-1914", tur:"tartisma",

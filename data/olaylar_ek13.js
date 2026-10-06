@@ -400,7 +400,7 @@ window.OLAYLAR_EK13 = [
   gun:"Mayıs 1517", ic_not_gun:"(TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)",
   yer:"Mardin, Diyarbekir", yer_id:"Mardin", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
   d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \"ancak dokuz ay sonra\" teslim oldu.", ic_not_d:"TDV `mardin` maddesi zaptı \"1516 sonlarında (veya Mayıs 1517)\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
-  kaynak:"mardin", duygu:["🎉"] },
+  kaynak:"mardin · [TDV: biyikli-mehmed-pasa]", duygu:["🎉"] },
 
 // ===========================================================================
 // İŞ ⑤ — ORHAN GAZİ'NİN ÖLÜMÜ (koordinatörün 8'lik eksik listesinden)
