@@ -1,0 +1,20 @@
+diff --git a/data/olaylar_ek16.js b/data/olaylar_ek16.js
+index ec5cc976..fc9555cf 100644
+--- a/data/olaylar_ek16.js
++++ b/data/olaylar_ek16.js
+@@ -187,12 +187,12 @@ window.OLAYLAR_EK16 = [
+   kaynak:"bulunamadı", duygu:["👑"] },
+ 
+ { t:"1772-08-05", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
+-  kapsam:"dis", onem:4, b:"Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
++  kapsam:"dis", onem:4, b:"Polonya'nın Birinci Paylaşımı — Rusya, Prusya ve Avusturya'ya toprak kaybı",
+   gun:"5 Ağustos 1772",
+   yer:"Daugavpils (Dünaburg), Polotsk, Vitebsk, Lvov, Yazlofça (Yazlovets)",
+   yer_id:"Lvov", kisiler:"II. Katerina, II. Friedrich, Maria Theresia",
+-  d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
+-  kaynak:"bulunamadı", duygu:["😔"] },
++  d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya ise kıyı bölgesi Kraliyet Prusyası'nı (Gdańsk ve Toruń hariç) devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
++  kaynak:"Britannica, 'Partitions of Poland' — AYNEN: «On August 5, 1772, Russia, Prussia, and Austria signed a treaty that partitioned Poland.» · «Prussia gained the economically valuable province of Royal Prussia, excluding the cities of Gdańsk (Danzig) and Toruń, and also gained the northern portion of the region of Great Poland (Wielkopolska).» (TDV'de müstakil madde yok)", duygu:["😔"] },
+ 
+ { t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
+   kapsam:"dis", onem:4, b:"Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",

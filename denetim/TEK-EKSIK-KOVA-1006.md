@@ -233,4 +233,137 @@ için yazılmış bir hüküm yok** (§9 ters yön: ad geçiyor, hüküm yok). E
 - Elbing'i 1772 ile ŞEHİR ADIYLA anan erişilebilir kurumsal metin. Britannica Elblag
   gövdesinde yok; PWN servis kapalı (ölçülemedi); elblag.eu 403.
 - Buhara'nın Kızıl Ordu'ya düşüşü için GÜN veren kaynak. TDV "Ağustos sonu" diyor; TDV
-  `darvaz` 302.
+  `darvaz` 302. → **§6'da BULUNDU** (Iranica JADIDISM, 2 Eylül 1920). Bu madde yalnız
+  ilk turun hükmüdür.
+
+---
+
+## 6. DEVAM — üç diff (UMIT İRTİBAT isteği, 6 Ekim 2026 akşam)
+Temel `origin/makine/umit` **3ec79a5f**. Ağaç `C:\atlas-p84-tekeksik` (yeniden açıldı).
+Her diff ayrı, **UYGULANMADI**; ağaçta yalnız ölçüm için uygulandı ve `git checkout --`
+ile geri alındı. Üçü için: satır sonu LF (CR 0) · `git apply --check` temiz (tek tek ve
+üçü birlikte) · `git apply --cached --check` (index LF içeriği) temiz · uygulanmış hâlde
+`node --check` temiz. Motor tuzu dosyalarına (4) dokunulmadı. Rondonópolis ve Elbing ④
+yazılmadı (koordinatörde).
+
+**Önce** (3ec79a5f, `denetle.py`, çıkış 2 = D8 ölçülemedi, taze ağaçta beklenir):
+2s `186 AÇIK · 792 KAPSAM DIŞI` · 2sk `4134 kapalı = 2061 YER + 2073 YALNIZ TARAF · toplam
+2247 (tavan 2247)` · GÜN `YER 1368 · TARAF 1584 · maskeli YER 587 · TARAF 174`.
+Hiçbir diff çıkış kodunu değiştirmedi (2 → 2; sebep aynı: D8).
+
+### 6.1 `denetim/TEK-EKSIK-KILI-1006.diff` — `data/olaylar_ek5.js` (Paris maddesi)
+- `yer`e Kili · `d:`ye "(Kili, Kahul, İsmail ve Bolgrad kazaları)" · `kaynak`a TDV kili
+  birebir cümlesi (YIL; gün `paris-antlasmasi` künyesinden).
+- **Niçin tesadüfî kapanma DEĞİL:** TDV kili, bu maddenin anlattığı hükmü (Paris
+  Antlaşması'yla Güney Besarabya'nın Boğdan'a terki) **Kili için adıyla** söylüyor ve
+  maddenin zaten saydığı üç kazayla AYNI cümlede sayıyor. Madde o yeri zaten kapsıyordu,
+  yalnız adı eksikti. Ad, kaynağın kendi listesinden geliyor.
+- **Sonra:** 1856-03-30 kovası **KAPANDI** (tek-eksik listesinde yok, 246→245).
+  2s AÇIK **186→185** · YER **2061→2065** (+4: Kili + maskesi kalkan İsmail/Kahul/Bolgrad)
+  · maskeli YER 587→584 · yalnız-taraf toplamı **2247 (değişmedi)**. Öteki satırlar aynı.
+
+### 6.2 `denetim/TEK-EKSIK-BUHARA-1006.diff` — `data/olaylar_ek8.js` (YENİ madde)
+- **Dosya gerekçesi:** Değişmez 2 evreni `olaylar*.js` + `kronoloji_sinir*.js`
+  (`denetle.py:olaylari_yukle`). `olaylar_ek8.js` aynı konunun (Hârizm/Buhara Halk
+  Cumhuriyetleri 1920-1924) evren içi dosyası; madde hemen ardılının (BHSC, 1920-10-08)
+  önüne kondu.
+- 🔴 **MÜKERRER UYARISI:** aynı olay **`data/kronoloji_ozbek.js:324`te ZATEN VAR**
+  (`t:"1920-09-02"`, "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi"). Ama bu dosya
+  **KUYRUK**, Değişmez 2 evreninde değil; bu yüzden kovayı hiç kapatmıyordu. Üstelik
+  kaynağı `TDV, madde: buhara-hanligi`, ve **o gövdede 1920 hiç geçmiyor** (ölçüldü, ilk
+  tur). `d:`si "Afganistan'a kaçtı" diyor; Iranica'ya göre emir önce doğuya, Düşenbe'ye
+  çekildi, Kabil'e 1921'de geçti. Ekranda iki madde yan yana görünecek. **Karar
+  koordinatörde:** ① kuyruk maddesi kaldırılır (önerim: evren içi madde kaynaklı ve
+  doğru) ② ya da kuyruk maddesinin kaynağı/`d:`si düzeltilir ve ikisi kalır. Bu diff kuyruk
+  dosyasına DOKUNMUYOR.
+- **Gün kaynağı (yeni, bu turda bulundu):** Iranica, JADIDISM (K. Hitchins), birebir:
+  "Decisive for the Young Bukharan movement was the overthrow of the emir of Bukhara by the
+  Red Army, which entered the city on 2 September 1920." · TDV buhara (AY): "1920 yılı
+  Ağustos sonunda son emîr Âlim Han Kızılordu’nun şehri işgali sonunda tahtından
+  uzaklaştırıldı ve 6 Ekim 1920’de Buhara Hanlığı ilga edildi." · Iranica, BUKHARA iii aynı
+  ay bilgisini veriyor ("At the end of August, 1920, the last amir, ʿĀlem Khan, was
+  overthrown"). TDV/Iranica "Ağustos sonu" emirin düşüşünü, JADIDISM "2 September" şehre
+  girişi tarihliyor. Birkaç günlük fark **çelişki ilan edilmedi** (§4: iki ayrı an olabilir),
+  maddenin kaynak alanında açıkça yazılı. `t:"1920-09-02"` gün düzeyi **kaynaklı**; D210
+  gereği ay düzeyine düşmek gerekmedi.
+  ⚠️ Ay düzeyiyle yazılsaydı (`1920-08-01` + `kesinlik:"ay"`) kovadan **32 gün** uzakta
+  kalacak, kovayı kapatmayacaktı. Kapanış ancak gün kaynağı bulunduğu için oluyor.
+- Madde `yer:"Buhara"`, `yer_id:"Buhara"`. **Kal'a-i Hum ANILMIYOR.** Düşenbe/21 Şubat
+  1921 bilgisi Iranica DUSHANBE'den birebir.
+- **Sonra:** 1920-09-02 kovası **TAMAMEN KAPANDI** (`eksik` boş). 2s AÇIK 186 (aynı) ·
+  KAPSAM DIŞI **792→791** (kova kapsam dışı kovasındaydı) · YER 2061→2063 · YALNIZ TARAF
+  2073→2078 · maskeli TARAF 174→169 · toplam **2247 (değişmedi)**. Madde sayısı 2200→2201.
+- 🔴 **KAPANIŞIN SINIFI, üye üye** (`_2s_yeri_aniyor` / `_2s_tarafi_aniyor`, uygulanmış ağaçta):
+  | üye | YER kolu | TARAF kolu |
+  |---|---|---|
+  | Buhara | **yeni madde** | yeni madde + Riga |
+  | Karşi | ⚠️ "Doğu Cephesi harekâtı… Ermenistan'a **karşı** taarruza geçti" | yeni madde + Riga |
+  | Hisar · Külâb · Termez · Şehrisebz | — | yeni madde + Riga |
+  | **Kal'a-i Hum** | — | ⚠️ **yeni madde** (eski sahip `buhara`) |
+  ⇒ Riga'nın taraf eşleşmesi **sürüyor** ama artık kapanışı tek başına taşımıyor; altı
+  üyenin her birinde gerçek bir Buhara maddesi de var.
+  ⇒ ⚠️ **Kal'a-i Hum maddede anılmadığı hâlde TARAF kolundan kapanıyor.** Ölçütün tasarımı
+  bu ("o gün o devletin olayı var"), ama Darvaz o gün el değiştirmedi. Bu kapanış **yer
+  düzeyinde doğrulanmamıştır**. Gerçek çare künyede (aşağıda 6.4). Bunu gizlemiyorum:
+  diff inerse Kal'a-i Hum'un açık görünmesinin sebebi ortadan kalkar, ama **kusur
+  kalkmaz**.
+  ⇒ ⚠️ **YENİ BULGU — YER kolunda Türkçe kelime çakışması:** "Karşi" (yer adı) normalleşmiş
+  hâliyle Türkçe "karşı" ile eşleşiyor. Karşi'yi şu an YER koluyla kapatan madde, 1920
+  Kars harekâtı ("Ermenistan'a karşı"). İlk taslağımda da "Sovyetlere karşı" vardı ve
+  aynı eşleşmeyi üretiyordu. Metni "Sovyetlerle" diye değiştirdim, diff'te "karşı" **0**.
+  Mevcut Kars maddesindeki eşleşme denetle.py'nin (`_2s_yeri_aniyor`) kusuru, bu diff'in
+  değil. **Öneri: ayrı kalem** — bir yer adının normalleşmiş hâli bir Türkçe sözcükle
+  çakışıyor mu taraması (Karşi/karşı ilk ölçülen örnek; Kili/kil-, Bar/bar,
+  Tuz/tuz gibi adaylar **ölçülmedi**).
+
+### 6.3 `denetim/TEK-EKSIK-ELBING-1006.diff` — `data/olaylar_ek16.js` (şartsız kısım)
+- `b:` "…Rusya, **Prusya** ve Avusturya'ya toprak kaybı" · `d:` "Prusya ise kıyı bölgesi
+  Kraliyet Prusyası'nı (**Gdańsk ve Toruń hariç**) devraldı" · `kaynak:` "bulunamadı" →
+  Britannica 'Partitions of Poland' iki birebir cümle. `yer` listesine **dokunulmadı** (④
+  koordinatörde).
+- **Sonra:** 1772-08-05 kovası **KAPANDI**, ama Elbing **TARAF** koluyla (başlık artık
+  yeni sahip `prusya`yı anıyor). 2s AÇIK 186→185 · YER 2061→2066 · YALNIZ TARAF
+  2073→2075 · maskeli YER 587→582, TARAF 174→173.
+- 🔴 **TAVAN AŞIMI:** yalnız-taraf görünür+maskeli **2247→2248 > tavan 2247**. `denetle`
+  satırı: "⚠️ TAVAN AŞILDI (2248 > 2247) — … İhlal değil, ama SINIFI istenir." Çıkış kodu
+  değişmedi.
+  **Sınıf:** künye devralması DEĞİL. Elbing kırılmasının yeni sahibi `prusya`, ve madde
+  artık aynı olayda Prusya'nın payını kaynakla yazıyor. Kapanış meşru taraf kapanışı.
+  +1, Elbing'in kendisi.
+  ⇒ **Bu diff tek başına inemez** (§3.4 ②: tavan + sabit aynı commit'te). İki yol:
+  ① aynı commit'te `BEKLENEN_2S_YALNIZ_TARAF 2247→2248` (koordinatör; gerekçe yukarıda)
+  ② ④ şartı onaylanır ve `yer` listesine Elbing girer ⇒ Elbing YER koluna geçer, toplam
+  2247'de kalır (**ölçülmedi**, öngörü: YER +1, taraf toplamı değişmez).
+  Önerim ②'nin ölçülmesi; ④ reddedilirse ①.
+- `katalan 1 dönem` satırının baskı sırası bazı koşularda değişti: ELBING koşusunda var;
+  BUHARA'nın ilk (karşı'lı) koşusunda vardı, son koşusunda yok; KILI'de yok. İçerik aynı.
+  Sıralama kararsız görünüyor (eşit anahtar), diff'lerle ilgisiz.
+
+### 6.4 Buhara künyesi — D205 sınıf ② incelemesi (YAZILMADI, `devletler.js`)
+- Künye: `id:"buhara"`, `f:"1500-01-01"`, **`t:"1920-09-02"`**, kaynak `buhara`.
+- Kaynakların söylediği **üç ayrı bitiş** var; künye günü bunlardan yalnız birine uyuyor:
+  | an | gün | kaynak |
+  |---|---|---|
+  | Kızıl Ordu şehre girdi | 1920-09-02 | Iranica JADIDISM |
+  | Hanlık **ilga** edildi | **1920-10-06** | TDV buhara · Iranica BUKHARA iii ("on 6 October 1920 the khanate was abolished") |
+  | Emirin doğudaki üssü Düşenbe düştü | **1921-02-21** | Iranica DUSHANBE |
+- **Sınıflama:** ② **aynı polity sürüyor**. Emir, hanlık ilgasından sonra da Doğu Buhara'dan
+  yarım yıl mücadeleyi yönetti (Iranica DUSHANBE). Künye şehrin düşüşünde kapanıyor, polity
+  doğuda sürüyor. Çare **künyeyi GENİŞLETMEK** (kısaltmak değil). Ardıl yapı (BHSC) yalnız
+  batıyı aldı (sınıf ③ değil).
+- **Seçenekler** (hüküm koordinatör/Emre; de jure / de facto tercihi):
+  ① `t:"1920-10-06"`: de jure ilga, iki kaynak (TDV + Iranica). Kal'a-i Hum'un `__BOSLUK__`
+  dilimi (09-02→10-08) **daralır** ama kalkmaz (10-06→10-08 arası 2 gün boşluk kalır,
+  BHSC künyesi 8 Ekim; o gün TDV'de yok, BHSC maddesi kendisi söylüyor).
+  ② `t:"1921-02-21"`: de facto, emirin son üssü (Iranica DUSHANBE, gün). Doğu Buhara
+  yerleri (Kal'a-i Hum, Hisar, Külâb, Düşenbe) 1921-02'ye dek `buhara` kalabilir.
+  Kal'a-i Hum'un 1920-09-02 kırılması ve `__BOSLUK__` dilimi kalkar. **Önerim ②**: haritanın
+  çizdiği şey fiilî denetim.
+- ⚠️ **Ters yön (D206), ölçüldü ama düzeltilmedi:** Hisar ve Külâb atlasta **1920-09-02'de
+  `buhara→sovyet-rusya`**. Iranica DUSHANBE'ye göre o tarihte emirin Doğu Buhara üssündeydiler.
+  Kaynak Hisar/Külâb'ı adıyla tarihlemiyor, bu bir **aday**, hüküm değil. Künye ② seçilirse
+  bu iki kaydın kırılma günü de (koordinatör, `yerlesimler*.js`) gözden geçirilmeli. Böyle
+  olursa 6.2'deki Hisar/Külâb taraf kapanışı da **yanlış güne kapanış** çıkar.
+- Bulunamadı: Darvaz'ın (Kal'a-i Hum) Sovyet denetimine **gün** olarak geçişi (TDV `darvaz`
+  302; Iranica DUSHANBE Darvaz'ı anmıyor). Kaydın kendi notundaki "1921–22 Basmacı/Enver
+  Paşa" bilgisi bu turda yeniden okunmadı.
