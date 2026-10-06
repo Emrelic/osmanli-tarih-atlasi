@@ -1,0 +1,93 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index d791017b..d0e2c7c5 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -7777,7 +7777,7 @@ window.DEVLETLER = [
+   f:"1521-01-01", t:"1850-01-01", harita:"harfusogullari",
+   tabi:[{f:"1521-01-01", t:"1850-01-01", ust:"osmanli"}],
+   ozet:"1516 Osmanlı fethinden kısa süre sonra, Canbirdi Gazâlî isyanı (1520-21) sırasında Baalbek bölgesine yerleşen bir yerel hanedan; Ba'lebek ve Bikâ' vadisinde, Osmanlı Şam eyaleti içinde yarı-özerk hakimiyet kurdu, Ma'noğulları/Şihaboğulları ile zaman zaman çatıştı (aynı toprak için değil, komşu/rakip güçler olarak — Baalbek ile Deyrülkamer arası 55+ km, çakışma yok), 19. yüzyıl ortasındaki Tanzimat reformlarıyla yerini doğrudan Osmanlı kaza idaresine bıraktı.",
+-  kaynak:"TDV `harfus` — HTTP 200, içerik okunarak doğrulandı (⚠️ slug'ın birincil konusu Memlük dönemi 'harfûş' toplumsal terimi; hanedan alt bölüm — içerik dikkatle ayıklandı). f: GÜN/AY BİLİNMİYOR: TDV yalnız 'Canbirdi'nin isyanı esnasında Ba'lebek'e yerleştiler' diyor; isyan TDV `canbirdi-gazali`'de tarihlendi (bastırılma 27 Ocak 1521), yıl ondan ödünç alındı (D084). t: GÜN/YIL BELİRSİZ: TDV yalnız '19. yy ortası' diyor; 1850 kardeş TDV maddesi `balebek`ten çapraz alındı — bu bir ÇIKARSAMA, `harfus` maddesinin kendisi 1850'yi yazmıyor.",
++  kaynak:"TDV `harfus` — HTTP 200, içerik okunarak doğrulandı (⚠️ slug'ın birincil konusu Memlük dönemi 'harfûş' toplumsal terimi; hanedan alt bölüm — içerik dikkatle ayıklandı). f: GÜN/AY BİLİNMİYOR: TDV yalnız 'Canbirdi'nin isyanı esnasında Ba'lebek'e yerleştiler' [TDV slug: harfus (alıntı doğrulanmadı)] diyor; isyan TDV `canbirdi-gazali`'de tarihlendi (bastırılma 27 Ocak 1521), yıl ondan ödünç alındı (D084). t: GÜN/YIL BELİRSİZ: TDV yalnız '19. yy ortası' diyor; 1850 kardeş TDV maddesi `balebek`ten çapraz alındı — bu bir ÇIKARSAMA, `harfus` maddesinin kendisi 1850'yi yazmıyor.",
+   kronoloji:[
+     { t:"1521-01-01", tur:"kurulus", b:"Harfûşoğulları, Canbirdi Gazâlî isyanı sırasında Ba'lebek bölgesine yerleşti", kaynak:"TDV harfus — \"Canbirdi'nin isyanı esnasında Harfûşoğulları Ba'lebek bölgesine yerleşmişlerdir.\" (isyan tarihi: TDV canbirdi-gazali)" },
+     { t:"1601-01-01", tur:"isyan", b:"XVII. yüzyıl başından itibaren Baalbek/Bikâ hakimiyeti için Harfûş emirleri arasında iç rekabet başladı", kaynak:"TDV harfus — \"XVII. yüzyıl başlarından itibaren Ba'lebek ve Bikā'da hâkimiyet için Harfûş emîrleri arasında rekabet çıkmış\"" },
+diff --git a/data/ekokuma_dunya.js b/data/ekokuma_dunya.js
+index efc5cf1b..4bbcd6cd 100644
+--- a/data/ekokuma_dunya.js
++++ b/data/ekokuma_dunya.js
+@@ -543,7 +543,7 @@ window.EKOKUMA_DUNYA = [
+   kesinlik:"kesin",
+   olay:["1509-09-14|Küçük Kıyamet","1766-05-01|Fâtih Camii","1894-07-10|1894 İstanbul depremi"],
+   kaynak:"TDV: zelzele (dört büyük deprem listesi, dinî değerlendirme) · istanbul (1509 hasarı, imar) · fatih-camii-ve-kulliyesi (1766 çöküşü ve yeniden inşa) — hepsi gövdesi okundu. 1894 depreminin büyüklük/can kaybı rakamları TDV'de verilmiyor, akademik kaynakla (hakemli dergi makaleleri, çapraz kontrol edildi) tamamlandı.",
+-  ic_not:"🔴 TARİH ÇELİŞKİSİ, ÇÖZÜLMEDİ: TDV'nin `zelzele` maddesi 1509 depremini '22 Ağustos 1509' diye veriyor; bu atlasın kendi çekirdek kronoloji kaydı (olaylar_ek7.js, kaynak: istanbul) '14 Eylül 1509' taşıyor; yaygın ikincil kaynaklar ise '10 Eylül 1509' yazıyor. Üç farklı gün — hangisi doğru, bu oturumda çözülmedi, taraf tutulmadı. 🔴 AYRICA: `zelzele` maddesinin 1894 depremi için verdiği '35-40.000 ölü, merkez üssü Gölcük, 7,4 büyüklük' rakamları muhtemelen 1999 İzmit depreminin (gerçekten Gölcük merkezli, 7,4 büyüklüklü) rakamlarıyla KARIŞMIŞ — aynı maddede iki ayrı deprem yan yana anılıyor olabilir; bu oturumda kartta KULLANILMADI, 1894 rakamları yalnız akademik kaynaktan alındı (§4 TDV tuzağı ⑧ 'rakam gövdede geçiyor ≠ doğru olaya ait' sınıfı — ölçülmedi, yalnız şüphe kaydedildi)." },
++  ic_not:"🔴 TARİH ÇELİŞKİSİ, ÇÖZÜLMEDİ: TDV'nin `zelzele` maddesi 1509 depremini '22 Ağustos 1509' diye veriyor; bu atlasın kendi çekirdek kronoloji kaydı (olaylar_ek7.js, kaynak: istanbul) '14 Eylül 1509' taşıyor; yaygın ikincil kaynaklar ise '10 Eylül 1509' yazıyor. Üç farklı gün — hangisi doğru, bu oturumda çözülmedi, taraf tutulmadı. 🔴 AYRICA: `zelzele` maddesinin 1894 depremi için verdiği '35-40.000 ölü, merkez üssü Gölcük, 7,4 büyüklük' rakamları muhtemelen 1999 İzmit depreminin (gerçekten Gölcük merkezli, 7,4 büyüklüklü) rakamlarıyla KARIŞMIŞ — aynı maddede iki ayrı deprem yan yana anılıyor olabilir; bu oturumda kartta KULLANILMADI, 1894 rakamları yalnız akademik kaynaktan alındı (§4 TDV tuzağı ⑧ 'rakam gövdede geçiyor ≠ doğru olaya ait' [TDV slug: zelzele (alıntı doğrulanmadı)] sınıfı — ölçülmedi, yalnız şüphe kaydedildi)." },
+ 
+ // ══════════════════════════════════════════════════════════════════════════
+ // H-0008b · İSTANBUL'UN BÜYÜK YANGINLARI
+diff --git a/data/ekokuma_ibrahim.js b/data/ekokuma_ibrahim.js
+index 74a8cfbe..f81880e5 100644
+--- a/data/ekokuma_ibrahim.js
++++ b/data/ekokuma_ibrahim.js
+@@ -171,6 +171,6 @@ window.EKOKUMA_IBRAHIM = [
+   not:"Heyetle İbrahim arasındaki karşılıklı sözler Naîmâ'nın anlatısıdır; olayların içindeki Karaçelebizâde bu konuşmadan söz etmez.",
+   kesinlik:"tartismali",
+   kaynak:"TDV: ibrahim--padisah · hezarpare-ahmed-pasa · kosem-sultan · Bekir Gökpınar, ETÜ Sosyal Bilimler Enstitüsü Dergisi 10 (2020)",
+-  ic_not:"Yumruk: TDV ibrahim--padisah (Kâtib Çelebi II, 327); TDV hezarpare 'tartaklandı'. 'Camide cülus olmaz': Gökpınar #348 (Kâtip Çelebi 2016 II/987) — okura sözün anlamıyla aktarıldı. Karaçelebizâde'nin Naîmâ'daki sert sözleri: TDV ibrahim--padisah (Naîmâ IV, 326-327); TDV kararın gerekçelerini çoklu aktarır. Katl sahnesi ve sorumluluk tartışması magazin.js 'ibrahim-katli-kim-emretti-1648' kartında — bu kart onu TEKRAR ETMEZ, kilide kurşun ayrıntısı orada. H-0008 'kafese konup kafeste katledilmesi' = bu kart + o kart." }
++  ic_not:"Yumruk: TDV ibrahim--padisah (Kâtib Çelebi II, 327); TDV hezarpare 'tartaklandı'. 'Camide cülus olmaz': Gökpınar #348 (Kâtip Çelebi 2016 II/987) — okura sözün anlamıyla aktarıldı. Karaçelebizâde'nin Naîmâ'daki sert sözleri: TDV ibrahim--padisah (Naîmâ IV, 326-327); TDV kararın gerekçelerini çoklu aktarır. Katl sahnesi ve sorumluluk tartışması magazin.js 'ibrahim-katli-kim-emretti-1648' kartında — bu kart onu TEKRAR ETMEZ, kilide kurşun ayrıntısı orada. H-0008 'kafese konup kafeste katledilmesi' [TDV slug: ibrahim--padisah (alıntı doğrulanmadı)] = bu kart + o kart." }
+ 
+ ];
+diff --git a/data/kronoloji_gurcistan.js b/data/kronoloji_gurcistan.js
+index 6f3f8437..e44b3353 100644
+--- a/data/kronoloji_gurcistan.js
++++ b/data/kronoloji_gurcistan.js
+@@ -202,7 +202,7 @@ window.KRONOLOJI_GURCISTAN = [
+   etiket:["askeri","toprak-kazanc","konu-askeri"],
+   yer_id:"Ahıska",
+   d:"IV. Murad döneminin doğu seferleri sırasında Ahıska, geçici bir Safevî ara döneminin ardından yeniden Osmanlı idaresine geçti; şehir 1829'a kadar Çıldır Eyaleti'nin merkezi olarak kalacaktı.",
+-  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı')" },
++  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı' [TDV slug: ahiska (alıntı doğrulanmadı)])" },
+ 
+ { t:"1643-01-01", b:"Rüstem Han'ın Tiflis kalesini tahkim etmesi", tur:"idari", onem:2, dunya:1, kapsam:"ic",
+   etiket:["idari","konu-idari"],
+@@ -220,13 +220,13 @@ window.KRONOLOJI_GURCISTAN = [
+   etiket:["siyaset","konu-siyasi"],
+   yer_id:"Tiflis",
+   d:"1632'den beri süren, Safevî sarayınca tayin edilmiş İslam'a geçmiş Kartli hükümdarları düzeni 1711'de sona erdi; ardından Vahtang VI'nın kanunname çalışmaları ve on üç yıl sonraki Osmanlı müdahalesiyle (1724) yeni bir siyasi evre başladı.",
+-  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' süren düzen)" },
++  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' [TDV slug: tiflis (alıntı doğrulanmadı)] süren düzen)" },
+ 
+ { t:"1723-06-24", b:"Osmanlı'nın Tiflis'i son kez alması — Tiflis Beylerbeyiliği kuruldu", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
+   etiket:["askeri","fetih","idari","konu-askeri","konu-idari"],
+   yer_id:"Tiflis",
+   d:"Safevî Devleti'nin Afgan istilâsıyla çökmesi ve Rusya'nın Hazar kıyılarına inmesi üzerine Osmanlı ordusu 23-24 Haziran 1723'te Tiflis'e girdi ve şehri yeni bir beylerbeyilik olarak örgütledi. On üç yıl sürecek son büyük Osmanlı işgalinin başlangıcıdır.",
+-  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi') + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
++  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi' [TDV slug: tiflis (alıntı doğrulanmadı)]) + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
+ 
+ { t:"1724-01-01", b:"Kartli Çarı Vahtang'ın oğlu İbrahim'in Osmanlı tarafından Kartli'ye tayini", tur:"siyaset", onem:4, dunya:2, kapsam:"dis",
+   etiket:["siyaset","konu-siyasi"],
+diff --git a/data/kronoloji_memluk.js b/data/kronoloji_memluk.js
+index d763f0b5..4493866f 100644
+--- a/data/kronoloji_memluk.js
++++ b/data/kronoloji_memluk.js
+@@ -53,7 +53,7 @@ window.KRONOLOJI_MEMLUK = [
+ 
+ { t:"1263-01-01", b:"Baybars berîd (posta-istihbarat) örgütünü yeniden kurdu", gun:"1263 — yıl hassasiyeti · TDV `berid`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:4, dunya:1, kapsam:"ic", etiket:["idari","islahat","konu-idari","konu-islahat","konu-ulastirma"], yer_id:"Kahire", d:"Haçlı seferleri yüzünden bozulmuş olan Dîvânü'l-berîd'i saltanatının erken yıllarında yeniden canlandıran Baybars, güzergâh üzerine yollar, köprüler ve küçük kale biçiminde kervansaraylar yaptırdı. Bu ağ sayesinde Kahire'den Dımaşk'a haber ortalama dört günde, âcil durumlarda Halep'e üç günde ulaştırılabiliyordu; örgüt aynı zamanda güvercin postasıyla desteklenen bir istihbarat ağına dönüştü.", kaynak:"berid (TDV, gövde okundu) — kesin ay/gün TDV'de yok, saltanatının erken yıllarına tarihleniyor; akademik: Cambridge, \"Postal Systems in the Pre-Modern Islamic World\", böl. 5 \"The Mamluk Barīd\"" },
+ 
+-{ t:"1265-01-01", b:"Baybars dört mezhep için ayrı başkadılık makamı kurdu", gun:"H. 663 / 1265 — yıl hassasiyeti · TDV `hisbe`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:5, dunya:2, kapsam:"ic", etiket:["hukuk","idari","konu-idari","konu-hukuk"], yer_id:"Kahire", d:"Sultan I. Baybars, 663'te (1265) Kahire'de Hanefî, Şâfiî, Mâlikî ve Hanbelî mezheplerinin her biri için ayrı bir kādılkudât tayin ederek dört başkadılık sistemini kurdu. Dîvân-ı Mezâlim'in toplandığı dârüladlde bu dört başkadı, kazaskerler, müftüler ve beytülmâl vekiliyle birlikte sultanın yanında oturma hakkına sahipti; uygulama Osmanlı fethine kadar sürdü ve mezhep çoğulculuğunu kurumsallaştıran ender örneklerden biri oldu.", kaynak:"hisbe (TDV, gövde okundu) + akademik (\"Legal Diversity in the Age of Taqlid: the Four Chief Qadis Under the Mamluks\")" },
++{ t:"1265-01-01", b:"Baybars dört mezhep için ayrı başkadılık makamı kurdu", gun:"H. 663 / 1265 — yıl hassasiyeti · TDV `hisbe`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:5, dunya:2, kapsam:"ic", etiket:["hukuk","idari","konu-idari","konu-hukuk"], yer_id:"Kahire", d:"Sultan I. Baybars, 663'te (1265) Kahire'de Hanefî, Şâfiî, Mâlikî ve Hanbelî mezheplerinin her biri için ayrı bir kādılkudât tayin ederek dört başkadılık sistemini kurdu. Dîvân-ı Mezâlim'in toplandığı dârüladlde bu dört başkadı, kazaskerler, müftüler ve beytülmâl vekiliyle birlikte sultanın yanında oturma hakkına sahipti; uygulama Osmanlı fethine kadar sürdü ve mezhep çoğulculuğunu kurumsallaştıran ender örneklerden biri oldu.", kaynak:"hisbe (TDV, gövde okundu) + akademik (\"Legal Diversity in the Age of Taqlid: the Four Chief Qadis Under the Mamluks\" [TDV slug: hisbe (alıntı doğrulanmadı)])" },
+ 
+ { t:"1266-01-01", b:"Memlükler Haremeyn'e ilk surreyi gönderdi", gun:"H. 664 / 1266 — yıl hassasiyeti · TDV `surre`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"din", onem:3, dunya:1, kapsam:"ic", etiket:["din","konu-din"], yer_id:"Mekke", d:"Abbâsî halifeliğini Kahire'de ihya eden Memlükler, hilâfetin eski geleneği olan surreyi (Mekke-Medine halkına gönderilen yıllık para ve hediye) de üstlendiler. İlk Memlük surresinin 664'te (1266) yollandığı kabul edilir; bu, Hicaz üzerindeki nüfuzu, aynı iddiada bulunan Yemen'in Resûlî emîrlerine karşı ilan etmenin bir yoluydu.", kaynak:"surre (TDV, gövde okundu)" },
+ 
+diff --git a/data/seferler_sefer_ok_0075.js b/data/seferler_sefer_ok_0075.js
+index 5fda8d33..6127b7f6 100644
+--- a/data/seferler_sefer_ok_0075.js
++++ b/data/seferler_sefer_ok_0075.js
+@@ -52,7 +52,7 @@ window.SEFERLER_SEFER_OK_0075 = [
+   tur:"tahliye", sonuc:"belirsiz", devlet:"misir-kavalali",
+   f:"1841-02-01", t:"1841-02-25",
+   tarih_hassasiyet:"AY — atlas kronolojisi 'Şubat 1841' (data/olaylar_ek4.js:276 ve data/kronoloji_misir.js:215, madde günü 1841-02-25); TDV ibrahim-pasa-kavalali yalnız emri verir (27 Kasım 1840)",
+-  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\"",
++  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\" [TDV slug: ibrahim-pasa-kavalali (alıntı doğrulanmadı)]",
+   kesinlik:"İSTASYONLAR (Adana, Belen, Halep, Humus, Şam, Gazze, Kahire) 1831-33 işgal güzergâhının ('Suriye harekâtı (1831-32)' + 'Anadolu ilerleyişi (1832-33)' kayıtları) TERSİDİR; dönüş yolunun KENDİ kaynağı yok — TDV yalnız 'geri çekmek üzere emirler verdi' der. Sıra ve uçlar temsilîdir; günler yalnız AY (Şubat 1841).",
+   yol:[[35.32,37.0],[36.2,36.52],[37.16,36.2],[36.71,34.73],[36.29,33.51],[34.47,31.5],[31.24,30.05]] }
+ 

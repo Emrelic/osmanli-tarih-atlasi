@@ -1,0 +1,35 @@
+diff --git a/data/paket_09.js b/data/paket_09.js
+index 10b3eecb..c905923c 100644
+--- a/data/paket_09.js
++++ b/data/paket_09.js
+@@ -2632,7 +2632,7 @@ window.KRONOLOJI_COK_ITALYA = [
+ //
+ // ── KAYNAK (§4) — DÜRÜSTLÜK BEYANI ────────────────────────────────────
+ // TDV — bu oturumda GÖVDESİ OKUNDU (canlı, doğrulandı):
+-//   `endulus` · `moriskolar` · `inebahti-savasi` · `cezayir` ·
++//   `endulus` · `moriskolar` · `inebahti-deniz-savasi` · `cezayir` ·
+ //   `barbaros-hayreddin-pasa`
+ // TDV — ÖLÇÜLDÜ VE ÖLÜ/ZAYIF ÇIKTI: `malta-kusatmasi` (arama listesi
+ //   döndürdü, madde gövdesi yok) ⇒ Malta 1565 maddeleri standart akademik
+@@ -2943,7 +2943,7 @@ window.KRONOLOJI_ISPANYA = [
+ { t:"1571-10-07", b:"İnebahtı Deniz Savaşı — Kutsal İttifak donanmasının zaferi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
+   etiket:["askeri","kusatma","konu-askeri"],
+   d:"İspanya, Venedik ve Papalık'ın oluşturduğu Kutsal İttifak donanması, Don Juan de Austria komutasında Osmanlı filosunu İnebahtı'da imha etti; İspanyol gemileri filonun en büyük tek unsuruydu. TDV'nin kaydına göre savaş 7 Ekim 1571'de İnebahtı körfezinde gerçekleşti; zafer sembolik önemine rağmen Kıbrıs'ı geri kazandırmadı ve Osmanlı donanması bir yıl içinde yeniden inşa edildi.",
+-  kaynak:"TDV `inebahti-savasi`: \"1571 yılının 7 Ekim günü İnebahtı körfezinde... Osmanlı donanması ile müttefik Hıristiyan filoları arasında gerçekleşen deniz savaşı\" (gövdesi OKUNDU) · `data/kronoloji_venedik.js` ile BİREBİR hizalı (t ve dunya aynı)" },
++  kaynak:"TDV `inebahti-deniz-savasi` (eski slug `inebahti-savasi` ölü, HTTP 302; canlı karşılık başlık aramasıyla bulundu — UMIT-W49 6 Ekim 2026): 1571 yılının 7 Ekim günü İnebahtı körfezinde Osmanlı donanması ile müttefik Hıristiyan filoları arasında gerçekleşen deniz savaşı — ⚠️ TIRNAK KALDIRILDI (koordinatör hükmü: tırnak = iddia, yalnız TDV gövdesinden birebir): bu ifade canlı gövdede BİREBİR YOK. Gövdenin tarih cümlesi: 'İki donanma 17 Cemâziyelevvel 979’da (7 Ekim 1571) İnebahtı körfezinde karşı karşıya geldi'. Eski 'gövdesi OKUNDU' ibaresi ölü slug için geçersizdi, kaldırıldı · `data/kronoloji_venedik.js` ile BİREBİR hizalı (t ve dunya aynı)" },
+ 
+ { t:"1573-10-10", b:"İspanya Tunus'u yeniden ele geçirdi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Tunus",
+   etiket:["askeri","toprak-kazanc","konu-askeri"],
+diff --git a/data/paket_12.js b/data/paket_12.js
+index 2d0b56d1..4fa304cc 100644
+--- a/data/paket_12.js
++++ b/data/paket_12.js
+@@ -12542,7 +12542,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
+ { t:"1571-10-07", b:"İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katılım", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
+   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
+   d:"Tarikat, sağ kanatta yer alan üç kadırgasıyla Kutsal İttifak donanmasına katıldı ve tarikat kadırgası ağır kayıp verdi. Sayıca küçük olan katkı, tarikatın Katolik dünyasının ortak savunmasındaki sembolik yerini pekiştirdi. Zafer Akdeniz'de Osmanlı ilerleyişinin durduğu an olarak anıldı.",
+-  kaynak:"TDV 'inebahti-savasi' md. · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
++  kaynak:"TDV 'inebahti-deniz-savasi' md. (eski slug 'inebahti-savasi' ölü/302 — UMIT-W49 6 Ekim 2026) · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
+ 
+ { t:"1573-01-01", b:"Saint John Ortak Katedrali'nin inşasına başlanması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Malta",
+   etiket:["mimari","din","kultur","imar","konu-din","konu-kultur","konu-imar"],

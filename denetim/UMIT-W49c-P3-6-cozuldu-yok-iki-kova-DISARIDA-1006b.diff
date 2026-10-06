@@ -1,0 +1,105 @@
+diff --git a/data/paket_05.js b/data/paket_05.js
+index 929653e6..06e9378c 100644
+--- a/data/paket_05.js
++++ b/data/paket_05.js
+@@ -7796,7 +7796,7 @@ window.DEVLETLER = [
+   f:"1521-01-01", t:"1850-01-01", harita:"harfusogullari",
+   tabi:[{f:"1521-01-01", t:"1850-01-01", ust:"osmanli"}],
+   ozet:"1516 Osmanlı fethinden kısa süre sonra, Canbirdi Gazâlî isyanı (1520-21) sırasında Baalbek bölgesine yerleşen bir yerel hanedan; Ba'lebek ve Bikâ' vadisinde, Osmanlı Şam eyaleti içinde yarı-özerk hakimiyet kurdu, Ma'noğulları/Şihaboğulları ile zaman zaman çatıştı (aynı toprak için değil, komşu/rakip güçler olarak — Baalbek ile Deyrülkamer arası 55+ km, çakışma yok), 19. yüzyıl ortasındaki Tanzimat reformlarıyla yerini doğrudan Osmanlı kaza idaresine bıraktı.",
+-  kaynak:"TDV `harfus` — HTTP 200, içerik okunarak doğrulandı (⚠️ slug'ın birincil konusu Memlük dönemi 'harfûş' toplumsal terimi; hanedan alt bölüm — içerik dikkatle ayıklandı). f: GÜN/AY BİLİNMİYOR: TDV yalnız 'Canbirdi'nin isyanı esnasında Ba'lebek'e yerleştiler' diyor; isyan TDV `canbirdi-gazali`'de tarihlendi (bastırılma 27 Ocak 1521), yıl ondan ödünç alındı (D084). t: GÜN/YIL BELİRSİZ: TDV yalnız '19. yy ortası' diyor; 1850 kardeş TDV maddesi `balebek`ten çapraz alındı — bu bir ÇIKARSAMA, `harfus` maddesinin kendisi 1850'yi yazmıyor.",
++  kaynak:"TDV `harfus` — HTTP 200, içerik okunarak doğrulandı (⚠️ slug'ın birincil konusu Memlük dönemi 'harfûş' toplumsal terimi; hanedan alt bölüm — içerik dikkatle ayıklandı). f: GÜN/AY BİLİNMİYOR: TDV yalnız 'Canbirdi'nin isyanı esnasında Ba'lebek'e yerleştiler' [TDV slug: harfus (alıntı doğrulanmadı)] diyor; isyan TDV `canbirdi-gazali`'de tarihlendi (bastırılma 27 Ocak 1521), yıl ondan ödünç alındı (D084). t: GÜN/YIL BELİRSİZ: TDV yalnız '19. yy ortası' diyor; 1850 kardeş TDV maddesi `balebek`ten çapraz alındı — bu bir ÇIKARSAMA, `harfus` maddesinin kendisi 1850'yi yazmıyor.",
+   kronoloji:[
+     { t:"1521-01-01", tur:"kurulus", b:"Harfûşoğulları, Canbirdi Gazâlî isyanı sırasında Ba'lebek bölgesine yerleşti", kaynak:"TDV harfus — \"Canbirdi'nin isyanı esnasında Harfûşoğulları Ba'lebek bölgesine yerleşmişlerdir.\" (isyan tarihi: TDV canbirdi-gazali)" },
+     { t:"1601-01-01", tur:"isyan", b:"XVII. yüzyıl başından itibaren Baalbek/Bikâ hakimiyeti için Harfûş emirleri arasında iç rekabet başladı", kaynak:"TDV harfus — \"XVII. yüzyıl başlarından itibaren Ba'lebek ve Bikā'da hâkimiyet için Harfûş emîrleri arasında rekabet çıkmış\"" },
+diff --git a/data/paket_07.js b/data/paket_07.js
+index e0e8892a..66b40bf2 100644
+--- a/data/paket_07.js
++++ b/data/paket_07.js
+@@ -58,7 +58,7 @@ window.KRONOLOJI_MEMLUK = [
+ 
+ { t:"1263-01-01", b:"Baybars berîd (posta-istihbarat) örgütünü yeniden kurdu", gun:"1263 — yıl hassasiyeti · TDV `berid`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:4, dunya:1, kapsam:"ic", etiket:["idari","islahat","konu-idari","konu-islahat","konu-ulastirma"], yer_id:"Kahire", d:"Haçlı seferleri yüzünden bozulmuş olan Dîvânü'l-berîd'i saltanatının erken yıllarında yeniden canlandıran Baybars, güzergâh üzerine yollar, köprüler ve küçük kale biçiminde kervansaraylar yaptırdı. Bu ağ sayesinde Kahire'den Dımaşk'a haber ortalama dört günde, âcil durumlarda Halep'e üç günde ulaştırılabiliyordu; örgüt aynı zamanda güvercin postasıyla desteklenen bir istihbarat ağına dönüştü.", kaynak:"berid (TDV, gövde okundu) — kesin ay/gün TDV'de yok, saltanatının erken yıllarına tarihleniyor; akademik: Cambridge, \"Postal Systems in the Pre-Modern Islamic World\", böl. 5 \"The Mamluk Barīd\"" },
+ 
+-{ t:"1265-01-01", b:"Baybars dört mezhep için ayrı başkadılık makamı kurdu", gun:"H. 663 / 1265 — yıl hassasiyeti · TDV `hisbe`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:5, dunya:2, kapsam:"ic", etiket:["hukuk","idari","konu-idari","konu-hukuk"], yer_id:"Kahire", d:"Sultan I. Baybars, 663'te (1265) Kahire'de Hanefî, Şâfiî, Mâlikî ve Hanbelî mezheplerinin her biri için ayrı bir kādılkudât tayin ederek dört başkadılık sistemini kurdu. Dîvân-ı Mezâlim'in toplandığı dârüladlde bu dört başkadı, kazaskerler, müftüler ve beytülmâl vekiliyle birlikte sultanın yanında oturma hakkına sahipti; uygulama Osmanlı fethine kadar sürdü ve mezhep çoğulculuğunu kurumsallaştıran ender örneklerden biri oldu.", kaynak:"hisbe (TDV, gövde okundu) + akademik (\"Legal Diversity in the Age of Taqlid: the Four Chief Qadis Under the Mamluks\")" },
++{ t:"1265-01-01", b:"Baybars dört mezhep için ayrı başkadılık makamı kurdu", gun:"H. 663 / 1265 — yıl hassasiyeti · TDV `hisbe`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:5, dunya:2, kapsam:"ic", etiket:["hukuk","idari","konu-idari","konu-hukuk"], yer_id:"Kahire", d:"Sultan I. Baybars, 663'te (1265) Kahire'de Hanefî, Şâfiî, Mâlikî ve Hanbelî mezheplerinin her biri için ayrı bir kādılkudât tayin ederek dört başkadılık sistemini kurdu. Dîvân-ı Mezâlim'in toplandığı dârüladlde bu dört başkadı, kazaskerler, müftüler ve beytülmâl vekiliyle birlikte sultanın yanında oturma hakkına sahipti; uygulama Osmanlı fethine kadar sürdü ve mezhep çoğulculuğunu kurumsallaştıran ender örneklerden biri oldu.", kaynak:"hisbe (TDV, gövde okundu) + akademik (\"Legal Diversity in the Age of Taqlid: the Four Chief Qadis Under the Mamluks\" [TDV slug: hisbe (alıntı doğrulanmadı)])" },
+ 
+ { t:"1266-01-01", b:"Memlükler Haremeyn'e ilk surreyi gönderdi", gun:"H. 664 / 1266 — yıl hassasiyeti · TDV `surre`, `memlukler`, `baybars-i`, `kalavun` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"din", onem:3, dunya:1, kapsam:"ic", etiket:["din","konu-din"], yer_id:"Mekke", d:"Abbâsî halifeliğini Kahire'de ihya eden Memlükler, hilâfetin eski geleneği olan surreyi (Mekke-Medine halkına gönderilen yıllık para ve hediye) de üstlendiler. İlk Memlük surresinin 664'te (1266) yollandığı kabul edilir; bu, Hicaz üzerindeki nüfuzu, aynı iddiada bulunan Yemen'in Resûlî emîrlerine karşı ilan etmenin bir yoluydu.", kaynak:"surre (TDV, gövde okundu)" },
+ 
+diff --git a/data/paket_12.js b/data/paket_12.js
+index 24c17e0a..c689718c 100644
+--- a/data/paket_12.js
++++ b/data/paket_12.js
+@@ -5810,7 +5810,7 @@ window.KRONOLOJI_GURCISTAN = [
+   etiket:["askeri","toprak-kazanc","konu-askeri"],
+   yer_id:"Ahıska",
+   d:"IV. Murad döneminin doğu seferleri sırasında Ahıska, geçici bir Safevî ara döneminin ardından yeniden Osmanlı idaresine geçti; şehir 1829'a kadar Çıldır Eyaleti'nin merkezi olarak kalacaktı.",
+-  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı')" },
++  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı' [TDV slug: ahiska (alıntı doğrulanmadı)])" },
+ 
+ { t:"1643-01-01", b:"Rüstem Han'ın Tiflis kalesini tahkim etmesi", tur:"idari", onem:2, dunya:1, kapsam:"ic",
+   etiket:["idari","konu-idari"],
+@@ -5828,13 +5828,13 @@ window.KRONOLOJI_GURCISTAN = [
+   etiket:["siyaset","konu-siyasi"],
+   yer_id:"Tiflis",
+   d:"1632'den beri süren, Safevî sarayınca tayin edilmiş İslam'a geçmiş Kartli hükümdarları düzeni 1711'de sona erdi; ardından Vahtang VI'nın kanunname çalışmaları ve on üç yıl sonraki Osmanlı müdahalesiyle (1724) yeni bir siyasi evre başladı.",
+-  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' süren düzen)" },
++  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' [TDV slug: tiflis (alıntı doğrulanmadı)] süren düzen)" },
+ 
+ { t:"1723-06-24", b:"Osmanlı'nın Tiflis'i son kez alması — Tiflis Beylerbeyiliği kuruldu", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
+   etiket:["askeri","fetih","idari","konu-askeri","konu-idari"],
+   yer_id:"Tiflis",
+   d:"Safevî Devleti'nin Afgan istilâsıyla çökmesi ve Rusya'nın Hazar kıyılarına inmesi üzerine Osmanlı ordusu 23-24 Haziran 1723'te Tiflis'e girdi ve şehri yeni bir beylerbeyilik olarak örgütledi. On üç yıl sürecek son büyük Osmanlı işgalinin başlangıcıdır.",
+-  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi') + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
++  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi' [TDV slug: tiflis (alıntı doğrulanmadı)]) + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
+ 
+ { t:"1724-01-01", b:"Kartli Çarı Vahtang'ın oğlu İbrahim'in Osmanlı tarafından Kartli'ye tayini", tur:"siyaset", onem:4, dunya:2, kapsam:"dis",
+   etiket:["siyaset","konu-siyasi"],
+diff --git a/data/paket_13.js b/data/paket_13.js
+index c03f79ff..00ffe40c 100644
+--- a/data/paket_13.js
++++ b/data/paket_13.js
+@@ -1239,7 +1239,7 @@ window.YERLESIMLER = [
+ // { ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rub'ul Hâlî (Boş Çeyrek) tarih boyunca hiçbir devletin fiilen denetlemediği dünyanın en büyük kum çölüdür; sınırları ancak 20. yy'da Suudi-Yemen-Umman anlaşmalarıyla çizildi." },
+ { ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Aynı Boş Çeyrek çölünün doğu ucu; kaynaklar bu iç kesimde tarih boyunca yerleşik siyasi denetim olmadığını belirtiyor." },
+ { ad:"Necid içi", bos:"devletsiz", neden:"1744 öncesi Necid'de merkezî devlet denetimi yoktu; yerleşim VARDI ama hiçbir devletin idaresinde değildi. Kaynak: CLAUDE.md §3'te belgelenmiş proje kararı — 'Sahra ve Rub'ul Hâlî çölleri, 1744 öncesi Necid, körfez şeyhlikleri'.", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud-ikinci"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud-ucuncu"}] },
+-{ ad:"Hadramut",not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu.",kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\") f:1881-01-01 t:1923-10-29.",s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
++{ ad:"Hadramut",not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu.",kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\" [TDV slug: hadramut (alıntı doğrulanmadı)]) f:1881-01-01 t:1923-10-29.",s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
+ // m:"Kahire" EKLENDİ — kara-kısıtlı Voronoi prototipi bu bölgeyi Tebük'e (m:"Medine",
+ // yani Hicaz) vermek istedi. Geometrik olarak savunulabilir, TARİHEN YANLIŞ: Sinâ
+ // Osmanlı'da Mısır eyaletine bağlıydı ve 1906 Taba krizine kadar Kahire'den idare
+diff --git a/data/paket_26.js b/data/paket_26.js
+index 66a6a97f..cd5f5aba 100644
+--- a/data/paket_26.js
++++ b/data/paket_26.js
+@@ -1868,7 +1868,7 @@ window.SEFERLER_SEFER_OK_0075 = [
+   tur:"tahliye", sonuc:"belirsiz", devlet:"misir-kavalali",
+   f:"1841-02-01", t:"1841-02-25",
+   tarih_hassasiyet:"AY — atlas kronolojisi 'Şubat 1841' (data/olaylar_ek4.js:276 ve data/kronoloji_misir.js:215, madde günü 1841-02-25); TDV ibrahim-pasa-kavalali yalnız emri verir (27 Kasım 1840)",
+-  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\"",
++  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\" [TDV slug: ibrahim-pasa-kavalali (alıntı doğrulanmadı)]",
+   kesinlik:"İSTASYONLAR (Adana, Belen, Halep, Humus, Şam, Gazze, Kahire) 1831-33 işgal güzergâhının ('Suriye harekâtı (1831-32)' + 'Anadolu ilerleyişi (1832-33)' kayıtları) TERSİDİR; dönüş yolunun KENDİ kaynağı yok — TDV yalnız 'geri çekmek üzere emirler verdi' der. Sıra ve uçlar temsilîdir; günler yalnız AY (Şubat 1841).",
+   yol:[[35.32,37.0],[36.2,36.52],[37.16,36.2],[36.71,34.73],[36.29,33.51],[34.47,31.5],[31.24,30.05]] }
+ 
+diff --git a/data/yer_yama_1923_bosluk_0906.js b/data/yer_yama_1923_bosluk_0906.js
+index cf320b89..b633a038 100644
+--- a/data/yer_yama_1923_bosluk_0906.js
++++ b/data/yer_yama_1923_bosluk_0906.js
+@@ -14,5 +14,5 @@ window.YER_YAMA_1923_BOSLUK_0906 = [
+   { ad:"Honolulu", s:[{f:"1898-08-12",t:"1923-10-29",d:"abd"}], kaynak:"Atlasin KENDI capasi: `hawaii-kralligi` kunyesi zaten `t:\"1898-08-12\"` ile bitiyor (ABD ilhaki). Bu yama o gunu devralir — yeni bir tarih iddiasi URETMEZ, var olan kirilmanin OTEKI ucunu yazar. Kaydin son donemi `hawaii-kralligi -> 1898-08-12` idi ve ondan sonrasi SAHIPSIZDI.", not:"1923 boslugu kapatildi. `abd` kunyesi 1776-07-04 -> 1923-10-29, pencere TUTUYOR." },
+   { ad:"Timbuktu", s:[{f:"1894-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], kaynak:"TDV `tinbuktu`: \"1894'te Fransiz isgal ordusu sehri Bati Afrika somurgesine ilhak etti.\" YIL hassasiyeti — TDV gun vermiyor, `§4` geregi 1894-01-01 yazildi.", not:"🔴 KISMI: bu yama YALNIZ 1894-1923 araligini kapatir. Kaydin son donemi `fas -> 1700-01-01` idi, yani 1700-1894 arasi HALA SAHIPSIZ ve bu yama onu KAPATMIYOR. TDV o araliga bir ipucu veriyor (\"1860'li yillarda ucuncu Tekrur Devleti'nin kurucusu el-Hac Omer'in oglu Ahmed el-Kebir el-Medeni'nin egemenligine gecti\") ama ARASTIRILMADI. AYRI KALEM." },
+   { ad:"Agadez", s:[{f:"1405-01-01",t:"1923-10-29",d:"agadez-sultanligi"}], kaynak:"bulunamadi — TDV'de `agadez` slug'i OLU (302) ve kapsayici bir madde ARANMADI. Tarih atlasin KENDI kunyesinden devralindi: `agadez-sultanligi` (\"Agadez (Air) Sultanligi — Tuareg\") f:1405-01-01 t:1923-10-29. Yani bu bir KAYNAK degil bir KONVANSIYON, ve oyle beyan ediliyor.", not:"🔴 TEK BLOK — 518 YIL, ve bu bir ZAYIFLIKTIR. Kayitta HIC donem yoktu; tek blok yazmak onu sahipli yapar ama ic zincirini (Songhay · Fransiz isgali ~1900-1904) IFADE ETMEZ. `CLAUDE.md` tek blok yazimini Harput vakasinda ELESTIRIYOR. Bu yama bilerek asgari: DELIK kapaniyor, ZINCIR arastirilmiyor. AYRI KALEM. ⚠️ Ayrica `tuareg-air` kunyesi 1900-01-01'de bitiyor — yani atlas Air'de 1900'de bir kirilma TANIYOR ama Agadez kaydi onu tasimiyor. Bu yama o kirilmayi da YAZMIYOR." },
+-  { ad:"Hadramut", s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\") f:1881-01-01 t:1923-10-29.", not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu." }
++  { ad:"Hadramut", s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\" [TDV slug: hadramut (alıntı doğrulanmadı)]) f:1881-01-01 t:1923-10-29.", not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu." }
+ ];
+diff --git a/data/yerlesimler.js b/data/yerlesimler.js
+index 2b3677dd..4b622b4a 100644
+--- a/data/yerlesimler.js
++++ b/data/yerlesimler.js
+@@ -1234,7 +1234,7 @@ window.YERLESIMLER = [
+ // { ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rub'ul Hâlî (Boş Çeyrek) tarih boyunca hiçbir devletin fiilen denetlemediği dünyanın en büyük kum çölüdür; sınırları ancak 20. yy'da Suudi-Yemen-Umman anlaşmalarıyla çizildi." },
+ { ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Aynı Boş Çeyrek çölünün doğu ucu; kaynaklar bu iç kesimde tarih boyunca yerleşik siyasi denetim olmadığını belirtiyor." },
+ { ad:"Necid içi", bos:"devletsiz", neden:"1744 öncesi Necid'de merkezî devlet denetimi yoktu; yerleşim VARDI ama hiçbir devletin idaresinde değildi. Kaynak: CLAUDE.md §3'te belgelenmiş proje kararı — 'Sahra ve Rub'ul Hâlî çölleri, 1744 öncesi Necid, körfez şeyhlikleri'.", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud-ikinci"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud-ucuncu"}] },
+-{ ad:"Hadramut",not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu.",kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\") f:1881-01-01 t:1923-10-29.",s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
++{ ad:"Hadramut",not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu.",kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\" [TDV slug: hadramut (alıntı doğrulanmadı)]) f:1881-01-01 t:1923-10-29.",s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
+ // m:"Kahire" EKLENDİ — kara-kısıtlı Voronoi prototipi bu bölgeyi Tebük'e (m:"Medine",
+ // yani Hicaz) vermek istedi. Geometrik olarak savunulabilir, TARİHEN YANLIŞ: Sinâ
+ // Osmanlı'da Mısır eyaletine bağlıydı ve 1906 Taba krizine kadar Kahire'den idare
