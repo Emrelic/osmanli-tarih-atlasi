@@ -24,7 +24,7 @@ import sys
 import importlib.util as _ilu
 from collections import Counter
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 
 # ── KABA KUTULAR: id -> (lat_min, lat_max, lon_min, lon_max)
