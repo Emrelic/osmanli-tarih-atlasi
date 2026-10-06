@@ -156,6 +156,16 @@ window.OLAYLAR_OK109 = [
     kaynak: "macaristan"
   },
 
+  {
+    t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-diplomasi"],
+    kapsam:"dis", onem:3, b: "Banat bölüşüldü, Temeşvar Romanya'ya bırakıldı (Trianon md. 27/3 ve 45)", yer_id:"Temeşvar", odak_yer:["Temeşvar"],
+    gun: "4 Haziran 1920",
+    yer: "Temeşvar (Timișoara)",
+    d: "Trianon Antlaşması, Macar-Romen sınırını md. 27/3 ile çizdi ve md. 45 ile Macaristan bu sınırın ötesindeki eski monarşi topraklarındaki bütün hak ve unvanlarından Romanya lehine vazgeçti; böylece Erdel, Banat, Crișana ve Maramureș'in Romanya ile birleşmesi uluslararası hukukta tanındı. Banat bölgesi Romanya ile Sırbistan arasında bölüşüldü; Tımışvar şehri Romanya Krallığı'na katıldı. Temeşvar'da Romen idaresi 3 Ağustos 1919'dan beri fiilen işliyordu; antlaşma bu durumu hukuka geçirdi.",
+    ic_not_d: "Gün 1920-06-04 (imza), yürürlük 1921-07-26 DEĞİL: F8 kararı (Emre, 5 Ekim 2026) de jure devri antlaşma gününe koyar ve atlasın Banat noktaları bu güne bağlıdır; 1921-07-26 ±30 gün penceresinin dışında kalır. Lugoj ve Yanova bu maddede ADIYLA YOK: kaynaklardan hiçbiri onları Trianon/Romanya ile adıyla bağlamıyor (MNIR bölge düzeyinde Banat/Crișana diyor; TDV yanova yalnız bugünkü konumu veriyor; D208). Orsova atlasta 1918-01-01 yıl-temsilî, ayrı kalem (BANAT-TRIANON-1006b, koordinatör hükmü).",
+    kaynak: "MNIR — Muzeul Virtual al Unirii (mvu.ro), 'Tratatul dintre Puterile Aliate și Asociate și Ungaria, Trianon, 4 iunie 1920' — 'Tratatul de Pace cu Ungaria , semnat la Trianon la 4 iunie 1920, este actul internațional care a recunoscut Unirea Transilvaniei, Banatului, Crișanei și Maramureșului cu Regatul Român și a fixat și granița comună româno-ungară' · md. 45 (aynı sayfa, Romence resmî çeviri): „Ungaria renunță, în ceea ce o privește, în favoarea României, la toate drepturile și titlurile asupra teritoriilor fostei monarhii austro-ungare situate dincolo de fruntariile Ungariei, astfel cum sunt fixate la articolul 27, Partea II (Fruntariile Ungariei) și recunoscute prin prezentul Tractat sau prin orice alte Tractate încheiate în scop de a regula afacerile actuale, ca făcând parte din România” · md. 27: 'aliniatul 3 -frontiera cu România' · TDV timisvar: 'Barış antlaşmalarına göre Banat bölgesi Romanya ve Sırbistan arasında bölüşüldü.' · 'Tımışvar şehri Romanya Krallığı’na katıldı.' · TDV birinci-dunya-savasi: '4 Haziran 1920’de Macaristan ile Trianon … antlaşmaları imzalandı' · BANAT-TRIANON-1006b"
+  },
+
   // ═══════════════════════════════════════════════════════════════════════
   // İKİNCİ PARTİ — I. DÜNYA SAVAŞI'NI BİTİREN ÖTEKİ ANTLAŞMALAR
   // 2 Eylül 2026 · koordinatör 1.MURAT · yukarıdaki ⑧ yan bulgusunun karşılığı
@@ -319,6 +329,15 @@ window.OLAYLAR_OK109 = [
     yer: "Szatmár (Satu Mare), Varad (Oradea)",
     d: "19 Nisan 1919 Paskalya cumartesisi Satu Mare'de dr. Ilie Carol Barbul'un başında olduğu yerel heyet, Albay Ressel komutasındaki 2. Süvari Tümeni'nin ilk devriyesini Someș köprüsünde karşıladı. Ertesi gün, 20 Nisan 1919'da General Traian Moșoiu komutasındaki Romen birlikleri Oradea'ya girdi.",
     kaynak: "Muzeul Județean Satu Mare, '100 de ani de la eliberarea Sătmarului și instaurarea administrației românești' (muzeusm.ro) — 'La 19 aprilie 1919, în sâmbăta de Paște, dr. Ilie Carol Barbul … a condus delegaţia locală care a întâmpinat Armata Română … prima patrulă a Diviziei a II-a Cavalerie de sub comanda col. Ressel' · Primăria Municipiului Oradea (oradea.ro) — 'intrarea trupelor române în Oradea, la 20 aprilie 1919, în frunte cu generalul Traian Moșoiu'"
+  },
+
+  {
+    t: "1919-07-22", k: "isgal", etiket: ["isgal", "konu-askeri"],
+    kapsam:"dis", onem:2, b: "Romen birlikleri Lugoj'a (Lugos) ulaştı — Banat'ın doğusunda Romen idaresi", yer_id:"Lugos (Lugoj)",
+    gun: "22 Temmuz 1919",
+    yer: "Lugos (Lugoj)",
+    d: "Romen birliklerini taşıyan tren 22 Temmuz 1919 saat 14'te Lugoj'a ulaştı; şehir halkı orduyu garda karşıladı, Caraş-Severin prefekti George Dobrin karşılama konuşmasını yaptı, General Jitianu cevap verdi. Banat'ın Romanya'ya düşen kesiminde Romen idaresi Temmuz 1919'da kuruldu; hukukî devir 1920 Trianon Antlaşması ile gerçekleşti.",
+    kaynak: "Actualitatea (Lugoj gazetesi, 30.07.2019, '100 de ani de la intrarea armatei române în Lugoj (2)') — https://ziarulactualitatea.ro/100-de-ani-de-la-intrarea-armatei-romane-in-lugoj-2/ — 'Marți, 22 iulie 1919 . La ora 14 trenul G.1 a sosit în Lugoj.' · ikinci, bağımsız gazete: Ziua de Vest (04.08.2015) — 'la întâmpinarea glorioasei armate române, la 22 iulie 1919. Populaţia Lugojului a făcut coloanelor o primire triumfală.' · kurumsal tanık, BÖLGE/AY: MNIR Muzeul Virtual al Unirii (mvu.ro) — 'The Romanian administration was installed in the bumble Banat, in the part attributed to Romania, only in July 1919.' · LUGOS-KLAGENFURT-1006"
   },
 
   {

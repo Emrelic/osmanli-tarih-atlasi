@@ -1610,7 +1610,23 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2247   # 1665 (görünür) → 2262 (görünür 1665 + maskeli 597), 6 Ekim 2026.
+BEKLENEN_2S_YALNIZ_TARAF = 2246   # 2247 → 2246, 6 Ekim akşamı: BANAT-TRIANON maddesi.
+# 🟢 İYİLEŞME, ve kalıbı kayda değer: tavan bir TAVAN ARİTMETİĞİYLE değil, EKSİK BİR
+#   MADDE YAZILARAK düştü. Lugos/Temeşvar/Yanova'nın 1920-06-04 birimleri "yalnız TARAF"
+#   kapanıyordu çünkü Banat'ın Trianon devrini ADIYLA anan bir madde YOKTU. Madde yazıldı,
+#   birimler YER'den kapandı, ve tavan 2247'nin ALTINA indi. `§3.4(3)`ün "kapatan iş"i.
+#   ⚠️ Lugos'un 1918-11-11 birimi hâlâ YER 0/TARAF 7 — yani Lugos'un yarısı açık kaldı;
+#     bu madde 1920 devrini anlatıyor, 1918 Sırp işgalini değil.
+# 🔴 VE BİR KOORDİNATÖR HÜKMÜ GERİ ALINDI, sebebi yazılıyor çünkü ayrım ince:
+#   "Yanova `m:\"Temeşvar\"` üzerinden MERKEZ kolundan kapanıyor, bunu tesadüfî kapanma
+#   sayıyorum ⇒ tavan 2248 olsun" demiştim. YANLIŞ, ve niçin: tavan ÖLÇÜMÜN KENDİSİDİR
+#   (`§3.4(0)`), bir ölçüt itirazının yeri DEĞİL. 2248 yazmak, ölçüm 2246 iken iki
+#   puanlık SESSİZ PAY bırakmak olurdu — `§3.4(3)`ün yasakladığı şeyin aynısı.
+#   ⇒ Tavan ÖLÇÜMÜ izler: 2246. İtiraz ise ÖLÇÜTE yöneliktir ve AYRI bir kalemdir:
+#     "`m:` merkez kolunun YER kapanışı sayılması tesadüfî kapanma üretiyor mu?"
+#     O ölçüt değişirse tavan onunla birlikte oynar. İki soruyu bir sayıya yüklemek,
+#     ikisini de ölçülemez kılar.
+# 📌 Önceki hâl: 1665 (görünür) → 2262 (görünür 1665 + maskeli 597), 6 Ekim sabahı.
 #   → 2247 (6 Ekim 2026, UMIT-W33-POLONYA-1006c ile AYNI commit, koordinatör kararı — SON SEÇENEK):
 #     1918-11-11 "Polonya'nın bağımsızlığı" maddesi kovayı KAPATTI; +2 = ADIYLA iki YALNIZ-TARAF
 #     kapanışı: Częstochowa · Łódź (Alman işgal idaresi o gün çöktü — meşru — ama madde onları
