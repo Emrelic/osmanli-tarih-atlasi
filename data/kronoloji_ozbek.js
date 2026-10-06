@@ -322,12 +322,12 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
 
 { t:"1920-09-02",
-  b:"Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi",
+  b:"Kızıl Ordu Buhara şehrine girdi, son emir tahttan uzaklaştırıldı",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","son","buhara","konu-askeri","konu-siyasi"],
   yer_id:"Buhara",
-  d:"Sovyet Kızıl Ordusu'nun Buhara'yı ele geçirmesiyle son emir Alim Han Afganistan'a kaçtı, Buhara Halk Sovyet Cumhuriyeti ilan edildi; 420 yıllık Özbek hanlıkları geleneğinin Buhara kolu böylece resmen sona erdi.",
-  kaynak:"TDV, madde: buhara-hanligi", kunye:["buhara"] },
+  d:"Sovyet Kızıl Ordusu 2 Eylül 1920'de Buhara şehrine girdi ve son Mangıt emiri Âlim Han tahttan uzaklaştırıldı. Emir ülkenin doğusuna, Düşenbe'ye çekildi ve yarım yıl oradan Sovyetlerle mücadeleyi yönetti; Kızıl Ordu Düşenbe'yi 21 Şubat 1921'de alınca daha doğuya, oradan Afganistan'a geçti. Hanlık 6 Ekim 1920'de resmen ilga edildi ve yerine Buhara Halk Sovyet Cumhuriyeti kuruldu.",
+  kaynak:"Iranica, JADIDISM (K. Hitchins) — AYNEN: «Decisive for the Young Bukharan movement was the overthrow of the emir of Bukhara by the Red Army, which entered the city on 2 September 1920.» (GÜN) · TDV, buhara — AYNEN: «1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu’nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920’de Buhara Hanlığı ilga edildi.» (AY) · Iranica, DUSHANBE — AYNEN: «The last amir of Bukhara, Sayyed ʿĀlem Khan, fled to Dushanbe at the end of August 1920 to escape advancing Red Army forces from Tashkent.» · «The Red Army took Dushanbe on 21 February 1921; the amir fled farther east and eventually reached Afghanistan.» · (6 Ekim 2026 düzeltmesi: önceki kaynak 'TDV, madde: buhara-hanligi' — o gövdede 1920 YOK; önceki d: 'Afganistan'a kaçtı' emirin önce Düşenbe'ye çekildiğini atlıyordu) · evren içi eşi: olaylar_ek8.js 1920-09-02", kunye:["buhara"] },
 
 // ══════════════ HÎVE (HARZEM) HANLIĞI (1512-1920) ══════════════
 

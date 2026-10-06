@@ -1481,6 +1481,95 @@ def _2s_norm(s):
     return s.lower().strip()
 
 
+# 🆕 KELIME-CAKISMA-YER-1006 — büyük/küçük harfi KORUYAN norm. `_2s_norm` ile aynı
+#   dönüşüm, yalnız `lower()` YOK ⇒ iki metin karakter karakter hizalıdır (uzunluk eşit
+#   değilse çağıran eski davranışa düşer). Niçin: `_2s_norm` büyük harfi silince özel ad
+#   ile sıradan kelime ayırt edilemiyordu — "1351'den beri" kelimesi `Beri` yerleşimini,
+#   "Ermenistan'a karşı" `Karşi (Nahşeb)`yi SAHTE YER kapanışıyla kapatıyordu (ölçüldü,
+#   `denetim/KELIME-CAKISMA-YER-1006.md`).
+_2S_KORU = str.maketrans({
+    "İ": "I", "ı": "i", "Ş": "S", "ş": "s", "Ğ": "G", "ğ": "g",
+    "Ü": "U", "ü": "u", "Ö": "O", "ö": "o", "Ç": "C", "ç": "c",
+    "Â": "A", "â": "a", "Î": "I", "î": "i", "Û": "U", "û": "u",
+    "’": "'", "‘": "'", "”": '"', "“": '"', "–": "-", "—": "-",
+})
+
+# 🆕 KELIME-CAKISMA-YER-1006 — adı aynı zamanda BAŞKA BİR ŞEYİN de büyük harfle yazılan
+#   adı olan yerleşimler (norm kök). Büyük harf şartı bunları AYIRMAZ; ölçülen vakalar:
+#     buna      ← "… antlaşması yaptı. Buna tepki gösteren Rabih …" (cümle başı zamir)
+#     ordu      ← "Kızıl Ordu Azerbaycan'ı işgal etti" (ordu, Ordu şehri DEĞİL)
+#     cotegipe  ← "1872 Loizaga-Cotegipe Antlaşması" (kişi/antlaşma adı)
+#   Bu köklerin KÖK yolu yalnız maddenin `yer` ALANINDA geçerlidir (o alan yer listesi
+#   taşır); `yer_id` ve merkez yolları etkilenmez. BEDELİ ölçülür: gövdede "Ordu'yu aldı"
+#   artık kök yoluyla kapatmaz (bugün Ordu'nun gerçek kapanışı `yer_id` yolundan — ölçüldü).
+#   Liste kapalıdır: yeni üye ancak BÜYÜK HARF şartının ayıramadığı, ölçülmüş bir sahte
+#   kapanışla girer (`§3.4`: en iyi istisna yazılmayandır). `beri`/`karsi` bu yüzden
+#   listede DEĞİL: ölçülen sahteleri küçük harfliydi, büyük harf şartı yetiyor.
+_2S_ES_AD = frozenset({"buna", "cotegipe", "ordu"})
+
+# 🆕 KELIME-CAKISMA-YER-1006b — EŞ-AD MUAFİYETİ SESSİZ OLMAZ (koordinatör şartı ③, D225).
+#   `_2S_ES_AD` kökü maddede ÖZEL AD olarak (büyük harfle) geçip de YER kolunu muafiyet
+#   yüzünden kapatamadığında birim ADIYLA bu kovaya düşer:
+#     TARAF-KAPATTI · birim TARAF koluyla zaten kapalı — sayılır, basılır, hüküm değişmez
+#     OLCULEMEDI    · başka hiçbir kol kapatmıyor ⇒ birim "açık" da "kapalı" da SAYILMAZ:
+#                     `eksik`e girmez (2s AÇIK'ı büyütmez), kola sayılmaz (2sk'yı büyütmez),
+#                     `olculemedi()` ile hükme girer ⇒ denetle.py ÇIKIŞ 2. "Ordu'yu aldı"
+#                     diyen gerçek bir madde bu yoldan GÖRÜNÜR — sessizce açık kalmaz.
+#   Kayıt: (tarih, yerleşim, durum, madde başlığı). `degismez2(yer_sarti=True)` sıfırlar.
+ES_AD_MUAF_2S = []
+
+
+def _2s_es_ad_gecer(o, ad, kok):
+    """Eş-ad kökü maddede özel ad olarak geçiyor ama `yer` alanında / `yer_id`de DEĞİL mi?
+    (= muafiyet bu maddeyi YER kolundan düşürdü)."""
+    if kok not in _2S_ES_AD:
+        return False
+    if (o.get("yer_id") and o["yer_id"] == ad) or _2s_gecer(o.get("nrm_yer", ""), kok):
+        return False
+    return _2s_ozel_ad_gecer(o, kok, ad)
+
+
+def _2s_es_ad_rapor():
+    """2sk satırlarının altına EŞ-AD kovasını basar; OLCULEMEDI varsa hükme sokar."""
+    olc = [k for k in ES_AD_MUAF_2S if k[2] == "OLCULEMEDI"]
+    trf = [k for k in ES_AD_MUAF_2S if k[2] == "TARAF-KAPATTI"]
+    print(f"            EŞ-AD  YER kolundan MUAF (`_2S_ES_AD`): {len(ES_AD_MUAF_2S)} birim "
+          f"· TARAF-KAPATTI {len(trf)} · ÖLÇÜLEMEDİ {len(olc)}")
+    for _d, _ad, _du, _b in ES_AD_MUAF_2S:
+        print(f"              {_du:13} {_d}  {_ad}  ← {(_b or '')[:60]}")
+    if olc:
+        olculemedi("Değişmez 2sk eş-ad",
+                   f"{len(olc)} birim eş-ad muafiyeti yüzünden YER kolunda sorulamadı: "
+                   + ", ".join(f"{a} {d}" for d, a, _, _ in olc[:4]))
+
+
+def _2s_kor(s):
+    """`_2s_norm`un büyük/küçük harfi KORUYAN ikizi (bkz. `_2S_KORU`)."""
+    import unicodedata as _u
+    if not s:
+        return ""
+    s = s.translate(_2S_KORU)
+    s = _u.normalize("NFKD", s)
+    s = "".join(c for c in s if not _u.combining(c))
+    return s.strip()
+
+
+def _2s_ozel_ad_gecer(o, nrm_ad, ham_ad):
+    """YER kolu kök yolu: ad kelime sınırıyla geçiyor VE ham metinde BÜYÜK harfle başlıyor mu?
+    Resmî adı küçük harfle başlayan yerleşimde (`el-…`, `de …`) harf şartı aranmaz.
+    `kor` yoksa ya da hizası bozuksa eski `_2s_gecer` davranışına düşer (ölçüm aracı uyumu)."""
+    if not nrm_ad or len(nrm_ad) < 3:
+        return False
+    nrm, kor = o.get("nrm", ""), o.get("kor")
+    if kor is None or len(kor) != len(nrm):
+        return _2s_gecer(nrm, nrm_ad)
+    kucuk_resmi = (ham_ad or "")[:1].islower()
+    for esl in re.finditer(r"(?<![a-z0-9])" + re.escape(nrm_ad) + r"(?![a-z0-9])", nrm):
+        if kucuk_resmi or kor[esl.start()].isupper():
+            return True
+    return False
+
+
 def _2s_gecer(nrm_metin, nrm_ad):
     """Kelime sınırıyla geçiyor mu? (norm düzleminde, 3 harften kısa ad sayılmaz)"""
     if not nrm_ad or len(nrm_ad) < 3:
@@ -1615,7 +1704,15 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2246   # 2247 → 2246, 6 Ekim akşamı: BANAT-TRIANON maddesi.
+BEKLENEN_2S_YALNIZ_TARAF = 2250   # 2246 → 2250, 6 Ekim: KELIME-CAKISMA-YER-1006c eşleştirici yaması (AYNI commit, §3.4②).
+#   +4 = 4 SAHTE YER kapanışının kalkması (KELİME-ÇAKIŞMASI 1006). Borç artışı DEĞİL, görünürlük kazancı.
+#   ADIYLA: Karşi (Nahşeb) 1920-09-02 ("Ermenistan'a karşı") · Buna (Bouna) 1897-01-01 (cümle başı
+#   zamir) · Ordu (Bayramlı) 1920-04-23 ("Kızıl Ordu") · Cotegipe 1889-11-15 ("Loizaga-Cotegipe
+#   Antlaşması") — dördü de TARAF koluyla kapalı; 2s AÇIK ve 4177 kapalı aynen. Taban makine/umit
+#   c53f5637: yamasız ÖLÇÜM 2246 (= tavan) · yamalı ÖLÇÜM 2250 — yazmadan hemen önce koşturuldu.
+#   📌 1006 ölçümünde (62e270eb) 5. sahte Beri 1406-10-21 idi; 07cb6062'den beri YER birimi değil —
+#   SEBEBİ ÖLÇÜLMEDİ. Eş-ad muafiyetinin kovası (`ES_AD_MUAF_2S`) 2sk satırının altında ADIYLA basılır.
+#   → 2246 (önceki değer) — 2247 → 2246, 6 Ekim akşamı: BANAT-TRIANON maddesi.
 # 🟢 İYİLEŞME, ve kalıbı kayda değer: tavan bir TAVAN ARİTMETİĞİYLE değil, EKSİK BİR
 #   MADDE YAZILARAK düştü. Lugos/Temeşvar/Yanova'nın 1920-06-04 birimleri "yalnız TARAF"
 #   kapanıyordu çünkü Banat'ın Trianon devrini ADIYLA anan bir madde YOKTU. Madde yazıldı,
@@ -1717,6 +1814,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
         KAPANIS_2S["acik_kovada"] = 0
         for _a in ("gun_yer", "gun_yalniz_taraf", "ocak1_yer", "ocak1_yalniz_taraf"):
             KAPANIS_2S[_a] = 0
+        ES_AD_MUAF_2S.clear()      # 🆕 KELIME-CAKISMA-YER-1006b
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
@@ -1725,6 +1823,11 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
             kayit_o["nrm"] = _2s_norm(" ".join([o.get("b") or "",
                                                 o.get("yer") or "",
                                                 o.get("d") or ""]))
+            # 🆕 KELIME-CAKISMA-YER-1006: `nrm`in harf-koruyan ikizi + yalnız `yer` alanı
+            kayit_o["kor"] = _2s_kor(" ".join([o.get("b") or "",
+                                               o.get("yer") or "",
+                                               o.get("d") or ""]))
+            kayit_o["nrm_yer"] = _2s_norm(o.get("yer") or "")
             kayit_o["nrm_b"] = _2s_norm(o.get("b") or "")
             # 🔴 `nrm_y` = BAŞLIK + `yer` — GÖVDE (`d`) YOK. Merkez (`m:`) kolu
             #   yalnız bunu okur; sebebi `_2s_merkez_aniyor`da.
@@ -1810,6 +1913,16 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                                        if _2s_tarafi_aniyor(o, sah)]
                         uyan = _yer_uyan + [o for o in _taraf_uyan
                                             if o not in _yer_uyan]
+                        # 🆕 KELIME-CAKISMA-YER-1006b: eş-ad muafiyeti SESSİZ OLMAZ
+                        if not _yer_uyan:
+                            _es = [o for o in yakinlar
+                                   if _2s_es_ad_gecer(o, ad, Y_KOK.get(ad, ""))]
+                            if _es:
+                                ES_AD_MUAF_2S.append(
+                                    (d, ad, "TARAF-KAPATTI" if uyan else "OLCULEMEDI",
+                                     _es[0]["b"]))
+                                if not uyan:
+                                    continue   # ne eksik (AÇIK) ne kol (KAPALI)
                         if uyan:
                             secim_havuz += uyan
                             # 🔴 HENÜZ SAYMA: bu kırılma `eksik` yüzünden AÇIK
@@ -1842,6 +1955,10 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                             #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
                             for _k in _kol:
                                 KAPANIS_2S["maskeli_" + _k] += 1
+                    elif not secim_havuz:
+                        # 🆕 1006b: kırılmanın bütün birimleri eş-ad ÖLÇÜLEMEDİ ⇒ AÇIK'a
+                        #   yazılmaz, KAPANIŞ'a sayılmaz; kova + çıkış 2 görünür kılar.
+                        en_yakin, fark = min(yakinlar, key=lambda o: abs(o["g"] - gd)), 0
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
@@ -1927,7 +2044,13 @@ def _2s_yeri_aniyor(o, adlar, Y_KOK, Y_MERKEZ):
     if o.get("yer_id") and o["yer_id"] in adlar:
         return True
     for ad in adlar:
-        if _2s_gecer(o["nrm"], Y_KOK.get(ad, "")):
+        kok = Y_KOK.get(ad, "")
+        # 🆕 KELIME-CAKISMA-YER-1006: kök yolu ÖZEL AD olarak geçmeli (büyük harf);
+        #   eş adlı köklerde yalnız `yer` alanı sayılır (bkz. `_2S_ES_AD`).
+        if kok in _2S_ES_AD:
+            if _2s_gecer(o.get("nrm_yer", ""), kok):
+                return True
+        elif _2s_ozel_ad_gecer(o, kok, ad):
             return True
         ham_m, nrm_m = Y_MERKEZ.get(ad, ("", ""))
         if _2s_merkez_aniyor(o, ham_m, nrm_m):
@@ -5955,6 +6078,280 @@ def zincir_kaynagi_rapor(R, ayrinti=False):
     return ihlal
 
 
+# ═══ DEĞİŞMEZ R — HARİTA RÖTUŞU (P84-ROTUS, 6 Ekim 2026) ═══════════════════
+# Kavram Emre'nin (0084/H-0019); biçim kararları ve dokuz kontrol sorusu
+# `denetim/P84-ROTUS-TASARIM-1006b.md` (koordinatör onayı). Rötuş GÖRSELDİR ve
+# TARAYICIDA uygulanır (`js/rotus.js`); bu kapı her kaydın HÂLÂ geçerli olup
+# olmadığını HER KOŞUDA sorar — veri ve geometri değiştikçe rötuşun altı da
+# değişir, onay bir kez verilip unutulmaz.
+# `§3.4(5)`: rötuş listesi bir İSTİSNA LİSTESİDİR ⇒ sayı tavanı YOK, her kayıt
+# ADIYLA basılır ve ÖLÜ kayıt (R3) ihlaldir — "en iyi istisna yazılmayandır".
+#   R1 şema · R2 hüküm (yalnız onaylı)            → `js/rotus.js` node'da (kopya YOK)
+#   R3 canlılık   rötuşsuz gövdede `kime` HÂLÂ kopuk mu, poligon ≥2 parçaya değiyor mu
+#   R4 nokta      poligonda [f,t) boyunca `kime` olmayan sahipli yerleşim
+#   R5 ters yön   `kimden` parçası bölünüyor/siliniyor mu · kayıt dışı sahip var mı
+#   R6 kaynak     poligona düşen kaynaklı halka `kimden` lehine mi
+#   R7 pencere    f/t `kime` gövdesinin dönem sınırlarına oturuyor mu
+#   R8 çakışma    pencereleri kesişen iki rötuşun poligonları kesişiyor mu
+#   R9 ölçülemedi node / shapely / gövde yok ⇒ ÇIKIŞ 2 (yalnız ölçülecek kayıt varsa)
+# ⚠️ C (hukukî hat) bu sürümde SORULMUYOR — kontrolde K7 sorar; satırda yazılır.
+# 📌 Boş liste ✓ ve gövde YÜKLENMEZ: rötuş yokken bu kapı hiçbir ağır iş yapmaz.
+ROTUS_DOSYA = os.path.join(DATA, "rotus.js")
+ROTUS_COZ_JS = os.path.join(KOK, "arac", "rotus_coz.js")
+ROTUS_EPS = 0.005        # ≈500 m — çizimin parçaya "değdiği" pay (derece)
+ROTUS_KAYIT_DISI_KM2 = 1.0   # poligonun kayıtta adı geçmeyen gövdeye taşma eşiği
+ROTUS_KIYMIK_KM2 = 0.5       # kesimden kalan bundan küçük parça "bölünme" sayılmaz
+ROTUS_PENCERE_DER = 3.0      # bileşen birleştirme penceresi: poligon kutusu ± bu kadar
+ROTUS_BOYUN_DER = 1e-4       # ≈10 m — R5 kesiminde kıl payı boyunu kopuk say
+
+
+def rotus_kayitlari(dosya=None, coz=None):
+    """`arac/rotus_coz.js` → {dosya_var, kayit_sayisi, kayitlar}. node yoksa
+    ya da betik ÖLÇÜLEMEDİ derse RuntimeError (çağıran ÖLÇÜLEMEDİ basar)."""
+    import subprocess
+    arg = ["node", ROTUS_COZ_JS, dosya or ROTUS_DOSYA]
+    if coz:
+        arg.append(coz)
+    try:
+        c = subprocess.run(arg, capture_output=True, encoding="utf-8", timeout=120)
+    except FileNotFoundError:
+        raise RuntimeError("node yok — rötuş kayıtları okunamadı")
+    try:
+        J = json.loads(c.stdout or "{}")
+    except ValueError:
+        raise RuntimeError("rotus_coz.js çıktısı JSON değil: %s" % (c.stderr or c.stdout)[-160:])
+    if c.returncode != 0 or J.get("hata"):
+        raise RuntimeError(J.get("hata") or (c.stderr or "").strip()[-160:])
+    return J
+
+
+def _rotus_index_yukluyor_mu():
+    """index.html `data/rotus.js`i yüklüyor mu (paket açılarak)."""
+    try:
+        sys.path.insert(0, os.path.join(KOK, "arac"))
+        from paket_coz import index_kaynaklari
+        return any(os.path.basename(y) == "rotus.js" for y in index_kaynaklari(KOK))
+    except Exception:
+        h = open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
+        return bool(re.search(r'src="data/rotus\.js', h))
+
+
+def _rotus_sahip_donemleri(y):
+    """Yerleşim → [(f, t, boya_kimliği)] — d ⇒ OSMANLI, v ⇒ OSM-TABI, s ⇒ boya."""
+    hmap = {}
+    for d in (_DEVLETLER_HAM or []):
+        if d.get("id"):
+            hmap[d["id"]] = d.get("harita") or d["id"]
+    cik = []
+    for p in y.get("d") or []:
+        cik.append((p.get("f") or "0000", p.get("t") or "9999", "OSMANLI"))
+    for p in y.get("v") or []:
+        cik.append((p.get("f") or "0000", p.get("t") or "9999", "OSM-TABI"))
+    for p in y.get("s") or []:
+        if p.get("d"):
+            cik.append((p.get("f") or "0000", p.get("t") or "9999", hmap.get(p["d"], p["d"])))
+    return cik
+
+
+def _rotus_sinir_gunleri(govde, kimlikler, f, t):
+    """`kimlikler` (kime + kimden) gövdelerinin [f,t) içindeki dönem başları
+    (+ f) ⇒ ölçüm günleri; ve bütün dönem başı/sonu kümeleri (R7).
+    ⚠️ Yalnız `kime`nin sınırları YETMEZ — ölçüldü (İbrail): kopukluğu açan
+    `kimden`dir (Boğdan 1359'da belirir), `eflak` dönemi 1330'dan beri sürer.
+    `govde.kay` (_D8Govde) ya da `govde.donemler(kimlik)` okunur."""
+    uclar = []
+    for kimlik in kimlikler:
+        if hasattr(govde, "donemler"):
+            uclar += list(govde.donemler(kimlik))
+        else:
+            for _, _, dn in govde.kay:
+                uclar += [(df, dt) for gid, df, dt, _ in dn if gid == kimlik]
+    gunler = sorted({f} | {df for df, dt in uclar if f < df < t})
+    return gunler, {df for df, _ in uclar}, {dt for _, dt in uclar}
+
+
+def degismez_r(Y, dosya=None, govde_fab=None, halka=None, coz=None, index_kontrol=True):
+    """Döner: {dosya_var, liste:[(id, ad, durum)], ihlal:[(id, kod, ne)],
+    olculemedi:[(ad, sebep)], c_sorulmadi:bool}."""
+    R = {"dosya_var": False, "liste": [], "ihlal": [], "olculemedi": []}
+    J = rotus_kayitlari(dosya, coz)
+    R["dosya_var"] = J.get("dosya_var", False)
+    kayitlar = J.get("kayitlar") or []
+    if index_kontrol:
+        yukler = _rotus_index_yukluyor_mu()
+        if yukler and not R["dosya_var"]:
+            R["ihlal"].append(("—", "R0", "index.html data/rotus.js'i yüklüyor ama dosya YOK (404)"))
+        if kayitlar and not yukler:
+            R["ihlal"].append(("—", "R0", "%d rötuş kaydı var ama index.html data/rotus.js'i "
+                               "YÜKLEMİYOR — kapı onaylar, site uygulamaz" % len(kayitlar)))
+    for k in kayitlar:
+        for s in k.get("sorunlar") or []:
+            R["ihlal"].append((k["id"], s["kod"], s["ne"]))
+    gecerli = [k for k in kayitlar if not k.get("sorunlar")]
+    if not gecerli:
+        R["liste"] = [(k["id"], k.get("ad"), "GEÇERSİZ") for k in kayitlar]
+        return R
+    # ── geometri: yalnız ölçülecek kayıt varsa yüklenir ──
+    try:
+        from shapely.geometry import Polygon, Point
+        from shapely.ops import unary_union
+        govde = govde_fab() if govde_fab else _D8Govde()
+    except Exception as e:
+        R["olculemedi"].append(("Değişmez R geometri", "%s: %s" % (type(e).__name__, e)))
+        R["liste"] = [(k["id"], k.get("ad"), "ÖLÇÜLEMEDİ") for k in kayitlar]
+        return R
+    if _DEVLETLER_HAM is None:
+        _devletler_yukle()
+    if halka is None:
+        try:
+            dosyalar = sorted(glob.glob(os.path.join(DATA, "kaynakli_halka_*.js")))
+            halka = _d8_node(dosyalar, "Object.keys(window).filter(function(k){return "
+                             "/^KAYNAKLI_HALKA/.test(k)}).reduce(function(a,k){return "
+                             "a.concat(window[k]||[])},[])") if dosyalar else []
+        except Exception as e:
+            R["olculemedi"].append(("Değişmez R6 halka", e))
+            halka = None
+    yer_kon = {y["ad"]: (y["lon"], y["lat"]) for y in Y}
+    hmap = {d["id"]: (d.get("harita") or d["id"]) for d in (_DEVLETLER_HAM or []) if d.get("id")}
+    A = lambda g: g.area * 111.32 * 111.32 * 0.75      # kaba km² (orta enlem) — eşik için yeter
+    P_ = {}
+    for k in gecerli:
+        kid, f, t = k["id"], k["f"], k["t"]
+        P = Polygon(k["geo"])
+        if not P.is_valid:
+            P = P.buffer(0)
+        P_[kid] = P
+        Pe = P.buffer(ROTUS_EPS)
+        kutu = Pe.bounds
+        kimden = set(k.get("kimden") or [])
+        ih0 = len(R["ihlal"])
+        ilgili = [k["kime"]] + sorted(kimden)
+        gunler, bas, son = _rotus_sinir_gunleri(govde, ilgili, f, t)
+        # R7 — pencere kime/kimden gövdelerinin dönem sınırlarına oturuyor mu
+        if f not in bas:
+            R["ihlal"].append((kid, "R7", "f %s hiçbir `%s` gövdesinin dönem başı değil"
+                               % (f, "/".join(ilgili))))
+        if t not in son:
+            R["ihlal"].append((kid, "R7", "t %s hiçbir `%s` gövdesinin dönem sonu değil"
+                               % (t, "/".join(ilgili))))
+        # 🔴 PARÇA DEĞİL BİLEŞEN. `_D8Govde.kesit` gövdeyi motorun PARÇALARI
+        #    olarak verir — yan yana duran, kenar paylaşan çokgenler. İlk yazım
+        #    parça sayıyordu ve GERÇEK geometride iki yönde de yanıldı (sınav ④,
+        #    İbrail): Boğdan kamasını ikiye bölen şerit "temiz", bitişik iki
+        #    parçaya değen çizim "canlı" çıkıyordu. ⇒ O günün gövdesi pencere
+        #    içinde BİRLEŞTİRİLİR, bileşen sayılır. Pencere poligon ± ROTUS_PENCERE_DER;
+        #    bir bileşen pencerenin DIŞINDAN dolanıp birleşiyorsa (halka biçimli
+        #    gövde) burada kopuk görünür — bilinen sınır, ölçülmedi.
+        Wk = (kutu[0] - ROTUS_PENCERE_DER, kutu[1] - ROTUS_PENCERE_DER,
+              kutu[2] + ROTUS_PENCERE_DER, kutu[3] + ROTUS_PENCERE_DER)
+        for g in gunler:
+            govdeler = {}
+            for gid, p in govde.kesit(g, Wk):
+                govdeler.setdefault(gid, []).append(p)
+            bil = {}
+
+            def bilesen(gid):
+                if gid not in bil:
+                    u = unary_union(govdeler.get(gid) or [])
+                    bil[gid] = [] if u.is_empty else [c for c in getattr(u, "geoms", [u])
+                                                      if c.geom_type == "Polygon"]
+                return bil[gid]
+            # R3 — canlılık: rötuşsuz gövdede İKİ AYRI BİLEŞENE değmeli
+            n_kime = sum(1 for c in bilesen(k["kime"]) if c.intersects(Pe))
+            if n_kime < 2:
+                R["ihlal"].append((kid, "R3", "%s: poligon `%s`in %d bileşenine değiyor (≥2 gerekir) "
+                                   "— ÖLÜ ya da pencere taşmış" % (g, k["kime"], n_kime)))
+            # R5 — ters yön (kimden bölünüyor/siliniyor mu) + kayıt dışı sahip
+            for gid in govdeler:
+                if gid == k["kime"]:
+                    continue
+                if gid not in kimden:
+                    a = sum(A(c.intersection(P)) for c in bilesen(gid) if c.intersects(P))
+                    if a > ROTUS_KAYIT_DISI_KM2:
+                        R["ihlal"].append((kid, "R5", "%s: poligon kayıtta adı geçmeyen `%s` "
+                                           "gövdesine %.1f km² taşıyor" % (g, gid, a)))
+                    continue
+                for c in bilesen(gid):
+                    if not c.intersects(P):
+                        continue
+                    # 🔴 KIL PAYI BOYUN: ölçüldü (sınav ④) — uçları komşu sınırına TAM
+                    #    değen bir şerit, koordinat yuvarlamasıyla 0,1 m'lik bir boyun
+                    #    bırakıyor ve 510 km²'lik kopuk parça "bağlı" sayılıyordu. Gözle
+                    #    bölünmüş olan topolojik olarak bağlıydı ⇒ kesim ~10 m tolere edilir.
+                    kalan = c.difference(P.buffer(ROTUS_BOYUN_DER))
+                    # sayısal kıymıkları sayma (kenar boyu kesim artığı)
+                    par = [q for q in getattr(kalan, "geoms", [kalan])
+                           if not q.is_empty and A(q) >= ROTUS_KIYMIK_KM2]
+                    if not par:
+                        R["ihlal"].append((kid, "R5", "%s: `%s`in bir bileşeni (%.0f km²) TAMAMEN "
+                                           "siliniyor" % (g, gid, A(c))))
+                    elif len(par) > 1:
+                        kucuk = sorted(par, key=lambda q: -q.area)[1:]
+                        R["ihlal"].append((kid, "R5", "%s: `%s` bileşeni %d'ye bölünüyor — kopan %s km² "
+                                           "(YENİ ENKLAV, D206)" % (g, gid, len(par), ", ".join(
+                                               "%.0f@%.2f/%.2f" % (A(q), q.centroid.x, q.centroid.y)
+                                               for q in kucuk[:3]))))
+        # R4 — poligondaki sahipli yerleşim [f,t) boyunca kime değilse
+        for y in Y:
+            if not P.contains(Point(y["lon"], y["lat"])):
+                continue
+            for df, dt, sahip in _rotus_sahip_donemleri(y):
+                if df < t and f < dt and sahip != k["kime"]:
+                    R["ihlal"].append((kid, "R4", "poligonda `%s` — %s→%s `%s`in (rötuş sahiplik "
+                                       "DEĞİŞTİREMEZ)" % (y["ad"], max(df, f), min(dt, t), sahip)))
+                    break
+        # R6 — kaynaklı halka kimden lehine mi
+        for h in (halka or []):
+            kon = yer_kon.get(h.get("yer")) or (
+                (h["yer_kon"][1], h["yer_kon"][0]) if h.get("yer_kon") else None)
+            if not kon or not P.contains(Point(*kon)):
+                continue
+            hf, ht = h.get("f") or h.get("tarih") or "0000", h.get("t") or h.get("tarih") or "9999"
+            if not (hf <= t and f <= ht):
+                continue
+            dv = h.get("devlet")
+            boya = ("OSM-TABI" if h.get("tur") == "tabi" else "OSMANLI") if dv == "osmanli" else hmap.get(dv, dv)
+            if boya in kimden:
+                R["ihlal"].append((kid, "R6", "kaynaklı halka `%s` (%s) poligondaki yeri `%s`e veriyor"
+                                   % (h.get("id"), h.get("yer"), boya)))
+        R["liste"].append((kid, k.get("ad"), "CANLI" if len(R["ihlal"]) == ih0 else "İHLAL"))
+    # R8 — çakışma
+    for i, a in enumerate(gecerli):
+        for b in gecerli[i + 1:]:
+            if a["f"] < b["t"] and b["f"] < a["t"] and P_[a["id"]].intersects(P_[b["id"]]) \
+                    and P_[a["id"]].intersection(P_[b["id"]]).area > 0:
+                R["ihlal"].append((a["id"], "R8", "`%s` ile poligon ve pencere kesişiyor" % b["id"]))
+    for k in kayitlar:
+        if k.get("sorunlar"):
+            R["liste"].append((k["id"], k.get("ad"), "GEÇERSİZ"))
+    return R
+
+
+def degismez_r_rapor(Y, ayrinti=False):
+    """main() için: basar, ihlal varsa True döner. Ölçülemeyen ADIYLA kovaya."""
+    try:
+        R = degismez_r(Y)
+    except Exception as e:
+        print("Değişmez R  !  ÖLÇÜLEMEDİ — %s: %s" % (type(e).__name__, str(e)[:120]))
+        olculemedi("Değişmez R", "%s: %s" % (type(e).__name__, e))
+        return False
+    for ad, sb in R["olculemedi"]:
+        olculemedi(ad, sb)
+    n = len(R["liste"])
+    if not n and not R["ihlal"]:
+        print("Değişmez R  ✓  harita rötuşu: 0 kayıt%s"
+              % ("" if R["dosya_var"] else " (data/rotus.js yok ⇒ site de 0 uygular)"))
+        return False
+    durum = "✗" if R["ihlal"] else ("!" if R["olculemedi"] else "✓")
+    print("Değişmez R  %s  harita rötuşu: %d kayıt · %d ihlal%s · C hukukî hat SORULMADI (kontrolde K7)"
+          % (durum, n, len(R["ihlal"]), " · ÖLÇÜLEMEDİ" if R["olculemedi"] else ""))
+    for kid, ad, d in R["liste"]:
+        print("    %-10s %-8s %s" % (kid, d, (ad or "")[:50]))
+    for kid, kod, ne in (R["ihlal"] if ayrinti else R["ihlal"][:30]):
+        print("    ✗ %-10s %s  %s" % (kid, kod, ne[:150]))
+    return bool(R["ihlal"])
+
+
 def main():
     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
@@ -6141,6 +6538,7 @@ def main():
           f" · maskeli YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}")
     print(f"            OCAK-1 YER {KAPANIS_2S['ocak1_yer']:5} · TARAF {KAPANIS_2S['ocak1_yalniz_taraf']:5}"
           f" · maske YOK (yıl-temsilî kova birim başına sayılır)")
+    _2s_es_ad_rapor()          # 🆕 KELIME-CAKISMA-YER-1006b
     _k_mask = KAPANIS_2S["acik_kovada"]
     if _k_mask:
         print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR "
@@ -6759,6 +7157,10 @@ def main():
     # Değişmez 8 — şehir bölgesi ülke sınırını aşamaz (motor ÇIKTISINI ölçer)
     if degismez8_rapor(Y, ayrinti=args.ayrinti, defter_yaz=args.d8_defter_yaz,
                        kor_defter_yaz=args.d8_kor_defter_yaz, kor_defter=args.d8_kor_defter):
+        ihlal = True
+
+    # Değişmez R — harita rötuşu (P84-ROTUS): her kayıt hâlâ geçerli mi
+    if degismez_r_rapor(Y, ayrinti=args.ayrinti):
         ihlal = True
 
     _kdsonuc = konum_denetimi(Y)

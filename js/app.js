@@ -557,6 +557,194 @@ function etiketNoktasi(halka) {
   return eniyi || c;
 }
 
+// ═══ 🆕 HARİTA RÖTUŞU — P84-ROTUS (0084/H-0019, 6 Ekim 2026) ═══════════════
+// Kayıtlar `data/rotus.js` (`window.ROTUS`, koordinatör yazar); anlamı ve
+// uygulanışı `js/rotus.js` (`window.ROTUS_COZ`) — `denetle.py` Değişmez R aynı
+// dosyayı node'da koşturur. Burada YALNIZ bağlama var: hangi gün, hangi kaynak,
+// hangi kimlik. Tasarım: denetim/P84-ROTUS-TASARIM-1006b.md.
+// 🔴 RÖTUŞ YOKSA HİÇBİR ŞEY DEĞİŞMEZ: liste boşsa `rotusUygula` girdiyi AYNEN
+//    döndürür, imzalara "0" eklenir ⇒ bugünkü yayın bit-bit aynı çizilir.
+// ⚠️ Rötuş GÖRSELDİR (karar ①): sahiplik değildir ⇒ devir/bölge/işgal
+//    katmanları ve etiket yerleşimi HAM gövdeyi kullanmaya devam eder.
+var ROTUS_ACIK = true;          // ⑤b kutusu — varsayılan AÇIK
+var rotusOsmImza = "0";         // Osmanlı dalının son gördüğü etkin rötuş kümesi
+var ROTUS_SAYAC = { son: null }; // son uygulamanın sayacı (konsoldan bakılır)
+function rotusListe() { return Array.isArray(window.ROTUS) ? window.ROTUS : []; }
+function rotusGun(i) {           // gün indeksi → "YYYY-AA-GG" (kayıtların f/t biçimi)
+  var t = idxTarih(i);
+  function p(n, w) { n = String(Math.abs(n)); while (n.length < w) n = "0" + n; return n; }
+  return (t.y < 0 ? "-" : "") + p(t.y, 4) + "-" + p(t.a, 2) + "-" + p(t.g, 2);
+}
+function rotusImza(i) {
+  if (!ROTUS_ACIK || !window.ROTUS_COZ || !rotusListe().length) return "0";
+  return ROTUS_COZ.etkin(rotusListe(), rotusGun(i)).map(function (k) { return k.id; }).join(",") || "0";
+}
+function rotusUygula(fc, i, kimlikOku, kaynak) {
+  if (!ROTUS_ACIK || !window.ROTUS_COZ || !rotusListe().length) return fc;
+  var r = ROTUS_COZ.uygula(fc, rotusGun(i), kimlikOku, window.polygonClipping, rotusListe());
+  ROTUS_SAYAC.son = r.sayac;
+  // Sessiz atlama YOK: uygulanamayan rötuş konsola adıyla düşer.
+  if (r.sayac.hata || r.sayac.kutuphane_yok)
+    console.warn("[rötuş] " + kaynak + " " + rotusGun(i) + " uygulanamadı: " + JSON.stringify(r.sayac));
+  return r.fc;
+}
+function rotusKonturGuncelle(i) {
+  var src = harita.getSource("rotus");
+  if (!src) return;
+  var fs = (ROTUS_ACIK && window.ROTUS_COZ) ? ROTUS_COZ.konturlar(rotusListe(), rotusGun(i)) : [];
+  src.setData({ type: "FeatureCollection", features: fs });
+}
+// ⑤b kutusu. Değiştiyse iki dal da yeniden çizilir (imzalar sıfırlanır).
+function rotusAnahtar(acik) {
+  var degisti = (ROTUS_ACIK !== acik);
+  ROTUS_ACIK = acik;
+  // Rozetin METNİ öteki kutulardaki gibi katman sayısıdır (genel döngü yazar);
+  // kayıt sayısı İPUCUNDA — ikisi aynı alana yazılınca genel döngü eziyordu
+  // (tarayıcıda ölçüldü: metin "1", ipucu "kayıt yok").
+  var kutu = document.querySelector('#katman-grup input[data-katman="rotus"]');
+  var lbl = kutu && kutu.parentNode;
+  if (lbl) {
+    var n = rotusListe().length;
+    lbl.title = n ? n + " rötuş kaydı (data/rotus.js)" : "Henüz rötuş kaydı yok (data/rotus.js)";
+  }
+  if (degisti && haritaHazir) {
+    devletImza = null;
+    try { guncelle(); devletGuncelle(suanki); } catch (e) { console.warn("[rötuş] yeniden çizim:", e); }
+  }
+}
+
+// ── RÖTUŞ TEKLİF ÇİZİMİ ── kullanıcı poligon çizer → JSON iner. Site statik:
+// yazacak sunucu yok, teklif bir DOSYADIR (parti akışına H-maddesi eki).
+// `kime/kimden` burada yalnız ADAY: ekranda görünenden okunur. Kesin değerleri
+// ve f/t'yi kontrol (K1-K3) ÖLÇER — kullanıcı yazmaz.
+var ROTUS_CIZIM = { acik: false, noktalar: [] };
+function rotusCizimDurum(m) {
+  var d = document.getElementById("rotus-teklif-durum");
+  if (d) d.textContent = m ? " " + m : "";
+}
+function rotusCizimCiz() {
+  var n = ROTUS_CIZIM.noktalar, fs = [];
+  n.forEach(function (p) { fs.push({ type: "Feature", properties: {}, geometry: { type: "Point", coordinates: p } }); });
+  if (n.length >= 3) fs.push({ type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [n.concat([n[0]])] } });
+  else if (n.length === 2) fs.push({ type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: n } });
+  var src = harita.getSource("rotus-cizim");
+  if (src) src.setData({ type: "FeatureCollection", features: fs });
+}
+function rotusTeklifKur(n) {
+  var gun = rotusGun(suanki), kime = {}, kimden = {};
+  function oku(ll, kova) {
+    var fs = [];
+    try {
+      fs = harita.queryRenderedFeatures(harita.project(ll),
+        { layers: ["devlet-dolgu", "osmanli-dolgu", "vassal-dolgu"] });
+    } catch (e) { /* katman yoksa aday boş kalır — kontrol ölçer */ }
+    fs.forEach(function (f) {
+      var id = f.layer.id === "osmanli-dolgu" ? "OSMANLI"
+             : f.layer.id === "vassal-dolgu" ? "OSM-TABI" : (f.properties && f.properties.id);
+      if (id) kova[id] = (kova[id] || 0) + 1;
+    });
+  }
+  // köşeler bağlanan parçalara değer (kime adayı); iç örnekler aradaki sahip (kimden adayı)
+  n.forEach(function (p) { oku(p, kime); });
+  var cx = 0, cy = 0;
+  n.forEach(function (p) { cx += p[0]; cy += p[1]; });
+  cx /= n.length; cy /= n.length;
+  oku([cx, cy], kimden);
+  for (var i = 0; i < n.length; i++) {
+    var a = n[i], b = n[(i + 1) % n.length];
+    oku([((a[0] + b[0]) / 2 + cx) / 2, ((a[1] + b[1]) / 2 + cy) / 2], kimden);
+  }
+  var dk = document.querySelector('#katman-grup input[data-katman="dolgu"]');
+  var not = "";
+  try { not = window.prompt("Rötuş notu — ne neye bağlansın? (ör. \"İbrail'i Eflak'a bağla\")", "") || ""; } catch (e) {}
+  var sv = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
+  return {
+    tur: "rotus-teklif", surum: 1, gun: gun, gun_yazi: idxYazi(suanki),
+    gorunum: dk && dk.checked ? "B" : "A",
+    rotus_acikti: ROTUS_ACIK,
+    geo: n.concat([n[0]]),
+    kime_adaylari: kime, kimden_adaylari: kimden, not: not,
+    sayfa: (sv.match(/v=(r\d+)/) || [])[1] || "?",
+    olusturuldu: new Date().toISOString(),
+    uyari: "kime/kimden ADAYDIR (ekrandan okundu). Kesin kime/kimden/f/t'yi kontrol K1-K3 ÖLÇER."
+  };
+}
+function rotusTeklifIndir(t) {
+  var s = new Date(), hhmm = ("0" + s.getHours()).slice(-2) + ("0" + s.getMinutes()).slice(-2);
+  var ad = "rotus-teklif-" + t.gun + "-" + hhmm + ".json";
+  var url = URL.createObjectURL(new Blob([JSON.stringify(t, null, 2)], { type: "application/json" }));
+  var a = document.createElement("a");
+  a.href = url; a.download = ad;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+  rotusCizimDurum("indirildi: " + ad + " — parti dosyasına H-maddesi eki olarak ekleyin");
+}
+function rotusCizimBitir(iptal) {
+  ROTUS_CIZIM.acik = false;
+  var dg = document.getElementById("rotus-teklif-dugme");
+  if (dg) dg.classList.remove("etkin");
+  harita.getCanvas().style.cursor = "";
+  try { harita.doubleClickZoom.enable(); } catch (e) {}
+  var n = ROTUS_CIZIM.noktalar;
+  ROTUS_CIZIM.noktalar = [];
+  if (iptal || n.length < 3) {
+    rotusCizimCiz();
+    rotusCizimDurum(iptal ? "iptal edildi" : "en az 3 nokta gerekir — iptal edildi");
+    return;
+  }
+  var t = rotusTeklifKur(n);
+  rotusCizimCiz();
+  rotusTeklifIndir(t);
+}
+function rotusCizimKur() {
+  var dg = document.getElementById("rotus-teklif-dugme");
+  if (!dg) return;                       // markup yoksa sessizce geç, çökme
+  dg.addEventListener("click", function () {
+    if (ROTUS_CIZIM.acik) { rotusCizimBitir(false); return; }
+    ROTUS_CIZIM.acik = true;
+    ROTUS_CIZIM.noktalar = [];
+    dg.classList.add("etkin");
+    harita.getCanvas().style.cursor = "crosshair";
+    try { harita.doubleClickZoom.disable(); } catch (e) {}
+    rotusCizimDurum("çizim AÇIK · tıkla: nokta · çift tık/Enter: bitir · Esc: iptal · ⌫: geri al");
+    rotusCizimCiz();
+  });
+  // 🔴 ÇİZİM KİPİ YALITILIR (tarayıcıda ölçüldü): tıklamalar `harita.on("click")`
+  //    ile alındığında haritanın ÖTEKİ tıklama işleyicileri de koşuyordu (madde/
+  //    şehir paneli açılıyordu) ve o panellerin Esc işleyicisi `stopPropagation`
+  //    ile tuşu yutuyordu ⇒ Esc çizimi İPTAL ETMİYORDU. Şimdi: fare olayları
+  //    harita KABINDA yakalama evresinde alınır ve durdurulur (MapLibre ile DOM
+  //    işaretçileri onları hiç görmez); tuşlar `window` yakalamasında ÖNCE gelir.
+  //    Sürükleme (kaydırma) nokta EKLEMEZ: 4 px'ten fazla kayan tık sayılmaz.
+  var kap = harita.getContainer(), _basma = null;
+  kap.addEventListener("mousedown", function (e) {
+    if (ROTUS_CIZIM.acik) _basma = [e.clientX, e.clientY];
+  }, true);
+  kap.addEventListener("click", function (e) {
+    if (!ROTUS_CIZIM.acik) return;
+    e.stopPropagation(); e.preventDefault();
+    if (_basma && Math.abs(e.clientX - _basma[0]) + Math.abs(e.clientY - _basma[1]) > 4) return;
+    var r = harita.getCanvas().getBoundingClientRect();
+    var ll = harita.unproject([e.clientX - r.left, e.clientY - r.top]);
+    var p = [Math.round(ll.lng * 1e4) / 1e4, Math.round(ll.lat * 1e4) / 1e4];
+    var n = ROTUS_CIZIM.noktalar, son = n[n.length - 1];
+    if (son && son[0] === p[0] && son[1] === p[1]) return;   // çift tıkın 2. tıkı
+    n.push(p);
+    rotusCizimCiz();
+  }, true);
+  kap.addEventListener("dblclick", function (e) {
+    if (!ROTUS_CIZIM.acik) return;
+    e.stopPropagation(); e.preventDefault();
+    rotusCizimBitir(false);
+  }, true);
+  window.addEventListener("keydown", function (e) {
+    if (!ROTUS_CIZIM.acik) return;
+    if (e.key === "Escape") { e.stopPropagation(); rotusCizimBitir(true); }
+    else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); rotusCizimBitir(false); }
+    else if (e.key === "Backspace") { e.preventDefault(); e.stopPropagation(); ROTUS_CIZIM.noktalar.pop(); rotusCizimCiz(); }
+  }, true);
+}
+
 var devletImza = null;
 var devletEtiketleri = [];      // aktif DOM işaretleri
 var etiketAdaylari = [];        // {ad, c, alan} — dönem başına bir kez kurulur
@@ -602,9 +790,12 @@ function devletGuncelle(t) {
   // olabilir; kapı onu `?` diye yazar, `undefined` diye DEĞİL, yoksa iki ayrı
   // hâl (henüz kurulmadı / Fetret) aynı imzayı üretirdi.
   imza += "|dn:" + (typeof aktifDonem === "undefined" ? "?" : aktifDonem);
+  imza += "|r:" + rotusImza(t);           // P84-ROTUS — rötuş kümesi değişince yeniden çiz
   if (imza === devletImza) return;
   devletImza = imza;
-  harita.getSource("devlet").setData({ type: "FeatureCollection", features: fs });
+  harita.getSource("devlet").setData(rotusUygula({ type: "FeatureCollection", features: fs }, t,
+    function (f) { return f.properties && f.properties.id; }, "devlet"));
+  try { rotusKonturGuncelle(t); } catch (e) { /* kaynak henüz yok */ }
   // Büyük gövde önce yerleşsin: çakışmada küçük olan elenir
   et.sort(function (a, b) { return b.alan - a.alan; });
   etiketAdaylari = et;
@@ -3203,6 +3394,27 @@ harita.on("load", function () {
     harita.on("mouseleave", "halka-kaynakli", function () { harita.getCanvas().style.cursor = ""; });
   } catch (e) { console.error("KAYNAKLI HALKA katmanı kurulamadı:", e); }
   try { kaynakliHalkaAyarKur(); } catch (e) { console.error("KAYNAKLI HALKA ayarı kurulamadı:", e); }
+
+  // P84-ROTUS — rötuş konturu (⑤b kovası) + teklif çizimi (kutusuz kova).
+  // Bütün siyasî dolguların ÜSTÜNDE: kontur bir İŞARETtir, dolgu değil.
+  try {
+    harita.addSource("rotus", { type: "geojson", data: bosVeri() });
+    harita.addLayer({ id: "rotus-kontur", type: "line", source: "rotus",
+      paint: { "line-color": "#ffffff", "line-width": 1.6,
+               "line-dasharray": [2, 2], "line-opacity": 0.9 } });
+    harita.addSource("rotus-cizim", { type: "geojson", data: bosVeri() });
+    harita.addLayer({ id: "rotus-cizim-alan", type: "fill", source: "rotus-cizim",
+      filter: ["==", ["geometry-type"], "Polygon"],
+      paint: { "fill-color": "#ffd54f", "fill-opacity": 0.25 } });
+    harita.addLayer({ id: "rotus-cizim-hat", type: "line", source: "rotus-cizim",
+      filter: ["!=", ["geometry-type"], "Point"],
+      paint: { "line-color": "#ffd54f", "line-width": 2 } });
+    harita.addLayer({ id: "rotus-cizim-nokta", type: "circle", source: "rotus-cizim",
+      filter: ["==", ["geometry-type"], "Point"],
+      paint: { "circle-radius": 4, "circle-color": "#ffd54f",
+               "circle-stroke-color": "#000000", "circle-stroke-width": 1 } });
+    rotusCizimKur();
+  } catch (e) { console.error("RÖTUŞ katmanı kurulamadı:", e); }
 
   haritaHazir = true;
   // ARAYUZ-0077 H-0002 — açılış perdesini (css/style.css, saf CSS) kaldır.
@@ -9789,6 +10001,11 @@ function guncelle() {
   if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
   if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
   var di = donemBul(suanki);
+  // P84-ROTUS — Osmanlı dalı yalnız dönem değişince çizer; etkin rötuş kümesi
+  // dönem ortasında değişirse dal ZORLA yeniden girilir. Rötuş yoksa imza
+  // hep "0" ⇒ bu satır hiçbir şey yapmaz.
+  var _rotusI = rotusImza(suanki);
+  if (_rotusI !== rotusOsmImza) { rotusOsmImza = _rotusI; if (haritaHazir) aktifDonem = null; }
   if (haritaHazir && di === -2 && di !== aktifDonem) {
     // Fetret Devri: Osmanlı, tâbi ve bölge katmanları boşaltılır; sahnede yalnız
     // şehzade payları (devlet katmanı) kalır. zoomUygula çağrılmaz — kırpılacak
@@ -9810,6 +10027,9 @@ function guncelle() {
     var d = donemler[di];
     var osmVeri = d.o ? tekVeri(d.o) : petekVerisi(d);
     var vasVeri = d.v ? tekVeri(d.v) : bosVeri();
+    // P84-ROTUS — Osmanlı kimlikleri `denetle.py` `_D8Govde` ile aynı adlar.
+    osmVeri = rotusUygula(osmVeri, suanki, function () { return "OSMANLI"; }, "osmanli");
+    vasVeri = rotusUygula(vasVeri, suanki, function () { return "OSM-TABI"; }, "vassal");
     harita.getSource("osmanli").setData(osmVeri);
     harita.getSource("vassal").setData(vasVeri);
     // Himaye şeridi: `d.h` her öğesi ayrı bir gövde (kendi rengiyle) — bkz.
@@ -16301,6 +16521,11 @@ var KATMAN_KUMESI = [
   // 📌 Kavramsal ayrım da bunu istiyor: koridor bir ALTYAPI (menzil yolları),
   //   ok bir ANLATI öğesidir. Birini kapatmak ötekini kapatmamalı.
   { anahtar: "harekat",  ad: "Harekât okları", kalip: /^sefer-/ },
+  // P84-ROTUS — ⑤b kutusu konturu yönetir (gövdeye uygulamayı `rotusAnahtar`);
+  // teklif çizimi kutusuz kova: kutu kapalıyken de çizim görünmeli.
+  { anahtar: "rotus",    ad: "Rötuşlar", kalip: /^rotus-kontur$/ },
+  { anahtar: "rotuscizim", ad: "Rötuş teklif çizimi (kutusu yok — ✏️ düğmesi yönetir)",
+    kalip: /^rotus-cizim-/ },
   // 🆕 Ⓑ DOLGU KOVASI (B-GORUNUM-0072, 20 Eylül 2026) — `siyasi`DEN ÖNCE.
   // ⚠️ SIRA ŞART (`katmanSinifla()` ilk eşleşmede döner) — ve burada sıra
   //    yalnız bir tedbir değil, ÖLÇÜLMÜŞ bir tuzak: `siyasi` kalıbı
@@ -16477,6 +16702,7 @@ function katmanSeciciKur() {
       // (kapalıyken kaynağı tazelemiyor). Kutu artık bayrağı da yazıyor —
       // yoksa katman görünür olur ama kaynağı BAYAT kalırdı: "açtım, yanlış
       // tarihi gösteriyor" sınıfı bir kusur, ve sessiz.
+      if (a === "rotus") rotusAnahtar(acik);
       if (a === "yollar" && window.KORIDOR) {
         KORIDOR.acik = acik;
         if (acik) { try { koridorGuncelle(suanki); } catch (e) { /* stil hazır değil */ } }
