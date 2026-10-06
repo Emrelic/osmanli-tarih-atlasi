@@ -5889,3 +5889,4 @@
 | M-5878 | 2026-10-06 16:08 | HAZIR KITA 0610 1601 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
 | M-5879 | 2026-10-06 16:08 | HAZIR KITA 0610 1601 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
 | M-5880 | 2026-10-06 16:08 | HAZIR KITA 0610 1601 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
+| M-5881 | 2026-10-06 16:08 | HAZIR KITA 0510 2036 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum · Emre: bana ÖNCELİK verilsin (pencere başlığı: Kita 0510 2036; bekçi 2s tavanında düştü, yeniden kuruyorum) |
