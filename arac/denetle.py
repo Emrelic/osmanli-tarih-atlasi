@@ -1502,13 +1502,18 @@ def _2s_taraf_adaylari(sid):
 #   ölçümde DONMASI (8a'da yapılanın aynısı). Tavan yalnız GERİLEMEYİ bloke
 #   eder; iyileşince indirilir.
 # ═══════════════════════════════════════════════════════════════════════════
-KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
+KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
+              "maskeli_yer": 0, "maskeli_yalniz_taraf": 0}
 # 🆕 🔴 ÜÇÜNCÜ SAYI (5 Ekim 2026, ONCE1281 ölçtü) — "acik_kovada": SAYACIN MASKESİ.
 #   `degismez2` güne göre TEK KOVA kurar ve kovadaki TEK bir yer açıklanmazsa kovadaki
 #   HİÇBİR birim kapalı sayılmaz (`eksik` dolu ⇒ fark 31 ⇒ AÇIK). Sonuç: büyük bir kova
 #   tek bir eksik yüzünden tamamen görünmez olur.
-#   ÖLÇÜLEN VAKA: 1918-11-11 kovasında **123 yerleşim** var, kova AÇIK, ve eksik olan
-#   YALNIZ **'Gdansk'** ⇒ öteki **122 birim 2sk'da HİÇ SAYILMIYOR.
+#   ÖLÇÜLEN VAKA (5 Ekim 2026 FOTOĞRAFI — BAYATLADI, aşağıya bak): 1918-11-11 kovasında
+#   123 yerleşim, kova AÇIK, eksik YALNIZ 'Gdansk' ⇒ öteki 122 birim 2sk'da SAYILMIYORDU.
+#   🔴 YENİDEN ÖLÇÜLDÜ (6 Ekim 2026, makine/umit ab2c57a4, W41 maske.py, KAPANIS_2S ile
+#   3/3 çapraz): 1918-11-11 kovası 28 YER + 75 TARAF açıklanmış, AÇIKLANMAMIŞ 4 —
+#   Częstochowa · Gdansk · Varşova · Łódź. "Yalnız Gdansk" artık DOĞRU DEĞİL (W54 de
+#   ölçtü). Bu cümle de bir fotoğraftır; tarihiyle okunur.
 #   ⇒ Bugünkü `yalniz_taraf` sayısı (ve tavanı) o maskenin ARKASINDAN okunuyor. Gdańsk
 #   tek başına açıklansa sayı 1602 → ~1697 olur (+95) ve **hiçbir veri kötüleşmez**.
 #   📌 `D262`nin kardeşi ama AYRI: orada sensör DOYMUŞTU (tavan aşık), burada MASKELİ
@@ -1533,7 +1538,16 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0}
 #     DEĞİL — açıklanmış bir maliyeti yeni taban yapmaktır.
 #   📌 Ve bu sayı HÂLÂ MASKENİN ARKASINDAN okunuyor (bugün 1665 birim açık kovalarda
 #     sayılmıyor). Maske küçülünce taban YENİDEN kurulacak.
-BEKLENEN_2S_YALNIZ_TARAF = 1665   # 1636 → 1665, 5 Ekim 2026 · CISLEITHANIA (UFUK). +29.
+# 🔴 6 Ekim 2026 — TAVANIN ANLAMI DEĞİŞTİ (koordinatör kararı, ölçen UMIT, W41 bulgusu):
+#   tavan artık GÖRÜNÜR yalnız-taraf + MASKELİ yalnız-taraf TOPLAMINI dondurur.
+#   Sebep: eski tavan (1665) yalnız görünür sayıyı tutuyordu ⇒ bir kova KAPANINCA maskenin
+#   arkasındaki taraf birimleri görünür olup tavanı AŞIYORDU — ölçüt İYİLEŞMEYİ cezalandırıyordu
+#   (W33b: meşru bir Polonya maddesi +78 verdi). Toplam maske hareketine BAĞIŞIKTIR: kova
+#   kapanınca görünür büyür, maskeli küçülür, toplam aynı kalır; GERÇEK yeni yalnız-taraf
+#   kapanışı toplamı AŞAR ⇒ alarm çalar.
+#   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
+#   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
+BEKLENEN_2S_YALNIZ_TARAF = 2262   # 1665 (görünür) → 2262 (görünür 1665 + maskeli 597), 6 Ekim 2026.
 #   🔴 BU EN BÜYÜK TEK SIÇRAMA — ve niçin kabul edildiğini yazıyorum, çünkü yarın
 #   "neden bu kadar arttı" diye sorulacak.
 #   Saint-Germain md. 91 emanet künyesi (`itilaf-emaneti`) 16 Cisleithania kaydını
@@ -1603,6 +1617,8 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
     if yer_sarti:
         KAPANIS_2S["yer"] = 0
         KAPANIS_2S["yalniz_taraf"] = 0
+        KAPANIS_2S["maskeli_yer"] = 0
+        KAPANIS_2S["maskeli_yalniz_taraf"] = 0
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
@@ -1714,6 +1730,10 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
                         #   açıklanmış oldukları hâlde kovanın tek eksiği yüzünden
                         #   görünmez kalan birimler maskenin KENDİSİDİR.
                         KAPANIS_2S["acik_kovada"] += len(_kol)
+                        # 🆕 6 Ekim 2026: maske KOLA göre de sayılır — 2sk tavanı
+                        #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
+                        for _k in _kol:
+                            KAPANIS_2S["maskeli_" + _k] += 1
                     else:
                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
                         fark = abs(en_yakin["g"] - gd)
@@ -5959,20 +5979,25 @@ def main():
     _k_yer = KAPANIS_2S["yer"]
     _k_trf = KAPANIS_2S["yalniz_taraf"]
     _k_top = _k_yer + _k_trf
-    _trf_asim = _k_trf > BEKLENEN_2S_YALNIZ_TARAF
+    _k_mtrf = KAPANIS_2S["maskeli_yalniz_taraf"]
+    _k_trf_tum = _k_trf + _k_mtrf      # tavanın sorduğu sayı (6 Ekim 2026)
+    _trf_asim = _k_trf_tum > BEKLENEN_2S_YALNIZ_TARAF
     print(f"Değişmez 2sk {'🧊' if not _trf_asim else '⚠️'}  kapanışın SINIFI: "
           f"{_k_top} kapalı = {_k_yer} YER anılarak + {_k_trf} YALNIZ TARAF ile "
-          f"(tavan {BEKLENEN_2S_YALNIZ_TARAF})")
+          f"· yalnız-taraf görünür+maskeli {_k_trf_tum} (tavan {BEKLENEN_2S_YALNIZ_TARAF})")
     _k_mask = KAPANIS_2S["acik_kovada"]
     if _k_mask:
-        print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR —")
+        print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR "
+              f"(YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}) —")
+        print(f"               maskeli TARAF: {_k_mtrf}  ← tavanın içinde, SESSİZ DEĞİL")
         print( "               kovaları TEK bir eksik yüzünden açık kaldı. `degismez2` güne")
         print( "               göre tek kova kurar; kovadaki bir yer açıklanmazsa kovadaki")
-        print( "               HİÇBİR birim kapalı sayılmaz. Ölçülen vaka: 1918-11-11 kovası")
-        print( "               123 yerleşim, eksik YALNIZ 'Gdansk' ⇒ 122 birim görünmez.")
-        print(f"               ⇒ Yukarıdaki {_k_top} ve tavan, bu maskenin ARKASINDAN")
-        print( "                 okunuyor. Maske kalkarsa sayı BÜYÜR ama veri KÖTÜLEŞMEZ;")
-        print( "                 tavanı o yüzden maskeli sayıya göre kurma.")
+        print( "               HİÇBİR birim kapalı sayılmaz. Ölçülen vaka (6 Ekim 2026):")
+        print( "               1918-11-11 kovası 28 YER + 75 TARAF açıklanmış, AÇIKLANMAMIŞ 4")
+        print( "               (Częstochowa · Gdansk · Varşova · Łódź).")
+        print(f"               ⇒ Görünür {_k_top} bu maskenin ARKASINDAN okunuyor. Maske")
+        print( "                 kalkarsa görünür sayı BÜYÜR ama veri KÖTÜLEŞMEZ; tavan bu")
+        print( "                 yüzden görünür+maskeli TOPLAMA kuruludur.")
     print( "            🔴 'YALNIZ TARAF' kapanışı YER DÜZEYİNDE DOĞRULANMAMIŞTIR:")
     print( "               ölçtüğü şey 'o gün o DEVLETİN bir olayı var', 'bu YER o gün")
     print( "               el değiştirdi' DEĞİL. Künyeden devralınmış sahte günler")
@@ -5981,12 +6006,12 @@ def main():
     print( "            i Bu bir İHLAL DEĞİL, BORÇtur: AÇIK sayısı ve hüküm etkilenmez.")
     print( "              Tavan yalnız GERİLEMEYİ bloke eder; iyileşince indirilir.")
     if _trf_asim:
-        print(f"            ⚠️ TAVAN AŞILDI ({_k_trf} > {BEKLENEN_2S_YALNIZ_TARAF}) — "
+        print(f"            ⚠️ TAVAN AŞILDI ({_k_trf_tum} > {BEKLENEN_2S_YALNIZ_TARAF}) — "
               f"yer düzeyinde doğrulanmamış kapanış ARTTI; yeni künye-devralması")
         print( "               yazılmış olabilir. İhlal değil, ama SINIFI istenir.")
-    elif _k_trf < BEKLENEN_2S_YALNIZ_TARAF:
+    elif _k_trf_tum < BEKLENEN_2S_YALNIZ_TARAF:
         print(f"            🟢 İYİLEŞME: tavan {BEKLENEN_2S_YALNIZ_TARAF} → "
-              f"{_k_trf} yapılabilir ({BEKLENEN_2S_YALNIZ_TARAF - _k_trf} birim).")
+              f"{_k_trf_tum} yapılabilir ({BEKLENEN_2S_YALNIZ_TARAF - _k_trf_tum} birim).")
     if len(yil_borc_s) > BEKLENEN_2S_YIL_BORC:
         print(f"            ⚠️ YIL-TEMSİLÎ BORÇ tavanı aşıldı "
               f"({len(yil_borc_s)} > {BEKLENEN_2S_YIL_BORC}) — ihlal DEĞİL, "
