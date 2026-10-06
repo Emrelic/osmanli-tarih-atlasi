@@ -41,10 +41,10 @@ def eski_say(yol, alan):
 GERCEK = [
     ("olaylar.js",            "madde",    81, "29 iç içe alt_kronoloji adımı FAZLA"),
     ("olaylar.js",            "yer_id",   73, "29 iç içe alt_kronoloji adımı FAZLA"),
-    ("olaylar_ek17.js",       "vefat_id",  1, "yorum satırı :39 FAZLA"),
-    ("olaylar_ek5.js",        "yer_id",  389, "yorum satırı :340 FAZLA"),
-    ("olaylar_ok106.js",      "madde",     7, "yorum satırı :43 FAZLA"),
-    ("olaylar_ok106.js",      "yer_id",    7, "yorum satırları :76/:79 FAZLA"),
+    ("olaylar_ek17.js",       "vefat_id", "YORUM", "yorum satırı :39 FAZLA"),
+    ("olaylar_ek5.js",        "yer_id",  "YORUM", "yorum satırı :340 FAZLA"),
+    ("olaylar_ok106.js",      "madde",   "YORUM", "yorum satırı :43 FAZLA"),
+    ("olaylar_ok106.js",      "yer_id",  "YORUM", "yorum satırları :76/:79 FAZLA"),
     ("olaylar_sh110.js",      "madde",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
     ("olaylar_sh110.js",      "duygu",     0, "blok yorumlu ÇÜRÜDÜ maddesi FAZLA"),
     ("olaylar_sk105.js",      "madde",     0, "blok yorumlu madde FAZLA"),
@@ -69,6 +69,18 @@ if "hata" not in R:
         if dogru is None:          # boş yer_id: doğru = eski regex − boş sayısı
             bos = len(re.findall(r'yer_id\s*:\s*""', D._oku(os.path.join("data", dosya))))
             dogru = eski - bos
+        elif dogru == "YORUM":     # doğru = eski regex − YORUM satırlarındaki geçiş
+            # 🔴 5 Ekim 2026 (DALGA6): ek5 için sabit 389 yazılmıştı; W18
+            #    ek5'e bir madde ekleyince 390 oldu ve sınav YANLIŞ ötüyordu.
+            #    Sabit, ölçümün fotoğrafıdır — veri büyüyünce bayatlar. Kusur
+            #    sınıfı (yorum) burada dosyadan ÖLÇÜLÜR; yorum geçişi 0 ise
+            #    vaka artık kusur taşımıyor demektir ve AYRI satırda öter.
+            yorum = sum(len(re.findall(ESKI[alan], l)) for l in
+                        D._oku(os.path.join("data", dosya)).split("\n")
+                        if l.lstrip().startswith("//"))
+            sina("YORUM vakası %s %s hâlâ yorumda geçiş taşıyor (%d)"
+                 % (dosya, alan, yorum), yorum > 0)
+            dogru = eski - yorum
         sina("YÖN1 %s %s = %d" % (dosya, alan, dogru), yeni == dogru,
              "yeni %d" % yeni)
         sina("YÖN2 eski regex %s %s ≠ %d (%s)" % (dosya, alan, dogru, sinif),
