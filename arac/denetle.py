@@ -3861,6 +3861,24 @@ BILINEN_AYRI = {
      "Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı"),
     ("Niş'in Avusturya'dan geri alınışı",
      "Adakale'nin Avusturya'dan alınışı"),
+    # ⭐ "AYNI GÜN / AYNI FİİL KALIBI / AYRI TOPRAK" — 6 Ekim 2026, W54b MEMEL.
+    # Memel maddesi inince tavan 95 → 96 oldu; çift YANLIŞ POZİTİF.
+    # Ortak olan YALNIZ gün (1920-01-10, Versay'ın yürürlüğe girişi) ve kalıp
+    # ("X Müttefik emanetine geçti: Almanya Y'den vazgeçti"). AYRI olanlar:
+    #   Danzig → Versay md. 100-102, ŞEHİR ve çevresi; emanet 1920-11-15'te
+    #            Serbest Şehir kurulmasıyla biter
+    #   Memel  → Versay md. 99, Neman ırmağının kuzeyindeki BÖLGE; emanet
+    #            1923-02-16'da Büyükelçiler Konf. Litvanya'ya atayınca biter
+    # İki ayrı toprak, iki ayrı antlaşma maddesi, iki ayrı bitiş günü. Ortaklık
+    # yalnız AYNI ANTLAŞMANIN AYNI GÜN yürürlüğe girmesinden doğuyor ve bu
+    # kalıp Versay kronolojisinde SİSTEMATİKTİR: Saar (md. 49) da aynı gün ve
+    # aynı kalıptadır — Saarbrücken noktası tam inşayı beklediği için maddesi
+    # henüz yazılmadı, indiğinde ÜÇÜNCÜ çift doğacak ve buraya yazılacak.
+    # 🔴 BAŞLIK DEĞİŞTİRİLMEDİ: listenin başındaki kural gereği, ölçütü
+    #    atlatmak için başlığı yeniden yazmak maddeyi mükerrer olmaktan
+    #    çıkarmaz, yalnız SAYACI kör eder. Beyan burada yapılır.
+    ("Danzig Müttefik emanetine geçti: Almanya şehirden vazgeçti",
+     "Memel Müttefik emanetine geçti: Almanya bölgeden vazgeçti"),
 }
 
 # ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)

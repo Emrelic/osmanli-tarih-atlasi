@@ -1889,3 +1889,58 @@ bir arttı) ⇒ **ölümcül YAPILAMAZ**, `olumcul=False` kalır. Ama `olumcul=F
 ```
 Üçü tek pakette (`KOSU-ZINCIR-UC-KUSUR-1006`) ve ikinci partide. **Hangi zincir seçilirse
 seçilsin bu üçü yanlıştır** — zincir kararı "hangisi koşsun", bunlar "koşan ne yapıyor".
+
+---
+
+## ㉓ 🔴 DOKUZ GÖREV TAHTADA AMA EMRELIC'TE **HİÇ BEKÇİ YOK** — yalnız Emre açabilir
+
+**Ölçüm (6 Ekim 13:50, üç ayrı araçla):**
+```
+py arac/bekci_olc.py          →  CANLI 0 · KUŞKULU 0 · ASILI 0 · BİTMİŞ 16 · CIKTI 1
+oturumlar/bekci/ damga sayısı →  17, ve "0610" içeren damga SIFIR
+Get-CimInstance Win32_Process →  tahta_bekci süreci: 0  (makine GENELİNDE, Git Bash alt ağacı değil)
+KAYNAK-DURUM.json             →  bekci_yasak: false  ⇒ kurulum ENGELLİ DEĞİL
+```
+⇒ **Kilit sebep DEĞİL.** Bekçi kurulabilir durumda; kurulmamış.
+
+**Durum:** `M-5866…M-5874` (kıta 1231–1239, dokuz ölçüm görevi) tahtaya yazıldı ve push'landı.
+Ama tahta mesajı **yalnız bekçisi açık olan oturumu uyandırır** (`§7.2 ⚠️`). Bekçi yok ⇒
+dokuz görev **KAYITTA, TESLİMDE DEĞİL**. `§7.1 ⑤b`nin cümlesi: *"yazıldı" teslim kanıtı
+değildir.*
+
+**Ve `send_message` yolu da kapalı:** 0610 kıtaları ne `list_sessions`da (30 oturum, en yeni
+etkinlik 2026-10-05T18:31Z — bugünden HİÇBİR satır yok) ne `ListAgents`ta (110 eş, hiçbiri
+`HAZIR KITA 0610 12xx`) görünüyor. Yani bendeki ÜÇ kanalın üçü de kapalı.
+
+**Mekanizma (ölçülmüş, tahmin değil):** kıtalar 12:34-12:35'te `tahta.py yaz` ile HAZIRIM
+yazdı — demek ki ÇALIŞTILAR. `HAZIR-KITA.md` hem HAZIRIM'ı hem bekçiyi ister. HAZIRIM
+yazıldı, bekçi kurulmadı, tur bitti ⇒ oturum tahtaya **kalıcı olarak SAĞIR** oldu.
+
+### 🔴 BUNDAN ÇIKAN YAPISAL KUSUR — `bekci_olc.py` BU HÂLİ GÖRMEZ
+```
+bekci_olc.py bir bekçinin ÖLDÜĞÜNÜ görür.
+HİÇ KURULMADIĞINI GÖRMEZ.
+```
+Aracın evreni `oturumlar/bekci/` damga dizinidir. Damga **hiç yazılmamışsa** o oturum
+listede **ÖLÜ olarak değil, HİÇ görünmez** — ve "listede yok" bugün *"oturum yok"* diye
+okunuyor, oysa doğrusu *"SAĞIR oturum"*. Bu, `§11`in *"boş küme her öngörüyü doğrular"*
+ailesinin bir üyesi: ölçülmeyen bir sınıf, temiz bir rapor üretiyor.
+**Çare ucuz ve ölçülebilir:** tahta, HAZIRIM yazanların adını BİLİYOR. İki küme
+karşılaştırılır — *son N saatte tahtaya yazan adlar* ∖ *damgası olan adlar* = **SAĞIR
+OTURUMLAR**, adıyla. Bu kalem `bekci_olc.py`ye bir kova eklemekten ibarettir, ve bugün
+dokuz görevi sessizce askıya alan kusuru görünür kılar.
+
+### SENDEN NE GEREKİYOR (Emre) — tek seçim
+```
+(a) Dokuz kıtanın her birine kendi penceresinden tek satır yaz:
+    "tahtayı oku: py arac/tahta.py oku --kim '<ADIN>' ve sonra BEKÇİNİ KUR"
+    ⇒ görevler yerinde, hiçbir şey yeniden yazılmaz. EN UCUZ yol.
+(b) Dokuz kıtayı kapat, yerine dokuz yeni kıta aç; ben görevleri yeniden adresleyeyim.
+    ⇒ 9 × 82.561 token taban yeniden ödenir; (a) varken gereksiz.
+(c) Hiçbiri: dokuz görev tahtada BEKLER, sen uygun olunca (a)'yı yaparsın.
+    Bir şey bozulmaz; yalnız dokuz ölçüm başlamaz.
+```
+📌 **Önerim (a).** Gerekçe: görevler zaten yazılı ve push'lı, kıtalar taze (12:34'te açıldı,
+tek mesaj yazdılar), ve tek eksik bir komut. (b) doğruluk kazancı OLMADAN dokuz tam taban
+ödetir.
+⚠️ Ben (a)'yı yapamam: o kıtalara ulaşan hiçbir kanalım yok — ölçtüm, üçü de kapalı.
