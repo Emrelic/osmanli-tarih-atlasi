@@ -1,0 +1,351 @@
+diff --git a/denetim/ODAK-ASYA-0080-uygula.py b/denetim/ODAK-ASYA-0080-uygula.py
+index f36ae99f..8b5c84ad 100644
+--- a/denetim/ODAK-ASYA-0080-uygula.py
++++ b/denetim/ODAK-ASYA-0080-uygula.py
+@@ -7,7 +7,8 @@ Koşturan: koordinatör (YILDIRIM BAYEZIT) — `data/` sahipliği ondadır (§7)
+     py denetim/ODAK-ASYA-0080-uygula.py                 # KURU KOŞU (varsayılan)
+     py denetim/ODAK-ASYA-0080-uygula.py --uygula        # data/'ya yaz
+     py denetim/ODAK-ASYA-0080-uygula.py --grup A,B,C    # yalnız bu sınıflar
+-    py denetim/ODAK-ASYA-0080-uygula.py --konsuz        # AK (yer_kon) yerine YEDEĞİ uygula
++    py denetim/ODAK-ASYA-0080-uygula.py --kova-atla AK-YAKLASIK   # bir kovaya HİÇ dokunma
++    (--konsuz W36d'de KALDIRILDI: AK yedeklerinin 10'u da D257 vekilidir — çıkış 2)
+ 
+ SINIFLAR (şartname):
+   A   tek ve belli yer, havuzda VAR          → yer_id
+@@ -107,6 +108,9 @@ def eski_sinif(o):
+ 
+ UYGULA = "--uygula" in sys.argv
+ KONSUZ = "--konsuz" in sys.argv
++KOVA_ATLA = set()
++if "--kova-atla" in sys.argv:
++    KOVA_ATLA = set(sys.argv[sys.argv.index("--kova-atla") + 1].split(","))
+ GRUP = None
+ if "--grup" in sys.argv:
+     GRUP = set(sys.argv[sys.argv.index("--grup") + 1].split(","))
+@@ -355,12 +359,65 @@ def gun(t):
+     return (t + "-01-01")[:10] if len(t) < 10 else t[:10]
+ 
+ 
++# ──────────────────────────── D257 SÜZMESİ (W36d, 6 Ekim 2026) ──
++# Koordinatör kararı (UMIT İRTİBAT · W36c geri alması): kararlar `D257` /
++# `2585791b` ("122 vekil odak_yer SİLİNDİ") ölçütüyle YENİDEN süzüldü.
++# D257'nin VEKİLİ: hedef yer havuzda YOK ve onun yerine BAŞKA bir şehir yazılmış
++# ("kapı ötmesin diye komşu şehir"). Hüküm: odaksız bırakmak > yanlış şehre bırakmak.
++#   VEKIL-NOKTA     belirli bir yer havuzda yok, yerine BAŞKA nokta yazılmış ⇒ ODAK
++#                   YAZILMAZ; yalnız `kapsam_genis` kalkar (E gibi: kamera durur,
++#                   panel "nokta işaretlenmemiş" der — Osmanlı'ya UÇMAZ).
++#   B-BOLGE-TEMSIL  metindeki BÖLGE kendi havuz noktalarıyla çerçevelenir (Pencap →
++#                   Lahor+Amritsar). Kutu bölgeyi İÇİNE ALIR; "yanlış şehir" değildir.
++#   B-SINIR-YAKA    sınır kesimi — kutu hattın İKİ YAKASINDAKİ gerçek noktalarla
++#                   kurulur, hattı içine alır.
++#   B-GERCEK · A-GERCEK  ad maddenin kendi metnindeki yerdir (yazım farkı olabilir).
++#   C-KIMLIK        devletin kendi toprağı (`odak_kimlik`) — şehir vekili değil.
++#   AK-YAKLASIK     gerçek yerin YAKLAŞIK koordinatı (`yer_kon`), vekil değil — AYRI
++#                   kova, hükmü koordinatörde. 🔴 Yedekleri (`--konsuz`) ise 10/10
++#                   VEKİLDİR (Fetihpûr Sikri→Agra, Buksar→Patna…) ⇒ `--konsuz` REDDEDİLİR.
++#   E-ODAKSIZ       zaten odak yazılmaz.
++# Kova listesi (madde madde): denetim/ODAK-ASYA-SUZME-1006.tsv
++# `--kova-atla K1,K2` bir kovanın maddelerine HİÇ dokunmaz (kapsam_genis dahil).
++VEKIL_NOKTA = {
++    ("kronoloji_sinir_asya.js", "1292-01-01", "Kertanagara öldürüldü"),    # Singhasari → Malang
++    ("kronoloji_sinir_asya.js", "1530-01-01", "Alâeddin Riâyet Şah"),      # Pekan Tua → Johor
++    ("kronoloji_orta_asya.js", "1847-01-01", "KENASARI KIRGIZLAR"),        # Mey-Tuble → Balasagun
++    ("kronoloji_hindistan.js", "1699-04-13", "Guru Gobind Singh"),         # Anandpur → Lahor+Amritsar
++    ("kronoloji_timurlu.js", "1391-06-18", "Kunduzca Savaşı"),             # Kunduzca → Samara
++}
++_BOLGE_ISARET = re.compile(r"g[öo]sterim|havuzda yok|havuz nokta|en yak[ıi]n havuz"
++                           r"|havuzdaki .* yok|yerine", re.I)
++KOVALAR = ("A-GERCEK", "AK-YAKLASIK", "B-GERCEK", "B-BOLGE-TEMSIL", "B-SINIR-YAKA",
++           "VEKIL-NOKTA", "C-KIMLIK", "E-ODAKSIZ")
++
++
++def kova(k):
++    """Kararın D257 kovası (madde listesi TSV'dedir; bu işlev onu ÜRETİR)."""
++    s = k["sinif"]
++    if s == "AK":
++        return "AK-YAKLASIK"
++    if s == "E":
++        return "E-ODAKSIZ"
++    if s == "C":
++        return "C-KIMLIK"
++    if s == "A":
++        return "A-GERCEK"
++    if (k["dosya"], k["t"], k["bon"]) in VEKIL_NOKTA:
++        return "VEKIL-NOKTA"
++    if k["gerekce"].startswith(SINIR[:20]):
++        return "B-SINIR-YAKA"
++    if _BOLGE_ISARET.search(k["gerekce"]):
++        return "B-BOLGE-TEMSIL"
++    return "B-GERCEK"
++
++
+ def hedef_alan(k):
+-    """Kararın yazacağı alanlar (--konsuz AK'yi yedeğe çevirir)."""
++    """Kararın yazacağı alanlar. VEKIL-NOKTA ⇒ {} (odak yazılmaz, D257)."""
+     a = dict(k["alan"])
+-    yedek = a.pop("yedek", None)
+-    if KONSUZ and k["sinif"] == "AK" and yedek:
+-        return dict(yedek)
++    a.pop("yedek", None)
++    if kova(k) == "VEKIL-NOKTA":
++        return {}
+     return a
+ 
+ 
+@@ -455,6 +512,14 @@ def duzenle(parca, alan, kg_kaldir):
+ 
+ 
+ def main():
++    if KONSUZ:
++        print("🔴 --konsuz REDDEDİLDİ — AK yedeklerinin 10'u da D257 VEKİLİDİR (gerçek yer "
++              "havuzda yok, yerine komşu şehir). Kova: AK-YAKLASIK · seçenek: --kova-atla AK-YAKLASIK")
++        return 2
++    bilinmeyen = KOVA_ATLA - set(KOVALAR)
++    if bilinmeyen:
++        print("🔴 bilinmeyen kova: %s · geçerli: %s" % (", ".join(sorted(bilinmeyen)), ", ".join(KOVALAR)))
++        return 2
+     havuz = yer_havuzu()
+     if not havuz:
+         print("🔴 ÖLÇÜLEMEDİ — yerleşim havuzu yok; HİÇBİR ŞEY UYGULANMAZ.")
+@@ -470,7 +535,9 @@ def main():
+                   % (dosya, o_.get("hata") or od.get("hata") or "sınıf yok"))
+             return 2
+         olcum[dosya] = od["sinif"]
+-    secili = [k for k in KARARLAR if GRUP is None or k["sinif"] in GRUP]
++    secili = [k for k in KARARLAR if (GRUP is None or k["sinif"] in GRUP)
++              and kova(k) not in KOVA_ATLA]
++    kova_say = {}
+     sonuc, _ = sina(secili)
+     say = dict(degisen=0, zaten=0, kayit_yok=0, eski_tutmuyor=0, sart_yok=0)
+     sinif_say = {}
+@@ -487,7 +554,7 @@ def main():
+     print("ODAK-ASYA-0080 — %s · %d karar%s%s" % (
+         "UYGULA" if UYGULA else "KURU KOŞU", len(secili),
+         " · grup " + ",".join(sorted(GRUP)) if GRUP else "",
+-        " · --konsuz (AK → yedek odak_yer)" if KONSUZ else ""))
++        " · --kova-atla " + ",".join(sorted(KOVA_ATLA)) if KOVA_ATLA else ""))
+     print("=" * 100)
+     for dosya in DOSYALAR:
+         yol = os.path.join(KOK, "data", dosya)
+@@ -558,7 +625,8 @@ def main():
+             say["degisen"] += 1
+             sinif_say[k["sinif"]] = sinif_say.get(k["sinif"], 0) + 1
+             toplam_kg += 1 if kg_kaldir else 0
+-            print("  ✓ %s#%d %s" % (dosya, i, et))
++            kova_say[kova(k)] = kova_say.get(kova(k), 0) + 1
++            print("  ✓ %s#%d %s  [%s]" % (dosya, i, et, kova(k)))
+             print("      → %s%s" % (json.dumps(alan, ensure_ascii=False) if alan else "(odak yazılmaz)",
+                                    " · kapsam_genis KALDIRILIR" if kg_kaldir else ""))
+             print("      gerekçe: %s" % k["gerekce"])
+@@ -611,6 +679,8 @@ def main():
+     print("=" * 100)
+     print("SAYAÇ  değişen %(degisen)d · zaten böyle %(zaten)d · kayıt yok %(kayit_yok)d · "
+           "eski tutmuyor %(eski_tutmuyor)d · şartı sağlamadı %(sart_yok)d" % say)
++    print("KOVA   " + " · ".join("%s %d" % (s, n) for s, n in sorted(kova_say.items()))
++          + ("   (atlanan kova: %s)" % ",".join(sorted(KOVA_ATLA)) if KOVA_ATLA else ""))
+     print("SINIF  " + " · ".join("%s %d" % (s, n) for s, n in sorted(sinif_say.items()))
+           + "   (kapsam_genis kaldırılan %d)" % toplam_kg)
+     print("ÖNGÖRÜ (8 dosya, bu düzenlemeyle)")
+diff --git a/denetim/ODAK-ASYA-SUZME-1006.tsv b/denetim/ODAK-ASYA-SUZME-1006.tsv
+new file mode 100644
+index 00000000..4a620fad
+--- /dev/null
++++ b/denetim/ODAK-ASYA-SUZME-1006.tsv
+@@ -0,0 +1,197 @@
++dosya	t	baslik_oneki	sinif	kova	yazilacak_alan	W37_ayni_olay
++kronoloji_sinir_asya.js	1287-01-01	Wareru Aşağı Birmanya	C	C-KIMLIK	{"odak_kimlik": ["hanthawaddy"]}	
++kronoloji_sinir_asya.js	1292-01-01	Kertanagara öldürüldü	B	VEKIL-NOKTA	(odak yazilmaz)	
++kronoloji_sinir_asya.js	1318-01-01	Mübârek Şah Halacî Devâgirî	B	B-GERCEK	{"odak_yer": ["Devagiri (Devletâbâd)"]}	
++kronoloji_sinir_asya.js	1323-01-01	Uluğ Han Varangal	A	A-GERCEK	{"yer_id": "Varangal"}	
++kronoloji_sinir_asya.js	1336-01-01	Harihara ve Bukka	B	B-GERCEK	{"odak_yer": ["Vijayanagara (Hampi)"]}	
++kronoloji_sinir_asya.js	1340-01-01	Bengal Delhi Sultanlığı'ndan	B	B-GERCEK	{"odak_yer": ["Gaur (Lakhnautî)", "Sonârgâon"]}	
++kronoloji_sinir_asya.js	1343-01-01	III. Ballala	B	B-GERCEK	{"odak_yer": ["Madurai", "Vijayanagara (Hampi)"]}	
++kronoloji_sinir_asya.js	1351-01-01	Ayutthaya Krallığı kuruldu	A	A-GERCEK	{"yer_id": "Ayutthaya"}	
++kronoloji_sinir_asya.js	1354-01-01	Phagmodrupa	C	C-KIMLIK	{"odak_kimlik": ["tibet"]}	
++kronoloji_sinir_asya.js	1370-01-01	Melik Ahmed Handeş	B	B-BOLGE-TEMSIL	{"odak_yer": ["Asîrgarh", "Burhânpûr"]}	kronoloji_cok_orta_asya2.js 1370-01-01 (ODAKSIZ)
++kronoloji_sinir_asya.js	1394-01-01	Jaunpûr valisi	B	B-GERCEK	{"odak_yer": ["Cavnpur (Jaunpur)"]}	
++kronoloji_sinir_asya.js	1396-01-01	Prens Parameşvara	A	A-GERCEK	{"yer_id": "Malaka"}	
++kronoloji_sinir_asya.js	1400-01-01	Trần hanedanı devrildi	C	C-KIMLIK	{"odak_kimlik": ["tran-hanedani"]}	
++kronoloji_sinir_asya.js	1405-01-01	Awang Alak Betatar	B	B-GERCEK	{"odak_yer": ["Brunei"]}	
++kronoloji_sinir_asya.js	1431-01-01	Ayutthaya ordusu Angkor	A	A-GERCEK	{"yer_id": "Angkor"}	
++kronoloji_sinir_asya.js	1438-01-01	Zayıflayan Sukhothai	B	B-GERCEK	{"odak_yer": ["Sukhothai", "Ayutthaya"]}	
++kronoloji_sinir_asya.js	1450-01-01	Şerif Ebû Bekir	B	B-GERCEK	{"odak_yer": ["Colo (Jolo)"]}	
++kronoloji_sinir_asya.js	1451-01-01	Lengâh kabilesinden	A	A-GERCEK	{"yer_id": "Multan"}	
++kronoloji_sinir_asya.js	1492-01-01	Kāsım Berîd	A	A-GERCEK	{"yer_id": "Bîdar"}	
++kronoloji_sinir_asya.js	1503-01-01	Albuquerque Koçin	A	A-GERCEK	{"yer_id": "Koçin"}	
++kronoloji_sinir_asya.js	1521-01-01	Ali Mugâyet Şah	C	C-KIMLIK	{"odak_kimlik": ["ace-sultanligi"]}	
++kronoloji_sinir_asya.js	1521-01-01	Portekizliler Pasai	A	A-GERCEK	{"yer_id": "Samudra Pasai"}	
++kronoloji_sinir_asya.js	1522-01-01	Sunan Gunung Jati Bentem	A	A-GERCEK	{"yer_id": "Banten"}	
++kronoloji_sinir_asya.js	1527-01-01	Behmenî Sultanlığı sona erdi	B	B-GERCEK	{"odak_yer": ["Bîcâpur (Bijapur)", "Ahmednagar", "Elicpûr (Achalpur)", "Golkonda", "Bîdar"]}	
++kronoloji_sinir_asya.js	1527-01-01	Sind hâkimi Hüseyin Şah Argun	A	A-GERCEK	{"yer_id": "Multan"}	
++kronoloji_sinir_asya.js	1527-01-01	Sunda Kalapa limanı	A	A-GERCEK	{"yer_id": "Batavia (Cakarta)"}	
++kronoloji_sinir_asya.js	1527-01-01	Mạc Đăng Dung	B	B-GERCEK	{"odak_yer": ["Hanoi (Thăng Long)"]}	
++kronoloji_sinir_asya.js	1530-01-01	Alâeddin Riâyet Şah	B	VEKIL-NOKTA	(odak yazilmaz)	
++kronoloji_sinir_asya.js	1552-01-01	Hasanüddin Demak	C	C-KIMLIK	{"odak_kimlik": ["banten-sultanligi"]}	
++kronoloji_sinir_asya.js	1555-01-01	Bayinnaung Ava	A	A-GERCEK	{"yer_id": "Ava"}	
++kronoloji_sinir_asya.js	1558-01-01	Lan Na başkenti	A	A-GERCEK	{"yer_id": "Chiang Mai"}	
++kronoloji_sinir_asya.js	1558-01-01	Nguyễn ailesi	C	C-KIMLIK	{"odak_kimlik": ["nguyen-beyligi"]}	
++kronoloji_sinir_asya.js	1562-01-01	Mâlvâ, Ekber	B	B-BOLGE-TEMSIL	{"odak_yer": ["Mandu (Mândû)"]}	
++kronoloji_sinir_asya.js	1564-01-01	Sûrî hânedanının Bengal	B	B-BOLGE-TEMSIL	{"odak_yer": ["Gaur (Lakhnautî)"]}	
++kronoloji_sinir_asya.js	1568-01-01	Kral Mukunda	B	B-BOLGE-TEMSIL	{"odak_yer": ["Kattak (Cuttack)"]}	
++kronoloji_sinir_asya.js	1571-01-01	Legazpi Manila	A	A-GERCEK	{"yer_id": "Manila"}	
++kronoloji_sinir_asya.js	1572-01-01	Nizamşâhîler Berâr	B	B-BOLGE-TEMSIL	{"odak_yer": ["Elicpûr (Achalpur)", "Ahmednagar"]}	
++kronoloji_sinir_asya.js	1573-01-01	Oda Nobunaga	A	A-GERCEK	{"yer_id": "Kyoto"}	
++kronoloji_sinir_asya.js	1578-01-01	Parçalanan Demak	B	B-GERCEK	{"odak_yer": ["Demak"]}	
++kronoloji_sinir_asya.js	1585-01-01	Orta Cava'da Mataram	B	B-BOLGE-TEMSIL	{"odak_yer": ["Yogyakarta", "Surakarta (Solo)"]}	
++kronoloji_sinir_asya.js	1601-01-01	Ekber Şah Asîrgarh	A	A-GERCEK	{"yer_id": "Asîrgarh"}	
++kronoloji_sinir_asya.js	1689-08-27	Nerçinsk Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Nerçinsk", "Aigun"]}	
++kronoloji_sinir_asya.js	1727-10-12	Bur Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Selenginsk", "Urga (Ulan Batur)"]}	
++kronoloji_sinir_asya.js	1792-01-01	Çin–Nepal antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Katmandu", "Şigatse"]}	
++kronoloji_sinir_asya.js	1816-03-04	Sugauli ile Kali	B	B-SINIR-YAKA	{"odak_yer": ["Leh (Ladakh)", "Katmandu"]}	
++kronoloji_sinir_asya.js	1816-03-04	Sugauli Antlaşması yürürlükte	B	B-SINIR-YAKA	{"odak_yer": ["Katmandu", "Gorakhpûr"]}	
++kronoloji_sinir_asya.js	1842-09-17	Ladakh–Tibet mektubu	B	B-SINIR-YAKA	{"odak_yer": ["Leh (Ladakh)"]}	
++kronoloji_sinir_asya.js	1856-03-24	Nepal–Tibet barışı	B	B-SINIR-YAKA	{"odak_yer": ["Katmandu", "Şigatse"]}	
++kronoloji_sinir_asya.js	1858-05-28	Aigun Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Aigun", "Nikolayevsk (Amur ağzı)"]}	kronoloji_cok_rusya.js 1858-05-28 (odakli)
++kronoloji_sinir_asya.js	1860-08-13	Lizbon Antlaşması yürürlükte	B	B-SINIR-YAKA	{"odak_yer": ["Dili", "Kupang"]}	
++kronoloji_sinir_asya.js	1860-10-24	Peking Konvansiyonu — Kowloon	B	B-BOLGE-TEMSIL	{"odak_yer": ["Hong Kong"]}	
++kronoloji_sinir_asya.js	1860-11-01	Katmandu Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Gorakhpûr", "Katmandu"]}	
++kronoloji_sinir_asya.js	1860-11-14	Pekin Ek Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Habarovka", "Vladivostok"]}	
++kronoloji_sinir_asya.js	1864-10-07	Tarbagatay (Çuguçak)	B	B-SINIR-YAKA	{"odak_yer": ["Çöçek (Tarbagatay)", "Gulca (Yining)", "Kaşgar"]}	
++kronoloji_sinir_asya.js	1868-07-03	İngiliz–Siyam Sözleşmesi	B	B-SINIR-YAKA	{"odak_yer": ["Moulmein (Mawlamyine)", "Mergui (Myeik)"]}	
++kronoloji_sinir_asya.js	1873-01-31	İngiliz–Rus anlaşması — Amuderya	B	B-SINIR-YAKA	{"odak_yer": ["Termez", "Feyzâbâd (Bedahşan)", "Horog (Khorog)"]}	
++kronoloji_sinir_asya.js	1875-01-07	Dhundwa tepeleri	B	B-SINIR-YAKA	{"odak_yer": ["Katmandu", "Gorakhpûr"]}	
++kronoloji_sinir_asya.js	1881-08-19	İli (St. Petersburg)	B	B-SINIR-YAKA	{"odak_yer": ["Gulca (Yining)", "Zaysan"]}	
++kronoloji_sinir_asya.js	1884-05-22	Novi-Margelan	B	B-SINIR-YAKA	{"odak_yer": ["Kaşgar", "Narın (Naryn)"]}	
++kronoloji_sinir_asya.js	1885-09-10	Londra protokolü — Afgan	B	B-SINIR-YAKA	{"odak_yer": ["Herat", "Merv (Mari)"]}	
++kronoloji_sinir_asya.js	1887-06-26	Pekin Sözleşmesi — Tonkin	B	B-SINIR-YAKA	{"odak_yer": ["Lạng Sơn", "Cao Bằng", "Nanning"]}	
++kronoloji_sinir_asya.js	1888-01-26	Kham Ab	B	B-SINIR-YAKA	{"odak_yer": ["Herat", "Merv (Mari)", "Belh"]}	
++kronoloji_sinir_asya.js	1888-08-20	Seul Tumen	B	B-SINIR-YAKA	{"odak_yer": ["Kyongsong (Gyeongseong)", "Vladivostok"]}	
++kronoloji_sinir_asya.js	1890-08-27	Kalküta Sözleşmesi	B	B-SINIR-YAKA	{"odak_yer": ["Katmandu", "Gyantse"]}	
++kronoloji_sinir_asya.js	1891-06-20	Londra Sözleşmesi — Borneo'da	B	B-SINIR-YAKA	{"odak_yer": ["Tawau kıyısı (bölge)", "Tarakan"]}	
++kronoloji_sinir_asya.js	1891-06-20	Londra Sözleşmesi — Sarawak	B	B-SINIR-YAKA	{"odak_yer": ["Kuching (Sarawak)", "Pontianak"]}	
++kronoloji_sinir_asya.js	1893-10-03	Fransız–Siyam Barış	B	B-SINIR-YAKA	{"odak_yer": ["Luang Prabang", "Vientiane", "Champasak"]}	
++kronoloji_sinir_asya.js	1893-11-12	Durand anlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Kâbil", "Peşâver", "Kandehar"]}	
++kronoloji_sinir_asya.js	1893-12-20	Barlık protokolü	B	B-SINIR-YAKA	{"odak_yer": ["Çöçek (Tarbagatay)"]}	
++kronoloji_sinir_asya.js	1894-08-23	Londra Konvansiyonu onaylandı	B	B-SINIR-YAKA	{"odak_yer": ["Bhamo", "Tengyue (Tengchong)", "Kengtung"]}	
++kronoloji_sinir_asya.js	1894-10-17	İngiliz–Siyam sınır haritaları	B	B-SINIR-YAKA	{"odak_yer": ["Chiang Rai", "Kengtung"]}	
++kronoloji_sinir_asya.js	1895-03-11	İngiliz–Rus Pamir notaları	B	B-SINIR-YAKA	{"odak_yer": ["Horog (Khorog)", "Feyzâbâd (Bedahşan)"]}	
++kronoloji_sinir_asya.js	1895-03-11	Pamir notaları — Vahan	B	B-SINIR-YAKA	{"odak_yer": ["Horog (Khorog)", "Kaşgar"]}	
++kronoloji_sinir_asya.js	1895-03-11	Pamir'de Rus–Çin	B	B-SINIR-YAKA	{"odak_yer": ["Kaşgar", "Horog (Khorog)"]}	
++kronoloji_sinir_asya.js	1896-01-15	İngiliz–Fransız Deklarasyonu	B	B-SINIR-YAKA	{"odak_yer": ["Kengtung", "Muang Sing", "Chiang Rai"]}	
++kronoloji_sinir_asya.js	1896-08-07	1895 Tamamlayıcı Sözleşme	B	B-SINIR-YAKA	{"odak_yer": ["Muang Sing", "Lạng Sơn", "Kunming"]}	
++kronoloji_sinir_asya.js	1897-06-05	Peking Anlaşması onaylandı	B	B-SINIR-YAKA	{"odak_yer": ["Bhamo", "Tengyue (Tengchong)", "Kengtung"]}	
++kronoloji_sinir_asya.js	1899-03-14	Macdonald hattı	B	B-SINIR-YAKA	{"odak_yer": ["Srinagar (Keşmir)", "Kaşgar", "Leh (Ladakh)"]}	
++kronoloji_sinir_asya.js	1899-03-19	Hong Kong Yeni Toprakları	B	B-BOLGE-TEMSIL	{"odak_yer": ["Hong Kong"]}	
++kronoloji_sinir_asya.js	1904-02-13	Fransız–Siyam Sözleşmesi	B	B-SINIR-YAKA	{"odak_yer": ["Luang Prabang", "Battambang", "Angkor (Siem Reap)"]}	
++kronoloji_sinir_asya.js	1905-09-05	Portsmouth Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Aleksandrovsk (Kuzey Sahalin)", "Korsakov (Güney Sahalin)"]}	
++kronoloji_sinir_asya.js	1907-03-23	Fransız–Siyam Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Battambang", "Angkor (Siem Reap)"]}	
++kronoloji_sinir_asya.js	1908-08-29	1904 Timor Sözleşmesi	B	B-SINIR-YAKA	{"odak_yer": ["Dili", "Kupang"]}	
++kronoloji_sinir_asya.js	1909-07-09	Bangkok Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Kedah (Alor Setar)", "Kelantan (Kota Bharu)"]}	
++kronoloji_sinir_asya.js	1909-09-04	Gando Anlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Hamhung", "Vladivostok"]}	
++kronoloji_sinir_asya.js	1913-11-05	Rus–Çin Pekin Deklarasyonu	C	C-KIMLIK	{"odak_kimlik": ["mogolistan"]}	
++kronoloji_sinir_asya.js	1914-06-25	Timor sınırı hakem	B	B-SINIR-YAKA	{"odak_yer": ["Kupang", "Atapupu"]}	
++kronoloji_sinir_asya.js	1914-07-03	Simla Sözleşmesi	B	B-SINIR-YAKA	{"odak_yer": ["Lhasa", "Myitkyina"]}	
++kronoloji_sinir_asya.js	1915-06-07	Kiahta Üçlü	C	C-KIMLIK	{"odak_kimlik": ["mogolistan"]}	
++kronoloji_sinir_asya.js	1915-06-12	Horgos nehri	B	B-SINIR-YAKA	{"odak_yer": ["Gulca (Yining)", "Almatı (Vernıy)"]}	
++kronoloji_sinir_asya.js	1915-09-28	Londra Anlaşması — Borneo	B	B-SINIR-YAKA	{"odak_yer": ["Tawau kıyısı (bölge)", "Tarakan"]}	
++kronoloji_sinir_asya.js	1916-08-17	Timor sınırını düzenleyen	B	B-SINIR-YAKA	{"odak_yer": ["Kupang", "Atapupu", "Dili"]}	
++kronoloji_sinir_asya.js	1919-08-08	Ravalpindi Antlaşması	B	B-SINIR-YAKA	{"odak_yer": ["Peşâver", "Kâbil"]}	
++kronoloji_sinir_asya.js	1922-02-06	Kabil Antlaşması yürürlükte	B	B-SINIR-YAKA	{"odak_yer": ["Peşâver", "Kâbil"]}	
++kronoloji_cin.js	1313-01-01	Konfüçyüsçü sınav	C	C-KIMLIK	{"odak_kimlik": ["yuan-hanedani"]}	
++kronoloji_cin.js	1313-01-01	Wang Zhen	C	C-KIMLIK	{"odak_kimlik": ["yuan-hanedani"]}	
++kronoloji_cin.js	1370-01-01	İmparatorluk sınav sistemi Ming	C	C-KIMLIK	{"odak_kimlik": ["ming-hanedani"]}	
++kronoloji_cin.js	1381-01-01	Sarı Kayıtlar	C	C-KIMLIK	{"odak_kimlik": ["ming-hanedani"]}	
++kronoloji_cin.js	1403-01-01	Yongle Ansiklopedisi	C	C-KIMLIK	{"odak_kimlik": ["ming-hanedani"]}	
++kronoloji_cin.js	1406-01-01	Ming, Đại Ngu	B	B-GERCEK	{"odak_kimlik": ["ho-hanedani"]}	
++kronoloji_cin.js	1414-01-01	Zheng He'nin dördüncü	B	B-GERCEK	{"odak_yer": ["Hürmüz Adası", "Mekke", "Mogadişu", "Malindi"]}	
++kronoloji_cin.js	1424-08-12	Yongle, Moğol seferinde	E	E-ODAKSIZ	(odak yazilmaz)	
++kronoloji_cin.js	1427-01-01	Ming, Vietnam'dan çekildi	B	B-BOLGE-TEMSIL	{"odak_yer": ["Hanoi (Thăng Long)"]}	
++kronoloji_cin.js	1581-01-01	Tek Kırbaç	C	C-KIMLIK	{"odak_kimlik": ["ming-hanedani"]}	
++kronoloji_cin.js	1592-01-01	Wu Cheng'en	C	C-KIMLIK	{"odak_kimlik": ["ming-hanedani"]}	
++kronoloji_cin.js	1592-05-23	Japonya'nın Kore'yi işgali	B	B-GERCEK	{"odak_kimlik": ["joseon"]}	
++kronoloji_cin.js	1645-07-21	Saç örgüsü	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1685-01-01	Dört gümrük limanı	B	B-GERCEK	{"odak_yer": ["Kanton (Guangzhou)", "Amoy (Xiamen)", "Ningbo", "Şanghay"]}	
++kronoloji_cin.js	1700-01-01	Çin Ayinleri	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1708-01-01	Kangxi Atlası	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1711-01-01	Kangxi toprak vergisi	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1716-01-01	Kangxi Sözlüğü	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1755-01-01	Qianlong'un Cungar	B	B-GERCEK	{"odak_kimlik": ["cungar"]}	
++kronoloji_cin.js	1782-01-01	Siku Quanshu	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1796-02-01	Beyaz Lotus	B	B-BOLGE-TEMSIL	{"odak_yer": ["Xiangyang", "Xi'an (Chang'an)"]}	
++kronoloji_cin.js	1862-01-01	Kendini Güçlendirme	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1899-10-18	Boksör Ayaklanması	B	B-BOLGE-TEMSIL	{"odak_yer": ["Jinan", "Yantai (Chefoo)"]}	
++kronoloji_cin.js	1901-01-29	Yeni Politikalar	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_cin.js	1905-09-02	İmparatorluk sınav sistemi (keju) kaldırıldı	C	C-KIMLIK	{"odak_kimlik": ["qing-hanedani"]}	
++kronoloji_orta_asya.js	1420-06-01	Edige'nin ölümü	C	C-KIMLIK	{"odak_kimlik": ["altinorda"]}	
++kronoloji_orta_asya.js	1500-01-01	Mûsâ Mirza	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}	
++kronoloji_orta_asya.js	1554-01-01	Yûsuf Mirza öldürüldü	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}	
++kronoloji_orta_asya.js	1563-01-01	İsmâil ve Tin Ahmed	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}	
++kronoloji_orta_asya.js	1578-01-02	Urus Mirza	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}	
++kronoloji_orta_asya.js	1600-01-01	İşterek Mirza	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}	
++kronoloji_orta_asya.js	1865-01-01	Kitlesel göç sona erdi	B	B-GERCEK	{"odak_yer": ["Ankara", "Konya", "Kırşehir", "Sivas", "Adana"]}	
++kronoloji_orta_asya.js	1922-04-01	Nogay kurultayı Açikulak	B	B-BOLGE-TEMSIL	{"odak_yer": ["Stavropol–Kuma bozkırı", "Terek deltası (Kızlar)"]}	
++kronoloji_orta_asya.js	1601-01-01	Küçüm Han Nogayların	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}	
++kronoloji_orta_asya.js	1465-01-02	Ebülhayr'a tâbi olmayan	B	B-BOLGE-TEMSIL	{"odak_yer": ["Taraz (Evliya-Ata)", "Balasagun (Ak-Beşim)"]}	
++kronoloji_orta_asya.js	1847-01-01	KENASARI KIRGIZLAR	B	VEKIL-NOKTA	(odak yazilmaz)	
++kronoloji_orta_asya.js	1207-01-01	Kırgızlar Cengiz Han'a	E	E-ODAKSIZ	(odak yazilmaz)	
++kronoloji_orta_asya.js	1218-01-01	Cuci Kırgız direnişini	E	E-ODAKSIZ	(odak yazilmaz)	
++kronoloji_orta_asya.js	1650-01-01	Kırgızların İslâmlaşması	E	E-ODAKSIZ	(odak yazilmaz)	
++kronoloji_orta_asya.js	1864-01-01	Kırgızlar Rus hâkimiyetine	B	B-BOLGE-TEMSIL	{"odak_yer": ["Narın (Naryn)", "Issık Göl havzası", "Oş"]}	
++kronoloji_orta_asya.js	1916-06-25	II. Nikola'nın fermanı	B	B-GERCEK	{"odak_yer": ["Issık Göl havzası", "Balasagun (Ak-Beşim)"]}	
++kronoloji_orta_asya.js	1890-01-01	Sart Kalmuklar	B	B-GERCEK	{"odak_yer": ["Issık Göl havzası"]}	
++kronoloji_orta_asya.js	1879-09-01	BİRİNCİ GÖKTEPE	AK	AK-YAKLASIK	{"yer_kon": [38.16, 57.97]}	
++kronoloji_orta_asya.js	1856-01-01	Çokan Velihanoğlu	B	B-BOLGE-TEMSIL	{"odak_yer": ["Issık Göl havzası", "Narın (Naryn)"]}	
++kronoloji_orta_asya.js	1885-01-01	Radloff Manas	A	A-GERCEK	{"yer_id": "St. Petersburg"}	
++kronoloji_ozbek.js	1538-01-01	Ubeydullah Han Harzem	B	B-GERCEK	{"odak_yer": ["Hîve", "Köhne Ürgenç (Gürgenç)"]}	kronoloji_cok_ince_misir_orta_asya.js 1538-01-01 (odakli)
++kronoloji_ozbek.js	1596-01-01	Harzem'in (Hîve) yeniden	B	B-GERCEK	{"odak_yer": ["Hîve", "Köhne Ürgenç (Gürgenç)"]}	
++kronoloji_ozbek.js	1512-01-01	Yadigâroğulları Harzem	B	B-GERCEK	{"odak_yer": ["Hîve", "Köhne Ürgenç (Gürgenç)"]}	
++kronoloji_ozbek.js	1626-01-01	Ebulgazi'nin iktidar	B	B-GERCEK	{"odak_yer": ["Hîve", "Türkistan (Yesi)"]}	
++kronoloji_ozbek.js	1629-01-01	Ebulgazi başkent Hîve	A	A-GERCEK	{"yer_id": "Hîve"}	
++kronoloji_ozbek.js	1639-01-01	Ebulgazi'nin on yıllık	B	B-GERCEK	{"odak_yer": ["Hîve", "Köhne Ürgenç (Gürgenç)"]}	
++kronoloji_ozbek.js	1645-01-01	Ebulgazi tüm Harzem	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	kronoloji_cok_ince_misir_orta_asya.js 1645-01-01 (odakli)
++kronoloji_ozbek.js	1648-01-01	Ebulgazi'nin Türkmen	B	B-GERCEK	{"odak_kimlik": ["hive", "turkmen"]}	
++kronoloji_ozbek.js	1655-01-01	Ebulgazi'nin Buhara	B	B-GERCEK	{"odak_kimlik": ["hive", "buhara"]}	
++kronoloji_ozbek.js	1659-01-01	Ebulgazi Bahadır Han'ın Şecere-i Terâkime	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	
++kronoloji_ozbek.js	1663-01-01	Ebulgazi Bahadır Han'ın ölümü	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	
++kronoloji_ozbek.js	1825-01-01	Allahkulı Han	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	
++kronoloji_ozbek.js	1864-01-01	Seyyid Muhammed Rahim	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	
++kronoloji_ozbek.js	1873-08-12	Hîve Hanlığı Rus himayesine	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	
++kronoloji_ozbek.js	1873-01-01	Osmanlı'nın Hîve'ye	B	B-GERCEK	{"odak_yer": ["Kâbil", "Buhara", "Hîve"]}	
++kronoloji_ozbek.js	1920-02-02	Son Han Seyyid Abdullah	C	C-KIMLIK	{"odak_kimlik": ["hive"]}	
++kronoloji_ozbek.js	1920-04-26	Harezm Halk Cumhuriyeti	B	B-BOLGE-TEMSIL	{"odak_yer": ["Hîve", "Köhne Ürgenç (Gürgenç)"]}	
++kronoloji_ozbek.js	1569-01-01	Osmanlı'nın Astrahan	A	A-GERCEK	{"yer_id": "Astrahan"}	
++kronoloji_hindistan.js	1542-01-01	Şîr Şah Sûrî Delhi-Bengal	C	C-KIMLIK	{"odak_kimlik": ["sur-hanedani"]}	
++kronoloji_hindistan.js	1564-01-01	Ekber Şah gayrimüslimlerden	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}	
++kronoloji_hindistan.js	1571-01-01	Ekber Şah yeni başkent	AK	AK-YAKLASIK	{"yer_kon": [27.09, 77.66]}	
++kronoloji_hindistan.js	1575-01-01	Ekber Şah Fetihpûr Sikri'de	AK	AK-YAKLASIK	{"yer_kon": [27.09, 77.66]}	
++kronoloji_hindistan.js	1579-06-22	Ekber Şah Mahzar	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}	
++kronoloji_hindistan.js	1582-01-01	Ekber Şah Dîn-i İlâhî	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}	
++kronoloji_hindistan.js	1590-01-01	Ebü'l-Fazl	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}	
++kronoloji_hindistan.js	1600-12-31	İngiliz Doğu Hindistan Şirketi Londra	A	A-GERCEK	{"yer_id": "Londra"}	
++kronoloji_hindistan.js	1631-06-17	Mümtaz Mahal	A	A-GERCEK	{"yer_id": "Burhânpûr"}	
++kronoloji_hindistan.js	1679-04-02	Evrengzîb gayrimüslimlerden	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}	
++kronoloji_hindistan.js	1689-03-11	Evrengzîb, Şivâcî'nin oğlu	B	B-GERCEK	{"odak_kimlik": ["maratha"]}	
++kronoloji_hindistan.js	1699-04-13	Guru Gobind Singh	B	VEKIL-NOKTA	(odak yazilmaz)	
++kronoloji_hindistan.js	1764-10-23	Buksar Savaşı	AK	AK-YAKLASIK	{"yer_kon": [25.56, 83.98]}	
++kronoloji_hindistan.js	1499-01-01	Guru Nanak	B	B-BOLGE-TEMSIL	{"odak_yer": ["Lahor", "Amritsar"]}	
++kronoloji_hindistan.js	1545-05-22	Şîr Şah Sûrî'nin türbesi	AK	AK-YAKLASIK	{"yer_kon": [24.95, 84.03]}	
++kronoloji_hindistan.js	1630-01-01	Dekken'de büyük kıtlık	B	B-BOLGE-TEMSIL	{"odak_yer": ["Burhânpûr", "Ahmednagar", "Bîdar"]}	
++kronoloji_hindistan.js	1770-01-01	Büyük Bengal Kıtlığı	B	B-BOLGE-TEMSIL	{"odak_yer": ["Kalküta", "Gaur (Lakhnautî)", "Sonârgâon"]}	
++kronoloji_guney_asya.js	1542-10-14	Ekber Şah, Sind'deki Ömerkût	AK	AK-YAKLASIK	{"yer_kon": [25.36, 69.74]}	
++kronoloji_guney_asya.js	1752-01-01	Sindî şairi Şah Abdüllatîf	C	C-KIMLIK	{"odak_kimlik": ["sind"]}	
++kronoloji_guney_asya.js	1827-01-01	Sindî şairi Sachal Sarmast	C	C-KIMLIK	{"odak_kimlik": ["sind"]}	
++kronoloji_guney_asya.js	1301-07-11	Alâeddin Halacî Ranthambor	AK	AK-YAKLASIK	{"yer_kon": [26.02, 76.46]}	
++kronoloji_guney_asya.js	1311-01-01	Calor'un düşmesiyle	AK	AK-YAKLASIK	{"yer_kon": [25.35, 72.62]}	
++kronoloji_guney_asya.js	1679-04-02	Evrengzîb cizyeyi yeniden	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}	
++kronoloji_guney_asya.js	1600-01-01	Skardu emîri Ali Mîr	B	B-BOLGE-TEMSIL	{"odak_yer": ["Leh (Ladakh)"]}	
++kronoloji_guney_asya.js	1312-01-01	Ravi Varma Kulaşekhara	AK	AK-YAKLASIK	{"yer_kon": [12.83, 79.7]}	
++kronoloji_guney_asya.js	1741-08-10	Kolaçel Muharebesi	AK	AK-YAKLASIK	{"yer_kon": [8.18, 77.25]}	
++kronoloji_guney_asya.js	1470-01-01	Manipûr ile Pong	B	B-BOLGE-TEMSIL	{"odak_yer": ["İmphâl (Manipûr)", "Ava (İnwa)"]}	
++kronoloji_guney_asya.js	1834-01-01	Kabav vadisi İngiliz	B	B-BOLGE-TEMSIL	{"odak_yer": ["İmphâl (Manipûr)", "Ava (İnwa)"]}	
++kronoloji_japonya.js	1588-08-29	Hideyoshi "Kılıç Avı"	C	C-KIMLIK	{"odak_kimlik": ["azuchi-momoyama"]}	
++kronoloji_japonya.js	1614-01-27	Tokugawa şogunluğu Hıristiyanlığı	C	C-KIMLIK	{"odak_kimlik": ["edo-bakufu"]}	
++kronoloji_japonya.js	1639-07-05	"Sakoku" fermanıyla	C	C-KIMLIK	{"odak_kimlik": ["edo-bakufu"]}	
++kronoloji_japonya.js	1782-01-01	Tenmei Kıtlığı	B	B-BOLGE-TEMSIL	{"odak_yer": ["Sendai", "Morioka", "Hirosaki"]}	
++kronoloji_japonya.js	1872-08-03	Gakusei	C	C-KIMLIK	{"odak_kimlik": ["meiji-japonya"]}	
++kronoloji_japonya.js	1918-08-03	Pirinç Ayaklanmaları	B	B-BOLGE-TEMSIL	{"odak_yer": ["Edo (Tokyo)", "Osaka", "Kumamoto", "Sendai"]}	
++kronoloji_timurlu.js	1391-06-18	Kunduzca Savaşı	B	VEKIL-NOKTA	(odak yazilmaz)	
++kronoloji_timurlu.js	1395-04-15	Terek Savaşı	B	B-BOLGE-TEMSIL	{"odak_yer": ["Terek deltası (Kızlar)", "Vladikavkaz"]}	
++kronoloji_timurlu.js	1398-01-01	Hindistan seferine çıkış	B	B-GERCEK	{"odak_yer": ["Kâbil", "Multan", "Delhi"]}	
++kronoloji_timurlu.js	1405-04-01	Timur sonrası taht	B	B-GERCEK	{"odak_yer": ["Semerkant", "Herat"]}	
++kronoloji_timurlu.js	1469-04-01	Ebû Said Mirza	B	B-BOLGE-TEMSIL	{"odak_yer": ["Tebriz", "Erdebil"]}	
