@@ -1,0 +1,894 @@
+slug	kaynak_kova	bolum	gecis	baglam_sinifi	ornek_yerler	birlesirmeye_girer
+abaka-han	411	b	0			hayir
+abdulkays	411	b	0			hayir
+absu	482	b	0			hayir
+adil-el-melikul-adil	411	b	0			hayir
+adranos	482	b	0			hayir
+agah-efendi	411	c	5	duz	data\ekokuma_diplomasi.js:21;data\ekokuma_diplomasi.js:71;data\kisiler.js:756	evet
+agathopolis	411	b	0			hayir
+agvat	411	b	0			hayir
+ahilkelek	482	c	1	duz	data\kaynakli_halka_ferhatpasa.js:208	evet
+ahmed-pasa-hekimoglu-ali-pasazade	411	b	0			hayir
+ahmim	482	b	0			hayir
+ahtabolu	411	b	0			hayir
+ahtapolu	482	b	0			hayir
+ahtopol	482	b	0			hayir
+ahyolu	411	b	0			hayir
+ak-mecit	482	b	0			hayir
+akcadam	482	b	0			hayir
+akcakale	482	b	0			hayir
+akcakoca	482	b	0			hayir
+akhalkalaki	482	b	0			hayir
+akra	482	a	199	duz+url	data\bos_alanlar.js:183;data\devletler.js:2484;data\devletler.js:2699	evet
+akyaka	482	b	0			hayir
+akyazi	482	b	0			hayir
+alaeddin-muhammed	411	b	0			hayir
+alaeddin-muhammed-harizmsah	411	b	0			hayir
+alan	411	c	8695	duz	data\altlik.js:3;data\antlasma_haritalari.js:19;data\antlasma_haritalari.js:29	evet
+alanlar	411	c	358	duz	data\bos_alanlar.js:4;data\d_sinirlar.js:19;data\d_sinirlar.js:20	evet
+alanlar--kavim	411	b	0			hayir
+alaska	411	a	32	duz+url	data\d_sinirlar_amerika.js:28;data\d_sinirlar_amerika.js:29;data\d_sinirlar_amerika.js:30	evet
+aleksandropol	482	b	0			hayir
+almeria	411	b	0			hayir
+altin-orda	411	c	83	duz	data\devletler.js:194;data\ekokuma_kirimrus.js:18;data\kademe_d48240.js:207	evet
+amasra	482	b	0			hayir
+amedi	482	c	2	duz	data\paket_21.js:832;data\yerlesimler_ok109.js:115	evet
+amid	411	c	629	duz	data\d_sinirlar_amerika.js:42;data\devlet_harita_ust.js:3;data\devletler.js:441	evet
+ammar-ogullari	411	b	0			hayir
+ammare	482	b	0			hayir
+ammaroglu	411	b	0			hayir
+ammarogullari	411	a	10	duz+url	data\devletler.js:7590;data\devletler.js:7593;data\devletler.js:7596	evet
+amorgos	482	b	0			hayir
+amul	482	c	20	duz	data\donemler.js:11;data\donemler_on.js:14;data\ekokuma_antlasma4.js:1187	evet
+amur	411	c	189	duz	data\bolgeler.js:4;data\bolgeler.js:4;data\d_sinirlar_asya.js:11	evet
+anadolu-hisari	482	b	0			hayir
+anamur	482	b	0			hayir
+andican	482	b	0			hayir
+ane	482	c	13299	duz	data\acilis_siluet.js:34;data\acilis_siluet.js:34;data\acilis_siluet.js:46	evet
+angola	411	c	69	duz	data\d_sinirlar_afrika.js:10;data\d_sinirlar_afrika.js:10;data\d_sinirlar_afrika.js:10	evet
+ani	482	a	16290	duz+url	data\acilis_siluet.js:34;data\acilis_siluet.js:46;data\acilis_siluet.js:53	evet
+ani--kale	411	c	2	duz	data\devletler.js:10354;data\paket_05.js:10373	evet
+ani--kars	411	c	2	duz	data\devletler.js:10354;data\paket_05.js:10373	evet
+ani--sehir	411	c	2	duz	data\devletler.js:10354;data\paket_05.js:10373	evet
+ani-sehri	411	c	2	duz	data\devletler.js:10354;data\paket_05.js:10373	evet
+antakira	411	b	0			hayir
+antekera	411	b	0			hayir
+antiphellos	482	b	0			hayir
+apollonia	482	b	0			hayir
+ardalan	411	c	14	duz	data\olaylar_ek9.js:145;data\olaylar_ek9.js:146;data\olaylar_ek9.js:273	evet
+arhavi	482	c	4	duz	data\ekokuma_p77a.js:31;data\ekokuma_p77a.js:245;data\paket_14.js:5965	evet
+arik-boga	411	b	0			hayir
+armutlu	482	b	0			hayir
+arpacay	482	b	0			hayir
+asante	411	a	8	duz+url	data\kronoloji_cok_ince_bati_afrika.js:19;data\kronoloji_cok_ince_bati_afrika.js:19;data\paket_17.js:603	evet
+asanti	411	c	27	duz	data\devlet_harita_ust.js:3;data\devletler.js:4979;data\devletler_harita.js:6	evet
+askale	482	c	13	duz	data\ekokuma_p77a.js:31;data\koridor.js:55;data\koridor.js:123	evet
+assos	482	c	8	duz	data\kronoloji_balkan.js:933;data\kronoloji_cok_yunanistan.js:20;data\kronoloji_cok_yunanistan.js:20	evet
+astara	482	c	1	duz	data\kaynakli_halka_ferhatpasa.js:220	evet
+astipalya	482	b	0			hayir
+atfih	482	b	0			hayir
+atsiz	411	c	13	duz	data\d_sinirlar_ortadogu.js:29;data\d_sinirlar_ortadogu.js:30;data\ekokuma_baslik_oneri.js:196	evet
+ayamavra-lefkada	411	b	0			hayir
+aydos-kalesi	482	b	0			hayir
+aygun-antlasmasi	411	b	0			hayir
+ayn-el-arab	482	b	0			hayir
+aynicalut	411	b	0			hayir
+ayvalik	482	c	2	duz	data\olaylar_p0057.js:17;data\paket_15.js:1187	evet
+azatli	482	b	0			hayir
+azaz	482	b	0			hayir
+azez	482	b	0			hayir
+babu	482	c	675	duz	data\acilis_siluet.js:28;data\devlet_harita_ust.js:3;data\devletler.js:4430	evet
+bacirge	482	c	8	duz	data\d_sinirlar.js:24;data\d_sinirlar.js:27;data\paket_28.js:30	evet
+baduspaniler	411	b	0			hayir
+balear	411	c	2	duz	data\kronoloji_cok_ispanya.js:21;data\paket_30.js:5491	evet
+balear-adalari	411	c	2	duz	data\kronoloji_cok_ispanya.js:21;data\paket_30.js:5491	evet
+balear-adalari--	411	b	0			hayir
+balikli	482	b	0			hayir
+balta-limani-ticaret-antlasmasi	411	b	0			hayir
+baltim	482	b	0			hayir
+banat	411	c	17	duz	data\d_sinirlar_avrupa_orta.js:75;data\ekokuma_karsi.js:167;data\hukuki_sinirlar.js:44	evet
+bane	482	c	30	duz	data\d_sinirlar_ortadogu.js:31;data\d_sinirlar_ortadogu.js:31;data\devletler.js:2583	evet
+barfurus	482	b	0			hayir
+bargiri	482	c	1	duz	data\kaynakli_halka_tekil.js:13	evet
+baskale	482	c	6	duz	data\koridor_f5c9a5.js:67;data\koridor_f5c9a5.js:147;data\koridor_f5c9a5.js:148	evet
+batnoz	482	b	0			hayir
+behbehan	482	b	0			hayir
+behnesa	482	b	0			hayir
+behramkale	482	c	6	duz	data\paket_14.js:5291;data\paket_14.js:5312;data\paket_14.js:5314	evet
+behsehr	482	b	0			hayir
+bem	482	c	45	duz	data\devlet_harita_ust.js:3;data\devlet_parcalar.js:9;data\devlet_parcalar.js:9	evet
+bempur	482	b	0			hayir
+bender-abbas	482	c	1	duz	data\gecitler.js:209	evet
+bender-enzeli	482	b	0			hayir
+bender-lengeh	482	b	0			hayir
+bender-rig	482	b	0			hayir
+beni-ganiye	411	b	0			hayir
+beni-hazrun	411	b	0			hayir
+beni-suveyf	482	b	0			hayir
+benu-ammar	411	b	0			hayir
+benu-hurasan	411	b	0			hayir
+benu-mehdi	411	c	5	duz	data\devletler.js:10015;data\kronoloji_cok_once1281_ortadogu.js:117;data\kronoloji_cok_once1281_ortadogu.js:119	evet
+benu-numeyr	411	b	0			hayir
+berdea	411	b	0			hayir
+bergavata-devleti	411	b	0			hayir
+bergavatalilar	411	b	0			hayir
+beri	482	c	1330	duz	data\antlasma_haritalari.js:175;data\bos_alanlar.js:229;data\bos_alanlar.js:248	evet
+bicar	482	b	0			hayir
+biga	482	c	35	duz	data\bolgeler.js:4;data\donemler.js:11;data\donemler_on.js:14	evet
+bilbis	482	c	6	duz	data\koridor_f5c9a5.js:121;data\koridor_f5c9a5.js:194;data\koridor_f5c9a5.js:195	evet
+bircend	482	b	0			hayir
+birlikkoy	482	b	0			hayir
+biskra	411	c	2	duz	data\kronoloji_cok_fransa.js:37;data\paket_30.js:1140	evet
+biskre	411	b	0			hayir
+bistam	482	c	1	duz	data\kademe_4ff22b.js:175	evet
+bocnurd	482	b	0			hayir
+bolayir	482	c	6	duz	data\paket_13.js:1581;data\paket_13.js:1582;data\paket_14.js:5315	evet
+borcka	482	c	2	duz	data\paket_14.js:5980;data\yerlesimler_ek28.js:104	evet
+botsvana	411	c	4	duz	data\devletler.js:7951;data\devletler.js:7951;data\paket_05.js:7970	evet
+bozuyuk	482	c	4	duz	data\paket_13.js:153;data\paket_13.js:155;data\yerlesimler.js:148	evet
+brasov	411	a	4	url	data\paket_14.js:6116;data\paket_14.js:6116;data\yerlesimler_ek29.js:93	evet
+brest-litovsk-antlasmasi	411	c	1	duz	data\ekokuma_antlasma3.js:17	evet
+burgaz	411	c	40	duz	data\bolgeler.js:4;data\donemler.js:11;data\donemler.js:14	evet
+burgonya	411	c	136	duz	data\devlet_harita_ust.js:3;data\devletler.js:5413;data\devletler.js:5414	evet
+buriler	411	c	2	duz	data\devletler.js:9830;data\paket_05.js:9849	evet
+burucird	482	c	6	duz	data\kademe_4ff22b.js:185;data\kaynakli_halka_ferhatpasa.js:268;data\paket_13.js:1933	evet
+burullus	482	b	0			hayir
+burundi	411	c	27	duz	data\d_sinirlar_afrika.js:10;data\d_sinirlar_afrika.js:10;data\devlet_harita_ust.js:3	evet
+busehr	482	b	0			hayir
+butrint	411	c	3	duz	data\yerlesimler_epir.js:38;data\yerlesimler_epir.js:131;data\yerlesimler_epir.js:251	evet
+butrinto	411	b	0			hayir
+cahbahar	482	b	0			hayir
+caka-beyligi	411	b	0			hayir
+caldiran	482	c	49	duz	data\ekokuma_karsi.js:72;data\ekokuma_karsi.js:79;data\ekokuma_karsi.js:81	evet
+canak-krizi	411	b	0			hayir
+carsamba	482	b	0			hayir
+cask	482	b	0			hayir
+catalca	482	c	8	duz	data\paket_20.js:175;data\paket_20.js:175;data\paket_20.js:200	evet
+cehrom	482	b	0			hayir
+cemisgezek	482	c	6	duz	data\devletler.js:7664;data\paket_05.js:7683;data\paket_13.js:2294	evet
+cenevizliler	411	c	2	duz	data\ekokuma_antlasma4.js:32;data\yer_yama_ok110.js:45	evet
+cenova	482	c	324	duz	data\devletler.js:739;data\kademe_e9353f.js:121;data\kademe_e9353f.js:122	evet
+cerablus	482	c	1	duz	data\gecitler.js:254	evet
+ceylanpinar	482	b	0			hayir
+cezair-i-sarkiye	411	b	0			hayir
+cezair-i-sarkiyye	411	b	0			hayir
+cezayir-i-sarkiyye	411	b	0			hayir
+ceziretul-hadra	411	b	0			hayir
+ceziretulhadra	411	b	0			hayir
+cibri	482	b	0			hayir
+cicel	411	c	4	duz	data\kronoloji_cok_fransa.js:36;data\kronoloji_cok_fransa.js:36;data\paket_30.js:1139	evet
+cicelli	411	c	2	duz	data\kronoloji_cok_fransa.js:36;data\paket_30.js:1139	evet
+cimpe	482	c	4	duz	data\olaylar.js:21;data\paket_01.js:1365;data\paket_14.js:5315	evet
+cirge	482	c	33	duz	data\d_sinirlar.js:24;data\d_sinirlar.js:24;data\d_sinirlar.js:27	evet
+ciruft	482	b	0			hayir
+cizzah	482	b	0			hayir
+corlu	482	b	0			hayir
+cubuk	411	c	18	duz	data\devletler.js:9419;data\devletler.js:9424;data\devletler.js:9424	evet
+cubuk-bey	411	b	0			hayir
+cubukoglu	411	c	2	duz	data\devletler.js:9424;data\paket_05.js:9443	evet
+cubukoglu-mehmed	411	b	0			hayir
+cubukogullari	411	c	14	duz	data\devletler.js:9419;data\devletler.js:9424;data\devletler.js:9424	evet
+cubukogullari-beyligi	411	c	2	duz	data\devletler.js:9424;data\paket_05.js:9443	evet
+cubukogullari-harput	411	c	2	duz	data\devletler.js:9424;data\paket_05.js:9443	evet
+culfa	482	c	2	duz	data\gecitler.js:322;data\gecitler.js:322	evet
+culfar	482	b	0			hayir
+cumai	482	b	0			hayir
+dahlak	411	c	4	duz	data\kronoloji_dogu_afrika.js:72;data\kronoloji_dogu_afrika.js:75;data\paket_12.js:3595	evet
+damanhur	482	b	0			hayir
+damgan	482	b	0			hayir
+darab	482	c	114	duz	data\devlet_harita_ust.js:3;data\devletler.js:6454;data\devletler.js:6454	evet
+darende	482	c	4	duz	data\paket_21.js:931;data\paket_21.js:960;data\yerlesimler_ok110.js:33	evet
+darvaz	482	b	0			hayir
+datca	482	b	0			hayir
+dayr-al-kamer	482	b	0			hayir
+dayr-al-qamar	411	b	0			hayir
+dedeagac	411	b	0			hayir
+demenhur	482	b	0			hayir
+demirkoy	482	b	0			hayir
+derbend	411	a	65	duz+url	data\d_sinirlar_komsu.js:45;data\d_sinirlar_komsu.js:45;data\d_sinirlar_komsu.js:45	evet
+derbent	411	c	7	duz	data\devletler.js:10415;data\devletler.js:10417;data\kronoloji_cok_once1281_anadolu.js:28	evet
+derekoy	482	b	0			hayir
+derik	482	c	16	duz	data\kronoloji_cok_hollanda.js:187;data\kronoloji_cok_hollanda.js:192;data\kronoloji_cok_hollanda.js:193	evet
+dessuk	482	b	0			hayir
+devrek	482	b	0			hayir
+deyrulkamer	482	b	0			hayir
+deyrut	482	b	0			hayir
+digor	482	b	0			hayir
+dilman	482	b	0			hayir
+dimbos	482	b	0			hayir
+dimesk	411	b	0			hayir
+divan-i-harb-i-orfi	411	b	0			hayir
+divaniye	482	b	0			hayir
+diyarbekir	411	c	2	duz	data\kronoloji_akkoyunlu.js:62;data\paket_10.js:67	evet
+domanic	482	c	4	duz	data\paket_13.js:153;data\paket_13.js:155;data\yerlesimler.js:148	evet
+don-kazaklari	411	c	3	duz	data\kademe_8beb2b.js:138;data\kademe_8beb2b.js:175;data\kademe_8beb2b.js:266	evet
+don-nehri	411	b	0			hayir
+dortyol	482	c	2	duz	data\paket_14.js:5934;data\yerlesimler_ek28.js:58	evet
+duhok	482	b	0			hayir
+dukak	411	b	0			hayir
+dvin	411	c	7	duz	data\kademe_d48240.js:497;data\kronoloji_guney_asya.js:643;data\paket_12.js:5402	evet
+ebiverd	482	b	0			hayir
+ebrekuh	482	b	0			hayir
+ebu-abdullah-es-sagir	411	b	0			hayir
+ebu-abdullah-muhammed-es-sagir	411	b	0			hayir
+ebu-faris	411	b	0			hayir
+ebu-faris-abdulaziz	411	b	0			hayir
+ebu-faris-abdulaziz-el-mutevekkil	411	b	0			hayir
+ebul-haccac-yusuf	411	b	0			hayir
+ebul-hasan-ali-b-sad	411	b	0			hayir
+eceabat	482	b	0			hayir
+ecmiyadzin	482	b	0			hayir
+ecmiyazin	411	c	2	duz	data\hukuki_sinirlar.js:667;data\paket_16.js:672	evet
+edfu	482	b	0			hayir
+edremit	482	c	4	duz	data\olaylar_p0057.js:18;data\paket_14.js:5314;data\paket_15.js:1188	evet
+eflani	482	b	0			hayir
+egil	411	c	323	duz	data\bos_alanlar.js:96;data\bos_alanlar.js:110;data\bos_alanlar.js:186	evet
+egirdir	482	b	0			hayir
+egrigoz	482	b	0			hayir
+el-ahsa	411	b	0			hayir
+el-aris	482	b	0			hayir
+elcezairu-s-sarkiyye	411	b	0			hayir
+elhamra	411	c	6	duz	data\kronoloji_cok_ispanya.js:30;data\kronoloji_cok_ispanya.js:55;data\kronoloji_cok_ispanya.js:55	evet
+elhamra--saray	411	b	0			hayir
+elhova	482	b	0			hayir
+elhovo	482	b	0			hayir
+elmali	482	b	0			hayir
+emet	482	c	38	duz	data\ekokuma_antlasma2.js:301;data\ekokuma_antlasma6.js:190;data\ekokuma_kurum.js:138	evet
+enez	482	c	352	duz	data\ad_esanlam.js:85;data\d_sinirlar.js:41;data\d_sinirlar.js:41	evet
+entekire	411	b	0			hayir
+erak	482	c	448	duz	data\bekleyen_yerlesim_ok102.js:94;data\bekleyen_yerlesim_ok102.js:95;data\bolgeler.js:4	evet
+ercis	482	c	42	duz	data\ekokuma_antlasma2.js:376;data\ekokuma_antlasma4.js:326;data\ekokuma_antlasma4.js:790	evet
+erdek	482	c	78	duz	data\devletler.js:3344;data\devletler.js:7424;data\devletler.js:7698	evet
+erdekan	482	b	0			hayir
+erdelan	411	c	1	duz	data\kademe_4ff22b.js:176	evet
+erdelanlilar	411	b	0			hayir
+erdelanogullari	411	b	0			hayir
+erdistan	482	b	0			hayir
+ergani	411	b	0			hayir
+ermenek	482	b	0			hayir
+ermeni	411	c	205	duz	data\d_sinirlar.js:17;data\devlet_harita_ust.js:3;data\devlet_harita_ust.js:3	evet
+ermeni-derbendi	482	b	0			hayir
+ermeni-meselesi	411	c	3	duz	data\ekokuma_p77c.js:37;data\ekokuma_p77c.js:136;data\ekokuma_p77c.js:149	evet
+ermeni-patrikhanesi	411	c	2	duz	data\ekokuma_p76i.js:53;data\ekokuma_p77c.js:39	evet
+ermeniler	411	c	8	duz	data\ekokuma_p76b.js:41;data\ekokuma_p76b.js:641;data\ekokuma_p76b.js:667	evet
+ermenistan	411	c	54	duz	data\d_sinirlar.js:17;data\devlet_harita_ust.js:3;data\devletler.js:258	evet
+ermeniyye	411	b	0			hayir
+erzen	411	b	0			hayir
+erzin	482	a	99	duz+url	data\devletler.js:1948;data\devletler.js:1948;data\devletler.js:1950	evet
+erzurum-antlasmasi	411	c	7	duz	data\ekokuma_bolge0073.js:51;data\ekokuma_kasrisirin.js:18;data\olaylar_0073_iran_yanya.js:34	evet
+esendere	482	b	0			hayir
+esferayin	482	b	0			hayir
+eskihisar	482	b	0			hayir
+esna	482	a	122	duz+url	data\devletler.js:1843;data\devletler.js:7780;data\devletler.js:7782	evet
+estonya	411	c	69	duz	data\d_sinirlar_avrupa_orta.js:29;data\d_sinirlar_avrupa_orta.js:30;data\devlet_harita_ust.js:3	evet
+evliya-ata	482	c	4	duz	data\paket_22.js:211;data\paket_22.js:228;data\yerlesimler_ok107.js:206	evet
+eçmiyazin	411	b	0			hayir
+fakia	482	c	14	duz	data\bolgeler.js:4;data\donemler.js:11;data\donemler.js:14	evet
+fakus	482	c	8	duz	data\kronoloji_cok_tunus.js:31;data\kronoloji_cok_tunus.js:104;data\kronoloji_cok_tunus.js:455	evet
+fav	482	c	84	duz	data\d_sinirlar_komsu.js:23;data\d_sinirlar_komsu.js:25;data\d_sinirlar_komsu.js:27	evet
+felluce	482	b	0			hayir
+ferahabad	482	b	0			hayir
+feres	482	b	0			hayir
+ferhad-pasa-antlasmasi	411	c	19	duz	data\ekokuma_antlasma2.js:292;data\kronoloji_gurcistan.js:19;data\kronoloji_gurcistan.js:180	evet
+fersut	482	b	0			hayir
+fesa	482	c	1	duz	data\ekokuma_celali.js:46	evet
+fethiye	482	c	2	duz	data\olaylar_p0057.js:18;data\paket_15.js:1188	evet
+feyzabad	482	b	0			hayir
+finike	482	b	0			hayir
+firuzabad	482	b	0			hayir
+firuzkuh	482	b	0			hayir
+fornoz	482	b	0			hayir
+fourni	482	b	0			hayir
+fumbina	411	b	0			hayir
+gambiya	411	c	18	duz	data\d_sinirlar_afrika.js:10;data\d_sinirlar_afrika.js:10;data\devlet_harita_ust.js:3	evet
+gamrun	482	b	0			hayir
+gane-devleti	411	b	0			hayir
+ganiyeogullari	411	b	0			hayir
+gattilusio	411	b	0			hayir
+gebze	482	c	5	duz	data\koridor.js:24;data\koridor.js:91;data\koridor.js:92	evet
+gemlik	482	b	0			hayir
+gever	482	b	0			hayir
+geyve	482	c	2	duz	data\gecitler.js:306;data\gecitler.js:306	evet
+girga	482	b	0			hayir
+girit-savasi	411	b	0			hayir
+goksun	482	c	6	duz	data\paket_21.js:929;data\paket_21.js:929;data\paket_23.js:315	evet
+golkoy	482	c	2	duz	data\paket_23.js:305;data\yerlesimler_anadolu_0914.js:67	evet
+golyazi	482	b	0			hayir
+gorabi	482	b	0			hayir
+gregoryen	411	b	0			hayir
+guclu	482	c	6	duz	data\ekokuma_venedik.js:45;data\hukuki_sinirlar.js:454;data\kademe_4ff22b.js:120	evet
+gulpaygan	482	b	0			hayir
+gumru	482	c	7	duz	data\ekokuma_antlasma3.js:18;data\ekokuma_antlasma4.js:1054;data\ekokuma_p77c.js:39	evet
+gumru-antlasmasi	411	c	3	duz	data\ekokuma_antlasma3.js:18;data\ekokuma_p77c.js:39;data\ekokuma_p77c.js:157	evet
+guney-afrika	411	c	170	duz	data\bos_alanlar.js:252;data\d_sinirlar_afrika.js:10;data\d_sinirlar_afrika.js:10	evet
+gurun	482	c	2	duz	data\paket_23.js:324;data\yerlesimler_anadolu_0914.js:86	evet
+habsamana	482	c	2	duz	data\paket_23.js:305;data\yerlesimler_anadolu_0914.js:67	evet
+haci-sedd-ahmed	411	b	0			hayir
+hacli	411	a	115	duz+url	data\devletler.js:9432;data\devletler.js:9435;data\devletler.js:9437	evet
+hacli-seferleri	411	b	0			hayir
+halepce	482	b	0			hayir
+halhal	482	b	0			hayir
+halki	482	c	9	duz	data\ekokuma_antlasma4.js:87;data\kronoloji_cok_1923_1945.js:3627;data\kronoloji_cok_1923_1945.js:3627	evet
+hamdanogullari	411	b	0			hayir
+hamdullahi	411	c	2	duz	data\paket_17.js:1340;data\yerlesimler_e9353f.js:781	evet
+hamme-granada	411	b	0			hayir
+han-yunus	482	b	0			hayir
+hanak	482	b	0			hayir
+hanekin	482	b	0			hayir
+harmankaya	482	b	0			hayir
+harput-artuklulari	411	b	0			hayir
+has	482	a	4121	duz+url	data\antlasma_haritalari.js:35;data\bolgeler.js:4;data\bos_alanlar.js:44	evet
+hasanveyhiler	411	b	0			hayir
+hasenveyhiler	411	b	0			hayir
+hasimiler	411	c	2	duz	data\yer_yama.js:236;data\yer_yama.js:236	evet
+hasneveyhiler	411	b	0			hayir
+hasnuyeler	411	b	0			hayir
+hausalar	411	b	0			hayir
+haviza	482	b	0			hayir
+havsa	482	b	0			hayir
+hazarasp	482	c	4	duz	data\kronoloji_iran_ardillari.js:139;data\kronoloji_iran_ardillari.js:1141;data\paket_12.js:6081	evet
+hazaraspiler	411	c	4	duz	data\kronoloji_iran_ardillari.js:139;data\kronoloji_iran_ardillari.js:1141;data\paket_12.js:6081	evet
+hazrunogullari-trablus	411	b	0			hayir
+hemdaniler--yemen	411	b	0			hayir
+herceg-novi	411	c	8	duz	data\paket_13.js:8045;data\paket_13.js:8045;data\paket_13.js:8112	evet
+hereke	482	c	1	duz	data\ekokuma_p75a.js:33	evet
+herke	482	c	25	duz	data\devletler.js:7108;data\ekokuma_antlasma2.js:436;data\ekokuma_antlasma2.js:468	evet
+hersek-novi	411	b	0			hayir
+hevsalar	411	b	0			hayir
+himu	482	c	61	duz	data\devlet_harita_ust.js:3;data\devletler.js:7156;data\devletler.js:7156	evet
+hincak	411	c	6	duz	data\ekokuma_p76b.js:41;data\ekokuma_p76b.js:642;data\ekokuma_p76b.js:667	evet
+hincakyan	411	b	0			hayir
+hind	411	a	1864	duz+url	data\bolgeler.js:5;data\d_sinirlar.js:39;data\d_sinirlar.js:41	evet
+hint-okyanusu	411	c	2	duz	data\ekokuma_dunya.js:592;data\merak.js:195	evet
+hisar	482	c	702	duz	data\bolgeler.js:4;data\bolgeler.js:4;data\bolgeler.js:4	evet
+hisn-i-mansur	482	b	0			hayir
+hit	482	c	586	duz	data\acilis_siluet.js:69;data\acilis_siluet.js:70;data\acilis_siluet.js:77	evet
+hitay	411	c	80	duz	data\devletler.js:8696;data\devletler.js:8699;data\devletler.js:8701	evet
+hitaylar	411	c	67	duz	data\devletler.js:8696;data\devletler.js:8699;data\devletler.js:8701	evet
+hive	482	c	619	duz	data\d_sinirlar_amerika.js:59;data\d_sinirlar_amerika.js:63;data\d_sinirlar_amerika.js:64	evet
+hiyav	482	b	0			hayir
+hocend	411	b	0			hayir
+hopa	482	c	23	duz	data\devlet_harita_ust.js:3;data\devlet_harita_ust.js:3;data\devletler.js:6758	evet
+horog	482	c	14	duz	data\donemler.js:11;data\donemler_on.js:14;data\kronoloji_cok_orta_asya2.js:128	evet
+hosap	482	b	0			hayir
+hovhannes	411	b	0			hayir
+hulo	482	c	4	duz	data\kaynakli_halka_ferhatpasa.js:203;data\kronoloji_habsburg.js:441;data\paket_06.js:446	evet
+humus	482	c	11	duz	data\devletler.js:9940;data\kronoloji_cok_once1281_ortadogu.js:66;data\kronoloji_cok_once1281_ortadogu.js:66	evet
+hurmuz-adasi	482	b	0			hayir
+hypsu	482	b	0			hayir
+ibn-ammar	411	c	7	duz	data\devletler.js:9853;data\devletler.js:9855;data\devletler.js:9858	evet
+ibn-mervan	411	b	0			hayir
+ibn-mukarreb	411	b	0			hayir
+ibnul-hatib-lisaneddin	411	b	0			hayir
+ibnul-mukarrab	411	b	0			hayir
+ibnul-mukarreb	411	b	0			hayir
+ibrim	482	c	3	duz	data\kaynakli_halka_fetih.js:51;data\kronoloji_dogu_afrika.js:70;data\paket_12.js:3593	evet
+ife	411	c	766	duz	data\bos_alanlar.js:255;data\bos_alanlar.js:255;data\devlet_harita_ust.js:3	evet
+igdir	482	b	0			hayir
+igneada	482	b	0			hayir
+ikarya	482	c	40	duz	data\bolgeler.js:4;data\donemler.js:11;data\donemler.js:14	evet
+ileryoz	482	b	0			hayir
+ilgin	482	c	122	duz	data\bekleyenler.js:128;data\d_sinirlar.js:33;data\devletler.js:6476	evet
+ilorin	411	c	12	duz	data\donemler.js:11;data\donemler_on.js:14;data\paket_17.js:1356	evet
+ilyaki	482	b	0			hayir
+imadeddin-zengi	411	b	0			hayir
+imadeddin-zengi-i	411	b	0			hayir
+imadiye	482	c	2	duz	data\paket_21.js:832;data\yerlesimler_ok109.js:115	evet
+imadueddin-zengi	411	b	0			hayir
+imereti	411	a	49	duz+url	data\devlet_harita_ust.js:3;data\devletler.js:1053;data\devletler.js:7337	evet
+imrali-adasi	482	b	0			hayir
+incirli	482	c	11	duz	data\ekokuma_karsi.js:90;data\etiket_yama.js:4693;data\gorsel_madde.js:780	evet
+inebahti-savasi	411	c	7	duz	data\ekokuma_vecize.js:44;data\kronoloji_ispanya.js:35;data\kronoloji_ispanya.js:346	evet
+inegol	482	b	0			hayir
+ioannes-viii	411	b	0			hayir
+ipsala	482	c	4	duz	data\paket_14.js:5315;data\paket_14.js:5326;data\yerlesimler_ek23.js:104	evet
+irak	411	a	490	duz+url	data\d_sinirlar.js:28;data\d_sinirlar.js:28;data\d_sinirlar_arabistan.js:14	evet
+isficab	482	c	4	duz	data\paket_22.js:231;data\paket_22.js:244;data\yerlesimler_ok107.js:226	evet
+ishakli	482	c	4	duz	data\koridor.js:26;data\koridor.js:93;data\koridor.js:94	evet
+iskasim	482	b	0			hayir
+iskefsir	482	b	0			hayir
+ismail-i-safevi	411	b	0			hayir
+istanbul-antlasmasi	411	c	4	duz	data\ekokuma_antlasma2.js:280;data\ekokuma_antlasma2.js:280;data\ekokuma_antlasma4.js:36	evet
+istanbulya	482	b	0			hayir
+istendil	411	c	9	duz	data\ekokuma_venedik.js:13;data\ekokuma_venedik.js:13;data\ekokuma_venedik.js:33	evet
+istranca	411	b	0			hayir
+izzeddin-keykavus-i	411	b	0			hayir
+jadla	482	b	0			hayir
+kafrusseyh	482	b	0			hayir
+kaheti	411	c	7	duz	data\devletler.js:7728;data\kronoloji_cok_gurcistan.js:20;data\paket_05.js:7747	evet
+kahetya	411	b	0			hayir
+kahta	482	b	0			hayir
+kain	482	b	0			hayir
+kala-i-hum	482	b	0			hayir
+kala-i-pence	482	b	0			hayir
+kala-i-vamar	482	b	0			hayir
+kale-i-sultaniye-antlasmasi	411	b	0			hayir
+kalei-sultaniye-antlasmasi	411	b	0			hayir
+kalimnos	482	b	0			hayir
+kalka	411	c	39	duz	data\acilis_siluet.js:9;data\acilis_siluet.js:11;data\acilis_siluet.js:59	evet
+kalka-savasi	411	b	0			hayir
+kamil-el-melikul-kamil	411	b	0			hayir
+kandira	482	b	0			hayir
+kanem	411	c	112	duz	data\devlet_harita_ust.js:3;data\devlet_harita_ust.js:3;data\devletler.js:3011	evet
+kara-hitaylar	411	b	0			hayir
+karabiga	482	b	0			hayir
+karacabey	482	b	0			hayir
+karacahisar	482	c	1	duz	data\kaynakli_halka_fetih.js:34	evet
+karacepus	482	b	0			hayir
+karadeniz-eregli	482	b	0			hayir
+karahisar-i-sahib	482	b	0			hayir
+karahisar-i-sarki	482	c	4	duz	data\koridor.js:53;data\koridor.js:121;data\koridor.js:122	evet
+karakurum	482	c	10	duz	data\d_sinirlar_asya.js:26;data\d_sinirlar_asya.js:108;data\kronoloji_sinir_asya.js:88	evet
+karamursel	482	b	0			hayir
+karatigin	482	b	0			hayir
+karlofca-antlasmasi	411	c	11	duz	data\ekokuma_antlasma2.js:280;data\ekokuma_avusturya.js:54;data\ekokuma_dunya.js:25	evet
+karlofca-antlasmasi-1699	411	b	0			hayir
+karpuzlu	482	c	8	duz	data\donemler.js:11;data\donemler_on.js:14;data\paket_20.js:540	evet
+kars-antlasmasi	411	c	4	duz	data\ekokuma_antlasma3.js:17;data\ekokuma_p77c.js:39;data\ekokuma_p77c.js:153	evet
+kartli	411	a	45	duz+url	data\devletler.js:8292;data\kronoloji_cok_gurcistan.js:24;data\kronoloji_cok_gurcistan.js:70	evet
+kas	482	a	6249	duz+url	data\ad_esanlam.js:56;data\ad_esanlam.js:56;data\antlasma_haritalari.js:76	evet
+kasmer	482	b	0			hayir
+kasr-i-sirin	482	c	21	duz	data\ekokuma_antlasma2.js:95;data\ekokuma_antlasma2.js:103;data\ekokuma_baslik_oneri.js:16	evet
+kasr-i-sirin-antlasmasi	411	c	12	duz	data\ekokuma_dunya.js:110;data\ekokuma_kasrisirin.js:17;data\kronoloji_iran.js:33	evet
+kasrisirin	411	c	50	duz	data\d_sinirlar.js:49;data\ekokuma_antlasma2.js:100;data\ekokuma_antlasma2.js:100	evet
+katvan-savasi	411	b	0			hayir
+katye	482	c	6	duz	data\koridor_f5c9a5.js:120;data\koridor_f5c9a5.js:193;data\koridor_f5c9a5.js:194	evet
+kazak	411	a	582	duz+url	data\d_sinirlar_asya.js:15;data\d_sinirlar_asya.js:91;data\d_sinirlar_asya.js:92	evet
+kazak-ozu	411	b	0			hayir
+kazaklar--kozak	411	b	0			hayir
+kazerun	482	b	0			hayir
+kazikli-voyvoda	411	b	0			hayir
+kelat-i-nadiri	482	b	0			hayir
+kelemez	482	b	0			hayir
+kelkit	482	c	5	duz	data\ekokuma_p77a.js:32;data\koridor.js:54;data\koridor.js:122	evet
+kerak	482	b	0			hayir
+kerayit	411	c	6	duz	data\devletler.js:9266;data\devletler.js:9273;data\devletler.js:9273	evet
+kerayitler	411	c	2	duz	data\devletler.js:9273;data\paket_05.js:9292	evet
+kerbugaogullari	411	b	0			hayir
+kerek-sevbek	411	b	0			hayir
+kereyitler	411	c	2	duz	data\devletler.js:9273;data\paket_05.js:9292	evet
+kert-hanedani	411	c	2	duz	data\devletler.js:588;data\paket_05.js:607	evet
+kertler	411	c	4	duz	data\devletler.js:588;data\devletler.js:588;data\paket_05.js:607	evet
+kesan	482	c	4	duz	data\paket_14.js:5315;data\paket_14.js:5325;data\yerlesimler_ek23.js:104	evet
+kestel	482	b	0			hayir
+kete	482	c	293	duz	data\devletler.js:7463;data\devletler.js:7465;data\devletler.js:7465	evet
+khorog	482	b	0			hayir
+kiev	482	c	17	duz	data\devletler.js:256;data\devletler.js:257;data\devletler.js:10264	evet
+kifri	482	b	0			hayir
+kigi	411	b	0			hayir
+kiklad-adalari	411	c	2	duz	data\ekokuma_p76h.js:6;data\ekokuma_p76h.js:25	evet
+kilic-timar	411	c	2	duz	data\ekokuma_p77c.js:169;data\ekokuma_p77c.js:180	evet
+kilikya	411	c	118	duz	data\devlet_harita_ust.js:3;data\devletler.js:1098;data\devletler.js:1099	evet
+kilitbahir	482	c	10	duz	data\merak.js:72;data\olaylar_p0036.js:16;data\olaylar_p0036.js:17	evet
+kios	482	c	16	duz	data\kronoloji_cok_once1281_anadolu.js:360;data\kronoloji_cok_once1281_anadolu.js:362;data\kronoloji_cok_once1281_anadolu.js:363	evet
+kirim-hanligi	411	c	30	duz	data\ekokuma_avusturya.js:70;data\ekokuma_baslik_oneri.js:197;data\ekokuma_kirimrus.js:17	evet
+kirim-harbi	411	c	1	duz	data\ekokuma_p75b.js:27	evet
+kirim-savasi	411	c	15	duz	data\ekokuma_dunya.js:233;data\ekokuma_p75b.js:27;data\ekokuma_p75b.js:37	evet
+kirim-savasi-1853-1856	411	c	3	duz	data\ekokuma_dunya.js:233;data\ekokuma_p75b.js:37;data\ekokuma_p75b.js:135	evet
+kis	482	a	11156	duz+url	data\ad_esanlam.js:28;data\ad_esanlam.js:74;data\antlasma_haritalari.js:101	evet
+kish	482	c	48	duz	data\devletler.js:8301;data\devletler.js:8307;data\devletler.js:9548	evet
+kism	482	c	54	duz	data\d_sinirlar_asya.js:23;data\d_sinirlar_avrupa_orta.js:167;data\devletler.js:3306	evet
+kitanlar	411	c	21	duz	data\kronoloji_cok_once1281_dogu_asya.js:61;data\kronoloji_cok_once1281_dogu_asya.js:68;data\kronoloji_cok_once1281_dogu_asya.js:74	evet
+kite	482	c	19	duz	data\ekokuma_bakis.js:195;data\ekokuma_bakis.js:197;data\ekokuma_bakis.js:199	evet
+kizilarvat	482	b	0			hayir
+klicatak	482	b	0			hayir
+kobani	482	b	0			hayir
+kofcaz	482	b	0			hayir
+kokburi	411	b	0			hayir
+kollo	411	b	0			hayir
+komnenler	411	b	0			hayir
+kongo	411	c	129	duz	data\bos_alanlar.js:109;data\bos_alanlar.js:111;data\bos_alanlar.js:134	evet
+konurapa	482	b	0			hayir
+kopruhisar	482	b	0			hayir
+kore	411	c	63	duz	data\devlet_harita_ust.js:3;data\devlet_harita_ust.js:3;data\devletler.js:3149	evet
+kotdivuar	411	b	0			hayir
+kotor	411	c	15	duz	data\kademe_e9353f.js:363;data\olaylar_ilirya_0072.js:39;data\olaylar_ilirya_0072.js:68	evet
+kotur	482	c	10	duz	data\d_sinirlar.js:23;data\d_sinirlar.js:26;data\ekokuma_p76c.js:25	evet
+kozara	411	b	0			hayir
+krasnovodsk	411	b	0			hayir
+kuba	411	a	181	duz+url	data\bos_alanlar.js:235;data\d_sinirlar_amerika.js:54;data\d_sinirlar_amerika.js:55	evet
+kubilay	411	c	33	duz	data\kisiler.js:576;data\kisiler.js:577;data\kronoloji_cok_once1281_dogu_asya.js:61	evet
+kucan	482	b	0			hayir
+kucukperveli	482	b	0			hayir
+kudus-latin-kralligi	411	b	0			hayir
+kufkaynapinari	482	b	0			hayir
+kulab	482	b	0			hayir
+kulacahisar	482	b	0			hayir
+kull	411	a	3051	duz+url	data\acilis_siluet.js:187;data\antlasma_haritalari.js:61;data\bekleyen_yerlesim_ok102.js:12	evet
+kulob	482	b	0			hayir
+kum-ombo	482	b	0			hayir
+kumciftligi	482	b	0			hayir
+kumkapi	411	b	0			hayir
+kumkapi-hadisesi	411	b	0			hayir
+kurdistan	411	c	6	duz	data\kademe_4ff22b.js:176;data\kademe_4ff22b.js:270;data\kademe_4ff22b.js:271	evet
+kurne	482	b	0			hayir
+kurt-hanedani	411	b	0			hayir
+kurtlar	411	c	5	duz	data\kronoloji_cok_once1281_avrupa.js:225;data\paket_22.js:1975;data\paket_22.js:1976	evet
+kus	482	a	1206	duz+url	data\ad_esanlam.js:29;data\antlasma_haritalari.js:146;data\bekleyenler.js:63	evet
+kusadasi	482	c	2	duz	data\olaylar_p0057.js:17;data\paket_15.js:1187	evet
+kusayr	482	c	2	duz	data\yer_yama_ok101.js:68;data\yer_yama_ok101.js:115	evet
+kut	411	a	3384	duz+url	data\antlasma_haritalari.js:31;data\antlasma_haritalari.js:153;data\antlasma_haritalari.js:155	evet
+kut-el-amare	482	b	0			hayir
+kut-ul-amare	411	b	0			hayir
+kutaisi	482	c	2	duz	data\kademe_4ff22b.js:173;data\kaynakli_halka_ferhatpasa.js:191	evet
+kutbeddin-mevdud	411	b	0			hayir
+kutsal-ittifak	411	c	12	duz	data\ekokuma_baslik_oneri.js:64;data\ekokuma_baslik_oneri.js:69;data\ekokuma_dunya.js:294	evet
+kuzey-kore	411	b	0			hayir
+ladik	482	c	72	duz	data\bos_alanlar.js:167;data\devletler.js:1265;data\donemler.js:11	evet
+lagvat	411	b	0			hayir
+lalapasa	482	b	0			hayir
+lalibela	411	c	2	duz	data\devletler.js:8663;data\paket_05.js:8682	evet
+lalkovo	482	b	0			hayir
+laos	411	c	59	duz	data\d_sinirlar_asya.js:35;data\d_sinirlar_asya.js:115;data\d_sinirlar_asya.js:133	evet
+laskarisler	411	b	0			hayir
+leblebicihisar	482	b	0			hayir
+lefkada	411	c	2	duz	data\paket_18.js:22;data\yerlesimler_ek_adalar.js:17	evet
+lefke	482	b	0			hayir
+lenkeran	482	c	2	duz	data\kademe_4ff22b.js:174;data\kaynakli_halka_ferhatpasa.js:214	evet
+leros	482	c	18	duz	data\donemler.js:11;data\donemler_on.js:14;data\kronoloji_cok_1923_1945.js:1044	evet
+leton	411	c	88	duz	data\d_sinirlar_avrupa_orta.js:27;data\d_sinirlar_avrupa_orta.js:28;data\d_sinirlar_avrupa_orta.js:28	evet
+letonya	411	c	86	duz	data\d_sinirlar_avrupa_orta.js:27;data\d_sinirlar_avrupa_orta.js:28;data\d_sinirlar_avrupa_orta.js:28	evet
+levse	411	c	1	duz	data\ekokuma_camitarz.js:39	evet
+lindos	482	b	0			hayir
+lisaneddin-ibnul-hatib	411	b	0			hayir
+litvanya	411	c	312	duz	data\d_sinirlar_avrupa_orta.js:16;data\d_sinirlar_avrupa_orta.js:26;data\d_sinirlar_avrupa_orta.js:28	evet
+livonya	411	c	14	duz	data\devletler.js:10242;data\devletler.js:10251;data\kronoloji_cok_once1281_avrupa.js:188	evet
+luksor	482	b	0			hayir
+lur	411	c	882	duz	data\ad_esanlam.js:13;data\ad_esanlam.js:18;data\antlasma_haritalari.js:150	evet
+m-kemalpasa	482	b	0			hayir
+mahabad	482	b	0			hayir
+mahalletulkubra	482	b	0			hayir
+mahmudabad	482	b	0			hayir
+mahmudi	482	c	6	duz	data\kronoloji_memluk.js:226;data\kronoloji_memluk.js:228;data\kronoloji_memluk.js:228	evet
+makhalakauri	482	b	0			hayir
+makri	482	c	4	duz	data\kronoloji_memluk.js:188;data\kronoloji_memluk.js:266;data\paket_07.js:193	evet
+malak-dervent	482	b	0			hayir
+malazgirt-savasi	411	b	0			hayir
+malika	411	c	16	duz	data\ekokuma_baslik_oneri.js:79;data\ekokuma_baslik_oneri.js:241;data\ekokuma_bolge0073.js:143	evet
+malikiye	482	b	0			hayir
+malkara	482	c	5	duz	data\koridor.js:78;data\koridor.js:145;data\koridor.js:146	evet
+malko-tirnova	482	b	0			hayir
+malta-surgunleri	411	b	0			hayir
+manama	482	b	0			hayir
+mansure	482	c	6	duz	data\ekokuma_yeniceri.js:36;data\ekokuma_yeniceri.js:94;data\ekokuma_yeniceri.js:95	evet
+manuel-ii	411	b	0			hayir
+mapungubwe	411	c	3	duz	data\devletler.js:8683;data\kronoloji_cok_once1281_afrika.js:430;data\paket_05.js:8702	evet
+marmara-adasi	482	c	4	duz	data\paket_13.js:9178;data\paket_13.js:9340;data\yerlesimler_ek2.js:177	evet
+marmaracik	482	b	0			hayir
+marmaris	482	c	2	duz	data\olaylar_p0057.js:17;data\paket_15.js:1187	evet
+maydos	482	a	4	url	data\paket_13.js:1581;data\paket_13.js:1582;data\yerlesimler.js:1576	evet
+mayorka	411	c	11	duz	data\devletler.js:8363;data\kronoloji_cok_ispanya.js:53;data\kronoloji_cok_ispanya.js:53	evet
+mehdiler	411	c	23	duz	data\devletler.js:2370;data\devletler.js:10017;data\devletler.js:10018	evet
+mehdiler-yemen	411	b	0			hayir
+mehdiye	482	c	2	duz	data\olaylar_ek15.js:23;data\paket_03.js:183	evet
+mekece	482	b	0			hayir
+meliksah	411	b	0			hayir
+melikshah	411	b	0			hayir
+melile	411	c	2	duz	data\paket_13.js:9219;data\yerlesimler_ek3.js:36	evet
+mellevi	482	b	0			hayir
+mengu	411	c	53	duz	data\devletler.js:9356;data\devletler.js:9361;data\devletler.js:9361	evet
+mengu-han	411	b	0			hayir
+mengu-kaan	411	b	0			hayir
+mengucek-gazi	411	c	2	duz	data\devletler.js:9361;data\paket_05.js:9380	evet
+mengucekliler	411	c	2	duz	data\devletler.js:9361;data\paket_05.js:9380	evet
+mengucekogullari	411	c	2	duz	data\devletler.js:9361;data\paket_05.js:9380	evet
+mengucukogullari	411	c	2	duz	data\devletler.js:9361;data\paket_05.js:9380	evet
+menorka	411	b	0			hayir
+mentese-ogullari	411	b	0			hayir
+menufiye	482	b	0			hayir
+menurka	411	b	0			hayir
+menzile	482	c	4	duz	data\ekokuma_p75a.js:80;data\ekokuma_p75a.js:99;data\kronoloji_gurcistan.js:113	evet
+mercidabik	411	a	16	duz+tdv+url	data\ekokuma_savas.js:158;data\ekokuma_savas.js:173;data\kronoloji_memluk.js:336	evet
+mercidabik-savasi	411	b	0			hayir
+mercihamis	482	b	0			hayir
+merend	482	c	8	duz	data\kaynakli_halka_ferhatpasa.js:42;data\kaynakli_halka_ferhatpasa.js:49;data\koridor_f5c9a5.js:69	evet
+merivan	482	b	0			hayir
+meriyye	411	b	0			hayir
+mersa-matruh	482	b	0			hayir
+mervani	411	c	28	duz	data\devletler.js:9382;data\devletler.js:9387;data\devletler.js:9387	evet
+mervani-hanedani	411	b	0			hayir
+mervaniler	411	c	18	duz	data\devletler.js:9387;data\devletler.js:9387;data\devletler.js:9389	evet
+mervaniler-diyarbekir	411	b	0			hayir
+mervaniler-hanedani	411	b	0			hayir
+mervanoglu	411	b	0			hayir
+mervanoglullari	411	b	0			hayir
+mervanogullari	411	b	0			hayir
+meskinsehr	482	b	0			hayir
+mesudiye	482	c	2	duz	data\paket_23.js:295;data\yerlesimler_anadolu_0914.js:57	evet
+meyurka	411	b	0			hayir
+midyat	482	c	6	duz	data\paket_22.js:128;data\paket_22.js:128;data\paket_22.js:134	evet
+mihalic	482	b	0			hayir
+mililla	411	b	0			hayir
+millet-sistemi	411	b	0			hayir
+minab	482	c	1	duz	data\kronoloji_cok_once1281_avrupa.js:193	evet
+minorka	411	b	0			hayir
+minorka--	411	b	0			hayir
+minurka	411	b	0			hayir
+minye	482	b	0			hayir
+misivri	411	b	0			hayir
+mit-gamr	482	b	0			hayir
+miyandoab	482	c	1	duz	data\kaynakli_halka_ferhatpasa.js:116	evet
+miyane	482	c	3	duz	data\hukuki_sinirlar.js:666;data\kademe_4ff22b.js:179;data\paket_16.js:671	evet
+miyorka	411	b	0			hayir
+mogol-imparatorlugu	411	c	58	duz	data\devletler.js:4554;data\devletler.js:4567;data\kimlikler.js:264	evet
+molova	482	b	0			hayir
+molyvos	482	b	0			hayir
+mosi	411	c	16	duz	data\donemler.js:11;data\donemler_on.js:14;data\olaylar_2s_0919.js:209	evet
+mossi	411	c	23	duz	data\devlet_harita_ust.js:3;data\devletler.js:2674;data\devletler_harita.js:6	evet
+mostaganim	411	b	0			hayir
+mudanya	482	c	22	duz	data\d_sinirlar.js:33;data\d_sinirlar.js:34;data\d_sinirlar.js:34	evet
+mudros-mutarekesi	411	b	0			hayir
+mudurnu	482	b	0			hayir
+muhammed-ez-zagal	411	b	0			hayir
+muhammed-v-nasri	411	b	0			hayir
+muhammere	482	c	2	duz	data\ekokuma_antlasma4.js:873;data\ekokuma_korfez.js:22	evet
+mukriyan	411	b	0			hayir
+munbic	482	b	0			hayir
+munkiz-ogullari	411	c	2	duz	data\devletler.js:9841;data\paket_05.js:9860	evet
+munkizogullari	411	c	9	duz	data\devletler.js:9839;data\devletler.js:9841;data\devletler.js:9847	evet
+muradiye	482	b	0			hayir
+murgab	482	b	0			hayir
+murvaneti	482	c	2	duz	data\paket_20.js:548;data\yerlesimler_sinir_kuzey.js:23	evet
+mustafapasa	482	b	0			hayir
+mustaganem	411	b	0			hayir
+musul	482	c	89	duz	data\devletler.js:9740;data\devletler.js:9748;data\devletler.js:9758	evet
+musul--sehir	411	c	1	duz	data\gecitler.js:271	evet
+musul-atabegligi	411	b	0			hayir
+musul-lulu	411	b	0			hayir
+musul-meselesi	411	b	0			hayir
+musul-sehir	411	b	0			hayir
+muzafferuddin-kokburi	411	b	0			hayir
+nahseb	482	b	0			hayir
+nain	482	b	0			hayir
+naksa-dukaligi	411	c	13	duz	data\devlet_harita_ust.js:3;data\devletler.js:990;data\devletler_harita.js:6	evet
+narin	482	c	15	duz	data\koridor.js:92;data\koridor.js:102;data\koridor.js:103	evet
+naryn	482	b	0			hayir
+nasiriye	482	c	4	duz	data\olaylar_7a4170.js:56;data\olaylar_7a4170.js:69;data\paket_02.js:61	evet
+nasruddevle-ibn-mervan	411	b	0			hayir
+nayman	411	c	6	duz	data\devletler.js:9279;data\devletler.js:9286;data\devletler.js:9286	evet
+naymanlar	411	c	2	duz	data\devletler.js:9286;data\paket_05.js:9305	evet
+nerses	411	b	0			hayir
+nesa	482	c	124	duz	data\devletler.js:2090;data\devletler.js:4390;data\devletler.js:5518	evet
+nihavend	482	c	33	duz	data\hukuki_sinirlar.js:481;data\hukuki_sinirlar.js:483;data\hukuki_sinirlar.js:571	evet
+nikarya	482	c	2	duz	data\olaylar_ek5.js:521;data\paket_01.js:2729	evet
+nisabur	482	b	0			hayir
+nisiros	482	b	0			hayir
+nizariler	411	b	0			hayir
+norapat	482	b	0			hayir
+nri	411	c	335	duz	data\devletler.js:726;data\devletler.js:726;data\devletler.js:1103	evet
+numeyr	411	c	7	duz	data\devletler.js:9795;data\devletler.js:9803;data\kronoloji_cok_once1281_ortadogu.js:16	evet
+numeyriler	411	b	0			hayir
+numeyrogullari	411	b	0			hayir
+nupe	411	b	0			hayir
+nureddin-mahmud-b-zengi	411	b	0			hayir
+nureddin-mahmud-zengi	411	b	0			hayir
+nureddin-zengi	411	b	0			hayir
+ogedey	411	c	25	duz	data\kronoloji_cok_once1281_dogu_asya.js:61;data\kronoloji_cok_once1281_dogu_asya.js:68;data\kronoloji_cok_once1281_dogu_asya.js:74	evet
+ong-han	411	c	2	duz	data\devletler.js:9273;data\paket_05.js:9292	evet
+ordubad	482	c	2	duz	data\kaynakli_halka_ferhatpasa.js:56;data\kaynakli_halka_ferhatpasa.js:143	evet
+orestiada	482	b	0			hayir
+orhaneli	482	b	0			hayir
+orsova	411	c	4	duz	data\olaylar_senusi_0919.js:28;data\paket_12.js:10485;data\paket_13.js:518	evet
+osetya	411	b	0			hayir
+osmaneli	482	b	0			hayir
+osmanli-bankasi	411	c	4	duz	data\ekokuma_p76b.js:38;data\ekokuma_p77c.js:38;data\ekokuma_p77c.js:92	evet
+osmanli-bankasi-baskini	411	b	0			hayir
+otrar	482	c	2	duz	data\paket_22.js:872;data\yerlesimler_ortaasya3.js:43	evet
+ozalp	482	b	0			hayir
+ozdemiroglu-osman-pasa	411	b	0			hayir
+palermo	482	c	1	duz	data\kademe_e9353f.js:362	evet
+palu	482	c	2	duz	data\paket_13.js:2295;data\yerlesimler.js:2290	evet
+pamir	482	c	34	duz	data\d_sinirlar_asya.js:17;data\d_sinirlar_asya.js:65;data\d_sinirlar_asya.js:95	evet
+pamirski-post	482	b	0			hayir
+parga	411	c	12	duz	data\ekokuma_baslik_oneri.js:111;data\ekokuma_vezir.js:114;data\gorsel_madde.js:89	evet
+patmos	482	b	0			hayir
+payas	482	b	0			hayir
+pazaryeri	482	c	4	duz	data\paket_13.js:153;data\paket_13.js:155;data\yerlesimler.js:148	evet
+pelekanon	482	c	6	duz	data\ekokuma_savas3.js:15;data\ekokuma_savas3.js:50;data\paket_26.js:1226	evet
+perovsk	482	c	2	duz	data\paket_22.js:876;data\yerlesimler_ortaasya3.js:47	evet
+pertev-mehmed-pasa	411	b	0			hayir
+pinarbasi	482	b	0			hayir
+portsaid	482	c	4	duz	data\olaylar_7a4170.js:56;data\olaylar_7a4170.js:59;data\paket_02.js:61	evet
+posof	482	b	0			hayir
+preveze	411	c	25	duz	data\ekokuma_antlasma4.js:35;data\ekokuma_dunya.js:176;data\ekokuma_p75b.js:174	evet
+qattinah	482	b	0			hayir
+qeshm	482	b	0			hayir
+rafsencan	482	b	0			hayir
+ramadi	482	c	13	duz	data\bos_alanlar.js:239;data\kademe_d48240.js:706;data\kademe_d48240.js:730	evet
+ramhurmuz	482	b	0			hayir
+ras-el-hayme	482	b	0			hayir
+ravvadiler	411	b	0			hayir
+razhan	482	b	0			hayir
+resadiye	482	c	1	duz	data\ekokuma_p76c.js:169	evet
+resid	482	c	368	duz	data\d_sinirlar_amerika.js:32;data\d_sinirlar_amerika.js:38;data\d_sinirlar_amerika.js:39	evet
+rest	482	c	573	duz	data\bolgeler.js:4;data\d_sinirlar.js:34;data\d_sinirlar_afrika.js:10	evet
+revanduz	411	b	0			hayir
+rewandiz	482	b	0			hayir
+rezovo	482	b	0			hayir
+rezve	482	b	0			hayir
+roma	482	a	1166	duz+url	data\bos_alanlar.js:96;data\bos_alanlar.js:110;data\d_sinirlar_amerika.js:79	evet
+rosetta	482	b	0			hayir
+rubeniler	411	b	0			hayir
+rumeli-hisari	482	c	4	duz	data\ekokuma_mimari.js:186;data\ekokuma_mimari.js:186;data\olaylar_ek.js:125	evet
+rusan	482	c	8	duz	data\d_sinirlar_gdasya.js:19;data\d_sinirlar_gdasya.js:19;data\d_sinirlar_gdasya.js:19	evet
+sahalin	411	c	16	duz	data\d_sinirlar_asya.js:10;data\d_sinirlar_asya.js:81;data\d_sinirlar_asya.js:82	evet
+saho-oranj	411	b	0			hayir
+saho-sandriver	411	b	0			hayir
+saho-transvaal	411	b	0			hayir
+saho-venda	411	b	0			hayir
+sakiz	482	c	35	duz	data\ekokuma_dunya.js:397;data\ekokuma_dunya.js:398;data\ekokuma_dunya.js:398	evet
+sakiz--iran	411	b	0			hayir
+sakkiz	482	b	0			hayir
+sakra	482	c	5	duz	data\kademe_4ff22b.js:188;data\paket_13.js:2076;data\yer_yama_kademe.js:807	evet
+salihiyye	482	b	0			hayir
+sallariler	411	b	0			hayir
+salyan	482	c	1	duz	data\kademe_4ff22b.js:181	evet
+sam	482	a	19699	duz+url	data\antlasma_haritalari.js:28;data\antlasma_haritalari.js:61;data\antlasma_haritalari.js:152	evet
+samandira	482	b	0			hayir
+samhal	411	c	4	duz	data\devletler.js:7722;data\ekokuma_rusiran.js:17;data\kademe_4ff22b.js:190	evet
+santorini	411	b	0			hayir
+sarab	482	c	273	duz	data\d_sinirlar_avrupa_orta.js:39;data\d_sinirlar_avrupa_orta.js:86;data\d_sinirlar_avrupa_orta.js:86	evet
+sardasht	482	b	0			hayir
+sarikamis	482	a	35	duz+url	data\ekokuma_p77a.js:10;data\ekokuma_p77a.js:30;data\ekokuma_p77a.js:213	evet
+sarikol	482	b	0			hayir
+sarkiye	482	b	0			hayir
+sarkoy	482	c	2	duz	data\paket_14.js:5315;data\yerlesimler_ek23.js:104	evet
+sarp	482	c	20	duz	data\ekokuma_mimari.js:184;data\ekokuma_mimari.js:184;data\kademe_f5c9a5.js:272	evet
+sason	411	c	3	duz	data\ekokuma_p77c.js:38;data\ekokuma_p77c.js:92;data\ekokuma_p77c.js:96	evet
+sason-isyani	411	b	0			hayir
+sasun	411	c	1	duz	data\ekokuma_p77c.js:37	evet
+save	482	c	22	duz	data\donemler.js:11;data\donemler_on.js:14;data\kademe_f5c9a5.js:261	evet
+savsat	482	b	0			hayir
+savucbulak	482	c	4	duz	data\paket_14.js:4978;data\paket_14.js:4995;data\yerlesimler_kalite4.js:23	evet
+saylica	482	b	0			hayir
+sayram	482	c	8	duz	data\paket_22.js:231;data\paket_22.js:231;data\paket_22.js:244	evet
+sayzer	411	b	0			hayir
+sebankare	411	b	0			hayir
+sebankare-atabegleri	411	b	0			hayir
+sebankareler	411	b	0			hayir
+sebankareliler	411	b	0			hayir
+seface	482	b	0			hayir
+segesvar	411	b	0			hayir
+sehrisebz	482	b	0			hayir
+sehrizor-eyaleti	411	b	0			hayir
+sellum	482	b	0			hayir
+selmas	482	c	9	duz	data\koridor_f5c9a5.js:68;data\koridor_f5c9a5.js:148;data\koridor_f5c9a5.js:149	evet
+semave	482	b	0			hayir
+semdinli	482	c	2	duz	data\paket_20.js:413;data\yerlesimler_sinir_dogu.js:80	evet
+semdinni	482	b	0			hayir
+semerkant-savasi	411	b	0			hayir
+sencer-sah	411	b	0			hayir
+senendec	482	c	3	duz	data\kademe_4ff22b.js:176;data\paket_13.js:709;data\yerlesimler.js:704	evet
+serdest	482	b	0			hayir
+sero	482	c	12	duz	data\kronoloji_cok_guney_amerika.js:112;data\kronoloji_cok_guney_amerika.js:112;data\kronoloji_fransa.js:959	evet
+serur	482	c	1	duz	data\kaynakli_halka_ferhatpasa.js:139	evet
+seydu-umer	411	b	0			hayir
+seyh-salu-yi-ulya	482	b	0			hayir
+seyhrumi	482	b	0			hayir
+sharur	482	b	0			hayir
+sibenik	411	c	2	duz	data\kademe_e9353f.js:363;data\olaylar_ok109.js:349	evet
+sibinulkum	482	b	0			hayir
+sibirya	411	c	152	duz	data\bolgeler.js:5;data\bolgeler.js:5;data\bolgeler.js:5	evet
+signak	482	c	2	duz	data\paket_22.js:872;data\yerlesimler_ortaasya3.js:43	evet
+silivri	482	c	4	duz	data\koridor.js:70;data\koridor.js:137;data\koridor.js:138	evet
+silopi	482	c	6	duz	data\olaylar_ok107.js:7;data\paket_14.js:5582;data\yer_yama_ok107.js:11	evet
+simav	482	c	5	duz	data\kisiler.js:203;data\olaylar.js:35;data\olaylar_p0057.js:18	evet
+simi	482	c	1275	duz	data\ad_esanlam.js:91;data\ad_esanlam.js:91;data\ad_esanlam.js:91	evet
+sin-sehri	411	b	0			hayir
+sincar	482	b	0			hayir
+sine	482	a	4862	duz+url	data\antlasma_haritalari.js:7;data\antlasma_haritalari.js:97;data\bos_alanlar.js:34	evet
+sinj	411	c	12	duz	data\kademe_e9353f.js:248;data\kademe_e9353f.js:248;data\olaylar_ek5.js:401	evet
+sircan	482	b	0			hayir
+siverek	482	b	0			hayir
+sizebolu	411	b	0			hayir
+smolensk	411	c	3	duz	data\kademe_d48240.js:374;data\kronoloji_cok_rusya.js:133;data\paket_30.js:2929	evet
+sofale	411	b	0			hayir
+sofulu	482	b	0			hayir
+soke	482	c	4	duz	data\ekokuma_avusturya.js:54;data\ekokuma_dalga2.js:125;data\olaylar_p0057.js:17	evet
+sokmen-el-kutbi	411	b	0			hayir
+sombeki	482	b	0			hayir
+soufli	482	b	0			hayir
+sozak	482	b	0			hayir
+split	411	c	3	duz	data\devletler.js:10322;data\kademe_e9353f.js:362;data\paket_05.js:10341	evet
+sterna	482	c	8	duz	data\kronoloji_cok_ispanya.js:44;data\kronoloji_cok_ispanya.js:44;data\kronoloji_cok_ispanya.js:44	evet
+sultan-osman	411	c	3	duz	data\ekokuma_dunya.js:30;data\ekokuma_dunya.js:169;data\ekokuma_p76c.js:169	evet
+sultanabad	482	b	0			hayir
+sultaniye	482	c	15	duz	data\kaynakli_halka_ferhatpasa.js:323;data\kronoloji_iran_ardillari.js:140;data\kronoloji_iran_ardillari.js:163	evet
+sunak-kurgan	482	b	0			hayir
+sur	482	a	2474	duz+url	data\ad_esanlam.js:29;data\ad_esanlam.js:44;data\antlasma_haritalari.js:146	evet
+suruc	482	b	0			hayir
+susa	482	c	13	duz	data\devletler.js:1843;data\ekokuma_antlasma2.js:301;data\ekokuma_antlasma5.js:19	evet
+suser	482	b	0			hayir
+suzak	482	c	2	duz	data\paket_22.js:1240;data\yerlesimler_ortaasya3.js:411	evet
+svilengrad	482	c	1	duz	data\gecitler.js:183	evet
+tahmasb-i	411	c	1	duz	data\ekokuma_rusiran.js:18	evet
+tahta	482	a	2095	duz+url	data\bekleyen_yerlesim_ok102.js:3;data\bekleyen_yerlesim_ok102.js:64;data\bos_alanlar.js:240	evet
+tamesvar	411	b	0			hayir
+tangutlar	411	c	2	duz	data\devletler.js:8711;data\paket_05.js:8730	evet
+tanta	482	c	10	duz	data\koridor_f5c9a5.js:123;data\koridor_f5c9a5.js:196;data\koridor_f5c9a5.js:197	evet
+taraz	482	c	4	duz	data\paket_22.js:211;data\paket_22.js:228;data\yerlesimler_ok107.js:206	evet
+taskurgan	482	b	0			hayir
+tasnak	411	c	6	duz	data\ekokuma_p76b.js:41;data\ekokuma_p76b.js:642;data\ekokuma_p76b.js:667	evet
+tavri	482	c	2	duz	data\ekokuma_alemdar.js:90;data\ekokuma_alemdar.js:103	evet
+tavsanli	482	b	0			hayir
+tayang-han	411	c	2	duz	data\devletler.js:9286;data\paket_05.js:9305	evet
+taşnak	411	b	0			hayir
+tekis	411	c	26	duz	data\devletler.js:8919;data\devletler.js:8946;data\devletler.js:8946	evet
+telafer	482	b	0			hayir
+terme	482	c	131	duz	data\bos_alanlar.js:256;data\d_sinirlar_asya.js:5;data\d_sinirlar_asya.js:10	evet
+termez	482	c	23	duz	data\d_sinirlar_asya.js:5;data\d_sinirlar_avrupa_bati.js:5;data\d_sinirlar_komsu.js:5	evet
+tilos	482	b	0			hayir
+tirnova	482	b	0			hayir
+tirwanish	482	b	0			hayir
+tobolsk	411	b	0			hayir
+tsqaltbila	482	b	0			hayir
+tuaregler	411	b	0			hayir
+tugrulsah	411	b	0			hayir
+tur	482	a	58104	duz+url	data\acilis_siluet.js:17;data\acilis_siluet.js:20;data\acilis_siluet.js:22	evet
+turbet-i-cam	482	b	0			hayir
+turbet-i-haydariye	482	b	0			hayir
+turkmencay-antlasmasi	411	c	5	duz	data\ekokuma_rusiran.js:18;data\kronoloji_iran.js:37;data\kronoloji_iran.js:297	evet
+tursiz	482	b	0			hayir
+tutus-b-alparslan	411	b	0			hayir
+tuz-hurmatu	482	b	0			hayir
+tuzhurmatu	411	b	0			hayir
+tyre	482	c	12	duz	data\devletler.js:5354;data\devletler.js:5355;data\devletler.js:5356	evet
+uceyr	482	b	0			hayir
+ugedey	411	b	0			hayir
+ukayr	482	c	4	duz	data\d_sinirlar_komsu.js:59;data\paket_28.js:733;data\paket_28.js:882	evet
+uksur	482	b	0			hayir
+ulubat	482	c	4	duz	data\olaylar_ek3.js:12;data\paket_01.js:1851;data\paket_13.js:100	evet
+uluborlu	482	b	0			hayir
+ulukisla	482	c	4	duz	data\koridor.js:31;data\koridor.js:98;data\koridor.js:99	evet
+ulukoy	482	b	0			hayir
+umer-tal	411	b	0			hayir
+umur-fakih	482	b	0			hayir
+una	411	a	14694	duz+url	data\ad_esanlam.js:84;data\antlasma_haritalari.js:105;data\antlasma_haritalari.js:137	evet
+unye	482	c	1607	duz	data\bos_alanlar.js:225;data\bos_alanlar.js:227;data\bos_alanlar.js:229	evet
+upper-volta	411	b	0			hayir
+usfuriler	411	c	2	duz	data\devletler.js:2280;data\paket_05.js:2299	evet
+usfurlular	411	b	0			hayir
+uyuniler	411	c	4	duz	data\devletler.js:9963;data\devletler.js:9965;data\paket_05.js:9982	evet
+uyunogullari	411	b	0			hayir
+uzunkopru	482	c	4	duz	data\gecitler.js:177;data\gecitler.js:178;data\gecitler.js:178	evet
+vadias	411	b	0			hayir
+vahan	482	c	31	duz	data\d_sinirlar_asya.js:70;data\d_sinirlar_asya.js:116;data\ekokuma_mimari.js:130	evet
+vietnam	411	c	17	duz	data\devletler.js:8745;data\devletler.js:8756;data\kademe_f5c9a5.js:232	evet
+vietnam-sosyalist-cumhuriyeti	411	b	0			hayir
+vize	482	c	17	duz	data\devletler.js:7773;data\kaynakli_halka_ferhatpasa.js:297;data\koridor.js:61	evet
+vize--kaza	411	b	0			hayir
+vize-kazasi	411	b	0			hayir
+yafuriler	411	b	0			hayir
+yalvac	482	b	0			hayir
+yamurgi	482	b	0			hayir
+yarhisar	482	b	0			hayir
+yemen-hemdanileri	411	b	0			hayir
+yeni-cami--eminonu	411	b	0			hayir
+yeni-urgenc	482	b	0			hayir
+yenikarpuzlu	482	b	0			hayir
+yesi	482	c	5664	duz	data\bekleyenler.js:31;data\bos_alanlar.js:37;data\bos_alanlar.js:109	evet
+yezd-atabegleri	411	c	2	duz	data\devletler.js:9168;data\paket_05.js:9187	evet
+yoruba	411	c	8	duz	data\bos_alanlar.js:244;data\paket_16.js:990;data\paket_17.js:603	evet
+yucelen	482	b	0			hayir
+yuksekova	482	b	0			hayir
+yumurtalik	482	c	2	duz	data\paket_14.js:5935;data\yerlesimler_ek28.js:59	evet
+yurtbagi	482	b	0			hayir
+yusuf-agah	411	c	2	duz	data\ekokuma_diplomasi.js:21;data\ekokuma_diplomasi.js:71	evet
+yusuf-agah-efendi	411	c	2	duz	data\ekokuma_diplomasi.js:21;data\ekokuma_diplomasi.js:71	evet
+yusuf-i	411	b	0			hayir
+yusuf-i-nasri	411	b	0			hayir
+zadar	411	c	38	duz	data\kademe_e9353f.js:362;data\kademe_e9353f.js:433;data\olaylar_ilirya_0072.js:57	evet
+zagal	411	c	1	duz	data\kronoloji_cok_ince_avrupa_amerika.js:142	evet
+zagveler	411	b	0			hayir
+zahir-gazi	411	b	0			hayir
+zaho	482	b	0			hayir
+zamanti	482	a	2	url	data\paket_23.js:285;data\yerlesimler_anadolu_0914.js:47	evet
+zaporog-kazaklari	411	c	1	duz	data\ekokuma_statu.js:176	evet
+zaporojye	411	c	173	duz	data\devlet_harita_ust.js:3;data\devletler.js:1744;data\devletler.js:1745	evet
+zazalo	482	c	2	duz	data\paket_20.js:547;data\yerlesimler_sinir_kuzey.js:22	evet
+zengi	411	a	516	duz+url	data\d_sinirlar_asya.js:16;data\devlet_harita_ust.js:3;data\devletler.js:1673	evet
+zengi-imadueddin	411	b	0			hayir
+zeytun	411	c	3	duz	data\ekokuma_p77c.js:38;data\ekokuma_p77c.js:92;data\ekokuma_p77c.js:96	evet
+zeytun-isyani	411	b	0			hayir
+zuhab	411	c	2	duz	data\ekokuma_antlasma4.js:873;data\ekokuma_kasrisirin.js:17	evet
+zulu	411	c	63	duz	data\bos_alanlar.js:252;data\devlet_harita_ust.js:3;data\devletler.js:5107	evet
