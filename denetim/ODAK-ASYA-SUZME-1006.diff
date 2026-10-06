@@ -1,5 +1,5 @@
 diff --git a/denetim/ODAK-ASYA-0080-uygula.py b/denetim/ODAK-ASYA-0080-uygula.py
-index f36ae99f..8591ecc2 100644
+index f36ae99f..6ac2aa02 100644
 --- a/denetim/ODAK-ASYA-0080-uygula.py
 +++ b/denetim/ODAK-ASYA-0080-uygula.py
 @@ -7,7 +7,8 @@ Koşturan: koordinatör (YILDIRIM BAYEZIT) — `data/` sahipliği ondadır (§7)
@@ -22,7 +22,7 @@ index f36ae99f..8591ecc2 100644
  GRUP = None
  if "--grup" in sys.argv:
      GRUP = set(sys.argv[sys.argv.index("--grup") + 1].split(","))
-@@ -355,12 +359,72 @@ def gun(t):
+@@ -355,12 +359,80 @@ def gun(t):
      return (t + "-01-01")[:10] if len(t) < 10 else t[:10]
  
  
@@ -31,9 +31,10 @@ index f36ae99f..8591ecc2 100644
 +# `2585791b` ("122 vekil odak_yer SİLİNDİ") ölçütüyle YENİDEN süzüldü.
 +# D257'nin VEKİLİ: hedef yer havuzda YOK ve onun yerine BAŞKA bir şehir yazılmış
 +# ("kapı ötmesin diye komşu şehir"). Hüküm: odaksız bırakmak > yanlış şehre bırakmak.
-+#   VEKIL-NOKTA     belirli bir yer havuzda yok, yerine BAŞKA nokta yazılmış ⇒ ODAK
-+#                   YAZILMAZ; yalnız `kapsam_genis` kalkar (E gibi: kamera durur,
-+#                   panel "nokta işaretlenmemiş" der — Osmanlı'ya UÇMAZ).
++#   KUTU-ICERIR     belirli yer havuzda yok ama odak KUTUSU onu İÇİNE ALIYOR ⇒ odak YAZILIR.
++#   KUTU-DISARIDA   kutu gerçek yeri İÇERMİYOR ⇒ ODAK YAZILMAZ; yalnız `kapsam_genis`
++#   KUTU-OLCULEMEDI kalkar (E gibi: kamera durur, panel "nokta işaretlenmemiş" der —
++#                   Osmanlı'ya UÇMAZ). ÖLÇÜLEMEDİ = gerçek yerin konumu bulunamadı.
 +#   B-BOLGE-TEMSIL  metindeki BÖLGE kendi havuz noktalarıyla çerçevelenir (Pencap →
 +#                   Lahor+Amritsar). Kutu bölgeyi İÇİNE ALIR; "yanlış şehir" değildir.
 +#   B-SINIR-YAKA    sınır kesimi — kutu hattın İKİ YAKASINDAKİ gerçek noktalarla
@@ -46,22 +47,26 @@ index f36ae99f..8591ecc2 100644
 +#   E-ODAKSIZ       zaten odak yazılmaz.
 +# Kova listesi (madde madde): denetim/ODAK-ASYA-SUZME-1006.tsv
 +# `--kova-atla K1,K2` bir kovanın maddelerine HİÇ dokunmaz (kapsam_genis dahil).
-+# Mesafeler W36e'de ÖLÇÜLDÜ (gerçek yer: GeoNames · havuz noktası: girdi.yukle; büyük daire).
-+VEKIL_NOKTA = {                                                          # ODAK YAZILMAZ (D257)
-+    ("kronoloji_sinir_asya.js", "1530-01-01", "Alâeddin Riâyet Şah"),      # Pekan Tua → Johor: ÖLÇÜLEMEDİ (GeoNames'te yok)
-+    ("kronoloji_orta_asya.js", "1847-01-01", "KENASARI KIRGIZLAR"),        # Mey-Tuble → Balasagun: ÖLÇÜLEMEDİ (GeoNames'te yok)
-+    ("kronoloji_hindistan.js", "1699-04-13", "Guru Gobind Singh"),         # Anandpur → Lahor 208 / Amritsar 161 km, kutu DIŞI
-+    ("kronoloji_timurlu.js", "1391-06-18", "Kunduzca Savaşı"),             # Kondurcha ırmağı → Samara 50-88 km
++# 🔴 KOORDİNATÖR ÖLÇÜTÜ (W36f, D257'ye eklenecek ayrım) — ölçüt MESAFE DEĞİL KUTU:
++#   odak KUTU (`odak_yer`/`odak_kimlik`) ve gerçek yeri İÇİNE ALIYOR  ⇒ vekil DEĞİL
++#   odak NOKTA (`yer_id`/`yer_kon`) ve BAŞKA bir şehrin adına konmuş  ⇒ VEKİL (mesafe ne olursa olsun)
++# Beş adayın beşi de `odak_yer` = KUTU. Kutu `maddeOdakKutusu` (js/app.js) ile aynı kurulur:
++# çözülen noktaların sınır kutusu ± 0,35°. Gerçek yer GeoNames'ten (W36f ölçümü):
++KUTU_ICERIR = {                                                          # odak YAZILIR
++    ("kronoloji_sinir_asya.js", "1292-01-01", "Kertanagara öldürüldü"),    # Singosari (-7,892;112,666) ∈ Malang kutusu
 +}
-+# Koordinatör (W36e): "aynı yerleşimin başka adı ya da BİTİŞİĞİ ise AYRI kova". D257'nin
-+# "BAŞKA şehir" tanımı tutmaz ⇒ odak YAZILIR (kutu gerçek yeri kapsar); hüküm AYRICA bildirildi.
-+VEKIL_BITISIK = {
-+    ("kronoloji_sinir_asya.js", "1292-01-01", "Kertanagara öldürüldü"),    # Singosari → Malang 10,5 km (Kab. Malang ilçesi)
++KUTU_DISARIDA = {                                                        # ODAK YAZILMAZ — kamera yanlış yeri gösterir
++    ("kronoloji_hindistan.js", "1699-04-13", "Guru Gobind Singh"),         # Anandpur kutunun ~122 km dışında
++    ("kronoloji_timurlu.js", "1391-06-18", "Kunduzca Savaşı"),             # Kondurcha ırmak noktası ~11 km, köy ~48 km dışında
++}
++KUTU_OLCULEMEDI = {                                                      # ODAK YAZILMAZ — "içeriyor mu" ÖLÇÜLEMEDİ, uydurulmadı
++    ("kronoloji_sinir_asya.js", "1530-01-01", "Alâeddin Riâyet Şah"),      # Pekan Tua GeoNames'te yok
++    ("kronoloji_orta_asya.js", "1847-01-01", "KENASARI KIRGIZLAR"),        # Mey-Tuble GeoNames'te yok
 +}
 +_BOLGE_ISARET = re.compile(r"g[öo]sterim|havuzda yok|havuz nokta|en yak[ıi]n havuz"
 +                           r"|havuzdaki .* yok|yerine", re.I)
 +KOVALAR = ("A-GERCEK", "AK-YAKLASIK", "B-GERCEK", "B-BOLGE-TEMSIL", "B-SINIR-YAKA",
-+           "VEKIL-NOKTA", "VEKIL-BITISIK", "C-KIMLIK", "E-ODAKSIZ")
++           "KUTU-ICERIR", "KUTU-DISARIDA", "KUTU-OLCULEMEDI", "C-KIMLIK", "E-ODAKSIZ")
 +
 +
 +def kova(k):
@@ -75,10 +80,13 @@ index f36ae99f..8591ecc2 100644
 +        return "C-KIMLIK"
 +    if s == "A":
 +        return "A-GERCEK"
-+    if (k["dosya"], k["t"], k["bon"]) in VEKIL_NOKTA:
-+        return "VEKIL-NOKTA"
-+    if (k["dosya"], k["t"], k["bon"]) in VEKIL_BITISIK:
-+        return "VEKIL-BITISIK"
++    a = (k["dosya"], k["t"], k["bon"])
++    if a in KUTU_ICERIR:
++        return "KUTU-ICERIR"
++    if a in KUTU_DISARIDA:
++        return "KUTU-DISARIDA"
++    if a in KUTU_OLCULEMEDI:
++        return "KUTU-OLCULEMEDI"
 +    if k["gerekce"].startswith(SINIR[:20]):
 +        return "B-SINIR-YAKA"
 +    if _BOLGE_ISARET.search(k["gerekce"]):
@@ -88,18 +96,18 @@ index f36ae99f..8591ecc2 100644
 +
  def hedef_alan(k):
 -    """Kararın yazacağı alanlar (--konsuz AK'yi yedeğe çevirir)."""
-+    """Kararın yazacağı alanlar. VEKIL-NOKTA ⇒ {} (odak yazılmaz, D257)."""
++    """Kararın yazacağı alanlar. KUTU-DISARIDA / KUTU-OLCULEMEDI ⇒ {} (odak yazılmaz)."""
      a = dict(k["alan"])
 -    yedek = a.pop("yedek", None)
 -    if KONSUZ and k["sinif"] == "AK" and yedek:
 -        return dict(yedek)
 +    a.pop("yedek", None)
-+    if kova(k) == "VEKIL-NOKTA":
++    if kova(k) in ("KUTU-DISARIDA", "KUTU-OLCULEMEDI"):
 +        return {}
      return a
  
  
-@@ -455,6 +519,14 @@ def duzenle(parca, alan, kg_kaldir):
+@@ -455,6 +527,14 @@ def duzenle(parca, alan, kg_kaldir):
  
  
  def main():
@@ -114,7 +122,7 @@ index f36ae99f..8591ecc2 100644
      havuz = yer_havuzu()
      if not havuz:
          print("🔴 ÖLÇÜLEMEDİ — yerleşim havuzu yok; HİÇBİR ŞEY UYGULANMAZ.")
-@@ -470,7 +542,9 @@ def main():
+@@ -470,7 +550,9 @@ def main():
                    % (dosya, o_.get("hata") or od.get("hata") or "sınıf yok"))
              return 2
          olcum[dosya] = od["sinif"]
@@ -125,7 +133,7 @@ index f36ae99f..8591ecc2 100644
      sonuc, _ = sina(secili)
      say = dict(degisen=0, zaten=0, kayit_yok=0, eski_tutmuyor=0, sart_yok=0)
      sinif_say = {}
-@@ -487,7 +561,7 @@ def main():
+@@ -487,7 +569,7 @@ def main():
      print("ODAK-ASYA-0080 — %s · %d karar%s%s" % (
          "UYGULA" if UYGULA else "KURU KOŞU", len(secili),
          " · grup " + ",".join(sorted(GRUP)) if GRUP else "",
@@ -134,7 +142,7 @@ index f36ae99f..8591ecc2 100644
      print("=" * 100)
      for dosya in DOSYALAR:
          yol = os.path.join(KOK, "data", dosya)
-@@ -558,7 +632,8 @@ def main():
+@@ -558,7 +640,8 @@ def main():
              say["degisen"] += 1
              sinif_say[k["sinif"]] = sinif_say.get(k["sinif"], 0) + 1
              toplam_kg += 1 if kg_kaldir else 0
@@ -144,7 +152,7 @@ index f36ae99f..8591ecc2 100644
              print("      → %s%s" % (json.dumps(alan, ensure_ascii=False) if alan else "(odak yazılmaz)",
                                     " · kapsam_genis KALDIRILIR" if kg_kaldir else ""))
              print("      gerekçe: %s" % k["gerekce"])
-@@ -611,6 +686,8 @@ def main():
+@@ -611,6 +694,8 @@ def main():
      print("=" * 100)
      print("SAYAÇ  değişen %(degisen)d · zaten böyle %(zaten)d · kayıt yok %(kayit_yok)d · "
            "eski tutmuyor %(eski_tutmuyor)d · şartı sağlamadı %(sart_yok)d" % say)
@@ -155,13 +163,13 @@ index f36ae99f..8591ecc2 100644
      print("ÖNGÖRÜ (8 dosya, bu düzenlemeyle)")
 diff --git a/denetim/ODAK-ASYA-SUZME-1006.tsv b/denetim/ODAK-ASYA-SUZME-1006.tsv
 new file mode 100644
-index 00000000..eb291695
+index 00000000..739966dc
 --- /dev/null
 +++ b/denetim/ODAK-ASYA-SUZME-1006.tsv
 @@ -0,0 +1,197 @@
-+dosya	t	baslik_oneki	sinif	kova	yazilacak_alan	W37_ayni_olay	vekil_mesafe
++dosya	t	baslik_oneki	sinif	kova	yazilacak_alan	W37_ayni_olay	kutu_olcumu
 +kronoloji_sinir_asya.js	1287-01-01	Wareru Aşağı Birmanya	C	C-KIMLIK	{"odak_kimlik": ["hanthawaddy"]}		
-+kronoloji_sinir_asya.js	1292-01-01	Kertanagara öldürüldü	B	VEKIL-BITISIK	{"odak_yer": ["Malang"]}		Singosari->Malang 10,5 km (GeoNames)
++kronoloji_sinir_asya.js	1292-01-01	Kertanagara öldürüldü	B	KUTU-ICERIR	{"odak_yer": ["Malang"]}		KUTU [112.280,-8.330,112.980,-7.630] Singosari(GN) ICINDE · mesafe 10,5 km
 +kronoloji_sinir_asya.js	1318-01-01	Mübârek Şah Halacî Devâgirî	B	B-GERCEK	{"odak_yer": ["Devagiri (Devletâbâd)"]}		
 +kronoloji_sinir_asya.js	1323-01-01	Uluğ Han Varangal	A	A-GERCEK	{"yer_id": "Varangal"}		
 +kronoloji_sinir_asya.js	1336-01-01	Harihara ve Bukka	B	B-GERCEK	{"odak_yer": ["Vijayanagara (Hampi)"]}		
@@ -187,7 +195,7 @@ index 00000000..eb291695
 +kronoloji_sinir_asya.js	1527-01-01	Sind hâkimi Hüseyin Şah Argun	A	A-GERCEK	{"yer_id": "Multan"}		
 +kronoloji_sinir_asya.js	1527-01-01	Sunda Kalapa limanı	A	A-GERCEK	{"yer_id": "Batavia (Cakarta)"}		
 +kronoloji_sinir_asya.js	1527-01-01	Mạc Đăng Dung	B	B-GERCEK	{"odak_yer": ["Hanoi (Thăng Long)"]}		
-+kronoloji_sinir_asya.js	1530-01-01	Alâeddin Riâyet Şah	B	VEKIL-NOKTA	(odak yazilmaz)		OLCULEMEDI (Pekan Tua GeoNames'te yok)
++kronoloji_sinir_asya.js	1530-01-01	Alâeddin Riâyet Şah	B	KUTU-OLCULEMEDI	(odak yazilmaz)		KUTU [103.391,1.143,104.091,1.843] Pekan Tua konumu YOK ⇒ ICERIYOR MU: OLCULEMEDI
 +kronoloji_sinir_asya.js	1552-01-01	Hasanüddin Demak	C	C-KIMLIK	{"odak_kimlik": ["banten-sultanligi"]}		
 +kronoloji_sinir_asya.js	1555-01-01	Bayinnaung Ava	A	A-GERCEK	{"yer_id": "Ava"}		
 +kronoloji_sinir_asya.js	1558-01-01	Lan Na başkenti	A	A-GERCEK	{"yer_id": "Chiang Mai"}		
@@ -289,7 +297,7 @@ index 00000000..eb291695
 +kronoloji_orta_asya.js	1922-04-01	Nogay kurultayı Açikulak	B	B-BOLGE-TEMSIL	{"odak_yer": ["Stavropol–Kuma bozkırı", "Terek deltası (Kızlar)"]}		
 +kronoloji_orta_asya.js	1601-01-01	Küçüm Han Nogayların	C	C-KIMLIK	{"odak_kimlik": ["nogay"]}		
 +kronoloji_orta_asya.js	1465-01-02	Ebülhayr'a tâbi olmayan	B	B-BOLGE-TEMSIL	{"odak_yer": ["Taraz (Evliya-Ata)", "Balasagun (Ak-Beşim)"]}		
-+kronoloji_orta_asya.js	1847-01-01	KENASARI KIRGIZLAR	B	VEKIL-NOKTA	(odak yazilmaz)		OLCULEMEDI (Mey-Tuble GeoNames'te yok)
++kronoloji_orta_asya.js	1847-01-01	KENASARI KIRGIZLAR	B	KUTU-OLCULEMEDI	(odak yazilmaz)		KUTU [74.890,42.410,75.590,43.110] Mey-Tuble konumu YOK ⇒ ICERIYOR MU: OLCULEMEDI
 +kronoloji_orta_asya.js	1207-01-01	Kırgızlar Cengiz Han'a	E	E-ODAKSIZ	(odak yazilmaz)		
 +kronoloji_orta_asya.js	1218-01-01	Cuci Kırgız direnişini	E	E-ODAKSIZ	(odak yazilmaz)		
 +kronoloji_orta_asya.js	1650-01-01	Kırgızların İslâmlaşması	E	E-ODAKSIZ	(odak yazilmaz)		
@@ -328,7 +336,7 @@ index 00000000..eb291695
 +kronoloji_hindistan.js	1631-06-17	Mümtaz Mahal	A	A-GERCEK	{"yer_id": "Burhânpûr"}		
 +kronoloji_hindistan.js	1679-04-02	Evrengzîb gayrimüslimlerden	C	C-KIMLIK	{"odak_kimlik": ["babur-imparatorlugu"]}		
 +kronoloji_hindistan.js	1689-03-11	Evrengzîb, Şivâcî'nin oğlu	B	B-GERCEK	{"odak_kimlik": ["maratha"]}		
-+kronoloji_hindistan.js	1699-04-13	Guru Gobind Singh	B	VEKIL-NOKTA	(odak yazilmaz)		Anandpur->Lahor 207,8 / Amritsar 160,7 km; kutu disi (GeoNames)
++kronoloji_hindistan.js	1699-04-13	Guru Gobind Singh	B	KUTU-DISARIDA	(odak yazilmaz)		KUTU [73.993,31.199,75.223,31.984] Anandpur(GN) DISINDA ~122 km
 +kronoloji_hindistan.js	1764-10-23	Buksar Savaşı	AK	AK-YAKLASIK	{"yer_kon": [25.56, 83.98]}		
 +kronoloji_hindistan.js	1499-01-01	Guru Nanak	B	B-BOLGE-TEMSIL	{"odak_yer": ["Lahor", "Amritsar"]}		
 +kronoloji_hindistan.js	1545-05-22	Şîr Şah Sûrî'nin türbesi	AK	AK-YAKLASIK	{"yer_kon": [24.95, 84.03]}		
@@ -351,7 +359,7 @@ index 00000000..eb291695
 +kronoloji_japonya.js	1782-01-01	Tenmei Kıtlığı	B	B-BOLGE-TEMSIL	{"odak_yer": ["Sendai", "Morioka", "Hirosaki"]}		
 +kronoloji_japonya.js	1872-08-03	Gakusei	C	C-KIMLIK	{"odak_kimlik": ["meiji-japonya"]}		
 +kronoloji_japonya.js	1918-08-03	Pirinç Ayaklanmaları	B	B-BOLGE-TEMSIL	{"odak_yer": ["Edo (Tokyo)", "Osaka", "Kumamoto", "Sendai"]}		
-+kronoloji_timurlu.js	1391-06-18	Kunduzca Savaşı	B	VEKIL-NOKTA	(odak yazilmaz)		Kondurcha irmagi->Samara 50,5 km · Nizhnyaya Kondurcha 87,6 km (GeoNames)
++kronoloji_timurlu.js	1391-06-18	Kunduzca Savaşı	B	KUTU-DISARIDA	(odak yazilmaz)		KUTU [49.800,52.850,50.500,53.550] Kondurcha irmak noktasi(GN) DISINDA ~11 km · koy ~48 km
 +kronoloji_timurlu.js	1395-04-15	Terek Savaşı	B	B-BOLGE-TEMSIL	{"odak_yer": ["Terek deltası (Kızlar)", "Vladikavkaz"]}		
 +kronoloji_timurlu.js	1398-01-01	Hindistan seferine çıkış	B	B-GERCEK	{"odak_yer": ["Kâbil", "Multan", "Delhi"]}		
 +kronoloji_timurlu.js	1405-04-01	Timur sonrası taht	B	B-GERCEK	{"odak_yer": ["Semerkant", "Herat"]}		

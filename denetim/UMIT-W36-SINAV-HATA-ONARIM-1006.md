@@ -433,3 +433,65 @@ data/ dokunulmadı · çıkış 0
 ### ④ MANDA-EMEKLI paketine bayat yol eklendi
 - `oturumlar/ORTADOGU-1923.md:71`: `denetim/yer_yama_manda_0906.js` → `data/yer_yama_manda_0906.js` (+ "415d18ac ile taşındı" notu). Dosyanın `data/`da var olduğu doğrulandı.
 - Paket artık 2 dosya, 4 satır.
+
+---
+
+## EK · W36f (6 Ekim 2026) — KUTU ölçütü · mühürlü öngörü · `--uygula` DİFF olarak
+
+**Temel commit:**
+- Ölçüm `origin/main` = `c779df9a` üstünde yapıldı.
+- Teslimden önce `origin/main` `0f08fcae`ye ilerledi. Üç diff orada da **birlikte** `--check` temiz.
+- Ölçülen girdiler iki commit arasında AYNI: 8 kronoloji dosyası · uygulayıcı · `odak_olc.py` · `odak_cozum.js` · `suzgec.js` · `ODAK-TAVAN.json` (`git diff` boş).
+- Çıktılar, W36e sürümlerinin YERİNE geçiyor:
+  - `ODAK-ASYA-SUZME-1006.diff`: uygulayıcı + TSV
+  - `MANDA-EMEKLI-1006.diff`: değişmedi
+  - **yeni** `ODAK-ASYA-UYGULA-1006.diff`: `data/` 8 dosya, +186/−186; sha256 `3dc1e27b…`
+- Hiçbiri uygulanmadı; `data/` uygulaması koordinatörde.
+
+### ① KUTU ölçütü (koordinatör: "mesafe değil kutu")
+- Beş adayın **beşi de `odak_yer` = KUTU**. NOKTA vekili (yer_id/yer_kon başka şehir adına) bu 196 kararda YOK: A'nın `yer_id`leri ve AK'nin `yer_kon`ları gerçek yerin kendisi.
+- Kutu `js/app.js:12615 maddeOdakKutusu` ile birebir kuruldu: `adKonumBul` ile çözülen noktaların sınır kutusu **± 0,35°**.
+  - Kamera havuzu `ISARET_KAYNAK` (YERLESIMLER'in d/v/s süzgecinden) + YERLESIMLER; ilk eşleşme kazanıyor.
+  - Altı havuz adının her biri **tam 1** kayda çözüldü, belirsizlik yok.
+
+| karar | kutu [lon0, lat0, lon1, lat1] | gerçek yer (GeoNames) | içeriyor mu | kova |
+|---|---|---|---|---|
+| Kertanagara 1292 | Malang → [112,280, −8,330, 112,980, −7,630] | Singosari (−7,892; 112,666) | ✅ **İÇİNDE** | **KUTU-ICERIR** → odak YAZILIR |
+| Guru Gobind Singh 1699 | Lahor+Amritsar → [73,993, 31,199, 75,223, 31,984] | Anandpur (31,239; 76,503) | ❌ ~122 km dışında | KUTU-DISARIDA → yazılmaz |
+| Kunduzca 1391 | Samara → [49,800, 52,850, 50,500, 53,550] | Kondurcha ırmak noktası (53,650; 50,253) · Nizhnyaya Kondurcha (53,976; 50,374) | ❌ ~11 km / ~48 km dışında | KUTU-DISARIDA → yazılmaz |
+| Alâeddin Riâyet Şah 1530 | Johor → [103,391, 1,143, 104,091, 1,843] | Pekan Tua — konum YOK | **ÖLÇÜLEMEDİ** (uydurulmadı) | KUTU-OLCULEMEDI → yazılmaz |
+| Kenasarı 1847 | Balasagun → [74,890, 42,410, 75,590, 43,110] | Mey-Tuble — konum YOK | **ÖLÇÜLEMEDİ** | KUTU-OLCULEMEDI → yazılmaz |
+
+- Kova adları: VEKIL-NOKTA / VEKIL-BITISIK kalktı → **KUTU-ICERIR · KUTU-DISARIDA · KUTU-OLCULEMEDI** (koddan "VEKIL" 0).
+- ⚠️ **Kondurcha sınırda:** GeoNames bir akarsuya TEK temsilî nokta veriyor. Irmağın akışı boyunca kutuya girip girmediği ölçülmedi, savaş yerinin ırmak üstündeki konumu da kesin değil. Ölçülen nokta dışarıda olduğu için kapalı yönde (yazılmaz) bırakıldı.
+- 📌 **Ölçülmemiş bir iddia (hükme sunuluyor):** B-SINIR-YAKA'nın 5 gerekçesi "havuzda yok ama kutu içine alır" diyor (Kiahta · Kumaon · Dhundwa · Sikkim · Simla/Assam). Bu iddialar yeni KUTU ölçütüyle **sınanmadı**; istenirse aynı yöntemle ölçülür.
+
+### ② Öngörü — ölçümden ÖNCE mühürlendi
+`denetim/ONGORU-W36f.txt` · 09:38:47 · sha256 `c917d66f…`
+
+| | öngörü | ölçüm | |
+|---|---|---|---|
+| KURU `--kova-atla AK-YAKLASIK` · değişen | 176 | **176** | ✓ |
+| BEYANLI sonra (proj.) | 0 | **0** | ✓ |
+| ODAKSIZ sonra (proj.) | 18 | **18** | ✓ |
+| `--uygula` · yazılan dosya | tam 8 | **8** (`git diff --stat data/`: başka dosya 0) | ✓ |
+| dosya başına madde | sinir_asya 94 · cin 25 · ozbek 15 · orta_asya 14 · hindistan 12 · guney_asya 6 · japonya 6 · timurlu 4 | **aynı** (`💾` satırları) | ✓ |
+| SONRA **gerçek** `odak_olc.olc` (8 dosya) | ODAKSIZ 18 · BEYANLI 0 | **ODAKSIZ 18 · BEYANLI 0** (KONUMLU 696→715 · KUTULU 0→155; toplam 888 = 888) | ✓ |
+| kırık atıf (8 dosya) | yeni 0 | önce 0 · sonra 0 | ✓ |
+
+KUTULU 155 = B-GERÇEK 29 + BÖLGE 26 + SINIR 49 + C 50 + KUTU-ICERIR 1. KONUMLU +19 = A-GERÇEK 19.
+
+### ③ Yayın kapısının odak bölümü (`odak_olc.kapi_olcumu()`, `denetle_yayin.py`nin çağırdığı işlev)
+
+| | önce (`origin/main` verisi) | sonra (uygulanmış) |
+|---|---|---|
+| ihlal | False | **False** |
+| yeni çözülmeyen atıf | 0 (bilinen borç 1: Ogaden) | **0** (aynı borç) |
+| ODAKSIZ (tavan evreni) | 438 / tavan 438 | **401** — 37 iyileşme |
+| BEYANLI→yabancı | 653 / tavan 655 | **516** — 139 iyileşme (137'si bu iş) |
+
+🔴 **Tavan disiplini (`CLAUDE.md §3.4` ①②③④):**
+- Uygulama tavanı İYİLEŞTİRİYOR. Tavan **aynı commit'te** inmeli, yoksa aradaki pay sessiz borç olur.
+- **İşçi önerisi:** `ODAKSIZ 438 → 401` · `BEYANLI→yabancı 655 → 516`.
+- Koordinatör yazar; yazmadan hemen önce yeniden ölçülür (§3.4 ⓪). `--tavan-yaz` körü körüne kullanılmamalı (§3.4 ④).
+- Bu diff `ODAK-TAVAN.json`a DOKUNMUYOR.
