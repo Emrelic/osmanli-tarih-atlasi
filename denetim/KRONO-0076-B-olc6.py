@@ -6,15 +6,15 @@ CIZILI olan hattin `hat` dizisinin uclarinda duruyor olabilir. Olculuyor.
 🔴 NOT: atlasin kendi koordinati bir KAYNAK DEGILDIR; bu olcum yalnizca
 "hat nereye kadar cizilmis" sorusuna cevap verir.
 """
-import io, json, re, sys
+import io, json, os, re, sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 HEDEF = {
-    "d1906-filistin-misir-hidivlik": r"C:\atlas\data\d_sinirlar_ortadogu.js",
-    "d1910-libya-tunus-osmanli":     r"C:\atlas\data\d_sinirlar_ortadogu.js",
-    "d1910-libya-cezayir-gadames-osmanli": r"C:\atlas\data\d_sinirlar_ortadogu.js",
-    "d1923-libya-tunus":             r"C:\atlas\data\d_sinirlar_ortadogu.js",
-    "d1909-osm-bg-eski":             r"C:\atlas\data\d_sinirlar.js",
+    "d1906-filistin-misir-hidivlik": os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar_ortadogu.js"),
+    "d1910-libya-tunus-osmanli":     os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar_ortadogu.js"),
+    "d1910-libya-cezayir-gadames-osmanli": os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar_ortadogu.js"),
+    "d1923-libya-tunus":             os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar_ortadogu.js"),
+    "d1909-osm-bg-eski":             os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar.js"),
 }
 
 for hid, yol in HEDEF.items():

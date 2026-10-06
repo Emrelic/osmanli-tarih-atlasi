@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56d, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\06fad4a8-e58e-4850-b3e8-c68a109e7e22\scratchpad (nokta_A..D.json)
 # Dört araştırma çıktısını D5-ASYA kararlarıyla birleştirip denetim/D5-ASYA-NOKTA-ARASTIRMA-0917.json yazar.
 import io, json, os, sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")

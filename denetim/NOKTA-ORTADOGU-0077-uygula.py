@@ -33,7 +33,7 @@ if "--grup" in sys.argv:
     GRUP = set(sys.argv[sys.argv.index("--grup") + 1].split(","))
 import os
 # ATLAS_DATA ortam değişkeni yalnız SINAV içindir (kopya klasörde idempotentlik sınaması)
-D = os.environ.get("ATLAS_DATA", "C:\\atlas\\data") + "\\"
+D = os.environ.get("ATLAS_DATA", os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")) + "\\"
 metin = {}
 sayac = {"degisti": 0, "zaten": 0, "yok": 0, "eski_tutmuyor": 0, "sart_elendi": 0}
 kayit_degisti = set()
@@ -151,7 +151,7 @@ for dosya, ad in (("yerlesimler.js", "Süveyş"), ("yerlesimler.js", "Sina güne
               r'k:\s*"Mısır Hidivliği",\s*kid:')
 
 # ═════════════════════════════════ B1 / B2 — Sudan ═════════════════════════════════
-yama = json.load(open("C:\\atlas\\denetim\\NOKTA-ORTADOGU-0077-YAMA.json", encoding="utf-8"))
+yama = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "NOKTA-ORTADOGU-0077-YAMA.json"), encoding="utf-8"))
 for o in yama["oneriler"]:
     n = o.get("not") or ""
     if not (n.startswith("B1") or n.startswith("B2")):

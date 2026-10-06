@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56d, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\claudemre\kutu\giden
 """İZ-YOK DENETİM C — DİLİM 3'ün TAM DOSYA YOLUNU tespit eder.
 
 Şartname "parti-0009(4) parti-0010(1)" diyor ama diskte HEM

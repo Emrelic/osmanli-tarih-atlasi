@@ -7,8 +7,8 @@ PARCALI eslesme (Agra/Luleburgaz/Has/Aydos Kalesi) ELENIR.
 """
 import io, os, re, sys, glob, unicodedata
 
-KOK = r"C:\atlas\data"
-CIKTI = r"C:\atlas\denetim\KRONO-0076-B-olc5.txt"
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+CIKTI = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "KRONO-0076-B-olc5.txt")
 ATLA = {"donemler.js", "devletler_harita.js", "bolgeler.js", "bos_alanlar.js",
         "altlik.js", "devirler.js"}
 out = io.open(CIKTI, "w", encoding="utf-8")

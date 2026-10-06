@@ -5,7 +5,8 @@ import sys
 import json
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.path.insert(0, r"C:\atlas\arac")
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 import girdi  # noqa: E402
 
 Y = girdi.yukle(sessiz=True)

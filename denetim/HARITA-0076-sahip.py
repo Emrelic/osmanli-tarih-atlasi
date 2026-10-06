@@ -12,7 +12,7 @@ Kullanım:
 import sys
 import os
 
-sys.path.insert(0, r'C:\atlas\arac')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 sys.stdout.reconfigure(encoding='utf-8')
 
 import girdi  # noqa: E402

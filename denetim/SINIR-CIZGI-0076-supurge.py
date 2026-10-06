@@ -4,7 +4,8 @@ import re, collections, sys
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-SEVK = r'C:\atlas\oturumlar\SEVK-0076.md'
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+SEVK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "SEVK-0076.md")
 PARTI = r'C:\claudemre\kutu\giden\parti-emrelic-0076\PARTI.md'
 
 sevk = open(SEVK, encoding='utf-8').read()
