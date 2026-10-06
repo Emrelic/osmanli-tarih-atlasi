@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56d, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\claudemre\kutu\giden
 """İZ-YOK DENETİM C — DİLİM 3'ün TAM DOSYA YOLUNU tespit eder.
 
 Şartname "parti-0009(4) parti-0010(1)" diyor ama diskte HEM
@@ -10,7 +11,7 @@ hangi ailenin doğru olduğunu ölçmek için.
 import io, json, os, re, subprocess
 
 G = r"C:\claudemre\kutu\giden"
-ATLAS = r"C:\atlas"
+ATLAS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HASH = re.compile(r"\b[0-9a-f]{7,40}\b")
 
 _bilinen = {}

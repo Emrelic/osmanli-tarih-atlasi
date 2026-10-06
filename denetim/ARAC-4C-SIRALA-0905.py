@@ -30,7 +30,7 @@ import importlib.util as _ilu
 from collections import defaultdict
 from datetime import date
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ATLAS_BASI, ATLAS_SONU, TOL = "1281-01-01", "1923-10-29", 400
 
 # ⑩ KOL (7 Eylül 2026): pad() artık ORTAK — dört ayrı alette ayrı ayrı

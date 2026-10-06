@@ -11,7 +11,8 @@ Gerekçe ve kaynaklar: denetim/BALKAN-MACAR-0081.md
 import io, re, sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-KOK = r"C:\atlas\data" + "\\"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data") + "\\"
 UYGULA = "--uygula" in sys.argv
 DOSYA = {}      # ad -> metin (bellekte)
 HATA = []
@@ -150,7 +151,7 @@ HIRVAT_HAB = {
     "Bosna Brod'u (Bosanski Brod)": "1538-01-01", "Krupa (Bosanska Krupa)": "1565-01-01",
 }
 import os
-sys.path.insert(0, r"C:\atlas\arac")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 import girdi  # noqa: E402  yalnız hangi dosyada olduğunu okumak için
 NEREDE = {y["ad"]: y["_kaynak"] for y in girdi.yukle(sessiz=True)}
 

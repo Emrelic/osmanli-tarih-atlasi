@@ -12,7 +12,8 @@
 import io, json
 from collections import defaultdict
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 O = json.load(io.open(KOK + r"\denetim\SERHAT-DENIZ-0907.json", encoding="utf-8"))
 C = O["cift"]
 

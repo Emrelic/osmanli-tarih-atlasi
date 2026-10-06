@@ -4,7 +4,7 @@ Kullanım: py denetim/ARAC-LEGO-sayim.py [yol ...]"""
 import sqlite3, sys, os, time
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 yollar = sys.argv[1:] or [r"C:\atlas-onbellek\motor_onbellek.sqlite",
-                          r"C:\atlas\_motor_onbellek\motor_onbellek.sqlite"]
+                          os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_motor_onbellek", "motor_onbellek.sqlite")]
 for y in yollar:
     if not os.path.exists(y):
         print(y, "YOK"); continue

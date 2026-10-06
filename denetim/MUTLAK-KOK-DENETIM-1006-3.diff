@@ -1,0 +1,332 @@
+diff --git a/denetim/ARAC-ORTADOGU-MAGRIB-0907.py b/denetim/ARAC-ORTADOGU-MAGRIB-0907.py
+index ca2e3b9f..ec3a395b 100644
+--- a/denetim/ARAC-ORTADOGU-MAGRIB-0907.py
++++ b/denetim/ARAC-ORTADOGU-MAGRIB-0907.py
+@@ -19,7 +19,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-ORTADOGU-MISIR-0907.py b/denetim/ARAC-ORTADOGU-MISIR-0907.py
+index d10bdc2b..705b9888 100644
+--- a/denetim/ARAC-ORTADOGU-MISIR-0907.py
++++ b/denetim/ARAC-ORTADOGU-MISIR-0907.py
+@@ -10,7 +10,7 @@ import json
+ import os
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-ORTADOGU-TABAN-0906.py b/denetim/ARAC-ORTADOGU-TABAN-0906.py
+index edd800ea..45b8d7b6 100644
+--- a/denetim/ARAC-ORTADOGU-TABAN-0906.py
++++ b/denetim/ARAC-ORTADOGU-TABAN-0906.py
+@@ -14,7 +14,7 @@ import io
+ import os
+ import sys
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-ORTADOGU-TABAN-0906b.py b/denetim/ARAC-ORTADOGU-TABAN-0906b.py
+index e5f90abe..427af828 100644
+--- a/denetim/ARAC-ORTADOGU-TABAN-0906b.py
++++ b/denetim/ARAC-ORTADOGU-TABAN-0906b.py
+@@ -20,7 +20,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-ORTADOGU-URDUN-0907.py b/denetim/ARAC-ORTADOGU-URDUN-0907.py
+index 0b0742f5..50ebe0af 100644
+--- a/denetim/ARAC-ORTADOGU-URDUN-0907.py
++++ b/denetim/ARAC-ORTADOGU-URDUN-0907.py
+@@ -16,7 +16,7 @@ import subprocess
+ import sys
+ import tempfile
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+diff --git a/denetim/ARAC-ORTEN-KUNYE-0905.py b/denetim/ARAC-ORTEN-KUNYE-0905.py
+index b815464b..5e4a9396 100644
+--- a/denetim/ARAC-ORTEN-KUNYE-0905.py
++++ b/denetim/ARAC-ORTEN-KUNYE-0905.py
+@@ -24,7 +24,7 @@ import sys
+ import importlib.util as _ilu
+ from collections import Counter
+ 
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+ # ── KABA KUTULAR: id -> (lat_min, lat_max, lon_min, lon_max)
+diff --git a/denetim/ARAC-P13B-BOGAZ-0914.py b/denetim/ARAC-P13B-BOGAZ-0914.py
+index 33d3fb22..a2a95acc 100644
+--- a/denetim/ARAC-P13B-BOGAZ-0914.py
++++ b/denetim/ARAC-P13B-BOGAZ-0914.py
+@@ -9,7 +9,7 @@ DIŞINDA (su). Dijkstra bu kenardan geçiyor; gerçek maske geçmiyor.
+ peteğinin KARŞI YAKAYA düşen parçaları, alanı ve KV_MIN_KM2 eşiğine göre durumu."""
+ import io, json, os, sys, time, importlib.util, math
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ import numpy as np
+ import shapely
+ from shapely.geometry import Polygon, MultiPolygon, Point, LineString
+diff --git a/denetim/ARAC-P13B-DOLGU-KB-0914.py b/denetim/ARAC-P13B-DOLGU-KB-0914.py
+index 6ebdfbfd..9ed3c01d 100644
+--- a/denetim/ARAC-P13B-DOLGU-KB-0914.py
++++ b/denetim/ARAC-P13B-DOLGU-KB-0914.py
+@@ -10,7 +10,7 @@ sahipli) kullanılır; `_kusatilmis` kısmı (koşu 10: 160 ad) PETEK_D gerektir
+ DAHİL EDİLMEDİ. Kuşatılmış noktalar burada sahip/boş kovasına yanlış düşebilir."""
+ import ast, io, json, os, sys, time
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from shapely.geometry import shape, box, Point
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-P13B-GAT-0914.py b/denetim/ARAC-P13B-GAT-0914.py
+index 09285f84..a1e4019b 100644
+--- a/denetim/ARAC-P13B-GAT-0914.py
++++ b/denetim/ARAC-P13B-GAT-0914.py
+@@ -8,7 +8,7 @@ arasında B2'nin (`_b2_enklav_birlestir`) üç sınavı yeniden koşulur:
+ sahip_ix ≈ o gün d/v aktif (yazılı devir hariç) + ekleyici kapı (`_dolgu_kumesi` motordan)."""
+ import ast, io, json, os, sys, time, importlib.util, math
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from shapely.geometry import Polygon, MultiPolygon, Point, LineString, shape, box
+ from shapely.ops import unary_union, nearest_points
+diff --git a/denetim/ARAC-P13B-INCE-0914.py b/denetim/ARAC-P13B-INCE-0914.py
+index 82f979b0..ff657ff3 100644
+--- a/denetim/ARAC-P13B-INCE-0914.py
++++ b/denetim/ARAC-P13B-INCE-0914.py
+@@ -8,7 +8,7 @@ Soru: kıyı/göl kenarının kabalığını HANGİ adım üretiyor? Adaylar:
+ aralığı; aynı yerin ham NE / GOLLER(0.01) / GOLLER(0.002) karşılaştırması."""
+ import io, json, os, sys, time, importlib.util, math
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from shapely.geometry import Polygon, MultiPolygon, LineString, shape, box, Point
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-P13B-KARA-0914.py b/denetim/ARAC-P13B-KARA-0914.py
+index d0f33a68..c60daf32 100644
+--- a/denetim/ARAC-P13B-KARA-0914.py
++++ b/denetim/ARAC-P13B-KARA-0914.py
+@@ -4,7 +4,7 @@ KENDİ satırlarından (AST ile: `KARA_TOL = …` ile göller `try` bloğu aras
+ Motor KOŞULMAZ. Sonuç scratchpad'e WKB olarak önbelleğe alınır.
+ Kullanım: importlib ile yükle → kara_goller() → (KARA, GOLLER, BOLGE, ns)."""
+ import ast, io, json, os, sys, pickle, tempfile
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ ONBELLEK_DIZIN = (r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-"
+                   r"TAR-H-CO-RAFYA-S-TES-\695200e0-9040-42fa-b8ca-a816459e5434\scratchpad")
+diff --git a/denetim/ARAC-P13B-KUSATMA-0914.py b/denetim/ARAC-P13B-KUSATMA-0914.py
+index e9d6e1ee..8a76c062 100644
+--- a/denetim/ARAC-P13B-KUSATMA-0914.py
++++ b/denetim/ARAC-P13B-KUSATMA-0914.py
+@@ -11,7 +11,7 @@ Geometri: data/petek_govde.js (koşu 10 PETEK_D tabanı, ada göre eşlenir) ·
+ KARA: motorun kendi satırları (ARAC-P13B-KARA-0914.py)."""
+ import ast, io, json, os, sys, time, importlib.util, math
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from shapely.geometry import Polygon, MultiPolygon
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-P13B-SERBEST-0914.py b/denetim/ARAC-P13B-SERBEST-0914.py
+index f97291ba..ba99999e 100644
+--- a/denetim/ARAC-P13B-SERBEST-0914.py
++++ b/denetim/ARAC-P13B-SERBEST-0914.py
+@@ -4,7 +4,7 @@ uret_petek.py KOŞULMAZ. `serbest_sadelestir` + `hat_koord` + `SERBEST_SADE_TOL`
+ dosyanın KENDİSİNDEN AST ile çekilir; sentetik girdi + koşu 10 SERBEST havuzu."""
+ import ast, io, json, os, sys, math, time
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ from shapely.geometry import (LineString, MultiLineString, Point, GeometryCollection,
+                               LinearRing, Polygon, box)
+ from shapely.ops import linemerge
+diff --git a/denetim/ARAC-P13B-SEYRELT-0914.py b/denetim/ARAC-P13B-SEYRELT-0914.py
+index f59dda75..d08443e4 100644
+--- a/denetim/ARAC-P13B-SEYRELT-0914.py
++++ b/denetim/ARAC-P13B-SEYRELT-0914.py
+@@ -5,7 +5,7 @@ uret_petek.py KOŞULMAZ (19 saat). `seyrelt` + `don_kose_kur` dosyanın KENDİS
+ ikisi koşulur, çıktılar karşılaştırılır (MOTOR-HIMAYE yöntemi)."""
+ import ast, io, json, os, sys, random, subprocess, copy, time
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ from shapely.geometry import LinearRing, Polygon
+ 
+ ADLAR = {"seyrelt", "don_kose_kur"}
+diff --git a/denetim/ARAC-PAKET-KORLUK-1001.py b/denetim/ARAC-PAKET-KORLUK-1001.py
+index c1d4c870..7720f546 100644
+--- a/denetim/ARAC-PAKET-KORLUK-1001.py
++++ b/denetim/ARAC-PAKET-KORLUK-1001.py
+@@ -35,7 +35,7 @@ import re
+ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ HEPSI = "--hepsi" in sys.argv
+ 
+ H = io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
+diff --git a/denetim/ARAC-PRENSLIK-PENCERE-0911.py b/denetim/ARAC-PRENSLIK-PENCERE-0911.py
+index ecb14394..f350a292 100644
+--- a/denetim/ARAC-PRENSLIK-PENCERE-0911.py
++++ b/denetim/ARAC-PRENSLIK-PENCERE-0911.py
+@@ -30,7 +30,8 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ txt = io.open(KOK + r"\data\devletler.js", encoding="utf-8").read()
+ 
+diff --git a/denetim/ARAC-RUSYA-ATIF-UYGULA-1001.py b/denetim/ARAC-RUSYA-ATIF-UYGULA-1001.py
+index 51789be9..b2536957 100644
+--- a/denetim/ARAC-RUSYA-ATIF-UYGULA-1001.py
++++ b/denetim/ARAC-RUSYA-ATIF-UYGULA-1001.py
+@@ -30,7 +30,7 @@ import subprocess
+ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+-os.chdir(r"C:\atlas")
++os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ KURU = "--yaz" not in sys.argv
+ 
+ # 🔴 Gun dusurulmeyecekler — `RUSYA-GUN-DUSUR-OLCUM-1001.md` olcumu
+diff --git a/denetim/ARAC-RUSYA-BEYAN-1001.py b/denetim/ARAC-RUSYA-BEYAN-1001.py
+index 762d74bd..396aeb38 100644
+--- a/denetim/ARAC-RUSYA-BEYAN-1001.py
++++ b/denetim/ARAC-RUSYA-BEYAN-1001.py
+@@ -30,7 +30,7 @@ import subprocess
+ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+-os.chdir(r"C:\atlas")
++os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ KURU = "--yaz" not in sys.argv
+ YOL = "data/kronoloji_cok_rusya.js"
+ 
+diff --git a/denetim/ARAC-SAYIM-BIRIMI-0905.py b/denetim/ARAC-SAYIM-BIRIMI-0905.py
+index a3a9dc55..4caa8bd6 100644
+--- a/denetim/ARAC-SAYIM-BIRIMI-0905.py
++++ b/denetim/ARAC-SAYIM-BIRIMI-0905.py
+@@ -2,7 +2,7 @@
+ """M-3029 dogrulamasi: `urabi-pasa` 110 uc = KAC BENZERSIZ IDDIA?
+ Ve ayni sisme oteki slug'larda da var mi? SALT OKUR. ASCII."""
+ import io, os, sys, collections, unicodedata
+-KOK = r"C:\atlas"
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ os.chdir(KOK)
+ 
+diff --git a/denetim/ARAC-SERHAT-DENIZ-0907.py b/denetim/ARAC-SERHAT-DENIZ-0907.py
+index ac136619..5004a0e7 100644
+--- a/denetim/ARAC-SERHAT-DENIZ-0907.py
++++ b/denetim/ARAC-SERHAT-DENIZ-0907.py
+@@ -24,7 +24,8 @@ from collections import defaultdict
+ from shapely.geometry import shape, Point
+ from shapely.strtree import STRtree
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ ADIM_KM = 10.0
+ ESIK_KM = 30.0        # bundan uzun kesintisiz deniz -> KARA SINIRI DEGIL
+ 
+diff --git a/denetim/ARAC-SERHAT-KOVA-0907.py b/denetim/ARAC-SERHAT-KOVA-0907.py
+index e2597c80..2f2a3e8e 100644
+--- a/denetim/ARAC-SERHAT-KOVA-0907.py
++++ b/denetim/ARAC-SERHAT-KOVA-0907.py
+@@ -12,7 +12,8 @@
+ import io, json
+ from collections import defaultdict
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ O = json.load(io.open(KOK + r"\denetim\SERHAT-DENIZ-0907.json", encoding="utf-8"))
+ C = O["cift"]
+ 
+diff --git a/denetim/ARAC-SERHAT-MALIYET-0907.py b/denetim/ARAC-SERHAT-MALIYET-0907.py
+index ce270ab7..87aa7acf 100644
+--- a/denetim/ARAC-SERHAT-MALIYET-0907.py
++++ b/denetim/ARAC-SERHAT-MALIYET-0907.py
+@@ -14,7 +14,8 @@
+ import sys, io, math, json
+ from collections import defaultdict
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, KOK + r"\arac")
+ import girdi
+ 
+diff --git a/denetim/ARAC-SERHAT-NEHIR-0907.py b/denetim/ARAC-SERHAT-NEHIR-0907.py
+index 70086871..3a6ed2c1 100644
+--- a/denetim/ARAC-SERHAT-NEHIR-0907.py
++++ b/denetim/ARAC-SERHAT-NEHIR-0907.py
+@@ -25,7 +25,8 @@ from collections import defaultdict
+ from shapely.geometry import shape, LineString
+ from shapely.strtree import STRtree
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, KOK + r"\denetim")
+ from importlib import import_module
+ import importlib.util
+diff --git a/denetim/ARAC-SERHAT-NEHIRAD-0907.py b/denetim/ARAC-SERHAT-NEHIRAD-0907.py
+index 0a6daa6c..c752ea7b 100644
+--- a/denetim/ARAC-SERHAT-NEHIRAD-0907.py
++++ b/denetim/ARAC-SERHAT-NEHIRAD-0907.py
+@@ -19,7 +19,8 @@ esanlami veri KENDISI tasiyor, biz uydurmuyoruz.
+ import sys, io, json
+ from collections import defaultdict
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ gj = json.load(io.open(KOK + r"\veri-kaynak\ne_10m_rivers.geojson", encoding="utf-8"))
+ 
+ grup = defaultdict(set)
+diff --git a/denetim/ARAC-SERHAT-TARIH-0907.py b/denetim/ARAC-SERHAT-TARIH-0907.py
+index bcd89fa7..6393171b 100644
+--- a/denetim/ARAC-SERHAT-TARIH-0907.py
++++ b/denetim/ARAC-SERHAT-TARIH-0907.py
+@@ -22,7 +22,8 @@ Emre'nin UC sarti:
+ import sys, io, json
+ from collections import defaultdict
+ 
+-KOK = r"C:\atlas"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, KOK + r"\arac")
+ import girdi
+ 

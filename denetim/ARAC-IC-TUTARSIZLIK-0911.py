@@ -42,7 +42,7 @@ import subprocess
 import sys
 import tempfile
 
-REPO = r"C:\atlas"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(REPO, "data")
 TMP = tempfile.gettempdir()
 EXTRACT_JSON = os.path.join(TMP, "ic_tutarsizlik_extract.json")

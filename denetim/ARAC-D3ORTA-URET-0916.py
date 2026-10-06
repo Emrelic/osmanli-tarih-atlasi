@@ -17,7 +17,8 @@ from math import asin, cos, radians, sin, sqrt
 from shapely.geometry import LineString, Point, shape
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-KOK = "C:/atlas/"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
 CIKTI = KOK + "data/d_sinirlar_avrupa_orta.js"
 T = "1923-10-29"
 

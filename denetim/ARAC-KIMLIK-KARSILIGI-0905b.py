@@ -34,7 +34,7 @@ UCUNCU AYAK — URETIM KANITI (bu alet onu olcmez, ama kayda deger):
 SALT OKUR. Cikti ASCII.
 """
 import io, os, re, sys, unicodedata, collections
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEN = os.path.join(KOK, "denetim")
 
 # dususun GECERLI oldugu tek kategori (uret_petek.py:727)

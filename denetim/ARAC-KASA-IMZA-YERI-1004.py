@@ -1,6 +1,6 @@
 # KASA 4 Ekim 2026 - YALNIZ OLCUM. Kullanim: py denetim/ARAC-KASA-IMZA-YERI-1004.py cikti.json
 import sys, os, re, json, collections
-AR=r"C:\atlas\arac"; sys.path.insert(0,AR); os.chdir(AR)
+AR=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"); sys.path.insert(0,AR); os.chdir(AR)
 import denetle, girdi
 O=denetle.olaylari_yukle(); h={y["ad"]:y for y in girdi.yukle(sessiz=True)}
 ANT=re.compile(r"Antlaşma|Antlasma|Barış|Barışı|Mütareke|Sözleşme|Protokol|Konvansiyon|Kongre|Muahede|Ahidnâme|Tenkihnâme|Mukāsemenâme|Paylaşım|Taksim|Treaty|Peace",re.I)

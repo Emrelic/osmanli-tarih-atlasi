@@ -2,7 +2,8 @@
 """Tahtadan numarali mesaji TAM oku:  py <bu> 5024 [5025 ...]"""
 import io, json, sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-d = json.load(open(r"C:\atlas\oturumlar\tahta.json", encoding="utf-8"))
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+d = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "tahta.json"), encoding="utf-8"))
 ms = d["mesajlar"] if isinstance(d, dict) and "mesajlar" in d else d
 istenen = [a.lstrip("M-") for a in sys.argv[1:]] or ["-1"]
 if istenen == ["-1"]:

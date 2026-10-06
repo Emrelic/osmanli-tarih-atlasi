@@ -19,7 +19,7 @@ Kullanım: py denetim/ARAC-LEGO-0925-bit.py --kutu 26,36,45,42
 import argparse, io, json, os, re, shutil, subprocess, sys, time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.path.insert(0, r"C:\atlas\arac")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 import motor_esitlik as me  # noqa: E402
 
 AG = "C:/atlas-lego"
@@ -130,7 +130,7 @@ def main():
     ap.add_argument("--kutu", default="26,36,45,42")
     a = ap.parse_args()
     if not os.path.exists(AG):
-        subprocess.run(["git", "-C", r"C:\atlas", "worktree", "add", "--detach", AG, "HEAD"], check=True)
+        subprocess.run(["git", "-C", os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "worktree", "add", "--detach", AG, "HEAD"], check=True)
     os.makedirs(CIKTI, exist_ok=True)
     me.sira_al("LEGO-0925")
     try:

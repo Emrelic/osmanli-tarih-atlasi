@@ -2,7 +2,8 @@ import sys, json
 sys.stdout.reconfigure(encoding="utf-8")
 from shapely.geometry import Polygon, Point
 from shapely.ops import unary_union
-s = open("C:/atlas/data/devletler_harita.js", encoding="utf-8").read()
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+s = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devletler_harita.js"), encoding="utf-8").read()
 def dizi(ad):
     i = s.index("window." + ad + " =") + len("window." + ad + " =")
     return json.loads(s[i:s.index(";\n", i)])

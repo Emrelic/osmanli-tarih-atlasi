@@ -7,7 +7,7 @@ H-0086 çapa madde hiç var mı · H-0087 1892 Gadames d-sınırı · H-0103 Ref
 import io, os, re, sys, glob
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-KOK = r"C:\atlas\data"
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 dosyalar = sorted(glob.glob(os.path.join(KOK, "*.js")))
 satirlar = []
 for f in dosyalar:

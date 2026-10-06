@@ -23,7 +23,7 @@ nx, ny = int(d["nx"]), int(d["ny"])
 pts = d["pts"]
 DIS = (24.5, 34.5, 46.5, 43.5)
 KV = 0.05
-CIKTI = r"C:\atlas\denetim"
+CIKTI = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim")
 
 
 def hatlar(sahip):

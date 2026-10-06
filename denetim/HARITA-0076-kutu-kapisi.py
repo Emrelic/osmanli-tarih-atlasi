@@ -23,7 +23,8 @@ import re
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
-YOL = r'C:\atlas\data\hukuki_sinirlar.js'
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+YOL = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "hukuki_sinirlar.js")
 
 
 def kayitlar(metin):

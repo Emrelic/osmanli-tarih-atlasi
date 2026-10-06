@@ -4,7 +4,7 @@ onerilen iki `t:` kaydirmasi Degismez 2'yi (+-30 gun) bozar mi?
 Salt okur; arac/girdi.py'yi yalnizca ICE AKTARIR, degistirmez."""
 import io, os, re, sys, datetime
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 import girdi  # noqa
 

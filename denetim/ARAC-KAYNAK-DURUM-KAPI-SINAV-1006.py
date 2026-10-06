@@ -25,7 +25,7 @@ Kullanım: py denetim/ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py [--kok C:\\atlas]
 import argparse, contextlib, hashlib, importlib.util, io, json, os, shutil, sys, tempfile
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ap = argparse.ArgumentParser()
-ap.add_argument("--kok", default=r"C:\atlas")
+ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 KOK = ap.parse_args().kok
 
 spec = importlib.util.spec_from_file_location("kaynak_durum_sinav", os.path.join(KOK, "arac", "kaynak_durum.py"))

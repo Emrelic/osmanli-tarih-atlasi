@@ -3,7 +3,7 @@
 # Madde yeni sahibi anmiyor mu (F1) / yalniz kusatma-yikim mi anlatiyor (F2)?
 import sys, os, re, json, collections
 from datetime import date
-AR=r"C:\atlas\arac"; sys.path.insert(0,AR); os.chdir(AR)
+AR=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"); sys.path.insert(0,AR); os.chdir(AR)
 import denetle, girdi
 O=denetle.olaylari_yukle(); H=girdi.yukle(sessiz=True)
 N=denetle._2s_norm

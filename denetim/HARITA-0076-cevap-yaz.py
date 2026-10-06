@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR, bu makinede koşamaz: C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json
 """HARITA-0076 — kendi 19 maddesinin hükmünü CEVAP.json'a İŞLER.
 
 Sekiz oturum aynı dosyaya yazacağı için kör `json.dump` yapmaz:
@@ -13,7 +14,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 HEDEF = r'C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json'
-NUSHA = r'C:\atlas\denetim\HARITA-0076-CEVAP.json'
+NUSHA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "HARITA-0076-CEVAP.json")
 
 R = 'denetim/HARITA-0076.md'
 Y = 'denetim/HARITA-0076-YAMA-hukuki_sinirlar.md'

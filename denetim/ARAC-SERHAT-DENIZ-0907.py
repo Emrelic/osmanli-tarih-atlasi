@@ -24,7 +24,8 @@ from collections import defaultdict
 from shapely.geometry import shape, Point
 from shapely.strtree import STRtree
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ADIM_KM = 10.0
 ESIK_KM = 30.0        # bundan uzun kesintisiz deniz -> KARA SINIRI DEGIL
 

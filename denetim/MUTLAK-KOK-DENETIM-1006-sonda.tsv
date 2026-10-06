@@ -1,0 +1,107 @@
+dosya	ONCE (C: den, --kok yok)	SONRA
+denetim/ARAC-114-PAKET-0911.py	SONDA open[r]: C:\atlas\denetim\PAKET-PRENSLIK-PENCERE-0911.json	SONDA open[r]: C:\atlas-w56\denetim\PAKET-PRENSLIK-PENCERE-0911.json
+denetim/ARAC-4C-SIRALA-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-4D-SIRALA-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-AFRIKA-RENK-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-AFRIKA-SUDAN-RENK-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ALTINORDA-DUZELT-1001.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-B-ENKLAV-ARTIFAKT-0912.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/ARAC-B-ENKLAV-DAGILIM-0912.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-B-UCUZ-PARCALAR-0911.py	SONDA open[r]: C:\atlas\data\donemler.js	SONDA open[r]: C:\atlas-w56\data\donemler.js
+denetim/ARAC-BAGLA-GENEL-0903.py	SONDA yok: SystemExit(1) dokunmadan	SONDA yok: SystemExit(1) dokunmadan
+denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py	SONDA os.listdir: C:\atlas\oturumlar\bekci	SONDA os.listdir: C:\atlas\oturumlar\bekci
+denetim/ARAC-C-DENETIM-0911.py	SONDA open[r]: C:\atlas\data\hukuki_sinirlar.js	SONDA open[r]: C:\atlas-w56\data\hukuki_sinirlar.js
+denetim/ARAC-C-KAPSAMA-0911.py	SONDA open[r]: C:\atlas\veri-kaynak\ne_10m_rivers.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\ne_10m_rivers.geojson
+denetim/ARAC-C-VORONOI-KARLOFCA-0911.py	SONDA open[r]: C:\atlas\veri-kaynak\ne_10m_rivers.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\ne_10m_rivers.geojson
+denetim/ARAC-CAKISMA-KUME2-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-CAKISMA-KUME3-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-CAKISMA-MISIR5-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-D5-ASYA-NOKTA-BIRLESTIR-0917.py	SONDA open[r]: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\06fad4a8-e58e-4850-b3e8-c68a109e7e22\scratchpad\nokta_B.json	SONDA open[r]: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\06fad4a8-e58e-4850-b3e8-c68a109e7e22\scratchpad\nokta_B.json
+denetim/ARAC-DIZIN-TAMLIK-0911.py	SONDA subprocess-cwd: C:\atlas	SONDA subprocess-cwd: C:\atlas-w56
+denetim/ARAC-FAZ2-CUKUROVA-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-FAZ2-NOKTA-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-FAZ2-TDV-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-FAZ2-YAMA-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-GUN-COK-BORC-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-HAZIRLIK-0905.py	SONDA os.listdir: C:\atlas\denetim	SONDA os.listdir: C:\atlas-w56\denetim
+denetim/ARAC-IC-TUTARSIZLIK-0911.py	SONDA subprocess-cwd: C:\atlas	SONDA subprocess-cwd: C:\atlas-w56
+denetim/ARAC-ISG-FAZ2-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-IZYOK-C-KESIF-0910.py	SONDA os.listdir: C:\claudemre\kutu\giden	SONDA os.listdir: C:\claudemre\kutu\giden
+denetim/ARAC-KAYNAK-DURUM-KAPI-SINAV-1006.py	SONDA open[rb]: C:\atlas\oturumlar\KAYNAK-DURUM.json	SONDA open[rb]: C:\atlas-w56\oturumlar\KAYNAK-DURUM.json
+denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py	SONDA open[rb]: C:\atlas\oturumlar\KAYNAK-DURUM.json	SONDA open[rb]: C:\atlas-w56\oturumlar\KAYNAK-DURUM.json
+denetim/ARAC-KID-KESISIM-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-KID-OLCUM-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-KIMLIK-KARSILIGI-0905.py	SONDA open[r]: C:\atlas\js\app.js	SONDA open[r]: C:\atlas-w56\js\app.js
+denetim/ARAC-KIMLIK-KARSILIGI-0905b.py	SONDA open[r]: C:\atlas\js\app.js	SONDA open[r]: C:\atlas-w56\js\app.js
+denetim/ARAC-KOSU-SONRASI-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-KRONOLOJI-KUNYE-0911.py	SONDA open[r]: C:\atlas\data\devletler.js	SONDA open[r]: C:\atlas-w56\data\devletler.js
+denetim/ARAC-KUNYE-ALANI-0911.py	SONDA open[r]: C:\atlas\data\devletler.js	SONDA open[r]: C:\atlas-w56\data\devletler.js
+denetim/ARAC-KUNYE-ALANI-0912.py	SONDA open[r]: C:\atlas\denetim\YAMA-KUNYE-ALANI-0912.json	SONDA open[r]: C:\atlas-w56\denetim\YAMA-KUNYE-ALANI-0912.json
+denetim/ARAC-KUNYE-ONCESI-III-0911.py	SONDA open[r]: C:\atlas\data\devletler.js	SONDA open[r]: C:\atlas-w56\data\devletler.js
+denetim/ARAC-LAB-ODAK-UYGULA-1002.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-LAB-YER-UYGULA-1003.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-LEGO-0925-bit.py	SONDA subprocess: git -C C:\atlas worktree add --detach C:/atlas-lego HEAD	SONDA subprocess: git -C C:\atlas-w56 worktree add --detach C:/atlas-lego HEAD
+denetim/ARAC-LEGO-ZINCIR-SINAV-1006.py	SONDA subprocess-cwd: C:\atlas	SONDA subprocess-cwd: C:\atlas
+denetim/ARAC-LEGO-tuz.py	SONDA subprocess-cwd: C:\atlas	SONDA subprocess-cwd: C:\atlas-w56
+denetim/ARAC-LEGO-zincir.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas\arac\uret_petek.py
+denetim/ARAC-MAKINE-OLC-1001.py	SONDA subprocess: powershell -NoProfile -Command $c=Get-CimInstance Win32_Processor|Select-Object -First 1;'{0}|{1}|{2}|{3}' -f $c.Name,$c.NumberOfCores,$c.NumberOfLogicalProcess	SONDA subprocess: powershell -NoProfile -Command $c=Get-CimInstance Win32_Processor|Select-Object -First 1;'{0}|{1}|{2}|{3}' -f $c.Name,$c.NumberOfCores,$c.NumberOfLogicalProcess
+denetim/ARAC-MERGE-BAGIMLILIK-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-MISIR-SIRBISTAN-KOVA0-0911.py	SONDA subprocess: node -e global.window={};eval(require('fs').readFileSync(process.argv[1],'utf8'));const D=window.DEVLETLER;const out={};for (const d of D) out[d.id]=[d.f,d.t,d.	SONDA subprocess: node -e global.window={};eval(require('fs').readFileSync(process.argv[1],'utf8'));const D=window.DEVLETLER;const out={};for (const d of D) out[d.id]=[d.f,d.t,d.
+denetim/ARAC-MTR-ORTAK-0914.py	SONDA hata: FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:\\atlas\\data\\donemler.js'	SONDA hata: FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:\\atlas-w56\\data\\donemler.js'
+denetim/ARAC-ODAK-KAPAT-UYGULA-1001.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ODAK-KAPAT-UYGULA-1DUNYA-1001.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ODAK-UYGULA-1001.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-CEZAYIR-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-HICAZ-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-MAGRIB-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-MISIR-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-TABAN-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-TABAN-0906b.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTADOGU-URDUN-0907.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-ORTEN-KUNYE-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-P13B-BOGAZ-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-DOLGU-KB-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-GAT-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-INCE-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-KARA-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-KUSATMA-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-SERBEST-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-P13B-SEYRELT-0914.py	SONDA open[r]: C:\atlas\arac\uret_petek.py	SONDA open[r]: C:\atlas-w56\arac\uret_petek.py
+denetim/ARAC-PAKET-KORLUK-1001.py	SONDA open[r]: C:\atlas\index.html	SONDA open[r]: C:\atlas-w56\index.html
+denetim/ARAC-PRENSLIK-PENCERE-0911.py	SONDA open[r]: C:\atlas\data\devletler.js	SONDA open[r]: C:\atlas-w56\data\devletler.js
+denetim/ARAC-RUSYA-ATIF-UYGULA-1001.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-RUSYA-BEYAN-1001.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-SAYIM-BIRIMI-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-SERHAT-DENIZ-0907.py	SONDA open[r]: C:\atlas\denetim\SERHAT-TARIH-0907.json	SONDA open[r]: C:\atlas-w56\denetim\SERHAT-TARIH-0907.json
+denetim/ARAC-SERHAT-KOVA-0907.py	SONDA open[r]: C:\atlas\denetim\SERHAT-DENIZ-0907.json	SONDA open[r]: C:\atlas-w56\denetim\SERHAT-DENIZ-0907.json
+denetim/ARAC-SERHAT-MALIYET-0907.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/ARAC-SERHAT-NEHIR-0907.py	SONDA open[r]: C:\atlas\denetim\SERHAT-CIFT-0907.json	SONDA open[r]: C:\atlas-w56\denetim\SERHAT-CIFT-0907.json
+denetim/ARAC-SERHAT-NEHIRAD-0907.py	SONDA open[r]: C:\atlas\veri-kaynak\ne_10m_rivers.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\ne_10m_rivers.geojson
+denetim/ARAC-SERHAT-TARIH-0907.py	SONDA open[r]: C:\atlas\denetim\SERHAT-CIFT-0907.json	SONDA open[r]: C:\atlas-w56\denetim\SERHAT-CIFT-0907.json
+denetim/ARAC-SERHAT-TUNA-0907.py	SONDA open[r]: C:\atlas\veri-kaynak\ne_10m_rivers.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\ne_10m_rivers.geojson
+denetim/ARAC-SERHAT-ZAMAN-0907.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/ARAC-SINIRLI-VORONOI-0911.py	SONDA os.listdir: C:\atlas\arac	SONDA os.listdir: C:\atlas-w56\arac
+denetim/ARAC-TASIMA-0922.py	SONDA yok: SystemExit(2) dokunmadan	SONDA yok: SystemExit(2) dokunmadan
+denetim/ARAC-TASMA-PROTOTIP-0911.py	SONDA os.scandir: C:\Users\user\bin	SONDA os.scandir: C:\Users\user\bin
+denetim/ARAC-TBMM-CAKISMA-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-TBMM-CAKISMA-0905b.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-TBMM-ONERI-0905.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-TRIAJ-98-0930.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-VASSAL-KUNYE-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-VASSAL-KUNYE-0906b.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-VASSAL-TDV-0906.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/ARAC-YANLIS-OLAY-0911.py	SONDA subprocess-cwd: C:\atlas	SONDA subprocess-cwd: C:\atlas-w56
+denetim/HARITA-0076-olc.py	SONDA open[r]: C:\atlas\data\devletler_harita.js	SONDA open[r]: C:\atlas-w56\data\devletler_harita.js
+denetim/HARITA-0076-sivri.py	SONDA open[r]: C:\atlas\data\donemler.js	SONDA open[r]: C:\atlas-w56\data\donemler.js
+denetim/KRONO-0076-C-YAMA-uygula.py	SONDA open[r]: C:\atlas\data\olaylar.js	SONDA open[r]: C:\atlas-w56\data\olaylar.js
+denetim/KRONO-0076-C-olc.py	SONDA open[r]: C:\atlas\index.html	SONDA open[r]: C:\atlas-w56\index.html
+denetim/KRONO-0076-C-olc2.py	SONDA os.listdir: C:\atlas\data	SONDA os.listdir: C:\atlas-w56\data
+denetim/KRONO-0076-C-olc3.py	SONDA os.listdir: C:\atlas\data	SONDA os.listdir: C:\atlas-w56\data
+denetim/KRONO-0076-C-olc4.py	SONDA os.listdir: C:\atlas\data	SONDA os.listdir: C:\atlas-w56\data
+denetim/SINIR-CIZGI-0076-KAYIT.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/SINIR-CIZGI-0076-PIKSEL.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/SINIR-CIZGI-0076-ROMANYA.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/SINIR-CIZGI-0076-TOPLU-GUN.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/SINIR-CIZGI-0076-YERLESIM.py	SONDA os.chdir: C:\atlas	SONDA os.chdir: C:\atlas-w56
+denetim/SINIR-D-AVRUPA-BATI-0077-olc.py	SONDA hata: IndexError: list index out of range	SONDA hata: IndexError: list index out of range
+denetim/dogrula_puanlama.py	SONDA subprocess-cwd: C:\atlas	SONDA subprocess-cwd: C:\atlas-w56

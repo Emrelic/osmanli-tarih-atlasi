@@ -43,7 +43,7 @@ import subprocess
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
-os.chdir(r"C:\atlas")
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 KURU = "--yaz" not in sys.argv
 YOL = "data/kronoloji_cok_once1281_ortadogu.js"
 
