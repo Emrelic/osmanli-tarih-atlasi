@@ -1105,14 +1105,21 @@ function devletEtiketiTiklandi() {
 // Eski çağıranlar dönüşü okumuyor (davranışları bit bit aynı); devlet sekmesi
 // dalı `false`ta tâbi/kimlik kutusuna geri düşer (aşağıda `maddeAc`).
 var SEKME_ODAK_DUSEN = 0;   // devlet sekmesinde kamera kuramayan tıklama sayısı (KIRIM-ODAK-A)
+// Devlet gövdesinin `t` gününde ÇİZİLİ dönemi — yoksa null. 🆕 6 Ekim 2026
+// (YER-ARAMA-KUTUSU-1006): `devletiYay`dan çıkarıldı; "yer ara" kutusu bir
+// devleti ANCAK bu işlev dönem verirse listeler — yani tıklanınca `devletiYay`
+// mutlaka çerçeveleyebilir (listede olup uçamayan satır olmaz).
+function devletAktifDonem(s, t) {
+  for (var k = 0; k < s.dnm.length; k++) {
+    if (aktifAralik(s.dnm[k].fi, s.dnm[k].ti, t)) return s.dnm[k];
+  }
+  return null;
+}
 function devletiYay(id) {
   var s = null;
   for (var i = 0; i < devletler2.length; i++) if (devletler2[i].id === id) { s = devletler2[i]; break; }
   if (!s) return false;
-  var p = null;
-  for (var k = 0; k < s.dnm.length; k++) {
-    if (aktifAralik(s.dnm[k].fi, s.dnm[k].ti, suanki)) { p = s.dnm[k]; break; }
-  }
+  var p = devletAktifDonem(s, suanki);
   if (!p) return false;   // o an bu devlet sahnede değil (nesli tükenmiş/henüz doğmamış · ya da TÂBİ çizili)
   var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
   var mp = p.ft.geometry.coordinates;
@@ -3887,6 +3894,18 @@ function yabanciBaskentMi(ad, t) {
   return false;
 }
 
+// Şehir işaretinin `t` gününde AÇIK sahiplik penceresi (d/v/s) — yoksa null.
+// 🔴 TEK YÜKLEM: haritanın işareti çizip çizmemeye karar verdiği kural budur
+// (`sehirGuncelle`) ve "yer ara" kutusu (`yerAraAktif`) da BUNU çağırır.
+// Kuralı değiştiren ikisini birden değiştirir — kutu kendi kuralını yazmaz.
+function sehirAktifKayit(m, t) {
+  for (var i = 0; i < m.kayitlar.length; i++) {
+    var r = m.kayitlar[i];
+    if (r.fi <= t && t < r.ti) return r;
+  }
+  return null;
+}
+
 function sehirGuncelle(t) {
   if (!haritaHazir) return;
   if (!OLAY_YERI) olayYeriKur();
@@ -4075,11 +4094,9 @@ function sehirGuncelle(t) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
     }
-    var aktif = null;
-    for (var i = 0; i < m.kayitlar.length; i++) {
-      var r = m.kayitlar[i];
-      if (r.fi <= t && t < r.ti) { aktif = r; break; }
-    }
+    // 🆕 6 Ekim 2026 (YER-ARAMA-KUTUSU-1006): pencere yüklemi `sehirAktifKayit`a
+    // çıkarıldı — "yer ara" kutusu da AYNI işlevi çağırır (iki kopya kural yok).
+    var aktif = sehirAktifKayit(m, t);
     // 🔴 GEÇİCİ İŞARET KAPISI KALDIRILDI (kullanıcı kararı a).
     // Eskiden buradaydı ve şöyleydi:
     //     if (aktif && m.gecici && t >= aktif.fi+YONTEM_SURE && !anilan[mi])
@@ -9499,6 +9516,199 @@ document.querySelectorAll("#dizin-sekmeler button").forEach(function (b) {
   b.addEventListener("click", function () { dizinDoldur(b.dataset.s); });
 });
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 YER ARA KUTUSU — YER-ARAMA-KUTUSU-1006 (Emre, 6 Ekim 2026)
+// Emre: *"haritada bir sene içinde iken bir textbox olsun, şehir ismi yazılıp
+// tıklanınca haritanın odağı o şehre gitsin … o yılda henüz kayıtlarda ve
+// haritada yok ise listede GELMESİN"* + *"şehir ülke bölge kale ismi"*.
+// Rapor + sınav: denetim/UMIT-YER-ARAMA-KUTUSU-1006.md.
+//
+// 🔴 (A) TEK DİZİN ÜRETİCİSİ — evren haritanın ÇİZİM yüklemesinin AYNISI:
+//   ① yer   = `sehirler` (← `ISARET_KAYNAK`, haritanın şehir işaretleri);
+//            dosya adıyla süzme YOK (D267) — ne yüklendiyse o.
+//   ② devlet = `devletler2` (← `DEVLET_HARITA`, haritanın çizdiği gövdeler).
+// 🔴 (B) ÖLÇÜT ZAMAN ÇUBUĞUNUN GÜNÜ (`suanki`), yıl DEĞİL. "Aktif" kuralı
+//   YAZILMADI, ÇAĞRILDI: yer → `sehirAktifKayit` (sehirGuncelle'nin yüklemi),
+//   devlet → `devletAktifDonem` (devletiYay'ın yüklemi).
+// 🔴 (G) aktif küme GÜN BAŞINA BİR KEZ kurulur; önbellek anahtarı GÜNÜN
+//   KENDİSİDİR (`_YA.gun`) — gün değişince anahtar tutmaz, küme yeniden
+//   kurulur. Ayrı bir "geçersiz kıl" çağrısını unutmak MÜMKÜN DEĞİL; `guncelle`
+//   kancası yalnız AÇIK listeyi tazeler.
+// 🔴 (E) ODAK yeni bir kamera yolu DEĞİL: yer → dizinin `dizindenUc`u (aynı
+//   otoZoom kilidiyle), devlet → etiket tıklamasının `devletiYay`ı.
+// 📌 (F) Dizinin "Yerleşim Kronolojileri" araması GENİŞLETİLMEDİ: o sekme
+//   bilerek SÜZGEÇSİZDİR ("her yerleşim, her dönem") ve tıklaması tarihi
+//   DEĞİŞTİRİR; bu kutu tarihi DEĞİŞTİRMEZ. İki ayrı soru — ortak olan
+//   yükleme (A) ve kamera (E) ortak kaldı.
+// ═══════════════════════════════════════════════════════════════════════════
+// (C) Normalleştirici: projenin TEK Türkçe normalleştiricisi `SUZGEC.sgNorm`
+// (İ/ı/ş/ğ/ç/ö/ü/â/î/û + NFD aksan sökümü) SARILIR, KOPYALANMAZ (arama.js'in
+// gerekçesi: iki normalleştirici sessizce ayrışır). Üstüne yalnız NFD'nin
+// SÖKEMEDİĞİ harfler (ł ø đ ß æ œ ħ ð þ ı-dışı) ve ayraçlar eklenir.
+var _YA_ON = { "ł":"l","Ł":"l","ø":"o","Ø":"o","đ":"d","Đ":"d","ß":"ss","æ":"ae","Æ":"ae",
+               "œ":"oe","Œ":"oe","ħ":"h","Ħ":"h","ð":"d","Ð":"d","þ":"th","Þ":"th" };
+function yerAraNorm(s) {
+  s = String(s == null ? "" : s).replace(/[łŁøØđĐßæÆœŒħĦðÐþÞ]/g, function (c) { return _YA_ON[c]; })
+        .replace(/[ʾʿ]/g, "")              // ʾ ʿ (hemze/ayn) — sgNorm sökmüyor
+        .replace(/[-–—.,/·()]/g, " ");
+  return window.SUZGEC.sgNorm(s);
+}
+// "Klaipėda (Memel)" → ["klaipeda memel", "klaipeda", "memel"] — parantez içi AYRI anahtar.
+function _yaAnahtarlar(ad) {
+  var k = [], gor = {};
+  function ekle(x) { x = yerAraNorm(x); if (x && !gor[x]) { gor[x] = 1; k.push(x); } }
+  ad = String(ad || "");
+  ekle(ad.replace(/\s*\([^)]*\)/g, ""));            // ana ad (ilk anahtar = sıralama ölçütü)
+  var re = /\(([^)]*)\)/g, m;
+  while ((m = re.exec(ad))) ekle(m[1]);
+  ekle(ad);
+  return k;
+}
+var _YA_TUR = { sehir:"şehir", kale:"kale", liman:"liman", bolge:"bölge", kasaba:"kasaba",
+                koy:"köy", vaha:"vaha", konfederasyon:"konfederasyon" };
+var _YA = { dizin: null, gun: null, aktif: null, sec: -1, satirlar: [] };
+// Statik dizin: kayıt başına anahtarlar BİR KEZ (veri oturum boyunca değişmez).
+function _yaDizinKur() {
+  var D = [];
+  sehirler.forEach(function (m) {
+    D.push({ tip: "yer", m: m, ad: m.s.ad, g: m.s.g || 0, a: _yaAnahtarlar(m.s.ad) });
+  });
+  devletler2.forEach(function (s) {
+    var ad = devletAdi(s.id);
+    if (ad === s.id && s.ad) ad = s.ad;
+    var a = _yaAnahtarlar(ad);
+    if (s.ad && s.ad !== ad) _yaAnahtarlar(s.ad).forEach(function (x) { if (a.indexOf(x) < 0) a.push(x); });
+    // g:-1 — aynı eşleşme kademesinde YER önce gelir ("Venedik" yazan önce şehri görür).
+    D.push({ tip: "devlet", s: s, ad: ad, g: -1, a: a });
+  });
+  _YA.dizin = D;
+  console.log("Atlas: YER ARA — dizin " + D.length + " kayıt (yer " + sehirler.length +
+              " · devlet " + devletler2.length + "; kaynak: haritanın çizim yüklemesi)");
+}
+// (B)+(G) O GÜN haritada çizili olanlar — gün başına bir kez.
+function yerAraAktif(t) {
+  if (!_YA.dizin) _yaDizinKur();
+  if (_YA.gun === t && _YA.aktif) return _YA.aktif;
+  _YA.aktif = _YA.dizin.filter(function (e) {
+    return e.tip === "yer" ? !!sehirAktifKayit(e.m, t) : !!devletAktifDonem(e.s, t);
+  });
+  _YA.gun = t;
+  return _YA.aktif;
+}
+// (D) O GÜNÜN SAHİBİ — haritanın sahiplik kuralından (`SUZGEC.sahipAnahtari`,
+// `_yerlesimSerit`/boyama önceliğiyle AYNI: d > v > s); yeniden yazılmadı.
+function _yaSahip(e, t) {
+  if (e.tip === "devlet") return "o gün çizili gövde";
+  var y = e.m.s._orij, gs = _khGunStr(t);
+  if (!y || !window.SUZGEC || !SUZGEC.sahipAnahtari) return "";
+  var key = SUZGEC.sahipAnahtari(y, gs), ad = "";
+  if (key === "osmanli") ad = "Osmanlı";
+  else if (key.indexOf("tabi:") === 0) {
+    var kid = key.slice(5), vk = SUZGEC.aktifVAdi(y, gs);
+    ad = kid ? devletAdi(kid) + " (Osmanlı tâbi)" : (vk ? vk + " (Osmanlı tâbi)" : "Osmanlı tâbi");
+  } else if (key.indexOf("s:") === 0) ad = devletAdi(key.slice(2));
+  (y.isg || []).forEach(function (p) {
+    if (p.f <= gs && gs < p.t) ad += " · işgal: " + devletAdi(p.d);
+  });
+  return ad;
+}
+function yerAraBul(q, t) {
+  q = yerAraNorm(q);
+  if (!q) return [];
+  var bul = [];
+  yerAraAktif(t).forEach(function (e) {
+    var en = 9;
+    for (var i = 0; i < e.a.length; i++) {
+      var k = e.a[i], r = k === q ? 0 : k.indexOf(q) === 0 ? 1
+                       : k.indexOf(" " + q) >= 0 ? 2 : k.indexOf(q) >= 0 ? 3 : 9;
+      if (r < en) en = r;
+    }
+    if (en < 9) bul.push({ e: e, r: en });
+  });
+  bul.sort(function (a, b) {
+    return a.r - b.r || b.e.g - a.e.g || a.e.ad.localeCompare(b.e.ad, "tr");
+  });
+  return bul;
+}
+var YA_AZAMI = 30;
+(function yerAraKur() {
+  var giris = document.getElementById("yer-ara-giris");
+  var liste = document.getElementById("yer-ara-liste");
+  if (!giris || !liste) { console.warn("Atlas: YER ARA — #yer-ara-giris/#yer-ara-liste yok, kutu kurulmadı"); return; }
+  function kapat() { liste.classList.add("gizli"); liste.innerHTML = ""; _YA.sec = -1; _YA.satirlar = []; }
+  function isaretle(i) {
+    _YA.satirlar.forEach(function (d, j) { d.classList.toggle("secili", j === i); });
+    _YA.sec = i;
+    if (_YA.satirlar[i]) _YA.satirlar[i].scrollIntoView({ block: "nearest" });
+  }
+  function git(e) {
+    kapat();
+    giris.value = e.ad;
+    giris.blur();
+    if (e.tip === "yer") {
+      // Dizin sekmesinin şehir tıklamasıyla AYNI sıra (tarih HARİÇ: bu kutu
+      // o günde kalır) — otoZoom kilidi + `dizindenUc`.
+      otoZoom = false;
+      document.getElementById("btn-zoom").classList.add("pasif");
+      dizindenUc(e.m.s.lat, e.m.s.lon);
+    } else {
+      devletiYay(e.s.id);
+    }
+  }
+  function ciz() {
+    var q = giris.value;
+    if (!yerAraNorm(q)) { kapat(); return; }
+    var t = suanki, bul = yerAraBul(q, t);
+    liste.innerHTML = "";
+    _YA.satirlar = [];
+    var bas = document.createElement("div");
+    bas.className = "ya-bas";
+    bas.textContent = idxYazi(t) + " · " + _YA.aktif.length + " yer haritada · " +
+                      bul.length + " eşleşme" + (bul.length > YA_AZAMI ? " (ilk " + YA_AZAMI + ")" : "");
+    liste.appendChild(bas);
+    if (!bul.length) {
+      var y = document.createElement("div");
+      y.className = "ya-yok";
+      y.textContent = "Bu günde haritada bu adda yer yok";
+      liste.appendChild(y);
+    }
+    bul.slice(0, YA_AZAMI).forEach(function (b, i) {
+      var e = b.e, d = document.createElement("div");
+      d.className = "ya-satir";
+      d.setAttribute("role", "option");
+      d.innerHTML = '<span class="ya-ad"></span><span class="ya-tur"></span><span class="ya-sahip"></span>';
+      d.children[0].textContent = e.ad;
+      d.children[1].textContent = e.tip === "devlet" ? "devlet" : (_YA_TUR[e.m.s.tur] || e.m.s.tur || "yer");
+      d.children[2].textContent = _yaSahip(e, t);
+      if (e.tip === "yer") d.title = e.m.s.lat.toFixed(3) + "K, " + e.m.s.lon.toFixed(3) + "D";
+      // mousedown: `blur` listeyi kapatmadan ÖNCE seçilsin
+      d.addEventListener("mousedown", function (ev) { ev.preventDefault(); git(e); });
+      d.addEventListener("mousemove", function () { if (_YA.sec !== i) isaretle(i); });
+      d._e = e;
+      _YA.satirlar.push(d);
+      liste.appendChild(d);
+    });
+    liste.classList.remove("gizli");
+    if (_YA.satirlar.length) isaretle(0);
+  }
+  giris.addEventListener("input", ciz);
+  giris.addEventListener("focus", function () { if (giris.value) { giris.select(); ciz(); } });
+  giris.addEventListener("blur", function () { setTimeout(kapat, 120); });
+  giris.addEventListener("keydown", function (ev) {
+    var n = _YA.satirlar.length;
+    if (ev.key === "ArrowDown" && n) { isaretle((_YA.sec + 1) % n); ev.preventDefault(); }
+    else if (ev.key === "ArrowUp" && n) { isaretle((_YA.sec - 1 + n) % n); ev.preventDefault(); }
+    else if (ev.key === "Enter") {
+      if (_YA.satirlar[_YA.sec]) git(_YA.satirlar[_YA.sec]._e);
+      ev.preventDefault();
+    } else if (ev.key === "Escape") { kapat(); giris.blur(); ev.stopPropagation(); }
+  });
+  // Gün değişince AÇIK liste tazelenir (kapalıyken bedeli bir `if`).
+  window.yerAraGunDegisti = function () {
+    if (!liste.classList.contains("gizli")) ciz();
+  };
+})();
+
 // ---------- Zaman kontrolü ----------
 var kaydirici = document.getElementById("zaman");
 // 🔴 21 Ağustos — `tarihGoster` (#tarih-goster, alt çubuğun "gün ay yıl"
@@ -9719,6 +9929,9 @@ function guncelle() {
   // hemen çıkar (bkz. tanım, satır ~440), yani varsayılan durumda bu satırın
   // maliyeti bir `if` kadardır.
   agirOlc("guvenKusaklariGuncelle", function () { guvenKusaklariGuncelle(suanki); });
+  // YER-ARAMA-KUTUSU-1006: açık "yer ara" listesi yeni güne göre tazelenir
+  // (önbellek gün anahtarlı — kapalıyken maliyet bir `if`).
+  if (window.yerAraGunDegisti) window.yerAraGunDegisti();
   if (!_kirpmaKilitli) {
     agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
     agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
