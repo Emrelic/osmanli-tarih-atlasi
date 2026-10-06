@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 sys.stdout.reconfigure(encoding="utf-8")
-CIKTI = r"C:\atlas\denetim"
+CIKTI = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim")
 LOG = (r"C:\Users\emrem\AppData\Local\Temp\claude"
        r"\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-"
        r"\3d557ab4-454e-4b21-98e0-60171b40e6fd\tasks\b3ly9wsgt.output")

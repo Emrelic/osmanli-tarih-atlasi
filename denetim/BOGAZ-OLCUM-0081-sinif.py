@@ -72,5 +72,6 @@ print(f"  200 km² ALTI (ızgaraya sorulmadı): {len(alt)} · {sum(s['km2'] for 
 print(f"    kara hatlı aday alıcısı OLAN: {sum(1 for s in alt if s['aday_kara_hatli'])}")
 print(f"  200 km² ÜSTÜ (ızgara 'aynı sahip' dedi ya da kilit/kararsız): {len(satir)-len(alt)}")
 for s in sorted(satir, key=lambda s: -s["km2"])[:25]: print(" ", s)
-json.dump(satir, open("C:/atlas/denetim/BOGAZ-OLCUM-0081-sinif.json", "w", encoding="utf-8"),
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+json.dump(satir, open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "BOGAZ-OLCUM-0081-sinif.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=0)

@@ -9,7 +9,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 from shapely.geometry import shape, MultiPolygon, Polygon, box
 from shapely.ops import unary_union
 
-KOK = "C:/atlas/"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
 ULKELER = [  # (ISO_A3, ekranda yazı, renk) — Emre'nin H-0002 listesinin modern kısmı
     ("TUR", "Türkiye", "#c0392b"),
     ("FRA", "Fransa", "#2e5aa8"),

@@ -15,7 +15,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 from shapely.geometry import shape, Polygon, box
 from shapely.ops import unary_union
 
-KOK = "C:/atlas/"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
 CIKTI = KOK + "data/acilis_siluet.js"
 
 # (anahtar, tür, kaynak kimliği, ekranda ad, renk, seçim)

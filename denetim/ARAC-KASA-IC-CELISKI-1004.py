@@ -2,7 +2,7 @@
 # Kullanim: py denetim/ARAC-KASA-IC-CELISKI-1004.py cikti.json
 import sys, os, re, json, io, contextlib, collections
 from datetime import date
-AR=r"C:\atlas\arac"; sys.path.insert(0,AR); os.chdir(AR)
+AR=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"); sys.path.insert(0,AR); os.chdir(AR)
 if True:
     import denetle, girdi
     O=denetle.olaylari_yukle()

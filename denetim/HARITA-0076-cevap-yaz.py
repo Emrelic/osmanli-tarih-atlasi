@@ -13,7 +13,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 HEDEF = r'C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json'
-NUSHA = r'C:\atlas\denetim\HARITA-0076-CEVAP.json'
+NUSHA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "HARITA-0076-CEVAP.json")
 
 R = 'denetim/HARITA-0076.md'
 Y = 'denetim/HARITA-0076-YAMA-hukuki_sinirlar.md'

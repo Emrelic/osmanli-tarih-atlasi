@@ -13,17 +13,18 @@ D = G.Havuz('donemler.js', 'PARCALAR', 'PARCA_HALKA')
 DON = D._json('DONEMLER')
 H = G.Havuz('devletler_harita.js', 'DEVLET_PARCALAR', 'DEVLET_PARCA_HALKA')
 DH = H._json('DEVLET_HARITA')
-js = open('C:/atlas/data/devirler.js', encoding='utf-8').read()
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+js = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devirler.js"), encoding='utf-8').read()
 k = js.index('window.ISGALLER = ') + len('window.ISGALLER = ')
 I = json.loads(js[k:js.index(';\n', k)])
 MASKE = sys.argv[2] if len(sys.argv) > 2 else 'motor_kara'
-gj = json.load(open('C:/atlas/veri-kaynak/%s.geojson' % ('motor_kara' if MASKE == 'motor_kara' else 'ne_10m_land'), encoding='utf-8'))
+gj = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "%s.geojson") % ('motor_kara' if MASKE == 'motor_kara' else 'ne_10m_land'), encoding='utf-8'))
 KARA = [make_valid(shape(f['geometry'])) for f in (gj['features'] if 'features' in gj else [gj])]
 from shapely.strtree import STRtree
 KT = STRtree(KARA)
 GOL = []
 if MASKE != 'motor_kara':
-    gl = json.load(open('C:/atlas/veri-kaynak/ne_10m_lakes.geojson', encoding='utf-8'))
+    gl = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "ne_10m_lakes.geojson"), encoding='utf-8'))
     GOL = [make_valid(shape(f['geometry'])) for f in gl['features']]
 GT = STRtree(GOL) if GOL else None
 from shapely.geometry import Polygon
