@@ -17,13 +17,27 @@ Komşu çoğunluğu ölçütü İKİ YÖNDE DE yanıldı:
   Modern ABD'de olup 1783'te ABD'de OLMAYAN yerler var (Florida 1783'te
   İspanya'ya GERİ VERİLDİ, 1821'e kadar İspanyol). Onu ayrıca soruyorum.
 
-kullanım: py denetim/ARAC-1783-ULKE-SINA.py
+kullanım: py denetim/ARAC-1783-ULKE-SINA.py          (rapor GEÇİCİ dizine)
+          py denetim/ARAC-1783-ULKE-SINA.py --yaz    (denetim/_1783_ulke.json'u yeniden yaz)
+          py denetim/ARAC-1783-ULKE-SINA.py --cikti <yol>   (raporu verilen yola yaz)
+
+🔴 TÜKETİCİ: `denetim/ARAC-TRIYAJ-URET.js` bu raporu okur. Kayıtlı rapor
+artık her koşuda yenilenmediği için TRIYAJ onu OKUMAZ; bu betiği
+`--cikti <geçici>` ile KENDİSİ koşturur (UMIT-W31 1006b: kayıtlı raporu
+okuyan tüketici, bayat girdiyle sessizce yanlış kova üretebilirdi).
+
+CANLI DOSYAYA YAZMAZ (UMIT-W31-SINAV-YANETKI-1006): node yardımcısı eskiden
+`denetim/_1783_cikar.js`e (koşanın mutlak yolu gömülü) yazılıyordu, rapor
+her koşuda `denetim/_1783_ulke.json`u yeniden yazıyordu. Şimdi ikisi de
+geçici dizinde; kayıtlı rapor yalnız `--yaz` ile güncellenir.
 """
 import io
 import json
 import os
+import shutil
 import subprocess
 import sys
+import tempfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -54,10 +68,14 @@ for(const f of dosyalar){global.window={};
     }}
 console.log(JSON.stringify(out));
 """ % json.dumps(os.getcwd())
-yol = os.path.join("denetim", "_1783_cikar.js")
+GECICI = tempfile.mkdtemp(prefix="1783-ulke-sina-")
+yol = os.path.join(GECICI, "_1783_cikar.js")
 io.open(yol, "w", encoding="utf-8", newline="\n").write(JS)
-N = json.loads(subprocess.run(["node", yol], capture_output=True,
-                              text=True, encoding="utf-8").stdout)
+try:
+    N = json.loads(subprocess.run(["node", yol], capture_output=True,
+                                  text=True, encoding="utf-8").stdout)
+finally:
+    shutil.rmtree(GECICI, ignore_errors=True)
 print("`1783-09-03`te `abd`ye geçen nokta: %d\n" % len(N))
 
 # ---- ülke poligonları ----
@@ -140,6 +158,13 @@ for s in yanlis:
     print("     %-38s %s   (önceki: %s)"
           % (s["ad"], s["modern_ulke"], s["onceki"]))
 
-io.open("denetim/_1783_ulke.json", "w", encoding="utf-8", newline="\n").write(
+if "--cikti" in sys.argv[1:]:
+    cikti = sys.argv[sys.argv.index("--cikti") + 1]
+elif "--yaz" in sys.argv[1:]:
+    cikti = "denetim/_1783_ulke.json"
+else:
+    fd, cikti = tempfile.mkstemp(prefix="_1783_ulke-", suffix=".json")
+    os.close(fd)
+io.open(cikti, "w", encoding="utf-8", newline="\n").write(
     json.dumps(sonuc, ensure_ascii=False, indent=1) + "\n")
-print("\n-> denetim/_1783_ulke.json")
+print("\n-> " + cikti)

@@ -5,7 +5,8 @@
 **teslim hatası**dır — ve sessizdir, çünkü hesap doğrudur.
 
 Tarih: 5-6 Ekim 2026 gecesi · Aynı şekilli kusur **BİR GECEDE ÜÇ KEZ** çıktı, üçünü de
-ayrı oturumlar buldu.
+ayrı oturumlar buldu. 🆕 Aynı gece **iki yüz daha** eklendi (aşağıda): sınıf, "basılmayan
+sayı"dan **"ulaşmayan ÇIKTI"**ya genişledi.
 
 ## Üç vaka, aynı şekil
 ```
@@ -49,3 +50,45 @@ muhtemelen duruyor.
 
 İlgili: [`D240`](D240-arac-modeli-bicim-degisince.md) · [`D199`](D199-durum-tablosu-elle-yazilmaz.md) ·
 `CLAUDE.md §11` ("denetim var ≠ o soruyu soruyor")
+
+
+## 🆕 İki yeni yüz — aynı gece, ve ikincisinin bedeli ÖLÇÜLDÜ
+Sınıf yalnız SAYInın basılmaması değil; **üretilen hiçbir şeyin yoluna devam etmemesi.**
+Üç yüzün üçünde de iş ZATEN YAPILMIŞTIR ve üçü de *"yapılmamış"* gibi görünür:
+
+```
+① ÖLÇÜLEN SAYI BASILMIYOR      (yukarıdaki üç vaka)
+② ÖLÇÜLEN ÇIKTI COMMITLENMİYOR GLM1 TDV kesik ölçümü: 2.682 dosya ölçüldü, üç dosya
+                               00:53-01:07'de diske yazıldı, takipsiz kaldı. Ne
+                               origin/main'de ne uzak dallarda. GLM commitleyemez (dış
+                               YZ); boru hattı KOORDİNATÖRDE ve koordinatör atladı.
+                               Bir başka oturum "bu ölçüm yapılmamış" diye bakıyordu.
+③ YAZILAN ÇARE İNDİRİLMİYOR    W10'un bekçi kimlik düzeltmesi (D266) main'de ÜÇ DIFF
+                               DOSYASI olarak duruyordu, koda UYGULANMAMIŞTI.
+                               `bekci_olc` "ASILI (süreç var, nabız YOK)" bastı.
+```
+
+### ③'ün ölçülmüş bedeli — ve niçin bu yüz en pahalısı
+Koordinatör `ASILI`yı gördü ve **"kod YAZILMADI"** diye okudu; bir kalem açıp işçi
+istedi. Doğrusu **"kod İNMEDİ"**ydi. İrtibat oturumu *"ZATEN YAPILDI, yeni işçi
+açmadım"* diyerek kalemi durdurdu — yoksa taze bir kıta, bitmiş bir işi yeniden
+yapacaktı.
+🔴 **İki teşhis AYNI BELİRTİYİ verir ve çareleri ZITTIR:**
+```
+"kod yazılmadı"  → çare: İŞÇİ AÇ          (bedel ≈ 82.000 token taze taban)
+"kod inmedi"     → çare: KUYRUĞU AKIT     (bedel ≈ üç `git apply`)
+```
+Uygulama sonrası ölçüm: `ASILI 1 → 0`; 1610 damgası `BITMIS` oldu ve **sebebini bastı**
+(*"PID 20764'ün bugünkü sahibi son nabızdan 19982 sn SONRA başlamış"*). Yani çare
+baştan beri doğruydu ve iki gün boyunca bir yanlış alarm üretmeye devam etti.
+
+## Kural — 2. maddeye EK
+4. 🔴 **Bir kalem AÇMADAN ÖNCE "bu iş zaten yapılmış ve İNMEYİ bekliyor olabilir mi"
+   diye KUYRUĞA bakılır.** Belirti, işin yapılıp yapılmadığını söylemez; yalnız
+   SONUCUN ortada olmadığını söyler.
+5. 🔴 **Dış YZ'nin ya da commitleyemeyen bir işçinin çıktısını COMMITLEMEK, o işi
+   verenin borcudur.** "Diske yazıldı" teslim değildir (§7.1 ⑤: *commit teslim
+   değildir* kuralının tersi yönü — burada commit bile yok).
+6. İrtibat/koordinasyon oturumu **"diskte bekleyen, mesajı gelmemiş"** satırını tutar.
+   Bu satır, 4. maddeyi uygulanabilir kılan tek şeydir; yoksa kuyruk görünmez ve
+   "indi mi" sorusu her seferinde elle aranır.

@@ -14,8 +14,15 @@
 const fs = require('fs');
 global.window = {}; global.document = {};
 const html = fs.readFileSync('index.html', 'utf8');
-const src = [...html.matchAll(/<script src="(data\/[^"?]+)/g)].map(m => m[1]);
-const HEDEF = 'data/kronoloji_cok_1dunya_A.js';
+// W32 (6 Ekim): HEDEF artık data/paket_09.js'in İÇİNDE. Paketi yüklemek HEDEF'i de
+// yüklüyordu ⇒ aşağıdaki `continue` dışlaması BOŞA düşüyor, HEDEF iki kez okunuyor ve
+// sınav kendi maddelerini "MÜKERRER ŞÜPHESİ" diye işaretliyordu (4 sahte şüphe, çıkış 1).
+// Paketler açılır; dışlama yine dosya düzeyinde çalışır.
+const IK = require("./INDEX-KAYNAK-1006.js");
+const src = IK.kaynaklar(html, /<script src="(data\/[^"?]+)/);
+if (!src.includes(HEDEF_DOSYA())) { console.log("⚫ ÖLÇÜLEMEDİ — HEDEF index.html'in açık listesinde yok"); process.exit(2); }
+const HEDEF = HEDEF_DOSYA();
+function HEDEF_DOSYA() { return 'data/kronoloji_cok_1dunya_A.js'; }
 for (const f of src) {
   if (f === HEDEF) continue;
   try { eval(fs.readFileSync(f, 'utf8')); } catch (e) { console.error('YUKLEME HATASI', f, e.message); }

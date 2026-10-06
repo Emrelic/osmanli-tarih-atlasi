@@ -28,7 +28,6 @@ import io
 import json
 import os
 import re
-import subprocess
 import sys
 import time
 
@@ -56,28 +55,129 @@ KUSKU_KAT = 5.0      # <= 5   tur  -> kuşkulu
 TABAN = 90           # `ara` okunamazsa / 0 ise varsayılan saniye
 
 
-def _surec_var(pid):
-    """PID hâlâ koşuyor mu. Bilinemezse None döner — 'yok' DEMEZ.
+def _surec_kimlik(pid):
+    """("VAR", başlangıç) · ("YOK", None) · (None, sebep) — PID'in ŞU ANKİ sahibi.
 
-    🔴 ÖLÇÜLEMEDİ ≠ YOK (CLAUDE.md §11). PID okunamıyorsa ya da sorgulanamıyorsa
-    süreci 'ölü' saymak, aletin düzeltmeye çalıştığı yanlış alarmın aynısını
-    üretir. Üç cevap var: VAR · YOK · BİLİNMİYOR.
+    Windows: kernel32 OpenProcess + GetExitCodeProcess + GetProcessTimes.
+    `tahta_bekci.py` başlangıcı AYNI API ile yazar ⇒ karşılaştırma birebir.
+      hata 87 (geçersiz parametre)  → süreç YOK
+      çıkış kodu ≠ 259 (STILL_ACTIVE) → süreç bitmiş, tutamaç kalıntı → YOK
+      hata 5 (erişim reddi) ve öteki → BİLİNMİYOR (None)
+    🔴 `os.kill(pid, 0)` Windows'ta süreci ÖLDÜRÜR (TerminateProcess) — kullanılmaz.
+    Eski yol `tasklist` idi: yalnız PID sorar, başlangıç vermez (D266'nın kökü).
+    """
+    if os.name != "nt":
+        return None, "Windows dışı: başlangıç zamanı okunmuyor"
+    try:
+        import ctypes
+        from ctypes import wintypes
+        k32 = ctypes.WinDLL("kernel32", use_last_error=True)
+        k32.OpenProcess.restype = wintypes.HANDLE
+        k32.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
+        k32.GetExitCodeProcess.argtypes = [wintypes.HANDLE, ctypes.POINTER(wintypes.DWORD)]
+        k32.GetProcessTimes.argtypes = [wintypes.HANDLE] + [ctypes.POINTER(wintypes.FILETIME)] * 4
+        k32.CloseHandle.argtypes = [wintypes.HANDLE]
+        h = k32.OpenProcess(0x1000, False, pid)        # PROCESS_QUERY_LIMITED_INFORMATION
+        if not h:
+            hata = ctypes.get_last_error()
+            if hata == 87:
+                return "YOK", None
+            return None, "OpenProcess hata %d" % hata
+        try:
+            kod = wintypes.DWORD()
+            if not k32.GetExitCodeProcess(h, ctypes.byref(kod)):
+                return None, "GetExitCodeProcess hata %d" % ctypes.get_last_error()
+            if kod.value != 259:
+                return "YOK", None
+            c, e, kk, u = (wintypes.FILETIME() for _ in range(4))
+            if not k32.GetProcessTimes(h, ctypes.byref(c), ctypes.byref(e),
+                                       ctypes.byref(kk), ctypes.byref(u)):
+                return None, "GetProcessTimes hata %d" % ctypes.get_last_error()
+            return "VAR", (c.dwHighDateTime << 32) | c.dwLowDateTime
+        finally:
+            k32.CloseHandle(h)
+    except Exception as e:
+        return None, "sorgu arızası: %s" % e
+
+
+def _ft_epoch(ft):
+    """FILETIME (1601'den 100 ns, UTC) → Unix epoch saniye."""
+    return ft / 1e7 - 11644473600
+
+
+# Damganın `damga` alanı int(time.time()) — saniyeye KESİLMİŞ. Bekçi açılır açılmaz
+# ilk nabzını aynı saniye içinde yazarsa başlangıç, kesilmiş damgadan <1 sn SONRA
+# görünür. Bu pay o kesmeyi örter; "sahip olamaz" hükmü yalnız bunun ötesinde verilir.
+NABIZ_PAY_SN = 2
+
+
+def _surec_var(pid, baslangic=None, son_nabiz=None):
+    """(True|False|None, açıklama) — DAMGAYI YAZAN süreç hâlâ koşuyor mu.
+
+    🔴 SÜREÇ KİMLİĞİ = PID + BAŞLANGIÇ ZAMANI (D266). PID yeniden kullanılır:
+    damganın PID'i bugün BAŞKA bir sürece ait olabilir. Vaka (5 Ekim):
+    {"pid":20764} 18:32 damgası, PID başka sürece verilmiş, `tasklist` "var"
+    dedi, alet ASILI bastı — yanlış alarm, kanal zehirlendi.
+      PID'in sahibi yok                                  → False (BITMIS)
+      sahip var, başlangıç damgayla AYNI                  → True  (bizim süreç ayakta)
+      sahip var, başlangıç FARKLI                         → False (PID yeniden kullanılmış)
+      sahip var, damgada başlangıç YOK (eski) ve
+        sahibin başlangıcı SON NABIZDAN SONRA              → False (o süreç yazamazdı)
+        sahibin başlangıcı son nabızdan önce / ölçülemez   → None  (kimlik doğrulanamaz)
+      sorgulanamadı                                      → None
+    🔴 ÖLÇÜLEMEDİ ≠ YOK (CLAUDE.md §11): None "yok" sayılmaz.
+    `son_nabiz`: damganın `damga` alanı (epoch sn, UTC). Başlangıç FILETIME'ı ile
+    aynı eksene `_ft_epoch` çevirir; saat dilimi yoktur.
     """
     try:
         pid = int(pid)
     except (TypeError, ValueError):
-        return None
+        return None, "damgada geçerli PID yok"
     if pid <= 0:
-        return None
+        return None, "damgada geçerli PID yok"
+    durum, deger = _surec_kimlik(pid)
+    if durum is None:
+        return None, deger
+    if durum == "YOK":
+        return False, "süreç yok"
+    if baslangic is None:
+        # ⚖️ ESKİ DAMGA (başlangıç alanı yazılmadan önceki bekçi). PID'in bir
+        #    sahibi var ama onun bizim bekçi olduğu doğrulanamaz.
+        #    HÜKÜM (koordinatör, D266, 6 Ekim 2026): ÖLÇÜLEMEDİ — BITMIS DEĞİL.
+        #    ASILI demek D266'nın yanlış alarmını sürdürür; BITMIS demek gerçek
+        #    bir asılı bekçiyi susturur VE `--temizle` onu SİLER. ÖLÇÜLEMEDİ
+        #    `--temizle`den geçmez (yalnız BITMIS silinir). Sınav:
+        #    `denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py` T1-T3.
+        # 🔴 AMA BİR SINIR ÖLÇÜLEBİLİR (D266 ikinci vaka, 5-6 Ekim): damga
+        #    {"pid":22632,"zaman":"18:55:36"} — PID'in bugünkü sahibi msedge,
+        #    23:55:33'te başlamış, son nabızdan 5 SAAT SONRA. Damgayı yazan süreç
+        #    son nabızdan ÖNCE başlamış olmak ZORUNDA ⇒ sonra başlayan süreç sahip
+        #    OLAMAZ ⇒ BITMIS. Bu, başlangıç alanı OLMADAN verilebilen tek kesin
+        #    hükümdür. Ters yön (başlangıç ≤ son nabız) hiçbir şey kanıtlamaz:
+        #    OLCULEMEDI kalır. Ölçüldü: yamasız main bu damgaya ASILI, 1006b
+        #    OLCULEMEDI diyordu; "yama inince BITMIS'e düşer" beklentisi tutmuyordu.
+        #    Üçüncü vaka aynı gece: {"pid":20764,"zaman":"18:32:28"} (ilk D266
+        #    damgası) — PID arada YOKtu, 00:05:30'da remoting_native_messaging_host
+        #    (Remote Control köprüsü) aldı. Aynı kural: BITMIS.
+        # 📌 ŞARTNAME CÜMLESİ (koordinatör): PID yeniden kullanımı koordinasyon
+        #    trafiğiyle (Remote Control köprü süreçleri) ve bellek boşaltmayla
+        #    (Edge kapat/aç) artar; bu kusur en yoğun gecede öter, yani alarm
+        #    kanalı tam ihtiyaç duyulduğu anda en gürültülüdür.
+        try:
+            nabiz = float(son_nabiz)
+        except (TypeError, ValueError):
+            nabiz = None
+        if nabiz and deger is not None and _ft_epoch(deger) > nabiz + NABIZ_PAY_SN:
+            return False, ("PID %d'in bugünkü sahibi son nabızdan %d sn SONRA başlamış — "
+                           "damgayı o yazamaz (eski damga)" % (pid, _ft_epoch(deger) - nabiz))
+        return None, "eski damga: başlangıç zamanı yok, PID %d'in sahibi doğrulanamıyor" % pid
     try:
-        # Windows: tasklist en taşınabilir yol (os.kill(pid,0) burada
-        # ayrıcalık hatası verebiliyor ve 'yok' gibi görünüyor).
-        p = subprocess.run(["tasklist", "/FI", "PID eq %d" % pid, "/NH"],
-                           capture_output=True, timeout=10)
-        cik = (p.stdout or b"").decode("utf-8", "replace")
-        return str(pid) in cik
-    except Exception:
-        return None
+        baslangic = int(baslangic)
+    except (TypeError, ValueError):
+        return None, "damgadaki başlangıç okunamadı: %r" % (baslangic,)
+    if deger == baslangic:
+        return True, "süreç ayakta (PID + başlangıç uyuşuyor)"
+    return False, "PID %d YENİDEN KULLANILMIŞ (başlangıç uyuşmuyor)" % pid
 
 
 def oku():
@@ -116,7 +216,7 @@ def oku():
         #     süreç YOK   → BITMIS  (ad değişmiş YA DA çökmüş — ikisi
         #                   damgadan ayırt edilemez, o yüzden iddia etmiyoruz)
         #     süreç VAR   → ASILI   (🔴 CİDDİ HÂL: süreç ayakta, nabız yok)
-        canli_surec = _surec_var(d.get("pid"))
+        canli_surec, surec_not = _surec_var(d.get("pid"), d.get("baslangic"), d.get("damga"))
         if durum == "cikti":
             hal = "CIKTI"            # düzgün çıkış — ölüm DEĞİL, bitiş
         elif yas <= ara * CANLI_KAT:
@@ -129,7 +229,7 @@ def oku():
             hal = "BITMIS"           # süreç YOK: ad değişmiş ya da çökmüş
         else:
             # 🔴 canli_surec is None ⇒ SÜREÇ DURUMU ÖLÇÜLEMEDİ (pid yok/geçersiz,
-            #    tasklist başarısız). Bunu "süreç yok" saymak, bu yamanın
+            #    sorgu başarısız, ESKİ damgada başlangıç yok — D266). Bunu "süreç yok" saymak, bu yamanın
             #    DÜZELTTİĞİ hatanın aynısını yeniden yapmak olurdu — ve ilk
             #    yazımımda TAM BUNU yaptım: `elif canli_surec:` yazıp None'ı
             #    sessizce "yok"a kattım, yani üç durumlu yazdığım işlevi iki
@@ -139,6 +239,7 @@ def oku():
         out.append({"ad": d.get("ad") or ad[:-5], "hal": hal, "yas": yas,
                     "ara": ara, "tur": d.get("tur"), "pid": d.get("pid"),
                     "zaman": d.get("zaman"), "sebep": d.get("sebep") or "",
+                    "surec": surec_not, "baslangic": d.get("baslangic"),
                     "dinlenen": d.get("dinlenen") or []})
     return out
 
@@ -243,8 +344,10 @@ def main(argv):
     for k in sorted(kayit, key=lambda x: (x["hal"] not in ("ASILI","BITMIS"), x["ad"])):
         not_ = k.get("sebep") or ""
         if k["hal"] in ("ASILI", "BITMIS"):
-            not_ = "beklenen <= %s · SUREC DUSMUS olabilir" % _sure(
-                int(k["ara"] * CANLI_KAT))
+            not_ = "beklenen <= %s · %s" % (_sure(int(k["ara"] * CANLI_KAT)),
+                                            k.get("surec") or "")
+        elif k["hal"] == "OLCULEMEDI" and k.get("surec"):
+            not_ = k["surec"]
         elif k["hal"] == "CIKTI":
             not_ = "duzgun cikis (%s) — olum DEGIL" % (not_ or "sebep yazilmamis")
         print("%s%-25s %-11s %-10s %-7s %s"

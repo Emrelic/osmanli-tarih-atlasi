@@ -12,13 +12,15 @@ const LISTE = process.argv.indexOf("--liste") >= 0;
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
 const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
   .filter(s => /olaylar|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
 ["kaynakli_halka_ferhatpasa", "kaynakli_halka_tekil", "kaynakli_halka_kronoloji", "kaynakli_halka_fetih"].forEach(a => yukle("data/" + a + ".js"));
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
 const Y = W.YERLESIMLER, PET = W.PETEKLER || [], KUNYE = W.DEVLETLER || [];
+IK.yerlesimKapisi(Y);
 const KIX = {}; KUNYE.forEach(k => { if (k && k.id) KIX[k.id] = k; });
 const petAd = {}; PET.forEach((p, i) => { if (p && p.a) (petAd[p.a] = petAd[p.a] || []).push(i); });
 console.log("YERLESIMLER", Y.length, "· PETEKLER", PET.length, "· künye", KUNYE.length);

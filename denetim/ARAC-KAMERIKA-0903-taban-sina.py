@@ -12,12 +12,17 @@ koşturur — çünkü değişmemiş bir tabana karşı "yeniden ölçtüm" deme
 hiç ölçmemekten kötüdür.
 
 PROJE KÖKÜNDEN:  py denetim/ARAC-KAMERIKA-0903-taban-sina.py
+
+CANLI DOSYAYA YAZMAZ (UMIT-W31-SINAV-YANETKI-1006): ömür dökümü eskiden
+`denetim/_omur.json`a (izlenmeyen yeni dosya) yazılıyordu; artık geçici dosya.
 """
 import io
 import json
 import math
+import os
 import re
 import sys
+import tempfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, "arac")
@@ -95,9 +100,14 @@ omur = {}
 for m in re.finditer(r'id\s*:\s*"([^"]+)"', s):
     pass
 import subprocess                                          # noqa: E402
-subprocess.run(["node", "denetim/ARAC-KAMERIKA-0903-omur.js"],
-               stdout=io.open("denetim/_omur.json", "w", encoding="utf-8"))
-omur = json.load(io.open("denetim/_omur.json", encoding="utf-8-sig"))
+fd, OMUR = tempfile.mkstemp(prefix="_omur-", suffix=".json")
+os.close(fd)
+try:
+    with io.open(OMUR, "w", encoding="utf-8") as cik:
+        subprocess.run(["node", "denetim/ARAC-KAMERIKA-0903-omur.js"], stdout=cik)
+    omur = json.load(io.open(OMUR, encoding="utf-8-sig"))
+finally:
+    os.unlink(OMUR)
 
 
 def gun(v):

@@ -24,7 +24,8 @@ import shapely
 from shapely.geometry import box
 from shapely.ops import unary_union
 
-DEN = r"C:\atlas\denetim"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEN = os.path.join(KOK, "denetim")
 
 
 def modul(ad, dosya):
@@ -60,8 +61,8 @@ def main():
     sp = importlib.util.spec_from_file_location("etki", os.path.join(DEN, "ARAC-LEGO-etki.py"))
     et = importlib.util.module_from_spec(sp)
     exec(compile(open(sp.origin, encoding="utf-8").read().replace("\nmain()\n", "\n"), sp.origin, "exec"), et.__dict__)
-    Y, B = et.yukle(r"C:/atlas-kosu15")
-    REF = puan_fonk(r"C:\atlas\arac\uret_petek.py")
+    Y, B = et.yukle(os.path.join(os.path.dirname(KOK), "atlas-kosu15"))
+    REF = puan_fonk(os.path.join(KOK, "arac", "uret_petek.py"))
     YAM = puan_fonk(yamali)
     ortak = dict(YERLER=Y, _kvx0=-180, _kvy0=-60, _kvnx=int(round(360 / 0.05)), _kvny=int(round(145 / 0.05)))
     for ns in (REF, YAM):

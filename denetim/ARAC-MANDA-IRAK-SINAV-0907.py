@@ -64,14 +64,52 @@ if not (k.get("f") <= GUN <= (k.get("t") or "9999")):
 print("    -> pencere gunu KAPSIYOR")
 
 # ─── (3) TABAN ────────────────────────────────────────────────────────
-ALANLAR4 = ("ihlal", "kunyesiz", "ok", "asan", "once")
+# W32 (6 Ekim): ESKI SABIT `ALANLAR4` (5 alan) BAYATLADI — degismez4 6. alani
+# (`cok_harita`) ekledi, sinav "DONUS YAPISI DEGISTI" deyip DURUYORDU. Alan
+# adlari artik ALETIN KENDI KAYNAGINDAN okunur: degismez4'un SON `return`
+# demeti (AST). Erken cikis `return [], [], ...` isim tasimaz, sayilmaz.
+import ast       # noqa: E402
+import inspect   # noqa: E402
+
+
+def alanlar4(kaynak):
+    agac = ast.parse(kaynak)
+    son = max((n for n in ast.walk(agac) if isinstance(n, ast.Return)
+               and isinstance(n.value, ast.Tuple)), key=lambda n: n.lineno)
+    adlar = tuple(e.id if isinstance(e, ast.Name) else
+                  ("ok" if isinstance(e, ast.Constant) and e.value is True else None)
+                  for e in son.value.elts)
+    if None in adlar:
+        raise ValueError("son return ADLANDIRILAMADI: %s" % ast.dump(son.value)[:200])
+    return adlar
+
+
+# Okuyucunun kendisi iki yonde sinanir (YAPAY kaynak): erken cikis sayilmaz,
+# SON return okunur · adsiz eleman (cagri) REDDEDILIR — sessizce yanlis ad vermez.
+_yapay = "def f(Y):\n    if not Y:\n        return [], [], False\n    return a, b, True, c\n"
+assert alanlar4(_yapay) == ("a", "b", "ok", "c"), alanlar4(_yapay)
+try:
+    alanlar4("def f():\n    return a, g(x)\n")
+    raise SystemExit("OKUYUCU adsiz elemani YUTTU — negatif kontrol kaldi")
+except ValueError:
+    pass
+try:
+    ALANLAR4 = alanlar4(inspect.getsource(denetle.degismez4))
+except ValueError as h:
+    raise SystemExit("degismez4 %s" % h)
+GEREKEN = ("ihlal", "kunyesiz", "asan", "once")       # bu sinavin OKUDUGU alanlar
+eksik = [a for a in GEREKEN if a not in ALANLAR4]
+if eksik:
+    raise SystemExit("degismez4 artik %s DONDURMUYOR — sinav anlamini yitirdi" % eksik)
+print("\n    degismez4 alanlari (kaynaktan): %s" % (ALANLAR4,))
 
 
 def d4(kume):
     r = denetle.degismez4(kume)
     if not isinstance(r, tuple) or len(r) != len(ALANLAR4):
-        raise SystemExit("degismez4 DONUS YAPISI DEGISTI: %r" % (type(r),))
-    return {a: (len(v) if isinstance(v, list) else v) for a, v in zip(ALANLAR4, r)}
+        raise SystemExit("degismez4 DONUS YAPISI KAYNAKLA UYUSMUYOR: %s != %d"
+                         % (len(r) if isinstance(r, tuple) else type(r), len(ALANLAR4)))
+    return {a: (len(v) if isinstance(v, (list, dict)) else v) for a, v in zip(ALANLAR4, r)}
 
 
 print("\n(3) TABAN")
@@ -114,6 +152,14 @@ for y in Y2:
     y["s"] = copy.deepcopy(m["s"])
     uygulanan += 1
 print("    bellekte uygulanan: %d / %d" % (uygulanan, len(MANDA)))
+# W32: yama bugun VERIDE (`irak-kralligi` 1921-08-23 donemi canli veride var).
+# Kac kaydin `s`i yamayla BIREBIR ayni — kalan fark yamadan SONRAKI duzeltmelerdir
+# (ör. Bagdat M-2133); yamayi yeniden uygulamak onlari GERI ALIR.
+yI = {y.get("ad"): y for y in Y}
+ayni = sum(1 for r in MANDA if r.get("ad") in yI and yI[r["ad"]].get("s") == r.get("s"))
+canli = sum(1 for y in Y for p in y.get("s", []) if p.get("d") == KIMLIK and p.get("f") == GUN)
+print("    veride zaten: %d donem `%s` %s · yamayla birebir ayni `s`: %d / %d"
+      % (canli, KIMLIK, GUN, ayni, len(MANDA)))
 if uygulanan == 0:
     raise SystemExit("SIFIR UYGULANDI — ad eslesmesi tutmadi")
 

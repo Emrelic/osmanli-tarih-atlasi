@@ -19,10 +19,10 @@ komsulari bul, IZGARANIN dondurdugu kumeyle karsilastir.
    IZGARA KUMESI ⊇ KABA KUVVET KUMESI  olmali (ust kume: fazlasi zararsiz,
    EKSIGI kenar dusurur).
 """
-import sys, io, math
+import sys, io, math, os
 from collections import defaultdict
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK + r"\arac")
 import girdi
 
@@ -99,7 +99,7 @@ for i in range(n):
             kacan.append((ad, la, lo, P[j][0], P[j][1], P[j][2],
                           hav(la, lo, P[j][1], P[j][2])))
 
-f = io.open("denetim/SERHAT-IZGARA-SINAV-0907.md", "w", encoding="utf-8")
+f = io.open(os.path.join(KOK, "denetim", "SERHAT-IZGARA-SINAV-0907.md"), "w", encoding="utf-8")
 W = f.write
 W("# IZGARA SINAVI — `ARAC-SERHAT-CIFT-0907.py`\n\n")
 W("> C13 ③/④'ün kapanmamış ayağı: aracın **formülü** ayrı sınandı ve\n")

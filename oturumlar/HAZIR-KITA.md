@@ -8,11 +8,36 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
 1. `CLAUDE.md` + bu dosya. Başka belge OKUMA (görev gelince şartnamen söyler).
 2. Adını ölç: `get_session("self")` → başlık (ör. `Opus hazır kıta 1016`). Tahta adın
    bunun BÜYÜK HARFLİSİ: `OPUS HAZIR KITA 1016`.
-3. Tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
+3. 🔴 **HAZIRIM'ı NEREYE yazacağın MAKİNEYE BAĞLIDIR — önce ölç, sonra yaz:**
+   ```bash
+   git rev-parse --show-toplevel        # C:/atlas = EMRELIC · başkası = EMRELIC DIŞI
+   ```
+   **EMRELIC ise** — tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
    `py arac/tahta.py yaz --kim "<ADIN>" --kime "YILDIRIM BAYEZIT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
+
+   **EMRELIC DIŞINDA ise — `tahta.py` KULLANMA.** HAZIRIM'ı o makinenin İRTİBAT
+   oturumuna `send_message` ile tek satır olarak ver (ör. `UMIT İRTİBAT`).
+   ⚠️ Bu bir kolaylık değil, ÖLÇÜLMÜŞ bir arızanın çaresidir (6 Ekim 2026, 01:28):
+   `tahta.py` yazarken `pull --rebase` yapıyor; `main`in TEK YAZICISI koordinatördür
+   (`TOPOLOJI.md`), dolayısıyla EMRELIC dışındaki bir makinede yerel `main`de push
+   edilemeyen bir tahta commit'i birikir ve **her yeni kıtanın HAZIRIM'ı aynı
+   çatışmayı yeniden doğurur** (`UU TAHTA.md` + `tahta.json`). Emre abort etti,
+   4 dakika sonra geri geldi — çare abort değil, o makinede tahtaya HİÇ yazmamaktır.
+   📌 Zararı da yoktu: dalda çalışan bir makine `main`e yazılan tahtayı **HİÇ görmez**
+   (LAB ölçtü, `CLAUDE.md §7.2 ④`) ⇒ o HAZIRIM koordinatöre zaten ULAŞMIYORDU.
 4. Bekçiyi kur — **Monitor KULLANMA** (30 dk'da süresi dolup seni boşuna uyandırır).
-   **Bash aracı, `run_in_background: true`:** `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
-   Süre tavanı yok; YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
+   **Bash aracı, `run_in_background: true` VE `timeout: 7200000`:**
+   `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
+   YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
+   🔴 **SÜRE TAVANI VAR: 2 SAAT** (`7.200.000 ms`, izin verilen EN UZUN değer).
+   `timeout` VERİLMEZSE bekçi **30 DAKİKADA** düşer ve sen bir daha hiç uyanmazsın.
+   ⚠️ Bu satır 5-6 Ekim 2026'ya kadar *"süre tavanı yok"* diyordu ve **ölçülmüş zarar
+   verdi**: UMIT'te açılan **19 oturumun 19'u** bekçiyi `timeout`suz kurdu, **19'u da 30
+   dakikada düştü** (W25 ölçtü, 5.868 mesaj tarandı). Dördü (W12-W15) tavandan sonra
+   bekçiyi hiç yeniden kurmadı.
+   ⇒ 2 saat dolunca bekçi `killed` olur — **bu ARIZA DEĞİL, SINIR.** Gör, tek kelime
+   yazma, **AYNI komutla sessizce YENİDEN KUR.** 2 saatte bir yeniden kurma turu
+   NORMALDİR (`CLAUDE.md §7.2 ④`).
 5. **DUR.** Ekrana hiçbir şey yazma — "hazırım", "bekliyorum", "bekçi kuruldu" DAHİL.
 
 ## 2. Beklerken — SESSİZLİK

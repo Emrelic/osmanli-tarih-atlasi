@@ -9,7 +9,8 @@
 const fs = require("fs"), path = require("path");
 const KOK = path.join(__dirname, "..");
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-const dosyalar = [...html.matchAll(/src="(data\/yerlesimler[^"?]*\.js)/g)].map(m => m[1]);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+const dosyalar = IK.kaynaklar(html, /src="(data\/yerlesimler[^"?]*\.js)/);
 global.window = {};
 for (const f of dosyalar) {
   try { eval(fs.readFileSync(path.join(KOK, f), "utf8")); }
@@ -17,6 +18,7 @@ for (const f of dosyalar) {
 }
 const Y = Object.keys(window).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(window[k]))
   .reduce((a, k) => a.concat(window[k]), (window.YERLESIMLER || []).slice());
+IK.yerlesimKapisi(Y);
 const norm = s => String(s).replace(/[İIı]/g, "i").replace(/[Şş]/g, "s").replace(/[Ğğ]/g, "g")
   .replace(/[Üüûù]/g, "u").replace(/[Öö]/g, "o").replace(/[Çç]/g, "c").replace(/[Ââ]/g, "a")
   .replace(/[Îî]/g, "i").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();

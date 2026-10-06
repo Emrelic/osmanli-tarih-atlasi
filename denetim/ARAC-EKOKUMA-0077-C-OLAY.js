@@ -5,7 +5,8 @@
 const fs = require("fs"), vm = require("vm"), path = require("path");
 const kok = path.resolve(__dirname, "..");
 const html = fs.readFileSync(path.join(kok, "index.html"), "utf8");
-const dosyalar = [...html.matchAll(/src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/g)].map(m => m[1]);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+const dosyalar = IK.kaynaklar(html, /src="(data\/(?:olaylar|kronoloji)[^"?]*\.js)/);
 const win = {}; const ctx = vm.createContext({ window: win, console });
 for (const d of dosyalar) vm.runInContext(fs.readFileSync(path.join(kok, d), "utf8"), ctx);
 vm.runInContext(fs.readFileSync(path.join(kok, "data/ekokuma_p77c.js"), "utf8"), ctx);

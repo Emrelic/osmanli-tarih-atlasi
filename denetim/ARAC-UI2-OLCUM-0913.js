@@ -19,7 +19,8 @@ function yukle(rel) {
   return true;
 }
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-const srcler = [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+const srcler = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
 const secili = srcler.filter(s => /olaylar|savaslar|yerlesimler|donemler\.js/.test(s));
 let t0 = Date.now();
 secili.forEach(yukle);
@@ -98,6 +99,7 @@ if (W.DONEMLER && W.PETEKLER) {
 
 // ③ yerleşim v: anahtarları
 const Y = W.YERLESIMLER || [];
+IK.yerlesimKapisi(Y);
 const vAnahtar = {}, vk = {};
 Y.forEach(y => (y.v || []).forEach(p => { Object.keys(p).forEach(k => { vAnahtar[k] = (vAnahtar[k] || 0) + 1; }); if (p.k) vk[p.k] = (vk[p.k] || 0) + 1; }));
 console.log("\n③ YERLESIMLER", Y.length, "· v: alan anahtarları", JSON.stringify(vAnahtar));

@@ -10,9 +10,11 @@ const SG = require(path.join(KOK, "js", "suzgec.js"));
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
 const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); };
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]).filter(s => /yerlesimler|devletler\.js/.test(s)).forEach(yukle);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/).filter(s => /yerlesimler|devletler\.js/.test(s)).forEach(yukle);
 const W = ctx;
 const Y = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k])).reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+IK.yerlesimKapisi(Y);
 const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
 const gs = process.argv[2];
 for (const a of process.argv.slice(3)) {

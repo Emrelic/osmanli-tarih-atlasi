@@ -1,0 +1,14 @@
+# TOPLU-SINAV-LISTE — denetim/TOPLU-SINAV.py'nin koştuğu sınavlar (UMIT-W39, 6 Ekim 2026)
+#
+# Biçim: AD | adım1 | adım2 ...
+#   Her adım: <betik yolu, depo köküne göre> <sabit argümanlar>   (.py → py, .js → node)
+#   {GECICI} = o sınava ayrılan geçici dizin (koşucu açar ve siler; depoya yazılmaz).
+#   Son adımın çıkış kodu hükümdür (0 GECTI · 1 OTTU); önceki adımlar hazırlıktır.
+#
+# 🔴 Kapıya (denetle_yayin.py) BAĞLI DEĞİLDİR — bağlama kararı Emre'nin.
+# 🔴 Yalnız sabit argümanla bugün GEÇTİĞİ teyitli betikler girer
+#    (dayanak: UMIT-W34-ARGUMANLI-SINAV-1006.md §4). 66'lık envanter kümesi buraya ALINMAZ.
+
+LEGO-ALET        | denetim/ARAC-LEGO-alet-sinav.py arac
+SEFER-OK-0075    | denetim/ARAC-SEFER-OK-DUMP-0075.js {GECICI}/seferler.json | denetim/ARAC-SEFER-OK-SINAV-0075.py {GECICI}/seferler.json
+DEGISMEZ-0086    | denetim/DEGISMEZ-0086-sinav.py --yapay

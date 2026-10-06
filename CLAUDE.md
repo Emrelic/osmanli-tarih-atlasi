@@ -93,7 +93,14 @@ gün için yeniden üretilir.
 Kod 2 yeni ve bir kusuru kapatıyor: araç *"Ölçülemeyen soru TEMİZ DEĞİLDİR"*
 cümlesini basıp **`SONUÇ: temiz` + çıkış 0** veriyordu. Ölçülen vaka — HAVVA'da
 shapely yok ⇒ Değişmez 8 ve konum denetimi atlanıyor, araç yine "temiz" diyordu;
-EMRELIC'te de `devletler_harita.js` diskte olmadığı için aynısı. **Otomasyon
+EMRELIC'te de `devletler_harita.js` diskte olmadığı için aynısı.
+⚠️ **BU ÖRNEK TARİHÎDİR, KAPANDI** (HAVVA ölçtü, 6 Ekim 2026: shapely 2.1.2 + rasterio
+1.5.2 KURULU; 5 Ekim'de o makinede `denetle.py` çıkış 0 verdi ve D8 + konum GERÇEKTEN
+koştu). Kural yerinde, **örneği bayat** — ve koordinatör bu örneği bugünkü ölçüm sanıp
+Emre'den gereksiz bir karar istedi (`SABAH-1004 ⑰`de düzeltildi). ⇒ Bir kuralın VAKASI
+bayatlayabilir; vakaya dayanıp **bugünkü durum hükmü verilmez**, bugün ÖLÇÜLÜR. Örneğin
+bayatlaması kuralı zayıflatmaz: `OLCULEMEDI_KOVA` bağımlılık dışında da dolar
+(dosya yok · API değişti · ağ yok). **Otomasyon
 cümleyi okumaz, çıkış kodunu okur.** Yeni topolojide LAB denetleyici: eksik
 bağımlılıklı bir LAB, ölçemediği depoyu temiz raporlardı. Ölçülemeyen her soru
 `OLCULEMEDI_KOVA`ya ADIYLA düşer (sayı değil LİSTE) ve hükümde basılır; ihlal
@@ -124,6 +131,34 @@ daha geniş evrende sorar.
   ölçümdür (dondurma, onay değil); yeni D hattı tavana değil "YENİ KAPSAM" kovasına düşer
   (`--d8-defter-yaz`). Muafiyetler (eksklav · menderes · `__BOSLUK__` · tâbi · `isg:` ·
   C/YOK hattı) `denetle.py`de gerekçeli. [`D237`](dersler/D237-sehir-bolgesi-sinir-asamaz.md)
+
+### 3.4 🆕 🔴 TAVAN DİSİPLİNİ — her `BEKLENEN_*` için, istisnasız
+0. 🔴 **TAVAN, YAZILDIĞI ANDA ÖLÇÜLÜR** — "bugünkü ölçüm" yetmez. Ölçülen vaka (6 Ekim):
+   kaynaksızlık sayıları **bir günde 5 kayıt** oynadı (öngörü 1968/333, ölçüm 1930/371;
+   bir gün önceki 1935/366 de bayattı). ⇒ Saatler önce ölçülmüş bir tavanı yazmak, bayat
+   bir sabit dondurur. Yazmadan hemen önce ölçüm **yeniden koşturulur** ve fark
+   **ADIYLA** karşılaştırılır (geçiş dosyası: hangi kayıt hangi kovadan hangisine geçti).
+1. **Tavan BUGÜNKÜ ÖLÇÜMDÜR.** Geleceğin değeri yazılmaz: ölçüm 6 iken 12 yazmak
+   **tavanla susturulmuş borç** üretir ve kapı o borcu bir daha hiç göstermez.
+   (5-6 Ekim gecesi vaka: iran künyesi borcu tavana yazılmış, kapı görüyordu,
+   bir oturum "kapı bu sınıfı görmüyor" diye rapor etti — kör olan kapı değildi.)
+2. 🔴 **TAVAN + SABİT AYNI COMMIT'TE.** Bir düzeltme tavanı oynatıyorsa, yeni sabit
+   o düzeltmeyle **aynı commit'te** iner. Ayrılırsa arada kalan commit'te kapı
+   **DOĞRU çıktıyı yanlışlıkla REDDEDER** (ya da tersi: gevşek tavan yeni borcu yutar).
+   ⚠️ Bu kural 5-6 Ekim gecesine kadar YAZILI DEĞİLDİ ve koordinatör onu dört kez
+   uyguladı (`BEKLENEN_MUKERRER` · `OLU_ISTISNA` · `2S_YALNIZ_TARAF` · `BAYAT_KOPYA`)
+   — bir işçi onu arayıp **bulamadı**. `§9.1`in cümlesi: *kural yazılı olmayan kural
+   değil, UNUTULAN kuraldır.*
+3. **Yalnız GERİLEME bloke eder; İYİLEŞİNCE TAVAN İNER.** İyileşmiş bir ölçümde eski
+   tavanı bırakmak, aradaki payı sessiz borç yapar.
+4. **Tavanı İŞÇİ ÖNERİR, KOORDİNATÖR YAZAR** (`§7` dosya sahipliği). İşçi ölçer ve
+   önerir; `--tavan-yaz` gibi yardımcılar **körü körüne kullanılmaz** — ölçülen vaka:
+   `ODAK-TAVAN.json`da o bayrak evreni genişletip 3306 kalemi affediyordu.
+5. **İSTİSNA LİSTESİ DE TAVAN AİLESİDİR** (`BILINEN_AYRI`, `bilinen_kusur`): sayı değil
+   **LİSTE** tutar, ve bir girdinin "ölü" olup olmadığı **TÜKETİCİYE GÖRE** sorulur —
+   aynı liste iki işlev tarafından okunuyorsa birinde ölü, ötekinde CANLI olabilir.
+   📌 Ve ölü istisna zararsız değildir: bugün hiçbir şeyi susturmayan bir istisna,
+   yarın gerçek bir ihlali susturur. **En iyi istisna, yazılmayan istisnadır.**
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`

@@ -1338,3 +1338,515 @@ tekrarlanıyor** ⇒ bayat bir kalem her turda yeniden doğru sayılıyor. Kalan
 (`57 imza yeri` · `3 mükerrer` · `17 yetim` · `Şefşâven/Maroa` · `Jasenovaç+Brod`) artık
 **var olduğu ÖLÇÜLMEDEN** uygulanmayacak. Özellikle `3 mükerrer madde`: W11 bugün
 **gerçek mükerrer 0** ölçtü, o kalem büyük olasılıkla tamamen bayat.
+
+---
+
+# 🔴 EMRE — YEDİNCİ KARAR: 167 SINAV VAR, TOPLU KOŞUCU YOK
+⚠️ **DÜZELTME (W27 ölçtü):** aşağıdaki "256" sayısı KOORDİNATÖRÜN HATASIYDI — `ls | grep`
+uzantıya bakmadı, png/json/md dosyalarını da saydı. **Doğrusu 167** (119 py · 48 js).
+Sayım %53 fazlaydı. Aşağıdaki metin tarihsel kayıt olarak duruyor; geçerli sayı 167.
+
+Ölçüldü (6 Ekim gecesi):
+```
+denetim/ altında SINAV betiği        : 167   ← DÜZELTİLDİ (ilk ölçümüm 256 dedi, YANLIŞ)
+toplu koşturan betik                 : YOK   (glob + subprocess araması → 0)
+denetle_yayin.py sınav çağırıyor mu  : HAYIR
+denetle.py / uret_petek.py           : sınav ADINI anıyor, KOŞTURAN satır 0
+```
+⇒ **Hiçbir sınavın koşacağı garanti değil.** Bu gece ~15 yeni sınav yazıldı — her biri iki
+yönlü, her biri ölçülmüş — ve hiçbiri bir daha koşmayacak, biri hatırlamadıkça.
+⚠️ **Abartmıyorum:** 256'nın bir kısmı tek seferlik olabilir (bir şeyi bir kez kanıtlamak
+için yazılmış). Hangisinin hâlâ anlamlı olduğu **ölçülmedi** — ölçüm sipariş edildi
+(`SINAV-ENVANTER-1006`). İddia şu kadar: *hiçbiri koşmak zorunda değil.*
+
+🔴 **Ve somut bir zarar yolu var, bugün açık:** `arac/durum_tablosu.py`nin `kisi_kova`sı ile
+`denetim/`in sürümünün ayrışmasını önleyen tek şey, **kimsenin koşturmadığı** bir eşitlik
+sınavı. İki tanım ayrışırsa `§1.5`teki kişi sayıları sessizce yanlışa geçer.
+
+**KARAR GEREKİYOR:** bir toplu koşucu yazılsın mı, ve bir kapıya bağlanmalı mı?
+```
+① yazılmasın          bugünkü hâl: sınavlar belge, güvence değil
+② yazılsın, elle      "py denetim/TOPLU-SINAV.py" — koşturan hatırlarsa koşar
+③ yazılsın + KAPIYA   denetle_yayin'e bağlanır ⇒ sınav ötmeden yayın çıkmaz
+                      🟢 BEDELİ ÖLÇÜLDÜ: kapıya en güçlü aday 66 betik · 241 SANİYE
+                         (geçen + 60 sn altı + yan etkisiz + beklentisi ölçümden gelen).
+                         Dört dakikalık bir kapı ⇒ "bedeli bilinmiyor" itirazı DÜŞTÜ.
+🔴 VE KARARIN BELİRLEYİCİ GİRDİSİ: sınavlar GÜNLERDE çürüyor. 2 gün önce yazılmış
+   `-1004` sınavlarından DÖRDÜ bugün ötüyor (YERKORU · KAYNAK-TAVAN ·
+   KUNYE-KRONO-KAPSAM · LISTE-BAYAT). Ve 167 betiğin 160'ı ömrünü HİÇ beyan etmiyor,
+   yalnız 1'i "tek seferlik" diyor ⇒ "bir kısmı eskimiştir" savunması ZAYIF.
+   Envanter: GECTI 75 · ATLANDI 45 · HATA 28 · OTTU 18 (gerileme adayı 11 · bayat
+   sabit adayı 7) · ZAMAN-AŞIMI 1 · toplam süre ~27 dk.
+🔴 VE BİR SINAV CANLI KAPI TAVANINI YAZIYOR: `ODAK-KAPI-SINAV`, `ODAK-TAVAN.json`u
+   yeniden yazıyor (içerik farkı 0, yalnız satır sonu). İçerik farkının 0 olması
+   BUGÜNKÜ ŞANS, güvence değil. Üç kardeşi var; dördü düzeltmeye verildi.
+```
+📌 ③'ün riski gerçek: bir sınav bayat sabit yüzünden ötüyorsa yayını **haksız** bloke eder.
+O yüzden envanter `OTTU`yu ikiye ayıracak: `GERİLEME ADAYI` ↔ `BAYAT SABİT ADAYI`.
+
+---
+
+# 🔴 "KÜNYESİZ GEÇİŞ İDARESİ" — artık ÜÇ örnek, ve soru değişiyor
+```
+Naiplik (Polonya)        3–11 Kasım 1918   künyesiz  → MGGP notunda beyanlı
+PKL (Krakov/Galiçya)     31 Ekim 1918'den  künyesiz  → KRAKOV notunda beyanlı
+Aras-Türk (Iğdır)        Kasım-Aralık 1918 künyesiz  → künye AÇILMADI (kuruluşu çelişik)
+```
+⇒ Üçü de aynı yapıya sahip: **tarihte bir idare VARDI, dizinimizde künyesi YOK**, ve o
+yüzden kaynaklı günü yazmak haritada delik açıyor.
+🔴 **Soru artık "bu boşluğu ne yapalım" değil:** *künyesiz geçiş idarelerini nasıl ele
+alıyoruz?* Üç seçenek, ve bu kez üçü de **kural** düzeyinde:
+```
+① künye AÇILIR (kısa ömürlü bile olsa) — her biri boya + pencere + kaynak ister
+② boşluk BEYANLI bırakılır — bugün yapılan; harita o dilimde eski sahibi gösterir
+③ __BOSLUK__ ile BEYANLI DELİK — doğru ama kullanıcı bir şey kaybeder
+```
+📌 Bugün fiilen ②'yi uyguluyoruz ve **notlar bunu dürüstçe yazıyor** (MGGP notu model
+biçim oldu). Ama kural yazılı değil, o yüzden her vakada yeniden karar veriliyor.
+
+---
+
+# 🔴 KİŞİ KATMANI KAPISIZ — 288 kayıt hiçbir denetimden geçmiyor
+```
+denetle.py kişi dosyasını okuyor mu     : HAYIR, hiç
+durum_tablosu'nda kişi sayacı (3 yer)   : YOK
+denetle_gorunur.py:197                  : YOK
+§1.5'te kişi kaynağı satırı             : YOK (bu gece ÜRETİLİR hâle getirildi)
+```
+⇒ Bir sayaç eksiği değil, **bir veri katmanının denetimsizliği.** Bu gece ilk halka indi
+(dört kova: `TDV 257 · başka 2 · beyan 29 · kaynaksız 0`) ve iki tavan önerildi
+(`kaynaksız 0` · `beyan 29` liste olarak).
+⚠️ Katmanın tamamını kapıya bağlamak **yeni tavanlar** doğurur ve yayını bloke edebilir ⇒
+kapsamı Emre'nin. Bu gece yalnız ölçüm + iki tavan iniyor.
+📌 `DENETIMSIZ-ELLE-VERI` kaleminin kardeşi: orada *veri* denetimsizdi, burada *katman*.
+
+---
+
+# 🔴 EMRE — SEKİZİNCİ ve DOKUZUNCU KARAR: kronoloji AD EŞLEMESİ
+
+## Ölçülen durum (W26, `denetim/UMIT-W26-KRONO-BAGLAMA-1006.md`)
+`js/app.js` kronoloji dosyalarını künyelere **ad türetmesiyle** bağlıyor
+(`:14267` `slice(10).toLowerCase`, `_`→`-`) ve **PENCERE SINAMASI YOK.** Sonuç:
+```
+15 eşlemede 321 madde KÜNYE PENCERESİ DIŞINDA
+   iran      107/107   ← KRONOLOJI_IRAN tamamen Pehlevi künyesine (f 1925-12-12) biniyor
+   fransa     91/184   (1792 sonrası)
+   macaristan 83/127   (1526 sonrası — Ortaçağ künyesinde)
+   gürcistan 8 · ispanya 7 · …
+```
+🟢 **Ve çare ölçülmüş:** madde başına önerilen künyelerin **308/308'inin penceresi maddeyi
+kapsıyor**, ihlal 0, hiçbir künye genişletilmedi. İran dağılımı: `kaçar 40 · safevi 39 ·
+timurlu 8 · afşar 7 · zend 4 · ilhanlı 3 · akkoyunlu 3 …`
+⚠️ `KRONOLOJI_ID_OZEL` çare OLAMAZ (birleşik dosyayı bölemez — ölçüldü). Tek çalışan
+mekanizma: `_COK_` + madde başına `devlet:` alanı.
+
+## ⑧ KARAR: 308 maddeyi künyelerine atayalım mı?
+Atama kullanıcının gördüğünü değiştirir (bugün 321 madde **hiçbir ekranda açılamıyor**).
+```
+① ATANSIN     321'in 308'i doğru künyesine gider, 13'ü atanamaz (künyesi yok)
+② ATANMASIN   bugünkü hâl: maddeler veride var, ekranda yok (BEYANLI borç olur)
+```
+📌 `§1`in amacı *"bir madde okunduğunda haritada tam o değişim görünmeli"* ⇒ ① o amaca
+yakın, ama 308 maddenin hangi künyeye gittiği **hanedan ayrımı** kararına dokunuyor.
+
+## ⑨ KARAR: atanamayan 13 için YENİ KÜNYE açılsın mı?
+13 maddenin künyesi **yok**; örnek: **Gürcistan 645** için Kartli/İberya künyesi bulunmuyor.
+⇒ Yeni künye = dizin + boya + pencere + kaynak. Açılmazsa o 13 madde kalıcı olarak
+ekransız kalır.
+
+---
+
+# 🔴 VE DAHA BÜYÜK BİR KALEM: 15 dosya / 2.084 madde HİÇ EŞLENMİYOR
+`cin` · `hindistan` · `balkan` … ⇒ 321'in **altı katı**, ve ayrı bir sınıf: bunlar pencere
+dışında değil, **hiçbir künyeye bağlanmıyor.** 321 ile karıştırılmamalı.
+(Bu, W12'nin daha önce ölçtüğü *"16 `KRONOLOJI_*` değişkeni hiçbir künyeye bağlanmıyor,
+2.059 madde"* bulgusunun güncellenmiş hâli.)
+
+---
+
+# 🟢 BİR KUSUR DÜZELTİLDİ, ALTINDAN İKİNCİSİ ÇIKTI — ve bu iyi haber
+`app.js:14284`te koşulsuz `D[i].kronoloji = derin` ataması, ad eşlemesiyle bağlanan **26
+dosyanın 26'sında** künyenin kendi maddelerini **siliyordu**: 26 künye, 228 madde.
+```
+144'ünün dosyada AYNI GÜN karşılığı var   → aynı olay, meşru düşüş
+ 40'ının yalnız AYNI YIL karşılığı var
+ 44'ünün HİÇ karşılığı yok  ← GERÇEK KAYIP
+     iran 6 (Pehlevi) · almanya 6 (1933-45) · safevi 6 · portekiz 4 · ispanya 2 (1936-39) …
+```
+Düzeltme (`KRONO-EZILDI-1006.diff`, yalnız `app.js`): atama yerine **birleştirme** — künye
+maddesi dosyada temsil ediliyorsa düşer, edilmiyorsa **EKLENİR**. Sınav gerçek kesitle:
+228 kayıp → 174 meşru + **54 korunan** (öngörü 52±3 ✓), `iran` 6/6 geri geldi.
+🔴 **Ve düzeltme altındaki ikinci kusuru açtı: 25 TARİH ÇELİŞKİSİ** — aynı olay iki yerde
+iki ayrı günle yazılmış; artı **3 ayrı olay** yanlışlıkla aynı sayılmış (timurlu 1449 Uluğ
+Bey'in tahta çıkışı · safevi 1503 Diyarbekir/Bağdat · karakoyunlu 1406).
+⇒ Bunlar bugüne kadar **görünmüyordu**, çünkü ezme kusuru birini siliyordu. Kaynak işi
+olarak ayrı görev açıldı (TDV birincil, çelişki bildirilir, uygulama yok).
+📌 **Ders: bir kusuru düzeltmek, altındaki ikinciyi ortaya çıkarır.** Bu bir gerileme değil,
+görünürlük kazancıdır — ama `KRONO-EZILDI` inince o 25 çelişki **sayılarda görünecek**.
+
+
+---
+
+# 🔴 EMRE — GECE 01:30-02:30 ARASI BEŞ YENİ KALEM
+
+## ⑬ EMRELIC'teki rebase bir KABUKTU — temizledim, kayıpsız (senden bir şey istemiyorum)
+⚠️ **ÖNCE BİR DÜZELTME, ve benim hatam:** bunu ilk yazdığımda *"rebase alarmı YANLIŞTI,
+iki müdahalen boşa gitti"* demiştim. **YANLIŞTI.** `C:\atlas` **iki ayrı makinede iki
+ayrı depodur** (EMRELIC ve UMIT, aynı yol). Ben EMRELIC'i ölçtüm, UMIT'in bildirdiği ise
+UMIT'teki depoydu — ve **UMIT'teki rebase GERÇEK**, kabuk değil. Ölçümüm doğruydu,
+ÇIKARIMIM yanlıştı: tek depo varsaydım. Senin iki müdahalen boşa GİTMEDİ; 01:24'teki
+abort UMIT'te gerçekten çalıştı.
+**EMRELIC'te bulduğum ise gerçekten bir kabuktu:**
+```
+.git/rebase-merge/     VAR      ← git status kararını SADECE buna bakarak verir
+  içindeki tek dosya   autostash (24 EYLÜL 16:31)
+  onto · head-name · orig-head · git-rebase-todo · done     BEŞİ DE YOK
+HEAD                   main · d0877829 · origin/main ile EŞİT · çatışma 0
+```
+12 gündür orada duruyordu ve `git rebase --abort` onu temizleyemezdi (`orig-head` yok,
+dönecek yer yok). **Çözdüm, kayıpsız:** autostash gerçek bir commit'ti (d33e2879 ·
+5 dosya · `js/d_katman.js`de 199 satır) ⇒ önce `kurtarma/autostash-0924` etiketiyle
+sabitledim, sonra aşılmış mı diye ÖLÇTÜM: main'in `d_katman.js`i **1.361 satır**,
+autostash'in **1.285** — main 76 satır ileride, autostash'in "fazla" 4 satırı
+mükerrer/boş dönüş. Özgün içerik YOK. `git rebase --quit` koştum; git ayrıca stash'e de
+kopyaladı ⇒ üç nüsha. Şimdi `rebase-merge TEMİZ`.
+🔴 Dersi: **`git status`un "currently rebasing" demesi rebase olduğunun kanıtı değildir** —
+ve iki depo aynı belirtiyi verip ayrı sebep taşıyabilir. `tahta.py:340 _git_yarim()` da
+aynı körlükle çalışıyor; düzeltme kuyrukta (üç hâl: SURUYOR / KABUK / YOK).
+
+## ⑭ 🔴 UYANDIĞINDA İLK İŞ — UMIT kilitli, ve ERTELENEMEZ
+İlk yazdığımda *"acil değil, sabah yapılır"* demiştim; **UMIT ölçtü ve bu da yanlıştı.**
+Durum:
+```
+UMIT'te .git/rebase-merge   DOLU ve CANLI (onto a59e4b7b · orig-head 11e3dd92 ·
+                            done · todo · stopped-sha · patch — hepsi 01:28)
+UMIT'te yerel main          11e3dd92'de KALDI (rebase ortasında, HEAD detached)
+UMIT'te origin/main         a59e4b7b'de KALDI — çünkü FETCH YAZAMIYOR
+UMIT'te d0877829            YOK  ⇒ benim (b) düzeltmem UMIT'e HİÇ ULAŞMADI
+```
+⇒ **Yeni açılan kıtalar BAYAT `HAZIR-KITA.md` okuyor ve `tahta.py`ye yazmaya devam
+ediyor** ⇒ çatışma yeniden doğuyor. Yani (b) tek başına yetmiyor; (a) onun ÖNKOŞULU.
+Sıra (UMIT komutları ayrıca yazıyor):
+```
+① takeown  .git\objects  (6 dizin: 0e · 22 · 9c · bb · e3 · f9 — Administrators sahipli)
+② git rebase --abort
+③ M-5755'i YEDEK DALA al   🔴 git log <yedek-dal> ile TEYİT EDİLMEDEN ④'e geçilmez
+④ git fetch
+⑤ yerel main'i origin/main'e çek
+```
+Benim yaptığım yarım: `HAZIR-KITA.md` artık makineyi ÖLÇÜYOR
+(`git rev-parse --show-toplevel`) ve EMRELIC dışında `tahta.py` kullandırmıyor — HAZIRIM
+irtibata `send_message` ile gidiyor (d0877829, origin/main'e push edildi). O düzeltme
+DOĞRU ve yerinde duruyor; UMIT fetch edebildiği an yürürlüğe girecek.
+
+## ⑮ `.git\objects` sahipliği — ⑭①'in kendisi, ama ayrıca başlı başına kalem
+`BUILTIN\Administrators` sahipliği yüzünden UMIT **fetch yazamıyor** ve işçiler bayat
+`origin/main`den ağaç açıyor. UMIT bu gece ÜÇ kez bildirdi (W31: "fetch yine düştü").
+⚠️ Ara çare uyguladım: her işçi raporunda **ağacını açtığı COMMIT'İ YAZIYOR**. Yoksa
+"bayat ağaçta ölçülmüş" sessizce geçer ve ölçüm doğru görünür. Bu bir yama; asıl çözüm
+sahiplik.
+
+## ⑯ KİŞİLER SEKMESİNDE YAYINDA DURAN BİR YANLIŞ — düzeltiyorum, bilgin olsun
+"Vâlide sultanlar ve hanedan kadınları" başlığının altındaki 3 kişinin **2'si ERKEK**
+(Cem Sultan · Abdülmecid Efendi). Sebep: arayüz 3 Ağustos'ta `tur:"sehzade"` ve
+`tur:"valide"` için önden yazılmış, o türler `kisiler.js` geçmişinde HİÇ olmamış.
+🔴 Hükmüm: **BAŞLIK VERİYE UYDURULUR, VERİ BAŞLIĞA UYDURULMAZ** (D207 — atlas referans
+değil mamul üründür, çelişkide ATLAS düzelir; burada düzelecek olan atlasın BAŞLIĞIdır).
+Ayrı paket olarak `tur:` alanları TDV'nin KENDİ nitelemesiyle yazılacak (Cem→şehzade,
+Turhan→valide); ondan ÖNCE "tanınmayan türü de göster" kalıbı iniyor — süzgeç tanımadığını
+sessizce elemez, SAYIP BASAR (D225).
+**Senden bir şey istemiyorum**, ama yayında duran bir yanlış olduğu için sabah
+açtığında görürsün diye yazdım.
+
+## ⑰ 🔴 ⑦ KARARININ (toplu sınav kapıya bağlansın mı) DELİLİ AĞIRLAŞTI
+Önceki delilim *"sınavlar GÜNLERDE çürüyor"*du. W33 ölçtü ve **daha ağır** bir şeye
+çevirdi: 2 gün önce yazılan üç `-1004` sınavının **ÜÇÜ DE GERİLEME** gösteriyor ve sebebi
+çürüme değil — **VERİ COMMIT'LERİ KIRDI, kapı GÖRMEDİ.**
+```
+KUNYE-KRONO-KAPSAM  4f390691 itilaf-emaneti künyesini ekledi, hiçbir madde onu anmıyor
+YERKORU             18 yeni isg kırılmasını kapatan madde YERİ anmıyor (874940ee·fe6ebb85·4f390691)
+LISTE-BAYAT         874940ee Romanya ve İzdin'i taşıdı; olaylar.js:174 + olaylar_ek.js:79 ESKİ adları taşıyor
+ORTAK KÖK           üçü de denetle.py'ye BAĞLI DEĞİL ⇒ kapı TEMİZ geçti, defterler 2 GÜNDE bayatladı
+```
+⇒ "Bağlasak iyi olur"dan farklı bir iddia: **bağlı olmayan sınav, gerçek bir gerilemeyi
+2 gün boyunca görünmez kıldı.** Üçü de kapıya bağlı olsaydı commit anında ötecekti.
+🔴 **VE BİR MALİYET ÇIKTI, onu da bil:** kapıya aday betiklerden biri (TRIYAJ) artık
+`shapely` istiyor.
+🔴 **DÜZELTME — bu paragrafta "HAVVA'da shapely YOK" yazmıştım, YANLIŞTI ve senden bir
+karar istiyordum; o karar DÜŞTÜ.** HAVVA ölçtü: **shapely 2.1.2 VAR** (rasterio 1.5.2 de
+var), ve 5 Ekim'de o makinede `denetle.py` çıkış 0 verdi — Değişmez 8 ve konum denetimi
+GERÇEKTEN koştu. Benim dayanağım `CLAUDE.md §3`ün *"ölçülen vaka — HAVVA'da shapely yok"*
+cümlesiydi; o cümle YAZILDIĞI GÜN doğruydu ve **bugün bayat.** Yani kuralı doğru
+uyguladım, ama kuralın ÖRNEĞİNİ bugünkü ölçüm sanıp aktardım — tam olarak bu dosyanın
+başka maddelerinde başkalarını uyardığım hata.
+⇒ **Senden shapely kararı İSTEMİYORUM, yayın bloke olmayacak.** Kalan tek iş `CLAUDE.md
+§3`teki örneği "tarihî vaka (5 Ekim'de kapandı)" diye işaretlemek; onu ben yaparım.
+📌 Eski metin kayıt için: *"HAVVA'da shapely YOK ⇒ orada çıkış 2 verir; HAVVA yayıncı
+olduğu için shapely gerektiren bir sınav kapıya bağlanırsa HAVVA'da yayın bloke olur.
+İki yol: ① HAVVA'ya shapely kurulur ② shapely gerektiren
+sınavlar kapıya BAĞLANMAZ. Ben ②'yi varsayıyorum; ① dersen söyle."* — **bu metin artık
+geçersizdir, yalnız neyi yanlış söylediğimin kaydı olarak duruyor.**
+
+
+## ⑱ 🔴 BİR MAKİNENİN 12 İŞÇİSİ, TEK BİR OTURUMUN MESAJ SINIRININ ARKASINDA KİLİTLİ
+**Ölçülen durum (6 Ekim, 03:00 civarı):** UMIT'te **çalışan işçi 0.**
+```
+W28   lehistan.js kilit ONAYINI bekliyor — onay VERİLDİ ama mesaj KUYRUKTA, ulaşmadı
+W37   COK paketini teslim etti, BOŞTA
+toplam 12 oturum  UMIT İRTİBAT'ın bir mesajını bekliyor
+UMIT İRTİBAT      "masaüstü oturumlarına mesaj sınırına takıldım; Emre bir sonraki
+                   mesajını yazana kadar işçilere mesaj gönderemiyorum"
+```
+🔴 **VE KOORDİNATÖR BUNU DOLANAMIYOR — ÖLÇTÜM.** `ListAgents`ta 111 oturum görünüyor ama
+**W28 ve W37 YOK**: UMIT'in makinesindeki işçiler EMRELIC'ten ADRESLENEMİYOR. Yani
+irtibat oturumu susunca o makinenin işçilerine ulaşan HİÇBİR yol kalmıyor.
+⇒ Bu bir token sorunu değil, **TOPOLOJİ SORUNU**: `TOPOLOJI.md`de her makinenin bir
+irtibat oturumu var ve o oturum **TEK NOKTADAN ARIZA** (single point of failure). İrtibat
+susarsa makine felç.
+⚠️ Bu gece zararı ölçülebilir: ~12 oturum, saatler boyunca boşta. Koşu sürdüğü için
+`data/` ve `arac/` donmuş olsa bile `denetim/` işleri yapılabilirdi.
+
+**SENDEN İSTEDİĞİM — bir tanesini seç (hiçbiri bu gece yapılamaz, sabah işi):**
+```
+① HİÇBİR ŞEY. Sınır Emre'nin ilk mesajıyla açılıyor; sen zaten sabah yazacaksın.
+   Maliyet: bu gece kaybedilen saatler, bir daha olursa yine kaybedilir.
+② İŞÇİLER EMRELIC'TEN DE ADRESLENEBİLİR OLSUN. Teknik olarak mümkün mü bilmiyorum —
+   ölçmek bir kalem. Mümkünse irtibat oturumu tek nokta arıza olmaktan çıkar.
+③ İRTİBATA İKİNCİ KANAL. Mesaj sınırına takılınca tahta üzerinden (aynı makinenin
+   tahtası) işçilere yazsın. ⚠️ Ama UMIT'te tahta ZATEN kırık (⑭ — yerel main
+   rebase'de, fetch yazamıyor) ⇒ ③ ancak ⑭'ten SONRA işler.
+```
+📌 **Önerim ①+② birlikte:** bu gece için ① zaten fiilen geçerli; ②'yi bir ölçüm kalemi
+olarak açalım ki bir dahaki sefere topoloji buna hazır olsun. ③'ü ⑭ kapanmadan açmam,
+çünkü kırık bir kanalı yedek ilan etmek yedeksizlikten kötüdür.
+🔴 **UMIT'in davranışı DOĞRUYDU, not ediyorum:** *"Etrafından dolaşmıyorum, işçi mesajları
+kuyrukta bekliyor"* dedi. Sınırı dolanmaya çalışmak yerine beyan etmesi, kaybı
+ÖLÇÜLEBİLİR kıldı — dolanılsaydı mesajlar yanlış kanaldan gidip izi kaybolacaktı.
+
+
+## ⑲ 🔴 İKİ YAYIN ZİNCİRİ PARALEL YAŞIYOR — VE SENİN 22 AĞUSTOS'TA YAZDIRDIĞIN KAPI HİÇ KOŞMADI
+Bu, gecenin en ağır bulgusu ve tamamı ÖLÇÜLDÜ (hiçbiri çıkarım değil, kaynakları altta).
+
+### Dört başlatıcı, İKİ AYRI KAPI SETİ
+```
+KOSU-BASLAT.bat            → arac/kosu_yayin.py      ESKİ zincir  (8 adım)
+KOSUYU-SIMDI-BASLAT.bat    → arac/kos_ve_yayinla.py  YENİ zincir  (9 adım)
+arac/zincir_baslat.bat     → arac/kos_ve_yayinla.py  YENİ
+arac/kosu_ayrik_baslat.ps1 → arac/kos_ve_yayinla.py  YENİ
+```
+🔴 **VE İKİ ZİNCİR BİRBİRİNİN ÜST KÜMESİ DEĞİL** — hangisini koşturursan ÖTEKİNİN
+adımlarını KAYBEDİYORSUN:
+```
+ESKİDE VAR, YENİDE YOK:  ⑥b denetle_kronoloji   ⑥c denetle_arayuz
+YENİDE VAR, ESKİDE YOK:  uret_altlik   uret_bekleyenler   adres_nobetci
+```
+⇒ Hangi kapı adımlarının koştuğu, **hangi düğmeye basıldığına** bağlı. Ve `KOSU-BASLAT.bat`
+**SENİN düğmen** (18 Ağustos: *"çift tıkla — hepsi bu, Claude gerekmez"*) ⇒ sen elle
+koşturduğunda ⑥b/⑥c koşuyor ama `uret_altlik`/`uret_bekleyenler`/`adres_nobetci` koşmuyor;
+otomatik yol koştuğunda tam tersi.
+
+### 🔴 AMA DAHA KÖTÜSÜ: OTOMATİK ZİNCİRLERİN İKİSİ DE FİİLEN ÖLÜ
+```
+AtlasKosu     State=DISABLED · son koşu 2026-08-21 23:00:01 · sonuç 0 (başarılı)
+              → py.exe arac\kosu_yayin.py          (ESKİ zincir)
+ATLAS-ZINCIR  State=Ready    · son koşu 2026-09-11 03:00:55 · sonuç 0x8007042B (ABORTED)
+              → C:\atlas\arac\zincir_baslat.bat   (YENİ zincir) · NextRun BOŞ
+```
+⇒ **21 Ağustos'tan beri BAŞARIYLA koşmuş otomatik zincir YOK.** Biri kapatılmış, öteki
+11 Eylül'de çökmüş ve bir daha planlanmamış (NextRun boş).
+
+### 🔴 VE SONUÇ — iki kapı, iki ayrı kader
+```
+⑥b denetle_kronoloji  eklendi 2026-08-21 07:52:31  (72ba38e9)
+                      AtlasKosu son koşu 21-08 23:00 ⇒ SONRASINDA
+                      ⇒ TAM BİR KEZ koştu. Bugün 83 İHLAL + çıkış 1 veriyor.
+⑥c denetle_arayuz     eklendi 2026-08-22 23:58:54  (530c6998)
+                      AtlasKosu son koşu 21-08 23:00 ⇒ ÖNCESİNDE
+                      ⇒ 🔴 HİÇ KOŞMADI. BİR KEZ BİLE. Altı haftadır.
+```
+🔴 **Ve o commit'in mesajı aynen şu:** *"ARAYUZ DENETIMI EKLENDI — bugun UC kusuru
+KULLANICI buldu, denetim yoktu."* Yani üç kusuru SEN bulduğun için yazılan kapı, yazıldığı
+günden bu yana **hiç çalıştırılmadı.** Kapı var, soru sorulmuyor — ve bu sefer kapının
+kendisi değil, onu KOŞTURAN şey eksik.
+📌 Bu, W33'ün bu gece bulduğu üç gerilemeyi de açıklıyor: *"üçü de `denetle.py`ye bağlı
+değil ⇒ kapı temiz geçti"*. Kapılar var; onları koşturan zincir koşmuyor.
+
+### SENDEN İSTEDİĞİM — bu bir karar, ben vermiyorum
+```
+① ZİNCİRLERİ BİRLEŞTİR  tek zincir, iki tarafın BÜTÜN adımları. Bir zincir ötekinin
+                        üst kümesi olmazsa bu kusur yeniden doğar. Benim önerim bu.
+② BİRİNİ ÖLDÜR          eski zinciri ve KOSU-BASLAT.bat'ı emekliye ayır, ⑥b/⑥c'yi
+                        yeni zincire TAŞI. Daha temiz ama SENİN düğmeni değiştiriyor.
+③ ZAMANLANMIŞ GÖREV     ATLAS-ZINCIR'in 11 Eylül çökmesi onarılsın mı? (0x8007042B;
+                        `zincir_baslat.bat`in kendi yorumu boşluklu yol tuzağını
+                        anlatıyor — aynı sınıf olabilir, ÖLÇÜLMEDİ)
+```
+⚠️ **ÖLÇMEDİĞİM ŞEY, açıkça:** "21 Ağustos'tan beri bütün koşular elle yapıldı" bir
+ÇIKARIMDIR, ölçüm değil — görev durumlarından türedi. Kesinleştirmek için koşu logları
+(`kosu_otomatik.log`) okunmalı; o HAVVA'da. Ve ⑥c'nin BUGÜNKÜ çıkış kodu da ölçülmedi
+(`arac/` koşu sürerken donuk).
+📌 Kaynaklar: `git log -S` (iki commit tarihi) · `Get-ScheduledTask` + `Get-ScheduledTaskInfo`
+(iki görev durumu, son koşu, sonuç) · `grep` (dört başlatıcı) · UMIT'in adım listesi ölçümü.
+
+
+## ⑳ 🔴 KOŞU 20 YAYINA HAZIR — AMA YAYIN KARARI SENDE, ve sebebi TEK BİR SAYI DEĞİL
+Koşu bitti (8 sa 14 dk), kodlama yapıldı, Değişmez 8 **ilk kez soruldu** ve geçti. Yayın
+dışında her şey bitti. **Yayınlamadım** çünkü `CLAUDE.md §1`: *"`main`e push = yayın"* ⇒
+geometriyi main'e almak, yayınlamaktır. Bu bir karar ve senin.
+
+### Denetim — D8 artık SORULUYOR ve GEÇİYOR
+```
+8a ✓ 1504 (tavan 1568)   8b ✓ 82 (tavan 84)   8m ✓
+tek ölçülemeyen: 8k körlüğü (18 çift / 11 hat) — BİLİNEN araç körlüğü, yeni değil
+D1 309/309 ✓ · D2 623 kırılma 0 açık ✓ · konum 0 ✓ · kaynaksız 1930 (tavan 1968) ·
+mükerrer 112 (≤113) · 2s 187 açık (tavan 189)
+```
+`denetle.py` hâlâ **çıkış 2**, ama sebebi değişti: artık "D8 sorulamadı" değil, "8k'nın
+bilinen körlüğü". İlk turdaki çıkış 2'nin kökü bulundu ve kapandı (aşağıda ㊀).
+
+### 🔴 YAYINI BEKLETME SEBEBİM — iki ADI OLAN kusur
+**① 16 YERLEŞİM BOYANMADAN ÇİZİLİYOR.** Kimlik: `itilaf-emaneti` ("Başlıca Müttefik ve
+Ortak Devletler emaneti", Saint-Germain md. 91). `s:` alanında 16 kayıt
+(`yerlesimler.js` 11 + `yerlesimler_ek.js` 5), pencere `1919-09-10 → 1920-11-12/1923-03-15`.
+**`renkler.py`de HİÇ YOK** — ne tabanda ne bugünkü main'de. Koşu logunda 16 satır
+*"UYARI boya: <yer> bilinmeyen devlet kimliği 'itilaf-emaneti'"* (Lvov · Yazlofça · Krk …).
+🔴 Ve bu kusur ŞU ANDA YAYINDA YOK: `itilaf-emaneti` 5 Ekim 19:25'te (`4f390691`,
+"CİSLEİTHANİA İNDİ") geldi, yayındaki r11195'ten SONRA. ⇒ **Yayınlamak bu deliği
+AÇARDI, kapatmazdı.**
+⚠️ Çaresi `renkler.py` ve o MOTOR TUZUNDA (`§9.1`) ⇒ rengi eklemek **yeni bir tam inşa
+koşusu** demek. Veriden çözülemez (boya koşu anında pişiyor, tarayıcı sonradan boyamıyor).
+**② TUNA HATTI 8 ÇİFTTE ÖLÇÜLEMEZ OLDU.** 8k üyeliği aynı veri tabanında (yalnız gövde
+değişti) ölçüldü: **önceki 10'un 10'u KALDI · 0 kalktı · 8 YENİ**, altısı
+`g3-bg-ro-tuna` (p1/p2/p3, 1878-07-13 → 1908-10-04), ikisi `d1919-hu-cs-fiili`.
+⇒ Bulgaristan-Romanya Tuna hattında Değişmez 8 artık o günlerde **hiç sorulamıyor** —
+ve bu, 4 Ekim gerilemesinin bölgesi. Ölçülemezlik bir ihlal değil, ama bir KÖRLÜK
+ARTIŞI ve yayından önce sınıflandırılmalı.
+
+### KARAR — üç şık, önerim ③
+```
+① ŞİMDİ YAYINLA     Artı: motor çıktısı 1 aydır bayat (yayın r11195), 8a 1568→1504
+                    iyileşti, D2 temiz. Eksi: 16 yerleşim BOYASIZ çizilir ve Tuna
+                    hattında 8 yeni körlük yayına girer. İkisi de ŞU AN yayında YOK.
+② TAM İNŞA BEKLE    renkler.py'ye itilaf-emaneti eklenir, delik hiç açılmaz. Eksi:
+                    PLAN-1004 §1 tam inşayı 1281-öncesi + 1923-sonrası VERİ işi bitmeden
+                    YASAKLIYOR ⇒ günler sürebilir, motor çıktısı o kadar daha bayat kalır.
+③ ÖNERİM: KISITLI YAYIN + BEYAN
+                    Koşu çıktısını yayınla, AMA 16 yerleşimin boyasızlığını
+                    §1.5'te BEYANLI BORÇ olarak yaz (bugün "✓ 0" diyen satır
+                    "🟡 1 kimlik / 16 yerleşim · tam inşa bekliyor" olur) ve Tuna'nın
+                    8 çiftini ODAK/D8 defterine ADIYLA yaz.
+                    Gerekçe: bu projenin kendi kuralı beyanlı borcu sessiz borçtan
+                    üstün tutuyor, ve bir aylık bayatlık da bir kusur. Beyan edilmiş
+                    16 yerleşim, ölçülmemiş bir aylık sapmadan az zarar verir.
+```
+⚠️ Hangisini seçersen seç, **ben tek başıma yayınlamıyorum.** Yayın geri alınabilir ama
+geri alınana kadar canlıdır ve bu karar senin.
+
+### 🔴 ㊀ BİR ARAÇ KUSURU BULUNDU — kalem bende, ama bilmen gerek
+D8 kodlamadan SONRA da "GÖVDE UYUŞMUYOR" dedi. Kök sebep **geometri DEĞİL, SATIR SONU:**
+motor ham `.js`leri CRLF yazıyor (`devletler_harita` 7 · `donemler` 17 · `petek_govde` 11
+satır); `kodla.py` METNİ (LF) özetliyor, `denetle._d8_govde_kimlik` (`:4700`) ham BAYTI
+özetliyor. CRLF→LF sonrası üç özet de birebir tuttu ⇒ **geometri farkı SIFIR.**
+İki araç aynı dosyayı farklı özetliyor ve bu **her Windows makinesinde** yeniden olur.
+📌 Çareyi `denetle.py`de yapacağım, `uret_petek.py`de DEĞİL: `uret_petek` motor tuzunda,
+ona dokunmak bütün önbelleği öldürür; `denetle.py` tuzda değil. Tüketiciyi düzeltmek
+bedava, üreticiyi düzeltmek 8 saat.
+📌 Ve HAVVA ham CRLF kopyaları `C:\atlas-kosu-kayit\ham\`de sakladı, sha'larıyla —
+yani kanıt duruyor.
+
+### Küçük ama gerçek: 264 MB'lık bir çıktıyı KİMSE OKUMUYOR
+`Ⓑ ufuk bantları` 21 dk 58 sn koştu ve `ufuk_bantlari.js` 264 MB üretti. **`index.html`
+onu yüklemiyor** ve `kodla.py` de kodlamıyor. ⇒ Ya arayüz onu okumalı, ya o aşama ölü
+yük. Kalem açıldı; senden bir şey istemiyorum.
+
+
+### ⑳-EK · ÜÇ DÜZELTME ve BİR KÖK SEBEP BİRLEŞMESİ (artefaktlar artık diskte)
+Yukarıdaki ⑳'yi yazdığımda elimde yalnız mesaj vardı. Şimdi üç dosya main'de:
+`denetim/DEGISMEZ-KOSU20-HAVVA-b.log` (düzeltme SONRASI denetim) ·
+`denetim/HAVVA-KOSU20-8K-UYELIK.md` · `denetim/HAVVA-KOSU20-D7-UYELIK.md`.
+
+**DÜZELTME 1 — "8 YENİ"nin EVRENİNİ yazmamıştım.** Doğrusu:
+```
+defter DIŞI çift     önce 10  →  sonra 18     (KALDI 10 · KALKTI 0 · YENİ 8)
+tam kör hat          önce 75  →  sonra 78
+yarım hat            önce 19  →  sonra 22
+(hat, gün)           önce 169 →  sonra 178
+```
+⚠️ Ve `-b` logundaki `8k YENİ` etiketi **deftere göre** yeni demek (18'in tamamını
+listeler), HAVVA'nın `YENİ 8`i ise **önce↔sonra** farkı. Ben bir an çelişki sandım;
+çelişki yok, **iki ayrı evren** ve HAVVA ikisini de adıyla beyan etmiş. Evreni
+yazılmamış bir sayı, yanlış okunmaya açıktır — kusur HAVVA'nın değil benim özetimdeydi.
+
+**DÜZELTME 2 — D7 +3 değil +4, ve KOŞUDAN DEĞİL.** `d1b25b21` 730 ↔ `fc380975` 734.
+KALKAN 0, YENİ **4** enklav / 2 ada:
+```
+1918-11-11  Ljubljana          → yugoslavya       183 km · A-koridor ┐ aynı ada
+1918-11-11  Maribor (Marburg)  → yugoslavya       177 km · A-koridor ┘
+1919-09-10  Lvov               → itilaf-emaneti   876 km · C-hakiki  ┐ aynı ada
+1919-09-10  Yazlofça           → itilaf-emaneti   892 km · C-hakiki  ┘
+```
+📌 Ve dördünün kendi satırı DEĞİŞMEMİŞ (`git log -G` o dört ad için `d1b25b21..fc380975`
+aralığında BOŞ) ⇒ enklav, **komşu kayıtların yan etkisi**. Bu motorun tanımlı davranışı
+(`§2`: noktası olmayan bölge en yakın peteğe emilir), kusur değil ama görünür sonucu var.
+Ljubljana/Maribor'u doğuran commit BELİRLENEMEDİ — açık uç.
+
+**🔴 DÜZELTME 3 / KÖK SEBEP BİRLEŞMESİ — `itilaf-emaneti` İKİ kusurun ortak kökü.**
+```
+16 yerleşim BOYASIZ          renkler.py'de kimlik YOK          ← itilaf-emaneti
+D7'nin 4 yeni enklavından 2  Lvov + Yazlofça, C-hakiki         ← itilaf-emaneti
+```
+Tek künye (`4f390691`, 5 Ekim 19:25, "Saint-Germain md. 91"), rengi olmadan indi ve iki
+ayrı denetim kaleminde göründü. ⇒ `SABAH ⑯`daki "künyesiz geçiş yönetimleri" ailesinin
+(Naiplik · PKL · Aras-Türk) bir üyesi daha, ve bu sefer ölçülmüş zararı var.
+
+**🔴 VE ÖLÇTÜM Kİ UCUZ BİR ÜÇÜNCÜ YOL YOK.** Sana "`devletler.js`e `harita:` eklenir,
+rebuild gerekmez" diye bir şık sunacaktım; **ölçtüm, YANLIŞTI.** `uret_petek.py`
+`renkler.py`den `BOYALAR`ı import ediyor ve boyayı `s:` kimliğinden DOĞRUDAN çözüyor;
+`harita:` alanı **dizin/kapı tarafına** hitap ediyor (`denetle_yayin` "dizinsiz harita
+kimliği"), motorun boya aramasına DEĞİL. ⇒ Boyanın oluşması için `BOYALAR` sözlüğünde
+anahtarın BULUNMASI şart, ve `renkler.py` motor tuzunda.
+**Sonuç, ikisi de aynı yere çıkıyor:** KOŞU 20'nin çıktısı **hiçbir yolla** deliksiz hâle
+getirilemez — ne renk ekleyerek (tuz ⇒ yeni koşu) ne veri değiştirerek (geometri çoktan
+pişti). ⇒ ⑳'daki üç şık AYNEN geçerli; eklenecek dördüncü şık yok. Önerim hâlâ ③
+(kısıtlı yayın + beyan), ve artık beyan edilecek şey TEK BİR KÜNYENİN ADI.
+
+
+## ㉑ KAPSAM KARARI — Osmanlı'nın 15 ÇOK TARAFLI maddesi çekirdeğe alınsın mı?
+W37 ölçtü: `KRONOLOJI_COK_*` dosyalarında Osmanlı'nın taraf olduğu **15 madde** var ve
+bunlar şu an çekirdek kronolojiye (Osmanlı 1281-1923, gün hassasiyetli katman) DAHİL DEĞİL.
+⇒ Bu bir kusur değil, bir **KAPSAM** sorusu: çok taraflı bir olayın Osmanlı yüzü,
+Osmanlı çekirdeğinde de görünmeli mi, yoksa yalnız çok taraflı katmanda mı kalmalı?
+**Ben karar vermiyorum** — `§1.6`nın yedi boyutu ve evren tanımı senin kararın (24 Eylül'de
+Değişmez 2 evrenini sen belirlemiştin: 10 `kronoloji_sinir*` dosyası).
+```
+① ÇEKİRDEĞE AL    Osmanlı kronolojisi zenginleşir, kullanıcı o 15 olayı padişah kartının
+                  yanında görür. Bedeli: Değişmez 2 evreni büyür, 15 madde senkron
+                  borcu doğurabilir.
+② OLDUĞU GİBİ     Çok taraflı katmanda kalır, künye sekmesinden görünür. Bedeli:
+                  çekirdek okuyucu o 15 olayı HİÇ görmez.
+```
+📌 Bağlantılı ve AYNI aileden bir soru (ben açmıyorum, ikisi birlikte karar verilmeli):
+**`kronoloji_cok_*` dosyaları Değişmez 2 evreninde OLMALI MI?** Bugün değil, ve bu yüzden
+W33 Prekmurje için evrene "kardeş madde" yazmak zorunda kaldı — aynı olayın ikinci kaydı.
+Evren genişlerse o kardeş maddeye hiç gerek kalmaz.
+
+## ㉒ ⑭'ün MEKANİZMASI BULUNDU — ameliyattan önce bilmen gereken tek şey
+`SABAH ⑭`te UMIT'in deposunun 01:28'den beri rebase ortasında kaldığını yazmıştım; **niçin**
+olduğu şimdi ölçüldü (W50, gerçek bir bare uzakla 7 senaryo):
+```
+tahta.py:557-570  "ULAŞMIŞ" hükmünü YALNIZ yerel `git log HEAD -40`tan veriyor,
+                  UZAĞI HİÇ OKUMUYOR ⇒ eski kodda 5 ayrı hata:
+                  hook reddi · TEYİT reddi · detached HEAD → üçünde de YANLIŞ "ULAŞMIŞ"
+                  makine dalına BAŞARILI push → yanlış ALARM
+                  🔴 `pull --rebase` ÇAKIŞINCA depo REBASE ORTASINDA KALIYOR
+                     = C:\atlas'ın 01:28 hâli BİREBİR
+```
+⚠️ **"Sebep bu" demiyorum — W50 da demiyor:** birebir benzerlik nedensellik değildir, bu bir
+ÇIKARIM. Ama ameliyatı yaparken bunu bilmen işine yarar: **çare elimizde**
+(`TAHTA-ULASTI-1006`, yeni kod 7/7) ve inmeden `tahta.py` aynı durumu yeniden üretebilir.
+⇒ Sıra önerim: ⑭'ü koştur (depoyu kurtar) → `TAHTA-GIT-YARIM-1006` + `TAHTA-ULASTI-1006`
+insin (tekrarı kessin). İkincisi bende, senden onay istemiyorum; yalnız sıranın sebebini
+bilmen için yazdım.
+📌 Ek kalem (bende): `tahta.py yaz` ULAŞMADI durumunda hâlâ **çıkış 0** veriyor. Düzeltilmesi
+gerek ama önce `yaz`ı çağıran betikler taranacak — bugün çıkış kodunu okuyan ne varsa yarın
+ötmeye başlayacak, ki amaç bu, ama kimin öteceğini bilmeden indirmem.

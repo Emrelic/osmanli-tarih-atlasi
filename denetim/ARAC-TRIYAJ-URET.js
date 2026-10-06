@@ -8,11 +8,38 @@
 //   sorusu değil bir VERİ HATASI.
 //
 // Üreteç her adayın TAM BİR kovaya düştüğünü sınar; düşmezse YAZMAZ.
-const fs = require("fs"), path = require("path");
+//
+// 🔴 GİRDİ TAZELİĞİ (UMIT-W31 1006b): ülke raporu kayıtlı
+//   `denetim/_1783_ulke.json`dan OKUNMAZ — o dosya artık her koşuda
+//   yenilenmiyor ve bayat hâli kovaları sessizce kaydırır. Üreticisi
+//   `ARAC-1783-ULKE-SINA.py --cikti <geçici>` ile burada koşturulur.
+//   Girdi okunamazsa ÖLÇÜLEMEDİ, çıkış 2 (temiz sayılmaz).
+const fs = require("fs"), path = require("path"), os = require("os");
+const { spawnSync } = require("child_process");
 process.chdir(path.dirname(__dirname));
 
-const taban = JSON.parse(fs.readFileSync("denetim/_triyaj_taban_amerika.json", "utf8"));
-const ulke = JSON.parse(fs.readFileSync("denetim/_1783_ulke.json", "utf8"));
+function olculemedi(neden) {
+  console.log("⚪ ÖLÇÜLEMEDİ — " + neden + " — ÇIKTI YAZILMADI");
+  process.exit(2);
+}
+
+const TABAN_YOL = "denetim/_triyaj_taban_amerika.json";
+if (!fs.existsSync(TABAN_YOL)) olculemedi(TABAN_YOL + " yok");
+const taban = JSON.parse(fs.readFileSync(TABAN_YOL, "utf8"));
+
+const ulke = (function () {
+  const dizin = fs.mkdtempSync(path.join(os.tmpdir(), "triyaj-1783-"));
+  const yol = path.join(dizin, "_1783_ulke.json");
+  const r = spawnSync("py", ["denetim/ARAC-1783-ULKE-SINA.py", "--cikti", yol],
+                      { encoding: "utf8" });
+  const metin = fs.existsSync(yol) ? fs.readFileSync(yol, "utf8") : null;
+  fs.rmSync(dizin, { recursive: true, force: true });
+  if (r.error || r.status !== 0 || metin === null)
+    olculemedi("ARAC-1783-ULKE-SINA.py çıkış " + (r.error ? r.error.message : r.status)
+               + ((r.stdout || "").split("\n").filter(s => s.indexOf("ÖLÇÜLEMEDİ") >= 0)
+                    .map(s => " · " + s.trim()).join("")));
+  return JSON.parse(metin);
+})();
 const yanlisUlke = new Set(ulke.filter(u => !u.abd_1923_dogru).map(u => u.ad));
 
 // ---- KOVA KURALLARI — her biri GEREKÇELİ ----
