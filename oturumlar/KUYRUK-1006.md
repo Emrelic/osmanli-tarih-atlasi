@@ -1136,3 +1136,53 @@ YAZILMADI.** Kural ⑨ birebir uygulanmış.
 kendi adıyla commitleyecek; `GLM1-TDV-ONBELLEK/` 1001 dosya olduğu için dizin pathspec'i
 zorunlu — o tek istisnayı commit mesajında ADIYLA beyan etmesi ve `git show --name-only`
 sayısını yazması istendi.
+
+### 15.5 🔴 904 KAPANDI — ve çürüyen hipotez BENİMDİ (evren aktarması)
+
+GLM1'in sınavı (`GLM1-904-IKINCI-CIKARICI-1006`, commit `a4093f81`, push `a4093f81`):
+904 evreninden tohum **20261007** ile 30 slug, **seçim ölçümden ÖNCE mühürlendi**.
+İkinci çıkarıcı (tam Chrome UA + tr-TR + `--compressed`, `-L` kapalı, ≥1 sn aralık):
+**30/30 = 302 `arama/<slug>` yönlendirmesi · 0 gövde · 0 ölçülemedi.**
+Alet doğrulaması: `misir` 200/31.572 kel · `tebriz` 200/3.511 · `piza` (bilinen ölü) 302.
+**Üçüncü bağımsız çıkarıcı** (webReader, JS-render) 3 slug teyidi — üçü de arama sayfasına
+düştü: `kusadasi`→1 madde (ÖKÜZ MEHMED PAŞA KÜLLİYESİ) · `bistam`→7 (BÂYEZÎD-i BİSTÂMÎ
+vb.) · `tugrulsah`→0.
+
+**Kendi kontrolüm** (tek çıkarıcıya güvenmemek için): `kusadasi` → HTTP **302** →
+`arama/kusadasi` · `misir` → **200**. Ölçüm tutuyor.
+⇒ **ÇIKARICI KUSURU YOK. Slug'lar gerçekten ölü.** `904` gövde kurtarma defteri **KAPANIR**;
+sınıfı *"yanlış slug — konu TDV'de BAŞKA ADLA var"* olarak taşınır (1006G eşleme
+disiplininin aynı ailesi). GLM1'in önerisi aynen onaylandı.
+
+#### 🔴 Çürüyen hipotez BENİMDİ, ve mekanizmayı GLM1 buldu
+Ben *"904'ün çoğu çıkarıcı kusurudur, ~630 gövde kurtarılabilir"* dedim. **Ölçüm %0**
+(%95 binom aralığı 0-11). Çürüyüşün kökü GLM1'in cümlesinde:
+> *"153 atıf İNSAN-ELİ evreniydi, 904 HASATÇININ DENEME-SLUG evreni."*
+**Ben `152/153 canlı` ölçümünü alıp 904'e taşıdım ve iki evreni aynı saydım.** Üstelik aynı
+mesajda GLM1'e *"oranı slug ADIYLA genellemezsin"* diye uyarı yazmışım.
+⇒ **Bir uyarıyı YAZMAK, onu UYGULAMAK değildir.** (`D268` ailesi; bu gecenin altıncı evren
+hatası, ve tek fark: bu kez hüküm diske inmişti — §15.1'de yazılıydı.)
+
+🟢 **Ama hükmün kendisi AYAKTA, gerekçesi DEĞİŞTİ** (`öngörü = SAYI + MEKANİZMA`):
+*"%58 bir TDV-boşluk ölçüsü değildir"* doğru çıktı — ama sebebi *"maddeler erişilebilir"*
+değil, **"904'ü TDV değil bizim HASATÇIMIZ üretti"**. Yeni hâli daha güçlü:
+`havuzun %58'i = arama sayfası çekimleri + TDV-dışı URL + hasatçının uydurduğu slug'lar`.
+
+#### Verilen iki ölçüm — sırayla, ilki BEDAVA
+```
+(A) ÖRTÜŞME  yerel, TDV isteği YOK, "yapılmalı mı"yı belirler
+    904 slug'ın kaçı BİZİM VERİMİZDE bir yerleşim/kişi/devlete karşılık geliyor ve o
+    kayıt ŞU AN kaynaksız? · normalleştirme ARAC-NORMAL-0903.py (İ/ı tuzağı) ·
+    kovalar: VAR+kaynaksız / VAR+kaynaklı / verimizde YOK (hasatçı uydurması)
+    🔴 Niçin ilk: "verimizde YOK" çıkanları eşlemek HİÇBİR borcu kapatmaz.
+(B) VERİM    (A) anlamlıysa, MÜHÜRLÜ 30 üzerinde (yeni örnek ALMA)
+    aramanın kaçı makul kapsayıcı aday veriyor? GLM1'in n=3 teyidi 2/3 — ama 3 oran değil.
+    ⚠️ (A) "VAR+kaynaksız" payını %20'nin altında gösterirse (B) HİÇ koşulmaz, 904 emekli.
+```
+
+#### GLM1'in doğru yaptıkları
+🟢 Tohumu ve seçimi **ölçümden önce mühürledi**; öngörü muhasebesini sayı/mekanizma diye
+**ayrı** tuttu. 🟢 **Üçüncü bağımsız çıkarıcı** — tuzak ⑦'nin birebir uygulaması; tek
+çıkarıcıyla "ölü" denseydi bu hüküm kurulamazdı. 🟢 Dizin istisnalarını commit mesajında
+ADIYLA beyan etti; ölçtüm: **1018 dosya, `data/` veya `arac/` satırı SIFIR** ⇒ KOŞU 21
+dondurması korundu.
