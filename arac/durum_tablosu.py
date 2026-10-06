@@ -29,6 +29,67 @@ def _oku(y):
 
 
 # ══════════════════════════════════════════════════════════════════════════
+# KİŞİ KAYNAĞI — dört AYRIK kova (6 Ekim 2026, UMIT-W7-DALGA11; koordinatör
+# KISI-SAYIM hükmü). Tanım W16'nınkiyle (`denetim/ARAC-KISI-ORNEKLEM-1006.py`
+# `kova()`) BİREBİR; o dosya `denetim/`de ve adı tireli olduğu için buradan
+# import EDİLMEZ — iki tanımın gerçek veride ve W16'nın 9 örneğinde ÜYE ÜYE
+# aynı sonucu verdiği `denetim/ARAC-KISI-KAYNAK-SINAV-1006.py` ile sınanır.
+#   tdv        `kaynak` "TDV:" ile BAŞLIYOR
+#   beyan      `kaynak` "bulunamadı" ile BAŞLIYOR (küçük harfe çevrilerek)
+#   baska      dolu, ikisiyle de başlamıyor (§4: TDV'nin kapsamadığı yerde
+#              akademik kaynak meşru)
+#   kaynaksiz  alan yok ya da boşluktan arınınca boş
+# 🔴 Ölçüt BAŞLANGIÇ'tır, İÇERİK DEĞİL: "TDV: kemal-reis (… TDV'de
+#    bulunamadı …)" bir TDV kaynağıdır. 🔴 Beyan kaynak DEĞİLDİR — "kaynak
+#    dolu" diye toplanırsa beyanlı borç kapanmış görünür (D265); toplam basılmaz.
+KISI_BEYAN = "bulunamadı"
+
+
+def kisi_kova(k):
+    s = str(k.get("kaynak") or "").strip()
+    if not s:
+        return "kaynaksiz"
+    if s.lower().startswith(KISI_BEYAN):
+        return "beyan"
+    return "tdv" if s.startswith("TDV:") else "baska"
+
+
+def kisi_kaynak_say(yol="data/kisiler.js"):
+    """kisiler.js'i TARAYICI GİBİ yükler → dört kova; ölçülemezse {"hata"}."""
+    js = ("const fs=require('fs');const W={};"
+          "new Function('window',fs.readFileSync(process.argv[1],'utf8'))(W);"
+          "if(!Array.isArray(W.KISILER))throw new Error('window.KISILER dizi değil');"
+          "process.stdout.write(JSON.stringify(W.KISILER))")
+    try:
+        c = subprocess.run(["node", "-e", js, yol], capture_output=True, timeout=120)
+    except (OSError, subprocess.SubprocessError) as e:
+        return {"hata": "node koşturulamadı: %s" % e}
+    if c.returncode != 0:
+        return {"hata": "node çıkış %d: %s" % (c.returncode,
+                                               c.stderr.decode("utf-8", "replace")[-160:])}
+    try:
+        K = json.loads(c.stdout.decode("utf-8"))
+    except ValueError:
+        return {"hata": "node çıktısı ayrıştırılamadı (kesik?)"}
+    r = {"tdv": 0, "baska": 0, "beyan": 0, "kaynaksiz": 0}
+    try:
+        for k in K:
+            r[kisi_kova(k)] += 1
+    except Exception as e:                       # ölçülemedi ≠ 0
+        return {"hata": "%s: %s" % (type(e).__name__, str(e)[:120])}
+    r["toplam"] = len(K)
+    return r
+
+
+def kisi_kaynak_satiri(kk):
+    """§1.5 'Kişi kaynağı' hücresi — ölçülemezse sayı DEĞİL, sebep."""
+    if "hata" in kk:
+        return "🔴 **ÖLÇÜLEMEDİ** — kişi kaynağı sayılamadı (%s)" % kk["hata"]
+    return ("TDV %d · başka %d · bulunamadı BEYANI %d · kaynaksız %d"
+            % (kk["tdv"], kk["baska"], kk["beyan"], kk["kaynaksiz"]))
+
+
+# ══════════════════════════════════════════════════════════════════════════
 # KASITLI BOŞLUK DEYİMİ — 2 Eylül 2026'da kovalandı
 #
 # `__BOSLUK__` bir devlet kimliği DEĞİL, bir BEYANDIR: *"bu dilimi hiçbir
@@ -402,20 +463,63 @@ def _sina():
     return 0 if (gecti == t and all(_t)) else 1
 
 
+def kronoloji_say(dosyalar=None):
+    """`arac/kronoloji_say.js` → sözlük; ölçülemezse {"hata": [...]}."""
+    if dosyalar is None:
+        dosyalar = sorted(glob.glob("data/olaylar*.js"))
+    if not dosyalar:
+        return {"hata": ["data/olaylar*.js: dosya yok"]}
+    try:
+        c = subprocess.run(["node", os.path.join(KOK, "arac", "kronoloji_say.js")]
+                           + dosyalar, capture_output=True, timeout=300)
+    except (OSError, subprocess.SubprocessError) as e:
+        return {"hata": ["node koşturulamadı: %s" % e]}
+    if c.returncode != 0:
+        return {"hata": ["node çıkış %d: %s" % (c.returncode,
+                         c.stderr.decode("utf-8", "replace")[:200])]}
+    try:
+        r = json.loads(c.stdout.decode("utf-8"))
+    except ValueError:
+        return {"hata": ["node çıktısı ayrıştırılamadı (kesik?): %r"
+                         % c.stdout[-80:]]}
+    if "hata" not in r and r.get("dosya") != len(dosyalar):
+        return {"hata": ["dosya sayısı tutmuyor: verilen %d · sayılan %s"
+                         % (len(dosyalar), r.get("dosya"))]}
+    eksik = [a for a in ("madde", "duygu", "yer_id", "yer_id_bos", "vefat_id")
+             if not isinstance(r.get(a), int)]
+    if "hata" not in r and eksik:
+        return {"hata": ["node çıktısında alan yok: %s" % ", ".join(eksik)]}
+    return r
+
+
+def kronoloji_satiri(k):
+    """§1.5 Kronoloji hücresi — ölçülemezse sayı DEĞİL, sebep yazılır.
+
+    `boş yer_id: N` — 5 Ekim 2026, genel koordinatör hükmü: `yer_id` evreni
+    DOLU alan (1629) kabul edildi, ŞARTIYLA ki anahtarı olup değeri boş
+    (`yer_id:""`) maddeler tabloda ADIYLA görünsün; aradaki fark sessizce
+    yutulmasın. N `kronoloji_say.js`in `yer_id_bos`undan gelir, sabit DEĞİL.
+    """
+    if "hata" in k:
+        return ("🔴 **ÖLÇÜLEMEDİ** — madde · duygu · `yer_id` · `vefat_id` "
+                "sayılamadı (%s)" % "; ".join(k["hata"])[:300])
+    return ("**%d** madde · %d duygu etiketli · %d `yer_id` (boş yer_id: %d)"
+            " · %d `vefat_id`"
+            % (k["madde"], k["duygu"], k["yer_id"], k["yer_id_bos"],
+               k["vefat_id"]))
+
+
 def olc():
     o = {}
     Y = girdi.yukle(sessiz=True)
     o["yerlesim"] = len(Y)
     o["girdi_dosya"] = len(girdi.GIRDI_DOSYALARI)
 
-    o["madde"] = sum(len(re.findall(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', _oku(f)))
-                     for f in sorted(glob.glob("data/olaylar*.js")))
-    o["duygu"] = sum(len(re.findall(r"duygu:\[", _oku(f)))
-                     for f in glob.glob("data/olaylar*.js"))
-    o["yer_id"] = sum(len(re.findall(r"yer_id:", _oku(f)))
-                      for f in glob.glob("data/olaylar*.js"))
-    o["vefat_id"] = sum(len(re.findall(r"vefat_id:", _oku(f)))
-                        for f in glob.glob("data/olaylar*.js"))
+    # 🔴 5 Ekim 2026 — dört sayı REGEX'ten NODE'a taşındı; regex İKİ YÖNLÜ
+    #    yanlıştı (yorum/blok yorum/iç içe adım FAZLA · `{` ayrı satır/JSON
+    #    anahtarı/boşluk EKSİK). Gerekçe ve evren `arac/kronoloji_say.js`te.
+    #    Ölçülemezse dördü de ÖLÇÜLEMEDİ olur — eski regex'e GERİ DÜŞÜLMEZ.
+    o["kronoloji"] = kronoloji_say()
 
     d = _oku("data/devletler.js")
     o["devlet"] = len(re.findall(r'\{\s*id:\s*"', d))
@@ -530,6 +634,7 @@ def olc():
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
+    o["kisi_kaynak"] = kisi_kaynak_say()
 
     m = re.search(r"^BOLGE\s*=.*$", _oku("arac/uret_petek.py"), re.M)
     o["bolge"] = m.group(0).split("=", 1)[1].strip() if m else "?"
@@ -568,8 +673,7 @@ def tablo(o):
     s.append("|---|---|")
     s.append("| Yerleşim (motorun okuduğu) | **%d** nokta, %d girdi dosyası |"
              % (o["yerlesim"], o["girdi_dosya"]))
-    s.append("| Kronoloji | **%d** madde · %d duygu etiketli · %d `yer_id` · %d `vefat_id` |"
-             % (o["madde"], o["duygu"], o["yer_id"], o["vefat_id"]))
+    s.append("| Kronoloji | %s |" % kronoloji_satiri(o["kronoloji"]))
     s.append("| Değişmez 1 — sahipsizlik | %s |" % o["d1"])
     s.append("| Değişmez 1b — iç boşluk | %s |" % o["d1b"])
     s.append("| Değişmez 2 — Osmanlı senkronu | %s |" % o["d2"])
@@ -635,6 +739,7 @@ def tablo(o):
                 kd["sinir"], kd["kronoloji"], kd["savas"], kd["kisi"]))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
+    s.append("| Kişi kaynağı | %s |" % kisi_kaynak_satiri(o["kisi_kaynak"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])
     s.append("| Yayın | **%s** · `%s` |" % (o["surum"], o["commit"]))
     return "\n".join(s)

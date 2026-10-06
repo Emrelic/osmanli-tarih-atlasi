@@ -1,0 +1,22 @@
+diff --git a/js/app.js b/js/app.js
+index d3d777c3..c4059bff 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -894,9 +894,14 @@ function bVeriKapisi() {
+   }
+   // 🔴 VARSAYILAN PASİF, yoklama TEMBEL. İlk sürüm açılışta HEAD atıyordu ve
+   // dosya yokken HER ZİYARETÇİYE bir 404 ödetiyordu (ölçüldü, ağ kaydında
+-  // `HEAD …ufuk_bantlari.js → 404`) — yayın kapısının 3b6c4b62'de kapattığı
+-  // sınıfın ta kendisi. Artık yalnız seçiciye YAKLAŞAN kullanıcı bir kez
+-  // yoklar; dosya varsa seçenekler o an açılır.
++  // `HEAD …ufuk_bantlari.js → 404`; o gün yoklanan HAM dosyaydı) — yayın
++  // kapısının 3b6c4b62'de kapattığı sınıfın ta kendisi. Artık yalnız seçiciye
++  // YAKLAŞAN kullanıcı bir kez yoklar; dosya varsa seçenekler o an açılır.
++  // Bugün HEAD `UFUK_DOSYALAR[0]` = `data/ufuk_bantlari_ust.js`e gider (6 Eki
++  // 2026, UMIT-W48). Zincir: uret_petek.py (`MOTOR_UFUK_BANT`) → ham
++  // `data/ufuk_bantlari.js` (.gitignore, yayında YOK) → `arac/kodla.py … bant`
++  // → takipli `ufuk_bantlari_ust.js` + `ufuk_bant_parcalar.js` → tembel <script>
++  // (`ufukYukle`). Ham dosya artık hiç yoklanmaz.
+   ufukDurum(false);
+   var yoklandi = false;
+   function yokla() {
