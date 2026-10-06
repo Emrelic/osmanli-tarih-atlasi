@@ -218,6 +218,13 @@ SINAV ALTYAPISI (10 diff, tek paket)
    MUTLAK-YOL · YANETKI 1006/b · HATA-ONARIM 1006/b · BAYAT-SABIT · PAKET-YUKLEYICI
    · TOPLU-SINAV 1006/b · KUNYE-SINA-CIKIS
 KRONO zinciri   SAHTE-ALINTI → TARIH → 1006b → 1006c → MUKERRER-SIL-1006b
+                → 1006d → HANYA-BOL
+                🔴 SIRA DÜZELTMESİ (W28, 6 Ekim): 1006d ve HANYA-BOL SONA eklendi ve
+                MUKERRER-SIL-1006b'den SONRA gelmek ZORUNDA. Sebep ölçülü: 1006d Halep
+                maddesinin `t:` satırını değiştiriyor (`timurlu:85`), MUKERRER-SIL-1006b
+                ise AYNI maddenin `kaynak:` satırına iz yazıyor (`:88`). 1006d önce
+                inerse SIL-1006b UYGULANAMAZ. Yedi diff geçici indekste bu sırayla temiz
+                (W28 sınadı). ⚠️ Uygulamadan sonra `paketle.py yenile` ŞART (§3(1)).
                 🔴 eski KRONO-MUKERRER-SIL-1006 GEÇERSİZ (W28)
 app.js zinciri  224 odak diff'i → KRONOLOJI-COK → APP-KISI-BAŞLIK → KIRIM-A
                 🔴 üçü de app.js; sıra bozulursa birbirinin üstüne yazar
