@@ -5431,6 +5431,62 @@ def kaynaksizlik_olc(Y):
     return {k: sorted(v) for k, v in K.items()}
 
 
+# 🆕 `isg:` KOVASI (6 Ekim 2026, UMIT-W8-DALGA3-1006) — AYRI sayı, `s:` ile TOPLANMAZ.
+#   NİÇİN: `kaynaksizlik_olc` yalnız `s:` dönemlerini okuyordu. KASA-POLONYA'nın
+#   kaynağı `s:`den `isg:`ye taşınınca hiçbiri 1930 → 1935 oldu ve `isg:`deki
+#   kaynak hiçbir yerde görünmedi (D265'in 7. vakası).
+#   NİÇİN AYRI: `isg:` kaynağı İŞGALİ tarihler, egemenlik zincirini DEĞİL.
+#   Onu `s:` "dönem-içi" saymak (ölçüldü: 1935 → 1930) beş kaydın Rus zincirinin
+#   kaynaksız olduğunu GİZLERDİ. `s:` kovaları aynen kalır; `isg:` kendi
+#   sorusunu sorar: "bu işgal penceresinin dayanağı yazılı mı?"
+#   ÖLÇÜT: dönemde `kaynak:` yok VE kayıt düzeyinde `kaynak:` yok ⇒ kaynaksız.
+#   Kapı: `KAYNAK-TAVAN.json` `isg_defter` (dönem anahtarı listesi) varsa ÜYELİK
+#   ölçütü (yeni üye = gerileme); yoksa yalnız BİLGİ basılır — tavan yazılmadı.
+def kaynaksizlik_isg_olc(Y):
+    """`isg:` dönemleri. Anahtar `dosya|ad|f|d`.
+    Döner: {isg_donem, donem_kaynaksiz, kaynaksiz} → sıralı liste.
+    donem_kaynaksiz: dönemin kendi `kaynak:`'ı yok (BİLGİ) · kaynaksiz: ne
+    dönemde ne kayıtta (ÖLÇÜT)."""
+    K = {"isg_donem": [], "donem_kaynaksiz": [], "kaynaksiz": []}
+    for y in Y:
+        for p in (y.get("isg") or []):
+            if not isinstance(p, dict):
+                continue
+            a = "%s|%s|%s|%s" % (y.get("_kaynak"), y.get("ad"), p.get("f"), p.get("d"))
+            K["isg_donem"].append(a)
+            if _kaynak_dolu(p.get("kaynak")):
+                continue
+            K["donem_kaynaksiz"].append(a)
+            if not _kaynak_dolu(y.get("kaynak")):
+                K["kaynaksiz"].append(a)
+    return {k: sorted(v) for k, v in K.items()}
+
+
+def _kaynak_isg_rapor(Y, T, ayrinti):
+    """`isg:` kovasını basar; gerileme varsa True. `isg:` yoksa ve defter de
+    yoksa HİÇBİR ŞEY basmaz (isg:'siz veride eski çıktı birebir kalsın)."""
+    I = kaynaksizlik_isg_olc(Y)
+    Id = T.get("isg_defter") if T else None
+    if not I["isg_donem"] and Id is None:
+        return False
+    ni, nd, nt = len(I["kaynaksiz"]), len(I["donem_kaynaksiz"]), len(I["isg_donem"])
+    if Id is None:
+        print(f"            i `isg:` kaynaksız dönem: {ni} (dönem+kayıt) · dönemin kendi "
+              f"kaynağı yok {nd} · `isg:` dönemi {nt} — AYRI kova, `s:` ile toplanmaz")
+        print(f"              tavan YOK (`isg_defter` yazılmadı) ⇒ yalnız BİLGİ, kapı ölçmüyor")
+        return False
+    yeni = sorted(set(I["kaynaksiz"]) - set(Id))
+    print(f"            {'✗' if yeni else '✓'} `isg:` kaynaksız dönem: {ni} (tavan {len(Id)}) · "
+          f"dönemin kendi kaynağı yok {nd} · `isg:` dönemi {nt} — AYRI kova")
+    for k in (yeni if ayrinti else yeni[:15]):
+        print(f"    İSG KAYNAKSIZ YENİ  {k}  → `isg:` dönemine `kaynak:` yaz")
+    if yeni:
+        print(f"            🔴 GERİLEME: {len(yeni)} yeni kaynaksız `isg:` dönemi — tavan YÜKSELTİLMEZ.")
+    elif ni < len(Id):
+        print(f"            ⚠️ `isg:` TAVANI GEVŞEK {len(Id)}→{ni} — `--kaynak-tavan-indir`")
+    return bool(yeni)
+
+
 def _kaynak_tavan_oku(yol):
     T = json.load(open(yol, encoding="utf-8"))
     for alan in ("hicbiri", "donem_ici", "hicbiri_defter", "donem_ici_defter"):
@@ -5450,6 +5506,7 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
         print(f"Ek denetim  !  kaynaksız `s:` kaydı: {nh} · dönem-içi kaynaklı {nd} — "
               f"tavan ÖLÇÜLEMEDİ ({type(e).__name__}: {str(e)[:70]})")
         olculemedi("kaynaksızlık tavanı", "%s: %s" % (type(e).__name__, e))
+        _kaynak_isg_rapor(Y, None, ayrinti)
         return False
     yeni_h, yeni_d, th, tk = _kaynak_gerileme(K, T)
     ihlal = bool(yeni_h or yeni_d)
@@ -5468,6 +5525,8 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
     elif nh < th or nk < tk:
         print(f"            ⚠️ TAVAN GEVŞEK — hiçbiri {th}→{nh} · kayıt-kaynaksız {tk}→{nk} "
               f"(iyileşme) — `py arac/denetle.py --kaynak-tavan-indir`")
+    if _kaynak_isg_rapor(Y, T, ayrinti):
+        ihlal = True
     return ihlal
 
 
@@ -5491,8 +5550,12 @@ def kaynak_tavan_indir(Y, yol=None):
               "İlk tavan elle, gerekçesiyle yazılır.")
         return False
     yeni_h, yeni_d, _, _ = _kaynak_gerileme(K, T)
+    # `isg:` defteri VARSA aynı kurala bağlıdır (yalnız daralır); yoksa dokunulmaz —
+    # ilk `isg_defter` elle, gerekçesiyle yazılır (yükselten bayrak yok, D255).
+    I = kaynaksizlik_isg_olc(Y) if "isg_defter" in T else None
+    yeni_i = sorted(set(I["kaynaksiz"]) - set(T["isg_defter"])) if I else []
     red = []
-    for ad, yeni in (("hiçbiri", yeni_h), ("dönem-yalnız", yeni_d)):
+    for ad, yeni in (("hiçbiri", yeni_h), ("dönem-yalnız", yeni_d), ("isg", yeni_i)):
         if yeni:
             red.append(f"{ad}: defterde olmayan {len(yeni)} YENİ üye ({', '.join(yeni[:5])}) — "
                        "sayı düşmüş olsa bile takas affedilmez, önce onlara kaynak yazılır")
@@ -5502,7 +5565,8 @@ def kaynak_tavan_indir(Y, yol=None):
             print("     • " + r)
         return False
     if set(K["hicbiri"]) == set(T["hicbiri_defter"]) and \
-            set(K["donem_ici"]) == set(T["donem_ici_defter"]):
+            set(K["donem_ici"]) == set(T["donem_ici_defter"]) and \
+            (I is None or set(I["kaynaksiz"]) == set(T["isg_defter"])):
         print("i --kaynak-tavan-indir: defter bugünle aynı, yazılacak bir şey yok.")
         return None
     # Buraya gelindiyse hiçbiri ⊆ eski hiçbiri defteri ve kayıt-kaynaksız ⊆ eski
@@ -5511,6 +5575,8 @@ def kaynak_tavan_indir(Y, yol=None):
     eski = (T["hicbiri"], T["donem_ici"])
     T["hicbiri"], T["donem_ici"] = len(K["hicbiri"]), len(K["donem_ici"])
     T["hicbiri_defter"], T["donem_ici_defter"] = K["hicbiri"], K["donem_ici"]
+    if I is not None:
+        T["isg_defter"] = I["kaynaksiz"]
     T.setdefault("gecmis", []).append({"tarih": date.today().isoformat(),
                                        "hicbiri": [eski[0], T["hicbiri"]],
                                        "donem_ici": [eski[1], T["donem_ici"]]})
