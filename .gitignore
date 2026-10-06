@@ -206,6 +206,20 @@ denetim/_govde/*.txt
 glm/_mesaj.txt
 data/ufuk_bantlari.js
 
+# ── data/dolgu.js — ÜRETİLİR AMA YAYINA GİRMEMELİ (W55b bulgusu, 6 Ekim 2026) ──
+# `uret_petek.py:7978` Ⓑ bandı aşamasında `data/dolgu.js` YAZIYOR
+# (`:7980` logda "Ⓑ dolgu → data/dolgu.js" basar). Dosya İZLENMİYOR ve bugüne
+# kadar gitignore'da da DEĞİLDİ ⇒ koşu sonrası bir ağaçta toplu ekleme onu
+# YAYINA SOKARDI.
+# 🔴 Ve o dosya YANLIŞTIR: `index.html:1779` (22 Eylül 2026) yükleyici satırını
+# KALDIRDI — "diskte YOK ve hiç üretilmedi; her ziyaretçi her açılışta bir 404
+# ödüyordu ve karşılığında hiçbir şey almıyordu; atlas zaten `window.DOLGU || []`
+# ile A görünümünde çalışıyor". ⇒ Üretilmesi sürüyor, TÜKETİCİSİ YOK.
+# ⚠️ Bu satır bir çare değil SİGORTA: asıl kusur zincirin toplu ekleme yapması
+# (`kos_ve_yayinla.py:350`, §7 yasağı) ve o düzeltme Emre'nin izin kararında.
+# Sigorta, düzeltme gelmeden de riski kesiyor.
+data/dolgu.js
+
 # ── GÖMÜLÜ DEPO — 1 Ekim 2026, ölçülmüş bir vakadan sonra ────────────
 # `ClaudEmre-kutu/` kendi `.git`ini taşıyan AYRI bir depodur. Atlas deposunun
 # içinde durması git için bir "embedded repository"dir: commitlenirse git onu
