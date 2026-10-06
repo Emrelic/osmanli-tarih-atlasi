@@ -138,6 +138,17 @@
            ALTYAPI, ok bir ANLATI öğesidir; birini kapatmak ötekini kapatmaz. -->
       <label><input type="checkbox" data-katman="harekat" checked> <span>④ Harekât okları</span><em id="kat-sayi-harekat"></em></label>
       <label><input type="checkbox" data-katman="siyasi" checked> <span>⑤ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
+      <!-- ⑤b HARİTA RÖTUŞU (0084/H-0019, P84-ROTUS 6 Ekim 2026). Kutu iki şeyi
+           birlikte yönetir: kesikli rötuş konturu (`rotus-kontur`) VE gövdelere
+           rötuşun uygulanıp uygulanmadığı. Kapalıyken HAM gövde görünür ⇒
+           rötuşlu/rötuşsuz hâl yan yana karşılaştırılır. VARSAYILAN AÇIK
+           (koordinatör kararı). Kayıt sayısı kutunun ipucunda. Düğme: kullanıcı
+           haritaya poligon çizer, `rotus-teklif-<gün>-<saat>.json` iner;
+           dosya parti akışına H-maddesi eki olarak girer, kontrolü (K1-K9)
+           Claude yapar, kaydı koordinatör yazar. -->
+      <label><input type="checkbox" data-katman="rotus" checked> <span>⑤b Rötuşlar</span><em id="kat-sayi-rotus"></em></label>
+      <div class="secici-satir"><button type="button" id="rotus-teklif-dugme"
+        title="Haritaya tıklayarak poligon çiz · çift tık / Enter bitirir · Esc iptal · Backspace son noktayı siler">✏️ Rötuş teklif et</button><em id="rotus-teklif-durum"></em></div>
       <!-- ⑥ Ⓑ DOLGU (B-GORUNUM-0072): A = sürtünmeli yürüyüş haritası
            (bugünkü yayın), B = A + dolgu. VARSAYILAN KAPALI — B bir SEÇENEK.
            Verisi üretilmemişse rozet "—" yazar ("katman yok" ile "veri
@@ -1989,6 +2000,11 @@
 <!-- Milimetrik sınır yaslaması (Emre, 23 Eylül 2026): hattın iki yanındaki taşan
      rengi örtmek için poligon kesişimi — js/d_katman.js _dYaslaGuncelle. -->
 <script src="https://cdn.jsdelivr.net/npm/polygon-clipping@0.15.7/dist/polygon-clipping.umd.min.js"></script>
+<!-- HARİTA RÖTUŞU (P84-ROTUS, 6 Ekim 2026): kaydın anlamı + uygulanışı TEK
+     dosyada; arac/rotus_coz.js node'da AYNI dosyayı koşturur (denetle.py R).
+     Kayıtlar data/rotus.js (window.ROTUS) — koordinatör yazar; dosya yoksa
+     rötuş 0 (app.js window.ROTUS yoksa boş liste sayar). -->
+<script src="js/rotus.js?v=r11872"></script>
 <script src="js/d_katman.js?v=r11872"></script>
 <script src="js/antlasma_harita.js?v=r11872"></script>
 <script src="js/anim_dili.js?v=r11872"></script>
