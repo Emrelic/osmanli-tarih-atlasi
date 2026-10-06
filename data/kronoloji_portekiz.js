@@ -71,7 +71,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1281-01-01", b:"XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", ic_not_b:"eski b: Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Atlas penceresi açıldığında Portekiz Krallığı 1139'dan beri bağımsız, sınırları 1249'da Algarve'nin fethiyle bugünkü hâline kavuşmuş bir Burgonya hanedanı krallığıdır — Avrupa'nın Reconquista'yı en erken tamamlayan devletidir. Bu erken bitiş, Kastilya ve Aragon henüz Endülüs'le uğraşırken Portekiz'i Atlantik'e yönelmeye hazırlayan yapısal bir avantaj olarak okunur.",
-  kaynak:"TDV `portekiz`: \"1095'te bağımsız devlet kurulması başladı\" · standart akademik kronoloji (Algarve fethi 1249)" },
+  kaynak:"TDV `portekiz`: 1095'te bağımsız devlet kurulması başladı · standart akademik kronoloji (Algarve fethi 1249)" },
 
 { t:"1290-03-01", b:"Coimbra (Lizbon) Üniversitesi kuruldu", tur:"bilim", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["bilim","konu-bilim","konu-egitim"],
@@ -91,7 +91,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1415-08-21", b:"Ceuta'nın fethi — sömürge çağının açılışı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Sebte (Ceuta)",
   etiket:["askeri","toprak-kazanc","din","konu-askeri","konu-din"],
   d:"I. João komutasındaki bir Portekiz donanması, Cebelitarık Boğazı'nın Afrika yakasındaki Ceuta'yı Merînî hâkimiyetinden aldı. Bu, bir Avrupa devletinin Afrika kıtasında kurduğu ilk kalıcı üstü ve Portekiz'in yüzyıllar sürecek denizaşırı genişlemesinin başlangıç noktasıdır; seferde genç şehzade Henrique de yer aldı.",
-  kaynak:"TDV `portekiz`: \"1415: Ceuta fethi sömürge dönemini açtı\"" },
+  kaynak:"TDV `portekiz`: 1415: Ceuta fethi sömürge dönemini açtı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. KEŞİFLER ÇAĞI — AFRİKA KIYISI VE OKYANUS YOLU (1419-1497)
@@ -224,12 +224,12 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1515-04-01", b:"Hürmüz'ün ikinci kez alınması — Basra Körfezi'nin kilidi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hürmüz Adası",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Albuquerque, 1507'de kuşatıp çekildiği Hürmüz Adası'nı yedi yıl sonra kalıcı olarak ele geçirdi; adanın hükümdarını Portekiz'e bağımlı bir vassal hâline getirdi. Basra Körfezi'nin ağzını denetleyen bu üs, Portekiz'in Hint Okyanusu ticaret ağının batı ucundaki en değerli halkasıydı.",
-  kaynak:"standart akademik kronoloji, çapraz doğrulama; TDV `hurmuz--iran`: \"Portekizliler ikinci muhasaradan sonra adayı ele geçirip sultanı kendilerine bağladılar\"" },
+  kaynak:"standart akademik kronoloji, çapraz doğrulama; TDV `hurmuz--iran`: Portekizliler ikinci muhasaradan sonra adayı ele geçirip sultanı kendilerine bağladılar" },
 
 { t:"1517-01-01", gun:"1517 baharı — TDV: Selman Reis 18 Nisan 1517 tarihli raporunda Portekiz donanmasının Cidde'yi kuşattığını bildirir; muharebe günü verilmez", b:"Selman Reis, Portekiz filosunu Cidde önünde geri püskürttü", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Cidde",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Memlük hizmetindeki denizci Selman Reis, Kızıldeniz'e girmeye çalışan bir Portekiz filosunu Cidde önünde durdurdu; bu, Portekiz'in Kızıldeniz'in kuzeyine kalıcı olarak giremeyeceğinin ilk açık göstergesiydi. Osmanlı'nın 1517'de Mısır'ı fethetmesiyle bu savunma hattı bir yıl içinde Osmanlı denetimine geçecekti.",
-  kaynak:"TDV `portekiz`: \"1517: Selman Reis Portekizlileri Cidde'de geri püskürtmüştü\" · TDV `selman-reis`: \"26 Rebîülevvel 923 (18 Nisan 1517)\" raporu" },
+  kaynak:"TDV `portekiz`: 1517: Selman Reis Portekizlileri Cidde'de geri püskürtmüştü · TDV `selman-reis`: \"26 Rebîülevvel 923 (18 Nisan 1517)\" raporu" },
 
 { t:"1517-01-01", b:"Seylan'a ulaşıldı — tarçın adası", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:"Kolombo",
   etiket:["ticaret","toprak-kazanc","konu-askeri","konu-ekonomi"],
@@ -308,7 +308,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1552-01-01", gun:"1552 sonbaharı — TDV: Mayıs 1552'de Süveyş'ten hareket, 10 Ekim 1552'den sonra Hürmüz üzerine yürüdü; kuşatma günü verilmez", b:"Pîrî Reis'in Hürmüz kuşatması — Portekiz kaleyi savundu", tur:"kusatma", onem:3, dunya:2, kapsam:"dis", yer_id:"Hürmüz Adası",
   etiket:["askeri","konu-askeri"],
   d:"Pîrî Reis, otuz gemilik bir filoyla Hürmüz Adası'nı kuşattı; yolda Maskat'ı bir haftalık kuşatmayla ele geçirip 128 Portekizli esir aldı. Ancak Hürmüz'ün kendisinde Portekiz donanmasının üstünlüğünden çekinerek kuşatmayı kaldırdı — kale bir asır daha Portekiz elinde kaldı.",
-  kaynak:"TDV `piri-reis`: \"959'da (1552) Hürmüz'ü zaptetmek için Süveyş'ten otuz parça gemiyle yola çıktı… Maskat bir haftalık kuşatmadan sonra ele geçirildi, 128 esir alındı\" · Ağustos 1552 dayanaksızdı; TDV \"21 Şevval 959 (10 Ekim 1552)\" sonrası Hürmüz — gün bilinmediğinden yıl yazıldı" },
+  kaynak:"TDV `piri-reis`: 959'da (1552) Hürmüz'ü zaptetmek için Süveyş'ten otuz parça gemiyle yola çıktı… Maskat bir haftalık kuşatmadan sonra ele geçirildi, 128 esir alındı · Ağustos 1552 dayanaksızdı; TDV \"21 Şevval 959 (10 Ekim 1552)\" sonrası Hürmüz — gün bilinmediğinden yıl yazıldı" },
 
 { t:"1554-08-25", b:"Seydi Ali Reis'in Umman açıklarında yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Maskat",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -328,7 +328,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1578-08-04", b:"Vâdisseyl (Alcácer Quibir) Savaşı — Kral Sebastião öldü, hanedan çöktü", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"", odak_yer:"Kasrülkebîr",
   etiket:["askeri","hanedan","toprak-kayip","konu-askeri","konu-kisiler","konu-hanedan"],
   d:"Genç Kral Sebastião, Fas'a bir haçlı seferi düzenleyip tahttan indirilmiş Sa'dî sultanı Muhammed el-Mütevekkil'i geri getirmeye kalkıştı; Osmanlı destekli Sultan Abdülmelik'in ordusu Portekiz ordusunu Vâdisseyl'de imha etti. Sebastião savaş alanında öldü, vâris bırakmadı ve Abdülmelik de aynı gün öldü — üç kral bir günde kaybedildiği için savaş 'Üç Kral Savaşı' olarak da anılır.",
-  kaynak:"TDV `portekiz`: \"1578 (4 Ağustos): Vâdisseyl Savaşında Portekiz ordusu yenildi, Kral Sebastian öldürüldü\" · TDV `sadiler`: \"Sultan Abdülmelik çarpışma sırasında öldü (4 Ağustos 1578)\" — ⚠️ TDV'de savaşın müstakil maddesi yok, iki kaynaktan birleştirildi" },
+  kaynak:"TDV `portekiz`: 1578 (4 Ağustos): Vâdisseyl Savaşında Portekiz ordusu yenildi, Kral Sebastian öldürüldü · TDV `sadiler`: Sultan Abdülmelik çarpışma sırasında öldü (4 Ağustos 1578) — ⚠️ TDV'de savaşın müstakil maddesi yok, iki kaynaktan birleştirildi" },
 
 { t:"1580-08-25", b:"Alcântara Savaşı — İspanya birliğinin askerî kesinleşmesi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Lizbon",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
@@ -500,7 +500,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1910-10-05", b:"Cumhuriyet ilan edildi — monarşi sona erdi", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"Lizbon",
   etiket:["isyan","anayasa","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"Cumhuriyetçi subaylar ve sivillerin Lizbon'da başlattığı iki günlük bir ayaklanmanın ardından Portekiz Cumhuriyeti ilan edildi; Kral II. Manuel İngiltere'ye kaçtı ve yedi asırlık Portekiz monarşisi sona erdi. Bu, Portekiz'in kendi tarihinde ilk cumhuriyet deneyimiydi ve on altı yıl sürecek istikrarsız Birinci Cumhuriyet dönemini açtı.",
-  kaynak:"TDV `portekiz`: \"1910 (Ekim): Cumhuriyet ilân edildi, Kral II. Emanuel İngiltere'ye kaçtı\"" },
+  kaynak:"TDV `portekiz`: 1910 (Ekim): Cumhuriyet ilân edildi, Kral II. Emanuel İngiltere'ye kaçtı" },
 
 { t:"1911-04-20", gun:"20 Nisan 1911 kararname; Diário do Governo'da 21 Nisan", b:"Kilise-devlet ayrılığı yasası — laik cumhuriyet reformları", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["reform","din","konu-din","konu-islahat"],

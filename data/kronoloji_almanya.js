@@ -320,7 +320,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1761-03-22", devlet:"brandenburg-prusya", b:"Osmanlı-Prusya dostluk ve ticaret antlaşması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","ekonomi","brandenburg-prusya","konu-diplomasi","konu-ekonomi"],
   d:"Yedi Yıl Savaşları sürerken imzalanan antlaşma, iki devlet arasındaki ilk resmî dostluk ve ticaret çerçevesini kurdu. Osmanlı tarafı, Avrupa'daki güçler dengesinde Prusya'yı Avusturya ve Rusya'ya karşı potansiyel bir denge unsuru olarak görüyordu.",
-  kaynak:"TDV `prusya`: \"22 Mart 1761 Dostluk ve ticaret antlaşması imzalanır\" — bu oturumda okundu", yer_id:"İstanbul" },
+  kaynak:"TDV `prusya`: 22 Mart 1761 Dostluk ve ticaret antlaşması imzalanır — bu oturumda okundu", yer_id:"İstanbul" },
 
 { t:"1763-08-12", devlet:"brandenburg-prusya", b:"Generallandschulreglement — Prusya'da genel ilköğretim yasası", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"Berlin",
   etiket:["idari","sosyal","brandenburg-prusya","konu-idari","konu-islahat","konu-sosyal"],
@@ -330,7 +330,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1763-11-01", devlet:"brandenburg-prusya", b:"Ahmed Resmî Efendi'nin Berlin'e ilk Osmanlı elçisi olarak gönderilmesi", tur:"diplomasi", onem:2, dunya:1, kapsam:"dis", yer_id:"Berlin",
   etiket:["diplomasi","brandenburg-prusya","konu-diplomasi"],
   d:"1761 antlaşmasının ardından Ahmed Resmî Efendi, Berlin'e atanan ilk Osmanlı daimî elçisi olarak Prusya sarayına gitti. Görevi sırasındaki gözlemleri, Osmanlı bürokrasisinde Avrupa askerî-idarî reformlarına ilginin ilk kaynaklarından biri oldu.",
-  kaynak:"TDV `prusya`: \"Kasım 1763 Ahmed Resmî Efendi, ilk Osmanlı sefâret heyeti başkanı olarak Berlin'e gider\" — bu oturumda okundu, gün belirtilmedi" },
+  kaynak:"TDV `prusya`: Kasım 1763 Ahmed Resmî Efendi, ilk Osmanlı sefâret heyeti başkanı olarak Berlin'e gider — bu oturumda okundu, gün belirtilmedi" },
 
 { t:"1786-08-17", devlet:"brandenburg-prusya", b:"Büyük Friedrich'in ölümü", tur:"olum", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["hanedan","brandenburg-prusya","konu-kisiler","konu-hanedan"],
@@ -344,7 +344,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1790-01-31", devlet:"brandenburg-prusya", b:"Prusya-Osmanlı ittifak antlaşması", tur:"ittifak", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","ittifak","brandenburg-prusya","konu-diplomasi"],
   d:"Avusturya ve Rusya'nın Osmanlı'ya karşı savaşı sürerken imzalanan antlaşma, Prusya'yı Osmanlı'nın savunma müttefiki ilan etti. Antlaşma çok geçmeden Prusya'nın diplomatik önceliklerini Lehistan meselesine çevirmesiyle fiilen işlevsiz kaldı, ama Reichenbach Konvansiyonu'nun zeminini hazırladı.",
-  kaynak:"TDV `prusya`: \"31 Ocak 1790 Prusya-Osmanlı ittifak antlaşması imzalanır\" — bu oturumda okundu", yer_id:"İstanbul" },
+  kaynak:"TDV `prusya`: 31 Ocak 1790 Prusya-Osmanlı ittifak antlaşması imzalanır — bu oturumda okundu", yer_id:"İstanbul" },
 
 { t:"1790-07-27", devlet:"brandenburg-prusya", b:"Reichenbach Konvansiyonu — Prusya baskısıyla Avusturya'nın barışa zorlanması", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","brandenburg-prusya","konu-diplomasi"],
@@ -423,7 +423,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1840-01-01", devlet:"alman-konfederasyonu", b:"Osmanlı-Alman ticaret antlaşmasının yenilenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","alman-konfederasyonu","konu-diplomasi","konu-ekonomi"],
   d:"Zollverein'in genişlemesiyle birlikte Osmanlı-Alman ticarî ilişkileri 1840'ta yeni bir antlaşmayla güncellendi. Antlaşma, on dokuzuncu yüzyıl boyunca giderek yoğunlaşacak Osmanlı-Alman ticaretinin erken aşamalarından biriydi.",
-  kaynak:"TDV `almanya`: \"1840 Osmanlı-Alman ticaret antlaşması yenilendi\" — bu oturumda okundu, gün belirtilmedi", yer_id:"İstanbul" },
+  kaynak:"TDV `almanya`: 1840 Osmanlı-Alman ticaret antlaşması yenilendi — bu oturumda okundu, gün belirtilmedi", yer_id:"İstanbul" },
 
 { t:"1842-09-04", devlet:"brandenburg-prusya", b:"Köln Katedrali'nin inşasının yeniden başlatılması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Köln",
   etiket:["kultur","mimari","brandenburg-prusya","imar","konu-kultur","konu-imar"],
@@ -478,7 +478,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1862-03-20", devlet:"brandenburg-prusya", b:"Zollverein-Osmanlı gümrük muahedesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","brandenburg-prusya","konu-diplomasi","konu-ekonomi"],
   d:"Alman Gümrük Birliği ile Osmanlı Devleti arasında yeni bir ticaret ve gümrük antlaşması imzalandı; bu, birleşme öncesi dağınık Alman devletlerinin ortak ekonomik kimliğiyle Osmanlı'yla kurduğu ilişkinin bir göstergesiydi.",
-  kaynak:"TDV `prusya`: \"20 Mart 1862 Zollverein ile yeni muahede yapıldı\" — bu oturumda okundu", yer_id:"İstanbul" },
+  kaynak:"TDV `prusya`: 20 Mart 1862 Zollverein ile yeni muahede yapıldı — bu oturumda okundu", yer_id:"İstanbul" },
 
 { t:"1862-09-23", devlet:"brandenburg-prusya", b:"Bismarck'ın Prusya Başbakanı olması", tur:"siyaset", onem:5, dunya:4, kapsam:"ic", yer_id:"Berlin",
   etiket:["siyaset","brandenburg-prusya","konu-siyasi"],
@@ -577,7 +577,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1889-01-01", devlet:"almanya", b:"II. Wilhelm'in İstanbul ziyareti", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset","alman-imparatorlugu","konu-siyasi","konu-diplomasi"],
   d:"Tahta çıkışından altı ay sonra II. Sultan Abdülhamid'i ziyaret eden II. Wilhelm, bir Avrupa hükümdarının Osmanlı başkentine yaptığı ilk resmî ziyaretlerden birini gerçekleştirdi. Ziyaret, sonraki otuz yılın Alman-Osmanlı yakınlaşmasının açılış sahnesiydi.",
-  kaynak:"TDV `almanya`: \"1889 II. Wilhelm'in İstanbul ziyareti gerçekleşti\" — bu oturumda okundu, gün belirtilmedi; devletler.js `almanya` künyesindeki 1889-01-01 tarihiyle HİZALANDI", yer_id:"İstanbul" },
+  kaynak:"TDV `almanya`: 1889 II. Wilhelm'in İstanbul ziyareti gerçekleşti — bu oturumda okundu, gün belirtilmedi; devletler.js `almanya` künyesindeki 1889-01-01 tarihiyle HİZALANDI", yer_id:"İstanbul" },
 
 { t:"1889-06-22", devlet:"almanya", b:"Yaşlılık ve Malullük Sigortası Yasası", tur:"reform", onem:4, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["sosyal","kanun","alman-imparatorlugu","konu-islahat","konu-sosyal","konu-hukuk"],
@@ -597,7 +597,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1898-11-08", devlet:"almanya", b:"II. Wilhelm'in Şam ziyareti — '300 milyon Müslümanın dostu' beyanı", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset","alman-imparatorlugu","konu-siyasi","konu-diplomasi"],
   d:"İstanbul-Kudüs-Şam güzergâhlı ikinci Osmanlı seyahatinde II. Wilhelm, Selahaddin Eyyûbî'nin türbesini ziyaret ederek kendisini \"dünyadaki üç yüz milyon Müslümanın dostu\" ilan etti. Beyan, Almanya'nın İslâm dünyasına yönelik siyasetinin sembolik zirvesiydi ve İngiliz-Fransız kamuoyunda büyük tepki yarattı.",
-  kaynak:"TDV `almanya`: \"1898 sonbahar II. Wilhelm'in İstanbul-Kudüs ziyareti; kendini 300 milyon müslümanın dostu ilân etti\" — bu oturumda okundu; Şam konuşmasının 8 Kasım 1898 tarihi standart tarihyazımı", yer_id:"Şam" },
+  kaynak:"TDV `almanya`: 1898 sonbahar II. Wilhelm'in İstanbul-Kudüs ziyareti; kendini 300 milyon müslümanın dostu ilân etti — bu oturumda okundu; Şam konuşmasının 8 Kasım 1898 tarihi standart tarihyazımı", yer_id:"Şam" },
 
 { t:"1900-01-01", devlet:"almanya", b:"Alman Medeni Kanunu'nun (BGB) yürürlüğe girmesi", tur:"kanun", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["kanun","idari","alman-imparatorlugu","konu-idari","konu-hukuk"],
@@ -612,7 +612,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1903-03-05", devlet:"almanya", b:"Bağdat Demiryolu Antlaşması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","alman-imparatorlugu","islahat","konu-diplomasi","konu-ekonomi","konu-islahat","konu-ulastirma"],
   d:"Deutsche Bank önderliğindeki Alman sermayesine, İstanbul'dan Bağdat ve Basra Körfezi'ne uzanacak demiryolu hattının inşa ve işletme imtiyazını veren antlaşma imzalandı. Proje, İngiliz-Alman emperyal rekabetinin (\"Berlin-Bağdat\" hattı) simgesi oldu ve I. Dünya Savaşı öncesi gerginliklerin kaynaklarından biri sayılır.",
-  kaynak:"TDV `almanya`: \"5 Mart 1903 Bağdat Demiryolu Antlaşması imzalandı\"; TDV `bagdat-demiryolu`: nihai finansman anlaşması 21 Mart 1903, şirketin resmî kuruluşu 13 Nisan 1903 — bu oturumda ikisi de okundu, antlaşmanın imza tarihi olarak almanya maddesindeki 5 Mart esas alındı", yer_id:"İstanbul" },
+  kaynak:"TDV `almanya`: 5 Mart 1903 Bağdat Demiryolu Antlaşması imzalandı; TDV `bagdat-demiryolu`: nihai finansman anlaşması 21 Mart 1903, şirketin resmî kuruluşu 13 Nisan 1903 — bu oturumda ikisi de okundu, antlaşmanın imza tarihi olarak almanya maddesindeki 5 Mart esas alındı", yer_id:"İstanbul" },
 
 { t:"1905-03-31", devlet:"almanya", b:"Birinci Fas Krizi — Tanca çıkarması", tur:"kriz", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset","alman-imparatorlugu","konu-siyasi","konu-diplomasi"],
@@ -627,7 +627,7 @@ window.KRONOLOJI_ALMANYA = [
 { t:"1913-12-14", devlet:"almanya", b:"Liman von Sanders'in Osmanlı ordusuna atanması", tur:"askeri", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","diplomasi","alman-imparatorlugu","konu-askeri","konu-diplomasi"],
   d:"Alman General Otto Liman von Sanders başkanlığındaki subay heyeti, Osmanlı ordusunun üst kademelerine danışman olarak atandı ve İstanbul'a geldi. Atama, Rusya'nın sert tepkisiyle uluslararası bir krize (Liman von Sanders Krizi) dönüştü ve Almanya'nın Osmanlı ordusundaki etkisinin I. Dünya Savaşı öncesi zirvesini işaretledi.",
-  kaynak:"TDV `almanya`: \"1913 General Liman von Sanders başkanlığındaki Alman subay grubu ordunun üst makamlarına tayin edildi\" — bu oturumda okundu; varış tarihi 14 Aralık 1913 standart tarihyazımından alındı", yer_id:"İstanbul" },
+  kaynak:"TDV `almanya`: 1913 General Liman von Sanders başkanlığındaki Alman subay grubu ordunun üst makamlarına tayin edildi — bu oturumda okundu; varış tarihi 14 Aralık 1913 standart tarihyazımından alındı", yer_id:"İstanbul" },
 
 // ══════════════════════════════════════════════════════════════════
 // VIII. DÜNYA SAVAŞI VE ÇÖKÜŞ (1914-1923)

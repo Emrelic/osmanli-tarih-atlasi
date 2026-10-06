@@ -111,7 +111,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["evfat"], t:"1300-01-02", b:"Evfât'ın kervan yolları üzerindeki tekeli ve altı tâbi sultanlık", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Zeyla",
   etiket:["ticaret","idari","konu-idari","konu-ekonomi"],
   d:"Evfât, Habeşistan yaylasını Zeyla' limanına bağlayan kervan yollarını denetliyor, bölgenin kara ve deniz ticaretine hâkim oluyordu. Emirliğin nüfuzu altında Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre adlı altı müslüman sultanlık daha vardı.",
-  kaynak:"TDV `evfat`: \"Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre\"" },
+  kaynak:"TDV `evfat`: Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre" },
 
 { taraflar:["evfat"], t:"1328-01-01", b:"Evfât sultanı Habeş kralına yenildi ve esir düştü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -161,7 +161,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1415-01-01", b:"II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi", tur:"yikilis", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Zeyla' adasına sığınan son Evfât sultanı Sa'deddin orada kıstırılıp öldürüldü ve emirlik dağıldı. Veleşma hânedanının hayatta kalan üyeleri doğuya çekilerek Adal Sultanlığı'nı kuracak; İfat'ın davası bir asır sonra Ahmed el-Mücâhid'in cihadıyla yeniden dirilecektir.",
-  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\"" },
+  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. ADAL SULTANLIĞI ve HARAR EMİRLİĞİ — 1415-1887
@@ -171,7 +171,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1415-01-02", b:"Adal Sultanlığı Evfât'ın yerini aldı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","kurulus","konu-siyasi","konu-hanedan"],
   d:"Evfât'ın yıkılışının ardından Veleşma hânedanı doğuya, Adal bölgesine çekilerek yeni bir sultanlık kurdu. Merkez önce Zeyla' civarındaydı; devlet İfat'ın Habeş krallığıyla hesabını bir asır sonra kapatacaktır.",
-  kaynak:"TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\" · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
+  kaynak:"TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
 
 { taraflar:["adal"], t:"1480-01-01", b:"Emîr Mahfûz'un Adal genişlemesini başlatması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["askeri","toprak","konu-askeri"],
@@ -266,7 +266,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1551-01-01", b:"Emîr Nûr'un Harar surlarını yaptırması", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["mimari","sehircilik","imar","konu-imar"],
   d:"Sâhibü'l-fethi's-sânî unvanını taşıyan Emîr Nûr b. Mücâhid, Habeş baskınlarına karşı şehri koruyacak Harar surlarını (Cegol) yeniden inşa ettirdi. Bugün de ayakta olan bu sur, Doğu Afrika'daki en tanınmış İslâm şehir tahkimatıdır.",
-  kaynak:"TDV `harar`: \"Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı\" — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
+  kaynak:"TDV `harar`: Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
 
 { taraflar:["adal"], t:"1554-01-01", b:"Emîr Nûr'un yeniden cihad ilânı ve kaybedilen yerlerin geri alınması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Harar",
   etiket:["askeri","toprak","din","konu-askeri","konu-din"],
@@ -921,7 +921,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1281-01-01", b:"Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması", tur:"ekonomi", onem:5, dunya:2, kapsam:"ic", yer_id:"Mogadişu",
   etiket:["ticaret","hanedan","din","konu-hanedan","konu-ekonomi","konu-din"],
   d:"VII/XIII. yüzyılda Ebû Bekir b. Fahreddin, Makdişu'da bir sultanlık kurdu ve şehir refah seviyesi yüksek bir ticaret merkezi hâline geldi. Mescid-i Cum'a'nın 636 (1238), Erbaa Rükûn Camii'nin 667 (1268) ve Fahreddin Camii'nin 27 Şâban 667 (1 Mayıs 1269) tarihli kitâbeleri şehrin bu dönemdeki imar faaliyetini belgeler.",
-  kaynak:"TDV `somali`: \"VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu\" · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
+  kaynak:"TDV `somali`: VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
 
 { taraflar:["makdisu-sultanligi"], t:"1329-01-01", b:"İbn Battûta'nın Somali kıyısı tasviri — Berber halkı, deve ve balıkçılık", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Zeyla",
   etiket:["kultur","ticaret","sosyal","konu-ekonomi","konu-kultur","konu-sosyal"],
@@ -1198,7 +1198,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["buganda"], t:"1890-01-02", b:"Almanya-İngiltere antlaşması ile Doğu Afrika'nın paylaşılması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Zanzibar (Zengibar)",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler. Helgoland-Zengibar Antlaşması olarak bilinen bu düzenleme, Uganda'yı İngiliz, Tanganyika'yı Alman nüfuz bölgesine bıraktı ve Zengibar'ı İngiliz himayesine soktu.",
-  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: \"1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar\"" },
+  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: 1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar" },
 
 { taraflar:["buganda"], t:"1892-01-01", b:"Buganda'da Katolik-Protestan iç savaşı ve İngiliz sömürgeciliğinin başlaması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
   etiket:["din","askeri","isyan","konu-askeri","konu-isyan","konu-din"],

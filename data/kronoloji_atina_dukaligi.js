@@ -81,12 +81,12 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1402-01-01", b:"Antonio I Acciaiuoli'nin Atina'yı Venedik'ten geri alması", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Nerio'nun gayrimeşru oğlu Antonio, Osmanlı desteğiyle Venedik'i şehirden çıkardı ve dukalığı yeniden kurdu. Otuz üç yıllık hükümdarlığı, Latin Atina'nın son müreffeh dönemi sayılır. Bir Latin dukasının tahtını Osmanlı desteğiyle kazanması, 15. yüzyıl Yunanistan'ının gerçek güç dengesini gösterir.",
-  kaynak:"TDV 'atina' md.: \"1402: Antonio tarafından Venediklilerden geri alındı\", \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1402: Antonio tarafından Venediklilerden geri alındı, \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1435-01-01", b:"Antonio I'in ölümü ve hanedan içi çekişmenin başlaması", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Antonio'nun ölümüyle Acciaiuoli ailesi içinde uzun bir taht kavgası başladı ve taraflar Osmanlı sarayının hakemliğine başvurdu. II. Nerio 1435-1455 arasında hüküm sürdü ama iktidarı hep tartışmalı kaldı. Osmanlı'nın hakem sıfatıyla işin içine girmesi, ilhakın hukukî zeminini de hazırladı.",
-  kaynak:"TDV 'atina' md.: \"1435-1455: II. Nerio dönemi\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1435-1455: II. Nerio dönemi · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1456-06-04", b:"Turahanoğlu Ömer Bey'in Atina'yı alması", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","toprak-kayip","konu-askeri"],

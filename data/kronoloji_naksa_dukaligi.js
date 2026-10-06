@@ -16,12 +16,12 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1205-01-01", b:"Marco Sanudo'nun sekiz gemiyle Nakşa'yı fethi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["toprak-kazanc","askeri","konu-askeri","konu-siyasi"],
   d:"Venedikli Marco Sanudo, dogesi olmayan bir özel teşebbüsle sekiz gemi donatıp Nakşa'ya çıktı ve adayı Bizans muhafızlarından aldı. Rivayete göre gemilerini yaktırarak dönüşü imkânsız kıldı. Kikladlar'daki Latin hâkimiyeti bu tek adamın girişimiyle başlar.",
-  kaynak:"TDV 'naksa' md.: \"Marco Sanudo conquered the island with eight ships\" (1205) · Lock, The Franks in the Aegean · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: Marco Sanudo conquered the island with eight ships (1205) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
 { t:"1207-01-01", b:"Sanudo'nun 'Egeopelagos Dukası' unvanını alması — dukalığın kuruluşu", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["siyaset","kurulus","konu-siyasi"],
   d:"Latin İmparatoru Henri, Sanudo'ya Nakşa merkezli 'Egeopelagos (Denizler) Dukası' unvanını verdi ve on yedi adayı kapsayan dukalık resmen doğdu. Sanudo böylece Venedik'in değil Latin İmparatorluğu'nun vassalı oldu; bu ikili bağ dukalığın bütün tarihini belirleyecektir. Merkez, Nakşa şehrindeki Kastro'ydu.",
-  kaynak:"TDV 'naksa' md.: \"Sanudo received the title 'Duke of Naxos' from the Latin Emperor in Constantinople\" (1207) · Lock, The Franks in the Aegean · 🟢 `dunya:2` referansı BEN kuruyorum" },
+  kaynak:"TDV 'naksa' md.: Sanudo received the title 'Duke of Naxos' from the Latin Emperor in Constantinople (1207) · Lock, The Franks in the Aegean · 🟢 `dunya:2` referansı BEN kuruyorum" },
 
 { t:"1210-01-01", b:"Nakşa Latin Başpiskoposluğu'nun kurulması", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"Nakşa",
   etiket:["din","idari","konu-idari","konu-din"],
@@ -46,22 +46,22 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1383-01-01", b:"Crispo darbesi — Sanudo hanedanının sonu", tur:"darbe", onem:5, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["darbe","hanedan","siyaset","darbe-siyasi","konu-siyasi","konu-darbe","konu-hanedan"],
   d:"Veronalı Francesco Crispo, son Sanudo dukası Niccolò dalle Carceri'yi bir av sırasında öldürterek dukalığı ele geçirdi ve Venedik onu kısa sürede tanıdı. Hanedan değişikliği kan dökülerek olsa da adanın idarî düzeninde kesinti yaratmadı. Crispo ailesi 1566'ya kadar dukalığı elinde tutacaktır.",
-  kaynak:"TDV 'naksa' md.: \"The Crispo family (from Verona) took control of the duchy and administration\" (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: The Crispo family (from Verona) took control of the duchy and administration (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
 { t:"1403-02-01", b:"Süleyman Çelebi ile yapılan antlaşmada Nakşa'nın anılması", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Ankara Savaşı sonrası Süleyman Çelebi'nin Hristiyan devletlerle yaptığı antlaşmada Nakşa da taraf olarak zikredildi. Bu, dukalığın Osmanlı ile ilk resmî temasıdır ve küçük bir ada devletinin Osmanlı diplomasisinde muhatap sayıldığını gösterir. Bundan sonraki bir buçuk yüzyıl, haraç pazarlıklarıyla geçecektir.",
-  kaynak:"TDV 'naksa' md.: \"1403: Nakşa mentioned in treaty with Süleyman Çelebi\" · Elizabeth Zachariadou, Trade and Crusade: Venetian Crete and the Emirates of Menteshe and Aydin (Venice, 1983) · gün yaklaşıktır" },
+  kaynak:"TDV 'naksa' md.: 1403: Nakşa mentioned in treaty with Süleyman Çelebi · Elizabeth Zachariadou, Trade and Crusade: Venetian Crete and the Emirates of Menteshe and Aydin (Venice, 1983) · gün yaklaşıktır" },
 
 { t:"1419-01-01", b:"Haracın Aydınoğulları'ndan Osmanlı'ya çevrilmesi", tur:"antlasma", onem:4, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","ekonomi","konu-diplomasi","konu-ekonomi"],
   d:"Yapılan antlaşmayla duka, o güne kadar Aydınoğulları'na ödediği vergiyi bundan böyle Osmanlı'ya ödeyecekti. Anadolu beyliklerinin tasfiyesi, Ege adalarının vergi muhatabını da tek elde topladı. Dukalık bu tarihten sonra fiilen Osmanlı'ya tâbi bir Latin devletidir.",
-  kaynak:"TDV 'naksa' md.: \"1419: Treaty stipulated the duke would pay tribute to Ottomans instead of Aydınoğulları\" · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1419: Treaty stipulated the duke would pay tribute to Ottomans instead of Aydınoğulları · gün bilinmiyor" },
 
 { t:"1446-01-01", b:"Haraç antlaşmasının yenilenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"1419 düzenlemesi 1426, 1446, 1451 ve 1454'te tekrar tekrar yenilendi. Her yeni padişahla antlaşmanın tazelenmesi gerekiyordu ve bu, dukalığın hayatta kalma yönteminin adıydı. Nakşa savaşarak değil, düzenli ödeyerek yaşadı.",
-  kaynak:"TDV 'naksa' md.: \"1426, 1446, 1451, 1454: Treaties repeated this arrangement\" · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1426, 1446, 1451, 1454: Treaties repeated this arrangement · gün bilinmiyor" },
 
 { t:"1453-05-29", b:"İstanbul'un fethi — dukalığın hâmisiz kalması", tur:"siyaset", onem:4, dunya:5, kapsam:"dis", yer_id:"İstanbul",
   etiket:["siyaset","kriz","konu-siyasi"],
@@ -86,17 +86,17 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Osmanlı ile Venedik arasındaki barışla Kikladlar üzerindeki hükümranlık resmen Osmanlı'ya geçti. Venedik'in üç yüz otuz yıllık dolaylı himayesi hukuken sona erdi. Dukalık varlığını sürdürdü, ama artık Venedik'e değil İstanbul'a bakıyordu.",
-  kaynak:"TDV 'naksa' md.: \"1540: Ottoman-Venetian treaty formally transferred sovereignty to Ottomans\" · Slot, Archipelagus Turbatus" },
+  kaynak:"TDV 'naksa' md.: 1540: Ottoman-Venetian treaty formally transferred sovereignty to Ottomans · Slot, Archipelagus Turbatus" },
 
 { t:"1566-01-01", b:"Yasef Nasi'ye verilmesi — Crispo hanedanının azli", tur:"hukumdar", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["siyaset","hanedan","konu-siyasi","konu-hanedan"],
   d:"Son Crispo dukası IV. Giacomo tebaasının şikâyetleri üzerine azledildi ve dukalık, II. Selim'in gözdesi Portekiz asıllı yahudi sarraf Yasef Nasi'ye verildi. Nasi adaya hiç ayak basmadı, bir vekil aracılığıyla yönetti. Bir Katolik Latin dukalığının bir Osmanlı saray adamına tevcih edilmesi, adanın 359 yıllık Latin siyasî varlığının fiilen bittiği andır.",
-  kaynak:"TDV 'naksa' md.: \"1566: Duchy granted to Yasef Nasi after dismissing the Crispo heir\" · Slot, Archipelagus Turbatus · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1566: Duchy granted to Yasef Nasi after dismissing the Crispo heir · Slot, Archipelagus Turbatus · gün bilinmiyor" },
 
 { t:"1579-01-01", b:"Crispo restorasyon teşebbüsünün başarısızlığı — dukalığın sonu", tur:"son", onem:5, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["son","siyaset","konu-siyasi"],
   d:"Yasef Nasi'nin ölümünden sonra Giacomo Crispo dukalığı geri almaya çalıştı ve başaramadı; adalar doğrudan Kaptanpaşa eyaletine bağlandı. Böylece 1207'de kurulan Egeopelagos Dukalığı 372 yıl sonra sona erdi. Katolik cemaat ve Latin aileler adada kaldı; giden yalnız devletti.",
-  kaynak:"TDV 'naksa' md.: \"1579: Following Nasi's death, Giacomo (Crispo) failed to reclaim the duchy\" · Slot, Archipelagus Turbatus · 🟢 `dunya:1` referansı BEN kuruyorum · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1579: Following Nasi's death, Giacomo (Crispo) failed to reclaim the duchy · Slot, Archipelagus Turbatus · 🟢 `dunya:1` referansı BEN kuruyorum · gün bilinmiyor" },
 
 { t:"1669-01-01", b:"Osmanlı sayımında Nakşa'nın Latin ve Ortodoks nüfusu", tur:"sosyal", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["sosyal","idari","konu-idari","konu-sosyal"],

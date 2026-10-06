@@ -408,7 +408,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Tırnova",
   d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.", ic_not_d:"Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
-  kaynak:"TDV `bulgaristan`: '1393'te Tırnova düştü, Bulgar Krallığı'na son verildi.'" },
+  kaynak:"TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
 
 { taraflar:["bulgar-carligi"], t:"1395-06-03", b:"Niğbolu kalesi Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -468,7 +468,7 @@ window.KRONOLOJI_BALKAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["idari","ekonomi","islahat","konu-siyasi","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"Rusçuk",
   d:"Silistre, Vidin ve Niş eyaletlerinin birleştirilmesiyle bugünkü Bulgaristan'ın büyük bölümünü kapsayan Tuna Vilâyeti kuruldu; merkezi Rusçuk olan bu vilâyette vali Midhat Paşa yol yapımı, tarım kredisi sandıkları (sonradan Ziraat Bankası) ve Osmanlı'nın ilk vilâyet gazetesi 'Tuna'yı (Mart 1865, Türkçe-Bulgarca) hayata geçirdi. Bu vilâyet modeli, Bulgaristan Prensliği'nin 1878'de devraldığı idari altyapının temelini oluşturdu.",
-  kaynak:"TDV `midhat-pasa`: 'Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı.'" },
+  kaynak:"TDV `midhat-pasa`: Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı." },
 
 { t:"1870-03-11", b:"Bulgar Eksarhlığı kuruldu — Bulgar kilisesi bağımsızlığını kazandı", tur:"din",
   onem:5, dunya:3, kapsam:"dis", etiket:["din","sosyal","siyaset","konu-siyasi","konu-din","konu-sosyal"],
@@ -593,7 +593,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Balkan İttifakı'nın (Bulgaristan, Sırbistan, Yunanistan, Karadağ) bir parçası olarak Bulgaristan Osmanlı Devleti'ne savaş ilan etti; Bulgar ordusu savaşın en büyük ve en etkili gücüydü, Trakya cephesinde hızla ilerledi.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (aynı gün, ortak giriş).",
-  kaynak:"TDV `bulgaristan`: '8 Ekim 1912'de Karadağ'ın harekâtıyla başladı' — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
+  kaynak:"TDV `bulgaristan`: 8 Ekim 1912'de Karadağ'ın harekâtıyla başladı — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
 
 { taraflar:["bulgaristan-kralligi"], t:"1912-10-24", b:"Kırkkilise (Kırklareli) Savaşı — Bulgar ordusunun büyük zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"],
@@ -653,7 +653,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"I. Dünya Savaşı'nı Bulgaristan için resmen sona erdiren Neuilly Antlaşması, ülkeyi Batı Trakya'nın tamamından mahrum bırakarak Ege Denizi'ne kıyı erişimini kesti; ayrıca ağır savaş tazminatı ve askerî kısıtlamalar getirildi.",
-  kaynak:"TDV `bulgaristan`: 'Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi.'" },
+  kaynak:"TDV `bulgaristan`: Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi." },
 
 { taraflar:["bulgaristan-kralligi"], t:"1923-06-09", b:"9 Haziran Darbesi — Stamboliyski hükümeti devrildi", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe-askeri","konu-siyasi","konu-darbe"],
@@ -750,7 +750,7 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["bosna-kralligi"], t:"1448-01-20", b:"Stjepan Vukčić Kosača'nın 'Herceg' unvanı — Hersek Dukalığı'nın doğuşu", tur:"bolunme",
   onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Stjepan Vukčić Kosača, Kutsal Roma İmparatoru III. Friedrich'e gönderdiği belgede kendini 'Aziz Sava'nın Herceki (dükü)' olarak tanımladı ve bu unvanla fiilen bağımsız bir dukalık kurdu — bölgeye bugünkü 'Hersek' adını veren de bu unvandır.",
-  kaynak:"TDV `bosna-hersek`: '...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş...' · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
+  kaynak:"TDV `bosna-hersek`: ...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş... · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
 
 { taraflar:["bosna-kralligi"], t:"1450-01-01", b:"Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası", tur:"ekonomi",
   onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi","konu-sanayi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
@@ -770,7 +770,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1463-05-01", b:"Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"], yer_id:"Yayça (Jajce)",
   d:"Fâtih Sultan Mehmed idaresindeki ordu, haracı reddeden Bosna'ya karşı hızlı bir sefer düzenledi; eski kraliyet kalesi Bobovac kısa bir kuşatmadan sonra düştü, kaçan Kral Tomašević Ključ'ta yakalanıp Yayça'da (Jajce) Fâtih'in huzuruna getirildi ve idam edildi. Krallığın yıkılışı ile Bosna'nın TAMAMININ fethi aynı şey değildir: ova zaten on beş yıldır fiilen Osmanlı ucundaydı, buna karşılık kuzeyde Yayça'yı Aralık 1463'te Macar kralı geri aldı ve bölge 1528'e kadar Macar elinde kaldı.",
-  kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: '...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı...' · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
+  kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: ...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı... · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
 
 // ═══════════════════════════════════════════════════════════════════
 // YUNANİSTAN KRALLIĞI (1821-1923)
