@@ -303,7 +303,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["diger"],
   yer_id:"",
   d:"XII. Karl, küçük bir maiyetle at sırtında on beş günde Osmanlı topraklarından Avrupa'daki İsveç topraklarına ulaştı — dönemin Avrupa basınında geniş yankı uyandıran efsanevi bir yolculuk.", ic_not_d:"TDV'nin `isvec` maddesi varış tarihini bu şekilde vermektedir; yolculuğun son durağının kesin coğrafi ayrıntısı bu dosyada ayrıca doğrulanmamıştır.",
-  kaynak:"isvec (TDV, içerik okundu) — yolculuğun son durak ayrıntısı ayrıca doğrulanmadı", kapsam_genis:true },
+  kaynak:"isvec (TDV, içerik okundu) — yolculuğun son durak ayrıntısı ayrıca doğrulanmadı · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-10-11 (TDV `isvec`: \"19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı\") · kullanılmayan kaynaklı gün 1714-11-11 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"arrived unexpectedly at midnight, on the 11th of November, at Stralsund\") · neden: iki kaynak bir AY farklı; düzeltilmedi, beyan edildi. Takvim notu: İsveç 1712-1753 arası Jülyen takvimdeydi; EB1911'in takvimi belirtilmemiş (KRONO-AKADEMIK-1006)", kapsam_genis:true },
 { t:"1718-11-30", b:"XII. Karl, Fredriksten Kalesi kuşatmasında öldü", tur:"olum", onem:5, dunya:2, kapsam:"dis",
   etiket:["kayip","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"",

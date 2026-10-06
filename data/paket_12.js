@@ -2386,7 +2386,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
-  kaynak:"TDV 'atina' md.: \"1387: Floransalı Korinthos derebeyi Nerio Acciajuoli tarafından ele geçirildi\" · Setton, Catalan Domination of Athens 1311-1388 · ⚠️ TDV 1387 diyor, alt şehir 1387'de, Akropolis Mayıs 1388'de düştü — ikisi de kaynakta" },
+  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23) · daha önce künyede (devletler.js) 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #23)" },
 
 { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],
@@ -5768,7 +5768,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","fetih","konu-askeri"],
   yer_id:"Tiflis",
   d:"Çıldır zaferinden on beş gün sonra Lala Mustafa Paşa'nın kuvvetleri Tiflis'e girdi; şehir 1603'e kadar sürecek yirmi beş yıllık bir Osmanlı idaresine girdi. Bu, Ferhad Paşa Antlaşması'na (1590) giden on iki yıllık savaşın açılış hamlesidir.",
-  kaynak:"tiflis (TDV, madde: tiflis — 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi')" },
+  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #24); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #24)" },
 
 { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","imar","konu-din","konu-imar"],
@@ -8715,7 +8715,7 @@ window.KRONOLOJI_KATALAN = [
 { t:"1303-09-01", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ittifak","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Sicilya savaşlarından işsiz kalan Roger de Flor kumandasındaki Katalan paralı askerleri, Türk beyliklerine karşı savaşmak üzere Bizans hizmetine alındı. Kumpanya Anadolu'da birkaç başarı kazandı ama disiplinsizliği ve talepleriyle imparatorluğu bunalttı. Ege tarihinin en tuhaf devletlerinden birinin çekirdeği budur: bir ŞİRKET olarak örgütlenmiş bir ordu.",
-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · devletler.js künye kronolojisi · gün yaklaşıktır" },
+  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · gün yaklaşıktır · TDV kapsamıyor · önceki \"devletler.js künye kronolojisi\" atfı kaldırıldı: atlas kaydı dayanak olamaz (D207) ve o künye maddesi silindi (KRONO-CELISKI-1006 §2 #26) · daha önce künyede (devletler.js) 1303-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #26)" },
 
 { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["kriz","askeri","isyan","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan"],
@@ -10759,7 +10759,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1537-11-01", b:"Barbaros Hayreddin Paşa'nın Kiklad seferi — dukalığın haraca bağlanması", tur:"vassal", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["askeri","vassal","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Barbaros Hayreddin Paşa'nın ada seferi sırasında Kikladlar'ın büyük bölümü alındı ve Duka IV. Giovanni Crispo yıllık ağır bir haraç karşılığında yerinde bırakıldı. Dukalık artık bir Osmanlı tâbi devletidir; duka Latin, tebaası Ortodoks, hükümdarı Osmanlı padişahıdır. Bu tuhaf üçlü düzen kırk yıl sürecektir.",
-  kaynak:"TDV 'naksa' md.: \"1537-1538: Barbaros Hayreddin Paşa's island campaign brought Nakşa under Ottoman control\" · Slot, Archipelagus Turbatus · gün yaklaşıktır" },
+  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27) · daha önce künyede (devletler.js) 1537-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
 
 { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
@@ -12457,7 +12457,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1522-12-21", b:"Rodos'un teslim şartlarının kabulü — 212 yıllık devletin sonu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","antlasma","son","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Altı aylık kuşatmanın sonunda L'Isle-Adam teslim şartlarını kabul etti; şövalyelere silâh ve bayraklarıyla adadan çıkma, halka din serbestliği ve beş yıl vergi muafiyeti tanındı. Kanûnî'nin bu cömert şartları, tarikatı yok etmek yerine uzaklaştırmayı tercih ettiğini gösterir ve sonradan çok tartışılmıştır. Rodos'taki şövalye devleti böylece sona erdi.",
-  kaynak:"TDV 'rodos' md.: \"1 Safer 929'da (20 Aralık 1522)\" şehrin alınışı · Vatin (1994) · ⚠️ dizinde `1522-12-25` yazılı; TDV 20 Aralık, teslimin imzası 21 Aralık — devletler.js'i DÜZELTMEDİM, koordinatöre bildirdim · 🟢 `dunya:4` referansı BEN kuruyorum" },
+  kaynak:"TDV `rodos`: \"Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.\" · Vatin (1994) (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1522-12-21 (Vatin: teslim şartlarının imzası) · kullanılmayan kaynaklı gün 1522-12-20 (TDV: fetih) · künyedeki 1522-12-25 hiçbir kaynakta yok · neden: iki kaynak iki gün veriyor, tek seçilmez (§4 ⑥) (KRONO-CELISKI-1006 §2 #28) · 🟢 `dunya:4` referansı BEN kuruyorum" },
 
 { t:"1523-01-01", b:"Şövalyelerin Rodos'tan ayrılması — tarikatın topraksız kalması", tur:"son", onem:5, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","sosyal","konu-askeri","konu-siyasi","konu-din","konu-sosyal"],
@@ -12851,7 +12851,7 @@ window.KRONOLOJI_SAFEVI = [
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ", yer_id:"Nahçıvan" },
 
 // === B) KURULUŞ SONRASI GENİŞLEME (1501-1510) ===============================
-{ t:"1503-06-01", b:"Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı", gun:"Haziran 1503? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+{ t:"1503-06-01", b:"Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı", gun:"Haziran 1503? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): `safeviler` \"909’da (1503)\", `sah-ismail` \"908/1503\" — 908↔909 sınırı Haziran 1503, ikisi de miladî 1503 verir; yıl değişmedi (KRONO-CELISKI-1006 §3.3)", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak","konu-askeri"],
   d:"İsmail, Akkoyunlu artığı Murad Bey'i Hemedan yakınında yenerek Fars, Irak-ı Acem ve Kirman'ı ele geçirdi; Akkoyunlu Devleti'nin son direnç noktaları böylece ortadan kalktı ve Safevî egemenliği İran'ın büyük kısmına yayıldı.",
   kaynak:"Encyclopaedia Iranica, madde: AQ QOYUNLU", yer_id:"Hemedan" },
@@ -12859,6 +12859,14 @@ window.KRONOLOJI_SAFEVI = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"İsmail'in orduları, İran'ın orta ve güney-doğu kentlerini (Kâşân, Yezd, Kirman) art arda ele geçirerek merkezî İran'da rakip hânedan artığı bırakmadı; bu genişleme kuruluşun ilk üç yılını kapsayan on iki seferlik dizinin bir parçasıdır.",
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ · yezd (TDV: \"Şah İsmâil 28 Cemâziyelâhir 910 (6 Aralık 1504) tarihinde bir aylık bir kuşatmanın ardından şehre girdi\")", yer_id:"Yezd" },
+{ t:"1507-01-01", b:"Diyarbekir ve yöresi Safevîlere bağlandı — Dulkadıroğlu Alâüddevle Bey'e karşı sefer", gun:"yıl — TDV ay/gün vermiyor · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): kullanılan yıl 1507 · `safeviler` 912 H (Mayıs 1506 – Mayıs 1507), `sah-ismail` 913 H (Mayıs 1507 – Mayıs 1508) — iki hicrî yıl, miladî 1507 ortak; seçilmedi (KRONO-CELISKI-1006 §3.4)", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["askeri","toprak","konu-askeri"],
+  d:"Dulkadıroğlu Alâüddevle Bey'in Diyarbekir'i ele geçirip Akkoyunlu Murad Bey'i yeniden tahta çıkarma girişimi üzerine Şah İsmâil Erzincan üzerinden Osmanlı topraklarına girdi, Maraş ve Elbistan'ı tahrip etti; Diyarbekir ve yöresi Safevîlere bağlandı.",
+  kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu.\" · TDV `sah-ismail`: \"913 (1507) yılında Şah İsmâil, hâkimiyetini Diyarbekir’e doğru genişletmeye çalışan Dulkadıroğlu Alâüddevle Bey’e karşı yürüdü.\" · künyeden taşındı: devletler.js eski 1503-01-01 \"Diyarbekir, Bağdat ve Musul\" (KRONO-CELISKI-1006 §2 #29) · daha önce künyede (devletler.js) 1503-01-01 \"Diyarbekir, Bağdat ve Musul ele geçirildi\" yazılıydı, kaynaksız, YILI yanlıştı; D2'de 1507'ye düzeltilip buraya taşınmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #29)", yer_id:"Diyarbakır" },
+{ t:"1508-01-01", b:"Bağdat savaşsız Safevî hâkimiyetine girdi", gun:"yıl — 914 H (Mayıs 1508 – Nisan 1509); TDV ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["askeri","toprak","konu-askeri"],
+  d:"Şah İsmâil Irâk-ı Arab'a yürüdü; Bağdat hâkimi Pürnek Bârik Bey şehri terk etti, Bağdat savaşsız alındı ve şehirdeki Türkmenlerin büyük bölümü kılıçtan geçirildi. Şah ardından Kerbelâ, Necef ve Sâmerrâ'daki imam türbelerini tamir ettirdi.",
+  kaynak:"TDV `sah-ismail`: \"914’te (1508) Irâk-ı Arab’a yürüdü. … Bağdat savaşsız zaptedildikten sonra şehirdeki Türkmenler’in büyük bölümü kılıçtan geçirildi.\" · TDV `safeviler`: \"Ertesi yıl Bağdat hâkimiyet altına alındı.\" · künyeden taşındı (KRONO-CELISKI-1006 §2 #29)", yer_id:"Bağdat" },
 { t:"1508-09-01", b:"Bağdat'ta Ebû Hanîfe ve Abdülkādir-i Geylânî türbelerinin tahribi", gun:"Eylül 1508? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor", tur:"din", onem:3, dunya:2, kapsam:"ic",
   etiket:["din","siyaset","konu-siyasi","konu-din","konu-imar"],
   d:"Bağdat'ın fethinin ardından Kızılbaş kuvvetleri, Şiî olmayan büyük âlimlerin türbelerine yönelik yıkım eylemlerine giriştiği kaynaklarda anlatılır; bu olay dönemin sert mezhep siyasetinin bir örneği olarak hem Şiî hem Sünni tarihyazımında farklı şekillerde anılır — taraflar arasında bugün de tartışmalı bir konudur.",

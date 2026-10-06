@@ -160,7 +160,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","fetih","konu-askeri"],
   yer_id:"Tiflis",
   d:"Çıldır zaferinden on beş gün sonra Lala Mustafa Paşa'nın kuvvetleri Tiflis'e girdi; şehir 1603'e kadar sürecek yirmi beş yıllık bir Osmanlı idaresine girdi. Bu, Ferhad Paşa Antlaşması'na (1590) giden on iki yıllık savaşın açılış hamlesidir.",
-  kaynak:"tiflis (TDV, madde: tiflis — 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi')" },
+  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #24); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #24)" },
 
 { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","imar","konu-din","konu-imar"],

@@ -172,7 +172,7 @@ window.KRONOLOJI_MEMLUK = [
 
 { t:"1381-05-19", b:"el-Melikü'l-Mansûr Ali öldü, Berkuk vesayeti ele aldı", tur:"siyaset", onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-kisiler"], yer_id:"Kahire", d:"Çocuk sultan el-Melikü'l-Mansûr Ali'nin ölümü üzerine, Çerkes kökenli emirlerin en güçlüsü Berkuk kendi adına tahta çıkmak yerine merhumun kardeşi Hâccî'yi es-Sâlih unvanıyla sultan ilan etti ve fiilî iktidarı atabekliğinden yürütmeye başladı. Bu, Berkuk'un kendi saltanatına giden yolda attığı hesaplı bir ara adımdı.", kaynak:"berkuk" },
 
-{ t:"1382-11-27", b:"Berkuk tahta çıktı — Bahrî'den Burcî'ye geçiş", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","hanedan-degisimi","konu-siyasi","konu-hanedan"], yer_id:"Kahire", d:"Berkuk, vesayeti altındaki kukla sultan es-Sâlih Hâccî'yi tahttan indirerek bizzat el-Melikü'z-Zâhir unvanıyla sultan oldu. Kendisi gibi Çerkes kökenli emirleri kilit mevkilere getiren Berkuk'un iktidarı, bir asırdan uzun süredir Mısır ve Suriye'yi yöneten Türk-Kıpçak asıllı Bahrî Memlük hanedanının sonunu ve Çerkes (Burcî) Memlükler devrinin başlangıcını simgeler.", kaynak:"berkuk (TDV, yıl); dayanak (gün): standart akademik kronoloji (Britannica)" },
+{ t:"1382-11-27", b:"Berkuk tahta çıktı — Bahrî'den Burcî'ye geçiş", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","hanedan-degisimi","konu-siyasi","konu-hanedan"], yer_id:"Kahire", d:"Berkuk, vesayeti altındaki kukla sultan es-Sâlih Hâccî'yi tahttan indirerek bizzat el-Melikü'z-Zâhir unvanıyla sultan oldu. Kendisi gibi Çerkes kökenli emirleri kilit mevkilere getiren Berkuk'un iktidarı, bir asırdan uzun süredir Mısır ve Suriye'yi yöneten Türk-Kıpçak asıllı Bahrî Memlük hanedanının sonunu ve Çerkes (Burcî) Memlükler devrinin başlangıcını simgeler.", kaynak:"berkuk (TDV, yıl); dayanak (gün): standart akademik kronoloji (Britannica) · daha önce künyede (devletler.js) 1382-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #8)" },
 
 { t:"1382-12-08", b:"İbn Haldun Mısır'a geldi", tur:"kultur", onem:4, dunya:3, kapsam:"dis", etiket:["kultur","gocmen","konu-kultur","konu-demografi"], yer_id:"İskenderiye", d:"Kuzey Afrikalı tarihçi ve düşünür, 1 Şevval 784 (8-10 Aralık 1382) tarihinde İskenderiye'ye ulaştı ve kısa süre sonra Kahire'ye yerleşmeyi tercih etti. Bu göç, İslâm tarihyazıcılığının en etkili eserlerinden Mukaddime'nin yazarını Memlük Mısırı'nın ilim ve idare çevrelerine kattı.", kaynak:"ibn-haldun" },
 
@@ -574,11 +574,11 @@ window.KRONOLOJI_KIRIM = [
   yer_id:"Astrahan",
   d:"Osmanlı'nın Don-Volga kanalını açıp Astarhan'ı geri almayı hedefleyen büyük seferine Devlet Giray açıkça karşı çıkamasa da gerekli desteği vermekten kaçındı — Kırım'ın kendi bölgesel çıkarlarının Osmanlı'nın stratejik hedefleriyle her zaman örtüşmediğinin erken bir örneğidir. Sefer başarısız oldu.",
   kaynak:"kirim, devlet-giray (TDV)" },
-{ t:"1571-01-01", b:"Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ t:"1571-05-24", gun:"24 Mayıs 1571 — Acar (2013); TDV `devlet-giray` yalnız yıl veriyor · eski t 1571-01-01 (yıl hassasiyeti) · takvim: 1571 Gregoryen reformundan (1582) önce, gün kaynağın verdiği biçimde (KRONO-AKADEMIK-1006)", b:"Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri","afet","afet-yangin"],
   yer_id:"Moskova",
   d:"Kırım tarihinin en büyük askerî başarılarından biri: Devlet Giray'ın ordusu Moskova'nın güneyindeki Oka savunma hattını aşarak şehre ulaştı ve büyük bir yangınla tahrip etti; kaynaklarda şehrin büyük bölümünün kül olduğu, yüz binlerce kişinin öldüğü veya esir alındığı aktarılır. Han bu zaferle \"Taht-algan\" (taht alan) unvanını kazandı.",
-  kaynak:"devlet-giray (TDV); tarih data/devletler.js:189 eski kayıtla (1571-05-24) örtüşüyor, gün TDV'de verilmiyor" },
+  kaynak:"TDV `devlet-giray`: \"Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi.\" · gün: bulunamadı — TDV gün vermiyor; künyedeki 1571-05-24 kaynaksızdır, atlas kaydı dayanak olamaz (D207; KRONO-CELISKI-1006 §2 #31) · gün: Serkan Acar, \"Kırım Hanı Devlet Giray’ın 1571 Rusya Seferi ve Moskova Yangını\", Karadeniz Araştırmaları (2013), İngilizce özet: \"He set fire suburbs of the city in May 24th, 1571\" — cümle şehrin varoşlarının ateşe verilişini tarihliyor (KRONO-AKADEMIK-1006) · daha önce künyede (devletler.js) 1571-05-24 yazılıydı, kaynaksızdı; D2c'de Acar (2013) ile kaynaklandı ve bu maddeye yazıldı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #31)" },
 { t:"1571-01-01", b:"Devlet Giray, Gözleve'de bir cami inşa ettirdi", tur:"kultur", onem:2, dunya:1, kapsam:"ic",
   etiket:["mimari","din","imar","konu-din","konu-kultur","konu-imar"],
   yer_id:"Gözleve (Kezlev)",
@@ -682,7 +682,7 @@ window.KRONOLOJI_KIRIM = [
   etiket:["ittifak","askeri","konu-askeri","konu-diplomasi","konu-isyan"],
   yer_id:"",
   d:"Kırım, Lehistan'a karşı ayaklanan Zaporojya Kazakları'nın Hetmanı Bohdan Hmelnitski ile ittifak kurdu; Tugay Bey'in kuvvetleri Sarı Sular baskınında Kazakların yanında yer aldı — bu ittifak birkaç yıl boyunca Doğu Avrupa siyasetini derinden etkileyecektir.",
-  kaynak:"kirim (TDV); tarih data/kronoloji_lehistan.js:429 ile birebir", yer_kon:[48.35,33.5] },
+  kaynak:"TDV `kirim` (Kırım Hanlığı bölümü): \"Nitekim Kazak Hatmanı Chemilnicki önce onun, daha sonra da Osmanlı padişahının metbûluğunu kabul etmiştir. Bu sayede İslâm Giray 1648-1653 yılları arasında Lehistan’a seferler yaptı.\" · gün (05-16): bulunamadı — TDV gün vermiyor, Tugay Bey/Sarı Sular adı TDV gövdesinde geçmiyor. Önceki dayanak kronoloji_lehistan.js:429 bir atlas kaydıdır (D207), onun da kaynağı yalnız \"el-kitabi\" (KRONO-CELISKI-1006 §2 #9)", yer_kon:[48.35,33.5] },
 { t:"1648-01-01", b:"İslâm Giray, 1653'e dek birkaç kez Lehistan'a sefer düzenledi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","konu-askeri"],
   yer_id:"",
@@ -1037,7 +1037,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hanedan","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"Rákos mecliste soyluların çoğunluğu Anjoulu Károly Róbert'i tanıdı; taç giyme töreni asıl kutsal taçla ancak 1310'da tamamlanabildi çünkü taç bir süre rakip beylerin elindeydi. Anjou hanedanı merkezî otoriteyi yeniden kurmaya girişti.",
-  kaynak:"akademik: Engel (2001), s. 124-131", yer_id:"Peşte" },
+  kaynak:"akademik: Engel (2001), s. 124-131 · daha önce künyede (devletler.js) 1308-06-15 yazılıydı, kaynaksızdı; D2c'de bu maddenin gününe çekilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #32)", yer_id:"Peşte" },
 
 { t:"1312-06-15", devlet:"macaristan", b:"Rozgony Muharebesi — Csák Máté'nin gücünün kırılması", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak-kazanc","konu-askeri"],

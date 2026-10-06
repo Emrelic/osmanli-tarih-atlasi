@@ -1928,11 +1928,11 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
-{ t:"1655-07-25", b:"POTOP — İsveç Tufanı başladı", tur:"isgal",
+{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil) (KRONO-AKADEMIK-1006 §1 #1)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
-  kaynak:"el-kitabi", yer_kon:[52.9886,16.7211] },
+  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · ⚠️ yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ (KRONO-AKADEMIK-1006)", yer_kon:[52.9886,16.7211] },
 
 { t:"1655-11-18", b:"Jasna Góra savunması — direnişin dönüm noktası", tur:"savas",
   onem:5, dunya:1, kapsam:"ic", etiket:["savas","isyan","konu-askeri","konu-isyan"],
@@ -2686,10 +2686,15 @@ window.KRONOLOJI_VENEDIK = [
 // VI. GİRİT SAVAŞI VE MORA (1645-1699)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1645-08-22", b:"Girit Savaşı'nın başlaması ve Hanya'nın düşüşü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+{ t:"1645-06-23", b:"Girit Savaşı başladı — Osmanlı donanması Aya Todori önüne geldi", gun:"23 Haziran 1645 — donanmanın Aya Todori adası önüne gelişi (Menekşe 2021); adadaki iki kale iki günde alındı, karaya çıkış ertesi gün · bu madde eski 1645-08-22 maddesinin BÖLÜNMESİYLE doğdu (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+  etiket:["askeri","konu-askeri"],
+  d:"Malta seferi diye İstanbul'dan çıkan Osmanlı donanması Navarin'den ayrıldıktan sonra asıl hedefin Girit olduğunu açıkladı ve Hanya'nın kuzeybatısındaki Aya Todori adası önüne geldi; adadaki iki Venedik kalesi iki günde alındı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
+  kaynak:"Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"Bundan sonra donanma, 23 Haziran günü, Hanya’nın kuzeybatısındaki Aya Todori Adası önüne gelmiş ve Girit sahiline çok yakın olan bu adadaki iki kale iki günde zapt edilmiştir\" — cümle donanmanın ada önüne gelişini tarihliyor · aynı makalede Kâtib Çelebi aktarımı: \"Rebî‘ülâhırın yirmi sekizinde (23 Haziran 1645) muhâsara etdiklerinde\" · künyedeki \"Girit (Kandiye) Savaşı başladı\" maddesinin (1645-01-01, mükerrer silmede kaldırıldı) olayı BUDUR (KRONO-AKADEMIK-1006)" },
+
+{ t:"1645-08-22", b:"Hanya'nın fethi — elli dört günlük kuşatmanın sonu", gun:"22 Ağustos 1645 — Hanya Kalesi'nin fethi (Menekşe 2021) · ⚠️ aynı makalede 19 Ağustos 1645 Venedik'in TESLİM TEKLİFİ günüdür (Adıyeke 2002 aktarımı) ve makalenin İngilizce özeti fethi yanlışlıkla \"August 19, 1645\" diye veriyor — makale kendi içinde uyumsuz, BEYAN (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
   etiket:["askeri","kusatma","konu-askeri"],
-  d:"Osmanlı ordusu Girit'e çıktı ve elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü)" },
+  d:"Osmanlı ordusu elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı; Yusuf Paşa \"Hanya Fâtihi\" unvanını kazandı.",
+  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2) · gün: Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"22 Ağustos 1645 tarihinde Hanya Kalesi’ni fethederek “Hanya Fâtihi” unvanını almıştır.\" — cümle kalenin fethini tarihliyor · madde 1006'da BÖLÜNDÜ: \"savaşın başlaması\" kısmı 1645-06-23 maddesine geçti (KRONO-AKADEMIK-1006)" },
 
 { t:"1646-03-01", b:"Patrisyenliğin satışa çıkarılması — savaşın anayasal bedeli", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","ekonomi","konu-ekonomi","konu-islahat","konu-hukuk"],
@@ -2765,10 +2770,10 @@ window.KRONOLOJI_VENEDIK = [
   d:"Osmanlı Devleti Mora'yı geri almak için savaş ilan etti. Venedik bu savaşa yalnız girdi; Karlofça'nın kazancını koruyacak ne donanması ne müttefiki vardı.",
   kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi", yer_id:"İstanbul" },
 
-{ t:"1715-07-01", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
+{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3) · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Damad Ali Paşa'nın harekâtıyla Osmanlılar bir yaz mevsiminde bütün yarımadayı geri aldı; aynı sefer sırasında Girit'te kalan Suda ve Spinalonga kaleleri de düştü. Karlofça'nın kazancı on altı yılda geri verilmiş oldu.",
-  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor)" },
+  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 (KRONO-AKADEMIK-1006)" },
 
 { t:"1716-08-20", b:"Korfu savunması — son zafer", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Korfu",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -3802,7 +3807,7 @@ window.KRONOLOJI_BIZANS = [
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Osmanlı ordusu ilk kez topla desteklenen düzenli bir kuşatma başlattı; Anadolu'da çıkan şehzade isyanı üzerine kuşatma kaldırıldı. Bizans için bu, fetret devrinin kazandırdığı nefes payının bittiğinin haberiydi.",
-  kaynak:"bizans" },
+  kaynak:"bizans · TDV `murad-ii`: \"II. Murad bunun arkasından Bizans üzerine yürüdü (Receb 825 / Haziran 1422). Elli günden fazla süren kuşatma sonuç vermedi.\" · BEYAN (MGGP-NOT): kullanılan gün 06-08 KAYNAKSIZ, değişmedi (akademik kaynak turu bekliyor) · kullanılmayan: künyedeki 06-10 (o da kaynaksız) · ⚠️ TDV KENDİ İÇİNDE: 26 Muharrem 825 = 20 Ocak 1422'den sayınca 1 Receb 825 ≈ 21 Haziran 1422 — \"Receb\" ile \"Haziran\" yalnız 21-30 Haziran'da örtüşür, 06-08 ve 06-10 Receb'e düşmez (KRONO-CELISKI-1006 §3.2)" },
 
 { t:"1423-09-14", b:"Selanik Venedik'e devredildi — savunulamayan şehrin satışı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],

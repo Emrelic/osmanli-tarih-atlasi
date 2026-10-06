@@ -110,7 +110,6 @@ window.DEVLETLER = [
     { t:"1260-09-03", tur:"savas", b:"Ayn Câlût'ta Moğolları durdurdular" },
     { t:"1277-07-01", tur:"hukumdar", b:"I. Baybars öldü; kısa süre sonra Kalavun hanedanı iktidara geldi" },
     { t:"1291-05-18", tur:"toprak-kazanc", b:"Akkâ'nın fethiyle Haçlıların Levant'tan tasfiyesi" },
-    { t:"1382-01-01", tur:"bolunme", b:"Burci (Çerkes) Memlûkleri, Bahrî Memlûklerinin yerini aldı" },
     { t:"1400-01-01", tur:"isgal", b:"Timur, Halep ve Şam'ı yağmaladı" },
     { t:"1485-01-01", tur:"savas", b:"Osmanlı-Memlûk Çukurova savaşları başladı (1491'e dek, kesin sonuçsuz)" },
     { t:"1516-08-24", tur:"toprak-kayip", b:"Mercidabık'ta Kansu Gavri öldü; Suriye Osmanlı'ya geçti" },
@@ -125,7 +124,6 @@ window.DEVLETLER = [
   kaynak:"safeviler",
   kronoloji:[
     { t:"1501-07-01", tur:"kurulus", b:"Şah İsmâil Tebriz'i aldı, On İki İmam Şiîliğini resmî mezhep ilan etti" },
-    { t:"1503-01-01", tur:"toprak-kazanc", b:"Diyarbekir, Bağdat ve Musul ele geçirildi" },
     { t:"1514-08-23", tur:"toprak-kayip", b:"Çaldıran'da Yavuz'a yenildi; doğu Anadolu kaybedildi" },
     { t:"1524-05-23", tur:"hukumdar", b:"Şah İsmâil öldü, I. Tahmasb tahta çıktı" },
     { t:"1555-05-29", tur:"antlasma", b:"Amasya Barışı — Irak-ı Arab Osmanlı'da kaldı" },
@@ -133,7 +131,7 @@ window.DEVLETLER = [
     { t:"1590-03-21", tur:"toprak-kayip", b:"Ferhad Paşa Antlaşması — Tebriz, Şirvan ve Gürcistan Osmanlı'da" },
     { t:"1603-01-01", tur:"toprak-kazanc", b:"Şah Abbas, Osmanlı'dan Tebriz ve Revan'ı geri aldı" },
     { t:"1639-05-17", tur:"antlasma", b:"Kasr-ı Şirin Antlaşması — bugünkü İran sınırının temeli" },
-    { t:"1722-10-23", tur:"isgal", b:"Afgan (Gilzai) istilası, İsfahan düştü, Şah Hüseyin tahttan indirildi" },
+    { t:"1722-11-10", tur:"isgal", b:"Afgan (Gilzai) istilası, İsfahan düştü, Şah Hüseyin tahttan indirildi", ic_not_b:"eski t: 1722-10-23 — KAYNAKSIZ; TDV'nin kaynaklı gününe yerini bıraktı, silinmedi (KRONO-CELISKI-1006 §2 #30)", kaynak:"TDV `safeviler`: \"Sultan Hüseyin Şah 30 Muharrem 1135’te (10 Kasım 1722) kayıtsız şartsız teslim olmak zorunda kaldı.\" (1 Muharrem 1135 ≈ 12 Ekim 1722 — hicrî/miladî kendi içinde tutarlı) · BEYAN (MGGP-NOT): kullanılan gün 1722-11-10 (TDV) · kullanılmayan gün 1722-10-23 (KAYNAKSIZ, adıyla bir kaynağı bulunamadı) · neden: çelişki iki KAYNAK ister; kaynaksız değer kaynaklı güne karşı yerini bırakır — koordinatör hükmü (KRONO-CELISKI-1006 §2 #30)" },
     { t:"1736-03-08", tur:"son", b:"Nadir Şah, Safevî hanedanına resmen son verdi" }
   ]
 },
@@ -212,7 +210,6 @@ window.DEVLETLER = [
     { t:"1441-01-01", tur:"kurulus", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti" },
     { t:"1475-06-01", tur:"antlasma", b:"Osmanlı Kefe'yi fethetti; Kırım Hanlığı Osmanlı'ya tâbi oldu" },
     { t:"1502-01-01", tur:"toprak-kazanc", b:"Büyük Orda'yı ortadan kaldırdı" },
-    { t:"1571-05-24", tur:"savas", b:"Devlet Giray, Moskova'yı yaktı" },
     { t:"1648-05-01", tur:"ittifak", b:"Tugay Bey kuvvetleri Hetman Hmelnitski'nin Kazak ayaklanmasına destek verdi" },
     { t:"1687-01-01", tur:"savas", b:"Rus Kırım seferleri püskürtüldü (1689'a dek)" },
     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
@@ -366,11 +363,10 @@ window.DEVLETLER = [
     { t:"1479-01-25", tur:"toprak-kayip", b:"İstanbul Antlaşması — Arnavutluk/İşkodra Osmanlı'da kaldı" },
     { t:"1489-02-26", tur:"toprak-kazanc", b:"Kıbrıs Krallığı'nı devraldı (Lüzinyan hanedanının sonu)" },
     { t:"1571-08-01", tur:"toprak-kayip", b:"Kıbrıs Osmanlı'ya düştü (İnebahtı zaferine rağmen)" },
-    { t:"1645-01-01", tur:"savas", b:"Girit (Kandiye) Savaşı başladı — 24 yıllık kuşatma" },
     { t:"1669-09-27", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi" },
     { t:"1684-01-01", tur:"toprak-kazanc", b:"Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)" },
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça ile Mora resmen Venedik'e bağlandı" },
-    { t:"1715-06-25", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı" },
+    { t:"1715-09-07", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3)", ic_not_b:"eski t: 1715-06-25 — KAYNAKSIZ (06-26 girişine 1 gün yakındı) (KRONO-AKADEMIK-1006)", kaynak:"Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 · TDV `mora`: \"(1127/1715 yazı)\"" },
     { t:"1797-05-12", tur:"son", b:"Napolyon Cumhuriyet'e son verdi, Campo Formio ile Avusturya'ya bırakıldı" }
   ]
 },
@@ -512,7 +508,6 @@ window.DEVLETLER = [
     { t:"1453-01-01", tur:"hukumdar", b:"Uzun Hasan Akkoyunlu tahtına çıktı" },
     { t:"1458-01-01", tur:"ittifak", b:"Trabzon Rum İmparatoru'nun kızıyla evlenerek Trabzon ile ittifak kurdu" },
     { t:"1464-01-01", tur:"ittifak", b:"Venedik ile Osmanlı'ya karşı ittifak kurdu" },
-    { t:"1467-01-01", tur:"toprak-kazanc", b:"Karakoyunlu Devleti'ni yıktı" },
     { t:"1473-08-11", tur:"savas", b:"Otlukbeli'de Fatih'e yenildi" },
     { t:"1478-01-06", tur:"hukumdar", b:"Uzun Hasan öldü" },
     { t:"1481-01-01", tur:"antlasma", b:"Yakub Bey, Hasan Padişah Kanunnâmesi ile idareyi yeniden düzenledi" },
@@ -543,11 +538,6 @@ window.DEVLETLER = [
     { t:"1351-01-01", tur:"kurulus", b:"Bayram Hoca tarafından Van-Erciş bölgesinde kuruldu" },
     { t:"1380-01-01", tur:"hukumdar", b:"Kara Mehmed tahta çıktı, Tebriz'i alarak devleti güçlendirdi" },
     { t:"1400-01-01", tur:"antlasma", b:"Timur'a yenilip tâbi oldu" },
-    { t:"1406-01-01", tur:"toprak-kazanc", b:"Kara Yûsuf, Celâyirlileri yenip Tebriz'i ele geçirdi" },
-    { t:"1410-01-01", tur:"savas", b:"Celâyirli Devleti'ni yıkıp Bağdat'ı aldı" },
-    { t:"1420-01-01", tur:"hukumdar", b:"Kara Yûsuf'un ölümüyle oğulları arasında taht kavgaları başladı" },
-    { t:"1438-01-01", tur:"hukumdar", b:"Cihanşah tahta çıktı, devletin en geniş sınırlarına ulaştığı dönem başladı" },
-    { t:"1447-01-01", tur:"antlasma", b:"Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu" },
     { t:"1458-01-01", tur:"toprak-kazanc", b:"Timurlu iç kargaşasından yararlanıp Herat'ı kısa süreliğine aldı" },
     { t:"1469-04-01", tur:"toprak-kayip", b:"Akkoyunlu'ya yenildi; son hükümdar Hasan Ali öldürüldü", kaynak:"TDV karakoyunlular / uzun-hasan: Şevval 873 (Nisan 1469) — AY hassasiyeti" },
     { t:"1469-12-19", tur:"son", b:"Bağdat'taki son Karakoyunlu kolu da düştü; hanedan sona erdi", kaynak:"TDV karakoyunlular: 14 Cemâziyelâhir 874 / 19 Aralık 1469 (KRONO-DOGU-ISLAM-0929)" }
@@ -675,7 +665,6 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1000-01-01", tur:"kurulus", b:"I. István (İstván), Roma'dan taç giyerek Hıristiyan krallığı kurdu" },
     { t:"1301-01-14", tur:"bolunme", b:"III. András'ın ölümüyle Árpád hanedanı sona erdi, seçimli krallık dönemi başladı" },
-    { t:"1308-06-15", tur:"hukumdar", b:"Anjou Károly (Charles Robert) tahta çıktı" },
     { t:"1387-03-31", tur:"hukumdar", b:"Luxemburglu Zsigmond (Sigismund) tahta çıktı" },
     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
     { t:"1443-11-01", tur:"savas", b:"Hunyadi'nin Osmanlı'ya yenilgisi — İzladi" },
@@ -736,7 +725,7 @@ window.DEVLETLER = [
     { t:"1569-07-01", tur:"kurulus", b:"Lublin Birliği ile Polonya-Litvanya birleşti" },
     { t:"1573-05-16", tur:"hukumdar", b:"Henrician Articles kabul edildi, ilk seçimli kral Valois Henri tahta çıktı" },
     { t:"1620-09-01", tur:"savas", b:"Osmanlı ile Hotin/Ţuţora savaşları başladı" },
-    { t:"1655-07-01", tur:"isgal", b:"İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi" },
+    { t:"1655-07-21", tur:"isgal", b:"İsveç istilası (\"Tûfan\"/Potop) ülkeyi harabeye çevirdi", ic_not_b:"eski t: 1655-07-01 — KAYNAKSIZ (KRONO-AKADEMIK-1006 §1 #1)", kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor" },
     { t:"1672-10-18", tur:"toprak-kayip", b:"Bucaş Antlaşması — Podolya Osmanlı'ya geçti" },
     { t:"1683-09-12", tur:"ittifak", b:"Jan Sobieski, II. Viyana kuşatmasını kırdı" },
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça — Podolya geri alındı" },
@@ -795,7 +784,6 @@ window.DEVLETLER = [
   ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 21'den 22'ye çekildi — TDV `fransa` maddesi \"22 Eylül'de de cumhuriyet ilân edildi\" diyor, önceki 21 bir gün erkendi. Ardılı için bkz. [[fransa-cumhuriyet]].",
   kaynak:"fransa",
   kronoloji:[
-    { t:"1536-01-01", tur:"ittifak", b:"I. François ile Kanunî arasında Kapitülasyonlar imzalandı" },
     { t:"1798-07-01", tur:"savas", b:"(Devrim sonrası) Napolyon'un Mısır Seferi ile Osmanlı'ya savaş açıldı" },
     { t:"1792-09-22", tur:"son", b:"Krallık ilga edildi, Cumhuriyet ilan edildi" }
   ]
@@ -858,7 +846,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
     { t:"1709-08-01", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
-    { t:"1714-02-01", tur:"antlasma", b:"Osmanlı topraklarını terk etti" }
+    { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" }
   ]
 },
 
@@ -986,7 +974,6 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1205-01-01", tur:"kurulus", b:"IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu" },
     { t:"1311-03-15", tur:"toprak-kayip", b:"Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi", ic_not_b:"eski b: Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi (bkz. [[katalan]])" },
-    { t:"1388-01-01", tur:"toprak-kazanc", b:"Floransalı Nerio Acciaiuoli, Katalanlardan Atina'yı aldı" },
     { t:"1458-06-04", tur:"son", b:"Fatih tarafından ilhak edildi" }
   ]
 },
@@ -995,7 +982,6 @@ window.DEVLETLER = [
   ozet:"Bizans'ın Anadolu'da Türklere karşı kiraladığı, sonra kendisine düşman kesilen Katalan paralı asker kumpanyasının Frank Atina Dukalığı'nı ele geçirip Aragon/Sicilya tacı himayesinde kurduğu kısa ömürlü devlet.",
   kaynak:"atina",
   kronoloji:[
-    { t:"1303-01-01", tur:"kurulus", b:"Roger de Flor'un Katalan Kumpanyası, Bizans hizmetine Anadolu'da Türklere karşı savaşmak üzere girdi" },
     { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
     { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
     { t:"1388-05-02", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
@@ -1007,7 +993,6 @@ window.DEVLETLER = [
   kaynak:"naksa",
   kronoloji:[
     { t:"1207-01-01", tur:"kurulus", b:"Venedikli Marco Sanudo tarafından kuruldu" },
-    { t:"1537-01-01", tur:"antlasma", b:"Barbaros Hayreddin Paşa haraca bağladı" },
     { t:"1579-01-01", tur:"son", b:"Osmanlı tarafından tamamen ilhak edildi" }
   ]
 },
@@ -1051,7 +1036,6 @@ window.DEVLETLER = [
     { t:"1386-01-01", tur:"isgal", b:"Timur'un art arda seferleri ülkeyi harap etti" },
     { t:"1490-01-01", tur:"bolunme", b:"Krallık Kartli, Kaheti ve İmereti'ye bölündü, Samçhe (Meskheti) atabekliği de ayrıca bağımsızlaştı" },
     { t:"1555-05-29", tur:"bolunme", b:"Amasya Barışı ile Osmanlı-Safevî nüfuz bölgelerine bölündü" },
-    { t:"1578-01-01", tur:"savas", b:"Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi" },
     { t:"1590-03-21", tur:"toprak-kazanc", b:"Ferhad Paşa Antlaşması ile Gürcistan Osmanlı nüfuzuna girdi" },
     { t:"1762-01-01", tur:"birlesme", b:"II. Herakli, Kartli ve Kaheti'yi kişisel birlikte topladı" },
     { t:"1783-07-24", tur:"antlasma", b:"Georgievsk Antlaşması ile Kartli-Kaheti Rusya himayesine girdi" },
@@ -1816,11 +1800,8 @@ window.DEVLETLER = [
     { t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
     { t:"1387-01-01", tur:"savas", b:"İsfahan isyanı bastırılırken şehir yağmalandı" },
     { t:"1398-12-17", tur:"savas", b:"Delhi Sultanlığı'nı yenip şehri yağmaladı" },
-    { t:"1400-01-01", tur:"toprak-kazanc", b:"Halep ve Şam'ı ele geçirdi", ic_not_b:"eski b: Halep ve Şam'ı ele geçirdi (bkz. [[memluk]])" },
     { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
     { t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
-    { t:"1409-01-01", tur:"hukumdar", b:"Şâhruh, Herat merkezli olarak devletin başına geçti" },
-    { t:"1449-01-01", tur:"hukumdar", b:"Uluğ Bey (Semerkant kolu) tahta çıktı" },
     { t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
     { t:"1507-05-01", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
   ]

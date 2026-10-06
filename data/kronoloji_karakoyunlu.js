@@ -253,7 +253,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","toprak","timur","konu-askeri"],
   yer_id:"Tebriz",
   d:"16 Zilkade 810 (13 Nisan 1408) günü Kara Yûsuf, Tebriz yakınlarındaki Serdrûd'da Timurlular'a karşı ikinci büyük zaferini kazandı ve Azerbaycan'ın hâkimiyetini kesin olarak eline aldı. Bu, Karakoyunlu'nun bir bölge beyliğinden Timurlu ardılı bir devlete dönüştüğü tarihtir.", ic_not_d:"⚠️ Savaş yeri Serdrûd'un atlas kaydı yoktur; `yer_id` en yakın kayıtlı merkez olan Tebriz'e verildi ve bu tercih burada AÇIKÇA yazılmıştır.",
-  kaynak:"karakoyunlular" },
+  kaynak:"TDV `karakoyunlular`: \"Tebriz yakınlarındaki Serdrûd’da yapılan ikinci savaşı da Yûsuf Bey kazandı (16 Zilkade 810 / 13 Nisan 1408). Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #14); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1406-01-01 \"Kara Yûsuf, Celâyirlileri yenip Tebriz'i ele geçirdi\" yazılıydı, kaynaksız, yılı ve rakibi yanlıştı; D2'de düzeltilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #14)" },
 
 { t:"1409-01-01", b:"Akkoyunlular yenildi, Artuklu hânedanı sona erdi", gun:"H. 813 / 1409 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","akkoyunlu","toprak","konu-askeri","konu-hanedan"],
@@ -265,7 +265,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","celayirli","konu-askeri","konu-kisiler"],
   yer_id:"Tebriz",
   d:"28 Rebîülâhir 813 (30 Ağustos 1410) günü Kara Yûsuf, Celâyirli Sultan Ahmed'i Esed mevkiinde yenilgiye uğrattı ve Ahmed idam edildi. Bu, Karakoyunlu'nun altmış yıl boyunca hem tâbi olduğu hem savaştığı Celâyirli Devleti'ni fiilen ortadan kaldıran çarpışmadır.", ic_not_d:"⚠️ Esed mevkiinin atlas kaydı yoktur; `yer_id` çarpışmanın Tebriz civarında geçmesi sebebiyle Tebriz'e verildi.",
-  kaynak:"karakoyunlular" },
+  kaynak:"TDV `karakoyunlular`: \"Tebriz civarındaki Esed köyünde onu ağır bir yenilgiye uğrattı (28 Rebîülâhir 813 / 30 Ağustos 1410).\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #15); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1410-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #15)" },
 
 { t:"1411-01-01", b:"Pîr Budak sultan ilân edildi, Bağdat fethedildi", gun:"H. 814 / 1411 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak","hukumdar","fetih","konu-askeri","konu-hanedan"],
@@ -307,7 +307,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","taht-degisikligi","hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"7 Zilkade 823 (13 Kasım 1420) günü Kara Yûsuf, Şâhruh'un yaklaşan ordusuna karşı sefere çıkmışken Ucan yakınlarında öldü. Sürgünden dönüp Azerbaycan, Irak ve Doğu Anadolu'yu tek elde toplayan hükümdarın ölümü, devleti en güçlü olduğu anda başsız bıraktı.", ic_not_d:"⚠️ Ucan'ın atlas verisinde yerleşim kaydı YOKTUR; hanedanın kurucusunun öldüğü yer olduğu için nokta yazılması gereken bir mevkidir.",
-  kaynak:"karakoyunlular" },
+  kaynak:"TDV `karakoyunlular`: \"Ancak Tebriz’in güneydoğusunda Ucan’a yakın bir yerde vefat etti (7 Zilkade 823 / 13 Kasım 1420).\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #16); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1420-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #16)" },
 
 // ───────────────────────── İSKENDER MİRZA (1420-1438)
 
@@ -383,7 +383,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   onem:5, dunya:2, kapsam:"ic", etiket:["taht-degisikligi","hukumdar","konu-hanedan"],
   yer_id:"Tebriz",
   d:"Kara Yûsuf'un dördüncü oğlu Cihan Şah, kardeşi İskender'in suikastle öldürülmesinin ardından 19 Nisan 1438'de tahta çıktı ve 'Muzafferüddin' unvanını aldı. Mardin'de doğduğu için babası ona önce 'Mardin Şah' adını düşünmüş, sonra Cihan Şah'ı tercih etmişti. Yirmi dokuz yıl sürecek saltanatı, Karakoyunlu'nun en geniş sınırlarına ulaştığı ve aynı zamanda en büyük kültür yatırımlarının yapıldığı dönemdir.",
-  kaynak:"cihan-sah" },
+  kaynak:"TDV `cihan-sah`: \"Cihan Şah durumdan faydalanarak 19 Nisan 1438’de “Muzafferüddin” lakabıyla Karakoyunlu tahtına geçti.\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #17); birebirliği birebir.py ile sınandı) · daha önce künyede (devletler.js) 1438-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #17)" },
 
 { t:"1440-01-01", b:"Cihan Şah Tiflis'i fethetti", gun:"H. 844 / 1440 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","fetih","kafkas","konu-askeri"],
@@ -403,11 +403,11 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"850 (1446) yılında Cihan Şah, kardeşi İspend'in ölümünün ardından altı ay süren bir kuşatmayla Bağdat'ı ele geçirdi. Irak'ın merkezinin alınmasıyla Karakoyunlu toprakları Azerbaycan, Arrân, Irak ve Doğu Anadolu'yu kapsayan bir bütün hâline geldi.",
   kaynak:"karakoyunlular · cihan-sah · cihan-sah (TDV: \"şehri zaptetti ve üç gün boyunca yağmalattı (9 Haziran 1446)\")" },
 
-{ t:"1447-03-13", b:"Şâhruh'un ölümü — Sultâniye ve Kazvin ilhak edildi", tur:"fetih",
+{ t:"1447-03-12", b:"Şâhruh'un ölümü — Sultâniye ve Kazvin ilhak edildi", gun:"Şâhruh'un ölümü 12 Mart 1447 (TDV `timurlular`) · eski t 1447-03-13 TDV ile 1 gün kayıktı, kaynağı yoktu · ilhak 851 H'dedir (851 H 19 Mart 1447'de başlar) — ilhakın günü TDV'de yok (KRONO-CELISKI-1006 §2 #18)", tur:"fetih",
   onem:5, dunya:1, kapsam:"dis", etiket:["toprak","fetih","timur","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"Sultâniye",
   d:"851 (1447) yılında Timurlu hükümdarı Şâhruh'un ölümü üzerine Cihan Şah, Timurlu vesâyetinden tamamen kurtularak Sultâniye ve Kazvin'i topraklarına kattı. Otuz yıldır Karakoyunlu'yu bağlayan Timurlu üstünlüğü böylece sona erdi; Cihan Şah bundan sonra İran'ın en güçlü hükümdarıdır.", ic_not_d:"⚠️ `dunya:1` değeri var olan kronoloji dosyalarından DEVRALINDI.",
-  kaynak:"karakoyunlular · cihan-sah" },
+  kaynak:"karakoyunlular · cihan-sah · TDV `timurlular`: \"Şâhruh, 1446’da kendisine karşı ayaklanan torunu Sultan Muhammed üzerine gittiği sırada Rey yakınında öldü (12 Mart 1447).\" · daha önce künyede (devletler.js) 1447-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #18)" },
 
 { t:"1450-01-01", b:"Erzincan Karakoyunlu'ya geçti", gun:"H. 854 / 1450 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular`, `cihan-sah` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","fetih","akkoyunlu","konu-askeri"],
