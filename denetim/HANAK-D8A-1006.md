@@ -217,6 +217,20 @@ evrenini genişletince** çürüdü. Tek ortak kusur: **ölçtüğüm şeyin TAN
 ## AÇIK — ikisi de sıraya girdi
 1. **Emre'nin kararı** (`SABAH-1004 ㉘`): ihlal etikete duyarsız ölçüye mi bağlanacak (A),
    birim tanıma mı uydurulacak (B), olduğu gibi mi kalacak (C)? Önerim (A).
-2. **LAB ölçüyor** (`LAB-8A-KIRILGANLIK-1006`): 117 çok parçalı anahtar / 128 fazladan
-   parça ⇒ tavanın haritada hiçbir şey değişmeden oynayabileceği **ÜST SINIR** kaç?
-🔴 **8a tavanı bu ikisi kapanmadan OYNATILMAYACAK.**
+2. ✅ **ÖLÇÜLDÜ** (`LAB-8A-KIRILGANLIK-1006`): üst sınır **+970** — tek bir etiket
+   şehrinin karşı yakadan çıkması 1509 anahtarın **743'ünü** böler (tek parçalı 1392'den
+   672 ⇒ +878 · çok parçalı 117'den 71 ⇒ +92). **Sayacın oynama potansiyeli, kendi
+   toplamının ~%64'ü.**
+   🔴 **Benim "+128" tahminim YANLIŞ EVRENDEYDİ:** yalnız çok parçalı anahtarların
+   bölünebileceğini varsaymıştım. Tek parçalı bir anahtar da bölünüyor, çünkü etiket
+   şehri çıkınca o parçanın örnekleri İKİNCİ en yakına gider ve farklı örnekler farklı
+   şehirlere düşer. **Parça bölünmeden anahtar bölünebiliyor.**
+   ⇒ Bu, bu belgedeki aynı kusurun **beşinci** tekrarı: evreni mekanizmadan değil
+   kolay varsayımdan kurmak (60 km · defter farkı · "yeni geometri kaldırmaz" ·
+   sayaç tanımı · şimdi bu).
+   📌 Ve etiketin "anlamsızlığı" da ölçü oldu: etiket şehri ↔ parça uzaklığı **medyan
+   61 km**, 378 anahtarda >100 km, 31'inde >200 km (Lugos 163-251 km). `yer` bir KONUM
+   bilgisi değil, bir **komşuluk artefaktı**.
+3. **LAB ölçüyor:** birleşme yönü (**−n**) — tavanın bir ihlali yanlış SUSTURMA kolu.
+   Saarbrücken takası o yönün canlı olduğunu gösteriyor ama sayısı yok.
+🔴 **8a tavanı bunlar kapanmadan OYNATILMAYACAK.**

@@ -2180,8 +2180,9 @@ hiçbir yerde yazılı değil (aradım: kod, commit mesajı, `D237`).
     o hesap bir KOŞU istemez ama motor çıktısını yeniden taramak ister.
 (C) OLDUĞU GİBİ KALSIN
     Bedel sıfır, ama bu gece ölçüldü: tavan haritada hiçbir şey değişmeden oynuyor.
-    En kötü hâlin ÜST SINIRI ölçülüyor (117 çok parçalı anahtar, 128 fazladan parça ⇒
-    teorik olarak +128'e kadar) — LAB'e verildi, sabaha kadar sayı gelecek.
+    🔴 ÜST SINIR ÖLÇÜLDÜ VE BENİM TAHMİNİMİN YEDİ KATI ÇIKTI: **+970** (1509 anahtarın
+    743'ü bölünüyor). Yani 8a sayacının oynama potansiyeli, kendi toplamının
+    **~%64'ü**. (C) ölçümle birlikte savunulamaz hâle geldi.
 ```
 📌 (A) ile (B) birbirini dışlamıyor: (A) hemen inebilir, (B) ayrı bir iş olarak sıraya
 girebilir. Benim yapmayacağım şey **(C)'yi sessizce sürdürmek**.
@@ -2194,3 +2195,54 @@ taşma alanı **BİLGİ olarak** eklenecek. Bilgi eklemek ihlal ölçütünü de
 seçersen zemin hazır olur.
 🔴 **8a tavanı bu karar verilene kadar OYNATILMAYACAK** (§3.4(0): sebebi ve birimi
 tartışmalı olan sayı tavan olmaz).
+
+### ㉘b 🔴 ÜST SINIR ÖLÇÜLDÜ — **+970**, ve benim "+128" tahminim YANLIŞ EVRENDEYDİ
+
+`LAB-8A-KIRILGANLIK-1006` (1509 satırlık TSV, gövde `2fe8ada7`, site damgalı geometri).
+
+```
+TEK bir etiket şehrinin karşı yakadan çıkması (Lugoj türü, SIRADAN bir s: düzeltmesi)
+  1509 anahtarın 743'ünü BÖLER        →  toplam potansiyel  +970
+  tek parçalı 1392 anahtardan 672'si  →  +878
+  çok parçalı  117 anahtardan  71'i   →  +92
+```
+⇒ **8a sayacının oynama potansiyeli, kendi toplamının ~%64'ü.** Haritada hiçbir şey
+değişmeden. ⚠️ +970 **eşzamanlı değil, DUYARLILIK**: 743 anahtar *tek bir `s:` düzeltmesi
+uzaklıkta* sayacı oynatmaya hazır.
+
+🔴 **BENİM HATAM:** `㉘ (C)`de üst sınırı *"117 çok parçalı anahtar ⇒ +128"* diye yazdım.
+**Yanlış evren.** Yalnız ÇOK PARÇALI anahtarların bölünebileceğini varsaydım; oysa
+**tek parçalı 1392 anahtardan 672'si de bölünüyor** — etiket şehri çıkınca o tek parçanın
+örnekleri İKİNCİ en yakına gider ve farklı örnekler farklı şehirlere düşer. Yani bir
+parça bölünmeden bir anahtar bölünebiliyor.
+⇒ Ders, bu gecenin dördüncü tekrarı: **evreni mekanizmadan değil, kolay varsayımdan
+kurdum.** (60 km yarıçapı · defter farkı · "yeni geometri kaldırmaz" · şimdi bu.)
+
+### Etiketin "anlamsız" olduğu da artık ÖLÇÜ, tahmin değil
+```
+etiket şehri ↔ parça uzaklığı   medyan 61 km · >100 km olan 378 anahtar · >200 km 31
+Lugos vakası                    163-251 km
+çok parçalı anahtarlarda parça ayrıklığı   medyan 81 km · en çok 213 km · >100 km 36 anahtar
+```
+⇒ Etiket, adını taşıdığı taşmadan ortalama **61 km** uzakta. 378 anahtarda 100 km'den
+fazla. `yer` alanı bir KONUM bilgisi değil, bir **komşuluk artefaktı**.
+
+### LAB'in sınavı — öngörü MÜHÜRLENDİ ve TUTTU
+`99d3eacc`de (Lugoj düzeltmesinden ÖNCE) Lugos anahtarı için öngörü: *"Orsova + Tırgu Jiu,
++1"*. `8b95eeb63`te gerçekleşen **birebir bu**. ⚠️ Ve ilk denemesi haversine km ile
+*"Tırgu Jiu + Çernovitz"* demiş — **YANLIŞ**; D8 derece düzleminde arıyor, ölçütü
+**koddan** alınca tutmuş. (Bu gecenin *"çareyi kuraldan değil KODDAN tasarla"* dersinin
+bir kez daha doğrulanması.)
+
+### Bu, ㉘'nin seçeneklerini nasıl değiştiriyor
+```
+(C) OLDUĞU GİBİ KALSIN   artık SAVUNULAMAZ: ölçüm, tavanın kendi toplamının %64'ü
+                         kadar oynayabildiğini gösteriyor.
+(A) ETİKETE DUYARSIZ     ÖNERİM — güçlendi. Ham parça (1637) ve taşma alanı
+                         (1.895.260 km²) bu duyarlılığın TAMAMINA kapalı.
+(B) TAŞAN yerleşimi say   hâlâ geçerli ve (A) ile birlikte inebilir; beyanla kodu hizalar.
+```
+⚠️ **Henüz ÖLÇÜLMEYEN ve kararı etkileyebilecek tek şey:** birleşme yönü (**−n**), yani
+tavanın bir ihlali **yanlış SUSTURMA** kolu. Saarbrücken takası o yönün canlı olduğunu
+gösteriyor ama sayısı yok. LAB'e verildi. ⇒ Eğer −n de büyükse, `8a-birim`in ihlal
+yetkisi **kesinlikle** kalkmalı: yanlış ötmek gürültüdür, yanlış susmak **kayıptır**.
