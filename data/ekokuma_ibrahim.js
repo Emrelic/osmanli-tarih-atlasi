@@ -83,7 +83,7 @@ window.EKOKUMA_IBRAHIM = [
   not:"Sâlih Paşa'nın öldürülme sebebi kaynaklarda iki farklı biçimde anlatılır; kart ikisini de verir.",
   kesinlik:"tartismali",
   kaynak:"TDV: salih-pasa · ibrahim--padisah · hezarpare-ahmed-pasa · Volkan Çeribaş, \"Sultan İbrahim Döneminde Sadaretin İki Farklı Yüzü\", OTAM 51 (2022)",
-  ic_not:"GÜN ÇELİŞKİSİ: TDV salih-pasa '16 Şâban 1057 / 16 Eylül 1647'; TDV hezarpare-ahmed-pasa '17 Eylül 1647'de … katli' ⇒ okura yalnız 'Eylül 1647' yazıldı. 'Daha güçlü bulur' = TDV ibrahim--padisah'ın 'daha kuvvetli olduğu tahmin edilen bir diğer rivayet' ifadesi; TDV salih-pasa ise 'eğer doğruysa' der. Olayın kendi kronoloji maddesi YOK; kart padişahın hastalığını ve okunmaya gitmesini anlatan 1644-01-01 tartışma maddesine bağlandı (tema bağı, gün bağı değil)." },
+  ic_not:"GÜN ÇELİŞKİSİ: TDV salih-pasa '16 Şâban 1057 / 16 Eylül 1647'; TDV hezarpare-ahmed-pasa '17 Eylül 1647'de … katli' ⇒ okura yalnız 'Eylül 1647' yazıldı. 'Daha güçlü bulur' = TDV ibrahim--padisah'ın 'daha kuvvetli olduğu tahmin edilen bir diğer rivayete göre' ifadesi; TDV salih-pasa ise 'eğer doğruysa' der. Olayın kendi kronoloji maddesi YOK; kart padişahın hastalığını ve okunmaya gitmesini anlatan 1644-01-01 tartışma maddesine bağlandı (tema bağı, gün bağı değil)." },
 
 // ---------- 1647 · samur ----------
 { id:"ibrahim-samur-meraki-falci-hikayesi", tur:"magazin", kisi:["ibrahim"],

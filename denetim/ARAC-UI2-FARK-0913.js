@@ -14,12 +14,17 @@ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) ret
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
 const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
 IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
-  .filter(s => /olaylar|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+  .filter(s => /olaylar|savaslar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
 ["kaynakli_halka_ferhatpasa", "kaynakli_halka_tekil", "kaynakli_halka_kronoloji", "kaynakli_halka_fetih"].forEach(a => yukle("data/" + a + ".js"));
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
-const Y = W.YERLESIMLER, PET = W.PETEKLER || [], KUNYE = W.DEVLETLER || [];
+// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
+// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
+// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
+const OK_KAPI = require("./OLCU-KAPISI-1006.js");
+OK_KAPI.girdi(W, { PETEKLER: "data/donemler_on.js" });
+const Y = W.YERLESIMLER, PET = W.PETEKLER, KUNYE = W.DEVLETLER || [];
 IK.yerlesimKapisi(Y);
 const KIX = {}; KUNYE.forEach(k => { if (k && k.id) KIX[k.id] = k; });
 const petAd = {}; PET.forEach((p, i) => { if (p && p.a) (petAd[p.a] = petAd[p.a] || []).push(i); });

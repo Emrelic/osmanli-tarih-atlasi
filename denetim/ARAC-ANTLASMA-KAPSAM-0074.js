@@ -14,8 +14,14 @@ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) ret
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
 const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
 IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
-  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
+// W32b (6 Ekim): ① PETEKLER 29 Eylül'den beri donemler_on.js'te — süzgeç eski
+// `donemler.js` adını arıyordu. ② Gövde boyutu ölçümü gitignore'lu petek_govde.js'i
+// İSTER; yoksa "0 KB · ×NaN" basıp çıkış 0 veriyordu. İkisi de artık çıkış 2.
+const OK_KAPI = require("./OLCU-KAPISI-1006.js");
+OK_KAPI.dosya(["data/petek_govde.js"]);
 yukle("data/petek_govde.js");
+OK_KAPI.girdi(ctx, { PETEKLER: "data/donemler_on.js", PETEK_GOVDE: "data/petek_govde.js" });
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());

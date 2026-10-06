@@ -12,6 +12,9 @@
 //   ⑥ D010 — İKİ YÖNLÜ: bilerek bozuk 6 kayıt enjekte edilir, 6'sının da yakalanması şart
 // Kullanım: node denetim/ARAC-HALKA-SINA-0913.js [1595-06-15 ...]
 // ⚠️ Atlas dönemi OKUNMAZ — halka atlastan bağımsızdır (§4). Yerleşim havuzu yalnız AD çözümü için.
+// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
+require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
 const fs = require("fs"), path = require("path");
 const KOK = path.join(__dirname, "..");
 const oku = f => fs.readFileSync(path.join(KOK, f), "utf8");

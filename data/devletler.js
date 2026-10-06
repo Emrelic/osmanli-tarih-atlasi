@@ -647,7 +647,7 @@ window.DEVLETLER = [
 },
 { id:"mazenderan-marasi", ad:"Mar'aşî Seyyidleri (Mâzenderan)", tur:"hanedanlik", bolge:"iran",
   f:"1359-01-01", t:"1596-01-01", baskent:"Âmül → Sârî",
-  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtıldılar' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
+  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Önde gelen üyelerinin Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtılmasından sonra' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
   kaynak:"marasiler (TDV, kuruluş NET) + bitiş tarihi (1596) TDV'de yok, dolaylı doğrulama: Encyclopaedia Iranica'ya atıf yapan ikincil kaynaklar (Iranica madde metnine erişilemedi)",
   kronoloji:[
     { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH)", ic_not_b:"eski b: Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },
@@ -6854,7 +6854,7 @@ window.DEVLETLER = [
 },
 { id:"pontianak", ad:"Pontianak Sultanlığı (Borneo)", tur:"devlet", bolge:"guneydogu-asya",
   f:"1772-01-01", t:"1855-01-01", baskent:"Pontianak",
-  ozet:"Batı Borneo'da Hadramutlu bir Arap seyyahın kurduğu sultanlık (HANEDAN ÖMRÜ). TDV'nin genel 'borneo' maddesi somut olarak veriyor: '1772'de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı'nı kurdu.' t=1855 (Hollanda 'Lange Contract'larla doğrudan denetimi sistematikleştirmesi) YIL BEYANIdır; sultanlık sonrasında Hollanda'ya bağlı adlı bir varlık olarak sürdü.",
+  ozet:"Batı Borneo'da Hadramutlu bir Arap seyyahın kurduğu sultanlık (HANEDAN ÖMRÜ). TDV'nin genel 'borneo' maddesi somut olarak veriyor: '1772’de de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı’nı kurdu.' t=1855 (Hollanda 'Lange Contract'larla doğrudan denetimi sistematikleştirmesi) YIL BEYANIdır; sultanlık sonrasında Hollanda'ya bağlı adlı bir varlık olarak sürdü.",
   kaynak:"borneo",
   kronoloji:[
     { t:"1772-01-01", tur:"kurulus", b:"Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu", ic_not_b:"eski b: Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu (TDV borneo maddesi)", kaynak:"TDV: borneo — «1772’de de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı’nı kurdu»" }

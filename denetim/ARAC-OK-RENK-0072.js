@@ -19,10 +19,22 @@ const KOK = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(KOK, 'index.html'), 'utf8');
 const src = [...html.matchAll(/<script src="(data\/[^"?]+)(\?[^"]*)?"><\/script>/g)].map(m => m[1]);
 global.window = global;
+const yuklenemeyen = [];
 for (const f of src) {
   const p = path.join(KOK, f);
-  if (fs.existsSync(p)) { try { vm.runInThisContext(fs.readFileSync(p, 'utf8'), { filename: f }); } catch (e) { } }
+  if (fs.existsSync(p)) { try { vm.runInThisContext(fs.readFileSync(p, 'utf8'), { filename: f }); } catch (e) { yuklenemeyen.push(f + ': ' + e.message.slice(0, 60)); } }
+  else yuklenemeyen.push(f + ': YOK');
 }
+// W32 (6 Ekim): sessiz `catch (e) { }` yükleme hatalarını YUTUYORDU. Artık sayılıp
+// basılıyor (acilis_siluet.js `document` ister — tarayıcı dışı beklenen gürültü).
+if (yuklenemeyen.length) console.error('yüklenemeyen ' + yuklenemeyen.length + ': ' + yuklenemeyen.join(' · '));
+// T1 — `DEVLET_HARITA || []` boşa düşerse her `devlet` oku SESSİZCE 'varsayilan'
+// renge kayar ve JSON yanlış dağılım yazar. Tarayıcıda DEVLET_HARITA kodlanmış
+// `devlet_harita_ust.js`ten gelir (üretilmiş `devletler_harita.js` GEREKMEZ).
+const OK_KAPI = require('./OLCU-KAPISI-1006.js');
+OK_KAPI.girdi(global, { DEVLET_HARITA: 'data/devlet_harita_ust.js' });
+if (!Object.keys(global).some(k => /^SEFERLER(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(global[k]) && global[k].length))
+  OK_KAPI.olculemedi('T1 girdi yok/boş: SEFERLER* (data/seferler*.js)');
 
 // app.js:8534 `koyuTon` ile BİREBİR aynı hesap (kopya değil, sınav için taklit —
 // ölçümün uygulamadan ayrışmaması için formül buraya yazıldı ve farkı olursa
@@ -44,7 +56,7 @@ function lum(h) {
 function kontrast(a, b) { const l1 = lum(a), l2 = lum(b); const [x, y] = l1 > l2 ? [l1, l2] : [l2, l1]; return +((x + 0.05) / (y + 0.05)).toFixed(2); }
 
 const DR = {};
-(global.DEVLET_HARITA || []).forEach(d => { if (d && d.id) DR[d.id] = d.renk; });
+global.DEVLET_HARITA.forEach(d => { if (d && d.id) DR[d.id] = d.renk; });
 const OSMANLI = '#8e0b22';
 
 const oklar = [];
