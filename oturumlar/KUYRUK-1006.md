@@ -596,3 +596,108 @@ adımı atlanır. **Durum kodu yanında duran gövde VERİdir; durumsuz gövde �
   Piłsudski kaynağı Częstochowa ve Łódź'u 1918 bağlamında **anmadı**, gövdeye eklenmedi,
   tavan SON ÇARE olarak +2 (2245→2247) ve `denetle.py`de **adıyla** gerekçeli, sabitle
   **aynı commit**. **Kaynağın hükmü verdiği tavan artışı** — meşru olanın tanımı budur.
+
+---
+
+## 11. 🔴 6 EKİM ÖĞLEDEN SONRA (13:20-14:30) — İNEN İŞ ve ÜÇ YENİ KALEM
+
+### 11.1 İnenler
+```
+f1f39489  UMIT birleştirme: P3-1 (W39d kimlik listeleri) · P3-2 (6 kaynak düzeltmesi) ·
+          1006c (tavan 2247) · W54b DEVLETLER · acik_kovada sıfırlama  — 75 dosya, silinme 0
+63c78baa  MEMEL 1920-01-10 itilaf-emaneti — yerleşim + madde + BILINEN_AYRI TEK commit
+e6032bf8  damga r11817  ·  cabe4e62  §1.5 üretildi
+```
+Kapı (son hâl): çıkış **2** · Değişmez 1 4299/309 · 2 623/0 · 2s **186** (tavan 189) ·
+2sk 2247/tavan 2247 · 2i 171/1 · 2t 13/13 · mükerrer 95/95 · ölü istisna 0/51 · konum 0.
+**Ölçülemeyen tek soru:** Değişmez 8 — `devletler_harita.js` sha uyuşmazlığı, KOŞU 20'nin
+beyanlı hâli (`SABAH-1004 ⑳`, Emre'nin kararını bekliyor).
+
+### 11.2 🆕 🔴 YENİ KURAL ÖNERİSİ — ötün tavan NEYİN aştığını ADIYLA basmalı
+Memel maddesi inince kapı çıkış **1** verdi: `mükerrer madde: 96 (beklenen ≤95)`. Ama
+basılan liste 96'nın yalnız **20'sini** gösteriyordu ⇒ **yeni çift GÖRÜNMÜYORDU** ve bir tur
+tahminle harcandı.
+```
+🔴 §3.4(0) tavan DEĞİŞİRKEN geçiş dosyası istiyor.
+   AYNI MANTIK tavan AŞILIRKEN de geçerli: aşan kalemi göstermeyen bir tavan,
+   okuyanı TAHMİNE zorlar — ve tahmin, ölçümün yerine geçmeye çalışır.
+   Çare ucuz: ① çiftlerin TAMAMINI bas · ② `--mukerrer-dok` bayrağı ·
+   ③ "önceki ölçümde olmayan çiftler" kovasını AYRI bas (en iyisi bu).
+```
+✅ **İNDİ — `5874ef27` (UMIT, aynı gün, dakikalar içinde).** `MUKERRER-LISTE-ASIMDA-TAM`:
+tavan aşılınca **TAM liste**; aşılmadıysa ilk 20 + *"… N çift daha GİZLİ (tavan aşılınca
+hepsi basılır; şimdi `--ayrinti`)"*. 🔴 **SESSİZ KIRPMA KALKTI** — asıl kusur kırpmanın
+kendisi değil, kırpıldığını SÖYLEMEMESİYDİ. İki yönlü sınav GERÇEK veride koştu
+(`e6032bf8` üstünde, Danzig/Memel istisnası dâhil): tavan 95/ölçüm 95 → 20 çift + "75 gizli",
+çıkış 2 · tavan geçici 94 → ✗ ve **95 çiftin 95'i basıldı**, çıkış 1.
+📌 **③ hâlâ açık ve daha güçlü:** bugünkü çare aşan çifti GÖSTERİYOR ama *"hangisi YENİ"*
+sorusunu okuyana bırakıyor. Tam çare mükerrer tavanını **sayıdan KİMLİK LİSTESİNE**
+çevirmek — W39d'nin odakta yaptığının aynısı. Ayrı kalem (UMIT önerdi).
+Çözüm yolu doğru bulundu: çift `BILINEN_AYRI`ya **ADIYLA** yazıldı (Danzig↔Memel), sayı
+95'e döndü, ölü istisna 0/**51**. 🔴 **Başlık DEĞİŞTİRİLMEDİ** — listenin kendi kuralı:
+*ölçütü atlatmak için başlığı yeniden yazmak maddeyi mükerrer olmaktan çıkarmaz, yalnız
+SAYACI kör eder.* Ve hipotez **varsayılmadı**: aday yazıldı, aletin KENDİ iki yönlü sınavı
+(ölü istisna sayacı) onu doğruladı. Yanlış olsaydı sayaç 1 olur ve kapı yine öterdi.
+
+### 11.3 🆕 SAARBRÜCKEN'İ TUTMAK, MADDESİNİ DE TUTMAYI ZORUNLU KILIYOR
+UMIT'in diff'i Memel ile Saarbrücken'i birlikte taşıyordu; `git apply --exclude` ile ayrıldı.
+Noktanın gerekçesi biliniyordu (boyasız kimlik ⇒ `§1.5` harita deliği 1→2, çaresi
+`renkler.py` = motor tuzu ⇒ yalnız tam inşa). **Yeni olan:** Saar MADDESİ de alınamaz,
+çünkü `yer_id:"Saarbrücken"` noktası olmadan **KIRIK ATIF**tır ve odak kapısının yenisine
+**0 toleransı** var.
+⇒ **Bir noktayı ertelemek, ona atıf yapan maddeyi de ertelemeyi zorunlu kılar.** İkisi tek
+partide iner. (Satır 73'teki 1920-12-17 Saar maddesi zaten vardı — kronoloji katmanında
+boya borcu yok, dokunulmadı.)
+
+### 11.4 🔴 ÜÇ YENİ KALEM — açık, sahibi yazılı
+```
+① TAVAN-TEL-1006 → LAB (gönderildi)
+   24 `BEKLENEN_*` sabitinin kaçı gerçekten ÇIKIŞ KODUNA bağlı?
+   Tetikleyen ölçüm: `YIL-TEMSİLÎ BORÇ tavanı aşıldı (165 > 151)` satırı BASILIYOR ama
+   hükmü DEĞİŞTİRMİYOR (`denetle.py:628`de sabit TANIMLI). Yani tavan VAR, AŞILMIŞ,
+   bloke ETMİYOR. Üç kova: 🔴 BAĞLI · 🟡 YARI BAĞLI · ⚪ DEKORATİF.
+   Yöntem İKİ TANE ve ikisi de şart: statik (`ast`, akış izle) + DİNAMİK (sabiti bir
+   eksilt, ÇIKIŞ KODU değişiyor mu). Dinamik olmadan "çalışıyor" denemez.
+   ⚠️ İki LAB oturumu var; görev ikisine de gitti (adres hatam). Önce başlayan sahiptir,
+   tahtaya yazacak.
+② MUKERRER TAVANI → KİMLİK LİSTESİ (UMIT önerdi, §11.2 ③ — sayı değil liste)
+   Bugün inen çare aşan çifti gösteriyor; "hangisi YENİ" sorusu açık kalıyor.
+   🔴 2S_YIL_BORC = 151'i BEN yazmışım: `4113f793` M-ALANI-0920 (UMIT ölçtü,
+   `git log -S` ile). Yani §11.4①'in tetikleyicisi kendi tavanım. UMIT o sabitin
+   ihlal bayrağına bakıp bakmadığını ÖLÇMEDİ ve ölçmüyor — LAB'da.
+③ GLM1 — 893 ÖLÜ SLUGUN BÖLÜNMESİ, birleştirmeden ÖNCE
+   GLM1 ölçtü: 411 ölünün 13'ü `--` içeriyor, 4'ünün `--`suz İKİZİ AYNI evrende.
+   HÜKÜM: bu, Eylül hasatçısının **slug VARYANTI ÜRETTİĞİNİN** ve başarısızlıkları VERİ
+   gibi kaydettiğinin imzasıdır. ⇒ 893 evreninin bir kısmı TDV hakkında bir ölçüm DEĞİL,
+   BİZİM TAHMİNLERİMİZ hakkında bir kayıt. Birleştirmeye girerse kendi uydurduğumuz slug
+   *"TDV'de bu madde yok"* diye kütüğe geçer — borç değil **İMAL EDİLMİŞ BORÇ**.
+   Bölme ölçütü `--` DEĞİL, **VERİDE GEÇİYOR MU**: (a) veriden gelen = gerçek borç ·
+   (b) üretilmiş = borç değil · (c) ayırt edilemedi. 411'e kapsayıcı-aday araması
+   BEKLETİLDİ: (b) kovasında var olmayan bir maddenin yerine geçecek madde aranır.
+```
+
+### 11.5 Kapanan kalemler
+- **Sarkık stash:** `30678e7f`in WIP yarısı **151411bc** bulundu (UMIT, hedefli tarama).
+  İçerik W46c'nin ÖNERİSİ (7 yerleşim ucu), **TEK NÜSHA İŞ DEĞİL** — öneri raporlarda
+  tarif edilmiş. `denetim/UMIT-W46c-YERLESIM-STASH-1006.diff` olarak commitlenecek
+  (gc sigortası) **iki şartla:** ① başına *"kaynaklar KAYIT DÜZEYİNDE YOK, olduğu gibi
+  uygulanmaz"* satırı ② adında STASH geçecek ki kimse teslim edilmiş yama sanmasın.
+  📌 Kural MEKANİZMAYLA doğrulandı: stash'i yapan W46c kendi worktree'sindeydi,
+  `refs/stash` ORTAK olduğu için W52/W56 onu kendi listelerinde gördü.
+- **INDIR-1001:** tüketici ölçüldü (0), mezar taşı kondu, SİLİNMEDİ.
+- **Kişi kaynağı 266 → 0:** GERÇEK İŞ, sayaç artefaktı DEĞİL (ayrıldı: 4 commit 277
+  `kaynak` satırı; 257+2+29 = 288 = toplam kayıt). Ayırma zorunluydu çünkü aynı gün hem
+  veri hem sayaç değişmişti.
+
+### 11.6 🔴 BUGÜNÜN HATA AİLESİ — aynı sınıf ÜÇ KEZ, üçü de bende
+```
+① tırnaklı anahtar deseni   <->  veri tırnaksız anahtar kullanıyor
+② dosya ADINDA W numarası   <->  raporlar KONUYLA adlandırılmış, numara İÇİNDE
+③ ad ve kaynak aynı satırda <->  kayıt ÇOK SATIRLI
+```
+Üçünün ortak yüzü: **sıfır ya da küçük bir sayı geldi ve İNANDIRICIYDI.** Yanlış pozitif
+kendini ele verir; yanlış NEGATİF vermez — bu aile o yüzden daha tehlikeli.
+📌 Ve ③'ün sonucu TERS yöndeydi: yanlış ölçümüm beni *"borç ödenmemiş"* demeye götürüyordu.
+Yani aynı hata sınıfı bir kez borcu GİZLER, bir kez de ÖDENMİŞ borcu ödenmemiş gösterir.
+**Çare:** saymadan önce iki üç kaydı GÖZLE OKU, biçimi gör, sonra say. Ve bir sayı
+hipotezini DOĞRULUYORSA bir kez daha bak.
