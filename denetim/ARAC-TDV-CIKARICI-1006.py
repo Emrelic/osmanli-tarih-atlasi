@@ -41,9 +41,14 @@ def _duz(s):
 
 
 def tam(h):
-    """Maddeyi bölümlerine ayırır. dönüş: {baslik, bolumler:[{id, govde, kaynakca}], govde, kaynakca}."""
+    """Maddeyi bölümlerine ayırır. dönüş: {baslik, ozet, bolumler:[{id, govde, kaynakca}], govde, kaynakca}.
+
+    `ozet`: başlık altındaki tanım cümlesi (div.article_info, m-content DIŞINDA). TDV'nin kendi metnidir ama
+    gövde DEĞİLDİR: ayrı alanda döner, `govde`ye KATILMAZ. Alıntı arayan ikisine de bakar (`alinti_metinleri`).
+    Vaka: ALINTI-264-1006 §2 — 7 birebir tırnak yalnız özette durduğu için YOK sayılmıştı."""
     s = BeautifulSoup(h, "html.parser")
     b = s.select_one(".article_title")
+    ozet = _duz(" ".join(o.get_text(" ") for o in s.select(".article_info")))
     bolumler = []
     for p in s.select(".article-parts > .article-part"):
         mc = p.select_one(".m-content")
@@ -56,10 +61,16 @@ def tam(h):
     # maddesi SAYILMAZ, hedefe gidilir). Gönderme sayfasında bölüm 0 bir KUSUR değil, sayfanın kendisidir.
     at = s.select_one(".madde_sayfa_atif")
     gonderme = [a["href"].strip("/") for a in at.select("a[href]")] if (at and not bolumler) else []
-    return dict(baslik=_duz(b.get_text(" ")) if b else "",
+    return dict(baslik=_duz(b.get_text(" ")) if b else "", ozet=ozet,
                 bolumler=bolumler, gonderme=gonderme,
                 govde=" ".join(x["govde"] for x in bolumler),
                 kaynakca=" ".join(x["kaynakca"] for x in bolumler))
+
+
+def alinti_metinleri(m):
+    """Birebir alıntı aranacak TDV metinleri, AYRI parçalar: [("OZET", …), ("GOVDE", …)]. Birleştirilmez —
+    özetin sonu ile gövdenin başı arasında sahte bir eşleşme doğmasın. Kaynakça burada YOKTUR (§4 ⑧)."""
+    return [(ad, t) for ad, t in (("OZET", m.get("ozet", "")), ("GOVDE", m["govde"])) if t]
 
 
 # ---- 5 Ekim tablolarının ESKİ çıkarıcıları (scratchpad'lerden birebir aktarıldı; yalnız ölçüm için) ----
@@ -169,6 +180,10 @@ def sina():
         print("  ✗ gönderme sayfası tanınmadı"); hata += 1
     if "BİBLİYOGRAFYA" in m["govde"]:
         print("  ✗ kaynakça gövdeye karıştı"); hata += 1
+    k = tam(getir("kilitbahir-kalesi")[1])
+    print("kilitbahir-kalesi özet:", k["ozet"])
+    if not k["ozet"].startswith("Çanakkale Boğazı") or k["ozet"] in k["govde"]:
+        print("  ✗ özet ayrı alanda dönmedi (ALINTI-264 §2)"); hata += 1
     print("SINAV:", "GEÇTİ" if hata == 0 else f"{hata} HATA")
     return hata
 
@@ -185,6 +200,8 @@ if __name__ == "__main__":
     elif a[:1] == ["ara"]:
         kod, h = getir(a[1]); m = tam(h)
         print("HTTP", kod, "|", m["baslik"], "|", len(m["bolumler"]), "bölüm")
+        for x in re.finditer(a[2], m["ozet"]):
+            print(f"  [ÖZET] {m['ozet']}")
         for b in m["bolumler"]:
             for x in re.finditer(a[2], b["govde"]):
                 print(f"  [{b['id']}] …{b['govde'][max(0, x.start() - 250):x.end() + 350]}…")
