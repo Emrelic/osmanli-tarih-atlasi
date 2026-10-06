@@ -196,7 +196,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"Tiflis",
   d:"Safevî idaresi Kartli'yi Tiflis vilayeti olarak yeniden örgütleyip İslam'a geçmiş Rostom'u vali tayin etti. Bununla başlayan, İslam'a geçmiş Kartli hükümdarları düzeni 1711'e kadar sürdü — Gürcü tahtının Safevî sarayına bağımlılığının kurumsallaştığı dönemdir.",
-  kaynak:"tiflis (TDV — '1632'de Tiflis vilâyeti olarak tekrar Osmanlı idaresiyle birleştirilmiş ve ihtida etmiş olan Rostom buraya vali tayin edilmişti')" },
+  kaynak:"gurcistan (TDV; eski atıf `tiflis` — alıntı `tiflis` gövdesinde yok, `gurcistan` gövdesinde BİREBİR, UMIT-W49 6 Ekim 2026 — '1632'de Tiflis vilâyeti olarak tekrar Osmanlı idaresiyle birleştirilmiş ve ihtida etmiş olan Rostom buraya vali tayin edilmişti')" },
 
 { t:"1635-01-01", b:"Ahıska'nın Osmanlı tarafından Safevîlerden geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
