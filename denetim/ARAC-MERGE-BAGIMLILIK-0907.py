@@ -37,7 +37,7 @@ import glob as _glob
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(KOK)
 sys.path.insert(0, os.path.join(KOK, "arac"))
 

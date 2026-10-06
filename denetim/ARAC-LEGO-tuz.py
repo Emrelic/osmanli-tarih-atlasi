@@ -17,7 +17,8 @@ since = sys.argv[sys.argv.index("--since") + 1] if "--since" in sys.argv else "2
 
 
 def git(*a):
-    return subprocess.run(["git", *a], capture_output=True, cwd=r"C:\atlas").stdout
+    import os  # MUTLAK-KOK-DENETIM-1006: kök için
+    return subprocess.run(["git", *a], capture_output=True, cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))).stdout
 
 
 def belirtec(src, hex_maske=False):

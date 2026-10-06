@@ -26,7 +26,7 @@ Kullanım: py denetim/ARAC-KAYNAK-DURUM-SINAMA-SINAV-1006.py [--kok C:\\atlas]
 import argparse, ast, contextlib, hashlib, importlib.util, io, json, os, sys, tempfile
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ap = argparse.ArgumentParser()
-ap.add_argument("--kok", default=r"C:\atlas")
+ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 KOK = ap.parse_args().kok
 
 
