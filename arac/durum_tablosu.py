@@ -29,6 +29,67 @@ def _oku(y):
 
 
 # ══════════════════════════════════════════════════════════════════════════
+# KİŞİ KAYNAĞI — dört AYRIK kova (6 Ekim 2026, UMIT-W7-DALGA11; koordinatör
+# KISI-SAYIM hükmü). Tanım W16'nınkiyle (`denetim/ARAC-KISI-ORNEKLEM-1006.py`
+# `kova()`) BİREBİR; o dosya `denetim/`de ve adı tireli olduğu için buradan
+# import EDİLMEZ — iki tanımın gerçek veride ve W16'nın 9 örneğinde ÜYE ÜYE
+# aynı sonucu verdiği `denetim/ARAC-KISI-KAYNAK-SINAV-1006.py` ile sınanır.
+#   tdv        `kaynak` "TDV:" ile BAŞLIYOR
+#   beyan      `kaynak` "bulunamadı" ile BAŞLIYOR (küçük harfe çevrilerek)
+#   baska      dolu, ikisiyle de başlamıyor (§4: TDV'nin kapsamadığı yerde
+#              akademik kaynak meşru)
+#   kaynaksiz  alan yok ya da boşluktan arınınca boş
+# 🔴 Ölçüt BAŞLANGIÇ'tır, İÇERİK DEĞİL: "TDV: kemal-reis (… TDV'de
+#    bulunamadı …)" bir TDV kaynağıdır. 🔴 Beyan kaynak DEĞİLDİR — "kaynak
+#    dolu" diye toplanırsa beyanlı borç kapanmış görünür (D265); toplam basılmaz.
+KISI_BEYAN = "bulunamadı"
+
+
+def kisi_kova(k):
+    s = str(k.get("kaynak") or "").strip()
+    if not s:
+        return "kaynaksiz"
+    if s.lower().startswith(KISI_BEYAN):
+        return "beyan"
+    return "tdv" if s.startswith("TDV:") else "baska"
+
+
+def kisi_kaynak_say(yol="data/kisiler.js"):
+    """kisiler.js'i TARAYICI GİBİ yükler → dört kova; ölçülemezse {"hata"}."""
+    js = ("const fs=require('fs');const W={};"
+          "new Function('window',fs.readFileSync(process.argv[1],'utf8'))(W);"
+          "if(!Array.isArray(W.KISILER))throw new Error('window.KISILER dizi değil');"
+          "process.stdout.write(JSON.stringify(W.KISILER))")
+    try:
+        c = subprocess.run(["node", "-e", js, yol], capture_output=True, timeout=120)
+    except (OSError, subprocess.SubprocessError) as e:
+        return {"hata": "node koşturulamadı: %s" % e}
+    if c.returncode != 0:
+        return {"hata": "node çıkış %d: %s" % (c.returncode,
+                                               c.stderr.decode("utf-8", "replace")[-160:])}
+    try:
+        K = json.loads(c.stdout.decode("utf-8"))
+    except ValueError:
+        return {"hata": "node çıktısı ayrıştırılamadı (kesik?)"}
+    r = {"tdv": 0, "baska": 0, "beyan": 0, "kaynaksiz": 0}
+    try:
+        for k in K:
+            r[kisi_kova(k)] += 1
+    except Exception as e:                       # ölçülemedi ≠ 0
+        return {"hata": "%s: %s" % (type(e).__name__, str(e)[:120])}
+    r["toplam"] = len(K)
+    return r
+
+
+def kisi_kaynak_satiri(kk):
+    """§1.5 'Kişi kaynağı' hücresi — ölçülemezse sayı DEĞİL, sebep."""
+    if "hata" in kk:
+        return "🔴 **ÖLÇÜLEMEDİ** — kişi kaynağı sayılamadı (%s)" % kk["hata"]
+    return ("TDV %d · başka %d · bulunamadı BEYANI %d · kaynaksız %d"
+            % (kk["tdv"], kk["baska"], kk["beyan"], kk["kaynaksiz"]))
+
+
+# ══════════════════════════════════════════════════════════════════════════
 # KASITLI BOŞLUK DEYİMİ — 2 Eylül 2026'da kovalandı
 #
 # `__BOSLUK__` bir devlet kimliği DEĞİL, bir BEYANDIR: *"bu dilimi hiçbir
@@ -573,6 +634,7 @@ def olc():
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
+    o["kisi_kaynak"] = kisi_kaynak_say()
 
     m = re.search(r"^BOLGE\s*=.*$", _oku("arac/uret_petek.py"), re.M)
     o["bolge"] = m.group(0).split("=", 1)[1].strip() if m else "?"
@@ -677,6 +739,7 @@ def tablo(o):
                 kd["sinir"], kd["kronoloji"], kd["savas"], kd["kisi"]))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
+    s.append("| Kişi kaynağı | %s |" % kisi_kaynak_satiri(o["kisi_kaynak"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])
     s.append("| Yayın | **%s** · `%s` |" % (o["surum"], o["commit"]))
     return "\n".join(s)
