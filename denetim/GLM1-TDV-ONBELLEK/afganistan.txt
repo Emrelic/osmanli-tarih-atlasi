@@ -1,0 +1,2590 @@
+﻿         
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+	<head>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66550639, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66550639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819951-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819951-1');
+		</script>
+        		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Asya kıtasında denize kıyısı bulunmayan bir kara ülkesi."><meta property="og:url" content="/afganistan"><meta property="og:site_name" content="TDV İslâm Ansiklopedisi"><meta property="og:title" content="AFGANİSTAN - TDV İslâm Ansiklopedisi"><meta property="og:type" content="website"><meta property="og:description" content="Asya kıtasında denize kıyısı bulunmayan bir kara ülkesi."><meta property="og:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@TDV_ISAM"><meta property="twitter:title" content="AFGANİSTAN - TDV İslâm Ansiklopedisi"><meta property="twitter:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:description" content="Asya kıtasında denize kıyısı bulunmayan bir kara ülkesi.">		<title>AFGANİSTAN - TDV İslâm Ansiklopedisi</title>
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.core.css?ver=22">
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.design.css?ver=26" />
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/all.min.css" />
+		<link rel="shortcut icon" type="image/png" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-favico-v3.ico"/>
+		<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.min.213.js"></script>
+		<script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/modal.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/ResizeSensor.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/theia-sticky-sidebar.min.js"></script>
+				
+	</head>
+
+<body>
+
+<style>
+
+
+
+#topnewst{
+	position: fixed;
+	top: 0;
+    background: #FF8951;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #fff;
+	height:45px;
+	line-height:45px;
+	z-index: 1199;
+	font-weight:bold;
+	letter-spacing:0.02rem;
+}
+#topnewst a{color:#fff; text-decoration:underline !important;}
+
+#volume-list {display:none; }
+
+#letter-lisst { position: absolute; margin-top:-2px; z-index:-10; background:#fff; padding-top:10px; border:2px solid #ccc}
+
+#letter-list a { text-align:center; text-decoration:none; float:right}
+.azcontainer{width:100px;}
+.minict_wrapper ul li:hover{background:#ededed;}
+
+.menu-top-left{text-align:left !important;}
+#searc-complete-result{list-style:none; margin:0px; padding:0px;}
+
+#searc-complete-result li{
+	float:none;
+	line-height:19px;
+	margin:0px !important;
+	padding: 13px 2px !important;
+	border-bottom: 1px solid #efe9e9;
+	border-top:none;
+}
+#searc-complete-result a{text-decoration:none;}
+#searc-complete-result li .sr-title{color:#0093B0; font-weight:bold}
+#searc-complete-result li .sr-desc{color:#666;}
+#searc-complete-result li:hover{background:#f1f4f4;}
+#auto-suggest-loading{height:45px;}
+#auto-suggest-loading1{height:45px;}
+#searchBox1{width: 90%;}
+.logged_user{border-top:2px solid #ddd;}
+
+/* header buyutme */
+
+.header_logo img{height:58px !important;}
+
+
+.hover-menu ul li:hover{background:rgb(236, 230, 230, 0.60);}
+#albhabet_button:hover{color:#666 !important;}
+#cilt_button:hover{color:#666 !important;}
+.hover-menu ul li{text-align:left !important;}
+#auto-suggest-box{width:490px; top:50px !important; border:none; background-color:#f4f1f1; left:0px !important}
+#searc-complete-result{margin-top:14px; line-height:19px;}
+
+#searc-complete-result > a:first-child li{border-top: 2px solid #bdb7b7 !important; padding-top: 25px !important; padding-left:2px !important; padding-right:2px !important;}
+#searc-complete-result a.selected li{background:#e6e6e6 !important;}
+
+body{margin-top:60px;}
+
+#searchBox::-ms-clear {
+    display: none;
+}
+
+.hover-menu ul a li{color:#666;}
+.hover-menu ul a:hover li{color:#000;}
+
+#searc-complete-result{margin:3px 12px 0 12px !important;}
+#searc-complete-result > a:first-child li{padding: 13px 2px !important; border-top:2px solid #ddd !important}
+.sr-title{font-size:0.98rem !important;}
+.sr-desc{font-size:0.95rem !important;}
+.sr-old{color: #9d9d9d; font-size:0.75rem !important;}
+#auto-suggest-box{min-height:125px !important; border: 2px solid rgb(93, 182, 213); border-top:none; background:#fff; border-radius:3px}
+#searc-complete-result > div.no-res{ padding:20px 0px 50px 5px; color:#666}
+
+#searc-complete-result .at-line{position:relative; padding-left:5px;}
+#searc-complete-result .at-line .author-photo{height:35px; border-radius:2px}
+#searc-complete-result .at-line .icon-user{font-size: 31px; color: #ddd; padding-right: 4px;}
+#searc-complete-result .at-line .author-title{position: absolute; top: -3px; padding-left: 10px; color: #0093B0; font-weight: bold;}
+#searc-complete-result .at-line .author-field{position: absolute; top: 15px; padding-left: 10px; font-size:15px; color:#999}
+
+#searc-complete-result .author-photo{height:30px;}
+
+.as-tabs div.as-m.act, .as-tabs div.as-y.act{}
+.as-tabs div.as.psv{cursor:pointer;}
+.as-tabs div.as img.ic{height:20px;}
+.as-tabs div.as.psv img.ic{opacity:0.4}
+.as-tabs div.as.psv img.ic:hover{opacity:1}
+.as-tabs div.as.psv img.up{display:none}
+.as-tabs div.as span{ color:#666; font-size:15px;}
+
+div.mr{text-align:left; padding: 10px 15px 10px 0px; }
+.deep{ height:17px; opacity:0.7; }
+.deep:hover{opacity:0.9;}
+.count{color:#999;}
+/*div.mr a{color:#06839c; font-size:0.93rem;}
+div.mr a:hover{text-decoration:underline !important;}
+div.mr .sall{color: #06839c !important; text-decoration: underline !important;}
+.metinshow{color: #06839c !important}
+.srchp:hover{color:#0e6779 !important;}*/
+
+/* new alert */
+/*#header_container{top:45px !important;}
+.body_container{margin-top:45px !important;}*/
+
+.alert-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.alert-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.alert-close {
+    flex: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: #c69500;
+}
+</style>
+
+<!-- <div id="topnewst">Arama yenilendi: <a href="/duyuru/arama-kilavuzu">Arama kılavuzunu okumak için tıklayınız.</a></div> -->
+
+<div id="header_container" style="position:fixed; top:0px !important;">
+    
+    <div class="centered" id="menu">
+	
+		<div class="static_position pure-g" >
+			<div class="pure-u-13-24 hdr-left">
+        		<div class="header_left">
+            		<ul class="dia-navul">
+           				<li class="header_menu hover-menu-button" style="margin-right:8px; line-height:0px; margin-top:18px; margin-left:-7px ">
+							<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/blue-dot-menu-masaustu.png" />
+							<div class="hover-menu" style="left:10px; right:none; top: 47px;">
+								<div style="position:relative">
+								<img class="menu-top-arrow" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png?ver=2" style="position:absolute; top:-9px; left:5px" />
+								<ul>
+									<a href="/genel_kisaltmalar"><li class="hover_menu_first">Genel Kısaltmalar</li></a>
+									<a href="/transkripsiyon_isaretleri"><li>Transkripsiyon İşaretleri</li></a>
+									<a href="/duyuru/arama-kilavuzu"><li>Arama Kılavuzu</li></a>
+									<a href="/duyurular"><li>Duyurular</li></a>
+									<a href="/hakkinda/"><li style="border-bottom:none;">TDV İslâm Ansiklopedisi Hakkında</li></a>
+								</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header_logo" style="border-right:none; position:relative">
+							<a href="/" id="logo-part"> 
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-yatay-logo.svg" style="height:28px; width:318px;" />
+							</a>
+							<div id="header-article" style="display:none">
+							</div>
+						</li>						
+            		</ul>
+        		</div>
+    		</div>
+    		<div class="pure-u-11-24 hdr-right">
+        		<div class="header_right">
+             		<ul class="dia-navul right">
+						<li class="header_search" style="padding:0px; margin-right:-2px;">
+
+							<span class="icon-search tipsoo tbottom tipso_style" style="background: #0093c1 !important; color: #fff !important;position:absolute;right:9px;top:16px;" id="icon-search-submit" data-width="175" data-tipso="Madde başlıklarında ara."></span>
+							<span class="icon-search tipso tbottom tipso_style" style="background:transparent;color: #DF6F49 !important;position:absolute;right: 50px;top:17px;font-size: 1.1rem; " id="icon-search-submit-txt" data-width="175" data-tipso="Madde içeriklerinde ara."></span>
+							<img class="open-keyboard" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/input-keyboard.png" />
+
+							<input id="searchBox" class="searchBox" style="width:490px; line-height:normal; height:45px; padding-right:55px;" type="text"
+							value='' placeholder="TDV İslâm Ansiklopedisi'nde ara..." autocomplete="off"/>
+							<div id="auto-suggest-box">
+								<input autocomplete="off" id="auto-suggest-state" style="display:none" />
+								<img src='https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif' id="auto-suggest-loading" />
+								<div id="auto-suggest-content"></div>
+							</div>
+							<style>
+							.open-keyboard{position: absolute;
+							right: 90px;
+							top: 27px;
+							opacity: 0.3; cursor:pointer}
+							.open-keyboard:hover{opacity:0.8}
+							.dia-keyboard {display:none; background:#fff; border:1px solid #ddd; padding:20px 15px 15px 15px; position:absolute; top:10px; left:-490px; width:485px; line-height:0px; border-radius:3px;}
+							.dia-keyboard ul{list-style:none; margin:0px; padding:0px; clear:both}
+							.dia-keyboard ul li{float:left; width:30px; height:27px; text-align:center;
+							    border: 1px solid rgba(0,0,0,0.1);
+								background-color: #f5f5f5;
+								border-radius:2px;
+								margin:2px; line-height:27px; cursor:pointer; font-size:15px;}
+							.dia-keyboard ul li:hover{background:#ddd;}
+							.dia-keyboard .shift{width:45px; font-size:13px; font-weight:bold}
+							.dia-keyboard .close-keyboard{position: absolute;right: 10px; top: 10px; font-weight: bold; color: #666; cursor: pointer;}
+							</style>
+							<div class="dia-keyboard">
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/keyboard-arrow.png" style="line-height:0px;position:absolute; right:-5px;" />
+								<span class="close-keyboard">x</span>
+								<ul>
+									<li hb=""" hk=""">"</li>
+									<li hb="1" hk="1">1</li>
+									<li hb="2" hk="2">2</li>
+									<li hb="3" hk="3">3</li>
+									<li hb="4" hk="4">4</li>
+									<li hb="5" hk="5">5</li>
+									<li hb="6" hk="6">6</li>
+									<li hb="7" hk="7">7</li>
+									<li hb="8" hk="8">8</li>
+									<li hb="9" hk="9">9</li>
+									<li hb="0" hk="0">0</li>
+									<li hb="*" hk="*">*</li>
+									<li hb="-" hk="-">-</li>									
+								</ul>							
+								<ul style="margin-left:10px;">
+									<li hb="Q" hk="q">q</li>
+									<li hb="W" hk="w">w</li>
+									<li hb="E" hk="e">e</li>
+									<li hb="R" hk="r">r</li>
+									<li hb="T" hk="t">t</li>
+									<li hb="Y" hk="y">y</li>
+									<li hb="U" hk="u">u</li>
+									<li hb="I" hk="ı">ı</li>
+									<li hb="O" hk="o">o</li>
+									<li hb="P" hk="p">p</li>
+									<li hb="Ğ" hk="ğ">ğ</li>
+									<li hb="Ü" hk="ü">ü</li>
+									<li hb="," hk=",">,</li>									
+								</ul>
+								<ul style="margin-left:25px">
+									<li hb="A" hk="a">a</li>
+									<li hb="S" hk="s">s</li>
+									<li hb="D" hk="d">d</li>
+									<li hb="F" hk="f">f</li>
+									<li hb="G" hk="g">g</li>
+									<li hb="H" hk="h">h</li>
+									<li hb="J" hk="j">j</li>
+									<li hb="K" hk="k">k</li>
+									<li hb="L" hk="l">l</li>
+									<li hb="Ş" hk="ş">ş</li>
+									<li hb="İ" hk="i">i</li>
+																	
+								</ul>
+								<ul>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>
+									<li hb="Z" hk="z">z</li>
+									<li hb="X" hk="x">x</li>
+									<li hb="C" hk="c">c</li>
+									<li hb="V" hk="v">v</li>
+									<li hb="B" hk="b">b</li>
+									<li hb="N" hk="n">n</li>
+									<li hb="M" hk="m">m</li>
+									<li hb="Ö" hk="ö">ö</li>
+									<li hb="Ç" hk="ç">ç</li>
+									<li hb="." hk=".">.</li>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>																		
+								</ul>
+								<ul style="margin-left:65px;">
+										
+									<li hb="Boşluk" hk="Boşluk" class="space noletter" style="width:280px;">Boşluk</li>
+									<li hb="Sil" hk="Sil" class="delete back noletter" style="width:50px">Sil</li>
+								</ul>									
+							</div>
+						</li>			
+	    			</ul>
+        	</div>
+    	</div>	
+  	</div>
+
+	</div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        // Focus search box when page load
+        $('#searchBox').focus();
+    });
+</script>
+
+<div id="scrollTop" title="Sayfanın başına dön." style="z-index:100000">
+	<span class="icon-chevron-up"></span>
+</div>
+
+<style>
+#newsbar_open{display:block ;} /* only this page */
+.m-body{font-size:19px; line-height:28px; text-align:justify;}
+body{color:#494d55 !important}
+
+.inAtr{font-size:16px; color:#999 !important}
+
+@media screen {
+    #print-part-temp { display: none;}
+	.hdrprint{background:#ededed;}
+}
+@media print {
+	#print-part-temp { display: block; padding:30px;}
+	.hdrprint{background:#ededed; padding:5px; margin-bottom:20px; fonst-size:7px;  border-bottom:1px solid #ddd; }
+	.dosyaindir{display:none}
+	 body{margin: 0mm 0mm 1mm 0mm; }
+}
+
+.copy-link{cursor:pointer}
+.copy-link:hover{opacity:0.5 !important;}
+
+#div_bilgi{padding-top:6px;}
+.atif-btn{cursor:pointer;}
+.atif-kutusu{cursor: default !important;}
+.article-pd{font-size:14px; color:#999; line-height:20px; margin-top:5px;}
+
+.fotorama__caption{text-align:center !important;}
+.fotorama__caption__wrap{background-color: rgba(255,255,255,.9) !important;  }
+.fotorama__caption__wrap b{color:#E16327}
+.article-part{margin-bottom:60px;}
+.sterm{background:#E3FF91;}
+
+.m-content p{margin-top:0px; margin-bottom:17px;}
+.m-content bibl p{margin-top:0px; margin-bottom:5px; line-height:22px; padding-left: 1.5em;
+    text-indent:-1.5em; font-size:17px;}
+
+
+
+		.article-part-header{background:#f4f1f1;  border-radius:1px; position:relative; margin-bottom:20px;}
+		.article-part-header.kor-part{background-color:#f1f4f4 !important; }
+		.article-part-header .yazim-arrow{position:absolute; bottom:-10px; left:20px; z-index:1}
+		.part-author{padding-left:15px; line-height:55px}
+		.part-title{display:none}
+		.part-title a{color:#666}
+		.part-authors{}
+		.part-authors span{color:#888}
+		.part-authors a{color:#0093b0}
+		.part-info{padding-right:15px;text-align:right; padding-top:16px}
+		/* .atif-btn{position:absolute; cursor:pointer; color:#0093B0; font-size:26px; right:2px; top:-31px} */
+		.atif-btn.psv{}
+		/*
+		.atif-btn.top{position:absolute; top:5px; right:0px;}
+		.atif-btn.top .atif-kutusu{border-top:1px solid #ddd;}
+		.atif-btn.top .ak-list{height:280px; overflow-y:auto; overflow-x:hidden;}
+		*/
+		.atif-kutusu{text-align:left; right:-0px;  background:#F7F7F7;  display:none; border: 1px solid #e4e4e4;padding:10px 20px 20px 20px; z-index:5; font-size:0.85rem; color:#777; margin-top:-1px;}
+		.ak-title{border-bottom:1px solid #ddd; font-size:1.05rem !important; line-height:23px !important; padding-bottom: 5px; font-weight:bold;}
+		.ak-muellif{line-height:18px; padding-top:9px;}
+		.ak-site{line-height:18px; padding-top:9px;}
+		.ak-yayinci{line-height:18px; padding-top:9px;}
+		.ak-ilkyayin{line-height:18px; padding-top:9px;}
+		.ak-adres{line-height:18px; padding-top:9px;}
+		.ak-copy{border-top:1px solid #ddd; padding-top:10px; margin-top:10px;}
+		.ak-copy span{background:#f9f9f9; color:#666; padding:4px 15px 4px 15px; border:1px solid #ddd; border-radius:2px; cursor:pointer}
+		.ak-copy span:hover{background:#f1f1f1;}
+		.ak-copytext{display:none; line-height:17px; padding-top:20px; padding-bottom:10px}
+		.msg-btn{ cursor:pointer; font-size:28px; color: #967A7A; position: absolute; right: 34px; top: -32px;}
+		.msg-btn a{color: #967A7A}
+		.print-btn{float:right; cursor:pointer; font-size:20px; color: #967A7A; padding-top:1px;}
+
+
+.article-part-nav-info{position:absolute; background:#E98A5C; top:-33px; left:0px; list-style-type:none; margin:0px; padding:0px; color:#fff; border-radius:2px;}
+.article-nav-prev{cursor:pointer; padding:2px 4px 0px 5px; height:18px; float:left; line-height:0px; border-right:none}
+.article-nav-prev span, .article-nav-next span{font-size:11px;}
+.article-nav-prev.kor{border-right:1px solid #ddd;}
+.article-nav-next{cursor:pointer; padding:2px 4px 0px 4px; height:18px; float:left; line-height:0px;}
+.article-nav-next.kor{border-left:1px solid #ddd;}
+.article-nav-passive{cursor:default;}
+.article-nav-passive img{opacity:0.3; cursor:default;}
+.article-nav-prev.kor span, .article-nav-next.kor span{color:#afa1a1;}
+.article-nav-numbers{padding:0.15rem 12px 0 12px; line-height:25px; float:left; border-right:1px solid #F3BFA7; border-left:1px solid #F3BFA7; font-size:13px; font-weight:bold; letter-spacing: 3px;}
+
+.article-nav-open-info{cursor:pointer; padding:0 9px; height:21px; line-height:22px; float:left; border:none; font-size:13px; font-weight:bold;}
+.article-nav-info-li{float:left; height:21px; background:rgb(181, 164, 164); font-size:13px; line-height:21px; height:21px; padding:0 10px; display:none; border-top-right-radius: 2px; border-bottom-right-radius: 2px;}
+.tipso_style{border-bottom:none !important;}
+
+.bibpos{position:absolute; color:#fff; font-size:1px;}
+.m-body span.eser{font-style:italic; text-justify: none; }
+.m-body span.kisaltma{text-justify: none;}
+
+.m-body bibl span.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+.m-body bibl span.eser.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+
+.m-body bibl{
+margin-top: -17px !important;
+    display: block;
+}
+
+.pop-title{font-weight:bold;}
+
+.article-left-bar{padding-bottom:0px !important; box-shadow:none !important; background:none !important; max-width: 68px;z-index: 1;}
+
+.rndleftbtn:hover{opacity:1 !important}
+
+.encokokunan{
+	background: #e4e8e8;
+    width: 100px;
+    /* padding: 2px 5px; */
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -25px;
+    font-size: 0.80rem;
+    padding: 2px 0px 3px 0px;
+    font-weight: bold;
+    color: #888;
+    /* margin-top: 10px; */
+}
+.encokokunan:hover{background:#dbdede; color:#666}
+.captcha-container > img { height: 38px; position: absolute }
+.captcha-container > .form-group { margin-left: 90px; }
+.error-box{background: #ff8585; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+.success-box{background: #26b151; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.grecaptcha-badge.show {
+    visibility: visible !important;
+    z-index: 10000;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.swal2-html-container {
+    font-size: 1rem;
+}
+</style>
+
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.print.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.lazyload.min.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+<link rel="stylesheet" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/vendor.fotorama.css">
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.fotorama.js"></script>
+
+
+
+<br />
+<div class="centered body_container body_pad_article" style="position:relative">
+
+	<div class="print-meta visible-on-print" style="display: none;">
+		Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+		<a title="AFGANİSTAN" href="https://islamansiklopedisi.org.tr/afganistan?utm_source=pdf">https://islamansiklopedisi.org.tr/afganistan</a>
+	</div>
+
+	<div class="article_header_container" style="margin-bottom:25px; position:relative;">
+	<!-- mesele -->
+	<!-- article left bar -->
+		<div class="article-left-bar">
+				<div class="pure-g bar-line"  style="    background: #fff;
+		padding-top: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell bleft"><span class="icon-align-left"></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span class="icon-align-justify"></span></div>
+				</div>
+				<div class="pure-g bar-line"  style="background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell fup"><span id="txtup" class="icon-font up" style=""></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="txtdown" class="icon-font down"></span></div>
+				</div>
+				<div class="pure-g bar-line-nav"  style="background: #fff; padding-bottom: 5px; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+
+					<div class="pure-u-1-2 bar-cell bleft"><span id="pagecolorSepia" ></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="pagecolorWhite"></span></div>
+				</div>
+
+				<div class="pure-g bar-line-nav rndleftbtn tipso tright tipso_style" data-tipso="<i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" style="height:20px" /></div>
+				</div>
+
+				<div class="pure-g" style="display:none">
+					<div class="pure-u-1-2 bar-cell bleft">
+						<a href="afganiler-tekkesi" class="tipso tright" data-width="200" data-tipso="Önceki madde: AFGANÎLER TEKKESİ">
+							<span class="icon-chevron-circle-left"></span>
+						</a>
+					</div>
+					<div class="pure-u-1-2 bar-cell bright">
+						<a href="afif" class="tipso tright" data-tipso="Sonraki madde: AFÎF">
+							<span class="icon-chevron-circle-right"></span>
+						</a>
+					</div>
+				</div>
+		</div>
+	<!-- article left bar end -->
+
+		<style>
+		.listen{width:15px; opacity:0.5; cursor:pointer}
+		.listen:hover{opacity:1;}
+		</style>
+
+		
+		
+		<div class="article_title"><h1>AFGANİSTAN</h1></div>
+
+					<div class="arabic_title">أفغانستان</div>
+		
+		<div class="article_info"><h2>
+			<div style="padding-top:6px;"><span style="color:#e16328">Asya kıtasında denize kıyısı bulunmayan bir kara ülkesi.</div>			</h2>
+		</div>
+	</div>
+
+
+<div id="article-main-content" class="pure-g " style="">
+    <div class="pure-u-1 pure-u-md-15-24 sticky-content">
+
+		<div class="bibl-popup" style="display:none; position:absolute; padding:22px 24px 18px 18px; max-width:290px; background:#FEFEC6; z-index:1;     box-shadow: 0 3px 10px rgba(0,0,0,.3);">
+			<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/bibl-popup-arrow.png" style="position: absolute;top: -10px;" />
+			<span class="icon-close close-bibl-poup" style="position: absolute;top: 8px; right: 10px; font-size: 20px;cursor: pointer; color:#555"></span>
+			<div class="bibl-cnt"></div>
+		</div>
+
+		
+
+		<div class="m-body" id="m-body" style="font-size:; line-height:">
+
+			<!-- Madde Planı -->
+			<style>
+			body.sepya{background-color:rgb(241, 233, 215) !important}
+			.art-plan{margin-bottom:30px;border:1px solid #ededed; border-radius:3px;}
+			.art-plan.sepya{border: 1px solid #c5bead !important;}
+			.article-plan-buttons{border-bottom:1px solid #ededed; overflow:hidden}
+			.article-plan-buttons.sepya{border:none; border-bottom: 1px solid #c5bead !important;}
+			.article-plan-buttons .passive:hover{border-bottom:3px solid #ededed; color:#333; cursor:pointer}
+			.article-plan-buttons .passive{color:#999; border-bottom:none; font-weight:normal}
+			.article-plan-buttons .active{color:#666; border-bottom:3px solid #ddd; font-weight:bold}
+			.btn-plan, .btn-preview{padding-bottom:5px !important; padding-top:5px !important}
+			.plan-content, .preview-content{ clear:both;  font-size:15px; border-radius:3px;}
+			.preview-span{background: #ededed;padding: 2px 8px; margin-right:10px; font-size: 12px; letter-spacing: 1px;border-radius: 3px;}
+			.preview-ul{list-style:none; padding:0px; margin:0px; height: 189px; overflow-y: auto; padding-right:15px;}
+			.preview-ul li{padding-bottom:30px; line-height:22px; cursor:pointer; color:#777; width:100%;}
+			.preview-ul li:hover{color:#888;}
+			.ind2{padding-left:15px;}
+			.ind3{padding-left:30px;}
+			.ind4{padding-left:45px;}
+			.ind5{padding-left:60px;}
+			.ind6{padding-left:75px;}
+			</style>
+
+			
+				<div id="artplan" class="art-plan">
+					<div class="article-plan-buttons">
+					    							<div class="btn-preview active" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px; width:195px">
+								Bölümler İçin Önizleme
+							</div>
+                        													<div class="btn-plan passive" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px">
+								Madde Planı
+							</div>
+											</div>
+										<div class="preview-content" style="line-height:27px; padding:15px 5px 10px 20px; ">
+						<div class="top-prev-container top-prev-container-p" style=" width: 100%;  z-index:100;padding-bottom:5px;">
+								<div class="preview-content">
+								<ul class="preview-ul">
+								<li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >1/2</span><span><span>Müellif: </span><b style="color:#888">MEHMET SARAY</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">XVIII. yüzyılın ilk yarısından itibaren Afgan kavminin idarî bakımdan ağırlık kazanmasıyla siyasî birlik haline geldi. Kuzeyinde Sovyetler Birliği’nin...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#2-sovyet-isgali-ve-sonrasi"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >2/2</span><span><span>Müellif: </span><b style="color:#888">İLHAN BİLGÜ</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">IV. SOVYET İŞGALİ ve SONRASI Sovyetler Birliği yanlısı olmakla birlikte ılımlı bir lider kişiliğiyle tanınan Dâvud Han’ın komünistler tarafından kanlı...</div></li>								</ul>
+							</div>
+						</div>
+					</div>
+				    										<div class="plan-content" style="line-height:27px; display:none; padding:0px 5px 10px 20px; max-height: 190px;
+    overflow-y: auto; margin-right: 5px;
+    margin-top: 15px; margin-bottom:15px">
+						<div class="ind1">I. FİZİKÎ ve BEŞERÎ COĞRAFYA</div>
+<div class="ind1">II. TARİH</div>
+<div class="ind1">III. EĞİTİM ve KÜLTÜR</div>
+<div class="ind1">IV. SOVYET İŞGALİ ve SONRASI</div>					</div>
+				    				</div>
+
+
+			
+			<!-- Madde Metni -->
+			<style>
+			.hdrprt1{border:1px solid #e4e4e4; border-radius:3px; margin-bottom:0px; position:relative}
+			.hdrprt1.sepya{border: 1px solid #c5bead;}
+			.hdrprt1arrows{border-bottom:1px solid #e4e4e4; overflow:hidden;background: #f4f1f1;}
+			.hdrprt1arrows.sepya{border-bottom: 1px solid #c5bead;background: #e4ddcc;}
+			.partnumbers{float:left;  height:37px; font-size:0.90rem; letter-spacing: 3px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-left:12px; padding-right:12px; color:#007993; padding-top:5px;}
+			.partnumbers.sepya{border-left:1px solid #c5bead; border-right:1px solid #c5bead;}
+			.partdownarrow{float:left;  height:37px; padding-top:4px; padding-left:12px; padding-right:12px;border-right:1px solid #ddd;}
+			.partdownarrow.sepya{border-right:1px solid #c5bead;}
+			.partprint{border-left:1px solid #e4e4e4; float:right;;height:37px; line-height:42px; padding-left: 14px; padding-right: 14px; cursor:pointer}
+			.partprint.sepya{border-left:1px solid #c5bead}
+			.partemail{border-left:1px solid #e4e4e4; float:right; line-height: 37px; padding: 1px 14px; cursor:pointer}
+			.partemail.sepya{border-left:1px solid #c5bead;}
+			.partatif{border-top-right-radius: 2px; float:right; border-left: 1px solid #e4e4e4; padding: 1px 14px; line-height: 37px;}
+			.partatif.sepya{border-left: 1px solid #c5bead;}
+			</style>
+			<!-- Madde Metni -->
+			                <div class="article-parts">
+                                            <!--<div class="visible-on-print">
+                            <img src=""
+                                 title=""  alt="" />
+                            <div class="right-info" style="text-align:center;"></div>
+                        </div>-->
+                    
+                    							<div class="article-part" id="_1" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									2 bölümden oluşan maddenin 1. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="AFGANİSTAN" href="https://islamansiklopedisi.org.tr/afganistan?utm_source=pdf#1">https://islamansiklopedisi.org.tr/afganistan#1</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev article-nav-passive " data-jurl="#" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="2 bölümden oluşan maddenin 1. bölümü">
+													1/2												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#2-sovyet-isgali-ve-sonrasi" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="2-sovyet-isgali-ve-sonrasi">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="AFGANİSTAN//1" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/mehmet-saray"><b>MEHMET SARAY</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">AFGANİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>MEHMET SARAY</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">1988</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/afganistan#1</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext1">
+														MEHMET SARAY, "AFGANİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/afganistan#1 (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p>XVIII. yüzyılın ilk yarısından itibaren Afgan kavminin idarî bakımdan ağırlık kazanmasıyla siyasî birlik haline geldi. Kuzeyinde Sovyetler Birliği’nin Türkmenistan, Özbekistan ve Tacikistan cumhuriyetleri, doğusunda Çin Türkistanı’nın küçük bir kısmı ve Pakistan, batısında İran bulunmakta, güneyini tamamen Pakistan sınırlandırmaktadır. Yüzölçümü 652.225 km<sup>2</sup>, nüfusu yaklaşık olarak 20.500.000’dir (Sovyetler Birliği’nin müdahalesinden sonra nüfusun 3 milyonu İran’a, 2 milyonu da Pakistan’a sığınmıştır). Başşehri Kâbil’dir. Afganistan yirmi yedi idarî bölgeye ayrılmıştır. Bunlar arasında en önemlileri Kâbil, Kandehar, Herat, Hezâristan, Sîstan, Nûristan (Kâfiristan), Vahan, Bedahşan ve Türkistan idarî bölgeleridir. En önemli şehirleri, Kâbil (1.373.572; 1984), Kandehar (277.508; 1984), Herat (140.323; 1984), Pencap, Bedahşan, Belh, Mezârışerif ve Devletâbâd’dır.</p><p><b>I. FİZİKÎ ve BEŞERÎ COĞRAFYA<br>1. Fizikî Coğrafya.</b> İran yaylasının kuzeydoğuya doğru bir devamı durumunda olan Afganistan, ortada yüksek dağlık alan, bunun kuzeyindeki ovalık alan, dağlık kütlenin güneybatısında bulunan plato görünümündeki alan olmak üzere üç farklı bölgeden oluşur. </p><p> Ülkenin orta kesimini kaplayan dağlar, jeolojik bakımdan İtalya’nın kuzeyinden başlayarak Himalayalar’a kadar uzanan ve “Alp kıvrımları” adı verilen dağ sisteminin bu ülke içinde kalan parçalarıdır. Doğuda Pamir yaylasına ulaşan bu yüksek dağlık kütle muhtelif kesimlerinde farklı adlarla anılır. Ülkenin kuzeydoğusunda Hindukuş (7697 m.) dağları adıyla bilinen dağlar Kâbil’in kuzeyinden itibaren batıya doğru yelpaze gibi açılarak Kûhibâbâ, Sefîdkûh (3500 m.) ve Bendibeyân gibi kollara ayrılırlar. Bunlardan başka güneyde Süleyman, kuzeyde Benditürkistan dağları yer alır. Afganistan’ın ortasındaki dağlık bölge doğuya doğru bir şerit biçiminde devam eder ve coğrafyacılar tarafından “Vahan Koridoru” olarak adlandırılan bir yüksek yöre ile Çin’e komşu olur. Bu yörede vadi tabanları bile 5000 m. yüksekliktedir. Dağlık alanlar kuzeye yani Amuderya vadisine doğru hızla artan bir meyille alçalarak Afganistan Türkistanı’nda yükseklikleri 250-300 m. civarında olan ovalık bir alan oluştururlar ki Afganistan’ın en alçak kesimi burasıdır. Ülkenin güneybatısındaki plato görünüşlü alan, Sîstan bölgesi adını taşır, çöl ve yarı çöllerle kaplıdır. Kaş, Mergo (ölüm çölü), Regastan, Pogdar ve Arbu bu çöllerin en önemlileridir.
+<br><br>
+<img class="dimg w.70 b-order center" src="https://cdn.islamansiklopedisi.org.tr/madde/1/mi/afganistan-mi-2_xm.jpg">
+<br>
+
+Afganistan’da akarsu şebekesi oldukça sıktır. Kuzeyde 600 km. boyunca Sovyetler Birliği sınırını oluşturan Amuderya nehri, Kokça ve Kunduz adında önemli iki kolu ile ülkenin kuzeydoğusunda 250.000 km<sup>2</sup>’lik bir alanın sularını toplayarak Aral gölüne akıtmaktadır. Bunun gibi ülke akarsularının çoğu dışa akmayan, yani okyanuslara ulaşmayan sulardır. Bunların çoğu da çöllerde veya tuzlu göllerde kaybolurlar. Afganistan’ın dışa akışlı akarsuyu İndus’a karışan Kâbil’dir. Ülkenin önemli akarsularından biri olan 960 km. uzunluğundaki Hilmend ırmağı Sîstan bölgesindeki kapalı havzalarda son bulur. Göllere gelince, Vahan Koridoru ve Pamir yaylasında Sarıgöl ve Cakmaktın gölleri, Bedahşan’da Sıva gölü, ortadaki dağlık yörede Bendiemîr gölleri, Gazne ve Kandehar arasındaki bölgede Âb-ı İstâde, Herat’ta Namus gölleri bunların en önemlileridir. </p><p> Ülkenin iklimi genellikle sert ve az yağışlı bir iklim olarak nitelendirilebilirse de çeşitli yörelerde değişiklikler gösterir. Kış dağlık kesimlerde ulaşımı durduracak kadar şiddetli, fakat Sîstan’a doğru uzanan Hâmûn havzasında ve kuzeydeki Amuderya vadisinde yumuşak geçer. Yaz mevsimi sıcak ve çok kurak olup bazı vadilerde sıcaklık 45 dereceye kadar çıkabilmektedir. Fakat genellikle bir yayla ülkesi olan Afganistan’ın iklimi ilk ve sonbaharda ılık geçer ve bu sebeple ülkede “orta iklim” ürünlerinden olan üzüm, kavun, şeftali, erik, kayısı, ceviz ve fıstık yetişir. Yıllık yağış miktarı ortadaki dağlık eksenin kuzey ve güney yamaçlarında, ortalama olarak, 200-400 milimetredir. Sîstan bölgesinde 100 milimetrenin altına düşen yağış, Hindukuş dağlarının doruklarında bir metreyi aşabilir. Ülkenin doğu sınırına yakın Celâlâbâd yöresinde farklı bir yağış tipi görülmekte, burası Hind musonlarının etki alanına girmekte ve bol yağış almaktadır. Bu sebeple de ülkenin başka kesimlerinde bulunmayan ya da az bulunan pirinç, turunçgiller ve hatta muz gibi ürünler bu yörede elde edilebilmektedir. </p><p> <b>2. Beşerî Coğrafya. a) Nüfus.</b> Bir tarım ve hayvancılık ülkesi olan Afganistan’da doğum oranı ‰ 48,1, ölüm oranı ise ‰ 22,3’tür. Nüfus artış oranı da ‰ 25 civarında bulunmaktadır. Dağlık ve yaylalık araziye sahip ülkede kilometrekareye düşen ortalama nüfus yirmi altı kişi olmakla birlikte verimli tarım arazilerinin bulunduğu bölgelerde ve şehir merkezlerinde bu oran çok daha yüksektir. Tarımla uğraşanlar toplam nüfusun % 75’i kadardır. Ülkedeki nüfusun yaklaşık beşte birini oluşturan göçebe ve yarı göçebe halde yaşayan kitleler güney ve kuzey bölgelerinde yaşamakta olup genellikle hayvancılıkla uğraşmaktadırlar. Afganistan’da şehirleşme oranı düşüktür. Nüfusun yaklaşık % 80’i kırsal alanlarda yaşamaktadır. Erkeklerin toplam nüfus içerisindeki oranı kadınlara göre daha yüksek olup nüfusun % 51,42’sini erkekler, % 48,58’ini de kadınlar oluşturmaktadır. Asya kıtasının okuma yazma oranı en düşük ülkesi olan Afganistan’da yetişkin nüfusun % 76,3’ünün okuma yazma bilmediği tahmin edilmektedir. </p><p> <b>b) Etnik Durum.</b> Afganistan’ın nüfusunu meydana getiren ahaliyi Afganlar, Türkler ve Tacikler oluşturur. </p><p> <b>Afganlar.</b> Afganistan’da en kalabalık ve hâkim grubu teşkil eden Afganlar’ın ülkeye kuzeyden milâttan önce 480 civarında geldikleri ve Süleyman dağları etrafına yerleştikleri bilinmektedir. Kuzeyde yaşayan kabilelere Pehtûn, güneydekilere de Peştûn denilmektedir. Konuştukları dil bugün Afganistan’ın resmî dili olan Peştuca’dır. Pehtûn ve Peştûnlar 480’den sonra yine kuzeyden gelen Halaç (Akhun veya Eftalit) Türkleri’yle karıştıkları için halkın etnik yapısı değişerek bugünkü Afganlar meydana gelmiştir. Bu karışmaya rağmen Halaç Türkleri, Galzaylar adı ile kendi karakterlerini uzun zaman korumuşlar ve hatta bir ara Pehtûnlar ve Peştûnlar’dan ayrı olarak Kandehar yöresinde bağımsız bir devlet kurdukları gibi kısa bir süre de İran’ı ellerine geçirmişlerdir. Afganistan’da yaşayan Afganlar bugün 8.000.000 civarındadır. </p><p> <b>Türkler.</b> Afganistan’ın ikinci kalabalık etnik grubunu teşkil eden Türk kabilelerinin nüfusunun, Halaçlar hariç, 5.500.000 kadar olduğu tahmin edilmektedir. Türk grupları içinde en kalabalık olanı, nüfusu 1.700.000’i geçen Özbekler’dir. Genellikle ticaret ve tarımla uğraşırlar ve Afgan Türkistanı denilen bölgede yaşarlar. Büyük çoğunluğu hayvancılıkla uğraşan ve otlak bulmak için sık sık yer değiştirmek mecburiyetinde kalan Türkmenler’in nüfuslarının 600.000 civarında olduğu sanılmaktadır. Türkmenler’in çoğunluğunu Alieli, Teke, Salur, Sarık, Çavdur ve bilhassa Ersarı boylarından oymaklar oluşturmaktadır. Nüfuslarının 700.000 civarında olduğu tahmin edilen, Büyük ve Küçük Pamir dağları bölgesinde yaşayan Kırgızlar, Kazaklar, Kıpçaklar, Karluklar, Celâlâbâd çevresindeki Karakalpaklar ile Çağataylar diğer etnik Türk gruplarıdır. Ayrıca Afganistan’ın merkezi ile Afgan Türkistanı arasında yaşayan ve nüfusları 200.000’i geçen Hezâreler ile Aymaklar da bu etnik grup içinde yer almaktadır. </p><p> <b>Tacikler.</b> Yaklaşık 4.500.000’e varan nüfuslarıyla üçüncü etnik grubu teşkil eden Tacikler ülkenin kuzey ve kuzeydoğu bölgelerinde yaşarlar. Hint-Avrupa ırklarının temel Akdeniz alt grubuna bağlı olup İran dillerinden Derî adı verilen bir dili konuşurlar. İlkçağ’lardan beri yerleşik hayat tarzına sahiptirler. Su kanalları yardımıyla yürüttükleri bahçe tarımıyla geçinirler. Halk edebiyatları zengindir. Ahşap oymacılığında gayet sanatkârdırlar. Bazı kabileleri İsmâilî olup ekseriyetle Sünnî’dirler. </p><p> Afganistan’ın güney kısımlarında sayıları 700.000’e yaklaşan Hintli ve Ârî topluluklara da rastlanmaktadır. Ülkede bulunan diğer etnik gruplar ise batı ve kuzeybatıda Belûcîler (300.000), Afgan-İran sınırında Farslar (700.000), güneybatıda Brâhûîler (25.000), doğuda Nûristânîler (80.000), Kızılbaşlar (100.000) ve Paşaîler’dir (110.000). </p><p> <b>c) Dil.</b> Afganistan’da Peştu ve Derî dilleri resmî diller olarak kabul edilmiştir. Ülke nüfusunun yarısından çoğu (% 55-60) Peştu dilini, beşte biri de Derî dilini konuşmaktadır. Resmî dillerin dışında ülkede ayrıca beş millî dil ve yirmiden fazla mahallî dil konuşulmaktadır. 1980’den itibaren Belûcîce, Özbekçe, Türkmence, Paşaîce ve Nûristânîce millî dil olarak kabul edilmiştir. Bu dillerde ilköğretim için ders kitapları hazırlandığı gibi radyo, gazete ve kitap yayınları da yapılmaktadır. Afganistan’da konuşulan diller, esas itibariyle İran dil ailesine mensup ise de bazıları Türk-Moğol ve Hint-Aryan dil grubuna aittir. Afganlılar’ın başlıca dilleri olan Peştu ve Derî dilleri İran karakterlidir. Yer yer Hintçe’nin de etkisinin görüldüğü Peştu dilinde Türkçe ve Arapça’dan geçen bazı kelimelere de rastlanır. Genellikle Afganîler tarafından konuşulan Peştu dilinin ülkenin kuzeybatı, güneybatı, kuzeydoğu ve güneydoğu bölgelerinde konuşulan farklı lehçeleri vardır. Farsça’nın bir lehçesini oluşturan Derî dilini daha çok Tacikler konuşmakta olup İran’daki Farsça’dan oldukça farklıdır. Paraçi ve Urmuri lehçeleri ülkenin güneydoğusunda konuşulur. Hint-Aryan dil grubundan olan Nûristânîce, çeşitli lehçeleriyle Hindistan’a yakın bölgelerde Hint kökenli etnik gruplar arasında konuşulmakta olup Hintçe’nin etkisi altındadır. Türk-Moğol dil ailesinden Özbekçe ve Türkmence ülkenin kuzeyinde, Kırgızca Pamir bölgesinde yaşayan Kırgızlar arasında, Uygurca Kâbil’de yaşayan Uygurlar’ca, Moğolca ise sadece Herat’taki bazı şehirlerde konuşulmaktadır. Bu dillerin dışında Batı Baktriya’da ve Mezârışerif’in batı bölgelerinde Arapça da konuşulmaktadır. Ayrıca Zargarî, Lâzemî, Brâhûî ve Jet gibi değişik dillerin bazı küçük gruplar arasında konuşulduğu görülmektedir. </p><p> <b>d) Din.</b> Bir İslâm ülkesi olan Afganistan’da nüfusun % 99’u müslüman olup ekseriyeti Hanefî mezhebine mensuptur. Sünnîler’in dışında Şîa’nın farklı kollarına mensup olanlar da % 15-20 gibi önemli bir oranı temsil etmektedir. Afganistan’da az sayıda Hindu, Sih ve yahudi de yaşamaktadır. </p><p>Afganistan toplumunun dinî hayatında tasavvuf ve tarikatların önemli yeri vardır. Tarihte olduğu gibi günümüzde de tasavvuf, dinî ve sosyal hayatı etkileyen temel unsurlardan biridir. İslâm dünyasının meşhur tasavvuf merkezlerinden olan Horasan bölgesinin bir kısmı, Gazne, Herat ve Belh gibi önemli şehirler bu ülkenin sınırları içerisinde bulunmaktadır. İbrâhim b. Edhem (ö. 161/778 [?]), Şakīk-ı Belhî (ö. 194/810), Ebü’l-Hasan el-Bûşencî (ö. 348/959) gibi sûfîler hep Belhli ve Afganistanlıdır. Tasavvufun temel kaynaklarından <span class="eser">Keşfü’l-maḥcûb</span> müellifi Hücvîrî (ö. 465/1072 [?]) ile <span class="eser">Menâzilü’s-sâʾirîn</span> ve <span class="eser">Ṭabaḳātü’ṣ-ṣûfiyye</span> müellifi Hâce Abdullah-ı Ensârî (ö. 481/1089) başta olmak üzere pek çok sûfî şair ve yazar buradan yetişmiş, fütüvvet hareketi de burada gelişme göstermiştir. Moğol istilâsı üzerine batıya göç eden Horasan erenlerinin bir kısmı bu bölgedendir. Bahâeddin Veled (ö. 628/1231), oğlu Mevlânâ Celâleddîn-i Rûmî (ö. 672/1273) Belh’ten Konya’ya gelmişlerdir. Afganistan’ın İslâmlaşmasında önemli tesirleri bulunan tarikatlar günümüzde de etkili olmaya devam etmektedirler. Burada Kübreviyye, Kādiriyye, Sühreverdiyye, Şettâriyye, Çiştiyye ve Nakşibendiyye gibi büyük tarikatların taraftarları vardır. Afganistan’ın belli başlı şehirlerinde çok sayıda zâviye, hankah, tekke, türbe ve yatırlara rastlamak mümkündür. Hint dinlerinin etkisi altında gelişen bazı tarikatlar Sünnî tarikatlardan büyük ölçüde sapmışlardır. Bâyezîd-i Ensârî’nin (ö. 980/1573) Revşeniyye tarikatı bunlara örnek gösterilebilir. Halkın eğitilmesinde, İslâmî ve geleneksel kültürün yeni nesillere aktarılmasında, kitlelerin harekete geçirilmesinde ve İslâm kültürü için bir tehlike oluşturan modernizme karşı durmada tasavvuf ve tarikatların önemli fonksiyonları olmuştur. İşgalci Sovyet birliklerine ve komünist yönetime karşı başlatılan mücadelede çeşitli tarikat şeyhleri ve onların müridleri fiilen cihada katılarak büyük rol oynamışlardır. </p><p> <b>e) Ekonomik Durum.</b> Afganistan ekonomisinin en önemli kaynaklarını tarım, hayvancılık, ticaret, endüstri ve madencilik teşkil etmektedir. Afganistan, bütün geri kalmışlığına rağmen İslâm ülkeleri içinde planlı kalkınma gayreti gösteren ilk ülkelerden biridir. 1956-1961 arasında ilk beş yıllık kalkınma planının uygulanmasına başlanmış ve bunu takip eden yıllarda yeni beş yıllık planlara devam edilmiştir. Memleketin büyük bir kısmı dağlık ve kayalık, iklimi de kurak olduğu halde, nehirlerden faydalanılarak meydana getirilen sulama kanalları sayesinde ziraat yapılan pek çok verimli arazi bulunmaktadır. Buralarda bol miktarda tahıl, sebze, meyve ve pamuk yetiştirmek mümkün olmaktadır. Hayvancılık da gelişmiş olup bilhassa hayvan ürünlerinden karakul kuzularının astragan kürk yapımında kullanılan postu, ihraç edilen malların başında gelmektedir. </p><p> 
+
+<table class="tbl1">
+<tbody><tr class="baslik"><td colspan="4" class="center">AFGANİSTAN’LA İLGİLİ EKONOMİK RAKAMLAR</td></tr>
+<tr class="baslik"><td colspan="4" class="center">ZİRAAT VE HAYVANCILIK (1985)</td></tr>
+<tr><td style="width:25%"><b>Ziraat Ürünleri</b></td><td style="width:25%" class="center">(Ton)</td><td style="width:25%"><b>Hayvancılık</b></td><td style="width:25%" class="center">(Adet)</td></tr>
+<tr><td>Buğday</td><td class="textright">2.850.000</td><td>Koyun</td><td class="textright">20.000.000</td></tr>
+<tr><td>Arpa</td><td class="textright">340.000</td><td>Sığır</td><td class="textright">3.750.000</td></tr>
+<tr><td>Pirinç</td><td class="textright">480.000</td><td>Keçi</td><td class="textright">3.000.000</td></tr>
+<tr><td>Mısır</td><td class="textright">800.000</td><td>Eşek</td><td class="textright">1.250.000</td></tr>
+<tr><td>Üzüm</td><td class="textright">510.000</td><td>At</td><td class="textright">110.000</td></tr>
+<tr><td colspan="2"><br></td><td>Deve</td><td class="textright">270.000</td></tr>
+<tr class="baslik"><td colspan="4" class="center">ENDÜSTRİ</td></tr>
+<tr><td colspan="4" class="center">Doğalgaz (1984) 2.715.000.000 m<sup>3</sup><br>Elektrik (1984) 1.045.000.000 (kw/sa)<br>Kömür (1984) 170.000 ton <br>Dokuma (1981-82) 2.770.000.000 (AF).</td></tr>
+<tr class="baslik"><td colspan="4" class="center">DIŞ TİCARET</td></tr>
+<tr><td colspan="2" style="width:50%">İthalât (1981-82) 30.797.800.000 AF</td><td colspan="2">İhracat (1981-82) 34.354.300.000 AF</td></tr>
+<tr><td><b>Başlıca ithal edilen ürünler</b></td><td class="center"><b>(%):</b></td><td><b>Başlıca ihraç edilen ürünler</b></td><td class="center"><b>(%):</b></td></tr>
+<tr><td>Taşıtlar, petrol ürünleri, dokuma ve kumaş</td><td class="center">48,6</td><td>Doğalgaz</td><td class="center">39,2</td></tr>
+<tr><td>Şeker, hayvansal-bitkisel yağ vb.</td><td class="center">16,3</td><td>Kurutulmuş ve taze meyveler</td><td class="center">32,5</td></tr>
+<tr><td><b>İthalât yapılan başlıca ülkeler</b></td><td class="center"><b>(%):</b></td><td><b>İhracat yapılan başlıca ülkeler</b></td><td class="center"><b>(%):</b></td></tr>
+<tr><td>Sovyetler Birliği</td><td class="center">58,6</td><td>Sovyetler Birliği</td><td class="center">59,4</td></tr>
+<tr><td>Japonya</td><td class="center">12,6</td><td>Pakistan</td><td class="center">8,8</td></tr>
+<tr><td>Hong Kong</td><td class="center">4,4</td><td>Hindistan</td><td class="center">6,2</td></tr>
+<tr><td colspan="4" class="center" style="font-size:80%"><b>GSMH</b> (1984): <b>2.800.000.000 Amerikan doları</b> (Kişi başına 195 Amerikan doları)</td></tr>
+</tbody></table>
+<br>
+Afganistan’ın yer altı zenginlikleri yönünden büyük bir potansiyele sahip olduğu bilinmektedir. Ancak özellikle nakil güçlüklerinden dolayı madenler yeterince işletilememektedir. Hindukuş dağlarının kuzey yamaçlarında birçok kömür havzası bulunmakta ve yılda 118.700 ton civarında (1980-1981) kömür çıkarılmaktadır. Kuzey Afganistan’da (Şibergân ve Saripul) bulunan tabii gaz Sovyetler tarafından işletilmekte ve yılda 2.790.000 m<sup>3</sup> (1980-1981) gaz elde edilmektedir. Bu doğal gaz bir boru hattıyla Sovyetler Birliği’ne taşınmakta, başka bir boru hattıyla da Mezârışerif’te kurulan termik santrale gönderilmektedir. Ayrıca demir, çinko, kurşun, petrol bulunmakta, ülkenin güneyinde dünyanın en zengin berilyum ve yakut yatakları yer almaktadır. Ülkenin kaya tuzu yatakları yeterli ölçüde olmakla birlikte ulaşımın yetersiz oluşu bu konudaki üretimi sınırlamaktadır. </p><p> Afgan endüstrisi yeni gelişmekte olup fabrikaların çoğu günlük hayatın ihtiyacı olan malları imal etmektedir. İngiliz, Sovyet, Alman ve Amerikan yardımı ile kurulan tekstil, deri, ayakkabı, plastik, bisiklet, cam ve şişe fabrikaları, başta Kâbil olmak üzere memleketin belli başlı yerleşme merkezlerinde toplanmıştır. Afgan ordusunun mühimmat ihtiyacını karşılayacak bazı askerî fabrikalar da kurulmuş bulunmaktadır. Muhtelif yerlerinde çimento, şeker ve gıda maddeleri fabrikaları ile çeşitli imalâthaneler mevcuttur. </p><p> Afganistan’da ulaşım alanında daha çok karayolları kullanılmakta, ülkenin dağlık olması demiryolu yapımını güçleştirmektedir. 1978’lerde bir Fransız firması Kâbil, Kandehar ve Herat’ı birbirine bağlayacak ve batıda İran’a, güneyde de Pakistan’a kadar uzanacak olan demiryolunun yapımını üzerine almışsa da tamamlayamamıştır. Karayollarının Kandehar-Çaman, Kâbil-Kandehar, Kâbil-Torham ve Herat-İslâmkale kısmını Amerikalılar, Kâbil-Kunduz-Kızılkale ile Pulihumri-Mezârışerif kısmını da Sovyetler yapmıştır. Ulaşımda, Amuderya üzerinde çalışan küçük deniz araçlarından da faydalanılmaktadır. </p><p> Afganistan’ın resmî para birimi afganî olup bir afganî yüz puliden ibarettir. Konvertibl bir para olmadığından milletlerarası para piyasalarında afganî, aranan bir para değildir. </p><p> <b>II. TARİH<br>1. İslâmiyet’ten Önceki Devir.</b> Asya kıtasının istilâ yollarından birinin üzerinde bulunan Afganistan, eski çağlardan beri çeşitli orduların gelip geçtiği bir yer olmuştur. Afganistan’ın bu stratejik konumundan ilk faydalananlar eski İranlılar’dır. Milâttan önce 500’de İran Hükümdarı Dârâ’nın (I. Darius) orduları Afganistan’ı işgal ederek güneydeki İndus vadisine inmeye çalıştılar ve ülke, iki yüzyıla yakın İranlılar’ın hâkimiyetinde kaldı. Batıdan gelen Büyük İskender, İranlılar’ı yendikten sonra Afganistan’ı işgal etti ve Hindukuş dağlarını aşarak Soğdlar ülkesine kadar ulaştı (m.ö. 331). İskender İmparatorluğu’nun parçalanmasından sonra Selefki Krallığı topraklarında kalan Afganistan’a daha sonra yine Yunan menşeli Baktriana Devleti hâkim oldu (m.ö. 187). Fakat bu hâkimiyetin kurulmasından bir asır sonra Hindistan’da gelişen Çandragupta Devleti, Baktriana ile amansız bir mücadeleye girişti. Uzun süre devam eden bu mücadele sonunda Baktriana Devleti zayıf düşerek bu arada kuzeyden gelen baskılara dayanamayıp yıkıldı (m.s. 50). Afganistan, 50-125 arasında kuzeyden gelen Sakalar’ın (İskitler), 125-480 arasında Türk oldukları tahmin edilen Kuşanlar’ın hâkimiyetleri altında kaldı. 480’den sonra ise Afganistan’a Akhunlar olarak bilinen Halaç Türkleri gelip yerleştiler ve bir asır kadar devam eden bir devlet kurdular. </p><p> <b>2. İslâmî Devir.</b> İslâmiyet’in Afganistan’a ulaşması Halife Hz. Osman veya Muâviye devrinde, Basra valisinin Abdurrahman b. Semüre’yi bölgeye göndermesiyle başladı. Araplar’ın bu memlekette uzun zaman kalmamalarına rağmen İslâmiyet hızla yayılmaya devam etti. Bundan sonra Afganistan’da herhangi büyük bir kuvvetin hâkimiyet kuramadığı, halkın “şah” unvanı verilen kabile reisleri tarafından idare edildiği görülmektedir. Bu durum İran’da kurulan Sâmânî Devleti’nin IX. yüzyılın ikinci yarısında Afganistan’ın büyük bir kısmını işgal etmesine kadar devam etti. X. yüzyılın sonlarına doğru Sâmânî Devleti’nin zayıflaması üzerine ordunun büyük kısmını teşkil eden Türkler, Sebük Tegin önderliğinde, Gazne şehri merkez olmak üzere Gazneli Devleti’ni kurdular. Bilhassa Gazneli Mahmud zamanında (998-1030) müslüman Türk unsur Afganistan’a iyice yerleşti. Afganistan’daki Gazneli hâkimiyeti, Sultan Mesud’un (1030-1041) 1040’ta Selçuklular’a yenilmesiyle son buldu. Bunlardan sonra başlayan Selçuklu hâkimiyeti, ülkenin güneydoğusundan Hindistan’a doğru uzanan sahada yer alan Gurlular tarafından zaman zaman tehdit edilmekle beraber, XII. yüzyılın ortasına kadar devam etti. Son Selçuklu hükümdarı Sultan Sencer’in ölümünden (552/1157) sonra Gurlular Afganistan’ı kontrolleri altına almışlarsa da XII. yüzyılın sonlarına doğru Hârizmşahlar’a terketmek zorunda kaldılar. Gur Devleti’nin parçalanmasından sonra Afganistan Hârizmşah sultanı Alâeddin Muhammed tarafından işgal edildi. Alâeddin’in annesi Türkân Hatun yönetimindeki Hârizmşahlar bu devirde altın çağlarını yaşadılar; topraklarını doğuda Türkistan’a, batıda Irak’a kadar genişlettiler. Kısa bir süre sonra Moğollar bölgeyi istilâ ederek (1220) ülkeyi yüz elli yıl kadar ellerinde tuttular. Moğollar Timur tarafından yıkıldıktan sonra onun torunlarından Bâbür (1526-1530), Afganistan’da uzun zaman devam edecek yeni bir devlet kurmayı başardı. Bâbür’ün kurduğu devletin sınırları Hindistan içlerine kadar genişlemekle beraber devletin ağırlığını zamanla Hindistan’a kaydırması, kuzeyden Özbekler’in, kuzeybatıdan da Safevîler’in saldırmalarına ve ülkede huzursuzlukların baş göstermesine yol açtı; nitekim bu huzursuzluklar sebebiyle Afgan kabilelerinden Yusufzaylar güneye göç ederek Peşâver vadisine yerleştiler. Bunu, XVII. yüzyılın ortalarına doğru Abdâlî ve Galzay adlarını almış olan Halaçlar’ın dağlık bölgelerden inerek Kandehar ve Zemindâver’in daha verimli olan bölgeleri ile Tarnak ve Argandâb vadilerine yayılmaları takip etti. Bâbürlüler’de görülen zaafın XVIII. yüzyıl başlarında giderek artması, özellikle İranlılar ile Bâbürlüler arasında sık sık el değiştiren Batı Afganistan’da kuvvetli kabilelerin daha bağımsız davranmalarına sebep oldu. Öte yandan kabileler arasındaki rekabet, Galzaylar’ın Bâbürlüler’i, Abdâlîler’in de Safevîler’i desteklemeleriyle düşmanlık haline dönüşünce, Galzaylar’ın tam mânasıyla müstakil hareket etmeye başlamaları üzerine Abdâlîler de Herat’a hâkim oldular. 1709’da Vâiz Han’ın Kandehar’daki İran valisi Gurgın Han’a karşı giriştiği ayaklanma, Afganistan’da millî bir devletin uyanışının başlangıcı oldu. Bu olaydan cesaret alan Heratlılar da İranlılar’a karşı ayaklanarak bölgelerinde bağımsız bir yönetim kurmayı başardılar. Ancak başlangıçtaki bu hareketlerin başarısı uzun sürmedi. Nâdir Şah Kandehar ve Herat’ı tekrar ele geçirerek bütün Afganistan’ı yönetimi altına aldı (1738). </p><p> <b>3. Millî Afgan Devleti.</b> Afgan kabilelerine dayanarak ilk millî Afgan Devleti’ni kuran Ahmed Şah Dürrânî oldu. XVII. yüzyıl sonlarına doğru Herat civarına gelip yerleşen Abdâlîler’in Sadozay kolunun reisi olan Muhammed Zaman Han’ın oğlu Ahmed Şah, gösterdiği cesaret, zekâ ve kabiliyet ile kısa zamanda Afganistan’ı ele geçiren İran Hükümdarı Nâdir Şah’ın gözüne girerek Mâzenderan valisi tayin edildi. Nâdir Şah’ın seferlerinin çoğuna katılarak kumandanlık tecrübesi edinen Ahmed Şah, 1747’de Nâdir Şah’ın öldürülmesinden sonra İran’ın içine düştüğü karışıklıktan faydalanarak Kandehar’ı ele geçirdi ve orada Abdâlî reisleri tarafından hükümdar ilân edildi. Bu arada kendisine biat eden kabile reislerinin aldığı bir kararla “inciler incisi” mânasına gelen “dürr-i dürrân” unvanı verilen Ahmed Şah, Kâbil ve çevresini de devletine kattıktan sonra sırasıyla Galzaylar’ı, Özbekler’i, Tacikler’i ve diğer kabileleri idaresi altına alarak Afganistan’ın yegâne hâkimi oldu. Kurduğu devletin sınırlarını genişletmek amacında olan Ahmed Şah Dürrânî, 1748-1760 yılları arasında Hindistan’a yaptığı dört seferde Bâbürlüler’e karşı başarılar elde etti ve daha sonra da İran’a karşı giriştiği fetih hareketleri ile Herat ve Meşhed’i ülkesine katmaya muvaffak oldu. Bu arada, İstanbul’a elçi gönderip Osmanlı Hükümdarı III. Mustafa’ya, birlikte hareket ederek İran Devleti’ni ortadan kaldırmayı teklif ettiyse de müsbet cevap alamadı. Ahmed Şah, Hindistan’da bir kuvvet haline gelen Sihler üzerine 1762 ve 1764’te iki sefer yaparak güney hudutlarını emniyet altına aldı. </p><p>Ahmed Şah’ın 1773’te ölümünden sonra yerine geçen oğlu Timur Şah zamanında (1773-1793), içte kabileler arasındaki çekişmeler hızlandı. Dışta ise Sihler’e karşı başarı sağlanamaması dolayısıyla Lahor elden çıktı (1775). Diğer taraftan Belûcîler’in daha müstakil hareket etmelerine göz yumuldu. Devletin başşehri Kâbil’e taşındı (1775). Timur Şah’ın ölümü üzerine (1793), yerine geçen oğlu Zaman Şah’ın yedi yıllık iktidar döneminde iç karışıklıklar hânedanın yıkılmasına sebep olacak kadar büyüdü, ayrıca bu dönemde büyük toprak kayıpları da oldu. Zaman Şah’ın tutumu kardeşleri Mahmud ve Şücâülmülk’ün saltanat iddiasıyla isyan etmelerine ve daha önce babasını öldürttüğü Barakzaylar’ın (Muhammedzay) reisi Fetih Han’ın Mahmud ile birleşmesine sebep oldu; bu birleşik kuvvetlere mağlûp olan Zaman Şah iktidardan uzaklaştırılarak yerine kardeşi Mahmud Şah geçti. Ancak Fetih Han’ın büyük kabile isyanlarını bastırmaya çalıştığı sırada Şücâülmülk Kâbil’i ele geçirip Mahmud Şah’ı hapsettirdi ve tahta çıktı. Fakat harekete geçen Fetih Han’ın önünde mağlûp olan Şücâülmülk Hindistan’a kaçıp hâkim durumdaki İngilizler’e sığınınca Mahmud Şah da ikinci defa tahta çıkma fırsatı buldu. Bu gelişmeler Barakzaylı Fetih Han ve kardeşlerinin büyük nüfuz kazanmalarına ve Mahmud Şah’ı tahakkümleri altına almalarına yol açtı. Mahmud Şah’ın rızasıyla Fetih Han’ın öldürülmesi (1818) üzerine, kardeşlerinden Dost Muhammed, Mahmud Şah’ın üzerine yürüdü ve onu bozguna uğratarak Sadozaylar’ın kontrolünde olan Herat’a kaçmak zorunda bıraktı (1819). Bu arada, daha önce İngilizler’e sığınmış olan Mahmud Şah’ın kardeşi Şücâülmülk, topladığı kuvvetlerle Kandehar’a hücum etti. Şücâülmülk’ü tekrar mağlûp eden Dost Muhammed, Kandehar’ı kardeşi Kühendil’e bırakarak kendisi Kâbil’de hükümdarlığını ilân etti (1819) ve böylece Afganistan’da hânedan değişmiş oldu. Bu iç karışıklıklar sırasında Sihler Peşâver’i ele geçirdiler. Kuzey Hindistan’daki eyaletlerin de elden çıkmasından sonra Dost Muhammed, Afgan Devleti’nin hükümdarı oldu. Ancak Ruslar’ın kışkırtması ile Herat’ı almaya kalkışan İran’ın saldırmasından çekinen İngilizler, 1839’da Sihler’le ittifak yaparak Afganistan’ı işgal ettiler. İngiliz işgalinin Afganistan üzerinde etkileri menfi oldu. Her ne kadar Dost Muhammed üç yıl içinde İngilizler’i ülkeden çıkardıysa da dağılan birliğin yeniden sağlanması yıllar aldı. </p><p> Dost Muhammed’in 1863’te ölümüyle oğulları arasında başlayan saltanat mücadelesi kanlı bir iç savaşa dönüşmüşse de, beş yıl sonra, büyük oğlu ve meşrû veliahdı Şîr Ali kardeşlerini yenerek tek başına tahta hâkim oldu (1868). Ancak Ruslar’ın Afganistan’a yaklaşma politikası takip etmeleri üzerine İngilizler ülkeyi 1878 sonlarında ikinci defa işgal ettiler. Bu duruma engel olamayan Şîr Ali Han kaçarak, Türkistan’ı işgal etmiş olan Ruslar’a sığındı ve orada öldü (1879). İngiliz işgalinin 1880’de sona ermesi üzerine, daha önce amcası Şîr Ali Han’a yenilip Türkistan’da Ruslar’a sığınmış olan Abdurrahman Han Afgan tahtına geçti (1880). Onun zamanında İngilizler’in bugünkü Güney Afganistan sınırını tesbit etmeleri ve Hayber Geçidi’nin Hindistan sınırları (şimdiki Pakistan) içinde bırakılması, pek çok Afganlı’nın anavatan dışında kalmasına yol açtı. İngiliz tekliflerini reddetmesi halinde ülkenin yeniden işgal edilmesinden korkan Abdurrahman Han, 12 Kasım 1893’te, “Durand Hattı” olarak bilinen antlaşmayı imzalamak mecburiyetinde kaldı ve bu parçalanma daha sonraları Afganistan’ın felâketine yol açan gelişmelerin başlangıcı oldu. Abdurrahman Han iç çekişmelerin ve dış istilâların altüst ettiği Afganistan’ı ve düşman kamplara bölünmüş olan Afgan halkını çok sert ve kanlı tedbirlerle kontrol altına aldıktan sonra, sağlığının bozulması sebebiyle, tahtını büyük oğlu Habîbullah Han’a bıraktı ve üç gün sonra da öldü (1901). Habîbullah Han ise, babasının döneminde sürgüne gönderilen birçok hânedan mensubunu geri çağırarak yeni görevlere tayin etti. Avrupa teknolojisi de Afganistan’da bu dönemde yayılmaya başladı. </p><p>20 Şubat 1919’da öldürülen Habîbullah Han’ın yerine, yenilik taraftarı bir kişi olan oğlu Emânullah Han geçti. Kayınpederi Mahmud Beg Tarzî’nin yardımı ile Afgan Devleti’nin iç teşkilâtını yeniden düzenleyen Emânullah Han, Afganistan’ın istiklâlinin tanınması çalışmalarına da girişti. Mahmud Beg Tarzî Afganistan’ı tanıtmak için Mahmud Velî Han başkanlığında bir heyeti Rusya ve Avrupa devletlerine göndermekle işe başladı. Emânullah Han’ın bu bağımsız siyaseti ve bilhassa Sovyet rejimi ile münasebetlerini geliştirmeye çalışması, İngilizler’le arasının açılmasına sebep oldu ve bu anlaşmazlık kısa zamanda savaşa dönüştüyse de çok geçmeden 8 Ağustos 1919’da Ravalpindi Antlaşması imzalanarak savaşa son verildi. Daha sonra Sovyetler Birliği ile 28 Şubat 1921’de bir antlaşma imzalandı, ertesi gün Türkiye Büyük Millet Meclisi hükümeti ile yapılan 1 Mart 1921 tarihli antlaşmayla da Türkiye’den uzman öğretmen ve subay gönderme taahhüdü alındı. Emânullah Han’ın çıktığı Hindistan, Avrupa, Sovyetler Birliği ve Türkiye gezisinde (1927-1928) döndükten sonra, daha önce giriştiği sosyal reformlara hız vermesi halk arasında tepki ile karşılandı. Bu tepkiler bir süre sonra isyanlara dönüşünce sonuçta Emânullah Han ülkesini terketmek zorunda kaldı (1929). </p><p> Başşehir Kâbil’in isyancıların eline geçmesi üzerine, daha önce Emânullah Han tarafından Fransa’ya sürgüne gönderilmiş olan ordu kumandanı Nâdir Han ve kardeşleri derhal geri dönerek Peşâver üzerinden Afganistan’a girdiler ve topladıkları kuvvetlerle kısa zamanda Kâbil’i kurtardılar (12 Ekim 1929). Bu başarı halk tarafından memnuniyetle karşılandı ve kabile reislerinin iştirak ettiği bir mecliste, hânedanın kurucusu Dost Muhammed Han’ın kardeşinin torunu olan Nâdir Han Afganistan hükümdarı ilân edildi (16 Ekim 1929). “Şah” unvanını alarak Afganistan tahtına çıkan Nâdir Han, halkın benimsemediği reformlardan mümkün olduğu kadar uzak kalıp din adamlarının da fikirlerini alarak İslâmî esaslara dayalı bir idare kurdu ve kısa sürede sükûneti temin etmeye muvaffak oldu. 31 Ekim 1931 tarihinde yürürlüğe giren anayasa, küçük ilâvelerle 1964 yılına kadar geçerliliğini korudu. Eğitim ve öğretime önem veren Nâdir Şah Afgan ordusunu da yeniden ve modern bir şekilde teşkilâtlandırdı. Mevcudu 40.000 civarında olan orduya devamlı subay yetiştirmek için askerî okullar ve akademiler açtı. Nâdir Şah ayrıca memleketin bütün bölgelerini başşehir Kâbil’e bağlayacak şekilde yol yapımına girişti. Kasım 1933’te şahsî bir düşmanı tarafından öldürülen Nâdir Şah’ın yerine, ülkede kargaşalık çıkmasına fırsat vermeyen kardeşlerinin desteğiyle, oğlu Zâhir Şah geçti. Zâhir Şah devrinde Afganistan’ın dış politikası tarafsızlıkla yürütülmeye çalışıldı. 1937’de Türkiye, İran ve Irak ile birlikte Sâdâbâd Paktı’na giren Afganistan, II. Dünya Savaşı’nda da bu tutumunu devam ettirdi. İngilizler’in Hindistan’dan çekilmesi üzerine, 1947’de Pakistan ve Hindistan adı altında iki ayrı devlet kuruldu; ancak daha önce Durand Hattı ile Hindistan’a bırakılmış olan Afganlar’la meskûn yerleri Afganistan’ın istemesi Pakistan ile ihtilâfa yol açtı. İngiltere’nin yeni silâhlar vererek Pakistan ordusunu modernize etme çabaları Afganistan’ı Sovyetler Birliği’ne yaklaşmaya sevketti. İki ülke arasında başlayan siyasî dostluk 1954-1961 arasında karşılıklı ziyaretlerle ve imzalanan ekonomik, kültürel anlaşmalarla takviye edildi. Yeni yollar, fabrikalar ve elektrik santralleri inşası ile Afganistan’da etkisini göstermeye başlayan Sovyetler Birliği’nin içteki taraftarları Başbakan Dâvud Han ile Dışişleri Bakanı Nâdir Han oldu. </p><p> Zâhir Şah ülkede gittikçe artmakta olan Sovyet nüfuzunu önlemek için Dâvud Han’ı başbakanlıktan azledince, bu durum birtakım yeni gelişmelere yol açtı. Sovyetler, Dâvud Han’ı destekleyerek 1973’te Zâhir Şah’ı kansız bir darbe ile devirmeyi başardılar ve arkasından, kendi ülkelerindeki okullarda yetişmiş olan sivil ve askerî personeli devletin önemli idarî kadrolarına yerleştirmeye ve Afganistan’ı hızla kontrolleri altına almaya başladılar. Bu durum karşısında Dâvud Han, ülkesinin Sovyet hâkimiyetine girmekte olduğunu anladı ve tedbir olarak, Muhammed Nur Terekî ile Babrak Karmal başta olmak üzere, önemli Marksist liderleri tutuklattı. Fakat geç alınan bu tedbir fayda yerine zarar getirdi ve Afgan ordusundaki Marksist subaylar, diğer subayları etkisiz bıraktıktan sonra kumandaları altındaki birliklerle başkanlık sarayını ele geçirerek bütün aile fertleriyle birlikte Dâvud Han’ı öldürdüler ve Muhammed Nur Terekî’yi devlet başkanı yaptılar. Aynı zamanda başbakanlık vazifesini de üzerine alan Terekî’nin ilk işi, üyelerinin çoğunluğunu Sovyet taraftarlarının teşkil ettiği yeni Afgan hükümetini ilân etmek oldu (Nisan 1978). </p><p> Terekî’nin Afganistan’da kurmak istediği Sovyet taraftarı iktidar ülkede büyük tepkilere yol açtı ve halkın silâhlanıp direnişe geçmesine sebep oldu. Terekî’nin sert tutumuna, Hafîzullah Emin ve taraftarları başta olmak üzere bazı çalışma arkadaşları karşı çıktılar ve Eylül 1979 başlarında Terekî’yi devirmeyi başardılar; böylece Hafîzullah Emin Sovyetler’in arzusu hilâfına, Afganistan’daki Marksist rejimin başına geçmiş oldu. Bunun üzerine Sovyetler, doğrudan askerî müdahalede bulunarak Hafîzullah Emin’i öldürdüler ve yerine Babrak Karmal’ı geçirdiler. Bu müdahaleye karşı halkın mukavemete başlaması üzerine Karmal ve iktidarını korumak amacıyla ordu göndererek ülkeyi milletlerarası hukuka aykırı şekilde işgal ettiler. Ancak bu işgal üzerine halkın direnişi, Sovyetler’le birleşen hükümet kuvvetlerine karşı bir iç savaşa dönüştü. Hizb-i İslâmî adı altında birleşen mücahidlere karşı Sovyet ve Afgan hükümet kuvvetlerinin başarı kazanamamaları üzerine, 1986’da Sovyetler hükümete yine müdahale ederek Babrak Karmal’ı görevden uzaklaştırdılar ve yerine Muhammed Necîbullah’ı geçirdiler. </p><p> <b>III. EĞİTİM ve KÜLTÜR<br>1. Edebiyat ve Sanat.</b> Afganistan’da dil ve edebiyat, komşu dil ve edebiyatların etkisi altında gelişme göstermiştir. Peştu dili ve edebiyatı üzerinde Hintçe’nin, Derî dili üzerinde ise Farsça’nın etkisi büyüktür. Ülkenin kuzey bölgelerinde konuşulan çok sayıda mahallî dil üzerinde de Orta Asya dilleri ve kültürlerinin etkisi görülür. Birkaç farklı lehçesi bulunan Peştu dilinde yazılmış çok sayıda edebî ve dinî kitap vardır. XVI. yüzyıla kadar bir geçmişe sahip bulunan Peştu edebiyatının en önemli eserleri Ahund Dervîze’nin <span class="eser">Maḫzen-i Peştu</span> ve <span class="eser">Maḫzen-i İslâm</span> adlı eserleriyle Efdal Han Hatak’ın <span class="eser">Târîḫ-i Muraṣṣaʿ</span> adlı kitabıdır. Afganistan’ın yetiştirdiği büyük edip ve şairler arasında, devletin kurucusu olan Ahmed Şah Dürrânî ile oğlu Timur Şah ve Şah Şûca’ sayılabilir. Bu hükümdarların birer Farsça divanı vardır. XIX. yüzyıl Kandehar valilerinden olan Mihridil Han da büyük bir şair olduğu gibi etrafına topladığı şair ve ediplerle Edebistân-ı Kandehar adı altında yeni bir edebiyat ve şiir ekolü kurarak Afgan edebiyatında bir çığır açmıştır. Edebistân-ı Kandehar ekolünden yetişen edebiyatçıların en meşhuru Gulâm Muhammed Han Tarzî’dir. Emîr Abdurrahman Han ile arasının açılması üzerine Türkiye’ye yerleşen Gulâm Muhammed Han Tarzî’nin Türkiye’de yetişip öğrenim gören oğlu Mahmud Beg Tarzî (ö. 1933), Afgan edebiyatında yeni bir çığır açmıştır. Devrin diğer tanınmış şairleri ise Abdülgafur Nedim (ö. 1926), Abdülgafur Müstağnî (ö. 1933), Abdürresul Han (ö. 1934) ve Abdullah Kārî’dir (ö. 1943). </p><p> XX. yüzyılın başlarında görülmeye başlayan gazetecilik alanında <span class="eser">Sirâcü’l-aḫbâr</span>, <span class="eser">Emîn-i Afġān</span>, <span class="eser">Enîs</span> ve <span class="eser">Iṣlâḥ</span> gibi gazetelerin adlarını anmak gerekir. 1978’deki Marksist hükümet darbesinden sonra radyo, televizyon ve gazetecilik alanlarındaki yayınlar Sovyet işgal güçlerinin ve komünist yönetimin etkisine girmiştir. </p><p> Farklı etnik gruplara mensup kitlelerin yaşadığı Afganistan’da zengin bir müzik kültürünün varlığı gözlenmektedir. Ülkede dil ve kültürleri az çok farklı halkların yaşamaları ve kendilerine has müzik kültürlerine sahip bulunmaları, Afgan müziğinin karma ve zengin bir yapıda olmasını sağlamıştır. Çeşitli nefesli, vurmalı ve yaylı müzik araçları Hint, İran ve Orta Asya kültürlerinin etkisini yansıtır. Komşu ülkelerin ve kültürlerin tesiri, edebiyat ve dil alanında olduğu gibi müzik alanında da görülmektedir. </p><p>Afganistan’daki zengin tarihî ve mimari eserler, ülkenin kültür mirasını yaşatan önemli yapılardır. Milâttan önce üç bin yıllarına kadar giden tarihî eserler Helenistik döneme aittir. Ülkenin çeşitli yerlerinde Budist tapınaklarına rastlanır. Ortaçağ’dan kalan çeşitli kaleler, camiler, türbeler ve zâviyelerin dışında özellikle Gazneliler’den kalma çok sayıda dinî eser vardır. Cam Minaresi (XII. yüzyıl), Herat yakınlarında Kilise Camii (XIII-XIV. yüzyıl), Herat Camii (XV. yüzyıl), Gevher Şah Türbesi, Belh’te Hoca Ebû Nâsır Paşa Camii ve Türbesi (XV. yüzyıl) bu dönemden kalan önemli eserlerdir. Ülkenin kuzeyinde Mezârışerif şehrinde bulunan Mezârışerif Camii (XV-XVII. yüzyıl) ile Gazne’de bulunan Gazneli Mahmud’un diktirdiği zafer âbidesi, İslâm sanatının en güzel örneklerindendir. Herat mektebi tarafından temsil edilen Ortaçağ’daki güzel sanatlardan halı, seramik ve el sanatlarının örnekleri günümüze kadar intikal etmiştir. Modern dönemde, bilhassa ülkenin başşehri Kâbil’de inşa edilen Kâbil Üniversitesi kompleksi, bir otel ve havaalanı, belli başlı mimari yapılar olarak anılmaya değer. </p><p> <b>2. Eğitim ve Öğretim.</b> Afganistan, ilim ve kültür faaliyetleri bakımından bugün sesini fazla duyurabilen bir ülke değilse de tarihte İslâm dünyasının önemli ilim ve kültür merkezlerinin gelişmesine sahne olmuştur. Gazneliler zamanında Gazne, Timurlular zamanında Herat şehirleri, dönemin çok sayıda ilim adamı yetiştiren en önemli ilim ve kültür merkezleri idiler. Savaşçılığının yanı sıra ilim, edebiyat ve kültüre verdiği önemle de dikkati çeken Gazneli Mahmud’un sarayında büyük matematikçi, coğrafyacı, filozof, astronom ve edipler yetişmiştir. Bunlardan Bîrûnî, Beyhakī, Utbî ve Firdevsî en meşhur olanlardır. İran edebiyatının Unsurî, Ferruhî, Ascedî, Cezâirî gibi tanınmış şairleri de ondan büyük himaye ve yardım görmüşlerdir. </p><p> İktisadî ve sosyal bakımdan az gelişmiş bir ülke olan Afganistan’da eğitim ve öğretim kurumları yeterli seviyeye ulaşamamıştır. Nüfusun büyük çoğunluğunun kırsal kesimde yaşadığı ülkede okuma yazma oranı çok düşüktür. Kırsal alanlarda geleneksel öğretim ve eğitim kurumu olarak cami ve medreselerin yanında tarikatların etkisi büyüktür. Dinî ilimler alanında eğitim ve öğretim yapılan bu kültür ve eğitim kurumlarının bir kısmı devletin denetiminde, bir kısmı ise özel olarak faaliyet göstermektedir. İlk öğrenim dışında orta ve yüksek öğrenimin de parasız olduğu Afganistan’da modern anlamda ilk lise, ancak 1903 yılında açılabilmiştir. Modern eğitim kurumlarının gelişmesi, 1921 yılında Eğitim Bakanlığı’nın kurulması ve dışarıdan alınan yardımlarla başlamıştır. 1920’lerden itibaren Türkiye’den getirilen pek çok Türk eğitimcisinin okulların kurulmasında ve geliştirilmesinde büyük hizmetleri olmuştur. Önceleri Batı’nın ve özellikle İngiltere’nin, II. Dünya Savaşı’ndan sonra da Sovyetler Birliği’nin nüfuzu altına giren ülkede eğitim sistemi bu durumdan en çok etkilenen alan olmuştur. Meslekî, teknik ve genel nitelikli öğrenim veren orta öğretim kurumları ülke kalkınmasında önemli bir rol oynamıştır. Yüksek öğretim kurumları sadece ülkenin Kâbil, Kandehar ve Herat gibi büyük şehirlerinde toplanmıştır. On üç fakülteyi ve çeşitli ilmî araştırma ve inceleme kurumlarını bünyesinde toplayan ve ülkenin ilk üniversitesi olan Kâbil Üniversitesi (1932) ile Celâlâbâd Üniversitesi (1963) ülkenin en önemli yüksek öğretim kurumlarıdır. Afganistan’da gerçekleştirilen ilmî yayınların çoğu Kâbil Üniversitesi tarafından yapılmaktadır. 1920 yılında kurulan Kâbil Halk Kütüphanesi, Afganistan’ın en önemli ve en zengin kütüphanesidir. Önemli tarih ve sanat eserlerinin, yazmaların, minyatür ve benzeri çalışmaların sergilendiği Kâbil Tarih ve Etnografya Müzesi, başlıca kültür kurumları arasında yer almaktadır. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> V. Eyre, <span class="eser">The Military Operations at Kabul</span>, London 1843.</p><p>J. P. Ferrier, <span class="eser">History of the Afghans</span>, London 1858.</p><p>H. W. Bellew, <span class="eser">Journal of a Political Mission to Afghanistan, in 1857</span>, London 1862.</p><p>H. H. Durand, <span class="eser">Causes of the First Afghan War</span>, London 1879.</p><p><span class="eser">The Cambridge History of India</span>, Cambridge 1929-37, IV-V, tür.yer.</p><p>S. İ. Ali Shah, <span class="eser">Modern Afghanistan</span>, London 1938.</p><p>Zeki Velidi Togan, <span class="eser">Bugünkü Türkili Türkistan ve Yakın Tarihi</span>, İstanbul 1942-47.</p><p><span class="kisaltma" data-ad="bayur-hindistan-tarihi">Bayur, <i>Hindistan Tarihi</i></span>, III, tür.yer.</p><p>W. K. Fraser-Tytler, <span class="eser">Afghanistan A Study of Political Developments in Central Asia</span>, London 1950.</p><p>L. Lockhart, <span class="eser">The Fall of the Safavid Dynasty and the Afghan Occupation of Persia</span>, Cambridge 1958, tür.yer.</p><p>M. G. Pikulin, <span class="eser">Razvitie ekonomiki kultury Afghanistana 1955-1960</span>, Taşkent 1961.</p><p>C. E. Bosworth, <span class="eser">The Ghaznevids, Their Empire in Afghanistan and Eeastern Iran 994-1040</span>, Edinburgh 1963.</p><p>M. Anwar-Khan, <span class="eser">England, Russia and Central Asia</span>, Peşâver 1963.</p><p>V. Gregorian, <span class="eser">The Emergence of Modern Afghanistan</span>, Stanford 1969.</p><p>L. B. Poullada, <span class="eser">Reform and Rebellion in Afghanistan 1919-1929</span>, Ithaca 1973.</p><p>Harvey H. Smith, <span class="eser">Area Handbook for Afghanistan</span>, Washington 1973.</p><p>L. W. Adamec, <span class="eser">Afghanistan’s Foreign Affairs to the Mid-Twentieth Century</span>, Tucson 1974.</p><p>a.mlf., <span class="eser">Afghanistan 1900-1923</span>, Los Angles 1976.</p><p>Anthony Hyman, <span class="eser">Afghanistan under Soviet Domination 1964-1983</span>, London 1984.</p><p><span class="eser">The Middle East and North Africa 1984-1985</span>, London 1984, I, 219-239.</p><p>Mehmet Saray, <span class="eser">Türk-Afgan Münasebetleri</span>, İstanbul 1984.</p><p><span class="kisaltma" data-ad="muslim-peoples"><i>Muslim Peoples</i></span>, s. 822.</p><p>Muhammed Abdülkādir Ahmed, <span class="eser">el-Müslimûn fî Afġānistân</span>, Peşâver 1404/1984, s. 217-313.</p><p>T. Davletshin, “Soviet Cultural and Economic Penetration in Afghanistan”, <span class="eser">Bulletin: Institute for the Study of the USSR</span>, Münih 1962.</p><p>N. Snider, “Mosque Education in Afghanistan”, <span class="kisaltma" data-ad="mw"><i>MW</i></span>, LVIII/1 (1968), s. 24-35.</p><p>M. Longworth Dames – Abdülvehhâb Tarzî, “Efganistan”, <span class="kisaltma" data-ad="ia"><i>İA</i></span>, IV, 133-178.</p><p>V. Minorsky, “Nâdir”, <i>a.e.</i>, IX, 21-31.</p><p>“Afg̲h̲anistān”, <span class="kisaltma" data-ad="ei2-ing"><i>EI<sup>2</sup> </i>(İng.)</span>, I, 221-233.</p><p>“Afġānistân”, <span class="kisaltma" data-ad="udmi"><i>UDMİ</i></span>, II, 939-1013.</p><p>“Afg̲h̲ānistān”, <span class="kisaltma" data-ad="gse"><i>GSE</i></span>, II, 29-40.</p><p>“Afghanistan”, <span class="kisaltma" data-ad="eir"><i>EIr.</i></span>, I, 486-566.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/1/C01015455.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 401-408 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('AFGANİSTAN', 'afganistan', '1', 'C01015455.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/1/C01015455.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_2-sovyet-isgali-ve-sonrasi" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									2 bölümden oluşan maddenin 2. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="AFGANİSTAN" href="https://islamansiklopedisi.org.tr/afganistan?utm_source=pdf#2-sovyet-isgali-ve-sonrasi">https://islamansiklopedisi.org.tr/afganistan#2-sovyet-isgali-ve-sonrasi</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#1" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="2 bölümden oluşan maddenin 2. bölümü">
+													2/2												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next article-nav-passive " data-jurl="#" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="2-sovyet-isgali-ve-sonrasi">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="AFGANİSTAN//2-sovyet-isgali-ve-sonrasi" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/ilhan-bilgu"><b>İLHAN BİLGÜ</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">AFGANİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>İLHAN BİLGÜ</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">1988</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/afganistan#2-sovyet-isgali-ve-sonrasi</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext2">
+														İLHAN BİLGÜ, "AFGANİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/afganistan#2-sovyet-isgali-ve-sonrasi (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>IV. SOVYET İŞGALİ ve SONRASI</b><br>Sovyetler Birliği yanlısı olmakla birlikte ılımlı bir lider kişiliğiyle tanınan Dâvud Han’ın komünistler tarafından kanlı bir darbe ile devrilmesinden sonra Afganistan Demokratik Cumhuriyeti kuruldu (1978) ve Devrim Konseyi’nin başkanlığına, başbakanlığa ve Afganistan Demokratik Halk Partisi (Cem’iyet-i Demokratik-i Halk-ı Afganistan) genel sekreterliğine Nur Muhammed Terekî getirildi. Komünist liderlerden Hafîzullah Emin ile Babrak Karmal da başkan yardımcılıklarına tayin edildiler; ancak kısa zamanda aralarında bir iktidar mücadelesi başladı. Terekî, Babrak Karmal’ı Çekoslovakya’ya elçi olarak gönderirken güçlü komünistlerden Nur Muhammed Nur, Anahita Ratıbzad ve Muhammed Necîbullah’ı da değişik ülkelere elçi tayin etti. Komünist liderleri ülke dışına çıkaran Terekî, Sovyetler çizgisinde radikal reformlar yapmaya başlayınca geleneklerine ve dinî inançlarına bağlı Afgan halkının şiddetli tepkisiyle karşılaştı. Yönetime karşı başlayan halk ayaklanması kısa zamanda ülkeye yayılırken yurt dışında elçilik göreviyle bulunan ve birbirini ihanetle suçlama yarışına giren komünist liderler görevlerinden alınarak partiden ihraç edildiler. Bu olay komünistler arasındaki iktidar çatışmasını açıkça ortaya koydu. Büyükelçilik görevinden alınan Babrak Karmal Moskova’ya sığındı. </p><p> Sovyet yanlısı Afgan yönetimine karşı mücahidlerin organize ettikleri silâhlı halk hareketleriyle baş edemeyen Terekî, Hafîzullah Emin’i Mart 1979’da başbakanlığa getirdi. Ayaklanmaları durduramayan yönetim Moskova’dan silâh ve cephanenin yanı sıra askerî ve sivil görevli yardımı da aldı. Buna rağmen siyasî kargaşa durmadı ve Hafîzullah Emin’i CIA ajanlığıyla suçlayan Terekî’nin Moskova’dan dönerken Kâbil havaalanında vurulması (14 Eylül 1979) üzerine Hafîzullah Emin başa geçti. </p><p> Afganistan’ın yeni lideri Hafîzullah Emin, ülkedeki ayaklanmaları ve karışıklığı durdurmak için Amerika Birleşik Devletleri ve Pakistan’dan yardım yolları aramaya teşebbüs edince Sovyetler’in ve komünistlerin harekete geçmesine sebep oldu. Siyasî ve sosyal karışıklıklar sürerken Sovyetler Birliği 24 Aralık 1979’da Kâbil’e asker indirerek ülkeyi işgale başladı. Üç gün sonra da Hafîzullah Emin öldürüldü ve radyodan Moskova’da bulunan Babrak Karmal’ın başbakanlığa, Devrim Konseyi başkanlığına ve Afganistan Demokratik Halk Partisi genel sekreterliğine getirildiği ilân edildi. 28 Aralıkta, Sovyetler’in 5 Aralık 1978 tarihli Dostluk, İyi Komşuluk ve İşbirliği Antlaşması’na istinaden Afganistan hükümetinin daveti üzerine bu ülkeye yardım için girdikleri açıklandı; oysa Sovyet birlikleri 24 Aralıkta Afganistan’a girerek fiilen bu ülkeyi işgal etmiş oldukları gibi 28 Aralıkta ülkede böyle bir davette bulunacak meşrû siyasî otorite de yoktu. Karmal 1 Ocak 1980’de Moskova’dan Afganistan’a döndü ve yönetimin başına geçti. </p><p> Afganistan’ın Sovyetler Birliği tarafından işgal edilmesi milletlerarası camiada büyük yankı uyandırdı. Sovyet yöneticilerin Afganistan hükümetinin daveti üzerine yardım için bu ülkeye girdiklerini açıklamalarını kimse ciddiye almadı ve işgalden dolayı Sovyetler Birliği çok sert eleştirilere muhatap oldu. İşgalle birlikte Babrak Karmal tarafından kurulan komünist yönetim içte ve dışta büyük problemlerle karşı karşıya geldi. Gelir düşüklüğü, fakirlik, adaletsiz gelir dağılımı gibi sosyoekonomik problemlerin yanı sıra en önemli problem, yönetime karşı ayaklanarak silâha sarılan müslümanları etkisiz hale getirmekti. Karmal yönetimi mücahidlerle mücadelede başarılı olamadı. İşgalden hemen sonra Karmal ülkede güçlendiyse de Afganistan Demokratik Halk Partisi’nin Halk ve Perçem kanatları arasındaki iktidar mücadelesine ve mücahidlerle olan çatışmalara son veremedi. Hükümet ülkenin şehir merkezlerine hâkim olurken kırsal alanlar mücahidlerin hâkimiyetinde kaldı. Ordunun ve güvenlik güçlerinin büyük kısmı mücahidlerin saflarına geçince ülkede kamu düzenini sağlama işi Sovyet askerlerine kaldı. Afganistan’da komünist yönetime karşı savaşma imkânı bulamayan mücahidler ülkeyi terkedip mücadeleyi yurt dışından yönlendirdiler. Çoğu Pakistan ve İran’a göç eden milyonlarca Afganlı çok zor şartlarda hayatlarını sürdürmeye çalışırlarken Afgan yönetimine ve işgal güçlerine karşı yürütülen silâhlı mücadeleye de katıldılar. İslâm dünyasından ve bazı Batı ülkelerinden yardım gören mücahidler yönetime âdeta nefes aldırmadılar; yolları, askerî birlikleri, stratejik noktaları havaya uçurdular. Mücahidlerle mücadelede başarısız kalan yönetim, milletlerarası camiada da sık sık eleştirildi. İslâm Konferansı Teşkilâtı İslâmâbâd’daki olağan üstü toplantısında (1980) Sovyetler’in Afganistan’dan çekilmesini istedi ve Sovyetler Birliği’ni açıkça işgalci olarak ilân etti. Bu toplantıda Karmal yönetiminin tanınmaması ve Afganistan’ın İslâm Konferansı Teşkilâtı üyeliğinin askıya alınması da kararlaştırıldı. 1984 yılında ise Birleşmiş Milletler Genel Kurulu Afganistan’dan yabancı askerlerin çekilmesi kararı aldı (2 Ocak), fakat Sovyetler Birliği bu kararın uygulamasına yanaşmadı. </p><p> Sovyetler Birliği’nin yeni lideri Mihail Gorbaçov, iktidara geldikten sonra Afganistan’ın kanayan bir yara olduğunu söyleyerek buradaki yenilgilerini kabul etmek zorunda kaldı ve mücadelede başarılı olamayan Babrak Karmal’ı gözden çıkardığını belli etti. 4 Mart 1986’da sağlık durumunun bozulduğu gerekçesiyle görevden ayrıldığı bildirilen Babrak Karmal’ın yerine, Afgan gizli istihbarat teşkilâtı başkanı Muhammed Necîbullah, Afganistan Demokratik Halk Partisi genel sekreterliğine ve Devrim Komuta Konseyi başkanlığına getirilirken Karmal, devlet başkanı olarak kaldı. Fakat Karmal, aralık ayında bu görevinden alınıp yerine Hacı Muhammed Çamkani getirildi. </p><p> İktidarı ele alan Necîbullah, Babrak Karmal’ın taraftarlarını iş başından uzaklaştırdı ve arkasından, ülkede işgalden bu yana devam eden iç savaşı durdurmak için tek taraflı ateşkes ilân etti; ancak mücahidler bunu reddettiler ve mücadeleyi sürdürdüler. Necîbullah, ateşkes çabalarının başarısızlığa uğraması üzerine rejimin İslâmî olduğunu söylemeye ve her konuşmasına besmele ile başlayıp sözlerini dinî motiflerle süslemeye gayret gösterdi. Yeni camiler inşa ettirdi ve din görevlilerine maaş bağlattı. Fakat komünist rejime müslüman halk nazarında meşruiyet kazandırmaya yönelik bu çalışmalar başarısızlıkla sonuçlandı. Eylül 1986’da yapılan Afganistan Demokratik Halk Partisi Kongresi’nde Karmal taraftarlarıyla Necîbullah taraftarları arasında kanlı kavgaların çıkması ve Karmal’ın yakınlarından Mahmud Beryali ile Anahita Ratıbzad’ın yaralanmaları, partinin yönetiminde bir iktidar mücadelesinin olduğunu ortaya koydu. Beryali ile Ratıbzad partiden ihraç edildiler ve Karmal da Mayıs 1987’de tedavi gerekçesiyle Sovyetler Birliği’ne gitti. Temmuz 1987’de devletin adı Afganistan Cumhuriyeti olarak değiştirildi. </p><p> Muhammed Necîbullah 1988 başlarında yönetimde bazı değişiklikler yaparak başbakanlığa ılımlı olarak bilinen Hasan Şark’ı getirdi. Öte yandan, Sovyet birliklerinin geri çekilmesine ve işgalden sonra ülkelerini terkedip Pakistan ve İran’a göç etmek zorunda kalan milyonlarca göçmenin ortaya çıkardığı Afganistan meselesine barışçı bir çözüm getirmek için, Birleşmiş Milletler genel sekreterinin özel temsilcisi Diego Cordovez tarafından Afganistan ve Pakistan arasında sürdürülen dolaylı görüşmeler olumlu şekilde sonuçlandı ve 14 Nisan 1988’de Cenevre Antlaşması imzalandı. Amerika Birleşik Devletleri ve Sovyetler Birliği’nin garantör olarak imza koydukları bu antlaşmaya göre, Sovyet birliklerinin Afganistan’dan çekilmeleri 1989 yılının ilk aylarında tamamlandı ve ülke, yurt dışında bulunan Afganlı göçmen ve mücahidlerin dönmelerinden sonra yeni bir siyasî yapıya kavuşmuş olacaktı. </p><p> <b>Mücahid Teşekkülleri.</b> Sovyetler Birliği fiilen Afganistan’a askerî müdahalede bulunmadan önce, Sovyet yanlısı yönetimle mücadele etmek için teşkilâtlanmaya başlayan müslüman halkın bir kısmını bünyesinde toplayan ilk mücahid grupları, Gülbeddin Hikmetyar’ın liderliğindeki Hizb-i İslâmî ile Burhâneddin Rabbânî’nin liderliğindeki Cem‘iyyet-i İslâmî’dir. İşgal öncesinde yönetime karşı mücadele veren mücahidler, işgalden sonra hem Sovyet işgal güçleriyle hem de işgalcilerin desteğindeki gayri İslâmî komünist yönetimle savaşmak zorunda kaldılar. Afgan halkı ülkede uygulanan politika ve şiddet eylemlerine karşı mücahidlerin yanında yer alarak onlarla birlikte savaşmaya başladı. Çeşitli şekilde teşkilâtlanan mücahidlerle halk, komünist yönetim ve işgal güçlerinin baskı ve zulmü karşısında ülkelerinden hicret ederek Pakistan ve İran’daki göçmen kamplarında zor şartlar altında hayatlarını sürdürmeye ve bağımsızlık için mücadele vermeye çalıştılar. </p><p> 1978 yılından sonra askerî müdahaleye ve rejime karşı Afgan halkını teşkilâtlandıran çok sayıda grup kuruldu. Bunların en önemlileri şu anda Afgan Mücahidleri İslâm İttihadı (İttihâd-i İslâmî-i Afgan Mücâhidîn) adlı birliği oluşturan yedi teşkilâttır ve bunların ikisi dışında kalanlar 1978 yılından sonra kurulmuştur. </p><p> <b>Hizb-i İslâmî.</b> İşgalden önce kurulan ilk mücahid grubudur. Liderliğini Gülbeddin Hikmetyar’ın yaptığı, ülkedeki gençlerin büyük bölümünü bünyesinde toplamış bulunan bu teşkilât, mücahid gruplarının en güçlüsü kabul edilmektedir. Yaklaşık olarak kırk beş bin kişilik organize mücahid gücüne sahip bulunan Hizb-i İslâmî, bilhassa Paktiya, Kandehar, Logar, Gazne, Kunar, Nengrehar, Kunduz, Samangan, Mezârışerif ve Kâbil eyaletlerinde etkili olmaktadır. </p><p> <b>Cem‘iyyet-i İslâmî.</b> İşgalden önce kurulan ikinci teşkilâttır. Hizb-i İslâmî’den sonra en güçlü durumda bulunan bu grubun liderliğini tanınmış ilim adamlarından Prof. Burhâneddin Rabbânî yapmaktadır. Ülkenin her yerinde etkinliği olan Cem‘iyyet-i İslâmî yirmi beş bin kadar mücahide ve ayrıca altmış beş bin kişilik savaşcı bir güce sahip bulunmaktadır. Bedahşan, Tohar ve Herat eyaletlerinde daha güçlüdür. </p><p> <b>İttihâd-ı İslâm-ı Afganistan.</b> İşgalden sonra, 1982’de Babrak Karmal’ın hapisten çıkardığı Prof. Abdürresul Seyyaf tarafından kuruldu. Kâbil ve Paktiya eyaletlerinde daha faaldir ve gücü liderinin kişiliğinden gelmektedir. Az sayıda mücahidi bulunmasına rağmen gruplar arasında önemli bir yere sahiptir. </p><p> <b>Hareket-i İnkılâb-ı İslâmî.</b> Mevlevî Muhammed Nebî’nin liderliğini yaptığı bu teşkilât, ılımlı karakteriyle tanınmaktadır. Afganistan’ın daha çok güney ve doğu eyaletlerinde etkilidir ve savaşçı gücü on bin kişi kadardır. </p><p> <b>Hizb-i İslâmî.</b> Hikmetyar’ın liderliğindeki Hizb-i İslâmî’den bazı görüş farklılıkları sebebiyle ayrılan Yûnus Hâlis’in kurduğu bu ikinci Hizb-i İslâmî teşkilâtı beş bin kadar mücahide sahip olup Nengrehar, Kâbil ve Paktiya eyaletlerinde etkilidir. </p><p> <b>Me’haz-ı Millî-i İslâmî.</b> 1978’den sonra kurulan en önemli mücahid grubudur ve on bin kadar savaşçıya sahiptir. Lideri, halk arasında itibarlı bir yeri bulunan Geylânî ailesinden Seyyid Ahmed-i Geylânî’dir. Abdülkādir-i Geylânî’nin torunlarından olan Ahmed-i Geylânî’nin güçlü bir tarikat ailesinden gelmesi, teşkilâtın halk arasındaki nüfuzunu arttırmaktadır. </p><p> <b>Cephe-i Necât-ı Millî.</b> Sıbgatullah Müceddidî’nin liderliğindeki bu grup ılımlı karakterde olup on bin kişilik bir savaşçı gücüne sahiptir. Müceddidî bir süre Libya’da kalmış, Libya’nın yardımı ile Danimarka’da bir İslâm merkezi açarak başkanlığını yapmıştır. İşgalden sonra da Pakistan’a dönüp cihada katılmıştır. </p><p> Yukarıdaki yedi teşekkül Sünnî müslümanlara ait olup ayrıca, ülkedeki müslüman nüfus içerisinde azımsanmayacak bir nisbeti temsil eden Şiî müslümanların da Sovyet işgaline ve yönetime karşı mücadele vermek üzere teşkil ettikleri çeşitli gruplar bulunmaktadır. Özellikle Afganistan’ın orta kesimlerinde yaşayan Şiîler’in Seyyid Ali Bihiştî’nin liderliğindeki Şûrâ-yı İttifâk-ı İslâmî ve Şeyh Âsaf Muhsinî’nin liderliğindeki Hareket-i İnkılâb-ı İslâmî adlarını taşıyanlar önemlidir ve bunlar Peşâver’deki mücahid gruplarıyla birlikte hareket etmektedirler. Bu ikisinden başka İran’la yakın münasebeti olan Şarman-ı Nasr teşkilâtı da önemlidir. </p><p> Çeşitli gruplara dağılmış olan Afgan mücahidleri, işgalcilere ve komünist yönetime karşı daha etkili mücadele vermek için, 1982 yılında bütün teşekküllerin gayretiyle Afgan Mücahidleri İslâm İttihadı adıyla bir birlik oluşturdular. Fakat bu teşekküller kendi gruplarının feshine yanaşmadıkları için birlik kısa zaman sonra dağılmak zorunda kaldı. 1985 yılında ikinci bir anlaşma ile yine aynı adı taşıyan yeni bir birlik kuruldu ve başına ilk başkan olarak Abdürresul Seyyaf’ın yardımcısı Ahmed Şah getirildi. Varılan anlaşmaya göre başkanlığa, üç aylık sürelerle dönüşümlü olarak yedi mücahid grubunun temsilcileri geleceklerdi. Sovyet işgal birliklerine ve onların desteğiyle ayakta duran yönetime karşı mücadele veren yedi mücahid grubun birleşerek ortak hareket etmeleri, güçlerini arttırdığı gibi faaliyetlerin koordineli yürütülmesine de yardımcı oldu. Muhammed Necîbullah’ın uzlaşma tekliflerini reddeden Afgan Mücahitleri İslâm İttihadı, Sovyet birliklerinin Cenevre Antlaşması uyarınca 15 Mayıs 1988’de Afganistan’dan çekilmeye başlamalarından sonra Haziran 1988’de sürgünde bir hükümet kurup başkanlığına Ahmed Şah’ı getirdi. </p><p>15 Şubat 1989’da Sovyet birliklerinin Afganistan’dan tamamen çekilmeleri üzerine ortaya çıkan yeni durumu görüşmek amacıyla, Tahran yanlısı Şiî mücahid grupların katılmamalarına rağmen Sünnî mücahid teşkilâtların iştirakiyle Afgan Mücahidleri Danışma Meclisi Pakistan’ın Ravalpindi şehrinde toplandı. Şûra adı verilen bu meclis takip edilecek yeni stratejileri belirledi ve bütün grupların temsil edildikleri bir mücahid hükümeti kurdu. Şûra, devlet başkanlığına Sıbgatullah Müceddidî’yi, başbakanlığa Abdürresul Seyyaf’ı ve dış işleri bakanlığına da Gülbeddin Hikmetyar’ı getirdi. Mücahidlerin kurdukları bu hükümeti Suudi Arabistan, Sudan ve Bahreyn tanıdı. Hikmetyar, XVIII. İslâm Ülkeleri Dış İşleri Bakanları Konferansı’nda (13-14 Mart, 1989 Riyad) mücahid hükümetini temsil etti. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Syed Shabbir Hussain v.dğr., <span class="eser">Afghanistan under Soviet Occupation</span>, Islamabad 1980, s. 176-205.</p><p>Tahir Amin, <span class="eser">Afghanistan Crisis: Implications and Options for Muslim World, Iran and Pakistan</span>, Islamabad 1982, s. 67-110.</p><p>Anthony Arnold, <span class="eser">Afghanistan’s Two-Party Communism: Parcham and Khalq</span>, California 1983, s. 79 vd.</p><p>Anthony Hyman, <span class="eser">Afghanistan under Soviet Domination 1964-1983</span>, London 1984, s. 75 vd.</p><p>Malcolm E. Yapp, “Afghanistan (History)”, <span class="eser">The Far East and Australasia 1988</span>, London 1987, s. 155-156.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/1/C01015456.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 408-411 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('AFGANİSTAN', 'afganistan', '2-sovyet-isgali-ve-sonrasi', 'C01015456.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/1/C01015456.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+									</div>
+					</div>
+    </div>
+
+	<div class="pure-u-1 pure-u-md-9-24 sticky-sidebar" style="padding-left:50px;">
+		<div style="margin-bottom:30px"><div class="article-country-container"><div class="flag-props"><div class="country-flag"><img src="https://cdn2.islamansiklopedisi.org.tr/madde/1/mi/afganistan-bayrak-2017_m.jpg" /></div><div><b>Resmî adı: </b>Afganistan İslâm Cumhuriyeti</div><div><b>Başşehri:</b> <a href="/kabil--afganistan">Kâbil</a></div><div><b>Yüzölçümü: </b>652.100 km<sup>2</sup></div><div><b>Nüfusu: </b>34.656.032 (2016)</div><div><b>Etnik dağılım: </b>Peştu, Tacik, Hazara, Özbek, Belûcî vd. toplam 14 etnik grup</div><div><b>Resmî dini: </b>Ülkedeki müslümanların oranı % 99,7 (Sünnî % 84-89, Şiî % 10-15)</div><div><b>Resmî dili: </b>Derî dili % 50, Peştuca % 35 (resmî), Türkçe % 11 (Özbek ve Türkmenler)</div><div><b>Para birimi: </b>Afganî (AF / AFN)<br />
+1 AF = 100 pul</div> </div></div><div style="text-align:right; padding:10px; font-size:14px; color:#666; cursor:pointer">	<span class="show-former">		<span >Önceki versiyon</span>		<span class="icon-chevron-down" style="color:#999; font-size:13px; padding-left:5px"></span>	</span></div><div class="article-country-container country-former" style="display:none;"><div class="flag-props"><div class="country-flag"><img src="https://cdn2.islamansiklopedisi.org.tr/madde/1/mi/afganistan-bayrak_m.jpg" /></div><div><b>Resmî adı: </b>Afganistan Cumhuriyeti (Devlet-i Cumhûrî-i Afganistan)</div><div><b>Başşehri:</b> Kâbil</div><div><b>Yüzölçümü: </b>652.225 km<sup>2</sup></div><div><b>Nüfusu: </b>20.500.000 (tahminî)</div><div><b>Resmî dini: </b>İslâm</div><div><b>Resmî dili: </b>Peştu, Derî</div><div><b>Para birimi: </b>Afganî (AF)<br />
+1 AF = 100 puli</div><div class="flag-ps">Bu bilgiler <i>TDV İslâm Ansiklopedisi</i>’nin 1988 yılına ait matbu nüshasındaki verilerdir.</div> </div></div></div>
+        
+		<!-- dosya link -->
+		<style>
+			.ltfolcont{text-align:center; border: 1px dashed #e5774280; border-radius: 3px; padding: 13px 20px; font-size:0.9rem; margin-bottom: 30px; overflow: hidden; line-height:1.25rem;color:#777;}
+			.ltfolcont span a{font-weight:bold; font-size:1.2rem; color:#e57742; line-height:1.2rem}
+			.ltfolcont span a:hover{text-decoration:underline !important;}
+			.ltfol:hover > div.ltfolcont{background:#f9f1f1;}
+		</style>
+		
+
+
+		
+
+
+        <div class="rg-container">
+            <h2 class="visible-on-print">Görseller</h2>
+            <div>
+                                        <div class="right-gallery" id="rg1">
+                            <a img-order="0" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/afganistan-4.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Harita/afganistan-4.jpg"
+                                title="Afganistan ve komşuları (1988)"  alt="Afganistan ve komşuları (1988)" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Afganistan ve komşuları (1988)</div>
+                        </div>
+                                            <div class="right-gallery" id="rg2">
+                            <a img-order="1" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-5.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/afganistan-5.jpg"
+                                title="Mezârışerif Mescid-i Cum‘ası’nın taçkapısı"  alt="Mezârışerif Mescid-i Cum‘ası’nın taçkapısı" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Mezârışerif Mescid-i Cum‘ası’nın taçkapısı</div>
+                        </div>
+                                            <div class="right-gallery" id="rg3">
+                            <a img-order="2" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Minyatür/afganistan-6.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Minyatür/afganistan-6.jpg"
+                                title="Herat okulunun önemli örneklerinden biri olan Külliyyât-i Ḥâfıẓ-ı Ebrû’dan bir sayfa(TSMK, Bağdat Köşkü, nr. 282)"  alt="Herat okulunun önemli örneklerinden biri olan Külliyyât-i Ḥâfıẓ-ı Ebrû’dan bir sayfa(TSMK, Bağdat Köşkü, nr. 282)" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Herat okulunun önemli örneklerinden biri olan <i>Külliyyât-i Ḥâfıẓ-ı Ebrû</i>’dan bir sayfa<br>(TSMK, Bağdat Köşkü, nr. 282)</div>
+                        </div>
+                                            <div class="right-gallery" id="rg4">
+                            <a img-order="3" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/afganistan-7.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina içi fotoğrafı/afganistan-7.jpg"
+                                title="Afganistan’da bir köy camisi"  alt="Afganistan’da bir köy camisi" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Afganistan’da bir köy camisi</div>
+                        </div>
+                                            <div class="right-gallery" id="rg5">
+                            <a img-order="4" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-8.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/afganistan-8.jpg"
+                                title="Afganistan’ın önemli şehirlerinden Herat’ın bir görünüşü"  alt="Afganistan’ın önemli şehirlerinden Herat’ın bir görünüşü" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Afganistan’ın önemli şehirlerinden Herat’ın bir görünüşü</div>
+                        </div>
+                                            <div class="right-gallery" id="rg6">
+                            <a img-order="5" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/afganistan-9.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Manzara fotoğrafı/afganistan-9.jpg"
+                                title="Afganistan’da iki köy"  alt="Afganistan’da iki köy" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Afganistan’da iki köy</div>
+                        </div>
+                                            <div class="right-gallery" id="rg7">
+                            <a img-order="6" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-10.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/afganistan-10.jpg"
+                                title="II. Mesud’un (1099-1115) Gazne’de yaptırdığı minare"  alt="II. Mesud’un (1099-1115) Gazne’de yaptırdığı minare" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">II. Mesud’un (1099-1115) Gazne’de yaptırdığı minare</div>
+                        </div>
+                                            <div class="right-gallery" id="rg8">
+                            <a img-order="7" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/İnsan - Topluluk fotoğrafı/afganistan-11.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/İnsan - Topluluk fotoğrafı/afganistan-11.jpg"
+                                title="Sovyet yanlısı yönetime ve Sovyet işgaline (1979) karşı direnen Afganlı mücahidlerin cephede çekilmiş bir görüntüsü"  alt="Sovyet yanlısı yönetime ve Sovyet işgaline (1979) karşı direnen Afganlı mücahidlerin cephede çekilmiş bir görüntüsü" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Sovyet yanlısı yönetime ve Sovyet işgaline (1979) karşı direnen Afganlı mücahidlerin cephede çekilmiş bir görüntüsü</div>
+                        </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="print-part-temp"></div>
+<div id="print-part-temp-top"></div>
+
+<div class="modal" id="issue-modal">
+    <div class="modal-body">
+        <div class="modal-box">
+            <div class="close-button">
+                <span class="icon-close"></span>
+            </div>
+            <div class="modal-top">
+                <span>TDV İslâm Ansiklopedisi Madde Bildirim Formu</span>
+            </div>
+            <div class="modal-container">
+                <div style="width:540px; margin:0 auto;">
+                    <div style="color:#777; font-size:17px; padding-bottom:10px; font-weight:bold;"></div>
+                    <div class="error-box" style="display: none;"></div>
+                    <div class="success-box" style="display: none;"></div>
+
+                    <div style="font-size:17px; color:#ef2f2f; padding: 0 0 15px 0; text-align:left; line-height:21px;">
+                        Bu form aracılığıyla, sadece <strong id="issue-modal-madde">OSMANLILAR//8-mali-yapi</strong> maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise <a href="/iletisim-formu">İletişim Formu</a> aracılığıyla iletilmesi rica olunur.
+                    </div>
+
+                    <form id="modal-issue-form" method="post">
+                        <div>
+                            <input name="bildirim-madde-adi" placeholder="Madde adı" value="" style="visibility:hidden; display:none;">
+                            <input type="text" id="ref-url" name="ref-url" style="visibility:hidden; display:none;" value="https://islamansiklopedisi.org.tr/afganistan">
+                            <input type="text" id="issue-g-token" name="g-token" hidden/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bildirim-bildirim">Bildiriminiz <span style="color: red">*</span></label>
+                            <textarea class="form-control" name="bildirim-bildirim" style="max-height: 25vh; min-height: 100px;" placeholder="Ayrıntılı olarak bildiriminizi giriniz." id="bildirim-bildirim" required></textarea>
+                        </div>
+
+                        <div style="font-weight:bold; font-size:15px; color:#666; padding:5px 0 10px 0;">İletişim bilgileriniz</div>
+                        <div class="form-group">
+                            <label for="bildirim-ad-soyad">Adınız ve Soyadınız <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="bildirim-ad-soyad" placeholder="Örn: Ahmet Sönmezgül" id="bildirim-ad-soyad" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-eposta">E-Posta <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="bildirim-eposta" placeholder="isim@ornek.com" id="bildirim-eposta" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-telefon">Telefon Numarası</label>
+                            <input type="tel" class="form-control" name="bildirim-telefon" placeholder="05XXXXXXXX" id="bildirim-telefon" value="">
+                        </div>
+
+                        <p style="font-size: 12px;">Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.</p>
+                        <div style="text-align: center">
+                            <input id="modal-issue-submit" type="submit" class="tdv-btn tdv-btn-primary" style="min-width: 200px" value="Gönder" />
+                        </div>
+                    </form>
+                    <div class="modal-loading">
+                        <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fotorama" class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-auto="false" style="display:none">
+		
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/afganistan-4.jpg" data-caption="<b>AFGANİSTAN (1/8)</b> Afganistan ve komşuları (1988) <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/afganistan-4.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Harita/afganistan-4.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-5.jpg" data-caption="<b>AFGANİSTAN (2/8)</b> Mezârışerif Mescid-i Cum‘ası’nın taçkapısı <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-5.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/afganistan-5.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Minyatür/afganistan-6.jpg" data-caption="<b>AFGANİSTAN (3/8)</b> Herat okulunun önemli örneklerinden biri olan <i>Külliyyât-i Ḥâfıẓ-ı Ebrû</i>’dan bir sayfa (TSMK, Bağdat Köşkü, nr. 282) <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Minyatür/afganistan-6.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Minyatür/afganistan-6.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/afganistan-7.jpg" data-caption="<b>AFGANİSTAN (4/8)</b> Afganistan’da bir köy camisi <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/afganistan-7.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina içi fotoğrafı/afganistan-7.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-8.jpg" data-caption="<b>AFGANİSTAN (5/8)</b> Afganistan’ın önemli şehirlerinden Herat’ın bir görünüşü <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-8.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/afganistan-8.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/afganistan-9.jpg" data-caption="<b>AFGANİSTAN (6/8)</b> Afganistan’da iki köy <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/afganistan-9.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Manzara fotoğrafı/afganistan-9.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-10.jpg" data-caption="<b>AFGANİSTAN (7/8)</b> II. Mesud’un (1099-1115) Gazne’de yaptırdığı minare <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/afganistan-10.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/afganistan-10.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/İnsan - Topluluk fotoğrafı/afganistan-11.jpg" data-caption="<b>AFGANİSTAN (8/8)</b> Sovyet yanlısı yönetime ve Sovyet işgaline (1979) karşı direnen Afganlı mücahidlerin cephede çekilmiş bir görüntüsü <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/İnsan - Topluluk fotoğrafı/afganistan-11.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/İnsan - Topluluk fotoğrafı/afganistan-11.jpg">
+			</a>
+		</div>
+
+<div id="header-article-html" style="display:none">
+	<div id="header-article-html-code">
+		<style>
+		.ults{margin:0px; padding:0px; list-style:none;}
+		.ults li{float:left;}
+		.icon-list-ul{cursor:pointer;}
+		.icon-list-ul:hover{color:#777 !important;}
+		</style>
+		<ul class="ults">
+			<li>
+				<a href="/">
+					<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/logo_2.svg" style="height:39px !important;">
+				</a>
+			</li>
+						<li style="    padding: 24px 7px 0 15px; position:relative; line-height:0px;" class="list-ll">
+				<span class="icon-list-ul topmenurev" style="color:#999; font-size:17px"></span>
+				<div class="top-prev-container bsk" style=" display:none; left:-85px; position: absolute; width: 580px; background: #fff; border: 1px solid #ddd; box-shadow: 0 1px 2px rgba(0,0,0,0.2); top:65px; padding-bottom:5px;">
+						<div class="preview-content">
+						<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png" style="position:absolute; top:-8px; left:100px; width:15px; height:8px !important;" />
+						<ul class="preview-ul" style="padding: 10px 12px 10px 14px; font-size:15px; height:220px; ">
+						<li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >1/2</span><span><span>Müellif: </span><b style="color:#888">MEHMET SARAY</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">XVIII. yüzyılın ilk yarısından itibaren Afgan kavminin idarî bakımdan ağırlık kazanmasıyla siyasî birlik haline geldi. Kuzeyinde Sovyetler Birliği’nin...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#2-sovyet-isgali-ve-sonrasi"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >2/2</span><span><span>Müellif: </span><b style="color:#888">İLHAN BİLGÜ</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">IV. SOVYET İŞGALİ ve SONRASI Sovyetler Birliği yanlısı olmakla birlikte ılımlı bir lider kişiliğiyle tanınan Dâvud Han’ın komünistler tarafından kanlı...</div></li>						</ul>
+					</div>
+				</div>
+			</li>
+			
+			<li style="padding-left:0px"><span style="font-weight:bold; color:#888; font-size:18px;">AFGANİSTAN</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="copyright-text" class="centered" style="margin: 0px auto;
+    padding: 30px 20px 0px 20px;
+    color: #888;
+    font-size: 14px; line-height:23px;">
+	<b>Her hakkı mahfuzdur.</b> <i>TDV İslâm Ansiklopedisi’</i>nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi (<i>TDV İslâm Ansiklopedisi</i> internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/sweetalert.min.js"></script>
+
+<style>
+#fcilt div{padding:3px 5px 3px 5px;}
+.flink{line-height:25px;}
+.flink:hover{text-decoration:underline !important;}
+.footer-box-alert:hover{text-decoration:underline;}
+.footer-container {
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.footer-content {
+    background: #484848;
+    padding-bottom: 50px;
+}
+
+.footer-top-border {
+    background: #e2e2e2;
+    color: #666;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    color: color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-top-border a div{color:color:#777;}	
+.motto-link:hover span{text-decoration:underline}
+.footer-bottom-link a:hover{text-decoration:underline !important; color:#333}
+.footer-logo-container img{opacity:0.9}
+.footer-logo-container img:hover{opacity:1}
+.footer-copy{opacity:0.9}
+.footer-copy:hover{opacity:1}
+
+.bbtns a > div{padding:11px 20px 11px 20px ; font-size:0.93rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;position:relative; opacity:0.9}
+.bbtns a > div:hover{opacity:1}
+.randombtn{font-size:0.95rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;
+background:#2FB556; color: #FFF; border:1px solid #f4a76b70; padding:10px 20px; text-align:center; 
+text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;opacity:0.85;
+position:relative
+}
+.randombtn img{position:absolute; height:24px; margin-top:-2px;}
+.randombtn span{margin-left:40px;}
+.randombtn:hover{opacity:1}
+.btnarr{position:absolute; top:0; right:0; bottom:0; background:rgba(29, 48, 55, 0.6); border-top-right-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 12px 10px 12px;font-size: 1.2rem;color: #fff !important;	}
+.btnar{background: #4CAFD2;color: #fff;text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;}
+
+.as-tabs{overflow:hidden; border-bottom: 1px solid #fbcbb2; border-top: 1px solid #fbcbb2; padding-left:15px; padding-right:15px; }
+.as-tabs div.as span{font-size:1rem;}
+.as-tabs div.as{padding: 9px 10px; float:left; text-align:center}
+.as-tabs div.as.act{border-bottom: 2px solid #D97A4A;}
+.as-tabs .as .txt{color:#676767; font-weight:bold; font-size:0.97rem}
+.as-tabs .as.act .txt{}
+.as-tabs .as .txt span{color:#676767;}
+.as-tabs .as.act .txt span{color:#D97A4A}
+.as-tabs .as.psv{cursor:pointer;}
+.as-tabs span.txtcount{font-size:0.75rem !important;}
+
+div.mr{}
+
+	
+</style>
+
+<div class="footer-container">
+	<div class="footer-content">
+        <div class="footer-top-border" style="border-top:2px solid #dedddd; background-color:#f8f8f8; padding-top:30px;">
+
+            <div class="centered" style="font-size:1.2rem;  color:#666; position:relative; text-align:center; background:#f7f7f7; padding:20px 0px; border-radius:3px; border:1px dashed #ddd;">
+                Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+                <a href="/hakkinda.php" style="color:#bd6338" class="motto-link">
+                    <span style="color:#0093b0"> Daha fazla bilgi</span>
+                </a>
+            </div>
+
+            <div class="centered bbtns" style=" padding:25px 20px 5px 20px">
+                <div class="pure-g">
+                    <div class="pure-u-1-3"><a href="/dosyalar"><div class="btnar">DOSYALAR<div class="btnarr">»</div></div></a></div>
+                    <div class="pure-u-1-3"><a href="/sergi-arsivi"><div  class="btnar">SERGİ ARŞİVİ<div class="btnarr">»</div></div></a></div>
+                    <!--				<div class="pure-u-1-4"><a href="/gecen-ayin-ilk-20-si"><div  class="btnar">GEÇEN AYIN İLK 20'Sİ<div class="btnarr">»</div></div></a></div>-->
+                    <div class="pure-u-1-3"><div class="randombtn"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" /><span>RASTGELE</span></div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="centered" style="margin-top: 50px;">
+            <div class="centered_container footer-logo-container" style="text-align:center;">
+                <a href="http://www.diyanet.gov.tr" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/diyanet-isleri-baskanligi-logo.png?t=1" style="border:none; height:140px;" />
+                </a>
+
+                <a href="http://www.isam.org.tr/" class="flink" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/isam-logo.png" style="border:none; height:140px; margin: 0 80px;" />
+                </a>
+
+                <a href="http://tdv.org/" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tdv-logo.png" style="border:none; height:140px;" />
+                </a>
+            </div>
+            <div class="centered_container footer-bottom-link" style="text-align:center; padding-top:40px; color:#fff">
+                <b>Her hakkı mahfuzdur.</b> 2016-2026 TDV İslâm Araştırmaları Merkezi  <span>|</span>
+                <a href="/kullanim_sartlari.php" class="footer-copy" style="color:#fff">Kullanım Şartları</a> <span>|</span>
+                <a href="/iletisim-formu" class="footer-copy" style="color:#fff">İletişim Formu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- random madde -->
+<style>
+.rnd-left-img{text-align:center; padding-top:10px;}
+.rnd-left-img img{max-width:450px; max-height:300px; border-radius: 4px;}
+.rnd-title{font-size: 1.5rem;font-weight: bold; color: #777; text-align:center}
+.rnd-tanitim{color: #e16328; padding-top:2px; text-align:center; padding-left:20px; padding-right:20px;}
+.boxcontainer{overflow: hidden; margin: 20px; border: 1px dashed #c5c5c5; padding: 15px; border-radius: 5px; min-height:190px;}
+.rnd-goto {padding-top:15px;}
+.rnd-goto a{color:#897898;}
+.lightboxrernd{    width: 280px;
+    background: #977898;
+    padding: 7px 25px 8px 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    opacity: 0.9;
+	cursor:pointer;
+}
+.randombtn{cursor:pointer;}
+.rnd-author{padding-top:10px; font-size:0.9rem; color:#777}
+.rnd-author span{font-weight: bold; color: #999;}
+.rnd-kunye{color: #777; font-size: 0.95rem; text-align:center}
+.random-modal {
+    background-color: #0000004f;
+    text-align: center;
+    z-index: 10000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+.random-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 660px;
+    max-height: 90%;
+    width: 660px;
+    margin: 0 auto;
+    text-align:left;
+    border:1px solid #ccc;
+    border-top:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+    z-index:1000001;
+    padding-bottom: 20px;
+}
+.icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+.random-modal-box {
+    overflow: hidden;
+    margin: 20px;
+    border: 1px dashed #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.random-modal-random {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #2FB556;
+    color: #FFF;
+    border: 1px solid #f4a76b70;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 1px 0 0 #407588;
+    letter-spacing: 0.04rem;
+    opacity: 0.85;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.random-modal-random:hover {
+    opacity: .95;
+}
+.random-modal-random:active {
+    opacity: 1;
+}
+.random-modal-random img {
+    position: absolute;
+    height: 24px;
+    margin-top: -2px;
+}
+.random-modal-random span {
+    margin-left: 40px;
+}
+.random-modal-bottom {
+    text-align: center;
+}
+.random-modal-box:hover {
+    background-color: #f6f6f6;
+}
+.random-modal-box:active {
+    background-color: #ebebeb;
+}
+</style>
+
+<div class="random-modal">
+    <div class="random-modal-container">
+        <span class="icon-close"></span>
+        <div style="text-align:center;padding: 22px 25px 15px 25px; border-bottom: 1px solid #ddd; user-select: none;"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_popup_baslik.png"  /></div>
+        <div style="padding: 15px 25px; color:#777; background: #e6e5e5;text-align: center; user-select: none;"><i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde okumak ister misiniz?</div>
+        <div class="lightboxrndarticle"></div>
+        <div class="random-modal-bottom">
+            <div class="random-modal-random">
+                <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png">
+                <span>BAŞKA BİR MADDE GÖSTER</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- random madde -->
+
+
+
+
+
+
+<style>
+.newsalertwrapper{position:fixed; left:0; right:0; bottom:0; top:0; background:rgba(0, 0, 0, 0.55); z-index:10000; display:none; }
+.newsalertbox{
+	position:relative;
+	margin: 100px auto;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;}
+	
+.newsalertbox .hd1{
+	font-weight: bold;
+    font-size: 1.45rem;
+    color: #267893;
+    padding-bottom: 30px;
+}
+.newsalertbox .hd2{
+	font-size: 1.15rem;
+    color: #666;
+	padding-bottom:20px;	
+}
+.newsalertbox .hd3{
+	text-decoration: underline !important;
+    font-size: 1.15rem;
+	color:#0093b0;
+}
+.newsalertbox .hd3 .linkto{color:#0093b0; cursor:pointer;}
+
+.newsalertbox .hd4{padding-top: 30px;
+    font-size: 1.05rem;
+    color: #777;
+	}	
+.alertclose{
+	position:absolute;
+	right:20px;
+	top:18px;
+	font-size: 1.7rem;
+    color: #666;
+	cursor:pointer;
+}	
+</style>
+
+<!-- ntf203.htm notificaiton html-->	
+	
+
+		
+<script>
+
+	
+$('body').on("mousedown touchend", function(e){ 
+    var resultbox = $("#auto-suggest-box");
+    var inputbox = $("#searchBox");
+	var keyboard = $(".dia-keyboard");
+	
+    if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && 
+		!inputbox.is(e.target) && 
+		!keyboard.is(e.target)  && keyboard.has(e.target).length === 0 ){
+    	resultbox .hide();
+		/*
+			$('#searchBox').css("background-color", "#f4f1f1");
+			$('#searchBox').css("border", "none"); 
+	*/
+		}
+
+    var container = $(".hover-menu");
+    var button = $(".hover-menu-button");
+    if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+    	container.hide();
+		//$('.hover-menu-button').css("background","#F7F4F4");
+		}		
+});
+
+
+$(document).ready(function() {
+    $('.randombtn, .random-modal-random, .rndleftbtn').click(function(event){
+        $('.random-modal').show();
+        changeRndArticle();
+
+        jQuery("body").bind("scroll touchmove mousewheel DOMMouseScroll",function(e){
+            e.preventDefault();
+            return false;
+        });
+
+    });
+
+    $('.lightboxrernd').click(function(event){
+		changeRndArticle();
+	});	
+	
+	$('.random-modal .icon-close').click(function(event){
+		$('.random-modal').hide();
+		jQuery("body").unbind('scroll touchmove mousewheel DOMMouseScroll');
+
+	});
+	
+	function changeRndArticle(){
+		$.ajax({
+			url: "/ajax_search_auto.php?c=g&mdl=rnd&q=rnd", 
+				cache : false,
+				success: function(result){ 
+					if(result.trim() == "")
+					{
+						alert("not");
+					}else{
+						$('.lightboxrndarticle').html(result);
+					}
+				}
+			});
+	}
+	
+	/*
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".lightboxcontent");
+		var inputbox = $(".lightboxcontent .icon-close");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+				$('.lightboxbg').hide();
+				$('.lightboxcontent').hide();
+				$('body').css("overflow","visible");
+		}
+	});
+	*/
+	/* random madde */
+
+	
+	
+	
+		/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});	
+	
+	
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500 ) {
+			$("#scrollTop").show();
+		}
+		else{
+			$("#scrollTop").hide();
+		}
+	});
+	
+	$('#scrollTop').click(function(){
+		$("html, body").animate({ 
+			scrollTop: "0px"
+		}); 
+		
+		
+		var url_string = location.href;
+		var clean_url = url_string.split('#', 1);
+
+		
+		history.pushState({}, document.title, clean_url );
+	});	
+
+/* search autocomplete events */
+var is_search_page = 0;
+var sr_type = 'aa';
+
+if(is_search_page == 0)
+{
+		
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+    clearTimeout (timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+
+// pass url search type parameter to autosuggest box
+var strt = 'm';
+if(strt == "y")
+	sr_type = "y";
+else if(strt == "m")
+	sr_type = "aa";
+else if(strt == "b")
+	sr_type = "b";
+else if(strt == "t")
+    sr_type = "t";
+else
+	sr_type = "aa";
+
+
+$('#searchBox').keyup(function(e) {	
+    // ignor arrow actions..
+	
+	var keycode = (e.keyCode || e.which);
+    if(keycode == 37 || keycode == 38 || keycode == 39 || keycode == 40) {
+        return;
+    }
+	
+	getType(1000);
+});
+
+// bind copy past
+$('#searchBox').bind('paste', null, function(e) {
+	getType(1000);
+});
+
+// mouse out and in open results
+$('#searchBox').click(function(e) {	
+	var typed = $.trim($('#searchBox').val());	
+	if(typed.length > 1){
+		if(!$('#auto-suggest-box').is(":visible")){
+			if($('#auto-suggest-content').html() != ""){			
+				$('#auto-suggest-box').show();
+			}
+			else{
+				getType(0);
+			}				
+		}
+	}
+		
+});
+
+
+function getType(times)
+{
+    delay(function(){
+		var typed = $.trim($('#searchBox').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box").hide();	
+			$("#auto-suggest-loading").hide();
+			
+		}
+    }, times );
+}
+
+function autocomplete(typed)
+{
+	$("#auto-suggest-content").html('');
+	$("#auto-suggest-box").show();
+	$("#auto-suggest-loading").show();
+
+	urlcd = encodeURI("/ajax_search_auto.php?sp=" + sr_type + "&=ac&q=" + typed);
+	$.ajax({
+		url: urlcd,
+		success: function(result) {
+                        gtag('config', 'UA-160819951-1', {
+                'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                'page_path': '/arama/?q=' + typed + '&p=autocomplete-' + sr_type,
+            });
+            gtag('event', 'view_search_results', {
+                'search_term': typed,
+                'q_p': sr_type
+            });
+            			if(result.trim() == "")
+			{
+				$("#auto-suggest-box").hide();	
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html('Sonuç bulunmadı.');
+
+                                gtag('config', 'UA-160819951-1', {
+                    'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                    'page_path': '/arama/?q=' + typed + '&p=autocomplete-no-result-' + sr_type,
+                });
+                gtag('event', 'view_search_results', {
+                    'search_term': typed,
+                    'q_p': 'autocomplete-no-result-' + sr_type
+                });
+                			}else{   		
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html(result);
+				// getTxtNumbers(typed);
+				
+				// break span
+				if ($("#auto-suggest-box").width() < 400 ) 
+				{
+						$("#auto-suggest-box span.txt span").css("display","block");
+						$("#auto-suggest-box span.txt span.txtcount").css("display","inline");	
+				}
+				
+				// $(".header_search").find(".srchp").attr( "href", encodeURI( $(".header_search").find(".srchp").attr("href") ) );
+				$(".header_search").find(".as-t a").attr( "href", encodeURI( $(".header_search").find(".as-t a").attr("href") ) );
+				
+
+			
+			}
+		}
+	});
+	
+	
+}
+
+function getTxtNumbers(typed){
+	$.ajax({
+		url: "/ajax_search_auto.php?mdl=txtdelay&q=" + typed, 
+		cache : false,
+		success: function(result){ 
+			if(parseInt(result) > 0){
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').parent().parent().removeClass('n0').addClass('n' + result.trim());
+				$('.txtcount').removeClass('txtcount');			
+			}
+			else{
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').removeClass('txtcount');	
+			}			
+		}
+	});
+}
+
+$("#auto-suggest-content").on("click", ".as-m.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'aa';
+	strt = 'm';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-y.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'y';
+	strt = 'y';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-b.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'b';
+	strt = 'b';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-t.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+    $(this).parent().removeClass("psv").addClass("act");
+    sr_type = 't';
+    strt = 't';
+    getType(10);
+});
+}
+
+
+
+/* top menu hover */
+$('.hover-menu-button').click(function(){
+	$(this).parent().find(".hover-menu").toggle();
+	//$(this).css("background","#ECE6E6");
+});
+
+
+
+
+
+
+
+/* search boxes silinecek 
+$('.searchBoxyazar').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/muellif-arama/' + search;}
+});
+
+$('.searchBoxBibl').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/bibliyografya_kisaltmalari/' + search;}
+});
+*/
+
+
+$('.searchBox').keypress(function(e){
+	if(e.which == 13){
+		if($('#searc-complete-result a.selected').length == 0){
+			var search = encodeURI($(this).val());
+			window.location = '/arama/?q=' + search + '&p=' + strt;
+		}else{
+			var target = $('#searc-complete-result a.selected').attr('href');
+			window.location = target;
+		}
+	}
+});
+
+$('#icon-search-submit').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?q=' + search;
+});
+
+$('#icon-search-submit-txt').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?p=t&q=' + search;
+});
+
+$("#searchBox").keydown(function(e) {
+	
+  var searchbox = $(this);
+  switch (e.which) {
+    case 40:
+      e.preventDefault(); // prevent moving the cursor     
+	  if($('#searc-complete-result .alist a.selected').length == 0){
+		$('#searc-complete-result .alist a:first').addClass('selected');
+	  }else{
+		$('#searc-complete-result .alist a:not(:last-child).selected').removeClass('selected').next().addClass('selected');
+	  }
+      break;
+    case 38:
+      e.preventDefault(); // prevent moving the cursor
+	  if($('#searc-complete-result a:first.selected').length == 1){
+		$('#searc-complete-result .selected').removeClass('selected');
+	  }
+      $('#searc-complete-result a:not(:first-child).selected').removeClass('selected').prev().addClass('selected');
+      break;
+  }
+});
+
+
+		var isCapital = false;
+		
+		$('.dia-keyboard').click(function(event){
+			jQuery('#searchBox').focus();
+		});
+		
+		$('.close-keyboard').click(function(event){
+			$('.dia-keyboard').hide();
+			$('.open-keyboard').css("opacity","0.3");
+		});	
+
+		$('.open-keyboard').click(function(event){
+			if( $('.dia-keyboard').is(':visible') ){
+				$('.dia-keyboard').hide();
+				$('.open-keyboard').css("opacity","0.3");
+			}
+			else{
+				$('.dia-keyboard').show();
+				$('.open-keyboard').css("opacity","0.8");
+			}
+		});	
+		
+			
+		function addCurrentLetter(letter)
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var character = letter; 
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart) + character + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart+1, $("#searchBox")[0].selectionEnd = selStart+1;				
+		}
+
+		function deleteCurrentLetter()
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart-1) + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart-1, $("#searchBox")[0].selectionEnd = selStart-1;				
+		}		
+		
+		$('.shift').click(function(event){
+			
+			$('.dia-keyboard ul li').each(function(){
+				if(isCapital){
+					$(this).text($(this).attr("hk"));
+				}
+				else{
+					$(this).text($(this).attr("hb"));
+				}
+			});
+						
+			if(isCapital){
+				isCapital = false;
+			}else{
+				isCapital = true;
+			}
+		});
+		
+		$('.dia-keyboard ul li:not(.noletter)').click(function(event){
+			addCurrentLetter($(this).text());
+			$('#searchBox').keyup();
+		});
+		
+		$('.dia-keyboard ul li.space').click(function(event){
+			addCurrentLetter(' ');
+			$('#searchBox').keyup();
+		});
+		$('.dia-keyboard ul li.delete').click(function(event){
+			if($("#searchBox").val().length > 0){
+				deleteCurrentLetter();
+				$('#searchBox').keyup();
+			}
+		});	
+		
+		
+		
+
+
+
+/* volume close-open events */
+$('#albhabet_button').click(function(){
+	$('.cz').hide(); $('.az').toggle();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#cilt_button').click(function(){
+	$('.az').hide(); $('.cz').toggle();
+	$('#albhabet_button').removeClass('arrow-selected');
+	$('#cilt_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_az').click(function(){
+	$('.az').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_cz').click(function(){
+	$('.cz').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+function letter_volumes_setter()
+{
+	if( $('.az').is(":visible")){
+		set_public_cookie("lt=1&vl=0");
+	}else if($('.cz').is(":visible")){
+		set_public_cookie("lt=0&vl=1");
+	}else{
+		set_public_cookie("lt=0&vl=0");
+	}
+}
+
+
+/* newsbar */
+
+if(!$('#newsbar_container').is(":visible")){
+	$('#newsbar_open').show();
+} 
+
+$('#newsbar_close').click(function(){
+	$('#newsbar_container').hide();
+	$('#newsbar_open').show();
+	set_public_cookie("nb=0");
+		
+});
+
+$('#newsbar_open').click(function(){
+	$('#newsbar_container').show();
+	$('#newsbar_open').hide();
+	set_public_cookie("nb=1");
+});
+
+});
+
+
+function set_public_cookie(parameter){
+	$.ajax({
+	url: "/cookie_setter.php?" + parameter,
+	cache : false,
+	success: function(result){ 
+	}
+	});
+}
+	
+	
+</script>
+	
+	
+</body>
+</html>
+<script>
+
+var fotoramaLoaded = 0;
+
+/* article image loading */
+$(function() {
+    $("img.lazy").lazyload();
+});
+
+/* article info selected text */
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+function url_redirect(options){
+    var $form = $("<form />");
+	$form.attr("action",options.url);
+	$form.attr("method",options.method);
+
+	for (var data in options.data)
+		$form.append('<input type="hidden" name="'+data+'" value="'+options.data[data]+'" />');
+
+	$("body").append($form);
+	$form.submit();
+}
+
+function requestCaptcha() {
+    grecaptcha.execute('6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS', {action: 'submit'})
+        .then(function (token) {
+            $('#issue-g-token').val(token);
+        });
+}
+
+function lockModal(lock = true) {
+    let notification = $('textarea[name=bildirim-bildirim]');
+    let name = $('input[name=bildirim-ad-soyad]');
+    let email = $('input[name=bildirim-eposta]');
+    let phone = $('input[name=bildirim-telefon]');
+    let code = $('input[name=bildirim-kodu]');
+    let submitBtn = $('#modal-issue-submit');
+    let loader = $('.modal-loading');
+
+    if (lock) {
+        notification.prop('disabled', true);
+        name.prop('disabled', true);
+        email.prop('disabled', true);
+        phone.prop('disabled', true);
+        code.prop('disabled', true);
+        submitBtn.hide();
+        loader.show();
+    } else {
+        notification.prop('disabled', false);
+        name.prop('disabled', false);
+        email.prop('disabled', false);
+        phone.prop('disabled', false);
+        code.prop('disabled', false);
+        submitBtn.show();
+        loader.hide();
+    }
+}
+
+function resizeFotorama(fotorama) {
+    let activeFrame = fotorama.activeFrame.$stageFrame;
+    let activeImage = activeFrame.find('img.fotorama__img');
+    let activeCaption = activeFrame.find('div.fotorama__caption');
+    let hesap = activeFrame.height() - activeCaption.height();
+    let cssTag = $('#fotorama_max');
+    if (cssTag.length > 0)
+        cssTag.remove()
+    activeImage.parent().append('<style id="fotorama_max">.fotorama_max { max-height: '+ hesap +'px !important; }</style>')
+    activeImage.addClass('fotorama_max');
+}
+
+function pdfStat(articleName, articleSlug, partName, fileName) {
+    const data = {
+        'event_category': 'pdf',
+        'event_label': `${articleName} - ${articleSlug} - ${fileName}`,
+        'file_name': fileName,
+        'file_extension': 'pdf',
+        'link_text': `${articleName} - #${partName}`,
+    };
+
+    gtag('event', 'download', data);
+}
+
+$(document).ready(function() {
+    // Sayfa yüklendiğinde küçük ekranlar için navbar madde adını hazırla.
+    $("#header-article-html-code").appendTo($("#header-article"));
+
+	/* right -left click */
+	$(document).keydown(function(event) {
+		if (event.ctrlKey || event.metaKey) {
+		    switch (event.keyCode) {
+		        // left
+		        case 37:
+                    window.location.href = '/afganiler-tekkesi';
+                    break;
+                //right
+                case 39:
+                    window.location.href = '/afif';
+                    break;
+                default:
+                    return;
+            }
+        }
+	});
+
+    let issueModal = $('#issue-modal').modal();
+    let feedbackBtn = $('.feedback-btn');
+    let issue = '';
+
+	/* show arrb */
+	$('bibl .kisaltma').click(function(event) {
+	    let popup = $('.bibl-popup');
+	    let sidebar = $(".theiaStickySidebar");
+
+        let target = $(this);
+        let slug = false;
+        let bibkey = $(this).html();
+        if (target.data('ad')) {
+            bibkey = target.data('ad');
+            slug = true;
+        }
+
+        let offsets = $(this).offset();
+        let position = $(this).position();
+        let sidebarTopOffset = sidebar.offset().top
+        let topoffs = offsets.top - sidebarTopOffset + 40;
+        let leftoffs = (position.left - 26) + ($(this).width() / 2);
+
+        let isUseSafeArea = (sidebar.width() - position.left < 120);
+        popup.find('img').css('right', 'unset');
+        if (isUseSafeArea) {
+            popup.find('img').css('right', 24);
+        }
+
+        let q = bibkey.replace('[', '(').replace(']', ')');
+        $.ajax({
+            url: "/ajax_search_auto.php?c=g&mdl=bpop&q=" + q + '&slug=' + slug,
+			cache : false,
+			success: function(result){
+				if(result.trim() !== "") {
+                    $('.bibl-cnt').html(result);
+
+                    if (isUseSafeArea) {
+                        leftoffs = leftoffs - popup.width() + 14;
+                    }
+
+					popup.css("top", topoffs + "px");
+                    popup.css("left", leftoffs + "px");
+                    popup.show();
+
+				}
+			}
+		});
+	});
+
+	$( window ).resize(function() {
+		$('.kisaltma').each(function( index ) {
+			if($(this).find('.bibpos').length > 0)
+			{
+
+			}
+		});
+	});
+
+	/* close bibl poup */
+	$('.close-bibl-poup').click(function(event){
+		$(this).parent().hide();
+		$('.kisaltma').find('.bibpos').remove();
+	});
+
+	issueModal.on('modal:show', function () {
+        $('.grecaptcha-badge').addClass('show');
+    });
+
+    issueModal.on('modal:hide', function () {
+        $('.grecaptcha-badge').removeClass('show');
+    });
+
+	/* feedback post */
+	feedbackBtn.click(function() {
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+        let issueModalMadde = $('#issue-modal-madde');
+        errorBox.hide();
+        successBox.hide();
+        issue = $(this).data('issue');
+        if (issue) {
+            let cookie = localStorage.getItem('bildirim_' + issue);
+            let form = $('#modal-issue-form');
+            issueModalMadde.text(issue);
+            form[0].reset();
+            form.find('input[name="bildirim-madde-adi"]').val(issue);
+            if (cookie !== null) {
+                let json = JSON.parse(cookie);
+                $.each(json, function (index, elem) {
+                    if (elem.name !== 'bildirim-kodu' && elem.name !== 'bildirim-madde-adi') {
+                        form.find('[name="' + elem.name + '"]').val(elem.value);
+                    }
+                });
+            }
+            requestCaptcha();
+            issueModal.show();
+        }
+	});
+
+
+	var article_div = $('.body_pad_article');
+	var article_div_bottom_pos = article_div.position().top + article_div.outerHeight(true);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > article_div_bottom_pos - 300 ) {
+			$(".article-left-bar").css("position", "absolute");
+		}
+		else{
+			$(".article-left-bar").css("position", "fixed");
+		}
+	});
+
+	$('.show-former').click(function(event){
+		$(".country-former").toggle();
+
+		if($(".country-former").is(":visible")){
+			$(this).parent().find('.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		}else{
+			$(this).parent().find('.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+	});
+
+	$('.show-source').click(function(event){
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+		$(".country-source").toggle();
+	});
+
+	$('.icon-list-ul').click(function(event){
+		$(".top-prev-container").show();
+		$(this).css("color","#777");
+		$(".preview-title").show();
+		$(".article_title h1").css("color","#fff");
+	});
+	$('.icon-list-up').click(function(event){
+		$(".top-prev-container-p").show();
+		$(this).css("color","#777");
+	});
+
+	$(document).mouseup(function (e)
+	{
+		// preview hover
+		var container = $(".top-prev-container.bsk");
+		var button = $(".list-ll");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+				$(".preview-title").hide();
+				$(".article_title h1").css("color","inherit");
+			}
+			/*
+		var container = $(".top-prev-container-p");
+		var button = $(".icon-list-ul-p");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+			}
+            */
+	});
+
+
+	$('.btn-preview').click(function(event){
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-plan').removeClass("active").addClass("passive");
+		$('.plan-content').hide();
+		$('.preview-content').show();
+	});
+
+	$('.btn-plan').click(function(event){
+
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-preview').removeClass("active").addClass("passive");
+		$('.plan-content').show();
+		$('.preview-content').hide();
+
+	});
+
+
+	/* prevent img click href */
+	$('.lazy').click(function(event){
+		event.preventDefault();
+	});
+
+
+
+	/* open image slider fotorama */
+	$('.lazy').click(function(){
+
+		if(fotoramaLoaded == 0){
+			$('.fotorama img').each(function(){
+				var imgurl = $(this).attr("srcs");
+				$(this).attr("src", imgurl);
+				fotoramaLoaded = 1;
+			});
+		}
+
+		$('#fotorama').show();
+		var $fotoramaDiv = $('#fotorama').fotorama();
+		var fotorama = $fotoramaDiv.data('fotorama');
+
+		fotorama.requestFullScreen();
+		var order = $(this).parent().attr("img-order");
+		fotorama.show(order);
+	});
+	$('.fotorama').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+		$('#fotorama').hide();
+	});
+
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenenter', function (e, fotorama) {
+	    resizeFotorama(fotorama);
+    });
+
+    $(window).on('resize', function () {
+        let fotorama = $('.fotorama').data('fotorama');
+        if (fotorama) {
+            setTimeout(function () {
+                resizeFotorama(fotorama);
+            }, 100);
+        }
+    });
+
+	/* article part info fade / soru işareti kaldırıldı
+	$('.article-nav-open-info').click(function(){
+		var totals = $(this).parent().find('.article-nav-numbers').html().split("/")[1];
+		var currents = $(this).parent().find('.article-nav-numbers').html().split("/")[0];
+		$('.article-nav-info-li').html('<b>' + totals + '</b> bölümden oluşan maddenin <b>' +  currents + '</b>. bölümü:');
+		$(this).parent().find(".article-nav-info-li").fadeIn("slow");
+		$(this).hide();
+	});
+	 */
+
+
+	/* part info */
+	$('.ak-copy').click(function(){
+		if($(this).find('span').text() == 'Kopyalama metni'){
+			$(this).parent().find('.ak-list').hide();
+			$(this).parent().find('.ak-copytext').show();
+			SelectText($(this).parent().find('.ak-copytext').attr("id"));
+			$(this).find('span').text('<< Geri');
+		}else{
+			$(this).parent().find('.ak-list').show();
+			$(this).parent().find('.ak-copytext').hide();
+			$(this).find('span').text('Kopyalama metni');
+		}
+	});
+
+
+
+
+	/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});
+
+
+
+
+	$('#authors_show').click(function(){$(".authors_popup").toggle();});
+
+	$(document).mouseup(function (e)
+	{
+		var container = $(".authors_popup");
+		var button = $("#authors_show");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+			container.hide();}
+	});
+
+	// default
+
+	if ($("#auto-suggest-box").width() == 376 )
+	{
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+	}
+
+	$(window).scroll(function() {
+		var poss = "";
+		var firstPart = $('.article-parts').position().top;
+
+		if ($(this).scrollTop() > 60) {
+			$("#logo-part").hide();
+			$("#logo-beta").hide();
+			$("#header-article").show();
+			$("#searchBox").css("width","380px");
+			$("#auto-suggest-box").css("width","380px");
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+			$("#header-article-html-code").appendTo($("#header-article"));
+        }
+		else{
+			$("#logo-part").show();
+			$("#logo-beta").show();
+			$("#header-article").hide();
+			$("#searchBox").css("width","490px");
+			$("#auto-suggest-box").css("width","490px");
+			$("#auto-suggest-box span.txt span").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+		}
+	});
+
+	$('.clicktop').click(function(e){
+		$("html, body").animate({
+			scrollTop: "0px"
+		});
+		window.location.hash=""	;
+	});
+
+	$('.article-nav-next, .article-nav-prev, .preview-jump').not('.article-nav-passive').click(function(){
+		window.location = $(this).attr('data-jurl');
+		var jl = '#_' + window.location.href.split("#").pop();
+		$('html, body').animate({ scrollTop: ( $(jl).offset().top - 120) }, 900);
+		$(".top-prev-container.bsk").hide();
+	});
+
+    issueModal.on('change', function () {
+        let form = $('#modal-issue-form');
+        let bildirimText = form.find('textarea[name="bildirim-bildirim"]');
+        if (issue && bildirimText.val().length > 0) {
+            let excludes = ['g-token'];
+            let cookie = 'bildirim_' + issue;
+            let formData = form.serializeArray();
+            $.each(formData, function (index, item) {
+                if (item && excludes.indexOf(item.name) > -1)
+                    formData.splice(index, 1);
+            });
+            localStorage.setItem(cookie, JSON.stringify(formData));
+        }
+    });
+
+    $('#modal-issue-form').submit(function (e) {
+        e.preventDefault();
+        let form = $('#modal-issue-form');
+        let data = form.serializeArray();
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+
+        errorBox.hide();
+        errorBox.empty();
+        successBox.hide();
+        successBox.empty();
+        lockModal();
+
+        data.push({
+            name: 'article-id',
+            value: 661        });
+        $.post('/bildirim.php', data).done(function (data) {
+            issueModal.hide();
+            Swal.fire({
+                html: data.message,
+                icon: 'success',
+                showConfirmButton: false,
+                showCloseButton: true
+            });
+
+            form[0].reset();
+            localStorage.removeItem('bildirim_' + issue);
+            lockModal(false)
+            requestCaptcha();
+        }).fail(function (data) {
+            let response = data.responseJSON;
+            if (response.errors) {
+                errorBox.empty();
+                errorBox.html(response.errors.join('<br>'));
+                errorBox.slideDown('fast');
+            }
+            $('input[name=bildirim-kodu]').val('');
+            requestCaptcha();
+            lockModal(false);
+        });
+    });
+
+	if(window.location.href.indexOf('#') > -1){
+		var dashvalue = window.location.href.split("#").pop();
+		try{
+		var jt = '#_' + window.location.href.split("#").pop();
+		if ($(window).scrollTop() <= 0)
+		    $('html, body').animate({ scrollTop: ( $(jt).offset().top - 160) }, 900);
+		}catch(err){}
+	}
+
+	/* article toolbar functioms */
+	$('#pagecolorSepia').click(function(){
+		$("body").css("background", "#fff");
+		$(".body_container").css("background" , "#F5EEDE");
+		$(".m-body, .m-title, .title_info").css("color", "#614D1D");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#F5EEDE");
+		$("#article_toolbar").css("border-color","#E4D0A3");
+		$("#artplan").addClass("sepya");
+		$(".article-plan-buttons").addClass("sepya");
+		$(".hdrprt1").addClass("sepya");
+		$(".hdrprt1arrows").addClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").addClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down-sepya.png")
+		$(".article-left-bar").css("background","#f5eede");
+	});
+
+	$('#pagecolorWhite').click(function(){
+		$(".body_container").css("background" , "#fff");
+		$("body").css("background", "#f1f4f4");
+		$(".m-body, .m-title, .title_info").css("color", "#333");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#f4f1f1");
+		$("#article_toolbar").css("border-color","#ededed");
+		$("#artplan").removeClass("sepya");
+		$(".article-plan-buttons").removeClass("sepya");
+		$(".hdrprt1").removeClass("sepya");
+		$(".hdrprt1arrows").removeClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").removeClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png");
+		$(".article-left-bar").css("background","#fff");
+	});
+	$('#txtdown').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) + 1;
+		var nlh = parseInt(lh) + 2;
+		if(fs <= '23'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		// set_public_cookie('reader', nfs + 'px,' + nlh + 'px')
+	});
+	$('#txtup').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) - 1;
+		var nlh = parseInt(lh) - 2;
+		if(fs >= '17'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		//set_public_cookie('reader', nfs + 'px,' + nlh + 'px');
+	});
+	$('.icon-align-left').click(function(){
+		$('.m-content').css({"text-align" : "left"});
+		set_public_cookie("aa=left");
+	});
+	$('.icon-align-justify').click(function(){
+		$('.m-content').css({"text-align" : "justify"});
+		set_public_cookie("aa=justify");
+	});
+	/* article toolbar functioms */
+
+
+	$('#printbody').click(function(){
+		$('#m-body').print({
+		globalStyles: true,
+		mediaPrint: false,
+		stylesheet: null,
+		noPrintSelector: ".no-print",
+		iframe: true,
+		append: null,
+		prepend: null,
+		manuallyCopyFormValues: true,
+		deferred: $.Deferred(),
+		timeout: 750,
+		title: null,
+		doctype: '<!doctype html>'
+	   	});
+	});
+
+	$('.printPart').click(function() {
+        const printButton = $(this);
+        const printPart = $('<div class="article-parts"></div>');
+
+        const articlePart = printButton.closest('.article-part');
+        printPart.append(articlePart.clone());
+
+        let pdfPartUrl = '';
+                pdfPartUrl = 'https://islamansiklopedisi.org.tr/afganistan#' + articlePart.attr('id').substring(1);
+        
+        const pdfLink = $('<a></a>')
+            .attr('href', pdfPartUrl)
+            .text(pdfPartUrl.replace('https://', ' '));
+
+        const header = $('<div style="border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 10px;"></div>');
+                const partText = articlePart.find('.partnumbers').data('tipso') + 'dür. ';
+        header.append(partText);
+        
+        header.append('Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için: ');
+        header.append(pdfLink);
+
+        const bodyContainer = $('<div class="centered body_container body_pad_article" style="margin-top: 15px;"></div>');
+        bodyContainer.append(header);
+
+        const articleTitle = $('.article_header_container');
+        bodyContainer.append(articleTitle.clone())
+
+		const mBody = $('<div class="m-body"></div>');
+        mBody.append(printPart);
+        bodyContainer.append(mBody);
+
+        const body = $('<body></body>');
+        body.append(bodyContainer);
+
+		body.print({
+            globalStyles: true,
+            mediaPrint: true,
+            stylesheet: null,
+            noPrintSelector: ".no-print",
+            iframe: true,
+            append: null,
+            prepend: null,
+            manuallyCopyFormValues: true,
+            deferred: $.Deferred(),
+            timeout: 750,
+            title: null,
+            doctype: '<!doctype html>'
+	   	});
+	});
+
+
+/* search autocomplete events */
+	var delay = (function(){
+	  var timer = 0;
+	  return function(callback, ms){
+		clearTimeout (timer);
+		timer = setTimeout(callback, ms);
+	  };
+	})();
+	$('#searchBox1').keyup(function() {
+		delay(function(){
+		var typed = $.trim($('#searchBox1').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box1").hide();
+			$("#auto-suggest-loading1").hide();
+
+		}
+		}, 1000 );
+	});
+
+	function autocomplete(typed)
+	{
+		$("#auto-suggest-content1").html('');
+		$("#auto-suggest-box1").show();
+		$("#auto-suggest-loading1").show();
+
+		$.ajax({
+			url: "/ajax_search_auto.php?q=" + typed,
+			cache : false,
+			success: function(result){
+				if(result.trim() == "")
+				{
+					$("#auto-suggest-box1").hide();
+					$("#auto-suggest-loading1").hide();
+				}else{
+					$("#auto-suggest-loading1").hide();
+					$("#auto-suggest-content1").html(result);
+				}
+			}
+		});
+	}
+
+	/* atif */
+	$('.atif-btn').click(function(){
+		$(this).parent().parent().parent().parent().find('.atif-kutusu').slideToggle();
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".atif-kutusu");
+		var inputbox = $(".atif-btn");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+			resultbox.hide();
+			$('.ak-list').show();
+			$('.ak-copytext').hide();
+			$('.ak-copy span').text('Kopyalama metni');
+		}
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $("#auto-suggest-box1");
+		var inputbox = $("#searchBox1");
+		if (!resultbox .is(e.target)  && resultbox .has(e.target).length === 0 && !inputbox .is(e.target)){
+			resultbox.hide();}
+	});
+
+    jQuery('.sticky-content, .sticky-sidebar').theiaStickySidebar({
+        additionalMarginTop: 30
+    });
+
+});
+
+</script>
+
+

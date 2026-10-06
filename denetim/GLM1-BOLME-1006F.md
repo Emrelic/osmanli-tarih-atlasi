@@ -7,6 +7,17 @@ SIFIRDIR.** TAM atıf 0 · 376 ∩ 153 = ∅ · ❌ üçlüsünde bile borç yok
 zaten atıflı değildi ve atıflı taraf CANLI. 893, TDV hakkında bir borç defteri
 değil, **kendi hasatçımızın deneme kütüğü**dür.
 
+🔴 **Netleştirme (koordinatör hükmü, 7 Ekim): "%58 ŞÜPHELİ" bir TDV ölçüsü DEĞİL,
+KOPYA HAVUZU ölçüsüdür** — 1005① INDEKS'indeki mühür çürüyüşü *"kopyaların kaçı
+kullanılabilir"* sorusunu ölçtü, *"TDV'nin kaçı boş"* sorusunu değil. Bileşim:
+ARAMA- 385 arama-sayfası çekimi (sınıflandırma artefaktı) + DIS- 4 (TDV-dışı URL,
+TDV ölçümüne hiç girmemeliydi) + gerçek-TDV-slug 904 (kopyaları boş — ⑦'nci ölçümle
+sınandı, 7 Ekim: **30'luk rastgele örnekte 30/30 = 302 `arama/<slug>` yönlendirmesi,
+0 gövde**; çıkarıcı kusuru değil — `GLM1-904-IKINCI-CIKARICI-1006`). Çapraz kanıt: ② ölçüm 153 atıf
+adresinde **152 canlı (%99,3)** — **maddeler erişilebilir; çürüyen TDV değil, bizim
+kopya havuzumuz.** İkisini aynı cümlede anmak bir sonraki oturuma "TDV %58 boş"
+okutturur.
+
 Atama: YILDIRIM BAYEZIT — "BİRLEŞTİRME ONAYI ŞARTLI — bir adım ÖNCESİ var".
 Hüküm (koordinatör): 893 "ölü slug" evreninin bir kısmı TDV hakkında bir ölçüm
 değil, **hasatçının slug varyantı üretip başarısızlıklarını VERİ gibi

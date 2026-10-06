@@ -1,0 +1,11 @@
+kisa	hukum	dogru_kapsayici	yanlis_aday	not
+ammarogullari	birlesmeye-girer	ammarogullari--trablusgarp	-	ayni varlik (200 AMMAROGULLARI); tuzak-2 ayirt-edici sonekli tam biçim
+derbend	birlesmeye-girer	derbend--dagistan	-	ayni varlik (200 DERBEND); arama q=derbend tek madde donduruyor
+irak	birlesmeye-girer	irak--ulke	-	ayni varlik (200 IRAK); tuzak-2 ayirt-edici sonekli tam biçim
+mercidabik	birlesmeye-girer	mercidabik-muharebesi	-	yer maddesi yok OLAY maddesi var (3x200; ilk GET 000 taima arizasiydi)
+sarikamis	birlesmeye-girer	sarikamis-harekati	-	yer maddesi yok OLAY maddesi var (200); madde canli ama arama dizininde gorunmuyor (kural 9)
+kut	birlesmeye-girer	kutulamare	-	yer maddesi yok olay-YER maddesi var (200 KUTULAMARE)
+zengi	dogru-kapsayici-onayli	zengiler	zengibar (Zanzibar; YANLIS eslesme)	koordinator onayi 2: kisa zengi denemesi + dogru kapsayici zengiler (200, veri atfi TDV: zengiler) + zengibar YANLIS; ucu birlikte kayda gecer
+erzin	esleme-YOK	-	erzincan (Erzincan sehri; YANLIS eslesme)	Erzin (Hatay) maddesi TDV'de bulunamadi (arama ILK~10; yok hukmu verilmez)
+sur	esleme-YOK	-	suriye (Suriye devleti; YANLIS eslesme)	Sur (Tyre) maddesi bulunamadi (q=sur ve q=sur ILK~10 anlam gurultusu)
+tur	ACIK	-	-	ayirt edilemedi: turkiye + turkmenistan iki ayri canli madde (200/200); koordinator: oyle kalsin

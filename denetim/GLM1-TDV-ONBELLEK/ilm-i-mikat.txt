@@ -1,0 +1,139 @@
+﻿ 
+ İLM-i MÎKĀT - TDV İslâm Ansiklopedisi 
+ Arama yenilendi: Arama kılavuzunu okumak için tıklayınız. 
+ -->
+ Genel Kısaltmalar
+ Transkripsiyon İşaretleri
+ Arama Kılavuzu
+ Duyurular
+ TDV İslâm Ansiklopedisi Hakkında
+ x 
+ "
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 0
+ *
+ -
+ q
+ w
+ e
+ r
+ t
+ y
+ u
+ ı
+ o
+ p
+ ğ
+ ü
+ ,
+ a
+ s
+ d
+ f
+ g
+ h
+ j
+ k
+ l
+ ş
+ i
+ ABC
+ z
+ x
+ c
+ v
+ b
+ n
+ m
+ ö
+ ç
+ .
+ ABC
+ Boşluk
+ Sil
+ Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+ https://islamansiklopedisi.org.tr/ilm-i-mikat 
+ TDV İslâm Ansiklopedisi 'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+ İLM-i MÎKĀT
+ علم الميقات
+ Namaz vakitlerini belirleme ilmi.
+-->
+ 1 bölümden oluşan maddenin 1. bölümüdür. Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+ https://islamansiklopedisi.org.tr/ilm-i-mikat#1 
+ Müellif: 
+ MUSTAFA HELVACI , YAVUZ UNAT 
+ İLM-i MÎKĀT
+ Müellif: 
+ MUSTAFA HELVACI, YAVUZ UNAT 
+ Web Sitesi: TDV İslâm Ansiklopedisi 
+ Yayımcı: TDV İslâm Araştırmaları Merkezi 
+ Baskı Tarihi: 2000 
+ Erişim Tarihi: 29.09.2026 
+ Web Adresi: 
+ https://islamansiklopedisi.org.tr/ilm-i-mikat 
+ MUSTAFA HELVACI, YAVUZ UNAT, "İLM-i MÎKĀT", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilm-i-mikat (29.09.2026). 
+ Kopyalama metni 
+ Sözlükte “belli bir zaman tesbit etmek” anlamındaki vakt kökünden türeyen mîkāt (çoğulu mevâkīt ) “bir iş için belirlenen zaman ve yer” demektir; bu bakımdan hacda ihrama girilen yerlere de mîkāt denir. İlm-i mîkāt güneş, ay ve yıldızlar vasıtasıyla zamanın, özellikle namaz vakitlerinin belirlenmesi ilmidir. İslâm astronomisinin amaçlarından biri, namazların tam vaktinde ve kıble yönünde kılınabilmesine imkân sağlamaktır. İslâmiyet’in ilk yıllarında namaz vakitleri, her insanın kolayca uygulayabileceği pratik yöntemlerle ve yaklaşık olarak tayin edilebiliyordu. II. (VIII.) yüzyıldan itibaren bu konuda uyulması gereken ilmî esaslar ortaya konuldu ve bunlara bazı küçük değişikliklerle günümüze kadar uyuldu. III. (IX.) yüzyılda ilk defa her boylam derecesi veya yılın her günü için “el-evkātü’l-hamse” (el-evkātü’ş-şer‘iyye) denilen ezan saatleri ve kıble tayini tabloları hazırlanmış, bu konudaki faaliyetler VIII. (XIV.) yüzyılda Şam’da en yüksek seviyesine ulaşmıştır. Bu işle uğraşan kimselerden dinî kurumlarda görevli olanlara muvakkit , ilmî çalışma yapan astronomlara ise mîkātî adı verilmektedir (ayrıca bk. MUVAKKİTHÂNE ). 
+ Beş vakit namazın şartlarından biri vaktin girmesidir ve bu şart sadece farz namazlar için değil onlara bağlı sünnetler, vitir, teravih ve bayram namazları için de geçerlidir. Kur’ân-ı Kerîm’de farz namazların kılınma zamanlarına ilişkin bazı işaretlere rastlanmaktaysa da (el-Bakara 2/238; en-Nisâ 4/103; el-İsrâ 17/78; en-Nûr 24/36; er-Rûm 30/17-18; Kāf 50/39-40; el-İnsân 76/25) bu vakitler daha çok Hz. Peygamber’in fiil ve sözleriyle açıklık kazanmıştır. Onun yaptığı açıklamalar hadis kaynaklarında müstakil kitap veya bab başlıkları altında yer almış (Buhârî, “Mevâḳītü’ṣ-ṣalât”, 1, 9-14, 18-21, 27; Müslim, “Mesâcid”, 166-179; Tirmizî, “Ṣalât”, 1), genellikle vaktinde kılınan namazın önemi, kazâya kalan namazlar, vakitlerin cevaz, kerahet, haramlık ve fazilet bakımından değerlendirilmesi gibi konularda olan bu açıklamalar fıkıh kaynaklarında etraflı şekilde ele alınarak tartışılmıştır (bk. VAKİT ). 
+ Farz namazı vakitlerinin tayininde, öncelikle sabah ve akşamın başlangıç saatlerinin astronomik olarak açıklığa kavuşturulması zorunluluğu vardır. Bunların tesbiti için, gün doğumundan (tulû‘) önce doğu ufkunda gün ağarmasının (fecr-i sâdık, fecir) başladığı ve gün batımından (gurûb) sonra batı ufkundaki kızıllığın (şafak-ı ahmer, bazı âlimlere göre beyazlığın, şafak-ı ebyaz) kaybolduğu zaman güneş ışınlarının ufuk düzlemiyle yaptığı açıların kaç derece olduğunun bilinmesi gerekmektedir. Habeş el-Hâsib, Neyrîzî, Bîrûnî ve İbnü’l-Heysem her iki açıyı da 18, Ebü’l-Hasan İbn Yûnus ve İbnü’ş-Şâtır gün doğumunu 19, gün batımını 17 ve Hasan b. Ali el-Merrâküşî gün doğumunu 20, gün batımını 16 derece olarak hesaplamışlardır. Günümüzde ise gün doğumu açısı 18, gün batımı açısı 17 derece olarak kabul edilmektedir. 
+ Namaz Vakitlerinin Matematiksel Yolla Hesaplanması. Güneşin gökküredeki konumuna bağlanan namaz vakitlerinin belirlenebilmesi için güneşin o konumuna ilişkin saat açısının bulunması gerekir.
+Şekilde G güneşin herhangi bir andaki konumu, NZSZ 1 meridyen, NS ufuk düzlemi, Z başucu (zenit), Z 1 ayakucu (nâdir), AB ekvator düzlemi, P gök kutbu, PP 1 ekvatorun kutupları olsun; GPZ açısı (H) güneşin saat açısıdır. δ güneşin dik açıklığı (declination) ve α sağ açıklığı (rectesantion), ϕ gözlem yerinin enlemi ve h da yükseklik olmak üzere H saat açısını veren genel bağıntı şu şekilde elde edilir: 
+PG = 90° - δ
+GZ = z = 90° - h
+ZP = 90° - ϕ
+cos (z) = cos (90 - ϕ) cos (90 - δ) + sin (90 - ϕ) sin (90 - δ) cosH
+m$cosH=\frac{cosz-sinϕ.sinδ}{cosϕ.cosδ}$ 
+Namaz vakitlerinin tayininde güneşin doğuş ve batış zamanlarının hesabı ise şu şekilde yapılır: Bir yerin en yüksek noktasında bulunan bir gözlemciye göre güneş kursunun üst kenarının ufukta görünmesi doğuş anına, kaybolması da batış anına tekabül eder. Güneş doğuş ve batış sırasında ufukta olduğuna göre merkezinin ufuktan uzaklığı z = 90°’dir. Ancak üst kenarının ufuk düzleminin altına inmesi için kırılma etkisinin ve yarı çapının da dikkate alınması gerekir. Güneşin yarı çapı ortalama R = 16', z = 90°’de ışınlarının kırılma miktarı ise ΔΘ = 34'’dır. Kırılma ve yarı çap etkileri göz önüne alındığında güneş kursunun üst kenarının batması için z = 90° 50' olur. Bu durumda güneşin doğuş ve batış anındaki H saat açısını veren genel bağıntı 
+ m$cosH=\frac{cos(90° 50') - sinϕ.sinδ}{cosϕ.cosδ}$ 
+ şeklini alır. Burada H gerçek güneş saati açısıdır ve doğuş için -H, batış için ise +H değeri alınır. Fakat günlük hayatta gerçek güneş saati değil ortalama güneş saati kullanılır. Bu saatler arasındaki farka astronomide zaman denklemi (ET) adı verilir. Bu durumda H değerine zaman denklemi değerini eklemek gerekir. Zaman denklemi değeri ise şu şekilde elde edilir: 
+ YZ = 6.646065556 + (8640184.542*T + 0.0929*T 2 ) / 3600
+ET = 12 - α + YZ
+T = (JD-2415020) / 36525 
+ Ülkemizde ortalama güneş saati İzmit’ten geçen meridyene göre düzenlendiğinden diğer yerler için boylam farkı eklenir veya çıkarılır. ET bu zamana ait zaman denklemi değeri, L hesabın yapıldığı yerin İzmit boylamından farkı olsun. Buna göre doğuş için 12 - H - ET ± L ve batış için 12 + H - ET ± L sonuçları bulunur. Aynı yöntemle z = 108° ve z = 107° alınarak imsak ve yatsı vakitleri hesaplanır. İkindi vakti için ayrıca zenit uzaklığı tesbit edilmelidir; formül şöyledir: 
+ φ = ϕ - δ
+Asr-ı evvel: z = Arctan (1 + φ)
+Asr-ı sânî: z = Arctan (2 + φ) 
+ Öğle vakti için ise güneşin meridyenden geçiş anının hesaplanması gerekir ve bunun formülü α - ET ± L şeklindedir. Ancak öğle vaktinin girebilmesi için bulunan bu değere 7 dakika eklenmelidir; bu şekilde güneşin zeval noktasından batıya meylettiği an hesaplanmış olur. 
+ BİBLİYOGRAFYA Buhârî, “Mevâḳītü’ṣ-ṣalât”, 1, 9-14, 18-21, 27.
+ Müslim, “Mesâcid”, 166-179.
+ Tirmizî, “Ṣalât”, 1.
+ Hasan b. Ali el-Merrâküşî, Câmiʿu’l-mebâdîʾ ve’l-ġāyât fî ʿilmi’l-mîḳāt (nşr. Fuat Sezgin), Frankfurt 1405/1984, I-II.
+ J. Meeus, Astronomical Formulae for Calculators , Richmond 1982.
+ Mohammad Ilyas, A Modern Guide to Astronomical Calculations of Islamic Calendar, Times and Qibla , Kuala Lumpur 1984.
+ a.mlf., New Moon’s Visibility and International Islamic Calendar for the Afro-Asian and European Region , Penang 1993.
+ W. M. Smart, Textbook on Spherical Astronomy , Cambridge 1984.
+ ʿİlmü’l-mevâḳīt: Uṣûlühû ve menâhicüh (nşr. Muhammed el-Arabî el-Hattâbî), Muhammediye 1407/1986.
+ Muammer Dizer, “İslâm Dininin Astronomi ile İlişkisi”, Diyanet Dergisi , XVIII/2, Ankara 1979, s. 79-107.
+ D. A. King, “Mīḳāt”, EI 2 (İng.) , VII, 27-32.
+ Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 133-134 numaralı sayfalarda yer almıştır. Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız. 
+ Görseller
+ TDV İslâm Ansiklopedisi Madde Bildirim Formu 
+ Bu form aracılığıyla, sadece OSMANLILAR//8-mali-yapi maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise İletişim Formu aracılığıyla iletilmesi rica olunur.
+ Bildiriminiz * 
+ İletişim bilgileriniz
+ Adınız ve Soyadınız * 
+ E-Posta * 
+ Telefon Numarası 
+ Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.
+ İLM-i MÎKĀT 
+ Her hakkı mahfuzdur. TDV İslâm Ansiklopedisi’ nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. TDV İslâm Ansiklopedisi internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi ( TDV İslâm Ansiklopedisi internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. TDV İslâm Ansiklopedisi internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+ Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+ Daha fazla bilgi 
+ DOSYALAR »
+ SERGİ ARŞİVİ »
+ GEÇEN AYIN İLK 20'Sİ »
+-->
+ RASTGELE 
+ Her hakkı mahfuzdur. 2016-2026 TDV İslâm Araştırmaları Merkezi | 
+ Kullanım Şartları | 
+ İletişim Formu 
+ TDV İslâm Ansiklopedisi 'nden rastgele bir madde okumak ister misiniz?
+ BAŞKA BİR MADDE GÖSTER

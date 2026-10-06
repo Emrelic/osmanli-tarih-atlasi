@@ -1,0 +1,11 @@
+kisa	uzun_slug	get_kod	baslik	arama_sonuc_sluglari	dogrulama	kanit
+ammarogullari	ammarogullari--trablusgarp	200	AMMÂROĞULLARI	(menü gürültüsü)	ayni-varlik	başlık kısa adın tam biçimi; TDV'nin kendi ayırt-edici sonekli slugı (tuzak ②)
+derbend	derbend--dagistan	200	DERBEND	derbend--dagistan	ayni-varlik	başlık tam biçim + arama q=derbend tek madde olarak döndürüyor
+irak	irak--ulke	200	IRAK	ebul-kasim-el-iraki vb. (kişi gürültüsü)	ayni-varlik	başlık kısa adın tam biçimi
+mercidabik	mercidabik-muharebesi	200 (ilk 000; 3× yeniden deneme 200)	MERCİDÂBIK MUHAREBESİ	mercidabik-muharebesi (TEK sonuç)	olay-maddesi	arama yalnız olay maddesini döndürüyor; ayrı YER maddesi yok
+sarikamis	sarikamis-harekati	200	SARIKAMIŞ HAREKÂTI	(yok — ASCII ve Türkçe sorgu ikisinde de)	olay-maddesi	madde canlı ama arama dizininde görünmüyor; ayrı yer maddesi bulunamadı
+kut	kutulamare	200	KÛTÜL'AMÂRE	kutub · ricalul-gayb · husrev-u-sirin--kutb (kutb gürültüsü)	olay-maddesi	ayrı 'kut' maddesi aramada yok; uzun slug olay-yer maddesi
+erzin	erzincan	200	ERZİNCAN	muhammed-bahaeddin-erzincani (kişi)	farkli-varlik	uzun gövde Erzincan şehri; TDV'de Erzin (Hatay) maddesi bulunamadı; Erzin ≠ Erzincan
+sur	suriye	200	SURİYE	kale · dugun · resim · ibn-havkal · cadir (anlam gürültüsü)	farkli-varlik	uzun gövde Suriye devleti; Sûr (Tyre) maddesi ilk 10'da yok (q=sur ve q=sûr)
+zengi	zengibar	200	ZENGİBAR	zengi-imaduddin (kişi)	farkli-varlik	uzun gövde Zengibar (Zanzibar); verinin öznesi Zengîler (devletler.js:9739, kaynak:"TDV: zengiler"); zengiler CANLI (200, "ZENGÎLER")
+tur	turkiye + turkmenistan	200 / 200	TÜRKİYE · TÜRKMENİSTAN	sina · nevi--mantik (gürültü)	ayirt-edilemedi	iki ayrı canlı madde; kısa 'tur' tek varlığa karşılık gelmiyor (koordinatör: öyle kalsın)

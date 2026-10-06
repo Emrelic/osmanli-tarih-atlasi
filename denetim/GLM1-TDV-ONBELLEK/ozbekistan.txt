@@ -1,0 +1,2717 @@
+﻿         
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+	<head>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66550639, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66550639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819951-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819951-1');
+		</script>
+        		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Orta Asya Türk cumhuriyetlerinden."><meta property="og:url" content="/ozbekistan"><meta property="og:site_name" content="TDV İslâm Ansiklopedisi"><meta property="og:title" content="ÖZBEKİSTAN - TDV İslâm Ansiklopedisi"><meta property="og:type" content="website"><meta property="og:description" content="Orta Asya Türk cumhuriyetlerinden."><meta property="og:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@TDV_ISAM"><meta property="twitter:title" content="ÖZBEKİSTAN - TDV İslâm Ansiklopedisi"><meta property="twitter:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:description" content="Orta Asya Türk cumhuriyetlerinden.">		<title>ÖZBEKİSTAN - TDV İslâm Ansiklopedisi</title>
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.core.css?ver=22">
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.design.css?ver=26" />
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/all.min.css" />
+		<link rel="shortcut icon" type="image/png" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-favico-v3.ico"/>
+		<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.min.213.js"></script>
+		<script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/modal.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/ResizeSensor.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/theia-sticky-sidebar.min.js"></script>
+				
+	</head>
+
+<body>
+
+<style>
+
+
+
+#topnewst{
+	position: fixed;
+	top: 0;
+    background: #FF8951;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #fff;
+	height:45px;
+	line-height:45px;
+	z-index: 1199;
+	font-weight:bold;
+	letter-spacing:0.02rem;
+}
+#topnewst a{color:#fff; text-decoration:underline !important;}
+
+#volume-list {display:none; }
+
+#letter-lisst { position: absolute; margin-top:-2px; z-index:-10; background:#fff; padding-top:10px; border:2px solid #ccc}
+
+#letter-list a { text-align:center; text-decoration:none; float:right}
+.azcontainer{width:100px;}
+.minict_wrapper ul li:hover{background:#ededed;}
+
+.menu-top-left{text-align:left !important;}
+#searc-complete-result{list-style:none; margin:0px; padding:0px;}
+
+#searc-complete-result li{
+	float:none;
+	line-height:19px;
+	margin:0px !important;
+	padding: 13px 2px !important;
+	border-bottom: 1px solid #efe9e9;
+	border-top:none;
+}
+#searc-complete-result a{text-decoration:none;}
+#searc-complete-result li .sr-title{color:#0093B0; font-weight:bold}
+#searc-complete-result li .sr-desc{color:#666;}
+#searc-complete-result li:hover{background:#f1f4f4;}
+#auto-suggest-loading{height:45px;}
+#auto-suggest-loading1{height:45px;}
+#searchBox1{width: 90%;}
+.logged_user{border-top:2px solid #ddd;}
+
+/* header buyutme */
+
+.header_logo img{height:58px !important;}
+
+
+.hover-menu ul li:hover{background:rgb(236, 230, 230, 0.60);}
+#albhabet_button:hover{color:#666 !important;}
+#cilt_button:hover{color:#666 !important;}
+.hover-menu ul li{text-align:left !important;}
+#auto-suggest-box{width:490px; top:50px !important; border:none; background-color:#f4f1f1; left:0px !important}
+#searc-complete-result{margin-top:14px; line-height:19px;}
+
+#searc-complete-result > a:first-child li{border-top: 2px solid #bdb7b7 !important; padding-top: 25px !important; padding-left:2px !important; padding-right:2px !important;}
+#searc-complete-result a.selected li{background:#e6e6e6 !important;}
+
+body{margin-top:60px;}
+
+#searchBox::-ms-clear {
+    display: none;
+}
+
+.hover-menu ul a li{color:#666;}
+.hover-menu ul a:hover li{color:#000;}
+
+#searc-complete-result{margin:3px 12px 0 12px !important;}
+#searc-complete-result > a:first-child li{padding: 13px 2px !important; border-top:2px solid #ddd !important}
+.sr-title{font-size:0.98rem !important;}
+.sr-desc{font-size:0.95rem !important;}
+.sr-old{color: #9d9d9d; font-size:0.75rem !important;}
+#auto-suggest-box{min-height:125px !important; border: 2px solid rgb(93, 182, 213); border-top:none; background:#fff; border-radius:3px}
+#searc-complete-result > div.no-res{ padding:20px 0px 50px 5px; color:#666}
+
+#searc-complete-result .at-line{position:relative; padding-left:5px;}
+#searc-complete-result .at-line .author-photo{height:35px; border-radius:2px}
+#searc-complete-result .at-line .icon-user{font-size: 31px; color: #ddd; padding-right: 4px;}
+#searc-complete-result .at-line .author-title{position: absolute; top: -3px; padding-left: 10px; color: #0093B0; font-weight: bold;}
+#searc-complete-result .at-line .author-field{position: absolute; top: 15px; padding-left: 10px; font-size:15px; color:#999}
+
+#searc-complete-result .author-photo{height:30px;}
+
+.as-tabs div.as-m.act, .as-tabs div.as-y.act{}
+.as-tabs div.as.psv{cursor:pointer;}
+.as-tabs div.as img.ic{height:20px;}
+.as-tabs div.as.psv img.ic{opacity:0.4}
+.as-tabs div.as.psv img.ic:hover{opacity:1}
+.as-tabs div.as.psv img.up{display:none}
+.as-tabs div.as span{ color:#666; font-size:15px;}
+
+div.mr{text-align:left; padding: 10px 15px 10px 0px; }
+.deep{ height:17px; opacity:0.7; }
+.deep:hover{opacity:0.9;}
+.count{color:#999;}
+/*div.mr a{color:#06839c; font-size:0.93rem;}
+div.mr a:hover{text-decoration:underline !important;}
+div.mr .sall{color: #06839c !important; text-decoration: underline !important;}
+.metinshow{color: #06839c !important}
+.srchp:hover{color:#0e6779 !important;}*/
+
+/* new alert */
+/*#header_container{top:45px !important;}
+.body_container{margin-top:45px !important;}*/
+
+.alert-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.alert-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.alert-close {
+    flex: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: #c69500;
+}
+</style>
+
+<!-- <div id="topnewst">Arama yenilendi: <a href="/duyuru/arama-kilavuzu">Arama kılavuzunu okumak için tıklayınız.</a></div> -->
+
+<div id="header_container" style="position:fixed; top:0px !important;">
+    
+    <div class="centered" id="menu">
+	
+		<div class="static_position pure-g" >
+			<div class="pure-u-13-24 hdr-left">
+        		<div class="header_left">
+            		<ul class="dia-navul">
+           				<li class="header_menu hover-menu-button" style="margin-right:8px; line-height:0px; margin-top:18px; margin-left:-7px ">
+							<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/blue-dot-menu-masaustu.png" />
+							<div class="hover-menu" style="left:10px; right:none; top: 47px;">
+								<div style="position:relative">
+								<img class="menu-top-arrow" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png?ver=2" style="position:absolute; top:-9px; left:5px" />
+								<ul>
+									<a href="/genel_kisaltmalar"><li class="hover_menu_first">Genel Kısaltmalar</li></a>
+									<a href="/transkripsiyon_isaretleri"><li>Transkripsiyon İşaretleri</li></a>
+									<a href="/duyuru/arama-kilavuzu"><li>Arama Kılavuzu</li></a>
+									<a href="/duyurular"><li>Duyurular</li></a>
+									<a href="/hakkinda/"><li style="border-bottom:none;">TDV İslâm Ansiklopedisi Hakkında</li></a>
+								</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header_logo" style="border-right:none; position:relative">
+							<a href="/" id="logo-part"> 
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-yatay-logo.svg" style="height:28px; width:318px;" />
+							</a>
+							<div id="header-article" style="display:none">
+							</div>
+						</li>						
+            		</ul>
+        		</div>
+    		</div>
+    		<div class="pure-u-11-24 hdr-right">
+        		<div class="header_right">
+             		<ul class="dia-navul right">
+						<li class="header_search" style="padding:0px; margin-right:-2px;">
+
+							<span class="icon-search tipsoo tbottom tipso_style" style="background: #0093c1 !important; color: #fff !important;position:absolute;right:9px;top:16px;" id="icon-search-submit" data-width="175" data-tipso="Madde başlıklarında ara."></span>
+							<span class="icon-search tipso tbottom tipso_style" style="background:transparent;color: #DF6F49 !important;position:absolute;right: 50px;top:17px;font-size: 1.1rem; " id="icon-search-submit-txt" data-width="175" data-tipso="Madde içeriklerinde ara."></span>
+							<img class="open-keyboard" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/input-keyboard.png" />
+
+							<input id="searchBox" class="searchBox" style="width:490px; line-height:normal; height:45px; padding-right:55px;" type="text"
+							value='' placeholder="TDV İslâm Ansiklopedisi'nde ara..." autocomplete="off"/>
+							<div id="auto-suggest-box">
+								<input autocomplete="off" id="auto-suggest-state" style="display:none" />
+								<img src='https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif' id="auto-suggest-loading" />
+								<div id="auto-suggest-content"></div>
+							</div>
+							<style>
+							.open-keyboard{position: absolute;
+							right: 90px;
+							top: 27px;
+							opacity: 0.3; cursor:pointer}
+							.open-keyboard:hover{opacity:0.8}
+							.dia-keyboard {display:none; background:#fff; border:1px solid #ddd; padding:20px 15px 15px 15px; position:absolute; top:10px; left:-490px; width:485px; line-height:0px; border-radius:3px;}
+							.dia-keyboard ul{list-style:none; margin:0px; padding:0px; clear:both}
+							.dia-keyboard ul li{float:left; width:30px; height:27px; text-align:center;
+							    border: 1px solid rgba(0,0,0,0.1);
+								background-color: #f5f5f5;
+								border-radius:2px;
+								margin:2px; line-height:27px; cursor:pointer; font-size:15px;}
+							.dia-keyboard ul li:hover{background:#ddd;}
+							.dia-keyboard .shift{width:45px; font-size:13px; font-weight:bold}
+							.dia-keyboard .close-keyboard{position: absolute;right: 10px; top: 10px; font-weight: bold; color: #666; cursor: pointer;}
+							</style>
+							<div class="dia-keyboard">
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/keyboard-arrow.png" style="line-height:0px;position:absolute; right:-5px;" />
+								<span class="close-keyboard">x</span>
+								<ul>
+									<li hb=""" hk=""">"</li>
+									<li hb="1" hk="1">1</li>
+									<li hb="2" hk="2">2</li>
+									<li hb="3" hk="3">3</li>
+									<li hb="4" hk="4">4</li>
+									<li hb="5" hk="5">5</li>
+									<li hb="6" hk="6">6</li>
+									<li hb="7" hk="7">7</li>
+									<li hb="8" hk="8">8</li>
+									<li hb="9" hk="9">9</li>
+									<li hb="0" hk="0">0</li>
+									<li hb="*" hk="*">*</li>
+									<li hb="-" hk="-">-</li>									
+								</ul>							
+								<ul style="margin-left:10px;">
+									<li hb="Q" hk="q">q</li>
+									<li hb="W" hk="w">w</li>
+									<li hb="E" hk="e">e</li>
+									<li hb="R" hk="r">r</li>
+									<li hb="T" hk="t">t</li>
+									<li hb="Y" hk="y">y</li>
+									<li hb="U" hk="u">u</li>
+									<li hb="I" hk="ı">ı</li>
+									<li hb="O" hk="o">o</li>
+									<li hb="P" hk="p">p</li>
+									<li hb="Ğ" hk="ğ">ğ</li>
+									<li hb="Ü" hk="ü">ü</li>
+									<li hb="," hk=",">,</li>									
+								</ul>
+								<ul style="margin-left:25px">
+									<li hb="A" hk="a">a</li>
+									<li hb="S" hk="s">s</li>
+									<li hb="D" hk="d">d</li>
+									<li hb="F" hk="f">f</li>
+									<li hb="G" hk="g">g</li>
+									<li hb="H" hk="h">h</li>
+									<li hb="J" hk="j">j</li>
+									<li hb="K" hk="k">k</li>
+									<li hb="L" hk="l">l</li>
+									<li hb="Ş" hk="ş">ş</li>
+									<li hb="İ" hk="i">i</li>
+																	
+								</ul>
+								<ul>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>
+									<li hb="Z" hk="z">z</li>
+									<li hb="X" hk="x">x</li>
+									<li hb="C" hk="c">c</li>
+									<li hb="V" hk="v">v</li>
+									<li hb="B" hk="b">b</li>
+									<li hb="N" hk="n">n</li>
+									<li hb="M" hk="m">m</li>
+									<li hb="Ö" hk="ö">ö</li>
+									<li hb="Ç" hk="ç">ç</li>
+									<li hb="." hk=".">.</li>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>																		
+								</ul>
+								<ul style="margin-left:65px;">
+										
+									<li hb="Boşluk" hk="Boşluk" class="space noletter" style="width:280px;">Boşluk</li>
+									<li hb="Sil" hk="Sil" class="delete back noletter" style="width:50px">Sil</li>
+								</ul>									
+							</div>
+						</li>			
+	    			</ul>
+        	</div>
+    	</div>	
+  	</div>
+
+	</div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        // Focus search box when page load
+        $('#searchBox').focus();
+    });
+</script>
+
+<div id="scrollTop" title="Sayfanın başına dön." style="z-index:100000">
+	<span class="icon-chevron-up"></span>
+</div>
+
+<style>
+#newsbar_open{display:block ;} /* only this page */
+.m-body{font-size:19px; line-height:28px; text-align:justify;}
+body{color:#494d55 !important}
+
+.inAtr{font-size:16px; color:#999 !important}
+
+@media screen {
+    #print-part-temp { display: none;}
+	.hdrprint{background:#ededed;}
+}
+@media print {
+	#print-part-temp { display: block; padding:30px;}
+	.hdrprint{background:#ededed; padding:5px; margin-bottom:20px; fonst-size:7px;  border-bottom:1px solid #ddd; }
+	.dosyaindir{display:none}
+	 body{margin: 0mm 0mm 1mm 0mm; }
+}
+
+.copy-link{cursor:pointer}
+.copy-link:hover{opacity:0.5 !important;}
+
+#div_bilgi{padding-top:6px;}
+.atif-btn{cursor:pointer;}
+.atif-kutusu{cursor: default !important;}
+.article-pd{font-size:14px; color:#999; line-height:20px; margin-top:5px;}
+
+.fotorama__caption{text-align:center !important;}
+.fotorama__caption__wrap{background-color: rgba(255,255,255,.9) !important;  }
+.fotorama__caption__wrap b{color:#E16327}
+.article-part{margin-bottom:60px;}
+.sterm{background:#E3FF91;}
+
+.m-content p{margin-top:0px; margin-bottom:17px;}
+.m-content bibl p{margin-top:0px; margin-bottom:5px; line-height:22px; padding-left: 1.5em;
+    text-indent:-1.5em; font-size:17px;}
+
+
+
+		.article-part-header{background:#f4f1f1;  border-radius:1px; position:relative; margin-bottom:20px;}
+		.article-part-header.kor-part{background-color:#f1f4f4 !important; }
+		.article-part-header .yazim-arrow{position:absolute; bottom:-10px; left:20px; z-index:1}
+		.part-author{padding-left:15px; line-height:55px}
+		.part-title{display:none}
+		.part-title a{color:#666}
+		.part-authors{}
+		.part-authors span{color:#888}
+		.part-authors a{color:#0093b0}
+		.part-info{padding-right:15px;text-align:right; padding-top:16px}
+		/* .atif-btn{position:absolute; cursor:pointer; color:#0093B0; font-size:26px; right:2px; top:-31px} */
+		.atif-btn.psv{}
+		/*
+		.atif-btn.top{position:absolute; top:5px; right:0px;}
+		.atif-btn.top .atif-kutusu{border-top:1px solid #ddd;}
+		.atif-btn.top .ak-list{height:280px; overflow-y:auto; overflow-x:hidden;}
+		*/
+		.atif-kutusu{text-align:left; right:-0px;  background:#F7F7F7;  display:none; border: 1px solid #e4e4e4;padding:10px 20px 20px 20px; z-index:5; font-size:0.85rem; color:#777; margin-top:-1px;}
+		.ak-title{border-bottom:1px solid #ddd; font-size:1.05rem !important; line-height:23px !important; padding-bottom: 5px; font-weight:bold;}
+		.ak-muellif{line-height:18px; padding-top:9px;}
+		.ak-site{line-height:18px; padding-top:9px;}
+		.ak-yayinci{line-height:18px; padding-top:9px;}
+		.ak-ilkyayin{line-height:18px; padding-top:9px;}
+		.ak-adres{line-height:18px; padding-top:9px;}
+		.ak-copy{border-top:1px solid #ddd; padding-top:10px; margin-top:10px;}
+		.ak-copy span{background:#f9f9f9; color:#666; padding:4px 15px 4px 15px; border:1px solid #ddd; border-radius:2px; cursor:pointer}
+		.ak-copy span:hover{background:#f1f1f1;}
+		.ak-copytext{display:none; line-height:17px; padding-top:20px; padding-bottom:10px}
+		.msg-btn{ cursor:pointer; font-size:28px; color: #967A7A; position: absolute; right: 34px; top: -32px;}
+		.msg-btn a{color: #967A7A}
+		.print-btn{float:right; cursor:pointer; font-size:20px; color: #967A7A; padding-top:1px;}
+
+
+.article-part-nav-info{position:absolute; background:#E98A5C; top:-33px; left:0px; list-style-type:none; margin:0px; padding:0px; color:#fff; border-radius:2px;}
+.article-nav-prev{cursor:pointer; padding:2px 4px 0px 5px; height:18px; float:left; line-height:0px; border-right:none}
+.article-nav-prev span, .article-nav-next span{font-size:11px;}
+.article-nav-prev.kor{border-right:1px solid #ddd;}
+.article-nav-next{cursor:pointer; padding:2px 4px 0px 4px; height:18px; float:left; line-height:0px;}
+.article-nav-next.kor{border-left:1px solid #ddd;}
+.article-nav-passive{cursor:default;}
+.article-nav-passive img{opacity:0.3; cursor:default;}
+.article-nav-prev.kor span, .article-nav-next.kor span{color:#afa1a1;}
+.article-nav-numbers{padding:0.15rem 12px 0 12px; line-height:25px; float:left; border-right:1px solid #F3BFA7; border-left:1px solid #F3BFA7; font-size:13px; font-weight:bold; letter-spacing: 3px;}
+
+.article-nav-open-info{cursor:pointer; padding:0 9px; height:21px; line-height:22px; float:left; border:none; font-size:13px; font-weight:bold;}
+.article-nav-info-li{float:left; height:21px; background:rgb(181, 164, 164); font-size:13px; line-height:21px; height:21px; padding:0 10px; display:none; border-top-right-radius: 2px; border-bottom-right-radius: 2px;}
+.tipso_style{border-bottom:none !important;}
+
+.bibpos{position:absolute; color:#fff; font-size:1px;}
+.m-body span.eser{font-style:italic; text-justify: none; }
+.m-body span.kisaltma{text-justify: none;}
+
+.m-body bibl span.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+.m-body bibl span.eser.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+
+.m-body bibl{
+margin-top: -17px !important;
+    display: block;
+}
+
+.pop-title{font-weight:bold;}
+
+.article-left-bar{padding-bottom:0px !important; box-shadow:none !important; background:none !important; max-width: 68px;z-index: 1;}
+
+.rndleftbtn:hover{opacity:1 !important}
+
+.encokokunan{
+	background: #e4e8e8;
+    width: 100px;
+    /* padding: 2px 5px; */
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -25px;
+    font-size: 0.80rem;
+    padding: 2px 0px 3px 0px;
+    font-weight: bold;
+    color: #888;
+    /* margin-top: 10px; */
+}
+.encokokunan:hover{background:#dbdede; color:#666}
+.captcha-container > img { height: 38px; position: absolute }
+.captcha-container > .form-group { margin-left: 90px; }
+.error-box{background: #ff8585; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+.success-box{background: #26b151; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.grecaptcha-badge.show {
+    visibility: visible !important;
+    z-index: 10000;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.swal2-html-container {
+    font-size: 1rem;
+}
+</style>
+
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.print.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.lazyload.min.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+<link rel="stylesheet" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/vendor.fotorama.css">
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.fotorama.js"></script>
+
+
+
+<br />
+<div class="centered body_container body_pad_article" style="position:relative">
+
+	<div class="print-meta visible-on-print" style="display: none;">
+		Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+		<a title="ÖZBEKİSTAN" href="https://islamansiklopedisi.org.tr/ozbekistan?utm_source=pdf">https://islamansiklopedisi.org.tr/ozbekistan</a>
+	</div>
+
+	<div class="article_header_container" style="margin-bottom:25px; position:relative;">
+	<!-- mesele -->
+	<!-- article left bar -->
+		<div class="article-left-bar">
+				<div class="pure-g bar-line"  style="    background: #fff;
+		padding-top: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell bleft"><span class="icon-align-left"></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span class="icon-align-justify"></span></div>
+				</div>
+				<div class="pure-g bar-line"  style="background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell fup"><span id="txtup" class="icon-font up" style=""></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="txtdown" class="icon-font down"></span></div>
+				</div>
+				<div class="pure-g bar-line-nav"  style="background: #fff; padding-bottom: 5px; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+
+					<div class="pure-u-1-2 bar-cell bleft"><span id="pagecolorSepia" ></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="pagecolorWhite"></span></div>
+				</div>
+
+				<div class="pure-g bar-line-nav rndleftbtn tipso tright tipso_style" data-tipso="<i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" style="height:20px" /></div>
+				</div>
+
+				<div class="pure-g" style="display:none">
+					<div class="pure-u-1-2 bar-cell bleft">
+						<a href="ozbek-han-camii" class="tipso tright" data-width="200" data-tipso="Önceki madde: ÖZBEK HAN CAMİİ">
+							<span class="icon-chevron-circle-left"></span>
+						</a>
+					</div>
+					<div class="pure-u-1-2 bar-cell bright">
+						<a href="ozbekkan-suphi-ziya" class="tipso tright" data-tipso="Sonraki madde: ÖZBEKKAN, Suphi Ziya">
+							<span class="icon-chevron-circle-right"></span>
+						</a>
+					</div>
+				</div>
+		</div>
+	<!-- article left bar end -->
+
+		<style>
+		.listen{width:15px; opacity:0.5; cursor:pointer}
+		.listen:hover{opacity:1;}
+		</style>
+
+		
+		
+		<div class="article_title"><h1>ÖZBEKİSTAN</h1></div>
+
+		
+		<div class="article_info"><h2>
+			<div style="padding-top:6px;"><span style="color:#e16328">Orta Asya Türk cumhuriyetlerinden.</div>			</h2>
+		</div>
+	</div>
+
+
+<div id="article-main-content" class="pure-g " style="">
+    <div class="pure-u-1 pure-u-md-15-24 sticky-content">
+
+		<div class="bibl-popup" style="display:none; position:absolute; padding:22px 24px 18px 18px; max-width:290px; background:#FEFEC6; z-index:1;     box-shadow: 0 3px 10px rgba(0,0,0,.3);">
+			<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/bibl-popup-arrow.png" style="position: absolute;top: -10px;" />
+			<span class="icon-close close-bibl-poup" style="position: absolute;top: 8px; right: 10px; font-size: 20px;cursor: pointer; color:#555"></span>
+			<div class="bibl-cnt"></div>
+		</div>
+
+		
+
+		<div class="m-body" id="m-body" style="font-size:; line-height:">
+
+			<!-- Madde Planı -->
+			<style>
+			body.sepya{background-color:rgb(241, 233, 215) !important}
+			.art-plan{margin-bottom:30px;border:1px solid #ededed; border-radius:3px;}
+			.art-plan.sepya{border: 1px solid #c5bead !important;}
+			.article-plan-buttons{border-bottom:1px solid #ededed; overflow:hidden}
+			.article-plan-buttons.sepya{border:none; border-bottom: 1px solid #c5bead !important;}
+			.article-plan-buttons .passive:hover{border-bottom:3px solid #ededed; color:#333; cursor:pointer}
+			.article-plan-buttons .passive{color:#999; border-bottom:none; font-weight:normal}
+			.article-plan-buttons .active{color:#666; border-bottom:3px solid #ddd; font-weight:bold}
+			.btn-plan, .btn-preview{padding-bottom:5px !important; padding-top:5px !important}
+			.plan-content, .preview-content{ clear:both;  font-size:15px; border-radius:3px;}
+			.preview-span{background: #ededed;padding: 2px 8px; margin-right:10px; font-size: 12px; letter-spacing: 1px;border-radius: 3px;}
+			.preview-ul{list-style:none; padding:0px; margin:0px; height: 189px; overflow-y: auto; padding-right:15px;}
+			.preview-ul li{padding-bottom:30px; line-height:22px; cursor:pointer; color:#777; width:100%;}
+			.preview-ul li:hover{color:#888;}
+			.ind2{padding-left:15px;}
+			.ind3{padding-left:30px;}
+			.ind4{padding-left:45px;}
+			.ind5{padding-left:60px;}
+			.ind6{padding-left:75px;}
+			</style>
+
+			
+				<div id="artplan" class="art-plan">
+					<div class="article-plan-buttons">
+					    							<div class="btn-preview active" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px; width:195px">
+								Bölümler İçin Önizleme
+							</div>
+                        													<div class="btn-plan passive" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px">
+								Madde Planı
+							</div>
+											</div>
+										<div class="preview-content" style="line-height:27px; padding:15px 5px 10px 20px; ">
+						<div class="top-prev-container top-prev-container-p" style=" width: 100%;  z-index:100;padding-bottom:5px;">
+								<div class="preview-content">
+								<ul class="preview-ul">
+								<li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >1/4</span><span><span>Müellif: </span><b style="color:#888">CEMALETTİN ŞAHİN</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Batıda ve kuzeyde Kazakistan, güneyde Afganistan, güneybatıda Türkmenistan, doğuda Kırgızistan ve güneydoğuda Tacikistan ile komşudur; sınırları içeri...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#2-tarih"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >2/4</span><span><span>Müellif: </span><b style="color:#888">ABDULLAH MUHAMMEDCANOV</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">II. TARİH Eskiden Turan, Ortaçağ’larda Türkistan, Mâverâünnehir, günümüzde Özbekistan denilen topraklar zengin bir tarihî geçmişe sahiptir. Fergana va...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#3-kultur-ve-medeniyet"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >3/4</span><span><span>Müellif: </span><b style="color:#888">İSMAİL TÜRKOĞLU</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">III. KÜLTÜR ve MEDENİYET Emevîler ve Abbâsîler’den sonra Sâmânîler, Karahanlılar, Me’mûnîler, Gazneliler, Selçuklular, Hârizmşahlar ve Timurlular gibi...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#4-mimari"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >4/4</span><span><span>Müellif: </span><b style="color:#888">YAŞAR ÇORUHLU</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">IV. MİMARİ Özbekistan’da erken yerleşmeler içindeki mimari eserler arasında Koy Kırılgan Kale (m.ö. IV. yüzyıl), Canbas Kale (m.ö. III. yüzyıl), Angka...</div></li>								</ul>
+							</div>
+						</div>
+					</div>
+				    										<div class="plan-content" style="line-height:27px; display:none; padding:0px 5px 10px 20px; max-height: 190px;
+    overflow-y: auto; margin-right: 5px;
+    margin-top: 15px; margin-bottom:15px">
+						<div class="ind1">I. FİZİKÎ ve BEŞERÎ COĞRAFYA</div>
+<div class="ind1">II. TARİH</div>
+<div class="ind1">III. KÜLTÜR ve MEDENİYET</div>
+<div class="ind1">IV. MİMARİ</div>					</div>
+				    				</div>
+
+
+			
+			<!-- Madde Metni -->
+			<style>
+			.hdrprt1{border:1px solid #e4e4e4; border-radius:3px; margin-bottom:0px; position:relative}
+			.hdrprt1.sepya{border: 1px solid #c5bead;}
+			.hdrprt1arrows{border-bottom:1px solid #e4e4e4; overflow:hidden;background: #f4f1f1;}
+			.hdrprt1arrows.sepya{border-bottom: 1px solid #c5bead;background: #e4ddcc;}
+			.partnumbers{float:left;  height:37px; font-size:0.90rem; letter-spacing: 3px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-left:12px; padding-right:12px; color:#007993; padding-top:5px;}
+			.partnumbers.sepya{border-left:1px solid #c5bead; border-right:1px solid #c5bead;}
+			.partdownarrow{float:left;  height:37px; padding-top:4px; padding-left:12px; padding-right:12px;border-right:1px solid #ddd;}
+			.partdownarrow.sepya{border-right:1px solid #c5bead;}
+			.partprint{border-left:1px solid #e4e4e4; float:right;;height:37px; line-height:42px; padding-left: 14px; padding-right: 14px; cursor:pointer}
+			.partprint.sepya{border-left:1px solid #c5bead}
+			.partemail{border-left:1px solid #e4e4e4; float:right; line-height: 37px; padding: 1px 14px; cursor:pointer}
+			.partemail.sepya{border-left:1px solid #c5bead;}
+			.partatif{border-top-right-radius: 2px; float:right; border-left: 1px solid #e4e4e4; padding: 1px 14px; line-height: 37px;}
+			.partatif.sepya{border-left: 1px solid #c5bead;}
+			</style>
+			<!-- Madde Metni -->
+			                <div class="article-parts">
+                                            <!--<div class="visible-on-print">
+                            <img src=""
+                                 title=""  alt="" />
+                            <div class="right-info" style="text-align:center;"></div>
+                        </div>-->
+                    
+                    							<div class="article-part" id="_1" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									4 bölümden oluşan maddenin 1. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="ÖZBEKİSTAN" href="https://islamansiklopedisi.org.tr/ozbekistan?utm_source=pdf#1">https://islamansiklopedisi.org.tr/ozbekistan#1</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev article-nav-passive " data-jurl="#" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="4 bölümden oluşan maddenin 1. bölümü">
+													1/4												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#2-tarih" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="4-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="ÖZBEKİSTAN//1" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/cemalettin-sahin"><b>CEMALETTİN ŞAHİN</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">ÖZBEKİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>CEMALETTİN ŞAHİN</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2007</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/ozbekistan#1</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext1">
+														CEMALETTİN ŞAHİN, "ÖZBEKİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ozbekistan#1 (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p>Batıda ve kuzeyde Kazakistan, güneyde Afganistan, güneybatıda Türkmenistan, doğuda Kırgızistan ve güneydoğuda Tacikistan ile komşudur; sınırları içerisinde Karakalpakistan Özerk Cumhuriyeti yer alır. Resmî adı Özbekistan Cumhuriyeti, resmî dili Özbekçe olan ülkenin yüzölçümü 447.400 km<sup>2</sup>, nüfusu 26.800.000 (2005), başşehri Taşkent (2.100.000), diğer önemli şehirleri Nemengân (471.000), Endican (413.000), Nukus (325.000), Buhara (299.000) ve Semerkant’tır (282.000). </p><p> <b>I. FİZİKÎ ve BEŞERÎ COĞRAFYA</b><br>Yaklaşık beşte dördü düzlük alanlardan oluşan ülkenin özellikle orta ve kuzeybatı kesimleri ova ve platoların yer aldığı sade bir topografyaya sahiptir. Aral gölünün güneyindeki Amuderya deltası ile Turan, Taşkent, Semerkant, Buhara, Fergana ovaları ve Kızılkum çölü başlıca düzlük alanları teşkil eder. Tanrı dağları (Tien Şan) ile Pamir dağlarının batı uzantılarının meydana getirdiği dağlık alanlar ülkenin güneydoğusundadır (Çatkal dağında Adelunga zirvesi 4301 m.). Ülkede sıcak yazlar ve soğuk kışların yaşandığı karasal bir iklim, özellikle alçak alanlarda çöl iklimi hâkimdir. Yazlar uzun, sıcak ve yağışsız olup sıcaklık yer yer 40 °C’nin üzerine çıkar. Buna karşılık kısa süren kış mevsiminde sıcaklığın zaman zaman -38 °C’ye kadar indiği şiddetli soğuklar görülür. Batı kesiminde yağışlar azdır. Doğuya doğru gidildikçe yükseltinin de etkisiyle büyük bölümü kış ve ilkbahar aylarında düşen yıllık yağışlarda bir miktar artış görülür: Karakalpakistan ve Hârizm bölgelerinde 75-100, Taşkent’te 350-400, dağların etek kesimlerinde ise 600 mm. </p><p> Bitki örtüsünün esasını alçak düzlükler ve havza tabanlarında çöl bitkileri, plato ve dağlık alanlarda step bitkileriyle dağ çayırları teşkil eder. Ülke topraklarının yaklaşık % 10’u çalı ve orman formasyonuyla kaplıdır. Önemli akarsular Orta Asya’nın en büyük nehirleri olan Amuderya (Ceyhun) ile Siriderya’dır (Seyhun). Aral gölüne dökülen bu akarsulardan Amuderya gölün güney kıyısında büyük bir delta oluşturur. Siriderya ise Kazakistan’a geçtikten sonra Aral’a ulaşır. Amuderya’nın kollarından Zerefşân Semerkant, Buhara ve Nevai ovalarını, Siriderya Fergana ovasını, kollarından Çirçik Taşkent ovasını sular. Başlıca göller Sarıkamış, Aydar ve Aral’dır. Bunlardan güney bölümü Özbekistan’a ait olan Aral’da büyük bir çevre felâketi yaşanmış ve Sovyetler Birliği tarafından uygulanan yanlış tarım politikaları sonucu gölü besleyen iki nehrin sularının önemli bir bölümü pamuk tarlalarının sulanmasında kullanıldığı için göl 1960’lardan itibaren kurumaya başlamış ve yüzeyi yaklaşık % 60, hacmi ise % 80 oranında küçülmüştür; bu sebeple eski kaynaklarda dünyanın dördüncü büyük gölü olarak gösterilirken günümüzde altıncı sıradadır. Diğer taraftan pamuk tarımında kullanılan kimyasal maddeler göl tabanında birikmiş ve bunlar suların çekilmesiyle birlikte toz fırtınaları tarafından çevreye yayılarak binlerce canlı türünün yok olmasına ve insanların ölümüne yol açmıştır. </p><p> Özbekistan, Orta Asya Türk cumhuriyetleri arasındaki en kalabalık ülke olup nüfusunun yıllık artış hızı yaklaşık % 1,5, yoğunluğu 53 kişidir (km<sup>2</sup>). Nüfus özellikle Amuderya ve Siriderya ile bunların kollarının suladığı vadi ve ovalarda toplanmıştır; Nemengân, Endican ve Fergana gibi büyük şehirlerin bulunduğu Fergana havzası ile Taşkent, Buhara, Semerkant, Ürgenç, Nukus ve Karşi çevreleri en yoğun alanlardır. Halkın yaklaşık % 80’ini Özbekler, % 10’unu diğer Türk boyları, geri kalanını da büyük bölümü Taşkent’te yaşayan Ruslar (% 5), Tacikler, Ermeniler, yahudiler, Almanlar ve Koreliler oluşturur. Resmî dil Özbekçe’dir; ayrıca her etnik grup kendi dilini de konuşur. Nüfusun % 90’ı hemen tamamı Sünnî müslüman, % 6 kadarı hıristiyan, geri kalanı ise farklı dinlerin mensubudur. </p><p> İnsanların büyük bir bölümünün kırsal kesimde yaşadığı Özbekistan’da tarım en önemli geçim kaynağı ve ekonominin temelidir. Toprakların yaklaşık % 10’undan elde edilen ürünlerin başlıcaları pamuk, buğday, pirinç, çeşitli sebze ve meyvedir. Yağışların azlığı sebebiyle tarım büyük ölçüde sulamaya bağlıdır. Özbekistan dünyanın önde gelen pamuk üreticilerinden biridir. Ancak tahıl ihtiyacını karşılamak amacıyla son yıllarda pamuk üretim alanlarının bir kısmı başta buğday olmak üzere çeşitli tahıllara ayrılmış ve 1999’da 3,6 milyon ton olan pamuk üretimi 2003’te 2,8 milyon tona inerken 1999’da 3,7 milyon ton olan tahıl üretimi 2003’te 5,7 milyon tona çıkmıştır. İpek böcekçiliğinin çok gelişmiş olduğu ülkede başlıca geçim kaynaklarından biri de hayvancılıktır. Geniş bozkır alanlarındaki iklim ve bitki örtüsünün özellikleri sebebiyle koyun, bilhassa karakul koyunu yetiştiriciliği ve buna bağlı astragan üretimi ve ihracatı büyük önem taşımaktadır. </p><p> Özbekistan yer altı zenginlikleri bakımından şanslı bir ülkedir ve tabii kaynaklarının en önemlileri doğalgaz, altın, petrol, uranyum ve kömürdür. Tahminî 1,8 trilyon metreküp doğalgaz rezervinin bulunduğu ülkede Kaşkaderya, Buhara, Endican ve Surhanderya üretim yapılan başlıca idarî bölgelerdir. Petrol Buhara, Kaşkaderya, Surhanderya, Fergana, Nemengân ve Endican idarî bölgelerinde üretilmektedir. Buhara Petrol Rafinerisi ve Fergana petrol tesisleri ülke için büyük değer taşımaktadır. Özbekistan dünyanın önde gelen altın üreticisi ülkelerden biridir ve pamuktan sonra ikinci ihracat ürünü altındır. Kızılkum çölündeki Muruntau madeni sadece Özbekistan’ın değil dünyanın en önemli altın madenlerinden biridir. Yıllık üretim miktarı yaklaşık 6 milyon ton olan kömür, Taşkent’in doğusunda Angren ile Termiz’deki Şargun ve Baysun ocaklarından çıkarılmaktadır. </p><p> Ülkede tarım ürünleri ve zengin yer altı kaynaklarına bağlı çeşitli sanayi kolları gelişmiştir. Bunların başında tarım ve tekstil makineleri, çeşitli kimyasallar, gaz, metalürji, gıda ve otomobil sektörleri gelir. Taşkent makine, gıda, otomotiv; Semerkant ve Fergana tekstil, petrol, kimya, gübre; Endican ve Nemengân tekstil, makine, kimya, elektronik ve petrol sanayiinin toplandığı başlıca merkezlerdir. Orta Asya’nın en büyük tekstil fabrikası ve tek uçak fabrikası Taşkent’tedir. Taşkent civarındaki Bekâbâd demir çelik tesisleri de önemli sanayi kuruluşlarından biridir. Bu ekonomik etkinliklere bağlı olarak ülkenin dış ticareti gelişme yolundadır. Özbekistan 1992’de Ekonomik İşbirliği Teşkilâtı’na ve 1996’da İslâm Konferansı Teşkilâtı’na üye olmuştur. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Talip Yücel, <span class="eser">Asya Coğrafyası</span>, Ankara 1960, I, 72-73, 181.</p><p>a.mlf., <span class="eser">Asya’nın Beşerî ve İktisadî Coğrafyası</span>, Ankara 1965, s. 116, 171, 209.</p><p>L. Ligeti, <span class="eser">Bilinmeyen İç Asya</span> (trc. Sadrettin Karatay), Ankara 1986, s. 27, 28, 29.</p><p>Yusuf Dönmez, <span class="eser">Türk Dünyası’nın Beşerî ve İktisadî Coğrafyası</span>, İstanbul 1987, s. 64, 68, 69, 73, 75, 78, 83.</p><p>D. T. Twiniry, <span class="eser">Guide to the Repulolics of the Former Soviet Union</span>, Westport 1993, s. 151-155.</p><p>Ali Yiğit, <span class="eser">Türk Ülkeleri ve Türklerin Yaşadıkları Bölgelerin Coğrafyası</span>, Elazığ 1996, s. 87-95.</p><p>İbrahim Atalay, <span class="eser">Kıtalar ve Ülkeler Coğrafyası</span>, İzmir 2001, s. 187-192.</p><p>Faruk Uysal, <span class="eser">Özbekistan Ülke Raporu</span>, Ankara 2004, s. 6-15, 41-43, 50.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023173.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 110-111 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('ÖZBEKİSTAN', 'ozbekistan', '1', 'C34023173.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023173.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_2-tarih" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									4 bölümden oluşan maddenin 2. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="ÖZBEKİSTAN" href="https://islamansiklopedisi.org.tr/ozbekistan?utm_source=pdf#2-tarih">https://islamansiklopedisi.org.tr/ozbekistan#2-tarih</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#1" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="4 bölümden oluşan maddenin 2. bölümü">
+													2/4												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#3-kultur-ve-medeniyet" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="4-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="ÖZBEKİSTAN//2-tarih" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/abdullah-muhammedcanov"><b>ABDULLAH MUHAMMEDCANOV</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">ÖZBEKİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>ABDULLAH MUHAMMEDCANOV</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2007</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/ozbekistan#2-tarih</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext2">
+														ABDULLAH MUHAMMEDCANOV, "ÖZBEKİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ozbekistan#2-tarih (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>II. TARİH</b><br>Eskiden Turan, Ortaçağ’larda Türkistan, Mâverâünnehir, günümüzde Özbekistan denilen topraklar zengin bir tarihî geçmişe sahiptir. Fergana vadisi (Selungun mağarası), Taşkent vahası (Kölbulak ve Âbirahmet mağarası), Surhanderya vadisi (Teşiktaş/Deliktaş mağarası), Semerkant vahası (Âmankotan mağarası) ve diğer yerlerde gerçekleştirilen arkeolojik araştırmalar sonucu yerleşim tarihinin Eskiçağ’lara kadar indiği, ilkel insan topluluklarının geniş bir coğrafyada yayılmış olduğu tesbit edilmiştir. Bilhassa avcılık ve hayvancılıkla geçinen kabilelerin, milâttan önce V-III. binyıllarda “Kaltaminarlılar medeniyeti” adıyla bilinen medeniyeti kuran eski balıkçı ve avcı kabilelerin geniş alanda dağıldığı belirtilmiştir. Milâttan önce III. binyılın sonu ile II. binyıllarda ilkel tarım şekillenerek ilk sulama kolları, bunların yanında küçük köyler ortaya çıkmış, ardından ilk şehirler (Sopollitena, Carkotan) kurulmuştur. Milâttan önce VI-IV. yüzyıllarda bu ülkede Bahtar Krallığı ve Büyük Hârizm gibi eski devletlerin kurulduğu anlaşılmakta, bu dönemlerde ticaret ve küçük zanaatların geliştiği bilinmektedir. Söz konusu devirde eski Turan diyarının güney sınırlarında Aryaniler, kuzeyde ise Törler adıyla meşhur olan halklar yaşamıştır. Aynı zamanda Ârâmî yazısı esasında Soğd yazısı ve Hârizm yazısı gibi eski yazılar ortaya çıkmıştır. </p><p> Eski Turan halkı milâttan önce V-IV. yüzyıllarda İran Ahamenîleri, milâttan önce 329-327 yıllarında İskender’in istilâsına karşı mücadele etti. Milâttan önce III-II. yüzyıllarda bu kesimde güçlü Kang Hakanlığı, onun güney kısmında Kuşan, Fergana vadisinde Dâvân devletleri hüküm sürdü. IV-VI. yüzyıllarda bu sınırlar önceleri Akhunlar, Kidariylar ve Eftalitler idaresi altında bulunuyordu. Halkın önemli bir kısmı hayvancılıkla uğraşıyordu, bir kısmı da şehir ve köylerde yerleşik bir hayat sürüyordu. Burada birçok din hâkim durumdaydı. Soğd ve Çaç’ta Zerdüştîlik, Tâaristây ve Doğu Türkistan’da Buda dini yaygındı. Şehirlerde Nestûrîler ve yahudi cemaatleri de yaşıyordu. Yerli halkın çoğunluğu Soğdca, göçebeler ise Türkçe konuşuyordu. </p><p> VI. yüzyılın ikinci yarısı ile VII. yüzyılda bölgede yaşayan topluluklar Yettisuv’da (Yedisu) kurulan Batı Türk Hakanlığı bayrağı altında birleşti. Bunlar birkaç küçük feodal hâkimliğin bir araya gelmesiyle teşekkül etmişti. İçlerinde en güçlüsü Zerefşân ve Kaşkaderya vadilerinde yerleşmiş Soğd Konfederasyonu idi. Konfederasyona Semerkant ve Buhara dışında Maymurg, İştihan, Kuşaniya, Vardana, Keş ve Mahşab gibi meliklikler bağlıydı. Soğd’da nüfus çok kalabalık olup çiftçilik ve bağcılıkla uğraşılıyordu. Buğdaydan başka pamuk ve pirinç yetiştiriliyor, pamuk dokumacılığı yaygın biçimde yapılıyordu. Soğd şehirlerinde çeşitli küçük el sanatları, dokumacılık, seramikçilik, dericilik, seracılık, bakırcılık ve kuyumculuk, ayrıca iç ve dış ticaret oldukça gelişmiş durumdaydı. </p><p>707-715 yıllarında Mâverâünnehir ve Hârizm, Kuteybe b. Müslim kumandasındaki İslâm orduları tarafından fethedildi ve bölge halkı tedrîcen İslâmiyet’i kabul etmeye başladı. Ancak Emevîler’in bölge halkına yönelik siyasetleri Mâverâünnehir ve Horasan halkının birkaç defa ayaklanmasına yol açtı. IX. yüzyılda bu kesimde bağımsız Sâmânîler Devleti ortaya çıktı. Aynı asırda Karahanlılar ve XII. yüzyılda Karahıtaylar’ın hâkimiyetine giren ülkede XII. yüzyılın ikinci yarısıyla XIII. yüzyılın başında Hârizmşahlar Devleti kuruldu. IX-XII. yüzyıllardaki bu çok karışık siyasî ortam beraberinde birçok sosyal ve ekonomik değişimi getirdi, ayrıca kültürel hayatın gelişmesine vesile oldu. Dünyaca ünlü düşünürler, ilim ve fen adamları, din âlimleri ve kumandanlar yetişti. Bunlardan Fergānî, Muhammed b. Mûsâ el-Hârizmî, Fârâbî, Bîrûnî, İbn Sînâ, İmam Buhârî, Hakîm et-Tirmizî, Burhâneddin el-Mergīnânî gibi âlimler dünya ilmine büyük katkıda bulunmuştur. 1220-1221 senelerinde bölge Cengiz Han liderliğindeki Moğollar’ın istilâsına uğradı. Onlara karşı direnen Buhara, Semerkant, Ürgenç, Hucend ve Tirmiz şehirleri tamamen tahrip edildi. Moğollar XIII-XIV. yüzyıllar boyunca ülkede hâkimiyetlerini sürdürdüler. Onlara karşı direniş ise devam etti. </p><p> XIV. yüzyılın ikinci yarısı ile XV. yüzyılda ülkede yeni siyasî değişiklikler meydana geldi. Moğol hâkimiyeti ve feodal dağınıklık sona erdirildi. Emîr Timur başkanlığında feodal bir devlet kuruldu. Türk kabileleri başta olmak üzere Orta Asya’daki toplulukların bir araya gelişi Timur sayesinde gerçekleşti. Yirmi yedi devleti idaresi altına alarak bir imparatorluk kuran Timur’un hükümranlığı döneminde Türkistan’da önemli gelişmeler oldu. Semerkant ve Buhara gibi şehirlerde birçok âbide inşa edildi. Ticarî hayatta ilerleme kaydedildi. Timur’un ölümünden sonra ülkede başlayan taht mücadeleleri siyasî sıkıntılara yol açtıysa da onun vârisleri Şâhruh, Uluğ Bey, Ebülkāsım Bâbür, Ebû Said ve Sultan Hüseyin yaklaşık bir asır boyunca Timurlular’ın hükümranlığını sürdürdü. </p><p> XV. yüzyıl sonunda Timurlular Devleti’nin kuzeyinde Deştikıpçak’ta ortaya çıkan Şeybânîler giderek güçlenip Mâverâünnehir’e doğru yayıldılar. Batu Han’ın kardeşi Şeybânî ahfadından gelen Ebülhayr Han, büyük dedesi Özbek Han’ın adını taşıyan topluluğunu siyasî bir çatı altında bir araya getirip bağımsızlığını ilân etti (831/1428) ve Timurlu topraklarına girdi, Timurlular saltanatına son verdi ve 855’e (1451) kadar bütün ülkeye hâkim oldu. Bir ara durumları sarsılan Özbekler, Muhammed Şeybânî Han döneminde (1500-1510) yeniden toparlandılar ve kısa bir müddet sonra hâkimiyetlerini Orta Asya’ya yaymaya başladılar. Ancak XVI-XVII. yüzyıllarda Türkistan ülkesinde devlet bölünerek küçük hanlıklar ortaya çıktı. XVI. yüzyılda Hîve Hanlığı (Amuderya’nın aşağı kısmında), Buhara Hanlığı (Semerkant, Buhara, Kaşkaderya, Surhanderya vilâyetleri ve Güney Tacikistan toprakları), XVIII. yüzyılda Hokand Hanlığı (Fergana vadisi, Taşkent, Siriderya vilâyetleri, Kırgızistan ve Kazakistan’ın güney bölgesi) kuruldu. Türkistan tarihinde bu dönem “Üç Özbek Hanlığı” adıyla bilinir. Bu sırada İran’da ortaya çıkan Safevîler’e karşı Özbek hanları Osmanlılar’la daha XVI. yüzyılda irtibat kurdular. Özellikle XVI. yüzyıl sonunda başlayan mücadelelerde Şah Abbas’a karşı Özbek hanları ile Osmanlılar arasındaki ilişkiler siyasî açıdan da gelişti. XVIII. yüzyılda İran’da duruma hâkim olan Nâdir Şah, Orta Asya’daki hanlıkları kendi kontrolü altına aldıysa da bu durum uzun sürmedi. İran’la başlayan bu mücadeleler XIX. yüzyılın ilk çeyreğine kadar devam etti. Bu durum Hîve ve Buhara hanlıkları arasındaki rekabet ve çekişmeyi alevlendirdi. Buhara Emîri Haydar, İran ve Hîve Hanlığı ile yapılan mücadelede zor durumda kalınca İstanbul’a başvurdu. Fakat Ruslar’ın ilerleyişi Hîve, Hokand ve Buhara hanlıkları için yeni bir dönemin başlangıcını oluşturdu. </p><p> XIX. yüzyılın ikinci yarısında bütün Türkistan, Rusya İmparatorluğu tarafından işgal edilmeye başlandı. 1865 yılı Haziranında Çarlık ordusu Taşkent’i aldı. İşgal edilen ülkeyi yönetmek üzere 1867’de Türkistan Genel Gubernatörlüğü kuruldu. 1876’da Hokand Hanlığı’na son verilip Buhara Emirliği ve Hîve Hanlığı müstemleke haline getirildi. Çar Rusyası Türkistan’ı alınca doğal kaynakları ve zengin toprakları eline geçirdi. Burayı ham madde merkezi yaptı ve sanayi malları için pazara dönüştürmeye çalıştı. Pamuklu sanayi geliştirildi, pamuklu dokuma, yağ, sabun ve çeşitli atölyeler kuruldu. 1898’de 1748 kilometrelik demiryolu hattı yapıldı. Böylece Çarlık Rusyası, Türkistan’ın doğal zenginliklerini ucuz ve kolay taşıma imkânına sahip oldu. Her ne kadar bu dönemde hanlıklar arasındaki çekişmelere son verildiyse de Rus idaresi altında halkın durumu kötüleşti. Ruslar’a karşı birçok ayaklanma çıktı. Çarlık Rusyası’nın sömürgeci baskısına karşı 1893’te Taşkent’te, 1898’de Endican’da Dukçi İşan ayaklanması ve 1916’da Taşkent, Mergilân ve Cizzah’ta halk ayaklanmaları oldu. Bu ayaklanmalar kanlı bir şekilde bastırıldı. </p><p> 1 Kasım 1917 tarihinde Taşkent’te Bolşevikler tarafından silâhlı ayaklanma çıkarılıp Türkistan ülkesinde Sovyetler hâkimiyeti gerçekleştirildi. Nisan 1918’de Türkistan Genel Gubernatörlüğü ortadan kaldırıldı ve Türkistan Otonom Cumhuriyeti kuruldu. 1920’de Buhara Halk Sovyet Cumhuriyeti ile Hîve’de Hârizm Halk Cumhuriyeti teşkil edildi. Lenin başkanlığındaki Sovyetler hükümeti ülkede hâkimiyetin devamlılığını sağlamak için çok uğraştı. 1918 yılının Haziran ayında Taşkent’te Bolşevikler’in birinci ülke dönem toplantısı yapıldı. Türkistan Komünist Partisi, Rusya Bolşevikler Partisi’nin bir parçası olarak onaylandı. Bu parti sonradan güçlenip yetmiş yıldan fazla hâkim oldu, sosyalizmin rehberliğini yaptı. Bu dönemde Özbekistan’da sanayi, tarım, ilim, teknik ve kültür alanında belli gelişmeler olduysa da mahiyet itibariyle dünya sosyal ve ekonomik gelişmesinin çok gerisinde kaldı. Özbekistan’dan ham madde ve ürün götürülüp buraya günlük ihtiyaç için gerekli mallar getiriliyordu. Böylece Özbekistan, eski Sovyetler Birliği içinde ucuz ham madde ve stratejik zenginlikler verici ülke, hazır ürün satılacak bir pazar oldu. Sovyetler rejimi döneminde Özbekistan mâneviyat alanında çok zarar gördü. 1930-1950 yıllarında 40.000 kadar aydın ve din âlimi rejimin kurbanı oldu. </p><p> Şimdiki Özbekistan sınırı 1917’de Bolşevik İhtilâli’ne kadar Türkistan Genel Gubernatörlüğü, Rusya’nın yarı sömürgesi olan Buhara Emirliği ve Hîve Hanlığı’na bölünmüştü. Ülkede esas idarî taksimat vilâyet, kaza, nahiye ve köylerden oluşuyordu. Buhara Emirliği yirmi sekiz beylikten ibaret olup bunlar mülklere, Buhara şehri ve Buhara vahası ise şehirlere ve yedi ilçeye bölünmüştü. Hîve Hanlığı, Hîve şehri yanında yirmi beylik ve iki nâibliğe taksim edilmişti. Sovyet devleti millî cumhuriyetler kurma perdesi altında emirlik ve hanlıkları yok etti. Türkistan ülkesi parçalandı. 1924 yılında Orta Asya’da Özbekistan Sovyet Sosyalist Cumhuriyeti kurulunca yedi vilâyete (Semerkant, Taşkent, Fergana, Zerefşân, Surhanderya, Kaşkaderya, Hârizm), yirmi iki kazaya ve 241 nahiyeye bölündü. Semerkant başşehir oldu. 1926’da yeni bir yapı oluşturuldu. On bölge kuruldu (Hârizm, Buhara, Orta Zerefşân, Semerkant, Taşkent, Hucend, Kokond, Endican, Surhanderya, Kaşkaderya). Ayrıca seksen yedi ilçe ve 1746 köy mevcuttu. 1936’da Karakalpakistan Otonom Sovyet Sosyalist Cumhuriyeti, Özbekistan Sovyet Sosyalist Cumhuriyeti içine alındı. Böylece Özbekistan içinde bir otonom cumhuriyet, dokuz vilâyet, üç bölge, 109 ilçe, yirmi iki şehir, on sekiz köy tipindeki kasaba ve 1392 köyden oluştu. Sonradan vilâyetler daraltıldı. 1957’de bir otonom cumhuriyet, dokuz vilâyet, altı şehir ilçesi, 115 köy ilçesi, yirmi dokuz şehir, elli yedi şehir tipinde kasaba ve 993 köy vardı.</p><p><b>Özbekistan Cumhuriyeti.</b> <span style="caret-color: black;">Sovyetler Birliği</span><span style="caret-color: black;"> sisteminin</span> çöküşüyle birlikte 31 Ağustos 1991 tarihinde Özbekistan Cumhuriyeti bağımsızlığını ilân etti. 20 Aralık’taki referandumda Özbekistan Cumhuriyeti’nin ilk cumhurbaşkanı seçildi. 8 Aralık 1992’de Özbekistan Cumhuriyeti anayasası kabul edildi. Başkanlık sisteminin uygulandığı Özbekistan’da başkan geniş yetkilerle donatıldı. Ülkede 100’den fazla milletten oluşan insan yaşamaktadır. Bunların eğitimlerini, inanç ve geleneklerini yerine getirmeleri için şartlar mevcuttur. Cumhuriyette yirmi beş milletlerarası kültür merkezi faaliyet göstermektedir. Vilâyet, ilçe ve şehirlerde hâkimlik makamı ihdas edildi. Özbekistan 21 Aralık 1991’de Bağımsız Devletler Topluluğu’na üye oldu. Dünyada 160’tan fazla devlet Özbekistan Devleti’nin bağımsızlığını tanıdı, yetmiş yediden fazla ülke ile diplomatik ilişki kuruldu. Ülkenin başşehri olan Taşkent’te Türkiye, Amerika Birleşik Devletleri, Hindistan, Fransa, Almanya ve diğer devletlerin büyükelçilikleri, uluslararası teşkilâtların temsilcilikleri açıldı. 2 Mart 1992’de Özbekistan Birleşmiş Milletler’e kabul edildi. 1 Temmuz 1994’te millî parası “som” tedavüle girdi. Cumhuriyette dış ticaret gelişmekte ve yabancı sermaye girişi sürmektedir.</p> <bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Seyfi Çelebi, <span class="eser">L’ouvrage de Seyfī Çelebī: Historien ottoman du XVI<sup>e</sup> siècle</span> (nşr. ve trc. J. Matuz), Paris 1968, s. 123-133.</p><p><span class="kisaltma" data-ad="feridun-bey-munseat">Feridun Bey, <i>Münşeât</i></span>, II, 73, 147, 281-282.</p><p>V. V. Barthold, <span class="eser">Four Studies on the History of Central Asia</span> (trc. V. Minorsky – T. Minorsky), Leiden 1962, III, 136, 163-166.</p><p>D. S. Carlisle, “Uzbekistan and the Uzbeks”, <span class="eser">Handbook of Major Soviet Nationalities</span> (ed. R. Rogers), New York 1975, s. 298-303.</p><p>a.mlf., “Geopolitics and Ethnic Problems of Uzbekistan and its Neighbours”, <span class="eser">Muslim Eurasia</span> (ed. Y. Roi), London 1995, s. 71-103.</p><p><span class="eser">Republic of Uzbekistan: Laws and Decrees</span>, Taşkent 1992.</p><p>I. A. Karimov, <span class="eser">Uzbekistan: The Road of Independence and Progress</span>, Tashkent 1992.</p><p><span class="eser">Essays on Uzbek History: Culture and Language</span> (ed. Bakhtiyar A. Nazarov v.dğr.), Bloomington 1993.</p><p>Bekir Kütükoğlu, <span class="eser">Osmanlı-İran Siyâsî Münâsebetleri: 1578-1612</span>, İstanbul 1993, s. 191, 200-219.</p><p>A. R. Muhammedcanov, <span class="eser">Özbekistan Tarihi (V. Asırdan XVI. Asrın Başlarına Kadar)</span>, Taşkent 1994.</p><p>E. Allworth, <span class="eser">The Modern Uzbeks, from the Fourteenth Century to the Present: A Cultural History</span>, Stanford 1995.</p><p>Mehmet Saray, <span class="eser">Yeni Türk Cumhuriyetleri Tarihi</span>, Ankara 1996, s. 261-325.</p><p><span class="eser">Heirs to the Silk Road: Uzbekistan</span> (ed. J. Kalter – M. Pavaloi), London 1997.</p><p>R. Hanks, <span class="eser">Uzbekistan</span>, Oxford 1999.</p><p>N. J. Melvin, <span class="eser">Uzbekistan: Transition to Authoritarianism on the Silk Road</span>, Amsterdam 2000.</p><p>“Özbekistan Cumhuriyeti”, <span class="eser">Türkler</span> (nşr. Hasan Celal Güzel v.dğr.), Ankara 2002, XIX, 625-708.</p><p>Th. Zarcone, “Uzbekistan”, <span class="kisaltma" data-ad="ei2-ing"><i>EI<sup>2</sup> </i>(İng.)</span>, X, 960-963.</p><p>“Uzbekistan”, <span class="eser">Encyclopedia of Asian History</span>, New York 1988, IV, 176-178.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023174.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 111-113 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('ÖZBEKİSTAN', 'ozbekistan', '2-tarih', 'C34023174.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023174.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_3-kultur-ve-medeniyet" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									4 bölümden oluşan maddenin 3. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="ÖZBEKİSTAN" href="https://islamansiklopedisi.org.tr/ozbekistan?utm_source=pdf#3-kultur-ve-medeniyet">https://islamansiklopedisi.org.tr/ozbekistan#3-kultur-ve-medeniyet</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#2-tarih" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="4 bölümden oluşan maddenin 3. bölümü">
+													3/4												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#4-mimari" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="4-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="ÖZBEKİSTAN//3-kultur-ve-medeniyet" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/ismail-turkoglu"><b>İSMAİL TÜRKOĞLU</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">ÖZBEKİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>İSMAİL TÜRKOĞLU</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2007</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/ozbekistan#3-kultur-ve-medeniyet</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext3">
+														İSMAİL TÜRKOĞLU, "ÖZBEKİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ozbekistan#3-kultur-ve-medeniyet (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>III. KÜLTÜR ve MEDENİYET</b><br>Emevîler ve Abbâsîler’den sonra Sâmânîler, Karahanlılar, Me’mûnîler, Gazneliler, Selçuklular, Hârizmşahlar ve Timurlular gibi devletlerle Çağatay, Buhara, Hîve ve Hokand hanlıklarının hüküm sürdüğü Özbekistan toprakları İslâm kültür ve medeniyeti açısından büyük önemi haiz Mâverâünnehir, Hârizm ve Fergana bölgelerinin mühim bir kısmını, bu arada Buhara, Semerkant, Taşkent (Şâş), Nesef, Tirmiz ve Gürgenç gibi tarihî şehirleri ihtiva etmesi dolayısıyla çok değerli bir İslâm kültür mirasına ev sahipliği yapmıştır. Çeşitli dönemlerde kurulan medrese, kütüphane ve rasathânelerin yanı sıra gerek dinî ilimler gerekse fen ve tabiat bilimleri alanında yetişen âlimlerle bölge dünyanın sayılı ilim merkezlerinden biri olmuştur. Fıkıh, tefsir, hadis, kelâm ve tasavvuf gibi ilimlerde başlı başına ekol oluşturmuş, eserleri temel başvuru kitabı haline gelmiş çok sayıda âlim bulunmaktadır. Bunlar arasında Abdullah b. Abdurrahman ed-Dârimî, Muhammed b. İsmâil el-Buhârî, Ebû Îsâ et-Tirmizî, Hakîm et-Tirmizî, Mâtürîdî, Hakîm es-Semerkandî, Muhammed b. Ali el-Kaffâl (Kaffâl eş-Şâşî/el-Kebîr), Ebü’l-Leys es-Semerkandî, Muhammed b. İbrâhim el-Kelâbâzî, Ebü’l-Muîn en-Nesefî, Zemahşerî, Ahmed Yesevî, Abdülhâliḳ-ı Gucdüvânî, Kādîhan, Burhâneddin el-Mergīnânî, Necmeddîn-i Kübrâ, Bahâeddin Nakşibend ve Hâce Ubeydullah Ahrâr zikredilebilir. Felsefe, tıp, matematik, astronomi, tarih, edebiyat, coğrafya alanındaki meşhur âlimlerden bazıları da şunlardır: Muhammed b. Mûsâ el-Hârizmî, Fergānî, Ceyhânî, Nerşahî, Ebû Bekir el-Hârizmî, Muhammed b. Ahmed el-Hârizmî, İbn Sînâ, Bîrûnî, Çağmînî. </p><p> <b>1. Dil ve Edebiyat.</b> Özbekistan Cumhuriyeti’nin resmî dili olan Özbekçe, Çağatay Türkçesi’nin bir devamı olup Özbekistan’ın yanı sıra Afganistan, Kırgızistan, Kazakistan, Doğu Türkistan, Tacikistan, Türkmenistan, Rusya Federasyonu, Suudi Arabistan ve Türkiye gibi ülkelerde yaşayan yaklaşık 35 milyon Özbek tarafından konuşulmaktadır. Arapça ve Farsça’nın Özbekçe üzerindeki tesiri diğer Orta Asya Türk dillerine göre daha fazladır. Özbekistan’da 1929 yılına kadar Arap alfabesi, daha sonra Latin (1929-1940) ve Kiril (1940-1993) alfabeleri kullanılmış, bağımsızlığın ardından 2 Eylül 1993’te yeniden Latin alfabesine dönülmüş, bu arada imlâ kuralları beş defa yenilenmiştir (1923, 1929, 1935, 1956, 1995). Orta Asya’da yaşayan diğer Türk boyları gibi Özbekler de Orhon yazıtlarını ve eski Uygur metinlerini ilk edebî eserleri olarak kabul etmektedir. Bugün Özbekistan sınırları içinde yer alan Fergana ve Siriderya havzasında yirmi civarında runik Türk yazıtı bulunmuştur. </p><p> Çağdaş Özbek edebiyatı tarihlerinde Özbek edebiyatı kadim dönem, mümtaz edebiyat, yeni edebiyat adıyla üç dönemde ele alınmaktadır. Zerdüştîliğin kutsal kitabı Avesta ve runik Türk yazıtlarıyla başlatılan kadim dönem VII. yüzyılda yerini bu dönemin ikinci evresine bırakır. Kâşgarlı Mahmud, Yûsuf Has Hâcib, Edib Ahmed Yüknekî, Ahmed Yesevî ve Rabgūzî’nin eserleriyle <span class="eser">Oğuznâme</span> bu evreye aittir. Mümtaz edebiyat Timurlular dönemi ve XVI-XIX. yüzyıllar arası olmak üzere iki kısma ayrılmaktadır. Seyf-i Sarâyî, Lutfî, Hâfız-ı Hârizmî, Hüseyin Baykara, Ali Şîr Nevâî, Bâbür, Atâî, Sekkâkî ve Gedâyî birinci dönemin; Şeybânî Han, Muhammed Sâlih, Ebülgazi Bahadır Han, Sûfî Allahyâr, Nâdire, Muhammed Şerîf Gülhanî, Üveysî, Nûr Muhammed Andelib ikinci dönemin temsilcileridir. Yeni edebiyat millî uyanış (1850-1905), Cedîd edebiyatı (1905-1930), Sovyet devri edebiyatı (1930-1980) ve müstakillik devri (1990’dan itibaren) olarak dört dönemde incelenir. Millî uyanış devrinde Kâmil Hârizmî, Muhyiddin Muhyî, Yûsuf Saryomiy, Mukīmî, Zevkî; Cedîd edebiyatı döneminde Sıddîkī Azîz, Abdullah Avlânî, Abdürraûf Fıtrat, Hamza Hekimzâde Niyâzî, Abdullah Kādirî, Abdülhamid Süleymanoğlu Çolpan; Sovyet edebiyatı devrinde Gafûr Gulâm, Aybek, Mîrkerîm Âsım, Mîrtemir, İzzet Sultan, Zülfiye, Şükrullah, Mîrmuhsin, Âdil Yâkubov, İbrâhim Gafurov, Pîrimkul Kadirov gibi yazarlar yetişmiştir. Hüsnüddin Şerifov, Muhtar Omonov, Âzâd Şerefeddinov, Naîm Kerimov, Yoldaş Süleyman, Erkin Vahidov, Şükür Halmîrzaev ve diğerleri müstakillik dönemi yazarları arasında dikkat çekmektedir. </p><p> Özbek halk edebiyatının en hacimli eserleri Köroğlu ve Alpamış destanlarıdır. Köroğlu destanının 100 civarında varyantı tesbit edilmiştir. Halk edebiyatının günümüze aktarılmasında en büyük rolü bahşı, şair, cirav, cırçi gibi adlar verilen halk ozanları oynamıştır. Cumanbülbül, Ergeş Cumanbülbüloğlu, Fazıl Yoldaşoğlu, Polken, İslâm Şair Nazaroğlu, Çarı Bahşı Umiroğlu, Rahmetullah Yusufoğlu meşhur bahşılardır. Sovyet döneminde 200’den fazla bahşı tesbit edilip eserleri kayda geçirilmiştir. </p><p> 1875 yılından itibaren <span class="eser">Türkistan Vilayatining Gazeti</span> isimli gazetede Tolstoy ve Puşkin’in eserlerinin Özbekçe çevirileri yayımlanmış, Özbek yazarları bu çevirilerden etkilenerek modern şiir ve edebiyatın örneklerini vermeye başlamıştır. 1913’te Özbekçe olarak çıkan <span class="eser">Sadâ-yı Türkistan</span>, <span class="eser">Semerkand</span> ve <span class="eser">Ayna</span> gazetelerinde eserlerini tefrika etme imkânı bulan Özbek yazarlarının modern şiir, hikâye ve romanla tanışmalarında Rus ve Batılı edebiyatçıların yanında Türk yazarların da katkısı olmuştur. Şinâsi, Nâmık Kemal, Ziyâ Paşa, Tevfik Fikret, Ruşen Eşref Ünaydın, Yahya Kemal Beyatlı, Yakup Kadri Karaosmanoğlu, Refik Halit Karay ve Falih Rıfkı Atay gibi Türk yazar ve şairlerinin eserleri Özbekçe ve Tatarca’ya tercüme edilmiştir. </p><p> 1917 Bolşevik İhtilâli’ne kadar sadece Mîrmuhsin’in <span class="eser">Bezerfend Açıldıbey</span> adlı romanı (1914), Abdülhamid Süleyman Çolpan’ın <span class="eser">Dohtor Muhammedyar</span> isimli hikâyesi (1914), Hamza Hekimzâde Niyâzî’nin <span class="eser">Yeni Saadet: Millî Roman</span>’ı (1915) yayımlanma imkânı bulmuştur. Özbek romanının kurucusu olarak kabul edilen Abdullah Kādirî’nin ilk romanı <span class="eser">Ötken Künler</span>, 1923-1924’te <span class="eser">İnkılâb</span> dergisinde tefrika edildikten sonra 1926 yılında kitap halinde basılmıştır. 1929’da Semerkant’ta yayımlanan ikinci romanı <span class="eser">Mehrabdan Çayan</span>’da Rus işgali öncesinde Hokand Hanlığı’nda taht kavgası veren hânedan mensuplarıyla valileri, dergâh ve camiler etrafında toplanan asalak tiplerin maceralarını, <span class="eser">Abid Ketman</span> isimli romanında kolhoz ve köy hayatını anlatmıştır. </p><p> Abdürraûf Fıtrat’ın 1918 yılında Taşkent’te kurduğu Çağatay Gürüngi adlı yazarlar birliği modern Özbek edebiyatının gelişmesine önemli katkıda bulunmuştur. Stalin döneminde pantürkizm ve panislâmizm suçlamalarıyla ortadan kaldırılan şair Çolpan’ın sağlığında dört şiir kitabı yayımlanmıştır (<span class="eser">Uyanış</span> [1922], <span class="eser">Çeşmeler</span> [1924], <span class="eser">Tan Sırları</span> [1926], <span class="eser">Koşuklarım</span> [1935]). Çolpan komünizmin inşa sürecinde (1920-1937) şiirlerinin propaganda aracı olarak kullanılmasına izin vermemiş; Elbek, Aydın ve Aybek gibi dönemin diğer şairleri de onun yanında yer almıştır. Abdullah Kādirî, Abdürraûf Fıtrat ve Çolpan gibi Özbek millî uyanış edebiyatının önemli şahsiyetleri 4 Ekim 1938 tarihinde kurşuna dizilmiştir. Bu dönemde Erkin Vahidov, Berat Baykabilov, Abdullah Aripov gibi şairler rejimin istekleri doğrultusunda eser vermek zorunda kalmıştır. Çolpan’ın hayatının en kritik döneminde yayımlanan <span class="eser">Keçe ve Kündüz</span> adlı romanı (1936) Özbek edebiyatında roman türünün gelişmesinde önemli rol oynamıştır. Romanda Rus İmparatorluğu zulmü altında ezilen Türkistan halkı ele alınmıştır. Aybek mahlasıyla tanınan Musa Taşmuhammedoğlu <span class="eser">Nevaî</span> (1942) adlı romanında Ali Şîr Nevâî’yi anlatmıştır. Özbek edebiyatının en parlak eserleri arasında yer alan roman defalarca basılmış, Türkiye Türkçesi’ne aktarılmış ve yabancı dillere tercüme edilmiştir. Özbek edebiyatının tarihî konuları işleyen önemli eserlerinden biri de Pîrimkul Kadirov’un büyük devlet adamı, Çağatay edebiyatının ünlü temsilcisi Bâbür’ün hayatını konu edinen <span class="eser">Yulduzlu Tünler</span> adlı romanıdır. Yazar, bunun bir devamı olan <span class="eser">Evladler Davani</span>’de Bâbür’ün kurduğu imparatorluğu sürdüren Hümâyun ve Ekber Şah’ın hayatını ve mücadelelerini anlatmıştır. </p><p> Stalin döneminde milyonlarca mâsum insanın ölümünü, sürgüne gönderilmesini, hapsedilmesini konu edinen ilk romancı olan Şöhret (Âlimov Gulâm) <span class="eser">Altın Zenlemes</span> adlı romanında saf, iyi niyetli ve açık sözlü öğretmen Sâdık’ın trajik yaşamını hikâye etmiştir. Eser Özbek edebiyatında otobiyografik roman tarzının seçkin örneklerindendir. Stalin devrinde yaşayan insanların çektikleri sıkıntıları dile getiren başka bir roman da Şükrullah’ın <span class="eser">Kefensiz Kömilgenler</span>’idir. Abdulla Kahhar’ın 1934 yılında yayımlanan <span class="eser">Serah</span> isimli romanının kahramanı yazar olma arzusuyla yanıp tutuşan yetenekli genç Rehimcan Seidiy’dir. Ancak ideolojik baskılar onun özgür düşünmesine, hayatı ve insanları doğru algılamasına engel olur. Âdil Yâkubov <span class="eser">Diyanet</span> adlı romanında (1973) perestroykadan önceki Sovyet yönetimini sert bir dille eleştirir. Yâkubov daha sonra yazdığı <span class="eser">Ak Kuşlar, Apak Kuşlar</span>’da (1988) yine Sovyet yıllarını daha derin ve geniş olarak yansıtmıştır. </p><p> Özbek romanında dikkati çeken konulardan biri de Afganistan, Arabistan, Türkiye gibi ülkelerde göçmen olarak yaşayan Özbekler’dir. Şöhret <span class="eser">Cennet Kıdırgenler</span> adlı romanında (1968) muhaceretteki Özbekler’in çektikleri sıkıntıları anlatmış, İstanbul’da yaşayan Özbek asıllı yazar Sabir Seyhan <span class="eser">Edeşgenler</span> romanında (Taşkent 1996) aynı konuyu işlemiştir. II. Dünya Savaşı da Özbek edebiyatında en çok işlenen konulardan biridir. Aybek <span class="eser">Kuyaş Karaymes</span>, Şöhret <span class="eser">Şinelli Yıllar</span>, Âdil Yâkubov <span class="eser">Er Başige İş Tüşse</span>, Seid Ahmed’in <span class="eser">Ufk</span> adlı romanlarında savaş yıllarında ölen, sakat kalan, kaybolan Özbek gençlerinin dramı, askere gidenlerin geride bıraktıkları ailelerinin çektikleri sıkıntılar, savaşın getirdiği yoksulluk ve kıtlık, aşklar, acılar anlatılmıştır. Sadreddin Aynî’nin <span class="eser">Buhara Cellatları</span> (1970), Abdullah Kādirî’nin <span class="eser">Ötgen Künler</span> (1993), Âdil Yâkubov’un <span class="eser">Uluğbeyin Hazinesi</span> (1993), <span class="eser">Köhne Dünya</span> (1993), <span class="eser">Adalet Menzili</span> (1994), Nur Ali Kabul’un <span class="eser">Unutulan Sahiller</span> (1996), Aybek’in <span class="eser">Nevâî</span> (1995), Pîrimkul Kadirov’un <span class="eser">Son Timurlu I, II</span> (2004), Şükrullah’ın <span class="eser">Kefensiz Kömilgenler</span> (2005), Tulepbergen Kaipbergenov’un <span class="eser">Karakalpak Kızı</span> (2006) adlı romanları Türkiye Türkçesi’ne çevrilmiştir. </p><p> Özbek edebiyatında ilk tiyatro yazarı Mahmud Hoca Behbûdî’dir. 1911 yılında kaleme aldığı <span class="eser">Pederkûş yahut Okımegen Balenin Hali</span> isimli üç perdelik oyunu <span class="eser">Turan</span> mecmuasında tefrika edilmiş ve 1913’te basılmıştır. Tiyatro türünün gelişmesinde Hamza Hekimzâde Niyâzî’nin önemli katkısı olmuştur. Hekimzâde eserlerinde dinsizliği yaydığı gerekçesiyle 1928 yılında halk tarafından linç edilmiştir. Abdürraûf Fıtrat 1920’de yazdığı <span class="eser">Hind İhtilâlcileri</span> isimli tiyatro eserini 1923’te Berlin’de bastırmak zorunda kalmıştır. Gulâm Zaferi, Usman Nâsır, Kâmil Yaşın, Maksud Şeyzâde, Sabir Abdulla, Uygun, Nezir Seferov, Hamid Gulâm, Şükrullah, Âdil Yâkubov, Cumaniyaz Cabbarov ve Şeref Başbekov da önde gelen tiyatro yazarlarıdır. Bunların eserleri Rusça, Kazakça, Kırgızca, Tacikçe gibi dillere çevrilmiştir. Özbek yazarlarının komünist döneminde yasaklanmış olan eserleri bugün yeniden basılmaktadır. </p><p> <b>2. Eğitim ve Öğretim.</b> XIX. yüzyılın sonlarında Taşkent, Buhara, Semerkant, Hîve gibi önemli şehirler başta olmak üzere çevre illerle birlikte Özbekistan topraklarında toplam 7860 mektep ve medrese mevcuttu. Taşkent’te 167, Siriderya bölgesinde 1402 mektep ve medrese bulunuyordu. Öğrenci sayısı 70.864 idi. 1890’lardan itibaren açılmaya başlanan Cedîd mektepleri dışındaki mektep ve medreselerde eğitim çağın çok gerisindeydi. Öğrenciler Arapça’yı Farsça ders kitaplarından öğrenmeye çalışıyordu. Cedîd okullarının açılmasıyla Mahmud Hoca Behbûdî, Münevver Kārî, Abdürraûf Fıtrat, Hamza Hekimzâde Niyâzî gibi yazarlar Özbekçe ders kitapları hazırlamaya giriştiler. Özbekistan topraklarında ilk Rus okulu 1875’te Taşkent’te açıldı. 1916’da Ruslar’ın bölgede açtığı okulların sayısı seksen üçe ulaştı; ancak eğitim Rusça yapıldığı ve Ortodoksluğun esasları öğretildiği için halkın bu okullara ilgisi fazla olmadı, seksen üç okulda sadece 2800 öğrenci eğitim görüyordu. 1897 nüfus sayımına göre halkın yalnız % 2’si okuma yazma biliyordu. 1914-1915 yıllarında erkek çocukların % 2-3’ü eğitim alıyordu. Sovyetler döneminde Özbekler’e diğer Türk boylarından daha fazla yüksek tahsil imkânı sağlanmıştır ve sosyalizmin Orta Asya’da bu okumuş sınıf tarafından inşa edilmesi amaçlanmıştır. Özbekistan’da ilk üniversite 1920’de Türkistan Devlet Üniversitesi adıyla açılmış, 1960’ta Taşkent Devlet Üniversitesi olarak değiştirilmiştir. 1926 yılında eğitim seferberliği başlatıldığında halkın ancak % 11,6’sı okuma yazma biliyordu. 1970’te okuma yazma oranı % 99,7’ye ulaştı. 1975-1976 öğretim yılında 9700 ilkokulda 3.803.000 öğrenci okuyor ve 210.900 öğretmen görev yapıyordu. Kırk iki üniversite ve yüksek okulda 246.600 öğrenci eğitim görüyordu. </p><p> Özbekistan Cumhuriyeti’nde iki eğitim bakanlığı vardır. Birinci sınıftan on birinci sınıfa kadar eğitim veren ve adına “mektep” denen okullar ve pedagoji enstitüleri Halk Eğitimi Bakanlığı’na; diğer okul, kolej, enstitü ve üniversiteler Yüksek ve Orta Meslekî Eğitim Bakanlığı’na bağlıdır. Zorunlu eğitim dokuz yıldır. Yüksek öğretim yirmi dört üniversite ve kırk enstitüde sürdürülmektedir. Bunların yarısı Taşkent’tedir. Üniversite ve yüksek okullardaki öğrenci sayısı 280.000 civarındadır. Taşkent’te ayrıca Rusya’nın meşhur yüksek öğretim kurumlarından olan Plehanov Ekonomi Akademisi ve Lomonosov Moskova Devlet Üniversitesi’nin şubeleri bulunmaktadır. İngiliz Westminster Üniversitesi Taşkent’te bir şube açmıştır. Ülkede 6500 civarında kütüphane bulunmaktadır. Başarılı öğrenciler Umid, Ulugbek, Kamolot gibi vakıflarca desteklenmektedir. 2003-2005 yılları arasında Avrupa Birliği ve Amerika Birleşik Devletleri fonlarından 2,5 milyon dolar, 2005 yılında Avrupa Birliği fonlarından 2,6 milyon euro eğitim yardımı alınmıştır. Özbekistan’a bağlı tek muhtar cumhuriyet olan Karakalpakistan’daki Berdah Devlet Üniversitesi 1935’te öğretmen enstitüsü olarak açılmış, 1944’te Pedagoji Enstitüsü’ne dönüştürülmüş, 1976’da Nukus Devlet Üniversitesi adını almış, 1992’de Berdah Devlet Üniversitesi olarak yeniden yapılandırılmıştır. </p><p> <b>Basın-Yayın.</b> 1917 yılında Özbekistan’da orta ölçekli yirmi beş matbaa ve litografya bulunuyordu, bunların çoğu devlete aitti. 1913’te basılan elli altı kitabın otuz üçü Özbekçe idi. İlk Türkistan devlet matbaası 1920’de açıldı, 1925’te 334 kitap ve broşür yayımlandı. Kitap ve broşürlerin tirajı 1940’ta 11,2 milyona, 1960’ta 20 milyona ulaştı. 1975 yılında basılan 2280 kitap, broşür, gazete ve derginin toplam tiraji 47 milyon kadardı. Aynı yıl altı ciltlik ilk Özbek ansiklopedisi neşredildi. İlk Özbekçe gazete 1870’te <span class="eser">Turkistanskie Vedomosti</span> adıyla çıkmaya başladı. 1883’te adı <span class="eser">Türkistan Vilayatining Gazeti</span> olarak değiştirilen gazete ancak 500-600 adet basılıyordu. 1914’te ülkede yayımlanan on beş gazeteden biri Özbekçe, diğerleri Rusça idi. İhtilâl yıllarında <span class="eser">İştirakiyun</span>, 1918’den itibaren <span class="eser">Kommunist</span>, 1924’te <span class="eser">Kambagal Dehkon</span>, <span class="eser">İşçi</span>, <span class="eser">Kolhoz Yolu</span> gibi değişik adlarla on altı Özbekçe gazete çıkarıldı. 1975’te ülkede yayımlanan 256 gazetenin 169’u Özbekçe idi. Bugün Özbekistan’da toplam 507 gazete yayın hayatını sürdürmektedir. Özbekçe <span class="eser">Halk Sözü</span>, Rusça <span class="eser">Narodnoye Slovo</span>, <span class="eser">Pravda Vostoka</span>, Özbekçe-Rusça <span class="eser">Darakçi</span> en önemli gazetelerdir. Ülkede yayımlanan 157 derginin büyük bölümü çeşitli devlet ve sivil toplum kuruluşlarınındır. Dergiler genelde Özbekçe ve Rusça ağırlıklıdır. Ülkede yaşayan diğer azınlıkların kendi dillerinde (Tacikçe, Kazakça, Ermenice, Korece) çıkarmakta oldukları bazı dergiler de bulunmaktadır. 1921’de Taşkent’te kurulan ilk radyo istasyonu 1927 yılından itibaren düzenli biçimde yayın yapmaya başladı. Özbek Radyosu 1975’te Özbekçe ve Rusça’nın yanı sıra Kazakça, Tacikçe, Karakalpakça, Tatarca ve Uygurca; Özbekistan’ın Sesi Radyosu İngilizce, Farsça, Arapça, Hintçe, Urduca, Uygurca yayın yapıyordu. Düzenli televizyon yayınları 1956 yılında başladı. Bugün ülke genelinde dört televizyon kanalı yayın yapmaktadır.</p><p><b>3. Dinî ve Tasavvufî Hayat.</b> Bugünkü Özbekistan topraklarında Buhârî, Tirmizî, Mâtürîdî, Bahâeddin Nakşibend gibi İslâm dünyasının meşhur din âlimleri ve mutasavvıfları yetişmiştir. % 82’si müslüman olan nüfusun büyük çoğunluğu Hanefî mezhebine mensuptur. Buhara ve Semerkant civarında çok az sayıda Şiî topluluğu mevcuttur. Sovyet müslüman cumhuriyetleri, 1923’te kendilerini İslâm dünyasından ayıran bir demir perdenin üzerlerine inmesiyle birlikte sınırları ötesindeki din kardeşleriyle bütün ilişkilerini kesen yeni bir döneme girdiler. Haccın yanında İran (Kum, Meşhed) ve Irak’taki (Necef, Kerbelâ) Şiî kutsal merkezlerine ziyaret yapılması yasaklandı. Orta Asya ve Kafkasya bu bölgeler dışından gelen müslümanlara kapatıldı ve hemen hemen hiçbir Sovyet müslümanına yurt dışına çıkma izni verilmedi. İslâm dünyasından kopuş alfabenin değiştirilmesiyle doruk noktasına ulaştı. Arap alfabesi 1929’da yerini Latin alfabesine bıraktı. Alfabenin değiştirilmesiyle Sovyetler Birliği’nin diğer bölgelerinde olduğu gibi Özbekistan’da da İslâmiyet’i ortadan kaldırma çabaları hızlandırıldı. Camiler ve Kur’an kursları kapatıldı, vakıf malları devletleştirildi, şeriat mahkemeleri kaldırıldı, din âlimleri asalak, sabotajcı, Alman veya Japon casusu suçlamasıyla tutuklanmaya, sürgüne gönderilmeye veya idam edilmeye başlandı. Bu dönemde öldürülen, sürgüne gönderilen veya uzun yıllar hapis yatan müslümanların sayısı milyonlarla ifade edilmektedir. Stalin bu imha kampanyasının İslâm dünyasından gizli tutulmasına özen gösteriyordu. Stalin sonrası dönemde din âlimleri üzerindeki baskılar hafiflemekle birlikte dine karşı mücadele devam etti. 1948-1976 yılları arasında İslâm karşıtı yaklaşık 177 kitap Özbekçe olarak yayımlandı. Nikita Kruşçev’in görevden alınması Moskova, Sovyet müslümanları ve müslüman ülkeler üçgeninde büyük bir değişikliğe sebep oldu. Müslümanlar ilk defa devletin Sovyetler Birliği sınırları dışındaki müslüman ülkelere ilişkin çeşitli birimlerinde görev almaya başladılar. </p><p> Sovyetler döneminde Özbekistan Orta Asya müslümanları açısından özel bir konuma sahipti. Orta Asya ve Kazakistan Müslümanlarının Dinî İdaresi (Taşkent Müftülüğü) Taşkent’te bulunuyordu. Faaliyetlerine izin verilen Buhara’daki Mîr Arap Medresesi ve Taşkent’teki İmam Buhârî Âlî Ma‘hedi bütün Sovyetler Birliği’nin müslüman din görevlisi ihtiyacını karşılıyordu. Sovyetler Birliği’nde basılarak yurt dışına dağıtılan tek dinî neşriyat müftülük tarafından hazırlanan <span class="eser">Sovyet Şarkî Müslümanları</span> adlı dergiydi. Bu dergi beş ayrı dilde yayımlanıyordu (Özbek, İngiliz, Fransız, Arap ve Urdu). Özbekistan’da Sovyetler Birliği’ndeki diğer müslüman ülkelerden daha fazla sayıda ibadete açık cami bulunuyordu. Taşkent müftüsü gerek hükümet gerekse yabancı ülkeler nezdinde Sovyetler Birliği’ndeki müslümanların resmî lideri gibi hareket etmekteydi. Sovyetler Birliği’ni ziyaret eden müslüman delegasyonlar Taşkent müftüsü tarafından karşılanıyor, milletlerarası İslâmî konferanslar ve toplantılar da genel olarak Taşkent, Semerkant ve Buhara’da düzenleniyordu. </p><p> Bağımsızlık sonrasında ülkede İslâmî faaliyetlerde büyük canlanma oldu, cami ve mescidler inşa edilmeye başlandı. Bugün ülkede Özbekistan Müslümanlarının Dinî İdaresi, Karakalpakistan Kadılığı, Taşkent İslâm Enstitüsü, on medrese ve 2000’den fazla cami devlete bağlı olarak faaliyet göstermektedir. Abdürreşid Kori Bahramov 1993 yılından beri Özbekistan Müslümanlarının Dinî İdaresi’nin başkanlığını yapmaktadır. Özbekistan Bakanlar Kurulu’na bağlı olarak çalışmakta olan bu kurum <span class="eser">İslâm Nuru</span> isimli bir gazete ve <span class="eser">Hidâyet</span> isimli bir dergi neşretmekte, yine bu kuruma ait Mâverâünnehir Yayınevi çeşitli dinî kitaplar basmaktadır. 1999’da kurulan İmam Buhârî Taşkent İslâm Üniversitesi 2003 yılında ilk mezunlarını verdi. Onun yanında bir yayınevi ve İmam Mâtürîdî Uluslararası Araştırmalar Merkezi bulunmaktadır. Özbekistan’da bugün 2222 dinî vakıf, dernek, cami ve kilise bulunmaktadır. Bu kuruluşların 2042’si müslümanlara, diğerleri çeşitli dinî gruplara aittir (164 hıristiyan, sekiz yahudi, altı Bahâî, bir Budist ve diğerleri). Ülkede müslümanlar dışında Provaslavyan, Katolik, Lutheran, Baptist, Evanjelist, Buhara ve Avrupa yahudileri, Bahâî ve Krişna gibi dinî cemaat ve gruplar bulunmaktadır. Müslümanlardan sonra en güçlü grup Rus Ortodoksları’dır. Ortodokslar’ın otuz dernek ve vakfı, üç manastırı ve çeşitli okulları mevcuttur. </p><p> Bağımsızlık sonrasında ülkede tasavvufî faaliyetler büyük bir canlılık kazanmıştır. Nakşibendiyye Özbekistan’ın en yaygın tarikatıdır. Kübreviyye Hârizm oblastında ve Karakalpak Muhtar Cumhuriyeti’nde, Yeseviyye Kuzey Özbekistan’da tesirlidir. Kādiriyye, Özbekistan’a II. Dünya Savaşı’ndan sonra Orta Asya’ya sürülen Çeçen-İnguşlar tarafından getirilmiştir. Kalenderiyye tarikatı da bütün Özbekistan’da yaygındır. Özbekistan’da Buhara, Semerkant ve Hârizm gibi vilâyetler başta olmak üzere 160 civarında türbe, ziyaretgâh ve kutsal mekân bulunmaktadır. İmam Buhârî, Ebû Hafs el-Kebîr, Seyfeddin el-Bâharzî, Muhammed Bahâeddin Nakşibend, Çor Bakr, Şâh-ı Zinde, Zengi Ata ve Hâce Ubeydullah Ahrâr türbeleri en meşhurlarıdır. Komünist döneminde din aleyhtarı müzelere çevrilen bu ziyaretgâhların bazıları bağımsızlık sonrası tekrar eski hüviyetini kazanmıştır. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> M. Buzruk Slahof, <span class="eser">Özbek Edebiyatında Milletcilik Körünişleri</span>, Taşkent 1933.</p><p>V. Koçarov, <span class="eser">İz istorii organizatsii i razbitiya narodnogo obrazovaniya v Turkestanskom krae</span>, Taşkent 1969.</p><p>Baymirza Hayit, <span class="eser">Sovyetler Birliği’ndeki Türklüğün ve İslâmın Bazı Meseleleri</span>, İstanbul 1987, s. 192-199.</p><p><span class="eser">Stratejik Açıdan Sovyet Müslümanları ve Diğer Azınlıklar</span> (ed. S. E. Wimbush, trc. Yuluğ Tekin Kurat), Ankara, ts. (Yeni Forum Yayınları), s. 303-328.</p><p>Timur Kocaoğlu, “Çağdaş Özbek Edebiyatı”, <span class="kisaltma" data-ad="tdek"><i>TDEK</i></span>, III, 756-768.</p><p>Mirzà Şahmuhamadov S., <span class="eser">Şimdiki Özbek Edebiyatı Tarihi</span>, Taşkent 1993.</p><p>Nadir Devlet, <span class="eser">Doğuştan Günümüze Büyük İslâm Tarihi: Çağdaş Türkîler</span> (ek cilt), İstanbul 1993, s. 323-353.</p><p>a.mlf., <span class="eser">Rusya Türklerinin Millî Mücadele Tarihi (1905-1917)</span>, Ankara 1999, s. 205-210.</p><p>Yusuf Avcı, <span class="eser">Fıtrat ve Eserleri</span>, Ankara 1997.</p><p>İristay Kuçkartayev, “Özbek Romanı Üzerine”, <span class="eser">IV. Türk Dünyası Yazarlar Kurultayı: Bildiriler</span> (haz. İsmail Çetin – Hasan Avni Yüksel), Ankara 1999, s. 99-107.</p><p><span class="eser">Türkiye Dışındaki Türk Edebiyatları Antolojisi: Özbek Edebiyatı I-III</span>, Ankara 2000, XIV-XVI.</p><p><span class="eser">Türk Dünyası Edebiyatı</span>, Ankara 2002, I-II.</p><p>Aynur Öz, “Özbek Edebiyatında Tiyatro Türü Üzerine”, <span class="eser">Türkler</span> (nşr. Hasan Celal Güzel v.dğr.), Ankara 2002, XIX, 702-708.</p><p>Orhan Söylemez, “Özbek Edebiyatı”, <span class="eser">Türk Dünyası Kültür Atlası: Türk Devlet ve Toplulukları / A Cultural Atlas of the Turkish World: Turk States and Peoples</span> (haz. Ahmet Taşağıl – Aydın Usta), İstanbul 2003, s. 595-604.</p><p>a.mlf., “Türkiye Türkçesinde Yayınlanmış Türk Dünyası Romanlarında Tarih”, <span class="eser">II. Uluslararası Türk Uygarlığı Kongresi</span>, Bişkek 2005, s. 101-109.</p><p>a.mlf., “Özbek Edebiyatından Tarihî Bir Roman: Yıldızlı Geceler (Babür)”, <span class="eser">Atatürk Üniversitesi Türkiyat Araştırmaları Enstitüsü Dergisi</span>, sy. 15, Erzurum 2000, s. 117-131.</p><p>a.mlf., “Türkiye Türkçesinde Özbek Tarihi Romanı”, <i>a.e.</i>, sy. 21 (2003), s. 113-122.</p><p>Ali İhsan Kolcu, <span class="eser">Çağdaş Türk Dünyası Edebiyatı</span>, Ankara 2004, s. 325-327.</p><p><span class="eser">Özbekistan Ülke Raporu</span> (haz. Faruk Uysal), Ankara 2004.</p><p>C. D. Eltazarov, <span class="eser">Özbekistan’da 20. Asırda Amele Koyulan Yazı ve İmla Islahatları Tarihinden</span>, Taşkent 2006.</p><p>Rahmetulla Barakaev, “Rus Edebiyatından İlk Tercümeler Tarihine Dair”, <span class="eser">Özbek Dili ve Edebiyatı</span>, sy. 2, Taşkent 1992, s. 44-49.</p><p>Aziz Merhan, “Abdulla Qodiriy ve Özbek Romanının Doğuşu”, <span class="eser">Türkiyat Araştırmaları Dergisi</span>, sy. 20, Konya 2006, s. 138.</p><p>“Uzbekskaya Sovetskaya Sotsialistiçeskaya Respublika”, <span class="kisaltma" data-ad="bse"><i>BSE</i></span>, XXVI, 483-494.</p><p>“Özbekler”, <span class="kisaltma" data-ad="tdea"><i>TDEA</i></span>, VII, 198-204.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023175.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 113-117 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('ÖZBEKİSTAN', 'ozbekistan', '3-kultur-ve-medeniyet', 'C34023175.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023175.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_4-mimari" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									4 bölümden oluşan maddenin 4. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="ÖZBEKİSTAN" href="https://islamansiklopedisi.org.tr/ozbekistan?utm_source=pdf#4-mimari">https://islamansiklopedisi.org.tr/ozbekistan#4-mimari</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#3-kultur-ve-medeniyet" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="4 bölümden oluşan maddenin 4. bölümü">
+													4/4												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next article-nav-passive " data-jurl="#" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="4-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="ÖZBEKİSTAN//4-mimari" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/yasar-coruhlu"><b>YAŞAR ÇORUHLU</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">ÖZBEKİSTAN</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>YAŞAR ÇORUHLU</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2007</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/ozbekistan#4-mimari</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext4">
+														YAŞAR ÇORUHLU, "ÖZBEKİSTAN", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ozbekistan#4-mimari (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>IV. MİMARİ</b><br>Özbekistan’da erken yerleşmeler içindeki mimari eserler arasında Koy Kırılgan Kale (m.ö. IV. yüzyıl), Canbas Kale (m.ö. III. yüzyıl), Angka Kale (I-II. yüzyıl) ve Toprak Kale (III. yüzyıl) sayılabilir. İslâm medeniyetinin Özbekistan’a nüfuz ettiği sıralarda Kâfir Kale (VI-VII. yüzyıl), Teşik Kale (VI-VII. yüzyıl), Varahşa (VII-VIII. yüzyıl) başlıca örneklerdir. 674-751 yılları arasındaki mücadelelerden sonra (Talas Savaşı) Araplar Özbekistan topraklarında elde ettikleri yerlerde mevcut olan eski din ve kültürlere ait yerleşmeleri İslâmî kimliğe büründürmek amacıyla çeşitli imar faaliyetlerinde bulundular. Bazan eski mâbedleri camiye çevirmekle birlikte (Beykend ve Semerkant’ta olduğu gibi) çoğu kere yeni cuma camileri inşa ettiler. Zerdüşt ve Budist tapınaklarını yıktılar. Bazan da onların hemen yanına camiler yaptılar. </p><p> Türk idaresindeki Buhara’yı fetheden Kuteybe b. Müslim 93 (712) yılında burada bir cuma camii yaptırdı. Bugün mevcut olmayan caminin yerinde XVI. yüzyılın başında inşa edilen bir cami ile birlikte daha erken tarihli, Karahanlılar devrinden kalma tuğladan yapılmış silindirik formdaki Kalan Minaresi bulunmaktadır (bk. <a href="https://islamansiklopedisi.org.tr/kalan-camii" target="_blank">KALAN CAMİİ</a>). Buhara şehrinin en eski anıtlarından biri de Sâmânî İsmâil b. Ahmed’in (892-907) türbesidir. Tuğladan kare planlı türbe dört ana yöne kemerlerle açılan öncü bir yapıdır. Bazı araştırmacılar, Tim’deki Arap Ata Türbesi’nin de Sâmânîler devrine ait olduğunu ileri sürmektedir. Buhara’ya 40 km. mesafede Karahanlılar devrinde yapılan Hazara (Diggaran) Camii (XI. yüzyıl) kare şeklinde merkezî planlıdır. İslâm öncesi Orta Asya mimarisinin etkilerini taşıyan bu yapı bağlantılar az olsa da bu plan tipini sonraki devirlere ulaştırır. Arslan Han tarafından 513’te (1119) ilk şekli bir musallâ olarak inşa edilen Namazgâh Camii ve özellikle taçkapılarından birindeki süslemeleriyle ünlü XI-XII. yüzyıllara ait Mugak Attari Camii altı sütunla üç bölüme ayrılmıştır ve kısmen geleneksel düz çatılı ulucami tipini devam ettirmektedir. Karahanlı mezar anıtlarının en dikkate değer örneklerinden 367 (977-78) tarihli Tim’deki Arap Ata Türbesi dışarıya taşkın bir cephe halindeki pîştâk tarzı taçkapısıyla dikkat çekmektedir. Tirmiz’deki Sultan Saâdet Türbeleri ile (XI-XII. yüzyıl) XII. yüzyıla ait Şaburgan Ata Türbesi de Karahanlılar devrine aittir. </p><p> Günümüze sadece taçkapısı gelebilmiş olmakla birlikte Karahanlı döneminin kayda değer kervansarayı olan Ribât-ı Melik (1078-1079) Buhara-Semerkant yolu üzerindedir. İslâm öncesi Orta Asya mimarisinin etkilerini taşıyan yivli cephe uygulamasının Türk İslâm dönemindeki önemli örneklerinden olan yapı, tek bünyede iki bölüme ayrılıp arka kısımdaki küçük kubbelerle çevrili büyük kubbeli mekânı ve salonlarıyla Kırgızistan’daki Taş Ribât’ı hatırlatmaktadır. Karahanlılar’ın Tirmiz Sarayı da devrin önemli eserlerindendir (XI-XII. yüzyıl). </p><p> Günümüzde sadece belirli bölümleri ayakta duran Semerkant’taki Bîbî Hanım Camii 1399-1405 yılları arasında yapılmış olup Timurlu devrinin ihtişamını yansıtan tipik bir örnektir. Timur’un torunu Muhammed Sultan adına Semerkant’ta inşa edilen, daha sonra Timur’un kendisinin de gömülmesi sebebiyle Gûr-ı Emîr adıyla anılan türbe ile çoğu XIV-XV. yüzyıllardan kalma Şâh-ı Zinde Mezarlığı’ndaki yapılar ve bilhassa türbeler de bu dönemin şaheserlerindendir. Uluğ Bey’in yaptırdığı bir taçkapı vasıtasıyla girilen, içinde sahâbî Kusem b. Abbas’ın türbesinin yer aldığı inişli çıkışlı bir yolun iki tarafındaki, çoğunluğu dörtgen planlı bu anıtlar özellikle çok renkli sır ve mozaik çini tekniğinin kullanıldığı süslemeleriyle dikkati çeker (bk. <a href="https://islamansiklopedisi.org.tr/sah-i-zinde" target="_blank">ŞÂH-ı ZİNDE</a>). Bir diğer önemli yapı ise Semerkant’ta ilk defa 1409’da inşa edilen Uluğ Beğ Rasathânesi’dir (bk. <a href="https://islamansiklopedisi.org.tr/semerkant-rasathanesi" target="_blank">SEMERKANT RASATHÂNESİ</a>). </p><p> Semerkant’ın Registan denilen meydanının çevresindeki Uluğ Bey (1417-1420), Şîrdâr (1619-1636) ve Tillâkârî (1646-1660) medreseleri tipik Timurlu veya Timurlu tarzını devam ettiren eserlerdir. Bunlardan başka aynı geleneği sürdüren Taşkent Kükeltaş Medresesi, Buhara Uluğ Bey Medresesi (1417), Buhara Abdülaziz Han Medresesi (1654) gibi pek çok medrese vardır. Buhara’da önemli medrese ve yapıların bir kısmı da bir havuzun etrafında toplanmıştır. 86 × 69 m. ölçüsündeki Kükeltaş Medresesi (976/1568-69) ve bir hankahla Nâdir Divan Beyi Medresesi de (1620) burada bulunur. Şehirde ayrıca kuyumcuların toplandığı Tâk-ı Zergeran Çarşısı ve Tim denilen diğer çarşılar ekonomiye verilen önemi yansıtan mimari eserlerdir. </p><p>Buhara şehrinin doğusunda Halif Niyazkul tarafından yaptırılan medresenin bir bölümü olan Çâr Minâr (dört minare) ilginç bir anıttır. Şehir, VIII. yüzyıldan itibaren çeşitli devirlerde elden geçirilmiş ve ilâveler yapılmış duvarları ve kapıları ile de ünlüdür. Ayrıca şehirde Çâr Bekir nekropolisi, Sitâre-yi Mâhi Hâssa (Sitorayi Mohi Hossa) Sarayı gibi geç döneme ait Özbek anıtları bulunmaktadır. Eski ismi Keş olan Şehrisebz’deki Aksaray çok meşhur bir yapı olmakla birlikte ondan günümüze sadece büyük kemerli bir giriş kalmıştır. Vaktiyle bu sarayın merkezindeki dört eyvanlı avlu etrafında idare binaları, harem ve taht odası gibi mekânların bulunduğu bilinmektedir. Keş’te 1437’de Uluğ Bey’in yaptırdığı Kök-Gumbaz Camii, Timur’un inşa ettirdiği Dârüttilâvet ve Dârüssaâdet adlı türbeler de önemli yapılardır. </p><p> Aslında IX-X. yüzyıllarda kurulmuş olan Hîve’de Hîve Hanlığı devrinde sanat ve mimarlık değeri olan zengin süslemeli pek çok bina inşa edilmiştir. Cuma Mescidi (1788-1799), Şîr Gazi Han (1725), Muhammed Emin İnak (XVIII. yüzyıl), Muhammed Emin Han (1268/1852), Muhammed Rahim Han (1871), Dost Alyam (1882), Metniyaz Divan Begi (XIX. yüzyıl), Kutluğ Murad İnak (XIX. yüzyıl), Allahkulı Han (XIX. yüzyılın ilk yarısı) ve İslâm Hoca (1917) medreseleri; Şeyh Said Alâeddin ve Pehlivan Mahmud türbeleri (1810), Tura Murad Tura ve Kelte, Minâr minareleri (1855), Allahkulı Han Çarşısı (XIX. yüzyıl ilk yarısı), Allahkulı Han Kervansarayı (1835) ve Taş Avlu Sarayı (XIX. yüzyıl) bu şehirde yer alan önemli eserlerdir. Ayrıca Endican’daki ulucami ile Hokand Hanlığı’nın eseri olan Hokand Han Sarayı Özbekistan’ın önemli yapılarındandır. </p><p> Özbekistan’ın Sovyet dönemi mimarisi günümüzdeki mimari faaliyetlere bağlanan son halkayı teşkil eder. Bu dönem binaları Rus mimarisinin etkilerini Özbekistan’ın eski mimari özellikleriyle birleştirerek ülkenin modern mimarisini oluşturmuştur. Bu iki üslûbun kaynaştığı mimari eserlere Taşkent’te eski ismiyle Sovyet Halklarının Dostluğu Lenin Sarayı ile Taşkent’teki ünlü Nevâî Tiyatrosu (1941-1948) örnek olarak verilebilir. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Emel Esin, <span class="eser">Türkistan Seyahatnamesi</span>, Ankara 1959, s. 28-44.</p><p>G. A. Pugaçenkova – L. İ. Rempel, <span class="eser">İstoriya İskusstvo Uzbekistana</span>, Moskova 1965.</p><p>J. D. Hoag, <span class="eser">Islamic Architecture</span>, New York 1977, s. 199, 201.</p><p>Mustafa Cezar, <span class="eser">Anadolu Öncesi Türklerde Şehir ve Mimarlık</span>, İstanbul 1977, s. 55-64, 112-113, 148-167, 189-192, 220-229, 370-381, 429-459.</p><p>Lutfiya Ainy, <span class="eser">İskusstvo Sredney Azii Epohi Avutsennı-The Central Asian Art of Avicenna Epoch</span>, Duşanbe 1980, s. 202-215.</p><p>G. Pugaçenkova – A. Khakimov, <span class="eser">The Art of Central Asia</span>, Leningrad 1988, s. 8-11.</p><p>Zekeriya Kitapçı, <span class="eser">Türkistan’da İslamiyet ve Türkler</span>, Konya 1988, s. 105-110, 125-131, 148-152, 160, 173 vd.</p><p>T. W. Lentz – G. D. Lowry, <span class="eser">Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century</span>, Los Angeles-Washington 1989, s. 34-37, 40-45.</p><p>Günkut Akın, <span class="eser">Asya Merkezi Mekan Geleneği</span>, Ankara 1990, s. 9, şekil 2-3.</p><p>L. Yu. Mankovskaya, <span class="eser">Buhara Oçik Osmon Ostidagi Muzey-Buhara Muzeypod Otkırıtım Nebom-Bukhara-A Museum in The Open</span>, Taşkent 1991, tür.yer.</p><p>P. Ş. Zahidov – R. H. Avanesov, <span class="eser">Khiva</span>, Taşkent 1994, tür.yer.</p><p>İ. Şoymerdanov v.dğr., <span class="eser">Amir Temur-Jahon Tarihida</span>, Taşkent 1996, s. 151-160.</p><p>K. Pander, <span class="eser">Zentralasien</span>, Köln 1996, s. 137-259.</p><p>Oktay Aslanapa, <span class="eser">Türk Cumhuriyetleri Mimarlık Abideleri</span>, Ankara 1996, s. 198-203, 209, 211-213, 233-235, 244-257, 262, 271-317.</p><p>Gözde Ramazanoğlu, <span class="eser">Orta Asya’da Türk Mimarisi</span>, Ankara 1998, s. 65-71, 84-242.</p><p><span class="eser">Uzbekistan: The Monuments of Islam</span>, Taşkent 2002, tür.yer.</p><p>İnci Kuyulu, “Özbekistan ve Türkmenistan’da Bulunan Ortaçağ Kervansarayları Üzerine Gözlemler”, <span class="eser">Türk Dünyası İncelemeleri Dergisi</span>, sy. 1, İzmir 1996, s. 97-116.</p><p><span class="eser">Taşkent Entsiklopediya, Glavnaya Redaktsiya Uzbekskoy Sovetskoy Entsiklopedii</span>, Taşkent 1983, ilgili maddeler.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023176.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 117-118 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('ÖZBEKİSTAN', 'ozbekistan', '4-mimari', 'C34023176.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/34/C34023176.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+									</div>
+					</div>
+    </div>
+
+	<div class="pure-u-1 pure-u-md-9-24 sticky-sidebar" style="padding-left:50px;">
+		<div style="margin-bottom:30px"><div class="article-country-container"><div class="flag-props"><div class="country-flag"><img src="https://cdn2.islamansiklopedisi.org.tr/madde/34/mi/ozbekistan-bayrak_m.jpg" /></div><div><b>Resmî adı: </b>Özbekistan Cumhuriyeti (Ozbekiston Respublikasi)</div><div><b>Başşehri:</b> Taşkent</div><div><b>Yüzölçümü: </b>447.400 km<sup>2</sup></div><div><b>Nüfusu: </b>26.800.000 (2005)</div><div><b>Resmî dili: </b>Özbekçe</div><div><b>Para birimi: </b>Özbek somu (UZS)<br />
+1 UZS = 100 tiyin</div><div class="flag-ps">Bu bilgiler <i>TDV İslâm Ansiklopedisi</i>’nin 2007 yılına ait matbu nüshasındaki verilerdir.</div> </div></div></div>
+        
+		<!-- dosya link -->
+		<style>
+			.ltfolcont{text-align:center; border: 1px dashed #e5774280; border-radius: 3px; padding: 13px 20px; font-size:0.9rem; margin-bottom: 30px; overflow: hidden; line-height:1.25rem;color:#777;}
+			.ltfolcont span a{font-weight:bold; font-size:1.2rem; color:#e57742; line-height:1.2rem}
+			.ltfolcont span a:hover{text-decoration:underline !important;}
+			.ltfol:hover > div.ltfolcont{background:#f9f1f1;}
+		</style>
+		
+
+
+				<div class="madde_suggested_container">
+			<div class="madde_suggested" id="#faketop">
+                <h2 class="visible-on-print">İlişkili Maddeler</h2>
+                <ul class="related-subjects">
+					<a href="/taskent" target="_blank"><li><div style=""><div class="rs-adi">TAŞKENT</div><div class="rs-tanitim">Özbekistan’ın başşehri.</div></div></li></a><a href="/ozbekler" target="_blank"><li><div style=""><div class="rs-adi">ÖZBEKLER</div><div class="rs-tanitim">Orta Asya’da yaşayan bir Türk topluluğu.</div></div></li></a><a href="/semerkant" target="_blank"><li><div style=""><div class="rs-adi">SEMERKANT</div><div class="rs-tanitim">Özbekistan’da tarihî bir şehir.</div></div></li></a><a href="/buhara" target="_blank"><li><div style=""><div class="rs-adi">BUHARA</div><div class="rs-tanitim">Özbekistan’da tarihî bir şehir.</div></div></li></a><a href="/tirmiz" target="_blank"><li><div style=""><div class="rs-adi">TİRMİZ</div><div class="rs-tanitim">Özbekistan’da tarihî bir şehir.</div></div></li></a><a href="/seybaniler" target="_blank"><li><div style=""><div class="rs-adi">ŞEYBÂNÎLER</div><div class="rs-tanitim">Mâverâünnehir, Hârizm ve Horasan’da hüküm süren bir İslâm hânedanı (1500-1599).</div></div></li></a><a href="/hive-hanligi" target="_blank"><li><div style=""><div class="rs-adi">HÎVE HANLIĞI</div><div class="rs-tanitim">1512-1920 yılları arasında Hârizm’de hüküm süren bir müslüman Türk devleti.</div></div></li></a><a href="/hokand-hanligi" target="_blank"><li><div style=""><div class="rs-adi">HOKAND HANLIĞI</div><div class="rs-tanitim">1710-1876 yılları arasında başşehir Hokand olmak üzere Fergana bölgesinde hüküm süren bir devlet.</div></div></li></a><a href="/turkistan" target="_blank"><li><div style=""><div class="rs-adi">TÜRKİSTAN</div><div class="rs-tanitim">Orta Asya’nın büyük kısmı için kullanılan tarihî bir terim.</div></div></li></a><a href="/harizm" target="_blank"><li><div style=""><div class="rs-adi">HÂRİZM</div><div class="rs-tanitim">Aral gölünün güneyinde uzanan topraklara ve XIII. yüzyıla kadar burada yaşayan halka verilen ad.</div></div></li></a><a href="/maveraunnehir" target="_blank"><li><div style=""><div class="rs-adi">MÂVERÂÜNNEHİR</div><div class="rs-tanitim">Ceyhun nehrinin kuzey ve doğusunda kalan bölgeye İslâm tarihçi ve coğrafyacıları tarafından verilen isim.</div></div></li></a><a href="/asya" target="_blank"><li><div style=""><div class="rs-adi">ASYA</div><div class="rs-tanitim">Dünyanın en büyük kıtası.</div></div></li></a><a href="/siriderya" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">SİRİDERYA</div><div class="rs-tanitim">Orta Asya’nın en büyük akarsularından biri.</div></div></li></a><a href="/endican" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">ENDİCAN</div><div class="rs-tanitim">Özbekistan’da şehir ve aynı adı taşıyan eyaletin merkezi.</div></div></li></a><a href="/merginan" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">MERGĪNÂN</div><div class="rs-tanitim">Özbekistan’ın Fergana idarî bölümünde şehir.</div></div></li></a><a href="/kes" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">KEŞ</div><div class="rs-tanitim">Özbekistan’da tarihî bir şehir.</div></div></li></a><a href="/fergana" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">FERGANA</div><div class="rs-tanitim">Orta Asya’da coğrafî bir bölge.</div></div></li></a><a href="/hokand" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">HOKAND</div><div class="rs-tanitim">Hokand Hanlığı’nın başşehri.</div></div></li></a><a href="/sah-i-zinde" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">ŞÂH-ı ZİNDE</div><div class="rs-tanitim">Özbekistan’ın Semerkant şehrinde Kusem b. Abbas’ın türbesi etrafında zamanla oluşan yapılar topluluğu.</div></div></li></a><a href="/munis" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">MÛNİS</div><div class="rs-tanitim">Özbekistanlı tarihçi ve şair.</div></div></li></a><a href="/zengi-ata" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">ZENGİ ATA</div><div class="rs-tanitim">Orta Asyalı Yesevî şeyhi.</div></div></li></a><a href="/dongen" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">DÖNGEN</div><div class="rs-tanitim">Kırgızistan, Kazakistan ve Özbekistan cumhuriyetlerinde oturan Çinli müslümanlara verilen ad.</div></div></li></a><a href="/karakalpaklar" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">KARAKALPAKLAR</div><div class="rs-tanitim">Orta Asya’da yaşayan bir Türk topluluğu.</div></div></li></a><a href="/islam-konferansi-teskilati" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">İSLÂM KONFERANSI TEŞKİLÂTI</div><div class="rs-tanitim">İslâm ülkelerini bir çatı altında toplayan milletlerarası kuruluş.</div></div></li></a><a href="/ekonomik-isbirligi-teskilati" class="visible-on-print" target="_blank"><li><div style=""><div class="rs-adi">EKONOMİK İŞBİRLİĞİ TEŞKİLÂTI</div><div class="rs-tanitim">Türkiye, İran ve Pakistan arasında 1985’te kurulan bölgesel nitelikte teşkilât.</div></div></li></a>				</ul>
+									<div id="show-ralist" style="padding-top:15px;"><a style="color:#0093c1" href="/ozbekistan/iliskili-maddeler" target="_blank">Bütün ilişkili maddeler &#187;</a></div>
+							</div>
+		</div>
+		
+
+
+        <div class="rg-container">
+            <h2 class="visible-on-print">Görseller</h2>
+            <div>
+                                        <div class="right-gallery" id="rg1">
+                            <a img-order="0" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/ozbekistan-2.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Harita/ozbekistan-2.jpg"
+                                title="Özbekistan"  alt="Özbekistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Özbekistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg2">
+                            <a img-order="1" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-3.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/ozbekistan-3.jpg"
+                                title="Özbekistan’ın tarihî şehirlerinden biri olan Buhara’dan bir görünüş"  alt="Özbekistan’ın tarihî şehirlerinden biri olan Buhara’dan bir görünüş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Özbekistan’ın tarihî şehirlerinden biri olan Buhara’dan bir görünüş</div>
+                        </div>
+                                            <div class="right-gallery" id="rg3">
+                            <a img-order="2" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-4.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/ozbekistan-4.jpg"
+                                title="Buhara yakınında Vabkent Minaresi – Özbekistan"  alt="Buhara yakınında Vabkent Minaresi – Özbekistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Buhara yakınında Vabkent Minaresi – Özbekistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg4">
+                            <a img-order="3" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-5.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/ozbekistan-5.jpg"
+                                title="Taşkent’te XVI. yüzyılın ikinci yarısına aitKükeltaş Medresesi – Özbekistan"  alt="Taşkent’te XVI. yüzyılın ikinci yarısına aitKükeltaş Medresesi – Özbekistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Taşkent’te XVI. yüzyılın ikinci yarısına ait<br>Kükeltaş Medresesi – Özbekistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg5">
+                            <a img-order="4" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/ozbekistan-6.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Diğer fotoğraf/ozbekistan-6.jpg"
+                                title="Buhara Kalesi’ne ait sur kalıntıları veŞeyh Celâl Kapısı – Özbekistan"  alt="Buhara Kalesi’ne ait sur kalıntıları veŞeyh Celâl Kapısı – Özbekistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Buhara Kalesi’ne ait sur kalıntıları ve<br>Şeyh Celâl Kapısı – Özbekistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg6">
+                            <a img-order="5" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/ozbekistan-7.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina içi fotoğrafı/ozbekistan-7.jpg"
+                                title="Buhara Abdülaziz Han Medresesi’nin giriş eyvanındaki mukarnaslardan bir detay"  alt="Buhara Abdülaziz Han Medresesi’nin giriş eyvanındaki mukarnaslardan bir detay" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Buhara Abdülaziz Han Medresesi’nin giriş eyvanındaki mukarnaslardan bir detay</div>
+                        </div>
+                                            <div class="right-gallery" id="rg7">
+                            <a img-order="6" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-8.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/ozbekistan-8.jpg"
+                                title="Uluğ Bey Medresesi – Semerkant/Özbekistan"  alt="Uluğ Bey Medresesi – Semerkant/Özbekistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Uluğ Bey Medresesi – Semerkant/Özbekistan</div>
+                        </div>
+                                            <div class="right-gallery" id="rg8">
+                            <a img-order="7" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/ozbekistan-9.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Diğer fotoğraf/ozbekistan-9.jpg"
+                                title="Buhara Mugak Attari Camii’ningüney taçkapısından bir detay"  alt="Buhara Mugak Attari Camii’ningüney taçkapısından bir detay" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Buhara Mugak Attari Camii’nin<br>güney taçkapısından bir detay</div>
+                        </div>
+                                            <div class="right-gallery" id="rg9">
+                            <a img-order="8" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-10.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/ozbekistan-10.jpg"
+                                title="Nâdir Divan Beyi Hankahı – Buhara/Özbekistan"  alt="Nâdir Divan Beyi Hankahı – Buhara/Özbekistan" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Nâdir Divan Beyi Hankahı – Buhara/Özbekistan</div>
+                        </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="print-part-temp"></div>
+<div id="print-part-temp-top"></div>
+
+<div class="modal" id="issue-modal">
+    <div class="modal-body">
+        <div class="modal-box">
+            <div class="close-button">
+                <span class="icon-close"></span>
+            </div>
+            <div class="modal-top">
+                <span>TDV İslâm Ansiklopedisi Madde Bildirim Formu</span>
+            </div>
+            <div class="modal-container">
+                <div style="width:540px; margin:0 auto;">
+                    <div style="color:#777; font-size:17px; padding-bottom:10px; font-weight:bold;"></div>
+                    <div class="error-box" style="display: none;"></div>
+                    <div class="success-box" style="display: none;"></div>
+
+                    <div style="font-size:17px; color:#ef2f2f; padding: 0 0 15px 0; text-align:left; line-height:21px;">
+                        Bu form aracılığıyla, sadece <strong id="issue-modal-madde">OSMANLILAR//8-mali-yapi</strong> maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise <a href="/iletisim-formu">İletişim Formu</a> aracılığıyla iletilmesi rica olunur.
+                    </div>
+
+                    <form id="modal-issue-form" method="post">
+                        <div>
+                            <input name="bildirim-madde-adi" placeholder="Madde adı" value="" style="visibility:hidden; display:none;">
+                            <input type="text" id="ref-url" name="ref-url" style="visibility:hidden; display:none;" value="https://islamansiklopedisi.org.tr/ozbekistan">
+                            <input type="text" id="issue-g-token" name="g-token" hidden/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bildirim-bildirim">Bildiriminiz <span style="color: red">*</span></label>
+                            <textarea class="form-control" name="bildirim-bildirim" style="max-height: 25vh; min-height: 100px;" placeholder="Ayrıntılı olarak bildiriminizi giriniz." id="bildirim-bildirim" required></textarea>
+                        </div>
+
+                        <div style="font-weight:bold; font-size:15px; color:#666; padding:5px 0 10px 0;">İletişim bilgileriniz</div>
+                        <div class="form-group">
+                            <label for="bildirim-ad-soyad">Adınız ve Soyadınız <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="bildirim-ad-soyad" placeholder="Örn: Ahmet Sönmezgül" id="bildirim-ad-soyad" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-eposta">E-Posta <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="bildirim-eposta" placeholder="isim@ornek.com" id="bildirim-eposta" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-telefon">Telefon Numarası</label>
+                            <input type="tel" class="form-control" name="bildirim-telefon" placeholder="05XXXXXXXX" id="bildirim-telefon" value="">
+                        </div>
+
+                        <p style="font-size: 12px;">Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.</p>
+                        <div style="text-align: center">
+                            <input id="modal-issue-submit" type="submit" class="tdv-btn tdv-btn-primary" style="min-width: 200px" value="Gönder" />
+                        </div>
+                    </form>
+                    <div class="modal-loading">
+                        <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fotorama" class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-auto="false" style="display:none">
+		
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/ozbekistan-2.jpg" data-caption="<b>ÖZBEKİSTAN (1/9)</b> Özbekistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Harita/ozbekistan-2.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Harita/ozbekistan-2.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-3.jpg" data-caption="<b>ÖZBEKİSTAN (2/9)</b> Özbekistan’ın tarihî şehirlerinden biri olan Buhara’dan bir görünüş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-3.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/ozbekistan-3.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-4.jpg" data-caption="<b>ÖZBEKİSTAN (3/9)</b> Buhara yakınında Vabkent Minaresi – Özbekistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-4.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/ozbekistan-4.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-5.jpg" data-caption="<b>ÖZBEKİSTAN (4/9)</b> Taşkent’te XVI. yüzyılın ikinci yarısına ait Kükeltaş Medresesi – Özbekistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-5.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/ozbekistan-5.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/ozbekistan-6.jpg" data-caption="<b>ÖZBEKİSTAN (5/9)</b> Buhara Kalesi’ne ait sur kalıntıları ve Şeyh Celâl Kapısı – Özbekistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/ozbekistan-6.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Diğer fotoğraf/ozbekistan-6.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/ozbekistan-7.jpg" data-caption="<b>ÖZBEKİSTAN (6/9)</b> Buhara Abdülaziz Han Medresesi’nin giriş eyvanındaki mukarnaslardan bir detay <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina içi fotoğrafı/ozbekistan-7.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina içi fotoğrafı/ozbekistan-7.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-8.jpg" data-caption="<b>ÖZBEKİSTAN (7/9)</b> Uluğ Bey Medresesi – Semerkant/Özbekistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-8.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/ozbekistan-8.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/ozbekistan-9.jpg" data-caption="<b>ÖZBEKİSTAN (8/9)</b> Buhara Mugak Attari Camii’nin güney taçkapısından bir detay <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Diğer fotoğraf/ozbekistan-9.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Diğer fotoğraf/ozbekistan-9.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-10.jpg" data-caption="<b>ÖZBEKİSTAN (9/9)</b> Nâdir Divan Beyi Hankahı – Buhara/Özbekistan <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/ozbekistan-10.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/ozbekistan-10.jpg">
+			</a>
+		</div>
+
+<div id="header-article-html" style="display:none">
+	<div id="header-article-html-code">
+		<style>
+		.ults{margin:0px; padding:0px; list-style:none;}
+		.ults li{float:left;}
+		.icon-list-ul{cursor:pointer;}
+		.icon-list-ul:hover{color:#777 !important;}
+		</style>
+		<ul class="ults">
+			<li>
+				<a href="/">
+					<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/logo_2.svg" style="height:39px !important;">
+				</a>
+			</li>
+						<li style="    padding: 24px 7px 0 15px; position:relative; line-height:0px;" class="list-ll">
+				<span class="icon-list-ul topmenurev" style="color:#999; font-size:17px"></span>
+				<div class="top-prev-container bsk" style=" display:none; left:-85px; position: absolute; width: 580px; background: #fff; border: 1px solid #ddd; box-shadow: 0 1px 2px rgba(0,0,0,0.2); top:65px; padding-bottom:5px;">
+						<div class="preview-content">
+						<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png" style="position:absolute; top:-8px; left:100px; width:15px; height:8px !important;" />
+						<ul class="preview-ul" style="padding: 10px 12px 10px 14px; font-size:15px; height:220px; ">
+						<li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >1/4</span><span><span>Müellif: </span><b style="color:#888">CEMALETTİN ŞAHİN</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Batıda ve kuzeyde Kazakistan, güneyde Afganistan, güneybatıda Türkmenistan, doğuda Kırgızistan ve güneydoğuda Tacikistan ile komşudur; sınırları içeri...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#2-tarih"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >2/4</span><span><span>Müellif: </span><b style="color:#888">ABDULLAH MUHAMMEDCANOV</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">II. TARİH Eskiden Turan, Ortaçağ’larda Türkistan, Mâverâünnehir, günümüzde Özbekistan denilen topraklar zengin bir tarihî geçmişe sahiptir. Fergana va...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#3-kultur-ve-medeniyet"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >3/4</span><span><span>Müellif: </span><b style="color:#888">İSMAİL TÜRKOĞLU</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">III. KÜLTÜR ve MEDENİYET Emevîler ve Abbâsîler’den sonra Sâmânîler, Karahanlılar, Me’mûnîler, Gazneliler, Selçuklular, Hârizmşahlar ve Timurlular gibi...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#4-mimari"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >4/4</span><span><span>Müellif: </span><b style="color:#888">YAŞAR ÇORUHLU</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">IV. MİMARİ Özbekistan’da erken yerleşmeler içindeki mimari eserler arasında Koy Kırılgan Kale (m.ö. IV. yüzyıl), Canbas Kale (m.ö. III. yüzyıl), Angka...</div></li>						</ul>
+					</div>
+				</div>
+			</li>
+			
+			<li style="padding-left:0px"><span style="font-weight:bold; color:#888; font-size:18px;">ÖZBEKİSTAN</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="copyright-text" class="centered" style="margin: 0px auto;
+    padding: 30px 20px 0px 20px;
+    color: #888;
+    font-size: 14px; line-height:23px;">
+	<b>Her hakkı mahfuzdur.</b> <i>TDV İslâm Ansiklopedisi’</i>nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi (<i>TDV İslâm Ansiklopedisi</i> internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/sweetalert.min.js"></script>
+
+<style>
+#fcilt div{padding:3px 5px 3px 5px;}
+.flink{line-height:25px;}
+.flink:hover{text-decoration:underline !important;}
+.footer-box-alert:hover{text-decoration:underline;}
+.footer-container {
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.footer-content {
+    background: #484848;
+    padding-bottom: 50px;
+}
+
+.footer-top-border {
+    background: #e2e2e2;
+    color: #666;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    color: color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-top-border a div{color:color:#777;}	
+.motto-link:hover span{text-decoration:underline}
+.footer-bottom-link a:hover{text-decoration:underline !important; color:#333}
+.footer-logo-container img{opacity:0.9}
+.footer-logo-container img:hover{opacity:1}
+.footer-copy{opacity:0.9}
+.footer-copy:hover{opacity:1}
+
+.bbtns a > div{padding:11px 20px 11px 20px ; font-size:0.93rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;position:relative; opacity:0.9}
+.bbtns a > div:hover{opacity:1}
+.randombtn{font-size:0.95rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;
+background:#2FB556; color: #FFF; border:1px solid #f4a76b70; padding:10px 20px; text-align:center; 
+text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;opacity:0.85;
+position:relative
+}
+.randombtn img{position:absolute; height:24px; margin-top:-2px;}
+.randombtn span{margin-left:40px;}
+.randombtn:hover{opacity:1}
+.btnarr{position:absolute; top:0; right:0; bottom:0; background:rgba(29, 48, 55, 0.6); border-top-right-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 12px 10px 12px;font-size: 1.2rem;color: #fff !important;	}
+.btnar{background: #4CAFD2;color: #fff;text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;}
+
+.as-tabs{overflow:hidden; border-bottom: 1px solid #fbcbb2; border-top: 1px solid #fbcbb2; padding-left:15px; padding-right:15px; }
+.as-tabs div.as span{font-size:1rem;}
+.as-tabs div.as{padding: 9px 10px; float:left; text-align:center}
+.as-tabs div.as.act{border-bottom: 2px solid #D97A4A;}
+.as-tabs .as .txt{color:#676767; font-weight:bold; font-size:0.97rem}
+.as-tabs .as.act .txt{}
+.as-tabs .as .txt span{color:#676767;}
+.as-tabs .as.act .txt span{color:#D97A4A}
+.as-tabs .as.psv{cursor:pointer;}
+.as-tabs span.txtcount{font-size:0.75rem !important;}
+
+div.mr{}
+
+	
+</style>
+
+<div class="footer-container">
+	<div class="footer-content">
+        <div class="footer-top-border" style="border-top:2px solid #dedddd; background-color:#f8f8f8; padding-top:30px;">
+
+            <div class="centered" style="font-size:1.2rem;  color:#666; position:relative; text-align:center; background:#f7f7f7; padding:20px 0px; border-radius:3px; border:1px dashed #ddd;">
+                Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+                <a href="/hakkinda.php" style="color:#bd6338" class="motto-link">
+                    <span style="color:#0093b0"> Daha fazla bilgi</span>
+                </a>
+            </div>
+
+            <div class="centered bbtns" style=" padding:25px 20px 5px 20px">
+                <div class="pure-g">
+                    <div class="pure-u-1-3"><a href="/dosyalar"><div class="btnar">DOSYALAR<div class="btnarr">»</div></div></a></div>
+                    <div class="pure-u-1-3"><a href="/sergi-arsivi"><div  class="btnar">SERGİ ARŞİVİ<div class="btnarr">»</div></div></a></div>
+                    <!--				<div class="pure-u-1-4"><a href="/gecen-ayin-ilk-20-si"><div  class="btnar">GEÇEN AYIN İLK 20'Sİ<div class="btnarr">»</div></div></a></div>-->
+                    <div class="pure-u-1-3"><div class="randombtn"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" /><span>RASTGELE</span></div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="centered" style="margin-top: 50px;">
+            <div class="centered_container footer-logo-container" style="text-align:center;">
+                <a href="http://www.diyanet.gov.tr" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/diyanet-isleri-baskanligi-logo.png?t=1" style="border:none; height:140px;" />
+                </a>
+
+                <a href="http://www.isam.org.tr/" class="flink" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/isam-logo.png" style="border:none; height:140px; margin: 0 80px;" />
+                </a>
+
+                <a href="http://tdv.org/" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tdv-logo.png" style="border:none; height:140px;" />
+                </a>
+            </div>
+            <div class="centered_container footer-bottom-link" style="text-align:center; padding-top:40px; color:#fff">
+                <b>Her hakkı mahfuzdur.</b> 2016-2026 TDV İslâm Araştırmaları Merkezi  <span>|</span>
+                <a href="/kullanim_sartlari.php" class="footer-copy" style="color:#fff">Kullanım Şartları</a> <span>|</span>
+                <a href="/iletisim-formu" class="footer-copy" style="color:#fff">İletişim Formu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- random madde -->
+<style>
+.rnd-left-img{text-align:center; padding-top:10px;}
+.rnd-left-img img{max-width:450px; max-height:300px; border-radius: 4px;}
+.rnd-title{font-size: 1.5rem;font-weight: bold; color: #777; text-align:center}
+.rnd-tanitim{color: #e16328; padding-top:2px; text-align:center; padding-left:20px; padding-right:20px;}
+.boxcontainer{overflow: hidden; margin: 20px; border: 1px dashed #c5c5c5; padding: 15px; border-radius: 5px; min-height:190px;}
+.rnd-goto {padding-top:15px;}
+.rnd-goto a{color:#897898;}
+.lightboxrernd{    width: 280px;
+    background: #977898;
+    padding: 7px 25px 8px 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    opacity: 0.9;
+	cursor:pointer;
+}
+.randombtn{cursor:pointer;}
+.rnd-author{padding-top:10px; font-size:0.9rem; color:#777}
+.rnd-author span{font-weight: bold; color: #999;}
+.rnd-kunye{color: #777; font-size: 0.95rem; text-align:center}
+.random-modal {
+    background-color: #0000004f;
+    text-align: center;
+    z-index: 10000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+.random-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 660px;
+    max-height: 90%;
+    width: 660px;
+    margin: 0 auto;
+    text-align:left;
+    border:1px solid #ccc;
+    border-top:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+    z-index:1000001;
+    padding-bottom: 20px;
+}
+.icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+.random-modal-box {
+    overflow: hidden;
+    margin: 20px;
+    border: 1px dashed #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.random-modal-random {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #2FB556;
+    color: #FFF;
+    border: 1px solid #f4a76b70;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 1px 0 0 #407588;
+    letter-spacing: 0.04rem;
+    opacity: 0.85;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.random-modal-random:hover {
+    opacity: .95;
+}
+.random-modal-random:active {
+    opacity: 1;
+}
+.random-modal-random img {
+    position: absolute;
+    height: 24px;
+    margin-top: -2px;
+}
+.random-modal-random span {
+    margin-left: 40px;
+}
+.random-modal-bottom {
+    text-align: center;
+}
+.random-modal-box:hover {
+    background-color: #f6f6f6;
+}
+.random-modal-box:active {
+    background-color: #ebebeb;
+}
+</style>
+
+<div class="random-modal">
+    <div class="random-modal-container">
+        <span class="icon-close"></span>
+        <div style="text-align:center;padding: 22px 25px 15px 25px; border-bottom: 1px solid #ddd; user-select: none;"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_popup_baslik.png"  /></div>
+        <div style="padding: 15px 25px; color:#777; background: #e6e5e5;text-align: center; user-select: none;"><i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde okumak ister misiniz?</div>
+        <div class="lightboxrndarticle"></div>
+        <div class="random-modal-bottom">
+            <div class="random-modal-random">
+                <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png">
+                <span>BAŞKA BİR MADDE GÖSTER</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- random madde -->
+
+
+
+
+
+
+<style>
+.newsalertwrapper{position:fixed; left:0; right:0; bottom:0; top:0; background:rgba(0, 0, 0, 0.55); z-index:10000; display:none; }
+.newsalertbox{
+	position:relative;
+	margin: 100px auto;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;}
+	
+.newsalertbox .hd1{
+	font-weight: bold;
+    font-size: 1.45rem;
+    color: #267893;
+    padding-bottom: 30px;
+}
+.newsalertbox .hd2{
+	font-size: 1.15rem;
+    color: #666;
+	padding-bottom:20px;	
+}
+.newsalertbox .hd3{
+	text-decoration: underline !important;
+    font-size: 1.15rem;
+	color:#0093b0;
+}
+.newsalertbox .hd3 .linkto{color:#0093b0; cursor:pointer;}
+
+.newsalertbox .hd4{padding-top: 30px;
+    font-size: 1.05rem;
+    color: #777;
+	}	
+.alertclose{
+	position:absolute;
+	right:20px;
+	top:18px;
+	font-size: 1.7rem;
+    color: #666;
+	cursor:pointer;
+}	
+</style>
+
+<!-- ntf203.htm notificaiton html-->	
+	
+
+		
+<script>
+
+	
+$('body').on("mousedown touchend", function(e){ 
+    var resultbox = $("#auto-suggest-box");
+    var inputbox = $("#searchBox");
+	var keyboard = $(".dia-keyboard");
+	
+    if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && 
+		!inputbox.is(e.target) && 
+		!keyboard.is(e.target)  && keyboard.has(e.target).length === 0 ){
+    	resultbox .hide();
+		/*
+			$('#searchBox').css("background-color", "#f4f1f1");
+			$('#searchBox').css("border", "none"); 
+	*/
+		}
+
+    var container = $(".hover-menu");
+    var button = $(".hover-menu-button");
+    if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+    	container.hide();
+		//$('.hover-menu-button').css("background","#F7F4F4");
+		}		
+});
+
+
+$(document).ready(function() {
+    $('.randombtn, .random-modal-random, .rndleftbtn').click(function(event){
+        $('.random-modal').show();
+        changeRndArticle();
+
+        jQuery("body").bind("scroll touchmove mousewheel DOMMouseScroll",function(e){
+            e.preventDefault();
+            return false;
+        });
+
+    });
+
+    $('.lightboxrernd').click(function(event){
+		changeRndArticle();
+	});	
+	
+	$('.random-modal .icon-close').click(function(event){
+		$('.random-modal').hide();
+		jQuery("body").unbind('scroll touchmove mousewheel DOMMouseScroll');
+
+	});
+	
+	function changeRndArticle(){
+		$.ajax({
+			url: "/ajax_search_auto.php?c=g&mdl=rnd&q=rnd", 
+				cache : false,
+				success: function(result){ 
+					if(result.trim() == "")
+					{
+						alert("not");
+					}else{
+						$('.lightboxrndarticle').html(result);
+					}
+				}
+			});
+	}
+	
+	/*
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".lightboxcontent");
+		var inputbox = $(".lightboxcontent .icon-close");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+				$('.lightboxbg').hide();
+				$('.lightboxcontent').hide();
+				$('body').css("overflow","visible");
+		}
+	});
+	*/
+	/* random madde */
+
+	
+	
+	
+		/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});	
+	
+	
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500 ) {
+			$("#scrollTop").show();
+		}
+		else{
+			$("#scrollTop").hide();
+		}
+	});
+	
+	$('#scrollTop').click(function(){
+		$("html, body").animate({ 
+			scrollTop: "0px"
+		}); 
+		
+		
+		var url_string = location.href;
+		var clean_url = url_string.split('#', 1);
+
+		
+		history.pushState({}, document.title, clean_url );
+	});	
+
+/* search autocomplete events */
+var is_search_page = 0;
+var sr_type = 'aa';
+
+if(is_search_page == 0)
+{
+		
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+    clearTimeout (timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+
+// pass url search type parameter to autosuggest box
+var strt = 'm';
+if(strt == "y")
+	sr_type = "y";
+else if(strt == "m")
+	sr_type = "aa";
+else if(strt == "b")
+	sr_type = "b";
+else if(strt == "t")
+    sr_type = "t";
+else
+	sr_type = "aa";
+
+
+$('#searchBox').keyup(function(e) {	
+    // ignor arrow actions..
+	
+	var keycode = (e.keyCode || e.which);
+    if(keycode == 37 || keycode == 38 || keycode == 39 || keycode == 40) {
+        return;
+    }
+	
+	getType(1000);
+});
+
+// bind copy past
+$('#searchBox').bind('paste', null, function(e) {
+	getType(1000);
+});
+
+// mouse out and in open results
+$('#searchBox').click(function(e) {	
+	var typed = $.trim($('#searchBox').val());	
+	if(typed.length > 1){
+		if(!$('#auto-suggest-box').is(":visible")){
+			if($('#auto-suggest-content').html() != ""){			
+				$('#auto-suggest-box').show();
+			}
+			else{
+				getType(0);
+			}				
+		}
+	}
+		
+});
+
+
+function getType(times)
+{
+    delay(function(){
+		var typed = $.trim($('#searchBox').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box").hide();	
+			$("#auto-suggest-loading").hide();
+			
+		}
+    }, times );
+}
+
+function autocomplete(typed)
+{
+	$("#auto-suggest-content").html('');
+	$("#auto-suggest-box").show();
+	$("#auto-suggest-loading").show();
+
+	urlcd = encodeURI("/ajax_search_auto.php?sp=" + sr_type + "&=ac&q=" + typed);
+	$.ajax({
+		url: urlcd,
+		success: function(result) {
+                        gtag('config', 'UA-160819951-1', {
+                'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                'page_path': '/arama/?q=' + typed + '&p=autocomplete-' + sr_type,
+            });
+            gtag('event', 'view_search_results', {
+                'search_term': typed,
+                'q_p': sr_type
+            });
+            			if(result.trim() == "")
+			{
+				$("#auto-suggest-box").hide();	
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html('Sonuç bulunmadı.');
+
+                                gtag('config', 'UA-160819951-1', {
+                    'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                    'page_path': '/arama/?q=' + typed + '&p=autocomplete-no-result-' + sr_type,
+                });
+                gtag('event', 'view_search_results', {
+                    'search_term': typed,
+                    'q_p': 'autocomplete-no-result-' + sr_type
+                });
+                			}else{   		
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html(result);
+				// getTxtNumbers(typed);
+				
+				// break span
+				if ($("#auto-suggest-box").width() < 400 ) 
+				{
+						$("#auto-suggest-box span.txt span").css("display","block");
+						$("#auto-suggest-box span.txt span.txtcount").css("display","inline");	
+				}
+				
+				// $(".header_search").find(".srchp").attr( "href", encodeURI( $(".header_search").find(".srchp").attr("href") ) );
+				$(".header_search").find(".as-t a").attr( "href", encodeURI( $(".header_search").find(".as-t a").attr("href") ) );
+				
+
+			
+			}
+		}
+	});
+	
+	
+}
+
+function getTxtNumbers(typed){
+	$.ajax({
+		url: "/ajax_search_auto.php?mdl=txtdelay&q=" + typed, 
+		cache : false,
+		success: function(result){ 
+			if(parseInt(result) > 0){
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').parent().parent().removeClass('n0').addClass('n' + result.trim());
+				$('.txtcount').removeClass('txtcount');			
+			}
+			else{
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').removeClass('txtcount');	
+			}			
+		}
+	});
+}
+
+$("#auto-suggest-content").on("click", ".as-m.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'aa';
+	strt = 'm';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-y.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'y';
+	strt = 'y';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-b.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'b';
+	strt = 'b';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-t.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+    $(this).parent().removeClass("psv").addClass("act");
+    sr_type = 't';
+    strt = 't';
+    getType(10);
+});
+}
+
+
+
+/* top menu hover */
+$('.hover-menu-button').click(function(){
+	$(this).parent().find(".hover-menu").toggle();
+	//$(this).css("background","#ECE6E6");
+});
+
+
+
+
+
+
+
+/* search boxes silinecek 
+$('.searchBoxyazar').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/muellif-arama/' + search;}
+});
+
+$('.searchBoxBibl').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/bibliyografya_kisaltmalari/' + search;}
+});
+*/
+
+
+$('.searchBox').keypress(function(e){
+	if(e.which == 13){
+		if($('#searc-complete-result a.selected').length == 0){
+			var search = encodeURI($(this).val());
+			window.location = '/arama/?q=' + search + '&p=' + strt;
+		}else{
+			var target = $('#searc-complete-result a.selected').attr('href');
+			window.location = target;
+		}
+	}
+});
+
+$('#icon-search-submit').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?q=' + search;
+});
+
+$('#icon-search-submit-txt').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?p=t&q=' + search;
+});
+
+$("#searchBox").keydown(function(e) {
+	
+  var searchbox = $(this);
+  switch (e.which) {
+    case 40:
+      e.preventDefault(); // prevent moving the cursor     
+	  if($('#searc-complete-result .alist a.selected').length == 0){
+		$('#searc-complete-result .alist a:first').addClass('selected');
+	  }else{
+		$('#searc-complete-result .alist a:not(:last-child).selected').removeClass('selected').next().addClass('selected');
+	  }
+      break;
+    case 38:
+      e.preventDefault(); // prevent moving the cursor
+	  if($('#searc-complete-result a:first.selected').length == 1){
+		$('#searc-complete-result .selected').removeClass('selected');
+	  }
+      $('#searc-complete-result a:not(:first-child).selected').removeClass('selected').prev().addClass('selected');
+      break;
+  }
+});
+
+
+		var isCapital = false;
+		
+		$('.dia-keyboard').click(function(event){
+			jQuery('#searchBox').focus();
+		});
+		
+		$('.close-keyboard').click(function(event){
+			$('.dia-keyboard').hide();
+			$('.open-keyboard').css("opacity","0.3");
+		});	
+
+		$('.open-keyboard').click(function(event){
+			if( $('.dia-keyboard').is(':visible') ){
+				$('.dia-keyboard').hide();
+				$('.open-keyboard').css("opacity","0.3");
+			}
+			else{
+				$('.dia-keyboard').show();
+				$('.open-keyboard').css("opacity","0.8");
+			}
+		});	
+		
+			
+		function addCurrentLetter(letter)
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var character = letter; 
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart) + character + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart+1, $("#searchBox")[0].selectionEnd = selStart+1;				
+		}
+
+		function deleteCurrentLetter()
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart-1) + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart-1, $("#searchBox")[0].selectionEnd = selStart-1;				
+		}		
+		
+		$('.shift').click(function(event){
+			
+			$('.dia-keyboard ul li').each(function(){
+				if(isCapital){
+					$(this).text($(this).attr("hk"));
+				}
+				else{
+					$(this).text($(this).attr("hb"));
+				}
+			});
+						
+			if(isCapital){
+				isCapital = false;
+			}else{
+				isCapital = true;
+			}
+		});
+		
+		$('.dia-keyboard ul li:not(.noletter)').click(function(event){
+			addCurrentLetter($(this).text());
+			$('#searchBox').keyup();
+		});
+		
+		$('.dia-keyboard ul li.space').click(function(event){
+			addCurrentLetter(' ');
+			$('#searchBox').keyup();
+		});
+		$('.dia-keyboard ul li.delete').click(function(event){
+			if($("#searchBox").val().length > 0){
+				deleteCurrentLetter();
+				$('#searchBox').keyup();
+			}
+		});	
+		
+		
+		
+
+
+
+/* volume close-open events */
+$('#albhabet_button').click(function(){
+	$('.cz').hide(); $('.az').toggle();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#cilt_button').click(function(){
+	$('.az').hide(); $('.cz').toggle();
+	$('#albhabet_button').removeClass('arrow-selected');
+	$('#cilt_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_az').click(function(){
+	$('.az').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_cz').click(function(){
+	$('.cz').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+function letter_volumes_setter()
+{
+	if( $('.az').is(":visible")){
+		set_public_cookie("lt=1&vl=0");
+	}else if($('.cz').is(":visible")){
+		set_public_cookie("lt=0&vl=1");
+	}else{
+		set_public_cookie("lt=0&vl=0");
+	}
+}
+
+
+/* newsbar */
+
+if(!$('#newsbar_container').is(":visible")){
+	$('#newsbar_open').show();
+} 
+
+$('#newsbar_close').click(function(){
+	$('#newsbar_container').hide();
+	$('#newsbar_open').show();
+	set_public_cookie("nb=0");
+		
+});
+
+$('#newsbar_open').click(function(){
+	$('#newsbar_container').show();
+	$('#newsbar_open').hide();
+	set_public_cookie("nb=1");
+});
+
+});
+
+
+function set_public_cookie(parameter){
+	$.ajax({
+	url: "/cookie_setter.php?" + parameter,
+	cache : false,
+	success: function(result){ 
+	}
+	});
+}
+	
+	
+</script>
+	
+	
+</body>
+</html>
+<script>
+
+var fotoramaLoaded = 0;
+
+/* article image loading */
+$(function() {
+    $("img.lazy").lazyload();
+});
+
+/* article info selected text */
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+function url_redirect(options){
+    var $form = $("<form />");
+	$form.attr("action",options.url);
+	$form.attr("method",options.method);
+
+	for (var data in options.data)
+		$form.append('<input type="hidden" name="'+data+'" value="'+options.data[data]+'" />');
+
+	$("body").append($form);
+	$form.submit();
+}
+
+function requestCaptcha() {
+    grecaptcha.execute('6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS', {action: 'submit'})
+        .then(function (token) {
+            $('#issue-g-token').val(token);
+        });
+}
+
+function lockModal(lock = true) {
+    let notification = $('textarea[name=bildirim-bildirim]');
+    let name = $('input[name=bildirim-ad-soyad]');
+    let email = $('input[name=bildirim-eposta]');
+    let phone = $('input[name=bildirim-telefon]');
+    let code = $('input[name=bildirim-kodu]');
+    let submitBtn = $('#modal-issue-submit');
+    let loader = $('.modal-loading');
+
+    if (lock) {
+        notification.prop('disabled', true);
+        name.prop('disabled', true);
+        email.prop('disabled', true);
+        phone.prop('disabled', true);
+        code.prop('disabled', true);
+        submitBtn.hide();
+        loader.show();
+    } else {
+        notification.prop('disabled', false);
+        name.prop('disabled', false);
+        email.prop('disabled', false);
+        phone.prop('disabled', false);
+        code.prop('disabled', false);
+        submitBtn.show();
+        loader.hide();
+    }
+}
+
+function resizeFotorama(fotorama) {
+    let activeFrame = fotorama.activeFrame.$stageFrame;
+    let activeImage = activeFrame.find('img.fotorama__img');
+    let activeCaption = activeFrame.find('div.fotorama__caption');
+    let hesap = activeFrame.height() - activeCaption.height();
+    let cssTag = $('#fotorama_max');
+    if (cssTag.length > 0)
+        cssTag.remove()
+    activeImage.parent().append('<style id="fotorama_max">.fotorama_max { max-height: '+ hesap +'px !important; }</style>')
+    activeImage.addClass('fotorama_max');
+}
+
+function pdfStat(articleName, articleSlug, partName, fileName) {
+    const data = {
+        'event_category': 'pdf',
+        'event_label': `${articleName} - ${articleSlug} - ${fileName}`,
+        'file_name': fileName,
+        'file_extension': 'pdf',
+        'link_text': `${articleName} - #${partName}`,
+    };
+
+    gtag('event', 'download', data);
+}
+
+$(document).ready(function() {
+    // Sayfa yüklendiğinde küçük ekranlar için navbar madde adını hazırla.
+    $("#header-article-html-code").appendTo($("#header-article"));
+
+	/* right -left click */
+	$(document).keydown(function(event) {
+		if (event.ctrlKey || event.metaKey) {
+		    switch (event.keyCode) {
+		        // left
+		        case 37:
+                    window.location.href = '/ozbek-han-camii';
+                    break;
+                //right
+                case 39:
+                    window.location.href = '/ozbekkan-suphi-ziya';
+                    break;
+                default:
+                    return;
+            }
+        }
+	});
+
+    let issueModal = $('#issue-modal').modal();
+    let feedbackBtn = $('.feedback-btn');
+    let issue = '';
+
+	/* show arrb */
+	$('bibl .kisaltma').click(function(event) {
+	    let popup = $('.bibl-popup');
+	    let sidebar = $(".theiaStickySidebar");
+
+        let target = $(this);
+        let slug = false;
+        let bibkey = $(this).html();
+        if (target.data('ad')) {
+            bibkey = target.data('ad');
+            slug = true;
+        }
+
+        let offsets = $(this).offset();
+        let position = $(this).position();
+        let sidebarTopOffset = sidebar.offset().top
+        let topoffs = offsets.top - sidebarTopOffset + 40;
+        let leftoffs = (position.left - 26) + ($(this).width() / 2);
+
+        let isUseSafeArea = (sidebar.width() - position.left < 120);
+        popup.find('img').css('right', 'unset');
+        if (isUseSafeArea) {
+            popup.find('img').css('right', 24);
+        }
+
+        let q = bibkey.replace('[', '(').replace(']', ')');
+        $.ajax({
+            url: "/ajax_search_auto.php?c=g&mdl=bpop&q=" + q + '&slug=' + slug,
+			cache : false,
+			success: function(result){
+				if(result.trim() !== "") {
+                    $('.bibl-cnt').html(result);
+
+                    if (isUseSafeArea) {
+                        leftoffs = leftoffs - popup.width() + 14;
+                    }
+
+					popup.css("top", topoffs + "px");
+                    popup.css("left", leftoffs + "px");
+                    popup.show();
+
+				}
+			}
+		});
+	});
+
+	$( window ).resize(function() {
+		$('.kisaltma').each(function( index ) {
+			if($(this).find('.bibpos').length > 0)
+			{
+
+			}
+		});
+	});
+
+	/* close bibl poup */
+	$('.close-bibl-poup').click(function(event){
+		$(this).parent().hide();
+		$('.kisaltma').find('.bibpos').remove();
+	});
+
+	issueModal.on('modal:show', function () {
+        $('.grecaptcha-badge').addClass('show');
+    });
+
+    issueModal.on('modal:hide', function () {
+        $('.grecaptcha-badge').removeClass('show');
+    });
+
+	/* feedback post */
+	feedbackBtn.click(function() {
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+        let issueModalMadde = $('#issue-modal-madde');
+        errorBox.hide();
+        successBox.hide();
+        issue = $(this).data('issue');
+        if (issue) {
+            let cookie = localStorage.getItem('bildirim_' + issue);
+            let form = $('#modal-issue-form');
+            issueModalMadde.text(issue);
+            form[0].reset();
+            form.find('input[name="bildirim-madde-adi"]').val(issue);
+            if (cookie !== null) {
+                let json = JSON.parse(cookie);
+                $.each(json, function (index, elem) {
+                    if (elem.name !== 'bildirim-kodu' && elem.name !== 'bildirim-madde-adi') {
+                        form.find('[name="' + elem.name + '"]').val(elem.value);
+                    }
+                });
+            }
+            requestCaptcha();
+            issueModal.show();
+        }
+	});
+
+
+	var article_div = $('.body_pad_article');
+	var article_div_bottom_pos = article_div.position().top + article_div.outerHeight(true);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > article_div_bottom_pos - 300 ) {
+			$(".article-left-bar").css("position", "absolute");
+		}
+		else{
+			$(".article-left-bar").css("position", "fixed");
+		}
+	});
+
+	$('.show-former').click(function(event){
+		$(".country-former").toggle();
+
+		if($(".country-former").is(":visible")){
+			$(this).parent().find('.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		}else{
+			$(this).parent().find('.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+	});
+
+	$('.show-source').click(function(event){
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+		$(".country-source").toggle();
+	});
+
+	$('.icon-list-ul').click(function(event){
+		$(".top-prev-container").show();
+		$(this).css("color","#777");
+		$(".preview-title").show();
+		$(".article_title h1").css("color","#fff");
+	});
+	$('.icon-list-up').click(function(event){
+		$(".top-prev-container-p").show();
+		$(this).css("color","#777");
+	});
+
+	$(document).mouseup(function (e)
+	{
+		// preview hover
+		var container = $(".top-prev-container.bsk");
+		var button = $(".list-ll");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+				$(".preview-title").hide();
+				$(".article_title h1").css("color","inherit");
+			}
+			/*
+		var container = $(".top-prev-container-p");
+		var button = $(".icon-list-ul-p");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+			}
+            */
+	});
+
+
+	$('.btn-preview').click(function(event){
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-plan').removeClass("active").addClass("passive");
+		$('.plan-content').hide();
+		$('.preview-content').show();
+	});
+
+	$('.btn-plan').click(function(event){
+
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-preview').removeClass("active").addClass("passive");
+		$('.plan-content').show();
+		$('.preview-content').hide();
+
+	});
+
+
+	/* prevent img click href */
+	$('.lazy').click(function(event){
+		event.preventDefault();
+	});
+
+
+
+	/* open image slider fotorama */
+	$('.lazy').click(function(){
+
+		if(fotoramaLoaded == 0){
+			$('.fotorama img').each(function(){
+				var imgurl = $(this).attr("srcs");
+				$(this).attr("src", imgurl);
+				fotoramaLoaded = 1;
+			});
+		}
+
+		$('#fotorama').show();
+		var $fotoramaDiv = $('#fotorama').fotorama();
+		var fotorama = $fotoramaDiv.data('fotorama');
+
+		fotorama.requestFullScreen();
+		var order = $(this).parent().attr("img-order");
+		fotorama.show(order);
+	});
+	$('.fotorama').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+		$('#fotorama').hide();
+	});
+
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenenter', function (e, fotorama) {
+	    resizeFotorama(fotorama);
+    });
+
+    $(window).on('resize', function () {
+        let fotorama = $('.fotorama').data('fotorama');
+        if (fotorama) {
+            setTimeout(function () {
+                resizeFotorama(fotorama);
+            }, 100);
+        }
+    });
+
+	/* article part info fade / soru işareti kaldırıldı
+	$('.article-nav-open-info').click(function(){
+		var totals = $(this).parent().find('.article-nav-numbers').html().split("/")[1];
+		var currents = $(this).parent().find('.article-nav-numbers').html().split("/")[0];
+		$('.article-nav-info-li').html('<b>' + totals + '</b> bölümden oluşan maddenin <b>' +  currents + '</b>. bölümü:');
+		$(this).parent().find(".article-nav-info-li").fadeIn("slow");
+		$(this).hide();
+	});
+	 */
+
+
+	/* part info */
+	$('.ak-copy').click(function(){
+		if($(this).find('span').text() == 'Kopyalama metni'){
+			$(this).parent().find('.ak-list').hide();
+			$(this).parent().find('.ak-copytext').show();
+			SelectText($(this).parent().find('.ak-copytext').attr("id"));
+			$(this).find('span').text('<< Geri');
+		}else{
+			$(this).parent().find('.ak-list').show();
+			$(this).parent().find('.ak-copytext').hide();
+			$(this).find('span').text('Kopyalama metni');
+		}
+	});
+
+
+
+
+	/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});
+
+
+
+
+	$('#authors_show').click(function(){$(".authors_popup").toggle();});
+
+	$(document).mouseup(function (e)
+	{
+		var container = $(".authors_popup");
+		var button = $("#authors_show");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+			container.hide();}
+	});
+
+	// default
+
+	if ($("#auto-suggest-box").width() == 376 )
+	{
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+	}
+
+	$(window).scroll(function() {
+		var poss = "";
+		var firstPart = $('.article-parts').position().top;
+
+		if ($(this).scrollTop() > 60) {
+			$("#logo-part").hide();
+			$("#logo-beta").hide();
+			$("#header-article").show();
+			$("#searchBox").css("width","380px");
+			$("#auto-suggest-box").css("width","380px");
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+			$("#header-article-html-code").appendTo($("#header-article"));
+        }
+		else{
+			$("#logo-part").show();
+			$("#logo-beta").show();
+			$("#header-article").hide();
+			$("#searchBox").css("width","490px");
+			$("#auto-suggest-box").css("width","490px");
+			$("#auto-suggest-box span.txt span").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+		}
+	});
+
+	$('.clicktop').click(function(e){
+		$("html, body").animate({
+			scrollTop: "0px"
+		});
+		window.location.hash=""	;
+	});
+
+	$('.article-nav-next, .article-nav-prev, .preview-jump').not('.article-nav-passive').click(function(){
+		window.location = $(this).attr('data-jurl');
+		var jl = '#_' + window.location.href.split("#").pop();
+		$('html, body').animate({ scrollTop: ( $(jl).offset().top - 120) }, 900);
+		$(".top-prev-container.bsk").hide();
+	});
+
+    issueModal.on('change', function () {
+        let form = $('#modal-issue-form');
+        let bildirimText = form.find('textarea[name="bildirim-bildirim"]');
+        if (issue && bildirimText.val().length > 0) {
+            let excludes = ['g-token'];
+            let cookie = 'bildirim_' + issue;
+            let formData = form.serializeArray();
+            $.each(formData, function (index, item) {
+                if (item && excludes.indexOf(item.name) > -1)
+                    formData.splice(index, 1);
+            });
+            localStorage.setItem(cookie, JSON.stringify(formData));
+        }
+    });
+
+    $('#modal-issue-form').submit(function (e) {
+        e.preventDefault();
+        let form = $('#modal-issue-form');
+        let data = form.serializeArray();
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+
+        errorBox.hide();
+        errorBox.empty();
+        successBox.hide();
+        successBox.empty();
+        lockModal();
+
+        data.push({
+            name: 'article-id',
+            value: 17545        });
+        $.post('/bildirim.php', data).done(function (data) {
+            issueModal.hide();
+            Swal.fire({
+                html: data.message,
+                icon: 'success',
+                showConfirmButton: false,
+                showCloseButton: true
+            });
+
+            form[0].reset();
+            localStorage.removeItem('bildirim_' + issue);
+            lockModal(false)
+            requestCaptcha();
+        }).fail(function (data) {
+            let response = data.responseJSON;
+            if (response.errors) {
+                errorBox.empty();
+                errorBox.html(response.errors.join('<br>'));
+                errorBox.slideDown('fast');
+            }
+            $('input[name=bildirim-kodu]').val('');
+            requestCaptcha();
+            lockModal(false);
+        });
+    });
+
+	if(window.location.href.indexOf('#') > -1){
+		var dashvalue = window.location.href.split("#").pop();
+		try{
+		var jt = '#_' + window.location.href.split("#").pop();
+		if ($(window).scrollTop() <= 0)
+		    $('html, body').animate({ scrollTop: ( $(jt).offset().top - 160) }, 900);
+		}catch(err){}
+	}
+
+	/* article toolbar functioms */
+	$('#pagecolorSepia').click(function(){
+		$("body").css("background", "#fff");
+		$(".body_container").css("background" , "#F5EEDE");
+		$(".m-body, .m-title, .title_info").css("color", "#614D1D");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#F5EEDE");
+		$("#article_toolbar").css("border-color","#E4D0A3");
+		$("#artplan").addClass("sepya");
+		$(".article-plan-buttons").addClass("sepya");
+		$(".hdrprt1").addClass("sepya");
+		$(".hdrprt1arrows").addClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").addClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down-sepya.png")
+		$(".article-left-bar").css("background","#f5eede");
+	});
+
+	$('#pagecolorWhite').click(function(){
+		$(".body_container").css("background" , "#fff");
+		$("body").css("background", "#f1f4f4");
+		$(".m-body, .m-title, .title_info").css("color", "#333");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#f4f1f1");
+		$("#article_toolbar").css("border-color","#ededed");
+		$("#artplan").removeClass("sepya");
+		$(".article-plan-buttons").removeClass("sepya");
+		$(".hdrprt1").removeClass("sepya");
+		$(".hdrprt1arrows").removeClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").removeClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png");
+		$(".article-left-bar").css("background","#fff");
+	});
+	$('#txtdown').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) + 1;
+		var nlh = parseInt(lh) + 2;
+		if(fs <= '23'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		// set_public_cookie('reader', nfs + 'px,' + nlh + 'px')
+	});
+	$('#txtup').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) - 1;
+		var nlh = parseInt(lh) - 2;
+		if(fs >= '17'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		//set_public_cookie('reader', nfs + 'px,' + nlh + 'px');
+	});
+	$('.icon-align-left').click(function(){
+		$('.m-content').css({"text-align" : "left"});
+		set_public_cookie("aa=left");
+	});
+	$('.icon-align-justify').click(function(){
+		$('.m-content').css({"text-align" : "justify"});
+		set_public_cookie("aa=justify");
+	});
+	/* article toolbar functioms */
+
+
+	$('#printbody').click(function(){
+		$('#m-body').print({
+		globalStyles: true,
+		mediaPrint: false,
+		stylesheet: null,
+		noPrintSelector: ".no-print",
+		iframe: true,
+		append: null,
+		prepend: null,
+		manuallyCopyFormValues: true,
+		deferred: $.Deferred(),
+		timeout: 750,
+		title: null,
+		doctype: '<!doctype html>'
+	   	});
+	});
+
+	$('.printPart').click(function() {
+        const printButton = $(this);
+        const printPart = $('<div class="article-parts"></div>');
+
+        const articlePart = printButton.closest('.article-part');
+        printPart.append(articlePart.clone());
+
+        let pdfPartUrl = '';
+                pdfPartUrl = 'https://islamansiklopedisi.org.tr/ozbekistan#' + articlePart.attr('id').substring(1);
+        
+        const pdfLink = $('<a></a>')
+            .attr('href', pdfPartUrl)
+            .text(pdfPartUrl.replace('https://', ' '));
+
+        const header = $('<div style="border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 10px;"></div>');
+                const partText = articlePart.find('.partnumbers').data('tipso') + 'dür. ';
+        header.append(partText);
+        
+        header.append('Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için: ');
+        header.append(pdfLink);
+
+        const bodyContainer = $('<div class="centered body_container body_pad_article" style="margin-top: 15px;"></div>');
+        bodyContainer.append(header);
+
+        const articleTitle = $('.article_header_container');
+        bodyContainer.append(articleTitle.clone())
+
+		const mBody = $('<div class="m-body"></div>');
+        mBody.append(printPart);
+        bodyContainer.append(mBody);
+
+        const body = $('<body></body>');
+        body.append(bodyContainer);
+
+		body.print({
+            globalStyles: true,
+            mediaPrint: true,
+            stylesheet: null,
+            noPrintSelector: ".no-print",
+            iframe: true,
+            append: null,
+            prepend: null,
+            manuallyCopyFormValues: true,
+            deferred: $.Deferred(),
+            timeout: 750,
+            title: null,
+            doctype: '<!doctype html>'
+	   	});
+	});
+
+
+/* search autocomplete events */
+	var delay = (function(){
+	  var timer = 0;
+	  return function(callback, ms){
+		clearTimeout (timer);
+		timer = setTimeout(callback, ms);
+	  };
+	})();
+	$('#searchBox1').keyup(function() {
+		delay(function(){
+		var typed = $.trim($('#searchBox1').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box1").hide();
+			$("#auto-suggest-loading1").hide();
+
+		}
+		}, 1000 );
+	});
+
+	function autocomplete(typed)
+	{
+		$("#auto-suggest-content1").html('');
+		$("#auto-suggest-box1").show();
+		$("#auto-suggest-loading1").show();
+
+		$.ajax({
+			url: "/ajax_search_auto.php?q=" + typed,
+			cache : false,
+			success: function(result){
+				if(result.trim() == "")
+				{
+					$("#auto-suggest-box1").hide();
+					$("#auto-suggest-loading1").hide();
+				}else{
+					$("#auto-suggest-loading1").hide();
+					$("#auto-suggest-content1").html(result);
+				}
+			}
+		});
+	}
+
+	/* atif */
+	$('.atif-btn').click(function(){
+		$(this).parent().parent().parent().parent().find('.atif-kutusu').slideToggle();
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".atif-kutusu");
+		var inputbox = $(".atif-btn");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+			resultbox.hide();
+			$('.ak-list').show();
+			$('.ak-copytext').hide();
+			$('.ak-copy span').text('Kopyalama metni');
+		}
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $("#auto-suggest-box1");
+		var inputbox = $("#searchBox1");
+		if (!resultbox .is(e.target)  && resultbox .has(e.target).length === 0 && !inputbox .is(e.target)){
+			resultbox.hide();}
+	});
+
+    jQuery('.sticky-content, .sticky-sidebar').theiaStickySidebar({
+        additionalMarginTop: 30
+    });
+
+});
+
+</script>
+
+
