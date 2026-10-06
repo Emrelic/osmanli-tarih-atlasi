@@ -173633,5 +173633,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5877",
+  "zaman": "2026-10-06 19:47",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 21 (yeniden) · tam inşa · ~8-9 sa · makine HAVVA (yalnız koşuya ayrıldı) · temel 2fe8ada7 · worktree C:\\atlas-kosu21 · MOTOR_YURUYUS=1 MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=2 · parmak izi 4/4 (108ec62b · 25be10fa · 31edf55c · b9f36f42) · boş disk 328 GB · 19:02 koşusu 19:07 restart ile durmuştu · çıktı dalı makine/havva-kosu21 · motor tuzu DONUK · yayın YOK",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
