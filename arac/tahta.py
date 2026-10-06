@@ -57,6 +57,12 @@ Kullanım:
                                                        # (süzülen sayı AYRICA basılır)
     py arac/tahta.py bekleyen --gecikmis               # vadesi GEÇMİŞ olanlar
     py arac/tahta.py kapat M-0007 --kim "RENK 3"       # iş bitti, ipliği kapat
+
+`yaz` ÇIKIŞ KODLARI (W50b, 6 Ekim 2026 — otomasyon cümleyi değil KODU okur):
+    0  ULAŞTI      mesajı taşıyan commit push hedefinde (upstream) ÖLÇÜLDÜ
+    1  ULAŞMADI    mesaj tahta.json'da var ama uzakta YOK — TEKRAR YAZMA, elle push
+    2  YAZILMADI (yarım git işlemi · eksik/yanlış argüman · --yanit yok)
+       ya da ÖLÇÜLEMEDİ (detached · upstream yok · fetch düştü) — ULAŞTI SAYMA
 """
 import datetime
 import io
@@ -525,7 +531,10 @@ def _ulasti_mi(yol, _kod):
 
 
 def _git(kayit, baslik, govde):
+    """Commit + pull + push; UZAKTA ölçülen hükmü DÖNDÜRÜR:
+    "ULASTI" · "ULASMADI" · "OLCULEMEDI" (`yaz` bunu çıkış koduna çevirir)."""
     ileti = os.path.join(KOK, ".tahta_ileti")
+    _hal = "OLCULEMEDI"
     io.open(ileti, "w", encoding="utf-8", newline="\n").write(
         "%s\n\n%s\n" % (baslik, govde))
     # 🔴 encoding="utf-8", errors="replace" — YAPI DENETİM 3 BULDU (M-0031).
@@ -656,9 +665,14 @@ def _git(kayit, baslik, govde):
         print("      git commit -m \"TAHTA\" -- oturumlar/tahta.json oturumlar/TAHTA.md")
         print("      git pull --rebase && git push")
         print("   Ve bunu KULLANICIYA da söyle — arıza ÜÇ YERE bildirilir.")
+        # İstisna NEREDE olduysa olsun (commit'ten önce mi, push'tan sonra mı)
+        # hüküm tahminle verilmez: ölçülür. `_ulasti_mi` kendisi istisna atmaz.
+        _hal, _ayr = _ulasti_mi(["oturumlar/tahta.json", "oturumlar/TAHTA.md"], _kod)
+        print("   ölçüm: %s — %s" % (_hal, _ayr))
     finally:
         if os.path.exists(ileti):
             os.remove(ileti)
+    return _hal
 
 
 def _sade_ad(s):
@@ -1027,8 +1041,13 @@ def yaz(a):
         no, m["kimden"], m["kime"],
         ("  (cevap BEKLENİYOR%s)" % (", vade " + m["vade"] if m["vade"] else ""))
         if m["cevap"] == "BEKLIYOR" else ""))
-    _git(kayit, "TAHTA %s — %s -> %s" % (no, m["kimden"], m["kime"]), m["mesaj"])
-    return 0
+    # 🔴 ÇIKIŞ KODU TESLİMİ SÖYLER, YAZIMI DEĞİL (W50b, 6 Ekim 2026 — koordinatör
+    # onayı). Eskiden burası koşulsuz `return 0`dı: push düşse de araç 0 dönüyor,
+    # yalnız metin basıyordu ⇒ çıkış kodunu okuyan otomasyon (`duyur.py:89`)
+    # ulaşmayan mesajı ulaşmış sayıyordu. `"yazıldı"` satırı DEĞİŞMEDİ: o,
+    # mesajın YEREL tahta.json'a girdiğini söyler ve `duyur.py` onu da okur.
+    _hal = _git(kayit, "TAHTA %s — %s -> %s" % (no, m["kimden"], m["kime"]), m["mesaj"])
+    return {"ULASTI": 0, "ULASMADI": 1}.get(_hal, 2)
 
 
 def oku(a):

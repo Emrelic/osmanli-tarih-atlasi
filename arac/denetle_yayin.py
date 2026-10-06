@@ -261,6 +261,83 @@ URETILENLER = {
 KOSU_URETICILERI = {"uret_petek.py", "uret_devirler.py"}
 
 
+# ============================================================================
+# 🧪 SINAMA KAPISI — sınama ilanıyla koşmuş motorun çıktısı YAYINA GİDEMEZ
+# ============================================================================
+# Koordinatör hükmü (6 Ekim 2026): `kaynak_durum.py kapi` (SINAMA) bekçi
+# yasağı koymadan koşu ilanı verir; bedeli, o koşunun çıktısının yayına
+# GİDEMEMESİDİR. Motor ilanın kodunu damgaya geçirir:
+#     window.URETIM_IZI = {"girdi":…, "kapi":{"kod":"SINAMA", "durum":…}, "motor":…}
+# (B kuyruğu, `uret_petek.py` tuzda — UMIT-W10-KAPI-HUKUM-1006). Bu kapı onu okur.
+# ⚠️ BUGÜN `kapi` ALANI HİÇBİR ÇIKTIDA YOK: B kuyruğu yaması inmedi. Alan yoksa
+#    çıktı "kapı öncesi" sayılır: SINAMA mı KOSU mu ÖLÇÜLEMEZ, basılır, BLOKE
+#    ETMEZ. Bloke etseydi bugünkü her yayın dururdu. Yama inince bu açık kapanmalı:
+#    `KAPI_ALANI_ZORUNLU = True` ⇒ alanı olmayan çıktı da DURUR (tek satır).
+KAPI_ALANI_ZORUNLU = False
+SINAMA_KODU = "SINAMA"
+
+
+def kapi_damgasi():
+    """{"sinama": [...], "kapisiz": [...], "kosu": [...], "okunamadi": [...]} —
+    `data/*.js` içindeki HER `URETIM_IZI`den motor ürünü olanların `kapi.kod`u.
+
+    🔴 EVREN `URETILENLER` DEĞİL, YAYIN YÜZEYİ (ölçüldü, 6 Ekim 2026): motorun
+    kaynak çıktıları (`donemler.js` · `devletler_harita.js` · `petek_govde.js`)
+    `.gitignore`dadır; yayına `kodla.py`nin `*_ust.js` + `*_parca.js` eserleri
+    gider ve damga satırı `*_ust.js`e AYNEN taşınır. Kaynağa bakan kapı yayın
+    makinesinde KÖR kalırdı. Motor ürünü = iz'in `motor` sözlüğünde
+    `uret_petek.py` var (altlik/devirler/bekleyenler kendi üreticisini taşır).
+    Bir dosyada birden çok iz olabilir (paketler kaynakları uç uca ekler) ⇒
+    hepsi okunur. Bedel ölçüldü: 569 dosya · 149 MB · ~14 sn."""
+    import glob
+    out = {"sinama": [], "kapisiz": [], "kosu": [], "okunamadi": []}
+    for tam in sorted(glob.glob(os.path.join(KOK, "data", "*.js"))):
+        yol = os.path.relpath(tam, KOK).replace(os.sep, "/")
+        try:
+            metin = open(tam, encoding="utf-8").read()
+        except (OSError, UnicodeDecodeError):
+            out["okunamadi"].append(yol)
+            continue
+        if "window.URETIM_IZI" not in metin:
+            continue
+        for m in re.finditer(r'window\.URETIM_IZI\s*=\s*(\{.*?\})\s*;', metin, re.S):
+            try:
+                iz = json.loads(m.group(1))
+            except ValueError:
+                out["okunamadi"].append(yol)
+                continue
+            if "uret_petek.py" not in (iz.get("motor") or {}):
+                continue                              # motor ürünü değil
+            kapi = iz.get("kapi")
+            if not isinstance(kapi, dict):
+                out["kapisiz"].append(yol)
+            elif kapi.get("kod") == SINAMA_KODU:
+                out["sinama"].append("%s (ilan %s)" % (yol, kapi.get("ilan", "?")))
+            else:
+                out["kosu"].append(yol)
+    return out
+
+
+def kapi_hukmu(k=None):
+    """(ihlal, satırlar) — main() bunu basar ve kararına bağlar."""
+    k = k if k is not None else kapi_damgasi()
+    s = []
+    if k["sinama"]:
+        s.append("✗  SINAMA DAMGALI ÇIKTI — yayına GİDEMEZ: %d" % len(k["sinama"]))
+        s += ["     %s   ← `kaynak_durum.py kapi` ile ilan edilmiş koşunun ürünü" % y for y in k["sinama"]]
+    else:
+        s.append("✓  SINAMA damgalı çıktı yok")
+    if k["okunamadi"]:
+        s.append("✗  kapı damgası AYRIŞTIRILAMADI: %s" % ", ".join(k["okunamadi"]))
+    if k["kapisiz"]:
+        s.append("%s  kapı alanı YOK (B kuyruğu motor yaması öncesi çıktı — SINAMA mı ÖLÇÜLEMEDİ): %s"
+                 % ("✗" if KAPI_ALANI_ZORUNLU else "⚪", ", ".join(k["kapisiz"])))
+    if k["kosu"]:
+        s.append("✓  KOSU damgalı çıktı: %d" % len(k["kosu"]))
+    ihlal = bool(k["sinama"] or k["okunamadi"] or (KAPI_ALANI_ZORUNLU and k["kapisiz"]))
+    return ihlal, s
+
+
 def iz_kapsami():
     """(izsiz, bayatlar, taze, diskte_yok, kosu_bayat, olculemedi) — üretilen
     her çıktının izi var mı, varsa kayıtlı girdi özetleri BUGÜNKÜ dosyalarla
@@ -816,6 +893,74 @@ def inline_sozdizimi():
             ilk = r.stderr.decode("utf-8", "replace").strip().splitlines()
             bulgular.append((i, " ".join(ilk[:3])[:160]))
     return len(bloklar), bulgular
+
+
+# id'den okunduğunda etiketi ŞART koşan özellikler (DOM sözleşmesi)
+_DOM_OZELLIK_ETIKET = {
+    "options": {"select"}, "selectedIndex": {"select"}, "checked": {"input"},
+    "value": {"input", "select", "textarea", "option", "button", "output"},
+}
+
+
+def dom_sozlesmesi(rev=None):
+    """js/'nin `getElementById` ile aldığı ve `.options/.value/.checked…`
+    okuduğu her id, index.html'de O ÖZELLİĞİ TAŞIYAN bir etikette mi?
+
+    🔴 30 Eylül 2026, GERÇEK VAKA — bu denetim onun için doğdu
+    (ARAYUZ-MADDE-0930, UFUK-DUGME-0930 teşhisi): 2ddede3d yeni `index.html`i
+    commitledi, eşi olan `js/app.js` commitlenmedi. Yeni HTML'de `#ufuk-sec`
+    bir `<span>`, eski JS onu `<select>` sanıp `sec.options` okuyor →
+    "Array.prototype.map called on null or undefined", `haritaHazir`dan önce
+    ve `try`sız ⇒ açılış perdesi hiç kalkmadı, geri alınana kadar YAYINDA.
+    📌 "index.html'in beklediği global js/'de tanımlı mı?" sorusu bunu
+       YAKALAMAZDI — ölçüldü: 2ddede3d'de o soru 0 bulgu veriyor (kırılma
+       JS→HTML yönünde, HTML→JS yönünde değil). Bu soru yakalıyor, İKİ YÖNDE
+       sınandı (denetim/ARAYUZ-MADDE-0930-OLC-KAPI.py): kırık 2ddede3d ve
+       9a956026 → 2 uyumsuz; sağlam 17cd2f98 · 7f790990 · HEAD → 0.
+    🔴 `rev` verilirse dosyalar `git show <rev>:` ile okunur: yarım commit'in
+       zararı ÇALIŞMA AĞACINDA görünmez (orada üçlü tutarlıdır, tarayıcıda
+       sınanan odur) — yalnız YAYINLANAN ağaçta görünür.
+    Döner: (js dosyası, beklenti taşıyan id, [uyumsuzluk], [okunamayan])
+    """
+    def oku(yol):
+        if rev is None:
+            try:
+                return io.open(os.path.join(KOK, yol), encoding="utf-8").read()
+            except (IOError, OSError):
+                return None
+        r = subprocess.run(["git", "show", "%s:%s" % (rev, yol)], cwd=KOK,
+                           capture_output=True)
+        return r.stdout.decode("utf-8", "replace") if r.returncode == 0 else None
+
+    html = oku("index.html")
+    if html is None:
+        return 0, 0, [], ["index.html"]
+    h = _yorumsuz_html(html)
+    idler = {m.group(2): m.group(1).lower() for m in
+             re.finditer(r"<([a-zA-Z0-9]+)\b[^>]*\bid=\"([^\"]+)\"", h)}
+    jsler = re.findall(r'<script[^>]+src="(js/[^"?]+)', h)
+    okunamayan, bek = [], {}
+    for j in jsler:
+        js = oku(j)
+        if js is None:
+            okunamayan.append(j)
+            continue
+        js = _yorumsuz_js(js)
+        for m in re.finditer(r'([A-Za-z_$][\w$]*)\s*=\s*document\.getElementById\("([^"]+)"\)', js):
+            deg, id_ = m.group(1), m.group(2)
+            pencere = js[m.end(): m.end() + 1500]
+            for oz in _DOM_OZELLIK_ETIKET:
+                if re.search(r"\b" + re.escape(deg) + r"\." + oz + r"\b", pencere):
+                    bek.setdefault(id_, set()).add(oz)
+    uyumsuz = []
+    for id_, ozler in sorted(bek.items()):
+        et = idler.get(id_)
+        if et is None:
+            continue            # yok olan id: kod `if (!x) return` ile korunuyor olabilir
+        for oz in sorted(ozler):
+            if et not in _DOM_OZELLIK_ETIKET[oz]:
+                uyumsuz.append("#%s <%s> ama js .%s okuyor" % (id_, et, oz))
+    return len(jsler), len(bek), uyumsuz, okunamayan
 
 
 def git_izlenen():
@@ -1502,6 +1647,34 @@ def main():
         print("\n✓  inline sözdizimi: %d <script> bloğu "
               "`node --check` ile temiz" % _n)
 
+    # ── DOM SÖZLEŞMESİ: js/ ↔ index.html (30 Eylül 2026, bkz. fonksiyon) ──
+    # İki ağaçta sorulur: ÇALIŞMA AĞACI (tarayıcıda sınanan) ve HEAD
+    # (yayınlanan). Yarım commit yalnız HEAD'de görünür.
+    _dom_ihlali = False
+    for _etiket, _rev in (("çalışma ağacı", None), ("HEAD", "HEAD")):
+        try:
+            _nj, _nb, _uy, _ok = dom_sozlesmesi(_rev)
+        except Exception as _e:                               # noqa: BLE001
+            _dom_ihlali = True          # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz
+            print("\n✗  DOM sözleşmesi (%s) ÖLÇEMEDİ: %s" % (_etiket, str(_e)[:90]))
+            continue
+        if _uy or _ok or not _nb:
+            _dom_ihlali = True
+            print("\n✗  DOM sözleşmesi (%s): %d js · %d beklenti · %d UYUMSUZ%s%s" % (
+                _etiket, _nj, _nb, len(_uy),
+                (" · okunamayan: " + ", ".join(_ok)) if _ok else "",
+                " · 🔴 beklenti evreni 0 — ÖLÇÜLEMEDİ" if not _nb else ""))
+            for _u in _uy:
+                print("     %s   ← yarım yayın: HTML ile JS farklı sürümlerden" % _u)
+        else:
+            print("\n✓  DOM sözleşmesi (%s): %d js · %d id beklentisi · uyumsuz 0" % (
+                _etiket, _nj, _nb))
+    # KAPSAM BEYANI (koordinatör şartı, 6 Ekim 2026): "uyumsuz 0" yalnız
+    # aşağıdaki kalıbı kapsar; dışı ÖLÇÜLMEZ, temiz DEĞİL.
+    print("   ⓘ kapsam: yalnız `x = document.getElementById(\"id\")` + sonraki 1500 "
+          "karakterde x.%s okuması; querySelector · zincirli erişim · "
+          "index.html'de OLMAYAN id ÖLÇÜLMEZ" % "/".join(sorted(_DOM_OZELLIK_ETIKET)))
+
     # ── İKİ KAPI: girdi.py ↔ index.html (DENETİM AÇIK, 29 Ağustos 2026) ──
     # Bir veri dosyasının İKİ kapısı var ve ikisi AYRI listeden okunuyor:
     #   MOTOR     `arac/girdi.py`  → GIRDI_DOSYALARI
@@ -1605,9 +1778,15 @@ def main():
     # İKİ AYRI SERTLİK, kasıtlı:
     #   ① kırık atıf  → YENİSİNE 0 tolerans. `bilinen_kusur` LİSTESİ beyanlıdır
     #      (sayı değil liste: borç kapanırken yenisi yerine geçemez).
-    #   ② sayı tavanı → ODAKSIZ / BEYANLI→yabancı bugünkü ölçümde DONDURULDU.
-    #      Yalnız GERİLEME bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan
-    #      bir ONAY değil bir DONDURMADIR.
+    #   ② sayı tavanı → her kova bugünkü ölçümde DONDURULDU. Yalnız GERİLEME
+    #      bloke eder. `Değişmez 2s`/`8` ile aynı desen: tavan bir ONAY değil
+    #      bir DONDURMADIR.
+    #      🔴 KOVALAR BURADA SAYILMAZ: tek otorite `odak_olc.py`dir
+    #      (`kapi_olcumu()` hangi kovayı ölçüyorsa o) ve değerleri
+    #      `denetim/ODAK-TAVAN.json`un anahtarlarıdır. Çıktı her kovayı kendi
+    #      satırında BASAR — kova listesi yayın çıktısından okunur, bu yorumdan
+    #      değil. (Burada elle tutulan "ODAKSIZ / BEYANLI→yabancı" listesi sekme
+    #      kovaları gelince bayatladı — 6 Ekim 2026, gecenin altıncı bayat belgesi.)
     #
     # ⚠️ `odak_olc` MODÜL DÜZEYİNDE stdout'a DOKUNMAZ — yukarıdaki
     #    `durum_tablosu` dersi (satır ~1350) bu modülü yazarken bilinçle
@@ -1684,7 +1863,19 @@ def main():
         _paket_ihlali = True
         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
-    if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+    # -----------------------------------------------------------------
+    # 🧪 SINAMA KAPISI — `kaynak_durum.py kapi` ile koşmuş motorun ürünü yayına gitmez
+    # -----------------------------------------------------------------
+    try:
+        _kapi_ihlali, _kapi_satir = kapi_hukmu()
+        print()
+        for _s in _kapi_satir:
+            print(_s)
+    except Exception as _e:                                 # noqa: BLE001
+        _kapi_ihlali = True
+        print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+
+    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
@@ -1693,7 +1884,7 @@ def main():
             #   bayatlık Emre'nin hükmüyle yayını DURDURMAZ (yukarı bak).
             or damga_ihlali or bayat_durdurucu or izsiz or iz_bayat or _sz
             or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
-            or _paket_ihlali):
+            or _paket_ihlali or _dom_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")
