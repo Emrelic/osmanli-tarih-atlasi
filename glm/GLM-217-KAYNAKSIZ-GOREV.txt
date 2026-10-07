@@ -1,0 +1,143 @@
+## GÖREV GLM-H — 217 KAYNAKSIZ KAYIT İÇİN TDV'DE DOĞRU MADDEYİ BUL
+
+Dün kendi ölçümünle (`denetim/GLM1-904-ORTUSME-1006.tsv`) 904 slug'lık havuzu
+üç kovaya ayırdın ve **bu görevin evrenini sen tanımladın**:
+
+```
+YOK            581  (%64,3)  hasatçının uydurduğu slug — verimizde karşılığı YOK
+VAR+kaynaksiz  217  (%24,0)  ← BU GÖREVİN EVRENİ
+VAR+kaynakli   106  (%11,7)  zaten kaynaklı, dokunulmayacak
+```
+
+Ve ayrıca kanıtladın ki o 904 slug'ın kendisi **ölü**: 30/30 örnekte HTTP 302
+ile arama sayfasına düşüyor, 0 gövde (`GLM1-904-IKINCI-CIKARICI-1006`). Üçüncü
+bağımsız çıkarıcı da teyit etti.
+
+🔴 **İki olgu birlikte okunduğunda ortaya çıkan soru şudur ve henüz
+CEVAPLANMADI:** slug ölü, ama **konu** ölü mü? TDV bir yer-kişi
+ansiklopedisidir; `akcakale` slug'ı 302 veriyor olabilir ama *Akçakale*
+maddesi TDV'de **başka bir adla** duruyor olabilir. Senin kendi tuzak ⑨
+ölçümün (`sarikamis-harekati` GET 200 ama aramada hiç görünmüyor) bunun
+tersini de gösterdi. ⇒ **Slug'ın ölümü, maddenin yokluğunun kanıtı DEĞİLDİR.**
+
+217 kaydın kaynak durumu (senin TSV'nden, `kaynak_alt` alanı):
+```
+197  kaynak-YOK          hiç kaynak alanı yok
+ 16  kaynak-BULUNAMADI   "bulunamadı" BEYANI yazılmış  ← EN DEĞERLİ 16
+  4  karışık (dolu + yok)
+tür: 205 yerleşim · 8 devlet · 4 devlet+yerleşim
+```
+📌 O 16 niçin en değerli: biri için gerçek bir TDV maddesi bulursan, **yazılı
+bir beyanı çürütmüş** olursun. Yazılı bir "yok"u düzeltmek, boş bir alanı
+doldurmaktan değerlidir.
+
+---
+
+### AŞAMA A — MÜHÜRLÜ PİLOT (30 kayıt, ÖNCE bu)
+
+🔴 **Ölçümden ÖNCE, aynı dosyaya, şu sırayla yaz:**
+```
+① TOHUM ve SEÇİM      tohum 20261008, 217 satırdan 30 kayıt — seçimi ölçümden
+                      ÖNCE mühürle ve TSV'ye yaz (sonra DEĞİŞTİRME)
+② ÖNGÖRÜ = SAYI       30'un kaçında doğrulanmış gövde bulacaksın?  __/30
+③ ÖNGÖRÜ = MEKANİZMA  niçin? hangi sınıf tutar, hangi sınıf tutmaz?
+```
+⚠️ Sayı ile mekanizma **ayrı ayrı** değerlendirilir. Dün 904'te sayı tuttu,
+mekanizma çürüdü — ve bu bir başarısızlık değil, ölçümün ta kendisidir.
+
+Her kayıt için zincir — **her halka ayrı ayrı kaydedilir:**
+```
+① ARA     https://islamansiklopedisi.org.tr/arama/?q=<ad>
+          `eslesen_adlar` alanındaki TÜRKÇE adı kullan (Akçakale, Ağvât…),
+          slug'ı DEĞİL. Gerekirse normalleştirilmiş/ASCII hâlini de dene.
+          🔴 Arama ADAY üretir, HÜKÜM vermez.
+② SEÇ     listedeki adaylardan hangisi bu kaydı kapsıyor? Birden fazlaysa
+          hepsini yaz. Hiçbiri kapsamıyorsa "aday-YOK" yaz.
+③ DOĞRULA GET https://islamansiklopedisi.org.tr/<aday-slug>
+          HTTP kodu · gövde bayt · gövdenin ilk 200 karakteri
+          🔴 YALNIZ bu halka "madde var" diyebilir.
+④ OKU     gövde gerçekten o yeri/devleti mi anlatıyor? (tuzak ②)
+```
+
+🔴 **TUZAKLAR — hepsi senin ya da bizim ÖLÇTÜĞÜMÜZ vakalar:**
+```
+② canlı slug, YANLIŞ madde    `ordu` → `ordu--sehir` olmalı; gövdeyi OKU
+④ boilerplate gövde            "çekilemedi" ≠ "yok" — bayt sayısı ve içerik ayrı
+⑤ HTTP 000                     TAŞIMA arızası, ölü DEĞİL — yeniden dene, ayrı say
+⑦ çıkarıcının "okuyamadım"ı    belge hakkında HİÇBİR ŞEY söylemez
+                               → şüpheli her satırda İKİNCİ çıkarıcı dene
+⑨ aramada çıkmayan madde       ÖLÜ DEĞİL. Liste ilk ~10'dur ve sayfa sayısı
+                               basmaz. "aramada yok" ⇒ "madde yok" DEMEZ;
+                               makul slug tahminlerini ayrıca GET ile dene
+```
+⚠️ Vekil ölçüme güvenme: bir ölçüm %36 isabetliyse o bir ölçüm değil **aday
+üreticisidir**. Ve yanlış negatif (var olan maddeyi "yok" saymak) yanlış
+pozitiften daha zararlıdır — çünkü kimse bir daha bakmaz.
+
+**Nazik ol:** istekler arası ≥ 1 sn, tam tarayıcı UA + `tr-TR`, `-L` KAPALI
+(yönlendirmeyi görmek istiyoruz, takip etmek değil).
+
+---
+
+### AŞAMA B — TAM 217 (yalnız eşik tutarsa)
+
+Eşiği **şimdi**, ölçümden önce yazıyorum ki sonradan ayarlanamasın:
+```
+doğrulanmış gövde ≥ %40  →  217'nin TAMAMINI koş
+%15 – %40                →  KOŞ, ama raporda "verim düşük" diye beyan et
+< %15                    →  DUR. Bu bir verim sorunu değil, SİSTEMATİK bir
+                            sorundur (arama bu sınıf için işlemiyor) ve
+                            217 istek onu çözmez. SEBEBİ yaz, bitir.
+```
+
+---
+
+### ÇIKTI — iki TSV ve bir MD, başka hiçbir dosyaya DOKUNMA
+
+```
+denetim/GLM1-217-ADAY-1007.tsv     her kayıt bir satır:
+  slug · ad · tur · kaynak_alt · arama_isabet_sayisi · aday_sluglar
+  · secilen_aday · http_kodu · govde_bayt · govde_ilk200 · ikinci_cikarici
+  · sonuc(gövde-VAR | aday-YOK | gövde-BOŞ | taşıma-arızası | yanlış-madde)
+
+denetim/GLM1-217-TANIKLIK-1007.tsv   ⚠️ YALNIZ gövde-VAR satırları için,
+  ve yalnız gövdede AÇIKÇA yazılıysa:
+  slug · aday_slug · alinti(gövdeden BİREBİR) · ne_soyluyor
+  · tarih_hassasiyeti(gün|ay|yıl|yok) · devlet_adi
+
+denetim/GLM1-217-1007.md           rapor
+```
+
+🔴 **İKİ ÇIKTIYI KARIŞTIRMA — ayrı sorular:**
+```
+ADAY     "bu kaydın TDV maddesi VAR mı" → `kaynak:` alanına künye adayı
+TANIKLIK "o madde şu yerin şu tarihte şu devletin olduğunu AÇIKÇA söylüyor mu"
+         → `kaynaklı_halka` adayı, ve ölçütü ÇOK daha sert
+```
+Bayrak kuralı: **örtülü, çıkarım, istisna cümlesi, bölgeden şehre taşınan
+hüküm halka ALMAZ.** İki ayrı kaynağın uçları birleştirilmez. Tarih
+belirsizse `yıl` yaz, gün UYDURMA. Emin değilsen TANIKLIK satırı YAZMA —
+boş bırakmak, zayıf bir satır yazmaktan iyidir.
+
+🔴 **HÜKÜM VERME, SAYIM VER.** Hiçbir `data/` dosyasına, `arac/`a, başka
+hiçbir `denetim/` dosyasına yazma. `kaynak:` alanlarını SEN doldurmayacaksın
+— adayı verirsin, koordinatör yazar.
+
+---
+
+### RAPOR — üç başlık, bu sırayla
+
+```
+① NE ÖLÇTÜM        sayıyla, kova kova. Öngörünün SAYI tarafı tuttu mu?
+                   MEKANİZMA tarafı tuttu mu? İkisini AYRI değerlendir.
+② NE BULAMADIM     "bulunamadı" bir SONUÇTUR, eksiklik değil. Hangi sınıf
+                   ölçülemedi ve NİÇİN (taşıma arızası ≠ madde yok).
+③ NE İSTİYORUM     seçenekliyse önerinle, tek cümle.
+```
+
+📌 Ve dünkü en değerli iki davranışını tekrarla: **aletinin arızasını BEYAN
+ET** (dün PowerShell `2>$null`in bir commit'i sessizce yuttuğunu kendin
+söyledin — beyan edilmiş arıza, gizlenmiş arızadan değerlidir) ve
+**öngörü muhasebesini kendin tut**. Dün kaynaksız payını %10 öngördün, %24,0
+çıktı; yönü doğru, büyüklüğü yanlıştı — ve bunu senden önce kimse fark
+etmezdi.
