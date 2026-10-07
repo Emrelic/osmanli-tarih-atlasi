@@ -1953,7 +1953,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:4, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   yer_id:"Sana",
   d:"Kuruluşundan yalnızca dört yıl sonra Zeydî imamet, Yemen'in en büyük şehri San'a'ya girerek nüfuzunu yaylalardan ovaya taşıdı. Şehir sonraki yüzyıllarda defalarca el değiştirecek, ama San'a'yı tutmak Zeydî meşruiyetinin sürekli bir ölçütü olacaktı.",
-  kaynak:"TDV `yemen`: '288/901: Yahyâ b. Hüseyin San'a'yı ele geçirdi.'" },
+  kaynak:"TDV `yemen`: 288/901: Yahyâ b. Hüseyin San'a'yı ele geçirdi." },
 
 // ── 901-1517 arası: Zeydî imametin kendi iç ardıllık zinciri bu turda
 //    ARAŞTIRILMADI (yukarıdaki nota bak) — SESSİZ BIRAKILDI.
@@ -1962,19 +1962,19 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","osmanli","konu-askeri"],
   yer_id:"Aden",
   d:"Hadım Süleyman Paşa, Hindistan seferi yolunda Aden limanına girdi; Portekiz'e meyilli Tâhirî hâkimi Âmir b. Dâvûd idam edildi ve şehre muhafız bırakıldı. Bu olay Zeydî imamet için doğrudan bir kayıp değildi (Aden zaten rakip Tâhirî hanedanının elindeydi) ama imametin bundan sonraki 97 yıl boyunca uğraşacağı yeni gücün — Osmanlı'nın — Yemen'e ilk ayak basışıydı.", ic_not_d:"Tarih `data/yerlesimler.js`teki Aden kaydıyla (1538-08-03) birebir eşleşiyor.",
-  kaynak:"TDV `yemen`: 'Muharrem 934 (Ekim 1527): Aden Osmanlılar tarafından alındı' [ilk teşebbüs] ve '1538: Hadım Süleyman Paşa Aden'i alarak Tâhirîler hânedanına son verdi.' Gün: data/olaylar_ek5.js kaydı (3 Ağustos 1538) — devletler.js ve yerlesimler.js ile uyumlu." },
+  kaynak:"TDV `yemen`: Muharrem 934 (Ekim 1527): Aden Osmanlılar tarafından alındı [ilk teşebbüs] ve '1538: Hadım Süleyman Paşa Aden'i alarak Tâhirîler hânedanına son verdi.' Gün: data/olaylar_ek5.js kaydı (3 Ağustos 1538) — devletler.js ve yerlesimler.js ile uyumlu." },
 
 { taraflar:["yemen-zeydi"], t:"1547-01-01", b:"Osmanlı San'a'yı ele geçirdi — imamet başkentini kaybetti", tur:"toprak-kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Sana",
   d:"Aden'in alınmasından dokuz yıl sonra Osmanlı kuvvetleri iç yaylaya ilerleyip San'a'yı da ele geçirdi; Yemen beylerbeyiliği artık ülkenin can damarını tutuyordu. Zeydî imamlar bu tarihten itibaren dağlık kuzeye çekilip direnişi oradan sürdürdü.", ic_not_d:"Tarih yerlesimler.js'teki San'a kaydıyla (1547-01-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1547: San'a ele geçirildi.' — data/yerlesimler.js Sana kaydıyla çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 1547: San'a ele geçirildi. — data/yerlesimler.js Sana kaydıyla çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1567-01-01", b:"Mutahhar isyanı — Yemen ikiye bölündü", tur:"isyan",
   onem:4, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"Yerel lider Mutahhar b. Şerefeddin'in başlattığı geniş çaplı ayaklanma, Osmanlı idaresini Yemen'in büyük kısmından sürdü; ülke fiilen Osmanlı'nın elinde kalan bölge ile isyancıların denetimindeki bölge olarak ikiye ayrıldı. Bu, imamet çevresindeki direnç ağının Osmanlı'ya karşı ilk büyük başarısıydı.",
-  kaynak:"TDV `yemen`: '1567: Mutahhar isyan etti, Yemen ikiye bölündü.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
+  kaynak:"TDV `yemen`: 1567: Mutahhar isyan etti, Yemen ikiye bölündü.", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1571-03-01", b:"Sinan Paşa'nın büyük seferiyle isyan bastırıldı, eyalet yeniden birleşti", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri","konu-idari","konu-isyan"],
@@ -2022,7 +2022,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"İmam Müeyyed'in ölümünün ardından Mütevekkil İsmâil b. Kāsım imam oldu ve 1676'ya kadar sürecek dönemde Kāsımî imametini Yemen'in neredeyse tamamına (Hadramut'a kadar) yayarak en geniş sınırlarına ulaştırdı — Zeydî imametin tarihindeki en güçlü dönemlerinden biri.",
-  kaynak:"TDV `yemen`: '1644-1676: Mütevekkil İsmâil b. Kāsım hüküm sürdü.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: 1644-1676: Mütevekkil İsmâil b. Kāsım hüküm sürdü.", yer_id:"Sana" },
 
 { taraflar:["yemen-zeydi"], t:"1681-01-01", b:"Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası", tur:"siyaset",
   onem:2, dunya:1, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
@@ -2044,13 +2044,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Hudeyde",
   d:"Osmanlı, 214 yıl aradan sonra Yemen'e döndü ve kıyı şeridini (Hudeyde dahil) yeniden ele geçirdi; ama TDV'nin kendi ifadesiyle San'a'yı ele geçirme çabası bu ilk yılda BAŞARISIZ oldu — iç yayla imametin elinde kalmaya devam etti, tam fetih ancak 1872'de tamamlanacaktı.", ic_not_d:"Tarih yerlesimler.js'teki Hudeyde kaydıyla (1849-01-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1849: San'a ele geçirme çabası başarısız oldu.' — data/yerlesimler.js Hudeyde kaydıyla (1281-1849 'yemen', sonra kayıt yok) çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 1849: San'a ele geçirme çabası başarısız oldu. — data/yerlesimler.js Hudeyde kaydıyla (1281-1849 'yemen', sonra kayıt yok) çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1872-04-01", b:"Ahmed Muhtar Paşa San'a'yı aldı — Yemen vilâyeti kuruldu", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","savas","idari","konu-askeri","konu-idari"],
   yer_id:"Sana",
   d:"Ahmed Muhtar Paşa'nın seferiyle San'a bu kez kesin olarak Osmanlı'nın eline geçti ve 1864 Tanzimat vilâyet düzenine göre bir Yemen vilâyeti kuruldu — imamet, 1918'e kadar sürecek 46 yıllık ikinci ve son doğrudan Osmanlı hâkimiyeti dönemine girdi.", ic_not_d:"Tarih yerlesimler.js'teki San'a kaydıyla (1872-04-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1871: Ahmed Muhtar Paşa San'a'yı aldı, vilâyet düzeni kurdu.' — data/yerlesimler.js Sana kaydıyla (1872-04-01) çapraz doğrulandı; bir yıllık fark TDV'nin sefer başlangıcı/şehrin düşüşü ayrımından kaynaklanıyor olabilir, ÇÖZÜLMEDİ." },
+  kaynak:"TDV `yemen`: 1871: Ahmed Muhtar Paşa San'a'yı aldı, vilâyet düzeni kurdu. — data/yerlesimler.js Sana kaydıyla (1872-04-01) çapraz doğrulandı; bir yıllık fark TDV'nin sefer başlangıcı/şehrin düşüşü ayrımından kaynaklanıyor olabilir, ÇÖZÜLMEDİ." },
 
 { taraflar:["yemen-zeydi"], t:"1889-01-01", b:"Zeydîler isyan etti", tur:"isyan",
   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"],
@@ -2080,13 +2080,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"Sana",
   d:"Osmanlı kuvvetleri beş ay içinde San'a'yı geri aldı; ama İmam Yahyâ'nın direnç kapasitesi kanıtlanmıştı ve altı yıl sonra Osmanlı, imametle doğrudan bir özerklik antlaşması imzalamak zorunda kalacaktı.",
-  kaynak:"TDV `yemen`: '1905: Ahmed Feyzi Paşa San'a'ya girdi.' — data/yerlesimler.js Sana kaydıyla (1905-09-01) çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 1905: Ahmed Feyzi Paşa San'a'ya girdi. — data/yerlesimler.js Sana kaydıyla (1905-09-01) çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1911-10-13", b:"Da'an Antlaşması — imamete geniş özerklik tanındı", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Ahmed İzzet Paşa ile İmam Yahyâ arasında imzalanan antlaşma, Zeydî bölgelerine geniş bir iç özerklik tanıdı — imamet artık Osmanlı çatısı altında fiilen kendi kendini yönetiyordu. Bu, yedi yıl sonraki tam bağımsızlığın önsözüydü.",
-  kaynak:"TDV `yemen`: '13 Ekim 1911: Ahmed İzzet Paşa ve İmam Yahyâ antlaşma yaptı.'", yer_kon:[15.72,43.95] },
+  kaynak:"TDV `yemen`: 13 Ekim 1911: Ahmed İzzet Paşa ve İmam Yahyâ antlaşma yaptı.", yer_kon:[15.72,43.95] },
 
 { taraflar:["yemen-zeydi"], t:"1918-10-30", b:"Mondros sonrası Osmanlı çekildi — imamet tam bağımsızlığını kazandı", tur:"son",
   onem:5, dunya:4, kapsam:"dis", etiket:["bagimsizlik","antlasma","konu-siyasi","konu-diplomasi"],
@@ -2098,7 +2098,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"İmam Yahyâ, artık hiçbir dış hâkimiyete bağlı olmayan imametini resmen 'Mütevekkilî Krallığı' (el-Memleketü'l-Mütevekkiliyye) olarak ilan etti — Zeydî imametin 1023 yıllık tarihindeki son ve site ufkunun (1923) ötesine, 1962'ye kadar sürecek evresi başladı.",
-  kaynak:"TDV `yemen`: '1920: İmam Yahyâ bağımsız Mütevekkilî Krallığını kurdu.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: 1920: İmam Yahyâ bağımsız Mütevekkilî Krallığını kurdu.", yer_id:"Sana" },
 
 // ═══════════════════════ UMMAN (YA'RUBÎ / BÛ SAÎD) SULTANLIĞI (1624-1923) ═══
 
@@ -2106,19 +2106,19 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:2, kapsam:"dis", etiket:["isgal","savas","konu-askeri"],
   yer_id:"",
   d:"Afonso de Albuquerque komutasındaki Portekiz donanması, Hint Okyanusu ticaret yolunu denetlemek amacıyla Uman'ın kıyı şehirlerini (Maskat dahil) ele geçirmeye başladı; yerli Nebhânî hâkimiyeti bu baskı altında sarsıldı ve bir asırdan uzun sürecek Portekiz varlığının önü açıldı.",
-  kaynak:"TDV `uman`: '1507: Portekizli general Portekiz baskısı başladı.' (madde metninde Portekiz kıyı işgalinin başlangıcı olarak 1507 veriliyor)", kapsam_genis:true },
+  kaynak:"TDV `uman`: 1507: Portekizli general Portekiz baskısı başladı. (madde metninde Portekiz kıyı işgalinin başlangıcı olarak 1507 veriliyor)", kapsam_genis:true },
 
 { t:"1620-01-01", b:"Nâsır b. Mürşid'e biat edildi — Ya'rubî imameti kuruldu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","konu-siyasi","konu-din"],
   yer_id:"",
   d:"İç karışıklıklar arasında bölge ileri gelenlerinin ortak biatıyla Nâsır b. Mürşid imam seçildi ve İbâdî Ya'rubî hanedanını kurdu. İmamet kısa sürede Portekiz'e karşı örgütlü direnişin merkezi oldu.", ic_not_d:"Kuruluş için TDV'nin `yarubiler` maddesi 1615, `uman` maddesi ve devletler.js künyesi 1624 tarihini kullanıyor (iki yıl gün farkı, 1034/1024 hicri karışıklığından kaynaklanabilir — devletler.js'in f: alanı (1624) korunuyor, çelişki not düşüldü).",
-  kaynak:"TDV `yarubiler`: '1615 - Ya'rubîler hanedanı kuruldu... Alternatif kuruluş tarihi 1624 (1034 hicrî).' · TDV `uman`: '1624: Nâsır b. Mürşid... Ya'rubî hânedanını kurdu.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 1615 - Ya'rubîler hanedanı kuruldu... Alternatif kuruluş tarihi 1624 (1034 hicrî). · TDV `uman`: '1624: Nâsır b. Mürşid... Ya'rubî hânedanını kurdu.'", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1630-01-01", b:"Portekiz ile barış antlaşması", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Maskat'ı zaptetme girişimlerinin ardından Ya'rubî imameti ile Portekiz arasında geçici bir barış sağlandı — imametin gücünü toparlayıp yirmi yıl sonraki kesin zafere hazırlandığı bir ara dönem.",
-  kaynak:"TDV `yarubiler`: '1630 - Portekiz barış antlaşması imzalandı.'", yer_kon:[23.617,58.567] },
+  kaynak:"TDV `yarubiler`: 1630 - Portekiz barış antlaşması imzalandı.", yer_kon:[23.617,58.567] },
 
 { taraflar:["umman"], t:"1633-01-01", b:"Culfâr'da İran birliklerine karşı zafer", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri"],
@@ -2136,7 +2136,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"Portekiz'i kovan imamın ölümüyle oğlu Bel'arab tahta geçti; imamet artık kıyı ticaretinden gelen zenginlikle Doğu Afrika'ya doğru genişleme aşamasına giriyordu.",
-  kaynak:"TDV `yarubiler`: '1680 - I. Sultân b. Seyf yönetimi sonlandı; oğlu Bel'arab yönetimi devraldı.'", yer_id:"Nizva" },
+  kaynak:"TDV `yarubiler`: 1680 - I. Sultân b. Seyf yönetimi sonlandı; oğlu Bel'arab yönetimi devraldı.", yer_id:"Nizva" },
 
 { taraflar:["umman"], t:"1692-01-01", b:"Seyf b. Sultân iktidara geçti, merkez Rustâk'a taşındı", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
@@ -2148,25 +2148,25 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"Yirmi yıllık hükümdarlığın ardından Seyf b. Sultân öldü ve oğlu II. Sultân imamet makamını devraldı.",
-  kaynak:"TDV `yarubiler`: '1711 - Seyf b. Sultân vefat etti; oğlu II. Sultân yönetimi devraldı.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 1711 - Seyf b. Sultân vefat etti; oğlu II. Sultân yönetimi devraldı.", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1720-01-01", b:"II. Sultân'ın ölümü — on iki yaşındaki II. Seyf döneminde veraset krizi", tur:"bolunme",
   onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyaset","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"II. Sultân'ın ölümüyle on iki yaşındaki oğlu II. Seyf imam ilan edildi; yaşının küçüklüğü kabile reisleri arasında sekiz yıl sürecek bir iç savaşı tetikledi ve imametin bu krizden zayıflamış çıkması, otuz yıl sonra hanedanın tamamen el değiştirmesinin zeminini hazırladı.",
-  kaynak:"TDV `yarubiler`: '1720 - II. Sultân öldü; on iki yaşındaki oğlu II. Seyf'in yönetimi tartışmalar başlattı.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 1720 - II. Sultân öldü; on iki yaşındaki oğlu II. Seyf'in yönetimi tartışmalar başlattı.", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1728-01-01", b:"İç savaş sona erdi, II. Seyf'in imameti kabul edildi", tur:"antlasma",
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Sekiz yıllık iç çatışmanın ardından kabileler II. Seyf'in imametini nihayet kabul etti; ama barış kalıcı olmayacak, on beş yıl sonra imamet Ya'rubî hanedanının elinden tamamen çıkacaktı.",
-  kaynak:"TDV `yarubiler`: '1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.'", odak_kimlik:["umman"], kapsam_genis:true },
+  kaynak:"TDV `yarubiler`: 1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.", odak_kimlik:["umman"], kapsam_genis:true },
 
 { taraflar:["umman"], t:"1743-01-01", b:"II. Seyf'in ölümü — Ahmed b. Saîd iktidarı ele geçirdi", tur:"bolunme",
   onem:4, dunya:2, kapsam:"ic", etiket:["bolunme","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"II. Seyf'in ölümüyle damadı Ahmed b. Saîd (Sohar valisi, İran işgaline karşı direnişiyle tanınmış bir komutan) fiilen iktidarı ele geçirdi — Bû Saîd hanedanının kuruluşunun fiilî başlangıcı.", ic_not_d:"Resmî/sembolik kuruluş TDV `uman` maddesinde altı yıl sonra (1749) tarihleniyor; devletler.js künyesinin f: alanı da 1749-06-10'dur — bu madde ARADAKİ fiilî geçişi anlatıyor, künyenin tarihine dokunulmadı.",
-  kaynak:"TDV `yarubiler`: '1743 - II. Seyf vefat etti; damadı Ahmed b. Saîd iktidarı ele geçirerek Bû Saîd hanedanı dönemini başlattı.'", yer_id:"Suhâr" },
+  kaynak:"TDV `yarubiler`: 1743 - II. Seyf vefat etti; damadı Ahmed b. Saîd iktidarı ele geçirerek Bû Saîd hanedanı dönemini başlattı.", yer_id:"Suhâr" },
 
 { t:"1749-06-10", b:"Bû Saîd hanedanı resmen kuruldu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar","konu-siyasi","konu-hanedan"],
@@ -2178,55 +2178,55 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","osmanli","konu-diplomasi"],
   yer_id:"",
   d:"İran'da Zend hanedanının hükümdarı Kerim Han'ın Basra'yı kuşatması sırasında Uman, kuşatma altındaki Osmanlı garnizonuna destek sağladı — imametin Basra körfezi siyasetinde Osmanlı'nın tarafında yer aldığı nadir doğrudan ittifak anlarından biri.",
-  kaynak:"TDV `uman`: '1775-1776: Kerim Khan Zend Basra'yı kuşattı; Uman, Osmanlı Basra'sına yardım etti.'", yer_id:"Basra" },
+  kaynak:"TDV `uman`: 1775-1776: Kerim Khan Zend Basra'yı kuşattı; Uman, Osmanlı Basra'sına yardım etti.", yer_id:"Basra" },
 
 { t:"1798-01-18", b:"İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Maskat",
   d:"Uman ile İngiltere arasında imzalanan 'kavilnâme' adlı anlaşmayla İngilizler Maskat'ta ilk temsilciliklerini açtı; bu, imametin bir sonraki yüzyıl boyunca giderek derinleşecek İngiliz bağımlılığının başlangıç noktasıydı.",
-  kaynak:"TDV `uman`: '18 Ocak 1798: İngiltere ile kavilnâme adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı.'" },
+  kaynak:"TDV `uman`: 18 Ocak 1798: İngiltere ile kavilnâme adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı." },
 
 { taraflar:["umman"], t:"1804-01-01", b:"Saîd b. Sultân tahta çıktı", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"Maskat",
   d:"Babasının deniz savaşında ölümü üzerine on üç yaşındaki Saîd b. Sultân, kardeşi Sâlim'le birlikte Uman, Basra körfezi adaları ve Zengibar topraklarını yönetmeye başladı — elli iki yıl sürecek ve Uman'ı bir Hint Okyanusu ticaret imparatorluğuna dönüştürecek bir hükümdarlığın başlangıcı.",
-  kaynak:"TDV `said-b-sultan`: '1804 - Babasının deniz savaşında ölümünün ardından tahta çıktı; Uman, Basra körfezi adaları ve Zengibar topraklarını kardeşi Sâlim'le birlikte yönetti.'" },
+  kaynak:"TDV `said-b-sultan`: 1804 - Babasının deniz savaşında ölümünün ardından tahta çıktı; Uman, Basra körfezi adaları ve Zengibar topraklarını kardeşi Sâlim'le birlikte yönetti." },
 
 { taraflar:["umman"], t:"1806-01-01", b:"Kuzeni Bedr b. Seyf bertaraf edildi", tur:"siyaset",
   onem:2, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Suûdîler'in desteklediği kuzeni Bedr b. Seyf'i bertaraf ederek Saîd b. Sultân kendi iktidarını sağlamlaştırdı — Uman'ın kuzey Arabistan'daki Vehhâbî nüfuzuyla ilk doğrudan sürtüşmelerinden biri.",
-  kaynak:"TDV `said-b-sultan`: '1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı.'" },
+  kaynak:"TDV `said-b-sultan`: 1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı." },
 
 { taraflar:["umman"], t:"1821-01-01", b:"Kardeşi Sâlim'in ölümüyle tek hükümdar oldu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"On yedi yıl süren ortak yönetimin ardından kardeşi Sâlim'in ölümüyle Saîd b. Sultân, Uman ve Zengibar topraklarının tek hâkimi oldu.",
-  kaynak:"TDV `said-b-sultan`: '1821 - Kardeşi Sâlim'in ölümüyle tek hükümdar oldu.'" },
+  kaynak:"TDV `said-b-sultan`: 1821 - Kardeşi Sâlim'in ölümüyle tek hükümdar oldu." },
 
 { taraflar:["umman"], t:"1824-01-01", b:"Hac ziyareti — Kavalalı Mehmed Ali Paşa tarafından ağırlandı", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","din","konu-diplomasi","konu-din"],
   yer_id:"",
   d:"Saîd b. Sultân hac için Hicaz'a gitti ve orada Mısır valisi Kavalalı Mehmed Ali Paşa tarafından ağırlandı — Uman hükümdarının Osmanlı sistemi içindeki en yüksek rütbeli bir figürle doğrudan temasının nadir örneklerinden biri.",
-  kaynak:"TDV `uman`: '1824: Saîd b. Sultân hac yaptı; Muhammed Ali Paşa tarafından onurlandırıldı.'", yer_id:"Mekke" },
+  kaynak:"TDV `uman`: 1824: Saîd b. Sultân hac yaptı; Muhammed Ali Paşa tarafından onurlandırıldı.", yer_id:"Mekke" },
 
 { taraflar:["umman"], t:"1828-01-01", b:"Zengibar'a yerleşti", tur:"siyaset",
   onem:3, dunya:2, kapsam:"dis", etiket:["siyaset","ekonomi","konu-siyasi","konu-ekonomi"],
   yer_id:"",
   d:"Saîd b. Sultân, fildişi ve köle ticaretinin merkezi olan Zengibar'ın stratejik önemini fark ederek burada uzun süreli ikamete başladı — hanedanın ağırlık merkezinin Arap yarımadasından Doğu Afrika'ya kaymasının başlangıcı.",
-  kaynak:"TDV `said-b-sultan`: '1828 - Zengibar'a taşındı, fildişi ve köle ticareti için önemli bir merkez olarak tanıdı.'", yer_id:"Zanzibar (Zengibar)" },
+  kaynak:"TDV `said-b-sultan`: 1828 - Zengibar'a taşındı, fildişi ve köle ticareti için önemli bir merkez olarak tanıdı.", yer_id:"Zanzibar (Zengibar)" },
 
 { taraflar:["umman"], t:"1837-01-01", b:"Mombasa, Mazrui hanedanından alındı", tur:"toprak-kazanc",
   onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri","konu-hanedan"],
   yer_id:"",
   d:"Yıllar süren çatışmanın ardından Saîd b. Sultân, Doğu Afrika kıyısındaki önemli liman kenti Mombasa'yı rakip Mazruî hanedanından aldı — Uman'ın Afrika kıyısındaki hâkimiyetinin doruk noktalarından biri.",
-  kaynak:"TDV `said-b-sultan`: '1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.'", yer_id:"Mombasa" },
+  kaynak:"TDV `said-b-sultan`: 1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.", yer_id:"Mombasa" },
 
 { taraflar:["umman"], t:"1840-01-01", b:"Zengibar resmen başkent ilan edildi", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"dis", etiket:["idari","siyaset","konu-siyasi","konu-idari","konu-hanedan"],
   yer_id:"",
   d:"Saîd b. Sultân, Zengibar'ı resmî başkent ilan ederek nüfuzunu Mogadişu'dan Cape Delgado'ya kadar genişletti — bu tarihten sonra Uman/Zengibar imparatorluğunun ağırlık merkezi kalıcı olarak Afrika'ya taşındı ve on altı yıl sonraki bölünmenin zemini hazırlandı.",
-  kaynak:"TDV `said-b-sultan`: '1840 - Zengibar'ı resmî başkent ilan etti; Mogadişu'dan Cape Delgado'ya nüfuz genişletti.'", yer_id:"Zanzibar (Zengibar)" },
+  kaynak:"TDV `said-b-sultan`: 1840 - Zengibar'ı resmî başkent ilan etti; Mogadişu'dan Cape Delgado'ya nüfuz genişletti.", yer_id:"Zanzibar (Zengibar)" },
 
 { taraflar:["umman"], t:"1850-01-01", b:"Osmanlı'nın Cidde valisi Hasib Paşa'yı ziyaret etti", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
@@ -2238,25 +2238,25 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["bolunme","olum","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Elli iki yıllık hükümdarlığın ardından Saîd b. Sultân Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü ve Zengibar'a gömüldü. Mirası oğulları arasında bölündü: Mâcid Zengibar'da, Süveynî (Thuwaini) Maskat'ta kaldı — Uman ve Zengibar'ın iki ayrı devlete dönüşme sürecinin fiilî başlangıcı.",
-  kaynak:"TDV `uman`: '1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı.' · TDV `said-b-sultan`: 'Uman, Hürmüz Boğazı ve Doğu Afrika tarihinde önemli bir rol oynayan Bû Saîd hânedanının en başarılı sultanı sayılan Saîd b. Sultân 1856 yılında Maskat’tan Zengibar’a gitmek için çıktığı deniz yolculuğu sırasında vefat etti ve hânedanın Zengibar’daki kabristanına gömüldü.'", kapsam_genis:true },
+  kaynak:"TDV `uman`: 1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı. · TDV `said-b-sultan`: 'Uman, Hürmüz Boğazı ve Doğu Afrika tarihinde önemli bir rol oynayan Bû Saîd hânedanının en başarılı sultanı sayılan Saîd b. Sultân 1856 yılında Maskat’tan Zengibar’a gitmek için çıktığı deniz yolculuğu sırasında vefat etti ve hânedanın Zengibar’daki kabristanına gömüldü.'", kapsam_genis:true },
 
 { t:"1862-01-01", b:"Zengibar ve Uman ayrı devletler olarak tanındı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","bolunme","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"İngiltere, Fransa ve Almanya'nın ortak kararıyla Zengibar ve Uman birbirinden tamamen bağımsız iki ayrı devlet olarak resmen tanındı — 1856'daki fiilî bölünme, altı yıl sonra uluslararası hukuken de kesinleşti.",
-  kaynak:"TDV `uman`: '1862: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Uman birbirinden bağımsız iki ayrı devlet olarak tanındı.'", kapsam_genis:true },
+  kaynak:"TDV `uman`: 1862: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Uman birbirinden bağımsız iki ayrı devlet olarak tanındı.", kapsam_genis:true },
 
 { taraflar:["umman"], t:"1866-01-01", b:"Sultan Süveynî, oğlu Salim tarafından öldürüldü", tur:"olum",
   onem:2, dunya:1, kapsam:"ic", etiket:["olum","siyaset","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Maskat",
   d:"Maskat kolunun hükümdarı Süveynî, kendi oğlu Sâlim tarafından öldürüldü — hanedanın Maskat şubesindeki iç istikrarsızlığın bir başka örneği.",
-  kaynak:"TDV `uman`: '1866: Sultan Thuwaini murdered by son Salim.'" },
+  kaynak:"TDV `uman`: 1866: Sultan Thuwaini murdered by son Salim." },
 
 { taraflar:["umman"], t:"1868-01-01", b:"Azzam b. Kays, Bû Saîd hattından son imam oldu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","din","konu-hanedan","konu-din"],
   yer_id:"",
   d:"Azzam b. Kays'ın imamet makamına gelmesiyle Bû Saîd hattından gelen son İbâdî imam tahta çıktı; bu tarihten sonra Maskat sultanlığı fiilen dünyevi bir monarşiye dönüşecekti.",
-  kaynak:"TDV `uman`: '1868: Azzam b. Kays becomes last imam from Bu Said line.'" },
+  kaynak:"TDV `uman`: 1868: Azzam b. Kays becomes last imam from Bu Said line." },
 
 // ═══════════════════════ BENÎ HÂLİD EMİRLİĞİ (LAHSA) (1670-1830) ═══════
 
@@ -2264,13 +2264,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["idari","osmanli","konu-askeri","konu-idari"],
   yer_id:"",
   d:"Osmanlı Devleti, doğu Arabistan'daki Lahsa (el-Hasâ) bölgesini idari olarak Basra beylerbeyiliğine bağladı — bu, Benî Hâlid emirliğinin 1670'te bu topraktan Osmanlı'yı çıkarana kadar sürecek ilk doğrudan Osmanlı idaresi dönemidir.",
-  kaynak:"TDV `lahsa`: '1547: Osmanlı Devleti bölgeyi Basra beylerbeyiliğine bağladı.'", yer_id:"Lahsa" },
+  kaynak:"TDV `lahsa`: 1547: Osmanlı Devleti bölgeyi Basra beylerbeyiliğine bağladı.", yer_id:"Lahsa" },
 
 { t:"1553-01-01", b:"Lahsa beylerbeyiliğe yükseltildi", tur:"idari",
   onem:2, dunya:1, kapsam:"dis", etiket:["idari","konu-idari"],
   yer_id:"",
   d:"Lahsa'nın idari statüsü beylerbeyiliğe yükseltildi ve yerel Âl-i Hamîd kabilesi yönetimde söz sahibi oldu — Osmanlı'nın bölgeyi doğrudan değil yerel aracılar üzerinden yönetme eğiliminin bir örneği; bu eğilim on yedi yıl sonra Benî Hâlid'in bağımsızlığını ilan etmesini kolaylaştıracaktı.",
-  kaynak:"TDV `lahsa`: '1553 sonrası: Lahsâ beylerbeyiliğe yükseltildi; Âl-i Hamîd kabilesi yönetimde.'", yer_id:"Lahsa" },
+  kaynak:"TDV `lahsa`: 1553 sonrası: Lahsâ beylerbeyiliğe yükseltildi; Âl-i Hamîd kabilesi yönetimde.", yer_id:"Lahsa" },
 
 { t:"1670-01-01", b:"Berrâk b. Guraybir, Hufuf'u alarak Benî Hâlid emirliğini kurdu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","toprak-kazanc","konu-askeri","konu-siyasi"],
@@ -2306,7 +2306,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],
   yer_id:"",
   d:"Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın I. Suûdî Devleti'ni yıkan büyük seferi sonrası Suûdî liderleri idam edilince, Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okutarak Benî Hâlid emirliğini geçici olarak yeniden kurdu.",
-  kaynak:"devletler.js `benihalid` künyesi: '1818: İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu.' · TDV `lahsa`: '1818: Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın harekâtı; Suudi liderleri idam edildi.'", yer_id:"Lahsa" },
+  kaynak:"devletler.js `benihalid` künyesi: '1818: İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu.' · TDV `lahsa`: 1818: Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın harekâtı; Suudi liderleri idam edildi.", yer_id:"Lahsa" },
 
 { t:"1830-01-01", b:"Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","son","konu-siyasi","konu-kisiler"],
@@ -2401,12 +2401,12 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1402-01-01", b:"Antonio I Acciaiuoli'nin Atina'yı Venedik'ten geri alması", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Nerio'nun gayrimeşru oğlu Antonio, Osmanlı desteğiyle Venedik'i şehirden çıkardı ve dukalığı yeniden kurdu. Otuz üç yıllık hükümdarlığı, Latin Atina'nın son müreffeh dönemi sayılır. Bir Latin dukasının tahtını Osmanlı desteğiyle kazanması, 15. yüzyıl Yunanistan'ının gerçek güç dengesini gösterir.",
-  kaynak:"TDV 'atina' md.: \"1402: Antonio tarafından Venediklilerden geri alındı\", \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1402: Antonio tarafından Venediklilerden geri alındı, \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1435-01-01", b:"Antonio I'in ölümü ve hanedan içi çekişmenin başlaması", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Antonio'nun ölümüyle Acciaiuoli ailesi içinde uzun bir taht kavgası başladı ve taraflar Osmanlı sarayının hakemliğine başvurdu. II. Nerio 1435-1455 arasında hüküm sürdü ama iktidarı hep tartışmalı kaldı. Osmanlı'nın hakem sıfatıyla işin içine girmesi, ilhakın hukukî zeminini de hazırladı.",
-  kaynak:"TDV 'atina' md.: \"1435-1455: II. Nerio dönemi\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1435-1455: II. Nerio dönemi · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1456-06-04", b:"Turahanoğlu Ömer Bey'in Atina'yı alması", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -2873,7 +2873,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Tırnova",
   d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.", ic_not_d:"Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
-  kaynak:"TDV `bulgaristan`: '1393'te Tırnova düştü, Bulgar Krallığı'na son verildi.'" },
+  kaynak:"TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
 
 { taraflar:["bulgar-carligi"], t:"1395-06-03", b:"Niğbolu kalesi Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -2933,7 +2933,7 @@ window.KRONOLOJI_BALKAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["idari","ekonomi","islahat","konu-siyasi","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"Rusçuk",
   d:"Silistre, Vidin ve Niş eyaletlerinin birleştirilmesiyle bugünkü Bulgaristan'ın büyük bölümünü kapsayan Tuna Vilâyeti kuruldu; merkezi Rusçuk olan bu vilâyette vali Midhat Paşa yol yapımı, tarım kredisi sandıkları (sonradan Ziraat Bankası) ve Osmanlı'nın ilk vilâyet gazetesi 'Tuna'yı (Mart 1865, Türkçe-Bulgarca) hayata geçirdi. Bu vilâyet modeli, Bulgaristan Prensliği'nin 1878'de devraldığı idari altyapının temelini oluşturdu.",
-  kaynak:"TDV `midhat-pasa`: 'Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı.'" },
+  kaynak:"TDV `midhat-pasa`: Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı." },
 
 { t:"1870-03-11", b:"Bulgar Eksarhlığı kuruldu — Bulgar kilisesi bağımsızlığını kazandı", tur:"din",
   onem:5, dunya:3, kapsam:"dis", etiket:["din","sosyal","siyaset","konu-siyasi","konu-din","konu-sosyal"],
@@ -3058,7 +3058,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Balkan İttifakı'nın (Bulgaristan, Sırbistan, Yunanistan, Karadağ) bir parçası olarak Bulgaristan Osmanlı Devleti'ne savaş ilan etti; Bulgar ordusu savaşın en büyük ve en etkili gücüydü, Trakya cephesinde hızla ilerledi.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (aynı gün, ortak giriş).",
-  kaynak:"TDV `bulgaristan`: '8 Ekim 1912'de Karadağ'ın harekâtıyla başladı' — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
+  kaynak:"TDV `bulgaristan`: 8 Ekim 1912'de Karadağ'ın harekâtıyla başladı — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
 
 { taraflar:["bulgaristan-kralligi"], t:"1912-10-24", b:"Kırkkilise (Kırklareli) Savaşı — Bulgar ordusunun büyük zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"],
@@ -3118,7 +3118,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"I. Dünya Savaşı'nı Bulgaristan için resmen sona erdiren Neuilly Antlaşması, ülkeyi Batı Trakya'nın tamamından mahrum bırakarak Ege Denizi'ne kıyı erişimini kesti; ayrıca ağır savaş tazminatı ve askerî kısıtlamalar getirildi.",
-  kaynak:"TDV `bulgaristan`: 'Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi.'" },
+  kaynak:"TDV `bulgaristan`: Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi." },
 
 { taraflar:["bulgaristan-kralligi"], t:"1923-06-09", b:"9 Haziran Darbesi — Stamboliyski hükümeti devrildi", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe-askeri","konu-siyasi","konu-darbe"],
@@ -3215,7 +3215,7 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["bosna-kralligi"], t:"1448-01-20", b:"Stjepan Vukčić Kosača'nın 'Herceg' unvanı — Hersek Dukalığı'nın doğuşu", tur:"bolunme",
   onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Stjepan Vukčić Kosača, Kutsal Roma İmparatoru III. Friedrich'e gönderdiği belgede kendini 'Aziz Sava'nın Herceki (dükü)' olarak tanımladı ve bu unvanla fiilen bağımsız bir dukalık kurdu — bölgeye bugünkü 'Hersek' adını veren de bu unvandır.",
-  kaynak:"TDV `bosna-hersek`: '...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş...' · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
+  kaynak:"TDV `bosna-hersek`: ...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş... · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
 
 { taraflar:["bosna-kralligi"], t:"1450-01-01", b:"Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası", tur:"ekonomi",
   onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi","konu-sanayi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
@@ -3235,7 +3235,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1463-05-01", b:"Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"], yer_id:"Yayça (Jajce)",
   d:"Fâtih Sultan Mehmed idaresindeki ordu, haracı reddeden Bosna'ya karşı hızlı bir sefer düzenledi; eski kraliyet kalesi Bobovac kısa bir kuşatmadan sonra düştü, kaçan Kral Tomašević Ključ'ta yakalanıp Yayça'da (Jajce) Fâtih'in huzuruna getirildi ve idam edildi. Krallığın yıkılışı ile Bosna'nın TAMAMININ fethi aynı şey değildir: ova zaten on beş yıldır fiilen Osmanlı ucundaydı, buna karşılık kuzeyde Yayça'yı Aralık 1463'te Macar kralı geri aldı ve bölge 1528'e kadar Macar elinde kaldı.",
-  kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: '...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı...' · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
+  kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: ...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı... · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
 
 // ═══════════════════════════════════════════════════════════════════
 // YUNANİSTAN KRALLIĞI (1821-1923)
@@ -3634,7 +3634,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["evfat"], t:"1300-01-02", b:"Evfât'ın kervan yolları üzerindeki tekeli ve altı tâbi sultanlık", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Zeyla",
   etiket:["ticaret","idari","konu-idari","konu-ekonomi"],
   d:"Evfât, Habeşistan yaylasını Zeyla' limanına bağlayan kervan yollarını denetliyor, bölgenin kara ve deniz ticaretine hâkim oluyordu. Emirliğin nüfuzu altında Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre adlı altı müslüman sultanlık daha vardı.",
-  kaynak:"TDV `evfat`: \"Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre\"" },
+  kaynak:"TDV `evfat`: Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre" },
 
 { taraflar:["evfat"], t:"1328-01-01", b:"Evfât sultanı Habeş kralına yenildi ve esir düştü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -3684,7 +3684,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1415-01-01", b:"II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi", tur:"yikilis", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Zeyla' adasına sığınan son Evfât sultanı Sa'deddin orada kıstırılıp öldürüldü ve emirlik dağıldı. Veleşma hânedanının hayatta kalan üyeleri doğuya çekilerek Adal Sultanlığı'nı kuracak; İfat'ın davası bir asır sonra Ahmed el-Mücâhid'in cihadıyla yeniden dirilecektir.",
-  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\"" },
+  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. ADAL SULTANLIĞI ve HARAR EMİRLİĞİ — 1415-1887
@@ -3694,7 +3694,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1415-01-02", b:"Adal Sultanlığı Evfât'ın yerini aldı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","kurulus","konu-siyasi","konu-hanedan"],
   d:"Evfât'ın yıkılışının ardından Veleşma hânedanı doğuya, Adal bölgesine çekilerek yeni bir sultanlık kurdu. Merkez önce Zeyla' civarındaydı; devlet İfat'ın Habeş krallığıyla hesabını bir asır sonra kapatacaktır.",
-  kaynak:"TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\" · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
+  kaynak:"TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
 
 { taraflar:["adal"], t:"1480-01-01", b:"Emîr Mahfûz'un Adal genişlemesini başlatması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["askeri","toprak","konu-askeri"],
@@ -3789,7 +3789,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1551-01-01", b:"Emîr Nûr'un Harar surlarını yaptırması", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["mimari","sehircilik","imar","konu-imar"],
   d:"Sâhibü'l-fethi's-sânî unvanını taşıyan Emîr Nûr b. Mücâhid, Habeş baskınlarına karşı şehri koruyacak Harar surlarını (Cegol) yeniden inşa ettirdi. Bugün de ayakta olan bu sur, Doğu Afrika'daki en tanınmış İslâm şehir tahkimatıdır.",
-  kaynak:"TDV `harar`: \"Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı\" — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
+  kaynak:"TDV `harar`: Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
 
 { taraflar:["adal"], t:"1554-01-01", b:"Emîr Nûr'un yeniden cihad ilânı ve kaybedilen yerlerin geri alınması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Harar",
   etiket:["askeri","toprak","din","konu-askeri","konu-din"],
@@ -4444,7 +4444,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1281-01-01", b:"Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması", tur:"ekonomi", onem:5, dunya:2, kapsam:"ic", yer_id:"Mogadişu",
   etiket:["ticaret","hanedan","din","konu-hanedan","konu-ekonomi","konu-din"],
   d:"VII/XIII. yüzyılda Ebû Bekir b. Fahreddin, Makdişu'da bir sultanlık kurdu ve şehir refah seviyesi yüksek bir ticaret merkezi hâline geldi. Mescid-i Cum'a'nın 636 (1238), Erbaa Rükûn Camii'nin 667 (1268) ve Fahreddin Camii'nin 27 Şâban 667 (1 Mayıs 1269) tarihli kitâbeleri şehrin bu dönemdeki imar faaliyetini belgeler.",
-  kaynak:"TDV `somali`: \"VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu\" · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
+  kaynak:"TDV `somali`: VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
 
 { taraflar:["makdisu-sultanligi"], t:"1329-01-01", b:"İbn Battûta'nın Somali kıyısı tasviri — Berber halkı, deve ve balıkçılık", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Zeyla",
   etiket:["kultur","ticaret","sosyal","konu-ekonomi","konu-kultur","konu-sosyal"],
@@ -4721,7 +4721,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["buganda"], t:"1890-01-02", b:"Almanya-İngiltere antlaşması ile Doğu Afrika'nın paylaşılması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Zanzibar (Zengibar)",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler. Helgoland-Zengibar Antlaşması olarak bilinen bu düzenleme, Uganda'yı İngiliz, Tanganyika'yı Alman nüfuz bölgesine bıraktı ve Zengibar'ı İngiliz himayesine soktu.",
-  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: \"1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar\"" },
+  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: 1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar" },
 
 { taraflar:["buganda"], t:"1892-01-01", b:"Buganda'da Katolik-Protestan iç savaşı ve İngiliz sömürgeciliğinin başlaması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
   etiket:["din","askeri","isyan","konu-askeri","konu-isyan","konu-din"],
@@ -8816,7 +8816,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1196-01-01", b:"Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Abdülhak, henüz Muvahhid hizmetindeyken Zenâte Berberî boyu Merînîlerin beyliğini kurdu; hanedanın kuruluşu olarak kabul edilir. Bağımsızlaşma bir asrı bulacak bir sürece yayıldı.",
-  kaynak:"TDV `meriniler`: \"592/1196'da Abdülhak tahta geçti, hanedanın kurucusu olarak kabul edildi\"" },
+  kaynak:"TDV `meriniler`: 592/1196'da Abdülhak tahta geçti, hanedanın kurucusu olarak kabul edildi" },
 
 { taraflar:["merini"], t:"1216-01-01", b:"Tâze'de Muvahhid ordusuna zafer", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -8831,22 +8831,22 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1258-01-01", b:"Ebû Yûsuf Ya'kūb saltanata geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-hanedan"],
   d:"Hanedanın en güçlü hükümdarlarından Ebû Yûsuf Ya'kūb saltanata geçti; onun döneminde Muvahhid Devleti kesin olarak sona erdirilecek ve Endülüs'e büyük seferler düzenlenecekti.",
-  kaynak:"TDV `meriniler`: \"656/1258'de Ebû Yûsuf Ya'kūb saltanata geçti\"" },
+  kaynak:"TDV `meriniler`: 656/1258'de Ebû Yûsuf Ya'kūb saltanata geçti" },
 
 { taraflar:["merini"], t:"1270-01-01", b:"Merakeş alınarak Muvahhidler Devleti sona erdirildi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Merakeş",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebû Yûsuf Ya'kūb Merakeş'i ele geçirerek bir asırdır Kuzey Afrika ve Endülüs'e hükmeden Muvahhidler Devleti'ni tarihe gömdü; Merînîler artık bölgenin tek hâkimiydi.",
-  kaynak:"TDV `meriniler`: \"668/1270'te Merakeş ele geçirilerek Muvahhidler Devleti sona erdirildi\"" },
+  kaynak:"TDV `meriniler`: 668/1270'te Merakeş ele geçirilerek Muvahhidler Devleti sona erdirildi" },
 
 { t:"1274-01-01", b:"Tanca ve Sebte zaptedildi", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis", yer_id:"Tanca",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Merînîler, Cebelitârık Boğazı'na hâkim iki liman şehri Tanca ve Sebte'yi ele geçirerek Endülüs'e geçiş kapısını denetim altına aldı.",
-  kaynak:"TDV `meriniler`: \"672/1273-74'te Tanca ve Sebte zaptedildi\"" },
+  kaynak:"TDV `meriniler`: 672/1273-74'te Tanca ve Sebte zaptedildi" },
 
 { taraflar:["merini"], t:"1275-09-08", b:"İsticce'de Kastilya ordusuna zafer (Endülüs seferi)", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Ebû Yûsuf Ya'kūb'un Endülüs'teki Nasrîlere yardıma çıkan ilk büyük seferi, İsticce (Ecija) yakınlarında Kastilya ordusunu bozguna uğrattı.",
-  kaynak:"TDV `meriniler`: \"15 Rebîülevvel 674/8 Eylül 1275'te İsticce savaşında Kastilya ordusunu mağlûp etti\"", yer_kon:[37.5417,-5.0819] },
+  kaynak:"TDV `meriniler`: 15 Rebîülevvel 674/8 Eylül 1275'te İsticce savaşında Kastilya ordusunu mağlûp etti", yer_kon:[37.5417,-5.0819] },
 
 { taraflar:["merini"], t:"1340-10-30", b:"Rio Salado'da (Tarîf) Kastilya-Portekiz ittifakına yenilgi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -8861,17 +8861,17 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1307-01-01", b:"Sekiz yıllık Tilimsan kuşatması ve sultanın suikastle ölümü", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","kusatma","konu-askeri","konu-kisiler"],
   d:"Ebû Ya'kūb Yûsuf'un Tilimsan kuşatması sekiz yıl üç ay sürdü, şehir teslim edilmedi; kuşatma sırasında sultan suikaste kurban gitti.",
-  kaynak:"TDV `meriniler`: \"706/1306-1307'de Tilimsan kuşatması 8 yıl 3 ay sürdü; suikasta uğrayıp öldü\"" },
+  kaynak:"TDV `meriniler`: 706/1306-1307'de Tilimsan kuşatması 8 yıl 3 ay sürdü; suikasta uğrayıp öldü" },
 
 { taraflar:["merini"], t:"1337-01-01", b:"Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti (geçici) sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebü'l-Hasan Ali, Tilimsan'ı ele geçirerek Abdülvâdî hâkimiyetine son verdi; on yıl sürecek bir Merînî ilhak dönemi başladı. Şehir 1348'de yine Abdülvâdîlere dönecekti (bkz. [[zeyyani]]).",
-  kaynak:"TDV `meriniler`: \"737/1337'de Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti sona erdirildi\"" },
+  kaynak:"TDV `meriniler`: 737/1337'de Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti sona erdirildi" },
 
 { taraflar:["merini"], t:"1347-01-01", b:"Tunus'a girilip Hafsî toprakları alındı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebü'l-Hasan Ali'nin ordusu Tunus'a girerek Hafsîlerin topraklarını (Tunus, Bicâye, Kostantîne) ele geçirdi; Merînî gücü kısa süreliğine bütün Mağrib'e yayıldı.",
-  kaynak:"TDV `meriniler`: \"748/1347'de Tunus şehrine girerek Hafsîlerin topraklarını aldı\"" },
+  kaynak:"TDV `meriniler`: 748/1347'de Tunus şehrine girerek Hafsîlerin topraklarını aldı" },
 
 { taraflar:["merini"], t:"1348-01-01", b:"Merînîler on yıllık Tilimsan hâkimiyetini kaybetti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
@@ -8891,12 +8891,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1358-01-01", b:"Ebû İnân boğularak öldürüldü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Merînî gücünün zirvesindeki hükümdar Ebû İnân sarayında boğularak öldürüldü; ölümünün ardından hanedan on yıllar sürecek bir taht kavgaları dönemine girdi.",
-  kaynak:"TDV `meriniler`: \"759/1358'de Ebû İnân boğularak öldü\"" },
+  kaynak:"TDV `meriniler`: 759/1358'de Ebû İnân boğularak öldü" },
 
 { taraflar:["merini"], t:"1409-01-01", b:"Hafsî sultanının Fas'a yürüyüşü, Merînîler istiklâlini kaybetti", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Hafsî sultanının Fas üzerine yürümesiyle Merînîler fiilî bağımsızlığını kaybetti; hanedan artık bir Hafsî nüfuz alanına dönüştü. On yıllar süren taht kavgaları ve vezir saltanatları döneminin (Vattâsîler) zemini burada atıldı.",
-  kaynak:"TDV `meriniler`: \"812/1409'da Hafsî sultanının Fas üzerine yürüyüşü; Merînîler istiklâlini kaybetti\"" },
+  kaynak:"TDV `meriniler`: 812/1409'da Hafsî sultanının Fas üzerine yürüyüşü; Merînîler istiklâlini kaybetti" },
 
 { t:"1415-01-01", b:"Portekiz Sebte'yi işgal etti", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Sebte (Ceuta)",
   etiket:["toprak-kayip","konu-askeri"],
@@ -8911,12 +8911,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1465-01-01", b:"Tanca Portekiz'e düştü, son Merînî sultanı öldürülerek hanedan sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["toprak-kayip","hanedan","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Tanca'nın da Portekiz'in eline geçmesiyle aynı yıl son Merînî sultanı Abdülhak öldürüldü ve iki buçuk asırlık hanedan sona erdi; iktidar fiilen eski Merînî vezirleri Vattâsîlere geçti.",
-  kaynak:"TDV `meriniler`: \"869/1465'te Tanca Portekizliler tarafından işgal edildi\" · \"869/1465'te Merînî Sultanı Abdülhak öldürülerek Merînîler Devleti sona erdi\"" },
+  kaynak:"TDV `meriniler`: 869/1465'te Tanca Portekizliler tarafından işgal edildi · \"869/1465'te Merînî Sultanı Abdülhak öldürülerek Merînîler Devleti sona erdi\"" },
 
 { taraflar:["merini"], t:"1299-01-01", b:"Mansûre şehri kuruldu (Tilimsan kuşatması karargâhı)", tur:"kultur", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["mimari","kurum","imar","konu-burokrasi","konu-kultur","konu-imar"],
   d:"Sekiz yıl süren Tilimsan kuşatması sırasında ordugâh olarak Mansûre şehri kuruldu; köşkler, resmî binalar ve hamamlar inşa edildi — bir kuşatma karargâhının kalıcı şehre dönüşümü.",
-  kaynak:"TDV `meriniler`: \"698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı\"", yer_id:"Tilimsan" },
+  kaynak:"TDV `meriniler`: 698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı", yer_id:"Tilimsan" },
 
 { taraflar:["merini"], t:"1323-01-01", b:"Medresetü'l-Attârîn inşa edildi", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Fas (Fez)",
   etiket:["bilim","mimari","imar","konu-bilim","konu-imar","konu-egitim"],
@@ -8926,7 +8926,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1304-01-01", b:"İlk resmî hac kafilesi yola çıktı", tur:"din", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["din","konu-din"],
   d:"Merînî hükümdarlığı himayesinde ilk resmî hac kafilesi Mekke'ye yola çıktı; hanedanın dinî meşruiyet ve hac yolu güvenliği siyasetinin erken bir göstergesi.",
-  kaynak:"TDV `meriniler`: \"703/1303-1304'te ilk hac kafilesi yola çıktı\"" },
+  kaynak:"TDV `meriniler`: 703/1303-1304'te ilk hac kafilesi yola çıktı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. SÂDÎLER (1511-1659) — bkz. devletler.js id:"sadi"
@@ -8935,27 +8935,27 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1511-01-01", b:"Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde elli kadar kabile reisinden biat alarak cihad emîri oldu — İber yarımadası ve Portekiz'in kıyı işgallerine karşı direniş söylemiyle yükselen Sâdî hanedanının başlangıcı.",
-  kaynak:"TDV `sadiler`: \"916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı\"", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: 916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı", kapsam_genis:true },
 
 { taraflar:["sadi"], t:"1517-01-01", b:"Kurucunun vefatı, Ahmed el-A'rec tahta geçti", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Hanedanın kurucusu Muhammed'in vefatının ardından oğlu Ahmed el-A'rec tahta geçti.",
-  kaynak:"TDV `sadiler`: \"923/1517'de Muhammed'in vefatı; Ahmed el-A'rec'in tahta geçmesi\"" },
+  kaynak:"TDV `sadiler`: 923/1517'de Muhammed'in vefatı; Ahmed el-A'rec'in tahta geçmesi" },
 
 { taraflar:["sadi"], t:"1524-01-01", b:"Merakeş'e girilip başşehir yapıldı", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Merakeş",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Sâdîler Merakeş'e girerek şehri başşehir yaptı; Sûs'taki yerel bir cihad hareketi artık bölgesel bir devletin merkezine sahipti.",
-  kaynak:"TDV `sadiler`: \"930/1524'te Merakeş'e girerek başşehir yapılması\"" },
+  kaynak:"TDV `sadiler`: 930/1524'te Merakeş'e girerek başşehir yapılması" },
 
 { taraflar:["sadi"], t:"1536-01-01", b:"Ukbâ savaşı sonrası Vattâsîlerle sınır antlaşması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Ukbâ savaşının ardından Sâdîler ile eski Merînî vezirleri Vattâsîler arasında egemenlik alanlarını belirleyen bir antlaşma yapıldı — ülke fiilen ikiye bölünmüş durumdaydı.",
-  kaynak:"TDV `sadiler`: \"943/1536'da Ukbâ savaşından sonra Vattâsîler ile egemenlik alanları belirleme antlaşması\"" },
+  kaynak:"TDV `sadiler`: 943/1536'da Ukbâ savaşından sonra Vattâsîler ile egemenlik alanları belirleme antlaşması" },
 
 { taraflar:["sadi"], t:"1537-01-01", b:"Portekiz ile üç yıllık antlaşma", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Sâdîler, kıyı kalelerini elinde tutan Portekiz ile üç yıllık bir antlaşma imzaladı.",
-  kaynak:"TDV `sadiler`: \"1537'de Portekiz ile 3 yıllık antlaşma imzalanması\"" },
+  kaynak:"TDV `sadiler`: 1537'de Portekiz ile 3 yıllık antlaşma imzalanması" },
 
 { taraflar:["sadi"], t:"1541-01-01", b:"Agadir ele geçirildi, Safî ve Azemmûr Portekiz'ce boşaltıldı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Agadir",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -8965,42 +8965,42 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1549-01-01", b:"Fas şehrine girilip Vattâsî hâkimiyetine son verildi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Muhammed eş-Şeyh, Fas şehrine girerek Vattâsî hâkimiyetine son verdi; Sâdîler artık bütün Fas'ın tek hâkimiydi. bkz. [[fas]] (ülke şemsiye kimliği bu tarihte başlıyor).",
-  kaynak:"TDV `sadiler`: \"956/1549'da Fas şehrine giriş; Vattâsî hâkimiyetine son verilmesi\"" },
+  kaynak:"TDV `sadiler`: 956/1549'da Fas şehrine giriş; Vattâsî hâkimiyetine son verilmesi" },
 
 { taraflar:["sadi"], t:"1554-01-01", b:"Osmanlı ordusu Sâdîleri Fas'tan çıkardı, Ebû Hassûn'u tahta oturttu", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Osmanlı-destekli bir sefer Fas şehrini ele geçirip Sâdîleri geçici olarak çıkardı ve eski Vattâsî hanedanından Ebû Hassûn'u tahta oturttu — Osmanlı'nın Fas'a ilk ve tek doğrudan askerî müdahalesi. Aynı yıl Muhammed eş-Şeyh Ebû Hassûn'u yenip öldürerek Fas'ı geri aldı.",
-  kaynak:"TDV `sadiler`: \"961/1554'te Osmanlı ordusu tarafından Fas'tan çıkarılması; Ebû Hassûn'un iktidarı\" · \"Aynı yıl Muhammed eş-Şeyh tarafından Ebû Hassûn'un yenilgisi ve ölümü\"" },
+  kaynak:"TDV `sadiler`: 961/1554'te Osmanlı ordusu tarafından Fas'tan çıkarılması; Ebû Hassûn'un iktidarı · \"Aynı yıl Muhammed eş-Şeyh tarafından Ebû Hassûn'un yenilgisi ve ölümü\"" },
 
 { taraflar:["sadi"], t:"1557-01-01", b:"Muhammed eş-Şeyh Osmanlı ordusunca öldürüldü, Abdullah tahta geçti", tur:"olum", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan","konu-din"],
   d:"1554'te Osmanlıları Fas'tan çıkaran Muhammed eş-Şeyh, üç yıl sonra bir Osmanlı harekâtı sırasında öldürüldü; yerine oğlu Abdullah (Gālib-Billâh) geçti. Osmanlı-Sâdî çekişmesi bir kuşak daha sürecekti.", ic_not_d:"⚠️ Kaynağın verdiği yer adı ('Derna dağları') Trablusgarp'taki Derne ile KARIŞTIRILMASIN — Fas içinde bir yerdir, atlasın Derne noktasıyla eşleştirilmedi.",
-  kaynak:"TDV `sadiler`: \"964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi\" · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\"" },
+  kaynak:"TDV `sadiler`: 964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\"" },
 
 { taraflar:["sadi"], t:"1564-01-01", b:"İspanyollar Bâdis'i ele geçirdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip","konu-askeri"],
   d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi.", ic_not_d:"(Bâdis'in TDV'de müstakil maddesi yok; bilgi `sadiler` maddesinden alındı.)",
-  kaynak:"TDV `sadiler`: \"1564'te İspanyolların Bâdis adasını ele geçirmesi\"", yer_id:"Bâdis (Peñón de Vélez)" },
+  kaynak:"TDV `sadiler`: 1564'te İspanyolların Bâdis adasını ele geçirmesi", yer_id:"Bâdis (Peñón de Vélez)" },
 
 { taraflar:["sadi"], t:"1576-01-01", b:"Osmanlı desteğiyle Abdülmelik Fas'a girdi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
   d:"Osmanlı kuvvetlerinin desteğiyle Abdülmelik Fas'a girdi; kısa süre sonra Mu'tasım unvanıyla tahta oturdu. Osmanlı-Sâdî ilişkisi bu kez bir düşmanlık değil ittifak biçimini aldı.",
-  kaynak:"TDV `sadiler`: \"983/1576'da Osmanlı kuvvetleriyle Abdülmelik'in Fas'a girişi\" · \"19 Rebîülâhir 984/16 Temmuz 1576'da Abdülmelik'in Mu'tasım unvanıyla tahta oturması\"" },
+  kaynak:"TDV `sadiler`: 983/1576'da Osmanlı kuvvetleriyle Abdülmelik'in Fas'a girişi · \"19 Rebîülâhir 984/16 Temmuz 1576'da Abdülmelik'in Mu'tasım unvanıyla tahta oturması\"" },
 
 { taraflar:["sadi"], t:"1578-08-04", b:"Vâdilmehâzin (Üç Kral) Savaşı — Portekiz Haçlı ordusu imha edildi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi.", ic_not_d:"⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
-  kaynak:"TDV `sadiler`: \"30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti\" · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
+  kaynak:"TDV `sadiler`: 30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
 
 { taraflar:["sadi"], t:"1588-01-01", b:"Ahmed el-Mansûr Osmanlı'ya vergiyi kesti", tur:"idari", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","konu-idari","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr, İstanbul'a gönderdiği vergiyi kesti; ardından yumuşatıcı bir elçilik heyeti gönderdi. Sâdîlerin Osmanlı'ya karşı fiilî bağımsızlığının bir göstergesi.",
-  kaynak:"TDV `sadiler`: \"1588'de Ahmed el-Mansûr'un Osmanlıya vergi göndermemesi; ardından elçilik heyeti gönderilmesi\"" },
+  kaynak:"TDV `sadiler`: 1588'de Ahmed el-Mansûr'un Osmanlıya vergi göndermemesi; ardından elçilik heyeti gönderilmesi" },
 
 { t:"1591-04-13", b:"Tondibi zaferiyle Songhay İmparatorluğu yıkıldı, Sudan fethedildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Timbuktu",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ahmed el-Mansûr'un ateşli silahlarla donanmış ordusu Tondibi'de Batı Afrika'nın en büyük gücü Songhay İmparatorluğu'nu yıktı ve Timbuktu dahil Sudan bölgesini fethetti; trans-Sahra altın ve köle ticaretinin denetimi el değiştirdi, Songhay'ın çöküşü bölgenin siyasi haritasını yeniden çizdi.",
-  kaynak:"TDV `sadiler`: \"999/1591'de Tondibi savaşıyla Songay Sultanlığının yıkılması; Sudan'ın fethi\"" },
+  kaynak:"TDV `sadiler`: 999/1591'de Tondibi savaşıyla Songay Sultanlığının yıkılması; Sudan'ın fethi" },
 
 { taraflar:["sadi"], t:"1591-06-01", b:"Sudan seferinden ganimet: 20.000 köle, altın, fildişi", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"Timbuktu",
   etiket:["ekonomi","konu-ekonomi"],
@@ -9010,37 +9010,37 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["sadi"], t:"1602-01-01", b:"Veliahtın isyanı bastırıldı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","konu-isyan"],
   d:"Veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanı bastırılıp kendisi hapsedildi; hanedanın taht kavgaları döneminin habercisiydi.",
-  kaynak:"TDV `sadiler`: \"1011/1602'de veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanının bastırılması; hapsedilmesi\"" },
+  kaynak:"TDV `sadiler`: 1011/1602'de veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanının bastırılması; hapsedilmesi" },
 
 { taraflar:["sadi"], t:"1603-01-01", b:"Ahmed el-Mansûr vebadan öldü, taht kavgaları başladı", tur:"olum", onem:5, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["hanedan","konu-kisiler","konu-hanedan","afet","afet-salgin"],
   d:"Sâdîlerin en güçlü hükümdarı Ahmed el-Mansûr vebadan öldü; ardından yarım asra yakın sürecek, ülkeyi paramparça edecek bir taht kavgaları dönemi başladı.",
-  kaynak:"TDV `sadiler`: \"1012/1603'te Ahmed el-Mansûr'un vebadan ölümü\"" },
+  kaynak:"TDV `sadiler`: 1012/1603'te Ahmed el-Mansûr'un vebadan ölümü" },
 
 { taraflar:["sadi"], t:"1610-01-01", b:"Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"On yıla yakın süren taht kavgalarının ardından ülke kuzeyde Fas, güneyde Merakeş merkezli iki ayrı emirliğe bölündü; bu bölünme hanedanın 1659'daki sonuna kadar sürdü.",
-  kaynak:"TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)", odak_kimlik:["sadi"], kapsam_genis:true },
+  kaynak:"TDV `sadiler`: Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi (1019/1610 dolayları)", odak_kimlik:["sadi"], kapsam_genis:true },
 
 { t:"1659-01-01", b:"Ahmed el-Abbas öldürülerek Sâdî hanedanı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"ic", yer_id:"Merakeş",
   etiket:["hanedan","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Son Sâdî hükümdarı Ahmed el-Abbas, Şebbâne liderleri tarafından öldürüldü; bir buçuk asırlık hanedan sona erdi. İktidar, Sûs'tan yükselen yeni bir şerif ailesine, Alevîlere (Filalîlere) geçecekti — bkz. [[fas]].",
-  kaynak:"TDV `sadiler`: \"1069/1659'da Ahmed el-Abbas'ın Şebbâne liderleri tarafından öldürülmesi; Sâdîler hânedanının sona ermesi\"" },
+  kaynak:"TDV `sadiler`: 1069/1659'da Ahmed el-Abbas'ın Şebbâne liderleri tarafından öldürülmesi; Sâdîler hânedanının sona ermesi" },
 
 { taraflar:["sadi"], t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı.", ic_not_d:"⚠️ TDV yalnız \\\"Abdülmelik ve Ahmed el-Mansûr devrinde\\\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", odak_kimlik:["sadi"], kapsam_genis:true },
+  kaynak:"TDV `sadiler`: Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları", odak_kimlik:["sadi"], kapsam_genis:true },
 
 { taraflar:["sadi"], t:"1593-01-01", b:"Kasrü'l-bedî' Sarayı inşa edildi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["mimari","imar","konu-kultur","konu-imar"],
   d:"Ahmed el-Mansûr, Tondibi zaferinin Sudan altınıyla finanse edilen görkemli Kasrü'l-bedî' Sarayı'nı Merakeş'te inşa ettirdi; saray, dönemin İber ve Osmanlı saraylarıyla rekabet eden bir güç gösterisiydi.", ic_not_d:"⚠️ TDV yalnız \\\"Ahmed el-Mansûr devrinde\\\" diyor; saltanatının ortası (1593) yaklaşık tarih olarak kullanıldı, gün doğrulanmadı.",
-  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası\"" },
+  kaynak:"TDV `sadiler`: Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası" },
 
 { taraflar:["sadi"], t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler.", ic_not_d:"⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", odak_kimlik:["sadi"], kapsam_genis:true },
+  kaynak:"TDV `sadiler`: Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması", odak_kimlik:["sadi"], kapsam_genis:true },
 
 // ══════════════════════════════════════════════════════════════════
 // III. HAFSÎLER (TUNUS, 1229-1574)
@@ -9064,12 +9064,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["hafsi"], t:"1287-01-01", b:"Mehdiye Pizalı-Cenevizli korsanlarca yağmalandı", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Mehdiye",
   etiket:["askeri","konu-askeri"],
   d:"İtalyan korsan filoları Mehdiye'yi baskınla tahrip etti; Hafsî sahillerinin Akdeniz korsanlığına açık kırılganlığının erken bir örneği.",
-  kaynak:"TDV `tunus`: \"Pizalı ve Cenevizli korsanlar Mehdiye'yi tahrip etti\" (1287)" },
+  kaynak:"TDV `tunus`: Pizalı ve Cenevizli korsanlar Mehdiye'yi tahrip etti (1287)" },
 
 { taraflar:["hafsi"], t:"1334-01-01", b:"Cerbe adası geri alındı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Cerbe (Djerba)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"1284'te Hıristiyanların eline geçen Cerbe adası Hafsîler tarafından yeniden fethedildi.",
-  kaynak:"TDV `tunus`: \"1284'te hıristiyanların eline geçen Cerbe adasının Hafsîler tarafından tekrar fethilmesi\" (1334)" },
+  kaynak:"TDV `tunus`: 1284'te hıristiyanların eline geçen Cerbe adasının Hafsîler tarafından tekrar fethilmesi (1334)" },
 
 { taraflar:["hafsi"], t:"1370-01-01", b:"I. Ebü'l-Abbas Ahmed el-Müstansır Hafsîlere yeniden itibar kazandırdı", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"Tunus",
   etiket:["hanedan","konu-hanedan"],
@@ -9084,7 +9084,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["hafsi"], t:"1488-01-01", b:"Ebû Amr Osman'ın ölümü ve ikinci parlak dönemin sonu", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Tunus",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Sultan Ebû Amr Osman'ın ölümünün ardından devlet karışıklığa girdi ve Avrupa devletlerinin sahil saldırıları yoğunlaştı — hanedanın çöküş sürecinin başlangıcı.",
-  kaynak:"TDV `tunus`: \"Sultan ölümünün ardından devlet karışıklığa girdi; Avrupa devletlerinin saldırıları yoğunlaştı\" (1488)" },
+  kaynak:"TDV `tunus`: Sultan ölümünün ardından devlet karışıklığa girdi; Avrupa devletlerinin saldırıları yoğunlaştı (1488)" },
 
 { taraflar:["hafsi"], t:"1534-08-16", b:"Barbaros Hayreddin Paşa Tunus'u fethetti", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -9118,7 +9118,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["zeyyani"], t:"1307-01-01", b:"Kuşatma sonrası yeniden imar", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Sekiz yıllık kuşatmanın kaldırılmasının ardından I. Ebû Zeyyân Muhammed, şehrin yıkıntılarını tamir ettirdi.",
-  kaynak:"TDV `tilimsan`: \"I. Ebû Zeyyân Muhammed yıkıntıları tamir etti\" (1304-1308)" },
+  kaynak:"TDV `tilimsan`: I. Ebû Zeyyân Muhammed yıkıntıları tamir etti (1304-1308)" },
 
 { taraflar:["zeyyani"], t:"1318-01-01", b:"I. Ebû Taşfin döneminde mimari gelişme", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
   etiket:["mimari","imar","konu-kultur","konu-imar"],
@@ -9178,7 +9178,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1554-01-01", b:"Sâlih Reis Tilimsan'ı kesin olarak fethetti, hanedan sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","hanedan","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"Osmanlı beylerbeyi Sâlih Reis, Tilimsan'ı kesin biçimde ele geçirerek üç asırlık Zeyyânî hanedanına son verdi; şehir Cezayir Ocaklığı'na bağlandı.",
-  kaynak:"TDV `tilimsan`: \"Sâlih Reis kumandasında kesin biçimde ele geçirildi\" (1553)" },
+  kaynak:"TDV `tilimsan`: Sâlih Reis kumandasında kesin biçimde ele geçirildi (1553)" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. TRABLUSGARP OCAĞI (KARAMANLI HANEDANI, 1551-1911)
@@ -9192,17 +9192,17 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["trablusgarp-ocagi"], t:"1556-01-01", b:"Turgut Reis beylerbeyi atandı", tur:"idari", onem:4, dunya:1, kapsam:"ic", yer_id:"Trablus",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Turgut Reis, Trablusgarp beylerbeyi olarak atandı; dokuz yıl sürecek yönetimi boyunca Osmanlı hâkimiyetini Fizan'a kadar genişletti.",
-  kaynak:"TDV `trablusgarp`: \"Turgut Reis beylerbeyilikle atandı; dokuz yıllık yönetim dönemi başladı (Fizan'a kadar)\" (1556)" },
+  kaynak:"TDV `trablusgarp`: Turgut Reis beylerbeyilikle atandı; dokuz yıllık yönetim dönemi başladı (Fizan'a kadar) (1556)" },
 
 { taraflar:["trablusgarp-ocagi"], t:"1711-01-01", b:"Ahmed Karamanlı özerk hanedanlığını kurdu", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"Trablus",
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Ahmed Karamanlı, merkezî Osmanlı idaresinden fiilen bağımsız bir hanedan kurarak Trablusgarp'ı yarı bağımsız bir eyalete dönüştürdü; hanedan 1835'e kadar sürecekti.",
-  kaynak:"TDV `trablusgarp`: \"Yarı bağımsız eyalet konumuna geçiş; Karamanlı ailesinin yönetimi başladı\" (1711)" },
+  kaynak:"TDV `trablusgarp`: Yarı bağımsız eyalet konumuna geçiş; Karamanlı ailesinin yönetimi başladı (1711)" },
 
 { taraflar:["trablusgarp-ocagi"], t:"1801-05-14", b:"ABD ile Birinci Barbary Savaşı başladı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Trablus",
   etiket:["askeri","konu-askeri"],
   d:"Yusuf Karamanlı'nın ticaret gemilerinden haraç talebini reddeden genç Amerika Birleşik Devletleri ile Trablusgarp arasında çatışmalar başladı; ABD donanması limanı abluka altına aldı, gemiler karşılıklı el değiştirdi. ABD'nin kıtası dışında verdiği ilk savaş olarak Amerikan deniz tarihinde dönüm noktasıdır.",
-  kaynak:"TDV `trablusgarp`: \"Ticaret gemilerinden vergi alınması nedeniyle çatışmalar; gemi kaçırılması ve liman ablukası\" (1796-1805)" },
+  kaynak:"TDV `trablusgarp`: Ticaret gemilerinden vergi alınması nedeniyle çatışmalar; gemi kaçırılması ve liman ablukası (1796-1805)" },
 
 { taraflar:["trablusgarp-ocagi"], t:"1805-06-10", b:"Barbary Savaşı Trablus lehine sona erdi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["diplomasi","konu-diplomasi"],
@@ -9222,7 +9222,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1911-10-09", b:"Trablus şehri İtalyan işgaline düştü", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İtalyan ablukasının ardından Trablus şehri teslim oldu; kısa sürede Tobruk (8 Ekim), Derne (16 Ekim) ve Bingazi (21 Ekim) de işgal edildi.",
-  kaynak:"TDV `trablusgarp-savasi`: \"9 Ekim 1911 Trablusgarp şehrinin teslimi\" · \"8 Ekim 1911 Tobruk işgali\" · \"16 Ekim 1911 Derne işgali\" · \"21 Ekim 1911 Bingazi işgali\"" },
+  kaynak:"TDV `trablusgarp-savasi`: 9 Ekim 1911 Trablusgarp şehrinin teslimi · \"8 Ekim 1911 Tobruk işgali\" · \"16 Ekim 1911 Derne işgali\" · \"21 Ekim 1911 Bingazi işgali\"" },
 
 { t:"1911-10-16", b:"Derne İtalyan işgaline girdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Derne",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -9237,12 +9237,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1911-12-01", b:"Enver Bey direniş karargâhını üstlendi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Gönüllü subay olarak Kuzey Afrika'ya geçen Enver Bey (sonraki Enver Paşa), yerel Arap ve Berberî direnişçilerle birlikte Bingazi-Derne hattında karargâh kurup düzenli bir direniş örgütledi.",
-  kaynak:"TDV `trablusgarp-savasi`: \"1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi\"", kapsam_genis:true },
+  kaynak:"TDV `trablusgarp-savasi`: 1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi", kapsam_genis:true },
 
 { t:"1912-10-18", b:"Uşi Antlaşması — Osmanlı hâkimiyeti resmen sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["diplomasi","toprak-kayip","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Uşi (Ouchy) Antlaşması ile Osmanlı Devleti Trablusgarp ve Bingazi üzerindeki egemenlik hakkından fiilen çekildi; 361 yıllık Osmanlı hâkimiyeti (Sinan Paşa'nın 1551 fethinden bu yana) sona erdi. Antlaşma aynı zamanda Balkan Savaşı arifesinde Osmanlı'nın Avrupa'daki konumunu da zayıflattı.",
-  kaynak:"TDV `trablusgarp-savasi`: \"18 Ekim 1912 Uşi Barış Antlaşması\"" },
+  kaynak:"TDV `trablusgarp-savasi`: 18 Ekim 1912 Uşi Barış Antlaşması" },
 
 ];
 
@@ -10695,12 +10695,12 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1205-01-01", b:"Marco Sanudo'nun sekiz gemiyle Nakşa'yı fethi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["toprak-kazanc","askeri","konu-askeri","konu-siyasi"],
   d:"Venedikli Marco Sanudo, dogesi olmayan bir özel teşebbüsle sekiz gemi donatıp Nakşa'ya çıktı ve adayı Bizans muhafızlarından aldı. Rivayete göre gemilerini yaktırarak dönüşü imkânsız kıldı. Kikladlar'daki Latin hâkimiyeti bu tek adamın girişimiyle başlar.",
-  kaynak:"TDV 'naksa' md.: \"Marco Sanudo conquered the island with eight ships\" (1205) · Lock, The Franks in the Aegean · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: Marco Sanudo conquered the island with eight ships (1205) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
 { t:"1207-01-01", b:"Sanudo'nun 'Egeopelagos Dukası' unvanını alması — dukalığın kuruluşu", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["siyaset","kurulus","konu-siyasi"],
   d:"Latin İmparatoru Henri, Sanudo'ya Nakşa merkezli 'Egeopelagos (Denizler) Dukası' unvanını verdi ve on yedi adayı kapsayan dukalık resmen doğdu. Sanudo böylece Venedik'in değil Latin İmparatorluğu'nun vassalı oldu; bu ikili bağ dukalığın bütün tarihini belirleyecektir. Merkez, Nakşa şehrindeki Kastro'ydu.",
-  kaynak:"TDV 'naksa' md.: \"Sanudo received the title 'Duke of Naxos' from the Latin Emperor in Constantinople\" (1207) · Lock, The Franks in the Aegean · 🟢 `dunya:2` referansı BEN kuruyorum" },
+  kaynak:"TDV 'naksa' md.: Sanudo received the title 'Duke of Naxos' from the Latin Emperor in Constantinople (1207) · Lock, The Franks in the Aegean · 🟢 `dunya:2` referansı BEN kuruyorum" },
 
 { t:"1210-01-01", b:"Nakşa Latin Başpiskoposluğu'nun kurulması", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"Nakşa",
   etiket:["din","idari","konu-idari","konu-din"],
@@ -10725,22 +10725,22 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1383-01-01", b:"Crispo darbesi — Sanudo hanedanının sonu", tur:"darbe", onem:5, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["darbe","hanedan","siyaset","darbe-siyasi","konu-siyasi","konu-darbe","konu-hanedan"],
   d:"Veronalı Francesco Crispo, son Sanudo dukası Niccolò dalle Carceri'yi bir av sırasında öldürterek dukalığı ele geçirdi ve Venedik onu kısa sürede tanıdı. Hanedan değişikliği kan dökülerek olsa da adanın idarî düzeninde kesinti yaratmadı. Crispo ailesi 1566'ya kadar dukalığı elinde tutacaktır.",
-  kaynak:"TDV 'naksa' md.: \"The Crispo family (from Verona) took control of the duchy and administration\" (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: The Crispo family (from Verona) took control of the duchy and administration (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
 { t:"1403-02-01", b:"Süleyman Çelebi ile yapılan antlaşmada Nakşa'nın anılması", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Ankara Savaşı sonrası Süleyman Çelebi'nin Hristiyan devletlerle yaptığı antlaşmada Nakşa da taraf olarak zikredildi. Bu, dukalığın Osmanlı ile ilk resmî temasıdır ve küçük bir ada devletinin Osmanlı diplomasisinde muhatap sayıldığını gösterir. Bundan sonraki bir buçuk yüzyıl, haraç pazarlıklarıyla geçecektir.",
-  kaynak:"TDV 'naksa' md.: \"1403: Nakşa mentioned in treaty with Süleyman Çelebi\" · Elizabeth Zachariadou, Trade and Crusade: Venetian Crete and the Emirates of Menteshe and Aydin (Venice, 1983) · gün yaklaşıktır" },
+  kaynak:"TDV 'naksa' md.: 1403: Nakşa mentioned in treaty with Süleyman Çelebi · Elizabeth Zachariadou, Trade and Crusade: Venetian Crete and the Emirates of Menteshe and Aydin (Venice, 1983) · gün yaklaşıktır" },
 
 { t:"1419-01-01", b:"Haracın Aydınoğulları'ndan Osmanlı'ya çevrilmesi", tur:"antlasma", onem:4, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","ekonomi","konu-diplomasi","konu-ekonomi"],
   d:"Yapılan antlaşmayla duka, o güne kadar Aydınoğulları'na ödediği vergiyi bundan böyle Osmanlı'ya ödeyecekti. Anadolu beyliklerinin tasfiyesi, Ege adalarının vergi muhatabını da tek elde topladı. Dukalık bu tarihten sonra fiilen Osmanlı'ya tâbi bir Latin devletidir.",
-  kaynak:"TDV 'naksa' md.: \"1419: Treaty stipulated the duke would pay tribute to Ottomans instead of Aydınoğulları\" · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1419: Treaty stipulated the duke would pay tribute to Ottomans instead of Aydınoğulları · gün bilinmiyor" },
 
 { t:"1446-01-01", b:"Haraç antlaşmasının yenilenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"1419 düzenlemesi 1426, 1446, 1451 ve 1454'te tekrar tekrar yenilendi. Her yeni padişahla antlaşmanın tazelenmesi gerekiyordu ve bu, dukalığın hayatta kalma yönteminin adıydı. Nakşa savaşarak değil, düzenli ödeyerek yaşadı.",
-  kaynak:"TDV 'naksa' md.: \"1426, 1446, 1451, 1454: Treaties repeated this arrangement\" · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1426, 1446, 1451, 1454: Treaties repeated this arrangement · gün bilinmiyor" },
 
 { t:"1453-05-29", b:"İstanbul'un fethi — dukalığın hâmisiz kalması", tur:"siyaset", onem:4, dunya:5, kapsam:"dis", yer_id:"İstanbul",
   etiket:["siyaset","kriz","konu-siyasi"],
@@ -10765,17 +10765,17 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Osmanlı ile Venedik arasındaki barışla Kikladlar üzerindeki hükümranlık resmen Osmanlı'ya geçti. Venedik'in üç yüz otuz yıllık dolaylı himayesi hukuken sona erdi. Dukalık varlığını sürdürdü, ama artık Venedik'e değil İstanbul'a bakıyordu.",
-  kaynak:"TDV 'naksa' md.: \"1540: Ottoman-Venetian treaty formally transferred sovereignty to Ottomans\" · Slot, Archipelagus Turbatus" },
+  kaynak:"TDV 'naksa' md.: 1540: Ottoman-Venetian treaty formally transferred sovereignty to Ottomans · Slot, Archipelagus Turbatus" },
 
 { t:"1566-01-01", b:"Yasef Nasi'ye verilmesi — Crispo hanedanının azli", tur:"hukumdar", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["siyaset","hanedan","konu-siyasi","konu-hanedan"],
   d:"Son Crispo dukası IV. Giacomo tebaasının şikâyetleri üzerine azledildi ve dukalık, II. Selim'in gözdesi Portekiz asıllı yahudi sarraf Yasef Nasi'ye verildi. Nasi adaya hiç ayak basmadı, bir vekil aracılığıyla yönetti. Bir Katolik Latin dukalığının bir Osmanlı saray adamına tevcih edilmesi, adanın 359 yıllık Latin siyasî varlığının fiilen bittiği andır.",
-  kaynak:"TDV 'naksa' md.: \"1566: Duchy granted to Yasef Nasi after dismissing the Crispo heir\" · Slot, Archipelagus Turbatus · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1566: Duchy granted to Yasef Nasi after dismissing the Crispo heir · Slot, Archipelagus Turbatus · gün bilinmiyor" },
 
 { t:"1579-01-01", b:"Crispo restorasyon teşebbüsünün başarısızlığı — dukalığın sonu", tur:"son", onem:5, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["son","siyaset","konu-siyasi"],
   d:"Yasef Nasi'nin ölümünden sonra Giacomo Crispo dukalığı geri almaya çalıştı ve başaramadı; adalar doğrudan Kaptanpaşa eyaletine bağlandı. Böylece 1207'de kurulan Egeopelagos Dukalığı 372 yıl sonra sona erdi. Katolik cemaat ve Latin aileler adada kaldı; giden yalnız devletti.",
-  kaynak:"TDV 'naksa' md.: \"1579: Following Nasi's death, Giacomo (Crispo) failed to reclaim the duchy\" · Slot, Archipelagus Turbatus · 🟢 `dunya:1` referansı BEN kuruyorum · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1579: Following Nasi's death, Giacomo (Crispo) failed to reclaim the duchy · Slot, Archipelagus Turbatus · 🟢 `dunya:1` referansı BEN kuruyorum · gün bilinmiyor" },
 
 { t:"1669-01-01", b:"Osmanlı sayımında Nakşa'nın Latin ve Ortodoks nüfusu", tur:"sosyal", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["sosyal","idari","konu-idari","konu-sosyal"],
@@ -12468,12 +12468,12 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1524-01-01", b:"Rodos'a 1343 kişilik Osmanlı muhafız kuvvetinin yerleştirilmesi", tur:"idari", onem:2, dunya:1, kapsam:"dis", yer_id:"Rodos",
   etiket:["idari","konu-idari"],
   d:"Ada Osmanlı idaresine bağlandı ve kalıcı bir muhafız kuvveti yerleştirildi; Süleymaniye Külliyesi ile şehrin yeniden canlandırılmasına girişildi. Şövalye dönemi kapanmış, adanın dört yüz yıl sürecek Osmanlı dönemi başlamıştır. Bu madde, tarikatın dosyasında bir 'sonrası' kaydıdır.",
-  kaynak:"TDV 'rodos' md.: \"Ottoman garrison of 1343 installed (1524)\", Süleymaniye Külliyesi ile imar · gün bilinmiyor" },
+  kaynak:"TDV 'rodos' md.: Ottoman garrison of 1343 installed (1524), Süleymaniye Külliyesi ile imar · gün bilinmiyor" },
 
 { t:"1530-03-24", b:"Malta ve Trablusgarp'ın Şarlken tarafından tarikata verilmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi","konu-din"],
   d:"İmparator V. Karl (Şarlken), Malta adalarını ve Trablusgarp'ı yıllık bir şahin sembolik kirası karşılığında tarikata bağışladı. Şövalyeler yedi yıl sonra yeniden toprak sahibi bir devlet oldular, ama bu kez Sicilya Krallığı'na feodal bağla bağlıydılar. Trablusgarp yükümlülüğü, tarikatı istemediği bir Kuzey Afrika savunmasına mecbur etti.",
-  kaynak:"TDV 'malta' md.: \"Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530\" · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum" },
+  kaynak:"TDV 'malta' md.: Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum" },
 
 { t:"1531-01-01", b:"Modon baskını — Malta'dan ilk büyük deniz harekâtı", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","konu-askeri"],
@@ -12508,7 +12508,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1565-05-18", b:"Büyük Malta Kuşatması'nın başlaması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Mustafa Paşa ve Piyale Paşa kumandasındaki Osmanlı donanması Malta'ya ulaştı ve karaya asker çıkarıldı. Kuvvet yaklaşık iki yüz kırk gemi ve otuz beş bin askerdi; tarikatın elinde ise yardımcılarla birlikte dokuz bin kadar savaşçı vardı. Kuşatma dört ay sürecek ve tarikatın kaderini belirleyecektir.",
-  kaynak:"TDV 'malta' md.: \"18 Şevval 972 / 19 May 1565\" adaya varış; sefer 26 Şâban 972 / 29 Mart 1565'te İstanbul'dan hareket · `dunya:3` — ispanya dosyasıyla BİREBİR hizalandı" },
+  kaynak:"TDV 'malta' md.: 18 Şevval 972 / 19 May 1565 adaya varış; sefer 26 Şâban 972 / 29 Mart 1565'te İstanbul'dan hareket · `dunya:3` — ispanya dosyasıyla BİREBİR hizalandı" },
 
 { t:"1565-06-23", b:"Saint Elmo Kalesi'nin düşüşü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -12528,7 +12528,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1565-09-12", b:"Kuşatmanın kaldırılması — tarikatın hayatta kalması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri","konu-din"],
   d:"Osmanlı ordusu gemilere binerek adadan ayrıldı; kaynaklara göre kayıp yaklaşık yirmi bin askerdi ve tarikat da savaşçılarının üçte birinden fazlasını yitirmişti. Zafer bütün Katolik Avrupa'da kutlandı ve tarikatın Malta'daki varlığını tartışılmaz kıldı. Rodos'ta kaybedilen itibar burada geri kazanıldı.",
-  kaynak:"TDV 'malta' md.: \"16 Safer 973 / 12 September 1565\" kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
+  kaynak:"TDV 'malta' md.: 16 Safer 973 / 12 September 1565 kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
 
 { t:"1566-03-28", b:"Valletta'nın kurulması — Avrupa'nın ilk planlı ızgara şehirlerinden", tur:"mimari", onem:5, dunya:3, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","reform","sosyal","imar","konu-imar","konu-islahat","konu-sosyal"],

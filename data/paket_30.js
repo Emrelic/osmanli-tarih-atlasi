@@ -3359,7 +3359,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   onem:3, dunya:1, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"", odak_yer:"Kragujevac", devlet:"sirp-despotlugu", gun:"1428 (TDV yalnız yıl verir)",
   d:"Stefan Lazareviç'in Temmuz 1427'de ölümü ve Belgrad'ın eski bir anlaşma gereği Macarlara bırakılması üzerine Osmanlılar, yeni despot Đurađ Branković'in elindeki Kruşevac'ı (Alacahisar) ele geçirdi. Başkentsiz kalan despot, daha savunulabilir bir merkez olarak Semendire'yi kurmaya yöneldi.",
-  kaynak:"TDV `semendire`: 'Temmuz 1427'de … Stefan Lazareviç … öldü … Curac Brankoviç … Belgrad'ı Macarlar'a iade etti. 1428'de Osmanlılar Đurađ'ın başşehri olan Kruševac'ı (Alacahisar) aldı.'" },
+  kaynak:"TDV `semendire`: Temmuz 1427'de … Stefan Lazareviç … öldü … Curac Brankoviç … Belgrad'ı Macarlar'a iade etti. 1428'de Osmanlılar Đurađ'ın başşehri olan Kruševac'ı (Alacahisar) aldı." },
 
 { t:"1454-01-01", b:"Fâtih'in Sırbistan seferi: Ostrovica alındı, Semendire kuşatıldı", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","kusatma","konu-askeri"],
@@ -4199,7 +4199,7 @@ window.KRONOLOJI_COK_ARNAVUT = [
   onem:4, dunya:2, kapsam:"dis", etiket:["ittifak","antlasma","konu-diplomasi"],
   yer_id:"", odak_yer:"Akçahisar", devletler:["arnavutluk-iskenderbey","napoli"],
   d:"İskender Bey, Aragon-Napoli kralı V. Alfonso ile yaptığı anlaşmayla onun tâbiiyetini tanıdı; karşılığında yıllık 1500 duka tahsisat ve askerî yardım sözü aldı. Anlaşma direnişi İtalya'nın güney kıyısına bağladı: sonraki Napoli birlikleri ve İskender Bey'in 1461 İtalya seferi bu bağın sonucudur.",
-  kaynak:"TDV `iskender-bey`: '26 Mart 1451'de yapılan anlaşmaya göre İskender Bey kralın tâbii oldu. İskender Bey yılda 1500 duka tahsisat alacaktı.'" },
+  kaynak:"TDV `iskender-bey`: 26 Mart 1451'de yapılan anlaşmaya göre İskender Bey kralın tâbii oldu. İskender Bey yılda 1500 duka tahsisat alacaktı." },
 
 { t:"1455-07-26", b:"Berat kuşatması bozgunla sona erdi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","kusatma","konu-askeri"],
@@ -4603,7 +4603,7 @@ window.KRONOLOJI_COK_BOSNA = [
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","reform","konu-idari"],
   yer_id:"Saraybosna", devlet:"bosna-eyaleti", gun:"Mayıs 1865 düzenleme, 1866 vilâyet adı (TDV)",
   d:"Vali Topal Osman Paşa döneminde (1861-1869) Vilâyet Nizamnâmesi'ne göre yeni bir idarî düzen kuruldu; Bosna 1866'da Saraybosna, İzvornik, Banaluka, Bihke, Travnik, Hersek ve Yenipazar sancaklarından oluşan bir vilâyete dönüştü. Aynı yıllarda vilâyet matbaası kuruldu, okullar açıldı ve düzenli salnâme yayımlanmaya başlandı.",
-  kaynak:"TDV `bosna-eyaleti`: 'Mayıs 1865'te ise vezir Topal Osman Paşa'nın valiliği sırasında yeni bir idarî düzenleme düşünüldü. 1866'da vilâyet olarak adlandırılan Bosna … yedi sancağa ayrılmıştı.'" },
+  kaynak:"TDV `bosna-eyaleti`: Mayıs 1865'te ise vezir Topal Osman Paşa'nın valiliği sırasında yeni bir idarî düzenleme düşünüldü. 1866'da vilâyet olarak adlandırılan Bosna … yedi sancağa ayrılmıştı." },
 
 
 { t:"1872-01-01", b:"Bosna'nın ilk demiryolu: Banaluka–Novi hattı", tur:"ekonomi",
@@ -4700,7 +4700,7 @@ window.KRONOLOJI_COK_ERMENI = [
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"Revan", gun:"Mart 1731 (TDV revan gün vermez)",
   d:"1724'ten beri Osmanlı elindeki Revan'ı Safevî Şahı II. Tahmasb Mart 1731'de kuşattı ama alamadı. 1732'de imzalanan kısa ömürlü antlaşma Revan'ın Osmanlı toprağı içinde kaldığını tescil etti; şehir ancak 1735'te Nâdir'e geçecekti.",
-  kaynak:"TDV revan ('Şah Tahmasb 1731 Martında Revan'ı kuşattıysa da alamadı. 1732'de imzalanan, ancak kısa süren anlaşma ile Revan'ın Osmanlı toprağı içinde kaldığı tescil edildi')" },
+  kaynak:"TDV revan (Şah Tahmasb 1731 Martında Revan'ı kuşattıysa da alamadı. 1732'de imzalanan, ancak kısa süren anlaşma ile Revan'ın Osmanlı toprağı içinde kaldığı tescil edildi)" },
 
 { t:"1747-01-01", devlet:"revan-hanligi", devletler:["revan-hanligi"],
   b:"Revan Hanlığı müstakil hâle geldi", tur:"kurulus", onem:4, dunya:1, kapsam:"ic",

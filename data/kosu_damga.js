@@ -30,20 +30,24 @@
 //    Bu yüzden damgada `yuruyus` alanı EN ÖNEMLİ alandır.
 
 window.KOSU_DAMGA = {
-  no: 19,                          // koşu numarası — arayüzde "KOŞU 19" diye görünür
-  tarih: "2026-10-01",             // çıktının main'e alındığı gün
-  makine: "UMIT",                  // koşuyu KOŞTURAN makine (EMRELIC değil)
-  commit: "3a34f8b0",              // çıktı commit'i
-  temel: "52222fa3",               // koşunun girdi temeli
-  sure: "1 sa 53 dk 52 sn",
+  // KOŞU 21 ELLE yazıldı (HAVVA, 7 Ekim 2026). Değerler koşu logundan
+  // (C:\atlas-kosu21-kayit\kosu21.log) ve başlatma kaydından birebir okundu.
+  no: 21,                          // koşu numarası — arayüzde "KOŞU 21" diye görünür
+  tarih: "2026-10-07",             // çıktının main'e alındığı gün
+  makine: "HAVVA",                 // koşuyu KOŞTURAN makine
+  commit: null,                    // çıktı commit'i bu damgayı taşıyan commit'tir (kendi sha'sını yazamaz)
+  temel: "2fe8ada7",               // koşunun girdi temeli · yama YOK
+  sure: "7 sa 13 dk 48 sn",        // 2026-10-06 19:49:07 → 2026-10-07 03:05
   bayraklar: {
     yuruyus: true,                 // MOTOR_YURUYUS=1  ← sahiplik prensibi
-    yuruyus_saat: 40,              // varsayılan (bütçe 40 saat = 5 gün)
-    yuruyus_16: null,              // ÖLÇÜLEMEDİ — commit gövdesinde yazmıyor
+    yuruyus_saat: 40,              // MOTOR_YURUYUS_SAAT=40 (bütçe 40 saat = 5 gün)
+    yuruyus_16: null,              // MOTOR_YURUYUS_16 koşu ortamında YOKTU — varsayılan
     col_ufuk_saat: 56,             // MOTOR_COL_UFUK_SAAT=56
-    ufuk_bant: [40, 56, 80]        // MOTOR_UFUK_BANT — 5 · 7 · 10 gün
+    ufuk_bant: [40, 56, 80],       // MOTOR_UFUK_BANT — 5 · 7 · 10 gün
+    surec_isci: 2                  // MOTOR_SUREC_ISCI=2 — tuzda DEĞİL, sonucu değiştirmez
   },
-  // Koşunun KENDİ denetim kaydı (depoda): denetim/DEGISMEZ-KOSU19-UMIT.log
-  //   Değişmez 8a 1517 (tavan 1611) · 8b 82 (tavan 83) · SONUÇ: temiz
-  denetim: "denetim/DEGISMEZ-KOSU19-UMIT.log"
+  // Koşunun KENDİ denetim kaydı (depoda): denetim/DEGISMEZ-KOSU21-HAVVA.log
+  //   ÇIKIŞ 2 · ihlal YOK · 8a 1505 (tavan 1508) · 8b 82 (tavan 82) ·
+  //   ölçülemeyen tek soru 8k körlük: defterde olmayan 18 (hat,gün), 11 hat
+  denetim: "denetim/DEGISMEZ-KOSU21-HAVVA.log"
 };

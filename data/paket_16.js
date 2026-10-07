@@ -249,7 +249,7 @@ window.HUKUKI_SINIRLAR = [
     tur: "nokta-kumesi",
     nokta_atamalari: [
       { ad: "Suçava (Suceava)", lat: 47.633, lon: 26.250, taraf: "osmanli",
-        kaynak: "TDV karlofca: \"Suçeva ... Osmanlılar geri aldı\"; koordinat data/yerlesimler.js:444'ten (KITA 30 bu turda tamamladı, uydurulmadı)" },
+        kaynak: "TDV karlofca: Suçeva ... Osmanlılar geri aldı; koordinat data/yerlesimler.js:444'ten (KITA 30 bu turda tamamladı, uydurulmadı)" },
       { ad: "Bar (Podolya)", lat: 49.078, lon: 28.260, taraf: "lehistan",
         kaynak: "TDV karlofca: \"Podolya boşaltıldı\"; koordinat data/yerlesimler.js:1341'den (KITA 30 bu turda tamamladı)" },
       { ad: "Kamaniçe", lat: null, lon: null, taraf: "belirsiz",
