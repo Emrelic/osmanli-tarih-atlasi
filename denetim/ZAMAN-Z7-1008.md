@@ -103,7 +103,7 @@ VAR: Dandanakan · Hastings · Malazgirt · Toledo 1085 · I. Haçlı (İznik 10
 | 2 komşu | İran'ın İngiliz-Sovyet işgali | 1941-08-25 | `iran` · `ingiltere` · `sovyet-rusya` |
 | 2 komşu | Irak'ın Milletler Cemiyeti'ne girişi (mandanın sonu) | 1932-10-03 | `irak-kralligi` |
 | 3 İslâm dünyası | Gazneli Mahmud'un Somnat seferi | 1026 | `gazneli` |
-| 3 İslâm dünyası | Celâleddin Hârizmşah'ın ölümü | 1231 | `harizmsah` |
+| ~~3~~ | ~~Celâleddin Hârizmşah'ın ölümü~~ — **VAR** (künye-içi, yıl hassasiyetli; §②b düzeltmesi) | 1231 | `harizmsah` |
 | 4 dünya | Doğu-Batı kiliselerinin ayrılığı | 1054-07-16 | `bizans` · `papalik` |
 | 4 dünya | Midway | 1942-06-04 | `meiji-japonya` · `abd` |
 | 4 dünya | II. El Alameyn | 1942-10/11 | `ingiltere` · `italya` · `almanya` |
@@ -118,6 +118,25 @@ VAR: Dandanakan · Hastings · Malazgirt · Toledo 1085 · I. Haçlı (İznik 10
 5. Şehir dizini: `sehirler` sekmesi yalnız `d/v` (Osmanlı) — yeni yıllarda değişen bir şey yok. `yerlesimler` sekmesi `s/isg` dahil hepsini gösterir; `data/yerlesimler.js`te bugün f<1281 dönem 0, f>1923-10-29 dönem 0 ⇒ gösterilecek veri Z5/Z6'dan gelecek. Sıralama `a.f < b.f` dizgi — 3 haneli yıl yazılırsa aynı kusur; tık yine `tarihAyarla` ile kırpılır.
 6. `gunIdx` (app.js:15) `Date.UTC(+y,…)` 0-99 yıllarını 1900'e kaydırır (`kronoGun` bunu düzeltmiş, `gunIdx` düzeltmemiş). 1000+ ufkunda zararsız; ilk yüzyıla/MÖ'ye inilince kusur.
 
+## ②b YAZILAN MADDELER — `ZAMAN-Z7-1008-MADDE.diff`
+🔴 Düzeltme: §D'deki "Celâleddin Hârizmşah'ın ölümü YOK" YANLIŞTI — künye-içi `harizmsah` kronolojisinde `1231-01-01 Celâleddin Hârizmşah Âmid dağlarında öldürüldü; hânedan yıkıldı` VAR; arama penceresini 1231-08-15 ±30 gün kurmuştum, madde yıl hassasiyetli (`-01-01`) olduğu için kaçtı. Yıl hassasiyetli maddeyi gün penceresiyle aramak bu sınıfı sessizce "YOK" yapar. YOK listesi 9 → 8.
+
+**ÖNGÖRÜ (ölçümden ÖNCE):** 4 maddeden hiçbiri toprak etiketi taşımıyor ⇒ evrene alınırsa 2t 419 → 419; D2/2s/2i ufuk içi kırılmaya ±30 gün yakın değiller (1925-02 / 1932-10 / 1941-08 — 1923 sonrası kırılma yok) ⇒ değişmez; mükerrer 217 → 217..219 (İran işgali ↔ 1941-09-16 tahttan çekilme künye-içi O evreninde değil; Faysal 1932 ↔ olası Irak maddeleri). Odak: 4/4 konumlu (3 yer_id + Somnat yer_kon), ODAKSIZ değişmez.
+
+| t | dosya | başlık | taraflar | kaynak (TDV, birebir cümle `kaynak:` alanında) |
+|---|---|---|---|---|
+| 1925-02-13 | 1923_1945 | Şeyh Said isyanı başladı | turkiye-cumhuriyeti | `seyh-said` (Z. Kurşun) |
+| 1932-10-03 | 1923_1945 | Irak Milletler Cemiyeti'ne kabul edildi; İngiliz mandası sona erdi | irak-kralligi | `faysal-i` |
+| 1941-08-25 | 1923_1945 | İngiliz ve Sovyet birlikleri İran'ı işgal etti | iran · ingiltere · sovyet-rusya | `iran` |
+| 1026-01-08 | once1281_iran | Gazneli Mahmud Somnat Kalesi'ni fethetti | gazneli | `mahmud-i-gaznevi` · `gazneliler` |
+Kapılar: `node --check` 2/2 ✓ · bağlanma 4/4 iniyor, görünmez 0, künyesiz taraf 0, pencere dışı 0 · yeni küresel ad 0 (var olan dizilere eklendi) · `odak_olc`: 1923_1945 503/503 konumlu, iran ODAKSIZ 32→32 · `git apply --check` tek başına ve PAD'den sonra ✓ · CR 0.
+Biçim: her madde kendi dosyasının deseninde (1923_1945 çıplak anahtar + tur/onem/dunya/kapsam; iran JSON + `k`). `onem/dunya` değerleri benim editoryal önerimdir (dosyadaki benzer maddelere göre: Hilâfet 4/4, Ankara Antl. 4/3).
+Toprak etiketi KASTEN yok: Şeyh Said iç isyan · Irak statü · İran işgal (`isgal` etiketi; haritada `isg:` yok — Z5'i bekler) · Somnat akın.
+Taraf disiplini: Irak maddesinde başlıkta "İngiliz" geçtiği hâlde `ingiltere` tarafı EKLENMEDİ (ONCE1281-2I-MADDE-1005'teki 2s TARAF sahte kapanış sınıfı).
+Yazılmayan (öncelik 4, TDV dışı kaynak ister): 1054 kilise ayrılığı · Midway · El Alameyn · BM Antlaşması.
+
+**ÖLÇÜM (PAD + MADDE uygulanmış, evren +ikisi, ufuk bugün, `evren2.py`):** O 3690 · D2 624/0 · 2s 1722/185 · 2i 171/1 · **2t 419 → 419** · **mükerrer 217 → 217** ⇒ öngörü ✓ (mükerrer alt ucu). Maddeler hiçbir kapıyı oynatmıyor.
+
 ## ③ NE BULAMADIM / ÖLÇMEDİM
 - 2s AÇIK +1'in (ufuk açılınca) hangi gün olduğu: anahtar listesini basmadım — "uç gün" hükmü yapısal çıkarım.
 - Mükerrer +122'nin kaçı sahici: triyaj yapılmadı (1004'teki +88 de yapılmamıştı).
@@ -129,4 +148,12 @@ VAR: Dandanakan · Hastings · Malazgirt · Toledo 1085 · I. Haçlı (İznik 10
 2. Evren kararı (koordinatör/Z1): `olaylari_yukle()`ye `kronoloji_cok_once1281_*` + `kronoloji_cok_500_1000` + `kronoloji_cok_1923_1945` — Z5/Z6 kırılma yazmadan ÖNCE. Bedeli ölçüldü: 2t 13→419, mükerrer 95→217 (LİSTE beyanıyla). Öneri: önce `gun_no` 3 haneli yıla dayanıklı (Z1), uç günler muaf (Z1), sonra evren.
 3. iran dosyasına `tur/onem/dunya/kapsam`: öneri `k`→`tur` birebir eşleme (mekanik) + `onem/dunya` için ayrı editoryal geçiş; ya da app.js'te puansız EK maddesi için "puansız" işareti (Z2). Bu oturum puan uydurmadı.
 4. Z3'e: `naksa-dukaligi` 1205 maddesi (görünmez 1).
-5. Eksik maddeler: öncelik 1-3 (5 madde) bu oturumda TDV'den yazılıyor → `ZAMAN-Z7-1008-MADDE.diff`; öncelik 4 (4 madde) TDV dışı akademik kaynak ister, sonraki tur.
+5. `ZAMAN-Z7-1008-MADDE.diff` uygulansın (4 madde, §②b). Öncelik 4'ün 4 maddesi TDV dışı akademik kaynak ister — sonraki tur, liste §D'de.
+6. Z1'e iletildi: gun_no pad, uç gün muafiyeti, çıplak ufuk dizgileri. Z2'ye iletildi: §E'nin 6 bulgusu.
+
+## Dosya listesi (hepsi `C:\atlas-umit\denetim\`e kopyalandı; commit/push YOK)
+- `denetim/ZAMAN-Z7-1008.md` — bu rapor
+- `denetim/ZAMAN-Z7-1008-PAD.diff` — 2 madde, 3 haneli yıl → 4 hane (once1281_afrika, once1281_dogu_asya)
+- `denetim/ZAMAN-Z7-1008-MADDE.diff` — 4 yeni madde (1923_1945 ×3, once1281_iran ×1)
+- İki diff bağımsız ve sıralı `git apply --check` temiz · temel `origin/makine/umit` e28edfdc · CR 0.
+- Ölçüm betikleri oturum scratchpad'inde (bag.js · kalite.js · evren.js · dizin.js · evren2.py · olay.js · ekle2.py) — depoya girmedi.
