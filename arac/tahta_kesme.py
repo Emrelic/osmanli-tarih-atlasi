@@ -256,6 +256,19 @@ def kes(uygula, dal=None, sunucu=True):
     for y in YOLLAR:
         if not izleniyor(y):
             engel.append("%s zaten İZLENMİYOR — kesme yapılmış olabilir" % y)
+    # 🔴 ÖN ŞART (TAHTA-WEB-DENETIM-1006): kesme yolları COMMİTLİ olmalı.
+    #   Ölçüldü: biri kirliyken `git rm --cached` (-f YOK) "staged content
+    #   different from both the file and the HEAD" diye REDDEDER ve `git rm`
+    #   ATOMİKtir ⇒ öteki yol da index'ten düşmez. Eskiden bu, commit ve dal
+    #   güncellemesi YAPILDIKTAN SONRA doğrulamada yakalanıyordu: depo
+    #   HEAD'de silinmiş/index'te duran YARIM halde kalıyor ve `geri --uygula`
+    #   "zaten izleniyor" diyip KURTARMIYORDU (elle `git reset --soft`).
+    #   ⇒ Engel ARTIK commit'ten ÖNCE: yarım hal hiç doğmaz.
+    kirli_on = g("status", "--porcelain", "--", *YOLLAR).stdout.strip()
+    if kirli_on:
+        engel.append("kesme yolları COMMİTLİ DEĞİL: %r ⇒ önce commitle "
+                     "(git add -- %s && git commit), sonra kes"
+                     % (kirli_on, " ".join(YOLLAR)))
     y_i = yarim_islem()
     if y_i:
         engel.append("depoda yarım git işlemi var: %s" % y_i)
@@ -303,7 +316,13 @@ def kes(uygula, dal=None, sunucu=True):
     eski, yeni = _commit_kur(degistir, mesaj, dal_sha)
     print("✓ commit kuruldu: %s → %s" % (eski[:8], yeni[:8]))
     # paylaşılan index: yalnız bu yolların girdisi HEAD'e eşitlenir
-    g("rm", "--cached", "-q", "--ignore-unmatch", "--", *YOLLAR)
+    # 🔴 `-f` ŞART: biri kirliyse git reddeder ve ATOMİK olduğu için hiçbir yol
+    #   düşmez. Ve dönüş kodu ARTIK ATILMIYOR: sessiz başarısızlık, yarım hali
+    #   yalnız doğrulamaya bırakıyordu (TAHTA-WEB-DENETIM-1006).
+    _rm = g("rm", "--cached", "-q", "-f", "--ignore-unmatch", "--", *YOLLAR)
+    if _rm.returncode != 0:
+        print("🔴 paylaşılan index'ten DÜŞMEDİ (git rm --cached -f → %d): %s"
+              % (_rm.returncode, (_rm.stderr or _rm.stdout).strip()[:200]))
     _gitignore_diske(eski_gi["yeni"], gitignore_icerik(eski))
     g("reset", "-q", yeni, "--", ".gitignore")
     if dal_sha:
