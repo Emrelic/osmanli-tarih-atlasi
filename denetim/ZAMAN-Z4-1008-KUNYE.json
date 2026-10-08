@@ -1,0 +1,3104 @@
+{
+ "kalem": "ZAMAN-Z4-KUNYE-SONRA1923-1008",
+ "tarih": "2026-10-08",
+ "agac": "C:\\atlas-z4 · origin/makine/umit e28edfdc",
+ "olcum": {
+  "kunye": 896,
+  "boya": 704,
+  "t_1923_10_29": 11,
+  "t_1945_09_02": 72,
+  "t_asan_UC": 155,
+  "f_UC_sonrasi": 17,
+  "asan_boyasiz": 17,
+  "t_1945_pencere_beyanli": 70,
+  "t_1945_beyansiz": 2,
+  "gecis_90_kunye_0930_bugun": {
+   "1945-09-02": 64,
+   "1923-1945 arası gerçek gün": 11,
+   "1945 sonrası gerçek gün": 4,
+   "hâlâ 1923-10-29": 11
+  }
+ },
+ "kunyeler": [
+  {
+   "id": "tbmm-turkiye",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 263
+   },
+   "gerekce": "t 1923-10-29 GERÇEK BİTİŞ (künye ic_not_t, TDV turkiye) — ardılı turkiye-cumhuriyeti künyesi VAR"
+  },
+  {
+   "id": "turkiye-cumhuriyeti",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1923-10-29",
+    "t": "1945-09-02",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR (f 1923-10-29 TDV turkiye · t pencere ucu beyanlı) — eksik olan BOYA (bkz. boya[])"
+  },
+  {
+   "id": "hatay-devleti",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1938-09-02",
+    "t": "1939-06-23",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, TDV antakya ile f 1938-09-02 · t 1939-06-23 — eksik olan BOYA"
+  },
+  {
+   "id": "irak-kralligi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1921-08-23",
+    "t": "1958-07-14",
+    "harita": null,
+    "nokta_1923_10_29": 35
+   },
+   "gerekce": "t 1958-07-14 — 1945 ufkunu aşıyor, boyalı"
+  },
+  {
+   "id": "suriye-lubnan-mandasi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1920-07-01",
+    "t": "1945-09-02",
+    "harita": null,
+    "nokta_1923_10_29": 25
+   },
+   "gerekce": "t pencere ucu beyanlı (1946 tahliye). Z-B: Lübnan 1943 · Suriye 1944-46 bağımsızlığı 1945 ufkunda TARTIŞMALI — ayrı Suriye/Lübnan cumhuriyet künyesi bu ufukta AÇILMAMASI önerilir (bkz. md ④-3)"
+  },
+  {
+   "id": "filistin-mandasi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1920-07-01",
+    "t": "1948-05-14",
+    "harita": null,
+    "nokta_1923_10_29": 6
+   },
+   "gerekce": "t 1948-05-14"
+  },
+  {
+   "id": "urdun-emirligi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1921-02-01",
+    "t": "1946-05-25",
+    "harita": null,
+    "nokta_1923_10_29": 2
+   },
+   "gerekce": "t 1946-05-25"
+  },
+  {
+   "id": "hicaz-kralligi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1916-06-10",
+    "t": "1925-12-31",
+    "harita": "hicaz",
+    "nokta_1923_10_29": 13
+   },
+   "gerekce": "t 1925-12-31 ÜST SINIR beyanlı (BRIT); ardıl suud-ucuncu (Necid ve Hicaz) → suudi-arabistan 1932-09-18 zinciri TAM"
+  },
+  {
+   "id": "suudi-arabistan",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1932-09-18",
+    "t": "1945-09-02",
+    "harita": "suud",
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR + boyalı (30 Eyl'de 'yok' sayılmıştı)"
+  },
+  {
+   "id": "misir-kralligi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1922-03-15",
+    "t": "1953-06-18",
+    "harita": null,
+    "nokta_1923_10_29": 57
+   },
+   "gerekce": "t 1953-06-18. ⚠️ Z5'e: `isg:ingiltere` Mısır 57 dönemi 1914-12-18→1923-10-29 sürüyor; misir-kralligi 1922-03-15'te başladığına göre bu işgal dönemi künye ile çakışıyor — Z5 uzatmadan ÖNCE sınıflandırmalı (TKLAMP ⚪)"
+  },
+  {
+   "id": "yugoslavya",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1918-12-01",
+    "t": "1945-09-02",
+    "harita": "yugoslavya",
+    "nokta_1923_10_29": 79
+   },
+   "gerekce": "t pencere ucu beyanlı. 1941-45 bölünmesi yerleşim işi (hirvatistan-bagimsiz künyesi VAR; Nedić Sırbistanı/İtalyan Karadağı için künye değil isg: önerilir)"
+  },
+  {
+   "id": "arnavutluk-bagimsiz",
+   "islem": "ardil",
+   "dilim": 1,
+   "bugun": {
+    "f": "1912-11-28",
+    "t": "1939-04-07",
+    "harita": "arnavutluk",
+    "nokta_1923_10_29": 15
+   },
+   "oneri": "1939-04-07 → 1944-11-29 arası KÜNYESİZ (5 yıl 7 ay). TDV arnavutluk: '1939-1944 yılları arasında Arnavutluk İtalyanlar ve Almanlar tarafından idare edildi' · '1943’te ülkenin Almanya tarafından işgal edilmesi'. Seçenek A (öneri): yeni künye YOK — yerleşimde s:italya 1939-04-07→(İtalya mütarekesi, gün araştırılacak) + ardından isg:almanya →1944-11-29 (künyenin kaynağı USHMM 'annexes' der; Baltık/Avusturya ilhak modeliyle tutarlı). Seçenek B: yeni künye 'İtalyan tacına bağlı Arnavutluk' 1939-04-07→1944-11-29 + isg:italya/almanya.",
+   "kaynak": [
+    "TDV arnavutluk (GET 200, 8 Eki 2026)"
+   ],
+   "celiski": "TDV '6 Nisan 1939' işgal der, künye t 1939-04-07 (USHMM) — künyenin kendi notunda zaten ⚠️ olarak beyanlı"
+  },
+  {
+   "id": "arnavutluk-halk-cumhuriyeti",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1944-11-29",
+    "t": "1945-09-02",
+    "harita": "arnavutluk",
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "f 1944-11-29 TDV arnavutluk ('resmî kuruluş tarihi ... 29 Kasım 1944') ✓"
+  },
+  {
+   "id": "bulgaristan-kralligi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "harita": "bulgaristan",
+    "nokta_1923_10_29": 24
+   },
+   "gerekce": "t 1946-09-15"
+  },
+  {
+   "id": "yunanistan",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1821-03-25",
+    "t": "1945-09-02",
+    "harita": "yunanistan",
+    "nokta_1923_10_29": 101
+   },
+   "gerekce": "t pencere ucu beyanlı; 1941-44 işgali isg: işidir (Helen Devleti için künye önerilmez)"
+  },
+  {
+   "id": "romanya-kralligi",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1881-03-26",
+    "t": "1945-09-02",
+    "harita": "romanya",
+    "nokta_1923_10_29": 43
+   },
+   "gerekce": "t pencere ucu beyanlı"
+  },
+  {
+   "id": "macaristan-naiplik",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1918-11-16",
+    "t": "1945-09-02",
+    "harita": "macaristan",
+    "nokta_1923_10_29": 20
+   },
+   "gerekce": "t pencere ucu beyanlı"
+  },
+  {
+   "id": "sovyet-rusya",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1917-11-07",
+    "t": "1991-12-25",
+    "harita": null,
+    "nokta_1923_10_29": 428
+   },
+   "gerekce": "t 1991-12-25 — SSCB cumhuriyetleri tek künyede; harezm/buhara HC 1924-01-01 ardılı bu künye"
+  },
+  {
+   "id": "tannu-tuva",
+   "islem": "genislet",
+   "dilim": 1,
+   "bugun": {
+    "f": "1921-08-14",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "t_oneri": "1944-10-11",
+   "hassasiyet": "gün",
+   "kaynak": [
+    "TDV tuva: '14 Ağustos 1921’de Tuva Halk Cumhuriyeti kuruldu.' · '11 Ekim 1944 tarihinde alınan bir kararla Bağımsız Tuva Halk Cumhuriyeti' … 'Sovyetler Birliği Muhtar Bölgesi haline dönüştürüldü.'"
+   ],
+   "gerekce": "t bugün 1923-10-29 = PENCERE KESİĞİ (beyansız). Künyenin kaynak alanı 'bulunamadı — TDV kapsam dışı' diyor: YANLIŞ, TDV `tuva` GET 200 ve f'yi de (1921-08-14) birebir doğruluyor ⇒ kaynak alanı TDV tuva'ya yükseltilmeli. Ardıl: sovyet-rusya. 1923'te noktası 0."
+  },
+  {
+   "id": "kacar",
+   "islem": "genislet",
+   "dilim": 1,
+   "bugun": {
+    "f": "1789-03-21",
+    "t": "1925-01-01",
+    "harita": "kacar",
+    "nokta_1923_10_29": 108
+   },
+   "t_oneri": "1925-12-12",
+   "hassasiyet": "ÜST SINIR (gün komşudan: iran · TDV riza-sah-pehlevi)",
+   "kaynak": [
+    "TDV kacarlar: '...ve böylece Kaçar hânedanı sona ermiş oldu (1925).' (yalnız YIL)",
+    "TDV riza-sah-pehlevi: '12 Aralık 1925 tarihinde Rızâ Han’ın meclis tarafından “şehinşah” ilân edilmesiyle Pehlevî hânedanı kuruldu'"
+   ],
+   "celiski": "TDV riza-sah-pehlevi AYNI maddede '31 Ocak 1924 tarihinde meclis ... Ahmed Şah’ı gıyabında tahttan indirerek Kaçar hânedanına son verdi' der; TDV kacarlar '1925' der ⇒ TDV iç çelişkisi (tuzak ⑥). Künye notu bunu zaten anıyor.",
+   "gerekce": "bugün t 1925-01-01 (YIL kodlaması) ile ardıl iran f 1925-12-12 arasında 11 AY KÜNYESİZ — Z5 108 noktayı 1923'ten ileri uzatınca bu aralık İran'da DELİK olur. `§4` komşu günü şartı: komşunun günü kendi kaynağına (TDV) dayanıyor ✓ · hedefte kaynak gün vermiyor ✓ · aynı süreç/aynı yer ✓ ⇒ t=1925-12-12 ÜST SINIR olarak devralınabilir; ic_not_t'ye 'gün komşudan: iran · TDV riza-sah-pehlevi' yazılır. Alternatif: 31 Ocak 1924 kabul edilirse aralık 23 aya çıkar — bu yüzden ÖNERİLMEZ, karar koordinatörde."
+  },
+  {
+   "id": "iran",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1925-12-12",
+    "t": "2026-08-07",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "f 1925-12-12 TDV riza-sah-pehlevi ile birebir; t 2026-08-07 ayrıca sorgulanmalı (SAYIM yan bulgu 5) — 1945 ufkunu etkilemez"
+  },
+  {
+   "id": "mogolistan-halk-cumhuriyeti",
+   "islem": "dokunmadim",
+   "dilim": 1,
+   "bugun": {
+    "f": "1924-11-26",
+    "t": "1945-09-02",
+    "harita": "mogolistan",
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR + boyalı; f 1924-11-26 = mogolistan t ⇒ zincir tam"
+  },
+  {
+   "id": "sarki-turkistan-1944",
+   "islem": "yeni",
+   "dilim": 1,
+   "bugun": null,
+   "ad": "Şarkî Türkistan Cumhuriyeti (Kulca, 1944)",
+   "f_oneri": "1944-11-12",
+   "t_oneri": "1945-09-02",
+   "t_gercek": "1949-10-20",
+   "ic_not_t": "pencere ucu, ölçüm değil (D210): TDV turkistan '20 Ekim 1949'da bu devlet yıkıldı'",
+   "bolge": "orta-asya",
+   "tur": "cumhuriyet",
+   "kaynak": [
+    "TDV turkistan: 'Şarkî Türkistan Cumhuriyeti, Kulca'da (Yining) Çin'e karşı ayaklananlar tarafından yeniden kuruldu (12 Kasım 1944).' · '20 Ekim 1949'da bu devlet yıkıldı.'"
+   ],
+   "gerekce": "30 Eyl 'belirsiz' listesindeydi; TDV kaynaklı, 1945 ufkunda YAŞIYOR, Osmanlı/Türk dünyası halkası. ⚠️ id öneridir; `dogu-turkistan` TDV slug'ı yalnız 'bk. TÜRKİSTAN' yönlendirmesidir."
+  },
+  {
+   "id": "sarki-turkistan-1933",
+   "islem": "yeni",
+   "dilim": 1,
+   "bugun": null,
+   "ad": "Şarkî Türkistan Cumhuriyeti (Kaşgar, 1933)",
+   "f_oneri": "1933-11-01",
+   "hassasiyet_f": "AY ('Kasım 1933')",
+   "t_oneri": null,
+   "kaynak": [
+    "TDV turkistan: 'Kâşgar'da Şarkî Türkistan Cumhuriyeti ilân edildi (Kasım 1933).' · hükümetin Kaşgar'dan çekilişi Ma Chung-yen'in 21 Mart 1934'te şehre girişiyle"
+   ],
+   "gerekce": "t BULUNAMADI: TDV 21 Mart 1934 Kaşgar'ın düşüşünü verir, devletin sonu için ayrıca '1937 yılına kadar ... son verdi' der (cümle 1937'yi neyin sonu olarak tarihlediği belirsiz — tuzak ⑧). Yıl uydurulmaz ⇒ künye t'si araştırma bekler. Düşük öncelik (ömür ≤5 ay ya da ≤4 yıl, kaynak çelişkili)."
+  },
+  {
+   "id": "polonya",
+   "islem": "ardil",
+   "dilim": 2,
+   "bugun": {
+    "f": "1918-11-11",
+    "t": "1939-10-06",
+    "harita": "polonya",
+    "nokta_1923_10_29": 22
+   },
+   "oneri": "1939-10-06'dan sonra Polonya'nın HİÇBİR künyesi yok; 1945-09-02'de Polonya toprağı künyesiz kalır (Fransa/Çekoslovakya'da künye savaş boyunca sürüyor — model tutarsız). Seçenek A (öneri): ardıl künye 'Polonya (Geçici Hükûmet / Halk Cumhuriyeti)' + `harita:\"polonya\"` (boya gerekmez — avusturya-ikinci-cumhuriyet emsali). f ARAŞTIRMA BEKLİYOR: adaylar PKWN Temmuz 1944 · Geçici Hükûmet Ocak 1945 · Milli Birlik Geçici Hükûmeti Haziran 1945 — HİÇBİRİ bu turda kaynakla doğrulanmadı. Seçenek B: polonya t'sini 1945-09-02 pencere ucuna genişlet + 1939-45 yerleşimde isg:almanya/sovyet — ama künyenin t'si kaynaklı (USHMM) ve sınıf ③ (ardıl yapı) daha doğru.",
+   "kaynak": [
+    "USHMM 'Poland in 1945': 'Virtually all of Poland in its prewar boundaries had been liberated by Soviet forces by the end of January 1945.' (f GÜNÜ değil, bağlam)",
+    "TDV polonya: 1944-47 için gün VERMİYOR (yalnız 1 Eylül 1939 ve genel savaş sonrası)"
+   ]
+  },
+  {
+   "id": "almanya",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "962-02-02",
+    "t": "1945-06-05",
+    "harita": "almanya",
+    "nokta_1923_10_29": 38
+   },
+   "gerekce": "t 1945-06-05 AVALON; ardıl almanya-muttefik-isgali aynı gün ✓ (Nazi/Weimar ayrı künye değil — 30 Eyl belirsizi kapandı)"
+  },
+  {
+   "id": "almanya-muttefik-isgali",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1945-06-05",
+    "t": "1945-09-02",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "avusturya-cumhuriyet",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1918-11-12",
+    "t": "1938-03-13",
+    "harita": null,
+    "nokta_1923_10_29": 12
+   },
+   "gerekce": "t 1938-03-13 AVALON"
+  },
+  {
+   "id": "avusturya-ikinci-cumhuriyet",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1945-04-01",
+    "t": "1945-09-02",
+    "harita": "avusturya-cumhuriyet",
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "f 1945-04-01 AY hassasiyeti, künyede çelişki beyanlı (BRIT 'April 1945' · 25/27 Nisan · 14 Mayıs). Dokunmadım."
+  },
+  {
+   "id": "cekoslovakya",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1918-10-28",
+    "t": "1945-09-02",
+    "harita": "cekoslovakya",
+    "nokta_1923_10_29": 19
+   },
+   "gerekce": "t pencere ucu beyanlı (1993); slovakya-cumhuriyeti + bohemya-moravya künyeleri VAR (boyasız)"
+  },
+  {
+   "id": "letonya",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1918-11-18",
+    "t": "1940-08-06",
+    "harita": "letonya",
+    "nokta_1923_10_29": 5
+   },
+   "gerekce": "t 1940-08-06 ardıl sovyet-rusya"
+  },
+  {
+   "id": "litvanya",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1918-02-16",
+    "t": "1940-08-06",
+    "harita": "litvanya",
+    "nokta_1923_10_29": 4
+   },
+   "gerekce": "aynı"
+  },
+  {
+   "id": "estonya",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1918-02-24",
+    "t": "1940-08-06",
+    "harita": "estonya",
+    "nokta_1923_10_29": 5
+   },
+   "gerekce": "aynı"
+  },
+  {
+   "id": "danzig-serbest-sehri",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1920-11-15",
+    "t": "1939-09-01",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "gerekce": "t 1939-09-01 → almanya"
+  },
+  {
+   "id": "saar-havzasi-mandasi",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1920-01-10",
+    "t": "1935-03-01",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "gerekce": "t 1935-03-01 → almanya"
+  },
+  {
+   "id": "ispanya-milliyetci",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1936-10-01",
+    "t": "1939-04-01",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR 1936-10-01→1939-04-01, BOYASIZ"
+  },
+  {
+   "id": "vichy-fransasi",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1940-07-10",
+    "t": "1944-08-25",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "slovakya-cumhuriyeti",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1939-03-14",
+    "t": "1945-04-04",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "bohemya-moravya-protektorasi",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1939-03-16",
+    "t": "1945-05-08",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "hirvatistan-bagimsiz",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1941-04-10",
+    "t": "1945-05-31",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "oniki-ada-italyan",
+   "islem": "dokunmadim",
+   "dilim": 2,
+   "bugun": {
+    "f": "1912-05-04",
+    "t": "1945-09-02",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "t pencere ucu beyanlı (1947); BOYASIZ ama 1923'te noktası 0"
+  },
+  {
+   "id": "ingiltere",
+   "islem": "beyan",
+   "dilim": 2,
+   "bugun": {
+    "f": "927-01-01",
+    "t": "1945-09-02",
+    "harita": "ingiltere",
+    "nokta_1923_10_29": 296
+   },
+   "ic_not_t_oneri": "pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
+   "gerekce": "t 1945-09-02 doğru ama ic_not_t 't'ye dokunulmadı.' — pencere beyanı EKSİK (TKLAMP 4 Eki'de söyledi, hâlâ açık). Tarih değişmez, yalnız not."
+  },
+  {
+   "id": "danimarka",
+   "islem": "beyan",
+   "dilim": 2,
+   "bugun": {
+    "f": "950-01-01",
+    "t": "1945-09-02",
+    "harita": "danimarka",
+    "nokta_1923_10_29": 12
+   },
+   "ic_not_t_oneri": "pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
+   "gerekce": "aynı: ic_not_t 't değişmedi.'"
+  },
+  {
+   "id": "bhopal",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1708-01-01",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "t_oneri": "1945-09-02",
+   "ic_not_t_oneri": "pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü",
+   "kaynak": [
+    "TDV bopal--devlet: '1949’da Hindistan Birliği’ne katıldı.' · '1952’de nevvâblık idaresine son verildi;'"
+   ],
+   "gerekce": "t bugün 1923-10-29 BEYANSIZ pencere kesiği; kaynak 1945 sonrasına sürdüğünü gösteriyor"
+  },
+  {
+   "id": "surakarta",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1755-02-13",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "t_oneri": "1945-09-02",
+   "ic_not_t_oneri": "pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü",
+   "kaynak": [
+    "BRIT Surakarta (place): 'it was occupied by Japan (1942–45) during World War II and was later incorporated into the Indonesian republic.'"
+   ],
+   "gerekce": "t bugün 1923-10-29 BEYANSIZ pencere kesiği; kaynak 1945 sonrasına sürdüğünü gösteriyor"
+  },
+  {
+   "id": "yogyakarta",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1755-02-13",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "t_oneri": "1945-09-02",
+   "kaynak": [],
+   "kaynak_durum": "BULUNAMADI bu turda — TDV slug 302 (müstakil madde yok) · Britannica curl ile BOŞ gövde (60 karakter; tuzak ⑦ 'çekilemedi ≠ yok')",
+   "gerekce": "t 1923-10-29 BEYANSIZ pencere kesiği; künyenin kendi ozet'i '1923 sonrasında da sürdü' diyor ama kaynaksız. Kaynak bulunana dek t'ye DOKUNULMAMALI; Z5 bu noktaları (toplam ≤5'er) 1923'ten ileri uzatırsa künye penceresi aşılır (4c)."
+  },
+  {
+   "id": "cohor-sultanligi",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1528-01-01",
+    "t": "1923-10-29",
+    "harita": "cohor-sultanligi",
+    "nokta_1923_10_29": 3
+   },
+   "t_oneri": "1945-09-02",
+   "kaynak": [],
+   "kaynak_durum": "BULUNAMADI bu turda — TDV slug 302 (müstakil madde yok) · Britannica curl ile BOŞ gövde (60 karakter; tuzak ⑦ 'çekilemedi ≠ yok')",
+   "gerekce": "t 1923-10-29 BEYANSIZ pencere kesiği; künyenin kendi ozet'i '1923 sonrasında da sürdü' diyor ama kaynaksız. Kaynak bulunana dek t'ye DOKUNULMAMALI; Z5 bu noktaları (toplam ≤5'er) 1923'ten ileri uzatırsa künye penceresi aşılır (4c)."
+  },
+  {
+   "id": "tidore-sultanligi",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "harita": "tidore-sultanligi",
+    "nokta_1923_10_29": 1
+   },
+   "t_oneri": "1945-09-02",
+   "kaynak": [],
+   "kaynak_durum": "BULUNAMADI bu turda — TDV slug 302 (müstakil madde yok) · Britannica curl ile BOŞ gövde (60 karakter; tuzak ⑦ 'çekilemedi ≠ yok')",
+   "gerekce": "t 1923-10-29 BEYANSIZ pencere kesiği; künyenin kendi ozet'i '1923 sonrasında da sürdü' diyor ama kaynaksız. Kaynak bulunana dek t'ye DOKUNULMAMALI; Z5 bu noktaları (toplam ≤5'er) 1923'ten ileri uzatırsa künye penceresi aşılır (4c)."
+  },
+  {
+   "id": "san-devletleri",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "harita": "san-devletleri",
+    "nokta_1923_10_29": 5
+   },
+   "t_oneri": "1945-09-02",
+   "kaynak": [],
+   "kaynak_durum": "BULUNAMADI bu turda — TDV slug 302 (müstakil madde yok) · Britannica curl ile BOŞ gövde (60 karakter; tuzak ⑦ 'çekilemedi ≠ yok')",
+   "gerekce": "t 1923-10-29 BEYANSIZ pencere kesiği; künyenin kendi ozet'i '1923 sonrasında da sürdü' diyor ama kaynaksız. Kaynak bulunana dek t'ye DOKUNULMAMALI; Z5 bu noktaları (toplam ≤5'er) 1923'ten ileri uzatırsa künye penceresi aşılır (4c)."
+  },
+  {
+   "id": "buganda",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1300-01-01",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "t_oneri": "1945-09-02",
+   "kaynak": [],
+   "kaynak_durum": "BULUNAMADI bu turda — TDV slug 302 (müstakil madde yok) · Britannica curl ile BOŞ gövde (60 karakter; tuzak ⑦ 'çekilemedi ≠ yok')",
+   "gerekce": "t 1923-10-29 BEYANSIZ pencere kesiği; künyenin kendi ozet'i '1923 sonrasında da sürdü' diyor ama kaynaksız. Kaynak bulunana dek t'ye DOKUNULMAMALI; Z5 bu noktaları (toplam ≤5'er) 1923'ten ileri uzatırsa künye penceresi aşılır (4c)."
+  },
+  {
+   "id": "agadez-sultanligi",
+   "islem": "genislet",
+   "dilim": 3,
+   "bugun": {
+    "f": "1405-01-01",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 1
+   },
+   "t_oneri": "1945-09-02",
+   "kaynak": [],
+   "kaynak_durum": "BULUNAMADI bu turda — TDV slug 302 (müstakil madde yok) · Britannica curl ile BOŞ gövde (60 karakter; tuzak ⑦ 'çekilemedi ≠ yok')",
+   "gerekce": "t 1923-10-29 BEYANSIZ pencere kesiği; künyenin kendi ozet'i '1923 sonrasında da sürdü' diyor ama kaynaksız. Kaynak bulunana dek t'ye DOKUNULMAMALI; Z5 bu noktaları (toplam ≤5'er) 1923'ten ileri uzatırsa künye penceresi aşılır (4c)."
+  },
+  {
+   "id": "ingiliz-kuzey-amerika",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1763-02-10",
+    "t": "1923-10-29",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "t 1923-10-29 ama künyenin kendi notu t'nin 1867'ye çekilmesini istiyor (kanada künyesi 1867'den) — 1923 sorunu değil, ayrı kalem; noktası 0"
+  },
+  {
+   "id": "meiji-japonya",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1868-01-03",
+    "t": "1945-09-02",
+    "harita": "meiji-japonya",
+    "nokta_1923_10_29": 65
+   },
+   "gerekce": "t pencere ucu beyanlı; Kore/Tayvan bu künyede"
+  },
+  {
+   "id": "mancukuo",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1932-03-09",
+    "t": "1945-08-31",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ, t ÜST SINIR beyanlı"
+  },
+  {
+   "id": "nanjing-wang-jingwei",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1940-03-30",
+    "t": "1945-09-02",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ; t pencere ucu, bitiş günü ölçülemedi (Britannica bu turda da 403/boş)"
+  },
+  {
+   "id": "nguyen-hanedani",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1802-06-01",
+    "t": "1945-08-25",
+    "harita": "nguyen-hanedani",
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "t 1945-08-25; ardıl fransiz-cinhindi (t 1954) ✓; Vietnam DC 1945-09-02 = ufuk günü, bu ufukta künye gerekmez"
+  },
+  {
+   "id": "endonezya-cumhuriyeti",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1945-08-17",
+    "t": "1945-09-02",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "filipin-commonwealth",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1935-01-01",
+    "t": "1946-07-04",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ"
+  },
+  {
+   "id": "tibet-ganden-phodrang",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1642-01-01",
+    "t": "1945-09-02",
+    "harita": "tibet-ganden-phodrang",
+    "nokta_1923_10_29": 4
+   },
+   "gerekce": "t pencere ucu beyanlı"
+  },
+  {
+   "id": "italyan-dogu-afrikasi",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1936-06-01",
+    "t": "1941-11-30",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "künye VAR, BOYASIZ; 1941 sonrası: habesistan sürüyor ✓; Eritre + İtalyan Somalisi İngiliz askerî idaresi → künye değil isg:ingiltere önerilir (Z5)"
+  },
+  {
+   "id": "somali",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1500-01-01",
+    "t": "1927-01-01",
+    "harita": "somali",
+    "nokta_1923_10_29": 15
+   },
+   "gerekce": "t 1927 → italya"
+  },
+  {
+   "id": "senusi",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1837-01-01",
+    "t": "1931-01-01",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "t 1931 → italya"
+  },
+  {
+   "id": "cimma-sultanligi",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1830-01-01",
+    "t": "1933-01-01",
+    "harita": "cimma",
+    "nokta_1923_10_29": 1
+   },
+   "gerekce": "t 1933 → habesistan"
+  },
+  {
+   "id": "guney-afrika-birligi",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1910-05-31",
+    "t": "1961-05-31",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "1910-1961 YAŞIYOR ama BOYASIZ ve 1923'te noktası 0 — Güney Afrika noktalarının sahibi büyük olasılıkla ingiltere (Z5 ölçmeli: D204)"
+  },
+  {
+   "id": "newfoundland-dominyonu",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1855-01-01",
+    "t": "1934-02-16",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "t 1934-02-16; BOYASIZ, noktası 0"
+  },
+  {
+   "id": "ingiliz-hondurasi",
+   "islem": "dokunmadim",
+   "dilim": 3,
+   "bugun": {
+    "f": "1862-01-01",
+    "t": "1981-09-21",
+    "harita": null,
+    "nokta_1923_10_29": 0
+   },
+   "gerekce": "BOYASIZ, noktası 0"
+  }
+ ],
+ "kesin10_0930": [
+  {
+   "id": "turkiye-cumhuriyeti",
+   "durum": "VAR",
+   "boya_anahtari": "turkiye-cumhuriyeti"
+  },
+  {
+   "id": "suudi-arabistan",
+   "durum": "VAR",
+   "boya_anahtari": "suud"
+  },
+  {
+   "id": "mogolistan-halk-cumhuriyeti",
+   "durum": "VAR",
+   "boya_anahtari": "mogolistan"
+  },
+  {
+   "id": "mancukuo",
+   "durum": "VAR",
+   "boya_anahtari": "mancukuo"
+  },
+  {
+   "id": "vichy-fransasi",
+   "durum": "VAR",
+   "boya_anahtari": "vichy-fransasi"
+  },
+  {
+   "id": "italyan-dogu-afrikasi",
+   "durum": "VAR",
+   "boya_anahtari": "italyan-dogu-afrikasi"
+  },
+  {
+   "id": "hirvatistan-bagimsiz",
+   "durum": "VAR",
+   "boya_anahtari": "hirvatistan-bagimsiz"
+  },
+  {
+   "id": "slovakya-cumhuriyeti",
+   "durum": "VAR",
+   "boya_anahtari": "slovakya-cumhuriyeti"
+  },
+  {
+   "id": "bohemya-moravya-protektorasi",
+   "durum": "VAR",
+   "boya_anahtari": "bohemya-moravya-protektorasi"
+  },
+  {
+   "id": "hatay-devleti",
+   "durum": "VAR",
+   "boya_anahtari": "hatay-devleti"
+  }
+ ],
+ "belirsiz18_0930": [
+  {
+   "konu": "nazi/weimar almanyası",
+   "durum": "KAPANDI",
+   "not": "almanya künyesi 1945-06-05'e genişletilmiş + almanya-muttefik-isgali"
+  },
+  {
+   "konu": "polonya genel valiliği",
+   "durum": "isg önerisi",
+   "not": "künye değil isg:almanya (polonya[] ardıl kararıyla birlikte)"
+  },
+  {
+   "konu": "wang jingwei nanjing",
+   "durum": "KAPANDI",
+   "not": "nanjing-wang-jingwei künyesi VAR"
+  },
+  {
+   "konu": "mengjiang",
+   "durum": "isg önerisi",
+   "not": "isg:meiji-japonya — kukla, künye açılmaz"
+  },
+  {
+   "konu": "burma devleti 1943",
+   "durum": "isg önerisi",
+   "not": "isg:meiji-japonya"
+  },
+  {
+   "konu": "filipin commonwealth / II. filipin cumhuriyeti",
+   "durum": "KISMEN",
+   "not": "filipin-commonwealth VAR; II. Cumhuriyet (1943-45) → isg:meiji-japonya"
+  },
+  {
+   "konu": "çin sovyet cumhuriyeti 1931-37",
+   "durum": "ERTELE",
+   "not": "1945 ufkunda yaşamıyor; iç savaş bölgesi — kronoloji maddesi yeter (Z7)"
+  },
+  {
+   "konu": "doğu türkistan 1933 / 1944",
+   "durum": "YENİ ×2",
+   "not": "TDV turkistan kaynaklı — sarki-turkistan-1944 (öncelikli) + sarki-turkistan-1933 (t araştırma)"
+  },
+  {
+   "konu": "tanca uluslararası bölgesi 1924-40",
+   "durum": "ERTELE",
+   "not": "petek ölçeğinde tek nokta; fas künyesi altında"
+  },
+  {
+   "konu": "ispanyol fas protektorası",
+   "durum": "ÖLÇÜLMEDİ",
+   "not": "fas künyesi altında mı — yerleşim işi (Z5)"
+  },
+  {
+   "konu": "vatikan 1929",
+   "durum": "AÇMA",
+   "not": "petek ölçeğinde anlamsız"
+  },
+  {
+   "konu": "nedić sırbistanı / italyan karadağı",
+   "durum": "isg önerisi",
+   "not": "isg:almanya / isg:italya"
+  },
+  {
+   "konu": "helen devleti 1941-44",
+   "durum": "isg önerisi",
+   "not": "isg:almanya/italya/bulgaristan"
+  },
+  {
+   "konu": "karpat ukraynası",
+   "durum": "AÇMA",
+   "not": "1939-03-15 tek gün; macaristan-naiplik'e geçti"
+  },
+  {
+   "konu": "lübnan/suriye cumhuriyetleri",
+   "durum": "Z-B KARAR",
+   "not": "1945 ufkunda suriye-lubnan-mandasi pencere ucu; ayrı künye 1946 kademesine"
+  },
+  {
+   "konu": "azad hind",
+   "durum": "isg önerisi",
+   "not": "isg:meiji-japonya (Andaman)"
+  },
+  {
+   "konu": "hicaz-necid",
+   "durum": "KAPANDI",
+   "not": "suud-ucuncu = 'III. Suûdî Devleti (Necid ve Hicaz Sultanlığı)'"
+  },
+  {
+   "konu": "italyan libyası",
+   "durum": "KAPANDI",
+   "not": "italya künyesi; ayrı künye gerekmez (somali/senusi → italya modeli)"
+  }
+ ],
+ "isgalci_kunyeleri_1939_45": "EKSİK 0 — almanya (→1945-06-05) · italya · meiji-japonya · sovyet-rusya · macaristan-naiplik · bulgaristan-kralligi · romanya-kralligi · ingiltere · abd · fransa-cumhuriyet hepsi pencerede. isg: işi künye değil YERLEŞİM (Z5).",
+ "boya": [
+  {
+   "id": "turkiye-cumhuriyeti",
+   "secenekler": [
+    "A — `harita:\"tbmm-turkiye\"` (TBMM moru #7e24d2 sürer): 1920→1945 kesintisiz tek renk; tbmm'in komşu ölçümü zaten yapılmış (suriye ΔE düzeltmesi 10 Eyl). Sıfır yeni çakışma riski. avusturya-ikinci-cumhuriyet emsali.",
+    "B — Osmanlı kırmızısı ailesi (#8e0b22 civarı): app.js 'osmanli'yi ÖZEL boyar (doğrudan koyu); Cumhuriyet'i Osmanlı gibi göstermek 'Osmanlı bitti' kronoloji maddesini haritada görünmez kılar — ÖNERİLMEZ.",
+    "C — yeni renk: Z5 yerleşim dönemleri indikten SONRA `renk_olc.py --oner` (bugün engel kümesi BOŞ, aracın kendi uyarısı)"
+   ],
+   "oneri": "A (karar Emre'nin)"
+  },
+  {
+   "id": "polonya-ardil (yeni)",
+   "secenekler": [
+    "`harita:\"polonya\"`"
+   ],
+   "oneri": "boya gerekmez"
+  },
+  {
+   "id": "almanya-muttefik-isgali",
+   "secenekler": [
+    "A `harita:\"almanya\"`",
+    "B yeni renk (4 bölge ayrımı ileride isg ile)"
+   ],
+   "oneri": "A"
+  },
+  {
+   "id": "oniki-ada-italyan",
+   "secenekler": [
+    "`harita:\"italya\"`"
+   ],
+   "oneri": "A — noktası 0, yalnız tutarlılık"
+  },
+  {
+   "id": "italyan-dogu-afrikasi",
+   "secenekler": [
+    "A `harita:\"italya\"`",
+    "B yeni renk"
+   ],
+   "oneri": "B — 1936-41 Habeşistan'ın ilhakı ayrı görünmeli (kronoloji ile doğrulama)"
+  },
+  {
+   "id": "bohemya-moravya-protektorasi",
+   "secenekler": [
+    "A `harita:\"almanya\"` (Reich parçası)",
+    "B yeni renk"
+   ],
+   "oneri": "B"
+  },
+  {
+   "id": "hatay-devleti · vichy-fransasi · slovakya-cumhuriyeti · hirvatistan-bagimsiz · mancukuo · nanjing-wang-jingwei · ispanya-milliyetci · endonezya-cumhuriyeti · filipin-commonwealth · sarki-turkistan-1944 (yeni)",
+   "secenekler": [
+    "yeni renk — Z5'in yerleşim dönemleri girdikten SONRA `renk_olc.py --oner` ile BİRLİKTE"
+   ],
+   "oneri": "bugün renk YAZILMAZ"
+  },
+  {
+   "id": "guney-afrika-birligi · newfoundland-dominyonu · ingiliz-hondurasi",
+   "secenekler": [
+    "noktası 0 — boya ancak Z5 nokta verirse"
+   ],
+   "oneri": "ertele"
+  }
+ ],
+ "liste_1945_2026": {
+  "not": "1945-2026 İSKELET LİSTESİ — künye YAZILMAZ. Model bilgisidir, KAYNAK DEĞİLDİR (§4/D210):\nyıllar yalnız sıralama/öncelik içindir, veriye yazılamaz. Mevcut künye eşlemesi devletler.js'ten ÖLÇÜLÜR.",
+  "bm_uyeleri": [
+   {
+    "kod": "AFG",
+    "ad": "Afganistan 1946",
+    "yil": "afganistan",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ALB",
+    "ad": "Arnavutluk",
+    "yil": "1955",
+    "aday_kunye": "arnavutluk-halk-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "DZA",
+    "ad": "Cezayir",
+    "yil": "1962",
+    "aday_kunye": "cezayir-fransiz",
+    "kunye_var": true,
+    "kunye_t": "1962-07-05",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "AND",
+    "ad": "Andorra",
+    "yil": "1993",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "AGO",
+    "ad": "Angola",
+    "yil": "1976",
+    "aday_kunye": "portekiz-angola",
+    "kunye_var": true,
+    "kunye_t": "1975-11-11",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ATG",
+    "ad": "Antigua-Barbuda",
+    "yil": "1981",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ARG",
+    "ad": "Arjantin",
+    "yil": "1945",
+    "aday_kunye": "arjantin-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ARM",
+    "ad": "Ermenistan",
+    "yil": "1992",
+    "aday_kunye": "ermenistan-demokratik-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1920-12-02",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   },
+   {
+    "kod": "AUS",
+    "ad": "Avustralya 1945",
+    "yil": "avustralya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "AUT",
+    "ad": "Avusturya",
+    "yil": "1955",
+    "aday_kunye": "avusturya-ikinci-cumhuriyet",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "AZE",
+    "ad": "Azerbaycan",
+    "yil": "1992",
+    "aday_kunye": "azerbaycan-demokratik-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1920-04-27",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   },
+   {
+    "kod": "BHS",
+    "ad": "Bahamalar",
+    "yil": "1973",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BHR",
+    "ad": "Bahreyn 1971",
+    "yil": "bahreyn",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BGD",
+    "ad": "Bangladeş",
+    "yil": "1974",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BRB",
+    "ad": "Barbados",
+    "yil": "1966",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BLR",
+    "ad": "Belarus",
+    "yil": "1945",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BEL",
+    "ad": "Belçika 1945",
+    "yil": "belcika",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BLZ",
+    "ad": "Belize",
+    "yil": "1981",
+    "aday_kunye": "ingiliz-hondurasi",
+    "kunye_var": true,
+    "kunye_t": "1981-09-21",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BEN",
+    "ad": "Benin",
+    "yil": "1960",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BTN",
+    "ad": "Butan",
+    "yil": "1971",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BOL",
+    "ad": "Bolivya",
+    "yil": "1945",
+    "aday_kunye": "bolivya-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BIH",
+    "ad": "Bosna-Hersek",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BWA",
+    "ad": "Botsvana",
+    "yil": "1966",
+    "aday_kunye": "ingiliz-becuanaland",
+    "kunye_var": true,
+    "kunye_t": "1966-09-30",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BRA",
+    "ad": "Brezilya",
+    "yil": "1945",
+    "aday_kunye": "brezilya-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BRN",
+    "ad": "Brunei",
+    "yil": "1984",
+    "aday_kunye": "brunei-sultanligi",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BGR",
+    "ad": "Bulgaristan",
+    "yil": "1955",
+    "aday_kunye": "bulgaristan-kralligi",
+    "kunye_var": true,
+    "kunye_t": "1946-09-15",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BFA",
+    "ad": "Burkina Faso",
+    "yil": "1960",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BDI",
+    "ad": "Burundi",
+    "yil": "1962",
+    "aday_kunye": "ruanda-urundi-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1962-07-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CPV",
+    "ad": "Yeşil Burun",
+    "yil": "1975",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "KHM",
+    "ad": "Kamboçya",
+    "yil": "1955",
+    "aday_kunye": "kamboc-kralligi",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CMR",
+    "ad": "Kamerun",
+    "yil": "1960",
+    "aday_kunye": "fransiz-kamerun-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1960-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CAN",
+    "ad": "Kanada 1945",
+    "yil": "kanada",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "CAF",
+    "ad": "Orta Afrika Cumhuriyeti",
+    "yil": "1960",
+    "aday_kunye": "fransiz-ekvator-afrikasi",
+    "kunye_var": true,
+    "kunye_t": "1958-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TCD",
+    "ad": "Çad",
+    "yil": "1960",
+    "aday_kunye": "fransiz-ekvator-afrikasi",
+    "kunye_var": true,
+    "kunye_t": "1958-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CHL",
+    "ad": "Şili",
+    "yil": "1945",
+    "aday_kunye": "sili-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CHN",
+    "ad": "Çin",
+    "yil": "1945",
+    "aday_kunye": "cin-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "COL",
+    "ad": "Kolombiya",
+    "yil": "1945",
+    "aday_kunye": "kolombiya-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "COM",
+    "ad": "Komorlar",
+    "yil": "1975",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "COG",
+    "ad": "Kongo",
+    "yil": "1960",
+    "aday_kunye": "fransiz-ekvator-afrikasi",
+    "kunye_var": true,
+    "kunye_t": "1958-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CRI",
+    "ad": "Kosta Rika",
+    "yil": "1945",
+    "aday_kunye": "kosta-rika-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CIV",
+    "ad": "Fildişi Sahili",
+    "yil": "1960",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "HRV",
+    "ad": "Hırvatistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "CUB",
+    "ad": "Küba",
+    "yil": "1945",
+    "aday_kunye": "kuba-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "CYP",
+    "ad": "Kıbrıs",
+    "yil": "1960",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "CZE",
+    "ad": "Çekya",
+    "yil": "1993",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "PRK",
+    "ad": "Kuzey Kore",
+    "yil": "1991",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "COD",
+    "ad": "Kongo DC",
+    "yil": "1960",
+    "aday_kunye": "belcika-kongo",
+    "kunye_var": true,
+    "kunye_t": "1960-06-30",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "DNK",
+    "ad": "Danimarka 1945",
+    "yil": "danimarka",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "DJI",
+    "ad": "Cibuti",
+    "yil": "1977",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "DMA",
+    "ad": "Dominika",
+    "yil": "1978",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "DOM",
+    "ad": "Dominik Cumhuriyeti",
+    "yil": "1945",
+    "aday_kunye": "dominik-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ECU",
+    "ad": "Ekvador",
+    "yil": "1945",
+    "aday_kunye": "ekvador-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "EGY",
+    "ad": "Mısır",
+    "yil": "1945",
+    "aday_kunye": "misir-kralligi",
+    "kunye_var": true,
+    "kunye_t": "1953-06-18",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SLV",
+    "ad": "El Salvador",
+    "yil": "1945",
+    "aday_kunye": "el-salvador-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GNQ",
+    "ad": "Ekvator Ginesi",
+    "yil": "1968",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ERI",
+    "ad": "Eritre",
+    "yil": "1993",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "EST",
+    "ad": "Estonya 1991",
+    "yil": "estonya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SWZ",
+    "ad": "Esvatini",
+    "yil": "1968",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ETH",
+    "ad": "Etiyopya 1945",
+    "yil": "habesistan",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "FJI",
+    "ad": "Fiji",
+    "yil": "1970",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "FIN",
+    "ad": "Finlandiya 1955",
+    "yil": "finlandiya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "FRA",
+    "ad": "Fransa",
+    "yil": "1945",
+    "aday_kunye": "fransa-cumhuriyet",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GAB",
+    "ad": "Gabon",
+    "yil": "1960",
+    "aday_kunye": "fransiz-ekvator-afrikasi",
+    "kunye_var": true,
+    "kunye_t": "1958-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GMB",
+    "ad": "Gambiya",
+    "yil": "1965",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "GEO",
+    "ad": "Gürcistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "DEU",
+    "ad": "Almanya",
+    "yil": "1973",
+    "aday_kunye": "almanya-muttefik-isgali",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GHA",
+    "ad": "Gana",
+    "yil": "1957",
+    "aday_kunye": "ingiliz-altin-kiyisi",
+    "kunye_var": true,
+    "kunye_t": "1957-03-06",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GRC",
+    "ad": "Yunanistan 1945",
+    "yil": "yunanistan",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "GRD",
+    "ad": "Grenada",
+    "yil": "1974",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "GTM",
+    "ad": "Guatemala 1945",
+    "yil": "guatemala",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "GIN",
+    "ad": "Gine",
+    "yil": "1958",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GNB",
+    "ad": "Gine-Bissau",
+    "yil": "1974",
+    "aday_kunye": "portekiz-gine",
+    "kunye_var": true,
+    "kunye_t": "1974-09-10",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "GUY",
+    "ad": "Guyana",
+    "yil": "1966",
+    "aday_kunye": "ingiliz-guyanasi",
+    "kunye_var": true,
+    "kunye_t": "1966-05-26",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "HTI",
+    "ad": "Haiti 1945",
+    "yil": "haiti",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "HND",
+    "ad": "Honduras",
+    "yil": "1945",
+    "aday_kunye": "honduras-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "HUN",
+    "ad": "Macaristan",
+    "yil": "1955",
+    "aday_kunye": "macaristan-naiplik",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ISL",
+    "ad": "İzlanda 1946",
+    "yil": "izlanda",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "IND",
+    "ad": "Hindistan",
+    "yil": "1945",
+    "aday_kunye": "ingiliz-hindistani",
+    "kunye_var": true,
+    "kunye_t": "1947-08-15",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "IDN",
+    "ad": "Endonezya",
+    "yil": "1950",
+    "aday_kunye": "endonezya-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "IRN",
+    "ad": "İran 1945",
+    "yil": "iran",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "IRQ",
+    "ad": "Irak",
+    "yil": "1945",
+    "aday_kunye": "irak-kralligi",
+    "kunye_var": true,
+    "kunye_t": "1958-07-14",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "IRL",
+    "ad": "İrlanda",
+    "yil": "1955",
+    "aday_kunye": "irlanda-serbest-devlet",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ISR",
+    "ad": "İsrail",
+    "yil": "1949",
+    "aday_kunye": "filistin-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1948-05-14",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ITA",
+    "ad": "İtalya 1955",
+    "yil": "italya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "JAM",
+    "ad": "Jamaika",
+    "yil": "1962",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "JPN",
+    "ad": "Japonya",
+    "yil": "1956",
+    "aday_kunye": "meiji-japonya",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "JOR",
+    "ad": "Ürdün",
+    "yil": "1955",
+    "aday_kunye": "urdun-emirligi",
+    "kunye_var": true,
+    "kunye_t": "1946-05-25",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "KAZ",
+    "ad": "Kazakistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "KEN",
+    "ad": "Kenya",
+    "yil": "1963",
+    "aday_kunye": "ingiliz-kenya-kolonisi",
+    "kunye_var": true,
+    "kunye_t": "1963-12-12",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "KIR",
+    "ad": "Kiribati",
+    "yil": "1999",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "KWT",
+    "ad": "Kuveyt 1963",
+    "yil": "kuveyt",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "KGZ",
+    "ad": "Kırgızistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LAO",
+    "ad": "Laos",
+    "yil": "1955",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LVA",
+    "ad": "Letonya 1991",
+    "yil": "letonya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LBN",
+    "ad": "Lübnan",
+    "yil": "1945",
+    "aday_kunye": "suriye-lubnan-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "LSO",
+    "ad": "Lesotho",
+    "yil": "1966",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LBR",
+    "ad": "Liberya 1945",
+    "yil": "liberya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LBY",
+    "ad": "Libya 1955",
+    "yil": "italya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LIE",
+    "ad": "Lihtenştayn",
+    "yil": "1990",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LTU",
+    "ad": "Litvanya 1991",
+    "yil": "litvanya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LUX",
+    "ad": "Lüksemburg 1945",
+    "yil": "luksemburg",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MDG",
+    "ad": "Madagaskar",
+    "yil": "1960",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MWI",
+    "ad": "Malavi",
+    "yil": "1964",
+    "aday_kunye": "ingiliz-nyasaland",
+    "kunye_var": true,
+    "kunye_t": "1964-07-06",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MYS",
+    "ad": "Malezya",
+    "yil": "1957",
+    "aday_kunye": "ingiliz-malaya",
+    "kunye_var": true,
+    "kunye_t": "1957-08-31",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MDV",
+    "ad": "Maldivler",
+    "yil": "1965",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MLI",
+    "ad": "Mali",
+    "yil": "1960",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MLT",
+    "ad": "Malta",
+    "yil": "1964",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MHL",
+    "ad": "Marshall Adaları",
+    "yil": "1991",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MRT",
+    "ad": "Moritanya",
+    "yil": "1961",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MUS",
+    "ad": "Mauritius",
+    "yil": "1968",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MEX",
+    "ad": "Meksika 1945",
+    "yil": "meksika",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "FSM",
+    "ad": "Mikronezya",
+    "yil": "1991",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MCO",
+    "ad": "Monako",
+    "yil": "1993",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MNG",
+    "ad": "Moğolistan",
+    "yil": "1961",
+    "aday_kunye": "mogolistan-halk-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MNE",
+    "ad": "Karadağ 2006",
+    "yil": "karadag",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MAR",
+    "ad": "Fas 1956",
+    "yil": "fas",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MOZ",
+    "ad": "Mozambik",
+    "yil": "1975",
+    "aday_kunye": "portekiz-mozambik",
+    "kunye_var": true,
+    "kunye_t": "1975-06-25",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MMR",
+    "ad": "Myanmar",
+    "yil": "1948",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "NAM",
+    "ad": "Namibya",
+    "yil": "1990",
+    "aday_kunye": "guneybati-afrika-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1990-03-21",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "NRU",
+    "ad": "Nauru",
+    "yil": "1999",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "NPL",
+    "ad": "Nepal 1955",
+    "yil": "nepal",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "NLD",
+    "ad": "Hollanda 1945",
+    "yil": "hollanda",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "NZL",
+    "ad": "Yeni Zelanda",
+    "yil": "1945",
+    "aday_kunye": "yeni-zelanda",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "NIC",
+    "ad": "Nikaragua",
+    "yil": "1945",
+    "aday_kunye": "nikaragua-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "NER",
+    "ad": "Nijer",
+    "yil": "1960",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "NGA",
+    "ad": "Nijerya",
+    "yil": "1960",
+    "aday_kunye": "ingiliz-nijerya",
+    "kunye_var": true,
+    "kunye_t": "1960-10-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MKD",
+    "ad": "Kuzey Makedonya",
+    "yil": "1993",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "NOR",
+    "ad": "Norveç 1945",
+    "yil": "norvec",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "OMN",
+    "ad": "Umman 1971",
+    "yil": "umman",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "PAK",
+    "ad": "Pakistan",
+    "yil": "1947",
+    "aday_kunye": "ingiliz-hindistani",
+    "kunye_var": true,
+    "kunye_t": "1947-08-15",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "PLW",
+    "ad": "Palau",
+    "yil": "1994",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "PAN",
+    "ad": "Panama",
+    "yil": "1945",
+    "aday_kunye": "panama-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "PNG",
+    "ad": "Papua Yeni Gine",
+    "yil": "1975",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "PRY",
+    "ad": "Paraguay",
+    "yil": "1945",
+    "aday_kunye": "paraguay-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "PER",
+    "ad": "Peru",
+    "yil": "1945",
+    "aday_kunye": "peru-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "PHL",
+    "ad": "Filipinler",
+    "yil": "1945",
+    "aday_kunye": "filipin-commonwealth",
+    "kunye_var": true,
+    "kunye_t": "1946-07-04",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "POL",
+    "ad": "Polonya 1945",
+    "yil": "polonya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "PRT",
+    "ad": "Portekiz 1955",
+    "yil": "portekiz",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "QAT",
+    "ad": "Katar 1971",
+    "yil": "katar",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "KOR",
+    "ad": "Güney Kore",
+    "yil": "1991",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MDA",
+    "ad": "Moldova",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ROU",
+    "ad": "Romanya",
+    "yil": "1955",
+    "aday_kunye": "romanya-kralligi",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "RUS",
+    "ad": "Rusya",
+    "yil": "1945",
+    "aday_kunye": "sovyet-rusya",
+    "kunye_var": true,
+    "kunye_t": "1991-12-25",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "RWA",
+    "ad": "Ruanda",
+    "yil": "1962",
+    "aday_kunye": "ruanda-urundi-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1962-07-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "KNA",
+    "ad": "St Kitts-Nevis",
+    "yil": "1983",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LCA",
+    "ad": "St Lucia",
+    "yil": "1979",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "VCT",
+    "ad": "St Vincent",
+    "yil": "1980",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "WSM",
+    "ad": "Samoa",
+    "yil": "1976",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SMR",
+    "ad": "San Marino",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "STP",
+    "ad": "São Tomé",
+    "yil": "1975",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SAU",
+    "ad": "Suudi Arabistan",
+    "yil": "1945",
+    "aday_kunye": "suudi-arabistan",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SEN",
+    "ad": "Senegal",
+    "yil": "1960",
+    "aday_kunye": "fransiz-bati-afrika",
+    "kunye_var": true,
+    "kunye_t": "1959-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SRB",
+    "ad": "Sırbistan",
+    "yil": "2000",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SYC",
+    "ad": "Seyşeller",
+    "yil": "1976",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SLE",
+    "ad": "Sierra Leone",
+    "yil": "1961",
+    "aday_kunye": "ingiliz-siyera-leon",
+    "kunye_var": true,
+    "kunye_t": "1961-04-27",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SGP",
+    "ad": "Singapur",
+    "yil": "1965",
+    "aday_kunye": "ingiliz-malaya",
+    "kunye_var": true,
+    "kunye_t": "1957-08-31",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SVK",
+    "ad": "Slovakya",
+    "yil": "1993",
+    "aday_kunye": "slovakya-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-04-04",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   },
+   {
+    "kod": "SVN",
+    "ad": "Slovenya",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SLB",
+    "ad": "Solomon",
+    "yil": "1978",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SOM",
+    "ad": "Somali 1960",
+    "yil": "somali",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ZAF",
+    "ad": "Güney Afrika",
+    "yil": "1945",
+    "aday_kunye": "guney-afrika-birligi",
+    "kunye_var": true,
+    "kunye_t": "1961-05-31",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SSD",
+    "ad": "Güney Sudan",
+    "yil": "2011",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ESP",
+    "ad": "İspanya 1955",
+    "yil": "ispanya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "LKA",
+    "ad": "Sri Lanka",
+    "yil": "1955",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SDN",
+    "ad": "Sudan",
+    "yil": "1956",
+    "aday_kunye": "ingiliz-sudani",
+    "kunye_var": true,
+    "kunye_t": "1956-01-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SUR",
+    "ad": "Surinam",
+    "yil": "1975",
+    "aday_kunye": "hollanda-guyanasi",
+    "kunye_var": true,
+    "kunye_t": "1975-11-25",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SWE",
+    "ad": "İsveç 1946",
+    "yil": "isvec",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "CHE",
+    "ad": "İsviçre 2002",
+    "yil": "isvicre",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SYR",
+    "ad": "Suriye",
+    "yil": "1945",
+    "aday_kunye": "suriye-lubnan-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TJK",
+    "ad": "Tacikistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TZA",
+    "ad": "Tanzanya",
+    "yil": "1961",
+    "aday_kunye": "ingiliz-tanganika-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1961-12-09",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "THA",
+    "ad": "Tayland",
+    "yil": "1946",
+    "aday_kunye": "siyam-chakri",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TLS",
+    "ad": "Doğu Timor",
+    "yil": "2002",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TGO",
+    "ad": "Togo",
+    "yil": "1960",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TON",
+    "ad": "Tonga",
+    "yil": "1999",
+    "aday_kunye": "tonga-kralligi",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TTO",
+    "ad": "Trinidad-Tobago",
+    "yil": "1962",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TUN",
+    "ad": "Tunus",
+    "yil": "1956",
+    "aday_kunye": "tunus-beyligi-fransiz",
+    "kunye_var": true,
+    "kunye_t": "1956-03-20",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TUR",
+    "ad": "Türkiye",
+    "yil": "1945",
+    "aday_kunye": "turkiye-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TKM",
+    "ad": "Türkmenistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TUV",
+    "ad": "Tuvalu",
+    "yil": "2000",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "UGA",
+    "ad": "Uganda 1962",
+    "yil": "buganda",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "UKR",
+    "ad": "Ukrayna",
+    "yil": "1945",
+    "aday_kunye": "ukrayna-halk-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1920-11-21",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   },
+   {
+    "kod": "ARE",
+    "ad": "BAE",
+    "yil": "1971",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "GBR",
+    "ad": "Birleşik Krallık 1945",
+    "yil": "ingiltere",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "USA",
+    "ad": "ABD 1945",
+    "yil": "abd",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "URY",
+    "ad": "Uruguay",
+    "yil": "1945",
+    "aday_kunye": "uruguay-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "UZB",
+    "ad": "Özbekistan",
+    "yil": "1992",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "VUT",
+    "ad": "Vanuatu",
+    "yil": "1981",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "VEN",
+    "ad": "Venezuela",
+    "yil": "1945",
+    "aday_kunye": "venezuela-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "VNM",
+    "ad": "Vietnam",
+    "yil": "1977",
+    "aday_kunye": "nguyen-hanedani",
+    "kunye_var": true,
+    "kunye_t": "1945-08-25",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   },
+   {
+    "kod": "YEM",
+    "ad": "Yemen",
+    "yil": "1947",
+    "aday_kunye": "yemen-zeydi",
+    "kunye_var": true,
+    "kunye_t": "1962-09-26",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ZMB",
+    "ad": "Zambiya",
+    "yil": "1964",
+    "aday_kunye": "ingiliz-kuzey-rodezya",
+    "kunye_var": true,
+    "kunye_t": "1964-10-24",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ZWE",
+    "ad": "Zimbabve",
+    "yil": "1980",
+    "aday_kunye": "ingiliz-guney-rodezya",
+    "kunye_var": true,
+    "kunye_t": "1980-04-18",
+    "iliski": "AYNI POLITY (genislet)"
+   }
+  ],
+  "olu_20yy": [
+   {
+    "kod": "SUN",
+    "ad": "SSCB",
+    "yil": "1922-1991",
+    "aday_kunye": "sovyet-rusya",
+    "kunye_var": true,
+    "kunye_t": "1991-12-25",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "YUG",
+    "ad": "Yugoslavya (SFRY) 1945-1992",
+    "yil": "yugoslavya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "CSK",
+    "ad": "Çekoslovakya 1918-1992",
+    "yil": "cekoslovakya",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "DDR",
+    "ad": "Doğu Almanya",
+    "yil": "1949-1990",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "BRD",
+    "ad": "Batı Almanya",
+    "yil": "1949-1990",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "YAR",
+    "ad": "Kuzey Yemen",
+    "yil": "1962-1990",
+    "aday_kunye": "yemen-zeydi",
+    "kunye_var": true,
+    "kunye_t": "1962-09-26",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "YMD",
+    "ad": "Güney Yemen",
+    "yil": "1967-1990",
+    "aday_kunye": "kesiri-sultanligi",
+    "kunye_var": true,
+    "kunye_t": "1967-11-30",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "VDR",
+    "ad": "Kuzey Vietnam",
+    "yil": "1945-1976",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "RVN",
+    "ad": "Güney Vietnam",
+    "yil": "1955-1975",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "UAR",
+    "ad": "Birleşik Arap Cumhuriyeti",
+    "yil": "1958-1961",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "AFU",
+    "ad": "Arap Federasyonu (Irak-Ürdün)",
+    "yil": "1958",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SCG",
+    "ad": "Sırbistan-Karadağ",
+    "yil": "2003-2006",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "ZAR",
+    "ad": "Zaire",
+    "yil": "1971-1997",
+    "aday_kunye": "belcika-kongo",
+    "kunye_var": true,
+    "kunye_t": "1960-06-30",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "RHO",
+    "ad": "Rodezya",
+    "yil": "1965-1979",
+    "aday_kunye": "ingiliz-guney-rodezya",
+    "kunye_var": true,
+    "kunye_t": "1980-04-18",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "BIA",
+    "ad": "Biafra",
+    "yil": "1967-1970",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "KAT",
+    "ad": "Katanga",
+    "yil": "1960-1963",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TIB",
+    "ad": "Tibet (1950'ye dek)",
+    "yil": "-1951",
+    "aday_kunye": "tibet-ganden-phodrang",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ETR",
+    "ad": "Doğu Türkistan Cumhuriyeti",
+    "yil": "1944-1949",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "HYD",
+    "ad": "Haydarabad",
+    "yil": "1947-1948",
+    "aday_kunye": "haydarabad-nizam",
+    "kunye_var": true,
+    "kunye_t": "1948-09-17",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "MFR",
+    "ad": "Mali Federasyonu",
+    "yil": "1959-1960",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SNG",
+    "ad": "Senegambiya",
+    "yil": "1982-1989",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "FEDMAL",
+    "ad": "Malaya Federasyonu",
+    "yil": "1948-1963",
+    "aday_kunye": "ingiliz-malaya",
+    "kunye_var": true,
+    "kunye_t": "1957-08-31",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "SAR",
+    "ad": "Sarawak Kolonisi",
+    "yil": "1946-1963",
+    "aday_kunye": "sarawak-brooke",
+    "kunye_var": true,
+    "kunye_t": "1946-07-01",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "ZAN",
+    "ad": "Zengibar",
+    "yil": "1963-1964",
+    "aday_kunye": "umman-zengibar",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "TRK",
+    "ad": "Türkiye (1923)",
+    "yil": "-",
+    "aday_kunye": "turkiye-cumhuriyeti",
+    "kunye_var": true,
+    "kunye_t": "1945-09-02",
+    "iliski": "AYNI POLITY (genislet)"
+   },
+   {
+    "kod": "KKTC",
+    "ad": "KKTC (tanınmayan)",
+    "yil": "1983-",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "MNCH",
+    "ad": "Mançukuo 1932-1945",
+    "yil": "mancukuo",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TAN",
+    "ad": "Tanca Uluslararası Bölgesi",
+    "yil": "1924-1956",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "TRI",
+    "ad": "Trieste Serbest Bölgesi",
+    "yil": "1947-1954",
+    "aday_kunye": null,
+    "kunye_var": false,
+    "kunye_t": null,
+    "iliski": null
+   },
+   {
+    "kod": "SAA",
+    "ad": "Saar Protektorası",
+    "yil": "1947-1956",
+    "aday_kunye": "saar-havzasi-mandasi",
+    "kunye_var": true,
+    "kunye_t": "1935-03-01",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   },
+   {
+    "kod": "NFL",
+    "ad": "Newfoundland Dominyonu",
+    "yil": "-1949",
+    "aday_kunye": "newfoundland-dominyonu",
+    "kunye_var": true,
+    "kunye_t": "1934-02-16",
+    "iliski": "ÖNCÜL (ardıl künye gerekir)"
+   }
+  ]
+ }
+}
