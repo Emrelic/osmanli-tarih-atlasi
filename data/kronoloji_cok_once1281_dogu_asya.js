@@ -364,7 +364,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 
 // ─── VİETNAM · CHAMPA · KMER ───────────────────────────────────────────
 
-{ t:"981-01-01", b:"Bạch Đằng — Lê Hoàn, Song istilasını püskürttü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+{ t:"0981-01-01", b:"Bạch Đằng — Lê Hoàn, Song istilasını püskürttü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["savas","konu-askeri"], odak_yer:"Hai Phong", yer:"Bạch Đằng nehri · Chi Lăng", taraflar:["tien-le-hanedani","song"],
   d:"Đinh hanedanının karışıklığından yararlanmak isteyen Song, kara ve deniz yoluyla istilaya geçti. Tahta yeni çıkan Lê Hoàn istilacı orduları nehir ve geçitlerde yendi; Song komutanı öldürüldü. Lê Hoàn ardından Song'la haraç ilişkisini yeniden kurarak bağımsızlığı fiilen tanıttı.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV camlar 200 (Viet-Çam ilişkisi yalnız yüzyıl düzeyinde) · vietnam 302 · başlık araması 'vietnam' → yalnız ÇAMLAR. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Le-Hoan · Earlier-Le-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",

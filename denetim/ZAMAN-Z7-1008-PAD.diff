@@ -1,0 +1,26 @@
+diff --git a/data/kronoloji_cok_once1281_afrika.js b/data/kronoloji_cok_once1281_afrika.js
+index 9f014c0d..aa06cde6 100644
+--- a/data/kronoloji_cok_once1281_afrika.js
++++ b/data/kronoloji_cok_once1281_afrika.js
+@@ -426,7 +426,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
+ 
+ // ─── GÜNEY AFRİKA ────────────────────────────────────────────────────
+ 
+-{ t:"900-01-01", b:"Limpopo-Shashe birleşiminde Mapungubwe krallığının yükselişi başladı", tur:"kurulus", onem:2, dunya:1, kapsam:"ic",
++{ t:"0900-01-01", b:"Limpopo-Shashe birleşiminde Mapungubwe krallığının yükselişi başladı", tur:"kurulus", onem:2, dunya:1, kapsam:"ic",
+   etiket:["kurulus","konu-siyasi"], yer:"Mapungubwe (Limpopo-Shashe birleşimi)", taraflar:["mapungubwe"],
+   yer_kon:[-22.19,29.24],
+   d:"Kuzey-güney ve doğu-batı ticaret yollarının kesiştiği Limpopo ile Shashe nehirlerinin birleşiminde, Güney Afrika'nın ilk yerli krallığı yükselmeye başladı. Mapungubwe dağılana kadar alt kıtanın en önemli iç yerleşimi oldu.",
+diff --git a/data/kronoloji_cok_once1281_dogu_asya.js b/data/kronoloji_cok_once1281_dogu_asya.js
+index 3613861d..5be988c1 100644
+--- a/data/kronoloji_cok_once1281_dogu_asya.js
++++ b/data/kronoloji_cok_once1281_dogu_asya.js
+@@ -364,7 +364,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
+ 
+ // ─── VİETNAM · CHAMPA · KMER ───────────────────────────────────────────
+ 
+-{ t:"981-01-01", b:"Bạch Đằng — Lê Hoàn, Song istilasını püskürttü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
++{ t:"0981-01-01", b:"Bạch Đằng — Lê Hoàn, Song istilasını püskürttü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+   etiket:["savas","konu-askeri"], odak_yer:"Hai Phong", yer:"Bạch Đằng nehri · Chi Lăng", taraflar:["tien-le-hanedani","song"],
+   d:"Đinh hanedanının karışıklığından yararlanmak isteyen Song, kara ve deniz yoluyla istilaya geçti. Tahta yeni çıkan Lê Hoàn istilacı orduları nehir ve geçitlerde yendi; Song komutanı öldürüldü. Lê Hoàn ardından Song'la haraç ilişkisini yeniden kurarak bağımsızlığı fiilen tanıttı.",
+   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV camlar 200 (Viet-Çam ilişkisi yalnız yüzyıl düzeyinde) · vietnam 302 · başlık araması 'vietnam' → yalnız ÇAMLAR. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Le-Hoan · Earlier-Le-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",
