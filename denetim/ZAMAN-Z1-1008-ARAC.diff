@@ -1,0 +1,148 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 2726a3ee..d5b3c65b 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -35,6 +35,21 @@ if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DATA = os.path.join(KOK, "data")
+ 
++# 🔴 ZAMAN-Z1-1008 — ufuk TEK otoriteden: `girdi.UFUK` (motor+arayüz penceresi)
++#   ve `girdi.VERI_UFKU` (verinin tam yazıldığı pencere; uçları SINIR İŞARETİ).
++#   Gerekçe girdi.py'de. Eskiden bu dosyada "1281-01-01"/"1923-10-29" beş
++#   yerde düz yazılıydı ve motor ufkuna BAĞLI DEĞİLDİ (ONCE1281-MOTOR-UFUK-1004 §④).
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++from girdi import UFUK, VERI_UFKU
++SINIR_ISARETI = frozenset(VERI_UFKU)
++
++
++def kirilma_disi(g):
++    """KIRILMA SAYILMAYAN gün: yok · motor ufkunun dışı ya da ucu · verinin
++    eski kapısı (`1281-01-01` başlangıcı, `1923-10-29` bitişi — el değiştirme
++    değil, D210). Değişmez 2/2s/2i ve 7 aynı kapıdan sorar."""
++    return (not g) or g <= UFUK[0] or g >= UFUK[1] or g in SINIR_ISARETI
++
+ # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
+ # 748 -> 761: hatalar 4.docx düzeltmeleri (Çerkezya 5, Dağıstan 3, Şirvan 4,
+ # Kaheti 1) — gerekçeleri yerlesimler.js içindeki blok yorumlarda.
+@@ -1846,7 +1861,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
+             donemler += (y.get(kat) or [])
+         for p in donemler:
+             for d, tip in ((p.get("f"), "kazanc"), (p.get("t"), "kayip")):
+-                if not d or d <= "1281-01-01" or d >= "1923-10-29":
++                if kirilma_disi(d):
+                     continue
+                 kayit = kir.setdefault(d, {"t": tip, "ad": set(), "sahip": {}})
+                 kayit["ad"].add(y["ad"])
+@@ -2626,7 +2641,7 @@ def _gun_farki(a, b):
+     return None if (x is None or y is None) else (x - y).days
+ 
+ 
+-ATLAS_SONU = "1923-10-29"
++ATLAS_SONU = UFUK[1]   # ZAMAN-Z1-1008: motor ufkunun sonu
+ # 🔴 4c TAVANI — ÜÇÜNCÜ DALIN AYRI SAYACI. `BEKLENEN_HAYALET`e EKLENMEZ.
+ # Sebebi ölçülmüş bir kaygı: 136 ölçülmüş bir borç ve tavanı; üstüne bu
+ # dalın sayısını eklemek İKİ AYRI BORCU TEK KOVAYA koyar ve hangisinin
+@@ -2703,7 +2718,7 @@ BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF
+ #    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
+ #    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
+ #    olcut GEVSETILDIGI icin degil (`D004`un ters yuzu).
+-ATLAS_BASI = "1281-01-01"
++ATLAS_BASI = UFUK[0]   # ZAMAN-Z1-1008: motor ufkunun başı
+ # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
+ # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
+ #     4c dönem SONU künye sonundan sonra → çare: ardıl kimlik / dönemi KISALT
+@@ -3088,13 +3103,13 @@ def degismez5(Y):
+                                     g / 365.25))
+         else:
+             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
+-            if ilk > "%04d-01-01" % (1281 + SUPHE_ESIK_YIL):
++            if ilk > "%04d-01-01" % (int(VERI_UFKU[0][:4]) + SUPHE_ESIK_YIL):
+                 suphe.append((y["ad"], ilk, donemler[0][2],
+                               round(y.get("lat", 0), 2),
+                               round(y.get("lon", 0), 2)))
+             elif (y.get("tur") != "bolge"
+                   and not y.get("kasitli_bosluk")
+-                  and ilk <= "1281-12-31"):
++                  and ilk <= VERI_UFKU[0][:4] + "-12-31"):
+                 # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
+                 # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
+                 kursuz.append((y["ad"], ilk, donemler[0][2],
+@@ -3652,14 +3667,14 @@ def degismez7(Y, isg_kova=None):
+     ik.setdefault("egemen-isgal-altinda", 0)
+     for i, y in enumerate(Y):
+         for f, t, s, enk in DON[i]:
+-            if f <= "1281-01-01" or f >= "1923-10-29":
++            if kirilma_disi(f):
+                 continue
+             if sahip(i, f) != sahip_dj(i, f):    # o gün işgal altında
+                 ik["egemen-isgal-altinda"] += 1
+                 continue
+             sor(i, y, f, t, s, enk, muaf, ihlal, False)
+         for f, t, s in ISG[i]:
+-            if f <= "1281-01-01" or f >= "1923-10-29":
++            if kirilma_disi(f):
+                 continue
+             sor(i, y, f, t, s, False, ik["muaf"], ik["ihlal"], True)
+     ik["ihlal"].sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
+diff --git a/arac/denetle_eslesme.py b/arac/denetle_eslesme.py
+index 7f42b534..65bcdb59 100644
+--- a/arac/denetle_eslesme.py
++++ b/arac/denetle_eslesme.py
+@@ -166,7 +166,7 @@ def a_yanlis_eslesme(Y, O, ix):
+     for y in Y:
+         for p in (y.get("d") or []) + (y.get("v") or []):
+             for dt in (p.get("f"), p.get("t")):
+-                if not dt or dt <= "1281-01-01" or dt >= "1923-10-29":
++                if denetle.kirilma_disi(dt):   # ZAMAN-Z1-1008: ufuk denetle.py'den
+                     continue
+                 kir.setdefault(dt, set()).add(y["ad"])
+ 
+diff --git a/arac/denetle_gorunur.py b/arac/denetle_gorunur.py
+index 8b777765..6a5e6757 100644
+--- a/arac/denetle_gorunur.py
++++ b/arac/denetle_gorunur.py
+@@ -291,7 +291,8 @@ def kronoloji_icerigi():
+     """④ — kronoloji maddelerinin başlığı/detayı boş mu, tarihi zaman çubuğunun dışında mı."""
+     bulgular = []
+     olaylar = _d.olaylari_yukle()
+-    baslangic, bitis = _d.gun_no("1281-01-01"), _d.gun_no("1923-10-29")
++    # ZAMAN-Z1-1008: zaman çubuğu = motor ufku (app.js BASLANGIC/BITIS ile aynı değer)
++    baslangic, bitis = _d.gun_no(_girdi.UFUK[0]), _d.gun_no(_girdi.UFUK[1])
+     for o in olaylar:
+         if not (o.get("b") or "").strip():
+             bulgular.append(("bos-baslik", o.get("t"), "", "başlık (b:) boş"))
+@@ -300,7 +301,7 @@ def kronoloji_icerigi():
+         gi = _d.gun_no(o["t"])
+         if gi < baslangic or gi > bitis:
+             bulgular.append(("tarih-disi", o.get("t"), o.get("b", ""),
+-                              "zaman çubuğu [1281-01-01, 1923-10-29] dışında"))
++                              "zaman çubuğu [%s, %s] dışında" % _girdi.UFUK))
+     return bulgular
+ 
+ 
+diff --git a/arac/denetle_statu.py b/arac/denetle_statu.py
+index 5bf03b3a..c4b2c702 100644
+--- a/arac/denetle_statu.py
++++ b/arac/denetle_statu.py
+@@ -289,7 +289,7 @@ def d_isgal_ortusu(Y, ol):
+             # D-4: örtünün başı ve sonu haritada GÖRÜNÜR değişimdir — tarama
+             # belirir ve kaybolur. Değişmez 2'nin örtü boyutu; aynı ±30 pencere.
+             for g, ne in ((f, "işgal başlangıcı"), (t, "işgal sonu")):
+-                if g <= "1281-01-01" or g >= "1923-10-29":
++                if denetle.kirilma_disi(g):   # ZAMAN-Z1-1008: ufuk denetle.py'den
+                     continue
+                 if not any(abs(o["g"] - _gun(g)) <= PENCERE_GUN for o in ol):
+                     maddesiz.append((g, ne, y["ad"], isgalci))
+diff --git a/arac/renk_olc.py b/arac/renk_olc.py
+index d83e7ad4..ab0860c7 100644
+--- a/arac/renk_olc.py
++++ b/arac/renk_olc.py
+@@ -1016,7 +1016,7 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
+     else:
+         nokta, pen, _bol = _pb
+     out = {x for x in k.get(kim, ()) if x in BOYALAR}
+-    f, t = pen.get(kim, ("1281-01-01", "1923-10-29"))
++    f, t = pen.get(kim, girdi.UFUK)   # ZAMAN-Z1-1008: verisiz kimlik = bütün ufuk
+     # 🔴 VERİSİZ ENGEL ADAYI — 8 Ağustos 2026'da ÖLÇÜLEREK bulundu.
+     #   Eski hâli `b not in nokta` diyerek veride noktası olmayan kimliği
+     #   ELİYORDU. Sonuç: taze yazılmış (henüz verisi olmayan) bir renk,
