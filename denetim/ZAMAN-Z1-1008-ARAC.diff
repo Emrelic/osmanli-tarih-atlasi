@@ -1,3 +1,6 @@
+ZAMAN-Z1-1008-ARAC.diff — ufuk sabiti girdi.UFUK / girdi.VERI_UFKU'dan okunur (tanım: arac/girdi.py, MOTOR.diff).
+  Tarih bu diff'te YAZILMAZ; MOTOR.diff'siz uygulanırsa ImportError. Koşulmadan teslim.
+
 diff --git a/arac/denetle.py b/arac/denetle.py
 index 2726a3ee..d5b3c65b 100644
 --- a/arac/denetle.py
