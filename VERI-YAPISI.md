@@ -252,12 +252,23 @@ tarih yıl, on yıl, hatta yüzyıl hassasiyetinde olacak.
 
 ```js
 { f:"-0550-01-01", kesinlik:"onyil" }   // arayüzde: "~MÖ 550"
-{ f:"1427-06-01",  kesinlik:"yil" }     // arayüzde: "1427 civarı"
+{ f:"1427-06-01",  kesinlik:"yil" }     // arayüzde: "1427"  (YIL kesin, GÜN değil)
 { f:"1453-05-29",  kesinlik:"gun" }     // arayüzde: "29 Mayıs 1453"
 ```
 Değerler: `gun` · `ay` · `yil` · `onyil` · `yuzyil` · `belirsiz`.
 Alan yoksa `gun` varsayılır (mevcut verinin tamamı böyle sayılır).
 Uydurma gün yazmama kuralına, **uydurma kesinlik yazmama** kuralı eklenir.
+🔴 **"~" işareti YALNIZ `onyil` ve daha kabasında kullanılır.** `yil` kesinliği
+*"yıl KESİN, gün değil"* demektir; "1427 civarı" yazmak yılın kendisini şüpheli
+gösterir ve bir hassasiyet sınıfını ötekine çevirir. (Bu satırın örneği 8 Ekim
+2026'ya kadar yanlıştı — `yil` için "civarı" yazıyordu; Z2 ARAYUZ ölçtü ve bildirdi.)
+
+⚠️ **MÖ tarih bugün ÖLÇÜLEMEZ, yalnız yazılabilir.** Yukarıdaki `-0550-01-01`
+örneği şemanın hedefidir, aracın bugünkü hâli değil: `denetle.py`nin `gun_no`su
+negatif yılda **çöker** — ve bu bilerek öyledir (8 Ekim 2026, `GUNNO-PAD-1008`):
+sessizce yanlış cevap vermektense gürültüyle durur (`§3` üç çıkış kodu). ⇒ MÖ
+veri yazmadan önce **tarih temsili kararı** gerekir; `datetime` yıl ≤ 0'ı
+desteklemiyor. Karar Emre'de, `§1`in MÖ 12000 hedefi er geç bunu ister.
 
 ---
 
