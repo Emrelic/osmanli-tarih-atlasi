@@ -1,8 +1,37 @@
 # ZAMAN-Z2-1008 — arayüzün 1000–1945'i oynatması (js/app.js · index.html · css/style.css)
 
 Oturum: ZAMAN-Z2-ARAYUZ-ZAMAN-1008 (UMIT) · 8 Ekim 2026 · ağaç `C:\atlas-z2` @ `origin/makine/umit` `e28edfdc`
-Teslim: `ZAMAN-Z2-1008-APPJS.diff` (üç dosya tek diff, UYGULANMADI). `git apply --check` hem `e28edfdc`de
-hem güncel `d8e4e07b`de (Z1/Z4/Z7 teslimleri sonrası) temiz · LF · CR 0 · 31.624 bayt.
+Teslim: `ZAMAN-Z2-1008-APPJS.diff` (üç dosya tek diff, UYGULANMADI). **SÜRÜM 2** — koordinatör düzeltmesinden sonra
+(aşağıda §R2), temel `c69b890f`. Diff başlığı: dokunduğu GÜN ARALIĞI — arayüz kodu, veri değil; davranış yalnız
+`VERI_UFKU` DIŞINDA (1281-01-01 öncesi · 1923-10-29 sonrası) değişir, 1281–1923 arası çizim aynı (ölçek hariç).
+
+## §R2 — Koordinatör düzeltmesi (8 Ekim): "ufuk ÖNERİDİR, tek yerde ve adlandırılmış olsun"
+- **Ufkun tek yeri:** `app.js` `BASLANGIC = gunIdx("1000-01-01")` · `BITIS = gunIdx("1945-09-02")` — iki satır, yorumda
+  `= arac/girdi.py UFUK[0]/[1] · ÖNERİ`. Emre başka uç seçerse YALNIZ bu iki dizgi değişir.
+- **Türeyen her şey:** çağ bölmeleri (`ZAMAN_CAGLARI` UFUK + `VERI_UFKU`dan kurulur, elle tarih YOK) · çağ adları ·
+  eksen yazıları (çağ sınırları + çekirdek çağda 200'ün katları) · oynatma çarpanı · bütün kırpmalar. Kodda (yorum dışı)
+  ufuk/veri tarihi geçen satır: yalnız bu iki satır + `VERI_UFKU` + tarihî `EPOK_DAMGASI`.
+- **Pay kuralı (sürüm 1'deki elle %15/%73/%12 KALDIRILDI):** her dış çağ `0,29 × √(dış süre ÷ çekirdek süre)`, en az %8;
+  çekirdek kalanı alır. Dış çağın payı YALNIZ kendi süresine bağlı. Sınandı (node, app.js'ten aynı dilim kesilerek,
+  YALNIZ iki ufuk dizgisi değiştirilerek; gidiş-dönüş 4 gün × 5 senaryo = 20/20 ✓):
+  ```
+  1000–1945 → 1000–1281 %19,2 ×1,66 | 1281–1923 %72,8 | 1923–1945 %8,0 ×0,31
+  1288–1945 → 1288–1923 %92,0       | 1923–1945 %8,0 ×0,40
+  1000–1923 → 1000–1281 %19,2 ×1,84 | 1281–1923 %80,8
+  1281–1923 → 1281–1923 %100   (bugünkü çubuk)      1288–1923 → %100
+  ```
+  ⚠️ Sürüm 1'deki ilk türetme (kalan %27'yi dış çağlara bölmek) tek dış çağda 1923–1945'e %27 veriyordu (×0,09, çok
+  yavaş). Ölçülüp atıldı.
+- **Neden ayrı bir `UFUK` dizisi YOK (ölçülmüş zarar):** ilk denemede `var UFUK = [...]` BASLANGIC'in üstüne yazıldı ⇒
+  `arac/odak_cozum.js` app.js'i `var BASLANGIC = gunIdx(` satırından keser, üstteki ad orada yok ⇒
+  **`odak nöbetçisi ÖLÇEMEDİ: UFUK is not defined`** (yayın kapısı kör). İkinci tuzak: o işaret dizgisini YORUMA
+  yazınca `indexOf` dilimi yorumdan başlatır. İkisi de düzeltildi, uyarı yorumu yerinde; sınav dilimi aynı yöntemle kesiyor.
+- **Z1 hizası ÖLÇÜLDÜ** (Z1 iki mesajla doğruladı): `girdi.UFUK = ("1000-01-01","1945-09-02")` = BASLANGIC/BITIS ·
+  `girdi.VERI_UFKU = ("1281-01-01","1923-10-29")` = `VERI_UFKU` (aynı ad). Motor `KESIT_SON = UFUK[1]+3 gün`, ilk kesit
+  `UFUK[0]` olabilir ⇒ veri penceresi `donemler`den TÜRETİLMEZ (Z1'in uyarısı birebir; sürüm 1'in ara hâli öyleydi, geri alındı).
+- **Z7 bulgularından arayüze düşenler bu diff'te:** ② künye kartı `(d.f).slice(0,4)` → `yilDizgi()` (5 yer; Bizans
+  "330- – 1461" → **"330 – 1461"** ölçüldü) · ③ odak listesi dizgi sırası → gün indeksi sırası. ① kırpma 1000–1945'e
+  açıldı (1000 öncesi künye/madde hâlâ 1000-01-01'e kırpılır — sayılmadı). ④⑤⑥ arayüz dışı/veri: Z7'de.
 
 ## §0 Önceki ölçümler ne diyordu (mükerrer kapısı)
 - `YOL-HARITASI` Boyut 1: çubuk doğrusal olamaz, **çağ bölmeli** olmalı · `kesinlik` alanı ve "~MÖ 550 / 1427 civarı" gösterimi.
@@ -21,7 +50,7 @@ beklentilerdir, ölçümle karşılaştırması yanlarında. Kural ihlalidir, bi
 | `donemBul`un "iki uçta kırpma"sı çubuk açılınca AKTİF yanlış çizer (1100'de 1281 beyliği) | ✓ doğrulandı: `-3` dalı eklenmeden önce 1100 → dönem 0 |
 | 1923-10-29 karesi `aktifAralik` BITIS'e bağlı kalırsa yeniden boşalır | ✓ (kural VERI_SONU'ya taşındı; 1923-10-29 → dönem 619, dolu) |
 | padişah kartı uçlarda KIRILMAZ, yalnız "—" der | ✓ kırılmadı; "—" + sebep eklendi |
-| çağ çarpanı 1000-1281 ≈ ×2, 1923-1945 ≈ ×0,2 | ✓ 2,127 / 1,000 / 0,207 |
+| çağ çarpanı 1000-1281 ≈ ×2, 1923-1945 ≈ ×0,2 | ✓ sürüm 1: 2,127 / 1 / 0,207 · sürüm 2 (türetilmiş pay): 1,66 / 1 / 0,31 |
 | odak kapısı ETKİLENMEZ | ✗ **YANLIŞ** — SEKME SESSİZ +19 (aşağıda ②-6) |
 
 ## ② Ne ölçtüm
@@ -49,13 +78,13 @@ beklentilerdir, ölçümle karşılaştırması yanlarında. Kural ihlalidir, bi
 | `index.html:6 <title>` · açılış perdesi "1281'den 1923'e" | — | marka metni | DEĞİŞMEDİ — **karar Emre'nin** (④-4) |
 
 ### ②-2 Çağ bölmeli çubuk
-- `ZAMAN_CAGLARI` (app.js, BASLANGIC'in altı): 1000–1281 **%15** · 1281–1923 **%73** · 1923–1945 **%12**. Yeni çağ = yeni satır.
+- `ZAMAN_CAGLARI`: sürüm 1 elle %15/%73/%12 idi; **sürüm 2 UFUK + VERI_UFKU'dan türer → %19,2 · %72,8 · %8,0** (§R2).
 - Gün↔konum gidiş-dönüş: 1100-06-15 · 1281-01-01 · 1923-10-29 · 1930-06-15 · 1945-09-02 — **5/5 birebir** (ilk sürümde
   100.000 konumla 1 gün kayıyordu → 1.000.000'e çıkarıldı; en seyrek çağda konum başına 0,7 gün).
 - Ok tuşları ESKİ sözleşmede: ±1 gün (Shift ±365) — kaydırıcı odaktayken de (ölçüldü: 1945-09-02 → ← → 1 Eylül 1945).
 - Eksen yazıları `left:%` ile GERÇEK konumda; dar çubukta çakışan düşük öncelikli yazı gizleniyor
   (800 px pencerede ölçüldü: "19231945" çakışması → 1923 gizli, 1000·1281·1500·1700·1945 görünür). Yerleşim çubuğu aynı eksen.
-- Oynatma çarpanı: 2,127 / 1,000 / 0,207 (normal 180 gün/sn ⇒ 383 / 180 / 37 gün/sn). **Ölçülen yan kusur ve düzeltmesi:**
+- Oynatma çarpanı (sürüm 2): 1,66 / 1 / 0,31 (normal 180 gün/sn ⇒ ~299 / 180 / ~56 gün/sn). **Ölçülen yan kusur ve düzeltmesi:**
   eski `Math.max(1, round(…))` her kareye ≥1 gün veriyordu ⇒ 60 kare/sn'de **60 gün/sn taban** yavaş çağı ezerdi
   (ilk ölçüm 1930'da 122 gün/sn). Kesir artık birikiyor; düzeltmeden sonra tek zincirle 1930: 57 gün/2 sn.
   ⚠️ Gizli bölmede kare 1 sn'ye kırpıldığı için mutlak hız ölçümü güvenilir değil. 1500'de 222 (beklenen 180) ölçüldü;
@@ -96,6 +125,8 @@ uzaksa tarihin KENDİSİNE gidip sebebini yazıyor (ölçüldü: 1100 → 1 Ocak
 maddeye gidiyor). Ana akışa ne girer sorusu **Z7'nin kalemi** (④-3).
 
 ### ②-6 🔴 ODAK KAPISI (yayın kapısına bağlı) — bu diff tavanı aşıyor
+**Sürüm 2'de yeniden ölçüldü, taban `c69b890f`:** SESSİZ taban 1 yeni çift → Z2 **20** (aynı 19 + 1381 Timur). Ayrıca
+**SEKME OKUNMAYAN +3** (0900 Mapungubwe · 0981 Bạch Đằng · 1026 Somnat) — **TABANDA DA AYNI 3**, Z2'den değil (Z7 madde/PAD).
 `arac/odak_cozum.js` app.js'ten `var BASLANGIC = gunIdx(` → `// ═══` dilimini kesip koşuyor. Dilim kendi içinde
 çalışıyor (OLCULEMEDI 0). Ama kırpma 1000–1945'e açıldı:
 ```
@@ -124,12 +155,10 @@ Yeni ölçüm doğru, eski "GÖVDE" yanlış pozitifti. **Kusur değil, KAPSAM**
 - `node --check js/app.js` ✓ (her adımda)
 - `py arac/denetle_arayuz.py` önce **temiz** (çıkış 0) · sonra **temiz** (çıkış 0) — fark yok
 - tarayıcı: 1100 · 1281 · 1923-10-29 · 1930 · 1945 · 1402 (Fetret) · 1500 — `window.onerror` **0**, konsol hatası **0**
-- `git apply --check` ✓ `e28edfdc` · ✓ `d8e4e07b`
+- `git apply --check` ✓ `e28edfdc` · ✓ `d8e4e07b` · sürüm 2: ✓ `88cc2f3c` (güncel uç) · 36.982 bayt · CR 0
 
 ## ③ Ne bulamadım / ölçmedim
-- **Z1 hizası:** Z1 raporunu (`d8e4e07b`) okudum, `VERI_UFKU` adını ve değerini aynen aldım. Z1'e iki mesaj gitti, doğrudan cevap
-  gelmedi. Motor yaması inince `donemler.js`in hangi aralığı kapsayacağını **ölçmedim** (koşu yok). app.js veri penceresini bu yüzden
-  `donemler`den TÜRETMİYOR, sabit tutuyor.
+- **Z1 hizası:** ÖLÇÜLDÜ ve doğrulandı (§R2). Z1, `odak_olc` için "VERİ PENCERESİ DIŞI" kovasına katılıyor — ④-1 artık Z1+Z2 ortak önerisi.
 - `kodla.py:592/634/974` açılış günü `1281-01-01` (Z1 bildirdi): app.js `ACILIS_GUNU = VERI_BASI` = 1281-01-01 ⇒ **bugün hizalı**.
   Okumadım; arac/ Z1'in.
 - `denetle_gorunur.py:259/294` zaman çubuğu tanımı: Z1'in ARAC.diff'i `girdi.UFUK`a bağlıyor; app.js ile eşitliği **koşmadım**.
@@ -159,4 +188,4 @@ Yeni ölçüm doğru, eski "GÖVDE" yanlış pozitifti. **Kusur değil, KAPSAM**
 
 ## Dosyalar (`C:\atlas-umit\denetim\`e kopyalandı, izlenmeyen)
 - `ZAMAN-Z2-1008.md` — bu rapor
-- `ZAMAN-Z2-1008-APPJS.diff` — `js/app.js` (+291/−29) · `index.html` (+9/−0: `#zaman-sarmal`, `#zaman-eksen`) · `css/style.css` (+29/−6: sarmal, eksen, şerit)
+- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 2) — `js/app.js` (+339/−37) · `index.html` (+9/−0: `#zaman-sarmal`, `#zaman-eksen`) · `css/style.css` (+29/−6: sarmal, eksen, şerit)
