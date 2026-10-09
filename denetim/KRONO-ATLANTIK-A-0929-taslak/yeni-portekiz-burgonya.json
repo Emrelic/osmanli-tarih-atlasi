@@ -1,0 +1,857 @@
+{
+ "maddeler": [
+  {
+   "t": "1279-02-16",
+   "gun": "16 Şubat 1279 — III. Afonso'nun ölüm günü; Dinis aynı yıl kısa bir naiplikten sonra yönetimi fiilen üstlendi (devralma günü kaynakta ayrıca verilmiyor)",
+   "b": "III. Afonso öldü, Dinis Portekiz tahtına geçti",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "Lizbon",
+   "devlet": "portekiz",
+   "d": "Portekiz Kralı III. Afonso'nun ölümüyle tahta oğlu Dinis geçti; annesi Kastilyalı Beatriz'in kısa naipliğinden sonra yönetimi bizzat aldı ve 1325'e kadar hüküm sürdü. Dinis dönemi sınırların kesinleştiği, Portekizcenin kançılarya dili olduğu ve Lizbon'da bir üniversitenin (Estudo Geral) kurulduğu bir kuruluş çağı olarak anılır.",
+   "kaynak": "H. Vaquero Moreno – G. Pérez Barcala, \"Dionís de Portugal\", Real Academia de la Historia, Diccionario Biográfico Español (Historia Hispánica, biyografi no. 14128) — metin ve 'Hechos' 1279 16/ii",
+   "dogrulama": "RAH API https://historia-hispanica.rah.es/api/biographies/14128 (biyografi metni + milestones) okundu; ayrıca parlamento.pt/VisitaParlamento/Paginas/BiogDDinis.aspx (yalnız yıl: 'Aclamado Rei em 1279')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1319-03-14",
+   "gun": "14 Mart 1319 — Papa XXII. Ioannes'in Avignon'dan verdiği 'Ad ea ex quibus' bullası",
+   "b": "İsa Mesih Tarikatı (Ordem de Cristo) kuruldu — Tapınakçı mirası Portekiz'de kaldı",
+   "tur": "din",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "din",
+    "askeri-tarikat",
+    "konu-dini"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "Tapınak Şövalyeleri'nin 1312'de lağvedilmesinden sonra Dinis, mülklerinin Hospitalier'lere geçmesini engellemek için yeni bir tarikat önerdi; Papa XXII. Ioannes 14 Mart 1319'da merkezi Algarve sınırındaki Castro Marim olan 'İsa Mesih Şövalyeleri Tarikatı'nı kurup Tapınakçıların Portekiz'deki bütün mülkünü ona bağladı. İlk üstadı Gil Martins'ti; mülk devri ve ilk tüzük aynı yılın Kasım ayında tamamlandı. Böylece büyük bir askerî-dinî servet kraliyet denetiminde kaldı.",
+   "kaynak": "Joana Lencart, \"As ordenações inéditas da Ordem de Cristo de 1319 e 1323\", População e Sociedade 26 (CEPESE, 2016), s. 99-132 (bulla: Monumenta Henricina I, doc. 62) · RAH, \"Dionís de Portugal\" (Castro Marim ve Gil Martins)",
+   "dogrulama": "CEPESE PDF'i indirildi, metinde 'A 14 de março de 1319, o papa João XXII institui, com sede em Castro Marim...' cümlesi okundu; RAH 14128 biyografisi Castro Marim/Gil Martins'i doğruluyor (gün vermiyor)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1324-02-27",
+   "gun": "27 Şubat 1324 — barışın günü (RAH, Alfonso IV maddesi)",
+   "b": "Kral Dinis ile veliaht Afonso arasındaki iç savaş barışla bitti",
+   "tur": "isyan",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "isyan",
+    "ic-savas",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "1319'dan beri süren iç savaşta veliaht Afonso, babasının gayrimeşru oğlu Afonso Sanches'i kayırmasına karşı ayaklanmış, soyluların desteğiyle Coimbra, Porto ve Guimarães'i ele geçirmişti. Lizbon yakınındaki Alvalade'de baba ile oğul arasında meydan savaşı hazırlanırken Kraliçe İsabel'in (Aragonlu 'Kutsal Kraliçe') arabuluculuğuyla 27 Şubat 1324'te barış yapıldı; Afonso Sanches ülkeden uzaklaştırıldı.",
+   "kaynak": "H. Baquero Moreno, \"Alfonso IV de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 1345) · RAH, \"Dionís de Portugal\" (savaş 1319-1324)",
+   "dogrulama": "RAH API /api/biographies/1345 ve /14128 okundu: 'se consiguió la paz de 27 de febrero de 1324 gracias a la intervención pacificadora de la reina Isabel'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1325-01-07",
+   "gun": "7 Ocak 1325 — Dinis'in ölümü (RAH Dionís maddesi ve 'Hechos'); aynı kurumun Alfonso IV maddesi 6 Ocak der — çelişki bildirildi",
+   "b": "Kral Dinis öldü, IV. Afonso tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "Dinis Santarém'de öldü ve yerine oğlu IV. Afonso geçti; yeni kral aynı yıl Évora Cortes'inde alkışlanarak tanındı. İlk icraatlarından biri, iç savaşın sebebi sayılan üvey kardeşi Afonso Sanches'i sürgün etmek oldu; bu da kısa süreli yeni bir çatışmaya yol açtı.",
+   "kaynak": "RAH, \"Dionís de Portugal\" (Vaquero Moreno – Pérez Barcala; ölüm 7.I.1325, Santarém) · H. Baquero Moreno, \"Alfonso IV de Portugal\", RAH (Évora Cortes'i; bu metin '6 de enero de 1325' der)",
+   "dogrulama": "RAH API 14128 (death datetext '7.I.1325', milestone '1325 7/i') ve 1345 (biyografi metni '6 de enero de 1325') okundu",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1339-07-10",
+   "gun": "10 Temmuz 1339 — Sevilla'da imzalanan barış",
+   "b": "Sevilla Barışı — 1336-1338 Portekiz-Kastilya savaşı sona erdi",
+   "tur": "antlasma",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "baris",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "IV. Afonso, kızı María'ya kocası XI. Alfonso'nun kötü davranması ve veliaht Pedro'nun gelini Constanza Manuel'in Kastilya'dan geçişinin engellenmesi üzerine savaşa girmişti: Portekizliler Badajoz'u kuşattı, Villanueva de Barcarrota'da yenildi, Kastilya akıncıları Porto'ya kadar indi. Papa XII. Benedictus'un aracılığıyla 10 Temmuz 1339'da Sevilla'da barış imzalandı; bu uzlaşma iki krallığın ertesi yıl Río Salado'da birlikte savaşmasının zeminini hazırladı.",
+   "kaynak": "H. Baquero Moreno, \"Alfonso IV de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 1345)",
+   "dogrulama": "RAH API 1345 okundu: 'se alcanzó la paz, firmada en Sevilla el 10 de julio de 1339'; 1336 olayları aynı kaydın milestones alanında",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1355-01-07",
+   "gun": "7 Ocak 1355 — Coimbra, Quinta das Lágrimas",
+   "b": "Inês de Castro, IV. Afonso'nun emriyle Coimbra'da öldürüldü",
+   "tur": "kriz",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "kriz",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "Veliaht Pedro'nun Galiçyalı sevgilisi Inês de Castro'nun kardeşleri Kastilya iç çekişmelerinde güçlü bir hizbin başındaydı ve Inês'ten doğan çocuklar meşru veliaht Fernando'nun hakkını tehdit ediyordu. Saray çevresinin baskısıyla IV. Afonso idamını onayladı; üç şövalye Inês'i 7 Ocak 1355'te Coimbra'da öldürdü. Pedro babasına karşı ayaklandı ve ülke yaklaşık iki yıl iç savaş yaşadı.",
+   "kaynak": "M. P. Queralt del Hierro, \"Inés de Castro\", RAH Diccionario Biográfico Español (Historia Hispánica no. 23964) · H. Baquero Moreno, \"Pedro I de Portugal\", RAH (no. 35774)",
+   "dogrulama": "RAH API 23964 okundu: 'el 7 de enero de 1355 en la llamada Quinta das Làgrimas de Coímbra'; 35774 danışman adlarını doğruluyor",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1357-05-28",
+   "gun": "28 Mayıs 1357 — IV. Afonso'nun Lizbon'da ölümü",
+   "b": "IV. Afonso öldü, I. Pedro (Adaletli) tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "IV. Afonso'nun ölümüyle 37 yaşındaki oğlu I. Pedro kral oldu. Pedro, Inês de Castro'nun katillerinden ikisini yakalatıp ağır biçimde idam ettirdi ve Haziran 1360'ta Cantanhede'de Inês ile gizlice evlendiğini yeminle ilan etti. Sert adalet anlayışıyla anılan kısa saltanatında tek Cortes 1361'de Elvas'ta toplandı.",
+   "kaynak": "H. Baquero Moreno, \"Pedro I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 35774) · aynı yazar, \"Alfonso IV de Portugal\" (no. 1345)",
+   "dogrulama": "RAH API 35774 ve 1345 okundu: 'Tras el fallecimiento de Alfonso IV en Lisboa, el 28 de mayo de 1357, su hijo ascendió al Trono'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1367-01-18",
+   "gun": "18 Ocak 1367 — I. Pedro'nun Estremoz'da ölümü",
+   "b": "I. Pedro öldü, I. Fernando tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "I. Pedro'nun Estremoz'da ölümüyle Kastilyalı Constanza Manuel'den doğan oğlu I. Fernando kral oldu. Fernando'nun saltanatı, Kastilya tahtına göz dikerek girdiği üç yıkıcı savaş, İngiltere ile ittifak arayışı ve Sesmarias tarım kanunu gibi iç düzenlemelerle geçti; vârissiz ölümü 1383-1385 bunalımını doğurdu.",
+   "kaynak": "H. Baquero Moreno, \"Pedro I de Portugal\" ve \"Fernando I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 35774, 16452)",
+   "dogrulama": "RAH API 35774 ('Murió en Estremoz el 18 de enero de 1367') ve 16452 (milestone '1367 18/i') okundu",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1371-03-31",
+   "gun": "31 Mart 1371 — Alcoutim (RAH, Leonor Téllez maddesi); aynı kurumun 'Hechos' listesinde '1371 3/iii' yazıyor, muhtemel dizgi hatası — bildirildi",
+   "b": "Alcoutim Barışı — I. Fernando'nun ilk Kastilya savaşı bitti",
+   "tur": "antlasma",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "baris",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "I. Pedro'nun (Kastilya) 1369'da öldürülmesinden sonra Fernando, Kastilya tahtında hak iddiasıyla Galiçya'ya girmiş, II. Enrique ise karşı saldırıyla Guimarães'i kuşatmıştı. 31 Mart 1371'de Alcoutim'de yapılan barışta bazı sınır kasabalarının Portekiz'e verilmesi ve Fernando'nun Enrique'nin kızı Leonor ile evlenmesi öngörüldü. Fernando evlilik şartına uymayıp Leonor Teles ile evlendi; bu, yeni gerginliklerin tohumu oldu.",
+   "kaynak": "V. Álvarez Palenzuela, \"Leonor Téllez de Meneses\", RAH Diccionario Biográfico Español (Historia Hispánica no. 43104) · H. Baquero Moreno, \"Fernando I de Portugal\", RAH (no. 16452)",
+   "dogrulama": "RAH API 43104 okundu: '(Alcoutim, 31 de marzo de 1371)'; 16452 milestone '1371 3/iii' ve 1369 Galiçya seferi metni",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1372-07-10",
+   "gun": "10 Temmuz 1372 (RAH 'Hechos')",
+   "b": "I. Fernando, Lancaster Dükü John of Gaunt ile ittifak yaptı",
+   "tur": "ittifak",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "ittifak",
+    "yuz-yil-savaslari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "ingiltere"
+   ],
+   "d": "Fernando, III. Edward'ın oğlu ve öldürülen Kastilya kralı I. Pedro'nun kızı Constanza'nın kocası olan Lancaster Dükü ile ittifak kurarak onu Kastilya kralı olarak tanımayı üstlendi; iki taraf II. Enrique'ye karşı birlikte savaşmayı kararlaştırdı. Bu adım Portekiz'i Yüz Yıl Savaşları'nın İngiliz tarafına bağlayan ilk resmî halkaydı ve Kastilya'nın 1372 sonunda Portekiz'i istilasına yol açtı.",
+   "kaynak": "H. Baquero Moreno, \"Fernando I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 16452)",
+   "dogrulama": "RAH API 16452 okundu: milestone '1372 10/vii — Fernando de Portugal firma una alianza con el duque de Lancaster' + biyografi metni",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1373-03-24",
+   "gun": "24 Mart 1373 — Santarém'de imzalanan barış (RAH biyografi metni); aynı kaydın 'Hechos' listesi olayı '1372 19/iii' altında verir — tutarsız, metin esas alındı",
+   "b": "Santarém Barışı — Kastilya ordusu Lizbon'u yaktıktan sonra savaş bitti",
+   "tur": "antlasma",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "baris",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "II. Enrique Aralık 1372'de Portekiz'e girip kuzeydoğu kalelerini aldı ve 23 Şubat 1373'te Lizbon'a girdi; Yahudi mahallesi dahil şehrin büyük kısmı yandı. Papalık legatı Guido de Boulogne'un aracılığıyla 24 Mart 1373'te Santarém'de barış yapıldı: Fernando İngilizlere karşı Kastilya'ya destek vermeyi üstlendi ve yedi sınır kalesi üç yıl rehin kaldı.",
+   "kaynak": "H. Baquero Moreno, \"Fernando I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 16452)",
+   "dogrulama": "RAH API 16452 biyografi metni okundu: 'Enrique II entró en Lisboa el 23 de febrero de 1373' / 'La paz se firmó en Santarém el 24 de marzo de 1373'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1382-08-10",
+   "gun": "10 Ağustos 1382 (RAH 'Hechos'); aynı kaydın biyografi metni barışın 9 Ağustos'ta 'kararlaştırıldığını' söyler",
+   "b": "Elvas Barışı — Fernando'nun üçüncü Kastilya savaşı bitti",
+   "tur": "antlasma",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "baris",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "1381'de İngiliz desteğiyle (Cambridge Kontu) yeniden başlayan savaşta Portekiz donanması Saltes'te yok edilmiş, Kastilya filosu Tejo'ya girmişti. İngilizlerin haberi olmadan yapılan Elvas Barışı'nda Kastilya işgal ettiği yerleri ve esirleri geri verdi, veliaht prenses Beatriz'in bir Kastilya prensiyle evlenmesi kararlaştırıldı ve Portekiz yeniden Avignon papası VII. Clemens'i tanıdı.",
+   "kaynak": "H. Baquero Moreno, \"Fernando I de Portugal\", RAH (no. 16452) · I. Pastor Bodmer, \"Beatriz de Portugal\", RAH (no. 5735)",
+   "dogrulama": "RAH API 16452 ve 5735 okundu (milestone '1382 10/viii Firma de la Paz de Elvas'; metin 'la paz se acordó el 9 de agosto, sin conocimiento de los ingleses')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1383-04-02",
+   "gun": "2 Nisan 1383 — Salvaterra de Magos evlilik sözleşmesi; nikâh 17 Mayıs 1383'te Badajoz'da (RAH Beatriz maddesi)",
+   "b": "Salvaterra de Magos Antlaşması — Veliaht Beatriz, Kastilya Kralı I. Juan ile evlendirildi",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "Hasta Fernando'nun tek meşru kızı Beatriz, dul kalan Kastilya Kralı I. Juan ile evlendirildi. Sözleşmeye göre iki krallık ayrı kalacak, Portekiz tahtı bu evlilikten doğacak çocuklara geçecek ve o zamana dek Kraliçe Leonor Teles naip olacaktı. Birkaç ay sonra Fernando ölünce Kastilya kralının bu hükümleri çiğneyerek Portekiz'i doğrudan istemesi 1383-1385 bunalımını başlattı.",
+   "kaynak": "I. Pastor Bodmer, \"Beatriz de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 5735) · RAH, \"Fernando I de Portugal\" (no. 16452)",
+   "dogrulama": "RAH API 5735 milestones okundu: '1383 2/iv Se firman en Salvaterra de Magos las capitulaciones... Contraen matrimonio el 17 de mayo en la catedral de Badajoz'; 1382 9/xii Pinto ön anlaşması",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1383-10-23",
+   "gun": "23 Ekim 1383 — RAH'ın verdiği gün; bir kısım literatür 22 Ekim der (burada doğrulanmadı)",
+   "b": "I. Fernando vârissiz öldü — Leonor Teles naip, Beatriz ve I. Juan kral ilan edildi",
+   "tur": "olum",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "olum",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "I. Fernando Lizbon'da erkek vâris bırakmadan öldü. Kraliçe Leonor Teles, Salvaterra hükümlerine göre naipliği üstlenip kızı Beatriz ile Kastilya Kralı I. Juan'ı Portekiz hükümdarı ilan ettirdi; bu ilan şehirlerde ilk Kastilya karşıtı karışıklıkları doğurdu. I. Juan'ın anlaşmaya aykırı biçimde Portekiz'e girme hazırlığı, Aralık'taki Lizbon ayaklanmasının arka planını oluşturdu.",
+   "kaynak": "H. Baquero Moreno, \"Fernando I de Portugal\", RAH (no. 16452) · I. Pastor Bodmer, \"Beatriz de Portugal\", RAH (no. 5735)",
+   "dogrulama": "RAH API 16452 ('Falleció el rey Fernando en Lisboa el 23 de octubre de 1383') ve milestone '1383 23/x' okundu",
+   "guven": "orta"
+  },
+  {
+   "t": "1384-04-06",
+   "gun": "6 Nisan 1384 — Fronteira yakınında",
+   "b": "Atoleiros Savaşı — Nuno Álvares Pereira Kastilya kuvvetlerini yendi",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "1383-1385-bunalimi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "Kastilya'nın Lizbon üzerindeki baskısını hafifletmek için Alentejo'ya gönderilen Nuno Álvares Pereira, kendisini izleyen Kastilya birliğini Fronteira yakınındaki Atoleiros'ta yendi. Küçük çaplı bu zafer, Aviz Üstadı João'nun davasına moral ve yeni taraftarlar kazandırdı; Nuno Álvares bunalımın başlıca komutanı olarak öne çıktı.",
+   "kaynak": "H. Baquero Moreno, \"Juan I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 25003) — 'Hechos' 1384 6/iv",
+   "dogrulama": "RAH API 25003 milestones okundu: 'Batalla de los Atoleiros, en las proximidades de Fronteira... La victoria portuguesa supone un importante refuerzo moral'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1384-09-03",
+   "gun": "3 Eylül 1384 — kuşatmanın sona erdiği gün",
+   "b": "Kastilya'nın Lizbon kuşatması sona erdi",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "kusatma",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "1384'te bir Kastilya filosunun başlattığı, sonra kara kuvvetleriyle birleşen Lizbon kuşatması 3 Eylül'de kaldırıldı. Başkentin düşmemesi Aviz Üstadı João'nun davasını ayakta tuttu; João 6 Ekim'de bir mecliste 'krallığın naibi, savunucusu ve yöneticisi' olarak teyit edildi.",
+   "kaynak": "H. Baquero Moreno, \"Juan I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 25003)",
+   "dogrulama": "RAH API 25003 biyografi metni okundu: 'el cerco de la ciudad... se prolongó... hasta el día 3 de septiembre de 1384'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1385-04-06",
+   "gun": "6 Nisan 1385 — Coimbra (Cortes Mart-Nisan 1385'te toplandı)",
+   "b": "Coimbra Cortes'i Aviz Üstadı João'yu I. João olarak kral ilan etti",
+   "tur": "hukumdar",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "hanedan",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "portekiz",
+   "d": "Coimbra'da toplanan Cortes, hukukçu João das Regras'ın savunusuyla Beatriz ve Kastilya Kralı I. Juan'ın haklarını anlaşma ihlali gerekçesiyle, Pedro'nun öteki oğullarınınkini de gayrimeşruluk gerekçesiyle geçersiz saydı ve Aviz Üstadı João'yu kral seçti. Böylece Aviz hanedanı başladı; ancak ilan, Kastilya ile savaşı ve Kastilya yanlısı soylularla iç çatışmayı da derinleştirdi.",
+   "kaynak": "H. Baquero Moreno, \"Juan I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 25003) — 'Hechos' 1385 iii-iv ve 1385 6/iv",
+   "dogrulama": "RAH API 25003 milestones okundu: '1385 6/iv Es coronado Juan I de Avís como rey de Portugal, en Coimbra' + Cortes kararının gerekçesi",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1386-05-09",
+   "gun": "9 Mayıs 1386 — Windsor",
+   "b": "Windsor Antlaşması — Portekiz-İngiltere ittifakı",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "ittifak",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "ingiltere"
+   ],
+   "d": "Aljubarrota zaferinden sonra I. João ile İngiltere arasında Windsor'da imzalanan antlaşma, Lancaster Dükü'nün Kastilya tahtı iddiasına Portekiz desteğini ve iki krallık arasında kalıcı dostluk ile karşılıklı yardımı öngördü. Antlaşma, yüzyıllar boyunca yenilenecek İngiliz-Portekiz ittifakının temel metni kabul edilir.",
+   "kaynak": "H. Baquero Moreno, \"Juan I de Portugal\", RAH Diccionario Biográfico Español (no. 25003) — 'Hechos' 1386 9/v · M. Vale, \"The Treaty of Windsor (1386) in a European context\" (Oxford, public.mml.ox.ac.uk/files/windsor/1_vale.pdf — yalnız başlık/konum görüldü)",
+   "dogrulama": "RAH API 25003 milestone okundu: '1386 9/v Tratado de Windsor entre Portugal e Inglaterra... fundamento de la sólida amistad'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1387-02-02",
+   "gun": "2 Şubat 1387 — Porto",
+   "b": "I. João, Lancaster'lı Philippa ile Porto'da evlendi",
+   "tur": "hanedan",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "hanedan",
+    "evlilik",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "ingiltere"
+   ],
+   "d": "1 Kasım 1386'da Ponte do Mouro'da Lancaster Dükü ile buluşan I. João, dükün kızı Philippa ile evlenmeyi ve Kastilya seferine katılmayı kabul etti; evlilik 2 Şubat 1387'de Porto'da gerçekleşti. Bu evlilik Windsor ittifakını hanedan bağıyla pekiştirdi; çiftin oğulları arasında Duarte ve Denizci Henrique vardır.",
+   "kaynak": "H. Baquero Moreno, \"Juan I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 25003)",
+   "dogrulama": "RAH API 25003 metni okundu: 'quedando entonces acordada su boda con Filipa de Lancaster, lo que se formalizó en Oporto el 2 de febrero de 1387'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1393-05-15",
+   "gun": "15 Mayıs 1393 — Lizbon",
+   "b": "Lizbon Antlaşması — Kastilya ile on beş yıllık ateşkes",
+   "tur": "antlasma",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "ateskes",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "Kastilya ile Portekiz, Aljubarrota sonrası çatışmaları dondurmak için 15 yıllık bir ateşkes yaptı: ticaret serbest bırakıldı, esirlerin fidyesiz salıverilmesi ve bir hakem kurulu öngörüldü, III. Enrique Sabugal ile Miranda'yı iade etmeyi ve Beatriz'i ya da Inês de Castro'nun oğullarını desteklememeyi üstlendi. Hükümlere tam uyulmadı ve 1396'da çatışma yeniden alevlendi.",
+   "kaynak": "I. Pastor Bodmer, \"Beatriz de Portugal\" ve M. P. Queralt del Hierro, \"Inés de Castro\", RAH Diccionario Biográfico Español (no. 5735, 23964) — 'Hechos' 1393 15/v",
+   "dogrulama": "RAH API 5735/23964 milestones okundu: '1393 15/v Tratado de Lisboa: Castilla y Portugal acuerdan una tregua larga, de quince años'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1411-10-31",
+   "gun": "31 Ekim 1411",
+   "b": "Kastilya ile barış — 1383'ten beri süren savaşlar kapandı",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "baris",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "portekiz",
+    "kastilya"
+   ],
+   "d": "1407'den beri aranan barış, Kastilya'da II. Juan döneminde 31 Ekim 1411'de sağlandı ve 1383'ten beri süren Portekiz-Kastilya savaşlarını fiilen kapattı. Aynı yıl I. João yönetime eşi Philippa ile veliaht Duarte'yi ortak etti; barışın getirdiği rahatlık, soyluları dışarıda iş arayışına yöneltti ve 1415 Sebte seferinin zeminini hazırladı.",
+   "kaynak": "H. Baquero Moreno, \"Juan I de Portugal\", RAH Diccionario Biográfico Español (Historia Hispánica no. 25003)",
+   "dogrulama": "RAH API 25003 metni okundu: 'renovar la paz con Castilla. Ésta no fue alcanzada hasta el 31 de octubre de 1411'. Antlaşmanın yeri (literatürde Ayllón) kaynakta geçmiyor, başlığa yazılmadı",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1369-06-19",
+   "gun": "19 Haziran 1369 — Gent, Saint-Bavon kilisesi",
+   "b": "Cesur Philippe, Flandre vârisi Marguerite ile evlendi",
+   "tur": "hanedan",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "hanedan",
+    "evlilik",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "Burgonya Dükü Cesur Philippe, Flandre Kontu Louis de Male'in tek kızı Marguerite ile Gent'te evlendi. Marguerite Flandre, Nevers, Rethel, Artois ve Burgonya kontluklarının vârisiydi; Fransa Kralı V. Charles, İngiliz bir prensin Flandre'ye yerleşmesini önlemek için papadan dispens engeli çıkartıp bu evliliği sağlamıştı. Evlilik, Valois Burgonya'sını Alçak Ülkeler'e taşıyan büyümenin temelidir.",
+   "kaynak": "Académie des sciences, arts et belles-lettres de Dijon, 'Célébrations de Bourgogne: Mariage de Philippe le Hardi et de Marguerite de Flandre' (dayanağı: B. Schnerb, L'État bourguignon, Perrin 2005, s. 59-87) · BnF Essentiels, 'Mariage de Philippe II le Hardi et Marguerite de Flandre' (yıl)",
+   "dogrulama": "academie-sabl-dijon.org sayfası indirildi: 'Le 19 juin 1369 fut célébré à Gand, en l'église Saint-Bavon, le mariage...'; BnF Essentiels sayfası yıl 1369 ve 1384 mirasını doğruluyor",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1384-01-01",
+   "gun": "Ocak 1384 — kaynak yalnız ay veriyor (Louis de Male'in ölümü); literatürdeki 30 Ocak burada doğrulanamadı, kural gereği yıl başı",
+   "b": "Louis de Male öldü — Flandre ve Artois Burgonya'ya geçti",
+   "tur": "toprak-kazanc",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "miras",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "Flandre Kontu Louis de Male'in ölümüyle Cesur Philippe, eşi Marguerite adına Flandre, Artois, Burgonya Kontluğu (Franche-Comté), Nevers ve Rethel'in efendisi oldu. Flandre'nin zengin şehirleri dükalığın gelirini katladı ve Burgonya'yı Fransa ile İmparatorluk arasında ayrı bir güç hâline getiren 'iki bloklu' devletin kuzey ayağını oluşturdu.",
+   "kaynak": "Académie des sciences, arts et belles-lettres de Dijon, aynı sayfa (dayanağı: B. Schnerb, L'État bourguignon, 2005, s. 59-87) · BnF Essentiels (1384 mirası)",
+   "dogrulama": "academie-sabl-dijon.org okundu: 'Louis de Male mourut en janvier 1384'; BnF Essentiels: 'la fille unique du comte de Flandre dont il hérite en 1384'. data.bnf.fr Louis de Male kaydı yalnız 1330-1384 veriyor",
+   "guven": "orta"
+  },
+  {
+   "t": "1396-01-01",
+   "gun": "Nisan 1396 — TDV yalnız ay veriyor; kural gereği yıl başı",
+   "b": "Niğbolu Haçlı ordusunun Fransız-Burgonya kolu Dijon'da toplandı",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "hacli-seferi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "Macar Kralı Sigismund'un çağrısıyla düzenlenen Haçlı seferinin Fransız kuvvetleri, Burgonya Dükü'nün 24 yaşındaki oğlu Jean de Nevers'in kumandasında Dijon'da toplandı ve Budin'de ana orduya katılmak üzere yola çıktı. Eylül 1396'daki Niğbolu bozgununda Jean de Nevers esir düştü ve ancak fidyesi ödenerek döndü; bu seferin masrafı ve itibarı Burgonya sarayının Osmanlı meselesiyle kalıcı bağının başlangıcı oldu.",
+   "kaynak": "TDV `nigbolu-savasi` ('Fransız kuvvetleri, Nisan 1396'da Dijon'da ... Jean de Nevers kumandanlığında toplandı'; esaret ve fidye) · TDV `nigbolu`",
+   "dogrulama": "ARAC-KRONO-ATLANTIK-A-0929-TDV.py cek/bul nigbolu-savasi (HTTP 200, gövde 23356) okundu. Savaşın kendisi zaten var (olaylar.js 1396-09-25 vd.) — bu madde yalnız Burgonya tarafındaki hazırlığı taşır. devletler.js'te osmanli künyesi yok (çekirdek katman) — yalnız burgonya'ya bağlandı",
+   "guven": "orta"
+  },
+  {
+   "t": "1408-09-23",
+   "gun": "23 Eylül 1408 — Othée",
+   "b": "Othée Savaşı — Korkusuz Jean, Liège milislerini ezdi",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "liege",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "Seçilmiş prens-piskopos Jean de Bavière'e karşı ayaklanan Liège ve Huy şehir milisleri, Burgonya Dükü Korkusuz Jean (Flandre kontu sıfatıyla) ile Hainaut Kontu Guillaume'un desteklediği ordu karşısında Othée'de ağır bir yenilgiye uğradı; 8.000'i aşkın ölü verildi. Ardından Liège'in şehir kurumları kaldırıldı ve Burgonya etkisi prensliğe yerleşti.",
+   "kaynak": "P. Delforge, 'Bataille d'Othée', Connaître la Wallonie — Institut Jules Destrée / Service public de Wallonie (ligne du temps, 23 septembre 1408)",
+   "dogrulama": "connaitrelawallonie.wallonie.be/fr/histoire/timeline/23-septembre-1408-bataille-dothee indirildi, gün ve taraflar okundu. Liège Prens-Piskoposluğu için künye yok (karşı taraf) — kunye_yok işaretlendi",
+   "kunye_yok": true,
+   "guven": "yuksek"
+  },
+  {
+   "t": "1419-09-10",
+   "gun": "10 Eylül 1419 — Montereau köprüsü",
+   "b": "Korkusuz Jean, Montereau'da Veliaht Charles'ın adamlarınca öldürüldü",
+   "tur": "olum",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "olum",
+    "suikast",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "fransa"
+   ],
+   "d": "Burgonya Dükü Korkusuz Jean, veliaht (sonraki VII. Charles) ile uzlaşma görüşmesi için geldiği Montereau köprüsünde veliahtın maiyetince öldürüldü. Cinayet, oğlu İyi Philippe'i İngiltere'nin yanına itti; sekiz ay sonra imzalanan Troyes Antlaşması (21 Mayıs 1420) bu Burgonya-İngiliz yakınlaşmasının ürünüdür.",
+   "kaynak": "P. Bonenfant, Du meurtre de Montereau au traité de Troyes (Bruxelles 1958) — B.-A. Pocquet du Haut-Jussé'nin tanıtımı, Revue belge de philologie et d'histoire 37/2 (1959), s. 478-480 (Persée)",
+   "dogrulama": "persee.fr/doc/rbph_0035-0818_1959_num_37_2_2275_t1_0478_0000_2 indirildi: 'L'assassinat du duc de Bourgogne Jean sans Peur est du 10 septembre 1419, le traité de Troyes fut conclu le 21 mai 1420'. Orléans 1407 ve Troyes 1420 zaten var; Montereau yok",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1430-01-10",
+   "gun": "10 Ocak 1430 (Salı) — Brugge, İyi Philippe'in Portekizli Isabel ile düğünü",
+   "b": "Altın Post Tarikatı (Toison d'or) kuruldu",
+   "tur": "kurulus",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "kurulus",
+    "sovalye-tarikati",
+    "konu-kultur"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "İyi Philippe, Portekiz Kralı I. João'nun kızı Isabel ile Brugge'deki düğününde Altın Post şövalye tarikatını kurdu. Sınırlı sayıda ve Avrupa'nın çeşitli yerlerinden seçilen üyeleriyle tarikat, dağınık Burgonya topraklarının soylularını düke bağlayan bir prestij ve sadakat aracı oldu; Burgonya mirasıyla birlikte daha sonra Habsburglara geçti.",
+   "kaynak": "BnF Essentiels, 'L'ordre de la Toison d'or' ('Fondé à Bruges le 10 janvier 1430') · J. Paviot, \"Du nouveau sur la création de l'ordre de la Toison d'or\", Journal des Savants 2002/2, s. 279-298 (Persée)",
+   "dogrulama": "essentiels.bnf.fr Toison d'or makalesi ve persee.fr/doc/jds_0021-8103_2002_num_2_1_1657 indirildi; ikisi de 10 Ocak 1430, Brugge, Isabel ile düğün diyor",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1433-04-12",
+   "gun": "12 Nisan 1433 — Lahey Antlaşması",
+   "b": "Lahey Antlaşması — Hainaut, Hollanda, Zeeland ve Frizya Burgonya'ya katıldı",
+   "tur": "toprak-kazanc",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "antlasma",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "1428 Delft Antlaşması'yla İyi Philippe'i vâris ve fiilî efendi tanımak zorunda kalan Kontes Jacqueline de Bavière, izinsiz evlenme yasağını bir Zeeland soylusuyla evlenerek çiğneyince Lahey Antlaşması'yla bütün unvanlarını düke bıraktı. Hainaut, Hollanda, Zeeland ve Frizya Burgonya devletine resmen katıldı ve Burgonya Alçak Ülkeler'in büyük kısmına hâkim oldu.",
+   "kaynak": "P. Delforge, 'Fin de la souveraineté du comté de Hainaut', Connaître la Wallonie — Institut Jules Destrée / Service public de Wallonie (ligne du temps, 12 avril 1433)",
+   "dogrulama": "connaitrelawallonie.wallonie.be/fr/histoire/timeline/12-avril-1433-fin-du-comte-de-hainaut indirildi: 'Traité de La Haye, 12 avril 1433'. Delft 1428'in günü (3 Temmuz) yalnız Vikipedi'de görüldü, ayrı madde yazılmadı",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1454-02-17",
+   "gun": "17 Şubat 1454 — Lille",
+   "b": "Sülün Ziyafeti — İyi Philippe İstanbul'un fethine karşı Haçlı yemini etti",
+   "tur": "din",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "din",
+    "hacli-seferi",
+    "konu-dini"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "İstanbul'un 1453'te Osmanlılar tarafından fethinden sonra İyi Philippe, Lille'deki sarayında görkemli bir ziyafet düzenleyerek kendisi ve şövalyeleri adına Haçlı seferine çıkma yemini etti; törenin yankısı için Dijon gibi şehirlere resmî mektuplar gönderildi. Yemin Batı'nın Osmanlı karşısındaki tepkisinin en gösterişli örneklerinden biri oldu, ancak vaat edilen sefer gerçekleşmedi.",
+   "kaynak": "M.-Th. Caron, \"17 février 1454 : le Banquet du Vœu du Faisan, fête de cour et stratégies de pouvoir\", Revue du Nord 78/315 (1996), s. 269-288 (Persée) · M.-Th. Caron – D. Clauzel (ed.), Le Banquet du Faisan. 1454 : l'Occident face au défi de l'Empire ottoman (Artois Presses Université, 1997 — yalnız başlık görüldü) · TDV `mehmed-ii` (1454 Haçlı hazırlıklarının genel bağlamı; Burgonya'yı anmıyor)",
+   "dogrulama": "persee.fr/doc/rnord_0035-2624_1996_num_78_315_5112 indirildi (başlık, tarih, Lille, Dijon'a mektup); TDV mehmed-ii ve haclilar tarandı — Sülün Ziyafeti TDV'de BULUNAMADI. 'Sefer gerçekleşmedi' hükmü Caron makalesinin görülen kısmında değil, genel bilgi; guven orta",
+   "guven": "orta",
+   "odak_kimlik": [
+    "burgonya"
+   ]
+  },
+  {
+   "t": "1468-10-14",
+   "gun": "14 Ekim 1468 — Péronne",
+   "b": "Péronne Antlaşması — XI. Louis, Cesur Charles'ın elinde tavizler verdi",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "diplomasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "fransa"
+   ],
+   "d": "Görüşme için Burgonya'nın elindeki Péronne'a gelen Fransa Kralı XI. Louis, Liège'in Fransız kışkırtmasıyla yeniden ayaklandığı haberi gelince fiilen alıkonuldu ve Cesur Charles'ın lehine ağır hükümler içeren bir antlaşmayı onaylamak zorunda kaldı. Kral ardından dükle birlikte Liège'in cezalandırılmasına katılmak zorunda bırakıldı.",
+   "kaynak": "A. Molinier, Les sources de l'histoire de France, no. 5039 'Traité de Péronne (14 octobre 1468)', Commines, Mémoires (Lenglet du Fresnoy), III, 22-43 (Persée, 1904) · Connaître la Wallonie, 28 octobre 1468 / 3 novembre 1468 kayıtları (Louis XI'in Liège'e girişi)",
+   "dogrulama": "persee.fr/doc/shf_0000-0000_1904_num_5_1_994_t2_0095_0000_4 indirildi (gün); alıkonma ayrıntısı Wallonie kayıtlarında Louis XI'in Charles ile Liège'e girmesiyle teyitli, ayrıntılı anlatı akademik kaynakta açılmadı — guven orta",
+   "guven": "orta"
+  },
+  {
+   "t": "1468-11-03",
+   "gun": "3 Kasım 1468",
+   "b": "Cesur Charles Liège'i yaktırdı",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "liege",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "Ekim sonunda Liègeli ve Franchimontlu isyancıların Charles ile XI. Louis'yi baskınla yakalama girişimi başarısız olunca iki hükümdar şehre girdi; halkın bir kısmı Meuse'e atıldı, surlar yıkıldı ve şehir sistemli biçimde ateşe verildi. Bu, dört yıl içinde Burgonya'ya karşı üçüncü Liège ayaklanmasının kanlı sonu oldu.",
+   "kaynak": "M. Dewez, 'Incendie systématique de la ville de Liège', Connaître la Wallonie — Institut Jules Destrée / Service public de Wallonie (ligne du temps, 3 novembre 1468)",
+   "dogrulama": "connaitrelawallonie.wallonie.be/fr/histoire/timeline/3-novembre-1468-incendie-systematique-de-la-ville-de-liege indirildi. Liège künyesi yok — kunye_yok",
+   "kunye_yok": true,
+   "guven": "yuksek"
+  },
+  {
+   "t": "1469-05-09",
+   "gun": "9 Mayıs 1469 — Saint-Omer",
+   "b": "Saint-Omer Antlaşması — Habsburg Yukarı Alsace'ı Burgonya'ya rehin verdi",
+   "tur": "toprak-kazanc",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "antlasma",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "habsburg"
+   ],
+   "d": "İsviçrelilere karşı müttefik arayan Avusturya Dükü Sigismund, Cesur Charles'ın yardım vaadi karşılığında Alsace ve Yukarı Ren'deki Habsburg topraklarını ona rehin verdi. Burgonya böylece Bern, Solothurn ve Basel'in doğrudan komşusu oldu; rehin topraklardaki sert Burgonya yönetimi Burgonya Savaşları'nın fitilini hazırladı.",
+   "kaynak": "C. Sieber-Lehmann, 'Bourgogne, guerres de', Dictionnaire historique de la Suisse (DHS), 2011 sürümü · F. Hälg-Steffen, 'Charles le Téméraire', DHS 2008",
+   "dogrulama": "hls-dhs-dss.ch/fr/articles/008881/2011-03-17/ indirildi: 'par le traité de Saint-Omer (9 mai 1469)'; 029226 Charles maddesi aynı bağlamı doğruluyor",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1474-10-26",
+   "gun": "26 Ekim 1474 — savaş ilanının Charles'a ulaştığı gün (Neuss kuşatması sırasında)",
+   "b": "İsviçre Konfederasyonu Burgonya'ya savaş ilan etti — Burgonya Savaşları başladı",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "burgonya-savaslari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "isvicre"
+   ],
+   "d": "Habsburg ile 'Ebedî Barış'ı yapan ve Alsace şehirleriyle Aşağı Birlik'e katılan İsviçre kantonlarının savaş ilanı, Cesur Charles'a Köln başpiskoposluğuna bağlı Neuss'u kuşattığı sırada ulaştı. Charles'ın bir yıla yakın Neuss önünde oyalanması Bern ve Fribourg'a Savoya'ya ait Vaud'u istila etme fırsatı verdi ve 1476'daki büyük meydan savaşlarına giden yolu açtı.",
+   "kaynak": "F. Hälg-Steffen, 'Charles le Téméraire', Dictionnaire historique de la Suisse (DHS), 2008 · C. Sieber-Lehmann, 'Bourgogne, guerres de', DHS 2011",
+   "dogrulama": "hls-dhs-dss.ch/fr/articles/029226/2008-08-26/ indirildi: 'La déclaration de guerre des Confédérés parvient à C. le 26 octobre 1474, alors qu'il fait le siège de la ville de Neuss'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1476-03-02",
+   "gun": "2 Mart 1476 — Grandson (Concise yakını)",
+   "b": "Grandson Savaşı — Cesur Charles İsviçrelilere yenildi",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "burgonya-savaslari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "isvicre"
+   ],
+   "d": "Grandson kalesini alıp Bernli garnizonu idam ettiren Charles, yardıma gelen yaklaşık 18.000 kişilik Konfederasyon ordusuyla Concise yakınında karşılaştı; geri çekilme manevrası sırasında Burgonya ordusu paniğe kapılıp dağıldı. Kayıplar az olsa da düke ait zengin ordugâh ganimet olarak İsviçrelilerin eline geçti ve Charles'ın askerî itibarı sarsıldı.",
+   "kaynak": "D. Queloz, 'Grandson, bataille de', Dictionnaire historique de la Suisse (DHS), 2007 sürümü",
+   "dogrulama": "hls-dhs-dss.ch/fr/articles/008883/2007-07-17/ indirildi; gün ve seyir okundu. Veride Grandson yok (1395-1504 penceresi tarandı)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1476-06-22",
+   "gun": "22 Haziran 1476 — Morat (Murten)",
+   "b": "Morat Savaşı — Burgonya ordusu ağır bozguna uğradı",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "burgonya-savaslari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "isvicre"
+   ],
+   "d": "Grandson'ın öcünü almak isteyen Charles, 20.000'i aşkın askerle 9 Haziran'da Morat'ı kuşattı; şehrin Bern-Fribourg garnizonu dayanırken toplanan yaklaşık 24.000 kişilik Konfederasyon ve müttefik ordusu 22 Haziran'da saldırıp Burgonya ordusunu ezdi. Bu yenilgi Burgonya devletinin askerî gücünü büyük ölçüde kırdı ve Charles'ı Lorraine'de son hamlesine itti.",
+   "kaynak": "R. Schmid Keeling, 'Morat, bataille de', Dictionnaire historique de la Suisse (DHS), 2010 sürümü",
+   "dogrulama": "hls-dhs-dss.ch/fr/articles/008884/ indirildi: 'livrée le 22 juin 1476... mit le siège devant Morat le 9 juin'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1477-08-19",
+   "gun": "19 Ağustos 1477",
+   "b": "Burgonyalı Marie, Habsburg Maximilian ile evlendi — mirasın büyük kısmı Habsburglara yöneldi",
+   "tur": "hanedan",
+   "onem": 5,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "hanedan",
+    "evlilik",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "burgonya",
+    "habsburg"
+   ],
+   "d": "Nancy'de ölen Cesur Charles'ın tek vârisi Marie, İmparator III. Friedrich'in oğlu Maximilian ile evlendi; Charles'ın 1473'ten beri pazarlığını yaptığı bu evlilik XI. Louis'nin Burgonya topraklarını ele geçirme girişimine karşı bir kalkan oldu. Evlilik, Alçak Ülkeler dahil Burgonya mirasının büyük kısmını Habsburg hanedanına taşıdı.",
+   "kaynak": "F. Hälg-Steffen, 'Charles le Téméraire', Dictionnaire historique de la Suisse (DHS), 2008 ('Par le mariage entre Maximilien de Habsbourg et Marie de Bourgogne, le 19 août 1477...')",
+   "dogrulama": "hls-dhs-dss.ch/fr/articles/029226/2008-08-26/ indirildi; gün ve sonuç okundu. XI. Louis'ye karşı kalkan yorumu kaynakta açıkça yok — ölçülü yazıldı",
+   "guven": "yuksek"
+  }
+ ],
+ "zaten_var": [
+  {
+   "olay": "Alcañices Antlaşması 1297-09-12",
+   "nerede": "data/kronoloji_sinir_avrupa_bati.js"
+  },
+  {
+   "olay": "Lizbon/Coimbra Üniversitesi (Estudo Geral) 1290-03-01",
+   "nerede": "data/kronoloji_portekiz.js (not: RAH papalık onay bullasını 9 Ağustos 1290 verir; mevcut 1 Mart tarihi kral fermanıdır, çelişki değil)"
+  },
+  {
+   "olay": "Río Salado 1340-10-30 (Portekiz katılımı metinde anılıyor; RAH: IV. Afonso 1000 mızrakla 20 Ekim'de XI. Alfonso'ya katıldı)",
+   "nerede": "data/kronoloji_ispanya.js · kronoloji_kuzeyafrika.js · künye:granada · künye:kastilya · künye:merini"
+  },
+  {
+   "olay": "Andeiro cinayeti / Aviz Üstadı'nın naipliği 1383-12-06 (16 Aralık 'defensor e regedor' unvanı bu maddenin içinde)",
+   "nerede": "data/kronoloji_portekiz.js"
+  },
+  {
+   "olay": "Aljubarrota 1385-08-14 (Portekiz tarafı var)",
+   "nerede": "data/kronoloji_portekiz.js · data/kronoloji_ispanya.js"
+  },
+  {
+   "olay": "Sebte'nin alınışı 1415-08-21 (RAH: şehir 21 Ağustos'ta aynı gün teslim oldu; TDV `sebte` yalnız yıl 818/1415)",
+   "nerede": "data/kronoloji_portekiz.js · kronoloji_kuzeyafrika.js (1415-01-01) · künye:merini (1415-01-01)"
+  },
+  {
+   "olay": "Cesur Philippe'in dükalığı alması 1363",
+   "nerede": "künye:burgonya (1363-01-01)"
+  },
+  {
+   "olay": "Niğbolu Savaşı 1396-09-25 (savaşın kendisi)",
+   "nerede": "olaylar.js · savaslar.js · kronoloji_balkan/bizans/macaristan/italya_sehir/rodos/cok_romanya · künye:macaristan/papalik/bulgar-carligi"
+  },
+  {
+   "olay": "Orléans Dükü'nün öldürülmesi 1407-11-23",
+   "nerede": "data/kronoloji_fransa.js"
+  },
+  {
+   "olay": "Troyes Antlaşması 1420-05-21",
+   "nerede": "data/kronoloji_fransa.js · kronoloji_ingiltere.js"
+  },
+  {
+   "olay": "Arras Antlaşması 1435-09-21",
+   "nerede": "data/kronoloji_fransa.js"
+  },
+  {
+   "olay": "Nancy Savaşı 1477-01-05",
+   "nerede": "künye:burgonya · data/kronoloji_fransa.js"
+  },
+  {
+   "olay": "Arras Antlaşması 1482-12-23 (Burgonya mirasının paylaşımı)",
+   "nerede": "data/kronoloji_sinir_avrupa_bati.js"
+  }
+ ],
+ "bulunamadi": [
+  "Portekiz-İngiltere 1308 ticaret antlaşması: yalnız yıl (parlamento.pt), gün yok — yazılmadı",
+  "Manuel Pessanha'nın amiral tayini (1317): akademik kaynakta gün açılmadı",
+  "Cantanhede beyanı (Haziran 1360): yalnız ay (RAH) — ayrı madde yazılmadı, 1357 maddesinde anıldı",
+  "Sesmarias Kanunu (1375): RAH yalnız adını veriyor, tarih yok — yazılmadı",
+  "Valverde Savaşı (Ekim 1385): açılan kaynaklarda bulunamadı",
+  "1383 Aralık Aviz Üstadı'nın 'defensor' unvanı (16 Aralık): mevcut 1383-12-06 maddesiyle örtüştüğü için yazılmadı",
+  "Cesur Philippe'in 1363 bağışı/1364 yatırımının günü: künyede yıl var, gün kaynağı açılmadı",
+  "Delft Antlaşması (3 Temmuz 1428): gün yalnız Vikipedi'de görüldü — onun yerine 12 Nisan 1433 Lahey Antlaşması yazıldı",
+  "Cesur Philippe'in ölümü (1404), İyi Philippe'in ölümü (1467), Charles-York'lu Margaret evliliği (1468), Büyük İmtiyaz (1477-02-11): bu turda akademik gün kaynağı açılmadı",
+  "Sülün Ziyafeti: TDV'de bulunamadı (`mehmed-ii`, `haclilar` tarandı; `hacli-seferleri` ölü slug 302)"
+ ],
+ "koordinatore_not": [
+  "künye:burgonya son kaydı `{t:\"1482-03-27\", b:\"Arras Antlaşması ile miras ... bölündü\"}` TARİH-OLAY UYUŞMAZLIĞI taşıyor: 27 Mart 1482 Burgonyalı Marie'nin ölüm günüdür (Wikipedia/esWiki, doğrulanmadı), Arras Antlaşması 23 Aralık 1482'dir (kronoloji_sinir_avrupa_bati.js zaten öyle yazıyor). Künyenin `t` bitişi Marie'nin ölümüyse kaydın başlığı düzeltilmeli; Arras 1482-12-23 künye penceresinin DIŞINDA kalıyor. Dosya sahibinin kararı.",
+  "RAH iç çelişkileri gun alanında bildirildi: Dinis ölümü 6/7 Ocak 1325; Alcoutim 3/31 Mart 1371; Santarém 1372-03-19/1373-03-24; Elvas 9/10 Ağustos 1382; Beatriz nikâhı 30 Nisan (vekâleten, Fernando maddesi) / 17 Mayıs 1383 (Badajoz, Beatriz maddesi)",
+  "devletler.js içinde osmanli künyesi yok (Osmanlı çekirdek katman); Niğbolu hazırlığı (1396) ve Sülün Ziyafeti (1454) yalnız burgonya'ya bağlandı — Osmanlı kronolojisine de bağlanıp bağlanmayacağı koordinatörün kararı"
+ ]
+}

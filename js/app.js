@@ -6074,16 +6074,23 @@ function seferGuncelle(t) {
     // düşer. Sayı uydurulmuyor, KRONOLOJİDEN türüyor:
     //     _fiKirpik : çapadan ÖNCEKİ olay       (baş — 23 Ağustos)
     //     _tiKirpik : `t`den SONRAKİ ilk olay   (son — 24 Ağustos)
-    // Sonraki olay yoksa (külliyatın sonu) `m.ti` olduğu gibi kalır.
+    // Sonraki olay yoksa (külliyatın sonu) ok yine `t` gününün sonunda düşer.
+    // 🔴 9 Ekim 2026 — Emre kararı "A" (SEFER-PENCERE-1009, paket 0085 Kefe 1454):
+    // ok `t` GÜNÜNÜN SONUNDA düşer (`m.ti + 1`). 24 Ağustos'un amacı ("ok kendi
+    // maddesinde görünsün") korunuyor; değişen yalnız "Zaman akışı" kipi: ok artık
+    // t'den sonraki maddeye kadar (ortanca +36 gün, en çok +943) sürüklenmiyor.
+    // ÖLÇÜLDÜ: 131 okun hiçbirinde t ile sonraki madde arasında panel maddesi yok ⇒
+    // "Olay olay" kipinde görünürlük madde madde AYNI. `sonraki` her zaman > t
+    // olduğundan `Math.min` fiilen `m.ti + 1` verir; döngü iz için kaldı.
     if (m._tiKirpik === undefined) {
-      m._tiKirpik = m.ti;
+      m._tiKirpik = m.ti + 1;
       try {
         var sonraki = Infinity;
         for (var si = 0; si < olaylar.length; si++) {
           if (olaylar[si].gi > m.ti && olaylar[si].gi < sonraki)
             sonraki = olaylar[si].gi;
         }
-        if (isFinite(sonraki)) m._tiKirpik = sonraki;
+        if (isFinite(sonraki)) m._tiKirpik = Math.min(sonraki, m.ti + 1);
       } catch (e2) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
     }
     // Kademeli ok kendi ilk kademesinden (= `f`) itibaren görünür: "çapadan önceki

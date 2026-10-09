@@ -1,0 +1,408 @@
+{
+ "maddeler": [
+  {
+   "t": "1443-11-22",
+   "gun": "21/22 Kasım 1443 gecesi (şehir baskınla alındı); ay kesin (Yante: 'Kasım 1443'), gün kronik geleneğinden — akademik kaynakta açılıp görülemedi. Kale (Bock) garnizonu 11 Aralık 1443'te teslim oldu (doğrulanamadı).",
+   "b": "Burgonya'nın Lüksemburg'u ele geçirmesi — III. Philippe (İyi) dükalığa el koydu",
+   "tur": "toprak-kazanc",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "burgonya-genislemesi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "burgonya",
+   "d": "Borç içindeki Görlitzli Elisabeth'ten 1441'de Lüksemburg üzerindeki hakları devralan Burgonya dükü İyi Philippe, Saksonya dükü Wilhelm'i destekleyen muhalefete karşı Ağustos 1443'te dükalığa girdi. Kasım 1443'te Lüksemburg şehri bir gece baskınıyla düştü; Saksonyalı kale garnizonu kısa süre sonra teslim oldu. Böylece Arlon, Bastogne, Neufchâteau, Virton, Wiltz ve St. Vith (Sankt Vith) dahil bütün dükalık Burgonya'nın Aşağı Ülkeler bileşimine katıldı ve 1482'ye dek bu çatı altında kaldı.",
+   "kaynak": "J.-M. Yante, 'Les receveurs princiers dans le Luxembourg (1443-1506)', Comptabilités (OpenEdition) — 'La forteresse tombe en novembre 1443' · P. Delforge, 'Août 1443 — le duché de Luxembourg envahi par Philippe le Bon', Connaître la Wallonie (Institut Destrée) — 4 Ekim 1441 hak alımı, Ağustos 1443 istila, Arlon ve Lüksemburg'un alınışı · Lüksemburg SIP, 'À propos… Histoire' (hükûmet broşürü) — 1443 fethi. Gün (21/22 Kasım): R. Vaughan, Philip the Good (1970) — AÇILAMADI (archive.org ödünç kısıtlı).",
+   "dogrulama": "journals.openedition.org/comptabilites/2226 (Yante: ay) · connaitrelawallonie.wallonie.be …/aout-1443-le-duche-de-luxembourg-envahi-par-philippe-le-bon · sip.gouvernement.lu a-propos-histoire-fr.pdf (1443 yıl) · vdl.lu ve m3e.public.lu yalnız yıl. Gün yalnız Vikipedi/ikincil sayfalarda görüldü — bu yüzden güven ORTA.",
+   "guven": "orta"
+  },
+  {
+   "t": "1451-06-30",
+   "gun": "30 Haziran 1451 (Fransız ordusunun şehre girişi); teslim antlaşması 12 Haziran 1451'de imzalanmış, İngiliz yardımı gelmezse teslim şartına bağlanmıştı.",
+   "b": "Bordeaux'nun Fransa'ya teslimi — Dunois Gaskonya başkentine girdi",
+   "tur": "fetih",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "fetih",
+    "yuz-yil-savaslari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "fransa",
+    "ingiltere"
+   ],
+   "d": "VII. Charles'ın komutanı Dunois 1451 baharında Gaskonya'ya girdi ve kaleleri birer birer düşürdü. Bordeaux şehri ve Gaskon soyluları 12 Haziran'da, İngiltere'den yardım gelmezse şehri teslim edeceklerini öngören bir antlaşma imzaladı; yardım gelmeyince Fransız kuvvetleri 30 Haziran 1451'de Bordo'ya (Bordeaux) girdi. Üç yüz yıllık İngiliz Gaskonya'sı böylece fiilen sona erdi; ancak şehir Ekim 1452'de Talbot'a yeniden açılacaktı.",
+   "kaynak": "A. Curry, 'The Gascon Rolls and the end of English Gascony 1451-1453', Gascon Rolls Project (gasconrolls.org) — Bordeaux 30 Haziran 1451'de VII. Charles'a düştü · 12 Haziran antlaşması: M. G. A. Vale, English Gascony 1399-1453 (1970) — AÇILMADI, gün yalnız ikincil sayfalarda görüldü.",
+   "dogrulama": "gasconrolls.org/en/blog/the-gascon-rolls-and-the-end-of-english-gascony-1451-1453/ açıldı (30 Haziran 1451; 23 Ekim 1452; 19 Ekim 1453). 12 Haziran için Vale açılamadı.",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1798-10-23",
+   "gun": "23 Ekim 1798 (Nikopolis muharebesi ve Preveze'nin düşüşü); Butrint 25 Ekim'de, Vonitsa kısa süre sonra düştü. TDV gün vermiyor.",
+   "b": "Fransa'nın Epir kıyısındaki eski Venedik mülklerini Tepedelenli Ali Paşa'ya kaybetmesi — Nikopolis yenilgisi",
+   "tur": "toprak-kayip",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "fransiz-osmanli-savasi-1798",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Campo Formio (1797) ile Venedik'in İyon adaları ve karşı kıyıdaki Preveze, Butrint (Butrinto), Vonitsa ve Parga Fransa'ya geçmişti. Bonapart'ın Mısır'a çıkması üzerine Osmanlı Fransa'ya savaş açınca Yanya valisi Tepedelenli Ali Paşa bu kıyı noktalarına yüklendi: 23 Ekim 1798'de Preveze önündeki Nikopolis harabelerinde küçük Fransız birliğini ezdi ve şehri aldı; Butrint'teki Fransızlar tahkimatı havaya uçurup Korfu'ya çekildi, Vonitsa da teslim oldu. Fransa'nın Epir anakarasındaki varlığı Parga dışında sona erdi.",
+   "kaynak": "TDV 'tepedelenli-ali-pasa' (Nevâhî-i Erbaa: Preveze, Butrinto, Voniçe, Parga; Butrinto'nun zaptı — TDV Preveze/Voniçe'nin alınışını yanlışlıkla 1806-1812 savaşlarına bağlıyor, gün vermiyor) · J. S. Curlin, 'Remember the Moment when Previsa fell: The 1798 Battle of Nicopolis and Preveza', Preveza B (2010), s. 266-267 — 23 Ekim 1798 · N. Moschonas, Istoria tou Ellinikou Ethnous XI (1975), s. 388-389 · K. E. Fleming, The Muslim Bonaparte (1999), s. 70-73, 97-101.",
+   "dogrulama": "TDV tepedelenli-ali-pasa gövdesi okundu (bul). Curlin/Moschonas/Fleming künyeleri Vikipedi dipnotlarından bulundu, metinleri AÇILAMADI (academia.edu 403). TDV preveze/butrint/parga 302 (ölü); yanya ve narda gün vermiyor.",
+   "guven": "orta",
+   "ikiz_cekirdek": "olaylar_ek5.js"
+  },
+  {
+   "t": "1809-10-14",
+   "gun": "14 Ekim 1809 (Schönbrunn Antlaşması ve aynı gün İlirya Eyaletleri'ni kuran imparatorluk dekreti). Istarska enciklopedija Schönbrunn'u bir yerde 18.X.1809 diye verir — kaynak kendi içinde çelişiyor; HE 'schonbrunnski-mir' ve IE '2444' 14.X.1809.",
+   "b": "Schönbrunn Barışı ve İlirya Eyaletleri'nin kuruluşu — Fransa Adriyatik'in kuzey kıyısını aldı",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "ilirya-eyaletleri",
+    "konu-diplomasi"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Wagram yenilgisinden sonra Avusturya 14 Ekim 1809'da Schönbrunn'da imzalanan barışla batı Karintiya'yı, Gorizia'yı, Trieste'yi, Ljubljana merkezli Krayna'yı ve Sava'nın güneyindeki sivil ve askerî Hırvatistan'ı (Sisak, Karlovac, Kostayniçe, Gospić, Udbina, Cetin/Cetingrad, Drežnik) Fransa'ya bıraktı. Napolyon aynı gün bu toprakları, İtalya Krallığı'ndan ayırdığı eski Venedik Dalmaçyası ve İstriyası (Krk, Cres, Rab gibi Kvarner adaları dahil) ile Dubrovnik ve Kotor'la birleştirerek Ljubljana merkezli İlirya Eyaletleri'ni kurdu. Avusturya böylece denize çıkışını yitirdi; eyaletler 1813'e dek Fransız idaresinde kaldı.",
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'schonbrunnski-mir' — '…u dvorcu Schönbrunnu 14. X. 1809.' · HE 'ilirske-pokrajine' — Schönbrunn'la alınan topraklar + 'prijašnje francuske posjede na Jadranu: Dubrovnik, bivšu mletačku Dalmaciju i mletačku Istru' · Istarska enciklopedija 'ilirske-pokrajine' (N. Šetić, M. Manin) — 'u listopadu 1809. udružio u Ilirske pokrajine' · HE 'krk' — 1806 İtalya Krallığı, 1809 İlirya · T. Gouin, Cahiers d'histoire des douanes 46 (2011) — 14 Ekim 1809.",
+   "dogrulama": "enciklopedija.hr/clanak/schonbrunnski-mir · /ilirske-pokrajine · /krk · /cres · /rab ve istra.lzmk.hr/clanak/ilirske-pokrajine · /2444 curl ile açılıp okundu; histoire-de-la-douane.org (Gouin) açıldı. Dekretin Kvarner adalarını ADIYLA sayan metni görülmedi — adalar 'eski Venedik Dalmaçyası' içinden çıkarım (Krk 1822'ye dek Dalmaçya'ya bağlıydı, HE krk).",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1833-07-28",
+   "gun": "28 Temmuz 1833 (TDV 'musteganim' açıkça verir). Şehir ve çevresinin tam işgali 8 Aralık 1834.",
+   "b": "Fransızların Mostaganem'e (Müstegānim) girişi",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "isgal",
+    "cezayir-isgali",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Vehrân'daki Fransız garnizonundan yardım isteyen Hadarî kesimle Kuloğlu (Kergalî) kesim arasındaki çekişme, Fransızlara batı Cezayir kıyısında yeni bir kapı açtı. General Desmichels 28 Temmuz 1833'te Mustagānim (Müstegānim) kapısına dayandı; şehrin Türk beyi İbrâhim onunla anlaşarak görevinde kaldı ve yaklaşık 3000 nüfuslu liman Fransız işgaline girdi. Emîr Abdülkādir'in şehre yönelik saldırısı püskürtüldü; çevre araziyle birlikte tam denetim 8 Aralık 1834'te sağlandı.",
+   "kaynak": "TDV 'musteganim' — '28 Temmuz 1833'te Müstegānim'in Türk beyi İbrâhim … Desmichels'in yanına gitti' · ANOM geo 'Mostaganem' (commissariat civil 30 Mayıs 1841).",
+   "dogrulama": "TDV musteganim (200) çekildi, bul ile gövde okundu; ANOM anom.archivesnationales.culture.gouv.fr/geo.php?lieu=Mostaganem+(Algérie) açıldı.",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1839-05-13",
+   "gun": "13 Mayıs 1839 (ANOM).",
+   "b": "Fransızların Cicel'i (Djidjelli/Jijel) işgali",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "isgal",
+    "cezayir-isgali",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Konstantin'in 1837'de düşmesinden sonra Fransızlar doğu Cezayir kıyısındaki limanları tek tek tutmaya yöneldi. Albay de Salle komutasındaki deniz seferi 13 Mayıs 1839'da Cicel'i (Djidjelli, bugünkü Jijel) işgal etti; şehre Yabancı Lejyon'dan bir garnizon yerleştirildi. Küçük Kabiliye'nin denize açılan bu kapısı uzun süre çevresindeki kabilelerin kuşatması altında kaldı; sivil idare ancak 1858'de kuruldu.",
+   "kaynak": "ANOM (Archives nationales d'outre-mer), coğrafî dizin 'Djidjelli (Algérie)' — 'Ville occupée par le colonel de Salle le 13 mai 1839' · TDV'de müstakil madde YOK (cicel, cicelli 302); TDV 'cezayir' yalnız 1524 Cicelli'yi anar.",
+   "dogrulama": "anom.archivesnationales.culture.gouv.fr/geo.php?lieu=Djidjelli+(Alg%C3%A9rie) curl ile okundu; TDV cezayir 'Cicel|1839' taraması 1839 günü vermedi.",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1844-03-04",
+   "gun": "4 Mart 1844 (ANOM). Batna askerî kampı 12 Şubat 1844'te kurulmuştu.",
+   "b": "Aumale Dükü'nün Biskra'yı işgali — Fransa Sahra eşiğinde",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "isgal",
+    "cezayir-isgali",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Konstantin eyaletinin güneyini denetim altına almakla görevli Aumale Dükü, 12 Şubat 1844'te Aurès eteklerinde Batna askerî kampını kurduktan sonra güneye inerek 4 Mart 1844'te Zibân vahalarının merkezi Biskra'yı işgal etti. Abdülkādir'in halifesinin çekildiği şehir, Fransız ordusunun Sahra'ya açılan ilk kalıcı üssü oldu; yerli şehrin yanında bir Fransız mahallesi gelişti.",
+   "kaynak": "ANOM coğrafî dizin 'Biskra (Algérie)' — 'La ville arabe est occupée par le duc d'Aumale le 4 mars 1844' · ANOM 'Batna (Algérie)' — 'Un camp militaire est fondé par le duc d'Aumale le 12 février 1844' · TDV'de Biskra maddesi yok (biskra 302); TDV 'cezayir' gün vermez.",
+   "dogrulama": "ANOM geo Biskra ve Batna sayfaları okundu.",
+   "guven": "yuksek",
+   "ikiz_cekirdek": "olaylar_ek6.js"
+  },
+  {
+   "t": "1852-12-04",
+   "gun": "4 Aralık 1852 (hücum günü; kuşatma 21 Kasım'da başladı). ANOM yalnız yılı verir; gün Paris Belediye Meclisi 2023 anma kararı ve Algérie Poste pulunda — akademik eserde açılıp görülmedi.",
+   "b": "Pélissier'in Laghouat'ı (Ağvât) basması",
+   "tur": "fetih",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "fetih",
+    "cezayir-isgali",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Varglalı şerif Muhammed b. Abdullah çevresinde toplanan direniş üzerine General Pélissier altı bin kişilik kuvvetle 21 Kasım 1852'de Ağvât'ı (Laghouat) kuşattı. 4 Aralık'taki hücumla şehir alındı ve ardından halka karşı ağır bir kıyım yaşandı. Ağvât ertesi yıl Fransız askerî 'cercle' merkezi yapıldı; Tell ile Sahra arasındaki geçiş Fransız eline geçti.",
+   "kaynak": "ANOM coğrafî dizin 'Laghouat (Algérie)' — 'Ville indigène prise par les Français en 1852, chef-lieu du cercle créé l'année suivante' · gün: Conseil de Paris, anma kararı gerekçesi (2023) ve Algérie Poste 'Génocide de Laghouat 04 Décembre 1852' — kurumsal, akademik değil · TDV 'mizab' Ağvât'ı Osmanlı dönemi vergisiyle anar, 1852 günü vermez.",
+   "dogrulama": "ANOM Laghouat sayfası okundu (yıl). Gün arama özetinden (paris.fr PDF, poste.dz) — PDF'ler açılmadı. Güven ORTA.",
+   "guven": "orta",
+   "ikiz_cekirdek": "olaylar_ek9.js"
+  },
+  {
+   "t": "1860-06-14",
+   "gun": "14 Haziran 1860 (Savoya'nın Chambéry'de, Nice kontluğunun Nice'te resmen teslimi). Torino Antlaşması 24 Mart; plebisitler Nice 15-16 Nisan, Savoya 22-23 Nisan 1860.",
+   "b": "Savoya ve Nice'in resmen Fransa'ya teslimi",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "torino-antlasmasi",
+    "konu-diplomasi"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Torino Antlaşması'nın (24 Mart 1860) halkın onayına bağladığı devir, Nisan plebisitlerinde ezici çoğunlukla kabul edildi. 14 Haziran 1860'ta Sardinya ve Fransa komiserleri Chambéry şatosunda Savoya eyaletinin teslim tutanağını imzaladı; Nice'te de aynı gün Sardinya bayrağı indirilip Fransız bayrağı çekildi. Annemasse, Thonon ve Bourg-Saint-Maurice dahil bütün Savoya ile Nice kontluğu İkinci İmparatorluğa katıldı; ertesi gün Savoie ve Haute-Savoie departmanları, 23 Haziran'da Alpes-Maritimes kuruldu.",
+   "kaynak": "Archives départementales de la Savoie envanteri BC 1574 (14 Haziran teslim tutanağı ve komiserler sözleşmesi — arama özetinde görüldü) · Département des Alpes-Maritimes / AD06, '1860, la réunion du comté de Nice à la France' (14 Haziran öğlen teslim; 23 Haziran 1860 kanunu) · akademik dayanak önerisi: P. Guichonnet, Histoire de l'annexion de la Savoie à la France (1982) — AÇILMADI.",
+   "dogrulama": "patrimoines.savoie.fr ve departement06.fr sayfaları açıldı ama tarih metni yüklenmedi (JS/IP kısıtı); 14 Haziran yalnız arama özetlerinde kurumsal kaynaklara atıfla görüldü. Güven ORTA.",
+   "guven": "orta"
+  },
+  {
+   "t": "1918-10-07",
+   "gun": "7 Ekim 1918 (TDV 'beyrut': Fransız kuvvetlerinin bölgeyi işgali). Bazı kaynaklar Fransız birliklerinin karaya çıkışını 8 Ekim verir. Trablusşam 'Ekim 1918' (TDV, gün yok).",
+   "b": "Fransız kuvvetlerinin Beyrut'a çıkması — Lübnan kıyısında Fransız idaresinin başlangıcı",
+   "tur": "isgal",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "isgal",
+    "birinci-dunya-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "fransa-cumhuriyet",
+   "d": "Osmanlı kuvvetlerinin Suriye'den çekilmesiyle, 30 Eylül 1918 İngiliz-Fransız modus vivendi'sine dayanarak Fransız deniz ve kara birlikleri 7 Ekim 1918'de Beyrut'u işgal etti. Kıyı şeridi — Beyrut, Sayda, Sûr ve Ekim ayı içinde Trablusşam — ile Cebel-i Lübnan (Deyrülkamer) 23 Ekim'de kurulan İşgal Altındaki Düşman Toprakları Batı Bölgesi (OETA West) adıyla Fransız askerî idaresine bırakıldı. Bu, 1920 San Remo kararıyla gelecek Fransız mandasının ve Büyük Lübnan'ın zeminini hazırladı.",
+   "kaynak": "TDV 'beyrut' — '7 Ekim 1918'de Fransız kuvvetlerinin bölgeyi işgal etmelerine kadar' · TDV 'trablussam' — 'Trablusşam 1918 Ekiminde Fransızlar tarafından işgal edildi' · TDV 'sayda' — 'Ekim 1918 başında İngilizler tarafından işgal edildi' (Sayda'yı ilk alan İngilizler) · OETA West'in 23 Ekim 1918 kuruluşu: arama özetinde görüldü, akademik metin açılmadı.",
+   "dogrulama": "TDV beyrut, trablussam, sayda cek+bul ile gövdeden okundu. OETA günü doğrulanmadı.",
+   "guven": "orta"
+  }
+ ],
+ "zaten_var": [
+  {
+   "olay": "Bordeaux'nun İngiltere tarafından geri alınışı (Talbot) 1452-10-23",
+   "nerede": "data/olaylar_ek16.js:413 (kapsam dis, devlet alanı yok)"
+  },
+  {
+   "olay": "Bordeaux'nun Fransa'ya kalıcı dönüşü 1453-10-19",
+   "nerede": "data/olaylar_ek16.js:421 (kapsam dis, devlet alanı yok)"
+  },
+  {
+   "olay": "Preveze'nin Fransızlardan alınışı — Nikopolis 1798-10-23 (OSMANLI tarafından)",
+   "nerede": "data/olaylar_ek5.js:556 + data/savaslar.js:156 — Fransız tarafı maddesi YOKTU, taslak yazıldı"
+  },
+  {
+   "olay": "Biskra'nın işgali 1844-03-04 (Osmanlı tarafından)",
+   "nerede": "data/olaylar_ek6.js:115 — Fransız tarafı taslak yazıldı"
+  },
+  {
+   "olay": "Ağvât'ın düşüşü 1852-12-04 (Osmanlı tarafından)",
+   "nerede": "data/olaylar_ek9.js:79 — Fransız tarafı taslak yazıldı"
+  },
+  {
+   "olay": "Mîzâb vahalarının (Gardâye) ilhakı 1882",
+   "nerede": "data/olaylar_ek9.js:85 (t:1882-01-01)"
+  },
+  {
+   "olay": "Torino Antlaşması 1860-03-24",
+   "nerede": "data/kronoloji_italya.js"
+  },
+  {
+   "olay": "Kvarner adalarının İtalya Krallığı'na geçişi 1806 / İlirya'nın sonu 1813",
+   "nerede": "data/olaylar_ilirya_0072.js (1806-01-01, 1813-01-01) — 1809 İlirya kuruluşu maddesi YOK, taslak yazıldı"
+  },
+  {
+   "olay": "Schönbrunn — Batı Galiçya kısmı 1809-10-14",
+   "nerede": "künye:varsova-dukaligi + kronoloji_sinir_avrupa_orta.js (yalnız Galiçya; Adriyatik yerleşimlerini anmıyor)"
+  }
+ ],
+ "yerlesim_onerisi": [
+  {
+   "yer": "Butrint (Butrinto)",
+   "harita_gunu": "1798-10-23",
+   "dogru_gun": "1798-10-25",
+   "kaynak": "Moschonas 1975 s.389; Fleming 1999 s.70-73 (Vikipedi dipnotundan; metin açılmadı) — kuşatma 18-25 Ekim 1798. TDV gün vermiyor. Güven orta."
+  },
+  {
+   "yer": "Vonitsa",
+   "harita_gunu": "1798-10-23",
+   "dogru_gun": "ölçülemedi (Preveze'den 'kısa süre sonra', Ekim sonu 1798)",
+   "kaynak": "Moschonas 1975 s.389 (ikincil atıf) — değiştirmeye gerek yok, ±30 gün içinde."
+  },
+  {
+   "yer": "Krk (Veglia)",
+   "harita_gunu": "1809-01-01",
+   "dogru_gun": "1809-10-14",
+   "kaynak": "HE 'schonbrunnski-mir' (14.X.1809) + HE 'ilirske-pokrajine' (eski Venedik Dalmaçyası ve İstriyası İlirya'ya katıldı) + HE 'krk' ('1809. u sastav Ilirskih pokrajina'; Krk 1822'ye dek Dalmaçya'ya bağlı) + Gouin 2011 (dekret Schönbrunn günü). Adaları adıyla sayan dekret metni görülmedi."
+  },
+  {
+   "yer": "Cres (Cherso)",
+   "harita_gunu": "1809-01-01",
+   "dogru_gun": "1809-10-14",
+   "kaynak": "Krk ile aynı gerekçe. HE 'cres' 'francuska (1805–14)' diyerek İtalya Krallığı/İlirya ayrımını yapmıyor — kaynak çelişkisi olaylar_ilirya_0072.js başlığında zaten beyanlı."
+  },
+  {
+   "yer": "Rab (Arbe)",
+   "harita_gunu": "1809-01-01",
+   "dogru_gun": "1809-10-14",
+   "kaynak": "Krk ile aynı gerekçe. HE 'rab' '1805. bio priključen … Ilirskim pokrajinama' — anakronik (eyaletler 1809)."
+  },
+  {
+   "yer": "Batna",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "1844-02-12",
+   "kaynak": "ANOM geo 'Batna (Algérie)': 'Un camp militaire est fondé par le duc d'Aumale le 12 février 1844'"
+  },
+  {
+   "yer": "Dellîs",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "1844 (yıl; gün doğrulanamadı — yaygın anlatı Mayıs 1844)",
+   "kaynak": "ANOM geo 'Dellys (Algérie)': 'occupée par les Français en 1844'"
+  },
+  {
+   "yer": "Bû Sa'âde",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "1849 (yıl)",
+   "kaynak": "ANOM geo 'Bou Saâda (Algérie)': 'Poste militaire établi en 1849 dans la ville indigène'"
+  },
+  {
+   "yer": "Mesîle",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "ölçülemedi — ANOM ilk Fransız varlığı olarak 1870'lerde askerî karakol anar",
+   "kaynak": "ANOM geo \"M'Sila (Algérie)\": 'Poste militaire dans les années 1870'; TDV 'mesile' işgal günü vermez"
+  },
+  {
+   "yer": "Ayn Temûşent",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "ölçülemedi (işgal); sömürge merkezi 1851-12-26 dekretiyle",
+   "kaynak": "ANOM geo 'Aïn Témouchent (Algérie)': 'Centre de population créé par décret du 26 décembre 1851'"
+  },
+  {
+   "yer": "Sûk Ahrâs",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "1852 (yıl; askerî karakol)",
+   "kaynak": "ANOM geo 'Souk Ahras (Algérie)': 'poste militaire établi en 1852'"
+  },
+  {
+   "yer": "Tebesse",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "1851 (yıl; Saint-Arnaud)",
+   "kaynak": "ANOM geo 'Tébessa (Algérie)': 'occupée par le général de Saint-Arnaud en 1851'"
+  },
+  {
+   "yer": "Hanşele (Khenchela)",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "ölçülemedi — ANOM yalnız 1874 merkez / 1876 kararı verir",
+   "kaynak": "ANOM geo 'Khenchela (Algérie)'"
+  },
+  {
+   "yer": "Aynı Beydâ",
+   "harita_gunu": "1844-03-04",
+   "dogru_gun": "ölçülemedi — ANOM yalnız 1865 merkez kuruluşunu verir",
+   "kaynak": "ANOM geo 'Aïn Beïda (Algérie)'"
+  },
+  {
+   "yer": "Gardâye",
+   "harita_gunu": "1852-12-04",
+   "dogru_gun": "1882 (yıl; Kasım 1882 ilhakı olaylar_ek9.js'te 1882-01-01 maddesiyle zaten var)",
+   "kaynak": "ANOM geo 'Ghardaïa (Algérie)': 'chef-lieu du cercle créé en 1882' · TDV 'mizab': 1882 isyanı; TDV 1853 himaye sözleşmesini ANMIYOR (bul '1853' boş). 1852-1882 arası vergi bağımlılığı (v: tâbi) olarak modellenebilir."
+  },
+  {
+   "yer": "Cilfe (Djelfa)",
+   "harita_gunu": "1852-12-04",
+   "dogru_gun": "ölçülemedi — ANOM askerî kampı 1854'te var sayar",
+   "kaynak": "ANOM geo 'Djelfa (Algérie)': 'camp militaire de Djelfa dès 1854'"
+  },
+  {
+   "yer": "Beyrut",
+   "harita_gunu": "1918-10-08",
+   "dogru_gun": "1918-10-07",
+   "kaynak": "TDV 'beyrut': '7 Ekim 1918'de Fransız kuvvetlerinin bölgeyi işgal etmelerine kadar'"
+  },
+  {
+   "yer": "Sayda",
+   "harita_gunu": "1918-10-06 (fransa-cumhuriyet)",
+   "dogru_gun": "Ekim 1918 başı İNGİLİZ işgali; Fransız idaresi OETA West ile (23 Ekim 1918, doğrulanmadı) — ilk haftalarda sahip 'ingiltere' olmalı",
+   "kaynak": "TDV 'sayda': 'Ekim 1918 başında İngilizler tarafından işgal edildi'"
+  },
+  {
+   "yer": "Trablusşam",
+   "harita_gunu": "1918-10-13",
+   "dogru_gun": "Ekim 1918 (TDV ay veriyor, gün yok) — 13 Ekim kaynakta doğrulanamadı",
+   "kaynak": "TDV 'trablussam': 'Trablusşam 1918 Ekiminde Fransızlar tarafından işgal edildi'"
+  },
+  {
+   "yer": "Mersin",
+   "harita_gunu": "1918-10-30",
+   "dogru_gun": "1918-12-17 (Fransız çıkarması); çıkış 1922-01-03/04 (harita bitişi 1921-10-20)",
+   "kaynak": "TDV 'mersin': '17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı. 3 Ocak 1922'de millî kuvvetler Mersin'e girerek…'"
+  },
+  {
+   "yer": "Rakka",
+   "harita_gunu": "1918-10-26 (fransa-cumhuriyet)",
+   "dogru_gun": "1918'de Fransız DEĞİL — İngiliz/Arap (Faysal) idaresi; Fransa'ya Ankara İtilâfnâmesi ile (TDV '1920' der, İtilâfnâme 20 Ekim 1921'dir — TDV iç çelişki)",
+   "kaynak": "TDV 'rakka': '1917'de İngilizler tarafından işgal edilen şehir 1920 Ankara İtilâfnâmesi'yle Fransa mandasına verildi' — künye önerisi: 1918-10 → suriye-arap-kralligi"
+  },
+  {
+   "yer": "Deyrizor",
+   "harita_gunu": "1918-10-26 (fransa-cumhuriyet)",
+   "dogru_gun": "1918 İngiliz, kısa süre Faysal, 1921 Fransız (yıl)",
+   "kaynak": "TDV 'deyrizor': '1918'de İngilizler tarafından işgal edilen Deyrizor kısa bir süre … Faysal'ın denetiminde kalmış, 1921'de … Suriye'ye ilhak edilmiştir'"
+  },
+  {
+   "yer": "Malikiye (Derik)",
+   "harita_gunu": "1918-10-30 (fransa-cumhuriyet)",
+   "dogru_gun": "ölçülemedi — 1918'de Fransız işgali olmadığı kuvvetle muhtemel (Yukarı Cezire 1920'lerde denetlendi); TDV 'derik' 302, 'cezire' bir şey vermedi",
+   "kaynak": "bulunamadı"
+  },
+  {
+   "yer": "Ba'lebek (Baalbek)",
+   "harita_gunu": "1918-10-08 (fransa-cumhuriyet)",
+   "dogru_gun": "şüpheli — Bekaa OETA East (Arap/Faysal) bölgesindeydi; kaynakla doğrulanmadı",
+   "kaynak": "bulunamadı (ölçülemedi)"
+  },
+  {
+   "yer": "Arlon (ve Lüksemburg kasabaları)",
+   "harita_gunu": "1443-11-21",
+   "dogru_gun": "ölçülemedi — Arlon başkentten ÖNCE (Ağustos-Eylül 1443 seferi) alınmış olabilir",
+   "kaynak": "Delforge, Connaître la Wallonie: istila Ağustos 1443, Arlon ve Lüksemburg'un alınışı (gün yok)"
+  }
+ ],
+ "bulunamadi": [
+  "Luxembourg 1443 için GÜNÜ veren akademik metin (Vaughan 1970 archive.org'da ödünç-kısıtlı; Google Books kotası doldu)",
+  "Preveze 1798 günü için akademik metin (Curlin 2010, Moschonas 1975, Fleming 1999) — açılamadı; TDV gün vermiyor",
+  "Savoya/Nice 14 Haziran 1860 için açılabilir akademik/kurumsal metin (AD73/AD06 sayfaları yüklenmedi)",
+  "Mzab 1853 himaye sözleşmesinin günü — TDV 'mizab' anmıyor",
+  "OETA West'in 23 Ekim 1918 kuruluşu için akademik metin",
+  "Ağvât 4 Aralık 1852 için akademik metin (ANOM yalnız yıl)"
+ ]
+}

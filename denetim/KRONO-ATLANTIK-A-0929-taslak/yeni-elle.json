@@ -1,0 +1,14 @@
+{ "maddeler": [
+ { "t":"1569-10-18", "gun":"18 Ekim 1569 (7 Cemâziyelevvel 977)", "b":"Fransa'ya ilk tasdikli genel kapitülasyon verildi",
+   "tur":"antlasma", "onem":4, "dunya":2, "kapsam":"dis", "etiket":["antlasma","diplomasi","ekonomi","konu-diplomasi","konu-ekonomi"],
+   "yer_id":"İstanbul", "devlet":"fransa",
+   "d":"II. Selim'in tahta çıkışından sonra Fransa elçisi Claude du Bourg'un girişimiyle Fransa'ya ilk kez padişahça tasdik edilmiş genel bir kapitülasyon verildi. 1536'da Jean de la Forest ile hazırlanan metin yalnız taslak olarak kalmıştı; Fransız tüccarının Osmanlı limanlarındaki ayrıcalıkları hukuken bu belgeyle kuruldu ve sonraki yenilemelerin (1581, 1604, 1740) temeli oldu.",
+   "kaynak":"TDV `imtiyazat`: \"İlk gerçek Osmanlı kapitülasyonu, 7 Cemâziyelevvel 977 (18 Ekim 1569) tarihli olanıdır\"; Fransa ile genel tasdikli kapitülasyon 1569",
+   "dogrulama":"TDV imtiyazat gövdesi okundu (denetim/KRONO-ATLANTIK-A-0929-tdv-onbellek/imtiyazat.txt)", "guven":"yuksek" },
+ { "t":"1804-05-18", "gun":"18 Mayıs 1804 (28 floréal an XII)", "b":"Napolyon Fransızların İmparatoru ilan edildi",
+   "tur":"hukumdar", "onem":5, "dunya":4, "kapsam":"ic", "etiket":["hukumdar","anayasa","hanedan","konu-siyasi"],
+   "yer_id":"Paris", "devlet":"fransa-cumhuriyet",
+   "d":"Senato'nun 'organik senatus-consultum' kararıyla Birinci Konsül Napolyon Bonapart, cumhuriyetin idaresi kendisine emanet edilen irsî imparator ilan edildi. Karar kasım ayında halkoylamasıyla onaylandı; taç giyme töreni 2 Aralık 1804'te Notre-Dame'da yapıldı. Böylece Birinci Cumhuriyet adı korunmakla birlikte fiilen Birinci İmparatorluk başladı.",
+   "kaynak":"Conseil constitutionnel, 'Constitution de l'An XII — Sénatus-consulte organique du 28 floréal an XII (18 mai 1804)' · J. Tulard, Napoléon ou le mythe du sauveur (1977)",
+   "dogrulama":"bilinen anayasa metni; Conseil constitutionnel anayasalar listesi", "guven":"yuksek" }
+], "zaten_var": [], "bulunamadi": [] }

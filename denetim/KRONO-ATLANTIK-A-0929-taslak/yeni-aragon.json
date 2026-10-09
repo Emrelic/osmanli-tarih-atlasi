@@ -1,0 +1,773 @@
+{
+ "maddeler": [
+  {
+   "t": "1285-01-01",
+   "gun": "yalnız yıl (TDV '1285'); gün kaynakta yok",
+   "b": "Hafsî Tunus ile on beş yıllık antlaşma",
+   "tur": "antlasma",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "hafsi-iliskileri",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "hafsi"
+   ],
+   "d": "Hafsî sultanı Ebû Hafs Ömer, Aragon kralı III. Pedro ile on beş yıl geçerli bir antlaşma imzaladı. Hafsî topraklarındaki Hıristiyanlara dinî ve ticarî imtiyazlar tanındı ve Tunus, Aragon'a her yıl belirli bir vergi ödemeyi kabul etti. Sicilya'yı yeni almış olan Aragon, böylece Tunus kıyısı üzerinde de nüfuz kurdu.",
+   "kaynak": "TDV `aragon` (İA, 1991) — 'on beş yıllık bir anlaşma imzaladı (1285)'",
+   "dogrulama": "https://islamansiklopedisi.org.tr/aragon (HTTP 200, gövde okundu); Ebû Hafs Ömer'in 17 Temmuz 1284'te tahta çıktığı TDV `hafsiler`den teyit (antlaşma ondan sonra)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1285-09-04",
+   "gun": "3-4 Eylül 1285 gecesi/günü (GEC); 4'ü seçildi",
+   "b": "Formigues deniz zaferi — Fransız haçlı donanması dağıtıldı",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "aragon-hacli-seferi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "fransa"
+   ],
+   "d": "Papa IV. Martinus'un Sicilya'yı aldığı için tahttan düşürdüğü III. Pedro'ya karşı Fransa kralı III. Philippe 'haçlı seferi' adıyla Katalonya'yı istila etmiş, Girona'yı kuşatmıştı. Sicilya'dan gelen Roger de Lauria komutasındaki Katalan donanması Empordà kıyısında (Formigues adaları/Roses körfezi) Fransız donanmasını yendi. İkmal hattı kesilen istila ordusunun çöküşü bu zaferle başladı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `croada-contra-catalunya` ve `pere-ii-de-catalunya-arago`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/croada-contra-catalunya ('3-4 de setembre'); Girona kuşatması başlangıcı 26 Haziran 1285 aynı madde",
+   "guven": "orta"
+  },
+  {
+   "t": "1285-10-01",
+   "gun": "1 Ekim 1285 (GEC)",
+   "b": "Panissars geçidinde Fransız artçısının imhası — haçlı seferinin sonu",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "aragon-hacli-seferi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "fransa"
+   ],
+   "d": "Girona'yı ele geçirmesine rağmen salgın ve ikmal sıkıntısıyla çözülen Fransız ordusu Pireneler'e çekildi. Kral kafilesi geçerken dokunulmadı, ancak artçı Panissars geçidinde Katalan kuvvetlerince ezildi; III. Philippe dönüşte Perpignan'da öldü. Aragon, Papalık-Fransa ittifakına karşı hem ülkesini hem Sicilya'yı korumuş oldu.",
+   "kaynak": "Gran Enciclopèdia Catalana, `croada-contra-catalunya`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/croada-contra-catalunya ('1 d'octubre de 1285')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1285-11-11",
+   "gun": "10'u 11'e bağlayan gece, 11 Kasım 1285 (GEC)",
+   "b": "III. Pedro'nun ölümü — III. Alfonso tahta, Sicilya ikinci oğul Jaime'ye",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "barselona-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "Fransız istilasını püskürten III. Pedro, Mayorka seferine giderken Vilafranca del Penedès'te hastalanıp öldü. Aragon, Katalonya ve Valensiya büyük oğlu III. Alfonso'ya geçti; Sicilya ise ayrı bir taç olarak ikinci oğlu Jaime'ye kaldı. Alfonso haberi, amcası Mayorka kralı II. Jaime'ye karşı yürüttüğü Balear seferinde aldı ve Mayorka ile İbiza'yı itaate aldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `pere-ii-de-catalunya-arago`, `alfons-ii-de-catalunya`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/pere-ii-de-catalunya-arago ; .../alfons-ii-de-catalunya",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1287-01-17",
+   "gun": "17 Ocak 1287 (Menorca Ada Konseyi'nin verdiği fetih günü); teslim antlaşması (Sant Agaiz) birkaç gün sonra",
+   "b": "Menorka'nın fethi — son Müslüman Balear adası alındı",
+   "tur": "fetih",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "fetih",
+    "balear-adalari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "O güne dek Aragon'a vergi veren Müslüman bir emirlik olarak kalan Menorka'ya III. Alfonso çıkarma yaptı ve adayı kısa sürede ele geçirdi. Gerekçe, adanın yöneticisinin 1282'de III. Pedro'nun Kuzey Afrika seferini Tunus'a haber vermesiydi. Teslim şartlarıyla yalnız emir ve maiyeti adayı terk edebildi, halkın çoğu esir edildi; ada Hıristiyan iskânına açıldı.",
+   "kaynak": "Consell Insular de Menorca, 'La conquesta per Alfons III…' (cime.es IdPub=2200); Gran Enciclopèdia Catalana `alfons-ii-de-catalunya` (yıl ve gerekçe). TDV: Minorka/Menorka maddesi bulunamadı (slug 302)",
+   "dogrulama": "https://www.cime.es/Contingut.aspx?IdPub=2200 ('17 de gener'); GEC Alfons II ('conquerí als musulmans l'illa de Menorca (1287)'). TDV slug denendi: minorka, menorka, balear-adalari, mayorka — hepsi 302",
+   "guven": "orta"
+  },
+  {
+   "t": "1291-06-18",
+   "gun": "18 Haziran 1291 (III. Alfonso'nun ölümü, GEC)",
+   "b": "III. Alfonso'nun ölümü — II. Jaime iki tacı birleştirdi",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "barselona-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "III. Alfonso Barselona'da varissiz öldü; taç, Sicilya kralı olan kardeşi II. Jaime'ye geçti. Jaime Ağustos 1291'de Barselona'ya gelip ant içti ve Sicilya tacını da elinde tuttu. Bu, Aragon'un Sicilya meselesinde Papalık ve Anjou'larla uzlaşmaya yönelmesinin başlangıcı oldu.",
+   "kaynak": "Gran Enciclopèdia Catalana, `alfons-ii-de-catalunya`, `jaume-ii-de-catalunya-arago`",
+   "dogrulama": "enciclopedia.cat Alfons II (ölüm günü), Jaume II (Barcelona'ya varış 'l'agost del 1291')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1295-01-01",
+   "gun": "Haziran 1295 (GEC); gün kaynakta yok",
+   "b": "Anagni Antlaşması — Aragon Sicilya'dan vazgeçti",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "sicilya-meselesi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "napoli"
+   ],
+   "d": "Papa VIII. Bonifatius'un aracılığıyla II. Jaime, Fransa ve Napoli ile barıştı: Sicilya'yı Kilise'ye bırakmayı, Napoli kralı II. Charles'ın kızı Blanca ile evlenmeyi kabul etti; aforoz ve kilise yasağı kaldırıldı, Valois'nın Aragon tacı iddiası düştü. Balear adaları Aragon'a tâbi olmak kaydıyla Mayorka kralına iade edildi. Sicilyalılar ise bu antlaşmayı tanımayıp Jaime'nin kardeşi Federico'yu kral yaptı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `tractat-danagni`, `jaume-ii-de-catalunya-arago`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/tractat-danagni ('al juny del 1295')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1296-01-01",
+   "gun": "yalnız yıl 1296 (GEC)",
+   "b": "Alicante, Elche ve Murcia'nın ele geçirilmesi",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "murcia",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "kastilya"
+   ],
+   "d": "Kastilya'daki taht kavgasında La Cerda prenslerini destekleyen II. Jaime, Biar geçidinden inerek Alicante, Elche ve Orihuela yöresini, ardından Murcia şehrini aldı. Bu işgal, 1304 Torrellas hakem kararıyla kısmen kalıcılaştı: kuzey kesim Valensiya Krallığı'na katıldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `jaume-ii-de-catalunya-arago`, `alacant`",
+   "dogrulama": "enciclopedia.cat Jaume II ('la ciutat de Múrcia (1296)'), Alacant ('de primer (1296) per la força')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1309-01-01",
+   "gun": "yalnız yıl (TDV 709/1309; GEC 'estiu del 1309')",
+   "b": "Meriye (Almería) kuşatması sonuçsuz kaldı",
+   "tur": "savas",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "nasri-iliskileri",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "granada"
+   ],
+   "d": "Kastilya ile Gırnata'yı paylaşma anlaşması uyarınca II. Jaime, kendisine düşen pay olan Meriye'yi karadan ve denizden kuşattı. Kastilya'nın Cezîretülhadrâ cephesinde beklenen desteği gelmeyince kuşatma başarısız oldu ve Aragon ordusu kötü şartlarda çekildi. Aragon'un Endülüs'te toprak kazanma girişimlerinin sonuncusu oldu.",
+   "kaynak": "TDV `meriye` — '709 (1309) yılında Aragon Kralı … şehri işgal teşebbüsü sonuçsuz kaldı'; Gran Enciclopèdia Catalana `jaume-ii-de-catalunya-arago`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/meriye (200); enciclopedia.cat Jaume II",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1323-06-14",
+   "gun": "14 Haziran 1323 (GEC 'conquesta de Sardenya'); ⚠️ GEC'in 'Alfons III' maddesi 24 Haziran, bazı yayınlar 13 Haziran der — kaynak içi çelişki; filo 31 Mayıs'ta Portfangós'tan çıktı",
+   "b": "Veliaht Alfonso Sardinya'ya çıktı — ada fethi başladı",
+   "tur": "savas",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "sardinya-fethi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "piza"
+   ],
+   "d": "1297'de Papa'dan 'Sardinya ve Korsika krallığı' beratını alan II. Jaime, Arborea yargıcı II. Hugo ile ittifak kurduktan sonra oğlu veliaht Alfonso'yu yaklaşık üç yüz gemilik bir donanmayla gönderdi. Kuvvetler adanın güneybatısında Palmas körfezine (Palma di Sulcis) çıktı; Arborea yargıcı ve Sardinyalı beylerin çoğu burada Alfonso'ya bağlılık yemini etti. Direnen Pisa hâkimiyetindeki Villa di Chiesa ile Cagliari oldu.",
+   "kaynak": "Gran Enciclopèdia Catalana, `conquesta-de-sardenya`; `alfons-iii-de-catalunya`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/conquesta-de-sardenya ('El 14 de juny desembarcaren al golf de Palmas'); .../alfons-iii-de-catalunya ('24 de juny de 1323') — çelişki bildirildi",
+   "guven": "orta"
+  },
+  {
+   "t": "1323-07-04",
+   "gun": "Temmuz 1323 (Soddu); 4 Temmuz 1323 tarihli Sassari belgeleri (Tola, Codex diplomaticus Sardiniae, doc. XX ve Fragmenta XLV) Soddu'nun dipnot 28'inde — cümlenin kendisi görülemedi, gün ORTA güvenle",
+   "b": "Sassari Aragon tacına bağlılık sundu",
+   "tur": "toprak-kazanc",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "sardinya-fethi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "cenova"
+   ],
+   "d": "Cenova ile konfedere özerk bir komün olan Sassari, fethin başında kendiliğinden Aragon kralına bağlılık sundu ve imtiyazları tanındı. Temmuz 1323'te Sassari elçileri, Doria ve Malaspina beyleriyle birlikte Villa di Chiesa kuşatmasındaki veliaht Alfonso'ya biat etti. Ancak kötü yönetim ve Ceneviz kışkırtmasıyla şehir 1325'te ayaklanacaktı.",
+   "kaynak": "Alessandro Soddu, 'Corona d'Aragona e Malaspina nella Sardegna del Trecento' (dipnot 28, 30: P. Tola, Codex diplomaticus Sardiniae I, doc. XX, 1323 luglio 4); Gran Enciclopèdia Catalana `sasser-0` (yıl 1323)",
+   "dogrulama": "Soddu PDF: caiscuola.cai.it/wp-content/uploads/2025/09/...Soddu-Corona-DAragona-e-Malaspina-nel-trecento.pdf ('nel luglio del 1323 … gli inviati di Sassari, a prestare … omaggio all'infante Alfonso'); https://www.enciclopedia.cat/gran-enciclopedia-catalana/sasser-0",
+   "guven": "orta"
+  },
+  {
+   "t": "1324-02-07",
+   "gun": "7 Şubat 1324 (GEC iki maddede aynı)",
+   "b": "Villa di Chiesa (Iglesias) teslim oldu",
+   "tur": "fetih",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "fetih",
+    "sardinya-fethi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "piza"
+   ],
+   "d": "Pisa'nın madenci şehri Villa di Chiesa, 1 Temmuz 1323'te resmen başlayan ve açlık ile salgının iki tarafı da yıprattığı yedi aylık kuşatmadan sonra teslim oldu. Böylece Güneybatı Sardinya'nın gümüş madenleri Aragon'un eline geçti ve veliaht Alfonso ordusunu Cagliari'ye çevirdi.",
+   "kaynak": "Gran Enciclopèdia Catalana, `conquesta-de-sardenya`, `alfons-iii-de-catalunya`",
+   "dogrulama": "enciclopedia.cat conquesta de Sardenya ('el 7 de febrer de 1324, que la plaça capitulà'); Alfons III ('es rendí el 7 de febrer de 1324')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1324-02-29",
+   "gun": "29 Şubat 1324 (GEC 'batalla de Lucocisterna' ve 'Alfons III'); ⚠️ GEC 'conquesta de Sardenya' 1 Mart der",
+   "b": "Lucocisterna Muharebesi — Pisa ordusu yenildi",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "sardinya-fethi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "piza"
+   ],
+   "d": "Cagliari'yi kurtarmak için Manfredo della Gherardesca komutasında gelen Pisa ordusu, şehrin yakınındaki Lucocisterna'da veliaht Alfonso'nun sayıca az kuvvetlerine yenildi. Aynı gün amiral Carròs da Pisa donanmasını liman önünde bozdu. Fethin tek meydan muharebesi olan bu zafer, Pisa'yı barış istemeye mecbur etti.",
+   "kaynak": "Gran Enciclopèdia Catalana, `batalla-de-lucocisterna`, `alfons-iii-de-catalunya`, `conquesta-de-sardenya`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/batalla-de-lucocisterna ('el 29 de febrer de 1324'); conquesta-de-sardenya ('El primer de març') — çelişki bildirildi",
+   "guven": "orta"
+  },
+  {
+   "t": "1324-06-19",
+   "gun": "19 Haziran 1324 (GEC)",
+   "b": "Cagliari kalesi teslim oldu — Pisa ile ilk barış",
+   "tur": "antlasma",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "sardinya-fethi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "piza"
+   ],
+   "d": "Kuşatma altındaki Cagliari kalesi teslim oldu ve Pisa ile barış (fiilen bir mütareke) imzalandı. Pisa, Sardinya'daki bütün öteki topraklarını Aragon'a bıraktı; yalnız Castello di Cagliari ile Gippi ve Trexenta bölgelerini Aragon kralının tımarı (vassal) olarak elinde tuttu. Karşısında Aragonlular Bonaria tepesinde kendi karargâh kasabalarını kurdu. Fetih böylece tamamlanmış sayıldı; veliaht Temmuz sonunda Katalonya'ya döndü.",
+   "kaynak": "Gran Enciclopèdia Catalana, `conquesta-de-sardenya`; `alfons-iii-de-catalunya`",
+   "dogrulama": "enciclopedia.cat conquesta de Sardenya ('El castell es rendí finalment el 19 de juny i fou signada una pau … Pisa conservava Càller en feu reial')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1325-07-21",
+   "gun": "21 Temmuz 1325 (GEC)",
+   "b": "Sassari ayaklandı ve bağımsızlık ilân etti",
+   "tur": "isyan",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "isyan",
+    "sardinya-fethi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "cenova"
+   ],
+   "d": "Cenova, Doria ve Malaspina ailelerinin kışkırtmasıyla ve kraliyet görevlilerinin baskıcı yönetimine tepkiyle Sassari halkı kral temsilcisini öldürüp bağımsızlık ilân etti. Şehir birkaç ay Aragon'dan kopuk kaldı; Arborea yargıcının arabuluculuğuyla barış Haziran 1326'da (Soddu: 28 Haziran 1326, Bonaria) yeniden sağlandı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `conquesta-de-sardenya`, `sasser-0`; Soddu (28 Haziran 1326 barışı)",
+   "dogrulama": "enciclopedia.cat conquesta de Sardenya ('El 21 de juliol de 1325 Sàsser … se sollevà'); Soddu PDF ('il 28 giugno 1326 si giunse alla resa di Sassari')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1326-06-09",
+   "gun": "9 Haziran 1326 (GEC)",
+   "b": "Pisa Cagliari'yi teslim edip Sardinya'dan tamamen çekildi",
+   "tur": "toprak-kazanc",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "sardinya-fethi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "piza"
+   ],
+   "d": "1324'ten beri tımar olarak Pisa'da kalan Cagliari kalesinde Katalanlarla Pisalılar arasında çatışmalar sürmüş, Pisa Cenova ile birleşip yeni bir donanma hazırlamıştı. Ceneviz-Pisa yardım filosunun Carròs'a yenilmesinden sonra Cagliari krala teslim edildi ve yeni barışla Pisa Sardinya üzerindeki bütün haklarından vazgeçti. Şehir Katalan ve Aragonlularla yeniden iskân edildi, 1327'de belediye imtiyazları aldı ve adanın kraliyet idaresinin merkezi oldu.",
+   "kaynak": "Gran Enciclopèdia Catalana, `conquesta-de-sardenya`",
+   "dogrulama": "enciclopedia.cat conquesta de Sardenya ('El 9 de juny de 1326 Càller es lliurà al rei … Pisa renuncià definitivament tots els seus drets sobre Sardenya')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1327-11-02",
+   "gun": "2 Kasım 1327 (II. Jaime'nin ölümü, GEC)",
+   "b": "II. Jaime'nin ölümü — IV. Alfonso tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "barselona-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "Sardinya fethini başlatan II. Jaime Barselona'da öldü; yerine fethi bizzat yöneten oğlu IV. Alfonso ('Benigno') geçti ve Paskalya 1328'de Zaragoza'da taç giydi. Saltanatı Sardinya'da Cenova destekli isyanlar ve sonuçsuz bir Gırnata haçlı seferi planıyla geçti; 1329'da yeniden ayaklanan Sassari yağmalanıp Katalan ve Aragonlularla iskân edildi.",
+   "kaynak": "Gran Enciclopèdia Catalana, `jaume-ii-de-catalunya-arago`, `alfons-iii-de-catalunya`, `sasser-0`",
+   "dogrulama": "enciclopedia.cat Jaume II ('Barcelona, 2 de novembre de 1327'); Alfons III ('pasqua del 1328')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1336-01-24",
+   "gun": "24 Ocak 1336 (IV. Alfonso'nun ölümü, GEC)",
+   "b": "IV. Alfonso'nun ölümü — IV. Pedro 'Törenci' tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "barselona-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "IV. Alfonso Barselona'da öldü ve yerine oğlu IV. Pedro geçti. Elli bir yıl süren saltanatı boyunca Mayorka'yı tekrar taca bağlayacak, soyluların Birlik isyanlarını ezecek, Cenova ve Kastilya ile uzun savaşlar yürütecekti. Saray ve kançılaryayı ayrıntılı nizamnamelerle düzenlediği için 'Törenci' (el Ceremonioso) diye anıldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `alfons-iii-de-catalunya`, `pere-iii-de-catalunya-arago`",
+   "dogrulama": "enciclopedia.cat Alfons III ('Barcelona, 24 de gener de 1336'); Pere III ('Rei de Catalunya-Aragó (1336-87)')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1343-05-25",
+   "gun": "25 Mayıs 1343 Santa Ponça çıkarması (GEC 'Jaume III de Mallorca'); Palma'ya giriş günü kaynakta yok",
+   "b": "IV. Pedro Mayorka'ya çıktı — Mayorka Krallığı taca bağlandı",
+   "tur": "toprak-kazanc",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "mayorka",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "mayorka"
+   ],
+   "kunye_yok": true,
+   "d": "IV. Pedro, vassalı ve eniştesi Mayorka kralı III. Jaime'yi açtığı bir davada suçlu ilân ettirip topraklarını müsadere ettirdi, ardından donanmasıyla Santa Ponça'ya çıktı. III. Jaime Rusiyon'a kaçtı, Mayorka, Menorka ve İbiza direnmeden teslim oldu. 1344'teki iki seferle Rusiyon ve Cerdanya da alındı; I. Jaime'nin 1276'daki bölünmesi böylece kapatıldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `jaume-iii-de-mallorca`, `pere-iii-de-catalunya-arago`",
+   "dogrulama": "enciclopedia.cat Jaume III de Mallorca ('el 25 desembarcà a Santa Ponça … Menorca i Eivissa es reteren sense lluita'); Mayorka Krallığı için devletler.js'te künye YOK (öneri id: 'mayorka')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1348-07-21",
+   "gun": "21 Temmuz 1348 (GEC)",
+   "b": "Épila Muharebesi — Aragon Birliği ezildi",
+   "tur": "isyan",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "isyan",
+    "birlik-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "IV. Pedro'nun kızını veliaht ilân etmesine tepkiyle kardeşi Prens Fernando önderliğinde örgütlenen Aragon soylularının Birliği (Unión), kralı Zaragoza ve Valensiya'da imtiyaz vermeye zorlamıştı. Épila'da kralın Katalan ve Aragonlu kuvvetleri Birlik ordusunu yendi; kral Zaragoza'ya girip zorla verdiği imtiyazları iptal etti. Valensiya Birliği de kısa süre sonra Mislata'da yenildi.",
+   "kaynak": "Gran Enciclopèdia Catalana, `batalla-depila`, `pere-iii-de-catalunya-arago`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/batalla-depila ('el 21 de juliol de 1348')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1349-10-25",
+   "gun": "25 Ekim 1349 (GEC)",
+   "b": "Llucmajor Muharebesi — son Mayorka kralı öldürüldü",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "mayorka",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "mayorka"
+   ],
+   "kunye_yok": true,
+   "d": "Montpellier'i Fransa kralına satarak paralı asker toplayan III. Jaime, tahtını geri almak için Mayorka'ya çıktı. Llucmajor yakınında IV. Pedro'nun valisi Gilabert de Centelles'e yenildi ve savaş alanında öldürüldü, oğlu esir düştü. Mayorka Krallığı'nın Aragon tacına kesin olarak bağlanması bu muharebeyle tamamlandı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `batalla-de-llucmajor`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/batalla-de-llucmajor ('el 25 d'octubre de 1349')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1354-01-01",
+   "gun": "yalnız yıl 1354 (GEC 'Pere III' ve 'l'Alguer'); gün kaynakta yok",
+   "b": "Alghero ele geçirildi ve Katalanlarla iskân edildi",
+   "tur": "fetih",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "fetih",
+    "sardinya",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "cenova"
+   ],
+   "d": "Doria ailesinin 1353'te Cenova'ya bıraktığı Alghero'yu, IV. Pedro bizzat başında bulunduğu yeni bir donanmayla kesin olarak ele geçirdi. Halkı çıkarılan şehir Katalanlarla yeniden iskân edildi; bugün de konuşulan Alghero Katalancası bu iskânın mirasıdır. Ancak Arborea yargıcı IV. Mariano'nun Cenova safına geçmesiyle adadaki savaş sürdü.",
+   "kaynak": "Gran Enciclopèdia Catalana, `pere-iii-de-catalunya-arago`, `lalguer-0`",
+   "dogrulama": "enciclopedia.cat Pere III ('El 1354 una nova flota catalana, presidida pel rei, s'apoderà definitivament de l'Alguer'); l'Alguer ('colonització catalana (1354-72)')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1387-01-05",
+   "gun": "5 Ocak 1387 (IV. Pedro'nun ölümü, GEC)",
+   "b": "IV. Pedro'nun ölümü — I. Juan tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "barselona-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "Elli bir yıl hüküm süren IV. Pedro Barselona'da öldü ve yerine oğlu I. Juan geçti. Avcılık ve saray eğlencelerine düşkünlüğüyle 'Kayıtsız' lakabını alan Juan döneminde Sardinya'da Arborea isyanı sürdü ve taç ağır borç yükü altında kaldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `pere-iii-de-catalunya-arago`, `joan-i-de-catalunya-arago`",
+   "dogrulama": "enciclopedia.cat Pere III ('Barcelona, 5 de gener de 1387'); Joan I ('Rei de Catalunya-Aragó (1387-96)')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1396-05-19",
+   "gun": "19 Mayıs 1396 (I. Juan'ın ölümü, GEC)",
+   "b": "I. Juan'ın ölümü — I. Martin tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "barselona-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "I. Juan av sırasında ani ölünce, erkek varis bırakmadığından taç kardeşi Martin'e geçti. Martin o sırada oğlunu Sicilya tahtında tutmak için adadaydı; dönüşüne kadar naipliği eşi Maria de Luna yürüttü ve Foix kontunun taht iddiasıyla giriştiği istilayı karşıladı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `joan-i-de-catalunya-arago`, `marti-i-de-catalunya-arago`",
+   "dogrulama": "enciclopedia.cat Joan I ('Foixà … 19 de maig de 1396'); Martí I",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1409-06-26",
+   "gun": "26 Haziran 1409 (GEC 'batalla de Sanluri'); ⚠️ yaygın literatür 30 Haziran der — kaynaklar ayrışıyor",
+   "b": "Sanluri Muharebesi — Arborea direnişi kırıldı",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "sardinya",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "arborea"
+   ],
+   "kunye_yok": true,
+   "d": "Sicilya kralı genç Martin (Aragon tahtının varisi) komutasındaki Katalan ordusu, Cagliari yakınında Sanluri'de Arborea yargıçlığının ve müttefiki Narbonne vikontu II. Guillaume'un sayıca üstün ordusunu ağır yenilgiye uğrattı. Yarım asırdır adanın büyük kısmını elinde tutan Arborea'nın gücü kırıldı. Ancak galip Martin birkaç hafta sonra adada hastalanıp öldü ve Barselona hanedanı erkek varissiz kaldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `batalla-de-sanluri`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/batalla-de-sanluri ('el 26 de juny de 1409'); Arborea için devletler.js'te künye YOK (öneri id 'arborea')",
+   "guven": "orta"
+  },
+  {
+   "t": "1410-05-31",
+   "gun": "31 Mayıs 1410 (GEC)",
+   "b": "I. Martin varissiz öldü — Barselona hanedanı sona erdi, fetret başladı",
+   "tur": "hanedan",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hanedan",
+    "fetret-1410",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "Oğlunu bir yıl önce kaybeden I. Martin halef belirlemeden Barselona'da öldü; ölüm döşeğinde yalnız tahtın 'hakkı olana' geçmesini onayladı. Beş yüzyıllık Barselona kontları hanedanının erkek soyu böylece kesildi. Urgell kontu Jaime, Anjou'lu Louis ve Kastilyalı Fernando gibi adaylar arasında iki yıl süren fetret dönemi başladı ve Caspe Uzlaşması'yla (1412) sonuçlandı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `marti-i-de-catalunya-arago`, `compromis-de-casp`",
+   "dogrulama": "enciclopedia.cat compromís de Casp ('mort sense hereu legítim directe el 31 de maig de 1410'); Martí I",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1416-04-02",
+   "gun": "2 Nisan 1416 (I. Fernando'nun ölümü, GEC)",
+   "b": "I. Fernando'nun ölümü — V. Alfonso tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "trastamara-hanedani",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "Caspe'de seçilen Trastámara hanedanının ilk kralı I. Fernando Igualada'da öldü; yerine oğlu V. Alfonso ('Cömert') geçti. Alfonso 1420'de Sardinya'daki son muhalefeti Narbonne vikontunun haklarını satın alarak tasfiye etti, ardından Napoli tahtına yöneldi ve hayatının son çeyrek asrını İtalya'da geçirdi.",
+   "kaynak": "Gran Enciclopèdia Catalana, `ferran-i-de-catalunya-arago`, `alfons-iv-de-catalunya`",
+   "dogrulama": "enciclopedia.cat Ferran I ('Igualada … 2 d'abril de 1416'); Alfons IV (Magnànim) (1420 Sardinya, Sassari dahil)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1462-05-09",
+   "gun": "9 Mayıs 1462 Bayonne'da akdedildi (GEC 'tractat de Baiona'); II. Juan 21 Mayıs'ta Zaragoza'da imzaladı",
+   "b": "Bayonne Antlaşması — Rusiyon ve Cerdanya Fransa'ya rehin",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "rusiyon",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "fransa"
+   ],
+   "d": "Katalonya'nın ayaklanmasından korkan II. Juan, Fransa kralı XI. Louis'den askerî yardım karşılığı 200.000 altın borçlandı. Bayonne'da, borç ödenene dek Rusiyon ve Cerdanya kontluklarının egemenlik hakları, yargısı ve gelirleri Perpignan ile Collioure kaleleriyle birlikte Fransız kralına bırakıldı. Fransızlar 1463'te Perpignan şehrini de işgal etti; bu rehin 1493'e dek sürecek bir kayba dönüştü.",
+   "kaynak": "Gran Enciclopèdia Catalana, `tractat-de-baiona`, `perpinya`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/tractat-de-baiona ('conclòs a Baiona el 9 de maig de 1462'); perpinya ('ocuparen la població (1463)'). NOT: GEC 'guerra contra Joan II' maddesi 'març del 1462', 'Joan II' maddesi 'maig del 1462' der — müstakil madde esas alındı",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1462-01-01",
+   "gun": "Haziran 1462 (II. Juan'ın Katalonya'ya girişi, Balaguer'in alınması — GEC); gün kaynakta yok",
+   "b": "Katalan İç Savaşı başladı (1462–1472)",
+   "tur": "isyan",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "isyan",
+    "katalan-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "Veliaht Carlos de Viana'nın 1461'de ölümü ve Vilafranca uzlaşmasının kralın Katalonya'ya izinsiz girmesini yasaklaması üzerine gerginlik savaşa döndü. II. Juan Haziran 1462'de Katalonya'ya girince Principat Konseyi onu kamu düşmanı ilân edip tahttan düşürdü ve tacı önce Kastilya kralı IV. Enrique'ye, sonra Portekizli Pedro'ya, ardından Anjou'lu René'ye sundu. On yıl süren savaş ülkeyi harap etti.",
+   "kaynak": "Gran Enciclopèdia Catalana, `guerra-contra-joan-ii`, `joan-ii-de-catalunya-arago`",
+   "dogrulama": "enciclopedia.cat guerra contra Joan II ('presa de Balaguer, juny del 1462'); Joan II ('La seva entrada a Catalunya (juny del 1462)')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1472-10-24",
+   "gun": "24 Ekim 1472 (GEC)",
+   "b": "Pedralbes Kapitülasyonu — Barselona teslim oldu, iç savaş bitti",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "antlasma",
+    "katalan-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "aragon",
+   "d": "II. Juan ile Barselona temsilcileri Pedralbes manastırında barış imzaladı. Kral genel af ilân etti, Katalan kurumlarını 1461 yazındaki hukukî durumuna döndürdü ve savaşın asıl sebebi olan Vilafranca uzlaşmasını geçersiz kıldı. Ancak Rusiyon ve Cerdanya Fransız işgalinde kaldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `capitulacio-de-pedralbes`",
+   "dogrulama": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/capitulacio-de-pedralbes ('el 24 d'octubre de 1472')",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1475-01-01",
+   "gun": "Mart 1475 (GEC 'Joan II': 'Perpinyà es lliurà pel març del 1475'); gün kaynakta yok",
+   "b": "Perpignan Fransızlara teslim oldu — Rusiyon kaybedildi",
+   "tur": "toprak-kayip",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "rusiyon",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "aragon",
+    "fransa"
+   ],
+   "d": "1473'te geçici olarak Fransız garnizonundan kurtulan Perpignan, XI. Louis'nin 1474'teki yeni kuşatmasına uzun süre direndi; halkı açlıktan fare yemek zorunda kaldı. Şehir sonunda teslim oldu ve II. Juan ona 'en sadık' unvanını verdi. Rusiyon ve Cerdanya 1493 Barselona antlaşmasına dek Fransa'da kaldı.",
+   "kaynak": "Gran Enciclopèdia Catalana, `joan-ii-de-catalunya-arago`, `perpinya`",
+   "dogrulama": "enciclopedia.cat Joan II ('Perpinyà es lliurà pel març del 1475'); perpinya ('hom hagué de capitular (1475)… L'ocupació francesa perdurà fins el 1493')",
+   "guven": "yuksek"
+  }
+ ],
+ "zaten_var": [
+  {
+   "olay": "Sicilya Akşam Duası (1282-03-30)",
+   "nerede": "kronoloji_italya.js + künye:napoli"
+  },
+  {
+   "olay": "III. Pedro'nun Sicilya'ya çıkışı / Sicilya'nın alınışı (1282-08-30)",
+   "nerede": "kronoloji_italya.js; künye:aragon 1282-01-01 (yıl-temsilî — gün 1282-08-30 Trapani çıkarması, GEC Pere II; künye satırı düzeltilebilir)"
+  },
+  {
+   "olay": "Caltabellotta barışı (1302-08-31)",
+   "nerede": "kronoloji_italya.js"
+  },
+  {
+   "olay": "Río Salado (1340-10-30) — Aragon filosu katıldı",
+   "nerede": "kronoloji_ispanya.js, künye:granada, künye:merini"
+  },
+  {
+   "olay": "Boğaz (İstanbul) deniz savaşı 1352-02-13 (Venedik-Aragon vs Cenova)",
+   "nerede": "kronoloji_italya_sehir.js"
+  },
+  {
+   "olay": "Alghero deniz bozgunu 1353-08-27",
+   "nerede": "kronoloji_italya_sehir.js (Ceneviz perspektifi)"
+  },
+  {
+   "olay": "Caspe Uzlaşması 1412-06-24",
+   "nerede": "kronoloji_ispanya.js"
+  },
+  {
+   "olay": "Ponza deniz savaşı 1435-08-05",
+   "nerede": "kronoloji_italya_sehir.js"
+  },
+  {
+   "olay": "V. Alfonso'nun Napoli'yi alışı 1442-06-02",
+   "nerede": "kronoloji_italya.js"
+  },
+  {
+   "olay": "Gaeta anlaşması, İskender Bey'in Alfonso'ya tâbiliği 1451-03-26",
+   "nerede": "kronoloji_cok_arnavut.js"
+  },
+  {
+   "olay": "V. Alfonso'nun ölümü, II. Juan'ın tahta çıkışı 1458-06-27",
+   "nerede": "kronoloji_italya.js ('Alfonso'nun ölümü — Napoli ile Aragon'un yeniden ayrılması')"
+  },
+  {
+   "olay": "Fernando–İsabel evliliği 1469-10-19",
+   "nerede": "kronoloji_ispanya.js, künye:kastilya"
+  },
+  {
+   "olay": "II. Juan'ın ölümü / tacların birleşmesi 1479-01-19/20",
+   "nerede": "kronoloji_ispanya.js, künye:aragon, künye:kastilya, künye:ispanya"
+  },
+  {
+   "olay": "Katalan Kumpanyası / Atina Dukalığı olayları",
+   "nerede": "kronoloji_katalan.js (künye:katalan) — dokunulmadı"
+  },
+  {
+   "olay": "Gırnata ile Kastilya'ya karşı savunma ittifakı",
+   "nerede": "yeni-granada.json (devletler granada+aragon)"
+  },
+  {
+   "olay": "Gırnata ile beş yıllık ticaret ve yardım antlaşması",
+   "nerede": "yeni-granada.json (devletler granada+aragon)"
+  },
+  {
+   "olay": "Torrellas",
+   "nerede": "başka taslakta birleştirildi (DERLE öncesi mükerrer)"
+  },
+  {
+   "olay": "İki Pedro",
+   "nerede": "başka taslakta birleştirildi (DERLE öncesi mükerrer)"
+  }
+ ],
+ "bulunamadi": [
+  "Collo (el-Kull) çıkarması Haziran 1282 (Hafsî) — GEC yalnız 6 Haziran 1282 çıkışını verir; TDV'de Collo/Kostantine maddesinde Aragon çıkarması geçmiyor (kul/kostantine taranıp bulunamadı)",
+  "V. Alfonso'nun 1432 Cerbe (Djerba) seferi — TDV `cerbe` ve `hafsiler`de geçmiyor; Ebû Fâris slug'ları 302",
+  "Menorka için TDV maddesi (minorka/menorka/balear-adalari/mayorka slug'ları 302; arama sayfası JS ile yükleniyor, sonuç alınamadı)",
+  "RAH DB~e / Historia Hispánica (IV. Alfonso biyografisi) — sayfa JS-uygulaması, metin çekilemedi",
+  "Sassari'nin bağlılığı için kesin gün: Soddu dipnot 28'deki 4 Temmuz 1323 belgelerinin neyi tarihlediği cümlesi görülemedi (Tola, Codex diplomaticus Sardiniae I, doc. XX)",
+  "Perpignan teslimi (Mart 1475) ve Katalan iç savaşı başlangıcı (Haziran 1462) için gün",
+  "Genç Martin'in ölüm günü (Temmuz 1409) — Sicilya'nın Aragon'a dönüşü; GEC Sanluri maddesinde gün yok"
+ ],
+ "harita_notu_koordinatore": [
+  "Kalyari (Cagliari), data/yerlesimler.js:1666 — 1281–1324 'ceneviz' boyalı. YANLIŞ SAHİP: Cagliari 1258'den 1324'e PISA'nındı (GEC conquesta de Sardenya: kale Pisalılarca savunuldu). Aragon'a geçiş iki aşamalı: 1324-06-19 kale teslim + barış, ama Castello di Cagliari PİSA TIMARI olarak kaldı; tam devir 1326-06-09. Şimdiki 1324-01-01 kırılması her iki güne de uymuyor (yıl-temsilî). Öneri: piza → 1324-06-19 (veya 1326-06-09) → aragon.",
+  "Sasari (Sassari), data/yerlesimler.js:1667 — 1281–1324-01-01 'ceneviz', sonra aragon. Kaynak: bağlılık Temmuz 1323 (Soddu; belge 4 Temmuz 1323), 1325-07-21 → Haziran 1326 arası bağımsız isyan, 1329 yeniden isyan. Öneri kırılma 1323-07-04 (orta güven).",
+  "Menorka (Mahon), data/yerlesimler.js:1671 — 1281'den itibaren 'aragon'. Hatalı: 1287-01-17'ye dek Müslüman emirlik (künye yok); 1295–1343 Mayorka Krallığı'na aitti (Anagni 1295, geri alış 1343-05-25). Mayorka Krallığı künyesi yok.",
+  "Perpignan, data/yerlesimler_avrupa.js:203 — 1281–1463 'aragon'. 1276–1344 Mayorka Krallığı'nındı (Pedro 1344'te aldı, GEC). 1463-01-01 kırılması yıl-temsilî; Bayonne 1462-05-09 rehin, şehir 1463'te işgal, Mart 1475 teslim."
+ ]
+}
