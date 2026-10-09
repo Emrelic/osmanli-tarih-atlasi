@@ -1,0 +1,20 @@
+# DOGU-ANADOLU-0085-KOORD.diff — UYGULANMADI · yalnız 1281-1923 dilimi · gün aralığı 1381-01-01 → 1473-08-11 · yalnız Şebinkarahisar (yerlesimler_ek29.js)
+# TEMEL: origin/main 6865cc87. 🔴 ÖN ŞART: DOGU-ANADOLU-0085-KUNYE.json'daki 'gozleroglu' künyesi (devletler.js) + boyası (renkler.py) AYNI commit'te — yoksa 1408-1418 dönemi KÜNYESİZ (Değişmez 4) ve BOYASIZ (delik).
+# 1398-1408: __BOSLUK__ (ÖNERİ). Ana ve alternatif birlikte UYGULANMAZ.
+diff --git a/data/yerlesimler_ek29.js b/data/yerlesimler_ek29.js
+index b3ca4433..40edc6a2 100644
+--- a/data/yerlesimler_ek29.js
++++ b/data/yerlesimler_ek29.js
+@@ -395,8 +395,11 @@ window.YERLESIMLER_EK29 = [
+ //   dönemlerinin sınır GÜNLERİ ne TDV'de ne veride var. O yüzden 1381-1473
+ //   arası `akkoyunlu`ya sıkıştırıldı. Bu bir tercihtir ve gerçeğin
+ //   tamamı DEĞİLDİR; gün bulunursa açılmalı.
++// 🔧 DOGU-ANADOLU-0085 (0085 H-0004 · H-0016, 9 Eki 2026): sadeleştirme AÇILDI —
++//   burhaneddin 1381-1398 (ÇIKARIM) · 1398-1408 __BOSLUK__ (açık kalem, KASA) · gozleroglu 1408-1418
++//   (bitiş türetilmiş) · akkoyunlu 1418-1473 (TDV iç çelişkisi notta).
+ { ad:"Karahisâr-ı Şarkî (Şebinkarahisar)", tur:"kale", lat:40.2886, lon:38.4247, g:0, k:2,
+-  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1381-01-01",d:"eretna"},{f:"1381-01-01",t:"1473-08-11",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
++  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1381-01-01",d:"eretna"},{f:"1381-01-01",t:"1398-01-01",d:"burhaneddin",kaynak:"ÇIKARIMDIR — DOGU-ANADOLU-0085 (koordinatör hükmü Ⓐ, 9 Eki 2026). Gerekçe zinciri: TDV sebinkarahisar Eretna→1408 arasını boş bırakıyor; eretna künyesi 1381'de bitiyor; Eretna devletinin Sivas-Karahisar bölgesindeki ardılı Kadı Burhâneddin. Hiçbir kaynak Şebinkarahisar'ı adıyla Burhâneddin'e bağlamıyor. ⚠️ KASA çelişen bir kaynak bulursa bu hüküm DÜŞER. Bitiş 1398 = burhaneddin künyesinin t'si (Burhâneddin'in ölümü, YIL)"},{f:"1398-01-01",t:"1408-01-01",d:"__BOSLUK__",kaynak:"DOGU-ANADOLU-0085 · AÇIK KALEM (araştırma KASA'da): Osmanlı 1398 mi, Timur 1400 mü BİLİNMİYOR. TDV sebinkarahisar: 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun' — 1398-1408 için sahip VERMİYOR. Eski akkoyunlu bu dilimde TDV ile ÇELİŞİYORDU (0085 H-0004/H-0016 eksklavı); en yakın kimliğe İTİLMEDİ"},{f:"1408-01-01",t:"1418-01-01",d:"gozleroglu",kaynak:"TDV sebinkarahisar (gövde okundu 9 Eki 2026): 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun, on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti.' — f YIL. BİTİŞ 1418 TÜRETİLMİŞTİR, ölçüm DEĞİL: 'on yıl sonra' (811+10 = 821 h. ≈ 1418) — DOGU-ANADOLU-0085"},{f:"1418-01-01",t:"1473-08-11",d:"akkoyunlu",kaynak:"DOGU-ANADOLU-0085 · 1418-1459 akkoyunlu KORUNDU (koordinatör hükmü, D206). ⚠️ TDV İÇ ÇELİŞKİSİ (tuzak ⑥): TDV sebinkarahisar 'on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti' der; TDV akkoyunlular Karayülük'ün 1421 sonrası 'Karahisar’ı da oğlu Kemah hâkimi Yâkub Bey’e verdi[ğini]' ve 'Kemah-Erzincan-Karahisar hâkimi … Yâkub' der. Karakoyunlu yazılırsa Kemah/Erzincan/Kelkit akkoyunlu iken 1430-1459 arasında yeni bir Karakoyunlu eksklavı doğar. 1459-1473 iki madde de Akkoyunlu (akkoyunlular: 1464-65 'Şebinkarahisar’dan Siirt’e kadar … Akkoyunlu ülkesi')"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+   d:[{f:"1473-08-11",t:"1920-04-23"}], v:[] },
+ 
+ // KELKİT — Erzincan (42,3 km) çizgisiyle aynı: Mutahharten sonrası Akkoyunlu,

@@ -14,7 +14,7 @@ kronoloji ve dönemin hükümdarının aktığı eğitim amaçlı web uygulamas�
 **Canlı site:** https://emrelic.github.io/osmanli-tarih-atlasi/
 
 ## Özellikler
-- 1299–1923 arası ay ay ilerleyen/oynatılabilen zaman çizgisi
+- 1281–1923 arası gün gün ilerleyen/oynatılabilen zaman çizgisi (çekirdek katman; hedef MÖ 12000 – MS 2026, kademeli)
 - Akademik atlas verisine dayalı dönem sınırları (doğrudan topraklar + bağlı/özerk topraklar ayrımı)
 - 36 padişahın portresi (kamu malı, Wikimedia kaynaklı) ve saltanat bilgisi
 - 84 olaylık kronoloji: gün hassasiyetli tarih, yer, kilit kişiler, kaynak bağlantısı

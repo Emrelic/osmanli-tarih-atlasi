@@ -627,7 +627,7 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 183   # 9 EKIM (dalga 1): 184 -> 183 · DOGU-SAFEVI+EEK-DOGU-2-FARK+TEBRIZ-1514+DOGU-1533+MISIR-SENKRON+SABLON+HAYALET BIRLIKTE olculdu — IYILESME, §3.4-3 · ONCESI: 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184
+BEKLENEN_ACIK_S = 182   # 9 EKIM (dalga 2): 183 -> 182 · TUNA-BALKAN-0085-KRONO (1403-02-01 Gelibolu Antlasmasi kiyi kazanimi maddesi, o kirilma 2s'de ACIKTI) — IYILESME, §3.4-3 · ONCESI: dalga 1 184 -> 183 · 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184
 # 9 EKİM: 185 -> 184 (§3.4③ iyileşince tavan İNER, §3.4② sabitle AYNI commit).
 # KRONO-SENKRON-1008 MOSTAR yarısı: Hersek'in fethi 1466-01-01 maddesi indi ve
 # Mostar'ın kırılmasını kapattı. Ölçüm YAZMADAN HEMEN ÖNCE koşturuldu (§3.4⓪):
@@ -1710,7 +1710,7 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2253   # 9 EKIM (dalga 1): 2251 -> 2253 · 🔴 BIRLESIK OLCUM, iki isci onerisinin HICBIRI degil: DOGU-SAFEVI 2242 (iyilesme) + DOGU-1533 2259 (yeni kapsam) onermisti, birlikte 2253 cikti (§3.4-0). YUKARI yon YENI KAPSAM, yeni kusur DEGIL: 4227 kapanisin 2117'si yalniz-taraf ile kapaniyor (once 2114). 2sk denetle.py'nin kendi ifadesiyle 'IHLAL DEGIL, BORC' — ACIK sayisini ve hukmu etkilemez
+BEKLENEN_2S_YALNIZ_TARAF = 2265   # 9 EKIM (dalga 2): 2253 -> 2265 · BOSNA-MACAR-0087 (D205 kimlik hatasi: Mohac'tan sonra 25 nokta avusturya -> macaristan-habsburg; TDV budin/hirvatistan/macaristan). YUKARI yon YENI KAPSAM: 4230 kapanisin 2115'i yalniz-taraf, TARAF kovasi 137 -> 151 adiyla olculdu. denetle.py'nin kendi ifadesi: 'IHLAL DEGIL, BORC' — ACIK sayisini ve hukmu etkilemez. 📌 Isci 2265 ONERDI ve TUTTU: bu tavana dokunan TEK diff oydu (dalga 1'de dort diff dokunuyordu, hicbiri tutmamisti) · ONCESI: dalga 1 2251 -> 2253
 # AYNI commit (§3.4②). Ölçüm yazmadan hemen önce (§3.4⓪): önce 2250 · sonra 2251. Yeni kalem
 # Darende'nin 1400 Dulkadir kazancı (kıtanın hipotezi; `--ayrinti` 2sk'yi tek tek BASMADIĞI için
 # teşhis edilemedi — bu bir KAPI KUSURU, §3.4⑤ "liste, sayı değil"; ayrı kalem açıldı).

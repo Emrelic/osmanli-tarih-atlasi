@@ -1961,6 +1961,14 @@ window.DEVLETLER = [
     { t:"1427-06-01", tur:"son", b:"II. Murad tarafından ilhak edildi" }
   ]
 },
+{ id:"gozleroglu", ad:"Gözleroğlu (Şebinkarahisar)", tur:"beylik", bolge:"anadolu",
+  f:"1408-01-01", t:"1418-01-01", baskent:"Şebinkarahisar", harita:"gozleroglu",
+  boya_gerekli:true,
+  ozet:"Timur'un Anadolu istilâsından sonra Şebinkarahisar'a hâkim olan yerel bey ailesi (1408). TDV'de müstakil maddesi yoktur; adı yalnız Şebinkarahisar maddesinde geçer.",
+  kesinlik:"yil",
+  ic_not_t:"🔴 TÜRETİLMİŞ ÜST SINIR, ÖLÇÜM DEĞİL. TDV `sebinkarahisar` '811'de (1408) Gözleroğlu'nun, ON YIL SONRA Karakoyunlu Türkmenleri'nin, 864'te (1459-60) ise Akkoyunlular'ın eline geçti' der. 811 h. + on yıl = 821 h. ≈ 1418; TDV '1418' rakamını BASMIYOR, aritmetiği kendisi veriyor. Kapanış günü kaynakta YOK. `t:null` BIRAKILMADI çünkü yerleşim dönemi 1408-1418 yazılı ve açık uçlu künye denetle.py'nin cevaplayamadığı bir soru üretiyordu (işçi ölçtü: ÖLÇÜLEMEDİ). Beyanlı türetme, ölçülemeyen boşluğa yeğ tutuldu. — DOGU-ANADOLU-0085",
+  ic_not_boya:"BOYA BORCU, BEYANLI: `renkler.py` motor tuzundadır (§9.1), boya C3 tam inşa koşusuna kalır. Komşular: mutahharten #827717 · haciemir #ef6c00 · timurlu #9c7563. Tek noktalı kimlik ⇒ `renk_olc --oner` komşuyu ancak bu künye indikten SONRA ölçebilir.",
+  kaynak:"sebinkarahisar — TDV `sebinkarahisar` (Fatma Acun, 2010) gövdesi okundu (9 Ekim 2026, DOGU-ANADOLU-0085)" },
 { id:"mutahharten", ad:"Erzincan-Kemah Beyliği (Mutahharten)", tur:"beylik", bolge:"anadolu",
   f:"1378-01-01", t:"1410-01-01", baskent:"Erzincan", harita:"mutahharten",
   ozet:"Emîr Mutahharten'in Erzincan-Kemah'ta kurduğu küçük uç beyliği (hanedan ömrü, iki dönem); 1401'de Yıldırım Bayezid'e kaybetti, 1402'de Timur'un restorasyonuyla geri aldı, 1410'da öldü — künye dış zarfı verir, arada ~17 aylık Osmanlı kesintisi vardır. TDV'de ayrı maddesi yoktur; tarihler standart akademik kaynaklara göredir.",
