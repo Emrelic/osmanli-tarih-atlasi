@@ -1,12 +1,19 @@
 # LAB — NOKTA YOĞUNLUĞU IZGARASI (KAMPANYA SÜMER-2000 §7) — 10 Ekim 2026
 
+> **EŞİĞİN DAYANAĞI:** Anadolu/Balkan p95 en-yakın-nokta uzaklığı **63–70 km, 642 yıl boyunca (1281–1923) sabit**.
+> Önerilen AÇ eşiği (p95 ≤150 km) bunun ~2 katı; SINIR eşiği (p95 ≤300 km) haritanın bugünkü emilme rejimi (p95 227–280 km).
+> **KOORDİNATÖR HÜKMÜ (10 Ekim):** eşik KABUL — AÇ p95≤150 VE azamî≤300 · SINIR p95≤300 · KAPALI üstü.
+> MIMARI §5: p95 **KAPI**, azamî **UYARI** olarak ikisi de tutulur. "yoğun = azamî 60 km" bayat; ölçülen değer koordinatörce yazılacak.
+> S1/S2: **S2 hedef**; bu gece S1 BEYANA çevrilir ("kur: yok ⇒ UFUK[0]'tan beri var" açık yazılır, 2.823 LİSTE olarak tavan ailesine,
+> MÖ ufku kur: sayımı yapılmadan açılmaz). Devamı: `LAB-KUR-SAYIM-1010`.
+>
 > **Ölçüm, hüküm değil.** §5'teki eşik bir **ÖNERİ**dir; kararı koordinatör verir.
 > Ağaç: `origin/main` **f2e9548c** (`f2e9548cf865ec4349dbee724f870e7c6c7e41de`). §0① sağlandı: ölçüm ayrı detached worktree'de yapıldı
 > (`C:\atlas-izgara-olcum`, iş bitince silindi). Veriye dokunulmadı, tavan yazılmadı, `kaynak_durum.py ac` koşulmadı.
 > Çözülmüş harita: `py arac/kodla.py coz-c data data/devletler_harita.js` (gitignore'lu, worktree ile birlikte silindi)
 > · `data/devlet_harita_ust.js` 3.148.869 B, sha256 `925b2483dd8c8357879481e44cdfaed5123db849cbc35ba9b64b10405b865faa`
 > · `data/devletler_harita.js` 181.080.905 B, sha256 `82cc12240c46abf956360c4d4056e4b8fffb0217c9f8eb3672e99fabc95af01c`
-> CSV'ler: `LAB-YOGUNLUK-IZGARA-1010-{makro,5x5,emilme-makro,emilme-5x5,poligon,mo-gereksinim}.csv` · araçlar: `LAB-YOGUNLUK-IZGARA-1010-arac/`
+> CSV'ler: `LAB-YOGUNLUK-IZGARA-1010-{makro,5x5,emilme-makro,emilme-5x5,poligon,mo-gereksinim}.csv` · araçlar: repo dışında, LAB'de `C:\lab-araclar\izgara\`
 > (araçlar yalnız okur; yol `C:\atlas-izgara-olcum`'a sabit — yeniden üretmek için worktree yeniden kurulur).
 
 ## §0 ÖNGÖRÜ (ölçümden ÖNCE yazıldı) → SONUÇ
