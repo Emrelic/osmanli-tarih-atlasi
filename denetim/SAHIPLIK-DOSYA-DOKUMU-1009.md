@@ -200,3 +200,73 @@ Koordinatörün sayısı **`main@e28edfdc` + main'deki (1008 ÖNCESİ) araçla**
    düzeltilmiş). Taze olan 4: Sutter's Fort (`yer_yama_sutter_0906.js`), `cukurova_isg_0907` 1,
    `vassal_kid_0906` 2 — bunlar gerçekten inmemiş iş. Bayat-yalnız dosyaların arşivi ayrı bir hüküm ister
    (sınıf kuralı koordinatörün: "tek uygulandi ⇒ arşivlenemez").
+
+---
+
+## § v2 (1009) — kapının üstüne
+
+**İNİŞ SIRASI: KAPI (`SAHIPLIK-BAYAT-TABAN-1009.diff`) → [isteğe bağlı KOD-TABLOSU (`SAHIPLIK-KOD-TABLOSU-BEYAN-1009.diff`)] → DOKUMU v2 (`SAHIPLIK-DOSYA-DOKUMU-1009-v2.diff`).**
+v1 diff'i (`SAHIPLIK-DOSYA-DOKUMU-1009.diff`) artık İNDİRİLMEZ — v2 onun yerine geçer.
+
+Taban: `origin/main 809a8975` + KAPI diff'i (geçici yerel commit, worktree `C:\atlas-umit-dokumu`, kaldırıldı).
+v2 = `git diff` o geçici kapı commit'ine karşı. LF · BOM yok · CR 0 · 14 hunk · 43.367 bayt.
+
+YENİ DOSYALAR: denetim/ARAC-SAHIPLIK-DOSYA-DOKUMU-SINAV-1009.py (main'de yoktu; yalnız makine/umit'teydi — v2 onu getirir, gerileme tabanı güncellenmiş hâliyle)
+DEĞİŞEN DOSYALAR: arac/_sahiplik_uygula.py
+
+### Çakışma çözümü (tek çakışma — geri alma kapısının `except` bloğu)
+- v1: `except` dallarının her biri kendi içinde `dosya_dokumu(None, "kapı ölçemedi|çalışmadı")` çağırıp `SystemExit(3)` veriyordu.
+- KAPI: aynı blok artık çıkmıyor, `_kapi_olcmedi` bayrağı kuruyor; hüküm sonra birleşiyor: `taban_bayat and not bayat ⇒ 2`, `_kapi_olcmedi ⇒ 3`, `bayat ⇒ 2`, `taban_olcmedi ⇒ 3`.
+- ÇÖZÜM: kapının bayrak düzeni AYNEN korundu; `except`lere yalnız `_kapi_not` ("kapı ölçemedi"/"kapı çalışmadı") eklendi.
+  Döküm çağrısı TEKE indirildi ve ölçülemedi mesajından hemen sonra, **bütün kapı çıkışlarından ÖNCE** konuldu:
+  `if DOKUM: dosya_dokumu(None if _kapi_olcmedi else {b[0] for b in bayat}, _kapi_not)`.
+  v1'in `if bayat:`dan önceki ayrı `dosya_dokumu(...)` çağrısı bununla birleşti (iki kez basılmasın).
+- Gerekçe: v1'in sözü "döküm exit 2/3/4 yollarında da basılır"dı; kapı yeni bir exit-2 yolu (TABAN BAYAT) açtı ve bu yol eski döküm
+  çağrısından ÖNCE çıkıyordu ⇒ birleştirme yerinde bırakılsaydı Z5 tam o durumda dökümsüz çıkardı. Kapının hükmü (ihlal > ölçülemedi,
+  BAYAT TABAN = 2, ÖLÇÜLEMEDİ = 3) DEĞİŞMEDİ — döküm salt okunur ve hiçbir çıkış kodunu etkilemez.
+- 2 bağlam kayması (@999, @1233) `git apply -3` ile kendiliğinden oturdu.
+
+### Koordinatör ekleri (onaylı, aynı v2'de)
+1. Docstring satır 13 `^yer_yama.*\.js$` → `\.js$` (çalışma anındaki metin aynı: `\.js$`). `py -W error -m py_compile` ✓ UYARISIZ
+   (v2 öncesi main'de SyntaxWarning basıyordu). Bu uyarı stderr'e dosya yoluyla düştüğü için DOKUMU sınavının D2'sini düşürüyordu
+   (ölçüldü: ilk v2 koşusu 20/21, tek fark o satır, 3 karakter = kopya adı farkı).
+2. `SAHIPLIK-BAYAT-TABAN-1009.md`ye "DÜZELTME (1009)" notu: üretici önerisindeki `r["_"+a]` alan yokken `[]` verir ⇒ sahte BAYAT TABAN;
+   doğrusu `y.get(a)` (alan yoksa `null`). Eski satır yerinde.
+
+### Sınavlar (hepsi `C:\atlas-umit-dokumu`de, KAPI + v2 uygulanmış ağaçta)
+| sınav | sonuç |
+|---|---|
+| `ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009.py --gercek-yok` | **19/19** (hızlı kol = T1-T8 + iki SON; gerçek R-kolu koşulmadı) — docstring düzeltmesinden önce de sonra da |
+| `ARAC-SAHIPLIK-KAPI-SINAV-1006.py` | **17/17** — önce de sonra da |
+| `ARAC-SAHIPLIK-DOSYA-DOKUMU-SINAV-1009.py` (v2) | **22/22** (~55 dk, makinede başka Z5 koşuları paraleldi) |
+
+DOKUMU sınavının v2 değişiklikleri: gerileme tabanı `ESKI` = kapılı sürümün blob'u `9859ec9b` (v1: 1008 blob'u `7b1118c0`, `--eski` ile hâlâ
+verilebilir) · yeni **D0**: SyntaxWarning bloğu eski(kapılı)=1 · yeni=0 · bayraklı=0 sayılır ve karşılaştırmadan önce çıkarılır.
+Korpus bu tabanda Z5 gövdesini içeriyor (104 dosya): ad kovaları uygulandi 3.244 · cakisma 742 · zaten-boyle 50 · veride-yok 60 ·
+kapsam-daraldi 15 · dosya×kayıt 5.351 · hüküm ARŞİVLENEBİLİR 1 · ARŞİVLENEMEZ 66 · KARAR 8 · SAHİPLİK DIŞI 29.
+(v1 tablosu umit `8f93a2e8` tabanındaydı, bu sayılarla KARŞILAŞTIRILMAZ.)
+
+### Kapı aktifken gerçek yamayla kuru koşu (`--dosya-dokumu --json`, `--yaz` YOK)
+| koşu | çıkış | gözlem |
+|---|---|---|
+| `yer_yama_balkan_1923.js` | 2 | TABAN ÖLÇÜLEMEDİ 7 (beyansız) + GERİ ALMA BAYAT 7/7 ⇒ ihlal kazandı; döküm BAYAT listesinden önce basıldı, JSON yazıldı |
+| aynı + sahte kapı modülü (ölçemedi) | 3 | döküm kapı sütunu `ÖLÇÜLEMEDİ (kapı ölçemedi)` |
+| aynı + sahte kapı + `--taban <2026-09-05 rev>` | 2 | BAYAT TABAN 7 + kapı ölçemedi ⇒ 2 ("çıkış 2" mesajı), döküm basıldı |
+| **Z5** `yer_yama_1923_1945.js --taban 67e9ec9d` | **2** | **BAYAT TABAN 91 kayıt** (main `809a8975`; kapı md'sindeki 76 `36186769` tabanındaydı — main ilerledi) · geri alma 0/3975 · döküm + JSON basıldı, sonra TABAN çıkışı |
+
+### JSON'da taban bulgusu VAR MI — **HAYIR**
+`--json` anahtarları: `ad_kova · arsivlenebilir · dosyalar · hukum_sayisi · kapi · kayit_kova · ortak_ad · taban · veride_yok`.
+`kapi` yalnız GERİ ALMA kapısıdır; JSON'daki `taban` anahtarı korpus özeti (`benzersiz_ad/yama_kaydi/yama_glob`), TABAN KAPISI DEĞİL.
+Z5'te bunun bedeli ölçüldü: döküm satırı `0/3975 BAYAT … ARŞİVLENEMEZ: uygulandi 3975` diyor, oysa TABAN KAPISI aynı koşuda 91 BAYAT buldu
+— dökümü tek başına okuyan biri Z5'i "kapı temiz" sanabilir. Taban listesi bugün yalnız `--taban-rapor <yol>` ile ayrı JSON'a çıkıyor.
+
+## § v2 — ölçtüm · bulamadım · istiyorum
+**Ölçtüm:** KAPI + v2 `git apply --check` zinciri temiz origin/main `809a8975`de ✓ · KAPI → KOD-TABLOSU → v2 zinciri de ✓ (v2'nin
+iki hunk'ı 4 satır kaymayla, fuzz yok) · v2'li araç = elle çözülmüş araç (bayt eşit) · sınavlar 19/19 · 17/17 · 22/22 ·
+`py -W error -m py_compile` uyarısız (KAPI+KOD+v2 ağacında da).
+**Bulamadım:** taban kapısının BAYAT/ÖLÇÜLEMEDİ listesinin döküm/JSON'a girdiği bir yol — yok (yukarıda). DOKUMU sınavının gerçek
+taban-bayat yolunu (Z5) sınayan bir sorusu yok; elle kuru koşuyla gösterildi.
+**İstiyorum:** 1. İniş sırası KAPI → (KOD-TABLOSU) → DOKUMU v2; v1 diff'i rafa. 2. ÖNERİ (yapılmadı, küçük): JSON'a
+`"taban_kapisi": {"rev": TABAN_REV, "bayat": [ad…], "olculemedi": [ad…]}` ve dosya satırına `taban: N BAYAT / M ölçülemedi` sütunu
+(~10 satır; `taban_bayat`/`taban_olcmedi` zaten döküm çağrısından önce hazır). Ayrıca JSON'daki `taban` anahtarının adı `korpus`a
+çevrilmeli (kapı terimiyle karışıyor) — ama bu sınavın `dj["taban"]` okumasını kırar, ayrı karar.

@@ -58,6 +58,12 @@ ama önce aracın kod tablosu baştan değişmeli — karar koordinatörün.
   (yeniden üretimde): yazım satırında `{k: x[k] for k in ("ad","s","isg","v","not")}`e `"taban": {a: r["_"+a] for a in ("s","isg","v")
   if a in x}` eklenmeli (`r["_s"]` vb. üretim anındaki diziler; HS kayıtları için de aynı). Üretici diziyi çalışma ağacından okuyorsa
   ve ağaç kirliyse taban rev'den farklı olur — kayıt beyanı bu yüzden rev'den güvenilirdir.
+  **DÜZELTME (1009):** yukarıdaki öneri satırı YANLIŞ. `r["_"+a]` üreticinin iç dizisidir ve kayıtta o alan
+  hiç YOKKEN de `[]` taşır ⇒ `taban:{v:[]}` yazılır, kapı bunu bugünkü "alan yok" (`null`) ile karşılaştırıp
+  `_kanon([]) != _kanon(None)` ⇒ **SAHTE BAYAT TABAN** verir. Doğrusu kaydın HAM değeri, alan yoksa `null`:
+  `"taban": {a: y.get(a) for a in ("s","isg","v")}` (`y` = üretim anındaki ham girdi kaydı; kapının taban
+  sözleşmesi "alan tabanda yoksa `null`" der). Z5 v2 üreticisi bu biçimi kullandı (koordinatör bildirimi,
+  9 Ekim 2026). Eski satır kayıt olarak yerinde bırakıldı.
 - **Çakışma uyarısı:** makine/umit'teki `denetim/SAHIPLIK-DOSYA-DOKUMU-1009.diff` bu diff'in ÜSTÜNE düz uygulanmıyor; `git apply -3` ile
   TEK çakışma (geri alma kapısının `except` bloğu: o `dosya_dokumu(...)` ekliyor, bu `_kapi_olcmedi` bayrağına çeviriyor). Elle 5 satır.
 - Süre: Z5 kuru koşusu ~15-17 dk (geri alma kapısının 3.975 `git log -L`'i); sınavın gerçek bölümü ~50 dk. `--gercek-yok` ile ~1 dk.
