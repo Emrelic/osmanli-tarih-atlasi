@@ -1729,7 +1729,13 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2250   # 2246 → 2250, 6 Ekim: KELIME-CAKISMA-YER-1006c eşleştirici yaması (AYNI commit, §3.4②).
+BEKLENEN_2S_YALNIZ_TARAF = 2251   # 9 EKİM: 2250 → 2251 · DIVRIGI-MEMLUK-1008 + EK (Darende/Behisni),
+# AYNI commit (§3.4②). Ölçüm yazmadan hemen önce (§3.4⓪): önce 2250 · sonra 2251. Yeni kalem
+# Darende'nin 1400 Dulkadir kazancı (kıtanın hipotezi; `--ayrinti` 2sk'yi tek tek BASMADIĞI için
+# teşhis edilemedi — bu bir KAPI KUSURU, §3.4⑤ "liste, sayı değil"; ayrı kalem açıldı).
+# ⚠️ Bu sayaç 9 Ekim gecesinin EN ÇOK OYNAYAN tavanı: MOSTAR 0 · GÜRCİSTAN 0 · ARTUKLU 0 ·
+# DIVRIGI +1 · (bekleyen: HAYALET +2 · SABLON +3 · DOGU-1533 +8). Her inişte YENİDEN ölçülüyor.
+# 2246 → 2250, 6 Ekim: KELIME-CAKISMA-YER-1006c eşleştirici yaması (AYNI commit, §3.4②).
 #   +4 = 4 SAHTE YER kapanışının kalkması (KELİME-ÇAKIŞMASI 1006). Borç artışı DEĞİL, görünürlük kazancı.
 #   ADIYLA: Karşi (Nahşeb) 1920-09-02 ("Ermenistan'a karşı") · Buna (Bouna) 1897-01-01 (cümle başı
 #   zamir) · Ordu (Bayramlı) 1920-04-23 ("Kızıl Ordu") · Cotegipe 1889-11-15 ("Loizaga-Cotegipe
