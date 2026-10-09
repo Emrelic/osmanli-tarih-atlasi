@@ -426,3 +426,108 @@ ZAMAN-PAKET-1009-v2 içindeki `data/yer_yama_once1281_z6.js` (80 kayıt, **`taba
 ### Temizlik
 Worktree'ler `C:\atlas-umit-z5` (üretim + kapı + `--yaz`) ve `C:\atlas-umit-z5t` (v1 kapısı, 36186769/0c4b383c ölçümleri) kaldırıldı.
 `--yaz` YALNIZ `C:\atlas-umit-z5`te koştu. git stash kullanılmadı; C:\atlas ve C:\atlas-w6'ya yazılmadı.
+
+
+---
+
+## § v3 (1009/1010) — PAKET-v2 + Z6 inmiş tabana karşı yeniden üretim (sıra kanıtıyla)
+
+UMIT işçi · commit/push YOK · stash YOK · `--yaz` yalnız geçici worktree'lerde.
+
+YENİ DOSYALAR: denetim/ZAMAN-Z5-1009-KOORD-v3.diff
+DEĞİŞEN DOSYALAR: denetim/ARAC-ZAMAN-Z5-URET-1009.py (`--surum` · `--taban-tarif` · X_ANOMALI boşaltıldı) · bu md
+
+### İNİŞ SIRASI (bu diff yalnız bu sırada TAZE)
+1. **KAPI** — `SAHIPLIK-BAYAT-TABAN-1009.diff`
+2. **PAKET-v2** — `ZAMAN-PAKET-1009-v2.diff` (`git apply -C1`; index.html damga hunk'ı kayıyor)
+3. **Z6 yaması** — `py arac/_sahiplik_uygula.py --yaz --yama-glob '^yer_yama_once1281_z6\.js$' --taban 0c4b383c`
+4. **Z5 v3** — bu diff, sonra `py arac/_sahiplik_uygula.py --yaz --yama-glob '^yer_yama_1923_1945\.js$'` (`--taban` GEREKMEZ, beyan kayıtta)
+
+### TABAN — tam tarif
+`c25602a5a9e4b5b1fe67a26cc5c104d19b3be674` = **YEREL geçici commit, push YOK**, hiçbir dala/ref'e bağlı değil (worktree silindi; nesne erişilemez, git gc ile gider). İçeriği:
+origin/main `9d76de1e` + `SAHIPLIK-BAYAT-TABAN-1009.diff` + `ZAMAN-PAKET-1009-v2.diff` (`-C1`) + Z6 yamasının `--yaz` sonucu (11 yerleşim
+dosyası). SHA tek başına yeniden üretilemez, ⇒ tarif gövdenin başlığında da yazılı (`// TABAN TARİFİ:`).
+- Uygulama doğrulaması: kapı + paket sonrası `git diff --stat HEAD` **19 dosya** (paket 17: 16 değişen + yeni `yer_yama_once1281_z6.js`; kapı 2+1).
+- Z6 kuru koşu (`--taban 0c4b383c`): **çıkış 0**, 80/80 uygulandı, TABAN KAPISI TAZE, geri alma TAZE. `--yaz`: çıkış 0, 11 dosya, geri okuma 80/80 ✓.
+- `git apply --check` v3 diff'i: tabanla aynı temiz ağaçta ✓. LF, BOM yok, CR 0.
+
+### Gövde v3: 3.987 kayıt
+Kova sayıları v2 ile aynı, tek fark X_ANOMALI (aşağıda): A 3.210 (+1 Tehuantepec) · B 52 · C 263 · D 176 · V_himaye 39 · HS 247.
+
+### Kapı — sıralama kusurunun ölçümü (kuru koşu, aynı taban)
+| koşu | çıkış | sonuç |
+|---|---|---|
+| **v3**, `--taban` yok | **0** | uygulandi 3.987 · atlanan 0 · TABAN TAZE · geri alma TAZE · geri okuma 3.987/3.987 ✓ |
+| **v2** (809a8975 tabanlı), aynı tabanda | **2** | uygulandi 3.923 · **KAPSAM DARALDI 63** · **BAYAT TABAN 14** (alan `s`) · ölçülemedi 0 |
+
+**78 ortak kayıt ADIYLA** (Z6 ∩ Z5 = 78; kapı bunları iki ayrı kovada yakalıyor, toplam **77 + 1**):
+- **BAYAT TABAN 14** — Z5 v2 yazsaydı Z6'yı geri alırdı, kapı DURDURUYOR: Ankara · Bayburt · Bitlis · Elbistan · Erzincan · Erzurum ·
+  Kayseri · Kemah · Kırşehir · Sinop · Sivas · Tokat · Van · Çankırı.
+- **KAPSAM DARALDI 63** — kapı "yama EKLEME mi DEĞİŞTİRME mi belirsiz" diyerek ATLIYOR (Z6'nın 1281 öncesi dönemi v2'de yok;
+  4'ünde `gun→yil`): Antakya · Antalya · Atina · Ba'lebek (Baalbek) · Bağdat · Belh · Cizre · Delhi · Derbend · Dimetoka · Ecmîr (Ajmer) ·
+  Fas (Fez) · Gelibolu · Gence · Giresun · Girit (Resmo) · Halep · Hasankeyf · Herat · Hucend · Isfahan · Isparta · Karaman · Kars · Kavala ·
+  Kaşgar · Koil (Aligarh) · Konya · Kütahya · Lahor · Livadya · Manisa · Mardin · Merakeş · Merv (Mari) · Merâga · Modon · Nakşa · Niğde ·
+  Rabat · Rakka · Rize · Sebte (Ceuta) · Semerkant · Serahs · Sicilmâse (Tâfilelt) · Simnân · Tanca · Taşkent · Tebriz · Tekirdağ · Tikrit ·
+  Tilimsan · Trabzon · Vodina (Edessa) · Vâsıt · İskenderun · İstanbul · İstanköy · İstefe (Tebai) · İzmit · İznik · Şehrizor.
+  ⚠️ Bunlar GERİ ALINMAZ ama Z5 de İNMEZ — çıkış yine 2 olduğu için koşu bütünüyle durur; BAYAT 14 olmasaydı 63 kayıt sessizce
+  yamasız kalırdı (çıkış 0'a düşmezdi ama "atlanan" bir borçtur).
+- **+1 Tunus** — Z6 `s:` yazıyor, Z5 bu kayıtta YALNIZ `isg:`+`v:` yazıyor ⇒ alanlar ayrık, çakışma YOK, kapıya gelmiyor (doğru).
+- ⇒ Koordinatörün "78" beklentisi **77 + 1 (ayrık alan)** olarak tuttu.
+
+### Bağımsız dilim kontrolü (node ile gövde ↔ `girdi.yukle()`, tmp tabanda)
+| | ÖNCE1281 dilimi (f < 1281-01-01) farklı kayıt | 1281-1923 dilimi farklı kayıt | Z6'nın 1281 öncesi dönemi Z5'te EKSİK (s: yazan ortak) |
+|---|---|---|---|
+| **v3** | **0** | **0** | **0** / 77 kayıt (Z6'nın once1281 dönemi 140; hepsi v3 kaydında birebir) |
+| v2 | 77 | 63 | **77** / 77 — v2 Z6'yı bu 77 kayıtta geri alırdı |
+- Ölçüm aletim ilk koşuda "1 eksik" dedi: Tunus'u da saymıştı (Z5'te `s:` yok). Düzeltildi: `s:` yazmayan ortak kayıt ayrı listelenir.
+
+### Z5'in 1923 sonrası kapsamı — v2 ↔ v3 kayıt kayıt
+Ortak 3.986: **3.986 BİREBİR** (s/isg/v'nin 1923-10-29 sonrasına uzanan dönemleri, f dahil) · köprü-f 0 · başka fark 0 · `not:` farkı 0.
+Yalnız v3'te: **Tehuantepec** (X_ANOMALI silindi). Yalnız v2'de: yok.
+
+### X_ANOMALI — koordinatör hükmüyle (§3.4⑤) iki BAYAT girdi SİLİNDİ, tablo bugün BOŞ
+| girdi | tablodaki iddia | bugün (tmp taban, ölçüldü) | CANLI mı | silinince |
+|---|---|---|---|---|
+| St. John's (Newfoundland) | `s: abd` | `ingiliz-kuzey-amerika` 1763-02-10→1923-10-29 · s:'de `abd` YOK | **ÖLÜ** | **C kovası** (`ingiliz-kuzey-amerika` künye t = 1923-10-29, ardıl tanımsız) ⇒ yamaya GİRMEZ, değişiklik 0 kayıt. Kızıl Kızılderili Gölü + Plaisance ile aynı kova (C'de artık 3) |
+| Tehuantepec | `s: abd` | `meksika` 1821-09-27→1923-10-29 · s:'de `abd` YOK | **ÖLÜ** | **A_mekanik** ⇒ `meksika` t → 1945-09-02, A beyanıyla (+1 kayıt) |
+- Kalan girdi: **0** — "kalan CANLI mı" sorusunun cevabı boş küme. Üreticide yorum: yeni girdi, sahibin anomaliyi HÂLÂ taşıdığı ölçülerek eklenir.
+- 📌 Bulamadım: Newfoundland'in 1923 sahibinin `newfoundland-dominyonu` (künye 1855-01-01→1934-02-16) olması gerektiği açık görünüyor
+  (St. John's · Plaisance · Kızıl Kızılderili Gölü üçü de `ingiliz-kuzey-amerika`'da). Bu 1281-1923 dilimi işi, Z5'in değil; kaynak aranmadı.
+- 📌 Main'i düzelten commit'i `git log -S` adla bulamadım (kayıt çok satırlı); düzeltme 67e9ec9d'den önce olabilir — v1 o tabanda bile bayat tabloyla üretilmiş olabilir.
+
+### Ölçüm — `denetle.py --ayrinti` (PYTHONHASHSEED=0)
+Üç durum: **P** = main + kapı + PAKET-v2 (Z6 inmeden) · **T** = tmp taban (P + Z6 `--yaz`) · **S** = T + Z5 v3 `--yaz`.
+| sayaç | P | T (Z6 etkisi) | S (Z5 v3 etkisi) |
+|---|---|---|---|
+| 2s YABANCI kırılma | 1.739 | 1.805 (+66) | 1.842 (+37) |
+| **2s AÇIK** (tavan 181) | 181 ✓ | **193 ✗** (+12) | **208 ✗** (+15) |
+| 2s KAPSAM DIŞI | 792 | 793 | 814 (+21) |
+| 2s YIL-TEMSİLÎ BORÇ (uyarı 151) | 175 | 228 (+53) | 229 (+1) |
+| **2i İŞGAL** (tavan 1) | 171 / 1 açık ✓ | 171 / 1 ✓ | **182 / 12 açık ✗** (+11 kırılma, +11 açık) |
+| D7 sorgusuz enklav (🧊, beklenen 731) | 739 | 800 (+61) | 818 (+18) |
+| kaynaksız `s:` (tavan 1.930) | 1.880 | 1.834 | 1.441 — SAHTE (§⑤), tavan İNMEZ |
+| 4d | — | 4d sayısı aynı | listede 26 dönemin yalnız t'si uzadı |
+| öteki (1 · 1b · 1c · 2 · 2sk · 4c · …) | | birebir | birebir |
+| **çıkış** | 2 (yalnız D8 ÖLÇÜLEMEDİ) | **1** (2s) | **1** (2s + 2i) |
+- 🔴 **Taban Z5'ten ÖNCE kırmızı:** Z6'nın inişi tek başına 2s AÇIK'ı 181 → 193 yapıyor (tavan 181). Bu Z5'in değil, PAKET/Z6'nın sayacı.
+- 🔴 **Z5 v3'ün kendi katkısı:** 2s AÇIK +15 ve **2i +11 açık** — ufuk (PAKET-v2 `UFUK` 1945) açıldığı için Z5'in 1924-45 kırılmaları
+  İLK KEZ sayılıyor. 2i'nin yeni açıkları adıyla: 1938-03-13 Avusturya · 1938-10-01 Südet · 1938-11-02 G.Slovakya · 1939-03-14 Slovakya ·
+  1939-03-15 Protektora (Brno, Hradec Králové, Olomouc) · 1939-04-07 Arnavutluk · 1939-09-28 D.Polonya · 1940-06-14 Tanca ·
+  1940-06-28 Besarabya · 1940-08-19 / 1941-01-01 İng. Somalisi · 1941-04-10 NDH · 1944-11-29 · 1945-01-20 · 1945-04-01 · 1945-04-04 ·
+  1945-05-08 · 1945-05-31 · 1945-06-05 (Almanya). Hepsinin "en yakın madde"si binlerce gün ötede: **günleri `kronoloji_cok_1923_1945.js`
+  maddeleriyle 0 gün farkla AYNI ama o dosya Değişmez 2 evreninde DEĞİL** (v1 §③'ün öngördüğü tam bu). Çare kronoloji kararıdır
+  (dosyayı evrene almak ya da maddeyi `olaylar*`a taşımak), Z5 gövdesi değil.
+- **Bu sayaçlara dokunan bekleyen diff'ler:** 2s/2i → KRONO-SONRA1923-EKSIK A/B (`kronoloji_cok_1923_1945.js`; ama evren dışı olduğu
+  sürece etkisi 0) + PAKET-v2 zaten tabanda. D7 → 0. kaynaksız → 0. SEFER-PENCERE · KRONO-GORUNURLUK×3 · BOYA-BORC · KAPI → 0.
+  Tavan önerilmedi.
+- ⚠️ 2s AÇIK'ın ad listesi `--ayrinti`'de BASILMIYOR (yalnız sayı) — 2s'nin +12/+15'ini adıyla veremedim.
+
+### İstiyorum
+1. İniş sırası yukarıdaki dörtlü; v2 diff'i artık KULLANILMAMALI (aynı tabanda çıkış 2, 14 BAYAT + 63 atlanan).
+2. 2i/2s için kronoloji evreni kararı (Z5'in 1924-45 kırılmaları ancak `kronoloji_cok_1923_1945` evrene girerse kapanır).
+3. Z6'nın 2s AÇIK +12'si için PAKET/Z6 sahibinin bakması (taban Z5'ten önce çıkış 1).
+4. `VERI_UFKU` (girdi.py) hâlâ `1923-10-29`; Z5 indiğinde genişletilmesi PAKET/Z1 kararı.
+
+### Temizlik
+Worktree'ler `C:\atlas-umit-z5v3` (tmp commit + v3 + `--yaz`) · `C:\atlas-umit-z5v3b` (v2 aynı tabanda) · `C:\atlas-umit-z5v3c`
+(P ölçümü) kaldırıldı; tmp commit hiçbir dala bağlı değildi. C:\atlas'a yazılmadı.

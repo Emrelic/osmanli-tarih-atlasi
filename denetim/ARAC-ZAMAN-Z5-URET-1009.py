@@ -34,6 +34,10 @@ import girdi
 UC, UFUK2 = "1923-10-29", "1945-09-02"
 YAMA = "--yama" in sys.argv
 YAMA_YOL = sys.argv[sys.argv.index("--yama-yol") + 1] if "--yama-yol" in sys.argv else "data/yer_yama_1923_1945.js"
+# --surum v3 · --taban-tarif "<metin>": taban yerel/geçici bir commit ise (SHA main'de yok) nasıl KURULDUĞU
+#   başlığa yazılır — SHA tek başına yeniden üretilemez.
+SURUM = sys.argv[sys.argv.index("--surum") + 1] if "--surum" in sys.argv else "v2"
+TABAN_TARIF = sys.argv[sys.argv.index("--taban-tarif") + 1] if "--taban-tarif" in sys.argv else None
 TEMEL_TAM = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()
 _kirli = subprocess.run(["git", "status", "--porcelain", "--", "data/"], capture_output=True, text=True,
                         check=True).stdout.splitlines()
@@ -170,10 +174,12 @@ A_SUPHELI = {
     "San Ignacio de Zamucos": "Chaco Boreal 1938 — hangi yakada ÖLÇÜLEMEDİ",
 }
 # Anomali — 1923'te sahibi açıkça yanlış görünen nokta (düzeltme Z5'in işi DEĞİL)
-X_ANOMALI = {
-    "St. John's (Newfoundland)": "s: abd — Newfoundland 1923'te İngiliz dominyonu (künye newfoundland-dominyonu 1855-1934)",
-    "Tehuantepec": "s: abd — Meksika toprağı",
-}
+# 🔴 v3 (koordinatör hükmü, CLAUDE.md §3.4⑤ — ölü istisna yarın gerçek bir ihlali susturur): iki girdi SİLİNDİ,
+#    ikisi de main'de düzeltilmişti (ölçüldü, taban c25602a5): St. John's (Newfoundland) s: artık
+#    `ingiliz-kuzey-amerika` 1763-02-10→1923-10-29 (eski "s: abd" anomalisi YOK) · Tehuantepec s: artık
+#    `meksika` 1821-09-27→1923-10-29 (eski "s: abd" YOK). Tablo bugün BOŞ; yeni girdi ADIYLA ve ölçülerek eklenir.
+#    Bir girdi, adın sahibi tablodaki anomaliyi hâlâ taşıyorsa CANLIDIR — eklerken bu soru da yazılır.
+X_ANOMALI = {}
 
 Y = girdi.yukle(sessiz=True)
 KUNYE = girdi.oku_devletler()
@@ -553,7 +559,8 @@ for v in kova.values():
 if YAMA:
     BAS = [
         "// ═══════════════════════════════════════════════════════════════════════════",
-        "// ZAMAN-Z5 v2 (9 Ekim 2026) — TABAN " + TEMEL_TAM,
+        "// ZAMAN-Z5 " + SURUM + " (9 Ekim 2026) — TABAN " + TEMEL_TAM,
+    ] + (["// TABAN TARİFİ: " + TABAN_TARIF] if TABAN_TARIF else []) + [
         "// Bu gövde, 67e9ec9d tabanlı v1'in (KARANTİNA, 36186769) yerine BUGÜNKÜ main'e karşı",
         "// YENİDEN ÜRETİLDİ. Her kayıt `taban:{s|isg|v}` taşır: yamanın üzerine yazdığı alanın",
         "// TABAN " + TEMEL_TAM[:8] + "'deki değeri. arac/_sahiplik_uygula.py (SAHIPLIK-BAYAT-TABAN-1009 kapısıyla)",
