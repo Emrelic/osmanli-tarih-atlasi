@@ -400,14 +400,23 @@ def port_coz(a):
     return PORT_VARSAYILAN
 
 
+# Tailscale CGNAT aralığı (RFC 6598 "shared address space"). Python bunu `is_private`
+# SAYMIYOR — ölçüldü 9 Ekim 2026: 100.64.0.1 / 100.100.100.100 / 100.127.255.254 → False.
+# Bu satır olmadan Tailscale'den gelen her istek SESSİZCE reddedilirdi ("sunucu ayakta ama
+# kimse ulaşamıyor"). Tailscale'in IPv6 aralığı fd7a:115c:a1e0::/48 ULA'dır, is_private zaten True.
+TAILSCALE_CGNAT = ipaddress.ip_network("100.64.0.0/10")
+
+
 def izinli_ip(ip_metni):
-    """Yalnız yerel ağ/loopback. İnternete açılan bir kapı OLMAYACAK."""
+    """Yalnız yerel ağ/loopback/Tailscale. İnternete açılan bir kapı OLMAYACAK."""
     try:
         ip = ipaddress.ip_address(ip_metni)
     except ValueError:
         return False
     if getattr(ip, "ipv4_mapped", None):
         ip = ip.ipv4_mapped
+    if ip.version == 4 and ip in TAILSCALE_CGNAT:
+        return True
     return ip.is_private or ip.is_loopback
 
 
