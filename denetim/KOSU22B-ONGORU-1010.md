@@ -35,10 +35,7 @@ Bu ikisi daha önce BİRLİKTE ölçülmedi.
 ## Ardıl renk (renk_olc, RENK-ARDIL inmediği için bu koşuda ÖLÇÜLMEZ)
 - Z6 ile +2 ardıl ihlali (delhi↔gurlu 3.48, artuklu↔büyük-selçuklu 11.25) ve eşzamanlı komşu
   çakışması 7 → 8 (artuklu↔büyük-selçuklu). renk_olc'un eski ölçütü bu koşuda 8'i görür.
-</content>
-</invoke>
-<invoke name="PowerShell">
-<parameter name="command">Set-Location C:\atlas-umit; git fetch -q origin; git log --oneline -1 origin/main; $d="C:\atlas-umit\denetim\ZAMAN-PAKET-1009-v2.diff"; (Get-FileHash $d -Algorithm SHA256).Hash.ToLower(); $t="C:\atlas-umit-k22"; git worktree add -q --detach $t origin/main; git -C $t apply --check $d; "check=$LASTEXITCODE"; git -C $t apply --check -C1 $d; "checkC1=$LASTEXITCODE"; Select-String -Path $d -Pattern '^[-+].*(BITIS\s*=|^\+?-?UFUK = |UFUK = \()' | % Line
+
 ## ÖLÇÜM SONRASI (aynı gece, P = main+PAKET, T = P+Z6 --yaz, taban 6df8c2cd)
 - TUTMADI: 'Z6 2s katkısı 0' — ufuk 1000'e açılınca Z6'nın 1000-1281 kırılmaları 2s evrenine giriyor. T: 2s AÇIK 193 > 181 ⇒ ÇIKIŞ 1. 12 birim 1084-1268 (Antakya, İznik, Merakeş, Gelibolu/İstanbul, Girit, Antalya, Bağdat, Halep, Dimetoka …); maddeleri kuyruktaki kronoloji_cok_once1281_*'de.
 - TUTMADI (boyut): YIL-TEMSİLÎ 175 → 228 · D7 739 → 800 (🧊, ihlal sayılmıyor).
