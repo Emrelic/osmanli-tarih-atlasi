@@ -1,0 +1,266 @@
+diff --git a/arac/_defter_sinav_ok102.py b/arac/_defter_sinav_ok102.py
+index cb3ce8ee..34cd72f0 100644
+--- a/arac/_defter_sinav_ok102.py
++++ b/arac/_defter_sinav_ok102.py
+@@ -35,7 +35,13 @@ import girdi
+ import denetle
+ import denetle_eslesme as esl
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ 
+diff --git a/arac/_odenmis_sinav_ok102.py b/arac/_odenmis_sinav_ok102.py
+index 88d2c3c8..8f6c5347 100644
+--- a/arac/_odenmis_sinav_ok102.py
++++ b/arac/_odenmis_sinav_ok102.py
+@@ -28,7 +28,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ import girdi
+ import denetle_eslesme as esl
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ 
+diff --git a/arac/_odunc_capraz_sh110.py b/arac/_odunc_capraz_sh110.py
+index 8dd469fe..9a62cf7e 100644
+--- a/arac/_odunc_capraz_sh110.py
++++ b/arac/_odunc_capraz_sh110.py
+@@ -46,7 +46,13 @@ import subprocess
+ import sys
+ 
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+diff --git a/arac/_yer_eslesme_ok102.py b/arac/_yer_eslesme_ok102.py
+index ac1684a7..442eecda 100644
+--- a/arac/_yer_eslesme_ok102.py
++++ b/arac/_yer_eslesme_ok102.py
+@@ -55,7 +55,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ import girdi
+ import denetle
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ PENCERE_GUN = 30      # Değişmez 2 ile aynı; bilerek aynı, gevşetilmez
+diff --git a/arac/denetle_anakronizm.py b/arac/denetle_anakronizm.py
+index 6995fd32..ac05e12d 100644
+--- a/arac/denetle_anakronizm.py
++++ b/arac/denetle_anakronizm.py
+@@ -29,7 +29,13 @@ import sys
+ # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
+ # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
+ # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 
+diff --git a/arac/denetle_bitisiklik.py b/arac/denetle_bitisiklik.py
+index 906c59f9..e83697e5 100644
+--- a/arac/denetle_bitisiklik.py
++++ b/arac/denetle_bitisiklik.py
+@@ -34,7 +34,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 
+ import girdi
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ from shapely.geometry import LineString, Polygon, shape
+diff --git a/arac/denetle_bosluk.py b/arac/denetle_bosluk.py
+index 2b5c43b3..8e9ed6db 100644
+--- a/arac/denetle_bosluk.py
++++ b/arac/denetle_bosluk.py
+@@ -57,7 +57,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 
+ import girdi
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ from shapely.geometry import Point, Polygon, shape
+diff --git a/arac/denetle_eslesme.py b/arac/denetle_eslesme.py
+index 65bcdb59..e35ce7f7 100644
+--- a/arac/denetle_eslesme.py
++++ b/arac/denetle_eslesme.py
+@@ -41,7 +41,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ import girdi
+ import denetle
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ PENCERE_GUN = 30            # Değişmez 2 ile aynı; bilerek aynı
+diff --git a/arac/denetle_gorunur.py b/arac/denetle_gorunur.py
+index 6a5e6757..a69038b5 100644
+--- a/arac/denetle_gorunur.py
++++ b/arac/denetle_gorunur.py
+@@ -41,7 +41,13 @@ import os
+ import re
+ import sys
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+diff --git a/arac/denetle_gorunurluk.py b/arac/denetle_gorunurluk.py
+index 76a98ecc..5dc87701 100644
+--- a/arac/denetle_gorunurluk.py
++++ b/arac/denetle_gorunurluk.py
+@@ -38,7 +38,13 @@ import sys
+ # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
+ # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
+ # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+diff --git a/arac/denetle_olcek.py b/arac/denetle_olcek.py
+index 83da136b..16b8cef6 100644
+--- a/arac/denetle_olcek.py
++++ b/arac/denetle_olcek.py
+@@ -37,7 +37,13 @@ from math import cos, radians
+ # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
+ # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
+ # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+diff --git a/arac/denetle_statu.py b/arac/denetle_statu.py
+index c4b2c702..7cf0f519 100644
+--- a/arac/denetle_statu.py
++++ b/arac/denetle_statu.py
+@@ -46,7 +46,13 @@ import denetle
+ # İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında buffer'ı KAPATIR
+ # ve araç "ValueError: I/O operation on closed file" ile ölür. Ölçüm betiğinde
+ # bir kez yaşandı; burada da yaşanacaktı.
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KOK = girdi.KOK
+diff --git a/arac/denetle_tabiyet.py b/arac/denetle_tabiyet.py
+index e9113cd8..03fc273d 100644
+--- a/arac/denetle_tabiyet.py
++++ b/arac/denetle_tabiyet.py
+@@ -49,7 +49,13 @@ import json
+ import os
+ import sys
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 
+diff --git a/arac/denetle_tutarlilik.py b/arac/denetle_tutarlilik.py
+index e841439c..127d3861 100644
+--- a/arac/denetle_tutarlilik.py
++++ b/arac/denetle_tutarlilik.py
+@@ -38,7 +38,13 @@ import os
+ import re
+ import sys
+ 
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 

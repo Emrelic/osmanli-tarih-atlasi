@@ -1,0 +1,258 @@
+diff --git a/arac/denetle_yayin.py b/arac/denetle_yayin.py
+index 81182f01..496e3bf0 100644
+--- a/arac/denetle_yayin.py
++++ b/arac/denetle_yayin.py
+@@ -45,7 +45,13 @@ import tempfile
+ # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
+ # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
+ # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
+-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
++# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
++# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
++# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
++# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
++if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
++        and hasattr(sys.stdout, "buffer")):
+     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+diff --git a/denetim/ARAC-STDOUT-A-SINAV-1010.py b/denetim/ARAC-STDOUT-A-SINAV-1010.py
+new file mode 100644
+index 00000000..8c51bf2d
+--- /dev/null
++++ b/denetim/ARAC-STDOUT-A-SINAV-1010.py
+@@ -0,0 +1,233 @@
++"""ARAC-STDOUT-A-1010 sınavı — A sınıfı 15 aracın modül düzeyindeki stdout
++kodlama satırı `redirect_stdout(io.StringIO())` altında çökmemeli.
++
++Kusur (DENETLE-STDOUT-1010'un TIPATIP aynısı, `denetle.py`de 65b8965d ile kapandı):
++    if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, ...)
++StringIO'da `encoding` öznitelik olarak VAR ve None'dır ⇒ `None.lower()` →
++AttributeError; geçilse bile `buffer` yok.
++
++Kullanım:
++    py denetim/ARAC-STDOUT-A-SINAV-1010.py denetle_yayin            # tek dosya
++    py denetim/ARAC-STDOUT-A-SINAV-1010.py --hepsi                  # 15 dosya
++    py denetim/ARAC-STDOUT-A-SINAV-1010.py denetle_yayin --cli denetle_yayin
++
++Her dosya için İKİ YÖN, her soru TAZE alt süreçte:
++  (a) YAMASIZ metin StringIO altında içe aktarılınca DÜŞER   (kusurun kanıtı)
++  (b) YAMALI   metin aynı koşulda içe aktarılır; `sys.stdout is tampon`,
++      Türkçe metin tamponda
++  (d) `PYTHONIOENCODING=cp1254` akışında `ğĞüÜşŞıİöÖçÇ` UTF-8 baytlarıyla
++      basılır, yamalı = yamasız bayt bayt (mevcut davranış korunuyor)
++  (c) yalnız `--cli <ad>` verilen dosyada: `PYTHONHASHSEED=0 py arac/<ad>.py
++      > dosya` (gerçek CLI, yamalı) + çalıştırıcıda yamalı/yamasız `__main__`:
++      çıkış kodu üçünde aynı · yamalı = yamasız BAYT BAYT · CLI = yamalı.
++
++Yamasız metin DİSKE YAZILMAZ: yamalı dosyadaki blok bellekte eski iki satıra
++çevrilir, alt sürecin STDIN'ine verilir ve gerçek yolun `__file__`ı ile
++derlenir (KOK/sys.path/kardeş içe aktarım birebir; arac/'a dosya yazılmaz).
++
++Çıkış: 0 hepsi geçti · 1 en az bir soru KALDI · 2 ÖLÇÜLEMEDİ (bir dosyada yama
++bloğu bulunamadı ya da zaman aşımı). Ölçülemeyen soru TEMİZ sayılmaz; ihlal
++varsa 1 döner ama ölçülemeyenler yine ADIYLA basılır.
++"""
++import os
++import subprocess
++import sys
++import tempfile
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = os.path.join(KOK, "arac")
++
++HEPSI = [
++    "denetle_yayin",
++    "denetle_anakronizm", "denetle_bitisiklik", "denetle_bosluk",
++    "denetle_eslesme", "denetle_gorunur", "denetle_gorunurluk",
++    "denetle_olcek", "denetle_statu", "denetle_tabiyet", "denetle_tutarlilik",
++    "_defter_sinav_ok102", "_odenmis_sinav_ok102", "_odunc_capraz_sh110",
++    "_yer_eslesme_ok102",
++]
++
++ESKI = ('if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):\n'
++        '    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")\n')
++YENI_BAS = "# 🔴 ARAC-STDOUT-A-1010"
++YENI_SON = '    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")\n'
++TR = "ğĞüÜşŞıİöÖçÇ"
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++
++
++def kaynaklar(ad):
++    """(yamalı, yamasız) metin; yama bulunamazsa (None, sebep)."""
++    yol = os.path.join(ARAC, ad + ".py")
++    if not os.path.exists(yol):
++        return None, "dosya yok: arac/%s.py" % ad
++    with open(yol, encoding="utf-8", newline="") as f:
++        s = f.read().replace("\r\n", "\n")
++    if s.count(YENI_BAS) != 1:
++        return None, "yama bloğu %d kez (1 beklenir)" % s.count(YENI_BAS)
++    if ESKI in s:
++        return None, "eski satır hâlâ dosyada"
++    i = s.find(YENI_BAS)
++    i = s.rfind("\n", 0, i) + 1  # satır başı
++    j = s.find(YENI_SON, i)
++    if j < 0:
++        return None, "yama bloğunun sarmalayıcı satırı yok"
++    yamasiz = s[:i] + ESKI + s[j + len(YENI_SON):]
++    return (s, yamasiz), None
++
++
++# Alt süreç çalıştırıcısı: kaynağı STDIN'den okur (yamasız metin diske inmez),
++# gerçek yolun __file__ı ile derler.
++KOSUCU = r'''
++import sys, os
++kip, gercek, ad = sys.argv[1], sys.argv[2], sys.argv[3]
++src = sys.stdin.buffer.read().decode("utf-8")
++sys.argv = [gercek]
++sys.path.insert(0, os.path.dirname(gercek))
++kod = compile(src, gercek, "exec")
++TR = "ğĞüÜşŞıİöÖçÇ"
++if kip == "ice":
++    import io, contextlib, types
++    tampon = io.StringIO()
++    m = types.ModuleType(ad); m.__file__ = gercek
++    sys.modules[ad] = m
++    try:
++        with contextlib.redirect_stdout(tampon):
++            exec(kod, m.__dict__)
++            print("YAKALANDI-" + TR)
++            ayni = sys.stdout is tampon
++    except BaseException as e:
++        sys.__stdout__.write("DUSTU %s: %s\n" % (type(e).__name__, e)); sys.exit(7)
++    ok = ayni and ("YAKALANDI-" + TR) in tampon.getvalue()
++    sys.__stdout__.write("ICE-AKTARILDI yakalama=%s\n" % ok); sys.exit(0 if ok else 8)
++elif kip == "tr":
++    m = {"__name__": ad, "__file__": gercek}
++    exec(kod, m)
++    print("TR: " + TR)
++    sys.stdout.flush()
++else:  # ana
++    g = {"__name__": "__main__", "__file__": gercek}
++    exec(kod, g)
++'''
++
++
++def _env(ek=None):
++    env = dict(os.environ)
++    env.pop("PYTHONIOENCODING", None)
++    env.pop("PYTHONUTF8", None)
++    env["PYTHONHASHSEED"] = "0"
++    if ek:
++        env.update(ek)
++    return env
++
++
++def kos(kip, ad, metin, env_ek=None, zaman=300, cikti=None):
++    gercek = os.path.join(ARAC, ad + ".py")
++    c = subprocess.run([sys.executable, "-c", KOSUCU, kip, gercek, ad], cwd=KOK,
++                       env=_env(env_ek), input=metin.encode("utf-8"),
++                       stdout=cikti if cikti is not None else subprocess.PIPE,
++                       stderr=subprocess.STDOUT if cikti is not None else subprocess.PIPE,
++                       timeout=zaman)
++    return c.returncode, c.stdout or b"", c.stderr or b""
++
++
++def kos_cli(ad, dosya, zaman):
++    with open(dosya, "wb") as f:
++        c = subprocess.run([sys.executable, os.path.join(ARAC, ad + ".py")], cwd=KOK,
++                           env=_env(), stdout=f, stderr=subprocess.STDOUT, timeout=zaman)
++    return c.returncode
++
++
++def sina(ad, cli, sonuc, olculemedi):
++    k, sebep = kaynaklar(ad)
++    if k is None:
++        olculemedi.append("%s: %s" % (ad, sebep))
++        print("  ⚪ %-22s ÖLÇÜLEMEDİ — %s" % (ad, sebep))
++        return
++    yamali, yamasiz = k
++    try:
++        # (a) yamasız düşer
++        rc, out, err = kos("ice", ad, yamasiz)
++        t = out.decode("utf-8", "replace").strip()
++        a = rc == 7 and "AttributeError" in t
++        sonuc["%s a" % ad] = a
++        print("  %s %-22s (a) yamasız StringIO: rc=%d %s" % ("✓" if a else "✗", ad, rc, t[:90]))
++        # (b) yamalı geçer
++        rc, out, err = kos("ice", ad, yamali)
++        t = out.decode("utf-8", "replace").strip()
++        b = rc == 0 and "yakalama=True" in t
++        sonuc["%s b" % ad] = b
++        print("  %s %-22s (b) yamalı  StringIO: rc=%d %s%s" % (
++            "✓" if b else "✗", ad, rc, t[:90],
++            "" if b else " | " + err.decode("utf-8", "replace")[-200:]))
++        # (d) cp1254 akışında Türkçe
++        e = {"PYTHONIOENCODING": "cp1254"}
++        r1, o1, _ = kos("tr", ad, yamali, e)
++        r2, o2, _ = kos("tr", ad, yamasiz, e)
++        hedef = ("TR: " + TR).encode("utf-8")
++        d = r1 == r2 == 0 and o1 == o2 and hedef in o1
++        sonuc["%s d" % ad] = d
++        print("  %s %-22s (d) cp1254: rc %d/%d · bayt-eşit=%s · UTF-8 Türkçe=%s" % (
++            "✓" if d else "✗", ad, r1, r2, o1 == o2, hedef in o1))
++        if ad in cli:
++            zaman = 1200
++            gd = tempfile.mkdtemp(prefix="stdoutA_")
++            f_cli = os.path.join(gd, "cli.txt")
++            f_y = os.path.join(gd, "yamali.txt")
++            f_s = os.path.join(gd, "yamasiz.txt")
++            rc_c = kos_cli(ad, f_cli, zaman)
++            with open(f_y, "wb") as f:
++                rc_y = kos("ana", ad, yamali, zaman=zaman, cikti=f)[0]
++            with open(f_s, "wb") as f:
++                rc_s = kos("ana", ad, yamasiz, zaman=zaman, cikti=f)[0]
++            bc, by, bs = (open(p, "rb").read() for p in (f_cli, f_y, f_s))
++            c = rc_c == rc_y == rc_s and by == bs and len(by) > 0
++            sonuc["%s c" % ad] = c
++            cli_bayt = bc == by
++            cli_satir = bc.splitlines() == by.splitlines()
++            if not cli_bayt:
++                c = c and cli_satir
++                sonuc["%s c" % ad] = c
++            print("  %s %-22s (c) CLI: çıkış CLI=%d yamalı=%d yamasız=%d · yamalı/yamasız "
++                  "bayt-eşit=%s (%d bayt) · CLI/yamalı bayt-eşit=%s satır-eşit=%s" % (
++                      "✓" if c else "✗", ad, rc_c, rc_y, rc_s, by == bs, len(by),
++                      cli_bayt, cli_satir))
++            print("      çıktılar: %s" % gd)
++    except subprocess.TimeoutExpired as ex:
++        olculemedi.append("%s: zaman aşımı (%s)" % (ad, ex.cmd[:2]))
++        print("  ⚪ %-22s ÖLÇÜLEMEDİ — zaman aşımı" % ad)
++
++
++def main():
++    arg = sys.argv[1:]
++    cli = []
++    while "--cli" in arg:
++        i = arg.index("--cli")
++        cli.append(arg[i + 1])
++        del arg[i:i + 2]
++    adlar = HEPSI[:] if "--hepsi" in arg else [a for a in arg if not a.startswith("--")]
++    adlar = [a[:-3] if a.endswith(".py") else a for a in adlar]
++    if not adlar:
++        print(__doc__)
++        return 2
++    sonuc, olculemedi = {}, []
++    print("ARAC-STDOUT-A-SINAV-1010 · %d dosya · CLI: %s" % (len(adlar), ", ".join(cli) or "yok"))
++    for ad in adlar:
++        sina(ad, cli, sonuc, olculemedi)
++    kalan = [k for k, v in sonuc.items() if not v]
++    print("\nSONUÇ: %d dosya · %d soru · %d kaldı · %d ölçülemedi" % (
++        len(adlar), len(sonuc), len(kalan), len(olculemedi)))
++    for k in kalan:
++        print("  KALDI: %s" % k)
++    for o in olculemedi:
++        print("  ÖLÇÜLEMEDİ: %s" % o)
++    if kalan:
++        return 1
++    if olculemedi:
++        return 2
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())
