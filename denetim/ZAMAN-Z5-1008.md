@@ -319,3 +319,110 @@ taşınır (ölçüt sabit kalır ama dönem kaynaksız görünür).
 - `denetim/ZAMAN-Z5-1008-yer_yama_1923_1945.js` — aynı dosyanın düz kopyası (okumak için)
 - `denetim/ARAC-ZAMAN-Z5-OLC-1008.py` — ölçüm + yama üretici (bölge tablosu içinde; T kararı
   "isg" olursa `T_BOLGE` girdileri silinip yeniden koşulur)
+
+
+---
+
+## § v2 (1009) — BUGÜNKÜ main'e karşı YENİDEN ÜRETİM + kayıt başına `taban:` beyanı
+
+UMIT işçi · **TABAN `809a8975228c772435f05bf65f0e7a8c9625bf07`** (origin/main, 9 Ekim) · geçici worktree `C:\atlas-umit-z5`
+(origin/main + `SAHIPLIK-BAYAT-TABAN-1009.diff`; `git diff --stat` ile uygulandığı doğrulandı: `_sahiplik_uygula.py` +181/−5) · commit/push YOK.
+
+YENİ DOSYALAR: denetim/ZAMAN-Z5-1009-KOORD-v2.diff · denetim/ARAC-ZAMAN-Z5-URET-1009.py
+
+### Ne yapıldı
+- Üretici `denetim/ARAC-ZAMAN-Z5-URET-1009.py` = `ARAC-ZAMAN-Z5-OLC-1008.py` + üç değişiklik. **Kova mantığı ve bütün tablolar
+  (B_GECIS · T_BOLGE · D_ARDIL · HS_GRUP · A/V beyanları) BİREBİR aynı**; dış kaynak/ağ istemiyor (yalnız `girdi.yukle()`,
+  künye, `kronoloji_cok_1923_1945.js`; koşu 4 sn).
+  ① her kayda `taban:{s|isg|v}` — yamanın üzerine yazdığı alanın üretim anındaki değeri, motorun okuyucusunun gördüğü biçimde.
+     Alan kayıtta yoksa `null` (kapının sözleşmesi). ⚠️ SAHIPLIK-BAYAT-TABAN md'sinin önerdiği `r["_"+a]` satırı DEĞİL:
+     o diziler `or []` ile doldurulmuş — kayıtta hiç `isg:` yokken `[]` beyan ederdi, kapı `[] ≠ yok` diye sahte BAYAT derdi.
+     Ham `y.get(a)` kullanıldı.
+  ② başlık TAM taban SHA'sını yazar; "1281-1923 BİREBİR aynı" cümlesine "TABAN 809a8975'ya göre" eklendi; karantina bloğu
+     v2 açıklamasıyla değişti (girdi listesine alınması yine koordinatör kararı — bugün GIRDI_DOSYALARI/index.html okumuyor).
+  ③ `data/` kirliyse DURUR (çıkış 2): kirli ağaçtan okunan taban, beyan edilen SHA'ya ait olmaz.
+- Gövde: **3.986 kayıt** (v1 3.982). Kova: A 3.209 · B 52 · C 263 · D 176 · V_himaye 39 · HS 247 (`yama_say`); 1923-10-29'da biten
+  4.130 noktanın kalan 144'ü yamada YOK (v1: 148).
+
+### Kapı — iki yönde (kuru koşu, PYTHONHASHSEED=0, ~25 dk)
+| koşu | çıkış | sonuç |
+|---|---|---|
+| **v2**, `--taban` YOK (beyan kayıtta) | **0** | uygulandi 3.986 · atlanan 0 · TAZE · geri alma kapısı TAZE · geri okuma 3.986/3.986 ✓ · mükerrer-tekillendi 2 (Taraz, Sayram) · not-eklendi 711 |
+| **v1** (main'deki karantinalı gövde), `--taban 67e9ec9d` | **2** | uygulandi 3.975 · KAPSAM DARALDI 7 · **BAYAT TABAN 91 kayıt (91 alan)** · ölçülemedi 0 |
+- v1 bugün **91** veriyor, 76 değil: kapının 76'sı `36186769` tabanında ölçülmüştü; o günden bu yana main'e **0c4b383c
+  EPOK-SAHIP-1009** indi ve 15 kayıt daha bayatladı. **91 = 76 + 15.**
+
+### 83 ↔ 98 teşhisi — ÖLÇÜT AYNI, ÖLÇÜLEN main FARKLI
+Bağımsız ölçüm (kapıdan bağımsız; node ile yamanın kendi okuyuşu ↔ `girdi.yukle()`): kayıt kayıt **1281-1923 dilimi** (f < 1923-10-29
+olan dönemler, t'si 1923-10-29'a kırpılarak) yama ↔ veri:
+
+| main | v1 dilimi FARKLI kayıt | dönem simetrik fark |
+|---|---|---|
+| `36186769` (karantina commit'i) | **83** | 268 |
+| `0c4b383c^` | **83** | 268 |
+| `0c4b383c` EPOK-SAHIP-1009 | **98** | 313 |
+| `809a8975` (bugün) | **98** | 313 |
+
+- ⇒ 98 − 83 = **tam olarak `0c4b383c`**: Aden · Akkâ · Alanya · Alaşehir · Balyabadra (Patras) · Beyrut · Diyarbakır · Draç · Hama ·
+  Korfu · Köprülü (Veles) · Malta · Sayda · Trablusşam · Zebîd (15). Hepsi `s:`, hepsi kapının BAYAT listesinde.
+- `ARAC-ZAMAN-Z5-SINAV-1008.py` ① (dönem düzeyi) bugün v1'de: eski_dönem_kayıp 145 (93 kayıt) · eski_dönem_değişti 31 · uç_dönem_kısaldı 2 ·
+  yeni_dönem_1923_önce 102 (92 kayıt) ⇒ **birleşim 98 kayıt**, dilim ölçümüyle küme olarak AYNI (fark 0/0).
+- Kapı ↔ dilim: **kapı 91 ∪ KAPSAM DARALDI 7 = dilim 98, birebir küme** (bugün); dün aynı ilişki 76 + 7 = 83.
+  Yani "76/83/91/98" dört sayı iki eksende: ① kapı yazmayacağı 7'yi saymaz ② ölçüldüğü main.
+- **v2'de ikisi de 0:** dilim ölçümü 0 kayıt / 0 dönem · sınav ① ③ ihlal YOK (çıkış 0) · kapı TAZE. v2'de KAPSAM DARALDI da 0 —
+  o 7 kayıt bayat tabanın yan ürünüydü.
+
+### Z5 kapsamı korundu mu — v1 ↔ v2, 1923-10-29 SONRASINA uzanan dönemler kayıt kayıt
+- Ortak 3.980 kayıt: **3.977 BİREBİR** (s/isg/v'nin t > 1923-10-29 dönemleri, f'leri dahil).
+- Köprü dönemin yalnız f'si kayan: **0** (beklenen sınıf hiç oluşmadı).
+- **Farklı 3** — Kahnawake · Ossossané · Sainte-Marie-au-pays-des-Hurons: v1 `abd 1783-09-03→1945`, v2 `kanada 1867-07-01→1945`.
+  Sebep 1281-1923 dilimindeki main düzeltmesi (1923'teki sahip artık kanada); uzatma onu doğru biçimde devraldı.
+- **Yalnız v1'de 2** — Kızıl Kızılderili Gölü (Beothuk) · Plaisance (Placentia): main (658a7552 DALGA 1) 1867 kanada dönemini
+  kaldırdı, 1923 sahibi artık `ingiliz-kuzey-amerika` (künye t = 1923-10-29) ⇒ C kovası, ardıl tanımsız, yamaya girmiyor.
+  v1 bu ikisine Newfoundland için yanlış olan `kanada → 1945`'i yazardı.
+- **Yalnız v2'de 6** — Bangalor · Meysûr (Mysore) · Seringapatam · Uccayn (Ujjain) · Sohum · Elba: v1'de "künyesi 1923'ten önce
+  ölmüş" (X) idiler; main'de 1923 sahipleri düzeltildi (meysur-racaligi · gvalyar · sovyet-rusya · italya) ⇒ A, mekanik uzatma.
+- `not:` farklı 2 — Bhopâl · Surakarta: v1'de C (uzat), v2'de A (bhopal/surakarta künye t'si artık 1945) ⇒ A beyanı eklendi; `s:` aynı.
+- 3.982 − 2 + 6 = 3.986 ✓.
+
+### Ölçüm — `py arac/denetle.py --ayrinti` (PYTHONHASHSEED=0)
+- **Gövde dosyası denetle'yi DEĞİŞTİRMİYOR** (girdi listesinde değil): v1 dosyalı ağaç ↔ v2 dosyalı ağaç çıktısı **0 satır fark**.
+- **ÖNCE** (taban 809a8975) ↔ **SONRA** (yalnız worktree'de `--yaz`: çıkış 0, 91 dosya, diskten geri okuma 3.986/3.986 ✓):
+
+| sayaç | önce | sonra |
+|---|---|---|
+| kaynaksız `s:` kaydı (hiçbiri) | 1.880 (tavan 1.930) | **1.462** — SAHTE iyileşme (D265 ailesi, §⑤): yeni dönemin kaynağı kayıt düzeyinde 1281-1923 zincirini de "kaynaklı" gösteriyor. **Tavan İNDİRİLMEZ** |
+| dönem-içi kaynaklı (bilgi) | 421 | 839 |
+| `isg:` dönemi (bilgi) | 372 | 426 (+54: HS③ işgal dilimleri) |
+| Değişmez 4d | 325 | **325** (sayı aynı; listedeki 26 umman/siyam/brunei/somali döneminin yalnız t'si 1923→1945/1927 uzadı) |
+| 4c · 1 · 1b · 2 · 2s · 2i · 2t · öteki | — | **birebir aynı** |
+| çıkış | 2 (yalnız D8 ÖLÇÜLEMEDİ — taze ağaçta `devletler_harita.js` yok) | 2 (aynı sebep) |
+
+- ⚠️ 2/2s/4c'nin "aynı" çıkması onay DEĞİL: motor ufku bugün 1923-10-29; 1924-45 dönemleri denetimce görülmüyor.
+- **Bu sayaçlara dokunan bekleyen diff'ler:** kaynaksız `s:` → **1** (ZAMAN-PAKET-1009-v2: Z6 yaması 80 kayıt `s:` + `denetle.py`) ·
+  `isg:` dönemi → 0 · 4c/4d/2/2s → **1** (ZAMAN-PAKET-1009-v2 `girdi.py` `UFUK = ("1000-01-01", "1945-09-02")` — ufuk açılınca
+  Z5'in 1924-45 dönemleri ilk kez sayılır). SEFER-PENCERE (app.js) · KRONO-GORUNURLUK×3 (kronoloji/suzgec) · KRONO-SONRA1923 A/B
+  (kronoloji_cok_1923_1945 — Z5'in B/HS gün dayanakları bu dosyada; dosya Değişmez 2 evreninde değil) · BOYA-BORC (renkler.py:
+  boyasız 6 künye / 350 kayıt — bu sayı denetle'de değil sınav ④'te) · SAHIPLIK-BAYAT-TABAN (araç) → bu sayaçlara 0. Tavan önerilmedi.
+
+### 🔴 SIRA ÇAKIŞMASI — Z6 ile Z5 aynı 78 kaydın `s:`ini TAMAMEN yazıyor
+ZAMAN-PAKET-1009-v2 içindeki `data/yer_yama_once1281_z6.js` (80 kayıt, **`taban:` beyanı 0**) ile Z5 v2'nin **78 ortak adı** var
+(İznik · İzmit · Ankara · Kütahya · … · İstanbul · Konya · Atina …). İkisi de `s:` dizisinin TAMAMINI taşır. ⇒
+- Z6 önce inerse: Z5 v2'nin 78 kaydı kapıda **BAYAT TABAN** olur (kapı doğru öter) ⇒ Z5 yeniden üretilir (4 sn, aynı üretici).
+- Z5 önce inerse: Z6 beyansız ⇒ yeni kapıda ÖLÇÜLEMEDİ (çıkış 3); `--taban` ile 78 BAYAT. Kapı yoksa Z6, Z5'in 1923-45 uzatmasını
+  78 kayıtta SESSİZCE geri alırdı (v1 sınıfının ayna görüntüsü).
+- Önerim: **ZAMAN-PAKET-1009-v2 önce, Z5 hemen ardından yeniden üretilip** (o anki main'e karşı v3) aynı turda.
+
+### Ne bulamadım / dikkat
+- `X_ANOMALI` tablosu BAYAT: St. John's artık `ingiliz-kuzey-amerika`, Tehuantepec artık `meksika` (main düzeltmiş), tablo adla
+  yine X'e atıyor. Tehuantepec ölçüte göre A olurdu (1 kayıt) — Z5 tabloları AYNEN kalsın denildiği için değiştirilmedi; karar senin.
+- `arac/_sahiplik_uygula.py:13` (kapı diff'i) `SyntaxWarning: invalid escape sequence '\.'` basıyor (docstring'de `\.js`) — zararsız, raw string gerek.
+- `kronoloji_cok_1923_1945.js` hâlâ Değişmez 2 evreninde değil (eski §③).
+
+### İstiyorum
+1. `ZAMAN-Z5-1009-KOORD-v2.diff`i karantinalı v1'in yerine al (temiz origin/main'de `git apply --check` ✓, LF, BOM yok, CR 0) —
+   ama Z6 sırasına göre (yukarıda). 2. Tehuantepec/St. John's X_ANOMALI kararı. 3. Kaynaksızlık tavanı 1.930'da kalsın (1.462 sahte).
+
+### Temizlik
+Worktree'ler `C:\atlas-umit-z5` (üretim + kapı + `--yaz`) ve `C:\atlas-umit-z5t` (v1 kapısı, 36186769/0c4b383c ölçümleri) kaldırıldı.
+`--yaz` YALNIZ `C:\atlas-umit-z5`te koştu. git stash kullanılmadı; C:\atlas ve C:\atlas-w6'ya yazılmadı.
