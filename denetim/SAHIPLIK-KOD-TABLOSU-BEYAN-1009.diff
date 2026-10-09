@@ -1,0 +1,26 @@
+diff --git a/arac/_sahiplik_uygula.py b/arac/_sahiplik_uygula.py
+index 9859ec9b..c4f5f853 100644
+--- a/arac/_sahiplik_uygula.py
++++ b/arac/_sahiplik_uygula.py
+@@ -6,6 +6,7 @@
+ #    yoksa / soramazsa araç ÇIKIŞ 3 ile durur; bayat yama bulursa HİÇBİR ŞEY YAZMADAN ÇIKIŞ 2.
+ #    Taşıma (inmiş yamaların glob dışına alınması) koordinatörün ayrı işidir; o inene kadar
+ #    kapı bugünkü korpusta bayat kayıtları adıyla durdurur.
++# 🔴 ÇIKIŞ KODLARI denetle.py'den FARKLI: burada 2 = BAYAT (İHLAL), 3 = ÖLÇÜLEMEDİ (bkz. ÇIKIŞ).
+ """SAHİPLİK YAMASI UYGULAYICI — yer_yama*.js  ->  yerlesimler*.js
+ 
+     py arac/_sahiplik_uygula.py           KURU KOŞU (hiçbir şey yazmaz)
+@@ -21,8 +22,11 @@
+        BUGÜNKÜ değerinden farklıysa ⇒ BAYAT TABAN, çıkış 2 (yazılmadı); taban beyanı yoksa ve
+        `--taban` verilmediyse ⇒ ÖLÇÜLEMEDİ, çıkış 3 (temiz DEĞİL). İkisi birden varsa 2,
+        ama ölçülemeyenler de ADIYLA basılır. Kuru koşuda da sorulur.
+-       ⚠️ Bu aracın kod tablosu projenin 0/1/2 düzeninden ÖNCE kuruldu: burada 2 = ihlal
+-       (bayat), 3 = ölçülemedi. Yeni kapı ayrı kod açmadı, mevcut iki sınıfa girdi.
++       🔴 §3'TEN SAPMA — ADIYLA BEYAN (koordinatör hükmü, 9 Ekim 2026): BURADA 2 = BAYAT YAMA
++       (İHLAL), 3 = ÖLÇÜLEMEDİ. `arac/denetle.py`de ise 1 = ihlal, 2 = ÖLÇÜLEMEDİ. İKİ ARAÇ AYRI
++       TABLO KULLANIR. `denetle.py` alışkanlığıyla buradaki 2'yi "ölçülemedi" okumak GERÇEK bir
++       ihlali yutar. Bu aracın tablosu projenin 0/1/2 düzeninden ÖNCE kuruldu ve değiştirmek
++       ARAC-SAHIPLIK-KAPI-SINAV-1006'yı bozar; korunan öz aynıdır: ölçülemedi ASLA 0 dönmez.
+ 
+ TABAN BEYANI (SAHIPLIK-BAYAT-TABAN-1009) — kayıt başına, `git apply`ın üç-yollu sorusu:
+     {ad:"Budin", s:[…hedef…], taban:{s:[…yamanın üretildiği andaki s…]}}

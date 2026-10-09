@@ -1,0 +1,35 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 81b6d09a..93e90288 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -3354,6 +3354,30 @@ BOYALAR = {
+     "kerayit":              ("Kerâyitler (Ong Han ülkesi)", "#d8247e"),
+     "nayman":               ("Naymanlar", "#d824b4"),
+     "koco-uygur":           ("Koço (Turfan) Uygur Devleti — İdikutlar", "#66d824"),
++    # ── BOYA-BORC-1009 (UMIT) — `renk_olc.py --oner` + Z6-v2 bellekte bindirildi +
++    #    ARDIL engeli (aynı yerleşimde ardışık sahip ΔE ≥ 12: resuli→tahiri,
++    #    eyyubi→mogol-imparatorlugu, abbasi→ilhanli …). Rapor: denetim/BOYA-BORC-1009.md
++    # A — HARİTA DELİĞİ (bugünkü main'de `s:`te kullanılıyor, boyasız)
++    "kudus-kralligi":       ("Kudüs Haçlı Krallığı", "#8ad824"),
++    "trablus-kontlugu":     ("Trablus Haçlı Kontluğu", "#ae24d8"),
++    "eyyubi-hama":          ("Hama Eyyûbîleri", "#de4eba"),
++    "resuli":               ("Resûlîler", "#6cd824"),
++    "tahiri":               ("Tâhirîler (Yemen)", "#9c24d8"),
++    "sicilya-kralligi":     ("Sicilya Krallığı (Norman Sicilya Kontluğu dahil)", "#1eb42a"),
++    "gozleroglu":           ("Gözleroğlu (Şebinkarahisar)", "#c66c24"),
++    # B — ZAMAN/Z6 ön-borcu (Z6-v2 yaması inince `s:`e girer; bugün yalnız katman/künye)
++    "antakya-prinkipsligi": ("Antakya Prinkepsliği", "#d86624"),
++    "eyyubi":               ("Eyyûbî Sultanlığı", "#24bacc"),
++    "abbasi":               ("Abbâsî Hilâfeti", "#246ccc"),
++    "mogol-imparatorlugu":  ("Moğol İmparatorluğu (bölünmemiş)", "#de246c"),
++    # C — `boya_gerekli:true` BEYANLI (veride dönemi YOK — komşu ölçülemedi, öneri zayıf)
++    "eyyubi-meyyafarikin":  ("Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu)", "#90d824"),
++    "idrisi":               ("İdrîsîler", "#7224d8"),
++    "sacogullari":          ("Sâcoğulları (Azerbaycan)", "#72d824"),
++    "tahiri-horasan":       ("Tâhirîler (Horasan)", "#78d824"),
++    "uygur-kaganligi":      ("Uygur Kağanlığı (Ötüken)", "#8424d8"),
++    # (D argunlular ÇIKARILDI — koordinatör hükmü 9 Eki: künyesi/verisi yok ⇒ delik değil; künyesiz
++    #  renk ölü renk sayısını artırır. Künye + veri + boya Kandehar önerisiyle BİRLİKTE iner.)
+ 
+ }
+ 
