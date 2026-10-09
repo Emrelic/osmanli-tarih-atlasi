@@ -1,0 +1,95 @@
+diff --git a/data/olaylar_once1281_a.js b/data/olaylar_once1281_a.js
+new file mode 100644
+index 00000000..d86cf2fb
+--- /dev/null
++++ b/data/olaylar_once1281_a.js
+@@ -0,0 +1,77 @@
++// ============================================================================
++// ÖNCE-1281 SENKRON BORCU, KOL A — 10 Ekim 2026 · KRONO-ONCE1281-1010-A (UMIT)
++//
++// NİÇİN VAR: ZAMAN paketi + Z6 inince ufuk 1000'e açıldı ve `denetle.py`
++// Değişmez 2s'de 1281 öncesine ait AÇIK kırılmalar bildirdi (e54e60df,
++// tavan 181 → 193). Bu dosya A kolunun dört birimini kapatır:
++//
++//   1084-12-12  Antakya                 (kazanç: selcuklu)
++//   1097-06-19  İznik                   (selcuklu → bizans)
++//   1098-06-03  Antakya + İskenderun    (→ antakya-prinkipsligi)
++//   1147-03-23  Merakeş                 (kazanç: muvahhidler)
++//
++// Bu olayların bir kısmı KUYRUKTA zaten anılıyordu (`kronoloji_anadolu.js`
++// 1084-12-12 ve 1097-06-19 · `devletler.js` künye iskeleti) ama o dosyalar
++// Değişmez 2 evreninde DEĞİL (`denetle.py` `olaylari_yukle`: yalnız
++// `olaylar*.js` + `kronoloji_sinir*.js`). Madde ve kırılma vardı, birbirini
++// doğrulayamıyordu. Bu dosya `olaylar*.js` kalıbına girdiği için evrendedir.
++//
++// KAYNAK: hepsi TDV İslâm Ansiklopedisi; her slug 10 Ekim 2026'da GET 200 ile
++// çekildi ve gövde OKUNDU, alıntılar `ic_not_kaynak` alanında AYNEN durur.
++// Atlasın kendi kaydı (künye günü, yerleşim dönemi) dayanak SAYILMADI (D207).
++//
++// 🔴 TEK KAYNAKSIZ GÜN, BEYAN: İskenderun'un 1098-06-03 günü. TDV `iskenderun`
++// zaptı 1097'ye (Tankred) koyar ve gün vermez; atlas yerleşimi prinkepslik
++// künyesinin kuruluş gününü devralmış. Madde İskenderun'a GÜN İDDİA ETMEZ —
++// prinkepsliğin kuruluşunu anlatır, İskenderun'u yalnız TDV'nin "sınırları
++// içinde kalan" cümlesiyle anar. Veri düzeltmesi önerisi teslimdedir.
++//
++// window.OLAYLAR_ONCE1281_A
++// ============================================================================
++window.OLAYLAR_ONCE1281_A = [
++
++{ t:"1084-12-12", k:"fetih", onem:3, dunya:2, kapsam:"dis",
++  etiket:["toprak-kazanc","konu-askeri"],
++  b:"Kutalmışoğlu Süleyman Şah Antakya'yı Bizans'tan aldı",
++  gun:"12 Aralık 1084 (10 Şâban 477) — şehir; iç kale 12 Ocak 1085'te düştü",
++  yer:"Antakya", yer_id:"Antakya",
++  kisiler:"Kutalmışoğlu Süleyman Şah, Philaretos Brachamios",
++  d:"Antakya bir asırdan fazla Bizans hâkimiyetinde kalmış, son yıllarında şehri Bizans adına Ermeni Philaretos Brachamios idare ediyordu. Anadolu Selçuklu Devleti'nin kurucusu Kutalmışoğlu Süleyman Şah, Musul'daki Ukaylî emîri Şerefüddevle Müslim'e haber sızmasın diye geceleri yürüyerek şehre ulaştı ve 12 Aralık 1084'te Antakya'yı ele geçirdi; bir süre direnen iç kale 12 Ocak 1085'te düştü. Süleyman Şah halka iyi davranılmasını buyurdu, Mar Cassianus Kilisesi'ni camiye çevirdi.",
++  kaynak:"antakya; suleyman-sah-i", duygu:["🙂"],
++  ic_not_kaynak:"TDV `antakya` gövdesi okundu (10 Ekim 2026), birebir: \"Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü.\" · aynı gövde: \"Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı.\" · TDV `suleyman-sah-i`: \"10 Şâban 477’de (12 Aralık 1084) şehri ve 12 Ramazan 477’de (12 Ocak 1085) iç kaleyi fethetti.\"",
++  ic_not_d:"Atlasta Antakya'nın 1084 öncesi dönemi YOK (ilk dönem 1084-12-12 selcuklu); Bizans dönemi ufuk/kapsam meselesidir, bu maddenin konusu değil. Gün ŞEHRİN alınışıdır; iç kalenin günü (1085-01-12) metinde durur." },
++
++{ t:"1097-06-19", k:"kayip", onem:3, dunya:2, kapsam:"dis",
++  etiket:["toprak-kayip","konu-askeri"],
++  b:"I. Haçlı Seferi: İznik garnizonu şehri Bizans'a teslim etti",
++  gun:"19 Haziran 1097",
++  yer:"İznik", yer_id:"İznik",
++  kisiler:"I. Kılıcarslan, I. Aleksios Komnenos, Manuel Butumites",
++  d:"Anadolu Selçuklu Devleti'nin başşehri İznik, 3 Haziran 1097'den itibaren Haçlı ordusunun kuşatmasındaydı. Malatya seferinden dönen I. Kılıcarslan şehri kurtaramayıp çekildi; İmparator Aleksios'un göle indirdiği gemilerle yardım yolu kapanınca garnizon Bizans kumandanı Manuel Butumites'le anlaşıp şehri Bizans'a teslim etti (19 Haziran 1097). Haçlılar şehri yağmalayamadan güneye yürüdü; Selçuklu başşehri daha sonra Konya'ya taşındı.",
++  kaynak:"iznik; haclilar", duygu:["😔"],
++  ic_not_kaynak:"TDV `iznik` gövdesi okundu (10 Ekim 2026), birebir: \"… gören Türkler, Bizans Kumandanı Manuel Butumites’le anlaşarak şehri ona teslim ettiler (19 Haziran 1097).\" · TDV `haclilar`: \"Yardım alma ümidi kalmayan İznik garnizonu da şehri Bizans imparatoruna teslim etmeyi tercih etti (19 Haziran 1097).\" · kuşatma başı aynı gövdede: \"… İznik’i kuşatmaya başlamış olan ana Haçlı ordusuna katıldılar (3 Haziran 1097).\"",
++  ic_not_d:"Kuyrukta (`kronoloji_anadolu.js`) aynı gün 'I. Haçlı Seferi İznik'i aldı' başlıklı bir madde var; TDV'ye göre şehri Haçlılar DEĞİL Bizans aldı (teslim Bizans'a). Başlık burada kaynağa göre kuruldu; kuyruk maddesinin başlığı ayrı kalemdir (dosya bu oturumun değil)." },
++
++{ t:"1098-06-03", k:"kayip", onem:4, dunya:3, kapsam:"dis",
++  etiket:["toprak-kayip","konu-askeri"],
++  b:"Haçlılar Antakya'yı aldı; Bohemund Antakya Prinkepsliği'ni kurdu",
++  gun:"3 Haziran 1098",
++  yer:"Antakya", yer_id:"Antakya",
++  kisiler:"Bohemund, Yağısıyan, Fîruz, Kürboğa",
++  d:"Haçlı orduları 21 Ekim 1097'de Antakya önüne geldi; şehir Melikşah'ın tayin ettiği emîr Yağısıyan'ın idaresindeydi. Aylarca süren kuşatmadan sonuç alınamadı, ama Yağısıyan'ın kumandanlarından Fîruz'un ihaneti Bohemund'un birliklerini İki Kızkardeş Kulesi'nden şehre soktu ve Antakya 3 Haziran 1098'de Haçlıların eline geçti; iç kale bir süre daha dayandı. Şehir Bizans'a iade edilmedi: Bohemund burada Norman hâkimiyetini kurdu ve Antakya Prinkepsliği (1098-1268) doğdu. İskenderun da bu prinkepsliğin sınırları içinde kaldı ve 1268'de Memlükler prinkepsliğe son verene kadar orada kaldı.",
++  kaynak:"antakya; haclilar; iskenderun", duygu:["😔"],
++  ic_not_kaynak:"TDV `antakya` gövdesi okundu (10 Ekim 2026), birebir: \"Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi, şehir halkı kılıçtan geçirildi.\" · TDV `haclilar`: \"Fîrûz’un ihaneti sonucunda Antakya Haçlılar’ın eline geçti (3 Haziran 1098).\" ve \"Antakya Prinkepsliği (1098-1268). 3 Haziran 1098’de Haçlılar’ın eline geçen Antakya Bizans imparatoruna iade edilmedi. Şehirdeki müslümanlar öldürüldükten sonra Bohemund burada Norman hâkimiyetini kurdu.\" · TDV `iskenderun`: \"I. Haçlı seferleri sırasında 1097’de Tankred tarafından zaptedilmiştir. Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.\"",
++  ic_not_d:"🔴 İSKENDERUN İÇİN GÜN İDDİASI YOK: TDV İskenderun'un zaptını 1097'ye (Tankred) koyar, gün vermez. Atlas yerleşimi (yerlesimler_ek27.js) prinkepsliğe 1098-06-03'te geçiyor — o gün künyenin kuruluş günüdür, İskenderun'un kendi günü DEĞİL. Bu madde İskenderun'u yalnız 'prinkepsliğin sınırları içinde kaldı' cümlesiyle anar (TDV'nin cümlesi). 1097 öncesi Tankred zaptı → 1098 kuruluş arası (Haçlı ordusu, künyesiz) haritada gösterilemez; veri kararı koordinatörde." },
++
++{ t:"1147-03-23", k:"fetih", onem:3, dunya:2, kapsam:"dis",
++  etiket:["toprak-kazanc","konu-askeri"],
++  b:"Muvahhidler Merakeş'i aldı; Murâbıt devleti sona erdi",
++  gun:"23 Mart 1147 (18 Şevval 541)",
++  yer:"Merakeş", yer_id:"Merakeş",
++  kisiler:"Abdülmü'min b. Ali, İshak b. Ali, İbrâhim b. Tâşfîn",
++  d:"İbn Tûmert'in 1130'daki kırk günlük başarısız muhasarasından on yedi yıl sonra halefi Abdülmü'min, Fas, Miknâse ve Selâ'dan sonra Murâbıtların başşehri Merakeş'i on bir ay süren bir kuşatmayla ele geçirdi (23 Mart 1147). İshak b. Ali ile İbrâhim b. Tâşfîn öldürüldü ve Murâbıt devleti ortadan kalktı; Muvahhidler ardından Endülüs'e yöneldi.",
++  kaynak:"merakes; murabitlar", duygu:["😐"],
++  ic_not_kaynak:"TDV `merakes` gövdesi okundu (10 Ekim 2026), birebir: \"Murâbıtlar’ın başşehri Merakeş’i, Muvahhidler’in kurucusu İbn Tûmert’in 524’te (1130) başarısızlıkla sonuçlanan kırk günlük muhasarasından on yedi yıl sonra halefi Abdülmü’min on bir ay süren kuşatmayla ele geçirdi (18 Şevval 541 / 23 Mart 1147).\" · TDV `murabitlar`: \"Muvahhid kuvvetleri Fas, Miknâse, Selâ şehirlerini ve nihayet Merakeş’i ele geçirerek İshak b. Ali ve İbrâhim b. Tâşfîn’i öldürüp Murâbıtlar’ı ortadan kaldırdılar (18 Şevval 541 / 23 Mart 1147).\"",
++  ic_not_d:"Atlasta Merakeş'in 1147 öncesi (Murâbıt) dönemi YOK: ilk dönem 1147-03-23 muvahhidler. TDV Merakeş'i 'Murâbıtlar'ın başşehri' diye anar ve `murabitlar` künyesi (f 1056) atlasta var ⇒ Murâbıt başşehri haritada Murâbıt rengi almıyor. Veri kalemi, koordinatöre bildirildi." }
++
++];
+diff --git a/index.html b/index.html
+index 0b325708..70208580 100644
+--- a/index.html
++++ b/index.html
+@@ -1128,6 +1128,7 @@
+        data/olaylar_ek19.js
+        data/olaylar_senkron_0930.js -->
+ <script src="data/paket_04.js?v=r11995"></script>
++<script src="data/olaylar_once1281_a.js?v=r11995"></script>  <!-- KRONO-ONCE1281-1010-A: 1281 öncesi 2s borcu, kol A (4 madde) — paketlenmedi -->
+ <!-- hatalar 8.docx madde 1: antlasmalarda taralı devir alanları. Uretici: arac/uret_devirler.py -->
+ <!-- ▼ data/paket_05.js — aşağıdaki 2 dosya buraya PAKETLENDİ (arac/paketle.py).
+      Sıra korunmuştur; uç uca ekleme klasik betiklerin anlamını

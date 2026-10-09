@@ -1,0 +1,688 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 63b683bd..297f6e9a 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -41,6 +41,7 @@ DATA = os.path.join(KOK, "data")
+ #   yerde düz yazılıydı ve motor ufkuna BAĞLI DEĞİLDİ (ONCE1281-MOTOR-UFUK-1004 §④).
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from girdi import UFUK, VERI_UFKU, UFUK_DAMGASI, ufuk_devirleri
++import gun as _gun     # NEGATIF-YIL-1010-B: ayrıştırma + sıra negatif-güvenli
+ 
+ 
+ def kirilma_disi(g):
+@@ -1192,9 +1193,23 @@ def olaylari_yukle():
+         if not m:
+             continue
+         olaylar.extend(oku_pencere(yol, m.group(1)))
++    # NEGATIF-YIL-1010-B — madde `t` `Tarih`e sarılır: `sorted(key=o["t"])` ve
++    # dönem kıyasları SAYIYLA. Okunamayan `t` sarılmaz, ADIYLA sayılır (sessiz değil).
++    for o in olaylar:
++        if isinstance(o, dict) and isinstance(o.get("t"), str) and o["t"]:
++            try:
++                o["t"] = _gun.Tarih(o["t"])
++            except ValueError:
++                OKUNAMAYAN_MADDE_T.append(o["t"])
++    if OKUNAMAYAN_MADDE_T:
++        print(f"  ✗ madde `t` OKUNAMADI ({len(OKUNAMAYAN_MADDE_T)}) — sözlük sırasıyla kıyaslanır, "
++              f"negatif yılda YANLIŞ olabilir: {', '.join(sorted(set(OKUNAMAYAN_MADDE_T))[:10])}")
+     return olaylar
+ 
+ 
++OKUNAMAYAN_MADDE_T = []
++
++
+ def tam(s):
+     return s + "-01" if len(s) == 7 else s
+ 
+@@ -1219,10 +1234,9 @@ def pad(s):
+ 
+ 
+ def gun_no(s):
+-    s = tam(pad(s))
+-    y, a = int(s[0:4]), int(s[5:7])
+-    g = int(s[8:10]) if len(s) >= 10 else 1
+-    return date(y, a, g).toordinal()
++    # NEGATIF-YIL-1010-B: `date(...)` MÖ yılında ValueError (MINYEAR 1). Gün sayacı
++    # aynı ordinal'i verir (C0 sınavı: 7.404 dizgide fark 0) ve negatifte de okur.
++    return _gun.gun(tam(pad(s))) + 719163
+ 
+ 
+ # ---------------- Değişmez 1 — sahipsizlik yok ----------------
+@@ -1281,7 +1295,9 @@ def degismez1_kapsam(Y):
+         return any(p["f"] <= g < p["t"] for p in (ps or []))
+     kapsam, delik = [], []
+     for dad, df, dt in ufuk_devirleri():
+-        gunler = ["%04d-06-15" % yil for yil in range(int(df[:4]), int(dt[:4]) + 1, 10)]
++        # NEGATIF-YIL-1010-B: `int(df[:4])` "-2999"ü "-299" okur; "%04d" -5'i "-005" yazar → gün sayacı
++        gunler = [_gun.Tarih(_gun.dizgi(_gun.gun_sayisi(yil, 6, 15)))
++                  for yil in range(_gun.yil(_gun.gun(df)), _gun.yil(_gun.gun(dt)) + 1, 10)]
+         gunler = [g for g in gunler if df <= g < dt]
+         for y in Y:
+             if not any(y.get(k) for k in ("s", "d", "v")):
+@@ -2320,17 +2336,16 @@ def kapsam_disi(Y, acik):
+         # geçer — yoksa `(d+"-01-01")[:10]` "330-05-11-" verir ve FETRET dalının
+         # `int(g[:4])`ü ValueError ile ÇÖKER. Dolgulu ve dört haneli girdi aynı kalır.
+         g = pad(d)
+-        g = g if len(g) == 10 else (g + "-01-01")[:10]
++        # NEGATIF-YIL-1010-B: "-2999-01-01" 11 karakter — `[:10]` onu KESERDİ.
++        g = _gun.Tarih(_gun.dizgi(_gun.gun(g))) if g.startswith("-") else (
++            g if len(g) == 10 else (g + "-01-01")[:10])
+         kure = _osmanli_kure(Y, g)
+         if not kure:
+             # FETRET yedegi: en yakin govdeli gune kaydir
+             for kaydir in (365, 730, 1460, 2920, 4380):
+-                import datetime
+-                yy, mm, dd = int(g[:4]), int(g[5:7]), int(g[8:10])
+                 for yon in (-1, 1):
+-                    try:
+-                        alt = (datetime.date(yy, mm, dd)
+-                               + datetime.timedelta(days=yon * kaydir)).isoformat()
++                    try:        # NEGATIF-YIL-1010-B: date() yerine gün sayacı
++                        alt = _gun.Tarih(_gun.dizgi(_gun.gun(g) + yon * kaydir))
+                     except Exception:
+                         continue
+                     kure = _osmanli_kure(Y, alt)
+@@ -2653,6 +2668,12 @@ def _devletler_yukle():
+     ham = json.loads(c.stdout)
+     global _DEVLETLER_HAM
+     _DEVLETLER_HAM = ham
++    for d in ham:       # NEGATIF-YIL-1010-B: künye f/t + kronoloji t SAYIYLA sıralanır
++        if isinstance(d, dict):
++            _gun.tarihle(d, ("f", "t"))
++            for k in d.get("kronoloji") or []:
++                if isinstance(k, dict):
++                    _gun.tarihle(k, ("t",))
+     return {d["id"]: (d.get("f"), d.get("t")) for d in ham if d.get("id")}
+ 
+ 
+@@ -2713,6 +2734,12 @@ def _harita_tarih_sec(adaylar, pf, pt):
+ 
+ def _gun_farki(a, b):
+     from datetime import date as _d
++    # NEGATIF-YIL-1010-B: önce gün sayacı (negatif yıl dahil); okuyamazsa eski
++    # yol (bugünkü gevşek biçimler AYNEN — None sözleşmesi C1'in kararı, değişmedi).
++    try:
++        return _gun.gun(a) - _gun.gun(b)
++    except (TypeError, ValueError):
++        pass
+ 
+     def ay(s):
+         p = (s or "").split("-")
+@@ -3188,13 +3215,14 @@ def degismez5(Y):
+                                     g / 365.25))
+         else:
+             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
+-            if ilk > "%04d-01-01" % (int(VERI_UFKU[0][:4]) + SUPHE_ESIK_YIL):
++            if ilk > _gun.dizgi(_gun.gun_sayisi(            # NEGATIF-YIL-1010-B: [:4] negatifte "-299"
++                    _gun.yil(_gun.gun(VERI_UFKU[0])) + SUPHE_ESIK_YIL, 1, 1)):
+                 suphe.append((y["ad"], ilk, donemler[0][2],
+                               round(y.get("lat", 0), 2),
+                               round(y.get("lon", 0), 2)))
+             elif (y.get("tur") != "bolge"
+                   and not y.get("kasitli_bosluk")
+-                  and ilk <= VERI_UFKU[0][:4] + "-12-31"):
++                  and ilk <= _gun.dizgi(_gun.gun_sayisi(_gun.yil(_gun.gun(VERI_UFKU[0])), 12, 31))):
+                 # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
+                 # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
+                 kursuz.append((y["ad"], ilk, donemler[0][2],
+@@ -3696,6 +3724,11 @@ def degismez7(Y, isg_kova=None):
+         return gor
+ 
+     def artir(g, gun):
++        if g.startswith("-"):   # NEGATIF-YIL-1010-B: split("-") negatifte "" verir → gün sayacı
++            try:
++                return _gun.Tarih(_gun.dizgi(_gun.gun(g) + gun))
++            except Exception:
++                return g
+         p = g.split("-")
+         try:
+             return (date(int(p[0]), int(p[1]), int(p[2]))
+@@ -4267,8 +4300,8 @@ def _kelimeler(b):
+ 
+ 
+ def _gun_no(t):
+-    p = (t + "-01-01").split("-")
+-    return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
++    # NEGATIF-YIL-1010-B: `(t+"-01-01").split("-")` negatifte "" verir → gün sayacı
++    return _gun.gun(t) + 719163
+ 
+ 
+ # ⚠️ ÜÇÜNCÜ TUR — BAŞLIK BENZERLİĞİNİN KÖR NOKTASI (hatalar 7.docx madde 5)
+@@ -5157,7 +5190,8 @@ def _d8_gun_once(g):
+     try:
+         # DENETLE-TARIH-KALAN-1008: `fromisoformat` dört haneli yıl ister;
+         # "330-05-11" pad()'siz SESSİZCE None dönüyordu (gün düşüyordu).
+-        return (date.fromisoformat(pad(g)) - timedelta(days=1)).isoformat()
++        # NEGATIF-YIL-1010-B: fromisoformat MÖ'de ValueError → gün sayacı (aynı biçim)
++        return _gun.Tarih(_gun.dizgi(_gun.gun(pad(g)) - 1))
+     except ValueError:
+         return None
+ 
+@@ -6179,7 +6213,7 @@ def zincir_kaynagi_rapor(R, ayrinti=False):
+     for ad, sebep in R["bozuk"]:
+         print(f"    ✗ BOZUK BEYAN  {ad}: {sebep}")
+     for ad, yer, f, t, tur, farklar in R["bayat"]:
+-        gun = sum((date.fromisoformat(pad(s)) - date.fromisoformat(pad(b))).days
++        gun = sum(_gun.gun(pad(s)) - _gun.gun(pad(b))   # NEGATIF-YIL-1010-B (fromisoformat MÖ'de çöker)
+                   for b, s, _, _ in farklar)     # pad: DENETLE-TARIH-KALAN-1008
+         yalniz_isg = all(a[0] == k[0] for _, _, a, k in farklar)
+         print(f"    BAYAT KOPYA  {ad} ← {yer}  [{f}, {t}) {tur} · {len(farklar)} dilim, {gun} gün ayrı"
+diff --git a/arac/girdi.py b/arac/girdi.py
+index 2a17f344..374a7192 100644
+--- a/arac/girdi.py
++++ b/arac/girdi.py
+@@ -44,6 +44,8 @@ import math
+ import os
+ import re
+ 
++import gun as _gun     # NEGATIF-YIL-1010-B: tarih SIRASI gün sayısıyla (`gun.Tarih`)
++
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DATA = os.path.join(KOK, "data")
+ 
+@@ -594,6 +596,12 @@ def oku_devletler():
+         raise SystemExit(f"!! {DEVLET_DOSYASI}: 0 kayıt döndü — dosya boş "
+                          f"olamaz, ayrıştırma çürümüş demektir (sessiz sıfır "
+                          f"yasak)")
++    for d in kayitlar:                  # NEGATIF-YIL-1010-B: künye f/t + kronoloji t SAYIYLA sıralanır
++        if isinstance(d, dict):
++            _gun.tarihle(d, ("f", "t"))
++            for k in d.get("kronoloji") or []:
++                if isinstance(k, dict):
++                    _gun.tarihle(k, ("t",))
+     return kayitlar
+ 
+ 
+@@ -641,6 +649,17 @@ def yukle(sessiz=False):
+             # yeni partinin kırılmaları çekirdek tavanına KATILMAZ, kaynağa
+             # göre ayrı sayaçta raporlanır.
+             y["_kaynak"] = ad
++            # NEGATIF-YIL-1010-B — tarih alanları `Tarih`e sarılır (dizgi AYNEN,
++            # sıra GÜN SAYISIYLA). Alan doğrulamasından SONRA: yükleyici kendi
++            # eklediğini reddetmesin. Geçersiz tarih yükü DURDURUR (sessiz yanlış yok).
++            try:
++                _gun.tarihle(y, ("kur", "bit", "go"))
++                for kat in ("s", "d", "v", "isg", "kd"):
++                    for p in y.get(kat) or []:
++                        if isinstance(p, dict):
++                            _gun.tarihle(p, ("f", "t"))
++            except ValueError as e:
++                raise ValueError(f"{ad}:{y['ad']}: tarih okunamadı — {e}") from None
+         hepsi.extend(kayitlar)
+         if not sessiz:
+             print(f"  {ad}: {len(kayitlar)} nokta")
+@@ -738,6 +757,9 @@ GECIT_DOSYASI = "gecitler.js"
+ #   için sıfır doldurma, MÖ için motor yaması — ONCE1281-MOTOR-UFUK-1004 §1.2).
+ UFUK = ("1000-01-01", "1945-09-02")
+ VERI_UFKU = ("1281-01-01", "1923-10-29")
++# NEGATIF-YIL-1010-B — uçlar `Tarih`: `EPOK <= t <= KESIT_SON` MÖ'de de sayıyla kıyaslar.
++UFUK = tuple(_gun.Tarih(x) for x in UFUK)
++VERI_UFKU = tuple(_gun.Tarih(x) for x in VERI_UFKU)
+ # 🔴 UFUK DAMGASI (ZAMAN-GENİŞ-1008, koordinatör hükmü) — TEK TANIM, buradan okunur.
+ #   UFUK ve VERI_UFKU'nun uç günleri (bugün 1000-01-01 · 1281-01-01 ·
+ #   1923-10-29 · 1945-09-02): bu günlere yazılmış tarih bir el değiştirme
+@@ -778,6 +800,7 @@ def oku_goller(sessiz=False):
+     for g in _cevir(js, m.group(1)):
+         gec = g.get("gecerli") or {}
+         gf, gt = gec.get("f", UFUK[0]), gec.get("t", UFUK[1])
++        gf, gt = _gun.Tarih(gf), _gun.Tarih(gt)     # NEGATIF-YIL-1010-B: sıra sayıyla
+         if gf >= UFUK[1] or gt <= UFUK[0]:          # ÖRTÜŞME YOK ⇒ alınmaz
+             print(f"  UYARI göl: '{g.get('ad')}' {gf}→{gt} UFUK {UFUK[0]}→{UFUK[1]} "
+                   f"ile HİÇ örtüşmüyor — ATLANDI")
+diff --git a/arac/gun.py b/arac/gun.py
+index edbd0256..9886d53a 100644
+--- a/arac/gun.py
++++ b/arac/gun.py
+@@ -194,3 +194,113 @@ def negatif_yil_kapisi(tarihler, motor_sayacli):
+     if neg and not motor_sayacli:
+         satir += ["negatif yıl, motor SAYAÇSIZ (uret_petek.py `GUN_SAYACI = True` yok): " + x for x in neg]
+     return ("OLCULEMEDI" if satir else "TAMAM"), satir
++
++
++# ---------------------------------------------------------------------------
++# TARİH DİZGİSİ — SIRA SAYIYLA (NEGATIF-YIL-1010-B, engel ③④)
++# Atlas tarihleri dizgi olarak `<`/`sorted`/`min`/`max` ile kıyaslıyor: motorda 77,
++# araçlarda 152 site (AST taraması). Negatif yılda dizgi sırası TERS ("-2999" <
++# "-0001" → False) ve hata VERMEZ — sessizce yanlış dönem seçer. Siteleri teker
++# teker int'e çevirmek tuz dosyalarında yüzlerce satır demek; bunun yerine tarih
++# OKUNDUĞU SINIRDA (`girdi.yukle` · `oku_devletler` · `oku_goller` · `UFUK`) bir
++# kez `Tarih`e sarılır ve bütün sıra işlemleri GÜN SAYISIYLA yapılır.
++#   · `Tarih` bir `str`DİR: yazım, `==`, `hash`, dilim, JSON, f-dizgi AYNEN kalır
++#     (dizgi alanı değişmez, `GUN-SAYACI-TASARIM-1009 §②`).
++#   · `<` `<=` `>` `>=`: önce gün sayısı, eşitse DİZGİ (bugünkü sözlük sırasıyla
++#     birebir aynı kırılım: "1526-08" < "1526-08-01"; `==` ile tutarlı tam sıra).
++#   · Düz `str` ile kıyas: Python alt sınıfın yansıtılmış işlecini ÖNCE dener ⇒
++#     `"1281-01-01" <= t` de sayıyla. Öteki taraf tarih DEĞİLSE ("" · "~")
++#     NotImplemented → bugünkü sözlük kıyası (sınır bekçileri değişmez).
++#   · Geçersiz tarih SARILAMAZ: `Tarih("1453/05/29")` FIRLATIR (sessiz yanlış yok).
++#   ⚠️ Kör nokta: iki DÜZ `str` arasındaki kıyas hâlâ sözlük sırasıdır. Sarılmamış
++#     bir kaynaktan gelen negatif tarihi ancak AST envanteri gösterir.
++# ---------------------------------------------------------------------------
++_DUZ_ONBELLEK = {}
++
++
++def _duz_gun(s):
++    """Düz dizgi → gün sayısı; tarih değilse None (önbellekli — sınır sabitleri sıcak döngüde)."""
++    try:
++        return _DUZ_ONBELLEK[s]
++    except KeyError:
++        pass
++    try:
++        n = gun(str(s))
++    except (TypeError, ValueError):
++        n = None
++    _DUZ_ONBELLEK[s] = n
++    return n
++
++
++class Tarih(str):
++    """Gün sayısıyla sıralanan tarih dizgisi. `t.n` = gun(t)."""
++    __slots__ = ()
++
++    def __new__(cls, s):
++        if isinstance(s, Tarih):
++            return s
++        n = gun(s)                       # geçersizse FIRLATIR
++        o = str.__new__(cls, s)
++        _DUZ_ONBELLEK.setdefault(s, n)
++        return o
++
++    @property
++    def n(self):
++        return _duz_gun(self)
++
++    def __reduce__(self):
++        return (Tarih, (str(self),))
++
++    # Sıcak yol: iki sözlük bakışı (str hash'i nesnede önbellekli). Bulunamayan
++    # düz dizgi bir kez `_duz_gun` ile çözülür; tarih değilse (None) sözlük kıyası.
++    def __lt__(self, o):
++        try:
++            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
++        except (KeyError, TypeError):
++            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
++        if b is None or a == b:
++            return str.__lt__(self, o)
++        return a < b
++
++    def __le__(self, o):
++        try:
++            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
++        except (KeyError, TypeError):
++            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
++        if b is None or a == b:
++            return str.__le__(self, o)
++        return a < b
++
++    def __gt__(self, o):
++        try:
++            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
++        except (KeyError, TypeError):
++            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
++        if b is None or a == b:
++            return str.__gt__(self, o)
++        return a > b
++
++    def __ge__(self, o):
++        try:
++            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
++        except (KeyError, TypeError):
++            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
++        if b is None or a == b:
++            return str.__ge__(self, o)
++        return a > b
++
++    __eq__ = str.__eq__
++    __ne__ = str.__ne__
++    __hash__ = str.__hash__
++
++
++def tarihle(d, alanlar):
++    """Sözlükteki tarih alanlarını YERİNDE `Tarih`e sarar (yoksa/boşsa dokunmaz). Geçersizse FIRLATIR."""
++    for a in alanlar:
++        v = d.get(a)
++        if isinstance(v, str) and v and not isinstance(v, Tarih):
++            try:
++                d[a] = Tarih(v)
++            except ValueError as e:
++                raise ValueError("%s=%r: %s" % (a, v, e)) from None
++    return d
+diff --git a/arac/motor_esitlik.py b/arac/motor_esitlik.py
+index 331e3089..8a0b5b1d 100644
+--- a/arac/motor_esitlik.py
++++ b/arac/motor_esitlik.py
+@@ -302,7 +302,8 @@ SENARYO_KANCA = r'''
+ # ════ MOTOR-SINAV SENARYOSU (bellekte; girdi dosyası değişmez) ════
+ import json as _js_s, copy as _cp_s, datetime as _dt_s
+ def _s_kaydir(_g, _n):
+-    return (_dt_s.date.fromisoformat(_g) + _dt_s.timedelta(days=_n)).isoformat()
++    # NEGATIF-YIL-1010-B: fromisoformat MÖ'de ValueError → gün sayacı (motor ad alanında `_gun`)
++    return _gun.Tarih(_gun.dizgi(_gun.gun(_g) + _n))
+ for _op in _js_s.load(open(SENARYO_YOL, encoding="utf-8")):
+     _hit = [y for y in YERLER if y["ad"] == _op.get("kopya", _op.get("sahip", _op.get("kaydir")))]
+     if len(_hit) != 1:
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index bd2d1def..113eca98 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -269,6 +269,7 @@ BOLGE = box(-180, -60, 180, 85)
+ from renkler import BOYALAR
+ # Yerleşim girdisinin tek okuma noktası — dosya listesi girdi.py'de.
+ import girdi
++import gun as _gun     # NEGATIF-YIL-1010-B: KESIT_SON negatif-güvenli (fromisoformat MÖ'de ValueError)
+ R_DUNYA = 6371.0088
+ 
+ # ⚠️ ANLIK GÖRÜNTÜ — HER ŞEYDEN ÖNCE, parmak izinden de önce.
+@@ -2905,8 +2906,9 @@ _YASLAMA_IPTAL = []                 # koruma yüzünden iptal edilen yaslamalar
+ #   `KESIT_SON` = ufuk sonu + 3 gün: eski nöbetçiyi BİREBİR üretir
+ #   (1923-10-29 + 3 = 1923-11-01) — son kesite sıfırdan uzun bir aralık verir.
+ EPOK = girdi.UFUK[0]
+-KESIT_SON = (_dt.date.fromisoformat(girdi.UFUK[1])
+-             + _dt.timedelta(days=3)).isoformat()
++# 🔴 NEGATIF-YIL-1010-B: `date.fromisoformat` MÖ yılında ValueError verir (MINYEAR 1)
++#   ⇒ gün sayacıyla: ufuk sonu + 3 gün, `Tarih` (sıra sayıyla). 1945-09-02 → 1945-09-05 AYNI.
++KESIT_SON = _gun.Tarih(_gun.dizgi(_gun.gun(girdi.UFUK[1]) + 3))
+ 
+ # Örtü sadeleştirme toleransı (derece). coverage_simplify ile örtünün TAMAMINA
+ # bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
+diff --git a/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py b/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
+new file mode 100644
+index 00000000..e83c432d
+--- /dev/null
++++ b/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
+@@ -0,0 +1,295 @@
++# -*- coding: utf-8 -*-
++"""ARAC-NEGATIF-YIL-B-SINAV-1010 — negatif yıl: AYRIŞTIRMA (③) + SIRALAMA (④), Python/motor kolu.
++
++Her soru İKİ YÖNDE: (a) doğru ayrıştırıyor/sıralıyor mu · (b) yanlışı YAKALIYOR mu
++(bozuk tarih fırlatır, sessiz yanlış değil). Eski davranışın kusuru da GERÇEKTEN
++koşturulur (öter yönü): `date.fromisoformat` negatifte ValueError, dizgi sırası ters.
++
++Astronomik yıl: MÖ 3000 = -2999 · MÖ 1 = 0 · MS 1 = 1 (YIL 0 VARDIR).
++
++Motor (`uret_petek.py`) KOŞTURULMAZ ve İÇE AKTARILMAZ (modül düzeyi saatlerce koşar):
++kodu `ast` ile okunur, sınanan satır/işlev KAYNAKTAN çıkarılıp yalıtık ad alanında
++çalıştırılır — sınanan, dosyadaki GERÇEK metindir.
++
++Kullanım: py denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py [KÖK]      Çıkış: 0 geçti · 1 kaldı
++          py denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py --envanter KÖK
++              yalnız Ⓔ kapısı başka bir ağaçta — YAMASIZ ağaçta ÖTMELİ (çıkış 1), iki yön
++"""
++import ast, io, os, random, sys
++# Boruda/yönlendirmede Windows stdout cp1254 olur ve "③" basılamaz (çökme ölçüldü,
++# NEG-B v2). hasattr koruması: yönlendirme altında stdout StringIO olabilir ve
++# StringIO'da reconfigure YOK (paketle.py'nin aynı kusuru, 10 Ekim gecesi).
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8")
++from datetime import date
++
++IZINLI = {   # (dosya, işlev) → gerekçe: veri tarihini NEGATİFTE okumayan YEDEK yol
++    ("arac/denetle.py", "_gun_farki"): "eski yol YEDEK (gün sayacı önce dener; gevşek biçim '1453-5' için)",
++    ("arac/denetle.py", "artir"): "eski yol YALNIZ pozitif yılda (negatif → gün sayacı)",
++}
++ENVANTER_DOSYALARI = ("arac/uret_petek.py", "arac/girdi.py", "arac/denetle.py", "arac/motor_esitlik.py",
++                      "arac/motor_onbellek.py", "arac/renkler.py")
++
++
++def envanter(kok):
++    """Tarihi datetime ile AYRIŞTIRAN çağrılar: fromisoformat · strptime · toordinal · date(...)
++    (takma adıyla: `from datetime import date as _d`). → (kalan, kullanılan_izin)."""
++    kalan, kullanilan = [], set()
++    for dosya in ENVANTER_DOSYALARI:
++        kod = io.open(os.path.join(kok, dosya), encoding="utf-8").read()
++        a = ast.parse(kod)
++        tarih_ad = {"date"}
++        for n in ast.walk(a):
++            if isinstance(n, ast.ImportFrom) and n.module == "datetime":
++                tarih_ad.update(x.asname or x.name for x in n.names if x.name == "date")
++        ust = {}
++        for n in ast.walk(a):
++            for c in ast.iter_child_nodes(n):
++                ust[c] = n
++        for n in ast.walk(a):
++            if not isinstance(n, ast.Call):
++                continue
++            f = n.func
++            if isinstance(f, ast.Attribute):
++                hit = f.attr in ("fromisoformat", "strptime", "toordinal") or (f.attr == "date" and bool(n.args))
++            else:
++                hit = isinstance(f, ast.Name) and f.id in tarih_ad and bool(n.args)
++            if not hit:
++                continue
++            zincir, p = [], n               # iç içe işlevler: en içten dışa
++            while p in ust:
++                p = ust[p]
++                if isinstance(p, ast.FunctionDef):
++                    zincir.append(p.name)
++            izin = [x for x in zincir if (dosya, x) in IZINLI]
++            if izin:
++                kullanilan.add((dosya, izin[0]))
++                continue
++            satir = "%s:%d [%s]" % (dosya, n.lineno, ".".join(reversed(zincir)) or "<modul>")
++            if not any(k.startswith(satir) for k in kalan):     # `date(..).toordinal()` tek site
++                kalan.append("%s %s" % (satir, " ".join(ast.get_source_segment(kod, n).split())[:70]))
++    return kalan, kullanilan
++
++
++if "--envanter" in sys.argv:
++    _k, _ = envanter(os.path.abspath(sys.argv[sys.argv.index("--envanter") + 1]))
++    for _x in _k:
++        print("  ✗ " + _x)
++    print("ENVANTER: izinsiz ayrıştırma sitesi %d" % len(_k))
++    sys.exit(1 if _k else 0)
++
++KOK = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else \
++    os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
++sys.path.insert(0, os.path.join(KOK, "arac"))
++import gun                                  # noqa: E402
++from gun import Tarih                       # noqa: E402
++
++SONUC = []
++
++
++def sor(ad, kosul, ayrinti=""):
++    SONUC.append((ad, bool(kosul)))
++    print(("  ✓ " if kosul else "  ✗ ") + ad + (("  — " + ayrinti) if ayrinti else ""))
++
++
++def firlatir(f, *a):
++    try:
++        f(*a)
++    except (TypeError, ValueError):
++        return True
++    return False
++
++
++def kaynak(dosya):
++    return io.open(os.path.join(KOK, dosya), encoding="utf-8").read()
++
++
++# MÖ 3000, MÖ 1, 0 (= MÖ 1, astronomik), MS 1, 1000, 1281, 1923, 1945
++VEKTOR = ["-2999-01-01", "-1199-06-15", "-0499-03-01", "-0001-12-31", "0000-01-01",
++          "0001-01-01", "1000-01-01", "1281-01-01", "1923-10-29", "1945-09-02"]
++DOGRU_SIRA = sorted(VEKTOR, key=gun.gun)
++BOZUK = ["", "1453/05/29", "1923-13-01", "1281-02-30", "-2999-02-30", "1453-5-1", "abc",
++         "-3000-1-1", "1453-05-29T00:00"]
++
++print("\n③ AYRIŞTIRMA — eski yol (öter) · yeni yol (doğru) · bozuk (yakalar)")
++sor("ESKİ: date.fromisoformat('-2999-01-01') ValueError (kusur gerçek)",
++    firlatir(date.fromisoformat, "-2999-01-01"))
++sor("ESKİ: date.fromisoformat('0000-01-01') ValueError (YIL 0 yok)",
++    firlatir(date.fromisoformat, "0000-01-01"))
++sor("ESKİ: date(int('-2999'[0:4])...) yılı -299 okur (sessiz yanlış)",
++    int("-2999-01-01"[0:4]) == -299)
++for s in VEKTOR:
++    t = Tarih(s)
++    sor("Tarih(%r) okunur, yıl %d (%s)" % (s, gun.yil(t.n), gun.yil_yazi(gun.yil(t.n))),
++        t == s and t.n == gun.gun(s) and gun.dizgi(t.n) == s)
++sor("MÖ 3000 ↔ -2999 · MÖ 1 ↔ 0 · MS 1 ↔ 1",
++    gun.yil_yazi(-2999) == "MÖ 3000" and gun.yil_yazi(0) == "MÖ 1" and gun.yil_yazi(1) == "1")
++for s in BOZUK:
++    sor("bozuk %r FIRLATIR (sessiz yanlış yok)" % s, firlatir(Tarih, s))
++sor("None / int FIRLATIR", firlatir(Tarih, None) and firlatir(Tarih, 1453))
++sor("tarihle(): bozuk alan ADIYLA fırlatır",
++    firlatir(gun.tarihle, {"f": "1281-01-01", "t": "1923-13-01"}, ("f", "t")))
++
++print("\n④ SIRALAMA — eski dizgi sırası (öter) · Tarih (doğru)")
++sor("ESKİ: '-2999' < '-0001' → False (TERS)", not ("-2999-01-01" < "-0001-01-01"))
++sor("ESKİ: sorted(dizgi) yanlış", sorted(VEKTOR) != DOGRU_SIRA, " < ".join(sorted(VEKTOR)))
++T = [Tarih(s) for s in VEKTOR]
++random.seed(1010)
++for _ in range(5):
++    random.shuffle(T)
++    if sorted(T) != DOGRU_SIRA:
++        break
++sor("sorted(Tarih) = gün sırası (5 karışım)", sorted(T) == DOGRU_SIRA, " < ".join(sorted(T)))
++sor("min/max(Tarih)", min(T) == "-2999-01-01" and max(T) == "1945-09-02")
++sor("Tarih ↔ düz dizgi İKİ YÖNDE sayıyla ('-0001' > Tarih('-2999') · Tarih('-2999') < '-0001')",
++    "-0001-01-01" > Tarih("-2999-01-01") and Tarih("-2999-01-01") < "-0001-01-01"
++    and "1281-01-01" <= Tarih("1281-01-01") and not ("1281-01-02" <= Tarih("1281-01-01")))
++hata = 0
++for a in VEKTOR:
++    for b in VEKTOR:
++        ta, tb = Tarih(a), Tarih(b)
++        g = (gun.gun(a), a) < (gun.gun(b), b)
++        hata += (ta < tb) != g or (ta < b) != g or (a < tb) != g or (ta >= tb) == g
++sor("tam çift tablosu (%d çift × 4 işleç) gün sırasıyla" % (len(VEKTOR) ** 2), hata == 0, "%d hata" % hata)
++sor("aynı gün, farklı hassasiyet: sözlük kırılımı korunur ('1526-08' < '1526-08-01')",
++    Tarih("1526-08") < "1526-08-01" and not (Tarih("1526-08-01") < "1526-08"))
++sor("tarih olmayan sınır bekçisi ('' · '~') sözlük kıyasına düşer (bugünkü davranış)",
++    "" <= Tarih("-2999-01-01") and Tarih("1945-09-02") < "~")
++sor("'9999' üst bekçisi sayıyla da en büyük", Tarih("1945-09-02") < "9999" and Tarih("-2999-01-01") < "9999")
++sor("==/hash dizgiyle AYNI (sözlük anahtarı, küme, JSON değişmez)",
++    Tarih("1281-01-01") == "1281-01-01" and hash(Tarih("1281-01-01")) == hash("1281-01-01")
++    and {Tarih("1281-01-01")} == {"1281-01-01"})
++import json, pickle                          # noqa: E402
++sor("JSON + pickle gidiş-dönüş (önbellek/süreç)", json.dumps([Tarih("-2999-01-01")]) == '["-2999-01-01"]'
++    and type(pickle.loads(pickle.dumps(Tarih("-2999-01-01")))) is Tarih
++    and pickle.loads(pickle.dumps(Tarih("-2999-01-01"))) < "-0001-01-01")
++
++print("\n⓪ GERİYE UYUMLULUK — bugünkü verinin BÜTÜN tarihleri: Tarih sırası == sözlük sırası")
++import girdi                                 # noqa: E402
++Y = girdi.yukle(sessiz=True)
++D = girdi.oku_devletler()
++tumu = set()
++for y in Y:
++    for k in ("kur", "bit", "go"):
++        if y.get(k):
++            tumu.add(y[k])
++    for kat in ("s", "d", "v", "isg", "kd"):
++        for p in y.get(kat) or []:
++            tumu.update(x for x in (p.get("f"), p.get("t")) if x)
++for d in D:
++    tumu.update(x for x in (d.get("f"), d.get("t")) if x)
++    tumu.update(k.get("t") for k in d.get("kronoloji") or [] if k.get("t"))
++sarili = sum(isinstance(x, Tarih) for x in tumu)
++sor("yükleyici bütün tarihleri SARDI", sarili == len(tumu), "%d/%d" % (sarili, len(tumu)))
++duz = sorted(str(x) for x in tumu)
++sor("sorted(Tarih) == sorted(düz dizgi) — %d ayrık tarih" % len(tumu),
++    [str(x) for x in sorted(tumu)] == duz)
++L = sorted(tumu, key=str)
++random.seed(42)
++fark = sum((a < b) != (str(a) < str(b)) or (a <= b) != (str(a) <= str(b))
++           for a, b in ((random.choice(L), random.choice(L)) for _ in range(200000)))
++sor("200.000 rastgele çift: Tarih kıyası == sözlük kıyası (bugünkü veri)", fark == 0, "%d fark" % fark)
++sor("UFUK/VERI_UFKU Tarih, değeri AYNI", isinstance(girdi.UFUK[0], Tarih)
++    and tuple(girdi.UFUK) == ("1000-01-01", "1945-09-02") and tuple(girdi.VERI_UFKU) == ("1281-01-01", "1923-10-29"))
++
++print("\nⓂ MOTOR — kaynaktan çıkarılan GERÇEK satırlar (motor koşturulmaz)")
++UP = kaynak("arac/uret_petek.py")
++agac = ast.parse(UP)
++ks = [n for n in agac.body if isinstance(n, ast.Assign)
++      and any(isinstance(h, ast.Name) and h.id == "KESIT_SON" for h in n.targets)]
++sor("uret_petek.py: KESIT_SON ataması TEK", len(ks) == 1)
++ks_kod = ast.get_source_segment(UP, ks[0])
++sor("KESIT_SON fromisoformat KULLANMIYOR", "fromisoformat" not in ks_kod, ks_kod.strip().splitlines()[-1])
++
++
++class _G:                                    # sahte girdi: yalnız UFUK
++    def __init__(self, u):
++        self.UFUK = tuple(Tarih(x) for x in u)
++
++
++for u, bek in ((("1000-01-01", "1945-09-02"), "1945-09-05"),
++               (("-2999-01-01", "-2999-12-30"), "-2998-01-02"),
++               (("-2999-01-01", "-0001-12-30"), "0000-01-02")):
++    ns = {"girdi": _G(u), "_gun": gun}
++    try:
++        exec(compile(ks_kod, "uret_petek.py:KESIT_SON", "exec"), ns)
++        v = ns["KESIT_SON"]
++    except Exception as e:                   # noqa: BLE001
++        v = "HATA %s" % e
++    sor("KESIT_SON(UFUK sonu %s) = %s" % (u[1], bek), v == bek and isinstance(v, Tarih), str(v))
++sor("ESKİ KESIT_SON ifadesi MÖ ufkunda ValueError (kusur gerçek)",
++    firlatir(lambda: (date.fromisoformat("-2999-12-30"))))
++
++
++def islev(kod, ad):
++    for n in ast.walk(ast.parse(kod)):
++        if isinstance(n, ast.FunctionDef) and n.name == ad:
++            return ast.get_source_segment(kod, n)
++    raise SystemExit("işlev yok: " + ad)
++
++
++# kırılma tarihleri bloğu — `tarihler = sorted(t for t in tarihler if EPOK <= t <= KESIT_SON)`
++blok = [ast.get_source_segment(UP, n) for n in agac.body if isinstance(n, (ast.Assign, ast.If))
++        and "tarihler" in (ast.get_source_segment(UP, n) or "")[:40]
++        and ("EPOK" in ast.get_source_segment(UP, n) or "KESIT_SON" in ast.get_source_segment(UP, n))]
++sor("motor kırılma bloğu bulundu (sorted + iki uç)", len(blok) >= 3, "%d deyim" % len(blok))
++for etiket, sar in (("ESKİ (düz dizgi) — öter", str), ("YENİ (Tarih) — doğru", Tarih)):
++    ns = {"EPOK": sar("-2999-01-01"), "KESIT_SON": sar("0000-01-04"),
++          "tarihler": {sar(x) for x in ("-0499-03-01", "-1199-06-15", "-0001-12-31", "-2999-01-01", "1281-01-01")}}
++    for b in blok[:3]:
++        exec(compile(b, "uret_petek.py:tarihler", "exec"), ns)
++    dogru = ["-2999-01-01", "-1199-06-15", "-0499-03-01", "-0001-12-31", "0000-01-04"]
++    if sar is str:
++        sor("motor kırılma sırası " + etiket, ns["tarihler"] != dogru, " < ".join(ns["tarihler"]))
++    else:
++        sor("motor kırılma sırası " + etiket, ns["tarihler"] == dogru, " < ".join(ns["tarihler"]))
++
++alan = islev(UP, "_alan_g")
++for etiket, sar in (("ESKİ düz dizgi — öter", str), ("YENİ Tarih — doğru", Tarih)):
++    ns = {}
++    exec(compile(alan, "uret_petek.py:_alan_g", "exec"), ns)
++    dnm = [{"f": sar("-2999-01-01"), "t": sar("-1199-01-01"), "ao": 1, "av": 0},
++           {"f": sar("-1199-01-01"), "t": sar("-0499-01-01"), "ao": 2, "av": 0}]
++    r = ns["_alan_g"](dnm, sar("-2000-06-15"))
++    sor("_alan_g(MÖ 2001) dönem 1 " + etiket, (r == (1, 0)) == (sar is Tarih), repr(r))
++
++print("\nⒼ girdi.py — gerçek işlevler")
++y = {"kd": [{"f": Tarih("-2999-01-01"), "t": Tarih("-1199-01-01"), "k": 2, "m": "Ur"}]}
++sor("kd_gun(MÖ 2001) → (2, 'Ur')", girdi.kd_gun(y, Tarih("-2000-06-15")) == (2, "Ur"))
++sor("kd_gun(MÖ 1000) → (0, None)", girdi.kd_gun(y, Tarih("-0999-06-15")) == (0, None))
++y2 = {"kd": [{"f": "-2999-01-01", "t": "-1199-01-01", "k": 2, "m": "Ur"}]}
++sor("ESKİ (sarılmamış): kd_gun(MÖ 2001) dönemi BULAMAZ — öter", girdi.kd_gun(y2, "-2000-06-15") == (0, None))
++sor("yukle() bozuk tarihli kaydı REDDEDER (tarihle → ValueError)",
++    firlatir(gun.tarihle, {"kur": "1453-5-29"}, ("kur",)))
++
++print("\nⒹ denetle.py — ayrıştırıcılar negatifte")
++import denetle                               # noqa: E402
++sor("gun_no('-2999-01-01') = gun + 719163", denetle.gun_no("-2999-01-01") == gun.gun("-2999-01-01") + 719163)
++sor("gun_no bugünkü biçimde AYNI ('1453-05-29' · '1453-05' · '330-05-11')",
++    denetle.gun_no("1453-05-29") == date(1453, 5, 29).toordinal()
++    and denetle.gun_no("1453-05") == date(1453, 5, 1).toordinal()
++    and denetle.gun_no("330-05-11") == date(330, 5, 11).toordinal())
++sor("gun_no bozukta FIRLATIR", firlatir(denetle.gun_no, "1453/05/29"))
++sor("_gun_farki('-2999-01-01','1281-01-01') = -1.563.239 (None DEĞİL)",
++    denetle._gun_farki("-2999-01-01", "1281-01-01") == -1563239)
++sor("_gun_farki bugünkü gevşek biçim AYNEN ('1453-5' → eski yol)",
++    denetle._gun_farki("1453-5", "1453-01-01") == (date(1453, 5, 1) - date(1453, 1, 1)).days)
++sor("_gun_no('-0499') = gun('-0499-01-01') + 719163", denetle._gun_no("-0499") == gun.gun("-0499-01-01") + 719163)
++sor("_d8_gun_once('-2999-01-01') = '-3000-12-31'", denetle._d8_gun_once("-2999-01-01") == "-3000-12-31")
++sor("_d8_gun_once('0001-01-01') = '0000-12-31' (YIL 0)", denetle._d8_gun_once("0001-01-01") == "0000-12-31")
++sor("_d8_gun_once bozukta None", denetle._d8_gun_once("1453/05/29") is None)
++sor("olay yükleyici madde `t`yi sardı · okunamayan 0",
++    all(isinstance(o.get("t"), Tarih) for o in denetle.olaylari_yukle() if o.get("t"))
++    and denetle.OKUNAMAYAN_MADDE_T == [])
++
++print("\nⒺ ENVANTER KAPISI — veri okuyan fromisoformat/date()/strptime KALMADI (AST)")
++kalan, kullanilan = envanter(KOK)
++for k in kalan:
++    print("      " + k)
++sor("izinsiz ayrıştırma sitesi 0", not kalan, "%d" % len(kalan))
++sor("İZİN listesi CANLI (ölü istisna yok, CLAUDE.md §3.4-5)", kullanilan == set(IZINLI),
++    "ölü: %s" % sorted(set(IZINLI) - kullanilan))
++
++gec = sum(1 for _, k in SONUC if k)
++print("\nSONUÇ: %d/%d" % (gec, len(SONUC)))
++sys.exit(0 if gec == len(SONUC) else 1)

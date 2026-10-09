@@ -1,0 +1,94 @@
+diff --git a/index.html b/index.html
+index 0b325708..a76364af 100644
+--- a/index.html
++++ b/index.html
+@@ -1283,6 +1283,7 @@
+ <script src="data/kronoloji_cok_once1281_dogu_asya.js?v=r11995"></script>
+ <script src="data/kronoloji_cok_once1281_hint_amerika.js?v=r11995"></script>
+ <script src="data/kronoloji_cok_once1281_afrika.js?v=r11995"></script>
++<script src="data/olaylar_once1281_b.js?v=r11995"></script>
+ <script src="data/kronoloji_cok_1923_1945.js?v=r11995"></script>
+ <script src="data/kronoloji_cok_500_1000.js?v=r11995"></script>
+ <script src="data/kronoloji_cok_ince_anadolu_iran.js?v=r11995"></script>
+diff --git a/data/olaylar_once1281_b.js b/data/olaylar_once1281_b.js
+new file mode 100644
+index 00000000..7cdc2dc8
+--- /dev/null
++++ b/data/olaylar_once1281_b.js
+@@ -0,0 +1,76 @@
++// -*- coding: utf-8 -*-
++// ============================================================================
++// KRONO-ONCE1281-1010-B — Değişmez 2s'nin 1204-1216 açık birimleri
++//
++// Ad alanı OLAYLAR_ONCE1281_B (CLAUDE.md §7 "ayrı dosya ≠ ayrı ad alanı").
++//
++// NİÇİN BU DOSYA: ZAMAN-PAKET-v2 + Z6 ufku 1000'e açtı (e54e60df); 1281
++// öncesi `s:` kırılmaları Değişmez 2s evrenine girdi, ama maddeleri
++// `kronoloji_cok_once1281_*` / `kronoloji_anadolu.js` KUYRUK dosyalarındaydı
++// (Değişmez 2 evreni yalnız `olaylar*.js` + `kronoloji_sinir*.js`,
++// denetle.py `olaylari_yukle`). Bu dört birimin Değişmez 2 evreninde ±30
++// günde HİÇ maddesi yoktu (ölçüldü: 0/0/0/0).
++//
++// Birimler: 1204-04-13 Gelibolu/Manisa/İstanbul/İznik · 1204-08-12 Girit
++// (Resmo) · 1207-03-05 Antalya · 1216-01-22 Antalya.
++//
++// KAYNAK: TDV İslâm Ansiklopedisi — gövdeler 10 Ekim 2026'da GET 200 ile
++// okundu (haclilar · istanbul · gelibolu · manisa · iznik · girit · antalya).
++// Kuyruk eşleri (aynı olay, başka panel; Değişmez 2 evreninde DEĞİL):
++//   1204-04-13 kronoloji_atina_dukaligi.js:16 · kronoloji_naksa_dukaligi.js:11
++//   1207      kronoloji_cok_once1281_anadolu.js:1844 (1207-01-01, yıl)
++//   1216-01-22 kronoloji_anadolu.js:681
++// ============================================================================
++window.OLAYLAR_ONCE1281_B = [
++
++{ t:"1204-04-13", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
++  b:"IV. Haçlı Seferi İstanbul'u zaptetti; Latin İmparatorluğu kuruldu",
++  gun:"13 Nisan 1204 (TDV haclilar ve istanbul gün verir)",
++  yer:"İstanbul, Gelibolu", yer_id:"İstanbul",
++  kisiler:"",
++  d:"IV. Haçlı Seferi'nin orduları 6 Nisan'daki ilk saldırıda durduruldu, bir hafta sonraki saldırıda İstanbul düştü. Haçlılar şehirde Latin İmparatorluğu adıyla 1261'e kadar sürecek bir hâkimiyet kurdu ve Bizans toprakları paylaşıldı. Haçlı ordularının Anadolu'ya geçiş yeri olan Gelibolu da 1204'te Latinlerin idaresine girdi.",
++  kaynak:"haclilar", duygu:["😔"],
++  ic_not_kaynak:"TDV `haclilar` gövdesi okundu (10 Ekim 2026), birebir: \"6 Nisan’da yapılan ilk Haçlı saldırısı durduruldu, fakat bir hafta sonraki saldırıda şehir düştü (13 Nisan 1204).\" · \"Haçlılar İstanbul’da Latin İmparatorluğu adıyla elli yedi yıl sürecek (1204-1261) bir hâkimiyet kurdular.\" · TDV `istanbul`: \"Bunun üzerine Haçlılar şehri zaptettiler (13 Nisan 1204).\" · TDV `gelibolu`: \"Haçlı ordularının buradan geçerek Anadolu’ya ulaştıkları Gelibolu 1204’te Latinler’in idaresi altına girdi.\"",
++  ic_not_d:"Gelibolu için TDV yalnız YIL verir; maddenin günü İstanbul'un zaptıdır (TDV haclilar). Gelibolu cümlesi gövdede yılıyla anılır, gün uydurulmadı. Kişi alanı boş: TDV haclilar/istanbul cümleleri zaptı kişiye bağlamıyor (Baudouin'in seçimi TDV'de gün olarak yok)." },
++
++{ t:"1204-04-13", k:"kurulus", etiket:["kurulus","konu-siyasi"],
++  b:"I. Theodoros Laskaris İznik Bizans Devleti'ni kurdu",
++  gun:"1204 (TDV iznik ve manisa yıl verir) — gün komşudan: İstanbul'un düşüşü 13 Nisan 1204 · TDV haclilar (alt sınır)",
++  yer:"İznik, Manisa", yer_id:"İznik",
++  kisiler:"I. Theodoros Laskaris",
++  d:"İstanbul'un Latinlerin eline geçmesi ve Bizans hâkimiyetinin ortadan kalkması üzerine I. Theodoros Laskaris İznik'te bir Bizans devleti kurdu. Manisa da Latinlerin İstanbul'u almasından sonra İznik İmparatorluğu'nun sınırlarına dahil edildi. İznik, 1261'de İstanbul geri alınana kadar Bizans'ın merkezi oldu.",
++  kaynak:"iznik", duygu:["🏛"],
++  ic_not_kaynak:"TDV `iznik` gövdesi okundu (10 Ekim 2026), birebir: \"IV. Haçlı Seferi sırasında İstanbul’un Latinler’in eline geçmesi ve Bizans hâkimiyetinin ortadan kalkması üzerine 1204’te I. Theodoros Laskaris tarafından İznik Bizans Devleti kuruldu\" · TDV `manisa`: \"Latinler’in 1204’te İstanbul’u almalarından sonra İznik İmparatorluğu’nun sınırlarına dahil edildi.\"",
++  ic_not_d:"gün komşudan: İstanbul'un düşüşü 13 Nisan 1204 · TDV haclilar. Kaynaklar YIL verir ve kuruluşu zapta BAĞLAR ('üzerine', 'sonra'); gün kuruluşun ALT SINIRIDIR, kaynak günü değil — iznik-imparatorlugu künyesi (f 1204-04-13) ve yerlesimler.js İznik/Manisa dönemleri aynı yöntemle yazılmış. Zincirleme devralma yok: gün doğrudan TDV haclilar'dan. Başlık TDV iznik'in adlandırmasıdır ('İznik Bizans Devleti'); 'İznik İmparatorluğu' yazılınca mükerrer avcısı (`_kisiler_kumesi`, başlıktan özel ad) aynı günkü 'Latin İmparatorluğu' maddesiyle 'kişi!impara' sahte çifti kuruyordu (ölçüldü 95→96) — istisna listesine eklemek yerine kaynak adı kullanıldı." },
++
++{ t:"1204-08-12", k:"antlasma", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
++  b:"Montferrat Markisi Boniface Girit'i Venediklilere bıraktı",
++  gun:"12 Ağustos 1204 (TDV girit gün verir)",
++  yer:"Girit", yer_id:"Girit (Resmo)",
++  kisiler:"Montferrat Markisi Boniface",
++  d:"Bizans'ın paylaşılmasında Girit, Montferrat Markisi Boniface'ın payına düştü. Adada karşılaşacağı güçlükleri dikkate alan marki onu satmaya karar verdi; Cenevizliler de adaya talip oldu ama Venedikliler'le rakip düştüler. Boniface, imparatorun iznini aldıktan sonra yapılan bir anlaşma ile Girit'i 100.000 gümüş karşılığında Venediklilere bıraktı.",
++  kaynak:"girit", duygu:["🏛"],
++  ic_not_kaynak:"TDV `girit` gövdesi okundu (10 Ekim 2026), birebir: \"Marki Boniface, imparatorun iznini aldıktan sonra 12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı.\"",
++  ic_not_d:"yer_id Girit (Resmo): o gün ada üzerinde kırılan TEK çekirdek yerleşim odur (denetle.py 2s birimi). Cümle anlaşmayı tarihler; Venedik'in adada fiilî yerleşmesi sonradır (TDV 'Girit'e yerleşen Venedikliler …') — madde devri anlaşma gününe bağlar, yerlesimler.js Resmo dönemi de öyle." },
++
++{ t:"1207-03-05", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
++  b:"Anadolu Selçuklu Sultanı I. Gıyâseddin Keyhusrev Antalya'yı fethetti",
++  gun:"5 Mart 1207 (TDV antalya gün verir)",
++  yer:"Antalya", yer_id:"Antalya",
++  kisiler:"I. Gıyâseddin Keyhusrev",
++  d:"Latinlerin İstanbul'u zaptından sonra Bizans taksim edilince Antalya, Aldobrandini adlı bir İtalyan'ın eline geçmişti. I. Gıyâseddin Keyhusrev kaleyi kuşattı ama Kıbrıs'tan gelen yardım yüzünden alamadı ve abluka altına aldı. Latin idaresinden memnun olmayan Rumların da desteğiyle şehri fethetti; Selçuklular böylece Akdeniz'e açıldı.",
++  kaynak:"antalya", duygu:["🙂"],
++  ic_not_kaynak:"TDV `antalya` gövdesi okundu (10 Ekim 2026), birebir: \"Latinler’in İstanbul’u zaptından sonra Bizans İmparatorluğu taksim edilince bu sefer Aldobrandini adlı bir İtalyan’ın eline geçti. Ardından I. Gıyâseddin Keyhusrev kaleyi kuşattı ise de Kıbrıs’tan yardım gelmesi yüzünden burayı zaptedemedi, ancak abluka altına aldı. Nihayet 5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethi gerçekleştirdi.\"",
++  ic_not_d:"'Selçuklular böylece Akdeniz'e açıldı' cümlesi yorumdur; TDV selcuklular 'Antalya … Selçuklu ticaretine büyük katkı' der (kronoloji_cok_once1281_anadolu.js 1207-01-01 alıntısı). Önceki sahip (Aldobrandini) için künye YOK — yerlesimler.js'te de yazılmamış; madde onu anlatır, harita onu boyamaz." },
++
++{ t:"1216-01-22", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
++  b:"I. İzzeddin Keykâvus Antalya'yı Kıbrıslılardan geri aldı",
++  gun:"22 Ocak 1216 (TDV antalya gün verir)",
++  yer:"Antalya", yer_id:"Antalya",
++  kisiler:"I. İzzeddin Keykâvus, Mübârizüddin Ertokuş",
++  d:"Selçuklu fethinden bir süre sonra, Kıbrıs kralının da desteğiyle şehrin yerli Hristiyan ahalisi ayaklandı ve Antalya 1212'de Kıbrıslıların eline geçti. Anadolu Selçuklu Sultanı I. İzzeddin Keykâvus şehri yeniden fethetti ve valiliği tekrar Mübârizüddin Ertokuş'a verdi.",
++  kaynak:"antalya", duygu:["🙂"],
++  ic_not_kaynak:"TDV `antalya` gövdesi okundu (10 Ekim 2026), birebir: \"Ancak bir süre sonra Kıbrıs kralının da desteği ile şehirdeki yerli hıristiyan ahalinin çıkardığı isyan sonucu Antalya 1212’de Kıbrıslılar’ın eline geçti; fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ertokuş’a verildi.\"",
++  ic_not_d:"1212 kaybı TDV'de YIL olarak verilir; ayrı madde açılmadı (yerlesimler.js 1212-01-01 kırılması YIL-TEMSİLÎ kovadadır, bu görevin birimi değil). Kuyruk eşi: kronoloji_anadolu.js:681 (aynı gün, aynı olay — o dosya Değişmez 2 evreninde değil)." },
++
++];
