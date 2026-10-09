@@ -165,3 +165,112 @@ resuli           #6cd824  ΔE 17.9      tahiri           #72d824  ΔE 16.9
 3. Aynı cümlelerden çıkan kapsam dışı kusurlar ayrı iş olsun: Malta 1284 Aragon · Alaşehir 1300-1391 Bizans · Draç Thopia · Hama 1310-1342 · Selçuklu↔İlhanlı vesâyet modeli (14 kayıt).
 
 **Dosyalar:** `denetim/EPOK-SAHIP-1008.md` · `denetim/EPOK-SAHIP-1008-KOORD.diff` · `denetim/EPOK-SAHIP-1008-KRONO.diff`. Taban `origin/makine/umit` = `23a7901a`; iki diff de `git apply --check --cached` temiz, LF (CR 0).
+
+---
+
+## § v2 (1009) — KOORD diff'i bugünkü `origin/main` (`36186769`) üzerinde YENİDEN TÜRETİLDİ
+
+> 9 Ekim 2026 · makine UMIT · geçici ağaç `C:\atlas-umit-epok` (detached `origin/main` = `36186769`, iş sonunda kaldırıldı).
+> Commit/push yok. Yöntem: eski diff'in her `-` satırı main'de BİREBİR arandı, `+` satırıyla değiştirildi, diff `git diff`ten alındı.
+> İçerik eski diff'le aynı: 33 `+`/`-` satırının sıralı kümesi BİREBİR eşit (Python ile sınandı). Kaynak alanlarına dokunulmadı, yeni hiçbir şey eklenmedi.
+
+### ① Ankara sorusu — CEVAP: yalnız BAĞLAM satırı
+- EPOK-KOORD Ankara kaydını **değiştirmiyordu**. Ankara, Çanakkale hunk'ında (`@@ -159`) Bergama'dan sonraki **bağlam** satırıydı.
+- Main'de o satırı `23c08363` (DALGA 3, ANKARA-1406 hükmü) değiştirdi: 1404-03-01→1406-01-01 `mehmed-celebi`, 1406-01-01→1411-02-17 `suleyman-celebi` (`kesinlik f:yil`), kaynak alanları ANKARA-1406 beyanıyla yeniden yazıldı.
+- EPOK'un Ankara'ya ilişkin tek sözü §③ taramasıdır ("selcuklu ↔ ahiler", 1281'deki sahip). Bu bir **koordinatör kararına bırakılmış modelleme sorusudur**, diff'e GİRMEDİ.
+- ANKARA-1406 1281 dilimine dokunmuyor. Main'de Ankara hâlâ `1281-01-01→1354-08-01 ahiler`.
+- ⇒ **Çelişki YOK.** ANKARA-1406 hükmü ezilmedi. v2'de Ankara satırı main'deki hâliyle bağlamdadır.
+
+### ② Hunk sınıflaması (12 hunk; eski satır no → main satır no)
+
+| hunk | kayıt | sınıf | not |
+|---|---|---|---|
+| 1 `-159` | Çanakkale | **BAĞLAM KAYDI** | hedef satır main'de birebir. Bağlamdaki **Ankara**yı `23c08363` (ANKARA-1406) değiştirdi. |
+| 2 `-209` | Alanya | TEMİZ | |
+| 3 `-245` | Diyarbakır | **BAĞLAM KAYDI** | hedef birebir. Bağlamdaki **Ardahan**'ı `658a7552` (DALGA 1, DOGU-SAFEVI-0086 H-0009) değiştirdi: akkoyunlu→safevi 1514-09-06 → 1501-07-01, "gün komşudan: Kars". |
+| 4 `-382` | Balyabadra (Patras) | TEMİZ | |
+| 5 `-437` | Draç | TEMİZ | |
+| 6 `-726` → `-728` | Hama · Beyrut · Trablusşam · Akkâ | **BAĞLAM KAYDI** | hedefler birebir. Bağlamdaki **Gazze**ye `658a7552` (DALGA 1) `d:` kaynak alanı eklendi ("gün komşudan: Hanyûnus çatışması"). |
+| 7 `-783` → `-785` | Zebîd · Aden | TEMİZ (kayma +2) | |
+| 8 `-970` → `-982` | Sayda | TEMİZ (kayma +12) | |
+| 9 `-1020` → `-1032` | Malta | TEMİZ | |
+| 10 `-1425` → `-1442` | Korfu | TEMİZ | |
+| 11 `-1753` → `-1776` | Alaşehir | TEMİZ | |
+| 12 ok107 `-394` | Köprülü (Veles) | TEMİZ | hedef satır dosyada 4 kez geçiyor (Veles · İştip · Ustrumca · Doyran'ın aynı `s:` satırı) ⇒ ön-bağlamla (Veles başlığı) tekilleştirildi. |
+
+- ZATEN MAIN'DE: **0**.
+- GERÇEK ÇAKIŞMA: **0**. 16 hedef satırın 16'sı main'de birebir duruyor; hiçbir commit EPOK'un değiştirdiği kayıt satırına dokunmamış.
+- Eski diff'in `-C0`da da düşmesinin sebebi üç bağlam satırı: Ankara · Ardahan · Gazze.
+
+### ③ KRONO diff
+- `EPOK-SAHIP-1008-KRONO.diff` (`data/olaylar_ek5.js`, +2 madde) bugünkü main'e **olduğu gibi temiz uyuyor**: `git apply --check` ✓, bağlam azaltma yok.
+- KOORD-v2 ile birlikte uygulanınca `git diff HEAD --stat` = 3 dosya, 18+/16−.
+- ⇒ **KRONO-v2 YAZILMADI**, gerek yok.
+- Yinelenme kontrolü: 1282-03-30 / 1291-05-18 günü main'de yalnız KUYRUK dosyalarında geçiyor (`kronoloji_italya` · `_memluk` · `_rodos_sovalyeleri` · `_venedik`), Değişmez 2 evreninde madde yok.
+
+### ④ Kapı — `PYTHONHASHSEED=0 py arac/denetle.py --ayrinti` (`36186769`, D8 girdileri KURULMADI)
+
+| koşu | çıkış | sebep |
+|---|---|---|
+| taban | **2** | yalnız D8 ÖLÇÜLEMEDİ (`devletler_harita.js` yok) |
+| + KOORD-v2 | **1** | 2s AÇIK 181→**183 ✗** (tavan 181) · 5a-muaf 1→**2 ✗** (tavan 1) |
+| + KOORD-v2 + KRONO | **1** | yalnız **5a-muaf 2 > tavan 1** (Çanakkale) · 2s AÇIK **181 ✓** |
+
+Değişen sayaçlar, taban → KOORD+KRONO (öteki bütün `Değişmez`/`Ek denetim` satırları birebir aynı):
+- **2s YABANCI 1735 → 1738 (+3)** · AÇIK 181 → 181 · KAPSAM DIŞI 791 → 792 · YIL-TEMSİLÎ 170 → 174.
+- **2s AÇIK listesi önce/sonra BİREBİR aynı.** Liste `denetle.py`nin kendi `yil_temsili_ayir` çıktısından döküldü (181 satır, fark 0).
+  - KOORD tek başına iki GÜN birimi açar: `1282-03-30 Draç · Korfu · Malta` ve `1291-05-18 Akkâ · Beyrut · Sayda`.
+  - KRONO ikisini YER anarak kapatır.
+- **2sk YER 2116 → 2122 (+6)** · kapalı 4231 → 4237 · yalnız-taraf 2265 = 2265.
+- **YIL-TEMSİLÎ +4:**
+  - yeni kova: `1289-01-01 Trablusşam` · `1299-01-01 Hama` · `1303-01-01 Diyarbakır` · `1368-01-01` (Draç; Borneo kovasıyla AYNI güne düştü, o kova kapsam dışından kapsam içine geçti).
+  - mevcut kovaya katılan: `1330-01-01 Köprülü (Veles)`.
+  - KAPSAM DIŞI +1: −1368 +1454 +1517 (Aden/Zebîd).
+- **4d 326 → 325** (başlık satırı, beklenen 326). Alt dökümde 4d-yalnız 324 → 323, BİRLEŞİK 442 → 441.
+  - çıkan: `Malta napoli 1281-01-01→1530-03-24, künye 1282-03-30` (napoli 24 → 23 dönem).
+  - İyileşme; ihlal değil.
+- **5a-muaf 1 → 2 ✗:** yeni üye `Çanakkale kur:1452-01-01 · ilk dönem 1281-01-01 (bizans) · beyan EPOK-SAHIP-1008 · TDV canakkale`. LİSTE: Uzunköprü + Çanakkale.
+- 3z `m:` 492 → 505 · `kd:` 59 → 65 (şema borcu).
+- 5c 2450 → 2449 (Çanakkale `kur:` aldı).
+- D7 🧊 738 → 739 (yeni A-koridor: `1368-01-01 Draç → venedik 244 km`; ihlal sayılmıyor).
+- kaynaksız `s:` 1887 → 1880 (iyileşme).
+- kronoloji 2221 → 2223.
+
+**1009 ölçümüyle karşılaştırma** (`EPOK-SAHIP-OLCUM-1009.md`, taban `1edf7f9a`):
+
+| sayaç | 1009 ölçümü | v2 ölçümü (`36186769`) | hüküm |
+|---|---|---|---|
+| 2s YABANCI | +3 | +3 | TUTUYOR |
+| 2s AÇIK net (KRONO ile) | 0 | 0, liste birebir | TUTUYOR |
+| 4d | −1 (324→323) | −1 (326→325; 4d-yalnız 324→323) | TUTUYOR. Taban mutlak sayı 324'ten 326'ya kaymış; EPOK'un payı yine −1, aynı kalem (Malta). |
+| 5a-muaf | +1 (ihlal) | +1 (ihlal) | TUTUYOR |
+| YIL-TEMSİLÎ | 166 → 170 (+4) | 170 → 174 (+4) | TUTUYOR, aynı kalemler |
+| KAPSAM DIŞI | +1 | +1 | TUTUYOR |
+| 2sk YER | +6 | +6 | TUTUYOR |
+
+**Aynı sayaçlara dokunan bekleyen diff'ler** (her birinin kendi raporundan okundu; burada koşturulmadı):
+- **ZAMAN-PAKET-1009:** 2s YABANCI 1735→1736 (+1) ve YIL-TEMSİLÎ 170→171 (+1, Lapaha). Kendi raporu 2s AÇIK 181'i değiştirmediğini yazıyor; 5a-muaf ve 4d'ye dokunmuyor.
+  - EPOK kayıtlarına dokunan satırı YOK. Tek ortak ad, `kronoloji_cok_1923_1945.js`deki Şeyh Said maddesinin `yer_id:"Diyarbakır"` alanı (kuyruk dosyası).
+  - Ama `arac/denetle.py`yi de değiştiriyor ⇒ ikisi birlikte inerse 2s YABANCI'nın beklenen toplamı **+4**. Birlikte ölçülmedi.
+- **KRONO-SONRA1923-EKSIK A/B:** yalnız `kronoloji_cok_1923_1945.js`. Kendi raporları `denetle.py` satırlarının birebir aynı kaldığını yazıyor.
+- **KRONO-GORUNURLUK** (TUR · TUR2 · SUZGEC): kuyruk kronoloji dosyaları + `js/suzgec.js`. Raporu `denetle.py`nin değişmediğini yazıyor.
+- ⇒ EPOK'un dokunduğu 5a-muaf · 4d · 2s AÇIK sayaçlarına bu üç aileden hiçbiri dokunmuyor.
+
+### ⑤ Teslim — ① ölçtüm · ② bulamadım · ③ istiyorum
+
+**① Ölçtüm:** yukarıda §①-④.
+
+**② Bulamadım / ölçmedim:**
+- D8 (8a/8b) bu ağaçta ölçülemedi: `kodla.py coz-c` kurulmadı. Veri diff'i motor çıktısını koşu olmadan değiştirmez, 1009'da da aynı kaldı.
+- ZAMAN-PAKET-1009 ile birlikte ortak ölçüm yapılmadı.
+- BOYA ŞARTI hâlâ açık: 6 kimliğin `arac/renkler.py`de rengi yok (`kudus-kralligi · trablus-kontlugu · eyyubi-hama · resuli · tahiri · sicilya-kralligi`; `36186769`da grep 0).
+- Künye pencereleri 1008'deki gibi (`devletler.js`ten yeniden okundu).
+
+**③ İstiyorum:**
+- KOORD-v2 + KRONO **aynı commit'te**, tavan kararlarıyla birlikte. Tavan sayısı önermiyorum; yukarıda yalnız ölçülen sayılar var.
+- 1008'deki BOYA ŞARTI (tam inşa + 6 boya, resuli/tahiri renk çakışması) aynen geçerli.
+
+**YENİ DOSYALAR:**
+- `denetim/EPOK-SAHIP-1009-KOORD-v2.diff`: `origin/main` `36186769`a karşı, LF, BOM yok, CR 0, 54.431 bayt. Temiz ağaçta `git apply --check` ✓, KRONO ile birlikte de ✓.
+- `EPOK-SAHIP-1008-KRONO.diff` değişmedi ve geçerli.
+- Bu bölüm `denetim/EPOK-SAHIP-1008.md`ye eklendi.
