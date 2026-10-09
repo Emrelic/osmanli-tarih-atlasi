@@ -117,3 +117,42 @@ Celâyirli dönemleri, künyenin uçlarından ya da komşu kayıtlardan **toplu 
 - `denetim/CELAYIRLI-0085-KOORD.diff`: ana, 2 kayıt, `data/yerlesimler.js`; `git apply --check` origin/main üstünde temiz, CR 0
 - `denetim/CELAYIRLI-0085-SECENEK-KOORD.diff`: 3 kayıt, `yerlesimler_ok107.js` + `yerlesimler_sinir_guney.js`; check temiz, CR 0, **önerilmiyor**
 - Betikler scratchpad'de: `celayir_bilesen.py` · `hepsi.py` · `celayir_yama.py`
+
+---
+
+## § v2 — yeni temel `5921a031` (dalga 1 `658a7552` dahil) · 9 Ekim 2026
+
+**Niçin v2.** v1 diff'i `658a7552` üstünde çakışıyordu. `DOGU-SAFEVI-0086` (H-0012), "Zagros içi" satırının **1469 SONRASINI** değiştirdi (`akkoyunlu 1469→1503` · `safevi 1503→` + TDV safeviler/akkoyunlular kaynak alanı).
+
+**Aynı kalem mi? HAYIR, aralıklar ayrık.**
+- DOGU-SAFEVI: 1469 → 1503 → 1736.
+- CELAYIRLI-0085: 1335-12-01 → 1469-01-01.
+- Dokunma sınırı 1469-01-01. İki tarafın ortak ucu bu gün; ikisi de onu değiştirmiyor.
+⇒ v2 yalnız kendi aralığını yazar. DOGU-SAFEVI'nin dönemi ve kaynak alanı **aynen** korunur (diff'te bağlam satırı, silinen alan yok).
+**GORUNTU-0085'in "Luristan" kaydına dokunulmadı.**
+
+**Komşu zincirler yeni temelde yeniden ölçüldü, DEĞİŞMEMİŞ.**
+- Râmhürmüz · Behbehân · Şüşter: `lur-i-buzurg 1335-12-01→1393` · `timurlu 1393→1452` · `karakoyunlu 1452→1469`. Zagros hizalaması geçerli.
+- Berde · Revan · Nahçıvan: `celayirli →1386-01-01` · `timurlu →1408-04-13`. Gence hizalaması geçerli.
+- ⚠️ Not (kalem dışı): Zagros içi'nin akkoyunlu sonu artık 1503 (DOGU-SAFEVI), komşularınınki 1508. Bu iki kalemin ayrı bölge cümleleri; dokunulmadı.
+
+**denetle `--ayrinti`, PYTHONHASHSEED=0, `5921a031`, aynı ağaçta önce/sonra:**
+
+| ölçü | önce | sonra |
+|---|---|---|
+| çıkış | 2 (yalnız D8 ÖLÇÜLEMEDİ: devletler_harita.js yok) | 2 (aynı) |
+| D1 sahipsiz | 309/309 | 309 |
+| D2 açık | 0 | 0 |
+| **2s AÇIK** | 183 (tavan 183) | **182** |
+| **2sk** | 2253 (tavan 2253) | **2253** (iç kayma: GÜN-TARAF 1630→1631 · OCAK-1-TARAF 487→486) |
+| **D7** 🧊 | 738 (donuk 731) | **739** |
+| 3z zamansız `m:` | 493 | 492 |
+| kaynaksız `s:` | 1892 | 1892 |
+
+- **2s −1, ADIYLA:** kapanan kalem *"1406-10-21 (1) Gence … en yakın 31g: Aras zaferi: Kara Yûsuf, Timurlu Ebû B…"*. Gence artık Karakoyunlu'ya TİMURLU'dan geçiyor ve Aras maddesi o kırılmayı kapatıyor.
+- **D7 +1, ADIYLA:** `1386-01-01 Gence → timurlu 166 km ada: Berde (Karabağ)+Gence`. Yeni bir ada DEĞİL: mevcut Berde Timurlu adasına (A-koridor, 189 km) katılım. Karabağ'ın 1386 Timurlu koridoru bugün de var; bu iş onu doğurmadı. Aşım beyanı bu.
+- **3z −1, ADIYLA:** kalkan çelişki *"1400-06-15 Gence (m:Revan) yerleşim=celayirli merkez=timurlu"*. Gence ile idarî merkezi Revan artık aynı sahipte.
+- Tavan sayısı önerilmiyor (birleşik ölçüm koordinatörde).
+
+**Dosya:** `denetim/CELAYIRLI-0085-KOORD-v2.diff`: 2 kayıt, `data/yerlesimler.js`; `git apply --check` `5921a031` üstünde temiz, CR 0. **v1'in yerine geçer.**
+Seçenek diff'i (H-0006, Siirt/Cizre/Cibri) yeniden türetilmedi; önerilmediği için v1 hükmü geçerli.
