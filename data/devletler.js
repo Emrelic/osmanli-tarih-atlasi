@@ -149,7 +149,7 @@ window.DEVLETLER = [
 },
 
 { id:"kacar", ad:"Kaçar Hanedanı (İran)", tur:"devlet", bolge:"iran",
-  f:"1789-03-21", t:"1925-01-01", baskent:"Tahran", harita:"kacar",
+  f:"1789-03-21", t:"1925-10-31", baskent:"Tahran", harita:"kacar",
   ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. Ardılı için bkz. [[iran]]. `harita:` alanı ayrıca aynı gün `\"iran\"`den `\"kacar\"`a çekildi (bkz. `afsar` kaydındaki not — aylardır `afsar` ile aynı anahtarı paylaşıyordu). 🔴 ÇELİŞKİ ÇÖZÜLMEDİ, BİLDİRİLDİ (§4⑥, M-3555, 1.MURAT'ın kendi doğrulaması): (a) künyenin BEYAN ETTİĞİ kaynak `kacarlar` YALNIZ YIL veriyor — \"Kaçar hânedanı sona ermiş oldu (1925)\", gün yok ⇒ t: bu yüzden GÜN DEĞİL YIL hassasiyetinde (1925-01-01), §4'ün 'kaynağın desteklediği en kaba güvenli düzey' kuralı. (b) TDV `riza-sah-pehlevi` maddesi ise \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diyor — 1925 İLE ÇELİŞİYOR. (c) AMA aynı `riza-sah-pehlevi` maddesinin SONRAKİ iki tarihi (12 Aralık 1925 şehinşah ilanı · 25 Nisan 1926 taç giyme) yaygın tarihlemeyle BİREBİR uyuşuyor — yalnız İLK tarih (31 Ocak 1924 hal') ayrışıyor ve 12 Aralık 1925'e kadar 23 aylık bir boşluk bırakıyor. Hangisinin doğru olduğu BU KAYITTA ÇÖZÜLMÜYOR.",
   kaynak:"kacarlar (t: için — YALNIZ YIL veriyor) · riza-sah-pehlevi (ÇELİŞEN 31 Ocak 1924 iddiası için, ayrıntı ozet'te) — ikisi de ayrı ayrı okunmalı, bkz. ozet",
   kronoloji:[
@@ -175,7 +175,7 @@ window.DEVLETLER = [
 // için), kayıt yalnız dizin/isim netliği amaçlı. Şema uygun değilse
 // (ör. t alanı boş/"—" bırakılmalı) KARAR KOORDİNATÖRÜN.
 { id:"iran", ad:"İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)", tur:"devlet", bolge:"iran",
-  f:"1925-12-12", t:"2026-08-07", baskent:"Tahran",
+  f:"1925-10-31", t:"2026-08-07", baskent:"Tahran",
   ozet:"Kaçar hânedanının mecliste gıyaben tahttan indirilmesinin (31 Ocak 1924) ardından Rızâ Han'ın 12 Aralık 1925'te şehinşah ilan edilmesiyle kurulan Pehlevi hânedanı ve 1979 İslam Devrimi sonrası kurulan İran İslam Cumhuriyeti'nin ortak kaydı — modern ulus-devlet olarak \"İran\" adı burada, hanedan adları (Safevî/Afşar/Zend/Kaçar) ayrı künyelerde tutulur (Emre'nin 7 Ağustos 2026 kararı). ⚠️ Tamamı atlasın ufkunun (1923-10-29) DIŞINDA; haritada hiç boyanmaz, yalnız dizin amaçlı. (kaynak: TDV, madde: riza-sah-pehlevi, humeyni)",
   kaynak:"iran",
   kronoloji:[
@@ -5715,7 +5715,7 @@ window.DEVLETLER = [
 // slug'ı ölü (302), `cava` maddesi de antlaşmadan hiç bahsetmiyor; §4
 // gereği standart akademik kaynak (Güneydoğu Asya tarihi) kullanıldı.
 { id:"surakarta", ad:"Surakarta Sunanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1755-02-13", t:"1923-10-29", baskent:"Surakarta (Solo)",
+  f:"1755-02-13", t:"1945-09-02", baskent:"Surakarta (Solo)",
   ozet:"Giyanti Antlaşması ile Mataram Sultanlığı'nın ikiye bölünmesiyle doğan, Pakubuwono hanedanının yönettiği sunanlık; Yogyakarta ile aynı gün doğdu (bkz. [[yogyakarta]]), Hollanda himayesinde 20. yüzyıla dek sürdü (1923 sonrasında da sürdü). TDV'de `mataram` maddesi ölü (302); tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6758,7 +6758,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"bhopal", ad:"Bopal (Bhopal) Devleti", tur:"devlet", bolge:"guney-asya",
-  f:"1708-01-01", t:"1923-10-29", baskent:"Bhopal",
+  f:"1708-01-01", t:"1945-09-02", baskent:"Bhopal",
   ozet:"Dost Muhammed Han'ın Babür hizmetinden ayrılıp kurduğu, dört kadın hükümdarıyla (Begüm) tanınan Müslüman prens devleti; İngiliz himayesinde varlığını sürdürdü (1923 sonrasında da sürdü, TDV'ye göre 1952'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. (kaynak: TDV, madde: bopal--devlet — \"Dost Muhammed Han... nevvâblığını ve istiklâlini ilân etmiştir\")",
   kaynak:"bopal--devlet",
   kronoloji:[
@@ -7529,7 +7529,7 @@ window.DEVLETLER = [
   ozet:"Hive Hanlığı'nın Şubat 1920'de yıkılmasının ardından I. Harezm Kurultayı'nca 26 Nisan 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
   kaynak:"TDV, hive-hanligi (Mehmet Saray; gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «2 Şubat 1920'de son Kongirat Hanı Seyyid Abdullah'ın tahttan çekilmesi üzerine 26 Nisan 1920'de Hârizm Halk Cumhuriyeti ilân edildi. Ardından da 1924'te bu cumhuriyete son verilip topraklar Hârizm, Özbekistan, Türkmenistan, Kara Kalpakistan arasında paylaşıldı». f: GÜN kaynaklı; t: kaynak YIL veriyor (1924), gün bulunamadı. Destek: TDV ozbekistan «1920'de … Hîve'de Hârizm Halk Cumhuriyeti teşkil edildi» (YIL). Eski dayanak (Wikipedia 'Khorezm People's Soviet Republic', tek kaynak) KALDIRILDI.",
   kronoloji:[] },
-{ id:"buhara-halk-cumhuriyeti", ad:"Buhara Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-10-08", t:"1924-01-01",
+{ id:"buhara-halk-cumhuriyeti", ad:"Buhara Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-10-08", t:"1924-10-27",
   ozet:"2 Eylül 1920'de Kızıl Ordu'nun Buhara Emirliği'ni yıkmasının ardından 8 Ekim 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
   kaynak:"TDV, ozbekistan (gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «1920'de Buhara Halk Sovyet Cumhuriyeti ile Hîve'de Hârizm Halk Cumhuriyeti teşkil edildi» (YIL) · TDV, buhara — AYNEN: «1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu'nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920'de Buhara Hanlığı ilga edildi». ⚠️ f: 8 Ekim 1920 GÜNÜ TDV'de YOK (TDV hanlığın ilgası için 6 Ekim diyor, cumhuriyetin ilanına gün vermiyor); akademik kaynakta da BULUNAMADI — gün yalnız Wikipedia'da; t: 1924 YIL. Eski tek dayanak (Wikipedia 'Bukharan People's Soviet Republic') kaynak olarak KALDIRILDI.",
   kronoloji:[] },

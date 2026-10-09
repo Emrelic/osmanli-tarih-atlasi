@@ -2691,7 +2691,7 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 126   # 9 EKIM 2026: 127 -> 126 · ARTUKLU-IKI-PARCA-1008 (Harput/Çemişgezek/Palu 5 Eylül değerleri geri, a760c8b6 merge gerilemesi) — İYİLEŞME, §3.4-3
+BEKLENEN_ASAN = 124   # 9 EKIM 2026: 126 -> 124 · IKI AYRI KALEM, BIRLIKTE olculdu (§3.4-0): HARPUT-DULKADIR-1009 (Harput artuklu 1353-1429 -> __BOSLUK__ 1353-1378 + dulkadir 1378-1429; artuklu kunyesi 1409'da bitiyordu) ve EEK-BALKAN-1009 (Herseknovi bosna 1463-1482 HAYALETI -> hersek) — ikisi de "126 -> 125" onermisti; birlikte inince 124 CIKTI, yani ayri kalemlermis. IYILESME, §3.4-3
 # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
 # 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
 #   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).

@@ -1265,6 +1265,14 @@ window.KRONOLOJI_ANADOLU = [
   d:"Beyliğin kurucusu Zeyneddin Karaca Bey, Memlükler tarafından idam edildi. Yerine oğlu Halil Bey tahta çıkarak beyliğin başına geçti.",
   kaynak:"dulkadirogullari" },
 
+{ taraflar:["dulkadir","memluk"], t:"1378-01-01", b:"Halil Bey Harput'u yeniden aldı; Berkuk Halep kuvvetlerini Dulkadırlılar üzerine gönderdi", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["Harput", "Memlük", "konu-askeri"],
+  yer_id:"Harput (Elazığ)",
+  gun:"1378 — YIL hassasiyeti; Harput'un geri alınışı 1378'den ÖNCE (yılı TDV'de yok), 1378 Berkuk'un karşı seferinin yılıdır",
+  d:"Dulkadıroğlu Halil Bey, Memlükler'e teslim etmek zorunda kaldığı Harput'u yeniden ele geçirdi. Bunun üzerine Memlük ordularının kumandanı Berkuk, 1378'de Mübârek Şah komutasındaki Halep kuvvetlerini Dulkadırlılar'ın üzerine gönderdi; Mübârek Şah savaş meydanında öldürüldü.",
+  kaynak:"dulkadirogullari",
+  ic_not_kaynak:"TDV `dulkadirogullari` (Refet Yinanç, 1994) gövdesi okundu (9 Ekim 2026, HARPUT-DULKADIR-1009), birebir: \"Ancak Mısır hükümetinin harekete geçmesi üzerine Harput’u Memlükler’e teslim etmek zorunda kaldı. Bununla beraber Halil Bey on yıl sonra bu şehri tekrar ele geçirdi. Bu olay üzerine Memlük orduları kumandanı Berkuk, 1378’de Mübârek Şah emrindeki Halep kuvvetlerini Dulkadırlılar üzerine sevketti.\"" },
+
 { taraflar:["dulkadir"], t:"1379-01-01", b:"Ayas Savaşı'nda Memlükler yenildi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["Ayas", "Memlük", "zafer", "konu-askeri"],
   yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
