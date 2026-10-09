@@ -217,3 +217,75 @@ tavanlar              8a 1508 (ölçüm 1517, +9 payı AYRILMADI — tavana YAZI
 çok diff dokunuyorsa tahmin TUTMAZ** — bu gece dört kez ölçüldü (Harput ve EEK
 ikisi de "126→125" dedi, birlikte ölçülünce **124** çıktı). Teslimde şunu yaz:
 *"bu sayaca kaç diff dokunuyor."*
+
+---
+
+## §10 KOŞU 22 BİTTİĞİNDE — sıra, ve hiçbir şey beklemesin
+
+Koşu ~09:00'da bitiyor. **Bu bölüm sabah tartışılmasın diye şimdi yazıldı.**
+
+### ① HAVVA'nın koşu sonu zinciri (kendi emrinde var, burada da dursun)
+```
+uret_devirler → renk_olc (VERİ DEĞİŞTİ ⇒ ŞART) → denetle → denetle_yayin → surum_damgala
+```
+Her birinin **ÇIKIŞ KODU komutun KENDİSİNDEN** okunur (`| tail; echo $?` YAZILMAZ).
+
+### ② RAPORA GİRMESİ ŞART OLAN ÜÇ SATIR — adıyla sorulmuş sorular
+```
+8a Hanak: KAYBOLDU / KALDI
+    KAYBOLDU ⇒ bayat gövde eseriydi, tavan 1508'de KALIR, kalem KAPANIR
+    KALDI    ⇒ VERİ kusuru, Hanak adıyla parti maddesi olur
+TEHUANTEPEC: yayındaki harita 1523-58 ingiltere / 1849-50 abd boyuyordu
+    (DALGA 1'de düzeltildi) — taze gövdede DÜZELDİ Mİ
+1000-1280 DİLİMİ: haritada nasıl GÖRÜNÜYOR (81 boyalı ada / 2.741 boş site)
+```
+
+### ③ ÇIKIŞ 1 GELİRSE — yayın DURUR, koordinatör karar verir
+Tek ihlal `8a` ise **yayınlanmaz, koordinatöre yazılır.** `8a` ÖNCE ölçümü
+**1517** (tavan 1508, +9) ve **+9'un payı AYRILMADI** (gövde mi / hat mı /
+nokta mı). Taze gövde bu ayrımı mümkün kılan tek şey; tavanı koordinatör
+o ölçümü gördükten sonra yazar (`§3.4④`).
+
+### ④ ÜÇ SAYI PAYI AYRILMADAN TAVANA YAZILMAZ
+```
+kaynaksız s:  1930 → 1834   İYİLEŞME ama ufuk değişti ⇒ "ölçme biçiminden
+                            gelen iyileşme YALANCIDIR" · payı ayrılacak
+YIL-TEMSİLÎ   228 > 151     aynı sebep · DOKUNULMADI
+D7            739 → 800     Emre'nin dondurması yürürlükte · DOKUNULMADI
+2s AÇIK       193           YENİ KAPSAM, 12 birim adıyla · 8'i kapandı
+                            (KRONO-ONCE1281 A/B/C) ⇒ üçü BİRLİKTE ölçülüp inecek
+```
+
+### ⑤ KOŞUDAN SONRA İNECEK, HAZIR BEKLEYENLER
+```
+MOTOR PARTİSİ (tuz bir kez değişir, §9.1②) — tam inşa gerektirir:
+  C3 yürüyüş diş süzgeci (tur 5) · Z6'nın 4 rengi · BOYA v2'nin 16'sı
+  TUZ-DÖRDÜNCÜ-DOSYA yaması · norvec-bagimsiz-1814 boyası
+  NEGATIF-YIL-B (motor tarafı) · C3'ün ÖN ŞARTI: gömülü dil listesi
+VERİ (koşudan sonra, tuz dışı):
+  KRONO-ONCE1281 A+B+C → index.html ÜÇ satır (C'ninki YOK, eklenecek) + paketle
+  LAB-KONUM-ONERI: 4 KESİN + 4 YAN-KESİN + 2 İKAME koordinat düzeltmesi
+  Urfa + Siverek zinciri (1465→1404 · 1507→1514 · 1516-05→1517)
+  Lazkiye kol künyesi — 🔴 YALNIZ noktalarıyla BİRLİKTE (Cebele · Merkab · Baniyas)
+  Merakeş Murâbıt dönemi · Antalya Aldobrandini künyesi · Ayla 1170 fatimi
+  Trablusşam penceresi 1289-01-01 → 1289-04-26
+ARAÇ/ALTYAPI:
+  ARAC-TAHTA-NUMARA-1010 (TEMIZ-AGAC'tan SONRA oturur) · makine önekleri ilanı
+```
+
+### ⑥ KOŞUDAN SONRA ÖLÇÜLECEK — bu gece ölçülemeyenler
+```
+D8          ÖNCE 8a 1517 · 8b 82 · konum 0 · 8k 78 (taban 3429ead9 + KOŞU 21 gövdesi)
+            🔴 ÜÇ ölçüm gerekiyor, ikisi değil:
+               ① ÖNCE (var) ② YENİ TABAN + ESKİ gövde ③ SONRA (yeni gövde)
+            ①→② farkı YENİ KAPSAM · ②→③ farkı koşunun GERÇEK etkisi
+H-0011/H-0003  piksel ÖNCE alındı (sahne.json + sor.js commitli) ⇒ SONRA birebir
+①④ SONRA ayağı  LAB'de, 61 ölü kimlik boyası + dizinsiz kimlik
+C3 ön şartı     ≤2 hücre enli gömülü dil listesi (HARITA-DIL-OLCUM-1009)
+```
+
+### ⑦ MÖ İÇİN SIRADAKİ KAPI — `§6`nın kuralı
+`MIMARI.md §5`e bu gece yazıldı: **AÇ = p95 ≤150 km VE azamî ≤300 km.**
+Sümer kutusu için **13-20 kaynaklı nokta** gerekiyor (KASA'nın 10 adayıyla
+3-10 eksik). ⚠️ Ve `arac/denetle_kapsama.py` **hâlâ YOK** ⇒ bu ölçüt kapıya
+BAĞLI DEĞİL; bir faz onu geçer ama hiçbir kapı SORMAZ. Açık kalem.

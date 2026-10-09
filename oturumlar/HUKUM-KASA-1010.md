@@ -254,7 +254,7 @@ EMRELIC kıtaları yalnız **7 sahipsiz şehri** ve yeni işleri alır.
    ÖLÇÜLMESİNİ şart koşmuştum, ölçüldü ve ② çıktı ⇒ TEK künye. Kural işledi.
 ⓑ BABİL 1595→1570 · 25 YILLIK KAYNAKSIZ DELİK → `__BOSLUK__`, BEYANLI.
    §1.5: "Kusur değil, BEYAN." Uydurulmuş bir köprüden iyidir.
-ⓒ KASSİT SONU TDV 1174 ↔ Çağla 1155 → TDV esas (§4), fark ADIYLA beyan.
+ⓒ KASSİT SONU TDV 1174 ↔ Çağla 1155 → 🔴 **HÜKMÜMÜ DÜZELTİYORUM, aşağıda §9.2.**
 ⓓ 🔴 MISIR'DA TDV ESAS DEĞİL — ve bu §4'ün SINIRI, istisnası değil.
    §4 TDV'yi "İslâm dünyası, Osmanlı ve KOMŞULARI" için birincil yapar.
    FİRAVUNLAR MISIR'I o kapsamda DEĞİL ⇒ modern akademik kaynak (Çıvgın 2015)
@@ -274,3 +274,72 @@ Ayrıca §1.1'in 7 çelişkili kaydı (`lori-kralligi` t:1101 ↔ Temmuz 1118 ·
 `ata-pueblo` · `oshu-fujiwara`) **§1'in A/B sınıflamasına** girer:
 `yafna` kendi olay satırıyla çelişiyorsa bu bir **iç tutarsızlık** ve
 önce o çözülür — başka kaynak aramadan.
+
+---
+
+## §9.2 🔴 ⓒ HÜKMÜMÜ DÜZELTİYORUM — kendi ⓓ'mle ÇELİŞİYORDU
+
+ⓒ'de *"Kassit sonu TDV 1174 esas"* dedim. **ⓓ'de ise** *"firavunlar Mısır'ı
+TDV'nin kapsamında DEĞİL, modern akademik kaynak TERCİH EDİLİR"* dedim.
+🔴 **İkisi aynı anda doğru olamaz.** Kassitler de İslâm öncesi Mezopotamya;
+`§4` TDV'yi *"İslâm dünyası, Osmanlı ve KOMŞULARI"* için birincil yapar.
+MÖ 2. binyıl Babil o kapsamda değildir — tıpkı firavunlar Mısır'ı gibi.
+⇒ **ⓒ DÜZELTİLDİ: Kassit sonu için AKADEMİK KAYNAK esas.**
+```
+Çağla  1155          ·  Pleiades/Isin  "Second Dynasty of Isin, ca. 1157-1026 BC"
+TDV    1174          ·  fark ADIYLA beyan edilir ama ESAS DEĞİL
+```
+🟢 KASA'nın yeni verisi bunu güçlendirdi: Pleiades'in 1157'si TDV'nin 1174'ünden
+**17 yıl** ayrı ve Çağla'nın 1155'iyle neredeyse ÖRTÜŞÜYOR ⇒ iki bağımsız
+akademik kaynak aynı yerde, TDV tek başına ayrı yerde. Ve aynı kayıt
+**Kassit→Yeni Babil deliğinin ilk 130 yılını da kapatıyor.**
+📌 **DERSİ:** bir kural (`§4` TDV birincil) kapsamıyla birlikte okunur. Ben
+kuralı kapsamından KOPARIP uyguladım, iki madde arasında tutarsızlık doğdu,
+ve bunu bir işçi yakaladı. *Aynı gecede verdiğim iki hüküm birbiriyle
+çelişiyorsa, hükmü verenin tutarlılığı ölçülmemiştir.*
+
+### §9.3 SÜMER KUTUSU — "sayı değil KONUM" (KASA ölçtü, LAB'in formülü GEÇERSİZ)
+```
+p95 / azamî (km)   mevcut 10 → 232/303   ·   +15 yeni → 221/302   ·   +Susa → 186/249
+çekirdek kutu (30,5-33,5K · 44-47D)  p95 = 151 km   ← eşiğin 1 km ÜSTÜ
+```
+⇒ **SINIR, AÇ değil.** 15 Sümer sitesinin TOPLAM etkisi yalnız **−11 km**;
+13'ü p95'i HİÇ oynatmıyor çünkü hepsi Fırat-Dicle hattında, mevcutların
+10-60 km yakınında. **Sümer KÜMELİ bir coğrafya.**
+🔴 **LAB'in `N = alan × (k/D)²` formülü DÜZGÜN DAĞILIM varsayıyor** ⇒ *"13-20
+nokta yeter"* bu kutu için **GEÇERSİZ.** Formül yanlış değil, VARSAYIMI bu
+coğrafyada tutmuyor — ve bunu ancak gerçek siteler konulunca görülebildi.
+
+150 km'den uzak hücreler ÜÇ KENARDA: güneydoğu (Basra · Şattülarap · Körfez) ·
+güneybatı (çöl) · kuzeydoğu (Zagros/İlam). **Oralarda MÖ 3. binyıl kenti YOK.**
+
+🔴 **HÜKÜM — İKİSİ BİRDEN, bu sırayla:**
+```
+① KUTU ÇEKİRDEĞE DARALTILIR (D220: pencere en son açılır, kademeli)
+② KENARA `tur:"bolge"` DOLGU NOKTASI — MIMARI §5 bunu ZATEN öngörüyor:
+   "Seyrek bölgelerde nokta gerçek şehir olmak zorunda değil; dolgu noktası
+    SAHİPSİZ kalır ve `bos:` alanıyla etiketlenir."
+```
+⚠️ **DOLGU NOKTASI `BEKLENEN_SAHIPSIZ`I OYNATIR** (Değişmez 1 sahipsizi sayar)
+⇒ dolgu ve tavan **AYNI COMMIT'TE** (`§3.4②`).
+🔴 **EŞİĞİ 151'E GEVŞETMİYORUM.** 150, Anadolu/Balkan p95'inin ~2 katı olarak
+türetildi; ölçüm 1 km aşıyor diye eşiği oynatmak, ölçüme göre ölçüt yazmaktır —
+bu gecenin en sık yasakladığım şeyi. Çare bir-iki nokta, eşik değil.
+⚠️ Ve KASA kendi ölçümünün sınırını beyan etti: **kara maskesi uygulanmadı**
+(LAB aracı depo dışında), su hücreleri p95'i şişiriyor ⇒ **LAB yeniden ölçecek.**
+Yani 151 bile kesin değil; maske ile AÇ'a düşebilir.
+
+### §9.4 §6.1'E EK — TANIĞIN ÇÖZÜNÜRLÜĞÜ (KASA önerdi, kabul)
+> **Dakika-yuvarlak ya da `inhabited places` türündeki TGN kaydı İKİNCİ TANIK
+> SAYILMAZ.** Bir tanığın hatası kadar **çözünürlüğü** ve **neyi işaret ettiği**
+> de sorulur: modern yerleşimi gösteren bir kayıt, ortaçağ/antik site için
+> tanık değildir.
+
+Ölçülen vakalar (KASA, Sümer turu): TGN **Susa 7,6 km** → modern Şuş kasabası
+(**Beylekan deseninin aynısı**) · **Isin 30,7 km** (TGN yanlış yer) ·
+Eşnunna 22,8 · Dilbat 16,5 · Ubaid 5,1 (yuvarlak).
+TGN ile <0,3 km TUTAN 6 site: Girsu · Bad-tibira · Borsippa · Kutha · Sippar · Tutub.
+TGN'de YOK 5 site: Pleiades'in **iki bağımsız konum kaydı** (OSM + CIGS)
+≤1,1 km tutuyor ⇒ aynı kaynağın iki ayrı ölçümü, zayıf ama beyanlı tanık.
+🔴 Ve `Opis` ALINMADI: Pleiades ↔ TGN arası **92,7 km** ⇒ yeri belirsiz.
+**Bir noktayı yazmamak, yanlış yere yazmaktan iyidir.**
