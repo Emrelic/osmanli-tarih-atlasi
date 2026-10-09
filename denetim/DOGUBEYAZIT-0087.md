@@ -62,10 +62,22 @@ Osmanlı olup olmadığı.
 - Doğubayazıt 1514-1534 Safevî olunca peteği ve emdiği ova Safevî olur. Bu, TDV `agri`nın
   *"kısa bir süre Safevîler’in idaresinde"* cümlesiyle ve 27/28 Safevî komşuyla uyumlu.
 - Batı uç Erzurum'un 1518 Osmanlı peteğidir ve değişmez.
-- 1534-1547'de Doğubayazıt Osmanlı'dır ve **Iğdır (42 km) ile bitişik**: Iğdır'ın `d:`si 1534-01-01'de
-  başlıyor ⇒ yeni bir eksklav doğmaz.
-- 1547-1553'te Doğubayazıt Safevî, Iğdır Osmanlı'dır. Bu bir **Safevî girintisidir**, kaynaklıdır.
-- 1553 sonrası Mâku hariç bütün çevre Osmanlı'dır.
+- ⚠️ **DÜZELTME (DOGU-1533-0087 teslimi sonrası):** ilk sürüm burada *"1534-1547'de Iğdır ile bitişik,
+  yeni eksklav doğmaz"* diyordu. Bu, Iğdır'ın BUGÜNKÜ `d:` 1534-01-01'ine dayanıyordu. DOGU-1533-0087'nin
+  diff'i Iğdır ve Beri'yi Revan zincirine geçiriyor (TDV `igdir--sehir`: "1583 yılında kesin olarak
+  Osmanlı" ⇒ Safevî 1583-09-13'e kadar). Arpaçay, Digor ve Küçükperveli ise 1534-06-01'de Osmanlı oluyor.
+  ⇒ İki diff birlikte inerse:
+  - **1534-06-23 → 1547 ve 1553 → 1583'te Doğubayazıt yine çevresinden kopuk bir Osmanlı noktası**
+    olur. Kuzeyde Iğdır ve Mâku Safevî, güneyde Çaldıran/Bargiri/Erciş 1548'e kadar Safevî.
+    En yakın Osmanlı noktaları Digor (109 km) ve Kars (144 km); arada Iğdır ovası ve noktasız Ağrı ovası var.
+  - Fark şu: bu eksklav artık **kaynaklıdır** (Kaya 2017 dn. 2: Bayezid Kalesi 23 Haziran 1534; TDV
+    `igdir--sehir` 1583). EEK sınıfı **① GERÇEKTEN ATLANDI**, çaresi BEYAN. Iğdır ovası kalesi
+    olmayan Revan ovası tarafı Safevî kalmıştır.
+  - Ama **1514-1534 arası kaynaksız eksklav kapanır** — Emre'nin sorduğu Çaldıran-sonrası ada budur.
+  - 1548 sonrası Doğubayazıt güneyde Van/Erciş/Çaldıran'la bitişir; kuzeyde Iğdır 1583'e kadar Safevî kalır.
+  - DOGU-1533-0087: çelişki yok. Benim 1534-06-23'üm Van/Bayezid içindir ve Kars yakasını anmaz.
+- 1547-1553'te Doğubayazıt Safevî olur. Bu dilim kaynaklıdır.
+- 1553 sonrası güney ve batı Osmanlı'dır; kuzey (Iğdır, Mâku) Safevî'dir (DOGU-1533 diff'iyle).
 
 ## 2. ÖNERİLEN ZİNCİR
 ```
