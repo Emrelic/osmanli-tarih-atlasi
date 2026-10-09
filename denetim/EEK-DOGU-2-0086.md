@@ -74,3 +74,34 @@ H-0011'in tekil eşleşmesi ("?") görselden kesin okunamadı; beşi de aynı Ak
 3. D7 (🧊 donuk taban, çıkış etkilemez) +4 beyanla: Derbend ① gerçek; Gence-Berde ara nokta kalemi; Hemedan mevcut ada.
 4. Kasr-ı Şîrîn · Kirmanşah 1503-1508: kaynak ara (Irâk-ı Arab mı Irâk-ı Acem mi). Tarki 1501 Safevî: ayrı `*eek`/hayalet kalemi.
 5. `EEK-PROTOKOL.md`ye mesajdaki iki satır yazılmamış — koordinatör kalemi.
+
+---
+
+# ⑥ BİRLEŞTİRME — DOGU-SAFEVI-0086 ile çakışma (9 Ekim 2026, teslimden SONRA)
+DOGU-SAFEVI-0086 cevap verdi: Zencan · Hemedan · Yezd · Şiraz · Kirman ve Şirvan çekirdeği **onun diff'inde de var**
+(+ Zagros içi, Kars, Ardahan, Sarıkamış, Fergana, Salyan/Kuba, `denetle.py` 2sk tavanı).
+🔴 **Benim `EEK-DOGU-2-0086-KOORD.diff` ve `-KRONO.diff`im GEÇERSİZDİR — onunkiyle birlikte UYGULANMAZ** (aynı satırlar).
+Yerine: **DOGU-SAFEVI-0086 KOORD + KRONO (temel) + benim FARK diff'lerim.**
+
+| nokta | DOGU-SAFEVI | ben | birleşik hüküm |
+|---|---|---|---|
+| Hemedan · Şiraz · Kirman · Zencan | 1503-01-01 | 1503-01-01 | **AYNI** — onunki |
+| Şirvan çekirdeği (+Salyan, Kuba) | sirvansah →**1538-10-01** (kesinlik ay, TDV «Ekim 1538») | →1538-01-01 | **onunki** (daha kesin). ⚠️ `sirvansah` künyesi t 1538-01-01 ⇒ 9 ay aşım (tolerans 400 g altında, 4c saymaz); künye t de 1538-10-01'e çekilmeli. Şeki 1538-01-01'de kalıyor (onun notu: Şeki ayrı hâkim) |
+| **Yezd** | 1503-01-01 — gerekçesi «TDV safeviler aynı seferde "Yezd’e girip" der» | **1504-12-06** | **benimki**: o cümle 1503 Hemedan seferinde DEĞİL, 1504 Fîrûzkûh seferinden sonra («1504’te … Fîrûzkûh’a yürüdü … bu esnada … Muhammed Kere’yi bertaraf ettikten sonra Yezd’e girip»). TDV `yezd` günü veriyor: «6 Aralık 1504». İki TDV maddesi 1504'te birleşiyor |
+| **Reşt** | dokunmadı | gilan-kiya →1592 | **benimki** (onda yok) |
+| Derbend | «kaynak bulunamadı» | — | veri değişmiyor; kaynak VAR: TDV `derbend--dagistan` (atlasın `olaylar_ek21.js:66` maddesinde alıntılı) «Şah İsmâil 1509’da şehri zaptedip» · «1538’de Şirvan doğrudan Safevî hâkimiyetine girince» |
+
+**FARK diff'leri** (DOGU-SAFEVI uygulanmış hâle göre; `git apply --check` temiz, CR 0, temel origin/main `0291c38d`):
+```
+denetim/EEK-DOGU-2-0086-FARK-KOORD.diff   yerlesimler.js — Yezd 1503→1504-12-06 · Reşt 1501→1592
+denetim/EEK-DOGU-2-0086-FARK-KRONO.diff   olaylar_ek11.js — Yezd 1504-12-06 maddesi (origin/main'e doğrudan da temiz)
+```
+**Ölçüm** (`PYTHONHASHSEED=0`, origin/main 0291c38d):
+| | DOGU-SAFEVI tek | + FARK |
+|---|---|---|
+| çıkış | 2 | **2** |
+| D1 · 4c · 4d | 309 · 126 · 324 | aynı |
+| 2s açık (tavan 184) | 184 | **184** (Yezd maddesi kapatıyor) |
+| 2sk yalnız-taraf | 2242 (onun yeni tavanı) | **2240** ⇒ tavan 2242 → **2240** aynı commit'te (§3.4 ③) |
+| D7 enklav | 736 | 736 |
+⚠️ FARK-KOORD, FARK-KRONO'suz inerse 2s 185 > 184 ⇒ çıkış 1. Dördü TEK commit.
