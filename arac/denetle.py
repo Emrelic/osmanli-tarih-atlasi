@@ -627,7 +627,13 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 185   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186 -> 185
+BEKLENEN_ACIK_S = 184   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186 -> 185
+# 9 EKİM: 185 -> 184 (§3.4③ iyileşince tavan İNER, §3.4② sabitle AYNI commit).
+# KRONO-SENKRON-1008 MOSTAR yarısı: Hersek'in fethi 1466-01-01 maddesi indi ve
+# Mostar'ın kırılmasını kapattı. Ölçüm YAZMADAN HEMEN ÖNCE koşturuldu (§3.4⓪):
+# önce 1722 kırılma / 185 AÇIK · sonra 1720 / 184. 2sk 2250'de DEĞİŞMEDİ —
+# 2203'ün "2251 Mostar'dan geliyor" cümlesi bir ÇIKARIMDI, ölçüm onu çürüttü.
+# YIL-TEMSİLÎ de 165 -> 164 düştü; tavanı (151) zaten aşıldığı için oynatılmadı.
 # 🟢 186 → 185, 6 Ekim akşamı: TEK-EKSIK-KILI. `olaylar_ek5`in Paris maddesine Kili YER
 #   olarak eklendi ve TDV `kili` maddenin hükmünü Kili için ADIYLA, saydığı üç kazayla
 #   AYNI CÜMLEDE söylüyor ⇒ tesadüfî kapanma DEĞİL, hak edilmiş kapanma.
