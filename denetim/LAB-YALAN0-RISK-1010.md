@@ -177,3 +177,32 @@ kanıt olarak saklıyor (ölçümün tekrarlanabilirliği); hiçbiri ömür beya
 - Statik tarama exec/dinamik yüklemeyi kaçırabilir; burada adlar tireli olduğundan dosya adı dizgesi gerekir —
   ad taraması bunu kapsıyor, ama ad bir dosyadan/ağdan okunup kurulursa (ör. bir .tsv'den) görünmez.
   Repo'da `SINAV-ENVANTER-1006.tsv`yi okuyan kod yok.
+
+## 8. EK — 10 Ekim: UMIT'in çağrı grafiği düzeltmesi ve dördüncü kova (yeniden ölçüm değil, not)
+
+**Ne geldi (koordinatör üzerinden, UMIT ölçümü):** `denetle.py`'deki `denetle_eslesme · _statu · _anakronizm · _kapsama`
+adları YALNIZ yorum/docstring'de geçiyor — çağrı değil. Kaba ilk geçişte her "x.py" dizgisi çağrı sayıldığı için
+9 araç köklere YANLIŞ bağlanmış; kenarlar kod okunarak doğrulanınca A sınıfının 15 dosyasından kapı zincirinde
+yalnız `denetle_yayin` kaldı. Sınıf: `dersler/D269` ("desen METNİ eşledi, ÇAĞRIYI eşlemedi") · `D267` ("adla süzme yasak").
+
+**Bu raporun kovalarına etkisi — sayı DEĞİŞMİYOR:**
+- 🔴 KAPI ZİNCİRİNDE **0 → 0.** Bu rapor 31 araçtan hiçbirine kökten kenar bulmamıştı (§2); düşen kenarlar UMIT'in
+  evrenindeki 9 araca aitti, bu raporun 31'ine değil. Kenar düşmesi "bu gece kapı zincirinde YALAN-0 yok" hükmünü
+  **güçlendirir**, değiştirmez.
+- 🟡 ELLE **11 → 11.** Bu kovanın kanıtı zaten çağrı değil, belge/TAHTA/yorum atfıdır (§3 tablosu) — "elle çağrılan"
+  tanımı gereği. D269 düzeltmesi bu kovayı etkilemez; ama §3'teki `js/app.js:12009 (yorum)` gibi atıflar
+  ÇAĞRI kanıtı DEĞİL, yalnız "bir insan/oturum bunu koşturdu/koştursun" kanıtıdır — öyle okunmalı.
+- ⚪ ÖLÜ **20 → 20.**
+- 🔴ₛ (yeni kova, aşağıda) **0.** §2'de `kos_ve_yayinla` kök olarak tarandı; 31 araçtan hiçbirini ayrı süreç olarak başlatmıyor.
+
+**UMIT'in dördüncü kovası:** `🔴ₛ` = `kos_ve_yayinla`'nın AYRI SÜREÇ olarak başlattıkları (8 kopya). Çöküşleri
+BORUYU durdurur, ama StringIO/yakalama kusuru ayrı süreçte ateşlenemez. UMIT'in sayıları (kendi evreni, 94 araç):
+`🔴 kapı (aynı süreç) 7 · 🔴ₛ boru 8 · 🟡 elle 51 · ⚪ ölü 28`. Bu raporun 31 aracı o evrenin alt kümesidir;
+iki rapor ayrı soruları soruyordu (bu rapor: YALAN-0 araçlarına yol var mı · UMIT: kapı zincirinin tamamı).
+
+**⚪ kovasının sınırı (UMIT'in beyanı, bu rapor için de geçerli):** "ölü" = **çağrı yolu BULUNAMADI**, "çağrılmıyor"
+DEĞİL. TAHTA'dan ya da bir oturumdan elle koşturulan bir aracı bu kova göremez (§7 ilk madde ile aynı sınır).
+
+**Taban değişikliği (bilgi):** 65b8965d (denetle.py boru altında çökmesi kapandı) ve 19f20c2e (yayın kapısı + 14 araç,
+stdout kusuru) ile iki ana kapı artık boru/yakalama altında da çökmüyor. LAB-KAPI-CIKIS-KODU-1009'un
+"iki ana kapı dürüst" hükmüne "çökmüyor da" eklenebilir — bu raporun ölçüm tabanı (6df8c2cd8) bunlardan öncedir.
