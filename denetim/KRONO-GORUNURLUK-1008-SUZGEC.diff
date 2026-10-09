@@ -1,0 +1,60 @@
+diff --git a/js/suzgec.js b/js/suzgec.js
+index d6a264f5..d5adc6f6 100644
+--- a/js/suzgec.js
++++ b/js/suzgec.js
+@@ -127,14 +127,28 @@ function grupSayilari(olaylar) {
+   return s;
+ }
+ 
+-// Veriye girmiş ama tabloda karşılığı olmayan `k:` değerleri.
++// Tanınmadığı için "diger"e DÜŞEN maddeler, düşüren değerle sayılır.
+ // 📌 Bugün üç kez "sessizce eksik" vakası yaşandı; bu fonksiyon o sınıfı
+ // süzgeç için baştan kapatıyor — bilinmeyen değer DIGER'e düşer ama GÖRÜNÜR.
++// 🔴 9 Ekim 2026 (KRONO-GORUNURLUK-1008) — eski hâli YALNIZ `k:`yi sayıyordu:
++//   ① `tur:`u tanınmayan madde HİÇ sayılmıyordu (ölçüldü: rejim 102 · tabi 21 ·
++//      kurtulus 19 … — `1923_1945`te 131 madde "diğer"deydi, bu fonksiyon 0 diyordu)
++//   ② `k:`si tanınmayan ama `tur:`u tanınan madde (hukumdar 60 · hanedan 77 …)
++//      "bilinmeyen" sayılıyordu — oysa `maddeGrubu` onu `tur:`dan doğru gruba
++//      koyuyor. Sayı, gerçekte "diğer"e düşmeyen maddeleri de içeriyordu.
++//   ⇒ Soru artık `maddeGrubu`nun sorusudur: madde "diger"e TANINMADIĞI için mi
++//     düştü? Anahtar düşüren değeri ve alanını söyler: "k:olay" · "tur:rejim" ·
++//     "(k/tur yok)". `k`/`tur` açıkça "diger" yazılmışsa bilinmeyen DEĞİLDİR.
++// ⚠️ Çağıran YOK (9 Ekim 2026'da `js/*.js`te grep 0) — panele bağlamak app.js işi.
+ function bilinmeyenler(olaylar) {
+   var ix = grupIndeksi(), yok = {};
+   for (var i = 0; i < (olaylar || []).length; i++) {
+-    var k = olaylar[i] && olaylar[i].k;
+-    if (k && !ix[k]) yok[k] = (yok[k] || 0) + 1;
++    var o = olaylar[i];
++    if (!o) continue;
++    if (o.k && ix[o.k]) continue;                    // k tanındı
++    if (o.tur && TUR_GRUP[o.tur]) continue;          // tur tanındı
++    var a = o.k ? "k:" + o.k : o.tur ? "tur:" + o.tur : "(k/tur yok)";
++    yok[a] = (yok[a] || 0) + 1;
+   }
+   return yok;
+ }
+@@ -261,10 +275,23 @@ var TUR_GRUP = {
+   deniz: "askeri", "ic-savas": "askeri", isgal: "askeri",
+   fetih: "askeri", kayip: "askeri", "toprak-kazanc": "askeri",
+   "toprak-kayip": "askeri", toprak: "askeri",
++  // 🆕 9 Ekim 2026 (KRONO-GORUNURLUK-1008): kurtulus 19 madde, hepsi
++  //   `konu-askeri` etiketli (işgalden kurtarma — `isgal`in aynası).
++  kurtulus: "askeri",
+ 
+   siyaset: "siyasi", antlasma: "siyasi", diplomasi: "siyasi",
+   ittifak: "siyasi", vassal: "siyasi", tabiiyet: "siyasi", itaat: "siyasi",
+   kriz: "siyasi", anayasa: "siyasi", hukuk: "siyasi",
++  // 🆕 9 Ekim 2026 (KRONO-GORUNURLUK-1008) — veride olup bu tabloda olmayan
++  //   değerler ("diğer"e düşüyorlardı; örnekler okunarak bağlandı):
++  //   rejim 102 (hükûmet/rejim değişimi, `konu-siyasi`) · tabi 21 (`tabiiyet`in
++  //   eşanlamı) · bagimsizlik 8 · ateskes 2 · siyasi 3 + 172 (`siyaset`in
++  //   eşanlamı; `k:"siyasi"` taşıyan eski şema dosyaları).
++  //   ⚠️ `ilhak` (5) EKLENMEDİ: maddelerin konu etiketi karışık (diplomasi ·
++  //   askeri · siyasi) — antlaşmayla katılma da zorla ilhak da var. Karar
++  //   koordinatörde; o güne kadar "diğer"de GÖRÜNÜR (`bilinmeyenler`).
++  rejim: "siyasi", tabi: "siyasi", bagimsizlik: "siyasi", ateskes: "siyasi",
++  siyasi: "siyasi",
+ 
+   hukumdar: "hanedan", hanedan: "hanedan", taht: "hanedan",
+   sadrazam: "hanedan", darbe: "hanedan", evlilik: "hanedan",
