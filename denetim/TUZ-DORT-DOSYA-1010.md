@@ -9,7 +9,11 @@ dokunulmadı. Bütün iş geçici worktree `C:\atlas-umit-tuz4` (origin/main
 
 YENİ DOSYALAR: `arac/motor_iz_dosyalari.py` · `denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py`
 DEĞİŞEN DOSYALAR: `arac/girdi.py` · `arac/kaynak_durum.py`
-TESLİM: `C:\atlas-umit\denetim\TUZ-DORT-DOSYA-1010.diff` (4 dosya, +425/−7, LF, BOM yok, CR 0)
+🆕 TESLİM (v2): `C:\atlas-umit\denetim\TUZ-DORT-DOSYA-1010-v2.diff` — **BEŞ dosya**
+(gun.py dahil), origin/main `97a59d5e`'ye karşı, 4 dosya +511/−7, LF, BOM yok, CR 0.
+v1 diff'i (`TUZ-DORT-DOSYA-1010.diff`, dört dosya) **silindi** — yanlışlıkla
+uygulanmasın. Ad tarihî kaldı. **Önce aşağıdaki "§ v2 (gun.py)" bölümünü okuyun;**
+§1-§7 v1'in kaydıdır, "dört" geçen yerleri v2 bölümü günceller.
 
 ---
 
@@ -177,3 +181,138 @@ değişiyor (beyan §4②).
    `uret_petek.py:606` süzgecine `motor_onbellek.py` eklensin mi (C3 `uret_petek`e
    dokunuyorsa fark yok).
 3. `ARAC-TUZ-SINAV-0924.py`nin emekliye ayrılması ya da yenisine yönlendirilmesi.
+
+---
+
+## § v2 (gun.py) — 10 Ekim 2026, koordinatör isteği (NEGATIF-YIL-1010-B)
+
+**Sebep:** NEG-B ile `arac/gun.py` motorun bağımlılığı oluyor. `girdi.yukle` ve
+`uret_petek` (ör. `KESIT_SON = _gun.Tarih(...)`) `gun.Tarih`/`gun.gun` kullanıyor;
+dolayısıyla gun.py değişirse motor çıktısı da değişir. v1 + NEG birlikte uygulanınca
+v1 sınavı 2/13 ÖLÇÜLEMEDİ veriyordu (geçici kopyada `gun.py` yoktu).
+
+**Değişen (v1'e göre):**
+- `arac/motor_iz_dosyalari.py`: `MOTOR_IZ_DOSYALARI` beş dosya oldu: uret_petek ·
+  renkler · girdi · motor_onbellek · **gun**. `girdi.py` ve `kaynak_durum.py`
+  v1'deki gibi kaldı; listeyi zaten bu dosyadan türetiyorlar.
+- Sınav (aynı ad) şöyle güncellendi:
+  - geçici kopyaya `gun.py` de giriyor;
+  - **(a')** v1 listesi (dört dosya) + NEG ağacında gun.py değişince iz DEĞİŞMİYOR,
+    kapı çıkış 0. Bu, kusurun ikinci yüzünün kanıtı. Ön şart olarak gun'un
+    gerçekten ithal edildiği AST ile ölçülüyor: `girdi.py`, `uret_petek.py`.
+  - **(b5)** yamalı ağaçta gun.py değişince iz, kd ve tuz değişiyor; kapı **RED, çıkış 1**
+    (`MOTOR KODU KOSU SIRASINDA DEGISTI: gun.py`).
+  - **(c)** beş listenin eşitliği artık beş dosya üzerinden.
+  - **(d)** dosya dosya sınamaya gun.py eklendi; yanlış alarm yok.
+  - 🆕 **(f) BAĞIMLILIK KAPANIŞI.** Beş motor dosyasının ithal ettiği her yerel
+    `arac/` modülü AST ile taranıyor. Her modül ya listede olmalı ya da
+    `BEYANLI_ISTISNA`da adı ve gerekçesiyle durmalı. Beyansız yeni bir ithal
+    (bir sonraki "gun") sınavı düşürür. Artık ithal edilmeyen ölü istisna da düşürür (`§3.4⑤`).
+  - `--claude-md <yol>`: (c)⑤ maddesi önerilen CLAUDE.md metnine karşı da koşabiliyor.
+
+### 🔴 v2'nin YENİ BULGUSU — kapanış taraması üç yerel ithal daha buldu
+Motorun ithal ettiği yerel modüller (AST, birleşik ağaç):
+```
+LİSTEDE   girdi · gun · motor_onbellek · renkler   (+ uret_petek kendisi)
+BEYANLI   girdi_listesi       VERİ; etkisi parmak_izi() ile çıktıya yazılır (bilinçli dışarıda)
+BEYANLI   motor_iz_dosyalari  listenin kendisi; etkisi anahtar kümesinden geçer
+BEYANLI   kosu_kilit          İŞLETİM (çift koşu kilidi); sonucu değiştirmez
+🔴 AÇIK   yukseklik           uret_petek:709-714 yalnız `tam_mi()` çağırıyor (DEM bütünlüğü);
+                              hangi DEM'in SEÇİLDİĞİNİ değiştirebilir ⇒ çıktıyı etkileyebilir
+🔴 AÇIK   dolgu               uret_petek:8180 B katmanı, MOTOR_B_DOLGU=1 bayrağı arkasında
+                              (bayrak tuzda); önbelleğe girmiyor ama data/dolgu.js'i ÜRETİYOR
+                              ⇒ o çıktının "hangi koddan" izi eksik
+```
+Bu iki 🔴 kalemi **listeye eklemedim**. İstek beş dosyaydı, ve tuz evrenini
+genişletmek koordinatör hükmüdür. Sessiz de bırakmadım: sınavda **BEYANLI AÇIK**
+olarak adlarıyla duruyorlar. Hüküm verilince ya listeye girerler (tuz bir kez
+daha değişir; aynı motor partisindeyse ek bedeli yok) ya da gerekçeleri "açık"
+yerine kalıcı beyana çevrilir.
+
+### Geo tuzu beyanı — v2 güncellemesi
+`_ONB_GEO_TUZ["motor"]` (`uret_petek.py:606`) yalnız `renkler.py` ve `girdi.py`'yi
+süzüyor. v2 ile geo tuzunun motor ekseni `{uret_petek, motor_onbellek, gun}` oluyor.
+- **Ölçüldü:** `denetim/ARAC-LEGO-zincir.py --kok <birleşik ağaç>` çıkış 0 verdi.
+  Geo zinciri 33 işlev / 119 modül düzeyi ad içeriyor, `_gun` ya da `KESIT_SON`
+  okumuyor. Yani gun.py, renkler ve girdi gibi, geo zincirine ad yoluyla girmiyor;
+  tarihlerin etkisi anahtar içeriğinden (aktif üyelik) geçiyor.
+- ⇒ Yalnız gun.py'ye dokunan bir değişiklik geo önbelleğini (govde · osm · sb)
+  **gereksiz yere** öldürür. `motor_onbellek.py` için de aynısı geçerli (v1 §4②).
+- **Önerilen çare (motor kodu, koordinatör hükmü):** aynı partide `uret_petek.py:606`
+  süzgecine `"gun.py"` ve `"motor_onbellek.py"` eklensin. `motor_onbellek`
+  zaten `onbellek_modulu` alanında var; gun için de LEGO taramasının yasak-ad
+  evrenine `gun` eklenirse bu hükmün sınavı olur.
+- Bu partide `uret_petek.py` zaten değişiyor (NEG ve C3), bu yüzden geo tuzu
+  **bu partide** her durumda bir kez ölüyor; v2'nin bu partiye **ek bedeli yok**.
+  Süzgeç sonraki partilerin bedeli için önemli.
+
+### `--check` uyumu — üç sıra, ADIYLA (origin/main `97a59d5e`, her sıra temiz ağaçta)
+| sıra | TUZ-v2 | NEG-B | C3 | ortaya çıkan ağaç (`git diff HEAD` sha256) |
+|---|---|---|---|---|
+| **TUZ-v2 → NEG → C3** (NEG'in istediği parti sırası) | ✓ | ✓ | ✓ | `b411a4c0e47e772f` |
+| NEG → TUZ-v2 → C3 | ✓ | ✓ | ✓ | `b411a4c0e47e772f` |
+| C3 → TUZ-v2 → NEG | ✓ | ✓ | ✓ | `b411a4c0e47e772f` |
+
+Her adımda düz `--check` geçti, `-C1` hiç gerekmedi. Üç sıra **bayt bayt aynı ağacı**
+veriyor (6 dosya, +402/−27; yeni dosyalar `add -N` ile sayıldı).
+TUZ+NEG sonrası `git diff --stat HEAD`: denetle · girdi · gun · kaynak_durum ·
+motor_esitlik · uret_petek (6 dosya, +270/−27). Bu, NEG'in kendi listesi ile TUZ'un
+iki dosyasının birleşimi. ZAMAN-PAKET artık main'de olduğu için ayrıca sınanmadı.
+
+### Birleşik ağaçta üç sınav (TUZ-v2 + NEG + C3)
+| sınav | sonuç |
+|---|---|
+| `ARAC-TUZ-DORT-DOSYA-SINAV-1010.py --claude-md <öneri kopyası>` | **✓ 31/31, çıkış 0** |
+| aynı sınav, mevcut `CLAUDE.md` ile ("dört" diyor) | ✗ 1/31 (c2) — **BEKLENEN.** CLAUDE.md yamayla aynı commit'te güncellenmezse sınav öter (`§3.4②`) |
+| `ARAC-NEGATIF-YIL-B-SINAV-1010.py <kök>` | **✓ 67/67, çıkış 0** (`PYTHONIOENCODING=utf-8` gerekiyor; boru hattında cp1254 `②` basamıyor, bu sınavın kendi kusuru) |
+| `ARAC-C3-YURUYUS-SUZGEC-SINAV-1009.py`, `C3_TABAN=<TUZ+NEG ağacı>` | **✓ 187/187, çıkış 0** |
+
+C3 sınavı yamasız kolunu `C3_TABAN:arac/uret_petek.py`'den okuyor. Varsayılan
+`origin/main` olurdu ve birleşik tabanı sınamazdı. Bu yüzden TUZ+NEG ağacı geçici
+bir index ile `git write-tree` yapılarak tree nesnesine çevrildi (`98db227f…`).
+Commit ve ref yok; yalnız sahipsiz nesne kaldı, gc temizler.
+
+### §9.1 öneri metni — v2 (BEŞ dosya; §6'nın yerine geçer)
+Satır ~648 başlığı:
+> Önbelleğin **TUZU** beş dosyanın sha256'sıdır: `uret_petek.py` · `renkler.py` ·
+> `girdi.py` · `motor_onbellek.py` · `gun.py`. Biri değişirse **bütün anahtarlar değişir** ⇒
+
+⚠️ Sınavın (c)⑤ maddesi bu satırın biçimini okuyor. Ters tırnaklı adlar ve `Biri değişirse`
+ifadesi korunmalı.
+
+③ maddesi:
+> 3. **Koşu SÜRERKEN beş dosyaya dokunulmaz.** Koşu her aşamada motor parmak
+>    izini sınar ve reddeder (8 Ağustos: 83 dakika çalışıp en sonda reddedildi;
+>    bugün bu 7-8 SAAT demektir). Beş dosyanın listesi **tek yerde** durur:
+>    `arac/motor_iz_dosyalari.py`. Tuz (`_ONB_TUZ["motor"]`), parmak izi
+>    (`girdi.motor_izi()`), koşu sınaması (`motor_izi_dogrula`) ve koşu kapı
+>    damgası (`kaynak_durum.py`) onu okur. Eşitlik ve bağımlılık kapanışı
+>    `py denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py` ile ASSERT edilir: motorun
+>    ithal ettiği yerel modül ya listededir ya da sınavda adıyla beyanlıdır.
+>    ⚠️ 10 Ekim 2026'ya dek tuz DÖRT, parmak izi ÜÇ dosyaydı
+>    (`motor_onbellek.py` yoktu); aynı gün `gun.py` motorun bağımlılığı oldu.
+>    Cümle yanlış değil EKSİKti.
+
+Paragraftaki "dört dosyaya 19 commit" (tarihî ölçüm) **değişmez**.
+
+### v2 — ölçtüm · bulamadım · istiyorum
+**Ölçtüm:**
+- (a') v1 listesiyle gun.py değişikliği kapıdan geçiyor (çıkış 0); yamalıda RED veriyor (çıkış 1).
+- Beş liste eşit; dosya dosya sınamada 5/5 RED, yanlış alarm yok (3/3).
+- Üç sıranın üçü de `--check` ✓ ve aynı ağacı veriyor.
+- Birleşik ağaçta üç sınav da geçti: 31/31 · 67/67 · 187/187.
+- Geo zinciri gun okumuyor (LEGO aracı, çıkış 0).
+- Kapanış taraması iki açık yerel ithal buldu: `yukseklik` · `dolgu`.
+
+**Bulamadım / ölçmedim:**
+- `yukseklik.tam_mi` değişince çıktının gerçekten değişip değişmediğini koşturarak ölçmedim
+  (motor koşturulmaz).
+- `dolgu` çıktısının (`data/dolgu.js`) URETIM_IZI'sinde hangi betiklerin yazdığını okumadım.
+- NEG sınavının cp1254 kusurunu düzeltmedim; dosya NEG'in.
+
+**İstiyorum:**
+1. v2 bu partide TUZ-v2 → NEG → C3 sırasıyla girsin. §9.1 v2 metni aynı commit'te insin.
+2. `yukseklik` ve `dolgu` için hüküm: listeye mi girsinler, yoksa kalıcı beyan mı olsunlar?
+3. Geo süzgecine `gun.py` ve `motor_onbellek.py` eklensin mi? (`uret_petek.py:606`, motor kodu)
+4. NEG sahibine not: `ARAC-NEGATIF-YIL-B-SINAV-1010.py`'nin başına
+   `sys.stdout.reconfigure(encoding="utf-8")` eklenmeli.

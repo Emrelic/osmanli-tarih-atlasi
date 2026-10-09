@@ -1,5 +1,5 @@
 diff --git a/arac/girdi.py b/arac/girdi.py
-index f137c7d1..6a86c6c3 100644
+index 2a17f344..dea657b1 100644
 --- a/arac/girdi.py
 +++ b/arac/girdi.py
 @@ -113,6 +113,12 @@ def anlik_goruntu():
@@ -15,7 +15,7 @@ index f137c7d1..6a86c6c3 100644
  
  YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
  
-@@ -778,10 +784,16 @@ def motor_izi():
+@@ -832,10 +838,16 @@ def motor_izi():
      denetimin "temiz" demesi kanıt değil — hiçbiri o soruyu sormuyor. Cevap
      ancak log arkeolojisiyle verilebildi. Damga çıktının İÇİNDE olursa soru
      dosyanın kendisinden cevaplanır.
@@ -138,14 +138,15 @@ index ed61b322..17cc8b1f 100644
      try:
 diff --git a/arac/motor_iz_dosyalari.py b/arac/motor_iz_dosyalari.py
 new file mode 100644
-index 00000000..754d1f3e
+index 00000000..2cc174d7
 --- /dev/null
 +++ b/arac/motor_iz_dosyalari.py
-@@ -0,0 +1,36 @@
+@@ -0,0 +1,43 @@
 +"""MOTOR_IZ_DOSYALARI — motor PARMAK İZİNİN (ve önbellek TUZUNUN kod ekseninin)
 +TEK OTORİTE listesi.
 +
 +🔴 BU DOSYA NİÇİN VAR — 10 Ekim 2026, `denetim/BULGU-TUZ-DORDUNCU-DOSYA-1010.md`
++(v2: `gun.py` eklendi — beş dosya; aşağıdaki "DÖRT" tarihî kayıttır.)
 +Liste üç ayrı yerde ELLE tutuluyordu ve ayrışmıştı:
 +    uret_petek.py  _ONB_TUZ        → uret_petek · renkler · girdi · motor_onbellek  (DÖRT)
 +    girdi.py       motor_izi()     → uret_petek · renkler · girdi                   (ÜÇ)
@@ -177,15 +178,28 @@ index 00000000..754d1f3e
 +`ast.literal_eval` ile okur). Hesaplanan ifade, ithal, koşul YAZMA.
 +"""
 +
-+MOTOR_IZ_DOSYALARI = ("uret_petek.py", "renkler.py", "girdi.py", "motor_onbellek.py")
++# 🆕 v2 (10 Ekim 2026, NEGATIF-YIL-1010-B): `gun.py` BEŞİNCİ dosya. `girdi.yukle`
++# ve `uret_petek` `gun.Tarih`/`gun.gun` ile tarih ayrıştırıp SIRALIYOR ⇒ `gun.py`
++# değişirse motor çıktısı değişir. Bağımlılık kapanışı sınavda AST ile taranır:
++# motor dosyalarının ithal ettiği her YEREL modül ya bu listededir ya da sınavın
++# BEYANLI istisna listesinde adıyla + gerekçesiyle durur — yeni bir `gun` sessiz geçmez.
++MOTOR_IZ_DOSYALARI = ("uret_petek.py", "renkler.py", "girdi.py", "motor_onbellek.py",
++                      "gun.py")
 diff --git a/denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py b/denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py
 new file mode 100644
-index 00000000..bd368c81
+index 00000000..6c9f641c
 --- /dev/null
 +++ b/denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py
-@@ -0,0 +1,309 @@
+@@ -0,0 +1,388 @@
 +# -*- coding: utf-8 -*-
-+"""SINAV — TUZ DÖRT DOSYA, PARMAK İZİ ÜÇ DOSYA (TUZ-DORT-DOSYA-1010).
++"""SINAV — TUZ DÖRT DOSYA, PARMAK İZİ ÜÇ DOSYA (TUZ-DORT-DOSYA-1010) · v2: BEŞ DOSYA.
++
++🆕 v2 (10 Ekim 2026, NEGATIF-YIL-1010-B): `arac/gun.py` motorun bağımlılığı oldu
++(`girdi.yukle` ve `uret_petek` `gun.Tarih` kullanıyor) ⇒ liste BEŞ dosya. Ad tarihî
++kaldı. v2 ekleri: (a') v1 listesiyle gun.py değişikliği SUSAR (kusurun ikinci yüzü) ·
++(b5) gun.py → RED · (f) BAĞIMLILIK KAPANIŞI: motor dosyalarının ithal ettiği her YEREL
++modül ya listede ya BEYANLI istisnada (adıyla + gerekçesiyle) — beyansız yeni ithal
++ve ÖLÜ istisna sınavı düşürür. (c)⑤ `--claude-md` ile önerilen metne karşı da koşar.
 +
 +Bulgu: `denetim/BULGU-TUZ-DORDUNCU-DOSYA-1010.md`. Önbellek tuzu dört dosyanın
 +sha256'sı (uret_petek · renkler · girdi · motor_onbellek); `girdi.motor_izi()` ve
@@ -240,13 +254,31 @@ index 00000000..bd368c81
 +ap = argparse.ArgumentParser()
 +ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 +ap.add_argument("--yamasiz-ref", default="7e156d63")
++ap.add_argument("--claude-md", default=None,
++                help="§9.1 TUZU satırının okunacağı CLAUDE.md (vars. <kök>/CLAUDE.md). "
++                     "Yama CLAUDE.md'den ÖNCE sınanıyorsa önerilen metnin kopyası verilir.")
 +A = ap.parse_args()
 +KOK = os.path.abspath(A.kok)
 +ARAC = os.path.join(KOK, "arac")
 +
-+DORT = ("uret_petek.py", "renkler.py", "girdi.py", "motor_onbellek.py")
++ESKI_DORT = ("uret_petek.py", "renkler.py", "girdi.py", "motor_onbellek.py")   # v1 (yamasız tuz)
++DORT = ESKI_DORT + ("gun.py",)        # v2: BEŞ dosya (ad tarihî — değişken adı da)
 +# Senaryo ağacına kopyalanan dosyalar (motor_iz_dosyalari.py yamasızda YOK)
 +KOPYA = DORT + ("girdi_listesi.py", "kaynak_durum.py", "motor_iz_dosyalari.py", "denetle.py")
++
++# 🔴 BEYANLI İSTİSNA — motor dosyalarının ithal ettiği ama İZE GİRMEYEN yerel modüller.
++#   Sayı değil LİSTE (`CLAUDE.md §3.4⑤`); her girdi tüketicisine göre CANLI olmalı —
++#   artık ithal edilmeyen istisna ÖLÜDÜR ve sınavı düşürür. Yeni beyansız ithal de düşürür.
++BEYANLI_ISTISNA = {
++    "girdi_listesi": "VERİ, kod değil — etkisi parmak_izi() ile çıktıya yazılır; "
++                     "ize girmesi önbelleği her dosya bağlamada öldürür (girdi_listesi.py başlığı)",
++    "motor_iz_dosyalari": "listenin kendisi — etkisi izin ANAHTAR KÜMESİNDEN geçer",
++    "kosu_kilit": "İŞLETİM (çift koşu kilidi) — sonucu değiştirmez",
++    "yukseklik": "🔴 AÇIK — uret_petek yalnız `tam_mi()` çağırır (DEM bütünlüğü); hangi DEM'in "
++                 "seçildiğini değiştirebilir. Koordinatör hükmü bekliyor (TUZ-DORT-DOSYA-1010.md §v2)",
++    "dolgu": "🔴 AÇIK — B katmanı, MOTOR_B_DOLGU=1 bayrağı arkasında (bayrak tuzda), "
++             "önbelleğe girmez ama data/dolgu.js'i ÜRETİR. Koordinatör hükmü bekliyor",
++}
 +
 +SONUC = []
 +OLCULEMEDI = []
@@ -329,8 +361,8 @@ index 00000000..bd368c81
 +# ═══ (a) YAMASIZ — kusurun kanıtı ═════════════════════════════════════════════
 +print("── (a) YAMASIZ (%s) — motor_onbellek.py'ye zararsız satır" % A.yamasiz_ref)
 +YK = ref_kaynak(A.yamasiz_ref)
-+if not all(a in YK for a in DORT):
-+    OLCULEMEDI.append("(a) yamasız ref %s okunamadı: %s" % (A.yamasiz_ref, sorted(set(DORT) - set(YK))))
++if not all(a in YK for a in ESKI_DORT):
++    OLCULEMEDI.append("(a) yamasız ref %s okunamadı: %s" % (A.yamasiz_ref, sorted(set(ESKI_DORT) - set(YK))))
 +else:
 +    kontrol("a0 yamasız ağaçta motor_iz_dosyalari.py YOK (gerçekten yamasız)",
 +            "motor_iz_dosyalari.py" not in YK, "dosyalar: %s" % sorted(YK))
@@ -361,6 +393,42 @@ index 00000000..bd368c81
 +    son = (err.strip().splitlines() or ["?"])[-1]
 +    kontrol("b4 motor_izi_dogrula RED (çıkış ≠ 0, mesajda motor_onbellek.py)",
 +            kod != 0 and "motor_onbellek.py" in err, "çıkış %d · %s" % (kod, son[:140]))
++
++# ═══ (a') v1 LİSTESİ + gun.py — kusurun İKİNCİ yüzü ═══════════════════════════
++print("── (a') v1 listesi (dört dosya) + gun.py'ye zararsız satır")
++def yerel_ithal(kaynak_bayt):
++    agac = ast.parse(kaynak_bayt.decode("utf-8"))
++    s = set()
++    for n in ast.walk(agac):
++        if isinstance(n, ast.Import):
++            s |= {x.name.split(".")[0] for x in n.names}
++        elif isinstance(n, ast.ImportFrom) and n.module and n.level == 0:
++            s.add(n.module.split(".")[0])
++    return s
++gun_kullanan = sorted(a for a in ("girdi.py", "uret_petek.py") if a in KK and "gun" in yerel_ithal(KK[a]))
++if "gun.py" not in KK:
++    OLCULEMEDI.append("(a') kök ağaçta arac/gun.py yok")
++elif not gun_kullanan:
++    print("   (gun.py bu ağaçta motorca ithal EDİLMİYOR — NEG uygulanmamış; (a') atlandı, kusur yok)")
++else:
++    V1 = dict(KK)
++    V1["motor_iz_dosyalari.py"] = ('MOTOR_IZ_DOSYALARI = ("uret_petek.py", "renkler.py", '
++                                   '"girdi.py", "motor_onbellek.py")\n').encode("utf-8")
++    m, kod, err = senaryo(V1, "gun.py", "a2")
++    if m:
++        kontrol("a'1 gun.py motorca ithal ediliyor (bağımlılık GERÇEK)", True, ", ".join(gun_kullanan))
++        kontrol("a'2 KUSUR: v1 listesiyle gun.py değişince motor_izi DEĞİŞMEDİ",
++                m["once"]["iz"] == m["sonra"]["iz"], "anahtarlar %s" % sorted(m["once"]["iz"]))
++        kontrol("a'3 KUSUR: v1 listesiyle motor_izi_dogrula GEÇTİ (çıkış 0)", kod == 0, "çıkış %d" % kod)
++
++print("── (b5) YAMALI — gun.py'ye zararsız satır")
++m, kod, err = senaryo(KK, "gun.py", "b5")
++if m:
++    son = (err.strip().splitlines() or ["?"])[-1]
++    kontrol("b5 gun.py → iz DEĞİŞTİ · kd DEĞİŞTİ · tuz DEĞİŞTİ · dogrula RED",
++            m["once"]["iz"].get("gun.py") not in (None, m["sonra"]["iz"].get("gun.py"))
++            and m["once"]["kd"] != m["sonra"]["kd"] and m["once"]["tuz"] != m["sonra"]["tuz"]
++            and kod != 0 and "gun.py" in err, "çıkış %d · %s" % (kod, son[:120]))
 +
 +# ═══ (c) EŞİTLİK — beş liste ══════════════════════════════════════════════════
 +print("── (c) EŞİTLİK — beş liste aynı küme")
@@ -410,7 +478,7 @@ index 00000000..bd368c81
 +
 +# ⑤ CLAUDE.md §9.1
 +try:
-+    md = io.open(os.path.join(KOK, "CLAUDE.md"), encoding="utf-8").read()
++    md = io.open(A.claude_md or os.path.join(KOK, "CLAUDE.md"), encoding="utf-8").read()
 +    i = md.index("**TUZU**")
 +    parca = md[i:i + 300].split("Biri değişirse")[0]
 +    L["⑤ CLAUDE.md §9.1"] = set(re.findall(r"`([a-z_]+\.py)`", parca))
@@ -423,7 +491,25 @@ index 00000000..bd368c81
 +kontrol("c1 beş liste ölçüldü", len(L) == 5, "%d/5" % len(L))
 +kontrol("c2 hepsi AYNI küme", len(kumeler) == 5 and all(k == kumeler[0] for k in kumeler),
 +        "fark: %s" % sorted({a for k in kumeler for a in k} - set.intersection(*kumeler)) if kumeler else "boş")
-+kontrol("c3 küme = dört motor dosyası", bool(kumeler) and kumeler[0] == set(DORT), str(sorted(kumeler[0]) if kumeler else []))
++kontrol("c3 küme = beş motor dosyası (v2)", bool(kumeler) and kumeler[0] == set(DORT), str(sorted(kumeler[0]) if kumeler else []))
++
++# ═══ (f) BAĞIMLILIK KAPANIŞI — yeni bir `gun` sessiz geçmesin ═══════════════════
++print("── (f) BAĞIMLILIK KAPANIŞI (AST, motor dosyalarının yerel ithalleri)")
++yerel = {f[:-3] for f in os.listdir(ARAC) if f.endswith(".py")}
++liste = {a[:-3] for a in L.get("① motor_iz_dosyalari", set())}
++ithal = {}
++for a in sorted(liste):
++    if os.path.exists(os.path.join(ARAC, a + ".py")):
++        for mod in yerel_ithal(io.open(os.path.join(ARAC, a + ".py"), "rb").read()) & yerel:
++            ithal.setdefault(mod, set()).add(a + ".py")
++beyansiz = sorted(m_ for m_ in ithal if m_ not in liste and m_ not in BEYANLI_ISTISNA)
++olu = sorted(m_ for m_ in BEYANLI_ISTISNA if m_ not in ithal)
++for m_ in sorted(ithal):
++    kova = "LİSTEDE" if m_ in liste else ("BEYANLI" if m_ in BEYANLI_ISTISNA else "🔴 BEYANSIZ")
++    print("   %-20s %-11s ← %s%s" % (m_, kova, ", ".join(sorted(ithal[m_])),
++                                    ("  · " + BEYANLI_ISTISNA[m_]) if kova == "BEYANLI" else ""))
++kontrol("f1 BEYANSIZ yerel ithal yok", not beyansiz, str(beyansiz))
++kontrol("f2 ÖLÜ istisna yok (her beyan hâlâ ithal ediliyor)", not olu, str(olu))
 +
 +# ═══ (d) YANLIŞ ALARM YOK ═════════════════════════════════════════════════════
 +print("── (d) YANLIŞ ALARM YOK")
@@ -476,7 +562,7 @@ index 00000000..bd368c81
 +
 +# ═══ gerçek dosyalar ══════════════════════════════════════════════════════════
 +GERCEK_SONRA = {a: sha(os.path.join(ARAC, a)) for a in GERCEK_ONCE}
-+kontrol("GERÇEK dört dosyaya dokunulmadı", GERCEK_ONCE == GERCEK_SONRA,
++kontrol("GERÇEK beş dosyaya dokunulmadı", GERCEK_ONCE == GERCEK_SONRA,
 +        " · ".join("%s %s" % (a, v[:8]) for a, v in sorted(GERCEK_SONRA.items())))
 +
 +print()
