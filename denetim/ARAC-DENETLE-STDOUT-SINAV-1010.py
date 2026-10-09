@@ -1,0 +1,173 @@
+"""DENETLE-STDOUT-1010 sınavı — `arac/denetle.py`nin modül düzeyindeki stdout
+kodlama satırı `redirect_stdout(io.StringIO())` altında çökmemeli.
+
+İKİ YÖN, her soru TAZE alt süreçte (modül önbelleği hükmü gizlemesin):
+  (a) YAMASIZ metin StringIO altında içe aktarılınca DÜŞER   (kusurun kanıtı)
+  (b) YAMALI   metin aynı koşulda içe aktarılır, yakalama StringIO'da kalır
+  (c) YAMALI CLI (`PYTHONHASHSEED=0 py arac/denetle.py > dosya`) çıktısı ve
+      çıkış kodu YAMASIZ'ınkiyle BİREBİR (gerçek koşu, ~70 sn × 3)
+  (d) cp1254 akışında Türkçe karakterler UTF-8 olarak doğru basılır,
+      yamalı = yamasız bayt bayt (mevcut davranış korunuyor)
+
+Yamasız metin diskte TUTULMAZ: yamalı dosyadaki blok bellekte eski iki satıra
+geri çevrilir ve gerçek yolun `__file__`ı ile derlenip koşturulur (KOK,
+sys.path ve kardeş içe aktarımları birebir aynı kalır; arac/'a dosya yazılmaz).
+
+Çıkış: 0 hepsi geçti · 1 en az bir soru KALDI · 2 ÖLÇÜLEMEDİ (yama bulunamadı).
+`--hizli`: (c)'yi atlar (atlanan soru ÖLÇÜLEMEDİ sayılır, çıkış 2).
+"""
+import os
+import subprocess
+import sys
+
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DENETLE = os.path.join(KOK, "arac", "denetle.py")
+
+ESKI = ('if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):\n'
+        '    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")\n')
+YENI_BAS = "# 🔴 DENETLE-STDOUT-1010:"
+YENI_SON = ('    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")\n')
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+
+def kaynaklar():
+    """(yamalı, yamasız) metin; yama bulunamazsa None."""
+    with open(DENETLE, encoding="utf-8", newline="") as f:
+        s = f.read().replace("\r\n", "\n")
+    i = s.find(YENI_BAS)
+    if i < 0:
+        return None
+    j = s.find(YENI_SON, i)
+    if j < 0:
+        return None
+    yamasiz = s[:i] + ESKI + s[j + len(YENI_SON):]
+    return s, yamasiz
+
+
+# Alt süreçte koşan çalıştırıcı: metni stdin'den değil dosyadan okur (metin
+# büyük), gerçek yolun __file__ı ile derler.
+KOSUCU = r'''
+import sys, os
+kip, kaynak_yolu, gercek = sys.argv[1], sys.argv[2], sys.argv[3]
+sys.argv = [gercek]
+sys.path.insert(0, os.path.dirname(gercek))
+src = open(kaynak_yolu, encoding="utf-8").read()
+kod = compile(src, gercek, "exec")
+if kip == "ice":
+    import io, contextlib, types
+    tampon = io.StringIO()
+    m = types.ModuleType("denetle"); m.__file__ = gercek
+    sys.modules["denetle"] = m
+    try:
+        with contextlib.redirect_stdout(tampon):
+            exec(kod, m.__dict__)
+            print("YAKALANDI-ğüşİöç")
+            ayni = sys.stdout is tampon
+    except BaseException as e:
+        sys.__stdout__.write("DUSTU %s: %s\n" % (type(e).__name__, e)); sys.exit(7)
+    ok = ayni and "YAKALANDI-ğüşİöç" in tampon.getvalue()
+    sys.__stdout__.write("ICE-AKTARILDI yakalama=%s\n" % ok); sys.exit(0 if ok else 8)
+elif kip == "tr":
+    g = {"__name__": "denetle", "__file__": gercek}
+    exec(kod, g)
+    print("TR: ğĞüÜşŞıİöÖçÇ")
+    sys.stdout.flush()
+else:  # ana
+    g = {"__name__": "__main__", "__file__": gercek}
+    exec(kod, g)
+'''
+
+
+def kos(kip, metin, env_ek=None, zaman=600):
+    import tempfile
+    d = tempfile.mkdtemp(prefix="dstd_")
+    kaynak = os.path.join(d, "kaynak.py")
+    kosucu = os.path.join(d, "kosucu.py")
+    with open(kaynak, "w", encoding="utf-8", newline="\n") as f:
+        f.write(metin)
+    with open(kosucu, "w", encoding="utf-8", newline="\n") as f:
+        f.write(KOSUCU)
+    env = dict(os.environ)
+    env.pop("PYTHONIOENCODING", None)
+    env.pop("PYTHONUTF8", None)
+    env["PYTHONHASHSEED"] = "0"
+    if env_ek:
+        env.update(env_ek)
+    c = subprocess.run([sys.executable, kosucu, kip, kaynak, DENETLE], cwd=KOK,
+                       env=env, capture_output=True, timeout=zaman)
+    return c.returncode, c.stdout, c.stderr
+
+
+def kos_cli(zaman=600):
+    env = dict(os.environ)
+    env.pop("PYTHONIOENCODING", None)
+    env.pop("PYTHONUTF8", None)
+    env["PYTHONHASHSEED"] = "0"
+    with open(os.path.join(os.environ.get("TEMP", KOK), "dstd_cli.txt"), "wb") as f:
+        c = subprocess.run([sys.executable, DENETLE], cwd=KOK, env=env, stdout=f,
+                           stderr=subprocess.STDOUT, timeout=zaman)
+    with open(f.name, "rb") as f2:
+        return c.returncode, f2.read()
+
+
+def main():
+    hizli = "--hizli" in sys.argv
+    k = kaynaklar()
+    if k is None:
+        print("ÖLÇÜLEMEDİ: denetle.py'de DENETLE-STDOUT-1010 bloğu bulunamadı")
+        return 2
+    yamali, yamasiz = k
+    sonuc = {}
+
+    # (a) yamasız düşer
+    rc, out, err = kos("ice", yamasiz)
+    t = out.decode("utf-8", "replace")
+    sonuc["a yamasız StringIO altında DÜŞER"] = (rc == 7 and "AttributeError" in t, t.strip())
+
+    # (b) yamalı içe aktarılır, yakalama StringIO'da kalır
+    rc, out, err = kos("ice", yamali)
+    t = out.decode("utf-8", "replace")
+    sonuc["b yamalı StringIO altında içe aktarılır"] = (
+        rc == 0 and "yakalama=True" in t, (t + err.decode("utf-8", "replace")[-300:]).strip())
+
+    # (d) cp1254 akışı: Türkçe UTF-8 basılır, yamalı = yamasız bayt bayt
+    beklenen = "TR: ğĞüÜşŞıİöÖçÇ".encode("utf-8")
+    cp = {"PYTHONIOENCODING": "cp1254"}
+    rc1, o1, _ = kos("tr", yamali, cp)
+    rc2, o2, _ = kos("tr", yamasiz, cp)
+    sonuc["d cp1254: Türkçe UTF-8, yamalı = yamasız"] = (
+        rc1 == rc2 == 0 and beklenen in o1 and o1 == o2,
+        "rc %s/%s · yamalı %r · eşit=%s" % (rc1, rc2, o1[-40:], o1 == o2))
+
+    # (c) gerçek CLI, birebir
+    if hizli:
+        sonuc["c CLI birebir"] = (None, "ATLANDI (--hizli) — ÖLÇÜLEMEDİ")
+    else:
+        rc_cli, o_cli = kos_cli()
+        rc_y, o_y, e_y = kos("ana", yamali)
+        rc_n, o_n, e_n = kos("ana", yamasiz)
+        o_y += e_y
+        o_n += e_n
+        # CLI stderr'i stdout'a katılmıştı; çalıştırıcıda ayrı — sıra farkı
+        # olmasın diye satır KÜMESİ değil, önce birebir, sonra sıralı kıyas.
+        bire = o_y == o_n
+        cli_ayni = sorted(o_cli.splitlines()) == sorted(o_y.splitlines())
+        sonuc["c CLI: yamalı = yamasız birebir, çıkış aynı"] = (
+            bire and rc_y == rc_n and cli_ayni and rc_cli == rc_y,
+            "çıkış CLI=%s yamalı=%s yamasız=%s · yamalı/yamasız bayt-eşit=%s (%d bayt) · "
+            "CLI/yamalı satır-eşit=%s" % (rc_cli, rc_y, rc_n, bire, len(o_y), cli_ayni))
+
+    kaldi = olcmedi = 0
+    for ad, (ok, ayr) in sonuc.items():
+        isaret = "✓" if ok else ("?" if ok is None else "✗")
+        kaldi += ok is False
+        olcmedi += ok is None
+        print("%s %s\n     %s" % (isaret, ad, ayr.replace("\n", "\n     ")))
+    print("SONUÇ: %d soru · %d kaldı · %d ölçülemedi" % (len(sonuc), kaldi, olcmedi))
+    return 1 if kaldi else (2 if olcmedi else 0)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

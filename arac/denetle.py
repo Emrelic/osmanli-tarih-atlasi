@@ -29,7 +29,12 @@ from datetime import date, timedelta
 # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
 # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
 # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+# 🔴 DENETLE-STDOUT-1010: `redirect_stdout(io.StringIO())` altında `encoding`
+# None'dır (öznitelik VAR, getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur
+# ⇒ eski satır içe aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan
+# akış (StringIO) zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
+if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
+        and hasattr(sys.stdout, "buffer")):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
