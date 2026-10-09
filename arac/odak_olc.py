@@ -141,10 +141,12 @@ from collections import Counter
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 
+import girdi as _girdi   # ZAMAN-GENİŞ-1008: UFUK / VERI_UFKU tek otoritesi
+
 TAVAN_YOL = os.path.join(KOK, "denetim", "ODAK-TAVAN.json")
 SEKME_DALLARI = ("SEKME_NOKTA", "SEKME_KIPIRDAMAZ", "SEKME_OKUNMAYAN",
                  "SEKME_KUTU", "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ",
-                 "SEKME_OLCULEMEDI")
+                 "SEKME_OLCULEMEDI", "SEKME_VERI_DISI")   # sonuncusu ZAMAN-GENİŞ-1008
 COZUCU = os.path.join(KOK, "arac", "odak_cozum.js")
 
 
@@ -206,7 +208,9 @@ def olc(tek=None, yay_dogrula=False):
     try:
         io.open(yol, "w", encoding="utf-8").write(json.dumps(
             {"kok": KOK.replace("\\", "/"), "etiket_kaynak": ek,
-             "disk": disk_dosyalari(), "yay_dogrula": bool(yay_dogrula)},
+             "disk": disk_dosyalari(), "yay_dogrula": bool(yay_dogrula),
+             # ZAMAN-GENİŞ-1008: VERİ PENCERESİ DIŞI kovasının TEK evren tanımı
+             "devirler": [list(x) for x in _girdi.ufuk_devirleri()]},
             ensure_ascii=False))
         r = subprocess.run(["node", COZUCU, yol], capture_output=True,
                            text=True, encoding="utf-8", errors="replace")
@@ -293,6 +297,7 @@ def kimlik_ozetle(D):
       ozet         set(sha8)               bütün maddelerin evren özeti
     """
     od, ss, ok, yb, cb = Counter(), Counter(), Counter(), Counter(), Counter()
+    vd = []                                        # ZAMAN-GENİŞ-1008 VERİ PENCERESİ DIŞI
     yer = {}
     hata, olcm, ozet = [], 0, set()
     for d in D.get("dosyalar", []):
@@ -311,10 +316,12 @@ def kimlik_ozetle(D):
         for x in d.get("beyanli") or []:
             (cb if x.get("yol") == "OLAYLAR" else yb)[x["k"]] += 1
             yer.setdefault(x["k"], set()).add(ad)
+        vd.extend(d.get("veri_disi") or [])
         olcm += (d.get("sekme") or {}).get("SEKME_OLCULEMEDI", 0)
         ozet.update(d.get("k8") or [])
     return {"odaksiz": od, "sessiz": ss, "okunmayan": ok, "yab_beyanli": yb, "cek_beyanli": cb,
-            "dosya": yer, "sekme_olculemedi": olcm, "hata": hata, "ozet": ozet}
+            "dosya": yer, "sekme_olculemedi": olcm, "hata": hata, "ozet": ozet,
+            "veri_disi": vd}
 
 
 def _sayac(liste, anahtar):
@@ -517,6 +524,20 @@ def kapi_olcumu(yay_dogrula=False):
         if x_iyi:
             sat.append("✓  %s İYİLEŞME: %d çift kapandı — tavan indirilmeli "
                        "(`--tavan-yaz`)" % (ad, sum(x_iyi.values())))
+
+    # ④b ZAMAN-GENİŞ-1008 — VERİ PENCERESİ DIŞI: o devirde hedef kimliğin HİÇ gövde
+    #    verisi yok (ölçüt `odak_cozum.js` `veriDisi`). SESSİZ/OKUNMAYAN tavanına
+    #    GİRMEZ, onlarla TOPLANMAZ, ihlal üretmez; kalem adıyla basılır ve veri
+    #    yazılınca kendiliğinden çıkar. `ufuk_devirleri()` boşsa (UFUK = VERI_UFKU) kova yok.
+    if _girdi.ufuk_devirleri():
+        _vd = K["veri_disi"]
+        _dv = Counter(x["devir"] for x in _vd)
+        sat.append("ⓘ  ZAMAN-GENİŞ-1008 VERİ PENCERESİ DIŞI: %d (madde × künye) — o devirde "
+                   "gövde verisi YOK · %s · SEKME SESSİZ ile TOPLANMAZ (bugün %d)"
+                   % (len(_vd), " · ".join("%s %d" % kv for kv in sorted(_dv.items())) or "—",
+                      sum(K["sessiz"].values())))
+        for x in sorted(_vd, key=lambda x: x["t"]):
+            sat.append("     %-60s  sekme %s  (%s)" % (_kisa(x["k"], 60), x["kunye"], x["devir"]))
 
     # ⑤ ÇEKİRDEĞE GÖÇ — yabancı BEYANLI bir madde `olaylar*`a taşınırsa sekme
     #    dökümünden ÇIKAR (iyileşme gibi görünür) ama artık ana listede açılır

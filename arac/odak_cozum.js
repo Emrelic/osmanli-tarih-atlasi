@@ -384,6 +384,45 @@ function govdeSonucu(m, d) {
   try { k = maddeOdakKutusu({ t: m.t, gi: W.gunIdx(m.t), odak_kimlik: [d.id] }); } catch (e) { k = null; }
   return { dal: (k && k.kutu) ? "SEKME_TABI_KUTU" : "SEKME_SESSIZ", neden: neden };
 }
+// 🔴 ZAMAN-GENİŞ-1008 — VERİ PENCERESİ DIŞI kovası (koordinatör hükmü). DÖRT ŞART:
+//   (1) LİSTE: `veri_disi[]`, kalem adıyla (madde × künye × devir)
+//   (2) ölçüt VERİ: maddenin günü bir `girdi.ufuk_devirleri()` devrinde VE
+//       hedef kimlik(ler)in o devire DOKUNAN tek `dnm` dönemi YOK. Veri
+//       yazılınca (gövde o devirde doğunca) kalem KENDİLİĞİNDEN çıkar.
+//   (3) SEKME SESSİZ / OKUNMAYAN tavanına GİRMEZ, ayrı basılır (odak_olc.py)
+//   (4) beyan: bu blok + odak_olc'un satırı.
+//   Devirler odak_olc.py'den gelir (`G.devirler` ← girdi.ufuk_devirleri):
+//   burada tarih YAZILMAZ. UFUK'un KENDİSİNİN dışı (0900 Mapungubwe · 0981
+//   Bạch Đằng) hiçbir devire düşmez ⇒ kovaya girmez (kalıcı istisna olurdu).
+//   ⚠️ `G.devirler` yoksa (eski sınav betikleri) kova KURULMAZ — davranış eskisi.
+//   ⚠️ Hedef YER ise (odak_yer · odak_kutu_kaynak · yer_kon) kovaya girmez:
+//      o kusur devlet verisinin yokluğu değildir.
+const DEVIRLER = Array.isArray(G.devirler) ? G.devirler : null;
+function pad4(t) {
+  t = String(t || "");
+  return /^\d{1,3}-/.test(t) ? t.replace(/^\d+/, function (y) { return ("000" + y).slice(-4); }) : t;
+}
+function veriDisi(m, d, sd) {
+  if (!DEVIRLER || !d || !DH_VAR) return null;
+  const sessiz = sd.dal === "SEKME_SESSIZ" ||
+                 (sd.dal === "SEKME_OKUNMAYAN" && sd.govde === "SEKME_SESSIZ");
+  if (!sessiz || m.odak_yer || m.odak_kutu_kaynak || yerKonYazili(m)) return null;
+  const t = pad4(m.t);
+  const dv = DEVIRLER.find(function (x) {
+    return x[1] <= t && (t < x[2] || (x[0] === "ileri" && t === x[2]));   // UFUK sonu dahil
+  });
+  if (!dv) return null;
+  const ids = [d.harita || d.id];
+  [].concat(m.odak_kimlik || []).forEach(function (k) {
+    const kk = kunyeIx[k]; ids.push((kk && kk.harita) || k);
+  });
+  for (let i = 0; i < ids.length; i++) {
+    const s = DH_IX[ids[i]];
+    if (s && (s.dnm || []).some(function (p) { return pad4(p.f) < dv[2] && pad4(p.t) > dv[1]; }))
+      return null;                      // o devirde VERİ VAR ⇒ gerçek borç, kovaya girmez
+  }
+  return dv[0];
+}
 function sekmeDali(m, d) {
   const hedef = m.yer_id ? olayKonumu(m) : null;
   if (hedef) return { dal: "SEKME_NOKTA" };
@@ -464,14 +503,15 @@ function ozet8(k) {
 
 // ---- ⑤ dosya dosya say -----------------------------------------------------
 const SEKME_DALLARI = ["SEKME_NOKTA", "SEKME_KIPIRDAMAZ", "SEKME_OKUNMAYAN", "SEKME_KUTU",
-                       "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ", "SEKME_OLCULEMEDI"];
+                       "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ", "SEKME_OLCULEMEDI",
+                       "SEKME_VERI_DISI"];   // sonuncusu ZAMAN-GENİŞ-1008
 const dosyaIx = {};
 function dosyaKaydi(ad) {
   if (!dosyaIx[ad]) {
     const sk = {}; SEKME_DALLARI.forEach(function (x) { sk[x] = 0; });
     dosyaIx[ad] = { dosya: ad, madde: 0, acilamaz: 0, beyanli_yabanci: 0,
                     sinif: { KONUMLU: 0, KUTULU: 0, BEYANLI: 0, ODAKSIZ: 0 },
-                    sekme: sk, kusur: [], odaksiz: [], okunmayan: [], sekme_sessiz: [],
+                    sekme: sk, kusur: [], odaksiz: [], okunmayan: [], sekme_sessiz: [], veri_disi: [],
                     beyanli: [], sekme_kutu: [], k8: [] };
   }
   return dosyaIx[ad];
@@ -501,7 +541,13 @@ tumu.forEach(function (r) {
   }
   if (yol === "SEKME") {
     const kd = kunyeIx[sekmeKunye.get(m)];
-    const sd = sekmeDali(m, kd);
+    let sd = sekmeDali(m, kd);
+    const _vdv = veriDisi(m, kd, sd);                 // ZAMAN-GENİŞ-1008
+    if (_vdv) {
+      d.veri_disi.push({ t: m.t, b: String(m.b || "").slice(0, 80), devir: _vdv,
+                         eski_dal: sd.dal, kunye: sekmeKunye.get(m), k: mk });
+      sd = { dal: "SEKME_VERI_DISI" };
+    }
     d.sekme[sd.dal]++;
     if (sd.dal === "SEKME_SESSIZ") {
       sessizNeden[sd.neden] = (sessizNeden[sd.neden] || 0) + 1;
@@ -537,6 +583,7 @@ const cikti = {
   sekme_alt: sekmeAlt, sekme_nokta_odak_kimlik: noktaOdakKimlik,
   sekme_okunmayan_govde: okunmayanGovde, devlet_harita_var: DH_VAR,
   sekme_sessiz_neden: sessizNeden,
+  veri_penceresi_devirler: DEVIRLER,                   // ZAMAN-GENİŞ-1008 (null = kova kurulmadı)
   bagla_log: LOG.filter(function (l) { return /eşlenemedi|EZİLDİ|künyesi olmayan/.test(l); })
                 .map(function (l) { return l.slice(0, 400); }),
   dosyalar: Object.keys(dosyaIx).sort().map(function (k) { return dosyaIx[k]; }),

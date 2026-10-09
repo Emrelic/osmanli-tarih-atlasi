@@ -289,7 +289,7 @@ def d_isgal_ortusu(Y, ol):
             # D-4: örtünün başı ve sonu haritada GÖRÜNÜR değişimdir — tarama
             # belirir ve kaybolur. Değişmez 2'nin örtü boyutu; aynı ±30 pencere.
             for g, ne in ((f, "işgal başlangıcı"), (t, "işgal sonu")):
-                if g <= "1281-01-01" or g >= "1923-10-29":
+                if denetle.kirilma_disi(g):   # ZAMAN-Z1-1008: ufuk denetle.py'den
                     continue
                 if not any(abs(o["g"] - _gun(g)) <= PENCERE_GUN for o in ol):
                     maddesiz.append((g, ne, y["ad"], isgalci))

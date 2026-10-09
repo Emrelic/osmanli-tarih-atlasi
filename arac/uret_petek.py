@@ -2900,7 +2900,13 @@ _YASLAMA_IPTAL = []                 # koruma yüzünden iptal edilen yaslamalar
 # Atlasın başlangıç tarihi. TDV'ye göre Ertuğrul Gazi 680 (1281-82) yılında
 # vefat etti ve Osman Bey beyliğe geçti; ilk askerî harekât 1285 Kulacahisar,
 # ilk şehir fethi 1288 Karacahisar. Bu yüzden epok 1299 değil 1281.
-EPOK = "1281-01-01"
+# 🔴 ZAMAN-Z1-1008: başlangıç ve bitiş TEK otoriteden (`girdi.UFUK`). Eskiden
+#   bitiş yedi satırda düz "1923-11-01" yazılıydı (KAPSAM-1945-OLC-0930 §①).
+#   `KESIT_SON` = ufuk sonu + 3 gün: eski nöbetçiyi BİREBİR üretir
+#   (1923-10-29 + 3 = 1923-11-01) — son kesite sıfırdan uzun bir aralık verir.
+EPOK = girdi.UFUK[0]
+KESIT_SON = (_dt.date.fromisoformat(girdi.UFUK[1])
+             + _dt.timedelta(days=3)).isoformat()
 
 # Örtü sadeleştirme toleransı (derece). coverage_simplify ile örtünün TAMAMINA
 # bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
@@ -4567,9 +4573,9 @@ tarihler = set()
 for y in YERLER:
     for dn in y["d"] + y["v"]:
         tarihler.add(dn["f"]); tarihler.add(dn["t"])
-tarihler = sorted(t for t in tarihler if EPOK <= t <= "1923-11-01")
+tarihler = sorted(t for t in tarihler if EPOK <= t <= KESIT_SON)
 if tarihler[0] != EPOK: tarihler.insert(0, EPOK)
-if tarihler[-1] != "1923-11-01": tarihler.append("1923-11-01")
+if tarihler[-1] != KESIT_SON: tarihler.append(KESIT_SON)
 print(f"Kırılma tarihi: {len(tarihler)}")
 
 def alan_km2(g):
@@ -6633,7 +6639,7 @@ for _wdid in BOYALAR:
                     _wts.add(_wsp["f"]); _wts.add(_wsp["t"])
             for _wdn in YERLER[_wj]["d"] + YERLER[_wj]["v"]:
                 _wts.add(_wdn["f"]); _wts.add(_wdn["t"])
-        _wts = sorted(t for t in _wts if EPOK <= t <= "1923-11-01")
+        _wts = sorted(t for t in _wts if EPOK <= t <= KESIT_SON)
         if _wts:
             if _wts[0] != EPOK: _wts.insert(0, EPOK)
             _wonce = None
@@ -6887,10 +6893,10 @@ def _yabanci_devlet_faz1(_arg):
             if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
         for dn in YERLER[j]["d"] + YERLER[j]["v"]:
             ts.add(dn["f"]); ts.add(dn["t"])
-    ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
+    ts = sorted(t for t in ts if EPOK <= t <= KESIT_SON)
     if not ts: return did, dad, renk, [], []
     if ts[0] != EPOK: ts.insert(0, EPOK)
-    if ts[-1] != "1923-11-01": ts.append("1923-11-01")
+    if ts[-1] != KESIT_SON: ts.append(KESIT_SON)
     ham = []; tani = []; onceki = None
     for i in range(len(ts) - 1):
         a, b = ts[i], ts[i+1]
@@ -7155,10 +7161,10 @@ elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
                 if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
             for dn in YERLER[j]["d"] + YERLER[j]["v"]:
                 ts.add(dn["f"]); ts.add(dn["t"])
-        ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
+        ts = sorted(t for t in ts if EPOK <= t <= KESIT_SON)
         if not ts: continue
         if ts[0] != EPOK: ts.insert(0, EPOK)
-        if ts[-1] != "1923-11-01": ts.append("1923-11-01")
+        if ts[-1] != KESIT_SON: ts.append(KESIT_SON)
         dnm = []; onceki = None
         for i in range(len(ts) - 1):
             a, b = ts[i], ts[i+1]

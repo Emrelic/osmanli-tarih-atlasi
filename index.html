@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Osmanlı Tarih Atlası (1281–1923)</title>
+<title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="css/style.css?v=r11995">
 </head>
@@ -423,7 +423,16 @@
       <div id="yer-ara-liste" class="gizli" role="listbox"></div>
     </div>
     </span><!-- /#git-grup -->
+    <!-- 🆕 ZAMAN-GENİŞ-1008 (Z2) — ÇAĞ BÖLMELİ ÇUBUK. `#zaman` artık gün
+         indeksi değil KONUM taşır (0…ZAMAN_KONUM_MAX; js/app.js `gunKonum`
+         / `konumGun`). Altındaki eksen çağ sınırlarını (1281 · 1923) ve ara
+         yılları gösterir; doğrusal olmayan ölçeğin GÖRÜNÜR olması şart —
+         yoksa kullanıcı çubukta 1000–1281'in neden dar olduğunu bilemez.
+         id AYNI kaldı; sarmal yalnız ekseni çubuğun altına koymak için. -->
+    <span id="zaman-sarmal">
     <input type="range" id="zaman" min="0" max="0" step="1">
+    <span id="zaman-eksen" class="zaman-eksen" aria-hidden="true"></span>
+    </span>
     <!-- 🔴 21 Ağustos — Emre: "alttaki gün ay yıl şeklinde olan göstergeyi
          kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-
          goster` (eski id) SİLİNDİ; `js/app.js`teki `tarihGoster` değişkeni

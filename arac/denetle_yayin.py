@@ -727,6 +727,56 @@ def _yorumsuz_js(s):
     return "\n".join(cikti)
 
 
+# -----------------------------------------------------------------------------
+# 🆕 UFUK EŞİTLİĞİ (ZAMAN-GENİŞ-1008 · koordinatör hükmü, gerekçe H-0008)
+# -----------------------------------------------------------------------------
+# Ufuk İKİ yerde yaşar: `arac/girdi.py` (UFUK · VERI_UFKU — motorun ve denetimin
+# otoritesi) ve `js/app.js` (BASLANGIC · BITIS · VERI_UFKU — arayüzün kopyası).
+# H-0008'de bir yamanın motor yarısı indi, arayüz yarısı geri alınmış kaldı ve
+# hiçbir kapı SORMADI. Bu soru ikisini YAYINDAN ÖNCE karşılaştırır.
+# Okunan ÜÇ literal (Z2'nin sözleşmesi, `ZAMAN-Z2-1008.md §R2`):
+#     var BASLANGIC = gunIdx("…");   var BITIS = gunIdx("…");
+#     var VERI_UFKU = ["…", "…"];
+# Yorumlar silinerek okunur (yorumdaki bir örnek eşleşmesin). Her literal
+# TAM BİR KEZ bulunmalı: yok ya da çift ⇒ ÖLÇÜLEMEDİ ⇒ ihlal (temiz DEĞİL).
+# Sınav (iki yön): `py denetim/ARAC-ZAMAN-Z1-SINAV-1008.py`.
+_UFUK_RX = {
+    "BASLANGIC": re.compile(r'^\s*var\s+BASLANGIC\s*=\s*gunIdx\(\s*"([^"]+)"\s*\)', re.M),
+    "BITIS": re.compile(r'^\s*var\s+BITIS\s*=\s*gunIdx\(\s*"([^"]+)"\s*\)', re.M),
+    "VERI_UFKU": re.compile(r'^\s*var\s+VERI_UFKU\s*=\s*\[\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\]', re.M),
+}
+
+
+def ufuk_esitligi(app_yol=None):
+    """→ (ihlal: bool, satırlar: [str]). app.js ↔ girdi.py ufuk sabitleri."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import girdi as _g
+    yol = app_yol or os.path.join(KOK, "js", "app.js")
+    try:
+        s = _yorumsuz_js(io.open(yol, encoding="utf-8").read())
+    except OSError as e:
+        return True, ["✗  UFUK EŞİTLİĞİ ÖLÇÜLEMEDİ: app.js okunamadı (%s)" % str(e)[:60]]
+    bul = {}
+    for ad, rx in _UFUK_RX.items():
+        m = rx.findall(s)
+        if len(m) != 1:
+            return True, ["✗  UFUK EŞİTLİĞİ ÖLÇÜLEMEDİ: app.js'te `var %s` literal'i %d kez "
+                          "(tam 1 olmalı) — sözleşme bozuk ya da arayüz yarısı inmemiş" % (ad, len(m))]
+        bul[ad] = m[0]
+    app_ufuk = (bul["BASLANGIC"], bul["BITIS"])
+    app_veri = tuple(bul["VERI_UFKU"])
+    fark = []
+    if app_ufuk != tuple(_g.UFUK):
+        fark.append("UFUK app.js %s→%s ≠ girdi.py %s→%s" % (app_ufuk + tuple(_g.UFUK)))
+    if app_veri != tuple(_g.VERI_UFKU):
+        fark.append("VERI_UFKU app.js %s→%s ≠ girdi.py %s→%s" % (app_veri + tuple(_g.VERI_UFKU)))
+    if fark:
+        return True, ["✗  UFUK EŞİTLİĞİ BOZUK — motor ile arayüz FARKLI pencere çiziyor: "
+                      + " · ".join(fark)]
+    return False, ["✓  UFUK EŞİTLİĞİ: app.js = girdi.py (UFUK %s→%s · VERI_UFKU %s→%s)"
+                   % (tuple(_g.UFUK) + tuple(_g.VERI_UFKU))]
+
+
 def cizilmiyor_mu():
     """(bulgular, muaf_sayisi) — üretilen her `window.X` tüketiliyor mu?"""
     import glob as _g
@@ -1863,6 +1913,16 @@ def main():
         _paket_ihlali = True
         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
+    # 🆕 UFUK EŞİTLİĞİ — app.js ↔ girdi.py (ZAMAN-GENİŞ-1008, yukarıdaki işlev)
+    try:
+        _ufuk_ihlali, _ufuk_satir = ufuk_esitligi()
+        print()
+        for _s in _ufuk_satir:
+            print(_s)
+    except Exception as _e:                                 # noqa: BLE001
+        _ufuk_ihlali = True
+        print("\n✗  UFUK EŞİTLİĞİ ÖLÇEMEDİ: %s" % str(_e)[:90])
+
     # -----------------------------------------------------------------
     # 🧪 SINAMA KAPISI — `kaynak_durum.py kapi` ile koşmuş motorun ürünü yayına gitmez
     # -----------------------------------------------------------------
@@ -1884,7 +1944,7 @@ def main():
             #   bayatlık Emre'nin hükmüyle yayını DURDURMAZ (yukarı bak).
             or damga_ihlali or bayat_durdurucu or izsiz or iz_bayat or _sz
             or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
-            or _paket_ihlali or _dom_ihlali):
+            or _paket_ihlali or _dom_ihlali or _ufuk_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

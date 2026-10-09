@@ -547,6 +547,17 @@ body {
   display: flex; flex-direction: column;
 }
 #harita { flex: 1 1 auto; min-width: 0; position: relative; }
+/* ZAMAN-GENİŞ-1008 — VERI_UFKU dışı günlerde harita üstü şerit (js/app.js
+   `kapsamSeridiGuncelle`). Tıklamayı haritaya geçirir (pointer-events yok). */
+#kapsam-disi-serit {
+  position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+  z-index: 5; max-width: calc(100% - 120px); padding: 4px 10px;
+  background: rgba(42, 10, 16, .85); color: #f3e6c8; border: 1px solid var(--altin);
+  border-radius: 5px; font-size: 12px; text-align: center; pointer-events: none;
+}
+#kapsam-disi-serit.gizli { display: none; }
+/* ZAMAN-GENİŞ-1008 — ufuk dışı kronoloji maddesi (js/app.js `ufukDisiIsaretle`). */
+.olay.ufuk-disi { opacity: .6; border-left-style: dashed; }
 
 /* 🔴 EMRE, 19 Ağustos 2026: *"sağdaki ... sağ alt bölüm genişliği şimdiki
    genişlik ve dar gösterim olarak İKİ KADEME olsun ve dar gösterim şimdiki
@@ -1078,7 +1089,24 @@ body {
   font-size: 12px;
   max-width: 130px;
 }
-#zaman { flex: 1 1 auto; accent-color: var(--osmanli-kirmizi); height: 5px; min-width: 90px; }
+/* ZAMAN-GENİŞ-1008 — esneklik `#zaman`dan sarmala geçti (çubuk + çağ ekseni). */
+#zaman-sarmal { flex: 1 1 auto; min-width: 90px; display: flex; flex-direction: column; }
+#zaman { width: 100%; margin: 0; accent-color: var(--osmanli-kirmizi); height: 5px; }
+/* Çağ ekseni — ana çubuk ve yerleşim çubuğu ortak (js/app.js `zamanEksenDoldur`).
+   Yazılar `left:%` ile ölçekteki GERÇEK konumda; ilk/son kenara yaslanır. */
+.zaman-eksen { position: relative; display: block; height: 12px; }
+.zaman-eksen span {
+  position: absolute; top: 0; transform: translateX(-50%);
+  font-size: 9px; line-height: 12px; white-space: nowrap;
+}
+.zaman-eksen span.ilk { transform: none; }
+.zaman-eksen span.son { transform: translateX(-100%); }
+.zaman-eksen span.cag-siniri { font-weight: bold; }
+.zaman-eksen span.cag-siniri::before {         /* ölçeğin kırıldığı yer */
+  content: ""; position: absolute; left: 50%; top: -4px; height: 4px;
+  border-left: 1px solid currentColor;
+}
+#zaman-eksen { color: #e9d7a6; margin-top: 2px; }
 /* 11 Eylül 2026 — "Tarihe git" girişi. `#zamanbar button`/`input` genel
    kuralları zaten var; burada yalnız METİN GİRİŞİNİN kendine özgü genişliği
    gerekiyor. 14 Eylül 2026 — "📅 Git" butonu kaldırıldı, kuralı da silindi;
@@ -1170,7 +1198,7 @@ body {
   #tarihe-git-giris { flex: 1 1 120px; width: auto; min-width: 0; }
   #yer-ara { flex: 1 1 120px; min-width: 0; position: static; }
   #yer-ara-giris { width: 100%; }
-  #zaman { flex: 1 1 100%; }
+  #zaman-sarmal { flex: 1 1 100%; }
   #yer-ara-liste { left: 8px; right: 8px; width: auto; max-width: none; max-height: 40vh; }
 }
 #yer-ara-liste .ya-bas { padding: 4px 9px; font-size: 11px; color: #6b5a33; border-bottom: 1px solid #e4d6b0; }
@@ -3030,10 +3058,7 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
   background-image: repeating-linear-gradient(45deg,
       rgba(255,255,255,.35) 0 3px, transparent 3px 6px);
 }
-.yer-cubuk-eksen {
-  display: flex; justify-content: space-between;
-  font-size: 10px; color: #9a9a9a; margin-top: 2px;
-}
+.yer-cubuk-eksen { color: #9a9a9a; margin-top: 2px; }   /* düzen: .zaman-eksen */
 .yer-cubuk-sarmal[data-mesafe]::after {
   content: attr(data-mesafe);
   display: block; font-size: 10px; color: #c8861a; margin-top: 3px;
@@ -3145,7 +3170,7 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
    kendi 1600 zirvesi) — aşağıdaki SILUETLER bloğu o betiğin çıktısıdır.
    ═══════════════════════════════════════════════════════════════════════ */
 html::before {
-  content: "Atlas yükleniyor…\A 1281’den 1923’e, gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin";
+  content: "Atlas yükleniyor…\A Gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin";
   white-space: pre-line;
   position: fixed; inset: 0; z-index: 9000;
   display: flex; align-items: flex-end; justify-content: center;

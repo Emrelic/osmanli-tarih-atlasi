@@ -35,6 +35,20 @@ if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
+# 🔴 ZAMAN-Z1-1008 — ufuk TEK otoriteden: `girdi.UFUK` (motor+arayüz penceresi)
+#   ve `girdi.VERI_UFKU` (verinin tam yazıldığı pencere; uçları SINIR İŞARETİ).
+#   Gerekçe girdi.py'de. Eskiden bu dosyada "1281-01-01"/"1923-10-29" beş
+#   yerde düz yazılıydı ve motor ufkuna BAĞLI DEĞİLDİ (ONCE1281-MOTOR-UFUK-1004 §④).
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from girdi import UFUK, VERI_UFKU, UFUK_DAMGASI, ufuk_devirleri
+
+
+def kirilma_disi(g):
+    """KIRILMA SAYILMAYAN gün: yok · UFUK'un dışı · UFUK DAMGASI (dört uç
+    gün, tanımı `girdi.UFUK_DAMGASI` — el değiştirme değil, D210).
+    Değişmez 2/2s/2i ve 7 aynı kapıdan sorar."""
+    return (not g) or g < UFUK[0] or g > UFUK[1] or g in UFUK_DAMGASI
+
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
 # 748 -> 761: hatalar 4.docx düzeltmeleri (Çerkezya 5, Dağıstan 3, Şirvan 4,
 # Kaheti 1) — gerekçeleri yerlesimler.js içindeki blok yorumlarda.
@@ -670,6 +684,12 @@ BEKLENEN_ACIK_S = 181   # 9 EKIM (dalga 3): 182 -> 181 · CELAYIRLI-0085-v2 (Gen
 #   "yeni `YYYY-01-01` kırılması yazılmış olabilir" cümlesi burada YANILTIR;
 #   tavan bu yüzden güncellendi, yoksa sonraki oturum olmayan bir kaydı arar.
 BEKLENEN_2S_YIL_BORC = 151
+# 🆕 ZAMAN-GENİŞ-1008 (Z1): ufuk 1000'e açılınca ölçüm 165 → 166, ADIYLA tek kalem:
+#   Lapaha (Muʻa) · s:tui-tonga-imparatorlugu f:1220-01-01 (kur:1220-01-01).
+#   UFUK DAMGASI DEĞİL (1220 bir uç gün değil) ⇒ kırılma evrenine girdi. Eski
+#   ufukta 1220 < 1281 olduğu için hiç sorulmuyordu. Tavan YÜKSELTİLMEDİ
+#   (1 Ekim kararı): 151→166 farkının öteki 14 kalemi bu commit'in değil ve
+#   adıyla ölçülmedi (§3.4-0). Öneri ve seçenekler: denetim/ZAMAN-Z1-1008.md.
 # 🔴 1 EKIM 2026 — BU SAYI TERS YONE GITTI: olculen 164 > tavan 151.
 # Tavan YUKSELTILMEDI ve bu dogru karardi. AMA ILK YAZDIGIM GEREKCE YANLISTI;
 # YAZICI KASA PC olctu ve curuttu (denetim/KASA-YILTEMSILI-1001.md).
@@ -1232,6 +1252,50 @@ def degismez1(Y):
                 continue
             sahipsiz.setdefault(t["ad"], []).append(yil)
     return sahipsiz
+
+
+# ---------------- Değişmez 1 — ZAMAN-GENİŞ-1008 KAPSAM DIŞI kovası ----------------
+# 🔴 Koordinatör hükmü (ZAMAN-GENİŞ-1008): UFUK − VERI_UFKU (`girdi.ufuk_devirleri`)
+# yıllarında noktasız/sahipsiz yerleşim DELİK SAYILMAZ — ama YOK DA SAYILMAZ.
+# DÖRT ŞART (biri tutmazsa kova KURULMAZ):
+#   (1) LİSTE — kalem adıyla (yerleşim · devir)
+#   (2) ölçüt TARİH değil VERİ: o devire DOKUNAN tek bir s/d/v dönemi yoksa
+#       kalem kovadadır; veri yazıldığı an KENDİLİĞİNDEN çıkar.
+#   (3) gerçek borçla (`BEKLENEN_SAHIPSIZ`) ASLA toplanmaz, yan yana basılır.
+#   (4) başında ZAMAN-GENİŞ-1008 beyanı.
+# ⚠️ O devirde verisi OLAN ama örnek günde sahipsiz kalan nokta kovaya
+#   GİRMEZ: o gerçek bir deliktir (ör. dönemi 1220'de başlayan nokta 1200'de)
+#   ve AYRI satırda ADIYLA basılır — kovaya atmak borcu affederdi.
+#   Bugün `degismez1` sayısına EKLENMEZ: tavan (BEKLENEN_SAHIPSIZ) yalnız
+#   VERI_UFKU evreninde ölçülmüştür; yeni evren ayrı satırdır (§3.4).
+# Örnek günler: her devirde 10 yılda bir `YYYY-06-15` (yarı açık [f, t)).
+BEKLENEN_VERILI_DELIK = None   # None = TAVAN YAZILMADI ⇒ yalnız bilgi. Koordinatör yazar (§3.4-4).
+
+
+def degismez1_kapsam(Y):
+    """→ (kapsam_disi, verili_delik) — ikisi de [(ad, devir_adı)] LİSTESİ."""
+    def dok(ps, f, t):
+        return any(p.get("f") and p.get("t") and p["f"] < t and p["t"] > f
+                   for p in (ps or []))
+    def ir(ps, g):
+        return any(p["f"] <= g < p["t"] for p in (ps or []))
+    kapsam, delik = [], []
+    for dad, df, dt in ufuk_devirleri():
+        gunler = ["%04d-06-15" % yil for yil in range(int(df[:4]), int(dt[:4]) + 1, 10)]
+        gunler = [g for g in gunler if df <= g < dt]
+        for y in Y:
+            if not any(y.get(k) for k in ("s", "d", "v")):
+                continue                  # kasten boş dolgu — zaten Değişmez 1'de
+            sahnede = [g for g in gunler
+                       if not (y.get("kur") and y["kur"] > g)
+                       and not (y.get("bit") and y["bit"] <= g)]
+            bos = [g for g in sahnede
+                   if not (ir(y.get("d"), g) or ir(y.get("s"), g) or ir(y.get("v"), g))]
+            if not bos:
+                continue
+            veri = any(dok(y.get(k), df, dt) for k in ("s", "d", "v"))
+            (delik if veri else kapsam).append((y["ad"], dad, bos[0][:4]))
+    return kapsam, delik
 
 
 # ---------------- Değişmez 1b — pencere arası boşluk (ÖRNEKLEMESİZ) ----------------
@@ -1877,7 +1941,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
             donemler += (y.get(kat) or [])
         for p in donemler:
             for d, tip in ((p.get("f"), "kazanc"), (p.get("t"), "kayip")):
-                if not d or d <= "1281-01-01" or d >= "1923-10-29":
+                if kirilma_disi(d):
                     continue
                 kayit = kir.setdefault(d, {"t": tip, "ad": set(), "sahip": {}})
                 kayit["ad"].add(y["ad"])
@@ -2661,7 +2725,7 @@ def _gun_farki(a, b):
     return None if (x is None or y is None) else (x - y).days
 
 
-ATLAS_SONU = "1923-10-29"
+ATLAS_SONU = UFUK[1]   # ZAMAN-Z1-1008: motor ufkunun sonu
 # 🔴 4c TAVANI — ÜÇÜNCÜ DALIN AYRI SAYACI. `BEKLENEN_HAYALET`e EKLENMEZ.
 # Sebebi ölçülmüş bir kaygı: 136 ölçülmüş bir borç ve tavanı; üstüne bu
 # dalın sayısını eklemek İKİ AYRI BORCU TEK KOVAYA koyar ve hangisinin
@@ -2739,7 +2803,7 @@ BEKLENEN_ASAN = 118   # 9 EKIM (dalga 1): 124 -> 118 · HAYALET-KUNYE-1008 (KOOR
 #    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
 #    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
 #    olcut GEVSETILDIGI icin degil (`D004`un ters yuzu).
-ATLAS_BASI = "1281-01-01"
+ATLAS_BASI = UFUK[0]   # ZAMAN-Z1-1008: motor ufkunun başı
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
 #     4c dönem SONU künye sonundan sonra → çare: ardıl kimlik / dönemi KISALT
@@ -3124,13 +3188,13 @@ def degismez5(Y):
                                     g / 365.25))
         else:
             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
-            if ilk > "%04d-01-01" % (1281 + SUPHE_ESIK_YIL):
+            if ilk > "%04d-01-01" % (int(VERI_UFKU[0][:4]) + SUPHE_ESIK_YIL):
                 suphe.append((y["ad"], ilk, donemler[0][2],
                               round(y.get("lat", 0), 2),
                               round(y.get("lon", 0), 2)))
             elif (y.get("tur") != "bolge"
                   and not y.get("kasitli_bosluk")
-                  and ilk <= "1281-12-31"):
+                  and ilk <= VERI_UFKU[0][:4] + "-12-31"):
                 # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
                 # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
                 kursuz.append((y["ad"], ilk, donemler[0][2],
@@ -3694,14 +3758,14 @@ def degismez7(Y, isg_kova=None):
     ik.setdefault("egemen-isgal-altinda", 0)
     for i, y in enumerate(Y):
         for f, t, s, enk in DON[i]:
-            if f <= "1281-01-01" or f >= "1923-10-29":
+            if kirilma_disi(f):
                 continue
             if sahip(i, f) != sahip_dj(i, f):    # o gün işgal altında
                 ik["egemen-isgal-altinda"] += 1
                 continue
             sor(i, y, f, t, s, enk, muaf, ihlal, False)
         for f, t, s in ISG[i]:
-            if f <= "1281-01-01" or f >= "1923-10-29":
+            if kirilma_disi(f):
                 continue
             sor(i, y, f, t, s, False, ik["muaf"], ik["ihlal"], True)
     ik["ihlal"].sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
@@ -6448,6 +6512,27 @@ def main():
     if args.ayrinti and sahipsiz:
         for ad, yillar in sahipsiz.items():
             print(f"    {ad:<28} {', '.join(str(y) for y in yillar)}")
+    # ZAMAN-GENİŞ-1008 — KAPSAM DIŞI kovası: 309'la TOPLANMAZ, yan yana basılır.
+    _kd, _vd = degismez1_kapsam(Y)
+    if ufuk_devirleri():
+        _say = {}
+        for _a, _dv, _y in _kd:
+            _say[_dv] = _say.get(_dv, 0) + 1
+        print(f"            ⓘ ZAMAN-GENİŞ-1008 KAPSAM DIŞI: {len(_kd)} (yerleşim × devir) — "
+              f"o devire hiç s/d/v verisi YOK · "
+              + " · ".join(f"{d} {a}→{b}: {_say.get(d, 0)}" for d, a, b in ufuk_devirleri())
+              + f" · borçla TOPLANMAZ (borç: {n1}) · liste: --ayrinti")
+        _vdurum = ("ⓘ" if BEKLENEN_VERILI_DELIK is None
+                   else ("✓" if len(_vd) <= BEKLENEN_VERILI_DELIK else "✗"))
+        if BEKLENEN_VERILI_DELIK is not None and len(_vd) > BEKLENEN_VERILI_DELIK:
+            ihlal = True
+        print(f"            {_vdurum} ZAMAN-GENİŞ-1008 VERİLİ DEVİR DELİĞİ: {len(_vd)} — o devirde "
+              f"verisi VAR ama örnek günde sahipsiz (GERÇEK borç, kovaya girmez)"
+              + ("" if BEKLENEN_VERILI_DELIK is None else f" (tavan {BEKLENEN_VERILI_DELIK})")
+              + ": " + "; ".join(f"{a} ({d}, ilk boş {y})" for a, d, y in _vd[:12]))
+        if args.ayrinti:
+            for _a, _dv, _y in _kd:
+                print(f"    KAPSAM DIŞI  {_a:<28} {_dv} (ilk boş örnek {_y})")
 
     # ---- Değişmez 1c — sahipsiz VE BELGESİZ (asıl nöbetçi) ----
     # Değişmez 1 "kaç nokta sahipsiz" diye sorar ve cevabın çoğu KASITLIDIR.

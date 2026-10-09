@@ -426,7 +426,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 // ─── GÜNEY AFRİKA ────────────────────────────────────────────────────
 
-{ t:"900-01-01", b:"Limpopo-Shashe birleşiminde Mapungubwe krallığının yükselişi başladı", tur:"kurulus", onem:2, dunya:1, kapsam:"ic",
+{ t:"0900-01-01", b:"Limpopo-Shashe birleşiminde Mapungubwe krallığının yükselişi başladı", tur:"kurulus", onem:2, dunya:1, kapsam:"ic",
   etiket:["kurulus","konu-siyasi"], yer:"Mapungubwe (Limpopo-Shashe birleşimi)", taraflar:["mapungubwe"],
   yer_kon:[-22.19,29.24],
   d:"Kuzey-güney ve doğu-batı ticaret yollarının kesiştiği Limpopo ile Shashe nehirlerinin birleşiminde, Güney Afrika'nın ilk yerli krallığı yükselmeye başladı. Mapungubwe dağılana kadar alt kıtanın en önemli iç yerleşimi oldu.",

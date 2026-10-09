@@ -166,7 +166,7 @@ def a_yanlis_eslesme(Y, O, ix):
     for y in Y:
         for p in (y.get("d") or []) + (y.get("v") or []):
             for dt in (p.get("f"), p.get("t")):
-                if not dt or dt <= "1281-01-01" or dt >= "1923-10-29":
+                if denetle.kirilma_disi(dt):   # ZAMAN-Z1-1008: ufuk denetle.py'den
                     continue
                 kir.setdefault(dt, set()).add(y["ad"])
 
