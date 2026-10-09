@@ -1,0 +1,63 @@
+[
+ {"ad":"Tebriz","sinif":"2","zincir":[
+   {"f":"1231-01-01","d":"mogol-imparatorlugu","slug":"tebriz","parca":"628 (1231) yılında Moğol işgaline uğrayan Tebriz’i Argun Han askerî faaliyetleri için merkez yaptı","not":"1054/1062 Selçuklu · 1174 İldenizli tanıklıkları kopuk (1225 Celâleddin dönemi bu maddede tarihsiz)"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"tebriz","parca":"Hülâgû’nun 1256’da gelişiyle Hülâgû Han tahtı diye nitelendirildi"}]},
+ {"ad":"Merâga","sinif":"2","zincir":[
+   {"f":"1231-01-01","d":"mogol-imparatorlugu","slug":"meraga","parca":"Şehir 628’de (1231) Moğollar tarafından ikinci defa ele geçirildi","not":"1054 Selçuklu · 1146 Mesud · 1205-1209 İldenizli tanıklıkları kopuk"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"meraga","parca":"Şehir 628’de (1231) Moğollar tarafından ikinci defa ele geçirildi","not":"Moğol İmparatorluğu → İlhanlı ARDIL YAPI geçişi: kaynak geçiş günü VERMEZ; ilhanli künyesinin f'si (1256-01-01) devralındı (D205 ③) — kaynaksız gün"}]},
+ {"ad":"Isfahan","sinif":"2","zincir":[
+   {"f":"1235-01-01","d":"mogol-imparatorlugu","slug":"isfahan","parca":"1194’te Hârizmşahlar’ın ve 1235-1236’da Moğollar’ın eline geçen İsfahan, İlhanlı devrinde önemli bir gelişme göstermiştir","not":"kaynak '1235-1236' ARALIĞI; başı yazıldı. 1051 Selçuklu · 1118 Irak Selçuklu başşehri · 1194 Hârizmşah zinciri VAR ama harizmsah künyesi 1231'de biter, 1231-1235 sahipsiz ⇒ kopuk, YAZILMADI"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"isfahan","parca":"İlhanlı devrinde önemli bir gelişme göstermiştir","not":"ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Gence","sinif":"2","zincir":[
+   {"f":"1235-01-01","d":"mogol-imparatorlugu","slug":"gence","parca":"Moğollar 1235’te Gence’yi aldılar","not":"1225 Celâleddin teslim aldı (harizmsah künyesi 1231'de biter, 1231-1235 sahipsiz) — 1235 öncesi YAZILMADI"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"gence","parca":"Moğollar 1235’te Gence’yi aldılar","not":"ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Herat","sinif":"2","zincir":[
+   {"f":"1175-01-01","d":"gurlu","slug":"herat","parca":"Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti"},
+   {"f":"1208-01-01","d":"harizmsah","slug":"herat","parca":"605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın"},
+   {"f":"1221-01-01","d":"mogol-imparatorlugu","slug":"herat","parca":"618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti","not":"1244 Kert tayini / 1255 Hülâgû onayı — Kert Moğol'a TÂBİ, sahip değişmez (`v:` önerilmedi)"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"herat","parca":"bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine","not":"ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Serahs","sinif":"2","zincir":[
+   {"f":"1193-01-01","d":"harizmsah","slug":"serahs","parca":"bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193)"},
+   {"f":"1221-01-01","d":"mogol-imparatorlugu","slug":"serahs","parca":"Cengiz Han’ın oğlu Tuluy Han tarafından teslim alındı"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"serahs","parca":"Cengiz Han’ın oğlu Tuluy Han tarafından teslim alındı","not":"ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Merv (Mari)","sinif":"2","zincir":[
+   {"f":"1221-01-01","d":"mogol-imparatorlugu","slug":"merv","parca":"Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip edildiği gibi (1221)","not":"'istilâ' sahiplik başlangıcı okundu. 1040 Çağrı · 1119 Sencer başşehri · 1141 Atsız · 1153 Oğuz zinciri sonrası tarihsiz (Sultan Şah · Gurlu · Hârizmşah). ⚠️ Nokta modern Mary'de, eski Merv'e 32 km (0930 bulgusu)"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"merv","parca":"Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip edildiği gibi (1221)","not":"ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Simnân","sinif":"2","zincir":[
+   {"f":"1221-01-01","d":"mogol-imparatorlugu","slug":"simnan","parca":"618’de (1221) kerpiç surlarla çevrili Simnân’a giren Moğollar","not":"'giren … yağmalayıp' sahiplik başlangıcı okundu"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"simnan","parca":"618’de (1221) kerpiç surlarla çevrili Simnân’a giren Moğollar","not":"ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Semerkant","sinif":"2","zincir":[
+   {"f":"1220-01-01","d":"mogol-imparatorlugu","slug":"semerkant","parca":"Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra","not":"1074/1089 Melikşah hâkimiyeti (Karahanlı tâbiiyeti) kopuk"},
+   {"f":"1227-01-01","d":"cagatay","slug":"semerkant","parca":"Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra","not":"Moğol İmparatorluğu → Çağatay ardıl yapı; cagatay künye günü (1227-01-01) devralındı — kaynaksız gün"}]},
+ {"ad":"Taşkent","sinif":"2","zincir":[
+   {"f":"1220-01-01","d":"mogol-imparatorlugu","slug":"taskent","parca":"1220’de Cengiz Han tarafından istilâ edildi"},
+   {"f":"1227-01-01","d":"cagatay","slug":"taskent","parca":"1220’de Cengiz Han tarafından istilâ edildi","not":"ardıl yapı; cagatay künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Hucend","sinif":"2","zincir":[
+   {"f":"1219-01-01","d":"mogol-imparatorlugu","slug":"hucend","parca":"şehir Moğollar’ın eline geçti (1219)"},
+   {"f":"1227-01-01","d":"cagatay","slug":"hucend","parca":"şehir Moğollar’ın eline geçti (1219)","not":"ardıl yapı; cagatay künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Kaşgar","sinif":"2","zincir":[
+   {"f":"1218-01-01","d":"mogol-imparatorlugu","slug":"kasgar","parca":"Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218)","not":"1130 Karahıtay zaptı ('iki yıl sonra' — türetilmiş yıl) ile 1218 arası Küçlüg dönemi tarihsiz"},
+   {"f":"1227-01-01","d":"cagatay","slug":"kasgar","parca":"Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218)","not":"ardıl yapı; cagatay künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Belh","sinif":"2","zincir":[
+   {"f":"1198-01-01","d":"gurlu","slug":"belh","parca":"Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198) ve Gurlu Devleti topraklarına kattı","not":"1043 Selçuklu · 1152 Gurlu tanıklıkları kopuk (1152-1198 Karahıtay'a bağlı vali, tarihsiz)"},
+   {"f":"1205-01-01","d":"harizmsah","slug":"belh","parca":"Daha sonra Belh’i Gurlular’ın düşmanı Hârizmşah Alâeddin aldı (1205)"},
+   {"f":"1221-01-01","d":"mogol-imparatorlugu","slug":"belh","parca":"1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip","not":"'yaklaşık 100 yıl harabe halinde kaldı' — sahip Moğol, nokta harabe"},
+   {"f":"1227-01-01","d":"cagatay","slug":"belh","parca":"1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip","not":"ardıl yapı; cagatay künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Derbend","sinif":"2","zincir":[
+   {"f":"1239-01-01","d":"mogol-imparatorlugu","slug":"derbend--dagistan","parca":"1239’da doğrudan Moğol idaresi altına giren Derbend","not":"1222 ilk işgal — 'doğrudan idare' 1239 alındı"},
+   {"f":"1242-01-01","d":"altinorda","slug":"derbend--dagistan","parca":"1239’da doğrudan Moğol idaresi altına giren Derbend","not":"Moğol İmparatorluğu → Altın Orda ardıl yapı; altinorda künye günü devralındı — kaynaksız gün"}]},
+
+ {"ad":"Nahçıvan","sinif":"2z","neden":"'Moğollar’ın 618’de (1221) burayı ele geçirmesinden sonra' — ama TDV gence 1225 Celâleddin'in Azerbaycan seferini yazar ⇒ 1221→1256 Moğol sürekliliği ÇÜRÜK. Diff'e alınmadı"},
+ {"ad":"Şiraz","sinif":"3k","neden":"1062 Kavurd · 1148 Mevdûd (Salgurlu). 🟡 Yan bulgu: atlas 1281 ilhanli; devletler.js salgurlu künyesi 1286-12-29'a dek sürer (İlhanlı'ya tâbi — modelleme sorusu)"},
+ {"ad":"Kirman","sinif":"3k","neden":"1048 Kirman Selçuklu · 1187 Melik Dînâr · 1222 Barak Hâcib (Kutluğhanlılar). 🟡 Yan bulgu: atlas 1281 ilhanli; kutlughanli künyesi 1306'ya dek (İlhanlı'ya tâbi)"},
+ {"ad":"Kazvin","sinif":"3k","neden":"1029 Gazneli — sonrası tarihsiz"},
+ {"ad":"Yezd","sinif":"3k","neden":"1030 Rüstem Düşmenziyâr · 1041 Ferâmurz — sonrası tarihsiz"},
+ {"ad":"Zerenc (Sîstan)","sinif":"3k","neden":"1003 Gazneli · 1040 Selçuklu · 1228/1233/1235 Moğol tahribatı (bölge) — sahiplik zinciri kopuk"},
+ {"ad":"Balasagun (Ak-Beşim)","sinif":"3k","neden":"1130 Gürhan · 1210 Karahıtay kuşatması · 1218 Buzar Han ortak yönetimi — Çağatay'a geçiş tarihsiz"},
+ {"ad":"Erdebil","sinif":"3b","neden":"1210 Gürcü saldırısı · 1220 Moğol saldırısı — sahiplik değil"},
+ {"ad":"Tûs","sinif":"3b","neden":"1072 iktâ · 1221 Tuluy 'Tûs’un bütün köylerini' — köyler/bölge"},
+ {"ad":"Urmiye","sinif":"3b","neden":"1226 'Urmiye ve Hoy civarındaki Yıva Türkmenleri' — civar"},
+ {"ad":"Esterâbâd (Gürgân)","sinif":"3b","neden":"Bâvendî Şah Gazi Rüstem (1140-1163) saltanat aralığı"},
+ {"ad":"Türkistan (Yesi)","sinif":"3b","neden":"Karahanlı genel cümlesi — şehir değil"},
+ {"ad":"Ahar (Karadağ)","sinif":"3y","neden":"slug `karadag` = Karadağ (Montenegro/Zeta) maddesi — YANLIŞ MADDE"}
+]

@@ -173,3 +173,56 @@ Duvar: İran 93 · Mâverâünnehir 33 · Kafkas (yeni kutu lat 38.5-44.5, lon 4
 | ② sıkı zincir | **8-15** | Moğol istilâsı (1220-1221) birçok şehirde tarihli bir halka verir; İlhanlı (1256) ile birleşme kolay. Ama Hârizmşah→Moğol→İlhanlı arası boşluk (1231-1256) mogol-imparatorlugu künyesine düşer (künye 1260'ta biter, boyasız) |
 | ① 1281 sonrası kuruluş | ~2 | Safevî/Kaçar dönemi şehirleri (ör. Tebriz değil; küçük kasabalar) |
 | boyasız künye kullanımı | `mogol-imparatorlugu` sık | |
+
+## ② İRAN · MÂVERÂÜNNEHİR · KAFKAS — ölçüm (93 + 33 + 12 = 138, TAMAMI okundu)
+| Kova | Sayı | Öngörü |
+|---|---|---|
+| TDV yer maddesi bulunan | 44 | — |
+| **① 1281 sonrası kuruluş** | **0** | ~2 ❌ |
+| **② sıkı zincir → diff** | **14** — Tebriz · Merâga · Isfahan · Gence · Herat · Serahs · Merv · Simnân · Semerkant · Taşkent · Hucend · Kaşgar · Belh · Derbend | 8-15 ✅ |
+| ②z süreklilik çürük | 1 — Nahçıvan (1221 Moğol, ama 1225 Celâleddin Azerbaycan'da) | |
+| **③ kaynak yok** | **123** (94 madde yok · 17 madde var cümle yok · 6 kopuk · 5 bölge/saltanat · 1 yanlış madde: Ahar→Karadağ/Montenegro) | |
+⇒ %10,1. Mekanizma öngörüldüğü gibi: Moğol istilâsı (1218-1239) şehir maddelerinde TARİHLİ bir halka veriyor;
+İlhanlı (1256) / Çağatay (1227) / Altın Orda (1242) ile birleşme **ARDIL YAPI** geçişidir ve kaynak geçiş günü
+vermez ⇒ **künye f'si devralındı, her kayıtta "kaynaksız gün" beyanlı** (12 nokta). Hârizmşah→Moğol arasında
+`harizmsah` künyesinin 1231'de bitmesi Isfahan ve Gence'de 1231-1235 boşluğu açıyor ⇒ o zincirler 1235'ten başlar.
+
+### 🔴 Boya borcu artık ağır — `mogol-imparatorlugu` BOYASIZ
+Yamanın 122 ön-1281 döneminin **20'si boyasız künyede**: `mogol-imparatorlugu` 16 · `antakya-prinkipsligi` 2 ·
+`eyyubi` 1 · `abbasi` 1 — **19 nokta**. Ufuk açılırsa bu dilimler boyanmaz (harita deliği). Z3/Z4'e: en az
+`mogol-imparatorlugu` boyası (Moğol 1206-1260 İran/Mâverâünnehir/Kafkas dilimi tümüyle ona düşüyor).
+
+### İran yan bulguları (🟡 modelleme sorusu — 1281 SONRASI, dokunulmadı)
+Atlas 1281'de İLHANLI boyuyor; künyeler var ve İlhanlı'ya TÂBİ yerel hânedanları gösteriyor:
+**Şiraz** `salgurlu` (→1286-12-29) · **Kirman** `kutlughanli` (→1306) · **Herat** `kert` (1244→1389).
+Tâbi hânedanı `v:` mi `s:` mi göstermeli — koordinatör kararı.
+
+## ③ KALAN — DIŞA (ölçülmedi, LİSTE ve SAYI)
+Çekirdek + komşu dilimler bitti (846 nokta okundu). Duvarın **1605** noktası hiçbir kutuda değil:
+| Bölge (kaba koordinat bölmesi) | Nokta | TDV ile ölçülebilir mi |
+|---|---|---|
+| Batı/Orta Avrupa + İber + Batı İtalya | 342 | Endülüs/Sicilya kısmen; çoğu TDV DIŞI — akademik kaynak gerekir |
+| Kuzey/Doğu Avrupa + Rus | 191 | Altın Orda/İdil kısmen; çoğu TDV dışı |
+| Sahra-altı Afrika | 170 | Sahel İslâm şehirleri kısmen (TDV) |
+| GD Asya + Okyanusya | 146 | Endonezya İslâm şehirleri kısmen |
+| Amerika | 145 | TDV dışı (0930 ⑤: yoğunluk YETERSİZ — pencere açılmamalı) |
+| Hint + Afganistan güney | 133 | Delhi Sultanlığı şehirleri — TDV İYİ kapsar |
+| Çin + Kore + Japonya | 126 | TDV dışı |
+| **Kuzey Afrika + Sahra** | **122** | **TDV İYİ kapsar** (Murâbıt/Muvahhid/Hafsî/Fâtımî) |
+| öteki (Kızıldeniz kıyısı, Kafkas kuzeyi vb.) | 96 | karışık |
+| **Arabistan + Körfez** | **84** | **TDV İYİ kapsar** |
+| İç Asya + Sibirya | 50 | kısmen |
+Önerim: aynı yöntemle sıradaki dilim **Kuzey Afrika (122) + Arabistan (84) + Hint (133)** — TDV'nin güçlü olduğu
+ve İslâm dünyası olduğu için CLAUDE.md §4 birincil kaynağı geçerli. Avrupa/Doğu Asya/Amerika için TDV yöntemi
+UYGUN DEĞİL (kaynak türü farklı) — ayrı karar.
+
+## Toplam (şu ana dek)
+| Dilim | Nokta | ① | ② diff | ②z | ③ | ② oranı |
+|---|---|---|---|---|---|---|
+| Anadolu | 301 | 2 | 35 | 2 | 262 | %11,6 |
+| Balkan | 276 | 0 | 7 | 0 | 269 | %2,5 |
+| Ortadoğu | 131 | 0 | 11 | 0 | 120 | %8,4 |
+| İran-Mâverâünnehir-Kafkas | 138 | 0 | 14 | 1 | 123 | %10,1 |
+| **Toplam** | **846** | **2** | **67** | **3** | **774** | **%7,9** |
+Yama: `data/yer_yama_once1281_z6.js` · 67 kayıt · 122 ön-1281 dönem · 0 alıntı hatası · 0 künye aşımı.
+- Uygulayıcı kuru koşusu (67 kayıtla, yeniden): **51 ÇAKIŞMA** (inmiş eski yamalarla) · 16 temiz · çıkış 2 (önceden de vardı).
