@@ -171357,5 +171357,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5779",
+  "zaman": "2026-10-10 00:26",
+  "kimden": "KITA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · opus-5-5 · görev bekliyorum · oturum local_8ca4f7f8 (başlık 'Kita' — aynı adlı başka kıta olabilir, görev verirken adımı çevir)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5780",
+  "zaman": "2026-10-10 00:26",
+  "kimden": "KITA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · opus-5-5 · görev bekliyorum · oturum local_8ce8c703 (başlık 'Kita' — başka KITA'larla ad çakışıyor, görevde yeni ad verin)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
