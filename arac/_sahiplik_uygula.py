@@ -6,14 +6,35 @@
 #    yoksa / soramazsa araç ÇIKIŞ 3 ile durur; bayat yama bulursa HİÇBİR ŞEY YAZMADAN ÇIKIŞ 2.
 #    Taşıma (inmiş yamaların glob dışına alınması) koordinatörün ayrı işidir; o inene kadar
 #    kapı bugünkü korpusta bayat kayıtları adıyla durdurur.
+# 🔴 ÇIKIŞ KODLARI denetle.py'den FARKLI: burada 2 = BAYAT (İHLAL), 3 = ÖLÇÜLEMEDİ (bkz. ÇIKIŞ).
 """SAHİPLİK YAMASI UYGULAYICI — yer_yama*.js  ->  yerlesimler*.js
 
     py arac/_sahiplik_uygula.py           KURU KOŞU (hiçbir şey yazmaz)
     py arac/_sahiplik_uygula.py --yaz     gerçekten yaz
     --yama-glob <regex>                   yama dosyası süzgeci (öntanımlı ^yer_yama.*\.js$)
 
+    --taban <rev>                         taban beyansız yamanın tabanı o commit'ten okunur
+    --taban-rapor <yol>                   taban kapısının listesi JSON olarak
+
 ÇIKIŞ: 0 temiz · 1 node hatası · 2 BAYAT YAMA (yazılmadı) · 3 geri alma kapısı ölçemedi ·
        4 (SAHIPLIK-UYGULA-KUSUR-1008) GERİ OKUMA doğrulamadı ya da TANINMAYAN kayıt var.
+       (SAHIPLIK-BAYAT-TABAN-1009) TABAN KAPISI: yamanın beyan ettiği TABAN değeri kaydın
+       BUGÜNKÜ değerinden farklıysa ⇒ BAYAT TABAN, çıkış 2 (yazılmadı); taban beyanı yoksa ve
+       `--taban` verilmediyse ⇒ ÖLÇÜLEMEDİ, çıkış 3 (temiz DEĞİL). İkisi birden varsa 2,
+       ama ölçülemeyenler de ADIYLA basılır. Kuru koşuda da sorulur.
+       🔴 §3'TEN SAPMA — ADIYLA BEYAN (koordinatör hükmü, 9 Ekim 2026): BURADA 2 = BAYAT YAMA
+       (İHLAL), 3 = ÖLÇÜLEMEDİ. `arac/denetle.py`de ise 1 = ihlal, 2 = ÖLÇÜLEMEDİ. İKİ ARAÇ AYRI
+       TABLO KULLANIR. `denetle.py` alışkanlığıyla buradaki 2'yi "ölçülemedi" okumak GERÇEK bir
+       ihlali yutar. Bu aracın tablosu projenin 0/1/2 düzeninden ÖNCE kuruldu ve değiştirmek
+       ARAC-SAHIPLIK-KAPI-SINAV-1006'yı bozar; korunan öz aynıdır: ölçülemedi ASLA 0 dönmez.
+
+TABAN BEYANI (SAHIPLIK-BAYAT-TABAN-1009) — kayıt başına, `git apply`ın üç-yollu sorusu:
+    {ad:"Budin", s:[…hedef…], taban:{s:[…yamanın üretildiği andaki s…]}}
+  `taban` YAZILMAZ; yalnız kapı okur. Yamanın değiştirdiği her ÜZERİNE YAZAN alan
+  (d·s·v·isg·m) için tabanda bir değer gerekir; alan tabanda yoksa `null` yazılır.
+  Üç yol: hedef = bugün ⇒ zaten böyle (soru yok) · taban = bugün ⇒ TAZE · taban ≠ bugün
+  ⇒ BAYAT TABAN (kayıt yamanın üretiminden SONRA değişmiş; yazmak o değişimi geri alır).
+  `kaynak/bos/neden/kur` (yalnız boşsa dolar) ve `not` (eklenir) ezmediği için sorulmaz.
        Geri okuma: değişen her dosya motorun okuyucusuyla (`girdi._cevir`) yeniden
        ayrıştırılır; kaydın son değeri = yazılan değer, öteki her şey birebir aynı olmalı.
        Önce bellekte (tutmazsa HİÇBİR ŞEY yazılmaz), yazımdan sonra DİSKTEN.
@@ -78,6 +99,12 @@ YAZ = "--yaz" in sys.argv
 YAMA_GLOB = r"^yer_yama.*\.js$"
 if "--yama-glob" in sys.argv:
     YAMA_GLOB = sys.argv[sys.argv.index("--yama-glob") + 1]
+# `--taban <rev>` (SAHIPLIK-BAYAT-TABAN-1009) — yamanın ÜRETİLDİĞİ taban commit'i. Kaydında
+#   `taban:` beyanı OLMAYAN yamanın taban değerleri o rev'deki yerleşim dosyalarından okunur.
+#   `--taban-rapor <yol>` — taban kapısının bayat/ölçülemedi LİSTESİ JSON olarak (sınav için).
+TABAN_REV = sys.argv[sys.argv.index("--taban") + 1] if "--taban" in sys.argv else None
+TABAN_RAPOR = (sys.argv[sys.argv.index("--taban-rapor") + 1]
+               if "--taban-rapor" in sys.argv else None)
 # Sınav kancası (yalnız `denetim/ARAC-SAHIPLIK-UYGULA-SINAV-1008.py`): adı verilen kaydın
 # yazılacak metnine yapay bir MÜKERRER anahtar eklenir — geri okumanın onu yakaladığı
 # (çıkış 4, hiçbir dosya yazılmadan) İKİNCİ YÖNDE sınanır. Gerçek koşuda boştur.
@@ -998,6 +1025,7 @@ degisiklik = collections.defaultdict(int)
 inen = []
 duzenleme = []        # (dosya, i, j, yeni_satirlar) — TERSTEN uygulanır
 kapi_aday = []        # geri alma kapısına gidecek her değişim (yazmadan ÖNCE sorulur)
+taban_aday = []       # (ad, dosya, r) — TABAN KAPISINA gidecek her değişim
 beklenen = collections.defaultdict(dict)   # dosya -> ad -> {alan: GERİ OKUMADA beklenen}
 
 
@@ -1232,6 +1260,7 @@ for ad, liste in sorted(gruplu.items()):
     kapi_aday.append({"ad": ad, "dosya_yol": "data/" + dosya, "i": i + 1, "j": j + 1,
                       "eski": _tirnaksiz(satir_orj) if jsn else satir_orj,
                       "yeni": _tirnaksiz(yeni_satir) if jsn else yeni_satir})
+    taban_aday.append((ad, dosya, r))
     ist["uygulandi"] += 1
     degisiklik[dosya] += 1
     inen.append((ad, dosya, "+".join(dokunulan), zayif,
@@ -1352,20 +1381,166 @@ if _hatalar:
 print("GERİ OKUMA: %d/%d kayıt motorun okuyucusuyla yeniden ayrıştırıldı — son değer = "
       "yazılan değer, yan etki 0 ✓" % (_toplam_bek, _toplam_bek))
 
+# ─────────────────────────────── ⑦c TABAN KAPISI (ŞART) — SAHIPLIK-BAYAT-TABAN-1009
+# 🔴 ÖLÇÜLMÜŞ VAKA: Z5 gövdesi (`data/yer_yama_1923_1945.js`, 3.982 kayıt) 67e9ec9d tabanından
+#   üretildi; o tabandan sonra 1281-1923 diliminde düzeltmeler indi (Budin 1527-1529: bugün
+#   `macaristan-habsburg`, yamada `avusturya`). Kuru koşu ÇIKIŞ 0 verdi, "3975 iniyor" dedi.
+#   Geri alma kapısı (⑧) "yamanın dizisi kaydın GEÇMİŞİNDE var mıydı" diye sorar; bu yamanın
+#   dizisi kaydın geçmişinde HİÇ olmadı (eski taban + yeni uç) ⇒ soru sorulmadan geçti.
+#   Bu kapı ÖTEKİ soruyu sorar: "yamanın üretildiği TABAN, kaydın BUGÜNKÜ hâli mi?"
+#   Yalnız HEDEF değeri söyleyen yama bunu cevaplayamaz ⇒ ÖLÇÜLEMEDİ (temiz değil).
+TABAN_ALANLARI = ("d", "s", "v", "isg", "m")   # ÜZERİNE YAZILANLAR (bkz. SKALER_KORUNAN/EKLENEN)
+_YOK = object()
+
+
+def _kanon(v):
+    return json.dumps(v, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+
+
+def _rev_kayitlari(rev):
+    """{ad: [(dosya, kayıt), …]} — `rev`deki yerleşim dosyaları, motorun okuyucusuyla.
+    Okunamayan dosyalar ayrıca döner (sessizce elenmez)."""
+    p = subprocess.run(["git", "-C", KOK, "rev-parse", "--verify", "%s^{commit}" % rev],
+                       capture_output=True)
+    if p.returncode != 0:
+        raise ValueError("taban rev çözülemedi: %r" % rev)
+    p = subprocess.run(["git", "-C", KOK, "ls-tree", "--name-only", rev, "data/"],
+                       capture_output=True)
+    if p.returncode != 0:
+        raise ValueError("git ls-tree %s data/ başarısız" % rev)
+    var = {os.path.basename(f) for f in p.stdout.decode("utf-8", "replace").split("\n") if f}
+    adaylar = sorted(({os.path.basename(f) for f in DOSYALAR}
+                      | {f for f in var if f.startswith("yerlesimler") and f.endswith(".js")}) & var)
+    kayit, okunamadi = collections.defaultdict(list), []
+    for f in adaylar:
+        q = subprocess.run(["git", "-C", KOK, "show", "%s:data/%s" % (rev, f)], capture_output=True)
+        metin = q.stdout.decode("utf-8", "replace")
+        m = re.search(r"window\.(YERLESIMLER\w*)\s*=", metin)
+        if q.returncode != 0 or not m:
+            okunamadi.append(f)
+            continue
+        try:
+            for y in girdi._cevir(metin, m.group(1)):
+                if isinstance(y, dict) and "ad" in y:
+                    kayit[y["ad"]].append((f, y))
+        except (ValueError, SystemExit):
+            okunamadi.append(f)
+    return kayit, okunamadi
+
+
+def _ozet_fark(taban, bugun):
+    """İki değer arasındaki farkın kısa, okunur özeti (dizi ise dönem dönem)."""
+    if isinstance(taban, list) and isinstance(bugun, list):
+        tk, bk = [_kanon(x) for x in taban], [_kanon(x) for x in bugun]
+        gitti = [x for x in tk if x not in bk]
+        geldi = [x for x in bk if x not in tk]
+        par = []
+        if gitti:
+            par.append("tabanda var/bugün YOK: " + " ; ".join(gitti[:3]) + (" …" if len(gitti) > 3 else ""))
+        if geldi:
+            par.append("bugün var/tabanda YOK: " + " ; ".join(geldi[:3]) + (" …" if len(geldi) > 3 else ""))
+        return " | ".join(par) or "yalnız SIRA farklı"
+    return "taban %s ≠ bugün %s" % (_kanon(taban)[:120], _kanon(bugun)[:120])
+
+
+taban_bayat, taban_olcmedi = [], []      # [(ad, dosya, alan, ayrıntı)]
+_rev_kayit, _rev_okunamadi, _rev_hata = None, [], None
+for ad, dosya, r in taban_aday:
+    bugun_kayit = girdi_kayit.get(ad, (None, {}))[1]
+    for alan in TABAN_ALANLARI:
+        if alan not in r or r[alan] is None or r[alan] == "":
+            continue
+        bugun = bugun_kayit.get(alan)
+        if _kanon(r[alan]) == _kanon(bugun):
+            continue                            # hedef = bugün: bu alan için yazım yok
+        # Beyan: o alanı yazan HER yama kaydının `taban:`ı (birleştirilmiş kayıt tek değildir).
+        beyan = {_kanon(y["r"]["taban"][alan]) for y in gruplu.get(ad, [])
+                 if alan in y["r"] and isinstance(y["r"].get("taban"), dict)
+                 and alan in y["r"]["taban"]}
+        if len(beyan) > 1:
+            taban_olcmedi.append((ad, dosya, alan, "%d yama FARKLI taban beyan ediyor" % len(beyan)))
+            continue
+        if beyan:
+            taban = json.loads(beyan.pop())
+            kaynak_ad = "beyan"
+        elif TABAN_REV:
+            if _rev_kayit is None and _rev_hata is None:
+                try:
+                    _rev_kayit, _rev_okunamadi = _rev_kayitlari(TABAN_REV)
+                except Exception as _e:  # noqa: BLE001
+                    _rev_hata = "%s: %s" % (type(_e).__name__, _e)
+            if _rev_hata:
+                taban_olcmedi.append((ad, dosya, alan, "--taban okunamadı (%s)" % _rev_hata))
+                continue
+            rk = _rev_kayit.get(ad, [])
+            if len(rk) != 1:
+                taban_olcmedi.append((ad, dosya, alan, "--taban %s'de kayıt %s" % (
+                    TABAN_REV, "YOK" if not rk else "%d kez (belirsiz)" % len(rk))))
+                continue
+            taban = rk[0][1].get(alan)
+            kaynak_ad = "rev " + TABAN_REV
+        else:
+            taban_olcmedi.append((ad, dosya, alan, "taban BEYANSIZ (kayıtta `taban:` yok, "
+                                                  "--taban verilmedi)"))
+            continue
+        if _kanon(taban) != _kanon(bugun):
+            taban_bayat.append((ad, dosya, alan, "[%s] %s" % (kaynak_ad, _ozet_fark(taban, bugun))))
+
+print()
+print("TABAN KAPISI: %d değişim — yamanın TABANI kaydın BUGÜNKÜ hâli mi? (%s)"
+      % (len(taban_aday), ("--taban " + TABAN_REV) if TABAN_REV else "yalnız kayıt `taban:` beyanı"))
+if _rev_okunamadi:
+    print("  🟡 --taban %s: %d dosya okunamadı: %s" % (TABAN_REV, len(_rev_okunamadi),
+                                                     ", ".join(_rev_okunamadi[:8])))
+if taban_bayat:
+    _ka = sorted({a for a, _, _, _ in taban_bayat})
+    print("🔴 BAYAT TABAN: %d kayıt (%d alan) — kayıt yamanın üretiminden SONRA değişmiş; "
+          "yazmak o değişimi GERİ ALIR:" % (len(_ka), len(taban_bayat)))
+    for ad, dosya, alan, ayr in sorted(taban_bayat):
+        print("  TABAN-BAYAT  %s  [%s · %s]  %s" % (ad, dosya, alan, ayr))
+if taban_olcmedi:
+    _ko = sorted({a for a, _, _, _ in taban_olcmedi})
+    print("🟠 TABAN ÖLÇÜLEMEDİ: %d kayıt (%d alan) — ölçülemedi ≠ temiz:"
+          % (len(_ko), len(taban_olcmedi)))
+    for ad, dosya, alan, ayr in sorted(taban_olcmedi)[:200]:
+        print("  TABAN-OLCULEMEDI  %s  [%s · %s]  %s" % (ad, dosya, alan, ayr))
+    if len(taban_olcmedi) > 200:
+        print("  … +%d (tam liste: --taban-rapor)" % (len(taban_olcmedi) - 200))
+if not taban_bayat and not taban_olcmedi:
+    print("  ✓ her değişimin tabanı bugünkü değer — TAZE.")
+if TABAN_RAPOR:
+    with io.open(TABAN_RAPOR, "w", encoding="utf-8", newline="\n") as _f:
+        json.dump({"taban_rev": TABAN_REV, "degisim": len(taban_aday),
+                   "bayat": [dict(ad=a, dosya=d, alan=al, ayrinti=x) for a, d, al, x in taban_bayat],
+                   "olculemedi": [dict(ad=a, dosya=d, alan=al, ayrinti=x)
+                                  for a, d, al, x in taban_olcmedi],
+                   "rev_okunamadi": _rev_okunamadi,
+                   "atlanan": [dict(ad=a, sebep=s) for a, s in atlanan]},
+                  _f, ensure_ascii=False, indent=1)
+
 # ─────────────────────────────────────────── ⑧ GERİ ALMA KAPISI (ŞART)
 # Kuru koşuda da sorulur: "177 iner" demek, 174'ü geri almaysa YALAN bir rapordur.
+# (1009) Kapının ÖLÇEMEDİ'si de TABAN KAPISI'nın BAYAT'ını gizlemez: çıkış en sonda,
+#   ikisinin hükmü birleştirilerek verilir (ihlal > ölçülemedi).
 print()
 print("GERİ ALMA KAPISI: %d değişim, her biri kendi satır geçmişine (git log -L) soruluyor…"
       % len(kapi_aday))
+bayat, _kapi_olcmedi = [], None
 try:
     bayat = KAPI.tara(KOK, kapi_aday)
 except KAPI.KapiOlcemedi as _e:
-    print("🔴 KAPI ÖLÇEMEDİ — %s" % _e)
-    print("   ölçülemedi ≠ temiz ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3).")
-    raise SystemExit(3)
+    _kapi_olcmedi = "🔴 KAPI ÖLÇEMEDİ — %s" % _e
 except Exception as _e:  # noqa: BLE001
-    print("🔴 KAPI ÇALIŞMADI — %s: %s ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3)."
-          % (type(_e).__name__, _e))
+    _kapi_olcmedi = "🔴 KAPI ÇALIŞMADI — %s: %s" % (type(_e).__name__, _e)
+if _kapi_olcmedi:
+    print(_kapi_olcmedi)
+    print("   ölçülemedi ≠ temiz ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış %d)."
+          % (2 if taban_bayat else 3))
+if taban_bayat and not bayat:
+    print("   ⇒ TABAN KAPISI: HİÇBİR DOSYA YAZILMADI (çıkış 2). Çare: yamayı bugünkü veriden "
+          "YENİDEN ÜRET (taban beyanıyla).")
+    raise SystemExit(2)
+if _kapi_olcmedi:
     raise SystemExit(3)
 if bayat:
     print("🔴 BAYAT YAMA: %d kayıt — yamanın yazacağı dizi O KAYDIN geçmişinde VARDI ve bugün"
@@ -1379,6 +1554,11 @@ if bayat:
           "(`data/yer_yama_arsiv/`), ya da kaydın bugünkü hâlini yamaya işle.")
     raise SystemExit(2)
 print("  ✓ bayat yama yok — %d değişim TAZE." % len(kapi_aday))
+if taban_olcmedi:
+    print("🟠 TABAN KAPISI ÖLÇEMEDİ: %d kayıt — ölçülemedi ≠ temiz ⇒ hiçbir dosya yazılmadı "
+          "(çıkış 3). Çare: yamaya kayıt başına `taban:` beyanı ya da `--taban <rev>`."
+          % len({a for a, _, _, _ in taban_olcmedi}))
+    raise SystemExit(3)
 
 if YAZ:
     # 🔴 TERSTEN — dosya SONUNDAN başına doğru. Bir kaydın satır sayısı

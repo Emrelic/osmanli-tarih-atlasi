@@ -36,7 +36,10 @@ B = '{ ad:"Tazekoy", tur:"koy", lat:41.0, lon:31.0, s:[{f:"1281-01-01",t:"1600-0
 C = ('{ ad:"Bicimkoy", tur:"koy", lat:42.0, lon:32.0, s:[{"f":"1281-01-01","t":"1700-01-01","d":"c-devlet"}] },')
 
 YAMA_BAYAT = '{ad:"Sinavkent", s:[{f:"1281-01-01",t:"1500-01-01",d:"eski-devlet"}]}'
-YAMA_TAZE = '{ad:"Tazekoy", s:[{f:"1281-01-01",t:"1550-01-01",d:"b-devlet"},{f:"1550-01-01",t:"1600-01-01",d:"yeni-devlet"}]}'
+# (SAHIPLIK-BAYAT-TABAN-1009) taze yama TABANINI da beyan eder — beyansız yama artık
+#   ÖLÇÜLEMEDİ (çıkış 3) sayılır; S2'nin sorusu "taze yama iner mi"dir, beyansızlık değil.
+YAMA_TAZE = ('{ad:"Tazekoy", s:[{f:"1281-01-01",t:"1550-01-01",d:"b-devlet"},{f:"1550-01-01",t:"1600-01-01",d:"yeni-devlet"}],'
+             ' taban:{s:[{f:"1281-01-01",t:"1600-01-01",d:"b-devlet"}]}}')
 YAMA_BICIM = '{ad:"Bicimkoy", s:[{f:"1281-01-01",t:"1700-01-01",d:"c-devlet"}]}'
 
 
