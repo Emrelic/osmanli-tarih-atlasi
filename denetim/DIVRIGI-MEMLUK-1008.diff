@@ -1,0 +1,24 @@
+# DIVRIGI-MEMLUK-1008 (olaylar_senkron_0930.js: Divriği 1401 maddesi) — UYGULANMADI · yalnız 1281-1923 dilimi · gün aralığı 1399-09-01 → 1402-07-28 (madde 1401-01-01)
+# TEMEL: origin/makine/umit 8b2f5415 + KRONO-SENKRON-1008.diff + KRONO-SENKRON-1008-KOORD.diff (henüz İNMEDİ). Z3 yalnız künye JSON — dosya çakışması yok.
+# İNİŞ SIRASI: ① KRONO-SENKRON ② Z3 ③ bu. ⚠️ ARTUKLU-IKI-PARCA-1008-KOORD.diff ile BAĞLAM ÇAKIŞIR (yerlesimler.js 2288-2290): ayrı -ARTUKLU-SONRASI sürümü var.
+diff --git a/data/olaylar_senkron_0930.js b/data/olaylar_senkron_0930.js
+index 5ec8225..d3a67ea 100644
+--- a/data/olaylar_senkron_0930.js
++++ b/data/olaylar_senkron_0930.js
+@@ -39,6 +39,16 @@ window.OLAYLAR_SENKRON_0930 = [
+   ic_not_d:"🔴 KAYNAK KENDİYLE ÇELİŞİYOR, BİLDİRİLİYOR (D211 ⑥): TDV `divrigi` fethi 'Sultan Berkuk'un ölümünden sonra ... Yıldırım Bayezid 1398'de' diye anlatıyor, ama Berkuk Haziran 1399'da öldü (TDV `berkuk`; atlasın kendi kaydı da kronoloji_memluk.js 1399 'Berkuk'un ölümü'). Yani TDV'nin SIRALAMASI ile YILI birbirini tutmuyor. Maddeye YIL yazıldı (1398), çünkü ölçülen toprak kırılması o gündedir ve TDV fethi açıkça 1398'e koyuyor; Berkuk cümlesi maddeye TAŞINMADI. Çelişkinin çözümü (fetih 1398 mi 1399 mu) ayrı kalem — Memlük iç karışıklığı Berkuk'un ölümünden ÖNCE de vardı.",
+   ic_not_kaynak:"TDV `divrigi` (Abdülkadir Balgalmış, 1994) gövdesi okundu, birebir: \"Sultan Berkuk'un ölümünden sonra yerine küçük yaştaki oğlu Ferec'in geçmesiyle Memlük Devleti'nin idarî işleri bozulunca Yıldırım Bayezid 1398'de Sivas, Malatya, Besni (Behisni), Darende ve Divriği'yi iki ay muhasaradan sonra Osmanlı topraklarına kattı. Ancak Divriği yaklaşan Timur tehlikesinden dolayı 1401'de tekrar Memlükler'e verildi.\" · 1391 Memlük zaptı aynı gövdede: \"Kadı Burhâneddin ile Amasya Emîri Hacı Şadgeldi Paşa arasındaki mücadelelerden faydalanan Memlükler tarafından zaptedildi (1391).\"" },
+ 
++{ t:"1401-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-siyasi","memluk"],
++  b:"Divriği, Timur tehlikesi yüzünden yeniden Memlükler'e verildi",
++  gun:"1401 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
++  yer:"Divriği", yer_id:"Divriği",
++  kisiler:"Yıldırım Bayezid, Memlük Sultanı Ferec, Timur",
++  d:"Yıldırım Bayezid'in 1398'de Memlükler'den aldığı Divriği, Timur'un Anadolu'ya yaklaşması üzerine 1401'de yeniden Memlükler'e bırakıldı. Bu yüzden Timur'un Sivas'ı yıkmasından (1400) sonra Divriği haritada Memlük renginde görünür; aynı aylarda Bayezid doğuda Erzincan ve Kemah'ı alıyordu, yani Memlük toprağı Osmanlı'nın batıdaki (Sivas) ve kuzeydoğudaki (Kemah) toprakları arasında kaldı. Divriği ancak 1516 Mercidâbık'tan sonra kesin olarak Osmanlı'ya geçti.",
++  kaynak:"divrigi", duygu:["😔"],
++  ic_not_kaynak:"TDV `divrigi` (Abdülkadir Balgalmış, 1994) gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008), birebir: \"Ancak Divriği yaklaşan Timur tehlikesinden dolayı 1401'de tekrar Memlükler'e verildi.\" · \"Divriği'nin kesin olarak Osmanlı idaresine girişi, Yavuz Sultan Selim'in 24 Ağustos 1516 Mercidâbık Zaferi'nden sonradır.\"",
++  ic_not_d:"0085/H-0005 · H-0009 · H-0010 (Emre: 'Timur Sivas'ı yerle bir ettikten sonra neden Divriği Memlük görünmeye başlıyor?'). Kırılma 1401-01-01'de VARDI ama bu yeri anan madde YOKTU: Değişmez 2 yer şartı aramadığı için ±30 gündeki ilgisiz bir madde (Diyarbekir 1401-01-01) kırılmayı kapatıyordu. 'Verildi' fiilinin öznesi kaynakta yok; Bayezid'in bırakması diye okunması TDV cümlesinin yorumu değil, 1398 maddesinin kendi anlatımıyla tutarlıdır." },
++
+ { t:"1556-03-12", k:"fetih", etiket:["toprak-kazanc","konu-siyasi","erdel","habsburg"],
+   b:"Habsburg idaresi Erdel'de sona erdi: Erdel yeniden Osmanlı'ya bağlı voyvodalık oldu",
+   gun:"12 Mart 1556 — gün YERLESIM-BIRLESTIR-0930 kabulünün kaynağından devralındı (History of Transylvania I, MTA, s. 102); TDV `erdel` olayı anlatır ama TARİHLEMEZ",
