@@ -5786,3 +5786,4 @@
 | M-5775 | 2026-10-09 23:14 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
 | M-5776 | 2026-10-09 23:14 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum · oturum local_dbd62f8a (başlık 'Kita') |
 | M-5777 | 2026-10-09 23:15 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum · oturum local_7d7da9a8 (başlık 'Kita', hazır kıta numarası yok) |
+| M-5778 | 2026-10-09 23:15 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum · NOT: pencere başlığı yalnız 'Kita' (numarasız) — sessionId local_3c65fd9a-12e9-45e6-bafa-28182114928a; aynı adlı başka kıta varsa ayırt etmek için |

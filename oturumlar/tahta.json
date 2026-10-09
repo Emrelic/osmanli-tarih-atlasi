@@ -171339,5 +171339,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5778",
+  "zaman": "2026-10-09 23:15",
+  "kimden": "KITA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "HAZIRIM · claude-opus-5-5 · görev bekliyorum · NOT: pencere başlığı yalnız 'Kita' (numarasız) — sessionId local_3c65fd9a-12e9-45e6-bafa-28182114928a; aynı adlı başka kıta varsa ayırt etmek için",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
