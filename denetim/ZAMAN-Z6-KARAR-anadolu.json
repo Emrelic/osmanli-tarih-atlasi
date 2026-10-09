@@ -1,0 +1,161 @@
+[
+ {"ad":"İznik","sinif":"2","zincir":[
+   {"f":"1078-01-01","d":"selcuklu","slug":"iznik","parca":"İznik başşehir olmak üzere Anadolu’nun ilk Türk devletini","not":"TDV içinde çelişki: aynı madde Azîmî'den 467 (1075) fethini de aktarır; ana metnin (1078) yılı alındı"},
+   {"f":"1097-06-19","d":"bizans","slug":"konya","parca":"İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi"},
+   {"f":"1204-04-13","d":"iznik-imparatorlugu","slug":"iznik","parca":"1204’te I. Theodoros Laskaris tarafından İznik Bizans Devleti kuruldu","not":"kaynak YIL verir; künye f'si 1204-04-13 olduğundan künye günü devralındı (CLAUDE.md §4 hassasiyet kuralı) — kaynaksız gün"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"İzmit","sinif":"2","zincir":[
+   {"f":"1228-01-01","d":"iznik-imparatorlugu","slug":"izmit","parca":"1228’de yeniden Bizans hâkimiyetine geçti","not":"TDV 'Bizans' der; 1228'deki Bizans = İznik İmparatorluğu (kimlik eşlemesi, tarih değil). Öncesi (1081 Selçuklu · 1085 Bizans · Latin dönemleri) kopuk, YAZILMADI"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"Ankara","sinif":"2","zincir":[
+   {"f":"1134-01-01","d":"danismendli","tur":"tanik","slug":"ankara","parca":"Melik Muhammed devrinde de Ankara Dânişmendli hâkimiyetinde kaldı"},
+   {"f":"1142-01-01","d":"selcuklu","slug":"ankara","parca":"Ankara, Çankırı, Kastamonu, Kayseri ve Malatya yörelerini Dânişmendliler’den aldı","not":"1164 (Kılıcarslan kardeşinden aldı) ve 1204/1212 el değiştirmeleri Selçuklu hânedanı İÇİ — sahip değişmez"}]},
+ {"ad":"Kütahya","sinif":"2","zincir":[
+   {"f":"1233-01-01","d":"selcuklu","slug":"kutahya","parca":"İznik İmparatorluğu’ndan geri alındı (1233)","not":"1080/1097/1180 tanıklıkları kopuk (İznik'e geçiş günü yok), YAZILMADI"}]},
+ {"ad":"Isparta","sinif":"2","zincir":[
+   {"f":"1204-01-01","d":"selcuklu","slug":"isparta","parca":"1204’te zaptedilmiştir","not":"aynı madde 1196'da daha önce zaptedilmiş olabileceğini çıkarır (ihtimal cümlesi) — 1204 alındı"}]},
+ {"ad":"Manisa","sinif":"2","zincir":[
+   {"f":"1204-04-13","d":"iznik-imparatorlugu","slug":"manisa","parca":"İznik İmparatorluğu’nun sınırlarına dahil edildi","not":"kaynak YIL verir; künye günü devralındı — kaynaksız gün"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"Antalya","sinif":"2","zincir":[
+   {"f":"1207-03-05","d":"selcuklu","slug":"antalya","parca":"5 Mart 1207’de Latin idaresinden memnun olmayan","not":"önceki sahip 'Latin idaresi' (Aldobrandini) — künyesi yok, YAZILMADI"},
+   {"f":"1212-01-01","d":"kibris-krallik","slug":"antalya","parca":"Antalya 1212’de Kıbrıslılar’ın eline geçti"},
+   {"f":"1216-01-22","d":"selcuklu","slug":"antalya","parca":"22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek"}]},
+ {"ad":"Karaman","sinif":"2","zincir":[
+   {"f":"1256-01-01","d":"karaman","slug":"karaman","parca":"Karamanoğulları Beyliği’nin eline geçti (654/1256)","not":"1165 Selçuklu ilhakı ile 1256 arası KOPUK: TDV silifke 1210'da Levon'un Lârende'yi Saint Jean şövalyelerine bıraktığını yazar — iki madde çelişiyor, 1256 öncesi YAZILMADI"}]},
+ {"ad":"Niğde","sinif":"2","zincir":[
+   {"f":"1214-01-01","d":"selcuklu","tur":"tanik","slug":"nigde","parca":"Niğde beyi olarak geçer"}]},
+ {"ad":"Kayseri","sinif":"2","zincir":[
+   {"f":"1143-01-01","d":"danismendli","tur":"tanik","slug":"kayseri","parca":"537’de (1143) Kayseri’de vefat ederek","not":"Dânişmendli fethi tarihsiz; 1067 'muhtemelen' Türk ele geçirmesi YAZILMADI"},
+   {"f":"1169-01-01","d":"selcuklu","slug":"kayseri","parca":"Kayseri ve civarını 564’te (1169) Selçuklu topraklarına kattı","not":"1243 Kösedağ sonrası Moğol eline geçiş (10 günlük direniş) Selçuklu'yu kaldırmadı — vesâyet `v:` önerilmedi; 1281'de mevcut veri ilhanli"}]},
+ {"ad":"Sinop","sinif":"2","zincir":[
+   {"f":"1214-01-01","d":"selcuklu","slug":"nigde","parca":"Sinop’un 611 (1214) yılında fethi","not":"başka maddeden (niğde), cümle Sinop'un fethini tarihliyor"},
+   {"f":"1259-01-01","d":"trabzon-rum","slug":"sinop","parca":"Trabzon Rumları kısa bir süre Sinop’ta tekrar egemenlik kurdu (657/1259)"},
+   {"f":"1266-01-01","d":"selcuklu","slug":"sinop","parca":"Muînüddin Süleyman Pervâne tarafından geri alındı (664/1266)","not":"Pervâne Selçuklu adına aldı; pervane künyesi 1277'de başlar"}]},
+ {"ad":"Tokat","sinif":"2","zincir":[
+   {"f":"1074-01-01","d":"danismendli","slug":"tokat","parca":"Emîr Dânişmend 1074’te Tokat’ı fethetti"},
+   {"f":"1175-01-01","d":"selcuklu","slug":"tokat","parca":"1175’te Dânişmendliler’i ortadan kaldırınca Tokat Selçuklu hâkimiyetine geçti"}]},
+ {"ad":"Sivas","sinif":"2","zincir":[
+   {"f":"1184-01-01","d":"selcuklu","tur":"tanik","slug":"sivas","parca":"Sivas sırasıyla Kutbüddin Melikşah","not":"1076-77/1080 fethi 'bazı araştırmalarda' — YAZILMADI; Dânişmendli dönemi tarihsiz. 1243 Baycu Noyan ele geçirişi Selçuklu'yu kaldırmadı"}]},
+ {"ad":"Trabzon","sinif":"2","zincir":[
+   {"f":"1204-01-01","d":"trabzon-rum","slug":"trabzon","parca":"şehir bu yeni devletin merkezi haline geldi","not":"1081 Türk idaresi kopuk, YAZILMADI"}]},
+ {"ad":"Giresun","sinif":"2","zincir":[
+   {"f":"1204-01-01","d":"trabzon-rum","slug":"giresun","parca":"Trabzon’da kurulan Rum İmparatorluğu’nun sınırları içinde kalan kale"}]},
+ {"ad":"Rize","sinif":"2","zincir":[
+   {"f":"1204-01-01","d":"trabzon-rum","slug":"rize","parca":"Trabzon Rum Devleti’nin sınırları içinde kaldı (1204)"}]},
+ {"ad":"Erzincan","sinif":"2","zincir":[
+   {"f":"1142-01-01","d":"mengucuklu","tur":"tanik","slug":"erzincan","parca":"Erzincan Dâvud Şah’ın idaresine girdi","not":"Mengücüklü hânedanı İÇİ bölünme — sahip değişmez"},
+   {"f":"1228-01-01","d":"selcuklu","slug":"erzincan","parca":"Alâeddin Keykubad tarafından Anadolu Selçuklu topraklarına katıldı (1228)"}]},
+ {"ad":"Erzurum","sinif":"2","zincir":[
+   {"f":"1071-01-01","d":"saltuklu","slug":"erzurum","parca":"aynı yıl (1071) Erzurum’u fethetmesiyle","not":"TDV içinde çelişki: Yinanç fethi 1080'e koyar (İA'dan aktarım) — ana metnin 1071'i alındı"},
+   {"f":"1202-01-01","d":"selcuklu","slug":"erzurum","parca":"Erzurum’u kardeşi Mugīsüddin Tuğrul Şah’a iktâ etti (1202)","not":"Erzurum Selçukluları (Tuğrul Şah · Cihan Şah) künye kararıyla Selçuklu İÇİNDE (ONCE1281-ANADOLU-BIZANS)"}]},
+ {"ad":"Kars","sinif":"2","zincir":[
+   {"f":"1239-01-01","d":"mogol-imparatorlugu","slug":"kars","parca":"636’da (1239) Curmagan Noyan kumandasındaki Moğol ordusu","not":"1080 Selçuklu · 1153 Saltuklu · 1226 Celâleddin tanıklıkları kopuk (aralarda tarihsiz Gürcü dönemleri)"},
+   {"f":"1256-01-01","d":"ilhanli","slug":"kars","parca":"Şehir 1336 yılına kadar İlhanlılar’ın","not":"kaynak 1239'dan 1336'ya İlhanlı der; ilhanli künyesi 1256'da başladığından künye günü DEVRALINDI (ardıl yapı) — kaynaksız gün"}]},
+ {"ad":"Van","sinif":"2","zincir":[
+   {"f":"1232-01-01","d":"selcuklu","slug":"van","parca":"Van 1232’de Selçuklu hâkimiyetine girdi","not":"1064 Melikşah fethi ve 1230 Celâleddin zaptı kopuk (harizmsah künyesi 1231'de biter, 1231-1232 sahibi yok)"}]},
+ {"ad":"Bitlis","sinif":"2","zincir":[
+   {"f":"1209-01-01","d":"eyyubi","slug":"bitlis","parca":"Bitlis’e Eyyûbîler hâkim oldu (1209)","not":"1192 Ahlatşah zaptı YAZILMADI: ahlatsahlar künyesi 1208-01-01'de biter, 1208-1209 aşımı Z3'e bildirildi"},
+   {"f":"1231-01-01","d":"mogol-imparatorlugu","slug":"bitlis","parca":"Moğollar 1231’de Bitlis’i de ele geçirerek tahrip ettiler"},
+   {"f":"1232-01-01","d":"selcuklu","slug":"bitlis","parca":"Bitlis’i de Anadolu Selçuklu Devleti sınırları içine kattı (1232)"}]},
+ {"ad":"Mardin","sinif":"2","zincir":[
+   {"f":"1085-01-01","d":"buyuk-selcuklu","slug":"mardin","parca":"Melikşah 478’de (1085) şehirdeki Mervânî hâkimiyetine son verdi","not":"öncesi Mervânî (başlangıç günü yok, YAZILMADI); 1092 Berkyaruk ele geçirişi Büyük Selçuklu İÇİ"},
+   {"f":"1103-01-01","d":"artuklu","slug":"mardin","parca":"Mardin, 496’dan (1103) itibaren","not":"1185 Eyyûbî, 1220 Selçuklu, 1260 İlhanlı tâbiiyetleri `v:` olarak önerilmedi (sahip Artuklu kalır)"}]},
+ {"ad":"Gelibolu","sinif":"2","zincir":[
+   {"f":"1204-04-13","d":"latin-imparatorlugu","slug":"gelibolu","parca":"Gelibolu 1204’te Latinler’in idaresi altına girdi","not":"kaynak YIL verir; künye günü devralındı — kaynaksız gün"},
+   {"f":"1235-01-01","d":"iznik-imparatorlugu","slug":"gelibolu","parca":"Ioannes tarafından geri alındı (1235)"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"Dimetoka","sinif":"2","zincir":[
+   {"f":"1230-01-01","d":"bulgar-carligi","slug":"dimetoka","parca":"1230-1246 yılları arasında Bulgarlar’ın hâkimiyetinde kaldıysa da"},
+   {"f":"1246-01-01","d":"iznik-imparatorlugu","slug":"dimetoka","parca":"bu son tarihten itibaren Bizans’ın yönetimi altına girdi","not":"1246'daki 'Bizans' = İznik İmparatorluğu (kimlik eşlemesi)"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"Tekirdağ","sinif":"2","zincir":[
+   {"f":"1275-01-01","d":"bizans","slug":"tekirdag","parca":"1275’te şehir tekrar Bizans idaresine girdi","not":"1204 Latin işgali kopuk (1261-1275 arası sahip yok), YAZILMADI"}]},
+ {"ad":"İstanköy","sinif":"2","zincir":[
+   {"f":"1258-01-01","d":"iznik-imparatorlugu","slug":"istankoy","parca":"1258’de yeniden Bizans’ın eline geçmiştir","not":"1258'deki 'Bizans' = İznik İmparatorluğu (kimlik eşlemesi)"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"İstanbul","sinif":"2","zincir":[
+   {"f":"0330-05-11","d":"bizans","slug":"istanbul","parca":"11 Mayıs 330’da günlerce süren eğlenceler içinde","not":"başşehrin açılışı; künye f'si de 330-05-11 (künye DAYANAK değil, kaynak aynı günü verir). Motor/ufuk bu dönemi 1000'de kırpar"},
+   {"f":"1204-04-13","d":"latin-imparatorlugu","slug":"istanbul","parca":"Haçlılar şehri zaptettiler (13 Nisan 1204)"},
+   {"f":"1261-07-25","d":"bizans","slug":"istanbul","parca":"25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"}]},
+ {"ad":"Kırşehir","sinif":"2","zincir":[
+   {"f":"1173-01-01","d":"selcuklu","slug":"kirsehir","parca":"tekrar Selçuklular’ın idaresine geçti"}]},
+ {"ad":"Çankırı","sinif":"2","zincir":[
+   {"f":"1142-01-01","d":"selcuklu","slug":"ankara","parca":"Ankara, Çankırı, Kastamonu, Kayseri ve Malatya yörelerini Dânişmendliler’den aldı","not":"başka maddeden (ankara); 'ilk üç şehrin idaresini' cümlesi Çankırı'yı ŞEHİR olarak anar. 1135 Bizans zaptı (çankırı maddesi) ile 1142 arası Dânişmendli dönüşü tarihsiz"}]},
+ {"ad":"Bayburt","sinif":"2","zincir":[
+   {"f":"1202-01-01","d":"selcuklu","slug":"bayburt","parca":"Selçuklular 1202’de Saltuklu Devleti’ne son verince Bayburt’u da ele geçirdiler","not":"1072-1202 'bazan Saltuklu bazan Dânişmendli' — tarihsiz, YAZILMADI"}]},
+ {"ad":"Cizre","sinif":"2","zincir":[
+   {"f":"1261-01-01","d":"ilhanli","slug":"cizre","parca":"660’ta (1261-62) Moğol istilâsına uğradı","not":"'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI"}]},
+ {"ad":"Hasankeyf","sinif":"2","zincir":[
+   {"f":"1085-01-01","d":"buyuk-selcuklu","slug":"hasankeyf","parca":"burayı da aldılar (1085)"},
+   {"f":"1102-01-01","d":"artuklu","slug":"hasankeyf","parca":"Sökmen Hasankeyf’e gidip şehri teslim aldı"},
+   {"f":"1232-01-01","d":"eyyubi-hisnikeyfa","slug":"hasankeyf","parca":"Hasankeyf’i zaptederek Artuklular’ın buradaki hâkimiyetine son verdi"}]},
+ {"ad":"Elbistan","sinif":"2","zincir":[
+   {"f":"1202-01-01","d":"selcuklu","tur":"tanik","slug":"elbistan","parca":"Elbistan’ı doğrudan merkeze bağlı bir vilâyet haline getirdi (1202)","not":"1085-1156 arası zengin ama KOPUK zincir (1085 Selçuklu · 1097/1103 Haçlı · 1105 Selçuklu · Tancred · 1111 · 1124 Dânişmendli · 1144 Selçuklu · 1156 Dânişmendli) — 1156-1202 arası tarihsiz, YAZILMADI"}]},
+ {"ad":"Kemah","sinif":"2","zincir":[
+   {"f":"1228-01-01","d":"selcuklu","slug":"kemah","parca":"625 (1228) yılında Anadolu Selçuklu Devleti topraklarına katıldı"}]},
+ {"ad":"Konya","sinif":"2","zincir":[
+   {"f":"1097-01-01","d":"selcuklu","tur":"tanik","slug":"konya","parca":"Konya başşehir olarak seçildi","not":"1073 Türk fethi 'muhtemelen' — YAZILMADI. 1277 Karamanlı işgali 'bir süre için', bitiş günü yok — YAZILMADI (bilinen boşluk)"}]},
+
+ {"ad":"Uzunköprü","sinif":"1","neden":"`kur:1443-01-01` noktada yazılı — 1281 öncesi yok, dokunulmadı (yan bulgu: ilk sahiplik dönemi yine 1281-01-01, kur'dan önce)"},
+ {"ad":"Çanakkale","sinif":"1","neden":"TDV canakkale: 'temeli Fâtih Sultan Mehmed döneminde atılmış olan bir XV. yüzyıl şehridir' — dokunulmadı (yan bulgu: 1281-1462 dönemleri şehir kurulmadan önce)"},
+
+ {"ad":"Bursa","sinif":"3k","neden":"1080 Selçuklu fethi · 1113 Türk zaptı · Aleksios'un geri alışı TARİHSİZ — 1281 Bizans'a bitişik zincir kurulamadı"},
+ {"ad":"Balıkesir","sinif":"3k","neden":"'Haçlı Seferi’nden (1096-1099) sonra tekrar Bizans tarafından alındı' — gün/yıl yok"},
+ {"ad":"Alanya","sinif":"3k","neden":"TDV alanya: 'Kıbrıs Krallığı’na bağlı iken 1221 yılında I. Alâeddin Keykubad tarafından fethedilmiş' — AMA mevcut 1281 dönemi karaman; Selçuklu→Karaman geçiş günü kaynakta yok. Koordinatör: 1281 karaman dönemi doğruysa geçiş günü aranmalı; değilse (TDV Selçuklu iskele der) mevcut veri sorgulanmalı"},
+ {"ad":"Diyarbakır","sinif":"3k","neden":"1085 Selçuklu · İnaloğulları (1095 sonrası) · 1183 Selâhaddin · 1232 el-Kâmil (hasankeyf md.) · 1259 Hülâgû→Selçuklu — ama mevcut 1281 dönemi artuklu; Selçuklu→Artuklu 1281 geçişi kaynaksız"},
+ {"ad":"Harput (Elazığ)","sinif":"3k","neden":"1124 Hısnıkeyfâ Artuklu · 1234 Selçuklu · sonra İlhanlı (tarihsiz) — mevcut 1281 dönemi artuklu; TDV ile çelişiyor. Ayrıca bilinen Çubukoğulları t çelişkisi (ONCE1281-ANADOLU-BIZANS)"},
+ {"ad":"Tire","sinif":"3k","neden":"1072 Büyük Selçuklu · 1186 Şemseddin fethi — mevcut 1281 dönemi bizans; Bizans'a geri geçiş tarihsiz"},
+ {"ad":"Alaşehir","sinif":"3k","neden":"TDV: 1075/1076 Süleyman Şah fethi, '1098’de I. Haçlı Seferi sırasında Bizans hâkimiyetine geçti' ve 'Batı Anadolu’nun en müstahkem mevkii' — mevcut 1281-1300 dönemi SELÇUKLU. 🔴 Yan bulgu (D206 ters yön adayı): Philadelphia'nın 1281'de Selçuklu yazılması TDV ile çelişiyor"},
+ {"ad":"Malatya","sinif":"3k","neden":"1057 · 1074 Philaretos · 1124 Dânişmendli teslim · 1244 Moğol kısa süre — Selçuklu'ya geçiş tarihsiz"},
+ {"ad":"Tarsus","sinif":"3k","neden":"1082 Süleyman Şah · 1097 Haçlılar — sonrası (Kilikya) tarihsiz"},
+ {"ad":"Silifke","sinif":"3k","neden":"1210 Levon Saint Jean şövalyelerine bıraktı — mevcut 1281 karaman'a geçiş tarihsiz"},
+ {"ad":"Midilli","sinif":"3k","neden":"1091 Çaka Bey kısa süre — künyesi yok; sonrası tarihsiz"},
+ {"ad":"İmroz","sinif":"3k","neden":"1204 Latin İmparatorluğu'na dahil — Bizans'a dönüş tarihsiz"},
+ {"ad":"Sisam","sinif":"3k","neden":"1088-1091 Çaka · 1093 Bizans · 1205-1225 Latin — mevcut 1281 ceneviz'e geçiş tarihsiz"},
+ {"ad":"Tiflis","sinif":"3k","neden":"1121 David Selçuklu hâkimiyetine son verdi · 1227/1230 Celâleddin — Gürcü dönüşü tarihsiz (harizmsah künyesi 1231'de biter)"},
+ {"ad":"Ahıska","sinif":"3k","neden":"1068 Alparslan · 1267-1268 Moğol hâkimiyeti — arası tarihsiz; mevcut 1281 gurcistan"},
+ {"ad":"Niksar","sinif":"3k","neden":"1140 Dânişmendli tanıklığı · '570’ten (1175) sonra' Selçuklu — kesin yıl değil"},
+ {"ad":"Ayasuluk (Selçuk)","sinif":"3k","neden":"1071 sonrası Türk · 1097 Bizans — sonrası tarihsiz"},
+ {"ad":"Balat (Palatia)","sinif":"3k","neden":"'1273’e doğru tekrar Türk hâkimiyetine girdi' — yaklaşık yıl ve sahip künyesi belirsiz (menteşe künyesi 1280)"},
+ {"ad":"Hısn-ı Mansûr (Adıyaman)","sinif":"3k","neden":"1066 Gümüştegin — sonrası tarihsiz; mevcut 1281 memluk"},
+ {"ad":"Behisni (Besni)","sinif":"3k","neden":"zengin zincir 1084-1266 (Buldacı · Kogh Vasil · Urfa kontluğu · Zengî 1155 · Moğol 1260 · Ermeni 1261) — mevcut 1281 memluk'a geçiş tarihsiz"},
+ {"ad":"Kilis","sinif":"3k","neden":"1124 Belek Gazi Franklar'dan aldı — mevcut 1281 memluk'a geçiş tarihsiz"},
+ {"ad":"Karahisâr-ı Şarkî (Şebinkarahisar)","sinif":"3k","neden":"1071 · 1106 Gregory · 1170 'veya biraz önce' Saltuklu · 1201 Mengücüklü — Selçuklu'ya geçiş açık tarihli değil"},
+ {"ad":"Birecik","sinif":"3k","neden":"'1098-1150 yılları arasında şehir Urfa Haçlı Kontluğu’nun hâkimiyetindeydi' — sonrası tarihsiz; mevcut 1281 memluk"},
+ {"ad":"Siirt","sinif":"3k","neden":"1085 Büyük Selçuklu · 1093 Tutuş iktâsı · 1143 Zengî — sonrası tarihsiz; mevcut 1281 ilhanli"},
+ {"ad":"Merzifon","sinif":"3k","neden":"1071 İltegin Gazi (Dânişmendli) — Dânişmendli künyesi 1178'de biter, ardılı tarihsiz"},
+ {"ad":"Sivrihisar","sinif":"2z","neden":"TDV: '1074’te ... Selçuklular’ın hâkimiyetine girdi' — TEK tanıklık, 1281'e 207 yıl süreklilik VARSAYIMI (yöre 1097 sonrası Bizans-Selçuklu sınırı). Diff'e ALINMADI; ayrıca 1074 < selcuklu künyesi 1075"},
+ {"ad":"Uşak","sinif":"2z","neden":"TDV: Manuel'in ölümünden (1180) 'iki yıl sonra' Uluborlu, Kütahya, Eskişehir, Alaşehir ile birlikte Selçuklu — aynı listedeki Kütahya 1233'te İznik'ten GERİ alınıyor, Alaşehir Bizans'ta ⇒ 1182-1281 süreklilik ÇÜRÜK. Diff'e ALINMADI"},
+ {"ad":"Bartın","sinif":"3b","neden":"TDV 'Bartın çevresi' (1204 Trabzon · 1214 İznik · 1261 Bizans) — YÖRE cümlesi (D208); ayrıca mevcut 1281 selcuklu ile çelişir"},
+ {"ad":"Muğla","sinif":"3b","neden":"'Karya bölgesi 1261 yılından itibaren Menteşeoğulları’nın hâkimiyetine girdi' — BÖLGE cümlesi (D208); menteşe künyesi 1280"},
+ {"ad":"Samsun","sinif":"3b","neden":"1194 'Samsun’a kadar Doğu Karadeniz topraklarını' — bölge cümlesi; 1200 başarısız kuşatma"},
+ {"ad":"Hulo (Acara)","sinif":"3b","neden":"'Batum ve Acara, Selçuklu topraklarına dahil oldu (1081)' — bölge cümlesi"},
+ {"ad":"Iğdır","sinif":"3b","neden":"Şatık Kalesi özdeşliği 'sanılmaktadır'; 1232 Sürmeli Çukur bölge cümlesi"},
+ {"ad":"Doğubayazıt","sinif":"3b","neden":"'Doğubayazıt çevresi de Selçuklular’ın eline geçti' (1064) — çevre cümlesi"},
+ {"ad":"Artvin","sinif":"3b","neden":"'Artvin ve civarında Selçuklu hâkimiyeti 1068 yılından itibaren kurulmaya başladı' — civar cümlesi"},
+ {"ad":"Tosya","sinif":"3b","neden":"'Tosya yöresinde ilk Türk idaresi' (1082-83) — yöre cümlesi"},
+ {"ad":"Ardahan","sinif":"3b","neden":"cümleler Kars/Ani fethini tarihliyor, Ardahan'ı değil"},
+ {"ad":"Denizli","sinif":"3b","neden":"1259 'Türkmenler’in Denizli’ye hâkim olarak' — sahip künyesiz topluluk"},
+ {"ad":"Bergama","sinif":"3b","neden":"'bazı kayıtlara göre de şehri fethettiler' (1113) — ihtimal"},
+ {"ad":"Köprühisar (Yenişehir)","sinif":"3b","neden":"1082-1083 Norman kuşatması — sahiplik cümlesi değil"},
+ {"ad":"Eskişehir","sinif":"3b","neden":"1175 Manuel'in tamiri ve 'anlaşmazlık konusu' — sahiplik tarihlemiyor"},
+ {"ad":"Amasya","sinif":"3b","neden":"'Kılıcarslan (1155-1192) tarafından ilhakına kadar' — saltanat aralığı, yıl değil"},
+ {"ad":"Çorum","sinif":"3b","neden":"'Kılıcarslan (1155-1192) tarafından ilhakına kadar' — saltanat aralığı"},
+ {"ad":"Edirne","sinif":"3b","neden":"1205 Latin ordusunun yenilgisi — sahiplik cümlesi değil"},
+ {"ad":"Divriği","sinif":"3b","neden":"'1180-1277 yılları arasında ... Mengücükoğulları’nın hâkimiyeti sırasında' — mimari aralık; mengucuklu künyesi 1228'de biter (Divriği kolu 1252 bulgusu ONCE1281-ANADOLU-BIZANS'ta)"},
+ {"ad":"Aksaray","sinif":"3b","neden":"Kılıcarslan'ın sarayı (1155-1192 aralığı) — ad kökeni, tarih değil"},
+ {"ad":"Beyşehir","sinif":"3b","neden":"'muhtemelen 1240’tan biraz önce ... yeniden kurulmuştur' — ihtimal + yaklaşık"},
+ {"ad":"Kastamonu","sinif":"3b","neden":"'1084 yılından sonra' Kara Tegin — yaklaşık; ankara maddesindeki 1142 cümlesi Kastamonu'yu yalnız YÖRE olarak anar"},
+ {"ad":"Burdur","sinif":"3b","neden":"'Malazgirt Savaşı’ndan (1071) sonra Türkmen akınları Burdur çevresine de ulaştı' — yaklaşık + çevre"},
+ {"ad":"Bolu","sinif":"3b","neden":"'Tahminen 1196’da' — tahmin"},
+ {"ad":"Üsküdar","sinif":"3b","neden":"'1078 ve 1080 yıllarında Üsküdar’a ulaştılar' — akın, sahiplik değil"},
+ {"ad":"Adana","sinif":"3b","neden":"1071'den itibaren Çukurova'ya Oğuz yerleşimi — bölge, sahiplik değil"},
+ {"ad":"Revan","sinif":"3b","neden":"tek cümle hicrî 1025 (miladî 1616) — kuşak dışı"},
+ {"ad":"Kilise","sinif":"3y","neden":"TDV `kilise` = kilise (yapı) maddesi — YANLIŞ MADDE (TDV tuzağı ②)"},
+ {"ad":"Ladik (Amasya)","sinif":"3y","neden":"slug `amasya` — Ladik'in maddesi değil (parantez çekirdeği tuzağı)"},
+ {"ad":"Özalp (Saray)","sinif":"3y","neden":"slug `saray--sehir` = Altın Orda başkenti Saray — YANLIŞ MADDE"},
+ {"ad":"Mesudiye (Milas)","sinif":"3y","neden":"slug `milas` — Mesudiye'nin maddesi değil"},
+ {"ad":"Dereköy (Kırklareli)","sinif":"3y","neden":"slug `kirklareli` — Dereköy'ün maddesi değil"},
+ {"ad":"Ordu (Bayramlı)","sinif":"3y","neden":"slug `ordu` — 0930 aracı ordu teşkilatı tuzağını ölçmüştü; madde yer maddesi testini geçti ama 1000-1280 cümlesi yok"}
+]

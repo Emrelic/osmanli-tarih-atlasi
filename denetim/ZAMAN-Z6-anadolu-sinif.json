@@ -1,0 +1,3030 @@
+[
+ {
+  "ad": "İznik",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1078-01-01",
+    "d": "selcuklu",
+    "slug": "iznik",
+    "parca": "İznik başşehir olmak üzere Anadolu’nun ilk Türk devletini",
+    "not": "TDV içinde çelişki: aynı madde Azîmî'den 467 (1075) fethini de aktarır; ana metnin (1078) yılı alındı"
+   },
+   {
+    "f": "1097-06-19",
+    "d": "bizans",
+    "slug": "konya",
+    "parca": "İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi"
+   },
+   {
+    "f": "1204-04-13",
+    "d": "iznik-imparatorlugu",
+    "slug": "iznik",
+    "parca": "1204’te I. Theodoros Laskaris tarafından İznik Bizans Devleti kuruldu",
+    "not": "kaynak YIL verir; künye f'si 1204-04-13 olduğundan künye günü devralındı (CLAUDE.md §4 hassasiyet kuralı) — kaynaksız gün"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "İzmit",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1228-01-01",
+    "d": "iznik-imparatorlugu",
+    "slug": "izmit",
+    "parca": "1228’de yeniden Bizans hâkimiyetine geçti",
+    "not": "TDV 'Bizans' der; 1228'deki Bizans = İznik İmparatorluğu (kimlik eşlemesi, tarih değil). Öncesi (1081 Selçuklu · 1085 Bizans · Latin dönemleri) kopuk, YAZILMADI"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Ankara",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1134-01-01",
+    "d": "danismendli",
+    "tur": "tanik",
+    "slug": "ankara",
+    "parca": "Melik Muhammed devrinde de Ankara Dânişmendli hâkimiyetinde kaldı"
+   },
+   {
+    "f": "1142-01-01",
+    "d": "selcuklu",
+    "slug": "ankara",
+    "parca": "Ankara, Çankırı, Kastamonu, Kayseri ve Malatya yörelerini Dânişmendliler’den aldı",
+    "not": "1164 (Kılıcarslan kardeşinden aldı) ve 1204/1212 el değiştirmeleri Selçuklu hânedanı İÇİ — sahip değişmez"
+   }
+  ]
+ },
+ {
+  "ad": "Kütahya",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1233-01-01",
+    "d": "selcuklu",
+    "slug": "kutahya",
+    "parca": "İznik İmparatorluğu’ndan geri alındı (1233)",
+    "not": "1080/1097/1180 tanıklıkları kopuk (İznik'e geçiş günü yok), YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Isparta",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-01-01",
+    "d": "selcuklu",
+    "slug": "isparta",
+    "parca": "1204’te zaptedilmiştir",
+    "not": "aynı madde 1196'da daha önce zaptedilmiş olabileceğini çıkarır (ihtimal cümlesi) — 1204 alındı"
+   }
+  ]
+ },
+ {
+  "ad": "Manisa",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-04-13",
+    "d": "iznik-imparatorlugu",
+    "slug": "manisa",
+    "parca": "İznik İmparatorluğu’nun sınırlarına dahil edildi",
+    "not": "kaynak YIL verir; künye günü devralındı — kaynaksız gün"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Antalya",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1207-03-05",
+    "d": "selcuklu",
+    "slug": "antalya",
+    "parca": "5 Mart 1207’de Latin idaresinden memnun olmayan",
+    "not": "önceki sahip 'Latin idaresi' (Aldobrandini) — künyesi yok, YAZILMADI"
+   },
+   {
+    "f": "1212-01-01",
+    "d": "kibris-krallik",
+    "slug": "antalya",
+    "parca": "Antalya 1212’de Kıbrıslılar’ın eline geçti"
+   },
+   {
+    "f": "1216-01-22",
+    "d": "selcuklu",
+    "slug": "antalya",
+    "parca": "22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek"
+   }
+  ]
+ },
+ {
+  "ad": "Karaman",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1256-01-01",
+    "d": "karaman",
+    "slug": "karaman",
+    "parca": "Karamanoğulları Beyliği’nin eline geçti (654/1256)",
+    "not": "1165 Selçuklu ilhakı ile 1256 arası KOPUK: TDV silifke 1210'da Levon'un Lârende'yi Saint Jean şövalyelerine bıraktığını yazar — iki madde çelişiyor, 1256 öncesi YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Niğde",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1214-01-01",
+    "d": "selcuklu",
+    "tur": "tanik",
+    "slug": "nigde",
+    "parca": "Niğde beyi olarak geçer"
+   }
+  ]
+ },
+ {
+  "ad": "Kayseri",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1143-01-01",
+    "d": "danismendli",
+    "tur": "tanik",
+    "slug": "kayseri",
+    "parca": "537’de (1143) Kayseri’de vefat ederek",
+    "not": "Dânişmendli fethi tarihsiz; 1067 'muhtemelen' Türk ele geçirmesi YAZILMADI"
+   },
+   {
+    "f": "1169-01-01",
+    "d": "selcuklu",
+    "slug": "kayseri",
+    "parca": "Kayseri ve civarını 564’te (1169) Selçuklu topraklarına kattı",
+    "not": "1243 Kösedağ sonrası Moğol eline geçiş (10 günlük direniş) Selçuklu'yu kaldırmadı — vesâyet `v:` önerilmedi; 1281'de mevcut veri ilhanli"
+   }
+  ]
+ },
+ {
+  "ad": "Sinop",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1214-01-01",
+    "d": "selcuklu",
+    "slug": "nigde",
+    "parca": "Sinop’un 611 (1214) yılında fethi",
+    "not": "başka maddeden (niğde), cümle Sinop'un fethini tarihliyor"
+   },
+   {
+    "f": "1259-01-01",
+    "d": "trabzon-rum",
+    "slug": "sinop",
+    "parca": "Trabzon Rumları kısa bir süre Sinop’ta tekrar egemenlik kurdu (657/1259)"
+   },
+   {
+    "f": "1266-01-01",
+    "d": "selcuklu",
+    "slug": "sinop",
+    "parca": "Muînüddin Süleyman Pervâne tarafından geri alındı (664/1266)",
+    "not": "Pervâne Selçuklu adına aldı; pervane künyesi 1277'de başlar"
+   }
+  ]
+ },
+ {
+  "ad": "Tokat",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1074-01-01",
+    "d": "danismendli",
+    "slug": "tokat",
+    "parca": "Emîr Dânişmend 1074’te Tokat’ı fethetti"
+   },
+   {
+    "f": "1175-01-01",
+    "d": "selcuklu",
+    "slug": "tokat",
+    "parca": "1175’te Dânişmendliler’i ortadan kaldırınca Tokat Selçuklu hâkimiyetine geçti"
+   }
+  ]
+ },
+ {
+  "ad": "Sivas",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1184-01-01",
+    "d": "selcuklu",
+    "tur": "tanik",
+    "slug": "sivas",
+    "parca": "Sivas sırasıyla Kutbüddin Melikşah",
+    "not": "1076-77/1080 fethi 'bazı araştırmalarda' — YAZILMADI; Dânişmendli dönemi tarihsiz. 1243 Baycu Noyan ele geçirişi Selçuklu'yu kaldırmadı"
+   }
+  ]
+ },
+ {
+  "ad": "Trabzon",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-01-01",
+    "d": "trabzon-rum",
+    "slug": "trabzon",
+    "parca": "şehir bu yeni devletin merkezi haline geldi",
+    "not": "1081 Türk idaresi kopuk, YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Giresun",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-01-01",
+    "d": "trabzon-rum",
+    "slug": "giresun",
+    "parca": "Trabzon’da kurulan Rum İmparatorluğu’nun sınırları içinde kalan kale"
+   }
+  ]
+ },
+ {
+  "ad": "Rize",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-01-01",
+    "d": "trabzon-rum",
+    "slug": "rize",
+    "parca": "Trabzon Rum Devleti’nin sınırları içinde kaldı (1204)"
+   }
+  ]
+ },
+ {
+  "ad": "Erzincan",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1142-01-01",
+    "d": "mengucuklu",
+    "tur": "tanik",
+    "slug": "erzincan",
+    "parca": "Erzincan Dâvud Şah’ın idaresine girdi",
+    "not": "Mengücüklü hânedanı İÇİ bölünme — sahip değişmez"
+   },
+   {
+    "f": "1228-01-01",
+    "d": "selcuklu",
+    "slug": "erzincan",
+    "parca": "Alâeddin Keykubad tarafından Anadolu Selçuklu topraklarına katıldı (1228)"
+   }
+  ]
+ },
+ {
+  "ad": "Erzurum",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1071-01-01",
+    "d": "saltuklu",
+    "slug": "erzurum",
+    "parca": "aynı yıl (1071) Erzurum’u fethetmesiyle",
+    "not": "TDV içinde çelişki: Yinanç fethi 1080'e koyar (İA'dan aktarım) — ana metnin 1071'i alındı"
+   },
+   {
+    "f": "1202-01-01",
+    "d": "selcuklu",
+    "slug": "erzurum",
+    "parca": "Erzurum’u kardeşi Mugīsüddin Tuğrul Şah’a iktâ etti (1202)",
+    "not": "Erzurum Selçukluları (Tuğrul Şah · Cihan Şah) künye kararıyla Selçuklu İÇİNDE (ONCE1281-ANADOLU-BIZANS)"
+   }
+  ]
+ },
+ {
+  "ad": "Kars",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1239-01-01",
+    "d": "mogol-imparatorlugu",
+    "slug": "kars",
+    "parca": "636’da (1239) Curmagan Noyan kumandasındaki Moğol ordusu",
+    "not": "1080 Selçuklu · 1153 Saltuklu · 1226 Celâleddin tanıklıkları kopuk (aralarda tarihsiz Gürcü dönemleri)"
+   },
+   {
+    "f": "1256-01-01",
+    "d": "ilhanli",
+    "slug": "kars",
+    "parca": "Şehir 1336 yılına kadar İlhanlılar’ın",
+    "not": "kaynak 1239'dan 1336'ya İlhanlı der; ilhanli künyesi 1256'da başladığından künye günü DEVRALINDI (ardıl yapı) — kaynaksız gün"
+   }
+  ]
+ },
+ {
+  "ad": "Van",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1232-01-01",
+    "d": "selcuklu",
+    "slug": "van",
+    "parca": "Van 1232’de Selçuklu hâkimiyetine girdi",
+    "not": "1064 Melikşah fethi ve 1230 Celâleddin zaptı kopuk (harizmsah künyesi 1231'de biter, 1231-1232 sahibi yok)"
+   }
+  ]
+ },
+ {
+  "ad": "Bitlis",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1209-01-01",
+    "d": "eyyubi",
+    "slug": "bitlis",
+    "parca": "Bitlis’e Eyyûbîler hâkim oldu (1209)",
+    "not": "1192 Ahlatşah zaptı YAZILMADI: ahlatsahlar künyesi 1208-01-01'de biter, 1208-1209 aşımı Z3'e bildirildi"
+   },
+   {
+    "f": "1231-01-01",
+    "d": "mogol-imparatorlugu",
+    "slug": "bitlis",
+    "parca": "Moğollar 1231’de Bitlis’i de ele geçirerek tahrip ettiler"
+   },
+   {
+    "f": "1232-01-01",
+    "d": "selcuklu",
+    "slug": "bitlis",
+    "parca": "Bitlis’i de Anadolu Selçuklu Devleti sınırları içine kattı (1232)"
+   }
+  ]
+ },
+ {
+  "ad": "Mardin",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1085-01-01",
+    "d": "buyuk-selcuklu",
+    "slug": "mardin",
+    "parca": "Melikşah 478’de (1085) şehirdeki Mervânî hâkimiyetine son verdi",
+    "not": "öncesi Mervânî (başlangıç günü yok, YAZILMADI); 1092 Berkyaruk ele geçirişi Büyük Selçuklu İÇİ"
+   },
+   {
+    "f": "1103-01-01",
+    "d": "artuklu",
+    "slug": "mardin",
+    "parca": "Mardin, 496’dan (1103) itibaren",
+    "not": "1185 Eyyûbî, 1220 Selçuklu, 1260 İlhanlı tâbiiyetleri `v:` olarak önerilmedi (sahip Artuklu kalır)"
+   }
+  ]
+ },
+ {
+  "ad": "Gelibolu",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-04-13",
+    "d": "latin-imparatorlugu",
+    "slug": "gelibolu",
+    "parca": "Gelibolu 1204’te Latinler’in idaresi altına girdi",
+    "not": "kaynak YIL verir; künye günü devralındı — kaynaksız gün"
+   },
+   {
+    "f": "1235-01-01",
+    "d": "iznik-imparatorlugu",
+    "slug": "gelibolu",
+    "parca": "Ioannes tarafından geri alındı (1235)"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Dimetoka",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1230-01-01",
+    "d": "bulgar-carligi",
+    "slug": "dimetoka",
+    "parca": "1230-1246 yılları arasında Bulgarlar’ın hâkimiyetinde kaldıysa da"
+   },
+   {
+    "f": "1246-01-01",
+    "d": "iznik-imparatorlugu",
+    "slug": "dimetoka",
+    "parca": "bu son tarihten itibaren Bizans’ın yönetimi altına girdi",
+    "not": "1246'daki 'Bizans' = İznik İmparatorluğu (kimlik eşlemesi)"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Tekirdağ",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1275-01-01",
+    "d": "bizans",
+    "slug": "tekirdag",
+    "parca": "1275’te şehir tekrar Bizans idaresine girdi",
+    "not": "1204 Latin işgali kopuk (1261-1275 arası sahip yok), YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "İstanköy",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1258-01-01",
+    "d": "iznik-imparatorlugu",
+    "slug": "istankoy",
+    "parca": "1258’de yeniden Bizans’ın eline geçmiştir",
+    "not": "1258'deki 'Bizans' = İznik İmparatorluğu (kimlik eşlemesi)"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "İstanbul",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "0330-05-11",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "11 Mayıs 330’da günlerce süren eğlenceler içinde",
+    "not": "başşehrin açılışı; künye f'si de 330-05-11 (künye DAYANAK değil, kaynak aynı günü verir). Motor/ufuk bu dönemi 1000'de kırpar"
+   },
+   {
+    "f": "1204-04-13",
+    "d": "latin-imparatorlugu",
+    "slug": "istanbul",
+    "parca": "Haçlılar şehri zaptettiler (13 Nisan 1204)"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Kırşehir",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1173-01-01",
+    "d": "selcuklu",
+    "slug": "kirsehir",
+    "parca": "tekrar Selçuklular’ın idaresine geçti"
+   }
+  ]
+ },
+ {
+  "ad": "Çankırı",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1142-01-01",
+    "d": "selcuklu",
+    "slug": "ankara",
+    "parca": "Ankara, Çankırı, Kastamonu, Kayseri ve Malatya yörelerini Dânişmendliler’den aldı",
+    "not": "başka maddeden (ankara); 'ilk üç şehrin idaresini' cümlesi Çankırı'yı ŞEHİR olarak anar. 1135 Bizans zaptı (çankırı maddesi) ile 1142 arası Dânişmendli dönüşü tarihsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Bayburt",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1202-01-01",
+    "d": "selcuklu",
+    "slug": "bayburt",
+    "parca": "Selçuklular 1202’de Saltuklu Devleti’ne son verince Bayburt’u da ele geçirdiler",
+    "not": "1072-1202 'bazan Saltuklu bazan Dânişmendli' — tarihsiz, YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Cizre",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1261-01-01",
+    "d": "ilhanli",
+    "slug": "cizre",
+    "parca": "660’ta (1261-62) Moğol istilâsına uğradı",
+    "not": "'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Hasankeyf",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1085-01-01",
+    "d": "buyuk-selcuklu",
+    "slug": "hasankeyf",
+    "parca": "burayı da aldılar (1085)"
+   },
+   {
+    "f": "1102-01-01",
+    "d": "artuklu",
+    "slug": "hasankeyf",
+    "parca": "Sökmen Hasankeyf’e gidip şehri teslim aldı"
+   },
+   {
+    "f": "1232-01-01",
+    "d": "eyyubi-hisnikeyfa",
+    "slug": "hasankeyf",
+    "parca": "Hasankeyf’i zaptederek Artuklular’ın buradaki hâkimiyetine son verdi"
+   }
+  ]
+ },
+ {
+  "ad": "Elbistan",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1202-01-01",
+    "d": "selcuklu",
+    "tur": "tanik",
+    "slug": "elbistan",
+    "parca": "Elbistan’ı doğrudan merkeze bağlı bir vilâyet haline getirdi (1202)",
+    "not": "1085-1156 arası zengin ama KOPUK zincir (1085 Selçuklu · 1097/1103 Haçlı · 1105 Selçuklu · Tancred · 1111 · 1124 Dânişmendli · 1144 Selçuklu · 1156 Dânişmendli) — 1156-1202 arası tarihsiz, YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Kemah",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1228-01-01",
+    "d": "selcuklu",
+    "slug": "kemah",
+    "parca": "625 (1228) yılında Anadolu Selçuklu Devleti topraklarına katıldı"
+   }
+  ]
+ },
+ {
+  "ad": "Konya",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1097-01-01",
+    "d": "selcuklu",
+    "tur": "tanik",
+    "slug": "konya",
+    "parca": "Konya başşehir olarak seçildi",
+    "not": "1073 Türk fethi 'muhtemelen' — YAZILMADI. 1277 Karamanlı işgali 'bir süre için', bitiş günü yok — YAZILMADI (bilinen boşluk)"
+   }
+  ]
+ },
+ {
+  "ad": "Uzunköprü",
+  "sinif": "1",
+  "neden": "`kur:1443-01-01` noktada yazılı — 1281 öncesi yok, dokunulmadı (yan bulgu: ilk sahiplik dönemi yine 1281-01-01, kur'dan önce)"
+ },
+ {
+  "ad": "Çanakkale",
+  "sinif": "1",
+  "neden": "TDV canakkale: 'temeli Fâtih Sultan Mehmed döneminde atılmış olan bir XV. yüzyıl şehridir' — dokunulmadı (yan bulgu: 1281-1462 dönemleri şehir kurulmadan önce)"
+ },
+ {
+  "ad": "Bursa",
+  "sinif": "3k",
+  "neden": "1080 Selçuklu fethi · 1113 Türk zaptı · Aleksios'un geri alışı TARİHSİZ — 1281 Bizans'a bitişik zincir kurulamadı"
+ },
+ {
+  "ad": "Balıkesir",
+  "sinif": "3k",
+  "neden": "'Haçlı Seferi’nden (1096-1099) sonra tekrar Bizans tarafından alındı' — gün/yıl yok"
+ },
+ {
+  "ad": "Alanya",
+  "sinif": "3k",
+  "neden": "TDV alanya: 'Kıbrıs Krallığı’na bağlı iken 1221 yılında I. Alâeddin Keykubad tarafından fethedilmiş' — AMA mevcut 1281 dönemi karaman; Selçuklu→Karaman geçiş günü kaynakta yok. Koordinatör: 1281 karaman dönemi doğruysa geçiş günü aranmalı; değilse (TDV Selçuklu iskele der) mevcut veri sorgulanmalı"
+ },
+ {
+  "ad": "Diyarbakır",
+  "sinif": "3k",
+  "neden": "1085 Selçuklu · İnaloğulları (1095 sonrası) · 1183 Selâhaddin · 1232 el-Kâmil (hasankeyf md.) · 1259 Hülâgû→Selçuklu — ama mevcut 1281 dönemi artuklu; Selçuklu→Artuklu 1281 geçişi kaynaksız"
+ },
+ {
+  "ad": "Harput (Elazığ)",
+  "sinif": "3k",
+  "neden": "1124 Hısnıkeyfâ Artuklu · 1234 Selçuklu · sonra İlhanlı (tarihsiz) — mevcut 1281 dönemi artuklu; TDV ile çelişiyor. Ayrıca bilinen Çubukoğulları t çelişkisi (ONCE1281-ANADOLU-BIZANS)"
+ },
+ {
+  "ad": "Tire",
+  "sinif": "3k",
+  "neden": "1072 Büyük Selçuklu · 1186 Şemseddin fethi — mevcut 1281 dönemi bizans; Bizans'a geri geçiş tarihsiz"
+ },
+ {
+  "ad": "Alaşehir",
+  "sinif": "3k",
+  "neden": "TDV: 1075/1076 Süleyman Şah fethi, '1098’de I. Haçlı Seferi sırasında Bizans hâkimiyetine geçti' ve 'Batı Anadolu’nun en müstahkem mevkii' — mevcut 1281-1300 dönemi SELÇUKLU. 🔴 Yan bulgu (D206 ters yön adayı): Philadelphia'nın 1281'de Selçuklu yazılması TDV ile çelişiyor"
+ },
+ {
+  "ad": "Malatya",
+  "sinif": "3k",
+  "neden": "1057 · 1074 Philaretos · 1124 Dânişmendli teslim · 1244 Moğol kısa süre — Selçuklu'ya geçiş tarihsiz"
+ },
+ {
+  "ad": "Tarsus",
+  "sinif": "3k",
+  "neden": "1082 Süleyman Şah · 1097 Haçlılar — sonrası (Kilikya) tarihsiz"
+ },
+ {
+  "ad": "Silifke",
+  "sinif": "3k",
+  "neden": "1210 Levon Saint Jean şövalyelerine bıraktı — mevcut 1281 karaman'a geçiş tarihsiz"
+ },
+ {
+  "ad": "Midilli",
+  "sinif": "3k",
+  "neden": "1091 Çaka Bey kısa süre — künyesi yok; sonrası tarihsiz"
+ },
+ {
+  "ad": "İmroz",
+  "sinif": "3k",
+  "neden": "1204 Latin İmparatorluğu'na dahil — Bizans'a dönüş tarihsiz"
+ },
+ {
+  "ad": "Sisam",
+  "sinif": "3k",
+  "neden": "1088-1091 Çaka · 1093 Bizans · 1205-1225 Latin — mevcut 1281 ceneviz'e geçiş tarihsiz"
+ },
+ {
+  "ad": "Tiflis",
+  "sinif": "3k",
+  "neden": "1121 David Selçuklu hâkimiyetine son verdi · 1227/1230 Celâleddin — Gürcü dönüşü tarihsiz (harizmsah künyesi 1231'de biter)"
+ },
+ {
+  "ad": "Ahıska",
+  "sinif": "3k",
+  "neden": "1068 Alparslan · 1267-1268 Moğol hâkimiyeti — arası tarihsiz; mevcut 1281 gurcistan"
+ },
+ {
+  "ad": "Niksar",
+  "sinif": "3k",
+  "neden": "1140 Dânişmendli tanıklığı · '570’ten (1175) sonra' Selçuklu — kesin yıl değil"
+ },
+ {
+  "ad": "Ayasuluk (Selçuk)",
+  "sinif": "3k",
+  "neden": "1071 sonrası Türk · 1097 Bizans — sonrası tarihsiz"
+ },
+ {
+  "ad": "Balat (Palatia)",
+  "sinif": "3k",
+  "neden": "'1273’e doğru tekrar Türk hâkimiyetine girdi' — yaklaşık yıl ve sahip künyesi belirsiz (menteşe künyesi 1280)"
+ },
+ {
+  "ad": "Hısn-ı Mansûr (Adıyaman)",
+  "sinif": "3k",
+  "neden": "1066 Gümüştegin — sonrası tarihsiz; mevcut 1281 memluk"
+ },
+ {
+  "ad": "Behisni (Besni)",
+  "sinif": "3k",
+  "neden": "zengin zincir 1084-1266 (Buldacı · Kogh Vasil · Urfa kontluğu · Zengî 1155 · Moğol 1260 · Ermeni 1261) — mevcut 1281 memluk'a geçiş tarihsiz"
+ },
+ {
+  "ad": "Kilis",
+  "sinif": "3k",
+  "neden": "1124 Belek Gazi Franklar'dan aldı — mevcut 1281 memluk'a geçiş tarihsiz"
+ },
+ {
+  "ad": "Karahisâr-ı Şarkî (Şebinkarahisar)",
+  "sinif": "3k",
+  "neden": "1071 · 1106 Gregory · 1170 'veya biraz önce' Saltuklu · 1201 Mengücüklü — Selçuklu'ya geçiş açık tarihli değil"
+ },
+ {
+  "ad": "Birecik",
+  "sinif": "3k",
+  "neden": "'1098-1150 yılları arasında şehir Urfa Haçlı Kontluğu’nun hâkimiyetindeydi' — sonrası tarihsiz; mevcut 1281 memluk"
+ },
+ {
+  "ad": "Siirt",
+  "sinif": "3k",
+  "neden": "1085 Büyük Selçuklu · 1093 Tutuş iktâsı · 1143 Zengî — sonrası tarihsiz; mevcut 1281 ilhanli"
+ },
+ {
+  "ad": "Merzifon",
+  "sinif": "3k",
+  "neden": "1071 İltegin Gazi (Dânişmendli) — Dânişmendli künyesi 1178'de biter, ardılı tarihsiz"
+ },
+ {
+  "ad": "Sivrihisar",
+  "sinif": "2z",
+  "neden": "TDV: '1074’te ... Selçuklular’ın hâkimiyetine girdi' — TEK tanıklık, 1281'e 207 yıl süreklilik VARSAYIMI (yöre 1097 sonrası Bizans-Selçuklu sınırı). Diff'e ALINMADI; ayrıca 1074 < selcuklu künyesi 1075"
+ },
+ {
+  "ad": "Uşak",
+  "sinif": "2z",
+  "neden": "TDV: Manuel'in ölümünden (1180) 'iki yıl sonra' Uluborlu, Kütahya, Eskişehir, Alaşehir ile birlikte Selçuklu — aynı listedeki Kütahya 1233'te İznik'ten GERİ alınıyor, Alaşehir Bizans'ta ⇒ 1182-1281 süreklilik ÇÜRÜK. Diff'e ALINMADI"
+ },
+ {
+  "ad": "Bartın",
+  "sinif": "3b",
+  "neden": "TDV 'Bartın çevresi' (1204 Trabzon · 1214 İznik · 1261 Bizans) — YÖRE cümlesi (D208); ayrıca mevcut 1281 selcuklu ile çelişir"
+ },
+ {
+  "ad": "Muğla",
+  "sinif": "3b",
+  "neden": "'Karya bölgesi 1261 yılından itibaren Menteşeoğulları’nın hâkimiyetine girdi' — BÖLGE cümlesi (D208); menteşe künyesi 1280"
+ },
+ {
+  "ad": "Samsun",
+  "sinif": "3b",
+  "neden": "1194 'Samsun’a kadar Doğu Karadeniz topraklarını' — bölge cümlesi; 1200 başarısız kuşatma"
+ },
+ {
+  "ad": "Hulo (Acara)",
+  "sinif": "3b",
+  "neden": "'Batum ve Acara, Selçuklu topraklarına dahil oldu (1081)' — bölge cümlesi"
+ },
+ {
+  "ad": "Iğdır",
+  "sinif": "3b",
+  "neden": "Şatık Kalesi özdeşliği 'sanılmaktadır'; 1232 Sürmeli Çukur bölge cümlesi"
+ },
+ {
+  "ad": "Doğubayazıt",
+  "sinif": "3b",
+  "neden": "'Doğubayazıt çevresi de Selçuklular’ın eline geçti' (1064) — çevre cümlesi"
+ },
+ {
+  "ad": "Artvin",
+  "sinif": "3b",
+  "neden": "'Artvin ve civarında Selçuklu hâkimiyeti 1068 yılından itibaren kurulmaya başladı' — civar cümlesi"
+ },
+ {
+  "ad": "Tosya",
+  "sinif": "3b",
+  "neden": "'Tosya yöresinde ilk Türk idaresi' (1082-83) — yöre cümlesi"
+ },
+ {
+  "ad": "Ardahan",
+  "sinif": "3b",
+  "neden": "cümleler Kars/Ani fethini tarihliyor, Ardahan'ı değil"
+ },
+ {
+  "ad": "Denizli",
+  "sinif": "3b",
+  "neden": "1259 'Türkmenler’in Denizli’ye hâkim olarak' — sahip künyesiz topluluk"
+ },
+ {
+  "ad": "Bergama",
+  "sinif": "3b",
+  "neden": "'bazı kayıtlara göre de şehri fethettiler' (1113) — ihtimal"
+ },
+ {
+  "ad": "Köprühisar (Yenişehir)",
+  "sinif": "3b",
+  "neden": "1082-1083 Norman kuşatması — sahiplik cümlesi değil"
+ },
+ {
+  "ad": "Eskişehir",
+  "sinif": "3b",
+  "neden": "1175 Manuel'in tamiri ve 'anlaşmazlık konusu' — sahiplik tarihlemiyor"
+ },
+ {
+  "ad": "Amasya",
+  "sinif": "3b",
+  "neden": "'Kılıcarslan (1155-1192) tarafından ilhakına kadar' — saltanat aralığı, yıl değil"
+ },
+ {
+  "ad": "Çorum",
+  "sinif": "3b",
+  "neden": "'Kılıcarslan (1155-1192) tarafından ilhakına kadar' — saltanat aralığı"
+ },
+ {
+  "ad": "Edirne",
+  "sinif": "3b",
+  "neden": "1205 Latin ordusunun yenilgisi — sahiplik cümlesi değil"
+ },
+ {
+  "ad": "Divriği",
+  "sinif": "3b",
+  "neden": "'1180-1277 yılları arasında ... Mengücükoğulları’nın hâkimiyeti sırasında' — mimari aralık; mengucuklu künyesi 1228'de biter (Divriği kolu 1252 bulgusu ONCE1281-ANADOLU-BIZANS'ta)"
+ },
+ {
+  "ad": "Aksaray",
+  "sinif": "3b",
+  "neden": "Kılıcarslan'ın sarayı (1155-1192 aralığı) — ad kökeni, tarih değil"
+ },
+ {
+  "ad": "Beyşehir",
+  "sinif": "3b",
+  "neden": "'muhtemelen 1240’tan biraz önce ... yeniden kurulmuştur' — ihtimal + yaklaşık"
+ },
+ {
+  "ad": "Kastamonu",
+  "sinif": "3b",
+  "neden": "'1084 yılından sonra' Kara Tegin — yaklaşık; ankara maddesindeki 1142 cümlesi Kastamonu'yu yalnız YÖRE olarak anar"
+ },
+ {
+  "ad": "Burdur",
+  "sinif": "3b",
+  "neden": "'Malazgirt Savaşı’ndan (1071) sonra Türkmen akınları Burdur çevresine de ulaştı' — yaklaşık + çevre"
+ },
+ {
+  "ad": "Bolu",
+  "sinif": "3b",
+  "neden": "'Tahminen 1196’da' — tahmin"
+ },
+ {
+  "ad": "Üsküdar",
+  "sinif": "3b",
+  "neden": "'1078 ve 1080 yıllarında Üsküdar’a ulaştılar' — akın, sahiplik değil"
+ },
+ {
+  "ad": "Adana",
+  "sinif": "3b",
+  "neden": "1071'den itibaren Çukurova'ya Oğuz yerleşimi — bölge, sahiplik değil"
+ },
+ {
+  "ad": "Revan",
+  "sinif": "3b",
+  "neden": "tek cümle hicrî 1025 (miladî 1616) — kuşak dışı"
+ },
+ {
+  "ad": "Kilise",
+  "sinif": "3y",
+  "neden": "TDV `kilise` = kilise (yapı) maddesi — YANLIŞ MADDE (TDV tuzağı ②)"
+ },
+ {
+  "ad": "Ladik (Amasya)",
+  "sinif": "3y",
+  "neden": "slug `amasya` — Ladik'in maddesi değil (parantez çekirdeği tuzağı)"
+ },
+ {
+  "ad": "Özalp (Saray)",
+  "sinif": "3y",
+  "neden": "slug `saray--sehir` = Altın Orda başkenti Saray — YANLIŞ MADDE"
+ },
+ {
+  "ad": "Mesudiye (Milas)",
+  "sinif": "3y",
+  "neden": "slug `milas` — Mesudiye'nin maddesi değil"
+ },
+ {
+  "ad": "Dereköy (Kırklareli)",
+  "sinif": "3y",
+  "neden": "slug `kirklareli` — Dereköy'ün maddesi değil"
+ },
+ {
+  "ad": "Ordu (Bayramlı)",
+  "sinif": "3y",
+  "neden": "slug `ordu` — 0930 aracı ordu teşkilatı tuzağını ölçmüştü; madde yer maddesi testini geçti ama 1000-1280 cümlesi yok"
+ },
+ {
+  "ad": "İnegöl",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "inegol:302",
+   "inegol--sehir:302",
+   "arama:inegol:200"
+  ]
+ },
+ {
+  "ad": "Aydos Kalesi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "aydos-kalesi:302",
+   "aydos-kalesi--sehir:302",
+   "arama:aydos-kalesi:200"
+  ]
+ },
+ {
+  "ad": "Geyve",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "geyve:302",
+   "geyve--sehir:302",
+   "arama:geyve:200"
+  ]
+ },
+ {
+  "ad": "Marmaracık",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "marmaracik:302",
+   "marmaracik--sehir:302",
+   "arama:marmaracik:200"
+  ]
+ },
+ {
+  "ad": "Akhisar (Pamukova)",
+  "sinif": "3",
+  "neden": "TDV `akhisar` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Mekece",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mekece:302",
+   "mekece--sehir:302",
+   "arama:mekece:200"
+  ]
+ },
+ {
+  "ad": "Kestel",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kestel:302",
+   "kestel--sehir:302",
+   "arama:kestel:200"
+  ]
+ },
+ {
+  "ad": "Ulubat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ulubat:302",
+   "ulubat--sehir:302",
+   "arama:ulubat:200"
+  ]
+ },
+ {
+  "ad": "Harmankaya",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "harmankaya:302",
+   "harmankaya--sehir:302",
+   "arama:harmankaya:200"
+  ]
+ },
+ {
+  "ad": "Akyazı",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "akyazi:302",
+   "akyazi--sehir:302",
+   "arama:akyazi:200"
+  ]
+ },
+ {
+  "ad": "İmralı Adası",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "imrali-adasi:302",
+   "imrali-adasi--sehir:302",
+   "arama:imrali-adasi:200"
+  ]
+ },
+ {
+  "ad": "Kandıra",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kandira:302",
+   "kandira--sehir:302",
+   "arama:kandira:200"
+  ]
+ },
+ {
+  "ad": "Mudanya",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mudanya:302",
+   "mudanya--sehir:302",
+   "arama:mudanya:200"
+  ]
+ },
+ {
+  "ad": "Yalova",
+  "sinif": "3",
+  "neden": "TDV `yalova` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Karamürsel",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karamursel:302",
+   "karamursel--sehir:302",
+   "arama:karamursel:200"
+  ]
+ },
+ {
+  "ad": "Armutlu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "armutlu:302",
+   "armutlu--sehir:302",
+   "arama:armutlu:200"
+  ]
+ },
+ {
+  "ad": "Gemlik (Kios)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gemlik:302",
+   "gemlik--sehir:302",
+   "kios:302",
+   "kios--sehir:302",
+   "arama:gemlik:200",
+   "arama:kios:200"
+  ]
+ },
+ {
+  "ad": "Enez",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "enez:302",
+   "enez--sehir:302",
+   "arama:enez:200"
+  ]
+ },
+ {
+  "ad": "Datça",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "datca:302",
+   "datca--sehir:302",
+   "arama:datca:200"
+  ]
+ },
+ {
+  "ad": "Marmaris",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "marmaris:302",
+   "marmaris--sehir:302",
+   "arama:marmaris:200"
+  ]
+ },
+ {
+  "ad": "Fethiye (Makri)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "fethiye:302",
+   "fethiye--sehir:302",
+   "makri:302",
+   "makri--sehir:302",
+   "arama:fethiye:200",
+   "arama:makri:200"
+  ]
+ },
+ {
+  "ad": "Kuşadası",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kusadasi:302",
+   "kusadasi--sehir:302",
+   "arama:kusadasi:200"
+  ]
+ },
+ {
+  "ad": "Söke",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "soke:302",
+   "soke--sehir:302",
+   "arama:soke:200"
+  ]
+ },
+ {
+  "ad": "Söğüt",
+  "sinif": "3",
+  "neden": "TDV `sogut` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Bozüyük",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bozuyuk:302",
+   "bozuyuk--sehir:302",
+   "arama:bozuyuk:200"
+  ]
+ },
+ {
+  "ad": "Ermeni Derbendi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ermeni-derbendi:302",
+   "ermeni-derbendi--sehir:302",
+   "arama:ermeni-derbendi:200"
+  ]
+ },
+ {
+  "ad": "Pazaryeri",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pazaryeri:302",
+   "pazaryeri--sehir:302",
+   "arama:pazaryeri:200"
+  ]
+ },
+ {
+  "ad": "Bilecik",
+  "sinif": "3",
+  "neden": "TDV `bilecik` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "İzmir",
+  "sinif": "3",
+  "neden": "TDV `izmir` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Çeşme",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cesme:200",
+   "cesme--sehir:302",
+   "arama:cesme:200"
+  ]
+ },
+ {
+  "ad": "Aydın",
+  "sinif": "3",
+  "neden": "TDV `aydin` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Anamur",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "anamur:302",
+   "anamur--sehir:302",
+   "arama:anamur:200"
+  ]
+ },
+ {
+  "ad": "Amasra",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "amasra:302",
+   "amasra--sehir:302",
+   "arama:amasra:200"
+  ]
+ },
+ {
+  "ad": "Safranbolu",
+  "sinif": "3",
+  "neden": "TDV `safranbolu` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Ünye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "unye:302",
+   "unye--sehir:302",
+   "arama:unye:200"
+  ]
+ },
+ {
+  "ad": "Urfa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "urfa:200",
+   "urfa--sehir:302",
+   "arama:urfa:200"
+  ]
+ },
+ {
+  "ad": "Maraş",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "maras:200",
+   "maras--sehir:302",
+   "arama:maras:200"
+  ]
+ },
+ {
+  "ad": "Çorlu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "corlu:302",
+   "corlu--sehir:302",
+   "arama:corlu:200"
+  ]
+ },
+ {
+  "ad": "Lüleburgaz",
+  "sinif": "3",
+  "neden": "TDV `luleburgaz` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Malkara",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "malkara:302",
+   "malkara--sehir:302",
+   "arama:malkara:200"
+  ]
+ },
+ {
+  "ad": "Keşan",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kesan:302",
+   "kesan--sehir:302",
+   "arama:kesan:200"
+  ]
+ },
+ {
+  "ad": "İpsala",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ipsala:302",
+   "ipsala--sehir:302",
+   "arama:ipsala:200"
+  ]
+ },
+ {
+  "ad": "Çirmen",
+  "sinif": "3",
+  "neden": "TDV `cirmen` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Çimpe",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cimpe:302",
+   "cimpe--sehir:302",
+   "arama:cimpe:200"
+  ]
+ },
+ {
+  "ad": "Kırklareli",
+  "sinif": "3",
+  "neden": "TDV `kirklareli` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Rodos",
+  "sinif": "3",
+  "neden": "TDV `rodos` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Sakız",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sakiz:302",
+   "sakiz--sehir:302",
+   "arama:sakiz:200"
+  ]
+ },
+ {
+  "ad": "Bozcaada",
+  "sinif": "3",
+  "neden": "TDV `bozcaada` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Nikarya (İkarya)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nikarya:302",
+   "nikarya--sehir:302",
+   "ikarya:302",
+   "ikarya--sehir:302",
+   "arama:nikarya:200",
+   "arama:ikarya:200"
+  ]
+ },
+ {
+  "ad": "Batum",
+  "sinif": "3",
+  "neden": "TDV `batum` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Kutaisi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kutaisi:302",
+   "kutaisi--sehir:302",
+   "arama:kutaisi:200"
+  ]
+ },
+ {
+  "ad": "Antep",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "antep:200",
+   "antep--sehir:302",
+   "arama:antep:200"
+  ]
+ },
+ {
+  "ad": "Ferecik (Feres)",
+  "sinif": "3",
+  "neden": "TDV `ferecik` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Biga",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "biga:302",
+   "biga--sehir:302",
+   "arama:biga:200"
+  ]
+ },
+ {
+  "ad": "Karahisâr-ı Sâhib (Afyon)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karahisar-i-sahib:302",
+   "karahisar-i-sahib--sehir:302",
+   "afyon:200",
+   "afyon--sehir:302",
+   "arama:karahisar-i-sahib:200",
+   "arama:afyon:200"
+  ]
+ },
+ {
+  "ad": "Domaniç",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "domanic:302",
+   "domanic--sehir:302",
+   "arama:domanic:200"
+  ]
+ },
+ {
+  "ad": "Kulacahisar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kulacahisar:302",
+   "kulacahisar--sehir:302",
+   "arama:kulacahisar:200"
+  ]
+ },
+ {
+  "ad": "Karacahisar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karacahisar:302",
+   "karacahisar--sehir:302",
+   "arama:karacahisar:200"
+  ]
+ },
+ {
+  "ad": "Yarhisar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yarhisar:302",
+   "yarhisar--sehir:302",
+   "arama:yarhisar:200"
+  ]
+ },
+ {
+  "ad": "Dimbos",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dimbos:302",
+   "dimbos--sehir:302",
+   "arama:dimbos:200"
+  ]
+ },
+ {
+  "ad": "Kite (Kete)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kite:302",
+   "kite--sehir:302",
+   "kete:302",
+   "kete--sehir:302",
+   "arama:kite:200",
+   "arama:kete:200"
+  ]
+ },
+ {
+  "ad": "Lefke (Osmaneli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lefke:302",
+   "lefke--sehir:302",
+   "osmaneli:302",
+   "osmaneli--sehir:302",
+   "arama:lefke:200",
+   "arama:osmaneli:200"
+  ]
+ },
+ {
+  "ad": "Leblebicihisar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "leblebicihisar:302",
+   "leblebicihisar--sehir:302",
+   "arama:leblebicihisar:200"
+  ]
+ },
+ {
+  "ad": "Karaçepüş",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karacepus:302",
+   "karacepus--sehir:302",
+   "arama:karacepus:200"
+  ]
+ },
+ {
+  "ad": "Karatigin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karatigin:302",
+   "karatigin--sehir:302",
+   "arama:karatigin:200"
+  ]
+ },
+ {
+  "ad": "Absu (Hypsu)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "absu:302",
+   "absu--sehir:302",
+   "hypsu:302",
+   "hypsu--sehir:302",
+   "arama:absu:200",
+   "arama:hypsu:200"
+  ]
+ },
+ {
+  "ad": "Adranos (Orhaneli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "adranos:302",
+   "adranos--sehir:302",
+   "orhaneli:302",
+   "orhaneli--sehir:302",
+   "arama:adranos:200",
+   "arama:orhaneli:200"
+  ]
+ },
+ {
+  "ad": "Pelekanon (Eskihisar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pelekanon:302",
+   "pelekanon--sehir:302",
+   "eskihisar:302",
+   "eskihisar--sehir:302",
+   "arama:pelekanon:200",
+   "arama:eskihisar:200"
+  ]
+ },
+ {
+  "ad": "Gebze",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gebze:302",
+   "gebze--sehir:302",
+   "arama:gebze:200"
+  ]
+ },
+ {
+  "ad": "Hereke",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hereke:302",
+   "hereke--sehir:302",
+   "arama:hereke:200"
+  ]
+ },
+ {
+  "ad": "Samandıra",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "samandira:302",
+   "samandira--sehir:302",
+   "arama:samandira:200"
+  ]
+ },
+ {
+  "ad": "Kirmasti (M.Kemalpaşa)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kirmasti:200",
+   "kirmasti--sehir:302",
+   "m-kemalpasa:302",
+   "m-kemalpasa--sehir:302",
+   "arama:kirmasti:200",
+   "arama:m-kemalpasa:200"
+  ]
+ },
+ {
+  "ad": "Mihaliç (Karacabey)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mihalic:302",
+   "mihalic--sehir:302",
+   "karacabey:302",
+   "karacabey--sehir:302",
+   "arama:mihalic:200",
+   "arama:karacabey:200"
+  ]
+ },
+ {
+  "ad": "Gölyazı (Apollonia)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "golyazi:302",
+   "golyazi--sehir:302",
+   "apollonia:302",
+   "apollonia--sehir:302",
+   "arama:golyazi:200",
+   "arama:apollonia:200"
+  ]
+ },
+ {
+  "ad": "Seydişehir",
+  "sinif": "3",
+  "neden": "TDV `seydisehir` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Akşehir",
+  "sinif": "3",
+  "neden": "TDV `aksehir` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Terme",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "terme:302",
+   "terme--sehir:302",
+   "arama:terme:200"
+  ]
+ },
+ {
+  "ad": "Çarşamba",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "carsamba:302",
+   "carsamba--sehir:302",
+   "arama:carsamba:200"
+  ]
+ },
+ {
+  "ad": "Bolayır",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bolayir:302",
+   "bolayir--sehir:302",
+   "arama:bolayir:200"
+  ]
+ },
+ {
+  "ad": "Maydos (Eceabat)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "maydos:302",
+   "maydos--sehir:302",
+   "eceabat:302",
+   "eceabat--sehir:302",
+   "arama:maydos:200",
+   "arama:eceabat:200"
+  ]
+ },
+ {
+  "ad": "Osmancık",
+  "sinif": "3",
+  "neden": "TDV `osmancik` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Yamurgi (Amorgos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yamurgi:302",
+   "yamurgi--sehir:302",
+   "amorgos:302",
+   "amorgos--sehir:302",
+   "arama:yamurgi:200",
+   "arama:amorgos:200"
+  ]
+ },
+ {
+  "ad": "Kelemez (Kalimnos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kelemez:302",
+   "kelemez--sehir:302",
+   "kalimnos:302",
+   "kalimnos--sehir:302",
+   "arama:kelemez:200",
+   "arama:kalimnos:200"
+  ]
+ },
+ {
+  "ad": "İleryoz (Leros)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ileryoz:302",
+   "ileryoz--sehir:302",
+   "leros:302",
+   "leros--sehir:302",
+   "arama:ileryoz:200",
+   "arama:leros:200"
+  ]
+ },
+ {
+  "ad": "Sömbeki (Simi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sombeki:302",
+   "sombeki--sehir:302",
+   "simi:302",
+   "simi--sehir:302",
+   "arama:sombeki:200",
+   "arama:simi:200"
+  ]
+ },
+ {
+  "ad": "İncirli (Nisiros)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "incirli:302",
+   "incirli--sehir:302",
+   "nisiros:302",
+   "nisiros--sehir:302",
+   "arama:incirli:200",
+   "arama:nisiros:200"
+  ]
+ },
+ {
+  "ad": "İlyaki (Tilos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ilyaki:302",
+   "ilyaki--sehir:302",
+   "tilos:302",
+   "tilos--sehir:302",
+   "arama:ilyaki:200",
+   "arama:tilos:200"
+  ]
+ },
+ {
+  "ad": "Herke (Halki)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "herke:302",
+   "herke--sehir:302",
+   "halki:302",
+   "halki--sehir:302",
+   "arama:herke:200",
+   "arama:halki:200"
+  ]
+ },
+ {
+  "ad": "Batnoz (Patmos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "batnoz:302",
+   "batnoz--sehir:302",
+   "patmos:302",
+   "patmos--sehir:302",
+   "arama:batnoz:200",
+   "arama:patmos:200"
+  ]
+ },
+ {
+  "ad": "İstanbulya (Astipalya)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "istanbulya:302",
+   "istanbulya--sehir:302",
+   "astipalya:302",
+   "astipalya--sehir:302",
+   "arama:istanbulya:200",
+   "arama:astipalya:200"
+  ]
+ },
+ {
+  "ad": "Fornoz (Fourni)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "fornoz:302",
+   "fornoz--sehir:302",
+   "fourni:302",
+   "fourni--sehir:302",
+   "arama:fornoz:200",
+   "arama:fourni:200"
+  ]
+ },
+ {
+  "ad": "Marmara Adası",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "marmara-adasi:302",
+   "marmara-adasi--sehir:302",
+   "arama:marmara-adasi:200"
+  ]
+ },
+ {
+  "ad": "Lindos",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lindos:302",
+   "lindos--sehir:302",
+   "arama:lindos:200"
+  ]
+ },
+ {
+  "ad": "Molova (Molyvos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "molova:302",
+   "molova--sehir:302",
+   "molyvos:302",
+   "molyvos--sehir:302",
+   "arama:molova:200",
+   "arama:molyvos:200"
+  ]
+ },
+ {
+  "ad": "Birgi",
+  "sinif": "3",
+  "neden": "TDV `birgi` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Milas",
+  "sinif": "3",
+  "neden": "TDV `milas` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Simav",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "simav:302",
+   "simav--sehir:302",
+   "arama:simav:200"
+  ]
+ },
+ {
+  "ad": "Tavşanlı",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tavsanli:302",
+   "tavsanli--sehir:302",
+   "arama:tavsanli:200"
+  ]
+ },
+ {
+  "ad": "Emet (Eğrigöz)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "emet:302",
+   "emet--sehir:302",
+   "egrigoz:302",
+   "egrigoz--sehir:302",
+   "arama:emet:200",
+   "arama:egrigoz:200"
+  ]
+ },
+ {
+  "ad": "Uluborlu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "uluborlu:302",
+   "uluborlu--sehir:302",
+   "arama:uluborlu:200"
+  ]
+ },
+ {
+  "ad": "Eğirdir",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "egirdir:302",
+   "egirdir--sehir:302",
+   "arama:egirdir:200"
+  ]
+ },
+ {
+  "ad": "Yalvaç",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yalvac:302",
+   "yalvac--sehir:302",
+   "arama:yalvac:200"
+  ]
+ },
+ {
+  "ad": "Eflani",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "eflani:302",
+   "eflani--sehir:302",
+   "arama:eflani:200"
+  ]
+ },
+ {
+  "ad": "Ermenek",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ermenek:302",
+   "ermenek--sehir:302",
+   "arama:ermenek:200"
+  ]
+ },
+ {
+  "ad": "Edremit",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "edremit:302",
+   "edremit--sehir:302",
+   "arama:edremit:200"
+  ]
+ },
+ {
+  "ad": "Erdek",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "erdek:302",
+   "erdek--sehir:302",
+   "arama:erdek:200"
+  ]
+ },
+ {
+  "ad": "Erciş",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ercis:302",
+   "ercis--sehir:302",
+   "arama:ercis:200"
+  ]
+ },
+ {
+  "ad": "Finike",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "finike:302",
+   "finike--sehir:302",
+   "arama:finike:200"
+  ]
+ },
+ {
+  "ad": "Kaş (Antiphellos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kas:302",
+   "kas--sehir:302",
+   "antiphellos:302",
+   "antiphellos--sehir:302",
+   "arama:kas:200",
+   "arama:antiphellos:200"
+  ]
+ },
+ {
+  "ad": "Elmalı",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "elmali:302",
+   "elmali--sehir:302",
+   "arama:elmali:200"
+  ]
+ },
+ {
+  "ad": "Konurapa (Düzce)",
+  "sinif": "3",
+  "neden": "TDV `duzce` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Mudurnu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mudurnu:302",
+   "mudurnu--sehir:302",
+   "arama:mudurnu:200"
+  ]
+ },
+ {
+  "ad": "Karadeniz Ereğli",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karadeniz-eregli:302",
+   "karadeniz-eregli--sehir:302",
+   "arama:karadeniz-eregli:200"
+  ]
+ },
+ {
+  "ad": "Devrek",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "devrek:302",
+   "devrek--sehir:302",
+   "arama:devrek:200"
+  ]
+ },
+ {
+  "ad": "Akçakoca",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "akcakoca:302",
+   "akcakoca--sehir:302",
+   "arama:akcakoca:200"
+  ]
+ },
+ {
+  "ad": "Ayvalık",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayvalik:302",
+   "ayvalik--sehir:302",
+   "arama:ayvalik:200"
+  ]
+ },
+ {
+  "ad": "Selmâs (Dilman)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "selmas:302",
+   "selmas--sehir:302",
+   "dilman:302",
+   "dilman--sehir:302",
+   "arama:selmas:200",
+   "arama:dilman:200"
+  ]
+ },
+ {
+  "ad": "Mâku",
+  "sinif": "3",
+  "neden": "TDV `maku` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Arapkir",
+  "sinif": "3",
+  "neden": "TDV `arapkir` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Kâhta",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kahta:302",
+   "kahta--sehir:302",
+   "arama:kahta:200"
+  ]
+ },
+ {
+  "ad": "Çemişgezek",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cemisgezek:302",
+   "cemisgezek--sehir:302",
+   "arama:cemisgezek:200"
+  ]
+ },
+ {
+  "ad": "Palu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "palu:302",
+   "palu--sehir:302",
+   "arama:palu:200"
+  ]
+ },
+ {
+  "ad": "Siverek",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "siverek:302",
+   "siverek--sehir:302",
+   "arama:siverek:200"
+  ]
+ },
+ {
+  "ad": "Karabiga",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karabiga:302",
+   "karabiga--sehir:302",
+   "arama:karabiga:200"
+  ]
+ },
+ {
+  "ad": "Behramkale (Assos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "behramkale:302",
+   "behramkale--sehir:302",
+   "assos:302",
+   "assos--sehir:302",
+   "arama:behramkale:200",
+   "arama:assos:200"
+  ]
+ },
+ {
+  "ad": "Beykoz",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "beykoz:200",
+   "beykoz--sehir:302",
+   "arama:beykoz:200"
+  ]
+ },
+ {
+  "ad": "Şarköy",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sarkoy:302",
+   "sarkoy--sehir:302",
+   "arama:sarkoy:200"
+  ]
+ },
+ {
+  "ad": "Havsa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "havsa:302",
+   "havsa--sehir:302",
+   "arama:havsa:200"
+  ]
+ },
+ {
+  "ad": "Meriç (İpsala kuzeyi)",
+  "sinif": "3",
+  "neden": "TDV `meric` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Orestiada (Kumçiftliği)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "orestiada:302",
+   "orestiada--sehir:302",
+   "kumciftligi:302",
+   "kumciftligi--sehir:302",
+   "arama:orestiada:200",
+   "arama:kumciftligi:200"
+  ]
+ },
+ {
+  "ad": "Sofulu (Soufli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sofulu:302",
+   "sofulu--sehir:302",
+   "soufli:302",
+   "soufli--sehir:302",
+   "arama:sofulu:200",
+   "arama:soufli:200"
+  ]
+ },
+ {
+  "ad": "Lalapaşa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lalapasa:302",
+   "lalapasa--sehir:302",
+   "arama:lalapasa:200"
+  ]
+ },
+ {
+  "ad": "Kofçaz",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kofcaz:302",
+   "kofcaz--sehir:302",
+   "arama:kofcaz:200"
+  ]
+ },
+ {
+  "ad": "Demirköy",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "demirkoy:302",
+   "demirkoy--sehir:302",
+   "arama:demirkoy:200"
+  ]
+ },
+ {
+  "ad": "İğneada",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "igneada:302",
+   "igneada--sehir:302",
+   "arama:igneada:200"
+  ]
+ },
+ {
+  "ad": "Mustafapaşa (Svilengrad)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mustafapasa:302",
+   "mustafapasa--sehir:302",
+   "svilengrad:302",
+   "svilengrad--sehir:302",
+   "arama:mustafapasa:200",
+   "arama:svilengrad:200"
+  ]
+ },
+ {
+  "ad": "Elhova (Elhovo)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "elhova:302",
+   "elhova--sehir:302",
+   "elhovo:302",
+   "elhovo--sehir:302",
+   "arama:elhova:200",
+   "arama:elhovo:200"
+  ]
+ },
+ {
+  "ad": "Malko Tırnova",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "malko-tirnova:302",
+   "malko-tirnova--sehir:302",
+   "arama:malko-tirnova:200"
+  ]
+ },
+ {
+  "ad": "Ahtapolu (Ahtopol)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ahtapolu:302",
+   "ahtapolu--sehir:302",
+   "ahtopol:302",
+   "ahtopol--sehir:302",
+   "arama:ahtapolu:200",
+   "arama:ahtopol:200"
+  ]
+ },
+ {
+  "ad": "Rezve (Rezovo)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rezve:302",
+   "rezve--sehir:302",
+   "rezovo:302",
+   "rezovo--sehir:302",
+   "arama:rezve:200",
+   "arama:rezovo:200"
+  ]
+ },
+ {
+  "ad": "Suruç",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "suruc:302",
+   "suruc--sehir:302",
+   "arama:suruc:200"
+  ]
+ },
+ {
+  "ad": "Cerablus",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cerablus:302",
+   "cerablus--sehir:302",
+   "arama:cerablus:200"
+  ]
+ },
+ {
+  "ad": "Ayn el-Arab (Kobani)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayn-el-arab:302",
+   "ayn-el-arab--sehir:302",
+   "kobani:302",
+   "kobani--sehir:302",
+   "arama:ayn-el-arab:200",
+   "arama:kobani:200"
+  ]
+ },
+ {
+  "ad": "Şavşat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "savsat:302",
+   "savsat--sehir:302",
+   "arama:savsat:200"
+  ]
+ },
+ {
+  "ad": "Posof",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "posof:302",
+   "posof--sehir:302",
+   "arama:posof:200"
+  ]
+ },
+ {
+  "ad": "Hanak",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hanak:302",
+   "hanak--sehir:302",
+   "arama:hanak:200"
+  ]
+ },
+ {
+  "ad": "Arpaçay (Akyaka)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "arpacay:302",
+   "arpacay--sehir:302",
+   "akyaka:302",
+   "akyaka--sehir:302",
+   "arama:arpacay:200",
+   "arama:akyaka:200"
+  ]
+ },
+ {
+  "ad": "Digor",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "digor:302",
+   "digor--sehir:302",
+   "arama:digor:200"
+  ]
+ },
+ {
+  "ad": "Gümrü (Aleksandropol)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gumru:302",
+   "gumru--sehir:302",
+   "aleksandropol:302",
+   "aleksandropol--sehir:302",
+   "arama:gumru:200",
+   "arama:aleksandropol:200"
+  ]
+ },
+ {
+  "ad": "Eçmiyadzin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ecmiyadzin:302",
+   "ecmiyadzin--sehir:302",
+   "arama:ecmiyadzin:200"
+  ]
+ },
+ {
+  "ad": "Çaldıran",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "caldiran:302",
+   "caldiran--sehir:302",
+   "arama:caldiran:200"
+  ]
+ },
+ {
+  "ad": "Başkale",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "baskale:302",
+   "baskale--sehir:302",
+   "arama:baskale:200"
+  ]
+ },
+ {
+  "ad": "Yüksekova (Gever)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yuksekova:302",
+   "yuksekova--sehir:302",
+   "gever:302",
+   "gever--sehir:302",
+   "arama:yuksekova:200",
+   "arama:gever:200"
+  ]
+ },
+ {
+  "ad": "Hopa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hopa:302",
+   "hopa--sehir:302",
+   "arama:hopa:200"
+  ]
+ },
+ {
+  "ad": "Sarp",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sarp:302",
+   "sarp--sehir:302",
+   "arama:sarp:200"
+  ]
+ },
+ {
+  "ad": "Payas",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "payas:302",
+   "payas--sehir:302",
+   "arama:payas:200"
+  ]
+ },
+ {
+  "ad": "Dörtyol",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dortyol:302",
+   "dortyol--sehir:302",
+   "arama:dortyol:200"
+  ]
+ },
+ {
+  "ad": "Erzin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "erzin:302",
+   "erzin--sehir:302",
+   "arama:erzin:200"
+  ]
+ },
+ {
+  "ad": "Yumurtalık",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yumurtalik:302",
+   "yumurtalik--sehir:302",
+   "arama:yumurtalik:200"
+  ]
+ },
+ {
+  "ad": "Arhavi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "arhavi:302",
+   "arhavi--sehir:302",
+   "arama:arhavi:200"
+  ]
+ },
+ {
+  "ad": "Borçka",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "borcka:302",
+   "borcka--sehir:302",
+   "arama:borcka:200"
+  ]
+ },
+ {
+  "ad": "Sarıkamış",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sarikamis:302",
+   "sarikamis--sehir:302",
+   "arama:sarikamis:200"
+  ]
+ },
+ {
+  "ad": "Ahılkelek (Akhalkalaki)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ahilkelek:302",
+   "ahilkelek--sehir:302",
+   "akhalkalaki:302",
+   "akhalkalaki--sehir:302",
+   "arama:ahilkelek:200",
+   "arama:akhalkalaki:200"
+  ]
+ },
+ {
+  "ad": "İshaklı",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ishakli:302",
+   "ishakli--sehir:302",
+   "arama:ishakli:200"
+  ]
+ },
+ {
+  "ad": "Ilgın",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ilgin:302",
+   "ilgin--sehir:302",
+   "arama:ilgin:200"
+  ]
+ },
+ {
+  "ad": "Karapınar",
+  "sinif": "3",
+  "neden": "TDV `karapinar` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Ulukışla",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ulukisla:302",
+   "ulukisla--sehir:302",
+   "arama:ulukisla:200"
+  ]
+ },
+ {
+  "ad": "Kelkit",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kelkit:302",
+   "kelkit--sehir:302",
+   "arama:kelkit:200"
+  ]
+ },
+ {
+  "ad": "Aşkale",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "askale:302",
+   "askale--sehir:302",
+   "arama:askale:200"
+  ]
+ },
+ {
+  "ad": "Silivri",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "silivri:302",
+   "silivri--sehir:302",
+   "arama:silivri:200"
+  ]
+ },
+ {
+  "ad": "Vize",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vize:302",
+   "vize--sehir:302",
+   "arama:vize:200"
+  ]
+ },
+ {
+  "ad": "Çatalca",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "catalca:302",
+   "catalca--sehir:302",
+   "arama:catalca:200"
+  ]
+ },
+ {
+  "ad": "Çölemerik (Hakkâri)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "colemerik:200",
+   "colemerik--sehir:302",
+   "hakkari:200",
+   "hakkari--sehir:302",
+   "arama:colemerik:200",
+   "arama:hakkari:200"
+  ]
+ },
+ {
+  "ad": "Hoşap (Mahmudi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hosap:302",
+   "hosap--sehir:302",
+   "mahmudi:302",
+   "mahmudi--sehir:302",
+   "arama:hosap:200",
+   "arama:mahmudi:200"
+  ]
+ },
+ {
+  "ad": "Bargiri (Muradiye)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bargiri:302",
+   "bargiri--sehir:302",
+   "muradiye:302",
+   "muradiye--sehir:302",
+   "arama:bargiri:200",
+   "arama:muradiye:200"
+  ]
+ },
+ {
+  "ad": "Kotur",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kotur:302",
+   "kotur--sehir:302",
+   "arama:kotur:200"
+  ]
+ },
+ {
+  "ad": "Bacirge (Esendere)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bacirge:302",
+   "bacirge--sehir:302",
+   "esendere:302",
+   "esendere--sehir:302",
+   "arama:bacirge:200",
+   "arama:esendere:200"
+  ]
+ },
+ {
+  "ad": "Sero",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sero:302",
+   "sero--sehir:302",
+   "arama:sero:200"
+  ]
+ },
+ {
+  "ad": "Şemdinli (Şemdinni)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "semdinli:302",
+   "semdinli--sehir:302",
+   "semdinni:302",
+   "semdinni--sehir:302",
+   "arama:semdinli:200",
+   "arama:semdinni:200"
+  ]
+ },
+ {
+  "ad": "Şeyhrumi (Yücelen)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "seyhrumi:302",
+   "seyhrumi--sehir:302",
+   "yucelen:302",
+   "yucelen--sehir:302",
+   "arama:seyhrumi:200",
+   "arama:yucelen:200"
+  ]
+ },
+ {
+  "ad": "Şeyh Salû-yi Ulyâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "seyh-salu-yi-ulya:302",
+   "seyh-salu-yi-ulya--sehir:302",
+   "arama:seyh-salu-yi-ulya:200"
+  ]
+ },
+ {
+  "ad": "Mercihamis (Yurtbağı)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mercihamis:302",
+   "mercihamis--sehir:302",
+   "yurtbagi:302",
+   "yurtbagi--sehir:302",
+   "arama:mercihamis:200",
+   "arama:yurtbagi:200"
+  ]
+ },
+ {
+  "ad": "Sincan",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sincan:200",
+   "sincan--sehir:302",
+   "arama:sincan:200"
+  ]
+ },
+ {
+  "ad": "Uluköy (Akçadam)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ulukoy:302",
+   "ulukoy--sehir:302",
+   "akcadam:302",
+   "akcadam--sehir:302",
+   "arama:ulukoy:200",
+   "arama:akcadam:200"
+  ]
+ },
+ {
+  "ad": "Stérna",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sterna:302",
+   "sterna--sehir:302",
+   "arama:sterna:200"
+  ]
+ },
+ {
+  "ad": "Távri",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tavri:302",
+   "tavri--sehir:302",
+   "arama:tavri:200"
+  ]
+ },
+ {
+  "ad": "Küfkaynapınarı (Azatlı)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kufkaynapinari:302",
+   "kufkaynapinari--sehir:302",
+   "azatli:302",
+   "azatli--sehir:302",
+   "arama:kufkaynapinari:200",
+   "arama:azatli:200"
+  ]
+ },
+ {
+  "ad": "Karpuzlu (Yenikarpuzlu)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karpuzlu:302",
+   "karpuzlu--sehir:302",
+   "yenikarpuzlu:302",
+   "yenikarpuzlu--sehir:302",
+   "arama:karpuzlu:200",
+   "arama:yenikarpuzlu:200"
+  ]
+ },
+ {
+  "ad": "Malak Dervent (Lalkovo)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "malak-dervent:302",
+   "malak-dervent--sehir:302",
+   "lalkovo:302",
+   "lalkovo--sehir:302",
+   "arama:malak-dervent:200",
+   "arama:lalkovo:200"
+  ]
+ },
+ {
+  "ad": "Umur Fakih (Fakia)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "umur-fakih:302",
+   "umur-fakih--sehir:302",
+   "fakia:302",
+   "fakia--sehir:302",
+   "arama:umur-fakih:200",
+   "arama:fakia:200"
+  ]
+ },
+ {
+  "ad": "Zazalo",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zazalo:302",
+   "zazalo--sehir:302",
+   "arama:zazalo:200"
+  ]
+ },
+ {
+  "ad": "Murvaneti",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "murvaneti:302",
+   "murvaneti--sehir:302",
+   "arama:murvaneti:200"
+  ]
+ },
+ {
+  "ad": "Ts’q’altbila",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tsqaltbila:302",
+   "tsqaltbila--sehir:302",
+   "arama:tsqaltbila:200"
+  ]
+ },
+ {
+  "ad": "Saylıca",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "saylica:302",
+   "saylica--sehir:302",
+   "arama:saylica:200"
+  ]
+ },
+ {
+  "ad": "Makhalak’auri",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "makhalakauri:302",
+   "makhalakauri--sehir:302",
+   "arama:makhalakauri:200"
+  ]
+ },
+ {
+  "ad": "Norapat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "norapat:302",
+   "norapat--sehir:302",
+   "arama:norapat:200"
+  ]
+ },
+ {
+  "ad": "Beri",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "beri:302",
+   "beri--sehir:302",
+   "arama:beri:200"
+  ]
+ },
+ {
+  "ad": "Kliçatak (Suser)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "klicatak:302",
+   "klicatak--sehir:302",
+   "suser:302",
+   "suser--sehir:302",
+   "arama:klicatak:200",
+   "arama:suser:200"
+  ]
+ },
+ {
+  "ad": "Küçükperveli",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kucukperveli:302",
+   "kucukperveli--sehir:302",
+   "arama:kucukperveli:200"
+  ]
+ },
+ {
+  "ad": "Darende",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "darende:302",
+   "darende--sehir:302",
+   "arama:darende:200"
+  ]
+ },
+ {
+  "ad": "Midyat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "midyat:302",
+   "midyat--sehir:302",
+   "arama:midyat:200"
+  ]
+ },
+ {
+  "ad": "Zamantı (Pınarbaşı)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zamanti:302",
+   "zamanti--sehir:302",
+   "pinarbasi:302",
+   "pinarbasi--sehir:302",
+   "arama:zamanti:200",
+   "arama:pinarbasi:200"
+  ]
+ },
+ {
+  "ad": "Gölköy (Habsamana)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "golkoy:302",
+   "golkoy--sehir:302",
+   "habsamana:302",
+   "habsamana--sehir:302",
+   "arama:golkoy:200",
+   "arama:habsamana:200"
+  ]
+ },
+ {
+  "ad": "Göksun",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "goksun:302",
+   "goksun--sehir:302",
+   "arama:goksun:200"
+  ]
+ },
+ {
+  "ad": "Gürün",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gurun:302",
+   "gurun--sehir:302",
+   "arama:gurun:200"
+  ]
+ },
+ {
+  "ad": "Reşadiye (İskefsir)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "resadiye:302",
+   "resadiye--sehir:302",
+   "iskefsir:302",
+   "iskefsir--sehir:302",
+   "arama:resadiye:200",
+   "arama:iskefsir:200"
+  ]
+ }
+]
