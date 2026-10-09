@@ -1,23 +1,26 @@
-DOGU-1533-0087 — KRONOLOJİ diff, UYGULANMADI. Temel d16c2b0f. Gün: 1534-06-01 (tek madde, olaylar_ek17.js). Iğdır çıkarıldı, Şüregel/Küçükperveli eklendi.
+DOGU-1533-0087 — KRONOLOJİ diff (v2), UYGULANMADI. Temel origin/main 03c49ad5. Gün: 1534-06-01 kesinlik:ay (tek madde, olaylar_ek17.js). Iğdır çıkarıldı · Şüregel/Küçükperveli eklendi · ay TDV irakeyn-seferi'nden birebir.
 
 diff --git a/data/olaylar_ek17.js b/data/olaylar_ek17.js
-index de5eb7d5..a7d855ec 100644
+index de5eb7d5..df96f810 100644
 --- a/data/olaylar_ek17.js
 +++ b/data/olaylar_ek17.js
-@@ -196,12 +196,12 @@ window.OLAYLAR_EK17 = [
+@@ -195,13 +195,13 @@ window.OLAYLAR_EK17 = [
+   d:"1369 kışını Edirne Sarayı'nda geçiren I. Murad, baharda Bizans'a karşı yeniden harekete geçti ve Istıranca dağlarının eteğindeki Pınarhisar, Kırkkilise ve Vize kalelerini ele geçirdi. Bu fetihler İstanbul'da paniğe yol açtı ve İmparator V. Ioannes yardım aramak için papaya gitmeye karar verdi.", ic_not_d:"Kırklareli ve Vize adıyla kaynaklı (TDV murad-i); Kofçaz, Dereköy, Demirköy, Malko Tırnova şartlı komşu günüyle (Kırklareli). İğneada, Ahtopol, Rezovo için fetih yılı BULUNAMADI — 1361-01-01'de BIRAKILDI (Emre sorusu, UYGULA 16 Eyl); Havsa · Orestiada · Lalapaşa Edirne maddesine (1361-05-05), Mustafapaşa T4 bekliyor. TDV kirklareli ayrıca 1366 ve 1368-69 yıllarını anar.",
    kaynak:"murad-i · kirklareli", duygu:["⚔️","🎌"] },
  
- { t:"1534-06-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+-{ t:"1534-06-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
 -  b:"Kars çevresinin bütünleşmesi: Arpaçay, Digor ve Iğdır'ın Osmanlı idaresine girmesi",
-+  b:"Kars çevresinin bütünleşmesi: Şüregel, Arpaçay ve Digor'un Osmanlı idaresine girmesi",
-   gun:"1534", ic_not_gun:"TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı",
+-  gun:"1534", ic_not_gun:"TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı",
 -  yer:"Arpaçay (Akyaka), Digor, Iğdır", yer_id:"Kars",
++{ t:"1534-06-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
++  b:"Kars çevresinin bütünleşmesi: Şüregel, Arpaçay ve Digor'un Osmanlı idaresine girmesi",
++  gun:"Haziran 1534 (ay hassasiyeti; gün kaynakta yok)", ic_not_gun:"DOGU-1533-0087 (koordinatör hükmü): ay TDV irakeyn-seferi'nden — \"Mayıs 1534’te Diyarbekir’e gelerek … Tebriz’e yöneldi\" · \"Üsküdar’dan hareket eden (14 Haziran 1534) padişah da Erzurum’a ulaşmış bulunuyordu\". Kars'ın günü KULLANILMADI (D207). ⚠️ TDV Şüregel'in alınış AYINI ayrıca vermiyor; ay seferin takviminden okunur.",
 +  yer:"Arpaçay (Akyaka), Digor, Küçükperveli", yer_id:"Kars",
    kisiler:"Makbul İbrahim Paşa",
 -  d:"Irakeyn Seferi'nin öncü kolu Kars'ı aldığında, kalenin hemen kuzey ve doğusundaki Arpaçay, Digor ve Iğdır ovaları da aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
 -  kaynak:"kars + irakeyn-seferi (yalnız çıkarım, alıntı değil)", duygu:["🎉"] },
 +  d:"Irakeyn Seferi sırasında Pasin, Şüregel ve Oltu kaleleri Osmanlılar'ın eline geçti; Kars Kalesi'nin de bu sırada bağlandığı kuvvetle muhtemeldir. Kars'ın kuzey ve doğusundaki Arpaçay ve Digor yöresi aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"🆕 DOGU-1533-0087 (9 Ekim 2026): IĞDIR ÇIKARILDI — TDV igdir--sehir: Iğdır ve Sürmeli Çukur 1583'te Revan'ın fethiyle kesin Osmanlı oldu, 1736'da Revan eyaletiyle İran'a kaldı, 1828-1917 Rus; 1534'te Osmanlı DEĞİL. Şüregel TDV kars'ta ADIYLA geçer (Küçükperveli Şüregel/Akyaka'ya 7,5 km — W6-DALGA2); Arpaçay (Zaruşad) ve Digor için 1534 hâlâ ÇIKARIMDIR. Kars'ın kendisi TDV'de 'kuvvetle muhtemel'dir. ⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
-+  kaynak:"kars (Şüregel · 940/1534 adıyla; Arpaçay/Digor çıkarım) + irakeyn-seferi + igdir--sehir (Iğdır'ın çıkarılması)", duygu:["🎉"] },
++  kaynak:"kars (Şüregel · 940/1534 adıyla; Arpaçay/Digor çıkarım) + irakeyn-seferi (ay) + igdir--sehir (Iğdır'ın çıkarılması)", duygu:["🎉"] },
  
  { t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
    b:"Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
