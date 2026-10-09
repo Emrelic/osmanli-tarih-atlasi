@@ -1,5 +1,5 @@
 diff --git a/arac/denetle.py b/arac/denetle.py
-index 63b683bd..c08bf994 100644
+index 63b683bd..f953bec8 100644
 --- a/arac/denetle.py
 +++ b/arac/denetle.py
 @@ -5860,6 +5860,54 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False, kor_defter_yaz=False, ko
@@ -57,11 +57,12 @@ index 63b683bd..c08bf994 100644
  KAYNAK_TAVAN_YOL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                                  "denetim", "KAYNAK-TAVAN.json")
  
-@@ -5871,9 +5919,20 @@ def _kaynak_dolu(v):
+@@ -5871,9 +5919,21 @@ def _kaynak_dolu(v):
      return bool(v)
  
  
 -def kaynaksizlik_olc(Y):
++# Bu kapı girdi.VERI_UFKU'na dayanır (bugün 1281-1923). O sabiti değiştiren, bu ölçümü de değiştirir.
 +def _donem_pencerede(p, ufuk):
 +    """`s:` dönemi `[f, t)` ufuk penceresi `[ufuk[0], ufuk[1])` ile kesişiyor mu
 +    (KAYNAK_TAVAN_YOL üstündeki PENCERE ŞARTI; uç yoksa açık — `kd_gun` gibi)."""
@@ -80,7 +81,7 @@ index 63b683bd..c08bf994 100644
      K = {"s_tasiyan": [], "kayit_kaynaksiz": [], "donem_ici": [], "hicbiri": []}
      for y in Y:
          if not y.get("s"):
-@@ -5883,7 +5942,8 @@ def kaynaksizlik_olc(Y):
+@@ -5883,7 +5943,8 @@ def kaynaksizlik_olc(Y):
          if _kaynak_dolu(y.get("kaynak")):
              continue
          K["kayit_kaynaksiz"].append(a)
@@ -90,12 +91,28 @@ index 63b683bd..c08bf994 100644
              K["donem_ici"].append(a)
          else:
              K["hicbiri"].append(a)
+@@ -5973,6 +6034,15 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
+           f"kayıt-kaynaksız {nk} (tavan {tk}) — BEYAN borcu, yalnız gerileme bloke eder")
+     print(f"            i dönem-içi kaynaklı {nd} (BİLGİ — iyileşmeyle iki yönde de "
+           f"hareket eder) · {nk} = {nd} + {nh} · `s:` taşıyan {len(K['s_tasiyan'])}")
++    # BEYANLI SINIR (KAYNAK-PENCERE-1009 § v2): tavan dosyasının `_BEYANLI_SINIR`
++    # alanı yalnız BASILIR — kapının hükmüne, defterlere ve sayılara KATILMAZ.
++    # Pencerenin göremediği alt sınıfın (Z6 "f geri çekildi" dönemleri) adıyla
++    # beyanıdır; listenin ölçümle tutarlılığını ARAC-KAYNAK-PENCERE-SINAV-1009 sorar.
++    _bs = T.get("_BEYANLI_SINIR") if isinstance(T, dict) else None
++    if isinstance(_bs, dict) and isinstance(_bs.get("kayitlar"), list):
++        print(f"            i BEYANLI SINIR: {len(_bs['kayitlar'])} kayıt pencerede dönem-içi "
++              f"sayılır ama kaynağı yalnız 1281 öncesini tarihler (`_BEYANLI_SINIR`, "
++              f"çare kaynak_f — ayrı kalem)")
+     if ihlal or ayrinti:
+         for k in (yeni_h if ayrinti else yeni_h[:15]):
+             print(f"    KAYNAKSIZ YENİ  {k}  → kayda `kaynak:` yaz (bulunamadıysa `bulunamadı`)")
 diff --git a/denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py b/denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py
 new file mode 100644
-index 00000000..51aaa1f4
+index 00000000..bc1929db
 --- /dev/null
 +++ b/denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py
-@@ -0,0 +1,241 @@
+@@ -0,0 +1,309 @@
 +# -*- coding: utf-8 -*-
 +"""ARAC-KAYNAK-PENCERE-SINAV-1009 — kaynaksızlık ölçümünün PENCERE ŞARTI sınavı.
 +
@@ -331,6 +348,74 @@ index 00000000..51aaa1f4
 +         hicbiri_say(s2) == n["hicbiri"] and "✓" in s2 and not y2,
 +         "çıkış %s (öteki kapılar yapay dönemi görebilir) · %s" % (kod, s2.strip()[:80]))
 +
++# ── B: BEYANLI SINIR (§ v2) — `KAYNAK-TAVAN.json` `_BEYANLI_SINIR` ─────────
++# Pencerenin göremediği alt sınıf: kayıt kaynaksız, pencereyle kesişen kaynaklı
++# dönemlerinin HEPSİ VERI_UFKU[0]'dan önce başlıyor (Z6 "f geri çekildi"). Alan
++# kapıya KATILMAZ, yalnız basılır. B4 indirme işlevini GEÇİCİ KOPYADA çağırır
++# (1004 S9 emsali) — gerçek defter yazılmaz, `--kaynak-tavan-indir` koşmaz.
++import contextlib  # noqa: E402
++import shutil  # noqa: E402
++
++TAVAN = denetle.KAYNAK_TAVAN_YOL
++sinif = sorted(a for a in K["donem_ici"]
++               if (lambda ic: ic and all((p.get("f") or "") < P0 for p in ic))(
++                   [p for p in _idx[a]["s"] if isinstance(p, dict)
++                    and denetle._kaynak_dolu(p.get("kaynak")) and denetle._donem_pencerede(p, (P0, P1))]))
++try:
++    T = denetle._kaynak_tavan_oku(TAVAN)
++    BS = T.get("_BEYANLI_SINIR")
++except Exception as e:  # noqa: BLE001
++    T, BS = None, None
++    print("    tavan okunamadı: %s" % e)
++soru("B1", "tavan dosyası okuyucudan GEÇİYOR ve `_BEYANLI_SINIR.kayitlar` bir LİSTE",
++     T is not None and isinstance(BS, dict) and isinstance(BS.get("kayitlar"), list),
++     "%s kayıt" % (len(BS["kayitlar"]) if isinstance(BS, dict) and isinstance(BS.get("kayitlar"), list) else "—"))
++_bl = set(BS["kayitlar"]) if isinstance(BS, dict) and isinstance(BS.get("kayitlar"), list) else set()
++soru("B2", "beyan listesi = ÖLÇÜLEN sınıf, İKİ YÖNDE (listede olup sınıfta olmayan 0 · tersi 0)",
++     _bl == set(sinif), "ölçülen %d · liste %d · yalnız listede %s · yalnız ölçümde %s"
++     % (len(sinif), len(_bl), sorted(_bl - set(sinif))[:5], sorted(set(sinif) - _bl)[:5]))
++
++
++def _rapor(yol):
++    t = io.StringIO()
++    with contextlib.redirect_stdout(t):
++        r = denetle.kaynak_tavan_rapor(Y, yol=yol)
++    return r, t.getvalue().splitlines()
++
++
++_gd = tempfile.mkdtemp(prefix="kaynak-pencere-beyan-")
++try:
++    _alansiz = os.path.join(_gd, "alansiz.json")
++    _T0 = json.load(open(TAVAN, encoding="utf-8"))
++    _T0.pop("_BEYANLI_SINIR", None)
++    open(_alansiz, "w", encoding="utf-8").write(json.dumps(_T0, ensure_ascii=False, indent=1))
++    r1, c1 = _rapor(TAVAN)
++    r0, c0 = _rapor(_alansiz)
++    _ek = [x for x in c1 if x not in c0]
++    soru("B3", "alan YALNIZ BASILIR: hüküm aynı, çıktı farkı TEK satır ('BEYANLI SINIR'), başka satır değişmedi",
++         r1 == r0 and len(c1) == len(c0) + 1 and len(_ek) == 1 and "BEYANLI SINIR" in _ek[0]
++         and [x for x in c1 if x != _ek[0]] == c0, "hüküm %s/%s · ek: %s" % (r0, r1, _ek[:1]))
++    _bozuk = os.path.join(_gd, "bozuk.json")
++    _Tb = json.load(open(TAVAN, encoding="utf-8"))
++    _Tb["_BEYANLI_SINIR"] = {"kayitlar": "liste değil"}
++    open(_bozuk, "w", encoding="utf-8").write(json.dumps(_Tb, ensure_ascii=False, indent=1))
++    rb, cb = _rapor(_bozuk)
++    soru("B4", "NEGATİF: bozuk alan kapıyı DÜŞÜRMEZ ve basılmaz (hüküm ve çıktı alansızla aynı)",
++         rb == r0 and cb == c0)
++    _kopya = os.path.join(_gd, "KAYNAK-TAVAN.json")
++    shutil.copyfile(TAVAN, _kopya)
++    _h = K["hicbiri"][0]
++    _Yi = [dict(y, kaynak="sınav — iyileşme") if "%s|%s" % (y.get("_kaynak"), y.get("ad")) == _h
++           else y for y in Y]
++    with contextlib.redirect_stdout(io.StringIO()):
++        _yz = denetle.kaynak_tavan_indir(_Yi, yol=_kopya)
++    _Tk = json.load(open(_kopya, encoding="utf-8"))
++    soru("B5", "indirme işlevi (GEÇİCİ KOPYADA) alanı OLDUĞU GİBİ KORUYOR",
++         _yz is True and _Tk.get("_BEYANLI_SINIR") == json.load(open(TAVAN, encoding="utf-8")).get("_BEYANLI_SINIR"),
++         "indir döndü %s · hedef %s" % (_yz, _h))
++finally:
++    shutil.rmtree(_gd, ignore_errors=True)
++
 +soru("S-iz", "sınav iz bırakmadı (arac · data · KAYNAK-TAVAN.json)", git_durum() == iz_once)
 +
 +dusen = [s for s in sonuc if not s[2]]
@@ -376,3 +461,62 @@ index 575d7d2e..5a203360 100644
      if r.returncode != 0:
          return None, r.stderr.decode("utf-8", "replace")[-200:]
      return json.loads(r.stdout.decode("utf-8")), ""
+diff --git a/denetim/KAYNAK-TAVAN.json b/denetim/KAYNAK-TAVAN.json
+index c41686fd..5f33ef53 100644
+--- a/denetim/KAYNAK-TAVAN.json
++++ b/denetim/KAYNAK-TAVAN.json
+@@ -1,5 +1,54 @@
+ {
+  "_NOT": "Kaynaksızlık tavanı (KAYNAK-TAVAN, 4 Ekim 2026). Ölçüm KASA-KAYNAKSIZ-1004 + koordinatör doğrulaması; tavan BUGÜNKÜ ÖLÇÜMDÜR — dondurma, onay DEĞİL. Yalnız `py arac/denetle.py --kaynak-tavan-indir` ile İNER; yükselten bayrak yoktur (D255). Defter = borçlu kayıtların `dosya|ad` listesi; 'defterde var' ≠ 'incelendi ve kabul edildi'. Ayrıntı: denetle.py KAYNAK_TAVAN_YOL bloğu.",
++ "_BEYANLI_SINIR": {
++  "tarih": "2026-10-10",
++  "kaynak": "denetim/KAYNAK-PENCERE-1009.md § v2",
++  "cumle": "Pencere bunları dönem-içi sayar ama kaynak yalnız 1281 öncesini tarihler; hangi ucun tarihlendiği veride yazılı değil — BEYANLI SINIR, kör nokta değil. Çare: kaynak_f (ayrı kalem).",
++  "olcut": "kayıt düzeyinde kaynak yok + pencereyle (girdi.VERI_UFKU) kesişen kaynaklı `s:` dönemlerinin HEPSİNİN f'si VERI_UFKU[0]'dan önce. Liste ↔ ölçüm eşitliğini denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py B2 iki yönde sorar.",
++  "not": "Kapı bu alanı YALNIZ BASAR; hükme, defterlere, sayılara katılmaz. 40 = md A2'nin 39'u + Nakşa: Nakşa Z6'dan ÖNCE de dönem-içiydi (önceki kaynağı da 1207'yi tarihliyordu), bu yüzden A2'nin 'Z6 hiçbiri'nden düşürdü' sayımına girmedi; yapısal ölçüt onu da yakalar.",
++  "kayitlar": [
++   "yerlesimler.js|Antalya",
++   "yerlesimler.js|Atina",
++   "yerlesimler.js|Dimyat",
++   "yerlesimler.js|Fas (Fez)",
++   "yerlesimler.js|Gelibolu",
++   "yerlesimler.js|Giresun",
++   "yerlesimler.js|Isfahan",
++   "yerlesimler.js|Isparta",
++   "yerlesimler.js|Kahire",
++   "yerlesimler.js|Karaman",
++   "yerlesimler.js|Konya",
++   "yerlesimler.js|Kütahya",
++   "yerlesimler.js|Livadya",
++   "yerlesimler.js|Manisa",
++   "yerlesimler.js|Mardin",
++   "yerlesimler.js|Merakeş",
++   "yerlesimler.js|Merv (Mari)",
++   "yerlesimler.js|Modon",
++   "yerlesimler.js|Nakşa",
++   "yerlesimler.js|Rabat",
++   "yerlesimler.js|Serahs",
++   "yerlesimler.js|Simnân",
++   "yerlesimler.js|Tanca",
++   "yerlesimler.js|Tekirdağ",
++   "yerlesimler.js|Trabzon",
++   "yerlesimler.js|İstanbul",
++   "yerlesimler.js|İstefe (Tebai)",
++   "yerlesimler.js|İzmit",
++   "yerlesimler.js|İznik",
++   "yerlesimler.js|Şehrizor",
++   "yerlesimler_asya.js|Delhi",
++   "yerlesimler_asya.js|Ecmîr (Ajmer)",
++   "yerlesimler_asya.js|Kaşgar",
++   "yerlesimler_asya.js|Koil (Aligarh)",
++   "yerlesimler_asya.js|Lahor",
++   "yerlesimler_ek14.js|Semerkant",
++   "yerlesimler_ek16.js|Belh",
++   "yerlesimler_ek16.js|Herat",
++   "yerlesimler_ek3.js|Sebte (Ceuta)",
++   "yerlesimler_h2_kuzeyafrika.js|Sicilmâse (Tâfilelt)"
++  ]
++ },
+  "olcum": {
+   "tarih": "2026-10-04",
+   "toplam": 4298,

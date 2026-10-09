@@ -702,3 +702,90 @@ Biçim: `dosya|ad` — kaynaklı dönemler [f, t, d] — hangi yamadan
 - İzmit: 1261-07-25→1281-01-01
 - İznik: 1261-07-25→1281-01-01
 - Şehrizor: 1258-01-01→1281-01-01
+
+---
+## § v2 — koordinatörün iki eki (10 Ekim 2026)
+
+Taban: origin/main **6af3ca8f**. Teslim `denetim/KAYNAK-PENCERE-1009-v2.diff` v1'in yerini alıyor ve v1 diskten
+kaldırıldı. Kurallar korundu: commit yok, `--kaynak-tavan-indir` koşmadı, `KAYNAK-TAVAN.json` yalnız diff
+içinde değişiyor.
+
+v2 diff dört dosyaya dokunuyor:
+- `arac/denetle.py`
+- `denetim/KAYNAK-TAVAN.json`
+- `denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py` (v1'deki node pencere güncellemesi)
+- `denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py` (yeni; B soruları eklendi)
+
+### Ek 1 — VERI_UFKU bağımlılık cümlesi
+- `denetle.py`'de `def _donem_pencerede` satırının hemen üstüne birebir şu cümle kondu:
+  `# Bu kapı girdi.VERI_UFKU'na dayanır (bugün 1281-1923). O sabiti değiştiren, bu ölçümü de değiştirir.`
+- `girdi.py`'ye DOKUNULMADI: dosya motor tuzunda ve koşu sürüyor.
+
+**girdi.py'ye inecek yorum (motor partisinde)** — öneri, `VERI_UFKU = (...)` satırının hemen üstüne:
+```
+#   ⚠️ KAYNAKSIZLIK KAPISI da VERI_UFKU'na dayanır (denetle.py `_donem_pencerede`,
+#   KAYNAK-PENCERE-1009): kaynaklı `s:` dönemi bu pencereyle kesişmiyorsa kayıt
+#   "dönem-içi" SAYILMAZ. Bu sabiti değiştiren, kaynaksızlık ölçümünü de değiştirir —
+#   genişletme commit'i "hiçbiri" düşüşünü adıyla beyan eder, `--kaynak-tavan-indir`
+#   o commit'te KOŞTURULMAZ (kapsam değişimi, iyileşme değil).
+```
+
+### Ek 2 — BEYANLI SINIR, liste olarak
+**Şema okundu.** `KAYNAK-TAVAN.json`un alanları şunlar: `_NOT` (tek dizgi) · `olcum` · `hicbiri` · `donem_ici` ·
+`hicbiri_defter` · `donem_ici_defter` · `gecmis`.
+- Liste taşıyabilen bir not alanı YOK. `_NOT` bir dizgi ve 40 adı oraya gömmek okunamaz olurdu.
+- Bu dosya ailesinde `_` önekli anahtar, kodun ölçüt olarak OKUMADIĞI üst veri demek (`_NOT`; kardeş
+  dosyalarda `DEGISMEZ-0086-*.json` `_NOT`, `kosu-ongoru-*.json` `_oturum`/`_olculmedi`).
+- ⇒ Yeni anahtar **`_BEYANLI_SINIR`**, `_NOT`un hemen arkasına kondu. Biçimi `json.dumps(indent=1)`: indirme
+  işlevinin yazdığı biçimin birebir aynısı (blob ile bayt eşitliği ölçüldü). Diff yalnız ekleme: +49 satır, −0.
+- Alanları: `tarih` · `kaynak` · `cumle` (koordinatörün cümlesi birebir) · `olcut` · `not` · `kayitlar` (40 `dosya|ad`).
+
+**39 değil 40.** Listeyi md A2'den kopyalamadım, YAPISAL ölçütle yeniden ölçtüm. Ölçüt şu: kayıtta kayıt düzeyi
+kaynak yok VE pencereyle kesişen kaynaklı dönemlerin HEPSİ `VERI_UFKU[0]`dan önce başlıyor. Sonuç **40**:
+A2'nin 39'unun hepsi ve **Nakşa** (`yerlesimler.js|Nakşa`).
+- Nakşa Z6'dan ÖNCE de dönem-içiydi. 9d76de1e'deki kaynağı da 1207'yi tarihliyordu, yani o da yalnız 1281 öncesini
+  söylüyordu.
+- Z6 bu kaynağı "f geri çekildi" metniyle değiştirdi ve eski metni "‖ önceki:" diye korudu.
+- A2'nin tanımı "Z6'nın hiçbiri'nden düşürdükleri" olduğu için Nakşa o sayıma girmedi. Yapısal ölçüt onu da
+  yakalıyor.
+- 40'ın hepsinin kaynak metni "geri çekildi" içeriyor (ölçüldü).
+- Liste: md A2'deki 39 + `yerlesimler.js|Nakşa`.
+
+### Kapı yeni alanı ne yapıyor — ÖLÇÜLDÜ
+`_kaynak_tavan_oku` yalnız zorunlu alanları sınıyor, fazla anahtarı reddetmiyor. `kaynak_tavan_rapor` alanı
+yalnız BASIYOR: tek bir bilgi satırı (`i BEYANLI SINIR: 40 kayıt …`). Hükme, defterlere ve sayılara katılmıyor.
+`kaynak_tavan_indir` T'nin tamamını yeniden yazdığı için alanı koruyor.
+
+Yeni sınavın B soruları (B5 indirme işlevini GEÇİCİ KOPYADA çağırıyor, 1004 S9 emsali; gerçek defter yazılmadı):
+
+| soru | ne soruyor |
+|---|---|
+| B1 | tavan dosyası okuyucudan geçiyor ve `kayitlar` bir liste |
+| B2 | liste = ölçülen sınıf, İKİ yönde (40 = 40; yalnız listede 0, yalnız ölçümde 0) |
+| B3 | alanlı ve alansız tavan: hüküm aynı (False/False), çıktı farkı TEK satır, başka satır değişmedi |
+| B4 | NEGATİF: bozuk alan (`kayitlar` liste değil) kapıyı düşürmüyor ve basılmıyor |
+| B5 | indirme işlevi alanı birebir koruyor |
+
+### v2 sonuçları
+Ölçüm tabanı 6af3ca8f, PYTHONHASHSEED=0.
+
+| ölçüm | önce (yamasız) | sonra (v2) |
+|---|---|---|
+| `denetle.py` çıkış kodu | 2 | 2 — AYNI |
+| `ARAC-KAYNAK-PENCERE-SINAV-1009.py` | — | **22/22** (P1-P10 · R1-R3 · G0-G2 GERÇEK koşu · B1-B5 · iz yok) |
+| `ARAC-KAYNAK-TAVAN-SINAV-1004.py` | 23/24 | **23/24** — AYNI |
+| `git apply --check` (temiz 6af3ca8f ağacı) | — | ✓ |
+| v2 diff dosyası | — | LF, BOM yok, CR 0 |
+
+`denetle.py` çıktısındaki fark yalnız kaynak bloğunda:
+- hiçbiri 1834 → 1841 (pencere: v1'deki 7 kayıt);
+- yeni bir bilgi satırı: `i BEYANLI SINIR: 40 kayıt pencerede dönem-içi sayılır ama kaynağı yalnız 1281 öncesini
+  tarihler (`_BEYANLI_SINIR`, çare kaynak_f — ayrı kalem)`;
+- kaynak satırı ✓.
+
+1004 sınavında düşen tek soru S18; önce de sonra da düşüyor ve sebebi yamaya bağlı değil (v1 § Gerileme).
+
+Beyan listesi (40): `yerlesimler.js|Antalya`, `yerlesimler.js|Atina`, `yerlesimler.js|Dimyat`, `yerlesimler.js|Fas (Fez)`, `yerlesimler.js|Gelibolu`, `yerlesimler.js|Giresun`, `yerlesimler.js|Isfahan`, `yerlesimler.js|Isparta`, `yerlesimler.js|Kahire`, `yerlesimler.js|Karaman`, `yerlesimler.js|Konya`, `yerlesimler.js|Kütahya`, `yerlesimler.js|Livadya`, `yerlesimler.js|Manisa`, `yerlesimler.js|Mardin`, `yerlesimler.js|Merakeş`, `yerlesimler.js|Merv (Mari)`, `yerlesimler.js|Modon`, `yerlesimler.js|Nakşa`, `yerlesimler.js|Rabat`, `yerlesimler.js|Serahs`, `yerlesimler.js|Simnân`, `yerlesimler.js|Tanca`, `yerlesimler.js|Tekirdağ`, `yerlesimler.js|Trabzon`, `yerlesimler.js|İstanbul`, `yerlesimler.js|İstefe (Tebai)`, `yerlesimler.js|İzmit`, `yerlesimler.js|İznik`, `yerlesimler.js|Şehrizor`, `yerlesimler_asya.js|Delhi`, `yerlesimler_asya.js|Ecmîr (Ajmer)`, `yerlesimler_asya.js|Kaşgar`, `yerlesimler_asya.js|Koil (Aligarh)`, `yerlesimler_asya.js|Lahor`, `yerlesimler_ek14.js|Semerkant`, `yerlesimler_ek16.js|Belh`, `yerlesimler_ek16.js|Herat`, `yerlesimler_ek3.js|Sebte (Ceuta)`, `yerlesimler_h2_kuzeyafrika.js|Sicilmâse (Tâfilelt)`
+
+YENİ DOSYALAR (v2): denetim/KAYNAK-PENCERE-1009-v2.diff (v1 `KAYNAK-PENCERE-1009.diff` diskten KALDIRILDI) ·
+denetim/KAYNAK-PENCERE-1009.md (§ v2 eklendi)
