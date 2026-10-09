@@ -124,7 +124,10 @@ daha geniş evrende sorar.
   kendi yorumu "toprak boyaması etkilenmiyor" der (`uret_petek.py:1051`). ⇒ Gövde
   çakışması / üst üste binme `kd:` ile DÜŞMEZ ve koşu istemez; o kusur
   `donemler.js` + `devletler_harita.js` gövdelerindedir. İki kusur sınıfı tek cümleyle
-  anılırsa bir oturum 40 dakikalık koşuyu boşa ister — bir kez tam bu oldu.
+  anılırsa bir oturum KOCA BİR KOŞUYU boşa ister — bir kez tam bu oldu.
+  ⚠️ Bu cümle uzun süre "40 dakikalık koşu" diyordu; sayı BAYATTI. Ölçüldü
+  (HAVVA, 9 Ekim 2026, `uretim_canli.log`): tam inşa **7-8 SAAT**. Yani boşa
+  istenen şey bir öğle arası değil, bir GECE — kural zayıflamıyor, güçleniyor.
 - **8 — şehir bölgesi ülke sınırını aşamaz** (Emre H-0069/H-0086, 27 Eyl 2026). İki soru,
   iki tavan: **8a** gövde, o gün geçerli D/E/F hattını aşıp karşı yakaya ≥ 5 km uzanan
   yerleşim peteği · **8b** Osmanlı `BOLGELER` poligonunun yabancı gövdeye düşen payı.
@@ -568,7 +571,12 @@ Alan alan tam şema, alan sözlüğü ve kaynak seti: **`VERI-YAPISI.md`**. Veri
 ## 9. Komutlar
 
 ```bash
-py arac/uret_petek.py     # harita üretimi (~40 dk, yalnız Oturum 0)
+py arac/uret_petek.py     # harita üretimi — 🔴 ~40 dk DEĞİL: TAM İNŞA **7-8 SAAT**
+                          #   ölçüldü (HAVVA, 9 Ekim 2026, `uretim_canli.log`
+                          #   AŞAMA BİLANÇOSU): KOŞU 21 duvar 7s13dk · KOŞU 20 8s13dk.
+                          #   En büyükler: yabancı gövdeler 2s38dk · dönemler 2s11dk ·
+                          #   ufuk bantları 57dk · çöl tavanı 30dk. Tuz değişirse
+                          #   önbellek tamamen ıskalar ⇒ üst sınır. Koşucu HAVVA (§7).
 py arac/uret_devirler.py  # devirler.js — uret_petek'ten SONRA koşar
 py arac/renk_olc.py       # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
 py arac/denetle.py        # altı değişmez
