@@ -1,0 +1,530 @@
+diff --git a/arac/_nobet.py b/arac/_nobet.py
+index 71b8f8e3..363b3917 100644
+--- a/arac/_nobet.py
++++ b/arac/_nobet.py
+@@ -66,7 +66,13 @@ def tahta_yeni(taban):
+         return taban, []
+     m = d["mesajlar"] if isinstance(d, dict) else d
+     bana = [x.get("no") for x in m if x.get("kime") in BEN]
+-    yeni = [n for n in bana if n and n > (taban or "")]
++    def _s(no):                     # ARAC-TAHTA-NUMARA-1010: sayı kısmı
++        try:
++            return int(str(no or "M-0").split("-")[-1])
++        except ValueError:
++            return 0
++    yeni = [n for n in bana if n and (_s(n) > _s(taban)
++                                      or (_s(n) == _s(taban) and n != taban))]
+     return (bana[-1] if bana else taban), yeni
+ 
+ 
+diff --git a/arac/tahta.py b/arac/tahta.py
+index fe8438e0..edc5b9f9 100644
+--- a/arac/tahta.py
++++ b/arac/tahta.py
+@@ -287,6 +287,58 @@ def _simdi():
+     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+ 
+ 
++# 🔴 MAKİNE ÖNEKLİ NUMARA — ARAC-TAHTA-NUMARA-1010 (10 Ekim 2026, ÖLÇÜLDÜ).
++#   `len(kayit)+1` yalnız TEK DOSYA içinde tekildir. Dallı topolojide her makine
++#   kendi tahta.json kopyasına yazar ⇒ M-5891/M-5892 iki dalda İKİ AYRI mesaja
++#   verildi (KASA ↔ DENETIM-OLU-ETIKET-1009); makine/kasa → main birleştirmesi
++#   tahta.json'da 3 çakışma bloğu verdi ve `--yanit`/`teyit` hangisine gittiği
++#   belirsiz kaldı. `_tazele` (pull) bunu kapatamaz: dal makineleri main'i çekmez.
++#   ⇒ Yeni numara `M-<MAKINE>-<n>`: önek makineyi ayırır, kilit (`_Kilit`) aynı
++#   dosyayı ayırır ⇒ (makine, n) iki dalda ÇAKIŞAMAZ. `n` sayısaldır ve eski
++#   numaraların devamıdır (en büyük + 1), `int(no.split("-")[-1])` okuyan
++#   tüketiciler (bekçi `_no`, sunucu `_no_sayi`) bozulmaz.
++#   ⚠️ ESKİ NUMARALAR DEĞİŞMEZ: M-0001…M-5892 aynen okunur, `--yanit`/`teyit`/
++#   `tamam`/`kapat` onlarla da çalışır (tam eşitlik araması).
++_NO_DESEN = re.compile(r"^M-(?:([A-Z][A-Z0-9]*)-)?(\d+)$")
++
++
++def _no_sira(no):
++    """Numaranın sayı kısmı — eski (`M-5892`) ve yeni (`M-UMIT-5893`) biçim."""
++    m = _NO_DESEN.match((no or "").strip().upper())
++    return int(m.group(2)) if m else 0
++
++
++def _makine_onek():
++    """Önek kaynağı, sırayla: ① `ATLAS_MAKINE` ortam değişkeni ② `git config
++    atlas.makine` (klona özel) ③ dal `makine/<ad>` ④ `socket.gethostname()`.
++    ⚠️ Aynı makinede İKİ klon ayrı dallara yazıyorsa ③/④ ikisine aynı öneki
++    verebilir — o klonda ② ile ayrı ad verilir (`git config atlas.makine X`)."""
++    ham = os.environ.get("ATLAS_MAKINE") or ""
++    _kod = {"capture_output": True, "text": True,
++            "encoding": "utf-8", "errors": "replace"}
++    try:
++        if not ham:
++            ham = (subprocess.run(["git", "-C", KOK, "config", "--get",
++                                   "atlas.makine"], **_kod).stdout or "").strip()
++        if not ham:
++            dal = (subprocess.run(["git", "-C", KOK, "symbolic-ref", "-q",
++                                   "--short", "HEAD"], **_kod).stdout or "").strip()
++            if dal.startswith("makine/"):
++                ham = dal[len("makine/"):]
++    except Exception:
++        pass
++    if not ham:
++        import socket
++        ham = socket.gethostname()
++    s = re.sub(r"[^A-Z0-9]", "", ham.upper())[:16]
++    return s if s[:1].isalpha() else "H" + (s or "0")
++
++
++def _yeni_no(kayit):
++    n = max([len(kayit)] + [_no_sira(x.get("no")) for x in kayit]) + 1
++    return "M-%s-%04d" % (_makine_onek(), n)
++
++
+ def _gorunum_yaz(kayit):
+     sat = ["# 📋 TAHTA — oturumlar arası mesaj panosu",
+            "",
+@@ -1055,7 +1107,7 @@ def yaz(a):
+     # Gerekçe `_Kilit` başlığında.
+     with _Kilit(VERI):
+         kayit = _yukle()
+-        no = "M-%04d" % (len(kayit) + 1)
++        no = _yeni_no(kayit)
+         m["no"] = no
+         if m["yanit_no"]:
+             hedef = next((x for x in kayit if x["no"] == m["yanit_no"]), None)
+diff --git a/arac/tahta_sunucu.py b/arac/tahta_sunucu.py
+index 6e9ab942..ad0a3352 100644
+--- a/arac/tahta_sunucu.py
++++ b/arac/tahta_sunucu.py
+@@ -527,8 +527,8 @@ def ey_yaz(g):
+             return 400, {"tamam": False, "kod": kod, "cikti": cikti}
+         # Numarayı `yaz`ın "<no> yazıldı" satırından al (sözleşmeli satır —
+         # `duyur.py` de okur). Kuyruk sondan aranmaz: araya yerel yazan girebilir.
+-        no = next((re.match(r"(M-\d+) yazıldı", s).group(1) for s in cikti
+-                   if re.match(r"(M-\d+) yazıldı", s)), None)
++        no = next((re.match(r"(M-(?:[A-Z][A-Z0-9]*-)?\d+) yazıldı", s).group(1) for s in cikti
++                   if re.match(r"(M-(?:[A-Z][A-Z0-9]*-)?\d+) yazıldı", s)), None)
+         with T._Kilit(T.VERI):
+             kayit = _kayit()
+             m = next((x for x in kayit if x.get("no") == no), None) if no else None
+diff --git a/arac/tahta_yeni.py b/arac/tahta_yeni.py
+index 92e80317..28ca8f83 100644
+--- a/arac/tahta_yeni.py
++++ b/arac/tahta_yeni.py
+@@ -63,7 +63,16 @@ def main(argv):
+         print("   ⇒ Seviye bilinmeden 'yeni yok' DENEMEZ.")
+         return 2
+ 
+-    yeni = [m for m in kayit if (m.get("no") or "") > seviye]
++    # ARAC-TAHTA-NUMARA-1010: dizgi karşılaştırması `M-UMIT-…`/`M-KASA-…`
++    #   öneklerini ALFABEYLE sıralardı ⇒ SAYI kısmı karşılaştırılır; eşit
++    #   sayılı BAŞKA makine mesajı (birleştirmeyle gelen) yeni sayılır.
++    def _s(no):
++        try:
++            return int(str(no or "M-0").split("-")[-1])
++        except ValueError:
++            return 0
++    yeni = [m for m in kayit if _s(m.get("no")) > _s(seviye)
++            or (_s(m.get("no")) == _s(seviye) and m.get("no") != seviye)]
+     if kim:
+         yeni = [m for m in yeni
+                 if (m.get("kime") or "").upper() == kim
+diff --git a/denetim/ARAC-TAHTA-NUMARA-SINAV-1010.py b/denetim/ARAC-TAHTA-NUMARA-SINAV-1010.py
+new file mode 100644
+index 00000000..54c77447
+--- /dev/null
++++ b/denetim/ARAC-TAHTA-NUMARA-SINAV-1010.py
+@@ -0,0 +1,396 @@
++# -*- coding: utf-8 -*-
++"""ARAC-TAHTA-NUMARA-SINAV-1010 — tahta numarası dallar arası ÇAKIŞMAZ mı? İKİ YÖNDE.
++
++KUSUR (ölçüldü, 10 Ekim 2026): `M-5891`/`M-5892` iki dalda İKİ AYRI mesaja verildi
++(origin/makine/kasa'da KASA'nın A/B teslimi ↔ origin/main'de DENETIM-OLU-ETIKET-1009).
++Sebep: `yaz` numarayı `len(kayit)+1` ile YEREL dosyadan sayar; dal makinesi main'i görmez.
++
++DÜZEN (gerçek tahtaya DOKUNMAZ): geçici dizinde bare "origin" + üç klon
++    A  → dal makine/a   (önek DALDAN: "A")
++    B  → dal makine/b   (önek `git config atlas.makine KASA`dan)
++    M  → main           (koordinatör; birleştirir)
++Her klona sınanan `tahta.py` kopyalanır; `tahta.py` yolunu kendi konumundan
++türettiği için (`KOK = arac/..`) tahta dosyası o klonun `oturumlar/tahta.json`udur.
++
++İKİ KOL, AYNI SENARYO:
++    YAMALI  → depodaki `arac/tahta.py`
++    YAMASIZ → aynı dosya, tek satır geri alınmış (`len(kayit)+1`) — kusurun kanıtı
++Senaryo: tohum M-0001..M-0003 (eski biçim; M-0002 ↩ M-0001) → A ve B EŞZAMANLI
++yazar (A: 1 mesaj + `--yanit M-0002` · B: 2 mesaj + `teyit M-0001`) → M, a'yı ve
++b'yi birleştirir → çakışma, numara anahtarlı birleşim ölçülür → eski ve yeni
++numarayla `teyit`/`tamam`/`kapat`/`--yanit`.
++
++ÇIKIŞ 0 = bütün sorular beklendiği gibi · 1 = en az bir soru tutmadı · 2 = koşulamadı
++"""
++import io
++import json
++import os
++import re
++import shutil
++import socket
++import stat
++import subprocess
++import sys
++import tempfile
++import threading
++
++try:
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++except Exception:
++    pass
++
++DEPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++TAHTA_PY = os.path.join(DEPO, "arac", "tahta.py")
++TAHTA_YENI_PY = os.path.join(DEPO, "arac", "tahta_yeni.py")
++YAMA_SATIRI = "        no = _yeni_no(kayit)\n"
++ESKI_SATIR = "        no = \"M-%04d\" % (len(kayit) + 1)\n"
++
++SONUC = []
++
++
++def soru(ad, kosul, ayrinti=""):
++    SONUC.append((ad, bool(kosul)))
++    print("  %s %s%s" % ("✓" if kosul else "✗", ad, ("  — " + ayrinti) if ayrinti else ""))
++
++
++def git(kok, *a, kontrol=True):
++    r = subprocess.run(["git", "-C", kok] + list(a), capture_output=True,
++                       text=True, encoding="utf-8", errors="replace")
++    if kontrol and r.returncode != 0:
++        raise RuntimeError("git %s: %s" % (" ".join(a), (r.stderr or r.stdout)[:300]))
++    return r
++
++
++def tahta(kok, *a, env_ek=None):
++    env = dict(os.environ)
++    env.pop("ATLAS_MAKINE", None)
++    env.update(env_ek or {})
++    r = subprocess.run([sys.executable, os.path.join(kok, "arac", "tahta.py")] + list(a),
++                       capture_output=True, text=True, encoding="utf-8",
++                       errors="replace", env=env, cwd=kok)
++    return r.returncode, (r.stdout or "") + (r.stderr or "")
++
++
++def oku(kok):
++    return json.load(io.open(os.path.join(kok, "oturumlar", "tahta.json"), encoding="utf-8"))
++
++
++def kimlik(m):
++    return (m.get("kimden"), m.get("zaman"), m.get("mesaj"))
++
++
++def tohum():
++    def k(no, kimden, mesaj, yanit=""):
++        return {"no": no, "zaman": "2026-10-01 10:0%s" % no[-1], "kimden": kimden,
++                "kime": "KOORD", "kimden_kimlik": "", "mesaj": mesaj,
++                "hal": "CEVAPLANDI" if no == "M-0001" else "ACIK",
++                "cevap": "→ M-0002" if no == "M-0001" else "GEREKMEZ", "vade": "",
++                "okuyan": {}, "yanit_no": yanit, "cins": "BILGI", "teyit": {},
++                "kapanis": "", "dayanak": "", "aciliyet": "NORMAL"}
++    return [k("M-0001", "ESKI-1", "eski mesaj bir"),
++            k("M-0002", "ESKI-2", "eski mesaj iki", "M-0001"),
++            k("M-0003", "ESKI-3", "eski mesaj uc")]
++
++
++def _sil(yol):
++    def hata(f, p, _e):
++        try:
++            os.chmod(p, stat.S_IWRITE)
++            f(p)
++        except Exception:
++            pass
++    shutil.rmtree(yol, onerror=hata)
++
++
++def kur(kok, tahta_metni):
++    bare = os.path.join(kok, "origin.git")
++    git(kok, "init", "-q", "--bare", "-b", "main", bare)
++    tohum_dir = os.path.join(kok, "tohum")
++    git(kok, "clone", "-q", "-c", "core.autocrlf=false", bare, tohum_dir)
++    for d in ("arac", "oturumlar"):
++        os.makedirs(os.path.join(tohum_dir, d), exist_ok=True)
++    io.open(os.path.join(tohum_dir, "arac", "tahta.py"), "w", encoding="utf-8",
++            newline="\n").write(tahta_metni)
++    shutil.copy(TAHTA_YENI_PY, os.path.join(tohum_dir, "arac", "tahta_yeni.py"))
++    io.open(os.path.join(tohum_dir, "oturumlar", "tahta.json"), "w", encoding="utf-8",
++            newline="\n").write(json.dumps(tohum(), ensure_ascii=False, indent=1))
++    io.open(os.path.join(tohum_dir, "oturumlar", "TAHTA.md"), "w", encoding="utf-8",
++            newline="\n").write("# tohum\n")
++    io.open(os.path.join(tohum_dir, ".gitignore"), "w").write("__pycache__/\n")
++    for c in (tohum_dir,):
++        git(c, "config", "user.name", "sinav"); git(c, "config", "user.email", "s@s")
++        git(c, "config", "core.autocrlf", "false")
++    git(tohum_dir, "symbolic-ref", "HEAD", "refs/heads/main")
++    git(tohum_dir, "add", "-A")
++    git(tohum_dir, "commit", "-q", "-m", "tohum")
++    git(tohum_dir, "push", "-q", "origin", "main", "main:makine/a", "main:makine/b")
++    klon = {}
++    for ad, dal in (("A", "makine/a"), ("B", "makine/b"), ("M", "main")):
++        y = os.path.join(kok, ad)
++        git(kok, "clone", "-q", "-c", "core.autocrlf=false", bare, y)
++        git(y, "config", "user.name", "sinav-" + ad); git(y, "config", "user.email", ad + "@s")
++        git(y, "config", "core.autocrlf", "false")
++        if dal != "main":
++            git(y, "checkout", "-q", "-b", dal, "--track", "origin/" + dal)
++        klon[ad] = y
++    git(klon["B"], "config", "atlas.makine", "KASA")     # ② kaynak: klon ayarı
++    git(klon["M"], "config", "atlas.makine", "KOORD")
++    return klon
++
++
++def birlesim_no(ours, theirs):
++    """Koordinatörün en doğal çözümü: `no` ANAHTARLI birleşim (ours önce).
++    Aynı `no` iki tarafta AYNI mesajsa alanları birleştirir (teyit/okuyan ∪,
++    hal ileri olan, cevap/yanit dolu olan). Aynı `no` FARKLI mesajsa ⇒ ours kalır,
++    theirs DÜŞER (anahtar başına tek kayıt) — kayıp burada doğar."""
++    sira = ["ACIK", "CEVAPLANDI", "KAPANDI"]
++    out, yer = [], {}
++    for m in ours:
++        yer[m["no"]] = len(out)
++        out.append(dict(m))
++    for m in theirs:
++        if m["no"] not in yer:
++            yer[m["no"]] = len(out)
++            out.append(dict(m))
++            continue
++        o = out[yer[m["no"]]]
++        if kimlik(o) != kimlik(m):
++            continue                                     # ÇAKIŞMA ⇒ theirs düşer
++        for f in ("teyit", "okuyan"):
++            d = dict(o.get(f) or {}); d.update(m.get(f) or {}); o[f] = d
++        if sira.index(m.get("hal", "ACIK")) > sira.index(o.get("hal", "ACIK")):
++            o["hal"] = m["hal"]
++        for f in ("cevap", "kapanis"):
++            if (o.get(f) in ("", "GEREKMEZ")) and m.get(f) not in ("", "GEREKMEZ", None):
++                o[f] = m[f]
++    return out
++
++
++def senaryo(kol, tahta_metni, beklenen_kusur):
++    print("\n" + "=" * 74)
++    print("KOL: %s" % kol)
++    print("=" * 74)
++    kok = tempfile.mkdtemp(prefix="tahta-no-%s-" % kol.lower())
++    try:
++        k = kur(kok, tahta_metni)
++        # ── ① EŞZAMANLI YAZIM — iki "makine" aynı anda, ikisi de M-0003'ü görüyor
++        sonuc = {}
++
++        def yaz(ad, mesaj):
++            sonuc[ad] = tahta(k[ad], "yaz", "--kim", "MAKINE-" + ad, "--kime", "KOORD",
++                              "--mesaj", mesaj)
++        t = [threading.Thread(target=yaz, args=("A", "A birinci teslim")),
++             threading.Thread(target=yaz, args=("B", "B birinci teslim"))]
++        [x.start() for x in t]; [x.join() for x in t]
++        soru("[%s] iki eşzamanlı yazım çıkış 0" % kol,
++             sonuc["A"][0] == 0 and sonuc["B"][0] == 0,
++             "A=%d B=%d" % (sonuc["A"][0], sonuc["B"][0]))
++        # A eski numaraya cevap verir · B ikinci mesaj + eski numarayı teyit eder
++        ra = tahta(k["A"], "yaz", "--kim", "MAKINE-A", "--kime", "ESKI-2",
++                   "--mesaj", "A cevap eskiye", "--yanit", "M-0002")
++        rb = tahta(k["B"], "yaz", "--kim", "MAKINE-B", "--kime", "KOORD", "--mesaj", "B ikinci")
++        rt = tahta(k["B"], "teyit", "M-0001", "--kim", "MAKINE-B")
++        soru("[%s] dalda `--yanit M-0002` (ESKİ numara) yazıldı" % kol, ra[0] == 0, ra[1][-120:].strip() if ra[0] else "")
++        soru("[%s] dalda `teyit M-0001` (ESKİ numara) çıkış 0" % kol, rt[0] == 0 and rb[0] == 0)
++        A, B = oku(k["A"]), oku(k["B"])
++        yeniA = [m["no"] for m in A[3:]]
++        yeniB = [m["no"] for m in B[3:]]
++        print("  A dalı yeni numaralar: %s" % yeniA)
++        print("  B dalı yeni numaralar: %s" % yeniB)
++        # ── ② ÇAKIŞMA ÖLÇÜMÜ — aynı numara, iki ayrı mesaj
++        harita = {}
++        for m in A[3:] + B[3:]:
++            harita.setdefault(m["no"], set()).add(kimlik(m))
++        cakisan = sorted(n for n, s in harita.items() if len(s) > 1)
++        # ── ③ BİRLEŞTİRME (git) — M: a, sonra b
++        git(k["M"], "fetch", "-q", "origin")
++        git(k["M"], "merge", "-q", "--no-ff", "-m", "a", "origin/makine/a")
++        mr = git(k["M"], "merge", "--no-ff", "-m", "b", "origin/makine/b", kontrol=False)
++        catisma_dosya = [s for s in git(k["M"], "diff", "--name-only",
++                                        "--diff-filter=U").stdout.split() if s]
++        blok = 0
++        if "oturumlar/tahta.json" in catisma_dosya:
++            blok = io.open(os.path.join(k["M"], "oturumlar", "tahta.json"),
++                           encoding="utf-8").read().count("\n<<<<<<< ")
++        print("  git merge b: kod %d · çakışan dosyalar %s · tahta.json blok %d"
++              % (mr.returncode, catisma_dosya, blok))
++        ours = json.loads(git(k["M"], "show", ":2:oturumlar/tahta.json").stdout) \
++            if catisma_dosya else oku(k["M"])
++        theirs = json.loads(git(k["M"], "show", ":3:oturumlar/tahta.json").stdout) \
++            if catisma_dosya else B
++        cozum = birlesim_no(ours, theirs)
++        tum = {kimlik(m) for m in A + B}
++        kalan = {kimlik(m) for m in cozum}
++        kayip = sorted(x[2] for x in tum - kalan)
++        nolar = [m["no"] for m in cozum]
++        print("  numara çakışması: %s · no-anahtarlı birleşimde KAYIP: %s" % (cakisan, kayip))
++        if beklenen_kusur:
++            soru("[%s] KUSUR GÖRÜNÜR: numara çakışması ≥1" % kol, len(cakisan) >= 1, str(cakisan))
++            soru("[%s] KUSUR GÖRÜNÜR: no-anahtarlı birleşimde mesaj KAYBI ≥1" % kol,
++                 len(kayip) >= 1, str(kayip))
++        else:
++            soru("[%s] numara çakışması 0" % kol, not cakisan, str(cakisan))
++            soru("[%s] birleşimde mesaj kaybı 0 (%d mesaj)" % (kol, len(cozum)),
++                 not kayip and len(cozum) == len(tum), str(kayip))
++            soru("[%s] birleşik tahtada numaralar TEKİL" % kol, len(nolar) == len(set(nolar)))
++            soru("[%s] önekler: A dalı 'M-A-', B klon ayarı 'M-KASA-'" % kol,
++                 all(n.startswith("M-A-") for n in yeniA)
++                 and all(n.startswith("M-KASA-") for n in yeniB), "%s %s" % (yeniA, yeniB))
++            eski = {m["no"]: m for m in cozum}
++            soru("[%s] eski numaralar DEĞİŞMEDİ, birleşimde M-0002 'CEVAPLANDI' + M-0001 teyitli"
++                 % kol, eski["M-0002"]["hal"] == "CEVAPLANDI"
++                 and "MAKINE-B" in (eski["M-0001"].get("teyit") or {}))
++        # çözümü yaz, görünümü tahta.py'nin kendisiyle üret, birleştirmeyi kapat
++        io.open(os.path.join(k["M"], "oturumlar", "tahta.json"), "w", encoding="utf-8",
++                newline="\n").write(json.dumps(cozum, ensure_ascii=False, indent=1))
++        subprocess.run([sys.executable, "-c",
++                        "import sys;sys.path.insert(0,'arac');import tahta as T;"
++                        "T._gorunum_yaz(T._yukle())"], cwd=k["M"], capture_output=True)
++        git(k["M"], "add", "--", "oturumlar/tahta.json", "oturumlar/TAHTA.md")
++        if catisma_dosya:
++            git(k["M"], "commit", "-q", "-m", "birlestir b", "--no-edit")
++        git(k["M"], "push", "-q", "origin", "main")
++        # ── ④ BİRLEŞİK TAHTADA ESKİ/YENİ NUMARAYLA İŞLEM
++        r1 = tahta(k["M"], "teyit", "M-0002", "--kim", "KOORD")
++        r2 = tahta(k["M"], "tamam", "M-0001", "--kim", "KOORD")
++        r3 = tahta(k["M"], "kapat", "M-0003", "--kim", "KOORD")
++        son = oku(k["M"])
++        d = {}
++        for m in son:
++            d.setdefault(m["no"], []).append(m)
++        soru("[%s] birleşik tahtada `teyit M-0002` · `tamam M-0001` · `kapat M-0003` (ESKİ)"
++             % kol, r1[0] == 0 and r2[0] == 0 and r3[0] == 0
++             and "KOORD" in d["M-0002"][0]["teyit"] and d["M-0001"][0]["kapanis"]
++             and d["M-0003"][0]["hal"] == "KAPANDI")
++        if not beklenen_kusur:
++            hedef = yeniB[0]
++            r4 = tahta(k["M"], "yaz", "--kim", "KOORD", "--kime", "MAKINE-B",
++                       "--mesaj", "cevap yeni numaraya", "--yanit", hedef)
++            r5 = tahta(k["M"], "teyit", yeniA[0], "--kim", "KOORD")
++            son = oku(k["M"])
++            d = {m["no"]: m for m in son}
++            yeni_no = son[-1]["no"]
++            soru("[%s] `--yanit %s` (YENİ biçim) hedefi CEVAPLANDI, yeni no %s"
++                 % (kol, hedef, yeni_no), r4[0] == 0 and d[hedef]["hal"] == "CEVAPLANDI"
++                 and d[hedef]["cevap"] == "→ %s" % yeni_no and yeni_no.startswith("M-KOORD-"))
++            soru("[%s] `teyit %s` (YENİ biçim) çıkış 0" % (kol, yeniA[0]),
++                 r5[0] == 0 and "KOORD" in d[yeniA[0]]["teyit"])
++            soru("[%s] yeni no sayısı birleşik en büyükten büyük (%s)" % (kol, yeni_no),
++                 int(yeni_no.split("-")[-1]) > max(int(m["no"].split("-")[-1]) for m in son[:-1]))
++            io.open(os.path.join(k["M"], "oturumlar", "KOORDINATOR-SU-SEVIYESI.json"), "w",
++                    encoding="utf-8").write(json.dumps({"son_islenen": yeniB[0]}))
++            ty = subprocess.run([sys.executable, os.path.join(k["M"], "arac", "tahta_yeni.py")],
++                                capture_output=True, text=True, encoding="utf-8",
++                                errors="replace", cwd=k["M"])
++            ayni_sayi = [n for n in yeniA if n.split("-")[-1] == yeniB[0].split("-")[-1]]
++            dizgi_kacirir = [n for n in ayni_sayi if not (n > yeniB[0])]
++            liste = [x.split()[0] for x in ty.stdout.splitlines() if x.startswith("M-")]
++            soru("[%s] tahta_yeni: seviye %s iken eşit sayılı ÖTEKİ makine mesajı %s görünür,"
++                 " seviyenin kendisi görünmez (eski dizgi karşılaştırması kaçırırdı: %s)"
++                 % (kol, yeniB[0], ayni_sayi, dizgi_kacirir),
++                 bool(ayni_sayi) and all(n in liste for n in ayni_sayi)
++                 and yeniB[0] not in liste, "liste %s" % liste)
++        else:
++            # aynı numaranın İKİ sahibi varsa `teyit` yalnız İLKİNİ bulur — ikincisi ADRESLENEMEZ
++            ikiz = cakisan[0]
++            tahta(k["M"], "teyit", ikiz, "--kim", "KOORD")
++            soru("[%s] KUSUR GÖRÜNÜR: çakışan %s için birleşik tahtada tek kayıt kaldı "
++                 "(öteki adreslenemez/kayıp)" % (kol, ikiz),
++                 len([m for m in oku(k["M"]) if m["no"] == ikiz]) == 1)
++        return k, kok
++    except Exception as e:
++        soru("[%s] senaryo KOŞULDU" % kol, False, "%s: %s" % (type(e).__name__, e))
++        return None, kok
++
++
++def union_olcumu(tahta_metni):
++    """BİLGİ: `.gitattributes merge=union` tahta.json'u kayıpsız birleştirir mi?
++    (kök .gitattributes koordinatörün — burada yalnız geçici depoda `.git/info/attributes`)"""
++    print("\n" + "=" * 74)
++    print("ÖLÇÜM: merge=union (yalnız geçici depo, .git/info/attributes)")
++    print("=" * 74)
++    kok = tempfile.mkdtemp(prefix="tahta-no-union-")
++    try:
++        k = kur(kok, tahta_metni)
++        tahta(k["A"], "yaz", "--kim", "MAKINE-A", "--kime", "KOORD", "--mesaj", "A tek")
++        tahta(k["B"], "yaz", "--kim", "MAKINE-B", "--kime", "KOORD", "--mesaj", "B tek")
++        os.makedirs(os.path.join(k["M"], ".git", "info"), exist_ok=True)
++        io.open(os.path.join(k["M"], ".git", "info", "attributes"), "w").write(
++            "oturumlar/tahta.json merge=union\noturumlar/TAHTA.md merge=union\n")
++        git(k["M"], "fetch", "-q", "origin")
++        git(k["M"], "merge", "-q", "--no-ff", "-m", "a", "origin/makine/a")
++        r = git(k["M"], "merge", "--no-ff", "-m", "b", "origin/makine/b", kontrol=False)
++        try:
++            j = oku(k["M"])
++            hal = "GEÇERLİ JSON · %d kayıt (beklenen 5) · mesajlar %s" % (
++                len(j), [m.get("mesaj") for m in j[3:]])
++            gecerli, tam = True, len(j) == 5
++        except ValueError as e:
++            hal = "GEÇERSİZ JSON — %s" % e
++            gecerli, tam = False, False
++        print("  merge kod %d · %s" % (r.returncode, hal))
++        soru("[UNION] merge=union pretty-JSON tahtayı KAYIPSIZ birleştiremez "
++             "(geçersiz JSON ya da eksik kayıt) — öneri dosyasının dayanağı",
++             not (gecerli and tam), hal)
++    except Exception as e:
++        soru("[UNION] ölçüm KOŞULDU", False, "%s: %s" % (type(e).__name__, e))
++    finally:
++        _sil(kok)
++
++
++def birim(tahta_metni):
++    print("\n" + "=" * 74)
++    print("BİRİM: önek kaynağı + sayı ayrıştırıcı")
++    print("=" * 74)
++    kok = tempfile.mkdtemp(prefix="tahta-no-birim-")
++    try:
++        os.makedirs(os.path.join(kok, "arac"))
++        io.open(os.path.join(kok, "arac", "tahta.py"), "w", encoding="utf-8",
++                newline="\n").write(tahta_metni)
++        kod = ("import sys,os,json;sys.path.insert(0,'arac');import tahta as T;"
++               "print(json.dumps([T._makine_onek(),T._no_sira('M-5892'),"
++               "T._no_sira('M-UMIT-5893'),T._no_sira('m-kasa-0007'),T._no_sira('bozuk'),"
++               "T._yeni_no([{'no':'M-0001'},{'no':'M-KASA-0009'},{'no':'M-0002'}])]))")
++        env = dict(os.environ); env.pop("ATLAS_MAKINE", None)
++        r = subprocess.run([sys.executable, "-c", kod], cwd=kok, capture_output=True,
++                           text=True, encoding="utf-8", env=env)
++        on, a, b, c, d, y = json.loads(r.stdout.strip().splitlines()[-1])
++        host = re.sub(r"[^A-Z0-9]", "", socket.gethostname().upper())[:16]
++        soru("[BİRİM] git'siz dizinde önek = hostname (%s)" % on, on == host or on == "H" + host)
++        soru("[BİRİM] sayı: M-5892→5892 · M-UMIT-5893→5893 · m-kasa-0007→7 · bozuk→0",
++             (a, b, c, d) == (5892, 5893, 7, 0))
++        soru("[BİRİM] yeni no = en büyük sayı + 1 (%s)" % y, y == "M-%s-0010" % on)
++        env["ATLAS_MAKINE"] = "lab-1"
++        r = subprocess.run([sys.executable, "-c", kod], cwd=kok, capture_output=True,
++                           text=True, encoding="utf-8", env=env)
++        soru("[BİRİM] ATLAS_MAKINE=lab-1 ⇒ önek LAB1",
++             json.loads(r.stdout.strip().splitlines()[-1])[0] == "LAB1")
++    finally:
++        _sil(kok)
++
++
++def main():
++    if not os.path.exists(TAHTA_PY):
++        print("🔴 KOŞULAMADI — %s yok" % TAHTA_PY)
++        return 2
++    yamali = io.open(TAHTA_PY, encoding="utf-8").read()
++    if yamali.count(YAMA_SATIRI) != 1:
++        print("🔴 KOŞULAMADI — tahta.py'de yama satırı bulunamadı (yama inmemiş?)")
++        return 2
++    yamasiz = yamali.replace(YAMA_SATIRI, ESKI_SATIR)
++    birim(yamali)
++    for kol, metin, kusur in (("YAMASIZ", yamasiz, True), ("YAMALI", yamali, False)):
++        _, kok = senaryo(kol, metin, kusur)
++        _sil(kok)
++    union_olcumu(yamali)
++    tut = sum(1 for _, ok in SONUC if ok)
++    print("\n" + "=" * 74)
++    print("SONUÇ: %d/%d soru tuttu" % (tut, len(SONUC)))
++    for ad, ok in SONUC:
++        if not ok:
++            print("  ✗ %s" % ad)
++    return 0 if tut == len(SONUC) else 1
++
++
++if __name__ == "__main__":
++    sys.exit(main())
