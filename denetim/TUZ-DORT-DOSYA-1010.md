@@ -9,7 +9,10 @@ dokunulmadı. Bütün iş geçici worktree `C:\atlas-umit-tuz4` (origin/main
 
 YENİ DOSYALAR: `arac/motor_iz_dosyalari.py` · `denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py`
 DEĞİŞEN DOSYALAR: `arac/girdi.py` · `arac/kaynak_durum.py`
-🆕 TESLİM (v2): `C:\atlas-umit\denetim\TUZ-DORT-DOSYA-1010-v2.diff` — **BEŞ dosya**
+🆕🆕 **TESLİM (v3, GEÇERLİ):** `C:\atlas-umit\denetim\TUZ-DORT-DOSYA-1010-v3.diff` — **ALTI
+dosya** (gun + yukseklik), origin/main `6af3ca8f`'ye karşı, 4 dosya +539/−7, LF, BOM yok,
+CR 0. v2 diff'i diskten kaldırıldı (geçmişte kalır). **Önce en sondaki "§ v3" bölümünü okuyun.**
+(tarihî) TESLİM (v2): `C:\atlas-umit\denetim\TUZ-DORT-DOSYA-1010-v2.diff` — **BEŞ dosya**
 (gun.py dahil), origin/main `97a59d5e`'ye karşı, 4 dosya +511/−7, LF, BOM yok, CR 0.
 v1 diff'i (`TUZ-DORT-DOSYA-1010.diff`, dört dosya) **silindi** — yanlışlıkla
 uygulanmasın. Ad tarihî kaldı. **Önce aşağıdaki "§ v2 (gun.py)" bölümünü okuyun;**
@@ -316,3 +319,138 @@ Paragraftaki "dört dosyaya 19 commit" (tarihî ölçüm) **değişmez**.
 3. Geo süzgecine `gun.py` ve `motor_onbellek.py` eklensin mi? (`uret_petek.py:606`, motor kodu)
 4. NEG sahibine not: `ARAC-NEGATIF-YIL-B-SINAV-1010.py`'nin başına
    `sys.stdout.reconfigure(encoding="utf-8")` eklenmeli.
+
+---
+
+## § v3 (yukseklik) — 10 Ekim 2026, koordinatör hükümleri
+
+**Hükümler:**
+- `yukseklik` listeye girdi: DEM seçimi değişirse çıktı değişir, öyleyse tuzda olmalı.
+- `dolgu` beyanlı istisna olarak kaldı.
+- C3 hükmü: Tarih (NEG-B) kalıyor.
+
+**Liste ALTI dosya:** uret_petek · renkler · girdi · motor_onbellek · gun · yukseklik.
+
+**Değişen (v2'ye göre):**
+- `arac/motor_iz_dosyalari.py`: `yukseklik.py` eklendi. Gerekçe yorumu yazıldı, DEM dosyası uyarısı da var (aşağıda).
+- Sınav (aynı ad):
+  - `DORT` altı dosya oldu; geçici kopyaya `yukseklik.py` de giriyor.
+  - **(b6)** `yukseklik.py`'ye zararsız bir satır eklenince iz, kaynak_durum izi ve tuz değişiyor; kapı **RED, çıkış 1** (`MOTOR KODU KOSU SIRASINDA DEGISTI: yukseklik.py`).
+  - Dosya dosya sınamada altı dosyanın altısı da RED.
+  - `BEYANLI_ISTISNA`dan `yukseklik` çıktı. `dolgu` beyanı şunu söylüyor: *"data/dolgu.js bir gün motor GİRDİSİ olursa bu istisna DÜŞER"*.
+  - 🆕 **(f3)** bu şart artık sınanıyor: `dolgu.js` ne `girdi_listesi.py` kodunda ne de `girdi.py`'de geçmeli. **İki yönde sınandı.** Bugün ✓. Geçici kopyada `GIRDI_DOSYALARI`na `"dolgu.js"` ekleyince ✗ (`SINAV KALDI — 1/34: f3`). Dosya sonra geri yüklendi ve `git diff --quiet` ✓ verdi.
+
+### yukseklik geo tuzunda KALMALI (ölçüldü)
+Zincir şöyle:
+- `uret_petek.py:709-716` → `yukseklik.tam_mi()` hangi DEM'in seçileceğine karar verir (`EGIM_DEM`).
+- `:1456` → DEM okunur.
+- `:1490` → `_kvsurt = 1 + EGIM_CARPANI × eğim`.
+- `:1876` → `_kv_dijkstra(_kvsurt, …)`, yürüyüş sahipliği buradan çıkar.
+
+`denetim/ARAC-LEGO-zincir.py --kok <birleşik ağaç>` (çıkış 0) ölçtü: **geo zinciri
+(govde · osm · sb) `_kvsurt`, `_YR_SAHIP`, `_YR_SAHIP_SIRA` ve `MOTOR_YURUYUS` okuyor**, ayrıca
+`_yr_yerel_dijkstra` ve `_yr_etiket_poligon` işlevlerini çağırıyor. Yani DEM geo
+geometrisini **doğrudan** etkiliyor.
+
+⇒ **ÖNERİ:** `uret_petek.py:606` süzgecine (koordinatör yazacak) **yalnız** `"gun.py"` ve
+`"motor_onbellek.py"` eklensin. `yukseklik.py` **eklenmesin**, geo tuzunda kalsın.
+Süzgeçten sonra geo tuzunun motor ekseni `{uret_petek.py, yukseklik.py}` olur.
+(Ölçüm: aynı LEGO çıktısında `_gun` ve `KESIT_SON` geo zincirinde yok — gun süzülebilir.)
+
+🔴 **YENİ BULGU — DEM DOSYASININ KENDİSİ hiçbir tuzda yok.** `_ONB_TUZ` / `_ONB_GEO_TUZ`
+içinde `EGIM_DEM` yolu ya da tif'in özeti geçmiyor. `uret_petek.py`'de `EGIM_DEM` yalnız
+701, 716, 720 ve 1456. satırlarda var. `_kvsurt` da `_onb_parca_anahtar` içinde yok.
+- `yukseklik.py` listeye girince yalnız **seçim kodu** korunuyor.
+- `etopo2022_30s_*.tif` değişirse ya da öteki tif seçilirse (ör. biri bozulup `tam_mi` öbürüne
+  düşerse), önbellek **eski eğimle hesaplanmış geometriyi isabet sayar** ve bu sessiz olur.
+- Çare motor kodudur ve kapsamım dışında. Öneri: tuza `"dem": dosya_ozeti(EGIM_DEM)` ya da en
+  azından seçilen DEM'in adı ve boyutu eklensin. Tif 183 MB, özeti ~1 sn sürer. Ölçmedim.
+
+### `--check` — üç sıra, ADIYLA (origin/main `6af3ca8f`, her sıra temiz ağaçta)
+| sıra | TUZ-v3 | NEG-B v2 | C3 | ağaç (`git diff HEAD` sha256, izlenmeyenler `add -N` ile) |
+|---|---|---|---|---|
+| **TUZ-v3 → NEG → C3** (parti sırası) | ✓ | ✓ | ✓ | `e878e3aa37ae9e1a` |
+| NEG → TUZ-v3 → C3 | ✓ | ✓ | ✓ | `e878e3aa37ae9e1a` |
+| C3 → TUZ-v3 → NEG | ✓ | ✓ | ✓ | `e878e3aa37ae9e1a` |
+
+`-C1` gerekmedi. Üç sıranın üçü de aynı ağacı veriyor: 9 dosya, +1156/−27.
+⚠️ **v2 bölümündeki `b411a4c0…` özetinin evreni EKSİKTİ.** O ölçümde `add -N` glob'u
+başarısız olmuştu; yeni dosyalar (sınavlar ve `motor_iz_dosyalari.py`) özete girmemişti.
+"Bayt bayt aynı" hükmü o gün yalnız izlenen 6 dosya için geçerliydi. v3 ölçümü 9 dosyanın
+tamamını kapsıyor.
+
+### Birleşik ağaçta üç sınav (TUZ-v3 + NEG-B v2 + C3)
+| sınav | sonuç |
+|---|---|
+| TUZ, önerilen **"altı"** CLAUDE.md ile (`--claude-md`, geçici kopya) | **✓ 34/34, çıkış 0** |
+| TUZ, **bugünkü "dört"** CLAUDE.md ile | **✗ 1/34 (c2), çıkış 1.** ⑤ = 4 dosya — beklenen; sınav kendi önerdiği metinle tutarlı |
+| NEG-B v2, `> dosya` (PYTHONIOENCODING **YOK**) | **✓ 67/67, çıkış 0** |
+| C3, `C3_TABAN` = TUZ-v3 + NEG ağacı (`8d185c57…`, geçici index, commit ve ref yok) | **✓ 187/187, çıkış 0** |
+
+### §9.1 öneri metni — v3 (ALTI dosya; §6 ve v2 metninin yerine geçer)
+Satır ~648 başlığı:
+> Önbelleğin **TUZU** altı dosyanın sha256'sıdır: `uret_petek.py` · `renkler.py` ·
+> `girdi.py` · `motor_onbellek.py` · `gun.py` · `yukseklik.py`. Biri değişirse **bütün anahtarlar değişir** ⇒
+
+③ maddesi:
+> 3. **Koşu SÜRERKEN altı dosyaya dokunulmaz.** Koşu her aşamada motor parmak
+>    izini sınar ve reddeder (8 Ağustos: 83 dakika çalışıp en sonda reddedildi;
+>    bugün bu 7-8 SAAT demektir). Altı dosyanın listesi **tek yerde** durur:
+>    `arac/motor_iz_dosyalari.py`. Tuz (`_ONB_TUZ["motor"]`), parmak izi
+>    (`girdi.motor_izi()`), koşu sınaması (`motor_izi_dogrula`) ve koşu kapı
+>    damgası (`kaynak_durum.py`) onu okur. Eşitlik ve bağımlılık kapanışı
+>    `py denetim/ARAC-TUZ-DORT-DOSYA-SINAV-1010.py` ile ASSERT edilir: motorun
+>    ithal ettiği yerel modül ya listededir ya da sınavda adıyla beyanlıdır
+>    (`dolgu`: B katmanı, `data/dolgu.js` girdi olursa istisna düşer).
+>    ⚠️ Liste yalnız KODU kapsar; DEM dosyası (`etopo2022_*.tif`) tuzda DEĞİL.
+>    ⚠️ 10 Ekim 2026'ya dek tuz DÖRT, parmak izi ÜÇ dosyaydı
+>    (`motor_onbellek.py` yoktu); aynı gün `gun.py` ve `yukseklik.py` eklendi.
+>    Cümle yanlış değil EKSİKti.
+
+Sınavın (c)⑤ maddesi bu başlığın biçimini okuyor. Bu metinle ✓, bugünkü metinle ✗ (ölçüldü, yukarıda).
+
+### 📌 Parti şartı (koordinatör, C3 hükmü)
+**Parti koşusunun logu, aşama sürelerini KOŞU 21 ve 22 ile karşılaştıracak.** NEG-B
+(Tarih) motorun tarih ayrıştırma ve sıralama yoluna giriyor. Bu partide tuz zaten bir kez
+ölüyor (tam inşa), dolayısıyla süre farkı iki bileşenli olacak: önbelleksiz inşa ve
+`gun.Tarih` maliyeti. Karşılaştırma aşama aşama yapılmalı (`⏱ <aşama> — süre` satırları),
+yalnız toplam süreye bakılmamalı.
+
+### NEG-B v2 (ayrı teslim: `NEGATIF-YIL-1010-B-v2.diff`)
+- Tek değişiklik sınav dosyasında: ithal satırından hemen sonra
+  `if hasattr(sys.stdout, "reconfigure"): sys.stdout.reconfigure(encoding="utf-8")`.
+  v1 ile v2'nin ağaç farkı yalnız bu 5 satır (ölçüldü: iki ağacın `git diff HEAD`
+  karşılaştırması). Diff 6 dosya, origin/main `6af3ca8f`'ye karşı, LF, CR 0.
+- **Ters yön:**
+  - v1 sınavı `> dosya` ile koşunca **çıkış 1**, `UnicodeEncodeError: 'charmap' … '\u2462'`.
+  - v2 aynı koşulda **çıkış 0, 67/67**.
+  - v2 PowerShell `| Out-String` ile **çıkış 0, 67/67**.
+- ⚠️ **StringIO altında (`sys.stdout = io.StringIO()` + runpy):** sınavın kendi koruması
+  çalışıyor, satır 266'ya kadar ilerliyor. Ama ithal ettiği **`arac/denetle.py:32`** düşüyor:
+  `getattr(sys.stdout,"encoding","").lower()`, StringIO'nun `encoding`'i `None` olduğu için
+  `AttributeError` veriyor. Kusur **origin/main'deki denetle.py'de** (NEG değişikliği değil).
+  "Başka hiçbir değişiklik yok" hükmü gereği dokunmadım. Çaresi:
+  `(getattr(sys.stdout,"encoding",None) or "").lower()`.
+- `C:\atlas-umit\denetim\ARAC-NEGATIF-YIL-B-SINAV-1010.py` (diff dışındaki tek başına kopya)
+  **v1 olarak duruyor**, güncellemedim. Diff v2'dir.
+
+### v3 — ölçtüm · bulamadım · istiyorum
+**Ölçtüm:**
+- (b6) `yukseklik.py` değişikliği kapıda RED; 6/6 dosya RED; yanlış alarm yok.
+- (f3) dolgu şartı iki yönde sınandı.
+- Geo zinciri DEM türevlerini (`_kvsurt`, `_YR_SAHIP`) okuyor, yani yukseklik geo tuzunda kalmalı.
+- DEM dosyası hiçbir tuzda yok.
+- Üç sıra ✓ ve aynı ağacı veriyor (9 dosya).
+- Birleşik ağaçta sınavlar: 34/34 · 67/67 · 187/187. Bugünkü "dört" metninde TUZ sınavı ✗ veriyor.
+- NEG v2 boruda ve yönlendirmede çökmüyor; v1 çöküyor.
+
+**Bulamadım / ölçmedim:**
+- DEM tif özetinin süresi.
+- `yukseklik.py`'nin içinde başka işlevlerin motorca kullanılıp kullanılmadığı. AST yalnız
+  `tam_mi` çağrısını gösterdi; `_yk.` geçen tek satır 714.
+
+**İstiyorum:**
+1. Parti TUZ-v3 → NEG-B v2 → C3 sırasıyla girsin; §9.1 "altı" metni aynı commit'te insin.
+2. Geo süzgecine (`:606`) yalnız `gun.py` ve `motor_onbellek.py` eklensin; `yukseklik` eklenmesin.
+3. DEM dosyasını tuza almak için hüküm (motor kodu).
+4. `denetle.py:32` StringIO kusuru için ayrı iş.

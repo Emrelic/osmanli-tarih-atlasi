@@ -387,10 +387,10 @@ index bd2d1def..113eca98 100644
  # bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
 diff --git a/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py b/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
 new file mode 100644
-index 00000000..1c639cf5
+index 00000000..e83c432d
 --- /dev/null
 +++ b/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
-@@ -0,0 +1,290 @@
+@@ -0,0 +1,295 @@
 +# -*- coding: utf-8 -*-
 +"""ARAC-NEGATIF-YIL-B-SINAV-1010 — negatif yıl: AYRIŞTIRMA (③) + SIRALAMA (④), Python/motor kolu.
 +
@@ -409,6 +409,11 @@ index 00000000..1c639cf5
 +              yalnız Ⓔ kapısı başka bir ağaçta — YAMASIZ ağaçta ÖTMELİ (çıkış 1), iki yön
 +"""
 +import ast, io, os, random, sys
++# Boruda/yönlendirmede Windows stdout cp1254 olur ve "③" basılamaz (çökme ölçüldü,
++# NEG-B v2). hasattr koruması: yönlendirme altında stdout StringIO olabilir ve
++# StringIO'da reconfigure YOK (paketle.py'nin aynı kusuru, 10 Ekim gecesi).
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8")
 +from datetime import date
 +
 +IZINLI = {   # (dosya, işlev) → gerekçe: veri tarihini NEGATİFTE okumayan YEDEK yol

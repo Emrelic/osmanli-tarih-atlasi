@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""SINAV — TUZ DÖRT DOSYA, PARMAK İZİ ÜÇ DOSYA (TUZ-DORT-DOSYA-1010) · v2: BEŞ DOSYA.
+"""SINAV — TUZ DÖRT DOSYA, PARMAK İZİ ÜÇ DOSYA (TUZ-DORT-DOSYA-1010) · v3: ALTI DOSYA.
+
+🆕 v3 (koordinatör hükmü, 10 Ekim 2026): `yukseklik.py` LİSTEYE girdi (DEM seçimi ⇒
+eğim ⇒ sürtünme ⇒ sahiplik); `dolgu` BEYANLI istisna kalır. (b6) yukseklik.py → RED.
 
 🆕 v2 (10 Ekim 2026, NEGATIF-YIL-1010-B): `arac/gun.py` motorun bağımlılığı oldu
 (`girdi.yukle` ve `uret_petek` `gun.Tarih` kullanıyor) ⇒ liste BEŞ dosya. Ad tarihî
@@ -69,7 +72,7 @@ KOK = os.path.abspath(A.kok)
 ARAC = os.path.join(KOK, "arac")
 
 ESKI_DORT = ("uret_petek.py", "renkler.py", "girdi.py", "motor_onbellek.py")   # v1 (yamasız tuz)
-DORT = ESKI_DORT + ("gun.py",)        # v2: BEŞ dosya (ad tarihî — değişken adı da)
+DORT = ESKI_DORT + ("gun.py", "yukseklik.py")   # v3: ALTI dosya (ad tarihî — değişken adı da)
 # Senaryo ağacına kopyalanan dosyalar (motor_iz_dosyalari.py yamasızda YOK)
 KOPYA = DORT + ("girdi_listesi.py", "kaynak_durum.py", "motor_iz_dosyalari.py", "denetle.py")
 
@@ -81,10 +84,9 @@ BEYANLI_ISTISNA = {
                      "ize girmesi önbelleği her dosya bağlamada öldürür (girdi_listesi.py başlığı)",
     "motor_iz_dosyalari": "listenin kendisi — etkisi izin ANAHTAR KÜMESİNDEN geçer",
     "kosu_kilit": "İŞLETİM (çift koşu kilidi) — sonucu değiştirmez",
-    "yukseklik": "🔴 AÇIK — uret_petek yalnız `tam_mi()` çağırır (DEM bütünlüğü); hangi DEM'in "
-                 "seçildiğini değiştirebilir. Koordinatör hükmü bekliyor (TUZ-DORT-DOSYA-1010.md §v2)",
-    "dolgu": "🔴 AÇIK — B katmanı, MOTOR_B_DOLGU=1 bayrağı arkasında (bayrak tuzda), "
-             "önbelleğe girmez ama data/dolgu.js'i ÜRETİR. Koordinatör hükmü bekliyor",
+    "dolgu": "B katmanı (koordinatör hükmü, 10 Ekim 2026: istisna KALIR) — MOTOR_B_DOLGU=1 "
+             "bayrağı arkasında (bayrak tuzda), önbelleğe girmez, A boru hattını okumaz; yalnız "
+             "data/dolgu.js'i ÜRETİR. 🔴 data/dolgu.js bir gün motor GİRDİSİ olursa bu istisna DÜŞER",
 }
 
 SONUC = []
@@ -237,6 +239,15 @@ if m:
             and m["once"]["kd"] != m["sonra"]["kd"] and m["once"]["tuz"] != m["sonra"]["tuz"]
             and kod != 0 and "gun.py" in err, "çıkış %d · %s" % (kod, son[:120]))
 
+print("── (b6) YAMALI — yukseklik.py'ye zararsız satır (v3)")
+m, kod, err = senaryo(KK, "yukseklik.py", "b6")
+if m:
+    son = (err.strip().splitlines() or ["?"])[-1]
+    kontrol("b6 yukseklik.py → iz DEĞİŞTİ · kd DEĞİŞTİ · tuz DEĞİŞTİ · dogrula RED",
+            m["once"]["iz"].get("yukseklik.py") not in (None, m["sonra"]["iz"].get("yukseklik.py"))
+            and m["once"]["kd"] != m["sonra"]["kd"] and m["once"]["tuz"] != m["sonra"]["tuz"]
+            and kod != 0 and "yukseklik.py" in err, "çıkış %d · %s" % (kod, son[:120]))
+
 # ═══ (c) EŞİTLİK — beş liste ══════════════════════════════════════════════════
 print("── (c) EŞİTLİK — beş liste aynı küme")
 L = {}
@@ -298,7 +309,7 @@ kumeler = list(L.values())
 kontrol("c1 beş liste ölçüldü", len(L) == 5, "%d/5" % len(L))
 kontrol("c2 hepsi AYNI küme", len(kumeler) == 5 and all(k == kumeler[0] for k in kumeler),
         "fark: %s" % sorted({a for k in kumeler for a in k} - set.intersection(*kumeler)) if kumeler else "boş")
-kontrol("c3 küme = beş motor dosyası (v2)", bool(kumeler) and kumeler[0] == set(DORT), str(sorted(kumeler[0]) if kumeler else []))
+kontrol("c3 küme = altı motor dosyası (v3)", bool(kumeler) and kumeler[0] == set(DORT), str(sorted(kumeler[0]) if kumeler else []))
 
 # ═══ (f) BAĞIMLILIK KAPANIŞI — yeni bir `gun` sessiz geçmesin ═══════════════════
 print("── (f) BAĞIMLILIK KAPANIŞI (AST, motor dosyalarının yerel ithalleri)")
@@ -317,6 +328,18 @@ for m_ in sorted(ithal):
                                     ("  · " + BEYANLI_ISTISNA[m_]) if kova == "BEYANLI" else ""))
 kontrol("f1 BEYANSIZ yerel ithal yok", not beyansiz, str(beyansiz))
 kontrol("f2 ÖLÜ istisna yok (her beyan hâlâ ithal ediliyor)", not olu, str(olu))
+# f3 — dolgu istisnasının ŞARTI (koordinatör hükmü): data/dolgu.js motor GİRDİSİ değil.
+#      Girdi olursa istisna DÜŞER ⇒ dolgu listeye girmeli. Ölçüt: girdi listesinde YOK ve
+#      girdi.py kaynağı dolgu.js'i ANMIYOR (uret_petek onu yalnız YAZAR: dolgu.kosudan).
+try:
+    gl = io.open(os.path.join(ARAC, "girdi_listesi.py"), encoding="utf-8").read()
+    gp = io.open(os.path.join(ARAC, "girdi.py"), encoding="utf-8").read()
+    gl_kod = "\n".join(s.split("#")[0] for s in gl.splitlines())
+    kontrol("f3 dolgu istisnasının şartı: data/dolgu.js motor girdisi DEĞİL",
+            "dolgu.js" not in gl_kod and "dolgu.js" not in gp,
+            "girdi_listesi: %s · girdi.py: %s" % ("dolgu.js" in gl_kod, "dolgu.js" in gp))
+except OSError as e:
+    OLCULEMEDI.append("f3 ölçülemedi: %s" % e)
 
 # ═══ (d) YANLIŞ ALARM YOK ═════════════════════════════════════════════════════
 print("── (d) YANLIŞ ALARM YOK")
@@ -369,7 +392,7 @@ except Exception as e:  # noqa: BLE001
 
 # ═══ gerçek dosyalar ══════════════════════════════════════════════════════════
 GERCEK_SONRA = {a: sha(os.path.join(ARAC, a)) for a in GERCEK_ONCE}
-kontrol("GERÇEK beş dosyaya dokunulmadı", GERCEK_ONCE == GERCEK_SONRA,
+kontrol("GERÇEK altı dosyaya dokunulmadı", GERCEK_ONCE == GERCEK_SONRA,
         " · ".join("%s %s" % (a, v[:8]) for a, v in sorted(GERCEK_SONRA.items())))
 
 print()
