@@ -173,7 +173,7 @@ Kısaltma: `out-<sha>` = o commit'in detached worktree'sinde `py arac/denetle.py
 | iddia | nerede | ölçülen | sonuç |
 |---|---|---|---|
 | bugünkü evrende negatif yıl 0 | `data/*.js` f/t regex | 0 | TUTUYOR |
-| MÖ 3000 – MS 9999 arası 4.747.787 gün | proleptik Gregoryen hesap | iki uç dahil **4.747.788**; bir uç hariç 4.747.787 | sınır tanımına bağlı (±1) |
+| MÖ 3000 – MS 9999 arası 4.747.787 gün | proleptik Gregoryen hesap | iki uç dahil **4.747.787** (yıl -2999..9999 yıl uzunlukları toplamı) | TUTUYOR — *DÜZELTME: ilk sürümde 4.747.788 yazılmıştı, bir-fazla hatası; koordinatör yakaladı, LAB yeniden ölçtü* |
 | -2999-01-01 gün sayacı −1.814.890 | — | sayaç epoch'u depoda tanımlı değil; 1970-01-01 epoch'uyla −1.814.891 | ÖLÇÜLEMEDİ |
 | 7.404 tarih dizgisi · sha256 ikiz sınavı | — | GUN-SAYACI-*-1009 dosyaları depoda yok | ÖLÇÜLEMEDİ |
 
@@ -216,8 +216,9 @@ Kısaltma: `out-<sha>` = o commit'in detached worktree'sinde `py arac/denetle.py
 
 ### Sayım (23 commit)
 - Ölçülebilir iddia yok: **4** (3a5522a5e, a52f116d0, e28edfdc7, ad4f398db).
-- Ölçülen iddiaların hepsi TUTAN commit: 14174ef7d (ölçülebilen kısım), 3928c0012, bc3c467a4, ea1718d52, f6ff69d2d, aab05acdb, 1edf7f9a8, a36928df4, 38cf24aef, 8584cfcec, 0e45a9b94, 6865cc876 → **12**.
-- En az bir iddiası kısmen tutan / uyuşmayan: 647bcf311 (zincir kısmen), 03c49ad50 (başlıktaki başlangıç değerleri), 29be6d424 (±1 gün sayısı), a20e1fe9c (README:17), 0291c38d3 (18 paket, künye, paket_05, denetle_yayin cümlesi) → **5**.
+- Ölçülen iddiaların hepsi TUTAN commit: 14174ef7d (ölçülebilen kısım), 3928c0012, bc3c467a4, ea1718d52, f6ff69d2d, aab05acdb, 1edf7f9a8, a36928df4, 38cf24aef, 8584cfcec, 0e45a9b94, 6865cc876, 29be6d424 (ölçülebilen kısım) → **13**.
+- En az bir iddiası kısmen tutan / uyuşmayan: 647bcf311 (zincir kısmen), 03c49ad50 (başlıktaki başlangıç değerleri), a20e1fe9c (README:17), 0291c38d3 (18 paket, künye, paket_05, denetle_yayin cümlesi) → **4**.
+- *DÜZELTME (ilk sürümden sonra):* 29be6d424 ilk sürümde "±1 gün" diye uyuşmayanlar arasındaydı; LAB'in kendi bir-fazla hatasıydı (iki uç dahil 4.747.787, yeniden ölçüldü). Koordinatör yakaladı.
 - Yalnız ölçülemeyen: 648ff21ea, 025ab2a72 → **2**.
 - **Bütün `denetle.py` sayaç iddiaları (önce/sonra, 9 commit) birebir tekrar üretildi; uyuşmayan sayaç yok.**
 
@@ -354,7 +355,7 @@ Sonuç:
 4. 03c49ad50 başlığı "185->184 tavan": tablo diff'inde tavan 189→184, AÇIK 186→184.
 5. a20e1fe9c "1299 düzeltildi": `README.md:17` hâlâ "1299–1923".
 6. 647bcf311 "Malatya'nın bugünkü zinciri": 1399 sonrası aynı, Malatya'daki 1335-1338 eretna dilimi dört noktada yok.
-7. 29be6d424 "4.747.787 gün": iki uç dahil hesap 4.747.788.
+7. ~~29be6d424 "4.747.787 gün": iki uç dahil hesap 4.747.788.~~ GERİ ÇEKİLDİ — iki uç dahil değer 4.747.787, mesaj doğru; tutarsızlık LAB'in bir-fazla hatasıydı.
 8. 6865cc876 sınav betiği: docstring varsayılanı HEAD~, kod varsayılanı HEAD; argümansız çalıştırınca exit 1.
 9. 3928c0012 `glm/GLM-217-KAYNAKSIZ-GOREV.txt` dosyasını da ekliyor, mesajda anılmıyor.
 10. 0291c38d3 "18'i değişti": commit'te 6 paket; `paket_kunye.json` commit'te yok ⇒ `paketle.py sina` 0291c38d3'te exit 1.
