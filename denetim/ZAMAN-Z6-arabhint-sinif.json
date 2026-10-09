@@ -1,0 +1,2223 @@
+[
+ {
+  "ad": "Delhi",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1192-01-01",
+    "d": "gurlu",
+    "slug": "delhi",
+    "parca": "Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı",
+    "not": "Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır"
+   },
+   {
+    "f": "1206-01-01",
+    "d": "delhi-sultanligi",
+    "slug": "delhi",
+    "parca": "Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu",
+    "not": "Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün"
+   }
+  ]
+ },
+ {
+  "ad": "Koil (Aligarh)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1194-01-01",
+    "d": "gurlu",
+    "slug": "aligarh",
+    "parca": "Kutbüddin Aybeg tarafından fethedilmiştir (1194)",
+    "not": "'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı"
+   },
+   {
+    "f": "1206-01-01",
+    "d": "delhi-sultanligi",
+    "slug": "aligarh",
+    "parca": "Kutbüddin Aybeg tarafından fethedilmiştir (1194)",
+    "not": "ardıl yapı; künye günü devralındı — kaynaksız gün"
+   }
+  ]
+ },
+ {
+  "ad": "Ecmîr (Ajmer)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1192-01-01",
+    "d": "gurlu",
+    "slug": "ecmir",
+    "parca": "Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı",
+    "not": "fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi)"
+   },
+   {
+    "f": "1206-01-01",
+    "d": "delhi-sultanligi",
+    "slug": "ecmir",
+    "parca": "Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak",
+    "not": "Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil"
+   }
+  ]
+ },
+ {
+  "ad": "Lahor",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1013-01-01",
+    "d": "gazneli",
+    "slug": "lahor",
+    "parca": "1013-1014’te Gazneli Mahmud’un eline geçti",
+    "not": "kaynak '1013-1014' ARALIĞI; başı yazıldı"
+   },
+   {
+    "f": "1186-01-01",
+    "d": "gurlu",
+    "slug": "lahor",
+    "parca": "582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu"
+   },
+   {
+    "f": "1206-01-01",
+    "d": "delhi-sultanligi",
+    "slug": "lahor",
+    "parca": "582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu",
+    "not": "ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok"
+   }
+  ]
+ },
+ {
+  "ad": "Zebîd",
+  "sinif": "3k",
+  "neden": "1060 Suleyhî · 1089 Necâhî · 569/1174 Eyyûbî — 🔴 yan bulgu: atlas 1281 `yemen` (= yemen-zeydi künyesi, Zeydî imamlık); devletler.js `resuli` 1229-1454 VAR, Tihâme Resûlî'dir"
+ },
+ {
+  "ad": "Aden",
+  "sinif": "3k",
+  "neden": "Benî Zürey 1173'e dek · Turan Şah — 🔴 yan bulgu: atlas 1281 `yemen` (Zeydî); Aden Resûlî limanıdır"
+ },
+ {
+  "ad": "Sana",
+  "sinif": "3k",
+  "neden": "1088 Suleyhî · 1098 Hemdânî · 626/1229 Ali er-Resûlî San‘a'yı idaresi altına aldı · 632/1235 bağımsızlık — atlas 1281 `yemen` (Zeydî) ile Resûlî geçişi arası tarihsiz"
+ },
+ {
+  "ad": "Mekke",
+  "sinif": "3k",
+  "neden": "1063 Suleyhî · 1067 Abbâsî'ye bağlandı · 1174 Eyyûbî hutbesi · 1252'ye dek Eyyûbî — Mekke emirleri TÂBİ (mekke-serifligi künyesi boyasız); atlas 1281 memluk'a geçiş tarihsiz"
+ },
+ {
+  "ad": "Medine",
+  "sinif": "3k",
+  "neden": "1174 Eyyûbî hutbesi — tâbiiyet; Memlük'e geçiş tarihsiz"
+ },
+ {
+  "ad": "Yenbu",
+  "sinif": "3b",
+  "neden": "596/1200 İdrîs 'hâkimiyetini Yenbu‘dan Mekke’ye doğru genişletti' — Haşimî emir, bölge"
+ },
+ {
+  "ad": "Multan",
+  "sinif": "3k",
+  "neden": "1006/1008/1010 Gazneli zaptı — Gurlu/Kubâce/Delhi geçişleri bu maddede tarihsiz"
+ },
+ {
+  "ad": "Gazne",
+  "sinif": "3k",
+  "neden": "1117/1135 Sencer istilâsı · 1173 Gurlu başşehri — gurlu künyesi 1215'te biter, sonrası (Hârizmşah/Moğol) tarihsiz"
+ },
+ {
+  "ad": "Cammû (Jammu)",
+  "sinif": "3k",
+  "neden": "Muizzüddin'in eline geçmiş (tarihsiz), 1206 sonrası Hindu racalar"
+ },
+ {
+  "ad": "Srinagar (Keşmir)",
+  "sinif": "3b",
+  "neden": "1015/1021 Gazneli zaptetme GİRİŞİMİ — başarısız"
+ },
+ {
+  "ad": "Bîcâpur (Bijapur)",
+  "sinif": "3b",
+  "neden": "'1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan BÖLGE' — bölge cümlesi"
+ },
+ {
+  "ad": "Mrauk U (Arakan)",
+  "sinif": "3b",
+  "neden": "Pagan'a bağlılık (1044-1077 saltanat aralığı)"
+ },
+ {
+  "ad": "Cidde",
+  "sinif": "3",
+  "neden": "TDV `cidde` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Tebük",
+  "sinif": "3",
+  "neden": "TDV `tebuk` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Moha",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "moha:302",
+   "moha--sehir:302",
+   "arama:moha:200"
+  ]
+ },
+ {
+  "ad": "Taiz",
+  "sinif": "3",
+  "neden": "TDV `taiz` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Hudeyde",
+  "sinif": "3",
+  "neden": "TDV `hudeyde` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Ebha (Asir)",
+  "sinif": "3",
+  "neden": "TDV `ebha` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Sevâkin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sevakin:302",
+   "sevakin--sehir:302",
+   "arama:sevakin:200"
+  ]
+ },
+ {
+  "ad": "Masavva",
+  "sinif": "3",
+  "neden": "TDV `masavva` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Maskat",
+  "sinif": "3",
+  "neden": "TDV `maskat` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Gondar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gondar:302",
+   "gondar--sehir:302",
+   "arama:gondar:200"
+  ]
+ },
+ {
+  "ad": "Nizva",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nizva:302",
+   "nizva--sehir:302",
+   "arama:nizva:200"
+  ]
+ },
+ {
+  "ad": "Salala",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "salala:302",
+   "salala--sehir:302",
+   "arama:salala:200"
+  ]
+ },
+ {
+  "ad": "Asmara",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "asmara:302",
+   "asmara--sehir:302",
+   "arama:asmara:200"
+  ]
+ },
+ {
+  "ad": "Tâif",
+  "sinif": "3",
+  "neden": "TDV `taif` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Dahlak",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dahlak:302",
+   "dahlak--sehir:302",
+   "arama:dahlak:200"
+  ]
+ },
+ {
+  "ad": "Ferasan (Farasan)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ferasan:302",
+   "ferasan--sehir:302",
+   "farasan:302",
+   "farasan--sehir:302",
+   "arama:ferasan:200",
+   "arama:farasan:200"
+  ]
+ },
+ {
+  "ad": "Kemeran (Kamaran)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kemeran:302",
+   "kemeran--sehir:302",
+   "kamaran:302",
+   "kamaran--sehir:302",
+   "arama:kemeran:200",
+   "arama:kamaran:200"
+  ]
+ },
+ {
+  "ad": "Sokotra",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sokotra:302",
+   "sokotra--sehir:302",
+   "arama:sokotra:200"
+  ]
+ },
+ {
+  "ad": "Masira",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "masira:302",
+   "masira--sehir:302",
+   "arama:masira:200"
+  ]
+ },
+ {
+  "ad": "Suhâr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "suhar:302",
+   "suhar--sehir:302",
+   "arama:suhar:200"
+  ]
+ },
+ {
+  "ad": "Sûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sur:302",
+   "sur--sehir:302",
+   "arama:sur:200"
+  ]
+ },
+ {
+  "ad": "Buraymî",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "buraymi:302",
+   "buraymi--sehir:302",
+   "arama:buraymi:200"
+  ]
+ },
+ {
+  "ad": "Ebû Ramâd (Şalâtîn)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ebu-ramad:302",
+   "ebu-ramad--sehir:302",
+   "salatin:302",
+   "salatin--sehir:302",
+   "arama:ebu-ramad:200",
+   "arama:salatin:200"
+  ]
+ },
+ {
+  "ad": "Arkîko",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "arkiko:302",
+   "arkiko--sehir:302",
+   "arama:arkiko:200"
+  ]
+ },
+ {
+  "ad": "Halâib",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "halaib:302",
+   "halaib--sehir:302",
+   "arama:halaib:200"
+  ]
+ },
+ {
+  "ad": "Akīk",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "akik:200",
+   "akik--sehir:302",
+   "arama:akik:200"
+  ]
+ },
+ {
+  "ad": "Tokar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tokar:302",
+   "tokar--sehir:302",
+   "arama:tokar:200"
+  ]
+ },
+ {
+  "ad": "Sinkat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sinkat:302",
+   "sinkat--sehir:302",
+   "arama:sinkat:200"
+  ]
+ },
+ {
+  "ad": "Aksum",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "aksum:302",
+   "aksum--sehir:302",
+   "arama:aksum:200"
+  ]
+ },
+ {
+  "ad": "Adua",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "adua:302",
+   "adua--sehir:302",
+   "arama:adua:200"
+  ]
+ },
+ {
+  "ad": "Şire",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sire:302",
+   "sire--sehir:302",
+   "arama:sire:200"
+  ]
+ },
+ {
+  "ad": "Adigrat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "adigrat:302",
+   "adigrat--sehir:302",
+   "arama:adigrat:200"
+  ]
+ },
+ {
+  "ad": "Mekelle",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mekelle:302",
+   "mekelle--sehir:302",
+   "arama:mekelle:200"
+  ]
+ },
+ {
+  "ad": "Kerene",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kerene:302",
+   "kerene--sehir:302",
+   "arama:kerene:200"
+  ]
+ },
+ {
+  "ad": "Lalibela",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lalibela:302",
+   "lalibela--sehir:302",
+   "arama:lalibela:200"
+  ]
+ },
+ {
+  "ad": "Sokota",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sokota:302",
+   "sokota--sehir:302",
+   "arama:sokota:200"
+  ]
+ },
+ {
+  "ad": "Metemma",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "metemma:302",
+   "metemma--sehir:302",
+   "arama:metemma:200"
+  ]
+ },
+ {
+  "ad": "Aseb",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "aseb:302",
+   "aseb--sehir:302",
+   "arama:aseb:200"
+  ]
+ },
+ {
+  "ad": "Kadârif",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kadarif:302",
+   "kadarif--sehir:302",
+   "arama:kadarif:200"
+  ]
+ },
+ {
+  "ad": "Hayyâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hayya:302",
+   "hayya--sehir:302",
+   "arama:hayya:200"
+  ]
+ },
+ {
+  "ad": "Trinkitât",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "trinkitat:302",
+   "trinkitat--sehir:302",
+   "arama:trinkitat:200"
+  ]
+ },
+ {
+  "ad": "Muhammed Kol",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "muhammed-kol:302",
+   "muhammed-kol--sehir:302",
+   "arama:muhammed-kol:200"
+  ]
+ },
+ {
+  "ad": "Ağordat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "agordat:302",
+   "agordat--sehir:302",
+   "arama:agordat:200"
+  ]
+ },
+ {
+  "ad": "Barentu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "barentu:302",
+   "barentu--sehir:302",
+   "arama:barentu:200"
+  ]
+ },
+ {
+  "ad": "Nakfa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nakfa:302",
+   "nakfa--sehir:302",
+   "arama:nakfa:200"
+  ]
+ },
+ {
+  "ad": "Tesseney",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tesseney:302",
+   "tesseney--sehir:302",
+   "arama:tesseney:200"
+  ]
+ },
+ {
+  "ad": "Adi Kayh",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "adi-kayh:302",
+   "adi-kayh--sehir:302",
+   "arama:adi-kayh:200"
+  ]
+ },
+ {
+  "ad": "Ğındâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ginda:302",
+   "ginda--sehir:302",
+   "arama:ginda:200"
+  ]
+ },
+ {
+  "ad": "Debârve",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "debarve:302",
+   "debarve--sehir:302",
+   "arama:debarve:200"
+  ]
+ },
+ {
+  "ad": "Debârek",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "debarek:302",
+   "debarek--sehir:302",
+   "arama:debarek:200"
+  ]
+ },
+ {
+  "ad": "Mirbât",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mirbat:302",
+   "mirbat--sehir:302",
+   "arama:mirbat:200"
+  ]
+ },
+ {
+  "ad": "Tâka (Zufâr)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "taka:302",
+   "taka--sehir:302",
+   "zufar:302",
+   "zufar--sehir:302",
+   "arama:taka:200",
+   "arama:zufar:200"
+  ]
+ },
+ {
+  "ad": "Hâsik",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hasik:302",
+   "hasik--sehir:302",
+   "arama:hasik:200"
+  ]
+ },
+ {
+  "ad": "Şüveymiye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "suveymiye:302",
+   "suveymiye--sehir:302",
+   "arama:suveymiye:200"
+  ]
+ },
+ {
+  "ad": "Dukm",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dukm:302",
+   "dukm--sehir:302",
+   "arama:dukm:200"
+  ]
+ },
+ {
+  "ad": "Muhût",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "muhut:302",
+   "muhut--sehir:302",
+   "arama:muhut:200"
+  ]
+ },
+ {
+  "ad": "Tumreyt",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tumreyt:302",
+   "tumreyt--sehir:302",
+   "arama:tumreyt:200"
+  ]
+ },
+ {
+  "ad": "Şisr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sisr:302",
+   "sisr--sehir:302",
+   "arama:sisr:200"
+  ]
+ },
+ {
+  "ad": "Derûdeb",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "derudeb:302",
+   "derudeb--sehir:302",
+   "arama:derudeb:200"
+  ]
+ },
+ {
+  "ad": "Vukro",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vukro:302",
+   "vukro--sehir:302",
+   "arama:vukro:200"
+  ]
+ },
+ {
+  "ad": "Alamata",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "alamata:302",
+   "alamata--sehir:302",
+   "arama:alamata:200"
+  ]
+ },
+ {
+  "ad": "Zula",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zula:302",
+   "zula--sehir:302",
+   "arama:zula:200"
+  ]
+ },
+ {
+  "ad": "Adi Kuala",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "adi-kuala:302",
+   "adi-kuala--sehir:302",
+   "arama:adi-kuala:200"
+  ]
+ },
+ {
+  "ad": "Cezîr (Sevkıra)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cezir:302",
+   "cezir--sehir:302",
+   "sevkira:302",
+   "sevkira--sehir:302",
+   "arama:cezir:200",
+   "arama:sevkira:200"
+  ]
+ },
+ {
+  "ad": "Râs Medreke",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ras-medreke:302",
+   "ras-medreke--sehir:302",
+   "arama:ras-medreke:200"
+  ]
+ },
+ {
+  "ad": "Rahbût",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rahbut:302",
+   "rahbut--sehir:302",
+   "arama:rahbut:200"
+  ]
+ },
+ {
+  "ad": "el-Ulâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "el-ula:302",
+   "el-ula--sehir:302",
+   "arama:el-ula:200"
+  ]
+ },
+ {
+  "ad": "Medâin-i Sâlih (el-Hicr)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "medain-i-salih:302",
+   "medain-i-salih--sehir:302",
+   "el-hicr:302",
+   "el-hicr--sehir:302",
+   "arama:medain-i-salih:200",
+   "arama:el-hicr:200"
+  ]
+ },
+ {
+  "ad": "el-Vech",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "el-vech:302",
+   "el-vech--sehir:302",
+   "arama:el-vech:200"
+  ]
+ },
+ {
+  "ad": "Hayber",
+  "sinif": "3",
+  "neden": "TDV `hayber` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Sa'de",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sade:302",
+   "sade--sehir:302",
+   "arama:sade:200"
+  ]
+ },
+ {
+  "ad": "Şehâre",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sehare:302",
+   "sehare--sehir:302",
+   "arama:sehare:200"
+  ]
+ },
+ {
+  "ad": "Kevkebân",
+  "sinif": "3",
+  "neden": "TDV `kevkeban` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Bedir",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bedir:200",
+   "bedir--sehir:302",
+   "arama:bedir:200"
+  ]
+ },
+ {
+  "ad": "Râbiğ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rabig:302",
+   "rabig--sehir:302",
+   "arama:rabig:200"
+  ]
+ },
+ {
+  "ad": "Türabe",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "turabe:302",
+   "turabe--sehir:302",
+   "arama:turabe:200"
+  ]
+ },
+ {
+  "ad": "Hurma (Tâif doğusu)",
+  "sinif": "3",
+  "neden": "TDV `hurma` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Seyûn (Sayvan)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "seyun:302",
+   "seyun--sehir:302",
+   "sayvan:200",
+   "sayvan--sehir:302",
+   "arama:seyun:200",
+   "arama:sayvan:200"
+  ]
+ },
+ {
+  "ad": "Mathura",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mathura:302",
+   "mathura--sehir:302",
+   "arama:mathura:200"
+  ]
+ },
+ {
+  "ad": "Mîrat (Meerut)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mirat:200",
+   "mirat--sehir:302",
+   "meerut:302",
+   "meerut--sehir:302",
+   "arama:mirat:200",
+   "arama:meerut:200"
+  ]
+ },
+ {
+  "ad": "Pânipat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "panipat:302",
+   "panipat--sehir:302",
+   "arama:panipat:200"
+  ]
+ },
+ {
+  "ad": "Etâve (Etawah)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "etave:302",
+   "etave--sehir:302",
+   "etawah:302",
+   "etawah--sehir:302",
+   "arama:etave:200",
+   "arama:etawah:200"
+  ]
+ },
+ {
+  "ad": "Kannauc",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kannauc:302",
+   "kannauc--sehir:302",
+   "arama:kannauc:200"
+  ]
+ },
+ {
+  "ad": "Kanpûr",
+  "sinif": "3",
+  "neden": "TDV `kanpur` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Leknev (Lucknow)",
+  "sinif": "3",
+  "neden": "TDV `leknev` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Feyzâbâd (Ayodhya)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "feyzabad:302",
+   "feyzabad--sehir:302",
+   "ayodhya:302",
+   "ayodhya--sehir:302",
+   "arama:feyzabad:200",
+   "arama:ayodhya:200"
+  ]
+ },
+ {
+  "ad": "Benâres (Vârânasî)",
+  "sinif": "3",
+  "neden": "TDV `benares` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Ilâhâbâd (Allahabad)",
+  "sinif": "3",
+  "neden": "TDV `allahabad` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Gorakhpûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gorakhpur:302",
+   "gorakhpur--sehir:302",
+   "arama:gorakhpur:200"
+  ]
+ },
+ {
+  "ad": "Katmandu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "katmandu:302",
+   "katmandu--sehir:302",
+   "arama:katmandu:200"
+  ]
+ },
+ {
+  "ad": "Sirhind",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sirhind:302",
+   "sirhind--sehir:302",
+   "arama:sirhind:200"
+  ]
+ },
+ {
+  "ad": "Câlandhar (Jalandhar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "calandhar:302",
+   "calandhar--sehir:302",
+   "jalandhar:302",
+   "jalandhar--sehir:302",
+   "arama:calandhar:200",
+   "arama:jalandhar:200"
+  ]
+ },
+ {
+  "ad": "Siyâlkot",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "siyalkot:302",
+   "siyalkot--sehir:302",
+   "arama:siyalkot:200"
+  ]
+ },
+ {
+  "ad": "Râvalpindi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ravalpindi:302",
+   "ravalpindi--sehir:302",
+   "arama:ravalpindi:200"
+  ]
+ },
+ {
+  "ad": "Peşâver",
+  "sinif": "3",
+  "neden": "TDV `pesaver` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Kâbil",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kabil:302",
+   "kabil--sehir:302",
+   "arama:kabil:200"
+  ]
+ },
+ {
+  "ad": "Kandehar",
+  "sinif": "3",
+  "neden": "TDV `kandehar` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Leh (Ladakh)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "leh:200",
+   "leh--sehir:302",
+   "ladakh:302",
+   "ladakh--sehir:302",
+   "arama:leh:200",
+   "arama:ladakh:200"
+  ]
+ },
+ {
+  "ad": "Tatta (Thatta)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tatta:302",
+   "tatta--sehir:302",
+   "thatta:302",
+   "thatta--sehir:302",
+   "arama:tatta:200",
+   "arama:thatta:200"
+  ]
+ },
+ {
+  "ad": "Çitor (Chittorgarh)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "citor:302",
+   "citor--sehir:302",
+   "chittorgarh:302",
+   "chittorgarh--sehir:302",
+   "arama:citor:200",
+   "arama:chittorgarh:200"
+  ]
+ },
+ {
+  "ad": "Caysalmer",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "caysalmer:302",
+   "caysalmer--sehir:302",
+   "arama:caysalmer:200"
+  ]
+ },
+ {
+  "ad": "Sûrat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "surat:200",
+   "surat--sehir:302",
+   "arama:surat:200"
+  ]
+ },
+ {
+  "ad": "Kanbâyet (Khambhat)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kanbayet:302",
+   "kanbayet--sehir:302",
+   "khambhat:302",
+   "khambhat--sehir:302",
+   "arama:kanbayet:200",
+   "arama:khambhat:200"
+  ]
+ },
+ {
+  "ad": "Diu",
+  "sinif": "3",
+  "neden": "TDV `diu` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Cûnâgadh",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cunagadh:302",
+   "cunagadh--sehir:302",
+   "arama:cunagadh:200"
+  ]
+ },
+ {
+  "ad": "Patan (Anhilvâda)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "patan:302",
+   "patan--sehir:302",
+   "anhilvada:302",
+   "anhilvada--sehir:302",
+   "arama:patan:200",
+   "arama:anhilvada:200"
+  ]
+ },
+ {
+  "ad": "Çampâner",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "campaner:302",
+   "campaner--sehir:302",
+   "arama:campaner:200"
+  ]
+ },
+ {
+  "ad": "Broaç (Bharuch)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "broac:302",
+   "broac--sehir:302",
+   "bharuch:302",
+   "bharuch--sehir:302",
+   "arama:broac:200",
+   "arama:bharuch:200"
+  ]
+ },
+ {
+  "ad": "Mandu (Mândû)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mandu:302",
+   "mandu--sehir:302",
+   "arama:mandu:200"
+  ]
+ },
+ {
+  "ad": "Uccayn (Ujjain)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "uccayn:302",
+   "uccayn--sehir:302",
+   "ujjain:302",
+   "ujjain--sehir:302",
+   "arama:uccayn:200",
+   "arama:ujjain:200"
+  ]
+ },
+ {
+  "ad": "Gvalyar (Gwalior)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gvalyar:302",
+   "gvalyar--sehir:302",
+   "gwalior:302",
+   "gwalior--sehir:302",
+   "arama:gvalyar:200",
+   "arama:gwalior:200"
+  ]
+ },
+ {
+  "ad": "Cabalpûr (Jabalpur)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cabalpur:302",
+   "cabalpur--sehir:302",
+   "jabalpur:302",
+   "jabalpur--sehir:302",
+   "arama:cabalpur:200",
+   "arama:jabalpur:200"
+  ]
+ },
+ {
+  "ad": "Patna (Azîmâbâd)",
+  "sinif": "3",
+  "neden": "TDV `patna` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Gayâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gaya:302",
+   "gaya--sehir:302",
+   "arama:gaya:200"
+  ]
+ },
+ {
+  "ad": "Mungîr (Monghyr)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mungir:302",
+   "mungir--sehir:302",
+   "monghyr:302",
+   "monghyr--sehir:302",
+   "arama:mungir:200",
+   "arama:monghyr:200"
+  ]
+ },
+ {
+  "ad": "Bhâgalpûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bhagalpur:302",
+   "bhagalpur--sehir:302",
+   "arama:bhagalpur:200"
+  ]
+ },
+ {
+  "ad": "Gaur (Lakhnautî)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gaur:302",
+   "gaur--sehir:302",
+   "lakhnauti:302",
+   "lakhnauti--sehir:302",
+   "arama:gaur:200",
+   "arama:lakhnauti:200"
+  ]
+ },
+ {
+  "ad": "Pandua (Hazret Pandua)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pandua:302",
+   "pandua--sehir:302",
+   "hazret-pandua:302",
+   "hazret-pandua--sehir:302",
+   "arama:pandua:200",
+   "arama:hazret-pandua:200"
+  ]
+ },
+ {
+  "ad": "Dakka (Dhaka)",
+  "sinif": "3",
+  "neden": "TDV `dakka` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Sonârgâon",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sonargaon:302",
+   "sonargaon--sehir:302",
+   "arama:sonargaon:200"
+  ]
+ },
+ {
+  "ad": "Çatgam (Chittagong)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "catgam:302",
+   "catgam--sehir:302",
+   "chittagong:302",
+   "chittagong--sehir:302",
+   "arama:catgam:200",
+   "arama:chittagong:200"
+  ]
+ },
+ {
+  "ad": "Hûglî (Hooghly)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hugli:302",
+   "hugli--sehir:302",
+   "hooghly:302",
+   "hooghly--sehir:302",
+   "arama:hugli:200",
+   "arama:hooghly:200"
+  ]
+ },
+ {
+  "ad": "Kattak (Cuttack)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kattak:302",
+   "kattak--sehir:302",
+   "cuttack:302",
+   "cuttack--sehir:302",
+   "arama:kattak:200",
+   "arama:cuttack:200"
+  ]
+ },
+ {
+  "ad": "Puri",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "puri:302",
+   "puri--sehir:302",
+   "arama:puri:200"
+  ]
+ },
+ {
+  "ad": "Bâlâsor (Balasore)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "balasor:302",
+   "balasor--sehir:302",
+   "balasore:302",
+   "balasore--sehir:302",
+   "arama:balasor:200",
+   "arama:balasore:200"
+  ]
+ },
+ {
+  "ad": "Gauhâtî (Guwahati)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gauhati:302",
+   "gauhati--sehir:302",
+   "guwahati:302",
+   "guwahati--sehir:302",
+   "arama:gauhati:200",
+   "arama:guwahati:200"
+  ]
+ },
+ {
+  "ad": "Sibsâgar (Rangpûr)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sibsagar:302",
+   "sibsagar--sehir:302",
+   "rangpur:302",
+   "rangpur--sehir:302",
+   "arama:sibsagar:200",
+   "arama:rangpur:200"
+  ]
+ },
+ {
+  "ad": "İmphâl (Manipûr)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "imphal:302",
+   "imphal--sehir:302",
+   "manipur:302",
+   "manipur--sehir:302",
+   "arama:imphal:200",
+   "arama:manipur:200"
+  ]
+ },
+ {
+  "ad": "Devagiri (Devletâbâd)",
+  "sinif": "3",
+  "neden": "TDV `devletabad` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Elicpûr (Achalpur)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "elicpur:302",
+   "elicpur--sehir:302",
+   "achalpur:302",
+   "achalpur--sehir:302",
+   "arama:elicpur:200",
+   "arama:achalpur:200"
+  ]
+ },
+ {
+  "ad": "Bîdar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bidar:302",
+   "bidar--sehir:302",
+   "arama:bidar:200"
+  ]
+ },
+ {
+  "ad": "Gülberge (Gulbarga)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gulberge:302",
+   "gulberge--sehir:302",
+   "gulbarga:302",
+   "gulbarga--sehir:302",
+   "arama:gulberge:200",
+   "arama:gulbarga:200"
+  ]
+ },
+ {
+  "ad": "Golkonda",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "golkonda:200",
+   "golkonda--sehir:302",
+   "arama:golkonda:200"
+  ]
+ },
+ {
+  "ad": "Varangal (Warangal)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "varangal:302",
+   "varangal--sehir:302",
+   "warangal:302",
+   "warangal--sehir:302",
+   "arama:varangal:200",
+   "arama:warangal:200"
+  ]
+ },
+ {
+  "ad": "Pûne (Poona)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pune:302",
+   "pune--sehir:302",
+   "poona:302",
+   "poona--sehir:302",
+   "arama:pune:200",
+   "arama:poona:200"
+  ]
+ },
+ {
+  "ad": "Raygad",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "raygad:302",
+   "raygad--sehir:302",
+   "arama:raygad:200"
+  ]
+ },
+ {
+  "ad": "Satâra",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "satara:302",
+   "satara--sehir:302",
+   "arama:satara:200"
+  ]
+ },
+ {
+  "ad": "Kolhapûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kolhapur:302",
+   "kolhapur--sehir:302",
+   "arama:kolhapur:200"
+  ]
+ },
+ {
+  "ad": "Nâsik",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nasik:200",
+   "nasik--sehir:302",
+   "arama:nasik:200"
+  ]
+ },
+ {
+  "ad": "Bombay",
+  "sinif": "3",
+  "neden": "TDV `bombay` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Çaul (Chaul)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "caul:302",
+   "caul--sehir:302",
+   "chaul:302",
+   "chaul--sehir:302",
+   "arama:caul:200",
+   "arama:chaul:200"
+  ]
+ },
+ {
+  "ad": "Goa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "goa:302",
+   "goa--sehir:302",
+   "arama:goa:200"
+  ]
+ },
+ {
+  "ad": "Mangalor",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mangalor:302",
+   "mangalor--sehir:302",
+   "arama:mangalor:200"
+  ]
+ },
+ {
+  "ad": "Raycur (Raichur)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "raycur:302",
+   "raycur--sehir:302",
+   "raichur:302",
+   "raichur--sehir:302",
+   "arama:raycur:200",
+   "arama:raichur:200"
+  ]
+ },
+ {
+  "ad": "Kurnûl (Kurnool)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kurnul:302",
+   "kurnul--sehir:302",
+   "kurnool:302",
+   "kurnool--sehir:302",
+   "arama:kurnul:200",
+   "arama:kurnool:200"
+  ]
+ },
+ {
+  "ad": "Seringapatam (Şrirangapatnam)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "seringapatam:302",
+   "seringapatam--sehir:302",
+   "srirangapatnam:302",
+   "srirangapatnam--sehir:302",
+   "arama:seringapatam:200",
+   "arama:srirangapatnam:200"
+  ]
+ },
+ {
+  "ad": "Meysûr (Mysore)",
+  "sinif": "3",
+  "neden": "TDV `meysur` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Nagapatnam",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nagapatnam:302",
+   "nagapatnam--sehir:302",
+   "arama:nagapatnam:200"
+  ]
+ },
+ {
+  "ad": "Tranquebar (Tharangambadi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tranquebar:302",
+   "tranquebar--sehir:302",
+   "tharangambadi:302",
+   "tharangambadi--sehir:302",
+   "arama:tranquebar:200",
+   "arama:tharangambadi:200"
+  ]
+ },
+ {
+  "ad": "Tancûr (Thanjavur)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tancur:302",
+   "tancur--sehir:302",
+   "thanjavur:302",
+   "thanjavur--sehir:302",
+   "arama:tancur:200",
+   "arama:thanjavur:200"
+  ]
+ },
+ {
+  "ad": "Madurai",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "madurai:302",
+   "madurai--sehir:302",
+   "arama:madurai:200"
+  ]
+ },
+ {
+  "ad": "Trichinopoly (Tiruchirappalli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "trichinopoly:302",
+   "trichinopoly--sehir:302",
+   "tiruchirappalli:302",
+   "tiruchirappalli--sehir:302",
+   "arama:trichinopoly:200",
+   "arama:tiruchirappalli:200"
+  ]
+ },
+ {
+  "ad": "Cinci (Gingee)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cinci:200",
+   "cinci--sehir:302",
+   "gingee:302",
+   "gingee--sehir:302",
+   "arama:cinci:200",
+   "arama:gingee:200"
+  ]
+ },
+ {
+  "ad": "Vellor (Vellore)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vellor:302",
+   "vellor--sehir:302",
+   "vellore:302",
+   "vellore--sehir:302",
+   "arama:vellor:200",
+   "arama:vellore:200"
+  ]
+ },
+ {
+  "ad": "Arkot (Arcot)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "arkot:302",
+   "arkot--sehir:302",
+   "arcot:302",
+   "arcot--sehir:302",
+   "arama:arkot:200",
+   "arama:arcot:200"
+  ]
+ },
+ {
+  "ad": "Kalikut (Kozhikode)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kalikut:302",
+   "kalikut--sehir:302",
+   "kozhikode:302",
+   "kozhikode--sehir:302",
+   "arama:kalikut:200",
+   "arama:kozhikode:200"
+  ]
+ },
+ {
+  "ad": "Koçin (Kochi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kocin:302",
+   "kocin--sehir:302",
+   "kochi:302",
+   "kochi--sehir:302",
+   "arama:kocin:200",
+   "arama:kochi:200"
+  ]
+ },
+ {
+  "ad": "Kannûr (Cannanore)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kannur:302",
+   "kannur--sehir:302",
+   "cannanore:302",
+   "cannanore--sehir:302",
+   "arama:kannur:200",
+   "arama:cannanore:200"
+  ]
+ },
+ {
+  "ad": "Kolam (Quilon)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kolam:302",
+   "kolam--sehir:302",
+   "quilon:302",
+   "quilon--sehir:302",
+   "arama:kolam:200",
+   "arama:quilon:200"
+  ]
+ },
+ {
+  "ad": "Trivandrum (Thiruvananthapuram)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "trivandrum:302",
+   "trivandrum--sehir:302",
+   "thiruvananthapuram:302",
+   "thiruvananthapuram--sehir:302",
+   "arama:trivandrum:200",
+   "arama:thiruvananthapuram:200"
+  ]
+ },
+ {
+  "ad": "Masulipatnam",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "masulipatnam:302",
+   "masulipatnam--sehir:302",
+   "arama:masulipatnam:200"
+  ]
+ },
+ {
+  "ad": "Râcahmundry",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "racahmundry:302",
+   "racahmundry--sehir:302",
+   "arama:racahmundry:200"
+  ]
+ },
+ {
+  "ad": "Vişâkapatnam",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "visakapatnam:302",
+   "visakapatnam--sehir:302",
+   "arama:visakapatnam:200"
+  ]
+ },
+ {
+  "ad": "Kolombo",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kolombo:302",
+   "kolombo--sehir:302",
+   "arama:kolombo:200"
+  ]
+ },
+ {
+  "ad": "Kandy",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kandy:302",
+   "kandy--sehir:302",
+   "arama:kandy:200"
+  ]
+ },
+ {
+  "ad": "Yafna (Jaffna)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yafna:302",
+   "yafna--sehir:302",
+   "jaffna:302",
+   "jaffna--sehir:302",
+   "arama:yafna:200",
+   "arama:jaffna:200"
+  ]
+ },
+ {
+  "ad": "Lhasa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lhasa:302",
+   "lhasa--sehir:302",
+   "arama:lhasa:200"
+  ]
+ },
+ {
+  "ad": "Şigatse",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sigatse:302",
+   "sigatse--sehir:302",
+   "arama:sigatse:200"
+  ]
+ },
+ {
+  "ad": "Gyantse",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gyantse:302",
+   "gyantse--sehir:302",
+   "arama:gyantse:200"
+  ]
+ },
+ {
+  "ad": "Çamdo (Chamdo)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "camdo:302",
+   "camdo--sehir:302",
+   "chamdo:302",
+   "chamdo--sehir:302",
+   "arama:camdo:200",
+   "arama:chamdo:200"
+  ]
+ },
+ {
+  "ad": "Pagan",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pagan:302",
+   "pagan--sehir:302",
+   "arama:pagan:200"
+  ]
+ },
+ {
+  "ad": "Pegu (Bago)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pegu:302",
+   "pegu--sehir:302",
+   "bago:302",
+   "bago--sehir:302",
+   "arama:pegu:200",
+   "arama:bago:200"
+  ]
+ },
+ {
+  "ad": "Rangun (Yangon)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rangun:302",
+   "rangun--sehir:302",
+   "yangon:302",
+   "yangon--sehir:302",
+   "arama:rangun:200",
+   "arama:yangon:200"
+  ]
+ },
+ {
+  "ad": "Toungoo",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "toungoo:302",
+   "toungoo--sehir:302",
+   "arama:toungoo:200"
+  ]
+ },
+ {
+  "ad": "Prome (Pyay)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "prome:302",
+   "prome--sehir:302",
+   "pyay:302",
+   "pyay--sehir:302",
+   "arama:prome:200",
+   "arama:pyay:200"
+  ]
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "moulmein:302",
+   "moulmein--sehir:302",
+   "mawlamyine:302",
+   "mawlamyine--sehir:302",
+   "arama:moulmein:200",
+   "arama:mawlamyine:200"
+  ]
+ },
+ {
+  "ad": "Samudra Pasai",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "samudra-pasai:302",
+   "samudra-pasai--sehir:302",
+   "arama:samudra-pasai:200"
+  ]
+ },
+ {
+  "ad": "Pathein (Bassein)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pathein:302",
+   "pathein--sehir:302",
+   "bassein:302",
+   "bassein--sehir:302",
+   "arama:pathein:200",
+   "arama:bassein:200"
+  ]
+ },
+ {
+  "ad": "Thaton",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "thaton:302",
+   "thaton--sehir:302",
+   "arama:thaton:200"
+  ]
+ },
+ {
+  "ad": "Bhamo",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bhamo:302",
+   "bhamo--sehir:302",
+   "arama:bhamo:200"
+  ]
+ },
+ {
+  "ad": "Taungdwingyi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "taungdwingyi:302",
+   "taungdwingyi--sehir:302",
+   "arama:taungdwingyi:200"
+  ]
+ },
+ {
+  "ad": "Myingyan",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "myingyan:302",
+   "myingyan--sehir:302",
+   "arama:myingyan:200"
+  ]
+ },
+ {
+  "ad": "Yenangyaung",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yenangyaung:302",
+   "yenangyaung--sehir:302",
+   "arama:yenangyaung:200"
+  ]
+ },
+ {
+  "ad": "Katha",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "katha:302",
+   "katha--sehir:302",
+   "arama:katha:200"
+  ]
+ },
+ {
+  "ad": "Meiktila",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "meiktila:302",
+   "meiktila--sehir:302",
+   "arama:meiktila:200"
+  ]
+ },
+ {
+  "ad": "Minbu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "minbu:302",
+   "minbu--sehir:302",
+   "arama:minbu:200"
+  ]
+ },
+ {
+  "ad": "Pakokku",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pakokku:302",
+   "pakokku--sehir:302",
+   "arama:pakokku:200"
+  ]
+ },
+ {
+  "ad": "Myitkyina",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "myitkyina:302",
+   "myitkyina--sehir:302",
+   "arama:myitkyina:200"
+  ]
+ },
+ {
+  "ad": "Sandoway (Thandwe)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sandoway:302",
+   "sandoway--sehir:302",
+   "thandwe:302",
+   "thandwe--sehir:302",
+   "arama:sandoway:200",
+   "arama:thandwe:200"
+  ]
+ },
+ {
+  "ad": "Pyinmana",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pyinmana:302",
+   "pyinmana--sehir:302",
+   "arama:pyinmana:200"
+  ]
+ },
+ {
+  "ad": "Henzada (Hinthada)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "henzada:302",
+   "henzada--sehir:302",
+   "hinthada:302",
+   "hinthada--sehir:302",
+   "arama:henzada:200",
+   "arama:hinthada:200"
+  ]
+ },
+ {
+  "ad": "Loikaw",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "loikaw:302",
+   "loikaw--sehir:302",
+   "arama:loikaw:200"
+  ]
+ },
+ {
+  "ad": "Mogok",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mogok:302",
+   "mogok--sehir:302",
+   "arama:mogok:200"
+  ]
+ },
+ {
+  "ad": "Kalaw",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kalaw:302",
+   "kalaw--sehir:302",
+   "arama:kalaw:200"
+  ]
+ },
+ {
+  "ad": "Asîrgarh",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "asirgarh:302",
+   "asirgarh--sehir:302",
+   "arama:asirgarh:200"
+  ]
+ },
+ {
+  "ad": "Baroda (Vadodara)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "baroda:302",
+   "baroda--sehir:302",
+   "vadodara:302",
+   "vadodara--sehir:302",
+   "arama:baroda:200",
+   "arama:vadodara:200"
+  ]
+ },
+ {
+  "ad": "Raipur",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "raipur:302",
+   "raipur--sehir:302",
+   "arama:raipur:200"
+  ]
+ },
+ {
+  "ad": "Ratanpur",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ratanpur:302",
+   "ratanpur--sehir:302",
+   "arama:ratanpur:200"
+  ]
+ },
+ {
+  "ad": "Sambalpur",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sambalpur:302",
+   "sambalpur--sehir:302",
+   "arama:sambalpur:200"
+  ]
+ },
+ {
+  "ad": "Lashio (Kuzey Hsenwi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lashio:302",
+   "lashio--sehir:302",
+   "kuzey-hsenwi:302",
+   "kuzey-hsenwi--sehir:302",
+   "arama:lashio:200",
+   "arama:kuzey-hsenwi:200"
+  ]
+ },
+ {
+  "ad": "Namkham",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "namkham:302",
+   "namkham--sehir:302",
+   "arama:namkham:200"
+  ]
+ }
+]

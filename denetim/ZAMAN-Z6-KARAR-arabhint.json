@@ -1,0 +1,28 @@
+[
+ {"ad":"Delhi","sinif":"2","zincir":[
+   {"f":"1192-01-01","d":"gurlu","slug":"delhi","parca":"Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı","not":"Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır"},
+   {"f":"1206-01-01","d":"delhi-sultanligi","slug":"delhi","parca":"Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu","not":"Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Koil (Aligarh)","sinif":"2","zincir":[
+   {"f":"1194-01-01","d":"gurlu","slug":"aligarh","parca":"Kutbüddin Aybeg tarafından fethedilmiştir (1194)","not":"'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı"},
+   {"f":"1206-01-01","d":"delhi-sultanligi","slug":"aligarh","parca":"Kutbüddin Aybeg tarafından fethedilmiştir (1194)","not":"ardıl yapı; künye günü devralındı — kaynaksız gün"}]},
+ {"ad":"Ecmîr (Ajmer)","sinif":"2","zincir":[
+   {"f":"1192-01-01","d":"gurlu","slug":"ecmir","parca":"Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı","not":"fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi)"},
+   {"f":"1206-01-01","d":"delhi-sultanligi","slug":"ecmir","parca":"Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak","not":"Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil"}]},
+ {"ad":"Lahor","sinif":"2","zincir":[
+   {"f":"1013-01-01","d":"gazneli","slug":"lahor","parca":"1013-1014’te Gazneli Mahmud’un eline geçti","not":"kaynak '1013-1014' ARALIĞI; başı yazıldı"},
+   {"f":"1186-01-01","d":"gurlu","slug":"lahor","parca":"582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu"},
+   {"f":"1206-01-01","d":"delhi-sultanligi","slug":"lahor","parca":"582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu","not":"ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok"}]},
+
+ {"ad":"Zebîd","sinif":"3k","neden":"1060 Suleyhî · 1089 Necâhî · 569/1174 Eyyûbî — 🔴 yan bulgu: atlas 1281 `yemen` (= yemen-zeydi künyesi, Zeydî imamlık); devletler.js `resuli` 1229-1454 VAR, Tihâme Resûlî'dir"},
+ {"ad":"Aden","sinif":"3k","neden":"Benî Zürey 1173'e dek · Turan Şah — 🔴 yan bulgu: atlas 1281 `yemen` (Zeydî); Aden Resûlî limanıdır"},
+ {"ad":"Sana","sinif":"3k","neden":"1088 Suleyhî · 1098 Hemdânî · 626/1229 Ali er-Resûlî San‘a'yı idaresi altına aldı · 632/1235 bağımsızlık — atlas 1281 `yemen` (Zeydî) ile Resûlî geçişi arası tarihsiz"},
+ {"ad":"Mekke","sinif":"3k","neden":"1063 Suleyhî · 1067 Abbâsî'ye bağlandı · 1174 Eyyûbî hutbesi · 1252'ye dek Eyyûbî — Mekke emirleri TÂBİ (mekke-serifligi künyesi boyasız); atlas 1281 memluk'a geçiş tarihsiz"},
+ {"ad":"Medine","sinif":"3k","neden":"1174 Eyyûbî hutbesi — tâbiiyet; Memlük'e geçiş tarihsiz"},
+ {"ad":"Yenbu","sinif":"3b","neden":"596/1200 İdrîs 'hâkimiyetini Yenbu‘dan Mekke’ye doğru genişletti' — Haşimî emir, bölge"},
+ {"ad":"Multan","sinif":"3k","neden":"1006/1008/1010 Gazneli zaptı — Gurlu/Kubâce/Delhi geçişleri bu maddede tarihsiz"},
+ {"ad":"Gazne","sinif":"3k","neden":"1117/1135 Sencer istilâsı · 1173 Gurlu başşehri — gurlu künyesi 1215'te biter, sonrası (Hârizmşah/Moğol) tarihsiz"},
+ {"ad":"Cammû (Jammu)","sinif":"3k","neden":"Muizzüddin'in eline geçmiş (tarihsiz), 1206 sonrası Hindu racalar"},
+ {"ad":"Srinagar (Keşmir)","sinif":"3b","neden":"1015/1021 Gazneli zaptetme GİRİŞİMİ — başarısız"},
+ {"ad":"Bîcâpur (Bijapur)","sinif":"3b","neden":"'1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan BÖLGE' — bölge cümlesi"},
+ {"ad":"Mrauk U (Arakan)","sinif":"3b","neden":"Pagan'a bağlılık (1044-1077 saltanat aralığı)"}
+]

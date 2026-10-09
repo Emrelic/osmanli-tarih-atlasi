@@ -1,0 +1,910 @@
+[
+ {
+  "ad": "Tarki (Tarku)",
+  "lat": 42.98,
+  "lon": 47.5,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1501-07-01",
+    "d": "altinorda"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "tarki:302",
+   "tarki--sehir:302",
+   "tarku:302",
+   "tarku--sehir:302",
+   "arama:tarki:200",
+   "arama:tarku:200"
+  ]
+ },
+ {
+  "ad": "Zagem (Kaheti)",
+  "lat": 41.7,
+  "lon": 45.78,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1801-09-12",
+    "d": "gurcistan"
+   },
+   {
+    "f": "1801-09-12",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1918-05-26",
+    "d": "transkafkasya"
+   },
+   {
+    "f": "1918-05-26",
+    "t": "1921-02-25",
+    "d": "gurcistan-demokratik-cumhuriyeti",
+    "kaynak": "TDV tiflis: '26 Mayıs'ta … bağımsız Gürcistan Devleti'ni kurdular ve Tiflis'i başşehir yaptılar' · bitiş TDV acara: 'Gürcistan 25 Şubat 1921'de Bolşevikler tarafından işgal edilerek'"
+   },
+   {
+    "f": "1921-02-25",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "zagem:302",
+   "zagem--sehir:302",
+   "kaheti:302",
+   "kaheti--sehir:302",
+   "arama:zagem:200",
+   "arama:kaheti:200"
+  ]
+ },
+ {
+  "ad": "Gence",
+  "lat": 40.683,
+  "lon": 46.36,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1406-10-21",
+    "d": "celayirli"
+   },
+   {
+    "f": "1406-10-21",
+    "t": "1468-04-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1918-05-28",
+    "d": "transkafkasya"
+   },
+   {
+    "f": "1918-05-28",
+    "t": "1920-04-27",
+    "d": "azerbaycan-demokratik-cumhuriyeti"
+   },
+   {
+    "f": "1920-04-27",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "gence:200"
+  ],
+  "slug": "gence",
+  "tanik": [
+   [
+    [
+     1054
+    ],
+    "Gence’ye hâkim olan Şeddâdîler 1054’te Selçuklu Sultanı Tuğrul Bey’e tâbi olmak zorunda kaldılar."
+   ],
+   [
+    [
+     1067
+    ],
+    "1067 yılında Gürcistan seferinden dönen Alparslan bir süre Gence’de kaldı."
+   ],
+   [
+    [
+     1076
+    ],
+    "Sultan Melikşah 1076’da Gence’yi muvakkaten Emîr Fazlûn’dan alıp bütün bölgeyi Emîr Savtegin’e verdi."
+   ],
+   [
+    [
+     1088
+    ],
+    "Ardından Melikşah, 1088’de büyük bir orduyu Arrân üzerine gönderdi."
+   ],
+   [
+    [
+     1093
+    ],
+    "Şehir 486’da (1093) Sultan Berkyaruk tarafından Muhammed Tapar’a iktâ olarak verildi."
+   ],
+   [
+    [
+     1101
+    ],
+    "Sultan Berkyaruk ile aralarında vuku bulan üçüncü savaştan sonra yapılan antlaşmada (495/1101) Gence ve çevresi Muhammed Tapar’a bırakılmıştı."
+   ],
+   [
+    [
+     1110
+    ],
+    "Gürcü Kralı David 503’te (1110) Gence’ye kadar geldiyse de Muhammed Tapar tarafından bozguna uğratıldı."
+   ],
+   [
+    [
+     1139
+    ],
+    "1139’da büyük bir deprem sonucunda Gence geniş tahribata mâruz kaldı."
+   ],
+   [
+    [
+     1127
+    ],
+    "521’de (1127) Gence ve Arrân, Selçuklu valileri Karasungur ve Çavlı’nın idaresindeydi."
+   ],
+   [
+    [
+     1166
+    ],
+    "Georgi 1162 ve 1166’da Gence’yi zaptederek yağmalamış ve birçok esir götürmüştü."
+   ],
+   [
+    [
+     1137,
+     1175
+    ],
+    "Şemseddin İldeniz (1137-1175) ve Cihan Pehlivan’ın (1175-1186) dönemleri Gence’nin sosyal ve ekonomik refah devridir."
+   ],
+   [
+    [
+     1221
+    ],
+    "Gence 1221’de Moğollar’ın saldırılarına hedef oldu."
+   ],
+   [
+    [
+     1223
+    ],
+    "1223’te Gence Hâkimi Kaşkara (Kuşhara) bir grup Kıpçak Türkü’nün bu bölgede yerleşmesine izin verdi."
+   ],
+   [
+    [
+     1225
+    ],
+    "Ardından Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı."
+   ],
+   [
+    [
+     1231
+    ],
+    "1231’de Gence ahalisi ayaklanarak şehirde bulunan Hârizm Garnizonu’nu basıp askerleri öldürdüler."
+   ],
+   [
+    [
+     1235
+    ],
+    "Bunun hemen ardından yeniden Azerbaycan’a gelen Moğollar 1235’te Gence’yi aldılar ve kendilerine sert bir şekilde direnen şehir halkını kılıçtan geçirdikleri gibi şehri de yakıp yıktılar."
+   ]
+  ]
+ },
+ {
+  "ad": "Şamahı",
+  "lat": 40.632,
+  "lon": 48.641,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1501-07-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "samahi:302",
+   "samahi--sehir:302",
+   "arama:samahi:200"
+  ]
+ },
+ {
+  "ad": "Bakü",
+  "lat": 40.372,
+  "lon": 49.867,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1501-07-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1723-08-06",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-08-06",
+    "t": "1735-03-21",
+    "d": "rusya"
+   },
+   {
+    "f": "1735-03-21",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1918-09-15",
+    "d": "sovyet-rusya"
+   },
+   {
+    "f": "1918-09-15",
+    "t": "1920-04-27",
+    "d": "azerbaycan-demokratik-cumhuriyeti"
+   },
+   {
+    "f": "1920-04-27",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "baku:200"
+  ],
+  "slug": "baku",
+  "tanik": []
+ },
+ {
+  "ad": "Derbend",
+  "lat": 42.058,
+  "lon": 48.29,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1382-01-01",
+    "d": "altinorda"
+   },
+   {
+    "f": "1382-01-01",
+    "t": "1509-01-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1509-01-01",
+    "t": "1722-09-03",
+    "d": "safevi"
+   },
+   {
+    "f": "1722-09-03",
+    "t": "1735-03-21",
+    "d": "rusya"
+   },
+   {
+    "f": "1735-03-21",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "ARDIL KÜNYE (§3.5 ③, hayalet): `rusya` künyesi 1917-03-15'te biter, toprak el değiştirmedi, devlet değişti — komşu kayıtların (Kabartay · Vladikavkaz · Tarki) zinciri. 1918-1920 Gürcü/Beyaz/Dağlı dönemleri künyesiz, KODLANMADI (NOKTA-KAFKAS-0077 §6-C 'kapsam dışı'; Dağıstan-K.Kafkas künyesi M-5231 ile açılmayacak) · UYGULA-YERLESIM-0930"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "ARDIL KÜNYE (§3.5 ③, hayalet): `rusya` künyesi 1917-03-15'te biter, toprak el değiştirmedi, devlet değişti — komşu kayıtların (Kabartay · Vladikavkaz · Tarki) zinciri. 1918-1920 Gürcü/Beyaz/Dağlı dönemleri künyesiz, KODLANMADI (NOKTA-KAFKAS-0077 §6-C 'kapsam dışı'; Dağıstan-K.Kafkas künyesi M-5231 ile açılmayacak) · UYGULA-YERLESIM-0930"
+   }
+  ],
+  "denenen": [
+   "derbend:302",
+   "derbend--sehir:302",
+   "arama:derbend:200",
+   "derbend--dagistan:200"
+  ],
+  "slug": "derbend--dagistan",
+  "tanik": [
+   [
+    [
+     1106
+    ],
+    "1106 yılı civarında yazılmış olan Târîḫu’l-Bâb adlı eserden (kısaltılmış farklı bir nüshası Müneccimbaşı’nın Câmiʿu’d-düvel ’inde yer alır), Selçuk-Oğuz akınları sırasında Derbend ve güneyindeki bölgede Türk boylarının yerleştiği ve Selçuklular’ın siyasî üstünlüklerini kabul ettirdikleri anlaşılmaktadır."
+   ],
+   [
+    [
+     1222,
+     1239
+    ],
+    "1222’de ilk Moğol işgalinin ardından 1239’da doğrudan Moğol idaresi altına giren Derbend, XIII."
+   ],
+   [
+    [
+     1154
+    ],
+    "İran’da Afşar hânedanının kurucusu Nâdir Şah 1147 (1734-35) ve 1154-1155’te (1741-1742) Kafkasya’da hâkimiyet kurabilmek için Derbend ve Dağıstan’ın diğer bölgelerine seferler yaptı."
+   ]
+  ]
+ },
+ {
+  "ad": "Kabala",
+  "lat": 40.984,
+  "lon": 47.845,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1501-07-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "kabala:200",
+   "kabala--sehir:302",
+   "arama:kabala:200"
+  ]
+ },
+ {
+  "ad": "Ereş",
+  "lat": 40.74,
+  "lon": 47.31,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1501-07-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "eres:302",
+   "eres--sehir:302",
+   "arama:eres:200"
+  ]
+ },
+ {
+  "ad": "Şâbüran",
+  "lat": 41.21,
+  "lon": 48.98,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1501-07-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "saburan:302",
+   "saburan--sehir:302",
+   "arama:saburan:200"
+  ]
+ },
+ {
+  "ad": "Kuba",
+  "lat": 41.3603,
+  "lon": 48.5158,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1538-01-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1538-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "kuba:302",
+   "kuba--sehir:302",
+   "arama:kuba:200",
+   "kuba--azerbaycan:200"
+  ],
+  "slug": "kuba--azerbaycan",
+  "tanik": []
+ },
+ {
+  "ad": "Şeki (Nuha)",
+  "lat": 41.1919,
+  "lon": 47.1706,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1538-01-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1538-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "seki:200"
+  ],
+  "slug": "seki",
+  "tanik": [
+   [
+    [
+     1016
+    ],
+    "Abbas, Safer 1016’da (Haziran 1607) Şirvan’a hâkim oldu ve Kahetya Kralı II."
+   ]
+  ]
+ },
+ {
+  "ad": "Berde (Karabağ)",
+  "lat": 40.3747,
+  "lon": 47.1281,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "berde:302",
+   "berde--sehir:302",
+   "karabag:200"
+  ],
+  "slug": "karabag",
+  "tanik": []
+ }
+]

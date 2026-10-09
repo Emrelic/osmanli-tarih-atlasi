@@ -1,0 +1,78 @@
+
+### arabistan:0 Mekke [mekke] ilk={'f': '1281-01-01', 't': '1517-07-06', 'd': 'memluk'}
+  [1067] | Suleyhî’nin öldürülmesinden sonra (459/1067) Mekke yeniden Abbâsîler’e bağlandı (İbn Kesîr, XII, 102).
+  [1174] | Mekke, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın gayretleriyle Fâtımî hâkimiyetinden çıktı ve hutbe 569 (1174) yılından itibaren Abbâsî halifelerinin yanı sıra Nûreddin Mahmud Zengî adına okunmaya başladı (Fâsî, Şifâʾü’l-ġarâm , II, 366-367).
+  [1252] | Mekke’de Eyyûbî hâkimiyeti, bazan Yemen hükümdarları adına hutbe okunması veya Mekke şeriflerinin bağımsız hareket etme arzuları yüzünden kesintiye uğramakla birlikte 650 (1252) yılına kadar sürdü.
+  [1063] | Mekke’ye 455’te (1063) hâkim olan Suleyhîler’den Ali b.
+  [1073] | 465’te (1073) Selçuklu Sultanı Melikşah, Mekke’ye Kâbe örtüsünü göndererek (İbn Tağrîberdî, V, 95), daha sonra da kız kardeşinin emîrle evlenmesini sağlayarak şehirde yeniden Sünnî hâkimiyetini oluşturmaya çalıştı.
+  [1089, 1086] | Fâtımîler 482-483 (1089-1090) yıllarında Suriye’de kazandıkları başarılar sebebiyle Hicaz’da etkili olmaya çalıştılarsa da 479-485 (1086-1092) tarihleri arasında Mekke Abbâsî halifesi ve Selçuklu sultanına tâbi olmaya devam etti (Kafesoğlu, s.
+  [1174] | Turan Şah’ın Yemen’i ele geçirmesinden sonra 569’da (1174) Mekke Emîri Îsâ b.
+  [1252] | Mekke emîrlerinin tâbi oldukları Eyyûbîler’in Mekke hâkimiyetleri bazı kesintilerle 650 (1252) yılına kadar sürdü.
+
+### arabistan:1 Medine [medine] ilk={'f': '1281-01-01', 't': '1517-07-06', 'd': 'memluk'}
+  [1174] | Yemen’in önemli bir kısmını ele geçiren Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın gayretleriyle Fâtımî hâkimiyetinden çıkan Medine’de hutbe 569 (1174) yılından itibaren Abbâsî halifesinin yanı sıra Nûreddin Mahmud Zengî adına okunmaya başlandı (Fâsî, Şifâʾü’l-ġarâm , II, 366-367).
+  [1174] | Nûreddin’in ölümünün (569/1174) ardından bağımsızlığını ilân eden Selâhaddîn-i Eyyûbî Medine ile özel olarak ilgilenip buradaki Sünnî hâkimiyetinin devamını sağladı.
+  [1162] | Şehri kısmen kuşatan surlar bedevî hücumlarına karşı yetersiz kalınca Nûreddin Mahmud Zengî 557’de (1162) yeni bir sur yaptırmış, bunlar daha sonraki dönemlerde tamir edilmiştir.
+
+### arabistan:2 Cidde [cidde] ilk={'f': '1281-01-01', 't': '1517-07-06', 'd': 'memluk'}
+
+### arabistan:3 Yenbu [yenbu] ilk={'f': '1281-01-01', 't': '1517-07-06', 'd': 'memluk'}
+  [1200] | İdrîs, hâkimiyetini Yenbu‘dan Mekke’ye doğru genişletti (596/1200).
+
+### arabistan:5 Zebîd [zebid] ilk={'f': '1281-01-01', 't': '1516-06-20', 'd': 'yemen'}
+  [1060, 1089] | Bu dönemde Yemen’de nüfuzu artan Şiî Suleyhîler, Sünnî Necâhîler’i karşılarında bir engel olarak gördüklerinden 452’de (1060) Zebîd’i zaptettilerse de Necâhîler pek çok savaşın ardından birkaç defa el değiştiren şehri 482’de (1089) son defa ele geçirdiler.
+  [1174] | Mehdîler, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah kumandasındaki Eyyûbî ordusu tarafından kısa bir süre sonra ortadan kaldırıldı ve şehir Eyyûbî hâkimiyeti altına girdi (569/1174).
+
+### arabistan:6 Aden [aden] ilk={'f': '1281-01-01', 't': '1538-08-03', 'd': 'yemen'}
+  [1173] | Benî Zürey‘in bölgedeki bağımsızlığı, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın Yemen’i zaptettiği 1173 yılına kadar sürmüştür.
+
+### arabistan:8 Sana [sana] ilk={'f': '1281-01-01', 't': '1547-01-01', 'd': 'yemen'}
+  [1088] | Muhammed es-Suleyhî, San‘a’da Suleyhîler hânedanını kurdu; şehir 481 (1088) yılında yönetim merkezinin Zûcible’ye taşınmasına kadar başşehir olarak kaldı.
+  [1098] | Gaşîm el-Mugallisî, San‘a ve civarını ele geçirip kendini sultan ilân ederek Hemdânîler hânedanını kurdu (492/1098).
+  [1229, 1235] | Ali er-Resûlî’nin onun ölümünden sonra Tihâme, San‘a ve Taiz’i idaresi altına alması (626/1229) ve birkaç yıl sonra bağımsızlığını ilân etmesiyle (632/1235) Resûlî hâkimiyeti başladı.
+
+### arabistan:9 Taiz [taiz] ilk={'f': '1281-01-01', 't': '1547-02-01', 'd': 'yemen'}
+
+### arabistan:19 Tâif [taif] ilk={'f': '1281-01-01', 't': '1517-07-06', 'd': 'memluk'}
+
+### arabistan:75 Hayber [hayber] ilk={'f': '1281-01-01', 't': '1517-07-06', 'd': 'memluk'}
+
+### hint:0 Delhi [delhi] ilk={'f': '1281-01-01', 't': '1398-12-17', 'd': 'delhi-sultanligi'}
+  [1192] | Her biri belli bir müslüman hânedan tarafından kurulan bu şehirler kuruluş sırasıyla Lâlkot (1192), Sîrî (1303), Tuğlukabâd (1320 [?]), Cihanpenâh (1340), Fîrûzâbâd (1354), Purânâ Kıl‘a (1542) ve Şahcihanâbâd (1638) olup halen isimleri Delhi’nin başlıca semtlerinde yaşamaktadır.
+  [1192] | Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.
+  [1229] | Daha sonra da hem fethin hem de muhtemelen meşhur Çiştî şeyhi Kutbüddin Bahtiyâr Kâkî’nin anısına dünyanın en büyük minaresi olan ünlü Kutub Minâr inşa edildi (1229).
+
+### hint:4 Koil (Aligarh) [aligarh] ilk={'f': '1281-01-01', 't': '1526-04-21', 'd': 'delhi-sultanligi'}
+  [1194] | yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).
+
+### hint:10 Benâres (Vârânasî) [benares] ilk={'f': '1281-01-01', 't': '1394-01-01', 'd': 'delhi-sultanligi'}
+
+### hint:14 Lahor [lahor] ilk={'f': '1281-01-01', 't': '1526-04-21', 'd': 'delhi-sultanligi'}
+  [1013] | Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.
+  [1152] | Şehir Oğuz saldırılarından bunalan Hüsrev Şah’a da (1152-1160) ev sahipliği yaptı.
+  [1186] | 582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.
+
+### hint:15 Multan [multan] ilk={'f': '1281-01-01', 't': '1445-01-01', 'd': 'delhi-sultanligi'}
+  [1006] | Gazneli Mahmud Mültan’ı yedi günlük bir muhasaradan sonra zaptetti (396/1006) ve İsmâilîler dışındaki halka eman verdi; şehrin hâkimi Karmatî Ebü’l-Fütûh Dâvûd b.
+  [1008, 1010] | Bunun üzerine Gazneli Mahmud, 398’de (1008) ve arkasından Ebü’l-Fütûh’un tekrar ele geçirmesi sebebiyle 400’de (1010) şehri zaptetti.
+
+### hint:22 Gazne [gazne] ilk={'f': '1281-01-01', 't': '1370-01-01', 'd': 'cagatay'}
+  [1117, 1135] | Sencer 510 (1117) ve 529 (1135) yıllarında Gazne’yi iki defa istilâ etti.
+  [1173] | Daha sonra Gurlular’dan Muizzüddin Gazne’yi 1173’te ele geçirdi ve başşehir yaptı.
+
+### hint:24 Srinagar (Keşmir) [kesmir] ilk={'f': '1281-01-01', 't': '1586-10-01', 'd': 'kesmir'}
+  [1021] | Gazneli Mahmud 1015 ve 1021’de iki defa burayı zaptetme girişiminde bulunduysa da -Büyük İskender gibi- bölgenin zor tabiat şartlarını aşamadı ve geri dönmek zorunda kaldı.
+
+### hint:25 Cammû (Jammu) [cammu] ilk={'f': '1281-01-01', 't': '1586-10-01', 'd': 'kesmir'}
+  [1173, 1206] | Daha sonra Gazne’yi fetheden (1173) ve bir süre sonra da Pencap’ta Hüsrev Melik’i esir alarak Gazneliler’i ortadan kaldıran Gurlular’ın son büyük hükümdarı Muizzüddin Muhammed’in eline geçmişse de onun ölümü üzerine (1206) devletin parçalanması sebebiyle yine yerli Hindu racaların yönetiminde kalmıştır.
+
+### hint:28 Ecmîr (Ajmer) [ecmir] ilk={'f': '1281-01-01', 't': '1365-01-01', 'd': 'delhi-sultanligi'}
+  [1024] | 1024 yılında Gazneli Mahmud şehri yağmalamış, ancak fazla vakit alacağı düşüncesiyle Taragarh Kalesi’ni ele geçirmeye teşebbüs etmemiştir.
+  [1192] | Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.
+  [1206] | Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.
+
+### hint:62 Bîcâpur (Bijapur) [bicapur] ilk={'f': '1281-01-01', 't': '1318-01-01', 'd': 'yadava'}
+  [1190] | 1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan bölge, 1294’te Alâeddin Halacî tarafından Delhi sultanı olan amcası Celâleddin Halacî adına fethedildi.
+
+### hint:106 Mrauk U (Arakan) [arakan] ilk={'f': '1281-01-01', 't': '1785-01-02', 'd': 'arakan'}
+  [1044] | Arakanlı bir prenses barış yapmak için doğudaki Pagan Kralı Anawratha’ya (1044-1077) gönderildi ve ülke bir süre Pagan’a bağlı bir krallık halinde yönetildi.

@@ -1,0 +1,107 @@
+
+### 1 Girit (Resmo) [girit] ilk={'f': '1281-01-01', 't': '1646-11-13', 'd': 'venedik'}
+  [1204] | Marki Boniface, imparatorun iznini aldıktan sonra 12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı.
+  [1080] | Fâzıl Ahmed Paşa’nın kumandası altında Osmanlı kuvvetlerinin iki buçuk yıl süren sıkı kuşatması, 9 Rebîülâhir 1080’de (6 Eylül 1669) imzalanan on sekiz maddelik bir teslim anlaşmasıyla sona erdi.
+
+### 5 Tunus [tunus] ilk={'f': '1281-01-01', 't': '1534-09-22', 'd': 'hafsi'}
+  [1015] | Mansûr zamanında amcası Hammâd’ın 405 (1015) yılında Cezayir sınırlarında kalan Kal‘atü Benî Hammâd’da bağımsızlığını ilân etmesiyle Zîrîler ikiye bölündü.
+  [1057] | Bâdîs, bu tehlike karşısında 449 (1057) yılında başşehrini terkedip oğlu Temîm’in valilik yaptığı Mehdiye’ye sığındı.
+  [1159] | Tunus kısa aralıklarla Zîrîler’in ve Hammâdîler’in eline geçtiyse de Horasânîler varlıklarını 1159 yılına kadar devam ettirdiler ve Tunus’un gelişmesine önemli katkılarda bulundular.
+  [1087] | Zîrîler’in elinde kalan tek merkez olan Mehdiye 1087 yılında bir süre Pizalı ve Cenevizli korsanların eline geçtiyse de geri alındı.
+  [1148] | Sicilya’yı zapteden Normanlar, 543’te (1148) Tunus’un doğusundaki sahil şehirlerine saldırıp Mehdiye’yi ve diğer bazı şehirleri işgal ettiler.
+  [1158, 1160] | 553’te (1158) Tunus’u, 555’te (1160) Mehdiye’yi ve diğer sahil şehirlerini Normanlar’dan geri alan Abdülmü’min, Benî Hilâl’in gücünü kırdığı gibi Horasânîler’e de son vererek İfrîkıye bölgesini Tunus şehrinde oturan bir vali tarafından yönetilen bir eyalet haline getirdi.
+  [1184] | Tunus, 580 (1184) yılında Balear adalarını elinde tutan Benî Gāniye tarafından istilâ edildiyse de üç yıl sonra Ebû Yûsuf el-Mansûr şehri geri aldı.
+  [1188] | Benî Gāniye 584’te (1188) zaptettiği Mehdiye’yi 602 Cemâziyelâhirine (Ocak 1206) kadar elinde tuttu.
+  [1228] | Muvahhidler Devleti’ndeki bölünme ve ardından ortaya çıkan karışıklıklar sırasında Kābis valiliğine tayin edilen Ebû Zekeriyyâ el-Hafsî, Tunus üzerine yürüdü ve 625 (1228) yılında şehre girip İfrîkıye’nin tamamına hâkim oldu.
+  [1228] | Hafsîler, Tunus merkez olmak üzere Cezayir’in Bicâye şehriyle kısmen bugünkü Libya’nın batısındaki topraklarda yaklaşık üç asır hüküm sürdüler (1228-1574).
+  [1270] | Louis 1270 yılında büyük bir Haçlı ordusunun başında Tunus sahillerine saldırdı.
+  [1062] | Horasânîler’in başşehri olarak kaldığı dönemde (1062-1159) Tunus şehri, bölgenin önemli bir ilim merkezi haline geldi.
+  [1232] | yüzyılın ortalarından itibaren Tunus’ta idareyi eline geçiren Muvahhidler zamanında Zeytûne Camii’nden sonra şehrin en mühim mâbedi sayılan Kasba Camii inşa edildi (1232-1236).
+
+### 6 Kayrevan [kayrevan] ilk={'f': '1281-01-01', 't': '1574-08-25', 'd': 'hafsi'}
+
+### 8 Cezayir [cezayir] ilk={'f': '1281-01-01', 't': '1519-09-01', 'd': 'zeyyani'}
+  [1015] | Halife Muiz-Lidînillah’ın Fâtımî başşehrini Mehdiye’den Kahire’ye nakletmesinden sonra (362/973) Sanhâce Berberîleri Mağrib ülkelerinde idareyi ele geçirerek Zîrîler (972-1148) ve Hammâdîler (1015-1152) devletlerini kurdular.
+  [1062] | Tâşfîn kumandasında Tilimsân’ı ele geçirdiler, Tenes ve Cezayir’e kadar Kuzey Afrika’yı hâkimiyetleri altına aldılar (454/1062).
+  [1153] | Ali el-Kûmî, Hammâdî Devleti’ne son vererek Cezayir ve bütün Kuzey Afrika’yı zaptetti (548/1153).
+  [1228] | Muvahhidler’den sonra Doğu Cezayir Tunus’taki Hafsî Devleti’ne (1228-1574) tâbi oldu.
+  [1235] | Orta ve Batı Cezayir ise Tilimsân’da kurulan Abdülvâdîler’in (1235-1550) idaresine girdi.
+
+### 11 Tilimsan [tilimsan] ilk={'f': '1281-01-01', 't': '1337-01-01', 'd': 'zeyyani'}
+  [1235] | Zeyyân tarafından Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235).
+
+### 14 Bicâye [bicaye] ilk={'f': '1281-01-01', 't': '1510-01-01', 'd': 'zeyyani'}
+
+### 15 Malta [malta] ilk={'f': '1281-01-01', 't': '1530-03-24', 'd': 'napoli'}
+  [1090] | Ada halkının dinî inançlarına karışmayan müslümanların varlığı, Normanlar’ın 483’te (1090) Sicilya’dan gelerek Malta’yı ele geçirmelerine kadar sürdü.
+  [1127] | Ruggero 1127’de Malta’yı kesin olarak aldı ve müslümanlar II.
+
+### 16 Fas (Fez) [fas] ilk={'f': '1281-01-01', 't': '1549-01-01', 'd': 'merini'}
+  [1061, 1106] | Tâşfîn (1061-1106) ve oğlu Ali (1106-1143) dindar kişilerdi; saltanatları süresince İslâm hukukunun prensiplerini devlet idaresinde tatbik ettiler.
+  [1130, 1147] | İbn Tûmert’in 1130’da ölümü üzerine yerini alan ve onun fikirlerine sımsıkı sarılan Abdülmü’min el-Kûmî ardarda gerçekleştirdiği başarılı akınlarla Murâbıtlar’ı zayıflattı ve 1147’de de başşehir Merakeş’i ele geçirerek hâkimiyetlerine son verip yine Merakeş başşehir olmak üzere Muvahhidler Devleti’ni kurdu.
+  [1163] | Oğlu Ebû Ya‘kūb el-Muvahhidî döneminde (1163-1184) Gumâre gibi bazı küçük kabilelerin muhalefeti de kırılarak Fas’ta genel hâkimiyet sağlanmış ve bu durum XIII.
+  [1229, 1239] | Önce bugünkü Tunus (1229-1230) ve daha sonra bugünkü Cezayir (1239) toprakları Muvahhidler’in elinden çıktı.
+  [1244, 1248, 1255, 1269] | 1210’lardan itibaren Kuzeydoğu Fas’ta küçük çaplı ayaklanmalar gerçekleştiren Zenâte kabilesine mensup Merînîler 1244’te Meknes, 1248’de Fas (şehir), 1255’te Sicilmâse ve 1269’da başşehir Merakeş’i ele geçirerek Muvahhidler’in yerine Merînî Devleti’ni kurdular.
+  [1269] | Merînî hâkimiyeti başlıca iki döneme ayrılır: Güçlenme ve yayılma (1269-1358), gerileme ve çöküş (1358-1465).
+
+### 17 Merakeş [merakes] ilk={'f': '1281-01-01', 't': '1549-01-01', 'd': 'merini'}
+  [1130] | Murâbıtlar’ın başşehri Merakeş’i, Muvahhidler’in kurucusu İbn Tûmert’in 524’te (1130) başarısızlıkla sonuçlanan kırk günlük muhasarasından on yedi yıl sonra halefi Abdülmü’min on bir ay süren kuşatmayla ele geçirdi (18 Şevval 541 / 23 Mart 1147).
+
+### 21 Rabat [rabat] ilk={'f': '1281-01-01', 't': '1549-01-01', 'd': 'merini'}
+  [1150] | Muvahhidler’in ilk hükümdarı Abdülmü’min el-Kûmî, 545 (1150) yılında Endülüs’teki fetihler için askerî bir üs olarak kullanılmak üzere ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti.
+  [1184] | Şehrin asıl kuruluşu ve imarı üçüncü Muvahhidî Hükümdarı Ebû Yûsuf el-Mansûr (1184-1199) tarafından gerçekleştirildi.
+  [1251] | Abdülhak 649’da (1251) Rabat ve Selâ’yı ele geçirdi (Selâvî, III, 17).
+
+### 22 Tanca [tanca] ilk={'f': '1281-01-01', 't': '1471-08-28', 'd': 'merini'}
+  [1077] | 470’te (1077-78) Tanca’yı ele geçiren Murâbıt Hükümdarı Yûsuf b.
+  [1147] | Murâbıtlar’ın yıkılışından sonra Muvahhidler’in eline geçen Tanca (542/1147) özellikle gemi yapımı ve Endülüs’e asker sevkindeki önemini korudu.
+  [1273] | Daha sonra Merînî Sultanı Ebû Yûsuf Ya‘kūb el-Mansûr üç aylık bir kuşatmanın ardından şehri zaptetti (672/1273-74).
+
+### 24 Cerbe (Djerba) [cerbe] ilk={'f': '1281-01-01', 't': '1560-03-12', 'd': 'hafsi'}
+  [1160] | Daha sonra hıristiyanlarla sürekli savaş sebebi olan Cerbe bir ara Sicilya Normanları’nın eline geçmiş, fakat 555’te (1160) Muvahhidî Hükümdarı Abdülmü’min adayı tekrar fethetmiştir.
+
+### 33 Sebte (Ceuta) [sebte] ilk={'f': '1281-01-01', 't': '1415-01-01', 'd': 'merini'}
+  [1061] | Hammûdîler’i tasfiye ederek Sebte’nin idaresini eline geçiren Sükût el-Bergavâtî, Abbâsîler’e bağlılığını bildirdi (453/1061).
+  [1084] | Şehir 477’de (1084) Murâbıtlar’ın eline geçti.
+  [1140] | Murâbıtlar’ın son yıllarında Muvahhid birlikleri karşısında zor duruma düşen şehrin savunmasını ünlü âlim Kādî İyâz üstlendi ve Sebte üzerine yürüyen Muvahhidler’in kurucusu Abdülmü’min el-Kûmî’yi geri çekilmek zorunda bıraktı (535/1140).
+  [1148] | Ancak Abdülmü’min’in 543 (1148) yılında Sebte’ye girmesiyle şehir kalıcı bir şekilde Muvahhidler’in hâkimiyetine geçti.
+  [1232] | Sebte, Muvahhidler’in yıkılışının ardından 1232’den itibaren kısa bir süre Endülüs’ün büyük bölümünü hâkimiyeti altına alan Muhammed b.
+  [1234] | Sebte’yi başarıyla yöneten Yâneştî şehri Ceneviz saldırılarına karşı savundu (632/1234-35).
+  [1242] | Şehrin valisi İbn Halâs el-Belensî’nin Ebû Zekeriyyâ Yahyâ’ya itaatini bildirmesiyle Sebte bu defa Hafsîler’in nüfuz alanına girdi (640/1242-43).
+  [1273] | Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.
+
+### 50 Sûse [suse] ilk={'f': '1281-01-01', 't': '1574-08-25', 'd': 'hafsi'}
+
+### 54 Kafsa [kafsa] ilk={'f': '1281-01-01', 't': '1574-08-25', 'd': 'hafsi'}
+  [1159] | 554’te (1159) Muvahhidler’in kurucusu Abdülmü’min el-Kûmî, Kafsa’yı egemenliği altına alınca Rend hânedanı mensuplarını Bicâye’ye sürdü.
+  [1180] | Şehir dışındaki meyvelikleri tahrip etmeye başlayınca isyancılar teslim oldu (576/1180).
+  [1187] | Selâhaddîn-i Eyyûbî tarafından gönderilen Şerefeddin Karakuş ve Zeyneddin Boz-aba’nın emrindeki Oğuzlar’dan oluşan bir askerî birliğin de katıldığı ordusuyla Kafsa yöresindeki Umre’de Muvahhidler’i bozguna uğrattı (583/1187); Kafsa dahil İfrîkıye’nin (Tunus) tamamını aldı.
+  [1190, 1205] | 586’da (1190) Kafsa’yı Abdülkerîm er-Rakrâkī adlı bir âsi ele geçirdi; isyan bir yıl sonra bastırıldıysa da karışıklıklar 601 (1205) yılına kadar sürdü.
+
+### 74 Tenes [tenes] ilk={'f': '1281-01-01', 't': '1519-09-01', 'd': 'zeyyani'}
+  [1100] | 493’ten (1100) itibaren Murâbıtlar’ın, onların yıkılışının ardından Muvahhidler’in hâkimiyetinde kaldı.
+
+### 90 Mesîle [mesile] ilk={'f': '1281-01-01', 't': '1519-09-01', 'd': 'zeyyani'}
+
+### 103 Cebelitarık (Gibraltar) [cebelitarik] ilk={'f': '1281-01-01', 't': '1462-08-20', 'd': 'granada'}
+  [1145, 1130] | Endülüs Muvahhidler’in hâkimiyetine geçince (540/1145) Muvahhid Hükümdarı Abdülmü’min (1130-1163) Afrika seferinden dönüşünde İşbîliye’de bulunan veliahdı Yûsuf b.
+
+### 112 Miknâs (Meknes) [miknas] ilk={'f': '1281-01-01', 't': '1549-01-01', 'd': 'merini'}
+  [1069] | O da teklifi kabul ederek şehri barış yoluyla Murâbıtlar’a teslim etti (461/1069).
+  [1139] | Muvahhid Sultanı Abdülmü’min el-Kûmî şehri kuşattıysa da ele geçiremedi (534/1139-40).
+  [1150] | Miknâs 545 (1150) yılında Muvahhidler’in hâkimiyetine girdi.
+  [1237] | Miknâs, 634’te (1237) Mağrib-i Aksâ’da önemli bir güce kavuşan Merînîler’in eline geçti.
+  [1245] | Muvahhidler şehri 643’te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs’a hâkim oldular.
+
+### 117 Sicilmâse (Tâfilelt) [sicilmase] ilk={'f': '1281-01-01', 't': '1549-01-01', 'd': 'merini'}
+  [1053] | Bu önemli ticaret yoluna hâkim olmak isteyen Murâbıtlar 445’te (1053) Sicilmâse’yi ele geçirdiler ve şehri Mağrib-i Aksâ’nın fethini tamamlamak için askerî üs olarak kullandılar.
+  [1274] | Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.
+
+### 125 Dârülbeyzâ (Anfa) [darulbeyza] ilk={'f': '1281-01-01', 't': '1549-01-01', 'd': 'merini'}
+  [1060, 1056] | Ömer el-Lemtûnî tarafından 1060 yılında itaat altına alındıkları sırada Murâbıtlar’ın (1056-1147) eline geçtiği ve tahrip edildiği, bu sebeple de Ebû Ubeyd el-Bekrî’nin el-Mesâlik ve’l-memâlik ’inde adına rastlanmadığı kabul edilmektedir.
+  [1196] | Enfâ’yı hareketli bir askerî liman haline getirenler Merînîler’dir (1196-1465).
+  [1278] | Ya‘kūb el-Mansûr el-Merînî’nin Endülüs’e geçişi sırasında (1278) artık müstahkem bir deniz üssü haline gelmiş olan Enfâ’dan yardım aldığı bilinmektedir.
+
+### 157 Kıbillî (Nefzâve) [nefzave] ilk={'f': '1281-01-01', 't': '1574-08-25', 'd': 'hafsi'}
+
+### 160 Kabâv (Nefûse) [nefuse] ilk={'f': '1281-01-01', 't': '1551-08-15', 'd': 'hafsi'}

@@ -1,0 +1,296 @@
+
+### 4 Eski Zağra (Stara Zagora) [eski-zagra] ilk={'f': '1281-01-01', 't': '1372-06-01', 'd': 'bulgaristan'}
+
+### 5 Tatarpazarcığı [tatarpazarcigi] ilk={'f': '1281-01-01', 't': '1373-01-01', 'd': 'bulgaristan'}
+
+### 6 İhtiman [ihtiman] ilk={'f': '1281-01-01', 't': '1373-01-01', 'd': 'bulgaristan'}
+
+### 7 Köstendil [kostendil] ilk={'f': '1281-01-01', 't': '1371-09-26', 'd': 'bulgaristan'}
+
+### 10 Drama [drama] ilk={'f': '1281-01-01', 't': '1345-01-01', 'd': 'bizans'}
+
+### 11 Filibe [filibe] ilk={'f': '1281-01-01', 't': '1372-06-01', 'd': 'bulgaristan'}
+  [1204] | Yeniden onarılan şehir 1204’te tekrar Haçlı saldırılarına uğradı.
+
+### 12 Sofya [sofya] ilk={'f': '1281-01-01', 't': '1385-09-01', 'd': 'bulgaristan'}
+
+### 13 Niş [nis] ilk={'f': '1281-01-01', 't': '1386-01-01', 'd': 'sirbistan'}
+  [1150] | Rebîülevvel 1150’de (Temmuz 1737) Avusturya İmparatorluğu ile yapılan savaşta Seckendorf Niş’i ele geçirdi; fakat aynı yılın ekim ayında Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa tarafından savaşsız geri alındı.
+
+### 14 Vidin [vidin] ilk={'f': '1281-01-01', 't': '1365-01-01', 'd': 'bulgaristan'}
+  [1003] | Bulgar İmparatorluğu’nun çöküşünün (968) ardından şehir 1003 yılına kadar Bizans güçlerine karşı direndiyse de sekiz aylık bir kuşatmadan sonra ele geçirildi.
+  [1185] | Vidin’deki Bizans hâkimiyeti tekrar Bulgarlar’ın eline geçtiği 1185 yılına kadar sürdü.
+  [1257] | 1257’de Macar kralının üvey oğlu Rotislav, Vidin’i zaptederek Bulgar çarı unvanını aldı.
+  [1260] | 1260’ta Kuman/Türk soyundan gelen Konstantin Tih, Bulgaristan’ın yeni çarı oldu ve Vidin’i zaptetti, ancak bir süre sonra tekrar Macarlar’a terketti.
+  [1265] | 1263 ve 1265 yıllarında Vidin ve toprakları bir Rus olan Jakov Svetoslav’ın kontrolü altındaydı.
+  [1272] | Jakov, Bulgar çarı unvanıyla Macaristan’ın vasalı haline geldi ve 1272’ye kadar idarede kaldı.
+
+### 16 Varna [varna] ilk={'f': '1281-01-01', 't': '1391-01-01', 'd': 'bulgaristan'}
+
+### 17 Şumnu [sumnu] ilk={'f': '1281-01-01', 't': '1388-01-01', 'd': 'bulgaristan'}
+  [1186] | Bulgar İmparatorluğu’nun (1186-1393) sıkıntılı yıllarında Şumnu küçüklüğüne rağmen ekonomik ve askerî merkez halinde öncelikli bir öneme sahiptir.
+  [1142] | 1142’de (1729-30) Hacı Ahmed el-Acem aynı adla kurulan mahallenin çekirdeğini oluşturan Kilek Camii’ni yaptırdı; bunun yanında 1164’te (1751) büyük bir çifte hamam inşa edildi (bu hamam 1895 yılına kadar çalışmış, 1927’de yıkılmıştır; kitâbesi Şumen Arkeoloji Müzesi’ndedir).
+
+### 18 Silistre [silistre] ilk={'f': '1281-01-01', 't': '1393-09-01', 'd': 'bulgaristan'}
+  [1279, 1277] | 1279’da Michael Glavas Tarhaniotes kumandasındaki Bizans ordusu, 1277’de Tatarlar’a karşı direniş hareketini başlatan ve krallığa kadar yükselen İvaylo’yu üç ay boyunca Silistre’de kuşattı, fakat ele geçiremedi.
+
+### 19 Niğbolu [nigbolu] ilk={'f': '1281-01-01', 't': '1395-01-01', 'd': 'bulgaristan'}
+
+### 20 Rusçuk [ruscuk] ilk={'f': '1281-01-01', 't': '1388-01-01', 'd': 'bulgaristan'}
+  [1244] | Rusçuk 1244’te (1828-29) tekrar Rus kuşatması ve bombardımanı ile karşılaştı.
+
+### 21 Selanik [selanik] ilk={'f': '1281-01-01', 't': '1387-04-09', 'd': 'bizans'}
+  [1205] | Yirmi yıl sonra bir Haçlı ordusu şehri ele geçirip Latin Selânik Krallığı’nın (1205-1225) merkezi haline getirdi; birçok önemli Ortodoks kilisesi (Aziz Dimitrios, Ayasofya vb.) yerel halkı rencide edecek biçimde Roma Katolik kilisesine dönüştürüldü.
+
+### 22 Serez [serez] ilk={'f': '1281-01-01', 't': '1345-09-25', 'd': 'bizans'}
+  [1185, 1204] | 1185’te Normanlar, 1204’te Montferratlı Boniface kumandasındaki Latinler tarafından kuşatıldı ve yağmalandı.
+  [1206] | 1206’da tarihte Kaloyan olarak bilinen Bulgar Çarı İvan Asen şehri ele geçirdi.
+  [1275] | Bölgedeki önemli ve güçlü bir dinî merkez olan Vaftizci Yahyâ Manastırı (Prodromos) 1275’te Serez civarında kuruldu.
+
+### 23 Kavala [kavala] ilk={'f': '1281-01-01', 't': '1387-04-09', 'd': 'bizans'}
+  [1242] | Uzun süre Franklar’ın hâkimiyetinde kaldıktan sonra 1242-1243’te Bizanslılar tarafından geri alındı.
+
+### 24 Üsküp [uskup] ilk={'f': '1281-01-01', 't': '1392-01-06', 'd': 'sirbistan'}
+  [1050, 1065] | Bu arada 1050’den itibaren Tuna’yı geçip Bizans’ın müttefiki olarak Balkanlar’a yayılan Peçenekler’le 1065’e doğru gelen Uzlar bölgede baskı kurdu ve derin izler bıraktı.
+
+### 25 Manastır [manastir] ilk={'f': '1281-01-01', 't': '1385-01-01', 'd': 'sirbistan'}
+
+### 26 Ohri [ohri] ilk={'f': '1281-01-01', 't': '1385-01-01', 'd': 'sirbistan'}
+  [1000] | Bölgedeki dinî hayatın merkezini oluşturan Ohri 1000 yıllarında başpiskoposluk haline geldi; Slav Hıristiyanlığı’nın merkezi görevini ifa edip bu konumunu yüzyıllar boyunca korudu.
+  [1014, 1018] | Basileios döneminde Bulgar ordusunun yenilgiye uğratıldığı Belasica savaşından (1014) sonra 1018’de Bizanslılar’ın idaresi altına girdi.
+
+### 27 Yanya [yanya] ilk={'f': '1281-01-01', 't': '1430-10-09', 'd': 'bizans'}
+  [1081] | 1081’de Bohemund kumandasındaki Sicilya Normanları şehri ele geçirdi.
+
+### 29 Yenişehir (Larissa) [yenisehir] ilk={'f': '1281-01-01', 't': '1311-03-15', 'd': 'bizans'}
+  [1082] | 1082-1083’te Tarentli Bohemund kumandasındaki Normandiyalılar tarafından kuşatıldı, ancak İmparator I.
+
+### 30 Tırhala [tirhala] ilk={'f': '1281-01-01', 't': '1311-03-15', 'd': 'bizans'}
+
+### 31 Atina [atina] ilk={'f': '1281-01-01', 't': '1456-06-04', 'd': 'atinadukaligi'}
+  [1204] | 1204’te Haçlılar tarafından ele geçirilen şehir, yeni kurulmuş olan Burgundiya (İng.
+  [1208] | Atina 1208’de Latinler’in işgalinde bulunduğu sıralarda burası Katolik kilisesine çevrildiğinden Türkler burayı o halde buldular.
+  [1177] | Dört beyitlik manzum kitâbesi, caminin Atina’nın Venedik işgalinden çok sonra 1177’de (1763-64) Mustafa Ağa tarafından yaptırıldığını bildirmektedir.
+
+### 32 Mora (Tripoliçe) [mora] ilk={'f': '1281-01-01', 't': '1349-01-01', 'd': 'bizans'}
+  [1204] | 1204’ten hemen sonra Haçlılar Konstantinópel’i ele geçirip Bizans İmparatorluğu’nu parçaladığında Mora Frank yönetimine dahil edildi ve Batı feodal yapıları temelinde Achaea Prensliği’nin bir parçası haline getirildi.
+  [1262] | Mikhail Palaiologos, Villehardouin ve onun müttefiki Epir Despotu Mikhail Angelos’u Pelagonia savaşında (Ekim 1259) mağlûp edince bu huzurlu dönem sona erdi; Bizanslılar Mora’nın güneyindeki Monemvasia (Menekşe/Benefşe), Mistra, Mani (Manya) ve Geraki gibi iyi korunan önemli şehirleri ele geçirdi (1262).
+  [1265] | 1265’te Türkler’den bazıları Mora’yı terkedip Anadolu’ya döndü; diğerleri ise Mora’da kalarak din değiştirdiler, bölgedeki kadınlarla evlendiler.
+
+### 33 Modon [modon] ilk={'f': '1281-01-01', 't': '1500-08-10', 'd': 'venedik'}
+  [1125] | Korsan yuvası haline gelince 1125’te Venedikliler tarafından yerle bir edildi.
+  [1153] | Arap coğrafyacısı İdrîsî, eserinde (1153) Yunanistan’ın birçok yerinden bahsederken Modon’u da zikrederek kalesinin denize hâkim olduğunu söyler.
+  [1205] | Zira kasaba 1205’te Frenkler Mora’yı ele geçirinceye kadar harabe halinde kalmıştı.
+  [1209] | Venedikliler 1209’da Modon’u tekrar alınca burayı yeniden iskân etmiş ve savunmasını güçlendirmişti.
+
+### 34 Balyabadra (Patras) [balyabadra] ilk={'f': '1281-01-01', 't': '1430-01-01', 'd': 'bizans'}
+  [1205] | Şehir 1205’te, Mora’ya girip orayı fethe başlayan Geoffroy de Villehardouin’in idaresindeki Franklar tarafından Bizanslılar’dan alındı.
+
+### 35 Anabolu (Nauplion) [anabolu] ilk={'f': '1281-01-01', 't': '1540-11-01', 'd': 'venedik'}
+  [1189] | Romalılar döneminde terkedilen şehir, Bizans İmparatorluğu idaresinde yeniden tahkim ettirilerek 879’da piskoposluk, 1189’da ise metropolitlik merkezi haline geldi.
+
+### 40 İnebahtı [inebahti] ilk={'f': '1281-01-01', 't': '1499-08-26', 'd': 'venedik'}
+  [1204] | 1204’ten sonra Bizans İmparatorluğu’nun Haçlılar tarafından parçalanmasının ardından Epiros Despotluğu toprakları içinde kaldı ve adı da Epakto olarak değiştirildi.
+
+### 41 Eğriboz [egriboz] ilk={'f': '1281-01-01', 't': '1470-07-12', 'd': 'venedik'}
+  [1204] | Eğriboz, Bizans İmparatorluğu’nun 1204’te bölünmesinden sonra Venedikliler’in kontrolü altına girdi.
+
+### 42 İstefe (Tebai) [istefe] ilk={'f': '1281-01-01', 't': '1456-06-04', 'd': 'atinadukaligi'}
+  [1204] | 1204’te Kostantinopol’ün Haçlılar tarafından fethi ve Bizans İmparatorluğu’nun parçalanmasıyla Haçlı Prensi Othon de la Roche, Thebai ve ona bağlı yerleri ele geçirdi.
+
+### 43 Livadya [livadya] ilk={'f': '1281-01-01', 't': '1456-06-04', 'd': 'atinadukaligi'}
+  [1204] | 1204’te Haçlılar tarafından İstanbul’un zaptının ardından Haçlı Prens Othon de la Roche şehri ve çevresini ele geçirdi ve şehri Latin (Katolik) prensliğine dahil etti.
+  [1225] | 1225’te şehir Nicolas de Saint Omer’e geçti, 1311 ve 1378 yılları arasında Katalan Prensliği’nin elindeydi ve 1460’a kadar Floransalı Acciajuoli hânedanının bir parçası durumundaydı.
+
+### 44 İzdin (Lamia) [izdin] ilk={'f': '1281-01-01', 't': '1394-01-01', 'd': 'katalan'}
+
+### 45 İşkodra [iskodra] ilk={'f': '1281-01-01', 't': '1479-01-25', 'd': 'venedik'}
+
+### 48 Draç [drac] ilk={'f': '1281-01-01', 't': '1501-08-17', 'd': 'venedik'}
+  [1273] | 1273’te Sicilyalı Anjouvinler’in elinde iken şiddetli bir depremle harap olduğundan nüfusu azaldı.
+
+### 49 Avlonya [avlonya] ilk={'f': '1281-01-01', 't': '1417-01-01', 'd': 'napoli'}
+
+### 50 Priştine [pristine] ilk={'f': '1281-01-01', 't': '1455-06-01', 'd': 'sirbistan'}
+
+### 51 Semendire [semendire] ilk={'f': '1281-01-01', 't': '1439-08-27', 'd': 'sirbistan'}
+
+### 52 Belgrad [belgrad] ilk={'f': '1281-01-01', 't': '1427-01-01', 'd': 'sirbistan'}
+
+### 53 Saraybosna [saraybosna] ilk={'f': '1281-01-01', 't': '1448-01-01', 'd': 'bosna'}
+
+### 54 Mostar [mostar] ilk={'f': '1281-01-01', 't': '1448-01-01', 'd': 'bosna'}
+
+### 55 Banaluka [banaluka] ilk={'f': '1281-01-01', 't': '1463-06-01', 'd': 'bosna'}
+
+### 56 Bükreş [bukres] ilk={'f': '1281-01-01', 't': '1330-01-01', 'd': 'macaristan'}
+
+### 58 Kili [kili] ilk={'f': '1281-01-01', 't': '1359-01-01', 'd': 'altinorda'}
+
+### 61 Roman [roman] ilk={'f': '1281-01-01', 't': '1359-01-01', 'd': 'altinorda'}
+
+### 64 İbrail [ibrail] ilk={'f': '1281-01-01', 't': '1330-01-01', 'd': 'macaristan'}
+
+### 65 Budin [budin] ilk={'f': '1281-01-01', 't': '1526-09-01', 'd': 'macaristan'}
+  [1241] | 1241-1242’deki Moğol istilâsı sonrası ülkenin imarına çalışan IV.
+
+### 66 Peçuy [pecuy] ilk={'f': '1281-01-01', 't': '1543-07-21', 'd': 'macaristan'}
+
+### 67 Estergon [estergon] ilk={'f': '1281-01-01', 't': '1543-08-10', 'd': 'macaristan'}
+  [1241] | 1241-1242 yıllarındaki Moğol istilâsı şehrin tarihinde bir dönüm noktası teşkil etti.
+
+### 68 Eğri [egri] ilk={'f': '1281-01-01', 't': '1526-08-29', 'd': 'macaristan'}
+  [1009, 1241] | 1009 yılına doğru piskoposluk merkezi haline geldiyse de 1241-1242 yıllarındaki Moğol istilâsı gelişmesini önemli ölçüde aksattı; nüfusunun bir kısmı katledildiği gibi şehir de tahribata uğradı.
+
+### 69 Kanije [kanije] ilk={'f': '1281-01-01', 't': '1526-08-29', 'd': 'macaristan'}
+  [1009] | Sonunda anlaşma yoluyla 11 Rebîülâhir 1009’da (20 Ekim 1600) Osmanlılar’a teslim edildi.
+
+### 70 Uyvar [uyvar] ilk={'f': '1281-01-01', 't': '1526-08-29', 'd': 'macaristan'}
+
+### 74 Limni [limni] ilk={'f': '1281-01-01', 't': '1479-01-25', 'd': 'bizans'}
+  [1204] | 1204’te İstanbul’un Latinler’in eline geçmesinin ardından buraya Venedikli Filocalo Navigaioso yönetici olarak gönderildi.
+  [1207, 1279] | 1207’de onun ölümünden sonra oğulları “megadük” unvanıyla adanın idaresini 1279 yılına kadar ellerinde tuttular.
+  [1277] | Mikael 1277-1279 yıllarında adanın merkezi Palaiokastron’u kuşatma altına aldı.
+
+### 75 Semadirek [semadirek] ilk={'f': '1281-01-01', 't': '1456-01-24', 'd': 'ceneviz'}
+  [1204] | 1204 yılına kadar Bizanslılar’ın yönetiminde kaldı; bu tarihte Venedikliler’in eline geçti.
+
+### 76 Taşoz [tasoz] ilk={'f': '1281-01-01', 't': '1455-01-01', 'd': 'ceneviz'}
+  [1204] | 1204’te Latinler tarafından işgal edildiğinde Venedik doju Enrico Dandolo’nun idaresine verildi.
+  [1173] | 1173’ten (1759-60) itibaren adanın gelirleri mâlikâne şeklinde alınmaya başlandı ( BA, YEE , nr.
+
+### 77 Nakşa [naksa] ilk={'f': '1281-01-01', 't': '1537-01-01', 'd': 'naksa-dukaligi'}
+  [1205, 1207] | Haçlı Seferi sırasında İstanbul’da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo 1205’te sekiz gemiyle adayı ve yakın çevresini ele geçirdi, 1207’de İstanbul’daki Latin imparatorundan Nakşa dükü unvanını aldı.
+
+### 84 Viyana [viyana] ilk={'f': '1281-01-01', 't': '1918-11-12', 'd': 'avusturya'}
+  [1155, 1221] | 1155’te Babenberger idaresindeki Avusturya hersekliğe (dukalık) yükseltilince ertesi yıl Viyana da başşehir konumuna erişti ve Ekim 1221’de ticaret mallarının belirli bir zaman şehirde depolanmasını talep etme imtiyazını elde etti.
+  [1237, 1276] | 1237’de yöresel senyörlerin erkinden çıkarak kayzerin doğrudan idaresine bağlanan Viyana 1276’da I.
+
+### 86 Zagreb [zagreb] ilk={'f': '1281-01-01', 't': '1526-08-29', 'd': 'macaristan'}
+  [1242] | 1242’de Tatar saldırıları esnasında bütün bölge büyük tahribat gördü.
+
+### 89 Napoli [napoli] ilk={'f': '1281-01-01', 't': '1861-02-13', 'd': 'napoli'}
+  [1139] | Normanlar, Güney İtalya’da hâkim oldukları yerleri birleştirip Sicilya ve Apulia Krallığı’nı kurdular (1139).
+
+### 91 İstolni Belgrad [istolni-belgrad] ilk={'f': '1281-01-01', 't': '1543-08-10', 'd': 'macaristan'}
+  [1000] | yüzyılda kurulan şehir, Aziz István döneminde (1000-1038) krallık merkezlerinden biri sıfatını kazandı.
+  [1002] | Muharrem-Safer 1002’de (Ekim-Kasım 1593) Kont Hardegg’in birlikleri şehri kuşattılar; ancak kalenin yardımına gelen Osmanlı kuvvetlerinin 3 Kasım’da Pákozd ve İstolni Belgrad arasında yenilgiye uğratıldığı sırada yarıda bıraktıkları kuşatmayı hâlâ belli olmayan sebeplerle sürdürmediler.
+  [1007] | Şevval 1007’de (Mayıs 1599) şehrin varoş kısmı Macar ve Avusturyalı birliklerin beklenmedik hücumu neticesinde geçici olarak alındıysa da direnen kale ele geçirilemedi.
+  [1099] | Ancak 1687 yılında Avusturyalılar tarafından başlatılan ablukanın giderek daha sıkı uygulanması sonucu 8 Receb 1099’da (9 Mayıs 1688) bir heyet kaleyi teslim şartlarını görüşmek üzere Kral Leopold’ün yanına gitti.
+
+### 93 Yanıkkale (Győr) [yanikkale] ilk={'f': '1281-01-01', 't': '1526-08-29', 'd': 'macaristan'}
+
+### 94 Varad (Oradea) [varad] ilk={'f': '1281-01-01', 't': '1526-09-01', 'd': 'macaristan'}
+  [1241] | 1241’de Moğol istilâsı neticesinde yağmalandıysa da bir süre sonra yeniden gelişti ve rasathânesiyle tanındı.
+  [1114, 1241] | Mevcut tarihî eserler arasında Romanya’nın en büyük barok Romano-Katolik Katedrali (1752-1780), Ortodoks Piskoposluğu Katedrali (1784-1790), beşgen şeklinde Ortaçağ kalesi kalıntıları (1114-1131 yıllarında kurulan kale 1241’de Moğollar tarafından yıkılmış, 1570-1589 ve 1717-1780 yıllarında tamir edilerek genişletilmiştir) ve sinagog (1877) sayılabilir.
+
+### 95 Yanova (Ineu) [yanova] ilk={'f': '1281-01-01', 't': '1526-09-01', 'd': 'macaristan'}
+  [1068] | Osmanlı ordusu Tuna üzerine yaptırılan büyük köprüden geçtikten sonra Tımışvar ovasına ulaşıp Arad istikametinde Crişul Alb nehri boyunca ilerlemiş ve 1 Zilhicce 1068’de (30 Ağustos 1658) Yanova Kalesi ovasına gelmişti.
+
+### 98 Plevne [plevne] ilk={'f': '1281-01-01', 't': '1393-07-17', 'd': 'bulgaristan'}
+
+### 100 Korfu [korfu] ilk={'f': '1281-01-01', 't': '1797-10-17', 'd': 'venedik'}
+  [1122] | 1122’de Haçlı seferleri için Venedik’ten yola çıkan büyük bir donanma Bizans hâkimiyetindeki Korfu’yu kuşattıysa da alamadı.
+  [1147] | Buna karşılık 1147’de Otranto’dan gelen bir Norman filosu adayı ele geçirdi.
+  [1259, 1267] | Bazan Epir, bazan Sicilya (1259), Napoli (1267) hâkimiyetine giren Korfu daha sonra Venedik’e bağlandı (1386).
+  [1214] | Osmanlı Devleti ile Rusya arasında 8 Zilkade 1214’te (3 Nisan 1800) imzalanan Korfu Antlaşması ile Osmanlı Devleti’ne tâbi, Cezâyir-i Seb‘a-i Müctemia Cumhuru (bk.
+
+### 101 Ayamavra (Lefkada) [ayamavra] ilk={'f': '1281-01-01', 't': '1479-08-01', 'd': 'napoli'}
+
+### 105 Koron [koron] ilk={'f': '1281-01-01', 't': '1500-08-09', 'd': 'venedik'}
+  [1205] | Koron, Haçlı seferleri sırasında Geoffroy de Villehardouin kumandasındaki kuvvetler tarafından 1205’te Bizanslılar’dan alındı.
+  [1127] | Şâban 1127’de (Ağustos 1715) Silâhdar/Şehid Ali Paşa kumandasındaki Osmanlı ordusu burayı yeniden ele geçirdi; kasaba, Yunanistan’ın kuruluşuna kadar Osmanlı toprağının bir parçası olarak kaldı.
+
+### 106 Aynaroz (Athos) [aynaroz] ilk={'f': '1281-01-01', 't': '1424-01-01', 'd': 'bizans'}
+
+### 108 Gümülcine [gumulcine] ilk={'f': '1281-01-01', 't': '1363-01-01', 'd': 'bizans'}
+  [1207] | 1207’de meydana gelen Bulgar istilâsı sırasında bugünkü şehrin 5 km.
+
+### 109 Köstence [kostence] ilk={'f': '1281-01-01', 't': '1393-09-01', 'd': 'bulgaristan'}
+
+### 111 Mohaç [mohac] ilk={'f': '1281-01-01', 't': '1526-09-01', 'd': 'macaristan'}
+  [1093] | Şehrin adına ilk defa 1093 yılında kaleme alınan bir belgede rastlanır.
+
+### 112 Varadin (Petrovaradin) [varadin] ilk={'f': '1281-01-01', 't': '1526-09-01', 'd': 'macaristan'}
+
+### 115 Segedin (Szeged) [segedin] ilk={'f': '1281-01-01', 't': '1543-01-01', 'd': 'macaristan'}
+  [1241] | Moğol saldırısı sırasında (1241) şehrin çevresinde henüz bir sur yoktu, ancak yanında taştan yapılmış bir kale vardı.
+
+### 172 Podgorica [podgorica] ilk={'f': '1281-01-01', 't': '1457-01-01', 'd': 'sirbistan'}
+
+### 173 Böğürdelen (Šabac) [bogurdelen] ilk={'f': '1281-01-01', 't': '1471-01-01', 'd': 'macaristan'}
+
+### 174 Travnik [travnik] ilk={'f': '1281-01-01', 't': '1463-06-01', 'd': 'bosna'}
+
+### 175 İzvornik (Zvornik) [izvornik] ilk={'f': '1281-01-01', 't': '1460-01-01', 'd': 'bosna'}
+
+### 176 Foça (Foča) [foca] ilk={'f': '1281-01-01', 't': '1465-01-01', 'd': 'bosna'}
+
+### 177 Livno (İhlevne) [livno] ilk={'f': '1281-01-01', 't': '1469-01-01', 'd': 'bosna'}
+
+### 180 Yergöğü (Giurgiu) [yergogu] ilk={'f': '1281-01-01', 't': '1330-01-01', 'd': 'macaristan'}
+
+### 181 Dubrovnik [dubrovnik] ilk={'f': '1281-01-01', 't': '1358-02-18', 'd': 'venedik'}
+
+### 182 İskeçe [iskece] ilk={'f': '1281-01-01', 't': '1373-01-01', 'd': 'bizans'}
+  [1206] | 1206’da Bulgar Çarı Kaloyan’ın, hemen yakınındaki Mosinipolis (Misine Hisar) ve Perithéôrion (Boru Kale) adlı kaleleri tahrip etmesiyle Xanthi bu iki eski kasabanın yerini aldı.
+
+### 183 Trebinye [trebinye] ilk={'f': '1281-01-01', 't': '1448-01-01', 'd': 'bosna'}
+
+### 186 Koniçe (Konjic) [konice] ilk={'f': '1281-01-01', 't': '1463-06-01', 'd': 'bosna'}
+
+### 197 Klis [klis] ilk={'f': '1281-01-01', 't': '1537-03-12', 'd': 'macaristan'}
+
+### 200 Bihaç (Bihać) [bihac] ilk={'f': '1281-01-01', 't': '1527-01-01', 'd': 'macaristan'}
+  [1102] | Tomislav (910-929) düklükleri birleştirdi ve Bihaç, Macar-Hırvat birliğinin kuruluşuna kadar (1102) Hırvat Krallığı’nın önemli bir merkezi oldu.
+
+### 225 Babadağı (Babadag) [babadagi] ilk={'f': '1281-01-01', 't': '1393-09-01', 'd': 'bulgaristan'}
+
+### 236 Aydonat (Paramythia) [aydonat] ilk={'f': '1281-01-01', 't': '1430-10-01', 'd': 'bizans'}
+
+### 238 Delvine [delvine] ilk={'f': '1281-01-01', 't': '1430-10-01', 'd': 'bizans'}
+
+### 239 Ergiri (Ergirikasrı) [ergirikasri] ilk={'f': '1281-01-01', 't': '1417-01-01', 'd': 'bizans'}
+
+### 246 Şehirköy (Pirot) [sehirkoy] ilk={'f': '1281-01-01', 't': '1386-01-01', 'd': 'sirbistan'}
+
+### 247 Alacahisar (Kruševac) [alacahisar] ilk={'f': '1281-01-01', 't': '1428-01-01', 'd': 'sirbistan'}
+
+### 254 Prizren [prizren] ilk={'f': '1281-01-01', 't': '1455-06-20', 'd': 'sirbistan'}
+  [1169] | 1169-1190 yılları arasında Prizren’in Sırplar’ın eline geçtiği, ancak son tarihte yine Bizanslılar’a döndüğü görülmektedir.
+  [1066] | Kādiriyye tarikatı ise hâlâ ayakta olan mevcut tekkenin Şeyh Hasan tarafından 1066’da (1655-56) kurulmasına dayanır.
+
+### 256 Leş (Alessio) [les] ilk={'f': '1281-01-01', 't': '1356-01-01', 'd': 'sirbistan-nemanjic'}
+
+### 257 Debre (Dibra) [debre] ilk={'f': '1281-01-01', 't': '1395-01-01', 'd': 'sirbistan'}
+  [1107] | 1107 yılından sonra Debre, günümüzde Arnavutluk sınırları içerisinde bulunan Peşkopi ile (Peshkepije) birlikte piskoposluk merkezi haline geldi.
+
+### 258 Köprülü (Veles) [koprulu] ilk={'f': '1281-01-01', 't': '1371-09-26', 'd': 'sirbistan'}
+  [1246] | 1246’da Bizans İmparatoru İoannis Vatatzis, Skopje (Üsküp), Veles ve Prosek’i Bulgarlar’dan geri aldı.
+
+### 259 İştip (Štip) [istip] ilk={'f': '1281-01-01', 't': '1371-09-26', 'd': 'sirbistan'}
+  [1018] | Bulgar İmparatorluğu’nun bir parçası idi; 1018’de Bizanslılar’ca geri alındı.
+
+### 260 Ustrumca (Strumica) [ustrumca] ilk={'f': '1281-01-01', 't': '1371-09-26', 'd': 'sirbistan'}
+  [1019] | 1019-1194 yıllarında Bizanslılar’ın hâkimiyetinde kaldı.
+  [1194] | 1194’te bir Eflak olan Dobromir Hrz 500 Eflak askeriyle Ustrumca’yı ele geçirdi.
+  [1201] | İmparator Alexios Commenos’un burayı alma çabaları başarısızlıkla sonuçlandı; ancak 1201-1202’de Bizanslılar tarafından zaptedildi.
+
+### 261 Doyran [doyran] ilk={'f': '1281-01-01', 't': '1371-09-26', 'd': 'sirbistan'}
+
+### 262 Gevgili (Gevgelija) [gevgili] ilk={'f': '1281-01-01', 't': '1345-01-01', 'd': 'bizans'}
+
+### 264 Vodina (Edessa) [vodina] ilk={'f': '1281-01-01', 't': '1345-01-01', 'd': 'bizans'}
+  [1246] | İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı.
+  [1251] | İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti.
+
+### 265 Karaferye (Veria) [karaferye] ilk={'f': '1281-01-01', 't': '1345-01-01', 'd': 'bizans'}
+  [1001] | 908’de Bulgarlar’ın eline geçen şehir 1001’de İmparator II.
+  [1215] | Buraya 1206-1209 arasında Bulgar Despotu Strez, 1215-1216’da da Epiros Despotu Theodoros Angelos hâkim oldu.
+
+### 270 Görice (Korçë) [gorice] ilk={'f': '1281-01-01', 't': '1395-01-01', 'd': '__BOSLUK__'}
+
+### 271 Kesriye (Kastoria) [kesriye] ilk={'f': '1281-01-01', 't': '1334-01-01', 'd': 'bizans'}
+  [1018] | Batı Bulgar İmparatoru Çar Samuil’e bağlı iken 1018’de Bizanslılar’ın eline geçti.
+
+### 272 Filorina (Florina) [florina] ilk={'f': '1281-01-01', 't': '1334-01-01', 'd': 'bizans'}

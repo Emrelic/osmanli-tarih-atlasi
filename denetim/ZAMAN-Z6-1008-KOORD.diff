@@ -1,9 +1,9 @@
 diff --git a/data/yer_yama_once1281_z6.js b/data/yer_yama_once1281_z6.js
 new file mode 100644
-index 00000000..8a40b07c
+index 00000000..e812dbbe
 --- /dev/null
 +++ b/data/yer_yama_once1281_z6.js
-@@ -0,0 +1,4298 @@
+@@ -0,0 +1,4940 @@
 +// -*- coding: utf-8 -*-
 +// YER_YAMA_ONCE1281_Z6 — yerleşimlerin 1000-1281 sahipliği (ZAMAN-Z6-YER-ONCE1281-1008, UMIT)
 +// window.YER_YAMA_ONCE1281_Z6 · ÖNERİ — koordinatör uygular. Rapor: denetim/ZAMAN-Z6-1008.md
@@ -4297,6 +4297,648 @@ index 00000000..8a40b07c
 +     "tdv": "derbend--dagistan",
 +     "alinti": "1222’de ilk Moğol işgalinin ardından 1239’da doğrudan Moğol idaresi altına giren Derbend, XIII.",
 +     "not": "Moğol İmparatorluğu → Altın Orda ardıl yapı; altinorda künye günü devralındı — kaynaksız gün"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Girit (Resmo)",
++  "s": [
++   {
++    "f": "1204-08-12",
++    "t": "1646-11-13",
++    "d": "venedik",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV girit: 'Marki Boniface, imparatorun iznini aldıktan sonra 12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı.' · ⚠️ cümle ADAYI tarihliyor, nokta Resmo (adanın temsilî noktası) — ada bütünü bir siyasî birim olduğu için alındı; 1206-1211 Ceneviz (Pescatore) dönemi bu maddede tarihsiz · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1913-05-30",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1204-08-12",
++     "d": "venedik",
++     "tur": "edinim",
++     "tdv": "girit",
++     "alinti": "Marki Boniface, imparatorun iznini aldıktan sonra 12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı.",
++     "not": "⚠️ cümle ADAYI tarihliyor, nokta Resmo (adanın temsilî noktası) — ada bütünü bir siyasî birim olduğu için alındı; 1206-1211 Ceneviz (Pescatore) dönemi bu maddede tarihsiz"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Tunus",
++  "s": [
++   {
++    "f": "1229-01-01",
++    "t": "1534-09-22",
++    "d": "hafsi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV tunus: 'Muvahhidler Devleti’ndeki bölünme ve ardından ortaya çıkan karışıklıklar sırasında Kābis valiliğine tayin edilen Ebû Zekeriyyâ el-Hafsî, Tunus üzerine yürüdü ve 625 (1228) yılında şehre girip İfrîkıye’nin tamamına hâkim oldu.' · kaynak 625/1228 der; hafsi künyesi 1229-01-01'de başladığından künye günü DEVRALINDI — kaynaksız gün, ve kaynakla 1 yıl FARK (Z3'e: künye 1228'e çekilebilir mi). 1158 Muvahhid · 1184 Benî Gâniye · 'üç yıl sonra' geri alış zinciri künyesiz Benî Gâniye yüzünden kopuk · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1535-07-21",
++    "t": "1569-01-01",
++    "d": "hafsi"
++   },
++   {
++    "f": "1573-10-10",
++    "t": "1574-09-12",
++    "d": "ispanya"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1229-01-01",
++     "d": "hafsi",
++     "tur": "edinim",
++     "tdv": "tunus",
++     "alinti": "Muvahhidler Devleti’ndeki bölünme ve ardından ortaya çıkan karışıklıklar sırasında Kābis valiliğine tayin edilen Ebû Zekeriyyâ el-Hafsî, Tunus üzerine yürüdü ve 625 (1228) yılında şehre girip İfrîkıye’nin tamamına hâkim oldu.",
++     "not": "kaynak 625/1228 der; hafsi künyesi 1229-01-01'de başladığından künye günü DEVRALINDI — kaynaksız gün, ve kaynakla 1 yıl FARK (Z3'e: künye 1228'e çekilebilir mi). 1158 Muvahhid · 1184 Benî Gâniye · 'üç yıl sonra' geri alış zinciri künyesiz Benî Gâniye yüzünden kopuk"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Tilimsan",
++  "s": [
++   {
++    "f": "1236-01-01",
++    "t": "1337-01-01",
++    "d": "zeyyani",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV tilimsan: 'Zeyyân tarafından Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235).' · kaynak 632/1235 der; zeyyani künyesi 1236-01-01 ⇒ künye günü devralındı, 1 yıl FARK (Z3'e) · TANIK (ediniş günü değil) · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1337-01-01",
++    "t": "1348-01-01",
++    "d": "merini",
++    "kaynak": "TDV abdulvadiler: '1337'de şehri ele geçirdi' · 'Merînîler'in hâkimiyetinden kurtuldular (1348)' · '1352'de Tilimsân'ın tekrar zaptedilmesi … 1359'da yeniden bağımsızlıklarını' · TDV meriniler '752'de (1351)' — iç ayrışma, ihtiyatlı 1352 · YIL"
++   },
++   {
++    "f": "1348-01-01",
++    "t": "1352-01-01",
++    "d": "zeyyani",
++    "kaynak": "TDV abdulvadiler: '1337'de şehri ele geçirdi' · 'Merînîler'in hâkimiyetinden kurtuldular (1348)' · '1352'de Tilimsân'ın tekrar zaptedilmesi … 1359'da yeniden bağımsızlıklarını' · TDV meriniler '752'de (1351)' — iç ayrışma, ihtiyatlı 1352 · YIL"
++   },
++   {
++    "f": "1352-01-01",
++    "t": "1359-01-01",
++    "d": "merini",
++    "kaynak": "TDV abdulvadiler: '1337'de şehri ele geçirdi' · 'Merînîler'in hâkimiyetinden kurtuldular (1348)' · '1352'de Tilimsân'ın tekrar zaptedilmesi … 1359'da yeniden bağımsızlıklarını' · TDV meriniler '752'de (1351)' — iç ayrışma, ihtiyatlı 1352 · YIL"
++   },
++   {
++    "f": "1359-01-01",
++    "t": "1552-01-01",
++    "d": "zeyyani",
++    "kaynak": "TDV abdulvadiler: '1337'de şehri ele geçirdi' · 'Merînîler'in hâkimiyetinden kurtuldular (1348)' · '1352'de Tilimsân'ın tekrar zaptedilmesi … 1359'da yeniden bağımsızlıklarını' · TDV meriniler '752'de (1351)' — iç ayrışma, ihtiyatlı 1352 · YIL"
++   },
++   {
++    "f": "1830-07-05",
++    "t": "1923-10-29",
++    "d": "fransa-cumhuriyet"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1236-01-01",
++     "d": "zeyyani",
++     "tur": "tanik",
++     "tdv": "tilimsan",
++     "alinti": "Zeyyân tarafından Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235).",
++     "not": "kaynak 632/1235 der; zeyyani künyesi 1236-01-01 ⇒ künye günü devralındı, 1 yıl FARK (Z3'e)"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Fas (Fez)",
++  "s": [
++   {
++    "f": "1248-01-01",
++    "t": "1549-01-01",
++    "d": "merini",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV fas: '1210’lardan itibaren Kuzeydoğu Fas’ta küçük çaplı ayaklanmalar gerçekleştiren Zenâte kabilesine mensup Merînîler 1244’te Meknes, 1248’de Fas (şehir), 1255’te Sicilmâse ve 1269’da başşehir Merakeş’i ele geçirerek Muvahhidler’in yerine Merînî Devleti’ni kurdular.' · Muvahhid fethi tarihi bu maddede şehir için verilmez (1147 Merakeş'in alınışıdır) · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1549-01-01",
++    "t": "1659-01-01",
++    "d": "sadi"
++   },
++   {
++    "f": "1659-01-01",
++    "t": "1923-10-29",
++    "d": "fas"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1248-01-01",
++     "d": "merini",
++     "tur": "edinim",
++     "tdv": "fas",
++     "alinti": "1210’lardan itibaren Kuzeydoğu Fas’ta küçük çaplı ayaklanmalar gerçekleştiren Zenâte kabilesine mensup Merînîler 1244’te Meknes, 1248’de Fas (şehir), 1255’te Sicilmâse ve 1269’da başşehir Merakeş’i ele geçirerek Muvahhidler’in yerine Merînî Devleti’ni kurdular.",
++     "not": "Muvahhid fethi tarihi bu maddede şehir için verilmez (1147 Merakeş'in alınışıdır)"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Merakeş",
++  "s": [
++   {
++    "f": "1147-03-23",
++    "d": "muvahhidler",
++    "kaynak": "TDV merakes: 'Murâbıtlar’ın başşehri Merakeş’i, Muvahhidler’in kurucusu İbn Tûmert’in 524’te (1130) başarısızlıkla sonuçlanan kırk günlük muhasarasından on yedi yıl sonra halefi Abdülmü’min on bir ay süren kuşatmayla ele geçirdi (18 Şevval 541 / 23 Mart 1147).' · öncesi Murâbıt başşehri — kuruluş günü bu maddede yok, YAZILMADI · ZAMAN-Z6-1008",
++    "t": "1269-01-01",
++    "kesinlik": {
++     "f": "gun",
++     "t": "yil"
++    }
++   },
++   {
++    "f": "1269-01-01",
++    "t": "1549-01-01",
++    "d": "merini",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV fas: '1210’lardan itibaren Kuzeydoğu Fas’ta küçük çaplı ayaklanmalar gerçekleştiren Zenâte kabilesine mensup Merînîler 1244’te Meknes, 1248’de Fas (şehir), 1255’te Sicilmâse ve 1269’da başşehir Merakeş’i ele geçirerek Muvahhidler’in yerine Merînî Devleti’ni kurdular.' · başka maddeden (fas), cümle Merakeş'in alınışını tarihliyor · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1549-01-01",
++    "t": "1659-01-01",
++    "d": "sadi"
++   },
++   {
++    "f": "1659-01-01",
++    "t": "1923-10-29",
++    "d": "fas"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1147-03-23",
++     "d": "muvahhidler",
++     "tur": "edinim",
++     "tdv": "merakes",
++     "alinti": "Murâbıtlar’ın başşehri Merakeş’i, Muvahhidler’in kurucusu İbn Tûmert’in 524’te (1130) başarısızlıkla sonuçlanan kırk günlük muhasarasından on yedi yıl sonra halefi Abdülmü’min on bir ay süren kuşatmayla ele geçirdi (18 Şevval 541 / 23 Mart 1147).",
++     "not": "öncesi Murâbıt başşehri — kuruluş günü bu maddede yok, YAZILMADI"
++    },
++    {
++     "f": "1269-01-01",
++     "d": "merini",
++     "tur": "edinim",
++     "tdv": "fas",
++     "alinti": "1210’lardan itibaren Kuzeydoğu Fas’ta küçük çaplı ayaklanmalar gerçekleştiren Zenâte kabilesine mensup Merînîler 1244’te Meknes, 1248’de Fas (şehir), 1255’te Sicilmâse ve 1269’da başşehir Merakeş’i ele geçirerek Muvahhidler’in yerine Merînî Devleti’ni kurdular.",
++     "not": "başka maddeden (fas), cümle Merakeş'in alınışını tarihliyor"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Rabat",
++  "s": [
++   {
++    "f": "1150-01-01",
++    "d": "muvahhidler",
++    "kaynak": "TDV rabat: 'Muvahhidler’in ilk hükümdarı Abdülmü’min el-Kûmî, 545 (1150) yılında Endülüs’teki fetihler için askerî bir üs olarak kullanılmak üzere ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti.' · Muvahhid ordugâhı = şehrin Muvahhid kuruluşu; 'asıl kuruluş' Ebû Yûsuf el-Mansûr (1184-1199) aralığı · TANIK (ediniş günü değil) · ZAMAN-Z6-1008",
++    "t": "1251-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1251-01-01",
++    "t": "1549-01-01",
++    "d": "merini",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV rabat: 'Abdülhak 649’da (1251) Rabat ve Selâ’yı ele geçirdi (Selâvî, III, 17).' · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1549-01-01",
++    "t": "1659-01-01",
++    "d": "sadi"
++   },
++   {
++    "f": "1659-01-01",
++    "t": "1923-10-29",
++    "d": "fas"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1150-01-01",
++     "d": "muvahhidler",
++     "tur": "tanik",
++     "tdv": "rabat",
++     "alinti": "Muvahhidler’in ilk hükümdarı Abdülmü’min el-Kûmî, 545 (1150) yılında Endülüs’teki fetihler için askerî bir üs olarak kullanılmak üzere ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti.",
++     "not": "Muvahhid ordugâhı = şehrin Muvahhid kuruluşu; 'asıl kuruluş' Ebû Yûsuf el-Mansûr (1184-1199) aralığı"
++    },
++    {
++     "f": "1251-01-01",
++     "d": "merini",
++     "tur": "edinim",
++     "tdv": "rabat",
++     "alinti": "Abdülhak 649’da (1251) Rabat ve Selâ’yı ele geçirdi (Selâvî, III, 17)."
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Tanca",
++  "s": [
++   {
++    "f": "1273-01-01",
++    "t": "1471-08-28",
++    "d": "merini",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV tanca: 'Daha sonra Merînî Sultanı Ebû Yûsuf Ya‘kūb el-Mansûr üç aylık bir kuşatmanın ardından şehri zaptetti (672/1273-74).' · 1077 Murâbıt · 1147 Muvahhid zinciri VAR ama muvahhidler künyesi 1269'da biter, 1269-1273 sahibi tarihsiz ⇒ kopuk, YAZILMADI · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1471-08-28",
++    "t": "1662-01-30",
++    "d": "portekiz",
++    "enklav": true
++   },
++   {
++    "f": "1662-01-30",
++    "t": "1684-01-01",
++    "d": "ingiltere",
++    "enklav": true
++   },
++   {
++    "f": "1684-01-01",
++    "t": "1923-10-29",
++    "d": "fas"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1273-01-01",
++     "d": "merini",
++     "tur": "edinim",
++     "tdv": "tanca",
++     "alinti": "Daha sonra Merînî Sultanı Ebû Yûsuf Ya‘kūb el-Mansûr üç aylık bir kuşatmanın ardından şehri zaptetti (672/1273-74).",
++     "not": "1077 Murâbıt · 1147 Muvahhid zinciri VAR ama muvahhidler künyesi 1269'da biter, 1269-1273 sahibi tarihsiz ⇒ kopuk, YAZILMADI"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Sebte (Ceuta)",
++  "s": [
++   {
++    "f": "1273-01-01",
++    "t": "1415-01-01",
++    "d": "merini",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV sebte: 'Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.' · 1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1415-01-01",
++    "t": "1581-04-16",
++    "d": "portekiz",
++    "enklav": true
++   },
++   {
++    "f": "1581-04-16",
++    "t": "1923-10-29",
++    "d": "ispanya",
++    "enklav": true
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1273-01-01",
++     "d": "merini",
++     "tur": "edinim",
++     "tdv": "sebte",
++     "alinti": "Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.",
++     "not": "1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Sicilmâse (Tâfilelt)",
++  "s": [
++   {
++    "f": "1274-01-01",
++    "t": "1549-01-01",
++    "d": "merini",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1549-01-01",
++    "t": "1659-01-01",
++    "d": "sadi"
++   },
++   {
++    "f": "1659-01-01",
++    "t": "1923-10-29",
++    "d": "fas"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1274-01-01",
++     "d": "merini",
++     "tur": "edinim",
++     "tdv": "sicilmase",
++     "alinti": "Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.",
++     "not": "TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Delhi",
++  "s": [
++   {
++    "f": "1192-01-01",
++    "d": "gurlu",
++    "kaynak": "TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır · ZAMAN-Z6-1008",
++    "t": "1206-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1206-01-01",
++    "t": "1398-12-17",
++    "d": "delhi-sultanligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1398-12-17",
++    "t": "1399-01-01",
++    "d": "timurlu",
++    "enklav": true
++   },
++   {
++    "f": "1399-01-01",
++    "t": "1526-04-21",
++    "d": "delhi-sultanligi"
++   },
++   {
++    "f": "1526-04-21",
++    "t": "1540-05-17",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1540-05-17",
++    "t": "1555-07-23",
++    "d": "sur-hanedani"
++   },
++   {
++    "f": "1555-07-23",
++    "t": "1788-01-01",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1788-01-01",
++    "t": "1803-09-11",
++    "d": "maratha"
++   },
++   {
++    "f": "1803-09-11",
++    "t": "1923-10-29",
++    "d": "ingiliz-hindistani"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1192-01-01",
++     "d": "gurlu",
++     "tur": "edinim",
++     "tdv": "delhi",
++     "alinti": "Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.",
++     "not": "Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır"
++    },
++    {
++     "f": "1206-01-01",
++     "d": "delhi-sultanligi",
++     "tur": "edinim",
++     "tdv": "delhi",
++     "alinti": "Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.",
++     "not": "Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Koil (Aligarh)",
++  "s": [
++   {
++    "f": "1194-01-01",
++    "d": "gurlu",
++    "kaynak": "TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · 'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı · ZAMAN-Z6-1008",
++    "t": "1206-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1206-01-01",
++    "t": "1526-04-21",
++    "d": "delhi-sultanligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · ardıl yapı; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1526-04-21",
++    "t": "1540-05-17",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1540-05-17",
++    "t": "1555-07-23",
++    "d": "sur-hanedani"
++   },
++   {
++    "f": "1555-07-23",
++    "t": "1784-01-01",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1784-01-01",
++    "t": "1803-09-04",
++    "d": "maratha"
++   },
++   {
++    "f": "1803-09-04",
++    "t": "1923-10-29",
++    "d": "ingiliz-hindistani"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1194-01-01",
++     "d": "gurlu",
++     "tur": "edinim",
++     "tdv": "aligarh",
++     "alinti": "yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).",
++     "not": "'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı"
++    },
++    {
++     "f": "1206-01-01",
++     "d": "delhi-sultanligi",
++     "tur": "edinim",
++     "tdv": "aligarh",
++     "alinti": "yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).",
++     "not": "ardıl yapı; künye günü devralındı — kaynaksız gün"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Ecmîr (Ajmer)",
++  "s": [
++   {
++    "f": "1192-01-01",
++    "d": "gurlu",
++    "kaynak": "TDV ecmir: 'Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.' · fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi) · ZAMAN-Z6-1008",
++    "t": "1206-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1206-01-01",
++    "t": "1365-01-01",
++    "d": "delhi-sultanligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV ecmir: 'Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.' · Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1365-01-01",
++    "t": "1559-01-01",
++    "d": "racput"
++   },
++   {
++    "f": "1559-01-01",
++    "t": "1756-01-01",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1756-01-01",
++    "t": "1818-06-25",
++    "d": "maratha"
++   },
++   {
++    "f": "1818-06-25",
++    "t": "1923-10-29",
++    "d": "ingiliz-hindistani"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1192-01-01",
++     "d": "gurlu",
++     "tur": "edinim",
++     "tdv": "ecmir",
++     "alinti": "Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.",
++     "not": "fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi)"
++    },
++    {
++     "f": "1206-01-01",
++     "d": "delhi-sultanligi",
++     "tur": "edinim",
++     "tdv": "ecmir",
++     "alinti": "Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.",
++     "not": "Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Lahor",
++  "s": [
++   {
++    "f": "1013-01-01",
++    "d": "gazneli",
++    "kaynak": "TDV lahor: 'Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.' · kaynak '1013-1014' ARALIĞI; başı yazıldı · ZAMAN-Z6-1008",
++    "t": "1186-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1186-01-01",
++    "d": "gurlu",
++    "kaynak": "TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ZAMAN-Z6-1008",
++    "t": "1206-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1206-01-01",
++    "t": "1526-04-21",
++    "d": "delhi-sultanligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1526-04-21",
++    "t": "1540-05-17",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1540-05-17",
++    "t": "1555-07-23",
++    "d": "sur-hanedani"
++   },
++   {
++    "f": "1555-07-23",
++    "t": "1752-04-01",
++    "d": "babur-imparatorlugu"
++   },
++   {
++    "f": "1752-04-01",
++    "t": "1765-04-16",
++    "d": "afgan-durrani"
++   },
++   {
++    "f": "1765-04-16",
++    "t": "1849-03-29",
++    "d": "sih-imparatorlugu"
++   },
++   {
++    "f": "1849-03-29",
++    "t": "1923-10-29",
++    "d": "ingiliz-hindistani"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1013-01-01",
++     "d": "gazneli",
++     "tur": "edinim",
++     "tdv": "lahor",
++     "alinti": "Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.",
++     "not": "kaynak '1013-1014' ARALIĞI; başı yazıldı"
++    },
++    {
++     "f": "1186-01-01",
++     "d": "gurlu",
++     "tur": "edinim",
++     "tdv": "lahor",
++     "alinti": "582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu."
++    },
++    {
++     "f": "1206-01-01",
++     "d": "delhi-sultanligi",
++     "tur": "edinim",
++     "tdv": "lahor",
++     "alinti": "582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.",
++     "not": "ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok"
 +    }
 +   ]
 +  }

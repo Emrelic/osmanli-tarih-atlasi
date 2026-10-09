@@ -1,0 +1,2081 @@
+[
+ {
+  "ad": "Girit (Resmo)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1204-08-12",
+    "d": "venedik",
+    "slug": "girit",
+    "parca": "12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı",
+    "not": "⚠️ cümle ADAYI tarihliyor, nokta Resmo (adanın temsilî noktası) — ada bütünü bir siyasî birim olduğu için alındı; 1206-1211 Ceneviz (Pescatore) dönemi bu maddede tarihsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Tunus",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1229-01-01",
+    "d": "hafsi",
+    "slug": "tunus",
+    "parca": "625 (1228) yılında şehre girip İfrîkıye’nin tamamına hâkim oldu",
+    "not": "kaynak 625/1228 der; hafsi künyesi 1229-01-01'de başladığından künye günü DEVRALINDI — kaynaksız gün, ve kaynakla 1 yıl FARK (Z3'e: künye 1228'e çekilebilir mi). 1158 Muvahhid · 1184 Benî Gâniye · 'üç yıl sonra' geri alış zinciri künyesiz Benî Gâniye yüzünden kopuk"
+   }
+  ]
+ },
+ {
+  "ad": "Tilimsan",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1236-01-01",
+    "d": "zeyyani",
+    "tur": "tanik",
+    "slug": "tilimsan",
+    "parca": "Zeyyân tarafından Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235)",
+    "not": "kaynak 632/1235 der; zeyyani künyesi 1236-01-01 ⇒ künye günü devralındı, 1 yıl FARK (Z3'e)"
+   }
+  ]
+ },
+ {
+  "ad": "Fas (Fez)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1248-01-01",
+    "d": "merini",
+    "slug": "fas",
+    "parca": "1248’de Fas (şehir)",
+    "not": "Muvahhid fethi tarihi bu maddede şehir için verilmez (1147 Merakeş'in alınışıdır)"
+   }
+  ]
+ },
+ {
+  "ad": "Merakeş",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1147-03-23",
+    "d": "muvahhidler",
+    "slug": "merakes",
+    "parca": "on bir ay süren kuşatmayla ele geçirdi (18 Şevval 541 / 23 Mart 1147)",
+    "not": "öncesi Murâbıt başşehri — kuruluş günü bu maddede yok, YAZILMADI"
+   },
+   {
+    "f": "1269-01-01",
+    "d": "merini",
+    "slug": "fas",
+    "parca": "1269’da başşehir Merakeş’i ele geçirerek",
+    "not": "başka maddeden (fas), cümle Merakeş'in alınışını tarihliyor"
+   }
+  ]
+ },
+ {
+  "ad": "Rabat",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1150-01-01",
+    "d": "muvahhidler",
+    "tur": "tanik",
+    "slug": "rabat",
+    "parca": "545 (1150) yılında Endülüs’teki fetihler için askerî bir üs olarak kullanılmak üzere ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti",
+    "not": "Muvahhid ordugâhı = şehrin Muvahhid kuruluşu; 'asıl kuruluş' Ebû Yûsuf el-Mansûr (1184-1199) aralığı"
+   },
+   {
+    "f": "1251-01-01",
+    "d": "merini",
+    "slug": "rabat",
+    "parca": "Abdülhak 649’da (1251) Rabat ve Selâ’yı ele geçirdi"
+   }
+  ]
+ },
+ {
+  "ad": "Tanca",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1273-01-01",
+    "d": "merini",
+    "slug": "tanca",
+    "parca": "üç aylık bir kuşatmanın ardından şehri zaptetti (672/1273-74)",
+    "not": "1077 Murâbıt · 1147 Muvahhid zinciri VAR ama muvahhidler künyesi 1269'da biter, 1269-1273 sahibi tarihsiz ⇒ kopuk, YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Sebte (Ceuta)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1273-01-01",
+    "d": "merini",
+    "slug": "sebte",
+    "parca": "672’de (1273-74) Sebte’yi ele geçirdi",
+    "not": "1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk"
+   }
+  ]
+ },
+ {
+  "ad": "Sicilmâse (Tâfilelt)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1274-01-01",
+    "d": "merini",
+    "slug": "sicilmase",
+    "parca": "673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi",
+    "not": "TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk"
+   }
+  ]
+ },
+ {
+  "ad": "Malta",
+  "sinif": "3k",
+  "neden": "1090 Norman · 1127 Ruggero kesin aldı (Sicilya Krallığı) — atlas 1281 napoli; Sicilya→Napoli geçişi tarihsiz (napoli künyesi 1282-03-30, atlasın 1281 dönemi künyeden ÖNCE başlıyor — yan bulgu)"
+ },
+ {
+  "ad": "Cerbe (Djerba)",
+  "sinif": "3k",
+  "neden": "1160 Abdülmü'min geri fethetti — Hafsî'ye geçiş bu maddede tarihsiz"
+ },
+ {
+  "ad": "Kafsa",
+  "sinif": "3k",
+  "neden": "1159 Muvahhid · 1180 · 1187 Karakuş · 1190 er-Rakrâkī · 1205'e dek karışıklık — Hafsî'ye geçiş tarihsiz"
+ },
+ {
+  "ad": "Tenes",
+  "sinif": "3k",
+  "neden": "'493’ten (1100) itibaren Murâbıtlar’ın, onların yıkılışının ardından Muvahhidler’in' — Muvahhid girişi ve Zeyyânî'ye geçiş tarihsiz"
+ },
+ {
+  "ad": "Miknâs (Meknes)",
+  "sinif": "3k",
+  "neden": "1069 Murâbıt · 1150 Muvahhid · 1237 Merînî · 1245-46 Muvahhid geri · 'iki yıl sonra' Merînî (TÜRETİLMİŞ yıl) — ve TDV fas Meknes'i 1244'e koyar (çelişki) ⇒ son halka kaynaksız"
+ },
+ {
+  "ad": "Cezayir",
+  "sinif": "3b",
+  "neden": "1062 'Cezayir’e kadar Kuzey Afrika' · 1153 'Cezayir ve bütün Kuzey Afrika' — ülke/bölge cümleleri"
+ },
+ {
+  "ad": "Cebelitarık (Gibraltar)",
+  "sinif": "3b",
+  "neden": "1145 'Endülüs Muvahhidler’in hâkimiyetine geçince' — bölge"
+ },
+ {
+  "ad": "Dârülbeyzâ (Anfa)",
+  "sinif": "3b",
+  "neden": "1060 Murâbıt 'kabul edilmektedir' — ihtimal"
+ },
+ {
+  "ad": "Hanya",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hanya:302",
+   "hanya--sehir:302",
+   "arama:hanya:200"
+  ]
+ },
+ {
+  "ad": "Trablus",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "trablus:302",
+   "trablus--sehir:302",
+   "arama:trablus:200"
+  ]
+ },
+ {
+  "ad": "Misrata",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "misrata:302",
+   "misrata--sehir:302",
+   "arama:misrata:200"
+  ]
+ },
+ {
+  "ad": "Derne",
+  "sinif": "3",
+  "neden": "TDV `derne` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Kayrevan",
+  "sinif": "3",
+  "neden": "TDV `kayrevan` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Gabes",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gabes:302",
+   "gabes--sehir:302",
+   "arama:gabes:200"
+  ]
+ },
+ {
+  "ad": "Konstantin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "konstantin:302",
+   "konstantin--sehir:302",
+   "arama:konstantin:200"
+  ]
+ },
+ {
+  "ad": "Oran",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "oran:200",
+   "oran--sehir:302",
+   "arama:oran:200"
+  ]
+ },
+ {
+  "ad": "Sfaks",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sfaks:302",
+   "sfaks--sehir:302",
+   "arama:sfaks:200"
+  ]
+ },
+ {
+  "ad": "Annaba",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "annaba:302",
+   "annaba--sehir:302",
+   "arama:annaba:200"
+  ]
+ },
+ {
+  "ad": "Bicâye",
+  "sinif": "3",
+  "neden": "TDV `bicaye` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Timbuktu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "timbuktu:200",
+   "timbuktu--sehir:302",
+   "arama:timbuktu:200"
+  ]
+ },
+ {
+  "ad": "Sevilla",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sevilla:200",
+   "sevilla--sehir:302",
+   "arama:sevilla:200"
+  ]
+ },
+ {
+  "ad": "Granada",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "granada:200",
+   "granada--sehir:302",
+   "arama:granada:200"
+  ]
+ },
+ {
+  "ad": "Agadir",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "agadir:302",
+   "agadir--sehir:302",
+   "arama:agadir:200"
+  ]
+ },
+ {
+  "ad": "Şerşel (Cherchell)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sersel:302",
+   "sersel--sehir:302",
+   "cherchell:302",
+   "cherchell--sehir:302",
+   "arama:sersel:200",
+   "arama:cherchell:200"
+  ]
+ },
+ {
+  "ad": "Medea (Titteri)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "medea:302",
+   "medea--sehir:302",
+   "titteri:302",
+   "titteri--sehir:302",
+   "arama:medea:200",
+   "arama:titteri:200"
+  ]
+ },
+ {
+  "ad": "Setif",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "setif:302",
+   "setif--sehir:302",
+   "arama:setif:200"
+  ]
+ },
+ {
+  "ad": "Biskra",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "biskra:302",
+   "biskra--sehir:302",
+   "arama:biskra:200"
+  ]
+ },
+ {
+  "ad": "Tuggurt",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tuggurt:302",
+   "tuggurt--sehir:302",
+   "arama:tuggurt:200"
+  ]
+ },
+ {
+  "ad": "Pantelerya",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pantelerya:302",
+   "pantelerya--sehir:302",
+   "arama:pantelerya:200"
+  ]
+ },
+ {
+  "ad": "Kerkene (Kerkennah)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kerkene:302",
+   "kerkene--sehir:302",
+   "kerkennah:302",
+   "kerkennah--sehir:302",
+   "arama:kerkene:200",
+   "arama:kerkennah:200"
+  ]
+ },
+ {
+  "ad": "İsfakiye (Sfakia)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "isfakiye:302",
+   "isfakiye--sehir:302",
+   "sfakia:302",
+   "sfakia--sehir:302",
+   "arama:isfakiye:200",
+   "arama:sfakia:200"
+  ]
+ },
+ {
+  "ad": "Melîle (Melilla)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "melile:302",
+   "melile--sehir:302",
+   "melilla:302",
+   "melilla--sehir:302",
+   "arama:melile:200",
+   "arama:melilla:200"
+  ]
+ },
+ {
+  "ad": "Mersa'l-Kebîr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mersal-kebir:302",
+   "mersal-kebir--sehir:302",
+   "arama:mersal-kebir:200"
+  ]
+ },
+ {
+  "ad": "Mazagan (El Jadida)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mazagan:302",
+   "mazagan--sehir:302",
+   "el-jadida:302",
+   "el-jadida--sehir:302",
+   "arama:mazagan:200",
+   "arama:el-jadida:200"
+  ]
+ },
+ {
+  "ad": "Safi (Asfi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "safi:200",
+   "safi--sehir:302",
+   "asfi:302",
+   "asfi--sehir:302",
+   "arama:safi:200",
+   "arama:asfi:200"
+  ]
+ },
+ {
+  "ad": "Azemmûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "azemmur:302",
+   "azemmur--sehir:302",
+   "arama:azemmur:200"
+  ]
+ },
+ {
+  "ad": "Arzila (Asilah)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "arzila:302",
+   "arzila--sehir:302",
+   "asilah:302",
+   "asilah--sehir:302",
+   "arama:arzila:200",
+   "arama:asilah:200"
+  ]
+ },
+ {
+  "ad": "Benzert (Bizerte)",
+  "sinif": "3",
+  "neden": "TDV `benzert` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Halkulvâdî",
+  "sinif": "3",
+  "neden": "TDV `halkulvadi` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Mâtir (Mateur)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "matir:302",
+   "matir--sehir:302",
+   "mateur:302",
+   "mateur--sehir:302",
+   "arama:matir:200",
+   "arama:mateur:200"
+  ]
+ },
+ {
+  "ad": "Tabarka",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tabarka:302",
+   "tabarka--sehir:302",
+   "arama:tabarka:200"
+  ]
+ },
+ {
+  "ad": "Bâce (Béja)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bace:302",
+   "bace--sehir:302",
+   "beja:302",
+   "beja--sehir:302",
+   "arama:bace:200",
+   "arama:beja:200"
+  ]
+ },
+ {
+  "ad": "Cendûbe",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cendube:302",
+   "cendube--sehir:302",
+   "arama:cendube:200"
+  ]
+ },
+ {
+  "ad": "Kef",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kef:200",
+   "kef--sehir:302",
+   "arama:kef:200"
+  ]
+ },
+ {
+  "ad": "Nâbil (Nabeul)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nabil:302",
+   "nabil--sehir:302",
+   "nabeul:302",
+   "nabeul--sehir:302",
+   "arama:nabil:200",
+   "arama:nabeul:200"
+  ]
+ },
+ {
+  "ad": "Kelîbiye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kelibiye:302",
+   "kelibiye--sehir:302",
+   "arama:kelibiye:200"
+  ]
+ },
+ {
+  "ad": "Zağvân",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zagvan:302",
+   "zagvan--sehir:302",
+   "arama:zagvan:200"
+  ]
+ },
+ {
+  "ad": "Sûse",
+  "sinif": "3",
+  "neden": "TDV `suse` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Munastır",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "munastir:302",
+   "munastir--sehir:302",
+   "arama:munastir:200"
+  ]
+ },
+ {
+  "ad": "Mehdiye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mehdiye:302",
+   "mehdiye--sehir:302",
+   "arama:mehdiye:200"
+  ]
+ },
+ {
+  "ad": "Kasrayn",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kasrayn:302",
+   "kasrayn--sehir:302",
+   "arama:kasrayn:200"
+  ]
+ },
+ {
+  "ad": "Tozer",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tozer:302",
+   "tozer--sehir:302",
+   "arama:tozer:200"
+  ]
+ },
+ {
+  "ad": "Nefta",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nefta:302",
+   "nefta--sehir:302",
+   "arama:nefta:200"
+  ]
+ },
+ {
+  "ad": "Medenîn",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "medenin:302",
+   "medenin--sehir:302",
+   "arama:medenin:200"
+  ]
+ },
+ {
+  "ad": "Tatavin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tatavin:302",
+   "tatavin--sehir:302",
+   "arama:tatavin:200"
+  ]
+ },
+ {
+  "ad": "Cerciş (Zarzis)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cercis:302",
+   "cercis--sehir:302",
+   "zarzis:302",
+   "zarzis--sehir:302",
+   "arama:cercis:200",
+   "arama:zarzis:200"
+  ]
+ },
+ {
+  "ad": "Bin Gerdân",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bin-gerdan:302",
+   "bin-gerdan--sehir:302",
+   "arama:bin-gerdan:200"
+  ]
+ },
+ {
+  "ad": "Zâviye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zaviye:200",
+   "zaviye--sehir:302",
+   "arama:zaviye:200"
+  ]
+ },
+ {
+  "ad": "Zuvâre",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zuvare:302",
+   "zuvare--sehir:302",
+   "arama:zuvare:200"
+  ]
+ },
+ {
+  "ad": "Nâlût",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nalut:302",
+   "nalut--sehir:302",
+   "arama:nalut:200"
+  ]
+ },
+ {
+  "ad": "Yefren",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yefren:302",
+   "yefren--sehir:302",
+   "arama:yefren:200"
+  ]
+ },
+ {
+  "ad": "Garyân",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "garyan:302",
+   "garyan--sehir:302",
+   "arama:garyan:200"
+  ]
+ },
+ {
+  "ad": "Mızde",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mizde:302",
+   "mizde--sehir:302",
+   "arama:mizde:200"
+  ]
+ },
+ {
+  "ad": "Hums (Lebde)",
+  "sinif": "3",
+  "neden": "TDV `hums` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Zilten",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zilten:302",
+   "zilten--sehir:302",
+   "arama:zilten:200"
+  ]
+ },
+ {
+  "ad": "Benî Velîd",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "beni-velid:302",
+   "beni-velid--sehir:302",
+   "arama:beni-velid:200"
+  ]
+ },
+ {
+  "ad": "Sirte",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sirte:302",
+   "sirte--sehir:302",
+   "arama:sirte:200"
+  ]
+ },
+ {
+  "ad": "Blida",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "blida:302",
+   "blida--sehir:302",
+   "arama:blida:200"
+  ]
+ },
+ {
+  "ad": "Miliana",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "miliana:302",
+   "miliana--sehir:302",
+   "arama:miliana:200"
+  ]
+ },
+ {
+  "ad": "Dellîs",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dellis:302",
+   "dellis--sehir:302",
+   "arama:dellis:200"
+  ]
+ },
+ {
+  "ad": "Şelif",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "selif:302",
+   "selif--sehir:302",
+   "arama:selif:200"
+  ]
+ },
+ {
+  "ad": "Mustagānim",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mustaganim:302",
+   "mustaganim--sehir:302",
+   "arama:mustaganim:200"
+  ]
+ },
+ {
+  "ad": "Muaskar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "muaskar:302",
+   "muaskar--sehir:302",
+   "arama:muaskar:200"
+  ]
+ },
+ {
+  "ad": "Sîdî Bel Abbès",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sidi-bel-abbes:302",
+   "sidi-bel-abbes--sehir:302",
+   "arama:sidi-bel-abbes:200"
+  ]
+ },
+ {
+  "ad": "Ayn Temûşent",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayn-temusent:302",
+   "ayn-temusent--sehir:302",
+   "arama:ayn-temusent:200"
+  ]
+ },
+ {
+  "ad": "Nedrûme",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nedrume:302",
+   "nedrume--sehir:302",
+   "arama:nedrume:200"
+  ]
+ },
+ {
+  "ad": "Cicel",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cicel:302",
+   "cicel--sehir:302",
+   "arama:cicel:200"
+  ]
+ },
+ {
+  "ad": "Kolo",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kolo:302",
+   "kolo--sehir:302",
+   "arama:kolo:200"
+  ]
+ },
+ {
+  "ad": "Sikikde",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sikikde:302",
+   "sikikde--sehir:302",
+   "arama:sikikde:200"
+  ]
+ },
+ {
+  "ad": "Mîle",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mile:302",
+   "mile--sehir:302",
+   "arama:mile:200"
+  ]
+ },
+ {
+  "ad": "Kalme (Guelma)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kalme:302",
+   "kalme--sehir:302",
+   "guelma:302",
+   "guelma--sehir:302",
+   "arama:kalme:200",
+   "arama:guelma:200"
+  ]
+ },
+ {
+  "ad": "Sûk Ahrâs",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "suk-ahras:302",
+   "suk-ahras--sehir:302",
+   "arama:suk-ahras:200"
+  ]
+ },
+ {
+  "ad": "Tebesse",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tebesse:302",
+   "tebesse--sehir:302",
+   "arama:tebesse:200"
+  ]
+ },
+ {
+  "ad": "Batna",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "batna:302",
+   "batna--sehir:302",
+   "arama:batna:200"
+  ]
+ },
+ {
+  "ad": "Berc Bû Areric",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "berc-bu-areric:302",
+   "berc-bu-areric--sehir:302",
+   "arama:berc-bu-areric:200"
+  ]
+ },
+ {
+  "ad": "Mesîle",
+  "sinif": "3",
+  "neden": "TDV `mesile` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Bû Sa'âde",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bu-saade:302",
+   "bu-saade--sehir:302",
+   "arama:bu-saade:200"
+  ]
+ },
+ {
+  "ad": "Ağvât",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "agvat:302",
+   "agvat--sehir:302",
+   "arama:agvat:200"
+  ]
+ },
+ {
+  "ad": "Gardâye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gardaye:302",
+   "gardaye--sehir:302",
+   "arama:gardaye:200"
+  ]
+ },
+ {
+  "ad": "Ğadâmis",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gadamis:302",
+   "gadamis--sehir:302",
+   "arama:gadamis:200"
+  ]
+ },
+ {
+  "ad": "Gât",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gat:302",
+   "gat--sehir:302",
+   "arama:gat:200"
+  ]
+ },
+ {
+  "ad": "Cenîne",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cenine:302",
+   "cenine--sehir:302",
+   "arama:cenine:200"
+  ]
+ },
+ {
+  "ad": "Sebha",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sebha:302",
+   "sebha--sehir:302",
+   "arama:sebha:200"
+  ]
+ },
+ {
+  "ad": "Ubârî",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ubari:302",
+   "ubari--sehir:302",
+   "arama:ubari:200"
+  ]
+ },
+ {
+  "ad": "Cádiz",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cadiz:302",
+   "cadiz--sehir:302",
+   "arama:cadiz:200"
+  ]
+ },
+ {
+  "ad": "Málaga",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "malaga:200",
+   "malaga--sehir:302",
+   "arama:malaga:200"
+  ]
+ },
+ {
+  "ad": "Ronda",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ronda:302",
+   "ronda--sehir:302",
+   "arama:ronda:200"
+  ]
+ },
+ {
+  "ad": "Almería",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "almeria:302",
+   "almeria--sehir:302",
+   "arama:almeria:200"
+  ]
+ },
+ {
+  "ad": "Motril",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "motril:302",
+   "motril--sehir:302",
+   "arama:motril:200"
+  ]
+ },
+ {
+  "ad": "Mojácar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mojacar:302",
+   "mojacar--sehir:302",
+   "arama:mojacar:200"
+  ]
+ },
+ {
+  "ad": "Huelva",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "huelva:302",
+   "huelva--sehir:302",
+   "arama:huelva:200"
+  ]
+ },
+ {
+  "ad": "Lagos (Algarve)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lagos:200",
+   "lagos--sehir:302",
+   "algarve:302",
+   "algarve--sehir:302",
+   "arama:lagos:200",
+   "arama:algarve:200"
+  ]
+ },
+ {
+  "ad": "Faro",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "faro:302",
+   "faro--sehir:302",
+   "arama:faro:200"
+  ]
+ },
+ {
+  "ad": "Kebkâbiye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kebkabiye:302",
+   "kebkabiye--sehir:302",
+   "arama:kebkabiye:200"
+  ]
+ },
+ {
+  "ad": "Zâlincî",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zalinci:302",
+   "zalinci--sehir:302",
+   "arama:zalinci:200"
+  ]
+ },
+ {
+  "ad": "Tîne (Dârfûr)",
+  "sinif": "3",
+  "neden": "TDV `darfur` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "el-Arâiş (Larache)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "el-arais:302",
+   "el-arais--sehir:302",
+   "larache:302",
+   "larache--sehir:302",
+   "arama:el-arais:200",
+   "arama:larache:200"
+  ]
+ },
+ {
+  "ad": "Kasrülkebîr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kasrulkebir:302",
+   "kasrulkebir--sehir:302",
+   "arama:kasrulkebir:200"
+  ]
+ },
+ {
+  "ad": "Tâze (Taza)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "taze:302",
+   "taze--sehir:302",
+   "taza:302",
+   "taza--sehir:302",
+   "arama:taze:200",
+   "arama:taza:200"
+  ]
+ },
+ {
+  "ad": "Vecde (Oujda)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vecde:302",
+   "vecde--sehir:302",
+   "oujda:302",
+   "oujda--sehir:302",
+   "arama:vecde:200",
+   "arama:oujda:200"
+  ]
+ },
+ {
+  "ad": "Tarûdant",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tarudant:302",
+   "tarudant--sehir:302",
+   "arama:tarudant:200"
+  ]
+ },
+ {
+  "ad": "Vezzân (Ouezzane)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vezzan:302",
+   "vezzan--sehir:302",
+   "ouezzane:302",
+   "ouezzane--sehir:302",
+   "arama:vezzan:200",
+   "arama:ouezzane:200"
+  ]
+ },
+ {
+  "ad": "Bâdis (Peñón de Vélez)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "badis:302",
+   "badis--sehir:302",
+   "penon-de-velez:302",
+   "penon-de-velez--sehir:302",
+   "arama:badis:200",
+   "arama:penon-de-velez:200"
+  ]
+ },
+ {
+  "ad": "el-Hüseyme (Alhucemas)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "el-huseyme:302",
+   "el-huseyme--sehir:302",
+   "alhucemas:302",
+   "alhucemas--sehir:302",
+   "arama:el-huseyme:200",
+   "arama:alhucemas:200"
+  ]
+ },
+ {
+  "ad": "Mamûra (Mehdiye)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mamura:302",
+   "mamura--sehir:302",
+   "mehdiye:302",
+   "mehdiye--sehir:302",
+   "arama:mamura:200",
+   "arama:mehdiye:200"
+  ]
+ },
+ {
+  "ad": "Debdû",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "debdu:302",
+   "debdu--sehir:302",
+   "arama:debdu:200"
+  ]
+ },
+ {
+  "ad": "Fîgîg (Figuig)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "figig:302",
+   "figig--sehir:302",
+   "figuig:302",
+   "figuig--sehir:302",
+   "arama:figig:200",
+   "arama:figuig:200"
+  ]
+ },
+ {
+  "ad": "Zâgûre (Dr'a)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zagure:302",
+   "zagure--sehir:302",
+   "dra:302",
+   "dra--sehir:302",
+   "arama:zagure:200",
+   "arama:dra:200"
+  ]
+ },
+ {
+  "ad": "Verzâzât",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "verzazat:302",
+   "verzazat--sehir:302",
+   "arama:verzazat:200"
+  ]
+ },
+ {
+  "ad": "Tinğîr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tingir:302",
+   "tingir--sehir:302",
+   "arama:tingir:200"
+  ]
+ },
+ {
+  "ad": "Benî Mellâl",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "beni-mellal:302",
+   "beni-mellal--sehir:302",
+   "arama:beni-mellal:200"
+  ]
+ },
+ {
+  "ad": "Hunayfire (Khenifra)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hunayfire:302",
+   "hunayfire--sehir:302",
+   "khenifra:302",
+   "khenifra--sehir:302",
+   "arama:hunayfire:200",
+   "arama:khenifra:200"
+  ]
+ },
+ {
+  "ad": "Sefrû",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sefru:302",
+   "sefru--sehir:302",
+   "arama:sefru:200"
+  ]
+ },
+ {
+  "ad": "Îfnî (Sîdî İfnî)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ifni:302",
+   "ifni--sehir:302",
+   "sidi-ifni:302",
+   "sidi-ifni--sehir:302",
+   "arama:ifni:200",
+   "arama:sidi-ifni:200"
+  ]
+ },
+ {
+  "ad": "Tîznît",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tiznit:302",
+   "tiznit--sehir:302",
+   "arama:tiznit:200"
+  ]
+ },
+ {
+  "ad": "Ğulmîm (Vâdî Nûn)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gulmim:302",
+   "gulmim--sehir:302",
+   "vadi-nun:302",
+   "vadi-nun--sehir:302",
+   "arama:gulmim:200",
+   "arama:vadi-nun:200"
+  ]
+ },
+ {
+  "ad": "Tâtâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tata:302",
+   "tata--sehir:302",
+   "arama:tata:200"
+  ]
+ },
+ {
+  "ad": "Tîzî Vezzû (Kabiliye)",
+  "sinif": "3",
+  "neden": "TDV `kabiliye` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Akbû (Benî Abbâs)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "akbu:302",
+   "akbu--sehir:302",
+   "beni-abbas:302",
+   "beni-abbas--sehir:302",
+   "arama:akbu:200",
+   "arama:beni-abbas:200"
+  ]
+ },
+ {
+  "ad": "Tâhert (Tiaret)",
+  "sinif": "3",
+  "neden": "TDV `tahert` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Cilfe (Djelfa)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cilfe:302",
+   "cilfe--sehir:302",
+   "djelfa:302",
+   "djelfa--sehir:302",
+   "arama:cilfe:200",
+   "arama:djelfa:200"
+  ]
+ },
+ {
+  "ad": "Vargla (Ouargla)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vargla:302",
+   "vargla--sehir:302",
+   "ouargla:302",
+   "ouargla--sehir:302",
+   "arama:vargla:200",
+   "arama:ouargla:200"
+  ]
+ },
+ {
+  "ad": "el-Vâdî (Sûf)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "el-vadi:302",
+   "el-vadi--sehir:302",
+   "suf:302",
+   "suf--sehir:302",
+   "arama:el-vadi:200",
+   "arama:suf:200"
+  ]
+ },
+ {
+  "ad": "Hanşele (Khenchela)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hansele:302",
+   "hansele--sehir:302",
+   "khenchela:302",
+   "khenchela--sehir:302",
+   "arama:hansele:200",
+   "arama:khenchela:200"
+  ]
+ },
+ {
+  "ad": "Aynı Beydâ",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayni-beyda:302",
+   "ayni-beyda--sehir:302",
+   "arama:ayni-beyda:200"
+  ]
+ },
+ {
+  "ad": "Advâr (Tuvât)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "advar:302",
+   "advar--sehir:302",
+   "tuvat:302",
+   "tuvat--sehir:302",
+   "arama:advar:200",
+   "arama:tuvat:200"
+  ]
+ },
+ {
+  "ad": "Tîmîmûn (Gûrâre)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "timimun:302",
+   "timimun--sehir:302",
+   "gurare:302",
+   "gurare--sehir:302",
+   "arama:timimun:200",
+   "arama:gurare:200"
+  ]
+ },
+ {
+  "ad": "Aynı Sâlih (Tîdîkelt)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayni-salih:302",
+   "ayni-salih--sehir:302",
+   "tidikelt:302",
+   "tidikelt--sehir:302",
+   "arama:ayni-salih:200",
+   "arama:tidikelt:200"
+  ]
+ },
+ {
+  "ad": "Reggân",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "reggan:302",
+   "reggan--sehir:302",
+   "arama:reggan:200"
+  ]
+ },
+ {
+  "ad": "Benî Abbâs (Sâvre)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "beni-abbas:302",
+   "beni-abbas--sehir:302",
+   "savre:302",
+   "savre--sehir:302",
+   "arama:beni-abbas:200",
+   "arama:savre:200"
+  ]
+ },
+ {
+  "ad": "Beşşâr (Béchar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bessar:302",
+   "bessar--sehir:302",
+   "bechar:302",
+   "bechar--sehir:302",
+   "arama:bessar:200",
+   "arama:bechar:200"
+  ]
+ },
+ {
+  "ad": "Ğâru'l-Melh (Porto Farina)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "garul-melh:302",
+   "garul-melh--sehir:302",
+   "porto-farina:302",
+   "porto-farina--sehir:302",
+   "arama:garul-melh:200",
+   "arama:porto-farina:200"
+  ]
+ },
+ {
+  "ad": "Testûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "testur:302",
+   "testur--sehir:302",
+   "arama:testur:200"
+  ]
+ },
+ {
+  "ad": "Ğar Dimâv",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gar-dimav:302",
+   "gar-dimav--sehir:302",
+   "arama:gar-dimav:200"
+  ]
+ },
+ {
+  "ad": "Mekter (Maktar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mekter:302",
+   "mekter--sehir:302",
+   "maktar:302",
+   "maktar--sehir:302",
+   "arama:mekter:200",
+   "arama:maktar:200"
+  ]
+ },
+ {
+  "ad": "Sübaytıla",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "subaytila:302",
+   "subaytila--sehir:302",
+   "arama:subaytila:200"
+  ]
+ },
+ {
+  "ad": "Sîdî Bû Zeyd",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sidi-bu-zeyd:302",
+   "sidi-bu-zeyd--sehir:302",
+   "arama:sidi-bu-zeyd:200"
+  ]
+ },
+ {
+  "ad": "Metlâvî",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "metlavi:302",
+   "metlavi--sehir:302",
+   "arama:metlavi:200"
+  ]
+ },
+ {
+  "ad": "Kıbillî (Nefzâve)",
+  "sinif": "3",
+  "neden": "TDV `nefzave` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Dûz",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "duz:302",
+   "duz--sehir:302",
+   "arama:duz:200"
+  ]
+ },
+ {
+  "ad": "Terhûne",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "terhune:302",
+   "terhune--sehir:302",
+   "arama:terhune:200"
+  ]
+ },
+ {
+  "ad": "Kabâv (Nefûse)",
+  "sinif": "3",
+  "neden": "TDV `nefuse` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Sinâvin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sinavin:302",
+   "sinavin--sehir:302",
+   "arama:sinavin:200"
+  ]
+ },
+ {
+  "ad": "Derc (Derj)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "derc:302",
+   "derc--sehir:302",
+   "derj:302",
+   "derj--sehir:302",
+   "arama:derc:200",
+   "arama:derj:200"
+  ]
+ },
+ {
+  "ad": "Tâverğa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "taverga:302",
+   "taverga--sehir:302",
+   "arama:taverga:200"
+  ]
+ },
+ {
+  "ad": "Vaddân (Cufre)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vaddan:302",
+   "vaddan--sehir:302",
+   "cufre:302",
+   "cufre--sehir:302",
+   "arama:vaddan:200",
+   "arama:cufre:200"
+  ]
+ },
+ {
+  "ad": "Nûfiliye",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nufiliye:302",
+   "nufiliye--sehir:302",
+   "arama:nufiliye:200"
+  ]
+ },
+ {
+  "ad": "Tulmeyse",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tulmeyse:302",
+   "tulmeyse--sehir:302",
+   "arama:tulmeyse:200"
+  ]
+ },
+ {
+  "ad": "Ayn el-Ğazâle (Bomba)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayn-el-gazale:302",
+   "ayn-el-gazale--sehir:302",
+   "bomba:302",
+   "bomba--sehir:302",
+   "arama:ayn-el-gazale:200",
+   "arama:bomba:200"
+  ]
+ },
+ {
+  "ad": "Tırgan (Traghan)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tirgan:302",
+   "tirgan--sehir:302",
+   "traghan:302",
+   "traghan--sehir:302",
+   "arama:tirgan:200",
+   "arama:traghan:200"
+  ]
+ },
+ {
+  "ad": "Zevîle (Zawila)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zevile:302",
+   "zevile--sehir:302",
+   "zawila:302",
+   "zawila--sehir:302",
+   "arama:zevile:200",
+   "arama:zawila:200"
+  ]
+ },
+ {
+  "ad": "el-Katrûn",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "el-katrun:302",
+   "el-katrun--sehir:302",
+   "arama:el-katrun:200"
+  ]
+ },
+ {
+  "ad": "Valata (Oualata)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "valata:302",
+   "valata--sehir:302",
+   "oualata:302",
+   "oualata--sehir:302",
+   "arama:valata:200",
+   "arama:oualata:200"
+  ]
+ },
+ {
+  "ad": "Kano",
+  "sinif": "3",
+  "neden": "TDV `kano` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Katsina",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "katsina:302",
+   "katsina--sehir:302",
+   "arama:katsina:200"
+  ]
+ },
+ {
+  "ad": "Mao (Kanem)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mao:302",
+   "mao--sehir:302",
+   "kanem:302",
+   "kanem--sehir:302",
+   "arama:mao:200",
+   "arama:kanem:200"
+  ]
+ },
+ {
+  "ad": "Dikva (Dikeo)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dikva:302",
+   "dikva--sehir:302",
+   "dikeo:302",
+   "dikeo--sehir:302",
+   "arama:dikva:200",
+   "arama:dikeo:200"
+  ]
+ },
+ {
+  "ad": "Bilma",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bilma:302",
+   "bilma--sehir:302",
+   "arama:bilma:200"
+  ]
+ },
+ {
+  "ad": "Zinder",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zinder:302",
+   "zinder--sehir:302",
+   "arama:zinder:200"
+  ]
+ },
+ {
+  "ad": "İllîzî",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "illizi:302",
+   "illizi--sehir:302",
+   "arama:illizi:200"
+  ]
+ },
+ {
+  "ad": "Cânet (Djanet)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "canet:302",
+   "canet--sehir:302",
+   "djanet:302",
+   "djanet--sehir:302",
+   "arama:canet:200",
+   "arama:djanet:200"
+  ]
+ },
+ {
+  "ad": "İdeles",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ideles:302",
+   "ideles--sehir:302",
+   "arama:ideles:200"
+  ]
+ },
+ {
+  "ad": "Abalessa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "abalessa:302",
+   "abalessa--sehir:302",
+   "arama:abalessa:200"
+  ]
+ },
+ {
+  "ad": "Bardaî",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bardai:302",
+   "bardai--sehir:302",
+   "arama:bardai:200"
+  ]
+ },
+ {
+  "ad": "Vûr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vur:302",
+   "vur--sehir:302",
+   "arama:vur:200"
+  ]
+ },
+ {
+  "ad": "Zûâr",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zuar:302",
+   "zuar--sehir:302",
+   "arama:zuar:200"
+  ]
+ },
+ {
+  "ad": "Kidal",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kidal:302",
+   "kidal--sehir:302",
+   "arama:kidal:200"
+  ]
+ },
+ {
+  "ad": "Faya-Largeau",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "faya-largeau:302",
+   "faya-largeau--sehir:302",
+   "arama:faya-largeau:200"
+  ]
+ },
+ {
+  "ad": "Menaka",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "menaka:302",
+   "menaka--sehir:302",
+   "arama:menaka:200"
+  ]
+ },
+ {
+  "ad": "Tahoua",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tahoua:302",
+   "tahoua--sehir:302",
+   "arama:tahoua:200"
+  ]
+ },
+ {
+  "ad": "Filingue",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "filingue:302",
+   "filingue--sehir:302",
+   "arama:filingue:200"
+  ]
+ },
+ {
+  "ad": "Nguigmi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nguigmi:302",
+   "nguigmi--sehir:302",
+   "arama:nguigmi:200"
+  ]
+ },
+ {
+  "ad": "Tillaberi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tillaberi:302",
+   "tillaberi--sehir:302",
+   "arama:tillaberi:200"
+  ]
+ },
+ {
+  "ad": "Madaoua",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "madaoua:302",
+   "madaoua--sehir:302",
+   "arama:madaoua:200"
+  ]
+ },
+ {
+  "ad": "Tera",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tera:302",
+   "tera--sehir:302",
+   "arama:tera:200"
+  ]
+ },
+ {
+  "ad": "Birni-N'Konni",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "birni-nkonni:302",
+   "birni-nkonni--sehir:302",
+   "arama:birni-nkonni:200"
+  ]
+ },
+ {
+  "ad": "Albreda-Cufure",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "albreda-cufure:302",
+   "albreda-cufure--sehir:302",
+   "arama:albreda-cufure:200"
+  ]
+ },
+ {
+  "ad": "Ati",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ati:302",
+   "ati--sehir:302",
+   "arama:ati:200"
+  ]
+ },
+ {
+  "ad": "Say",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "say:200",
+   "say--sehir:302",
+   "arama:say:200"
+  ]
+ },
+ {
+  "ad": "Vagadugu (Ouagadougou)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vagadugu:302",
+   "vagadugu--sehir:302",
+   "ouagadougou:200",
+   "ouagadougou--sehir:302",
+   "arama:vagadugu:200",
+   "arama:ouagadougou:200"
+  ]
+ },
+ {
+  "ad": "Fada Ngurma (Gurma)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "fada-ngurma:302",
+   "fada-ngurma--sehir:302",
+   "gurma:302",
+   "gurma--sehir:302",
+   "arama:fada-ngurma:200",
+   "arama:gurma:200"
+  ]
+ }
+]

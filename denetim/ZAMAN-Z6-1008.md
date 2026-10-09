@@ -226,3 +226,102 @@ UYGUN DEĞİL (kaynak türü farklı) — ayrı karar.
 | **Toplam** | **846** | **2** | **67** | **3** | **774** | **%7,9** |
 Yama: `data/yer_yama_once1281_z6.js` · 67 kayıt · 122 ön-1281 dönem · 0 alıntı hatası · 0 künye aşımı.
 - Uygulayıcı kuru koşusu (67 kayıtla, yeniden): **51 ÇAKIŞMA** (inmiş eski yamalarla) · 16 temiz · çıkış 2 (önceden de vardı).
+
+## ① ÖNGÖRÜ — KUZEY AFRİKA (ölçümden ÖNCE, 2026-10-09)
+Kutu lat 12-37.5 · lon -18…24.5 (Mısır kutusu hariç). TDV Mağrib şehirlerini (Tunus, Kayrevan, Fas, Merakeş, Tilimsan,
+Bicâye…) ayrıntılı kapsar; hânedan zinciri Zîrî/Hammâdî → Murâbıt (1060-1147) → Muvahhid (1147-1269) → Hafsî/Merînî/Zeyyânî.
+| Soru | Öngörü | Mekanizma |
+|---|---|---|
+| ② sıkı zincir | **15-25** | Muvahhid→ardıl geçişleri (Hafsî 1229, Zeyyânî 1236, Merînî 1269) şehir maddelerinde tarihli; künyeler var mı belirsiz |
+| künyesi olmayan sahip | sık | Murâbıt/Muvahhid/Hammâdî künyesi `devletler.js`te yoksa zincir orada kesilir |
+| ① 1281 sonrası kuruluş | ~3 | |
+
+## ② KUZEY AFRİKA — ölçüm (kutu 200 nokta — Sahra/Sahel kuzeyi dahil, TAMAMI okundu)
+| Kova | Sayı | Öngörü |
+|---|---|---|
+| TDV yer maddesi bulunan | 31 | — |
+| **① 1281 sonrası kuruluş** | **0** | ~3 ❌ |
+| **② sıkı zincir → diff** | **9** — Girit(Resmo) · Tunus · Tilimsan · Fas · Merakeş · Rabat · Tanca · Sebte · Sicilmâse | 15-25 ❌ |
+| **③ kaynak yok** | **191** (169 madde yok · 14 madde var cümle yok · 5 kopuk · 3 bölge/ihtimal) | |
+⇒ %4,5. Öngörü niye ıskaladı: kutunun 200 noktasının yalnız **31'inin** TDV yer maddesi var (Sahra/Libya iç kesim ve
+küçük kasabalar); zincir ise **Muvahhid künyesinin 1269'da bitmesiyle** Tanca/Sebte'de kopuyor (1269-1273 sahibi yok).
+### Künye/kaynak farkları (Z3'e)
+- `hafsi` künyesi 1229-01-01 · TDV tunus Hafsî'nin Tunus'a girişini **625/1228**'e koyar (1 yıl).
+- `zeyyani` künyesi 1236-01-01 · TDV tilimsan hânedanın kuruluşunu **632/1235**'e koyar (1 yıl).
+  ⇒ İki kayıtta da künye günü devralındı (kaynaksız gün, fark beyanlı).
+- **Malta:** atlas 1281'de `napoli`, oysa `napoli` künyesi **1282-03-30**'da başlar — mevcut veride künye aşımı (yan bulgu).
+
+## ① ÖNGÖRÜ — ARABİSTAN (84) + HİNT (133) (ölçümden ÖNCE, 2026-10-09)
+| Soru | Öngörü | Mekanizma |
+|---|---|---|
+| Arabistan ② | **3-8** | Hicaz/Yemen şehirleri TDV'de var; Eyyûbî Yemen (1174) → Resûlî (1229) zinciri tarihli olabilir, ama Necd/Körfez kasabaları yok |
+| Hint ② | **5-12** | Delhi Sultanlığı fetihleri (1192-1206 Gurlu/Kutbüddin Aybeg, 1290 öncesi) şehir maddelerinde tarihli; Güney Hint (Çola/Pandya) TDV'de zayıf |
+| TDV maddesi bulunan | Arabistan ~25 · Hint ~35 | |
+
+## ② ARABİSTAN (84) + HİNT (133) — ölçüm (TAMAMI okundu)
+| Kova | Arabistan | Hint | Öngörü |
+|---|---|---|---|
+| TDV yer maddesi bulunan | 17 | 22 | ~25 · ~35 ❌ |
+| **② → diff** | **0** | **4** — Delhi · Koil (Aligarh) · Ecmîr (Ajmer) · Lahor | 3-8 ❌ · 5-12 ❌ |
+| ③ | 84 | 129 | |
+Arabistan'da ② 0'ın sebebi bir YAN BULGU: Yemen zincirleri (Zebîd 1174 Eyyûbî · Sana 1229 Resûlî) 1281'deki mevcut
+sahibe bağlanmıyor, çünkü atlas Tihâme ve Aden'i 1281'de `yemen` = **yemen-zeydi** (Zeydî imamlık) boyuyor; oysa
+`resuli` künyesi (1229-1454) VAR ve hiç kullanılmamış. Hicaz şehirleri (Mekke/Medine) tâbiiyet cümleleri — sahiplik değil.
+Hint'te Gurlu → Delhi Sultanlığı ARDIL geçişi künye günüyle (1206-01-01) devralındı (beyanlı).
+
+---
+# 🟢 TESLİM ÖZETİ (Z6, 9 Ekim 2026)
+
+## Toplam — 1263 nokta, TAMAMI okundu
+| Dilim | Nokta | ① | **②** | ②z | ③k | ③b | ③y | ③ (madde yok/cümle yok) | ② % |
+|---|---|---|---|---|---|---|---|---|---|
+| Anadolu | 301 | 2 | **35** | 2 | 25 | 25 | 6 | 206 | 11,6 |
+| Balkan | 276 | 0 | **7** | 0 | 23 | 21 | 1 | 224 | 2,5 |
+| Ortadoğu | 131 | 0 | **11** | 0 | 15 | 5 | 0 | 100 | 8,4 |
+| İran-Mâverâünnehir-Kafkas | 138 | 0 | **14** | 1 | 6 | 5 | 1 | 111 | 10,1 |
+| Kuzey Afrika | 200 | 0 | **9** | 0 | 5 | 3 | 0 | 183 | 4,5 |
+| Arabistan + Hint | 217 | 0 | **4** | 0 | 8 | 4 | 0 | 201 | 1,8 |
+| **TOPLAM** | **1263** | **2** | **80** | **3** | **82** | **63** | **8** | **1025** | **6,3** |
+Kova anahtarı: ① kaynakta 1281 sonrası kuruluş · ② kaynakta okunan 1000-1281 sahibi, 1281'e KESİNTİSİZ bağlı (diff'te) ·
+②z tanık var, süreklilik çürük (diff'te DEĞİL) · ③k tarihli tanık var, zincir kopuk · ③b bölge/yöre/ihtimal/saltanat
+aralığı/sahiplik demeyen cümle (D208) · ③y yanlış madde · ③ TDV yer maddesi yok ya da 1000-1280 tarihli cümle yok.
+
+## Ölçek cevabı (koordinatörün ilk sorusu)
+**Geri yönün işi 2526 nokta DEĞİL.** Sıkı kuralla TDV'nin güçlü olduğu coğrafyada (İslâm dünyası + komşuları) okunan
+1263 noktanın **80'i (%6,3)** geriye uzar. Duvarın kalan **1188** noktası (Batı/Kuzey/Doğu Avrupa · Çin-Kore-Japonya ·
+Amerika · Sahra-altı · GD Asya · İç Asya) ölçülmedi ve TDV yöntemiyle ÖLÇÜLEMEZ (kaynak türü farklı).
+⇒ Ufuk 1000'e açılırsa bugünkü veriyle duvar noktalarının ~%95'i 1000-1281 arasında **sahipsiz** kalır (Değişmez 1).
+
+## Yama
+`data/yer_yama_once1281_z6.js` · `window.YER_YAMA_ONCE1281_Z6` · **80 kayıt · 142 ön-1281 dönem**
+- Alıntılar 142/142 TDV gövdesinde birebir (alt dizgi sınavı) · künye aşımı 0 · `git apply --check` temiz · CR 0.
+- **24 dönem "kaynaksız gün"** (künye günü devralındı, her birinde beyan): Moğol→İlhanlı/Çağatay/Altın Orda ve
+  Gurlu→Delhi ardıl geçişleri, İznik/Latin/Atina 1204-1205, Hafsî/Zeyyânî 1 yıl farkları.
+- Kuru koşu: 80 kaydın **51'i ÇAKIŞMA** (inmiş eski yamalarla — glob dışına taşıma koordinatörde) · çıkış 2 önceden de var.
+- **Boya borcu:** 20 dönem / 19 nokta boyasız künyede — `mogol-imparatorlugu` 16 · `antakya-prinkipsligi` 2 · `eyyubi` 1 · `abbasi` 1.
+
+## ③ Ne bulamadım
+- 1025 noktanın TDV yer maddesi yok ya da 1000-1280 tarihli cümlesi yok. İkinci ad varyantı / kapsayıcı madde (§4
+  "olay değil yer-kişi") denenmedi — bir sonraki tur bunu yapabilir (0930'un önerisi: Ani→kars, Otrar→farab).
+- 82 kopuk zincirin eksik halkası (tarihsiz el değiştirme) — başka kaynak (akademik) gerektirir.
+- 1188 kutu dışı nokta ölçülmedi.
+
+## ④ Ne istiyorum
+1. **Yamayı uygula** — önce inmiş eski yamaların glob dışına taşınması (51 çakışma onu bekliyor). 29 kayıt bugün temiz.
+2. **Z3'e:** `mogol-imparatorlugu` boyası (16 dönem) · Kahire künye çelişkisi (TDV 650/1252 ↔ memluk 1250/eyyubi 1250-04-30) ·
+   `hafsi` 1228↔1229 · `zeyyani` 1235↔1236 · `ahlatsahlar` t 1208 ↔ TDV bitlis 1209.
+3. **1281 SONRASI düzeltmeleri (0085 gruplarına)** — en ağırdan: Levant Haçlı şehirleri (Trablusşam · Akkâ · Sayda ·
+   Beyrut) ve Hama 1281'de MEMLÜK yazılı, künyeleri var · Tihâme/Aden 1281'de Zeydî (`resuli` kullanılmamış) ·
+   Korfu/Draç Venedik (TDV Anjou) · Patras Bizans (TDV Frank) · Alaşehir Selçuklu (TDV Bizans) · Alanya Karaman ·
+   Diyarbakır · Malta napoli (künye 1282'de başlar) · Çanakkale/Uzunköprü kuruluş öncesi boyanıyor.
+4. **Ufuk kararı için (Z1):** 1000'e açmak bugünkü veriyle ölçülmüş olarak yetersiz; 1281 öncesi boyalı alan yalnız
+   80 noktanın petekleri olur. Ufuk ancak (a) ③'ün ikinci tur aramaları ve (b) TDV dışı bölgeler için kaynak kararı
+   sonrasında anlamlıdır.
+
+## Dosyalar (`C:\atlas-umit\denetim\`)
+ZAMAN-Z6-1008.md (bu rapor) · ZAMAN-Z6-1008-KOORD.diff (yeni dosya data/yer_yama_once1281_z6.js) ·
+ZAMAN-Z6-KARAR-{anadolu,balkan,ortadogu,irankafkas,kuzeyafrika,arabhint}.json (elle kararlar) ·
+ZAMAN-Z6-{…}-sinif.json (1263 noktanın sınıfı) · ZAMAN-Z6-{…}-tablo.md (kaynak + gerekçe tabloları) ·
+ZAMAN-Z6-{anadolu,balkan,suriye,irak,misir,ortadogu,iran,maveraunnehir,kafkas,irankafkas,kuzeyafrika,arabistan,hint,arabhint}-ham.json ·
+ARAC-ZAMAN-Z6-1008.py (ölçüm + TDV çekme) · ARAC-ZAMAN-Z6-URET-1008.py (yama üretimi + sınav) · ARAC-ZAMAN-Z6-TABLO-1008.py ·
+ZAMAN-Z6-tdv/ (TDV önbelleği).

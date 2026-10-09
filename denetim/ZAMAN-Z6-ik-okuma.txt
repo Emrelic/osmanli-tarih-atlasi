@@ -1,0 +1,181 @@
+
+### iran:0 Tebriz [tebriz] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1054] | Tebriz, Revvâdî Emîri Ebû Mansûr ve bazı mahallî hükümdarlarla birlikte Azerbaycan’a gelen Sultan Tuğrul Bey’e itaatini bildirdi ve Selçuklu hâkimiyetine girdi (446/1054).
+  [1059, 1062] | 451’de (1059) Revvâdîler’den Ebû Nasr Memlân’ın isyanı yüzünden ertesi yıl Tebriz’i kuşatan Tuğrul Bey başarılı olamadıysa da 454’te (1062) şehri yeniden Selçuklu topraklarına kattı.
+  [1174, 1186] | Bir süre Ahmedîlîler’in hâkimiyetine giren Tebriz’i barış yoluyla alan İldenizli atabeglerinden Pehlivan şehri kardeşi Kızılarslan’a verdi (570/1174) (İbnü’l-Esîr, XI, 339), o da burayı Azerbaycan’ın merkezi haline getirdi (581/1186).
+  [1231, 1256] | 628 (1231) yılında Moğol işgaline uğrayan Tebriz’i Argun Han askerî faaliyetleri için merkez yaptı ve Hülâgû’nun 1256’da gelişiyle Hülâgû Han tahtı diye nitelendirildi; idarî-siyasî merkez oldu.
+  [1144] | Hekimoğlu Ali Paşa’nın 15 Cemâziyelevvel 1144’te (15 Kasım 1731) yeniden ele geçirdiği şehir 1736 antlaşmasıyla İran’a bırakıldı.
+
+### iran:1 Nahçıvan [nahcivan] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1092, 1174] | 485’te (1092) Melikşah’ın ölümünün ardından bir süre daha Selçuklu Devleti’ne bağlı kaldıysa da Selçuklular’ın dağılmasıyla onların arazileri üzerinde ortaya çıkan İldenizliler Devleti’ne katıldı ve 570 (1174) yılına kadar İldenizliler’in merkezi oldu.
+  [1221] | Nahcıvan’ın gerilemesi Moğollar’ın 618’de (1221) burayı ele geçirmesinden sonra başladı.
+  [1136, 1136] | 1136-1137’de (1723-1724) Kafkasya bölgesi Rusya ve Osmanlı Devleti tarafından zaptedildi ve Şevval 1136’da (Temmuz 1724) İstanbul’da imzalanan antlaşmaya göre Safevîler’in Hazar denizi bölgesi Rusya’ya, Tiflis, Revan, Gence-Karabağ, Tebriz, Erdebil eyaletleri Osmanlı Devleti’ne verildi.
+
+### iran:3 Isfahan [isfahan] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1045] | Nîşâbûr, Rey, Kazvin ve Zencan gibi İran’ın önemli merkezlerini kısa sürede ele geçiren Selçuklu Hükümdarı Tuğrul Bey, güneye yönelerek 437 (1045-46) yılında Kâkûyîler’den Ebû Mansûr Ferâmurz’un elinde bulunan İsfahan’ı kuşattı.
+  [1042] | Ancak Ferâmurz’un daha 434’ten (1042-43) itibaren İsfahan’da bastırdığı sikkelerde “es-sultânü’l-muazzam Tuğrul Beg” ibaresini ve Selçuklu hâkimiyet alâmeti olan okyay motifini kullanmak suretiyle Tuğrul Bey’i metbû tanıdığı görülmektedir.
+  [1050, 1051] | Tuğrul Bey’in ikinci askerî harekâtı 442 (1050) yılında vuku buldu ve İsfahan uzun bir kuşatmanın ardından sulhen ele geçirildi (443/1051).
+  [1118] | Muhammed Tapar’ın yerine oğlu Mahmud geçtiyse de ağabeylerinin dönemlerinde Horasan meliki olan Sultan Melikşah’ın küçük oğlu Sencer ona karşı çıkarak aralarında cereyan eden Sâve Savaşı’nda galip geldi ve yeğenini, kendisini Büyük Selçuklu sultanı tanıması şartıyla başşehri İsfahan olmak üzere yeni kurduğu Irak Selçukluları’nın başına geçirdi; imparatorluk 
+  [1235] | Böylece İsfahan yine Moğol istilâsından kurtulduysa da 633’te (1235-36) kurtulamadı.
+  [1042, 1051] | 1042-1043’ten itibaren Tuğrul Bey’e tâbi olan şehirde Selçuklular’ın tam hâkimiyeti 1051’de başlamış ve geniş bir imar faaliyetine sahne olmuştur.
+  [1194, 1235] | 1194’te Hârizmşahlar’ın ve 1235-1236’da Moğollar’ın eline geçen İsfahan, İlhanlı devrinde önemli bir gelişme göstermiştir.
+
+### iran:4 Erdebil [erdebil] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1210] | 1209 veya 1210 yılında Gürcü ordusu Erdebil’e saldırarak yerli sultanı katletti ve ailesini esir edip 12.000’e yakın müslümanı öldürdü.
+  [1220] | Moğollar’dan kaçıp 617’de (1220) Horasan’dan Erdebil’e sığınan Yâkūt el-Hamevî, şehri terkettikten kısa bir süre sonra Moğollar’ın oraya da saldırdıklarını yazar.
+
+### iran:6 Şiraz [siraz] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1056, 1062] | Şehir 448’de (1056) Fülâd Sütûn’u mağlûp ederek öldüren Şebânkâre Emîri Fazlûye’nin, 454 (1062) yılında Selçuklu hânedanından Kirman hâkimi Kavurd Bey’in idaresine girdi.
+  [1071] | Ancak Fazlûye, Selçuklu hâkimiyetine karşı isyan etti ve yakalanarak öldürüldü (464/1071).
+  [1148] | Mevdûd’un hâkimiyetine girdi (543/1148).
+  [1180] | Zend hânedanının kurucusu Kerim Han Zend, Şîraz’ı 1180’de (1766-67) başşehir haline getirdi ve imar etti.
+
+### iran:7 Kazvin [kazvin] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1029] | Şehir 318’de (930) Büveyhîler’in, 420’de de (1029) Gazneliler’in idaresine girdi.
+
+### iran:8 Kum [kum] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### iran:9 Urmiye [urmiye] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1226] | Celâleddin Hârizmşah, Ahlat’ı kuşattığı sırada Urmiye ve Hoy civarındaki Yıva Türkmenleri’nin Azerbaycan’da karışıklıklar çıkardığını duyunca 623’te (1226) Azerbaycan’a dönüp bölgedeki Türkmenleri dağıttı.
+
+### iran:11 Kirman [kirman] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1032] | Mesud tarafından 423’te (1032) zaptedildi ve bir süre Gazneliler’in hâkimiyetinde kaldı.
+  [1042, 1048] | Buraya yönelik ilk akınlarını 434 (1042-43) yılında başlatan Kavurd, daha sonra o sıralarda Büveyhîler’in hâkimiyeti altında bulunan Kuzey Kirman’ı (Serdsîr) fethederek Kirman Selçuklu Devleti’ni kurdu (440/1048).
+  [1187, 1222] | 583’te (1187) Kirman Selçuklu Devleti’ne son veren Oğuz Beyi Melik Dînâr bölgeyi ele geçirdi; ardından Karahıtay asıllı Barak Hâcib 619’da (1222) buraya hâkim oldu ve Kutluğhanlılar adıyla bilinen hânedanı kurdu.
+  [1257] | 1282’de bölgeden geçen Marco Polo buranın önemli bir silâh üretim merkezi olduğunu ve Kutluğ Terken Hatun döneminde (1257-1283) çok müreffeh bir hayat yaşadığını yazar.
+
+### iran:12 Yezd [yezd] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1030] | Rüstem Düşmenziyâr, Yezd’i ele geçirerek kendi adına para bastırdı (421/1030).
+  [1041] | Onun ölümünden (1041) sonra yerine oğlu Ebû Mansûr Ferâmurz geçti.
+
+### iran:17 Merâga [meraga] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1054] | Abbâsîler’den sonra Merâga sırasıyla Sâcoğulları, Büveyhîler, Deylemîler ve Revvâdîler’in, 446’da (1054-55) Selçuklular’ın hâkimiyetine girdi.
+  [1146] | Merâga, Ahmedîlîler’den Nusretüddin Arslanapa zamanında Sultan Mesud tarafından kuşatılarak ele geçirildi ve surları yıktırıldı (541/1146-47).
+  [1205] | 602’de (1205-1206) İldenizliler’den Atabeg Ebû Bekir, Merâga üzerine yürüyünce Ahmedîlîler’den Alâeddin Körpearslan kaleyi ona bırakmak zorunda kaldı.
+  [1207, 1208] | Alâeddin Körpearslan’ın 604’te (1207-1208) ölümü üzerine Atabeg Ebû Bekir 605’te (1208-1209) Merâga’nın geri kalan topraklarını da zaptetti.
+  [1231] | Şehir 628’de (1231) Moğollar tarafından ikinci defa ele geçirildi ve halkı yine katliama uğratıldı.
+
+### iran:18 Hoy [hoy] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+
+### iran:21 Ahar (Karadağ) [karadag] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1077] | Prenslik 1077’de bir krallık haline geldi.
+  [1101] | 1101’den sonra devlet anarşi içine düştü, böylece Zeta Sırp ve Bizans hâkimiyeti arasında sürekli el değiştirdi.
+  [1189] | 1189 yılında Sırbistan hâkimiyetini sağlamlaştırdı, fakat Zeta’ya bir tür özel statü tanındı.
+
+### iran:25 Kâşân [kasan] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### iran:27 Simnân [simnan] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1221] | 618’de (1221) kerpiç surlarla çevrili Simnân’a giren Moğollar şehri yağmalayıp tahrip ederek pek çok kişiyi öldürdüler; Yâkūt el-Hamevî, buranın harabe halinde olduğunu söyler ( Muʿcemü’l-büldân , III, 285).
+
+### iran:34 Şüşter [suster] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### iran:35 Ahvaz [ahvaz] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### iran:59 Zerenc (Sîstan) [zerenc] ilk={'f': '1281-01-01', 't': '1337-09-09', 'd': 'ilhanli'}
+  [1003, 1040] | Sâmânîler’in yıkılışıyla Zerenc 393’te (1003) Gazneliler’in, 432’de (1040) Selçuklular’ın eline geçti.
+  [1228, 1233, 1235] | (XIII.) yüzyılda başlayan Moğol istilâsına karşı Zerenc halkı Hârizmşahlar ordusunda mücadele ettiyse de 625 (1228), 630 (1233) ve 632’de (1235) bölgeye gelen Moğollar neredeyse bütün halkı kılıçtan geçirip Zerenc’de büyük bir tahribatta bulundular ( Târîḫ-i Sîstân , s.
+
+### iran:61 Tûs [tus] ilk={'f': '1281-01-01', 't': '1337-09-09', 'd': 'ilhanli'}
+  [1000] | (XIII.) yüzyıl müellifi Yâkūt el-Hamevî, Tûs’un Nîşâbur’a 10 fersah (yaklaşık 60 km.) mesafede yer aldığını, Tâberân, Nûkān adlı iki kasaba ve 1000’den fazla köyünün olduğunu yazar.
+  [1072] | 465’te (1072) Selçuklu Sultanı Melikşah, Nizâmülmülk’e aralarında doğum yeri olan Tûs’un da bulunduğu bazı yerleri iktâ etti (Özaydın, s.
+  [1221] | 618 (1221) yılı ilkbaharında Tuluy Han, Merv’den hareket edip Tûs’un bütün köylerini ele geçirdi ve halkını öldürdü.
+
+### iran:70 Lâhîcan [lahican] ilk={'f': '1281-01-01', 't': '1371-01-01', 'd': 'ilhanli'}
+
+### iran:74 Bârfurûş (Bâbil) [babil] ilk={'f': '1281-01-01', 't': '1359-01-01', 'd': 'ilhanli'}
+
+### iran:76 Esterâbâd (Gürgân) [esterabad] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1140] | yüzyılda Bâvendîler’den Şah Gazi Rüstem’in (1140-1163) yönetimine girdi.
+
+### iran:81 Katîf [katif] ilk={'f': '1281-01-01', 't': '1417-01-01', 'd': 'usfuri'}
+
+### iran:83 Cübeyl [cubeyl] ilk={'f': '1281-01-01', 't': '1417-01-01', 'd': 'usfuri'}
+
+### iran:85 Şârika [sarika] ilk={'f': '1281-01-01', 't': '1515-04-01', 'd': 'nebhani'}
+
+### iran:89 Herat [herat] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1001] | Nûh Herat’ı geri almak istediyse de başaramadı (391/1001).
+  [1031, 1037] | 422’de (1031) şehri işgal eden Selçuklular daha sonra Ferâvâ’da ağır kayıplar vererek geri çekildiler; 428’de (1037) başlattıkları kuşatmayı da özellikle iç kalenin ve müstahkem varoşlarda oturan ahalinin mukavemeti karşısında kaldırmak zorunda kaldılar.
+  [1041] | Mevdûd zamanında (1041-1049) tekrar Gazneli hâkimiyetine girdi.
+  [1157] | Herat Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın hâkimiyetine girdi.
+  [1164] | Emîr Ay Tegin’in ölümü üzerine ise Herat halk tarafından Sencer’in eski kumandanlarından Müeyyed Ay-aba’ya teslim edildi (559/1164).
+  [1175, 1208, 1221] | Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.
+  [1244, 1255] | Moğollar’ın 642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri ve bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu.
+
+### maveraunnehir:0 Serahs [serahs] ilk={'f': '1281-01-01', 't': '1337-09-09', 'd': 'ilhanli'}
+  [1038] | Gazneliler’in onları bu topraklardan atmak maksadıyla yaptıkları savaşlardan biri 429 (1038) yılında Serahs yakınlarındaki Talhâb yöresinde meydana geldi.
+  [1157, 1193] | 552 (1157) yılında Sultan Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması sonucunda Serahs bir süre Oğuzlar’ın elinde kaldı; ardından bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193).
+  [1221] | Bütün Horasan şehirleri gibi Serahs da 618’de (1221) Moğol istilâsına mâruz kaldı ve Cengiz Han’ın oğlu Tuluy Han tarafından teslim alındı.
+  [1221] | 1221 yılından sonraki Moğol istilâsında da büyük ölçüde tahrip edilen kale Timurlu döneminde Şâhruh’un emriyle yeniden onarılmış ve bir süre daha işlevini sürdürmüştür.
+
+### maveraunnehir:3 Merv (Mari) [merv] ilk={'f': '1281-01-01', 't': '1337-09-09', 'd': 'ilhanli'}
+  [1040] | Şehir, Dandanakan Savaşı’nın (431/1040) ardından yapılan kurultayın kararıyla Doğu Horasan’ın hâkimiyetini eline alan Çağrı Bey’in idare merkezi oldu.
+  [1063] | Alparslan’ın Selçuklu tahtına geçmesiyle birlikte (455/1063) şehir Horasan’ın idaresiyle görevlendirilen Selçuklu şehzadelerinin merkezi haline geldi.
+  [1119] | Tapar’ın vefatından sonra gelişen olaylarda Sencer’in Selçuklu tahtına müdahalesi ve Sâve savaşıyla (513/1119) hâkimiyeti ele geçirmesinin ardından Büyük Selçuklu İmparatorluğu’nun başşehri oldu.
+  [1141] | Sultan Sencer’in Karahıtaylar karşısında uğradığı Katvân felâketinin (536/1141) ardından yaklaşık bir yıl uzak kaldığı Merv bu sırada Hârizmşah Atsız’ın hâkimiyetine girdi.
+  [1153] | Sultan Sencer bir yıl sonra yeniden şehre hâkim oldu ve 548’de (1153) Oğuzlar’a yenilip esir düşünceye kadar on bir yıl daha burada oturdu.
+  [1221] | Oğuzlar’ın ardından önce Hârizmşah Alâeddin Tekiş’e isyan eden kardeşi Sultan Şah’ın ve daha sonra kısa bir süre için Gurlular’ın ve tekrar Hârizmşahlar’ın hâkimiyetine giren Merv, Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip edildiği gibi (1221) halkı da kılıçtan geçirildi (Cüveynî, I, 127-132).
+  [1095, 1153, 1220] | yüzyıllar yerleşmesini çeviren kale 1095’te Arslan Argun, 1153’te Oğuzlar tarafında tahrip edilmiş, fakat 1220-1221’deki Moğol istilâsına kadar her defasında yeniden onarılarak kullanılmıştır.
+
+### maveraunnehir:4 Kaşgar [kasgar] ilk={'f': '1281-01-01', 't': '1347-01-01', 'd': 'cagatay'}
+  [1128] | Karahıtaylar, 1128’deki ilk saldırılarında Kâşgar’ı alamadılarsa da iki yıl sonra Balasagun ve Hoten ile birlikte burayı da zaptettiler.
+  [1218] | Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.
+
+### maveraunnehir:5 Semerkant [semerkant] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+  [1220] | Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.
+  [1046] | (XI.) yüzyılın ilk yarısında hânedan mensuplarının mücadelelerine sahne olan şehir devletin 1046’da ikiye bölünmesi sırasında Batı Karahanlılar’da kaldı.
+  [1074, 1089] | 467 (1074) ve 482’de (1089) Büyük Selçuklu Sultanı Melikşah tarafından hâkimiyet altına alınan Semerkant XIII.
+  [1066] | Nemzova tarafından 1969, 1972 yıllarında kazıları yapılan ve Tamgaç Han tarafından 458’de (1066) inşa ettirilmiş tuğladan dört eyvanlı bir avluya sahip olduğu anlaşılan bir medresenin kalıntıları burada açığa çıkarılmıştır.
+
+### maveraunnehir:6 Buhara [buhara] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+
+### maveraunnehir:13 Taşkent [taskent] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+  [1220] | (XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.
+
+### maveraunnehir:14 Hokand [hokand] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+
+### maveraunnehir:17 Hucend [hucend] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+  [1015] | Hucend, Karahanlı Hükümdarı Arslan İlig (1015-1024) tarafından ele geçirildiğinde önemli bir şehirdi.
+  [1219] | Moğol saldırıları esnasında Cengiz Han’ın yolladığı 75.000 kişilik ordu karşısında tutunamayan Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219).
+
+### maveraunnehir:18 Türkistan (Yesi) [turkistan] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+  [1212] | 840’ta kurulup 1212’de Hârizmşahlar’ın darbesiyle varlığını kaybeden Karahanlılar, İslâmiyet’ten sonra önemli bölümü Doğu Türkistan’da olan ilk büyük Türk devletidir.
+
+### maveraunnehir:19 Çimkent [cimkent] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+
+### maveraunnehir:20 Belh [belh] ilk={'f': '1281-01-01', 't': '1370-04-09', 'd': 'cagatay'}
+  [1040, 1043] | Dandanakan Savaşı (1040) sonunda geçici bir süre için Selçuklular’ın elinde kaldı; sürekli Selçuklu egemenliğine ise Gazneliler’den Mevdûd döneminde girdi (1043).
+  [1118] | Sultan Sencer döneminde (1118-1157) İmâdüddin Kamaç adında bir valinin yönettiği Belh parlaklığını korudu.
+  [1152] | 1152’de Gurlular’dan Alâeddin Hüseyin Belh’i aldı.
+  [1198] | Muhammed, Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198) ve Gurlu Devleti topraklarına kattı.
+  [1205] | Daha sonra Belh’i Gurlular’ın düşmanı Hârizmşah Alâeddin aldı (1205) ve vali olarak Türk kumandanı Çağrı’yı (veya Câfer) tayin etti.
+  [1221] | 1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.
+
+### maveraunnehir:21 Balasagun (Ak-Beşim) [balasagun] ilk={'f': '1281-01-01', 't': '1347-01-01', 'd': 'cagatay'}
+  [1130] | Bu sırada Gürhan Balasagun’u ele geçirdi (1130) ve orayı merkez yaptı.
+  [1210] | Bunun üzerine Karahıtay kuvvetleri Ağustos-Eylül 1210’da şehri kuşattılar ve kısa sürede içeri girdiler.
+  [1218] | Cengiz hânedanı ile akrabalık kurulmuş (1218), Almalığ Meliki Buzar Han burayı da birlikte yönetmiştir.
+
+### kafkas:2 Gence [gence] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1054] | Gence’ye hâkim olan Şeddâdîler 1054’te Selçuklu Sultanı Tuğrul Bey’e tâbi olmak zorunda kaldılar.
+  [1067] | 1067 yılında Gürcistan seferinden dönen Alparslan bir süre Gence’de kaldı.
+  [1093] | Şehir 486’da (1093) Sultan Berkyaruk tarafından Muhammed Tapar’a iktâ olarak verildi.
+  [1139] | 1139’da büyük bir deprem sonucunda Gence geniş tahribata mâruz kaldı.
+  [1127] | 521’de (1127) Gence ve Arrân, Selçuklu valileri Karasungur ve Çavlı’nın idaresindeydi.
+  [1166] | Georgi 1162 ve 1166’da Gence’yi zaptederek yağmalamış ve birçok esir götürmüştü.
+  [1221] | Gence 1221’de Moğollar’ın saldırılarına hedef oldu.
+  [1225] | Ardından Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı.
+  [1235] | Bunun hemen ardından yeniden Azerbaycan’a gelen Moğollar 1235’te Gence’yi aldılar ve kendilerine sert bir şekilde direnen şehir halkını kılıçtan geçirdikleri gibi şehri de yakıp yıktılar.
+
+### kafkas:4 Bakü [baku] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### kafkas:5 Derbend [derbend--dagistan] ilk={'f': '1281-01-01', 't': '1382-01-01', 'd': 'altinorda'}
+  [1222, 1239] | 1222’de ilk Moğol işgalinin ardından 1239’da doğrudan Moğol idaresi altına giren Derbend, XIII.
+  [1154] | İran’da Afşar hânedanının kurucusu Nâdir Şah 1147 (1734-35) ve 1154-1155’te (1741-1742) Kafkasya’da hâkimiyet kurabilmek için Derbend ve Dağıstan’ın diğer bölgelerine seferler yaptı.
+
+### kafkas:9 Kuba [kuba--azerbaycan] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### kafkas:10 Şeki (Nuha) [seki] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1016] | Abbas, Safer 1016’da (Haziran 1607) Şirvan’a hâkim oldu ve Kahetya Kralı II.
+
+### kafkas:11 Berde (Karabağ) [karabag] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}

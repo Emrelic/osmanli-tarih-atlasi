@@ -1,0 +1,31 @@
+[
+ {"ad":"Girit (Resmo)","sinif":"2","zincir":[
+   {"f":"1204-08-12","d":"venedik","slug":"girit","parca":"12 Ağustos 1204’te yapılan bir anlaşma ile Girit’i 100.000 gümüş karşılığında Venedikliler’e bıraktı","not":"⚠️ cümle ADAYI tarihliyor, nokta Resmo (adanın temsilî noktası) — ada bütünü bir siyasî birim olduğu için alındı; 1206-1211 Ceneviz (Pescatore) dönemi bu maddede tarihsiz"}]},
+ {"ad":"Tunus","sinif":"2","zincir":[
+   {"f":"1229-01-01","d":"hafsi","slug":"tunus","parca":"625 (1228) yılında şehre girip İfrîkıye’nin tamamına hâkim oldu","not":"kaynak 625/1228 der; hafsi künyesi 1229-01-01'de başladığından künye günü DEVRALINDI — kaynaksız gün, ve kaynakla 1 yıl FARK (Z3'e: künye 1228'e çekilebilir mi). 1158 Muvahhid · 1184 Benî Gâniye · 'üç yıl sonra' geri alış zinciri künyesiz Benî Gâniye yüzünden kopuk"}]},
+ {"ad":"Tilimsan","sinif":"2","zincir":[
+   {"f":"1236-01-01","d":"zeyyani","tur":"tanik","slug":"tilimsan","parca":"Zeyyân tarafından Abdülvâdîler (Zeyyânîler) hânedanı kuruldu (632/1235)","not":"kaynak 632/1235 der; zeyyani künyesi 1236-01-01 ⇒ künye günü devralındı, 1 yıl FARK (Z3'e)"}]},
+ {"ad":"Fas (Fez)","sinif":"2","zincir":[
+   {"f":"1248-01-01","d":"merini","slug":"fas","parca":"1248’de Fas (şehir)","not":"Muvahhid fethi tarihi bu maddede şehir için verilmez (1147 Merakeş'in alınışıdır)"}]},
+ {"ad":"Merakeş","sinif":"2","zincir":[
+   {"f":"1147-03-23","d":"muvahhidler","slug":"merakes","parca":"on bir ay süren kuşatmayla ele geçirdi (18 Şevval 541 / 23 Mart 1147)","not":"öncesi Murâbıt başşehri — kuruluş günü bu maddede yok, YAZILMADI"},
+   {"f":"1269-01-01","d":"merini","slug":"fas","parca":"1269’da başşehir Merakeş’i ele geçirerek","not":"başka maddeden (fas), cümle Merakeş'in alınışını tarihliyor"}]},
+ {"ad":"Rabat","sinif":"2","zincir":[
+   {"f":"1150-01-01","d":"muvahhidler","tur":"tanik","slug":"rabat","parca":"545 (1150) yılında Endülüs’teki fetihler için askerî bir üs olarak kullanılmak üzere ribâtın bulunduğu yerde bir ordugâh kurulmasını emretti","not":"Muvahhid ordugâhı = şehrin Muvahhid kuruluşu; 'asıl kuruluş' Ebû Yûsuf el-Mansûr (1184-1199) aralığı"},
+   {"f":"1251-01-01","d":"merini","slug":"rabat","parca":"Abdülhak 649’da (1251) Rabat ve Selâ’yı ele geçirdi"}]},
+ {"ad":"Tanca","sinif":"2","zincir":[
+   {"f":"1273-01-01","d":"merini","slug":"tanca","parca":"üç aylık bir kuşatmanın ardından şehri zaptetti (672/1273-74)","not":"1077 Murâbıt · 1147 Muvahhid zinciri VAR ama muvahhidler künyesi 1269'da biter, 1269-1273 sahibi tarihsiz ⇒ kopuk, YAZILMADI"}]},
+ {"ad":"Sebte (Ceuta)","sinif":"2","zincir":[
+   {"f":"1273-01-01","d":"merini","slug":"sebte","parca":"672’de (1273-74) Sebte’yi ele geçirdi","not":"1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk"}]},
+ {"ad":"Sicilmâse (Tâfilelt)","sinif":"2","zincir":[
+   {"f":"1274-01-01","d":"merini","slug":"sicilmase","parca":"673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi","not":"TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk"}]},
+
+ {"ad":"Malta","sinif":"3k","neden":"1090 Norman · 1127 Ruggero kesin aldı (Sicilya Krallığı) — atlas 1281 napoli; Sicilya→Napoli geçişi tarihsiz (napoli künyesi 1282-03-30, atlasın 1281 dönemi künyeden ÖNCE başlıyor — yan bulgu)"},
+ {"ad":"Cerbe (Djerba)","sinif":"3k","neden":"1160 Abdülmü'min geri fethetti — Hafsî'ye geçiş bu maddede tarihsiz"},
+ {"ad":"Kafsa","sinif":"3k","neden":"1159 Muvahhid · 1180 · 1187 Karakuş · 1190 er-Rakrâkī · 1205'e dek karışıklık — Hafsî'ye geçiş tarihsiz"},
+ {"ad":"Tenes","sinif":"3k","neden":"'493’ten (1100) itibaren Murâbıtlar’ın, onların yıkılışının ardından Muvahhidler’in' — Muvahhid girişi ve Zeyyânî'ye geçiş tarihsiz"},
+ {"ad":"Miknâs (Meknes)","sinif":"3k","neden":"1069 Murâbıt · 1150 Muvahhid · 1237 Merînî · 1245-46 Muvahhid geri · 'iki yıl sonra' Merînî (TÜRETİLMİŞ yıl) — ve TDV fas Meknes'i 1244'e koyar (çelişki) ⇒ son halka kaynaksız"},
+ {"ad":"Cezayir","sinif":"3b","neden":"1062 'Cezayir’e kadar Kuzey Afrika' · 1153 'Cezayir ve bütün Kuzey Afrika' — ülke/bölge cümleleri"},
+ {"ad":"Cebelitarık (Gibraltar)","sinif":"3b","neden":"1145 'Endülüs Muvahhidler’in hâkimiyetine geçince' — bölge"},
+ {"ad":"Dârülbeyzâ (Anfa)","sinif":"3b","neden":"1060 Murâbıt 'kabul edilmektedir' — ihtimal"}
+]

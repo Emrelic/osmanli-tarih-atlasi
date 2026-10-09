@@ -1,0 +1,259 @@
+
+### suriye:0 Antakya [antakya] ilk={'f': '1281-01-01', 't': '1516-08-28', 'd': 'memluk'}
+  [1084] | Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı.
+  [1084, 1085] | Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü.
+  [1098] | Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi, şehir halkı kılıçtan geçirildi.
+  [1268] | 18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi, şehir mücadele ile alındığı için yağmaya izin verildi, ayrıca vaktiyle Haçlılar’ın yaptığı gibi halkın çoğu kılıçtan geçirildi, bir kısmı esir alındı.
+
+### suriye:1 Halep [halep] ilk={'f': '1281-01-01', 't': '1516-08-28', 'd': 'memluk'}
+  [1014] | Halep 404’te (1014) Fâtımîler’in eline geçti ve Mansûr b.
+  [1024] | Mirdâs el-Kilâbî 415 (1024) yılında şehri ele geçirip Mirdâsîler hânedanının merkezi yaptı.
+  [1069] | 1069’da Türkmen Emîri Sanduk büyük bir orduyla Halep’e girdi ve kışı orada geçirdi.
+  [1078] | Suriye Selçuklu Meliki Tutuş 470’te (1078) Halep’i kuşattı.
+  [1080] | Tutuş, Emîr Atsız’ın yardım çağrısı üzerine Dımaşk’a dönünce derhal harekete geçen Şerefüddevle kalabalık Arap kabileleri ve kuvvetleriyle şehre girdi ve Mirdâsî hânedanına son verdi (472/1080).
+  [1092] | Tutuş, Sultan Melikşah’ın ölümünden (485/1092) sonra çıkan taht kavgaları sırasında Halep’i hâkimiyeti altına aldı.
+  [1095] | Tutuş’un 488’de (1095) ölümü üzerine Suriye (Halep) Selçuklu Melikliği’nin başına geçen oğlu Rıdvân, Fâtımî Halifesi Müsta‘lî’nin teklifini kabul ederek başşehri Halep’te ve hâkimiyeti altındaki diğer yerlerde onun adına hutbe okuttu (17 Ramazan 490 / 28 Ağustos 1097); ancak aldığı sert tepkiler karşısında bundan vazgeçerek yeniden Abbâsîler’e ve Büyük Selçuklular’a döndü (12 Ş
+  [1107] | Rıdvân, Halep’teki Bâtınîler’le sıkı iş birliği yaptı ve onların burada bir dârü’d-da‘ve (propaganda merkezi) kurmalarına müsaade etti; ancak Sultan Muhammed Tapar’ın tehdidi üzerine bazılarını öldürtmek, bazılarını da şehir dışına sürmek zorunda kaldı (501/1107-1108).
+  [1111] | Antakya Prinkepsi Tancred’in Halep bölgesini istilâya teşebbüs etmesi üzerine Rıdvân sûfî, fakih ve tüccarlardan oluşan bir heyeti o sırada Bağdat’ta bulunan Sultan Muhammed Tapar’a göndererek yardım istediyse de emîrler arasındaki meseleler yüzünden sonuç alamadı (504/1111).
+  [1116] | Lü’lü’ 1116’da ölünce Emîr Yaruktaş idareye hâkim oldu ve zaman zaman Haçlılar’la iş birliği yaptı.
+  [1117] | Haçlılar’ın baskı ve tehditleri karşısında zor durumda kalan şehrin ileri gelenleri, Artukoğlu İlgazi’ye haber gönderip Halep’i teslim almasını ve hıristiyanlarla mücadele etmesini istediler; İlgazi de oğlu Timurtaş ile birlikte gelip şehre girdi (511/1117-18).
+  [1122] | Onun 1122’de ölümü üzerine Emîr Bedrüddevle Süleyman Halep’te yönetimi ele geçirdi.
+  [1124] | Behrâm’ın ölümü üzerine İlgazi’nin oğlu Timurtaş 22 Mayıs 1124’te şehre hâkim oldu.
+  [1146] | Onun ölümünden (1146) sonra yerine geçen oğlu Nûreddin Mahmud Zengî de aynı şekilde Haçlılar’la savaştı ve çok sayıda kaleyi geri aldı.
+  [1182] | Selâhaddîn-i Eyyûbî, Halife Müstazî-Biemrillâh tarafından kendisine verilen Halep’i ele geçirmek üzere 578’de (1182) Mısır’dan yola çıktı.
+  [1260] | Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı.
+  [1260] | Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260).
+
+### suriye:2 Hama [hama] ilk={'f': '1281-01-01', 't': '1516-09-19', 'd': 'memluk'}
+  [1110] | 1110’da Haçlılar’a haraç ödeyen şehirler arasında yer alan Hama daha sonra Dımaşk Atabegi Tuğtegin tarafından ele geçirildi.
+  [1123] | Mahmûd’un 1123’te ölümü üzerine şehri Tuğtegin tekrar zaptetti.
+  [1135] | Böri şehri yeniden fethetmeyi başardıysa da 1135’te Zengî tekrar burayı alıp Orta Suriye’deki askerî harekâtlarının bir üssü haline getirdi.
+  [1146] | Zengî’nin ölümünden sonra (1146) hâcib Selâhaddin el-Yağıbasanî, Nûreddin Mahmud Zengî’ye tâbi olarak Hama emirliğine getirildi.
+  [1174] | Hama 570’te (1174-75) Selâhaddîn-i Eyyûbî’nin eline geçti.
+
+### suriye:4 Beyrut [beyrut] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+  [1110] | Haçlı seferleri sırasında Beyrut Kudüs Krallığı’nın eline geçti (1110).
+  [1187] | 1187’de şehri Selâhaddîn-i Eyyûbî geri aldıysa da on yıl sonra Haçlılar burayı tekrar zaptettiler ve Kudüs Krallığı’na bağladılar.
+
+### suriye:5 Trablusşam [trablussam] ilk={'f': '1281-01-01', 't': '1516-09-26', 'd': 'memluk'}
+  [1032] | Trablus emîri 423’te (1032) Fâtımî tâbiiyetinden ayrılarak Bizans’a tâbi oldu.
+  [1033] | Bunun üzerine şehre gelen Fâtımî ordusu çok geçmeden Trablusşam’a hâkimiyet kurdu (424/1033).
+  [1047] | 438’de (1047) şehri ziyaret eden Nâsır-ı Hüsrev, etrafı çok iyi tahkim edilen Trablusşam’ın Fâtımî hâkimiyetinde bulunduğunu yazar.
+  [1102] | Haçlı seferleri başladığında Raymond de Saint-Gilles büyük bir orduyla Trablusşam’ı kuşattı (495/1102), şehri almak için yakınındaki tepe üzerine büyük bir kule yaptırdı.
+  [1105] | Ancak kendisi uzun süren kuşatma sırasında öldü (1105).
+  [1108, 1109] | 501 (1108) yılında Fâtımî hâkimiyetine giren şehir 11 Zilhicce 502’de (12 Temmuz 1109) Haçlılar’ın eline geçti ve burada bir Haçlı kontluğu kuruldu (1109).
+  [1157, 1201] | Şehir Haçlılar’ın elinde iken 552 (1157) ve 597’de (1201) iki büyük depreme mâruz kaldı ve hasar gördü.
+
+### suriye:6 Kudüs [kudus] ilk={'f': '1281-01-01', 't': '1516-10-01', 'd': 'memluk'}
+  [1033, 1064] | Fâtımîler devrinde 425 (1033) ve 456 (1064) yıllarında şehrin surları ve kaleleri saldırılara karşı yeniden gözden geçirilip onarıldı.
+  [1079] | Büyük Selçuklu Sultanı Melikşah’ın kardeşi Tâcüddevle Tutuş 471 (1079) yılında Atsız’ı ortadan kaldırdı, daha sonra Kudüs ve çevresinin yönetimini Artuk b.
+  [1098] | Artuk Bey’in ölümünün ardından şehrin yönetimi 491 (1098) yılına kadar oğulları Sökmen ve İlgazi’nin elinde kaldı.
+  [1099] | Bir yıl sonra da şehir Haçlılar’ın eline geçti (492/1099).
+  [1119] | Baudouin, 1119 yılında Antakya Prinkepsi Roger ve ordusunun Artuklu Beyi İlgazi’nin askerleri tarafından kılıçtan geçirilmesi üzerine Antakya’ya giderek geçici bir süre için şehrin hâkimiyetini ele aldı.
+  [1124] | Onun yokluğunda Kudüs ordusu Venedik donanmasının desteğiyle 7 Temmuz 1124’te Sûr’u (Tyrus) zaptederek Askalân dışında bütün Filistin kıyı şehirlerine sahip oldu.
+  [1144] | İmâdüddin Zengî, 24 Aralık 1144’te Urfa’yı fethederek buradaki Haçlı Kontluğu’na son verdi.
+  [1153] | Yedi ay süren kuşatmadan sonra 19 Ağustos 1153’te Askalân’ı zaptetmesi Haçlılar’ın son büyük başarısını teşkil eder.
+  [1162] | İktidarı eline aldıktan (1162) sonra bütün dikkatini Mısır üzerinde toplayan Kral Amaury desteğine ihtiyaç duyduğu Bizans ile iyi ilişkileri sürdürmeye kararlıydı.
+  [1153] | Zira doğu sınırı, 1153’te Dımaşk’a hâkim olmasından sonra tamamen Nûreddin Mahmud Zengî’nin elindeydi.
+  [1168] | 1167 ve 1168’de Kral Amaury yine Mısır’a saldırdı, ancak hiçbir sonuç alamadı.
+  [1174] | Amaury 11 Temmuz 1174’te ölünce yerine on üç yaşında cüzzamlı oğlu Baudouin geçti.
+  [1189] | Sultan Kudüs’ün idaresini Fakih Ziyâeddin Îsâ’ya verdi, onun 1189’da ölümü üzerine de yerine Hüsâmeddin en-Necmî getirildi.
+  [1229] | Friedrich 17 Mart 1229’da Kudüs’e girdi ve Nablus kadısı Şemseddin’in refakatinde şehri dolaştı.
+  [1244] | Hârizmliler, Dımaşk civarında dehşet saçarak bütün bölgeyi yakıp yıktıktan sonra 11 Temmuz 1244’te Kudüs’e girdiler.
+  [1099] | Haçlılar’ın 1099’da Kudüs’ü ilk alışından 145 yıl sonra şehir Türkler’in eline geçmişti.
+  [1250] | Kudüs, Memlük Devleti’nin ilk kuruluş yılları sırasında (1250-1260) Suriye’deki Eyyûbîler ile Memlükler arasında birkaç defa el değiştirdi.
+  [1256] | Ancak Filistin ve Kudüs 654 (1256) yılında tekrar Eyyûbîler’in eline geçti.
+
+### suriye:7 Gazze [gazze] ilk={'f': '1281-01-01', 't': '1516-12-21', 'd': 'memluk'}
+  [1149, 1187] | Baldwin’in eline geçen Gazze (1149), Hittîn Savaşı’ndan sonra Selâhaddîn-i Eyyûbî tarafından geri alındı (1187) ve tekrar müslüman kimliğine kavuşturuldu.
+  [1258] | 1258 yılında Bağdat’ı zaptederek Abbâsî hânedanlığını çökerten Moğollar’ın İslâm topraklarında ulaşabildikleri batıdaki en uç nokta Gazze’dir.
+
+### suriye:8 Akkâ [akka] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+  [1074] | 1074’te Selçuklu emîrlerinden Şöklü burayı ele geçirdi.
+  [1087] | 1087’den sonra ise şehir yeniden Fâtımîler’in idaresine girdi.
+  [1100] | Baudouin (1100-1118) tarafından ele geçirilerek hıristiyanların hareket üssü haline getirildi.
+  [1187] | Bu dönemlerde sayısız çiftlikleri, büyük ve emniyetli limanı, kalabalık ve değişik menşeli halkı ile geniş bir şehir olarak tarif edilen ve bölgenin en büyük ticarî merkezi olan Akkâ, 9 Temmuz 1187’de Selâhaddîn-i Eyyûbî tarafından zaptedildi.
+  [1191] | Şiddetli çarpışmalar sonunda kaleyi müdafaa edenler teslim oldu ve şehir Henri de Champagne’in idaresine verildi (1191).
+  [1229] | Böylece uzun süre Filistin’deki Haçlı Krallığı’nın merkezi olan Akkâ, 1229’dan sonra büyük şövalye tarikatlarından bilhassa Saint Jean şövalyelerinin karargâhı haline geldi ve bu sebeple St.
+
+### suriye:9 Maan [maan] ilk={'f': '1281-01-01', 't': '1517-01-01', 'd': 'memluk'}
+
+### suriye:10 Sayda [sayda] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+  [1079, 1087] | 471 (1079) yılından itibaren Dımaşk’a hâkim olan Tutuş 480’de (1087) Sayda’yı ele geçirdi.
+  [1089] | Ancak Sayda’da Selçuklu hâkimiyeti uzun süreli olmadı, Vezir Bedr el-Cemâlî tarafından gönderilen Fâtımî ordusu şehri tekrar zaptetti (482/1089).
+  [1107] | Baudouin’in 501 (1107) yılındaki kuşatmasından yüklü miktarda para ödenerek kurtarılabildi.
+  [1187] | Hittîn Savaşı’nın ardından Sayda’ya hücum eden Selâhaddîn-i Eyyûbî, Sayda hâkimi Renaud de Sidon tarafından terkedilen şehri fethetti (583/1187).
+  [1260] | Sayda hâkimi Julien, Moğollar’a tâbi köylere saldırınca Ketboğa intikam amacıyla şehri tahrip etti (658/1260).
+  [1261] | Templier (Dâviyye) şövalyelerine olan borçları sebebiyle Sayda’yı teminat göstermiş bulunan Julien şehri onlara teslim etti (659/1261).
+  [1271] | 669 (1271) yılında yapılan on yıllık anlaşmayla Sayda’nın sahil kısımları onlarda, dağlık kısımları müslümanlarda kaldı.
+
+### suriye:11 Yafa [yafa] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+  [1040] | Büyük Selçuklu Devleti’nin kuruluşunun (1040) ardından, planlı bir fetih harekâtı çerçevesinde Bizans hâkimiyetindeki Anadolu topraklarına akınlar yapılırken bazı Selçuklu emîrleri, XI.
+  [1069] | Kurlu et-Türkî’nin idaresindeki Nâvekiyye (Yâvegiyye) Türkmenleri de Filistin’e girdi (1069-1070).
+  [1071] | Kurlu’nun 463’te (1071) ölümü üzerine yerini alan Emîr Atsız bir ara Fâtımîler’in geri aldığı Remle’yi ve Kudüs’ü ele geçirdi.
+  [1071] | Atsız’ın 1071-1076 yıllarındaki fetihleri neticesinde Askalân ve Yafa dışında Filistin ve Suriye’nin en önemli şehirleri beyliğin merkezini naklettiği Dımaşk başta olmak üzere Selçuklu Beyliği’nin hâkimiyetine girdi.
+  [1077] | Yafa’yı ele geçiren Atsız şehrin bütün surlarını yıktırdı (469/1077).
+  [1079] | Onun ardından şehir 1079’da Tutuş’un kurduğu Suriye Selçukluları Devleti’nin egemenliğine girdi.
+  [1099] | 492’de (1099) Kudüs, Haçlılar tarafından kuşatıldığı sırada onlara erzak ve kuşatma aletlerinin yapımı için gerekli maddeleri taşıyan iki Cenova galerisiyle dört İngiliz gemisi müslümanların terkettiği Yafa Limanı’na girdi.
+  [1122] | Efdal’in öldürülmesinin ardından bu defa Halife Âmir-Biahkâmillâh 516 (1122) yılında Yafa’yı kuşattıysa da geri çekilmek zorunda kaldı.
+  [1187] | Yafa, ancak Hittîn Savaşı’nda Kudüs Krallığı’nın askerî gücü ortadan kaldırıldıktan sonra müslümanlar tarafından geri alınabildi (583/1187).
+  [1191] | Haçlı Seferi’ne katılarak bölgeye gelen İngiltere Kralı Aslan Yürekli Richard 587’de (1191) Yafa’yı ele geçirdi ve şehrin istihkâmlarını yeniden inşa ettirdi.
+  [1197] | el-Melikü’l-Âdil 593’te (1197) şehri tekrar ele geçirip tahkimatı tahrip etti.
+  [1199] | 595’te (1199) şehir geçici bir süre hıristiyan hâkimiyetine geçtiyse de el-Melikü’l-Âdil bir defa daha şehre hâkim oldu.
+  [1204] | Haçlı Seferi’nden (1204) sonra yine Franklar’ın eline geçti.
+
+### suriye:12 Nablus [nablus] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+  [1098] | (XI.) yüzyılın son çeyreğinde Selçuklular’la Fâtımîler arasında mücadeleye sahne olan şehir, kısa bir süre Selçuklu hâkimiyetinde kalmakla birlikte 491’de (1098) tekrar Fâtımîler’in eline geçti.
+  [1137] | Sadece iç kalesi olan Nablus, Haçlı hâkimiyetinde iken (531/1137) Dımaşk Atabegliği’ne bağlı kuvvetlerin saldırısına uğradı.
+
+### suriye:13 Amman [amman] ilk={'f': '1281-01-01', 't': '1516-12-28', 'd': 'memluk'}
+
+### suriye:15 Humus [humus--suriye] ilk={'f': '1281-01-01', 't': '1516-09-21', 'd': 'memluk'}
+  [1090] | (XI.) yüzyılın ortasına kadar Mirdâsîler’in, ardından da bütün Suriye’yi ele geçiren Fâtımîler’in yönetiminde kalan Humus 483 (1090) yılında Selçuklu Sultanı Melikşah’ın eline geçti.
+  [1103] | Kısa bir müddet sonra Atabeg Cenâhüddevle Hüseyin şehirde nüfuzunu kurdu ve Haçlı saldırılarına rağmen 496’ya (1103) kadar burayı korudu.
+  [1104] | Onun 1104’te ölümü üzerine yerine geçen Atabeg Tuğtegin şehri, Melikşah ve Cenâhüddevle’nin hizmetinde bulunmuş olan Emîr Karaca’ya teslim etti.
+  [1112] | 506’da (1112) babası Emîr Karaca’nın yerine geçen Hayır Han (Kırhan), Necmeddin İlgazi, Atabeg Tuğtegin ve özellikle Atabeg İmâdüddin Zengî’ye karşı mücadele etmek zorunda kaldı.
+  [1126] | 520’de (1126) bölgeyi yakıp yıkan Franklar Halep’ten gelen İzzeddin Mesud’un müdahalesiyle şehri terketmek zorunda kaldılar.
+  [1129] | Hayır Han 524 (1129) yılında İmâdüddin Zengî tarafından esir alındı.
+  [1136, 1137] | İmâdüddin Zengî 530 (1136) ve 531’de (1137) şehre tekrar saldırdı.
+  [1146] | İmâdüddin Zengî’nin ölümü üzerine (541/1146) eski vali Muînüddin Üner şehirde yeniden hâkimiyet kurdu.
+  [1154] | Humus’tan ayrılan Nûreddin Mahmud 549’da (1154) Dımaşk’ı zaptetti ve Humus’u Mücîrüddin Abak’a verdi.
+  [1164, 1169] | Nûreddin Mahmud Zengî, 559’da (1164) Esedüddin Şîrkûh el-Mansûr’a iktâ olarak verdiği Humus’u Şîrkûh ölünce (1169) geri aldı.
+  [1175, 1179] | 570’te (1175) Selâhaddîn-i Eyyûbî şehri zaptetti ve 574’te (1179), Trablus’tan gelen Haçlı akınlarını engellemekle görevlendirdiği Şîrkûh’un oğlu Nâsırüddin Muhammed’e verdi.
+  [1248] | Daha sonra Halep Eyyûbî Emîri el-Melikü’n-Nâsır Yûsuf Humus’u ele geçirdi (646/1248).
+  [1260] | Aynicâlût Savaşı’ndan (658/1260) sonra Moğollar’la Memlükler arasındaki ilk büyük kuvvet denemesi olan bu savaşın ardından Moğollar Fırat’ın gerisine çekilmek zorunda kaldılar.
+
+### suriye:17 Tedmür (Palmyra) [tedmur] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+
+### suriye:20 İskenderun [iskenderun] ilk={'f': '1281-01-01', 't': '1516-08-24', 'd': 'memluk'}
+  [1097] | Haçlı seferleri sırasında 1097’de Tankred tarafından zaptedilmiştir.
+  [1268] | Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.
+
+### suriye:22 Ba'lebek (Baalbek) [balebek] ilk={'f': '1281-01-01', 't': '1516-09-27', 'd': 'memluk'}
+  [1075] | Mirdâs’ın ve 1075’te Suriye Selçuklu Meliki Tutuş ve oğullarının hâkimiyetine girdi.
+  [1146] | 1146’da Zengî’nin öldürülmesi üzerine Eyyûb şehri Börîler’e geri vermek zorunda kaldı.
+  [1146] | Böylece Ba‘lebek dokuz yıl kadar (1146-1155) tekrar Börîler’in idaresinde kaldı.
+  [1155] | 1155 yılında Dımaşk’ı alarak orada Börîler’in hâkimiyetine son veren Nûreddin Zengî Ba‘lebek’e doğru yöneldi.
+  [1174] | 1174’te Selâhaddîn-i Eyyûbî tarafından alınan şehir Haçlılar’a karşı yapılan mücadelede önemli bir üs olarak kullanıldı.
+  [1182, 1230] | 1182-1230 yılları arasında Selâhaddîn-i Eyyûbî’nin diğer yeğeni Behram Şah’ın idaresinde kalan şehir 1230’da Dımaşk hâkimi el-Melikü’l-Eşref Mûsâ tarafından zaptedildi.
+  [1260] | Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.
+
+### irak:0 Hemedan [hemedan] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1136] | 531’de (1136) çıkan veba salgını yüzünden nüfusu azaldı.
+  [1194] | Tuğrul’un Hârizmşah Alâeddin Tekiş’e yenilmesi üzerine Hârizmşahlar’ın hâkimiyeti altına girdi (1194) ve İldenizliler’den Kutluğ İnanç’a verildi.
+  [1221] | 1221’de Cebe Noyan kumandasındaki Moğol ordusu uzun bir kuşatma sonunda şehri ele geçirerek tahrip etti ve halkının büyük bir kısmını öldürdü.
+  [1039] | 1629’da Bağdat üzerine gönderilen Hüsrev Paşa 27 Şevval 1039’da (9 Haziran 1630) Hemedan’a girdi.
+
+### irak:1 Kirmanşah [kirmansah] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1045] | Sırasıyla Emevîler, Abbâsîler, Büveyhîler, Hasaneveyhîler ve Annâzîler’in idaresinde kalan şehri 437’de (1045) Tuğrul Bey’in gönderdiği İbrâhim Yinal Annâzî Ebü’ş-Şevk’ten alıp Selçuklu topraklarına kattı (Bündârî, s.
+
+### irak:2 Şehrizor [sehrizor] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1102] | 495 (1102) yılında Salgurlu Türkmenleri’nden Kara-beli, Dakūkā ile Şehrizor dışında Annâzîler’in elindeki yerleri zaptetti.
+  [1130, 1140] | Muhtemelen Arslantaş’ın oğlu Emîr Kıpçak tarafından 1130 yılında kurulan Şehrizor Kıpçak Emirliği, 1140’ta Musul Atabegi İmâdüddin Zengî’nin bölgeye hâkim olmasıyla sona erdi.
+  [1185, 1190] | 581-582 (1185-1186) yıllarında Şehrizor yöresini ele geçiren Selâhaddîn-i Eyyûbî, Şehrizor ve Kara-beli derbendini Ali Küçük’ün oğlu Erbil Atabegi Muzafferüddin Kökböri’ye iktâ etti (586/1190).
+  [1233, 1245, 1258] | Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti.
+
+### irak:4 Kerkük [kerkuk] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+
+### irak:5 Bağdat [bagdat] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1258] | Kuruluşundan Abbâsî Devleti’nin yıkılışına (1258) kadar hilâfet merkezi olarak kalan Bağdat Osmanlılar devrinde Bağdat vilâyetinin merkezi ve 1921’de de Irak’ın başşehri oldu.
+  [1255] | yüksekliğindeki yeşil kubbesi 941’de fırtınalı bir gecede yıldırım düşmesi üzerine yıkıldı; ancak duvarlar 1255’e kadar ayakta kaldı.
+  [1255] | 1255’te sel baskınına uğrayan cami Moğol saldırısından sonra da ayakta kalmaya devam etti.
+  [1016] | 1016’da Nehrü Tâbık, Bâbülkutn ve Bâbülbasra mahallelerinin çoğu yandı.
+  [1055] | 1055’te Tuğrul Bey Bağdat’a girdi ve Büveyhîler’in Şiî politikasına son verip Sünnîler’i destekledi.
+  [1066, 1233] | En meşhurları 1066’da kurulan Nizâmiye, aynı yıl kurulan ve bugün Külliyyetü’ş-şerîa olarak kullanılan Ebû Hanîfe, 1233’te kurulan ve XVII.
+  [1255] | Sadece Müstansıriyye ile 1255’te kurulan Beşîriyye medreseleri dört mezhebe göre öğretim yapıyordu.
+  [1209] | 1209’da Bağdat’ın her yerinde, ramazan ayında fakirlere hizmet etmek için misafirhaneler (dârüzziyâfe) kuruldu.
+  [1258] | İki yıl sonra 10 Şubat 1258’de Moğollar Bağdat’a saldırdılar; Halife Müsta‘sım kayıtsız şartsız teslim oldu ve halk kılıçtan geçirildi.
+  [1065] | Selçuklu Sultanı Alparslan ve veziri Nizâmülmülk’ün gayretleriyle 1065-1067 yılları arasında 200.000 dinar harcanarak bir külliye halinde inşa edilen Bağdat Nizâmiye Medresesi İslâm tarihinde ilk çekirdek üniversiteyi oluşturduğu gibi Avrupa’da kurulan üniversitelere de örnek olmuştur.
+
+### irak:6 Kerbelâ [kerbela] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+
+### irak:7 Basra [basra] ilk={'f': '1776-04-16', 't': '1779-04-01', 'd': 'zend'}
+  [1047] | 439 (1047-48) yılında kurulan ve dini felsefe vasıtasıyla izaha çalışan İhvân-ı Safâ topluluğuna mensup Ebû Süleyman el-Büstî el-Makdisî (el-Mukaddesî), Ebû Ahmed en-Nehrecûrî gibi âlimler ilmî ve edebî çalışmalarını bu şehirde yürütüyorlardı.
+
+### irak:8 Rakka [rakka] ilk={'f': '1281-01-01', 't': '1516-08-28', 'd': 'memluk'}
+  [1234, 1257] | Abbâsîler’in zayıflamaya başlamasından itibaren Suriye ve Mısır’da kurulan hânedanlardan Tolunoğulları, Hamdânîler, Zengîler ve Eyyûbîler’in hâkimiyetine giren, hânedanlar kadar hânedan kolları arasında da sık sık el değiştiren, bu arada 316 (928) yılında Karmâtîler’in eline geçen Rakka, 632’de (1234-35) Anadolu Selçukluları’nın ve 655’te (1257) tekrar Eyyûbîler’in yönetimine g
+  [1260] | Aynicâlût Savaşı’nın (658/1260) ardından Memlükler’in hâkimiyetine geçen Rakka, 773’te (1371) bu defa da Timur’un saldırısına uğradı ve âdeta yine halkının tamamını kaybetti; daha sonra şehirde bir süre Memlük-Akkoyunlu mücadelesi yaşandı.
+
+### irak:9 Deyrizor [deyrizor] ilk={'f': '1281-01-01', 't': '1516-08-28', 'd': 'memluk'}
+
+### irak:10 Zencan [zencan] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+  [1040] | Tuğrul Bey, Dandanakan Savaşı’nın (1040) ardından Çağrı Bey’in oğlu Yâkūtî’ye Ebher, Zencan ve Azerbaycan’ın idaresini verdi (Reşîdüddin Fazlullāh-ı Hemedânî, II/5, s.
+  [1118] | Sultan Muhammed Tapar’ın vefatından sonra (511/1118) Emîr Gündoğdu, Atabeg Şîrgîr’i hapsetti; ancak Sencer, Büyük Selçuklu sultanı olunca Atabeg Şîrgîr’i serbest bıraktı ve iktâı olan Zencan’a dönmesini sağladı ( a.g.e.
+  [1125] | 519’da (1125) Zencan, Sâve ve Âve Tuğrul’un iktâı idi.
+  [1211] | Abbâsî Halifesi Nâsır-Lidînillâh, İldenizliler’den Atabeg Özbek ve Alamut hâkimi Celâleddin Hasan, Hârizmşahlar’a karşı ittifak yaptılar ve meydana gelen savaşta Hârizmli Nâsırüddin Mengli’yi yenilgiye uğrattıktan sonra Zencan’ın idaresini Celâleddin Hasan’a bıraktılar (607/1211).
+  [1217] | Tekiş 614’te (1217-18) hiçbir mukavemetle karşılaşmadan Ebher, Kazvin ve Zencan’ı topraklarına kattı.
+  [1220] | 617’de (1220) şehir Moğol istilâsına mâruz kaldı.
+  [1136] | 2 Şevval 1136’da (24 Haziran 1724) İstanbul Muahedesi (İran Mukāsemenâmesi) adı verilen antlaşmaya göre İran toprakları Osmanlılar ve Ruslar tarafından taksim edildi.
+  [1197] | Zencan 1197’de (1782-83) Kaçarlı Ağa Muhammed Şah’ın hâkimiyetine girdi.
+
+### irak:16 Sâmerrâ [samerra] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+
+### irak:17 Tikrit [tikrit] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1043] | Hammâd, onun da 435’te (1043-44) ölümüyle yerine oğlu Ebû Gaşşâm geçti.
+  [1080] | 473’te (1080-81) şehir Nizâmülmülk’ün oğlu Müeyyidülmülk’ün idaresine tevdi edildi.
+  [1092] | Bundan sonraki süreçte Tikrît, Aytekin es-Süleymânî’ye ve Melikşah’ın ölümünün (485/1092) ardından Kasîmüddevle Aksungur’a iktâ edildi.
+  [1105] | Sultan Muhammed Tapar tahta geçince (498/1105) Tikrît’i Bağdat şahnesi Aksungur el-Porsukī’ye iktâ etti.
+  [1118] | Şehir, 512’de (1118) Sultan Muhammed Tapar’ın kumandanlarından Bağdat şahnesi Mücâhidüddin Bihrûz el-Hâdim’in iktâı idi.
+  [1154] | 549’da (1154) gönderdiği kuvvetler başarılı olamayınca bizzat kendisi sefere çıkıp şehre girdi, fakat iç kaleyi ele geçiremedi.
+  [1149] | Tikrît 544-586 (1149-1190) yılları arasında Begteginliler’in hâkimiyetindeydi ( EI 2 [İng.] , X, 141).
+  [1257] | Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular.
+
+### irak:19 Necef [necef] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+
+### irak:20 Kûfe [kufe] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1101] | Ardından Mezyedîler’e intikal eden Kûfe, 495 (1101-1102) yılında Hille’nin yeni bir merkez olarak kurulmasıyla önemini büyük ölçüde kaybetti.
+  [1184] | 580’de (1184) Kûfe’yi ziyaret eden İbn Cübeyr, eski surlar başta olmak üzere şehrin önemli ölçüde harabe haline geldiğini ve özellikle çevredeki bedevî Hafâce kabilesinin yağmalarından zarar gördüğünü kaydeder ( er-Riḥle , s.
+
+### irak:21 Vâsıt [vasit] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1258] | İlhanlılar Irak’ı zaptedince (656/1258) onların hâkimiyetine geçti.
+
+### irak:23 Erbil [erbil] ilk={'f': '1281-01-01', 't': '1340-01-01', 'd': 'ilhanli'}
+  [1132] | Musul Atabeği İmâdüddin Zengî 1132 yılında Erbil’i ele geçirince burayı kumandanlarından Zeynüddin Ali Küçük b.
+  [1190] | Ali Küçük’ün burada kurduğu Begteginliler hânedanının sınırları, civardaki küçük emirlikleri itaat altına alan oğlu Muzafferüddin Kökböri zamanında (1190-1232) oldukça genişledi ve Kerkük ile birlikte Şehrizor bölgesi de bu devletin sınırları içinde kaldı.
+  [1232] | Oğlu olmayan Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti (1232).
+  [1236, 1258] | 1236 yılında Erbil’e saldıran Moğollar aşağı şehri işgal ederek binaları yıkıp kaleyi kuşattılarsa da sonuçta geri çekilmek zorunda kaldılar; ancak Bağdat’ın 1258’de Hülâgû’nun eline geçmesinden sonra burası da zaptedildi.
+
+### irak:42 Dizfûl [dizful] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### irak:44 Abâdân [abadan] ilk={'f': '1281-01-01', 't': '1335-12-01', 'd': 'ilhanli'}
+
+### irak:47 Nusaybin [nusaybin] ilk={'f': '1281-01-01', 't': '1409-01-01', 'd': 'artuklu'}
+  [1120] | 514’te (1120) Artuklu Necmeddin İlgazi’nin, daha sonra Musul Atabegi İmâdüddin Zengî ve Eyyûbîler’den Selâhaddîn-i Eyyûbî’nin hâkimiyetinde kaldı.
+  [1230] | 1230 yılında ilk Moğol istilâsına uğrayan, yüzyılın ortalarında Hülâgû tarafından işgal edilen şehir ardından Akkoyunlu, Karakoyunlu ve Safevî hâkimiyetine girdi.
+
+### misir:0 Kahire [kahire] ilk={'f': '1281-01-01', 't': '1517-02-15', 'd': 'memluk'}
+  [1176] | 572 (1176) yılında yapılan onarımlar sırasında Ebû Sâlih el-Ermenî’ye göre Fustat’taki birçok kilise de eski haline getirildi.
+  [1171] | Selâhaddîn-i Eyyûbî Mısır’ı ele geçirdikten (567/1171) sonra hem kendine mahsus, hem de Kahire ve Fustat’ı denetimi altında tutacak yeni bir başşehir kurmayı düşünmüştü.
+  [1176] | 572’de (1176) Fustat, Selâhaddîn-i Eyyûbî öldüğünde yarım kalmış durumdaki bir surla kısmen iskân bölgelerine bağlanmıştı.
+  [1087] | Hâkim Camii’nin kuzey duvarı ve kuzey kapısının da içine girdiği kuzey surlarından kalan yegâne kısımlar 480 (1087) tarihli kulelerle takviyeli Bâbünnasr ve Bâbülfütûh’tur.
+  [1176] | Selâhaddîn-i Eyyûbî’nin Mısır’a hâkim olmasıyla tesis ettiği ilk medreselerden biri 572’de (1176-77) başlanan ve güney mezarlığında İmam Şâfiî’nin kabrine yakın bulunan Şâfiî Medresesi’ydi.
+  [1225] | Sûkunnahhâsîn’deki medrese kalıntıları el-Melikü’l-Kâmil’in diğer medresesi olan Kâmiliyye’ye (622/1225) aittir.
+
+### misir:1 İskenderiye [iskenderiye] ilk={'f': '1281-01-01', 't': '1517-05-19', 'd': 'memluk'}
+  [1138] | Velahşî tarafından İskenderiye’de kurulmuştur (532/1138).
+  [1084, 1122, 1123] | Aziz Athanasios Kilisesi’nin kalıntıları üzerine inşa edilen ve 477’de (1084) Emîrü’l-cüyûş Bedr el-Cemâlî tarafından yenilendiği için Cüyûşî Camii diye de anılan Câmiu’l-attârîn, Endülüslü fakih İbn Ebû Rendeka et-Turtûşî’nin 516 (1122) yılında yaptırdığı Turtûşî Mescidi ve adını bânisi vali Mü’temen Sultânü’l-mülûk Ebû Türâb Haydere’den alan 517 (1123) tarihli Mü’temen Mescid
+  [1174] | İskenderiye, 569 (1174) yılında Sicilya’dan gelen Normanlar’ın saldırısına uğramışsa da saldırı kısa sürede püskürtülmüştür.
+  [1250] | Saint Louis’nin Dimyat’a düzenlediği saldırı büyük bir fiyaskoyla sonuçlandıktan (648/1250) sonra Akdeniz adalarındaki Haçlı kalıntıları ile Avrupa’nın gözü İskenderiye üzerine çevrildi.
+
+### misir:2 Dimyat [dimyat] ilk={'f': '1281-01-01', 't': '1517-05-19', 'd': 'memluk'}
+  [1250] | Mısır’da hâkimiyetin Bahriyye Memlükleri’ne geçtiği bu sırada Memlük ileri gelenleri, sürekli saldırılara hedef teşkil eden Dimyat’ın askerî üs olma özelliğini ortadan kaldırmak için 648’de (1250-51) şehri kalesi, duvarları ve tahkimatı ile birlikte tamamen yıktırdılar.
+
+### misir:3 Asyut [asyut] ilk={'f': '1281-01-01', 't': '1517-04-13', 'd': 'memluk'}
+
+### misir:4 Asvan [asvan] ilk={'f': '1281-01-01', 't': '1517-04-13', 'd': 'memluk'}
+  [1170] | Daha sonra Eyyûbîler’in idaresine geçen şehir, Selâhaddîn-i Eyyûbî tarafından ağabeyi Turan Şah’a iktâ olarak verildi (1170).
+
+### misir:6 Süveyş [suveys] ilk={'f': '1281-01-01', 't': '1517-02-15', 'd': 'memluk'}
+
+### misir:15 Benhâ (Kalyûbiye) [benha] ilk={'f': '1281-01-01', 't': '1517-05-19', 'd': 'memluk'}
+
+### misir:22 Ebûkîr [ebukir] ilk={'f': '1281-01-01', 't': '1517-05-19', 'd': 'memluk'}
+
+### misir:29 Feyyûm [feyyum] ilk={'f': '1281-01-01', 't': '1517-04-13', 'd': 'memluk'}
+  [1193] | Bu döneme kadar iltizam usulüyle idare edilen toprakları 589’dan (1193) itibaren iktâ olarak büyük emîrlere verilmeye başlandı.
+
+### misir:38 Kına [kina] ilk={'f': '1281-01-01', 't': '1517-04-13', 'd': 'memluk'}
+
+### misir:46 Tûr (Sînâ) [sina] ilk={'f': '1281-01-01', 't': '1517-02-15', 'd': 'memluk'}

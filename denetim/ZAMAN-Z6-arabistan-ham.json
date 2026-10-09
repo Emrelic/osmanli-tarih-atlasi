@@ -1,0 +1,2724 @@
+[
+ {
+  "ad": "Mekke",
+  "lat": 21.423,
+  "lon": 39.826,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1803-04-30",
+    "t": "1803-08-06",
+    "d": "suud"
+   },
+   {
+    "f": "1806-01-01",
+    "t": "1813-01-23",
+    "d": "suud"
+   },
+   {
+    "f": "1916-06-10",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "mekke:200"
+  ],
+  "slug": "mekke",
+  "tanik": [
+   [
+    [
+     1067
+    ],
+    "Suleyhî’nin öldürülmesinden sonra (459/1067) Mekke yeniden Abbâsîler’e bağlandı (İbn Kesîr, XII, 102)."
+   ],
+   [
+    [
+     1069
+    ],
+    "Ca‘fer, 462 (1069-70) yılında oğlunu ve elçisini Sultan Alparslan’a yollayarak hutbenin Fâtımîler adına okunmasına son verip Abbâsî Halifesi Kāim-Biemrillâh ile kendisi adına okuttuğunu bildirdi."
+   ],
+   [
+    [
+     1174
+    ],
+    "Mekke, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın gayretleriyle Fâtımî hâkimiyetinden çıktı ve hutbe 569 (1174) yılından itibaren Abbâsî halifelerinin yanı sıra Nûreddin Mahmud Zengî adına okunmaya başladı (Fâsî, Şifâʾü’l-ġarâm , II, 366-367)."
+   ],
+   [
+    [
+     1252
+    ],
+    "Mekke’de Eyyûbî hâkimiyeti, bazan Yemen hükümdarları adına hutbe okunması veya Mekke şeriflerinin bağımsız hareket etme arzuları yüzünden kesintiye uğramakla birlikte 650 (1252) yılına kadar sürdü."
+   ],
+   [
+    [
+     1266
+    ],
+    "Kâbe’ye 664 (1266) yılında ilk defa mahmil ve örtü gönderen I."
+   ],
+   [
+    [
+     1231
+    ],
+    "Mescid-i Harâm’ın kuzeyinde Abbâsî Halifesi Müstansır-Billâh tarafından yaptırılan, 759 (1358) ve 816’da (1413) tamir ettirilen bîmâristanın vakfiyesi 628 (1231) tarihlidir (Fâsî, Şifâʾü’l-ġarâm , I, 538; İbn Fehd, III, 507-508)."
+   ],
+   [
+    [
+     1183
+    ],
+    "Ali ez-Zencîlî, Mekke’de 579’da (1183) Hanefî mezhebine göre eğitim yapan Zencîliyye, İkbâl b."
+   ],
+   [
+    [
+     1243
+    ],
+    "Abdullah eş-Şerâbî de 641’de (1243-44) çok sayıda kitap vakfederek Şerâbiyye medreselerini kurmuşlardır."
+   ],
+   [
+    [
+     1198
+    ],
+    "Eyyûb 594 (1198) yılında yaptırdığı Rebi‘ Ribâtı’nda bir de kütüphane tesis etmişti."
+   ],
+   [
+    [
+     1012
+    ],
+    "Fâtımî Halifesi Hâkim-Biemrillâh, 403’te (1012) Remle’yi kendisine başşehir seçen ve Râşid-Billâh lakabıyla halifeliğini ilân eden Ebü’l-Fütûh’un Mekke’den ayrılmasını fırsat bilerek amcazadesi Ebü’t-Tayyib’i Haremeyn valiliğine tayin etti."
+   ],
+   [
+    [
+     1061
+    ],
+    "Ebü’l-Fütûh’tan sonra emîr olan, yirmi üç yıl bu görevi sürdüren ve çocuk bırakmadan ölen (453/1061) oğlu Şükür’ün yerine kölesi Abûle geçmek istedi."
+   ],
+   [
+    [
+     1062
+    ],
+    "Emirlik, 969-1062 yılları arasında Mekke’yi yöneten ve Ca‘fer b."
+   ],
+   [
+    [
+     1063
+    ],
+    "Mekke’ye 455’te (1063) hâkim olan Suleyhîler’den Ali b."
+   ],
+   [
+    [
+     1069
+    ],
+    "Ca‘fer hutbeyi Abbâsî Halifesi Kāim-Biemrillâh ile Selçuklu Sultanı Alparslan adına okuttu (462/1069-70) (İbnü’l-Esîr, X, 61)."
+   ],
+   [
+    [
+     1073
+    ],
+    "465’te (1073) Selçuklu Sultanı Melikşah, Mekke’ye Kâbe örtüsünü göndererek (İbn Tağrîberdî, V, 95), daha sonra da kız kardeşinin emîrle evlenmesini sağlayarak şehirde yeniden Sünnî hâkimiyetini oluşturmaya çalıştı."
+   ],
+   [
+    [
+     1076
+    ],
+    "468 (1076) yılında Mekke Emîri Ebû Hâşim Muhammed b."
+   ],
+   [
+    [
+     1079
+    ],
+    "Fakat 472’den (1079-80) itibaren Mekke emîri Abbâsî Halifesi Muktedî-Biemrillâh ve Sultan Melikşah’a bağlılığını bildirdi."
+   ],
+   [
+    [
+     1089,
+     1086
+    ],
+    "Fâtımîler 482-483 (1089-1090) yıllarında Suriye’de kazandıkları başarılar sebebiyle Hicaz’da etkili olmaya çalıştılarsa da 479-485 (1086-1092) tarihleri arasında Mekke Abbâsî halifesi ve Selçuklu sultanına tâbi olmaya devam etti (Kafesoğlu, s."
+   ],
+   [
+    [
+     1092
+    ],
+    "Mekke emîri Melikşah’ın ölümü üzerine (485/1092) hutbeleri yeniden Fâtımîler adına okutmaya başladı."
+   ],
+   [
+    [
+     1174
+    ],
+    "Turan Şah’ın Yemen’i ele geçirmesinden sonra 569’da (1174) Mekke Emîri Îsâ b."
+   ],
+   [
+    [
+     1252
+    ],
+    "Mekke emîrlerinin tâbi oldukları Eyyûbîler’in Mekke hâkimiyetleri bazı kesintilerle 650 (1252) yılına kadar sürdü."
+   ],
+   [
+    [
+     1254
+    ],
+    "1254-1301 yılları arasında Mekke emîri olan Ebû Nümey Muhammed b."
+   ]
+  ]
+ },
+ {
+  "ad": "Medine",
+  "lat": 24.47,
+  "lon": 39.612,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1805-06-01",
+    "t": "1812-12-03",
+    "d": "suud"
+   },
+   {
+    "f": "1919-01-10",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "medine:200"
+  ],
+  "slug": "medine",
+  "tanik": [
+   [
+    [
+     1256
+    ],
+    "Osman zamanındaki lav püskürtmeleriyle 654’te (1256) “Hicaz ateşi” olarak tarihe geçen volkanik faaliyetler, Medine ve çevresindeki bu volkanik etkinliklerin o dönemde henüz tam olarak sona ermediğini gösterir."
+   ],
+   [
+    [
+     1070
+    ],
+    "Mekke’de adına hutbe okunduğunu haber alan (462/1070) Selçuklu Sultanı Alparslan bundan memnun oldu ve Medine emîrine adına hutbe okutursa tahsisat bağlamayı ve çeşitli hediyeler göndermeyi vaad etti (İbnü’l-Esîr, X, 61; Necmeddin İbn Fehd, II, 473)."
+   ],
+   [
+    [
+     1089
+    ],
+    "Selçuklular’ın Medine ile ilgisi Sultan Melikşah zamanında devam etti ve 482-483’te (1089-1090) Medine’de Halife Muktedî-Biemrillâh ile birlikte Melikşah adına hutbe okundu."
+   ],
+   [
+    [
+     1174
+    ],
+    "Yemen’in önemli bir kısmını ele geçiren Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın gayretleriyle Fâtımî hâkimiyetinden çıkan Medine’de hutbe 569 (1174) yılından itibaren Abbâsî halifesinin yanı sıra Nûreddin Mahmud Zengî adına okunmaya başlandı (Fâsî, Şifâʾü’l-ġarâm , II, 366-367)."
+   ],
+   [
+    [
+     1174
+    ],
+    "Nûreddin’in ölümünün (569/1174) ardından bağımsızlığını ilân eden Selâhaddîn-i Eyyûbî Medine ile özel olarak ilgilenip buradaki Sünnî hâkimiyetinin devamını sağladı."
+   ],
+   [
+    [
+     1145
+    ],
+    "Bu surlar zamanla harap olmuş ve 540’ta (1145-46) Medine’de bir medrese yaptırmış olan Zengîler’in ünlü veziri Cemâleddin el-İsfahânî tarafından yeniden inşa edilmiştir."
+   ],
+   [
+    [
+     1162
+    ],
+    "Şehri kısmen kuşatan surlar bedevî hücumlarına karşı yetersiz kalınca Nûreddin Mahmud Zengî 557’de (1162) yeni bir sur yaptırmış, bunlar daha sonraki dönemlerde tamir edilmiştir."
+   ],
+   [
+    [
+     1073
+    ],
+    "1073’te (1662-63) burayı ziyaret eden Faslı Ayyâşî, şehirde Arap olmayan unsurların çokluğundan dolayı ortaya çıkan farklılığın halkın sosyal hayatında açık biçimde görüldüğünü vurgular."
+   ]
+  ]
+ },
+ {
+  "ad": "Cidde",
+  "lat": 21.543,
+  "lon": 39.173,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1916-06-16",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "cidde:200"
+  ],
+  "slug": "cidde",
+  "tanik": [
+   [
+    [
+     1268
+    ],
+    "Baybars 667 (1268) yılında hacca gitmiş ve Şemseddin Mervân’ı Mekke-i Mükerreme’de kendisine nâib tayin etmişti; Mekke şerifleri yönetimle ilişkili meseleleri ona danışırlardı."
+   ]
+  ]
+ },
+ {
+  "ad": "Yenbu",
+  "lat": 24.089,
+  "lon": 38.063,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1805-07-20",
+    "t": "1811-11-01",
+    "d": "suud"
+   },
+   {
+    "f": "1916-07-27",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "yenbu:200"
+  ],
+  "slug": "yenbu",
+  "tanik": [
+   [
+    [
+     1200
+    ],
+    "İdrîs, hâkimiyetini Yenbu‘dan Mekke’ye doğru genişletti (596/1200)."
+   ],
+   [
+    [
+     1256
+    ],
+    "Hicaz bölgesinde 654 (1256) yılında meydana gelen ve birkaç hafta süren Medine merkezli volkanik patlama Yenbu‘u da etkiledi, şehirde meydana gelen deprem ve uzaktan görülen ateş halkı korku ve endişeye sevketti (İbn Kesîr, XIII, 190)."
+   ]
+  ]
+ },
+ {
+  "ad": "Tebük",
+  "lat": 28.384,
+  "lon": 36.566,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-01-01",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "tebuk:200"
+  ],
+  "slug": "tebuk",
+  "tanik": []
+ },
+ {
+  "ad": "Zebîd",
+  "lat": 14.195,
+  "lon": 43.317,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-06-20",
+    "d": "yemen"
+   },
+   {
+    "f": "1516-06-20",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1635-01-01",
+    "t": "1849-01-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "zebid:200"
+  ],
+  "slug": "zebid",
+  "tanik": [
+   [
+    [
+     1022
+    ],
+    "Şehir Necâhîler döneminde de (1022-1159) yönetim merkeziydi."
+   ],
+   [
+    [
+     1060,
+     1089
+    ],
+    "Bu dönemde Yemen’de nüfuzu artan Şiî Suleyhîler, Sünnî Necâhîler’i karşılarında bir engel olarak gördüklerinden 452’de (1060) Zebîd’i zaptettilerse de Necâhîler pek çok savaşın ardından birkaç defa el değiştiren şehri 482’de (1089) son defa ele geçirdiler."
+   ],
+   [
+    [
+     1174
+    ],
+    "Mehdîler, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah kumandasındaki Eyyûbî ordusu tarafından kısa bir süre sonra ortadan kaldırıldı ve şehir Eyyûbî hâkimiyeti altına girdi (569/1174)."
+   ],
+   [
+    [
+     1175
+    ],
+    "571 (1175-76) yılında Turan Şah nâiblerini yerine bırakıp buradan ayrıldı."
+   ],
+   [
+    [
+     1181
+    ],
+    "Fakat onun ardından Yemen’de karışıklıkların çıkması üzerine 577’de (1181) bölgeye gelip istikrarı sağlayan Tuğtegin b."
+   ],
+   [
+    [
+     1229
+    ],
+    "Zebîd esas gelişimini Resûlîler döneminde (1229-1454) gerçekleştirdi."
+   ],
+   [
+    [
+     1183
+    ],
+    "Eyyûb tarafından 579-593 (1183-1197) yılları arasında inşa ettirildi."
+   ]
+  ]
+ },
+ {
+  "ad": "Aden",
+  "lat": 12.786,
+  "lon": 45.019,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1538-08-03",
+    "d": "yemen"
+   },
+   {
+    "f": "1635-01-01",
+    "t": "1839-01-19",
+    "d": "yemen"
+   },
+   {
+    "f": "1839-01-19",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "denenen": [
+   "aden:200"
+  ],
+  "slug": "aden",
+  "tanik": [
+   [
+    [
+     1276
+    ],
+    "Marco Polo Aden şehrinin nüfusunu 1276’da 80.000 kadar tahmin etmektedir."
+   ],
+   [
+    [
+     1125
+    ],
+    "Nihayet bu ailenin bir kolu olan Benî Zürey‘ üstünlüğü elde ederek 1125’te istiklâlini ilân etmiştir."
+   ],
+   [
+    [
+     1173
+    ],
+    "Benî Zürey‘in bölgedeki bağımsızlığı, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın Yemen’i zaptettiği 1173 yılına kadar sürmüştür."
+   ],
+   [
+    [
+     1228
+    ],
+    "Daha sonra burada sırasıyla 1228’e kadar Eyyûbîler, 1454’e kadar Resûlîler, 1517’ye kadar Tâhirîler hüküm sürmüşlerdir."
+   ],
+   [
+    [
+     1276
+    ],
+    "Marco Polo’nun 1276’da 360 mescid bulunduğunu söylediği şehirde bugün en önemli İslâmî eser, Ayderûsiyye tarikatının kurucusu Ebû Bekir Ayderûs’un türbesi ile onun adını taşıyan camidir."
+   ]
+  ]
+ },
+ {
+  "ad": "Moha",
+  "lat": 13.319,
+  "lon": 43.25,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1538-08-03",
+    "d": "yemen"
+   },
+   {
+    "f": "1635-10-22",
+    "t": "1849-01-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "moha:302",
+   "moha--sehir:302",
+   "arama:moha:200"
+  ]
+ },
+ {
+  "ad": "Sana",
+  "lat": 15.369,
+  "lon": 44.191,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1547-01-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1635-01-01",
+    "t": "1872-04-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1905-04-01",
+    "t": "1905-09-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "sana:200"
+  ],
+  "slug": "sana",
+  "tanik": [
+   [
+    [
+     1047
+    ],
+    "439’da (1047) bölgedeki Fâtımî davetinin etkisinde kalan Ali b."
+   ],
+   [
+    [
+     1088
+    ],
+    "Muhammed es-Suleyhî, San‘a’da Suleyhîler hânedanını kurdu; şehir 481 (1088) yılında yönetim merkezinin Zûcible’ye taşınmasına kadar başşehir olarak kaldı."
+   ],
+   [
+    [
+     1098
+    ],
+    "Gaşîm el-Mugallisî, San‘a ve civarını ele geçirip kendini sultan ilân ederek Hemdânîler hânedanını kurdu (492/1098)."
+   ],
+   [
+    [
+     1174
+    ],
+    "Hâtim döneminde Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah, San‘a’ya girerek Hemdânî saltanatına son verdi (570/1174)."
+   ],
+   [
+    [
+     1198,
+     1214
+    ],
+    "Şehir 595 (1198) ve 611 (1214) yıllarında bir süre Zeydî imamlarından Abdullah b."
+   ],
+   [
+    [
+     1229,
+     1235
+    ],
+    "Ali er-Resûlî’nin onun ölümünden sonra Tihâme, San‘a ve Taiz’i idaresi altına alması (626/1229) ve birkaç yıl sonra bağımsızlığını ilân etmesiyle (632/1235) Resûlî hâkimiyeti başladı."
+   ],
+   [
+    [
+     1229
+    ],
+    "San‘a, Resûlîler (1229-1454) ve halefleri Tâhirîler (1454-1517) döneminde birçok defa Zeydîler’le el değiştirdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Taiz",
+  "lat": 13.579,
+  "lon": 44.022,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1547-02-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1629-01-01",
+    "t": "1872-04-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "taiz:200"
+  ],
+  "slug": "taiz",
+  "tanik": [
+   [
+    [
+     1047,
+     1229
+    ],
+    "Şehrin tarihine dair en eski bilgiler Suleyhîler dönemine (1047-1138) kadar gitmekle beraber asıl gelişmesi Resûlîler devrinde (1229-1454) başşehir olduğu yıllara rastlamaktadır."
+   ],
+   [
+    [
+     1174
+    ],
+    "Eyyûbîler döneminde (1174-1229) Taiz’i ikamet merkezi edinen Turan Şah ve kardeşi Tuğtegin köşkler ve medreseler yaptırarak şehri imar ettiler."
+   ],
+   [
+    [
+     1255
+    ],
+    "Şehrin asıl gelişimi, Resûlî hânedanının ikinci sultanı el-Melikü’l-Muzaffer Yûsuf’un Taiz’i 653’te (1255) başşehir yapmasıyla başladı ve zaman içinde onlarca cami, medrese ve hamam inşa edildi."
+   ],
+   [
+    [
+     1273
+    ],
+    "Resûlî Hükümdarı el-Melikü’l-Müeyyed Dâvûd’un 672’de (1273-74) Taiz’de inşa ettirdiği medresenin kütüphanesinde 100.000 kitap bulunduğu rivayet edilmektedir."
+   ],
+   [
+    [
+     1008
+    ],
+    "1008’de (1599-1600) Taiz sancağının arazi gelirleri 57.000 sikkeye ulaşmıştı ve bu miktar bütün Yemen gelirleri içinde % 14’e tekabül etmekteydi."
+   ]
+  ]
+ },
+ {
+  "ad": "Hudeyde",
+  "lat": 14.798,
+  "lon": 42.954,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1849-01-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "hudeyde:200"
+  ],
+  "slug": "hudeyde",
+  "tanik": []
+ },
+ {
+  "ad": "Ebha (Asir)",
+  "lat": 18.216,
+  "lon": 42.505,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1871-01-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-04-01",
+    "d": "aiz"
+   },
+   {
+    "f": "1920-04-01",
+    "t": "1923-10-29",
+    "d": "suud-ucuncu"
+   }
+  ],
+  "denenen": [
+   "ebha:200"
+  ],
+  "slug": "ebha",
+  "tanik": []
+ },
+ {
+  "ad": "Sevâkin",
+  "lat": 19.106,
+  "lon": 37.332,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1884-02-01",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "enklav": true
+   }
+  ],
+  "denenen": [
+   "sevakin:302",
+   "sevakin--sehir:302",
+   "arama:sevakin:200"
+  ]
+ },
+ {
+  "ad": "Masavva",
+  "lat": 15.6117,
+  "lon": 39.4723,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "masavva:200"
+  ],
+  "slug": "masavva",
+  "tanik": []
+ },
+ {
+  "ad": "Maskat",
+  "lat": 23.588,
+  "lon": 58.408,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1507-01-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1650-01-26",
+    "d": "portekiz"
+   },
+   {
+    "f": "1650-01-26",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "maskat:200"
+  ],
+  "slug": "maskat",
+  "tanik": []
+ },
+ {
+  "ad": "Gondar",
+  "lat": 12.603,
+  "lon": 37.466,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "gondar:302",
+   "gondar--sehir:302",
+   "arama:gondar:200"
+  ]
+ },
+ {
+  "ad": "Nizva",
+  "lat": 22.933,
+  "lon": 57.533,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "nizva:302",
+   "nizva--sehir:302",
+   "arama:nizva:200"
+  ]
+ },
+ {
+  "ad": "Salala",
+  "lat": 17.02,
+  "lon": 54.09,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "salala:302",
+   "salala--sehir:302",
+   "arama:salala:200"
+  ]
+ },
+ {
+  "ad": "Asmara",
+  "lat": 15.339,
+  "lon": 38.932,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "asmara:302",
+   "asmara--sehir:302",
+   "arama:asmara:200"
+  ]
+ },
+ {
+  "ad": "Tâif",
+  "lat": 21.437,
+  "lon": 40.513,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1803-02-01",
+    "t": "1813-05-02",
+    "d": "suud"
+   },
+   {
+    "f": "1916-09-17",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "taif:200"
+  ],
+  "slug": "taif",
+  "tanik": [
+   [
+    [
+     1217
+    ],
+    "İdrîs Tâif’e bir sefer düzenledi (613/1217)."
+   ],
+   [
+    [
+     1073
+    ],
+    "1073’te (1662-63) Tâif’i ziyaret eden Faslı Ayyâşî ile 1814’te buraya gelen Johann Ludwig Burckhardt’ın verdiği bilgiler bu hususu teyit etmektedir."
+   ]
+  ]
+ },
+ {
+  "ad": "Dahlak",
+  "lat": 15.692,
+  "lon": 40.138,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "dahlak:302",
+   "dahlak--sehir:302",
+   "arama:dahlak:200"
+  ]
+ },
+ {
+  "ad": "Ferasan (Farasan)",
+  "lat": 16.73,
+  "lon": 42.009,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1538-08-03",
+    "d": "yemen"
+   },
+   {
+    "f": "1635-01-01",
+    "t": "1849-05-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "ferasan:302",
+   "ferasan--sehir:302",
+   "farasan:302",
+   "farasan--sehir:302",
+   "arama:ferasan:200",
+   "arama:farasan:200"
+  ]
+ },
+ {
+  "ad": "Kemeran (Kamaran)",
+  "lat": 15.353,
+  "lon": 42.587,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1538-08-03",
+    "d": "yemen"
+   },
+   {
+    "f": "1635-01-01",
+    "t": "1849-05-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1915-06-10",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "denenen": [
+   "kemeran:302",
+   "kemeran--sehir:302",
+   "kamaran:302",
+   "kamaran--sehir:302",
+   "arama:kemeran:200",
+   "arama:kamaran:200"
+  ]
+ },
+ {
+  "ad": "Sokotra",
+  "lat": 12.51,
+  "lon": 53.872,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1507-01-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1511-01-01",
+    "d": "portekiz"
+   },
+   {
+    "f": "1511-01-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "sokotra:302",
+   "sokotra--sehir:302",
+   "arama:sokotra:200"
+  ]
+ },
+ {
+  "ad": "Masira",
+  "lat": 20.414,
+  "lon": 58.781,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "masira:302",
+   "masira--sehir:302",
+   "arama:masira:200"
+  ]
+ },
+ {
+  "ad": "Suhâr",
+  "lat": 24.3472,
+  "lon": 56.7092,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1507-01-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1650-01-26",
+    "d": "portekiz"
+   },
+   {
+    "f": "1650-01-26",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "suhar:302",
+   "suhar--sehir:302",
+   "arama:suhar:200"
+  ]
+ },
+ {
+  "ad": "Sûr",
+  "lat": 22.555,
+  "lon": 59.52,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1507-01-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1650-01-26",
+    "d": "portekiz"
+   },
+   {
+    "f": "1650-01-26",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "sur:302",
+   "sur--sehir:302",
+   "arama:sur:200"
+  ]
+ },
+ {
+  "ad": "Buraymî",
+  "lat": 24.25,
+  "lon": 55.7931,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "buraymi:302",
+   "buraymi--sehir:302",
+   "arama:buraymi:200"
+  ]
+ },
+ {
+  "ad": "Ebû Ramâd (Şalâtîn)",
+  "lat": 23.133,
+  "lon": 35.6,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-01-22",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-01-22",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "ebu-ramad:302",
+   "ebu-ramad--sehir:302",
+   "salatin:302",
+   "salatin--sehir:302",
+   "arama:ebu-ramad:200",
+   "arama:salatin:200"
+  ]
+ },
+ {
+  "ad": "Arkîko",
+  "lat": 15.548,
+  "lon": 39.449,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "arkiko:302",
+   "arkiko--sehir:302",
+   "arama:arkiko:200"
+  ]
+ },
+ {
+  "ad": "Halâib",
+  "lat": 22.219,
+  "lon": 36.647,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "denenen": [
+   "halaib:302",
+   "halaib--sehir:302",
+   "arama:halaib:200"
+  ]
+ },
+ {
+  "ad": "Akīk",
+  "lat": 18.23,
+  "lon": 38.2,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "akik:200",
+   "akik--sehir:302",
+   "arama:akik:200"
+  ]
+ },
+ {
+  "ad": "Tokar",
+  "lat": 18.427,
+  "lon": 37.729,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1884-01-01",
+    "t": "1891-02-06",
+    "d": "mehdi",
+    "enklav": true
+   },
+   {
+    "f": "1891-02-06",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "tokar:302",
+   "tokar--sehir:302",
+   "arama:tokar:200"
+  ]
+ },
+ {
+  "ad": "Sinkat",
+  "lat": 18.833,
+  "lon": 36.833,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "sinkat:302",
+   "sinkat--sehir:302",
+   "arama:sinkat:200"
+  ]
+ },
+ {
+  "ad": "Aksum",
+  "lat": 14.128,
+  "lon": 38.723,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "aksum:302",
+   "aksum--sehir:302",
+   "arama:aksum:200"
+  ]
+ },
+ {
+  "ad": "Adua",
+  "lat": 14.17,
+  "lon": 38.898,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "adua:302",
+   "adua--sehir:302",
+   "arama:adua:200"
+  ]
+ },
+ {
+  "ad": "Şire",
+  "lat": 14.103,
+  "lon": 38.283,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "sire:302",
+   "sire--sehir:302",
+   "arama:sire:200"
+  ]
+ },
+ {
+  "ad": "Adigrat",
+  "lat": 14.277,
+  "lon": 39.462,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "adigrat:302",
+   "adigrat--sehir:302",
+   "arama:adigrat:200"
+  ]
+ },
+ {
+  "ad": "Mekelle",
+  "lat": 13.497,
+  "lon": 39.475,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "mekelle:302",
+   "mekelle--sehir:302",
+   "arama:mekelle:200"
+  ]
+ },
+ {
+  "ad": "Kerene",
+  "lat": 15.778,
+  "lon": 38.451,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1872-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1884-06-03",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "kerene:302",
+   "kerene--sehir:302",
+   "arama:kerene:200"
+  ]
+ },
+ {
+  "ad": "Lalibela",
+  "lat": 12.032,
+  "lon": 39.047,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "lalibela:302",
+   "lalibela--sehir:302",
+   "arama:lalibela:200"
+  ]
+ },
+ {
+  "ad": "Sokota",
+  "lat": 12.628,
+  "lon": 39.033,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "sokota:302",
+   "sokota--sehir:302",
+   "arama:sokota:200"
+  ]
+ },
+ {
+  "ad": "Metemma",
+  "lat": 12.968,
+  "lon": 36.155,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "metemma:302",
+   "metemma--sehir:302",
+   "arama:metemma:200"
+  ]
+ },
+ {
+  "ad": "Aseb",
+  "lat": 13.009,
+  "lon": 42.735,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1882-03-10",
+    "d": "adal"
+   },
+   {
+    "f": "1882-03-10",
+    "t": "1923-10-29",
+    "d": "italya",
+    "enklav": true
+   }
+  ],
+  "denenen": [
+   "aseb:302",
+   "aseb--sehir:302",
+   "arama:aseb:200"
+  ]
+ },
+ {
+  "ad": "Kadârif",
+  "lat": 14.036,
+  "lon": 35.383,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1504-01-01",
+    "d": "nube"
+   },
+   {
+    "f": "1504-01-01",
+    "t": "1821-06-14",
+    "d": "funj"
+   },
+   {
+    "f": "1885-01-26",
+    "t": "1899-01-19",
+    "d": "mehdi"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"
+   }
+  ],
+  "denenen": [
+   "kadarif:302",
+   "kadarif--sehir:302",
+   "arama:kadarif:200"
+  ]
+ },
+ {
+  "ad": "Hayyâ",
+  "lat": 18.317,
+  "lon": 36.383,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "hayya:302",
+   "hayya--sehir:302",
+   "arama:hayya:200"
+  ]
+ },
+ {
+  "ad": "Trinkitât",
+  "lat": 18.683,
+  "lon": 37.7,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "trinkitat:302",
+   "trinkitat--sehir:302",
+   "arama:trinkitat:200"
+  ]
+ },
+ {
+  "ad": "Muhammed Kol",
+  "lat": 20.833,
+  "lon": 37.15,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "muhammed-kol:302",
+   "muhammed-kol--sehir:302",
+   "arama:muhammed-kol:200"
+  ]
+ },
+ {
+  "ad": "Ağordat",
+  "lat": 15.549,
+  "lon": 37.889,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "agordat:302",
+   "agordat--sehir:302",
+   "arama:agordat:200"
+  ]
+ },
+ {
+  "ad": "Barentu",
+  "lat": 15.106,
+  "lon": 37.59,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "barentu:302",
+   "barentu--sehir:302",
+   "arama:barentu:200"
+  ]
+ },
+ {
+  "ad": "Nakfa",
+  "lat": 16.667,
+  "lon": 38.475,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "nakfa:302",
+   "nakfa--sehir:302",
+   "arama:nakfa:200"
+  ]
+ },
+ {
+  "ad": "Tesseney",
+  "lat": 15.11,
+  "lon": 36.66,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "tesseney:302",
+   "tesseney--sehir:302",
+   "arama:tesseney:200"
+  ]
+ },
+ {
+  "ad": "Adi Kayh",
+  "lat": 14.845,
+  "lon": 39.377,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "adi-kayh:302",
+   "adi-kayh--sehir:302",
+   "arama:adi-kayh:200"
+  ]
+ },
+ {
+  "ad": "Ğındâ",
+  "lat": 15.5,
+  "lon": 39.0,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "ginda:302",
+   "ginda--sehir:302",
+   "arama:ginda:200"
+  ]
+ },
+ {
+  "ad": "Debârve",
+  "lat": 15.1,
+  "lon": 38.833,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "debarve:302",
+   "debarve--sehir:302",
+   "arama:debarve:200"
+  ]
+ },
+ {
+  "ad": "Debârek",
+  "lat": 13.157,
+  "lon": 37.9,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "debarek:302",
+   "debarek--sehir:302",
+   "arama:debarek:200"
+  ]
+ },
+ {
+  "ad": "Mirbât",
+  "lat": 16.993,
+  "lon": 54.7,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "mirbat:302",
+   "mirbat--sehir:302",
+   "arama:mirbat:200"
+  ]
+ },
+ {
+  "ad": "Tâka (Zufâr)",
+  "lat": 17.057,
+  "lon": 54.404,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "taka:302",
+   "taka--sehir:302",
+   "zufar:302",
+   "zufar--sehir:302",
+   "arama:taka:200",
+   "arama:zufar:200"
+  ]
+ },
+ {
+  "ad": "Hâsik",
+  "lat": 17.383,
+  "lon": 55.283,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "hasik:302",
+   "hasik--sehir:302",
+   "arama:hasik:200"
+  ]
+ },
+ {
+  "ad": "Şüveymiye",
+  "lat": 17.946,
+  "lon": 55.969,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "suveymiye:302",
+   "suveymiye--sehir:302",
+   "arama:suveymiye:200"
+  ]
+ },
+ {
+  "ad": "Dukm",
+  "lat": 19.66,
+  "lon": 57.707,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "dukm:302",
+   "dukm--sehir:302",
+   "arama:dukm:200"
+  ]
+ },
+ {
+  "ad": "Muhût",
+  "lat": 20.7,
+  "lon": 58.1,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "muhut:302",
+   "muhut--sehir:302",
+   "arama:muhut:200"
+  ]
+ },
+ {
+  "ad": "Tumreyt",
+  "lat": 17.667,
+  "lon": 54.024,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "tumreyt:302",
+   "tumreyt--sehir:302",
+   "arama:tumreyt:200"
+  ]
+ },
+ {
+  "ad": "Şisr",
+  "lat": 18.257,
+  "lon": 53.647,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "sisr:302",
+   "sisr--sehir:302",
+   "arama:sisr:200"
+  ]
+ },
+ {
+  "ad": "Derûdeb",
+  "lat": 17.55,
+  "lon": 36.1,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1517-04-13",
+    "t": "1557-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1885-02-05",
+    "t": "1899-01-19",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "d": "ingiliz-sudani",
+    "kaynak": "Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"
+   }
+  ],
+  "denenen": [
+   "derudeb:302",
+   "derudeb--sehir:302",
+   "arama:derudeb:200"
+  ]
+ },
+ {
+  "ad": "Vukro",
+  "lat": 13.79,
+  "lon": 39.6,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "vukro:302",
+   "vukro--sehir:302",
+   "arama:vukro:200"
+  ]
+ },
+ {
+  "ad": "Alamata",
+  "lat": 12.42,
+  "lon": 39.55,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "d": "habesistan"
+   }
+  ],
+  "denenen": [
+   "alamata:302",
+   "alamata--sehir:302",
+   "arama:alamata:200"
+  ]
+ },
+ {
+  "ad": "Zula",
+  "lat": 15.283,
+  "lon": 39.7,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "zula:302",
+   "zula--sehir:302",
+   "arama:zula:200"
+  ]
+ },
+ {
+  "ad": "Adi Kuala",
+  "lat": 14.68,
+  "lon": 38.83,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1889-01-01",
+    "d": "habesistan"
+   },
+   {
+    "f": "1889-01-01",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "denenen": [
+   "adi-kuala:302",
+   "adi-kuala--sehir:302",
+   "arama:adi-kuala:200"
+  ]
+ },
+ {
+  "ad": "Cezîr (Sevkıra)",
+  "lat": 18.161,
+  "lon": 56.537,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "cezir:302",
+   "cezir--sehir:302",
+   "sevkira:302",
+   "sevkira--sehir:302",
+   "arama:cezir:200",
+   "arama:sevkira:200"
+  ]
+ },
+ {
+  "ad": "Râs Medreke",
+  "lat": 19.002,
+  "lon": 57.792,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "ras-medreke:302",
+   "ras-medreke--sehir:302",
+   "arama:ras-medreke:200"
+  ]
+ },
+ {
+  "ad": "Rahbût",
+  "lat": 16.762,
+  "lon": 53.418,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_h2_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "denenen": [
+   "rahbut:302",
+   "rahbut--sehir:302",
+   "arama:rahbut:200"
+  ]
+ },
+ {
+  "ad": "el-Ulâ",
+  "lat": 26.6167,
+  "lon": 37.9167,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ok101.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-01-01",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "el-ula:302",
+   "el-ula--sehir:302",
+   "arama:el-ula:200"
+  ]
+ },
+ {
+  "ad": "Medâin-i Sâlih (el-Hicr)",
+  "lat": 26.7917,
+  "lon": 37.9542,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ok101.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-01-01",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "medain-i-salih:302",
+   "medain-i-salih--sehir:302",
+   "el-hicr:302",
+   "el-hicr--sehir:302",
+   "arama:medain-i-salih:200",
+   "arama:el-hicr:200"
+  ]
+ },
+ {
+  "ad": "el-Vech",
+  "lat": 26.2333,
+  "lon": 36.4667,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_ok101.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-01-01",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "el-vech:302",
+   "el-vech--sehir:302",
+   "arama:el-vech:200"
+  ]
+ },
+ {
+  "ad": "Hayber",
+  "lat": 25.6981,
+  "lon": 39.292,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ok101.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1805-06-01",
+    "t": "1812-12-03",
+    "d": "suud"
+   },
+   {
+    "f": "1919-01-10",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "hayber:200"
+  ],
+  "slug": "hayber",
+  "tanik": [
+   [
+    [
+     1173
+    ],
+    "Daha sonra bazı yahudilerin Hayber’e dönüp yerleştikleri iddia edilmekteyse de muhtemelen bir yahudi olan Tüdeyleli Bünyâmin’in Haçlı seferleri sırasında verdiği, 1173’te Hayber’de 1150 yahudinin bulunduğu yolundaki bilgiler pek güvenilir sayılmamakta, XIX."
+   ]
+  ]
+ },
+ {
+  "ad": "Sa'de",
+  "lat": 16.94,
+  "lon": 43.764,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ok104.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1872-04-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "sade:302",
+   "sade--sehir:302",
+   "arama:sade:200"
+  ]
+ },
+ {
+  "ad": "Şehâre",
+  "lat": 16.183,
+  "lon": 43.723,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ok104.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1872-04-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "sehare:302",
+   "sehare--sehir:302",
+   "arama:sehare:200"
+  ]
+ },
+ {
+  "ad": "Kevkebân",
+  "lat": 15.503,
+  "lon": 43.899,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ok104.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1872-04-01",
+    "d": "yemen"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "yemen"
+   }
+  ],
+  "denenen": [
+   "kevkeban:200"
+  ],
+  "slug": "kevkeban",
+  "tanik": []
+ },
+ {
+  "ad": "Bedir",
+  "lat": 23.78,
+  "lon": 38.79,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ok107.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1805-07-20",
+    "t": "1811-11-01",
+    "d": "suud"
+   },
+   {
+    "f": "1916-07-27",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "bedir:200",
+   "bedir--sehir:302",
+   "arama:bedir:200"
+  ]
+ },
+ {
+  "ad": "Râbiğ",
+  "lat": 22.799,
+  "lon": 39.035,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_ok107.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1916-06-16",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "rabig:302",
+   "rabig--sehir:302",
+   "arama:rabig:200"
+  ]
+ },
+ {
+  "ad": "Türabe",
+  "lat": 21.214,
+  "lon": 41.633,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_nokta_ortadogu_0917.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1801-01-01",
+    "t": "1815-01-13",
+    "d": "suud-birinci"
+   },
+   {
+    "f": "1816-01-01",
+    "t": "1818-09-09",
+    "d": "__BOSLUK__"
+   },
+   {
+    "f": "1916-06-10",
+    "t": "1919-05-26",
+    "d": "hicaz"
+   },
+   {
+    "f": "1919-05-26",
+    "t": "1923-10-29",
+    "d": "suud-ucuncu"
+   }
+  ],
+  "denenen": [
+   "turabe:302",
+   "turabe--sehir:302",
+   "arama:turabe:200"
+  ]
+ },
+ {
+  "ad": "Hurma (Tâif doğusu)",
+  "lat": 21.911,
+  "lon": 42.031,
+  "tur": "vaha",
+  "kur": null,
+  "dosya": "yerlesimler_nokta_ortadogu_0917.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-07-06",
+    "d": "memluk"
+   },
+   {
+    "f": "1801-01-01",
+    "t": "1815-01-13",
+    "d": "suud-birinci"
+   },
+   {
+    "f": "1815-01-13",
+    "t": "1818-09-09",
+    "d": "__BOSLUK__"
+   },
+   {
+    "f": "1916-06-10",
+    "t": "1919-05-26",
+    "d": "hicaz"
+   },
+   {
+    "f": "1919-05-26",
+    "t": "1923-10-29",
+    "d": "suud-ucuncu"
+   }
+  ],
+  "denenen": [
+   "hurma:200"
+  ],
+  "slug": "hurma",
+  "tanik": []
+ },
+ {
+  "ad": "Seyûn (Sayvan)",
+  "lat": 15.9433,
+  "lon": 48.7933,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_nokta_ortadogu_0917.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1450-01-01",
+    "d": "yemen-zeydi"
+   },
+   {
+    "f": "1450-01-01",
+    "t": "1538-01-01",
+    "d": "kesiri-sultanligi"
+   },
+   {
+    "f": "1635-10-22",
+    "t": "1659-01-01",
+    "d": "kesiri-sultanligi"
+   },
+   {
+    "f": "1659-01-01",
+    "t": "1700-01-01",
+    "d": "yemen-zeydi"
+   },
+   {
+    "f": "1700-01-01",
+    "t": "1923-10-29",
+    "d": "kesiri-sultanligi"
+   }
+  ],
+  "denenen": [
+   "seyun:302",
+   "seyun--sehir:302",
+   "sayvan:200",
+   "sayvan--sehir:302",
+   "arama:seyun:200",
+   "arama:sayvan:200"
+  ]
+ }
+]

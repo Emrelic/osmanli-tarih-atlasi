@@ -1,0 +1,6232 @@
+[
+ {
+  "ad": "Tebriz",
+  "lat": 38.08,
+  "lon": 46.292,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "TDV `karakoyunlular`: Serdrûd (Tebriz yakınları) 16 Zilkade 810 / 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" · Iranica JALAYERIDS: 1410'da Tebriz Kara Yûsuf'un elinde · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "tebriz:200"
+  ],
+  "slug": "tebriz",
+  "tanik": [
+   [
+    [
+     1054
+    ],
+    "Tebriz, Revvâdî Emîri Ebû Mansûr ve bazı mahallî hükümdarlarla birlikte Azerbaycan’a gelen Sultan Tuğrul Bey’e itaatini bildirdi ve Selçuklu hâkimiyetine girdi (446/1054)."
+   ],
+   [
+    [
+     1059,
+     1062
+    ],
+    "451’de (1059) Revvâdîler’den Ebû Nasr Memlân’ın isyanı yüzünden ertesi yıl Tebriz’i kuşatan Tuğrul Bey başarılı olamadıysa da 454’te (1062) şehri yeniden Selçuklu topraklarına kattı."
+   ],
+   [
+    [
+     1118
+    ],
+    "Sultan Berkyaruk ile Muhammed Tapar kardeşler arasındaki anlaşmaya göre Muhammed’e kalan Tebriz, özellikle Irak Selçukluları zamanında (1118-1194) dönemin en önemli yerleşim merkezlerinin başında geliyordu."
+   ],
+   [
+    [
+     1174,
+     1186
+    ],
+    "Bir süre Ahmedîlîler’in hâkimiyetine giren Tebriz’i barış yoluyla alan İldenizli atabeglerinden Pehlivan şehri kardeşi Kızılarslan’a verdi (570/1174) (İbnü’l-Esîr, XI, 339), o da burayı Azerbaycan’ın merkezi haline getirdi (581/1186)."
+   ],
+   [
+    [
+     1231,
+     1256
+    ],
+    "628 (1231) yılında Moğol işgaline uğrayan Tebriz’i Argun Han askerî faaliyetleri için merkez yaptı ve Hülâgû’nun 1256’da gelişiyle Hülâgû Han tahtı diye nitelendirildi; idarî-siyasî merkez oldu."
+   ],
+   [
+    [
+     1144
+    ],
+    "Hekimoğlu Ali Paşa’nın 15 Cemâziyelevvel 1144’te (15 Kasım 1731) yeniden ele geçirdiği şehir 1736 antlaşmasıyla İran’a bırakıldı."
+   ],
+   [
+    [
+     1042
+    ],
+    "1042’de surlar, saraylar, evler ve pazarlar yıkıldı; kaynakların abartılı rakamlarıyla 50.000 kişi öldü."
+   ],
+   [
+    [
+     1273
+    ],
+    "1067 ve 1273’te yine surlar ve binaların çoğu tahribata uğradı."
+   ]
+  ]
+ },
+ {
+  "ad": "Nahçıvan",
+  "lat": 39.209,
+  "lon": 45.412,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1828-02-22",
+    "d": "kacar"
+   },
+   {
+    "f": "1828-02-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "nahcivan:200"
+  ],
+  "slug": "nahcivan",
+  "tanik": [
+   [
+    [
+     1064
+    ],
+    "456’da (1064) Revvâdîler’i mağlûp eden Selçuklu Hükümdarı Alparslan Nahcıvan şahlığına son verdi."
+   ],
+   [
+    [
+     1092,
+     1174
+    ],
+    "485’te (1092) Melikşah’ın ölümünün ardından bir süre daha Selçuklu Devleti’ne bağlı kaldıysa da Selçuklular’ın dağılmasıyla onların arazileri üzerinde ortaya çıkan İldenizliler Devleti’ne katıldı ve 570 (1174) yılına kadar İldenizliler’in merkezi oldu."
+   ],
+   [
+    [
+     1221
+    ],
+    "Nahcıvan’ın gerilemesi Moğollar’ın 618’de (1221) burayı ele geçirmesinden sonra başladı."
+   ],
+   [
+    [
+     1136,
+     1136
+    ],
+    "1136-1137’de (1723-1724) Kafkasya bölgesi Rusya ve Osmanlı Devleti tarafından zaptedildi ve Şevval 1136’da (Temmuz 1724) İstanbul’da imzalanan antlaşmaya göre Safevîler’in Hazar denizi bölgesi Rusya’ya, Tiflis, Revan, Gence-Karabağ, Tebriz, Erdebil eyaletleri Osmanlı Devleti’ne verildi."
+   ]
+  ]
+ },
+ {
+  "ad": "Mahmudâbâd",
+  "lat": 39.38,
+  "lon": 49.24,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1501-07-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1723-09-23",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-09-23",
+    "t": "1732-01-21",
+    "d": "rusya"
+   },
+   {
+    "f": "1732-01-21",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "mahmudabad:302",
+   "mahmudabad--sehir:302",
+   "arama:mahmudabad:200"
+  ]
+ },
+ {
+  "ad": "Isfahan",
+  "lat": 32.654,
+  "lon": 51.668,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "isfahan:200"
+  ],
+  "slug": "isfahan",
+  "tanik": [
+   [
+    [
+     1030
+    ],
+    "Daha sonra onun ölümünü (421/1030) fırsat bilen Alâüddevle yeniden kendi yönetimini kurdu ve Mes‘ûd’a itaatini arzetti."
+   ],
+   [
+    [
+     1045
+    ],
+    "Nîşâbûr, Rey, Kazvin ve Zencan gibi İran’ın önemli merkezlerini kısa sürede ele geçiren Selçuklu Hükümdarı Tuğrul Bey, güneye yönelerek 437 (1045-46) yılında Kâkûyîler’den Ebû Mansûr Ferâmurz’un elinde bulunan İsfahan’ı kuşattı."
+   ],
+   [
+    [
+     1042
+    ],
+    "Ancak Ferâmurz’un daha 434’ten (1042-43) itibaren İsfahan’da bastırdığı sikkelerde “es-sultânü’l-muazzam Tuğrul Beg” ibaresini ve Selçuklu hâkimiyet alâmeti olan okyay motifini kullanmak suretiyle Tuğrul Bey’i metbû tanıdığı görülmektedir."
+   ],
+   [
+    [
+     1050,
+     1051
+    ],
+    "Tuğrul Bey’in ikinci askerî harekâtı 442 (1050) yılında vuku buldu ve İsfahan uzun bir kuşatmanın ardından sulhen ele geçirildi (443/1051)."
+   ],
+   [
+    [
+     1092
+    ],
+    "Melikşah, Hanefî öğrenciler için Medrese-i Celâlî (Medrese-i Melikşâhî, Nizâmiyye-i İsfahan) denilen büyük bir medrese yaptırdı ve öldüğünde naaşı Bağdat’tan getirilerek buradaki türbesine defnedildi (485/1092)."
+   ],
+   [
+    [
+     1093
+    ],
+    "486 (1093) yılında İsfahan’da Mahmud ve Berkyaruk adına sikke kesilmesinden (Hennequin, s."
+   ],
+   [
+    [
+     1101
+    ],
+    "Bunun üzerine 494’te (1101) Sultan Berkyaruk’un emriyle çok sayıda Bâtınî katledildi."
+   ],
+   [
+    [
+     1116
+    ],
+    "Muhammed Tapar devrinde de faaliyet ve cinayetlerini devam ettiren Bâtınîler 510’da (1116) İsfahan Cuma Camii’ni ve ünlü kütüphanesini yaktılar."
+   ],
+   [
+    [
+     1118
+    ],
+    "Muhammed Tapar’ın yerine oğlu Mahmud geçtiyse de ağabeylerinin dönemlerinde Horasan meliki olan Sultan Melikşah’ın küçük oğlu Sencer ona karşı çıkarak aralarında cereyan eden Sâve Savaşı’nda galip geldi ve yeğenini, kendisini Büyük Selçuklu sultanı tanıması şartıyla başşehri İsfahan olmak üzere yeni kurduğu Irak Selçukluları’nın başına geçirdi; imparatorluk merkezini de buradan Merv’e taşıdı (512/1118)."
+   ],
+   [
+    [
+     1138
+    ],
+    "Ancak halife şehre gelişinden kısa bir süre sonra Bâtınîler tarafından öldürülmüş (532/1138) ve bu hadise halkın da İsfahan’daki İsmâilîler’i öldürmesine sebep olmuştur."
+   ],
+   [
+    [
+     1194
+    ],
+    "Tuğrul’u mağlûp ve katlederek Irak Selçuklu Devleti’ni yıktı (590/1194) ve İsfahan’ı Irak ümerâsından Kutluğ İnanç’a verdi."
+   ],
+   [
+    [
+     1228
+    ],
+    "Celâleddin Hârizmşah, uzun mücadelelerden sonra Moğollar’la 625 (1228) yılında İsfahan surları önünde karşılaştı."
+   ],
+   [
+    [
+     1235
+    ],
+    "Böylece İsfahan yine Moğol istilâsından kurtulduysa da 633’te (1235-36) kurtulamadı."
+   ],
+   [
+    [
+     1135
+    ],
+    "Bu durum şehirdeki sûfî varlığının önemini yitirmeden sürdüğünü göstermektedir; ancak Şah Hüseyin Mirza 1135’te (1722-23) sûfî hankahlarının tamamını yıktırmıştır."
+   ],
+   [
+    [
+     1037
+    ],
+    "Bu dönemde Alâüddevle Muhammed’in şehrin imarında önemli bir rolü olmuş, 1037-1038’den başlayarak şehir yeniden imar edilmiştir."
+   ],
+   [
+    [
+     1042,
+     1051
+    ],
+    "1042-1043’ten itibaren Tuğrul Bey’e tâbi olan şehirde Selçuklular’ın tam hâkimiyeti 1051’de başlamış ve geniş bir imar faaliyetine sahne olmuştur."
+   ],
+   [
+    [
+     1080
+    ],
+    "Abbâd’ın yaptırmış olduğu küçük bir caminin yerinde 1080 yılında Vezir Nizâmülmülk tarafından yaptırılan tuğla yapı güzel ve büyük bir kubbeyle örtülmüştür."
+   ],
+   [
+    [
+     1121
+    ],
+    "Sultan Sencer devrinde başşehir olma özelliğini kaybeden İsfahan’da çıkan ayaklanmalarla Haziran 1121’de önemli bir yıkım geçiren İsfahan Cuma Camii yeniden tamir ve tâdil edilmiştir."
+   ],
+   [
+    [
+     1194,
+     1235
+    ],
+    "1194’te Hârizmşahlar’ın ve 1235-1236’da Moğollar’ın eline geçen İsfahan, İlhanlı devrinde önemli bir gelişme göstermiştir."
+   ]
+  ]
+ },
+ {
+  "ad": "Erdebil",
+  "lat": 38.249,
+  "lon": 48.294,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "erdebil:200"
+  ],
+  "slug": "erdebil",
+  "tanik": [
+   [
+    [
+     1210
+    ],
+    "1209 veya 1210 yılında Gürcü ordusu Erdebil’e saldırarak yerli sultanı katletti ve ailesini esir edip 12.000’e yakın müslümanı öldürdü."
+   ],
+   [
+    [
+     1220
+    ],
+    "Moğollar’dan kaçıp 617’de (1220) Horasan’dan Erdebil’e sığınan Yâkūt el-Hamevî, şehri terkettikten kısa bir süre sonra Moğollar’ın oraya da saldırdıklarını yazar."
+   ]
+  ]
+ },
+ {
+  "ad": "Meşhed",
+  "lat": 36.297,
+  "lon": 59.606,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-04-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-04-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "meshed:200",
+   "meshed--sehir:302",
+   "arama:meshed:200"
+  ]
+ },
+ {
+  "ad": "Şiraz",
+  "lat": 29.591,
+  "lon": 52.584,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "siraz:200"
+  ],
+  "slug": "siraz",
+  "tanik": [
+   [
+    [
+     1056,
+     1062
+    ],
+    "Şehir 448’de (1056) Fülâd Sütûn’u mağlûp ederek öldüren Şebânkâre Emîri Fazlûye’nin, 454 (1062) yılında Selçuklu hânedanından Kirman hâkimi Kavurd Bey’in idaresine girdi."
+   ],
+   [
+    [
+     1071
+    ],
+    "Ancak Fazlûye, Selçuklu hâkimiyetine karşı isyan etti ve yakalanarak öldürüldü (464/1071)."
+   ],
+   [
+    [
+     1148
+    ],
+    "Mevdûd’un hâkimiyetine girdi (543/1148)."
+   ],
+   [
+    [
+     1180
+    ],
+    "Zend hânedanının kurucusu Kerim Han Zend, Şîraz’ı 1180’de (1766-67) başşehir haline getirdi ve imar etti."
+   ]
+  ]
+ },
+ {
+  "ad": "Kazvin",
+  "lat": 36.269,
+  "lon": 50.004,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kazvin:200"
+  ],
+  "slug": "kazvin",
+  "tanik": [
+   [
+    [
+     1029
+    ],
+    "Şehir 318’de (930) Büveyhîler’in, 420’de de (1029) Gazneliler’in idaresine girdi."
+   ],
+   [
+    [
+     1220
+    ],
+    "Moğollar Alamut’taki İsmâilîler’in sonunu getirmeden önce 617’de (1220) Kazvin ahalisini kılıçtan geçirdiler ve birçok Türk-Moğol kabilesini buraya iskân ettiler."
+   ],
+   [
+    [
+     1253
+    ],
+    "Mengü Kağan 651’de (1253) İftihârüddin Muhammed’i buraya vali tayin ederek yaklaşık yarım asır sürecek olan İftihârîler dönemini başlattı."
+   ]
+  ]
+ },
+ {
+  "ad": "Kum",
+  "lat": 34.64,
+  "lon": 50.876,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kum:200"
+  ],
+  "slug": "kum",
+  "tanik": []
+ },
+ {
+  "ad": "Urmiye",
+  "lat": 37.553,
+  "lon": 45.076,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "urmiye:200"
+  ],
+  "slug": "urmiye",
+  "tanik": [
+   [
+    [
+     1040
+    ],
+    "Ebü’l-Heycâ’nın Tebriz hâkimi olan dayısı Vehsûdân er-Revvâdî’nin 432 (1040-41) yılında Oğuzlar’dan birçok kişiyi öldürmesi üzerine Urmiye’deki Oğuzlar şehirden ayrılıp Hakkâri’ye gittiler."
+   ],
+   [
+    [
+     1149
+    ],
+    "Şehir, 544’te (1149) Melik Muhammed b."
+   ],
+   [
+    [
+     1189
+    ],
+    "Tuğrul’un 585’te (1189) Emîr İzzeddin Hasan b."
+   ],
+   [
+    [
+     1205
+    ],
+    "İbnü’l-Esîr, İldenizliler’den Atabeg Ebû Bekir’in 602 (1205-1206) yılında Merâga’ya karşılık Uşnu ve Urmiye’yi Atabeg Alâeddin’e verdiğini kaydeder ( a.g.e."
+   ],
+   [
+    [
+     1220
+    ],
+    "617’de (1220) Urmiye’yi ziyaret eden Yâkūt el-Hamevî şehrin bağ ve bahçeleri, suları ve havasıyla, bol meyveleriyle büyük ve güzel bir yerleşim birimi olduğunu söylemekte, bu arada Atabeg Muzafferüddin Özbek’in şahsî zaaflarından dolayı şehirde hüküm süren güvensizlikten bahsetmektedir."
+   ],
+   [
+    [
+     1226
+    ],
+    "Celâleddin Hârizmşah, Ahlat’ı kuşattığı sırada Urmiye ve Hoy civarındaki Yıva Türkmenleri’nin Azerbaycan’da karışıklıklar çıkardığını duyunca 623’te (1226) Azerbaycan’a dönüp bölgedeki Türkmenleri dağıttı."
+   ],
+   [
+    [
+     1230
+    ],
+    "628 (1230) kışını Urmiye ve Uşnu’da geçiren Celâleddin Urmiye, Selmâs ve Hoy’u Selçuklu hânedanına mensup olan hanımına verdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Reşt",
+  "lat": 37.281,
+  "lon": 49.583,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1371-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1371-01-01",
+    "t": "1501-07-01",
+    "d": "gilan-kiya"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1723-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-01-01",
+    "t": "1732-09-02",
+    "d": "rusya"
+   },
+   {
+    "f": "1732-09-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "rest:302",
+   "rest--sehir:302",
+   "arama:rest:200"
+  ]
+ },
+ {
+  "ad": "Kirman",
+  "lat": 30.28,
+  "lon": 57.08,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1510-12-02",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kirman:200"
+  ],
+  "slug": "kirman",
+  "tanik": [
+   [
+    [
+     1032
+    ],
+    "Mesud tarafından 423’te (1032) zaptedildi ve bir süre Gazneliler’in hâkimiyetinde kaldı."
+   ],
+   [
+    [
+     1042,
+     1048
+    ],
+    "Buraya yönelik ilk akınlarını 434 (1042-43) yılında başlatan Kavurd, daha sonra o sıralarda Büveyhîler’in hâkimiyeti altında bulunan Kuzey Kirman’ı (Serdsîr) fethederek Kirman Selçuklu Devleti’ni kurdu (440/1048)."
+   ],
+   [
+    [
+     1187,
+     1222
+    ],
+    "583’te (1187) Kirman Selçuklu Devleti’ne son veren Oğuz Beyi Melik Dînâr bölgeyi ele geçirdi; ardından Karahıtay asıllı Barak Hâcib 619’da (1222) buraya hâkim oldu ve Kutluğhanlılar adıyla bilinen hânedanı kurdu."
+   ],
+   [
+    [
+     1257
+    ],
+    "1282’de bölgeden geçen Marco Polo buranın önemli bir silâh üretim merkezi olduğunu ve Kutluğ Terken Hatun döneminde (1257-1283) çok müreffeh bir hayat yaşadığını yazar."
+   ]
+  ]
+ },
+ {
+  "ad": "Yezd",
+  "lat": 31.9,
+  "lon": 54.37,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "yezd:200"
+  ],
+  "slug": "yezd",
+  "tanik": [
+   [
+    [
+     1030
+    ],
+    "Rüstem Düşmenziyâr, Yezd’i ele geçirerek kendi adına para bastırdı (421/1030)."
+   ],
+   [
+    [
+     1041
+    ],
+    "Onun ölümünden (1041) sonra yerine oğlu Ebû Mansûr Ferâmurz geçti."
+   ],
+   [
+    [
+     1076
+    ],
+    "Ali de babası gibi Selçuklu sultanları tarafından himaye edildi ve Çağrı Bey’in daha önce Halife Kāim-Biemrillâh ile evli olan kızı Hatice Arslan Hatun ile evlendirildi (469/1076-77)."
+   ],
+   [
+    [
+     1141
+    ],
+    "Gerşâsb, Sultan Sencer’in saflarında Karahıtaylar’a karşı yapılan Katvân savaşında öldü (536/1141)."
+   ],
+   [
+    [
+     1161
+    ],
+    "Tuğrul zamanında (1161-1177) Yezd’i Gerşâsb’ın iki kızı idare etmekteydi."
+   ],
+   [
+    [
+     1275
+    ],
+    "Alâüddevle’nin atabegliğinin son yılında Yezd’de büyük bir sel felâketi meydana geldi (673/1275)."
+   ],
+   [
+    [
+     1000
+    ],
+    "Bunların sayısının 1000’e ulaştığı rivayet edilir."
+   ],
+   [
+    [
+     1119
+    ],
+    "İslâmî döneme ait en eski mimari yapılardan biri Mescid-i Cum‘a (Mescid-i Câmi‘) olup 512 (1119) yılında inşa edilmiştir."
+   ]
+  ]
+ },
+ {
+  "ad": "Tahran",
+  "lat": 35.69,
+  "lon": 51.39,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "tahran:200",
+   "tahran--sehir:302",
+   "arama:tahran:200"
+  ]
+ },
+ {
+  "ad": "Hürmüz Adası",
+  "lat": 26.861,
+  "lon": 56.366,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1510-12-02",
+    "d": "hurmuz-sultanligi"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1515-04-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1622-05-01",
+    "d": "portekiz"
+   },
+   {
+    "f": "1622-05-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "hurmuz-adasi:302",
+   "hurmuz-adasi--sehir:302",
+   "arama:hurmuz-adasi:200"
+  ]
+ },
+ {
+  "ad": "Kişm (Qeshm)",
+  "lat": 26.791,
+  "lon": 55.821,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1510-12-02",
+    "d": "hurmuz-sultanligi"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1515-04-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1622-05-01",
+    "d": "portekiz"
+   },
+   {
+    "f": "1622-05-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kism:302",
+   "kism--sehir:302",
+   "qeshm:302",
+   "qeshm--sehir:302",
+   "arama:kism:200",
+   "arama:qeshm:200"
+  ]
+ },
+ {
+  "ad": "Kiş (Kish)",
+  "lat": 26.526,
+  "lon": 53.979,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1508-01-01",
+    "d": "hurmuz-sultanligi"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kis:302",
+   "kis--sehir:302",
+   "kish:302",
+   "kish--sehir:302",
+   "arama:kis:200",
+   "arama:kish:200"
+  ]
+ },
+ {
+  "ad": "Merâga",
+  "lat": 37.3894,
+  "lon": 46.2381,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "meraga:200"
+  ],
+  "slug": "meraga",
+  "tanik": [
+   [
+    [
+     1054
+    ],
+    "Abbâsîler’den sonra Merâga sırasıyla Sâcoğulları, Büveyhîler, Deylemîler ve Revvâdîler’in, 446’da (1054-55) Selçuklular’ın hâkimiyetine girdi."
+   ],
+   [
+    [
+     1146
+    ],
+    "Merâga, Ahmedîlîler’den Nusretüddin Arslanapa zamanında Sultan Mesud tarafından kuşatılarak ele geçirildi ve surları yıktırıldı (541/1146-47)."
+   ],
+   [
+    [
+     1205
+    ],
+    "602’de (1205-1206) İldenizliler’den Atabeg Ebû Bekir, Merâga üzerine yürüyünce Ahmedîlîler’den Alâeddin Körpearslan kaleyi ona bırakmak zorunda kaldı."
+   ],
+   [
+    [
+     1207,
+     1208
+    ],
+    "Alâeddin Körpearslan’ın 604’te (1207-1208) ölümü üzerine Atabeg Ebû Bekir 605’te (1208-1209) Merâga’nın geri kalan topraklarını da zaptetti."
+   ],
+   [
+    [
+     1221
+    ],
+    "Şehir 618’de (1221) Moğollar tarafından yakılıp yıkılarak halkı kılıçtan geçirildi."
+   ],
+   [
+    [
+     1225
+    ],
+    "Moğollar karşısında uzun bir mücadeleye giren Celâleddin Hârizmşah 622 (1225) yılında Azerbaycan’a yöneldiğinde şehir halkı onu davet etti."
+   ],
+   [
+    [
+     1231
+    ],
+    "Şehir 628’de (1231) Moğollar tarafından ikinci defa ele geçirildi ve halkı yine katliama uğratıldı."
+   ],
+   [
+    [
+     1251
+    ],
+    "Merâga bölgesinin vergisini Büyük Moğol Hanı Mengü zamanında (1251-1260), Tebriz ve Hemedan’a kadar olan yerlerin vergileriyle birlikte Batu Han’ın adamları toplamaktaydı."
+   ],
+   [
+    [
+     1147,
+     1167,
+     1168,
+     1197
+    ],
+    "Merâga şehrinde bulunan önemli tarihî eserler arasında Surh Kümbeti (542/1147), Gerd Kümbeti (563/1167), Burc-ı Âcurî (563/1168), Kebûd Kümbeti (593/1197), Gaffâriyye Kümbeti (728/1328), Mescid-i Şeyh Bâbâ (IX./XV."
+   ]
+  ]
+ },
+ {
+  "ad": "Hoy",
+  "lat": 38.5503,
+  "lon": 44.9521,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1585-09-25",
+    "d": "safevi"
+   },
+   {
+    "f": "1603-10-21",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "hoy:200"
+  ],
+  "slug": "hoy",
+  "tanik": []
+ },
+ {
+  "ad": "Merend",
+  "lat": 38.4328,
+  "lon": 45.775,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "merend:302",
+   "merend--sehir:302",
+   "arama:merend:200"
+  ]
+ },
+ {
+  "ad": "Culfa",
+  "lat": 38.955,
+  "lon": 45.63,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "culfa:302",
+   "culfa--sehir:302",
+   "arama:culfa:200"
+  ]
+ },
+ {
+  "ad": "Ahar (Karadağ)",
+  "lat": 38.4772,
+  "lon": 47.07,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "ahar:200",
+   "ahar--sehir:302",
+   "karadag:200"
+  ],
+  "slug": "karadag",
+  "tanik": [
+   [
+    [
+     1077
+    ],
+    "Prenslik 1077’de bir krallık haline geldi."
+   ],
+   [
+    [
+     1101
+    ],
+    "1101’den sonra devlet anarşi içine düştü, böylece Zeta Sırp ve Bizans hâkimiyeti arasında sürekli el değiştirdi."
+   ],
+   [
+    [
+     1189
+    ],
+    "1189 yılında Sırbistan hâkimiyetini sağlamlaştırdı, fakat Zeta’ya bir tür özel statü tanındı."
+   ]
+  ]
+ },
+ {
+  "ad": "Sarâb",
+  "lat": 37.9408,
+  "lon": 47.5364,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "sarab:302",
+   "sarab--sehir:302",
+   "arama:sarab:200"
+  ]
+ },
+ {
+  "ad": "Miyâne",
+  "lat": 37.4247,
+  "lon": 47.7167,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "miyane:302",
+   "miyane--sehir:302",
+   "arama:miyane:200"
+  ]
+ },
+ {
+  "ad": "Halhâl",
+  "lat": 37.6167,
+  "lon": 48.5333,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "halhal:302",
+   "halhal--sehir:302",
+   "arama:halhal:200"
+  ]
+ },
+ {
+  "ad": "Kâşân",
+  "lat": 33.9831,
+  "lon": 51.41,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kasan:200"
+  ],
+  "slug": "kasan",
+  "tanik": [
+   [
+    [
+     1074
+    ],
+    "Şehirdeki İslâmî yapıların en önemlilerinden biri Selçuklular zamanında inşa edilen Mescid-i Câmî ve minaresidir (466/1074)."
+   ]
+  ]
+ },
+ {
+  "ad": "Sâve",
+  "lat": 35.0213,
+  "lon": 50.3566,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1387-11-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "save:302",
+   "save--sehir:302",
+   "arama:save:200"
+  ]
+ },
+ {
+  "ad": "Simnân",
+  "lat": 35.5769,
+  "lon": 53.3972,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1387-11-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "simnan:200"
+  ],
+  "slug": "simnan",
+  "tanik": [
+   [
+    [
+     1029
+    ],
+    "Her ne kadar 420’de (1029) Irak Oğuzları tarafından yağmalandıysa da ( a.g.e."
+   ],
+   [
+    [
+     1046
+    ],
+    ", IX, 379) 437’de (1046) burayı gören Nâsır-ı Hüsrev bir yıkım izinden bahsetmez."
+   ],
+   [
+    [
+     1221
+    ],
+    "618’de (1221) kerpiç surlarla çevrili Simnân’a giren Moğollar şehri yağmalayıp tahrip ederek pek çok kişiyi öldürdüler; Yâkūt el-Hamevî, buranın harabe halinde olduğunu söyler ( Muʿcemü’l-büldân , III, 285)."
+   ]
+  ]
+ },
+ {
+  "ad": "Dâmgan",
+  "lat": 36.1683,
+  "lon": 54.3481,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1387-11-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "damgan:302",
+   "damgan--sehir:302",
+   "arama:damgan:200"
+  ]
+ },
+ {
+  "ad": "Bistâm",
+  "lat": 36.4831,
+  "lon": 55.01,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1387-11-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bistam:302",
+   "bistam--sehir:302",
+   "arama:bistam:200"
+  ]
+ },
+ {
+  "ad": "Gulpâygân",
+  "lat": 33.455,
+  "lon": 50.2881,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "gulpaygan:302",
+   "gulpaygan--sehir:302",
+   "arama:gulpaygan:200"
+  ]
+ },
+ {
+  "ad": "Erdistan",
+  "lat": 33.3769,
+  "lon": 52.3697,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "erdistan:302",
+   "erdistan--sehir:302",
+   "arama:erdistan:200"
+  ]
+ },
+ {
+  "ad": "Nâin",
+  "lat": 32.8597,
+  "lon": 53.085,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "nain:302",
+   "nain--sehir:302",
+   "arama:nain:200"
+  ]
+ },
+ {
+  "ad": "Burûcird",
+  "lat": 33.8972,
+  "lon": 48.7514,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1353-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1353-01-01",
+    "t": "1387-11-01",
+    "d": "lur-i-kucek"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "burucird:302",
+   "burucird--sehir:302",
+   "arama:burucird:200"
+  ]
+ },
+ {
+  "ad": "Şüşter",
+  "lat": 32.045,
+  "lon": 48.8564,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "suster:200"
+  ],
+  "slug": "suster",
+  "tanik": [
+   [
+    [
+     1053
+    ],
+    "Bu eserler arasında en meşhur olanları, Abbâsîler zamanında yapılan ve birçok restorasyon geçirerek günümüze kadar gelen 445 (1053) tarihli Mescid-i Cum‘a, kuzeydeki Sâsânî dönemine ait Selâsil Kalesi, Kârûn nehrinin kollarından Gerger’in her iki kıyısındaki Antikçağ su değirmenleriyle üzerindeki Sâsânîler döneminden kalma Bend-Mîzân (Şâpûrî Bendi) ve Şahpûr Köprüsü’dür."
+   ]
+  ]
+ },
+ {
+  "ad": "Ahvaz",
+  "lat": 31.32,
+  "lon": 48.6692,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "ahvaz:200"
+  ],
+  "slug": "ahvaz",
+  "tanik": []
+ },
+ {
+  "ad": "Râmhürmüz",
+  "lat": 31.2803,
+  "lon": 49.6039,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "ramhurmuz:302",
+   "ramhurmuz--sehir:302",
+   "arama:ramhurmuz:200"
+  ]
+ },
+ {
+  "ad": "Behbehân",
+  "lat": 30.5956,
+  "lon": 50.2417,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "behbehan:302",
+   "behbehan--sehir:302",
+   "arama:behbehan:200"
+  ]
+ },
+ {
+  "ad": "Erdekân",
+  "lat": 32.31,
+  "lon": 54.0169,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1357-01-01",
+    "d": "incu"
+   },
+   {
+    "f": "1357-01-01",
+    "t": "1387-11-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "erdekan:302",
+   "erdekan--sehir:302",
+   "arama:erdekan:200"
+  ]
+ },
+ {
+  "ad": "Kâin",
+  "lat": 33.7272,
+  "lon": 59.1831,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kain:302",
+   "kain--sehir:302",
+   "arama:kain:200"
+  ]
+ },
+ {
+  "ad": "Bîrcend",
+  "lat": 32.865,
+  "lon": 59.2211,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bircend:302",
+   "bircend--sehir:302",
+   "arama:bircend:200"
+  ]
+ },
+ {
+  "ad": "Mînâb",
+  "lat": 27.1467,
+  "lon": 57.08,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "minab:302",
+   "minab--sehir:302",
+   "arama:minab:200"
+  ]
+ },
+ {
+  "ad": "Lâr",
+  "lat": 27.6811,
+  "lon": 54.3175,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "lar:200",
+   "lar--sehir:302",
+   "arama:lar:200"
+  ]
+ },
+ {
+  "ad": "Kâzerûn",
+  "lat": 29.6186,
+  "lon": 51.6542,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kazerun:302",
+   "kazerun--sehir:302",
+   "arama:kazerun:200"
+  ]
+ },
+ {
+  "ad": "Fesâ",
+  "lat": 28.9383,
+  "lon": 53.6483,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "fesa:302",
+   "fesa--sehir:302",
+   "arama:fesa:200"
+  ]
+ },
+ {
+  "ad": "Dârâb",
+  "lat": 28.7519,
+  "lon": 54.5444,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "darab:302",
+   "darab--sehir:302",
+   "arama:darab:200"
+  ]
+ },
+ {
+  "ad": "Cehrom",
+  "lat": 28.5,
+  "lon": 53.56,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "cehrom:302",
+   "cehrom--sehir:302",
+   "arama:cehrom:200"
+  ]
+ },
+ {
+  "ad": "Firûzâbâd",
+  "lat": 28.8438,
+  "lon": 52.5713,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "firuzabad:302",
+   "firuzabad--sehir:302",
+   "arama:firuzabad:200"
+  ]
+ },
+ {
+  "ad": "Ebrekûh",
+  "lat": 31.1281,
+  "lon": 53.2814,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "ebrekuh:302",
+   "ebrekuh--sehir:302",
+   "arama:ebrekuh:200"
+  ]
+ },
+ {
+  "ad": "Bender Rîg",
+  "lat": 29.4975,
+  "lon": 50.6451,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bender-rig:302",
+   "bender-rig--sehir:302",
+   "arama:bender-rig:200"
+  ]
+ },
+ {
+  "ad": "Bender Lengeh",
+  "lat": 26.5578,
+  "lon": 54.8811,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bender-lengeh:302",
+   "bender-lengeh--sehir:302",
+   "arama:bender-lengeh:200"
+  ]
+ },
+ {
+  "ad": "Sircân",
+  "lat": 29.45,
+  "lon": 55.68,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "sircan:302",
+   "sircan--sehir:302",
+   "arama:sircan:200"
+  ]
+ },
+ {
+  "ad": "Bem",
+  "lat": 29.1061,
+  "lon": 58.3572,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bem:302",
+   "bem--sehir:302",
+   "arama:bem:200"
+  ]
+ },
+ {
+  "ad": "Rafsencân",
+  "lat": 30.4078,
+  "lon": 55.9944,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "rafsencan:302",
+   "rafsencan--sehir:302",
+   "arama:rafsencan:200"
+  ]
+ },
+ {
+  "ad": "Cîruft",
+  "lat": 28.675,
+  "lon": 57.7372,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "ciruft:302",
+   "ciruft--sehir:302",
+   "arama:ciruft:200"
+  ]
+ },
+ {
+  "ad": "Câsk",
+  "lat": 25.645,
+  "lon": 57.7742,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "cask:302",
+   "cask--sehir:302",
+   "arama:cask:200"
+  ]
+ },
+ {
+  "ad": "Çâhbahâr",
+  "lat": 25.2919,
+  "lon": 60.6431,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "cahbahar:302",
+   "cahbahar--sehir:302",
+   "arama:cahbahar:200"
+  ]
+ },
+ {
+  "ad": "Bempûr",
+  "lat": 27.1975,
+  "lon": 60.4586,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bempur:302",
+   "bempur--sehir:302",
+   "arama:bempur:200"
+  ]
+ },
+ {
+  "ad": "Hâş",
+  "lat": 28.2211,
+  "lon": 61.2158,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "muzafferi"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "has:302",
+   "has--sehir:302",
+   "arama:has:200"
+  ]
+ },
+ {
+  "ad": "Zerenc (Sîstan)",
+  "lat": 30.9583,
+  "lon": 61.8611,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "zerenc:200"
+  ],
+  "slug": "zerenc",
+  "tanik": [
+   [
+    [
+     1003,
+     1040
+    ],
+    "Sâmânîler’in yıkılışıyla Zerenc 393’te (1003) Gazneliler’in, 432’de (1040) Selçuklular’ın eline geçti."
+   ],
+   [
+    [
+     1063
+    ],
+    "Bölge Selçuklu ailesinden Mûsâ Yabgu ve çocukları tarafından yönetilirken Alparslan 455 (1063) yılında bunların yönetimine son verdi."
+   ],
+   [
+    [
+     1228,
+     1233,
+     1235
+    ],
+    "(XIII.) yüzyılda başlayan Moğol istilâsına karşı Zerenc halkı Hârizmşahlar ordusunda mücadele ettiyse de 625 (1228), 630 (1233) ve 632’de (1235) bölgeye gelen Moğollar neredeyse bütün halkı kılıçtan geçirip Zerenc’de büyük bir tahribatta bulundular ( Târîḫ-i Sîstân , s."
+   ]
+  ]
+ },
+ {
+  "ad": "Nîşâbur",
+  "lat": 36.2133,
+  "lon": 58.7958,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "nisabur:302",
+   "nisabur--sehir:302",
+   "arama:nisabur:200"
+  ]
+ },
+ {
+  "ad": "Tûs",
+  "lat": 36.4869,
+  "lon": 59.5222,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "tus:200"
+  ],
+  "slug": "tus",
+  "tanik": [
+   [
+    [
+     1000
+    ],
+    "(XIII.) yüzyıl müellifi Yâkūt el-Hamevî, Tûs’un Nîşâbur’a 10 fersah (yaklaşık 60 km.) mesafede yer aldığını, Tâberân, Nûkān adlı iki kasaba ve 1000’den fazla köyünün olduğunu yazar."
+   ],
+   [
+    [
+     1034
+    ],
+    "Bunların en büyüğü 425 (1034) yılında Kirman emîrinin Tûs halkından 20.000’e yakın kişiyi katlettirmesidir."
+   ],
+   [
+    [
+     1072
+    ],
+    "465’te (1072) Selçuklu Sultanı Melikşah, Nizâmülmülk’e aralarında doğum yeri olan Tûs’un da bulunduğu bazı yerleri iktâ etti (Özaydın, s."
+   ],
+   [
+    [
+     1221
+    ],
+    "618 (1221) yılı ilkbaharında Tuluy Han, Merv’den hareket edip Tûs’un bütün köylerini ele geçirdi ve halkını öldürdü."
+   ]
+  ]
+ },
+ {
+  "ad": "Sebzevâr",
+  "lat": 36.2133,
+  "lon": 57.6792,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "sebzevar:200",
+   "sebzevar--sehir:302",
+   "arama:sebzevar:200"
+  ]
+ },
+ {
+  "ad": "Turşiz (Kâşmer)",
+  "lat": 35.2383,
+  "lon": 58.4658,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "tursiz:302",
+   "tursiz--sehir:302",
+   "kasmer:302",
+   "kasmer--sehir:302",
+   "arama:tursiz:200",
+   "arama:kasmer:200"
+  ]
+ },
+ {
+  "ad": "Turbet-i Haydariye",
+  "lat": 35.2739,
+  "lon": 59.2189,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "turbet-i-haydariye:302",
+   "turbet-i-haydariye--sehir:302",
+   "arama:turbet-i-haydariye:200"
+  ]
+ },
+ {
+  "ad": "Turbet-i Câm",
+  "lat": 35.2439,
+  "lon": 60.6242,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "turbet-i-cam:302",
+   "turbet-i-cam--sehir:302",
+   "arama:turbet-i-cam:200"
+  ]
+ },
+ {
+  "ad": "Kelât-ı Nâdirî",
+  "lat": 36.9833,
+  "lon": 59.75,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kelat-i-nadiri:302",
+   "kelat-i-nadiri--sehir:302",
+   "arama:kelat-i-nadiri:200"
+  ]
+ },
+ {
+  "ad": "Kûçân",
+  "lat": 37.1,
+  "lon": 58.51,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kucan:302",
+   "kucan--sehir:302",
+   "arama:kucan:200"
+  ]
+ },
+ {
+  "ad": "Bocnûrd",
+  "lat": 37.4744,
+  "lon": 57.3292,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bocnurd:302",
+   "bocnurd--sehir:302",
+   "arama:bocnurd:200"
+  ]
+ },
+ {
+  "ad": "Esferâyin",
+  "lat": 37.0769,
+  "lon": 57.51,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "esferayin:302",
+   "esferayin--sehir:302",
+   "arama:esferayin:200"
+  ]
+ },
+ {
+  "ad": "Lâhîcan",
+  "lat": 37.2072,
+  "lon": 50.0044,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1371-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1371-01-01",
+    "t": "1592-01-01",
+    "d": "gilan-kiya"
+   },
+   {
+    "f": "1592-01-01",
+    "t": "1725-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1725-01-01",
+    "t": "1732-09-02",
+    "d": "rusya"
+   },
+   {
+    "f": "1732-09-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "lahican:200"
+  ],
+  "slug": "lahican",
+  "tanik": []
+ },
+ {
+  "ad": "Bender Enzeli",
+  "lat": 37.4728,
+  "lon": 49.4622,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1371-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1371-01-01",
+    "t": "1592-01-01",
+    "d": "gilan-kiya"
+   },
+   {
+    "f": "1592-01-01",
+    "t": "1723-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-01-01",
+    "t": "1732-09-02",
+    "d": "rusya"
+   },
+   {
+    "f": "1732-09-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "bender-enzeli:302",
+   "bender-enzeli--sehir:302",
+   "arama:bender-enzeli:200"
+  ]
+ },
+ {
+  "ad": "Sârî",
+  "lat": 36.5633,
+  "lon": 53.0601,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1359-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1359-01-01",
+    "t": "1596-01-01",
+    "d": "mazenderan-marasi"
+   },
+   {
+    "f": "1596-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "sari:200",
+   "sari--sehir:302",
+   "arama:sari:200"
+  ]
+ },
+ {
+  "ad": "Âmül",
+  "lat": 36.4697,
+  "lon": 52.3508,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1359-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1359-01-01",
+    "t": "1596-01-01",
+    "d": "mazenderan-marasi"
+   },
+   {
+    "f": "1596-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "amul:302",
+   "amul--sehir:302",
+   "arama:amul:200"
+  ]
+ },
+ {
+  "ad": "Bârfurûş (Bâbil)",
+  "lat": 36.5461,
+  "lon": 52.6789,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1359-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1359-01-01",
+    "t": "1596-01-01",
+    "d": "mazenderan-marasi"
+   },
+   {
+    "f": "1596-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "barfurus:302",
+   "barfurus--sehir:302",
+   "babil:200"
+  ],
+  "slug": "babil",
+  "tanik": []
+ },
+ {
+  "ad": "Eşref (Behşehr)",
+  "lat": 36.6942,
+  "lon": 53.5522,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1359-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1359-01-01",
+    "t": "1596-01-01",
+    "d": "mazenderan-marasi"
+   },
+   {
+    "f": "1596-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "esref:200",
+   "esref--sehir:302",
+   "behsehr:302",
+   "behsehr--sehir:302",
+   "arama:esref:200",
+   "arama:behsehr:200"
+  ]
+ },
+ {
+  "ad": "Esterâbâd (Gürgân)",
+  "lat": 36.8381,
+  "lon": 54.4342,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1386-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1507-05-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-01",
+    "t": "1510-12-02",
+    "d": "mazenderan-marasi"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "esterabad:200"
+  ],
+  "slug": "esterabad",
+  "tanik": [
+   [
+    [
+     1140
+    ],
+    "yüzyılda Bâvendîler’den Şah Gazi Rüstem’in (1140-1163) yönetimine girdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Astara",
+  "lat": 38.4292,
+  "lon": 48.8728,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1723-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-01-01",
+    "t": "1732-09-02",
+    "d": "rusya"
+   },
+   {
+    "f": "1732-09-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1828-02-22",
+    "d": "kacar"
+   },
+   {
+    "f": "1828-02-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "astara:302",
+   "astara--sehir:302",
+   "arama:astara:200"
+  ]
+ },
+ {
+  "ad": "Lenkeran",
+  "lat": 38.7539,
+  "lon": 48.8508,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1723-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-01-01",
+    "t": "1732-09-02",
+    "d": "rusya"
+   },
+   {
+    "f": "1732-09-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1828-02-22",
+    "d": "kacar"
+   },
+   {
+    "f": "1828-02-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "lenkeran:302",
+   "lenkeran--sehir:302",
+   "arama:lenkeran:200"
+  ]
+ },
+ {
+  "ad": "Salyan",
+  "lat": 39.5958,
+  "lon": 48.98,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1538-01-01",
+    "d": "sirvansah"
+   },
+   {
+    "f": "1538-01-01",
+    "t": "1723-09-23",
+    "d": "safevi"
+   },
+   {
+    "f": "1723-09-23",
+    "t": "1735-03-21",
+    "d": "rusya"
+   },
+   {
+    "f": "1735-03-21",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1813-10-24",
+    "d": "kacar"
+   },
+   {
+    "f": "1813-10-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "salyan:302",
+   "salyan--sehir:302",
+   "arama:salyan:200"
+  ]
+ },
+ {
+  "ad": "Ordubad",
+  "lat": 38.9053,
+  "lon": 46.0242,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1828-02-22",
+    "d": "kacar"
+   },
+   {
+    "f": "1828-02-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "ordubad:302",
+   "ordubad--sehir:302",
+   "arama:ordubad:200"
+  ]
+ },
+ {
+  "ad": "Katîf",
+  "lat": 26.557,
+  "lon": 49.9873,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1417-01-01",
+    "d": "usfuri"
+   },
+   {
+    "f": "1417-01-01",
+    "t": "1524-01-01",
+    "d": "cebri"
+   },
+   {
+    "f": "1524-01-01",
+    "t": "1550-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1670-01-01",
+    "t": "1795-04-01",
+    "d": "benihalid"
+   },
+   {
+    "f": "1795-04-01",
+    "t": "1818-09-09",
+    "d": "suud"
+   },
+   {
+    "f": "1818-09-09",
+    "t": "1841-10-01",
+    "d": "benihalid"
+   },
+   {
+    "f": "1841-10-01",
+    "t": "1871-04-20",
+    "d": "suud-ikinci"
+   },
+   {
+    "f": "1913-07-08",
+    "t": "1923-10-29",
+    "d": "suud-ucuncu"
+   }
+  ],
+  "denenen": [
+   "katif:200"
+  ],
+  "slug": "katif",
+  "tanik": [
+   [
+    [
+     1201
+    ],
+    "598 (1201-1202) yılında İran’daki Fars Atabegleri’nden (Salgurlular) Ebû Bekir b."
+   ]
+  ]
+ },
+ {
+  "ad": "Ukayr (Uceyr)",
+  "lat": 25.65,
+  "lon": 50.2131,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1417-01-01",
+    "d": "usfuri"
+   },
+   {
+    "f": "1417-01-01",
+    "t": "1524-01-01",
+    "d": "cebri"
+   },
+   {
+    "f": "1524-01-01",
+    "t": "1550-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1670-01-01",
+    "t": "1795-04-01",
+    "d": "benihalid"
+   },
+   {
+    "f": "1795-04-01",
+    "t": "1818-09-09",
+    "d": "suud"
+   },
+   {
+    "f": "1818-09-09",
+    "t": "1841-10-01",
+    "d": "benihalid"
+   },
+   {
+    "f": "1841-10-01",
+    "t": "1871-04-20",
+    "d": "suud-ikinci"
+   },
+   {
+    "f": "1913-07-08",
+    "t": "1923-10-29",
+    "d": "suud-ucuncu"
+   }
+  ],
+  "denenen": [
+   "ukayr:302",
+   "ukayr--sehir:302",
+   "uceyr:302",
+   "uceyr--sehir:302",
+   "arama:ukayr:200",
+   "arama:uceyr:200"
+  ]
+ },
+ {
+  "ad": "Cübeyl",
+  "lat": 26.9979,
+  "lon": 49.6406,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1417-01-01",
+    "d": "usfuri"
+   },
+   {
+    "f": "1417-01-01",
+    "t": "1524-01-01",
+    "d": "cebri"
+   },
+   {
+    "f": "1524-01-01",
+    "t": "1550-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1670-01-01",
+    "t": "1795-04-01",
+    "d": "benihalid"
+   },
+   {
+    "f": "1795-04-01",
+    "t": "1818-09-09",
+    "d": "suud"
+   },
+   {
+    "f": "1818-09-09",
+    "t": "1841-10-01",
+    "d": "benihalid"
+   },
+   {
+    "f": "1841-10-01",
+    "t": "1871-04-20",
+    "d": "suud-ikinci"
+   },
+   {
+    "f": "1913-07-08",
+    "t": "1923-10-29",
+    "d": "suud-ucuncu"
+   }
+  ],
+  "denenen": [
+   "cubeyl:200"
+  ],
+  "slug": "cubeyl",
+  "tanik": []
+ },
+ {
+  "ad": "Ras el-Hayme (Cülfâr)",
+  "lat": 25.7896,
+  "lon": 55.9417,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1622-05-01",
+    "d": "portekiz"
+   },
+   {
+    "f": "1622-05-01",
+    "t": "1820-01-08",
+    "d": "umman"
+   },
+   {
+    "f": "1820-01-08",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "enklav": true
+   }
+  ],
+  "denenen": [
+   "ras-el-hayme:302",
+   "ras-el-hayme--sehir:302",
+   "culfar:302",
+   "culfar--sehir:302",
+   "arama:ras-el-hayme:200",
+   "arama:culfar:200"
+  ]
+ },
+ {
+  "ad": "Şârika",
+  "lat": 25.3573,
+  "lon": 55.3911,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1515-04-01",
+    "d": "nebhani"
+   },
+   {
+    "f": "1515-04-01",
+    "t": "1622-05-01",
+    "d": "portekiz"
+   },
+   {
+    "f": "1622-05-01",
+    "t": "1820-01-08",
+    "d": "umman"
+   },
+   {
+    "f": "1820-01-08",
+    "t": "1923-10-29",
+    "d": "ingiltere",
+    "enklav": true
+   }
+  ],
+  "denenen": [
+   "sarika:200"
+  ],
+  "slug": "sarika",
+  "tanik": []
+ },
+ {
+  "ad": "Nesâ",
+  "lat": 37.9667,
+  "lon": 58.1833,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1860-01-01",
+    "d": "kacar"
+   },
+   {
+    "f": "1860-01-01",
+    "t": "1881-01-30",
+    "d": "turkmen"
+   },
+   {
+    "f": "1881-01-30",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "nesa:302",
+   "nesa--sehir:302",
+   "arama:nesa:200"
+  ]
+ },
+ {
+  "ad": "Ebîverd",
+  "lat": 37.9,
+  "lon": 59.6167,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1860-01-01",
+    "d": "kacar"
+   },
+   {
+    "f": "1860-01-01",
+    "t": "1881-01-30",
+    "d": "turkmen"
+   },
+   {
+    "f": "1881-01-30",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "ebiverd:302",
+   "ebiverd--sehir:302",
+   "arama:ebiverd:200"
+  ]
+ },
+ {
+  "ad": "Kızılarvat",
+  "lat": 38.9833,
+  "lon": 56.2833,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ortaasya2.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1796-01-01",
+    "d": "afsar"
+   },
+   {
+    "f": "1796-01-01",
+    "t": "1860-01-01",
+    "d": "turkmen"
+   },
+   {
+    "f": "1860-01-01",
+    "t": "1881-01-30",
+    "d": "turkmen"
+   },
+   {
+    "f": "1881-01-30",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "kizilarvat:302",
+   "kizilarvat--sehir:302",
+   "arama:kizilarvat:200"
+  ]
+ },
+ {
+  "ad": "Herat",
+  "lat": 34.342,
+  "lon": 62.203,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek16.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1381-04-01",
+    "d": "kert"
+   },
+   {
+    "f": "1381-04-01",
+    "t": "1507-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1826-01-01",
+    "d": "afgan-durrani"
+   },
+   {
+    "f": "1826-01-01",
+    "t": "1923-10-29",
+    "d": "afganistan"
+   }
+  ],
+  "denenen": [
+   "herat:200"
+  ],
+  "slug": "herat",
+  "tanik": [
+   [
+    [
+     1001
+    ],
+    "Nûh Herat’ı geri almak istediyse de başaramadı (391/1001)."
+   ],
+   [
+    [
+     1017
+    ],
+    "Sultan Mahmud 408’de (1017-18) oğlu Mesud’u Herat’a vali tayin etti ve Vezir Ebû Sehl Muhammed b."
+   ],
+   [
+    [
+     1031,
+     1037
+    ],
+    "422’de (1031) şehri işgal eden Selçuklular daha sonra Ferâvâ’da ağır kayıplar vererek geri çekildiler; 428’de (1037) başlattıkları kuşatmayı da özellikle iç kalenin ve müstahkem varoşlarda oturan ahalinin mukavemeti karşısında kaldırmak zorunda kaldılar."
+   ],
+   [
+    [
+     1040
+    ],
+    "Herat Dandanakan Savaşı’ndan (431/1040) sonra Sîstan ile birlikte Selçuklu ailesinden Mûsâ Yabgu’ya verildi."
+   ],
+   [
+    [
+     1041
+    ],
+    "Mevdûd zamanında (1041-1049) tekrar Gazneli hâkimiyetine girdi."
+   ],
+   [
+    [
+     1157
+    ],
+    "Herat Sencer’in ölümünden (552/1157) sonra Oğuzlar’ın hâkimiyetine girdi."
+   ],
+   [
+    [
+     1164
+    ],
+    "Emîr Ay Tegin’in ölümü üzerine ise Herat halk tarafından Sencer’in eski kumandanlarından Müeyyed Ay-aba’ya teslim edildi (559/1164)."
+   ],
+   [
+    [
+     1175,
+     1208,
+     1221
+    ],
+    "Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti."
+   ],
+   [
+    [
+     1229
+    ],
+    "Herat Ögedey Han zamanında (1229-1241) yeniden canlanmaya başladı."
+   ],
+   [
+    [
+     1244,
+     1255
+    ],
+    "Moğollar’ın 642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri ve bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu."
+   ],
+   [
+    [
+     1255
+    ],
+    "Bu dönemin (1255-1381) Herat’ın kültür tarihinde önemli bir yeri vardır."
+   ]
+  ]
+ },
+ {
+  "ad": "Meşkinşehr (Hiyav)",
+  "lat": 38.4,
+  "lon": 47.68,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_kalite4.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "meskinsehr:302",
+   "meskinsehr--sehir:302",
+   "hiyav:302",
+   "hiyav--sehir:302",
+   "arama:meskinsehr:200",
+   "arama:hiyav:200"
+  ]
+ },
+ {
+  "ad": "Şerur (Sharur)",
+  "lat": 39.55,
+  "lon": 44.95,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_kalite4.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1828-02-22",
+    "d": "kacar"
+   },
+   {
+    "f": "1828-02-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "serur:302",
+   "serur--sehir:302",
+   "sharur:302",
+   "sharur--sehir:302",
+   "arama:serur:200",
+   "arama:sharur:200"
+  ]
+ },
+ {
+  "ad": "Rāzhān",
+  "lat": 37.3833,
+  "lon": 44.8667,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_dogu.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "razhan:302",
+   "razhan--sehir:302",
+   "arama:razhan:200"
+  ]
+ }
+]

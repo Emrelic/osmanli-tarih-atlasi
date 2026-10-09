@@ -1,0 +1,2033 @@
+[
+ {
+  "ad": "Serahs",
+  "lat": 36.5386,
+  "lon": 61.1611,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "serahs:200"
+  ],
+  "slug": "serahs",
+  "tanik": [
+   [
+    [
+     1221
+    ],
+    "Bu sebeple şehir, Sâsânîler devrinden başlayarak Moğollar’ın 1221 yılındaki işgal ve yağmalamalarına kadar önemli bir yerleşim merkezi olmayı sürdürdü."
+   ],
+   [
+    [
+     1035
+    ],
+    "Selçuklular 426’da (1035) Horasan’a göçtüklerinde ilk yurt edindikleri yerlerden biri de Serahs ve çevresi oldu."
+   ],
+   [
+    [
+     1038
+    ],
+    "Gazneliler’in onları bu topraklardan atmak maksadıyla yaptıkları savaşlardan biri 429 (1038) yılında Serahs yakınlarındaki Talhâb yöresinde meydana geldi."
+   ],
+   [
+    [
+     1040
+    ],
+    "Türk tarihinin çok önemli bir dönüm noktası olan Dandanakan Savaşı da (431/1040) Serahs-Merv arasında bulunan susuz çöl alanında cereyan etti."
+   ],
+   [
+    [
+     1095
+    ],
+    "Arslan Argun’un 1095’te diğer Horasan şehirleri gibi Serahs Kalesi’ni de yıktırdığı bilinmekle beraber şehrin Selçuklu döneminde tamamıyla bir Türk şehri karakterinde gelişme gösterdiği tahmin edilmektedir."
+   ],
+   [
+    [
+     1157,
+     1193
+    ],
+    "552 (1157) yılında Sultan Sencer’in ölümüyle Büyük Selçuklu Devleti’nin tarihe karışması sonucunda Serahs bir süre Oğuzlar’ın elinde kaldı; ardından bütün Horasan’la birlikte şehir ve çevresine Hârizmşahlar hâkim oldu (1193)."
+   ],
+   [
+    [
+     1221
+    ],
+    "Bütün Horasan şehirleri gibi Serahs da 618’de (1221) Moğol istilâsına mâruz kaldı ve Cengiz Han’ın oğlu Tuluy Han tarafından teslim alındı."
+   ],
+   [
+    [
+     1095,
+     1190
+    ],
+    "Tarihî kayıtlarda Selçuklular zamanında Arslan Argun - Böri Bars mücadelesinde Arslan Argun’un 1095 yılında kaleyi yıktırdığı, Hârizmşahlar devrinde de Sultan Şah - Tekiş çekişmesinde Tekiş’in 1190’da şehrin surlarını tahrip ettiği belirtilmektedir."
+   ],
+   [
+    [
+     1221
+    ],
+    "1221 yılından sonraki Moğol istilâsında da büyük ölçüde tahrip edilen kale Timurlu döneminde Şâhruh’un emriyle yeniden onarılmış ve bir süre daha işlevini sürdürmüştür."
+   ],
+   [
+    [
+     1023
+    ],
+    "Serahs’ta yaşamış ve 414 (1023-24) yılında burada vefat etmiştir."
+   ],
+   [
+    [
+     1023
+    ],
+    "Yapı için genellikle 414 (1023-24) yılı ileri sürülüyorsa da gerçekte bu tarihin Ebü’l-Fazl’ın ölüm tarihi olduğu anlaşılmaktadır."
+   ],
+   [
+    [
+     1098
+    ],
+    "Eser, eskiden doğu duvarında bulunan tuğladan kûfî tarih kitâbesine göre 491 (1098) yılında yaptırılmıştır."
+   ],
+   [
+    [
+     1049
+    ],
+    "yüzyıl mutasavvıflarından Ebû Saîd-i Ebü’l-Hayr için yaptırılan bu türbenin inşa tarihi tam olarak bilinmemekle beraber Ebû Saîd’in 1049’da ölümünden hemen sonra inşa ettirildiği kabul edilmektedir."
+   ],
+   [
+    [
+     1114
+    ],
+    "Muhammed’in imzasını taşıyan, Nîşâbur-Merv yolu üzerindeki Ribât-ı Şerif Kervansarayı (508/1114-15), Tirmiz yakınlarındaki Ali b."
+   ],
+   [
+    [
+     1108
+    ],
+    "Muhammed es-Serahsî’nin eseri Câr Kurgan Minaresi (502/1108-1109) ve Merv’de devrinin şaheseri sayılan Sultan Sencer Türbesi (XII."
+   ]
+  ]
+ },
+ {
+  "ad": "Hîve",
+  "lat": 41.3783,
+  "lon": 60.3639,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1379-01-01",
+    "d": "cagatay"
+   },
+   {
+    "f": "1379-01-01",
+    "t": "1505-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1505-01-01",
+    "t": "1512-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1512-01-01",
+    "t": "1740-01-01",
+    "d": "hive"
+   },
+   {
+    "f": "1740-01-01",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1920-04-26",
+    "d": "hive"
+   },
+   {
+    "f": "1920-04-26",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "hive:302",
+   "hive--sehir:302",
+   "arama:hive:200"
+  ]
+ },
+ {
+  "ad": "Hazârasp",
+  "lat": 41.32,
+  "lon": 61.07,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1379-01-01",
+    "d": "cagatay"
+   },
+   {
+    "f": "1379-01-01",
+    "t": "1505-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1505-01-01",
+    "t": "1512-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1512-01-01",
+    "t": "1740-01-01",
+    "d": "hive"
+   },
+   {
+    "f": "1740-01-01",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1920-04-26",
+    "d": "hive"
+   },
+   {
+    "f": "1920-04-26",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "hazarasp:302",
+   "hazarasp--sehir:302",
+   "arama:hazarasp:200"
+  ]
+ },
+ {
+  "ad": "Merv (Mari)",
+  "lat": 37.5936,
+  "lon": 61.8333,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1337-09-09",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1337-09-09",
+    "t": "1381-01-01",
+    "d": "serbedariler"
+   },
+   {
+    "f": "1381-01-01",
+    "t": "1507-05-24",
+    "d": "timurlu"
+   },
+   {
+    "f": "1507-05-24",
+    "t": "1510-12-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1510-12-02",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1785-01-01",
+    "d": "afsar"
+   },
+   {
+    "f": "1785-01-01",
+    "t": "1860-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1860-01-01",
+    "t": "1884-01-01",
+    "d": "turkmen"
+   },
+   {
+    "f": "1884-01-01",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "merv:200"
+  ],
+  "slug": "merv",
+  "tanik": [
+   [
+    [
+     1040
+    ],
+    "Şehir, Dandanakan Savaşı’nın (431/1040) ardından yapılan kurultayın kararıyla Doğu Horasan’ın hâkimiyetini eline alan Çağrı Bey’in idare merkezi oldu."
+   ],
+   [
+    [
+     1063
+    ],
+    "Alparslan’ın Selçuklu tahtına geçmesiyle birlikte (455/1063) şehir Horasan’ın idaresiyle görevlendirilen Selçuklu şehzadelerinin merkezi haline geldi."
+   ],
+   [
+    [
+     1119
+    ],
+    "Tapar’ın vefatından sonra gelişen olaylarda Sencer’in Selçuklu tahtına müdahalesi ve Sâve savaşıyla (513/1119) hâkimiyeti ele geçirmesinin ardından Büyük Selçuklu İmparatorluğu’nun başşehri oldu."
+   ],
+   [
+    [
+     1118
+    ],
+    "Sultan Sencer (1118-1157) uzun iktidarı müddetince burayı geliştirmek için büyük çaba harcadı."
+   ],
+   [
+    [
+     1141
+    ],
+    "Sultan Sencer’in Karahıtaylar karşısında uğradığı Katvân felâketinin (536/1141) ardından yaklaşık bir yıl uzak kaldığı Merv bu sırada Hârizmşah Atsız’ın hâkimiyetine girdi."
+   ],
+   [
+    [
+     1153
+    ],
+    "Sultan Sencer bir yıl sonra yeniden şehre hâkim oldu ve 548’de (1153) Oğuzlar’a yenilip esir düşünceye kadar on bir yıl daha burada oturdu."
+   ],
+   [
+    [
+     1221
+    ],
+    "Oğuzlar’ın ardından önce Hârizmşah Alâeddin Tekiş’e isyan eden kardeşi Sultan Şah’ın ve daha sonra kısa bir süre için Gurlular’ın ve tekrar Hârizmşahlar’ın hâkimiyetine giren Merv, Moğol istilâsı sırasında Cengiz Han’ın oğlu Tuluy tarafından yağma ve tahrip edildiği gibi (1221) halkı da kılıçtan geçirildi (Cüveynî, I, 127-132)."
+   ],
+   [
+    [
+     1118
+    ],
+    "Selçuklu devrinde tamamen bir Türk şehri karakteri kazanan Merv başşehir olduğu dönemde (1118-1157) mimarlıkta da büyük gelişme göstermiştir."
+   ],
+   [
+    [
+     1080
+    ],
+    "Esasen şehrin bu parlak devri, Melikşah’ın emriyle 1080-1090 yılları arasında Gâvurkale’nin batısında Sultankale’nin inşa edilmesiyle başlamıştır."
+   ],
+   [
+    [
+     1095,
+     1153,
+     1220
+    ],
+    "yüzyıllar yerleşmesini çeviren kale 1095’te Arslan Argun, 1153’te Oğuzlar tarafında tahrip edilmiş, fakat 1220-1221’deki Moğol istilâsına kadar her defasında yeniden onarılarak kullanılmıştır."
+   ],
+   [
+    [
+     1112
+    ],
+    "506 (1112-13) yılında Şerefeddin Ebû Tâhir tarafından inşa ettirilen kare planlı yapının üzeri tromplu tek kubbe ile örtülmüştür."
+   ],
+   [
+    [
+     1140
+    ],
+    "Sultankale’nin kuzeydoğusunda yer alan Yûsuf el-Hemedânî Türbesi 535’te (1140) vefat eden Hoca Yûsuf el-Hemedânî adına inşa ettirilmiştir."
+   ]
+  ]
+ },
+ {
+  "ad": "Kaşgar",
+  "lat": 39.47,
+  "lon": 75.99,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_asya.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1347-01-01",
+    "d": "cagatay"
+   },
+   {
+    "f": "1347-01-01",
+    "t": "1514-01-01",
+    "d": "mogulistan"
+   },
+   {
+    "f": "1514-01-01",
+    "t": "1705-01-01",
+    "d": "yarkent-hanligi"
+   },
+   {
+    "f": "1705-01-01",
+    "t": "1759-01-01",
+    "d": "cungar"
+   },
+   {
+    "f": "1759-01-01",
+    "t": "1864-06-04",
+    "d": "qing-hanedani"
+   },
+   {
+    "f": "1864-06-04",
+    "t": "1877-12-17",
+    "d": "yakub-beg"
+   },
+   {
+    "f": "1877-12-17",
+    "t": "1912-02-12",
+    "d": "qing-hanedani"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti"
+   }
+  ],
+  "denenen": [
+   "kasgar:200"
+  ],
+  "slug": "kasgar",
+  "tanik": [
+   [
+    [
+     1014
+    ],
+    "405’te (1014) burada basılan bir sikkede ise Abbâsî Halifesi Kādir-Billâh ile Karahanlı Hükümdarı Yûsuf Kadır Han’ın adları bulunmaktadır."
+   ],
+   [
+    [
+     1128
+    ],
+    "Karahıtaylar, 1128’deki ilk saldırılarında Kâşgar’ı alamadılarsa da iki yıl sonra Balasagun ve Hoten ile birlikte burayı da zaptettiler."
+   ],
+   [
+    [
+     1209
+    ],
+    "Sa‘dî-i Şîrâzî 1209’da bir kervanla Kâşgar’a geldi."
+   ],
+   [
+    [
+     1218
+    ],
+    "Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı."
+   ],
+   [
+    [
+     1227
+    ],
+    "Cengiz Han, Moğol töresince ülkesini oğulları arasında taksim edince Kâşgar Çağatay Han’ın payına düştü (1227)."
+   ]
+  ]
+ },
+ {
+  "ad": "Semerkant",
+  "lat": 39.6542,
+  "lon": 66.9758,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1868-05-14",
+    "d": "buhara"
+   },
+   {
+    "f": "1868-05-14",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "semerkant:200"
+  ],
+  "slug": "semerkant",
+  "tanik": [
+   [
+    [
+     1220
+    ],
+    "Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur."
+   ],
+   [
+    [
+     1000
+    ],
+    "Necmeddin en-Nesefî, el-Ḳand fî ẕikri ʿulemâʾi Semerḳand isimli eserinde 1000’den fazla Semerkantlı âlimi tanıtmıştır."
+   ],
+   [
+    [
+     1046
+    ],
+    "(XI.) yüzyılın ilk yarısında hânedan mensuplarının mücadelelerine sahne olan şehir devletin 1046’da ikiye bölünmesi sırasında Batı Karahanlılar’da kaldı."
+   ],
+   [
+    [
+     1052
+    ],
+    "1052’de tahta oturan Böri Tegin Ebû İshak İbrâhim b."
+   ],
+   [
+    [
+     1074,
+     1089
+    ],
+    "467 (1074) ve 482’de (1089) Büyük Selçuklu Sultanı Melikşah tarafından hâkimiyet altına alınan Semerkant XIII."
+   ],
+   [
+    [
+     1066
+    ],
+    "Nemzova tarafından 1969, 1972 yıllarında kazıları yapılan ve Tamgaç Han tarafından 458’de (1066) inşa ettirilmiş tuğladan dört eyvanlı bir avluya sahip olduğu anlaşılan bir medresenin kalıntıları burada açığa çıkarılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Buhara",
+  "lat": 39.7681,
+  "lon": 64.421,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "buhara:200"
+  ],
+  "slug": "buhara",
+  "tanik": [
+   [
+    [
+     1044
+    ],
+    "Nasr 436’da (1044-45) Fâtımîler lehine başlatılan Şiî propagandasına tepki gösterdi ve Buhara’daki İsmâilîler’in öldürülmesini emretti."
+   ],
+   [
+    [
+     1069
+    ],
+    "Karahanlı hükümdarlarıyla ihtiraslı ulemâ arasındaki düşmanlıktan kaynaklanan olaylar 461’de (1069) Şemsülmülk Nasr b."
+   ],
+   [
+    [
+     1102
+    ],
+    "Arslan Han devrinde (1102-1130) Buhara en sakin ve huzurlu dönemlerinden birini yaşadı."
+   ],
+   [
+    [
+     1165
+    ],
+    "Kılıç Tamgaç Han Mesud da 560 (1165) yılında şehrin surlarını tamir ettirdi."
+   ],
+   [
+    [
+     1182
+    ],
+    "İlarslan 1182’de Buhara’ya bir sefer düzenledi."
+   ],
+   [
+    [
+     1207
+    ],
+    "Burhan ailesi 604 (1207) yılında Şiîler’in başlattığı bir halk ayaklanması sırasında Karahıtaylar’a sığındı."
+   ],
+   [
+    [
+     1217
+    ],
+    "Hârizmşahlar’ın otoritesi bir müddet daha devam etti ve Alâeddin Muhammed 614’te (1217-18) Buhara’da Abbâsî Halifesi Nâsır-Lidînillâh adına okunmakta olan hutbeye son verdi."
+   ],
+   [
+    [
+     1238
+    ],
+    "636 (1238) yılında şehirde Moğollar aleyhine bir halk ayaklanması olduysa da Hucend’de oturan Vali Mahmud Yalavaç tarafından şehir tahribata uğramadan bastırıldı ve 20.000 kişi öldürüldü."
+   ],
+   [
+    [
+     1263
+    ],
+    "662’de (1263) Kubilay ile Arık Böke arasında meydana gelen savaşta da Buharalı 5000 kişi katledilip malları yağmalandı."
+   ],
+   [
+    [
+     1119
+    ],
+    "Ahmed es-Sâmânî’nin türbesi, Mugak Attari Camii, Seyfeddin el-Bâharzî Türbesi, 513’te (1119) yapılan Namazgâh Camii, XIV."
+   ]
+  ]
+ },
+ {
+  "ad": "Karşi (Nahşeb)",
+  "lat": 38.86,
+  "lon": 65.795,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "karsi:200",
+   "karsi--sehir:302",
+   "nahseb:302",
+   "nahseb--sehir:302",
+   "arama:karsi:200",
+   "arama:nahseb:200"
+  ]
+ },
+ {
+  "ad": "Şehrisebz (Kiş)",
+  "lat": 39.058,
+  "lon": 66.833,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "sehrisebz:302",
+   "sehrisebz--sehir:302",
+   "kis:302",
+   "kis--sehir:302",
+   "arama:sehrisebz:200",
+   "arama:kis:200"
+  ]
+ },
+ {
+  "ad": "Termez",
+  "lat": 37.224,
+  "lon": 67.278,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "termez:302",
+   "termez--sehir:302",
+   "arama:termez:200"
+  ]
+ },
+ {
+  "ad": "Hisar",
+  "lat": 38.52,
+  "lon": 68.55,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "hisar:302",
+   "hisar--sehir:302",
+   "arama:hisar:200"
+  ]
+ },
+ {
+  "ad": "Külâb (Kulob)",
+  "lat": 37.91,
+  "lon": 69.78,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "d": "buhara"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "kulab:302",
+   "kulab--sehir:302",
+   "kulob:302",
+   "kulob--sehir:302",
+   "arama:kulab:200",
+   "arama:kulob:200"
+  ]
+ },
+ {
+  "ad": "Cizzah",
+  "lat": 40.115,
+  "lon": 67.842,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ek14.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1866-10-18",
+    "d": "buhara"
+   },
+   {
+    "f": "1866-10-18",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "cizzah:302",
+   "cizzah--sehir:302",
+   "arama:cizzah:200"
+  ]
+ },
+ {
+  "ad": "Taşkent",
+  "lat": 41.311,
+  "lon": 69.28,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1503-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1809-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1809-01-01",
+    "t": "1865-06-17",
+    "d": "hokand"
+   },
+   {
+    "f": "1865-06-17",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "taskent:200"
+  ],
+  "slug": "taskent",
+  "tanik": [
+   [
+    [
+     1220
+    ],
+    "(XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi."
+   ]
+  ]
+ },
+ {
+  "ad": "Hokand",
+  "lat": 40.529,
+  "lon": 70.943,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1710-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1710-01-01",
+    "t": "1876-02-19",
+    "d": "hokand"
+   },
+   {
+    "f": "1876-02-19",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "hokand:200"
+  ],
+  "slug": "hokand",
+  "tanik": []
+ },
+ {
+  "ad": "Andican",
+  "lat": 40.783,
+  "lon": 72.35,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1710-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1710-01-01",
+    "t": "1876-02-19",
+    "d": "hokand"
+   },
+   {
+    "f": "1876-02-19",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "andican:302",
+   "andican--sehir:302",
+   "arama:andican:200"
+  ]
+ },
+ {
+  "ad": "Oş",
+  "lat": 40.514,
+  "lon": 72.804,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1710-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1710-01-01",
+    "t": "1876-02-19",
+    "d": "hokand"
+   },
+   {
+    "f": "1876-02-19",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": []
+ },
+ {
+  "ad": "Hucend",
+  "lat": 40.284,
+  "lon": 69.622,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1802-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1802-01-01",
+    "t": "1866-05-24",
+    "d": "hokand"
+   },
+   {
+    "f": "1866-05-24",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "hucend:200"
+  ],
+  "slug": "hucend",
+  "tanik": [
+   [
+    [
+     1015
+    ],
+    "Hucend, Karahanlı Hükümdarı Arslan İlig (1015-1024) tarafından ele geçirildiğinde önemli bir şehirdi."
+   ],
+   [
+    [
+     1137
+    ],
+    "Muhammed’i Hucend yakınında mağlûp ettiler (531/1137)."
+   ],
+   [
+    [
+     1219
+    ],
+    "Moğol saldırıları esnasında Cengiz Han’ın yolladığı 75.000 kişilik ordu karşısında tutunamayan Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219)."
+   ]
+  ]
+ },
+ {
+  "ad": "Türkistan (Yesi)",
+  "lat": 43.302,
+  "lon": 68.253,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1598-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1598-01-01",
+    "t": "1815-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1815-01-01",
+    "t": "1864-06-12",
+    "d": "hokand"
+   },
+   {
+    "f": "1864-06-12",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "turkistan:200"
+  ],
+  "slug": "turkistan",
+  "tanik": [
+   [
+    [
+     1212
+    ],
+    "840’ta kurulup 1212’de Hârizmşahlar’ın darbesiyle varlığını kaybeden Karahanlılar, İslâmiyet’ten sonra önemli bölümü Doğu Türkistan’da olan ilk büyük Türk devletidir."
+   ]
+  ]
+ },
+ {
+  "ad": "Çimkent",
+  "lat": 42.317,
+  "lon": 69.596,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ek15.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1598-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1598-01-01",
+    "t": "1815-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1815-01-01",
+    "t": "1864-09-22",
+    "d": "hokand"
+   },
+   {
+    "f": "1864-09-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "cimkent:200"
+  ],
+  "slug": "cimkent",
+  "tanik": []
+ },
+ {
+  "ad": "Belh",
+  "lat": 36.758,
+  "lon": 66.897,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ek16.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1506-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1506-01-01",
+    "t": "1509-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1509-01-01",
+    "t": "1514-08-23",
+    "d": "safevi"
+   },
+   {
+    "f": "1514-08-23",
+    "t": "1751-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1751-01-01",
+    "t": "1826-01-01",
+    "d": "afgan-durrani"
+   },
+   {
+    "f": "1826-01-01",
+    "t": "1841-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1841-01-01",
+    "t": "1923-10-29",
+    "d": "afganistan"
+   }
+  ],
+  "denenen": [
+   "belh:200"
+  ],
+  "slug": "belh",
+  "tanik": [
+   [
+    [
+     1040,
+     1043
+    ],
+    "Dandanakan Savaşı (1040) sonunda geçici bir süre için Selçuklular’ın elinde kaldı; sürekli Selçuklu egemenliğine ise Gazneliler’den Mevdûd döneminde girdi (1043)."
+   ],
+   [
+    [
+     1064,
+     1072
+    ],
+    "Alparslan’ın hükümdarlığı sırasında (1064-1072) oğlu Ayaz Belh’e vali oldu (1072)."
+   ],
+   [
+    [
+     1118
+    ],
+    "Sultan Sencer döneminde (1118-1157) İmâdüddin Kamaç adında bir valinin yönettiği Belh parlaklığını korudu."
+   ],
+   [
+    [
+     1152
+    ],
+    "1152’de Gurlular’dan Alâeddin Hüseyin Belh’i aldı."
+   ],
+   [
+    [
+     1198
+    ],
+    "Muhammed, Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198) ve Gurlu Devleti topraklarına kattı."
+   ],
+   [
+    [
+     1205
+    ],
+    "Daha sonra Belh’i Gurlular’ın düşmanı Hârizmşah Alâeddin aldı (1205) ve vali olarak Türk kumandanı Çağrı’yı (veya Câfer) tayin etti."
+   ],
+   [
+    [
+     1221
+    ],
+    "1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı."
+   ]
+  ]
+ },
+ {
+  "ad": "Balasagun (Ak-Beşim)",
+  "lat": 42.76,
+  "lon": 75.24,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ortaasya3.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1347-01-01",
+    "d": "cagatay"
+   },
+   {
+    "f": "1347-01-01",
+    "t": "1634-01-01",
+    "d": "mogulistan"
+   },
+   {
+    "f": "1634-01-01",
+    "t": "1758-01-01",
+    "d": "cungar"
+   },
+   {
+    "f": "1758-01-01",
+    "t": "1825-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1825-01-01",
+    "t": "1862-09-04",
+    "d": "hokand"
+   },
+   {
+    "f": "1862-09-04",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "balasagun:200"
+  ],
+  "slug": "balasagun",
+  "tanik": [
+   [
+    [
+     1130
+    ],
+    "Bu sırada Gürhan Balasagun’u ele geçirdi (1130) ve orayı merkez yaptı."
+   ],
+   [
+    [
+     1200
+    ],
+    "Mâverâünnehir’in hâkimi olan Hârizmşah Sultanı Muhammed (1200-1220), Karahıtaylar’a karşı harekete geçerek Gürhan’ı Talas yakınındaki İlâmış’ta mağlûp etti."
+   ],
+   [
+    [
+     1210
+    ],
+    "Bunun üzerine Karahıtay kuvvetleri Ağustos-Eylül 1210’da şehri kuşattılar ve kısa sürede içeri girdiler."
+   ],
+   [
+    [
+     1218
+    ],
+    "Cengiz hânedanı ile akrabalık kurulmuş (1218), Almalığ Meliki Buzar Han burayı da birlikte yönetmiştir."
+   ],
+   [
+    [
+     1259
+    ],
+    "Efrâsiyâb neslinden Buzar Han’ın torunu Dânişmend Tigin, 1259’da Balasagun’un yöneticisi olarak görünmektedir."
+   ]
+  ]
+ },
+ {
+  "ad": "Narın (Naryn)",
+  "lat": 41.43,
+  "lon": 75.99,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ortaasya3.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1347-01-01",
+    "d": "cagatay"
+   },
+   {
+    "f": "1347-01-01",
+    "t": "1634-01-01",
+    "d": "mogulistan"
+   },
+   {
+    "f": "1634-01-01",
+    "t": "1758-01-01",
+    "d": "cungar"
+   },
+   {
+    "f": "1758-01-01",
+    "t": "1825-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1825-01-01",
+    "t": "1868-01-01",
+    "d": "hokand"
+   },
+   {
+    "f": "1868-01-01",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "narin:302",
+   "narin--sehir:302",
+   "naryn:302",
+   "naryn--sehir:302",
+   "arama:narin:200",
+   "arama:naryn:200"
+  ]
+ },
+ {
+  "ad": "Sığnak (Sunak Kurgan)",
+  "lat": 44.05,
+  "lon": 67.05,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ortaasya3.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1465-01-01",
+    "d": "altinorda"
+   },
+   {
+    "f": "1465-01-01",
+    "t": "1847-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1847-01-01",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "signak:302",
+   "signak--sehir:302",
+   "sunak-kurgan:302",
+   "sunak-kurgan--sehir:302",
+   "arama:signak:200",
+   "arama:sunak-kurgan:200"
+  ]
+ },
+ {
+  "ad": "Suzak (Sozak)",
+  "lat": 44.13,
+  "lon": 68.47,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ortaasya3.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1465-01-01",
+    "d": "altinorda"
+   },
+   {
+    "f": "1465-01-01",
+    "t": "1847-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1847-01-01",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "suzak:302",
+   "suzak--sehir:302",
+   "sozak:302",
+   "sozak--sehir:302",
+   "arama:suzak:200",
+   "arama:sozak:200"
+  ]
+ },
+ {
+  "ad": "Ak-Meçit (Perovsk)",
+  "lat": 44.85,
+  "lon": 65.51,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_ortaasya3.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1500-01-01",
+    "d": "altinorda"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1815-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1815-01-01",
+    "t": "1853-07-28",
+    "d": "hokand"
+   },
+   {
+    "f": "1853-07-28",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "ak-mecit:302",
+   "ak-mecit--sehir:302",
+   "perovsk:302",
+   "perovsk--sehir:302",
+   "arama:ak-mecit:200",
+   "arama:perovsk:200"
+  ]
+ },
+ {
+  "ad": "Taraz (Evliya-Ata)",
+  "lat": 42.9,
+  "lon": 71.367,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ok107.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1598-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1598-01-01",
+    "t": "1815-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1815-01-01",
+    "t": "1864-09-22",
+    "d": "hokand"
+   },
+   {
+    "f": "1864-09-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "taraz:302",
+   "taraz--sehir:302",
+   "evliya-ata:302",
+   "evliya-ata--sehir:302",
+   "arama:taraz:200",
+   "arama:evliya-ata:200"
+  ]
+ },
+ {
+  "ad": "Sayram (İsficâb)",
+  "lat": 42.303,
+  "lon": 69.786,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ok107.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1370-04-09",
+    "d": "cagatay"
+   },
+   {
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1500-01-01",
+    "t": "1598-01-01",
+    "d": "buhara"
+   },
+   {
+    "f": "1598-01-01",
+    "t": "1815-01-01",
+    "d": "kazak-hanligi"
+   },
+   {
+    "f": "1815-01-01",
+    "t": "1864-09-22",
+    "d": "hokand"
+   },
+   {
+    "f": "1864-09-22",
+    "t": "1917-03-15",
+    "d": "rusya"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya"
+   }
+  ],
+  "denenen": [
+   "sayram:302",
+   "sayram--sehir:302",
+   "isficab:302",
+   "isficab--sehir:302",
+   "arama:sayram:200",
+   "arama:isficab:200"
+  ]
+ },
+ {
+  "ad": "Horog (Khorog)",
+  "lat": 37.5,
+  "lon": 71.6,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_a78_asya.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ' — Şugnan mîrleri (Bedahşan'a genellikle tâbi), künye yok"
+   },
+   {
+    "f": "1883-01-01",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Iloliev, The Mirdom of Wakhān (UCA RP #12, 2021): Afgan hâkimleri 1883 Ağustos olaylarından sonra Şugnan-Rûşan'da. ÇELİŞKİ: EB1911 1882 · IBS 26 1884"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 / Iranica 'BOUNDARIES iii': 11 Mart 1895 İngiliz-Rus notaları; Iloliev 2021: sağ yaka Buhara'ya (fiilî devir günü BULUNAMADI)"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison, The Russian Conquest of Central Asia (CUP 2020) bl.10: 1905'te doğrudan Rus idaresi (hukuken Buhara'da kaldı)"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix' (GBAO 1925-01-02); 1918–20 fiilî denetim BULUNAMADI"
+   }
+  ],
+  "denenen": [
+   "horog:302",
+   "horog--sehir:302",
+   "khorog:302",
+   "khorog--sehir:302",
+   "arama:horog:200",
+   "arama:khorog:200"
+  ]
+ },
+ {
+  "ad": "Kala-i Vamar (Rûşan)",
+  "lat": 37.95,
+  "lon": 71.55,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_a78_asya.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ' — Rûşan mîrleri, künye yok"
+   },
+   {
+    "f": "1883-01-01",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kesinlik": "yil",
+    "kaynak": "Iloliev 2021 (bkz. Horog; yıl çelişkisi 1882/1883/1884)"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 · Iranica 'BOUNDARIES iii' · Iloliev 2021"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison (CUP 2020) bl.10"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix'"
+   }
+  ],
+  "denenen": [
+   "kala-i-vamar:302",
+   "kala-i-vamar--sehir:302",
+   "rusan:302",
+   "rusan--sehir:302",
+   "arama:kala-i-vamar:200",
+   "arama:rusan:200"
+  ]
+ },
+ {
+  "ad": "İşkâşim (Pamir)",
+  "lat": 36.72,
+  "lon": 71.61,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_a78_asya.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1883-08-15",
+    "d": "__BOSLUK__",
+    "kaynak": "Iloliev 2021: Vahan/İşkâşim yerel mîrleri, Bedahşan'a sözde tâbi — künye yok"
+   },
+   {
+    "f": "1883-08-15",
+    "t": "1895-03-11",
+    "d": "afganistan",
+    "kaynak": "Iloliev 2021 (Putyata 1884'ten): mîr 14/15 Ağustos 1883 gecesi Kal'a-i Pençe'den kaçtı, Afgan hâkimleri kuruldu"
+   },
+   {
+    "f": "1895-03-11",
+    "t": "1905-01-01",
+    "d": "buhara",
+    "kaynak": "IBS 26 · Iloliev 2021 (sağ yaka İşkâşim Buhara'ya)"
+   },
+   {
+    "f": "1905-01-01",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kesinlik": "yil",
+    "kaynak": "Morrison (CUP 2020) bl.10"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "künye günleri"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "d": "sovyet-rusya",
+    "kaynak": "Iranica 'CENTRAL ASIA ix'"
+   }
+  ],
+  "denenen": [
+   "iskasim:302",
+   "iskasim--sehir:302",
+   "pamir:302",
+   "pamir--sehir:302",
+   "arama:iskasim:200",
+   "arama:pamir:200"
+  ]
+ },
+ {
+  "ad": "Kal'a-i Hum (Darvaz)",
+  "lat": 38.467,
+  "lon": 70.767,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_a78_asya.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1873-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'DARVĀZ': Darvaz şahları bağımsız; 1834'ten ~10 yıl Hokand hâkimiyeti (Iranica 'CENTRAL ASIA vii') bitiş yılı çıkarım olduğu için YAZILMADI"
+   },
+   {
+    "f": "1873-01-01",
+    "t": "1920-09-02",
+    "d": "buhara",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'DARVĀZ': 1290/1873 Buhara'ya katıldı (alternatif: 1877-12 / 1878 ilkbahar — ipucu)"
+   },
+   {
+    "f": "1920-09-02",
+    "t": "1920-10-08",
+    "d": "__BOSLUK__",
+    "kaynak": "buhara künyesi 1920-09-02'de kapanıyor; emir Doğu Buhara'da 1921 başına dek direndi — künye penceresi dışı, komşuya itilmedi"
+   },
+   {
+    "f": "1920-10-08",
+    "t": "1923-10-29",
+    "d": "buhara-halk-cumhuriyeti",
+    "kaynak": "TDV 'TACİKİSTAN': Buhara Halk Sovyet Cumhuriyeti 8 Ekim 1920; Doğu Buhara 1924-10-14'te Tacik ÖSSC'ye"
+   }
+  ],
+  "denenen": [
+   "kala-i-hum:302",
+   "kala-i-hum--sehir:302",
+   "darvaz:302",
+   "darvaz--sehir:302",
+   "arama:kala-i-hum:200",
+   "arama:darvaz:200"
+  ]
+ },
+ {
+  "ad": "Taşkurgan (Sarıkol)",
+  "lat": 37.775,
+  "lon": 75.228,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_a78_asya.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1759-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi' — Sarıkol yerel beyleri; Yarkent'e haraç kaydı var ama başlangıç/pencere BULUNAMADI, yarkent-hanligi/cungar'a itilmedi"
+   },
+   {
+    "f": "1759-01-01",
+    "t": "1865-01-01",
+    "d": "qing-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi': General Fu-de'nin müfrezesi, halk 'direnişsiz boyun eğdi' (1759 raporu)"
+   },
+   {
+    "f": "1865-01-01",
+    "t": "1878-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Iranica: Yakub Bey emirliği (Yettişar) 1282/1865, künye yok; 1877 sonunda Qing Tarım'ı geri aldı"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1912-02-12",
+    "d": "qing-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Iranica 'CHINESE TURKESTAN vi'; bitiş Qing künye günü"
+   },
+   {
+    "f": "1912-02-12",
+    "t": "1923-10-29",
+    "d": "cin-cumhuriyeti",
+    "kaynak": "Iranica: 1911 sonrası 'Pu-li' ilçesi"
+   }
+  ],
+  "denenen": [
+   "taskurgan:302",
+   "taskurgan--sehir:302",
+   "sarikol:302",
+   "sarikol--sehir:302",
+   "arama:taskurgan:200",
+   "arama:sarikol:200"
+  ]
+ }
+]

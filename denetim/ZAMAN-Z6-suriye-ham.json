@@ -1,0 +1,1822 @@
+[
+ {
+  "ad": "Antakya",
+  "lat": 36.202,
+  "lon": 36.161,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-26",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "antakya:200"
+  ],
+  "slug": "antakya",
+  "tanik": [
+   [
+    [
+     1084
+    ],
+    "Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı."
+   ],
+   [
+    [
+     1075
+    ],
+    "1075 yılı sonları ile 1076 başlarında Kuzey Suriye’de görünen Kutalmışoğlu Süleyman Şah Halep, Selemiye ve Antakya’yı alma teşebbüsünde bulundu."
+   ],
+   [
+    [
+     1083
+    ],
+    "1083’te Alparslan’ın oğlu Tutuş Antakya üzerine yürüdü, ancak şehri alamadı."
+   ],
+   [
+    [
+     1084,
+     1085
+    ],
+    "Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü."
+   ],
+   [
+    [
+     1087
+    ],
+    "Süleyman Şah’ın ölümünden sonra Melikşah buraya Yağısıyan’ı tayin etti (1087)."
+   ],
+   [
+    [
+     1097
+    ],
+    "Haçlı orduları 21 Ekim 1097’de şehir önlerine geldiklerinde Yağısıyan Antakya emîri bulunuyordu."
+   ],
+   [
+    [
+     1098
+    ],
+    "Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi, şehir halkı kılıçtan geçirildi."
+   ],
+   [
+    [
+     1268
+    ],
+    "1268’e kadar buraya birçok Haçlı sülâlesi hükmetti."
+   ],
+   [
+    [
+     1268
+    ],
+    "18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi, şehir mücadele ile alındığı için yağmaya izin verildi, ayrıca vaktiyle Haçlılar’ın yaptığı gibi halkın çoğu kılıçtan geçirildi, bir kısmı esir alındı."
+   ]
+  ]
+ },
+ {
+  "ad": "Halep",
+  "lat": 36.202,
+  "lon": 37.161,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-27",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "halep:200"
+  ],
+  "slug": "halep",
+  "tanik": [
+   [
+    [
+     1014
+    ],
+    "Halep 404’te (1014) Fâtımîler’in eline geçti ve Mansûr b."
+   ],
+   [
+    [
+     1024
+    ],
+    "Mirdâs el-Kilâbî 415 (1024) yılında şehri ele geçirip Mirdâsîler hânedanının merkezi yaptı."
+   ],
+   [
+    [
+     1068
+    ],
+    "Bizans İmparatoru Romanos Diogenes 1068-1071 yılları arasında Halep üzerine iki sefer düzenledi."
+   ],
+   [
+    [
+     1069
+    ],
+    "1069’da Türkmen Emîri Sanduk büyük bir orduyla Halep’e girdi ve kışı orada geçirdi."
+   ],
+   [
+    [
+     1078
+    ],
+    "Suriye Selçuklu Meliki Tutuş 470’te (1078) Halep’i kuşattı."
+   ],
+   [
+    [
+     1080
+    ],
+    "Tutuş, Emîr Atsız’ın yardım çağrısı üzerine Dımaşk’a dönünce derhal harekete geçen Şerefüddevle kalabalık Arap kabileleri ve kuvvetleriyle şehre girdi ve Mirdâsî hânedanına son verdi (472/1080)."
+   ],
+   [
+    [
+     1087
+    ],
+    "Ardından da Nizâmülmülk’ün tavsiyesi üzerine Kasîmüddevle Aksungur’u Halep şahneliğine, Nûh et-Türkî’yi de kale kumandanlığına tayin etti (479/1087)."
+   ],
+   [
+    [
+     1092
+    ],
+    "Tutuş, Sultan Melikşah’ın ölümünden (485/1092) sonra çıkan taht kavgaları sırasında Halep’i hâkimiyeti altına aldı."
+   ],
+   [
+    [
+     1095
+    ],
+    "Tutuş’un 488’de (1095) ölümü üzerine Suriye (Halep) Selçuklu Melikliği’nin başına geçen oğlu Rıdvân, Fâtımî Halifesi Müsta‘lî’nin teklifini kabul ederek başşehri Halep’te ve hâkimiyeti altındaki diğer yerlerde onun adına hutbe okuttu (17 Ramazan 490 / 28 Ağustos 1097); ancak aldığı sert tepkiler karşısında bundan vazgeçerek yeniden Abbâsîler’e ve Büyük Selçuklular’a döndü (12 Şevval 490 / 22 Eylül 1097)."
+   ],
+   [
+    [
+     1107
+    ],
+    "Rıdvân, Halep’teki Bâtınîler’le sıkı iş birliği yaptı ve onların burada bir dârü’d-da‘ve (propaganda merkezi) kurmalarına müsaade etti; ancak Sultan Muhammed Tapar’ın tehdidi üzerine bazılarını öldürtmek, bazılarını da şehir dışına sürmek zorunda kaldı (501/1107-1108)."
+   ],
+   [
+    [
+     1111
+    ],
+    "Antakya Prinkepsi Tancred’in Halep bölgesini istilâya teşebbüs etmesi üzerine Rıdvân sûfî, fakih ve tüccarlardan oluşan bir heyeti o sırada Bağdat’ta bulunan Sultan Muhammed Tapar’a göndererek yardım istediyse de emîrler arasındaki meseleler yüzünden sonuç alamadı (504/1111)."
+   ],
+   [
+    [
+     1113
+    ],
+    "Rıdvân’ın 507’de (1113) ölümünden sonra yerine geçen oğlu Alparslan el-Ahres, kısa süren melikliği sırasında Bâtınîler’in faaliyetlerine izin vermemekle birlikte Haçlılar’a karşı da ciddi bir şey yapamadı."
+   ],
+   [
+    [
+     1114
+    ],
+    "Onun 1114’te ölümü üzerine yerini alan kardeşi Sultan Şah döneminde idare tamamen Atabeg Lü’lü’ün elinde toplandı."
+   ],
+   [
+    [
+     1116
+    ],
+    "Lü’lü’ 1116’da ölünce Emîr Yaruktaş idareye hâkim oldu ve zaman zaman Haçlılar’la iş birliği yaptı."
+   ],
+   [
+    [
+     1117
+    ],
+    "Haçlılar’ın baskı ve tehditleri karşısında zor durumda kalan şehrin ileri gelenleri, Artukoğlu İlgazi’ye haber gönderip Halep’i teslim almasını ve hıristiyanlarla mücadele etmesini istediler; İlgazi de oğlu Timurtaş ile birlikte gelip şehre girdi (511/1117-18)."
+   ],
+   [
+    [
+     1122
+    ],
+    "Onun 1122’de ölümü üzerine Emîr Bedrüddevle Süleyman Halep’te yönetimi ele geçirdi."
+   ],
+   [
+    [
+     1124
+    ],
+    "Behrâm’ın ölümü üzerine İlgazi’nin oğlu Timurtaş 22 Mayıs 1124’te şehre hâkim oldu."
+   ],
+   [
+    [
+     1129
+    ],
+    "Aksungur’un ölümü üzerine Irak Selçuklu Sultanı Mahmud Halep’i Haçlılar karşısındaki kahramanlıklarıyla tanınan İmâdüddin Zengî’ye verdi (1129)."
+   ],
+   [
+    [
+     1146
+    ],
+    "Onun ölümünden (1146) sonra yerine geçen oğlu Nûreddin Mahmud Zengî de aynı şekilde Haçlılar’la savaştı ve çok sayıda kaleyi geri aldı."
+   ],
+   [
+    [
+     1182
+    ],
+    "Selâhaddîn-i Eyyûbî, Halife Müstazî-Biemrillâh tarafından kendisine verilen Halep’i ele geçirmek üzere 578’de (1182) Mısır’dan yola çıktı."
+   ],
+   [
+    [
+     1186
+    ],
+    "Üç yıl sonra el-Melikü’z-Zâhir tekrar Halep’e tayin edildi (582/1186)."
+   ],
+   [
+    [
+     1186
+    ],
+    "Melik Gāzî devrinde (1186-1212) Halep en parlak ve müreffeh dönemini yaşadı."
+   ],
+   [
+    [
+     1237
+    ],
+    "Yûsuf devrinde (1237-1260) Memlükler’le başlatılan mücadele halifenin müdahalesiyle sona erdi."
+   ],
+   [
+    [
+     1260
+    ],
+    "Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı."
+   ],
+   [
+    [
+     1260
+    ],
+    "Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260)."
+   ],
+   [
+    [
+     1174
+    ],
+    "Nûreddin Mahmud’un öldüğü 1174 yılında Halep’te üçü Hanefîler’e, dördü Şâfiîler’e mahsus olmak üzere toplam yedi medrese ile biri kadınlara ait üç hankah vardı."
+   ],
+   [
+    [
+     1204,
+     1260
+    ],
+    "1204’te şehirde sekizi Şâfiîler’e, dokuzu Hanefîler’e mahsus on yedi medrese, 1260’ta yirmi biri Şâfiîler’in, yirmi üçü Hanefîler’in olmak üzere toplam kırk dört medrese mevcuttu."
+   ],
+   [
+    [
+     1209
+    ],
+    "Zengîler dönemine ait olan (1209) ve çeşitli onarımlar geçirmesine rağmen orijinal şeklini büyük ölçüde koruyan bu kısım, savunma ve gözetleme kulesi vazifesini gören iki burç ile uzun bir köprüden oluşmaktadır."
+   ],
+   [
+    [
+     1089
+    ],
+    "Minaresi de Selçuklu dönemine rastlayan 482 (1089-90) yılında Kadı İbnü’l-Haşşâb tarafından Sermînli bir mimara yaptırılmıştır."
+   ],
+   [
+    [
+     1196
+    ],
+    "Eyyûbî Hükümdarı el-Melikü’z-Zâhir Gāzî tarafından 592’de (1196) onarılan bu eser Hülâgû tarafından yağma ve tahrip edilmiş, ancak daha sonraki yıllarda birkaç defa tamir görmüştür."
+   ],
+   [
+    [
+     1235
+    ],
+    "Bunların en önemlisi Medresetü’l-Firdevs olup 633 (1235) yılında, Ferâfire Hankahı gibi Eyyûbî Hükümdarı el-Melikü’n-Nâsır Yûsuf’un karısı Safiyye Hatun tarafından yaptırılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Hama",
+  "lat": 35.132,
+  "lon": 36.75,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "hama:200"
+  ],
+  "slug": "hama",
+  "tanik": [
+   [
+    [
+     1110
+    ],
+    "1110’da Haçlılar’a haraç ödeyen şehirler arasında yer alan Hama daha sonra Dımaşk Atabegi Tuğtegin tarafından ele geçirildi."
+   ],
+   [
+    [
+     1123
+    ],
+    "Mahmûd’un 1123’te ölümü üzerine şehri Tuğtegin tekrar zaptetti."
+   ],
+   [
+    [
+     1135
+    ],
+    "Böri şehri yeniden fethetmeyi başardıysa da 1135’te Zengî tekrar burayı alıp Orta Suriye’deki askerî harekâtlarının bir üssü haline getirdi."
+   ],
+   [
+    [
+     1146
+    ],
+    "Zengî’nin ölümünden sonra (1146) hâcib Selâhaddin el-Yağıbasanî, Nûreddin Mahmud Zengî’ye tâbi olarak Hama emirliğine getirildi."
+   ],
+   [
+    [
+     1174
+    ],
+    "Hama 570’te (1174-75) Selâhaddîn-i Eyyûbî’nin eline geçti."
+   ],
+   [
+    [
+     1135
+    ],
+    "yüzyılda yapılmış ağaç işlemeli minbere ve biri 529 (1135) tarihli, diğeri Memlükler zamanına ait iki minareye sahiptir."
+   ],
+   [
+    [
+     1172
+    ],
+    "Siyah ve beyaz süslemeleriyle dikkati çeken minaresi, ağaç işlemeli çok güzel minberiyle Nûreddin Camii (el-Câmiu’n-Nûrî) 568 (1172) yılında inşa edilmiştir."
+   ],
+   [
+    [
+     1157,
+     1170
+    ],
+    "Yine bu dönemde 552’den (1157) sonra bir hastahane (Bîmâristânü’n-Nûrî), 565’ten (1170) sonra bir medrese ve bugün hiçbir izi kalmamış olan bir kale yapılmıştı."
+   ]
+  ]
+ },
+ {
+  "ad": "Şam",
+  "lat": 33.513,
+  "lon": 36.292,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "sam:302",
+   "sam--sehir:302",
+   "arama:sam:200"
+  ]
+ },
+ {
+  "ad": "Beyrut",
+  "lat": 33.888,
+  "lon": 35.495,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-07",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "beyrut:200"
+  ],
+  "slug": "beyrut",
+  "tanik": [
+   [
+    [
+     1110
+    ],
+    "Haçlı seferleri sırasında Beyrut Kudüs Krallığı’nın eline geçti (1110)."
+   ],
+   [
+    [
+     1187
+    ],
+    "1187’de şehri Selâhaddîn-i Eyyûbî geri aldıysa da on yıl sonra Haçlılar burayı tekrar zaptettiler ve Kudüs Krallığı’na bağladılar."
+   ]
+  ]
+ },
+ {
+  "ad": "Trablusşam",
+  "lat": 34.436,
+  "lon": 35.844,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-26",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-13",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "trablussam:200"
+  ],
+  "slug": "trablussam",
+  "tanik": [
+   [
+    [
+     1032
+    ],
+    "Trablus emîri 423’te (1032) Fâtımî tâbiiyetinden ayrılarak Bizans’a tâbi oldu."
+   ],
+   [
+    [
+     1033
+    ],
+    "Bunun üzerine şehre gelen Fâtımî ordusu çok geçmeden Trablusşam’a hâkimiyet kurdu (424/1033)."
+   ],
+   [
+    [
+     1047
+    ],
+    "438’de (1047) şehri ziyaret eden Nâsır-ı Hüsrev, etrafı çok iyi tahkim edilen Trablusşam’ın Fâtımî hâkimiyetinde bulunduğunu yazar."
+   ],
+   [
+    [
+     1064
+    ],
+    "456 (1064) yılından itibaren Trablusşam’da Türk nüfuzunun arttığı görülür."
+   ],
+   [
+    [
+     1070
+    ],
+    "Fâtımî valisi Muhtârüddevle’nin 462’de (1070) ölümü üzerine Trablusşam Kadısı Emînüddevle Hasan b."
+   ],
+   [
+    [
+     1075
+    ],
+    "Trablusşam 1075’te Selçuklu Emîri Atsız b."
+   ],
+   [
+    [
+     1102
+    ],
+    "Haçlı seferleri başladığında Raymond de Saint-Gilles büyük bir orduyla Trablusşam’ı kuşattı (495/1102), şehri almak için yakınındaki tepe üzerine büyük bir kule yaptırdı."
+   ],
+   [
+    [
+     1105
+    ],
+    "Ancak kendisi uzun süren kuşatma sırasında öldü (1105)."
+   ],
+   [
+    [
+     1108,
+     1109
+    ],
+    "501 (1108) yılında Fâtımî hâkimiyetine giren şehir 11 Zilhicce 502’de (12 Temmuz 1109) Haçlılar’ın eline geçti ve burada bir Haçlı kontluğu kuruldu (1109)."
+   ],
+   [
+    [
+     1157,
+     1201
+    ],
+    "Şehir Haçlılar’ın elinde iken 552 (1157) ve 597’de (1201) iki büyük depreme mâruz kaldı ve hasar gördü."
+   ]
+  ]
+ },
+ {
+  "ad": "Kudüs",
+  "lat": 31.777,
+  "lon": 35.234,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-10-01",
+    "d": "memluk",
+    "kesinlik": {
+     "t": "ay"
+    }
+   },
+   {
+    "f": "1917-12-09",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "kudus:200"
+  ],
+  "slug": "kudus",
+  "tanik": [
+   [
+    [
+     1009
+    ],
+    "Hâkim, 400 (1009) yılında Kıyâme (Kamâme) Kilisesi’ni yağmalatıp yıkılmasını emretti."
+   ],
+   [
+    [
+     1016,
+     1033
+    ],
+    "407’de (1016) yıkılmış olan Kubbetü’s-sahre ve 425’teki (1033) büyük depremde zarar gören Mescid-i Aksâ, Halife Zâhir el-Fâtımî tarafından yeniden inşa edildi."
+   ],
+   [
+    [
+     1033,
+     1068
+    ],
+    "425 (1033) ve 460 (1068) yıllarındaki depremlerden Remle’nin ciddi bir şekilde zarar görmesi Kudüs’ü yeniden ön plana çıkardı."
+   ],
+   [
+    [
+     1065
+    ],
+    "1065’te Kudüs’e Avrupa’dan 12.000 kişilik bir kafilenin geldiği bilinmektedir ( EI 2 [İng.] , V, 328)."
+   ],
+   [
+    [
+     1033,
+     1064
+    ],
+    "Fâtımîler devrinde 425 (1033) ve 456 (1064) yıllarında şehrin surları ve kaleleri saldırılara karşı yeniden gözden geçirilip onarıldı."
+   ],
+   [
+    [
+     1071
+    ],
+    "Uvak 463 (1071) yılında (İbnü’l-Kalânisî, s."
+   ],
+   [
+    [
+     1077
+    ],
+    "Bunun üzerine Kudüs’teki Arap asıllı kumandanlar ve idareciler Atsız’ın nâiblerine karşı isyan edip şehirde tekrar Fâtımî halifesi adına hutbe okutmaya başladılar (469/1077)."
+   ],
+   [
+    [
+     1079
+    ],
+    "Büyük Selçuklu Sultanı Melikşah’ın kardeşi Tâcüddevle Tutuş 471 (1079) yılında Atsız’ı ortadan kaldırdı, daha sonra Kudüs ve çevresinin yönetimini Artuk b."
+   ],
+   [
+    [
+     1085
+    ],
+    "Eksük’e verdi (477/1085)."
+   ],
+   [
+    [
+     1089
+    ],
+    "Artuk Bey 482’de (1089) Kudüs’te yeni bir cami yaptırdı."
+   ],
+   [
+    [
+     1098
+    ],
+    "Artuk Bey’in ölümünün ardından şehrin yönetimi 491 (1098) yılına kadar oğulları Sökmen ve İlgazi’nin elinde kaldı."
+   ],
+   [
+    [
+     1099
+    ],
+    "Bir yıl sonra da şehir Haçlılar’ın eline geçti (492/1099)."
+   ],
+   [
+    [
+     1093
+    ],
+    "486’da (1093) Kudüs’ü ziyaret eden ve üç yıl süreyle burada kalan Ebû Bekir İbnü’l-Arabî, Mescid-i Aksâ’da müslümanların kendi aralarında veya hıristiyan ve yahudilerle ilmî tartışmalar yaptıklarından bahseder ( el-ʿAvâṣım , II, 61)."
+   ],
+   [
+    [
+     1100
+    ],
+    "Godefroi 1100’de ölünce yerine Urfa kontu olan kardeşi Baudouin kral seçildi."
+   ],
+   [
+    [
+     1119
+    ],
+    "Baudouin, 1119 yılında Antakya Prinkepsi Roger ve ordusunun Artuklu Beyi İlgazi’nin askerleri tarafından kılıçtan geçirilmesi üzerine Antakya’ya giderek geçici bir süre için şehrin hâkimiyetini ele aldı."
+   ],
+   [
+    [
+     1123
+    ],
+    "Baudouin, 1123’te Artuklu Beyi Belek’e esir düşüp Harput Kalesi’nde hapsedilince Kudüs Krallığı bir yıl Geldemar tarafından yönetildi."
+   ],
+   [
+    [
+     1124
+    ],
+    "Onun yokluğunda Kudüs ordusu Venedik donanmasının desteğiyle 7 Temmuz 1124’te Sûr’u (Tyrus) zaptederek Askalân dışında bütün Filistin kıyı şehirlerine sahip oldu."
+   ],
+   [
+    [
+     1131
+    ],
+    "Baudouin’in 21 Ağustos 1131’de ölümünden sonra kızı Kraliçe Melisende ile birlikte taç giyen Foulque d’Anjou krallıkta sevilen ve baronlarının itaat ettiği bir kral oldu."
+   ],
+   [
+    [
+     1144
+    ],
+    "İmâdüddin Zengî, 24 Aralık 1144’te Urfa’yı fethederek buradaki Haçlı Kontluğu’na son verdi."
+   ],
+   [
+    [
+     1149,
+     1152
+    ],
+    "1149’da Antakya Prinkepsi Raymond de Poitiers’nin Halep Hükümdarı Nûreddin Mahmûd Zengî ile yaptığı savaşta maktul düşmesi üzerine idareyi karısı Konstance, 1152’de Trablus kontu II."
+   ],
+   [
+    [
+     1153
+    ],
+    "Yedi ay süren kuşatmadan sonra 19 Ağustos 1153’te Askalân’ı zaptetmesi Haçlılar’ın son büyük başarısını teşkil eder."
+   ],
+   [
+    [
+     1162
+    ],
+    "İktidarı eline aldıktan (1162) sonra bütün dikkatini Mısır üzerinde toplayan Kral Amaury desteğine ihtiyaç duyduğu Bizans ile iyi ilişkileri sürdürmeye kararlıydı."
+   ],
+   [
+    [
+     1153
+    ],
+    "Zira doğu sınırı, 1153’te Dımaşk’a hâkim olmasından sonra tamamen Nûreddin Mahmud Zengî’nin elindeydi."
+   ],
+   [
+    [
+     1168
+    ],
+    "1167 ve 1168’de Kral Amaury yine Mısır’a saldırdı, ancak hiçbir sonuç alamadı."
+   ],
+   [
+    [
+     1174
+    ],
+    "Amaury 11 Temmuz 1174’te ölünce yerine on üç yaşında cüzzamlı oğlu Baudouin geçti."
+   ],
+   [
+    [
+     1176
+    ],
+    "Fakat 1176’da Kral IV."
+   ],
+   [
+    [
+     1187
+    ],
+    "Selâhaddin, 4 Temmuz 1187’de Hittîn mevkiinde yapılan savaşta Kudüs krallık ordusunu yok etti."
+   ],
+   [
+    [
+     1187
+    ],
+    "Selâhaddîn-i Eyyûbî 20 Eylül 1187’de Kudüs önünde karargâh kurdu."
+   ],
+   [
+    [
+     1189
+    ],
+    "Sultan Kudüs’ün idaresini Fakih Ziyâeddin Îsâ’ya verdi, onun 1189’da ölümü üzerine de yerine Hüsâmeddin en-Necmî getirildi."
+   ],
+   [
+    [
+     1189
+    ],
+    "Haçlı Seferi’ni düzenlediler (1189-1192)."
+   ],
+   [
+    [
+     1191
+    ],
+    "Sultan 26 Eylül 1191’de Kudüs’e gelip şehrin savunma tedbirlerini, erzak ve silâh durumunu gözden geçirdi."
+   ],
+   [
+    [
+     1229
+    ],
+    "Friedrich, düzenlediği Haçlı seferi sırasında 626 (1229) yılında Eyyûbî Hükümdarı el-Melikü’l-Kâmil Muhammed ile anlaşarak on yıl süreyle Kudüs’e ve Kudüs’ü Yafa’ya bağlayan dar bir arazi şeridine sahip olma hakkını elde etti (Demirkent, Haçlı Seferleri , s."
+   ],
+   [
+    [
+     1229
+    ],
+    "Friedrich 17 Mart 1229’da Kudüs’e girdi ve Nablus kadısı Şemseddin’in refakatinde şehri dolaştı."
+   ],
+   [
+    [
+     1244
+    ],
+    "Hârizmliler, Dımaşk civarında dehşet saçarak bütün bölgeyi yakıp yıktıktan sonra 11 Temmuz 1244’te Kudüs’e girdiler."
+   ],
+   [
+    [
+     1099
+    ],
+    "Haçlılar’ın 1099’da Kudüs’ü ilk alışından 145 yıl sonra şehir Türkler’in eline geçmişti."
+   ],
+   [
+    [
+     1250
+    ],
+    "Kudüs, Memlük Devleti’nin ilk kuruluş yılları sırasında (1250-1260) Suriye’deki Eyyûbîler ile Memlükler arasında birkaç defa el değiştirdi."
+   ],
+   [
+    [
+     1256
+    ],
+    "Ancak Filistin ve Kudüs 654 (1256) yılında tekrar Eyyûbîler’in eline geçti."
+   ],
+   [
+    [
+     1260
+    ],
+    "Moğollar’a karşı kazanılan Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi ve şehir daha istikrarlı bir yönetime kavuştu."
+   ],
+   [
+    [
+     1216
+    ],
+    "Barsbay, Eyyûbî sultanlarından el-Melikü’l-Muazzam Îsâ’nın 1216’da yaptırmış olduğu sebili (sebîlü Şa‘lân) tamir ettirmiştir (832/1429)."
+   ],
+   [
+    [
+     1200
+    ],
+    "İngiliz işgali, Kudüs’teki sadece Haçlı işgaliyle kesintiye uğrayan yaklaşık 1200 yıllık müslüman yönetimini de sona erdirdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Gazze",
+  "lat": 31.502,
+  "lon": 34.466,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-12-21",
+    "d": "memluk"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "gazze:200"
+  ],
+  "slug": "gazze",
+  "tanik": [
+   [
+    [
+     1149,
+     1187
+    ],
+    "Baldwin’in eline geçen Gazze (1149), Hittîn Savaşı’ndan sonra Selâhaddîn-i Eyyûbî tarafından geri alındı (1187) ve tekrar müslüman kimliğine kavuşturuldu."
+   ],
+   [
+    [
+     1258
+    ],
+    "1258 yılında Bağdat’ı zaptederek Abbâsî hânedanlığını çökerten Moğollar’ın İslâm topraklarında ulaşabildikleri batıdaki en uç nokta Gazze’dir."
+   ]
+  ]
+ },
+ {
+  "ad": "Akkâ",
+  "lat": 32.928,
+  "lon": 35.082,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-23",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "akka:200"
+  ],
+  "slug": "akka",
+  "tanik": [
+   [
+    [
+     1074
+    ],
+    "1074’te Selçuklu emîrlerinden Şöklü burayı ele geçirdi."
+   ],
+   [
+    [
+     1087
+    ],
+    "1087’den sonra ise şehir yeniden Fâtımîler’in idaresine girdi."
+   ],
+   [
+    [
+     1104
+    ],
+    "Bu önemli liman şehri 1104’te, I."
+   ],
+   [
+    [
+     1100
+    ],
+    "Baudouin (1100-1118) tarafından ele geçirilerek hıristiyanların hareket üssü haline getirildi."
+   ],
+   [
+    [
+     1187
+    ],
+    "Bu dönemlerde sayısız çiftlikleri, büyük ve emniyetli limanı, kalabalık ve değişik menşeli halkı ile geniş bir şehir olarak tarif edilen ve bölgenin en büyük ticarî merkezi olan Akkâ, 9 Temmuz 1187’de Selâhaddîn-i Eyyûbî tarafından zaptedildi."
+   ],
+   [
+    [
+     1191
+    ],
+    "Şiddetli çarpışmalar sonunda kaleyi müdafaa edenler teslim oldu ve şehir Henri de Champagne’in idaresine verildi (1191)."
+   ],
+   [
+    [
+     1229
+    ],
+    "Böylece uzun süre Filistin’deki Haçlı Krallığı’nın merkezi olan Akkâ, 1229’dan sonra büyük şövalye tarikatlarından bilhassa Saint Jean şövalyelerinin karargâhı haline geldi ve bu sebeple St."
+   ]
+  ]
+ },
+ {
+  "ad": "Maan",
+  "lat": 30.192,
+  "lon": 35.734,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-01-01",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-27",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "maan:200"
+  ],
+  "slug": "maan",
+  "tanik": []
+ },
+ {
+  "ad": "Sayda",
+  "lat": 33.563,
+  "lon": 35.369,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-06",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "sayda:200"
+  ],
+  "slug": "sayda",
+  "tanik": [
+   [
+    [
+     1079,
+     1087
+    ],
+    "471 (1079) yılından itibaren Dımaşk’a hâkim olan Tutuş 480’de (1087) Sayda’yı ele geçirdi."
+   ],
+   [
+    [
+     1089
+    ],
+    "Ancak Sayda’da Selçuklu hâkimiyeti uzun süreli olmadı, Vezir Bedr el-Cemâlî tarafından gönderilen Fâtımî ordusu şehri tekrar zaptetti (482/1089)."
+   ],
+   [
+    [
+     1107
+    ],
+    "Baudouin’in 501 (1107) yılındaki kuşatmasından yüklü miktarda para ödenerek kurtarılabildi."
+   ],
+   [
+    [
+     1151
+    ],
+    "Sayda’da 546-565 (1151-1170) yılları arasında meydana gelen depremler büyük hasara yol açtı."
+   ],
+   [
+    [
+     1187
+    ],
+    "Hittîn Savaşı’nın ardından Sayda’ya hücum eden Selâhaddîn-i Eyyûbî, Sayda hâkimi Renaud de Sidon tarafından terkedilen şehri fethetti (583/1187)."
+   ],
+   [
+    [
+     1197
+    ],
+    "593 (1197) yılında Sayda’da Haçlılar’la Eyyûbîler arasında şiddetli bir savaş meydana geldi."
+   ],
+   [
+    [
+     1198
+    ],
+    "Yapılan antlaşmada Beyrut Haçlılar’da kalırken Sayda müslümanlarla Haçlılar arasında ikiye bölündü (594/1198)."
+   ],
+   [
+    [
+     1228
+    ],
+    "Haçlı Seferi’nin öncü kuvvetleri şehri işgal ederek savunma amacıyla Sayda sahilindeki küçük bir ada üzerine Kal‘atü’l-bahr diye bilinen kaleyi inşa ettirdiler ve şehrin surlarını yenilediler (625/1228)."
+   ],
+   [
+    [
+     1254
+    ],
+    "Saint Louis tarafından tekrar tahkim edildi (652/1254)."
+   ],
+   [
+    [
+     1260
+    ],
+    "Sayda hâkimi Julien, Moğollar’a tâbi köylere saldırınca Ketboğa intikam amacıyla şehri tahrip etti (658/1260)."
+   ],
+   [
+    [
+     1261
+    ],
+    "Templier (Dâviyye) şövalyelerine olan borçları sebebiyle Sayda’yı teminat göstermiş bulunan Julien şehri onlara teslim etti (659/1261)."
+   ],
+   [
+    [
+     1271
+    ],
+    "669 (1271) yılında yapılan on yıllık anlaşmayla Sayda’nın sahil kısımları onlarda, dağlık kısımları müslümanlarda kaldı."
+   ],
+   [
+    [
+     1202
+    ],
+    "Daha önce Câmiu’l-muhtesib adıyla bilinen ve Sayda’nın zamanımıza ulaşan en eski camisi olan Bâbüsserâyâ Camii 598 (1202) yılında Şeyh Ebü’l-Yümn İbn Ebü’l-Hak tarafından yaptırılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Yafa",
+  "lat": 32.054,
+  "lon": 34.755,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1917-11-16",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "yafa:200"
+  ],
+  "slug": "yafa",
+  "tanik": [
+   [
+    [
+     1040
+    ],
+    "Büyük Selçuklu Devleti’nin kuruluşunun (1040) ardından, planlı bir fetih harekâtı çerçevesinde Bizans hâkimiyetindeki Anadolu topraklarına akınlar yapılırken bazı Selçuklu emîrleri, XI."
+   ],
+   [
+    [
+     1069
+    ],
+    "Kurlu et-Türkî’nin idaresindeki Nâvekiyye (Yâvegiyye) Türkmenleri de Filistin’e girdi (1069-1070)."
+   ],
+   [
+    [
+     1071
+    ],
+    "Kurlu’nun 463’te (1071) ölümü üzerine yerini alan Emîr Atsız bir ara Fâtımîler’in geri aldığı Remle’yi ve Kudüs’ü ele geçirdi."
+   ],
+   [
+    [
+     1071
+    ],
+    "Atsız’ın 1071-1076 yıllarındaki fetihleri neticesinde Askalân ve Yafa dışında Filistin ve Suriye’nin en önemli şehirleri beyliğin merkezini naklettiği Dımaşk başta olmak üzere Selçuklu Beyliği’nin hâkimiyetine girdi."
+   ],
+   [
+    [
+     1077
+    ],
+    "Yafa’yı ele geçiren Atsız şehrin bütün surlarını yıktırdı (469/1077)."
+   ],
+   [
+    [
+     1079
+    ],
+    "Onun ardından şehir 1079’da Tutuş’un kurduğu Suriye Selçukluları Devleti’nin egemenliğine girdi."
+   ],
+   [
+    [
+     1099
+    ],
+    "492’de (1099) Kudüs, Haçlılar tarafından kuşatıldığı sırada onlara erzak ve kuşatma aletlerinin yapımı için gerekli maddeleri taşıyan iki Cenova galerisiyle dört İngiliz gemisi müslümanların terkettiği Yafa Limanı’na girdi."
+   ],
+   [
+    [
+     1099,
+     1187
+    ],
+    "1099 yılından 1187’ye kadar Kudüs Haçlı Krallığı’na bağlı bir kontluk olarak kalan Yafa uzun süre krallığın deniz taşımacılığının merkezi oldu."
+   ],
+   [
+    [
+     1101
+    ],
+    "494’te (1101) Haçlılar’a karşı gönderdiği ordu Remle’ye kadar ilerleyince Kudüs Kralı I."
+   ],
+   [
+    [
+     1102
+    ],
+    "495’te (1102) Yafa yakınlarında cereyan eden savaş Mısır ordusunun yenilerek Askalân’a doğru kaçmasıyla sonuçlandı."
+   ],
+   [
+    [
+     1122
+    ],
+    "Efdal’in öldürülmesinin ardından bu defa Halife Âmir-Biahkâmillâh 516 (1122) yılında Yafa’yı kuşattıysa da geri çekilmek zorunda kaldı."
+   ],
+   [
+    [
+     1123
+    ],
+    "517’de (1123) Mısırlılar bir kere daha Askalân’dan çıkıp Yafa üzerine yürüdüler, fakat bu sefer de başarısızlıkla neticelendi ve Mısır donanması Venedik donanması tarafından imha edildi."
+   ],
+   [
+    [
+     1187
+    ],
+    "Yafa, ancak Hittîn Savaşı’nda Kudüs Krallığı’nın askerî gücü ortadan kaldırıldıktan sonra müslümanlar tarafından geri alınabildi (583/1187)."
+   ],
+   [
+    [
+     1191
+    ],
+    "Haçlı Seferi’ne katılarak bölgeye gelen İngiltere Kralı Aslan Yürekli Richard 587’de (1191) Yafa’yı ele geçirdi ve şehrin istihkâmlarını yeniden inşa ettirdi."
+   ],
+   [
+    [
+     1197
+    ],
+    "el-Melikü’l-Âdil 593’te (1197) şehri tekrar ele geçirip tahkimatı tahrip etti."
+   ],
+   [
+    [
+     1199
+    ],
+    "595’te (1199) şehir geçici bir süre hıristiyan hâkimiyetine geçtiyse de el-Melikü’l-Âdil bir defa daha şehre hâkim oldu."
+   ],
+   [
+    [
+     1204
+    ],
+    "Haçlı Seferi’nden (1204) sonra yine Franklar’ın eline geçti."
+   ],
+   [
+    [
+     1228
+    ],
+    "1228’de Alman İmparatoru II."
+   ],
+   [
+    [
+     1250
+    ],
+    "Friedrich, 1250’de Fransa Kralı IX."
+   ]
+  ]
+ },
+ {
+  "ad": "Nablus",
+  "lat": 32.221,
+  "lon": 35.254,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-21",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "nablus:200"
+  ],
+  "slug": "nablus",
+  "tanik": [
+   [
+    [
+     1098
+    ],
+    "(XI.) yüzyılın son çeyreğinde Selçuklular’la Fâtımîler arasında mücadeleye sahne olan şehir, kısa bir süre Selçuklu hâkimiyetinde kalmakla birlikte 491’de (1098) tekrar Fâtımîler’in eline geçti."
+   ],
+   [
+    [
+     1137
+    ],
+    "Sadece iç kalesi olan Nablus, Haçlı hâkimiyetinde iken (531/1137) Dımaşk Atabegliği’ne bağlı kuvvetlerin saldırısına uğradı."
+   ],
+   [
+    [
+     1279
+    ],
+    "Ayrıca Selâhaddîn-i Eyyûbî’nin kiliseden camiye çevirdiği el-Câmiu’l-kebîr (Câmiu’s-Salâhî), Yâsmîne mahallesinde 678-689’da (1279-1290) Sultan Kalavun tarafından inşa edilen Câmiu’l-hadrâ (Evliya Çelebi’de Sinan Paşa Camii), Câmiu’l-Hânâbile, Câmiu’n-Nasr, Câmiu’l-enbiyâ başlıca tarihî eserler arasında sayılabilir."
+   ]
+  ]
+ },
+ {
+  "ad": "Amman",
+  "lat": 31.949,
+  "lon": 35.933,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-12-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-25",
+    "t": "1921-02-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-02-01",
+    "t": "1923-10-29",
+    "d": "urdun-emirligi",
+    "kaynak": "TDV `urdun` — «kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». 🟡 OLAYIN dayanağı KESİN, GÜNÜN dayanağı YOK: kaynak AY veriyor. Gün künyeden DEVRALINDI (`urdun-emirligi` f:1921-02-01) — §4'ün kaba tarih kuralı burada uygulanamadı, çünkü `1921-01-01` maddeyi künye penceresinin DIŞINA düşürürdü (`4d`)."
+   }
+  ],
+  "denenen": [
+   "amman:200"
+  ],
+  "slug": "amman",
+  "tanik": []
+ },
+ {
+  "ad": "Kerak",
+  "lat": 31.181,
+  "lon": 35.703,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-01-01",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-01-01",
+    "t": "1921-02-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-02-01",
+    "t": "1923-10-29",
+    "d": "urdun-emirligi",
+    "kaynak": "TDV `urdun` — «kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». 🟡 OLAYIN dayanağı KESİN, GÜNÜN dayanağı YOK: kaynak AY veriyor. Gün künyeden DEVRALINDI (`urdun-emirligi` f:1921-02-01) — §4'ün kaba tarih kuralı burada uygulanamadı, çünkü `1921-01-01` maddeyi künye penceresinin DIŞINA düşürürdü (`4d`)."
+   }
+  ],
+  "denenen": [
+   "kerak:302",
+   "kerak--sehir:302",
+   "arama:kerak:200"
+  ]
+ },
+ {
+  "ad": "Humus",
+  "lat": 34.73,
+  "lon": 36.71,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-21",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "humus:302",
+   "humus--sehir:302",
+   "arama:humus:200",
+   "humus--suriye:200"
+  ],
+  "slug": "humus--suriye",
+  "tanik": [
+   [
+    [
+     1090
+    ],
+    "(XI.) yüzyılın ortasına kadar Mirdâsîler’in, ardından da bütün Suriye’yi ele geçiren Fâtımîler’in yönetiminde kalan Humus 483 (1090) yılında Selçuklu Sultanı Melikşah’ın eline geçti."
+   ],
+   [
+    [
+     1103
+    ],
+    "Kısa bir müddet sonra Atabeg Cenâhüddevle Hüseyin şehirde nüfuzunu kurdu ve Haçlı saldırılarına rağmen 496’ya (1103) kadar burayı korudu."
+   ],
+   [
+    [
+     1104
+    ],
+    "Onun 1104’te ölümü üzerine yerine geçen Atabeg Tuğtegin şehri, Melikşah ve Cenâhüddevle’nin hizmetinde bulunmuş olan Emîr Karaca’ya teslim etti."
+   ],
+   [
+    [
+     1112
+    ],
+    "506’da (1112) babası Emîr Karaca’nın yerine geçen Hayır Han (Kırhan), Necmeddin İlgazi, Atabeg Tuğtegin ve özellikle Atabeg İmâdüddin Zengî’ye karşı mücadele etmek zorunda kaldı."
+   ],
+   [
+    [
+     1126
+    ],
+    "520’de (1126) bölgeyi yakıp yıkan Franklar Halep’ten gelen İzzeddin Mesud’un müdahalesiyle şehri terketmek zorunda kaldılar."
+   ],
+   [
+    [
+     1129
+    ],
+    "Hayır Han 524 (1129) yılında İmâdüddin Zengî tarafından esir alındı."
+   ],
+   [
+    [
+     1136,
+     1137
+    ],
+    "İmâdüddin Zengî 530 (1136) ve 531’de (1137) şehre tekrar saldırdı."
+   ],
+   [
+    [
+     1146
+    ],
+    "İmâdüddin Zengî’nin ölümü üzerine (541/1146) eski vali Muînüddin Üner şehirde yeniden hâkimiyet kurdu."
+   ],
+   [
+    [
+     1149
+    ],
+    "Nûreddin Mahmud Zengî ve kardeşi Seyfeddin Gazi birliklerini buraya yığdılar (544/1149)."
+   ],
+   [
+    [
+     1154
+    ],
+    "Humus’tan ayrılan Nûreddin Mahmud 549’da (1154) Dımaşk’ı zaptetti ve Humus’u Mücîrüddin Abak’a verdi."
+   ],
+   [
+    [
+     1164,
+     1169
+    ],
+    "Nûreddin Mahmud Zengî, 559’da (1164) Esedüddin Şîrkûh el-Mansûr’a iktâ olarak verdiği Humus’u Şîrkûh ölünce (1169) geri aldı."
+   ],
+   [
+    [
+     1175,
+     1179
+    ],
+    "570’te (1175) Selâhaddîn-i Eyyûbî şehri zaptetti ve 574’te (1179), Trablus’tan gelen Haçlı akınlarını engellemekle görevlendirdiği Şîrkûh’un oğlu Nâsırüddin Muhammed’e verdi."
+   ],
+   [
+    [
+     1248
+    ],
+    "Daha sonra Halep Eyyûbî Emîri el-Melikü’n-Nâsır Yûsuf Humus’u ele geçirdi (646/1248)."
+   ],
+   [
+    [
+     1263
+    ],
+    "Humus’taki Esedüddin Şîrkûh ailesinin yönetimi bazı aralıklarla el-Melikü’l-Eşref Mûsâ’nın 661’de (1263) ölümüne kadar devam etti."
+   ],
+   [
+    [
+     1260
+    ],
+    "Aynicâlût Savaşı’ndan (658/1260) sonra Moğollar’la Memlükler arasındaki ilk büyük kuvvet denemesi olan bu savaşın ardından Moğollar Fırat’ın gerisine çekilmek zorunda kaldılar."
+   ],
+   [
+    [
+     1198,
+     1203
+    ],
+    "Şehrin kuzey bölgesindeki bir kulede el-Melikü’l-Mücâhid Şîrkûh adına 594 (1198) ve 599 (1203) tarihli iki adet kitâbe bulunmaktadır."
+   ]
+  ]
+ },
+ {
+  "ad": "Han Yûnus",
+  "lat": 31.34,
+  "lon": 34.3,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-12-21",
+    "d": "memluk"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "han-yunus:302",
+   "han-yunus--sehir:302",
+   "arama:han-yunus:200"
+  ]
+ },
+ {
+  "ad": "Tedmür (Palmyra)",
+  "lat": 34.55,
+  "lon": 38.27,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_seyrek.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "tedmur:200"
+  ],
+  "slug": "tedmur",
+  "tanik": [
+   [
+    [
+     1157
+    ],
+    "552’de (1157) meydana gelen depremden büyük zarar gören Tedmür’ü bundan kısa bir süre sonra ziyaret eden Tudelalı Benjamin burada 2000 yahudinin yaşadığını söyler."
+   ]
+  ]
+ },
+ {
+  "ad": "Azez (A'zâz)",
+  "lat": 36.586,
+  "lon": 37.045,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "azez:302",
+   "azez--sehir:302",
+   "azaz:302",
+   "azaz--sehir:302",
+   "arama:azez:200",
+   "arama:azaz:200"
+  ]
+ },
+ {
+  "ad": "Münbiç",
+  "lat": 36.528,
+  "lon": 37.955,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "munbic:302",
+   "munbic--sehir:302",
+   "arama:munbic:200"
+  ]
+ },
+ {
+  "ad": "İskenderun",
+  "lat": 36.587,
+  "lon": 36.173,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_ek27.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "iskenderun:200"
+  ],
+  "slug": "iskenderun",
+  "tanik": [
+   [
+    [
+     1097
+    ],
+    "Haçlı seferleri sırasında 1097’de Tankred tarafından zaptedilmiştir."
+   ],
+   [
+    [
+     1268
+    ],
+    "Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Deyrülkamer (Dayr al-Kamer)",
+  "lat": 33.6989,
+  "lon": 35.5619,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek29.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-10-01",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-08",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "deyrulkamer:302",
+   "deyrulkamer--sehir:302",
+   "dayr-al-kamer:302",
+   "dayr-al-kamer--sehir:302",
+   "arama:deyrulkamer:200",
+   "arama:dayr-al-kamer:200"
+  ]
+ },
+ {
+  "ad": "Ba'lebek (Baalbek)",
+  "lat": 34.0059,
+  "lon": 36.2181,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek29.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-08",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "balebek:200"
+  ],
+  "slug": "balebek",
+  "tanik": [
+   [
+    [
+     1025
+    ],
+    "Ioannis Tzimiskes’in, 1025’te Halep Emîri Sâlih b."
+   ],
+   [
+    [
+     1075
+    ],
+    "Mirdâs’ın ve 1075’te Suriye Selçuklu Meliki Tutuş ve oğullarının hâkimiyetine girdi."
+   ],
+   [
+    [
+     1083
+    ],
+    "1083’te Halep Emîri Müslim b."
+   ],
+   [
+    [
+     1110
+    ],
+    "Ancak Gümüştegin daha sonra Dımaşk Atabegi Tuğtegin’in aleyhinde bulunduğundan azledildi ve yerine Tuğtegin’in oğlu Böri getirildi (1110)."
+   ],
+   [
+    [
+     1138
+    ],
+    "Muhammed 1138’de Dımaşk emîri olunca veziri Üner’i Ba‘lebek valisi tayin etti."
+   ],
+   [
+    [
+     1136
+    ],
+    "Ancak 1136’da Halep Valisi Zengî şehri alarak valiliğine Selâhaddîn-i Eyyûbî’nin babası Eyyûb’u getirdi."
+   ],
+   [
+    [
+     1146
+    ],
+    "1146’da Zengî’nin öldürülmesi üzerine Eyyûb şehri Börîler’e geri vermek zorunda kaldı."
+   ],
+   [
+    [
+     1146
+    ],
+    "Böylece Ba‘lebek dokuz yıl kadar (1146-1155) tekrar Börîler’in idaresinde kaldı."
+   ],
+   [
+    [
+     1155
+    ],
+    "1155 yılında Dımaşk’ı alarak orada Börîler’in hâkimiyetine son veren Nûreddin Zengî Ba‘lebek’e doğru yöneldi."
+   ],
+   [
+    [
+     1170
+    ],
+    "1170’te depremden büyük zarar gören kale surları tamir edildi."
+   ],
+   [
+    [
+     1174
+    ],
+    "1174’te Selâhaddîn-i Eyyûbî tarafından alınan şehir Haçlılar’a karşı yapılan mücadelede önemli bir üs olarak kullanıldı."
+   ],
+   [
+    [
+     1182,
+     1230
+    ],
+    "1182-1230 yılları arasında Selâhaddîn-i Eyyûbî’nin diğer yeğeni Behram Şah’ın idaresinde kalan şehir 1230’da Dımaşk hâkimi el-Melikü’l-Eşref Mûsâ tarafından zaptedildi."
+   ],
+   [
+    [
+     1260
+    ],
+    "Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Sûr (Tyre) — Lübnan",
+  "lat": 33.2704,
+  "lon": 35.2038,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_ek29.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-08",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "sur:302",
+   "sur--sehir:302",
+   "tyre:302",
+   "tyre--sehir:302",
+   "arama:sur:200",
+   "arama:tyre:200"
+  ]
+ }
+]
