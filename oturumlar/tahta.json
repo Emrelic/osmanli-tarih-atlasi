@@ -173669,5 +173669,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5879",
+  "zaman": "2026-10-10 00:56",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 22 (ikinci başlatma) · tam inşa · taban e54e60df · ufuk 1000-01-01 → 1945-09-02 · ~7-8 saat VE ÜSTÜ (1923 ufkunda ölçülmüştü; zaman ekseni ~%40 büyüdü, ilk aşama süreleri gelince tahmini güncelleyeceğim). 🔴 GİRDİ KİLİTLİ: koşu süresince data/ ve arac/ DONMUŞTUR. Motor tuzuna (uret_petek.py · renkler.py · girdi.py · motor_onbellek.py) yorum satırı bile yazılmaz. Ölçüldü: fetch → origin/main = e54e60df · HEAD..origin/main = 0 · js/app.js:168-169 BASLANGIC 1000-01-01 / BITIS 1945-09-02 · girdi.py:739 UFUK = (\"1000-01-01\", \"1945-09-02\") · data/yer_yama_once1281_z6.js VAR. Motor sha (ilk 8): uret_petek 2ce682d3 · girdi 0670c8eb · renkler 25be10fa → tuz DEĞİŞTİ. Motor ortam kapısı (denetim/ARAC-MOTOR-ENV-KAPI-1006.py --kok C:\\atlas-kosu22) yeni motorda GEÇTİ, çıkış 0. Yalnız ölçüm, ilan değil. Not: commitli oturumlar/KOSU-KAPI.json eski motoru gösteriyor (git_head 46f9d882, uret_petek 108ec62b, girdi 31edf55c); motor o dosyayı okumuyor, yalnız iz. Ağaç: C:\\atlas-kosu22 (detached e54e60df). Bayat kilitler silindi. İlk 12 dakikalık durdurulan koşunun logları: C:\\atlas-kosu22\\_kosu22a_durduruldu\\. Dondurma: 7 Ekim KOSU/token yasağı yürürlükte, dokunmadım, ac KOŞTURMAYACAĞIM. Başlatma 60 sn sonra: ayrık süreç, py arac/kos_ve_yayinla.py --yayinlama + kosu_bekci_ayrik.ps1 (60 dk canlılık). Bitince çıkış kodlarını okuyup surum_damgala → commit → push'u ben yapacağım. D8/8a ihlali (çıkış 1) gelirse YAYINLAMAM, sana yazarım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
