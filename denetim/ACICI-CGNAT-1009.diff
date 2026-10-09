@@ -1,0 +1,46 @@
+diff --git a/arac/acici.py b/arac/acici.py
+index 72a3a32d..98bb4552 100644
+--- a/arac/acici.py
++++ b/arac/acici.py
+@@ -129,6 +129,28 @@ EYLEMLER = {
+ }
+ 
+ 
++# ---------------------------------------------------------------- ag
++# Tailscale CGNAT araligi (RFC 6598 "shared address space"). Python bunu `is_private`
++# SAYMIYOR — olculdu 9 Ekim 2026: 100.64.0.1 / 100.100.100.100 / 100.127.255.254 -> False.
++# Bu satir olmadan Tailscale'den gelen her istek 403 "yerel ag disi" aliyordu (UMIT'ten
++# emrelic:8787 olculdu). Tailscale'in IPv6 araligi fd7a:115c:a1e0::/48 ULA'dir, is_private
++# zaten True. Kardesi: arac/tahta_sunucu.py izinli_ip (makine/umit-tahtaweb d5c99c0c).
++TAILSCALE_CGNAT = ipaddress.ip_network("100.64.0.0/10")
++
++
++def izinli_ip(ip_metni):
++    """Yalniz yerel ag/loopback/Tailscale.  Internete acilan bir kapi OLMAYACAK."""
++    try:
++        ip = ipaddress.ip_address(ip_metni)
++    except ValueError:
++        return False
++    if getattr(ip, "ipv4_mapped", None):
++        ip = ip.ipv4_mapped
++    if ip.version == 4 and ip in TAILSCALE_CGNAT:
++        return True
++    return ip.is_private or ip.is_loopback
++
++
+ # ---------------------------------------------------------------- sunucu
+ class Kapi(BaseHTTPRequestHandler):
+     server_version = "AtlasAcici/1.0"
+@@ -147,11 +169,7 @@ class Kapi(BaseHTTPRequestHandler):
+ 
+     def _ozel_ag_mi(self):
+         """Yalniz yerel agdan kabul.  Internete acilan bir kapi OLMAYACAK."""
+-        try:
+-            ip = ipaddress.ip_address(self.client_address[0])
+-        except ValueError:
+-            return False
+-        return ip.is_private or ip.is_loopback
++        return izinli_ip(self.client_address[0])
+ 
+     def do_GET(self):
+         kaynak = self.client_address[0]
