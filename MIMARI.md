@@ -312,13 +312,78 @@ uzak olmamalı:
 | Normal (Avrupa içi, İran, Kuzey Afrika kıyısı) | **120 km** |
 | Seyrek (bozkır, Sahra, Sibirya, iç Arabistan) | **300 km** |
 
+🆕 🔴 **YUKARIDAKİ TABLO BİR ÖLÇÜM DEĞİL, HEDEFTİR — ve bugün hiçbir bölge
+onu karşılamıyor** (10 Ekim 2026, LAB ölçtü: `denetim/LAB-YOGUNLUK-IZGARA-1010.md`).
+```
+Anadolu            p95  63-70 km   ·  AZAMÎ 107 km   ⇒ 60 km ölçütünü GEÇMİYOR
+yayındaki haritada emilme p95 227-280 km             ⇒ BUGÜN TOLERE EDİLEN REJİM
+```
+Yani tablo uzun süre "ölçüt" diye durdu ama **hiç ölçülmemişti**; ölçülünce en
+yoğun bölge bile dışında kaldı. **Bir sayı, ölçülmediği sürece ölçüt değil
+TEMENNÎdir** — ve bu sayı bayatlamadı, hiç doğmadı.
+
+🔴 **BUGÜNDEN İTİBAREN KAPI p95'TİR, AZAMÎ UYARIDIR** (koordinatör hükmü):
+
+| kova | ölçüt |
+|---|---|
+| **AÇ** | p95 ≤ **150 km** VE azamî ≤ **300 km** |
+| **SINIR** | p95 ≤ **300 km** |
+| **KAPALI** | üstü |
+
+**Niçin ikisi birden, biri değil:** p95 **kapı** olur çünkü tek aykırı noktaya
+rehin değildir; azamî **uyarı** olur çünkü tek aykırıyı gösteren tek şeydir.
+Birini atmak ötekinin işini görmez — ölçülen vaka: Okyanusya'da **bir Tonga
+noktası Yeni Zelanda'yı 2.276 km öteden boyuyor** ve bunu yalnız azamî
+gösteriyor; buna karşılık yalnız azamîye bakan bir kapı tek noktayla kilitlenir.
+
+**150 km keyfî değil:** Anadolu/Balkan p95'inin (63-70 km) ~2 katı, ve o p95
+**642 yıl boyunca sabit** ölçüldü. 300 km de keyfî değil: yayındaki haritanın
+bugün tolere ettiği rejim.
+
+**SAĞLAMA — bugünkü 1281-1923 penceresinde** (ölçüm, beyan değil):
+```
+8/8 AÇ       Anadolu · Balkan · Kafkasya · İran · Avrupa-Orta · Avrupa-Doğu
+yalnız SINIR Mezopotamya · Levant
+8/8 KAPALI   Okyanusya
+KAPALI       Amerika ve GD Asya, 1290-1650  ⇒ bugün de kuralı KARŞILAMIYOR
+```
+📌 Son satır önemli: ölçüt yeni bir çıta değil, **zaten karşılanmayan** bir
+gerçeği görünür kılıyor. Pencere genişletmesi (`§6` sırası) bu kovalardan
+okunur — "AÇ" olmayan bölgeye pencere açılmaz.
+
+🔴 **MÖ İÇİN EK KURAL — "var olmayan nokta yoğunluk sayılmaz":** MÖ'de boyayan
+nokta **0**, ama motor `kur:`'u olmayan **2.823 noktayı** MÖ'de de petek sitesi
+sayıyor (`uret_petek.py:2907` — `kur:` yoksa nokta `UFUK[0]`'tan beri sahnede).
+⇒ MÖ penceresi, o noktaların `kur:` borcu ÖLÇÜLMEDEN açılmaz.
+⚠️ Ama ölçüldü ve **dar** bir sonuç verdi: `kur:` borcu **1000-1280
+geometrisini DEĞİŞTİRMİYOR**, çünkü sahipsiz nokta hiç devredilmiyor
+(`:4803` · `:5023-27`) ve o dilimde devredilen nokta **0**. O dilimdeki gerçek
+engel `kur:` değil **SEYREKLİK**: 81 boyalı ada, 2.741 boş site arasında;
+boyayan noktaların en yakın 6 komşusunun **%87,1'i boş**
+(`denetim/LAB-KUR-SAYIM-1010.md`).
+⇒ Çare `kur:` yazmak DEĞİL, **nokta EKLEMEK.**
+
+**MÖ GEREKSİNİMİ, sayıya çevrildi** (`N = alan × (k/D)²`, Anadolu'ya göre
+ayarlı; k=1,25 iyi yayılım · 1,58 atlas medyanı):
+```
+Sümer kutusu (güney Mezopotamya)   D=150 km → 13-20 KAYNAKLI nokta
+                                   D=100 km → 28-44 nokta
+```
+Bölge bölge tablo `LAB-YOGUNLUK-IZGARA-1010.md §6`da. **Bunlar ALT SINIR**;
+kutu kenarı ayrıca ölçülür.
+
 Seyrek bölgelerde nokta gerçek şehir olmak zorunda değil; `tur:"bolge"` tipinde bir
 **dolgu noktası** olabilir. Dolgu noktası sahipsiz kalır ve `bos:` alanıyla
 etiketlenir (bkz. §6).
 
-**Yapılacak araç:** `arac/denetle_kapsama.py` — kara maskesini ızgaraya böler, her
-hücrenin en yakın yerleşime uzaklığını ölçer, eşiği aşan bölgeleri liste ve görüntü
-olarak verir. Bu araç olmadan bir fazın "yoğunluk kabulü" adımı ölçülemez.
+**Araç — YAPILDI** (10 Ekim 2026, LAB): `C:\lab-araclar\izgara\` (depo DIŞINDA).
+Kara maskesini 5°×5° ızgaraya böler, 55 yüzyıl × 22 makro bölge için en yakın
+yerleşime uzaklığı ölçer, "avuç" hücrelerini (≥25 bin km² boyalı, ≤3 farklı
+nokta boyuyor) ve emilme dağılımını çıkarır. Çıktı:
+`denetim/LAB-YOGUNLUK-IZGARA-1010.*` (1 md + 6 csv).
+⚠️ `arac/denetle_kapsama.py` **hâlâ YOK** ve bu bir borç: ölçüm bir kerelik
+araçla yapıldı, **kapıya BAĞLI DEĞİL.** Yani bugün bir faz "yoğunluk kabulü"
+adımını geçer ama hiçbir kapı onu SORMAZ. Kalem açık.
 
 ---
 
