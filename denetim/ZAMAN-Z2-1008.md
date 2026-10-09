@@ -5,6 +5,51 @@ Teslim: `ZAMAN-Z2-1008-APPJS.diff` (üç dosya tek diff, UYGULANMADI). **SÜRÜM
 (aşağıda §R2), temel `c69b890f`. Diff başlığı: dokunduğu GÜN ARALIĞI — arayüz kodu, veri değil; davranış yalnız
 `VERI_UFKU` DIŞINDA (1281-01-01 öncesi · 1923-10-29 sonrası) değişir, 1281–1923 arası çizim aynı (ölçek hariç).
 
+## §R4 — Sürüm 4 (UMIT İRTİBAT, 9 Ekim) · temel `7f63bcd9` · apply-check ✓ `82680a17`
+Diff başlığı GÜN ARALIĞI: ① gösterim (her tarih, veri değişmez) · ② derin anlatı doğrulayıcı · ③ EK görünümü (her tarih) ·
+② sürüm 3'ün dar kırpması: antlaşma maddeleri eski davranışa döndü (1281–1923).
+
+**① "0330" SIZINTISI — kapandı.** Kaynak: MOTOR-TARIH-TARAMA-1008 ⑥a (sürüm 2 üzerinde ölçülmüş; sürüm 3 `kesinlikliYazi`
+ve `kisaTarihYazi`yi zaten düzeltmişti). Yeni `isoDizgi(s)`: ham ISO'nun yalnız yıl dolgusunu düşürür. Uygulandığı yerler:
+`_isyanTarihYazi` (3 kip, `yilDizgi`) · sefer vuruş title · yerleşim çubuğu dilim title · yerleşim dönem satırı ·
+Devletler sekmesi `f → t` · derin anlatı adım başlığı · `kisaTarihYazi` ISO dalı.
+**Sınav (gerçek sayfa, gerçek işlevler, 4 girdi × 9 biçimleyici):** `330-05-11` · `0330-05-11` · `330-01-01` · `0330-01-01` →
+`kesinlikliYazi` · `olayTarihYazi` (alan yok + `kesinlik:"yil"`) · `kisaTarihYazi` · `_isyanTarihYazi` yil/ay/gün · `isoDizgi` ·
+`yilDizgi`. **"0330" içeren çıktı: 0/36.** Dolgulu ve dolgusuz girdi BİREBİR aynı çıktıyı veriyor (ör. "11 Mayıs 330",
+"Ocak 330", "330-05-11", "330").
+⚠️ `ARAC-MOTOR-TARIH-TARAMA-1008-GOSTERIM.js` sürüm 4'te `kisaTarihYazi` için "ÇÖKER ReferenceError" basıyor. Sebebi alet:
+biçimleyicileri tek tek ayrıştırıyor ve yeni `isoDizgi`yi vm'e yüklemiyor. Sayfada çökme yok (`window.onerror` 0). Aletin
+`:103 (m.t).slice(0,10)` satırı `kisaTarihYazi`nin İÇ hesabıdır, ekran basımı değil.
+
+**② Derin anlatı gün doğrulayıcısı:** `/^\d{4}-…/` → `/^\d{3,4}-\d{2}-\d{2}$/`. Sınandı (`derinAdimlari`): `330-05-11` KABUL
+(eskiden eleniyordu) · `0330-05-11` kabul · `1453-05-29` kabul · `330-05` (ay) ELENİR (doğru).
+
+**③ EK görünümünde puansız madde.** Eski: `dunya ?? onem ?? 3` ve eşik 4 ⇒ puansız madde hep gizli. Yeni: puansız (ikisi de yok)
+madde "puansız" sayılıyor ve mevcut `#odak-puansiz` kutusuna bağlandı (varsayılan İŞARETLİ ⇒ görünür). Puanlı maddeye eşik aynen.
+Ölçüm (çalışma anı evreni = KRONOLOJI_* bağlandıktan sonra `DEVLETLER[].kronoloji`, **13.025** madde, 3.723'ü puansız):
+```
+EK4 görünen   önce 1.090  →  sonra 4.813 (kutu işaretli) · 1.090 (kutu kapalı = eski davranış)
+arayüz: Bizans "+ ek" → 22 satır (11 puanlı + 11 puansız); kutu kapalı → 11
+```
+⚠️ Koordinatörün "656 / 7.232"si başka bir evren (büyük olasılıkla bağlamadan önceki künye içi). Ben onu **yeniden üretemedim**;
+yukarıdaki sayılar benim evrenim ve önce/sonra aynı evrende ölçüldü.
+⚠️ Yan bilgi (önceden var olan, değiştirmedim): `#odak-puansiz` birleşik listede ODAK (Osmanlı) satırlarını da süzüyor; kutu
+kapatılınca Osmanlı maddeleri de gizleniyor (1.806 → 279 satır).
+
+**④ "Kırpma yok" listesi:** `denetim/ZAMAN-Z2-KIRPMA-YOK-1008.tsv` — **160 satır** (194 değil). Sürüm 4'te ölçülen bir
+düzeltme: 194'ün **34'ü antlaşma maddesiydi**. Antlaşma maddeleri UI3 eşleştirmesinin bilerek dışında (kendi kutuları UI2'de),
+`maddeDegisimleri` onlara hep "bağlı değişim yok" diyor ⇒ "yok" hükmü yanlıştı. `maddeyeDarKirp` artık antlaşma maddesinde
+`null` dönüyor ve eski davranış korunuyor (sınandı: "Bizans'ın haraca bağlanması" → null).
+Güncel kova (ana akış 1.784): **tam gün 453 · dar 318 · yok 160** · değişimsiz 711 · antlaşma (eski davranış) 139 · pencere
+dışı 3 (toplam tutuyor). İzvornik vakası değişmedi: Amasra → [Amasra] · İzvornik → [İzvornik, Tuzla].
+TSV sütunları: `t · baslik · yer_id · k · gun_degisim_sayisi · degisen_yerlesimler (ilk 8, once→sonra) · ayni_gun_kardes_maddeler`.
+📌 Okuma ipucu: listenin bir kısmı Değişmez 2'nin konusu olabilir. Ör. 1324-01-01 "Osman Gazi'nin vefatı" günü Akyazı ve
+İmralı `bizans→osmanli` el değiştiriyor ve o gün bu değişime bağlanan bir madde YOK. Eskiden tam gün kırpması bu değişimi
+vefat maddesinde gösteriyordu. **Sınıflandırmadım.**
+
+**Kapılar (sürüm 4):** `node --check` ✓ · `denetle_arayuz` temiz · odak kapısı: SESSİZ 20 (taban `82680a17`: 1) = aynı 19 ·
+OKUNMAYAN +3 (tabanda da 3) · ÖLÇEMEDİ yok · ufuk sınavı 5/5 senaryo ✓ · tarayıcı `window.onerror` 0 · diff 55.061 bayt, CR 0.
+
 ## §R3 — Sürüm 3 (koordinatör ek işleri, 9 Ekim) · temel `8b2f5415`
 Diff başlığı GÜN ARALIĞI: ①③ yalnız `VERI_UFKU`/UFUK DIŞI günlerde davranış değiştirir · ② 1281–1923 içinde, YALNIZ
 aynı gününde maddeye bağlanmayan başka el değiştirme olan maddelerde (kırpma görüntüsü; veri değişmez).
@@ -238,4 +283,5 @@ Yeni ölçüm doğru, eski "GÖVDE" yanlış pozitifti. **Kusur değil, KAPSAM**
 
 ## Dosyalar (`C:\atlas-umit\denetim\`e kopyalandı, izlenmeyen)
 - `ZAMAN-Z2-1008.md` — bu rapor
-- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 3) — `js/app.js` (+456/−45) · `index.html` (+9/−0) · `css/style.css` (+31/−6)
+- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 4) — `js/app.js` (+487/−56) · `index.html` (+9/−0) · `css/style.css` (+31/−6)
+- `ZAMAN-Z2-KIRPMA-YOK-1008.tsv` — dar kırpmada "yok" kovasındaki 160 madde (UTF-8, sekme ayraçlı, LF)

@@ -1,0 +1,7451 @@
+[
+ {
+  "ad": "Antakya",
+  "lat": 36.202,
+  "lon": 36.161,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-26",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "antakya:200"
+  ],
+  "slug": "antakya",
+  "tanik": [
+   [
+    [
+     1084
+    ],
+    "Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı."
+   ],
+   [
+    [
+     1075
+    ],
+    "1075 yılı sonları ile 1076 başlarında Kuzey Suriye’de görünen Kutalmışoğlu Süleyman Şah Halep, Selemiye ve Antakya’yı alma teşebbüsünde bulundu."
+   ],
+   [
+    [
+     1083
+    ],
+    "1083’te Alparslan’ın oğlu Tutuş Antakya üzerine yürüdü, ancak şehri alamadı."
+   ],
+   [
+    [
+     1084,
+     1085
+    ],
+    "Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü."
+   ],
+   [
+    [
+     1087
+    ],
+    "Süleyman Şah’ın ölümünden sonra Melikşah buraya Yağısıyan’ı tayin etti (1087)."
+   ],
+   [
+    [
+     1097
+    ],
+    "Haçlı orduları 21 Ekim 1097’de şehir önlerine geldiklerinde Yağısıyan Antakya emîri bulunuyordu."
+   ],
+   [
+    [
+     1098
+    ],
+    "Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi, şehir halkı kılıçtan geçirildi."
+   ],
+   [
+    [
+     1268
+    ],
+    "1268’e kadar buraya birçok Haçlı sülâlesi hükmetti."
+   ],
+   [
+    [
+     1268
+    ],
+    "18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi, şehir mücadele ile alındığı için yağmaya izin verildi, ayrıca vaktiyle Haçlılar’ın yaptığı gibi halkın çoğu kılıçtan geçirildi, bir kısmı esir alındı."
+   ]
+  ]
+ },
+ {
+  "ad": "Halep",
+  "lat": 36.202,
+  "lon": 37.161,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-27",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "halep:200"
+  ],
+  "slug": "halep",
+  "tanik": [
+   [
+    [
+     1014
+    ],
+    "Halep 404’te (1014) Fâtımîler’in eline geçti ve Mansûr b."
+   ],
+   [
+    [
+     1024
+    ],
+    "Mirdâs el-Kilâbî 415 (1024) yılında şehri ele geçirip Mirdâsîler hânedanının merkezi yaptı."
+   ],
+   [
+    [
+     1068
+    ],
+    "Bizans İmparatoru Romanos Diogenes 1068-1071 yılları arasında Halep üzerine iki sefer düzenledi."
+   ],
+   [
+    [
+     1069
+    ],
+    "1069’da Türkmen Emîri Sanduk büyük bir orduyla Halep’e girdi ve kışı orada geçirdi."
+   ],
+   [
+    [
+     1078
+    ],
+    "Suriye Selçuklu Meliki Tutuş 470’te (1078) Halep’i kuşattı."
+   ],
+   [
+    [
+     1080
+    ],
+    "Tutuş, Emîr Atsız’ın yardım çağrısı üzerine Dımaşk’a dönünce derhal harekete geçen Şerefüddevle kalabalık Arap kabileleri ve kuvvetleriyle şehre girdi ve Mirdâsî hânedanına son verdi (472/1080)."
+   ],
+   [
+    [
+     1087
+    ],
+    "Ardından da Nizâmülmülk’ün tavsiyesi üzerine Kasîmüddevle Aksungur’u Halep şahneliğine, Nûh et-Türkî’yi de kale kumandanlığına tayin etti (479/1087)."
+   ],
+   [
+    [
+     1092
+    ],
+    "Tutuş, Sultan Melikşah’ın ölümünden (485/1092) sonra çıkan taht kavgaları sırasında Halep’i hâkimiyeti altına aldı."
+   ],
+   [
+    [
+     1095
+    ],
+    "Tutuş’un 488’de (1095) ölümü üzerine Suriye (Halep) Selçuklu Melikliği’nin başına geçen oğlu Rıdvân, Fâtımî Halifesi Müsta‘lî’nin teklifini kabul ederek başşehri Halep’te ve hâkimiyeti altındaki diğer yerlerde onun adına hutbe okuttu (17 Ramazan 490 / 28 Ağustos 1097); ancak aldığı sert tepkiler karşısında bundan vazgeçerek yeniden Abbâsîler’e ve Büyük Selçuklular’a döndü (12 Şevval 490 / 22 Eylül 1097)."
+   ],
+   [
+    [
+     1107
+    ],
+    "Rıdvân, Halep’teki Bâtınîler’le sıkı iş birliği yaptı ve onların burada bir dârü’d-da‘ve (propaganda merkezi) kurmalarına müsaade etti; ancak Sultan Muhammed Tapar’ın tehdidi üzerine bazılarını öldürtmek, bazılarını da şehir dışına sürmek zorunda kaldı (501/1107-1108)."
+   ],
+   [
+    [
+     1111
+    ],
+    "Antakya Prinkepsi Tancred’in Halep bölgesini istilâya teşebbüs etmesi üzerine Rıdvân sûfî, fakih ve tüccarlardan oluşan bir heyeti o sırada Bağdat’ta bulunan Sultan Muhammed Tapar’a göndererek yardım istediyse de emîrler arasındaki meseleler yüzünden sonuç alamadı (504/1111)."
+   ],
+   [
+    [
+     1113
+    ],
+    "Rıdvân’ın 507’de (1113) ölümünden sonra yerine geçen oğlu Alparslan el-Ahres, kısa süren melikliği sırasında Bâtınîler’in faaliyetlerine izin vermemekle birlikte Haçlılar’a karşı da ciddi bir şey yapamadı."
+   ],
+   [
+    [
+     1114
+    ],
+    "Onun 1114’te ölümü üzerine yerini alan kardeşi Sultan Şah döneminde idare tamamen Atabeg Lü’lü’ün elinde toplandı."
+   ],
+   [
+    [
+     1116
+    ],
+    "Lü’lü’ 1116’da ölünce Emîr Yaruktaş idareye hâkim oldu ve zaman zaman Haçlılar’la iş birliği yaptı."
+   ],
+   [
+    [
+     1117
+    ],
+    "Haçlılar’ın baskı ve tehditleri karşısında zor durumda kalan şehrin ileri gelenleri, Artukoğlu İlgazi’ye haber gönderip Halep’i teslim almasını ve hıristiyanlarla mücadele etmesini istediler; İlgazi de oğlu Timurtaş ile birlikte gelip şehre girdi (511/1117-18)."
+   ],
+   [
+    [
+     1122
+    ],
+    "Onun 1122’de ölümü üzerine Emîr Bedrüddevle Süleyman Halep’te yönetimi ele geçirdi."
+   ],
+   [
+    [
+     1124
+    ],
+    "Behrâm’ın ölümü üzerine İlgazi’nin oğlu Timurtaş 22 Mayıs 1124’te şehre hâkim oldu."
+   ],
+   [
+    [
+     1129
+    ],
+    "Aksungur’un ölümü üzerine Irak Selçuklu Sultanı Mahmud Halep’i Haçlılar karşısındaki kahramanlıklarıyla tanınan İmâdüddin Zengî’ye verdi (1129)."
+   ],
+   [
+    [
+     1146
+    ],
+    "Onun ölümünden (1146) sonra yerine geçen oğlu Nûreddin Mahmud Zengî de aynı şekilde Haçlılar’la savaştı ve çok sayıda kaleyi geri aldı."
+   ],
+   [
+    [
+     1182
+    ],
+    "Selâhaddîn-i Eyyûbî, Halife Müstazî-Biemrillâh tarafından kendisine verilen Halep’i ele geçirmek üzere 578’de (1182) Mısır’dan yola çıktı."
+   ],
+   [
+    [
+     1186
+    ],
+    "Üç yıl sonra el-Melikü’z-Zâhir tekrar Halep’e tayin edildi (582/1186)."
+   ],
+   [
+    [
+     1186
+    ],
+    "Melik Gāzî devrinde (1186-1212) Halep en parlak ve müreffeh dönemini yaşadı."
+   ],
+   [
+    [
+     1237
+    ],
+    "Yûsuf devrinde (1237-1260) Memlükler’le başlatılan mücadele halifenin müdahalesiyle sona erdi."
+   ],
+   [
+    [
+     1260
+    ],
+    "Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı."
+   ],
+   [
+    [
+     1260
+    ],
+    "Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260)."
+   ],
+   [
+    [
+     1174
+    ],
+    "Nûreddin Mahmud’un öldüğü 1174 yılında Halep’te üçü Hanefîler’e, dördü Şâfiîler’e mahsus olmak üzere toplam yedi medrese ile biri kadınlara ait üç hankah vardı."
+   ],
+   [
+    [
+     1204,
+     1260
+    ],
+    "1204’te şehirde sekizi Şâfiîler’e, dokuzu Hanefîler’e mahsus on yedi medrese, 1260’ta yirmi biri Şâfiîler’in, yirmi üçü Hanefîler’in olmak üzere toplam kırk dört medrese mevcuttu."
+   ],
+   [
+    [
+     1209
+    ],
+    "Zengîler dönemine ait olan (1209) ve çeşitli onarımlar geçirmesine rağmen orijinal şeklini büyük ölçüde koruyan bu kısım, savunma ve gözetleme kulesi vazifesini gören iki burç ile uzun bir köprüden oluşmaktadır."
+   ],
+   [
+    [
+     1089
+    ],
+    "Minaresi de Selçuklu dönemine rastlayan 482 (1089-90) yılında Kadı İbnü’l-Haşşâb tarafından Sermînli bir mimara yaptırılmıştır."
+   ],
+   [
+    [
+     1196
+    ],
+    "Eyyûbî Hükümdarı el-Melikü’z-Zâhir Gāzî tarafından 592’de (1196) onarılan bu eser Hülâgû tarafından yağma ve tahrip edilmiş, ancak daha sonraki yıllarda birkaç defa tamir görmüştür."
+   ],
+   [
+    [
+     1235
+    ],
+    "Bunların en önemlisi Medresetü’l-Firdevs olup 633 (1235) yılında, Ferâfire Hankahı gibi Eyyûbî Hükümdarı el-Melikü’n-Nâsır Yûsuf’un karısı Safiyye Hatun tarafından yaptırılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Hama",
+  "lat": 35.132,
+  "lon": 36.75,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "hama:200"
+  ],
+  "slug": "hama",
+  "tanik": [
+   [
+    [
+     1110
+    ],
+    "1110’da Haçlılar’a haraç ödeyen şehirler arasında yer alan Hama daha sonra Dımaşk Atabegi Tuğtegin tarafından ele geçirildi."
+   ],
+   [
+    [
+     1123
+    ],
+    "Mahmûd’un 1123’te ölümü üzerine şehri Tuğtegin tekrar zaptetti."
+   ],
+   [
+    [
+     1135
+    ],
+    "Böri şehri yeniden fethetmeyi başardıysa da 1135’te Zengî tekrar burayı alıp Orta Suriye’deki askerî harekâtlarının bir üssü haline getirdi."
+   ],
+   [
+    [
+     1146
+    ],
+    "Zengî’nin ölümünden sonra (1146) hâcib Selâhaddin el-Yağıbasanî, Nûreddin Mahmud Zengî’ye tâbi olarak Hama emirliğine getirildi."
+   ],
+   [
+    [
+     1174
+    ],
+    "Hama 570’te (1174-75) Selâhaddîn-i Eyyûbî’nin eline geçti."
+   ],
+   [
+    [
+     1135
+    ],
+    "yüzyılda yapılmış ağaç işlemeli minbere ve biri 529 (1135) tarihli, diğeri Memlükler zamanına ait iki minareye sahiptir."
+   ],
+   [
+    [
+     1172
+    ],
+    "Siyah ve beyaz süslemeleriyle dikkati çeken minaresi, ağaç işlemeli çok güzel minberiyle Nûreddin Camii (el-Câmiu’n-Nûrî) 568 (1172) yılında inşa edilmiştir."
+   ],
+   [
+    [
+     1157,
+     1170
+    ],
+    "Yine bu dönemde 552’den (1157) sonra bir hastahane (Bîmâristânü’n-Nûrî), 565’ten (1170) sonra bir medrese ve bugün hiçbir izi kalmamış olan bir kale yapılmıştı."
+   ]
+  ]
+ },
+ {
+  "ad": "Şam",
+  "lat": 33.513,
+  "lon": 36.292,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "sam:302",
+   "sam--sehir:302",
+   "arama:sam:200"
+  ]
+ },
+ {
+  "ad": "Beyrut",
+  "lat": 33.888,
+  "lon": 35.495,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-07",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "beyrut:200"
+  ],
+  "slug": "beyrut",
+  "tanik": [
+   [
+    [
+     1110
+    ],
+    "Haçlı seferleri sırasında Beyrut Kudüs Krallığı’nın eline geçti (1110)."
+   ],
+   [
+    [
+     1187
+    ],
+    "1187’de şehri Selâhaddîn-i Eyyûbî geri aldıysa da on yıl sonra Haçlılar burayı tekrar zaptettiler ve Kudüs Krallığı’na bağladılar."
+   ]
+  ]
+ },
+ {
+  "ad": "Trablusşam",
+  "lat": 34.436,
+  "lon": 35.844,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-26",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-13",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "trablussam:200"
+  ],
+  "slug": "trablussam",
+  "tanik": [
+   [
+    [
+     1032
+    ],
+    "Trablus emîri 423’te (1032) Fâtımî tâbiiyetinden ayrılarak Bizans’a tâbi oldu."
+   ],
+   [
+    [
+     1033
+    ],
+    "Bunun üzerine şehre gelen Fâtımî ordusu çok geçmeden Trablusşam’a hâkimiyet kurdu (424/1033)."
+   ],
+   [
+    [
+     1047
+    ],
+    "438’de (1047) şehri ziyaret eden Nâsır-ı Hüsrev, etrafı çok iyi tahkim edilen Trablusşam’ın Fâtımî hâkimiyetinde bulunduğunu yazar."
+   ],
+   [
+    [
+     1064
+    ],
+    "456 (1064) yılından itibaren Trablusşam’da Türk nüfuzunun arttığı görülür."
+   ],
+   [
+    [
+     1070
+    ],
+    "Fâtımî valisi Muhtârüddevle’nin 462’de (1070) ölümü üzerine Trablusşam Kadısı Emînüddevle Hasan b."
+   ],
+   [
+    [
+     1075
+    ],
+    "Trablusşam 1075’te Selçuklu Emîri Atsız b."
+   ],
+   [
+    [
+     1102
+    ],
+    "Haçlı seferleri başladığında Raymond de Saint-Gilles büyük bir orduyla Trablusşam’ı kuşattı (495/1102), şehri almak için yakınındaki tepe üzerine büyük bir kule yaptırdı."
+   ],
+   [
+    [
+     1105
+    ],
+    "Ancak kendisi uzun süren kuşatma sırasında öldü (1105)."
+   ],
+   [
+    [
+     1108,
+     1109
+    ],
+    "501 (1108) yılında Fâtımî hâkimiyetine giren şehir 11 Zilhicce 502’de (12 Temmuz 1109) Haçlılar’ın eline geçti ve burada bir Haçlı kontluğu kuruldu (1109)."
+   ],
+   [
+    [
+     1157,
+     1201
+    ],
+    "Şehir Haçlılar’ın elinde iken 552 (1157) ve 597’de (1201) iki büyük depreme mâruz kaldı ve hasar gördü."
+   ]
+  ]
+ },
+ {
+  "ad": "Kudüs",
+  "lat": 31.777,
+  "lon": 35.234,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-10-01",
+    "d": "memluk",
+    "kesinlik": {
+     "t": "ay"
+    }
+   },
+   {
+    "f": "1917-12-09",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "kudus:200"
+  ],
+  "slug": "kudus",
+  "tanik": [
+   [
+    [
+     1009
+    ],
+    "Hâkim, 400 (1009) yılında Kıyâme (Kamâme) Kilisesi’ni yağmalatıp yıkılmasını emretti."
+   ],
+   [
+    [
+     1016,
+     1033
+    ],
+    "407’de (1016) yıkılmış olan Kubbetü’s-sahre ve 425’teki (1033) büyük depremde zarar gören Mescid-i Aksâ, Halife Zâhir el-Fâtımî tarafından yeniden inşa edildi."
+   ],
+   [
+    [
+     1033,
+     1068
+    ],
+    "425 (1033) ve 460 (1068) yıllarındaki depremlerden Remle’nin ciddi bir şekilde zarar görmesi Kudüs’ü yeniden ön plana çıkardı."
+   ],
+   [
+    [
+     1065
+    ],
+    "1065’te Kudüs’e Avrupa’dan 12.000 kişilik bir kafilenin geldiği bilinmektedir ( EI 2 [İng.] , V, 328)."
+   ],
+   [
+    [
+     1033,
+     1064
+    ],
+    "Fâtımîler devrinde 425 (1033) ve 456 (1064) yıllarında şehrin surları ve kaleleri saldırılara karşı yeniden gözden geçirilip onarıldı."
+   ],
+   [
+    [
+     1071
+    ],
+    "Uvak 463 (1071) yılında (İbnü’l-Kalânisî, s."
+   ],
+   [
+    [
+     1077
+    ],
+    "Bunun üzerine Kudüs’teki Arap asıllı kumandanlar ve idareciler Atsız’ın nâiblerine karşı isyan edip şehirde tekrar Fâtımî halifesi adına hutbe okutmaya başladılar (469/1077)."
+   ],
+   [
+    [
+     1079
+    ],
+    "Büyük Selçuklu Sultanı Melikşah’ın kardeşi Tâcüddevle Tutuş 471 (1079) yılında Atsız’ı ortadan kaldırdı, daha sonra Kudüs ve çevresinin yönetimini Artuk b."
+   ],
+   [
+    [
+     1085
+    ],
+    "Eksük’e verdi (477/1085)."
+   ],
+   [
+    [
+     1089
+    ],
+    "Artuk Bey 482’de (1089) Kudüs’te yeni bir cami yaptırdı."
+   ],
+   [
+    [
+     1098
+    ],
+    "Artuk Bey’in ölümünün ardından şehrin yönetimi 491 (1098) yılına kadar oğulları Sökmen ve İlgazi’nin elinde kaldı."
+   ],
+   [
+    [
+     1099
+    ],
+    "Bir yıl sonra da şehir Haçlılar’ın eline geçti (492/1099)."
+   ],
+   [
+    [
+     1093
+    ],
+    "486’da (1093) Kudüs’ü ziyaret eden ve üç yıl süreyle burada kalan Ebû Bekir İbnü’l-Arabî, Mescid-i Aksâ’da müslümanların kendi aralarında veya hıristiyan ve yahudilerle ilmî tartışmalar yaptıklarından bahseder ( el-ʿAvâṣım , II, 61)."
+   ],
+   [
+    [
+     1100
+    ],
+    "Godefroi 1100’de ölünce yerine Urfa kontu olan kardeşi Baudouin kral seçildi."
+   ],
+   [
+    [
+     1119
+    ],
+    "Baudouin, 1119 yılında Antakya Prinkepsi Roger ve ordusunun Artuklu Beyi İlgazi’nin askerleri tarafından kılıçtan geçirilmesi üzerine Antakya’ya giderek geçici bir süre için şehrin hâkimiyetini ele aldı."
+   ],
+   [
+    [
+     1123
+    ],
+    "Baudouin, 1123’te Artuklu Beyi Belek’e esir düşüp Harput Kalesi’nde hapsedilince Kudüs Krallığı bir yıl Geldemar tarafından yönetildi."
+   ],
+   [
+    [
+     1124
+    ],
+    "Onun yokluğunda Kudüs ordusu Venedik donanmasının desteğiyle 7 Temmuz 1124’te Sûr’u (Tyrus) zaptederek Askalân dışında bütün Filistin kıyı şehirlerine sahip oldu."
+   ],
+   [
+    [
+     1131
+    ],
+    "Baudouin’in 21 Ağustos 1131’de ölümünden sonra kızı Kraliçe Melisende ile birlikte taç giyen Foulque d’Anjou krallıkta sevilen ve baronlarının itaat ettiği bir kral oldu."
+   ],
+   [
+    [
+     1144
+    ],
+    "İmâdüddin Zengî, 24 Aralık 1144’te Urfa’yı fethederek buradaki Haçlı Kontluğu’na son verdi."
+   ],
+   [
+    [
+     1149,
+     1152
+    ],
+    "1149’da Antakya Prinkepsi Raymond de Poitiers’nin Halep Hükümdarı Nûreddin Mahmûd Zengî ile yaptığı savaşta maktul düşmesi üzerine idareyi karısı Konstance, 1152’de Trablus kontu II."
+   ],
+   [
+    [
+     1153
+    ],
+    "Yedi ay süren kuşatmadan sonra 19 Ağustos 1153’te Askalân’ı zaptetmesi Haçlılar’ın son büyük başarısını teşkil eder."
+   ],
+   [
+    [
+     1162
+    ],
+    "İktidarı eline aldıktan (1162) sonra bütün dikkatini Mısır üzerinde toplayan Kral Amaury desteğine ihtiyaç duyduğu Bizans ile iyi ilişkileri sürdürmeye kararlıydı."
+   ],
+   [
+    [
+     1153
+    ],
+    "Zira doğu sınırı, 1153’te Dımaşk’a hâkim olmasından sonra tamamen Nûreddin Mahmud Zengî’nin elindeydi."
+   ],
+   [
+    [
+     1168
+    ],
+    "1167 ve 1168’de Kral Amaury yine Mısır’a saldırdı, ancak hiçbir sonuç alamadı."
+   ],
+   [
+    [
+     1174
+    ],
+    "Amaury 11 Temmuz 1174’te ölünce yerine on üç yaşında cüzzamlı oğlu Baudouin geçti."
+   ],
+   [
+    [
+     1176
+    ],
+    "Fakat 1176’da Kral IV."
+   ],
+   [
+    [
+     1187
+    ],
+    "Selâhaddin, 4 Temmuz 1187’de Hittîn mevkiinde yapılan savaşta Kudüs krallık ordusunu yok etti."
+   ],
+   [
+    [
+     1187
+    ],
+    "Selâhaddîn-i Eyyûbî 20 Eylül 1187’de Kudüs önünde karargâh kurdu."
+   ],
+   [
+    [
+     1189
+    ],
+    "Sultan Kudüs’ün idaresini Fakih Ziyâeddin Îsâ’ya verdi, onun 1189’da ölümü üzerine de yerine Hüsâmeddin en-Necmî getirildi."
+   ],
+   [
+    [
+     1189
+    ],
+    "Haçlı Seferi’ni düzenlediler (1189-1192)."
+   ],
+   [
+    [
+     1191
+    ],
+    "Sultan 26 Eylül 1191’de Kudüs’e gelip şehrin savunma tedbirlerini, erzak ve silâh durumunu gözden geçirdi."
+   ],
+   [
+    [
+     1229
+    ],
+    "Friedrich, düzenlediği Haçlı seferi sırasında 626 (1229) yılında Eyyûbî Hükümdarı el-Melikü’l-Kâmil Muhammed ile anlaşarak on yıl süreyle Kudüs’e ve Kudüs’ü Yafa’ya bağlayan dar bir arazi şeridine sahip olma hakkını elde etti (Demirkent, Haçlı Seferleri , s."
+   ],
+   [
+    [
+     1229
+    ],
+    "Friedrich 17 Mart 1229’da Kudüs’e girdi ve Nablus kadısı Şemseddin’in refakatinde şehri dolaştı."
+   ],
+   [
+    [
+     1244
+    ],
+    "Hârizmliler, Dımaşk civarında dehşet saçarak bütün bölgeyi yakıp yıktıktan sonra 11 Temmuz 1244’te Kudüs’e girdiler."
+   ],
+   [
+    [
+     1099
+    ],
+    "Haçlılar’ın 1099’da Kudüs’ü ilk alışından 145 yıl sonra şehir Türkler’in eline geçmişti."
+   ],
+   [
+    [
+     1250
+    ],
+    "Kudüs, Memlük Devleti’nin ilk kuruluş yılları sırasında (1250-1260) Suriye’deki Eyyûbîler ile Memlükler arasında birkaç defa el değiştirdi."
+   ],
+   [
+    [
+     1256
+    ],
+    "Ancak Filistin ve Kudüs 654 (1256) yılında tekrar Eyyûbîler’in eline geçti."
+   ],
+   [
+    [
+     1260
+    ],
+    "Moğollar’a karşı kazanılan Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi ve şehir daha istikrarlı bir yönetime kavuştu."
+   ],
+   [
+    [
+     1216
+    ],
+    "Barsbay, Eyyûbî sultanlarından el-Melikü’l-Muazzam Îsâ’nın 1216’da yaptırmış olduğu sebili (sebîlü Şa‘lân) tamir ettirmiştir (832/1429)."
+   ],
+   [
+    [
+     1200
+    ],
+    "İngiliz işgali, Kudüs’teki sadece Haçlı işgaliyle kesintiye uğrayan yaklaşık 1200 yıllık müslüman yönetimini de sona erdirdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Gazze",
+  "lat": 31.502,
+  "lon": 34.466,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-12-21",
+    "d": "memluk"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "gazze:200"
+  ],
+  "slug": "gazze",
+  "tanik": [
+   [
+    [
+     1149,
+     1187
+    ],
+    "Baldwin’in eline geçen Gazze (1149), Hittîn Savaşı’ndan sonra Selâhaddîn-i Eyyûbî tarafından geri alındı (1187) ve tekrar müslüman kimliğine kavuşturuldu."
+   ],
+   [
+    [
+     1258
+    ],
+    "1258 yılında Bağdat’ı zaptederek Abbâsî hânedanlığını çökerten Moğollar’ın İslâm topraklarında ulaşabildikleri batıdaki en uç nokta Gazze’dir."
+   ]
+  ]
+ },
+ {
+  "ad": "Akkâ",
+  "lat": 32.928,
+  "lon": 35.082,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-23",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "akka:200"
+  ],
+  "slug": "akka",
+  "tanik": [
+   [
+    [
+     1074
+    ],
+    "1074’te Selçuklu emîrlerinden Şöklü burayı ele geçirdi."
+   ],
+   [
+    [
+     1087
+    ],
+    "1087’den sonra ise şehir yeniden Fâtımîler’in idaresine girdi."
+   ],
+   [
+    [
+     1104
+    ],
+    "Bu önemli liman şehri 1104’te, I."
+   ],
+   [
+    [
+     1100
+    ],
+    "Baudouin (1100-1118) tarafından ele geçirilerek hıristiyanların hareket üssü haline getirildi."
+   ],
+   [
+    [
+     1187
+    ],
+    "Bu dönemlerde sayısız çiftlikleri, büyük ve emniyetli limanı, kalabalık ve değişik menşeli halkı ile geniş bir şehir olarak tarif edilen ve bölgenin en büyük ticarî merkezi olan Akkâ, 9 Temmuz 1187’de Selâhaddîn-i Eyyûbî tarafından zaptedildi."
+   ],
+   [
+    [
+     1191
+    ],
+    "Şiddetli çarpışmalar sonunda kaleyi müdafaa edenler teslim oldu ve şehir Henri de Champagne’in idaresine verildi (1191)."
+   ],
+   [
+    [
+     1229
+    ],
+    "Böylece uzun süre Filistin’deki Haçlı Krallığı’nın merkezi olan Akkâ, 1229’dan sonra büyük şövalye tarikatlarından bilhassa Saint Jean şövalyelerinin karargâhı haline geldi ve bu sebeple St."
+   ]
+  ]
+ },
+ {
+  "ad": "Maan",
+  "lat": 30.192,
+  "lon": 35.734,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-01-01",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-27",
+    "t": "1923-10-29",
+    "d": "hicaz"
+   }
+  ],
+  "denenen": [
+   "maan:200"
+  ],
+  "slug": "maan",
+  "tanik": []
+ },
+ {
+  "ad": "Sayda",
+  "lat": 33.563,
+  "lon": 35.369,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-06",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "sayda:200"
+  ],
+  "slug": "sayda",
+  "tanik": [
+   [
+    [
+     1079,
+     1087
+    ],
+    "471 (1079) yılından itibaren Dımaşk’a hâkim olan Tutuş 480’de (1087) Sayda’yı ele geçirdi."
+   ],
+   [
+    [
+     1089
+    ],
+    "Ancak Sayda’da Selçuklu hâkimiyeti uzun süreli olmadı, Vezir Bedr el-Cemâlî tarafından gönderilen Fâtımî ordusu şehri tekrar zaptetti (482/1089)."
+   ],
+   [
+    [
+     1107
+    ],
+    "Baudouin’in 501 (1107) yılındaki kuşatmasından yüklü miktarda para ödenerek kurtarılabildi."
+   ],
+   [
+    [
+     1151
+    ],
+    "Sayda’da 546-565 (1151-1170) yılları arasında meydana gelen depremler büyük hasara yol açtı."
+   ],
+   [
+    [
+     1187
+    ],
+    "Hittîn Savaşı’nın ardından Sayda’ya hücum eden Selâhaddîn-i Eyyûbî, Sayda hâkimi Renaud de Sidon tarafından terkedilen şehri fethetti (583/1187)."
+   ],
+   [
+    [
+     1197
+    ],
+    "593 (1197) yılında Sayda’da Haçlılar’la Eyyûbîler arasında şiddetli bir savaş meydana geldi."
+   ],
+   [
+    [
+     1198
+    ],
+    "Yapılan antlaşmada Beyrut Haçlılar’da kalırken Sayda müslümanlarla Haçlılar arasında ikiye bölündü (594/1198)."
+   ],
+   [
+    [
+     1228
+    ],
+    "Haçlı Seferi’nin öncü kuvvetleri şehri işgal ederek savunma amacıyla Sayda sahilindeki küçük bir ada üzerine Kal‘atü’l-bahr diye bilinen kaleyi inşa ettirdiler ve şehrin surlarını yenilediler (625/1228)."
+   ],
+   [
+    [
+     1254
+    ],
+    "Saint Louis tarafından tekrar tahkim edildi (652/1254)."
+   ],
+   [
+    [
+     1260
+    ],
+    "Sayda hâkimi Julien, Moğollar’a tâbi köylere saldırınca Ketboğa intikam amacıyla şehri tahrip etti (658/1260)."
+   ],
+   [
+    [
+     1261
+    ],
+    "Templier (Dâviyye) şövalyelerine olan borçları sebebiyle Sayda’yı teminat göstermiş bulunan Julien şehri onlara teslim etti (659/1261)."
+   ],
+   [
+    [
+     1271
+    ],
+    "669 (1271) yılında yapılan on yıllık anlaşmayla Sayda’nın sahil kısımları onlarda, dağlık kısımları müslümanlarda kaldı."
+   ],
+   [
+    [
+     1202
+    ],
+    "Daha önce Câmiu’l-muhtesib adıyla bilinen ve Sayda’nın zamanımıza ulaşan en eski camisi olan Bâbüsserâyâ Camii 598 (1202) yılında Şeyh Ebü’l-Yümn İbn Ebü’l-Hak tarafından yaptırılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Yafa",
+  "lat": 32.054,
+  "lon": 34.755,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1917-11-16",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "yafa:200"
+  ],
+  "slug": "yafa",
+  "tanik": [
+   [
+    [
+     1040
+    ],
+    "Büyük Selçuklu Devleti’nin kuruluşunun (1040) ardından, planlı bir fetih harekâtı çerçevesinde Bizans hâkimiyetindeki Anadolu topraklarına akınlar yapılırken bazı Selçuklu emîrleri, XI."
+   ],
+   [
+    [
+     1069
+    ],
+    "Kurlu et-Türkî’nin idaresindeki Nâvekiyye (Yâvegiyye) Türkmenleri de Filistin’e girdi (1069-1070)."
+   ],
+   [
+    [
+     1071
+    ],
+    "Kurlu’nun 463’te (1071) ölümü üzerine yerini alan Emîr Atsız bir ara Fâtımîler’in geri aldığı Remle’yi ve Kudüs’ü ele geçirdi."
+   ],
+   [
+    [
+     1071
+    ],
+    "Atsız’ın 1071-1076 yıllarındaki fetihleri neticesinde Askalân ve Yafa dışında Filistin ve Suriye’nin en önemli şehirleri beyliğin merkezini naklettiği Dımaşk başta olmak üzere Selçuklu Beyliği’nin hâkimiyetine girdi."
+   ],
+   [
+    [
+     1077
+    ],
+    "Yafa’yı ele geçiren Atsız şehrin bütün surlarını yıktırdı (469/1077)."
+   ],
+   [
+    [
+     1079
+    ],
+    "Onun ardından şehir 1079’da Tutuş’un kurduğu Suriye Selçukluları Devleti’nin egemenliğine girdi."
+   ],
+   [
+    [
+     1099
+    ],
+    "492’de (1099) Kudüs, Haçlılar tarafından kuşatıldığı sırada onlara erzak ve kuşatma aletlerinin yapımı için gerekli maddeleri taşıyan iki Cenova galerisiyle dört İngiliz gemisi müslümanların terkettiği Yafa Limanı’na girdi."
+   ],
+   [
+    [
+     1099,
+     1187
+    ],
+    "1099 yılından 1187’ye kadar Kudüs Haçlı Krallığı’na bağlı bir kontluk olarak kalan Yafa uzun süre krallığın deniz taşımacılığının merkezi oldu."
+   ],
+   [
+    [
+     1101
+    ],
+    "494’te (1101) Haçlılar’a karşı gönderdiği ordu Remle’ye kadar ilerleyince Kudüs Kralı I."
+   ],
+   [
+    [
+     1102
+    ],
+    "495’te (1102) Yafa yakınlarında cereyan eden savaş Mısır ordusunun yenilerek Askalân’a doğru kaçmasıyla sonuçlandı."
+   ],
+   [
+    [
+     1122
+    ],
+    "Efdal’in öldürülmesinin ardından bu defa Halife Âmir-Biahkâmillâh 516 (1122) yılında Yafa’yı kuşattıysa da geri çekilmek zorunda kaldı."
+   ],
+   [
+    [
+     1123
+    ],
+    "517’de (1123) Mısırlılar bir kere daha Askalân’dan çıkıp Yafa üzerine yürüdüler, fakat bu sefer de başarısızlıkla neticelendi ve Mısır donanması Venedik donanması tarafından imha edildi."
+   ],
+   [
+    [
+     1187
+    ],
+    "Yafa, ancak Hittîn Savaşı’nda Kudüs Krallığı’nın askerî gücü ortadan kaldırıldıktan sonra müslümanlar tarafından geri alınabildi (583/1187)."
+   ],
+   [
+    [
+     1191
+    ],
+    "Haçlı Seferi’ne katılarak bölgeye gelen İngiltere Kralı Aslan Yürekli Richard 587’de (1191) Yafa’yı ele geçirdi ve şehrin istihkâmlarını yeniden inşa ettirdi."
+   ],
+   [
+    [
+     1197
+    ],
+    "el-Melikü’l-Âdil 593’te (1197) şehri tekrar ele geçirip tahkimatı tahrip etti."
+   ],
+   [
+    [
+     1199
+    ],
+    "595’te (1199) şehir geçici bir süre hıristiyan hâkimiyetine geçtiyse de el-Melikü’l-Âdil bir defa daha şehre hâkim oldu."
+   ],
+   [
+    [
+     1204
+    ],
+    "Haçlı Seferi’nden (1204) sonra yine Franklar’ın eline geçti."
+   ],
+   [
+    [
+     1228
+    ],
+    "1228’de Alman İmparatoru II."
+   ],
+   [
+    [
+     1250
+    ],
+    "Friedrich, 1250’de Fransa Kralı IX."
+   ]
+  ]
+ },
+ {
+  "ad": "Nablus",
+  "lat": 32.221,
+  "lon": 35.254,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-21",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "nablus:200"
+  ],
+  "slug": "nablus",
+  "tanik": [
+   [
+    [
+     1098
+    ],
+    "(XI.) yüzyılın son çeyreğinde Selçuklular’la Fâtımîler arasında mücadeleye sahne olan şehir, kısa bir süre Selçuklu hâkimiyetinde kalmakla birlikte 491’de (1098) tekrar Fâtımîler’in eline geçti."
+   ],
+   [
+    [
+     1137
+    ],
+    "Sadece iç kalesi olan Nablus, Haçlı hâkimiyetinde iken (531/1137) Dımaşk Atabegliği’ne bağlı kuvvetlerin saldırısına uğradı."
+   ],
+   [
+    [
+     1279
+    ],
+    "Ayrıca Selâhaddîn-i Eyyûbî’nin kiliseden camiye çevirdiği el-Câmiu’l-kebîr (Câmiu’s-Salâhî), Yâsmîne mahallesinde 678-689’da (1279-1290) Sultan Kalavun tarafından inşa edilen Câmiu’l-hadrâ (Evliya Çelebi’de Sinan Paşa Camii), Câmiu’l-Hânâbile, Câmiu’n-Nasr, Câmiu’l-enbiyâ başlıca tarihî eserler arasında sayılabilir."
+   ]
+  ]
+ },
+ {
+  "ad": "Amman",
+  "lat": 31.949,
+  "lon": 35.933,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-12-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-09-25",
+    "t": "1921-02-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-02-01",
+    "t": "1923-10-29",
+    "d": "urdun-emirligi",
+    "kaynak": "TDV `urdun` — «kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». 🟡 OLAYIN dayanağı KESİN, GÜNÜN dayanağı YOK: kaynak AY veriyor. Gün künyeden DEVRALINDI (`urdun-emirligi` f:1921-02-01) — §4'ün kaba tarih kuralı burada uygulanamadı, çünkü `1921-01-01` maddeyi künye penceresinin DIŞINA düşürürdü (`4d`)."
+   }
+  ],
+  "denenen": [
+   "amman:200"
+  ],
+  "slug": "amman",
+  "tanik": []
+ },
+ {
+  "ad": "Kerak",
+  "lat": 31.181,
+  "lon": 35.703,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-01-01",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-01-01",
+    "t": "1921-02-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-02-01",
+    "t": "1923-10-29",
+    "d": "urdun-emirligi",
+    "kaynak": "TDV `urdun` — «kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». 🟡 OLAYIN dayanağı KESİN, GÜNÜN dayanağı YOK: kaynak AY veriyor. Gün künyeden DEVRALINDI (`urdun-emirligi` f:1921-02-01) — §4'ün kaba tarih kuralı burada uygulanamadı, çünkü `1921-01-01` maddeyi künye penceresinin DIŞINA düşürürdü (`4d`)."
+   }
+  ],
+  "denenen": [
+   "kerak:302",
+   "kerak--sehir:302",
+   "arama:kerak:200"
+  ]
+ },
+ {
+  "ad": "Humus",
+  "lat": 34.73,
+  "lon": 36.71,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-21",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "humus:302",
+   "humus--sehir:302",
+   "arama:humus:200",
+   "humus--suriye:200"
+  ],
+  "slug": "humus--suriye",
+  "tanik": [
+   [
+    [
+     1090
+    ],
+    "(XI.) yüzyılın ortasına kadar Mirdâsîler’in, ardından da bütün Suriye’yi ele geçiren Fâtımîler’in yönetiminde kalan Humus 483 (1090) yılında Selçuklu Sultanı Melikşah’ın eline geçti."
+   ],
+   [
+    [
+     1103
+    ],
+    "Kısa bir müddet sonra Atabeg Cenâhüddevle Hüseyin şehirde nüfuzunu kurdu ve Haçlı saldırılarına rağmen 496’ya (1103) kadar burayı korudu."
+   ],
+   [
+    [
+     1104
+    ],
+    "Onun 1104’te ölümü üzerine yerine geçen Atabeg Tuğtegin şehri, Melikşah ve Cenâhüddevle’nin hizmetinde bulunmuş olan Emîr Karaca’ya teslim etti."
+   ],
+   [
+    [
+     1112
+    ],
+    "506’da (1112) babası Emîr Karaca’nın yerine geçen Hayır Han (Kırhan), Necmeddin İlgazi, Atabeg Tuğtegin ve özellikle Atabeg İmâdüddin Zengî’ye karşı mücadele etmek zorunda kaldı."
+   ],
+   [
+    [
+     1126
+    ],
+    "520’de (1126) bölgeyi yakıp yıkan Franklar Halep’ten gelen İzzeddin Mesud’un müdahalesiyle şehri terketmek zorunda kaldılar."
+   ],
+   [
+    [
+     1129
+    ],
+    "Hayır Han 524 (1129) yılında İmâdüddin Zengî tarafından esir alındı."
+   ],
+   [
+    [
+     1136,
+     1137
+    ],
+    "İmâdüddin Zengî 530 (1136) ve 531’de (1137) şehre tekrar saldırdı."
+   ],
+   [
+    [
+     1146
+    ],
+    "İmâdüddin Zengî’nin ölümü üzerine (541/1146) eski vali Muînüddin Üner şehirde yeniden hâkimiyet kurdu."
+   ],
+   [
+    [
+     1149
+    ],
+    "Nûreddin Mahmud Zengî ve kardeşi Seyfeddin Gazi birliklerini buraya yığdılar (544/1149)."
+   ],
+   [
+    [
+     1154
+    ],
+    "Humus’tan ayrılan Nûreddin Mahmud 549’da (1154) Dımaşk’ı zaptetti ve Humus’u Mücîrüddin Abak’a verdi."
+   ],
+   [
+    [
+     1164,
+     1169
+    ],
+    "Nûreddin Mahmud Zengî, 559’da (1164) Esedüddin Şîrkûh el-Mansûr’a iktâ olarak verdiği Humus’u Şîrkûh ölünce (1169) geri aldı."
+   ],
+   [
+    [
+     1175,
+     1179
+    ],
+    "570’te (1175) Selâhaddîn-i Eyyûbî şehri zaptetti ve 574’te (1179), Trablus’tan gelen Haçlı akınlarını engellemekle görevlendirdiği Şîrkûh’un oğlu Nâsırüddin Muhammed’e verdi."
+   ],
+   [
+    [
+     1248
+    ],
+    "Daha sonra Halep Eyyûbî Emîri el-Melikü’n-Nâsır Yûsuf Humus’u ele geçirdi (646/1248)."
+   ],
+   [
+    [
+     1263
+    ],
+    "Humus’taki Esedüddin Şîrkûh ailesinin yönetimi bazı aralıklarla el-Melikü’l-Eşref Mûsâ’nın 661’de (1263) ölümüne kadar devam etti."
+   ],
+   [
+    [
+     1260
+    ],
+    "Aynicâlût Savaşı’ndan (658/1260) sonra Moğollar’la Memlükler arasındaki ilk büyük kuvvet denemesi olan bu savaşın ardından Moğollar Fırat’ın gerisine çekilmek zorunda kaldılar."
+   ],
+   [
+    [
+     1198,
+     1203
+    ],
+    "Şehrin kuzey bölgesindeki bir kulede el-Melikü’l-Mücâhid Şîrkûh adına 594 (1198) ve 599 (1203) tarihli iki adet kitâbe bulunmaktadır."
+   ]
+  ]
+ },
+ {
+  "ad": "Han Yûnus",
+  "lat": 31.34,
+  "lon": 34.3,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-12-21",
+    "d": "memluk"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1920-07-01",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "d": "filistin-mandasi"
+   }
+  ],
+  "denenen": [
+   "han-yunus:302",
+   "han-yunus--sehir:302",
+   "arama:han-yunus:200"
+  ]
+ },
+ {
+  "ad": "Tedmür (Palmyra)",
+  "lat": 34.55,
+  "lon": 38.27,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_seyrek.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-01",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "tedmur:200"
+  ],
+  "slug": "tedmur",
+  "tanik": [
+   [
+    [
+     1157
+    ],
+    "552’de (1157) meydana gelen depremden büyük zarar gören Tedmür’ü bundan kısa bir süre sonra ziyaret eden Tudelalı Benjamin burada 2000 yahudinin yaşadığını söyler."
+   ]
+  ]
+ },
+ {
+  "ad": "Azez (A'zâz)",
+  "lat": 36.586,
+  "lon": 37.045,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "azez:302",
+   "azez--sehir:302",
+   "azaz:302",
+   "azaz--sehir:302",
+   "arama:azez:200",
+   "arama:azaz:200"
+  ]
+ },
+ {
+  "ad": "Münbiç",
+  "lat": 36.528,
+  "lon": 37.955,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "munbic:302",
+   "munbic--sehir:302",
+   "arama:munbic:200"
+  ]
+ },
+ {
+  "ad": "İskenderun",
+  "lat": 36.587,
+  "lon": 36.173,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_ek27.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "iskenderun:200"
+  ],
+  "slug": "iskenderun",
+  "tanik": [
+   [
+    [
+     1097
+    ],
+    "Haçlı seferleri sırasında 1097’de Tankred tarafından zaptedilmiştir."
+   ],
+   [
+    [
+     1268
+    ],
+    "Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır."
+   ]
+  ]
+ },
+ {
+  "ad": "Deyrülkamer (Dayr al-Kamer)",
+  "lat": 33.6989,
+  "lon": 35.5619,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek29.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-10-01",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-08",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "deyrulkamer:302",
+   "deyrulkamer--sehir:302",
+   "dayr-al-kamer:302",
+   "dayr-al-kamer--sehir:302",
+   "arama:deyrulkamer:200",
+   "arama:dayr-al-kamer:200"
+  ]
+ },
+ {
+  "ad": "Ba'lebek (Baalbek)",
+  "lat": 34.0059,
+  "lon": 36.2181,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek29.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-08",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "balebek:200"
+  ],
+  "slug": "balebek",
+  "tanik": [
+   [
+    [
+     1025
+    ],
+    "Ioannis Tzimiskes’in, 1025’te Halep Emîri Sâlih b."
+   ],
+   [
+    [
+     1075
+    ],
+    "Mirdâs’ın ve 1075’te Suriye Selçuklu Meliki Tutuş ve oğullarının hâkimiyetine girdi."
+   ],
+   [
+    [
+     1083
+    ],
+    "1083’te Halep Emîri Müslim b."
+   ],
+   [
+    [
+     1110
+    ],
+    "Ancak Gümüştegin daha sonra Dımaşk Atabegi Tuğtegin’in aleyhinde bulunduğundan azledildi ve yerine Tuğtegin’in oğlu Böri getirildi (1110)."
+   ],
+   [
+    [
+     1138
+    ],
+    "Muhammed 1138’de Dımaşk emîri olunca veziri Üner’i Ba‘lebek valisi tayin etti."
+   ],
+   [
+    [
+     1136
+    ],
+    "Ancak 1136’da Halep Valisi Zengî şehri alarak valiliğine Selâhaddîn-i Eyyûbî’nin babası Eyyûb’u getirdi."
+   ],
+   [
+    [
+     1146
+    ],
+    "1146’da Zengî’nin öldürülmesi üzerine Eyyûb şehri Börîler’e geri vermek zorunda kaldı."
+   ],
+   [
+    [
+     1146
+    ],
+    "Böylece Ba‘lebek dokuz yıl kadar (1146-1155) tekrar Börîler’in idaresinde kaldı."
+   ],
+   [
+    [
+     1155
+    ],
+    "1155 yılında Dımaşk’ı alarak orada Börîler’in hâkimiyetine son veren Nûreddin Zengî Ba‘lebek’e doğru yöneldi."
+   ],
+   [
+    [
+     1170
+    ],
+    "1170’te depremden büyük zarar gören kale surları tamir edildi."
+   ],
+   [
+    [
+     1174
+    ],
+    "1174’te Selâhaddîn-i Eyyûbî tarafından alınan şehir Haçlılar’a karşı yapılan mücadelede önemli bir üs olarak kullanıldı."
+   ],
+   [
+    [
+     1182,
+     1230
+    ],
+    "1182-1230 yılları arasında Selâhaddîn-i Eyyûbî’nin diğer yeğeni Behram Şah’ın idaresinde kalan şehir 1230’da Dımaşk hâkimi el-Melikü’l-Eşref Mûsâ tarafından zaptedildi."
+   ],
+   [
+    [
+     1260
+    ],
+    "Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Sûr (Tyre) — Lübnan",
+  "lat": 33.2704,
+  "lon": 35.2038,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_ek29.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-09-27",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-08",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "sur:302",
+   "sur--sehir:302",
+   "tyre:302",
+   "tyre--sehir:302",
+   "arama:sur:200",
+   "arama:tyre:200"
+  ]
+ },
+ {
+  "ad": "Hemedan",
+  "lat": 34.799,
+  "lon": 48.515,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1387-11-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "hemedan:200"
+  ],
+  "slug": "hemedan",
+  "tanik": [
+   [
+    [
+     1029,
+     1101
+    ],
+    "Ziyârîler’den sonra Büveyhî ve Benî Kâkûye hânedanları arasında el değiştiren ve genellikle başşehir hüviyetini koruyan Hemedan 420’de (1029) Göktaş, Boğa ve Kızıl’ın kumandasındaki Oğuzlar, 494 (1101) yılında Selçuklu ordusu tarafından kısmen tahrip edildi."
+   ],
+   [
+    [
+     1136
+    ],
+    "531’de (1136) çıkan veba salgını yüzünden nüfusu azaldı."
+   ],
+   [
+    [
+     1194
+    ],
+    "Tuğrul’un Hârizmşah Alâeddin Tekiş’e yenilmesi üzerine Hârizmşahlar’ın hâkimiyeti altına girdi (1194) ve İldenizliler’den Kutluğ İnanç’a verildi."
+   ],
+   [
+    [
+     1221
+    ],
+    "1221’de Cebe Noyan kumandasındaki Moğol ordusu uzun bir kuşatma sonunda şehri ele geçirerek tahrip etti ve halkının büyük bir kısmını öldürdü."
+   ],
+   [
+    [
+     1039
+    ],
+    "1629’da Bağdat üzerine gönderilen Hüsrev Paşa 27 Şevval 1039’da (9 Haziran 1630) Hemedan’a girdi."
+   ],
+   [
+    [
+     1141
+    ],
+    "Ancak Ahmed Paşa’nın daha kuvvetli bir ordu ile geleceğinden korkarak 17 Safer 1141’de (22 Eylül 1728) imzalanan Hemedan Barış Antlaşması ile Osmanlılar’ın bütün haklarını tanıdı."
+   ],
+   [
+    [
+     1144
+    ],
+    "14 Rebîülevvel 1144’te (16 Eylül 1731) Irak Seraskeri Ahmed Paşa Korican’da II."
+   ],
+   [
+    [
+     1144
+    ],
+    "Fakat 10 Receb 1144’te (8 Ocak 1732) yapılan barış antlaşması ile Hemedan tekrar İran’a bırakıldı."
+   ]
+  ]
+ },
+ {
+  "ad": "Kirmanşah",
+  "lat": 34.314,
+  "lon": 47.065,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1387-11-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kirmansah:200"
+  ],
+  "slug": "kirmansah",
+  "tanik": [
+   [
+    [
+     1045
+    ],
+    "Sırasıyla Emevîler, Abbâsîler, Büveyhîler, Hasaneveyhîler ve Annâzîler’in idaresinde kalan şehri 437’de (1045) Tuğrul Bey’in gönderdiği İbrâhim Yinal Annâzî Ebü’ş-Şevk’ten alıp Selçuklu topraklarına kattı (Bündârî, s."
+   ],
+   [
+    [
+     1198
+    ],
+    "Hârizmşahlar’a mensup olan Emîr Mayacık 594 (1198) yılında yağma amacıyla Kirmanşah’a kadar geldi ve bölgede pek çok zulüm ve haksızlık yaptı (Râvendî, II, 367)."
+   ]
+  ]
+ },
+ {
+  "ad": "Şehrizor",
+  "lat": 35.56,
+  "lon": 45.43,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1554-08-22",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1630-03-16",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "denenen": [
+   "sehrizor:200"
+  ],
+  "slug": "sehrizor",
+  "tanik": [
+   [
+    [
+     1100
+    ],
+    "Nitekim İbnü’l-Esîr, Selçuklu Sultanı Berkyaruk’un Şehrizor’a gelerek (493/1100) burada topladığı Türkmenler’den büyük bir ordu oluşturduğunu ve kardeşi Muhammed Tapar’ın üzerine yürüdüğünü kaydeder ( el-Kâmil , X, 294)."
+   ],
+   [
+    [
+     1102
+    ],
+    "495 (1102) yılında Salgurlu Türkmenleri’nden Kara-beli, Dakūkā ile Şehrizor dışında Annâzîler’in elindeki yerleri zaptetti."
+   ],
+   [
+    [
+     1130,
+     1140
+    ],
+    "Muhtemelen Arslantaş’ın oğlu Emîr Kıpçak tarafından 1130 yılında kurulan Şehrizor Kıpçak Emirliği, 1140’ta Musul Atabegi İmâdüddin Zengî’nin bölgeye hâkim olmasıyla sona erdi."
+   ],
+   [
+    [
+     1185,
+     1190
+    ],
+    "581-582 (1185-1186) yıllarında Şehrizor yöresini ele geçiren Selâhaddîn-i Eyyûbî, Şehrizor ve Kara-beli derbendini Ali Küçük’ün oğlu Erbil Atabegi Muzafferüddin Kökböri’ye iktâ etti (586/1190)."
+   ],
+   [
+    [
+     1233,
+     1245,
+     1258
+    ],
+    "Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti."
+   ],
+   [
+    [
+     1226,
+     1245
+    ],
+    "1226 yılında meydana gelen şiddetli deprem ve 1245’teki Moğol yağması sebebiyle Şehrizor büyük tahribata uğradı ve eski önemini kaybetti."
+   ]
+  ]
+ },
+ {
+  "ad": "Musul",
+  "lat": 36.34,
+  "lon": 43.13,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1624-01-01",
+    "t": "1625-01-01",
+    "d": "safevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV musul--irak: Karçakay Han «Musul ve Kerkük üzerine» · «Kerkük gibi Musul da İran hâkimiyetine geçti, valiliğine de Kāsım Han tayin edildi» · Küçük Ahmed yaklaşınca Kāsım Han çekildi, «Şah Abbas'ın karşı harekâtıyla şehir tekrar Safevîler'in eline geçti (1033/1624)» · «Safevîler bu defa da Musul'u uzun süre hâkimiyetleri altında tutamadı» · BİTİŞ 1625: TDV hafiz-ahmed-pasa ordu «eylül başlarında … önce Musul'a, ardından Kerkük'e vardı (1625)» + Kılıç 2001. YIL hassasiyeti (1624 içindeki iki el değiştirme günsüz, modellenmedi). 🔴 KARŞI: TDV abbas-i «Şah Abbas Musul, Kerkük ve Van'ı da almak istedi, fakat muvaffak olamadı» (saltanat özeti). Güven ORTA. m: ile bağlı 7 kasaba DEĞİŞTİRİLMEDİ. YAMA-BAGDAT-0914 E"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "musul:302",
+   "musul--sehir:302",
+   "arama:musul:200"
+  ]
+ },
+ {
+  "ad": "Kerkük",
+  "lat": 35.468,
+  "lon": 44.392,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1624-01-01",
+    "t": "1625-01-01",
+    "d": "safevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV musul--irak: Karçakay Han «Musul ve Kerkük üzerine» · «Kerkük gibi Musul da İran hâkimiyetine geçti» · 1035 (1625) Çerkez Hasan öncüleri «Kerkük'e kadar kovalayarak Kerkük de dahil bölgeyi kontrol altına aldı» · TDV hafiz-ahmed-pasa: «Kerkük ve Musul şahın kumandanlarından Kāsım Han tarafından zaptedildi»; ordu 1625 eylülünde «önce Musul'a, ardından Kerkük'e vardı» · Kılıç 2001 (Türk Kültürü XXXIX/460): Hâfız Ahmed harekâtıyla «Kerkük ve Musul şehirleri ve havalisi» İran kuvvetlerinden «tamamen arındırılmıştır»; 1627 «Kerkük Beylerbeyisi Bostan Paşa». 🔴 KAYNAKLAR AYRIŞIR: TDV kerkuk maddesi 1630 der — «1033'te (1624) Bağdat'ı alan Safevîler Kerkük'ü ele geçirdilerse de Hüsrev Paşa tarafından 1039'da (1630) geri alındı». Karşı özet: TDV abbas-i «Musul, Kerkük ve Van'ı da almak istedi, fakat muvaffak olamadı». Hüküm 1.MURAT (M-3942 cevabı): kaynak ağırlığı 1625. YIL hassasiyeti, güven ORTA. Önceki 1623-11-28→1638-12-25 kaynaksızdı. YAMA-BAGDAT-0914 D"
+   },
+   {
+    "f": "1918-05-07",
+    "t": "1918-05-27",
+    "d": "ingiltere",
+    "kaynak": "TDV kerkuk (gövde okundu): '7 Mayıs'ta İngilizler Kerkük'ü işgal ettiler, ancak 27 Mayıs'ta şehir Osmanlı kuvvetleri tarafından geri alındı' (1918) · UYGULA-YERLESIM-0930 (NOKTA-ORTADOGU-0077 §2 tablosu; önceki gün Bağdat/Basra'nın TOPTAN günüydü)"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "kerkuk:200"
+  ],
+  "slug": "kerkuk",
+  "tanik": []
+ },
+ {
+  "ad": "Bağdat",
+  "lat": 33.34,
+  "lon": 44.361,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-08-29",
+    "d": "celayirli"
+   },
+   {
+    "f": "1393-08-29",
+    "t": "1394-01-01",
+    "d": "timurlu",
+    "kaynak": "TDV timur: 'Bağdat’ı ele geçirdikten sonra (20 Şevval 795 / 29 Ağustos 1393)' — GÜN · eski 1393-01-01 yalnız YIL idi (TDV bagdat '795’te (1393)') ve 1393-08-29 maddesinden (olaylar_ek5.js) 8 ay önce Timurlu enklavı çiziyordu · bitiş 1394-01-01 kaynaksız, DEĞİŞMEDİ · UYGULA-YERLESIM-0930 (0042/H-0030 · H-0029)"
+   },
+   {
+    "f": "1394-01-01",
+    "t": "1401-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1401-01-01",
+    "t": "1405-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1405-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "bagdat:200"
+  ],
+  "slug": "bagdat",
+  "tanik": [
+   [
+    [
+     1258
+    ],
+    "Kuruluşundan Abbâsî Devleti’nin yıkılışına (1258) kadar hilâfet merkezi olarak kalan Bağdat Osmanlılar devrinde Bağdat vilâyetinin merkezi ve 1921’de de Irak’ın başşehri oldu."
+   ],
+   [
+    [
+     1255
+    ],
+    "yüksekliğindeki yeşil kubbesi 941’de fırtınalı bir gecede yıldırım düşmesi üzerine yıkıldı; ancak duvarlar 1255’e kadar ayakta kaldı."
+   ],
+   [
+    [
+     1255
+    ],
+    "1255’te sel baskınına uğrayan cami Moğol saldırısından sonra da ayakta kalmaya devam etti."
+   ],
+   [
+    [
+     1076
+    ],
+    "Süreyyâ, bir sel felâketine mâruz kalıp harap oluncaya (469/1076-77) kadar güzel bir görünüm arzediyordu."
+   ],
+   [
+    [
+     1027
+    ],
+    "Bununla beraber saray 1027’de yıkıldı."
+   ],
+   [
+    [
+     1016
+    ],
+    "1016’da Nehrü Tâbık, Bâbülkutn ve Bâbülbasra mahallelerinin çoğu yandı."
+   ],
+   [
+    [
+     1030
+    ],
+    "1030’da birçok dükkân ve çarşı tahrip edildi."
+   ],
+   [
+    [
+     1030
+    ],
+    "Meşhur bir ayyâr lideri olan Bürcümî, Bağdat’ı dört yıl boyunca fiilen yönetti ve bir terör havası estirdi (1030-1033)."
+   ],
+   [
+    [
+     1055
+    ],
+    "1055’te Tuğrul Bey Bağdat’a girdi ve Büveyhîler’in Şiî politikasına son verip Sünnîler’i destekledi."
+   ],
+   [
+    [
+     1058
+    ],
+    "Besâsîrî 1058’de Fâtımîler adına Bağdat’ı işgal etti."
+   ],
+   [
+    [
+     1059
+    ],
+    "Fakat 1059’da Selçuklular tarafından mağlûp edilerek öldürüldü."
+   ],
+   [
+    [
+     1056
+    ],
+    "Tuğrul Bey 1056’da birçok ev ve dükkânı yıkarak Dârülimâre’yi genişletti ve etrafını duvarlarla çevirdi."
+   ],
+   [
+    [
+     1058
+    ],
+    "Dârülimâre 1058’de yandı ve tekrar inşa edildi, daha sonra da Dârülmemleke adıyla meşhur oldu."
+   ],
+   [
+    [
+     1115,
+     1121
+    ],
+    "1115’te yeniden inşa edildi, ancak 1121’de bir kaza sonucu yandı ve yeni bir saray yaptırıldı."
+   ],
+   [
+    [
+     1091
+    ],
+    "Melikşah, sarayın yakınında olan Muharrim Camii’ni genişletip yeniden inşa ettirdi (1091) ve cami bundan dolayı Sultan Camii olarak adlandırıldı."
+   ],
+   [
+    [
+     1075
+    ],
+    "Muktedî-Biemrillâh (1075-1094) inşaat faaliyetlerini teşvik etti."
+   ],
+   [
+    [
+     1129
+    ],
+    "1129’da Tac Sarayı yıkıldı ve yeniden yapıldı."
+   ],
+   [
+    [
+     1070
+    ],
+    "Gelişen mahallenin etrafı duvarlarla çevrili olmadığından 1070’teki sel felâketinden çok zarar gördü."
+   ],
+   [
+    [
+     1095
+    ],
+    "1095’te Müstazhir, Harîm mahallesinin etrafını bir duvarla çevirdi."
+   ],
+   [
+    [
+     1123
+    ],
+    "1123’te Müsterşid burayı 22 arşın genişliğinde dört kapılı olarak tekrar inşa ettirdi."
+   ],
+   [
+    [
+     1171
+    ],
+    "1171’de Bağdat’ı ziyaret etmiş olan Tutîleli (Tudela) Benjamin halife sarayının, altmış doktoru ve deliler için bir sanatoryumu olan Bîmâristân-ı Adudî’nin büyüklüğünden bahseder ve Bağdat’ta kendilerine ait on okula sahip 40.000 yahudi olduğunu söyler."
+   ],
+   [
+    [
+     1185
+    ],
+    "İbn Cübeyr 1185’teki Bağdat’ı anlatırken genel bir gerilemeye dikkat çeker, halkının gurur ve kibrini tenkit eder."
+   ],
+   [
+    [
+     1110
+    ],
+    "Bu medreselerin en meşhuru 1110’da yeniden inşa edilen Nizâmiye Medresesi idi."
+   ],
+   [
+    [
+     1118
+    ],
+    "Müsterşid zamanında (1118-1135) Îsâ Kanalı civarında bir köprü vardı."
+   ],
+   [
+    [
+     1170
+    ],
+    "Müstazî-Biemrillâh zamanında (1170-1180) Bâbülkurayye’de yeni bir köprü yapıldı ve ilki Îsâ Kanalı’nın yakınındaki eski yerine getirildi."
+   ],
+   [
+    [
+     1135
+    ],
+    "Ebü’l-Ferec İbnü’l-Cevzî, 1135-1176 yılları arasında Mansûr Camii’ne ilâveten altı camiden bahseder."
+   ],
+   [
+    [
+     1235
+    ],
+    "Câmiu’l-Kasr da 1082 ve 1235’te olmak üzere iki defa tamir edildi."
+   ],
+   [
+    [
+     1228
+    ],
+    "Bugün hâlâ ayakta kalan Kameriye Camii de 1228’de yapıldı."
+   ],
+   [
+    [
+     1066,
+     1233
+    ],
+    "En meşhurları 1066’da kurulan Nizâmiye, aynı yıl kurulan ve bugün Külliyyetü’ş-şerîa olarak kullanılan Ebû Hanîfe, 1233’te kurulan ve XVII."
+   ],
+   [
+    [
+     1255
+    ],
+    "Sadece Müstansıriyye ile 1255’te kurulan Beşîriyye medreseleri dört mezhebe göre öğretim yapıyordu."
+   ],
+   [
+    [
+     1209
+    ],
+    "1209’da Bağdat’ın her yerinde, ramazan ayında fakirlere hizmet etmek için misafirhaneler (dârüzziyâfe) kuruldu."
+   ],
+   [
+    [
+     1057
+    ],
+    "1057’de Kerh, Bâbülmuhavvel mahalleleri ve Kerh çarşısının büyük bir kısmı yandı."
+   ],
+   [
+    [
+     1059
+    ],
+    "1059’da da Kerh ve Eski Bağdat’ın çoğu yandı."
+   ],
+   [
+    [
+     1108
+    ],
+    "İbnü’l-Esîr 1108’de geçici bir uzlaşmadan bahseder."
+   ],
+   [
+    [
+     1242
+    ],
+    "1242’de Me’mûniyye ile Bâbülezec, Muhtâre ile Sûku’s-sultân, Katuftâ ve Kureyye mahalleleri arasında olaylar çıktı, pek çok kişi öldürüldü ve dükkânlar yağmalandı."
+   ],
+   [
+    [
+     1255
+    ],
+    "1255 yıllarında durum çok daha kötüleşti."
+   ],
+   [
+    [
+     1256
+    ],
+    "1256’da Kerh halkından birinin öldürülmesiyle olaylar doruğa ulaştı ve kontrolü sağlamak için gönderilen askerler halkla beraber Kerh’i yağmalayıp birçok yeri yakıp yıktılar; pek çok kişi öldürüldü ve kadınlar kaçırıldı."
+   ],
+   [
+    [
+     1243
+    ],
+    "1243’teki seller ve taşkınlar Nizâmiye ve civarındaki bazı mahalleleri tahrip etti."
+   ],
+   [
+    [
+     1248
+    ],
+    "1248’de seller Doğu Bağdat’ın etrafını sardı ve duvarların bir kısmını yıkarak Harîm’e ulaştı."
+   ],
+   [
+    [
+     1256
+    ],
+    "En büyük sel felâketi ise 1256’da meydana gelmiş ve Batı Bağdat’taki Dârülhilâfe ve Nizâmiye çarşıları sular altında kalmıştı."
+   ],
+   [
+    [
+     1258
+    ],
+    "İki yıl sonra 10 Şubat 1258’de Moğollar Bağdat’a saldırdılar; Halife Müsta‘sım kayıtsız şartsız teslim oldu ve halk kılıçtan geçirildi."
+   ],
+   [
+    [
+     1259
+    ],
+    "Çinli seyyah Cha’ng Te (1259) on binlerce kişinin öldürüldüğünü ifade eder."
+   ],
+   [
+    [
+     1258
+    ],
+    "Şehirde 1258-1282 yılları arasında valilik yapan Atâ Melik Cüveynî’nin bunda önemli rolü oldu."
+   ],
+   [
+    [
+     1279
+    ],
+    "Bu son eser 1279’da Latince’ye çevrilmiş ve Batı’daki tıp merkezlerinde XVI."
+   ],
+   [
+    [
+     1180
+    ],
+    "Halife Nâsır-Lidînillâh zamanında (1180-1225) teşkilâtlanan fütüvvet ehli için de bu dönemde Bağdat bir merkez olmuştur."
+   ],
+   [
+    [
+     1065
+    ],
+    "Selçuklu Sultanı Alparslan ve veziri Nizâmülmülk’ün gayretleriyle 1065-1067 yılları arasında 200.000 dinar harcanarak bir külliye halinde inşa edilen Bağdat Nizâmiye Medresesi İslâm tarihinde ilk çekirdek üniversiteyi oluşturduğu gibi Avrupa’da kurulan üniversitelere de örnek olmuştur."
+   ],
+   [
+    [
+     1072
+    ],
+    "Özellikle Selçuklu Sultanı Melikşah zamanında (1072-1092) Bağdat Nizâmiye Medresesi büyük gelişme göstermiştir."
+   ]
+  ]
+ },
+ {
+  "ad": "Kerbelâ",
+  "lat": 32.616,
+  "lon": 44.025,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "kerbela:200"
+  ],
+  "slug": "kerbela",
+  "tanik": [
+   [
+    [
+     1022
+    ],
+    "Fazl er-Râmhürmüzî 413’te (1022) türbenin etrafını bir duvarla çevirtti (İbnü’l-Cevzî, VIII, 13)."
+   ],
+   [
+    [
+     1086
+    ],
+    "Selçuklu Sultanı Melikşah burayı ve Necef’i ziyaret etti (479/1086)."
+   ]
+  ]
+ },
+ {
+  "ad": "Basra",
+  "lat": 30.508,
+  "lon": 47.783,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1776-04-16",
+    "t": "1779-04-01",
+    "d": "zend"
+   },
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1546-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1914-11-22",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "basra:200"
+  ],
+  "slug": "basra",
+  "tanik": [
+   [
+    [
+     1000
+    ],
+    "Gazvân’ı desteklemek için gelenlerin sayısı 1000’den az olduğu halde 36’da (656-57) şehrin nüfusu 50.000’i geçmişti."
+   ],
+   [
+    [
+     1047
+    ],
+    "439 (1047-48) yılında kurulan ve dini felsefe vasıtasıyla izaha çalışan İhvân-ı Safâ topluluğuna mensup Ebû Süleyman el-Büstî el-Makdisî (el-Mukaddesî), Ebû Ahmed en-Nehrecûrî gibi âlimler ilmî ve edebî çalışmalarını bu şehirde yürütüyorlardı."
+   ],
+   [
+    [
+     1258
+    ],
+    "1258’de Bağdat Hülâgû tarafından işgal edildi."
+   ]
+  ]
+ },
+ {
+  "ad": "Rakka",
+  "lat": 35.953,
+  "lon": 39.008,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-26",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "rakka:200"
+  ],
+  "slug": "rakka",
+  "tanik": [
+   [
+    [
+     1234,
+     1257
+    ],
+    "Abbâsîler’in zayıflamaya başlamasından itibaren Suriye ve Mısır’da kurulan hânedanlardan Tolunoğulları, Hamdânîler, Zengîler ve Eyyûbîler’in hâkimiyetine giren, hânedanlar kadar hânedan kolları arasında da sık sık el değiştiren, bu arada 316 (928) yılında Karmâtîler’in eline geçen Rakka, 632’de (1234-35) Anadolu Selçukluları’nın ve 655’te (1257) tekrar Eyyûbîler’in yönetimine girdi."
+   ],
+   [
+    [
+     1258
+    ],
+    "Bağdat’ın düşüşünden (656/1258) sonra el-Cezîre’yi de işgal eden Moğollar tarafından yakılıp yıkıldı ve halkı kılıçtan geçirildi."
+   ],
+   [
+    [
+     1260
+    ],
+    "Aynicâlût Savaşı’nın (658/1260) ardından Memlükler’in hâkimiyetine geçen Rakka, 773’te (1371) bu defa da Timur’un saldırısına uğradı ve âdeta yine halkının tamamını kaybetti; daha sonra şehirde bir süre Memlük-Akkoyunlu mücadelesi yaşandı."
+   ]
+  ]
+ },
+ {
+  "ad": "Deyrizor",
+  "lat": 35.336,
+  "lon": 40.141,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-28",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-26",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "deyrizor:200"
+  ],
+  "slug": "deyrizor",
+  "tanik": []
+ },
+ {
+  "ad": "Zencan",
+  "lat": 36.673,
+  "lon": 48.478,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1383-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1383-01-01",
+    "t": "1410-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1410-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "zencan:200"
+  ],
+  "slug": "zencan",
+  "tanik": [
+   [
+    [
+     1040
+    ],
+    "Tuğrul Bey, Dandanakan Savaşı’nın (1040) ardından Çağrı Bey’in oğlu Yâkūtî’ye Ebher, Zencan ve Azerbaycan’ın idaresini verdi (Reşîdüddin Fazlullāh-ı Hemedânî, II/5, s."
+   ],
+   [
+    [
+     1042
+    ],
+    "Tuğrul Bey, 434 (1042-43) yılında Gerşasp b."
+   ],
+   [
+    [
+     1099
+    ],
+    "Sultan Berkyaruk 492’de (1099) Muhammed Tapar ile savaşmak üzere Zencan’a hareket ettiyse de kendisine bağlı emîrlerin saf değiştirmesi yüzünden buna cesaret edemedi."
+   ],
+   [
+    [
+     1102
+    ],
+    "496’da (1102-1103) Zencan’da Muhammed Tapar adına hutbe okunuyordu ( a.g.e."
+   ],
+   [
+    [
+     1118
+    ],
+    "Sultan Muhammed Tapar’ın vefatından sonra (511/1118) Emîr Gündoğdu, Atabeg Şîrgîr’i hapsetti; ancak Sencer, Büyük Selçuklu sultanı olunca Atabeg Şîrgîr’i serbest bıraktı ve iktâı olan Zencan’a dönmesini sağladı ( a.g.e."
+   ],
+   [
+    [
+     1119
+    ],
+    "Sultan Sencer, 513 (1119) yılında vuku bulan Sâve savaşının ardından Zencan civarındaki şehirleri Tuğrul b."
+   ],
+   [
+    [
+     1125
+    ],
+    "519’da (1125) Zencan, Sâve ve Âve Tuğrul’un iktâı idi."
+   ],
+   [
+    [
+     1133
+    ],
+    "Muhammed Tapar ile yaptığı savaşta yenilince (527/1133) Zencan’a giderek Emîr Sungur’a sığındı ( Ahbârü’d-devleti’s-Selcûkıyye , s."
+   ],
+   [
+    [
+     1195
+    ],
+    "Savaş Kutluğ İnanç’ın yenilgisiyle sonuçlandı (591/1195)."
+   ],
+   [
+    [
+     1205
+    ],
+    "602 (1205-1206) yılında Hârizmli 10.000 süvari aileleriyle birlikte Zencan’a geldi."
+   ],
+   [
+    [
+     1211
+    ],
+    "Abbâsî Halifesi Nâsır-Lidînillâh, İldenizliler’den Atabeg Özbek ve Alamut hâkimi Celâleddin Hasan, Hârizmşahlar’a karşı ittifak yaptılar ve meydana gelen savaşta Hârizmli Nâsırüddin Mengli’yi yenilgiye uğrattıktan sonra Zencan’ın idaresini Celâleddin Hasan’a bıraktılar (607/1211)."
+   ],
+   [
+    [
+     1217
+    ],
+    "Tekiş 614’te (1217-18) hiçbir mukavemetle karşılaşmadan Ebher, Kazvin ve Zencan’ı topraklarına kattı."
+   ],
+   [
+    [
+     1220
+    ],
+    "617’de (1220) şehir Moğol istilâsına mâruz kaldı."
+   ],
+   [
+    [
+     1136
+    ],
+    "2 Şevval 1136’da (24 Haziran 1724) İstanbul Muahedesi (İran Mukāsemenâmesi) adı verilen antlaşmaya göre İran toprakları Osmanlılar ve Ruslar tarafından taksim edildi."
+   ],
+   [
+    [
+     1197
+    ],
+    "Zencan 1197’de (1782-83) Kaçarlı Ağa Muhammed Şah’ın hâkimiyetine girdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Mîyandoab",
+  "lat": 36.9694,
+  "lon": 46.1028,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "miyandoab:302",
+   "miyandoab--sehir:302",
+   "arama:miyandoab:200"
+  ]
+ },
+ {
+  "ad": "Sakkız",
+  "lat": 36.2461,
+  "lon": 46.2631,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "sakkiz:302",
+   "sakkiz--sehir:302",
+   "arama:sakkiz:200"
+  ]
+ },
+ {
+  "ad": "Merîvan",
+  "lat": 35.5214,
+  "lon": 46.1772,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "d": "timurlu"
+   },
+   {
+    "f": "1408-04-13",
+    "t": "1468-04-01",
+    "d": "karakoyunlu",
+    "kaynak": "BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"
+   },
+   {
+    "f": "1468-04-01",
+    "t": "1501-07-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "merivan:302",
+   "merivan--sehir:302",
+   "arama:merivan:200"
+  ]
+ },
+ {
+  "ad": "Nihâvend",
+  "lat": 34.1911,
+  "lon": 48.3767,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1353-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1353-01-01",
+    "t": "1387-11-01",
+    "d": "lur-i-kucek"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "nihavend:302",
+   "nihavend--sehir:302",
+   "arama:nihavend:200"
+  ]
+ },
+ {
+  "ad": "Kasr-ı Şîrîn",
+  "lat": 34.515,
+  "lon": 45.5772,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1387-11-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1387-11-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1503-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1503-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1723-10-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1730-08-12",
+    "t": "1736-03-08",
+    "d": "safevi",
+    "kaynak": "ÇAKIŞMA GİDERİLDİ (§8): eski s:safevi 1503→1736 mevcut d:1723-10-01→1730-08-12 ile üst üste biniyordu; safevi dönemi d: penceresinin iki yanına bölündü, gün değişmedi · UYGULA-YERLESIM-0930"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "kasr-i-sirin:302",
+   "kasr-i-sirin--sehir:302",
+   "arama:kasr-i-sirin:200"
+  ]
+ },
+ {
+  "ad": "Sâmerrâ",
+  "lat": 34.1983,
+  "lon": 43.8742,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "samerra:200"
+  ],
+  "slug": "samerra",
+  "tanik": []
+ },
+ {
+  "ad": "Tikrit",
+  "lat": 34.6072,
+  "lon": 43.6786,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "tikrit:200"
+  ],
+  "slug": "tikrit",
+  "tanik": [
+   [
+    [
+     1036
+    ],
+    "427 (1036) yılı sonlarında şehir Râfi‘ b."
+   ],
+   [
+    [
+     1043
+    ],
+    "Hammâd, onun da 435’te (1043-44) ölümüyle yerine oğlu Ebû Gaşşâm geçti."
+   ],
+   [
+    [
+     1056
+    ],
+    "Tuğrul Bey 448’de (1056-57) Bağdat’tan ayrılıp Musul’a giderken Nasr b."
+   ],
+   [
+    [
+     1080
+    ],
+    "473’te (1080-81) şehir Nizâmülmülk’ün oğlu Müeyyidülmülk’ün idaresine tevdi edildi."
+   ],
+   [
+    [
+     1084
+    ],
+    "Selçuklu Sultanı Melikşah 477’de (1084-85) isyan eden kardeşi Tekiş’i Tikrît Kalesi’ne hapsetmişti."
+   ],
+   [
+    [
+     1092
+    ],
+    "Bundan sonraki süreçte Tikrît, Aytekin es-Süleymânî’ye ve Melikşah’ın ölümünün (485/1092) ardından Kasîmüddevle Aksungur’a iktâ edildi."
+   ],
+   [
+    [
+     1102
+    ],
+    "496’da (1102-1103) Sökmen b."
+   ],
+   [
+    [
+     1105
+    ],
+    "Sultan Muhammed Tapar tahta geçince (498/1105) Tikrît’i Bağdat şahnesi Aksungur el-Porsukī’ye iktâ etti."
+   ],
+   [
+    [
+     1118
+    ],
+    "Şehir, 512’de (1118) Sultan Muhammed Tapar’ın kumandanlarından Bağdat şahnesi Mücâhidüddin Bihrûz el-Hâdim’in iktâı idi."
+   ],
+   [
+    [
+     1131
+    ],
+    "İmâdüddin Zengî 525 (1131) yılında Karaca Sâkî’ye mağlûp olarak Tikrît’e sığınınca Necmeddin Eyyûb ona yardımcı oldu."
+   ],
+   [
+    [
+     1145
+    ],
+    "Sultan Mes‘ûd, 540’ta (1145-46) asker toplamak için Bağdat’tan Azerbaycan’a giderken şehzadelerini Mes‘ud Bilâlî’nin (Mes‘ûd b."
+   ],
+   [
+    [
+     1147
+    ],
+    "542’de (1147) Irak Selçuklu Sultanı Mes‘ûd b."
+   ],
+   [
+    [
+     1152
+    ],
+    "Halife, Sultan Mes‘ûd’un ölümü üzerine (547/1152) Tikrît’e kaçan Mes‘ûd Bilâlî’yi yakalamak için asker sevketti."
+   ],
+   [
+    [
+     1154
+    ],
+    "549’da (1154) gönderdiği kuvvetler başarılı olamayınca bizzat kendisi sefere çıkıp şehre girdi, fakat iç kaleyi ele geçiremedi."
+   ],
+   [
+    [
+     1149
+    ],
+    "Tikrît 544-586 (1149-1190) yılları arasında Begteginliler’in hâkimiyetindeydi ( EI 2 [İng.] , X, 141)."
+   ],
+   [
+    [
+     1257
+    ],
+    "Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular."
+   ]
+  ]
+ },
+ {
+  "ad": "Hille",
+  "lat": 32.4828,
+  "lon": 44.4353,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "hille:200",
+   "hille--sehir:302",
+   "arama:hille:200"
+  ]
+ },
+ {
+  "ad": "Necef",
+  "lat": 31.9956,
+  "lon": 44.3153,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-07",
+    "t": "1921-08-23",
+    "d": "ingiltere",
+    "kaynak": "TDV necef (gövde okundu): 'Necef 7 Mart 1917 tarihinde İngilizler tarafından işgal edildi' · UYGULA-YERLESIM-0930 (NOKTA-ORTADOGU-0077 §2 tablosu; önceki gün Bağdat/Basra'nın TOPTAN günüydü)"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "necef:200"
+  ],
+  "slug": "necef",
+  "tanik": [
+   [
+    [
+     1051
+    ],
+    "443’te (1051) Hz."
+   ],
+   [
+    [
+     1087
+    ],
+    "479 (1087) yılında bölgeye gelen Selçuklu Sultanı Melikşah ve veziri Nizâmülmülk kabri ziyaret ettiler."
+   ]
+  ]
+ },
+ {
+  "ad": "Kûfe",
+  "lat": 32.03,
+  "lon": 44.4009,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "kufe:200"
+  ],
+  "slug": "kufe",
+  "tanik": [
+   [
+    [
+     1101
+    ],
+    "Ardından Mezyedîler’e intikal eden Kûfe, 495 (1101-1102) yılında Hille’nin yeni bir merkez olarak kurulmasıyla önemini büyük ölçüde kaybetti."
+   ],
+   [
+    [
+     1184
+    ],
+    "580’de (1184) Kûfe’yi ziyaret eden İbn Cübeyr, eski surlar başta olmak üzere şehrin önemli ölçüde harabe haline geldiğini ve özellikle çevredeki bedevî Hafâce kabilesinin yağmalarından zarar gördüğünü kaydeder ( er-Riḥle , s."
+   ]
+  ]
+ },
+ {
+  "ad": "Vâsıt",
+  "lat": 32.19,
+  "lon": 46.295,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "vasit:200"
+  ],
+  "slug": "vasit",
+  "tanik": [
+   [
+    [
+     1009
+    ],
+    "İslâm mimarisinin erken dönem örneklerinden biri olan cami 400 (1009) yılında yıkıldı ve yerine yeni bir cami yapıldı."
+   ],
+   [
+    [
+     1155
+    ],
+    "Bu cami de 550 (1155) yılından önce yıkıldı, yerine üçüncüsü inşa edildi ve 1343’te yeniden yapıldı."
+   ],
+   [
+    [
+     1165
+    ],
+    "1165-1173 yılları arasında çeşitli yerleri ziyaret eden yahudi seyyahı Tudelalı Benjamin, Vâsıt’ta yaklaşık 10.000 yahudinin oturduğunu kaydeder."
+   ],
+   [
+    [
+     1258
+    ],
+    "İlhanlılar Irak’ı zaptedince (656/1258) onların hâkimiyetine geçti."
+   ]
+  ]
+ },
+ {
+  "ad": "Kût el-Amâre",
+  "lat": 32.5125,
+  "lon": 45.8189,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1915-09-26",
+    "t": "1916-04-29",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "kut-el-amare:302",
+   "kut-el-amare--sehir:302",
+   "arama:kut-el-amare:200"
+  ]
+ },
+ {
+  "ad": "Erbil",
+  "lat": 36.1911,
+  "lon": 44.0092,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-25",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1921-08-23",
+    "d": "ingiltere",
+    "kaynak": "TDV erbil (gövde okundu): 'I. Dünya Savaşı'ndan sonra ise İngilizler tarafından işgal edilerek' — İŞGAL GÜNÜ BULUNAMADI. 1918-10-30 = Mondros (savaşın sonu) ALT SINIR işaretidir, ölçüm değil; önceki 1917-03-11 TDV ile ÇELİŞİYORDU (Erbil enklavı, H-0033) · UYGULA-YERLESIM-0930 (NOKTA-ORTADOGU-0077 §2 tablosu; önceki gün Bağdat/Basra'nın TOPTAN günüydü)"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "erbil:200"
+  ],
+  "slug": "erbil",
+  "tanik": [
+   [
+    [
+     1132
+    ],
+    "Musul Atabeği İmâdüddin Zengî 1132 yılında Erbil’i ele geçirince burayı kumandanlarından Zeynüddin Ali Küçük b."
+   ],
+   [
+    [
+     1190
+    ],
+    "Ali Küçük’ün burada kurduğu Begteginliler hânedanının sınırları, civardaki küçük emirlikleri itaat altına alan oğlu Muzafferüddin Kökböri zamanında (1190-1232) oldukça genişledi ve Kerkük ile birlikte Şehrizor bölgesi de bu devletin sınırları içinde kaldı."
+   ],
+   [
+    [
+     1232
+    ],
+    "Oğlu olmayan Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti (1232)."
+   ],
+   [
+    [
+     1236,
+     1258
+    ],
+    "1236 yılında Erbil’e saldıran Moğollar aşağı şehri işgal ederek binaları yıkıp kaleyi kuşattılarsa da sonuçta geri çekilmek zorunda kaldılar; ancak Bağdat’ın 1258’de Hülâgû’nun eline geçmesinden sonra burası da zaptedildi."
+   ]
+  ]
+ },
+ {
+  "ad": "Kifri",
+  "lat": 34.6883,
+  "lon": 44.9639,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "kifri:302",
+   "kifri--sehir:302",
+   "arama:kifri:200"
+  ]
+ },
+ {
+  "ad": "Hânekîn",
+  "lat": 34.3519,
+  "lon": 45.3861,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "hanekin:302",
+   "hanekin--sehir:302",
+   "arama:hanekin:200"
+  ]
+ },
+ {
+  "ad": "Tuz Hurmatu",
+  "lat": 34.8828,
+  "lon": 44.6381,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-04-01",
+    "t": "1921-08-23",
+    "d": "ingiltere",
+    "kesinlik": {
+     "f": "ay"
+    },
+    "kaynak": "TDV kerkuk (gövde okundu): 'I. Dünya Savaşı'nın sonlarına doğru 1918 Nisanında Tuzhurmatu'da bozguna uğrayan Osmanlı birlikleri Kerkük'e çekildi' — AY hassasiyeti (gün bulunamadı; 1918-04-01 = 'Nisan 1918') · UYGULA-YERLESIM-0930 (NOKTA-ORTADOGU-0077 §2 tablosu; önceki gün Bağdat/Basra'nın TOPTAN günüydü)"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "tuz-hurmatu:302",
+   "tuz-hurmatu--sehir:302",
+   "arama:tuz-hurmatu:200"
+  ]
+ },
+ {
+  "ad": "Halepçe",
+  "lat": 35.1778,
+  "lon": 45.9861,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1554-08-22",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "denenen": [
+   "halepce:302",
+   "halepce--sehir:302",
+   "arama:halepce:200"
+  ]
+ },
+ {
+  "ad": "Rewândiz",
+  "lat": 36.6069,
+  "lon": 44.5322,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "rewandiz:302",
+   "rewandiz--sehir:302",
+   "arama:rewandiz:200"
+  ]
+ },
+ {
+  "ad": "Akra",
+  "lat": 36.7408,
+  "lon": 43.8919,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "akra:302",
+   "akra--sehir:302",
+   "arama:akra:200"
+  ]
+ },
+ {
+  "ad": "Duhok",
+  "lat": 36.8672,
+  "lon": 42.9881,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "duhok:302",
+   "duhok--sehir:302",
+   "arama:duhok:200"
+  ]
+ },
+ {
+  "ad": "Zaho",
+  "lat": 37.1447,
+  "lon": 42.6819,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "zaho:302",
+   "zaho--sehir:302",
+   "arama:zaho:200"
+  ]
+ },
+ {
+  "ad": "Telafer",
+  "lat": 36.3775,
+  "lon": 42.4508,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "telafer:302",
+   "telafer--sehir:302",
+   "arama:telafer:200"
+  ]
+ },
+ {
+  "ad": "Sincar",
+  "lat": 36.3222,
+  "lon": 41.8689,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "sincar:302",
+   "sincar--sehir:302",
+   "arama:sincar:200"
+  ]
+ },
+ {
+  "ad": "Âne",
+  "lat": 34.4681,
+  "lon": 41.9364,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "ane:302",
+   "ane--sehir:302",
+   "arama:ane:200"
+  ]
+ },
+ {
+  "ad": "Hît",
+  "lat": 33.6414,
+  "lon": 42.8253,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "hit:302",
+   "hit--sehir:302",
+   "arama:hit:200"
+  ]
+ },
+ {
+  "ad": "Fellûce",
+  "lat": 33.35,
+  "lon": 43.7844,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "felluce:302",
+   "felluce--sehir:302",
+   "arama:felluce:200"
+  ]
+ },
+ {
+  "ad": "Dîvâniye",
+  "lat": 31.9892,
+  "lon": 44.925,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   {
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "divaniye:302",
+   "divaniye--sehir:302",
+   "arama:divaniye:200"
+  ]
+ },
+ {
+  "ad": "Semâve",
+  "lat": 31.3183,
+  "lon": 45.2811,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1546-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1914-11-22",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "semave:302",
+   "semave--sehir:302",
+   "arama:semave:200"
+  ]
+ },
+ {
+  "ad": "Ammâre",
+  "lat": 31.8356,
+  "lon": 47.145,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1546-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1915-01-01",
+    "t": "1921-08-23",
+    "d": "ingiltere",
+    "kesinlik": {
+     "f": "yil"
+    },
+    "kaynak": "TDV amare (gövde okundu): 'İngiltere'nin Irak harekâtından sonra 1915-1932 yıllarında İngiliz manda yönetiminde kaldı' — YIL hassasiyeti (gün bulunamadı) · UYGULA-YERLESIM-0930 (NOKTA-ORTADOGU-0077 §2 tablosu; önceki gün Bağdat/Basra'nın TOPTAN günüydü)"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "ammare:302",
+   "ammare--sehir:302",
+   "arama:ammare:200"
+  ]
+ },
+ {
+  "ad": "Kürne",
+  "lat": 31.01,
+  "lon": 47.4433,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1546-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1914-11-22",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "kurne:302",
+   "kurne--sehir:302",
+   "arama:kurne:200"
+  ]
+ },
+ {
+  "ad": "Fâv",
+  "lat": 29.9764,
+  "lon": 48.4722,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1546-01-01",
+    "d": "safevi"
+   },
+   {
+    "f": "1914-11-22",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "fav:302",
+   "fav--sehir:302",
+   "arama:fav:200"
+  ]
+ },
+ {
+  "ad": "Dizfûl",
+  "lat": 32.3831,
+  "lon": 48.4014,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "dizful:200"
+  ],
+  "slug": "dizful",
+  "tanik": []
+ },
+ {
+  "ad": "Havîza",
+  "lat": 31.4572,
+  "lon": 48.075,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "haviza:302",
+   "haviza--sehir:302",
+   "arama:haviza:200"
+  ]
+ },
+ {
+  "ad": "Abâdân",
+  "lat": 30.3392,
+  "lon": 48.3042,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1335-12-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1335-12-01",
+    "t": "1393-01-01",
+    "d": "lur-i-buzurg"
+   },
+   {
+    "f": "1393-01-01",
+    "t": "1452-01-01",
+    "d": "timurlu"
+   },
+   {
+    "f": "1452-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1736-03-08",
+    "d": "safevi"
+   },
+   {
+    "f": "1736-03-08",
+    "t": "1747-06-20",
+    "d": "afsar"
+   },
+   {
+    "f": "1747-06-20",
+    "t": "1794-01-01",
+    "d": "zend"
+   },
+   {
+    "f": "1794-01-01",
+    "t": "1923-10-29",
+    "d": "kacar"
+   }
+  ],
+  "denenen": [
+   "abadan:200"
+  ],
+  "slug": "abadan",
+  "tanik": []
+ },
+ {
+  "ad": "Akçakale",
+  "lat": 36.71,
+  "lon": 38.947,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk",
+    "kaynak": "bulunamadı — Akçakale için MÜSTAKİL kaynak YOK (TDV'de müstakil madde yok, 302). Dönem a71d6c86 (11 Ağu 2026, koordinatör) ile GOOGLE HARİTALAR GÖRSELİNDEN yazıldı; dosya başlığı 'TEK TEK DOĞRULANMADI' diyor ve görsel akademik kaynak DEĞİLDİR (§4 kırmızı çizgi). Bölge hükmü: TDV `harran` Aynicâlût (1260) sonrası 'daha çok Memlükler, kısa aralıklarla İlhanlılar' der ama YIL VERMEZ; Iranica `harran` Memlük dönüşünü '8./14. yy başı' verir ⇒ İKİ KAYNAK ÇELİŞİR, §4 gereği TDV esas. 1281-01-01 bir ÖLÇÜM DEĞİL, UFUK penceresinin başlangıç işaretidir (D210). ⚠️ Jadlā' bu kayıttan GÜN devraldı; §4'ün birinci şartı (komşunun günü kendi kaynağına dayanacak) BURADAN DÜŞER — bkz. denetim/HUKUM-DEVRALMA-1004.md"
+   },
+   {
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "akcakale:302",
+   "akcakale--sehir:302",
+   "arama:akcakale:200"
+  ]
+ },
+ {
+  "ad": "Ceylanpınar",
+  "lat": 36.845,
+  "lon": 40.043,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "ceylanpinar:302",
+   "ceylanpinar--sehir:302",
+   "arama:ceylanpinar:200"
+  ]
+ },
+ {
+  "ad": "Nusaybin",
+  "lat": 37.077,
+  "lon": 41.215,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1515-09-19",
+    "d": "safevi"
+   },
+   {
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "nusaybin:200"
+  ],
+  "slug": "nusaybin",
+  "tanik": [
+   [
+    [
+     1043
+    ],
+    "435’te (1043) Tuğrul Bey burayı hasara uğrattı."
+   ],
+   [
+    [
+     1120
+    ],
+    "514’te (1120) Artuklu Necmeddin İlgazi’nin, daha sonra Musul Atabegi İmâdüddin Zengî ve Eyyûbîler’den Selâhaddîn-i Eyyûbî’nin hâkimiyetinde kaldı."
+   ],
+   [
+    [
+     1230
+    ],
+    "1230 yılında ilk Moğol istilâsına uğrayan, yüzyılın ortalarında Hülâgû tarafından işgal edilen şehir ardından Akkoyunlu, Karakoyunlu ve Safevî hâkimiyetine girdi."
+   ]
+  ]
+ },
+ {
+  "ad": "Silopi",
+  "lat": 37.246,
+  "lon": 42.47,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1515-09-19",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1921-10-20",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-10-20",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "silopi:302",
+   "silopi--sehir:302",
+   "arama:silopi:200"
+  ]
+ },
+ {
+  "ad": "Malikiye (Derik)",
+  "lat": 37.176,
+  "lon": 42.145,
+  "tur": "kasaba",
+  "kur": null,
+  "dosya": "yerlesimler_ek25.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1515-09-19",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "malikiye:302",
+   "malikiye--sehir:302",
+   "derik:302",
+   "derik--sehir:302",
+   "arama:malikiye:200",
+   "arama:derik:200"
+  ]
+ },
+ {
+  "ad": "Qaţţīnah",
+  "lat": 36.80744,
+  "lon": 40.05343,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-26",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "qattinah:302",
+   "qattinah--sehir:302",
+   "arama:qattinah:200"
+  ]
+ },
+ {
+  "ad": "Ḩīmū",
+  "lat": 37.04723,
+  "lon": 41.16003,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1515-09-19",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "himu:302",
+   "himu--sehir:302",
+   "arama:himu:200"
+  ]
+ },
+ {
+  "ad": "Jadlā’",
+  "lat": 36.65715,
+  "lon": 38.94703,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "d": "memluk"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "jadla:302",
+   "jadla--sehir:302",
+   "arama:jadla:200"
+  ]
+ },
+ {
+  "ad": "Cibri (Güçlü)",
+  "lat": 37.27593,
+  "lon": 42.09814,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1353-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1353-01-01",
+    "t": "1431-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1431-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "cibri:302",
+   "cibri--sehir:302",
+   "guclu:302",
+   "guclu--sehir:302",
+   "arama:cibri:200",
+   "arama:guclu:200"
+  ]
+ },
+ {
+  "ad": "Babū",
+  "lat": 36.99209,
+  "lon": 40.95651,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1515-09-19",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1920-07-24",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "f": "1920-07-24",
+    "t": "1923-10-29",
+    "d": "suriye-lubnan-mandasi"
+   }
+  ],
+  "denenen": [
+   "babu:302",
+   "babu--sehir:302",
+   "arama:babu:200"
+  ]
+ },
+ {
+  "ad": "Gōrabī",
+  "lat": 37.08333,
+  "lon": 44.7,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1351-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1351-01-01",
+    "t": "1467-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-01-01",
+    "t": "1502-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1502-01-01",
+    "t": "1548-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "gorabi:302",
+   "gorabi--sehir:302",
+   "arama:gorabi:200"
+  ]
+ },
+ {
+  "ad": "Tirwānīsh",
+  "lat": 37.19618,
+  "lon": 43.50366,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "tirwanish:302",
+   "tirwanish--sehir:302",
+   "arama:tirwanish:200"
+  ]
+ },
+ {
+  "ad": "Balıklı",
+  "lat": 37.23157,
+  "lon": 44.65326,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1351-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1351-01-01",
+    "t": "1467-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-01-01",
+    "t": "1502-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1502-01-01",
+    "t": "1548-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "balikli:302",
+   "balikli--sehir:302",
+   "arama:balikli:200"
+  ]
+ },
+ {
+  "ad": "Cumai (Birlikköy)",
+  "lat": 37.24622,
+  "lon": 42.52018,
+  "tur": "koy",
+  "kur": null,
+  "dosya": "yerlesimler_sinir_guney.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1409-01-01",
+    "d": "artuklu"
+   },
+   {
+    "f": "1409-01-01",
+    "t": "1467-11-10",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1467-11-10",
+    "t": "1507-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1507-01-01",
+    "t": "1515-09-19",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-10-30",
+    "t": "1921-10-20",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-10-20",
+    "t": "1923-10-29",
+    "d": "tbmm-turkiye"
+   }
+  ],
+  "denenen": [
+   "cumai:302",
+   "cumai--sehir:302",
+   "birlikkoy:302",
+   "birlikkoy--sehir:302",
+   "arama:cumai:200",
+   "arama:birlikkoy:200"
+  ]
+ },
+ {
+  "ad": "İmâdiye (Amêdî)",
+  "lat": 37.0921,
+  "lon": 43.4877,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_ok109.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "d": "ilhanli"
+   },
+   {
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "d": "celayirli"
+   },
+   {
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "d": "karakoyunlu"
+   },
+   {
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "d": "akkoyunlu"
+   },
+   {
+    "f": "1508-01-01",
+    "t": "1516-08-24",
+    "d": "safevi"
+   },
+   {
+    "f": "1918-11-08",
+    "t": "1921-08-23",
+    "d": "ingiltere"
+   },
+   {
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "d": "irak-kralligi"
+   }
+  ],
+  "denenen": [
+   "imadiye:302",
+   "imadiye--sehir:302",
+   "amedi:302",
+   "amedi--sehir:302",
+   "arama:imadiye:200",
+   "arama:amedi:200"
+  ]
+ },
+ {
+  "ad": "Kahire",
+  "lat": 30.047,
+  "lon": 31.243,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-02-15",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "kahire:200"
+  ],
+  "slug": "kahire",
+  "tanik": [
+   [
+    [
+     1125
+    ],
+    "Ondan sonra 519’da (1125) ibadete açılan Akmer Camii, ardından Halife Zâfir-Biemrillâh’ın (Câmiu’l-Fâkihiyyîn, 543/1148) ve son olarak da el-Melikü’s-Sâlih Talâi‘ b."
+   ],
+   [
+    [
+     1160
+    ],
+    "Rüzzîk tarafından Bâbüzüveyle’nin dışında yaptırılan Sâlih Talâi‘ Camii (555/1160) gelmektedir."
+   ],
+   [
+    [
+     1168
+    ],
+    "Mücîr’in emriyle yakılmasından (564/1168) sonra Kahire tam anlamıyla Mısır’ın başşehri oldu."
+   ],
+   [
+    [
+     1176
+    ],
+    "572 (1176) yılında yapılan onarımlar sırasında Ebû Sâlih el-Ermenî’ye göre Fustat’taki birçok kilise de eski haline getirildi."
+   ],
+   [
+    [
+     1171
+    ],
+    "Selâhaddîn-i Eyyûbî Mısır’ı ele geçirdikten (567/1171) sonra hem kendine mahsus, hem de Kahire ve Fustat’ı denetimi altında tutacak yeni bir başşehir kurmayı düşünmüştü."
+   ],
+   [
+    [
+     1241
+    ],
+    "Sultan el-Melikü’s-Sâlih Necmeddin Eyyûb 1241’de, Kal‘atülcebel’den müstahkem hale getirdiği ve bir köprüyle karaya bağladığı Kahire’nin batısındaki Ravza adasına taşındı."
+   ],
+   [
+    [
+     1252
+    ],
+    "Memlükler’in iktidara gelmesiyle (650/1252) Kahire daha da genişledi ve yeni bir şekil kazandı."
+   ],
+   [
+    [
+     1264
+    ],
+    "662’de (1264) açılan I."
+   ],
+   [
+    [
+     1173
+    ],
+    "Kahire’deki ilk hankah, 569 (1173) yılında Selâhaddîn-i Eyyûbî’nin bugünkü Cemâliye caddesi üzerinde bulunan Karasungur Medresesi’nin karşısına yaptırdığı Saîdü’s-suadâ Hankahı’dır."
+   ],
+   [
+    [
+     1176
+    ],
+    "572’de (1176) Fustat, Selâhaddîn-i Eyyûbî öldüğünde yarım kalmış durumdaki bir surla kısmen iskân bölgelerine bağlanmıştı."
+   ],
+   [
+    [
+     1150
+    ],
+    "Bunlar yaklaşık 545 (1150) tarihli Yahyâ eş-Şebîhî Meşhedi, 884’te (1479) Yeşbek (Yüşbek) b."
+   ],
+   [
+    [
+     1201,
+     1066
+    ],
+    "Mehdî tarafından bir minare eklenen ve 911’de (1505) Kansu Gavri tarafından, ayrıca 1201’de (1786-87) tâdilât gören İmam Leys Türbesi, 945 (1538) tarihli Şâhîn el-Halvetî Hankahı ve Türbesi, es-Sâdâtü’l-Vefâiyye olarak tanınan ve 1066’da (1655-56) Silâhdar Mehmed Paşa tarafından yeniden yaptırılıp 1099’da (1688) tâdil edilen Sîdî Ukbe Türbesi’dir."
+   ],
+   [
+    [
+     1131
+    ],
+    "Mezarlığın kuzey kısmında Hâfız-Lidînillâh (1131-1149) dönemine tarihli tamir kitâbeleri olan Seyyide Nefîse’nin meşhedini de içine alan daha büyük ve önemli Fâtımî meşhedleri yer almaktadır."
+   ],
+   [
+    [
+     1133
+    ],
+    "Seyyide Rukıyye (527/1133) ve Seyyide Âtike (519/1125 civarı) meşhedleri de burada mevcuttur."
+   ],
+   [
+    [
+     1094
+    ],
+    "Günümüzde Bâbünnasr olarak bilinen ve Kahire surlarının kuzeyinde yer alan mezarlık sadece tek bir tarihî binayı ihtiva eder; bu da yaklaşık 487 (1094) tarihli Kubbetü’ş-Şeyh Yûnus’tur."
+   ],
+   [
+    [
+     1125
+    ],
+    "Dikkat çeken diğer Fâtımî binaları arasında Akmer Camii (519/1125) Vezir Me’mûn el-Batâihî’nin eseridir."
+   ],
+   [
+    [
+     1160
+    ],
+    "Rüzzîk’in 555 (1160) tarihli camisi Kahire’deki son Fâtımî eseridir."
+   ],
+   [
+    [
+     1010
+    ],
+    "400’de (1010) Hâkim-Biemrillâh tarafından öldürtülen şair Ebü’l-Kāsım Hüseyin b."
+   ],
+   [
+    [
+     1013
+    ],
+    "Ali el-Mağribî’nin aile efradına ait olduğu teşhis edilen ve Hâkim-Biemrillâh tarafından 403 (1013) civarında yaptırıldığı anlaşılan Fustat harabelerinin güneyindeki, esasında altı türbeden oluşan Seb‘a Benât bunlardan biridir."
+   ],
+   [
+    [
+     1133,
+     1150,
+     1155
+    ],
+    "Burada kesin tarihi bilinen tek eser olan Seyyide Rukıyye (527/1133), yaklaşık 545 (1150) tarihli Yahyâ eş-Şebîhî ve yanındaki 550 (1155) öncesine tarihlenen Ümmü Külsûm meşhedleri en iyi korunmuş olanlarıdır."
+   ],
+   [
+    [
+     1015
+    ],
+    "İçinde bir veya daha çok sayıda kabir bulunan, üzeri tromplu kubbelerle örtülü mihraplı ve zengin stuko tezyinatlı küçük binalar olan meşhedlerin, Karâfetülkübrâ harabeleri arasında yer alan ve Hâkim-Biemrillâh devrinde 406 (1015-16) yılında yapılan Kabrü Lü’lüe bint Mukavkıs gibi değişik örneklerine de rastlanır."
+   ],
+   [
+    [
+     1087
+    ],
+    "Hâkim Camii’nin kuzey duvarı ve kuzey kapısının da içine girdiği kuzey surlarından kalan yegâne kısımlar 480 (1087) tarihli kulelerle takviyeli Bâbünnasr ve Bâbülfütûh’tur."
+   ],
+   [
+    [
+     1091
+    ],
+    "Güney tarafında bulunan Bâbüzüveyle de 484 (1091) yılında yapılmıştır."
+   ],
+   [
+    [
+     1176
+    ],
+    "Selâhaddîn-i Eyyûbî’nin Mısır’a hâkim olmasıyla tesis ettiği ilk medreselerden biri 572’de (1176-77) başlanan ve güney mezarlığında İmam Şâfiî’nin kabrine yakın bulunan Şâfiî Medresesi’ydi."
+   ],
+   [
+    [
+     1211
+    ],
+    "Fakat 608’de (1211) el-Melikü’l-Kâmil Muhammed devrinde büyük ahşap kubbeyle örtülü bir türbeye dönüştürülen İmam Şâfiî Türbesi (Kubbetü’l-İmâm eş-Şâfiî), sık sık yapılan tamirlerle Kahire’nin en ihtişamlı kubbelerinden biri olarak ayaktadır."
+   ],
+   [
+    [
+     1178
+    ],
+    "Meâlî’nin eseri olan ve 574 (1178-79) tarihini taşıyan muhteşem tik ağacı bir sanduka kalmıştır."
+   ],
+   [
+    [
+     1225
+    ],
+    "Sûkunnahhâsîn’deki medrese kalıntıları el-Melikü’l-Kâmil’in diğer medresesi olan Kâmiliyye’ye (622/1225) aittir."
+   ],
+   [
+    [
+     1243
+    ],
+    "En iyi korunmuş Eyyûbî medresesi, el-Melikü’s-Sâlih Necmeddin Eyyûb tarafından Fâtımî Kahiresi’nin ana caddesi Kasaba üstünde 641’de (1243-44) yaptırılan iki çift eyvandan müteşekkil olup yaklaşık 715’te (1315) tamir edilmiş minaresi, iki medresenin arasında bulunan bir geçide açılan ve cephenin merkezinde yer alan kapı farklı bir hususiyet göstermektedir."
+   ],
+   [
+    [
+     1249
+    ],
+    "el-Melikü’s-Sâlih Necmeddin Eyyûb’un yaptırdığı medresenin yanındaki türbesi 647-648 (1249-1250) tarihlidir."
+   ],
+   [
+    [
+     1183
+    ],
+    "Buradaki kapılar 579’da (1183-84) Emîr Karakuş tarafından yaptırılan Bâbülmüderrec, Burcülmatar’daki iki kapıyla Burcülimâm ve Bâbülkulle’dir."
+   ],
+   [
+    [
+     1207
+    ],
+    "el-Melikü’l-Âdil tarafından 604’te (1207-1208) güçlendirilmiştir."
+   ],
+   [
+    [
+     1240
+    ],
+    "Aynı amacı taşıyan bir başka Eyyûbî kalesi, emin bir saray külliyesi olan Kal‘atü’r-Ravza, el-Melikü’s-Sâlih Necmeddin Eyyûb tarafından 638’de (1240-41) Ravza adası üzerinde yaptırılmıştır."
+   ],
+   [
+    [
+     1267
+    ],
+    "665’te (1267) yapımına başlanmış ve iki yıl sonra tamamlanmıştır (bk."
+   ],
+   [
+    [
+     1173
+    ],
+    "Mısır’daki en erken döneme ait hankah, Eyyûbîler devrinde Müstansır-Billâh’ın âzatlı kölesi Saîd es-Suadâ’nın sarayında açılandır (569/1173-74)."
+   ],
+   [
+    [
+     1266
+    ],
+    "Baybars’ın yaklaşık 665-668’de (1266-1269) Şam’da yaptırdığı aynı isimli saraydan almış olup ana eyvanlı mekânın kemerlerini teşkil eden iki renkli ablak işçiliğinden bir yansımadır."
+   ],
+   [
+    [
+     1201
+    ],
+    "yüzyıla tarihli bir tekke eklenen el-Meşhedü’l-Cüyûşî, Hekimoğlu Ali Paşa tarafından 1170’te (1757) tamir ettirilen Seyyide Nefîse, 1201’de (1786-87) onarılan İmam Leys, şimdi es-Sâdâtü’l-Vefâiyye olarak bilinen Vefâiyye Dergâhı’nın ikametgâhı olan, Silâhdar Mehmed Paşa tarafından tamir ettirilen Sîdî Ukbe Türbesi ve 1225’te (1810) Müstahfızân Ağası Osman tarafından onarılan ve tesis kitâbesinin yetersiz bir Osmanlı kopyası bulunan Zeynelâbidîn Ziyaretgâhı dikkat çekmektedir."
+   ],
+   [
+    [
+     1141,
+     1148
+    ],
+    "Bunlardan kaledeki 535 (1141) tarihli Emîr Ebû Mansûr Kusta’nın camisi (Sîdî Sâriye) 935 (1528) tarihli Hadım Süleyman Paşa Camii’ne, 543 (1148) tarihli Zâfir b."
+   ]
+  ]
+ },
+ {
+  "ad": "İskenderiye",
+  "lat": 31.2,
+  "lon": 29.919,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "iskenderiye:200"
+  ],
+  "slug": "iskenderiye",
+  "tanik": [
+   [
+    [
+     1138
+    ],
+    "Velahşî tarafından İskenderiye’de kurulmuştur (532/1138)."
+   ],
+   [
+    [
+     1151
+    ],
+    "Sellâr 546 (1151) yılında Şâfiî mezhebinin öğretilmesi amacıyla kurmuştur."
+   ],
+   [
+    [
+     1084,
+     1122,
+     1123
+    ],
+    "Aziz Athanasios Kilisesi’nin kalıntıları üzerine inşa edilen ve 477’de (1084) Emîrü’l-cüyûş Bedr el-Cemâlî tarafından yenilendiği için Cüyûşî Camii diye de anılan Câmiu’l-attârîn, Endülüslü fakih İbn Ebû Rendeka et-Turtûşî’nin 516 (1122) yılında yaptırdığı Turtûşî Mescidi ve adını bânisi vali Mü’temen Sultânü’l-mülûk Ebû Türâb Haydere’den alan 517 (1123) tarihli Mü’temen Mescidi dönemin önemli camileri arasındadır."
+   ],
+   [
+    [
+     1174
+    ],
+    "İskenderiye, 569 (1174) yılında Sicilya’dan gelen Normanlar’ın saldırısına uğramışsa da saldırı kısa sürede püskürtülmüştür."
+   ],
+   [
+    [
+     1250
+    ],
+    "Saint Louis’nin Dimyat’a düzenlediği saldırı büyük bir fiyaskoyla sonuçlandıktan (648/1250) sonra Akdeniz adalarındaki Haçlı kalıntıları ile Avrupa’nın gözü İskenderiye üzerine çevrildi."
+   ],
+   [
+    [
+     1004,
+     1112
+    ],
+    "Mısır eyaletinin mukātaa ve gümrük gelirlerinin önemli bir kısmını oluşturan İskenderiye ve Reşîd gümrükleriyle bunlara bağlı mukātaaların gelirleri 1004’te (1595-96) 2.645.000, 1089’da (1678) 4.881.334, 1112’de (1700-1701) 4.991.527 ve 1217’de (1802) ise 5.405.705 para idi."
+   ]
+  ]
+ },
+ {
+  "ad": "Dimyat",
+  "lat": 31.418,
+  "lon": 31.814,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "dimyat:200"
+  ],
+  "slug": "dimyat",
+  "tanik": [
+   [
+    [
+     1155
+    ],
+    "550’de (1155) Sicilya’dan gelen Normanlar tarafından tahrip ve yağma edildi."
+   ],
+   [
+    [
+     1218
+    ],
+    "İkinci sefer 615-618 (1218-1221) yıllarında Kudüs Kralı Jean de Brienne tarafından I."
+   ],
+   [
+    [
+     1250
+    ],
+    "Mısır’da hâkimiyetin Bahriyye Memlükleri’ne geçtiği bu sırada Memlük ileri gelenleri, sürekli saldırılara hedef teşkil eden Dimyat’ın askerî üs olma özelliğini ortadan kaldırmak için 648’de (1250-51) şehri kalesi, duvarları ve tahkimatı ile birlikte tamamen yıktırdılar."
+   ],
+   [
+    [
+     1260
+    ],
+    "Baybars da (1260-1277) Nil’in Dimyat ağzına gemilerin geçemeyeceği şekilde engel koydurdu; daha önceki devirlerde Nil’in girişi zincirle kapatılmaktaydı."
+   ],
+   [
+    [
+     1197
+    ],
+    "Mısır arşivlerindeki Osmanlı irad ve gümrük defterlerinin verilerine göre Dimyat’ın Mısır hazinesine gelirleri 1108’de (1696) 49 kese 19.210 kuruş iken bu meblağ artarak 1197’de (1782-83) 62 kese 14.530 kuruşa ulaşmıştı."
+   ]
+  ]
+ },
+ {
+  "ad": "Asyut",
+  "lat": 27.181,
+  "lon": 31.183,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "asyut:200"
+  ],
+  "slug": "asyut",
+  "tanik": []
+ },
+ {
+  "ad": "Asvan",
+  "lat": 24.089,
+  "lon": 32.899,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "asvan:200"
+  ],
+  "slug": "asvan",
+  "tanik": [
+   [
+    [
+     1170
+    ],
+    "Daha sonra Eyyûbîler’in idaresine geçen şehir, Selâhaddîn-i Eyyûbî tarafından ağabeyi Turan Şah’a iktâ olarak verildi (1170)."
+   ],
+   [
+    [
+     1174
+    ],
+    "Asvan Valisi Kenzüddevle 1174’te isyan ettiyse de bu isyan Selâhaddin tarafından bastırıldı."
+   ]
+  ]
+ },
+ {
+  "ad": "İbrim",
+  "lat": 22.658,
+  "lon": 31.988,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "ibrim:302",
+   "ibrim--sehir:302",
+   "arama:ibrim:200"
+  ]
+ },
+ {
+  "ad": "Süveyş",
+  "lat": 29.974,
+  "lon": 32.548,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-02-15",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   }
+  ],
+  "denenen": [
+   "suveys:200"
+  ],
+  "slug": "suveys",
+  "tanik": []
+ },
+ {
+  "ad": "Reşîd (Rosetta)",
+  "lat": 31.399,
+  "lon": 30.417,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "resid:302",
+   "resid--sehir:302",
+   "rosetta:302",
+   "rosetta--sehir:302",
+   "arama:resid:200",
+   "arama:rosetta:200"
+  ]
+ },
+ {
+  "ad": "Demenhûr (Damanhur)",
+  "lat": 31.034,
+  "lon": 30.47,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "demenhur:302",
+   "demenhur--sehir:302",
+   "damanhur:302",
+   "damanhur--sehir:302",
+   "arama:demenhur:200",
+   "arama:damanhur:200"
+  ]
+ },
+ {
+  "ad": "Dessûk",
+  "lat": 31.135,
+  "lon": 30.647,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "dessuk:302",
+   "dessuk--sehir:302",
+   "arama:dessuk:200"
+  ]
+ },
+ {
+  "ad": "Kafrüşşeyh",
+  "lat": 31.112,
+  "lon": 30.94,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "kafrusseyh:302",
+   "kafrusseyh--sehir:302",
+   "arama:kafrusseyh:200"
+  ]
+ },
+ {
+  "ad": "Bürüllüs (Baltîm)",
+  "lat": 31.556,
+  "lon": 31.09,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "burullus:302",
+   "burullus--sehir:302",
+   "baltim:302",
+   "baltim--sehir:302",
+   "arama:burullus:200",
+   "arama:baltim:200"
+  ]
+ },
+ {
+  "ad": "Tanta",
+  "lat": 30.786,
+  "lon": 31.001,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "tanta:302",
+   "tanta--sehir:302",
+   "arama:tanta:200"
+  ]
+ },
+ {
+  "ad": "Mahalletülkübrâ",
+  "lat": 30.97,
+  "lon": 31.168,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "mahalletulkubra:302",
+   "mahalletulkubra--sehir:302",
+   "arama:mahalletulkubra:200"
+  ]
+ },
+ {
+  "ad": "Şibînülkûm (Menûfiye)",
+  "lat": 30.552,
+  "lon": 31.011,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "sibinulkum:302",
+   "sibinulkum--sehir:302",
+   "menufiye:302",
+   "menufiye--sehir:302",
+   "arama:sibinulkum:200",
+   "arama:menufiye:200"
+  ]
+ },
+ {
+  "ad": "Benhâ (Kalyûbiye)",
+  "lat": 30.466,
+  "lon": 31.184,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "benha:200"
+  ],
+  "slug": "benha",
+  "tanik": []
+ },
+ {
+  "ad": "Mansûre",
+  "lat": 31.038,
+  "lon": 31.38,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "mansure:302",
+   "mansure--sehir:302",
+   "arama:mansure:200"
+  ]
+ },
+ {
+  "ad": "Mît Gamr",
+  "lat": 30.718,
+  "lon": 31.259,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "mit-gamr:302",
+   "mit-gamr--sehir:302",
+   "arama:mit-gamr:200"
+  ]
+ },
+ {
+  "ad": "Menzile",
+  "lat": 31.157,
+  "lon": 31.937,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "menzile:302",
+   "menzile--sehir:302",
+   "arama:menzile:200"
+  ]
+ },
+ {
+  "ad": "Bilbîs (Şarkiye)",
+  "lat": 30.417,
+  "lon": 31.567,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "bilbis:302",
+   "bilbis--sehir:302",
+   "sarkiye:302",
+   "sarkiye--sehir:302",
+   "arama:bilbis:200",
+   "arama:sarkiye:200"
+  ]
+ },
+ {
+  "ad": "Fâkûs",
+  "lat": 30.729,
+  "lon": 31.797,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "fakus:302",
+   "fakus--sehir:302",
+   "arama:fakus:200"
+  ]
+ },
+ {
+  "ad": "Sâlihiyye",
+  "lat": 30.793,
+  "lon": 31.986,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "salihiyye:302",
+   "salihiyye--sehir:302",
+   "arama:salihiyye:200"
+  ]
+ },
+ {
+  "ad": "Ebûkîr",
+  "lat": 31.317,
+  "lon": 30.062,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "ebukir:200"
+  ],
+  "slug": "ebukir",
+  "tanik": []
+ },
+ {
+  "ad": "Katye",
+  "lat": 30.94,
+  "lon": 32.633,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "katye:302",
+   "katye--sehir:302",
+   "arama:katye:200"
+  ]
+ },
+ {
+  "ad": "El-Arîş",
+  "lat": 31.132,
+  "lon": 33.798,
+  "tur": "kale",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "el-aris:302",
+   "el-aris--sehir:302",
+   "arama:el-aris:200"
+  ]
+ },
+ {
+  "ad": "Mersâ Matruh",
+  "lat": 31.353,
+  "lon": 27.237,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "mersa-matruh:302",
+   "mersa-matruh--sehir:302",
+   "arama:mersa-matruh:200"
+  ]
+ },
+ {
+  "ad": "Sellûm",
+  "lat": 31.545,
+  "lon": 25.17,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "sellum:302",
+   "sellum--sehir:302",
+   "arama:sellum:200"
+  ]
+ },
+ {
+  "ad": "Atfîh",
+  "lat": 29.408,
+  "lon": 31.257,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "atfih:302",
+   "atfih--sehir:302",
+   "arama:atfih:200"
+  ]
+ },
+ {
+  "ad": "Benî Süveyf",
+  "lat": 29.074,
+  "lon": 31.098,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "beni-suveyf:302",
+   "beni-suveyf--sehir:302",
+   "arama:beni-suveyf:200"
+  ]
+ },
+ {
+  "ad": "Feyyûm",
+  "lat": 29.309,
+  "lon": 30.842,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "feyyum:200"
+  ],
+  "slug": "feyyum",
+  "tanik": [
+   [
+    [
+     1193
+    ],
+    "Bu döneme kadar iltizam usulüyle idare edilen toprakları 589’dan (1193) itibaren iktâ olarak büyük emîrlere verilmeye başlandı."
+   ],
+   [
+    [
+     1173
+    ],
+    "Eyyûbîler Şiîler’in merkezi olan bu bölgede Sünnîliği yaymak gayesiyle medreseler açtılar; Selâhaddîn-i Eyyûbî 1173’te burada el-Hankāhu’s-Sâlihiyye’yi yaptırdı."
+   ]
+  ]
+ },
+ {
+  "ad": "Behnesâ",
+  "lat": 28.535,
+  "lon": 30.65,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "behnesa:302",
+   "behnesa--sehir:302",
+   "arama:behnesa:200"
+  ]
+ },
+ {
+  "ad": "Minye",
+  "lat": 28.109,
+  "lon": 30.75,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "minye:302",
+   "minye--sehir:302",
+   "arama:minye:200"
+  ]
+ },
+ {
+  "ad": "Mellevî",
+  "lat": 27.732,
+  "lon": 30.841,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "mellevi:302",
+   "mellevi--sehir:302",
+   "arama:mellevi:200"
+  ]
+ },
+ {
+  "ad": "Deyrût",
+  "lat": 27.554,
+  "lon": 30.809,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "deyrut:302",
+   "deyrut--sehir:302",
+   "arama:deyrut:200"
+  ]
+ },
+ {
+  "ad": "Tahtâ",
+  "lat": 26.768,
+  "lon": 31.502,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "tahta:302",
+   "tahta--sehir:302",
+   "arama:tahta:200"
+  ]
+ },
+ {
+  "ad": "Ahmîm",
+  "lat": 26.564,
+  "lon": 31.745,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "ahmim:302",
+   "ahmim--sehir:302",
+   "arama:ahmim:200"
+  ]
+ },
+ {
+  "ad": "Cirge (Girga)",
+  "lat": 26.34,
+  "lon": 31.891,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "cirge:302",
+   "cirge--sehir:302",
+   "girga:302",
+   "girga--sehir:302",
+   "arama:cirge:200",
+   "arama:girga:200"
+  ]
+ },
+ {
+  "ad": "Ferşût",
+  "lat": 26.052,
+  "lon": 32.158,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "fersut:302",
+   "fersut--sehir:302",
+   "arama:fersut:200"
+  ]
+ },
+ {
+  "ad": "Kına",
+  "lat": 26.164,
+  "lon": 32.716,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "kina:200"
+  ],
+  "slug": "kina",
+  "tanik": []
+ },
+ {
+  "ad": "Kûs",
+  "lat": 25.915,
+  "lon": 32.76,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "kus:302",
+   "kus--sehir:302",
+   "arama:kus:200"
+  ]
+ },
+ {
+  "ad": "Uksur (Luksor)",
+  "lat": 25.687,
+  "lon": 32.64,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "uksur:302",
+   "uksur--sehir:302",
+   "luksor:302",
+   "luksor--sehir:302",
+   "arama:uksur:200",
+   "arama:luksor:200"
+  ]
+ },
+ {
+  "ad": "Esna",
+  "lat": 25.293,
+  "lon": 32.554,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "esna:302",
+   "esna--sehir:302",
+   "arama:esna:200"
+  ]
+ },
+ {
+  "ad": "Edfû",
+  "lat": 24.978,
+  "lon": 32.874,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "edfu:302",
+   "edfu--sehir:302",
+   "arama:edfu:200"
+  ]
+ },
+ {
+  "ad": "Kûm Ombo",
+  "lat": 24.476,
+  "lon": 32.943,
+  "tur": "sehir",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi"
+   }
+  ],
+  "denenen": [
+   "kum-ombo:302",
+   "kum-ombo--sehir:302",
+   "arama:kum-ombo:200"
+  ]
+ },
+ {
+  "ad": "Kusayr",
+  "lat": 26.104,
+  "lon": 34.283,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   }
+  ],
+  "denenen": [
+   "kusayr:302",
+   "kusayr--sehir:302",
+   "arama:kusayr:200"
+  ]
+ },
+ {
+  "ad": "Sefâce",
+  "lat": 26.733,
+  "lon": 33.933,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-04-13",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   }
+  ],
+  "denenen": [
+   "seface:302",
+   "seface--sehir:302",
+   "arama:seface:200"
+  ]
+ },
+ {
+  "ad": "Tûr (Sînâ)",
+  "lat": 28.241,
+  "lon": 33.623,
+  "tur": "liman",
+  "kur": null,
+  "dosya": "yerlesimler_afrika.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1517-02-15",
+    "d": "memluk"
+   },
+   {
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "d": "misir-sultanligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   },
+   {
+    "f": "1922-03-15",
+    "t": "1923-10-29",
+    "d": "misir-kralligi",
+    "kaynak": "TDV `misir` (gövde okundu): \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı\"; Sînâ yarımadası TDV'de Mısır'ın dört bölgesinden biri; TDV `suveys`: \"Mısır'ın diğer yerleri gibi kanal bölgesi de\". Sultanlık→Krallık 1922-03-15 = künye misir-kralligi f (unvan değişikliği, Kahire notu). NOKTA-ORTADOGU-0077 · YAMA A · M-5238"
+   }
+  ],
+  "denenen": [
+   "tur:302",
+   "tur--sehir:302",
+   "sina:200"
+  ],
+  "slug": "sina",
+  "tanik": []
+ }
+]

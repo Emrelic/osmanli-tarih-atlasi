@@ -1,0 +1,51 @@
+[
+ {"ad":"Antakya","sinif":"2","zincir":[
+   {"f":"1084-12-12","d":"selcuklu","slug":"antakya","parca":"12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi","not":"kale 12 Ocak 1085'te düştü; şehir günü alındı. Öncesi: 'Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı' — başlangıç günü yok, YAZILMADI"},
+   {"f":"1098-06-03","d":"antakya-prinkipsligi","slug":"antakya","parca":"Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de"},
+   {"f":"1268-05-18","d":"memluk","slug":"antakya","parca":"18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi"}]},
+ {"ad":"İskenderun","sinif":"2","zincir":[
+   {"f":"1098-06-03","d":"antakya-prinkipsligi","slug":"iskenderun","parca":"Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun","not":"Tankred zaptı 1097; prinkepslik künyesi 1098-06-03'te başladığından künye günü DEVRALINDI (1097-1098 Haçlı ordusu, künyesiz) — kaynaksız gün"},
+   {"f":"1268-01-01","d":"memluk","slug":"iskenderun","parca":"1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır","not":"kaynak YIL verir (Antakya'nın düşüşü 18 Mayıs 1268 — TDV antakya; gün komşudan devralınMADI, yıl bırakıldı)"}]},
+ {"ad":"Halep","sinif":"2","zincir":[
+   {"f":"1260-01-01","d":"ilhanli","slug":"halep","parca":"Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı","not":"Hülâgû = İlhanlı (künye 1256). 1014-1183 zengin zincir (Fâtımî · Mirdâsî · Ukaylî · Tutuş · Artuklu · Zengî · 11 Haziran 1183 Eyyûbî) VAR ama 1186 sonrası Halep Eyyûbî kolu (eyyubi-halep) geçişi tarihsiz — 1260 öncesi YAZILMADI"},
+   {"f":"1260-09-03","d":"memluk","slug":"halep","parca":"Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260)","not":"gün komşudan: TDV aynicalut-savasi '25 Ramazan 658 / 3 Eylül 1260' (savaşın günü = ALT SINIR; Halep'in teslimi savaştan SONRA) · şehir maddesi yalnız yıl verir"}]},
+ {"ad":"Ba'lebek (Baalbek)","sinif":"2","zincir":[
+   {"f":"1260-01-01","d":"ilhanli","slug":"balebek","parca":"1260’ta Moğollar’ın eline geçti","not":"Moğol = Hülâgû'nun Suriye seferi (İlhanlı). 1174 Selâhaddin · 1182-1230 Behram Şah · 1230 el-Eşref tanıklıkları Eyyûbî kol eşlemesi tarihsiz olduğundan YAZILMADI"},
+   {"f":"1260-09-03","d":"memluk","slug":"balebek","parca":"Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi","not":"gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR)"}]},
+ {"ad":"Rakka","sinif":"2","zincir":[
+   {"f":"1260-09-03","d":"memluk","slug":"rakka","parca":"Aynicâlût Savaşı’nın (658/1260) ardından Memlükler’in hâkimiyetine geçen Rakka","not":"gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR). 1234-35 Anadolu Selçuklu · 1257 Eyyûbî tanıklıkları künye kolu eşlemesi belirsiz, YAZILMADI"}]},
+ {"ad":"Kahire","sinif":"2","zincir":[
+   {"f":"1252-01-01","d":"memluk","slug":"kahire","parca":"Memlükler’in iktidara gelmesiyle (650/1252) Kahire daha da genişledi","not":"🔴 TDV kahire 650/1252 der, memluk künyesi 1250 başlar, eyyubi künyesi 1250-04-30'da BİTER ⇒ 1171 Eyyûbî fethi (567/1171) yazılsaydı 1250-1252 KÜNYE AŞIMI olurdu — Eyyûbî dönemi YAZILMADI, çelişki Z3'e"}]},
+ {"ad":"Dimyat","sinif":"2","zincir":[
+   {"f":"1250-01-01","d":"memluk","tur":"tanik","slug":"dimyat","parca":"Mısır’da hâkimiyetin Bahriyye Memlükleri’ne geçtiği bu sırada Memlük ileri gelenleri","not":"kaynak '648 (1250-51)'; Memlükler şehri yıktırdı — sahiplik TANIĞI"}]},
+ {"ad":"Bağdat","sinif":"2","zincir":[
+   {"f":"1258-02-10","d":"ilhanli","slug":"bagdat","parca":"10 Şubat 1258’de Moğollar Bağdat’a saldırdılar","not":"Abbâsî dönemi ('Kuruluşundan Abbâsî Devleti’nin yıkılışına (1258) kadar hilâfet merkezi') kuruluş günü bu maddede tarihli değil; ayrıca Büveyhî/Selçuklu sultanlığı (1055 Tuğrul) hilâfet merkezi ≠ sahip ayrımı gerektirir — YAZILMADI"}]},
+ {"ad":"Şehrizor","sinif":"2","zincir":[
+   {"f":"1233-01-01","d":"abbasi","slug":"sehrizor","parca":"Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor","not":"⚠️ 'Şehrizor' hem yöre hem nokta adı; 1185-86 cümlesi açıkça YÖRE dediği için alınmadı, bu cümle Şehrizor'u özne yapıyor. 1245 Moğol istilâsı sahiplik değil"},
+   {"f":"1258-01-01","d":"ilhanli","slug":"sehrizor","parca":"1258’de İlhanlılar’ın idaresine geçti"}]},
+ {"ad":"Tikrit","sinif":"2","zincir":[
+   {"f":"1257-01-01","d":"ilhanli","slug":"tikrit","parca":"655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular","not":"'işgal' sahiplik başlangıcı okundu (Hülâgû = İlhanlı); 1149-1190 Begteginli tanıklığı kopuk"}]},
+ {"ad":"Vâsıt","sinif":"2","zincir":[
+   {"f":"1258-01-01","d":"ilhanli","slug":"vasit","parca":"İlhanlılar Irak’ı zaptedince (656/1258) onların hâkimiyetine geçti"}]},
+
+ {"ad":"Trablusşam","sinif":"3k","neden":"12 Temmuz 1109 Haçlı kontluğu kuruldu. 🔴 Yan bulgu: atlas 1281'de MEMLÜK; devletler.js trablus-kontlugu künyesi 1289-04-26'ya dek sürer (Trablus 1289'da düştü)"},
+ {"ad":"Akkâ","sinif":"3k","neden":"1191 Haçlı teslim · 1229 sonrası Saint Jean karargâhı. 🔴 Yan bulgu: atlas 1281'de MEMLÜK; kudus-kralligi künyesi 1291-05-18 (Akkâ'nın düşüşü)"},
+ {"ad":"Sayda","sinif":"3k","neden":"1187 Selâhaddin · 1261 Templier'lere teslim · 1271 sahil kısmı onlarda. 🔴 Yan bulgu: atlas 1281'de MEMLÜK"},
+ {"ad":"Beyrut","sinif":"3k","neden":"1110 Kudüs Krallığı · 1187 Selâhaddin · on yıl sonra Haçlılar tekrar. 🔴 Yan bulgu: atlas 1281'de MEMLÜK, TDV 1197 sonrası Haçlı der"},
+ {"ad":"Hama","sinif":"3k","neden":"1110 · 1123 · 1135 Zengî · 1146 · 1174-75 Selâhaddin. 🔴 Yan bulgu: atlas 1281'de MEMLÜK; devletler.js eyyubi-hama künyesi 1342'ye dek sürer"},
+ {"ad":"Kudüs","sinif":"3k","neden":"1099 Haçlı · 1229 Friedrich · 1244 Hârizmliler · 1250-1260 'birkaç defa el değiştirdi' · 1256 Eyyûbî — Memlük'e geçiş tarihsiz"},
+ {"ad":"Gazze","sinif":"3k","neden":"1149 Baldwin · 1187 Selâhaddin — Memlük'e geçiş tarihsiz"},
+ {"ad":"Yafa","sinif":"3k","neden":"1191 Richard · 1197 Âdil · 1199 · 1204 sonra Frank — Memlük'e geçiş tarihsiz"},
+ {"ad":"Humus","sinif":"3k","neden":"zengin zincir 1090-1248 (Melikşah · Cenâhüddevle · Karaca · Zengî · Selâhaddin 1175 · 1248 Halep Eyyûbîsi) — Memlük'e geçiş tarihsiz"},
+ {"ad":"Hemedan","sinif":"3k","neden":"1194 Hârizmşah · 1221 Cebe Noyan tahribi — İlhanlı'ya geçiş tarihsiz"},
+ {"ad":"Kirmanşah","sinif":"3k","neden":"1045 İbrâhim Yinal Selçuklu topraklarına kattı — sonrası tarihsiz"},
+ {"ad":"Erbil","sinif":"3k","neden":"1132 Zengî · Begteginliler · 1232 Abbâsî (bölge) · '1258’de Hülâgû’nun eline geçmesinden SONRA' — yıl belirsiz"},
+ {"ad":"Nusaybin","sinif":"3k","neden":"1120 Artuklu · Zengî · Selâhaddin — tarihsiz ardıllık; atlas 1281 artuklu"},
+ {"ad":"Zencan","sinif":"3k","neden":"1211 Celâleddin Hasan · 1217 Tekiş · 1220 Moğol istilâsı — İlhanlı'ya geçiş tarihsiz"},
+ {"ad":"Asvan","sinif":"3k","neden":"1170 Eyyûbî iktâsı — Memlük'e geçiş tarihsiz"},
+ {"ad":"Kûfe","sinif":"3b","neden":"Mezyedîlere intikal tarihsiz · 1184 harabe tasviri"},
+ {"ad":"Nablus","sinif":"3b","neden":"1098 Fâtımî · 1137 Haçlı hâkimiyetinde iken saldırı — sonrası tarihsiz"},
+ {"ad":"İskenderiye","sinif":"3b","neden":"yapı ve saldırı cümleleri — sahiplik tarihlemiyor"},
+ {"ad":"Feyyûm","sinif":"3b","neden":"1193 iktâ uygulaması — sahiplik değil"},
+ {"ad":"Basra","sinif":"3b","neden":"ilk `s:` dönemi 1776, duvara başka alanın (d:/v:) 1281 dönemiyle girdi; tek cümle 1047 kültür cümlesi"}
+]

@@ -140,3 +140,36 @@ künyeye çözerek yapıldı (`atinadukaligi`→`atina-dukaligi` 1205).
   yalnız d/s/v/isg/m/kaynak/bos/neden/not iner). Birleşen dönemde mevcut `kaynak:` EZİLMEZ: yeni dayanak başına
   "f 1281-01-01'den geri çekildi — …" diye eklenir, eskisi "‖ önceki:" ile korunur.
 - Pre-1281 kırılma günleri uygulayıcının "gün-maddesiz" kovasına DÜŞMEDİ (6 temiz kayıt "uygulandi"da).
+
+## ② ORTADOĞU — ölçüm (Suriye 24 + Irak 60 + Mısır 47 = 131, TAMAMI okundu)
+| Kova | Sayı | Öngörü |
+|---|---|---|
+| TDV yer maddesi bulunan | 47 | — |
+| **① 1281 sonrası kuruluş** | **0** | ~2 ❌ |
+| **② sıkı zincir → diff** | **11** — Antakya · İskenderun · Halep · Ba'lebek · Rakka · Kahire · Dimyat · Bağdat · Şehrizor · Tikrit · Vâsıt | 12-20 ❌ (bir eksik) |
+| **③ kaynak yok** | **120** (84 madde yok · 16 madde var cümle yok · 15 zincir kopuk · 5 bölge/sahiplik demeyen) | |
+⇒ %8,4. Zincirlerin çoğu **1258-1260 düğümünde** başlıyor (Bağdat'ın düşüşü, Hülâgû'nun Suriye seferi, Aynicâlût):
+öncesindeki Eyyûbî/Zengî zincirleri zengin ama Eyyûbî **kol** künyeleri (eyyubi · eyyubi-halep · eyyubi-hama ·
+eyyubi-meyyafarikin) ile şehir arasındaki eşleme kaynakta tarihli değil.
+- **Aynicâlût günü (3 Eylül 1260)** Halep · Ba'lebek · Rakka'da Memlük başlangıcı olarak KOMŞU kuralıyla alındı
+  (TDV aynicalut-savasi kendi günü · şehir maddeleri yalnız yıl · aynı süreç) — ALT SINIR, "gün komşudan" yazılı.
+- **Kahire künye çelişkisi:** TDV kahire Memlük iktidarını 650/1252'ye koyar; `memluk` künyesi 1250, `eyyubi` 1250-04-30'da
+  biter ⇒ Eyyûbî dönemi yazılsa 1250-1252 aşımı doğardı; yazılmadı, Z3'e.
+
+### Ortadoğu yan bulguları — 🔴 D206 sınıfı, AĞIR (1281 SONRASI, dokunulmadı)
+Atlas 1281'de **MEMLÜK** boyuyor, oysa:
+- **Trablusşam** — TDV 1109 Haçlı kontluğu; `trablus-kontlugu` künyesi **1289-04-26**'ya dek sürer.
+- **Akkâ** — TDV 1191 Haçlı, 1229 sonrası Saint Jean karargâhı; `kudus-kralligi` künyesi **1291-05-18**.
+- **Sayda** — TDV 1261 Templier'lere teslim, 1271'de sahil onlarda.
+- **Beyrut** — TDV 1197 Haçlılar tekrar zaptetti.
+- **Hama** — `eyyubi-hama` künyesi **1342**'ye dek sürer.
+⇒ Künyeler VAR ama noktalara hiç yazılmamış: atlas 1281-1291 Haçlı Levant'ını ve Eyyûbî Hama'yı Memlük gösteriyor.
+Bu bir 1281 SONRASI düzeltmesidir (0085 gruplarının dilimi) — koordinatöre.
+
+## ① ÖNGÖRÜ — İRAN · MÂVERÂÜNNEHİR · KAFKAS (ölçümden ÖNCE, 2026-10-09)
+Duvar: İran 93 · Mâverâünnehir 33 · Kafkas (yeni kutu lat 38.5-44.5, lon 44.8-50.5) 12 = 138. 0930 var-aday İran 19, Mâverâünnehir 11.
+| Soru | Öngörü | Mekanizma |
+|---|---|---|
+| ② sıkı zincir | **8-15** | Moğol istilâsı (1220-1221) birçok şehirde tarihli bir halka verir; İlhanlı (1256) ile birleşme kolay. Ama Hârizmşah→Moğol→İlhanlı arası boşluk (1231-1256) mogol-imparatorlugu künyesine düşer (künye 1260'ta biter, boyasız) |
+| ① 1281 sonrası kuruluş | ~2 | Safevî/Kaçar dönemi şehirleri (ör. Tebriz değil; küçük kasabalar) |
+| boyasız künye kullanımı | `mogol-imparatorlugu` sık | |

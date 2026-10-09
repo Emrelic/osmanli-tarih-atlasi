@@ -59,7 +59,7 @@ def olc(Y):
     return duvar
 
 
-EK_KOVA = [("Balkan", 36.0, 48.5, 13.0, 29.9)]
+EK_KOVA = [("Balkan", 36.0, 48.5, 13.0, 29.9), ("Kafkas", 38.5, 44.5, 44.8, 50.5)]
 
 
 def kova_bul(y):

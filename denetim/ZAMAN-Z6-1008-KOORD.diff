@@ -1,9 +1,9 @@
 diff --git a/data/yer_yama_once1281_z6.js b/data/yer_yama_once1281_z6.js
 new file mode 100644
-index 00000000..2d35e5fb
+index 00000000..e53b162a
 --- /dev/null
 +++ b/data/yer_yama_once1281_z6.js
-@@ -0,0 +1,2541 @@
+@@ -0,0 +1,3126 @@
 +// -*- coding: utf-8 -*-
 +// YER_YAMA_ONCE1281_Z6 — yerleşimlerin 1000-1281 sahipliği (ZAMAN-Z6-YER-ONCE1281-1008, UMIT)
 +// window.YER_YAMA_ONCE1281_Z6 · ÖNERİ — koordinatör uygular. Rapor: denetim/ZAMAN-Z6-1008.md
@@ -2540,6 +2540,591 @@ index 00000000..2d35e5fb
 +     "tur": "edinim",
 +     "tdv": "istanbul",
 +     "alinti": "Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı."
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Antakya",
++  "s": [
++   {
++    "f": "1084-12-12",
++    "d": "selcuklu",
++    "kaynak": "TDV antakya: 'Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü.' · kale 12 Ocak 1085'te düştü; şehir günü alındı. Öncesi: 'Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı' — başlangıç günü yok, YAZILMADI · ZAMAN-Z6-1008",
++    "t": "1098-06-03",
++    "kesinlik": "gun"
++   },
++   {
++    "f": "1098-06-03",
++    "d": "antakya-prinkipsligi",
++    "kaynak": "TDV antakya: 'Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi, şehir halkı kılıçtan geçirildi.' · ZAMAN-Z6-1008",
++    "t": "1268-05-18",
++    "kesinlik": "gun"
++   },
++   {
++    "f": "1268-05-18",
++    "t": "1516-08-28",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV antakya: '18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi, şehir mücadele ile alındığı için yağmaya izin verildi, ayrıca vaktiyle Haçlılar’ın yaptığı gibi halkın çoğu kılıçtan geçirildi, bir kısmı esir alındı.' · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1918-10-26",
++    "t": "1920-07-24",
++    "d": "fransa-cumhuriyet"
++   },
++   {
++    "f": "1920-07-24",
++    "t": "1923-10-29",
++    "d": "suriye-lubnan-mandasi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1084-12-12",
++     "d": "selcuklu",
++     "tur": "edinim",
++     "tdv": "antakya",
++     "alinti": "Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü.",
++     "not": "kale 12 Ocak 1085'te düştü; şehir günü alındı. Öncesi: 'Şehir 1084 yılına kadar bir asırdan fazla Bizans hâkimiyetinde kaldı' — başlangıç günü yok, YAZILMADI"
++    },
++    {
++     "f": "1098-06-03",
++     "d": "antakya-prinkipsligi",
++     "tur": "edinim",
++     "tdv": "antakya",
++     "alinti": "Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi, şehir halkı kılıçtan geçirildi."
++    },
++    {
++     "f": "1268-05-18",
++     "d": "memluk",
++     "tur": "edinim",
++     "tdv": "antakya",
++     "alinti": "18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi, şehir mücadele ile alındığı için yağmaya izin verildi, ayrıca vaktiyle Haçlılar’ın yaptığı gibi halkın çoğu kılıçtan geçirildi, bir kısmı esir alındı."
++    }
++   ]
++  }
++ },
++ {
++  "ad": "İskenderun",
++  "s": [
++   {
++    "f": "1098-06-03",
++    "d": "antakya-prinkipsligi",
++    "kaynak": "TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · Tankred zaptı 1097; prinkepslik künyesi 1098-06-03'te başladığından künye günü DEVRALINDI (1097-1098 Haçlı ordusu, künyesiz) — kaynaksız gün · ZAMAN-Z6-1008",
++    "t": "1268-01-01",
++    "kesinlik": {
++     "f": "gun",
++     "t": "yil"
++    }
++   },
++   {
++    "f": "1268-01-01",
++    "t": "1516-08-24",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · kaynak YIL verir (Antakya'nın düşüşü 18 Mayıs 1268 — TDV antakya; gün komşudan devralınMADI, yıl bırakıldı) · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1918-10-30",
++    "t": "1920-07-24",
++    "d": "fransa-cumhuriyet"
++   },
++   {
++    "f": "1920-07-24",
++    "t": "1923-10-29",
++    "d": "suriye-lubnan-mandasi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1098-06-03",
++     "d": "antakya-prinkipsligi",
++     "tur": "edinim",
++     "tdv": "iskenderun",
++     "alinti": "Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.",
++     "not": "Tankred zaptı 1097; prinkepslik künyesi 1098-06-03'te başladığından künye günü DEVRALINDI (1097-1098 Haçlı ordusu, künyesiz) — kaynaksız gün"
++    },
++    {
++     "f": "1268-01-01",
++     "d": "memluk",
++     "tur": "edinim",
++     "tdv": "iskenderun",
++     "alinti": "Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.",
++     "not": "kaynak YIL verir (Antakya'nın düşüşü 18 Mayıs 1268 — TDV antakya; gün komşudan devralınMADI, yıl bırakıldı)"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Halep",
++  "s": [
++   {
++    "f": "1260-01-01",
++    "d": "ilhanli",
++    "kaynak": "TDV halep: 'Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı.' · Hülâgû = İlhanlı (künye 1256). 1014-1183 zengin zincir (Fâtımî · Mirdâsî · Ukaylî · Tutuş · Artuklu · Zengî · 11 Haziran 1183 Eyyûbî) VAR ama 1186 sonrası Halep Eyyûbî kolu (eyyubi-halep) geçişi tarihsiz — 1260 öncesi YAZILMADI · ZAMAN-Z6-1008",
++    "t": "1260-09-03",
++    "kesinlik": {
++     "f": "yil",
++     "t": "gun"
++    }
++   },
++   {
++    "f": "1260-09-03",
++    "t": "1516-08-28",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV halep: 'Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260).' · gün komşudan: TDV aynicalut-savasi '25 Ramazan 658 / 3 Eylül 1260' (savaşın günü = ALT SINIR; Halep'in teslimi savaştan SONRA) · şehir maddesi yalnız yıl verir · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1918-10-27",
++    "t": "1920-07-24",
++    "d": "fransa-cumhuriyet"
++   },
++   {
++    "f": "1920-07-24",
++    "t": "1923-10-29",
++    "d": "suriye-lubnan-mandasi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1260-01-01",
++     "d": "ilhanli",
++     "tur": "edinim",
++     "tdv": "halep",
++     "alinti": "Hülâgû 1260’ta şehri ele geçirerek yakıp yıktı.",
++     "not": "Hülâgû = İlhanlı (künye 1256). 1014-1183 zengin zincir (Fâtımî · Mirdâsî · Ukaylî · Tutuş · Artuklu · Zengî · 11 Haziran 1183 Eyyûbî) VAR ama 1186 sonrası Halep Eyyûbî kolu (eyyubi-halep) geçişi tarihsiz — 1260 öncesi YAZILMADI"
++    },
++    {
++     "f": "1260-09-03",
++     "d": "memluk",
++     "tur": "edinim",
++     "tdv": "halep",
++     "alinti": "Aynicâlût Savaşı’nda mağlûp olan Moğollar Halep’i Memlükler’e bıraktılar (1260).",
++     "not": "gün komşudan: TDV aynicalut-savasi '25 Ramazan 658 / 3 Eylül 1260' (savaşın günü = ALT SINIR; Halep'in teslimi savaştan SONRA) · şehir maddesi yalnız yıl verir"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Ba'lebek (Baalbek)",
++  "s": [
++   {
++    "f": "1260-01-01",
++    "d": "ilhanli",
++    "kaynak": "TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · Moğol = Hülâgû'nun Suriye seferi (İlhanlı). 1174 Selâhaddin · 1182-1230 Behram Şah · 1230 el-Eşref tanıklıkları Eyyûbî kol eşlemesi tarihsiz olduğundan YAZILMADI · ZAMAN-Z6-1008",
++    "t": "1260-09-03",
++    "kesinlik": {
++     "f": "yil",
++     "t": "gun"
++    }
++   },
++   {
++    "f": "1260-09-03",
++    "t": "1516-09-27",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR) · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1918-10-08",
++    "t": "1920-07-24",
++    "d": "fransa-cumhuriyet"
++   },
++   {
++    "f": "1920-07-24",
++    "t": "1923-10-29",
++    "d": "suriye-lubnan-mandasi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1260-01-01",
++     "d": "ilhanli",
++     "tur": "edinim",
++     "tdv": "balebek",
++     "alinti": "Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.",
++     "not": "Moğol = Hülâgû'nun Suriye seferi (İlhanlı). 1174 Selâhaddin · 1182-1230 Behram Şah · 1230 el-Eşref tanıklıkları Eyyûbî kol eşlemesi tarihsiz olduğundan YAZILMADI"
++    },
++    {
++     "f": "1260-09-03",
++     "d": "memluk",
++     "tur": "edinim",
++     "tdv": "balebek",
++     "alinti": "Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.",
++     "not": "gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR)"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Rakka",
++  "s": [
++   {
++    "f": "1260-09-03",
++    "t": "1516-08-28",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV rakka: 'Aynicâlût Savaşı’nın (658/1260) ardından Memlükler’in hâkimiyetine geçen Rakka, 773’te (1371) bu defa da Timur’un saldırısına uğradı ve âdeta yine halkının tamamını kaybetti; daha sonra şehirde bir süre Memlük-Akkoyunlu mücadelesi yaşandı.' · gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR). 1234-35 Anadolu Selçuklu · 1257 Eyyûbî tanıklıkları künye kolu eşlemesi belirsiz, YAZILMADI · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1918-10-26",
++    "t": "1920-07-24",
++    "d": "fransa-cumhuriyet"
++   },
++   {
++    "f": "1920-07-24",
++    "t": "1923-10-29",
++    "d": "suriye-lubnan-mandasi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1260-09-03",
++     "d": "memluk",
++     "tur": "edinim",
++     "tdv": "rakka",
++     "alinti": "Aynicâlût Savaşı’nın (658/1260) ardından Memlükler’in hâkimiyetine geçen Rakka, 773’te (1371) bu defa da Timur’un saldırısına uğradı ve âdeta yine halkının tamamını kaybetti; daha sonra şehirde bir süre Memlük-Akkoyunlu mücadelesi yaşandı.",
++     "not": "gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR). 1234-35 Anadolu Selçuklu · 1257 Eyyûbî tanıklıkları künye kolu eşlemesi belirsiz, YAZILMADI"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Kahire",
++  "s": [
++   {
++    "f": "1252-01-01",
++    "t": "1517-02-15",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV kahire: 'Memlükler’in iktidara gelmesiyle (650/1252) Kahire daha da genişledi ve yeni bir şekil kazandı.' · 🔴 TDV kahire 650/1252 der, memluk künyesi 1250 başlar, eyyubi künyesi 1250-04-30'da BİTER ⇒ 1171 Eyyûbî fethi (567/1171) yazılsaydı 1250-1252 KÜNYE AŞIMI olurdu — Eyyûbî dönemi YAZILMADI, çelişki Z3'e · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1914-12-18",
++    "t": "1922-03-15",
++    "d": "misir-sultanligi"
++   },
++   {
++    "f": "1922-03-15",
++    "t": "1923-10-29",
++    "d": "misir-kralligi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1252-01-01",
++     "d": "memluk",
++     "tur": "edinim",
++     "tdv": "kahire",
++     "alinti": "Memlükler’in iktidara gelmesiyle (650/1252) Kahire daha da genişledi ve yeni bir şekil kazandı.",
++     "not": "🔴 TDV kahire 650/1252 der, memluk künyesi 1250 başlar, eyyubi künyesi 1250-04-30'da BİTER ⇒ 1171 Eyyûbî fethi (567/1171) yazılsaydı 1250-1252 KÜNYE AŞIMI olurdu — Eyyûbî dönemi YAZILMADI, çelişki Z3'e"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Dimyat",
++  "s": [
++   {
++    "f": "1250-01-01",
++    "t": "1517-05-19",
++    "d": "memluk",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV dimyat: 'Mısır’da hâkimiyetin Bahriyye Memlükleri’ne geçtiği bu sırada Memlük ileri gelenleri, sürekli saldırılara hedef teşkil eden Dimyat’ın askerî üs olma özelliğini ortadan kaldırmak için 648’de (1250-51) şehri kalesi, duvarları ve tahkimatı ile birlikte tamamen yıktırdılar.' · kaynak '648 (1250-51)'; Memlükler şehri yıktırdı — sahiplik TANIĞI · TANIK (ediniş günü değil) · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1914-12-18",
++    "t": "1922-03-15",
++    "d": "misir-sultanligi"
++   },
++   {
++    "f": "1922-03-15",
++    "t": "1923-10-29",
++    "d": "misir-kralligi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1250-01-01",
++     "d": "memluk",
++     "tur": "tanik",
++     "tdv": "dimyat",
++     "alinti": "Mısır’da hâkimiyetin Bahriyye Memlükleri’ne geçtiği bu sırada Memlük ileri gelenleri, sürekli saldırılara hedef teşkil eden Dimyat’ın askerî üs olma özelliğini ortadan kaldırmak için 648’de (1250-51) şehri kalesi, duvarları ve tahkimatı ile birlikte tamamen yıktırdılar.",
++     "not": "kaynak '648 (1250-51)'; Memlükler şehri yıktırdı — sahiplik TANIĞI"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Bağdat",
++  "s": [
++   {
++    "f": "1258-02-10",
++    "t": "1335-12-01",
++    "d": "ilhanli",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV bagdat: 'İki yıl sonra 10 Şubat 1258’de Moğollar Bağdat’a saldırdılar; Halife Müsta‘sım kayıtsız şartsız teslim oldu ve halk kılıçtan geçirildi.' · Abbâsî dönemi ('Kuruluşundan Abbâsî Devleti’nin yıkılışına (1258) kadar hilâfet merkezi') kuruluş günü bu maddede tarihli değil; ayrıca Büveyhî/Selçuklu sultanlığı (1055 Tuğrul) hilâfet merkezi ≠ sahip ayrımı gerektirir — YAZILMADI · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1335-12-01",
++    "t": "1393-08-29",
++    "d": "celayirli"
++   },
++   {
++    "f": "1393-08-29",
++    "t": "1394-01-01",
++    "d": "timurlu",
++    "kaynak": "TDV timur: 'Bağdat’ı ele geçirdikten sonra (20 Şevval 795 / 29 Ağustos 1393)' — GÜN · eski 1393-01-01 yalnız YIL idi (TDV bagdat '795’te (1393)') ve 1393-08-29 maddesinden (olaylar_ek5.js) 8 ay önce Timurlu enklavı çiziyordu · bitiş 1394-01-01 kaynaksız, DEĞİŞMEDİ · UYGULA-YERLESIM-0930 (0042/H-0030 · H-0029)"
++   },
++   {
++    "f": "1394-01-01",
++    "t": "1401-01-01",
++    "d": "celayirli"
++   },
++   {
++    "f": "1401-01-01",
++    "t": "1405-01-01",
++    "d": "timurlu"
++   },
++   {
++    "f": "1405-01-01",
++    "t": "1411-01-01",
++    "d": "celayirli"
++   },
++   {
++    "f": "1411-01-01",
++    "t": "1469-01-01",
++    "d": "karakoyunlu"
++   },
++   {
++    "f": "1469-01-01",
++    "t": "1508-01-01",
++    "d": "akkoyunlu"
++   },
++   {
++    "f": "1508-01-01",
++    "t": "1534-12-04",
++    "d": "safevi"
++   },
++   {
++    "f": "1623-11-28",
++    "t": "1638-12-24",
++    "d": "safevi"
++   },
++   {
++    "f": "1917-03-11",
++    "t": "1921-08-23",
++    "d": "ingiltere"
++   },
++   {
++    "f": "1921-08-23",
++    "t": "1923-10-29",
++    "d": "irak-kralligi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1258-02-10",
++     "d": "ilhanli",
++     "tur": "edinim",
++     "tdv": "bagdat",
++     "alinti": "İki yıl sonra 10 Şubat 1258’de Moğollar Bağdat’a saldırdılar; Halife Müsta‘sım kayıtsız şartsız teslim oldu ve halk kılıçtan geçirildi.",
++     "not": "Abbâsî dönemi ('Kuruluşundan Abbâsî Devleti’nin yıkılışına (1258) kadar hilâfet merkezi') kuruluş günü bu maddede tarihli değil; ayrıca Büveyhî/Selçuklu sultanlığı (1055 Tuğrul) hilâfet merkezi ≠ sahip ayrımı gerektirir — YAZILMADI"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Şehrizor",
++  "s": [
++   {
++    "f": "1233-01-01",
++    "d": "abbasi",
++    "kaynak": "TDV sehrizor: 'Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti.' · ⚠️ 'Şehrizor' hem yöre hem nokta adı; 1185-86 cümlesi açıkça YÖRE dediği için alınmadı, bu cümle Şehrizor'u özne yapıyor. 1245 Moğol istilâsı sahiplik değil · ZAMAN-Z6-1008",
++    "t": "1258-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1258-01-01",
++    "t": "1340-01-01",
++    "d": "ilhanli",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV sehrizor: 'Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti.' · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1340-01-01",
++    "t": "1411-01-01",
++    "d": "celayirli"
++   },
++   {
++    "f": "1411-01-01",
++    "t": "1469-01-01",
++    "d": "karakoyunlu"
++   },
++   {
++    "f": "1469-01-01",
++    "t": "1508-01-01",
++    "d": "akkoyunlu"
++   },
++   {
++    "f": "1508-01-01",
++    "t": "1554-08-22",
++    "d": "safevi"
++   },
++   {
++    "f": "1623-11-28",
++    "t": "1630-03-16",
++    "d": "safevi"
++   },
++   {
++    "f": "1918-10-30",
++    "t": "1923-10-29",
++    "d": "ingiltere"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1233-01-01",
++     "d": "abbasi",
++     "tur": "edinim",
++     "tdv": "sehrizor",
++     "alinti": "Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti.",
++     "not": "⚠️ 'Şehrizor' hem yöre hem nokta adı; 1185-86 cümlesi açıkça YÖRE dediği için alınmadı, bu cümle Şehrizor'u özne yapıyor. 1245 Moğol istilâsı sahiplik değil"
++    },
++    {
++     "f": "1258-01-01",
++     "d": "ilhanli",
++     "tur": "edinim",
++     "tdv": "sehrizor",
++     "alinti": "Kökböri’nin ölümünün (630/1233) ardından yeniden Abbâsîler’in hâkimiyetine giren Şehrizor 643 (1245) yılında Moğol istilâsına uğradı ve 1258’de İlhanlılar’ın idaresine geçti."
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Tikrit",
++  "s": [
++   {
++    "f": "1257-01-01",
++    "t": "1340-01-01",
++    "d": "ilhanli",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV tikrit: 'Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular.' · 'işgal' sahiplik başlangıcı okundu (Hülâgû = İlhanlı); 1149-1190 Begteginli tanıklığı kopuk · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1340-01-01",
++    "t": "1411-01-01",
++    "d": "celayirli"
++   },
++   {
++    "f": "1411-01-01",
++    "t": "1469-01-01",
++    "d": "karakoyunlu"
++   },
++   {
++    "f": "1469-01-01",
++    "t": "1508-01-01",
++    "d": "akkoyunlu"
++   },
++   {
++    "f": "1508-01-01",
++    "t": "1534-12-04",
++    "d": "safevi"
++   },
++   {
++    "f": "1623-11-28",
++    "t": "1638-12-24",
++    "d": "safevi"
++   },
++   {
++    "f": "1917-03-11",
++    "t": "1921-08-23",
++    "d": "ingiltere"
++   },
++   {
++    "f": "1921-08-23",
++    "t": "1923-10-29",
++    "d": "irak-kralligi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1257-01-01",
++     "d": "ilhanli",
++     "tur": "edinim",
++     "tdv": "tikrit",
++     "alinti": "Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular.",
++     "not": "'işgal' sahiplik başlangıcı okundu (Hülâgû = İlhanlı); 1149-1190 Begteginli tanıklığı kopuk"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Vâsıt",
++  "s": [
++   {
++    "f": "1258-01-01",
++    "t": "1340-01-01",
++    "d": "ilhanli",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV vasit: 'İlhanlılar Irak’ı zaptedince (656/1258) onların hâkimiyetine geçti.' · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1340-01-01",
++    "t": "1411-01-01",
++    "d": "celayirli"
++   },
++   {
++    "f": "1411-01-01",
++    "t": "1469-01-01",
++    "d": "karakoyunlu"
++   },
++   {
++    "f": "1469-01-01",
++    "t": "1508-01-01",
++    "d": "akkoyunlu"
++   },
++   {
++    "f": "1508-01-01",
++    "t": "1534-12-04",
++    "d": "safevi"
++   },
++   {
++    "f": "1623-11-28",
++    "t": "1638-12-24",
++    "d": "safevi"
++   },
++   {
++    "f": "1917-03-11",
++    "t": "1921-08-23",
++    "d": "ingiltere"
++   },
++   {
++    "f": "1921-08-23",
++    "t": "1923-10-29",
++    "d": "irak-kralligi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1258-01-01",
++     "d": "ilhanli",
++     "tur": "edinim",
++     "tdv": "vasit",
++     "alinti": "İlhanlılar Irak’ı zaptedince (656/1258) onların hâkimiyetine geçti."
 +    }
 +   ]
 +  }
