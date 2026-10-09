@@ -188,16 +188,22 @@ def index_dosyalari(yol):
         bulunan.append(m.group(1))
 
     # paket_NN.js → içindeki kaynak adları
-    try:
-        import os as _os
-        import sys as _sys
-        _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
-        import paketle as _pkt
-        ici = [k[len("data/"):] for k in _pkt.kaynaklar() if k.startswith("data/")]
-        if ici:
-            bulunan = [b for b in bulunan if not b.startswith("paket_")] + ici
-    except Exception:                                       # noqa: BLE001
-        pass   # paketleme kurulu değilse eski düzen geçerlidir
+    # 🔴 HATA YUTULMAZ (DURUM-TABLOSU-YUTMA-1009). Burada `except: pass` vardı;
+    # `paketle` içe aktarımı düşünce paketler AÇILMADAN dönülüyor, tüketici
+    # (`durum_tablosu.katman_evreni`) evreni 0/22/0/0 sayıyor ve sessiz borç
+    # 11 → 51 görünüyordu. Ölçülemeyen evren 0 DEĞİLDİR: hata yukarı çıkar.
+    import os as _os
+    import sys as _sys
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    import paketle as _pkt
+    ici = [k[len("data/"):] for k in _pkt.kaynaklar() if k.startswith("data/")]
+    if ici:
+        bulunan = [b for b in bulunan if not b.startswith("paket_")] + ici
+    elif any(b.startswith("paket_") for b in bulunan):
+        # Eski düzen (paketsiz index.html) için boş liste meşrudur; ama index
+        # paket yüklüyorken içi boşsa paketler AÇILAMAMIŞTIR ⇒ ÖLÇÜLEMEDİ.
+        raise RuntimeError("index.html paket_*.js yüklüyor ama paketle.kaynaklar() "
+                           "boş — paket içeriği ÖLÇÜLEMEDİ (data/paket_kunye.json?)")
     return bulunan
 
 

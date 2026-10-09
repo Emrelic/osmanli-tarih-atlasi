@@ -54,7 +54,13 @@ import os
 import re
 import sys
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
+# 🔴 Yalnız `reconfigure`u olan akış yapılandırılır. Bu modülü içe aktaran
+# biri stdout'u `contextlib.redirect_stdout(io.StringIO())` ile yönlendirdiyse
+# `StringIO`da `reconfigure` YOKTUR ⇒ içe aktarım AttributeError ile düşüyor,
+# `_bagli_mi.index_dosyalari()` onu yutuyor ve katman evreni 13/184/2/1 yerine
+# 0/22/0/0 çıkıyordu (DURUM-TABLOSU-YUTMA-1009 ölçtü).
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX = os.path.join(KOK, "index.html")
