@@ -2702,7 +2702,8 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
+BEKLENEN_ASAN = 126   # 9 EKIM 2026: 127 -> 126 · ARTUKLU-IKI-PARCA-1008 (Harput/Çemişgezek/Palu 5 Eylül değerleri geri, a760c8b6 merge gerilemesi) — İYİLEŞME, §3.4-3
+# 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
 # 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
 #   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).
 #   Oncesinde `harita:` takma adi tasiyan 1052 donem "kunyesiz" kovasina
@@ -3381,6 +3382,12 @@ D7_ADA_MUAF = frozenset((
 #     Dondurma kalkana kadar bu dal "temiz" DEMEZ, "DONDU" der. Kampanya sonunda
 #     yeniden hesaplanmazsa bu gerçek bir borçtur ve `D004`e (ölçütü gevşetme)
 #     dönüşür. Kampanya sonu kalemi: `YAPILACAKLAR.md`.
+#   📌 9 EKİM 2026 — ARTUKLU-IKI-PARCA-1008 inince ölçüm 733 → 738 (+5). Taban 731'de DONUK KALIR
+#     (Emre'nin 25 Eylül dondurması bu dosyada; koordinatörün "738'e çıkar" hükmü dondurmayla
+#     çelişiyor, Emre'ye soruldu). Beş yeni ada ADIYLA (§3.4-5, liste):
+#       1353 Harput (Elazığ) → artuklu · 1353 Palu → artuklu  (ada "Harput+Palu" — Emre'nin H-0002'de gördüğü kopuk parça)
+#       1436 Harput (Elazığ) → dulkadir
+#       1462 Siirt → akkoyunlu · 1462 Hasankeyf → akkoyunlu  (ada "Diyarbakır+Hasankeyf+Siirt")
 KAMPANYA_DONDURMA = True   # BİTİR-1923-0078 sürüyor — kampanya bitince False
 BEKLENEN_ENKLAV_SORGU = 731  # 🧊 DONDU (yukarı bak). 727→731 (24 Eylül gecesi): `lehistan` anakronizmi düzeltilirken Gdansk·Elbing·Torun·Varşova 1569'da bölündü; dördü de A-koridor (537, ada "Elbing+Gdansk+Poznan+Torun", ana gövdeye 151-239 km) — Silezya'nın birebir aynısı, ara nokta yokluğu. Çare A-AVRUPA-0078'e verildi (Bydgoszcz·Płock·Włocławek·Kalisz). 🔴 BU TABAN BUGÜN DÖRDÜNCÜ KEZ YÜKSELDİ (667→672→673→727→731) ve artık bir DESEN: her veri eklemesi bu sayıyı oynatıyor, ben her seferinde gerekçe yazıp yükseltiyorum. Bu, kapının kendi tasarımının söylediği şey (değişim sezici, kalite kapısı değil) — AMA taban kampanya boyunca her teslimde değil, KAMPANYA SONUNDA bir kez yeniden hesaplanmalı. Emre'ye bildirildi. · 🔴 673→727 (24 Eylül 2026 akşamı): BİTİR-1923-0078'in A katmanı kolu indi — beş oturum, 358 yeni nokta (3.936→4.294), 87→92 girdi dosyası. Sınıf kırılımı ÖLÇÜLDÜ: A-koridor 495→533 (+38, örnekleme eseri) · B-bilinmiyor 172→184 (+12, kaynak susuyor) · C-hakiki 5→10 (+5). C-hakiki'nin YENİLERİ okundu: Tazmanya (Hobart+Launceston+Campbell Town+Oatlands, 822-864 km) GERÇEK BİR ADA ve `cografi-tecrit` muafiyeti onu YAKALAMAMIŞ — muafiyetin kusuru, verinin değil; Khami/Danangombe (Rozvi, Zimbabve) ingiltere gövdesinden uzak; kalanlar `__BOSLUK__` adası, yani KASITLI BEYAN (kusur değil). 📌 BU TABAN BUGÜN ÜÇÜNCÜ KEZ YÜKSELDİ (667→672→673→727) ve bu bir kusur DEĞİL, bu dalın TABİATI: Değişmez 7 bir kalite kapısı değil DEĞİŞİM SEZİCİDİR — nokta eklendikçe kaçınılmaz olarak artar, her artış gerekçesiyle kayda geçer. Kalıcı çare iki kalem: ① `cografi-tecrit` muafiyeti adaları neden kaçırıyor ② ara noktalar. · 667→673 (24 Eylül 2026, A katmanı: Silezya/Sudet 8 + orta Polonya/Bohemya 7 = 15 nokta). ÖNGÖRÜ YAZILDI, SINANDI, KISMEN ÇÜRÜDÜ: Silezya 8 noktası tabanı 667→672 yaptı; "aradaki noktalar inince DÜŞECEK" demiştim. Ara noktalar indi ve ADINI VERDİĞİM İKİ ADA GERÇEKTEN YOK OLDU — "Kattowitz+Krakov" ve "Broumov+Jeseník" artık listede geçmiyor, yeni 15 noktadan HİÇBİRİ bir adada görünmüyor (ölçüldü: --ayrinti | grep, 0 satır). Ama toplam 672→673 ÇIKTI: net +1, benim noktalarımı İÇERMEYEN bir yan etki, peteğin başka yerinde. Teşhis edilmedi ⇒ 'ölçülemedi' yazılıyor, sebep UYDURULMUYOR. Hedef hâlâ 667. · 666→667: Budin/Peşte 1527-29 Habsburg dönemi (TDV süleyman-i) Zapolya vasal adasını iki pencereye böldü, aynı ada iki kez sayılıyor (GEMINI-DOGRULA 19 Eyl) · 664→666: Diyarbakır TDV zinciri (1353 celâyirli · 1394 timurlu · 1401 akkoyunlu), KRONO-2S-3 19 Eyl — +2 A-koridor, kaynaklı düzeltme; komşu kayıtlar şehir düzeyinde kaynak bekliyor
 # 🟡 658 -> 664, 14 EYLUL 2026 gecesi — DALGA SINIF2 toparlamasi, koşu 11 oncesi.
