@@ -1,3 +1,30 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// 🔴🔴 KARANTINA — 9 Ekim 2026. BU DOSYA AKTIVE EDILMEZ. Olculdu, varsayilmadi.
+//
+// Bu yama BAYAT BIR TABANDAN (67e9ec9d) uretildi. O tabandan bu yana 1281-1923
+// diliminde duzeltmeler indi; yama onlari GERI ALIR.
+//   ARAC-ZAMAN-Z5-SINAV olcumu: 83 kayit sonraki duzeltmeleri geri yaziyor.
+//   Birebir ornek: Budin 1527-09-23..1529-09-08
+//        bu yamada  d:"avusturya"
+//        main'de     d:"macaristan-habsburg"   (BOSNA-MACAR-0087 · f6ff142d)
+//   Geri alinacak duzeltmelerin commit'leri: f6ff142d · 658a7552 · 23c08363 ·
+//   04971c2a · 0e45a9b9.
+//
+// 🔴 ASAGIDAKI "1281-1923 arasi donemler BIREBIR ayni (iki yonde sinandi)"
+//    CUMLESI YANLIS DEGIL, BAYAT: TABANINA gore dogruydu. Bir yamanin
+//    "degismedi" iddiasi HER ZAMAN tabanina gorelidir ve tabanlar bayatlar.
+//
+// 🔴 VE KAPI BUNU YAKALAMIYOR: arac/_sahiplik_uygula.py'nin kuru kosusu cikis 0
+//    verip "3975 iniyor, 7 atlaniyor" diyor ⇒ 76 duzeltme SESSIZCE geri alinirdi.
+//    Sebep: kapi "yama kaydin GECMISINDE var miydi" diye soruyor, "yama BUGUNKU
+//    halden eski bir tabandan mi uretildi" diye SORMUYOR. Bir yama yalniz HEDEF
+//    degeri soyluyorsa guvensizdir; KAYNAK degeri de soylemeli ve kapi onu
+//    bugunku degerle karsilastirmali (git apply'in uc-yollu sorusu).
+//
+// SIRA (koordinator hukmu): ① kapi eklenir (_sahiplik_uygula, UMIT) ② bu govde
+// bugunku main'e karsi YENIDEN URETILIR ③ ancak o zaman girdi listesine alinir.
+// Bugun GIRDI_DOSYALARI ve index.html bu dosyayi OKUMUYOR — tek koruma bu.
+// ═══════════════════════════════════════════════════════════════════════════
 // ZAMAN-Z5-1008 — yerleşim dönemlerinin 1923-10-29 → 1945-09-02 uzatılması (ÖNERİ)
 // Üretici: denetim/ARAC-ZAMAN-Z5-OLC-1008.py --yama · temel 67e9ec9d
 // Kova A: s: sahibi değişmiyor (ÇIKARIM — kayıt `not:` alanında BEYANLI, dönem kaynak:ına DOKUNULMADI) · B: kalıcı
