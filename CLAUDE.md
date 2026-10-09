@@ -268,6 +268,29 @@ py -c "import sys;sys.path.insert(0,'arac');import girdi;print(len(girdi.GIRDI_D
 ```
 Vaka: [`D219`](dersler/D219-dosya-haritasi-tam.md)
 
+🆕 🔴 **AYNI KURALIN ÇIKTI YÜZÜ — ÜRETİLMİŞ DOSYA DİSKTE OLABİLİR, YAYINDA OLMAYABİLİR**
+(10 Ekim 2026). Çıktı tarafında canlı olan, diskteki en büyük dosya değil
+**`index.html`in `<script src=>` satırıdır.** Ölçülen vaka: koordinatör
+`data/devletler_harita.js`i "yayındaki harita" diye iki kıtaya ve UMIT'e verdi.
+```
+data/devletler_harita.js    93.694.456 bayt, 4 Ekim   GIT'TE HİÇ YOK (takipsiz,
+                            origin/main'de de yok) — YEREL ÇÖZÜM, yayın DEĞİL
+                            UMIT'te aynı adda 180.999.059 baytlık BAŞKA kopya
+data/devlet_harita_ust.js    3.148.869 bayt  TAKİPLİ · index.html:1759 · YAYIN BU
+                            son dokunan: `14174ef7` KOŞU 21 (7 Ekim) ⇒ 93 MB'lık
+                            dosya yayındaki haritadan ÜÇ GÜN ESKİ
+```
+⇒ Kusur "dosya yok" değil: **dosya VARDI ve YANLIŞTI.** Varlığı doğruluk sanıldı.
+🔴 Üretilmiş haritayı ölçecek her iş, tabanını KENDİ ÇÖZER:
+```bash
+git worktree add <yol> origin/main --detach
+cd <yol> && py arac/kodla.py coz-c data data/devletler_harita.js
+```
+Ve ölçüm raporuna **taban commit + boyut + sha256** yazılır; yazılmayan parametre
+ölçümü tek kullanımlık yapar (ÖNCE/SONRA kıyaslanamaz).
+📌 Bu, `§7`in "ÜRETİLMİŞ — ELLE DÜZENLEME" uyarısının eksik yarısı: o satır
+üretilmiş dosyaya **yazmayı** yasaklıyordu, **okumayı** düzenlemiyordu.
+
 ## 6. Kapsam genişlemesinin sırası
 Dizin katmanı → yerleşim yoğunluğu → harita penceresi. **Nokta yoğunluğu sağlanmadan pencere
 açılmaz** (kenar petekleri dünyaya yayılır). [`D220`](dersler/D220-kapsam-genisleme-sirasi.md)
