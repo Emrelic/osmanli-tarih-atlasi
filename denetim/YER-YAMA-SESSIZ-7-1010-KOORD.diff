@@ -1,0 +1,141 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 627c4be9..3e388c61 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -1396,6 +1396,12 @@ BEYAN_EDILEN_BOSLUK = {
+     # ⇒ BORÇ: `_sahiplik_uygula.py`ye `bos:`/`neden:` alanları eklenecek.
+     #   O yapılana kadar beyan BURADA duruyor — beyanın yeri veri olmalıydı.
+     ("Timbuktu", "1430-01-01", "1468-01-01"),
++    # 🔴 Timbuktu 1893-1894 — VERİ-YOK, BİR YIL (YER-YAMA-SESSIZ-7-1010).
++    # TAM zincir (HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906) indiğinde doğar: `tekrur`
++    # künyesi 1893-01-01'de biter (TDV el-hac-omer «1893-1894 yıllarında»), TDV
++    # `tinbuktu` Fransız ilhakını «1894'te» der. Aradaki yıl için kaynak YOK;
++    # `tuareg-ivellemmedan` (1281-1899) kapsıyor ama TDV bunu SÖYLEMİYOR ⇒ uydurulmadı.
++    ("Timbuktu", "1893-01-01", "1894-01-01"),
+     # 🔴 Cizre 1508-1515 — YEREL EMİRLİK, ve künyesi YOK. Beyan, kaynağın
+     # kendi cümlesine dayanıyor; boşluk KAZA DEĞİL.
+     #
+diff --git a/data/yer_yama_1923_bosluk_0906.js b/data/yer_yama_1923_bosluk_0906.js
+index ddf7ea34..ef0f4458 100644
+--- a/data/yer_yama_1923_bosluk_0906.js
++++ b/data/yer_yama_1923_bosluk_0906.js
+@@ -12,7 +12,12 @@
+ // ---------------------------------------------------------------
+ window.YER_YAMA_1923_BOSLUK_0906 = [
+   { ad:"Honolulu", s:[{f:"1898-08-12",t:"1923-10-29",d:"abd"}], kaynak:"Atlasin KENDI capasi: `hawaii-kralligi` kunyesi zaten `t:\"1898-08-12\"` ile bitiyor (ABD ilhaki). Bu yama o gunu devralir — yeni bir tarih iddiasi URETMEZ, var olan kirilmanin OTEKI ucunu yazar. Kaydin son donemi `hawaii-kralligi -> 1898-08-12` idi ve ondan sonrasi SAHIPSIZDI.", not:"1923 boslugu kapatildi. `abd` kunyesi 1776-07-04 -> 1923-10-29, pencere TUTUYOR." },
+-  { ad:"Timbuktu", s:[{f:"1894-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], kaynak:"TDV `tinbuktu`: \"1894'te Fransiz isgal ordusu sehri Bati Afrika somurgesine ilhak etti.\" YIL hassasiyeti — TDV gun vermiyor, `§4` geregi 1894-01-01 yazildi.", not:"🔴 KISMI: bu yama YALNIZ 1894-1923 araligini kapatir. Kaydin son donemi `fas -> 1700-01-01` idi, yani 1700-1894 arasi HALA SAHIPSIZ ve bu yama onu KAPATMIYOR. TDV o araliga bir ipucu veriyor (\"1860’lı yıllarda üçüncü Tekrûr Devleti’nin kurucusu el-Hâc Ömer’in oğlu Ahmed el-Kebîr el-Medenî’nin (Ahmed Tâl) egemenliğine geçti\") ama ARASTIRILMADI. AYRI KALEM." },
++// 🔴 Timbuktu KAYDI HÜKÜMLE DÜŞTÜ — yama dosyası SİLİNMEDİ, kayıt yorum satırına alındı
++//    hüküm : denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md ① (parça yama YOK, TEK ve TAM zincir)
++//    kazanan: yer_yama_timbuktu_tam_0906.js   ·   veriye inişi: YER-YAMA-SESSIZ-7-1010
++//    (parça yama `s:`i BÜTÜN olarak değiştirdiği için kapsam koruması onu her koşuda
++//     'KAPSAM DARALDI' diye ÇIKIŞ 0 ile sessizce atlıyordu — ATLANAN-63-1010 §6c)
++//   { ad:"Timbuktu", s:[{f:"1894-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], kaynak:"TDV `tinbuktu`: \"1894'te Fransiz isgal ordusu sehri Bati Afrika somurgesine ilhak etti.\" YIL hassasiyeti — TDV gun vermiyor, `§4` geregi 1894-01-01 yazildi.", not:"🔴 KISMI: bu yama YALNIZ 1894-1923 araligini kapatir. Kaydin son donemi `fas -> 1700-01-01` idi, yani 1700-1894 arasi HALA SAHIPSIZ ve bu yama onu KAPATMIYOR. TDV o araliga bir ipucu veriyor (\"1860’lı yıllarda üçüncü Tekrûr Devleti’nin kurucusu el-Hâc Ömer’in oğlu Ahmed el-Kebîr el-Medenî’nin (Ahmed Tâl) egemenliğine geçti\") ama ARASTIRILMADI. AYRI KALEM." },
+   { ad:"Agadez", s:[{f:"1405-01-01",t:"1923-10-29",d:"agadez-sultanligi"}], kaynak:"bulunamadi — TDV'de `agadez` slug'i OLU (302) ve kapsayici bir madde ARANMADI. Tarih atlasin KENDI kunyesinden devralindi: `agadez-sultanligi` (\"Agadez (Air) Sultanligi — Tuareg\") f:1405-01-01 t:1923-10-29. Yani bu bir KAYNAK degil bir KONVANSIYON, ve oyle beyan ediliyor.", not:"🔴 TEK BLOK — 518 YIL, ve bu bir ZAYIFLIKTIR. Kayitta HIC donem yoktu; tek blok yazmak onu sahipli yapar ama ic zincirini (Songhay · Fransiz isgali ~1900-1904) IFADE ETMEZ. `CLAUDE.md` tek blok yazimini Harput vakasinda ELESTIRIYOR. Bu yama bilerek asgari: DELIK kapaniyor, ZINCIR arastirilmiyor. AYRI KALEM. ⚠️ Ayrica `tuareg-air` kunyesi 1900-01-01'de bitiyor — yani atlas Air'de 1900'de bir kirilma TANIYOR ama Agadez kaydi onu tasimiyor. Bu yama o kirilmayi da YAZMIYOR." },
+   { ad:"Hadramut", s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}], kaynak:"TDV `hadramut`: Ingilizler \"1888'de imzaladiklari himaye antlasmasiyla da sahilde hakim olan Yafiiler'in dis iliskilerini tamamen uzerlerine aldilar.\" Kimlik atlasin kendi kunyesinden: `kuayti-sultanligi` (\"Kuayti Sultanligi (Sihr-Mukella, Hadramut kiyisi)\") f:1881-01-01 t:1923-10-29.", not:"🔴 KIMLIK SECIMI BIR MODEL KARARI ICERIYOR: 1888 sonrasi Ingiliz HIMAYESI var, ama atlas Osmanli disi himayeyi ifade edemiyor (`v:` donemlerinin kimlik alani YOK — 423 donem olculdu). Burada YEREL kimlik secildi, cunku bu atlasin kendi konvansiyonuna uygun (emsal: `haydarabad-nizam` 1724->1923 prenslik olarak surer). Metropol kimligi (`ingiltere`) secilseydi model sorusu SESSIZCE cozulmus olurdu. ⚠️ 1881 ONCESI arastirilmadi; kayitta hic donem yoktu." }
+ ];
+diff --git a/data/yer_yama_belgesiz7.js b/data/yer_yama_belgesiz7.js
+index a4b8ca0f..d0bf5da4 100644
+--- a/data/yer_yama_belgesiz7.js
++++ b/data/yer_yama_belgesiz7.js
+@@ -13,10 +13,15 @@ window.YER_YAMA_BELGESIZ7 = [
+ 
+ // ── Timbuktu — 1430-1468 Tevârik (Tuareg) dönemi ──
+ // ZATEN ARAŞTIRILMIŞTI (CLAUDE.md §11, 2 Eylül vakası) — bu kez YAZILIYOR.
+-{ ad:"Timbuktu",
+-  bos:"kabile",
+-  neden:"1430-1468 arası: Mali İmparatorluğu'nun zayıflamasıyla bölge Tuareg (Tevârik) boy konfederasyonunun eline geçti, 1468'de Songhay tarafından fethedilene dek merkezi bir devlet YOKTU. Kaynak: TDV 'tinbuktu' — daha önce doğrulanmış (§11 kaydı).",
+-  kaynak:"tinbuktu" },
++// 🔴 Timbuktu KAYDI HÜKÜMLE DÜŞTÜ — yama dosyası SİLİNMEDİ, kayıt yorum satırına alındı
++//    hüküm : denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md ① (parça yama YOK, TEK ve TAM zincir)
++//    kazanan: yer_yama_timbuktu_tam_0906.js   ·   veriye inişi: YER-YAMA-SESSIZ-7-1010
++//    (parça yama `s:`i BÜTÜN olarak değiştirdiği için kapsam koruması onu her koşuda
++//     'KAPSAM DARALDI' diye ÇIKIŞ 0 ile sessizce atlıyordu — ATLANAN-63-1010 §6c)
++// { ad:"Timbuktu",
++//   bos:"kabile",
++//   neden:"1430-1468 arası: Mali İmparatorluğu'nun zayıflamasıyla bölge Tuareg (Tevârik) boy konfederasyonunun eline geçti, 1468'de Songhay tarafından fethedilene dek merkezi bir devlet YOKTU. Kaynak: TDV 'tinbuktu' — daha önce doğrulanmış (§11 kaydı).",
++//   kaynak:"tinbuktu" },
+ 
+ // ── Somali çölü — iç bölge, kıyı sultanlıklarından AYRI ──
+ // Mevcut `somali` künyesi (f:1500-t:1923) yalnız KIYI sultanlıklarını
+diff --git a/data/yer_yama_ok107.js b/data/yer_yama_ok107.js
+index b62ec0fc..dac64131 100644
+--- a/data/yer_yama_ok107.js
++++ b/data/yer_yama_ok107.js
+@@ -143,13 +143,18 @@ window.YER_YAMA_OK107 = [
+ // 🔴 UYARI: `_sahiplik_uygula.py` yalnız d·s·v·isg·m·kaynak yazıyor;
+ //   aşağıdaki `bos:`/`neden:` alanları İNMEZ. Onları dosya sahibinin elle
+ //   koyması gerekiyor — yoksa Timbuktu yine "beyansız delik" sayılır.
+-{ ad:"Timbuktu",
+-  s:[{f:"1281-01-01",t:"1430-01-01",d:"mali-imparatorlugu"},
+-     {f:"1468-01-01",t:"1591-04-13",d:"songhay-imparatorlugu"},
+-     {f:"1591-04-13",t:"1700-01-01",d:"fas"}],
+-  kaynak:"tinbuktu",
+-  bos:"veri-yok",
+-  neden:"kunye-yok — IKI ARALIK bilerek bos. (1) 1430-1468: TDV tinbuktu maddesi sehrin Tevarikler'in (Tuareg) elinde oldugunu ACIKCA soyluyor, yani kaynak KONUSUYOR; ama Tuareg icin devletler.js'te kunye YOK — Valata (Oualata) kaydindaki durumun AYNISI. (2) 1700 sonrasi: TDV 1750'de 'arma'lari, 1760'ta yine Tevarikler'i sayiyor; ikisinin de kunyesi yok. Fransiz isgal tarihi bu maddede GECMIYOR, uydurulmadi.",
+-  not:"H-0013 · Timbuktu'nun s/d/v alanlarinin UCU DE BOSTU. 700 km tavanli sahipsiz hucre Songhay govdesini ikiye boluyordu." }
++// 🔴 Timbuktu KAYDI HÜKÜMLE DÜŞTÜ — yama dosyası SİLİNMEDİ, kayıt yorum satırına alındı
++//    hüküm : denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md ① (parça yama YOK, TEK ve TAM zincir)
++//    kazanan: yer_yama_timbuktu_tam_0906.js   ·   veriye inişi: YER-YAMA-SESSIZ-7-1010
++//    (parça yama `s:`i BÜTÜN olarak değiştirdiği için kapsam koruması onu her koşuda
++//     'KAPSAM DARALDI' diye ÇIKIŞ 0 ile sessizce atlıyordu — ATLANAN-63-1010 §6c)
++// { ad:"Timbuktu",
++//   s:[{f:"1281-01-01",t:"1430-01-01",d:"mali-imparatorlugu"},
++//      {f:"1468-01-01",t:"1591-04-13",d:"songhay-imparatorlugu"},
++//      {f:"1591-04-13",t:"1700-01-01",d:"fas"}],
++//   kaynak:"tinbuktu",
++//   bos:"veri-yok",
++//   neden:"kunye-yok — IKI ARALIK bilerek bos. (1) 1430-1468: TDV tinbuktu maddesi sehrin Tevarikler'in (Tuareg) elinde oldugunu ACIKCA soyluyor, yani kaynak KONUSUYOR; ama Tuareg icin devletler.js'te kunye YOK — Valata (Oualata) kaydindaki durumun AYNISI. (2) 1700 sonrasi: TDV 1750'de 'arma'lari, 1760'ta yine Tevarikler'i sayiyor; ikisinin de kunyesi yok. Fransiz isgal tarihi bu maddede GECMIYOR, uydurulmadi.",
++//   not:"H-0013 · Timbuktu'nun s/d/v alanlarinin UCU DE BOSTU. 700 km tavanli sahipsiz hucre Songhay govdesini ikiye boluyordu." }
+ 
+ ];
+diff --git a/data/yer_yama_timbuktu.js b/data/yer_yama_timbuktu.js
+index 6674b23c..727920b0 100644
+--- a/data/yer_yama_timbuktu.js
++++ b/data/yer_yama_timbuktu.js
+@@ -47,17 +47,22 @@
+ //    Ad benziyor diye kullanmak yanlış gövdeyi boyardı.
+ 
+ window.YER_YAMA_TIMBUKTU = [
+-  { ad: "Timbuktu",
+-    s: [
+-      { f: "1760-01-01", t: "1770-01-01", d: "tuareg-ivellemmedan" },
+-      { f: "1770-01-01", t: "1792-01-01", d: "bambara" },
+-      { f: "1792-01-01", t: "1833-01-01", d: "tuareg-ivellemmedan" },
+-      { f: "1833-01-01", t: "1862-01-01", d: "massina" },
+-      { f: "1862-01-01", t: "1893-01-01", d: "tekrur" },
+-      { f: "1894-01-01", t: "1923-10-29", d: "fransa-cumhuriyet" }
+-    ],
+-    kaynak: "tinbuktu — TDV, gövde açıldı; alıntılar dosya başlığında AYNEN. 1770 TÜRETİLMİŞ («on yıl sonra», metinde o rakam geçmiyor). 1862-1893 dilimi DOĞRULANDI (TDV: «1860'lı yıllarda üçüncü Tekrûr Devleti'nin … Ahmed Tâl'in egemenliğine geçti»); dönem uçları kardeş künyelerden (massina 1862 · tekrur 1893). 1893-1894 arası BOŞ — gerekçe dosya sonunda."
+-  }
++// 🔴 Timbuktu KAYDI HÜKÜMLE DÜŞTÜ — yama dosyası SİLİNMEDİ, kayıt yorum satırına alındı
++//    hüküm : denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md ① (parça yama YOK, TEK ve TAM zincir)
++//    kazanan: yer_yama_timbuktu_tam_0906.js   ·   veriye inişi: YER-YAMA-SESSIZ-7-1010
++//    (parça yama `s:`i BÜTÜN olarak değiştirdiği için kapsam koruması onu her koşuda
++//     'KAPSAM DARALDI' diye ÇIKIŞ 0 ile sessizce atlıyordu — ATLANAN-63-1010 §6c)
++//   { ad: "Timbuktu",
++//     s: [
++//       { f: "1760-01-01", t: "1770-01-01", d: "tuareg-ivellemmedan" },
++//       { f: "1770-01-01", t: "1792-01-01", d: "bambara" },
++//       { f: "1792-01-01", t: "1833-01-01", d: "tuareg-ivellemmedan" },
++//       { f: "1833-01-01", t: "1862-01-01", d: "massina" },
++//       { f: "1862-01-01", t: "1893-01-01", d: "tekrur" },
++//       { f: "1894-01-01", t: "1923-10-29", d: "fransa-cumhuriyet" }
++//     ],
++//     kaynak: "tinbuktu — TDV, gövde açıldı; alıntılar dosya başlığında AYNEN. 1770 TÜRETİLMİŞ («on yıl sonra», metinde o rakam geçmiyor). 1862-1893 dilimi DOĞRULANDI (TDV: «1860'lı yıllarda üçüncü Tekrûr Devleti'nin … Ahmed Tâl'in egemenliğine geçti»); dönem uçları kardeş künyelerden (massina 1862 · tekrur 1893). 1893-1894 arası BOŞ — gerekçe dosya sonunda."
++//   }
+ ];
+ 
+ // ═══════════ 🔴 KAPANMAYAN: 1700-01-01 … 1760-01-01 (60 yıl) ═══════════
+diff --git a/data/yerlesimler.js b/data/yerlesimler.js
+index 413ab7b3..caa6ac61 100644
+--- a/data/yerlesimler.js
++++ b/data/yerlesimler.js
+@@ -1045,7 +1045,7 @@ window.YERLESIMLER = [
+ { ad:"Ndjamena",kur:"1900-01-01",kaynak:"bulunamadı — TDV kapsam dışı. Britannica/BlackPast 'N'Djamena' — Fransızlarca 1900'de, Rabih az-Zubayr'ı yendikleri savaş alanında Fort-Lamy adıyla kuruldu; öncesi küçük bir Kotoko yerleşimiydi (bağımsız bir devlet DEĞİL, bu yüzden 1900 öncesi için kur: ile sorgu KAPATILDI, boşluk beyanı gerekmiyor).",s:[{f:"1900-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:12.107, lon:15.045, g:0, k:3, d:[] },
+ { ad:"Agadez",not:"🔴 TEK BLOK — 518 YIL, ve bu bir ZAYIFLIKTIR. Kayitta HIC donem yoktu; tek blok yazmak onu sahipli yapar ama ic zincirini (Songhay · Fransiz isgali ~1900-1904) IFADE ETMEZ. `CLAUDE.md` tek blok yazimini Harput vakasinda ELESTIRIYOR. Bu yama bilerek asgari: DELIK kapaniyor, ZINCIR arastirilmiyor. AYRI KALEM. ⚠️ Ayrica `tuareg-air` kunyesi 1900-01-01'de bitiyor — yani atlas Air'de 1900'de bir kirilma TANIYOR ama Agadez kaydi onu tasimiyor. Bu yama o kirilmayi da YAZMIYOR.",kaynak:"bulunamadi — TDV'de `agadez` slug'i OLU (302) ve kapsayici bir madde ARANMADI. Tarih atlasin KENDI kunyesinden devralindi: `agadez-sultanligi` (\"Agadez (Air) Sultanligi — Tuareg\") f:1405-01-01 t:1923-10-29. Yani bu bir KAYNAK degil bir KONVANSIYON, ve oyle beyan ediliyor.",s:[{f:"1405-01-01",t:"1923-10-29",d:"agadez-sultanligi"}], tur:"sehir", lat:16.973, lon:7.991, g:0, k:3, d:[] },
+ { ad:"Tamanrasset", tur:"sehir", lat:22.785, lon:5.523, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Tamanrasset, Kel Ahaggar Tuareg konfederasyonunun (Amenokal liderliginde, yaklasik 1750den itibaren teskilatli) merkezi/buluşma yeriydi; oncesinde de gevsek Tuareg boylarinin bolgesiydi. Hicbir donemde devlet duzeyinde bir siyasi yapi olusmadi, Fransiz sömürge donemine (1902 Tit Muharebesi) kadar boy/konfederasyon esasli kaldi." },
+-{ ad:"Timbuktu",kaynak:"tinbuktu",s:[{f:"1281-01-01",t:"1430-01-01",d:"mali-imparatorlugu"},{f:"1468-01-01",t:"1591-04-13",d:"songhay-imparatorlugu"},{f:"1591-04-13",t:"1700-01-01",d:"fas"}], tur:"sehir", lat:16.775, lon:-3.009, g:0, k:1, d:[] },
++{ ad:"Timbuktu",kaynak:"tinbuktu — TDV gövdesi okundu (GET 200, 10 Ekim 2026 yeniden okundu). Zincirin 1750 (arma yönetimi ele geçirdi: «1163'te (1750) Tinbüktü'de yönetimi ele geçirdiler»), 1760 (Tevârikler zaptetti), 1770 («on yıl sonra Segu Bambaraları» — 1770 TÜRETİLMİŞ, metinde o rakam yok), 1792 (Tevârikler tekrar) ve 1894 (Fransız ilhakı) yılları BU MADDEDEN. `fas` bitişi 1700'den 1750'ye ÇEKİLDİ: eski gün yuvarlak ve kaynaksızdı; TDV paşalığı «Merakeş'in idaresindeki Bilâdüssûdan» diye anıyor ve arma'nın 1750'de yönetimi aldığını söylüyor (⇒ 1750'ye kadar paşalık düzeni — ÇIKARIM). 🟡 1833: TDV cümlesi «1833'te Ahmedü Lobbo … tarafından kurulan Mâsînâ Sultanlığı» — rakam dilbilgisel olarak KURULUŞU tarihliyor (massina künyesi 1818, Cambridge); Tinbüktü'nün Masina'ya geçişi diye okunması YORUMDUR (massina künyesinin kaynağı «halifelik … Tinbuktu'yu hâkimiyeti altına aldı» der, yıl vermez). 🟡 1862: TDV «1860'lı yıllarda» (on yıl); yıl massina künyesinin kaynağından (Cambridge History of Africa: 1862 Hamdullahi). 1893: tekrur künyesinin bitişi (TDV el-hac-omer «1893-1894 yıllarında»). Gün yok ⇒ YYYY-01-01. Hüküm: denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md · yama: yer_yama_timbuktu_tam_0906.js · uygulayan YER-YAMA-SESSIZ-7-1010",s:[{f:"1281-01-01",t:"1430-01-01",d:"mali-imparatorlugu"},{f:"1468-01-01",t:"1591-04-13",d:"songhay-imparatorlugu"},{f:"1591-04-13",t:"1750-01-01",d:"fas"},{f:"1750-01-01",t:"1760-01-01",d:"arma"},{f:"1760-01-01",t:"1770-01-01",d:"tuareg-ivellemmedan"},{f:"1770-01-01",t:"1792-01-01",d:"bambara"},{f:"1792-01-01",t:"1833-01-01",d:"tuareg-ivellemmedan"},{f:"1833-01-01",t:"1862-01-01",d:"massina"},{f:"1862-01-01",t:"1893-01-01",d:"tekrur"},{f:"1894-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], bos:"kabile", neden:"1430-1468 arası: Mali İmparatorluğu'nun zayıflamasıyla bölge Tuareg (Tevârik) boy konfederasyonunun eline geçti, 1468'de Songhay tarafından fethedilene dek merkezî bir devlet YOKTU. Kaynak: TDV `tinbuktu`. ⚠️ AYRICA 1893-01-01 → 1894-01-01 arası BİR YIL açıktır ve bu bir VERİ-YOK beyanıdır, kabile beyanı değil: `tekrur` künyesi 1893'te bitiyor, TDV Fransız ilhakını 1894 diyor, aradaki yıl için kaynak bulunamadı — uydurulmadı.", tur:"sehir", lat:16.775, lon:-3.009, g:0, k:1, d:[] },
+ // ---- BATI AVRUPA ----
+ { ad:"Londra", tur:"sehir", lat:51.507, lon:-0.128, g:0, k:1, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ingiltere"}] },
+ { ad:"Dublin",kaynak:"RTÉ Century Ireland (İrlanda ulusal yayıncısının Boston College ortaklı akademik tarih projesi): 'The constitution of the Irish Free State became law on 6 December 1922.' İkinci bağımsız teyit: 6 Aralık 1922'de George V'in bildirisiyle Serbest Devlet kuruldu ve Dublin başkenti oldu. TDV kapsam dışı — Batı Avrupa TDV kapsamı %0 (§4). 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on 6 December 1922') ve gövdesi ÇEKİLİP okundu, arama özetinden alınmadı.", tur:"sehir", lat:53.350, lon:-6.260, g:0, k:1,kd:[{f:"1922-12-06",t:"1923-10-29",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
