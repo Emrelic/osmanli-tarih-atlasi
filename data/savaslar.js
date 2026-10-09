@@ -709,6 +709,24 @@ window.SEFERLER = [
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
 { ad:"İstanbul seferi (1453)", tur:"sefer", sonuc:"zafer",      f:"1453-02-01", t:"1453-06-29",
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
+// DENIZ-OKU-0085 (paket 0085 H-0020, Emre: "osmanlı deniz seferini oklar ile gösterelim").
+// 14 Temmuz 1454 Kefe muhasarasının deniz kolu. SEFERLER'de 1454 kaydı YOKTU (taranan:
+// savaslar.js + seferler_*.js, "1454" ve "Kefe" — yalnız 1771 Dolgorukov ve 1914 Hamidiye).
+// Kara kolu (Hacı Giray'ın 7000 atlısı) ÇİZİLMEDİ: TDV hareket noktasını vermiyor ("şehri
+// karadan kuşattı"); Solhat'tan çıktığını yazmak çıkarım olurdu.
+// Akkirman tehdidi de ÇİZİLMEDİ: TDV "Aynı yaz" diyor, Kefe'den önce mi sonra mı belli
+// değil — sıra uydurulmaz.
+// `f` AY hassasiyetli: TDV yalnız "Haziran 1454'te … anlaşma yaptı" der; donanmanın
+// İstanbul'dan çıkış günü kaynakta YOK. `t` = muhasaranın başladığı gün (Kefe önünde
+// demirli donanma); kuşatmanın kalktığı gün kaynakta YOK.
+{ id:"d85-kefe-donanma-1454", ad:"Osmanlı donanmasının Kefe seferi (1454)", tur:"deniz", sonuc:"belirsiz", f:"1454-06-01", t:"1454-07-14",
+  kaynak:"mehmed-ii (TDV): \"İlkin 858 (1454) yazında bu denize donanmasını gönderdi. Karadeniz Ceneviz kolonilerinin merkezi olan Kefe, Kırım Hanı I. Hacı Giray'ın müttefik kuvvetleriyle birlikte sıkıştırıldı. Uzun görüşmelerden sonra Cenevizliler Osmanlı padişahına 3000 ve hana 1200 altın haraç vermeye razı oldular.\" · haci-giray-i (TDV): \"Haziran 1454'te Hacı Giray, Fâtih Sultan Mehmed ile Kefe'yi almak için bir anlaşma yaptı.\" · \"Elli altmış kadar kadırgadan oluşan Osmanlı donanması Kefe önlerinde demir atınca Hacı Giray 14 Temmuz 1454'te 7000 atlısıyla şehri karadan kuşattı.\"",
+  tarih_hassasiyet:"f: AY (Haziran 1454 — anlaşmanın ayı; donanmanın çıkış günü kaynakta yok) · t: GÜN (14 Temmuz 1454, kuşatmanın başlangıcı)",
+  kesinlik:"istasyonlar: İstanbul · Kefe; ara durak kaynakta YOK. `rota` türetilmiş çizim hattıdır: İstanbul Boğazı orta hattı (ne_10m_land'in iki kıyısının ortası) + ARAC-SEFER-OK-DENIZ-ROTA-0075.py ile açık deniz; iddia değildir",
+  // 🔴 `rota` — ne_10m_land'e karşı katı ölçü (liman muafiyetsiz): kara üstü 0,6 km
+  // (Kefe limanına yaklaşma). Düz yol 61,2 km karayı kesiyordu (Boğaz + Kırım kıyısı).
+  rota:[[28.98,41.008],[29.001,41.02],[29.001,41.032],[29.019,41.044],[29.04,41.056],[29.05,41.068],[29.057,41.08],[29.062,41.092],[29.066,41.104],[29.07,41.116],[29.079,41.128],[29.075,41.14],[29.06,41.152],[29.06,41.164],[29.08,41.176],[29.092,41.188],[29.104,41.2],[29.115,41.212],[29.129,41.224],[31.81,43.206],[35.365,44.932],[35.382,45.032]],
+  yol:[[28.98,41.008],[35.382,45.032]] },
 // Rumeli Sağ Kol'un tamamı: Filibe-Sofya-Niş-Morava vadisi-Belgrad.
 { ad:"Belgrad kuşatması (1440)", tur:"kusatma", sonuc:"yenilgi",    f:"1440-04-01", t:"1440-10-21",
   yol:[[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[21.33,43.58],[20.93,44.66],[20.46,44.82]] },
