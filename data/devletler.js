@@ -79,7 +79,7 @@ window.DEVLETLER = [
 // =========================== TIER 1 — BÜYÜK GÜÇLER ===========================
 
 { id:"bizans", ad:"Bizans (Doğu Roma) İmparatorluğu", tur:"imparatorluk", bolge:"balkanlar",
-  f:"330-05-11", t:"1461-08-15", baskent:"Konstantinopolis", harita:"bizans",
+  f:"0330-05-11", t:"1461-08-15", baskent:"Konstantinopolis", harita:"bizans",
   ozet:"Osmanlı'nın doğduğu coğrafyanın asıl sahibi; 1204 sonrası küçülerek 1453'e kadar Osmanlı'nın ana rakibi oldu.",
   kaynak:"bizans",
   kronoloji:[
@@ -354,7 +354,7 @@ window.DEVLETLER = [
 },
 
 { id:"venedik", ad:"Venedik Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
-  f:"697-01-01", t:"1797-05-12", baskent:"Venedik", harita:"venedik",
+  f:"0697-01-01", t:"1797-05-12", baskent:"Venedik", harita:"venedik",
   ozet:"Ege ve Doğu Akdeniz'de deniz imparatorluğu kuran ticaret cumhuriyeti; Osmanlı ile yedi büyük savaş yaptı, Napolyon tarafından ilga edildi.",
   kaynak:"venedik",
   kronoloji:[
@@ -697,7 +697,7 @@ window.DEVLETLER = [
 // Litvanya Büyük Dükalığı) — hangi noktanın hangisine ait olduğu (coğrafi
 // ayrım) KOORDİNATÖRÜN işi, bu oturum yalnız künyeleri hazırladı.
 { id:"polonya-erken", ad:"Polonya Krallığı (Birlik Öncesi)", tur:"krallik", bolge:"dogu-avrupa",
-  f:"966-01-01", t:"1569-07-01", ic_not_t:"t değişmedi.", ic_not_f:"966 'geleneksel' kuruluş yılıdır (snl); lex 'Mieszko 1.' Mieszko'yu 'hertug af Polen fra ca. 960' yazar; künyenin eski özeti 963 der — kaynaksız, düzeltilmeli. Gün bilinmiyor.", baskent:"Krakov",
+  f:"0966-01-01", t:"1569-07-01", ic_not_t:"t değişmedi.", ic_not_f:"966 'geleneksel' kuruluş yılıdır (snl); lex 'Mieszko 1.' Mieszko'yu 'hertug af Polen fra ca. 960' yazar; künyenin eski özeti 963 der — kaynaksız, düzeltilmeli. Gün bilinmiyor.", baskent:"Krakov",
   ozet:"IV. Ladislav Lokietek'in taç giymesiyle fetret döneminin sona erip krallığın yeniden birleştiği dönem; devletleşme kökleri X. yüzyıla (963) uzanır. Litvanya Büyük Dükalığı ile 1386'da kişisel birlik, 1569'da Lublin Birliği ile tam birleşme (bkz. [[litvanya-buyuk-dukalik]], [[lehistan]]). (kaynak: TDV, madde: polonya)",
   kaynak:"polonya",
   kronoloji:[
@@ -767,7 +767,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"papalik", ad:"Papalık Devleti", tur:"devlet", bolge:"italya",
-  f:"756-01-01", t:"1870-09-20", baskent:"Roma", harita:"papalik",
+  f:"0756-01-01", t:"1870-09-20", baskent:"Roma", harita:"papalik",
   ozet:"Katolik kilisesinin dünyevi devleti (kurumsal süreklilik, tek hanedan yok — art arda seçilen papalar); 756'da Pepin'in bağışıyla doğdu, Haçlı seferleri ve Kutsal İttifak'ların dinî-siyasi örgütleyicisiydi, 1870'te İtalyan birliğiyle Roma'nın ilhakıyla sona erdi.",
   kaynak:"papalik",
   kronoloji:[
@@ -780,7 +780,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"fransa", ad:"Fransa Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"987-01-01", t:"1792-09-22", baskent:"Paris", harita:"fransa",
+  f:"0987-01-01", t:"1792-09-22", baskent:"Paris", harita:"fransa",
   ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 21'den 22'ye çekildi — TDV `fransa` maddesi \"22 Eylül'de de cumhuriyet ilân edildi\" diyor, önceki 21 bir gün erkendi. Ardılı için bkz. [[fransa-cumhuriyet]].",
   kaynak:"fransa",
   kronoloji:[
@@ -812,7 +812,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"ingiltere", ad:"İngiltere / Büyük Britanya", tur:"krallik", bolge:"bati-avrupa",
-  f:"927-01-01", t:"1945-09-02", ic_not_f:"Kaynak yalnız yıl verir (927). Aynı madde taç giyme için 'Crowned king of the whole country at Kingston on Sept. 4, 925' der; krallığın 'bütün İngiltere' kapsamı York ilhakıyla (927) tamamlanır. Atlas kuşağı 1000'den başladığı için koordinatör f'yi 1000-01-01 pencere işaretine de çekebilir; 927 kaynaklı alt sınırdır.", ic_not_t:"t'ye dokunulmadı.", baskent:"Londra", harita:"ingiltere",
+  f:"0927-01-01", t:"1945-09-02", ic_not_f:"Kaynak yalnız yıl verir (927). Aynı madde taç giyme için 'Crowned king of the whole country at Kingston on Sept. 4, 925' der; krallığın 'bütün İngiltere' kapsamı York ilhakıyla (927) tamamlanır. Atlas kuşağı 1000'den başladığı için koordinatör f'yi 1000-01-01 pencere işaretine de çekebilir; 927 kaynaklı alt sınırdır.", ic_not_t:"t'ye dokunulmadı.", baskent:"Londra", harita:"ingiltere",
   ozet:"1581 Levant Company ile başlayan ticari ilişki, 19. yüzyılda Boğazlar ve Mısır siyasetinde belirleyici güce dönüştü. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"ingiltere",
   kronoloji:[
@@ -1108,11 +1108,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"sirvansah", ad:"Şirvanşahlar", tur:"devlet", bolge:"kafkasya",
-  f:"861-01-01", t:"1538-01-01", baskent:"Şamahı",
+  f:"0861-01-01", t:"1538-01-01", baskent:"Şamahı",
   ozet:"Doğu Kafkasya'da uzun ömürlü yerel hanedan (hanedan ömrü); Arap fethi sonrası valilerden teşekkül etti, Şah Tahmasb'ın 1538'de hâkimiyetine son vermesiyle Safevî vilayeti oldu.",
   kaynak:"sirvan",
   kronoloji:[
-    { t:"861-01-01", tur:"kurulus", b:"Yezîdî hanedanı tarafından Şamahı merkezli kuruldu" },
+    { t:"0861-01-01", tur:"kurulus", b:"Yezîdî hanedanı tarafından Şamahı merkezli kuruldu" },
     { t:"1027-01-01", tur:"hukumdar", b:"Kesrânî hanedanı Yezîdîlerin yerine geçti" },
     { t:"1382-01-01", tur:"antlasma", b:"I. İbrâhim, Timur'a bağlılığını bildirerek bağımsızlığını korudu" },
     { t:"1395-01-01", tur:"ittifak", b:"Timur'un Toktamış'a karşı Altın Orda seferine destek verdi" },
@@ -1196,7 +1196,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"yemen-zeydi", ad:"Yemen Zeydî İmamlığı", tur:"devlet", bolge:"arabistan",
-  f:"897-01-01", t:"1962-09-26", ic_not_t:"TDV yemen: 26 Eylül 1962 ihtilali Zeydî imamlığına son verdi (ajan WebFetch'i 'DOĞRULANDI' dedi)", baskent:"Sa'da → San'a", harita:"yemen",
+  f:"0897-01-01", t:"1962-09-26", ic_not_t:"TDV yemen: 26 Eylül 1962 ihtilali Zeydî imamlığına son verdi (ajan WebFetch'i 'DOĞRULANDI' dedi)", baskent:"Sa'da → San'a", harita:"yemen",
   ozet:"Osmanlı hâkimiyeti iki kesik dönemde yaşandı (1517-1636, 1849-1918); aradaki 200 yıl fiilen bağımsız imamlık. (26 Eylül 1962 ihtilaliyle sona erdi — TDV yemen.)",
   kaynak:"yemen",
   kronoloji:[
@@ -1483,7 +1483,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"almanya", ad:"Kutsal Roma / Almanya", tur:"imparatorluk", bolge:"orta-avrupa",
-  f:"962-02-02", t:"1945-06-05", ic_not_t:"AVALON wwii/ger01 (Berlin Deklarasyonu): Müttefikler 'hereby assume supreme authority with respect to Germany' — 'BERLIN, GERMANY, June 5, 1945' · koşulsuz teslimin yürürlüğü 8 Mayıs 1945 (AVALON wwii/gs11). 'Nazi Almanyası' AYRI KÜNYE AÇILMADI: aynı polity (Reich) — §3.5 ② sınıfı, kronolojiyle işaretlendi", baskent:"— (seçimli) → Berlin", harita:"almanya",
+  f:"0962-02-02", t:"1945-06-05", ic_not_t:"AVALON wwii/ger01 (Berlin Deklarasyonu): Müttefikler 'hereby assume supreme authority with respect to Germany' — 'BERLIN, GERMANY, June 5, 1945' · koşulsuz teslimin yürürlüğü 8 Mayıs 1945 (AVALON wwii/gs11). 'Nazi Almanyası' AYRI KÜNYE AÇILMADI: aynı polity (Reich) — §3.5 ② sınıfı, kronolojiyle işaretlendi", baskent:"— (seçimli) → Berlin", harita:"almanya",
   ozet:"Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu; I. Dünya Savaşı'nda Osmanlı'nın müttefiki. (8 Mayıs 1945 koşulsuz teslim; 5 Haziran 1945'te Müttefikler yüce otoriteyi üstlendi — ardılı [[almanya-muttefik-isgali]]. 1933-1945 Nasyonal Sosyalist rejim bu künyenin içindedir.)",
   kaynak:"almanya",
   kronoloji:[
@@ -1515,7 +1515,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"danimarka", ad:"Danimarka Krallığı (1814'e kadar Danimarka-Norveç)", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"950-01-01", t:"1945-09-02", ic_not_f:"Kaynak 'ca. 950' (yaklaşık) der; lex aynı maddede Roskildekrøniken'e göre Harald'ın 940'larda babasıyla ortak kral olabileceğini de yazar. snl 'Harald Blåtann' da 'fra rundt 950'. ÇELİŞKİ/NOT: TDV 'danimarka' 'VI. yüzyılda … Danlar Zealand adasında ilk Danimarka devletini kurdular' der ve künyenin mevcut özeti buna dayanır; TDV burada birincil değildir (İslâm dünyası/Osmanlı komşusu değil) ve VI. yüzyıl yapısı birleşik krallıkla aynı polity sayılamaz — f 'bütün Danimarka' kralından verildi.", ic_not_t:"t değişmedi.", baskent:"Kopenhag", harita:"danimarka",
+  f:"0950-01-01", t:"1945-09-02", ic_not_f:"Kaynak 'ca. 950' (yaklaşık) der; lex aynı maddede Roskildekrøniken'e göre Harald'ın 940'larda babasıyla ortak kral olabileceğini de yazar. snl 'Harald Blåtann' da 'fra rundt 950'. ÇELİŞKİ/NOT: TDV 'danimarka' 'VI. yüzyılda … Danlar Zealand adasında ilk Danimarka devletini kurdular' der ve künyenin mevcut özeti buna dayanır; TDV burada birincil değildir (İslâm dünyası/Osmanlı komşusu değil) ve VI. yüzyıl yapısı birleşik krallıkla aynı polity sayılamaz — f 'bütün Danimarka' kralından verildi.", ic_not_t:"t değişmedi.", baskent:"Kopenhag", harita:"danimarka",
   ozet:"Krallık VI. yüzyıla uzanır (TDV); 1380 Norveç ile kişisel birliğin başlangıcıdır, devletin kendi kuruluşu değil (bkz. [[norvec-kralligi]]). Kiel Antlaşması'yla Norveç'i kaybettikten sonra da Danimarka tek başına sürdü. Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı. Bkz. [[norvec]] (1814-1905 arası İsveç'le birlik, sonra bağımsız). ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `f:` 1380'den 1281'e çekildi — TDV `danimarka` maddesi sürekliliği VI. yüzyıla dayandırıyor, 1281-1380 arasında bir kopuş yok; 1380 yalnız Norveç birliğinin başlangıcıydı, devletin kendi kuruluşu değildi. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"danimarka",
   kronoloji:[
@@ -2007,7 +2007,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"dubrovnik", ad:"Dubrovnik (Ragusa) Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar",
-  f:"700-01-01", t:"1808-01-31", baskent:"Dubrovnik", boya_gerekli:true,
+  f:"0700-01-01", t:"1808-01-31", baskent:"Dubrovnik", boya_gerekli:true,
   ozet:"Adriyatik kıyısında ticaretle zenginleşen özerk şehir cumhuriyeti; 1365'ten itibaren Osmanlı'ya haraç ödeyerek korumasını kazandı, Napolyon tarafından ilga edildi. (kaynak: TDV, madde: dubrovnik)",
   kaynak:"dubrovnik",
   kronoloji:[
@@ -2378,12 +2378,12 @@ window.DEVLETLER = [
   ]
 },
 { id:"nube", ad:"Nûbe Krallıkları (Makurya-Alve)", tur:"krallik", bolge:"misir-sudan",
-  f:"543-01-01", t:"1504-01-01", baskent:"Dongola (Makurya) / Soba (Alve)", harita:"nube",
+  f:"0543-01-01", t:"1504-01-01", baskent:"Dongola (Makurya) / Soba (Alve)", harita:"nube",
   ozet:"Nil vadisinde Hristiyan Nûbe krallıkları Makurya (Dongola merkezli) ve güneyindeki Alve (Soba merkezli); 651'de Araplarla imzalanan Bakt Antlaşması'yla asırlarca barış içinde yaşadılar, Memlük baskınları ve Arap göçleriyle önce Makurya sonra Alve yıkıldı. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"543-01-01", tur:"kurulus", b:"Makurya Krallığı Hristiyanlığı kabul etti (Dongola merkezli)" },
-    { t:"651-01-01", tur:"antlasma", b:"Araplarla Bakt Antlaşması imzalandı, uzun bir barış dönemi başladı" },
+    { t:"0543-01-01", tur:"kurulus", b:"Makurya Krallığı Hristiyanlığı kabul etti (Dongola merkezli)" },
+    { t:"0651-01-01", tur:"antlasma", b:"Araplarla Bakt Antlaşması imzalandı, uzun bir barış dönemi başladı" },
     { t:"1276-01-01", tur:"isgal", b:"Memlük Sultanı Baybars'ın seferleriyle Dongola art arda yağmalandı" },
     { t:"1365-01-01", tur:"bolunme", b:"Dongola tahliye edildi, Makurya güneye çekilip küçük bir krallığa (Dotawo) dönüştü" },
     { t:"1504-01-01", tur:"son", b:"Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi", ic_not_b:"eski b: Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi (bkz. [[funj]])" }
@@ -4170,7 +4170,7 @@ window.DEVLETLER = [
 // kullanılıyordu. Koordinatörün kararı: TEK künye, `danimarka`ya BAĞLANMADI.
 // TDV'de `norvec` maddesi YOK (302); §4 gereği standart akademik kaynak.
 { id:"norvec-kralligi", ad:"Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"872-01-01", t:"1537-01-01", ic_not_t:"t değişmedi.", ic_not_f:"872 GELENEKSEL yıldır; snl: 'Slaget i Hafrsfjord, foreslått til å ha stått i år 872' ve 'rikssamlingen var en langvarig prosess, som varte minst til og med Olav den helliges kongedømme'. 1000-1015 ve 1028-1035 Danimarka üst egemenliği (Svolder, Knut) — polity sürer, bu dönemler madde olarak işlendi.", baskent:"Bergen → Oslo",
+  f:"0872-01-01", t:"1537-01-01", ic_not_t:"t değişmedi.", ic_not_f:"872 GELENEKSEL yıldır; snl: 'Slaget i Hafrsfjord, foreslått til å ha stått i år 872' ve 'rikssamlingen var en langvarig prosess, som varte minst til og med Olav den helliges kongedømme'. 1000-1015 ve 1028-1035 Danimarka üst egemenliği (Svolder, Knut) — polity sürer, bu dönemler madde olarak işlendi.", baskent:"Bergen → Oslo",
   ozet:"Bağımsız ortaçağ Norveç Krallığı; 1319'da İsveç ile, 1380'de Danimarka ile kişisel birliğe girdi, 1397'de Kalmar Birliği'nin parçası oldu; 1523'te İsveç birlikten ayrılınca Danimarka ile kaldı, 1536-37 Reform hareketiyle Norveç Krallık Meclisi kaldırılıp fiilen Danimarka eyaletine dönüştü (bkz. [[danimarka]] — AYRI künye, birleştirilmedi). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; TDV'de `norvec` maddesi YOK (302), tarihler standart akademik kaynağa göredir (§4).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -4533,11 +4533,11 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"song", ad:"Song Hanedanı (Çin)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"960-01-01", t:"1279-03-19", baskent:"Bianjing (Kaifeng) → Lin'an (Hangzhou)", boya_gerekli:true,
+  f:"0960-01-01", t:"1279-03-19", baskent:"Bianjing (Kaifeng) → Lin'an (Hangzhou)", boya_gerekli:true,
   ozet:"Çin'i beş hanedan kargaşasından sonra yeniden birleştiren, matbaa ve barutun geliştiği hanedan; kuzeyi Jin'e kaptırıp güneye çekildi (Güney Song), sonunda Moğollara yenildi.",
   kaynak:"cin--ulke",
   kronoloji:[
-    { t:"960-01-01", tur:"kurulus", b:"General Zhao Kuangyin (Taizu), Çin'i yeniden birleştirdi" },
+    { t:"0960-01-01", tur:"kurulus", b:"General Zhao Kuangyin (Taizu), Çin'i yeniden birleştirdi" },
     { t:"1127-01-01", tur:"toprak-kayip", b:"Jin (Jurchen) istilasıyla kuzey Çin kaybedildi, saray Hangzhou'ya çekildi (Güney Song)" },
     { t:"1234-01-01", tur:"ittifak", b:"Moğollarla ittifak kurup Jin'i ortadan kaldırdı" },
     { t:"1279-03-19", tur:"son", b:"Yamen deniz savaşında Moğollara yenilip son çocuk imparator boğuldu" }
@@ -4599,11 +4599,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"goryeo", ad:"Goryeo Hanedanı (Kore)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"918-01-01", t:"1392-07-17", baskent:"Kaesong", harita:"goryeo",
+  f:"0918-01-01", t:"1392-07-17", baskent:"Kaesong", harita:"goryeo",
   ozet:"Kore'yi yeniden birleştiren, adından \"Korea\" adının türediği hanedan; Moğol istilası sonrası vasallık dönemi yaşadı, General Yi Seong-gye'nin darbesiyle sona erdi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"918-01-01", tur:"kurulus", b:"Wang Geon, Goryeo hanedanını kurdu" },
+    { t:"0918-01-01", tur:"kurulus", b:"Wang Geon, Goryeo hanedanını kurdu" },
     { t:"1231-01-01", tur:"isgal", b:"Moğol istilaları başladı, uzun direnişin ardından vasallık kabul edildi (1270)" },
     { t:"1392-07-17", tur:"son", b:"General Yi Seong-gye darbeyle tahtı ele geçirip Joseon'u kurdu" }
   ]
@@ -4845,11 +4845,11 @@ window.DEVLETLER = [
 // aralığının başına (1405) bağlandı, hangi tarafta düzeltme yapılırsa
 // yapılsın zincir en az bir uçtan tutarlı kalsın diye.
 { id:"poni", ad:"Po-ni (Poni) Krallığı", tur:"krallik", bolge:"guneydogu-asya",
-  f:"977-01-01", t:"1405-01-01", baskent:"— (Brunei bölgesi, kesin merkez standart kaynakta belirtilmemiş)",
+  f:"0977-01-01", t:"1405-01-01", baskent:"— (Brunei bölgesi, kesin merkez standart kaynakta belirtilmemiş)",
   ozet:"Çin Song hanedanına haraç heyetleri göndermesiyle kayıtlara geçen erken Borneo krallığı; İslâmlaşıp Brunei Sultanlığı'na dönüştü (bkz. [[brunei-sultanligi]]). TDV `bruney` maddesi Po-ni'den hiç bahsetmiyor; tarihler standart akademik (Çin tarihî kayıtları) kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"977-01-01", tur:"kurulus", b:"Çin Song hanedanına ilk haraç/elçilik heyeti gönderildi, \"Po-ni\" adıyla kayda geçti" },
+    { t:"0977-01-01", tur:"kurulus", b:"Çin Song hanedanına ilk haraç/elçilik heyeti gönderildi, \"Po-ni\" adıyla kayda geçti" },
     { t:"1405-01-01", tur:"son", b:"İslâmlaşma ve Brunei Sultanlığı'nın kuruluşuyla (1405-1415) örtüşür", ic_not_b:"eski b: İslâmlaşma ve Brunei Sultanlığı'nın kuruluşuyla (TDV: 1405-1415) örtüşür", kaynak:"TDV: bruney — «Bruney’in siyasî tarihi, İslâmiyet’i kabul ettikten sonra Muhammed Şah (1405-1415) adını alan yerli lider Alang (Awang) Betatar’ın bir sultanlık kurmasıyla başlar»" }
   ]
 },
@@ -4937,11 +4937,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"kanem-bornu", ad:"Kanem-Bornu İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
-  f:"800-01-01", t:"1905-01-01", baskent:"Njimi → Ngazargamu",
+  f:"0800-01-01", t:"1905-01-01", baskent:"Njimi → Ngazargamu",
   ozet:"Çad Gölü çevresinde kurulan, Bilâdüssûdan'ın en uzun ömürlü İslâm devleti olan imparatorluk; İdris Alooma döneminde zirveye ulaştı, 19. yüzyıl sonunda sömürgeciliğe teslim oldu. (kaynak: TDV, madde: kanem-bornu)",
   kaynak:"kanim",
   kronoloji:[
-    { t:"800-01-01", tur:"kurulus", b:"Kanem Krallığı, Çad Gölü'nün kuzeydoğusunda kuruldu" },
+    { t:"0800-01-01", tur:"kurulus", b:"Kanem Krallığı, Çad Gölü'nün kuzeydoğusunda kuruldu" },
     { t:"1075-01-01", tur:"hukumdar", b:"Hanedan İslâmiyet'i kabul etti" },
     { t:"1571-01-01", tur:"hukumdar", b:"İdris Alooma döneminde imparatorluk zirvesine ulaştı, başkent Ngazargamu'ya taşındı" },
     { t:"1905-01-01", tur:"son", b:"Sömürge güçleri arasında bölünerek tarihî devlet tamamen sona erdi" }
@@ -5371,11 +5371,11 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"iskocya", ad:"İskoçya Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"843-01-01", t:"1707-05-01", baskent:"Scone → Edinburgh", harita:"iskocya",
+  f:"0843-01-01", t:"1707-05-01", baskent:"Scone → Edinburgh", harita:"iskocya",
   ozet:"Kenneth MacAlpin'in Pikte ve İskoç krallıklarını birleştirmesiyle doğan krallık; 1603'te İngiltere ile kişisel taç birliğine girdi, 1707 Birlik Yasası ile Büyük Britanya Krallığı'nda eridi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"843-01-01", tur:"kurulus", b:"Kenneth MacAlpin, Pikte ve İskoç krallıklarını birleştirdi" },
+    { t:"0843-01-01", tur:"kurulus", b:"Kenneth MacAlpin, Pikte ve İskoç krallıklarını birleştirdi" },
     { t:"1314-06-24", tur:"savas", b:"Bannockburn Savaşı'nda İngiltere'ye karşı bağımsızlığını pekiştirdi" },
     { t:"1603-03-24", tur:"birlesme", b:"VI. James, İngiltere tahtına da geçip iki krallık kişisel birlik kurdu" },
     { t:"1707-05-01", tur:"son", b:"Birlik Yasası ile İngiltere'yle birleşip Büyük Britanya Krallığı'nı oluşturdu" }
@@ -5403,11 +5403,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"bretanya", ad:"Bretanya Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
-  f:"939-01-01", t:"1532-08-13", baskent:"Rennes / Nantes", harita:"bretanya",
+  f:"0939-01-01", t:"1532-08-13", baskent:"Rennes / Nantes", harita:"bretanya",
   ozet:"Norman ve Frank baskısı arasında özerkliğini uzun süre koruyan Fransa'nın kuzeybatısındaki dükalık; Fransa Kraliyeti ile Birleşme Fermanı'yla krallığa katıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"939-01-01", tur:"kurulus", b:"Alan II, Normanları kovup dükalığı yeniden kurdu" },
+    { t:"0939-01-01", tur:"kurulus", b:"Alan II, Normanları kovup dükalığı yeniden kurdu" },
     { t:"1488-01-01", tur:"savas", b:"Çılgın Savaş'ta Fransa'ya yenilip vasal duruma düştü" },
     { t:"1532-08-13", tur:"son", b:"Birleşme Fermanı ile Fransa Krallığı'na daimi olarak katıldı" }
   ]
@@ -5447,11 +5447,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"navarra", ad:"Navarra Krallığı", tur:"krallik", bolge:"iberya",
-  f:"824-01-01", t:"1620-10-19", baskent:"Pamplona", harita:"navarra",
+  f:"0824-01-01", t:"1620-10-19", baskent:"Pamplona", harita:"navarra",
   ozet:"Bask kökenli, Pireneler'in iki yakasına da uzanan küçük ama uzun ömürlü İber krallığı; İspanya'nın (Kastilya-Aragon) fethiyle güney kısmı ilhak edildi, kuzeydeki Béarn kolu 1620'ye dek ayrı sürdü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 1512'den 1620-10-19'a çekildi — künyenin KENDİ kronolojisi zaten \"Béarn/Fransız kolu Fransa'ya katıldı\" diye 1620'yi taşıyordu ama `t:` alanı hâlâ 1512 yazıyordu (108 yıllık düz künye hatası, yeni araştırma gerektirmedi).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"824-01-01", tur:"kurulus", b:"İñigo Arista, Pamplona Krallığı'nı kurdu" },
+    { t:"0824-01-01", tur:"kurulus", b:"İñigo Arista, Pamplona Krallığı'nı kurdu" },
     { t:"1234-01-01", tur:"hukumdar", b:"Şampanya hanedanı evlilik yoluyla tahta geçti" },
     { t:"1512-07-25", tur:"toprak-kayip", b:"Kastilya-Aragon (İspanya) güney Navarra'yı ilhak etti" },
     { t:"1620-10-19", tur:"son", b:"Kuzeydeki Béarn/Fransız kolu da Fransa Krallığı'na katılarak krallığın son parçası da sona erdi" }
@@ -5998,7 +5998,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"angkor-kmer", ad:"Kmer (Angkor) İmparatorluğu", tur:"imparatorluk", bolge:"guneydogu-asya",
-  f:"802-01-01", t:"1431-01-01", ic_not_f:"802 = II. Jayavarman'ın Kulen dağında cakravartin olarak kutsanması (Sdok Kak Thom yazıtına dayanan standart tarih; Coedès, Chandler). Gün yok. f:'1281-01-01' eski değer motor penceresinin alt ucuydu (sınıf ②: aynı polity sürüyor → GENİŞLET). ⚠️ TDV kambocya yıkılışı 1432 der, künye t:1431 — küçük fark, t'ye dokunulmadı (kuşak dışı).", baskent:"Angkor (Yasodharapura)", harita:"angkor-kmer",
+  f:"0802-01-01", t:"1431-01-01", ic_not_f:"802 = II. Jayavarman'ın Kulen dağında cakravartin olarak kutsanması (Sdok Kak Thom yazıtına dayanan standart tarih; Coedès, Chandler). Gün yok. f:'1281-01-01' eski değer motor penceresinin alt ucuydu (sınıf ②: aynı polity sürüyor → GENİŞLET). ⚠️ TDV kambocya yıkılışı 1432 der, künye t:1431 — küçük fark, t'ye dokunulmadı (kuşak dışı).", baskent:"Angkor (Yasodharapura)", harita:"angkor-kmer",
   ozet:"Anıtsal tapınakları ve su mühendisliğiyle Güneydoğu Asya'nın en büyük klasik devleti; Ayutthaya baskısıyla Angkor terk edilince ardılı Kamboçya Krallığı'na dönüştü (bkz. [[kamboc-kralligi]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6007,7 +6007,7 @@ window.DEVLETLER = [
     { t:"1431-01-01", tur:"son", b:"Ayutthaya kuşatmasının ardından Angkor terk edildi, merkez güneye taşındı" }
   ,
     { t:"1181-01-01", tur:"hukumdar", b:"Jayavarman VII tahta çıktı (1181-1215); Angkor Thom, Bayon ve Ta Prohm tapınaklarını inşa ettirip imparatorluğu Budist bir krallığa dönüştürdü, Çamlıları geri püskürttü", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Jayavarman VII') doğrulandı. 🔴 NOT: künyenin f: alanı 1281, bu olay 1181 — 100 yıl ÖNCE. Muhtemelen künyenin f:'si (bu bölgedeki birçok künyede görülen desen) gerçek kuruluş değil 'atlas ufku' (1281 = atlasın başlangıç yılı) — künye sahibine bildiriliyor." },
-    { t:"802-01-01", tur:"kurulus", b:"II. Jayavarman Kulen dağında kutsanıp Kmer krallığını Cava'dan bağımsız ilan etti", kaynak:"Coedès 1968 · Chandler 2008" }
+    { t:"0802-01-01", tur:"kurulus", b:"II. Jayavarman Kulen dağında kutsanıp Kmer krallığını Cava'dan bağımsız ilan etti", kaynak:"Coedès 1968 · Chandler 2008" }
   ]
 },
 { id:"campa", ad:"Champa Krallığı", tur:"krallik", bolge:"guneydogu-asya",
@@ -6560,7 +6560,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"pagan", ad:"Pagan Krallığı (Burma) — Son Dönem", tur:"krallik", bolge:"guneydogu-asya",
-  f:"849-01-01", t:"1297-01-01", baskent:"Pagan (Bagan)",
+  f:"0849-01-01", t:"1297-01-01", baskent:"Pagan (Bagan)",
   ozet:"Burma'yı ilk kez birleştiren, anıtsal tapınaklarıyla tanınan krallık; Moğol istilasıyla (1287) fiilen çöktü, Myinsaing kardeşlerin iktidarı devralmasıyla hanedan sona erdi. HANEDAN ÖMRÜ kimliğidir — çöküş süreci 1287-1297 arasında kademeli oldu. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"myanmar",
   kronoloji:[
@@ -6833,7 +6833,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"sunda-pajajaran", ad:"Sunda Krallığı (Pajajaran)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"669-01-01", t:"1527-06-22", baskent:"Pakuan Pajajaran",
+  f:"0669-01-01", t:"1527-06-22", baskent:"Pakuan Pajajaran",
   ozet:"Batı Cava'da hüküm süren, İslâmlaşmayı reddeden son büyük Hindu-Budist krallıklardan biri; Demak-Cirebon ittifakının Sunda Kelapa limanını almasıyla (bugün \"Jakarta Günü\" olarak kutlanan olay) fiilen çöktü. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"yetersiz — endonezya maddesi okundu, Batı Cava'nın İslamlaşma bağlamını anlatıyor ama Sunda-Pajajaran Krallığı'nı (kuruluş, hükümdarlar, yıkılış) doğrudan işlemiyor; dayanak: Torre do Tombo arşivi (birincil kaynak) + Herwig Zahorka, 'The Sunda Kingdoms of West Java' (akademik makale)",
   kronoloji:[
@@ -8583,13 +8583,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"ziriler", ad:"Zîrîler (Kuzey Afrika)", tur:"hanedanlik", bolge:"kuzey-afrika",
-  f:"972-01-01", t:"1148-01-01", baskent:"Kayrevan → Mehdiye", boya_gerekli:true,
+  f:"0972-01-01", t:"1148-01-01", baskent:"Kayrevan → Mehdiye", boya_gerekli:true,
   ic_not_f:"TDV: 'Fâtımî Halifesi Muiz-Lidînillâh, Bulukkîn’i Mağrib valiliğine tayin ederek Kayrevan’a yerleştirdi (361/972)' [TDV: ziriler] — YIL. Başlık da '(972-1148)'.",
   ic_not_t:"TDV: '543’te (1148) Norman donanmasının kuşattığı başşehir Mehdiye bir süre sonra teslim oldu, böylece Kuzey Afrika’da Zîrîler dönemi nihayete erdi' [TDV: ziriler] — YIL.",
   ozet:"Sanhâce'den Zîrî b. Menâd soyunun Fâtımî valiliğinden fiilen bağımsızlaşarak İfrîkıye'de kurduğu hânedan; Benî Hilâl istilâsıyla sahile sıkıştı, Normanlar Mehdiye'yi alınca sona erdi. Endülüs (Gırnata) Zîrîleri ayrı koldur, bu künyede DEĞİL. (kaynak: TDV, madde: ziriler)",
   kaynak:"TDV: ziriler (ZÎRÎLER)",
   kronoloji:[
-    { t:"972-01-01", tur:"kurulus", b:"Bulukkîn b. Zîrî, Fâtımî halifesince Mağrib valiliğine getirilip Kayrevan'a yerleşti" },
+    { t:"0972-01-01", tur:"kurulus", b:"Bulukkîn b. Zîrî, Fâtımî halifesince Mağrib valiliğine getirilip Kayrevan'a yerleşti" },
     { t:"1057-01-01", tur:"toprak-kayip", b:"Benî Hilâl kuşatması üzerine Muiz b. Bâdîs Kayrevan'ı bırakıp Mehdiye'ye çekildi" },
     { t:"1148-01-01", tur:"son", b:"Norman donanmasının kuşattığı Mehdiye teslim oldu; Zîrî hâkimiyeti sona erdi" }
   ]
@@ -8607,13 +8607,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"magrave-sicilmase", ad:"Mağrâve Emirliği (Sicilmâse)", tur:"beylik", bolge:"kuzey-afrika",
-  f:"976-01-01", t:"1053-01-01", baskent:"Sicilmâse", boya_gerekli:true,
+  f:"0976-01-01", t:"1053-01-01", baskent:"Sicilmâse", boya_gerekli:true,
   ic_not_f:"TDV: 'Mağrâve Emîri Hazrûn b. Fülfûl, Fâtımî egemenliğini tanıyan Midrârî emîrini öldürüp bu hânedana son verdi (366/976)' [TDV: sicilmase] — YIL.",
   ic_not_t:"TDV: 'Murâbıtlar 445’te (1053) Sicilmâse’yi ele geçirdiler' [TDV: sicilmase] — YIL. ⚠️ Emirliğin 976-1053 arası kesintisiz sürdüğünü TDV açıkça yazmaz; 'Benî Hazrûn' adlı müstakil TDV maddesi bulunamadı (slug 302). Kuşak içi bir yapı olduğu için künye önerildi; zayıf görülürse düşürülebilir.",
   ozet:"Endülüs Emevîleri adına hareket eden Zenâte'nin Mağrâve kolundan Hazrûn b. Fülfûl'ün Midrârîler'e son vererek Sicilmâse'de kurduğu emirlik; Murâbıtlar şehri alınca sona erdi. (kaynak: TDV, madde: sicilmase)",
   kaynak:"TDV: sicilmase (SİCİLMÂSE)",
   kronoloji:[
-    { t:"976-01-01", tur:"kurulus", b:"Mağrâve emîri Hazrûn b. Fülfûl Midrârî emîrini öldürüp Sicilmâse'ye hâkim oldu" },
+    { t:"0976-01-01", tur:"kurulus", b:"Mağrâve emîri Hazrûn b. Fülfûl Midrârî emîrini öldürüp Sicilmâse'ye hâkim oldu" },
     { t:"1053-01-01", tur:"son", b:"Murâbıtlar Sicilmâse'yi ele geçirdi" }
   ]
 },
@@ -8672,18 +8672,18 @@ window.DEVLETLER = [
   ]
 },
 { id:"suve-emirligi", ad:"Şüve (Shoa) Mahzûmî Emirliği", tur:"beylik", bolge:"dogu-afrika",
-  f:"896-01-01", t:"1285-01-01", baskent:"Doğu Şüve (kaynakta şehir adı yok)", boya_gerekli:true,
+  f:"0896-01-01", t:"1285-01-01", baskent:"Doğu Şüve (kaynakta şehir adı yok)", boya_gerekli:true,
   ic_not_f:"TDV etiyopya: 'Mahzûmîler, Harar’ın kuzeybatısında Afrika’daki ilk müslüman devlet olan Şüve Emirliği’ni kurdular (896)' — YIL. TDV evfat aynı kuruluşu 'Rivayete göre' diye verir.",
   ic_not_t:"TDV etiyopya: 'bu küçük devlet 1280-1285 yılları arasında Evfât Emirliği tarafından ortadan kaldırılmıştır'; TDV evfat: 'Ali Şüve’yi de topraklarına katarak Evfât Emirliği’ni kurdu (684/1285)' ⇒ 1285 (iki maddede). `evfat` künyesi f:1285-01-01 ⇒ uç uca.",
   ozet:"Emevî baskısından kaçan Mahzûmîler'in Harar'ın kuzeybatısında kurduğu, TDV'nin 'Afrika'daki ilk müslüman devlet' dediği emirlik; XIII. yüzyıldaki iç karışıklıklarla zayıflayıp Evfât'a katıldı (bkz. `evfat`). (kaynak: TDV, madde: etiyopya · evfat)",
   kaynak:"TDV: etiyopya (ETİYOPYA) + TDV: evfat (EVFÂT)",
   kronoloji:[
-    { t:"896-01-01", tur:"kurulus", b:"Mahzûmîler Harar'ın kuzeybatısında Şüve Emirliği'ni kurdu" },
+    { t:"0896-01-01", tur:"kurulus", b:"Mahzûmîler Harar'ın kuzeybatısında Şüve Emirliği'ni kurdu" },
     { t:"1285-01-01", tur:"son", b:"Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'ni kurdu" }
   ]
 },
 { id:"mapungubwe", ad:"Mapungubwe Krallığı", tur:"krallik", bolge:"guney-afrika",
-  f:"900-01-01", t:"1300-01-01", baskent:"Mapungubwe (Limpopo-Shashe birleşimi)", boya_gerekli:true,
+  f:"0900-01-01", t:"1300-01-01", baskent:"Mapungubwe (Limpopo-Shashe birleşimi)", boya_gerekli:true,
   ic_not_f:"UNESCO aralik UCU 900 (900-1300), kurulus olcumu DEGIL. UNESCO: 'demonstrates the rise and fall of the first indigenous kingdom in Southern Africa between 900 and 1,300 AD'.",
   ic_not_t:"UNESCO aralik UCU 1300, yikilis olcumu DEGIL. UNESCO: 'Until its demise at the end of the 13th century AD' · 'When rainfall decreased after 1300 AD … the inhabitants were obliged to disperse'; aynı sayfanın özet cümlesi 'abandoned in the 14th century' der.",
   ozet:"Limpopo ile Shashe nehirlerinin birleştiği yerde yükselen, Güney Afrika'nın ilk yerli krallığı; yağışların azalmasıyla XIII. yüzyıl sonunda dağıldı, merkez ağırlık Büyük Zimbabve'ye kaydı. TDV kapsamı dışı. (kaynak: UNESCO Dünya Mirası 'Mapungubwe Cultural Landscape')",
@@ -8694,13 +8694,13 @@ window.DEVLETLER = [
 },
 // ── ONCE1281-DOGU-ASYA (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
 { id:"liao-hanedani", ad:"Liao Hanedanı (Kitan / Hıtay)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"916-01-01", t:"1125-01-01", baskent:"Shangjing (Linhuang) · beş başkent sistemi (Nanjing = Pekin dahil)", boya_gerekli:true,
+  f:"0916-01-01", t:"1125-01-01", baskent:"Shangjing (Linhuang) · beş başkent sistemi (Nanjing = Pekin dahil)", boya_gerekli:true,
   ic_not_f:"TDV karahitaylar, birebir: 'Yeh-lü A-pao-chi (Apaoki) adlı Hıtay reisi, kavminin bütün boylarını itaat altına alarak Moğolistan’ın büyük bir kısmına hâkim oldu ve 916 yılında kendini hükümdar ilân etti.' Gün yok → 916-01-01. 'Liao' hanedan adı sonradan (TDV: Te Kuang 926-947 döneminde) alındı; künye kimliği 916'dan başlar.",
   ic_not_t:"1125 = son imparator Tianzuo'nun Jin'e esir düşmesi (CHC6). Gün kaynaktan alınmadı → 1125-01-01. Jin (1115) ile 1115-1125 arası ÖRTÜŞME gerçektir (iki devlet savaş hâlinde bir arada).",
   ozet:"Moğolistan'ın doğusu, Mançurya ve Kuzey Çin'in 'On Altı Vilayet'ine hâkim olan Kitan (Hıtay) devleti; Song'dan haraç aldı, Jurchen Jin'e yenilerek yıkıldı, kalıntısı batıda Karahıtay Devleti'ni kurdu.",
   kaynak:"TDV: karahitaylar (KARAHITAYLAR) — kuruluş cümlesi · Denis Twitchett & Klaus-Peter Tietze, 'The Liao', The Cambridge History of China Vol. 6 (Cambridge UP, 1994). Sayfa verilmedi (bu oturumda açılmadı).",
   kronoloji:[
-    { t:"916-01-01", tur:"kurulus", b:"Hıtay reisi Apaoki (Yelü Abaoji) kendini hükümdar ilan etti", kaynak:"TDV: karahitaylar" },
+    { t:"0916-01-01", tur:"kurulus", b:"Hıtay reisi Apaoki (Yelü Abaoji) kendini hükümdar ilan etti", kaynak:"TDV: karahitaylar" },
     { t:"1005-01-01", tur:"antlasma", b:"Chanyuan Antlaşması: Song, Liao'ya yıllık gümüş ve ipek ödemeyi kabul etti", kaynak:"CHC6 (Twitchett & Tietze 1994)" },
     { t:"1125-01-01", tur:"son", b:"Son Liao imparatoru Tianzuo Jin'e esir düştü, hanedan yıkıldı", kaynak:"CHC6 (Twitchett & Tietze 1994)" }
   ]
@@ -8718,13 +8718,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"dali-kralligi", ad:"Dali Krallığı (Yunnan)", tur:"krallik", bolge:"dogu-asya",
-  f:"937-01-01", t:"1253-01-01", baskent:"Dali (Yangjümie)", boya_gerekli:true,
+  f:"0937-01-01", t:"1253-01-01", baskent:"Dali (Yangjümie)", boya_gerekli:true,
   ic_not_f:"937 = Duan Siping'in tahta çıkışı (Yang 2009). Gün yok.",
   ic_not_t:"1253 = Kubilay'ın Dali şehrine girişi (sefer 1253 sonbaharı-kışı; bazı eserlerde başkentin alınışı Ocak 1254'e düşer — ay takvimi farkı, ölçülemedi). Duan ailesi 1382'ye kadar Yuan'ın yerel yöneticisi olarak sürdü: künye bağımsız krallığın ömrüdür.",
   ozet:"Nanzhao'nun ardılı olarak Yunnan'da Duan ailesinin kurduğu Budist krallık; Song'la haraç ilişkisi sürdürdü, Kubilay'ın 1253 seferiyle Moğol idaresine girdi, Duan ailesi Yuan altında yerel yönetici olarak kaldı.",
   kaynak:"Bin Yang, Between Winds and Clouds: The Making of Yunnan (Columbia UP, 2009) · Charles Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (Cambridge UP, 1981). Sayfa verilmedi (bu oturumda açılmadı).",
   kronoloji:[
-    { t:"937-01-01", tur:"kurulus", b:"Duan Siping Dali Krallığı'nı kurdu", kaynak:"Yang 2009" },
+    { t:"0937-01-01", tur:"kurulus", b:"Duan Siping Dali Krallığı'nı kurdu", kaynak:"Yang 2009" },
     { t:"1253-01-01", tur:"son", b:"Kubilay Han Dali'yi aldı, krallık Moğol idaresine girdi", kaynak:"Yang 2009 · CHC6" }
   ]
 },
@@ -8740,13 +8740,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"tien-le-hanedani", ad:"Erken Lê Hanedanı (Đại Cồ Việt)", tur:"hanedanlik", bolge:"guneydogu-asya",
-  f:"980-01-01", t:"1009-01-01", baskent:"Hoa Lư", boya_gerekli:true,
+  f:"0980-01-01", t:"1009-01-01", baskent:"Hoa Lư", boya_gerekli:true,
   ic_not_f:"980 = Lê Hoàn'ın tahta çıkışı (Taylor 2013). Gün yok.",
   ic_not_t:"1009 = Lý Công Uẩn'ın tahta çıkışı (ay takvimiyle yıl sonu; Gregoryen gün alınmadı). ly-hanedani f ile AYNI gün → boşluk/örtüşme yok. Kuşakta yalnız 1000-1009 dilimi kalır; künye Vietnam'ın 1000'deki deliğini kapatır.",
   ozet:"Đinh hanedanının yerini alan Lê Hoàn'ın kurduğu Vietnam hanedanı; 981'de Song istilasını püskürttü, 1009'da tahtı Lý Công Uẩn'a bıraktı.",
   kaynak:"K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). Sayfa verilmedi (bu oturumda açılmadı). TDV: vietnam 302 (ölü slug).",
   kronoloji:[
-    { t:"980-01-01", tur:"kurulus", b:"Lê Hoàn tahta çıktı, Erken Lê hanedanı başladı", kaynak:"Taylor 2013" },
+    { t:"0980-01-01", tur:"kurulus", b:"Lê Hoàn tahta çıktı, Erken Lê hanedanı başladı", kaynak:"Taylor 2013" },
     { t:"1009-01-01", tur:"son", b:"Lý Công Uẩn tahta çıktı, Erken Lê hanedanı sona erdi", kaynak:"Taylor 2013" }
   ]
 },
@@ -8763,13 +8763,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"heian-japonya", ad:"Japonya — Heian Dönemi İmparatorluk Sarayı", tur:"imparatorluk", bolge:"dogu-asya",
-  f:"794-01-01", t:"1185-01-01", baskent:"Heian-kyō (Kyoto)", boya_gerekli:true,
+  f:"0794-01-01", t:"1185-01-01", baskent:"Heian-kyō (Kyoto)", boya_gerekli:true,
   ic_not_f:"TDV japonya, birebir: '794-1185 yılları arasında ise yeni başşehir yapılan Heian’dan (Kyoto) adını alan dönem başladı.' Gün yok.",
   ic_not_t:"1185 = TDV'nin dönem sonu; kamakura künyesi f:1185-01-01 ile bitişik. ⚠️ KİMLİK NOTU: imparatorluk sarayı 1185'te yok olmadı — Kyoto'daki saray Kamakura altında sürdü. Künye bir DÖNEM kimliğidir (kamakura, muromachi, edo-bakufu deseniyle aynı). Kuzey Honshu 1087-1189 arası ayrı: oshu-fujiwara.",
   ozet:"Başkentin Heian'a (Kyoto) taşınmasıyla başlayan, Fujiwara naipliği ve emekli imparatorlar (insei) idaresiyle geçen saray dönemi; Genpei Savaşı'nda Minamoto'nun zaferiyle fiilî iktidar Kamakura'daki askerî hükûmete geçti.",
   kaynak:"TDV: japonya (JAPONYA) — dönem sınırları · Donald H. Shively & William H. McCullough (ed.), The Cambridge History of Japan Vol. 2: Heian Japan (Cambridge UP, 1999). Sayfa verilmedi (bu oturumda açılmadı).",
   kronoloji:[
-    { t:"794-01-01", tur:"kurulus", b:"Başkent Heian'a (Kyoto) taşındı, Heian dönemi başladı", kaynak:"TDV: japonya" },
+    { t:"0794-01-01", tur:"kurulus", b:"Başkent Heian'a (Kyoto) taşındı, Heian dönemi başladı", kaynak:"TDV: japonya" },
     { t:"1016-01-01", tur:"siyaset", b:"Fujiwara no Michinaga iktidarı ele geçirdi, aristokrat naiplik zirveye ulaştı", kaynak:"TDV: japonya" },
     { t:"1185-01-01", tur:"son", b:"Genpei Savaşı Minamoto zaferiyle bitti, fiilî iktidar Kamakura'ya geçti", kaynak:"TDV: japonya" }
   ]
@@ -8786,26 +8786,26 @@ window.DEVLETLER = [
   ]
 },
 { id:"srivijaya", ad:"Srivicaya (Śrīvijaya) Krallığı", tur:"krallik", bolge:"guneydogu-asya",
-  f:"683-01-01", t:"1275-01-01", baskent:"Palembang → Jambi (Melayu)", boya_gerekli:true,
+  f:"0683-01-01", t:"1275-01-01", baskent:"Palembang → Jambi (Melayu)", boya_gerekli:true,
   ic_not_f:"683 = Kedukan Bukit yazıtı (Coedès). Kuruluş değil, en eski tarihli belge. Gün yok.",
   ic_not_t:"EŞİK; kesin yıkılış yılı kaynakta YOK (koordinatör hükmü M-5577 (a), D210). 1275 = Singhasari'nin Pamalayu seferi (singhasari iskeletinde de var); Srivicaya-Melayu'nun bağımsızlığının kaynakça verilen son eşiği olarak kondu, ölçüm DEĞİL. Çin kayıtlarında 'Sanfoqi' elçilikleri 1370'lere kadar sürer. Palembang'ın sonraki boyası palembang-sultanligi (f:1281 pencere işareti).",
   ozet:"Malaka ve Sunda boğazlarının ticaretini denetleyen, Budist ilim merkezi Sumatra deniz devleti; 1025 Çola baskınından sonra zayıfladı, merkezi Jambi'ye (Melayu) kaydı, 13. yüzyılda Cava'nın Singhasari'si karşısında bağımsızlığını yitirdi.",
   kaynak:"George Coedès, The Indianized States of Southeast Asia (East-West Center Press, 1968) · Kenneth R. Hall, A History of Early Southeast Asia (Rowman & Littlefield, 2011). Sayfa verilmedi (bu oturumda açılmadı). TDV: endonezya maddesi Srivicaya'yı ANMIYOR (ölçüldü).",
   kronoloji:[
-    { t:"683-01-01", tur:"kurulus", b:"Kedukan Bukit yazıtı: Srivicaya'nın bilinen ilk tarihli belgesi", kaynak:"Coedès 1968" },
+    { t:"0683-01-01", tur:"kurulus", b:"Kedukan Bukit yazıtı: Srivicaya'nın bilinen ilk tarihli belgesi", kaynak:"Coedès 1968" },
     { t:"1025-01-01", tur:"savas", b:"Çola hükümdarı I. Rajendra'nın deniz seferi Srivicaya limanlarını yağmaladı", kaynak:"Coedès 1968 · Hall 2011" },
     { t:"1275-01-01", tur:"son", b:"Singhasari'nin Pamalayu seferiyle Melayu-Srivicaya Cava üstünlüğüne girdi", kaynak:"Coedès 1968" }
   ]
 },
 { id:"medang", ad:"Medang (Mataram) Krallığı (Cava)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"732-01-01", t:"1016-01-01", baskent:"Orta Cava (Mataram) → Doğu Cava (Watugaluh, 929 sonrası)", boya_gerekli:true,
+  f:"0732-01-01", t:"1016-01-01", baskent:"Orta Cava (Mataram) → Doğu Cava (Watugaluh, 929 sonrası)", boya_gerekli:true,
   ic_not_f:"732 = Canggal yazıtı (Sanjaya). Gün yok. ⚠️ Ad: 'Mataram' adı mataram-sultanligi (1587) ile karışmasın diye id 'medang'.",
   ic_not_t:"1016 = Pralaya (Coedès; eski eserlerde 1006). Gün yok. Kuşakta yalnız 1000-1016 dilimi kalır.",
   ozet:"Borobudur ve Prambanan'ı inşa eden Hindu-Budist Cava krallığı; 929'da merkezi Doğu Cava'ya taşındı, 1016'da Wurawari'nin saldırısıyla (Pralaya) başkent yıkılıp kral Dharmawangsa öldürüldü.",
   kaynak:"George Coedès, The Indianized States of Southeast Asia (1968) · Kenneth R. Hall, A History of Early Southeast Asia (2011). Sayfa verilmedi (bu oturumda açılmadı).",
   kronoloji:[
-    { t:"732-01-01", tur:"kurulus", b:"Canggal yazıtı: Sanjaya'nın Orta Cava'daki krallığı belgelendi", kaynak:"Coedès 1968" },
-    { t:"929-01-01", tur:"idari", b:"Mpu Sindok krallığın merkezini Doğu Cava'ya taşıdı", kaynak:"Coedès 1968" },
+    { t:"0732-01-01", tur:"kurulus", b:"Canggal yazıtı: Sanjaya'nın Orta Cava'daki krallığı belgelendi", kaynak:"Coedès 1968" },
+    { t:"0929-01-01", tur:"idari", b:"Mpu Sindok krallığın merkezini Doğu Cava'ya taşıdı", kaynak:"Coedès 1968" },
     { t:"1016-01-01", tur:"son", b:"Pralaya: Wurawari saldırısında başkent yıkıldı, Dharmawangsa öldürüldü", kaynak:"Coedès 1968" }
   ]
 },
@@ -8833,13 +8833,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"bali-warmadewa", ad:"Bali Krallığı (Warmadewa Hanedanı)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"914-01-01", t:"1284-01-01", baskent:"Bedulu–Pejeng yöresi", boya_gerekli:true,
+  f:"0914-01-01", t:"1284-01-01", baskent:"Bedulu–Pejeng yöresi", boya_gerekli:true,
   ic_not_f:"914 = Blanjong sütun yazıtı (Sri Kesari Warmadewa). Gün yok.",
   ic_not_t:"1284 = Kertanagara'nın Bali seferi (Nagarakertagama'ya dayanan Coedès). bali-kralliklari-pejeng f:1292 → 1284-1292 arası Bali singhasari'dir (singhasari t:1292 — tutarlı).",
   ozet:"Bali'de yazıtlarla bilinen Warmadewa hanedanının krallığı; Airlangga'nın babası Udayana bu hanedandandır. 1284'te Singhasari kralı Kertanagara adayı aldı.",
   kaynak:"George Coedès, The Indianized States of Southeast Asia (1968). Sayfa verilmedi (bu oturumda açılmadı).",
   kronoloji:[
-    { t:"914-01-01", tur:"kurulus", b:"Blanjong yazıtı: Sri Kesari Warmadewa Bali'de belgelendi", kaynak:"Coedès 1968" },
+    { t:"0914-01-01", tur:"kurulus", b:"Blanjong yazıtı: Sri Kesari Warmadewa Bali'de belgelendi", kaynak:"Coedès 1968" },
     { t:"1284-01-01", tur:"son", b:"Singhasari kralı Kertanagara Bali'yi fethetti", kaynak:"Coedès 1968" }
   ]
 },
@@ -8929,7 +8929,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"gazneli", ad:"Gazneliler (Gazneli Devleti)", tur:"sultanlik", bolge:"orta-asya",
-  f:"963-01-01", t:"1186-01-01", baskent:"Gazne → Lahor", boya_gerekli:true,
+  f:"0963-01-01", t:"1186-01-01", baskent:"Gazne → Lahor", boya_gerekli:true,
   ic_not_f:"Alp Tegin Gazne'yi Levikler'den aldı: Zilhicce 351 / Ocak 963 (ay biliniyor, gün yok → 963-01-01). TDV 'Gazneli Devleti'nin temelleri atılmış oldu' der; 'gerçek kurucu' Sebük Tegin (366/977). f kuşak dışında (1000 öncesi), yalnız künye başlangıcı için.",
   ic_not_t:"Gurlular Hüsrev Melik'i esir alıp devlete son verdi (582/1186); gurlular maddesi de 'Hüsrev Melik 1186'ya kadar ... Lahor'u savundu' der. Gün yok → 1186-01-01. Gazne'nin terki (Hüsrev Şah, 1157 sonrası, Oğuz baskısı) TDV'de tarihsiz — 1157-1186 arası Gazneli toprağı yalnız Pencap/Lahor'dur, harita için önemli.",
   alinti_f:"mahallî bir hânedan olan Levikler’i uzaklaştırarak burayı ele geçirdi (Zilhicce 351 / Ocak 963). Bu şekilde Gazneli Devleti’nin temelleri atılmış oldu.",
@@ -8937,7 +8937,7 @@ window.DEVLETLER = [
   ozet:"Sâmânî kumandanı Alp Tegin'in Gazne'yi almasıyla temeli atılan, Sultan Mahmud devrinde Horasan, Hârizm, Irâk-ı Acem ve Kuzey Hindistan'a yayılan müslüman-Türk hânedanı. Dandanakan'dan (1040) sonra Afganistan ve Pencap'a çekildi, son merkezi Lahor 1186'da Gurlular'a geçti.",
   kaynak:"TDV: gazneliler (GAZNELİLER)",
   kronoloji:[
-    { t:"963-01-01", tur:"kurulus", b:"Alp Tegin Gazne'yi Levikler'den alarak Gazneli Devleti'nin temelini attı", kaynak:"gazneliler" },
+    { t:"0963-01-01", tur:"kurulus", b:"Alp Tegin Gazne'yi Levikler'den alarak Gazneli Devleti'nin temelini attı", kaynak:"gazneliler" },
     { t:"1040-05-23", tur:"toprak-kayip", b:"Dandanakan yenilgisiyle Horasan Selçuklular'a geçti", kaynak:"dandanakan-savasi" },
     { t:"1186-01-01", tur:"yikilis", b:"Gurlular Lahor'da Hüsrev Melik'i esir alarak Gazneli Devleti'ne son verdi", kaynak:"gazneliler" }
   ]
@@ -8958,7 +8958,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"karahanli", ad:"Karahanlılar (bölünme öncesi birleşik devlet)", tur:"hanlik", bolge:"orta-asya",
-  f:"840-01-01", t:"1041-01-01", baskent:"Balasagun / Kâşgar (Talas); batıda Özkent, Semerkant, Buhara", boya_gerekli:true,
+  f:"0840-01-01", t:"1041-01-01", baskent:"Balasagun / Kâşgar (Talas); batıda Özkent, Semerkant, Buhara", boya_gerekli:true,
   ic_not_f:"TDV madde başlığı '(840-1212)'; 840 Uygur Devleti'nin yıkılış yılıdır ve kuruluş faraziyeye bağlıdır (Pritsak/Genç tartışması, gövde). Kuşak dışı; yalnız künye başlangıcı.",
   ic_not_t:"BÖLÜNME KARARI: TDV bölünmeyi açıkça tarihliyor — Aynüddevle Muhammed ile Böri Tegin İbrâhim Mâverâünnehir'de 'bağımsız bir devlet kurdular (433/1041-42)' [TDV: karahanlilar] ve 'bu tarihten itibaren Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır' [TDV: karahanlilar]. Hicrî 433 iki mîlâdî yıla düştüğü için ilk yıl (1041) alındı. Not: fiilî ayrışma 998'den beri (Ali ve Hasan kolları) sürüyordu ve Doğu kolunun ilk hükümdarı Süleyman 'nın saltanatı TDV'de 423-448 (1032-1056) diye başlatılıyor — 1032-1041 arası iki kolun sınırı haritada ölçülemedi. Birleşik künye 1041'de bölünmeyle kapanır; iki ardıl künye aynı gün açılır (delik yok).",
   alinti_f:"Türkistan’da hüküm süren Türk-İslâm hânedanı (840-1212).",
@@ -8966,7 +8966,7 @@ window.DEVLETLER = [
   ozet:"Türkistan'da kurulan ilk müslüman Türk hânedanı; 999'da Sâmânî başşehri Buhara'yı alarak Mâverâünnehir'e hâkim oldu. Ali ve Hasan kolları arasındaki çekişmeler 1041'de devletin Doğu ve Batı Karahanlılar olarak ikiye ayrılmasıyla sonuçlandı.",
   kaynak:"TDV: karahanlilar (KARAHANLILAR)",
   kronoloji:[
-    { t:"840-01-01", tur:"kurulus", b:"Uygur Devleti'nin yıkılışından sonra Kâşgar-Balasagun yöresinde Karahanlı hânedanı ortaya çıktı", kaynak:"karahanlilar" },
+    { t:"0840-01-01", tur:"kurulus", b:"Uygur Devleti'nin yıkılışından sonra Kâşgar-Balasagun yöresinde Karahanlı hânedanı ortaya çıktı", kaynak:"karahanlilar" },
     { t:"1041-01-01", tur:"yikilis", b:"Böri Tegin İbrâhim ve Aynüddevle Muhammed Mâverâünnehir'de bağımsız devlet kurdu; Karahanlılar Doğu ve Batı olarak ikiye ayrıldı", kaynak:"karahanlilar" }
   ]
 },
@@ -9029,7 +9029,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"samani", ad:"Sâmânîler", tur:"emirlik", bolge:"orta-asya",
-  f:"819-01-01", t:"1005-01-01", baskent:"Buhara", boya_gerekli:true,
+  f:"0819-01-01", t:"1005-01-01", baskent:"Buhara", boya_gerekli:true,
   ic_not_f:"Me'mûn'un emriyle Esed'in oğullarına valilik verilmesi 204 (819); başlık '(819-1005)'. Kuşak dışı, yalnız künye başlangıcı.",
   ic_not_t:"Müntasır'ın ölümü 395/1005, TDV 'Onun ölümüyle Sâmânîler Devleti tarihe karışmış oldu' [TDV: samaniler]. UYARI HARİTA İÇİN: devlet fiilen Zilkade 389 / Ekim 999'da bitti; 1000-1005 arası Müntasır'ın gezici mücadelesidir, sabit toprak yok. Koordinatör ister künyeyi 1005'e uzatsın (bu öneri), ister haritada 999'dan sonra hiç s: yazmasın. ÇELİŞKİ: samaniler Müntasır'ın Buhara'yı geri almasını 'ertesi yıl' (390/1000) der, karahanlilar ise '1003 yılında Buhara'da el-Müntasır unvanıyla tahta çıkınca' der.",
   alinti_f:"Bu tarihten 204 (819) yılına kadar kaynaklarda Sâmânîler’e yer verilmemiştir.",
@@ -9037,12 +9037,12 @@ window.DEVLETLER = [
   ozet:"Mâverâünnehir ve Horasan'da hüküm süren İslâm hânedanı; 999'da Karahanlılar'ın Buhara'yı almasıyla fiilen çöktü, son emîr İsmâil el-Müntasır'ın 1005'te öldürülmesiyle tarihe karıştı.",
   kaynak:"TDV: samaniler (SÂMÂNÎLER)",
   kronoloji:[
-    { t:"819-01-01", tur:"kurulus", b:"Halife Me'mûn'un emriyle Sâmânhudât'ın torunlarına Mâverâünnehir'de valilik verildi", kaynak:"samaniler" },
+    { t:"0819-01-01", tur:"kurulus", b:"Halife Me'mûn'un emriyle Sâmânhudât'ın torunlarına Mâverâünnehir'de valilik verildi", kaynak:"samaniler" },
     { t:"1005-01-01", tur:"yikilis", b:"Son emîr İsmâil el-Müntasır Merv çölünde öldürüldü; Sâmânîler tarihe karıştı", kaynak:"samaniler" }
   ]
 },
 { id:"buveyhi", ad:"Büveyhîler", tur:"hanedanlik", bolge:"iran",
-  f:"932-01-01", t:"1062-01-01", baskent:"Şîraz (Fars) · Rey / İsfahan / Hemedan (Cibâl) · Bağdat (Irak kolu)", boya_gerekli:true,
+  f:"0932-01-01", t:"1062-01-01", baskent:"Şîraz (Fars) · Rey / İsfahan / Hemedan (Cibâl) · Bağdat (Irak kolu)", boya_gerekli:true,
   alinti_slug:"buveyhiler",
   ic_not_f:"TDV başlık '932-1062'; Ali'nin İsfahan'ı işgali (932). Gün yok.",
   ic_not_t:"Kavurd'un Şîraz'a girişi Temmuz 1062 (gün yok) → 1062-01-01. Fars'ta fiilî Büveyhî hâkimiyeti 1056'da Fazlûye ile bitti; 1056-1062 Şebânkâre (künyesiz). Kirman kolu 1048, Cibâl-Rey 1029, Hemedan-İsfahan 1028, Irak 1055'te düştü — koordinatör pencereleri kol kol kesmeli.",
@@ -9051,13 +9051,13 @@ window.DEVLETLER = [
   ozet:"Deylem asıllı Şiî hânedan; Fars, Kirman, Cibâl ve Irak'ta dört kol hâlinde hüküm sürdü, 945'ten 1055'e kadar Bağdat'ta Abbâsî halifeliğini denetledi.",
   kaynak:"TDV: buveyhiler (BÜVEYHÎLER)",
   kronoloji:[
-    { t:"932-01-01", tur:"kurulus", b:"Büveyhî Ali İsfahan'ı işgal etti; hânedan İran'ın batısında hâkimiyet kurmaya başladı", kaynak:"buveyhiler" },
+    { t:"0932-01-01", tur:"kurulus", b:"Büveyhî Ali İsfahan'ı işgal etti; hânedan İran'ın batısında hâkimiyet kurmaya başladı", kaynak:"buveyhiler" },
     { t:"1055-12-18", tur:"toprak-kayip", b:"Tuğrul Bey Bağdat'a girdi; Irak'taki 110 yıllık Büveyhî hâkimiyeti sona erdi", kaynak:"annaziler" },
     { t:"1062-01-01", tur:"yikilis", b:"Kavurd Şîraz'a girdi; Büveyhî toprakları tümüyle Selçuklu hâkimiyetine geçti", kaynak:"buveyhiler" }
   ]
 },
 { id:"ziyari", ad:"Ziyârîler", tur:"hanedanlik", bolge:"iran",
-  f:"928-01-01", t:"1090-01-01", baskent:"Cürcân (Gürgân) · Esterâbâd", boya_gerekli:true,
+  f:"0928-01-01", t:"1090-01-01", baskent:"Cürcân (Gürgân) · Esterâbâd", boya_gerekli:true,
   alinti_slug:"ziyariler",
   ic_not_f:"316/928; TDV '319 veya 320 (932)' görüşünü de anar — ilk görüş alındı.",
   ic_not_t:"'483 (1090) yılı civarında' — civarında; yıl yaklaşık. 1041-42'den sonra Selçuklu tâbii (v: adayı).",
@@ -9066,7 +9066,7 @@ window.DEVLETLER = [
   ozet:"Gîlânlı Merdâvîc b. Ziyâr'ın Taberistan ve Cürcân'da kurduğu Sünnî Deylemli hânedan; XI. yüzyılda Gazneli, sonra Selçuklu tâbiiyetinde yaşadı.",
   kaynak:"TDV: ziyariler (ZİYÂRÎLER)",
   kronoloji:[
-    { t:"928-01-01", tur:"kurulus", b:"Merdâvîc Cürcân merkezli Ziyârî hânedanını kurdu", kaynak:"ziyariler" },
+    { t:"0928-01-01", tur:"kurulus", b:"Merdâvîc Cürcân merkezli Ziyârî hânedanını kurdu", kaynak:"ziyariler" },
     { t:"1041-01-01", tur:"tabiiyet", b:"Tuğrul Bey Cürcân'ı aldı; Ziyârîler Selçuklulara tâbi oldu", kaynak:"ziyariler" },
     { t:"1090-01-01", tur:"yikilis", b:"Nizârî-İsmâilîler Ziyârî hânedanına son verdi (yıl yaklaşık)", kaynak:"ziyariler" }
   ]
@@ -9087,7 +9087,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"revvadi", ad:"Revvâdîler", tur:"hanedanlik", bolge:"iran",
-  f:"979-01-01", t:"1071-01-01", baskent:"Tebriz", boya_gerekli:true,
+  f:"0979-01-01", t:"1071-01-01", baskent:"Tebriz", boya_gerekli:true,
   alinti_slug:"revvadiler",
   ic_not_f:"Bağımsızlık 'muhtemelen 368 veya 369’da (979 veya 980)' — ilk yıl alındı. Tebriz'e hâkimiyet 956 (Müsâfirî tâbiiyeti altında).",
   ic_not_t:"'Malazgirt Savaşı’ndan (463/1071) sonra' Tebriz hâkimiyetine son verildiği kaydedilir — 1071 terminus post quem, gerçek bitiş sonrası olabilir; kesin yıl yok. 1054/1062'den sonra Selçuklu tâbii.",
@@ -9096,13 +9096,13 @@ window.DEVLETLER = [
   ozet:"Ezd asıllı, zamanla Kürtleşmiş hânedan; Müsâfirîlerden sonra Tebriz merkezli Azerbaycan'a hâkim oldu, 1054'ten itibaren Selçuklulara tâbi.",
   kaynak:"TDV: revvadiler (REVVÂDÎLER)",
   kronoloji:[
-    { t:"979-01-01", tur:"kurulus", b:"Tebriz hâkimi Ebü'l-Heycâ Hüseyin Müsâfirîlerden bağımsızlığını kazandı (979 veya 980)", kaynak:"revvadiler" },
+    { t:"0979-01-01", tur:"kurulus", b:"Tebriz hâkimi Ebü'l-Heycâ Hüseyin Müsâfirîlerden bağımsızlığını kazandı (979 veya 980)", kaynak:"revvadiler" },
     { t:"1062-01-01", tur:"tabiiyet", b:"Tuğrul Bey Azerbaycan'a döndü ve Revvâdîleri itaat altına aldı", kaynak:"revvadiler" },
     { t:"1071-01-01", tur:"yikilis", b:"Malazgirt'ten sonra Ebû Nasr Memlân'ın Tebriz hâkimiyetine son verildi", kaynak:"revvadiler" }
   ]
 },
 { id:"bavendi", ad:"Bâvendîler", tur:"hanedanlik", bolge:"iran",
-  f:"665-01-01", t:"1349-04-17", baskent:"Firîm / Şehriyârkûh (Keyûsiyye) · Sârî (İspehbediyye) · Âmül (Kinhâriyye)", boya_gerekli:true,
+  f:"0665-01-01", t:"1349-04-17", baskent:"Firîm / Şehriyârkûh (Keyûsiyye) · Sârî (İspehbediyye) · Âmül (Kinhâriyye)", boya_gerekli:true,
   alinti_slug:"bavendiler",
   ic_not_f:"Hükümdar listesi: Bâv b. Şâpûr 45 (665).",
   ic_not_t:"Fahrüddevle Hasan'ın öldürülmesi 27 Muharrem 750 / 17 Nisan 1349. ⚠️ 1000-1281 KUŞAĞINDA KOLLAR KESİNTİLİ: Keyûsiyye III. Rüstem ölümüyle (Ağustos 1028) gücünü kaybetti (bir rivayete göre dağlarda Selçuklu istilâsına dek sürdü — tarih yok); İspehbediyye 466/1074 – Nisan 1210; Kinhâriyye 635/1238 – 1349. Boşluklar 1028-1074 ve 1210-1238. Öneri: tek künye + 'kollar' pencereleri; boşluk yıllarında Taberistan Selçuklu/Harizmşah boyasına düşmeli.",
@@ -9112,7 +9112,7 @@ window.DEVLETLER = [
   ozet:"Sâsânî soylu olduğunu iddia eden Taberistan (Mâzenderan) hânedanı; birbirini kesintili izleyen üç kol hâlinde hüküm sürdü.",
   kaynak:"TDV: bavendiler (BÂVENDÎLER)",
   kronoloji:[
-    { t:"665-01-01", tur:"kurulus", b:"Bâv b. Şâpûr Taberistan halkınca hükümdar seçildi; Bâvendî hânedanı kuruldu", kaynak:"bavendiler" },
+    { t:"0665-01-01", tur:"kurulus", b:"Bâv b. Şâpûr Taberistan halkınca hükümdar seçildi; Bâvendî hânedanı kuruldu", kaynak:"bavendiler" },
     { t:"1028-01-01", tur:"hanedan", b:"III. Rüstem'in ölümüyle Keyûsiyye kolu gücünü kaybetti", kaynak:"bavendiler" },
     { t:"1074-01-01", tur:"hanedan", b:"Hüsâmüddevle Şehriyâr b. Kārin ile Sârî merkezli İspehbediyye kolu başladı", kaynak:"bavendiler" },
     { t:"1210-01-01", tur:"hanedan", b:"II. Şah Gazi Rüstem öldürüldü; Mâzenderan Harizmşahlara bağlandı, İspehbediyye kolu sona erdi", kaynak:"bavendiler" },
@@ -9196,7 +9196,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"annazi", ad:"Annâzîler", tur:"hanedanlik", bolge:"iran",
-  f:"991-01-01", t:"1117-01-01", baskent:"Hulvân · Sîrvân Kalesi", boya_gerekli:true,
+  f:"0991-01-01", t:"1117-01-01", baskent:"Hulvân · Sîrvân Kalesi", boya_gerekli:true,
   alinti_slug:"annaziler",
   ic_not_f:"'991-1010 yılları arasında Hulvân’da hüküm sürmüştür' — başlangıç 991.",
   ic_not_t:"İbnü'l-Esîr'e göre 130 yıl; '511 (1117) yılında yıkılan bu hânedan' (TDV çıkarımı, 'belki'). 1055 sonrası kaynak sessiz. BÖLGE: Hulvân, Karmîsîn, Dînever İran Zagros'u; Dakūkā/Şehrizor Irak — ağırlık İran tarafında olduğu için 'iran' yazıldı, koordinatör mezopotamya da diyebilir.",
@@ -9205,13 +9205,13 @@ window.DEVLETLER = [
   ozet:"Şâzencan aşiretinden Kürt hânedan; Hulvân, Karmîsîn (Kirmanşah), Dînever ve Şehrizor çevresinde hüküm sürdü, 1050'den sonra Selçuklulara tâbi oldu.",
   kaynak:"TDV: annaziler (ANNÂZÎLER)",
   kronoloji:[
-    { t:"991-01-01", tur:"kurulus", b:"Ebü'l-Feth Muhammed b. Annâz Hulvân'da hüküm sürmeye başladı", kaynak:"annaziler" },
+    { t:"0991-01-01", tur:"kurulus", b:"Ebü'l-Feth Muhammed b. Annâz Hulvân'da hüküm sürmeye başladı", kaynak:"annaziler" },
     { t:"1050-01-01", tur:"tabiiyet", b:"Mühelhil Tuğrul Bey'e itaat etti; Tuğrul Annâzîleri Sîrvân, Dakūkā, Şehrizor ve Samgan'a yeniden yerleştirdi", kaynak:"annaziler" },
     { t:"1117-01-01", tur:"yikilis", b:"Annâzî hânedanı sona erdi (İbnü'l-Esîr'in 130 yıl kaydına göre)", kaynak:"annaziler" }
   ]
 },
 { id:"musafiri", ad:"Müsâfirîler (Sellârîler, Kengerîler)", tur:"hanedanlik", bolge:"iran",
-  f:"942-01-01", t:"1062-01-01", baskent:"Şemîrân Kalesi (Târum) · Erdebil (Azerbaycan kolu, 979/980'e dek)", boya_gerekli:true,
+  f:"0942-01-01", t:"1062-01-01", baskent:"Şemîrân Kalesi (Târum) · Erdebil (Azerbaycan kolu, 979/980'e dek)", boya_gerekli:true,
   alinti_slug:"musafiriler",
   ic_not_f:"⚠️ Kuruluş yılı TDV'de yok; 330/942 oğulların Şemîrân'ı alıp idareyi üstlenmesi — ilk tarihli hânedan olayı. Muhammed b. Müsâfir daha önce (928/931 civarı) bölgede. Kuşak için önemli değil (1000'de yalnız Târum kolu var).",
   ic_not_t:"454/1062 Tuğrul'un vergi koyduğu 'Melik Müsâfir' kaynaklarda adı geçen son hükümdar. Bitiş Alamut İsmâilîlerinin Şemîrân'ı tahribi — YIL YOK. t=1062 son tanıklıktır, bitiş değil. 1042-43'ten sonra Selçuklu tâbii.",
@@ -9220,13 +9220,13 @@ window.DEVLETLER = [
   ozet:"Deylemli hânedan; X. yüzyılda Azerbaycan ve Arrân'a hâkim oldu, Revvâdîlere kaybettikten sonra Târum'da (Kazvin kuzeyi) Selçuklu vergisi ödeyerek sürdü.",
   kaynak:"TDV: musafiriler (MÜSÂFİRÎLER)",
   kronoloji:[
-    { t:"942-01-01", tur:"kurulus", b:"Vehsûdân ve Merzübân babalarını indirip Şemîrân'da idareyi aldı; Târum ve Azerbaycan kolları ayrıldı", kaynak:"musafiriler" },
-    { t:"979-01-01", tur:"toprak-kayip", b:"Azerbaycan Revvâdîlerin eline geçti; Müsâfirîler Târum'a çekildi (979 veya 980)", kaynak:"musafiriler" },
+    { t:"0942-01-01", tur:"kurulus", b:"Vehsûdân ve Merzübân babalarını indirip Şemîrân'da idareyi aldı; Târum ve Azerbaycan kolları ayrıldı", kaynak:"musafiriler" },
+    { t:"0979-01-01", tur:"toprak-kayip", b:"Azerbaycan Revvâdîlerin eline geçti; Müsâfirîler Târum'a çekildi (979 veya 980)", kaynak:"musafiriler" },
     { t:"1062-01-01", tur:"tabiiyet", b:"Tuğrul Bey Târum'a sefer yapıp Melik Müsâfir'e ağır vergi koydu (son tanıklık)", kaynak:"musafiriler" }
   ]
 },
 { id:"badusbani", ad:"Bâdüsbânîler (Rûyân üstândârları)", tur:"hanedanlik", bolge:"iran",
-  f:"723-01-01", t:"1598-01-01", baskent:"Rûyân · (sonra) Kucur ve Nur", boya_gerekli:true,
+  f:"0723-01-01", t:"1598-01-01", baskent:"Rûyân · (sonra) Kucur ve Nur", boya_gerekli:true,
   alinti_slug:"badusbaniler",
   ic_not_f:"⚠️ Kuruluş yılı TDV'de YOK; 105 (723-24) hânedanın başında II. Bâdüsbân'ın bulunduğu ilk tarihli tanıklıktır — kuruluş değil. Koordinatör f'yi 'ölçülemedi' işaretiyle tutsun. Grup C'nin kapsam listesinde yoktu; Kuzey İran yerel hânedanı olduğu için eklendi.",
   ic_not_t:"Şah I. Abbas iki kola da son verdi (1598); kuşak dışı.",
@@ -9235,7 +9235,7 @@ window.DEVLETLER = [
   ozet:"Sâsânî Taberistan valisinin soyundan Rûyân (batı Taberistan) hânedanı; Büveyhî, Selçuklu, Harizmşah ve Moğol tâbiiyetinde Safevîlere dek yaşadı.",
   kaynak:"TDV: badusbaniler (BÂDÜSBÂNÎLER)",
   kronoloji:[
-    { t:"723-01-01", tur:"kurulus", b:"Bâdüsbânî hânedanı Taberistan'da hüküm sürüyordu (ilk tarihli tanıklık)", kaynak:"badusbaniler" },
+    { t:"0723-01-01", tur:"kurulus", b:"Bâdüsbânî hânedanı Taberistan'da hüküm sürüyordu (ilk tarihli tanıklık)", kaynak:"badusbaniler" },
     { t:"1223-01-01", tur:"hanedan", b:"Çocuk yaştaki Fahrüddevle Nâmâver Bâdüsbânî tahtına geçti", kaynak:"badusbaniler" }
   ]
 },
@@ -9253,7 +9253,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"idil-bulgar", ad:"İdil (Volga) Bulgar Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"965-01-01", t:"1236-01-01", baskent:"Bulgar", boya_gerekli:true,
+  f:"0965-01-01", t:"1236-01-01", baskent:"Bulgar", boya_gerekli:true,
   ic_not_f:"f = Hazar üstünlüğünden tam bağımsızlık (965). Yerleşme VII-VIII. yy, İslâm 922 — künye kuşağı (1000+) için bağımsızlık yılı seçildi. Dört haneli yazım (0965) pad kuralı için.",
   ic_not_t:"t = Batu Han'ın 1236 seferiyle ülkenin yakılıp yıkılması (iki TDV maddesi de 1236 der). ⚠️ TDV: 'Altın Orda Devleti zamanında yarı bağımlı da olsa siyasî varlıklarını devam ettirdiler' [TDV: idil-bulgar-hanligi] (1361 Pulat Timur, 1437 Kazan). Atlas bunu tâbi (v:) olarak göstermek isterse t uzatılmalı — koordinatör hükmü; bu öneri bağımsız varlığı kapatıyor.",
   alinti_f:"bu hakanlığın doğudan gelen Peçenek ve Kuman-Kıpçak akınları ve Ruslar’dan yediği ağır bir darbe neticesinde zayıflaması üzerine 965 yılında tam olarak bağımsızlıklarını kazandılar.",
@@ -9292,7 +9292,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"koco-uygur", ad:"Koço (Turfan) Uygur Devleti — İdikutlar", tur:"devlet", bolge:"orta-asya",
-  f:"911-01-01", t:"1209-01-01", baskent:"Koço (yazlık) · Beşbalık (kışlık)", boya_gerekli:true,
+  f:"0911-01-01", t:"1209-01-01", baskent:"Koço (yazlık) · Beşbalık (kışlık)", boya_gerekli:true,
   ic_not_f:"f = uygurlar '911'de bağımsız hale gelen Uygur Devleti'. turfan 'Uygur Devleti 850 dolaylarında mevcuttu' der (yaklaşık — yazılmadı). Kuşak 1000+ olduğu için fark haritada görünmez.",
   ic_not_t:"t = 1209 bağımsızlık sonu (turfan: '1209 yılına kadar bağımsız kalmayı başardı'). ⚠️ İdikut sülâlesi Moğol tâbiiyetinde sürdü: uygurlar '1368 yılına kadar Moğol idaresinde', turfan '1353 ... Hos-hang devrinde İdikut sülâlesi sona erdi' / '1550'lere kadar bir şekilde'. Atlas tâbi (v:) gösterecekse t uzatılır — kaynaklar kendi aralarında uyuşmuyor, koordinatör hükmü. Ayrıca XII. yy Karahıtay tâbiiyeti yılsız.",
   alinti_f:"911’de bağımsız hale gelen Uygur Devleti güneyde Tibet, Batı Türkistan’da Karluk bölgesiyle sınırlıydı.",
@@ -9382,13 +9382,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"mervani", ad:"Mervânîler (Mervanoğulları)", tur:"emirlik", bolge:"anadolu",
-  f:"983-01-01", t:"1085-08-30", baskent:"Meyyâfârikīn (Silvan)", boya_gerekli:true,
+  f:"0983-01-01", t:"1085-08-30", baskent:"Meyyâfârikīn (Silvan)", boya_gerekli:true,
   ic_not_f:"TDV 373/983 verir, gün yok ⇒ 983-01-01 (kuşak dışı gerçek uç; Adudüddevle'nin ölümü Nisan 983'ten SONRA). Başlık '983-1085'. Üç haneli yıl sıfır dolgusuz yazıldı (devletler.js deseni).",
   ic_not_t:"TDV gün verir: '6 Cemâziyelevvel 478’de (30 Ağustos 1085) Meyyâfârikīn ele geçirildi ... Böylece Mervânîler hânedanı ortadan kalkmış oldu.' [TDV: mervaniler--diyarbakir] (TDV meyyafarikin aynı günü verir.) Nâsırüddevle Mansûr'un 1092-93 diriltme girişimi kısa sürdü, künye açılmadı.",
   ozet:"Kürt asıllı Bâd'ın 983'te Meyyâfârikīn'ı alarak kurduğu, Diyarbekir, Âmid, Nusaybin, Cizre ve Ahlat yöresine hükmeden İslâm hânedanı; Nasrüddevle Ahmed (1011-1061) devrinde zirveye çıktı. Melikşah'ın ordusu Âmid'i 31 Mayıs, Meyyâfârikīn'ı 30 Ağustos 1085'te alarak hânedanı sona erdirdi.",
   kaynak:"TDV: mervaniler--diyarbakir (MERVÂNÎLER, çift tireli slug; 'mervaniler' 302 ÖLÜ) — gövde okundu, HTTP 200. Ek: TDV meyyafarikin, TDV nasruddevle",
   kronoloji:[
-    { t:"983-01-01", tur:"kurulus", b:"Bâd Meyyâfârikīn'ı alarak Mervânî devletinin temellerini attı, ardından Âmid, Nusaybin, Cizre ve Ahlat taraflarını ele geçirdi (373/983)", kaynak:"TDV: mervaniler--diyarbakir" },
+    { t:"0983-01-01", tur:"kurulus", b:"Bâd Meyyâfârikīn'ı alarak Mervânî devletinin temellerini attı, ardından Âmid, Nusaybin, Cizre ve Ahlat taraflarını ele geçirdi (373/983)", kaynak:"TDV: mervaniler--diyarbakir" },
     { t:"1011-01-01", tur:"hukumdar", b:"Nasrüddevle Ahmed, ağabeyi Mümehhidüddevle'nin öldürülmesinden sonra emîr oldu (401/1011)", kaynak:"TDV: nasruddevle" },
     { t:"1085-05-31", tur:"toprak-kayip", b:"Melikşah'ın gönderdiği Fahrüddevle İbn Cehîr'in ordusu Âmid'i aldı", kaynak:"TDV: mervaniler--diyarbakir" },
     { t:"1085-08-30", tur:"son", b:"Meyyâfârikīn teslim alındı; Mervânî hânedanı ortadan kalktı", kaynak:"TDV: mervaniler--diyarbakir; TDV meyyafarikin" }
@@ -10048,7 +10048,7 @@ window.DEVLETLER = [
 },
 // ── ONCE1281-AVRUPA (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
 { id:"endulus-emevi", ad:"Endülüs Emevîleri (Kurtuba Emirliği / Hilâfeti)", tur:"hilafet", bolge:"iberya",
-  f:"756-05-15", t:"1031-01-01", baskent:"Kurtuba (Córdoba)", boya_gerekli:true,
+  f:"0756-05-15", t:"1031-01-01", baskent:"Kurtuba (Córdoba)", boya_gerekli:true,
   alinti_f:"Gece karanlığından faydalanarak bütün birliklerini nehrin karşı tarafına geçirdi ve 15 Mayıs sabahı Yûsuf el-Fihrî’nin üzerine saldırdı.",
   alinti_t:"Böylece 756’da bağımsız bir emirlik olarak kurulan Endülüs Emevî Devleti yıkılmış oldu (422/1031).",
   ic_not_f:"f = 756, 929 DEĞİL. Gerekçe: TDV 'Endülüs' maddesi devleti tek başlık altında 'Endülüs Emevîleri (756-1031). a) Emirlik Dönemi (756-929)' diye verir; 929 aynı hanedanın aynı başşehirde unvan değiştirmesidir (TDV Abdurrahman III: '929 yılında ... ilk defa “halife” ve “emîrü’l-mü’minîn” unvanını almıştır' [TDV: abdurrahman-iii]), yeni polity değil (sınıf ② mantığı). Gün: TDV Abdurrahman I, Musâre savaşını 15 Mayıs (756) verir ve 'bu zafer ona Kurtuba’nın kapılarını açtı. Böylece Endülüs Emevî Devleti’nin temelleri atılmış oldu' [TDV: abdurrahman-i] der; bağımsız emirlik ilanının ayrı günü açtığım sayfalarda yok. Üç haneli yıl: pad() ile 0756 yazıldı. Künye f kuşak (1000) öncesidir — atlasın yerleşim/harita katmanı 756'ya inmiyorsa koordinatör f'yi kırpabilir, künye ömrü olarak 756 doğrudur.",
@@ -10076,7 +10076,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"leon-kralligi", ad:"León Krallığı", tur:"krallik", bolge:"iberya",
-  f:"910-01-01", t:"1230-09-23", baskent:"León", boya_gerekli:true,
+  f:"0910-01-01", t:"1230-09-23", baskent:"León", boya_gerekli:true,
   alinti_f:"A la mort d’Alfons III la divisió del regne entre els seus fills donà origen al regne lleonès, en succeir-lo, en terres de Lleó, Àlaba i Castella, Garcia I (910-914)",
   alinti_t:"Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230).",
   ic_not_f:"Kaynak yalnız yıl verir (III. Alfonso'nun ölümü / I. García'nın tahta çıkışı, 910). Gün bilinmediği için 0910-01-01 (pad). Şartnamede anılan 914 (başkentin León'a taşınması / II. Ordoño) kaynakta krallık kuruluşu olarak geçmiyor.",
@@ -10090,7 +10090,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"barselona-kontlugu", ad:"Barselona Kontluğu (Katalan kontlukları)", tur:"kontluk", bolge:"iberya",
-  f:"801-01-01", t:"1164-01-01", baskent:"Barselona", boya_gerekli:true,
+  f:"0801-01-01", t:"1164-01-01", baskent:"Barselona", boya_gerekli:true,
   alinti_f:"Amb la reconquesta de Barcelona per Lluís el Piadós (801), el qual ajudaren hispans i gots, l’imperi franc intentava sens dubte de dominar el comtat fronterer més segur",
   alinti_t:"cosa que féu després de cedir a aquells tots els seus drets el 1164 a Barcelona.",
   ic_not_f:"Kaynak yıl verir (801); gün yok → 0801-01-01. ALTERNATİFLER (aynı GEC maddesi): 878 — Guifré I'e verilişi, kontluğun hanedana bağlanması ('A Troyes, aquell any, el comtat de Barcelona fou atribuït a un personatge del país, Guifré I el Pelós (878-897)'); 10. yy sonu — Borrell II Frank bağını fiilen kopardı ('Borrell II trencà llavors definitivament el lligam de Barcelona i dels comtats catalans amb el regne franc'), cümlede yıl yok, bağlam 985 yağmasından sonra Capet hanedanına geçiştir (987). 801-~988 arası kontluk Frank krallığına tâbidir: atlasta fransa künyesi 987'de başladığı için 801-987 çakışması yoktur, ama 987-988 civarı tâbiyet sorusu koordinatörün kararıdır. Kuşak 1000'de başladığından pratikte f her üç seçenekte de kuşağı kapsar.",
@@ -10104,7 +10104,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"normandiya", ad:"Normandiya Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
-  f:"911-01-01", t:"1204-01-01", baskent:"Rouen", boya_gerekli:true,
+  f:"0911-01-01", t:"1204-01-01", baskent:"Rouen", boya_gerekli:true,
   alinti_f:"ceded the territory around Rouen and the mouth of the Seine River to Rollo, the chief of the largest band of Vikings, in the Treaty of St. Clair-sur-Epte (911).",
   alinti_t:"culminated in the complete conquest and annexation of Normandy by Philip in 1204.",
   ic_not_f:"Kaynak yalnız yıl verir (911); gün bilinmiyor.",
@@ -10112,12 +10112,12 @@ window.DEVLETLER = [
   ozet:"Fransa kralı III. Charles'ın Saint-Clair-sur-Epte Antlaşması'yla (911) Viking reisi Rollo'ya bıraktığı Aşağı Seine toprağı; 1066'dan sonra İngiltere tacıyla birleşik, 1204'te Philippe Auguste tarafından Fransa'ya ilhak edildi.",
   kaynak:"Encyclopaedia Britannica — 'Normandy' — https://www.britannica.com/place/Normandy",
   kronoloji:[
-    { t:"911-01-01", tur:"kurulus", b:"Saint-Clair-sur-Epte Antlaşması: Rouen ve Seine ağzı Rollo'ya bırakılır" },
+    { t:"0911-01-01", tur:"kurulus", b:"Saint-Clair-sur-Epte Antlaşması: Rouen ve Seine ağzı Rollo'ya bırakılır" },
     { t:"1035-01-01", tur:"hukumdar", b:"Guillaume (sonraki Fatih William) Normandiya dükü olur" }
   ]
 },
 { id:"flandre", ad:"Flandre Kontluğu", tur:"kontluk", bolge:"bati-avrupa",
-  f:"862-01-01", t:"1384-01-30", baskent:"Brugge (Bruges)", boya_gerekli:true,
+  f:"0862-01-01", t:"1384-01-30", baskent:"Brugge (Bruges)", boya_gerekli:true,
   alinti_f:"Baldwin I Iron-Arm, married the Western Frankish king Charles II the Bald's daughter in 862 and was appointed count of Flanders.",
   alinti_t:"Louis II (born Nov. 29, 1330, Mâle Castle, near Bruges, Flanders—died Jan. 30, 1384, Saint-Omer, Flanders) was the count of Flanders, Nevers, and Réthel (1346–84)",
   ic_not_f:"Kaynak yalnız yıl verir (862).",
@@ -10125,13 +10125,13 @@ window.DEVLETLER = [
   ozet:"Fransa ile Alman krallıkları arasında yarı bağımsız kontluk; I. Baudouin'in 862'de kont atanmasıyla başlar, 1384'te II. Louis'nin ölümüyle kızı Margaret aracılığıyla Burgonya dükü Philippe le Hardi'ye geçer.",
   kaynak:"Encyclopaedia Britannica — 'Flanders (medieval principality)' — https://www.britannica.com/place/Flanders-medieval-principality-and-historical-region-Europe ; 'Louis II (count of Flanders)' — https://www.britannica.com/biography/Louis-II-count-of-Flanders",
   kronoloji:[
-    { t:"862-01-01", tur:"kurulus", b:"I. Baudouin Flandre kontu atanır" },
+    { t:"0862-01-01", tur:"kurulus", b:"I. Baudouin Flandre kontu atanır" },
     { t:"1128-01-01", tur:"hanedan", b:"Alsace hanedanı (Thierry d'Alsace) Flandre kontluğunda" },
     { t:"1384-01-30", tur:"son", b:"II. Louis ölür; Flandre Burgonya dükü Philippe le Hardi'ye geçer" }
   ]
 },
 { id:"toulouse", ad:"Toulouse Kontluğu", tur:"kontluk", bolge:"bati-avrupa",
-  f:"849-01-01", t:"1271-01-01", baskent:"Toulouse", boya_gerekli:true,
+  f:"0849-01-01", t:"1271-01-01", baskent:"Toulouse", boya_gerekli:true,
   alinti_f:"The great dynasty, however, dates from 849, when Count Fredelon, a vassal of King Pippin II of Aquitaine, delivered Toulouse to Charles II the Bald of France, who thereupon confirmed him as count.",
   alinti_t:"and when he and his wife died without issue in 1271, their enormous inheritance reverted to the royal domain.",
   ic_not_f:"Aynı kaynak 'The countship can be dated from ad 778' der; 778 Karolenj idarî kontluk, 849 hanedan kontluğunun başı. 849 seçildi (kaynak yalnız yıl).",
@@ -10139,12 +10139,12 @@ window.DEVLETLER = [
   ozet:"Güney Fransa'nın (Languedoc) büyük kontluğu; Albigens Haçlı Seferi (1209-29) ile zayıfladı, 1229 antlaşmasıyla mirası Capet'lere bağlandı, 1271'de Alphonse de Poitiers'nin ölümüyle Fransa tacına katıldı.",
   kaynak:"Encyclopaedia Britannica — 'Toulouse (medieval county)' — https://www.britannica.com/place/Toulouse-medieval-county-France ; 'Alphonse of Poitiers' — https://www.britannica.com/biography/Alphonse-of-Poitiers",
   kronoloji:[
-    { t:"849-01-01", tur:"kurulus", b:"Kont Fredelon Toulouse'u Kel Charles'a teslim eder, kont olarak onaylanır" },
+    { t:"0849-01-01", tur:"kurulus", b:"Kont Fredelon Toulouse'u Kel Charles'a teslim eder, kont olarak onaylanır" },
     { t:"1222-01-01", tur:"hukumdar", b:"VII. Raymond Toulouse kontu olur" }
   ]
 },
 { id:"arles-kralligi", ad:"Burgonya (Arles) Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"933-01-01", t:"1032-09-06", baskent:"Arles / Vienne", boya_gerekli:true,
+  f:"0933-01-01", t:"1032-09-06", baskent:"Arles / Vienne", boya_gerekli:true,
   alinti_f:"It was later divided into Cisjurane (Lower) Burgundy, or Provence (founded 879), and Transjurane (Upper) Burgundy (founded 888); they united in 933 to form the kingdom of Burgundy.",
   alinti_t:"Rudolf III (born c. 970—died Sept. 5/6, 1032) was the last of the independent kings of Burgundy (993–1032).",
   ic_not_f:"Kaynak yalnız yıl verir (933).",
@@ -10152,8 +10152,8 @@ window.DEVLETLER = [
   ozet:"Aşağı Burgonya (Provence) ile Yukarı (Jura ötesi) Burgonya'nın 933'te birleşmesiyle oluşan krallık; son bağımsız kral III. Rudolf'un 1032'de ölümüyle Kutsal Roma imparatoru II. Konrad'a geçti.",
   kaynak:"Encyclopaedia Britannica — 'Burgundy summary' — https://www.britannica.com/summary/Burgundy ; 'Rudolf III' — https://www.britannica.com/biography/Rudolf-III-king-of-Burgundy",
   kronoloji:[
-    { t:"933-01-01", tur:"kurulus", b:"Aşağı ve Yukarı Burgonya birleşerek Burgonya (Arles) Krallığı'nı oluşturur" },
-    { t:"993-01-01", tur:"hukumdar", b:"III. Rudolf Burgonya kralı olur" }
+    { t:"0933-01-01", tur:"kurulus", b:"Aşağı ve Yukarı Burgonya birleşerek Burgonya (Arles) Krallığı'nı oluşturur" },
+    { t:"0993-01-01", tur:"hukumdar", b:"III. Rudolf Burgonya kralı olur" }
   ]
 },
 { id:"gwynedd", ad:"Gwynedd Krallığı / Galler Prensliği", tur:"prenslik", bolge:"bati-avrupa",
@@ -10170,7 +10170,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"sicilya-emirligi", ad:"Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)", tur:"emirlik", bolge:"italya",
-  f:"947-01-01", t:"1091-01-01", baskent:"Palermo (Belerm)", boya_gerekli:true,
+  f:"0947-01-01", t:"1091-01-01", baskent:"Palermo (Belerm)", boya_gerekli:true,
   alinti_f:"Fâtımî Halifesi Mansûr-Billâh’ın Benî Taberî isyanını bastırmak için Hasan b. Ali el-Kelbî’yi yarı müstakil idare yetkisi vererek Sicilya’ya göndermesi (335/947)",
   alinti_t:"1091’de Noto’nun zaptıyla İslâm hâkimiyeti sona erdi.",
   ic_not_f:"TDV yalnız yıl verir (335/947); 335 H. yılı Ağustos 946 - Temmuz 947 arasıdır, gün bilinmiyor. Görevde önerilen 948 Treccani'nin (Kalbiti: \"948-1040\") yılıdır; TDV birincil olduğu için 947 yazıldı.",
@@ -10178,7 +10178,7 @@ window.DEVLETLER = [
   ozet:"Fâtımîler adına yarı bağımsız yöneten Kelbî valileri (947-1053) ve onların yıkılışından sonra adayı bölüşen mahallî emirlikler; Normanlar 1061-1091 arasında adayı aldı.",
   kaynak:"TDV İslâm Ansiklopedisi — 'KELBÎLER' (İ. Altan) — https://islamansiklopedisi.org.tr/kelbiler · TDV İslâm Ansiklopedisi — 'SİCİLYA' (M. H. Şakiroğlu) — https://islamansiklopedisi.org.tr/sicilya",
   kronoloji:[
-    { t:"947-01-01", tur:"kurulus", b:"Hasan b. Ali el-Kelbî Sicilya valisi: Kelbî emirliği başlar" },
+    { t:"0947-01-01", tur:"kurulus", b:"Hasan b. Ali el-Kelbî Sicilya valisi: Kelbî emirliği başlar" },
     { t:"1091-01-01", tur:"son", b:"Noto'nun Normanlarca alınışı: Sicilya'da İslâm hâkimiyetinin sonu" }
   ]
 },
@@ -10224,7 +10224,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"izlanda-serbest-devleti", ad:"İzlanda Serbest Devleti (Althing dönemi)", tur:"devlet", bolge:"kuzey-avrupa",
-  f:"930-01-01", t:"1262-01-01", baskent:"Þingvellir (Althing; başkent yok)", boya_gerekli:true,
+  f:"0930-01-01", t:"1262-01-01", baskent:"Þingvellir (Althing; başkent yok)", boya_gerekli:true,
   alinti_f:"I 930 ble «Ulvljots-lovene», som hadde Gulatingsloven som mønster, etter tradisjonen vedtatt på det første allting",
   alinti_t:"Gamli sáttmáli er en avtale fra 1262 mellom islendingene og den norske konge Håkon Håkonsson om islandsk underkastelse under Norge som skattland.",
   ic_not_f:"930 GELENEKSEL yıldır ('etter tradisjonen'; aynı maddede 'rundt 930'). Gün yok.",
@@ -10264,7 +10264,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"kiev-rusu", ad:"Kiev Rus'u (Kiev Büyük Knezliği)", tur:"knezlik", bolge:"dogu-avrupa",
-  f:"882-01-01", t:"1240-12-06", baskent:"Kiev", boya_gerekli:true,
+  f:"0882-01-01", t:"1240-12-06", baskent:"Kiev", boya_gerekli:true,
   alinti_f:"In 882 they were killed by Prince Oleh, the son of Riuryk of Novgorod.",
   alinti_t:"After taking Kyiv he massacred its residents on 6 December 1240 and laid waste the city.",
   ic_not_f:"Kaynak yalnız yıl verir (882) → 0882-01-01 (dört hane, pad kuralı). EU: Askold ve Dir'i öldüren Oleh (Oleg). TDV rusya kuruluş yılı vermez, yalnız 'Rurik’in (ö. 879) kurduğu hânedanın idaresi altında ortaya çıkan' der.",
@@ -10292,7 +10292,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"birinci-bulgar", ad:"Birinci Bulgar Devleti (Tuna Bulgar Devleti; Samuil dönemi)", tur:"devlet", bolge:"balkanlar",
-  f:"681-01-01", t:"1018-01-01", baskent:"Pliska → Preslav; 971 sonrası Sredets → Prespa → Ohri", boya_gerekli:true,
+  f:"0681-01-01", t:"1018-01-01", baskent:"Pliska → Preslav; 971 sonrası Sredets → Prespa → Ohri", boya_gerekli:true,
   alinti_f:"Asparuh’la anlaşma yaparak Slav-Bulgar Devleti’ne yıllık vergi ödemeyi kabul etti, dolayısıyla bu devletin varlığını tanıdı (681).",
   alinti_t:"1018’de ise İmparator Vasiliy’in Bulgar başşehri Ohri’ye girmesiyle Bulgar toprakları tamamıyla Bizans hâkimiyetine girmiş",
   ic_not_f:"Yalnız yıl (681). TDV idil-bulgar-hanligi aynı yılı verir ('681 yılında Tuna Bulgar Devleti’ni kurdu').",
@@ -10320,7 +10320,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hirvatistan-kralligi", ad:"Hırvatistan Krallığı", tur:"krallik", bolge:"balkanlar",
-  f:"925-01-01", t:"1102-01-01", baskent:"Knin · Biograd (kaynak sabit başkent vermez; HE 'Petar': 'Prijestolnica mu je bila u Kninu')", boya_gerekli:true,
+  f:"0925-01-01", t:"1102-01-01", baskent:"Knin · Biograd (kaynak sabit başkent vermez; HE 'Petar': 'Prijestolnica mu je bila u Kninu')", boya_gerekli:true,
   alinti_f:"sadržava bilješke o splitskim crkvenim saborima 925. i 928. te prijepise tom prigodom upućenih pisama papa Ivana X. i Lava VI.",
   alinti_t:"a 1102. ponovno se okrenuo politici prodora na jug pa je, kako je zabilježeno u Kartularu samostana sv. Marije u Zadru, u Biogradu bio okrunjen za kralja Hrvatske i Dalmacije",
   ic_not_f:"⚠️ 925 bir TAÇ GİYME tarihi değildir: HE, 925 taç giyme tezinin 19. yy tarihçiliğine ait olduğunu ve Duvno taç giymesi tezinin 'u potpunosti odbačena' olduğunu yazar. 925 = Split kilise meclisi ve papa mektubunda Tomislav'ın 'kralju Hrvata' diye anılması. Tomislav'ın tek kesin tarihi 914 (dux). Krallık başlangıcı olarak 925 kaynaklı ama TEMSİLÎ bir eşiktir; kuşak (1000+) dışında kalır.",
@@ -10348,53 +10348,53 @@ window.DEVLETLER = [
 },
 // ── ONCE1281-KUNYE-1945-0930-ANADOLU-C (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
 { id:"ani-bagratli-kralligi", ad:"Ani Bagratlı Ermeni Krallığı", tur:"krallik", bolge:"kafkasya",
-  f:"884-01-01", t:"1045-01-01", baskent:"Ani (962'den; önce Bagaran, Kars)", boya_gerekli:true,
+  f:"0884-01-01", t:"1045-01-01", baskent:"Ani (962'den; önce Bagaran, Kars)", boya_gerekli:true,
   ic_not_f:"Iranica BAGRATIDS (tarayıcıda birebir): 'the Bagratids monopolized the office of presiding prince and then, in 884, converted it into kingship' — yıl; gün yok.",
   ic_not_t:"Iranica yıl verir (1045); gün yok. Alıntı tarayıcıda birebir doğrulandı.",
   alinti_dogrulama:"birebir",
   ozet:"I. Aşot'un 884'te krallığa dönüştürdüğü Bagratlı Ermenistanı; III. Aşot merkezi Ani'ye taşıdı, son kral II. Gagik 1045'te İstanbul'da tahttan feragate zorlanınca Bizans'a katıldı.",
   kaynak:"Encyclopaedia Iranica, C. Toumanoff, 'BAGRATIDS' — https://www.iranicaonline.org/articles/bagratids-dynasty/ ; TDV: kars (KARS) Ani'ye taşınma. TDV'de 'ani' maddesi yok (slug 302; ani--sehir, ani-sehri, ani--kars, ani--kale 302; arama isabetsiz).",
   kronoloji:[
-    { t:"884-01-01", tur:"kurulus", b:"Bagratlı Aşot prensliği krallığa dönüştürdü", kaynak:"Iranica, Toumanoff, BAGRATIDS" },
-    { t:"962-01-01", tur:"hukumdar", b:"III. Aşot krallığın merkezini Ani'ye taşıdı, Vanand'ı (Kars) kardeşi Muşeg'e verdi", kaynak:"TDV: kars (Iranica arama özeti 961 der — TDV esas)" },
+    { t:"0884-01-01", tur:"kurulus", b:"Bagratlı Aşot prensliği krallığa dönüştürdü", kaynak:"Iranica, Toumanoff, BAGRATIDS" },
+    { t:"0962-01-01", tur:"hukumdar", b:"III. Aşot krallığın merkezini Ani'ye taşıdı, Vanand'ı (Kars) kardeşi Muşeg'e verdi", kaynak:"TDV: kars (Iranica arama özeti 961 der — TDV esas)" },
     { t:"1045-01-01", tur:"son", b:"Son kral II. Gagik İstanbul'a çağrılıp tahttan feragate zorlandı, Ani Bizans'a geçti", kaynak:"Iranica, Toumanoff, BAGRATIDS" }
   ]
 },
 { id:"kars-vanand-kralligi", ad:"Kars (Vanand) Ermeni Krallığı", tur:"krallik", bolge:"kafkasya",
-  f:"962-01-01", t:"1064-01-01", baskent:"Kars", boya_gerekli:true,
+  f:"0962-01-01", t:"1064-01-01", baskent:"Kars", boya_gerekli:true,
   ic_not_f:"TDV yıl verir (962); Iranica 962 ile uyuşur. Gün yok.",
   ic_not_t:"TDV: 456/1064'te Gagik Alparslan'a itaat, Kars 'askerî harekât olmadan Selçuklu topraklarına katıldı' [TDV: kars]; Bizans'a devir yılı TDV'de yok. Iranica BAGRATIDS (tarayıcıda birebir): 'the kings of Kars (962-1064)' ve 'In 1064, the king of Kars ceded his state to the emperor.'",
   alinti_dogrulama:"birebir",
   ozet:"Bagratlı III. Aşot'un kardeşi Muşeg'e verdiği Vanand (Kars) Bagratlı kolu; son hükümdar Gagik 1064'te Alparslan'a itaat etti, ardından ülkesini Zamantı çevresi karşılığında Bizans'a devretti.",
   kaynak:"TDV: kars (KARS); Encyclopaedia Iranica, Toumanoff, 'BAGRATIDS' ('the kings of Kars (962-1064)')",
   kronoloji:[
-    { t:"962-01-01", tur:"kurulus", b:"III. Aşot Vanand bölgesini merkezi Kars olmak üzere kardeşi Muşeg'e verdi", kaynak:"TDV: kars" },
+    { t:"0962-01-01", tur:"kurulus", b:"III. Aşot Vanand bölgesini merkezi Kars olmak üzere kardeşi Muşeg'e verdi", kaynak:"TDV: kars" },
     { t:"1064-01-01", tur:"tabi", b:"Vanand Prensi Gagik, Ani'ye yürüyen Alparslan'a itaatini bildirdi", kaynak:"TDV: kars" },
     { t:"1064-01-01", tur:"son", b:"Gagik, Zamantı çevresindeki kasabalar karşılığında ülkesini Bizans'a devretti", kaynak:"TDV: kars (yıl Iranica BAGRATIDS)" }
   ]
 },
 { id:"lori-kralligi", ad:"Taşir-Dzoraget (Lori) Ermeni Krallığı", tur:"krallik", bolge:"kafkasya",
-  f:"982-01-01", t:"1101-01-01", baskent:"Lori", boya_gerekli:true,
+  f:"0982-01-01", t:"1101-01-01", baskent:"Lori", boya_gerekli:true,
   ic_not_f:"Iranica yıl verir (982); gün yok. TDV'de madde yok (Lori yalnız Osmanlı sancağı olarak geçiyor).",
   ic_not_t:"🟡 Iranica BAGRATIDS (tarayıcıda birebir): 'the kings of Lorī (982, surviving until ca. 1101)' — YAKLAŞIK yıl. Aynı madde 'The Armenian Bagratids (of the house of Lorī) disappear from history in the thirteenth century' der (hânedan, krallık değil). Brifingdeki 1118 hiçbir açılmış kaynakta yok. Koordinatör 'ca.' ucunu kabul etmezse kayıt bulunamadi'ya taşınmalı.",
   alinti_dogrulama:"birebir",
   ozet:"Bagratlıların Taşir'de Lori merkezli kolu (Kiurikyanlar); 982'de krallık, XII. yüzyıl başında sona erdi.",
   kaynak:"Encyclopaedia Iranica, C. Toumanoff, 'BAGRATIDS' — https://www.iranicaonline.org/articles/bagratids-dynasty/",
   kronoloji:[
-    { t:"982-01-01", tur:"kurulus", b:"Taşir'de Lori merkezli Bagratlı krallığı kuruldu", kaynak:"Iranica, Toumanoff, BAGRATIDS" },
+    { t:"0982-01-01", tur:"kurulus", b:"Taşir'de Lori merkezli Bagratlı krallığı kuruldu", kaynak:"Iranica, Toumanoff, BAGRATIDS" },
     { t:"1101-01-01", tur:"son", b:"Lori krallığı XII. yüzyıl başında sona erdi (yaklaşık yıl)", kaynak:"Iranica, Toumanoff, BAGRATIDS ('ca. 1101')" }
   ]
 },
 { id:"seddadiler-gence", ad:"Şeddâdîler (Gence/Arrân kolu)", tur:"emirlik", bolge:"kafkasya",
-  f:"951-01-01", t:"1075-01-01", baskent:"Dvin, 971'den Gence", boya_gerekli:true,
+  f:"0951-01-01", t:"1075-01-01", baskent:"Dvin, 971'den Gence", boya_gerekli:true,
   ic_not_f:"TDV yıl verir (951). Iranica SHADDADIDS (tarayıcıda birebir): 'to establish himself in Dvin in Armenia ... in about 951'. Gün yok. Iranica'ya göre Gence 969 ya da 970'te alındı (TDV 360/971) — kronolojide TDV.",
   ic_not_t:"TDV '468/1075-76'; Iranica SHADDADIDS (tarayıcıda birebir): 'Sav Tegin, who seized the region by force from Fażlun in 1075, ending the dynasty’s reign.' Milâdî yıl Iranica'dan. Gün yok.",
   alinti_dogrulama:"birebir",
   ozet:"Muhammed b. Şeddâd'ın 951'de Dvin'de kurduğu, 971'de Gence'yi alarak Arrân'a yayılan Kürt asıllı hânedan; 1054'te Tuğrul Bey'e tâbi oldu, Melikşah'ın emîri Savtegin'in Arrân'ı zaptıyla sona erdi.",
   kaynak:"TDV: seddadiler (ŞEDDÂDÎLER, G. Öğün Bezer); Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS' — https://www.iranicaonline.org/articles/shaddadids/",
   kronoloji:[
-    { t:"951-01-01", tur:"kurulus", b:"Muhammed b. Şeddâd Dvin'i ele geçirip hânedanı kurdu", kaynak:"TDV: seddadiler" },
-    { t:"971-01-01", tur:"toprak-kazanc", b:"Fazl ile Ali el-Leşkerî Gence'yi ele geçirdi", kaynak:"TDV: seddadiler (360/971)" },
+    { t:"0951-01-01", tur:"kurulus", b:"Muhammed b. Şeddâd Dvin'i ele geçirip hânedanı kurdu", kaynak:"TDV: seddadiler" },
+    { t:"0971-01-01", tur:"toprak-kazanc", b:"Fazl ile Ali el-Leşkerî Gence'yi ele geçirdi", kaynak:"TDV: seddadiler (360/971)" },
     { t:"1054-01-01", tur:"tabi", b:"Tuğrul Bey Gence önlerine gelince Ebü'l-Esvâr Selçuklulara itaat arzetti", kaynak:"TDV: seddadiler" },
     { t:"1075-01-01", tur:"son", b:"Melikşah'ın emîri Savtegin Arrân'ı zaptetti; Gence kolu sona erdi", kaynak:"TDV: seddadiler (468/1075-76); Iranica SHADDADIDS (1075)" }
   ]
@@ -10415,14 +10415,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"derbent-hasimi-emirligi", ad:"Derbend (Bâbülebvâb) Hâşimî Emirliği", tur:"emirlik", bolge:"kafkasya",
-  f:"869-01-01", t:"1065-01-01", baskent:"Derbend (Bâbülebvâb)", boya_gerekli:true,
+  f:"0869-01-01", t:"1065-01-01", baskent:"Derbend (Bâbülebvâb)", boya_gerekli:true,
   ic_not_f:"TDV yıl verir (869); Iranica ĀL-E HĀŠEM (tarayıcıda birebir) 'proclaimed his independence at Bāb-al-abwāb (ca. 255/869)'. Gün yok. TDV 'derbend'/'derbent' slug'ları 302; madde `derbend--dagistan` slug'ında.",
   ic_not_t:"TDV bitişi VERMİYOR. Iranica ĀL-E HĀŠEM (tarayıcıda birebir): 'Manṣūr b. ʿAbd-al-Malek (revolts; killed 457/1065). The country was soon occupied by the Šervānšāhs, then, at least nominally, by the Saljuqs.' Milâdî yıl Iranica'dan; devir 'soon' — kesin yıl yok.",
   alinti_dogrulama:"birebir",
   ozet:"Abbâsî zaafında Hâşim b. Sürâka'nın Derbend'de kurduğu Arap asıllı emirlik; son emîr Mansûr b. Abdülmelik'in 1065'te öldürülmesinden sonra ülke Şirvanşahlar'ın, ardından en azından adıyla Selçukluların eline geçti.",
   kaynak:"TDV: derbend--dagistan (DERBEND); Encyclopaedia Iranica, C. Cahen, 'ĀL-E HĀŠEM' — https://www.iranicaonline.org/articles/al-e-hasem-3rd-5th-9th-11th-century-local-dynasty-of-the-region-of-darband-bab-al-abwab/",
   kronoloji:[
-    { t:"869-01-01", tur:"kurulus", b:"Hâşim b. Sürâka Derbend'de bağımsızlığını ilân etti", kaynak:"TDV: derbend--dagistan; Iranica ĀL-E HĀŠEM" },
+    { t:"0869-01-01", tur:"kurulus", b:"Hâşim b. Sürâka Derbend'de bağımsızlığını ilân etti", kaynak:"TDV: derbend--dagistan; Iranica ĀL-E HĀŠEM" },
     { t:"1065-01-01", tur:"son", b:"Son Hâşimî emîri Mansûr b. Abdülmelik öldürüldü; ülke kısa sürede Şirvanşahlar'ın eline geçti", kaynak:"Iranica, Cahen, ĀL-E HĀŠEM" }
   ]
 },
