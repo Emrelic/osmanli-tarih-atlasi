@@ -5861,3 +5861,4 @@
 | M-5850 | 2026-10-09 23:17 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum · oturum local_27133594 (başlık henüz 'Kita', adlandırılmamış) |
 | M-5851 | 2026-10-09 23:17 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum |
 | M-5852 | 2026-10-09 23:17 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
+| M-5853 | 2026-10-09 23:17 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5.5 · görev bekliyorum |
