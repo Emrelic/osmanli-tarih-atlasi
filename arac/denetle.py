@@ -5860,6 +5860,54 @@ def degismez8_rapor(Y, ayrinti=False, defter_yaz=False, kor_defter_yaz=False, ko
 #    emsali. Dosya yoksa/bozuksa soru ÖLÇÜLEMEDİ kovasına düşer, temiz sayılmaz.
 # Sınav (üç yönde: temiz · kirli · İYİLEŞME; üçü GERÇEK koşu):
 #    py denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py
+# 🔴 YALANCI İYİLEŞME — PENCERE ŞARTI (9 Ekim 2026, KAYNAK-PENCERE-1009;
+#    vaka KAYNAK-TAVAN-YALANCI-IYILESME-1009). ARTIK KAPI BUNU YAPIYOR; aşağısı
+#    NİÇİN öyle olduğunun tarihçesidir.
+#    VAKA: ZAMAN-Z5 gövdesi eklediği 1923-1945 dönemine kendi `kaynak:` metnini
+#    yazıyordu; eski ölçüt ("herhangi bir `s:` döneminde kaynak var") 418 kaydı
+#    "hiçbiri"nden "dönem-içi"ne taşıdı (1880 → 1462). ZAMAN-Z6'nın 1281 öncesi
+#    dönem kaynakları aynı sınıftan −46 (1880 → 1834). BİRLİKTE −439 (1880 →
+#    1441), −464 DEĞİL: 25 kayıt iki yamada da ufuk dışı kaynak alıyor (KAYNAK-
+#    PENCERE-1009, iki gövde aynı ağaçta GERÇEK `--yaz` ile ölçüldü). O kaynaklar
+#    YALNIZ ufuk DIŞINI tarihler; kaydın 1281-1923 zincirinin borcu KAPANMAMIŞTI.
+#    PENCERELİ ölçüm: Z5 0 · Z6 −39 · birlikte −39 (1880 → 1841). ⚠️ Kalan 39
+#    Z6'nın "f 1281-01-01'den geri çekildi" dönemleridir: dönem pencereye TAŞAR
+#    (ör. İstanbul bizans [1261-07-25, 1453-05-29)) ve şart onu dönem-içi sayar,
+#    ama kaynak metni yalnız 1281 öncesi `f`yi tarihler — pencere bu alt sınıfı
+#    GÖRMEZ (kaynağın HANGİ ucu tarihlediği veride yazılı değil). Adları:
+#    denetim/KAYNAK-PENCERE-1009.md. Düşüş
+#    ölçülen şeyden değil ÖLÇME BİÇİMİNDEN geliyordu ⇒ `--kaynak-tavan-indir`
+#    onu "iyileşme" diye defterden siler, borcu SESSİZLEŞTİRİRDİ (§3.4③ yalancı
+#    iyileşmeye UYGULANMAZ).
+#    ÇARE (kod, yorum değil): `kaynaksizlik_olc` bir kaydı "dönem-içi" saymak için
+#    kaynağı dolu en az bir `s:` döneminin VERİ UFKU ile KESİŞMESİNİ şart koşar.
+#    Kaynağı yalnız ufuk dışı dönemlerde olan kayıt "hiçbiri"nde kalır.
+#    PENCERE = `girdi.VERI_UFKU` (verinin TAM yazıldığı pencere — borç oradadır);
+#    o ad yoksa `girdi.UFUK` (ZAMAN-Z1'den önceki girdi.py'de tek ufuk oydu ve
+#    aynı değeri taşır: 1281-01-01 … 1923-10-29). ⚠️ `UFUK` DEĞİL: ZAMAN-Z1
+#    `UFUK`u motor/arayüz penceresi yapıp 1000-1945'e açar — onunla kesişme
+#    sorulursa şart Z5/Z6 dönemlerini İÇERİ alır ve hiçbir şey çözmez (ölçüldü:
+#    Z5+Z6 ağacında UFUK penceresiyle hiçbiri 1441 = penceresiz ölçümün aynısı).
+#    ⚠️ VERI_UFKU GENİŞLERSE ölçüm evreni genişler: o gün yeni pencereye düşen
+#    dönem kaynakları kayıtları dönem-içi'ne taşır. Bu bir KAPSAM değişimidir,
+#    iyileşme DEĞİL — genişletme commit'i düşüşü adıyla beyan eder ve
+#    `--kaynak-tavan-indir` o commit'te koşturulmaz (§3.4②, D255).
+#    Kayıt düzeyindeki `kaynak:` mantığı DEĞİŞMEDİ (kayıt kaynağı bütün zinciri
+#    tarihler — pencereyle sorgulanmaz). `isg:` kovası DEĞİŞMEDİ (ayrı soru).
+#    UÇLAR: dönem `[f, t)` YARI AÇIKTIR — `girdi.kd_gun` (`f <= gun < t`) ve
+#    `girdi.kd_oku`nun türetilmiş dönemi (`t` = pencerenin kapısı) ile aynı
+#    sözleşme. Pencere de `[P0, P1)`: kesişme ⇔ `f < P1` ve
+#    `t > P0`. ⇒ `t = 1281-01-01` ile biten dönem DIŞARIDA (Z6'nın sınırı),
+#    `f = 1923-10-29` ile başlayan dönem DIŞARIDA (Z5'in sınırı). `f`/`t` yoksa
+#    açık uç (`""` / `"9999"`, `kd_gun` ile aynı) — bugün 14.523 dönemin hepsi
+#    `YYYY-AA-GG` taşıyor (9 Ekim ölçümü), uç kuralı yalnız sigortadır.
+#    ÖLÇÜM: origin/main 9d76de1e (Z6 öncesi) pencere 0 kaydın kovasını değiştirir
+#    (1880 → 1880). origin/main 85288262 (Z6 İNDİ, e54e60df) pencere 7 kaydı
+#    dönem-içi→hiçbiri taşır (1834 → 1841): Kayseri · Kırşehir · Sinop · Sivas ·
+#    Tokat · Van · Çankırı — kaynaklı dönemlerinin HEPSİ `t = 1281-01-01`de biter.
+#    Yedisi de hiçbiri DEFTERİNDE ⇒ kapı ötmez; denetle.py çıkışı iki tabanda da
+#    önce/sonra AYNI (2 — UMIT'te D8 ölçülemedi).
+#    Sınav (iki yön, Z5+Z6 GERÇEK uygulanarak): py denetim/ARAC-KAYNAK-PENCERE-SINAV-1009.py
 KAYNAK_TAVAN_YOL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                                 "denetim", "KAYNAK-TAVAN.json")
 
@@ -5871,9 +5919,21 @@ def _kaynak_dolu(v):
     return bool(v)
 
 
-def kaynaksizlik_olc(Y):
+# Bu kapı girdi.VERI_UFKU'na dayanır (bugün 1281-1923). O sabiti değiştiren, bu ölçümü de değiştirir.
+def _donem_pencerede(p, ufuk):
+    """`s:` dönemi `[f, t)` ufuk penceresi `[ufuk[0], ufuk[1])` ile kesişiyor mu
+    (KAYNAK_TAVAN_YOL üstündeki PENCERE ŞARTI; uç yoksa açık — `kd_gun` gibi)."""
+    return (p.get("f") or "") < ufuk[1] and (p.get("t") or "9999") > ufuk[0]
+
+
+def kaynaksizlik_olc(Y, ufuk=None):
     """`s:` taşıyan kayıtları üç kovaya ayırır. Anahtar `dosya|ad`.
-    Döner: {s_tasiyan, kayit_kaynaksiz, donem_ici, hicbiri} → sıralı liste."""
+    Döner: {s_tasiyan, kayit_kaynaksiz, donem_ici, hicbiri} → sıralı liste.
+    dönem-içi = kaynağı dolu en az bir `s:` dönemi VERI_UFKU ile kesişiyor
+    (PENCERE ŞARTI, 9 Ekim 2026); yalnız ufuk dışı dönem kaynağı → hiçbiri."""
+    if ufuk is None:
+        import girdi
+        ufuk = getattr(girdi, "VERI_UFKU", None) or girdi.UFUK
     K = {"s_tasiyan": [], "kayit_kaynaksiz": [], "donem_ici": [], "hicbiri": []}
     for y in Y:
         if not y.get("s"):
@@ -5883,7 +5943,8 @@ def kaynaksizlik_olc(Y):
         if _kaynak_dolu(y.get("kaynak")):
             continue
         K["kayit_kaynaksiz"].append(a)
-        if any(isinstance(p, dict) and _kaynak_dolu(p.get("kaynak")) for p in y["s"]):
+        if any(isinstance(p, dict) and _kaynak_dolu(p.get("kaynak"))
+               and _donem_pencerede(p, ufuk) for p in y["s"]):
             K["donem_ici"].append(a)
         else:
             K["hicbiri"].append(a)
@@ -5973,6 +6034,15 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
           f"kayıt-kaynaksız {nk} (tavan {tk}) — BEYAN borcu, yalnız gerileme bloke eder")
     print(f"            i dönem-içi kaynaklı {nd} (BİLGİ — iyileşmeyle iki yönde de "
           f"hareket eder) · {nk} = {nd} + {nh} · `s:` taşıyan {len(K['s_tasiyan'])}")
+    # BEYANLI SINIR (KAYNAK-PENCERE-1009 § v2): tavan dosyasının `_BEYANLI_SINIR`
+    # alanı yalnız BASILIR — kapının hükmüne, defterlere ve sayılara KATILMAZ.
+    # Pencerenin göremediği alt sınıfın (Z6 "f geri çekildi" dönemleri) adıyla
+    # beyanıdır; listenin ölçümle tutarlılığını ARAC-KAYNAK-PENCERE-SINAV-1009 sorar.
+    _bs = T.get("_BEYANLI_SINIR") if isinstance(T, dict) else None
+    if isinstance(_bs, dict) and isinstance(_bs.get("kayitlar"), list):
+        print(f"            i BEYANLI SINIR: {len(_bs['kayitlar'])} kayıt pencerede dönem-içi "
+              f"sayılır ama kaynağı yalnız 1281 öncesini tarihler (`_BEYANLI_SINIR`, "
+              f"çare kaynak_f — ayrı kalem)")
     if ihlal or ayrinti:
         for k in (yeni_h if ayrinti else yeni_h[:15]):
             print(f"    KAYNAKSIZ YENİ  {k}  → kayda `kaynak:` yaz (bulunamadıysa `bulunamadı`)")
