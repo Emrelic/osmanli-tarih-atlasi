@@ -5892,3 +5892,6 @@
 | M-5881 | 2026-10-09 21:27 | HAZIR KITA 0910.2126.09 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
 | M-5882 | 2026-10-09 21:28 | HAZIR KITA 0910.2127.21 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
 | M-5883 | 2026-10-09 21:28 | HAZIR KITA 0910.2127.38 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
+| M-5884 | 2026-10-09 21:28 | HAZIR KITA 0910.2127.47 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
+| M-5885 | 2026-10-09 21:28 | HAZIR KITA 0910.2127.58 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
+| M-5886 | 2026-10-09 21:28 | HAZIR KITA 0910.2128.16 | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
