@@ -7,6 +7,81 @@ Makine çıktısı: `denetim/ZAMAN-Z5-1008.json` (nokta nokta kova + geçiş) ·
 
 ---
 
+## ★ SON DURUM — TEK TESLİM (9 Ekim 2026)
+Bu bölüm aşağıdakilerin yerine geçer. Aşağıdaki bölümler ara teslimin kaydıdır; sayılar ilk sürüme aittir.
+
+### Yama: 3.982 kayıt / 4.130 nokta (%96,4)
+| kova | kayıt | ne |
+|---|---|---|
+| A_mekanik | 3.203 | s: de jure değişmiyor, yalnız t uzar · beyan kaydın `not:`'unda (çıkarım, D207) |
+| B_kalici | 52 | Hatay · Musul · Hicaz · Suudi adı · Besarabya · G.Dobruca · Viipuri · Petsamo · Chaco |
+| C | 265 | tbmm-turkiye 263 → turkiye-cumhuriyeti · bhopal/surakarta uzatma (ön şart) |
+| D | 176 | Kaçar 108 → iran 1925-12-12 (üst sınır, gün komşudan) · Almanya 30 → müttefik işgali 1945-06-05 · Somali 11 → italya 1927 · Moğolistan 13 · Baltık 13 (1940-08-06, TARTIŞMALI) · Buhara 1 (1924-10-27, ÜST SINIR) |
+| V_himaye | 39 | Tunus 36 (isg:fransa + v:tunus-beyligi-fransiz) · Kuveyt/Katar 3 — himaye uzar, çıkarım beyanlı |
+| **HS①②③** | **247** | koordinatörün HUKUKÎ SONUÇ ölçütü (aşağıda) |
+
+### HS — hukukî sonuç (koordinatör kararı), kova kaydın `not:`'unda adıyla
+| | grup | nokta | geçiş · gün dayanağı |
+|---|---|---|---|
+| ① | Avusturya | 12 | →almanya 1938-03-13 (AVALON judaus) →avusturya-ikinci-cumhuriyet 1945-04-01 (AY, BRIT) |
+| ① | Arnavutluk | 15 | →italya 1939-04-07 (USHMM 'annexes') →arnavutluk-halk-cumhuriyeti 1944-11-29 (TDV) · 1943 Alman isg: GÜN YOK, yazılmadı |
+| ① | Habeşistan | 64 + Cimma | →italya 1936-05-09 (BRIT 'annexed May 9') →habesistan 1941-05-05 (TDV etiyopya) |
+| ① | Südet | 2 | →almanya 1938-10-01 (Münih) →cekoslovakya 1945-05-08 (AVALON gs11) |
+| ① | G. Slovakya | 5 | →macaristan-naiplik 1938-11-02 →cekoslovakya 1945-01-20 (iki madde) |
+| ① | Doğu Polonya | 9 | →sovyet-rusya 1939-09-28 (USHMM, paylaşım) |
+| ① | Königsberg | 1 | →almanya-muttefik-isgali 1945-06-05 →sovyet-rusya 1945-08-02 (Potsdam) |
+| ① | Çinhindi→Tayland | 4 | →siyam-chakri 1941-05-09 (FRUS) · TARTIŞMALI |
+| ② | NDH | 38 | →hirvatistan-bagimsiz 1941-04-10 (USHMM) →yugoslavya 1945-05-31 (ÜST SINIR) |
+| ② | Mançurya / Rehe | 9 / 2 | →mancukuo 1932-03-09 (BRIT) / 1933-03-04 →cin-cumhuriyeti 1945-08-31 (ÜST SINIR) |
+| ② | Slovakya | 4 | →slovakya-cumhuriyeti 1939-03-14 →cekoslovakya 1945-04-04 (USHMM) |
+| ③ | Protektora | 6 | s: cekoslovakya · isg: almanya 1939-03-15 → 1945-05-08 (AVALON) |
+| ③ | Yugoslavya İtalyan / Bulgar / Macar | 14 / 9 / 3 | s: yugoslavya · isg: italya 1941-04-17→1943-09-08 · bulgaristan →1944-10-28 · macaristan →1945-01-20 |
+| ③ | Yugoslavya Alman | 10 | s: uzar · Alman isg: BİTİŞ GÜNÜ YOK, yazılmadı |
+| ③ | İng. Somalisi | 16 | s: ingiltere · isg: italya 1940-08-19 → 1941-01-01 (yıl) |
+| ③ | Malaya→Tayland | 3 | isg: siyam 1943-08-20 → 1945-08-16 |
+| ③ | Lüksemburg 2 · Tanca 1 · Alsas 3 · Filipinler 14 | 20 | isg: yalnız günü kaynaklı olanlar · Alsas/Filipin isg: bitişi yok, yazılmadı |
+
+### Kalan 148 nokta — yamada YOK
+- **Araştırma 138:**
+  - Mısır `isg:ingiltere` 57 (1936 antlaşmasına madde yok; 1914-22 kısmı 0085/0086 dilimi)
+  - Burma 27 (künye ve madde YOK)
+  - Polonya 13 (GG 8 · Reich 4 · Białystok — Polonya ardılı künyesiz)
+  - C küçük künye 12 (Z4: kaynak bulunamadı)
+  - Oder-Neisse 7
+  - Yugoslavya yaka 5
+  - Somali 4 (Cubaland/orta)
+  - K. Erdel 3 (II. Viyana maddesi yok)
+  - Karpat 2 (1945-06-29 maddesi yok)
+  - şüpheli 4 · Danzig · Memel · Maan · Saar
+- **Kapsam dışı 10** (1281-1923 dilimi): künyesi 1923'ten önce ölmüş 8 · anomali 2.
+- **② yeni künye önerisi:** ② kovasının bütün künyeleri VAR. Önerdiğim tek yeni künye
+  **`ingiliz-burma`**: 1937-04-01'de İngiliz Hindistanı'ndan ayrılıyor, KAYNAK ARAŞTIRILACAK; 27 nokta bekliyor.
+
+### Sınav — `py denetim/ARAC-ZAMAN-Z5-SINAV-1008.py` (bellekte, iki yönde)
+- **① Dönem bölmesi ihlali 0.** 1923-10-29 öncesindeki hiçbir dönem değişmedi.
+  Bilerek bozulmuş kopya 3 ihlalle çıkış 1 verdi; sınav gerçekten ötüyor.
+- **③** Sıfır uzunluk, ters dönem ve `s:` çakışması 0.
+- **② 4c 111 dönem**, yalnız beyanlı ön şart künyelerinde: kacar 108 · bhopal · surakarta · buhara.
+  Künye t'leri aynı commit'te inerse 0'a düşer. 4d 0.
+- **④ boyasız 6 künye, 350 kayıt:** turkiye-cumhuriyeti 266 · hirvatistan-bagimsiz 38 · almanya-muttefik-isgali 31 ·
+  mancukuo 11 · slovakya-cumhuriyeti 4 · hatay-devleti 3. Yayından önce boya şart.
+- **⑤ kaynaksız `s:`: 1.912 → 1.479 (−433).** Bu SAHTE: yeni dönemin gerçek kaynağı, kayıt düzeyindeki ölçütte
+  1281-1923 zincirini de kaynaklı gösteriyor. Koordinatör hükmü: **tavan 1.912'de KALIR.**
+- Tam uygulama + `denetle.py` sınavı ilk sürümde yapıldı (§⑤): bütün değişmezler birebir aynıydı.
+  Son sürümde tekrar denendi, makine kaynak tükenmesiyle düştü (fork başarısız; uygulayıcı çıkış 3 verdi,
+  hiçbir şey yazmadı, ağaç geri yüklendi). ⇒ **Son sürümün `denetle.py` sınavı YAPILAMADI**, yerine bellek sınavı var.
+
+### Ön şartlar
+- **Aynı commit'te:**
+  - künye t: kacar 1925-12-12 · bhopal 1945-09-02 · surakarta 1945-09-02 · buhara-halk-cumhuriyeti 1924-10-27
+  - `_sahiplik_uygula` düzeltmesi (SAHIPLIK-UYGULA-KUSUR-1008: 33 kayıt + not: EKLEME)
+- **Yayından önce:** 6 boya (TC rengi Emre'de).
+- 📌 **`girdi.py` `GIRDI_DOSYALARI`'na satır GEREKMEZ.** Ölçtüm: listede `yer_yama*` dosyası 0. `girdi.py`'de
+  `yer_yama` yalnız iki yorumda geçiyor. Yama dosyalarını `_sahiplik_uygula.py` `data/yer_yama*.js` glob'uyla okuyor.
+  Atomik satır yalnız yerleşim dosyası eklenirse gerekir. Bu yama yeni nokta EKLEMİYOR.
+
+---
+
 ## §0 Önceki ölçümler (mükerrer kapısı) — ve o günden bugüne ne değişti
 
 - **`KAPSAM-1945-OLC-0930`**: 1923-10-29'da biten **4.223 dönem / 4.127 nokta**; "~2.100 mekanik,

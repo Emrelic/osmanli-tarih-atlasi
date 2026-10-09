@@ -122,10 +122,25 @@ T_BOLGE = {
 C_ARDIL = {
     "tbmm-turkiye": [("1923-10-29", "turkiye-cumhuriyeti", f"{DV} turkiye-cumhuriyeti 1923-10-29 'Cumhuriyet ilan edildi' (TDV türkiye)")],
 }
+# D_ARDIL: künye → (ad süzgeci ya da None, [(gün, yeni d, dayanak)]). Zincirler Z4'ten
+# (C:tlas-umit\denetim\ZAMAN-Z4-1008-KUNYE.json, 8 Ekim). Süzgeç dışı noktalar D'de kalır.
+ODER_NEISSE = {"Breslau (Wrocław)", "Liegnitz (Legnica)", "Oppeln (Opole)", "Glatz (Kłodzko)",
+               "Gleiwitz (Gliwice)", "Stettin (Szczecin)", "Elbing (Elbląg)", "Königsberg"}
+SOMALI_1927 = {"Obbiya", "Galkayo", "Garove", "Ayl", "Bender Kāsım (Bosaso)", "Alula", "Hafun",
+               "Kandala", "İskuşubân", "Bender Beyla", "Dusa Mareb"}
 D_ARDIL = {
-    "mogolistan": [("1924-11-26", "mogolistan-halk-cumhuriyeti", f"{DV} mogolistan-halk-cumhuriyeti 1924-11-26 (TDV moğolistan)")],
-    "kacar": [("1925-12-12", "iran", f"{DV} iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu")],
+    "mogolistan": (None, [("1924-11-26", "mogolistan-halk-cumhuriyeti", f"{DV} mogolistan-halk-cumhuriyeti 1924-11-26 (TDV moğolistan)")]),
+    "kacar": (None, [("1925-12-12", "iran", "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)")]),
+    "almanya": (lambda a: a not in ODER_NEISSE, [("1945-06-05", "almanya-muttefik-isgali", f"{DV} almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)")]),
+    "somali": (lambda a: a in SOMALI_1927, [("1927-01-01", "italya", f"{KR_DOSYA} 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil")]),
+    "letonya": (None, [("1940-08-06", "sovyet-rusya", f"{DV} sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)")]),
+    "estonya": (None, [("1940-08-06", "sovyet-rusya", f"{DV} sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)")]),
+    "litvanya": (None, [("1940-08-06", "sovyet-rusya", f"{DV} sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)")]),
+    "buhara-halk-cumhuriyeti": (None, [("1924-10-27", "sovyet-rusya", "ÜST SINIR, gün değil: TDV turkmenistan 'Bu çalışmalar 27 Ekim’de tamamlandı' — sınır ayrımının tamamlanması; cumhuriyetin bitiş günü TDV'de yok (Z4). ÖN ŞART: buhara-halk-cumhuriyeti künye t 1924-01-01 → 1924-10-27 AYNI commit'te (§3.4-2)")]),
 }
+# Künyesi 1923-10-29'da kesik ama polity sürüyor — yalnız t UZATILIR (Z4 künye t önerisiyle)
+C_UZAT = {"bhopal": "Z4: bhopal künye t → 1945-09-02 (TDV bopal--devlet: 1949'da Hindistan Birliği'ne katıldı)",
+          "surakarta": "Z4: surakarta künye t → 1945-09-02 (BRIT; 1942-45 Japon işgali isg: katmanına)"}
 # Künye KARARI gereken (Z4): polity değişiyor ama künye yok ya da tartışmalı
 K_KARAR = {
     "BURMA-1937": (lambda r: r["kunye"] == "ingiliz-hindistani" and r["lon"] > 92.2 and not r["ad"].startswith("Sibsâgar"),
@@ -232,9 +247,13 @@ for y in Y:
     elif kt == UC:
         kov = "C_kunye_1923te_kesik"
         gecis = C_ARDIL.get(kun["id"])
+        if kun["id"] in C_UZAT:
+            r["uzat"] = C_UZAT[kun["id"]]
     elif pad(kt) < pad(UFUK2):
         kov = "D_kunye_1923_45_arasi_bitti"
-        gecis = D_ARDIL.get(sahip) or D_ARDIL.get(kun["id"])
+        da = D_ARDIL.get(kun["id"]) or D_ARDIL.get(sahip)
+        if da and (da[0] is None or da[0](y["ad"])):
+            gecis = da[1]
     elif acik_isg or acik_v:
         kov = "V_s_saglam_isg_v_acik"
     else:
@@ -250,6 +269,9 @@ for y in Y:
     if gecis:
         r["gecis"] = gecis
     r["_s"] = s
+    r["_isg"], r["_v"] = y.get("isg") or [], y.get("v") or []
+    if kov.startswith("V") and (kun or {}).get("id") != "misir-kralligi" and sahip != "misir-kralligi":
+        kov = "V_himaye_mekanik"     # barış zamanı himayesi (Tunus/Kuveyt/Katar) — künye 1945'i aşıyor
     kova[kov].append(r)
 
 cikti = {
@@ -273,6 +295,149 @@ cikti["bolge_ad_bulunamadi"] = eksik
 cikti["bolge_ad_yakalanmadi"] = kovasiz
 
 # ───────────────────────────────────────────── yama taslağı
+# ═════════════════════════════════════════════ HUKUKÎ SONUÇ (HS) — T/D/K kovaları
+# Koordinatör kararı (UMIT İRTİBAT, 8-9 Ekim 2026): ölçüt ÜÇ YOLLU ve hukukî sonuca bakar.
+#   ① devlet LAĞVEDİLDİ / toprak ilhak edenin hukukuna geçti → s: DEĞİŞİR
+#   ② YENİ DEVLET (kukla da olsa) → yeni künye, s: ona geçer (boya gerekir)
+#   ③ devlet HUKUKEN DURUYOR, toprak askerî idarede → s: DEĞİŞMEZ, isg: yazılır
+# Seçilen kova kaydın not:'una ADIYLA yazılır (bir ÇIKARIM olduğu beyanıyla).
+# Gün yoksa o dilim YAZILMAZ (BEKLEYEN) — uydurma yok (D210).
+AV = "AVALON"; US = "USHMM"; BR = "BRIT"
+HS_GRUP = [
+    # (ad, adlar | None=sahibin bütün noktaları, sahip, hukuk, s_gecis | None=yalnız uzat | "BEKLE", isg_ekle, gerekçe)
+    ("AVUSTURYA", None, "avusturya-cumhuriyet", "①",
+     [("1938-03-13", "almanya", f"{DV} avusturya-cumhuriyet/almanya 1938-03-13 Anschluss ({AV} imt/judaus)"),
+      ("1945-04-01", "avusturya-ikinci-cumhuriyet", f"{DV} avusturya-ikinci-cumhuriyet 1945-04-01 — AY hassasiyeti ({BR} Karl-Renner 'April 1945') · kesinlik:ay")],
+     [], "devlet Reich'a katıldı (lağvedildi)"),
+    ("ARNAVUTLUK", None, "arnavutluk-bagimsiz", "①",
+     [("1939-04-07", "italya", "künye arnavutluk-bagimsiz t 1939-04-07 (USHMM 'annexes', Z4) · kronoloji_cok 1939-04-06 işgal"),
+      ("1944-11-29", "arnavutluk-halk-cumhuriyeti", f"{DV} arnavutluk-halk-cumhuriyeti f 1944-11-29 (TDV arnavutluk)")],
+     [], "İtalya tacına katıldı; 1943 Alman işgali isg: — GÜN BULUNAMADI, yazılmadı"),
+    ("HABESISTAN", None, "habesistan", "①",
+     [("1936-05-09", "italya", f"{DV} habesistan 1936-05-09 ({BR} Italian-East-Africa 'annexed by Italy on May 9, 1936')"),
+      ("1941-05-05", "habesistan", f"{DV} habesistan 1941-05-05 (TDV etiyopya: '5 Mayıs'ta tekrar tahtına oturdu')")],
+     [], "İtalya ilhak etti; Gondar çevresi 1941-11'e dek İtalyan elinde (isg: işi, yazılmadı)"),
+    ("CIMMA", ["Cimma (Jiren)"], "cimma", "①",
+     [("1933-01-01", "habesistan", f"{KR_DOSYA} 1933-01-01 (gün/ay yok; TDV cimma) — kesinlik:yil"),
+      ("1936-05-09", "italya", f"{DV} habesistan 1936-05-09 ({BR})"),
+      ("1941-05-05", "habesistan", f"{DV} habesistan 1941-05-05 (TDV etiyopya)")],
+     [], "Habeşistan'a bağlandı, sonra İtalyan ilhakı"),
+    ("ING-SOMALI", ["Berbera", "Zeyla", "Bulhar", "Hargeysa", "Burao", "Lasanod", "Erigavo", "Şeyh (Somaliland)",
+                    "Odveyne", "Borama", "Buhodle", "Taleh", "Lâs Hore", "Mayd", "Hîs", "Ceel Afveyn"], "ingiltere", "③",
+     None, [("1940-08-19", "1941-01-01", "italya", f"{KR_DOSYA} 1940-08-19 → 1941-01-01 ('Mart 1941', gün yok) — kesinlik t:yil")],
+     "İngiltere hukuken sürüyor; İtalyan askerî işgali"),
+    ("SUDET", ["Broumov (Braunau)", "Jeseník (Freiwaldau)"], "cekoslovakya", "①",
+     [("1938-10-01", "almanya", f"{KR_DOSYA} 1938-10-01 · {DV} cekoslovakya 1938-09-29 Münih ({AV} imt/munich1)"),
+      ("1945-05-08", "cekoslovakya", f"{DV} almanya 1945-05-08 koşulsuz teslim ({AV} wwii/gs11)")],
+     [], "toprak antlaşmayla terk edildi (ilhak edenin hukukuna geçti); 1945'te geri"),
+    ("G-SLOVAKYA", ["Uyvar", "Kassa (Košice)", "Komárom (Komárno)", "Léva (Levice)", "Fülek (Fiľakovo)"], "cekoslovakya", "①",
+     [("1938-11-02", "macaristan-naiplik", f"{KR_DOSYA} 1938-11-02 I. Viyana Hakemliği"),
+      ("1945-01-20", "cekoslovakya", f"{KR_DOSYA} 1945-01-20 Moskova mütarekesi: Macaristan 1937 sınırlarına")],
+     [], "hakem kararıyla terk; 1945'te geri"),
+    ("KARPAT", ["Ungvár (Uzhhorod)", "Munkács (Mukacheve)"], "cekoslovakya", "①", "BEKLE", [],
+     "1938-11-02 Macar · 1945-01-20 Çekoslovak · 1945-06-29 SSCB devri MADDE YOK — son dilim yazılamaz"),
+    ("SLOVAKYA", ["Bratislava", "Nitra (Nyitra)", "Trencsén (Trenčín)", "Eperjes (Prešov)"], "cekoslovakya", "②",
+     [("1939-03-14", "slovakya-cumhuriyeti", f"{DV} slovakya-cumhuriyeti 1939-03-14 ({US}-KD)"),
+      ("1945-04-04", "cekoslovakya", f"{DV} slovakya-cumhuriyeti 1945-04-04 ({US}-KD, Bratislava'nın düşüşü — Eperjes daha erken, ÜST SINIR)")],
+     [], "yeni (kukla) devlet"),
+    ("PROTEKTORA", ["Prag", "Brno", "Olomouc", "Hradec Králové", "České Budějovice (Budweis)", "Třeboň (Wittingau)"], "cekoslovakya", "③",
+     None, [("1939-03-15", "1945-05-08", "almanya", f"{DV} cekoslovakya 1939-03-15 ({AV} imt/judseize) → almanya 1945-05-08 ({AV} wwii/gs11)")],
+     "Çekoslovakya hukuken sürüyor (koordinatör: Bohemya-Moravya ③)"),
+    ("NDH", ["Zagreb", "Saraybosna", "Mostar", "Banaluka", "Ösek (Osijek)", "Varadin (Petrovaradin)", "Travnik",
+             "İzvornik (Zvornik)", "Foça (Foča)", "Livno (İhlevne)", "Yayça (Jajce)", "Srebrenik", "Dubrovnik", "Trebinye",
+             "Vişegrad", "Tuzla (Bosna)", "Koniçe (Konjic)", "Visoko", "Knin", "Sin (Sinj)", "Klis", "Bihaç (Bihać)",
+             "Varasd (Varaždin)", "Sisak", "Karlovac", "Kostayniçe (Kostajnica)", "Bosna Dubiçası (Bosanska Dubica)",
+             "Bosna Novi'si (Bosanski Novi)", "Jasenovaç (Jasenovac)", "Bosna Brod'u (Bosanski Brod)",
+             "Krupa (Bosanska Krupa)", "Ostrovica (Stara Ostrovica, Kulen Vakuf)", "Udbina", "Gospić", "Cetin (Cetingrad)",
+             "Drežnik (Drežnik Grad)", "Brakya (Brač)", "Hvar (Lesina)"], "yugoslavya", "②",
+     [("1941-04-10", "hirvatistan-bagimsiz", f"{DV} hirvatistan-bagimsiz 1941-04-10 ({US}-KD)"),
+      ("1945-05-31", "yugoslavya", f"künye hirvatistan-bagimsiz t 1945-05-31 — ÜST SINIR ({BR} Ustasa 'until May 1945')")],
+     [], "yeni (kukla) devlet"),
+    ("YUG-ITALYAN", ["Split (Spalato)", "Şibenik (Sebenico)", "Kotor (Cattaro)", "Herseknovi (Herceg Novi)", "Krk (Veglia)",
+                     "Rab (Arbe)", "Korçula (Kurzola)", "Vis (Lissa)", "Ljubljana", "Cetinje", "Podgorica",
+                     "Priştine", "Prizren", "Debre (Dibra)"], "yugoslavya", "③",
+     None, [("1941-04-17", "1943-09-08", "italya", f"{DV} yugoslavya 1941-04-17 teslim ({US}-KD) → {DV} italya 1943-09-08 ({US}-KD)")],
+     "Yugoslavya hukuken sürüyor (sürgün hükûmeti); İtalyan ilhakı/idaresi isg:. 1943-09-08 sonrası Alman isg: — BİTİŞ GÜNÜ BULUNAMADI, yazılmadı"),
+    ("YUG-BULGAR", ["Üsküp", "Manastır", "Ohri", "Köprülü (Veles)", "İştip (Štip)", "Ustrumca (Strumica)", "Doyran",
+                    "Gevgili (Gevgelija)", "Şehirköy (Pirot)"], "yugoslavya", "③",
+     None, [("1941-04-17", "1944-10-28", "bulgaristan-kralligi", f"{DV} yugoslavya 1941-04-17 ({US}-KD) → {KR_DOSYA} 1944-10-28 Moskova mütarekesi: Bulgaristan çekildi")],
+     "Yugoslavya hukuken sürüyor; Bulgar idaresi isg:"),
+    ("YUG-MACAR", ["Baç (Bács)", "Murska Sobota", "Lendava (Alsólendva)"], "yugoslavya", "③",
+     None, [("1941-04-17", "1945-01-20", "macaristan-naiplik", f"{DV} yugoslavya 1941-04-17 ({US}-KD) → {KR_DOSYA} 1945-01-20 Moskova mütarekesi")],
+     "Yugoslavya hukuken sürüyor; Macar ilhakı/idaresi isg:"),
+    ("YUG-ALMAN", ["Niş", "Semendire", "Belgrad", "Kragujevac", "Çaçak", "Böğürdelen (Šabac)", "Yagodina (Jagodina)",
+                   "Alacahisar (Kruševac)", "Yenipazar (Novi Pazar)", "Maribor (Marburg)"], "yugoslavya", "③",
+     None, [], "Yugoslavya hukuken sürüyor; Alman askerî idaresi 1941-04-17 → BİTİŞ GÜNÜ BULUNAMADI (Belgrad 1944-10 maddesi yok) — isg: yazılmadı, s: uzatıldı"),
+    ("YUG-YAKA", ["Pag (Pago)", "Uzunada (Dugi Otok)", "Mliyet (Mljet)", "Vrana (Urana)", "Nadin"], "yugoslavya", "?", "BEKLE", [],
+     "1941 paylaşımında hangi yakaya (NDH / İtalyan Dalmaçyası) düştüğü ÖLÇÜLEMEDİ"),
+    ("MANCURYA", ["Mukden (Şenyang)", "Liaoyang", "Cilin (Jilin)", "Ningguta", "Aigun", "Harbin", "Qiqihar",
+                  "Mergen (Nenjiang)", "Sanxing (Yilan)"], "cin-cumhuriyeti", "②",
+     [("1932-03-09", "mancukuo", f"{DV} mancukuo 1932-03-09 ({BR} Puyi)"),
+      ("1945-08-31", "cin-cumhuriyeti", f"künye mancukuo t 1945-08-31 — ÜST SINIR ({BR} Puyi 'August 1945')")],
+     [], "yeni (kukla) devlet — Lytton 1933 tanımadı; 1931-32 Japon işgali isg: maddesiz, yazılmadı"),
+    ("REHE", ["Cehol (Chengde)", "Chifeng (Ulanhad)"], "cin-cumhuriyeti", "②",
+     [("1933-03-04", "mancukuo", f"{KR_DOSYA} 1933-03-04 Rehe Mançukuo'ya katıldı"),
+      ("1945-08-31", "cin-cumhuriyeti", f"künye mancukuo t 1945-08-31 — ÜST SINIR ({BR} Puyi)")],
+     [], "yeni (kukla) devlete katıldı"),
+    ("CINHINDI-TAYLAND", ["Battambang", "Sisophon", "Angkor (Siem Reap)", "Champasak"], "fransiz-cinhindi", "①",
+     [("1941-05-09", "siyam-chakri", f"{KR_DOSYA} 1941-05-09 Tokyo Barış Sözleşmesi (FRUS 1945 c.VI d.946)")],
+     [], "antlaşmayla terk (TARTIŞMALI: Müttefikler tanımadı; iade 1946 — ufkun dışında)"),
+    ("MALAYA-TAYLAND", ["Kedah (Alor Setar)", "Kelantan (Kota Bharu)", "Terengganu (Kuala Terengganu)"], "ingiliz-malaya", "③",
+     None, [("1943-08-20", "1945-08-16", "siyam-chakri", f"{KR_DOSYA} 1943-08-20 (FRUS 1945 c.VI d.921) → 1945-08-16 Tayland barış bildirisi")],
+     "İngiltere hukuken sürüyor; işgalci Japonya'nın Tayland'a devri isg:"),
+    ("K-ERDEL", ["Erdel (Kaloşvar)", "Varad (Oradea)", "Szatmár (Satu Mare)"], "romanya-kralligi", "①", "BEKLE", [],
+     "II. Viyana Hakemliği 1940-08-30: kronolojide MADDE YOK — başlangıç yazılamaz (dönüş 1945-03-09 maddesi var)"),
+    ("ALSAS", ["Strazburg", "Colmar", "Mulhouse"], "fransa-cumhuriyet", "③",
+     None, [], "Fransa hukuken sürüyor; 1940-06-22 Alman idaresi — BİTİŞ GÜNÜ BULUNAMADI (1944-45), isg: yazılmadı, s: uzatıldı"),
+    ("LUKSEMBURG", ["Lüksemburg"], "luksemburg", "③",
+     None, [("1942-08-30", "1944-09-10", "almanya", f"{KR_DOSYA} 1942-08-30 ilhak → 1944-09-10 kurtuluş")],
+     "Lüksemburg hukuken sürüyor (sürgün hükûmeti); 1940-05-10 → 1942-08-30 işgali maddesiz, yazılmadı"),
+    ("LUKSEMBURG-WILTZ", ["Wiltz"], "luksemburg", "③",
+     None, [("1942-08-30", "1945-02-22", "almanya", f"{KR_DOSYA} 1942-08-30 → 1945-02-22 'toprakların tamamı temizlendi' — ÜST SINIR")],
+     "Lüksemburg hukuken sürüyor"),
+    ("MEMEL", ["Klaipėda (Memel)"], "litvanya", "①", "BEKLE", [],
+     "1939-03-22 Reich (madde var) · 1945 Sovyet ele geçirişi MADDE YOK — son dilim yazılamaz"),
+    ("TANCA", ["Tanca"], "fas", "③",
+     None, [("1940-06-14", "1945-09-02", "ispanya", f"{KR_DOSYA} 1940-06-14 İspanyol askerî işgali · 1945-09-02 pencere ucu (çekilme 1945-10, ufkun dışında)")],
+     "Uluslararası Bölge hukuken sürüyor; İspanyol işgali isg:"),
+    ("DANZIG", None, "danzig-serbest-sehri", "①", "BEKLE", [],
+     "1939-10-26 Reich (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz"),
+    ("POLONYA-DOGU", ["Lvov", "Yazlofça (Yazlovets)", "Brest-Litovsk", "Pinsk", "Grodno", "Kovel", "Lutsk (Łuck)",
+                      "Volodymyr-Volynskyi (Włodzimierz)", "Rivne (Równe)"], "polonya", "①",
+     [("1939-09-28", "sovyet-rusya", f"{DV} polonya 1939-09-28 ({US} invasion-of-poland: Almanya ile SSCB Polonya'yı paylaştı)")],
+     [], "SSCB ilhakı (1941-44 Alman işgali isg: — gün maddesiz, yazılmadı)"),
+    ("POLONYA-BIALYSTOK", ["Białystok"], "polonya", "①", "BEKLE", [],
+     "1939 SSCB · 1944-45 Polonya'ya iade — Polonya ardılı künyesiz, gün yok"),
+    ("POLONYA-REICH", ["Poznan", "Torun (Toruń)", "Łódź", "Kattowitz (Katowice)"], "polonya", "①", "BEKLE", [],
+     "1939-10-26 Reich ilhakı (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz"),
+    ("POLONYA-GG", ["Krakov", "Varşova", "Radom (Polonya)", "Kielce", "Lublin", "Chełm (Kholm)", "Zamość", "Częstochowa"], "polonya", "③",
+     "BEKLE", [], "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →"),
+    ("ODER-NEISSE", ["Breslau (Wrocław)", "Liegnitz (Legnica)", "Oppeln (Opole)", "Glatz (Kłodzko)", "Gleiwitz (Gliwice)",
+                     "Stettin (Szczecin)", "Elbing (Elbląg)"], "almanya", "①", "BEKLE", [],
+     "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)"),
+    ("KONIGSBERG", ["Königsberg"], "almanya", "①",
+     [("1945-06-05", "almanya-muttefik-isgali", f"{DV} almanya-muttefik-isgali 1945-06-05 ({AV} wwii/ger01)"),
+      ("1945-08-02", "sovyet-rusya", f"{KR_DOSYA} 1945-08-02 Potsdam (Avalon)")],
+     [], "Potsdam ile SSCB'ye (Nisan 1945 Sovyet ele geçirişi isg: — maddesiz)"),
+    ("FILIPIN", ["Manila", "Cebu", "Colo (Jolo)", "Kotabato (Magindanao)", "Iloilo", "Vigan", "Zamboanga", "Butuan",
+                 "Naga (Camarines)", "Batangas", "Legazpi", "Tuguegarao", "Dagupan", "Puerto Princesa (Palawan)"], "abd", "③",
+     None, [], "Commonwealth ABD egemenliği altında ⇒ s: abd sürer; filipin-commonwealth v:/statü kararı Z4 · 1942 Japon işgali BİTİŞ GÜNÜ BULUNAMADI, isg: yazılmadı"),
+]
+HS = {}
+_ad_var = {y["ad"] for y in Y}
+HS_EKSIK = []
+for grup, adlar, sahip_, hk, sg, isg_, ger in HS_GRUP:
+    kume = adlar if adlar is not None else [r["ad"] for v in kova.values() for r in v
+                                           if (r.get("kunye") == sahip_ or r.get("sahip") == sahip_)]
+    for a in kume:
+        if a not in _ad_var:
+            HS_EKSIK.append((grup, a))
+        HS[a] = (grup, hk, sg, isg_, ger)
+
+
+V_BEYAN = ("Z5-1008 V: 1923-10-29'da açık isg:/v: (himaye) t→1945-09-02 ÇIKARIM — himaye künyesi 1945'i "
+           "aşıyor, 1923-45 arasında himayenin bittiğine dair kayıt yok; 1942-43 Mihver işgali (Tunus) ayrı isg: işi "
+           "· künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md")
 A_BEYAN = ("Z5-1008 A: t 1923-10-29→1945-09-02 ÇIKARIM — 1923-45 egemenlik değişimi kaydı yok "
            "(kronoloji_cok_1923_1945 toprak maddeleri + Z5 bölge tablosu); işgal isg: katmanında; "
            "künye ömrü dayanak değil (D207) · denetim/ZAMAN-Z5-1008.md")
@@ -295,29 +460,76 @@ def yeni_s(r, gecisler):
         p = {"f": gun, "t": bit, "d": d, "kaynak": "Z5-1008 — gün: " + dayanak}
         if gun.endswith("-01-01") and "kesinlik:yil" in dayanak:
             p["kesinlik"] = {"f": "yil", "t": "gun"}
+        elif "kesinlik:ay" in dayanak:
+            p["kesinlik"] = {"f": "ay", "t": "gun"}
         ek.append(p)
     return s[:i + 1] + ek + s[i + 1:]
 
 
 yama, yama_say, not_dolu = [], collections.Counter(), []
-for k in ("A_mekanik", "B_kalici", "C_kunye_1923te_kesik"):
+for r in kova.get("V_himaye_mekanik", []):
+    if r["ad"] in HS:
+        continue
+    x = {"ad": r["ad"], "_kova": "V_himaye_mekanik", "_bolge": None}
+    for alan, dizi in (("s", r["_s"]), ("isg", r["_isg"]), ("v", r["_v"])):
+        if any(p.get("t") == UC for p in dizi):
+            x[alan] = [dict(p, t=UFUK2) if p.get("t") == UC else dict(p) for p in dizi]
+    if r.get("not_dolu"):
+        not_dolu.append(r["ad"])     # bilgi: uygulayıcı EKLEYECEK (koordinatör kararı)
+    x["not"] = V_BEYAN
+    yama.append(x)
+    yama_say["V_himaye_mekanik"] += 1
+for k in ("A_mekanik", "B_kalici", "C_kunye_1923te_kesik", "D_kunye_1923_45_arasi_bitti"):
     for r in kova.get(k, []):
+        if r["ad"] in HS:
+            continue
         g = r.get("gecis")
-        if k != "A_mekanik" and not g:
+        if k != "A_mekanik" and not g and not r.get("uzat"):
             continue
         x = {"ad": r["ad"], "s": yeni_s(r, g), "_kova": k, "_bolge": r.get("bolge")}
         if k == "A_mekanik":
             if r.get("not_dolu"):
-                not_dolu.append(r["ad"])      # uygulayıcı dolu skaleri EZMEZ ⇒ beyan inmez
-            else:
-                x["not"] = A_BEYAN
+                not_dolu.append(r["ad"])      # bilgi: uygulayıcı EKLEYECEK (koordinatör kararı)
+            x["not"] = A_BEYAN
         yama.append(x)
         yama_say[k] += 1
+
+# ── HS (hukukî sonuç) kayıtları
+hs_say, hs_bekle = collections.Counter(), []
+for k, v in kova.items():
+    for r in v:
+        if r["ad"] not in HS:
+            continue
+        grup, hk, sg, isg_ekle, ger = HS[r["ad"]]
+        if sg == "BEKLE" or r.get("s_idx") is None:
+            hs_bekle.append({"ad": r["ad"], "grup": grup, "hukuk": hk, "neden": ger, "kova": k})
+            hs_say[(grup, "BEKLEYEN")] += 1
+            continue
+        x = {"ad": r["ad"], "_kova": "HS" + hk, "_bolge": grup}
+        x["s"] = yeni_s(r, sg)          # sg None ⇒ yalnız t uzar
+        if isg_ekle:
+            yeni_isg = [dict(p) for p in r["_isg"]]
+            for f_, t_, d_, day in isg_ekle:
+                p = {"f": f_, "t": t_, "d": d_, "kaynak": "Z5-1008 — " + day}
+                if "kesinlik t:yil" in day:
+                    p["kesinlik"] = {"f": "gun", "t": "yil"}
+                yeni_isg.append(p)
+            x["isg"] = yeni_isg
+        x["not"] = (f"Z5-1008 HUKUKÎ SONUÇ {hk} ({grup}): {ger} — kova seçimi bir ÇIKARIMDIR "
+                    f"(koordinatör ölçütü: ① lağvedildi→s: değişir · ② yeni devlet→yeni künye · "
+                    f"③ hukuken sürüyor→isg:) · denetim/ZAMAN-Z5-1008.md")
+        yama.append(x)
+        hs_say[(grup, hk)] += 1
+cikti["HS_sayi"] = {f"{a}|{b}": n for (a, b), n in sorted(hs_say.items())}
+cikti["HS_bekleyen"] = hs_bekle
+cikti["HS_ad_bulunamadi"] = HS_EKSIK
+yama_say["HS"] = sum(n for (a, b), n in hs_say.items() if b != "BEKLEYEN")
 cikti["yama_say"] = dict(yama_say)
 cikti["A_not_dolu_beyan_inmez"] = not_dolu
 for v in kova.values():
     for r in v:
-        r.pop("_s", None)
+        for _a in ("_s", "_isg", "_v"):
+            r.pop(_a, None)
 if YAMA:
     BAS = [
         "// ZAMAN-Z5-1008 — yerleşim dönemlerinin 1923-10-29 → 1945-09-02 uzatılması (ÖNERİ)",
@@ -325,12 +537,19 @@ if YAMA:
         "// Kova A: s: sahibi değişmiyor (ÇIKARIM — kayıt `not:` alanında BEYANLI, dönem kaynak:ına DOKUNULMADI) · B: kalıcı",
         "// egemenlik değişimi, gün kaynaklı maddeden · C: tbmm-turkiye → turkiye-cumhuriyeti.",
         "// Kayıt `s:` dizisinin TAMAMINI taşır (uygulayıcı alanı değiştirir); sıra korunmuştur.",
-        "// ⚠️ turkiye-cumhuriyeti · hatay-devleti BOYASIZ (renkler.py) — boya inmeden harita deliği.",
+        "// 🔴 DOKUNDUĞU GÜN ARALIĞI: YALNIZ " + UC + " → " + UFUK2 + " — t'si " + UC + " olan dönemin t'si",
+        "//    ve bu tarihten SONRA başlayan yeni dönemler. 1281-" + UC[:4] + " arası dönemler BİREBİR aynı",
+        "//    (sınav: denetim/ARAC-ZAMAN-Z5-SINAV-1008.py ① — iki yönde sınandı). Ufuk tek sabitten: UFUK2.",
+        "// ÖN ŞART (aynı commit): künye t'leri kacar 1925-12-12 · bhopal 1945-09-02 · surakarta 1945-09-02 ·",
+        "//    buhara-halk-cumhuriyeti 1924-10-27 — inmezse 4c'ye 111 dönem düşer (sınav ②).",
+        "// YAYIN ÖNCESİ: boyasız 6 künye — turkiye-cumhuriyeti (266) · hirvatistan-bagimsiz (38) ·",
+        "//    almanya-muttefik-isgali (31) · mancukuo (11) · slovakya-cumhuriyeti (4) · hatay-devleti (3).",
+        "// HS①②③ = hukukî sonuç kovası (koordinatör ölçütü), kaydın not:'unda ADIYLA.",
         "window.YER_YAMA_1923_1945 = [",
     ]
     for x in yama:
         BAS.append("// " + x["_kova"] + (" · " + x["_bolge"] if x["_bolge"] else ""))
-        BAS.append(json.dumps({k: x[k] for k in ("ad", "s", "not") if k in x}, ensure_ascii=False) + ",")
+        BAS.append(json.dumps({k: x[k] for k in ("ad", "s", "isg", "v", "not") if k in x}, ensure_ascii=False) + ",")
     BAS.append("];")
     with io.open("denetim/ZAMAN-Z5-1008-yer_yama_1923_1945.js", "w", encoding="utf-8", newline=chr(10)) as f:
         f.write(chr(10).join(BAS) + chr(10))

@@ -10,8 +10,8 @@
   "D_kunye_1923_45_arasi_bitti": 212,
   "K_kunye_karari": 41,
   "T_savas_ici_geri_donen": 234,
-  "V_s_saglam_isg_v_acik": 60,
-  "V_yalniz_isg_v": 36,
+  "V_himaye_mekanik": 39,
+  "V_s_saglam_isg_v_acik": 57,
   "X_anomali": 2,
   "X_kunye_1923_once_bitti": 8
  },
@@ -543,10 +543,10 @@
     1
    ]
   ],
-  "V_s_saglam_isg_v_acik": [
+  "V_himaye_mekanik": [
    [
-    "misir-kralligi",
-    57
+    null,
+    36
    ],
    [
     "katar",
@@ -557,10 +557,10 @@
     1
    ]
   ],
-  "V_yalniz_isg_v": [
+  "V_s_saglam_isg_v_acik": [
    [
-    null,
-    36
+    "misir-kralligi",
+    57
    ]
   ],
   "X_anomali": [
@@ -58759,7 +58759,8 @@
     "s_f": "1707-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "uzat": "Z4: bhopal künye t → 1945-09-02 (TDV bopal--devlet: 1949'da Hindistan Birliği'ne katıldı)"
    },
    {
     "ad": "Kengtung",
@@ -58819,7 +58820,8 @@
     "s_f": "1816-08-19",
     "s_idx": 2,
     "s_n": 3,
-    "not_dolu": false
+    "not_dolu": false,
+    "uzat": "Z4: surakarta künye t → 1945-09-02 (BRIT; 1942-45 Japon işgali isg: katmanına)"
    },
    {
     "ad": "Tidore",
@@ -60790,7 +60792,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60812,7 +60814,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60834,7 +60836,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60856,7 +60858,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60923,7 +60925,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60945,7 +60947,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60967,7 +60969,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -60984,7 +60986,14 @@
     "s_f": "1871-01-18",
     "s_idx": 2,
     "s_n": 3,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Hamburg",
@@ -60999,7 +61008,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Münih",
@@ -61014,7 +61030,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Frankfurt",
@@ -61029,7 +61052,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Köln",
@@ -61044,7 +61074,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Dresden",
@@ -61059,7 +61096,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Łódź",
@@ -61224,7 +61268,14 @@
     "s_f": "1918-11-11",
     "s_idx": 6,
     "s_n": 7,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Königsberg",
@@ -61284,7 +61335,14 @@
     "s_f": "1918-02-16",
     "s_idx": 5,
     "s_n": 6,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Şiraz",
@@ -61304,7 +61362,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61326,7 +61384,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61348,7 +61406,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61370,7 +61428,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61392,7 +61450,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61414,7 +61472,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61436,7 +61494,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61458,7 +61516,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61480,7 +61538,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61502,7 +61560,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61524,7 +61582,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61561,7 +61619,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61583,7 +61641,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61605,7 +61663,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61627,7 +61685,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61649,7 +61707,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61671,7 +61729,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61693,7 +61751,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61715,7 +61773,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61737,7 +61795,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61759,7 +61817,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61781,7 +61839,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61803,7 +61861,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61825,7 +61883,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61847,7 +61905,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61869,7 +61927,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61891,7 +61949,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61913,7 +61971,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61935,7 +61993,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61957,7 +62015,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -61979,7 +62037,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62001,7 +62059,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62023,7 +62081,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62045,7 +62103,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62067,7 +62125,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62089,7 +62147,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62111,7 +62169,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62133,7 +62191,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62155,7 +62213,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62177,7 +62235,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62199,7 +62257,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62221,7 +62279,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62243,7 +62301,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62265,7 +62323,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62287,7 +62345,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62309,7 +62367,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62331,7 +62389,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62353,7 +62411,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62375,7 +62433,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62397,7 +62455,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62419,7 +62477,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62441,7 +62499,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62463,7 +62521,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62485,7 +62543,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62507,7 +62565,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62529,7 +62587,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62551,7 +62609,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62573,7 +62631,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62595,7 +62653,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62617,7 +62675,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62639,7 +62697,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62661,7 +62719,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62683,7 +62741,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62705,7 +62763,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62727,7 +62785,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62749,7 +62807,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62771,7 +62829,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62793,7 +62851,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62815,7 +62873,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62837,7 +62895,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62859,7 +62917,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62881,7 +62939,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62903,7 +62961,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62925,7 +62983,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62947,7 +63005,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62969,7 +63027,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -62991,7 +63049,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63013,7 +63071,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63035,7 +63093,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63057,7 +63115,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63079,7 +63137,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63101,7 +63159,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63123,7 +63181,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63145,7 +63203,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63167,7 +63225,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63189,7 +63247,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63211,7 +63269,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63233,7 +63291,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63255,7 +63313,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63277,7 +63335,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63299,7 +63357,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63321,7 +63379,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63343,7 +63401,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -63390,7 +63448,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Galkayo",
@@ -63405,7 +63470,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Garove",
@@ -63420,7 +63492,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Ayl",
@@ -63435,7 +63514,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Bender Kāsım (Bosaso)",
@@ -63450,7 +63536,14 @@
     "s_f": "1577-01-01",
     "s_idx": 1,
     "s_n": 2,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Alula",
@@ -63465,7 +63558,14 @@
     "s_f": "1577-01-01",
     "s_idx": 1,
     "s_n": 2,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Hafun",
@@ -63480,7 +63580,14 @@
     "s_f": "1577-01-01",
     "s_idx": 1,
     "s_n": 2,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Flensburg",
@@ -63495,7 +63602,14 @@
     "s_f": "1864-10-30",
     "s_idx": 1,
     "s_n": 2,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Bremen",
@@ -63510,7 +63624,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Lübeck",
@@ -63525,7 +63646,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Kiel",
@@ -63540,7 +63668,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Rostock",
@@ -63555,7 +63690,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Stettin (Szczecin)",
@@ -63585,7 +63727,14 @@
     "s_f": "1815-06-09",
     "s_idx": 2,
     "s_n": 3,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Hannover",
@@ -63600,7 +63749,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Münster",
@@ -63615,7 +63771,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Dortmund",
@@ -63630,7 +63793,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Aachen",
@@ -63645,7 +63815,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Saarbrücken",
@@ -63675,7 +63852,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Mainz",
@@ -63690,7 +63874,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Kassel",
@@ -63705,7 +63896,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Magdeburg",
@@ -63720,7 +63918,14 @@
     "s_f": "1871-01-18",
     "s_idx": 2,
     "s_n": 3,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Leipzig",
@@ -63735,7 +63940,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Erfurt",
@@ -63750,7 +63962,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Würzburg",
@@ -63765,7 +63984,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Nürnberg",
@@ -63780,7 +64006,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Regensburg",
@@ -63795,7 +64028,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Augsburg",
@@ -63810,7 +64050,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Ulm",
@@ -63825,7 +64072,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Stuttgart",
@@ -63840,7 +64094,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Freiburg",
@@ -63855,7 +64116,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Konstanz",
@@ -63870,7 +64138,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1945-06-05",
+      "almanya-muttefik-isgali",
+      "data/devletler.js künye-içi kronoloji almanya-muttefik-isgali 1945-06-05 (AVALON wwii/ger01)"
+     ]
+    ]
    },
    {
     "ad": "Karakurum",
@@ -63973,7 +64248,14 @@
     "s_f": "1918-11-11",
     "s_idx": 6,
     "s_n": 7,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Daugavpils (Dünaburg)",
@@ -63988,7 +64270,14 @@
     "s_f": "1918-11-11",
     "s_idx": 5,
     "s_n": 6,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Kaunas",
@@ -64003,7 +64292,14 @@
     "s_f": "1918-02-16",
     "s_idx": 5,
     "s_n": 6,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Šiauliai",
@@ -64018,7 +64314,14 @@
     "s_f": "1918-02-16",
     "s_idx": 5,
     "s_n": 6,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Kerulen (Çoybalsan)",
@@ -64231,7 +64534,14 @@
     "s_f": "1577-01-01",
     "s_idx": 1,
     "s_n": 2,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "İskuşubân",
@@ -64246,7 +64556,14 @@
     "s_f": "1577-01-01",
     "s_idx": 1,
     "s_n": 2,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Bender Beyla",
@@ -64261,7 +64578,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Kısmâyû",
@@ -64291,7 +64615,14 @@
     "s_f": "1281-01-01",
     "s_idx": 0,
     "s_n": 1,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1927-01-01",
+      "italya",
+      "data/kronoloji_cok_1923_1945.js 1927-01-01 'İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti' — gün yok · kesinlik:yil"
+     ]
+    ]
    },
    {
     "ad": "Ceel Buur",
@@ -64356,7 +64687,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64378,7 +64709,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64400,7 +64731,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64422,7 +64753,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64439,7 +64770,14 @@
     "s_f": "1918-02-24",
     "s_idx": 5,
     "s_n": 6,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Narva",
@@ -64454,7 +64792,14 @@
     "s_f": "1918-02-24",
     "s_idx": 5,
     "s_n": 6,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Tartu (Dorpat)",
@@ -64469,7 +64814,14 @@
     "s_f": "1918-02-24",
     "s_idx": 7,
     "s_n": 8,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Pärnu",
@@ -64484,7 +64836,14 @@
     "s_f": "1918-02-24",
     "s_idx": 6,
     "s_n": 7,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Kotur",
@@ -64504,7 +64863,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64526,7 +64885,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64548,7 +64907,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64570,7 +64929,7 @@
      [
       "1925-12-12",
       "iran",
-      "data/devletler.js künye-içi kronoloji iran 1925-12-12 (kaynak alanı BOŞ) — ⚠️ kacar t 1925-01-01: 11 aylık BOŞLUK, Z4'e soruldu"
+      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
      ]
     ]
    },
@@ -64752,7 +65111,14 @@
     "s_f": "1920-10-08",
     "s_idx": 3,
     "s_n": 4,
-    "not_dolu": true
+    "not_dolu": true,
+    "gecis": [
+     [
+      "1924-10-27",
+      "sovyet-rusya",
+      "ÜST SINIR, gün değil: TDV turkmenistan 'Bu çalışmalar 27 Ekim’de tamamlandı' — sınır ayrımının tamamlanması; cumhuriyetin bitiş günü TDV'de yok (Z4). ÖN ŞART: buhara-halk-cumhuriyeti künye t 1924-01-01 → 1924-10-27 AYNI commit'te (§3.4-2)"
+     ]
+    ]
    },
    {
     "ad": "Petseri (Peçori)",
@@ -64767,7 +65133,14 @@
     "s_f": "1920-02-02",
     "s_idx": 6,
     "s_n": 7,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Abrene (Pıtalovo)",
@@ -64782,7 +65155,14 @@
     "s_f": "1920-08-11",
     "s_idx": 6,
     "s_n": 7,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    },
    {
     "ad": "Rēzekne (Rositten)",
@@ -64797,7 +65177,14 @@
     "s_f": "1918-11-11",
     "s_idx": 6,
     "s_n": 7,
-    "not_dolu": false
+    "not_dolu": false,
+    "gecis": [
+     [
+      "1940-08-06",
+      "sovyet-rusya",
+      "data/devletler.js künye-içi kronoloji sovyet-rusya 1940-08-06 (USHMM 'August 3–6') — ÜST SINIR · TARTIŞMALI: ilhak Batı'ca tanınmadı (Z-B)"
+     ]
+    ]
    }
   ],
   "K_kunye_karari": [
@@ -69479,6 +69866,782 @@
     "bolge": "AVUSTURYA-ANSCHLUSS"
    }
   ],
+  "V_himaye_mekanik": [
+   {
+    "ad": "Tunus",
+    "dosya": "yerlesimler.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.8,
+    "lon": 10.18,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 3,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kayrevan",
+    "dosya": "yerlesimler.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.678,
+    "lon": 10.096,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Gabes",
+    "dosya": "yerlesimler.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.881,
+    "lon": 10.098,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Sfaks",
+    "dosya": "yerlesimler.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 34.74,
+    "lon": 10.76,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kuveyt",
+    "dosya": "yerlesimler.js",
+    "sahip": "kuveyt",
+    "kunye": "kuveyt",
+    "kunye_t": "1945-09-02",
+    "acik_isg": [
+     "ingiltere"
+    ],
+    "acik_v": [],
+    "lat": 29.376,
+    "lon": 47.977,
+    "s_f": "1914-11-22",
+    "s_idx": 1,
+    "s_n": 2,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Doha (Katar)",
+    "dosya": "yerlesimler.js",
+    "sahip": "katar",
+    "kunye": "katar",
+    "kunye_t": "1945-09-02",
+    "acik_isg": [
+     "ingiltere"
+    ],
+    "acik_v": [],
+    "lat": 25.285,
+    "lon": 51.531,
+    "s_f": "1913-07-29",
+    "s_idx": 1,
+    "s_n": 2,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Cerbe (Djerba)",
+    "dosya": "yerlesimler.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.807,
+    "lon": 10.856,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 2,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kerkene (Kerkennah)",
+    "dosya": "yerlesimler.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 34.741,
+    "lon": 11.224,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Benzert (Bizerte)",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 37.276,
+    "lon": 9.858,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Halkulvâdî",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.823,
+    "lon": 10.295,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 2,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Mâtir (Mateur)",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 37.04,
+    "lon": 9.664,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Tabarka",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     null
+    ],
+    "lat": 36.954,
+    "lon": 8.758,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 2,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Bâce (Béja)",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.733,
+    "lon": 9.183,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Cendûbe",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.501,
+    "lon": 8.78,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kef",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.174,
+    "lon": 8.705,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Nâbil (Nabeul)",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.451,
+    "lon": 10.735,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kelîbiye",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.849,
+    "lon": 11.094,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Zağvân",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.402,
+    "lon": 10.143,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Sûse",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.826,
+    "lon": 10.638,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Munastır",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.778,
+    "lon": 10.826,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Mehdiye",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.505,
+    "lon": 11.062,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kasrayn",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.167,
+    "lon": 8.836,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kafsa",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 34.425,
+    "lon": 8.784,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Tozer",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.92,
+    "lon": 8.134,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Nefta",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.873,
+    "lon": 7.878,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Medenîn",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.354,
+    "lon": 10.505,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Tatavin",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 32.93,
+    "lon": 10.451,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Cerciş (Zarzis)",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.504,
+    "lon": 11.112,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Bin Gerdân",
+    "dosya": "yerlesimler_afrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.138,
+    "lon": 11.22,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Ğâru'l-Melh (Porto Farina)",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 37.177,
+    "lon": 10.191,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Testûr",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.556,
+    "lon": 9.442,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Ğar Dimâv",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 36.45,
+    "lon": 8.435,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Mekter (Maktar)",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.855,
+    "lon": 9.203,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Sübaytıla",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.235,
+    "lon": 9.12,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Sîdî Bû Zeyd",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 35.038,
+    "lon": 9.485,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Metlâvî",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 34.32,
+    "lon": 8.4,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Kıbillî (Nefzâve)",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.704,
+    "lon": 8.969,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Dûz",
+    "dosya": "yerlesimler_h2_kuzeyafrika.js",
+    "sahip": null,
+    "kunye": null,
+    "kunye_t": null,
+    "acik_isg": [
+     "fransa-cumhuriyet"
+    ],
+    "acik_v": [
+     "tunus-beyligi-fransiz"
+    ],
+    "lat": 33.466,
+    "lon": 9.02,
+    "s_f": null,
+    "s_idx": null,
+    "s_n": 1,
+    "not_dolu": false,
+    "V": true
+   },
+   {
+    "ad": "Katar Yarımadası (iç, dolgu)",
+    "dosya": "yerlesimler_ek_korfez.js",
+    "sahip": "katar",
+    "kunye": "katar",
+    "kunye_t": "1945-09-02",
+    "acik_isg": [
+     "ingiltere"
+    ],
+    "acik_v": [],
+    "lat": 25.4,
+    "lon": 50.95,
+    "s_f": "1913-07-29",
+    "s_idx": 1,
+    "s_n": 2,
+    "not_dolu": false,
+    "V": true
+   }
+  ],
   "V_s_saglam_isg_v_acik": [
    {
     "ad": "Kahire",
@@ -69603,42 +70766,6 @@
     "s_f": "1922-03-15",
     "s_idx": 2,
     "s_n": 3,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kuveyt",
-    "dosya": "yerlesimler.js",
-    "sahip": "kuveyt",
-    "kunye": "kuveyt",
-    "kunye_t": "1945-09-02",
-    "acik_isg": [
-     "ingiltere"
-    ],
-    "acik_v": [],
-    "lat": 29.376,
-    "lon": 47.977,
-    "s_f": "1914-11-22",
-    "s_idx": 1,
-    "s_n": 2,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Doha (Katar)",
-    "dosya": "yerlesimler.js",
-    "sahip": "katar",
-    "kunye": "katar",
-    "kunye_t": "1945-09-02",
-    "acik_isg": [
-     "ingiltere"
-    ],
-    "acik_v": [],
-    "lat": 25.285,
-    "lon": 51.531,
-    "s_f": "1913-07-29",
-    "s_idx": 1,
-    "s_n": 2,
     "not_dolu": false,
     "V": true
    },
@@ -70525,24 +71652,6 @@
     "V": true
    },
    {
-    "ad": "Katar Yarımadası (iç, dolgu)",
-    "dosya": "yerlesimler_ek_korfez.js",
-    "sahip": "katar",
-    "kunye": "katar",
-    "kunye_t": "1945-09-02",
-    "acik_isg": [
-     "ingiltere"
-    ],
-    "acik_v": [],
-    "lat": 25.4,
-    "lon": 50.95,
-    "s_f": "1913-07-29",
-    "s_idx": 1,
-    "s_n": 2,
-    "not_dolu": false,
-    "V": true
-   },
-   {
     "ad": "Sîva (Siwa)",
     "dosya": "yerlesimler_p0043libya.js",
     "sahip": "misir-kralligi",
@@ -70557,728 +71666,6 @@
     "s_f": "1922-03-15",
     "s_idx": 2,
     "s_n": 3,
-    "not_dolu": false,
-    "V": true
-   }
-  ],
-  "V_yalniz_isg_v": [
-   {
-    "ad": "Tunus",
-    "dosya": "yerlesimler.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.8,
-    "lon": 10.18,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 3,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kayrevan",
-    "dosya": "yerlesimler.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.678,
-    "lon": 10.096,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Gabes",
-    "dosya": "yerlesimler.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.881,
-    "lon": 10.098,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Sfaks",
-    "dosya": "yerlesimler.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 34.74,
-    "lon": 10.76,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Cerbe (Djerba)",
-    "dosya": "yerlesimler.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.807,
-    "lon": 10.856,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 2,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kerkene (Kerkennah)",
-    "dosya": "yerlesimler.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 34.741,
-    "lon": 11.224,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Benzert (Bizerte)",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 37.276,
-    "lon": 9.858,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Halkulvâdî",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.823,
-    "lon": 10.295,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 2,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Mâtir (Mateur)",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 37.04,
-    "lon": 9.664,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Tabarka",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     null
-    ],
-    "lat": 36.954,
-    "lon": 8.758,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 2,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Bâce (Béja)",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.733,
-    "lon": 9.183,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Cendûbe",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.501,
-    "lon": 8.78,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kef",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.174,
-    "lon": 8.705,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Nâbil (Nabeul)",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.451,
-    "lon": 10.735,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kelîbiye",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.849,
-    "lon": 11.094,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Zağvân",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.402,
-    "lon": 10.143,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Sûse",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.826,
-    "lon": 10.638,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Munastır",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.778,
-    "lon": 10.826,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Mehdiye",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.505,
-    "lon": 11.062,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kasrayn",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.167,
-    "lon": 8.836,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kafsa",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 34.425,
-    "lon": 8.784,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Tozer",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.92,
-    "lon": 8.134,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Nefta",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.873,
-    "lon": 7.878,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Medenîn",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.354,
-    "lon": 10.505,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Tatavin",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 32.93,
-    "lon": 10.451,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Cerciş (Zarzis)",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.504,
-    "lon": 11.112,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Bin Gerdân",
-    "dosya": "yerlesimler_afrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.138,
-    "lon": 11.22,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Ğâru'l-Melh (Porto Farina)",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 37.177,
-    "lon": 10.191,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Testûr",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.556,
-    "lon": 9.442,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Ğar Dimâv",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 36.45,
-    "lon": 8.435,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Mekter (Maktar)",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.855,
-    "lon": 9.203,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Sübaytıla",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.235,
-    "lon": 9.12,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Sîdî Bû Zeyd",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 35.038,
-    "lon": 9.485,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Metlâvî",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 34.32,
-    "lon": 8.4,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Kıbillî (Nefzâve)",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.704,
-    "lon": 8.969,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
-    "not_dolu": false,
-    "V": true
-   },
-   {
-    "ad": "Dûz",
-    "dosya": "yerlesimler_h2_kuzeyafrika.js",
-    "sahip": null,
-    "kunye": null,
-    "kunye_t": null,
-    "acik_isg": [
-     "fransa-cumhuriyet"
-    ],
-    "acik_v": [
-     "tunus-beyligi-fransiz"
-    ],
-    "lat": 33.466,
-    "lon": 9.02,
-    "s_f": null,
-    "s_idx": null,
-    "s_n": 1,
     "not_dolu": false,
     "V": true
    }
@@ -71442,10 +71829,276 @@
  },
  "bolge_ad_bulunamadi": [],
  "bolge_ad_yakalanmadi": [],
+ "HS_sayi": {
+  "ALSAS|③": 3,
+  "ARNAVUTLUK|①": 15,
+  "AVUSTURYA|①": 12,
+  "CIMMA|①": 1,
+  "CINHINDI-TAYLAND|①": 4,
+  "DANZIG|BEKLEYEN": 1,
+  "FILIPIN|③": 14,
+  "G-SLOVAKYA|①": 5,
+  "HABESISTAN|①": 64,
+  "ING-SOMALI|③": 16,
+  "K-ERDEL|BEKLEYEN": 3,
+  "KARPAT|BEKLEYEN": 2,
+  "KONIGSBERG|①": 1,
+  "LUKSEMBURG|③": 1,
+  "LUKSEMBURG-WILTZ|③": 1,
+  "MALAYA-TAYLAND|③": 3,
+  "MANCURYA|②": 9,
+  "MEMEL|BEKLEYEN": 1,
+  "NDH|②": 38,
+  "ODER-NEISSE|BEKLEYEN": 7,
+  "POLONYA-BIALYSTOK|BEKLEYEN": 1,
+  "POLONYA-DOGU|①": 9,
+  "POLONYA-GG|BEKLEYEN": 8,
+  "POLONYA-REICH|BEKLEYEN": 4,
+  "PROTEKTORA|③": 6,
+  "REHE|②": 2,
+  "SLOVAKYA|②": 4,
+  "SUDET|①": 2,
+  "TANCA|③": 1,
+  "YUG-ALMAN|③": 10,
+  "YUG-BULGAR|③": 9,
+  "YUG-ITALYAN|③": 14,
+  "YUG-MACAR|③": 3,
+  "YUG-YAKA|BEKLEYEN": 5
+ },
+ "HS_bekleyen": [
+  {
+   "ad": "Erdel (Kaloşvar)",
+   "grup": "K-ERDEL",
+   "hukuk": "①",
+   "neden": "II. Viyana Hakemliği 1940-08-30: kronolojide MADDE YOK — başlangıç yazılamaz (dönüş 1945-03-09 maddesi var)",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Gdansk",
+   "grup": "DANZIG",
+   "hukuk": "①",
+   "neden": "1939-10-26 Reich (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Varad (Oradea)",
+   "grup": "K-ERDEL",
+   "hukuk": "①",
+   "neden": "II. Viyana Hakemliği 1940-08-30: kronolojide MADDE YOK — başlangıç yazılamaz (dönüş 1945-03-09 maddesi var)",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Pag (Pago)",
+   "grup": "YUG-YAKA",
+   "hukuk": "?",
+   "neden": "1941 paylaşımında hangi yakaya (NDH / İtalyan Dalmaçyası) düştüğü ÖLÇÜLEMEDİ",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Uzunada (Dugi Otok)",
+   "grup": "YUG-YAKA",
+   "hukuk": "?",
+   "neden": "1941 paylaşımında hangi yakaya (NDH / İtalyan Dalmaçyası) düştüğü ÖLÇÜLEMEDİ",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Mliyet (Mljet)",
+   "grup": "YUG-YAKA",
+   "hukuk": "?",
+   "neden": "1941 paylaşımında hangi yakaya (NDH / İtalyan Dalmaçyası) düştüğü ÖLÇÜLEMEDİ",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Vrana (Urana)",
+   "grup": "YUG-YAKA",
+   "hukuk": "?",
+   "neden": "1941 paylaşımında hangi yakaya (NDH / İtalyan Dalmaçyası) düştüğü ÖLÇÜLEMEDİ",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Nadin",
+   "grup": "YUG-YAKA",
+   "hukuk": "?",
+   "neden": "1941 paylaşımında hangi yakaya (NDH / İtalyan Dalmaçyası) düştüğü ÖLÇÜLEMEDİ",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Klaipėda (Memel)",
+   "grup": "MEMEL",
+   "hukuk": "①",
+   "neden": "1939-03-22 Reich (madde var) · 1945 Sovyet ele geçirişi MADDE YOK — son dilim yazılamaz",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Ungvár (Uzhhorod)",
+   "grup": "KARPAT",
+   "hukuk": "①",
+   "neden": "1938-11-02 Macar · 1945-01-20 Çekoslovak · 1945-06-29 SSCB devri MADDE YOK — son dilim yazılamaz",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Munkács (Mukacheve)",
+   "grup": "KARPAT",
+   "hukuk": "①",
+   "neden": "1938-11-02 Macar · 1945-01-20 Çekoslovak · 1945-06-29 SSCB devri MADDE YOK — son dilim yazılamaz",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Szatmár (Satu Mare)",
+   "grup": "K-ERDEL",
+   "hukuk": "①",
+   "neden": "II. Viyana Hakemliği 1940-08-30: kronolojide MADDE YOK — başlangıç yazılamaz (dönüş 1945-03-09 maddesi var)",
+   "kova": "T_savas_ici_geri_donen"
+  },
+  {
+   "ad": "Krakov",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Łódź",
+   "grup": "POLONYA-REICH",
+   "hukuk": "①",
+   "neden": "1939-10-26 Reich ilhakı (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Częstochowa",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Kielce",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Radom (Polonya)",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Breslau (Wrocław)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Liegnitz (Legnica)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Oppeln (Opole)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Glatz (Kłodzko)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Gleiwitz (Gliwice)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Kattowitz (Katowice)",
+   "grup": "POLONYA-REICH",
+   "hukuk": "①",
+   "neden": "1939-10-26 Reich ilhakı (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Poznan",
+   "grup": "POLONYA-REICH",
+   "hukuk": "①",
+   "neden": "1939-10-26 Reich ilhakı (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Varşova",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Elbing (Elbląg)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Torun (Toruń)",
+   "grup": "POLONYA-REICH",
+   "hukuk": "①",
+   "neden": "1939-10-26 Reich ilhakı (madde var) · 1945 Polonya ardılı künyesiz (Z4) — son dilim yazılamaz",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Stettin (Szczecin)",
+   "grup": "ODER-NEISSE",
+   "hukuk": "①",
+   "neden": "1945-08-02 Potsdam → Polonya: Polonya ardılı künyesiz (Z4)",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Lublin",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Chełm (Kholm)",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Zamość",
+   "grup": "POLONYA-GG",
+   "hukuk": "③",
+   "neden": "Genel Valilik: Polonya hukuken sürüyor ⇒ s:polonya devam eder — ama polonya künyesi 1939-10-06'da bitiyor (Z4: ardıl/uzatma kararı) · isg:almanya 1939-10-26 →",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  },
+  {
+   "ad": "Białystok",
+   "grup": "POLONYA-BIALYSTOK",
+   "hukuk": "①",
+   "neden": "1939 SSCB · 1944-45 Polonya'ya iade — Polonya ardılı künyesiz, gün yok",
+   "kova": "D_kunye_1923_45_arasi_bitti"
+  }
+ ],
+ "HS_ad_bulunamadi": [],
  "yama_say": {
+  "V_himaye_mekanik": 39,
   "A_mekanik": 3203,
-  "B_kalici": 53,
-  "C_kunye_1923te_kesik": 263
+  "B_kalici": 52,
+  "C_kunye_1923te_kesik": 265,
+  "D_kunye_1923_45_arasi_bitti": 176,
+  "HS": 247
  },
  "A_not_dolu_beyan_inmez": [
   "Musul",
