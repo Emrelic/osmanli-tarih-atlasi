@@ -394,7 +394,7 @@ window.YERLESIMLER_OK107 = [
 //     Dayanak `gevgili` maddesinin Avrathisar/Gynaikokastro cümlesi.
 
 { ad:"Köprülü (Veles)", tur:"sehir", lat:41.716, lon:21.775, k:3, m:null,
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+  s:[{f:"1281-01-01",t:"1330-01-01",d:"bizans",kaynak:"EPOK-SAHIP-1008 · TDV koprulu: '1246’da Bizans İmparatoru İoannis Vatatzis, Skopje (Üsküp), Veles ve Prosek’i Bulgarlar’dan geri aldı.' (İznik → Bizans ardıllığı 1261) · t: '1330 yılındaki Velbuzd Savaşı’nın ardından … Veles’i Bizanslar’dan alarak Sırp Devleti’ne kattıkları' — YIL; 🟡 olay Velbuzd'dan (1330 yazı) SONRA, YYYY-01-01 birkaç ay ERKEN"},{f:"1330-01-01",t:"1371-09-26",d:"sirbistan",kaynak:"EPOK-SAHIP-1008 · TDV koprulu: '1330 yılındaki Velbuzd Savaşı’nın ardından Kral Stefan’ın Sırp askerlerinin “meşhur şehir” Veles’i Bizanslar’dan alarak Sırp Devleti’ne kattıkları' (YIL)"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},

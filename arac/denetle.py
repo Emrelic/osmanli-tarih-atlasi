@@ -2816,7 +2816,7 @@ ATLAS_BASI = "1281-01-01"
 #   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
 #   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
 #   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
-BEKLENEN_ONCE = 326   # 9 EKIM (dalga 1): 324 -> 326 · DOGU-1533-0087, ADIYLA ve AYNI commit'te (§3.4-2). YUKARI yon: denetle.py'nin kendi uyarisi 'BU BIR KUSUR SAYISI DEGIL, BIR SORU SAYISIDIR — care cogu zaman kunyeyi GENISLETMEKTIR'. En buyuk kovalar zend 134 · adal 37 · napoli 24; yeni iki soru da ayni ailede. Kusur olarak kapatilmadi, SORU olarak sayildi · ONCESI: 1 EKIM 317 -> 324 KAPSAM GENISLEMESI
+BEKLENEN_ONCE = 325   # 9 EKIM (EPOK-SAHIP): 326 -> 325 · Malta napoli kaydi duzeldi — IYILESME, §3.4-3 · ONCESI: dalga 1 324 -> 326 (DOGU-1533, yeni SORU) · 1 EKIM 317 -> 324 KAPSAM GENISLEMESI
 # 🔴 +7'nin sebebi 4c ile AYNI: `degismez4` kimligi artik `id:` ∪ `harita:`
 #   ile cozuyor; once `harita:` takma adli donemler bu dala HIC girmiyordu.
 #   Yedisi (KASA olcumden ONCE bildirdi, birebir tuttu):
@@ -3027,7 +3027,7 @@ BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
 # (28 Eylül 2026, ilk ve tek kayıt Uzunköprü). Yükseltmek bir HÜKÜMDÜR:
 # her yeni muaf, motorun petek devrine açılan bir kapıdır ve kaynak cümlesi
 # olmadan yazılamaz. Düşerse `--yaz` ile indirilir.
-BEKLENEN_DEVIR_BEYANI = 1
+BEKLENEN_DEVIR_BEYANI = 2   # 9 EKIM 2026: 1 -> 2 · HUKUM (koordinator) · EPOK-SAHIP-1009 Canakkale. Sartname yerine getirildi: devir_beyani KAYNAK CUMLESINI tasiyor — TDV canakkale 'kurulusu pek eski donemlere inmeyen ve temeli Fatih Sultan Mehmed doneminde atilmis olan bir XV. yuzyil sehri' + 'bu caminin yapimi kaleden de once 1452 yilindadir' ⇒ kur:1452, kurulusun UST siniri. 1281-1452 donemleri BOLGE vekilidir. Bugunku tek uye UZUNKOPRU (kur:1443, Ergene Koprusu) ile YAPISAL OLARAK AYNI sinif. BLANKET DEGIL: ucuncu uye yine hukum ister · ONCESI: 28 Eylul, ilk ve tek kayit Uzunkopru
 
 
 # 🔴 5c — VE BU DAL, 5b YAZILDIKTAN BİR SAAT SONRA DOĞDU, ÇÜNKÜ 5b'NİN
