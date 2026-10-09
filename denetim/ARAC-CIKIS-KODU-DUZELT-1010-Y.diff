@@ -1,0 +1,104 @@
+diff --git a/denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py b/denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py
+index 5e99ed5e..8d041383 100644
+--- a/denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py
++++ b/denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py
+@@ -109,3 +109,5 @@ for e in bosluk[:5]:
+ io.open(os.path.join(KOK, "denetim", "HARITA-DURUM-0074-KABARTMA-SINAV.json"), "w",
+         encoding="utf-8").write(json.dumps(SON, ensure_ascii=False, indent=1))
+ print("yazildi")
++# "SINAV KALDI" basip cikis 0 vermez (CLAUDE.md §3: 0 temiz · 1 ihlal).
++sys.exit(0 if hepsi else 1)
+diff --git a/denetim/ARAC-UYGULA4-ONSINAV-0918.py b/denetim/ARAC-UYGULA4-ONSINAV-0918.py
+index c39c29cc..3c96110b 100644
+--- a/denetim/ARAC-UYGULA4-ONSINAV-0918.py
++++ b/denetim/ARAC-UYGULA4-ONSINAV-0918.py
+@@ -38,6 +38,12 @@ mes = sorted(((girdi.km(YENI[1], YENI[2], y["lat"], y["lon"]), y["ad"]) for y in
+ for d, a in mes:
+     print(f"   {d:8.1f} km  {a}")
+ print("   3 km eşiği:", "🔴 İHLAL" if mes[0][0] < 3 else "✓ temiz")
++# Yama İNDİYSE en yakın nokta yeni noktanın KENDİSİDİR (0 km, aynı ad):
++# ön sınavın sorusu artık sorulamaz — İHLAL değil ÖLÇÜLEMEDİ.
++kendisi = mes[0][0] < 0.05 and norm(mes[0][1]) == n
++if kendisi:
++    print("   ⚪ nokta ZATEN veride (yama inmiş) — ön sınavın sorusu bayat, ÖLÇÜLEMEDİ")
++ihlal_3km = mes[0][0] < 3 and not kendisi
+ 
+ print("\n② Belgrad")
+ b = [y for y in Y if y["ad"] == "Belgrad"]
+@@ -63,9 +69,19 @@ def gun(s):
+     return date(int(s[:4]), int(s[5:7]), int(s[8:10])).toordinal()
+ 
+ 
++maddesiz = []
+ for hedef in ("1789-10-13", "1791-08-04", "1789-11-01"):
+     yak = sorted(((abs(gun(t) - gun(hedef)), t, b, f) for t, b, f in mad))[:3]
++    if not yak or yak[0][0] > 30:
++        maddesiz.append(hedef)
+     print(f"   {hedef}:")
+     for d, t, b, f in yak:
+         im = "🟢" if d <= 30 else "🔴"
+         print(f"      {im} {d:5d} gün · {t} · {b[:70]} · {f}")
++
++# Hüküm çıkış koduna bağlı (CLAUDE.md §3: 0 temiz · 1 ihlal · 2 ölçülemedi).
++print("\nHÜKÜM:", "🔴 İHLAL" if (ihlal_3km or maddesiz) else
++      ("⚪ ÖLÇÜLEMEDİ" if kendisi else "✓ temiz"),
++      "· 3 km:", "İHLAL" if ihlal_3km else ("ölçülemedi" if kendisi else "temiz"),
++      "· ±30 gün maddesiz:", maddesiz or "yok")
++sys.exit(1 if (ihlal_3km or maddesiz) else (2 if kendisi else 0))
+diff --git a/denetim/SINAV-DONEM-KAYNAK-0907.py b/denetim/SINAV-DONEM-KAYNAK-0907.py
+index 8dcbbbf1..f76cb73c 100644
+--- a/denetim/SINAV-DONEM-KAYNAK-0907.py
++++ b/denetim/SINAV-DONEM-KAYNAK-0907.py
+@@ -70,6 +70,7 @@ i = KAYNAK.index('JS = r"""') + len('JS = r"""')
+ j = KAYNAK.index('"""', i)
+ JS = KAYNAK[i:j]
+ gecici = tempfile.mkdtemp(prefix="sinav_donem_")
++node_hukum = None    # True ulaştı · False ulaşmadı · None ölçülemedi (node hatası)
+ try:
+     os.makedirs(os.path.join(gecici, "data"))
+     io.open(os.path.join(gecici, "data", "yer_yama_SINAV.js"),
+@@ -81,13 +82,17 @@ try:
+         '       {f:"1814-01-14",t:"1923-10-29",d:"isvec"}\n'
+         '    ] },\n'
+         '];\n')
+-    p = subprocess.run(["node", "-e", JS], cwd=gecici,
+-                       capture_output=True, text=True, encoding="utf-8")
++    try:
++        p = subprocess.run(["node", "-e", JS], cwd=gecici,
++                           capture_output=True, text=True, encoding="utf-8")
++    except OSError as e:     # node yok ⇒ ölçülemedi (2), ihlal (1) DEĞİL
++        p = subprocess.CompletedProcess([], 127, "", "node koşturulamadı: %s" % e)
+     if p.returncode != 0:
+         print("   🔴 node hatası: " + (p.stderr or "")[:200])
+     else:
+         veri = json.loads(p.stdout)
+         print("   süzgeçten geçen kayıt: %d" % len(veri))
++        node_hukum = False
+         if veri:
+             r = veri[0]["r"]
+             d0 = (r.get("s") or [{}])[0]
+@@ -96,6 +101,7 @@ try:
+             var = "kaynak" in d0
+             print("   ⇒ dönem-içi `kaynak:` Python'a ULAŞTI: " +
+                   ("🟢 EVET — " + str(d0["kaynak"]) if var else "🔴 HAYIR"))
++            node_hukum = var
+ finally:
+     shutil.rmtree(gecici, ignore_errors=True)
+ 
+@@ -103,10 +109,15 @@ print()
+ print("=" * 66)
+ print("HÜKÜM")
+ print("=" * 66)
+-if a1 == 2 and a2 == 0 and korunan:
++# ② node süzgeci de hükmün parçasıdır — 🔴 basıp çıkış 0 vermez.
++if a1 == 2 and a2 == 0 and korunan and node_hukum:
+     print("🟢 DÖNEM-İÇİ `kaynak:` TAŞINIYOR — dayanak yaması YAZILABİLİR.")
+     print("   `js_yaz` sabit bir alan listesi KULLANMIYOR: `deger.items()`")
+     print("   sözlükteki HER anahtarı yazıyor. `not:`/`bos:` vakasının")
+     print("   (sabit `sira` listesi) tersi — o kusur BURADA YOK.")
++elif a1 == 2 and a2 == 0 and korunan and node_hukum is None:
++    print("⚪ ÖLÇÜLEMEDİ — node süzgeci koşmadı (②); hüküm eksik.")
++    raise SystemExit(2)
+ else:
+     print("🔴 KUSUR VAR — dayanak yaması YAZILMAZ, koordinatöre bildir.")
++    raise SystemExit(1)
