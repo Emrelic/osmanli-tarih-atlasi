@@ -1,11 +1,17 @@
 {
  "bekci_yasak": true,
  "kod": "KOSU",
- "ilan": "2026-10-07 01:31",
+ "ilan": "2026-10-10 00:09",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "",
- "gerekce": "Emre 7 Ekim: haftalik limit %94 — butun is DURDU, yalniz HAVVA kosusu + yayin surecek. Bekci kurulmasi YASAK (token).",
- "muaf": [],
+ "olcum": "bekci_olc 10 Ekim 00:0x: CANLI 0 - BITMIS 16 - CIKTI 1. 10 hazir kita 21:28'de acildi, bekcileri 2 saatlik tavanda dustu.",
+ "gerekce": "GUNCELLEME, yeni ilan DEGIL. Taban: 7 Ekim 01:31 ilani (Emre haftalik limit %94, butun is DURDU, yalniz HAVVA kosusu + yayin). Bugun 10 Ekim: Emre KOSU emri verdi (origin/main 46f9d882, 7-8 saat) ve EMRELIC'te uc olcum kitasi gorevlendirdi. Yasak AYNEN duruyor - sebebi token, ve Emre su an '10 mesaj sinirim var' diyor. DEGISEN TEK SEY: muaf listesi bostan bese cikti; gorevli uc kita + kosucu + koordinator haberlesebilsin. Yasagi KALDIRMAK Emre'nin karari, kosucunun degil.",
+ "muaf": [
+  "HARITA-DIL-OLCUM-1009",
+  "D8-ONCE-OLCUM-1009",
+  "DENETIM-OLU-ETIKET-1009",
+  "HAVVA",
+  "YILDIRIM BAYEZIT"
+ ],
  "kapi": {
   "durum": "GECTI",
   "kok": "C:\\atlas",
