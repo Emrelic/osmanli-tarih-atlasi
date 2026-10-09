@@ -427,9 +427,54 @@ ve cevabı **AÇ** tarafında açık.
    darboğazı görünür kılar.
 
 🔴 **VE BU KUTU MÖ'Yİ AÇMIYOR — yalnız kutunun YOĞUNLUK şartını açıyor.**
-MÖ penceresi için ayrıca: `kur:` borcu (2.823 nokta) · MÖ künyeleri (KASA'da,
-16 öneri) · negatif yıl makinesi (`gun.js` indi, motor tarafı partide) ·
-ve `§6`nın sırası (dizin → yoğunluk → pencere) tamamlanmalı.
+
+### 5.2 🆕 🔴 ÜÇ KAPI AYRI — `§6`nın sırası SAHİPLİĞİ saymıyordu
+
+`§6` *"dizin katmanı → yerleşim yoğunluğu → harita penceresi"* diyor. Ölçüldü
+(KASA, 10 Ekim 2026, **üç ayrı ölçümle üst üste**): bu sıra eksik.
+```
+① YOĞUNLUK   o gün orada NOKTA var mı?        → MIMARI §5 / §5.1 eşiği
+② SAHİPLİK   o nokta o gün KİMİN?             → `s:` zinciri
+③ KAYNAK     bunu NEREDEN biliyoruz?          → §4 · D208 · halka sınıfı
+```
+**Üçü AYRI ve biri açılınca öteki AÇILMIYOR.** Ölçülen vaka, Sümer çekirdeği:
+```
+yoğunluk kapısı  AÇIK  (26 nokta + 1 dolgu ⇒ p95 111,4 km)
+sahiplik kapısı  %14,2 (nokta-yıl 56.195 · bağlı 7.999)  ⇒ harita %85,8 BOŞ
+```
+🔴 **Ve boşluğun en büyük sebebi künye eksikliği DEĞİL:**
+`künye VAR ama şehir BAĞLANMAMIŞ` **%63,3** · `kaynak yok` %19,1 ·
+`künye yok` %17,6.
+⇒ **Künye açmak, şehir adlı kaynak olmadan haritayı BOYAMAZ.** Bu üç kez
+ayrı ayrı ölçüldü:
+```
+B-TUR     hedefli kaynak turu    %88,5 → %85,8   (7 yeni halka, 4 noktada)
+t: kuralı son tasdik yazılınca   %85,8 → %83,3   (11 nokta, "yok"a geçti)
+N kalem   5 yeni künye açılınca  %83,3 → %83,0   ⇐ künye N'yi B'ye ÇEVİRİYOR
+```
+Son satır kuralın kendisi: **künye bir DİZİN kaydıdır; boyayan şey ŞEHİR ADLI
+KAYNAKTIR.** Dizin katmanını açmak sahiplik katmanını açmaz.
+
+**MÖ KESİTLERİ — yoğunluk kapısı her kesitte AÇIK** (`kur:` uygulanmış):
+| kesit | çekirdek p95 | azamî |
+|---|---|---|
+| MÖ 3000 | 118,7 km | 177,7 |
+| MÖ 2700'den itibaren | 111,4 km | 177,7 |
+⇒ Ve `kur:`sız iki site (Sippar · Nina) hariç tutulduğunda **p95 AYNI** ⇒
+kaynaksız iki nokta kapıyı **ŞİŞİRMİYOR**; `§5`in *"var olmayan nokta
+yoğunluk sayılmaz"* kuralı bu kutuda **beyanla değil ÖLÇÜMLE** sağlanıyor.
+
+🔴 **PENCERE KARARI İÇİN SONUÇ:** MÖ penceresi **açılabilir** (yoğunluk AÇIK),
+ama açıldığı gün harita **%83 beyanlı boş** görünecek. Bu bir kusur DEĞİL
+(`§1.5`: *"Kusur değil, BEYAN"*) ama **bir GÖRÜNTÜ kararıdır ve Emre'nindir.**
+Üç sayı o kararın dayanağı: **%83 boşluk · %63,3'ü şehir bağlanmamış künye ·
+en kârlı kalem MÖ 539 → MS 226 (765 yıl, 27 noktanın hepsi).**
+
+---
+
+MÖ penceresi için kalan diğer şartlar: `kur:`/`t:` borcu (2.823 nokta,
+17'si ölçüldü) · MÖ künyeleri (KASA'da 20+ öneri) · negatif yıl makinesi
+(`gun.js` indi `5c45d2c0`, motor tarafı partide) · ve yukarıdaki **üç kapı.**
 
 Seyrek bölgelerde nokta gerçek şehir olmak zorunda değil; `tur:"bolge"` tipinde bir
 **dolgu noktası** olabilir. Dolgu noktası sahipsiz kalır ve `bos:` alanıyla
