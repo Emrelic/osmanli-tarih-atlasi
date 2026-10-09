@@ -1,16 +1,19 @@
 {
  "bekci_yasak": true,
  "kod": "KOSU",
- "ilan": "2026-10-10 00:09",
+ "ilan": "2026-10-10 00:59",
  "ilan_eden": "YILDIRIM BAYEZIT",
- "olcum": "bekci_olc 10 Ekim 00:0x: CANLI 0 - BITMIS 16 - CIKTI 1. 10 hazir kita 21:28'de acildi, bekcileri 2 saatlik tavanda dustu.",
- "gerekce": "GUNCELLEME, yeni ilan DEGIL. Taban: 7 Ekim 01:31 ilani (Emre haftalik limit %94, butun is DURDU, yalniz HAVVA kosusu + yayin). Bugun 10 Ekim: Emre KOSU emri verdi (origin/main 46f9d882, 7-8 saat) ve EMRELIC'te uc olcum kitasi gorevlendirdi. Yasak AYNEN duruyor - sebebi token, ve Emre su an '10 mesaj sinirim var' diyor. DEGISEN TEK SEY: muaf listesi bostan bese cikti; gorevli uc kita + kosucu + koordinator haberlesebilsin. Yasagi KALDIRMAK Emre'nin karari, kosucunun degil.",
+ "olcum": "KOSU 22 kosuyor: taban e54e60df, baslangic 00:57:28, ufuk 1000-1945, tuz fcfc307db9e8, 2 isci.",
+ "gerekce": "GUNCELLEME. Taban 7 Ekim 01:31 ilani (Emre haftalik limit %94 - token). Yasak AYNEN duruyor, KALDIRILMADI. Bu cagrinin sebebi: ZAMAN-PAKET-v2 uret_petek.py ve girdi.py'yi degistirdi, commitli KOSU-KAPI.json ESKI motoru gosteriyordu (HAVVA olctu). Damga tazelendi; motor onu okumuyor ama IZ yanlis kalmasin. Muaf listesi 5'ten 8'e: dort makine koordinatoru da eklendi.",
  "muaf": [
   "HARITA-DIL-OLCUM-1009",
   "D8-ONCE-OLCUM-1009",
   "DENETIM-OLU-ETIKET-1009",
   "HAVVA",
-  "YILDIRIM BAYEZIT"
+  "YILDIRIM BAYEZIT",
+  "LAB",
+  "KASA",
+  "UMIT"
  ],
  "kapi": {
   "durum": "GECTI",
