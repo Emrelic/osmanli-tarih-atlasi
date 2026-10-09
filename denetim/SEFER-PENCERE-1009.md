@@ -164,3 +164,48 @@ Sabit bir gün payı YOK; pay kronolojiden türüyor. Yorum birebir: *"VE SONU D
 - **B — dokunma (ŞİMDİLİK SEÇİLEN, UMIT İRTİBAT):** Kefe'nin 07-15→1455 görünürlüğü yalnız Zaman akışında kalır.
 
 A seçilirse yapılacak (UMIT İRTİBAT yeniden çağıracak): diff origin/main `js/app.js` + makine/umit'te uygulanabilirlik; sınav iki yönde headless (Kefe 07-14 görünür / 07-15 gizli · Çaldıran bozulmadı · olay olay kipinde 131 okun görünürlüğü madde madde aynı).
+
+## § A UYGULAMASI — 9 Ekim 2026 (Emre kararı "A", koordinatör aktardı)
+
+**Diff:** `denetim/SEFER-PENCERE-1009.diff` — yalnız `js/app.js`, 10+/3− (iki kod satırı + yorum). Temel `origin/main` `0c4b383c`.
+```
+m._tiKirpik = m.ti + 1;                                        // eskiden m.ti (sonraki olay yoksa)
+if (isFinite(sonraki)) m._tiKirpik = Math.min(sonraki, m.ti + 1);   // eskiden = sonraki
+```
+- İstenen tek satır `Math.min` satırıdır. İkinci satır "sonraki olay yok" (külliyatın sonu) dalı: orada `m.ti` kalsaydı ok
+  KENDİ `t` gününde görünmezdi (24 Ağustos'un düzelttiği kusurun aynısı) — tutarlılık için o da `m.ti + 1`.
+- `sonraki` tanım gereği her zaman `> m.ti` ⇒ `Math.min` fiilen her zaman `m.ti + 1` verir; döngü artık sonucu etkilemiyor
+  (iz için bırakıldı, yorumda yazılı). İstenirse ileride sadeleştirilebilir.
+- Yorum güncellendi: 24 Ağustos gerekçesi + 9 Ekim Emre kararı, kısa.
+
+**Uygulanabilirlik (ölçüldü, `git apply --check --cached`):**
+```
+temiz origin/main 0c4b383c                                ✓
+main + ZAMAN-PAKET-1009.diff (-C1)  → sonra SEFER-PENCERE  ✓
+main + SEFER-PENCERE → sonra ZAMAN-PAKET-1009.diff (-C1)  ✓  (ZAMAN-PAKET'in kendi bir parçası -C1 ile bağlam daraltıyor: "Context reduced to (1/1)", hata değil)
+diff dosyası: LF · BOM yok · CR 0 · 1769 bayt
+```
+
+**Sınav — `denetim/ARAC-SEFER-PENCERE-SINAV-1009.js` (headless Chrome, gerçek index.html, iki kol aynı ağaçta app.js değiştirilerek):**
+```
+KOL yamasız · 132 ok · 1663 madde günü
+  ✓ t'yi aşan ok > 0                                    127/132   (5921a031'de 126/131; main'e Kefe + Rodos ikiye bölünmesi indi)
+  ✓ Kefe 1454-07-14 görünür / ✓ 07-15 GÖRÜNÜR (eski davranış — sınavın öbür yönü)
+  ✓ Çaldıran 1514-08-23 (kendi t günü) görünür
+KOL yamalı · 132 ok
+  ✓ t'yi aşan ok = 0                                    0/132
+  ✓ Kefe 1454-07-14 görünür · ✓ 07-15 gizli
+  ✓ Çaldıran 1514-08-23 görünür
+KARŞILAŞTIR — "olay olay" kipi, 132 ok × 1663 madde günü
+  ✓ görünürlüğü farklı ok 0/132
+KONTROL YÖNÜ (karşılaştırıcı kör mü?): yamalı kolda tek okun tek gününü bozdum ("Nâdir Şah'ın Musul'dan çekilişi")
+  ✗ 1/132 — YAKALADI, çıkış 1
+```
+Kullanım: `node denetim/ARAC-SEFER-PENCERE-SINAV-1009.js olc <port> <yamasiz|yamali> <cikti.json>` ·
+`… karsilastir <yamasiz.json> <yamali.json>` · çıkış 0 temiz / 1 beklenti tutmadı / 2 ölçülemedi.
+⚠️ Sınav paketlenmiş veriyi okur: kaynak değiştiyse önce `py arac/paketle.py yenile` (yalnız worktree'de yapıldı; değişen kaynak 0).
+
+**Etki:** "Olay olay" kipinde hiçbir okun hiçbir madde gününde görünürlüğü değişmiyor (ölçüldü). "Zaman akışı" kipinde
+127 ok `t` gününün sonunda düşüyor (önceden sonraki maddeye kadar sürüyordu — liste yukarıdaki tabloda).
+Erken kaybolan kara seferi YOK: her ok kendi `t` gününde görünür kalıyor (Çaldıran sınandı; 132 okun hepsi için
+`tiK - ti = 1`).
