@@ -116,3 +116,59 @@ düşüyor ya da ana gövde seçimi onu ada saymıyor. Ayırt **edilmedi**.
 
 ## Dosyalar
 - `denetim/DOGU-ANADOLU-0085.md` (bu rapor). Diff yok.
+
+---
+
+# DEVAM — koordinatör hükümleri uygulandı (9 Ekim 2026, `origin/main` 6865cc87)
+
+## 6. Yazılan zincir (Şebinkarahisar, `yerlesimler_ek29.js`)
+```
+eretna       1335 → 1381
+burhaneddin  1381 → 1398   ÇIKARIMDIR — gerekçe zinciri kaynak alanında BİREBİR; "KASA çelişen kaynak bulursa hüküm DÜŞER"
+__BOSLUK__   1398 → 1408   AÇIK KALEM (KASA): Osmanlı 1398 mi, Timur 1400 mü bilinmiyor   [ÖNERİ]
+   (alt.)    akkoyunlu     eski sadeleştirmenin kalıntısı                               [ALTERNATİF diff]
+gozleroglu   1408 → 1418   f TDV (811/1408) · bitiş TÜRETİLMİŞ ("on yıl sonra")
+akkoyunlu    1418 → 1473-08-11  korundu (D206); TDV iç çelişkisi kaynak alanında
+```
+- `burhaneddin` künyesi (görevde `kadi-burhaneddin` diye anılan): id `burhaneddin`, f 1381 / t 1398,
+  **boyalı** (#155412). Dilim künye penceresinin içinde, 4c ve 4d'ye düşmüyor.
+- Kayıttaki "SADELEŞTİRME" yorum bloğuna, sadeleştirmenin açıldığını söyleyen bir satır eklendi.
+
+## 7. 1398-1408: hangisi daha az yanlış — ölçüldü
+| | A: akkoyunlu kalır | B: `__BOSLUK__` (önerim) |
+|---|---|---|
+| H-0004 (1401-02) · H-0016 (1402-1410) | eksklav **aynen durur**: Emre'nin işaret ettiği kusur kapanmaz | eksklav **kalkar** |
+| iddia | TDV'nin iki maddesiyle çelişen bir sahip | "kimsenin değildi": o da doğru değil, ama bir sahip uydurmaz |
+| harita | yeşil ada | Şebinkarahisar peteği 10 yıl **boyasız** (delik) |
+| Değişmez 7 | 737 (değişmez; D7 bu adayı zaten görmüyor) | **738** (+1: `1398-01-01 Şebinkarahisar → __BOSLUK__ 1560 km ada`) |
+
+**Önerim B**, çünkü görevin konusu olan kusuru kapatan tek seçenek bu. Bedeli görünür bir delik ve
+bu delik beyanlı. A'nın diff'i de hazır (`-KOORD-ALT-AKKOYUNLU-KALINTI.diff`).
+
+## 8. `denetle.py` önce / sonra (`PYTHONHASHSEED=0 --ayrinti`; dört koşunun hepsi **çıkış 2**, Değişmez 8 taze ağaçta ölçülemiyor)
+```
+                      ÖNCE        A+künye     B+künye     B (künyesiz)
+2s AÇIK               184         184         184         184
+2s KAPSAM DIŞI        791         790         790         790
+2s YIL-TEMSİLÎ BORÇ   167         170         170         170    (+3: 1381 · 1408 · 1418 kırılmaları, hepsi 01-01)
+Değişmez 7            737         737         738         738
+kaynaksız s:          1908        1907        1907        1907
+Değişmez 4 künyesiz   —           —           —           🔴 "1 dönem KÜNYESİZ kimlik: gozleroglu" (çıkışı 1 yapmıyor, ama GERÇEK borç)
+D1 · D2 · 2i · 2t · 4c · 4d   hepsi aynı
+```
+- **Şebinkarahisar D7'de görünüyor mu:** önce **hayır**. Yamadan sonra Burhâneddin dilimi ada
+  sayılmıyor (Sivas'a bitişik), Gözleroğlu dilimi de ada sayılmıyor (tek noktalı devlet kendi ana
+  gövdesi). Yalnız B'nin `__BOSLUK__` dilimi görünüyor. Akkoyunlu eksklavının (A) D7'de
+  görünmemesi sürüyor; kör nokta LAB'de.
+- Burhâneddin'in ada satırları (1381 Kayseri + Kırşehir, 170-174 km) önceden de vardı, benim
+  değil.
+
+## 9. Çıktılar
+- `denetim/DOGU-ANADOLU-0085-KOORD.diff` (B, öneri) · `-KOORD-ALT-AKKOYUNLU-KALINTI.diff` (A)
+  - Yalnız `yerlesimler_ek29.js`, LF, CR 0.
+  - İkisi de `git apply --check` ile temiz.
+  - Birlikte UYGULANMAZ.
+- `denetim/DOGU-ANADOLU-0085-KUNYE.json`: `gozleroglu` yeni (f 1408 yıl; t için öneri
+  1418-01-01, türetilmiş üst sınır) + `burhaneddin` notu.
+  - 🔴 **Künye + boya, KOORD diff'iyle AYNI commit'te.**
+  - Boya C3 listesine: ölçümde geçici #c2185b kullanıldı, bu bir öneri değil.
