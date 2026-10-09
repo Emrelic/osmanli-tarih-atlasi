@@ -1,5 +1,7 @@
 # LAB-KAPI-CIKIS-KODU-1009 — `denetim/` sınav araçlarında çıkış kodu ölçümü
 
+> 🕰 10 Ekim güncellemesi: UMIT ab9aa957 + 60b7731c ile 7 aracın çıkış kodu düzeltildi; aşağıdaki işaretler o tarihten. Ölçüm değerleri değiştirilmedi — yalnız durum notu eklendi.
+
 **Tür:** YALNIZ ÖLÇÜM. Hüküm yok, düzeltme yok. Hiçbir araca dokunulmadı.
 **Ölçülen ağaç:** `origin/main` = **`191dc74039d54b063b1772dd6fa52482777fe93f`** (191dc7403, "KOSU SURESI DUZELTILDI …")
 — ayrık (detached) ölçüm worktree'si `C:\atlas-kapi-olcum`'de; iş bitince kaldırıldı.
@@ -50,22 +52,22 @@ Bağlam: §3 "otomasyon cümleyi okumaz, çıkış kodunu okur". Bu ölçüm o c
 | # | araç | başarısızlık nasıl basılıyor | satır | çıkış 0 kanıtı |
 |---|---|---|---|---|
 | 1 | `denetim/A-OKYANUSYA-0078-alan.py` | `--sina`: "ATEŞLEMEDİ"; ardından `sys.exit()` = 0 | 76-77 | exit 0 — geçen hâl ölçüldü (exit 0 ATEŞLEDİ); kalan yol koddan |
-| 2 | `denetim/A-OKYANUSYA-0078-sina.py` | "POZİTİF KONTROL … ATEŞLEMEDİ!"; hiç exit yok | 70 | exit 0 — geçen hâl ölçüldü exit 0; kalan yol koddan |
+| 2 | `denetim/A-OKYANUSYA-0078-sina.py` | "POZİTİF KONTROL … ATEŞLEMEDİ!"; hiç exit yok | 70 | exit 0 — geçen hâl ölçüldü exit 0; kalan yol koddan · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (a78 GIRDI'de, 61 nokta kendisiyle), gerileme sezicisi · ab9aa957 |
 | 3 | `denetim/ARAC-BEKCI-SINAV-YARIYAZIM-0911.py` | "KALDI"; hiç exit yok | 73 | exit 0 — koşulmadı (dosya yazar); koddan |
-| 4 | `denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py` | "SINAV KALDI" / "KALDI"; hiç exit yok | 86-89 | exit 0 — koddan (bir kez koştu, json yazdı, çıktı alınmadı — bkz. olay notu) |
-| 5 | `denetim/ARAC-KAMERIKA-0903-kunye-sina.py` | "🔴 N HATA", "🔴 ÖTMEDİ"; hiç exit yok | 94, 153 | exit 0 — geçen hâl ölçüldü exit 0; kalan yol koddan |
-| 6 | `denetim/ARAC-KIMLIK-SINA-0903.py` | "🔴 HIC d: YOK", "🔴 KUNYE YOK/RENK YOK" listeleri; hiç exit yok | 73, 103-104 | exit 0 — geçen hâl ölçüldü exit 0; kalan yol koddan |
+| 4 | `denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py` | "SINAV KALDI" / "KALDI"; hiç exit yok | 86-89 | exit 0 — koddan (bir kez koştu, json yazdı, çıktı alınmadı — bkz. olay notu) · YALAN-0 → KAPANDI (canlı, bugün 0; 2 yol) · 60b7731c |
+| 5 | `denetim/ARAC-KAMERIKA-0903-kunye-sina.py` | "🔴 N HATA", "🔴 ÖTMEDİ"; hiç exit yok | 94, 153 | exit 0 — geçen hâl ölçüldü exit 0; kalan yol koddan · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (46/46 reçete devletler.js'te), gerileme sezicisi · ab9aa957 |
+| 6 | `denetim/ARAC-KIMLIK-SINA-0903.py` | "🔴 HIC d: YOK", "🔴 KUNYE YOK/RENK YOK" listeleri; hiç exit yok | 73, 103-104 | exit 0 — geçen hâl ölçüldü exit 0; kalan yol koddan · YALAN-0 → KAPANDI (canlı, bugün 0/1) · ab9aa957 |
 | 7 | `denetim/ARAC-MUKERRER-KAPI-0930.py` | "HÂLÂ ÖTÜYOR ✗", "ÖTMEDİ ✗"; hiç exit yok | 79-80, 91 | exit 0 — koşulmadı (dosya yazar); koddan |
 | 8 | `denetim/ARAC-OMUR-KAPISI-0903.py` | "🔴 KÜNYE DOĞMADAN ÖNCE/ÖLDÜKTEN SONRA … : N"; hiç exit yok | 70, 75 | exit 0 — koşuldu exit 0; N>0 yolu koddan |
 | 9 | `denetim/ARAC-TASIMA-ON-SINAV-0905.py` | "🔴 data/'de VAR", "🔴 window.X N dosya"; hiç exit yok | 51, 68, 78 | exit 0 — koşuldu exit 0; koddan |
-| 10 | `denetim/ARAC-UYGULA4-ONSINAV-0918.py` | "3 km eşiği: 🔴 İHLAL"; hiç exit yok | 40 | exit 0 — koşuldu exit 0; koddan |
+| 10 | `denetim/ARAC-UYGULA4-ONSINAV-0918.py` | "3 km eşiği: 🔴 İHLAL"; hiç exit yok | 40 | exit 0 — koşuldu exit 0; koddan · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (yama inmiş, nokta kendisi), gerileme sezicisi · 60b7731c |
 | 11 | `denetim/ARAC-YERLESIM-1281-ONCE-C.py` | "İHLAL <kayıt>" listesi; hiç exit yok | 149 | exit 0 — koşulmadı (dosya yazar); koddan |
 | 12 | `denetim/EKOKUMA-0076-A-SINA.py` | "② … çakışma: 33" / "ÖZET: … id çakışma 33" (docstring L6: "0 olmalı"); exit yalnız ALET KIRIK'ta (2) | 6, 69, 138 | exit 0 — **ÖLÇÜLDÜ: çakışma 33 basıp exit 0** |
 | 13 | `denetim/EKOKUMA-0076-B-capa.py` | "SINAV: 🔴 KALDI (n)"; hiç exit yok | 82 | exit 0 — `--sina` geçen hâl ölçüldü exit 0; kalan yol koddan |
 | 14 | `denetim/KRONO-0076-C-sinav.py` | "SONUC: … capasi TUTMAYAN N"; exit yalnız NORMALLESTIRICI KIRIK'ta (2) | 100 (exit 36) | exit 0 — geçen hâl ölçüldü exit 0 (N=0); N>0 yolu koddan |
-| 15 | `denetim/NOKTA-KAFKAS-0077-sina.py` | varsayılan kip: "kusur: N"; exit yok (yalnız `--atesle` kipi exit verir, L73) | 76 | exit 0 — koşuldu exit 0 (kusur 0); N>0 yolu koddan |
+| 15 | `denetim/NOKTA-KAFKAS-0077-sina.py` | varsayılan kip: "kusur: N"; exit yok (yalnız `--atesle` kipi exit verir, L73) | 76 | exit 0 — koşuldu exit 0 (kusur 0); N>0 yolu koddan · YALAN-0 → KAPANDI (canlı, bugün 0/1) · ab9aa957 |
 | 16 | `denetim/ODAK-BALKAN-0080-uygula.py` | `--ters`: "TERS SINAV: 🔴 KALDI" ardından çıplak `return` = 0 | 288 | exit 0 — koşulmadı (dosya yazar); koddan |
-| 17 | `denetim/SINAV-DONEM-KAYNAK-0907.py` | "🔴 KUSUR VAR — dayanak yaması YAZILMAZ"; exit yok (2 yalnız alet bulunamazsa, L35) | 112 | exit 0 — koşulmadı (dosya yazar); koddan |
+| 17 | `denetim/SINAV-DONEM-KAYNAK-0907.py` | "🔴 KUSUR VAR — dayanak yaması YAZILMAZ"; exit yok (2 yalnız alet bulunamazsa, L35) | 112 | exit 0 — koşulmadı (dosya yazar); koddan · YALAN-0 → KAPANDI (canlı, bugün 0; 2 yol, biri LAB'ın görmediği node süzgeci; +1 yalan-1 yolu → 2) · 60b7731c · DÜZELTME (UMIT Y §1, audit hook ölçümü): yalnız %TEMP%'e yazar, siler; repo yan etkisi YOK — LAB'ın statik AST sınıflaması geçici dizini repo yazımından ayırmıyordu |
 | 18 | `denetim/SINAV-RENK-98-0903.py` | "🔴 25 ALTINA DÜŞTÜ"; exit yok (2 yalnız artefakt/sayı tutmazsa) | 159 | exit 0 — koşulmadı (dosya yazar); koddan |
 | 19 | `denetim/SINIR-CIZGI-0076-SINA.py` | "  HATA <yol>" (node --check düştü); hiç exit yok | 36 | exit 0 — geçen hâl ölçüldü exit 0 (OK); kalan yol koddan |
 | 20 | `denetim/SINIR-D-OKYANUSYA-0077-olc.py` | "① … beklenen X ölçülen Y ✗"; betiğin kendi exit'i yok (exit 2 yalnız içe aktarılan olcu_kapisi_1006'dan) | 267 | exit 0 — koşuldu: exit 2 ÖLÇÜLEMEDİ (girdi yok); ✗ yolu koddan |
@@ -116,7 +118,7 @@ Sütunlar: araç · başarısızlık nasıl basılıyor / çıkış yolu · baş
 | araç | başarısızlık / çıkış yolu | kod (ölçüldü/koddan) | satır | kategori |
 |---|---|---|---|---|
 | `denetim/A-OKYANUSYA-0078-alan.py` | `--sina`: "ATEŞLEMEDİ"; ardından `sys.exit()` = 0 | 0 (geçen hâl ölçüldü (exit 0 ATEŞLEDİ); kalan yol koddan) | 76-77 | **YALAN-0** |
-| `denetim/A-OKYANUSYA-0078-sina.py` | "POZİTİF KONTROL … ATEŞLEMEDİ!"; hiç exit yok | 0 (geçen hâl ölçüldü exit 0; kalan yol koddan) | 70 | **YALAN-0** |
+| `denetim/A-OKYANUSYA-0078-sina.py` | "POZİTİF KONTROL … ATEŞLEMEDİ!"; hiç exit yok | 0 (geçen hâl ölçüldü exit 0; kalan yol koddan) | 70 | **YALAN-0** · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (a78 GIRDI'de, 61 nokta kendisiyle), gerileme sezicisi · ab9aa957 |
 | `denetim/ACILIS-ANIM-0929-sina.py` | hüküm satırı/çıkış kodu yok (ölçüm/döküm aracı) | koddan; koşulmadı: ag/sunucu |  | **BELIRSIZ** |
 | `denetim/ACILIS-ANIM-0929-sinav-kur.py` | koddan: sıfır-dışı çıkış yolu assert L20 | koddan; koşulmadı: dosya yazar (open('w') L25) |  | **DOGRU** |
 | `denetim/ARAC-1783-ULKE-SINA.py` | koddan: sıfır-dışı çıkış yolu L136 `sys.exit(1)`; L50 `sys.exit(2)` | koddan; koşulmadı: dosya yazar (rmtree L78) |  | **DOGRU** |
@@ -162,13 +164,13 @@ Sütunlar: araç · başarısızlık nasıl basılıyor / çıkış yolu · baş
 | `denetim/ARAC-GOSTERIM-0075-ONLE-SINAV.py` | koddan: sıfır-dışı çıkış yolu L83 `sys.exit(1 if hatalar else 0)` | koddan; koşulmadı: uretim/git/tarayici cagirir |  | **DOGRU** |
 | `denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.py` | koddan: sıfır-dışı çıkış yolu L179 `sys.exit(0 if n == len(SONUC) else 1)`; L23 `raise SystemExit("node %s çıkış %d: %s" ` | koddan; koşulmadı: dosya yazar (open('w') L171), uretim/git/tarayici cagirir |  | **DOGRU** |
 | `denetim/ARAC-GUNNO-PAD-SINAV-1008.py` | koddan: sıfır-dışı çıkış yolu L204 `sys.exit(main())`; L200 `return 0 if gec == len(sonuc) else 1`; L57 `return 2` | koddan; koşulmadı: dosya yazar (open('wb') L63), uretim/git/tarayici cagirir |  | **DOGRU** |
-| `denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py` | "SINAV KALDI" / "KALDI"; hiç exit yok | 0 (koddan (bir kez koştu, json yazdı, çıktı alınmadı — bkz. olay notu)) | 86-89 | **YALAN-0** |
+| `denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py` | "SINAV KALDI" / "KALDI"; hiç exit yok | 0 (koddan (bir kez koştu, json yazdı, çıktı alınmadı — bkz. olay notu)) | 86-89 | **YALAN-0** · YALAN-0 → KAPANDI (canlı, bugün 0; 2 yol) · 60b7731c |
 | `denetim/ARAC-HAYALET-0905.py` | koddan: sıfır-dışı çıkış yolu L263 `sys.exit(main())`; L229 `return 0 if ok else 1` | koşuldu exit 0 |  | **DOGRU** |
 | `denetim/ARAC-HIMAYE-SINAV-0914.py` | koddan: sıfır-dışı çıkış yolu L168 `sys.exit(0 if ok == len(sonuc) else 1)` | koddan; koşulmadı: dosya yazar (json.dump L166), uretim/git/tarayici cagirir |  | **DOGRU** |
 | `denetim/ARAC-HLA-JSON-SINA-0913.py` | koddan: sıfır-dışı çıkış yolu L49 `sys.exit(1 if hata else 0)` | koşuldu exit 0 |  | **DOGRU** |
 | `denetim/ARAC-INCE-BATI-AFRIKA-SINA.py` | hüküm satırı/çıkış kodu yok (ölçüm/döküm aracı) | koşuldu exit 0 |  | **BELIRSIZ** |
 | `denetim/ARAC-KAMERIKA-0903-kara-sina.py` | koddan: sıfır-dışı çıkış yolu L60 `sys.exit(1 if any(d > 10 for d, *_ in di` | koşuldu exit 0 |  | **DOGRU** |
-| `denetim/ARAC-KAMERIKA-0903-kunye-sina.py` | "🔴 N HATA", "🔴 ÖTMEDİ"; hiç exit yok | 0 (geçen hâl ölçüldü exit 0; kalan yol koddan) | 94, 153 | **YALAN-0** |
+| `denetim/ARAC-KAMERIKA-0903-kunye-sina.py` | "🔴 N HATA", "🔴 ÖTMEDİ"; hiç exit yok | 0 (geçen hâl ölçüldü exit 0; kalan yol koddan) | 94, 153 | **YALAN-0** · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (46/46 reçete devletler.js'te), gerileme sezicisi · ab9aa957 |
 | `denetim/ARAC-KAMERIKA-0903-madde-sina.py` | koddan: sıfır-dışı çıkış yolu L76 `sys.exit(1 if kotu else 0)` | koşuldu exit 0 |  | **DOGRU** |
 | `denetim/ARAC-KAMERIKA-0903-rapor-sina.py` | koddan: sıfır-dışı çıkış yolu L54 `sys.exit(1 if yok else 0)` | koşuldu exit 0 |  | **DOGRU** |
 | `denetim/ARAC-KAMERIKA-0903-taban-sina.py` | koddan: sıfır-dışı çıkış yolu L60 `sys.exit(1)` | koddan; koşulmadı: dosya yazar (unlink L110) |  | **DOGRU** |
@@ -182,7 +184,7 @@ Sütunlar: araç · başarısızlık nasıl basılıyor / çıkış yolu · baş
 | `denetim/ARAC-KAYNAKSIZLIK-ISG-SINAV-1006.py` | koddan: sıfır-dışı çıkış yolu L120 `sys.exit(1 if KALDI else 0)` | koddan; koşulmadı: dosya yazar (os.remove L37) |  | **DOGRU** |
 | `denetim/ARAC-KELIME-CAKISMA-SINAV-1006.py` | koddan: sıfır-dışı çıkış yolu L118 `sys.exit(1 if hata else 0)` | koşuldu exit 0 |  | **DOGRU** |
 | `denetim/ARAC-KIMLIK-BOYA-0906.py` | koddan: sıfır-dışı çıkış yolu L220 `sys.exit(1)`; L229 `sys.exit(1)` | koddan; koşulmadı: dosya yazar (open('w') L47) |  | **DOGRU** |
-| `denetim/ARAC-KIMLIK-SINA-0903.py` | "🔴 HIC d: YOK", "🔴 KUNYE YOK/RENK YOK" listeleri; hiç exit yok | 0 (geçen hâl ölçüldü exit 0; kalan yol koddan) | 73, 103-104 | **YALAN-0** |
+| `denetim/ARAC-KIMLIK-SINA-0903.py` | "🔴 HIC d: YOK", "🔴 KUNYE YOK/RENK YOK" listeleri; hiç exit yok | 0 (geçen hâl ölçüldü exit 0; kalan yol koddan) | 73, 103-104 | **YALAN-0** · YALAN-0 → KAPANDI (canlı, bugün 0/1) · ab9aa957 |
 | `denetim/ARAC-KISI-KAYNAK-SINAV-1006.py` | koddan: sıfır-dışı çıkış yolu L185 `raise SystemExit(0 if gecti == toplam el` | koddan; koşulmadı: dosya yazar (rmtree L133) |  | **DOGRU** |
 | `denetim/ARAC-KISI-ORNEKLEM-1006.py` | koddan: sıfır-dışı çıkış yolu L78 `sys.exit(sina())`; L72 `return 0 if not hata else 1` | koşuldu exit 0 |  | **DOGRU** |
 | `denetim/ARAC-KITA13-KUTU-SINAV-0912.py` | hüküm satırı/çıkış kodu yok (ölçüm/döküm aracı) | koşuldu exit 0 |  | **BELIRSIZ** |
@@ -258,7 +260,7 @@ Sütunlar: araç · başarısızlık nasıl basılıyor / çıkış yolu · baş
 | `denetim/ARAC-TRI-0912.py` | koddan: sıfır-dışı çıkış yolu L841 `sys.exit(1)`; L850 `sys.exit(1)` | koddan; koşulmadı: dosya yazar (json.dump L903), uretim/git/tarayici cagirir |  | **DOGRU** |
 | `denetim/ARAC-TUZ-SINAV-0924.py` | koddan: sıfır-dışı çıkış yolu L46 `sys.exit(0 if ok else 1)` | koddan; koşulmadı: dosya yazar (open('wb') L26), uretim/git/tarayici cagirir |  | **DOGRU** |
 | `denetim/ARAC-UFUK-SABITI-SINAV-1004.py` | koddan: sıfır-dışı çıkış yolu L131 `sys.exit(0 if HATA == 0 else 1)` | koddan; koşulmadı: dosya yazar (makedirs L44), uretim/git/tarayici cagirir |  | **DOGRU** |
-| `denetim/ARAC-UYGULA4-ONSINAV-0918.py` | "3 km eşiği: 🔴 İHLAL"; hiç exit yok | 0 (koşuldu exit 0; koddan) | 40 | **YALAN-0** |
+| `denetim/ARAC-UYGULA4-ONSINAV-0918.py` | "3 km eşiği: 🔴 İHLAL"; hiç exit yok | 0 (koşuldu exit 0; koddan) | 40 | **YALAN-0** · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (yama inmiş, nokta kendisi), gerileme sezicisi · 60b7731c |
 | `denetim/ARAC-VL-SINAV-0907.py` | "⚫ ÖLÇÜLEMEDİ — … her kosuda 2 verir; BEYAN", **exit 2** | ölçüldü |  | **DOGRU** |
 | `denetim/ARAC-YAMA-JS-SINA-0905-kos.py` | koddan: sıfır-dışı çıkış yolu L59 `sys.exit(r.returncode)` | koddan; koşulmadı: dosya yazar (open('w') L47) |  | **DOGRU** |
 | `denetim/ARAC-YAMA-MOTOR-0930-TAZELIK.py` | tazelik dökümü (BAYAT yalnız dosya adında); hüküm yok, exit 0 | koddan/ölçüldü 0 |  | **SINAV-DEGIL** |
@@ -287,7 +289,7 @@ Sütunlar: araç · başarısızlık nasıl basılıyor / çıkış yolu · baş
 | `denetim/KRONO-0076-A-sina.py` | "SONUC: KUSUR VAR -> id carpismasi", **exit 1** | ölçüldü |  | **DOGRU** |
 | `denetim/KRONO-0076-C-olc2.py` | hüküm satırı/çıkış kodu yok (ölçüm/döküm aracı) | koddan; koşulmadı: dosya yazar (open('w') L115) |  | **SINAV-DEGIL** |
 | `denetim/KRONO-0076-C-sinav.py` | "SONUC: … capasi TUTMAYAN N"; exit yalnız NORMALLESTIRICI KIRIK'ta (2) | 0 (geçen hâl ölçüldü exit 0 (N=0); N>0 yolu koddan) | 100 (exit 36) | **YALAN-0** |
-| `denetim/NOKTA-KAFKAS-0077-sina.py` | varsayılan kip: "kusur: N"; exit yok (yalnız `--atesle` kipi exit verir, L73) | 0 (koşuldu exit 0 (kusur 0); N>0 yolu koddan) | 76 | **YALAN-0** |
+| `denetim/NOKTA-KAFKAS-0077-sina.py` | varsayılan kip: "kusur: N"; exit yok (yalnız `--atesle` kipi exit verir, L73) | 0 (koşuldu exit 0 (kusur 0); N>0 yolu koddan) | 76 | **YALAN-0** · YALAN-0 → KAPANDI (canlı, bugün 0/1) · ab9aa957 |
 | `denetim/NOKTA-ORTADOGU-0077-uygula.py` | uygulama aracı; "✗ ŞARTI SAĞLAMADI — yazılmaz" exit 0 (L80) | koddan/ölçüldü 0 |  | **SINAV-DEGIL** |
 | `denetim/ODAK-AFRIKA-AMERIKA-0080-uygula.py` | koddan: sıfır-dışı çıkış yolu L381 `sys.exit(1 if sinav() else 0)` | koddan; koşulmadı: dosya yazar (unlink L320) |  | **DOGRU** |
 | `denetim/ODAK-BALKAN-0080-uygula.py` | `--ters`: "TERS SINAV: 🔴 KALDI" ardından çıplak `return` = 0 | 0 (koşulmadı (dosya yazar); koddan) | 288 | **YALAN-0** |
@@ -299,7 +301,7 @@ Sütunlar: araç · başarısızlık nasıl basılıyor / çıkış yolu · baş
 | `denetim/SAFEVI-DOGU-0081-uygula.py` | koddan: sıfır-dışı çıkış yolu L312 `sys.exit(1)` | koddan; koşulmadı: dosya yazar (open('w') L319) |  | **DOGRU** |
 | `denetim/SESSIZ-SIFIR-TARA-KAPI-SINAV-1006.py` | koddan: sıfır-dışı çıkış yolu L108 `sys.exit(1 if KALDI else (2 if OLCULEMED` | koddan; koşulmadı: dosya yazar (rmtree L97), uretim/git/tarayici cagirir |  | **DOGRU** |
 | `denetim/SINAV-BIRLESTIR-0907.py` | koddan: sıfır-dışı çıkış yolu L537 `sys.exit(main())`; L533 `return 1 if dusen else 0`; L502 `return 1` | koddan; koşulmadı: dosya yazar (json.dump L73) |  | **DOGRU** |
-| `denetim/SINAV-DONEM-KAYNAK-0907.py` | "🔴 KUSUR VAR — dayanak yaması YAZILMAZ"; exit yok (2 yalnız alet bulunamazsa, L35) | 0 (koşulmadı (dosya yazar); koddan) | 112 | **YALAN-0** |
+| `denetim/SINAV-DONEM-KAYNAK-0907.py` | "🔴 KUSUR VAR — dayanak yaması YAZILMAZ"; exit yok (2 yalnız alet bulunamazsa, L35) | 0 (koşulmadı (dosya yazar); koddan) | 112 | **YALAN-0** · YALAN-0 → KAPANDI (canlı, bugün 0; 2 yol, biri LAB'ın görmediği node süzgeci; +1 yalan-1 yolu → 2) · 60b7731c · DÜZELTME (UMIT Y §1, audit hook ölçümü): yalnız %TEMP%'e yazar, siler; repo yan etkisi YOK — LAB'ın statik AST sınıflaması geçici dizini repo yazımından ayırmıyordu |
 | `denetim/SINAV-IKINCI-GECIS-0903.py` | koddan: sıfır-dışı çıkış yolu L150 `raise SystemExit(1)`; L26 `raise SystemExit(__doc__)` | koşuldu exit 1 (çöktü/argüman eksik) |  | **DOGRU** |
 | `denetim/SINAV-JSON-ESDEGER-0907.py` | koddan: sıfır-dışı çıkış yolu L248 `sys.exit(main())`; L244 `return 1 if kotu else 0` | koddan; koşulmadı: dosya yazar (os.remove L236) |  | **DOGRU** |
 | `denetim/SINAV-KOSU8-ACIK-0907.py` | koddan: sıfır-dışı çıkış yolu L348 `sys.exit(main())`; L264 `return 1 if kotu else 0` | koddan; koşulmadı: KOSU8 ailesi: uzun kosu/uretim/kapi cagirir |  | **DOGRU** |

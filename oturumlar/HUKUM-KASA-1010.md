@@ -144,6 +144,42 @@ Beşi de ikinci tanık ister.
 🟢 TGN'nin 400 hatasını önek bildirimiyle çözüp 5 koordinatı tamamlamak, ve
 *"GeoNames akademik gazetteer değil"* diye **kendi kaynağını sorgulamak**: doğru tutum.
 
+### §6.1 🆕 🔴 ALETİN KENDİ HATASI — "ikinci tanık" kuralı EKSİKTİ
+
+Yukarıya *"ortaçağ sitesi için İKİNCİ TANIK ŞART"* yazdım. **Eksikti**, ve
+eksiği LAB'in ölçümü gösterdi (`denetim/LAB-KONUM-KUSURU-1010.md`):
+```
+al-Ṯurayyā'nın KENDİ koordinat hatası:  medyan 2,9 km  ·  p90 8,7 km
+⇒ Ṯ tek tanıkken ancak ≥10 km fark SİNYALDİR
+⇒ 5-10 km arası 20 nokta GÜRÜLTÜ kovasına düştü
+```
+Yani 7 km'lik bir "fark" Ṯ'nin p90'ının içinde kalıyorsa o fark bir **BULGU
+DEĞİL, GÜRÜLTÜDÜR** — ve ikinci tanık şartı tek başına bunu ayırt etmiyor.
+
+> 🔴 **KURAL: Bir ölçüm aletinin KENDİ hatası, okumaları kanıt sayılmadan
+> ÖNCE ölçülür.** Tanığın hata dağılımı (medyan · p90) bilinmiyorsa, onunla
+> bulunan fark **ÖLÇÜLEMEDİ** kovasına düşer — "fark var" demez.
+
+Bugün bilinen hata ölçüleri:
+| tanık | kendi hatası | tek tanıkken eşik |
+|---|---|---|
+| al-Ṯurayyā | medyan 2,9 km · p90 8,7 km | **≥10 km** |
+| Pleiades | ölçülmedi | birincil kabul, ama hata ÖLÇÜLMELİ |
+| TGN | ölçülmedi | ikincil |
+| GeoNames | ölçülmedi — modern yerleşim için yeter, ortaçağ sitesi için YETMEZ | — |
+
+📌 **SINIFI:** `§11`in *"ölçüm doğru, çıkarım yanlış"* ailesinin altında yeni
+bir dal — **aletin hatası ölçülmeden, ölçümün hatası bilinmez.** Ve bu gece
+aynı aile üç kez daha çıktı: LAB'in CRLF'li URETIM_IZI kıyası · koordinatörün
+19 CSV'si · `devletler.js`in `--check` sonucunun iki ağaçta AYRI çıkması.
+Dördünde de "fark" göründü, dördünde de fark ÖLÇME BİÇİMİNDEN geliyordu.
+
+⚠️ Ve bu kuralın bir bedeli var, beyan ediyorum: Pleiades · TGN · GeoNames'in
+hata dağılımları **ÖLÇÜLMEDİ.** Yani bugün yalnız Ṯ için eşiğimiz var; öteki
+üçüyle bulunan farklar **hata payı bilinmeden** kullanılıyor. Ölçülmesi açık
+kalem — ve o ölçülene kadar "iki tanık uyuşuyor" ifadesi, ikisinin hatası
+bilinmediği için **ne kadar güçlü olduğu bilinmeyen** bir ifadedir.
+
 ---
 
 ## §7 İŞ DAĞITIMI
