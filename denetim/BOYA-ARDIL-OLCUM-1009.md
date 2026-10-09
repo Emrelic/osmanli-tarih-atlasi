@@ -96,6 +96,37 @@ Eşzamanlı ölçütte de Z6 kaynaklı +1 yakın-ama-değmeyen (muvahhidler↔ze
 | artuklu | #60f00c | 12.0 | 17 komşu, 95 engel |
 | buyuk-selcuklu | #d82a24 | 12.2 | 1 komşu, 34 engel |
 
+## § v3 birleştirme — `RENK-ARDIL-1009-v3-PAKETUSTU.diff` (koordinatör isteği, iniş sırası PAKET-v2 → RENK-ARDIL)
+Taban: `origin/main` **46f9d882** (fetch; 3429ead9'dan sonra tek commit, yalnız CLAUDE.md — `renk_olc/renkler/girdi` farkı 0).
+Worktree `C:\atlas-umit-ardilv3`: `git apply -C1 ZAMAN-PAKET-1009-v2.diff` → `git diff --stat HEAD` 17 dosya +1037/−117 + yeni
+`data/yer_yama_once1281_z6.js` (18 durum satırı) ✓ → **geçici yerel commit** (detached, push yok, worktree ile silindi) →
+`git apply --reject RENK-ARDIL-1009.diff`: 8 hunk'tan **yalnız #5** (`engel_kumesi`) reddedildi, sınav dosyası temiz.
+- **Elle birleştirme:** ARDIL'in 5 satırı (`# RENK-ARDIL-1009 …` yorumu + `out |= {… ardil()[0] …}`) ZAMAN'ın
+  `f, t = pen.get(kim, girdi.UFUK)   # ZAMAN-Z1-1008 …` satırının HEMEN ÜSTÜNE kondu. İki niyet de korundu: ardıl engeli pencere
+  süzgecinden önce eklenir (pencereden bağımsız), verisiz kimliğin penceresi `girdi.UFUK`.
+- **Teslim:** `denetim/RENK-ARDIL-1009-v3-PAKETUSTU.diff` · 30.905 bayt · LF, CR 0, BOM yok (ilk baytlar `64 69 66`) ·
+  sha256 `428d8864aa8f47f7…` · `arac/renk_olc.py` +253/−4 · `denetim/ARAC-RENK-ARDIL-SINAV-1009.py` +264 (yeni).
+- **v2 ile niyet eşdeğerliği:** iki diff'in bütün `+`/`−` satırları (başlıklar hariç) **birebir aynı** — v3 yalnız bağlamı/satır numaralarını taşıyor.
+- **Zincir (ayrı taze worktree):** temiz origin/main → PAKET-v2 `-C1` ✓ → v3 `--check` ✓ (ve `-C1 --check` ✓) → uygulandı;
+  çıkan `renk_olc.py` birleşik ağaçtakiyle birebir (`cmp`, CR yok sayılarak). **Ters yön:** v3 temiz main'e `--check` → düşer
+  (`renk_olc.py:1016`) — beklenen; v3 YALNIZ paket üstüne uygulanır.
+- **Sınav** `py denetim/ARAC-RENK-ARDIL-SINAV-1009.py` (birleşik ağaç, `--hizli` YOK, 2 dk 26 sn): **30/30 ✓, 0 ✗, çıkış 0**
+  (A1–A11 · H1–H2 · B1–B7 · C1–C3 · D1–D7 — v2 md "29/29" diyordu; ad listesi 30 madde, sayım farkı md'de). D5: çakışma 7 · yakın 14;
+  D6: 21.631 = 21.631 karakter. ⚠️ Sınavın "yamasız" referansı sabit `79115d23` (paket ÖNCESİ `renk_olc.py`) — yani D grubu
+  "paket+ARDIL"ı "paketsiz+ARDILsız" ile karşılaştırıyor ve yine de birebir; UFUK değişikliği bu 29 örnek kimlikte görünmüyor (aşağıda neden).
+- **Z6'sız birleşik ağaçta taban:** `PYTHONHASHSEED=0 py arac/renk_olc.py --ayrinti` → ARDIL bölümü Ö1 ile **karakter karakter aynı**
+  (8 ihlal · 2 beyanlı · 51 sınırda · 8 ölçülemedi). Öteki sayaçlar da aynı: 0/7/70/0/14 · yakın sınırda 131 · yakın ölçülemedi 7425.
+- **Ufuk davranışı (ZAMAN'ın niyeti):**
+  - Geri düşüş (`pen.get(kim, girdi.UFUK)`) yalnız künyesinde `f`/`t` olmayan VE verisi olmayan kimlikte devreye giriyor.
+    Bugünkü veride bölgesi olan böyle kimlik **0** ⇒ gerçek kimliklerde (C grubu 5 + resuli) UFUK ile eski pencere arasında
+    engel farkı **0** (`ufuk_sina.py`, aynı süreçte `girdi.UFUK` eski pencereye zorlanarak).
+  - **Sentetik sınama** (bölgesi `iran`, penceresi yok bir sahte kimlik): UFUK `('1000-01-01','1945-09-02')` ile **18** engel,
+    eski pencere ile **5**; yalnız UFUK'ta engel 13 (ahmedili · alamut-nizari · annazi · buveyhi · buyuk-selcuklu · ildenizli ·
+    irak-selcuklu · `iran` (1925–2026) · kakuyi · kirman-selcuklu …), yalnız eskide 0. ⇒ ZAMAN'ın değişikliği birleşik ağaçta
+    **ÇALIŞIYOR**; ardıl satırları onu bozmadı. (Verisiz + yalnız UFUK'ta örtüşen aday: 72 kimlik.)
+  - `--dogrula` (BOYA v2 geçici uygulanıp geri alındı, 16 renk): 0 fark · eşik altı komşu 0 · "(ardıl)" yok, çıkış 0.
+- Not: geçici commit için `git add -A -- .` kullandım — yalnız atılacak worktree'de, paylaşılan depoda değil.
+
 ## Ölçtüm · bulamadım · istiyorum
 **Ölçtüm.** Taban 8/2/51/8 raporla aynı. BOYA v2 ardıl ölçülemedi 8→0, sekizinin hepsi ΔE 28.5–92.5; ihlal/sınırda değişmedi.
 Z6 inince BOYA'nın 9 tahmini birebir tuttu (en düşük 15.8). `--dogrula` iki ortamda temiz. Z6 ardıl ihlalini 8→10 yapıyor
@@ -104,4 +135,4 @@ Z6 inince BOYA'nın 9 tahmini birebir tuttu (en düşük 15.8). `--dogrula` iki 
 **İstiyorum.** ① ZAMAN-PAKET-v2 ile RENK-ARDIL-v2 `renk_olc.py`de çakışıyor — birleştirme koordinatörün. ② Ardıl kapıya
 bağlanacaksa Z6 sonrası tavan 8 değil 10 olur (§3.4: tavan yazıldığı anda ölçülür). ③ delhi/gurlu (3.48) belirgin; renk hükmü koordinatörün.
 
-YENİ DOSYALAR: denetim/BOYA-ARDIL-OLCUM-1009.md
+YENİ DOSYALAR: denetim/BOYA-ARDIL-OLCUM-1009.md · denetim/RENK-ARDIL-1009-v3-PAKETUSTU.diff

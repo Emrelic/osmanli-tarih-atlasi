@@ -1,0 +1,590 @@
+diff --git a/arac/renk_olc.py b/arac/renk_olc.py
+index ab0860c7..2c876140 100644
+--- a/arac/renk_olc.py
++++ b/arac/renk_olc.py
+@@ -45,6 +45,10 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ import girdi
+ from renkler import BOYALAR, ALTLIK, OPAKLIK
++try:                                 # beyanlı hex paylaşımı (ardıl kovası okur)
++    from renkler import PAYLASIM as _PAYLASIM
++except ImportError:
++    _PAYLASIM = {}
+ from shapely.geometry import MultiPoint, Point, box
+ from shapely.ops import voronoi_diagram
+ from shapely.strtree import STRtree
+@@ -362,6 +366,206 @@ def komsuluk(sessiz=True):
+     return k, len(Y)
+ 
+ 
++# ═══════════════ ARDIL — aynı YERDE ARDIŞIK sahipler (RENK-ARDIL-1009) ═══════════════
++# 🔴 KÖR NOKTA (9 Ekim 2026, BOYA-BORC-1009 ölçtü): `komsuluk()` ve
++#   `engel_kumesi()` "çakışma" sorusunu yalnız ZAMANDA ÖRTÜŞEN devletlere
++#   soruyordu. Oysa aynı yerleşimde bir sahibin ardından gelen sahip, zaman
++#   çubuğu kaydırılınca AYNI YERDE yan yana görünür: el değiştirme ANCAK
++#   renk değişirse görülür.
++#   VAKA: `resuli` (künye t: 1454) → `tahiri` (künye f: Temmuz 1454), veride
++#   Zebîd ve Aden'de 1454-01-01'de el değiştiriyor. İkisi birlikte `--oner`a
++#   verilince araç #6cd824 · #72d824 önerdi (ΔE ≈ 1) — eşzamanlı olmadıkları
++#   için paylaşımı "meşru" saydı. Uygulansaydı 1454 el değiştirmesi haritada
++#   GÖRÜNMEZDİ ve `§1`in "kronoloji ile harita birbirini doğrular" hedefi o
++#   maddede bozulurdu.
++#
++# ─── TANIM (koordinatör şartı ①) ───────────────────────────────────────────
++# ① TABAN SAHİBİ — her an TEK sahip, MOTORUN boyadığı renk (`uret_petek.py`
++#    `_osm_aktif` + :6353 sahip seçimi; `zaman_cizgisi()`):
++#      v: açık → OSMANLI tâbi        (d: ile çakışırsa TÂBİ kazanır — motor sırası)
++#        v:{himaye:true, kid} → `kid`in kendi rengi (iç dolgu; VERI-YAPISI)
++#      d: açık → OSMANLI doğrudan
++#      yoksa s: → `d:` kimliği; boyasızsa künyenin `harita:` anahtarı
++#        (motorun `s:` boya düşüşüyle aynı kural)
++#    ⇒ v: TÂBİLİK SAYILIR: ekranda kendi tonu var (#b2384a, 0,60), o yüzden
++#      "X → Osmanlı tâbi" ve "Osmanlı tâbi → Y" geçişleri ardıldır. Motor
++#      v:'nin `d:` alanını OKUMAZ; burada da okunmaz.
++#    isg: SAYILMAZ: işgal taban rengini değiştirmez, üstüne TARAMA olarak biner
++#      (`girdi.py` "isg" notu; `komsuluk()` da okumaz). O el değiştirme
++#      taramayla görülür, dolgu ΔE'si sorusu ona sorulmaz.
++# ② ARDIŞIK — zaman çizgisinde iki FARKLI taban sahibi art arda geliyor ve
++#    aralarındaki SAHİPSİZ boşluk ≤ ARDIL_BOSLUK_TAVANI (30 gün).
++#    🔴 Dönemleri `f`'ye göre sıralayıp komşusunu eşlemek YANLIŞTIR — ilk
++#      sürüm öyleydi ve ölçüm çürüttü: iç içe dönemde (Kütahya: d: 1300-1920
++#      içinde v: 1832-1833) "tâbi → tbmm-turkiye" diye 31.708 günlük hayalî
++#      ardıllık üretiyordu. Doğru soru "o an kimdi"dir.
++#    TAVAN 30 GÜN — uydurulmadı, projenin "aynı an" toleransı: Değişmez 2'nin
++#      kırılma ↔ kronoloji penceresi (±30 gün, `§3`). Gerekçe: boşluk
++#      sırasında yerleşim SAHİPSİZDİR ve peteği komşuya emilir (`§2`) — ekranda
++#      a → komşu → b görünür, a ile b art arda görünmez. Atlas bir ayın
++#      altındaki farkı zaten "aynı an" sayıyor (kronoloji maddesi ±30 gün
++#      içinde kırılmayı karşılar); aynı ölçek burada da kullanılır.
++#      Ölçüm (79115d23, zaman çizgisiyle, 11.698 farklı-sahip geçişi):
++#      boşluk 0 gün → 11.691 · 1-365 gün → 0 · 1-10 yıl → 3 · >10 yıl → 4
++#      (Gao fas→fransa 198 yıl · Katar · Cenne · Timbuktu mali→songhay ·
++#      Cizre/Cibri akkoyunlu→OSMANLI 7,7 yıl · Cenne songhay→fas 4,7 yıl).
++#      ⇒ Tavan bugün YALNIZ bu 7 uzun boşluğu dışarıda bırakıyor; 1-365 gün
++#      bandı boş olduğu için 30 ile 365 arasındaki her seçim AYNI sonucu verir.
++# ③ `__BOSLUK__` araya girerse: MUAF ve ZİNCİRİ KIRAR. Kasıtlı boşluk kendi
++#    sahibi olan bir dilimdir (`§1.5` BEYAN); a → BOŞLUK → b'de a ile b ardıl
++#    DEĞİL, BOŞLUK da kimseyle çift kurmaz.
++# ④ SUSULANLAR: aynı boya anahtarına düşen ardıllar (`ayni_anahtar()`ın
++#    "ardışık paylaşım yerleşik desendir" kuralı) · iki OSMANLI tonu arası
++#    (doğrudan↔tâbi sabit tasarım) · `renkler.PAYLASIM`'da AYNI grupta beyanlı
++#    aynı hex (ihlal sayılmaz ama ADIYLA basılır — `_paylasim_beyani`).
++# ⑤ NEREDE ETKİLİ: `denetle()` ARDILIYLA ÇAKIŞAN bölümü · `engel_kumesi()`
++#    (⇒ `--oner` engeli ve `--dogrula` SON DOĞRULAMA) · `--oner` yeni↔yeni
++#    (`_yeni_engel_mi`). Eşzamanlı ölçütler (komşuluk, yakın-renk, aynı-hex,
++#    aynı-anahtar) DEĞİŞMEDİ — sınavın C bölümü bunu iki araç yan yana sınar.
++ARDIL_MUAF = {"__BOSLUK__"}
++ARDIL_BOSLUK_TAVANI = 30          # gün — Değişmez 2'nin ±30 gün penceresi
++OSM_DOGRUDAN, OSM_TABI = "OSMANLI doğrudan", "OSMANLI tâbi"
++
++
++def _gun(s):
++    """'YYYY-MM-DD' → gün sayısı (fark için). MÖ/5 haneli yıl yaklaşık."""
++    m = re.match(r"^(-?)(\d+)-(\d+)-(\d+)", s or "")
++    if not m:
++        return None
++    y, a, g = int(m.group(2)) * (-1 if m.group(1) else 1), int(m.group(3)), int(m.group(4))
++    if 1 <= y <= 9999:
++        import datetime
++        try:
++            return datetime.date(y, a, g).toordinal()
++        except ValueError:
++            pass
++    return int(y * 365.2425 + (a - 1) * 30.44 + g)
++
++
++def zaman_cizgisi(y, cozum=lambda x: x):
++    """yerleşimin TABAN RENGİ zaman çizgisi: [(sahip, f, t)], ardışık eşitler
++    birleşik, sahipsiz dilim YOK (atlanır). Her an TEK sahip, MOTORUN
++    önceliğiyle (`uret_petek.py` `_osm_aktif` + :6353):
++        v: açık → OSMANLI tâbi (himaye+kid ise kid)   ← d: ile çakışırsa TÂBİ kazanır
++        d: açık → OSMANLI doğrudan
++        yoksa s: → d: kimliği (cozum ile boya anahtarı)
++    isg: OKUNMAZ. 🔴 Dönemleri f'ye göre SIRALAYIP komşusunu eşlemek YANLIŞ:
++    iç içe dönemde (Kütahya: d: 1300-1920 içinde v: 1832-1833) 'v → tbmm'
++    diye 87 yıllık hayalî ardıllık üretiyordu (ölçüldü, ilk sürüm)."""
++    S = [(p["f"], p["t"], cozum(p["d"])) for p in (y.get("s") or [])
++         if p.get("d") and p.get("f") and p.get("t")]
++    D = [(p["f"], p["t"]) for p in (y.get("d") or []) if p.get("f") and p.get("t")]
++    V = [(p["f"], p["t"], cozum(p["kid"]) if p.get("himaye") is True and p.get("kid")
++          else OSM_TABI) for p in (y.get("v") or []) if p.get("f") and p.get("t")]
++    sinir = sorted({x for f, t, *_ in S + V for x in (f, t)} | {x for f, t in D for x in (f, t)})
++    out = []
++    for a, b in zip(sinir, sinir[1:]):
++        sh = next((an for f, t, an in V if f <= a < t), None)
++        if sh is None and any(f <= a < t for f, t in D):
++            sh = OSM_DOGRUDAN
++        if sh is None:
++            sh = next((d for f, t, d in S if f <= a < t), None)
++        if sh is None:
++            continue                                     # sahipsiz dilim
++        if out and out[-1][0] == sh and out[-1][2] == a:
++            out[-1] = (sh, out[-1][1], b)
++        else:
++            out.append((sh, a, b))
++    return out
++
++
++def ardil_ciftleri(Y, cozum=lambda x: x, tavan=ARDIL_BOSLUK_TAVANI):
++    """SAF işlev (sınanabilir): {(a, b) sıralı: [(yer, gün, önceki, sonraki, boşluk)]}.
++    `zaman_cizgisi()`nde ardışık iki FARKLI sahip, aralarındaki sahipsiz
++    boşluk ≤ `tavan` gün ise ardıldır. Sınav `ARAC-RENK-ARDIL-SINAV-1009.py`."""
++    out = collections.defaultdict(list)
++    for y in Y:
++        zc = zaman_cizgisi(y, cozum)
++        for (a, _fa, ta), (b, fb, _tb) in zip(zc, zc[1:]):
++            if a == b or a in ARDIL_MUAF or b in ARDIL_MUAF:
++                continue
++            if a in (OSM_DOGRUDAN, OSM_TABI) and b in (OSM_DOGRUDAN, OSM_TABI):
++                continue
++            ga, gb = _gun(ta), _gun(fb)
++            bos = (gb - ga) if (ga is not None and gb is not None) else None
++            if bos is None or bos > tavan:
++                continue
++            out[(a, b) if a < b else (b, a)].append((y.get("ad"), fb, a, b, bos))
++    return out
++
++
++def _boya_cozum():
++    """kimlik → boya anahtarı: BOYALAR'da varsa kendisi, yoksa künyenin
++    `harita:`ı BOYALAR'daysa o, yoksa kimliğin kendisi (boyasız ⇒ ölçülemedi)."""
++    H = {}
++    for dv in girdi.oku_devletler():
++        if dv.get("id") and dv.get("harita"):
++            H.setdefault(dv["id"], dv["harita"])
++    return lambda x: x if x in BOYALAR else (
++        H[x] if H.get(x) in BOYALAR else x)
++
++
++def ardil():
++    """(kimlik → ardıl kimlikler, kanıt) — süreç ömrü önbellekli."""
++    _ob = ardil.__dict__.get("_onbellek")
++    if _ob is None:
++        kanit = ardil_ciftleri(girdi.yukle(sessiz=True), _boya_cozum())
++        ak = collections.defaultdict(set)
++        for a, b in kanit:
++            ak[a].add(b)
++            ak[b].add(a)
++        _ob = ardil._onbellek = (ak, kanit)
++    return _ob
++
++
++def _ardil_lab(an):
++    if an in OSM:
++        return OSM[an]
++    return gorunen(an) if an in BOYALAR else None
++
++
++def _paylasim_beyani(a, b):
++    """a ile b'nin AYNI hex'i `renkler.PAYLASIM`'da AYNI grupta beyanlı mı?
++    → gerekçe metni ya da None. Yeni istisna listesi DEĞİL: renkler.py'nin
++    zaten tuttuğu beyan okunur (ör. `meysur → meysur-racaligi` hex mirası,
++    'ardıllık, sıfır gün örtüşme'). Beyan ihlali SUSTURMAZ, ayrı kovada
++    ADIYLA basar — gerekçesi ardıllığı anmıyorsa okuyan görsün."""
++    if a not in BOYALAR or b not in BOYALAR:
++        return None
++    hx = BOYALAR[a][1].lower()
++    if hx != BOYALAR[b][1].lower():
++        return None
++    for h, (ger, uye) in _PAYLASIM.items():
++        if h.lower() == hx and a in uye and b in uye:
++            return ger
++    return None
++
++
++def ardil_denetle(k=None):
++    """Ardıl çiftlerinin ΔE ölçümü → (ihlal, sinirda, olculemedi, beyanli).
++    ihlal/sinirda: (ΔE, a, b, kanıt listesi, Voronoi-komşusu-mu)
++    olculemedi: (a, b, boyasız taraf) — 'ölçülemedi' ≠ 'temiz'
++    beyanli: (a, b, kanıt listesi, PAYLASIM gerekçesi) — ihlal SAYILMAZ."""
++    _, kanit = ardil()
++    ihlal, sinirda, olculemedi, beyanli = [], [], [], []
++    for (a, b), kn in sorted(kanit.items()):
++        La, Lb = _ardil_lab(a), _ardil_lab(b)
++        if La is None or Lb is None:
++            olculemedi.append((a, b, ", ".join(x for x, L in ((a, La), (b, Lb))
++                                               if L is None)))
++            continue
++        d_e = dE(La, Lb)
++        if d_e >= DE_SINIRDA:
++            continue
++        ger = _paylasim_beyani(a, b)
++        if ger is not None:
++            beyanli.append((a, b, kn, ger))
++            continue
++        kom = k is not None and (b in k.get(a, ()) or a in k.get(b, ()))
++        (ihlal if d_e < DE_KOMSU else sinirda).append((d_e, a, b, kn, kom))
++    return ihlal, sinirda, olculemedi, beyanli
++
++
+ # ═══════════════ AYNI ANAHTAR — ΔE taramasının KÖR NOKTASI ═══════════════
+ def ayni_anahtar():
+     """Aynı `harita:` anahtarını paylaşan devlet kayıtları tarihleri
+@@ -875,6 +1079,39 @@ def denetle():
+     if not cakisan:
+         print("  yok")
+ 
++    # RENK-ARDIL-1009 — aynı yerde ARDIŞIK sahipler (bkz. `ardil()` başlığı).
++    ar_i, ar_s, ar_o, ar_b = ardil_denetle(k)
++    print("\n" + "=" * 72)
++    print(f"ARDILIYLA ÇAKIŞAN — {len(ar_i)} çift (ΔE < {DE_KOMSU:.0f} · aynı "
++          f"yerleşimde ardışık taban sahibi · isg: yok · __BOSLUK__ muaf)")
++    print("=" * 72)
++    for d, a, b, kn, kom in sorted(ar_i):
++        yer, gun, x, y_, _bos = kn[0]
++        print(f"  {d:>6.1f}  {a:<22} ↔ {b:<22} {len(kn)} geçiş · ör. {yer} "
++              f"{gun} ({x}→{y_})" + ("  [Voronoi komşusu da]" if kom else ""))
++    if not ar_i:
++        print("  yok")
++    if ar_b:
++        print(f"  i {len(ar_b)} ardıl çift AYNI HEX, `renkler.PAYLASIM`'da "
++              f"BEYANLI — ihlal sayılmadı, ADIYLA:")
++        for a, b, kn, ger in ar_b:
++            print(f"      {a} ↔ {b} · {len(kn)} geçiş · ör. {kn[0][0]} "
++                  f"{kn[0][1]} · beyan: {ger}")
++    if ar_s:
++        print(f"  i {len(ar_s)} ardıl çift SINIRDA ({DE_KOMSU:.0f} ≤ ΔE < "
++              f"{DE_SINIRDA:.0f}) — EKRAN, çıkış kodunu etkilemez"
++              + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
++        if "--ayrinti" in sys.argv:
++            for d, a, b, kn, _ in sorted(ar_s):
++                print(f"      {d:>6.2f}  {a:<22} ↔ {b}")
++    if ar_o:
++        print(f"  i {len(ar_o)} ardıl çift ÖLÇÜLEMEDİ — boyasız taraf "
++              f"('ölçülemedi' ≠ 'temiz')"
++              + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
++        if "--ayrinti" in sys.argv:
++            for a, b, kimde in ar_o:
++                print(f"      {a} ↔ {b} — boyasız: {kimde}")
++
+     ortusen, sessiz, paylasan, n_dev = ayni_anahtar()
+     print("\n" + "=" * 72)
+     print(f"AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — {len(ortusen)} çift (ΔE 0!)")
+@@ -950,11 +1187,12 @@ def denetle():
+ 
+     print("\n" + "=" * 72)
+     print("  " + ("✓ TEMİZ" if not gorunmez and not cakisan and not ortusen
+-                  and not hex_cak and not yak_i
++                  and not hex_cak and not yak_i and not ar_i
+                   else f"🔴 {len(gorunmez)} görünmez · {len(cakisan)} çakışma"
+                        f" · {len(ortusen)} aynı-anahtar örtüşmesi"
+                        f" · {len(hex_cak)} aynı-hex çakışması"
+-                       f" · {len(yak_i)} yakın-ama-değmeyen"))
++                       f" · {len(yak_i)} yakın-ama-değmeyen"
++                       f" · {len(ar_i)} ardıl çakışması"))
+     return gorunmez, cakisan, ortusen, hex_cak, yak_i
+ 
+ 
+@@ -1016,6 +1254,11 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
+     else:
+         nokta, pen, _bol = _pb
+     out = {x for x in k.get(kim, ()) if x in BOYALAR}
++    # RENK-ARDIL-1009: aynı yerde ARDIŞIK sahip de engeldir — eşzamanlı
++    # olmadıkları için aşağıdaki pencere süzgeci onu HİÇ görmez.
++    # `PAYLASIM`da beyanlı hex mirası (meysur → meysur-racaligi) engel DEĞİL.
++    out |= {x for x in ardil()[0].get(kim, ()) if x in BOYALAR and x != kim
++            and _paylasim_beyani(kim, x) is None}
+     f, t = pen.get(kim, girdi.UFUK)   # ZAMAN-Z1-1008: verisiz kimlik = bütün ufuk
+     # 🔴 VERİSİZ ENGEL ADAYI — 8 Ağustos 2026'da ÖLÇÜLEREK bulundu.
+     #   Eski hâli `b not in nokta` diyerek veride noktası olmayan kimliği
+@@ -1137,7 +1380,9 @@ def dogrula(yol):
+     if "--hizli" not in sys.argv:
+         _k, _ = komsuluk()
+         print(f"\n  SON DOĞRULAMA — önerilen rengin eşik altı komşuları "
+-              f"(ΔE < {DE_KOMSU:.0f} · Voronoi ∪ {B_KADEME_KM:.0f} km eşzamanlı)")
++              f"(ΔE < {DE_KOMSU:.0f} · Voronoi ∪ {B_KADEME_KM:.0f} km eşzamanlı"
++              f" ∪ aynı yerde ARDIL)")
++        _ark = ardil()[0]
+         _hic = True
+         for kimlik, hx in sorted(oneriler.items()):
+             if kimlik not in BOYALAR:
+@@ -1149,7 +1394,9 @@ def dogrula(yol):
+             if _alt:
+                 _hic = False
+                 print(f"    🟠 {kimlik:<22} {len(_alt)} çift: "
+-                      + " · ".join(f"{b} {d:.1f}" for d, b in _alt[:4]))
++                      + " · ".join(f"{b} {d:.1f}"
++                                   + (" (ardıl)" if b in _ark.get(kimlik, ()) else "")
++                                   for d, b in _alt[:4]))
+         if _hic:
+             print("    ✓ önerilen renklerin hiçbirinin eşik altı komşusu yok")
+ 
+@@ -1298,6 +1545,8 @@ def oner(yeni):
+         """b (seçilmiş YENİ kimlik), a için engel mi?"""
+         if b in k.get(a, ()):
+             return True                  # Voronoi komşusu — tartışmasız
++        if b in ardil()[0].get(a, ()):
++            return True                  # aynı yerde ARDIL (RENK-ARDIL-1009)
+         fa, ta = _PEN.get(a, (None, None))
+         fb, tb = _PEN.get(b, (None, None))
+         if not (fa and ta and fb and tb):
+diff --git a/denetim/ARAC-RENK-ARDIL-SINAV-1009.py b/denetim/ARAC-RENK-ARDIL-SINAV-1009.py
+new file mode 100644
+index 00000000..c155e9a8
+--- /dev/null
++++ b/denetim/ARAC-RENK-ARDIL-SINAV-1009.py
+@@ -0,0 +1,264 @@
++# -*- coding: utf-8 -*-
++"""SINAV — `renk_olc.py` ARDIL ENGELİ (RENK-ARDIL-1009), ÜÇ YÖNDE.
++
++Soru: aynı yerleşimde ARDIŞIK iki taban sahibi (eşzamanlı DEĞİL) renk
++çakışması adayı mı? Yamasız araç bunu SORMUYORDU (vaka resuli → tahiri,
++1454: `--oner` ΔE ≈ 1 önerdi). Tanım `renk_olc.py` ARDIL başlığında.
++
++  A  TANIM — saf işlevler (`zaman_cizgisi`, `ardil_ciftleri`), sentetik
++  B  YAKALAMALI — ardışık + YAKIN renk: denetle · engel · --dogrula · --oner
++  C  SUSMALI    — ardışık + UZAK renk · ardışık OLMAYAN aynı hex
++  D  GERİLEME YOK — eşzamanlı ölçütler yamasız araçla BİREBİR aynı
++B-D GERÇEK veride, iki araç yan yana:
++     yamasız = `git show 79115d23:arac/renk_olc.py` (yamadan önceki main)
++     yamalı  = `arac/renk_olc.py`
++`--hizli` `--oner` sorularını atlar (aday ızgarası ~10 sn/araç).
++Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
++"""
++import contextlib, importlib.util, io, os, re, subprocess, sys, tempfile
++
++sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++AR = os.path.join(KOK, "arac")
++sys.path.insert(0, AR)
++YAMASIZ_REV = "79115d23"
++
++_kalan = []
++
++
++def sor(ad, kosul, ayrinti=""):
++    print(("  ✓ " if kosul else "  🔴 ") + ad + (f"  — {ayrinti}" if ayrinti else ""))
++    if not kosul:
++        _kalan.append(ad.split()[0])
++
++
++def yukle(ad, kaynak):
++    """kaynağı `arac/renk_olc.py` yoluyla modül olarak yükler (KUTU ve
++    sys.path dosya yolundan türüyor; sahte yol ölçümü bozar)."""
++    spec = importlib.util.spec_from_loader(ad, loader=None)
++    m = importlib.util.module_from_spec(spec)
++    m.__file__ = os.path.join(AR, "renk_olc.py")
++    # modül import anında stdout'u YENİDEN sarıyor; iki kez yüklenince eski
++    # sarmalayıcı çöpe giderken ortak tamponu KAPATIYOR (ölçüldü) ⇒ o satır
++    # yalnız bu sınavın belleğindeki kopyadan çıkarılır, davranış aynı.
++    kaynak = re.sub(r"^sys\.stdout = io\.TextIOWrapper\(.*$", "pass", kaynak,
++                    count=1, flags=re.M)
++    exec(compile(kaynak, m.__file__, "exec"), m.__dict__)
++    return m
++
++
++def sessiz(f, *a, **kw):
++    tam = io.StringIO()
++    with contextlib.redirect_stdout(tam):
++        r = f(*a, **kw)
++    return r, tam.getvalue()
++
++
++import renkler                                            # noqa: E402
++R = yukle("renk_olc_yamali", io.open(os.path.join(AR, "renk_olc.py"),
++                                     encoding="utf-8").read())
++
++# ─────────────────────────── A — TANIM ───────────────────────────
++print("A — tanım (saf işlev, sentetik)")
++
++
++def Y(ad, **kw):
++    return dict(ad=ad, lat=0, lon=0, **kw)
++
++
++def C(*yy):
++    return R.ardil_ciftleri(list(yy))
++
++
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1454-01-01"},
++                {"d": "b", "f": "1454-01-01", "t": "1500-01-01"}]))
++sor("A1 boşluksuz el değiştirme ARDIL", ("a", "b") in c, str(dict(c)))
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1454-01-01"},
++                {"d": "b", "f": "1454-01-31", "t": "1500-01-01"}]))
++sor(f"A2 boşluk 30 gün (= tavan {R.ARDIL_BOSLUK_TAVANI}) ARDIL", ("a", "b") in c)
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1454-01-01"},
++                {"d": "b", "f": "1454-02-01", "t": "1500-01-01"}]))
++sor("A3 boşluk 31 gün (> tavan) ardıl DEĞİL", not c, str(dict(c)))
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1450-01-01"},
++                {"d": "__BOSLUK__", "f": "1450-01-01", "t": "1460-01-01"},
++                {"d": "b", "f": "1460-01-01", "t": "1500-01-01"}]))
++sor("A4 __BOSLUK__ araya girerse MUAF ve zinciri KIRAR", not c, str(dict(c)))
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1500-01-01"}],
++        isg=[{"d": "b", "f": "1450-01-01", "t": "1460-01-01"}]))
++sor("A5 isg: taban rengi DEĞİL — çift kurmaz", not c, str(dict(c)))
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1450-01-01"}],
++        v=[{"f": "1450-01-01", "t": "1500-01-01", "d": "a"}]))
++sor("A6 v: TÂBİLİK SAYILIR → OSMANLI tâbi (v:'nin d:'si okunmaz)",
++    tuple(sorted(("a", R.OSM_TABI))) in c, str(dict(c)))
++c = C(Y("x", d=[{"f": "1400-01-01", "t": "1450-01-01"}],
++        v=[{"f": "1450-01-01", "t": "1500-01-01", "himaye": True, "kid": "h"}]))
++sor("A7 v:{himaye,kid} → kid'in kendi rengi",
++    tuple(sorted((R.OSM_DOGRUDAN, "h"))) in c, str(dict(c)))
++c = C(Y("x", d=[{"f": "1400-01-01", "t": "1450-01-01"}],
++        v=[{"f": "1450-01-01", "t": "1500-01-01"}]))
++sor("A8 OSMANLI doğrudan↔tâbi palet sorusu DEĞİL", not c, str(dict(c)))
++c = C(Y("x", s=[{"d": "a", "f": "1400-01-01", "t": "1450-01-01"},
++                {"d": "b", "f": "1450-01-01", "t": "1460-01-01"},
++                {"d": "c", "f": "1460-01-01", "t": "1500-01-01"}]))
++sor("A9 a→b→c: a↔c ardıl DEĞİL", sorted(c) == [("a", "b"), ("b", "c")], str(sorted(c)))
++# Kütahya deseni: uzun d: içinde kısa v:, sonra yabancı — ilk sürümün hatası
++c = C(Y("Kütahya", d=[{"f": "1300-01-01", "t": "1920-04-23"}],
++        v=[{"f": "1832-06-15", "t": "1833-06-30"}],
++        s=[{"d": "t", "f": "1920-04-23", "t": "1923-10-29"}]))
++_k = sorted(c)
++sor("A10 iç içe dönem: 'o an kimdi' — doğrudan→t ardıl, tâbi→t DEĞİL",
++    tuple(sorted((R.OSM_DOGRUDAN, "t"))) in c and tuple(sorted((R.OSM_TABI, "t"))) not in c,
++    str(_k))
++zc = R.zaman_cizgisi(Y("x", d=[{"f": "1400-01-01", "t": "1500-01-01"}],
++                       v=[{"f": "1450-01-01", "t": "1460-01-01"}]))
++sor("A11 d: ile v: çakışırsa TÂBİ kazanır (motor sırası)",
++    [z[0] for z in zc] == [R.OSM_DOGRUDAN, R.OSM_TABI, R.OSM_DOGRUDAN], str(zc))
++
++# ─────────────────────────── gerçek veri hazırlığı ───────────────────────────
++print("\nhazırlık — gerçek veri (girdi.py'nin okuduğu dosyalar), iki araç")
++try:
++    _ks = subprocess.run(["git", "-C", KOK, "show", f"{YAMASIZ_REV}:arac/renk_olc.py"],
++                         capture_output=True, check=True).stdout.decode("utf-8")
++    U = yukle("renk_olc_yamasiz", _ks)
++except Exception as e:                                   # ölçülemedi ≠ geçti
++    U = None
++    sor(f"H0 yamasız kaynak okunabildi ({YAMASIZ_REV})", False, repr(e))
++
++B = renkler.BOYALAR                     # iki modülün de BOYALAR'ı BU nesne
++_yedek = {x: B.get(x) for x in ("resuli", "tahiri")}
++YAKIN, UZAK = "#72d824", "#9c24d8"      # resuli #6cd824 ile ΔE ≈ 1 · ≈ 92
++B["resuli"] = ("Resûlîler", "#6cd824")
++B["tahiri"] = ("Tâhirîler (Yemen)", YAKIN)
++
++(k, _), _ = sessiz(R.komsuluk)
++ak, kanit = R.ardil()
++sor("H1 veride resuli→tahiri ardıllığı VAR", ("resuli", "tahiri") in kanit,
++    str(kanit.get(("resuli", "tahiri"))))
++sor("H2 Voronoi komşusu DEĞİLLER (eşzamanlı değil — eski ölçüt göremez)",
++    "tahiri" not in k.get("resuli", ()))
++
++
++def dogrula_cikti(M, satirlar):
++    fd, yol = tempfile.mkstemp(suffix=".txt")
++    with os.fdopen(fd, "w", encoding="utf-8") as f:
++        f.write("".join(f"{a} {h}\n" for a, h in satirlar))
++    try:
++        _kod, out = sessiz(M.dogrula, yol)
++    finally:
++        os.remove(yol)
++    return out
++
++
++def oner_cikti(M):
++    """--oner resuli,tahiri — ikisi de paletten ÇIKARILIR ('yeni' kimlik)."""
++    eski = {x: B.pop(x, None) for x in ("resuli", "tahiri")}
++    _, out = sessiz(M.oner, ["resuli", "tahiri"])
++    for x, v in eski.items():
++        if v is not None:
++            B[x] = v
++    m = re.search(r"artefakt: (\S+)", out)
++    if m and os.path.exists(m.group(1)):
++        os.remove(m.group(1))          # sınav artefakt BIRAKMAZ
++    hx = dict(re.findall(r"^\s+(resuli|tahiri)\s+(#[0-9a-f]{6})", out, re.M))
++    if len(hx) < 2:
++        return None, hx
++    return R.dE(R.lab(R.bind(R.h2r(hx["resuli"]))),
++                R.lab(R.bind(R.h2r(hx["tahiri"])))), hx
++
++
++# ─────────────────────────── B — YAKALAMALI ───────────────────────────
++print("\nB — ardışık + YAKIN renk YAKALANMALI (resuli #6cd824 / tahiri #72d824)")
++_de = R.dE(R.gorunen("resuli"), R.gorunen("tahiri"))
++if U is not None:
++    sor("B1 YAMASIZ: tahiri resuli'nin engeli DEĞİL (kör nokta yeniden üretildi)",
++        "tahiri" not in U.engel_kumesi("resuli", k=k) and not hasattr(U, "ardil"),
++        f"ΔE {_de:.2f}")
++_hit = [x for x in R.ardil_denetle(k)[0] if (x[1], x[2]) == ("resuli", "tahiri")]
++sor("B2 YAMALI denetle: resuli↔tahiri ARDIL ÇAKIŞMASI",
++    bool(_hit) and _hit[0][0] < R.DE_KOMSU, f"ΔE {_hit[0][0]:.2f}" if _hit else "yok")
++sor("B3 YAMALI engel_kumesi: tahiri resuli'nin engeli", "tahiri" in R.engel_kumesi("resuli", k=k))
++_out = dogrula_cikti(R, [("resuli", "#6cd824"), ("tahiri", YAKIN)])
++sor("B4 YAMALI --dogrula: SON DOĞRULAMA tahiri'yi '(ardıl)' diye basar",
++    re.search(r"🟠 resuli\s.*tahiri [0-9.]+ \(ardıl\)", _out) is not None,
++    next((l.strip() for l in _out.splitlines() if "🟠 resuli" in l), "satır yok"))
++if U is not None:
++    _out = dogrula_cikti(U, [("resuli", "#6cd824"), ("tahiri", YAKIN)])
++    sor("B5 YAMASIZ --dogrula: aynı öneriyi GÖRMÜYOR (kör nokta)",
++        "🟠 resuli" not in _out and "🟠 tahiri" not in _out)
++if "--hizli" not in sys.argv:
++    if U is not None:
++        d, hx = oner_cikti(U)
++        sor("B6 YAMASIZ --oner: resuli/tahiri eşik ALTINDA (vaka yeniden üretildi)",
++            d is not None and d < R.DE_KOMSU, f"{hx} ΔE {d if d is None else round(d, 2)}")
++    d, hx = oner_cikti(R)
++    sor("B7 YAMALI --oner: resuli/tahiri ΔE ≥ 12", d is not None and d >= R.DE_KOMSU,
++        f"{hx} ΔE {d if d is None else round(d, 2)}")
++else:
++    print("  i B6/B7 atlandı (--hizli)")
++
++# ─────────────────────────── C — SUSMALI ───────────────────────────
++print(f"\nC — ardışık + UZAK renk SUSMALI (tahiri {UZAK})")
++B["tahiri"] = ("Tâhirîler (Yemen)", UZAK)
++_i, _s, _o, _b = R.ardil_denetle(k)
++sor("C1 denetle: resuli↔tahiri ne ihlal ne sınırda",
++    not [x for x in _i + _s if (x[1], x[2]) == ("resuli", "tahiri")],
++    f"ΔE {R.dE(R.gorunen('resuli'), R.gorunen('tahiri')):.1f}")
++_out = dogrula_cikti(R, [("resuli", "#6cd824"), ("tahiri", UZAK)])
++_sat = [l for l in _out.splitlines() if "🟠" in l and ("resuli" in l or "tahiri" in l)
++        and re.search(r"\b(resuli|tahiri) [0-9.]+", l.split("çift:")[-1])]
++sor("C2 --dogrula: resuli/tahiri birbirini eşik altı engel olarak BASMAZ", not _sat,
++    " | ".join(s.strip() for s in _sat))
++_uzak = next((x for x in ("joseon", "ming-hanedani", "ingiltere", "fransa")
++              if x in B and x not in ak.get("resuli", ()) and x not in k.get("resuli", ())),
++             None)
++if _uzak is None:
++    sor("C3 önkoşul: ardışık olmayan uzak aday bulundu", False)
++else:
++    _eski = B[_uzak]
++    B[_uzak] = (_eski[0], "#6cd824")
++    _i, _s, _o, _b = R.ardil_denetle(k)
++    sor(f"C3 ardışık OLMAYAN uzak devlet ({_uzak}, resuli ile AYNI hex) sayılmaz",
++        not [x for x in _i + _s if {"resuli", _uzak} == {x[1], x[2]}]
++        and _uzak not in ak.get("resuli", ()))
++    B[_uzak] = _eski
++
++# ─────────────────────────── D — GERİLEME YOK ───────────────────────────
++print("\nD — eşzamanlı ölçütler DEĞİŞMEMELİ (yamasız ↔ yamalı, aynı palet)")
++for x, v in _yedek.items():            # gerçek palete dön
++    if v is None:
++        B.pop(x, None)
++    else:
++        B[x] = v
++if U is None:
++    sor("D0 yamasız araç yok — gerileme ÖLÇÜLEMEDİ", False)
++else:
++    (ku, _), _ = sessiz(U.komsuluk)
++    sor("D1 komsuluk() birebir", {a: set(b) for a, b in ku.items()}
++        == {a: set(b) for a, b in k.items()})
++    sor("D2 yakin_renk() birebir (ihlal · sınırda · ölçülemedi · n)",
++        sessiz(U.yakin_renk, ku)[0] == sessiz(R.yakin_renk, k)[0])
++    sor("D3 ayni_hex() birebir", sessiz(U.ayni_hex)[0] == sessiz(R.ayni_hex)[0])
++    sor("D4 ayni_anahtar() birebir", sessiz(U.ayni_anahtar)[0] == sessiz(R.ayni_anahtar)[0])
++    _ru, ou = sessiz(U.denetle)
++    _rr, orr = sessiz(R.denetle)
++    sor("D5 denetle() dönüşü birebir (görünmez · çakışma · aynı-anahtar · aynı-hex · yakın)",
++        _ru == _rr, f"çakışma {len(_rr[1])} · yakın {len(_rr[4])}")
++    # çıktı: yamalının ARDIL bölümü ve özet kuyruğu çıkarılınca BİREBİR
++    _kes = re.sub(r"\n\n=+\nARDILIYLA ÇAKIŞAN.*?(?=\n\n=+\nAYNI ANAHTARI)", "", orr,
++                  flags=re.S)
++    _kes = _kes.replace(f" · {len(R.ardil_denetle(k)[0])} ardıl çakışması", "")
++    sor("D6 denetle() ÇIKTISI ardıl bölümü dışında birebir", _kes == ou,
++        f"{len(ou)} / {len(_kes)} karakter")
++    # engel_kumesi: yamalı ⊇ yamasız, fark YALNIZ ardıllar
++    _ornek = sorted(B)[::25]
++    _fark = []
++    for x in _ornek:
++        eu, er = U.engel_kumesi(x, k=k), R.engel_kumesi(x, k=k)
++        if not (eu <= er and (er - eu) <= ak.get(x, set())):
++            _fark.append((x, sorted(eu - er), sorted((er - eu) - ak.get(x, set()))))
++    sor(f"D7 engel_kumesi: yamalı ⊇ yamasız, fark yalnız ardıl ({len(_ornek)} kimlik)",
++        not _fark, str(_fark[:3]))
++
++print("\n" + ("✓ HEPSİ GEÇTİ" if not _kalan else f"🔴 {len(_kalan)} soru KALDI: "
++                                                  + " · ".join(_kalan)))
++sys.exit(1 if _kalan else 0)
