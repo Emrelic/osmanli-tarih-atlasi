@@ -61,3 +61,25 @@ Evren: `data/` altında `kronoloji*` · `olaylar*` · `devletler.js` = **185 dos
 ## Dosyalar
 - `denetim/KRONO-SONRA1923-EKSIK-1008.md` (bu rapor)
 - `denetim/KRONO-SONRA1923-EKSIK-1008.diff` → `data/kronoloji_cok_1923_1945.js` (+8 madde)
+
+## § v2 (1009) — KUYRUK-2-1009
+Ölçen KUYRUK-2-1009 · taban `origin/main` 0c4b383c (fetch sonrası) · ikinci taban: main + `ZAMAN-PAKET-1009.diff` (`-C1`) · ağaçlar `C:\atlas-umit-k2a` / `-k2z` (kaldırıldı) · commit yok.
+Yöntem: hunk hunk `git apply --check` ileri/geri (+ satır içerik araması); İNDİ denen her şey iki yönde: ① iniş commit'inin ATASINA diff uygulandı, dosyalar commit ile `git diff --quiet` karşılaştırıldı ② bugünkü HEAD'de `-R --check`.
+`denetle.py` (`PYTHONHASHSEED=0 --ayrinti`): main önce/sonra ve ZAMAN önce/sonra — DÖRT koşu da **çıkış 2** (yalnız D8 ÖLÇÜLEMEDİ, UMIT tabanı). Önce↔sonra çıktıları **bayt bayt aynı** (B+C birlikte uygulanmış hâl, iki tabanda). ⇒ DEĞİŞEN SAYAÇ YOK; "kaç bekleyen diff dokunuyor" satırı boş küme. Taban kaydı (main): D1 309/309 · D2 628/0 · 2s 1738 · AÇIK 181 (tavan 181) · 2sk yalnız-taraf 2265 (tavan 2265).
+
+### Ölçtüm
+| diff | temiz main | main + ZAMAN-PAKET | kova |
+|---|---|---|---|
+| `.diff` (A, +8 madde) | ✓ 7/7 hunk | ✓ | TEMİZ |
+| `-B.diff` (+5 madde) | tek başına ✗ (1 hunk BAĞLAM — A'nın eklediği satırlara yaslanıyor) · **A'dan sonra ✓** | A'dan sonra ✓ | TEMİZ (A → B sırasıyla) |
+- ZAMAN-PAKET de `kronoloji_cok_1923_1945.js`e 3 madde ekliyor (1925-02-13 · 1932-10-03 · 1941-08-25); A+B'nin 13 maddesiyle **ortak `t` 0**.
+- `node` ile: main + A + B ⇒ 513 madde, t+b ikizi 0 · main + ZAMAN + A + B ⇒ **516** madde (B raporunun öngördüğü sayı), ikiz 0, sıralı ✓.
+- ⇒ Görevdeki "Z7-MADDE → A → B" sırası METİN olarak zorunlu DEĞİL (A ve B temiz main'e de oturuyor); sıra yalnız 516 sayısının tutması için anlamlı.
+ZATEN MAIN'DE 0 · çakışma 0 · geçersiz varyant 0. Sayaç değişimi yok (dosya Değişmez 2 evreninde değil).
+
+### Bulamadım
+`-KUNYE.json`daki 3 künye önerisi (`devletler.js`, koordinatörde) bu ölçümün dışında — diff değil, uygulanmadı/ölçülmedi.
+
+### İstiyorum
+v2 YAZILMADI: **iki tabanda da temiz**. İniş: (ZAMAN-PAKET) → A → B, aynı commit önerilir. Künye önerileri ayrı kalem.
+**YENİ DOSYALAR:** yok.

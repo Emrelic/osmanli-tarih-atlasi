@@ -236,3 +236,25 @@ GELMİYOR — tek başına ölçülünce 2250 kalıyor. ⇒ Birleşik ölçümde
 diff'inden** gelir; o tavan önerisi Mostar diff'iyle aynı commit'e gitmeli, Gürcistan'ınkiyle
 değil. Gürcistan için tavan hareketi YOK (2s AÇIK 185 sabit; yıl-temsilî 165→167 bilgi kovası,
 ihlal değil — iki yeni `YYYY-01-01` kırılması: Zagem 1492 ve 1762).
+
+## § v2 (1009) — KUYRUK-2-1009
+Ölçen KUYRUK-2-1009 · taban `origin/main` 0c4b383c (fetch sonrası) · ikinci taban: main + `ZAMAN-PAKET-1009.diff` (`-C1`) · ağaçlar `C:\atlas-umit-k2a` / `-k2z` (kaldırıldı) · commit yok.
+Yöntem: hunk hunk `git apply --check` ileri/geri (+ satır içerik araması); İNDİ denen her şey iki yönde: ① iniş commit'inin ATASINA diff uygulandı, dosyalar commit ile `git diff --quiet` karşılaştırıldı ② bugünkü HEAD'de `-R --check`.
+`denetle.py` (`PYTHONHASHSEED=0 --ayrinti`): main önce/sonra ve ZAMAN önce/sonra — DÖRT koşu da **çıkış 2** (yalnız D8 ÖLÇÜLEMEDİ, UMIT tabanı). Önce↔sonra çıktıları **bayt bayt aynı** (B+C birlikte uygulanmış hâl, iki tabanda). ⇒ DEĞİŞEN SAYAÇ YOK; "kaç bekleyen diff dokunuyor" satırı boş küme. Taban kaydı (main): D1 309/309 · D2 628/0 · 2s 1738 · AÇIK 181 (tavan 181) · 2sk yalnız-taraf 2265 (tavan 2265).
+
+### Ölçtüm
+**Ailenin TAMAMI main'de, BÖLÜNMÜŞ hâliyle:**
+| diff | kova | kanıt |
+|---|---|---|
+| `KRONO-SENKRON-1008.diff` | ZATEN MAIN'DE | +/− satırları `-MOSTAR.diff` ile BİREBİR (aynı iki hunk, `olaylar_ek5.js`) |
+| `-MOSTAR.diff` + `-MOSTAR-KOORD.diff` | ZATEN MAIN'DE — **aab05acd** "MOSTAR yarisi INDI" | aab05acd^ + iki diff ⇒ 4 veri dosyası commit ile birebir · HEAD'de -R ✓ |
+| `-GURCISTAN-KOORD.diff` | ZATEN MAIN'DE — **1edf7f9a** "GURCISTAN yarisi INDI" | 1edf7f9a^ + diff ⇒ `devletler.js` + `yerlesimler.js` birebir · HEAD'de `devletler.js` hunk -R ✓ · `yerlesimler.js` Zagem hunk'ı -R ✗ ama + satırı main'de BAYT BAYT var ⇒ BAĞLAM KAYDI: komşu Revan/Gence satırlarını sonradan **658a7552 (DALGA 1)** ve **23c08363 (DALGA 3)** değiştirdi |
+| `-KOORD.diff` (bölünmemiş) | **GEÇERSİZ VARYANT** | 5 hunk'ın 3'ü main'de; 2'si GERÇEK ÇAKIŞMA (`devletler.js` kaheti hunk'ı +4/−4, inen GURCISTAN sürümü +5/−4 · Zagem satırı) — bölme (KRONO-SENKRON-BOLME-1008) onun yerine geçti |
+TEMİZ 0 · gerçek çakışma yalnız geçersiz varyantta. **Önceki ölçümün "cefc73bb'de main'de" hükmü sonuçta DOĞRU, commit YANLIŞ:** iniş aab05acd + 1edf7f9a; cefc73bb (DALGA 4) torunları.
+
+### Bulamadım
+—
+
+### İstiyorum
+Aile KAPALI; v2 YAZILMADI (kalan boş). `KRONO-SENKRON-1008.diff` + `-MOSTAR` + `-MOSTAR-KOORD` "İNDİ aab05acd", `-GURCISTAN-KOORD` "İNDİ 1edf7f9a", `-KOORD` "GEÇERSİZ (bölme ile aşıldı)" diye arşivlensin.
+**YENİ DOSYALAR:** yok.

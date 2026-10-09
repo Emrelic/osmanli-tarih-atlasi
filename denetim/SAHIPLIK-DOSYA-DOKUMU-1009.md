@@ -200,3 +200,20 @@ Koordinatörün sayısı **`main@e28edfdc` + main'deki (1008 ÖNCESİ) araçla**
    düzeltilmiş). Taze olan 4: Sutter's Fort (`yer_yama_sutter_0906.js`), `cukurova_isg_0907` 1,
    `vassal_kid_0906` 2 — bunlar gerçekten inmemiş iş. Bayat-yalnız dosyaların arşivi ayrı bir hüküm ister
    (sınıf kuralı koordinatörün: "tek uygulandi ⇒ arşivlenemez").
+
+## § v2 (1009) — KUYRUK-2-1009
+Ölçen KUYRUK-2-1009 · taban `origin/main` 0c4b383c (fetch sonrası) · ikinci taban: main + `ZAMAN-PAKET-1009.diff` (`-C1`) · ağaçlar `C:\atlas-umit-k2a` / `-k2z` (kaldırıldı) · commit yok.
+Yöntem: hunk hunk `git apply --check` ileri/geri (+ satır içerik araması); İNDİ denen her şey iki yönde: ① iniş commit'inin ATASINA diff uygulandı, dosyalar commit ile `git diff --quiet` karşılaştırıldı ② bugünkü HEAD'de `-R --check`.
+`denetle.py` (`PYTHONHASHSEED=0 --ayrinti`): main önce/sonra ve ZAMAN önce/sonra — DÖRT koşu da **çıkış 2** (yalnız D8 ÖLÇÜLEMEDİ, UMIT tabanı). Önce↔sonra çıktıları **bayt bayt aynı** (B+C birlikte uygulanmış hâl, iki tabanda). ⇒ DEĞİŞEN SAYAÇ YOK; "kaç bekleyen diff dokunuyor" satırı boş küme. Taban kaydı (main): D1 309/309 · D2 628/0 · 2s 1738 · AÇIK 181 (tavan 181) · 2sk yalnız-taraf 2265 (tavan 2265).
+
+### Ölçtüm (görev gereği YALNIZ ölçüm, yeniden türetme YOK)
+- Diff yalnız `arac/_sahiplik_uygula.py`e dokunuyor (12 hunk, +409/−0).
+- **Temiz main'de: 12/12 TEMİZ** · `py_compile` ✓ · diff'in çağırdığı 11 `_ad(` işlevinin hepsi uygulanmış dosyada tanımlı (rapor "temel makine/umit 8f93a2e8, KUSUR yamasını taşıyor; main taşımıyor" diyor — ama metin ve isim düzeyinde main'e bağımlılık BULUNMADI). (Satır 13'teki `SyntaxWarning: '\.'` main'de ZATEN var, diff getirmiyor.)
+- 🔴 **Bayat-taban kapısıyla çakışma riski — ÖLÇÜLDÜ.** Kapıyı yazan ajanın ağacı `C:\atlas-umit-kapi` (HEAD 36186769 ⊂ main; o HEAD'de dosya main ile aynı). Çalışma kopyasındaki yaması (6 hunk: @12 · @78 · @998 · @1232 · @1352-1520 (+146) · @1379) **benim ağacıma kopyalanıp** SAHIPLIK diff'i ona karşı sınandı (kapı ağacına YAZILMADI):
+  - TEMİZ 9 · **BAĞLAM 2** (@999 `inen = []` ve @1233 — kapı da tam bu iki yere satır ekliyor) · **GERÇEK ÇAKIŞMA 1**: `@@ -1362 try:` (+7) ↔ kapının `@@ -1352,20 +1377,166` yeniden yazdığı `if _hatalar:` / `try:` bloğu.
+  - ⚠️ Bu kapının ŞU ANKİ yarım hâlinin fotoğrafıdır; kapı bitince yeniden ölçülmeli.
+- ZATEN MAIN'DE 0 · geçersiz varyant 0 · `denetle.py` bu dosyayı okumuyor ⇒ sayaç etkisi yok.
+
+### İstiyorum
+- Sıra önerisi: kapı ÖNCE insin; SAHIPLIK-DOSYA-DOKUMU onun üstüne yeniden türetilsin (çakışma tek blokta, `try:` sonu — döküm çağrısının yeri). Tersi sıra kapı yazarını iki hunk'ta bağlamdan, birinde içerikten çakıştırır.
+**YENİ DOSYALAR:** yok.

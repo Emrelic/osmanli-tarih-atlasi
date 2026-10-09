@@ -116,3 +116,16 @@ Cizre ise cevap ①'dir (H-0027).
    (1473 TDV uzun-hasan; başlangıç günü yeniden ölçülmeli) ve beyanlı boşluk kapanır.
 3. H-0028: Emre'den görselin günü/yeri — yoksa olculemedi kalır.
 4. ARTUKLU-IKI-PARCA ile ÇAKIŞMA YOK: o diff 1281-1465 Harput/Çemişgezek/Palu; bu diff yalnız Erciş 1467-1469.
+
+## § v2 (1009) — KUYRUK-2-1009
+Ölçen KUYRUK-2-1009 · taban `origin/main` 0c4b383c (fetch sonrası) · ikinci taban: main + `ZAMAN-PAKET-1009.diff` (`-C1`) · ağaçlar `C:\atlas-umit-k2a` / `-k2z` (kaldırıldı) · commit yok.
+Yöntem: hunk hunk `git apply --check` ileri/geri (+ satır içerik araması); İNDİ denen her şey iki yönde: ① iniş commit'inin ATASINA diff uygulandı, dosyalar commit ile `git diff --quiet` karşılaştırıldı ② bugünkü HEAD'de `-R --check`.
+`denetle.py` (`PYTHONHASHSEED=0 --ayrinti`): main önce/sonra ve ZAMAN önce/sonra — DÖRT koşu da **çıkış 2** (yalnız D8 ÖLÇÜLEMEDİ, UMIT tabanı). Önce↔sonra çıktıları **bayt bayt aynı** (B+C birlikte uygulanmış hâl, iki tabanda). ⇒ DEĞİŞEN SAYAÇ YOK; "kaç bekleyen diff dokunuyor" satırı boş küme. Taban kaydı (main): D1 309/309 · D2 628/0 · 2s 1738 · AÇIK 181 (tavan 181) · 2sk yalnız-taraf 2265 (tavan 2265).
+
+### Ölçtüm
+`EEK-DOGU-1008-KOORD.diff` (1 hunk, `yerlesimler.js` Erciş): **ZATEN MAIN'DE — 0e45a9b9** "EEK-DOGU-1008 / ERCIS INDI".
+İki yönlü kanıt: 0e45a9b9^ + diff ⇒ `yerlesimler.js` commit ile birebir · bugünkü HEAD'de `-R --check` ✓. Önceki "main'de" hükmü DOĞRULANDI.
+
+### İstiyorum
+Aile KAPALI, v2 YAZILMADI. Diff "İNDİ 0e45a9b9" diye arşivlensin.
+**YENİ DOSYALAR:** yok.

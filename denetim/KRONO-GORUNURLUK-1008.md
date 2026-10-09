@@ -142,3 +142,26 @@ Kapılar: `node --check` 9/9 · `git apply --check` ağaçta ve bugünkü `C:\at
 - `denetim/KRONO-GORUNURLUK-1008.md` — bu rapor
 - `denetim/KRONO-GORUNURLUK-1008-TUR.diff` — 8 dosya, 278 maddeye `tur` eklendi (temel 8b2f5415)
 - Araçlar scratchpad'de (depoya girmedi): `gorunur.js` · `tur_esle.py` · `dogrula.js` · `tur_tablo.json`
+
+## § v2 (1009) — KUYRUK-2-1009
+Ölçen KUYRUK-2-1009 · taban `origin/main` 0c4b383c (fetch sonrası) · ikinci taban: main + `ZAMAN-PAKET-1009.diff` (`-C1`) · ağaçlar `C:\atlas-umit-k2a` / `-k2z` (kaldırıldı) · commit yok.
+Yöntem: hunk hunk `git apply --check` ileri/geri (+ satır içerik araması); İNDİ denen her şey iki yönde: ① iniş commit'inin ATASINA diff uygulandı, dosyalar commit ile `git diff --quiet` karşılaştırıldı ② bugünkü HEAD'de `-R --check`.
+`denetle.py` (`PYTHONHASHSEED=0 --ayrinti`): main önce/sonra ve ZAMAN önce/sonra — DÖRT koşu da **çıkış 2** (yalnız D8 ÖLÇÜLEMEDİ, UMIT tabanı). Önce↔sonra çıktıları **bayt bayt aynı** (B+C birlikte uygulanmış hâl, iki tabanda). ⇒ DEĞİŞEN SAYAÇ YOK; "kaç bekleyen diff dokunuyor" satırı boş küme. Taban kaydı (main): D1 309/309 · D2 628/0 · 2s 1738 · AÇIK 181 (tavan 181) · 2sk yalnız-taraf 2265 (tavan 2265).
+
+### Ölçtüm
+| diff | temiz main | main + ZAMAN-PAKET | kova |
+|---|---|---|---|
+| `-SUZGEC.diff` (`js/suzgec.js`, 2 hunk) | ✓ 2/2 | ✓ | TEMİZ |
+| `-TUR.diff` (8 dosya, 69 hunk) | ✗ — 68 TEMİZ · 1 ÇAKIŞMA: `kronoloji_cok_once1281_iran.js @@-7` (152/152), 1 `−` satırı main'de yok | ✓ 69/69 | **PAKETTEN SONRA TEMİZ** — o satırı ZAMAN-PAKET (Z7-MADDE) getiriyor; TUR o hâle göre yazılmış |
+| `-TUR2.diff` (6 dosya, 60 hunk) | ✓ 60/60 | ✓ | TEMİZ |
+Sıralı zincir SUZGEC → TUR → TUR2: main'de TUR ✗, ötekiler ✓ · ZAMAN tabanında üçü de ✓.
+ZATEN MAIN'DE 0 · geçersiz varyant 0. Sayaç değişimi yok (kronoloji kuyruğu ve `suzgec.js` Değişmez evreninde değil).
+
+### Bulamadım
+—
+
+### İstiyorum
+- v2 YAZILMADI: **TUR paketten sonra temiz**; SUZGEC ve TUR2 bugün de temiz.
+- İniş sırası: ZAMAN-PAKET → SUZGEC → TUR → TUR2. ⚠️ TUR2 metin olarak SUZGEC'siz de uygulanır ama ANLAMCA ona bağlı (`siyasi` TUR_GRUP'a SUZGEC ile giriyor, -DEVAM ②a) ⇒ TUR2, SUZGEC'ten önce inmesin.
+- Dosya çakışması bekleyenlerle: ZAMAN-PAKET `kronoloji_cok_once1281_iran.js`e dokunuyor (yukarıdaki sebep). Başka bekleyen bu sekiz dosyaya dokunmuyor (ZAMAN-PAKET dosya listesinden okundu; Z6 v2 henüz yok — ölçülemedi).
+**YENİ DOSYALAR:** yok.
