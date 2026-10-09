@@ -14,7 +14,7 @@
 window.KRONOLOJI_COK_INCE_GD_ASYA = [
 
 // ── EDO (TOKUGAWA) ŞOGUNLUĞU ───────────────────────────────────────
-{ t:"1615-01-01", k:"askeri", b:"Osaka Kalesi düştü — Toyotomi hanedanı sona erdi, Tokugawa'nın karşısında rakip kalmadı",
+{ t:"1615-01-01", k:"askeri", tur:"askeri", b:"Osaka Kalesi düştü — Toyotomi hanedanı sona erdi, Tokugawa'nın karşısında rakip kalmadı",
   gun:"Haziran 1615 (Japon ay takvimi; Gregoryen çevrim kaynakta ayrıca sınanmadı)", yer:"Osaka", yer_id:"Osaka",
   kisiler:"Tokugawa Ieyasu, Toyotomi Hideyori",
   d:"Ieyasu, Sekigahara'dan (1600) sonra bile Osaka Kalesi'nde oturan Toyotomi Hideyori'yi 1614 kış ve 1615 yaz seferleriyle kuşattı. Kale 1615 yazında düştü, Hideyori ve annesi intihar etti. Bu, şogunluğa karşı örgütlü tek ciddi rakibin ortadan kalkması ve iki buçuk yüzyıllık «Tokugawa barışı»nın başlangıcıdır.",
@@ -28,7 +28,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · John Whitney Hall (ed.), The Cambridge History of Japan, cilt 4 (Cambridge UP, 1991). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-siyasi","konu-idari"] },
 
-{ t:"1638-01-01", k:"askeri", b:"Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti",
+{ t:"1638-01-01", k:"askeri", tur:"askeri", b:"Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti",
   gun:"Nisan 1638 (Japon ay takvimi; isyan 1637 sonunda başlamıştı, Gregoryen çevrim sınanmadı)", yer:"Shimabara",
   kisiler:"Amakusa Shirō, Matsukura Katsuie",
   d:"Kyushu'da Shimabara ve Amakusa'da ağır vergi ve Hıristiyan baskısına karşı köylüler ve rōnin 1637 sonunda ayaklandı, Hara Kalesi'ne kapandı. Şogunluk, Hollanda gemilerinin desteğini de alarak kaleyi 1638 baharında aldı ve isyancıları topluca öldürdü. Portekizlilerin ülkeden çıkarılması ve dış ticaretin Hollanda ile Çin'e sınırlanması bu olayın ardından geldi.",
@@ -63,13 +63,13 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["timor-beylikleri","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-askeri"] },
 
 // ── KAMBOÇYA (POST-ANGKOR) ─────────────────────────────────────────
-{ t:"1594-01-01", k:"askeri", b:"Siyam kuvvetleri Lovek'i aldı — Kmer başkenti yıkıldı",
+{ t:"1594-01-01", k:"askeri", tur:"askeri", b:"Siyam kuvvetleri Lovek'i aldı — Kmer başkenti yıkıldı",
   gun:"1594 (yıl)", yer:"Lovek", kisiler:"Naresuan",
   d:"Angkor'un terkinden sonra Kmer devletinin başkenti olan Lovek, Ayutthaya Kralı Naresuan'ın ordusuna 1594'te düştü. Şehir yağmalandı, kraliyet ailesi tutsak edildi, krallık uzun süre Siyam'a bağımlı hale geldi. Kamboçya bundan sonra başkentini Oudong dolayına taşıdı.",
   kaynak:"David Chandler, A History of Cambodia (Westview Press, 4. bs., 2008) · David P. Chandler, Michael Vickery. Sayfa verilmedi.",
   taraflar:["kamboc-kralligi","ayutthaya"], etiket:["konu-askeri","konu-siyasi"] },
 
-{ t:"1887-10-17", k:"idari", b:"Hindiçini Birliği kuruldu — Kamboçya Fransız Hindiçini'ne katıldı",
+{ t:"1887-10-17", k:"idari", tur:"idari", b:"Hindiçini Birliği kuruldu — Kamboçya Fransız Hindiçini'ne katıldı",
   gun:"17 Ekim 1887", yer:"Hanoi", yer_id:"Hanoi (Thăng Long)",
   d:"Fransa, Cochinchina, Annam, Tonkin ve Kamboçya'yı 1887'de tek bir genel valilik altında «Hindiçini Birliği» olarak topladı. 1863'te protektora kabul etmiş olan Kamboçya böylece Fransız idari sisteminin parçası oldu; Laos 1893'te eklendi.",
   kaynak:"David Chandler, A History of Cambodia (Westview Press, 4. bs., 2008) · Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
@@ -102,7 +102,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["majapahit","sunda-pajajaran"], etiket:["konu-siyasi","konu-askeri"],
   ic_not_d:"Olay geç kaynaklı (Pararaton); tarihselliği ve yılı tartışmalı. Yıl 1357 geleneksel sayıdır." },
 
-{ t:"1389-01-01", k:"olum", b:"Hayam Wuruk öldü — Majapahit'in altın çağı sona erdi",
+{ t:"1389-01-01", k:"olum", tur:"olum", b:"Hayam Wuruk öldü — Majapahit'in altın çağı sona erdi",
   gun:"1389 (yıl)", yer:"Majapahit", kisiler:"Hayam Wuruk",
   d:"Majapahit'in zirvesini yaşatan Hayam Wuruk 1389'da öldü. Ardılları arasında çıkan Paregreg (taht kavgası) savaşı imparatorluğu zayıflattı ve dış eyaletler kopmaya başladı.",
   kaynak:"Theodore G. Th. Pigeaud, Java in the Fourteenth Century (Martinus Nijhoff, 1960–63) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
@@ -129,7 +129,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["lan-xang"], etiket:["konu-siyasi"],
   ic_not_t:"Başlangıç yılı ve hükümdarlık süresi (1638-1695) kaynakta; gün yok." },
 
-{ t:"1694-01-01", k:"olum", b:"Sulinya Vongsa öldü — Lan Xang veraset krizine girdi ve parçalanmaya gitti",
+{ t:"1694-01-01", k:"olum", tur:"olum", b:"Sulinya Vongsa öldü — Lan Xang veraset krizine girdi ve parçalanmaya gitti",
   gun:"1694 (yıl; bazı kaynaklar 1695)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Sulinya Vongsa",
   d:"Sulinya Vongsa'nın ölümünden sonra erkek varis bulunamadı, taht kavgaları çıktı. Bu kriz 1707'de krallığın Luang Prabang ve Vientiane'e bölünmesine yol açtı (Champasak da ayrıldı).",
   kaynak:"Martin Stuart-Fox, The Lao Kingdom of Lan Xang: Rise and Decline (White Lotus, 1998). Sayfa verilmedi.",
@@ -156,14 +156,14 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["nguyen-hanedani"], etiket:["konu-siyasi"] },
 
 // ── CHAMPA ─────────────────────────────────────────────────────────
-{ t:"1611-01-01", k:"askeri", b:"Nguyễn Hoàng Phú Yên'i aldı — Champa'nın kuzey yakası Vietnam'a geçti",
+{ t:"1611-01-01", k:"askeri", tur:"askeri", b:"Nguyễn Hoàng Phú Yên'i aldı — Champa'nın kuzey yakası Vietnam'a geçti",
   gun:"1611 (yıl)", yer:"Phú Yên", kisiler:"Nguyễn Hoàng",
   d:"Đàng Trong'un kurucusu Nguyễn Hoàng 1611'de Champa'dan Phú Yên bölgesini aldı. Güneye doğru ilerleyiş (Nam tiến) Champa'yı Panduranga'ya doğru daralttı; krallık 1697'de tâbi beylik oldu, 1832'de Minh Mạng tarafından ilhak edildi.",
   kaynak:"Georges Coedès, The Indianized States of Southeast Asia (East-West Center, 1968) · Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 1 (Cambridge UP, 1992). Sayfa verilmedi.",
   taraflar:["campa","nguyen-beyligi"], etiket:["konu-askeri","konu-siyasi"] },
 
 // ── BALİ KRALLIKLARI ───────────────────────────────────────────────
-{ t:"1849-01-01", k:"askeri", b:"Hollanda Bali'ye seferi — Buleleng ve Jembrana Hollanda denetimine girdi", yer_id:"Bali",
+{ t:"1849-01-01", k:"askeri", tur:"askeri", b:"Hollanda Bali'ye seferi — Buleleng ve Jembrana Hollanda denetimine girdi", yer_id:"Bali",
   gun:"1849 (yıl; Hollanda seferleri 1846, 1848, 1849)", yer:"Buleleng",
   d:"Hollanda, 1846 ve 1848'deki başarısız seferlerin ardından 1849'da Bali'nin kuzeyinde Buleleng ve Jembrana'yı aldı. Krallıkların geri kalanı 1906-08 puputanlarına dek bağımsız kaldı.",
   kaynak:"Henk Schulte Nordholt, The Spell of Power: A History of Balinese Politics, 1650–1940 (KITLV Press, 1996). Sayfa verilmedi.",
@@ -177,7 +177,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Leonard Y. Andaya, The World of Maluku: Eastern Indonesia in the Early Modern Period (University of Hawaii Press, 1993). Sayfa verilmedi.",
   taraflar:["ternate-sultanligi","portekiz"], etiket:["konu-siyasi","konu-ekonomi"] },
 
-{ t:"1606-01-01", k:"askeri", b:"İspanya Ternate'yi işgal etti, Sultan Said'i Manila'ya sürdü",
+{ t:"1606-01-01", k:"askeri", tur:"askeri", b:"İspanya Ternate'yi işgal etti, Sultan Said'i Manila'ya sürdü",
   gun:"1606 (yıl)", yer:"Ternate", yer_id:"Ternate", kisiler:"Sultan Said",
   d:"İspanyol Manila valisinin seferi 1606'da Ternate'yi alıp sultanı esir olarak Filipinler'e götürdü; bu, Hollanda'nın bölgeye girişine karşı İspanya'nın karşı hamlesiydi. Hollandalılar ve Ternate halkı 1663'te İspanyolların çekilmesine kadar adayı dönüşümlü kontrol etti.",
   kaynak:"Leonard Y. Andaya, The World of Maluku (University of Hawaii Press, 1993). Sayfa verilmedi.",
@@ -203,21 +203,21 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
   taraflar:["goryeo","mogol-imparatorlugu"], etiket:["konu-siyasi","konu-diplomasi"] },
 
-{ t:"1388-01-01", k:"askeri", b:"Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği",
+{ t:"1388-01-01", k:"askeri", tur:"askeri", b:"Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği",
   gun:"1388 (yıl; Haziran)", yer:"Wihwa", kisiler:"Yi Seong-gye, Choe Yeong",
   d:"Ming'e karşı sefer için gönderilen General Yi Seong-gye, Yalu Nehri'ndeki Wihwa Adası'nda ordusunu geri döndürüp başkente yürüdü, Choe Yeong'u devirdi ve iktidarı ele aldı. Dört yıl sonra tahtı alıp Joseon'u kuracaktı (künyenin bitiş günü).",
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
   taraflar:["goryeo","ming-hanedani"], etiket:["konu-siyasi","konu-askeri"] },
 
 // ── KAMAKURA ŞOGUNLUĞU ─────────────────────────────────────────────
-{ t:"1221-01-01", k:"askeri", b:"Jōkyū Savaşı — emekli imparator Go-Toba'nın şogunluğa karşı ayaklanması bastırıldı",
+{ t:"1221-01-01", k:"askeri", tur:"askeri", b:"Jōkyū Savaşı — emekli imparator Go-Toba'nın şogunluğa karşı ayaklanması bastırıldı",
   gun:"1221 (yıl; yaz, Japon ay takvimi)", yer:"Kyoto", yer_id:"Kyoto", kisiler:"Go-Toba, Hōjō Yoshitoki",
   d:"Emekli İmparator Go-Toba, Kamakura'nın naibi Hōjō Yoshitoki'yi devirmek için 1221'de orduyu çağırdı; şogunluk birlikleri haftalar içinde Kyoto'yu aldı, imparatoru ve iki oğlunu sürgüne gönderdi. Bu zaferle Kamakura, sarayın mallarını ve veraset kararlarını denetleyerek iktidarını pekiştirdi.",
   kaynak:"John Whitney Hall & Jeffrey P. Mass (eds.), Medieval Japan: Essays in Institutional History (Yale UP, 1974) · Thomas D. Conlan, In Little Need of Divine Intervention (Cornell East Asia Series, 2001). Sayfa verilmedi.",
   taraflar:["kamakura"], etiket:["konu-askeri","konu-siyasi"],
   ic_not_t:"Yıl kaynaklı; gün ay takvimidir, çevrim uydurulmadı." },
 
-{ t:"1274-01-01", k:"askeri", b:"Birinci Moğol (Bun'ei) seferi — Hakata Körfezi'ne çıkarma",
+{ t:"1274-01-01", k:"askeri", tur:"askeri", b:"Birinci Moğol (Bun'ei) seferi — Hakata Körfezi'ne çıkarma",
   gun:"1274 (yıl; sonbahar, Japon ay takvimi)", yer:"Hakata", yer_id:"Hakata (Fukuoka)",
   d:"Yuan ve Goryeo gemileri 1274 sonbaharında Tsushima ve Iki'yi alıp Hakata Körfezi'ne çıktı; Kamakura savaşçılarıyla yapılan çatışmadan sonra fırtına filonun büyük kısmını batırdı ve sefer başarısız kaldı. 1281'deki ikinci sefer de yenilince savunma giderleri ödenemeyen vassalları (gokenin) tatmin edememesi Kamakura'nın zayıflamasına yol açtı.",
   kaynak:"Thomas D. Conlan, In Little Need of Divine Intervention: Takezaki Suenaga's Scrolls of the Mongol Invasions of Japan (Cornell East Asia Series, 2001). Sayfa verilmedi.",
@@ -232,20 +232,20 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["nguyen-beyligi"], etiket:["konu-siyasi","konu-askeri"],
   ic_not_t:"tay-son künyesi 1778'de başlıyor; 1771 isyanı ondan önce, bu yüzden yalnız nguyen-beyligi taraf." },
 
-{ t:"1785-01-01", k:"askeri", b:"Rạch Gầm–Xoài Mút Savaşı — Tây Sơn Siyam ordusunu bozguna uğrattı",
+{ t:"1785-01-01", k:"askeri", tur:"askeri", b:"Rạch Gầm–Xoài Mút Savaşı — Tây Sơn Siyam ordusunu bozguna uğrattı",
   gun:"1785 (yıl; ocak)", yer:"Mekong deltası", kisiler:"Nguyễn Huệ",
   d:"Nguyễn Ánh'ın yardım çağrısıyla Mekong deltasına giren Siyam ordusu ve donanması, Nguyễn Huệ'nin pususunda Rạch Gầm ve Xoài Mút'ta büyük kayba uğradı. Zafer Tây Sơn'un güneydeki üstünlüğünü pekiştirdi.",
   kaynak:"George Dutton, The Tây Sơn Uprising (University of Hawai'i Press, 2006). Sayfa verilmedi.",
   taraflar:["tay-son","siyam-chakri"], etiket:["konu-askeri"] },
 
-{ t:"1789-01-01", k:"askeri", b:"Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna uğrattı", yer_id:"Hanoi",
+{ t:"1789-01-01", k:"askeri", tur:"askeri", b:"Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna uğrattı", yer_id:"Hanoi",
   gun:"1789 (yıl; Vietnam yeni yılı, ocak sonu-şubat başı)", yer:"Đống Đa", kisiler:"Nguyễn Huệ (Quang Trung)",
   d:"Lê hanedanının çağrısıyla Vietnam'a giren Qing ordusu, 1789 yeni yılında Thăng Long (Hanoi) yakınında Quang Trung'un hızlı yürüyüşüyle yenildi. Zafer Tây Sơn'un kuzeyde meşruiyetini pekiştirdi; Qing Quang Trung'u sonunda resmen tanıdı.",
   kaynak:"George Dutton, The Tây Sơn Uprising (University of Hawai'i Press, 2006). Sayfa verilmedi.",
   taraflar:["tay-son","qing-hanedani","le-hanedani"], etiket:["konu-askeri","konu-siyasi"] },
 
 // ── THONBURI ───────────────────────────────────────────────────────
-{ t:"1778-01-01", k:"askeri", b:"Taksin Vientiane'i aldı — Siyam Laos krallıklarına üstün geldi",
+{ t:"1778-01-01", k:"askeri", tur:"askeri", b:"Taksin Vientiane'i aldı — Siyam Laos krallıklarına üstün geldi",
   gun:"1778 (yıl; bazı kaynaklar 1778-79)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Taksin, Chao Phraya Chakri",
   d:"Thonburi Kralı Taksin, generali Chao Phraya Chakri (sonradan Rama I) komutasında Laos krallığı Vientiane'i 1778-79'da aldı; Emerald Buddha ve Phra Bang heykelleri Siyam'a taşındı. Laos krallıkları bundan sonra Siyam'a tâbi oldu.",
   kaynak:"David K. Wyatt, Thailand: A Short History (Yale UP, 2. bs., 2003) · Martin Stuart-Fox, A History of Laos (Cambridge UP, 1997). Sayfa verilmedi.",
@@ -259,7 +259,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Ralph S. Kuykendall, The Hawaiian Kingdom, cilt 1 (University of Hawaii Press, 1938). Sayfa verilmedi.",
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
-{ t:"1819-05-08", k:"olum", b:"Kamehameha I öldü — Kapu sistemi yıkılmaya doğru gitti",
+{ t:"1819-05-08", k:"olum", tur:"olum", b:"Kamehameha I öldü — Kapu sistemi yıkılmaya doğru gitti",
   gun:"8 Mayıs 1819", yer:"Kailua-Kona", kisiler:"Kamehameha I, Kamehameha II, Kaahumanu",
   d:"Hawaii'yi birleştiren Kamehameha I 1819'da öldü; oğlu Liholiho (Kamehameha II) tahta çıktı. Kaahumanu'nun desteğiyle aynı yıl kapu (yasaklar) sistemi yıkıldı ve 1820'de Protestan misyonerler geldi.",
   kaynak:"Ralph S. Kuykendall, The Hawaiian Kingdom, cilt 1 (University of Hawaii Press, 1938). Sayfa verilmedi.",
@@ -278,7 +278,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
 // ── RYUKYU KRALLIĞI ────────────────────────────────────────────────
-{ t:"1609-01-01", k:"askeri", b:"Satsuma Ryukyu'yu işgal etti — Krallık Japon ve Çin çifte tâbiliğine girdi",
+{ t:"1609-01-01", k:"askeri", tur:"askeri", b:"Satsuma Ryukyu'yu işgal etti — Krallık Japon ve Çin çifte tâbiliğine girdi",
   gun:"1609 (yıl; ilkbahar)", yer:"Shuri", kisiler:"Shimazu Iehisa, Shō Nei",
   d:"Satsuma han'ı (Shimazu ailesi) Edo şogunluğunun onayıyla 1609'da Ryukyu'ya asker çıkarıp kralı Shō Nei'yi esir aldı. Krallık adıyla bağımsız kaldı ama Satsuma'ya vergi verdi; aynı zamanda Ming ve sonra Qing'e bağlılığını sürdürerek iki devlete birden tâbi oldu.",
   kaynak:"Gregory Smits, Visions of Ryukyu: Identity and Ideology in Early-Modern Thought and Politics (University of Hawai'i Press, 1999) · George H. Kerr, Okinawa: The History of an Island People (Tuttle, 1958). Sayfa verilmedi.",
@@ -286,7 +286,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"Yıl kaynaklı; gün ay takvimi, çevrim yok." },
 
 // ── GOVA / BUGİS ───────────────────────────────────────────────────
-{ t:"1669-01-01", k:"askeri", b:"Somba Opu düştü — Makassar Savaşı bitti, Gova Hollanda'ya boyun eğdi", yer_id:"Makassar",
+{ t:"1669-01-01", k:"askeri", tur:"askeri", b:"Somba Opu düştü — Makassar Savaşı bitti, Gova Hollanda'ya boyun eğdi", yer_id:"Makassar",
   gun:"1669 (yıl)", yer:"Somba Opu", kisiler:"Hasanuddin, Arung Palakka, Cornelis Speelman",
   d:"VOC ve Bone beyi Arung Palakka'nın ittifakı, 1666'dan beri süren Makassar Savaşı'nı Somba Opu Kalesi'ni alarak bitirdi. 1667 Bungaya Antlaşması ile Gova'nın ticaret özgürlüğü ve dış bağları baştan kırılmıştı; 1669'da kalenin düşmesi Gova-Tallo'nun fiilen sonunu getirdi ve Güney Sulawesi'nin hegemonyası Bone ve VOC'a geçti.",
   kaynak:"Leonard Y. Andaya, The Heritage of Arung Palakka (Martinus Nijhoff, 1981) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
@@ -301,7 +301,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["banjar-sultanligi","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-diplomasi"] },
 
 // ── PALEMBANG ──────────────────────────────────────────────────────
-{ t:"1821-01-01", k:"askeri", b:"Hollanda Palembang'ı işgal etti — Sultan Mahmud Badaruddin II sürgüne gönderildi",
+{ t:"1821-01-01", k:"askeri", tur:"askeri", b:"Hollanda Palembang'ı işgal etti — Sultan Mahmud Badaruddin II sürgüne gönderildi",
   gun:"1821 (yıl)", yer:"Palembang", yer_id:"Palembang", kisiler:"Mahmud Badaruddin II",
   d:"Sultan Mahmud Badaruddin II, 1819'da Hollanda seferini geri püskürtmüş, 1821'de yenilmişti. Hollanda 1821'de Palembang'ı alıp sultanı Ternate'ye sürdü; sultanlık kısa bir süre daha kukla sultanlarla sürdü ve 1825'te kaldırıldı.",
   kaynak:"Barbara Watson Andaya, To Live as Brothers: Southeast Sumatra in the Seventeenth and Eighteenth Centuries (University of Hawaii Press, 1993) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
@@ -309,7 +309,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_d:"Sultanın Ternate'ye sürgünü ve 1819/1821 sefer sırası hafızadan; kaynak sayfasıyla sınanmamıştır." },
 
 // ── LAOS KRALLIKLARI ───────────────────────────────────────────────
-{ t:"1828-01-01", k:"askeri", b:"Siyam Vientiane'i yıktı — Anouvong isyanı bastırıldı, Laos krallıkları Siyam'a bağlandı",
+{ t:"1828-01-01", k:"askeri", tur:"askeri", b:"Siyam Vientiane'i yıktı — Anouvong isyanı bastırıldı, Laos krallıkları Siyam'a bağlandı",
   gun:"1828 (yıl)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Anouvong",
   d:"Kral Anouvong'un 1827'deki Siyam karşıtı ayaklanması bastırıldı; 1828'de Siyam orduları Vientiane'i yakıp yıktı, halkın büyük kısmını Siyam'ın kuzeydoğusuna sürdü. Vientiane krallığı fiilen sona erdi, Luang Prabang ve Champasak Siyam'a doğrudan bağlı kaldı.",
   kaynak:"Martin Stuart-Fox, A History of Laos (Cambridge UP, 1997) · David K. Wyatt, Thailand: A Short History (Yale UP, 2. bs., 2003). Sayfa verilmedi.",

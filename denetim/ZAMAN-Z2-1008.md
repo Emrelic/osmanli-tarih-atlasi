@@ -5,6 +5,56 @@ Teslim: `ZAMAN-Z2-1008-APPJS.diff` (üç dosya tek diff, UYGULANMADI). **SÜRÜM
 (aşağıda §R2), temel `c69b890f`. Diff başlığı: dokunduğu GÜN ARALIĞI — arayüz kodu, veri değil; davranış yalnız
 `VERI_UFKU` DIŞINDA (1281-01-01 öncesi · 1923-10-29 sonrası) değişir, 1281–1923 arası çizim aynı (ölçek hariç).
 
+## §R3 — Sürüm 3 (koordinatör ek işleri, 9 Ekim) · temel `8b2f5415`
+Diff başlığı GÜN ARALIĞI: ①③ yalnız `VERI_UFKU`/UFUK DIŞI günlerde davranış değiştirir · ② 1281–1923 içinde, YALNIZ
+aynı gününde maddeye bağlanmayan başka el değiştirme olan maddelerde (kırpma görüntüsü; veri değişmez).
+
+**① 1000–1281 / 1923 sonrası akış (karar A — ana akışa madde EKLENMEDİ).** `osmanliAkisiBos()` = gün VERI_UFKU dışında.
+Odak varsa ⏮/⏭/▶ zaten odak devletin listesinde ilerliyor (`ODAK_GEZINTI`, birleşik havuz varsa o). Odak yoksa
+yerinde kalıp "ℹ️ Bu çağda Osmanlı kronolojisi yok — ☪ seçicisinden bir devlet seçin." yazıyor. Tarayıcıda ölçüldü:
+1100'de ⏭ → gün değişmedi, uyarı çıktı · ▶ (olay kipi) → başlamadı, düğme ▶.
+⚠️ Sınamada YAKALANAN hata: ilk yazımda ▶ "Maximum call stack size exceeded" verdi. `oynatDurdur` bir geçiş anahtarı ve
+ilk adım `setInterval`den önce SENKRON koşuyor, yani "durdur" oynatmayı yeniden başlatıyordu. Ön kontrol oynatma
+başlamadan önce yapılıyor, adımdaki durdurma yalnız oynuyorsa durduruyor. Düzeltmeden sonra hata 0.
+
+**② Aynı gün kırpması maddenin PETEKLERİNE daraldı (KRONO-SENKRON / H-0023).** Yeni `maddeyeDarKirp(o)` ve ortak kapı
+`maddeKirp(o)` (üç çağrı yeri). Kural, panel kutusunun kullandığı AYNI `SUZGEC.maddeDegisimleri`; katman mevcut
+`antlasma-fark` örtüsü (`antlasmaFarkiKirp`), yeni mekanizma yok:
+```
+o günün değişimi yok ya da HEPSİ bu maddenin  → eski TAM GÜN kırpması (değişmedi)
+bir KISMI bu maddenin                          → DAR: yalnız maddenin petekleri önce↔sonra, harita "sonra"da sabit
+HİÇBİRİ bu maddenin                            → kırpma YOK (eskiden başka maddenin değişimini yakıyordu); panel sinyali eskisi gibi
+```
+Ölçüldü (tarayıcı, gerçek ⏭ akışı, 30 ms aralıkla tam-gün kırpması yoklanarak): 1460-01-01 Amasra maddesi → dar
+**[Amasra]** · İzvornik maddesi → dar **[İzvornik, Tuzla]** · tam gün kırpması **0 kez** görüldü. KRONO-SENKRON'un
+öngörüsüyle birebir (Amasra ~690 km² · İzvornik+Tuzla ~6.540 km²).
+Kapsam (ana akış 1.784 madde): **tam gün 488 · dar 331 · yok 194** · değişimsiz 768 · pencere dışı 3 (139'u antlaşma,
+onların kutusu ayrı ve önceliği korunuyor).
+⚠️ Risk: "yok" kovası (194) eşleştirme kuralına (`yer_id` · `yer` · başlıkta ad · ≤150 km) bağlı. Kural bir fetih
+maddesini kendi değişimine bağlayamıyorsa o madde artık YANIP SÖNMEZ. Emre'nin 14 Eylül "B" kararıyla uyumlu ("yalnız
+o maddenin değiştirdiği yerleşimler yanıp sönsün"), ama 194'ü tek tek gözden GEÇİRİLMEDİ.
+
+**③ UFUK DIŞI madde kırpılmıyor, İŞARETLENİYOR (UFUK-DISI-1008 bulguları).**
+- `maddeAc`: gün UFUK dışındaysa `tarihAyarla` ve kamera uçuşu YOK, zaman ve harita yerinde. Panel maddeyi kendi
+  tarihiyle açıyor (`kisaTarihYazi`, ham `m.t` değil) ve şunu yazıyor: "⏳ Bu madde atlasın zaman ufkunun (1000–1945)
+  dışında — zaman çubuğu ve harita bu tarihe gidemez, harita değiştirilmedi." Sahte "1 Ocak 1000" artık yok.
+  Ölçüldü: Bizans 637 → gün DEĞİŞMEDİ (15 Haziran 1100), panel "16 H. / 637 …", not görünür · ⏭ → 831 (aynı davranış) ·
+  ufuk içi 1001 maddesi → 1 Ocak 1001'e gidiyor, not temizleniyor.
+- Listede (`odak` ve birleşik) ufuk dışı satır soluk + kesik kenar + ⏳ ipucu (`ufukDisiIsaretle`). Bizans'ta 3/148.
+- ⏮/⏭ ile ufuk dışı maddeler arasında gezinmek haritayı oynatmıyor, ama artık her adım bunu AÇIKÇA söylüyor.
+- Şerit metninden "kronoloji geçerlidir" çıkarıldı: "Kapsam dışı — harita verisi 1281–1923 arasını kapsıyor; bu
+  tarihte çizili olan EKSİKTİR."
+- Yıl başındaki sıfır: `kesinlikliYazi` yılı `yilDizgi`den alıyor ("0226-01-01" → "226"); `kisaTarihYazi` ISO'da
+  "0831-09-12" → "831-09-12". 0YYY dolgusu ekrana sızmıyor.
+
+**④ Bilgi:** "VERİ PENCERESİ DIŞI" kovası koordinatörün kararı (Z1 yazıyor). 0900 ve 0981 o kovaya girmiyor (ufkun da
+dışında), 1026 giriyor. Bu diff'in odak kapısındaki izi sürüm 2'yle aynı: SESSİZ +19, hepsi 1281 öncesi.
+
+**Kapılar (sürüm 3):** `node --check` ✓ · `denetle_arayuz` temiz · odak kapısı sürüm 2 ile birebir (SESSİZ 20 =
+19 + tabandaki 1 · OKUNMAYAN +3 tabanda da var · ÖLÇÜLEMEDİ yok) · ufuk sınavı 20/20 ✓ · tarayıcı `window.onerror` 0 ·
+`git apply --check` ✓ `6fb477a9` (güncel uç) · 49.285 bayt · CR 0.
+**Dokunulmadı (Emre kararı bekliyor):** padişah kartı · `<title>` ve açılış perdesindeki "1281–1923".
+
 ## §R2 — Koordinatör düzeltmesi (8 Ekim): "ufuk ÖNERİDİR, tek yerde ve adlandırılmış olsun"
 - **Ufkun tek yeri:** `app.js` `BASLANGIC = gunIdx("1000-01-01")` · `BITIS = gunIdx("1945-09-02")` — iki satır, yorumda
   `= arac/girdi.py UFUK[0]/[1] · ÖNERİ`. Emre başka uç seçerse YALNIZ bu iki dizgi değişir.
@@ -188,4 +238,4 @@ Yeni ölçüm doğru, eski "GÖVDE" yanlış pozitifti. **Kusur değil, KAPSAM**
 
 ## Dosyalar (`C:\atlas-umit\denetim\`e kopyalandı, izlenmeyen)
 - `ZAMAN-Z2-1008.md` — bu rapor
-- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 2) — `js/app.js` (+339/−37) · `index.html` (+9/−0: `#zaman-sarmal`, `#zaman-eksen`) · `css/style.css` (+29/−6: sarmal, eksen, şerit)
+- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 3) — `js/app.js` (+456/−45) · `index.html` (+9/−0) · `css/style.css` (+31/−6)

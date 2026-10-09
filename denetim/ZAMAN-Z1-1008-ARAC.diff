@@ -1,11 +1,13 @@
-ZAMAN-Z1-1008-ARAC.diff — ufuk sabiti girdi.UFUK / girdi.VERI_UFKU'dan okunur (tanım: arac/girdi.py, MOTOR.diff).
-  Tarih bu diff'te YAZILMAZ; MOTOR.diff'siz uygulanırsa ImportError. Koşulmadan teslim.
+ZAMAN-Z1-1008-ARAC.diff — SÜRÜM 2 (9 Ekim) · ufuk girdi.UFUK/VERI_UFKU/UFUK_DAMGASI/ufuk_devirleri'den okunur; bu diff'te tarih YAZILMAZ.
+  denetle: kirilma_disi (UFUK DAMGASI) · degismez1_kapsam (KAPSAM DIŞI + VERİLİ DEVİR DELİĞİ) · ATLAS_BASI/SONU · 5b/5c · YIL-TEMSİLÎ notu
+  odak_cozum.js + odak_olc.py: VERİ PENCERESİ DIŞI kovası (SEKME_VERI_DISI) · denetle_yayin: UFUK EŞİTLİĞİ sorusu
+  eslesme/statu/gorunur/renk_olc: ufuk girdi'den. MOTOR.diff'siz ImportError. Sınav: denetim/ARAC-ZAMAN-Z1-SINAV-1008.py (31/31).
 
 diff --git a/arac/denetle.py b/arac/denetle.py
-index 2726a3ee..d5b3c65b 100644
+index e2ce2d1c..f75a3e5c 100644
 --- a/arac/denetle.py
 +++ b/arac/denetle.py
-@@ -35,6 +35,21 @@ if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+@@ -35,6 +35,20 @@ if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
  KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
  DATA = os.path.join(KOK, "data")
  
@@ -14,20 +16,83 @@ index 2726a3ee..d5b3c65b 100644
 +#   Gerekçe girdi.py'de. Eskiden bu dosyada "1281-01-01"/"1923-10-29" beş
 +#   yerde düz yazılıydı ve motor ufkuna BAĞLI DEĞİLDİ (ONCE1281-MOTOR-UFUK-1004 §④).
 +sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-+from girdi import UFUK, VERI_UFKU
-+SINIR_ISARETI = frozenset(VERI_UFKU)
++from girdi import UFUK, VERI_UFKU, UFUK_DAMGASI, ufuk_devirleri
 +
 +
 +def kirilma_disi(g):
-+    """KIRILMA SAYILMAYAN gün: yok · motor ufkunun dışı ya da ucu · verinin
-+    eski kapısı (`1281-01-01` başlangıcı, `1923-10-29` bitişi — el değiştirme
-+    değil, D210). Değişmez 2/2s/2i ve 7 aynı kapıdan sorar."""
-+    return (not g) or g <= UFUK[0] or g >= UFUK[1] or g in SINIR_ISARETI
++    """KIRILMA SAYILMAYAN gün: yok · UFUK'un dışı · UFUK DAMGASI (dört uç
++    gün, tanımı `girdi.UFUK_DAMGASI` — el değiştirme değil, D210).
++    Değişmez 2/2s/2i ve 7 aynı kapıdan sorar."""
++    return (not g) or g < UFUK[0] or g > UFUK[1] or g in UFUK_DAMGASI
 +
  # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
  # 748 -> 761: hatalar 4.docx düzeltmeleri (Çerkezya 5, Dağıstan 3, Şirvan 4,
  # Kaheti 1) — gerekçeleri yerlesimler.js içindeki blok yorumlarda.
-@@ -1846,7 +1861,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
+@@ -664,6 +678,12 @@ BEKLENEN_ACIK_S = 185   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186 -> 18
+ #   "yeni `YYYY-01-01` kırılması yazılmış olabilir" cümlesi burada YANILTIR;
+ #   tavan bu yüzden güncellendi, yoksa sonraki oturum olmayan bir kaydı arar.
+ BEKLENEN_2S_YIL_BORC = 151
++# 🆕 ZAMAN-GENİŞ-1008 (Z1): ufuk 1000'e açılınca ölçüm 165 → 166, ADIYLA tek kalem:
++#   Lapaha (Muʻa) · s:tui-tonga-imparatorlugu f:1220-01-01 (kur:1220-01-01).
++#   UFUK DAMGASI DEĞİL (1220 bir uç gün değil) ⇒ kırılma evrenine girdi. Eski
++#   ufukta 1220 < 1281 olduğu için hiç sorulmuyordu. Tavan YÜKSELTİLMEDİ
++#   (1 Ekim kararı): 151→166 farkının öteki 14 kalemi bu commit'in değil ve
++#   adıyla ölçülmedi (§3.4-0). Öneri ve seçenekler: denetim/ZAMAN-Z1-1008.md.
+ # 🔴 1 EKIM 2026 — BU SAYI TERS YONE GITTI: olculen 164 > tavan 151.
+ # Tavan YUKSELTILMEDI ve bu dogru karardi. AMA ILK YAZDIGIM GEREKCE YANLISTI;
+ # YAZICI KASA PC olctu ve curuttu (denetim/KASA-YILTEMSILI-1001.md).
+@@ -1228,6 +1248,50 @@ def degismez1(Y):
+     return sahipsiz
+ 
+ 
++# ---------------- Değişmez 1 — ZAMAN-GENİŞ-1008 KAPSAM DIŞI kovası ----------------
++# 🔴 Koordinatör hükmü (ZAMAN-GENİŞ-1008): UFUK − VERI_UFKU (`girdi.ufuk_devirleri`)
++# yıllarında noktasız/sahipsiz yerleşim DELİK SAYILMAZ — ama YOK DA SAYILMAZ.
++# DÖRT ŞART (biri tutmazsa kova KURULMAZ):
++#   (1) LİSTE — kalem adıyla (yerleşim · devir)
++#   (2) ölçüt TARİH değil VERİ: o devire DOKUNAN tek bir s/d/v dönemi yoksa
++#       kalem kovadadır; veri yazıldığı an KENDİLİĞİNDEN çıkar.
++#   (3) gerçek borçla (`BEKLENEN_SAHIPSIZ`) ASLA toplanmaz, yan yana basılır.
++#   (4) başında ZAMAN-GENİŞ-1008 beyanı.
++# ⚠️ O devirde verisi OLAN ama örnek günde sahipsiz kalan nokta kovaya
++#   GİRMEZ: o gerçek bir deliktir (ör. dönemi 1220'de başlayan nokta 1200'de)
++#   ve AYRI satırda ADIYLA basılır — kovaya atmak borcu affederdi.
++#   Bugün `degismez1` sayısına EKLENMEZ: tavan (BEKLENEN_SAHIPSIZ) yalnız
++#   VERI_UFKU evreninde ölçülmüştür; yeni evren ayrı satırdır (§3.4).
++# Örnek günler: her devirde 10 yılda bir `YYYY-06-15` (yarı açık [f, t)).
++BEKLENEN_VERILI_DELIK = None   # None = TAVAN YAZILMADI ⇒ yalnız bilgi. Koordinatör yazar (§3.4-4).
++
++
++def degismez1_kapsam(Y):
++    """→ (kapsam_disi, verili_delik) — ikisi de [(ad, devir_adı)] LİSTESİ."""
++    def dok(ps, f, t):
++        return any(p.get("f") and p.get("t") and p["f"] < t and p["t"] > f
++                   for p in (ps or []))
++    def ir(ps, g):
++        return any(p["f"] <= g < p["t"] for p in (ps or []))
++    kapsam, delik = [], []
++    for dad, df, dt in ufuk_devirleri():
++        gunler = ["%04d-06-15" % yil for yil in range(int(df[:4]), int(dt[:4]) + 1, 10)]
++        gunler = [g for g in gunler if df <= g < dt]
++        for y in Y:
++            if not any(y.get(k) for k in ("s", "d", "v")):
++                continue                  # kasten boş dolgu — zaten Değişmez 1'de
++            sahnede = [g for g in gunler
++                       if not (y.get("kur") and y["kur"] > g)
++                       and not (y.get("bit") and y["bit"] <= g)]
++            bos = [g for g in sahnede
++                   if not (ir(y.get("d"), g) or ir(y.get("s"), g) or ir(y.get("v"), g))]
++            if not bos:
++                continue
++            veri = any(dok(y.get(k), df, dt) for k in ("s", "d", "v"))
++            (delik if veri else kapsam).append((y["ad"], dad, bos[0][:4]))
++    return kapsam, delik
++
++
+ # ---------------- Değişmez 1b — pencere arası boşluk (ÖRNEKLEMESİZ) ----------------
+ # ⚠️ Değişmez 1 yukarıda KESİTLERLE ölçülüyor: 1285/1290/1295 ve sonra 20 yılda
+ # bir. Yirmi yıllık adım, ondan KISA sahipsiz pencereleri tamamen atlıyor.
+@@ -1865,7 +1929,7 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
              donemler += (y.get(kat) or [])
          for p in donemler:
              for d, tip in ((p.get("f"), "kazanc"), (p.get("t"), "kayip")):
@@ -36,7 +101,7 @@ index 2726a3ee..d5b3c65b 100644
                      continue
                  kayit = kir.setdefault(d, {"t": tip, "ad": set(), "sahip": {}})
                  kayit["ad"].add(y["ad"])
-@@ -2626,7 +2641,7 @@ def _gun_farki(a, b):
+@@ -2645,7 +2709,7 @@ def _gun_farki(a, b):
      return None if (x is None or y is None) else (x - y).days
  
  
@@ -45,7 +110,7 @@ index 2726a3ee..d5b3c65b 100644
  # 🔴 4c TAVANI — ÜÇÜNCÜ DALIN AYRI SAYACI. `BEKLENEN_HAYALET`e EKLENMEZ.
  # Sebebi ölçülmüş bir kaygı: 136 ölçülmüş bir borç ve tavanı; üstüne bu
  # dalın sayısını eklemek İKİ AYRI BORCU TEK KOVAYA koyar ve hangisinin
-@@ -2703,7 +2718,7 @@ BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF
+@@ -2722,7 +2786,7 @@ BEKLENEN_ASAN = 127   # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF
  #    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
  #    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
  #    olcut GEVSETILDIGI icin degil (`D004`un ters yuzu).
@@ -54,7 +119,7 @@ index 2726a3ee..d5b3c65b 100644
  # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
  # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
  #     4c dönem SONU künye sonundan sonra → çare: ardıl kimlik / dönemi KISALT
-@@ -3088,13 +3103,13 @@ def degismez5(Y):
+@@ -3107,13 +3171,13 @@ def degismez5(Y):
                                      g / 365.25))
          else:
              # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
@@ -70,7 +135,7 @@ index 2726a3ee..d5b3c65b 100644
                  # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
                  # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
                  kursuz.append((y["ad"], ilk, donemler[0][2],
-@@ -3652,14 +3667,14 @@ def degismez7(Y, isg_kova=None):
+@@ -3671,14 +3735,14 @@ def degismez7(Y, isg_kova=None):
      ik.setdefault("egemen-isgal-altinda", 0)
      for i, y in enumerate(Y):
          for f, t, s, enk in DON[i]:
@@ -87,6 +152,34 @@ index 2726a3ee..d5b3c65b 100644
                  continue
              sor(i, y, f, t, s, False, ik["muaf"], ik["ihlal"], True)
      ik["ihlal"].sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
+@@ -6410,6 +6474,27 @@ def main():
+     if args.ayrinti and sahipsiz:
+         for ad, yillar in sahipsiz.items():
+             print(f"    {ad:<28} {', '.join(str(y) for y in yillar)}")
++    # ZAMAN-GENİŞ-1008 — KAPSAM DIŞI kovası: 309'la TOPLANMAZ, yan yana basılır.
++    _kd, _vd = degismez1_kapsam(Y)
++    if ufuk_devirleri():
++        _say = {}
++        for _a, _dv, _y in _kd:
++            _say[_dv] = _say.get(_dv, 0) + 1
++        print(f"            ⓘ ZAMAN-GENİŞ-1008 KAPSAM DIŞI: {len(_kd)} (yerleşim × devir) — "
++              f"o devire hiç s/d/v verisi YOK · "
++              + " · ".join(f"{d} {a}→{b}: {_say.get(d, 0)}" for d, a, b in ufuk_devirleri())
++              + f" · borçla TOPLANMAZ (borç: {n1}) · liste: --ayrinti")
++        _vdurum = ("ⓘ" if BEKLENEN_VERILI_DELIK is None
++                   else ("✓" if len(_vd) <= BEKLENEN_VERILI_DELIK else "✗"))
++        if BEKLENEN_VERILI_DELIK is not None and len(_vd) > BEKLENEN_VERILI_DELIK:
++            ihlal = True
++        print(f"            {_vdurum} ZAMAN-GENİŞ-1008 VERİLİ DEVİR DELİĞİ: {len(_vd)} — o devirde "
++              f"verisi VAR ama örnek günde sahipsiz (GERÇEK borç, kovaya girmez)"
++              + ("" if BEKLENEN_VERILI_DELIK is None else f" (tavan {BEKLENEN_VERILI_DELIK})")
++              + ": " + "; ".join(f"{a} ({d}, ilk boş {y})" for a, d, y in _vd[:12]))
++        if args.ayrinti:
++            for _a, _dv, _y in _kd:
++                print(f"    KAPSAM DIŞI  {_a:<28} {_dv} (ilk boş örnek {_y})")
+ 
+     # ---- Değişmez 1c — sahipsiz VE BELGESİZ (asıl nöbetçi) ----
+     # Değişmez 1 "kaç nokta sahipsiz" diye sorar ve cevabın çoğu KASITLIDIR.
 diff --git a/arac/denetle_eslesme.py b/arac/denetle_eslesme.py
 index 7f42b534..65bcdb59 100644
 --- a/arac/denetle_eslesme.py
@@ -136,6 +229,256 @@ index 5bf03b3a..c4b2c702 100644
                      continue
                  if not any(abs(o["g"] - _gun(g)) <= PENCERE_GUN for o in ol):
                      maddesiz.append((g, ne, y["ad"], isgalci))
+diff --git a/arac/denetle_yayin.py b/arac/denetle_yayin.py
+index a517b571..81182f01 100644
+--- a/arac/denetle_yayin.py
++++ b/arac/denetle_yayin.py
+@@ -727,6 +727,56 @@ def _yorumsuz_js(s):
+     return "\n".join(cikti)
+ 
+ 
++# -----------------------------------------------------------------------------
++# 🆕 UFUK EŞİTLİĞİ (ZAMAN-GENİŞ-1008 · koordinatör hükmü, gerekçe H-0008)
++# -----------------------------------------------------------------------------
++# Ufuk İKİ yerde yaşar: `arac/girdi.py` (UFUK · VERI_UFKU — motorun ve denetimin
++# otoritesi) ve `js/app.js` (BASLANGIC · BITIS · VERI_UFKU — arayüzün kopyası).
++# H-0008'de bir yamanın motor yarısı indi, arayüz yarısı geri alınmış kaldı ve
++# hiçbir kapı SORMADI. Bu soru ikisini YAYINDAN ÖNCE karşılaştırır.
++# Okunan ÜÇ literal (Z2'nin sözleşmesi, `ZAMAN-Z2-1008.md §R2`):
++#     var BASLANGIC = gunIdx("…");   var BITIS = gunIdx("…");
++#     var VERI_UFKU = ["…", "…"];
++# Yorumlar silinerek okunur (yorumdaki bir örnek eşleşmesin). Her literal
++# TAM BİR KEZ bulunmalı: yok ya da çift ⇒ ÖLÇÜLEMEDİ ⇒ ihlal (temiz DEĞİL).
++# Sınav (iki yön): `py denetim/ARAC-ZAMAN-Z1-SINAV-1008.py`.
++_UFUK_RX = {
++    "BASLANGIC": re.compile(r'^\s*var\s+BASLANGIC\s*=\s*gunIdx\(\s*"([^"]+)"\s*\)', re.M),
++    "BITIS": re.compile(r'^\s*var\s+BITIS\s*=\s*gunIdx\(\s*"([^"]+)"\s*\)', re.M),
++    "VERI_UFKU": re.compile(r'^\s*var\s+VERI_UFKU\s*=\s*\[\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\]', re.M),
++}
++
++
++def ufuk_esitligi(app_yol=None):
++    """→ (ihlal: bool, satırlar: [str]). app.js ↔ girdi.py ufuk sabitleri."""
++    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++    import girdi as _g
++    yol = app_yol or os.path.join(KOK, "js", "app.js")
++    try:
++        s = _yorumsuz_js(io.open(yol, encoding="utf-8").read())
++    except OSError as e:
++        return True, ["✗  UFUK EŞİTLİĞİ ÖLÇÜLEMEDİ: app.js okunamadı (%s)" % str(e)[:60]]
++    bul = {}
++    for ad, rx in _UFUK_RX.items():
++        m = rx.findall(s)
++        if len(m) != 1:
++            return True, ["✗  UFUK EŞİTLİĞİ ÖLÇÜLEMEDİ: app.js'te `var %s` literal'i %d kez "
++                          "(tam 1 olmalı) — sözleşme bozuk ya da arayüz yarısı inmemiş" % (ad, len(m))]
++        bul[ad] = m[0]
++    app_ufuk = (bul["BASLANGIC"], bul["BITIS"])
++    app_veri = tuple(bul["VERI_UFKU"])
++    fark = []
++    if app_ufuk != tuple(_g.UFUK):
++        fark.append("UFUK app.js %s→%s ≠ girdi.py %s→%s" % (app_ufuk + tuple(_g.UFUK)))
++    if app_veri != tuple(_g.VERI_UFKU):
++        fark.append("VERI_UFKU app.js %s→%s ≠ girdi.py %s→%s" % (app_veri + tuple(_g.VERI_UFKU)))
++    if fark:
++        return True, ["✗  UFUK EŞİTLİĞİ BOZUK — motor ile arayüz FARKLI pencere çiziyor: "
++                      + " · ".join(fark)]
++    return False, ["✓  UFUK EŞİTLİĞİ: app.js = girdi.py (UFUK %s→%s · VERI_UFKU %s→%s)"
++                   % (tuple(_g.UFUK) + tuple(_g.VERI_UFKU))]
++
++
+ def cizilmiyor_mu():
+     """(bulgular, muaf_sayisi) — üretilen her `window.X` tüketiliyor mu?"""
+     import glob as _g
+@@ -1863,6 +1913,16 @@ def main():
+         _paket_ihlali = True
+         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
++    # 🆕 UFUK EŞİTLİĞİ — app.js ↔ girdi.py (ZAMAN-GENİŞ-1008, yukarıdaki işlev)
++    try:
++        _ufuk_ihlali, _ufuk_satir = ufuk_esitligi()
++        print()
++        for _s in _ufuk_satir:
++            print(_s)
++    except Exception as _e:                                 # noqa: BLE001
++        _ufuk_ihlali = True
++        print("\n✗  UFUK EŞİTLİĞİ ÖLÇEMEDİ: %s" % str(_e)[:90])
++
+     # -----------------------------------------------------------------
+     # 🧪 SINAMA KAPISI — `kaynak_durum.py kapi` ile koşmuş motorun ürünü yayına gitmez
+     # -----------------------------------------------------------------
+@@ -1884,7 +1944,7 @@ def main():
+             #   bayatlık Emre'nin hükmüyle yayını DURDURMAZ (yukarı bak).
+             or damga_ihlali or bayat_durdurucu or izsiz or iz_bayat or _sz
+             or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
+-            or _paket_ihlali or _dom_ihlali):
++            or _paket_ihlali or _dom_ihlali or _ufuk_ihlali):
+         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
+         return 1
+     print("SONUÇ: temiz")
+diff --git a/arac/odak_cozum.js b/arac/odak_cozum.js
+index 54ff0f96..63cf158e 100644
+--- a/arac/odak_cozum.js
++++ b/arac/odak_cozum.js
+@@ -384,6 +384,45 @@ function govdeSonucu(m, d) {
+   try { k = maddeOdakKutusu({ t: m.t, gi: W.gunIdx(m.t), odak_kimlik: [d.id] }); } catch (e) { k = null; }
+   return { dal: (k && k.kutu) ? "SEKME_TABI_KUTU" : "SEKME_SESSIZ", neden: neden };
+ }
++// 🔴 ZAMAN-GENİŞ-1008 — VERİ PENCERESİ DIŞI kovası (koordinatör hükmü). DÖRT ŞART:
++//   (1) LİSTE: `veri_disi[]`, kalem adıyla (madde × künye × devir)
++//   (2) ölçüt VERİ: maddenin günü bir `girdi.ufuk_devirleri()` devrinde VE
++//       hedef kimlik(ler)in o devire DOKUNAN tek `dnm` dönemi YOK. Veri
++//       yazılınca (gövde o devirde doğunca) kalem KENDİLİĞİNDEN çıkar.
++//   (3) SEKME SESSİZ / OKUNMAYAN tavanına GİRMEZ, ayrı basılır (odak_olc.py)
++//   (4) beyan: bu blok + odak_olc'un satırı.
++//   Devirler odak_olc.py'den gelir (`G.devirler` ← girdi.ufuk_devirleri):
++//   burada tarih YAZILMAZ. UFUK'un KENDİSİNİN dışı (0900 Mapungubwe · 0981
++//   Bạch Đằng) hiçbir devire düşmez ⇒ kovaya girmez (kalıcı istisna olurdu).
++//   ⚠️ `G.devirler` yoksa (eski sınav betikleri) kova KURULMAZ — davranış eskisi.
++//   ⚠️ Hedef YER ise (odak_yer · odak_kutu_kaynak · yer_kon) kovaya girmez:
++//      o kusur devlet verisinin yokluğu değildir.
++const DEVIRLER = Array.isArray(G.devirler) ? G.devirler : null;
++function pad4(t) {
++  t = String(t || "");
++  return /^\d{1,3}-/.test(t) ? t.replace(/^\d+/, function (y) { return ("000" + y).slice(-4); }) : t;
++}
++function veriDisi(m, d, sd) {
++  if (!DEVIRLER || !d || !DH_VAR) return null;
++  const sessiz = sd.dal === "SEKME_SESSIZ" ||
++                 (sd.dal === "SEKME_OKUNMAYAN" && sd.govde === "SEKME_SESSIZ");
++  if (!sessiz || m.odak_yer || m.odak_kutu_kaynak || yerKonYazili(m)) return null;
++  const t = pad4(m.t);
++  const dv = DEVIRLER.find(function (x) {
++    return x[1] <= t && (t < x[2] || (x[0] === "ileri" && t === x[2]));   // UFUK sonu dahil
++  });
++  if (!dv) return null;
++  const ids = [d.harita || d.id];
++  [].concat(m.odak_kimlik || []).forEach(function (k) {
++    const kk = kunyeIx[k]; ids.push((kk && kk.harita) || k);
++  });
++  for (let i = 0; i < ids.length; i++) {
++    const s = DH_IX[ids[i]];
++    if (s && (s.dnm || []).some(function (p) { return pad4(p.f) < dv[2] && pad4(p.t) > dv[1]; }))
++      return null;                      // o devirde VERİ VAR ⇒ gerçek borç, kovaya girmez
++  }
++  return dv[0];
++}
+ function sekmeDali(m, d) {
+   const hedef = m.yer_id ? olayKonumu(m) : null;
+   if (hedef) return { dal: "SEKME_NOKTA" };
+@@ -464,14 +503,15 @@ function ozet8(k) {
+ 
+ // ---- ⑤ dosya dosya say -----------------------------------------------------
+ const SEKME_DALLARI = ["SEKME_NOKTA", "SEKME_KIPIRDAMAZ", "SEKME_OKUNMAYAN", "SEKME_KUTU",
+-                       "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ", "SEKME_OLCULEMEDI"];
++                       "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ", "SEKME_OLCULEMEDI",
++                       "SEKME_VERI_DISI"];   // sonuncusu ZAMAN-GENİŞ-1008
+ const dosyaIx = {};
+ function dosyaKaydi(ad) {
+   if (!dosyaIx[ad]) {
+     const sk = {}; SEKME_DALLARI.forEach(function (x) { sk[x] = 0; });
+     dosyaIx[ad] = { dosya: ad, madde: 0, acilamaz: 0, beyanli_yabanci: 0,
+                     sinif: { KONUMLU: 0, KUTULU: 0, BEYANLI: 0, ODAKSIZ: 0 },
+-                    sekme: sk, kusur: [], odaksiz: [], okunmayan: [], sekme_sessiz: [],
++                    sekme: sk, kusur: [], odaksiz: [], okunmayan: [], sekme_sessiz: [], veri_disi: [],
+                     beyanli: [], sekme_kutu: [], k8: [] };
+   }
+   return dosyaIx[ad];
+@@ -501,7 +541,13 @@ tumu.forEach(function (r) {
+   }
+   if (yol === "SEKME") {
+     const kd = kunyeIx[sekmeKunye.get(m)];
+-    const sd = sekmeDali(m, kd);
++    let sd = sekmeDali(m, kd);
++    const _vdv = veriDisi(m, kd, sd);                 // ZAMAN-GENİŞ-1008
++    if (_vdv) {
++      d.veri_disi.push({ t: m.t, b: String(m.b || "").slice(0, 80), devir: _vdv,
++                         eski_dal: sd.dal, kunye: sekmeKunye.get(m), k: mk });
++      sd = { dal: "SEKME_VERI_DISI" };
++    }
+     d.sekme[sd.dal]++;
+     if (sd.dal === "SEKME_SESSIZ") {
+       sessizNeden[sd.neden] = (sessizNeden[sd.neden] || 0) + 1;
+@@ -537,6 +583,7 @@ const cikti = {
+   sekme_alt: sekmeAlt, sekme_nokta_odak_kimlik: noktaOdakKimlik,
+   sekme_okunmayan_govde: okunmayanGovde, devlet_harita_var: DH_VAR,
+   sekme_sessiz_neden: sessizNeden,
++  veri_penceresi_devirler: DEVIRLER,                   // ZAMAN-GENİŞ-1008 (null = kova kurulmadı)
+   bagla_log: LOG.filter(function (l) { return /eşlenemedi|EZİLDİ|künyesi olmayan/.test(l); })
+                 .map(function (l) { return l.slice(0, 400); }),
+   dosyalar: Object.keys(dosyaIx).sort().map(function (k) { return dosyaIx[k]; }),
+diff --git a/arac/odak_olc.py b/arac/odak_olc.py
+index 7c2faf16..b61cf42b 100644
+--- a/arac/odak_olc.py
++++ b/arac/odak_olc.py
+@@ -141,10 +141,12 @@ from collections import Counter
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
++import girdi as _girdi   # ZAMAN-GENİŞ-1008: UFUK / VERI_UFKU tek otoritesi
++
+ TAVAN_YOL = os.path.join(KOK, "denetim", "ODAK-TAVAN.json")
+ SEKME_DALLARI = ("SEKME_NOKTA", "SEKME_KIPIRDAMAZ", "SEKME_OKUNMAYAN",
+                  "SEKME_KUTU", "SEKME_GOVDE", "SEKME_TABI_KUTU", "SEKME_SESSIZ",
+-                 "SEKME_OLCULEMEDI")
++                 "SEKME_OLCULEMEDI", "SEKME_VERI_DISI")   # sonuncusu ZAMAN-GENİŞ-1008
+ COZUCU = os.path.join(KOK, "arac", "odak_cozum.js")
+ 
+ 
+@@ -206,7 +208,9 @@ def olc(tek=None, yay_dogrula=False):
+     try:
+         io.open(yol, "w", encoding="utf-8").write(json.dumps(
+             {"kok": KOK.replace("\\", "/"), "etiket_kaynak": ek,
+-             "disk": disk_dosyalari(), "yay_dogrula": bool(yay_dogrula)},
++             "disk": disk_dosyalari(), "yay_dogrula": bool(yay_dogrula),
++             # ZAMAN-GENİŞ-1008: VERİ PENCERESİ DIŞI kovasının TEK evren tanımı
++             "devirler": [list(x) for x in _girdi.ufuk_devirleri()]},
+             ensure_ascii=False))
+         r = subprocess.run(["node", COZUCU, yol], capture_output=True,
+                            text=True, encoding="utf-8", errors="replace")
+@@ -293,6 +297,7 @@ def kimlik_ozetle(D):
+       ozet         set(sha8)               bütün maddelerin evren özeti
+     """
+     od, ss, ok, yb, cb = Counter(), Counter(), Counter(), Counter(), Counter()
++    vd = []                                        # ZAMAN-GENİŞ-1008 VERİ PENCERESİ DIŞI
+     yer = {}
+     hata, olcm, ozet = [], 0, set()
+     for d in D.get("dosyalar", []):
+@@ -311,10 +316,12 @@ def kimlik_ozetle(D):
+         for x in d.get("beyanli") or []:
+             (cb if x.get("yol") == "OLAYLAR" else yb)[x["k"]] += 1
+             yer.setdefault(x["k"], set()).add(ad)
++        vd.extend(d.get("veri_disi") or [])
+         olcm += (d.get("sekme") or {}).get("SEKME_OLCULEMEDI", 0)
+         ozet.update(d.get("k8") or [])
+     return {"odaksiz": od, "sessiz": ss, "okunmayan": ok, "yab_beyanli": yb, "cek_beyanli": cb,
+-            "dosya": yer, "sekme_olculemedi": olcm, "hata": hata, "ozet": ozet}
++            "dosya": yer, "sekme_olculemedi": olcm, "hata": hata, "ozet": ozet,
++            "veri_disi": vd}
+ 
+ 
+ def _sayac(liste, anahtar):
+@@ -518,6 +525,20 @@ def kapi_olcumu(yay_dogrula=False):
+             sat.append("✓  %s İYİLEŞME: %d çift kapandı — tavan indirilmeli "
+                        "(`--tavan-yaz`)" % (ad, sum(x_iyi.values())))
+ 
++    # ④b ZAMAN-GENİŞ-1008 — VERİ PENCERESİ DIŞI: o devirde hedef kimliğin HİÇ gövde
++    #    verisi yok (ölçüt `odak_cozum.js` `veriDisi`). SESSİZ/OKUNMAYAN tavanına
++    #    GİRMEZ, onlarla TOPLANMAZ, ihlal üretmez; kalem adıyla basılır ve veri
++    #    yazılınca kendiliğinden çıkar. `ufuk_devirleri()` boşsa (UFUK = VERI_UFKU) kova yok.
++    if _girdi.ufuk_devirleri():
++        _vd = K["veri_disi"]
++        _dv = Counter(x["devir"] for x in _vd)
++        sat.append("ⓘ  ZAMAN-GENİŞ-1008 VERİ PENCERESİ DIŞI: %d (madde × künye) — o devirde "
++                   "gövde verisi YOK · %s · SEKME SESSİZ ile TOPLANMAZ (bugün %d)"
++                   % (len(_vd), " · ".join("%s %d" % kv for kv in sorted(_dv.items())) or "—",
++                      sum(K["sessiz"].values())))
++        for x in sorted(_vd, key=lambda x: x["t"]):
++            sat.append("     %-60s  sekme %s  (%s)" % (_kisa(x["k"], 60), x["kunye"], x["devir"]))
++
+     # ⑤ ÇEKİRDEĞE GÖÇ — yabancı BEYANLI bir madde `olaylar*`a taşınırsa sekme
+     #    dökümünden ÇIKAR (iyileşme gibi görünür) ama artık ana listede açılır
+     #    ve kamera OSMANLI kutusuna uçar (app.js `haritayiOlayaGotur`) —
 diff --git a/arac/renk_olc.py b/arac/renk_olc.py
 index d83e7ad4..ab0860c7 100644
 --- a/arac/renk_olc.py

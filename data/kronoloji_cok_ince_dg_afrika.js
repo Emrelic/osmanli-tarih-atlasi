@@ -35,7 +35,7 @@ window.KRONOLOJI_COK_INCE_DG_AFRIKA = [
     yer_id:"Sennar", taraflar:["funj"], etiket:["konu-siyasi","hanedan"] },
 
   // ── NÛBE (MAKURYA-DOTAWO) — TDV "NÛBE" (tarih bölümü; müellif sayfada Nebi Bozkurt olarak görünüyor)
-  { t:"1286-01-01", k:"askeri", b:"Kalavun'un Nûbe seferleri başladı",
+  { t:"1286-01-01", k:"askeri", tur:"askeri", b:"Kalavun'un Nûbe seferleri başladı",
     gun:"(kaynak yıl aralığı verir: 685-688 / 1286-1289)", yer:"Dongola",
     kisiler:"Kalavun",
     d:"Nûbeliler vergiyi aksatınca Memlük Sultanı Kalavun 1286-1289 yıllarında, Mısır ve Aşağı Nûbe'ye yerleşmiş Arap kabilelerinin de katıldığı bir orduyu onların üzerine gönderdi.",
@@ -125,7 +125,7 @@ window.KRONOLOJI_COK_INCE_DG_AFRIKA = [
     kaynak:"TDV: veday (VEDÂY — Ahmet Kavas)",
     ic_not_t:"Saltanat 1805-1813; gün yok.",
     odak_kimlik:"vaday", taraflar:["vaday"], etiket:["konu-siyasi","hanedan"] },
-  { t:"1806-01-01", k:"askeri", b:"Vedây Sultanı Sâbûn Bagirmi başşehri Masinya'yı yağmaladı",
+  { t:"1806-01-01", k:"askeri", tur:"askeri", b:"Vedây Sultanı Sâbûn Bagirmi başşehri Masinya'yı yağmaladı",
     gun:"(kaynak yıl verir)", yer:"Masinya",
     kisiler:"Abdülkerîm Sâbûn, Abdurrahman Gavarang",
     d:"Sâbûn, Bagirmi Sultanı Abdurrahman Gavarang'ın İslâm'a uymayan hareketlerini gerekçe göstererek Bagirmi'ye sefer düzenledi, başşehir Masinya'ya girdi, şehri yağmalayıp halkını Vedây'a götürdü. TDV'ye göre Bagirmi bundan sonra Bornu ile Vedây arasındaki mücadelelerden etkilendi.",
@@ -139,7 +139,7 @@ window.KRONOLOJI_COK_INCE_DG_AFRIKA = [
     kaynak:"TDV: veday (VEDÂY — Ahmet Kavas); Britannica Editors, \"Wadai\"",
     ic_not_t:"Gün yok. Bagirmi'nin hâkimiyete alınış yılı kaynakta yok.",
     odak_kimlik:"vaday", taraflar:["vaday"], etiket:["konu-siyasi","hanedan"] },
-  { t:"1850-01-01", k:"idari", b:"Vedây başşehri Vârâ'dan Ebîşe'ye taşındı",
+  { t:"1850-01-01", k:"idari", tur:"idari", b:"Vedây başşehri Vârâ'dan Ebîşe'ye taşındı",
     gun:"(kaynak yıl verir)", yer:"Ebîşe",
     kisiler:"Muhammed eş-Şerîf",
     d:"Muhammed eş-Şerîf 1850'de Vârâ'dan ayrıldı ve 70 km güneyde, ticaret kervanlarının geçtiği bir arazideki Ebîşe'yi (Abeşe) başşehir edindi.",
@@ -162,7 +162,7 @@ window.KRONOLOJI_COK_INCE_DG_AFRIKA = [
     odak_kimlik:"vaday", taraflar:["vaday"], etiket:["konu-siyasi","hanedan"] },
 
   // ── LUNDA İMPARATORLUĞU — Britannica Editors, "Lunda empire"
-  { t:"1884-01-01", k:"askeri", b:"Portekiz birlikleri Angola'dan Lunda topraklarına girdi",
+  { t:"1884-01-01", k:"askeri", tur:"askeri", b:"Portekiz birlikleri Angola'dan Lunda topraklarına girdi",
     gun:"(kaynak yıl verir)", yer:"Musumba",
     d:"XIX. yüzyılın ortasında gücünün doruğuna ulaşan Lunda, ardından komşu Çokveların akınlarıyla zayıfladı. Britannica'ya göre Portekiz birlikleri 1884'te batıdan, Angola'dan geldi; Kongo Özgür Devleti'nden Belçikalılar 1898'de kuzeydoğudan girdi ve Lunda ikisi arasında paylaşıldı. Kongo Özgür Devleti'ne karşı gerilla savaşı, Lunda önderlerinin yakalanıp idam edildiği 1909'a kadar sürdü.",
     kaynak:"Britannica Editors, \"Lunda empire\", Encyclopaedia Britannica (çevrimiçi)",
@@ -185,14 +185,14 @@ window.KRONOLOJI_COK_INCE_DG_AFRIKA = [
     yer_id:"Mvansabombve (Kazembe)", taraflar:["kazembe"], etiket:["konu-siyasi"] },
 
   // ── NYAMVEZİ ŞEFLİKLERİ (MİRAMBO) — Britannica Editors, "Mirambo"
-  { t:"1876-01-01", k:"askeri", b:"Mirambo, Buganda ve Ucici kervan yollarını denetimine aldı",
+  { t:"1876-01-01", k:"askeri", tur:"askeri", b:"Mirambo, Buganda ve Ucici kervan yollarını denetimine aldı",
     gun:"(kaynak yıl aralığı verir: 1876-1880)", yer:"Urambo",
     kisiler:"Mirambo",
     d:"1870'lerde birbirinden ayrı Nyamvezi klanlarını güçlü bir krallıkta birleştiren Mirambo, 1876-1880 arasında kuzeybatıda Buganda'ya ve batıda Tanganika gölü kıyısındaki Ucici'ye giden ana yolları denetimine aldı. Başkenti Urambo, Tabora yakınındaki Unyanyembe Sevâhilî-Arap kolonisine rakip bir ticaret merkezi oldu.",
     kaynak:"Britannica Editors, \"Mirambo\", Encyclopaedia Britannica (çevrimiçi)",
     ic_not_t:"Kaynak '1876-1880' aralığı verir; t aralığın başıdır.",
     odak_kimlik:"nyamvezi", taraflar:["nyamvezi"], etiket:["konu-askeri","konu-ekonomi"] },
-  { t:"1880-01-01", k:"diplomasi", b:"Zengibar Sultanı Bargaş, Mirambo ile ittifakını bozdu",
+  { t:"1880-01-01", k:"diplomasi", tur:"diplomasi", b:"Zengibar Sultanı Bargaş, Mirambo ile ittifakını bozdu",
     gun:"(kaynak yıl verir)", yer:"Urambo",
     kisiler:"Mirambo, Bargaş",
     d:"1870'lerde Mirambo'yu destekleyen Zengibar sultanı Bargaş, 1880'de Belçika Kralı II. Leopold'ün desteklediği bir keşif heyetinin iki üyesi Mirambo'ya bağlı bir şef tarafından öldürülünce ittifaktan çekildi. Britannica'nın aktardığı bir kaynağa göre aynı yıl Araplar barış istedi ve vergi ödemeyi bile kabul etti.",

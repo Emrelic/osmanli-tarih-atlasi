@@ -34,7 +34,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   kaynak:"Dictionary of Canadian Biography, 'FROBISHER, Sir MARTIN' (vol. 1): \"In late August, natives came to the ship to trade meat and furs\"; beş adamın kaybı; yakalanan İnuk'un Londra'da ölümü",
   taraflar:["inuit","ingiltere"], etiket:["konu-kesif","konu-diplomasi"] },
 
-{ t:"1771-01-01", k:"din", b:"Moravya misyonerleri Labrador'da Nain'i kurdu",
+{ t:"1771-01-01", k:"din", tur:"din", b:"Moravya misyonerleri Labrador'da Nain'i kurdu",
   gun:"1771 (kaynak yıl verir)",
   ic_not_t:"The Canadian Encyclopedia 'Nain' yalnız yılı verir.",
   yer:"Nain (Labrador)", yer_id:"Nain (Labrador)", yer_kon:[56.54,-61.69],
@@ -50,14 +50,14 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["inuit","dene"], etiket:["konu-askeri","konu-kesif"] },
 
 // ── DENE (8.040) · KRİ (2.383) ──
-{ t:"1870-07-15", k:"idari", b:"Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi",
+{ t:"1870-07-15", k:"idari", tur:"idari", b:"Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi",
   gun:"15 Temmuz 1870 (The Canadian Encyclopedia)",
   yer:"Rupert's Land", odak_kimlik:["kri","dene"],
   d:"Hudson's Bay Company, 19 Kasım 1869'da imzaladığı devir senediyle bölgedeki haklarını İngiliz tacına bıraktı; taç da toprakları Kanada'ya verdi. Kızıl Irmak direnişi yüzünden gecikmeli olarak 15 Temmuz 1870'te yürürlüğe giren devirle Kri ve Dene yurtlarının büyük kısmı, halklara danışılmadan Kanada'nın idaresine geçti. Sonraki Numaralı Antlaşmalar (1871-1921) bu devrin sonucudur.",
   kaynak:"The Canadian Encyclopedia (Historica Canada), 'Rupert's Land': \"deed of transfer … on 19 November 1869\"; devir \"15 July 1870\"; bedel \"£300,000\"",
   taraflar:["kri","dene"], etiket:["konu-idari","konu-toprak"] },
 
-{ t:"1874-09-15", k:"antlasma", b:"4 Numaralı Antlaşma (Qu'Appelle) — Ova Krileri ve Saulteaux toprak devretti",
+{ t:"1874-09-15", k:"antlasma", tur:"antlasma", b:"4 Numaralı Antlaşma (Qu'Appelle) — Ova Krileri ve Saulteaux toprak devretti",
   gun:"15 Eylül 1874 (The Canadian Encyclopedia; görüşmeler 8 Eylül'de başladı — Encyclopedia of Saskatchewan)",
   yer:"Fort Qu'Appelle", yer_id:"Fort Qu'Appelle", yer_kon:[50.77,-103.79], kisiler:"Alexander Morris",
   d:"Kanada hükümeti adına Vali Alexander Morris başkanlığındaki komisyon, Fort Qu'Appelle'de Kri, Saulteaux ve Assiniboine önderleriyle görüştü. Günlerce süren gerginlikten sonra on üç şef antlaşmaya imza koydu ve bugünkü güney Saskatchewan'ın büyük kısmı ile komşu toprakları kapsayan yaklaşık 195.000 km² Kanada'ya bırakıldı. Karşılığında rezerv toprağı, yıllık ödeme, okul ve tarım aletleri vaat edildi.",
@@ -82,7 +82,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["sosoni"], etiket:["konu-askeri"] },
 
 // ── CREEK (1.286 · künye içi 4: 1813 · 1814 · 1814 · 1832) ──
-{ t:"1790-01-01", k:"antlasma", b:"New York Antlaşması — McGillivray Creek'in ulusal önderi olarak ABD ile antlaştı",
+{ t:"1790-01-01", k:"antlasma", tur:"antlasma", b:"New York Antlaşması — McGillivray Creek'in ulusal önderi olarak ABD ile antlaştı",
   gun:"1790 (kaynak yıl verir)",
   ic_not_t:"New Georgia Encyclopedia gün vermez.",
   yer:"New York", kisiler:"Alexander McGillivray", odak_kimlik:"creek-konfederasyonu",
@@ -90,7 +90,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   kaynak:"New Georgia Encyclopedia (Georgia Humanities / Univ. of Georgia Press), 'Creek Indians': \"The first treaty, the Treaty of New York, solidified Alexander McGillivray's position as a national leader of the Muscogee\"",
   taraflar:["creek-konfederasyonu"], etiket:["konu-diplomasi","konu-toprak"] },
 
-{ t:"1825-01-01", k:"antlasma", b:"Indian Springs Antlaşması — McIntosh Georgia'daki bütün Creek topraklarını devretti, meclis onu idama mahkûm etti",
+{ t:"1825-01-01", k:"antlasma", tur:"antlasma", b:"Indian Springs Antlaşması — McIntosh Georgia'daki bütün Creek topraklarını devretti, meclis onu idama mahkûm etti",
   gun:"1825 (kaynak yıl verir)",
   ic_not_t:"New Georgia Encyclopedia gün vermez; McIntosh'un ölüm günü de yazmaz.",
   yer:"Indian Springs (Georgia)", kisiler:"William McIntosh", odak_kimlik:"creek-konfederasyonu",
@@ -108,7 +108,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["hayda"], etiket:["konu-kesif","konu-ekonomi"] },
 
 // ── LAKOTA (610 · künye içi 4: 1281 · 1868 · 1876 · 1890) ──
-{ t:"1851-09-17", k:"antlasma", b:"Horse Creek (Birinci Fort Laramie) Antlaşması — Oglala ve Brulé Lakota imzaladı",
+{ t:"1851-09-17", k:"antlasma", tur:"antlasma", b:"Horse Creek (Birinci Fort Laramie) Antlaşması — Oglala ve Brulé Lakota imzaladı",
   gun:"17 Eylül 1851 (NPS)",
   yer:"Horse Creek (North Platte kıyısı)", yer_kon:[41.93,-103.98],
   d:"Göçmen yollarından güvenli geçişi sağlamak ve kabileler arası çatışmaları azaltmak için toplanan, Ova halklarının tarihteki en kalabalık buluşmasında 10.000'i aşkın kişi bulundu. Oglala ve Brulé Lakota altı şefle temsil edildi. Antlaşma kabilelere yıllık ödeme vaat ediyor, topraklarının sınırlarını çiziyordu. Ancak ABD Senatosu'nca hiçbir zaman onaylanmadı ve maddeleri hemen çiğnenmeye başladı.",
@@ -117,7 +117,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["lakota"], etiket:["konu-diplomasi","konu-toprak"] },
 
 // ── CHEROKEE (1.021 · künye içi 4: 1776 · 1777 · 1785 · 1791) ──
-{ t:"1775-01-01", k:"antlasma", b:"Sycamore Shoals'da Transilvanya Alımı — Dragging Canoe satışa karşı çıktı",
+{ t:"1775-01-01", k:"antlasma", tur:"antlasma", b:"Sycamore Shoals'da Transilvanya Alımı — Dragging Canoe satışa karşı çıktı",
   gun:"1775 (kaynak yıl verir)",
   ic_not_t:"Tennessee Encyclopedia ayı/günü vermez.",
   yer:"Sycamore Shoals (Watauga Irmağı)", yer_kon:[36.35,-82.24], kisiler:"Richard Henderson, Dragging Canoe",
