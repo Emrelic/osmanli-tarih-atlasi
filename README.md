@@ -1,9 +1,15 @@
-# Osmanlı Tarih Atlası (1299–1923)
+# Tarih Atlası
 
-Osmanlı İmparatorluğu'nun kuruluşundan Cumhuriyet'in ilanına kadar sınırlarının
-dönem dönem değişimini harita üzerinde, ay hassasiyetli bir zaman göstergesiyle
-izleten eğitim amaçlı web uygulaması. Yanında dönemin padişahı ve kronolojik
-olay akışı gösterilir; olay detayları TDV İslâm Ansiklopedisi maddelerine bağlanır.
+Zaman göstergesi ilerledikçe **devlet sınırlarının gün gün değiştiği**, yanında
+kronoloji ve dönemin hükümdarının aktığı eğitim amaçlı web uygulaması.
+Çekirdek katman Osmanlı **1281–1923**, gün hassasiyetinde; hedef bütün dünya
+(kademeli). Olay detayları TDV İslâm Ansiklopedisi maddelerine bağlanır.
+
+> **Ad 9 Ekim 2026'da değişti** (Emre: *"tarih atlası daha doğru"*): kapsam
+> Osmanlı'nın ötesine açıldığı için başlıktaki "Osmanlı" kaldırıldı. Çekirdek
+> katmanı anlatan yerlerde (lejant, künye metinleri) sözcük yerinde duruyor.
+> ⚠️ Eski başlık **"(1299–1923)"** diyordu; atlas 1299'da değil **1281**'de
+> başlıyor — ad düzeltilirken bu da düzeltildi.
 
 **Canlı site:** https://emrelic.github.io/osmanli-tarih-atlasi/
 
