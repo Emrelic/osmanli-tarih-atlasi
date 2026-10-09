@@ -1,0 +1,42 @@
+# DIVRIGI-MEMLUK-1008-EK — UYGULANMADI · yalnız 1281-1923 dilimi · gün aralığı 1398-01-01 → 1522-01-01 · -EK: olaylar_senkron_0930.js — 1400-08-01 Besni · 1414-01-01 / 1418-01-01 Darende maddeleri
+# İNİŞ SIRASI: DIVRIGI-MEMLUK-1008.diff'ten SONRA (aynı çapa satırını kullanır). KOORD diff'leriyle AYNI commit'te inmeli (kırılma + madde birlikte, §3.4-2).
+diff --git a/data/olaylar_senkron_0930.js b/data/olaylar_senkron_0930.js
+index d3a67ea8..42493cff 100644
+--- a/data/olaylar_senkron_0930.js
++++ b/data/olaylar_senkron_0930.js
+@@ -49,6 +49,35 @@ window.OLAYLAR_SENKRON_0930 = [
+   ic_not_kaynak:"TDV `divrigi` (Abdülkadir Balgalmış, 1994) gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008), birebir: \"Ancak Divriği yaklaşan Timur tehlikesinden dolayı 1401'de tekrar Memlükler'e verildi.\" · \"Divriği'nin kesin olarak Osmanlı idaresine girişi, Yavuz Sultan Selim'in 24 Ağustos 1516 Mercidâbık Zaferi'nden sonradır.\"",
+   ic_not_d:"0085/H-0005 · H-0009 · H-0010 (Emre: 'Timur Sivas'ı yerle bir ettikten sonra neden Divriği Memlük görünmeye başlıyor?'). Kırılma 1401-01-01'de VARDI ama bu yeri anan madde YOKTU: Değişmez 2 yer şartı aramadığı için ±30 gündeki ilgisiz bir madde (Diyarbekir 1401-01-01) kırılmayı kapatıyordu. 'Verildi' fiilinin öznesi kaynakta yok; Bayezid'in bırakması diye okunması TDV cümlesinin yorumu değil, 1398 maddesinin kendi anlatımıyla tutarlıdır." },
+ 
++{ t:"1400-08-01", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri","memluk"],
++  b:"Besni, Timur'un Sivas ve Malatya seferi sırasında Memlükler'e geçti",
++  gun:"1400 (TDV yıl verir) — gün komşudan: Sivas (olaylar_ek5 1400-08-01 'Ağustos 1400', kaynak TDV sivas)",
++  yer:"Besni (Behisni)", yer_id:"Behisni (Besni)",
++  kisiler:"Yıldırım Bayezid",
++  d:"Yıldırım Bayezid'in 1398'de Sivas, Darende ve Malatya ile birlikte aldığı Besni, 1400'de Timur Sivas ve Malatya'yı alırken Memlükler'in eline geçti. Timur 27 Eylül 1400'de şiddetli bir kuşatmadan sonra Besni'yi de zaptetti; o bölgeden çekilince Besni yeniden Memlük hâkimiyetine girdi ve 1516 Ağustosunda Yavuz Sultan Selim alana dek (Dulkadırlı bir ara dönem dışında) Memlük'te kaldı.",
++  kaynak:"besni", duygu:["😔"],
++  ic_not_kaynak:"TDV `besni` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Bu arada 1398’de Sivas, Dârende ve Malatya ile birlikte Osmanlı topraklarına katıldıysa da 1400’de Timur’un Sivas ve Malatya’yı zaptı sırasında Memlükler’in eline geçti. Ancak Timur 27 Eylül 1400’de şiddetli bir muhasaradan sonra burayı zaptetti. Onun bu yöreden çekilmesinden sonra tekrar Memlükler’in hâkimiyetine girdi.\"",
++  ic_not_d:"Timur'un 27 Eylül 1400 zaptı haritaya YAZILMADI: çekilişin günü kaynakta yok. Kırılma günü 1400-08-01 yalnız yıl+komşu günüdür." },
++
++{ t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
++  b:"Memlük Sultanı Şeyh, Antep ile Darende'yi Dulkadırlılar'dan geri aldı",
++  gun:"1414 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
++  yer:"Darende, Antep", yer_id:"Darende",
++  kisiler:"Memlük Sultanı Şeyh el-Mahmûdî, Dulkadıroğlu Nâsırüddin Mehmed Bey",
++  d:"Dulkadırlılar'ın Osmanlılar'la dostluğundan endişelenen Memlük Sultanı Şeyh 1414'te sefere çıktı; daha önce kendi rızasıyla Dulkadırlılar'a verdiği Antep ile Darende'yi geri aldı.",
++  kaynak:"dulkadirogullari", duygu:["⚔️"],
++  ic_not_kaynak:"TDV `dulkadirogullari` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Dulkadırlılar’ın Osmanlılar’la dostluk münasebetleri Memlükler’i endişelendirmeye başladı. Sultan Şeyh 1414 yılında sefere çıkarak daha önce kendi rızası ile verdiği Antep şehriyle Dârende’yi Dulkadırlılar’dan geri aldı.\"" },
++
++{ t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
++  b:"Dulkadıroğlu Mehmed Bey Darende'yi geri aldı, Besni'yi de topraklarına kattı",
++  gun:"1418 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
++  yer:"Darende, Besni", yer_id:"Darende",
++  kisiler:"Dulkadıroğlu Nâsırüddin Mehmed Bey",
++  d:"Memlükler'in 1414'te aldığı Darende'yi Dulkadıroğlu Mehmed Bey 1418'de geri aldı ve Besni'yi de topraklarına kattı.",
++  kaynak:"dulkadirogullari", duygu:["⚔️"],
++  ic_not_kaynak:"TDV `dulkadirogullari` gövdesi okundu (9 Ekim 2026), birebir: \"Fakat Mehmed Bey 1418’de Dârende’yi tekrar aldığı gibi Besni’yi de ülkesine kattı.\"",
++  ic_not_d:"⚠️ Besni'nin 1418 Dulkadır dönemi haritaya YAZILMADI: TDV besni yalnız 'Bir ara Dulkadıroğulları’nın idaresine tâbi oldu ise de XV. yüzyılın sonlarına doğru yeniden Memlükler’in eline geçti' der, BİTİŞ yılı yok. Madde Besni için kırılmasız kalır (Değişmez 2t ailesi) — bu bilinçli bir beyandır." },
++
+ { t:"1556-03-12", k:"fetih", etiket:["toprak-kazanc","konu-siyasi","erdel","habsburg"],
+   b:"Habsburg idaresi Erdel'de sona erdi: Erdel yeniden Osmanlı'ya bağlı voyvodalık oldu",
+   gun:"12 Mart 1556 — gün YERLESIM-BIRLESTIR-0930 kabulünün kaynağından devralındı (History of Transylvania I, MTA, s. 102); TDV `erdel` olayı anlatır ama TARİHLEMEZ",
