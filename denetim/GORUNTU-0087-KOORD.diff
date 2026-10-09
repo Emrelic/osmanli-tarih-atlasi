@@ -1,0 +1,13 @@
+diff --git a/data/yerlesimler_ek.js b/data/yerlesimler_ek.js
+index 86094eab..ce277f19 100644
+--- a/data/yerlesimler_ek.js
++++ b/data/yerlesimler_ek.js
+@@ -176,7 +176,7 @@ window.YERLESIMLER_EK = [
+ //    fiilen BAĞIMSIZ komün oldu. Şemada "bağımsız" kimliği yok ve Değişmez 1
+ //    sahipsizliğe izin vermiyor; bu yüzden 1371-1420 tek kalemde `macaristan`
+ //    yazıldı — Bosna ve bağımsızlık ara dönemleri MODELLENMEDİ.
+-{ ad:"Kotor (Cattaro)", tur:"liman", lat:42.421, lon:18.768, g:0, k:3, d:[],
++{ ad:"Kotor (Cattaro)", tur:"liman", lat:42.421, lon:18.768, g:1, k:3, d:[],
+     s:[{f:"1281-01-01",t:"1371-01-01",d:"sirbistan"},
+        {f:"1371-01-01",t:"1420-01-01",d:"macaristan"},
+        {f:"1420-01-01",t:"1797-10-17",d:"venedik"},
