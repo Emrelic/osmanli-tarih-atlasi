@@ -423,9 +423,15 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cebeliahdar'ın kuzey kıyısı (Batlamyus/Tolmeita).
+  // 🔴 BERKA-0087 (paket 0087 H-0015, koordinatör hükmü B · 9 Ekim 2026): eski
+  //   s:memluk 1281→1517-05-19 + d 1517-05-19'dan KAYNAKSIZDI (kayıtta kaynak alanı
+  //   YOK) ve 1517-05-19 Mısır Deltası'nın günüdür — Bingazi/Derne'de 12 Eylül'de
+  //   (KITA 15) düzeltilen "Sirenayka hiç Memlûk olmadı" anakronizminin bu dosyada
+  //   kalmış ikizi. Osmanlı günü kardeş noktalarla (Bingazi · Merc · Beyzâ ·
+  //   Ecdâbiye) aynı: 1551-08-15.
   { ad:"Tulmeyse", tur:"liman", lat:32.712, lon:20.951, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-    d:[{f:"1517-05-19",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // ⚠️ Konum taşındı — ilk yazım (32,507/23,117) Bomba körfezinin suyuna,
@@ -433,9 +439,11 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // 62 m ile yine dışarıda kaldı. Körfezin güney kıyısına çekildi.
   // 📌 Ders: maskenin verdiği "en yakın kara" noktası GÜVENLİ nokta değildir
   //    — tanımı gereği tam sınırın üstündedir. Denetim iki kez koşturuldu.
+  // 🔴 BERKA-0087 — Tulmeyse ile aynı (yukarı bak): memluk 1281→1517-05-19 + d 1517
+  //   kaynaksızdı. Osmanlı günü Derne ile aynı: 1551-08-15 (Tobruk 1556'da kalıyor).
   { ad:"Ayn el-Ğazâle (Bomba)", tur:"liman", lat:32.495, lon:23.120, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-    d:[{f:"1517-05-19",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 

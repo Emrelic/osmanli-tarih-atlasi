@@ -12,7 +12,8 @@ SEVK = ("H-0067 H-0070 H-0074 H-0081 H-0082 H-0083 H-0084 H-0085 H-0086 H-0087 "
         "H-0105 H-0109 H-0110 H-0112").split()
 assert len(SEVK) == 24
 
-t = io.open(r"C:\atlas\denetim\KRONO-0076-B.md", encoding="utf-8").read()
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+t = io.open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "KRONO-0076-B.md"), encoding="utf-8").read()
 m = re.search(r"## 3\. MADDE MADDE.*?(?=\n## )", t, re.S)
 if not m:
     print("🔴 §3 tablosu bulunamadi"); sys.exit(1)

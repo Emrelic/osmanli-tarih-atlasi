@@ -1,0 +1,1504 @@
+diff --git a/denetim/A-ASYA-0078-olc.py b/denetim/A-ASYA-0078-olc.py
+index 1daabb50..75f6f18c 100644
+--- a/denetim/A-ASYA-0078-olc.py
++++ b/denetim/A-ASYA-0078-olc.py
+@@ -12,6 +12,12 @@ import os
+ import sys
+ from collections import Counter
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ sys.path.insert(0, "arac")
+ import girdi  # noqa: E402
+diff --git a/denetim/ARAC-ANTLASMA-KAPSAM-0074.js b/denetim/ARAC-ANTLASMA-KAPSAM-0074.js
+index 244c8952..ab1c8fe2 100644
+--- a/denetim/ARAC-ANTLASMA-KAPSAM-0074.js
++++ b/denetim/ARAC-ANTLASMA-KAPSAM-0074.js
+@@ -14,8 +14,14 @@ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) ret
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+ const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+ IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+-  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
++  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
++// W32b (6 Ekim): ① PETEKLER 29 Eylül'den beri donemler_on.js'te — süzgeç eski
++// `donemler.js` adını arıyordu. ② Gövde boyutu ölçümü gitignore'lu petek_govde.js'i
++// İSTER; yoksa "0 KB · ×NaN" basıp çıkış 0 veriyordu. İkisi de artık çıkış 2.
++const OK_KAPI = require("./OLCU-KAPISI-1006.js");
++OK_KAPI.dosya(["data/petek_govde.js"]);
+ yukle("data/petek_govde.js");
++OK_KAPI.girdi(ctx, { PETEKLER: "data/donemler_on.js", PETEK_GOVDE: "data/petek_govde.js" });
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+diff --git a/denetim/ARAC-ANTLASMA-MALIYET-0074.js b/denetim/ARAC-ANTLASMA-MALIYET-0074.js
+index 8bf08eb2..1b1b6c6c 100644
+--- a/denetim/ARAC-ANTLASMA-MALIYET-0074.js
++++ b/denetim/ARAC-ANTLASMA-MALIYET-0074.js
+@@ -12,11 +12,16 @@ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) ret
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+ const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+ IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+-  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
++  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+-const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [], ANT = W.ANTLASMALAR || [], PET = W.PETEKLER || [];
++// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
++// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
++// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
++const OK_KAPI = require("./OLCU-KAPISI-1006.js");
++OK_KAPI.girdi(W, { PETEKLER: "data/donemler_on.js" });
++const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [], ANT = W.ANTLASMALAR || [], PET = W.PETEKLER;
+ IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+ const idxStr = i => { const d = new Date(i * 864e5); return String(d.getUTCFullYear()).padStart(4, "0") + "-" + String(d.getUTCMonth() + 1).padStart(2, "0") + "-" + String(d.getUTCDate()).padStart(2, "0"); };
+diff --git a/denetim/ARAC-C-NSEGMENT-0913.js b/denetim/ARAC-C-NSEGMENT-0913.js
+index 851324c9..724fdf6c 100644
+--- a/denetim/ARAC-C-NSEGMENT-0913.js
++++ b/denetim/ARAC-C-NSEGMENT-0913.js
+@@ -19,6 +19,9 @@
+ //      (dosyaya YAZILMAZ): KAYNAK hükmü + GAZETTEER koordinatı (GeoNames).
+ // ============================================================================
+ "use strict";
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ var fs = require("fs"), path = require("path"), cp = require("child_process");
+ var KOK = path.join(__dirname, "..");
+ var hata = 0;
+diff --git a/denetim/ARAC-D-RENK-0073-GOVDE.js b/denetim/ARAC-D-RENK-0073-GOVDE.js
+index 9a1d3457..62e66c31 100644
+--- a/denetim/ARAC-D-RENK-0073-GOVDE.js
++++ b/denetim/ARAC-D-RENK-0073-GOVDE.js
+@@ -2,6 +2,9 @@
+ // 🔴 parcaCoz (js/app.js:133) ile AYNI cozum: dnm.g -> DEVLET_PARCA_HALKA[p]
+ //    -> halka indeksleri -> DEVLET_PARCALAR[h].  (ilk denemede ters kurulmustu,
+ //    16/16 sehir sinavi X vermisti — D048 ailesi: sema tahmin edilmez, okunur.)
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ const fs = require('fs'), vm = require('vm');
+ const GUN = process.argv[2] || '1923-10-29';
+ const OUT = process.argv[3];
+diff --git a/denetim/ARAC-D-RENK-0073-MALIYET.js b/denetim/ARAC-D-RENK-0073-MALIYET.js
+index 240a81a4..85e43c8e 100644
+--- a/denetim/ARAC-D-RENK-0073-MALIYET.js
++++ b/denetim/ARAC-D-RENK-0073-MALIYET.js
+@@ -1,4 +1,7 @@
+ // MALIYET: hat verisi devreye girerse KAC govde kesiti yeniden hesaplanir?
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ const fs = require('fs'), vm = require('vm');
+ const SP = process.argv[2];
+ const sandbox = { window: {}, console };
+diff --git a/denetim/ARAC-DIKIS-0904-govde.js b/denetim/ARAC-DIKIS-0904-govde.js
+index 7d07ef6c..c1e1dd58 100644
+--- a/denetim/ARAC-DIKIS-0904-govde.js
++++ b/denetim/ARAC-DIKIS-0904-govde.js
+@@ -13,6 +13,9 @@
+ //    çalıştırılıyor. Kopyalasaydım iki tanım doğar ve bir gün ayrışırlardı
+ //    (`§11`: "bir bilgi iki yerde duruyorsa biri güncellenince öteki bayatlar").
+ 'use strict';
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js", "data/donemler.js"]);
+ const fs = require('fs');
+ const path = require('path');
+ 
+diff --git a/denetim/ARAC-GECIS-SURE-DAGILIM-0907.py b/denetim/ARAC-GECIS-SURE-DAGILIM-0907.py
+index 0238e14b..1191fdc6 100644
+--- a/denetim/ARAC-GECIS-SURE-DAGILIM-0907.py
++++ b/denetim/ARAC-GECIS-SURE-DAGILIM-0907.py
+@@ -25,6 +25,12 @@ import os
+ import subprocess
+ import sys
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ try:
+     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ except Exception:
+diff --git a/denetim/ARAC-GECIS-SURE-EKSEN-0907.py b/denetim/ARAC-GECIS-SURE-EKSEN-0907.py
+index c5b60499..d09de5cb 100644
+--- a/denetim/ARAC-GECIS-SURE-EKSEN-0907.py
++++ b/denetim/ARAC-GECIS-SURE-EKSEN-0907.py
+@@ -35,6 +35,12 @@ import subprocess
+ import sys
+ import time
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ try:
+     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ except Exception:
+diff --git a/denetim/ARAC-GEO-BICIM-0916.py b/denetim/ARAC-GEO-BICIM-0916.py
+index 922b16aa..ec61afe7 100644
+--- a/denetim/ARAC-GEO-BICIM-0916.py
++++ b/denetim/ARAC-GEO-BICIM-0916.py
+@@ -6,6 +6,12 @@ kapsadığı (hücre başına %) ve örtüşme parçalarının ortalama genişli
+ %'si yüksekse HÜCRE DÜZEYİ atama (devir/dolgu/bayat) sınıfı.
+ """
+ import json, math, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, box
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-BOYANMAYAN-0916.py b/denetim/ARAC-GEO-BOYANMAYAN-0916.py
+index d9f3c31f..725452c6 100644
+--- a/denetim/ARAC-GEO-BOYANMAYAN-0916.py
++++ b/denetim/ARAC-GEO-BOYANMAYAN-0916.py
+@@ -7,6 +7,12 @@ kayıt alanları (kur · bit · bos · kasitli_bosluk · k · s dönemi) · kün
+ kesimi; "dönem yok" çıkarsa sebep başka (künye/boya anahtarı/tâbi önceliği).
+ """
+ import json, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Point, Polygon
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-INCEHUCRE-0916.py b/denetim/ARAC-GEO-INCEHUCRE-0916.py
+index 13535284..17704646 100644
+--- a/denetim/ARAC-GEO-INCEHUCRE-0916.py
++++ b/denetim/ARAC-GEO-INCEHUCRE-0916.py
+@@ -5,6 +5,12 @@ Kutudaki her taban hücre: alan, Polsby-Popper, uzunluk/genişlik oranı
+ Ayrıca ikinci tur şerit taraması: açma yarıçapı 0,15° (≈17 km).
+ """
+ import json, math, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, box
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-KAFES-0916.py b/denetim/ARAC-GEO-KAFES-0916.py
+index a8bdc7c4..51a92d79 100644
+--- a/denetim/ARAC-GEO-KAFES-0916.py
++++ b/denetim/ARAC-GEO-KAFES-0916.py
+@@ -20,6 +20,12 @@ yeni boşluk ≤ kaldırılan_komsu'nun %15'i.
+    sonuç "reçete + tazelik" birleşiminin üst sınırıdır.
+ """
+ import json, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, box, shape
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-KIYI-0916.py b/denetim/ARAC-GEO-KIYI-0916.py
+index 6ab41273..bdd57944 100644
+--- a/denetim/ARAC-GEO-KIYI-0916.py
++++ b/denetim/ARAC-GEO-KIYI-0916.py
+@@ -9,6 +9,12 @@
+ (c) 1392 Maraş kutusu: hangi gövdeler, uzun düz kenar, altındaki hücreler.
+ """
+ import json, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Point, Polygon, box, shape
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-RECETE-0916.py b/denetim/ARAC-GEO-RECETE-0916.py
+index 41fe8a98..7a7a8e7f 100644
+--- a/denetim/ARAC-GEO-RECETE-0916.py
++++ b/denetim/ARAC-GEO-RECETE-0916.py
+@@ -14,6 +14,12 @@ REÇETE: KAPAMA_FIX = kapat(U) − (o gün BAŞKA bir sahibi olan hücreler).
+             kapamayı öldürüyor demektir)
+ """
+ import json, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, box, Point
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-SERIT-0916.py b/denetim/ARAC-GEO-SERIT-0916.py
+index a76d6906..eab86180 100644
+--- a/denetim/ARAC-GEO-SERIT-0916.py
++++ b/denetim/ARAC-GEO-SERIT-0916.py
+@@ -10,6 +10,12 @@ içindeyse B2.
+ ÇÜRÜTÜCÜ: şerit bant dışındaysa sebep başka (PUAN ızgarası · petek kenarı).
+ """
+ import json, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, box
+ KOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+diff --git a/denetim/ARAC-GEO-TASMA-0916.py b/denetim/ARAC-GEO-TASMA-0916.py
+index 376011c2..269c4b42 100644
+--- a/denetim/ARAC-GEO-TASMA-0916.py
++++ b/denetim/ARAC-GEO-TASMA-0916.py
+@@ -19,6 +19,12 @@ H-0102/H-0109 bantları B2.
+    kovadadır (DEVİR/DOLGU), kusur sayılmaz.
+ """
+ import json, math, os, re, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Point, Polygon, box
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-TUR2-0916.py b/denetim/ARAC-GEO-TUR2-0916.py
+index 9dacd4d7..65c340d7 100644
+--- a/denetim/ARAC-GEO-TUR2-0916.py
++++ b/denetim/ARAC-GEO-TUR2-0916.py
+@@ -12,6 +12,12 @@ Her vaka (madde, gün, kutu) için:
+ Kullanım: py denetim/ARAC-GEO-TUR2-0916.py → denetim/OLCUM-GEO-TUR2-0916.json
+ """
+ import json, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, box, shape
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GEO-UCGEN-0916.py b/denetim/ARAC-GEO-UCGEN-0916.py
+index e85fb1d7..0d6a2da1 100644
+--- a/denetim/ARAC-GEO-UCGEN-0916.py
++++ b/denetim/ARAC-GEO-UCGEN-0916.py
+@@ -6,6 +6,12 @@ var mı, ve o gün hangi gövde(ler) onu boyuyor? Ayrıca Osmanlı katmanları
+ (o · v · h) kendi aralarında örtüşüyor mu (ARAC-GEO-OLCUM bu çifti atlıyordu).
+ """
+ import json, math, os, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js", "data/petek_govde.js"])
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Point, Polygon, box
+ from shapely.ops import unary_union
+diff --git a/denetim/ARAC-GOVDE-KIYAS-0922.py b/denetim/ARAC-GOVDE-KIYAS-0922.py
+index ce6057e7..4316d011 100644
+--- a/denetim/ARAC-GOVDE-KIYAS-0922.py
++++ b/denetim/ARAC-GOVDE-KIYAS-0922.py
+@@ -37,6 +37,12 @@ import re
+ import subprocess
+ import sys
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ HED = os.path.join(KOK, "data", "devletler_harita.js")
+ ONEK = "window.DEVLET_HARITA = "
+diff --git a/denetim/ARAC-HALKA-SINA-0913.js b/denetim/ARAC-HALKA-SINA-0913.js
+index ddf6336b..0ebaf850 100644
+--- a/denetim/ARAC-HALKA-SINA-0913.js
++++ b/denetim/ARAC-HALKA-SINA-0913.js
+@@ -12,6 +12,9 @@
+ //   ⑥ D010 — İKİ YÖNLÜ: bilerek bozuk 6 kayıt enjekte edilir, 6'sının da yakalanması şart
+ // Kullanım: node denetim/ARAC-HALKA-SINA-0913.js [1595-06-15 ...]
+ // ⚠️ Atlas dönemi OKUNMAZ — halka atlastan bağımsızdır (§4). Yerleşim havuzu yalnız AD çözümü için.
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ const fs = require("fs"), path = require("path");
+ const KOK = path.join(__dirname, "..");
+ const oku = f => fs.readFileSync(path.join(KOK, f), "utf8");
+diff --git a/denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py b/denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py
+index 11e55353..b74583d9 100644
+--- a/denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py
++++ b/denetim/ARAC-HARITA-DURUM-0074-CAKISMA.py
+@@ -18,6 +18,12 @@ from shapely.ops import unary_union
+ from shapely.strtree import STRtree
+ from shapely import make_valid
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DATA = os.path.join(KOK, "data")
+ 
+diff --git a/denetim/ARAC-HARITA-DURUM-0074-PARCA.py b/denetim/ARAC-HARITA-DURUM-0074-PARCA.py
+index 8c4b72b9..8fad742b 100644
+--- a/denetim/ARAC-HARITA-DURUM-0074-PARCA.py
++++ b/denetim/ARAC-HARITA-DURUM-0074-PARCA.py
+@@ -8,6 +8,12 @@ Cikti: denetim/HARITA-DURUM-0074-PARCA.json
+ """
+ import io, os, sys, json
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+ def _satir_json(yol, degisken):
+diff --git a/denetim/ARAC-ISY-OLCUM-0913.js b/denetim/ARAC-ISY-OLCUM-0913.js
+index f03db9a9..f8658ce5 100644
+--- a/denetim/ARAC-ISY-OLCUM-0913.js
++++ b/denetim/ARAC-ISY-OLCUM-0913.js
+@@ -16,11 +16,16 @@ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+ const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+ const bagli = IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/);
+ console.log("index.html'de data/isyan_tarama.js bağlı:", bagli.indexOf("data/isyan_tarama.js") >= 0);
+-bagli.filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js|isyan_tarama/.test(s)).forEach(yukle);
++bagli.filter(s => /olaylar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js|isyan_tarama/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+-const Y = W.YERLESIMLER, PET = W.PETEKLER || [], IT = W.ISYAN_TARAMA;
++// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
++// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
++// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
++const OK_KAPI = require("./OLCU-KAPISI-1006.js");
++OK_KAPI.girdi(W, { PETEKLER: "data/donemler_on.js", ISYAN_TARAMA: "data/isyan_tarama.js" });
++const Y = W.YERLESIMLER, PET = W.PETEKLER, IT = W.ISYAN_TARAMA;
+ IK.yerlesimKapisi(Y);
+ const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });
+ const petAd = {}; PET.forEach((p, i) => { if (p && p.a) petAd[p.a] = i; });
+@@ -58,6 +63,9 @@ const GUNLER = ["1594-10-05", "1594-12-01", "1595-11-01", "1600-06-01", "1601-10
+ //    Artık app.js'in okuduğu AYNI yol sınanıyor: PETEK_GOVDE[pi] boş değil VE parçalar var.
+ yukle("data/petek_govde.js");
+ const GOV = W.PETEK_GOVDE, PARCA = W.PETEK_GOVDE_PARCA;
++// W32b: gövde geometrisi gitignore'lu petek_govde.js'te. Yoksa "peteksiz" sayısı
++// HER yerleşimi peteksiz sayıyordu (sessiz yanlış). Alt ölçüm KOVAYA, betik sürer, sonda çıkış 2.
++if (!GOV || !PARCA || !GOV.length) OK_KAPI.kova("⑤ gövde geometrisi (data/petek_govde.js · üret: " + OK_KAPI.COZ["data/petek_govde.js"] + ")");
+ console.log("  PETEK_GOVDE", GOV ? GOV.length : "YOK", "· PARCA", PARCA ? PARCA.length : "YOK",
+   "· PETEKLER[0] alanları:", PET[0] ? Object.keys(PET[0]).join(",") : "—");
+ const geoVar = ad => { const pi = petAd[ad]; const ix = (pi === undefined || !GOV) ? null : GOV[pi]; return !!(ix && ix.length && ix.every(j => PARCA[j] && PARCA[j].length)); };
+@@ -104,4 +112,5 @@ const OL = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Arr
+   const akt = SG.isyanAktif(IT, m.t).map(p => p.id);
+   console.log(" ", m.t, bul.length === 1 ? "✓" : "✗ " + bul.length, m.b, "· o gün taralı:", akt.join(", ") || "—");
+ });
++OK_KAPI.bitir(sorun ? 1 : 0);   // W32b: ölçülemeyen alt ölçüm varsa 2 (ihlal varsa 1, kova yine basılır)
+ process.exit(sorun ? 1 : 0);
+diff --git a/denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js b/denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js
+index 5e6ee3ca..1377efa8 100644
+--- a/denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js
++++ b/denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js
+@@ -6,6 +6,9 @@
+ //
+ //   node denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js
+ 
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ const fs = require("fs");
+ const path = require("path");
+ const KOK = path.resolve(__dirname, "..");
+diff --git a/denetim/ARAC-OK-RENK-0072.js b/denetim/ARAC-OK-RENK-0072.js
+index 261bfd82..24054a15 100644
+--- a/denetim/ARAC-OK-RENK-0072.js
++++ b/denetim/ARAC-OK-RENK-0072.js
+@@ -19,10 +19,22 @@ const KOK = path.resolve(__dirname, '..');
+ const html = fs.readFileSync(path.join(KOK, 'index.html'), 'utf8');
+ const src = [...html.matchAll(/<script src="(data\/[^"?]+)(\?[^"]*)?"><\/script>/g)].map(m => m[1]);
+ global.window = global;
++const yuklenemeyen = [];
+ for (const f of src) {
+   const p = path.join(KOK, f);
+-  if (fs.existsSync(p)) { try { vm.runInThisContext(fs.readFileSync(p, 'utf8'), { filename: f }); } catch (e) { } }
++  if (fs.existsSync(p)) { try { vm.runInThisContext(fs.readFileSync(p, 'utf8'), { filename: f }); } catch (e) { yuklenemeyen.push(f + ': ' + e.message.slice(0, 60)); } }
++  else yuklenemeyen.push(f + ': YOK');
+ }
++// W32 (6 Ekim): sessiz `catch (e) { }` yükleme hatalarını YUTUYORDU. Artık sayılıp
++// basılıyor (acilis_siluet.js `document` ister — tarayıcı dışı beklenen gürültü).
++if (yuklenemeyen.length) console.error('yüklenemeyen ' + yuklenemeyen.length + ': ' + yuklenemeyen.join(' · '));
++// T1 — `DEVLET_HARITA || []` boşa düşerse her `devlet` oku SESSİZCE 'varsayilan'
++// renge kayar ve JSON yanlış dağılım yazar. Tarayıcıda DEVLET_HARITA kodlanmış
++// `devlet_harita_ust.js`ten gelir (üretilmiş `devletler_harita.js` GEREKMEZ).
++const OK_KAPI = require('./OLCU-KAPISI-1006.js');
++OK_KAPI.girdi(global, { DEVLET_HARITA: 'data/devlet_harita_ust.js' });
++if (!Object.keys(global).some(k => /^SEFERLER(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(global[k]) && global[k].length))
++  OK_KAPI.olculemedi('T1 girdi yok/boş: SEFERLER* (data/seferler*.js)');
+ 
+ // app.js:8534 `koyuTon` ile BİREBİR aynı hesap (kopya değil, sınav için taklit —
+ // ölçümün uygulamadan ayrışmaması için formül buraya yazıldı ve farkı olursa
+@@ -44,7 +56,7 @@ function lum(h) {
+ function kontrast(a, b) { const l1 = lum(a), l2 = lum(b); const [x, y] = l1 > l2 ? [l1, l2] : [l2, l1]; return +((x + 0.05) / (y + 0.05)).toFixed(2); }
+ 
+ const DR = {};
+-(global.DEVLET_HARITA || []).forEach(d => { if (d && d.id) DR[d.id] = d.renk; });
++global.DEVLET_HARITA.forEach(d => { if (d && d.id) DR[d.id] = d.renk; });
+ const OSMANLI = '#8e0b22';
+ 
+ const oklar = [];
+diff --git a/denetim/ARAC-PETEKSIZ-0905.js b/denetim/ARAC-PETEKSIZ-0905.js
+index 8b30875f..166cf529 100644
+--- a/denetim/ARAC-PETEKSIZ-0905.js
++++ b/denetim/ARAC-PETEKSIZ-0905.js
+@@ -28,6 +28,9 @@
+ //   `§5`in "hangi dosya CANLI — tek doğru kaynak girdi.py" kuralına uyar.
+ // ============================================================================
+ 'use strict';
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/donemler.js"]);
+ const fs = require('fs');
+ const path = require('path');
+ const kok = process.cwd();
+diff --git a/denetim/ARAC-SINIR-DIS-0070.py b/denetim/ARAC-SINIR-DIS-0070.py
+index bba77b8b..3ff43eff 100644
+--- a/denetim/ARAC-SINIR-DIS-0070.py
++++ b/denetim/ARAC-SINIR-DIS-0070.py
+@@ -23,6 +23,12 @@ import math
+ import sys
+ import os
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/donemler.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ DONEMLER_JS = os.path.join(KOK, "data", "donemler.js")
+ 
+diff --git a/denetim/ARAC-UI2-FARK-0913.js b/denetim/ARAC-UI2-FARK-0913.js
+index ed1cad88..ed6289a3 100644
+--- a/denetim/ARAC-UI2-FARK-0913.js
++++ b/denetim/ARAC-UI2-FARK-0913.js
+@@ -14,12 +14,17 @@ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) ret
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+ const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+ IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+-  .filter(s => /olaylar|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
++  .filter(s => /olaylar|savaslar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
+ ["kaynakli_halka_ferhatpasa", "kaynakli_halka_tekil", "kaynakli_halka_kronoloji", "kaynakli_halka_fetih"].forEach(a => yukle("data/" + a + ".js"));
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+-const Y = W.YERLESIMLER, PET = W.PETEKLER || [], KUNYE = W.DEVLETLER || [];
++// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
++// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
++// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
++const OK_KAPI = require("./OLCU-KAPISI-1006.js");
++OK_KAPI.girdi(W, { PETEKLER: "data/donemler_on.js" });
++const Y = W.YERLESIMLER, PET = W.PETEKLER, KUNYE = W.DEVLETLER || [];
+ IK.yerlesimKapisi(Y);
+ const KIX = {}; KUNYE.forEach(k => { if (k && k.id) KIX[k.id] = k; });
+ const petAd = {}; PET.forEach((p, i) => { if (p && p.a) (petAd[p.a] = petAd[p.a] || []).push(i); });
+diff --git a/denetim/ARAC-UI3-OLCUM-0914.js b/denetim/ARAC-UI3-OLCUM-0914.js
+index f5e4f385..d7e6339c 100644
+--- a/denetim/ARAC-UI3-OLCUM-0914.js
++++ b/denetim/ARAC-UI3-OLCUM-0914.js
+@@ -16,10 +16,15 @@ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) ret
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+ const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+ IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+-  .filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
++  .filter(s => /olaylar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
++// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
++// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
++// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
++const OK_KAPI = require("./OLCU-KAPISI-1006.js");
++OK_KAPI.girdi(W, { DONEMLER: "data/donemler_ust.js" });
+ const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [];
+ IK.yerlesimKapisi(Y);
+ const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
+diff --git a/denetim/ARAC-VL-SINAV-0907.py b/denetim/ARAC-VL-SINAV-0907.py
+index c9888dbe..3dee33d1 100644
+--- a/denetim/ARAC-VL-SINAV-0907.py
++++ b/denetim/ARAC-VL-SINAV-0907.py
+@@ -8,6 +8,12 @@
+             hucresinden alinir ve o ancak motor kosarken vardir.
+             ⇒ konum icin damga: OLCULEMEDI (kosu bitince donemler.js'ten).
+ 
++🔴 BEYAN (koordinator hukmu, 6 Ekim 2026 · UMIT-W32b): capa konumu ÖLÇÜLMEZ
++   (tasarim), bu yuzden bu betik HER KOSUDA CIKIS 2 verir. Bu bir ariza ya da
++   eksik girdi DEGILDIR; 2, "bu sinav sorunun bir parcasini sormuyor" demektir.
++   Gruplama kismi (SINAR) temizse cikti "SINAR" bolumunu yine eksiksiz basar.
++   Kalkmasi icin konum olcumu (donemler.js Voronoi) bu betige eklenmelidir.
++
+ CLAUDE.md §11: "bir aleti taklit eden olcum onun ESIGINI de tasimali."
+ Burada esik yok ama EVREN var: motor `tabi` kumesini EKLEYICI KAPI ile
+ genisletiyor; bu simulasyon o genislemeyi YAPMAZ, yani gercek `tabi`
+@@ -70,4 +76,11 @@ for y in Y:
+ print("KULLIYAT: adsiz `v:` donemi %d · statusuz %d" % (adsiz, statusuz))
+ print("  ⇒ adsizlar ETIKET URETMEZ (kod onlari eliyor)")
+ print("  ⇒ statusuzler 'vassal' varsayilir (hukmun kendi kurali)")
+-print("\n⚪ OLCULEMEDI: capanin KONUMU — gercek Voronoi hucresi gerekiyor.")
++# W32b (6 Ekim 2026): T5 — "OLCULEMEDI" yazip CIKIS 0 vermek yasak (denetle.py 4 Ekim
++# kurali). Konum bu betikte HIC olculmuyor ⇒ betik her kosuda 2 verir; bu bir BEYANDIR,
++# ariza degil. Kalkmasi icin konum olcumu (donemler.js Voronoi) eklenmeli.
++import olcu_kapisi_1006 as _w32_ok
++print()
++_w32_ok.kova("capa konumu ÖLÇÜLMEZ (tasarim) — bu betik her kosuda 2 verir; "
++             "BEYAN, ariza degil (gercek Voronoi hucresi gerekir · dosya basi BEYAN)")
++_w32_ok.bitir()
+diff --git a/denetim/ARAC-YUK-BOLME-0925.py b/denetim/ARAC-YUK-BOLME-0925.py
+index fb4ec39c..d238ab4d 100644
+--- a/denetim/ARAC-YUK-BOLME-0925.py
++++ b/denetim/ARAC-YUK-BOLME-0925.py
+@@ -16,6 +16,12 @@ Olculenler:
+ Cikti: denetim/YUK-BOLME-0925.json
+ """
+ import gzip, json, os, re, sys, time
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js"])
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ T0 = time.time()
+diff --git a/denetim/ARAC-YUK-YAPI-0925.py b/denetim/ARAC-YUK-YAPI-0925.py
+index a14826cf..0d80de1f 100644
+--- a/denetim/ARAC-YUK-YAPI-0925.py
++++ b/denetim/ARAC-YUK-YAPI-0925.py
+@@ -2,6 +2,12 @@
+ """YUK-BOLME-0925 — geometri dosyalarinin YAPISI: hangi window.X, kac bayt, kac oge,
+ ilk kayitlarin anahtarlari. Buyuk dosya Read ile acilmaz; burada bir kez okunur."""
+ import json, os, re, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js"])
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+diff --git a/denetim/ARAC-YUKLEME-0072-DILIM.py b/denetim/ARAC-YUKLEME-0072-DILIM.py
+index 30ab9bf6..35bfba0d 100644
+--- a/denetim/ARAC-YUKLEME-0072-DILIM.py
++++ b/denetim/ARAC-YUKLEME-0072-DILIM.py
+@@ -11,6 +11,12 @@ Cikti: denetim/YUKLEME-0072-DILIM.json
+ """
+ import json, os, re, sys
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js"])
+ sys.stdout.reconfigure(encoding='utf-8')
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, 'denetim'))
+diff --git a/denetim/ARAC-YUKLEME-0072-DP2.py b/denetim/ARAC-YUKLEME-0072-DP2.py
+index 5b324093..e71474bd 100644
+--- a/denetim/ARAC-YUKLEME-0072-DP2.py
++++ b/denetim/ARAC-YUKLEME-0072-DP2.py
+@@ -4,6 +4,12 @@ Ayrica altlik.js icin ONDALIK KIRPMA kazanci (o dosya 6+ ondalik tasiyor).
+ Cikti: denetim/YUKLEME-0072-DP2.json
+ """
+ import json, math, os, random, re, sys
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ sys.stdout.reconfigure(encoding='utf-8')
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
+diff --git a/denetim/ARAC-YUKLEME-0072-KALDIRAC.py b/denetim/ARAC-YUKLEME-0072-KALDIRAC.py
+index 92264095..45aa9825 100644
+--- a/denetim/ARAC-YUKLEME-0072-KALDIRAC.py
++++ b/denetim/ARAC-YUKLEME-0072-KALDIRAC.py
+@@ -9,6 +9,12 @@ Cikti: denetim/YUKLEME-0072-KALDIRAC.json
+ """
+ import json, math, os, re, sys
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js", "data/donemler.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ D = lambda *p: os.path.join(KOK, *p)
+ 
+diff --git a/denetim/ODAK-AFRIKA-AMERIKA-0080-uygula.py b/denetim/ODAK-AFRIKA-AMERIKA-0080-uygula.py
+index d8034db7..59d3e9d7 100644
+--- a/denetim/ODAK-AFRIKA-AMERIKA-0080-uygula.py
++++ b/denetim/ODAK-AFRIKA-AMERIKA-0080-uygula.py
+@@ -231,6 +231,11 @@ def main():
+     once, sonra = Counter(), Counter()          # app'e göre öngörü (seçilen gruplar)
+     olc_once, olc_sonra = Counter(), Counter()  # arac/odak_olc.py'ye göre
+     import odak_olc
++    # W32b (6 Ekim 2026): T4 — sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++    # betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++    # veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++    import olcu_kapisi_1006 as _w32_ok
++    _w32_ok.api(odak_olc, ['sinifla', 'yer_havuzu'], "odak_olc")
+     havuz = odak_olc.yer_havuzu()
+ 
+     dosyalar = sorted(set(o["dosya"] for o in oneriler))
+diff --git a/denetim/ODAK-AVRUPA-BATI-0080-dokum.py b/denetim/ODAK-AVRUPA-BATI-0080-dokum.py
+index 029add23..94ac7219 100644
+--- a/denetim/ODAK-AVRUPA-BATI-0080-dokum.py
++++ b/denetim/ODAK-AVRUPA-BATI-0080-dokum.py
+@@ -6,6 +6,11 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ import odak_olc as O
++# W32b (6 Ekim 2026): T4 — _oku · sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.api(O, ['_oku', 'sinifla', 'yer_havuzu'], "odak_olc")
+ 
+ DOSYALAR = ["kronoloji_sinir_avrupa_bati.js", "kronoloji_almanya.js",
+             "kronoloji_portekiz.js", "kronoloji_hollanda.js", "kronoloji_ispanya.js",
+diff --git a/denetim/ODAK-AVRUPA-BATI-0080-uygula.py b/denetim/ODAK-AVRUPA-BATI-0080-uygula.py
+index 12861d15..56fcf3bd 100644
+--- a/denetim/ODAK-AVRUPA-BATI-0080-uygula.py
++++ b/denetim/ODAK-AVRUPA-BATI-0080-uygula.py
+@@ -48,6 +48,11 @@ ONERI = json.load(io.open(os.path.join(KOK, "denetim", "ODAK-AVRUPA-BATI-0080-on
+                           encoding="utf-8"))
+ SINA = os.path.join(KOK, "denetim", "ODAK-AVRUPA-BATI-0080-sina.js")
+ import odak_olc                                   # noqa: E402 — sınıflayıcı BİREBİR onunki
++# W32b (6 Ekim 2026): T4 — sinifla 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.api(odak_olc, ['sinifla'], "odak_olc")
+ ONGORU = {"ODAKSIZ": [0, 0], "BEYANLI": [0, 0]}
+ YENI_ALANLAR = ("yer_id", "yer_kon", "odak_yer", "odak_kimlik")
+ 
+diff --git a/denetim/ODAK-BALKAN-0080-dokum.py b/denetim/ODAK-BALKAN-0080-dokum.py
+index c72a477e..bce90e08 100644
+--- a/denetim/ODAK-BALKAN-0080-dokum.py
++++ b/denetim/ODAK-BALKAN-0080-dokum.py
+@@ -7,6 +7,11 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ import odak_olc as O
++# W32b (6 Ekim 2026): T4 — _oku · sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.api(O, ['_oku', 'sinifla', 'yer_havuzu'], "odak_olc")
+ 
+ DOSYALAR = ["kronoloji_balkan.js", "kronoloji_sirbistan.js", "kronoloji_bizans.js",
+             "kronoloji_rodos_sovalyeleri.js", "kronoloji_atina_dukaligi.js"]
+diff --git a/denetim/ODAK-BALKAN-0080-uygula.py b/denetim/ODAK-BALKAN-0080-uygula.py
+index f8b7be2f..ff3a64cf 100644
+--- a/denetim/ODAK-BALKAN-0080-uygula.py
++++ b/denetim/ODAK-BALKAN-0080-uygula.py
+@@ -336,6 +336,11 @@ def main():
+ 
+     # öngörü: yeni metni odak_olc.sinifla ile yeniden sınıfla
+     import odak_olc as OL
++    # W32b (6 Ekim 2026): T4 — _oku · sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++    # betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++    # veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++    import olcu_kapisi_1006 as _w32_ok
++    _w32_ok.api(OL, ['_oku', 'sinifla', 'yer_havuzu'], "odak_olc")
+     havuz = OL.yer_havuzu()
+     print("\nÖNGÖRÜ (odak_olc.sinifla — bugünkü alet; tek-kimlik C maddeleri alette ODAKSIZ görünür):")
+     td = tempfile.mkdtemp(prefix="odak_balkan_on_")
+diff --git a/denetim/ODAK-DOGU-ISLAM-0080-uygula.py b/denetim/ODAK-DOGU-ISLAM-0080-uygula.py
+index 32121386..b6d05d10 100644
+--- a/denetim/ODAK-DOGU-ISLAM-0080-uygula.py
++++ b/denetim/ODAK-DOGU-ISLAM-0080-uygula.py
+@@ -812,6 +812,11 @@ def main():
+     # + ÖNGÖRÜ: arac/odak_olc.py'nin KENDİ sinifla()'sı ile dosya başına önce/sonra
+     import tempfile
+     import odak_olc
++    # W32b (6 Ekim 2026): T4 — sinifla 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++    # betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++    # veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++    import olcu_kapisi_1006 as _w32_ok
++    _w32_ok.api(odak_olc, ['sinifla'], "odak_olc")
+     print()
+     print("ÖNGÖRÜ — arac/odak_olc.py sinifla() ile, dosyanın TÜM maddeleri (koordinatörün sınavı):")
+     print("  %-34s %14s %14s" % ("dosya", "ODAKSIZ önce→sonra", "BEYANLI önce→sonra"))
+diff --git a/denetim/ODAK-OSMANLI-ANADOLU-0080-dok.py b/denetim/ODAK-OSMANLI-ANADOLU-0080-dok.py
+index 4840507f..42014fa9 100644
+--- a/denetim/ODAK-OSMANLI-ANADOLU-0080-dok.py
++++ b/denetim/ODAK-OSMANLI-ANADOLU-0080-dok.py
+@@ -11,6 +11,11 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ import odak_olc  # noqa: E402
++# W32b (6 Ekim 2026): T4 — _oku · sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.api(odak_olc, ['_oku', 'sinifla', 'yer_havuzu'], "odak_olc")
+ 
+ DOSYALAR = ["kronoloji_anadolu.js", "kronoloji_macaristan.js", "olaylar_p0068b.js",
+             "olaylar_p0917taraf.js", "olaylar_p0063.js", "olaylar_ek4.js",
+diff --git a/denetim/ODAK-OSMANLI-ANADOLU-0080-olcer-sinav.py b/denetim/ODAK-OSMANLI-ANADOLU-0080-olcer-sinav.py
+index d6970227..e1bc327c 100644
+--- a/denetim/ODAK-OSMANLI-ANADOLU-0080-olcer-sinav.py
++++ b/denetim/ODAK-OSMANLI-ANADOLU-0080-olcer-sinav.py
+@@ -16,6 +16,11 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ import odak_olc  # noqa: E402
++# W32b (6 Ekim 2026): T4 — _oku · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.api(odak_olc, ['_oku', 'yer_havuzu'], "odak_olc")
+ 
+ havuz = odak_olc.yer_havuzu()
+ aday = []
+diff --git a/denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py b/denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py
+index f4d1d735..bacf6cf7 100644
+--- a/denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py
++++ b/denetim/ODAK-OSMANLI-ANADOLU-0080-uygula.py
+@@ -34,6 +34,11 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ import odak_olc  # noqa: E402
++# W32b (6 Ekim 2026): T4 — _oku · sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
++# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
++# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.api(odak_olc, ['_oku', 'sinifla', 'yer_havuzu'], "odak_olc")
+ 
+ UYGULA = "--uygula" in sys.argv
+ KG_KALDIR = "--kg-kaldir" in sys.argv
+diff --git a/denetim/OK-RENK-KAPI-SINAV-1006.js b/denetim/OK-RENK-KAPI-SINAV-1006.js
+new file mode 100644
+index 00000000..6aa4ac61
+--- /dev/null
++++ b/denetim/OK-RENK-KAPI-SINAV-1006.js
+@@ -0,0 +1,46 @@
++// OK-RENK-KAPI-SINAV-1006 — ARAC-OK-RENK-0072'nin T1 kapısı + OLCU-KAPISI-1006.girdi,
++// İKİ YÖNDE (salt okuma; her dal ayrı süreç çünkü ölçülemedi dalı process.exit(2)).
++//   node denetim/OK-RENK-KAPI-SINAV-1006.js      çıkış 0 geçti · 1 kaldı
++"use strict";
++const cp = require("child_process"), path = require("path");
++const KOK = path.join(__dirname, "..");
++const BETIK = path.join(__dirname, "ARAC-OK-RENK-0072.js");
++let gecti = 0, kaldi = 0;
++const sina = (ad, sart, detay) => {
++  if (sart) { gecti++; console.log("  ✓ " + ad); }
++  else { kaldi++; console.log("  ✗ " + ad + (detay ? "  — " + detay : "")); }
++};
++const kos = (args, env) => cp.spawnSync(process.execPath, args,
++  { cwd: KOK, encoding: "utf8", env: Object.assign({}, process.env, env || {}) });
++
++console.log("① POZİTİF — gerçek girdi");
++const p = kos([BETIK]);
++let j = null; try { j = JSON.parse(p.stdout); } catch (e) {}
++sina("çıkış 0", p.status === 0, "çıkış " + p.status + " " + (p.stdout + p.stderr).slice(0, 160));
++sina("renk kaynağı 'devlet' sınıfı hâlâ var (> 0)", !!j && (j.renk_kaynagi_dagilimi.devlet || 0) > 0,
++  j && JSON.stringify(j.renk_kaynagi_dagilimi));
++sina("ok evreni boş değil", !!j && j.ok > 0, j && ("ok " + j.ok));
++
++console.log("\n② NEGATİF — DEVLET_HARITA yapay olarak eksik (OLCU_KAPISI_YAPAY_EKSIK)");
++const n = kos([BETIK], { OLCU_KAPISI_YAPAY_EKSIK: "DEVLET_HARITA" });
++sina("çıkış 2 (eski hâli: çıkış 0 + 'devlet' oklar sessizce 'varsayilan')", n.status === 2,
++  "çıkış " + n.status);
++sina("sebep adıyla basılıyor", /T1 girdi yok\/boş: DEVLET_HARITA .*\[YAPAY\]/.test(n.stdout), n.stdout.slice(0, 160));
++sina("JSON/sayı BASILMADI", !/renk_kaynagi_dagilimi/.test(n.stdout));
++
++console.log("\n③ YARDIMCININ KENDİSİ — OLCU-KAPISI-1006.girdi / oran / api");
++const IK = JSON.stringify(path.join(__dirname, "OLCU-KAPISI-1006.js"));
++const birim = (ad, govde, beklenen) => {
++  const r = kos(["-e", "const K=require(" + IK + ");" + govde]);
++  sina(ad + " → çıkış " + beklenen, r.status === beklenen, "çıkış " + r.status + " " + r.stdout.slice(0, 100));
++};
++birim("+ dolu dizi geçer", "K.girdi({A:[1,2]},{A:'a.js'})", 0);
++birim("− boş dizi", "K.girdi({A:[]},{A:'a.js'})", 2);
++birim("− tanımsız", "K.girdi({},{A:'a.js'})", 2);
++birim("+ oran 1/2", "K.oran(1,2,'x')", 0);
++birim("− oran payda 0 (NaN yolu)", "K.oran(0,0,'x')", 2);
++birim("+ api var", "K.api({f(){}},['f'],'m')", 0);
++birim("− api yok", "K.api({},['f'],'m')", 2);
++
++console.log("\nSONUÇ: " + gecti + " geçti · " + kaldi + " kaldı");
++process.exit(kaldi ? 1 : 0);
+diff --git a/denetim/OLCU-KAPISI-1006.js b/denetim/OLCU-KAPISI-1006.js
+new file mode 100644
+index 00000000..236d758e
+--- /dev/null
++++ b/denetim/OLCU-KAPISI-1006.js
+@@ -0,0 +1,86 @@
++// OLCU-KAPISI-1006 — ölçülemeyen soru "temiz" değil ÇIKIŞ 2'dir (UMIT-W32, 6 Ekim 2026).
++//
++// SESSIZ-SIFIR-1006 taramasının çaresi (denetim/UMIT-W32-SESSIZ-SIFIR-1006.md):
++// bir betik girdisi eksikken boş kümeden sayı basıp çıkış 0 vermesin. Tetikler:
++//   T1 girdi    — gereken global/dosya yok ya da BOŞ
++//   T2 evren    — yüklenen sayı ikinci bir kaynağın %90'ının altında (INDEX-KAYNAK-1006)
++//   T3 boş küme — oran/ortalama boş kümeden (NaN) türetiliyor
++//   T4 API      — çağrılacak ad modülde yok
++//   T5 hüküm    — "ölçülemedi" yazıp 0 dönmek
++// Hepsi `olculemedi()` → çıkış 2. Kapıya BAĞLI DEĞİL; betikler tek tek kullanır.
++//
++// 🧪 SINAV KANCASI: OLCU_KAPISI_YAPAY_EKSIK="AD1,AD2" ortam değişkeni, T1 sınanmadan
++// hemen önce o globalleri SİLER. Yalnız sınav içindir: T1'in GERÇEK yolu koşar,
++// yapay yalnız girdidir (iki yönlü sınav için betiğe dokunmadan eksik girdi).
++"use strict";
++
++function olculemedi(neden) {
++  console.log("⚫ ÖLÇÜLEMEDİ — " + neden + " (OLCU-KAPISI-1006)");
++  process.exit(2);
++}
++
++// T1 — `gerekli` = { GLOBAL_ADI: "onu taşıyan dosya (bilgi)" }. Global yoksa, dizi
++// değilse ya da boşsa çıkış 2. Döner: { ADI: uzunluk }.
++function girdi(ctx, gerekli) {
++  const yapay = String(process.env.OLCU_KAPISI_YAPAY_EKSIK || "").split(",").filter(Boolean);
++  yapay.forEach(a => { delete ctx[a]; });
++  const sayi = {};
++  for (const [ad, dosya] of Object.entries(gerekli)) {
++    const v = ctx[ad];
++    const n = Array.isArray(v) ? v.length : (v && typeof v === "object" ? Object.keys(v).length : 0);
++    if (!n) olculemedi("T1 girdi yok/boş: " + ad + " (" + dosya + ")" + (yapay.includes(ad) ? " [YAPAY]" : ""));
++    sayi[ad] = n;
++  }
++  return sayi;
++}
++
++// T1 (dosya) — kök-göreli yollardan biri diskte yoksa çıkış 2; üretilmiş,
++// gitignore'lu dosya için kodlanmış kaynaktan nasıl geri çözüleceği basılır.
++// Yapay eksik için aynı kanca: OLCU_KAPISI_YAPAY_EKSIK="data/x.js".
++const COZ = {
++  "data/donemler.js": "py arac/kodla.py coz-c data data/donemler.js donem",
++  "data/devletler_harita.js": "py arac/kodla.py coz-c data data/devletler_harita.js",
++  "data/petek_govde.js": "py arac/kodla.py coz-c data data/petek_govde.js govde",
++};
++function dosya(yollar, kok) {
++  const fs = require("fs"), path = require("path");
++  kok = kok || path.join(__dirname, "..");
++  const yapay = String(process.env.OLCU_KAPISI_YAPAY_EKSIK || "").split(",").filter(Boolean);
++  for (const y of yollar) {
++    if (yapay.includes(y) || !fs.existsSync(path.join(kok, y)))
++      olculemedi("T1 girdi yok: " + y + (COZ[y] ? " · üret: " + COZ[y] : "") + (yapay.includes(y) ? " [YAPAY]" : ""));
++  }
++}
++
++// T3 — payda sıfırsa ya da sonuç sonlu değilse çıkış 2.
++function oran(pay, payda, etiket) {
++  if (!payda) olculemedi("T3 boş küme: " + etiket + " (payda 0)");
++  const r = pay / payda;
++  if (!Number.isFinite(r)) olculemedi("T3 sonlu değil: " + etiket);
++  return r;
++}
++
++// T4 — modülde çağrılacak adlar var mı.
++function api(modul, adlar, etiket) {
++  const yok = adlar.filter(a => typeof modul[a] === "undefined");
++  if (yok.length) olculemedi("T4 API yok: " + etiket + "." + yok.join(", " + etiket + "."));
++}
++
++// KOVA — betiğin BİR ALT ÖLÇÜMÜ ölçülemiyorsa geri kalanını boşa atmadan sür:
++// `kova("…")` kaydeder (anında basar), sonda `bitir()` kova doluysa çıkış 2 verir
++// (denetle.py'nin OLCULEMEDI_KOVA'sının aynısı: sayı değil ADIYLA liste).
++const KOVA = [];
++function kova(neden) {
++  KOVA.push(neden);
++  console.log("  ⚫ ÖLÇÜLEMEDİ — " + neden);
++}
++// İhlal (kod 1) varsa hüküm 1 kalır ama kova YİNE basılır — biri ötekini gizlemez.
++function bitir(kod) {
++  if (KOVA.length) {
++    console.log("\n⚫ ÖLÇÜLEMEDİ KOVASI (" + KOVA.length + "): " + KOVA.join(" · ") + " (OLCU-KAPISI-1006)");
++    process.exit(kod === 1 ? 1 : 2);
++  }
++  if (kod) process.exit(kod);
++}
++
++module.exports = { olculemedi, girdi, dosya, oran, api, kova, bitir, COZ };
+diff --git a/denetim/OLCU-KAPISI-SINAV-1006.py b/denetim/OLCU-KAPISI-SINAV-1006.py
+new file mode 100644
+index 00000000..94f5e443
+--- /dev/null
++++ b/denetim/OLCU-KAPISI-SINAV-1006.py
+@@ -0,0 +1,69 @@
++# -*- coding: utf-8 -*-
++u"""OLCU-KAPISI-SINAV-1006 — olcu_kapisi_1006.py + OLCU-KAPISI-1006.js İKİ YÖNDE (salt okuma).
++
++    py denetim/OLCU-KAPISI-SINAV-1006.py      çıkış 0 geçti · 1 kaldı
++
++Her dal ayrı süreçtir: ölçülemedi yolu sys.exit(2)/process.exit(2) yapar.
++GERÇEK koşul dalı: bu ağaçta gerçekten olmayan bir dosya (data/__w32_yok__.js) ve
++gerçekten olan bir dosya (index.html) T1'e verilir — yapay kanca kullanılmadan.
++"""
++import os
++import subprocess
++import sys
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++D = os.path.join(KOK, "denetim")
++GECTI = KALDI = 0
++
++
++def sina(ad, sart, detay=""):
++    global GECTI, KALDI
++    if sart:
++        GECTI += 1
++        print("  ✓ " + ad)
++    else:
++        KALDI += 1
++        print("  ✗ " + ad + ("  — " + detay if detay else ""))
++
++
++def py(govde, env=None):
++    k = "import sys; sys.path.insert(0, %r); import olcu_kapisi_1006 as K\n" % D + govde
++    return subprocess.run([sys.executable, "-c", k], cwd=KOK, capture_output=True, text=True,
++                          encoding="utf-8", env=dict(os.environ, PYTHONIOENCODING="utf-8", **(env or {})))
++
++
++def js(govde, env=None):
++    k = "const K = require(%r);\n" % os.path.join(D, "OLCU-KAPISI-1006.js").replace("\\", "/") + govde
++    return subprocess.run(["node", "-e", k], cwd=KOK, capture_output=True, text=True,
++                          encoding="utf-8", env=dict(os.environ, **(env or {})))
++
++
++def bekle(ad, r, kod, metin=None):
++    sina("%s → çıkış %d" % (ad, kod), r.returncode == kod and (metin is None or metin in r.stdout),
++         "çıkış %s · %s" % (r.returncode, (r.stdout + r.stderr).strip()[:140]))
++
++
++if __name__ == "__main__":
++    if hasattr(sys.stdout, "reconfigure"):
++        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++    for dil, kos in (("PY", py), ("JS", js)):
++        q = (lambda s: s) if dil == "PY" else (lambda s: s.replace("[", "[").replace("True", "true"))
++        print("\n%s — T1 dosya" % dil)
++        bekle("+ var olan dosya (index.html)", kos("K.dosya(['index.html'])" + (";" if dil == "JS" else "")), 0)
++        bekle("− GERÇEKTEN olmayan dosya", kos("K.dosya(['data/__w32_yok__.js'])"), 2, "T1 girdi yok")
++        bekle("− üretilmiş dosya yapay eksik + üretme ipucu", kos("K.dosya(['data/donemler.js'])",
++              {"OLCU_KAPISI_YAPAY_EKSIK": "data/donemler.js"}), 2, "coz-c data data/donemler.js donem")
++        print("%s — T4 api" % dil)
++        if dil == "PY":
++            bekle("+ var olan ad", kos("import os; K.api(os, ['path'], 'os')"), 0)
++            bekle("− kaldırılmış ad", kos("import os; K.api(os, ['yer_havuzu'], 'os')"), 2, "T4 API yok: os.yer_havuzu")
++        else:
++            bekle("+ var olan ad", kos("K.api(require('path'), ['join'], 'path')"), 0)
++            bekle("− kaldırılmış ad", kos("K.api(require('path'), ['yer_havuzu'], 'path')"), 2, "T4 API yok: path.yer_havuzu")
++        print("%s — kova / bitir (ihlal 1 ezer, kova yine basılır)" % dil)
++        bekle("+ boş kova, kod 0", kos("K.bitir(0)"), 0)
++        bekle("− kova dolu, kod 0", kos("K.kova('x'); K.bitir(0)"), 2, "KOVASI (1): x")
++        bekle("− kova dolu, İHLAL 1", kos("K.kova('x'); K.bitir(1)"), 1, "KOVASI (1): x")
++        bekle("+ boş kova, ihlal 1", kos("K.bitir(1)"), 1)
++    print("\nSONUÇ: %d geçti · %d kaldı" % (GECTI, KALDI))
++    sys.exit(1 if KALDI else 0)
+diff --git a/denetim/SESSIZ-SIFIR-TARA-1006.py b/denetim/SESSIZ-SIFIR-TARA-1006.py
+new file mode 100644
+index 00000000..623ec174
+--- /dev/null
++++ b/denetim/SESSIZ-SIFIR-TARA-1006.py
+@@ -0,0 +1,221 @@
++# -*- coding: utf-8 -*-
++u"""SESSIZ-SIFIR-TARA-1006 — "girdi yokken sayı basmak" sınıfının TARAMASI (UMIT-W32).
++
++KAPIYA BAĞLI DEĞİL. Elle ya da gece koşturulur, listesi OKUNUR (koordinatör kararı,
++6 Ekim 2026). Kök: bu dosyanın iki üstü (koşturulduğu worktree).
++
++    py denetim/SESSIZ-SIFIR-TARA-1006.py --cikti <dizin> --atilabilir-agac [-P 4] [--sure 150]
++    py denetim/SESSIZ-SIFIR-TARA-1006.py --kapi [--atilabilir-agac]   yalnız kapıyı ölç
++    py denetim/SESSIZ-SIFIR-TARA-1006.py --karsilastir <eski.tsv> <yeni.tsv>
++
++🔴 SERT KAPI (koordinatör şartı, 6 Ekim 2026 — UMIT-W32b). Kuru koşu betiklerin bir
++kısmı İZLENEN dosyalara yazar (ölçüldü: YUKLEME-0072-SINAV-A.json −3804 satır; boş
++ağaçta 7, dolu ağaçta 20 dosya). Bu yüzden tarama, açılışta kökü ÖLÇER ve şu üçünden
++BİRİ doğruysa HİÇBİR ŞEY YAZMADAN ÇIKIŞ 2 verir:
++  ① kök ANA DEPO      (`git worktree list` İLK satırı = bu kök)
++  ② ağaç TEMİZ DEĞİL  (`git status --porcelain` boş değil — yazılanı ayırt edemezsin)
++  ③ `--atilabilir-agac` bayrağı YOK (koşturan, ağacın atılabilir olduğunu BEYAN eder)
++git okunamazsa da 2 (ölçülemeyen kapı açık sayılmaz). Kök gömülü değil, __file__'dan.
++Doğru kullanım: `git worktree add --detach <geçici> <commit>` → orada koştur → kaldır.
++Sınav: `py denetim/SESSIZ-SIFIR-TARA-KAPI-SINAV-1006.py` (gerçek git durumlarıyla).
++
++NE YAPAR
++  ① EVREN: denetim/ + arac/ altında üretilmiş çıktıya (donemler.js · devletler_harita.js ·
++     petek_govde.js · PETEKLER · PETEK_GOVDE · DEVLET_HARITA · DONEMLER) atıf yapan ya da
++     `odak_olc`u içe aktaran betikler.
++  ② AYIRIR (koşturmaz, yalnız listeler): mutlak yol taşıyan · yan etkili/ağır
++     (uret_petek · git yazımı · kodla · paketle · tahta · kaynak_durum · renk_olc).
++  ③ KURU KOŞU: kalanlar stdin boş, süre tavanlı, -P paralel. Çıktılar <dizin>/out/.
++  ④ KOVA (çıkış kodu + çıktı):
++       2           OLCULEMEDI       doğru davranış
++       0 + "ölçülemedi/yüklenemedi"   T5     yasak (ölçülemedi deyip 0)
++       0 + NaN/undefined              T3?    aday — elle bakılır
++       0 + "<üretilmiş> 0 / YOK"       T1?    aday — elle bakılır
++       1 + FileNotFound/ENOENT         T1-COKUS  1 = "ihlal" demek, olmalı 2
++       1 + AttributeError/not a function  T4-COKUS
++       1 + IndexError/argv/usage       ARGUMAN  bu sınıf değil
++       124                             SURE
++       0 (öteki)                       TEMIZ?   üretilmiş veriye dayanmıyor olabilir
++  ⑤ KARŞILAŞTIRMA: iki tarama TSV'si → çıkış kodu DEĞİŞEN her betik adıyla (YAN ETKİ).
++
++⚠️ "?" taşıyan kovalar ADAYDIR, hüküm değil. Ölçülen vaka (W32b, 6 Ekim): OK-RENK
++`DEVLET_HARITA || []` deseni ve "devlet: 3" çıktısıyla T1 sayıldı; değer GERÇEKTİ
++(DEVLET_HARITA kodlanmış devlet_harita_ust.js'ten tam geliyor). Desen ≠ sıfır.
++"""
++import io
++import os
++import re
++import subprocess
++import sys
++import time
++from concurrent.futures import ThreadPoolExecutor
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ATIF = re.compile(r"donemler\.js|devletler_harita\.js|petek_govde\.js|PETEKLER|PETEK_GOVDE|"
++                  r"DEVLET_HARITA|window\.DONEMLER|\bDONEMLER\b|import odak_olc")
++MUTLAK = re.compile(r"[Cc]:[\\/]{1,2}(atlas|Users)")
++AGIR = re.compile(r"uret_petek|\"git\", *\"(commit|add|checkout|reset|push|stash)\"|"
++                  r"git (commit|add|checkout|reset|push)|kodla\.py|paketle\.py|surum_damgala|"
++                  r"tahta\.py|kaynak_durum|renk_olc\.py")
++KENDI = {"SESSIZ-SIFIR-TARA-1006.py", "olcu_kapisi_1006.py", "OLCU-KAPISI-1006.js"}
++
++
++def evren():
++    tum, kos, ayri = [], [], []
++    for d in ("denetim", "arac"):
++        for ad in sorted(os.listdir(os.path.join(KOK, d))):
++            if not ad.endswith((".py", ".js")) or ad in KENDI:
++                continue
++            yol = d + "/" + ad
++            try:
++                s = io.open(os.path.join(KOK, yol), encoding="utf-8", errors="replace").read()
++            except OSError:
++                continue
++            if not ATIF.search(s):
++                continue
++            tum.append(yol)
++            neden = [n for n, rx in (("mutlak", MUTLAK), ("agir", AGIR)) if rx.search(s)]
++            (ayri if neden else kos).append((yol, " ".join(neden)))
++    return tum, kos, ayri
++
++
++def kova(kod, cikti):
++    c = cikti
++    if kod == 124:
++        return "SURE"
++    if kod == 2:
++        return "OLCULEMEDI"
++    if kod == 1:
++        if re.search(r"IndexError|argv|usage|kullanım:", c) and not re.search(r"FileNotFound|ENOENT", c):
++            return "ARGUMAN"
++        if re.search(r"FileNotFound|ENOENT|hedef yok|\bYOK\b", c):
++            return "T1-COKUS"
++        if re.search(r"AttributeError|is not a function|has no attribute", c):
++            return "T4-COKUS"
++        return "COKUS-OTEKI"
++    if kod == 0:
++        if re.search(r"ölçülemedi|olculemedi|yüklenemedi|yuklenemedi", c, re.I):
++            return "T5"
++        if re.search(r"\bNaN\b|\bundefined\b", c):
++            return "T3?"
++        if re.search(r"(PETEKLER|PETEK_GOVDE|DONEMLER|petek|dönem|gövde)[^\n0-9]{0,12}\b0\b(?!\.)", c):
++            return "T1?"
++        return "TEMIZ?"
++    return "KOD-%d" % kod
++
++
++def kos1(yol, dizin, sure):
++    komut = ["py", yol] if yol.endswith(".py") else ["node", yol]
++    t0 = time.time()
++    try:
++        p = subprocess.run(komut, cwd=KOK, stdin=subprocess.DEVNULL, capture_output=True,
++                           timeout=sure, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++        kod, cikti = p.returncode, (p.stdout + p.stderr).decode("utf-8", "replace")
++    except subprocess.TimeoutExpired as h:
++        kod, cikti = 124, ((h.stdout or b"") + (h.stderr or b"")).decode("utf-8", "replace")
++    io.open(os.path.join(dizin, "out", yol.replace("/", "__") + ".out"), "w",
++            encoding="utf-8").write(cikti)
++    son = [l for l in cikti.splitlines() if l.strip()][-1:] or [""]
++    return yol, kod, round(time.time() - t0, 1), kova(kod, cikti), son[0][:160]
++
++
++def tara(dizin, P, sure):
++    os.makedirs(os.path.join(dizin, "out"), exist_ok=True)
++    tum, kos, ayri = evren()
++    print("EVREN %d · koşulacak %d · ayrı tutulan %d (yalnız listelenir)" % (len(tum), len(kos), len(ayri)))
++    with io.open(os.path.join(dizin, "ayri.tsv"), "w", encoding="utf-8") as f:
++        for y, n in ayri:
++            f.write("%s\t%s\n" % (y, n))
++    with ThreadPoolExecutor(P) as ex:
++        sonuc = sorted(ex.map(lambda y: kos1(y[0], dizin, sure), kos))
++    with io.open(os.path.join(dizin, "tarama.tsv"), "w", encoding="utf-8") as f:
++        f.write("betik\tkod\tsn\tkova\tson_satir\n")
++        for r in sonuc:
++            f.write("%s\t%d\t%s\t%s\t%s\n" % r)
++    say = {}
++    for r in sonuc:
++        say[r[3]] = say.get(r[3], 0) + 1
++    print("KOVALAR: " + " · ".join("%s %d" % kv for kv in sorted(say.items())))
++    for k in ("T5", "T3?", "T1?", "T1-COKUS", "T4-COKUS"):
++        ad = [r[0].split("/")[-1] for r in sonuc if r[3] == k]
++        if ad:
++            print("  %-9s %s" % (k, " · ".join(ad)))
++    print("TSV: " + os.path.join(dizin, "tarama.tsv"))
++
++
++def oku(tsv):
++    d = {}
++    for i, l in enumerate(io.open(tsv, encoding="utf-8")):
++        if i == 0:
++            continue
++        p = l.rstrip("\n").split("\t")
++        d[p[0]] = (int(p[1]), p[3])
++    return d
++
++
++def karsilastir(eski, yeni):
++    a, b = oku(eski), oku(yeni)
++    degisen = [(k, a[k], b[k]) for k in sorted(set(a) & set(b)) if a[k][0] != b[k][0]]
++    print("ORTAK %d · çıkış kodu DEĞİŞEN %d · yalnız eskide %d · yalnız yenide %d"
++          % (len(set(a) & set(b)), len(degisen), len(set(a) - set(b)), len(set(b) - set(a))))
++    for k, x, y in degisen:
++        print("  %-52s %d %-11s → %d %s" % (k.split("/")[-1], x[0], x[1], y[0], y[1]))
++
++
++def _git(kok, *arg):
++    p = subprocess.run(["git", "-C", kok] + list(arg), capture_output=True)
++    if p.returncode != 0:
++        raise RuntimeError((p.stderr or b"").decode("utf-8", "replace").strip()[:160])
++    return p.stdout.decode("utf-8", "replace")
++
++
++def _ayni(a, b):
++    return os.path.normcase(os.path.realpath(a)) == os.path.normcase(os.path.realpath(b))
++
++
++def kapi(kok, atilabilir):
++    u"""Sert kapı — engel nedenlerinin LİSTESİ (boş = geçer). Yazmaz, yalnız okur."""
++    neden = []
++    try:
++        ilk = next((l[len("worktree "):] for l in _git(kok, "worktree", "list", "--porcelain").splitlines()
++                    if l.startswith("worktree ")), None)
++        if ilk is None:
++            neden.append("ölçülemedi: `git worktree list` boş")
++        elif _ayni(ilk, kok):
++            neden.append("① kök ANA DEPO (%s) — atılabilir worktree'de koştur" % ilk)
++        kirli = [l for l in _git(kok, "status", "--porcelain").splitlines() if l.strip()]
++        if kirli:
++            neden.append("② ağaç TEMİZ DEĞİL (%d satır, ilk: %s)" % (len(kirli), kirli[0].strip()))
++    except (RuntimeError, OSError) as h:
++        neden.append("ölçülemedi: git okunamadı (%s)" % h)
++    if not atilabilir:
++        neden.append("③ `--atilabilir-agac` bayrağı YOK")
++    return neden
++
++
++def kapi_uygula(atilabilir):
++    neden = kapi(KOK, atilabilir)
++    if neden:
++        print("⚫ SERT KAPI — tarama KOŞMADI, hiçbir şey yazılmadı (çıkış 2):")
++        for n in neden:
++            print("   " + n)
++        sys.exit(2)
++    print("✓ SERT KAPI geçti — kök %s (atılabilir worktree, temiz, beyanlı)" % KOK)
++
++
++if __name__ == "__main__":
++    if hasattr(sys.stdout, "reconfigure"):
++        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++    a = sys.argv[1:]
++    if a[:1] == ["--karsilastir"] and len(a) == 3:
++        karsilastir(a[1], a[2])
++    elif "--kapi" in a:
++        kapi_uygula("--atilabilir-agac" in a)
++    elif "--cikti" in a:
++        kapi_uygula("--atilabilir-agac" in a)        # HİÇBİR yazımdan ÖNCE
++        P = int(a[a.index("-P") + 1]) if "-P" in a else 4
++        sure = int(a[a.index("--sure") + 1]) if "--sure" in a else 150
++        tara(a[a.index("--cikti") + 1], P, sure)
++    else:
++        print(__doc__)
++        sys.exit(2)
+diff --git a/denetim/SESSIZ-SIFIR-TARA-KAPI-SINAV-1006.py b/denetim/SESSIZ-SIFIR-TARA-KAPI-SINAV-1006.py
+new file mode 100644
+index 00000000..6b4c7993
+--- /dev/null
++++ b/denetim/SESSIZ-SIFIR-TARA-KAPI-SINAV-1006.py
+@@ -0,0 +1,108 @@
++# -*- coding: utf-8 -*-
++u"""SESSIZ-SIFIR-TARA-KAPI-SINAV-1006 — taramanın SERT KAPISI, İKİ YÖNDE, GERÇEK git ile.
++
++    py denetim/SESSIZ-SIFIR-TARA-KAPI-SINAV-1006.py      çıkış 0 geçti · 1 kaldı · 2 ölçülemedi
++
++Yapay durum yok: ana depo, geçici bir `git worktree add --detach … HEAD` (temiz), aynı
++ağacın kirletilmişi ve bayraksız çağrı GERÇEKTEN kurulur. Geçici ağaç sistemin geçici
++dizininde açılır ve sonda kaldırılır; depoda iz bırakmaz (ref yazılmaz, --detach).
++⚠️ Pozitif yön, aracın HEAD'de (commitlenmiş) olmasını ister — commitlenmemiş bir
++ağaçta koşturulursa pozitif dallar "ölçülemedi" olur ve sınav 2 verir (temiz değil).
++"""
++import importlib.util
++import os
++import shutil
++import subprocess
++import sys
++import tempfile
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = "denetim/SESSIZ-SIFIR-TARA-1006.py"
++GECTI = KALDI = OLCULEMEDI = 0
++
++
++def sina(ad, sart, detay=""):
++    global GECTI, KALDI
++    if sart:
++        GECTI += 1
++        print("  ✓ " + ad)
++    else:
++        KALDI += 1
++        print("  ✗ " + ad + ("  — " + detay if detay else ""))
++
++
++def olculemedi(ad, neden):
++    global OLCULEMEDI
++    OLCULEMEDI += 1
++    print("  ⚫ ÖLÇÜLEMEDİ — %s: %s" % (ad, neden))
++
++
++def git(kok, *arg):
++    return subprocess.run(["git", "-C", kok] + list(arg), capture_output=True, text=True,
++                          encoding="utf-8", errors="replace")
++
++
++if __name__ == "__main__":
++    if hasattr(sys.stdout, "reconfigure"):
++        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++    spec = importlib.util.spec_from_file_location("tara", os.path.join(KOK, ARAC))
++    T = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(T)
++
++    print("① ANA DEPO — kapı KAPANMALI")
++    ana = next(l[9:] for l in git(KOK, "worktree", "list", "--porcelain").stdout.splitlines()
++               if l.startswith("worktree "))
++    n = T.kapi(ana, True)
++    sina("ana depoda (%s) '① ANA DEPO' nedeni var" % ana, any(x.startswith("①") for x in n), str(n))
++
++    tmp = tempfile.mkdtemp(prefix="w32kapi-")
++    agac = os.path.join(tmp, "agac")
++    try:
++        r = git(KOK, "worktree", "add", "--detach", agac, "HEAD")
++        if r.returncode != 0:
++            olculemedi("geçici worktree", r.stderr.strip()[:160])
++        else:
++            arac_headde = os.path.exists(os.path.join(agac, ARAC))
++            print("\n② GEÇİCİ TEMİZ WORKTREE (HEAD %s) — araç HEAD'de: %s"
++                  % (git(agac, "rev-parse", "--short", "HEAD").stdout.strip(), arac_headde))
++            if not arac_headde:
++                olculemedi("pozitif dallar", "araç HEAD'de yok (commitlenmemiş) — "
++                           "kapının 'temiz' yönü ölçülemez")
++            else:
++                sina("+ temiz + bayraklı → engel YOK", T.kapi(agac, True) == [], str(T.kapi(agac, True)))
++                n = T.kapi(agac, False)
++                sina("− bayraksız → yalnız '③' nedeni", len(n) == 1 and n[0].startswith("③"), str(n))
++                p = subprocess.run([sys.executable, os.path.join(agac, ARAC), "--kapi", "--atilabilir-agac"],
++                                   cwd=agac, capture_output=True, text=True, encoding="utf-8")
++                sina("+ CLI --kapi temiz ağaçta çıkış 0", p.returncode == 0, "çıkış %s %s" % (p.returncode, p.stdout[:120]))
++
++            print("\n③ KİRLETİLMİŞ WORKTREE — kapı KAPANMALI ve HİÇBİR ŞEY YAZMAMALI")
++            if not arac_headde:
++                shutil.copy(os.path.join(KOK, ARAC), os.path.join(agac, ARAC))   # kopya da kirletir
++            with open(os.path.join(agac, "denetim", "_w32_kirlilik.txt"), "w") as f:
++                f.write("x")
++            n = T.kapi(agac, True)
++            sina("− kirli + bayraklı → '②' nedeni", any(x.startswith("②") for x in n), str(n))
++            cikti = os.path.join(tmp, "cikti")
++            once = git(agac, "status", "--porcelain").stdout
++            p = subprocess.run([sys.executable, os.path.join(agac, ARAC), "--cikti", cikti, "--atilabilir-agac"],
++                               cwd=agac, capture_output=True, text=True, encoding="utf-8")
++            sina("− CLI tarama kirli ağaçta çıkış 2", p.returncode == 2, "çıkış %s" % p.returncode)
++            sina("− çıktı dizini YARATILMADI", not os.path.exists(cikti))
++            sina("− ağaçta yeni değişiklik YOK (hiçbir betik koşmadı)",
++                 git(agac, "status", "--porcelain").stdout == once)
++            sina("− neden adıyla basıldı", "② ağaç TEMİZ DEĞİL" in p.stdout, p.stdout[:160])
++    finally:
++        git(KOK, "worktree", "remove", "--force", agac)
++        shutil.rmtree(tmp, ignore_errors=True)
++
++    print("\n④ GİT OKUNAMAZ — kapı açık SAYILMAZ")
++    yok = tempfile.mkdtemp(prefix="w32gitsiz-")
++    try:
++        n = T.kapi(yok, True)
++        sina("− git deposu olmayan dizin → 'ölçülemedi' nedeni", any("ölçülemedi" in x for x in n), str(n))
++    finally:
++        shutil.rmtree(yok, ignore_errors=True)
++
++    print("\nSONUÇ: %d geçti · %d kaldı · %d ölçülemedi" % (GECTI, KALDI, OLCULEMEDI))
++    sys.exit(1 if KALDI else (2 if OLCULEMEDI else 0))
+diff --git a/denetim/SINIR-ARABISTAN-0078-govde.js b/denetim/SINIR-ARABISTAN-0078-govde.js
+index d580f71b..4dc380a7 100644
+--- a/denetim/SINIR-ARABISTAN-0078-govde.js
++++ b/denetim/SINIR-ARABISTAN-0078-govde.js
+@@ -3,6 +3,9 @@
+ // Kullanım: node denetim/SINIR-ARABISTAN-0078-govde.js <çıktı.geojson> [gün]
+ // Tüketicisi: denetim/SINIR-ARABISTAN-0078-serit.py (şerit ölçümü, §5.4).
+ "use strict";
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ const fs = require("fs"), vm = require("vm"), path = require("path");
+ const KOK = path.join(__dirname, "..");
+ const cikti = process.argv[2], gunS = process.argv[3] || "1923-09-01";
+diff --git a/denetim/SINIR-D-OKYANUSYA-0077-govde.py b/denetim/SINIR-D-OKYANUSYA-0077-govde.py
+index 874d77e4..f1cfec1a 100644
+--- a/denetim/SINIR-D-OKYANUSYA-0077-govde.py
++++ b/denetim/SINIR-D-OKYANUSYA-0077-govde.py
+@@ -11,6 +11,12 @@ gövdede? Tahmin değil yoklama:
+ """
+ import io, json, math, os, re, subprocess, sys
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from renk_cikti import _cek, _govde                       # noqa: E402
+diff --git a/denetim/SINIR-D-OKYANUSYA-0077-olc.py b/denetim/SINIR-D-OKYANUSYA-0077-olc.py
+index 5e53ff0a..e021c100 100644
+--- a/denetim/SINIR-D-OKYANUSYA-0077-olc.py
++++ b/denetim/SINIR-D-OKYANUSYA-0077-olc.py
+@@ -26,6 +26,12 @@ Kullanım:
+ """
+ import io, json, math, os, subprocess, sys
+ 
++# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
++import os as _w32_os, sys as _w32_sys
++_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
++import olcu_kapisi_1006 as _w32_ok
++_w32_ok.dosya(["data/devletler_harita.js"])
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ from renk_cikti import _cek, _govde                       # noqa: E402
+diff --git a/denetim/SINIR-UZAKDOGU-0078-govde.js b/denetim/SINIR-UZAKDOGU-0078-govde.js
+index 82927e9e..1c15c500 100644
+--- a/denetim/SINIR-UZAKDOGU-0078-govde.js
++++ b/denetim/SINIR-UZAKDOGU-0078-govde.js
+@@ -3,6 +3,9 @@
+ // Kullanım: node denetim/SINIR-UZAKDOGU-0078-govde.js <çıktı.geojson> [gün]
+ // Tüketicisi: denetim/SINIR-UZAKDOGU-0078-uret.py (şerit ölçümü, §5.4).
+ "use strict";
++// W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
++// yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/OLCU-KAPISI-1006.js
++require("./OLCU-KAPISI-1006.js").dosya(["data/devletler_harita.js"]);
+ const fs = require("fs"), vm = require("vm"), path = require("path");
+ const KOK = path.join(__dirname, "..");
+ const cikti = process.argv[2], gunS = process.argv[3] || "1923-09-01";
+diff --git a/denetim/olcu_kapisi_1006.py b/denetim/olcu_kapisi_1006.py
+new file mode 100644
+index 00000000..cfbf1018
+--- /dev/null
++++ b/denetim/olcu_kapisi_1006.py
+@@ -0,0 +1,68 @@
++# -*- coding: utf-8 -*-
++"""olcu_kapisi_1006 — OLCU-KAPISI-1006.js'in Python ikizi (UMIT-W32, 6 Ekim 2026).
++
++Ölçülemeyen soru "temiz" değil ÇIKIŞ 2'dir. Bu modül yalnız betiklerin kendi
++çağırdığı bir yardımcıdır; hiçbir kapıya BAĞLI DEĞİL.
++
++  T1 dosya(yollar, ipucu)  gereken girdi/üretilmiş dosya diskte yok → çıkış 2
++  T4 api(modul, adlar)     çağrılacak ad modülde yok → çıkış 2
++  kova(neden) + bitir()    alt ölçüm ölçülemedi → sonda çıkış 2
++
++Neden 1 değil 2: 1 = "İHLAL VAR" demektir (denetle.py, 4 Ekim). Eksik girdiyle
++çöken betik bugüne kadar 1 veriyordu — otomasyon bunu ihlal sanırdı.
++
++🧪 SINAV KANCASI: OLCU_KAPISI_YAPAY_EKSIK="data/x.js,..." o yolları YOK sayar
++(T1'in gerçek yolu koşar, yalnız girdi yapaydır).
++"""
++import os
++import sys
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++
++# Üretilmiş, gitignore'lu dosyaların kodlanmış kaynaktan nasıl geri çözüleceği.
++COZ = {
++    "data/donemler.js": "py arac/kodla.py coz-c data data/donemler.js donem",
++    "data/devletler_harita.js": "py arac/kodla.py coz-c data data/devletler_harita.js",
++    "data/petek_govde.js": "py arac/kodla.py coz-c data data/petek_govde.js govde",
++}
++
++KOVA = []
++
++
++def olculemedi(neden):
++    print("⚫ ÖLÇÜLEMEDİ — %s (olcu_kapisi_1006)" % neden, flush=True)
++    sys.exit(2)
++
++
++def dosya(yollar, kok=None):
++    """T1 — `yollar` kök-göreli ("data/donemler.js"); biri yoksa çıkış 2."""
++    kok = kok or KOK
++    yapay = [y for y in os.environ.get("OLCU_KAPISI_YAPAY_EKSIK", "").split(",") if y]
++    for y in yollar:
++        if y in yapay or not os.path.exists(os.path.join(kok, y)):
++            ipucu = COZ.get(y.replace("\\", "/"))
++            olculemedi("T1 girdi yok: %s%s%s" % (
++                y, " · üret: " + ipucu if ipucu else "", " [YAPAY]" if y in yapay else ""))
++
++
++def api(modul, adlar, etiket=None):
++    """T4 — modülde olmayan ad varsa çıkış 2 (AttributeError çöküşü = 1 yerine)."""
++    yok = [a for a in adlar if not hasattr(modul, a)]
++    if yok:
++        olculemedi("T4 API yok: %s" % ", ".join(
++            "%s.%s" % (etiket or modul.__name__, a) for a in yok))
++
++
++def kova(neden):
++    KOVA.append(neden)
++    print("  ⚫ ÖLÇÜLEMEDİ — %s" % neden, flush=True)
++
++
++def bitir(kod=0):
++    """İhlal (1) varsa hüküm 1 kalır ama kova YİNE basılır."""
++    if KOVA:
++        print("\n⚫ ÖLÇÜLEMEDİ KOVASI (%d): %s (olcu_kapisi_1006)"
++              % (len(KOVA), " · ".join(KOVA)), flush=True)
++        sys.exit(1 if kod == 1 else 2)
++    if kod:
++        sys.exit(kod)

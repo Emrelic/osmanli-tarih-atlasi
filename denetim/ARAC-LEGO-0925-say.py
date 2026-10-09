@@ -6,7 +6,8 @@ import sys
 import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-yollar = sys.argv[1:] or [r"C:\atlas\_motor_onbellek\motor_onbellek.sqlite",
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+yollar = sys.argv[1:] or [os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_motor_onbellek", "motor_onbellek.sqlite"),
                           r"C:\atlas-onbellek\motor_onbellek.sqlite"]
 for y in yollar:
     b = sqlite3.connect(f"file:{y}?mode=ro", uri=True, timeout=30)

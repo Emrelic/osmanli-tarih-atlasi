@@ -13,7 +13,7 @@
 window.EKOKUMA_CAMITARZ = [
   {
     id: "camitarz-bes-donem",
-    tur: "teknik-bilimsel",
+    tur: "mimari",
     baslik: "Osmanlı Cami Mimarisinde Beş Üslup Dönemi",
     kisa: "Erken Osmanlı'dan 19. yüzyıl ampir-eklektik üsluba, yaklaşık beş asırlık bir mimari yolculuk.",
     metin: "Osmanlı cami mimarisi tek bir üslupta donmadı; yaklaşık beş asır boyunca birbirini izleyen, her biri kendi dönemin zevkini ve teknik birikimini taşıyan aşamalardan geçti.\n\n" +
@@ -32,7 +32,7 @@ window.EKOKUMA_CAMITARZ = [
   },
   {
     id: "camitarz-bursa-ulucami",
-    tur: "teknik-bilimsel",
+    tur: "mimari",
     baslik: "Bursa Ulu Camii — Erken Osmanlı'nın Çok Kubbeli Başyapıtı",
     kisa: "1399-1400'de tamamlanan yirmi kubbeli Ulu Cami, merkezî tek kubbeye henüz ulaşmamış erken Osmanlı mimarisinin anıtsal örneğidir.",
     metin: "Bursa Ulu Camii, I. Bayezid (Yıldırım) döneminde inşa edilip 802 (1399-1400) yılında tamamlandı — minberindeki kitabe bu tarihi taşır. Mimarının kesin kimliği tartışmalıdır; Ali Neccâr ve Hacı İvaz Paşa adları kaynaklarda geçen adaylardandır.\n\n" +
@@ -46,7 +46,7 @@ window.EKOKUMA_CAMITARZ = [
   },
   {
     id: "camitarz-nusretiye-camii",
-    tur: "teknik-bilimsel",
+    tur: "mimari",
     baslik: "Nusretiye Camii — 19. Yüzyıl Ampir-Barok Karışımı Üslup",
     kisa: "Tophane'de 1823-1826 arasında inşa edilen Nusretiye Camii, Avrupa'nın barok ve empire (ampir) üsluplarını harmanlayan bir 19. yüzyıl Osmanlı cami örneğidir.",
     metin: "İstanbul Tophane'de 24 Şubat 1823'teki büyük bir yangının Top Arabacıları Kışlası ile birlikte yok ettiği eski mescidin yerine II. Mahmud'un emriyle yeni bir cami yaptırıldı. İnşaata Haziran 1823'te başlandı, yapı 8 Nisan 1826'da tamamlandı.\n\n" +

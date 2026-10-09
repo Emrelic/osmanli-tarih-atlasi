@@ -1,0 +1,1133 @@
+{
+ "maddeler": [
+  {
+   "t": "1284-04-04",
+   "gun": "4 Nisan 1284 (X. Alfonso'nun Sevilla'da ölümü; RAH)",
+   "b": "X. Alfonso öldü, IV. Sancho Kastilya tahtına geçti",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Babasına isyan ederek onu fiilen iktidardan uzaklaştırmış olan infante Sancho, X. Alfonso'nun Sevilla'da ölümüyle IV. Sancho adıyla kral oldu ve Toledo katedralinde törenle taç giydi. Aynı yıl Sevilla ve Valladolid'de Cortes toplayarak meşruiyetini pekiştirmeye çalıştı. Ancak la Cerda yeğenlerinin taht iddiası, saltanatı boyunca iç ve dış çatışmaların kaynağı olarak kaldı.",
+   "kaynak": "J. M. Nieto Soria, \"Sancho IV\", Real Academia de la Historia, Diccionario Biográfico Español (historia-hispanica.rah.es/biografias/41322)",
+   "dogrulama": "RAH DB~e API api/biographies/41322 açıldı: 'fue el propio Alfonso X el que murió en Sevilla el 4 de abril de 1284'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1288-06-08",
+   "gun": "8 Haziran 1288 (RAH)",
+   "b": "Alfaro olayı — gözde Lope Díaz de Haro kralın huzurunda öldürüldü",
+   "tur": "siyaset",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "siyaset",
+    "kastilya-soylular",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "IV. Sancho'nun en güçlü gözdesi, Biskay senyörü Lope Díaz de Haro, Aragon ile ittifakı savunup Fransa yanlısı saray çevresiyle çatışınca Alfaro'daki danışma toplantısında kralla tartıştı ve kralın şövalyelerince öldürüldü; infante Juan hapsedildi. Olay Haro ailesini isyana ve Aragon'a yöneltti, kral ise danışman kadrosunu kilise adamlarıyla yeniledi.",
+   "kaynak": "J. M. Nieto Soria, \"Sancho IV\", RAH Diccionario Biográfico Español (biografias/41322)",
+   "dogrulama": "RAH 41322: 'reunión de los consejeros reales en Alfaro, el 8 de junio de 1288 ... acabó con la muerte de éste'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1292-01-01",
+   "gun": "yalnız yıl (1292); gün kaynaklarda doğrulanamadı",
+   "b": "IV. Sancho Tarîf'i (Tarifa) aldı",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "bogaz-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "granada"
+   ],
+   "d": "Merînîler karşısındaki yenilgilerin ardından Kastilya, Aragon donanmasının da desteğiyle karadan ve denizden kuşattığı Tarîf'i ele geçirdi; Cebelitârık Boğazı'nda Merînî geçişlerini denetleyen ilk büyük kazanımdı. Gırnata emîri II. Muhammed şehrin kendisine bırakılacağı şartıyla Kastilya'yı desteklemişti, ama kral şehri bırakmayınca emîr yeniden Merînîlere yöneldi.",
+   "kaynak": "TDV `nasriler` (Tarîf'in Kastilya kralınca alınıp bırakılmaması); J. M. Nieto Soria, \"Sancho IV\", RAH DB~e 41322 ('culminó con la toma de Tarifa', 1292)",
+   "dogrulama": "TDV nasriler önbellekten okundu (ARAC-KRONO-ATLANTIK-A-0929-TDV.py bul); TDV yıl vermiyor, yıl RAH'tan. TDV `tarif` slug'ı canlı ama farklı madde",
+   "guven": "orta"
+  },
+  {
+   "t": "1295-04-25",
+   "gun": "25 Nisan 1295 (RAH)",
+   "b": "IV. Sancho öldü — çocuk kral IV. Fernando, María de Molina'nın vesayetinde",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "IV. Sancho Toledo'da veremden öldü; yerine dokuz yaşındaki oğlu IV. Fernando geçti ve vasiyet gereği annesi María de Molina vasi oldu. Çocuk kralın tahtı, la Cerda iddiası ve Aragon ile Portekiz'in müdahaleleri yüzünden yıllarca iç savaş tehdidi altında kaldı.",
+   "kaynak": "C. González Mínguez, \"Fernando IV\", RAH DB~e (biografias/16456); J. M. Nieto Soria, \"Sancho IV\", RAH DB~e 41322",
+   "dogrulama": "RAH 16456: 'El 25 de abril de 1295, víctima de la tuberculosis, murió en Toledo Sancho IV'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1304-08-08",
+   "gun": "8 Ağustos 1304 (Torrellas hakem kararı; RAH). Tamamlayıcı Elche antlaşması 19 Mayıs 1305",
+   "b": "Torrellas hakem kararı — Murcia sınırı ve la Cerda meselesi çözüldü",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "murcia-siniri",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "aragon"
+   ],
+   "d": "Portekiz kralı Dinis, infante Juan ve Zaragoza piskoposundan oluşan hakem heyeti, IV. Fernando ile II. Jaime arasındaki Murcia anlaşmazlığını Torrellas'ta karara bağladı; Alfonso de la Cerda'ya tazminat karşılığı taht iddiası askıya alındı. 19 Mayıs 1305 Elche antlaşması Murcia sınırını kesinleştirdi ve Alicante-Orihuela kesimini Aragon'a bıraktı; böylece Kastilya iç savaşı ve Aragon savaşı kapandı.",
+   "kaynak": "C. González Mínguez, \"Fernando IV\", RAH DB~e (biografias/16456)",
+   "dogrulama": "RAH 16456: 'El 8 de agosto de 1304 ... dictaron la sentencia arbitral de Torrellas'; 'tratado de Elche (19 de mayo de 1305)'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1309-09-12",
+   "gun": "12 Eylül 1309 (RAH). TDV `cebelitarik` 709 (1309) der; TDV `nasriler` aynı olayı 709/1310 diye verir — 709 H. = Haziran 1309–Mayıs 1310, çelişki çevirim kaynaklı",
+   "b": "Kastilya Cebelitârık'ı aldı",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "bogaz-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "granada"
+   ],
+   "d": "Aragon ile yapılan Alcalá de Henares anlaşması uyarınca Kastilya Cezîretülhadrâ'yı, Aragon Meriye'yi kuşattı. Cezîretülhadrâ kuşatması soyluların ayrılmasıyla dağıldı; seferin tek kalıcı kazancı, Alonso Pérez de Guzmán'ın IV. Fernando adına Cebelitârık'ı alması oldu. Gırnata emîri bunun üzerine Merînîleri yardıma çağırdı; şehir 1333'te müslümanlara geri döndü.",
+   "kaynak": "TDV `cebelitarik` ('709 (1309) yılında Alonso Pérez de Guzmán ... IV. Ferdinand adına Cebelitârık'ı istilâ etti'); C. González Mínguez, \"Fernando IV\", RAH DB~e 16456 (gün)",
+   "dogrulama": "TDV cebelitarik ve nasriler önbelleğe çekildi ve okundu; RAH 16456: 'la toma de Gibraltar por los castellanos (12 de septiembre de 1309)'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1312-09-07",
+   "gun": "7 Eylül 1312 (RAH)",
+   "b": "IV. Fernando Jaén'de öldü — bir yaşındaki XI. Alfonso tahta geçti",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Gırnata'ya karşı sefer sürerken IV. Fernando Jaén'de ansızın öldü. Tahta bir yaşındaki oğlu XI. Alfonso çıktı; 1325'e dek süren vesayet dönemleri soylu kliklerin iktidar kavgasına sahne oldu.",
+   "kaynak": "C. González Mínguez, \"Fernando IV\", RAH DB~e 16456; J. Valdeón Baruque, \"Alfonso XI\", RAH DB~e 1020",
+   "dogrulama": "RAH 16456: 'la muerte sorprendió a Fernando IV en Jaén ... (7 de septiembre de 1312)'; RAH 1020: vesayet 1325'te bitti",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1348-01-01",
+   "gun": "yalnız yıl (RAH gün vermiyor)",
+   "b": "Alcalá Cortes'i — Ordenamiento de Alcalá kanunnamesi",
+   "tur": "kanun",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "kanun",
+    "hukuk-kodifikasyon",
+    "konu-idari"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "XI. Alfonso'nun Alcalá de Henares'te topladığı Cortes, Roma hukuku ilkelerine dayanan geniş bir kanunname kabul etti. Ordenamiento, kraliyet hukukunu yerel fuero'ların önüne koydu ve X. Alfonso'nun Siete Partidas'ını tamamlayıcı hukuk olarak yürürlüğe soktu; Kastilya hukukunun yüzyıllarca temel metinlerinden biri oldu.",
+   "kaynak": "J. Valdeón Baruque, \"Alfonso XI\", RAH DB~e (biografias/1020)",
+   "dogrulama": "RAH 1020: 'en 1348, se aprobó, en las Cortes celebradas en la villa de Alcalá de Henares, un famoso Ordenamiento'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1350-03-27",
+   "gun": "27 Mart 1350 (RAH künyesi ve metni). Metin 'Kutsal Cuma' der; bazı kaynaklar 26 Mart verir — bildirilir",
+   "b": "XI. Alfonso Cebelitârık kuşatmasında Kara Ölüm'den öldü",
+   "tur": "olum",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "olum",
+    "kara-olum",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "İber yarımadasına da yayılan veba salgını, Cebelitârık'ı kuşatan XI. Alfonso'nun ordugâhını vurdu ve kral hastalığa yakalanarak öldü. Salgın Kastilya'da tarım toprakları boşaltıp koyunculuğu öne çıkaran derin bir nüfus ve ekonomi bunalımı başlattı. Tahta genç oğlu I. Pedro geçti.",
+   "kaynak": "J. Valdeón Baruque, \"Alfonso XI\", RAH DB~e (biografias/1020), Crónica de Alfonso XI'e atıfla",
+   "dogrulama": "RAH 1020 künye: 'Gibraltar (Reino Unido), 27.III.1350'; metin: 'ovo una landre', 'el día 27 de marzo, que era Viernes Santo'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1356-01-01",
+   "gun": "yalnız yıl (RAH); Castilya Tarazona'yı Mart 1357'de aldı",
+   "b": "İki Pedro Savaşı başladı — Kastilya ile Aragon karşı karşıya",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "iki-pedro-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "aragon"
+   ],
+   "d": "Sanlúcar açıklarında Katalan korsanın Kastilya'nın müttefiki Cenova'yla bağlantılı gemilere el koyması, I. Pedro ile Aragonlu IV. Pedro arasındaki gerginliği savaşa çevirdi. Kastilya başta üstün geldi ve 1357'de Tarazona'yı aldı; Terrer (1361) barışı kısa bir ara verdi. Aragon'un Trastámaralı Enrique'yi desteklemesi, savaşı Kastilya iç savaşıyla birleştirdi.",
+   "kaynak": "J. Valdeón Baruque, \"Pedro I de Castilla\", RAH DB~e (biografias/35772)",
+   "dogrulama": "RAH 35772: 'El año 1356 fue ... testigo del inicio de la guerra ... con el rey de Aragón'; 'ocupó en marzo de 1357 ... Tarazona'; 'Paz de Terrer, firmada en mayo de 1361'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1366-04-05",
+   "gun": "5 Nisan 1366, Paskalya günü (RAH; kronikten Latince alıntıyla)",
+   "b": "Trastámaralı Enrique Burgos'ta (Las Huelgas) Kastilya kralı olarak taç giydi",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Fransa'nın gönderdiği Du Guesclin'in paralı Beyaz Kumpanyaları ve Aragon desteğiyle Mart 1366'da Calahorra'dan Kastilya'ya giren Enrique, I. Pedro'yu zorba ilan edip Las Huelgas manastırında taç giydi. I. Pedro Burgos, Toledo ve Sevilla'yı bırakıp Bayonne'a, İngilizlere sığındı; Kastilya iç savaşı Yüz Yıl Savaşları'nın bir cephesine dönüştü.",
+   "kaynak": "J. Valdeón Baruque, \"Enrique II\", RAH DB~e (biografias/15073); aynı yazar, \"Pedro I de Castilla\", RAH DB~e 35772",
+   "dogrulama": "RAH 15073: 'Unos días después, el 5 de abril, Enrique se coronó rey de Castilla en el monasterio de las Huelgas'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1367-04-03",
+   "gun": "3 Nisan 1367 (RAH)",
+   "b": "Nájera Savaşı — Kara Prens'in desteğiyle I. Pedro tahtını geri aldı",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "kastilya-ic-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "ingiltere"
+   ],
+   "d": "Libourne antlaşmasıyla Kara Prens'i yanına çeken I. Pedro, Navarra'dan geçen İngiliz-Gaskon ordusuyla Nájera'da Trastámara kuvvetlerini ağır bir yenilgiye uğrattı; Du Guesclin esir düştü, Enrique Fransa'ya kaçtı. Ancak Kara Prens aynı yaz ödenmeyen masraflar yüzünden çekilince zaferin getirisi kısa sürdü.",
+   "kaynak": "J. Valdeón Baruque, \"Pedro I de Castilla\" ve \"Enrique II\", RAH DB~e 35772 / 15073",
+   "dogrulama": "RAH 35772: 'El día 3 de abril de dicho año ... derrotaron a los trastamaristas ... en ... Nájera'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1369-03-23",
+   "gun": "22/23 Mart 1369 gecesi (RAH; López de Ayala kroniği '23 Mart'). Montiel meydan savaşı 14 Mart 1369",
+   "b": "Montiel — I. Pedro öldürüldü, Trastámara hanedanı tahta yerleşti",
+   "tur": "hanedan",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "hanedan",
+    "kastilya-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "14 Mart'ta Montiel önünde yenilen I. Pedro kaleye sığındı; 22-23 Mart gecesi Du Guesclin'in çadırında üvey kardeşi Enrique ile yüz yüze gelince boğuşmada öldürüldü. Kastilya iç savaşı Trastámara zaferiyle bitti ve II. Enrique'nin hanedanı Kastilya'yı (sonra Aragon'u da) 1504'e dek yönetti.",
+   "kaynak": "J. Valdeón Baruque, \"Pedro I de Castilla\" ve \"Enrique II\", RAH DB~e 35772 / 15073",
+   "dogrulama": "RAH 35772: 'El 14 de marzo de 1369, los dos bandos pelearon', 'en la noche del 22 al 23 de marzo de 1369'; RAH 15073 López de Ayala alıntısı: 'morió el Rey Don Pedro á veinte é tres de marzo'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1372-01-01",
+   "gun": "gün yok: RAH yalnız 1372; ikincil kaynaklar 22-23 ya da 23-24 Haziran der — ayrışıyor, yazılmadı",
+   "b": "La Rochelle deniz zaferi — Kastilya galeleri İngiliz filosunu yendi",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "yuz-yil-savaslari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "ingiltere",
+    "fransa"
+   ],
+   "d": "II. Enrique, tahtını borçlu olduğu Fransa'yla Kasım 1368 Toledo paktıyla kurduğu ittifak gereği Yüz Yıl Savaşları'na deniz gücüyle katıldı. Kastilya galeleri La Rochelle önünde Pembroke kontunun İngiliz filosunu dağıtıp kontu esir aldı; bu, Kastilya donanmasının Atlantik'teki ağırlığını gösteren ilk büyük zaferdi ve Fransa'nın Poitou'yu geri almasının önünü açtı.",
+   "kaynak": "J. Valdeón Baruque, \"Enrique II\", RAH DB~e (biografias/15073), López de Ayala kroniğine atıfla",
+   "dogrulama": "RAH 15073: 'la aplastante victoria de La Rochela (1372)'; 'Pacto de Toledo' Kasım 1368",
+   "guven": "orta"
+  },
+  {
+   "t": "1379-05-29",
+   "gun": "29 Mayıs 1379 (RAH, I. Juan biyografisi); II. Enrique biyografisinin künyesi yalnız 'V.1379' der",
+   "b": "II. Enrique öldü, I. Juan Kastilya kralı oldu",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Trastámara hanedanının kurucusu II. Enrique, Navarra ile Santo Domingo de la Calzada barışını yaptığı yıl aynı kasabada öldü. Oğlu I. Juan tahta geçti ve geleneği aşarak 25 Temmuz'da Las Huelgas'ta kendini taç giydirdi.",
+   "kaynak": "L. Suárez Fernández, \"Juan I de Castilla\", RAH DB~e (biografias/24976); J. Valdeón Baruque, \"Enrique II\", RAH DB~e 15073",
+   "dogrulama": "RAH 24976: 'Muerto Enrique II el 29 de mayo de 1379, le sucedió en el trono'; '25 de julio ... se hizo coronar en Las Huelgas'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1383-01-01",
+   "gun": "yalnız yıl (Segovia Cortes'i 1383; RAH)",
+   "b": "Segovia Cortes'i İspanyol Takvimi'ni kaldırıp Milâdî takvimi getirdi",
+   "tur": "reform",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "reform",
+    "takvim",
+    "konu-kultur"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "I. Juan'ın 1383 Segovia Cortes'i, belgelerde yüzyıllardır kullanılan ve Milâttan 38 yıl önceden başlayan 'Era hispánica' yerine İsa'nın doğumundan sayılan takvimi resmîleştirdi. Aynı Cortes, Aragon'un saray teşkilatını örnek alan bir idari reform sürecinin de başlangıcıydı.",
+   "kaynak": "L. Suárez Fernández, \"Juan I de Castilla\", RAH DB~e (biografias/24976)",
+   "dogrulama": "RAH 24976: 'Cortes de Segovia de 1383 —en que se cambió la Era hispánica por la del Nacimiento de Cristo—'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1388-07-22",
+   "gun": "22 Temmuz 1388 (RAH, III. Enrique biyografisi); başka tarih veren kaynaklar olabilir, ikinci kaynakla sınanmadı",
+   "b": "Bayonne Antlaşması — Lancaster'ın taht iddiası evlilikle kapandı",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "yuz-yil-savaslari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "ingiltere"
+   ],
+   "d": "I. Pedro'nun kızıyla evli olduğu için Kastilya tahtını talep eden Gantlı John (Lancaster dükü), 1386'da Galiçya'ya çıktığı halde halkı yanına çekemedi. Bayonne'da varılan anlaşmayla veliaht Enrique, Lancaster'ın kızı Catalina ile evlendi; dük yüklü bir tazminat karşılığı iddiasından vazgeçti. Böylece Trastámara hanedanının meşruiyeti üzerindeki tartışma kapandı.",
+   "kaynak": "M. T. Martialay Sacristán – F. Suárez Bilbao, \"Enrique III\", RAH DB~e (biografias/15076); L. Suárez Fernández, \"Juan I de Castilla\", RAH DB~e 24976",
+   "dogrulama": "RAH 15076: 'Este matrimonio se había realizado en virtud del Tratado de Bayona de 22 de julio de 1388'; RAH 24976 Lancaster'ın Galiçya çıkarması (Temmuz 1386). 'Asturias prensi' unvanı RAH 15076'da doğrudan okunmadı — bu cümle orta güvenli",
+   "guven": "orta"
+  },
+  {
+   "t": "1390-10-09",
+   "gun": "9 Ekim 1390 (RAH)",
+   "b": "I. Juan attan düşüp öldü — III. Enrique'nin vesayet dönemi başladı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "I. Juan, Alcalá de Henares'te atının tökezlemesiyle yere düşerek anında öldü. On bir yaşındaki III. Enrique için Ocak 1391 Madrid Cortes'i bir vesayet konseyi kurdu; hazine boştu, Portekiz'le ateşkes kırılgandı ve aynı yıl Yahudi katliamları patlak verdi.",
+   "kaynak": "L. Suárez Fernández, \"Juan I de Castilla\", RAH DB~e 24976; M. T. Martialay – F. Suárez Bilbao, \"Enrique III\", RAH DB~e 15076",
+   "dogrulama": "RAH 24976 künye: 'Alcalá de Henares (Madrid), 9.X.1390'; metin: 'Su caballo tropezó arrojando al jinete'; RAH 15076: 'Ordenamiento de Cortes de 31 de enero de 1391'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1402-01-01",
+   "gun": "yalnız yıl (1402, La Rochelle'den hareket; Lobo Cabrera). Britannica 1 Mayıs 1402 der ama sayfa 403 verdi, doğrulanamadı",
+   "b": "Béthencourt seferi — Kanarya Adaları'nın fethi başladı",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "atlantik-genislemesi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Normandiyalı şövalye Jean de Béthencourt, Gadifer de La Salle ile birlikte Kanarya Adaları'nı fethetmek üzere La Rochelle'de sefer hazırlığına girişti ve aynı yıl takımadaya ulaştı. Senyörlük esasıyla yürütülen fetih, adaların Kastilya tacının hükümranlığı altına girmesinin başlangıcı sayılır; Kastilya'nın Kanaryalar üzerindeki hakkı 1479 Alcáçovas antlaşmasında Portekiz'e de kabul ettirildi.",
+   "kaynak": "M. Lobo Cabrera (Universidad de Las Palmas de Gran Canaria), \"El caballero normando Juan de Bethencourt\", Archivo Histórico Municipal de Teguise; J. L. Ferreira, \"Treaty of Alcáçovas-Toledo\", Enciclopédia Virtual da Expansão Portuguesa (FCSH-UNL)",
+   "dogrulama": "archivoteguise.es sayfası WebFetch ile okundu: 'En 1402 Juan de Bethencourt, partió con destino a ... La Rochelle'; Enrique III'e biat tarihi bu kaynakta YOK, bu yüzden 'kral unvanı/biat' iddiası yazılmadı; eve.fcsh.unl.pt Kanaryaların Kastilya'ya kaldığını teyit eder",
+   "guven": "orta"
+  },
+  {
+   "t": "1403-05-22",
+   "gun": "22 Mayıs 1403 El Puerto de Santa María'dan denize açılış (Markham; Casa Asia). Elçiler 21 Mayıs Pazartesi limana varmıştı",
+   "b": "Clavijo elçiliği — III. Enrique'nin heyeti Semerkant'a, Timur'a yola çıktı",
+   "tur": "diplomasi",
+   "onem": 3,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "diplomasi",
+    "timur-elciligi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "timurlu"
+   ],
+   "d": "Ankara Savaşı'ndan sonra Timur'un gönderdiği elçiye karşılık III. Enrique, saray görevlisi Ruy González de Clavijo başkanlığında bir heyeti Semerkant'a yolladı; amaç Osmanlılara karşı bir yakınlaşma kurmaktı. Heyet Rodos, İstanbul ve Trabzon üzerinden Semerkant'a ulaştı; Clavijo'nun seyahatnamesi Timur sarayını ve Anadolu-İran yollarını anlatan en değerli Avrupa tanıklıklarındandır. Timur'un kısa süre sonra ölümü ilişkiyi sürdürmeyi olanaksız kıldı.",
+   "kaynak": "C. R. Markham (çev.), Narrative of the Embassy of Ruy Gonzalez de Clavijo to the Court of Timour at Samarcand, A.D. 1403-6, Hakluyt Society, London 1859 (giriş); Casa Asia Mediateca, \"Ruy González de Clavijo\" biyografi föyü",
+   "dogrulama": "archive.org narrativeembass00markgoog djvu metni: 'they sailed from the port of Seville, on the 22nd of May, 1403' ve metin içinde 'On Monday, which was the 21st day of the month of May ... arrived at the port of St. Mary'; Casa Asia PDF: 'partió del Puerto de Santa María (Cádiz) el 22 de mayo de 1403'. TDV `timur` maddesinde Clavijo bulunamadı. Mevcut veride Clavijo YOK (grep)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1406-12-25",
+   "gun": "25 Aralık 1406 (RAH)",
+   "b": "III. Enrique öldü — iki yaşındaki II. Juan'ın uzun vesayeti başladı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Hastalıklı yapısı yüzünden 'el Doliente' denen III. Enrique Toledo'da genç yaşta öldü. Vasiyetiyle yönetim, kraliçe Catalina ile kralın kardeşi Fernando'ya (sonraki Antequeralı Fernando) ortaklaşa bırakıldı; bu ikili naiplik, Aragon'un 'infante'lerinin Kastilya siyasetine yarım yüzyıl hâkim olmasının kapısını açtı.",
+   "kaynak": "V. Álvarez Palenzuela, \"Juan II de Castilla\", RAH DB~e (biografias/25005); \"Enrique III\", RAH DB~e 15076",
+   "dogrulama": "RAH 25005: 'La temprana muerte de Enrique III, en Toledo, el 25 de diciembre de 1406'; vasiyetin naiplik hükmü aynı metinde",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1410-01-01",
+   "gun": "gün yok: RAH 'Eylül 1410'da teslim oldu' der; TDV yalnız 1410",
+   "b": "Naip Fernando Entekīre'yi (Antequera) aldı",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "girnata-siniri",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "granada"
+   ],
+   "d": "Gırnata'yla ateşkesin bitmesi üzerine naip Fernando, emirliğin iç yollarını denetleyen Entekīre'yi kuşattı; beklenenden uzun süren kuşatmanın sonunda şehir Eylül'de teslim oldu. Zafer Fernando'ya 'Antequeralı' lakabını ve iki yıl sonra Aragon tahtına giden yolda büyük prestij kazandırdı; şehirden göçen müslümanlar Gırnata'da aynı adı taşıyan bir mahalle kurdu.",
+   "kaynak": "TDV `girnata` ('1410'da Entekīre'den (Antequera) göçenler ... yeni bir mahalle kurdular'); V. Álvarez Palenzuela, \"Juan II de Castilla\", RAH DB~e 25005",
+   "dogrulama": "TDV girnata önbelleğe çekildi ve okundu; RAH 25005: 'Antequera resistió hasta septiembre, pero al fin se rindió'. Müstakil TDV slug'ları antakira/antakire/entekire 302",
+   "guven": "orta"
+  },
+  {
+   "t": "1420-07-14",
+   "gun": "14 Temmuz 1420 (RAH)",
+   "b": "Tordesillas darbesi — infante Enrique genç kral II. Juan'ı ele geçirdi",
+   "tur": "siyaset",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "siyaset",
+    "aragon-infanteleri",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Kardeşi Juan'ın Navarra'da evlenmek için ülkede olmamasından yararlanan Aragonlu infante Enrique, Tordesillas'ta II. Juan'ın şahsına el koydu. Darbe 'Aragon infanteleri' arasındaki bölünmeyi açığa çıkardı ve bu boşlukta kralın gözdesi Álvaro de Luna kraliyet otoritesinin fiilî taşıyıcısı olarak yükseldi.",
+   "kaynak": "V. Álvarez Palenzuela, \"Juan II de Castilla\", RAH DB~e (biografias/25005)",
+   "dogrulama": "RAH 25005: 'El 14 de julio de 1420 ... Enrique se apoderó de la persona del rey de Castilla, en Tordesillas'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1445-05-19",
+   "gun": "19 Mayıs 1445 (RAH, iki biyografide aynı)",
+   "b": "Olmedo Savaşı — Aragon infanteleri Kastilya'dan tasfiye edildi",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "savas",
+    "aragon-infanteleri",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Kastilya'da iktidarı yeniden ele geçirmek için orduyla giren infante Juan (Navarra kralı) ve kardeşi Enrique, Olmedo'da II. Juan, veliaht Enrique ve Álvaro de Luna'nın kuvvetlerine yenildi. Zafer Aragonlu Trastámaraların Kastilya'daki nüfuzunu bitirdi, ama gücü krala değil bir soylular birliğine taşıdı.",
+   "kaynak": "V. Álvarez Palenzuela, \"Juan II de Castilla\", RAH DB~e 25005; L. Suárez Fernández, \"Enrique IV\", RAH DB~e 15077",
+   "dogrulama": "RAH 25005: 'fueron derrotados en Olmedo el 19 de mayo de 1445'; RAH 15077: 'batalla de Olmedo (19 de mayo de 1445)'. Enrique'nin yaradan ölümü RAH metninde doğrudan okunmadı — orta",
+   "guven": "orta"
+  },
+  {
+   "t": "1453-06-02",
+   "gun": "2 Haziran 1453 (RAH, Álvaro de Luna biyografisi künyesi); RAH II. Juan biyografisi 3 Haziran der — çelişki bildirilir",
+   "b": "Kontostabl Álvaro de Luna Valladolid'de idam edildi",
+   "tur": "siyaset",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "siyaset",
+    "alvaro-de-luna",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Otuz yıl II. Juan'ın adına Kastilya'yı yöneten kontostabl ve Santiago tarikatı ustası Álvaro de Luna, soyluların ve kraliçenin baskısıyla gözden düşürülüp Valladolid'de kafası kesilerek idam edildi. Kral kararı iki hafta sonra ülkeye resmen duyurdu; kendisi de ertesi yıl öldü.",
+   "kaynak": "V. Á. Álvarez Palenzuela, \"Álvaro de Luna\", RAH DB~e (biografias/27650); V. Álvarez Palenzuela, \"Juan II de Castilla\", RAH DB~e 25005",
+   "dogrulama": "RAH 27650 künye: 'Valladolid, 2.VI.1453'; RAH 25005: 'Don Álvaro fue ejecutado en Valladolid el 3 de junio de 1453'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1454-07-21",
+   "gun": "21 Temmuz 1454 (RAH II. Juan künyesi); RAH IV. Enrique biyografisi 22 Temmuz der — çelişki bildirilir",
+   "b": "II. Juan öldü, IV. Enrique Kastilya tahtına çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "kastilya-taht",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "II. Juan Valladolid'de öldü; yerine ilk evliliğinden oğlu IV. Enrique geçti. İkinci evliliğinden doğan küçük çocukları Alfonso ve İsabel, anneleriyle Arévalo'ya gönderildi; bu üvey kardeşler sonraki on yıllarda taht mücadelesinin odağı olacaktı.",
+   "kaynak": "V. Álvarez Palenzuela, \"Juan II de Castilla\", RAH DB~e 25005; L. Suárez Fernández, \"Enrique IV\", RAH DB~e 15077",
+   "dogrulama": "RAH 25005 künye 'Valladolid, 21.VII.1454'; RAH 15077: 'Fallecido Juan II el 22 de julio de 1454'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1465-06-05",
+   "gun": "5 Haziran 1465 (RAH)",
+   "b": "Ávila Farsı — soylular IV. Enrique'yi kukla üzerinden tahttan indirdi",
+   "tur": "isyan",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "isyan",
+    "kastilya-veraset",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Kralın kızı Juana'nın meşruiyetini reddeden Villena markisi Pacheco, Toledo başpiskoposu Carrillo ve müttefikleri, Ávila surları önüne kurdukları sahnede kralı temsil eden bir kuklayı tahttan indirip on bir yaşındaki üvey kardeş Alfonso'yu 'XII. Alfonso' ilan ettiler. Böylece Kastilya iki kralın çekiştiği bir iç savaşa girdi.",
+   "kaynak": "L. Suárez Fernández, \"Enrique IV\", RAH DB~e (biografias/15077)",
+   "dogrulama": "RAH 15077: 'el 5 de junio de 1465, habiendo alzado un tablado junto a las murallas de Ávila, con un monigote'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1468-09-19",
+   "gun": "19 Eylül 1468 Guisando'da tören; mutabakat 18 Eylül Cadalso/Cebreros'ta imzalandı (RAH)",
+   "b": "Guisando Boğaları uzlaşması — İsabel veliaht tanındı",
+   "tur": "siyaset",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "siyaset",
+    "kastilya-veraset",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "kastilya",
+   "d": "Asi soyluların kralı Alfonso'nun 5 Temmuz 1468'de ölümünden sonra IV. Enrique, kız kardeşi İsabel'i 'Asturias prensesi' olarak tanıdı; Juana'nın veraset hakkı bu uzlaşmayla yok sayıldı. İsabel'in bir yıl sonra kralın rızası olmadan Aragon veliahdı Fernando ile evlenmesi uzlaşmayı bozdu, ama İsabel'in tahta giden hukuki dayanağı burada kuruldu.",
+   "kaynak": "L. Suárez Fernández, \"Enrique IV\", RAH DB~e (biografias/15077)",
+   "dogrulama": "RAH 15077: 'Cadalso/Cebreros, el 18 de septiembre de 1468'; 'En la explanada de Guisando, el 19 de septiembre'; 'Murió ... Alfonso XII, el 5 de julio de 1468'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1476-03-01",
+   "gun": "1 Mart 1476 (RAH)",
+   "b": "Toro Savaşı — Kastilya veraset savaşında İsabel tarafı üstün geldi",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "kastilya-veraset-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "kastilya",
+    "portekiz"
+   ],
+   "d": "IV. Enrique'nin ölümünden sonra kızı Juana Trujillo'da kraliçe ilan edilmiş ve dayısı Portekiz kralı V. Afonso ile nişanlanmıştı; Portekiz ordusu Kastilya'ya girdi. Fernando'nun Toro'da kazandığı zafer, soyluların ve kentlerin büyük kısmını İsabel'in yanında tuttu ve savaşın gidişatını belirledi.",
+   "kaynak": "L. Suárez Fernández, \"Isabel I\", RAH DB~e (biografias/24039)",
+   "dogrulama": "RAH 24039: 'culminó con la victoria de Fernando en Toro el 1 de marzo de 1476'; Juana'nın Trujillo'da ilanı aynı metinde",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1479-09-04",
+   "gun": "4 Eylül 1479 imza; Portekiz onayı 8 Eylül 1479, Katolik Krallar onayı 6 Mart 1480 Toledo",
+   "b": "Alcáçovas Antlaşması — Kastilya veraset savaşı bitti, Atlantik paylaşıldı",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "kastilya-veraset-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "ispanya",
+    "portekiz"
+   ],
+   "d": "Alcáçovas'ta imzalanan antlaşmayla V. Afonso Kastilya tahtı iddiasından, Katolik Krallar da Portekiz tahtından vazgeçti; Katolik Kralların kızı İsabel'in Portekiz veliahdının oğluyla evlenmesi kararlaştırıldı. Kanarya Adaları Kastilya'ya kalırken Portekiz, Gine ve bulunmuş-bulunacak Atlantik topraklarında seyrüsefer tekelini tanıttı; bu, deniz alanlarının nüfuz bölgelerine ilk bölüşümüdür ve Tordesillas'ın öncülüdür. (Kastilya künyesi 1479-01-20'de bittiği için madde ispanya'ya bağlandı.)",
+   "kaynak": "J. L. Ferreira, \"Treaty of Alcáçovas-Toledo\", Enciclopédia Virtual da Expansão Portuguesa (FCSH – Universidade Nova de Lisboa, eve.fcsh.unl.pt); L. Suárez Fernández, \"Isabel I\", RAH DB~e 24039 (yalnız yıl)",
+   "dogrulama": "eve.fcsh.unl.pt WebFetch: imza 4 Eylül 1479, onay 6 Mart 1480, Kanaryalar Kastilya'da, 'first division of marine territory in spheres of influence'. 8 Eylül Portekiz onayı yalnız arama özetinde — orta. Mevcut veride Alcáçovas YOK | İsabel'in evliliği RAH 24039: 'la primogénita ... Isabel, se casaría con el nieto de Alfonso'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1284-08-16",
+   "gun": "16 Ağustos 1284 (RAH)",
+   "b": "I. Juana, Fransız veliahdı Philippe ile evlendi — Navarra Fransız tacına bağlandı",
+   "tur": "hanedan",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "hanedan",
+    "navarra-fransa-birligi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "navarra",
+    "fransa"
+   ],
+   "d": "Babası I. Enrique'nin 1274'teki ölümüyle bir yaşında Navarra ve Şampanya'nın vârisi olan Juana, Kastilya ve Aragon'un baskısından korunmak için Fransız sarayına emanet edilmiş; krallığın yönetimi 1275'ten beri fiilen Fransa'daydı. Veliaht Philippe (IV. Philippe) ile evliliğinden sonra çift Navarra'yı birlikte yönetti ve ertesi yıl Fransa'nın da hükümdarı oldu; Navarra 1328'e dek Fransız krallarınca uzaktan valilerle yönetildi.",
+   "kaynak": "J. Carrasco Pérez, \"Juana I de Navarra y de Francia\", RAH DB~e (biografias/24946)",
+   "dogrulama": "RAH 24946: 'El 16 de agosto de 1284 se celebró la boda y desde entonces el nuevo matrimonio pasó a gobernar Navarra'; 1275 devri aynı metinde",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1328-05-01",
+   "gun": "1 Mayıs 1328 Pamplona Curia General'i (RAH); öncesinde Puente la Reina meclisi 13-15 Mart 1328; taç giyme 5 Mart 1329 Pamplona",
+   "b": "Navarra Fransa'dan ayrıldı — II. Juana ve Évreux hanedanı tahta çağrıldı",
+   "tur": "hanedan",
+   "onem": 5,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "hanedan",
+    "navarra-evreux",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "navarra",
+    "fransa"
+   ],
+   "d": "IV. Charles'ın 1328'de erkek vârissiz ölmesi üzerine Navarra meclisleri Fransız memurlarını görevden aldı ve Pamplona'daki genel toplantıda X. Louis'nin kızı Juana'yı ve eşi Évreuxlü Philippe'i meşru hükümdar olarak tanıdı. Böylece 44 yıllık Fransa-Navarra birliği sona erdi; Juana ile Philippe 5 Mart 1329'da Pamplona katedralinde geleneksel kalkan üzerine kaldırılma töreniyle taç giydiler.",
+   "kaynak": "R. Ciganda Elizondo, \"Juana II de Navarra\", RAH DB~e (biografias/24947)",
+   "dogrulama": "RAH 24947: 'Curia General en Pamplona (1 de mayo de 1328) ... tomaron partido por Juana y su esposo'; 'Puente la Reina (13-15 de marzo de 1328)'; 'coronación ... catedral de Pamplona (5 de marzo de 1329)'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1349-10-06",
+   "gun": "6 Ekim 1349 II. Juana'nın ölümü (RAH); II. Carlos Pamplona'da 27 Haziran 1350'de kral ilan edilip taç giydi",
+   "b": "II. Juana öldü, 'Kötü' II. Carlos Navarra kralı oldu",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "navarra-evreux",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Kara Ölüm yıllarında II. Juana'nın ölümüyle Évreux kontu olarak Fransa'da büyümüş oğlu II. Carlos Navarra tahtına geçti; Pamplona'daki ilanına ilk kez kutsal yağla meshetme törenini ekletti. Saltanatı boyunca Normandiya'daki Fransız topraklarını ve Valois tahtına yakınlığını Navarra'nın küçük gücüyle birleştirerek Yüz Yıl Savaşları'nın hareketli oyuncularından biri oldu.",
+   "kaynak": "R. Ciganda Elizondo, \"Carlos II\", RAH DB~e (biografias/9668); \"Juana II de Navarra\", RAH DB~e 24947",
+   "dogrulama": "RAH 24947 künye 'Conflans (Francia), 6.X.1349'; RAH 9668: 'Carlos II fue proclamado Rey en Pamplona (27 de junio de 1350) incorporando ... la unción'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1364-05-16",
+   "gun": "16 Mayıs 1364 (RAH)",
+   "b": "Cocherel yenilgisi — II. Carlos'un Fransa'daki gücü kırıldı",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "yuz-yil-savaslari",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "navarra",
+    "fransa"
+   ],
+   "d": "1356'da Rouen'de Fransa kralınca tutuklanıp sonra kaçan II. Carlos, Normandiya topraklarını korumak için İngilizlerle birlikte savaştı; Navarra-İngiliz ordusu Cocherel'de Du Guesclin'e yenildi ve Normandiya'daki mülklerin çoğu işgal edildi. Yenilgi, Navarra kralının Fransız tahtı siyasetindeki yükselişini bitirdi ve ilgisini Kastilya-Aragon cephesine çevirdi.",
+   "kaynak": "R. Ciganda Elizondo, \"Carlos II\", RAH DB~e (biografias/9668)",
+   "dogrulama": "RAH 9668: 'La derrota del ejército anglo-navarro en Cocherel el 16 de mayo de 1364'; 'arrestó ... en Rouen ... el 5 de abril de 1356'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1379-03-31",
+   "gun": "31 Mart 1379 (RAH, iki biyografide aynı)",
+   "b": "Briones Antlaşması — Navarra Kastilya himayesine girdi",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "navarra-kastilya",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "navarra",
+    "kastilya"
+   ],
+   "d": "1378 yazında Kastilya ordusunun Pamplona'yı kuşatması ve Fransa'daki mülklerinin elden çıkmasıyla yalnız kalan II. Carlos, Briones'te ağır şartlı bir barış imzalamak zorunda kaldı; bir dizi Navarra kalesi Kastilya işgalinde kaldı. Antlaşma Navarra üzerinde fiilî bir Kastilya himayesi kurdu; şartları ancak 1383 El Espinar anlaşmasıyla yumuşatıldı.",
+   "kaynak": "R. Ciganda Elizondo, \"Carlos II\", RAH DB~e 9668; V. Á. Álvarez Palenzuela, \"Carlos III\", RAH DB~e 9671",
+   "dogrulama": "RAH 9668: 'firmó la humillante paz de Briones el 31 de marzo de 1379'; RAH 9671: 'el tratado de Briones, de 31 de marzo de 1379, que instala un verdadero protectorado castellano'. 'Kale teslimi' ayrıntısı RAH 9671 'plazas ocupadas' ifadesinden çıkarım — orta",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1387-01-01",
+   "gun": "1 Ocak 1387 II. Carlos'un ölümü (RAH) — gerçek gün, yer tutucu değil",
+   "b": "II. Carlos öldü, 'Soylu' III. Carlos Navarra tahtına geçti",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "navarra-evreux",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "II. Carlos'un ölümüyle tahta geçen III. Carlos, babasının maceracı siyasetini bırakıp Kastilya ve Fransa ile barışa dayalı bir denge kurdu. Fransa'daki iddialarını 1404'te Nemours dükalığı karşılığında bıraktı, Cherbourg'u geri alıp sattı ve krallığın maliyesini düzeltti; saltanatı Navarra'nın geç Orta Çağ'daki en sakin dönemi sayılır.",
+   "kaynak": "V. Á. Álvarez Palenzuela, \"Carlos III\", RAH DB~e (biografias/9671); R. Ciganda Elizondo, \"Carlos II\", RAH DB~e 9668",
+   "dogrulama": "RAH 9671: 'el 1 de enero de 1387, fallecía Carlos II'; 'ducado de Nemours' ve Cherbourg satışı aynı metinde (1404 yılı bağlamdan)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1423-01-01",
+   "gun": "yalnız yıl (RAH: Viana prensliği unvanı ve Pamplona Birlik İmtiyazı, ikisi de 1423)",
+   "b": "Viana prensliği kuruldu, Pamplona 'Birlik İmtiyazı' ile tek belediye oldu",
+   "tur": "idari",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "idari",
+    "navarra-kurumlar",
+    "konu-idari"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "III. Carlos, torunu Carlos için Navarra veliahtlarına özgü 'Viana prensi' unvanını yarattı. Aynı yıl çıkardığı Birlik İmtiyazı (Privilegio de la Unión) ile birbiriyle sürekli çatışan Pamplona'nın ayrı kent birimlerini tek bir belediye meclisi altında birleştirdi; bu, bugünkü Pamplona'nın kuruluş belgesi sayılır.",
+   "kaynak": "V. Á. Álvarez Palenzuela, \"Carlos III\", RAH DB~e (biografias/9671)",
+   "dogrulama": "RAH 9671: 'para el que su abuelo había creado en 1423 el título de príncipe de Viana'; 'Privilegio de Unión, de 1423, por el que se unificaba la ciudad de Pamplona en concejo único'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1425-09-08",
+   "gun": "8 Eylül 1425 III. Carlos'un ölümü (RAH künyesi ve II. Juan biyografisi); RAH I. Blanca biyografisi 7 Eylül der — çelişki bildirilir",
+   "b": "I. Blanca ve eşi Juan (Aragonlu) Navarra tahtına geçti",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "navarra-trastamara",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "III. Carlos'un Olite'de ölümüyle kızı Blanca kraliçe, eşi Aragon infantesi Juan ise kral ilan edildi; taç giyme 1429'a dek ertelendi. Juan Navarra'yı Kastilya'daki 'infanteler' mücadelesinin üssü olarak kullandı ve krallığı Kastilya savaşlarına sürükledi; 1419 evlilik sözleşmesinin belirsizliği ileride oğlu Carlos ile veraset kavgasının tohumu oldu.",
+   "kaynak": "J. Utrilla Utrilla, \"Juan II de Aragón y de Navarra\", RAH DB~e (biografias/25004); M. L. Bueno Domínguez, \"Blanca I de Navarra\", RAH DB~e 6953; V. Á. Álvarez Palenzuela, \"Carlos III\", RAH DB~e 9671",
+   "dogrulama": "RAH 25004: 'El 8 de septiembre de 1425 murió Carlos III, y Juan fue proclamado como rey de Navarra ... en Tarazona'; RAH 6953: 'El 7 de septiembre de 1425 Blanca I y Juan II sucedían ... aunque la coronación se retrasó hasta 1429'; RAH 9671 künye 8.IX.1425",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1441-05-01",
+   "gun": "1 Mayıs 1441 (RAH, II. Juan biyografisi); Blanca biyografisi künyesi yalnız 'V.1441'",
+   "b": "I. Blanca öldü — Juan tahtı bırakmadı, veraset kavgası başladı",
+   "tur": "kriz",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "kriz",
+    "navarra-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Kraliçe Blanca'nın Santa María de Nieva'da ölümünden sonra Navarra yasalarına göre taç oğlu Viana prensi Carlos'a geçmeliydi; ancak Blanca vasiyetinde oğlundan babasının rızası olmadan tahtı istememesini dilemişti. Juan kral unvanını bırakmadı; Navarra, Carlos'u destekleyen beaumontlular ile Juan'ı destekleyen agramontlular diye iki kampa bölündü.",
+   "kaynak": "J. Utrilla Utrilla, \"Juan II de Aragón y de Navarra\", RAH DB~e 25004; M. L. Bueno Domínguez, \"Blanca I de Navarra\", RAH DB~e 6953",
+   "dogrulama": "RAH 25004: 'El 1 de mayo de 1441 moría en el monasterio de Santa María de Nieva (Segovia) Blanca de Navarra'; 'agramonteses y los beamonteses'; RAH 6953: 17 Şubat 1439 vasiyeti",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1451-10-23",
+   "gun": "23 Ekim 1451 (RAH)",
+   "b": "Aibar Savaşı — Navarra iç savaşında Viana prensi esir düştü",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "savas",
+    "navarra-ic-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Babası tarafından naiplikten uzaklaştırılan Viana prensi Carlos, beaumontlularla ve Kastilya'nın desteğiyle silaha sarıldı; Aibar'da agramontlu kuvvetlere yenilerek esir alındı. Savaş, Navarra'yı yıllarca sürecek bir iç savaşa sokan agramontlu-beaumontlu çekişmesini kanlı biçimde kurumsallaştırdı.",
+   "kaynak": "J. Utrilla Utrilla, \"Juan II de Aragón y de Navarra\", RAH DB~e (biografias/25004)",
+   "dogrulama": "RAH 25004: 'la derrota de los beamonteses en Aybar, el 23 de octubre de 1451, en la que el propio príncipe fue hecho prisionero'. Kastilya desteği arama özetinden — orta",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1455-12-03",
+   "gun": "3 Aralık 1455, Barcelona (RAH)",
+   "b": "Barcelona kararı — Juan, Viana prensini mirastan çıkarıp tahtı Leonor'a verdi",
+   "tur": "hanedan",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hanedan",
+    "navarra-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Juan, Barcelona'da imzaladığı düzenlemeyle oğlu Carlos'u ve büyük kızı Blanca'yı Navarra tahtından yoksun bırakıp küçük kızı Leonor ile eşi Foix kontu IV. Gaston'u vâris ve naip yaptı. Karar Navarra'yı Foix hanedanına bağlayan yolu açtı, ama beaumontluların direnişini de uzattı.",
+   "kaynak": "J. Utrilla Utrilla, \"Juan II de Aragón y de Navarra\", RAH DB~e 25004; E. Ramírez Vaquero, \"Leonor de Navarra\", RAH DB~e 25703",
+   "dogrulama": "RAH 25004: 'el 3 de diciembre de 1455 en Barcelona, la sucesión al trono navarro, desheredando ... a Carlos de Viana y a su hermana Blanca, en beneficio de su hija menor Leonor, casada con Gastón IV de Foix'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1461-09-23",
+   "gun": "23 Eylül 1461, Barcelona (RAH)",
+   "b": "Viana prensi Carlos Barcelona'da öldü",
+   "tur": "olum",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "olum",
+    "navarra-ic-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Navarra tahtının meşru vârisi sayılan ve Katalonya'da babasına karşı bir direniş simgesine dönüşen Viana prensi Carlos, Barcelona'da veremden beklenmedik biçimde öldü. Ölümü zehirlenme söylentileriyle efsaneleşti; Navarra'da meşruiyet davasının, Katalonya'da ise II. Juan'a karşı iç savaşın bayrağı oldu.",
+   "kaynak": "J. Utrilla Utrilla, \"Juan II de Aragón y de Navarra\", RAH DB~e (biografias/25004)",
+   "dogrulama": "RAH 25004: 'el 23 de septiembre de 1461 murió de tuberculosis el príncipe Carlos, en extrañas circunstancias'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1479-01-19",
+   "gun": "19 Ocak 1479 II. Juan'ın ölümü (RAH); Leonor 12 Şubat 1479'da öldü",
+   "b": "II. Juan öldü — Leonor on beş günlük kraliçe, taç Foix'lı Francisco Febo'ya geçti",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "navarra-foix",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "II. Juan'ın Barcelona'da ölümüyle Aragon tacı oğlu Fernando'ya, Navarra ise kızı Leonor'a kaldı; Leonor Cortes'in yeminini aldıktan yaklaşık on beş gün sonra öldü. Taç, Foix kontluğunu da taşıyan küçük torunu Francisco Febo'ya geçti; böylece Navarra ile Aragon'un yolları ayrıldı ve Navarra Pirene ötesi Foix-Béarn topraklarına bağlandı.",
+   "kaynak": "E. Ramírez Vaquero, \"Leonor de Navarra\", RAH DB~e (biografias/25703); J. Utrilla Utrilla, \"Juan II de Aragón y de Navarra\", RAH DB~e 25004",
+   "dogrulama": "RAH 25004: 'murió en Barcelona el día 19 de enero de 1479'; 'Su hija Leonor ... le sucedió en el reino de Navarra'; RAH 25703 künye '12.II.1479', 'su reinado apenas duró ... unos quince días ... dejando la Corona para su nieto Francisco Febo'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1484-01-01",
+   "gun": "gün yok: RAH 'Haziran 1484, Lescar katedrali'",
+   "b": "Kraliçe Catalina, Jean d'Albret ile evlendi — Albret hanedanı",
+   "tur": "hanedan",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hanedan",
+    "navarra-albret",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Kardeşi Francisco Febo'nun 1483'teki ölümüyle tahta geçen Catalina de Foix, Lescar katedralinde Albret senyörü Jean ile evlendi. Evlilik Navarra, Foix, Béarn ve Albret topraklarını tek hanedanda topladı; ama küçük krallığı İspanya ile Fransa arasında daha da kırılgan bir konuma itti. Çift ancak 1494'te Pamplona'da taç giyebildi.",
+   "kaynak": "C. Juanto Jiménez, \"Juan III de Albret\", RAH DB~e (biografias/1671)",
+   "dogrulama": "RAH 1671: 'La fusión del señorío de Albret ... se produjo en junio de 1484 con el matrimonio de Juan de Albret y Catalina de Foix ... catedral de Lescar'; 'coronados en el año 1494'. Francisco Febo'nun 1483 ölümü RAH metninde doğrudan okunmadı (arama özeti) — orta",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1515-06-11",
+   "gun": "11 Haziran 1515 Burgos Cortes'ine bildirim; kral 7 Temmuz 1515'te aynı Cortes'te teyit etti (Adot Lerga)",
+   "b": "Burgos Cortes'i — Yukarı Navarra Kastilya tacına katıldı",
+   "tur": "birlesme",
+   "onem": 5,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "birlesme",
+    "navarra-ilhak",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "ispanya",
+    "navarra"
+   ],
+   "d": "1512'de fethettiği Navarra'yı bir süre Aragon'a bağlı tutan Katolik Fernando, Alba dükü aracılığıyla Burgos'taki Kastilya Cortes'ine krallığı kızı Juana'ya bırakıp 'Kastilya, León ve Granada tacına' kattığını bildirdi. Navarra yasalarını ve kurumlarını korudu, ama Kastilya Kraliyet Konseyi'ne bağlandı; Navarra Cortes'i 1516'da ilişkiyi eşit iki krallık birliği olarak yorumladı. Albret hanedanı Pirene'nin kuzeyindeki Aşağı Navarra'da krallık iddiasını sürdürdü.",
+   "kaynak": "Á. Adot Lerga, \"La vinculación del Reino de Navarra a Castilla según la doble interpretación de las Cortes Generales de ambos territorios\", Araucaria 15/29 (2013), s. 255-263",
+   "dogrulama": "Makale PDF'i indirildi ve okundu: 'El 11 de junio de 1515 el duque de Alba notificaba a las Cortes castellanas, reunidas en Burgos'; 'acta de Cortes de Castilla, fechada el 7 julio de 1515'. Mevcut veride 1515 birleşmesi YOK",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1521-06-30",
+   "gun": "30 Haziran 1521 (RAH)",
+   "b": "Noáin Savaşı — Albret'lerin Navarra'yı geri alma girişimi çöktü",
+   "tur": "savas",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "navarra-ilhak",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "navarra",
+    "ispanya"
+   ],
+   "d": "Navarra'yı geri almak için birkaç girişimde bulunan II. Henri d'Albret'nin (Enrique II) kuvvetleri, Noáin'de İmparator V. Karl'ın ordusuna kesin biçimde yenildi; ardından Kastilya kuvvetleri Béarn'a ve Albret topraklarına misilleme seferi düzenledi. Yenilgi, Pirene'nin güneyindeki Navarra'nın kurtarılması umutlarına fiilen son verdi.",
+   "kaynak": "C. Juanto Jiménez, \"Enrique II de Albret\", RAH DB~e (biografias/15074)",
+   "dogrulama": "RAH 15074: 'la decisiva batalla de Noain de 30 de junio de 1521 terminó con las esperanzas de Enrique de recuperar la Navarra peninsular'. Pamplona'nın geçici geri alınışı ve Comuneros bağlantısı RAH metninde doğrudan okunmadı — orta | Béarn misillemesi RAH: 'se organizó una expedición para castigar Bearne'",
+   "guven": "orta"
+  },
+  {
+   "t": "1527-01-01",
+   "gun": "gün yok: RAH 'Eylül 1527'",
+   "b": "Aşağı Navarra (Ultrapuertos) Albret yönetimine döndü",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "asagi-navarra",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "navarra",
+    "ispanya"
+   ],
+   "d": "Pirene'nin kuzeyindeki 'altıncı merindad' Ultrapuertos'ta yeniden kurulan Kastilya yönetimi, Eylül 1527'de Aşağı Navarra soylularının bölgeyi II. Henri d'Albret adına ele geçirmesiyle çöktü. V. Karl bölgeyi açık bir feragat olmaksızın fiilen bıraktı; Albret'ler burada Navarra'nın kurumlarını taklit eden bir yönetimle krallık unvanlarını 1620'ye dek sürdürdüler.",
+   "kaynak": "C. Juanto Jiménez, \"Enrique II de Albret\", RAH DB~e (biografias/15074)",
+   "dogrulama": "RAH 15074: 'la restauración del gobierno castellano en Ultrapuertos sólo se mantuvo hasta septiembre de 1527 cuando la nobleza bajonavarra tomó todo Ultrapuertos en nombre de Enrique II'; 'nada se sabe sobre la renuncia expresa del Emperador'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1560-12-25",
+   "gun": "25 Aralık 1560, Noel Şükran Ayini, Pau (RAH, Bordenave'ye atıfla)",
+   "b": "Kraliçe III. Juana (Jeanne d'Albret) Kalvinizmi açıkça benimsedi",
+   "tur": "din",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "din",
+    "reform-kalvinizm",
+    "konu-dini"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "1555'ten beri eşi Antoine de Bourbon ile Navarra ve Béarn'ı yöneten III. Juana, Pau'da Noel ayininde Roma kilisesinden ayrılıp Reform kilisesine katıldığını açıkladı. Kararı Béarn ve Aşağı Navarra'yı Fransız Protestanlığının kalesine çevirdi; 1563 sinodu, 1566 kilise nizamnameleri ve Kutsal Kitap çevirileriyle krallık dinî bakımdan dönüştürüldü.",
+   "kaynak": "A. Floristán Imízcoz, \"Juana III de Albret\", RAH DB~e (biografias/24948)",
+   "dogrulama": "RAH 24948: Bordenave alıntısı 'El año 1560, en la Cena de Navidad, la reina Juana abjuró en Pau de la religión romana'; 'Sínodo de 1563', 'Ordenanzas Eclesiásticas (1566)'",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1571-01-01",
+   "gun": "yalnız yıl (1571)",
+   "b": "Leizarraga'nın Baskça Yeni Ahit çevirisi yayımlandı",
+   "tur": "kultur",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "kultur",
+    "bask-dili",
+    "konu-kultur"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "III. Juana'nın bizzat desteklediği Reform programı çerçevesinde Joanes Leizarraga, Yeni Ahit'i Baskçaya çevirdi. Çeviri, Reform'un halk dilinde yayılması politikasının parçasıydı ve Bask dilinin yazılı geleneğinde önemli bir yer tuttu; aynı dönemde Béarn diline de bir çeviri hazırlandı.",
+   "kaynak": "A. Floristán Imízcoz, \"Juana III de Albret\", RAH DB~e (biografias/24948)",
+   "dogrulama": "RAH 24948: 'la traducción del Nuevo Testamento al vascuence (Joanes de Lizarraga, 1571) y al bearnés (Armand de Salette) ... promovidas personalmente por la reina Juana'. 'İlk büyük eserlerden biri' değerlendirmesi RAH metninde yok — genel bilgi, orta",
+   "guven": "orta"
+  },
+  {
+   "t": "1572-06-09",
+   "gun": "9 Haziran 1572, Paris (RAH)",
+   "b": "III. Juana öldü — oğlu Henri (III. Enrique) Navarra kralı oldu",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "navarra-bourbon",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "navarra",
+   "d": "Oğlu Henri ile Marguerite de Valois'nın evliliğini hazırlamak için Paris'te bulunan III. Juana, düğünü göremeden öldü. Navarra tahtı Bourbon hanedanından oğlu Henri'ye geçti; aynı yaz Saint-Barthélemy katliamından sağ kurtulan Henri, 1589'da Fransa tahtına IV. Henri olarak çıktı ve Navarra ile Fransa taçları aynı başta birleşti.",
+   "kaynak": "A. Floristán Imízcoz, \"Juana III de Albret\", RAH DB~e (biografias/24948)",
+   "dogrulama": "RAH 24948 künye 'París (Francia), 9.VI.1572'; metin: 'falleció el 9 de junio, sin llegar a asistir a la boda de su hijo'; 'Enrique III de Borbón, roi de Navarre (1572-1610), ocupó el trono de Francia desde 1589'",
+   "guven": "yuksek"
+  }
+ ],
+ "zaten_var": [
+  {
+   "olay": "Aljubarrota Savaşı 1385 (Kastilya yenilgisi)",
+   "nerede": "data/kronoloji_ispanya.js 1385-08-14 + data/kronoloji_portekiz.js 1385-08-14. NOT: RAH 'Juan I de Castilla' (L. Suárez Fernández, 24976) günü 15 Ağustos 1385 verir — mevcut 14 Ağustos ile ÇELİŞİR, sahibine bildirilmeli"
+  },
+  {
+   "olay": "Río Salado Savaşı 1340",
+   "nerede": "data/kronoloji_ispanya.js 1340-10-30; künye:kastilya; künye:granada; kronoloji_kuzeyafrika.js"
+  },
+  {
+   "olay": "Merînîlerin Cebelitârık'ı geri alması 1333",
+   "nerede": "data/kronoloji_cok_fas.js 1333-01-01"
+  },
+  {
+   "olay": "Alcañices Antlaşması 1297 (Kastilya-Portekiz sınırı)",
+   "nerede": "data/kronoloji_sinir_avrupa_bati.js 1297-09-12"
+  },
+  {
+   "olay": "1391 Yahudi katliamları",
+   "nerede": "data/kronoloji_ispanya.js 1391-06-04"
+  },
+  {
+   "olay": "Caspe Uzlaşması 1412",
+   "nerede": "data/kronoloji_ispanya.js 1412-06-24"
+  },
+  {
+   "olay": "İsabel-Fernando evliliği 1469; İsabel'in ilanı 1474-12-13 (IV. Enrique'nin 11 Aralık 1474 ölümü ayrıca yazılmadı)",
+   "nerede": "data/kronoloji_ispanya.js; künye:kastilya"
+  },
+  {
+   "olay": "Kastilya-Aragon taçlarının birleşmesi 1479-01-20",
+   "nerede": "data/kronoloji_ispanya.js; künye:kastilya/aragon/ispanya"
+  },
+  {
+   "olay": "Kara Ölüm'ün genel yayılışı 1347-48",
+   "nerede": "kronoloji_altinorda/italya/fransa/ingiltere vb. — Kastilya tarafı yeni maddede XI. Alfonso'nun ölümüyle verildi"
+  },
+  {
+   "olay": "Lanzarotto Malocello'nun Kanaryalar'a ulaşması (1312)",
+   "nerede": "data/kronoloji_italya_sehir.js 1312-01-01"
+  },
+  {
+   "olay": "Güney (Yukarı) Navarra'nın fethi 1512-07-25",
+   "nerede": "data/kronoloji_ispanya.js + künye:navarra"
+  },
+  {
+   "olay": "Navarra kralı Henri'nin IV. Henri olarak Fransa tahtına çıkışı 1589",
+   "nerede": "data/kronoloji_fransa.js 1589-08-01 (III. Henri suikastı maddesi)"
+  },
+  {
+   "olay": "1620 Pau Fermanı — Aşağı Navarra ve Béarn'ın Fransa tacına katılması",
+   "nerede": "künye:navarra kronoloji 1620-10-19 'son'. ANLAM DOĞRULAMASI: künye bitişi fermanın Pau'da verildiği gün olarak tutarlı. F. R. Velde, 'France, Navarre, Béarn and Andorra' (heraldica.org): ferman 'Ekim 1620' tarihli, Navarra Egemen Konseyi'nce kralın huzurunda 20 Ekim 1620'de Pau'da tescil edildi; metin Navarra tacı ile Béarn, Andorra ve Donezan'ı 'Fransa tacı ve domenine' birleştirir. 19 Ekim günü bu kaynakta açıkça YOK (yalnız arama özeti); 20 Ekim tescil tarihidir. Künye günü değiştirilmemeli, ama 'Fransa kralları 1791'e dek Navarra kralı unvanını taşıdı' notu eklenebilir (bu not sınanmadı)"
+  },
+  {
+   "olay": "Cezîretülhadrâ",
+   "nerede": "başka taslakta birleştirildi (DERLE öncesi mükerrer)"
+  },
+  {
+   "olay": "Cebelitârık",
+   "nerede": "başka taslakta birleştirildi (DERLE öncesi mükerrer)"
+  }
+ ],
+ "bulunamadi": [
+  "La Higueruela Savaşı 1 Temmuz 1431 — RAH (Juan II) 'zafer + himayeli sultan' der, TDV `girnata` ise 'II. Juan şehri kuşattı, fakat ... şehre giremedi' der; TDV birincil ve çerçeve farklı, Gırnata ajanının alanına yakın — YAZILMADI",
+  "Tarîf 1292 kuşatmasının günü (13 Ekim 1292 yaygın) — RAH ve TDV gün vermiyor; madde yıl hassasiyetinde yazıldı",
+  "La Rochelle deniz savaşı 1372 günü — RAH yalnız yıl; ikincil kaynaklar 22-23/23-24 Haziran arasında ayrışıyor",
+  "Béthencourt'un III. Enrique'ye biat etmesi ve 'Kanarya kralı' unvanı (1403) — akademik kaynakta tarihle okunamadı (Britannica 403)",
+  "Ordenamiento de Alcalá'nın günü (1348) — RAH yalnız yıl",
+  "III. Carlos'un Nemours antlaşmasının (Paris, 1404) günü — RAH metninde gün yok",
+  "Pamplona Birlik İmtiyazı'nın günü (1423) — RAH yalnız yıl",
+  "Francisco Febo'nun ölümü (1483) ve Catalina'nın tahta çıkışı — RAH biyografisi (Catalina de Foix) bulunamadı; yalnız arama özeti var",
+  "Aşağı Navarra'nın V. Karl tarafından 1530 civarında bırakılması — RAH 'açık feragat bilinmiyor' der; tarih yazılmadı, 1527 maddesine katıldı",
+  "IV. Enrique döneminde Cebelitârık'ın alınış günü (20 Ağustos 1462 yaygın) — TDV yalnız yıl"
+ ]
+}

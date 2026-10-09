@@ -11,10 +11,11 @@ import sys
 import importlib.util
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.path.insert(0, r"C:\atlas\arac")
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 import girdi  # noqa: E402
 
-_spec = importlib.util.spec_from_file_location("h76", r"C:\atlas\denetim\HARITA-0076-sahip.py")
+_spec = importlib.util.spec_from_file_location("h76", os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "HARITA-0076-sahip.py"))
 _m = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_m)
 gun_no, sahip, isgal = _m.gun_no, _m.sahip, _m.isgal

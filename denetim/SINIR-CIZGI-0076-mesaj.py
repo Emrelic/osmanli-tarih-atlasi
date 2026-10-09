@@ -2,7 +2,8 @@
 """Tahtadan belirli mesaj(lar)i okur: py denetim/SINIR-CIZGI-0076-mesaj.py M-5019 [M-5020 ...]"""
 import json, sys
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
-d = json.load(open(r'C:\atlas\oturumlar\tahta.json', encoding='utf-8'))
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+d = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "tahta.json"), encoding='utf-8'))
 msgs = d['mesajlar'] if isinstance(d, dict) and 'mesajlar' in d else d
 istenen = set(sys.argv[1:])
 for m in msgs:

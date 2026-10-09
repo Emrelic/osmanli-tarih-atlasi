@@ -1,0 +1,791 @@
+{
+ "maddeler": [
+  {
+   "t": "1273-01-21",
+   "gun": "29 Cemâziyelâhir 671 / 21 Ocak 1273 — TDV'de tam gün (I. Muhammed'in ölümü)",
+   "b": "I. Muhammed öldü, oğlu II. Muhammed el-Fakīh tahta geçti",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Nasrî Devleti'nin kurucusu Gālib-Billâh I. Muhammed 21 Ocak 1273'te öldü; yerine ilmiyle tanındığı için 'Fakīh' diye anılan oğlu II. Muhammed geçti. Otuz yıla yaklaşan saltanatında devletin merkez ve taşra teşkilâtı ile vergi düzeni kuruldu.",
+   "kaynak": "TDV `nasriler` (İsmail Yiğit, 2006, DİA 32:420-424)",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler (ölüm günü + halef + teşkilat cümleleri okundu)",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1293-01-01",
+   "gun": "yalnız yıl: 692/1293 (TDV `meriniler`); gün ve ay bilinmiyor. Tarîf'in Kastilya'ya düşüşünün kendi günü TDV'de yok",
+   "b": "Tarîf Kastilya'da kalınca II. Muhammed yeniden Merînîler'e döndü",
+   "tur": "ittifak",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "ittifak",
+    "tarif",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "merini",
+    "kastilya"
+   ],
+   "d": "II. Muhammed, Merînîler'in Endülüs'teki üslerinden çekindiği için Kastilya Kralı IV. Sancho ile anlaşmış, karşılığında alınacak Tarîf'in kendisine bırakılmasını ummuştu. Kastilyalılar şehri alıp teslim etmeyince Nasrî sultanı Fas'a gidip Merînîlerle ittifakı yeniledi. Olay, Boğaz kıyısının Nasrîler için kalıcı olarak daralmasının başlangıcıdır.",
+   "kaynak": "TDV `meriniler` (692/1293) · TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/meriniler ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1299-01-01",
+   "gun": "yalnız yıl (TDV `nasriler`: 1299)",
+   "b": "II. Muhammed, Kastilya'ya karşı Aragon ile ittifak kurdu",
+   "tur": "ittifak",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "ittifak",
+    "aragon",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "aragon"
+   ],
+   "d": "Saltanatının son yıllarında II. Muhammed, Kastilya baskısını dengelemek için Aragon Krallığı ile ittifak yaptı. Bu adım, Nasrîlerin iki Hristiyan krallığı birbirine karşı kullanma siyasetinin erken örneğidir.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1302-01-01",
+   "gun": "yalnız yıl: 701 (1302) — TDV hükümdar listesi; 701 H. Eylül 1301–Ağustos 1302'yi kapsar, gün yok",
+   "b": "II. Muhammed öldü, III. Muhammed el-Mahlû tahta geçti",
+   "tur": "hukumdar",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "II. Muhammed'in ölümüyle oğlu III. Muhammed Nasrî tahtına çıktı. Kısa saltanatı Merînîlerle ilişkilerin bozulması ve Elhamra'daki Saray Mescidi gibi yapılarla anılır.",
+   "kaynak": "TDV `nasriler` (hükümdar listesi) · TDV `elhamra-sarayi`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/elhamra-sarayi",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1306-01-01",
+   "gun": "yalnız yıl: 705/1306 (TDV `nasriler`)",
+   "b": "Nasrîler Merînîlere ait Sebte'yi ele geçirdi",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "sebte",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "merini"
+   ],
+   "d": "III. Muhammed döneminde Merînîlerle ilişkiler koptu ve Nasrîler Boğaz'ın Afrika yakasındaki Sebte'yi (Ceuta) aldı. Şehir birkaç yıl sonra Merînîlerce geri alındı; olay iki müttefik hanedan arasındaki güvensizliği gösterir.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1309-01-01",
+   "gun": "yalnız yıl: 708/1309 (TDV `nasriler`); gün yok",
+   "b": "III. Muhammed tahttan indirildi, kardeşi Nasr (Ebü'l-Cüyûş) sultan oldu",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Saltanatının beşinci yılında III. Muhammed, kardeşi Ebü'l-Cüyûş Nasr tarafından tahttan indirildi. Yeni sultanın döneminde Sebte Merînîlere geri döndü ve Cebelitârık Kastilya'ya kaptırıldı.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1314-01-01",
+   "gun": "yalnız yıl: 713/1314 (TDV `nasriler`); gün yok",
+   "b": "Nasr'ın Kastilya'ya vergi tavizi üzerine ayaklanma: I. İsmâil tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Nasr, Merînîlerin Endülüs'e geçişini önlemek için Kastilya ile anlaşmış, fakat saldırıları durduramayınca vergi ödemeyi kabul etmişti. Bu taviz isyana yol açtı ve I. İsmâil tahtı ele geçirdi; on iki yıllık saltanatında iç istikrarı yeniden sağladı.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1318-01-01",
+   "gun": "yalnız yıl: TDV `nasriler` 1318 diyor; gün yok. (Başka literatürde farklı yıl geçebilir — doğrulanmadı)",
+   "b": "I. İsmâil Gırnata'ya saldıran Kastilya ordusunu ağır yenilgiye uğrattı",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "gırnata-savunmasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya"
+   ],
+   "d": "Gırnata üzerine yürüyen Kastilya kuvvetleri I. İsmâil karşısında ağır bir bozguna uğradı. Nasrîler bu zaferin ardından Kastilya'nın elindeki bazı merkezleri geri aldı.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "orta"
+  },
+  {
+   "t": "1321-01-01",
+   "gun": "yalnız yıl (TDV `nasriler`: 1321)",
+   "b": "Aragon ile beş yıllık ticaret ve askerî yardım antlaşması",
+   "tur": "antlasma",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "aragon",
+    "konu-ekonomi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "aragon"
+   ],
+   "d": "I. İsmâil, Aragon kralıyla beş yıl geçerli bir antlaşma imzaladı. Antlaşma deniz ve kara ticaretini serbest bırakıyor, limanları karşılıklı açıyor, askerî yardımlaşmayı ve Aragon'daki Müslümanlardan dileyenlerin Gırnata'ya göçünü öngörüyordu.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1324-01-01",
+   "gun": "yalnız yıl: 724 (1324) — TDV, İbnü'l-Hatîb'e dayanarak; gün yok",
+   "b": "Eşkür (Huéscar) kuşatmasında top kullanıldı",
+   "tur": "bilim",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "bilim",
+    "barut-topu",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya"
+   ],
+   "d": "Lisânüddin İbnü'l-Hatîb'in kaydına göre Nasrîler Eşkür (Huéscar) Kalesi kuşatmasında top kullandı. TDV bunu Avrupa'da topun bilinen ilk kullanımları arasında sayar.",
+   "kaynak": "TDV `nasriler` (İbnü'l-Hatîb, el-İhâta I, 390 ve el-Lemhatü'l-bedriyye s. 85'e atıfla)",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "orta"
+  },
+  {
+   "t": "1325-01-01",
+   "gun": "yalnız yıl: 725 (1325) (TDV `nasriler`); gün yok",
+   "b": "I. İsmâil suikastla öldürüldü, oğlu IV. Muhammed tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "I. İsmâil bir suikast sonucu öldürüldü ve yerine oğlu IV. Muhammed geçti. Yeni sultan kısa süre sonra Kastilya'nın haçlı seferiyle kale kaybına uğradı ve amcasının ayaklanmasıyla uğraştı.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1333-01-01",
+   "gun": "yalnız yıl: 733 (1333) (TDV `nasriler`, `ebul-hasan-el-merini`); gün yok",
+   "b": "IV. Muhammed suikastla öldürüldü, I. Yûsuf tahta geçti",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Cebelitârık'ın Merînî yardımıyla geri alındığı yıl IV. Muhammed bir suikastla öldürüldü. On altı yaşındaki kardeşi Ebü'l-Haccâc I. Yûsuf tahta çıktı; yirmi bir yıllık saltanatı Hristiyan krallıklarla savaş ve Elhamra'nın büyük inşa evresiyle geçti.",
+   "kaynak": "TDV `nasriler` · TDV `ebul-hasan-el-merini`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/ebul-hasan-el-merini",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1344-01-01",
+   "gun": "yalnız yıl: 744/1344 (TDV `nasriler`); gün yok",
+   "b": "Cezîretülhadrâ kaybedildi, I. Yûsuf Kastilya ve Aragon ile barışa mecbur kaldı",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "cezireulhadra",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya",
+    "aragon"
+   ],
+   "d": "Tarîf (Salado) yenilgisinin ardından Cezîretülhadrâ (Algeciras) da Kastilya'ya geçti ve Boğaz kıyısında yalnız Cebelitârık kaldı. I. Yûsuf 1344'te Kastilya ve Aragon ile barış yapmak zorunda kaldı. TDV'ye göre Kuzey Afrika yardımı bu noktada kesildi ve Nasrîler kalıcı olarak savunma siyasetine çekildi.",
+   "kaynak": "TDV `nasriler` · TDV `meriniler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/meriniler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1348-01-01",
+   "gun": "yalnız yıl: Adalet Kapısı kitabesi 749 (1348) tarihli (TDV); gün yok",
+   "b": "Elhamra'nın Adalet Kapısı inşa edildi",
+   "tur": "mimari",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "ic",
+   "etiket": [
+    "mimari",
+    "elhamra",
+    "konu-kultur"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "I. Yûsuf döneminde Elhamra'nın sur ve kuleleri genişletildi; bu evrenin tarihli tanığı 749 (1348) kitabeli Adalet Kapısı'dır. Elhamra'nın bugün ayakta kalan bölümlerinin büyük kısmı I. Yûsuf ile oğlu V. Muhammed dönemine aittir.",
+   "kaynak": "TDV `elhamra-sarayi`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/elhamra-sarayi",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1349-01-01",
+   "gun": "yalnız yıl: 750 (1349) (TDV `nasriler`, `gani-billah`); gün yok",
+   "b": "I. Yûsuf Gırnata'da Endülüs'ün ilk medresesini kurdurdu",
+   "tur": "kultur",
+   "onem": 2,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "kultur",
+    "medrese",
+    "konu-kultur"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "I. Yûsuf'un Gırnata'da yaptırdığı medrese, Endülüs'teki ilk medrese kabul edilir; o zamana dek dinî ilimler camilerde okutuluyordu. Bu kurumu başkaları izledi ve derslere tıp, kimya, felsefe ve astronomi de eklendi.",
+   "kaynak": "TDV `nasriler` · TDV `gani-billah`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/gani-billah",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1354-10-19",
+   "gun": "Ramazan bayramı, 19 Ekim 1354 — TDV `gani-billah` tam gün",
+   "b": "I. Yûsuf bayram namazında öldürüldü, V. Muhammed tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "I. Yûsuf'un Ramazan bayramında öldürülmesi üzerine on beş yaşındaki oğlu V. Muhammed Ganî-Billâh lakabıyla tahta geçti. Birinci saltanatında Kastilya'ya haraç ödemeyi sürdürdü; veziri Rıdvân ve Dîvân-ı İnşâ başındaki Lisânüddin İbnü'l-Hatîb idareyi yürüttü.",
+   "kaynak": "TDV `gani-billah` · TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/gani-billah ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1359-01-01",
+   "gun": "yalnız yıl: 760 (1359) (TDV `nasriler`, `gani-billah`); gün yok",
+   "b": "Saray darbesi: V. Muhammed tahtını kaybetti, II. İsmâil sultan ilân edildi",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "ic-savas",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Hanedandan Muhammed b. İsmâil b. Ferec Elhamra'yı basıp Hâcib Rıdvân'ı öldürdü ve tutuklu II. İsmâil'i sultan ilân etti. Vâdîâş'a kaçan V. Muhammed, Kastilya'dan beklediği desteği bulamayınca Merînî Sultanı Ebû Sâlim'in davetiyle 1360'ta Fas'a sığındı. Ertesi yıl darbenin önderi II. İsmâil'i öldürüp VI. Muhammed olarak tahta geçti.",
+   "kaynak": "TDV `gani-billah` · TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/gani-billah ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1362-04-16",
+   "gun": "20 Cemâziyelâhir 763 / 16 Nisan 1362 — TDV tam gün",
+   "b": "V. Muhammed Gırnata'ya dönüp ikinci kez tahta çıktı",
+   "tur": "hukumdar",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Fas'tan dönüp Runde'ye (Ronda) yerleşen V. Muhammed, Kastilya'nın da desteğiyle Mâleka ve çevresini aldı; VI. Muhammed 13 Nisan'da şehri terk edince 16 Nisan 1362'de yeniden tahta oturdu. Otuz yıla yakın ikinci saltanatı TDV'ye göre Nasrîlerin en parlak dönemidir.",
+   "kaynak": "TDV `gani-billah` · TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/gani-billah ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1369-01-01",
+   "gun": "Zilhicce 770 / Temmuz 1369 (TDV `gani-billah`); gün yok → YYYY-01-01",
+   "b": "Cezîretülhadrâ, Merînî donanması desteğiyle Kastilya'dan geri alındı",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "cezireulhadra",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "merini",
+    "kastilya"
+   ],
+   "d": "Kastilya'da I. Pedro'nun öldürülmesiyle çıkan karışıklıktan yararlanan V. Muhammed, Merînî Sultanı I. Abdülazîz'in donanmasının desteğiyle çeyrek yüzyıldır Kastilya'da olan Cezîretülhadrâ'yı (Algeciras) geri aldı. Ardından Aragon ve Kastilya ile barışlar yapıldı.",
+   "kaynak": "TDV `gani-billah` · TDV `nasriler` · TDV `meriniler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/gani-billah ; https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/meriniler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1374-01-01",
+   "gun": "yıl yaklaşık: TDV `gani-billah` Cebelitârık'ın alınmasını I. Abdülazîz'in ölümü (774/1373) ile Ahmed b. Ebû Sâlim'in tahta çıkışı (776/1374) arasına koyar; gün yok. ⚠️ TDV `cebelitarik` Nasrî hâkimiyetini '1410-1462' diye verir — tutarsızlık",
+   "b": "Cebelitârık Nasrîlere geçti, Endülüs'teki Merînî varlığı sona erdi",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kazanc",
+    "cebelitarik",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "merini"
+   ],
+   "d": "Merînî Sultanı I. Abdülazîz'in ölümünden sonra V. Muhammed, Merînîlerin Endülüs'teki son dayanağı Cebelitârık'ı aldı ve Fas'taki taht kavgasında Ahmed b. Ebû Sâlim'i destekledi. Daha önce Merînî komutanların yönettiği şeyhülguzâtlık kurumunu da kaldırmış olan sultan, böylece Endülüs'teki Merînî askerî varlığına son verdi.",
+   "kaynak": "TDV `gani-billah` · TDV `meriniler` · TDV `nasriler` (çelişen: TDV `cebelitarik`)",
+   "dogrulama": "https://islamansiklopedisi.org.tr/gani-billah ; https://islamansiklopedisi.org.tr/meriniler ; https://islamansiklopedisi.org.tr/cebelitarik",
+   "guven": "orta"
+  },
+  {
+   "t": "1391-01-17",
+   "gun": "10 Safer 793 / 17 Ocak 1391 — TDV `gani-billah` tam gün",
+   "b": "V. Muhammed öldü, oğlu II. Yûsuf tahta geçti",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Nasrîlerin en uzun ve en parlak saltanatlarından birini süren V. Muhammed 17 Ocak 1391'de öldü; yerine büyük oğlu II. Yûsuf geçti. TDV, onun ölümüyle Gırnata'nın ihtişam devrinin kapandığını ve zayıflama döneminin başladığını belirtir.",
+   "kaynak": "TDV `gani-billah` · TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/gani-billah ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1431-01-01",
+   "gun": "yalnız yıl (TDV `girnata`: 1431); gün yok",
+   "b": "Kastilya Kralı II. Juan Gırnata'yı kuşattı, şehre giremedi",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "gırnata-savunmasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya"
+   ],
+   "d": "IX. Muhammed'in saltanatında taht iddiacısı Yûsuf b. Mevl ve ona bağlı bir grup Gırnatalının kışkırtmasıyla Kastilya Kralı II. Juan Gırnata'yı kuşattı. Halkın da katıldığı güçlü direniş karşısında Kastilya ordusu şehre giremedi.",
+   "kaynak": "TDV `girnata`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/girnata",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1432-01-27",
+   "gun": "23 Cemâziyelevvel 835 / 27 Ocak 1432 — TDV `nasriler` tam gün",
+   "b": "Kastilya'nın şartlarını kabul eden IV. Yûsuf tahta geçirildi",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "hukumdar",
+    "kastilya-himayesi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya"
+   ],
+   "d": "IX. Muhammed, tahtını geri almasına yardım eden Kastilya'nın hâkimiyet tanıma, yıllık vergi ve esir iadesi taleplerini reddetti. Bunun üzerine Kastilya bu şartları kabul eden IV. Yûsuf'u tahta çıkardı; ancak IV. Yûsuf altı ay sonra ölünce Mâleka'ya çekilmiş olan IX. Muhammed üçüncü kez tahta döndü.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1462-01-01",
+   "gun": "yalnız yıl (TDV `nasriler`, `cebelitarik`, `endulus`: 1462); gün yok",
+   "b": "Cebelitârık Kastilya'ya düştü, Kuzey Afrika bağlantısı koptu",
+   "tur": "toprak-kayip",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "cebelitarik",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya"
+   ],
+   "d": "Sa'd b. Ali'nin barış tekliflerini reddeden Kastilya, ülkeyi büyük ölçüde tahrip ederek 1462'de Cebelitârık'ı aldı; TDV'ye göre şehri Şezûne (Medina Sidonia) dükü ele geçirdi. Mağrib'den yardımın geçtiği son kapının kapanması, kalan Nasrî şehirlerinin tek tek düşmesinin yolunu açtı.",
+   "kaynak": "TDV `nasriler` · TDV `cebelitarik` · TDV `endulus`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/cebelitarik ; https://islamansiklopedisi.org.tr/endulus",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1465-01-01",
+   "gun": "yalnız yıl: 870 (1465) (TDV `nasriler`); gün yok",
+   "b": "Ebü'l-Hasan Ali babası Sa'd'ı tahttan indirdi",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Kastilya'ya vergi ödemeyi kabul etmek zorunda kalan Sa'd b. Ali, oğlu Ebü'l-Hasan Ali tarafından tahttan indirildi. Yeni saltanat, kardeşi Muhammed ez-Zagal ile üç yıllık bir taht kavgasına sahne oldu ve Mâleka çevresi Zagal'ın elinde kaldı.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1478-01-01",
+   "gun": "yalnız yıl (TDV `nasriler`: 1478); gün yok",
+   "b": "Ebü'l-Hasan Ali, Katolik Krallar'ın haraç ve hâkimiyet talebini reddetti",
+   "tur": "diplomasi",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "diplomasi",
+    "gırnata-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "kastilya",
+    "aragon"
+   ],
+   "d": "Isabella ve Ferdinand, Ebü'l-Hasan Ali'den vergiyi artırmasını ve üstünlüklerini tanımasını istedi. Sultan talebi reddedip vergiyi tamamen keseceğini bildirerek savaşla tehdit edince iki krallık Nasrî ülkesine genel bir taarruz başlattı; Gırnata'nın son savaşının siyasi başlangıcı budur.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1483-03-20",
+   "gun": "Safer 888 / Mart 1483 (TDV); gün 20-21 Mart 1483: RAH Historia Hispánica (Boabdil biyografisi, Hechos). TDV gün vermediği için gün RAH'tan",
+   "b": "Zagal, Mâleka dağlarında (Ajarquía) Kastilya akıncı ordusunu bozguna uğrattı",
+   "tur": "savas",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "savas",
+    "gırnata-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "ispanya"
+   ],
+   "d": "Hâme'yi (Alhama) işgal edip Levşe'ye (Loja) saldıran ama şehir halkının direnişiyle geri çekilen Ferdinand'ın Mâleka üzerine gönderdiği ordu, Muhammed ez-Zagal karşısında ağır bir yenilgiye uğradı. Bu zafer, yeğeni Ebû Abdullah'ı (Boabdil) Lucena seferine özendirdi.",
+   "kaynak": "TDV `nasriler` · Real Academia de la Historia, Historia Hispánica (DB~e), 'Muhammad XI (Boabdil)' biyografisi, Hechos: 1483 20/iii-21/iii",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://historia-hispanica.rah.es/biografias/6701-boabdil",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1485-01-01",
+   "gun": "yalnız yıl: 890 (1485) (TDV `nasriler`); gün yok",
+   "b": "Ebü'l-Hasan Ali tahtı kardeşi XII. Muhammed ez-Zagal'a bıraktı",
+   "tur": "hukumdar",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "ic",
+   "etiket": [
+    "hukumdar",
+    "nasri-sultanlari",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devlet": "granada",
+   "d": "Oğlu Ebû Abdullah Lucena'da esir düştükten sonra Gırnata'ya dönen Ebü'l-Hasan Ali, kardeşi Muhammed ez-Zagal lehine tahttan feragat etti. Aynı dönemde Katolik Krallar esirleri Ebû Abdullah'ı kendi hâkimiyetlerini tanıması şartıyla amcasına karşı salıverdi; ülke iki sultan arasında bölündü.",
+   "kaynak": "TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1486-05-29",
+   "gun": "Levşe'de çarpışmalar 20-29 Mayıs 1486, teslim 29 Mayıs: RAH Historia Hispánica (Boabdil, Hechos). TDV düşüşü tarihlemez, yalnız Mâleka kuşatmasından önce olduğunu söyler",
+   "b": "Levşe (Loja) teslim oldu, Ebû Abdullah ikinci kez esir düştü",
+   "tur": "toprak-kayip",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "gırnata-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "ispanya"
+   ],
+   "d": "Kastilya kuvvetleri, Zagal ile Ebû Abdullah arasındaki bölünmeden yararlanarak batı sınırının kilidi Levşe'ye yüklendi; bir haftalık çarpışmadan sonra şehir teslim oldu ve Ebû Abdullah ikinci kez esir alındı. Levşe'nin düşüşüyle Mâleka kuşatmasının yolu açıldı.",
+   "kaynak": "Real Academia de la Historia, Historia Hispánica (DB~e), 'Muhammad XI (Boabdil)' biyografisi, Hechos: 1486 20/v-29/v · TDV `nasriler` · TDV `endulus`",
+   "dogrulama": "https://historia-hispanica.rah.es/biografias/6701-boabdil ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1487-01-01",
+   "gun": "yalnız yıl (TDV `endulus`: 1487); gün yok",
+   "b": "Ebû Abdullah Osmanlı Sultanı II. Bayezid'den yardım istedi",
+   "tur": "diplomasi",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "diplomasi",
+    "osmanli-endulus",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "d": "Şehirleri birer birer kaybeden Gırnata emîri Ebû Abdullah, 1487'de II. Bayezid'e elçi göndererek Katolik Krallar'a karşı yardım istedi. Cem Sultan meselesi ve Memlûklerle uğraşan Bayezid asker gönderemedi; papaya ve Ferdinand'a mektup yazarak Endülüs Müslümanlarının sıkıştırılmamasını istemekle yetindi.",
+   "kaynak": "TDV `endulus` (Endülüs-Osmanlı Münasebetleri bölümü) · TDV `nasriler`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/endulus ; https://islamansiklopedisi.org.tr/nasriler",
+   "guven": "yuksek",
+   "kunye_notu": "`osmanli` devletler.js'te künye değil; öteki kronoloji dosyalarında (ör. devletler:[\"osmanli\",\"kacar\"]) kullanılan kimlik",
+   "devlet": "granada",
+   "ic_not_d": "Osmanlı çekirdek kronolojidir, künyesi yok — madde yalnız granada künyesine bağlandı."
+  },
+  {
+   "t": "1487-08-18",
+   "gun": "27 Şâban 892 / 18 Ağustos 1487 — TDV `maleka` tam gün (kuşatma başlangıcı 7 Mayıs 1487: RAH)",
+   "b": "Mâleka kanlı bir kuşatmadan sonra düştü",
+   "tur": "toprak-kayip",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "gırnata-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "ispanya"
+   ],
+   "d": "Zagal'ın elindeki Mâleka (Malaga), Kuzey Afrika hükümdarlarından ve Memlûk Sultanı Kayıtbay'dan beklenen yardım gelmeyince uzun ve kanlı bir kuşatmanın ardından teslim oldu. Nasrîlerin ikinci başşehri ve başlıca limanının kaybı, krallığı denizden büyük ölçüde kopardı.",
+   "kaynak": "TDV `maleka` · TDV `nasriler` · RAH Historia Hispánica (Boabdil, Hechos: 1487 7/V kuşatma başı)",
+   "dogrulama": "https://islamansiklopedisi.org.tr/maleka ; https://islamansiklopedisi.org.tr/nasriler ; https://historia-hispanica.rah.es/biografias/6701-boabdil",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1489-12-04",
+   "gun": "4 Aralık 1489 — RAH Historia Hispánica (Boabdil, Hechos); TDV Besta (Baza) için gün vermez",
+   "b": "Besta (Baza) teslim oldu, Zagal bütün topraklarını bıraktı",
+   "tur": "toprak-kayip",
+   "onem": 4,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "gırnata-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "ispanya"
+   ],
+   "d": "Uzun kuşatmadan sonra Besta (Baza) teslim oldu ve Muhammed ez-Zagal kendi elindeki bütün toprakların teslimi için pazarlığa girişti. Böylece Nasrî ülkesinden geriye yalnız Ebû Abdullah'ın elindeki Gırnata ve çevresi kaldı.",
+   "kaynak": "Real Academia de la Historia, Historia Hispánica (DB~e), 'Muhammad XI (Boabdil)' biyografisi, Hechos: 1489 4/xii · TDV `endulus` (1490 baharına kadar Gırnata dışı şehirlerin kaybı)",
+   "dogrulama": "https://historia-hispanica.rah.es/biografias/6701-boabdil ; https://islamansiklopedisi.org.tr/endulus",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1490-01-01",
+   "gun": "Şubat 1490 (TDV `meriye`); gün yok → YYYY-01-01. Not: teslim pazarlığı 1489 sonunda Baza ile birlikte yürüdü (RAH)",
+   "b": "Kastilya ordusu Meriye'ye (Almería) girdi",
+   "tur": "toprak-kayip",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "toprak-kayip",
+    "gırnata-savasi",
+    "konu-askeri"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "ispanya"
+   ],
+   "d": "Zagal'ın teslim anlaşması çerçevesinde Kastilya ordusu Şubat 1490'da Meriye'ye girdi. Halka can, mal ve din güvencesi verilmişse de Ulucami başta olmak üzere mescitler kiliseye çevrildi ve Müslümanlar çevre köylere çıkarıldı.",
+   "kaynak": "TDV `meriye`",
+   "dogrulama": "https://islamansiklopedisi.org.tr/meriye",
+   "guven": "yuksek"
+  },
+  {
+   "t": "1491-10-25",
+   "gun": "⚠️ GÜN ÇELİŞKİSİ: TDV `nasriler` '25 Ekim 1491 tarihli antlaşma' der (birincil → t bu); RAH Historia Hispánica 'Se firma el acuerdo… 25/xi/1491' (25 Kasım) der. TDV `girnata` yalnız '1491'. Koordinatör hükmü gerekir",
+   "b": "Gırnata'nın teslim antlaşması imzalandı",
+   "tur": "antlasma",
+   "onem": 5,
+   "dunya": 3,
+   "kapsam": "dis",
+   "etiket": [
+    "antlasma",
+    "gırnata-savasi",
+    "konu-siyasi"
+   ],
+   "yer_id": "",
+   "devletler": [
+    "granada",
+    "ispanya"
+   ],
+   "d": "1491 ilkbaharından beri toplarla kuşatılan, kıtlık ve salgınla tükenen Gırnata'da Ebû Abdullah halkın canına, malına ve dinine dokunulmaması şartıyla teslimi kabul etti. Antlaşma yahudilere de aynı güvenceyi tanıyor, Ebû Abdullah'a Büşürât'ta (Alpujarras) bir bölge ayırıyordu. Şartlara göre İspanyol kuvvetleri Ocak 1492'nin başında şehre girdi; II. Bayezid ve Kayıtbay'dan beklenen yardım gelmemişti.",
+   "kaynak": "TDV `nasriler` · TDV `girnata` · Real Academia de la Historia, Historia Hispánica (DB~e), 'Muhammad XI (Boabdil)', Hechos: 1491 25/xi",
+   "dogrulama": "https://islamansiklopedisi.org.tr/nasriler ; https://islamansiklopedisi.org.tr/girnata ; https://historia-hispanica.rah.es/biografias/6701-boabdil",
+   "guven": "orta"
+  }
+ ],
+ "zaten_var": [
+  {
+   "olay": "1238-05-12 Nasrî Devleti'nin kuruluşu",
+   "nerede": "data/devletler.js künye:granada kronoloji"
+  },
+  {
+   "olay": "1275-09-08 İsticce (Ecija) Merînî zaferi",
+   "nerede": "data/kronoloji_kuzeyafrika.js (ayrıca 1281 öncesi)"
+  },
+  {
+   "olay": "1333 Cebelitârık'ın Merînî-Nasrî kuvvetlerince geri alınması",
+   "nerede": "data/kronoloji_cok_fas.js (1333-01-01)"
+  },
+  {
+   "olay": "1340-10-30 Río Salado / Tarîf savaşı",
+   "nerede": "data/kronoloji_ispanya.js · kronoloji_kuzeyafrika.js · künye:granada · künye:kastilya · künye:merini"
+  },
+  {
+   "olay": "1482 Boabdil'in babasına isyanı, ülkenin üçe bölünmesi",
+   "nerede": "künye:granada (1482-01-01)"
+  },
+  {
+   "olay": "1483 Boabdil'in Lucena yenilgisi ve esareti",
+   "nerede": "künye:granada (1483-01-01)"
+  },
+  {
+   "olay": "1492-01-02 Gırnata'nın teslimi / düşüşü",
+   "nerede": "data/kronoloji_ispanya.js · data/olaylar_ek16.js · künye:granada · künye:ispanya (not: TDV `nasriler` girişi 3 Ocak 1492 der, `girnata` 2 Ocak)"
+  },
+  {
+   "olay": "Cebelitârık Kastilya",
+   "nerede": "başka taslakta birleştirildi (DERLE öncesi mükerrer)"
+  }
+ ],
+ "bulunamadi": [
+  "1410 Entekîre (Antequera) düşüşü — TDV `girnata` yalnız '1410'da Entekîre'den göçenler' der; düşüşün kendisini tarihleyen cümle yok. Slug `entekire`/`antekera` 302. Akademik kaynak (Britannica 403, RAH gövdesi JS/kısıtlı) okunamadı",
+  "1482 Hâme (Alhama) baskını — TDV yalnız Ferdinand'ın Hâme'yi işgal ettiğini tarihsiz söyler (Mart 1483'ten önce); gün/yıl kaynaklı okunamadı. 1482-01-01 künye maddesi (Boabdil isyanı) ile de karışabilir",
+  "1292 Tarîf'in (Tarifa) Kastilya'ya düşüşünün kendi tarihi — TDV `tarif` slug'ı mantık terimi 'tarif' maddesi (yanlış madde, tuzak ②); `meriniler` yalnız 692/1293 ittifak yenilenmesini tarihler — madde 1293 olarak yazıldı",
+  "1485 Runde (Ronda) düşüşü — TDV tarih vermiyor",
+  "Elhamra Aslanlı Avlu / Komares Kasrı tarihi — TDV yalnız V. Muhammed dönemi der, yıl yok",
+  "V. Muhammed'in Maristan'ı — TDV `nasriler` 777 (1375), `gani-billah` 1365-1367 der; çelişki, yazılmadı",
+  "Hükümdar değişimleri 1392 (VII. Muhammed), 1408 (III. Yûsuf 2.), 1417, 1419, 1427, 1429, 1445-1447, 1453 — TDV'de yalnız hicrî/milâdî yıl var; kapsam şişmesin diye YAZILMADI (istenirse aynı kaynakla yıl-düzeyinde eklenebilir)",
+  "TDV kişi slug'ları ölü (302): yusuf-i, yusuf-i-nasri, ebul-haccac-yusuf, muhammed-v-nasri, ebu-abdullah-es-sagir, zagal, muhammed-ez-zagal, ebul-hasan-ali-b-sad, ceziretulhadra, levse, vadias, elhamra, malika. Canlı: nasriler, girnata, elhamra-sarayi, endulus, meriniler, ebul-hasan-el-merini, cebelitarik, maleka, meriye, gani-billah (=V. Muhammed), ibnul-ahmer (tarihçi, konu dışı). `tarif` = yanlış madde"
+ ]
+}

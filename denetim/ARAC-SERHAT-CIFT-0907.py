@@ -29,10 +29,10 @@
    · Kure uzerinde haversine ile olculdu; izdusum YOK, kutup/tarih
      cizgisi carpitmasi YOK.
 """
-import sys, io, math, json
+import sys, io, math, json, os
 from collections import defaultdict
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK + r"\arac")
 import girdi
 

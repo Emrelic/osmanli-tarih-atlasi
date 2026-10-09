@@ -1,0 +1,56 @@
+dosya	ONCE (C: den, --kok yok)	SONRA
+denetim/A-AVRUPA-0078-serit.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/ACILIS-ANIM-0081-avmac-olc.py	SONDA open[r]: C:\atlas\data\devletler_harita.js	SONDA open[r]: C:\atlas-w56\data\devletler_harita.js
+denetim/ACILIS-ANIM-0081-govde-olc.py	SONDA open[r]: C:\atlas\data\devletler_harita.js	SONDA open[r]: C:\atlas-w56\data\devletler_harita.js
+denetim/ARAC-ACILIS-ANIM-0929-URET.py	SONDA open[r]: C:\atlas\veri-kaynak\ne_10m_admin_0_countries.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\ne_10m_admin_0_countries.geojson
+denetim/ARAC-B-ENKLAV-CIZ-0912.py	SONDA open[r]: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\3d557ab4-454e-4b21-98e0-60171b40e6fd\tasks\b3ly9wsgt.output	SONDA open[r]: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\3d557ab4-454e-4b21-98e0-60171b40e6fd\tasks\b3ly9wsgt.output
+denetim/ARAC-D3ORTA-URET-0916.py	SONDA open[r]: C:\atlas\veri-kaynak\d_bugunku_sinirlar.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\d_bugunku_sinirlar.geojson
+denetim/ARAC-KASA-IC-CELISKI-1004.py	SONDA os.chdir: C:\atlas\arac	SONDA os.chdir: C:\atlas-w56\arac
+denetim/ARAC-KASA-IMZA-YERI-1004.py	SONDA os.chdir: C:\atlas\arac	SONDA os.chdir: C:\atlas-w56\arac
+denetim/ARAC-KASA-TERS-MADDE-1004.py	SONDA os.chdir: C:\atlas\arac	SONDA os.chdir: C:\atlas-w56\arac
+denetim/ARAC-LEGO-0925-say.py	SONDA hata: OperationalError: unable to open database file	SONDA hata: OperationalError: unable to open database file
+denetim/ARAC-LEGO-0925-tahta.py	SONDA open[r]: C:\atlas\oturumlar\tahta.json	SONDA open[r]: C:\atlas-w56\oturumlar\tahta.json
+denetim/ARAC-LEGO-sayim.py	SONDA yok: dosya sistemine dokunmadan bitti	SONDA yok: dosya sistemine dokunmadan bitti
+denetim/ARAC-LEGO-tahta-ara.py	SONDA hata: IndexError: list index out of range	SONDA hata: IndexError: list index out of range
+denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py	SONDA open[r]: C:\atlas\data\kronoloji_cok_once1281_dogu_asya.js	SONDA open[r]: C:\atlas-w56\data\kronoloji_cok_once1281_dogu_asya.js
+denetim/ARAC-TASMA-PROTOTIP-CIZ-0911.py	SONDA open[rb]: C:\atlas-w56\denetim\_tasma.npz	SONDA open[rb]: C:\atlas-w56\denetim\_tasma.npz
+denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py	SONDA hata: ModuleNotFoundError: No module named 'govde'	SONDA hata: ModuleNotFoundError: No module named 'govde'
+denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py	SONDA hata: IndexError: list index out of range	SONDA hata: IndexError: list index out of range
+denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py	SONDA hata: ModuleNotFoundError: No module named 'govde'	SONDA hata: ModuleNotFoundError: No module named 'govde'
+denetim/ARAC-UFUK-DUGME-0930-TABAN.py	SONDA open[rb]: C:\atlas\data\donemler.js	SONDA open[rb]: C:\atlas-w56\data\donemler.js
+denetim/ARAC-UYGULA-YERLESIM-0930.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/ARAYUZ-0077-yukleme-silueti.py	SONDA open[r]: C:\atlas\veri-kaynak\ne_10m_admin_0_countries.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\ne_10m_admin_0_countries.geojson
+denetim/AVRUPA-SINIR-0077-yer_dok.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/BALKAN-MACAR-0081-uygula.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/BOGAZ-OLCUM-0081-sinif.py	SONDA hata: ModuleNotFoundError: No module named 'girdi'	SONDA hata: ModuleNotFoundError: No module named 'girdi'
+denetim/BOGAZ-OLCUM-0081.py	SONDA hata: ModuleNotFoundError: No module named 'girdi'	SONDA hata: ModuleNotFoundError: No module named 'girdi'
+denetim/HARITA-0076-cevap-yaz.py	SONDA open[w]: C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json	SONDA open[w]: C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json
+denetim/HARITA-0076-kutu-kapisi.py	SONDA open[r]: C:\atlas\data\hukuki_sinirlar.js	SONDA open[r]: C:\atlas-w56\data\hukuki_sinirlar.js
+denetim/HARITA-0076-sahip-toplu.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/HARITA-0076-sahip.py	SONDA yok: dosya sistemine dokunmadan bitti	SONDA yok: dosya sistemine dokunmadan bitti
+denetim/KRONO-0076-B-geriokur.py	SONDA open[r]: C:\atlas\denetim\KRONO-0076-B-mesaj1.txt	SONDA open[r]: C:\atlas-w56\denetim\KRONO-0076-B-mesaj1.txt
+denetim/KRONO-0076-B-oku5022.py	SONDA open[r]: C:\atlas\oturumlar\tahta.json	SONDA open[r]: C:\atlas-w56\oturumlar\tahta.json
+denetim/KRONO-0076-B-okumesaj.py	SONDA open[r]: C:\atlas\oturumlar\tahta.json	SONDA open[r]: C:\atlas-w56\oturumlar\tahta.json
+denetim/KRONO-0076-B-olc1.py	SONDA os.scandir: C:\atlas\data	SONDA os.scandir: C:\atlas-w56\data
+denetim/KRONO-0076-B-olc2.py	SONDA os.scandir: C:\atlas\data	SONDA os.scandir: C:\atlas-w56\data
+denetim/KRONO-0076-B-olc3.py	SONDA open[w]: C:\atlas\denetim\KRONO-0076-B-olc3.txt	SONDA open[w]: C:\atlas-w56\denetim\KRONO-0076-B-olc3.txt
+denetim/KRONO-0076-B-olc4.py	SONDA open[w]: C:\atlas\denetim\KRONO-0076-B-olc4.txt	SONDA open[w]: C:\atlas-w56\denetim\KRONO-0076-B-olc4.txt
+denetim/KRONO-0076-B-olc5.py	SONDA open[w]: C:\atlas\denetim\KRONO-0076-B-olc5.txt	SONDA open[w]: C:\atlas-w56\denetim\KRONO-0076-B-olc5.txt
+denetim/KRONO-0076-B-olc6.py	SONDA open[r]: C:\atlas\data\d_sinirlar_ortadogu.js	SONDA open[r]: C:\atlas-w56\data\d_sinirlar_ortadogu.js
+denetim/KRONO-0076-B-rapordenetle.py	SONDA open[r]: C:\atlas\denetim\KRONO-0076-B.md	SONDA open[r]: C:\atlas-w56\denetim\KRONO-0076-B.md
+denetim/KRONO-0076-B-teslimoku.py	SONDA open[r]: C:\atlas\denetim\KRONO-0076-B-teslim.txt	SONDA open[r]: C:\atlas-w56\denetim\KRONO-0076-B-teslim.txt
+denetim/NOKTA-ORTADOGU-0077-irak.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-kayit.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-misir.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-olc.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-sudan.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-tavan.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-uygula.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/NOKTA-ORTADOGU-0077-yakin.py	SONDA hata: IndexError: list index out of range	SONDA hata: IndexError: list index out of range
+denetim/NOKTA-ORTADOGU-0077-yama.py	SONDA open[r]: C:\atlas\data\yerlesimler.js	SONDA open[r]: C:\atlas-w56\data\yerlesimler.js
+denetim/SINIR-CIZGI-0076-geri-oku.py	SONDA open[r]: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\68bd1d7f-e7f4-4083-abc8-fab2c56f3252\scratchpad\teslim.txt	SONDA open[r]: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\68bd1d7f-e7f4-4083-abc8-fab2c56f3252\scratchpad\teslim.txt
+denetim/SINIR-CIZGI-0076-mesaj.py	SONDA open[r]: C:\atlas\oturumlar\tahta.json	SONDA open[r]: C:\atlas-w56\oturumlar\tahta.json
+denetim/SINIR-CIZGI-0076-supurge.py	SONDA open[r]: C:\atlas\oturumlar\SEVK-0076.md	SONDA open[r]: C:\atlas-w56\oturumlar\SEVK-0076.md
+denetim/SINIR-D-AVRUPA-ORTA-0077-C.py	SONDA open[r]: C:\atlas\veri-kaynak\d_bugunku_sinirlar.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\d_bugunku_sinirlar.geojson
+denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py	SONDA open[r]: C:\atlas\veri-kaynak\d_bugunku_sinirlar.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\d_bugunku_sinirlar.geojson
+denetim/SINIR-D-ORTADOGU-0077-magrip-uret.py	SONDA open[r]: C:\atlas\veri-kaynak\d_bugunku_sinirlar.geojson	SONDA open[r]: C:\atlas-w56\veri-kaynak\d_bugunku_sinirlar.geojson

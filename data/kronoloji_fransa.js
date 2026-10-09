@@ -277,7 +277,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1536-02-18", b:"Osmanlı-Fransız Kapitülasyonları'nın imzalanması", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["antlasma","ittifak","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Fransız elçisi Jean de la Forest ile Sadrazam İbrahim Paşa arasında imzalanan ticari kapitülasyon anlaşması, Osmanlı'nın bir Hıristiyan devletle imzaladığı ilk büyük ayrıcalık anlaşmasıydı ve iki asır sürecek Fransız-Osmanlı yakınlaşmasının hukukî temelini kurdu. Anlaşma, Habsburg gücünü dengelemek isteyen I. François'nın stratejisinin doğrudan sonucuydu. TDV `imtiyazat` maddesine göre bu metin İbrahim Paşa'nın idamı yüzünden padişahça tasdik edilmemiş bir taslak olarak kaldı; Fransa'ya verilen ilk tasdikli genel kapitülasyon 18 Ekim 1569 tarihlidir.",
-  kaynak:"TDV `fransa` maddesi (canlı, gövdesi okundu) — \"18 Şubat 1536'da Jean de la Forest ile İbrahim Paşa arasında ticari anlaşma imzalandı\" · TDV `imtiyazat`: 1536 metni \"sultan tarafından tasdik edilmeden kaldı\"; ilk tasdikli genel kapitülasyon 18 Ekim 1569 — TDV'nin iki maddesi burada ayrışır" },
+  kaynak:"TDV `fransa`: \"18 Şubat 1536’da, I. François adına elçi Jean de la Forest ile Kanûnî adına Sadrazam Makbul İbrâhim Paşa arasında Fransa’ya ticarî imtiyazlar tanıyan bir anlaşma gerçekleştirildi.\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #11); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · TDV `imtiyazat`: 1536 metni \"sultan tarafından tasdik edilmeden kaldı\"; ilk tasdikli genel kapitülasyon 18 Ekim 1569 — TDV'nin iki maddesi burada ayrışır · daha önce künyede (devletler.js) 1536-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #11)" },
 
 { t:"1539-08-10", b:"Villers-Cotterêts Fermanı — Fransızcanın resmî idare dili olması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["idari","reform","kultur","konu-idari","konu-kultur","konu-islahat"],
@@ -287,7 +287,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1543-01-01", b:"Toulon'un Osmanlı donanmasına üs olarak açılması", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"Toulon",
   etiket:["ittifak","askeri","konu-askeri","konu-diplomasi"],
   d:"Barbaros Hayreddin Paşa komutasındaki Osmanlı donanması, Nice'e karşı ortak harekât sonrası kışı Fransız limanı Toulon'da geçirdi; şehir camiye çevrilen bir kiliseyle geçici bir Osmanlı üssüne dönüştü. Bu, bir Hıristiyan Avrupa gücünün Osmanlı donanmasına açıkça üs verdiği ilk ve tek örnektir.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1543'te Nice'ye karşı ortak deniz harekâtı\" · Toulon kışlaması standart ders kitabı bilgisidir, gün belirsiz" },
+  kaynak:"TDV `fransa` maddesi (canlı) — 1543'te Nice'ye karşı ortak deniz harekâtı · Toulon kışlaması standart ders kitabı bilgisidir, gün belirsiz" },
 
 { t:"1547-03-31", b:"II. Henri'nin tahta çıkışı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Paris",
   etiket:["hukumdar","konu-hanedan"],
@@ -457,7 +457,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1740-01-01", b:"I. Mahmud'un kapitülasyonlara süreklilik kazandırması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["antlasma","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Daha önce her hükümdar değişiminde yenilenmesi gereken kapitülasyonlar, I. Mahmud döneminde süresiz ve kalıcı bir ayrıcalık statüsüne kavuşturuldu. Bu, Fransa'nın Osmanlı topraklarındaki ticari ve dinî imtiyazlarını yüzyıl sonuna dek güvence altına aldı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1740'ta I. Mahmud'un kapitülasyonları devamlılık kazandırması\" · gün bilinmiyor, YYYY-01-01" },
+  kaynak:"TDV `fransa` maddesi (canlı) — 1740'ta I. Mahmud'un kapitülasyonları devamlılık kazandırması · gün bilinmiyor, YYYY-01-01" },
 
 { t:"1751-06-28", b:"Ansiklopedi'nin ilk cildinin yayımlanması", tur:"bilim", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["bilim","kultur","din","konu-bilim","konu-din","konu-kultur"],
@@ -627,7 +627,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1798-07-01", b:"Napolyon'un Mısır Seferi'nin başlaması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Kahire",
   etiket:["askeri","savas","isgal","konu-askeri"],
   d:"Direktuvar, İngiltere'nin Hindistan yolunu kesmek ve Napolyon'u başkentten uzak tutmak amacıyla Mısır Seferi'ni onayladı; sefer aynı zamanda Osmanlı ile 1536'dan beri süren dostane ilişkiyi ilk kez doğrudan savaşa dönüştürdü. Napolyon'un beraberinde götürdüğü bilim heyeti (Institut d'Égypte) modern Egyptology'nin de başlangıcı oldu.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1798'de (1 Temmuz) Napolyon'un Mısır işgali\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"1 Temmuz 1798’de Napolyon Mısır’ı işgal etti.\"" },
 
 { t:"1799-11-09", b:"18 Brumaire Darbesi — Napolyon'un iktidara gelişi", tur:"siyaset", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["siyaset","kriz","idari","darbe-askeri","konu-siyasi","konu-idari","konu-darbe"],
@@ -692,7 +692,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1808-09-27", b:"Erfurt Kongresi — Napolyon-Çar Aleksandr görüşmesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"Erfurt",
   etiket:["diplomasi","konu-diplomasi"],
   d:"Napolyon ile Çar I. Aleksandr, İspanya'daki savaşın gölgesinde ittifaklarını tazelemek için Erfurt'ta bir araya geldi; görüşmeler görkemli ama sonuçları sınırlı kaldı. TDV maddesi bu buluşmayı Osmanlı-Fransa-Rusya üçgeni bağlamında ayrıca kaydeder.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"Ekim 1808'de Erfurt'ta Napolyon-Çar Aleksandr görüşmesi\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — Ekim 1808'de Erfurt'ta Napolyon-Çar Aleksandr görüşmesi" },
 
 { t:"1809-05-17", b:"Papalık topraklarının Fransa'ya ilhakı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","din","konu-askeri","konu-din"],
@@ -737,17 +737,17 @@ window.KRONOLOJI_FRANSA = [
 { t:"1827-10-20", b:"Navarin Deniz Savaşı", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","konu-askeri"],
   d:"Fransa, İngiltere ve Rusya'nın birleşik donanması, Yunan bağımsızlık ayaklanmasını bastırmaya çalışan Osmanlı-Mısır donanmasını Navarin Körfezi'nde imha etti. TDV maddesinde de anılan bu müdahale, Fransa'nın Osmanlı'ya karşı ilk kez doğrudan silahlı harekâta katıldığı andır.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1827 (Navarin): müttefik donanmasının Osmanlı donanmasını yakması\"", yer_kon:[36.91,21.68] },
+  kaynak:"TDV `fransa` maddesi (canlı) — 1827 (Navarin): müttefik donanmasının Osmanlı donanmasını yakması", yer_kon:[36.91,21.68] },
 
 { t:"1829-04-24", b:"Yunanistan bağımsızlığının Bâbıâli'ye kabul ettirilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   d:"Fransa'nın da içinde bulunduğu büyük güçler baskısıyla Osmanlı, Yunan bağımsızlığını fiilen kabul etmek zorunda kaldı. TDV maddesi bu tarihi Fransa-Osmanlı ilişkilerinin gerginleştiği bir dönüm noktası olarak kaydeder.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"24 Nisan 1829: Yunanistan bağımsızlığı Bâbıâli'ye zorla kabul ettirildi\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"Müttefik devletler Londra’da imzaladıkları yeni bir protokolle bağımsız Yunanistan’ın sınırlarını belirlediler; bu karar 24 Nisan 1829’da Bâbıâli’ye zorla kabul ettirildi.\"" },
 
 { t:"1830-06-14", b:"Fransa'nın Cezayir'i işgali", tur:"isgal", onem:5, dunya:4, kapsam:"dis", yer_id:"Cezayir",
   etiket:["isgal","toprak-kazanc","askeri","konu-askeri"],
   d:"X. Charles hükümeti, iç siyasî desteğini pekiştirmek amacıyla düzenlediği seferle Cezayir'i işgal etti; işgal 132 yıl sürecek bir sömürge egemenliğinin başlangıcı oldu. TDV maddesi tarihi doğrudan verir; olay Osmanlı'nın Kuzey Afrika'daki nüfuzuna ilk büyük Avrupa darbesidir.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1830 (14 Haziran): Fransa'nın Cezayir işgali\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — 1830 (14 Haziran): Fransa'nın Cezayir işgali" },
 
 { t:"1830-07-28", b:"Temmuz Devrimi ('Üç Şanlı Gün')", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","hanedan","kriz","konu-siyasi","konu-isyan","konu-hanedan"],
@@ -772,7 +772,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1840-07-15", b:"Londra Antlaşması — Osmanlı toprak bütünlüğünün Avrupa güvencesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Londra",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Fransa'nın dışlandığı bu antlaşmayla İngiltere, Avusturya, Prusya ve Rusya, Osmanlı'nın toprak bütünlüğünü Mısır Valisi Mehmed Ali Paşa'ya karşı güvence altına aldı. Fransa'nın Mehmed Ali'yi desteklediği bu kriz, ülkeyi kısa süreliğine Avrupa'da yalnız bıraktı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"15 Temmuz 1840: Londra Antlaşması (Osmanlı toprak bütünlüğü korunması)\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"Bu arada 15 Temmuz 1840’ta, Fransa dışındaki Avrupa devletleri Mısır meselesini çözmek için Londra Antlaşması’nı imzalayarak Osmanlı Devleti’nin toprak bütünlüğünü korumaya, bunun için gerekirse askerî müdahaleye karar verdiler.\"" },
 
 { t:"1848-02-24", b:"Şubat Devrimi — II. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","kurulus","anayasa","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
@@ -962,7 +962,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1916-05-16", b:"Sykes-Picot Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Fransız diplomat François Georges-Picot ile İngiliz Mark Sykes arasında gizlice müzakere edilen antlaşma, Osmanlı'nın Arap topraklarını Fransız ve İngiliz nüfuz bölgelerine bölüştürdü. TDV maddesinde de kaydedilen bu gizli paylaşım, Ortadoğu'nun yüzyıl sonrasına kadar sürecek sınırlarının en tartışmalı temelini attı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"16 Mayıs 1916: Sykes-Picot Antlaşması\" · dunya:5, Ortadoğu sınırlarının kalıcı belirleyicisi olması nedeniyle", yer_id:"Londra" },
+  kaynak:"TDV `fransa` maddesi (canlı) — 16 Mayıs 1916: Sykes-Picot Antlaşması · dunya:5, Ortadoğu sınırlarının kalıcı belirleyicisi olması nedeniyle", yer_id:"Londra" },
 
 { t:"1916-09-15", b:"İlk tank saldırısı — Somme Muharebesi'nde", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","bilim","konu-askeri","konu-bilim"],
@@ -977,7 +977,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1917-04-17", b:"Saint-Jean-de-Maurienne Antlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Fransa, İngiltere ve İtalya arasında imzalanan gizli antlaşma, Sykes-Picot düzenlemesine İtalya'nın Anadolu'daki pay taleplerini de eklemeyi öngördü; TDV maddesi bunu doğrudan Osmanlı topraklarının paylaşım zincirinin bir halkası olarak kaydeder. Antlaşma, savaş sonrası İtalya'nın Anadolu'ya asker çıkarmasının (1919) hukukî dayanaklarından biriydi.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"17 Nisan 1917: Saint Jean de Maurienne Antlaşması\"", yer_kon:[45.276,6.349] },
+  kaynak:"TDV `fransa` maddesi (canlı) — 17 Nisan 1917: Saint Jean de Maurienne Antlaşması", yer_kon:[45.276,6.349] },
 
 { t:"1918-11-11", b:"Compiègne Ateşkesi — I. Dünya Savaşı'nın Batı Cephesi'nde sona ermesi", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","askeri","diplomasi","konu-askeri","konu-diplomasi"],
@@ -992,7 +992,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1920-04-25", b:"San Remo Konferansı — manda paylaşımının kesinleşmesi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Konferans, Sykes-Picot'nun öngördüğü paylaşımı Milletler Cemiyeti manda sistemi çerçevesinde resmîleştirdi: Suriye ve Lübnan Fransız, Filistin ve Irak İngiliz mandası oldu. TDV maddesi bu tarihi doğrudan kaydeder; karar, bugünkü Suriye-Lübnan sınırlarının uluslararası hukuktaki temelidir.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"25 Nisan 1920: San Remo Antlaşması\" · dunya:4, Ortadoğu manda düzenini kesinleştirmesi nedeniyle", yer_kon:[43.817,7.776] },
+  kaynak:"TDV `fransa` maddesi (canlı) — 25 Nisan 1920: San Remo Antlaşması · dunya:4, Ortadoğu manda düzenini kesinleştirmesi nedeniyle", yer_kon:[43.817,7.776] },
 
 { t:"1920-07-24", b:"Meysalun Savaşı — Fransa'nın Şam'ı işgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri","konu-askeri"],
@@ -1002,12 +1002,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1920-08-10", b:"Sevr Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Fransa'nın da imzacısı olduğu antlaşma, Osmanlı Devleti'ni parçalayıp Anadolu'nun büyük bölümünü yabancı nüfuz bölgelerine ayırdı; TDV maddesi bu tarihi doğrudan kaydeder. Antlaşma hiçbir zaman uygulanamadı — Millî Mücadele'nin zaferi onu üç yıl sonra Lozan'la geçersiz kılacaktı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"10 Ağustos 1920: Sevr Antlaşması\"", yer_kon:[48.824,2.214] },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"Mondros Mütarekesi (30 Ekim 1918) ve Sevr Antlaşması (10 Ağustos 1920) sadece önceki antlaşmaların Osmanlı Devleti’ne zorla kabul ettirilmesi anlamına geliyordu.\"", yer_kon:[48.824,2.214] },
 
 { t:"1921-10-20", b:"Ankara Antlaşması — Fransa'nın Anadolu'daki savaşı sona erdirmesi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Fransa, Kilikya'daki (Adana-Maraş-Antep) işgal kuvvetlerini geri çekmeyi ve Türkiye Büyük Millet Meclisi hükümetini fiilen tanımayı kabul ederek Millî Mücadele karşısındaki ilk büyük itilaf devleti geri adımını attı. TDV maddesi bu antlaşmayı Hatay'ın (İskenderun Sancağı) özel statüsünün de başlangıcı olarak kaydeder.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"20 Ekim 1921: Ankara Antlaşması (Hatay'ın özel statüsü)\"", yer_id:"Ankara" },
+  kaynak:"TDV `fransa` maddesi (canlı) — 20 Ekim 1921: Ankara Antlaşması (Hatay'ın özel statüsü)", yer_id:"Ankara" },
 
 { t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","konu-diplomasi"],

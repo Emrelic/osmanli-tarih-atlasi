@@ -221,7 +221,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: sirket-i-hayriyye (Ali Akyıldız) · bogazici (M. Tayyib Gökbilgin; Boğaziçi'nde Nakil Vasıtaları ve Mesireler bölümü) · halic (Semavi Eyice)" },
 
 // ── H-0043b · Galata Köprüsü ─────────────────────────────────────────────────
-{ id:"teknik-galata-koprusu-ne-zaman-acildi", tur:"teknik-bilimsel",
+{ id:"teknik-galata-koprusu-ne-zaman-acildi", tur:"mimari",
   kisa:"“Galata Köprüsü ne zaman açıldı?” sorusuna TDV'nin iki maddesi iki yıl veriyor — 1844 ve 1845 — açılış gününü ise hiçbiri yazmıyor.",
   metin:"■ AKLA GELEN SORU: NE ZAMAN AÇILDI\n"
     +"TDV'nin iki maddesi farklı yıl verir: Bezmiâlem Vâlide Sultan maddesi “Galata Köprüsü (Cisr-i Cedîd veya Vâlide Köprüsü)” başlığı altında köprünün 1844'te ahşap dubalar üzerinde yüzer olarak yaptırıldığını ve on sekiz yıl hizmet verdiğini yazar; Haliç maddesi ise “1845'te Karaköy ile Eminönü arasında yine dubalı ve ahşap olarak Tersâne-i Âmire'de yapılan ilk Karaköy Köprüsü kurulmuştur” der (aynı köprü). İkisini uzlaştıran bir cümle yok. Sayfanın yorumlaması: “yaptırıldı” 1844'te verilen emri, “kurulmuştur” 1845'teki hizmete girişi anlatıyor olabilir, ama TDV bunu yazmaz. Açılış gününün bulunduğu bir kayıt okunan iki maddede yok: `bulunamadı`. TDV'nin kendi başlığı (galata-koprusu) ayrı madde değil, HALİÇ maddesine yönlendirme (“bk.”).\n\n"
@@ -239,7 +239,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: halic (Semavi Eyice, bölüm: Haliç Köprüleri) · bezmialem-valide-sultan (M. Hüdai Şentürk; Galata Köprüsü başlığı) · galata-koprusu (bk. HALİÇ yönlendirmesi)" },
 
 // ── H-0043c · Tünel ──────────────────────────────────────────────────────────
-{ id:"teknik-tunel-karakoy-beyoglu-1875", tur:"teknik-bilimsel",
+{ id:"teknik-tunel-karakoy-beyoglu-1875", tur:"mimari",
   kisa:"Bir Fransız turist 1867'de Galata yokuşunda yürüyen kalabalığı görüp yeraltı demiryolu tasarladı — Tünel 17 Ocak 1875'te açıldı.",
   metin:"■ NEDEN YAPILDI\n"
     +"Karaköy (Galata) bankacılık ve ticaret merkeziydi, Beyoğlu (Pera) eğlence ve sosyal hayatın; ikisini Yüksekkaldırım Yolu bağlıyordu. İTÜ Makine Fakültesi'nden bir makale Fransız mühendis Eugène-Henri Gavand'ın 1867'de İstanbul'a turist olarak geldiğini ve bu yolda çok sayıda insanın yürüdüğünü gördüğünü anlatır. Aynı makale, Gavand'a dayanarak günde yaklaşık 40.000 kişinin yürüdüğünü, yolun eğiminin %24, genişliğinin altı metre (yer yer dört metre) olduğunu aktarır. Gavand yer altı bir asansör biçiminde demiryolu önerdi.\n\n"

@@ -65,7 +65,7 @@ window.EKOKUMA_TAMAMLA = [
 
 // ═══ H-0029 (1/2) — geleneksel spor ═════════════════════════════════════════
 
-{ id:"teknik-osmanli-spor-gelenekleri", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-spor-gelenekleri", tur:"spor",
   kisa:"Padişahlar pehlivanlara tekke açtı, ödül dağıttı, kimi zaman da yasakladı — güreş Osmanlı'da bir eğlence değil, devlet işiydi.",
   metin:"■ GÜREŞÇİ TEKKELERİ\n"
     +"Pehlivanlık kurumsal bir yapıydı: bir şeyh liderliğinde 'dervişler' denen güreşçiler tekkelerde örgütlenir, konaklama ve antrenman meydanı bu tekkelerde bulunur, giderleri vakıf gelirinden karşılanırdı. Orhan Bey Bursa'da, I. Murad Edirne'de (Ali Paşa Çarşısı yakınında) ilk tekkeleri açtı; II. Murad Manisa'da, sonra İstanbul'da Unkapanı ve Şebsafâ civarında benzerleri kuruldu.\n\n"
@@ -102,7 +102,7 @@ window.EKOKUMA_TAMAMLA = [
 
 // ═══ H-0034 — sosyal yaşam: kıyafet ve toplumsal statü ══════════════════════
 
-{ id:"teknik-osmanli-kiyafet-statu", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-kiyafet-statu", tur:"kultur-sanat",
   kisa:"Bir sadrazamı sokakta tanımak için konuşmasını duymaya gerek yoktu — kıyafeti zaten söylüyordu.",
   metin:"■ KIYAFET, BİR KİMLİK KARTIYDI\n"
     +"Osmanlı toplumunda giysi rastgele bir tercih değildi: resmî görevliler, askerî zümreler, din görevlileri ve tarikat mensuplarının her biri kendine has kıyafetiyle tanınırdı. Beyaz renk bir ayrıcalık sayılırdı — sadrazam ve şeyhülislâm gibi en üst rütbeliler beyaz merasim elbisesiyle ayırt edilirdi.\n\n"

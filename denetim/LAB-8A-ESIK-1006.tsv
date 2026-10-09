@@ -1,0 +1,9 @@
+# govde 2fe8ada77 · site damgali geometri 0ef2d3e2 · D8_ALAN_8A yalniz BELLEKTE degistirildi (kopya) · 2 km izgara: ornek basina 4 km2 · 5 km2 satiri tam denetimle ayni (anahtar 1509, girdi 1637)
+esik_km2	geometrik_parca(ETIKETTEN_BAGIMSIZ)	parca_alani_km2(ETIKETTEN_BAGIMSIZ)	girdi_parca_x_etiket(bugunku_ham,ETIKETE_BAGLI)	anahtar(bugunku_8a_sayaci)	etiket_alani_km2(ETIKETE_BAGLI)	etiket_payi_4km2	etiket_payi_8km2	etiket_payi_12km2	parca_1_ornek	parca_2_ornek
+1	1131	1895516	1693	1554	1895516	48	38	29	32	26
+2	1127	1895500	1689	1552	1895500	44	38	29	28	26
+4	1107	1895396	1669	1536	1895396	30	32	29	14	20
+5	1101	1895364	1637	1509	1895260	0	30	29	10	18
+8	1080	1895212	1626	1502	1895148	0	25	23	0	13
+10	1060	1895016	1592	1479	1894840	0	0	14	0	2
+20	1021	1894312	1515	1418	1893552	0	0	0	0	0

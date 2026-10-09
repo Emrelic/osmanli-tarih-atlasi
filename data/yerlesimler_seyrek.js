@@ -258,11 +258,16 @@ window.YERLESIMLER_SEYREK = [
 // Avusturya-Macaristan işgaline uğradı ve 1918'e kadar onlarda kaldı.
 // ⇒ 1466-06-01 TDV'nin verdiği YILDA olan mevcut bir kırılma günüdür
 //   (İlbasan'ın günü). Gün TDV'de yok, uydurulmadı.
+// 🔁 KRONO-SENKRON-1008 (0085/H-0025): 1466-06-01 → 1466-01-01. İlbasan'ın günü
+//   BAŞKA bir olayın (II. Arnavutluk seferi) günüdür; §4 komşu günü şartı
+//   (aynı olay/süreç + yakın konum) tutmuyor ⇒ devralma sahte kesinlikti ve
+//   kırılmayı Hersek'i hiç anmayan Arnavutluk maddesine sessizce bağlıyordu.
+//   Gün yok ⇒ YYYY-01-01; kırılma artık kendi maddesine düşer (olaylar_ek5.js).
 // Zincir Foça'nın birebir aynısı — `isg:` 1878 Berlin işgali örtüsü dahil:
 // taban renk 1908 ilhakına kadar Osmanlı kalır (girdi.py isg: gerekçesi).
 { ad:"Trebinye", tur:"sehir", lat:42.711, lon:18.344, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1448-01-01",t:"1466-06-01",d:"hersek",kaynak:"TDV trebinye: 'yüzyılın ortalarında Dük/Hersek Stjepan Vukčić-Kosača, Bosna’dan bağımsız bir idare kurdu (Hersek kesimi) ve Trebinye’nin bulunduğu Župa buraya dahil edildi.' · '1466’da Trebinye hemen hemen bütün Hersek bölgesiyle birlikte Osmanlılar tarafından ele geçirildi.' · f: EB1911 'Bosnia and Herzegovina': Vukčić 'had united Tribunia [başkenti Trebinje] and Hlum into a single principality' · 'Duke of St Sava' unvanı 1448 — YIL"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  d:[{f:"1466-06-01",t:"1908-10-05"}],
+  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1448-01-01",t:"1466-01-01",d:"hersek",kaynak:"TDV trebinye: 'yüzyılın ortalarında Dük/Hersek Stjepan Vukčić-Kosača, Bosna’dan bağımsız bir idare kurdu (Hersek kesimi) ve Trebinye’nin bulunduğu Župa buraya dahil edildi.' · '1466’da Trebinye hemen hemen bütün Hersek bölgesiyle birlikte Osmanlılar tarafından ele geçirildi.' · f: EB1911 'Bosnia and Herzegovina': Vukčić 'had united Tribunia [başkenti Trebinje] and Hlum into a single principality' · 'Duke of St Sava' unvanı 1448 — YIL"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1466-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
 // ── BOSNA İÇİ — Drina ve Tuzla boşlukları ───────────────────────────

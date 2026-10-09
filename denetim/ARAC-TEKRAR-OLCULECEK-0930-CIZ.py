@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR (govde modülünü oradan içe aktarır, PNG'yi oraya yazar), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
 """py ciz.py <id> <gun> la0 la1 lo0 lo1 -> scratchpad/ciz-<id>.png (gövdeler yarı saydam, binme koyu, noktalar)"""
 import json, sys, os, io, contextlib
 sys.path.insert(0, 'C:/Users/emrem/AppData/Local/Temp/claude/C--atlas/44714e9d-a694-4c62-bbc0-2660851ade3d/scratchpad')
@@ -16,7 +17,7 @@ kat, K, latm, _, _ = G.sorgu(gun, la0, lo0, la1, lo1)
 DH = {d['id']: d.get('renk') for d in G.Havuz('devletler_harita.js', 'DEVLET_PARCALAR', 'DEVLET_PARCA_HALKA')._json('DEVLET_HARITA')}
 renk = {'OSMANLI': '#8e0b22', 'tabi(OSM)': '#d98a95'}
 fig, ax = plt.subplots(figsize=(7, 7 * (la1 - la0) / (lo1 - lo0) + 0.6), dpi=90)
-gl = json.load(open('C:/atlas/veri-kaynak/ne_10m_land.geojson', encoding='utf-8'))
+gl = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "ne_10m_land.geojson"), encoding='utf-8'))
 kara = unary_union([make_valid(shape(f['geometry'])).intersection(K) for f in gl['features'] if shape(f['geometry']).intersects(K)])
 
 def ciz(g, **kw):
@@ -40,7 +41,7 @@ for i in range(len(ks)):
         x = ks[i][1].intersection(ks[j][1])
         if not x.is_empty and G.km2(x, latm) >= 1:
             ciz(x, color='black', alpha=0.9, lw=0)
-sys.path.insert(0, 'C:/atlas/arac')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
 with contextlib.redirect_stdout(io.StringIO()):
     import girdi
     Y = girdi.yukle()

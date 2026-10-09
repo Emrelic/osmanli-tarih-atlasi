@@ -1,0 +1,13 @@
+diff --git a/data/kisiler.js b/data/kisiler.js
+index e6584c0a..77ac8758 100644
+--- a/data/kisiler.js
++++ b/data/kisiler.js
+@@ -267,7 +267,7 @@ window.KISILER = [
+ { id:"batu-han", tur:"yabanci-hukumdar", ad:"Batu Han",                 devlet:"altinorda", t:"1255", donem:"ö. 1255", not:"Cengiz Han'ın torunu; Altın Orda'nın kurucusu" },
+ { id:"ulug-muhammed", tur:"yabanci-hukumdar", ad:"Uluğ Muhammed",            devlet:"kazan",     t:"1445", donem:"ö. yak. 1445", not:"Altın Orda hanı iken Kazan Hanlığı'nı kurdu" },
+ { id:"kucum-han", tur:"yabanci-hukumdar", ad:"Küçüm Han",                devlet:"sibir-hanligi",     t:"1598", donem:"ö. yak. 1598", not:"Sibir Hanlığı'nın son hükümdarı; Rus (Yermak) ilerleyişine karşı uzun süre direndi" },
+-{ id:"edigu", tur:"yabanci-hukumdar", ad:"Edigü",                    devlet:"nogay",     t:"1420", donem:"ö. 1420", not:"Nogay Ordası'nın çekirdeğini oluşturan Mangıt beyi" },
++{ id:"edigu", tur:"yabanci-hukumdar", ad:"Edigü",                    devlet:"altinorda", t:"1420", donem:"ö. 1420", not:"Mangıt boyundan Altın Orda emîri; 1419'a kadar Altın Orda'yı fiilen idare etti. Nogay beylerinin atası sayılır — Nogay Ordası onun ölümünden sonra oğulları üzerinden doğdu", ic_not_not:"eski: Nogay Ordası'nın çekirdeğini oluşturan Mangıt beyi — devlet:\"nogay\" idi; nogay künyesi 1440'ta açılıyor, ölüm 1420 (D205 sınıf ③: ardıl yapı, kişi öncüle bağlanır · UMIT-W11-EDIGU-1006)", kaynak:"TDV: nogaylar — 'Mangıt boyundan Altın Orda emîri olan Edige'nin Nogay beylerinin atası sayıldığına' · 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' · TDV: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'", tartisma:"Ölüm yılı TDV'de iki değerle geçer: nogaylar '823'te (1420)' · mangitlar 'İdigu, ö. 1419'. Atlas 1420'yi tutar (hicrî+milâdî açık cümle). altin-orda-hanligi'ndeki 1419 idarenin SONUDUR, ölüm değil." },
+ 
+ // --- Parti 4: Batı Avrupa — Fransa, İspanya, İngiltere, Papalık ---
+ { id:"francois1", tur:"yabanci-hukumdar", ad:"I. François",              devlet:"fransa",    f:"1494", t:"1547", donem:"1494–1547 (saltanat 1515–1547)", not:"1536'da Kanunî ile Kapitülasyonlar'ı imzalayan, Habsburg'a karşı Osmanlı ile fiilî ittifak arayan Fransız kralı" },

@@ -11,10 +11,14 @@ Normallestirici app.js `_ekNorm`u taklit eder: kucult + aksan/kesme sadelestir.
 EVREN: data/olaylar*.js + data/kronoloji*.js  (index.html'in yukledigi kume
 degil, TUM dosyalar; ayrica index.html'de yuklu mu diye AYRICA damgalanir).
 
-Kullanim: py denetim/ARAC-EKO-BOLGE-BAG-SINA-0920.py
-Cikti   : ekrana ozet + denetim/EKO-BOLGE-BAG-0920.json
+Kullanim: py denetim/ARAC-EKO-BOLGE-BAG-SINA-0920.py        (rapor GECICI dizine)
+          py denetim/ARAC-EKO-BOLGE-BAG-SINA-0920.py --yaz  (denetim/EKO-BOLGE-BAG-0920.json'u yeniden yaz)
+Cikti   : ekrana ozet + rapor json
+
+CANLI DOSYAYA YAZMAZ (UMIT-W31-SINAV-YANETKI-1006): eskiden her kosu kayitli
+raporu yeniden yaziyordu; kayitli rapor artik yalniz --yaz ile guncellenir.
 """
-import os, re, json, sys, unicodedata
+import os, re, json, sys, tempfile, unicodedata
 
 sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -109,7 +113,11 @@ def main():
                      "index_te_yuklu_olmayan":
                          sum(1 for s in rapor["bag"]
                              if s["eslesen"] and not s["index_te_yuklu"])}
-    cikti = os.path.join(KOK, "denetim", "EKO-BOLGE-BAG-0920.json")
+    if "--yaz" in sys.argv[1:]:
+        cikti = os.path.join(KOK, "denetim", "EKO-BOLGE-BAG-0920.json")
+    else:
+        fd, cikti = tempfile.mkstemp(prefix="EKO-BOLGE-BAG-0920-", suffix=".json")
+        os.close(fd)
     json.dump(rapor, open(cikti, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 

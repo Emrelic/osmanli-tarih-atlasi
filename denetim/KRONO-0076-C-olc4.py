@@ -3,7 +3,7 @@
 1912-03-13 -> 1912-11-11 kaydirilirsa eski konuma dayanan kirilma acikta kalir mi?
 Salt okur."""
 import io, os, re, sys, datetime
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 import girdi
 DATA = os.path.join(KOK, "data")

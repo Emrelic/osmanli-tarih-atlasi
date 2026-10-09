@@ -1,0 +1,7 @@
+① yorum bütünlüğü      : 🔴 2 KIRIK YORUM
+     satır 1170  gövdede `--` var → yorum ERKEN KAPANIR: …🔴 ÜÇ KAPIDAN GEÇENLER: ① node --check ② `window.KR
+     satır 1640  gövdede `--` var → yorum ERKEN KAPANIR: …-0037 tarafindan `git rm --cached` ile SAHNEL
+② mükerrer id          : ✓ yok
+③ ölü denetim          : 33 denetim tarandı · ✓ ölü yok
+--------------------------------------------------------------------
+SONUÇ: 2 İHLAL

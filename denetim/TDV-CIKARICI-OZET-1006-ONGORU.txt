@@ -1,0 +1,15 @@
+TDV-CIKARICI-OZET-1006 — ÖNGÖRÜ MÜHRÜ
+Zaman: 2026-10-06 16:39 +0300. Yeniden eşleştirmeden ÖNCE yazıldı. Bilinenler: ALINTI-264'te 258'de 7 özet isabeti; W30 kovaları (sonuc3.json). Özet alanı henüz hiçbir satıra karşı aranmadı.
+
+Mekanizma: div.article_info tek bir tanım cümlesidir (~8-25 kelime, "X'te hüküm süren hanedan", "şu tarihte yapılan antlaşma"). Ona birebir uyan tırnaklar künye tanımı türündendir; en çok devletler.js + ikizi paket_05.js'te olmalı (künye "ne" cümlesi), kronoloji formülü ("YYYY: olay") özetten çıkmaz.
+Bu yüzden düzeltme yalnız EKLER: gövde değişmez, özet ayrı alandır ⇒ GERİ YÖN: BİREBİR → başka kovaya düşen satır = 0 (yapısal).
+
+Sayı (ALINTI-TARAMA'nın 9.402 satırı, cümle ≥4 kelime evreni):
+- güçlü atıflı YOK (852): ~25 satır (±15) BİREBİR'e geçer (~%3, örneklemdeki %2,7'ye yakın), tekil ~12.
+- YAKIN (388) → BİREBİR: ~5.
+- zayıf atıf YOK (251) + beyanlı özet (78): ~5.
+- slug kayması (74): ~2 (alıntı kendi maddesinin özetinde çıkarsa kayma hükmü düşer); ters yönde yeni kayma (başka maddenin ÖZETİNDE birebir) ~3.
+- ÖLÇÜLEMEDİ: 0 değişim (302/slug çözülemedi özete bağlı değil).
+- Toplam hüküm değişimi (cümle): ~35 (aralık 15-60). Kısa parçalarda (<4 kelime) birkaç daha.
+- 5.888 güçlü atıflı tabandaki YOK oranı %14,5 → ~%14,0.
+ALINTI-264'ün 21 desteksiz (✗D) kalemi: özet onların hiçbirini kurtarmaz (öngörü 0/21): ✗D hükümleri hedefli gövde aramasıyla ve olgu düzeyinde verildi; özet tek cümledir. #109 meriniler, #143 piri-reis, #193 seydi-ali-reis: üçü de DEĞİŞMEZ.

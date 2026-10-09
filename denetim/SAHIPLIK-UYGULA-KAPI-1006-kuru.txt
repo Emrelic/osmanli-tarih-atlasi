@@ -1,0 +1,1058 @@
+YAMA KAYDI: 1369
+KRONOLOJİ: 1672 benzersiz gün
+TABAN: 4286 benzersiz ad, 93 dosya (3201 kayıt ÇOK SATIRLI)
+  i 223 ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor — çakışma DEĞİL (eski alet bunları bloke ediyordu)
+  🟢 DÖNEM İÇİ BEYAN birleştirildi: isg 37 · v 21 — çekirdek (f/t/d) aynı, yalnız `kaynak`/`neden` alt-alanı bir tarafta VAR bir tarafta YOK
+  🟢 AYRIK ALAN birleştirildi: v 149 · s 61 · d 42 · kaynak 39 · neden 23 · isg 10 · not 7 — eskiden `liste[0]` dışındaki yamaların bu alanları SESSİZCE DÜŞÜYORDU
+  🟡 13 adda YALNIZ `kaynak` ayrışıyor — veri İNECEK, kaynak YAZILMAYACAK (hangisi doğru: KARARA BAĞLANMALI)
+       Akra                         yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Ammâre                       yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Basra                        yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Duhok                        yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Erbil                        yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Fâv                          yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Kürne                        yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Musul                        yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Mîyandoab                    yer_yama_iran.js vs yer_yama_uyg2.js vs yer_yama_zend_kacar.js
+       Rewândiz                     yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Semâve                       yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Sincar                       yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+       Zaho                         yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js
+
+=== SAHİPLİK YAMASI — KURU KOŞU ===
+benzersiz ad: 1053
+  uygulandi         210
+  zaten-boyle       726
+  cakisma            20
+  kendi-kilidi        2
+  gun-maddesiz       18
+  veride-yok         60
+
+İNEN (210):
+  Ahar (Karadağ)               yerlesimler.js                 s+m
+  Akkirman                     yerlesimler.js                 s+v+isg
+  Aksaray                      yerlesimler.js                 d+s  [3 satır]
+  Akçahisar (Kruja)            yerlesimler.js                 s+v+kaynak
+  Akçakale                     yerlesimler_ek25.js            d+s+isg  [3 satır]
+  Ammâre                       yerlesimler.js                 s
+  Ankara                       yerlesimler.js                 d+s
+  Annaba                       yerlesimler.js                 v  [2 satır]
+  Ardahan                      yerlesimler.js                 d+s
+  Astara                       yerlesimler.js                 s
+  Asyut                        yerlesimler.js                 s+v+isg  [2 satır]
+  Ayasaranda (Sarandë)         yerlesimler_epir.js            v  [6 satır]
+  Aynı Beydâ                   yerlesimler_h2_kuzeyafrika.js  v  [5 satır]
+  Ağraham burnu                yerlesimler.js                 s
+  Aşkale                       yerlesimler_ek29.js            d+s  [3 satır]
+  Batna                        yerlesimler_afrika.js          v  [3 satır]
+  Bender                       yerlesimler.js                 s+v
+  Benzert (Bizerte)            yerlesimler_afrika.js          v  [3 satır]
+  Berc Bû Areric               yerlesimler_afrika.js          v  [3 satır]
+  Berde (Karabağ)              yerlesimler.js                 s
+  Beyrut                       yerlesimler.js                 s+v  [2 satır]
+  Beyzâ (Kirene)               yerlesimler_afrika.js          d+s+v  [4 satır]
+  Bicâye                       yerlesimler.js                 v  [2 satır]
+  Bin Gerdân                   yerlesimler_afrika.js          v  [3 satır]
+  Bingazi                      yerlesimler.js                 d+s+v  [33 satır]
+  Birlad (Bârlad)              yerlesimler.js                 s+v
+  Biskra                       yerlesimler.js                 v
+  Bolayır                      yerlesimler.js                 d+s
+  Brassó (Braşov)              yerlesimler_ek29.js            v  [5 satır]
+  Budin                        yerlesimler.js                 v
+  Buzău                        yerlesimler.js                 s+v
+  Bâce (Béja)                  yerlesimler_afrika.js          v  [3 satır]
+  Bükreş                       yerlesimler.js                 s+v+isg
+  Cendûbe                      yerlesimler_afrika.js          v  [3 satır]
+  Cerbe (Djerba)               yerlesimler.js                 v
+  Cerciş (Zarzis)              yerlesimler_afrika.js          v  [3 satır]
+  Cicel                        yerlesimler_afrika.js          v  [3 satır]
+  Culfa                        yerlesimler.js                 d+s
+  Darende                      yerlesimler_ok110.js           d+s  [5 satır]
+  Debrecen                     yerlesimler_kdmacar.js         v  [10 satır]
+  Delvine                      yerlesimler_epir.js            v  [6 satır]
+  Demirköy                     yerlesimler_ek24.js            d+s  [3 satır]
+  Denizli                      yerlesimler.js                 d+s
+  Dereköy (Kırklareli)         yerlesimler_ek24.js            d+s  [3 satır]
+  Derne                        yerlesimler.js                 d+s+v  [61 satır]
+  Dihistan ovası (Meşhed-i Mis yerlesimler.js                 s  [2 satır]
+  Dimyat                       yerlesimler.js                 s+v+isg  [2 satır]
+  Divriği                      yerlesimler.js                 d+s
+  Diyarbakır                   yerlesimler.js                 d+s
+  Doyran                       yerlesimler_ok107.js           v  [12 satır]
+  Dubrovnik                    yerlesimler.js                 v
+  Dûz                          yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Ecdâbiye                     yerlesimler_afrika.js          d+s+v  [4 satır]
+  El-Arîş                      yerlesimler_afrika.js          s+v+isg  [4 satır]
+  Elbistan                     yerlesimler.js                 d+s
+  Enez                         yerlesimler.js                 d+s  [3 satır]  ⚠️ 2s zayıf gün: 1376-01-01
+  Eperjes (Prešov)             yerlesimler_ek.js              v+m  [7 satır]
+  Erbil                        yerlesimler.js                 s
+  Erdebil                      yerlesimler.js                 s
+  Erdel (Kaloşvar)             yerlesimler.js                 v  [2 satır]
+  Erdel Belgradı (Gyulafehérvá yerlesimler_ek29.js            v  [4 satır]
+  Erzincan                     yerlesimler.js                 d+s
+  Eçmiyadzin                   yerlesimler_ek26.js            s  [3 satır]
+  Fülek (Fiľakovo)             yerlesimler_ek_macaristan.js   v+m  [8 satır]
+  Gabes                        yerlesimler.js                 v
+  Gümrü (Aleksandropol)        yerlesimler_ek26.js            s  [3 satır]
+  Gümülcine                    yerlesimler.js                 d+s
+  Halhâl                       yerlesimler.js                 s
+  Halkulvâdî                   yerlesimler_afrika.js          v  [3 satır]
+  Hanşele (Khenchela)          yerlesimler_h2_kuzeyafrika.js  v  [5 satır]
+  Havsa                        yerlesimler_ek24.js            d+s  [3 satır]
+  Hayber                       yerlesimler_ok101.js           v  [8 satır]
+  Honolulu                     yerlesimler_4ff22b.js          s+kaynak+not
+  Hotin                        yerlesimler.js                 s+v+isg
+  Hoy                          yerlesimler.js                 d+s
+  Hürmüz Adası                 yerlesimler.js                 s  [7 satır]
+  Kabartay (Nalçik)            yerlesimler.js                 s
+  Kafsa                        yerlesimler_afrika.js          v  [3 satır]
+  Kahire                       yerlesimler.js                 s+v+isg  [2 satır]
+  Kahul (Cahul)                yerlesimler_p0037.js           s+v  [6 satır]
+  Kalas (Galatz)               yerlesimler.js                 s+v
+  Kalme (Guelma)               yerlesimler_afrika.js          v  [3 satır]
+  Kalyari (Cagliari)           yerlesimler.js                 s
+  Kars                         yerlesimler.js                 d+s
+  Kasrayn                      yerlesimler_afrika.js          v  [3 satır]
+  Kassa (Košice)               yerlesimler_ek.js              v  [8 satır]
+  Kayrevan                     yerlesimler.js                 v
+  Kef                          yerlesimler_afrika.js          v  [3 satır]
+  Kelkit                       yerlesimler_ek29.js            d+s+m  [3 satır]
+  Kelîbiye                     yerlesimler_afrika.js          v  [3 satır]
+  Kemah                        yerlesimler.js                 d+s
+  Kerkene (Kerkennah)          yerlesimler.js                 v
+  Keşan                        yerlesimler.js                 d+s  [2 satır]
+  Kili                         yerlesimler.js                 s+v+isg
+  Kiş (Kish)                   yerlesimler.js                 s  [4 satır]
+  Kişm (Qeshm)                 yerlesimler.js                 s  [4 satır]
+  Kofçaz                       yerlesimler_ek24.js            d+s  [3 satır]
+  Kolo                         yerlesimler_afrika.js          v  [3 satır]
+  Konstantin                   yerlesimler.js                 v
+  Kragujevac                   yerlesimler.js                 v
+  Krayova (Craiova)            yerlesimler.js                 s+v
+  Köprülü (Veles)              yerlesimler_ok107.js           v  [12 satır]
+  Kıbillî (Nefzâve)            yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Kımpulung (Câmpulung)        yerlesimler.js                 s+v
+  Kırklareli                   yerlesimler.js                 d+s  [2 satır]
+  Lalapaşa                     yerlesimler_ek24.js            d+s  [3 satır]
+  Lenkeran                     yerlesimler.js                 s
+  Limni                        yerlesimler.js                 d+s+isg
+  Lüleburgaz                   yerlesimler.js                 d+s  [2 satır]
+  Malatya                      yerlesimler.js                 d+s
+  Maraş                        yerlesimler.js                 d+s+v+isg  [2 satır]
+  Maydos (Eceabat)             yerlesimler.js                 d+s
+  Medenîn                      yerlesimler_afrika.js          v  [3 satır]
+  Medine                       yerlesimler.js                 v  [3 satır]
+  Mehdiye                      yerlesimler_afrika.js          v  [3 satır]
+  Mekke                        yerlesimler.js                 v  [3 satır]
+  Mekter (Maktar)              yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Merc                         yerlesimler_afrika.js          d+s+v  [4 satır]
+  Merend                       yerlesimler.js                 s
+  Meriç (İpsala kuzeyi)        yerlesimler_ek24.js            d+s  [3 satır]
+  Mersin                       yerlesimler_ek27.js            d+s+isg  [33 satır]
+  Merâga                       yerlesimler.js                 s
+  Merîvan                      yerlesimler.js                 s
+  Metlâvî                      yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Meşkinşehr (Hiyav)           yerlesimler_kalite4.js         s  [5 satır]
+  Miyâne                       yerlesimler.js                 s+m
+  Muaskar                      yerlesimler_afrika.js          v  [3 satır]
+  Munastır                     yerlesimler_afrika.js          v  [3 satır]
+  Munkács (Mukacheve)          yerlesimler_ek_macaristan.js   v+m  [8 satır]
+  Mâku                         yerlesimler.js                 s
+  Mâtir (Mateur)               yerlesimler_afrika.js          v  [3 satır]
+  Mîle                         yerlesimler_afrika.js          v  [3 satır]
+  Mîyandoab                    yerlesimler.js                 d+s
+  Nahçıvan                     yerlesimler.js                 s
+  Nefta                        yerlesimler_afrika.js          v  [3 satır]
+  Niğbolu                      yerlesimler.js                 isg
+  Niğde                        yerlesimler.js                 d+s
+  Nâbil (Nabeul)               yerlesimler_afrika.js          v  [3 satır]
+  Ordubad                      yerlesimler.js                 s
+  Orhei                        yerlesimler.js                 s+v
+  Peşte                        yerlesimler.js                 v
+  Piteşti                      yerlesimler.js                 s+v
+  Prevadi (Provadia)           yerlesimler_ek29.js            v  [9 satır]
+  Revan                        yerlesimler.js                 s
+  Reşîd (Rosetta)              yerlesimler.js                 s+v+isg  [2 satır]
+  Rimnik (Râmnicu Vâlcea)      yerlesimler.js                 s+v
+  Rimnik-i Sârat (Râmnicu Săra yerlesimler.js                 s+v
+  Rize                         yerlesimler.js                 d+s
+  Roman                        yerlesimler.js                 s+v
+  Rāzhān                       yerlesimler_sinir_dogu.js      s  [7 satır]
+  Sakkız                       yerlesimler.js                 s
+  Sarâb                        yerlesimler.js                 s+m
+  Sarıkamış                    yerlesimler_ek28.js            d+s  [12 satır]
+  Segesvár (Sighişoara)        yerlesimler_ek29.js            v  [4 satır]
+  Selmâs (Dilman)              yerlesimler.js                 s
+  Semadirek                    yerlesimler.js                 d+s+isg
+  Serez                        yerlesimler.js                 d+s
+  Sero                         yerlesimler_sinir_dogu.js      s  [7 satır]
+  Setif                        yerlesimler.js                 v
+  Sfaks                        yerlesimler.js                 v  [2 satır]
+  Sikikde                      yerlesimler_afrika.js          v  [3 satır]
+  Slatina                      yerlesimler.js                 s+v
+  Sofya                        yerlesimler.js                 v
+  Soroka (Soroca)              yerlesimler.js                 s+v
+  Sultâniye                    yerlesimler.js                 s
+  Sîdî Bû Zeyd                 yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Sûk Ahrâs                    yerlesimler_afrika.js          v  [3 satır]
+  Sûse                         yerlesimler_afrika.js          v  [3 satır]
+  Sübaytıla                    yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Tarki (Tarku)                yerlesimler.js                 s+v+m
+  Tatavin                      yerlesimler_afrika.js          v  [3 satır]
+  Taşoz                        yerlesimler.js                 d+s+isg
+  Tebesse                      yerlesimler_afrika.js          v  [3 satır]
+  Tebriz                       yerlesimler.js                 s  [4 satır]
+  Testûr                       yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Tobruk                       yerlesimler_afrika.js          d+s+v  [4 satır]
+  Tokaj                        yerlesimler_ek.js              v+m  [6 satır]
+  Tozer                        yerlesimler_afrika.js          v  [3 satır]
+  Tunus                        yerlesimler.js                 v
+  Turnu Severin                yerlesimler.js                 s+v
+  Tâif                         yerlesimler.js                 v
+  Tırgovişte                   yerlesimler.js                 s+v
+  Tırgu Jiu                    yerlesimler.js                 s+v
+  Ungvár (Uzhhorod)            yerlesimler_ek_macaristan.js   v+m  [8 satır]
+  Urmiye                       yerlesimler.js                 d+s
+  Ustrumca (Strumica)          yerlesimler_ok107.js           v  [12 satır]
+  Varad (Oradea)               yerlesimler.js                 v  [2 satır]
+  Vidin                        yerlesimler.js                 v
+  Vize                         yerlesimler_ek29.js            d+s  [3 satır]
+  Yagodina (Jagodina)          yerlesimler_ek29.js            d+s+v  [2 satır]
+  Yanova (Ineu)                yerlesimler.js                 v
+  Yanıkkale (Győr)             yerlesimler.js                 s
+  Yaş                          yerlesimler.js                 s+v+isg
+  Yergöğü (Giurgiu)            yerlesimler.js                 d+s+isg+neden
+  Zagem (Kaheti)               yerlesimler.js                 v+m
+  Zağvân                       yerlesimler_afrika.js          v  [3 satır]
+  Çaçak                        yerlesimler.js                 v
+  Çorlu                        yerlesimler.js                 d+s  [2 satır]
+  Ğar Dimâv                    yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  Ğâru'l-Melh (Porto Farina)   yerlesimler_h2_kuzeyafrika.js  v  [4 satır]
+  İbrail                       yerlesimler.js                 s+v
+  İmâdiye (Amêdî)              yerlesimler_ok109.js           s+kaynak
+  İskenderiye                  yerlesimler.js                 s+v+isg  [2 satır]
+  İsmail                       yerlesimler.js                 s+v
+  İğneada                      yerlesimler_ek24.js            d+s  [3 satır]
+  İştip (Štip)                 yerlesimler_ok107.js           v  [12 satır]
+  Şehirköy (Pirot)             yerlesimler_serhat.js          d+s  [4 satır]
+  Şerur (Sharur)               yerlesimler_kalite4.js         s  [8 satır]
+  Şeyh Salû-yi Ulyâ            yerlesimler_sinir_dogu.js      s  [7 satır]
+  Şeyhrumi (Yücelen)           yerlesimler_sinir_dogu.js      d+s  [7 satır]
+
+DOSYA DOSYA (22):
+  yerlesimler.js                          119
+  yerlesimler_afrika.js                    35
+  yerlesimler_h2_kuzeyafrika.js            11
+  yerlesimler_ek29.js                       8
+  yerlesimler_ek24.js                       7
+  yerlesimler_ok107.js                      4
+  yerlesimler_sinir_dogu.js                 4
+  yerlesimler_ek.js                         3
+  yerlesimler_ek_macaristan.js              3
+  yerlesimler_epir.js                       2
+  yerlesimler_ek26.js                       2
+  yerlesimler_kalite4.js                    2
+  yerlesimler_ek25.js                       1
+  yerlesimler_ok110.js                      1
+  yerlesimler_kdmacar.js                    1
+  yerlesimler_ok101.js                      1
+  yerlesimler_4ff22b.js                     1
+  yerlesimler_p0037.js                      1
+  yerlesimler_ek27.js                       1
+  yerlesimler_ek28.js                       1
+  yerlesimler_ok109.js                      1
+  yerlesimler_serhat.js                     1
+
+[!] ATLANAN (581) — sebebiyle:
+  Abâdân                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Abâdân                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Acdîr (Ajdir)                veride YOK — yeni nokta, yama ile yazılmaz
+  Afgoye                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Agadez                       ÇAKIŞMA: yer_yama_1923_bosluk_0906.js vs yer_yama_agadez_0906.js — içerik farklı, KARAR GEREK
+  Ahar (Karadağ)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ahar (Karadağ)               neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ahmîm                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ahmîm                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ahıska                       KAPSAM DARALDI — 1578-08-01→1578-08-09 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Akkirman                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akkirman                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akkâ                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akmescid                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akmescid                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akmescid                     KAPSAM DARALDI — 1771-07-01→1774-07-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Akra                         kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Akra                         neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akşehir                      MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Alaşehir                     MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Ammâre                       kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Ammâre                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Antakya                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Arapkir                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Arapkir                      neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Asvan                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Asvan                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Asyut                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Asyut                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Atak                         veride YOK — yeni nokta, yama ile yazılmaz
+  Atfîh                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Atfîh                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Aydonat (Paramythia)         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ayn el-Arab (Kobani)         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Aynaroz (Athos)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Azak                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Azak                         neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Azez (A'zâz)                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Babadağı (Babadag)           KAPSAM DARALDI — 1413-07-05→1416-01-01 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Bacirge (Esendere)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bacirge (Esendere)           neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bahriye (Bâvîtî)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bahriye (Bâvîtî)             not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bahçesaray                   KAPSAM DARALDI — 1771-07-01→1774-07-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Barselona                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Basra                        kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Basra                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Batang                       veride YOK — yeni nokta, yama ile yazılmaz
+  Batnoz (Patmos)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Baturin                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Batı Sibirya bataklıkları be veride YOK — yeni nokta, yama ile yazılmaz
+  Batı Sibirya bataklıkları be veride YOK — yeni nokta, yama ile yazılmaz
+  Bağdat                       ÇAKIŞMA: yer_yama_erken.js vs yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js — içerik farklı, KARAR GEREK
+  Behnesâ                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Behnesâ                      not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Benhâ (Kalyûbiye)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Benhâ (Kalyûbiye)            not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Benî Süveyf                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Benî Süveyf                  not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Berâve                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Beyrut                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Beyşehir                     MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Bhaktapur                    veride YOK — yeni nokta, yama ile yazılmaz
+  Białystok                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bilbîs (Şarkiye)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bilbîs (Şarkiye)             not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bitlis                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bitlis                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Borås                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bozbaba (Ay Strati)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Brest-Litovsk                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Buraydâ (Kasîm)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Buraydâ (Kasîm)              neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Burdur                       MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Burâm                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Burâm                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Burûcird                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Burûcird                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bükreş                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bükreş                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bürüllüs (Baltîm)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bürüllüs (Baltîm)            not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Cadale                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Cap-Haïtien (Cap-Français)   veride YOK — yeni nokta, yama ile yazılmaz
+  Cenîne                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Cenîne                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Cerablus                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Cirge (Girga)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Cirge (Girga)                not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Culfa                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Culfa                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Câlû                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Darfur                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Darfur                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dartsedo (Kangding)          veride YOK — yeni nokta, yama ile yazılmaz
+  Demenhûr (Damanhur)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Demenhûr (Damanhur)          not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Derbend                      ÇAKIŞMA: yer_yama_kafkas_rusya.js vs yer_yama_zend_kacar.js — içerik farklı, KARAR GEREK
+  Derge (Dege)                 veride YOK — yeni nokta, yama ile yazılmaz
+  Dessûk                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dessûk                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Deyrizor                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Deyrût                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Deyrût                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dimetoka                     MADDESİZ GÜN (Değişmez 2 açılır): 1361-02-01
+  Dimyat                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dimyat                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Divriği                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Divriği                      neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Doha (Katar)                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Doha (Katar)                 neden: yamada BOŞ — boş değer yazılmaz
+  Doha (Katar)                 KAPSAM DARALDI — 1868-01-01→1871-09-20 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Dolonnor (Duolun)            veride YOK — yeni nokta, yama ile yazılmaz
+  Doğubayazıt                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Doğubayazıt                  neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Drama                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dublin                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Duhok                        kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Duhok                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dâhile                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dâhile                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Dörtyol                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ebû Ramâd (Şalâtîn)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ebû Ramâd (Şalâtîn)          not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ebûkîr                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ebûkîr                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ed-Da'în                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ed-Da'în                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Edfû                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Edfû                         not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Edirne                       MADDESİZ GÜN (Değişmez 2 açılır): 1361-03-01
+  El-Arîş                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  El-Arîş                      not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Elba                         ÇAKIŞMA: yer_yama_avrupa_1923.js vs yer_yama_elba.js — içerik farklı, KARAR GEREK
+  Emet (Eğrigöz)               MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Enval (Annual)               veride YOK — yeni nokta, yama ile yazılmaz
+  Eperjes (Prešov)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Eperjes (Prešov)             neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Erbil                        kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Erbil                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ergani                       veride YOK — yeni nokta, yama ile yazılmaz
+  Erzin                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Erzincan                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Erzincan                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Eski Kırım (Solhat)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Eski Kırım (Solhat)          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Eski Kırım (Solhat)          KAPSAM DARALDI — 1771-07-01→1774-07-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Esna                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Esna                         not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Eystribygð (Doğu Yerleşimi)  veride YOK — yeni nokta, yama ile yazılmaz
+  Eğil                         veride YOK — yeni nokta, yama ile yazılmaz
+  Eğirdir                      MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Falun                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ferecik (Feres)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ferecik (Feres)              neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ferâfire                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ferâfire                     not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ferşût                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ferşût                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Feyyûm                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Feyyûm                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Filat (Filiates)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Floransa                     KAPSAM DARALDI — 1861-03-17→1923-10-29 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Fornoz (Fourni)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Fâkûs                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Fâkûs                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Fâv                          kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Fâv                          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Fülek (Fiľakovo)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Fülek (Fiľakovo)             neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Gazze                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Genç                         veride YOK — yeni nokta, yama ile yazılmaz
+  Gobi doğu (Sünid)            veride YOK — yeni nokta, yama ile yazılmaz
+  Gobi içi (Alaşan)            veride YOK — yeni nokta, yama ile yazılmaz
+  Graz                         KENDİ KİLİDİ: Viyana ile AYNI iki ön şart — renk + künye günü. İkisi inmeden UYGULAM
+  Grodno                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Grönland güney buz alanı     veride YOK — yeni nokta, yama ile yazılmaz
+  Grönland iç buz tabakası     veride YOK — yeni nokta, yama ile yazılmaz
+  Guatemala City (Nueva Guatem veride YOK — yeni nokta, yama ile yazılmaz
+  Gât                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Gävle                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Göteborg                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Gözleve (Kezlev)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Gözleve (Kezlev)             neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Gözleve (Kezlev)             KAPSAM DARALDI — 1771-07-01→1774-07-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Gümülcine                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Gümülcine                    neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hadramut                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hadramut                     not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hailar (Hulunbuir)           veride YOK — yeni nokta, yama ile yazılmaz
+  Halep                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Halepçe                      ÇAKIŞMA: yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js vs yer_yama_uyg3.js — içerik farklı, KARAR GEREK
+  Hama                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Han Yûnus                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hazro (Tercil)               veride YOK — yeni nokta, yama ile yazılmaz
+  Herke (Halki)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Herseknovi (Herceg Novi)     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Herseknovi (Herceg Novi)     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hizan                        veride YOK — yeni nokta, yama ile yazılmaz
+  Hotin                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hotin                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hoy                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hoy                          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Humus                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hunçun                       veride YOK — yeni nokta, yama ile yazılmaz
+  Hârice (Vâhât)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hârice (Vâhât)               not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hämeenlinna                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Härnösand                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Iisalmi                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ilgın                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Isparta                      MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Joensuu                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Jokkmokk                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Jukkasjärvi                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Jyekundo (Yuşu)              veride YOK — yeni nokta, yama ile yazılmaz
+  Jyväskylä                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Jönköping                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kabartay (Nalçik)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kabartay (Nalçik)            neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kafrüşşeyh                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kafrüşşeyh                   not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kahire                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kahire                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kalmar                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kalocsa                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kalyari (Cagliari)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Karaferye (Veria)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Karahisâr-ı Sâhib (Afyon)    MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Karapınar                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Karasubazar                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Karasubazar                  neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Karasubazar                  KAPSAM DARALDI — 1771-07-01→1774-07-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Karlstad                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Karpatos                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kasr-ı Şîrîn                 ÇAKIŞMA: yer_yama_kademe_m_0905.js vs yer_yama_kafkas.js vs yer_yama_p0035.js vs yer_yama_zend_kacar.js — içerik farklı, KARAR GEREK
+  Katye                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Katye                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kaunas                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kavala                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kaşot (Kasos)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kebkâbiye                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kebkâbiye                    neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kelemez (Kalimnos)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kelkit                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kerene                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kerene                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kesendire (Kassandra)        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kiev                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kili                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kili                         neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kiğı                         veride YOK — yeni nokta, yama ile yazılmaz
+  Kokkola                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kolyma-Çukotka beyan noktası veride YOK — yeni nokta, yama ile yazılmaz
+  Kolyma-Çukotka beyan noktası veride YOK — yeni nokta, yama ile yazılmaz
+  Kovel                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kuba                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kuba                         neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kudüs                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kuopio                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kusayr                       ÇAKIŞMA: yer_yama_kid20_0907.js vs yer_yama_misir_himaye.js vs yer_yama_ok101.js vs yer_yama_ortadogu_misir_1923.js vs yer_yama_vassal_kid_0906.js — içerik farklı, KARAR GEREK
+  Kutaisi                      ÇAKIŞMA: yer_yama_ferhatpasa.js vs yer_yama_kafkas.js vs yer_yama_kid20_0907.js vs yer_yama_vassal_kid_0906.js — içerik farklı, KARAR GEREK
+  Kutum                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kutum                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kuveyt                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kuveyt                       neden: yamada BOŞ — boş değer yazılmaz
+  Köstence                     KAPSAM DARALDI — 1413-07-05→1419-01-01 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Kûm Ombo                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kûm Ombo                     not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kûs                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kûs                          not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kürne                        kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Kürne                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kütahya                      MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Kılkış (Avrathisar)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kına                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kına                         not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kızıl (Belotsarsk)           veride YOK — yeni nokta, yama ile yazılmaz
+  Lanzaka (Lagkadas)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Lappeenranta                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Leş (Alessio)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Limni                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Lindos                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Linköping                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Litang                       veride YOK — yeni nokta, yama ile yazılmaz
+  Lubnı                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Luleå                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Lutsk (Łuck)                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Madrid                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mahalletülkübrâ              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mahalletülkübrâ              not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Malatya                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Malatya                      neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Malikiye (Derik)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Manama (Bahreyn)             ÇAKIŞMA: yer_yama_1923_duzeltme.js vs yer_yama_gece_v1.js — içerik farklı, KARAR GEREK
+  Mankup                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mankup                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mansûre                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mansûre                      not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Maraş                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Margiliç (Margariti)         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Maykop (Çerkezya)            ÇAKIŞMA: yer_yama_erken.js vs yer_yama_kafkas_rusya.js — içerik farklı, KARAR GEREK
+  Mayorka (Palma)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mellevî                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mellevî                      not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mellît                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mellît                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mengo (Buganda)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mengo (Buganda)              neden: yamada BOŞ — boş değer yazılmaz
+  Menorka (Mahon)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Menzile                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Menzile                      not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mergen (Nenjiang)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mergen (Nenjiang)            neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mergen (Nenjiang)            KAPSAM DARALDI — 1686-01-01→1923-10-29 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Merka                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mersâ Matruh                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mersâ Matruh                 not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Merâde                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Midilli                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mikkeli                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Minsk                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Minye                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Minye                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Miyâne                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Miyâne                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mogadişu                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Molova (Molyvos)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mora                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Munkács (Mukacheve)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Munkács (Mukacheve)          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Murzuk (Fizan)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Musul                        kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Musul                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Musul                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Musul                        KAPSAM DARALDI — 1624-01-01→1625-01-01 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Mît Gamr                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mît Gamr                     not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mîyandoab                    kaynak: 3 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Mîyandoab                    neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Münbiç                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nablus                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nagçu (Nagqu)                veride YOK — yeni nokta, yama ile yazılmaz
+  Ndjamena                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ndjamena                     neden: yamada BOŞ — boş değer yazılmaz
+  Ndjamena                     kur: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ngawa (Aba)                  veride YOK — yeni nokta, yama ile yazılmaz
+  Nihâvend                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nihâvend                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nikarya (İkarya)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nikolsk (Ussuriysk)          veride YOK — yeni nokta, yama ile yazılmaz
+  Ningçeng (Liao Zhongjing)    veride YOK — yeni nokta, yama ile yazılmaz
+  Niğbolu                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Niğbolu                      neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Niş                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Norrköping                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nurmes                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nuuk (Godthåb)               veride YOK — yeni nokta, yama ile yazılmaz
+  Nyala                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nyala                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nyköping                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nâsıriye                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ogaden                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ogaden                       bos: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ogaden                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Or Kapı (Ferahkirman)        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Or Kapı (Ferahkirman)        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Or Kapı (Ferahkirman)        KAPSAM DARALDI — 1771-07-01→1774-07-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Orta Sibirya yaylası beyan n veride YOK — yeni nokta, yama ile yazılmaz
+  Orta Sibirya yaylası beyan n veride YOK — yeni nokta, yama ile yazılmaz
+  Otranto                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Otranto                      neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Oulu                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Parga                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Patan (Lalitpur)             veride YOK — yeni nokta, yama ile yazılmaz
+  Petuna (Bedune)              veride YOK — yeni nokta, yama ile yazılmaz
+  Pinsk                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Polotsk                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Poltava                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Pori                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Port-au-Prince               veride YOK — yeni nokta, yama ile yazılmaz
+  Portsaid                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Portsaid                     not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Praviște (Eleftheroupoli)    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Preveze                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Radom                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Radom                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Rakka                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ramâdi                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Rewândiz                     kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Rewândiz                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Reşîd (Rosetta)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Reşîd (Rosetta)              not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Rivne (Równe)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Rodos                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Rovaniemi                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sakız                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Salyan                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Salyan                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Santiago de los Caballeros   veride YOK — yeni nokta, yama ile yazılmaz
+  Sanşing (Yilan)              veride YOK — yeni nokta, yama ile yazılmaz
+  Sarâb                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sarâb                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sasari (Sassari)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sason                        veride YOK — yeni nokta, yama ile yazılmaz
+  Savonlinna                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sayda                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sağlı                        veride YOK — yeni nokta, yama ile yazılmaz
+  Sebha                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sefâce                       ÇAKIŞMA: yer_yama_kid20_0907.js vs yer_yama_misir_himaye.js vs yer_yama_ok101.js vs yer_yama_ortadogu_misir_1923.js vs yer_yama_vassal_kid_0906.js — içerik farklı, KARAR GEREK
+  Selanik                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sellûm                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sellûm                       not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Semadirek                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Semâve                       kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Semâve                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Serez                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sevilla                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Seydişehir                   MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Silistre                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Silistre                     not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Silistre                     KAPSAM DARALDI — 1413-07-05→1419-01-01 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Simav                        MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Sin (Sinj)                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sin (Sinj)                   neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sina güneyi                  ÇAKIŞMA: yer_yama_kid20_0907.js vs yer_yama_misir_himaye.js vs yer_yama_ok101.js vs yer_yama_ortadogu_misir_1923.js vs yer_yama_vassal_kid_0906.js — içerik farklı, KARAR GEREK
+  Sincar                       kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Sincar                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sisam                        KAPSAM DARALDI — 1912-03-13→1912-11-11 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Sodankylä                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sohum                        ÇAKIŞMA: yer_yama_ferhatpasa.js vs yer_yama_sohum.js — içerik farklı, KARAR GEREK
+  Sokna                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Somali çölü                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Somali çölü                  bos: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Somali çölü                  neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Songpan (Zungchu)            veride YOK — yeni nokta, yama ile yazılmaz
+  Souli (Sûli)                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Soçi (Sâşe)                  ÇAKIŞMA: yer_yama_erken.js vs yer_yama_kafkas_rusya.js — içerik farklı, KARAR GEREK
+  Stokholm                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sundsvall                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sutter's Fort (Sacramento)   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sutter's Fort (Sacramento)   not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sâlihiyye                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sâlihiyye                    not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sömbeki (Simi)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Süveyş                       ÇAKIŞMA: yer_yama_kid20_0907.js vs yer_yama_misir_himaye.js vs yer_yama_ok101.js vs yer_yama_ortadogu_misir_1923.js vs yer_yama_vassal_kid_0906.js — içerik farklı, KARAR GEREK
+  Tahtâ                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tahtâ                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Taklamakan doğu (Lop çölü)   veride YOK — yeni nokta, yama ile yazılmaz
+  Taklamakan kum denizi        veride YOK — yeni nokta, yama ile yazılmaz
+  Tampere                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tanta                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tanta                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tarki (Tarku)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tarki (Tarku)                neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tavşanlı                     MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Taşoz                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tedmür (Palmyra)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Telafer                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Timbuktu                     ÇAKIŞMA: yer_yama_1923_bosluk_0906.js vs yer_yama_belgesiz7.js vs yer_yama_ok107.js vs yer_yama_timbuktu.js vs yer_yama_timbuktu_tam_0906.js — içerik farklı, KARAR GEREK
+  Tokaj                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tokaj                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tornio                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tosya                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Trablusşam                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tsona (Cona)                 veride YOK — yeni nokta, yama ile yazılmaz
+  Tuapse                       ÇAKIŞMA: yer_yama_erken.js vs yer_yama_kafkas_rusya.js — içerik farklı, KARAR GEREK
+  Turan                        veride YOK — yeni nokta, yama ile yazılmaz
+  Turku (Åbo)                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tîne (Dârfûr)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tîne (Dârfûr)                neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tûr (Sînâ)                   ÇAKIŞMA: yer_yama_kid20_0907.js vs yer_yama_misir_himaye.js vs yer_yama_ok101.js vs yer_yama_ortadogu_misir_1923.js vs yer_yama_vassal_kid_0906.js — içerik farklı, KARAR GEREK
+  Tırgan (Traghan)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ubârî                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Uksur (Luksor)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Uksur (Luksor)               not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Uluborlu                     MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Ulukışla                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Umeå                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Uneyze                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Uneyze                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ungvár (Uzhhorod)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ungvár (Uzhhorod)            neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Uppsala                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Urfa                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Urmiye                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Urmiye                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Urmiye · Selmâs · Sulduz · D veride YOK — yeni nokta, yama ile yazılmaz
+  Uşak                         MADDESİZ GÜN (Değişmez 2 açılır): 1429-02-01
+  Vaasa                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vaddân (Cufre)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Valensiya                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vestribygð (Batı Yerleşimi)  veride YOK — yeni nokta, yama ile yazılmaz
+  Viipuri (Vyborg)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vilnius                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vitebsk                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Viyana                       KENDİ KİLİDİ: İKİ ÖN ŞART: ① `avusturya-cumhuriyet` rengi `renkler.py` BOYALAR'a gir
+  Vodina (Edessa)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Volodymyr-Volynskyi (Włodzim kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vonitsa                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vâdî Halfâ                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Vâdî Halfâ                   not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Västerås                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Växjö                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yafa                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yagodina (Jagodina)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yagodina (Jagodina)          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yakutistan-Lena havzası beya veride YOK — yeni nokta, yama ile yazılmaz
+  Yakutistan-Lena havzası beya veride YOK — yeni nokta, yama ile yazılmaz
+  Yalvaç                       MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  Yanya                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yanıkkale (Győr)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yanıkkale (Győr)             neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yaş                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yaş                          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yenice-i Vardar              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yergöğü (Giurgiu)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yumurtalık                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yüksekova (Gever)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yüksekova (Gever)            neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zagem (Kaheti)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zagem (Kaheti)               neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zaho                         kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Zaho                         neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zevîle (Zawila)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zilla (Zella)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zâlincî                      kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Zâlincî                      neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  el-Katrûn                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Çaa-Höl                      veride YOK — yeni nokta, yama ile yazılmaz
+  Çapakçur (Bingöl)            veride YOK — yeni nokta, yama ile yazılmaz
+  Çehrin (Çigirin)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Çehrin (Çigirin)             KAPSAM DARALDI — 1678-07-19→1678-08-21 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Çermik                       veride YOK — yeni nokta, yama ile yazılmaz
+  Örebro                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Özalp (Saray)                kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Özalp (Saray)                neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ümmü Keddâde                 kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Ümmü Keddâde                 neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İbiza                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İbrim                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İbrim                        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İgumenitsa (Gomenice)        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İleryoz (Leros)              kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İlyaki (Tilos)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İnari                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İncirli (Nisiros)            kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İpsara (Psara)               kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İshaklı                      MADDESİZ GÜN (Değişmez 2 açılır): 1414-06-01
+  İshakçı (Isaccea)            KAPSAM DARALDI — 1413-07-05→1419-01-01 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  İskenderiye                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İskenderiye                  not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İskenderun                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İskeçe                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İskeçe                       neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İsmâiliye                    kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İsmâiliye                    not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İstanbulya (Astipalya)       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  İstanköy                     ÇAKIŞMA: yer_yama_ada_istankoy.js vs yer_yama_ada_kaynak.js vs yer_yama_onikiada.js — içerik farklı, KARAR GEREK
+  Şa'riyye                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şa'riyye                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şakrâ                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şakrâ                        neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şam                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şangdu (Kaiping)             veride YOK — yeni nokta, yama ile yazılmaz
+  Şefşâven                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şefşâven                     neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şehirköy (Pirot)             kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şehirköy (Pirot)             not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şehrizor                     ÇAKIŞMA: yer_yama_manda_0906.js vs yer_yama_ok109_fetret.js vs yer_yama_uyg3.js — içerik farklı, KARAR GEREK
+  Şemdinli (Şemdinni)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şemdinli (Şemdinni)          neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şeyhrumi (Yücelen)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şeyhrumi (Yücelen)           neden: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şibâm (Hadramut)             veride YOK — yeni nokta, yama ile yazılmaz
+  Şibînülkûm (Menûfiye)        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şibînülkûm (Menûfiye)        not: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şihr (Hadramut)              veride YOK — yeni nokta, yama ile yazılmaz
+  Şilingol (Abaga)             veride YOK — yeni nokta, yama ile yazılmaz
+  Şimontorna                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Šiauliai                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+
+GERİ ALMA KAPISI: 210 değişim, her biri kendi satır geçmişine (git log -L) soruluyor…
+🔴 BAYAT YAMA: 206 kayıt — yamanın yazacağı dizi O KAYDIN geçmişinde VARDI ve bugün YOK ⇒ yama bir kez inmiş, kayıt sonra düzeltilmiş; yazmak o düzeltmeyi GERİ ALIR.
+  Ahar (Karadağ)               data/yerlesimler.js:1832  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Akkirman                     data/yerlesimler.js:451  s (geçmişte: 9b92117f 2026-09-17, 59fd8d68 2026-09-07, 415d18ac 2026-09-07)
+  Aksaray                      data/yerlesimler.js:2308  s (geçmişte: 3b001ce5 2026-09-05)
+  Akçakale                     data/yerlesimler_ek25.js:42  s (geçmişte: 22cced20 2026-09-07)
+  Ammâre                       data/yerlesimler.js:1901  s (geçmişte: 59fd8d68 2026-09-07)
+  Ankara                       data/yerlesimler.js:164  s (geçmişte: 3b001ce5 2026-09-05)
+  Annaba                       data/yerlesimler.js:991  v (geçmişte: db23f90d 2026-09-06)
+  Ardahan                      data/yerlesimler.js:245  s (geçmişte: a760c8b6 2026-09-05)
+  Astara                       data/yerlesimler.js:2030  s (geçmişte: 55a5b285 2026-09-17)
+  Asyut                        data/yerlesimler.js:820  isg (geçmişte: d041a080 2026-09-05)
+  Ayasaranda (Sarandë)         data/yerlesimler_epir.js:299  v (geçmişte: db23f90d 2026-09-06)
+  Aynı Beydâ                   data/yerlesimler_h2_kuzeyafrika.js:261  v (geçmişte: db23f90d 2026-09-06)
+  Ağraham burnu                data/yerlesimler.js:636  s (geçmişte: 55a5b285 2026-09-17)
+  Aşkale                       data/yerlesimler_ek29.js:411  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 9b92117f 2026-09-17)
+  Batna                        data/yerlesimler_afrika.js:633  v (geçmişte: db23f90d 2026-09-06)
+  Bender                       data/yerlesimler.js:1382  s (geçmişte: 9b92117f 2026-09-17)
+  Benzert (Bizerte)            data/yerlesimler_afrika.js:349  v (geçmişte: db23f90d 2026-09-06)
+  Berc Bû Areric               data/yerlesimler_afrika.js:637  v (geçmişte: db23f90d 2026-09-06)
+  Berde (Karabağ)              data/yerlesimler.js:2045  s (geçmişte: 9b92117f 2026-09-17, d041a080 2026-09-05)
+  Beyrut                       data/yerlesimler.js:731  s (geçmişte: 415d18ac 2026-09-07)
+  Beyzâ (Kirene)               data/yerlesimler_afrika.js:521  s (geçmişte: d041a080 2026-09-05)
+  Bicâye                       data/yerlesimler.js:993  v (geçmişte: db23f90d 2026-09-06)
+  Bin Gerdân                   data/yerlesimler_afrika.js:438  v (geçmişte: db23f90d 2026-09-06)
+  Bingazi                      data/yerlesimler.js:862  s (geçmişte: 59fd8d68 2026-09-07, d041a080 2026-09-05)
+  Birlad (Bârlad)              data/yerlesimler.js:460  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Biskra                       data/yerlesimler.js:1555  v (geçmişte: db23f90d 2026-09-06)
+  Bolayır                      data/yerlesimler.js:1576  s (geçmişte: 3b001ce5 2026-09-05)
+  Brassó (Braşov)              data/yerlesimler_ek29.js:91  v (geçmişte: db23f90d 2026-09-06)
+  Budin                        data/yerlesimler.js:470  v (geçmişte: db23f90d 2026-09-06)
+  Buzău                        data/yerlesimler.js:2297  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Bâce (Béja)                  data/yerlesimler_afrika.js:369  v (geçmişte: db23f90d 2026-09-06)
+  Bükreş                       data/yerlesimler.js:449  s (geçmişte: 9b92117f 2026-09-17, 21273031 2026-09-07, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, 9b92117f 2026-09-17, 21273031 2026-09-07)
+  Cendûbe                      data/yerlesimler_afrika.js:373  v (geçmişte: db23f90d 2026-09-06)
+  Cerbe (Djerba)               data/yerlesimler.js:1439  v (geçmişte: 150ff06a 2026-09-19, db23f90d 2026-09-06)
+  Cerciş (Zarzis)              data/yerlesimler_afrika.js:433  v (geçmişte: db23f90d 2026-09-06)
+  Cicel                        data/yerlesimler_afrika.js:605  v (geçmişte: db23f90d 2026-09-06)
+  Culfa                        data/yerlesimler.js:1831  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Darende                      data/yerlesimler_ok110.js:59  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Debrecen                     data/yerlesimler_kdmacar.js:114  v (geçmişte: db23f90d 2026-09-06)
+  Delvine                      data/yerlesimler_epir.js:174  v (geçmişte: db23f90d 2026-09-06)
+  Demirköy                     data/yerlesimler_ek24.js:84  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Denizli                      data/yerlesimler.js:184  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Dereköy (Kırklareli)         data/yerlesimler_ek24.js:80  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Derne                        data/yerlesimler.js:895  s (geçmişte: 59fd8d68 2026-09-07, d041a080 2026-09-05)
+  Dihistan ovası (Meşhed-i Mis data/yerlesimler.js:2143  s (geçmişte: d041a080 2026-09-05)
+  Dimyat                       data/yerlesimler.js:818  isg (geçmişte: d041a080 2026-09-05)
+  Divriği                      data/yerlesimler.js:2284  d (geçmişte: d60f09d8 2026-09-06) · s (geçmişte: d60f09d8 2026-09-06)
+  Diyarbakır                   data/yerlesimler.js:248  s (geçmişte: a760c8b6 2026-09-05)
+  Doyran                       data/yerlesimler_ok107.js:435  v (geçmişte: db23f90d 2026-09-06)
+  Dubrovnik                    data/yerlesimler.js:2318  v (geçmişte: 24fd1534 2026-09-19, 9b92117f 2026-09-17, db23f90d 2026-09-06)
+  Dûz                          data/yerlesimler_h2_kuzeyafrika.js:358  v (geçmişte: db23f90d 2026-09-06)
+  Ecdâbiye                     data/yerlesimler_afrika.js:510  s (geçmişte: d041a080 2026-09-05)
+  El-Arîş                      data/yerlesimler_afrika.js:186  isg (geçmişte: d041a080 2026-09-05)
+  Elbistan                     data/yerlesimler.js:1443  d (geçmişte: 9b92117f 2026-09-17, 3b001ce5 2026-09-05) · s (geçmişte: 9b92117f 2026-09-17)
+  Enez                         data/yerlesimler.js:126  s (geçmişte: 3b001ce5 2026-09-05)
+  Eperjes (Prešov)             data/yerlesimler_ek.js:119  v (geçmişte: 59fd8d68 2026-09-07)
+  Erbil                        data/yerlesimler.js:1876  s (geçmişte: 59fd8d68 2026-09-07)
+  Erdebil                      data/yerlesimler.js:1025  s (geçmişte: 55a5b285 2026-09-17, d041a080 2026-09-05)
+  Erdel (Kaloşvar)             data/yerlesimler.js:468  v (geçmişte: db23f90d 2026-09-06)
+  Erdel Belgradı (Gyulafehérvá data/yerlesimler_ek29.js:75  v (geçmişte: db23f90d 2026-09-06)
+  Erzincan                     data/yerlesimler.js:242  s (geçmişte: 9b92117f 2026-09-17)
+  Eçmiyadzin                   data/yerlesimler_ek26.js:91  s (geçmişte: 9b92117f 2026-09-17)
+  Fülek (Fiľakovo)             data/yerlesimler_ek_macaristan.js:188  v (geçmişte: 59fd8d68 2026-09-07)
+  Gabes                        data/yerlesimler.js:959  v (geçmişte: db23f90d 2026-09-06)
+  Gümrü (Aleksandropol)        data/yerlesimler_ek26.js:87  s (geçmişte: 9b92117f 2026-09-17)
+  Gümülcine                    data/yerlesimler.js:1486  s (geçmişte: d041a080 2026-09-05, aaadabf5 2026-09-02, 84164a1f 2026-08-30)
+  Halhâl                       data/yerlesimler.js:1836  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Halkulvâdî                   data/yerlesimler_afrika.js:354  v (geçmişte: db23f90d 2026-09-06)
+  Hanşele (Khenchela)          data/yerlesimler_h2_kuzeyafrika.js:255  v (geçmişte: db23f90d 2026-09-06)
+  Havsa                        data/yerlesimler_ek24.js:50  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Hayber                       data/yerlesimler_ok101.js:103  v (geçmişte: db23f90d 2026-09-06)
+  Honolulu                     data/yerlesimler_4ff22b.js:83  s (geçmişte: 4d55343e 2026-09-06)
+  Hotin                        data/yerlesimler.js:1381  isg (geçmişte: 9b92117f 2026-09-17)
+  Hoy                          data/yerlesimler.js:1828  s (geçmişte: 0f37695b 2026-09-20, 59fd8d68 2026-09-07, 4d55343e 2026-09-06)
+  Hürmüz Adası                 data/yerlesimler.js:1687  s (geçmişte: d041a080 2026-09-05)
+  Kabartay (Nalçik)            data/yerlesimler.js:619  s (geçmişte: d041a080 2026-09-05, aaadabf5 2026-09-02)
+  Kafsa                        data/yerlesimler_afrika.js:411  v (geçmişte: db23f90d 2026-09-06)
+  Kahire                       data/yerlesimler.js:814  isg (geçmişte: d041a080 2026-09-05)
+  Kahul (Cahul)                data/yerlesimler_p0037.js:47  s (geçmişte: 415d18ac 2026-09-07)
+  Kalas (Galatz)               data/yerlesimler.js:461  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Kalme (Guelma)               data/yerlesimler_afrika.js:621  v (geçmişte: db23f90d 2026-09-06)
+  Kalyari (Cagliari)           data/yerlesimler.js:1670  s (geçmişte: 415d18ac 2026-09-07)
+  Kars                         data/yerlesimler.js:244  s (geçmişte: 61e30ca0 2026-10-06, a760c8b6 2026-09-05)
+  Kasrayn                      data/yerlesimler_afrika.js:407  v (geçmişte: db23f90d 2026-09-06)
+  Kassa (Košice)               data/yerlesimler_ek.js:111  v (geçmişte: db23f90d 2026-09-06)
+  Kayrevan                     data/yerlesimler.js:958  v (geçmişte: db23f90d 2026-09-06)
+  Kef                          data/yerlesimler_afrika.js:378  v (geçmişte: db23f90d 2026-09-06)
+  Kelkit                       data/yerlesimler_ek29.js:405  d (geçmişte: 59fd8d68 2026-09-07) · s (geçmişte: 59fd8d68 2026-09-07)
+  Kelîbiye                     data/yerlesimler_afrika.js:387  v (geçmişte: db23f90d 2026-09-06)
+  Kemah                        data/yerlesimler.js:1491  s (geçmişte: 9102b7c6 2026-09-21, 3b001ce5 2026-09-05)
+  Kerkene (Kerkennah)          data/yerlesimler.js:1679  v (geçmişte: db23f90d 2026-09-06)
+  Keşan                        data/yerlesimler.js:272  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Kili                         data/yerlesimler.js:452  s (geçmişte: 9b92117f 2026-09-17, 59fd8d68 2026-09-07, 415d18ac 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, 9b92117f 2026-09-17, 59fd8d68 2026-09-07)
+  Kiş (Kish)                   data/yerlesimler.js:1698  s (geçmişte: d041a080 2026-09-05)
+  Kişm (Qeshm)                 data/yerlesimler.js:1694  s (geçmişte: d041a080 2026-09-05)
+  Kofçaz                       data/yerlesimler_ek24.js:76  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Kolo                         data/yerlesimler_afrika.js:609  v (geçmişte: db23f90d 2026-09-06)
+  Konstantin                   data/yerlesimler.js:961  v (geçmişte: db23f90d 2026-09-06)
+  Kragujevac                   data/yerlesimler.js:2292  v (geçmişte: db23f90d 2026-09-06)
+  Krayova (Craiova)            data/yerlesimler.js:2299  s (geçmişte: a97f19e2 2026-09-20, 21273031 2026-09-07, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 21273031 2026-09-07)
+  Köprülü (Veles)              data/yerlesimler_ok107.js:396  v (geçmişte: db23f90d 2026-09-06)
+  Kıbillî (Nefzâve)            data/yerlesimler_h2_kuzeyafrika.js:353  v (geçmişte: db23f90d 2026-09-06)
+  Kımpulung (Câmpulung)        data/yerlesimler.js:2303  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Kırklareli                   data/yerlesimler.js:330  d (geçmişte: 24dc637a 2026-09-16, 3b001ce5 2026-09-05) · s (geçmişte: 24dc637a 2026-09-16, 3b001ce5 2026-09-05)
+  Lalapaşa                     data/yerlesimler_ek24.js:72  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Lenkeran                     data/yerlesimler.js:2033  s (geçmişte: 55a5b285 2026-09-17)
+  Limni                        data/yerlesimler.js:535  d (geçmişte: 59fd8d68 2026-09-07, d041a080 2026-09-05) · s (geçmişte: 59fd8d68 2026-09-07, d041a080 2026-09-05) · isg (geçmişte: 9102b7c6 2026-09-21, 783f4736 2026-09-16, 59fd8d68 2026-09-07)
+  Lüleburgaz                   data/yerlesimler.js:268  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Malatya                      data/yerlesimler.js:256  d (geçmişte: a97f19e2 2026-09-20, d60f09d8 2026-09-06) · s (geçmişte: a97f19e2 2026-09-20, d60f09d8 2026-09-06)
+  Maraş                        data/yerlesimler.js:257  d (geçmişte: 22cced20 2026-09-07, 3b001ce5 2026-09-05) · s (geçmişte: 22cced20 2026-09-07, 3b001ce5 2026-09-05) · v (geçmişte: 59fd8d68 2026-09-07)
+  Maydos (Eceabat)             data/yerlesimler.js:1577  s (geçmişte: 3b001ce5 2026-09-05)
+  Medenîn                      data/yerlesimler_afrika.js:425  v (geçmişte: db23f90d 2026-09-06)
+  Medine                       data/yerlesimler.js:759  v (geçmişte: db23f90d 2026-09-06)
+  Mehdiye                      data/yerlesimler_afrika.js:403  v (geçmişte: db23f90d 2026-09-06)
+  Mekke                        data/yerlesimler.js:756  v (geçmişte: db23f90d 2026-09-06)
+  Mekter (Maktar)              data/yerlesimler_h2_kuzeyafrika.js:332  v (geçmişte: db23f90d 2026-09-06)
+  Merc                         data/yerlesimler_afrika.js:516  s (geçmişte: d041a080 2026-09-05)
+  Merend                       data/yerlesimler.js:1830  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Meriç (İpsala kuzeyi)        data/yerlesimler_ek24.js:54  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Merâga                       data/yerlesimler.js:1827  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Merîvan                      data/yerlesimler.js:1842  s (geçmişte: 55a5b285 2026-09-17, d041a080 2026-09-05)
+  Metlâvî                      data/yerlesimler_h2_kuzeyafrika.js:347  v (geçmişte: db23f90d 2026-09-06)
+  Meşkinşehr (Hiyav)           data/yerlesimler_kalite4.js:30  s (geçmişte: 4d55343e 2026-09-06)
+  Miyâne                       data/yerlesimler.js:1834  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Munastır                     data/yerlesimler_afrika.js:399  v (geçmişte: db23f90d 2026-09-06)
+  Munkács (Mukacheve)          data/yerlesimler_ek_macaristan.js:248  v (geçmişte: 59fd8d68 2026-09-07)
+  Mâku                         data/yerlesimler.js:1835  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Mâtir (Mateur)               data/yerlesimler_afrika.js:358  v (geçmişte: db23f90d 2026-09-06)
+  Mîle                         data/yerlesimler_afrika.js:617  v (geçmişte: db23f90d 2026-09-06)
+  Mîyandoab                    data/yerlesimler.js:1837  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Nahçıvan                     data/yerlesimler.js:653  s (geçmişte: 9b92117f 2026-09-17, 55a5b285 2026-09-17, d041a080 2026-09-05)
+  Nefta                        data/yerlesimler_afrika.js:421  v (geçmişte: db23f90d 2026-09-06)
+  Niğbolu                      data/yerlesimler.js:364  isg (geçmişte: d041a080 2026-09-05)
+  Niğde                        data/yerlesimler.js:207  s (geçmişte: 9102b7c6 2026-09-21, 3b001ce5 2026-09-05)
+  Nâbil (Nabeul)               data/yerlesimler_afrika.js:382  v (geçmişte: db23f90d 2026-09-06)
+  Ordubad                      data/yerlesimler.js:2049  s (geçmişte: fd40f26a 2026-09-20, 9b92117f 2026-09-17, 55a5b285 2026-09-17)
+  Orhei                        data/yerlesimler.js:2305  s (geçmişte: a97f19e2 2026-09-20, 415d18ac 2026-09-07)
+  Peşte                        data/yerlesimler.js:1338  v (geçmişte: db23f90d 2026-09-06)
+  Piteşti                      data/yerlesimler.js:2295  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Prevadi (Provadia)           data/yerlesimler_ek29.js:435  v (geçmişte: db23f90d 2026-09-06)
+  Revan                        data/yerlesimler.js:664  s (geçmişte: 17cd2f98 2026-09-30, 9b92117f 2026-09-17, 55a5b285 2026-09-17)
+  Reşîd (Rosetta)              data/yerlesimler.js:1494  isg (geçmişte: d041a080 2026-09-05)
+  Rimnik (Râmnicu Vâlcea)      data/yerlesimler.js:2301  s (geçmişte: a97f19e2 2026-09-20, 21273031 2026-09-07, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 21273031 2026-09-07)
+  Rimnik-i Sârat (Râmnicu Săra data/yerlesimler.js:2298  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Rize                         data/yerlesimler.js:241  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Roman                        data/yerlesimler.js:459  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Rāzhān                       data/yerlesimler_sinir_dogu.js:107  s (geçmişte: d041a080 2026-09-05)
+  Sakkız                       data/yerlesimler.js:1838  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Sarâb                        data/yerlesimler.js:1833  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Sarıkamış                    data/yerlesimler_ek28.js:111  s (geçmişte: 9b92117f 2026-09-17)
+  Segesvár (Sighişoara)        data/yerlesimler_ek29.js:97  v (geçmişte: db23f90d 2026-09-06)
+  Selmâs (Dilman)              data/yerlesimler.js:1829  s (geçmişte: 9102b7c6 2026-09-21, 05900ef6 2026-09-20, 9b92117f 2026-09-17)
+  Semadirek                    data/yerlesimler.js:551  isg (geçmişte: 9102b7c6 2026-09-21, 59fd8d68 2026-09-07)
+  Serez                        data/yerlesimler.js:367  s (geçmişte: d041a080 2026-09-05)
+  Sero                         data/yerlesimler_sinir_dogu.js:84  s (geçmişte: d041a080 2026-09-05)
+  Setif                        data/yerlesimler.js:1554  v (geçmişte: db23f90d 2026-09-06)
+  Sfaks                        data/yerlesimler.js:989  v (geçmişte: db23f90d 2026-09-06)
+  Sikikde                      data/yerlesimler_afrika.js:613  v (geçmişte: db23f90d 2026-09-06)
+  Slatina                      data/yerlesimler.js:2296  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Sofya                        data/yerlesimler.js:335  v (geçmişte: 21273031 2026-09-07)
+  Soroka (Soroca)              data/yerlesimler.js:2304  s (geçmişte: a97f19e2 2026-09-20, 415d18ac 2026-09-07)
+  Sultâniye                    data/yerlesimler.js:1823  s (geçmişte: d041a080 2026-09-05)
+  Sîdî Bû Zeyd                 data/yerlesimler_h2_kuzeyafrika.js:342  v (geçmişte: db23f90d 2026-09-06)
+  Sûk Ahrâs                    data/yerlesimler_afrika.js:625  v (geçmişte: db23f90d 2026-09-06)
+  Sûse                         data/yerlesimler_afrika.js:395  v (geçmişte: db23f90d 2026-09-06)
+  Sübaytıla                    data/yerlesimler_h2_kuzeyafrika.js:337  v (geçmişte: db23f90d 2026-09-06)
+  Tarki (Tarku)                data/yerlesimler.js:635  s (geçmişte: 9102b7c6 2026-09-21, 59fd8d68 2026-09-07, 4d55343e 2026-09-06)
+  Tatavin                      data/yerlesimler_afrika.js:429  v (geçmişte: db23f90d 2026-09-06)
+  Taşoz                        data/yerlesimler.js:552  isg (geçmişte: 9102b7c6 2026-09-21, 59fd8d68 2026-09-07)
+  Tebesse                      data/yerlesimler_afrika.js:629  v (geçmişte: db23f90d 2026-09-06)
+  Tebriz                       data/yerlesimler.js:649  s (geçmişte: d041a080 2026-09-05)
+  Testûr                       data/yerlesimler_h2_kuzeyafrika.js:322  v (geçmişte: db23f90d 2026-09-06)
+  Tobruk                       data/yerlesimler_afrika.js:538  s (geçmişte: d041a080 2026-09-05)
+  Tokaj                        data/yerlesimler_ek.js:126  v (geçmişte: 59fd8d68 2026-09-07)
+  Tozer                        data/yerlesimler_afrika.js:417  v (geçmişte: db23f90d 2026-09-06)
+  Tunus                        data/yerlesimler.js:957  v (geçmişte: db23f90d 2026-09-06)
+  Turnu Severin                data/yerlesimler.js:2302  s (geçmişte: a97f19e2 2026-09-20, 21273031 2026-09-07, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 21273031 2026-09-07)
+  Tâif                         data/yerlesimler.js:1444  v (geçmişte: 55a5b285 2026-09-17)
+  Tırgovişte                   data/yerlesimler.js:2294  s (geçmişte: a97f19e2 2026-09-20, 9b92117f 2026-09-17, 21273031 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 9b92117f 2026-09-17)
+  Tırgu Jiu                    data/yerlesimler.js:2300  s (geçmişte: a97f19e2 2026-09-20, 21273031 2026-09-07, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, a97f19e2 2026-09-20, 21273031 2026-09-07)
+  Ungvár (Uzhhorod)            data/yerlesimler_ek_macaristan.js:210  v (geçmişte: 59fd8d68 2026-09-07)
+  Urmiye                       data/yerlesimler.js:1139  s (geçmişte: 55a5b285 2026-09-17, 59fd8d68 2026-09-07, 4d55343e 2026-09-06)
+  Ustrumca (Strumica)          data/yerlesimler_ok107.js:422  v (geçmişte: db23f90d 2026-09-06)
+  Varad (Oradea)               data/yerlesimler.js:1358  v (geçmişte: db23f90d 2026-09-06)
+  Vize                         data/yerlesimler_ek29.js:428  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Yagodina (Jagodina)          data/yerlesimler_ek29.js:488  d (geçmişte: d041a080 2026-09-05, aaadabf5 2026-09-02, 802cd0e6 2026-08-29)
+  Yanova (Ineu)                data/yerlesimler.js:1364  v (geçmişte: db23f90d 2026-09-06)
+  Yanıkkale (Győr)             data/yerlesimler.js:1339  s (geçmişte: d041a080 2026-09-05, aaadabf5 2026-09-02, 3cf33e96 2026-08-29)
+  Yaş                          data/yerlesimler.js:450  s (geçmişte: 9b92117f 2026-09-17, 21273031 2026-09-07, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, 9b92117f 2026-09-17, 21273031 2026-09-07)
+  Yergöğü (Giurgiu)            data/yerlesimler.js:2317  s (geçmişte: 9102b7c6 2026-09-21, 9b92117f 2026-09-17)
+  Zagem (Kaheti)               data/yerlesimler.js:663  v (geçmişte: 9b92117f 2026-09-17)
+  Zağvân                       data/yerlesimler_afrika.js:391  v (geçmişte: db23f90d 2026-09-06)
+  Çaçak                        data/yerlesimler.js:2293  v (geçmişte: db23f90d 2026-09-06)
+  Çorlu                        data/yerlesimler.js:266  d (geçmişte: 3b001ce5 2026-09-05) · s (geçmişte: 3b001ce5 2026-09-05)
+  Ğar Dimâv                    data/yerlesimler_h2_kuzeyafrika.js:327  v (geçmişte: db23f90d 2026-09-06)
+  Ğâru'l-Melh (Porto Farina)   data/yerlesimler_h2_kuzeyafrika.js:316  v (geçmişte: db23f90d 2026-09-06)
+  İbrail                       data/yerlesimler.js:462  s (geçmişte: 9102b7c6 2026-09-21, a97f19e2 2026-09-20, 59fd8d68 2026-09-07) · v (geçmişte: 2e656b0d 2026-09-27, 9102b7c6 2026-09-21, a97f19e2 2026-09-20)
+  İmâdiye (Amêdî)              data/yerlesimler_ok109.js:73  s (geçmişte: 415d18ac 2026-09-07)
+  İskenderiye                  data/yerlesimler.js:816  isg (geçmişte: d041a080 2026-09-05)
+  İsmail                       data/yerlesimler.js:1383  s (geçmişte: 9102b7c6 2026-09-21, 9b92117f 2026-09-17)
+  İğneada                      data/yerlesimler_ek24.js:88  d (geçmişte: a760c8b6 2026-09-05) · s (geçmişte: a760c8b6 2026-09-05)
+  İştip (Štip)                 data/yerlesimler_ok107.js:409  v (geçmişte: db23f90d 2026-09-06)
+  Şehirköy (Pirot)             data/yerlesimler_serhat.js:140  d (geçmişte: aaadabf5 2026-09-02) · s (geçmişte: aaadabf5 2026-09-02)
+  Şerur (Sharur)               data/yerlesimler_kalite4.js:56  s (geçmişte: d041a080 2026-09-05)
+  Şeyh Salû-yi Ulyâ            data/yerlesimler_sinir_dogu.js:136  s (geçmişte: d041a080 2026-09-05)
+  Şeyhrumi (Yücelen)           data/yerlesimler_sinir_dogu.js:128  d (geçmişte: d60f09d8 2026-09-06) · s (geçmişte: d60f09d8 2026-09-06)
+   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 2). Çare: inmiş yamayı glob dışına al (`data/yer_yama_arsiv/`), ya da kaydın bugünkü hâlini yamaya işle.

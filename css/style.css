@@ -1118,6 +1118,77 @@ body {
   flex: 0 0 auto;
 }
 #tarihe-git-durum.tarihe-git-uyari { color: #ffb347; }
+/* 🆕 YER ARA kutusu (YER-ARAMA-KUTUSU-1006) — Emre, 6 Ekim 2026: tarih
+   kutusunun YANINDA, aynı footer grubunda; görünüşü `#tarihe-git-giris`in
+   aynısı (yeni görsel dil yok). Liste footer haritanın ALTINDA olduğu için
+   YUKARI açılır (`bottom: 100%`). */
+#yer-ara {
+  position: relative;
+  flex: 0 0 auto;
+}
+#yer-ara-giris {
+  height: 27px;
+  width: 160px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid var(--altin);
+  background: #f3e6c8;
+  font-size: 12px;
+  padding: 0 6px;
+}
+#yer-ara-liste {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 6px);
+  z-index: 60;
+  width: 340px;
+  max-width: calc(100vw - 16px);
+  max-height: min(60vh, 420px);
+  overflow-y: auto;
+  font-size: 13px;
+  background: var(--panel);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.25);
+}
+#yer-ara-liste.gizli { display: none; }
+/* 🔴 FOOTER TAŞMASIN (Emre, 6 Ekim 2026, (K) şartı) — ÖLÇÜLDÜ: footer'ın
+   genişliği ekranın değil, YAN PANELDEN ARTAN alanın fonksiyonu. 1024 px
+   ekranda footer 604 px; kutu eklenince içerik 778 px oluyordu (taşma).
+   375 px'te kutu eklenmeden ÖNCE de taşıyordu (içerik 528 / 375 px; `#zaman`
+   çubuğu ekran DIŞINDA). ⇒ `flex-wrap` HER GENİŞLİKTE açık: sığan footer tek
+   satır kalır (1366 px'te ölçüldü: değişmedi), sığmayan alt satıra iner. */
+#zamanbar { flex-wrap: wrap; row-gap: 5px; }
+/* Tarih + yer kutusu tek birim: satır kırılırsa BİRLİKTE iner (yan yana kalır). */
+#git-grup { display: flex; align-items: center; gap: 7px; flex: 0 0 auto; }
+/* 📱 Dar ekranda düzen: ① oynatma düğmeleri + seçiciler ② tarih + yer kutusu
+   yan yana ③ zaman çubuğu tam satır. Liste footer'a göre konumlanır ve
+   ekran genişliğinde açılır (kutunun sol kenarından açılsa sağa taşardı). */
+@media (max-width: 600px) {
+  #zamanbar { position: relative; }
+  #git-grup { flex: 1 1 100%; min-width: 0; }
+  #tarihe-git-giris { flex: 1 1 120px; width: auto; min-width: 0; }
+  #yer-ara { flex: 1 1 120px; min-width: 0; position: static; }
+  #yer-ara-giris { width: 100%; }
+  #zaman { flex: 1 1 100%; }
+  #yer-ara-liste { left: 8px; right: 8px; width: auto; max-width: none; max-height: 40vh; }
+}
+#yer-ara-liste .ya-bas { padding: 4px 9px; font-size: 11px; color: #6b5a33; border-bottom: 1px solid #e4d6b0; }
+#yer-ara-liste .ya-yok { padding: 6px 9px; color: #6b5a33; font-style: italic; }
+#yer-ara-liste .ya-satir {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 4px 9px;
+  cursor: pointer;
+  min-width: 0;
+}
+#yer-ara-liste .ya-satir.secili { background: #fdf3d7; }
+#yer-ara-liste .ya-ad { color: #5c1020; font-weight: 600; flex: 0 1 auto; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#yer-ara-liste .ya-tur { color: #8a6d2f; font-size: 11px; flex: 0 0 auto; }
+#yer-ara-liste .ya-sahip { color: #6b5a33; font-size: 11px; margin-left: auto; text-align: right;
+  flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* `#tarih-goster` KURALI KALDIRILDI — 21 Ağustos, öğe HTML'den silindi
    (bkz. index.html footer notu). Üst çubuktaki `#ustbar-tarih` yeterli. */
 

@@ -1,0 +1,62 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 2726a3ee..e2ce2d1c 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -1173,8 +1173,27 @@ def tam(s):
+     return s + "-01" if len(s) == 7 else s
+ 
+ 
++def pad(s):
++    """Tarih dizgisinin YIL kısmını 4 haneye tamamlar: "900-01-01" → "0900-01-01".
++
++    🔴 GUNNO-PAD-1008 (`CLAUDE.md §4` · `D205`): `devletler.js` künye `f:`
++    alanında 64, künye-içi `kronoloji[].t` alanında 47 üç haneli yıl var.
++    `gun_no` `s[0:4]` keser ⇒ "900-" ile ValueError; dizgi karşılaştırması
++    `"900-01-01" > "1281-01-01"` ⇒ True (YANLIŞ). Tarih karşılaştıran her yer
++    bu yardımcıdan geçer. ⚠️ Negatif (MÖ) yıl DOKUNULMADAN döner: `datetime`
++    MÖ yılı temsil edemez ve dizgi sırası onda da tutmaz — sessiz pad yerine
++    `gun_no` ÇÖKER (yanlış cevaptan iyidir, `D205`). Bugün veride 0 negatif.
++    """
++    if not isinstance(s, str) or not s or s[0] == "-":
++        return s
++    yil, ayrac, kalan = s.partition("-")
++    if yil.isdigit() and len(yil) < 4:
++        return yil.zfill(4) + ayrac + kalan
++    return s
++
++
+ def gun_no(s):
+-    s = tam(s)
++    s = tam(pad(s))
+     y, a = int(s[0:4]), int(s[5:7])
+     g = int(s[8:10]) if len(s) >= 10 else 1
+     return date(y, a, g).toordinal()
+@@ -2923,8 +2942,8 @@ def degismez4(Y):
+                         cok_harita.append((_ad, kim,
+                                            [a[2] for a in aday],
+                                            p.get("f"), p.get("t")))
+-                        kf = min((a[0] for a in aday if a[0]), default=None)
+-                        kt = max((a[1] for a in aday if a[1]), default=None)
++                        kf = min((a[0] for a in aday if a[0]), default=None, key=pad)
++                        kt = max((a[1] for a in aday if a[1]), default=None, key=pad)
+                     else:
+                         kf, kt = sec[0], sec[1]
+             # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
+@@ -2944,7 +2963,7 @@ def degismez4(Y):
+             # ── ③ dönem, devletin ÖLÜMÜNÜ AŞIYOR mu (AYRI KOVA) ────────
+             # ⚠️ Atlas sonuna kadar yaşayan künyeler HARİÇ: onlarda "aşma"
+             #   diye bir şey yoktur, dönem atlasın kendi sınırında biter.
+-            if kt and kt < ATLAS_SONU:
++            if kt and pad(kt) < ATLAS_SONU:
+                 g3 = _gun_farki(p.get("t"), kt)
+                 if g3 is not None and g3 > HAYALET_TOLERANS_GUN:
+                     asan.append((_ad, kim, p.get("f"), p.get("t"), kt,
+@@ -2954,7 +2973,7 @@ def degismez4(Y):
+             #   böyle — künyeyi iki uçtan da aşıyor). Kesişim AYRI basılır.
+             # ⚠️ Atlasın başından önce doğan künyeler HARİÇ: orada "önce
+             #   başlamak" atlasın kendi sınırıdır, veri kusuru değil.
+-            if kf and kf > ATLAS_BASI:
++            if kf and pad(kf) > ATLAS_BASI:
+                 g4 = _gun_farki(kf, p.get("f"))
+                 if g4 is not None and g4 > HAYALET_TOLERANS_GUN:
+                     once.append((_ad, kim, p.get("f"), p.get("t"), kf,

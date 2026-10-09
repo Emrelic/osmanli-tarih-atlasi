@@ -1,0 +1,27 @@
+{
+ "kalem": "DOGU-ANADOLU-0085",
+ "tarih": "2026-10-09",
+ "not": "ÖNERİ — devletler.js ve renkler.py koordinatörde. KOORD diff'iyle AYNI commit'te inmeli.",
+ "kunyeler": [
+  {
+   "islem": "yeni",
+   "id": "gozleroglu",
+   "ad": "Gözleroğlu (Şebinkarahisar)",
+   "tur": "beylik",
+   "bolge": "anadolu",
+   "f": "1408-01-01",
+   "f_hassasiyet": "yıl (811 h.)",
+   "t": null,
+   "t_not": "YAZILMADI (koordinatör hükmü ②): kaynakta açık uç YOK. Karakoyunlu geçişini veren TDV cümlesi yalnız 'on yıl sonra' der (811+10 = 821 h. ≈ 1418) — bu bir ölçüm değil, TÜRETİLMİŞTİR. ⚠️ Yerleşim dönemi 1408→1418 yazıldığı için künyenin t'si en az 1418-01-01 olmalı; t boş kalırsa denetle.py bunu nasıl çözer ÖLÇÜLMEDİ (geçici ölçüm künyesi t:1418-01-01 ile koşuldu). Önerim: t:'1418-01-01' + ic_not_t 'TÜRETİLMİŞ ÜST SINIR: TDV sebinkarahisar on yıl sonra'.",
+   "kaynak": "sebinkarahisar",
+   "alinti": "TDV sebinkarahisar (Fatma Acun, 2010), birebir: 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun, on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti.'",
+   "ozet_oneri": "Timur'un Anadolu istilâsından sonra Şebinkarahisar'a hâkim olan yerel bey ailesi (1408); TDV'de müstakil maddesi yok, yalnız Şebinkarahisar maddesinde adı geçiyor.",
+   "boya": "GEREKLİ (C3 listesi) — ölçümde geçici #c2185b kullanıldı, ÖNERİ DEĞİL. Komşular o yıllarda: mutahharten #827717 · haciemir #ef6c00 · timurlu #9c7563 · trabzon-rum · Osmanlı. Tek noktalı kimlik ⇒ renk_olc --oner komşuyu ancak KOORD diff indikten sonra ölçebilir."
+  },
+  {
+   "islem": "dokunmadim",
+   "id": "burhaneddin",
+   "not": "Görev 'kadi-burhaneddin' diye andı: devletler.js'teki id 'burhaneddin' (ad 'Kadı Burhâneddin Devleti (Sivas)', f 1381-01-01, t 1398-01-01, harita:'burhaneddin', kaynak TDV kadi-burhaneddin). BOYASI VAR: renkler.BOYALAR['burhaneddin'] = #155412. Şebinkarahisar dilimi 1381→1398 künye penceresinin İÇİNDE (4c/4d'ye düşmez — ölçüldü)."
+  }
+ ]
+}

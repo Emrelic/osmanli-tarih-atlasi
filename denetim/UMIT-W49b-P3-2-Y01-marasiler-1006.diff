@@ -1,0 +1,26 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 151fbe67..2aa17140 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -647,7 +647,7 @@ window.DEVLETLER = [
+ },
+ { id:"mazenderan-marasi", ad:"Mar'aşî Seyyidleri (Mâzenderan)", tur:"hanedanlik", bolge:"iran",
+   f:"1359-01-01", t:"1596-01-01", baskent:"Âmül → Sârî",
+-  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtıldılar' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
++  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Önde gelen üyelerinin Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtılmasından sonra' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
+   kaynak:"marasiler (TDV, kuruluş NET) + bitiş tarihi (1596) TDV'de yok, dolaylı doğrulama: Encyclopaedia Iranica'ya atıf yapan ikincil kaynaklar (Iranica madde metnine erişilemedi)",
+   kronoloji:[
+     { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH)", ic_not_b:"eski b: Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },
+diff --git a/data/paket_05.js b/data/paket_05.js
+index 38666e29..a5272135 100644
+--- a/data/paket_05.js
++++ b/data/paket_05.js
+@@ -666,7 +666,7 @@ window.DEVLETLER = [
+ },
+ { id:"mazenderan-marasi", ad:"Mar'aşî Seyyidleri (Mâzenderan)", tur:"hanedanlik", bolge:"iran",
+   f:"1359-01-01", t:"1596-01-01", baskent:"Âmül → Sârî",
+-  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtıldılar' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
++  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Önde gelen üyelerinin Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtılmasından sonra' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
+   kaynak:"marasiler (TDV, kuruluş NET) + bitiş tarihi (1596) TDV'de yok, dolaylı doğrulama: Encyclopaedia Iranica'ya atıf yapan ikincil kaynaklar (Iranica madde metnine erişilemedi)",
+   kronoloji:[
+     { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH)", ic_not_b:"eski b: Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },

@@ -52,7 +52,7 @@ window.KRONOLOJI_COK_ARNAVUT = [
   onem:4, dunya:2, kapsam:"dis", etiket:["ittifak","antlasma","konu-diplomasi"],
   yer_id:"", odak_yer:"Akçahisar", devletler:["arnavutluk-iskenderbey","napoli"],
   d:"İskender Bey, Aragon-Napoli kralı V. Alfonso ile yaptığı anlaşmayla onun tâbiiyetini tanıdı; karşılığında yıllık 1500 duka tahsisat ve askerî yardım sözü aldı. Anlaşma direnişi İtalya'nın güney kıyısına bağladı: sonraki Napoli birlikleri ve İskender Bey'in 1461 İtalya seferi bu bağın sonucudur.",
-  kaynak:"TDV `iskender-bey`: '26 Mart 1451'de yapılan anlaşmaya göre İskender Bey kralın tâbii oldu. İskender Bey yılda 1500 duka tahsisat alacaktı.'" },
+  kaynak:"TDV `iskender-bey`: 26 Mart 1451'de yapılan anlaşmaya göre İskender Bey kralın tâbii oldu. İskender Bey yılda 1500 duka tahsisat alacaktı." },
 
 { t:"1455-07-26", b:"Berat kuşatması bozgunla sona erdi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","kusatma","konu-askeri"],
@@ -218,7 +218,7 @@ window.KRONOLOJI_COK_ARNAVUT = [
   onem:4, dunya:1, kapsam:"ic", etiket:["isyan","ozerklik","konu-siyasi","konu-askeri"],
   yer_id:"Prizren", devlet:"arnavutluk-osmanli", gun:"Ocak 1881 geçici hükümet · Nisan 1881 bastırılma (TDV)",
   d:"Özerklik talebine yönelen cemiyet, Ömer Prizreni başkanlığında geçici bir Arnavut hükümeti kurdu. Babıâli, Derviş Paşa kumandasında gönderdiği kuvvetlerle Nisan 1881'de Kosova'daki bölgeleri geri aldı ve cemiyeti dağıttı.",
-  kaynak:"TDV `prizren`: 'Ocak 1881'de Ömer Prizreni başkanlığında geçici Arnavut hükümeti teşkil edildi. Nisan 1881'de Derviş Paşa kumandasındaki Osmanlı kuvvetleri Kosova'da … bölgeleri geri aldı.'" },
+  kaynak:"TDV `prizren`: 'Nisan 1881’de Derviş Paşa kumandasındaki Osmanlı kuvvetleri Kosova’da Arnavut bağımsızlık yanlılarının eline geçen bölgeleri geri aldı.'" },
 
 
 { t:"1908-01-01", b:"Firzovik toplantısı — Arnavut toplulukları meşrutiyeti destekledi", tur:"siyaset",

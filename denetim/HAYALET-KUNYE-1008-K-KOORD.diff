@@ -1,0 +1,334 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 9b118d1b..8a4a51c7 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -2769,12 +2769,13 @@ window.DEVLETLER = [
+     { t:"1899-01-01", tur:"son", b:"İngiliz Altın Kıyı himayesine katıldı" }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1401: TDV `gana` «XV. yüzyılda kuzeydeki Dagomba ve Mamprusîler’in kurduğu devletler takip etti». ⚠️ Britannica 'Dagomba' XIV. yy der (Z3) — ÇELİŞKİ, TDV esas (§4). Kronolojinin 1281 «teşekkül» maddesi kaynaksızdı.
+ { id:"dagbon", ad:"Dagbon Krallığı (Dagomba)", tur:"krallik", bolge:"bati-afrika",
+-  f:"1281-01-01", t:"1899-01-01", baskent:"Yendi",
++  f:"1401-01-01", t:"1899-01-01", kesinlik:{f:"yuzyil"}, baskent:"Yendi",
+   ozet:"Dagomba halkının Ya Naa unvanlı hükümdarlarca yönetilen krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Yendi.",
+   kronoloji:[
+-    { t:"1281-01-01", tur:"kurulus", b:"Dagbon krallığı teşekkül etti" },
++    { t:"1401-01-01", tur:"kurulus", b:"Dagbon krallığı teşekkül etti" },
+     { t:"1899-01-01", tur:"son", b:"İngiliz-Alman paylaşımıyla bölündü" }
+   ,
+     { t:"1416-01-01", tur:"hukumdar", b:"Naa Nyagsi tahta çıkıp Yani Dabari'de (Diyali/Tamale yakını) merkezî bir siyasi teşkilat kurarak Dagbon devletini istikrara kavuşturdu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Naa Nyagsi, 1416-1432) doğrulandı." }
+@@ -3135,12 +3136,13 @@ window.DEVLETLER = [
+     { t:"1903-01-01", tur:"vassal", b:"Mwezi Gisabo, Kiganda Antlaşması'nı imzalayarak Alman sömürge idaresine boyun eğdi", kaynak:"bulunamadı (TDV) — standart akademik kaynak; ay/gün kaynakta yok, YYYY-01-01. Çevrimiçi ikincil kaynaklarla doğrulandı." }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1501: Britannica 'Bunyoro' «flourished from the 16th to the 19th century» (Z3; UMIT'te 403). TDV `uganda` kuruluş tarihi VERMİYOR. Kronolojinin 1281 «kurdu» maddesi kaynaksızdı.
+ { id:"bunyoro", ad:"Bunyoro-Kitara Krallığı", tur:"krallik", bolge:"dogu-afrika",
+-  f:"1281-01-01", t:"1899-04-09", baskent:"Hoima",
++  f:"1501-01-01", t:"1899-04-09", kesinlik:{f:"yuzyil"}, baskent:"Hoima",
+   ozet:"Bito hânedanının Kitara mirası üzerine kurduğu, Buganda'nın başlıca rakibi olan krallık. TDV uganda maddesine dayanır.",
+   kaynak:"uganda — TDV gövdesi bu turda okundu. Bito hânedanı; Kabalega 1899'da esir alındı.",
+   kronoloji:[
+-    { t:"1281-01-01", tur:"kurulus", b:"Bito hânedanı Bunyoro-Kitara'yı kurdu" },
++    { t:"1501-01-01", tur:"kurulus", b:"Bito hânedanı Bunyoro-Kitara'yı kurdu" },
+     { t:"1899-04-09", tur:"son", b:"Kabalega esir alındı" }
+   ,
+     { t:"1869-01-01", tur:"hukumdar", b:"Mukama Kamurasi öldü, yerine oğlu Kabarega (Kabalega) geçti", kaynak:"TDV: uganda (bu turda okundu, birebir: Kamurasi'nin ölümü '1869'da' ve ardından oğlu Kabarega'nın yönetimine geçiş)." }
+@@ -3535,12 +3537,13 @@ window.DEVLETLER = [
+     { t:"1791-01-01", tur:"bolunme", b:"Hânedanın üçüncü hükümdarının ölümüyle konfederasyon fiilen dağıldı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Betsimisaraka confederation') doğrulandı. 🔴 ÇELİŞKİ: künyenin kendi 'son' tarihi 1817 — akademik kaynak dağılmayı 1791'e tarihliyor, 26 yıl ÖNCE. Künye sahibine bildiriliyor, t: gözden geçirilebilir." }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1401: Britannica 'Merina' «entered the central plateau of Madagascar in the 15th century and soon established a small kingdom» (Z3; UMIT'te 403). TDV `madagaskar` yalnız XVIII. yy birleşmesini tarihliyor. Kronolojinin 1281 «teşekkül» maddesi kaynaksızdı.
+ { id:"merina-oncesi", ad:"İmerina Krallıkları (Merina birleşmesi öncesi)", tur:"krallik", bolge:"dogu-afrika",
+-  f:"1281-01-01", t:"1787-01-01", baskent:"Ambohimanga",
++  f:"1401-01-01", t:"1787-01-01", kesinlik:{f:"yuzyil"}, baskent:"Ambohimanga",
+   ozet:"Andrianampoinimerina'nın birleştirmesinden önce İmerina yaylasındaki rakip Merina krallıkları. TDV madagaskar maddesine dayanır.",
+   kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: Merina — orta yaylalar, XVIII. yüzyılda birleşti. Mevcut `merina` künyesi 1787'de BAŞLIYOR; öncesi bu künyeye ait. Ambohimanga bu dönemin kutsal başkentidir.",
+   kronoloji:[
+-    { t:"1281-01-01", tur:"kurulus", b:"İmerina krallıkları teşekkül etti" },
++    { t:"1401-01-01", tur:"kurulus", b:"İmerina krallıkları teşekkül etti" },
+     { t:"1787-01-01", tur:"son", b:"Andrianampoinimerina İmerina'yı birleştirdi" }
+   ,
+     { t:"1710-01-01", tur:"bolunme", b:"18. yüzyılda İmerina, dört rakip krallığa (Ambohimanga dahil) bölündü — Andrianampoinimerina'nın 1787'de başlayacak yeniden birleştirme hareketinden önceki son dönem", kaynak:"bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz, YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla (Britannica 'Merina') doğrulandı." }
+@@ -5823,8 +5826,9 @@ window.DEVLETLER = [
+     { t:"1572-01-01", tur:"son", b:"Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü", ic_not_b:"eski b: Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü (TDV imadsahiler)", kaynak:"TDV: imadsahiler — «Berâr, 1572’de bir defa daha Nizamşâhîler tarafından ilhak edilmek istendi. Vezir Tufâl Han bunun üzerine Bâbürlü Sultanı Ekber Şah’tan yardım talep etti. Murtazâ, Şah Ekber’in uyarısına rağmen Berâr topraklarına girdi. Böylece İmâdşâhî hânedanlığı sona ermiş oldu»" }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1301: Britannica 'Gondwana' «From the 14th to the 18th century the area was held by powerful Gond dynasties» (Z3; UMIT'te 403).
+ { id:"gond-kralliklari", ad:"Gond Krallıkları (Garha-Mandla, Deogarh)", tur:"krallik", bolge:"guney-asya",
+-  f:"1281-01-01", t:"1781-01-01", baskent:"Mandla", harita:"gond-kralliklari",
++  f:"1301-01-01", t:"1781-01-01", kesinlik:{f:"yuzyil"}, baskent:"Mandla", harita:"gond-kralliklari",
+   ozet:"Orta Hindistan ormanlarında Gond kabile hânedanlarının kurduğu krallıklar; Râni Durgâvatî'nin direnişiyle anılır, Maratha yayılmasıyla son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   kronoloji:[
+@@ -5985,8 +5989,9 @@ window.DEVLETLER = [
+     { t:"1887-01-01", tur:"son", b:"Üçüncü Anglo-Birman Savaşı'ndan sonra beylikler İngiliz himâyesine girdi" }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1353: künyenin KENDİ kronolojisi «1353 kurulus — Fa Ngum … Lan Xang'ı kurdu»; Britannica 'Lan Xang' «Date: 1353 - 1707» (Z3 okudu, UMIT'te 403). 1281-1353 Lao-Tai beylikleri künyesiz ⇒ __BOSLUK__.
+ { id:"lan-xang", ad:"Lan Xang Krallığı (Laos)", tur:"krallik", bolge:"guneydogu-asya",
+-  f:"1281-01-01", t:"1707-01-01", baskent:"Luang Prabang → Vientiane", harita:"lan-xang",
++  f:"1353-01-01", t:"1707-01-01", kesinlik:{f:"yil"}, baskent:"Luang Prabang → Vientiane", harita:"lan-xang",
+   ozet:"Mekong boyunca kurulan, 'bir milyon fil' adıyla anılan Lao krallığı; veraset çekişmesiyle üçe bölünüp Laos krallıklarına dönüştü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   kronoloji:[
+@@ -6187,8 +6192,9 @@ window.DEVLETLER = [
+     { t:"1001-01-01", tur:"diplomasi", b:"Butuan racalığı Song sarayına ilk haraç heyetini gönderdi", kaynak:"Scott 1994" }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1515: TDV `filipinler` «Maguindanao Sultanlığı’nı kurmuştur (tah. 1515)» · «Mindanao’da (1515)». Öncül: aynı cümle «datularla (yerli kabile reisleri)» ⇒ `filipin-racaliklari` (Butuan · Zamboanga emsali).
+ { id:"magindanao-sultanligi", ad:"Magindanao Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+-  f:"1281-01-01", t:"1888-01-01", baskent:"Kotabato", harita:"magindanao-sultanligi",
++  f:"1515-01-01", t:"1888-01-01", kesinlik:{f:"onyil"}, baskent:"Kotabato", harita:"magindanao-sultanligi",
+   ozet:"Mindanao'da İspanyol yayılmasına üç yüzyıl direnen müslüman sultanlık; Moro savaşlarının ardından İspanyol hâkimiyetini kabul etti. ⚠️ 10 Ağustos 2026 DÜZELTME: eski `kaynak:` alanı 'bulunamadı' diyordu — YANLIŞ YÖNLENDİRMEYMİŞ. `morolar` slug'ı canlı ama içi tek cümle/yönlendirme (klasik 'canlı slug, boş gövde' tuzağı); gerçek zengin kaynak `filipinler` maddesinin 'III. Ülkede İslâmiyet' bölümü (müellif İsmail Hakkı Göksoy) imiş — orada Magindanao'nun kuruluşu, Kudarat dönemi ve İspanyol savaşları ayrıntılı anlatılıyor.",
+   kaynak:"filipinler (TDV, 'III. Ülkede İslâmiyet' bölümü, müellif İ.H. Göksoy)",
+   kronoloji:[
+@@ -7101,8 +7107,9 @@ window.DEVLETLER = [
+     { t:"1830-09-27", tur:"son", b:"Dancing Rabbit Creek Antlaşması imzalandı: Choctaw, Mississippi ve Alabama'daki on milyon dönümlük topraklarını ABD'ye devredip Oklahoma'ya yerleşmeyi kabul etti — Kaldırma Yasası kapsamında yürürlüğe giren ilk antlaşma", kaynak:"bulunamadı (TDV yok) — BİRİNCİL BELGE emsalli standart akademik kaynak, GÜN hassasiyeti çevrimiçi kurumsal kaynaklarla (Encyclopedia of Alabama) doğrulandı. Künyenin kendi t: alanıyla BİREBİR eşleşiyor." }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1701: Britannica 'Creek' «During the 18th century a Muscogee confederacy was organized» (Z3; UMIT'te 403). Künyenin kendi kaynağı «kesin tarih yok».
+ { id:"creek-konfederasyonu", ad:"Creek (Mvskoke) Konfederasyonu", tur:"devlet", bolge:"kuzey-amerika",
+-  f:"1281-01-01", t:"1832-03-24", baskent:"—",
++  f:"1701-01-01", t:"1832-03-24", kesinlik:{f:"yuzyil"}, baskent:"—",
+   ozet:"Alt ve Yukarı Creek kasabalarının ortak meclisle yürüttüğü konfederasyon. Künyenin bitişi 1832 Cusseta Antlaşması'dır.",
+   kaynak:"Standart akademik — savunma ittifakı olarak kuruldu, kesin tarih yok. Bitiş: Cusseta Antlaşması (nokta verisinde zaten bu tarih).",
+   kronoloji:[
+@@ -7123,8 +7130,9 @@ window.DEVLETLER = [
+     { t:"1722-01-01", tur:"birlesme", b:"Tuscarora, altıncı üye ulus olarak Konfederasyona katıldı (Beş Ulus'tan Altı Ulus'a)", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı." }
+   ]
+ },
++// HAYALET-KUNYE-1008-K · f 1281 → 1501: künyenin KENDİ kaynağı (Encyclopedia Virginia) «Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi»; «atlas ufku 1281'e hizalandı» cümlesi kaynak değil. 1501 = yüzyıl ALT SINIRI (gerçek kuruluş yüzyılın sonu).
+ { id:"powhatan", ad:"Powhatan Konfederasyonu (Tsenacomoco)", tur:"devlet", bolge:"kuzey-amerika",
+-  f:"1281-01-01", t:"1646-10-01", baskent:"—",
++  f:"1501-01-01", t:"1646-10-01", kesinlik:{f:"yuzyil"}, baskent:"—",
+   ozet:"Chesapeake körfezi çevresinde otuzdan fazla kasabayı bir başkanlık altında toplayan Tsenacomoco birliği; İngiliz Virginia kolonisiyle savaşları sonunda dağıldı.",
+   kaynak:"Encyclopedia Virginia, 'Tsenacomoco (Powhatan Paramount Chiefdom)' — Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi, 1607'de 28-32 oymağı kapsıyordu; atlas ufku 1281'e hizalandı. Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).",
+   kronoloji:[
+diff --git a/data/yerlesimler_afrika2.js b/data/yerlesimler_afrika2.js
+index 3a3bdfa2..93d3d157 100644
+--- a/data/yerlesimler_afrika2.js
++++ b/data/yerlesimler_afrika2.js
+@@ -546,8 +546,11 @@ window.YERLESIMLER_AFRIKA2 = [
+      {f:"1898-09-29",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"gine" },
+ 
++// HAYALET-KUNYE-1008-K · `dagbon` künyesi 1401-01-01'de başlıyor (kesinlik yuzyil); 1281→1401-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Yendi (Dagbon)", tur:"sehir", lat:9.4400, lon:-0.0100, g:0, k:0,
+-  s:[{f:"1281-01-01",t:"1899-01-01",d:"dagbon"},
++  s:[{f:"1281-01-01",t:"1401-01-01",d:"__BOSLUK__"},
++     {f:"1401-01-01",t:"1899-01-01",d:"dagbon"},
+      {f:"1899-01-01",t:"1923-10-29",d:"ingiltere"}],
+   kaynak:"bulunamadı" },
+ 
+@@ -985,8 +988,11 @@ window.YERLESIMLER_AFRIKA2 = [
+      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
+   kaynak:"kenya" },
+ 
++// HAYALET-KUNYE-1008-K · `bunyoro` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Masindi", tur:"sehir", lat:1.6800, lon:31.7200, g:0, k:0,
+-  s:[{f:"1281-01-01",t:"1899-04-09",d:"bunyoro"},
++  s:[{f:"1281-01-01",t:"1501-01-01",d:"__BOSLUK__"},
++     {f:"1501-01-01",t:"1899-04-09",d:"bunyoro"},
+      {f:"1899-04-09",t:"1923-10-29",d:"ingiltere"}],
+   kaynak:"uganda" },
+ 
+@@ -1005,8 +1011,11 @@ window.YERLESIMLER_AFRIKA2 = [
+   s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"}],
+   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
+ 
++// HAYALET-KUNYE-1008-K · `bunyoro` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Hoima (Bunyoro)", tur:"sehir", lat:1.4300, lon:31.3500, g:0, k:0,
+-  s:[{f:"1281-01-01",t:"1899-04-09",d:"bunyoro"},
++  s:[{f:"1281-01-01",t:"1501-01-01",d:"__BOSLUK__"},
++     {f:"1501-01-01",t:"1899-04-09",d:"bunyoro"},
+      {f:"1899-04-09",t:"1923-10-29",d:"ingiltere"}],
+   kaynak:"uganda" },
+ 
+@@ -1834,9 +1843,13 @@ window.YERLESIMLER_AFRIKA2 = [
+      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"madagaskar" },
+ 
++// HAYALET-KUNYE-1008-K · Toamasina D204 (yer yanlış): yayla krallığı `merina-oncesi` doğu kıyısında DEĞİL. Künye
++//   `betsimisaraka` (1712→1817) başkentini «Toamasina» yazıyor, kaynağı «Merina 1817'de Toamasina'yı aldı»;
++//   TDV `madagaskar`: 1750'de Fransa «Betsinisaraka kabileleri birliğinin reisiyle» antlaşma. 1281→1712 künyesiz ⇒ __BOSLUK__.
+ { ad:"Toamasina (Tamatave)", tur:"sehir", lat:-18.1500, lon:49.4000, g:0, k:0,
+-  s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
+-     {f:"1787-01-01",t:"1897-02-28",d:"merina"},
++  s:[{f:"1281-01-01",t:"1712-01-01",d:"__BOSLUK__"},
++     {f:"1712-01-01",t:"1817-01-01",d:"betsimisaraka"},
++     {f:"1817-01-01",t:"1897-02-28",d:"merina"},
+      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"madagaskar" },
+ 
+@@ -1845,14 +1858,20 @@ window.YERLESIMLER_AFRIKA2 = [
+   s:[{f:"1903-01-01",t:"1923-10-29",d:"ingiltere"}],
+   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
+ 
++// HAYALET-KUNYE-1008-K · `merina-oncesi` künyesi 1401-01-01'de başlıyor (kesinlik yuzyil); 1281→1401-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Ambohimanga", tur:"sehir", lat:-18.7600, lon:47.5600, g:0, k:0,
+-  s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
++  s:[{f:"1281-01-01",t:"1401-01-01",d:"__BOSLUK__"},
++     {f:"1401-01-01",t:"1787-01-01",d:"merina-oncesi"},
+      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
+      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"madagaskar" },
+ 
++// HAYALET-KUNYE-1008-K · `merina-oncesi` künyesi 1401-01-01'de başlıyor (kesinlik yuzyil); 1281→1401-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Tsiroanomandidy", tur:"sehir", lat:-18.7700, lon:46.0500, g:0, k:0,
+-  s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
++  s:[{f:"1281-01-01",t:"1401-01-01",d:"__BOSLUK__"},
++     {f:"1401-01-01",t:"1787-01-01",d:"merina-oncesi"},
+      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
+      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+   kaynak:"madagaskar" },
+diff --git a/data/yerlesimler_amerika.js b/data/yerlesimler_amerika.js
+index 576e77ff..e47c6d4f 100644
+--- a/data/yerlesimler_amerika.js
++++ b/data/yerlesimler_amerika.js
+@@ -813,8 +813,11 @@ window.YERLESIMLER_AMERIKA = [
+ //         İngiltere'ye yazıldı, AÇIKÇA işaretli.
+ // k gerekçesi: Onondaga konfederasyon merkezi k:2, dört üye millet k:1
+ 
++// HAYALET-KUNYE-1008-K · `powhatan` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Werowocomoco (Powhatan Konfederasyonu Başkenti)", tur:"sehir", lat:37.3939, lon:-76.6302, g:2, k:2,
+-  s:[{f:"1281-01-01",t:"1646-10-01",d:"powhatan"},
++  s:[{f:"1281-01-01",t:"1501-01-01",d:"__BOSLUK__"},
++     {f:"1501-01-01",t:"1646-10-01",d:"powhatan"},
+      {f:"1646-10-01",t:"1776-07-04",d:"ingiltere"},
+      {f:"1776-07-04",t:"1923-10-29",d:"abd"}] },
+ // kaynak: Helen C. Rountree, "Pocahontas's People" (1990). Necotowance Antlaşması (Ekim 1646,
+@@ -861,8 +864,11 @@ window.YERLESIMLER_AMERIKA = [
+ //         DEĞİL) — Louisiana/Florida Küba Genel Kaptanlığı üzerinden yönetildi.
+ // k gerekçesi: teokratik şeflik başkenti — k:2
+ 
++// HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)", tur:"sehir", lat:32.4699, lon:-84.9877, g:2, k:2,
+-  s:[{f:"1281-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},
++  s:[{f:"1281-01-01",t:"1701-01-01",d:"__BOSLUK__"},
++     {f:"1701-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},
+      {f:"1832-03-24",t:"1923-10-29",d:"abd"}] },
+ // kaynak: Hudson (1976); Encyclopedia of Alabama "Creeks in Alabama" — Cusseta Antlaşması
+ //         (24 Mart 1832) hukuki devir tarihi (fiilî sürgün 1836-37).
+diff --git a/data/yerlesimler_asya.js b/data/yerlesimler_asya.js
+index 41850ccc..81db1f47 100644
+--- a/data/yerlesimler_asya.js
++++ b/data/yerlesimler_asya.js
+@@ -897,8 +897,11 @@ window.YERLESIMLER_ASYA = [
+ 
+ // Cabalpûr — Gond Garha-Mandla krallığı; Ekber 1564'te vergiye bağladı ama
+ // hânedan sürdü. 1781'de Maratha, 1818'de İngiliz.
++// HAYALET-KUNYE-1008-K · `gond-kralliklari` künyesi 1301-01-01'de başlıyor (kesinlik yuzyil); 1281→1301-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Cabalpûr (Jabalpur)", tur:"sehir", lat:23.1810, lon:79.9870, g:0, k:3, d:[],
+-  s:[{f:"1281-01-01", t:"1781-01-01", d:"gond-kralliklari"},
++  s:[{f:"1281-01-01", t:"1301-01-01", d:"__BOSLUK__"},
++     {f:"1301-01-01", t:"1781-01-01", d:"gond-kralliklari"},
+      {f:"1781-01-01", t:"1818-01-01", d:"maratha"},
+      {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+ 
+@@ -3272,15 +3275,21 @@ window.YERLESIMLER_ASYA = [
+ // "lan-xang" başlangıcı 1281'e çekildi ve gerekçesi burada yazıldı —
+ // bölgeyi Angkor ya da Sukhothai ile boyamak daha büyük bir hata olurdu.
+ 
++// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Luang Prabang", tur:"sehir", lat:19.8850, lon:102.1350, g:1, k:1,kd:[{f:"1281-01-01",t:"1893-10-03",k:1,m:"Luang Prabang"}], d:[],
+-  s:[{f:"1281-01-01", t:"1707-01-01", d:"lan-xang"},
++  s:[{f:"1281-01-01", t:"1353-01-01", d:"__BOSLUK__"},
++     {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
+      {f:"1707-01-01", t:"1893-10-03", d:"laos-kralliklari"},
+      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+ 
+ // Vientiane — 1560'ta Lan Xang'ın başkenti oldu; Siyam 1828'de şehri
+ // yıktı ve krallığı kaldırdı, 1893'te Fransa aldı.
++// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Vientiane", tur:"sehir", lat:17.9750, lon:102.6300, g:1, k:1,kd:[{f:"1281-01-01",t:"1893-10-03",k:1,m:"Vientiane"}], d:[],
+-  s:[{f:"1281-01-01", t:"1707-01-01", d:"lan-xang"},
++  s:[{f:"1281-01-01", t:"1353-01-01", d:"__BOSLUK__"},
++     {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
+      {f:"1707-01-01", t:"1828-11-01", d:"laos-kralliklari"},
+      {f:"1828-11-01", t:"1893-10-03", d:"siyam-chakri"},
+      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+@@ -3769,8 +3778,11 @@ window.YERLESIMLER_ASYA = [
+ // Kotabato — Magindanao Sultanlığı; Sultan Kudarat XVII. yüzyılda
+ // İspanyol seferlerini püskürttü. İspanya 1888'de nihayet bağladı,
+ // Amerika 1899'da devraldı.
++// HAYALET-KUNYE-1008-K · `magindanao-sultanligi` künyesi 1515-01-01'de başlıyor (kesinlik onyil); 1281→1515-01-01 dilimi → `filipin-racaliklari`.
++//   öncül `filipin-racaliklari`: TDV `filipinler` «datularla (yerli kabile reisleri)».
+ { ad:"Kotabato (Magindanao)", tur:"sehir", lat:7.2230, lon:124.2460, g:0, k:1,kd:[{f:"1281-01-01",t:"1888-01-01",k:1,m:"Kotabato (Magindanao)"}], d:[],
+-  s:[{f:"1281-01-01", t:"1888-01-01", d:"magindanao-sultanligi"},
++  s:[{f:"1281-01-01", t:"1515-01-01", d:"filipin-racaliklari"},
++     {f:"1515-01-01", t:"1888-01-01", d:"magindanao-sultanligi"},
+      {f:"1888-01-01", t:"1898-08-13", d:"ispanya"},
+      {f:"1898-08-13", t:"1923-10-29", d:"abd"}] },
+ 
+diff --git a/data/yerlesimler_gdasya.js b/data/yerlesimler_gdasya.js
+index 7fe54a5e..67d678f4 100644
+--- a/data/yerlesimler_gdasya.js
++++ b/data/yerlesimler_gdasya.js
+@@ -66,10 +66,14 @@ window.YERLESIMLER_GDASYA = [
+   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1795-01-01",d:"kamboc-kralligi"},{f:"1795-01-01",t:"1907-03-23",d:"siyam-chakri"},{f:"1907-03-23",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+ { ad:"Kompong Cham", tur:"liman", lat:12.00, lon:105.46, g:0, k:3,
+   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
++// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Xieng Khouang", tur:"sehir", lat:19.45, lon:103.15, g:0, k:3,
+-  s:[{f:"1281-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
++  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
++// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Savannakhet", tur:"liman", lat:16.56, lon:104.75, g:0, k:3,
+-  s:[{f:"1281-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
++  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+ 
+ // ---------- VİETNAM (Kızıl Nehir + orta/güney kıyı) ----------
+ // Kuzey zinciri (tran→ho→ming işgali→le→...) yerlesimler_asya.js'teki
+@@ -211,8 +215,10 @@ window.YERLESIMLER_GDASYA = [
+   s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+ { ad:"Preah Vihear", tur:"sehir", lat:14.39, lon:104.68, g:0, k:3,
+   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
++// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
++//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+ { ad:"Muang Sing", tur:"sehir", lat:21.18, lon:101.15, g:0, k:3,
+-  s:[{f:"1281-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
++  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+ { ad:"Vinh Long", tur:"liman", lat:10.25, lon:105.97, g:0, k:3,
+   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+ { ad:"Can Tho", tur:"liman", lat:10.03, lon:105.79, g:0, k:3,
+diff --git a/data/yerlesimler_kamerika.js b/data/yerlesimler_kamerika.js
+index cda853f5..cf4a8467 100644
+--- a/data/yerlesimler_kamerika.js
++++ b/data/yerlesimler_kamerika.js
+@@ -1304,8 +1304,10 @@ window.YERLESIMLER_KAMERIKA = [
+     kur:"1739-01-01",
+     s:[{f:"1739-01-01",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
++  // HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
++  //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+   { ad:"Etowah", tur:"sehir", lat:34.122, lon:-84.809, g:0,
+-    s:[{f:"1281-01-01",t:"1550-01-01",d:"etowah"},{f:"1550-01-01",t:"1733-06-09",d:"creek-konfederasyonu"},{f:"1733-06-09",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
++    s:[{f:"1281-01-01",t:"1550-01-01",d:"etowah"},{f:"1550-01-01",t:"1701-01-01",d:"__BOSLUK__"},{f:"1701-01-01",t:"1733-06-09",d:"creek-konfederasyonu"},{f:"1733-06-09",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"14. yy'da hâlâ iskânlı büyük höyük merkezi · dayanak: HNAI c.14 Southeast (Smithsonian)" },
+   { ad:"Los Ángeles (El Pueblo)", tur:"sehir", lat:34.053, lon:-118.243, g:0,
+     kur:"1781-09-04",
+@@ -1321,8 +1323,10 @@ window.YERLESIMLER_KAMERIKA = [
+   { ad:"Moundville", tur:"sehir", lat:32.998, lon:-87.63, g:0,
+     s:[{f:"1281-01-01",t:"1450-01-01",d:"moundville"},{f:"1450-01-01",t:"1699-04-08",d:"choctaw"},{f:"1699-04-08",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
++  // HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
++  //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
+   { ad:"Ocmulgee", tur:"sehir", lat:32.837, lon:-83.608, g:0,
+-    s:[{f:"1281-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},{f:"1832-03-24",t:"1923-10-29",d:"abd"}],
++    s:[{f:"1281-01-01",t:"1701-01-01",d:"__BOSLUK__"},{f:"1701-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},{f:"1832-03-24",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
+   { ad:"Santa Rita del Cobre", tur:"sehir", lat:32.8, lon:-108.07, g:0,
+     kur:"1804-01-01",

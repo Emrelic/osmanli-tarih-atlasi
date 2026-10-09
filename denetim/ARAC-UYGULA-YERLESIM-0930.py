@@ -12,7 +12,7 @@ evren ayrıca erdel_tara ile 7 ölçüldü).
 """
 import io, os, sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-K = r"C:\atlas\data"
+K = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 YAZ = "--yaz" in sys.argv
 U = "UYGULA-YERLESIM-0930"
 

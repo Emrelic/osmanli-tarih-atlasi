@@ -1,0 +1,16 @@
+# GORUNTU-0087-KOORD.diff — UYGULANMADI · temel origin/main 0291c38d · Kotor (Cattaro) g:0 → g:1 + not: (Cetinje bedeli yazılı)
+# Uygulandıktan sonra: py arac/paketle.py yenile (paket_13) — motor koşusu GEREKMEZ
+diff --git a/data/yerlesimler_ek.js b/data/yerlesimler_ek.js
+index 86094eab..a4bbf734 100644
+--- a/data/yerlesimler_ek.js
++++ b/data/yerlesimler_ek.js
+@@ -176,7 +176,8 @@ window.YERLESIMLER_EK = [
+ //    fiilen BAĞIMSIZ komün oldu. Şemada "bağımsız" kimliği yok ve Değişmez 1
+ //    sahipsizliğe izin vermiyor; bu yüzden 1371-1420 tek kalemde `macaristan`
+ //    yazıldı — Bosna ve bağımsızlık ara dönemleri MODELLENMEDİ.
+-{ ad:"Kotor (Cattaro)", tur:"liman", lat:42.421, lon:18.768, g:0, k:3, d:[],
++{ ad:"Kotor (Cattaro)", tur:"liman", lat:42.421, lon:18.768, g:1, k:3, d:[],
++  not:"GORUNTU-0087 (paket 0087 H-0019, koordinatör kabulü): g:0 → g:1. Kotor işareti açıldı; etiket çakışmasında Cetinje eleniyor (ölçüldü, 1523-01-05 z8,5: önce Kotor ekli:false / Cetinje ekli:true · sonra Kotor ekli:true / Cetinje ekli:false). g:0'da Kotor 'geçici' işaretti ve son el değişimi 1420 olduğu için 1420-1797 Venedik peteği adsız kalıyordu.",
+     s:[{f:"1281-01-01",t:"1371-01-01",d:"sirbistan"},
+        {f:"1371-01-01",t:"1420-01-01",d:"macaristan"},
+        {f:"1420-01-01",t:"1797-10-17",d:"venedik"},

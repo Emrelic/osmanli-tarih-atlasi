@@ -19,7 +19,8 @@ esanlami veri KENDISI tasiyor, biz uydurmuyoruz.
 import sys, io, json
 from collections import defaultdict
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 gj = json.load(io.open(KOK + r"\veri-kaynak\ne_10m_rivers.geojson", encoding="utf-8"))
 
 grup = defaultdict(set)

@@ -8,6 +8,16 @@ BİREBİR alınır (s:/d:/v:). `isg:` KOPYALANMAZ (motor okumaz; işgal örtüs�
 komşudan alındığı `kaynak:` alanına ADIYLA yazılır. Köyün 1281-1923 arası kendi
 tarihi ARAŞTIRILMADI — bu kayıtlar SINIR GEOMETRİSİ içindir.
 
+🔴 KURAL (koordinatör hükmü, UMIT-W6-DALGA6-1006): bu betik KOORDİNATÖR KARARI
+OLMADAN data/'ya KOŞTURULMAZ. Koşu çıktı dosyalarını baştan yazar; dalga 5 sınavında
+6 kaydın zinciri kaynak kaymasıyla değişiyordu. Önce geçici yola sına.
+KOPYA ELEĞİ (dalga 7: ELEME değil YÖNLENDİRME): `zincir_kaynagi` taşıyan aday komşu
+olarak KALIR, ama beyan ettiği PENCEREDE zinciri beyan edilen kaynağın (özyinelemeli:
+kökenin) zinciriyle değiştirilir (etkin_kayit). Kaynağı bulunamayan / döngülü aday
+ELENİR. Her üretilen kayda `zincir_kaynagi` YAZILIR (birebir: tek nesne · birleşim:
+iki nesne); `yer` = coğrafî komşu, kökeni okuyan etkin_kayit ile çözer.
+⚠️ Eleğin doğruluğu W9 beyanlarının EKSİKSİZLİĞİNE bağlıdır: beyansız kopya geçer.
+
 Kullanım: py denetim/ARAC-TR1923-YAZ-0914.py <secim.json>
    → data/yerlesimler_sinir_guney.js (SYR · IRQ)  +  data/yerlesimler_sinir_kuzey.js (GRC · BGR · GEO · ARM · AZE)
 """
@@ -124,6 +134,64 @@ def zincir_birlestir(A, B):
     return s, d, v, T
 
 
+def kopya_beyanli(y):
+    """🔴 KOPYA ELEĞİ (UMIT-W6-DALGA6-1006). `zincir_kaynagi` taşıyan kayıt zincirini
+    başka bir kayıttan almıştır; onu komşu saymak §4'ün yasakladığı ZİNCİRLEME
+    DEVRALMADIR (dalga 4: Revan → Gümrü/Eçmiyadzin/Iğdır/Arpaçay → 4 sınır köyü).
+    Yalnız ALAN okunur. Serbest metne ("gün komşudan", "BİREBİR", "deseni") geri
+    DÜŞÜLMEZ: ölçüldü, metin eleği 28 seçimin 7'sini değiştiriyor ve 3'ü yanlış
+    (Orestiada/Havsa yalnız dönem başına komşu günü taşıyor, zincir kopyası değil).
+    Alan tanımı W9'dan (UMIT-W9-ZINCIR-1006): {yer, pencere:[f,t], tur}; tek nesne
+    ya da nesne listesi — tanım değişirse bu işlev yeniden temellenir."""
+    return bool(y.get("zincir_kaynagi"))
+
+
+def _kirp(ps, f, t, iceri):
+    """Dönemleri [f,t) penceresinin İÇİNE (iceri) ya da DIŞINA kırpar."""
+    out = []
+    for p in ps or []:
+        araliklar = [(max(p["f"], f), min(p["t"], t))] if iceri else \
+                    [(p["f"], min(p["t"], f)), (max(p["f"], t), p["t"])]
+        for a, b in araliklar:
+            if a < b:
+                q = dict(p)
+                q["f"], q["t"] = a, b
+                out.append(q)
+    return out
+
+
+def etkin_kayit(y, AD, yol=()):
+    """🔴 YÖNLENDİRME (UMIT-W6-DALGA7-1006). Kopya beyanlı kaydı ELEMEK, coğrafî komşuyu
+    kaybettiriyordu: Qaţţīnah'ın 1281-1918'i Ceylanpınar (4,3 km, Mardin kopyası) yerine
+    Rakka'dan (133,4 km) geliyordu, 86.070 gün fark. Doğrusu: kopyanın BEYAN ETTİĞİ
+    PENCERESİNİ kaynağının zinciriyle değiştirmek; pencere dışı kaydın KENDİ zinciridir.
+    Kaynak da kopyaysa özyinelemeyle KÖKENE iner (Bacirge → Yüksekova → Çölemerik).
+    Döner: (etkin kayıt, köken zinciri) ya da (None, sebep) — None ise aday elenir."""
+    z = y.get("zincir_kaynagi")
+    if not z:
+        return y, [y["ad"]]
+    if y["ad"] in yol:
+        return None, "döngü: " + " → ".join(yol + (y["ad"],))
+    e = {k: v for k, v in y.items() if k not in ("s", "d", "v", "zincir_kaynagi")}
+    zincir = {a: list(y.get(a) or []) for a in ("s", "d", "v")}
+    koken = [y["ad"]]
+    for b in (z if isinstance(z, list) else [z]):
+        k = AD.get(b.get("yer"))
+        if k is None:
+            return None, f"kaynak yok: {b.get('yer')!r}"
+        k, kk = etkin_kayit(k, AD, yol + (y["ad"],))
+        if k is None:
+            return None, kk
+        f, t = b["pencere"]
+        for a in ("s", "d", "v"):
+            zincir[a] = _kirp(zincir[a], f, t, False) + _kirp(k.get(a), f, t, True)
+        koken += kk
+    for a in ("s", "d", "v"):
+        if zincir[a]:
+            e[a] = sorted(zincir[a], key=lambda p: p["f"])
+    return e, koken
+
+
 def js(v):
     return json.dumps(v, ensure_ascii=False, separators=(",", ":"))
 
@@ -135,6 +203,23 @@ def main():
     # bu aletin ÖNCEKİ turda yazdığı kayıtlar komşu SAYILMAZ (zincirleme devralma yasak, §4)
     Y = [y for y in Y if not str(y.get("neden", "")).startswith("TR-1923-SINIR")]
     adlar = {y["ad"] for y in Y}
+    # kopya beyanlı aday YÖNLENDİRİLİR: beyan penceresi kökenin zinciriyle dolar (etkin_kayit);
+    # kaynağı bulunamayan / döngülü aday ELENİR (adı ad çakışması için `adlar`da kalır)
+    AD = {y["ad"]: y for y in Y}
+    yeni, yonlenen, elenen = [], [], []
+    for y in Y:
+        if not kopya_beyanli(y):
+            yeni.append(y)
+            continue
+        e, koken = etkin_kayit(y, AD)
+        if e is None:
+            elenen.append(f"{y['ad']} ({koken})")
+        else:
+            yeni.append(e)
+            yonlenen.append(" → ".join(koken))
+    Y = yeni
+    print(f"kopya eleği: {len(yonlenen)} aday kökenine yönlendirildi · {len(elenen)} elendi"
+          + (f" · elenen: {'; '.join(elenen[:6])}" if elenen else ""))
     cikti = {"guney": [], "kuzey": []}
     for grup, (_, _, anahtarlar) in DOSYA.items():
         for k in anahtarlar:
@@ -166,6 +251,14 @@ def main():
                 for alan, dizi in (("s", zs), ("d", zd), ("v", zv)):
                     if dizi:
                         kayit[alan] = dizi
+                # makine-okunur kopya beyanı (W9 tanımı) — üretilmiş dosyaya ELLE eklenmez, buradan gelir
+                if T is None:
+                    kayit["zincir_kaynagi"] = {"yer": kom["ad"], "pencere": [PENCERE_BAS, PENCERE_SON],
+                                               "tur": "birebir"}
+                else:
+                    kayit["zincir_kaynagi"] = [
+                        {"yer": komA["ad"], "pencere": [PENCERE_BAS, T], "tur": "birlesim"},
+                        {"yer": kom["ad"], "pencere": [T, PENCERE_SON], "tur": "birlesim"}]
                 if T is None:
                     zmetin = (f"dönemler en yakın kayıt «{kom['ad']}» ({d0:.1f} km; aynı yakada, 1923 sahibi aynı) "
                               f"kaydından BİREBİR")

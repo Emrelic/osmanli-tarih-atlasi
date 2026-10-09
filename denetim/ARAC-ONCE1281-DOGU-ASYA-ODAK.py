@@ -5,7 +5,8 @@
 #   py denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py
 import io, re, sys, json
 sys.stdout.reconfigure(encoding="utf-8")
-P = r"C:\atlas\data\kronoloji_cok_once1281_dogu_asya.js"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+P = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "kronoloji_cok_once1281_dogu_asya.js")
 Y, O = "yer_id", "odak_yer"
 # (t, b'nin başı) → (alan, değer)
 H = [

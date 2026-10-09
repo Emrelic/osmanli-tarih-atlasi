@@ -4,7 +4,7 @@ uret_petek.py KOŞULMAZ. `serbest_sadelestir` + `hat_koord` + `SERBEST_SADE_TOL`
 dosyanın KENDİSİNDEN AST ile çekilir; sentetik girdi + koşu 10 SERBEST havuzu."""
 import ast, io, json, os, sys, math, time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from shapely.geometry import (LineString, MultiLineString, Point, GeometryCollection,
                               LinearRing, Polygon, box)
 from shapely.ops import linemerge

@@ -1,3 +1,4 @@
+# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR (.ofs önbelleği), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
 """GÖVDE SORGUSU — düşük bellek (mmap + halka ofset dizini).
 
   py govde.py <GUN> <lat1> <lon1> <lat2> <lon2> [--noktalar]
@@ -110,7 +111,7 @@ def sorgu(gun, lat1, lon1, lat2, lon2):
                     if not u.is_empty:
                         kat[dv['id']] = unary_union([kat[dv['id']], u]) if dv['id'] in kat else u
     # işgal (devirler.js ISGALLER — Osmanlı toprağındaki işgaller)
-    js = open('C:/atlas/data/devirler.js', encoding='utf-8').read()
+    js = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devirler.js"), encoding='utf-8').read()
     k = js.index('window.ISGALLER = ') + len('window.ISGALLER = ')
     I = json.loads(js[k:js.index(';\n', k)])
     for x in I:
@@ -151,7 +152,7 @@ if __name__ == '__main__':
     U = unary_union([g for _, g in ks]) if ks else None
     bos = K.difference(U) if U is not None else K
     # kara ile kes
-    kara_yol = 'C:/atlas/veri-kaynak/motor_kara.geojson'
+    kara_yol = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "motor_kara.geojson")
     try:
         gj = json.load(open(kara_yol, encoding='utf-8'))
         fs = gj['features'] if 'features' in gj else [gj]

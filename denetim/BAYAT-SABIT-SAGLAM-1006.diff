@@ -1,0 +1,418 @@
+diff --git a/denetim/ARAC-ANTLASMA-KADEME-SINAV-0074.js b/denetim/ARAC-ANTLASMA-KADEME-SINAV-0074.js
+index 1f65611e..6af9fed5 100644
+--- a/denetim/ARAC-ANTLASMA-KADEME-SINAV-0074.js
++++ b/denetim/ARAC-ANTLASMA-KADEME-SINAV-0074.js
+@@ -14,7 +14,10 @@ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
+ const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+ [...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
+-  .filter(s => /olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
++  // `paket_` (W32, 6 Ekim): index.html veriyi artık `data/paket_NN.js`ten yüklüyor
++  // (arac/paketle.py). Süzgeç onu tanımıyordu ⇒ 10 yerleşim · 6 antlaşma maddesi
++  // ile koşup "2 geçti · 6 kaldı" diyordu — ölçülen kusur sabitte değil YÜKLEYİCİDEYDİ.
++  .filter(s => /paket_|olaylar|kronoloji|savaslar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+ const W = ctx;
+ W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
+   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+@@ -33,8 +36,33 @@ let gecti = 0, kaldi = 0;
+ const sina = (ad, sart, detay) => { if (sart) { gecti++; console.log("  ✓ " + ad); } else { kaldi++; console.log("  ✗ " + ad + (detay ? "  — " + detay : "")); } };
+ 
+ console.log("KURULUM · YERLESIMLER " + Y.length + " · isg: taşıyan " + isgListe.length + " · antlaşma maddesi " + evren.length);
+-console.log("  (isgalliYerlesimler 238 bekleniyor — ARAC-ANTLASMA-KADEME-0074.js ölçümü)");
+-sina("isgalliYerlesimler 238 yerleşim döndürdü", isgListe.length === 238, "gelen " + isgListe.length);
++// SESSİZ SIFIR kapısı — yükleyici bir gün yine bir dosya biçimini tanımazsa
++// sınav "kaldı" değil ÖLÇÜLEMEDİ der (çıkış 2): 10 yerleşimle ölçülen bir
++// kademe kümesi hiçbir şey söylemez.
++if (Y.length < 3000 || !evren.length) {
++  console.log("  ⚫ ÖLÇÜLEMEDİ — yükleyici " + Y.length + " yerleşim · " + evren.length +
++    " antlaşma maddesi getirdi (index.html'in yükleme düzeni değişmiş olabilir)");
++  process.exit(2);
++}
++// ESKİ SABİT 238 (21 Eylül, 3921 yerleşim) BAYATLADI: veri büyüdü (W32 ölçtü —
++// 21 Eylül verisi + bugünkü suzgec.js = 238, bugünkü veri = 269). Sabit yerine
++// İKİNCİ BİR AYRIŞTIRICIYA karşı ölçülür: motorun okuduğu evren (`girdi.py`,
++// Python). Uygulamanın yüklediği işgal evreni motorunkinden sapıyorsa ya
++// index.html bir dosyayı bağlamamış ya girdi listesi bir dosyayı almamıştır.
++const py = require("child_process").spawnSync("py", ["-c",
++  "import sys,json;sys.path.insert(0,'arac');import girdi;Y=girdi.yukle(sessiz=True);" +
++  "print(json.dumps([len(Y),sum(1 for y in Y if y.get('isg'))]))"],
++  { cwd: KOK, encoding: "utf8", env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) });
++let motor = null;
++try { motor = JSON.parse((py.stdout || "").trim().split(/\r?\n/).pop()); } catch (e) { motor = null; }
++if (!motor) {
++  console.log("  ⚫ ÖLÇÜLEMEDİ — girdi.py okunamadı: " + String(py.stderr || py.error || "").slice(0, 200));
++  process.exit(2);
++}
++console.log("  motor evreni (girdi.py): " + motor[0] + " yerleşim · isg: taşıyan " + motor[1]);
++sina("isgalliYerlesimler = motorun isg: evreni (" + motor[1] + ")", isgListe.length === motor[1],
++  "uygulama " + isgListe.length + " · motor " + motor[1]);
++sina("isg: sınıfı hâlâ var (> 0)", isgListe.length > 0);
+ 
+ function kademeOlc(o) {
+   const a = an(o);
+@@ -46,7 +74,7 @@ function kademeOlc(o) {
+   const k2gun = SG.gunKaydir(f.gun, -1);
+   const k1gun = (a && a.savas_basi) ? SG.gunKaydir(a.savas_basi, -1) : "";
+   const kume = SG.kademeKumesi(Y, isgListe, f.degisim, k1gun, k2gun, f.gun, idxStr(o.gi - 1), idxStr(sonIx), T);
+-  return { f, kume, k1gun, T, o };
++  return { f, kume, k1gun, T, o, bas: idxStr(o.gi - 1), son: idxStr(sonIx) };
+ }
+ 
+ // ── ① OLMALI YÖNÜ ──
+@@ -56,15 +84,55 @@ console.log("\n① OLMALI — ORTA kapsam DAR'dan geniş olmalı (ölçülen bek
+ // Elle doğrulandı: fark ∩ işgal = {İbrail, Anapa}, iade ⊆ işgal ⇒ birleşim 21.
+ // Kod düzeltilmedi, YANLIŞ BEKLENTİ düzeltildi; doğrulama koşulabilir olsun
+ // diye kesişim aşağıda ③'te ayrıca sınanıyor.
+-const bekle = { "1923-07-24": [23, 78], "1918-10-30": [25, 93], "1812-05-28": [8, 25], "1913-11-01": [2, 29], "1829-09-14": [10, 21] };
+-Object.keys(bekle).forEach(t => {
++// 🔴 W32 (6 Ekim): ESKİ SABİT TABLO BAYATLADI — 21 Eylül'ün DAR/ORTA sayıları
++// {1923-07-24: 23/78 · 1918-10-30: 25/93 · 1812-05-28: 8/25 · 1913-11-01: 2/29 ·
++// 1829-09-14: 10/21}. Ayrıştırma ölçüldü: 21 Eylül verisi + BUGÜNKÜ suzgec.js
++// = 14 geçti · 0 kaldı; bugünkü veri = Lozan 23/84 · Mondros 26/100. Fark
++// VERİDEN (yeni isg: kayıtları), koddan değil. Sayı bir fotoğraftı; her isg:
++// eklemesinde yeniden bayatlayacaktı. Yerine üç YAPI şartı ölçülür (sayı basılır):
++//   ⓐ kademe sınıfı hâlâ var: ORTA > DAR (genişleme gerçekten oluyor)
++//   ⓑ ORTA ⊇ DAR (el değiştiren hiçbir bölge kümeden düşmüyor)
++//   ⓒ ORTA ∖ DAR ⊆ isg: taşıyanlar (genişlemenin TEK kaynağı işgal kaydı)
++// ve sayının kendisi yerine aşağıdaki YAPAY iki yönlü sınav kümenin İŞGALE
++// TEPKİSİNİ ölçer.
++["1923-07-24", "1918-10-30", "1812-05-28", "1913-11-01", "1829-09-14"].forEach(t => {
+   const o = evren.find(x => x.t === t); if (!o) { sina(t + " maddesi bulundu", false); return; }
+   const r = kademeOlc(o); if (!r) { sina(t + " farkı hesaplandı", false); return; }
+-  const [dar, orta] = bekle[t];
+-  sina(t + " DAR=" + dar + " ORTA=" + orta, r.f.degisim.length === dar && r.kume.length === orta,
+-    "ölçülen DAR=" + r.f.degisim.length + " ORTA=" + r.kume.length + "  " + o.b.slice(0, 40));
++  const dar = r.f.degisim.length, orta = r.kume.length, isgIx = {};
++  isgListe.forEach(i => isgIx[i] = 1);
++  const farkIx = {}; r.f.degisim.forEach(d => farkIx[d.i] = 1);
++  const kumeIx = {}; r.kume.forEach(k => kumeIx[k.i] = 1);
++  const dusen = Object.keys(farkIx).filter(i => !kumeIx[i]).length;
++  const yabanci = r.kume.filter(k => !farkIx[k.i] && !isgIx[k.i]).length;
++  sina(t + " DAR=" + dar + " ORTA=" + orta + " · ⓐ ORTA>DAR · ⓑ düşen 0 · ⓒ isg'siz ek 0",
++    orta > dar && dusen === 0 && yabanci === 0,
++    "ⓐ " + (orta > dar) + " · ⓑ düşen " + dusen + " · ⓒ isg'siz ek " + yabanci + "  " + o.b.slice(0, 40));
+ });
+ 
++// ── ①b YAPAY İKİ YÖNLÜ — Lozan'a tek yapay yerleşim eklenir (bellekte) ──
++//   + taraf işgali taşıyan yapay  → ORTA tam +1 ve k2 "isg:<taraf>"
++//   − taraf OLMAYAN işgal taşıyan → ORTA +0  (negatif kontrol)
++console.log("\n①b YAPAY — kümenin işgale tepkisi, iki yönde");
++const lz = evren.find(x => x.t === "1923-07-24"), rz = lz && kademeOlc(lz);
++if (!rz) sina("Lozan yapay sınavı kuruldu", false);
++else {
++  const taraf = Object.keys(rz.T).filter(k => rz.T[k])[0];
++  const k2 = SG.gunKaydir(rz.f.gun, -1);
++  const yap = d => ({ ad: "YAPAY-W32", s: [{ f: "1000-01-01", t: "2100-01-01", d: "__yapay__" }],
++    isg: [{ f: SG.gunKaydir(k2, -30), t: SG.gunKaydir(k2, 30), d: d }] });
++  const koş = d => {
++    const Y2 = Y.concat([yap(d)]);
++    return SG.kademeKumesi(Y2, isgListe.concat([Y.length]), rz.f.degisim, rz.k1gun, k2, rz.f.gun,
++      rz.bas, rz.son, rz.T);
++  };
++  const arti = koş(taraf), eksi = koş("__taraf-degil__");
++  const yeni = arti.find(r => r.i === Y.length);
++  sina("+ taraf işgali (" + taraf + ") → ORTA " + rz.kume.length + "→" + arti.length + " (+1), k2=isg:" + taraf,
++    arti.length === rz.kume.length + 1 && !!yeni && yeni.k2 === "isg:" + taraf,
++    "ORTA " + arti.length + " · k2 " + (yeni && yeni.k2));
++  sina("− taraf olmayan işgal → ORTA değişmez (" + eksi.length + ")", eksi.length === rz.kume.length);
++}
++
+ // ── ② OLMAMALI YÖNÜ ──
+ console.log("\n② OLMAMALI — kümeye girmemesi gereken yerleşimler");
+ const lozan = evren.find(x => x.t === "1923-07-24"), rl = lozan && kademeOlc(lozan);
+diff --git a/denetim/ARAC-ENKLAV-SINAV-0907.py b/denetim/ARAC-ENKLAV-SINAV-0907.py
+index 8b5cd917..c7d62f5e 100644
+--- a/denetim/ARAC-ENKLAV-SINAV-0907.py
++++ b/denetim/ARAC-ENKLAV-SINAV-0907.py
+@@ -16,6 +16,9 @@
+    ④ ÇIKTI     dönüş yapısı VARSAYILMAZ, dökülür (`repr`/`len`)
+ 
+ ⚠️ Bu betik VERİYE YAZMAZ. Yamayı yalnız BELLEKTE uygular.
++
++🔴 W32 (6 Ekim): yama VERİYE İNDİ; ön sınav artık TERS yönde koşar (aşağıda
++   "W32" yorumu) — yukarıdaki ①/② ayaklarının 661'i tarihsel kayıttır.
+ """
+ import sys, os, io, json
+ 
+@@ -51,43 +54,58 @@ kova0 = {}
+ for r in d7:
+     kova0[r["kova"]] = kova0.get(r["kova"], 0) + 1
+ print("kovalar: %s" % kova0)
+-assert len(d7) == 661, (
+-    "TABAN 661 DEĞİL (%d) — ya veri değişti ya ALETİ YANLIŞ YERDEN "
+-    "OKUYORUM. İkincisi ise bu betiğin bütün sayıları geçersiz." % len(d7))
+-
+-# ── ② ATEŞLEME: yamayı BELLEKTE uygula ───────────────────────────────
++# 🔴 W32 (6 Ekim): ESKİ SABİT `assert len(d7) == 661` BAYATLADI ve bu betiğin
++#    İŞİ BİTTİ — dokuz dönemin dokuzu da bugün veride `enklav:true` taşıyor
++#    (yama uygulandı). 661 yamadan ÖNCEKİ tabandı; bugün 734 (veri büyüdü:
++#    3921 → 4299 yerleşim, kampanya tabanı `BEKLENEN_ENKLAV_SORGU` DONDU,
++#    `denetle.py §3092`). Sabit yerine sınav TERS YÖNDE kurulur:
++#      ① YERİNDE   dokuz dönem `enklav:true` taşıyor mu (sınıf hâlâ var)
++#      ② ATEŞLEME  bellekte KALDIRILINCA sayı YÜKSELMELİ, geri konunca
++#                  tabana TAM dönmeli (alan beklenen yerde mi)
++#      ③ NEGATİF   `enklav` taşımayan bir dönemden "kaldırmak" sayıyı
++#                  OYNATMAMALI (ölçüm gürültüsü yok)
++#    Taban ölçülür ve basılır; hükmü `denetle.py` verir (dondurma).
+ ix = {}
+ for y in Y:
+     ix.setdefault(y["ad"], []).append(y)
+ for ad, adet in ix.items():
+     assert len(adet) == 1, "MÜKERRER AD: %s (%d)" % (ad, len(adet))
+ 
+-konan = 0
++donem = []
+ for ad, f, kim in HEDEF:
+     assert ad in ix, "AD BULUNAMADI: %r" % ad          # §4 Türkçe yazım ekseni
+-    y = ix[ad][0]
+-    esl = [p for p in y.get("s", []) if p.get("f") == f and p.get("d") == kim]
++    esl = [p for p in ix[ad][0].get("s", []) if p.get("f") == f and p.get("d") == kim]
+     assert len(esl) == 1, (
+         "DÖNEM EŞLEŞMESİ %d (1 bekleniyordu): %s %s %s" % (len(esl), ad, f, kim))
+-    assert not esl[0].get("enklav"), "ZATEN enklav: %s %s" % (ad, f)
+-    esl[0]["enklav"] = True
+-    konan += 1
+-assert konan == len(HEDEF), "konan %d != hedef %d" % (konan, len(HEDEF))
+-print("\nbellekte `enklav:true` konan dönem: %d" % konan)
++    donem.append(esl[0])
++yerinde = sum(1 for p in donem if p.get("enklav") is True)
++print("\n① yerinde: %d / %d dönem `enklav:true`" % (yerinde, len(HEDEF)))
++assert yerinde == len(HEDEF), (
++    "YAMA YERİNDE DEĞİL: %d/%d — biri `enklav`ı kaldırdı ya da dönem bölündü"
++    % (yerinde, len(HEDEF)))
+ 
+-d7b, muafb = denetle.degismez7(Y)
+-print("yamalı : %d sorgusuz enklav" % len(d7b))
+-kova1 = {}
+-for r in d7b:
+-    kova1[r["kova"]] = kova1.get(r["kova"], 0) + 1
+-print("kovalar: %s" % kova1)
+-print("muaf   : %s" % muafb)
+-print("\nFARK   : %d → %d   (%+d)" % (len(d7), len(d7b), len(d7b) - len(d7)))
+-print("C-hakiki: %d → %d" % (kova0.get("C-hakiki", 0), kova1.get("C-hakiki", 0)))
+-print("tavan %d  ⇒  %s" % (denetle.BEKLENEN_ENKLAV_SORGU,
+-      "✓ ALTINDA" if len(d7b) <= denetle.BEKLENEN_ENKLAV_SORGU else "✗ HÂLÂ ÜSTÜNDE"))
++for p in donem:
++    del p["enklav"]
++d7b, _ = denetle.degismez7(Y)
++for p in donem:
++    p["enklav"] = True
++d7c, _ = denetle.degismez7(Y)
++print("② kaldırınca: %d → %d (%+d) · geri koyunca: %d"
++      % (len(d7), len(d7b), len(d7b) - len(d7), len(d7c)))
++assert len(d7b) > len(d7), (
++    "ATEŞLEME YOK: kaldırınca sayı yükselmedi. `enklav` alanı beklediğim "
++    "yerde DEĞİL (dönem içi mi kayıt üstü mü?)")
++assert len(d7c) == len(d7), "GERİ DÖNMEDİ: %d != taban %d" % (len(d7c), len(d7))
+ 
+-# ② ateşleme gerçekten oldu mu — düşmediyse alan yanlış yerde demektir
+-assert len(d7b) < len(d7), (
+-    "ATEŞLEME YOK: sayı düşmedi. `enklav` alanı beklediğim yerde DEĞİL "
+-    "(dönem içi mi kayıt üstü mü?) — yama YAZILMAMALI.")
++# ③ NEGATİF: aynı yerleşimlerin `enklav` TAŞIMAYAN bir dönemine dokunmak
++negatif = [p for ad, _f, _k in HEDEF for p in ix[ad][0].get("s", [])
++           if "enklav" not in p][:1]
++assert negatif, "NEGATİF KONTROL KURULAMADI: enklav'sız dönem yok"
++negatif[0]["enklav"] = False                         # değer yanlışsa etkisiz olmalı
++d7n, _ = denetle.degismez7(Y)
++del negatif[0]["enklav"]
++print("③ negatif (enklav:false): %d (taban %d)" % (len(d7n), len(d7)))
++assert len(d7n) == len(d7), "NEGATİF KONTROL OYNADI: %d != %d" % (len(d7n), len(d7))
++print("\nSONUÇ: GEÇTİ — taban %d (tavan %d, %s)"
++      % (len(d7), denetle.BEKLENEN_ENKLAV_SORGU,
++         "DONDU" if getattr(denetle, "KAMPANYA_DONDURMA", False) else "dondurma yok"))
+diff --git a/denetim/ARAC-MANDA-IRAK-SINAV-0907.py b/denetim/ARAC-MANDA-IRAK-SINAV-0907.py
+index 45427dc0..ce6fd2cf 100644
+--- a/denetim/ARAC-MANDA-IRAK-SINAV-0907.py
++++ b/denetim/ARAC-MANDA-IRAK-SINAV-0907.py
+@@ -64,14 +64,52 @@ if not (k.get("f") <= GUN <= (k.get("t") or "9999")):
+ print("    -> pencere gunu KAPSIYOR")
+ 
+ # ─── (3) TABAN ────────────────────────────────────────────────────────
+-ALANLAR4 = ("ihlal", "kunyesiz", "ok", "asan", "once")
++# W32 (6 Ekim): ESKI SABIT `ALANLAR4` (5 alan) BAYATLADI — degismez4 6. alani
++# (`cok_harita`) ekledi, sinav "DONUS YAPISI DEGISTI" deyip DURUYORDU. Alan
++# adlari artik ALETIN KENDI KAYNAGINDAN okunur: degismez4'un SON `return`
++# demeti (AST). Erken cikis `return [], [], ...` isim tasimaz, sayilmaz.
++import ast       # noqa: E402
++import inspect   # noqa: E402
++
++
++def alanlar4(kaynak):
++    agac = ast.parse(kaynak)
++    son = max((n for n in ast.walk(agac) if isinstance(n, ast.Return)
++               and isinstance(n.value, ast.Tuple)), key=lambda n: n.lineno)
++    adlar = tuple(e.id if isinstance(e, ast.Name) else
++                  ("ok" if isinstance(e, ast.Constant) and e.value is True else None)
++                  for e in son.value.elts)
++    if None in adlar:
++        raise ValueError("son return ADLANDIRILAMADI: %s" % ast.dump(son.value)[:200])
++    return adlar
++
++
++# Okuyucunun kendisi iki yonde sinanir (YAPAY kaynak): erken cikis sayilmaz,
++# SON return okunur · adsiz eleman (cagri) REDDEDILIR — sessizce yanlis ad vermez.
++_yapay = "def f(Y):\n    if not Y:\n        return [], [], False\n    return a, b, True, c\n"
++assert alanlar4(_yapay) == ("a", "b", "ok", "c"), alanlar4(_yapay)
++try:
++    alanlar4("def f():\n    return a, g(x)\n")
++    raise SystemExit("OKUYUCU adsiz elemani YUTTU — negatif kontrol kaldi")
++except ValueError:
++    pass
++try:
++    ALANLAR4 = alanlar4(inspect.getsource(denetle.degismez4))
++except ValueError as h:
++    raise SystemExit("degismez4 %s" % h)
++GEREKEN = ("ihlal", "kunyesiz", "asan", "once")       # bu sinavin OKUDUGU alanlar
++eksik = [a for a in GEREKEN if a not in ALANLAR4]
++if eksik:
++    raise SystemExit("degismez4 artik %s DONDURMUYOR — sinav anlamini yitirdi" % eksik)
++print("\n    degismez4 alanlari (kaynaktan): %s" % (ALANLAR4,))
+ 
+ 
+ def d4(kume):
+     r = denetle.degismez4(kume)
+     if not isinstance(r, tuple) or len(r) != len(ALANLAR4):
+-        raise SystemExit("degismez4 DONUS YAPISI DEGISTI: %r" % (type(r),))
+-    return {a: (len(v) if isinstance(v, list) else v) for a, v in zip(ALANLAR4, r)}
++        raise SystemExit("degismez4 DONUS YAPISI KAYNAKLA UYUSMUYOR: %s != %d"
++                         % (len(r) if isinstance(r, tuple) else type(r), len(ALANLAR4)))
++    return {a: (len(v) if isinstance(v, (list, dict)) else v) for a, v in zip(ALANLAR4, r)}
+ 
+ 
+ print("\n(3) TABAN")
+@@ -114,6 +152,14 @@ for y in Y2:
+     y["s"] = copy.deepcopy(m["s"])
+     uygulanan += 1
+ print("    bellekte uygulanan: %d / %d" % (uygulanan, len(MANDA)))
++# W32: yama bugun VERIDE (`irak-kralligi` 1921-08-23 donemi canli veride var).
++# Kac kaydin `s`i yamayla BIREBIR ayni — kalan fark yamadan SONRAKI duzeltmelerdir
++# (ör. Bagdat M-2133); yamayi yeniden uygulamak onlari GERI ALIR.
++yI = {y.get("ad"): y for y in Y}
++ayni = sum(1 for r in MANDA if r.get("ad") in yI and yI[r["ad"]].get("s") == r.get("s"))
++canli = sum(1 for y in Y for p in y.get("s", []) if p.get("d") == KIMLIK and p.get("f") == GUN)
++print("    veride zaten: %d donem `%s` %s · yamayla birebir ayni `s`: %d / %d"
++      % (canli, KIMLIK, GUN, ayni, len(MANDA)))
+ if uygulanan == 0:
+     raise SystemExit("SIFIR UYGULANDI — ad eslesmesi tutmadi")
+ 
+diff --git a/denetim/SINAV-KOSU8-ENKLAV-0907.py b/denetim/SINAV-KOSU8-ENKLAV-0907.py
+index f22402e3..dec73abf 100644
+--- a/denetim/SINAV-KOSU8-ENKLAV-0907.py
++++ b/denetim/SINAV-KOSU8-ENKLAV-0907.py
+@@ -47,7 +47,35 @@ import subprocess
+ import sys
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+-TABAN_COMMIT = "d041a08"
++# W32 (6 Ekim): ESKI SABITLER `TABAN_COMMIT = "d041a08"` + baslıktaki 660/661
++# BAYATLADI — tavan 660 → 731'e yürüdü ve d041a08'in `data/`sı bugünkü
++# `girdi.py`nin okudugu 93 dosyanın çogunu TASIMIYOR ⇒ taban hiç kurulamıyor,
++# alet "ÖLÇÜLEMEDİ … ADLANDIRILAMADI" deyip 1 dönüyordu. Ikisi de artık ÖLÇÜLÜR:
++#   · tavan = `denetle.BEKLENEN_ENKLAV_SORGU`nun bugünkü degeri (kaynaktan)
++#   · taban commit'i = o sayının SON DEGİSTİGİ commit (git log -G + ebeveyn
++#     karsılastırması; yalnız yorumu degistiren commit sayılmaz)
++TABAN_COMMIT = None
++TAVAN = None
++SABIT_RX = r"^BEKLENEN_ENKLAV_SORGU = (\d+)"
++
++
++def _sabit(kaynak):
++    import re
++    m = re.search(SABIT_RX, kaynak, re.M)
++    return int(m.group(1)) if m else None
++
++
++def taban_commit_bul():
++    u"""Tavanın SAYISININ son degistigi commit — (kısa sha, deger) ya da (None, hata)."""
++    p = subprocess.run(["git", "log", "--format=%h", "-G", "^BEKLENEN_ENKLAV_SORGU = ",
++                        "--", "arac/denetle.py"], cwd=KOK, capture_output=True, timeout=300)
++    for c in p.stdout.decode("ascii", "replace").split():
++        v = [subprocess.run(["git", "show", "%s:arac/denetle.py" % r], cwd=KOK,
++                            capture_output=True, timeout=300).stdout.decode("utf-8", "replace")
++             for r in (c, c + "^")]
++        if _sabit(v[0]) is not None and _sabit(v[0]) != _sabit(v[1]):
++            return c, _sabit(v[0])
++    return None, "tavanı degistiren commit bulunamadı"
+ GECICI = os.path.join(
+     os.environ.get("TEMP", os.path.join(KOK, "..")),
+     "_enklav_taban_0907")
+@@ -96,6 +124,7 @@ def taban_kur():
+                     os.path.join(GECICI, "arac"),
+                     ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
+     tar = os.path.join(GECICI, "_taban.tar")
++    global BOS_SAYILAN
+     with io.open(tar, "wb") as f:
+         p = subprocess.run(["git", "archive", TABAN_COMMIT, "data"],
+                            cwd=KOK, stdout=f, stderr=subprocess.PIPE,
+@@ -106,12 +135,34 @@ def taban_kur():
+                         capture_output=True, timeout=900)
+     if p2.returncode != 0:
+         return p2.stderr.decode("utf-8", "replace")[-300:]
++    # Bugünkü girdi listesinde olup tabanda HENÜZ olmayan dosya: o gün o veri
++    # YOKTU ⇒ bos dizi olarak konur (girdi.py eksik dosyada çöker). ADIYLA basılır.
++    sys.path.insert(0, os.path.join(KOK, "arac"))
++    import girdi
++    BOS_SAYILAN = []
++    for ad in girdi.GIRDI_DOSYALARI:
++        yol = os.path.join(GECICI, "data", ad)
++        if not os.path.exists(yol):
++            with io.open(yol, "w", encoding="utf-8") as f:
++                f.write("window.YERLESIMLER_W32_BOS = [];\n")
++            BOS_SAYILAN.append(ad)
+     return None
+ 
+ 
++BOS_SAYILAN = []
++
++
+ def main():
+     print("═" * 78)
+-    print("ENKLAV 661/660 — «+1» HANGİ KAYIT?")
++    global TABAN_COMMIT, TAVAN
++    with io.open(os.path.join(KOK, "arac", "denetle.py"), encoding="utf-8") as f:
++        TAVAN = _sabit(f.read())
++    TABAN_COMMIT, deger = taban_commit_bul()
++    if TABAN_COMMIT is None or TAVAN is None or deger != TAVAN:
++        print("⚫ ÖLÇÜLEMEDİ — tavan %r · taban commit %r (%r)" % (TAVAN, TABAN_COMMIT, deger))
++        return 2
++    print("ENKLAV TAVAN %d — tavanın kondugu %s'den bugüne HANGİ KAYITLAR?"
++          % (TAVAN, TABAN_COMMIT))
+     print("═" * 78)
+     print("")
+ 
+@@ -142,7 +193,7 @@ def main():
+     print("   yerleşim %d · sorgusuz enklav %d" % (bugun["Y"], bugun["n"]))
+     print("")
+ 
+-    print("③ TABAN (%s · 5 Eylül 23:07 · BEKLENEN=660 buradan)" % TABAN_COMMIT)
++    print("③ TABAN (%s · BEKLENEN=%d bu commit'te kondu)" % (TABAN_COMMIT, TAVAN))
+     hata = taban_kur()
+     if hata:
+         print("   ⚫ ÖLÇÜLEMEDİ — taban kurulamadı: %s" % hata)
+@@ -154,6 +205,9 @@ def main():
+         print("   ⚠️ Bu «temiz» değil: `+1` ADLANDIRILAMADI.")
+         return 1
+     print("   yerleşim %d · sorgusuz enklav %d" % (taban["Y"], taban["n"]))
++    if BOS_SAYILAN:
++        print("   tabanda henüz OLMAYAN girdi dosyası (boş sayıldı): %s"
++              % ", ".join(BOS_SAYILAN))
+     print("")
+ 
+     print("④ FARK")
+@@ -180,9 +234,12 @@ def main():
+     print("   KAPANAN    : %d" % len(kapanan))
+     for r in kapanan:
+         print("      🟢 %s" % str(r)[:400])
+-    if not yeni and not kapanan and bugun["n"] != taban["n"]:
+-        print("   🔴 HÂLÂ ÇELİŞİK — kayıt alanları farkı taşımıyor.")
+-        print("      Bu bir ÖLÇÜM DEĞİL: `ölçülemedi` sayılır.")
++    # W32: iç tutarlılık SINAVDIR, yorum degil — çokluk kümesinde
++    # net = yeni − kapanan ARİTMETİK olarak zorunludur; tutmuyorsa ölçülemedi.
++    if bugun["n"] - taban["n"] != len(yeni) - len(kapanan):
++        print("   🔴 ÇELİŞİK — net %+d ama yeni %d − kapanan %d. `ölçülemedi`."
++              % (bugun["n"] - taban["n"], len(yeni), len(kapanan)))
++        return 2
+     print("")
+     print("─" * 78)
+     print("⚠️ Net fark `+1` olsa bile YENİ ve KAPANAN ayrı sayılır:")

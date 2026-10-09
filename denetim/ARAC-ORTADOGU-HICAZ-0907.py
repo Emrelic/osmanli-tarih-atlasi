@@ -19,7 +19,7 @@ import sys
 import tempfile
 import importlib.util as _ilu
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
 

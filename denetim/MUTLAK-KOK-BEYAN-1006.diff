@@ -1,0 +1,76 @@
+diff --git a/denetim/ARAC-B-ENKLAV-CIZ-0912.py b/denetim/ARAC-B-ENKLAV-CIZ-0912.py
+index 92b5ea84..e051e68f 100644
+--- a/denetim/ARAC-B-ENKLAV-CIZ-0912.py
++++ b/denetim/ARAC-B-ENKLAV-CIZ-0912.py
+@@ -1,4 +1,5 @@
+ # -*- coding: utf-8 -*-
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\… (LOG)
+ """ENKLAV DAĞILIMI — grafik. Veriyi KENDİ KOŞUMUN ÇIKTISINDAN okuyor.
+ 
+ 🔴 Sayılar elle yazılmadı: `tasks/b3ly9wsgt.output` (bu oturumun 10 dakikalık
+diff --git a/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py b/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py
+index 66e50256..2b626aa5 100644
+--- a/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py
++++ b/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py
+@@ -1,3 +1,4 @@
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR (govde modülünü oradan içe aktarır, PNG'yi oraya yazar), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
+ """py ciz.py <id> <gun> la0 la1 lo0 lo1 -> scratchpad/ciz-<id>.png (gövdeler yarı saydam, binme koyu, noktalar)"""
+ import json, sys, os, io, contextlib
+ sys.path.insert(0, 'C:/Users/emrem/AppData/Local/Temp/claude/C--atlas/44714e9d-a694-4c62-bbc0-2660851ade3d/scratchpad')
+diff --git a/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py b/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py
+index e5b0c7b9..38e40c50 100644
+--- a/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py
++++ b/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py
+@@ -1,3 +1,4 @@
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR (.ofs önbelleği), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
+ """GÖVDE SORGUSU — düşük bellek (mmap + halka ofset dizini).
+ 
+   py govde.py <GUN> <lat1> <lon1> <lat2> <lon2> [--noktalar]
+diff --git a/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py b/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py
+index 75b930a8..72d45156 100644
+--- a/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py
++++ b/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py
+@@ -1,3 +1,4 @@
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur (govde modülünü oradan içe aktarır), bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\44714e9d-a694-4c62-bbc0-2660851ade3d\scratchpad
+ """py toplu.py vakalar.json -> her vaka için katman km², binme (OSM-içi ve isg∩OSM hariç), boyanmayan kara.
+ vakalar.json: [[id, gun, la0, la1, lo0, lo1], ...]  (GEOMETRI-0916 biçimi)"""
+ import json, sys, math
+diff --git a/denetim/HARITA-0076-cevap-yaz.py b/denetim/HARITA-0076-cevap-yaz.py
+index 01eee534..70aa7dd3 100644
+--- a/denetim/HARITA-0076-cevap-yaz.py
++++ b/denetim/HARITA-0076-cevap-yaz.py
+@@ -1,4 +1,5 @@
+ # -*- coding: utf-8 -*-
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur ve YAZAR, bu makinede koşamaz: C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json
+ """HARITA-0076 — kendi 19 maddesinin hükmünü CEVAP.json'a İŞLER.
+ 
+ Sekiz oturum aynı dosyaya yazacağı için kör `json.dump` yapmaz:
+diff --git a/denetim/SINIR-CIZGI-0076-geri-oku.py b/denetim/SINIR-CIZGI-0076-geri-oku.py
+index 1029bb86..81228e3f 100644
+--- a/denetim/SINIR-CIZGI-0076-geri-oku.py
++++ b/denetim/SINIR-CIZGI-0076-geri-oku.py
+@@ -1,4 +1,5 @@
+ # -*- coding: utf-8 -*-
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\68bd1d7f-e7f4-4083-abc8-fab2c56f3252\scratchpad (teslim.txt)
+ """Teslim mesajini tahta.json'dan GERI OKU (ORTAK-0076 §6 madde 5)."""
+ import json, sys, io
+ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+diff --git a/denetim/SINIR-CIZGI-0076-supurge.py b/denetim/SINIR-CIZGI-0076-supurge.py
+index d9922c2c..37b4d289 100644
+--- a/denetim/SINIR-CIZGI-0076-supurge.py
++++ b/denetim/SINIR-CIZGI-0076-supurge.py
+@@ -1,4 +1,5 @@
+ # -*- coding: utf-8 -*-
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yolunu okur, bu makinede koşamaz: C:\claudemre\kutu\giden\parti-emrelic-0076\PARTI.md
+ """TASNIFSIZ SUPURGESI — PARTI.md ## H- basliklari ile SEVK-0076.md sekiz listesini karsilastirir."""
+ import re, collections, sys
+ 
+diff --git a/denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py b/denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py
+index 3e862691..5d86c508 100644
+--- a/denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py
++++ b/denetim/SINIR-D-ORTADOGU-0077-komsu-devir.py
+@@ -1,3 +1,4 @@
++# 🔴 BEYAN (UMIT-W56e, 6 Eki 2026): başka makinenin yoluna YAZAR, bu makinede koşamaz: C:\Users\emrem\AppData\Local\Temp\claude\C--atlas\2b76af78-4cc3-4c79-923c-4dd8852804bd\scratchpad\yeni_kayitlar.json
+ # SINIR-D-ORTADOGU-0077 — devralınacak manda hatlarının C kayıtları (taslak üretici)
+ import json, math, sys
+ sys.stdout.reconfigure(encoding="utf-8")

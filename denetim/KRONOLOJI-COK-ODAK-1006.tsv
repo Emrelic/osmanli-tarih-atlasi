@@ -1,0 +1,225 @@
+﻿dosya	sira	t	b	taraflar	karar	ayrinti
+kronoloji_cin.js	6	1313-01-01	Konfüçyüsçü sınav sistemi (keju) yeniden ilan edildi	yuan-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["yuan-hanedani"]}
+kronoloji_cin.js	7	1313-01-01	Wang Zhen'in Nong Shu (Tarım Kitabı) tamamlandı	yuan-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["yuan-hanedani"]}
+kronoloji_cin.js	13	1370-01-01	İmparatorluk sınav sistemi Ming altında yeniden düzenlendi	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["ming-hanedani"]}
+kronoloji_cin.js	15	1381-01-01	Sarı Kayıtlar ve Lijia hane sistemi kuruldu	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["ming-hanedani"]}
+kronoloji_cin.js	19	1403-01-01	Yongle Ansiklopedisi'nin derlenmesi başladı	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["ming-hanedani"]}
+kronoloji_cin.js	20	1406-01-01	Ming, Đại Ngu'yu (Vietnam) işgal etti	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_kimlik": ["ho-hanedani"]}
+kronoloji_cin.js	22	1414-01-01	Zheng He'nin dördüncü seferi Hürmüz ve Doğu Afrika'ya ulaştı	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Hürmüz Adası", "Mekke", "Mogadişu", "Malindi"]}
+kronoloji_cin.js	25	1424-08-12	Yongle, Moğol seferinde döneşte öldü	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf E · önerisi {}
+kronoloji_cin.js	26	1427-01-01	Ming, Vietnam'dan çekildi — Lê hanedanı kuruldu	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Hanoi (Thăng Long)"]}
+kronoloji_cin.js	41	1581-01-01	Tek Kırbaç (Single Whip) vergi reformu genelleştirildi	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["ming-hanedani"]}
+kronoloji_cin.js	43	1592-01-01	Wu Cheng'en'in Batı'ya Seyahat'i (Xiyou Ji) yaygınlaştı	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["ming-hanedani"]}
+kronoloji_cin.js	44	1592-05-23	Japonya'nın Kore'yi işgali — Ming müdahale etti	ming-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_kimlik": ["joseon"]}
+kronoloji_cin.js	56	1645-07-21	Saç örgüsü (queue) fermanı yayımlandı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	63	1685-01-01	Dört gümrük limanı açıldı (Kanton · Xiamen · Ningbo · Şanghay)	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Kanton (Guangzhou)", "Amoy (Xiamen)", "Ningbo", "Şanghay"]}
+kronoloji_cin.js	67	1700-01-01	Çin Ayinleri Tartışması (Rites Controversy) doruğa çıktı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	68	1708-01-01	Kangxi Atlası için Cizvit haritalama seferi başladı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	69	1711-01-01	Kangxi toprak vergisi nüfusunu dondurdu	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	70	1716-01-01	Kangxi Sözlüğü yayımlandı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	76	1755-01-01	Qianlong'un Cungar seferleri başladı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_kimlik": ["cungar"]}
+kronoloji_cin.js	81	1782-01-01	Siku Quanshu (Dört Hazine Külliyatı) tamamlandı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	86	1796-02-01	Beyaz Lotus Ayaklanması başladı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Xiangyang", "Xi'an (Chang'an)"]}
+kronoloji_cin.js	101	1862-01-01	Kendini Güçlendirme Hareketi (Yangwu) başladı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	117	1899-10-18	Boksör Ayaklanması yayılmaya başladı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Jinan", "Yantai (Chefoo)"]}
+kronoloji_cin.js	120	1901-01-29	Yeni Politikalar (Xinzheng) reformları ilan edildi	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_cin.js	121	1905-09-02	İmparatorluk sınav sistemi (keju) kaldırıldı	qing-hanedani	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["qing-hanedani"]}
+kronoloji_hindistan.js	26	1542-01-01	Şîr Şah Sûrî Delhi-Bengal karayolunu (bugünkü Grand Trunk Road) yeniden imar etti		TARAFSIZ	
+kronoloji_hindistan.js	30	1564-01-01	Ekber Şah gayrimüslimlerden alınan cizyeyi kaldırdı	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["babur-imparatorlugu"]}
+kronoloji_hindistan.js	36	1579-06-22	Ekber Şah Mahzar Fermanı'nı yayımladı	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["babur-imparatorlugu"]}
+kronoloji_hindistan.js	38	1590-01-01	Ebü'l-Fazl, Âîn-i Ekberî'yi tamamladı	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["babur-imparatorlugu"]}
+kronoloji_hindistan.js	40	1600-12-31	İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla kuruldu	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf A · önerisi {"yer_id": "Londra"}
+kronoloji_hindistan.js	55	1679-04-02	Evrengzîb gayrimüslimlerden cizyeyi yeniden koydu	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["babur-imparatorlugu"]}
+kronoloji_hindistan.js	113	1499-01-01	Guru Nanak, Sihizm'in temellerini attı		TARAFSIZ	
+kronoloji_hindistan.js	122	1630-01-01	Dekken'de büyük kıtlık başladı	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Burhânpûr", "Ahmednagar", "Bîdar"]}
+kronoloji_hindistan.js	129	1770-01-01	Büyük Bengal Kıtlığı başladı	babur-imparatorlugu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Kalküta", "Gaur (Lakhnautî)", "Sonârgâon"]}
+kronoloji_japonya.js	16	1588-08-29	Hideyoshi "Kılıç Avı" fermanını çıkardı	azuchi-momoyama	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["azuchi-momoyama"]}
+kronoloji_japonya.js	22	1614-01-27	Tokugawa şogunluğu Hıristiyanlığı tamamen yasakladı	edo-bakufu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["edo-bakufu"]}
+kronoloji_japonya.js	26	1639-07-05	"Sakoku" fermanıyla ülke neredeyse tamamen dışa kapatıldı	edo-bakufu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["edo-bakufu"]}
+kronoloji_japonya.js	33	1782-01-01	Tenmei Kıtlığı başladı	edo-bakufu	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Sendai", "Morioka", "Hirosaki"]}
+kronoloji_japonya.js	44	1872-08-03	Gakusei (Eğitim Sistemi) fermanıyla zorunlu ilköğretim getirildi	meiji-japonya	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["meiji-japonya"]}
+kronoloji_japonya.js	68	1918-08-03	Pirinç Ayaklanmaları ülke çapına yayıldı	meiji-japonya	HARIC-ODAK-ASYA	ODAK-ASYA sınıf B · önerisi {"odak_yer": ["Edo (Tokyo)", "Osaka", "Kumamoto", "Sendai"]}
+kronoloji_misir.js	86	1841-02-25	Mısır ordusunun Suriye ve Çukurova'yı boşaltması	misir-kavalali	YAZ	odak_kimlik:["misir-kavalali"]
+kronoloji_misir.js	93	1861-06-01	Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması	misir-kavalali	YAZ	odak_kimlik:["misir-kavalali"]
+kronoloji_anadolu.js	4	1277-11-01	Mehmed Bey, Moğollara karşı İç İl'de savaşırken öldü	karaman	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	5	1281-01-01	Güneri Bey beyliğin başına geçti	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	9	1307-01-01	Mahmud Bey öldü	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	18	1361-01-01	Süleyman Bey akrabaları tarafından öldürüldü, Alâeddin Bey iktidara geçti	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	24	1391-01-01	Yıldırım Bayezid ile barış; batı toprakları bırakıldı	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	27	1402-07-28	Ankara Savaşı sonrası Timur, Alâeddin'in oğullarına toprakları geri verdi		TARAFSIZ	
+kronoloji_anadolu.js	36	1442-01-01	Macar saldırılarıyla eşzamanlı akın; II. Murad karşılık verdi	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	37	1444-08-01	İbrâhim Bey ile II. Murad arasında antlaşma; Osmanlı üstünlüğü kabul edildi	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	40	1465-01-01	Pîr Ahmed, Osmanlı desteğiyle kardeşi İshak'ı yenip beyliğin tamamına hâkim oldu	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	43	1474-01-01	Osmanlı seferi dağlık ve kıyı bölgeleri de tam denetime aldı	karaman	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	44	1483-01-01	Kasım Bey öldü; İç İl'de Turgutoğlu Mahmud bey seçildi	karaman	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	46	1380-01-01	Alâeddin Bey'in siparişiyle Yârcânî "Karamannâme"yi kaleme aldı	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	47	1400-01-01	Bölge tahıl, yün, deri, halı ve at ihraç ediyordu	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	48	1350-01-01	Türkmen oymak konfederasyonlarına dayanan toplumsal yapı	karaman	YAZ	odak_kimlik:["karaman"]
+kronoloji_anadolu.js	53	1080-01-01	Fetih sonrası nüfus ve iskân politikası	selcuklu	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	70	1140-01-01	İlk Selçuklu parasının basılması	selcuklu	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	83	1202-01-01	II. Süleyman Şah'ın Gürcistan seferi	selcuklu	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	93	1216-06-01	Çukurova Ermeni Krallığı ile tâbiiyet antlaşması	selcuklu	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	97	1223-01-01	Venedik ve Kıbrıs Frankları ile ticarî antlaşmalar	selcuklu	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	110	1240-01-01	Babaîler İsyanı	selcuklu	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	138	1063-01-01	Artuk Bey Sultan Alparslan'ın hizmetine girdi		TARAFSIZ	
+kronoloji_anadolu.js	175	1350-01-01	Dicle üzerindeki köprüler ticaret yolunu güvence altına aldı	artuklu	YAZ	odak_kimlik:["artuklu"]
+kronoloji_anadolu.js	186	1343-01-01	Halep kervanı Dulkadır topraklarında soyuldu	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	188	1379-01-01	Ayas Savaşı'nda Memlükler yenildi	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	191	1386-01-01	Halil Bey hançerlenerek öldürüldü	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	192	1395-01-01	Sevli Bey, Memlük Sultanı Berkuk'un emriyle öldürüldü	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	193	1399-01-01	Yıldırım Bayezid desteğiyle Nasîrüddin Mehmed Bey tahta çıktı	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	196	1440-01-01	Mehmed Bey'in kızı Memlük Sultanı Çakmak ile evlendirildi	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	197	1442-01-01	Nasîrüddin Mehmed Bey vefat etti, Süleyman Bey tahta çıktı	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	199	1450-01-01	Sitti Hatun, Şehzade Mehmed ile evlendirildi	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	200	1454-01-01	Süleyman Bey öldü, Melik Arslan Bey tahta çıktı	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	203	1472-01-01	Şehsuvar Bey Memlükler tarafından idam edildi	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	204	1480-01-01	Alâüddevle Bozkurt Bey, kardeşi Şahbudak'ı yenerek tahta çıktı	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	211	1514-01-01	Alâüddevle Çaldıran seferine asker göndermedi	dulkadir	YAZ	odak_kimlik:["dulkadir"]
+kronoloji_anadolu.js	213	1515-06-13	Şehsuvaroğlu Ali Bey Osmanlı'ya tâbi oldu	dulkadir	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	214	1516-08-24	Ali Bey Mercidâbık Savaşı'na katıldı	dulkadir	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	215	1517-01-22	Ali Bey Ridâniye Savaşı'na katıldı, Memlük Sultanlığı sona erdi	dulkadir	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	216	1519-01-01	Bozoklu Şeyh Celâl isyanının bastırılmasına katkı	dulkadir	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	217	1521-01-27	Canbirdi Gazâlî isyanının bastırılmasına katkı	dulkadir	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	227	1341-06-15	Umur Bey'in Kantakuzenos'un başlıca destekçisi olması	aydin	YAZ	odak_kimlik:["aydin"]
+kronoloji_anadolu.js	228	1342-01-01	Umur Bey'in 380 gemi ve 20.000 askerle Trakya seferi	aydin	YAZ	odak_kimlik:["aydin"]
+kronoloji_anadolu.js	239	1390-01-01	İsa Bey'in Yıldırım Bayezid'e tabi olması, ilk ilhak		TARAFSIZ	
+kronoloji_anadolu.js	241	1402-07-28	Ankara Savaşı sonrası Timur'un toprakları iadesi, yeniden kuruluş		TARAFSIZ	
+kronoloji_anadolu.js	242	1403-01-01	Musa Bey'in ölümü, II. Umur'un cülûsu	aydin	YAZ	odak_kimlik:["aydin"]
+kronoloji_anadolu.js	243	1405-01-01	II. Umur'un ölümü, Cüneyd Bey'in tek başına hâkimiyeti	aydin	YAZ	odak_kimlik:["aydin"]
+kronoloji_anadolu.js	245	1419-01-01	Cüneyd Bey'in Düzmece Mustafa isyanına katılması	aydin	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	246	1422-01-01	Cüneyd Bey'in II. Murad'a destek sözüyle beyliği yeniden ele geçirmesi	aydin	YAZ	odak_kimlik:["aydin"]
+kronoloji_anadolu.js	248	1425-06-01	Cüneyd Bey'in yakalanıp idam edilmesi, kesin Osmanlı ilhakı	aydin	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	251	1219-01-01	I. Levon öldü, Zabel'in tahtı büyük bir veraset krizine yol açtı	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	252	1226-01-01	Hetum I kral oldu, Hetumid hanedanı başladı	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	253	1226-06-01	Sis ve Tarsus darphaneleri gümüş dram sikkelerini bastı	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	254	1243-01-01	Moğol kumandanı Baycu ile ön anlaşma	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	256	1251-01-01	Korikos deniz kalesi Hetum I döneminde genişletildi	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	258	1256-01-01	Toros Roslin'in ilk imzalı minyatürlü İncil'i	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	259	1260-01-01	Ayn Câlût sonrası Memlük akınları başladı		TARAFSIZ	
+kronoloji_anadolu.js	260	1260-06-01	Sparapet Sempat, Antakya hukuk kodeksini Ermeniceye çevirdi	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	261	1266-08-24	Mari Bozgunu — Memlük akını Kilikya'yı yakıp yıktı	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	262	1270-10-28	Hetum I öldü, III. Levon tahta çıktı	kilikya-ermeni	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_anadolu.js	263	1289-01-01	III. Levon zehirlendi, II. Hetum tahta geçti	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	264	1293-04-01	II. Hetum tahttan çekildi, Fransisken keşiş oldu	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	265	1296-01-01	Sempat, kardeşlerini alaşağı etti: Toros boğduruldu, Hetum kör edildi	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	269	1308-01-01	Adana Konsili: 1307 kilise birliği reddedildi	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	270	1308-06-01	Oşin, Bilarga'yı yenip tahta çıktı	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	271	1320-07-20	Oşin öldü, IV. Levon tahta geçti	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	273	1325-01-01	Ayas limanı yeniden inşa edildi	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	274	1337-01-01	Ayas limanı Memlüklerin eline geçti	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	276	1342-01-01	Guy de Lusignan, II. Konstantin adıyla taç giydi	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	277	1344-04-17	II. Konstantin bir ayaklanmada öldürüldü	kilikya-ermeni	YAZ	odak_kimlik:["kilikya-ermeni"]
+kronoloji_anadolu.js	279	1375-06-01	Kilikya Ermenilerinin Kıbrıs'a göçü		TARAFSIZ	
+kronoloji_anadolu.js	280	1382-10-01	VI. Levon Kahire esaretinden fidyeyle kurtuldu		TARAFSIZ	
+kronoloji_arabistan.js	4	1567-01-01	Mutahhar isyanı — Yemen ikiye bölündü	yemen-zeydi	YAZ	odak_kimlik:["yemen-zeydi"]
+kronoloji_arabistan.js	6	1608-01-01	İmam Kāsım b. Muhammed ile on yıllık antlaşma	yemen-zeydi	YAZ	odak_kimlik:["yemen-zeydi"]
+kronoloji_arabistan.js	7	1619-01-01	Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma	yemen-zeydi	YAZ	odak_kimlik:["yemen-zeydi"]
+kronoloji_arabistan.js	10	1630-08-01	Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma	yemen-zeydi	YAZ	odak_kimlik:["yemen-zeydi"]
+kronoloji_arabistan.js	13	1681-01-01	Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası	yemen-zeydi	YAZ	odak_kimlik:["yemen-zeydi"]
+kronoloji_arabistan.js	17	1889-01-01	Zeydîler isyan etti	yemen-zeydi	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_arabistan.js	18	1895-01-01	Hüseyin Hilmi Paşa isyanı bastırdı	yemen-zeydi	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_arabistan.js	25	1507-01-01	Portekiz, Uman kıyı şehirlerini işgale başladı		TARAFSIZ	
+kronoloji_arabistan.js	34	1728-01-01	İç savaş sona erdi, II. Seyf'in imameti kabul edildi	umman	YAZ	odak_kimlik:["umman"]
+kronoloji_arabistan.js	36	1749-06-10	Bû Saîd hanedanı resmen kuruldu		TARAFSIZ	
+kronoloji_arabistan.js	47	1856-01-01	Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü		TARAFSIZ	
+kronoloji_arabistan.js	48	1862-01-01	Zengibar ve Uman ayrı devletler olarak tanındı		TARAFSIZ	
+kronoloji_arabistan.js	54	1691-01-01	Muhammed b. Berrâk, Necid'e akınlarını sürdürdü		TARAFSIZ	
+kronoloji_balkan.js	0	1356-01-01	Balšić ailesi Sırp Krallığı'nın dağılmasında bağımsızlaştı		TARAFSIZ	
+kronoloji_balkan.js	1	1385-01-01	Osmanlı ile ilk çarpışma		TARAFSIZ	
+kronoloji_balkan.js	2	1421-01-01	Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı	zeta	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	3	1451-01-01	Crnojević ailesi Zeta'nın başına geçti	zeta	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	4	1465-01-01	İvan Crnojević Zeta hükümdarı oldu	zeta	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	7	1482-06-01	Stanko Crnojević İstanbul'a gönderildi, İslam'a girip İskender Bey oldu	zeta	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	9	1490-01-01	Đurađ Crnojević babasının yerine geçti	zeta	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	12	1496-01-01	Đurađ Crnojević Venedik'e kaçtı, kardeşi Stefan Osmanlı'nın eline geçti	zeta	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	14	1514-01-01	İskender Bey yönetiminde Karadağ ayrı bir sancak olarak kuruldu — Zeta'nın sonu		TARAFSIZ	
+kronoloji_balkan.js	15	1528-01-01	İskender Bey öldü, Karadağ Sancağı İşkodra'ya bağlı özerk birim oldu	karadag	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	16	1530-01-01	Karadağ'ın vergi düzeni: maktû sistem ve tuz madenlerinde angarya	karadag	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	17	1614-01-01	Karadağ'ın Osmanlı dönemi nüfus ve idari yapısı: beş nahiye, doksan köy	karadag	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	18	1683-09-12	II. Viyana bozgunu Karadağ-Osmanlı ilişkisinin dönüm noktası oldu	karadag	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	19	1688-01-01	Karadağlılar Venedik himayesine girdi	karadag	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	23	1711-01-01	Rusya Karadağ'a elçi gönderip Osmanlı'ya karşı kışkırttı	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	25	1718-07-21	Pasarofça Antlaşması — Karadağ'da geçici sükûnet	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	26	1785-01-01	Buşatlı Kara Mahmud Paşa Karadağ'ı tam kontrol altına almaya girişti	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	27	1795-01-01	Kara Mahmud Paşa Kruse Savaşı'nda öldü, doğu Zeta kabileleri Karadağ'a katıldı	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	31	1838-01-01	Grahova tarafsız bölge ilan edildi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	32	1847-02-01	Njegoš'un 'Dağlar Tacı' (Gorski vijenac) Viyana'da basıldı	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	34	1852-06-01	Ömer Paşa'nın Karadağ seferi ve Avusturya'nın müdahalesi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	35	1853-03-01	Sınırların mevcut durumuyla teyidi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	36	1856-03-30	Paris Kongresi'nde bağımsızlık talebi reddedildi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	37	1858-05-13	Grahova Savaşı — Osmanlı kuvvetleri yenildi		TARAFSIZ	
+kronoloji_balkan.js	38	1859-01-01	İstanbul'da Grahova'nın Karadağ'a bırakılması kabul edildi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	39	1862-04-01	Hersek isyanını destekleyen Karadağ'a Osmanlı iki koldan girdi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	40	1876-06-30	Sırbistan'ın müttefiki olarak Osmanlı'ya savaş ilan etti	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	41	1876-07-18	Vučji Do Savaşı — Osman ve Selim Paşa'nın esir düşmesi	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	43	1878-03-03	Ayastefanos Antlaşması — bağımsızlık ilk kez tanındı	karadag	COZULMEDI	o gün yalnız 1 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	45	1878-08-01	Bağımsızlık sonrası Müslüman göçü hızlandı	karadag	YAZ	odak_kimlik:["karadag"]
+kronoloji_balkan.js	48	1912-08-01	Karadağ-Bulgaristan ittifakı imzalandı	karadag	YAZ	odak_kimlik:["karadag"]
+kronoloji_balkan.js	49	1912-10-06	Karadağ-Sırbistan ittifakı imzalandı	karadag	YAZ	odak_kimlik:["karadag"]
+kronoloji_balkan.js	50	1912-10-08	Osmanlı'ya savaş ilan eden ilk Balkan devleti oldu — I. Balkan Savaşı başladı	karadag	YAZ	odak_kimlik:["karadag"]
+kronoloji_balkan.js	54	1230-03-09	Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı		TARAFSIZ	
+kronoloji_balkan.js	56	1277-01-01	İvaylo Ayaklanması — köylü çar	bulgar-carligi	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_balkan.js	57	1371-09-26	Çirmen (Meriç) Savaşı — Bulgar knezlikleri de Osmanlı vassalı oldu	bulgar-carligi	YAZ	odak_kimlik:["bulgar-carligi"]
+kronoloji_balkan.js	66	1688-09-01	Chiprovtsi (Kiprovça) İsyanı — Katolik Bulgarların ayaklanması		TARAFSIZ	
+kronoloji_balkan.js	67	1762-01-01	Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başlangıcı		TARAFSIZ	
+kronoloji_balkan.js	68	1835-01-02	Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu		TARAFSIZ	
+kronoloji_balkan.js	73	1876-05-02	Nisan İsyanı — Batak katliamı ve Avrupa kamuoyunun tepkisi		TARAFSIZ	
+kronoloji_balkan.js	75	1877-08-21	Şıpka Geçidi Savunması — Bulgar gönüllüleri ve Rus ordusu geçidi tuttu		TARAFSIZ	
+kronoloji_balkan.js	79	1878-07-13	Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu		TARAFSIZ	
+kronoloji_balkan.js	83	1885-11-14	Sırp-Bulgar Savaşı başladı	bulgaristan-prensligi	YAZ	odak_kimlik:["bulgaristan-prensligi"]
+kronoloji_balkan.js	84	1886-03-03	Bükreş Barışı — Sırp-Bulgar Savaşı sona erdi	bulgaristan-prensligi	YAZ	odak_kimlik:["bulgaristan-prensligi"]
+kronoloji_balkan.js	89	1912-10-08	Birinci Balkan Savaşı'na giriş		TARAFSIZ	
+kronoloji_balkan.js	92	1913-05-30	Londra Antlaşması — I. Balkan Savaşı sona erdi		TARAFSIZ	
+kronoloji_balkan.js	93	1913-06-29	İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı		TARAFSIZ	
+kronoloji_balkan.js	95	1913-08-10	Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi		TARAFSIZ	
+kronoloji_balkan.js	96	1915-10-14	Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi		TARAFSIZ	
+kronoloji_balkan.js	99	1919-11-27	Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi		TARAFSIZ	
+kronoloji_balkan.js	105	1390-06-01	Kral unvanının genişlemesi — Dalmaçya kıyı şehirlerinin alınışı	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	106	1391-01-01	Tvrtko I'in ölümü — taht kavgalarının başlaması		TARAFSIZ	
+kronoloji_balkan.js	107	1394-07-01	Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	108	1395-09-08	Kraliçe Jelena'nın seçilmesi — Bosna'nın tek kadın hükümdarı	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	109	1400-01-01	Stećci mezar taşları geleneğinin altın çağı	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	110	1404-01-01	Büyük Dük Hrvoje Vukčić Hrvatinić'in yükselişi — derebeylerin krallar üzerindeki gücü	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	111	1414-01-01	Osmanlı'ya ilk haraç kabulü		TARAFSIZ	
+kronoloji_balkan.js	112	1420-01-01	II. Tvrtko'nun ikinci ve kalıcı saltanatının başlaması	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	113	1428-01-01	Haracın pekiştirilmesi — Osmanlı garnizonlarının şehirlere yerleşmesi	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	114	1430-01-01	Ortodoks Sırp göçünün hızlanması — üç dinli bir krallık	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	115	1435-01-01	Stjepan Vukčić Kosača'nın fiilî özerkliği — krallığın parçalanması hızlanıyor	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	116	1443-01-01	Stjepan Tomaš'ın tahta çıkışı — Batı'ya yaslanma, Osmanlı'ya haraç birlikte	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	117	1448-01-20	Stjepan Vukčić Kosača'nın 'Herceg' unvanı — Hersek Dukalığı'nın doğuşu	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	118	1450-01-01	Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	119	1459-01-01	Bosna Kilisesi'nin tasfiyesi — Papalık baskısıyla zorunlu ihtida	bosna-kralligi	YAZ	odak_kimlik:["bosna-kralligi"]
+kronoloji_balkan.js	120	1461-11-01	Stjepan Tomašević'in tahta çıkışı — haracı reddedip Papalık'tan yardım istemesi		TARAFSIZ	
+kronoloji_balkan.js	123	1821-03-25	Mora İsyanı başladı	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	128	1827-07-06	Londra Protokolü imzalandı	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	131	1830-02-03	Bağımsızlığın Londra Protokolü ile tanınması		TARAFSIZ	
+kronoloji_balkan.js	133	1832-05-07	Otto'nun Yunanistan kralı seçilmesi	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	134	1832-07-21	İstanbul Antlaşması — Arta-Volos sınırının çizilmesi	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	136	1833-07-25	Yunan Kilisesi'nin özerkliğini ilan etmesi	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	148	1881-05-24	Tesalya'nın Yunanistan'a devri	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	152	1897-04-17	1897 Osmanlı-Yunan Savaşı'nın başlaması	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	161	1912-10-08	Balkan Savaşları'na giriş		TARAFSIZ	
+kronoloji_balkan.js	165	1913-05-30	Londra Antlaşması	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	166	1913-08-10	Bükreş Antlaşması		TARAFSIZ	
+kronoloji_balkan.js	170	1920-08-10	Sevr Antlaşması	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	175	1923-01-30	Nüfus mübadelesi sözleşmesinin imzalanması	yunanistan	YAZ	odak_kimlik:["yunanistan"]
+kronoloji_balkan.js	176	1923-07-24	Lozan Antlaşması'nın imzalanması		TARAFSIZ	
+kronoloji_dogu_afrika.js	6	1350-01-01	Ömerî'nin kaydettiği yedi müslüman emirlik ve aralarındaki bölünme	evfat	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_dogu_afrika.js	7	1372-01-01	Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı	evfat	COZULMEDI	o gün yalnız 0 yerleşim — kutu kurulamaz (≥2 şart)
+kronoloji_dogu_afrika.js	20	1530-01-01	Fatagar ve Evfât bölgelerinin fethi	adal	YAZ	odak_kimlik:["adal"]
+kronoloji_dogu_afrika.js	21	1531-01-01	Davâro ve Şüve eyaletlerinin fethi	adal	YAZ	odak_kimlik:["adal"]
+kronoloji_dogu_afrika.js	23	1532-01-01	Amhare ve Lasta'nın fethi	adal	YAZ	odak_kimlik:["adal"]
+kronoloji_dogu_afrika.js	24	1535-01-01	Tigre topraklarının fethi ve Lebna Dengel'in Portekiz'den yardım istemesi	adal	YAZ	odak_kimlik:["adal"]
+kronoloji_dogu_afrika.js	50	1434-01-01	Zar'a Ya'kūb dönemi — krallığın en geniş sınırları	habesistan	YAZ	odak_kimlik:["habesistan"]
+kronoloji_dogu_afrika.js	62	1558-01-01	Osmanlı ordusunun Tigre bölgesine hâkim olması	habesistan	YAZ	odak_kimlik:["habesistan"]
+kronoloji_dogu_afrika.js	103	1872-01-02	Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı	habesistan	YAZ	odak_kimlik:["habesistan"]
+kronoloji_guney_asya.js	73	1679-04-02	Evrengzîb cizyeyi yeniden koydu	babur-imparatorlugu,racput	HARIC-ODAK-ASYA	ODAK-ASYA sınıf C · önerisi {"odak_kimlik": ["babur-imparatorlugu"]}
+kronoloji_iran_ardillari.js	24	1302-04-12	Gāzân Han Papa VIII. Bonifacius'a mektup yazdı	ilhanli	YAZ	odak_kimlik:["ilhanli"]
+kronoloji_iran_ardillari.js	26	1303-08-01	Gāzân Han'ın toprak tahriri ve iktâ dağıtımı	ilhanli	YAZ	odak_kimlik:["ilhanli"]
+kronoloji_iran_ardillari.js	27	1300-01-01	Gāzân Han'ın vergi ve posta reformu — menzilhâneler	ilhanli	YAZ	odak_kimlik:["ilhanli"]
+kronoloji_iran_ardillari.js	41	1323-01-01	Memlüklerle barış antlaşması — altmış yıllık savaş bitti	ilhanli	YAZ	odak_kimlik:["ilhanli"]
+kronoloji_kuzeyafrika.js	23	1511-01-01	Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi		TARAFSIZ	
+kronoloji_kuzeyafrika.js	40	1610-01-01	Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü	sadi	YAZ	odak_kimlik:["sadi"]
+kronoloji_kuzeyafrika.js	42	1580-01-01	Osmanlı ordu teşkilâtı örnek alınarak reform	sadi	YAZ	odak_kimlik:["sadi"]
+kronoloji_kuzeyafrika.js	44	1595-01-01	Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu	sadi	YAZ	odak_kimlik:["sadi"]
+kronoloji_kuzeyafrika.js	81	1911-12-01	Enver Bey direniş karargâhını üstlendi		TARAFSIZ	

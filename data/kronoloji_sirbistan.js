@@ -189,7 +189,7 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:4, dunya:2, kapsam:"ic", etiket:["goc","din","konu-askeri","konu-din","konu-demografi"],
   yer_id:"",
   d:"Osmanlı-Avusturya savaşında (1683-1699) Habsburg tarafını tutan Sırplar, savaş Osmanlı lehine döndüğünde Osmanlı misillemesinden korkarak Patrik Arsenije III Crnojević önderliğinde Kosova ve çevresini terk edip kuzeye, Habsburg topraklarındaki Karlofça'ya göç etti (tahminen on binlerce aile). Göç, Kosova'nın etnik demografisini kalıcı biçimde değiştirdi ve modern Sırp-Arnavut anlaşmazlığının köklerinden biri sayılır.",
-  kaynak:"TDV `sirbistan`: 'Patrik Arsenije III. Crnojević, 1690 yılında büyük bir grupla Kosova'yı terkederek Karlofça'ya göç etti.' Gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
+  kaynak:"TDV `sirbistan`: 'Osmanlılar’ın rakiplerine destek veren Patrik Arsenije III. Crnojević, 1690 yılında büyük bir grupla (Sırp kaynaklarına göre yaklaşık 37.000 Sırp ailesiyle) Kosova’yı terkederek Karlofça’ya (Karlovci) göç etti ve Avusturya imparatorunun sağladığı imtiyazla burada dinî bir merkez kurdu.' Gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
 
 { t:"1739-09-18", b:"Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü", tur:"toprak-kazanc",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],

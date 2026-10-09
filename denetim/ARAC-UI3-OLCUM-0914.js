@@ -14,12 +14,19 @@ const GUNARG = ARG.indexOf("--gun") >= 0 ? ARG[ARG.indexOf("--gun") + 1] : null;
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
 const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1])
-  .filter(s => /olaylar|yerlesimler|devletler\.js|donemler\.js/.test(s)).forEach(yukle);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/)
+  .filter(s => /olaylar|yerlesimler|devletler\.js|donemler(_on|_ust)?\.js/.test(s)).forEach(yukle);
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+// W32b (6 Ekim): `donemler.js` 29 Eylül'de kodlandı — PETEKLER artık donemler_on.js,
+// DONEMLER donemler_ust.js (ikisi de index.html'de). Süzgeç eski adı arıyordu ⇒
+// PETEKLER/DONEMLER sessizce BOŞ geliyordu. Ad genişletildi; T1 boşluğu çıkış 2 yapar.
+const OK_KAPI = require("./OLCU-KAPISI-1006.js");
+OK_KAPI.girdi(W, { DONEMLER: "data/donemler_ust.js" });
 const Y = W.YERLESIMLER, KUNYE = W.DEVLETLER || [];
+IK.yerlesimKapisi(Y);
 const gunIdx = s => { const p = String(s).split("-"); return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5); };
 const olaylar = Object.keys(W).filter(k => /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), []).filter(o => o.kapsam !== "konu")

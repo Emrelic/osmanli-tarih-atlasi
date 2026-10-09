@@ -83,7 +83,7 @@ window.EKOKUMA_IBRAHIM = [
   not:"Sâlih Paşa'nın öldürülme sebebi kaynaklarda iki farklı biçimde anlatılır; kart ikisini de verir.",
   kesinlik:"tartismali",
   kaynak:"TDV: salih-pasa · ibrahim--padisah · hezarpare-ahmed-pasa · Volkan Çeribaş, \"Sultan İbrahim Döneminde Sadaretin İki Farklı Yüzü\", OTAM 51 (2022)",
-  ic_not:"GÜN ÇELİŞKİSİ: TDV salih-pasa '16 Şâban 1057 / 16 Eylül 1647'; TDV hezarpare-ahmed-pasa '17 Eylül 1647'de … katli' ⇒ okura yalnız 'Eylül 1647' yazıldı. 'Daha güçlü bulur' = TDV ibrahim--padisah'ın 'daha kuvvetli olduğu tahmin edilen bir diğer rivayet' ifadesi; TDV salih-pasa ise 'eğer doğruysa' der. Olayın kendi kronoloji maddesi YOK; kart padişahın hastalığını ve okunmaya gitmesini anlatan 1644-01-01 tartışma maddesine bağlandı (tema bağı, gün bağı değil)." },
+  ic_not:"GÜN ÇELİŞKİSİ: TDV salih-pasa '16 Şâban 1057 / 16 Eylül 1647'; TDV hezarpare-ahmed-pasa '17 Eylül 1647'de … katli' ⇒ okura yalnız 'Eylül 1647' yazıldı. 'Daha güçlü bulur' = TDV ibrahim--padisah'ın 'daha kuvvetli olduğu tahmin edilen bir diğer rivayete göre' ifadesi; TDV salih-pasa ise 'eğer doğruysa' der. Olayın kendi kronoloji maddesi YOK; kart padişahın hastalığını ve okunmaya gitmesini anlatan 1644-01-01 tartışma maddesine bağlandı (tema bağı, gün bağı değil)." },
 
 // ---------- 1647 · samur ----------
 { id:"ibrahim-samur-meraki-falci-hikayesi", tur:"magazin", kisi:["ibrahim"],
@@ -149,7 +149,7 @@ window.EKOKUMA_IBRAHIM = [
   not:"",
   kesinlik:"kesin",
   kaynak:"TDV: ibrahim--padisah · hezarpare-ahmed-pasa · Bekir Gökpınar, ETÜ Sosyal Bilimler Enstitüsü Dergisi 10 (2020) · Volkan Çeribaş, OTAM 51 (2022)",
-  ic_not:"Yûsuf Paşa: TDV ibrahim--padisah ('henüz dört yaşındaki kızıyla evlendirmiş olduğu Silâhdar Yûsuf Paşa', idam 5 Zilhicce 1055 / 22 Ocak 1646); Czernin'in rüşvet iddiası ve Sultanzâde Mehmed Paşa rekabeti karta alınmadı. Beyhan Sultan: TDV ibrahim--padisah 'Şubat 1648; TSMA E. 7112'; TDV hezarpare 'henüz iki yaşında olan kızı Beyhan Sultan'a namzet' (Eylül 1647); Çeribaş #564 'iki yaşındaki'. Genel ifade: Gökpınar #296. GÜN FARKI: TDV Hanya'nın teslimini 19 Ağustos 1645 verir, bağlı kronoloji maddesi 1645-08-22 — raporda. Bağ: 1645-08-22 üç madde taşır ⇒ ayırt edici." },
+  ic_not:"Yûsuf Paşa: TDV ibrahim--padisah ('henüz dört yaşındaki kızıyla evlendirmiş olduğu Silâhdar Yûsuf Paşa', idam 5 Zilhicce 1055 / 22 Ocak 1646); Czernin'in rüşvet iddiası ve Sultanzâde Mehmed Paşa rekabeti karta alınmadı. Beyhan Sultan: TDV ibrahim--padisah Şubat 1648; TSMA E. 7112; TDV hezarpare 'henüz iki yaşında olan kızı Beyhan Sultan'a namzet' [TDV: hezarpare-ahmed-pasa] (Eylül 1647); Çeribaş #564 'iki yaşındaki'. Genel ifade: Gökpınar #296. GÜN FARKI: TDV Hanya'nın teslimini 19 Ağustos 1645 verir, bağlı kronoloji maddesi 1645-08-22 — raporda. Bağ: 1645-08-22 üç madde taşır ⇒ ayırt edici." },
 
 // ---------- 1648 · Hezarpâre ----------
 { id:"hezarpare-ahmed-pasa-bin-parca-1648", tur:"magazin", kisi:["ibrahim"],
@@ -171,6 +171,6 @@ window.EKOKUMA_IBRAHIM = [
   not:"Heyetle İbrahim arasındaki karşılıklı sözler Naîmâ'nın anlatısıdır; olayların içindeki Karaçelebizâde bu konuşmadan söz etmez.",
   kesinlik:"tartismali",
   kaynak:"TDV: ibrahim--padisah · hezarpare-ahmed-pasa · kosem-sultan · Bekir Gökpınar, ETÜ Sosyal Bilimler Enstitüsü Dergisi 10 (2020)",
-  ic_not:"Yumruk: TDV ibrahim--padisah (Kâtib Çelebi II, 327); TDV hezarpare 'tartaklandı'. 'Camide cülus olmaz': Gökpınar #348 (Kâtip Çelebi 2016 II/987) — okura sözün anlamıyla aktarıldı. Karaçelebizâde'nin Naîmâ'daki sert sözleri: TDV ibrahim--padisah (Naîmâ IV, 326-327); TDV kararın gerekçelerini çoklu aktarır. Katl sahnesi ve sorumluluk tartışması magazin.js 'ibrahim-katli-kim-emretti-1648' kartında — bu kart onu TEKRAR ETMEZ, kilide kurşun ayrıntısı orada. H-0008 'kafese konup kafeste katledilmesi' = bu kart + o kart." }
+  ic_not:"Yumruk: TDV ibrahim--padisah (Kâtib Çelebi II, 327); TDV hezarpare 'tartaklandı'. 'Camide cülus olmaz': Gökpınar #348 (Kâtip Çelebi 2016 II/987) — okura sözün anlamıyla aktarıldı. Karaçelebizâde'nin Naîmâ'daki sert sözleri: TDV ibrahim--padisah (Naîmâ IV, 326-327); TDV kararın gerekçelerini çoklu aktarır. Katl sahnesi ve sorumluluk tartışması magazin.js 'ibrahim-katli-kim-emretti-1648' kartında — bu kart onu TEKRAR ETMEZ, kilide kurşun ayrıntısı orada. H-0008 'kafese konup kafeste katledilmesi' [TDV slug: ibrahim--padisah (alıntı doğrulanmadı)] = bu kart + o kart." }
 
 ];

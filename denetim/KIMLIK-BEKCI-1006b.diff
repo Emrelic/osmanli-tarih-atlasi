@@ -1,0 +1,118 @@
+diff --git a/arac/bekci_olc.py b/arac/bekci_olc.py
+index 780922cd..65f1fc6b 100644
+--- a/arac/bekci_olc.py
++++ b/arac/bekci_olc.py
+@@ -127,9 +127,12 @@ def _surec_var(pid, baslangic=None):
+         return False, "süreç yok"
+     if baslangic is None:
+         # ⚖️ ESKİ DAMGA (başlangıç alanı yazılmadan önceki bekçi). PID'in bir
+-        #    sahibi var ama onun bizim bekçi olduğu doğrulanamaz. ÖNERİ:
+-        #    ÖLÇÜLEMEDİ — ASILI demek D266'nın yanlış alarmını sürdürür, BITMIS
+-        #    demek gerçek bir asılı bekçiyi susturabilir. Hüküm koordinatörde.
++        #    sahibi var ama onun bizim bekçi olduğu doğrulanamaz.
++        #    HÜKÜM (koordinatör, D266, 6 Ekim 2026): ÖLÇÜLEMEDİ — BITMIS DEĞİL.
++        #    ASILI demek D266'nın yanlış alarmını sürdürür; BITMIS demek gerçek
++        #    bir asılı bekçiyi susturur VE `--temizle` onu SİLER. ÖLÇÜLEMEDİ
++        #    `--temizle`den geçmez (yalnız BITMIS silinir). Sınav:
++        #    `denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py` T1-T3.
+         return None, "eski damga: başlangıç zamanı yok, PID %d'in sahibi doğrulanamıyor" % pid
+     try:
+         baslangic = int(baslangic)
+diff --git a/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py b/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py
+index 27e16c69..cb344135 100644
+--- a/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py
++++ b/denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py
+@@ -11,9 +11,14 @@ GERÇEK süreçlerle (alt süreç açılır/öldürülür), damgalar GEÇİCİ d
+   A2 YENİDEN  canlı süreç + eski nabız + başlangıç UYUŞMUYOR          → BITMIS
+   A3 YOK      süreç öldürüldü + eski nabız                             → BITMIS
+   A4 ÖLÇÜLEMEDİ sorgu arızası (kimlik okunamıyor) + eski nabız          → OLCULEMEDI
+-  A5 ESKİ DAMGA başlangıç alanı yok: canlı → OLCULEMEDI · ölü → BITMIS (öneri)
++  A5 ESKİ DAMGA başlangıç alanı yok: canlı → OLCULEMEDI · ölü → BITMIS (koordinatör hükmü, D266)
+   A6 TAZE     nabız taze ⇒ PID ne olursa olsun CANLI
+   E1 ESKİ KOD (1381bf76) A2 damgasında ASILI basar — kusurun kanıtı (eski kod ÖTER, yanlış)
++  --temizle (1006b, koordinatör hükmü: OLCULEMEDI SİLİNMEZ):
++  T1 eski damga + CANLI sahip → OLCULEMEDI ve `temizle()` sonrası dosya YERİNDE
++  T2 aynı turda eski damga + ÖLÜ sahip → BITMIS ve SİLİNDİ (temizle gerçekten çalışıyor)
++  T3 TERS YÖN: hüküm BITMIS'e çevrilirse (mutasyon) aynı canlı-sahip damgası SİLİNİR
++     ⇒ T1'in "yerinde" kontrolünün dişi var; boş küme doğrulaması değil
+ Kullanım: py denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py [--kok C:\\atlas]
+ """
+ import argparse, hashlib, importlib.util, json, os, subprocess, sys, tempfile, time
+@@ -150,6 +155,38 @@ with tempfile.TemporaryDirectory(prefix="bekci_kimlik_sinav_") as td:
+     d4 = bo._surec_kimlik(4)
+     print(f"  (bilgi) PID 4 / System gerçek sorgu: {d4} — erişim reddi ⇒ None beklenir")
+ 
++    # ── --temizle × eski damga (1006b) ─────────────────────────────────────
++    import contextlib, io as _io
++    temizle_dizin()
++    p3, _ = cocuk()
++    try:
++        yol = lambda ad: os.path.join(bo.DIZIN, ad + ".json")
++        damga("T1", pid=p3.pid, baslangic=...)             # eski + canlı sahip
++        damga("T2", pid=p2.pid, baslangic=...)             # eski + ölü sahip (p2 yukarıda öldü)
++        h1, n1 = hal("T1")
++        h2, _ = hal("T2")
++        assert os.path.abspath(bo.DIZIN) != os.path.abspath(GERCEK_DIZIN)
++        with contextlib.redirect_stdout(_io.StringIO()) as tamp:
++            bo.temizle()
++        kontrol("T1", h1 == "OLCULEMEDI" and os.path.exists(yol("T1")),
++                f"eski + canlı sahip → {h1} · temizle sonrası dosya "
++                f"{'YERİNDE' if os.path.exists(yol('T1')) else 'SİLİNDİ'} ({n1})")
++        kontrol("T2", h2 == "BITMIS" and not os.path.exists(yol("T2")),
++                f"eski + ölü sahip → {h2} · temizle sonrası "
++                f"{'SİLİNDİ' if not os.path.exists(yol('T2')) else 'YERİNDE'}")
++        gercek_var = bo._surec_var
++        bo._surec_var = lambda pid, b=None: (False, "MUTASYON: eski damga BITMIS sayıldı")
++        try:
++            with contextlib.redirect_stdout(_io.StringIO()):
++                bo.temizle()
++        finally:
++            bo._surec_var = gercek_var
++        kontrol("T3", not os.path.exists(yol("T1")),
++                "TERS YÖN — hüküm BITMIS olsaydı aynı canlı-sahip damgası "
++                f"{'SİLİNİRDİ ✓ (T1 kontrolü dişli)' if not os.path.exists(yol('T1')) else 'YİNE YERİNDE ✗'}")
++    finally:
++        p3.kill(); p3.wait()
++
+ SONRA = parmak(GERCEK_DIZIN)
+ kontrol("GERÇEK", ONCE == SONRA, f"{GERCEK_DIZIN} dokunulmadı: önce {ONCE[:12]} · sonra {SONRA[:12]}")
+ print(f"\n{'✓ SINAV GEÇTİ' if not dusen else f'✗ SINAV DÜŞTÜ ({dusen})'}")
+diff --git a/denetim/KIMLIK-BEKCI-CIKTI-1006.txt b/denetim/KIMLIK-BEKCI-CIKTI-1006.txt
+index 6a3b239a..8e0a881f 100644
+--- a/denetim/KIMLIK-BEKCI-CIKTI-1006.txt
++++ b/denetim/KIMLIK-BEKCI-CIKTI-1006.txt
+@@ -1,25 +1,20 @@
+-# ARAC-BEKCI-KIMLIK-SINAV-1006.py çıktısı — UMIT-W10-BEKCI-1006 · 2026-10-05 23:23 · ağaç C:\atlas-w10b · HEAD 1381bf76
+-# komut: py denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py --kok C:\atlas-w10b
+-✓ K0: yazılan baslangic 134357053869290107 · okunan 134357053869290107 (VAR)
++# ARAC-BEKCI-KIMLIK-SINAV-1006.py çıktısı — UMIT-W10-BEKCI-1006 + 1006b (eski damga hükmü × --temizle) · 2026-10-05 23:37 · ağaç C:\atlas-w10c · HEAD e051335c + KIMLIK-BEKCI-1006.diff uygulanmış
++# komut: py denetim/ARAC-BEKCI-KIMLIK-SINAV-1006.py --kok C:\atlas-w10c
++✓ K0: yazılan baslangic 134357062709324819 · okunan 134357062709324819 (VAR)
+ ✓ A1: canlı + eski nabız + başlangıç uyuşuyor → ASILI (süreç ayakta (PID + başlangıç uyuşuyor))
+-✓ A2: canlı + başlangıç uyuşmuyor → BITMIS (PID 19896 YENİDEN KULLANILMIŞ (başlangıç uyuşmuyor))
++✓ A2: canlı + başlangıç uyuşmuyor → BITMIS (PID 5612 YENİDEN KULLANILMIŞ (başlangıç uyuşmuyor))
+ ✓ A2b: PID bizim, başlangıç ÇOCUĞUN → BITMIS
+ ✓ E1: ESKİ kod (1381bf76) aynı damgada → ASILI (beklenen YANLIŞ ASILI)
+-✓ A5-canlı: eski damga (başlangıç yok) + canlı PID → OLCULEMEDI (eski damga: başlangıç zamanı yok, PID 19896'in sahibi doğrulanamıyor)
++✓ A5-canlı: eski damga (başlangıç yok) + canlı PID → OLCULEMEDI (eski damga: başlangıç zamanı yok, PID 5612'in sahibi doğrulanamıyor)
+ ✓ A6: taze nabız + uyuşmayan başlangıç → CANLI
+ ✓ A3: süreç öldürüldü → BITMIS (süreç yok)
+ ✓ A5-ölü: eski damga + ölü PID → BITMIS (süreç yok)
+ ✓ A4: kimlik okunamıyor → OLCULEMEDI (sınav: sorgu arızası)
+   (bilgi) PID 4 / System gerçek sorgu: (None, 'OpenProcess hata 5') — erişim reddi ⇒ None beklenir
+-✓ GERÇEK: C:\atlas-w10b\oturumlar\bekci dokunulmadı: önce YOK · sonra YOK
++✓ T1: eski + canlı sahip → OLCULEMEDI · temizle sonrası dosya YERİNDE (eski damga: başlangıç zamanı yok, PID 23660'in sahibi doğrulanamıyor)
++✓ T2: eski + ölü sahip → BITMIS · temizle sonrası SİLİNDİ
++✓ T3: TERS YÖN — hüküm BITMIS olsaydı aynı canlı-sahip damgası SİLİNİRDİ ✓ (T1 kontrolü dişli)
++✓ GERÇEK: C:\atlas-w10c\oturumlar\bekci dokunulmadı: önce YOK · sonra YOK
+ 
+ ✓ SINAV GEÇTİ
+ # çıkış kodu: 0
+-
+-# başlangıç zamanı okuma yolları (aynı PID, scratchpad baslangic_olc.py):
+-#   ctypes           0.3 ms  134357053888156070
+-#   powershell     533.4 ms  134357053888156070
+-#   wmic             9.7 ms  wmic YOK
+-#   psutil          30.2 ms  1791231788.815607
+-#   olmayan pid 4294967: OpenProcess hata 87
+-#   SYSTEM pid 4: OpenProcess hata 5

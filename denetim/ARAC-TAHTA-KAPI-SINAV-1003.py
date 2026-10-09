@@ -28,7 +28,19 @@ print("=" * 72)
 print("TAHTA KAPISI SINAVI — iki yonde")
 print("=" * 72)
 
-G = os.path.join(KOK, ".git")
+# W36 (6 Ekim 2026): `.git` bir worktree'de DIZIN DEGIL, DOSYADIR (`gitdir: ...`).
+#   Eski satir `os.path.join(KOK, ".git")` worktree'de makedirs ile COKUYORDU.
+#   Gercek git dizini git'e SORULUR. Bu, kapinin kendisini de dogru yerde sinar:
+#   kapi `KOK/.git`e bakip worktree'de KORSE, 2) artik bunu HATA olarak gosterir.
+def _git_dizini():
+    r = subprocess.run(["git", "-C", KOK, "rev-parse", "--absolute-git-dir"],
+                       capture_output=True, text=True)
+    if r.returncode != 0 or not r.stdout.strip():
+        print("OLCULEMEDI — git dizini bulunamadi: %s" % (r.stderr or "").strip()[:200])
+        sys.exit(2)
+    return os.path.normpath(r.stdout.strip())
+G = _git_dizini()
+print("git dizini: %s%s" % (G, "  (WORKTREE)" if os.path.isfile(os.path.join(KOK, ".git")) else ""))
 
 # ---------------------------------------------------------------- 1) TEMIZ YON
 # Depo su an temiz olmali (yarim islem yok) -> kapi SUSMALI

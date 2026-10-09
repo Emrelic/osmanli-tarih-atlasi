@@ -66,7 +66,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
-  kaynak:"TDV 'atina' md.: \"1387: Floransalı Korinthos derebeyi Nerio Acciajuoli tarafından ele geçirildi\" · Setton, Catalan Domination of Athens 1311-1388 · ⚠️ TDV 1387 diyor, alt şehir 1387'de, Akropolis Mayıs 1388'de düştü — ikisi de kaynakta" },
+  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23) · daha önce künyede (devletler.js) 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #23)" },
 
 { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],
@@ -81,12 +81,12 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1402-01-01", b:"Antonio I Acciaiuoli'nin Atina'yı Venedik'ten geri alması", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Nerio'nun gayrimeşru oğlu Antonio, Osmanlı desteğiyle Venedik'i şehirden çıkardı ve dukalığı yeniden kurdu. Otuz üç yıllık hükümdarlığı, Latin Atina'nın son müreffeh dönemi sayılır. Bir Latin dukasının tahtını Osmanlı desteğiyle kazanması, 15. yüzyıl Yunanistan'ının gerçek güç dengesini gösterir.",
-  kaynak:"TDV 'atina' md.: \"1402: Antonio tarafından Venediklilerden geri alındı\", \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1402: Antonio tarafından Venediklilerden geri alındı, \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1435-01-01", b:"Antonio I'in ölümü ve hanedan içi çekişmenin başlaması", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Antonio'nun ölümüyle Acciaiuoli ailesi içinde uzun bir taht kavgası başladı ve taraflar Osmanlı sarayının hakemliğine başvurdu. II. Nerio 1435-1455 arasında hüküm sürdü ama iktidarı hep tartışmalı kaldı. Osmanlı'nın hakem sıfatıyla işin içine girmesi, ilhakın hukukî zeminini de hazırladı.",
-  kaynak:"TDV 'atina' md.: \"1435-1455: II. Nerio dönemi\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1435-1455: II. Nerio dönemi · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1456-06-04", b:"Turahanoğlu Ömer Bey'in Atina'yı alması", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","toprak-kayip","konu-askeri"],

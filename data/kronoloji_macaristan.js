@@ -127,7 +127,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hanedan","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"Rákos mecliste soyluların çoğunluğu Anjoulu Károly Róbert'i tanıdı; taç giyme töreni asıl kutsal taçla ancak 1310'da tamamlanabildi çünkü taç bir süre rakip beylerin elindeydi. Anjou hanedanı merkezî otoriteyi yeniden kurmaya girişti.",
-  kaynak:"akademik: Engel (2001), s. 124-131", yer_id:"Peşte" },
+  kaynak:"akademik: Engel (2001), s. 124-131 · daha önce künyede (devletler.js) 1308-06-15 yazılıydı, kaynaksızdı; D2c'de bu maddenin gününe çekilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #32)", yer_id:"Peşte" },
 
 { t:"1312-06-15", devlet:"macaristan", b:"Rozgony Muharebesi — Csák Máté'nin gücünün kırılması", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak-kazanc","konu-askeri"],

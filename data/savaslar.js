@@ -260,7 +260,7 @@ window.SAVASLAR = [
 // galibi farklı veriyor. Koordinat: sefer okundaki istasyon (Nominatim Călugăreni, A4); TDV bukres
 // "Bükreş'e 4 mil (yaklaşık 6 km.)" bu noktayla (~30 km) UYUŞMUYOR — çelişki, çözülmedi.
 { t:"1595-08-23", tur:"meydan", ad:"Kalûgerân (Călugăreni) muharebesi", taraf_metin:"Eflak Voyvodalığı (Mihail)", sonuc:"belirsiz", seri:"habsburg", lat:44.186, lon:26.001, taraf:["osmanli","eflak"],
-  kaynak:"History of Transylvania I (ed. B. Köpeczi, MTA; MEK html 118, s. 1-749): \"On 23 August, at Călugăreni, he managed to halt Sinan Pasha's advance, but superior numbers soon forced him to withdraw into the Carpathians\" · bukres (TDV): \"Kalûgerân (Çalugareni) mevkiinde Prens Mihal … ile Serdar Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595)\" · eflak (TDV): \"Koca Sinan Paşa'nın idaresindeki orduya Kalûgerân'da baskın yaptıktan sonra geri çekildiyse de\"" },
+  kaynak:"History of Transylvania I (ed. B. Köpeczi, MTA; MEK html 118, s. 1-749): \"On 23 August, at Călugăreni, he managed to halt Sinan Pasha's advance, but superior numbers soon forced him to withdraw into the Carpathians\" · bukres (TDV): \"XVI. yüzyılın sonlarına doğru, Bükreş’e 4 mil (yaklaşık 6 km.) mesafede ağaçlık ve bataklıklarla kaplı bir boğaz olan Kalûgerân (Çalugareni) mevkiinde Mihai Viteazul (Cesur Mihai) kumandasındaki Eflak ordusu ile Vezîriâzam ve Serdârıekrem Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595).\" · eflak (TDV): \"Koca Sinan Paşa'nın idaresindeki orduya Kalûgerân'da baskın yaptıktan sonra geri çekildiyse de\"" },
 { t:"1596-10-26", tur:"meydan", ad:"Haçova",                    taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:47.82, lon:20.72, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1600-10-22", tur:"kusatma", ad:"Kanije kuşatması",          taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:46.45, lon:16.99, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1620-09-17", tur:"meydan", ad:"Cecora (Ţuţora)",           taraf_metin:"Lehistan",          sonuc:"zafer",   seri:"lehistan",lat:47.10, lon:27.75, taraf:["osmanli","lehistan"], galip:"osmanli" },
@@ -369,7 +369,13 @@ window.SAVASLAR = [
 { t:"1416-05-01", tur:"isyan", ad:"Börklüce Mustafa",       taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:37.86, lon:27.26, sure:400, taraf:["osmanli"] },
 { t:"1416-09-01", tur:"isyan", ad:"Torlak Kemal",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.61, lon:27.43, sure:300, taraf:["osmanli"] },
 { t:"1511-03-01", tur:"isyan", ad:"Şahkulu (Teke)",         taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:36.89, lon:30.70, sure:400, taraf:["osmanli"] },
-{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"] },
+// SEFER-OKU-0087 (paket 0087 H-0001, Emre: "Teke bölgesinden Sivas'a kadar ok çıkarmaya
+// gerek yok, anlamsız"). `isyanYayilmaUret()` bu iki işaretten Teke→Sivas oku üretiyordu;
+// ok Sivas gününde (Şahkulu'nun öldüğü gün) beliriyor ve `sure:400` ile 13 ay kalıyordu.
+// TDV `sahkulu-baba-tekeli` güzergâhı düz bir Teke→Sivas hattı değil: Keçiborlu-Sandıklı-
+// Altıntaş → Kütahya → Alaşehir → Antalya taraflarına dönüş → Sivas yakınında Çubuk.
+// `yayilma_oku:false` = işaretler (🔥) KALIR, yalnız ok üretilmez.
+{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"], yayilma_oku:false },
 { t:"1519-03-01", tur:"isyan", ad:"Bozoklu Şeyh Celâl",     taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.82, lon:34.81, sure:400, taraf:["osmanli"] },
 { t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300, taraf:["osmanli"] },
 // Ad düzeltmesi (Koordinatör, OTURUM-10 turu): TDV'de "Kalender Çelebi" diye madde
@@ -703,6 +709,24 @@ window.SEFERLER = [
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
 { ad:"İstanbul seferi (1453)", tur:"sefer", sonuc:"zafer",      f:"1453-02-01", t:"1453-06-29",
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
+// DENIZ-OKU-0085 (paket 0085 H-0020, Emre: "osmanlı deniz seferini oklar ile gösterelim").
+// 14 Temmuz 1454 Kefe muhasarasının deniz kolu. SEFERLER'de 1454 kaydı YOKTU (taranan:
+// savaslar.js + seferler_*.js, "1454" ve "Kefe" — yalnız 1771 Dolgorukov ve 1914 Hamidiye).
+// Kara kolu (Hacı Giray'ın 7000 atlısı) ÇİZİLMEDİ: TDV hareket noktasını vermiyor ("şehri
+// karadan kuşattı"); Solhat'tan çıktığını yazmak çıkarım olurdu.
+// Akkirman tehdidi de ÇİZİLMEDİ: TDV "Aynı yaz" diyor, Kefe'den önce mi sonra mı belli
+// değil — sıra uydurulmaz.
+// `f` AY hassasiyetli: TDV yalnız "Haziran 1454'te … anlaşma yaptı" der; donanmanın
+// İstanbul'dan çıkış günü kaynakta YOK. `t` = muhasaranın başladığı gün (Kefe önünde
+// demirli donanma); kuşatmanın kalktığı gün kaynakta YOK.
+{ id:"d85-kefe-donanma-1454", ad:"Osmanlı donanmasının Kefe seferi (1454)", tur:"deniz", sonuc:"belirsiz", f:"1454-06-01", t:"1454-07-14",
+  kaynak:"mehmed-ii (TDV): \"İlkin 858 (1454) yazında bu denize donanmasını gönderdi. Karadeniz Ceneviz kolonilerinin merkezi olan Kefe, Kırım Hanı I. Hacı Giray'ın müttefik kuvvetleriyle birlikte sıkıştırıldı. Uzun görüşmelerden sonra Cenevizliler Osmanlı padişahına 3000 ve hana 1200 altın haraç vermeye razı oldular.\" · haci-giray-i (TDV): \"Haziran 1454'te Hacı Giray, Fâtih Sultan Mehmed ile Kefe'yi almak için bir anlaşma yaptı.\" · \"Elli altmış kadar kadırgadan oluşan Osmanlı donanması Kefe önlerinde demir atınca Hacı Giray 14 Temmuz 1454'te 7000 atlısıyla şehri karadan kuşattı.\"",
+  tarih_hassasiyet:"f: AY (Haziran 1454 — anlaşmanın ayı; donanmanın çıkış günü kaynakta yok) · t: GÜN (14 Temmuz 1454, kuşatmanın başlangıcı)",
+  kesinlik:"istasyonlar: İstanbul · Kefe; ara durak kaynakta YOK. `rota` türetilmiş çizim hattıdır: İstanbul Boğazı orta hattı (ne_10m_land'in iki kıyısının ortası) + ARAC-SEFER-OK-DENIZ-ROTA-0075.py ile açık deniz; iddia değildir",
+  // 🔴 `rota` — ne_10m_land'e karşı katı ölçü (liman muafiyetsiz): kara üstü 0,6 km
+  // (Kefe limanına yaklaşma). Düz yol 61,2 km karayı kesiyordu (Boğaz + Kırım kıyısı).
+  rota:[[28.98,41.008],[29.001,41.02],[29.001,41.032],[29.019,41.044],[29.04,41.056],[29.05,41.068],[29.057,41.08],[29.062,41.092],[29.066,41.104],[29.07,41.116],[29.079,41.128],[29.075,41.14],[29.06,41.152],[29.06,41.164],[29.08,41.176],[29.092,41.188],[29.104,41.2],[29.115,41.212],[29.129,41.224],[31.81,43.206],[35.365,44.932],[35.382,45.032]],
+  yol:[[28.98,41.008],[35.382,45.032]] },
 // Rumeli Sağ Kol'un tamamı: Filibe-Sofya-Niş-Morava vadisi-Belgrad.
 { ad:"Belgrad kuşatması (1440)", tur:"kusatma", sonuc:"yenilgi",    f:"1440-04-01", t:"1440-10-21",
   yol:[[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[21.33,43.58],[20.93,44.66],[20.46,44.82]] },
@@ -742,12 +766,55 @@ window.SEFERLER = [
 // (gövde okundu): "Sinan Paşa'nın hareketinden beş hafta sonra Memlük
 // sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da
 // İstanbul'dan hareket etti." Aynı olay data/olaylar_ek5.js:154'te de var.
+// SEFER-OKU-0087 (paket 0087 H-0005 · H-0006, Emre: "ordu nereye ulaştıysa ok oraya
+// kadar çizilsin, kademe kademe") — ① GÜZERGÂH TDV'ye hizalandı: eski yol İstanbul→
+// SİVAS→Kayseri→Elbistan idi (kaynaksız; Sivas'tan Kayseri'ye GERİ dönen bir zikzak).
+// TDV `selim-i` istasyonları: Akşehir (26 Haz) · Konya ovası (1 Tem) · Malatya ovası
+// (6 Ağu'da ayrıldı) · Antep dışı (20 Ağu) · Halep (28 Ağu) · Şam (27 Eyl) · Celcûliye
+// konağı (26 Ara) · Gazze (2 Oca) · Arîş (11 Oca) · Sâlihiye (16 Oca). Konya ovası ile
+// Malatya ovası arasındaki yol TDV'de YOK — bacak düz çizilir, ara istasyon UYDURULMADI.
+// Üsküdar (yol[1]) kaynakta yok: Anadolu'ya geçişin coğrafî zorunluluğudur; hareket
+// gününde okun yalnız çıkış noktasını göstermesi için var (≈3 km). Celcûliye, Arîş,
+// Sâlihiye atlas noktası DEĞİL — koordinatları ŞEMATİK (genel coğrafya).
+// ② KADEME: her basamağın günü bir KRONOLOJİ MADDESİNİN günüdür (olaylar_ek5.js /
+// olaylar.js), ok o gün o maddenin anlattığı yere kadar uzanır. 1516-07-30 maddesinde
+// TDV'nin verdiği en ileri yer Konya ovasıdır (30 Temmuz'daki konum TDV'de yok).
+// 1516-08-24 basamağı Mercidâbık maddesine dayanır — o madde `t:"1516-08"` (ay
+// hassasiyeti) taşıyor, ayrıca düzeltilmeli (denetim/SEFER-OKU-0087.md §H-0006).
 { ad:"Mısır seferi (1516-17)", tur:"sefer", sonuc:"zafer",      f:"1516-06-05", t:"1517-02-22",
-  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti.\"",
-  yol:[[29.02,41.02],[37.02,39.75],[35.48,38.73],[37.20,38.21],[37.38,37.07],[37.15,36.68],
-       [37.16,36.20],[36.75,35.13],[36.29,33.51],[34.47,31.50],[31.28,30.06]] },
-{ ad:"Rodos seferi (1522)", tur:"kusatma", sonuc:"zafer",         f:"1522-06-01", t:"1523-01-05",
-  yol:[[28.98,40.97],[26.41,40.15],[26.14,38.37],[27.29,36.89],[28.23,36.45]] },
+  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti. 26 Haziran'da Akşehir'e vardığında\" · \"1 Temmuz'da Konya ovasında iken\" · \"6 Ağustos'ta Malatya ovasından ayrılarak Halep'e yöneldi.\" · \"20 Ağustos'ta Antep dışında konakladı\" · \"Oradan Halep'e geldi (28 Ağustos)\" · \"27 Eylül'de Şam'a ulaştı\" · \"15 Aralık'ta Şam'dan hareket etti. 26 Aralık'ta Celcûliye Konağı'na geldiğinde\" · \"Padişah 8 Zilhicce 922'de (2 Ocak 1517) Gazze'ye girdi\" · \"9 Ocak'ta Gazze'den ayrılan Yavuz Sultan Selim 11 Ocak'ta Arîş mevkiine ulaştı … 16 Ocak'ta Sâlihiye'ye gelindiğinde\" · ridaniye-savasi (TDV): \"Kahire önlerinde Matariye ile Cebelülahmer arasında Ridâniye/Reydâniye denilen mevkide\" · \"Savaşın ertesi günü Osmanlı ordularının Kahire'ye girişine izin verildi.\"",
+  kesinlik:"istasyonlar TDV; Üsküdar coğrafî zorunluluk (kaynakta yok); Celcûliye/Arîş/Sâlihiye koordinatı şematik; Konya→Malatya bacağı düz (ara yol kaynakta yok)",
+  yol:[[28.980,41.008],[29.015,41.027],[31.416,38.357],[32.492,37.872],[38.334,38.353],[37.383,37.066],
+       [37.152,36.553],[37.161,36.202],[36.292,33.513],[34.953,32.153],[34.466,31.502],[33.798,31.131],
+       [31.950,30.780],[31.283,30.089],[31.243,30.047]],
+  kademe:[["1516-06-05",1],["1516-07-30",3],["1516-08-24",6],["1516-08-28",7],["1516-09-27",8],
+          ["1516-12-29",9],["1517-01-02",10],["1517-01-22",13],["1517-01-24",14]] },
+// SEFER-OKU-0087 (paket 0087 H-0013 · H-0020 "deniz seferi oku karaların üzerinden
+// geçmemeli" · H-0021 "Bodrum/İstanköy maddesinde Rodos oku hâlâ gösteriliyor").
+// Eski TEK kayıt `tur:"kusatma"` idi ⇒ kavisli çiziliyor, `rota` yok, SEFER-OK-0075'in
+// deniz yönlendirmesinin DIŞINDA kaldı; düz yolu ne_10m_land üstünde 231 km'ydi.
+// Kaynak iki AYRI kol veriyor (TDV `suleyman-i`): donanma 4 Haziran'da denize açıldı,
+// padişah 18 Haziran'da Üsküdar'dan KARA yoluyla Marmaris'e yürüdü. İkiye ayrıldı.
+// `t` eski 1523-01-05 idi (kaynaksız; tam Bodrum maddesinin günü ⇒ ok o maddede hâlâ
+// görünüyordu). TDV `suleyman-i`: "14 Safer'de (2 Ocak 1523) … adadan ayrıldı" ⇒ t.
+// Teslim günü: TDV `rodos` + `suleyman-i` 20 Aralık 1522 der; kronoloji 21 Aralık —
+// çelişki raporda (§H-0021), burada `t`yi etkilemiyor.
+{ ad:"Rodos seferi (1522) — donanma", tur:"deniz", sonuc:"zafer", f:"1522-06-04", t:"1523-01-02",
+  kaynak:"suleyman-i (TDV): \"9 Receb 928'de (4 Haziran 1522) Osmanlı gemileri sefer için denize açılırken\" · \"Padişah 10 Safer'de (29 Aralık) şehri görmek için Rodos'a girdi. 14 Safer'de (2 Ocak 1523) ikinci defa girince, adına hutbe okutup şehre nizam verdi ve adadan ayrıldı.\" · rodos (TDV): \"1 Safer 929'da (20 Aralık 1522) diğer adalarla birlikte Rodos'u fethetti.\"",
+  kesinlik:"istasyonlar: İstanbul · Gelibolu (Çanakkale Boğazı — coğrafî zorunluluk, kaynakta yok) · Rodos; ara Ege durakları kaynakta YOK. `rota` türetilmiş çizim hattıdır (ARAC-SEFER-OK-DENIZ-ROTA-0075.py + boğaz orta hattı ne_10m_land'den), iddia değildir",
+  // 🔴 `rota` — ne_10m_land'e karşı ölçüldü (liman muafiyetsiz, katı): kara üstü 2,1 km,
+  // en büyük bacak 0,95 km. Boğaz kesimi ne_10m_land'in iki kıyısının orta noktalarıdır.
+  rota:[[28.98,41.01],[28.749,40.911],[27.309,40.641],[26.664,40.416],[26.643,40.363],[26.609,40.324],[26.567,40.294],[26.521,40.27],[26.483,40.237],[26.436,40.214],[26.385,40.194],[26.377,40.126],[26.341,40.089],[26.299,40.061],[26.253,40.036],[26.193,40.028],[26.159,39.988],[26.059,39.518],[26.069,39.458],[26.369,39.388],[26.619,39.078],[26.619,38.948],[26.339,38.648],[26.219,38.268],[26.629,37.618],[27.319,36.898],[27.369,36.868],[27.349,36.678],[27.849,36.518],[28.226,36.443]],
+  yol:[[28.98,41.01],[26.664,40.416],[28.226,36.443]],
+  // ⚠️ `kademe` indisi ÇİZİM HATTININ indisidir: `rota` varsa app.js okun hattını
+  // `rota`dan kurar (seferKayitlariniTopla → yol:_cizYol), `yol`dan değil. 3 = Gelibolu
+  // (rota[3] = yol[1]), 29 = Rodos (rota[29] = yol[2]). 1522-06-26 = kronoloji maddesi
+  // "Kanûnî'nin Rodos seferinin adaya varması" (kronoloji_rodos_sovalyeleri.js).
+  kademe:[["1522-06-04",3],["1522-06-26",29]] },
+{ ad:"Kanunî'nin Marmaris'e yürüyüşü (1522)", tur:"sefer", sonuc:"zafer", f:"1522-06-18", t:"1522-07-26",
+  kaynak:"suleyman-i (TDV): \"Kanûnî Sultan Süleyman da 23 Receb'de (18 Haziran) kara yoluyla ordusunun başında Üsküdar'dan hareket etti. İznik, Kütahya, Denizli, Çine, Muğla yolundan Marmaris'e ulaştı (2 Ramazan / 26 Temmuz).\"",
+  kesinlik:"istasyonlar TDV; Çine atlas noktası değil (koordinat şematik)",
+  yol:[[29.015,41.027],[29.721,40.429],[29.983,39.424],[29.094,37.783],[28.061,37.612],[28.363,37.215],[28.274,36.855]] },
 { ad:"Mohaç seferi (1526)", tur:"sefer", sonuc:"zafer",         f:"1526-04-23", t:"1526-09-29",
   yol:[[28.98,41.01],[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[20.93,44.66],
        [20.46,44.82],[19.86,45.25],[18.69,45.55],[18.69,45.99]] },
@@ -966,7 +1033,7 @@ window.SEFERLER = [
 // `yergogu` ("1595 Ekiminde Eflak'tan dönen ordu") · Alkan · Özçelik 1595 Ekim diyor.
 { id:"a4-sinan-eflak-ilerleyis-1595", ad:"Koca Sinan Paşa'nın Eflak seferi (1595)", tur:"sefer", sonuc:"belirsiz",
   f:"1595-07-18", t:"1595-10-19", tarih_hassasiyet:"f: GÜN (sefere çıkış; Tuna geçiş günü bulunamadı) · t: GÜN (Tergovişte'nin Mihal'e geçişi)",
-  kaynak:"Mustafa Alkan, \"Osmanlı Devleti'nde Akıncı Ocağının Sonu\", Akademik Bakış 7/13 (Kış 2013): \"11 Zilkaade 1003 (18 Temmuz 1595) tarihinde Sadrazam Koca Sinan Paşa, 100.000 kişilik bir orduyla Eflak voyvodası Mihal'in üzerine yürüdü\" · \"19 Ekim 1595 tarihinde Targovişte'yi ele geçirerek\" · Emirhan Özçelik, \"Serdar-ı Ekrem Koca Sinan Paşa'nın Seferlerdeki Ordu İdaresi, Strateji ve Taktikleri\", OTAM 58 (Güz 2025): \"Rusçuk'ta birlikleri bir araya getirmişti\" · \"köprüler tamamlandıktan sonra orduyla Yergöğü'ne geçmiş ve ardından Bükreş'e doğru ilerlemeye başlamıştı\" · \"Bükreş ile Tirgovişte'de de kaleler inşa etmişti\" · bukres (TDV): \"Kalûgerân (Çalugareni) mevkiinde Prens Mihal … ile Serdar Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595)\" · \"Osmanlılar düşmanın boş bıraktığı şehre girdiler\" · \"Mihal tarafından tahkim edilen Târgoviște alındı\" · koca-sinan-pasa (TDV): \"Eflak üzerine yürüdüyse de başarılı olamadı\"",
+  kaynak:"Mustafa Alkan, \"Osmanlı Devleti'nde Akıncı Ocağının Sonu\", Akademik Bakış 7/13 (Kış 2013): \"11 Zilkaade 1003 (18 Temmuz 1595) tarihinde Sadrazam Koca Sinan Paşa, 100.000 kişilik bir orduyla Eflak voyvodası Mihal'in üzerine yürüdü\" · \"19 Ekim 1595 tarihinde Targovişte'yi ele geçirerek\" · Emirhan Özçelik, \"Serdar-ı Ekrem Koca Sinan Paşa'nın Seferlerdeki Ordu İdaresi, Strateji ve Taktikleri\", OTAM 58 (Güz 2025): \"Rusçuk'ta birlikleri bir araya getirmişti\" · \"köprüler tamamlandıktan sonra orduyla Yergöğü'ne geçmiş ve ardından Bükreş'e doğru ilerlemeye başlamıştı\" · \"Bükreş ile Tirgovişte'de de kaleler inşa etmişti\" · bukres (TDV): \"XVI. yüzyılın sonlarına doğru, Bükreş’e 4 mil (yaklaşık 6 km.) mesafede ağaçlık ve bataklıklarla kaplı bir boğaz olan Kalûgerân (Çalugareni) mevkiinde Mihai Viteazul (Cesur Mihai) kumandasındaki Eflak ordusu ile Vezîriâzam ve Serdârıekrem Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595).\" · \"Osmanlılar düşmanın boş bıraktığı şehre girdiler\" · \"Mihal tarafından tahkim edilen Târgoviște alındı\" · koca-sinan-pasa (TDV): \"Eflak üzerine yürüdüyse de başarılı olamadı\"",
   yol:[[25.954,43.848],[25.966,43.896],[26.001,44.186],[26.103,44.436],[25.463,44.927]] },
 { id:"a4-sinan-eflak-cekilis-1595", ad:"Sinan Paşa'nın Eflak'tan çekilişi — Yergöğü köprüsü (1595)", tur:"cekilme", sonuc:"yenilgi",
   f:"1595-10-19", t:"1595-10-24", tarih_hassasiyet:"f: GÜN (Tergovişte'nin düşüşü) · t: GÜN (köprünün çöküşü)",
@@ -1126,11 +1193,45 @@ window.SEFERLER = [
 { ad:"Belgrad garnizonunun çekilmesi (1867)", tur:"cekilme", sonuc:"yenilgi",
   f:"1867-04-18", t:"1867-04-18", yol:[[20.46,44.82],[22.61,44.61]] },
 // olaylar_ek2.js "gun" alanı bitiş tarihini de veriyor: 21 Haziran - 7 Ağustos 1867.
-// Kronolojide yalnız Paris/Londra/Viyana adı geçiyor; sıralama "yer" alanındaki
-// sırayı izler, ara duraklar (Toulon, Coburg vb.) uydurulmadı.
+// 🔴 6 Ekim 2026, UMIT-W4-ELLEVERI-1006 — eski 5 noktalı düz hat (İstanbul → Paris →
+// Londra → Viyana → İstanbul) KALDIRILDI; yerine `data/seferler_p0037.js`teki (PAKET-0037,
+// H-0006) kaynaklı 27 noktalı güzergâh TAŞINDI. Bugüne dek iki kayıt birden yüklüydü ve
+// app.js `_mukerrerMi` İLK çizileni (bu dosyanınkini) tuttuğu için kaynaklı rota ELENİYORDU.
+// Taşınan: `yol` dizisi + aşağıdaki `kaynak` (p0037 dosya başı yorumundan, kaynak adları
+// ve hangi bilginin hangisinden geldiği; alıntı cümlesi orada da yoktu, eklenmedi).
+// Gün gün güzergâh tablosu ve kaynak çelişkisi notu: p0037 dosya başı yorumu.
 { ad:"Abdülaziz'in Avrupa seyahati (1867)", tur:"seyahat", sonuc:"belirsiz",
   f:"1867-06-21", t:"1867-08-07",
-  yol:[[28.98,41.01],[2.35,48.86],[-0.13,51.51],[16.37,48.21],[28.98,41.01]] },
+  kaynak:"[1] \"Sultan Aziz'in Avrupa Seyahati Dönüşü Münasebetiyle ...\", Osmangazi Üniversitesi Sosyal Bilimler Dergisi C. 4, S. 1 (Haziran 2003), dergipark.org.tr/en/download/article-file/112955 — günler · [2] Murat Yurtbilir, \"Sultan Abdülaziz'in 1867 Avrupa Gezisine Bir ...\", Eklektik (İstanbul Gedik Üniversitesi) s. 129-160 — ara duraklar (Nürnberg · Passau · Novi Sad · Belgrad · Orşova · Vidin) ve Dover/Koblenz · [3] abdulaziz (TDV): 21 Haziran çıkış, 7 Ağustos dönüş; Fransa · İngiltere · Belçika · Prusya · Avusturya — ÇELİŞKİ: [2] bir yerde \"28 Haziran ... Dover\" diyor, [1] esas alındı · VARSAYIM: Calais (Manş dönüş limanı iki kaynakta da yazmıyor; en kısa hat)",
+  yol:[
+    [28.98,41.01],   // İstanbul — 21 Haz, Sultâniye vapuru (deniz)
+    [26.41,40.15],   // Çanakkale Boğazı (deniz)
+    [22.48,36.40],   // Mora açıkları — 24 Haz (deniz)
+    [15.55,38.19],   // Messina — 25 Haz (deniz)
+    [14.25,40.84],   // Napoli — 28 Haz (deniz)
+    [5.93,43.12],    // Toulon — 29 Haz, KARAYA ÇIKIŞ
+    [5.37,43.30],    // Marsilya (tren)
+    [4.84,45.76],    // Lyon (tren)
+    [2.35,48.86],    // Paris, Lyon Garı — 30 Haz–10 Tem
+    [1.61,50.73],    // Boulogne — 10 Tem (tren), Manş'a biniş
+    [1.31,51.13],    // Dover — 11 Tem (gemi)
+    [-0.13,51.51],   // Londra — 12–23 Tem (tren)
+    [1.31,51.13],    // Dover — 23 Tem (tren)
+    [1.86,50.95],    // Calais — Manş geçişi (VARSAYIM: liman kaynaklarda yazmıyor)
+    [4.35,50.85],    // Brüksel — 24 Tem (tren)
+    [7.59,50.36],    // Koblenz — 24/25 Tem (tren, Ren vadisi), I. Wilhelm
+    [11.08,49.45],   // Nürnberg — 26 Tem (tren)
+    [13.46,48.57],   // Passau — 26/27 Tem (tren)
+    [16.37,48.21],   // Viyana — 27/28–31 Tem
+    [19.04,47.50],   // Peşte — 31 Tem (Tuna vapuru), Budin'de konaklama
+    [19.84,45.25],   // Novi Sad (Tuna)
+    [20.46,44.82],   // Belgrad (Tuna)
+    [22.40,44.72],   // Orşova / Demirkapı (Tuna)
+    [22.87,43.99],   // Vidin — 3 Ağu akşamı (Tuna)
+    [25.97,43.86],   // Rusçuk — 4 Ağu (Tuna)
+    [27.91,43.21],   // Varna — 6 Ağu (Rusçuk-Varna demiryolu)
+    [28.98,41.01]    // İstanbul — 7 Ağu (gemi)
+  ] },
 // Uçlar kronolojiden: Edirne Mütarekesi (1878-01-31, Edirne) → Ayastefanos
 // Antlaşması (1878-03-03, Ayastefanos/Yeşilköy). Aradaki yürüyüş güzergâhı
 // ayrıca belgelenmediği için iki nokta arası düz hat kullanıldı.

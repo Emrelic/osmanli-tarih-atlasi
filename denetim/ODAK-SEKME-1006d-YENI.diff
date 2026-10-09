@@ -1,0 +1,92 @@
+diff --git a/arac/odak_olc.py b/arac/odak_olc.py
+index 38c12a60..4e50b9db 100644
+--- a/arac/odak_olc.py
++++ b/arac/odak_olc.py
+@@ -257,15 +257,30 @@ def tavan_oku():
+         return None
+ 
+ 
+-def kapi_olcumu():
++def yay_satiri(D):
++    """Geometri-boş doğrulamasının (`--yay-dogrula`) DURUM satırı.
++
++    🔴 D265 (koordinatör, 6 Ekim 2026): doğrulama kapıya ALINMADI (bellek
++    345 → 1438 MB, o gün 0 vaka) ama "0 vaka" ile "SORULMADI" ayırt
++    edilebilmeli. Bu satır kapalıyken de basılır — sessizlik "temiz" sanılmasın.
++    Satır bilgi satırıdır, `ihlal` hükmünü DEĞİŞTİRMEZ."""
++    yd = D.get("yay_dogrulama")
++    if not yd:
++        return "ⓘ  geometri-boş doğrulaması KOŞULMADI (--yay-dogrula kapalı)"
++    return ("ⓘ  geometri-boş doğrulaması KOŞULDU: %d geometri-boş · %d uyuşmazlık "
++            "(%d halka)" % (len(yd["ucuncu_return"]), len(yd["uyusmazlik"]), yd["halka"]))
++
++
++def kapi_olcumu(yay_dogrula=False):
+     """🔴 `denetle_yayin.py` BUNU çağırır. Dönüş:
+ 
+         {"ihlal": bool, "satirlar": [str, …]}
+ 
+     `ihlal` True olur ise yayın kapısı çıkış 1 verir. ÖLÇÜLEMEDİ de İHLALDİR.
++    `yay_dogrula` varsayılan KAPALI (D265); kapalı olduğu SATIRDA yazılır.
+     """
+     sat = []
+-    D = olc()
++    D = olc(yay_dogrula=yay_dogrula)
+     if D.get("hata"):
+         return {"ihlal": True,
+                 "satirlar": ["✗  odak nöbetçisi ÖLÇEMEDİ: %s" % D["hata"][:90]]}
+@@ -403,6 +418,7 @@ def kapi_olcumu():
+                            % (dal, so, t, t - so))
+             else:
+                 sat.append("✓  %s %d (tavan %d)" % (dal, so, t))
++    sat.append(yay_satiri(D))
+     return {"ihlal": ihlal, "satirlar": sat}
+ 
+ 
+@@ -572,6 +588,8 @@ def main():
+         print("  odaksiz %d · beyanli_yabanci %d" % (T["ODAKSIZ"], beyan_yab))
+ 
+     yd = D.get("yay_dogrulama")
++    print()
++    print(yay_satiri(D))
+     if yd:
+         print()
+         print("GÖVDE TAKLİDİ ↔ GERÇEK `devletiYay` (%d halka): %s"
+diff --git a/denetim/ARAC-ODAK-SEKME-SINAV-1006.py b/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
+index c569a131..bcc24312 100644
+--- a/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
++++ b/denetim/ARAC-ODAK-SEKME-SINAV-1006.py
+@@ -48,6 +48,11 @@ raporundan: Kırım 12 → TABI_KUTU, kalan 1 = 1792 künye bitişi sonrası):
+                   yapılır + sentetik akkoyunlu 1470 kapsam_genis maddesi ⇒ taklit "gövde var"
+                   der, gerçek `devletiYay` boş döner ⇒ `ucuncu_return`te SINAV-W13 görünür
+ 
++## 🆕 1006d — D265 durum satırı. ÖNGÖRÜ, ölçümden ÖNCE:
++    S8a  kapı bayraksız  → satırlarda "KOŞULMADI (--yay-dogrula kapalı)" VAR, "KOŞULDU" YOK
++    S8b  kapı bayraklı   → "KOŞULDU: 0 geometri-boş · 0 uyuşmazlık" VAR, "KOŞULMADI" YOK
++    S8c  iki hâlde `ihlal` aynı (satır hükmü değiştirmez)
++
+ ## NE YAPMAZ
+ Veriyi kalıcı değiştirmez: `data/kronoloji_akkoyunlu.js`e yazar, `git checkout --`
+ ile geri alır; `ODAK-TAVAN.json`u geri yazar. `data/` kirliyse ÇALIŞMAZ.
+@@ -309,6 +314,21 @@ def main():
+               bool(x) and (x["sekme"] or {}).get("dal") == "SEKME_GOVDE",
+               json.dumps(x and x["sekme"], ensure_ascii=False))
+ 
++        # ---- S8: D265 durum satırı (1006d)
++        print("\n③d S8 — geometri-boş doğrulamasının DURUM satırı (D265)")
++        r0 = OO.kapi_olcumu()
++        r1 = OO.kapi_olcumu(yay_dogrula=True)
++        k0 = [l for l in r0["satirlar"] if "geometri-boş doğrulaması" in l]
++        k1 = [l for l in r1["satirlar"] if "geometri-boş doğrulaması" in l]
++        hukum("S8a bayraksız → KOŞULMADI var, KOŞULDU yok",
++              len(k0) == 1 and "KOŞULMADI (--yay-dogrula kapalı)" in k0[0] and "KOŞULDU" not in k0[0],
++              " | ".join(k0))
++        hukum("S8b bayraklı → KOŞULDU: 0 · 0 var, KOŞULMADI yok",
++              len(k1) == 1 and "KOŞULDU: 0 geometri-boş · 0 uyuşmazlık" in k1[0] and "KOŞULMADI" not in k1[0],
++              " | ".join(k1))
++        hukum("S8c iki hâlde ihlal aynı", r0["ihlal"] == r1["ihlal"],
++              "%s / %s" % (r0["ihlal"], r1["ihlal"]))
++
+         # ---- Ö5 / Ö6: ölçülemedi
+         print("\n④ Ö5 / Ö6 — ÖLÇÜLEMEDİ asla temiz değil")
+         app = io.open(os.path.join(KOK, "js", "app.js"), encoding="utf-8").read()

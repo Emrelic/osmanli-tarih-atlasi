@@ -1,0 +1,11 @@
+ONGORU W36f — OLCUMDEN ONCE
+Temel: origin/main c779df9a + ODAK-ASYA-SUZME (KUTU olcutuyle yenilenmis) + MANDA-EMEKLI. 8 kronoloji dosyasi,
+uygulayici, odak_olc.py, odak_cozum.js, suzgec.js: ce885ec2 ile AYNI (git diff bos).
+KOVA (KUTU olcutu): KUTU-ICERIR 1 (Singosari, odak YAZILIR) · KUTU-DISARIDA 2 (Anandpur, Kondurcha; yazilmaz)
+                    · KUTU-OLCULEMEDI 2 (Pekan Tua, Mey-Tuble; yazilmaz). Davranis W36e ile AYNI ⇒ sayilar ayni.
+1) KURU, --kova-atla AK-YAKLASIK:  degisen 176 · BEYANLI sonra 0 · ODAKSIZ sonra 18 · simdi 55/137
+2) --uygula --kova-atla AK-YAKLASIK (atilabilir worktree): 8 dosya yazilir; dosya basina madde
+     sinir_asya 94 · cin 25 · ozbek 15 · orta_asya 14 · hindistan 12 · guney_asya 6 · japonya 6 · timurlu 4  (=176)
+   git diff data/ : TAM bu 8 dosya, baska dosya 0
+3) --uygula SONRASI GERCEK olcum (odak_olc.olc, 8 dosya toplami): ODAKSIZ 18 · BEYANLI 0
+   kirik atif (bu 8 dosyada, kusur listesi) : uygulama ONCESIYLE AYNI (yeni 0)

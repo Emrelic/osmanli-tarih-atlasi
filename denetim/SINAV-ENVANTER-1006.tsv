@@ -1,0 +1,168 @@
+betik	kova	alt_sebep	sure_sn	cikis_kodu	nitelik	beklenen_kaynak	yan_etki	son_satir
+denetim/A-OKYANUSYA-0078-sina.py	GECTI		5.7	0	belirsiz	olcum		Mount Gambier                                 1923-09-01 → avustralya
+denetim/ACILIS-ANIM-0929-sina.py	ATLANDI	c:http			belirsiz	olcum		
+denetim/ACILIS-ANIM-0929-sinav-kur.py	ATLANDI	b:C:/atlas · c:http			belirsiz	sabit		
+denetim/ARAC-1783-ULKE-SINA.py	GECTI		1.71	0	belirsiz	olcum	M denetim/_1783_cikar.js (2 satır) · M denetim/_1783_ulke.json (yalnız satır sonu)	-> denetim/_1783_ulke.json
+denetim/ARAC-1DUNYA-A-SINA-0917.js	OTTU	GERILEME ADAYI	5.67	1	belirsiz	olcum		künyesi olmayan taraf: yok
+denetim/ARAC-AFRIKA-SUDAN-SINAV-0906.js	HATA	dosya-yok (denetim/yer_yama_afrika_1923.js)	0.36	1	sürekli	olcum		Node.js v24.19.0
+denetim/ARAC-ALASKA-SINAV-0907.py	GECTI		13.83	0	belirsiz	sabit		🟢 SINAVLAR GECTI
+denetim/ARAC-AMERIKA-1923-KUNYE-SINA.js	GECTI		0.34	0	belirsiz	sabit		1867-06-08  Mısır valilerine hidiv unvanının verilmesi
+denetim/ARAC-ANTLASMA-KADEME-SINAV-0074.js	OTTU	BAYAT SABIT ADAYI	0.13	1	belirsiz	sabit		SONUÇ: 2 geçti · 6 kaldı
+denetim/ARAC-ARAMA-0930-SINAV.js	GECTI		0.08	0	belirsiz	olcum		✓ 34 geçti · 0 kaldı
+denetim/ARAC-B-GORUNUM-BANTSINAV-0072.py	HATA	argüman	0.37	2	belirsiz	olcum		ARAC-B-GORUNUM-BANTSINAV-0072.py: error: the following arguments are required: --bantli
+denetim/ARAC-BASKENT-ONCUL-SINA.js	GECTI		1.43	0	belirsiz	sabit		yaslamasıyla çalışır. Yön gösterir, ÖLÇÜ vermez.
+denetim/ARAC-BEKCI-NABIZ-SINAV-1003.py	GECTI		3.75	0	belirsiz	olcum		SONUC: temiz
+denetim/ARAC-BEKCI-SINAV-SAHTEMOTOR-0911.py	ZAMAN-AŞIMI		300		belirsiz	belirsiz		
+denetim/ARAC-BEKCI-SINAV-YARIYAZIM-0911.py	ATLANDI	a:renkler.py · b:C:\\atlas			belirsiz	olcum		
+denetim/ARAC-BUDAMA-SINAV-0907.py	GECTI		0.96	0	belirsiz	olcum		🟢 GEÇTİ — hiçbir satır ve hiçbir manşet kaybolmadı.
+denetim/ARAC-CCIZIM2-POLIGON-TEST-0911.js	GECTI		0.07	0	belirsiz	olcum		ÇALIŞIR — YENİ KOD GEREKMEZ.
+denetim/ARAC-CIZGI-ANLAM-0072-SINAV.js	ATLANDI	c:HTTP			belirsiz	olcum		
+denetim/ARAC-CIZGI-ANLAM-0074-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-D-RENK-0073-SINAV.py	HATA	dosya-yok (BAŞKA MAKİNENİN temp yolu C:\Users\emrem\… gömülü)	0.37	1	belirsiz	olcum		FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\emrem\\AppData\\Local\\Temp\\claude\\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\\0f85f827-a96b-4a7c-bfd6-a06cab079a08\\sc
+denetim/ARAC-D3ORTA-SINA-0916.js	GECTI		1.01	0	belirsiz	olcum		🔴 9 sorun (başka dosyayla çakışma dahil)
+denetim/ARAC-D4-HARITA-SINAV-1001.py	GECTI		0.84	0	belirsiz	olcum		✓ 5 yonun hepsi gecti — cozuluyor VE cozulmemesi gereken yakalaniyor
+denetim/ARAC-D5-ASYA-EKOKUMA-SINA-0917.js	GECTI		4.03	0	belirsiz	olcum		kayıt 24 | tur sebep-sonuc,tartisma,magazin,teknik-bilimsel,kimdir,savas-hikayesi | olay bağı 47 | hata 0
+denetim/ARAC-D5-ASYA-SINA-0916.js	GECTI		0.11	0	belirsiz	sabit		kayıt 141 { E: 30, YOK: 78, C: 33 } | madde 95 | kırılma 97 geçiş(sayılmadı) 96 | maddesiz 0 | hata 0
+denetim/ARAC-DEGISMEZ2-SIZINTI-SINAV-1004.py	GECTI		28.94	0	belirsiz	olcum		SONUÇ: TÜM SINAVLAR GEÇTİ — araç iki yönde çalışıyor
+denetim/ARAC-DEGISMEZ2-YERKORU-SINAV-1004.py	OTTU	GERILEME ADAYI	17.11	1	belirsiz	olcum		SONUÇ: 1 HATA — araç ÇALIŞIYOR SAYILMAZ
+denetim/ARAC-DEGISMEZ8-KORLUK-SINAV-1004.py	HATA	üretilmiş-çıktı-yok (devletler_harita.js; betik kendisi söylüyor)	6.06	1	tek seferlik	olcum		RuntimeError: devletler_harita.js YOK (üretilmiş + gitignore'lu çıktı) — taze bir ağaçta beklenir; koşudan sonra oluşur
+denetim/ARAC-DEVRALMA-DONGU-SINAV-1004.py	GECTI		6.95	0	belirsiz	olcum		8/8 geçti
+denetim/ARAC-DONEMLER-OKUYUCU-SINAV-1004.py	ATLANDI	a:uret_petek.py · d:uret_petek+subprocess			belirsiz	olcum		
+denetim/ARAC-EKO-BOLGE-BAG-SINA-0920.py	GECTI		0.5	0	belirsiz	olcum	M denetim/EKO-BOLGE-BAG-0920.json (35 satır)	-> C:\atlas-w27\denetim\EKO-BOLGE-BAG-0920.json
+denetim/ARAC-EKO1806-SINA-0920.js	GECTI		0.41	0	belirsiz	olcum		⑥ id: iç mükerrer 0 · dış mükerrer 0 ✓
+denetim/ARAC-EKOKUMA-ANTLASMA-0921-SINAV.js	GECTI		1.39	0	belirsiz	olcum		TERS YON SINAVI (tutmaması gereken bağ): ✓ tutmadı
+denetim/ARAC-ENKLAV-SINAV-0907.py	OTTU	BAYAT SABIT ADAYI	10.64	1	belirsiz	sabit		AssertionError: TABAN 661 DEĞİL (734) — ya veri değişti ya ALETİ YANLIŞ YERDEN OKUYORUM. İkincisi ise bu betiğin bütün sayıları geçersiz.
+denetim/ARAC-ETIKET-0073-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-FAZ2-SINAV-0906.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/ARAC-GOSTERIM-0075-ONLE-SINAV.py	GECTI		0.51	0	belirsiz	olcum		SONUÇ: TÜM SINAVLAR GEÇTİ
+denetim/ARAC-HALKA-SARI-0072-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-HALKA-SINA-0913.js	HATA	üretilmiş-çıktı-yok (data/devletler_harita.js gitignore'lu)	0.09	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ARAC-HARITA-DURUM-0074-KABARTMA-SINAV.py	GECTI		0.46	0	belirsiz	belirsiz		yazildi
+denetim/ARAC-HIMAYE-SINAV-0914.py	ATLANDI	b:C:\atlas			belirsiz	sabit		
+denetim/ARAC-HLA-JSON-SINA-0913.py	GECTI		0.41	0	belirsiz	olcum		hata: 0
+denetim/ARAC-INCE-BATI-AFRIKA-SINA.py	GECTI		1.78	0	belirsiz	sabit		kunye sayisi: 9
+denetim/ARAC-KAMERIKA-0903-kara-sina.py	HATA	dosya-yok (denetim/adaylar_tum.json)	0.14	1	belirsiz	belirsiz		FileNotFoundError: [Errno 2] No such file or directory: 'C:\\atlas-w27\\denetim\\adaylar_tum.json'
+denetim/ARAC-KAMERIKA-0903-kunye-sina.py	GECTI	çıkış0-ama-başarısızlık-izi	0.15	0	belirsiz	belirsiz		takvimde olmayan gün     → 🟢 ÖTTÜ
+denetim/ARAC-KAMERIKA-0903-madde-sina.py	GECTI		0.73	0	belirsiz	belirsiz		🟢 DÖRT SINAV DA TEMİZ — inmeye hazır
+denetim/ARAC-KAMERIKA-0903-rapor-sina.py	GECTI		0.13	0	belirsiz	belirsiz		🟢 raporun andığı her dosya diskte
+denetim/ARAC-KAMERIKA-0903-taban-sina.py	GECTI		3.02	0	belirsiz	sabit	?? denetim/_omur.json (yeni)	künye ömrü okunan: 896
+denetim/ARAC-KAMERIKA-SINAV-0907.py	OTTU	GERILEME ADAYI	0.94	1	belirsiz	olcum		🔴 SINAV DUSTU
+denetim/ARAC-KAYNAK-TAVAN-SINAV-1004.py	OTTU	GERILEME ADAYI	183.38	1	belirsiz	olcum		19/20 soru geçti · KALDI: S1
+denetim/ARAC-KIMLIK-SINA-0903.py	GECTI		0.32	0	belirsiz	olcum		🟢 hicbir donem kunye omrunun disina tasmiyor
+denetim/ARAC-KITA13-KUTU-SINAV-0912.py	GECTI		0.54	0	belirsiz	belirsiz		Dâhile                         25.494   28.976
+denetim/ARAC-KODLA-VK-SINAV-1004.py	ATLANDI	a:uret_petek.py · d:uret_petek+subprocess			belirsiz	olcum		
+denetim/ARAC-KOSU10-KALAN-SINA-0917.py	HATA	argüman (sys.argv[1] yok)	0.12	1	belirsiz	olcum		IndexError: list index out of range
+denetim/ARAC-KRONO-BALKAN-D-0929-SINA.js	GECTI		0.4	0	belirsiz	olcum		SONUÇ: temiz
+denetim/ARAC-KRONO-KUNYE-PENCERE-SINAV-1004.py	GECTI		37.67	0	belirsiz	olcum		SONUÇ: TÜM SINAVLAR GEÇTİ — araç iki yönde çalışıyor
+denetim/ARAC-KRONO-KUZEY-0929-SINA.js	GECTI		0.1	0	belirsiz	olcum		SONUÇ: zorunlu alan + künye varlığı TEMİZ (pencere dışı ayrıca raporlandı)
+denetim/ARAC-KRONO-SUZGEC-SINAV-1004.py	GECTI		7.68	0	belirsiz	olcum		SONUÇ: TÜM SINAVLAR GEÇTİ — araç iki yönde çalışıyor
+denetim/ARAC-KRONO-TUNA-0929-SINA.js	GECTI		0.87	0	belirsiz	olcum		SONUÇ: temiz
+denetim/ARAC-KUNYE-KRONO-KAPSAM-SINAV-1004.py	OTTU	GERILEME ADAYI	26.74	1	belirsiz	olcum		SONUÇ: 3 HATA — araç ÇALIŞIYOR SAYILMAZ
+denetim/ARAC-KUNYE-SINA-0903.py	HATA	argüman (sys.argv[1] yok)	0.25	1	belirsiz	sabit		IndexError: list index out of range
+denetim/ARAC-KUTU-SIRA-SINA.js	GECTI		0.29	0	belirsiz	sabit		OKYANUSYA'ya düşüyor ⇒ ORASI iş kayması ÜRETİYOR.
+denetim/ARAC-LEGO-alet-sinav.py	HATA	argüman (sys.argv[1] yok)	0.13	1	belirsiz	olcum		IndexError: list index out of range
+denetim/ARAC-LEGO-ayikla-sinav.py	ATLANDI	b:C:\atlas			belirsiz	sabit		
+denetim/ARAC-LISTE-BAYAT-SINAV-1004.py	OTTU	GERILEME ADAYI	14.82	1	belirsiz	olcum		SONUÇ: 1 HATA — araç ÇALIŞIYOR SAYILMAZ
+denetim/ARAC-MANDA-IRAK-SINAV-0907.py	OTTU	BAYAT SABIT ADAYI	1.82	1	belirsiz	sabit		degismez4 DONUS YAPISI DEGISTI: <class 'tuple'>
+denetim/ARAC-MANDA-SINAV-0906.js	HATA	dosya-yok (denetim/yer_yama_manda_0906.js)	0.37	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ARAC-MOSKITO-SINA.js	GECTI		0.26	0	belirsiz	sabit		dağılım: ingiltere 1 · yeni-ispanya 3
+denetim/ARAC-MOTOR-V-KID-SINAV-1004.py	ATLANDI	a:uret_petek.py · d:uret_petek+subprocess			belirsiz	olcum		
+denetim/ARAC-MOTOR-YURUYUS-SINAV-0917.py	ATLANDI	a:uret_petek.py			sürekli	olcum		
+denetim/ARAC-MUKERRER-SINAV-0906.py	OTTU	GERILEME ADAYI	0.33	1	belirsiz	olcum		======================================================================
+denetim/ARAC-NEHIR-SINA-0912.py	GECTI		0.11	0	belirsiz	belirsiz		🟢 SINAV GECTI — ayristi, her deger dugumu `guven` tasiyor
+denetim/ARAC-OK-0071-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-OK-0072-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-OK-0073-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-OK-0074-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-OK-0074B-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-OLCULEMEDI-KAPI-SINAV-1004.py	GECTI		58.1	0	belirsiz	olcum		SONUÇ: temiz
+denetim/ARAC-OYNATMA-SINAV-0906.js	GECTI		0.21	0	belirsiz	olcum		ve sinav bozuk bir aramayi YAKALIYOR.
+denetim/ARAC-PARALEL-SINAV-0910.py	ATLANDI	a:uret_petek.py · d:uret_petek+spawn			belirsiz	olcum		
+denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py	ATLANDI	a:uret_petek.py · d:uret_petek+subprocess			belirsiz	olcum		
+denetim/ARAC-RUSAMERIKA-SINAV-0907.py	GECTI		1.08	0	belirsiz	olcum		🟢 KUNYE ONERISI SINAVLARI GECTI — renk borcu AYRI
+denetim/ARAC-SEFER-OK-SINAV-0070.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-SEFER-OK-SINAV-0075.py	HATA	argüman (sys.argv[1] yok)	3.91	1	belirsiz	olcum		IndexError: list index out of range
+denetim/ARAC-SEFER-OK-SINAV-TARAYICI-0075.js	HATA	tarayıcı-betiği (harita is not defined)	0.07	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ARAC-SERHAT-IZGARA-SINAV-0907.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/ARAC-SERHAT-SINAV-0907.py	ATLANDI	b:C:\atlas			belirsiz	sabit		
+denetim/ARAC-SICIL-SINAV-0910.py	GECTI		0.14	0	belirsiz	olcum		paket: 0002, 0003, 0004, 0005, E0008, E0017, E0018, E0019, E0021, E0022, E0023, E0024, E0025, E0028, E0030, E0031, E0032, E0034, E0035, E0036, E0037, E0040
+denetim/ARAC-SICIL-SINAV-IM-0910.py	GECTI		0.7	0	belirsiz	olcum		SINAV: 4/4
+denetim/ARAC-SINIR-ARAP-SINAV-0907.js	GECTI		0.07	0	belirsiz	olcum		SONUC: 10/10 — cikti kendi sinavini gecti
+denetim/ARAC-SINIR-ASYA-CIPA-SINAV-0907.py	GECTI		0.59	0	belirsiz	olcum		=== B'nin SAHTE ORTUSMESI (ayni gun iki donem aktif): 0
+denetim/ARAC-SINIR-BALKAN-SINAV-0907.py	GECTI		0.2	0	belirsiz	sabit		SONUC  : GECTI
+denetim/ARAC-TAHTA-KAPI-SINAV-1003.py	HATA	ortam (.git/rebase-merge — worktree'de .git dosyadır)	0.18	1	belirsiz	olcum		FileNotFoundError: [WinError 3] Sistem belirtilen yolu bulamıyor: 'C:\\atlas-w27\\.git\\rebase-merge'
+denetim/ARAC-TASIMA-ON-SINAV-0905.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/ARAC-TEKILLE-SINAV-0907.py	GECTI		0.65	0	belirsiz	olcum		ANLIK GORUNTU: 4299 kayit -> C:\Users\user\AppData\Local\Temp\_tekille_once.json
+denetim/ARAC-TEMIZ-SINAV-0914.js	HATA	argüman (process.argv yolu undefined)	0.06	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ARAC-TR1923-ZINCIR-SINAV-0914.py	GECTI		0.95	0	belirsiz	olcum		Küçükperveli                 en yakın Gümrü (Aleksandropol)     23.5 km · uyuşmayan  62/127 · ilk 1535-06-15: OSMANLI ≠ safevi
+denetim/ARAC-TUZ-SINAV-0924.py	ATLANDI	a:uret_petek.py · b:C:\atlas			belirsiz	olcum		
+denetim/ARAC-UFUK-SABITI-SINAV-1004.py	ATLANDI	a:uret_petek.py · d:uret_petek+subprocess			belirsiz	olcum		
+denetim/ARAC-UYGULA4-ONSINAV-0918.py	GECTI		1.46	0	belirsiz	sabit		🟢    19 gün · 1789-10-13 · Belgrad ve Semendire'nin Avusturya'nın eline geçmesi · olaylar_p0068.js
+denetim/ARAC-VL-SINAV-0907.py	GECTI		0.99	0	belirsiz	belirsiz		⚪ OLCULEMEDI: capanin KONUMU — gercek Voronoi hucresi gerekiyor.
+denetim/ARAC-YAMA-JS-SINA-0905-kos.py	GECTI		0.56	0	belirsiz	olcum		YER_YAMA_TBMM_DORT_0906: 4 kayit
+denetim/ARAC-YAMA-JS-SINA-0905.js	HATA	argüman (process.argv yolu undefined)	0.06	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ARAC-YAMA-SINA.js	ATLANDI	c:HTTP			belirsiz	olcum		
+denetim/ARAC-YAMA-SINAV-1001.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/ARAC-YERLESIM-UYGULA-0930-SINAV.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/ARAC-YETIM-MADDE-SINAV-1004.py	GECTI	çıkış0-ama-başarısızlık-izi	114.29	0	belirsiz	olcum		SONUÇ: TÜM SINAVLAR GEÇTİ — araç iki yönde çalışıyor
+denetim/ARAC-YUK-ACILIS-SINAV-0925.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-YUK-KAPI-SINAV-0925.py	ATLANDI	b:C:/atlas			belirsiz	olcum		
+denetim/ARAC-YUK-SINAV-0925.js	HATA	argüman (process.argv yolu undefined)	0.06	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ARAC-YUK-SINAV-OKU-0925.py	GECTI		0.11	0	belirsiz	olcum		
+denetim/ARAC-YUKLEME-0072-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/ARAC-YURUME-SINA-0912.py	GECTI		0.12	0	belirsiz	olcum		SINAV TEMIZ
+denetim/ARAYUZ-MADDE-0930-KAPI-SINAV.py	HATA	argüman (sys.argv[1] yok)	0.11	1	belirsiz	olcum		IndexError: list index out of range
+denetim/DEGISMEZ-0086-sinav.py	HATA	üretilmiş-çıktı-yok (devletler_harita.js; betik kendisi söylüyor)	2.01	1	belirsiz	sabit		RuntimeError: devletler_harita.js YOK (üretilmiş + gitignore'lu çıktı) — taze bir ağaçta beklenir; koşudan sonra oluşur
+denetim/EKO-UI-0073-SINAV.js	ATLANDI	c:http			belirsiz	olcum		
+denetim/EKOKUMA-0076-A-SINA.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/EKOKUMA-0076-B-sina.py	ATLANDI	b:C:\atlas			belirsiz	sabit		
+denetim/EKOKUMA-0077-B-sina.py	ATLANDI	b:C:\atlas			belirsiz	sabit		
+denetim/GOVDE-CAKISMA-0079-yama-sina.py	HATA	argüman (sys.argv[1] yok)	0.13	1	belirsiz	olcum		IndexError: list index out of range
+denetim/KRONO-0076-A-sina.py	OTTU	GERILEME ADAYI	0.47	1	belirsiz	olcum		SONUC: KUSUR VAR -> id carpismasi: ['sebep-sonuc-islahat-fermani-1856', 'teknik-arazi-kanunnamesi-1858', 'teknik-darulfunun-dort-deneme', 'tartisma-universite-kurulus-yili-1453-mi-1863-mu', 'teknik-ey
+denetim/KRONO-0076-C-sinav.py	ATLANDI	b:C:\atlas			belirsiz	olcum		
+denetim/NOKTA-KAFKAS-0077-sina.py	GECTI		0.57	0	belirsiz	olcum		kusur: 0
+denetim/ODAK-ASYA-0080-sina.js	HATA	girdi-boş (Unexpected end of JSON input)	0.06	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ODAK-AVRUPA-BATI-0080-sina.js	HATA	argüman (process.argv yolu undefined)	0.09	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ODAK-BALKAN-0080-sina.js	HATA	argüman (process.argv yolu undefined)	0.09	1	belirsiz	olcum		Node.js v24.19.0
+denetim/ODAK-KAPI-SINAV.py	GECTI	çıkış0-ama-başarısızlık-izi	4.74	0	sürekli	olcum	M denetim/ODAK-TAVAN.json (yalnız satır sonu; içerik farkı 0)	geri alma doğrulandı: ✓ data/ temiz
+denetim/ODAK-OSMANLI-ANADOLU-0080-olcer-sinav.py	HATA	istisna:AttributeError	0.15	1	belirsiz	olcum		AttributeError: module 'odak_olc' has no attribute 'yer_havuzu'
+denetim/ORTAK-0076-BIRLESTIRME-SINAVI.py	OTTU	GERILEME ADAYI	0.73	1	sürekli	olcum		🔴 BİRLEŞTİRİLEMEZ — yukarıdaki çakışmalar çözülmeden data/'ya inmez
+denetim/SINAV-BIRLESTIR-0907.py	GECTI		22.05	0	belirsiz	olcum		==============================================================================
+denetim/SINAV-DONEM-KAYNAK-0907.py	GECTI		0.31	0	belirsiz	olcum		(sabit `sira` listesi) tersi — o kusur BURADA YOK.
+denetim/SINAV-IKINCI-GECIS-0903.py	OTTU	BAYAT SABIT ADAYI	0.46	1	belirsiz	sabit		denetim/oneri-20260903-223128.txt
+denetim/SINAV-JSON-ESDEGER-0907.py	HATA	üretilmiş-çıktı-yok (devletler_harita.js · donemler.js)	0.15	1	belirsiz	olcum		GEÇER — o ayrı bir sınavdır ve YAZILMADI.
+denetim/SINAV-KOSU8-ACIK-0907.py	GECTI		143.04	0	belirsiz	sabit		KANITLAMAZ. ⇒ Ⓐ bir ÜST SINIR, Ⓑ bir ALT SINIR.
+denetim/SINAV-KOSU8-ACIKBAGLAM-0907.py	GECTI		202.65	0	belirsiz	olcum		KESİNLİKLE kapatır — ve bu projede o hata dört kez ölçüldü.
+denetim/SINAV-KOSU8-ACIKCINS-0907.py	GECTI		106.3	0	belirsiz	olcum		dosyada yapılmış olabilir. Bu kova bir ÜST SINIRDIR.
+denetim/SINAV-KOSU8-ACIKUZANTI-0907.py	GECTI		206.9	0	belirsiz	olcum		alet onu OKUMUYOR. Ⓖ kovası `okumadım` damgalı kalır.
+denetim/SINAV-KOSU8-ALASKA-DONUSTUR-0907.py	ATLANDI	a:renkler.py			belirsiz	olcum		
+denetim/SINAV-KOSU8-ALASKA-KIYAS-0907.py	GECTI		0.19	0	belirsiz	olcum		🟢 RAPOR ile YAMA BİREBİR AYNI — iki uç tutuyor.
+denetim/SINAV-KOSU8-ALASKA-MALIYET-0907.py	GECTI		1.4	0	belirsiz	sabit		⇒ gün külliyatta KALIYOR; yama onu düşürmüyor.
+denetim/SINAV-KOSU8-ALETESIK-0907.py	GECTI		0.85	0	sürekli	sabit		⇒ Bu liste bir HÜKÜM değil, elle okunacak bir KISALTMA.
+denetim/SINAV-KOSU8-B-0907.py	GECTI		12.26	0	belirsiz	sabit		bugün ÜÇ KEZ bir ad eşleşmesinden yanlış hüküm çıkardı.
+denetim/SINAV-KOSU8-BASLIK-0907.py	GECTI		2.57	0	belirsiz	olcum		dosyalık bir sahte borç listesi üretirdi.
+denetim/SINAV-KOSU8-BITIS-0907.py	HATA	ölçülemedi (çıkış 2: 7B aşama tablosu ayrıştırılamadı)	0.11	2	belirsiz	sabit		⚫ ÖLÇÜLEMEDİ — 7B aşama tablosu ayrıştırılamadı
+denetim/SINAV-KOSU8-BUGUN24-0907.py	GECTI		1.03	0	belirsiz	olcum		hedef, dosyanın BEYANI değil benim ÇIKARIMIMDIR.
+denetim/SINAV-KOSU8-CINS-0907.py	GECTI		0.24	0	belirsiz	sabit		alanı dosyanın SAHİBİ yazar.
+denetim/SINAV-KOSU8-ENKLAV-0907.py	OTTU	BAYAT SABIT ADAYI	7.89	1	belirsiz	sabit		⚠️ Bu «temiz» değil: `+1` ADLANDIRILAMADI.
+denetim/SINAV-KOSU8-EVREN-0907.py	GECTI		3.2	0	belirsiz	olcum		bir desen tek başına dosya getiriyorsa, benzerleri de aranmalı.
+denetim/SINAV-KOSU8-FIKSTUR-VL-0907.js	GECTI		0.06	0	belirsiz	olcum		DÖNEM 140 · `v` 70 · `vl` 70
+denetim/SINAV-KOSU8-KAPI-0907.py	ATLANDI	d:uret_petek+subprocess			belirsiz	olcum		
+denetim/SINAV-KOSU8-KILIT-0907.py	OTTU	GERILEME ADAYI	0.12	1	belirsiz	olcum		«bulunamadı» DEĞİL.
+denetim/SINAV-KOSU8-KIYAS-0907.js	ATLANDI	a:uret_petek.py · d:uret_petek+execFile			belirsiz	olcum		
+denetim/SINAV-KOSU8-KOS-0907.py	ATLANDI	d:uret_petek+subprocess			belirsiz	olcum		
+denetim/SINAV-KOSU8-MUKERRERANAHTAR-0907.py	OTTU	BAYAT SABIT ADAYI	0.78	1	belirsiz	sabit		kalemi (`§7`). Koşu 8 sürerken `data/` DONUK.
+denetim/SINAV-KOSU8-PETEKSIZ-0907.py	HATA	ölçülemedi (çıkış 2: 'temiz değil, çürüdü değil')	0.28	2	belirsiz	olcum		--- aletin ilk 15 satırı ---
+denetim/SINAV-KOSU8-RENKSIZ-0907.py	GECTI		0.75	0	belirsiz	sabit		TANIM 1 «harita deliği açar mı», TANIM 2 «künye eksiksiz mi».
+denetim/SINAV-KOSU8-SAHIP-0907.py	GECTI		6.48	0	belirsiz	sabit		⚠️ `_HEDEF` bir ÖNERİDİR — bu betik sözleşmeyi ÖLÇER, KOYMAZ.
+denetim/SINAV-KOSU8-SIFIR-0907.py	GECTI		0.11	0	belirsiz	sabit		SAHİPLENMEDİM.
+denetim/SINAV-KOSU8-URETIMSIZ-0907.py	ATLANDI	d:uret_petek+subprocess			sürekli	olcum		
+denetim/SINAV-KOSU8-VL-0907.js	ATLANDI	d:uret_petek+execFile			belirsiz	olcum		
+denetim/SINAV-KOSU8-ZINCIR-0907.py	GECTI		0.18	0	belirsiz	olcum		burada KENDİLİĞİNDEN görünür — elle güncellenmez.
+denetim/SINAV-KUR-ALANI-0905.py	GECTI		0.15	0	belirsiz	olcum		======================================================================
+denetim/SINAV-M0342-0907.js	HATA	üretilmiş-çıktı-yok (data/donemler.js gitignore'lu)	0.06	1	belirsiz	olcum		Node.js v24.19.0
+denetim/SINAV-ONEM-SUZGEC-0910.js	OTTU	GERILEME ADAYI	0.27	1	belirsiz	olcum		🔴 1 SINAV ÇÖKTÜ
+denetim/SINAV-RENK-98-0903.py	OTTU	BAYAT SABIT ADAYI	0.11	1	belirsiz	sabit		🔴 Beklenen sayı ZORUNLU — bkz. dosya başlığı.
+denetim/SINAV-VASSAL-GORUNUM-0907.js	HATA	tarayıcı-betiği (window is not defined)	0.06	1	belirsiz	olcum		Node.js v24.19.0
+denetim/SINIR-BERLIN-0076-sina.py	GECTI		0.1	0	belirsiz	olcum		geliştirici sesi ihlali: 0
+denetim/SINIR-CIZGI-0076-SINA.py	ATLANDI	b:C:\atlas			belirsiz	olcum		

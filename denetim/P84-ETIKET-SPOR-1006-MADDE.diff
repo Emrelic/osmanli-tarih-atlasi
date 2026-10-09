@@ -1,0 +1,26 @@
+diff --git a/data/kronoloji_dogu_afrika.js b/data/kronoloji_dogu_afrika.js
+index cff08985..023f0273 100644
+--- a/data/kronoloji_dogu_afrika.js
++++ b/data/kronoloji_dogu_afrika.js
+@@ -833,7 +833,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
+   kaynak:"TDV `mombasa`: \"Mombasa'ya uğrayarak (1516) burası hakkında bilgi veren Duarte Barbosa şehrin taştan yapılmış badanalı evleri, güzel caddeleri ve gösterişli meydanları bulunduğunu, ahalisinin bal, bal mumu ve fildişi ihraç ettiğini belirtmekte\"" },
+ 
+ { taraflar:["svahili-sehirleri"], t:"1528-01-02", b:"Mombasa sultanının Nuno da Cunha'ya karşı 5000 yerli okçuyla savunması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Mombasa",
+-  etiket:["askeri","konu-askeri","konu-spor"],
++  etiket:["askeri","konu-askeri"],
+   d:"Portekiz'in Hindistan valisi Nuno da Cunha 1528'de Mombasa'ya saldırdı; sultan buna karşı 5000 Afrikalı yerli okçuyu şehre getirdiği gibi bir Portekiz gemisinden aldığı topu kaleye yerleştirerek şehri savunmaya çalıştı. Svahili şehirlerinin iç Afrika ile kurduğu askerî ittifakın ilk kayıtlı örneğidir.",
+   kaynak:"TDV `mombasa`: \"1528'de Mombasa'ya saldıran Portekiz'in Hindistan valisi Nuno da Cunha'ya karşı kullanmak üzere Mombasa sultanı Afrikalı 5000 yerli okçuyu şehre getirdiği gibi bir Portekiz gemisinden aldığı topu kaleye yerleştirerek şehri savunmaya çalıştı\"" },
+ 
+diff --git a/data/kronoloji_fransa.js b/data/kronoloji_fransa.js
+index 0b4db344..67263605 100644
+--- a/data/kronoloji_fransa.js
++++ b/data/kronoloji_fransa.js
+@@ -310,7 +310,7 @@ window.KRONOLOJI_FRANSA = [
+   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.097,3.539] },
+ 
+ { t:"1559-07-10", b:"II. Henri'nin turnuva kazasında ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Paris",
+-  etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
++  etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan","konu-spor"],
+   d:"Barış kutlamaları sırasında düzenlenen bir mızrak turnuvasında gözüne kırık mızrak parçası saplanan kral on gün sonra öldü. Ölümü, zayıf ve genç Valois kral çocuklarının döneminde Catherine de Médicis'in fiilî naipliğini ve Din Savaşları'na giden siyasî boşluğu başlattı.",
+   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+ 

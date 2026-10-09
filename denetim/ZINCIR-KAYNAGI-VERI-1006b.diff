@@ -1,0 +1,31 @@
+diff --git a/data/yerlesimler_p0037.js b/data/yerlesimler_p0037.js
+index bf968e0d..8fd1ac5a 100644
+--- a/data/yerlesimler_p0037.js
++++ b/data/yerlesimler_p0037.js
+@@ -44,7 +44,7 @@
+ window.YERLESIMLER_P0037 = [
+ 
+ // ───── H-0001 · Cenûbî Besarabya ─────
+-{ ad:"Kahul (Cahul)", tur:"sehir", lat:45.905, lon:28.198, g:0, k:4, m:"Yaş",
++{ ad:"Kahul (Cahul)", zincir_kaynagi:{yer:"İsmail", pencere:["1456-06-01","1538-09-01"], tur:"pencere"}, tur:"sehir", lat:45.905, lon:28.198, g:0, k:4, m:"Yaş",
+   isg:[{f:"1806-11-30",t:"1812-05-28",d:"rusya",kaynak:"bogdan · gün komşudan: Akkirman · TDV akkirman (30 Kasım 1806); ESBE «Турецкие войны России»: Mihelson'a Memleketeyn'i işgal emri, 11 Kasım J'de Dinyester geçişi"}],
+   s:[{f:"1281-01-01",t:"1359-01-01",d:"altinorda",kaynak:"ÇIKARIM: TDV bogdan 'XIII. yüzyıldan itibaren de Tatarlar'la Gagauzlar'ın istilâsına uğrayan Moldavya' + TDV bucak (komşu). 1345-1359 Macar markı (Dragoş) yılı TDV'de bulunamadı · bitiş = künye bogdan f — DUNYA-0079"},{f:"1359-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1856-03-30",d:"rusya"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-01-01",d:"sovyet-rusya"},{f:"1918-01-01",t:"1923-10-29",d:"romanya-kralligi"}],
+   v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı",statu:"vassal",kid:"bogdan"},{f:"1856-03-30",t:"1878-07-13",k:"Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",statu:"vassal"}],
+@@ -58,7 +58,7 @@ window.YERLESIMLER_P0037 = [
+   kaynak:"TDV `bogdan` (gövdesi okundu): 1856 iadesi ve 1878 geri alınışı Bolgrad'ı ADIYLA sayıyor. Kuruluş 1821 (Rus idaresinde Bulgar göçmen kolonisi): TDV `bolgrad` 302, Encyclopedia of Ukraine sayfası BULUNAMADI — yıl genel akademik/coğrafî bilgi, DOĞRULANMADI; `kur:` alanı bu yüzden yuvarlak (1821-01-01). Koordinat: coğrafî bilgi." },
+ 
+ // ───── H-0005 · Kola yarımadasının içi ─────
+-{ ad:"Lovozero (Luyavr)", tur:"sehir", lat:68.005, lon:35.015, g:0, k:4,
++{ ad:"Lovozero (Luyavr)", zincir_kaynagi:{yer:"Kola", pencere:["1281-01-01","1923-10-29"], tur:"birebir"}, tur:"sehir", lat:68.005, lon:35.015, g:0, k:4,
+   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+   d:[],
+   kaynak:"bulunamadı — TDV bu coğrafyayı kapsamıyor. Sami (Lapon) pogostu; ilk anılışı XVI. yüzyıl (1574 Loyyavrsiyt / 1608 vakayinâme) — genel akademik/coğrafî bilgi. Sahiplik zinciri Kola'nın (yerlesimler_ek8.js) zinciriyle birebir: yarımadanın içi Kola uyezdinin parçası. Koordinat: coğrafî bilgi. Amaç: H-0005 görselindeki tavan boşluğunu doldurmak (kutuda 0 nokta ölçüldü)." },
+@@ -91,7 +91,7 @@ window.YERLESIMLER_P0037 = [
+   kaynak:"Kuruluş 10 Nisan 1580 ve koordinat: kronoloji_lehistan.js'teki iki eksik_nokta kaydı (N. Davies, God's Playground). Taksim/1809/1815 günleri Lublin kaydıyla aynı dayanak." },
+ 
+ // Prusya payı → Tilsit'le Rusya (1807)
+-{ ad:"Białystok", tur:"sehir", lat:53.1325, lon:23.1688, g:0, k:4,
++{ ad:"Białystok", zincir_kaynagi:{yer:"Varşova", pencere:["1918-11-11","1923-10-29"], tur:"pencere"}, tur:"sehir", lat:53.1325, lon:23.1688, g:0, k:4,
+   s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
+   d:[],
+   kaynak:"N. Davies, God's Playground: üçüncü taksimde Prusya'ya (Yeni Doğu Prusya), Tilsit (9 Temmuz 1807 — kronoloji_almanya.js'te maddeli) ile Rusya'ya (Belostok oblastı). Prusya külliyatta Varşova kaydının deseniyle `almanya` kimliğinde. 1918-11-11 Polonya günü Varşova'nın deseni (fiilî Polonya girişi Şubat 1919 — ay farkı bilinçli, külliyat günü tercih edildi). Koordinat: coğrafî bilgi." },

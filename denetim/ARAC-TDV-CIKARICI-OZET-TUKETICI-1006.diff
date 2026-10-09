@@ -1,0 +1,65 @@
+diff --git a/denetim/ARAC-ALINTI-264-1006.py b/denetim/ARAC-ALINTI-264-1006.py
+index b23cb96d..9c2aeaad 100644
+--- a/denetim/ARAC-ALINTI-264-1006.py
++++ b/denetim/ARAC-ALINTI-264-1006.py
+@@ -64,12 +64,10 @@ def govde(slug):
+         GOVDE[slug] = (f"HTTP {kod}", "", nereden)
+         return GOVDE[slug]
+     t = C.tam(h)
+-    # 🔴 MADDE ÖZETİ: başlığın altındaki tanım cümlesi (div.article_info) m-content DIŞINDADIR ve
+-    # ARAC-TDV-CIKARICI-1006.tam() onu gövdeye KATMAZ. Sayfada görünür TDV metnidir ⇒ ölçüme katılır,
+-    # ayrı işaretlenir (birebir_yer = OZET).
+-    from bs4 import BeautifulSoup
+-    oz = " ".join(C._duz(x.get_text(" ")) for x in BeautifulSoup(h, "html.parser").select(".article_info"))
+-    OZET[slug] = oz
++    # 🔴 MADDE ÖZETİ: başlığın altındaki tanım cümlesi (div.article_info) m-content DIŞINDADIR; tam() onu
++    # gövdeye KATMAZ, ayrı `ozet` alanında verir (TDV-CIKARICI-OZET-1006). Alıntı metinleri tek kapıdan,
++    # `alinti_metinleri()`nden alınır; özet ayrı işaretlenir (birebir_yer = OZET).
++    OZET[slug] = dict(C.alinti_metinleri(t)).get("OZET", "")
+     metin, sinif = t["govde"], "TAM"
+     if not t["bolumler"] and t["gonderme"]:
+         parca = []
+diff --git a/denetim/DEVLETLER-SLUG-IZ-1006-B-URET.py b/denetim/DEVLETLER-SLUG-IZ-1006-B-URET.py
+index f2901523..68d1bf4f 100644
+--- a/denetim/DEVLETLER-SLUG-IZ-1006-B-URET.py
++++ b/denetim/DEVLETLER-SLUG-IZ-1006-B-URET.py
+@@ -1,6 +1,6 @@
+ # DEVLETLER-SLUG-IZ-1006-B — "ucuz okuma turu" 14 kaleminin kaynak önerisini üretir (SALT OKUR).
+ # Depoya YAZMAZ: data/devletler.js'i okur, önerilen hâli argv[1] yoluna yazar; diff'i çağıran üretir.
+-# Her alıntı TDV gövdesinden (kaynakça HARİÇ, ARAC-TDV-CIKARICI-1006.tam) BİREBİR aranır; yoksa assert düşer.
++# Her alıntı TDV metninde (özet + gövde, kaynakça HARİÇ, ARAC-TDV-CIKARICI-1006.alinti_metinleri) BİREBİR aranır; yoksa assert düşer.
+ # Kullanım: py DEVLETLER-SLUG-IZ-1006-B-URET.py <cikti-yolu> [--onbellek <dizin>]
+ import sys, os, importlib.util
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+@@ -49,20 +49,25 @@ K = [
+   "Hindistan genel valisi Lord Curzon yüzbaşı Mead’i Küveyt’e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899).", "", None),
+ ]
+ 
+-govde = {}
++metin = {}
+ def g(slug):
+-    if slug not in govde:
++    """Alıntının aranacağı TDV metinleri: özet + gövde, AYRI parçalar, kaynakça HARİÇ. Tek kapı:
++    cik.alinti_metinleri (TDV-CIKARICI-OZET-1006)."""
++    if slug not in metin:
+         kod, h = cik.getir(slug)
+         assert kod == "200", (slug, kod)
+-        govde[slug] = cik.tam(h)["govde"]
+-    return govde[slug]
++        metin[slug] = [t for _, t in cik.alinti_metinleri(cik.tam(h))]
++    return metin[slug]
++
++def var(q, slug):
++    return any(q in t for t in g(slug))
+ 
+ yol = os.path.join(KOK, "data", "devletler.js")
+ ham = open(yol, "rb").read().decode("utf-8")
+ for madde, eski, slug, q, ek, yeni_t in K:
+-    assert q in g(slug), ("ALINTI GÖVDEDE YOK", madde, slug)
++    assert var(q, slug), ("ALINTI GÖVDEDE/ÖZETTE YOK", madde, slug)
+     for parca in [p for p in ek.split("«")[1:]]:          # ekteki ikinci alıntı da birebir olmalı
+-        assert parca.split("»")[0] in g("suriye"), ("EK ALINTI YOK", madde)
++        assert var(parca.split("»")[0], "suriye"), ("EK ALINTI YOK", madde)
+     yeni = "TDV: %s — «%s»%s" % (slug, q, ek)
+     eski_a = 'kaynak:"%s"' % eski
+     yeni_a = 'kaynak:"%s"' % yeni.replace('"', '\\"')

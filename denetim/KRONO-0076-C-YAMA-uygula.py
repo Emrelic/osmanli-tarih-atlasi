@@ -14,7 +14,7 @@ Kural: her capa dosyada TAM 1 kez bulunmali. 0 ya da >1 ise O YAMA ATLANIR
 """
 import io, os, sys
 
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UYGULA = "--uygula" in sys.argv
 GUN11 = "--gun-11" in sys.argv
 

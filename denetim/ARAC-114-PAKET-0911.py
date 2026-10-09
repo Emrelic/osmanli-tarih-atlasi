@@ -18,7 +18,8 @@ import io
 import json
 import re
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 onceki = json.load(io.open(KOK + r"\denetim\PAKET-PRENSLIK-PENCERE-0911.json", encoding="utf-8"))
 kayitlar = onceki["kayitlar"]
 

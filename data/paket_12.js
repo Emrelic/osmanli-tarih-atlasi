@@ -163,7 +163,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"Mehmed Bey'in ölümünden sonra Güneri Bey beyliğin liderliğini üstlendi ve toprakları Akdeniz kıyısına doğru genişletmeyi sürdürdü.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1286-01-01", b:"Güneri Bey, Lârende'yi (Karaman şehri) ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
@@ -187,7 +187,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"707 (1307-08) yılı civarında Mahmud Bey'in ölümüyle beylikte yönetim el değiştirdi.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1314-12-01", b:"Yahşi Bey Konya'yı ele geçirdi, İlhanlı kuvvetlerince yakalandı", tur:"toprak-kayip",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -241,7 +241,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","hukumdar","taht-kavgasi","konu-kisiler","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Süleyman Bey'in kendi akrabaları tarafından suikaste kurban gitmesinin ardından Alâeddin Bey iktidarı ele geçirdi; Alâeddin Bey'in 37 yıl sürecek uzun hükümdarlığı böyle başladı.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { t:"1366-01-01", b:"Alâeddin Bey, Konya'yı kalıcı olarak ele geçirip başkent yaptı", tur:"toprak-kazanc",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
@@ -277,7 +277,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"793 (1391) yılında Yıldırım Bayezid ile yapılan barış antlaşmasıyla Karamanoğulları'nın batı sınırındaki bazı topraklar Osmanlı'ya bırakıldı.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { t:"1397-01-01", b:"Akçay'da yenilgi; Konya kuşatılıp alındı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -349,13 +349,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","savas","konu-askeri"],
   yer_id:"",
   d:"846 (1442) yılında Macarların Osmanlı'ya karşı giriştiği saldırılarla eşzamanlı olarak İbrâhim Bey Osmanlı topraklarına akınlar düzenledi; II. Murad bu harekete karşılık beylik topraklarında yıkıcı bir sefer yaptı.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1444-08-01", b:"İbrâhim Bey ile II. Murad arasında antlaşma; Osmanlı üstünlüğü kabul edildi", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","vassal","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Ağustos 1444'te İbrâhim Bey ile II. Murad arasında yapılan antlaşmayla Karamanoğulları Osmanlı üstünlüğünü kabul edip rehine verdi.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1448-01-01", b:"İbrâhim Bey Kıbrıs'tan Körkes Kalesi'ni aldı, Konya'yı yeniden başkent yaptı", tur:"toprak-kazanc",
   onem:2, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
@@ -373,7 +373,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"dis", etiket:["isyan","hukumdar","ittifak","konu-diplomasi","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"870 (1465) yılında Fâtih Sultan Mehmed'in desteğini alan Pîr Ahmed, kardeşi İshak'ı yenerek beyliğin tamamına hâkim oldu; İshak aynı yıl öldü.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1468-04-01", b:"Osmanlılar Gevele ve Konya'yı aldı, Pîr Ahmed dağlara çekildi", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -409,19 +409,19 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","edebiyat","konu-kultur"],
   yer_id:"",
   d:"Alâeddin Bey döneminde (1361-1398, kesin tarih TDV'de verilmiyor), Yârcânî mahlaslı bir şair, beyliğin tarihini şehnâme tarzında anlatan Farsça \"Karamannâme\"yi kaleme aldı. Eser, beyliğin tarihi için TDV'nin de belirttiği gibi tek kaynak niteliğindedir; 16. yüzyıl başında Şikârî tarafından Türkçe nesre çevrilecektir.",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1400-01-01", b:"Bölge tahıl, yün, deri, halı ve at ihraç ediyordu", tur:"ekonomi",
   onem:2, dunya:1, kapsam:"ic", etiket:["ekonomi","ticaret","konu-ekonomi"],
   yer_id:"",
   d:"Karamanoğulları toprakları buğday, arpa, yulaf ve pamuk üretiyor, ünlü Karaman koyunu ve soylu atlar yetiştiriyordu; tahıl, yün, deri, halı ve at Kıbrıs, Venedik, Ceneviz ve Memlük Sultanlığı'na ihraç ediliyordu.", ic_not_d:"(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1350-01-01", b:"Türkmen oymak konfederasyonlarına dayanan toplumsal yapı", tur:"sosyal",
   onem:1, dunya:1, kapsam:"ic", etiket:["sosyal","idari","konu-idari","konu-sosyal"],
   yer_id:"",
   d:"Beylik, Türkmen oymak konfederasyonlarına dayanıyordu; hanedan toprakları aile üyeleri ve ileri gelen beyler arasında pay ediyordu. Zâviye ve tekkeler bölgede yaygındı, Konya'da Mevlevî geleneği güçlüydü.", ic_not_d:"(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
-  kaynak:"karamanogullari", kapsam_genis:true },
+  kaynak:"karamanogullari", odak_kimlik:["karaman"], kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1431-01-01", b:"Aksaray Ulucamii tamamlandı", tur:"mimari",
   onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar","konu-kultur","konu-imar"],
@@ -1186,7 +1186,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["artuklu"], t:"1350-01-01", b:"Dicle üzerindeki köprüler ticaret yolunu güvence altına aldı", tur:"ekonomi",
   onem:2, dunya:2, kapsam:"ic", etiket:["ekonomi","ticaret","Dicle","kopru","imar","konu-ekonomi","konu-imar","konu-ulastirma"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["artuklu"], kapsam_genis:true,
   d:"Hasankeyf ve Malabadi köprüleri gibi Artuklu döneminde inşa edilen geçitler, Dicle ve kollarını aşan kervan yollarını güvenli hâle getirerek Doğu Anadolu-Kuzey Mezopotamya arasındaki İpek Yolu koluna hizmet etti. Bu altyapı, Diyarbakır-Mardin-Hasankeyf üçgeninin bölgesel ticaret merkezi olarak üç asır boyunca önemini korumasını sağladı.",
   kaynak:"bulunamadı — TDV'de müstakil ekonomik değerlendirme yok; genel çıkarım, dayanak: artuklular ve hasankeyf maddelerindeki mimari/ticarî bağlam" },
 
@@ -1255,7 +1255,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1343-01-01", b:"Halep kervanı Dulkadır topraklarında soyuldu", tur:"ekonomi",
   onem:2, dunya:1, kapsam:"dis", etiket:["ticaret", "kervan", "Halep", "konu-ekonomi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Halep'ten gelen büyük bir ticaret kervanı Dulkadır beyliği topraklarında soyuldu. Bu olay, beyliğin Suriye-Anadolu ticaret yolu üzerindeki konumunun hem ekonomik fırsat hem de güvenlik sorunu barındırdığını gösterir.",
   kaynak:"dulkadirogullari" },
 
@@ -1265,9 +1265,17 @@ window.KRONOLOJI_ANADOLU = [
   d:"Beyliğin kurucusu Zeyneddin Karaca Bey, Memlükler tarafından idam edildi. Yerine oğlu Halil Bey tahta çıkarak beyliğin başına geçti.",
   kaynak:"dulkadirogullari" },
 
+{ taraflar:["dulkadir","memluk"], t:"1378-01-01", b:"Halil Bey Harput'u yeniden aldı; Berkuk Halep kuvvetlerini Dulkadırlılar üzerine gönderdi", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["Harput", "Memlük", "konu-askeri"],
+  yer_id:"Harput (Elazığ)",
+  gun:"1378 — YIL hassasiyeti; Harput'un geri alınışı 1378'den ÖNCE (yılı TDV'de yok), 1378 Berkuk'un karşı seferinin yılıdır",
+  d:"Dulkadıroğlu Halil Bey, Memlükler'e teslim etmek zorunda kaldığı Harput'u yeniden ele geçirdi. Bunun üzerine Memlük ordularının kumandanı Berkuk, 1378'de Mübârek Şah komutasındaki Halep kuvvetlerini Dulkadırlılar'ın üzerine gönderdi; Mübârek Şah savaş meydanında öldürüldü.",
+  kaynak:"dulkadirogullari",
+  ic_not_kaynak:"TDV `dulkadirogullari` (Refet Yinanç, 1994) gövdesi okundu (9 Ekim 2026, HARPUT-DULKADIR-1009), birebir: \"Ancak Mısır hükümetinin harekete geçmesi üzerine Harput’u Memlükler’e teslim etmek zorunda kaldı. Bununla beraber Halil Bey on yıl sonra bu şehri tekrar ele geçirdi. Bu olay üzerine Memlük orduları kumandanı Berkuk, 1378’de Mübârek Şah emrindeki Halep kuvvetlerini Dulkadırlılar üzerine sevketti.\"" },
+
 { taraflar:["dulkadir"], t:"1379-01-01", b:"Ayas Savaşı'nda Memlükler yenildi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["Ayas", "Memlük", "zafer", "konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Dulkadırlı kuvvetleri, Ayas Savaşı'nda Memlük kumandanı Timurbay'ı yenilgiye uğrattı. Bu zafer, beyliğin Memlük baskısına karşı güçlü direniş gösterebildiği dönemlerden biriydi.",
   kaynak:"dulkadirogullari" },
 
@@ -1285,19 +1293,19 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1386-01-01", b:"Halil Bey hançerlenerek öldürüldü", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi", "suikast", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Halil Bey hançerlenerek öldürüldü ve yerine Şaban Süli (Sevli) Bey beyliğin başına geçti. Bu dönemde beylik, Memlük baskısı altında istikrarsız bir yönetim değişimi yaşadı.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1395-01-01", b:"Sevli Bey, Memlük Sultanı Berkuk'un emriyle öldürüldü", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"dis", etiket:["hükümdar değişimi", "Memlük", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Şaban Süli (Sevli) Bey, Memlük Sultanı Berkuk'un emriyle öldürüldü. Yerine Sadaka Bey tahta çıktı, ancak onun hükümdarlığı da kısa sürdü.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1399-01-01", b:"Yıldırım Bayezid desteğiyle Nasîrüddin Mehmed Bey tahta çıktı", tur:"ittifak",
   onem:4, dunya:1, kapsam:"dis", etiket:["Osmanlı", "ittifak", "Yıldırım Bayezid", "konu-diplomasi", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Osmanlı Padişahı Yıldırım Bayezid'in yardımıyla Sadaka Bey tahttan indirilerek yerine Nasîrüddin Mehmed Bey geçirildi. Bu olay, Dulkadıroğulları'nın Memlük himayesinden çıkıp Osmanlı nüfuz alanına girişinin ilk önemli adımıydı.",
   kaynak:"dulkadirogullari" },
 
@@ -1315,13 +1323,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1440-01-01", b:"Mehmed Bey'in kızı Memlük Sultanı Çakmak ile evlendirildi", tur:"ittifak",
   onem:4, dunya:1, kapsam:"dis", etiket:["evlilik", "Memlük", "Çakmak", "konu-diplomasi", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Nasîrüddin Mehmed Bey, kızlarından birini Memlük Sultanı Çakmak ile evlendirerek Memlüklerle ittifakını pekiştirdi. Bu evlilik, beyliğin Osmanlı ve Memlük arasında sürdürdüğü dengeleyici siyasetin bir örneğiydi.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1442-01-01", b:"Nasîrüddin Mehmed Bey vefat etti, Süleyman Bey tahta çıktı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi","konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Uzun süre beyliği yöneten Nasîrüddin Mehmed Bey seksen yaşını aşkın bir ömrün ardından vefat etti. Yerine oğlu Süleyman Bey tahta çıkarak nispeten sakin bir dönem başlattı.",
   kaynak:"dulkadirogullari" },
 
@@ -1333,13 +1341,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1450-01-01", b:"Sitti Hatun, Şehzade Mehmed ile evlendirildi", tur:"ittifak",
   onem:5, dunya:1, kapsam:"dis", etiket:["evlilik", "Osmanlı", "Sitti Hatun", "Şehzade Mehmed", "konu-diplomasi", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Süleyman Bey, kızı Sitti Hatun'u II. Murad'ın oğlu Şehzade Mehmed (sonraki Fâtih Sultan Mehmed) ile evlendirdi. Bu evlilik, Dulkadıroğulları'nın Osmanlı hanedanıyla kurduğu en üst düzey akrabalık bağlarından biri oldu.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1454-01-01", b:"Süleyman Bey öldü, Melik Arslan Bey tahta çıktı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi","konu-kisiler","konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Barış ve sükûn içinde geçen bir dönemin ardından Süleyman Bey öldü. Yerine oğlu Melik Arslan Bey tahta çıktı.",
   kaynak:"dulkadirogullari" },
 
@@ -1357,13 +1365,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1472-01-01", b:"Şehsuvar Bey Memlükler tarafından idam edildi", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"dis", etiket:["idam", "Memlük", "hükümdar değişimi", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Memlüklere karşı uzun süre direnen Şehsuvar Bey yakalanarak idam edildi. Yerine Memlük yanlısı bir siyaset izleyen Şahbudak Bey tahta çıktı.",
   kaynak:"dulkadirogullari" },
 
 { taraflar:["dulkadir"], t:"1480-01-01", b:"Alâüddevle Bozkurt Bey, kardeşi Şahbudak'ı yenerek tahta çıktı", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["hükümdar değişimi","konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Alâüddevle Bozkurt Bey, kardeşi Şahbudak Bey'i yenilgiye uğratarak beyliğin başına geçti. Onun otuz beş yılı aşkın hükümdarlığı, beyliğin Osmanlı'ya yakınlaştığı ve nihayet ilhak edildiği döneme denk geldi.",
   kaynak:"dulkadirogullari" },
 
@@ -1405,7 +1413,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["dulkadir"], t:"1514-01-01", b:"Alâüddevle Çaldıran seferine asker göndermedi", tur:"isyan",
   onem:4, dunya:2, kapsam:"dis", etiket:["Osmanlı", "Çaldıran", "itaatsizlik", "konu-isyan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["dulkadir"], kapsam_genis:true,
   d:"Yavuz Sultan Selim'in Safevîler üzerine düzenlediği Çaldıran seferi sırasında Alâüddevle Bozkurt Bey, istenen desteği göndermeyi reddetti. Bu tutum, Osmanlı-Dulkadır ilişkilerini bozarak bir yıl sonraki Turnadağ Savaşı'nın zeminini hazırladı.",
   kaynak:"dulkadirogullari" },
 
@@ -1506,13 +1514,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:2, kapsam:"dis", etiket:["Kantakuzenos", "Bizans", "iç savaş", "ittifak", "konu-diplomasi"],
   yer_id:"",
   d:"Bizans İmparatoru III. Andronikos'un ölümünün ardından başlayan Bizans iç savaşında Umur Bey, Kantakuzenos'un en önemli destekçilerinden biri olarak öne çıktı. Bu ittifak Umur Bey'i Ege'de belirleyici bir güç konumuna taşıdı.",
-  kaynak:"aydinogullari", kapsam_genis:true },
+  kaynak:"aydinogullari", odak_kimlik:["aydin"], kapsam_genis:true },
 
 { taraflar:["aydin"], t:"1342-01-01", b:"Umur Bey'in 380 gemi ve 20.000 askerle Trakya seferi", tur:"ittifak",
   onem:4, dunya:2, kapsam:"dis", etiket:["Trakya", "Kantakuzenos", "donanma", "sefer", "konu-askeri", "konu-diplomasi"],
   yer_id:"",
   d:"Umur Bey, Kantakuzenos'a destek amacıyla 380 gemi ve yaklaşık 20.000 askerden oluşan büyük bir donanmayla Trakya'ya çıktı. Bu, Aydınoğulları donanmasının kaydedilen en büyük deniz aşırı seferlerinden biriydi.",
-  kaynak:"umur-bey", kapsam_genis:true },
+  kaynak:"umur-bey", odak_kimlik:["aydin"], kapsam_genis:true },
 
 { t:"1344-10-28", b:"İzmir Liman Kalesi'nin Haçlılar tarafından alınması", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["İzmir", "liman", "Haçlı seferi", "kayıp", "konu-askeri", "konu-ulastirma"],
@@ -1594,13 +1602,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["aydin"], t:"1403-01-01", b:"Musa Bey'in ölümü, II. Umur'un cülûsu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["Musa Bey", "II. Umur", "cülus", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["aydin"], kapsam_genis:true,
   d:"Timur sonrası dönemde beyliğin başında bulunan Musa Bey'in ölümü üzerine yerine II. Umur geçti. Bu dönem, Cüneyd Bey ve Kara Hasan'ın İzmir ile Ayasuluk'ta güç kazandığı çalkantılı bir geçiş sürecidir.",
   kaynak:"cuneyd-bey" },
 
 { taraflar:["aydin"], t:"1405-01-01", b:"II. Umur'un ölümü, Cüneyd Bey'in tek başına hâkimiyeti", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["Cüneyd Bey", "II. Umur", "hâkimiyet", "konu-kisiler", "konu-hanedan"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["aydin"], kapsam_genis:true,
   d:"II. Umur'un ölümünün ardından Fâtih İbrâhim Bey'in oğlu Cüneyd Bey, Alaşehir, Salihli ve Nif gibi yerleri de ele geçirerek beylik topraklarının tek hâkimi konumuna geldi. Cüneyd Bey'in yönetimi, Osmanlı şehzadeleriyle kurduğu değişken ittifaklarla belirlenecekti.",
   kaynak:"cuneyd-bey" },
 
@@ -1618,7 +1626,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["aydin"], t:"1422-01-01", b:"Cüneyd Bey'in II. Murad'a destek sözüyle beyliği yeniden ele geçirmesi", tur:"toprak-kazanc",
   onem:3, dunya:1, kapsam:"ic", etiket:["Cüneyd Bey", "II. Murad", "yeniden kuruluş", "konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["aydin"], kapsam_genis:true,
   d:"I. Mehmed'in ölümünün ardından yeniden Düzmece Mustafa'ya destek veren, ancak sonrasında II. Murad'a bağlılık sözü karşılığında serbest bırakılan Cüneyd Bey, eski Aydınoğulları topraklarını yeniden ele geçirdi. Bu, beyliğin son ve en kısa ömürlü canlanma dönemidir.",
   kaynak:"cuneyd-bey" },
 
@@ -1725,11 +1733,11 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["veraset", "zehirlenme", "konu-hanedan"],
   yer_id:"",
   d:"Kral III. Levon arsenikle zehirlenerek öldü; yerine oğlu II. Hetum geçti. II. Hetum'un saltanatı, tahttan üç kez çekilip üç kez geri dönmesiyle krallığın en istikrarsız dönemine sahne oldu.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1293-04-01", b:"II. Hetum tahttan çekildi, Fransisken keşiş oldu", tur:"idari",
   onem:2, dunya:1, kapsam:"ic", etiket:["Fransisken", "feragat", "Toros III", "konu-idari"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"II. Hetum tahtı kardeşi III. Toros'a bırakıp Mamistra'da Fransisken tarikatına katıldı; ancak fiilî nüfuzunu 'Büyük Baron' sıfatıyla korudu.",
   kaynak:"Bournoutian (2006); ikincil özetten derlendi" },
 
@@ -1737,7 +1745,7 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:1, kapsam:"ic", etiket:["Sempat","iç çatışma","kör etme","taht-kavgasi","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Taht kavgasında kardeş Sempat, III. Toros'u boğdurttu ve II. Hetum'u dağlayarak kısmen kör ettirdi, tahtı ele geçirdi; üç yıl sonra bir başka kardeş III. Konstantin tarafından devrildi.",
-  kaynak:"Bournoutian (2006); ikincil özetten (soy kütüğü kaynaklarıyla çapraz kontrol)", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten (soy kütüğü kaynaklarıyla çapraz kontrol)", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1299-01-01", b:"II. Hetum yeniden tahtta, Gazan Han'ın Suriye seferine katıldı", tur:"ittifak",
   onem:3, dunya:2, kapsam:"dis", etiket:["Gazan Han", "Moğol", "sefer", "konu-askeri", "konu-diplomasi"],
@@ -1759,7 +1767,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["kilikya-ermeni"], t:"1308-01-01", b:"Adana Konsili: 1307 kilise birliği reddedildi", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["Adana Konsili", "tepki", "konu-din", "konu-kultur"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"Büyük Ermenistan'daki ruhban sınıfının ve halkın güçlü tepkisi üzerine toplanan Adana Konsili, Sis Konsili'nin (1307) kararlarını reddetti; 1309'daki altıncı Sis Konsili bu reddi resmîleştirdi.",
   kaynak:"Council of Sis literatürü, ikincil akademik özetten derlendi" },
 
@@ -1767,13 +1775,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:3, dunya:1, kapsam:"ic", etiket:["Oşin", "taht", "Bilarga", "konu-hanedan"],
   yer_id:"",
   d:"Kral II. Hetum ve II. Levon'un katlinden sonra Oşin, Bilarga'nın kuvvetlerini yenerek Kilikya'dan sürdü ve İlhanlı hükümdarı Olcaytu'nun desteğiyle taç giydi.",
-  kaynak:"Stewart (2001); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Stewart (2001); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1320-07-20", b:"Oşin öldü, IV. Levon tahta geçti", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["veraset","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"Kral Oşin 37 yaşında öldü; oğlu IV. Levon (bazı kaynaklarda V. Levon) tahta geçti — Hetumid hanedanının son kralı olacaktı.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1322-01-01", b:"Memlükler Malatya'yı ele geçirdi", tur:"toprak-kayip",
   onem:2, dunya:2, kapsam:"dis", etiket:["Malatya", "Memlük", "İlhanlı", "konu-askeri"],
@@ -1783,13 +1791,13 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["kilikya-ermeni"], t:"1325-01-01", b:"Ayas limanı yeniden inşa edildi", tur:"ekonomi",
   onem:3, dunya:1, kapsam:"ic", etiket:["Ayas","liman","ticaret","imar","islahat","konu-ekonomi","konu-imar","konu-islahat","konu-ulastirma"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"Önceki Memlük akınlarında tahrip olan Ayas limanı krallık tarafından yeniden inşa edildi ve Memlük Sultanlığı tarafından ticaret limanı olarak tanındı; İtalyan tüccarlar (özellikle Cenevizliler) faaliyetlerine devam etti.",
   kaynak:"\"The Armenian Kingdom of Cilicia and the Mamluk Sultanate\", Orient dergisi (jstage.jst.go.jp) — hakemli akademik makale" },
 
 { taraflar:["kilikya-ermeni"], t:"1337-01-01", b:"Ayas limanı Memlüklerin eline geçti", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["Ayas", "Memlük", "işgal", "konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true,
   d:"Sultan Nâsır Muhammed'in ordusu Ayas'ı ele geçirdi; bir kadıyı öldürülmesi bahanesiyle şehirdeki Ermeni ve Frenk nüfusun neredeyse tamamı katledildi ya da esir alındı. Krallığın en önemli ticaret limanının kaybı ekonomik çöküşü hızlandırdı.",
   kaynak:"\"The Armenian Kingdom of Cilicia and the Mamluk Sultanate\", Orient dergisi (jstage.jst.go.jp)" },
 
@@ -1803,13 +1811,13 @@ window.KRONOLOJI_ANADOLU = [
   onem:4, dunya:2, kapsam:"ic", etiket:["Lusignan", "hanedan değişimi", "taç", "konu-hanedan"],
   yer_id:"",
   d:"IV. Levon'un vârissiz ölümü üzerine, Kıbrıs Lusignan hanedanından anne tarafından akraba Guy de Lusignan tahta davet edildi ve II. Konstantin adıyla taç giydi; Hetumid hanedanı yerini Lusignanlara bıraktı.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1344-04-17", b:"II. Konstantin bir ayaklanmada öldürüldü", tur:"isyan",
   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","Lusignan","darbe-siyasi","konu-kisiler","konu-isyan","konu-darbe"],
   yer_id:"",
   d:"Yerli baronların yabancı (Latin) hanedana duyduğu güvensizlik yeniden patladı; II. Konstantin bir isyanda öldürüldü, yerine uzak akraba III. Konstantin geçti.",
-  kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
+  kaynak:"Bournoutian (2006); ikincil özetten derlendi", odak_kimlik:["kilikya-ermeni"], kapsam_genis:true },
 
 { taraflar:["kilikya-ermeni"], t:"1375-04-14", b:"Memlûk fethiyle krallık sona erdi", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["son", "Memluk", "Sis", "konu-siyasi"],
@@ -1947,13 +1955,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","siyaset","konu-siyasi","konu-din"],
   yer_id:"",
   d:"Yahyâ b. Hüseyin, 'Hâdî-İlelhak' (Hakka İleten) unvanıyla kuzey Yemen'deki Sa'de şehrine gelip yerel kabileler arasındaki kan davalarını hakemlik yaparak çözdü ve Zeydî fıkhına dayalı bir imamet kurdu.", ic_not_d:"Bu tarih, devletler.js'teki `yemen-zeydi` künyesinin f: alanıdır ve 1962'ye kadar (site ufkunun ötesinde) sürecek bir kurumun başlangıcıdır. Sa'de bugünkü yerleşimler.js'te kaydı yok; yer_id boş bırakıldı.",
-  kaynak:"TDV `yemen`: '284/897: İmam Hâdî-İlelhak Yahyâ b. Hüseyin Sa'de'ye geldi, Zeydî imâmetini tesis etti.'", yer_kon:[16.9402,43.7592] },
+  kaynak:"TDV `yemen`: 'Bölge ileri gelenlerinin davetiyle 284’te (897) Zeydî imâmetini tesis etmek üzere Sa‘de’ye gelen Zeydîler’den İmam Hâdî-İlelhak Yahyâ b. Hüseyin 288 (901) yılında San‘a’yı eline geçirdiyse de Ya‘furîler ertesi yıl şehri geri aldılar.'", yer_kon:[16.9402,43.7592] },
 
 { taraflar:["yemen-zeydi"], t:"0901-01-01", b:"İmam Hâdî San'a'yı ilk kez ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   yer_id:"Sana",
   d:"Kuruluşundan yalnızca dört yıl sonra Zeydî imamet, Yemen'in en büyük şehri San'a'ya girerek nüfuzunu yaylalardan ovaya taşıdı. Şehir sonraki yüzyıllarda defalarca el değiştirecek, ama San'a'yı tutmak Zeydî meşruiyetinin sürekli bir ölçütü olacaktı.",
-  kaynak:"TDV `yemen`: '288/901: Yahyâ b. Hüseyin San'a'yı ele geçirdi.'" },
+  kaynak:"TDV `yemen`: 288/901: Yahyâ b. Hüseyin San'a'yı ele geçirdi." },
 
 // ── 901-1517 arası: Zeydî imametin kendi iç ardıllık zinciri bu turda
 //    ARAŞTIRILMADI (yukarıdaki nota bak) — SESSİZ BIRAKILDI.
@@ -1962,79 +1970,79 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","osmanli","konu-askeri"],
   yer_id:"Aden",
   d:"Hadım Süleyman Paşa, Hindistan seferi yolunda Aden limanına girdi; Portekiz'e meyilli Tâhirî hâkimi Âmir b. Dâvûd idam edildi ve şehre muhafız bırakıldı. Bu olay Zeydî imamet için doğrudan bir kayıp değildi (Aden zaten rakip Tâhirî hanedanının elindeydi) ama imametin bundan sonraki 97 yıl boyunca uğraşacağı yeni gücün — Osmanlı'nın — Yemen'e ilk ayak basışıydı.", ic_not_d:"Tarih `data/yerlesimler.js`teki Aden kaydıyla (1538-08-03) birebir eşleşiyor.",
-  kaynak:"TDV `yemen`: 'Muharrem 934 (Ekim 1527): Aden Osmanlılar tarafından alındı' [ilk teşebbüs] ve '1538: Hadım Süleyman Paşa Aden'i alarak Tâhirîler hânedanına son verdi.' Gün: data/olaylar_ek5.js kaydı (3 Ağustos 1538) — devletler.js ve yerlesimler.js ile uyumlu." },
+  kaynak:"TDV `yemen`: Muharrem 934 (Ekim 1527): Aden Osmanlılar tarafından alındı [ilk teşebbüs] ve '1538: Hadım Süleyman Paşa Aden'i alarak Tâhirîler hânedanına son verdi.' Gün: data/olaylar_ek5.js kaydı (3 Ağustos 1538) — devletler.js ve yerlesimler.js ile uyumlu." },
 
 { taraflar:["yemen-zeydi"], t:"1547-01-01", b:"Osmanlı San'a'yı ele geçirdi — imamet başkentini kaybetti", tur:"toprak-kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Sana",
   d:"Aden'in alınmasından dokuz yıl sonra Osmanlı kuvvetleri iç yaylaya ilerleyip San'a'yı da ele geçirdi; Yemen beylerbeyiliği artık ülkenin can damarını tutuyordu. Zeydî imamlar bu tarihten itibaren dağlık kuzeye çekilip direnişi oradan sürdürdü.", ic_not_d:"Tarih yerlesimler.js'teki San'a kaydıyla (1547-01-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1547: San'a ele geçirildi.' — data/yerlesimler.js Sana kaydıyla çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 1547: San'a ele geçirildi. — data/yerlesimler.js Sana kaydıyla çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1567-01-01", b:"Mutahhar isyanı — Yemen ikiye bölündü", tur:"isyan",
   onem:4, dunya:2, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"Yerel lider Mutahhar b. Şerefeddin'in başlattığı geniş çaplı ayaklanma, Osmanlı idaresini Yemen'in büyük kısmından sürdü; ülke fiilen Osmanlı'nın elinde kalan bölge ile isyancıların denetimindeki bölge olarak ikiye ayrıldı. Bu, imamet çevresindeki direnç ağının Osmanlı'ya karşı ilk büyük başarısıydı.",
-  kaynak:"TDV `yemen`: '1567: Mutahhar isyan etti, Yemen ikiye bölündü.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 1567: Mutahhar isyan etti, Yemen ikiye bölündü.", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1571-03-01", b:"Sinan Paşa'nın büyük seferiyle isyan bastırıldı, eyalet yeniden birleşti", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri","konu-idari","konu-isyan"],
   yer_id:"",
   d:"Koca Sinan Paşa'nın sevkiyle gönderilen büyük Osmanlı ordusu isyanı ağır biçimde bastırdı; Mart 1568'de bölünmüş eyalet yeniden birleştirilmiş, Sinan Paşa 1 Mart 1571'de (4 Şevval 978) Yemen'den ayrılmıştı. Mutahhar 1573'te öldürüldü ve dört oğlu İstanbul'a sürgün edildi (1586) — imamet hattının bu koluna ağır bir darbe.",
-  kaynak:"TDV `yemen`: 'Mart 1568: İki eyalet birleştirildi.' · '4 Şevval 978 (1 Mart 1571): Sinan Paşa Yemen'den ayrıldı.' · '1573: Mutahhar öldürüldü.' · '994/1586: Mutahhar'ın dört oğlu İstanbul'a gönderildi.'", yer_kon:[15.5,43.9] },
+  kaynak:"TDV `yemen`: 'Mart 1568’de iki eyalet birleştirilerek merkezi Zebîd olan Yemen beylerbeyiliği kuruldu, yönetimi de Hasan Paşa’ya verildi.' · '4 Şevval 978 (1 Mart 1571): Sinan Paşa Yemen'den ayrıldı.' · '1573: Mutahhar öldürüldü.' · '994/1586: Mutahhar'ın dört oğlu İstanbul'a gönderildi.'", yer_kon:[15.5,43.9] },
 
 { taraflar:["yemen-zeydi"], t:"1608-01-01", b:"İmam Kāsım b. Muhammed ile on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Kāsımî hanedanının kurucusu İmam el-Mansûr Kāsım b. Muhammed ile Osmanlı beylerbeyi Câfer Paşa arasında on yıllık bir barış anlaşması imzalandı — imamet artık Osmanlı idaresiyle resmî düzeyde pazarlık edebilecek kadar güçlenmişti.",
-  kaynak:"TDV `yemen`: '1608: İmam Kāsım b. Muhammed ile on senelik antlaşma yapıldı.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'İmam Kāsım b. Muhammed’le olan anlaşmazlık ise yapılan on senelik bir antlaşma ile çözümlendi (1608).'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1619-01-01", b:"Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma", tur:"antlasma",
   onem:3, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"İlk antlaşmanın süresi dolunca beylerbeyi Mehmed Paşa ile Zeydî imamet arasında yeni bir on yıllık barış imzalandı; ama bu kez denge imametten yanaydı — bir sonraki imam Müeyyed döneminde barış tek taraflı bozulacaktı.",
-  kaynak:"TDV `yemen`: '1028/1619: Mehmed Paşa ve Zeydîler arasında on yıllık antlaşma imzalandı.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Nihayet barış sağlanıp Mehmed Paşa ile Zeydîler arasında on yıl sürmesi planlanan bir antlaşma imzalandı (1028/1619).'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1626-01-01", b:"İmam Müeyyed barışı bozdu, San'a kuşatıldı", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["savas","konu-askeri"],
   yer_id:"Sana",
   d:"İmam el-Müeyyed Muhammed, 1619 antlaşmasını bozarak Osmanlı garnizonlarına karşı genel bir saldırıya geçti ve San'a'yı kuşattı; bu, imametin dokuz yıl sonra Osmanlı'yı Yemen'den tamamen çıkaracak son büyük seferberliğinin başlangıcıydı.",
-  kaynak:"TDV `yemen`: '1626: İmam Müeyyed barış bozdu, San'a kuşatıldı.'" },
+  kaynak:"TDV `yemen`: '1036’da (1626) İmam Müeyyed ile barış bozulduğundan Zeydîler, San‘a’nın kuzey kesimini zaptettiler.'" },
 
 { taraflar:["yemen-zeydi"], t:"1629-01-01", b:"Taiz imametin eline geçti", tur:"toprak-kazanc",
   onem:3, dunya:1, kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   yer_id:"Taiz",
   d:"Haydar Paşa'nın San'a'yı tutamayıp geri çekilmesiyle eş zamanlı olarak Taiz de imamet kuvvetlerinin eline geçti; Osmanlı idaresi artık yalnızca kıyı şeridine ve birkaç iç kaleye sıkışmıştı.", ic_not_d:"Tarih yerlesimler.js'teki Taiz kaydıyla (1629-01-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1629: Haydar Paşa San'a'yı bırakmak zorunda kaldı.' — data/yerlesimler.js Taiz kaydıyla çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 'Haydar Paşa 1038’de (1629) bir anlaşma ile San‘a’yı İmam Müeyyed’e bırakmak zorunda kaldı.' — data/yerlesimler.js Taiz kaydıyla çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1630-08-01", b:"Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma", tur:"antlasma",
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Vezir ve serasker Kansu Paşa'nın kethüdâsı kuşatılıp zor durumda kalınca, Muharrem 1040'ta (Ağustos 1630) İmam Müeyyed ile geçici bir anlaşma yapıldı; ancak barış üç yıl sonra (1633) yeniden bozulacaktı — Osmanlı çekilişinin artık kaçınılmaz olduğunun işareti.",
-  kaynak:"TDV `yemen`: 'Muharrem 1040 (Ağustos 1630): Kansu Paşa İmam Müeyyed ile anlaşma yaptı.' · '1043/1633: Anlaşma bozuldu.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Muharrem 1040 (Ağustos 1630): Kansu Paşa İmam Müeyyed ile anlaşma yaptı.' · '1043/1633: Anlaşma bozuldu.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1635-10-22", b:"Osmanlı çekilişi tamamlandı — imamet bağımsızlığını kazandı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["bagimsizlik","savas","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Mustafa Bey'in Muhâ (Moha) limanından ayrılışıyla, doksan yedi yıl süren birinci Osmanlı hâkimiyeti fiilen sona erdi; San'a ve Zebîd'deki son birlikler de aynı yıl Yemen'i tahliye etti. Kızıldeniz'in doğu kıyısı, 1849'daki ikinci Osmanlı dönüşüne kadar 214 yıl boyunca Zeydî imametin bağımsız denetiminde kaldı.", ic_not_d:"Tarih yerlesimler.js'teki Moha kaydıyla (1635-10-22) GÜN GÜNÜNE örtüşüyor — Osmanlı'nın kendi kaynağının (TDV) Hicri tarihi (10 Cemâziyelevvel 1045) atlasın kendi verisiyle birebir çakışıyor.",
-  kaynak:"TDV `yemen`: '10 Cemâziyelevvel 1045 (22 Ekim 1635): Mustafa Bey Muhâ'dan ayrıldı, Osmanlı çekilişi tamamlandı.' — data/yerlesimler.js Moha kaydıyla (1635-10-22) birebir doğrulandı; ayrıca bkz. data/olaylar_ek6.js aynı olayı Osmanlı tarafından anlatıyor.", yer_id:"Moha" },
+  kaynak:"TDV `yemen`: 'Mustafa Bey, 10 Cemâziyelevvel 1045’te (22 Ekim 1635) kendisiyle birlikte kalan askerlerle bütün top, tüfek ve cephaneleri alarak bir Hint kalyonuyla Süveyş’e gitmek üzere Muhâ’dan ayrıldı; Hasan b. Kāsım da Zebîd ve Muhâ’ya kendi adamlarını tayin etti.' — data/yerlesimler.js Moha kaydıyla (1635-10-22) birebir doğrulandı; ayrıca bkz. data/olaylar_ek6.js aynı olayı Osmanlı tarafından anlatıyor.", yer_id:"Moha" },
 
 { taraflar:["yemen-zeydi"], t:"1644-01-01", b:"Mütevekkil İsmâil b. Kāsım tahta çıktı — Kāsımî imametin altın çağı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"İmam Müeyyed'in ölümünün ardından Mütevekkil İsmâil b. Kāsım imam oldu ve 1676'ya kadar sürecek dönemde Kāsımî imametini Yemen'in neredeyse tamamına (Hadramut'a kadar) yayarak en geniş sınırlarına ulaştırdı — Zeydî imametin tarihindeki en güçlü dönemlerinden biri.",
-  kaynak:"TDV `yemen`: '1644-1676: Mütevekkil İsmâil b. Kāsım hüküm sürdü.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: 1644-1676: Mütevekkil İsmâil b. Kāsım hüküm sürdü.", yer_id:"Sana" },
 
 { taraflar:["yemen-zeydi"], t:"1681-01-01", b:"Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası", tur:"siyaset",
   onem:2, dunya:1, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Bir dönem imamet içi bir yönetici olan Ahmed b. Hasan, Yemen'i Osmanlı padişahı adına yönettiğini ileri sürdü — Osmanlı'nın fiilen yıllardır Yemen'de bulunmadığı bir dönemde bu iddianın pratikte bir karşılığı olmadığı, sembolik/diplomatik bir jest olduğu anlaşılıyor.",
-  kaynak:"TDV `yemen`: '1681: Ahmed b. Hasan Yemen'i Osmanlı adına yönettiğini belirtti.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Ayrıca Yemen İmamı Ahmed b. Hasan’ın 1092’de (1681) muhaliflerine karşı kendisinin Yemen’i Osmanlı sultanı adına yönettiğini belirtmesi dikkat çekicidir.'", odak_kimlik:["yemen-zeydi"], kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1702-01-01", b:"Osmanlı, İmam Mehdî'ye elçi gönderdi", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"Basra valisi Süleyman Paşa'nın Yemen İmamı Mehdî'ye elçi göndermesi, iki taraf arasında Osmanlı'nın Yemen'den çekilmesinden altmış yedi yıl sonra bile hâlâ diplomatik temasın sürdüğünü gösteriyor.",
-  kaynak:"TDV `yemen`: '1702: Süleyman Paşa Yemen İmamı Mehdî'ye elçi yolladı.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: 'Cidde Valisi Süleyman Paşa’nın 1114’te (1702) Yemen İmamı Mehdî’ye elçi yollamasına karşılık imam da İstanbul’a hediyelerle elçi gönderdi (Defterdar Sarı Mehmed Paşa, s. 755).'", yer_id:"Sana" },
 
 // ── 1702-1849 arası: imametin kendi iç tarihi (art arda gelen imamlar,
 //    iç taht kavgaları) bu turda ARAŞTIRILMADI — TDV'nin genel `yemen`
@@ -2044,31 +2052,31 @@ window.KRONOLOJI_ARABISTAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Hudeyde",
   d:"Osmanlı, 214 yıl aradan sonra Yemen'e döndü ve kıyı şeridini (Hudeyde dahil) yeniden ele geçirdi; ama TDV'nin kendi ifadesiyle San'a'yı ele geçirme çabası bu ilk yılda BAŞARISIZ oldu — iç yayla imametin elinde kalmaya devam etti, tam fetih ancak 1872'de tamamlanacaktı.", ic_not_d:"Tarih yerlesimler.js'teki Hudeyde kaydıyla (1849-01-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1849: San'a ele geçirme çabası başarısız oldu.' — data/yerlesimler.js Hudeyde kaydıyla (1281-1849 'yemen', sonra kayıt yok) çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 1849: San'a ele geçirme çabası başarısız oldu. — data/yerlesimler.js Hudeyde kaydıyla (1281-1849 'yemen', sonra kayıt yok) çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1872-04-01", b:"Ahmed Muhtar Paşa San'a'yı aldı — Yemen vilâyeti kuruldu", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","savas","idari","konu-askeri","konu-idari"],
   yer_id:"Sana",
   d:"Ahmed Muhtar Paşa'nın seferiyle San'a bu kez kesin olarak Osmanlı'nın eline geçti ve 1864 Tanzimat vilâyet düzenine göre bir Yemen vilâyeti kuruldu — imamet, 1918'e kadar sürecek 46 yıllık ikinci ve son doğrudan Osmanlı hâkimiyeti dönemine girdi.", ic_not_d:"Tarih yerlesimler.js'teki San'a kaydıyla (1872-04-01) birebir örtüşüyor.",
-  kaynak:"TDV `yemen`: '1871: Ahmed Muhtar Paşa San'a'yı aldı, vilâyet düzeni kurdu.' — data/yerlesimler.js Sana kaydıyla (1872-04-01) çapraz doğrulandı; bir yıllık fark TDV'nin sefer başlangıcı/şehrin düşüşü ayrımından kaynaklanıyor olabilir, ÇÖZÜLMEDİ." },
+  kaynak:"TDV `yemen`: 1871: Ahmed Muhtar Paşa San'a'yı aldı, vilâyet düzeni kurdu. — data/yerlesimler.js Sana kaydıyla (1872-04-01) çapraz doğrulandı; bir yıllık fark TDV'nin sefer başlangıcı/şehrin düşüşü ayrımından kaynaklanıyor olabilir, ÇÖZÜLMEDİ." },
 
 { taraflar:["yemen-zeydi"], t:"1889-01-01", b:"Zeydîler isyan etti", tur:"isyan",
   onem:3, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"],
   yer_id:"",
   d:"Vilâyet idaresine karşı yaygın bir Zeydî ayaklanması patlak verdi; imamet hattı, doğrudan Osmanlı idaresi altında bile direniş kapasitesini korumaya devam ediyordu.",
-  kaynak:"TDV `yemen`: '1889: Zeydîler isyan etti.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: 'Ancak bölgede görev yapan Osmanlı memurlarının yetersiz kalması ve idarî işlerde âdil davranılmaması yüzünden 1889’da Yemen’i kendi imamlarının yönetmesini isteyen Zeydîler isyan etti.'", kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1895-01-01", b:"Hüseyin Hilmi Paşa isyanı bastırdı", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri","konu-isyan"],
   yer_id:"",
   d:"1889 isyanının uzantısı olan direniş, Hüseyin Hilmi Paşa'nın seferiyle bastırıldı; ama bastırma kalıcı olmayacak, yedi yıl sonra çok daha büyük bir ayaklanma (İmam Yahyâ'nınki) başlayacaktı.",
-  kaynak:"TDV `yemen`: '1895: Hüseyin Hilmi Paşa isyanı bastırdı.'", kapsam_genis:true },
+  kaynak:"TDV `yemen`: '1895’te başlayan ve iki yıl süren ayaklanmayı Hüseyin Hilmi Paşa bastırdı.'", kapsam_genis:true },
 
 { taraflar:["yemen-zeydi"], t:"1902-01-01", b:"İmam Yahyâ Hamîdüddin ayaklanmayı başlattı", tur:"isyan",
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","hukumdar","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Hamîdüddin hanedanının kurucusu İmam Yahyâ, Osmanlı idaresine karşı geniş çaplı bir ayaklanma başlattı — bu, imametin son ve en kalıcı önderi olacak, 1948'e kadar (site ufkunun ötesinde) Yemen'i yönetecek bir liderin ilk hamlesiydi.",
-  kaynak:"TDV `yemen`: '1902: İmam Yahyâ Hamîdüddin ayaklanmayı başlattı.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: '1902’de İmam Yahyâ Hamîdüddin’in başlattığı ayaklanma sırasında Yemen Valisi Fâik Paşa San‘a’da kuşatıldı.'", yer_id:"Sana" },
 
 { taraflar:["yemen-zeydi"], t:"1905-04-01", b:"İmam Yahyâ San'a'yı kuşatıp ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
@@ -2080,13 +2088,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"Sana",
   d:"Osmanlı kuvvetleri beş ay içinde San'a'yı geri aldı; ama İmam Yahyâ'nın direnç kapasitesi kanıtlanmıştı ve altı yıl sonra Osmanlı, imametle doğrudan bir özerklik antlaşması imzalamak zorunda kalacaktı.",
-  kaynak:"TDV `yemen`: '1905: Ahmed Feyzi Paşa San'a'ya girdi.' — data/yerlesimler.js Sana kaydıyla (1905-09-01) çapraz doğrulandı." },
+  kaynak:"TDV `yemen`: 1905: Ahmed Feyzi Paşa San'a'ya girdi. — data/yerlesimler.js Sana kaydıyla (1905-09-01) çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1911-10-13", b:"Da'an Antlaşması — imamete geniş özerklik tanındı", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Ahmed İzzet Paşa ile İmam Yahyâ arasında imzalanan antlaşma, Zeydî bölgelerine geniş bir iç özerklik tanıdı — imamet artık Osmanlı çatısı altında fiilen kendi kendini yönetiyordu. Bu, yedi yıl sonraki tam bağımsızlığın önsözüydü.",
-  kaynak:"TDV `yemen`: '13 Ekim 1911: Ahmed İzzet Paşa ve İmam Yahyâ antlaşma yaptı.'", yer_kon:[15.72,43.95] },
+  kaynak:"TDV `yemen`: 13 Ekim 1911: Ahmed İzzet Paşa ve İmam Yahyâ antlaşma yaptı.", yer_kon:[15.72,43.95] },
 
 { taraflar:["yemen-zeydi"], t:"1918-10-30", b:"Mondros sonrası Osmanlı çekildi — imamet tam bağımsızlığını kazandı", tur:"son",
   onem:5, dunya:4, kapsam:"dis", etiket:["bagimsizlik","antlasma","konu-siyasi","konu-diplomasi"],
@@ -2098,7 +2106,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"İmam Yahyâ, artık hiçbir dış hâkimiyete bağlı olmayan imametini resmen 'Mütevekkilî Krallığı' (el-Memleketü'l-Mütevekkiliyye) olarak ilan etti — Zeydî imametin 1023 yıllık tarihindeki son ve site ufkunun (1923) ötesine, 1962'ye kadar sürecek evresi başladı.",
-  kaynak:"TDV `yemen`: '1920: İmam Yahyâ bağımsız Mütevekkilî Krallığını kurdu.'", yer_id:"Sana" },
+  kaynak:"TDV `yemen`: 1920: İmam Yahyâ bağımsız Mütevekkilî Krallığını kurdu.", yer_id:"Sana" },
 
 // ═══════════════════════ UMMAN (YA'RUBÎ / BÛ SAÎD) SULTANLIĞI (1624-1923) ═══
 
@@ -2106,25 +2114,25 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:2, kapsam:"dis", etiket:["isgal","savas","konu-askeri"],
   yer_id:"",
   d:"Afonso de Albuquerque komutasındaki Portekiz donanması, Hint Okyanusu ticaret yolunu denetlemek amacıyla Uman'ın kıyı şehirlerini (Maskat dahil) ele geçirmeye başladı; yerli Nebhânî hâkimiyeti bu baskı altında sarsıldı ve bir asırdan uzun sürecek Portekiz varlığının önü açıldı.",
-  kaynak:"TDV `uman`: '1507: Portekizli general Portekiz baskısı başladı.' (madde metninde Portekiz kıyı işgalinin başlangıcı olarak 1507 veriliyor)", kapsam_genis:true },
+  kaynak:"TDV `uman`: 1507: Portekizli general Portekiz baskısı başladı. (madde metninde Portekiz kıyı işgalinin başlangıcı olarak 1507 veriliyor)", kapsam_genis:true },
 
 { t:"1620-01-01", b:"Nâsır b. Mürşid'e biat edildi — Ya'rubî imameti kuruldu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","konu-siyasi","konu-din"],
   yer_id:"",
   d:"İç karışıklıklar arasında bölge ileri gelenlerinin ortak biatıyla Nâsır b. Mürşid imam seçildi ve İbâdî Ya'rubî hanedanını kurdu. İmamet kısa sürede Portekiz'e karşı örgütlü direnişin merkezi oldu.", ic_not_d:"Kuruluş için TDV'nin `yarubiler` maddesi 1615, `uman` maddesi ve devletler.js künyesi 1624 tarihini kullanıyor (iki yıl gün farkı, 1034/1024 hicri karışıklığından kaynaklanabilir — devletler.js'in f: alanı (1624) korunuyor, çelişki not düşüldü).",
-  kaynak:"TDV `yarubiler`: '1615 - Ya'rubîler hanedanı kuruldu... Alternatif kuruluş tarihi 1624 (1034 hicrî).' · TDV `uman`: '1624: Nâsır b. Mürşid... Ya'rubî hânedanını kurdu.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 1615 - Ya'rubîler hanedanı kuruldu... Alternatif kuruluş tarihi 1624 (1034 hicrî). · TDV `uman`: '1624: Nâsır b. Mürşid... Ya'rubî hânedanını kurdu.'", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1630-01-01", b:"Portekiz ile barış antlaşması", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Maskat'ı zaptetme girişimlerinin ardından Ya'rubî imameti ile Portekiz arasında geçici bir barış sağlandı — imametin gücünü toparlayıp yirmi yıl sonraki kesin zafere hazırlandığı bir ara dönem.",
-  kaynak:"TDV `yarubiler`: '1630 - Portekiz barış antlaşması imzalandı.'", yer_kon:[23.617,58.567] },
+  kaynak:"TDV `yarubiler`: 1630 - Portekiz barış antlaşması imzalandı.", yer_kon:[23.617,58.567] },
 
 { taraflar:["umman"], t:"1633-01-01", b:"Culfâr'da İran birliklerine karşı zafer", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
   d:"İmamet kuvvetleri, Basra körfezi girişindeki Culfâr'da İran birliklerine karşı başarılı bir operasyon düzenleyerek bölgedeki artan nüfuzunu bir kez daha kanıtladı.",
-  kaynak:"TDV `yarubiler`: '1633 - Culfâr'da İran birliklerine karşı başarılı operasyon düzenlendi.'", yer_kon:[25.8,55.95] },
+  kaynak:"TDV `yarubiler`: 'Nâsır’ın Culfâr’daki (Re’sülhayme) İran birliklerine karşı 1633’te Ali b. Ahmed komutasında gönderdiği ordu da başarılı oldu.'", yer_kon:[25.8,55.95] },
 
 { t:"1650-01-26", b:"Maskat, Portekiz'den geri alındı", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],
@@ -2136,37 +2144,37 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"Portekiz'i kovan imamın ölümüyle oğlu Bel'arab tahta geçti; imamet artık kıyı ticaretinden gelen zenginlikle Doğu Afrika'ya doğru genişleme aşamasına giriyordu.",
-  kaynak:"TDV `yarubiler`: '1680 - I. Sultân b. Seyf yönetimi sonlandı; oğlu Bel'arab yönetimi devraldı.'", yer_id:"Nizva" },
+  kaynak:"TDV `yarubiler`: 1680 - I. Sultân b. Seyf yönetimi sonlandı; oğlu Bel'arab yönetimi devraldı.", yer_id:"Nizva" },
 
 { taraflar:["umman"], t:"1692-01-01", b:"Seyf b. Sultân iktidara geçti, merkez Rustâk'a taşındı", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"Bel'arab'ın kardeşi Seyf b. Sultân imameti ele geçirip yönetim merkezini Rustâk'a taşıdı; bu iç taht değişimi, imametin bir sonraki yüzyılda tekrarlanacak veraset krizlerinin ilk işaretiydi.",
-  kaynak:"TDV `yarubiler`: '1692 - Bel'arab'ın kardeşi Seyf b. Sultân iktidara geçti, yönetim merkezi Rustâk'a alındı.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 'Bel‘arab’ın kardeşi Seyf b. Sultân (1692-1711) yönetim merkezini tekrar Rustâk’a aldı.'", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1711-01-01", b:"Seyf b. Sultân vefat etti, II. Sultân tahta çıktı", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"",
   d:"Yirmi yıllık hükümdarlığın ardından Seyf b. Sultân öldü ve oğlu II. Sultân imamet makamını devraldı.",
-  kaynak:"TDV `yarubiler`: '1711 - Seyf b. Sultân vefat etti; oğlu II. Sultân yönetimi devraldı.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 1711 - Seyf b. Sultân vefat etti; oğlu II. Sultân yönetimi devraldı.", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1720-01-01", b:"II. Sultân'ın ölümü — on iki yaşındaki II. Seyf döneminde veraset krizi", tur:"bolunme",
   onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyaset","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"II. Sultân'ın ölümüyle on iki yaşındaki oğlu II. Seyf imam ilan edildi; yaşının küçüklüğü kabile reisleri arasında sekiz yıl sürecek bir iç savaşı tetikledi ve imametin bu krizden zayıflamış çıkması, otuz yıl sonra hanedanın tamamen el değiştirmesinin zeminini hazırladı.",
-  kaynak:"TDV `yarubiler`: '1720 - II. Sultân öldü; on iki yaşındaki oğlu II. Seyf'in yönetimi tartışmalar başlattı.'", yer_kon:[23.39,57.42] },
+  kaynak:"TDV `yarubiler`: 1720 - II. Sultân öldü; on iki yaşındaki oğlu II. Seyf'in yönetimi tartışmalar başlattı.", yer_kon:[23.39,57.42] },
 
 { taraflar:["umman"], t:"1728-01-01", b:"İç savaş sona erdi, II. Seyf'in imameti kabul edildi", tur:"antlasma",
   onem:2, dunya:1, kapsam:"ic", etiket:["antlasma","konu-diplomasi"],
   yer_id:"",
   d:"Sekiz yıllık iç çatışmanın ardından kabileler II. Seyf'in imametini nihayet kabul etti; ama barış kalıcı olmayacak, on beş yıl sonra imamet Ya'rubî hanedanının elinden tamamen çıkacaktı.",
-  kaynak:"TDV `yarubiler`: '1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.'", kapsam_genis:true },
+  kaynak:"TDV `yarubiler`: 1728 - İç savaş sonlanarak II. Seyf'in imâmeti kabul edildi.", odak_kimlik:["umman"], kapsam_genis:true },
 
 { taraflar:["umman"], t:"1743-01-01", b:"II. Seyf'in ölümü — Ahmed b. Saîd iktidarı ele geçirdi", tur:"bolunme",
   onem:4, dunya:2, kapsam:"ic", etiket:["bolunme","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"II. Seyf'in ölümüyle damadı Ahmed b. Saîd (Sohar valisi, İran işgaline karşı direnişiyle tanınmış bir komutan) fiilen iktidarı ele geçirdi — Bû Saîd hanedanının kuruluşunun fiilî başlangıcı.", ic_not_d:"Resmî/sembolik kuruluş TDV `uman` maddesinde altı yıl sonra (1749) tarihleniyor; devletler.js künyesinin f: alanı da 1749-06-10'dur — bu madde ARADAKİ fiilî geçişi anlatıyor, künyenin tarihine dokunulmadı.",
-  kaynak:"TDV `yarubiler`: '1743 - II. Seyf vefat etti; damadı Ahmed b. Saîd iktidarı ele geçirerek Bû Saîd hanedanı dönemini başlattı.'", yer_id:"Suhâr" },
+  kaynak:"TDV `yarubiler`: 1743 - II. Seyf vefat etti; damadı Ahmed b. Saîd iktidarı ele geçirerek Bû Saîd hanedanı dönemini başlattı.", yer_id:"Suhâr" },
 
 { t:"1749-06-10", b:"Bû Saîd hanedanı resmen kuruldu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar","konu-siyasi","konu-hanedan"],
@@ -2178,85 +2186,85 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","osmanli","konu-diplomasi"],
   yer_id:"",
   d:"İran'da Zend hanedanının hükümdarı Kerim Han'ın Basra'yı kuşatması sırasında Uman, kuşatma altındaki Osmanlı garnizonuna destek sağladı — imametin Basra körfezi siyasetinde Osmanlı'nın tarafında yer aldığı nadir doğrudan ittifak anlarından biri.",
-  kaynak:"TDV `uman`: '1775-1776: Kerim Khan Zend Basra'yı kuşattı; Uman, Osmanlı Basra'sına yardım etti.'", yer_id:"Basra" },
+  kaynak:"TDV `uman`: 1775-1776: Kerim Khan Zend Basra'yı kuşattı; Uman, Osmanlı Basra'sına yardım etti.", yer_id:"Basra" },
 
 { t:"1798-01-18", b:"İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Maskat",
   d:"Uman ile İngiltere arasında imzalanan 'kavilnâme' adlı anlaşmayla İngilizler Maskat'ta ilk temsilciliklerini açtı; bu, imametin bir sonraki yüzyıl boyunca giderek derinleşecek İngiliz bağımlılığının başlangıç noktasıydı.",
-  kaynak:"TDV `uman`: '18 Ocak 1798: İngiltere ile kavilnâme adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı.'" },
+  kaynak:"TDV `uman`: 18 Ocak 1798: İngiltere ile kavilnâme adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı." },
 
 { taraflar:["umman"], t:"1804-01-01", b:"Saîd b. Sultân tahta çıktı", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"Maskat",
   d:"Babasının deniz savaşında ölümü üzerine on üç yaşındaki Saîd b. Sultân, kardeşi Sâlim'le birlikte Uman, Basra körfezi adaları ve Zengibar topraklarını yönetmeye başladı — elli iki yıl sürecek ve Uman'ı bir Hint Okyanusu ticaret imparatorluğuna dönüştürecek bir hükümdarlığın başlangıcı.",
-  kaynak:"TDV `said-b-sultan`: '1804 - Babasının deniz savaşında ölümünün ardından tahta çıktı; Uman, Basra körfezi adaları ve Zengibar topraklarını kardeşi Sâlim'le birlikte yönetti.'" },
+  kaynak:"TDV `said-b-sultan`: 1804 - Babasının deniz savaşında ölümünün ardından tahta çıktı; Uman, Basra körfezi adaları ve Zengibar topraklarını kardeşi Sâlim'le birlikte yönetti." },
 
 { taraflar:["umman"], t:"1806-01-01", b:"Kuzeni Bedr b. Seyf bertaraf edildi", tur:"siyaset",
   onem:2, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"",
   d:"Suûdîler'in desteklediği kuzeni Bedr b. Seyf'i bertaraf ederek Saîd b. Sultân kendi iktidarını sağlamlaştırdı — Uman'ın kuzey Arabistan'daki Vehhâbî nüfuzuyla ilk doğrudan sürtüşmelerinden biri.",
-  kaynak:"TDV `said-b-sultan`: '1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı.'" },
+  kaynak:"TDV `said-b-sultan`: 1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı." },
 
 { taraflar:["umman"], t:"1821-01-01", b:"Kardeşi Sâlim'in ölümüyle tek hükümdar oldu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
   d:"On yedi yıl süren ortak yönetimin ardından kardeşi Sâlim'in ölümüyle Saîd b. Sultân, Uman ve Zengibar topraklarının tek hâkimi oldu.",
-  kaynak:"TDV `said-b-sultan`: '1821 - Kardeşi Sâlim'in ölümüyle tek hükümdar oldu.'" },
+  kaynak:"TDV `said-b-sultan`: 1821 - Kardeşi Sâlim'in ölümüyle tek hükümdar oldu." },
 
 { taraflar:["umman"], t:"1824-01-01", b:"Hac ziyareti — Kavalalı Mehmed Ali Paşa tarafından ağırlandı", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","din","konu-diplomasi","konu-din"],
   yer_id:"",
   d:"Saîd b. Sultân hac için Hicaz'a gitti ve orada Mısır valisi Kavalalı Mehmed Ali Paşa tarafından ağırlandı — Uman hükümdarının Osmanlı sistemi içindeki en yüksek rütbeli bir figürle doğrudan temasının nadir örneklerinden biri.",
-  kaynak:"TDV `uman`: '1824: Saîd b. Sultân hac yaptı; Muhammed Ali Paşa tarafından onurlandırıldı.'", yer_id:"Mekke" },
+  kaynak:"TDV `uman`: 1824: Saîd b. Sultân hac yaptı; Muhammed Ali Paşa tarafından onurlandırıldı.", yer_id:"Mekke" },
 
 { taraflar:["umman"], t:"1828-01-01", b:"Zengibar'a yerleşti", tur:"siyaset",
   onem:3, dunya:2, kapsam:"dis", etiket:["siyaset","ekonomi","konu-siyasi","konu-ekonomi"],
   yer_id:"",
   d:"Saîd b. Sultân, fildişi ve köle ticaretinin merkezi olan Zengibar'ın stratejik önemini fark ederek burada uzun süreli ikamete başladı — hanedanın ağırlık merkezinin Arap yarımadasından Doğu Afrika'ya kaymasının başlangıcı.",
-  kaynak:"TDV `said-b-sultan`: '1828 - Zengibar'a taşındı, fildişi ve köle ticareti için önemli bir merkez olarak tanıdı.'", yer_id:"Zanzibar (Zengibar)" },
+  kaynak:"TDV `said-b-sultan`: 1828 - Zengibar'a taşındı, fildişi ve köle ticareti için önemli bir merkez olarak tanıdı.", yer_id:"Zanzibar (Zengibar)" },
 
 { taraflar:["umman"], t:"1837-01-01", b:"Mombasa, Mazrui hanedanından alındı", tur:"toprak-kazanc",
   onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri","konu-hanedan"],
   yer_id:"",
   d:"Yıllar süren çatışmanın ardından Saîd b. Sultân, Doğu Afrika kıyısındaki önemli liman kenti Mombasa'yı rakip Mazruî hanedanından aldı — Uman'ın Afrika kıyısındaki hâkimiyetinin doruk noktalarından biri.",
-  kaynak:"TDV `said-b-sultan`: '1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.'", yer_id:"Mombasa" },
+  kaynak:"TDV `said-b-sultan`: 1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.", yer_id:"Mombasa" },
 
 { taraflar:["umman"], t:"1840-01-01", b:"Zengibar resmen başkent ilan edildi", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"dis", etiket:["idari","siyaset","konu-siyasi","konu-idari","konu-hanedan"],
   yer_id:"",
   d:"Saîd b. Sultân, Zengibar'ı resmî başkent ilan ederek nüfuzunu Mogadişu'dan Cape Delgado'ya kadar genişletti — bu tarihten sonra Uman/Zengibar imparatorluğunun ağırlık merkezi kalıcı olarak Afrika'ya taşındı ve on altı yıl sonraki bölünmenin zemini hazırlandı.",
-  kaynak:"TDV `said-b-sultan`: '1840 - Zengibar'ı resmî başkent ilan etti; Mogadişu'dan Cape Delgado'ya nüfuz genişletti.'", yer_id:"Zanzibar (Zengibar)" },
+  kaynak:"TDV `said-b-sultan`: 1840 - Zengibar'ı resmî başkent ilan etti; Mogadişu'dan Cape Delgado'ya nüfuz genişletti.", yer_id:"Zanzibar (Zengibar)" },
 
 { taraflar:["umman"], t:"1850-01-01", b:"Osmanlı'nın Cidde valisi Hasib Paşa'yı ziyaret etti", tur:"antlasma",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
   yer_id:"",
   d:"Saîd b. Sultân, Osmanlı'nın Cidde valisi Hasib Paşa'yı ziyaret ederek Kızıldeniz'in iki yakasındaki güç merkezleri arasında nadir bir doğrudan temas daha kurdu.",
-  kaynak:"TDV `uman`: '1850: Saîd b. Sultân, Osmanlı Cidde valisi Hasib Paşa'yı ziyaret etti.'", yer_id:"Cidde" },
+  kaynak:"TDV `uman`: '1850’de tekrar hacca giden Seyyid Saîd, Osmanlı Devleti’nin Cidde Valisi Hasib Paşa’yı ziyaret etti ( BA , I.HR, 72/3488).'", yer_id:"Cidde" },
 
 { t:"1856-01-01", b:"Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü", tur:"bolunme",
   onem:5, dunya:3, kapsam:"dis", etiket:["bolunme","olum","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Elli iki yıllık hükümdarlığın ardından Saîd b. Sultân Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü ve Zengibar'a gömüldü. Mirası oğulları arasında bölündü: Mâcid Zengibar'da, Süveynî (Thuwaini) Maskat'ta kaldı — Uman ve Zengibar'ın iki ayrı devlete dönüşme sürecinin fiilî başlangıcı.",
-  kaynak:"TDV `uman`: '1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı.' · TDV `said-b-sultan`: '1856 - Maskat'tan Zengibar'a deniz yolculuğu sırasında öldü, Zengibar'a gömüldü.'", kapsam_genis:true },
+  kaynak:"TDV `uman`: 1856: Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı. · TDV `said-b-sultan`: 'Uman, Hürmüz Boğazı ve Doğu Afrika tarihinde önemli bir rol oynayan Bû Saîd hânedanının en başarılı sultanı sayılan Saîd b. Sultân 1856 yılında Maskat’tan Zengibar’a gitmek için çıktığı deniz yolculuğu sırasında vefat etti ve hânedanın Zengibar’daki kabristanına gömüldü.'", kapsam_genis:true },
 
 { t:"1862-01-01", b:"Zengibar ve Uman ayrı devletler olarak tanındı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","bolunme","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"İngiltere, Fransa ve Almanya'nın ortak kararıyla Zengibar ve Uman birbirinden tamamen bağımsız iki ayrı devlet olarak resmen tanındı — 1856'daki fiilî bölünme, altı yıl sonra uluslararası hukuken de kesinleşti.",
-  kaynak:"TDV `uman`: '1862: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Uman birbirinden bağımsız iki ayrı devlet olarak tanındı.'", kapsam_genis:true },
+  kaynak:"TDV `uman`: 1862: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Uman birbirinden bağımsız iki ayrı devlet olarak tanındı.", kapsam_genis:true },
 
 { taraflar:["umman"], t:"1866-01-01", b:"Sultan Süveynî, oğlu Salim tarafından öldürüldü", tur:"olum",
   onem:2, dunya:1, kapsam:"ic", etiket:["olum","siyaset","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Maskat",
   d:"Maskat kolunun hükümdarı Süveynî, kendi oğlu Sâlim tarafından öldürüldü — hanedanın Maskat şubesindeki iç istikrarsızlığın bir başka örneği.",
-  kaynak:"TDV `uman`: '1866: Sultan Thuwaini murdered by son Salim.'" },
+  kaynak:"TDV `uman`: 1866: Sultan Thuwaini murdered by son Salim." },
 
 { taraflar:["umman"], t:"1868-01-01", b:"Azzam b. Kays, Bû Saîd hattından son imam oldu", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","din","konu-hanedan","konu-din"],
   yer_id:"",
   d:"Azzam b. Kays'ın imamet makamına gelmesiyle Bû Saîd hattından gelen son İbâdî imam tahta çıktı; bu tarihten sonra Maskat sultanlığı fiilen dünyevi bir monarşiye dönüşecekti.",
-  kaynak:"TDV `uman`: '1868: Azzam b. Kays becomes last imam from Bu Said line.'" },
+  kaynak:"TDV `uman`: 1868: Azzam b. Kays becomes last imam from Bu Said line." },
 
 // ═══════════════════════ BENÎ HÂLİD EMİRLİĞİ (LAHSA) (1670-1830) ═══════
 
@@ -2264,13 +2272,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["idari","osmanli","konu-askeri","konu-idari"],
   yer_id:"",
   d:"Osmanlı Devleti, doğu Arabistan'daki Lahsa (el-Hasâ) bölgesini idari olarak Basra beylerbeyiliğine bağladı — bu, Benî Hâlid emirliğinin 1670'te bu topraktan Osmanlı'yı çıkarana kadar sürecek ilk doğrudan Osmanlı idaresi dönemidir.",
-  kaynak:"TDV `lahsa`: '1547: Osmanlı Devleti bölgeyi Basra beylerbeyiliğine bağladı.'", yer_id:"Lahsa" },
+  kaynak:"TDV `lahsa`: 1547: Osmanlı Devleti bölgeyi Basra beylerbeyiliğine bağladı.", yer_id:"Lahsa" },
 
 { t:"1553-01-01", b:"Lahsa beylerbeyiliğe yükseltildi", tur:"idari",
   onem:2, dunya:1, kapsam:"dis", etiket:["idari","konu-idari"],
   yer_id:"",
   d:"Lahsa'nın idari statüsü beylerbeyiliğe yükseltildi ve yerel Âl-i Hamîd kabilesi yönetimde söz sahibi oldu — Osmanlı'nın bölgeyi doğrudan değil yerel aracılar üzerinden yönetme eğiliminin bir örneği; bu eğilim on yedi yıl sonra Benî Hâlid'in bağımsızlığını ilan etmesini kolaylaştıracaktı.",
-  kaynak:"TDV `lahsa`: '1553 sonrası: Lahsâ beylerbeyiliğe yükseltildi; Âl-i Hamîd kabilesi yönetimde.'", yer_id:"Lahsa" },
+  kaynak:"TDV `lahsa`: 1553 sonrası: Lahsâ beylerbeyiliğe yükseltildi; Âl-i Hamîd kabilesi yönetimde.", yer_id:"Lahsa" },
 
 { t:"1670-01-01", b:"Berrâk b. Guraybir, Hufuf'u alarak Benî Hâlid emirliğini kurdu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","toprak-kazanc","konu-askeri","konu-siyasi"],
@@ -2300,13 +2308,13 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"",
   d:"Yükselen I. Suûdî Devleti'nin hükümdarı Abdülazîz b. Muhammed b. Suûd, Lahsa'yı ele geçirerek Benî Hâlid emirliğini ilk kez ortadan kaldırdı.", ic_not_d:"TDV'nin `lahsa` maddesi bu olayı bir yıl farkla '1796' olarak veriyor (devletler.js '1795' diyor); bu ayrılık ÇÖZÜLMEDİ, iki tarih de not düşüldü.",
-  kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: '1796: Emîr Suûd tarafından bölge doğrudan Dir'iye'ye bağlandı.'", yer_id:"Lahsa" },
+  kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: 'Bunun üzerine bölge doğrudan Dir‘iye’ye bağlandı (1796).'", yer_id:"Lahsa" },
 
 { t:"1818-01-01", b:"İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],
   yer_id:"",
   d:"Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın I. Suûdî Devleti'ni yıkan büyük seferi sonrası Suûdî liderleri idam edilince, Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okutarak Benî Hâlid emirliğini geçici olarak yeniden kurdu.",
-  kaynak:"devletler.js `benihalid` künyesi: '1818: İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu.' · TDV `lahsa`: '1818: Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın harekâtı; Suudi liderleri idam edildi.'", yer_id:"Lahsa" },
+  kaynak:"devletler.js `benihalid` künyesi: '1818: İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu.' · TDV `lahsa`: 1818: Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın harekâtı; Suudi liderleri idam edildi.", yer_id:"Lahsa" },
 
 { t:"1830-01-01", b:"Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","son","konu-siyasi","konu-kisiler"],
@@ -2386,7 +2394,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
-  kaynak:"TDV 'atina' md.: \"1387: Floransalı Korinthos derebeyi Nerio Acciajuoli tarafından ele geçirildi\" · Setton, Catalan Domination of Athens 1311-1388 · ⚠️ TDV 1387 diyor, alt şehir 1387'de, Akropolis Mayıs 1388'de düştü — ikisi de kaynakta" },
+  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23) · daha önce künyede (devletler.js) 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #23)" },
 
 { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],
@@ -2401,12 +2409,12 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1402-01-01", b:"Antonio I Acciaiuoli'nin Atina'yı Venedik'ten geri alması", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Nerio'nun gayrimeşru oğlu Antonio, Osmanlı desteğiyle Venedik'i şehirden çıkardı ve dukalığı yeniden kurdu. Otuz üç yıllık hükümdarlığı, Latin Atina'nın son müreffeh dönemi sayılır. Bir Latin dukasının tahtını Osmanlı desteğiyle kazanması, 15. yüzyıl Yunanistan'ının gerçek güç dengesini gösterir.",
-  kaynak:"TDV 'atina' md.: \"1402: Antonio tarafından Venediklilerden geri alındı\", \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1402: Antonio tarafından Venediklilerden geri alındı, \"1402-1435: Antonio'nun hükümdarlığı\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1435-01-01", b:"Antonio I'in ölümü ve hanedan içi çekişmenin başlaması", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Antonio'nun ölümüyle Acciaiuoli ailesi içinde uzun bir taht kavgası başladı ve taraflar Osmanlı sarayının hakemliğine başvurdu. II. Nerio 1435-1455 arasında hüküm sürdü ama iktidarı hep tartışmalı kaldı. Osmanlı'nın hakem sıfatıyla işin içine girmesi, ilhakın hukukî zeminini de hazırladı.",
-  kaynak:"TDV 'atina' md.: \"1435-1455: II. Nerio dönemi\" · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
+  kaynak:"TDV 'atina' md.: 1435-1455: II. Nerio dönemi · Setton, The Papacy and the Levant, c. II · gün bilinmiyor" },
 
 { t:"1456-06-04", b:"Turahanoğlu Ömer Bey'in Atina'yı alması", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -2776,7 +2784,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `karadag`: '1878 Berlin Kongresi'nde Karadağ istiklâlini kazandı.' dunya: kronoloji_sirbistan.js ile eşleştirildi (dunya:4)." },
 
 { taraflar:["karadag"], t:"1878-08-01", b:"Bağımsızlık sonrası Müslüman göçü hızlandı", tur:"toprak-kayip",
-  onem:2, dunya:2, kapsam:"ic", etiket:["sosyal","konu-askeri","konu-sosyal","konu-demografi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:2, kapsam:"ic", etiket:["sosyal","konu-askeri","konu-sosyal","konu-demografi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Karadağ'a bırakılan, daha önce yerleşik ve verimli bölgelerin ilhakı, şehirli Müslüman nüfusun sürülmesi ve göçüyle birlikte yürüdü; TDV bu süreci 1912'ye kadar süren bir dizi olarak tarif ediyor.",
   kaynak:"TDV `karadag`: 'Coğrafî genişlemeye daha çok şehir ahalisinden oluşan müslüman nüfusun kovulması ve imhası eşlik etti.'" },
 
@@ -2791,17 +2799,17 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV maddesi 2001'de yazıldığı için 1910 kral ilanından bahsetmiyor; dayanak: standart akademik kaynak." },
 
 { taraflar:["karadag"], t:"1912-08-01", b:"Karadağ-Bulgaristan ittifakı imzalandı", tur:"ittifak",
-  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Balkan İttifakı'nın parçalarından Karadağ-Bulgaristan antlaşması ağustosta imzalandı.",
   kaynak:"Yerel veri (data/olaylar_ek10.js, 1912-10-08 maddesi): 'ağustosta Karadağ-Bulgaristan' ittifakından bahsediyor." },
 
 { taraflar:["karadag"], t:"1912-10-06", b:"Karadağ-Sırbistan ittifakı imzalandı", tur:"ittifak",
-  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Savaşın patlak vermesinden iki gün önce imzalanan Karadağ-Sırbistan ittifakı Balkan cephesinin son parçasını tamamladı.",
   kaynak:"Yerel veri (data/olaylar_ek10.js, 1912-10-08 maddesi): '6 Ekim'de Karadağ-Sırbistan' ittifakından bahsediyor." },
 
 { taraflar:["karadag"], t:"1912-10-08", b:"Osmanlı'ya savaş ilan eden ilk Balkan devleti oldu — I. Balkan Savaşı başladı", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["karadag"], kapsam_genis:true,
   d:"Balkan devletlerinin ortak notasına cevap alınamaması üzerine, en küçük ama en hazır müttefik Karadağ, 8 Ekim 1912'de savaş ilan ederek I. Balkan Savaşı'nı fiilen başlattı.",
   kaynak:"TDV `balkan-savasi`: '(8 Ekim 1912 - 29 Eylül 1913)' + yerel veri (data/devletler.js `karadag`, data/olaylar_ek10.js). dunya: kronoloji_sirbistan.js ile hizalandı." },
 
@@ -2847,7 +2855,7 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgar-carligi"], t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Bulgar knezlikleri de Osmanlı vassalı oldu", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["bulgar-carligi"], kapsam_genis:true,
   d:"Osmanlı akıncı kuvvetleri, İvan Aleksandır'ın ölümünden sonra parçalanmış Bulgar topraklarının komşusu olan Sırp beyliklerini Meriç kıyısında ağır bir yenilgiye uğrattı; bu bozgun Bulgar knezliklerinin de Osmanlı'ya haraca bağlanmasının önünü açtı.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (TDV `sirbistan` üzerinden).",
   kaynak:"kronoloji_sirbistan.js (1371-09-26, dunya:3) — TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan...'" },
 
@@ -2873,7 +2881,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Tırnova",
   d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.", ic_not_d:"Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
-  kaynak:"TDV `bulgaristan`: '1393'te Tırnova düştü, Bulgar Krallığı'na son verildi.'" },
+  kaynak:"TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
 
 { taraflar:["bulgar-carligi"], t:"1395-06-03", b:"Niğbolu kalesi Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -2933,13 +2941,13 @@ window.KRONOLOJI_BALKAN = [
   onem:4, dunya:2, kapsam:"dis", etiket:["idari","ekonomi","islahat","konu-siyasi","konu-idari","konu-ekonomi","konu-islahat"],
   yer_id:"Rusçuk",
   d:"Silistre, Vidin ve Niş eyaletlerinin birleştirilmesiyle bugünkü Bulgaristan'ın büyük bölümünü kapsayan Tuna Vilâyeti kuruldu; merkezi Rusçuk olan bu vilâyette vali Midhat Paşa yol yapımı, tarım kredisi sandıkları (sonradan Ziraat Bankası) ve Osmanlı'nın ilk vilâyet gazetesi 'Tuna'yı (Mart 1865, Türkçe-Bulgarca) hayata geçirdi. Bu vilâyet modeli, Bulgaristan Prensliği'nin 1878'de devraldığı idari altyapının temelini oluşturdu.",
-  kaynak:"TDV `midhat-pasa`: 'Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı.'" },
+  kaynak:"TDV `midhat-pasa`: Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı." },
 
 { t:"1870-03-11", b:"Bulgar Eksarhlığı kuruldu — Bulgar kilisesi bağımsızlığını kazandı", tur:"din",
   onem:5, dunya:3, kapsam:"dis", etiket:["din","sosyal","siyaset","konu-siyasi","konu-din","konu-sosyal"],
   yer_id:"İstanbul",
   d:"Sultan II. Abdülaziz'in fermanıyla Fener Rum Patrikhânesi'nden bağımsız bir Bulgar Ortodoks Eksarhlığı kuruldu; bu kurumsal ayrılık, sonraki sekiz yıl içinde siyasi bağımsızlık talebinin kültürel-dinî zeminini hazırladı ve Balkan milliyetçiliğinde bir dönüm noktası oldu. Osmanlı yönetimi Rusya'yı dengelemek amacıyla bu adımı destekledi.",
-  kaynak:"TDV `bulgaristan`: '11 Mart 1870'te müstakil Bulgar kilisesi kuruldu.'" },
+  kaynak:"TDV `bulgaristan`: 'Ancak Gülhane Hatt-ı Hümâyunu’ndan da faydalanarak önce bir Bulgar papaz evi, 11 Mart 1870 tarihinde de müstakil Bulgar kilisesi kuruldu.'" },
 
 { t:"1873-02-18", b:"Vasil Levski Sofya'da idam edildi", tur:"isyan",
   onem:4, dunya:2, kapsam:"ic", etiket:["sosyal","siyaset","konu-siyasi","konu-kisiler","konu-isyan","konu-sosyal"],
@@ -3015,13 +3023,13 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgaristan-prensligi"], t:"1885-11-14", b:"Sırp-Bulgar Savaşı başladı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","konu-askeri"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["bulgaristan-prensligi"], kapsam_genis:true,
   d:"Doğu Rumeli'nin ilhakıyla bozulan Balkan güç dengesine tepki olarak Sırbistan Bulgaristan'a savaş açtı; kısa savaş, Bulgar ordusunun Slivnitsa'daki beklenmedik zaferiyle Sırpların yenilgisiyle sonuçlandı.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
   kaynak:"kronoloji_sirbistan.js (1885-11-14, dunya:2) — TDV `sirbistan`: 'Bulgaristan 1885'te Doğu Rumeli eyaletini ilhak edince Sırbistan Bulgaristan'a savaş açtı.'" },
 
 { taraflar:["bulgaristan-prensligi"], t:"1886-03-03", b:"Bükreş Barışı — Sırp-Bulgar Savaşı sona erdi", tur:"antlasma",
   onem:2, dunya:2, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["bulgaristan-prensligi"], kapsam_genis:true,
   d:"Avusturya-Macaristan'ın arabuluculuğuyla imzalanan barış, savaş öncesi sınırları büyük ölçüde korudu ama Doğu Rumeli'nin fiilî birleşmesini değiştirmedi; Bulgaristan'ın askerî başarısı Avrupa'da Prens Battenberg'in prestijini artırdı ama aynı yıl içinde bir darbeyle tahttan indirilmesini engelleyemedi.",
   kaynak:"bulunamadı — TDV bu antlaşmadan ayrıca bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
@@ -3058,7 +3066,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"Balkan İttifakı'nın (Bulgaristan, Sırbistan, Yunanistan, Karadağ) bir parçası olarak Bulgaristan Osmanlı Devleti'ne savaş ilan etti; Bulgar ordusu savaşın en büyük ve en etkili gücüydü, Trakya cephesinde hızla ilerledi.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (aynı gün, ortak giriş).",
-  kaynak:"TDV `bulgaristan`: '8 Ekim 1912'de Karadağ'ın harekâtıyla başladı' — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
+  kaynak:"TDV `bulgaristan`: 8 Ekim 1912'de Karadağ'ın harekâtıyla başladı — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
 
 { taraflar:["bulgaristan-kralligi"], t:"1912-10-24", b:"Kırkkilise (Kırklareli) Savaşı — Bulgar ordusunun büyük zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"],
@@ -3076,7 +3084,7 @@ window.KRONOLOJI_BALKAN = [
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Antlaşmayla Osmanlı Devleti, Midye-Enez hattının batısındaki neredeyse tüm Avrupa topraklarını kaybetti; Bulgaristan, Batı Trakya'daki (Kırcaali, Nevrekop gibi) ilçeleri de ilhak ederek yüzölçümünü 111.000 km²'ye çıkardı. Ancak müttefikler arasında paylaşım anlaşmazlığı hemen ardından İkinci Balkan Savaşı'na yol açacaktı.",
-  kaynak:"TDV `bulgaristan`: '30 Mayıs 1913: Londra Antlaşması imzalandı.'" },
+  kaynak:"TDV `bulgaristan`: '30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması Bulgaristan’la müttefiklerinin lehine, Osmanlı Devleti’nin aleyhine hükümler ihtiva ediyordu.'" },
 
 { t:"1913-06-29", b:"İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"],
@@ -3118,7 +3126,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"I. Dünya Savaşı'nı Bulgaristan için resmen sona erdiren Neuilly Antlaşması, ülkeyi Batı Trakya'nın tamamından mahrum bırakarak Ege Denizi'ne kıyı erişimini kesti; ayrıca ağır savaş tazminatı ve askerî kısıtlamalar getirildi.",
-  kaynak:"TDV `bulgaristan`: 'Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi.'" },
+  kaynak:"TDV `bulgaristan`: Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi." },
 
 { taraflar:["bulgaristan-kralligi"], t:"1923-06-09", b:"9 Haziran Darbesi — Stamboliyski hükümeti devrildi", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe-askeri","konu-siyasi","konu-darbe"],
@@ -3153,7 +3161,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"veri (data/savaslar.js, t:'1389-06-15', taraf:['osmanli','bosna-kralligi']) · dunya puanı kronoloji_bizans.js ve kronoloji_sirbistan.js'teki aynı olayla (dunya:4) çapraz kontrol edilip eşleştirildi." },
 
 { taraflar:["bosna-kralligi"], t:"1390-06-01", b:"Kral unvanının genişlemesi — Dalmaçya kıyı şehirlerinin alınışı", tur:"toprak-kazanc",
-  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","hukumdar","konu-askeri","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","hukumdar","konu-askeri","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"1385-1390 arası süren mücadelenin ardından Split, Trogir, Šibenik gibi Dalmaçya kıyı şehirleri ile Brač, Hvar, Korčula adaları Tvrtko I'in hâkimiyetine girdi; kral unvanını 'Sırplar, Bosna, Dalmaçya, Hırvatistan ve Kıyı Ülkesi Kralı'na genişletti. Bu, Kotromanić hanedanının eriştiği en geniş sınırdır — 1391'de kralın ölümüyle bu genişleme kalıcı olamadı.",
   kaynak:"standart akademik kaynak (Fine, The Late Medieval Balkans) — TDV `bosna-hersek` bu genişlemeyi doğrudan doğrulamıyor; gün/ay düzeyi ikincil kaynaklardan, 'yaz 1390' için 06-01 kullanıldı." },
 
@@ -3163,22 +3171,22 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1391-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans)." },
 
 { taraflar:["bosna-kralligi"], t:"1394-07-01", b:"Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı", tur:"antlasma",
-  onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","idari","konu-idari","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","idari","konu-idari","konu-diplomasi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Stjepan Dabiša, Macar Kralı Sigismund'a bağlılığını tanıyıp erkek varisi olmaması hâlinde tahtın ona geçmesini kabul etti; karşılığında Somogy kontluğu unvanı aldı. Dabiša 1395'te ölünce Bosna soyluları bu antlaşmayı tanımayıp Sigismund yerine Kraliçe Jelena'yı seçti.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — gün/ay (Temmuz 1394) ikincil kaynaklardan çıkarıldı, ORTA güven." },
 
 { taraflar:["bosna-kralligi"], t:"1395-09-08", b:"Kraliçe Jelena'nın seçilmesi — Bosna'nın tek kadın hükümdarı", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Stjepan Dabiša'nın ölümü üzerine, Đakovo Antlaşması'nın öngördüğü Macar verasetini tanımayan soylular meclisi (stanak) dul kraliçe Jelena'yı tahta çıkardı — Bosna tarihinin bilinen tek kadın devlet başkanı. Gerçek iktidar yine büyük dük Hrvoje Vukčić Hrvatinić gibi derebeylerin elindeydi; Jelena 1398'de tahttan çekilmek zorunda kaldı.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — DÜŞÜK-ORTA güven." },
 
 { taraflar:["bosna-kralligi"], t:"1400-01-01", b:"Stećci mezar taşları geleneğinin altın çağı", tur:"kultur",
-  onem:2, dunya:1, kapsam:"ic", etiket:["kultur","konu-kultur"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:1, kapsam:"ic", etiket:["kultur","konu-kultur"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Bosna Krallığı'nın soylu aileleri, statülerini ve aile hafızalarını taşa kazınmış anıtsal mezar taşlarıyla (stećci) ölümsüzleştirdi; bu gelenek Kotromanić hanedanı döneminde üretim ve sanatsal nitelik bakımından zirveye ulaştı.",
   kaynak:"bulunamadı — TDV'de müstakil madde yok; kurumsal/akademik kaynak: UNESCO Dünya Mirası Merkezi (whc.unesco.org/en/list/1504/, 2016 Dünya Mirası kaydı) — tarih kesin gün taşımaz, sembolik olarak 1400 kullanıldı." },
 
 { taraflar:["bosna-kralligi"], t:"1404-01-01", b:"Büyük Dük Hrvoje Vukčić Hrvatinić'in yükselişi — derebeylerin krallar üzerindeki gücü", tur:"idari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["idari","sosyal","konu-idari","konu-sosyal"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["idari","sosyal","konu-idari","konu-sosyal"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Ostoja'yı tahttan indirip yerine genç Tvrtko II'yi geçiren büyük dük Hrvoje Vukčić Hrvatinić, bu dönemde krallık içindeki en güçlü aktör hâline geldi — merkezî krallığın soylu sınıfının (vlastelin) elinde neredeyse bir kukla olduğu bir yapıyı somutlaştırdı.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — DÜŞÜK-ORTA güven." },
 
@@ -3188,42 +3196,42 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1414-01-01') · TDV `bosna-hersek` genel anlatısıyla uyumlu." },
 
 { taraflar:["bosna-kralligi"], t:"1420-01-01", b:"II. Tvrtko'nun ikinci ve kalıcı saltanatının başlaması", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","idari","konu-idari","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"On altı yıllık taht istikrarsızlığının ardından II. Tvrtko, soylu hiziplerinin nihayet uzlaştığı hükümdar olarak ikinci kez ve bu sefer kalıcı biçimde tahta çıktı; saltanatı 1443'e kadar sürdü.",
   kaynak:"TDV `bosna-hersek`: '...Osmanlı hâkimiyetini kabul etmek zorunda kalan Kral II. Tvrtko'nun (1420-1443) tahta çıkışından hemen sonra...'" },
 
 { taraflar:["bosna-kralligi"], t:"1428-01-01", b:"Haracın pekiştirilmesi — Osmanlı garnizonlarının şehirlere yerleşmesi", tur:"antlasma",
-  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Osmanlı hâkimiyetini artık açıkça tanımak zorunda kalan II. Tvrtko döneminde, birçok şehri ele geçirip askerî garnizon yerleştiren Osmanlılar Bosna kralını yeniden ve daha ağır şartlarla haraca bağladı.",
   kaynak:"TDV `bosna-hersek`: 'Osmanlı hâkimiyetini kabul etmek zorunda kalan Kral II. Tvrtko'nun (1420-1443) tahta çıkışından hemen sonra Bosna kralları birçok şehri ele geçiren ve askerî garnizonlar yerleştiren Osmanlılar tarafından haraca bağlandı (1428-1429).'" },
 
 { taraflar:["bosna-kralligi"], t:"1430-01-01", b:"Ortodoks Sırp göçünün hızlanması — üç dinli bir krallık", tur:"sosyal",
-  onem:2, dunya:1, kapsam:"ic", etiket:["sosyal","din","konu-din","konu-sosyal","konu-demografi"], yer_id:"", kapsam_genis:true,
+  onem:2, dunya:1, kapsam:"ic", etiket:["sosyal","din","konu-din","konu-sosyal","konu-demografi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"1430'lardan itibaren Ortodoks Sırp nüfusu, özellikle doğu ve güneydoğu Bosna'ya belirgin biçimde göç etti; bu, krallığı Katolik hanedan-soylu sınıfı, heretik sayılan yerli Bosna Kilisesi ve artan Ortodoks nüfusun bir arada yaşadığı üç dinli bir toplum hâline getirdi.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Noel Malcolm, A Concise History of Bosnia, Cambridge University Press)." },
 
 { taraflar:["bosna-kralligi"], t:"1435-01-01", b:"Stjepan Vukčić Kosača'nın fiilî özerkliği — krallığın parçalanması hızlanıyor", tur:"bolunme",
-  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Doğu Bosna ve Hum bölgesinin güçlü beyi Stjepan Vukčić Kosača, merkezî krallıktan giderek bağımsızlaşan bir beylik kurdu — bu süreç on üç yıl sonra (1448) resmî bir kopuşla (Hersek Dukalığı) sonuçlanacaktı.",
   kaynak:"veri (mevcut data/devletler.js `hersek` kaydı, t:'1435-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans) — TDV'de bu kimliğe dair müstakil madde yok." },
 
 { taraflar:["bosna-kralligi"], t:"1443-01-01", b:"Stjepan Tomaš'ın tahta çıkışı — Batı'ya yaslanma, Osmanlı'ya haraç birlikte", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","diplomasi","konu-diplomasi","konu-hanedan"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","diplomasi","konu-diplomasi","konu-hanedan"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Stjepan Tomaš, tahta çıktığında hem Batı'nın (Papalık, Macaristan) desteğine güvenen hem de Osmanlı'ya haracı sürdüren çift yönlü ve kırılgan bir siyaset izledi.",
   kaynak:"TDV `bosna-hersek`: 'Bosna tahtı, Batı'nın desteğine güvenen fakat Osmanlılar'a haraç ödemeyi de sürdüren Stjepan Tomaś (1443-1461) tarafından işgal edilmişti.'" },
 
 { taraflar:["bosna-kralligi"], t:"1448-01-20", b:"Stjepan Vukčić Kosača'nın 'Herceg' unvanı — Hersek Dukalığı'nın doğuşu", tur:"bolunme",
-  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["idari","toprak-kayip","konu-askeri","konu-siyasi","konu-idari"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Stjepan Vukčić Kosača, Kutsal Roma İmparatoru III. Friedrich'e gönderdiği belgede kendini 'Aziz Sava'nın Herceki (dükü)' olarak tanımladı ve bu unvanla fiilen bağımsız bir dukalık kurdu — bölgeye bugünkü 'Hersek' adını veren de bu unvandır.",
-  kaynak:"TDV `bosna-hersek`: '...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş...' · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
+  kaynak:"TDV `bosna-hersek`: ...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş... · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
 
 { taraflar:["bosna-kralligi"], t:"1450-01-01", b:"Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası", tur:"ekonomi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi","konu-sanayi"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi","konu-sanayi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kreševo ve Fojnica'da bakır-gümüş, Olovo'da kurşun, İzvornik'te ve özellikle Srebrenica'da yılda birkaç ton gümüş çıkarılıyordu; Dubrovnik (Ragusa) tüccarları Podvisoki, Fojnica ve Srebrenica'da kalıcı ticaret kolonileri kurmuştu.",
   kaynak:"TDV `bosna-hersek`: '...ekonomik faaliyetin en önemli kolu olan madencilik...' · standart akademik kaynak ('Battle for Silver: Srebrenica Between Bosnian Kings and Serbian Despots in the 15th Century', akademik makale)." },
 
 { taraflar:["bosna-kralligi"], t:"1459-01-01", b:"Bosna Kilisesi'nin tasfiyesi — Papalık baskısıyla zorunlu ihtida", tur:"din",
-  onem:4, dunya:2, kapsam:"ic", etiket:["din","sosyal","konu-din","konu-sosyal"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["din","sosyal","konu-din","konu-sosyal"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Papa II. Pius, Osmanlı'ya karşı Batı desteği istiyorsa heretik saydığı Bosna Kilisesi'ni ('krstjani') ortadan kaldırmasını şart koşunca, Kral Tomaš mensuplarını vaftiz olmaya ya da krallığı terk etmeye zorladı; kaynaklara göre binlerce kişi ihtida etti. TDV, heretik Bosna Kilisesi mensuplarının sonraki fetihte toplu hâlde Osmanlı safına geçtiğine dair bir kayıt bulunmadığını özellikle belirtir.",
   kaynak:"TDV `bosna-hersek`: '...heretik diye nitelendirdiği yeni Bogomil mezhebi mensuplarının ortadan kaldırılmasını istedi...' ve '...heretik Bosna kilisesi mensuplarının toplu halde fetihlere katıldığını gösterir kayıtlara da rastlanmaz.' · standart akademik kaynak (Paweł Cholewicki, akademik makale, 1459 Purge)." },
 
@@ -3235,7 +3243,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1463-05-01", b:"Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"], yer_id:"Yayça (Jajce)",
   d:"Fâtih Sultan Mehmed idaresindeki ordu, haracı reddeden Bosna'ya karşı hızlı bir sefer düzenledi; eski kraliyet kalesi Bobovac kısa bir kuşatmadan sonra düştü, kaçan Kral Tomašević Ključ'ta yakalanıp Yayça'da (Jajce) Fâtih'in huzuruna getirildi ve idam edildi. Krallığın yıkılışı ile Bosna'nın TAMAMININ fethi aynı şey değildir: ova zaten on beş yıldır fiilen Osmanlı ucundaydı, buna karşılık kuzeyde Yayça'yı Aralık 1463'te Macar kralı geri aldı ve bölge 1528'e kadar Macar elinde kaldı.",
-  kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: '...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı...' · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
+  kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: ...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı... · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
 
 // ═══════════════════════════════════════════════════════════════════
 // YUNANİSTAN KRALLIĞI (1821-1923)
@@ -3248,7 +3256,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan` (M. Hacısalihoğlu): 'Nihayet 1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'War of Greek Independence')." },
 
 { taraflar:["yunanistan"], t:"1821-03-25", b:"Mora İsyanı başladı", tur:"isyan",
-  onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Bu tarih hem Yunanistan'ın modern devlet olarak doğuş anı hem de Yunan millî bayramı olarak kutlanır.",
   kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu." },
 
@@ -3273,7 +3281,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"data/savaslar.js:256 ('Missolonghi kuşatması', 1826-04-22, galip: osmanli) — zaten doğrulanmış kayıt." },
 
 { taraflar:["yunanistan"], t:"1827-07-06", b:"Londra Protokolü imzalandı", tur:"diplomasi",
-  onem:4, dunya:4, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:4, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"İngiltere, Fransa ve Rusya, bir yıl önceki St. Petersburg Protokolü'nün (4 Nisan 1826) devamında Londra'da yeni bir protokol imzalayarak Osmanlı Devleti'ne yıllık vergi veren özerk bir Yunan beyliğinin kurulmasını kararlaştırdı.",
   kaynak:"TDV `yunanistan`: '...İngiltere ve Rusya önce Saint Petersburg Protokolü'nü (4 Nisan 1826), ardından İngiltere, Fransa ve Rusya 6 Temmuz 1827'de Londra Protokolü'nü imzalayıp Osmanlı Devleti'ne yıllık vergi veren bir Yunan beyliğinin kurulmasını kararlaştırdı.'" },
 
@@ -3298,12 +3306,12 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: 'Baskıcı bir rejim kurmaya yönelen ve Rusya'ya yakın bir politika izleyen Kapodistrias 1831'de bir suikasta kurban gitti.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Ioannis Kapodistrias')." },
 
 { taraflar:["yunanistan"], t:"1832-05-07", b:"Otto'nun Yunanistan kralı seçilmesi", tur:"siyaset",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Büyük güçlerin onayıyla Bavyera Kralı'nın henüz reşit olmayan oğlu Otto, Londra Antlaşması ile 'Helenler'in kralı' sıfatıyla Yunanistan tahtına davet edildi; reşit oluncaya kadar bir naiblik konseyi kurulması da kararlaştırıldı.",
   kaynak:"TDV `yunanistan`: '1832'de büyük güçlerin onayıyla Yunan Millî Meclisi, Bavyera kralının henüz reşid olmayan oğlu Otto'yu \"Helenler'in kralı\" sıfatıyla Yunanistan'a davet etti.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Britannica/Treaty of Constantinople 1832)." },
 
 { taraflar:["yunanistan"], t:"1832-07-21", b:"İstanbul Antlaşması — Arta-Volos sınırının çizilmesi", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Osmanlı Devleti, büyük güçlerle imzaladığı antlaşmayla yeni Yunan Krallığı'nı resmen tanıdı ve kuzey sınırını Arta-Volos hattı olarak belirledi.",
   kaynak:"TDV `yunanistan`: 'Ülkenin ilk çekirdeği, Mora yarımadasından Golos (Volos) ve Arta körfezleri boyunca çekilecek bir çizginin güney kısmı ile Eğriboz ve Kiklad adalarını kapsar.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak." },
 
@@ -3313,7 +3321,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: '1833'te Otto ve beraberindeki heyet Yunanistan'a geldi ve devleti teşkilâtlandırmaya başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Royal Museums Greenwich arşiv kaydı)." },
 
 { taraflar:["yunanistan"], t:"1833-07-25", b:"Yunan Kilisesi'nin özerkliğini ilan etmesi", tur:"sosyal",
-  onem:4, dunya:2, kapsam:"ic", etiket:["din","reform","konu-din","konu-islahat","konu-sosyal"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"ic", etiket:["din","reform","konu-din","konu-islahat","konu-sosyal"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Otto yönetimindeki Yunan hükümeti, ülkedeki piskoposları bir araya getirerek Yunan Kilisesi'ni İstanbul'daki Fener Rum Ortodoks Patrikhânesi'nden bağımsız (otosefal) ilan etti — Balkanlar'da bu şekilde ayrılan ilk kiliselerden biriydi. Patrikhâne bu durumu ancak on yedi yıl sonra, 1850'de tanıyacaktı.",
   kaynak:"TDV `yunanistan`: 'Yunan kilisesi, İstanbul'daki Fener Rum Ortodoks Patrikhânesi'nden ilk ayrılan (otosefal) Balkan kiliselerinden biri oldu. Patrikhâne bu durumu ancak 1850'de tanıdı.' Tam ilan tarihi TDV'de yok; dayanak: standart akademik kaynak." },
 
@@ -3373,7 +3381,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV bu konuyu anmıyor; dayanak: standart akademik kaynak (Britannica, 'Hymn to Liberty')." },
 
 { taraflar:["yunanistan"], t:"1881-05-24", b:"Tesalya'nın Yunanistan'a devri", tur:"antlasma",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"1877-1878 Osmanlı-Rus Savaşı'nın ardından İstanbul'da imzalanan bir antlaşmayla Tesalya (Yenişehir/Larissa dahil) ve Epir'in bir bölümü Yunanistan'a bırakıldı. Bölgedeki müslüman nüfus hızla göç etmeye başladı.",
   kaynak:"TDV `yunanistan`: '1877-1878 Osmanlı-Rus Savaşı'ndan sonra Osmanlı Devleti ile Yunanistan arasında 1881'de İstanbul'da yapılan bir antlaşmayla Tesalya Yunanistan'a bırakıldı.' Tam gün TDV'de yok; dayanak: standart akademik kaynak (Convention of Constantinople 1881)." },
 
@@ -3393,7 +3401,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV `yunanistan` bu olayı anmıyor; dayanak: standart akademik/resmî kaynak (Uluslararası Olimpiyat Komitesi resmî sitesi olympics.com, Britannica)." },
 
 { taraflar:["yunanistan"], t:"1897-04-17", b:"1897 Osmanlı-Yunan Savaşı'nın başlaması", tur:"savas",
-  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","konu-askeri"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","konu-askeri"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Prens Georgios kumandasındaki bir Yunan filosunun Girit'e asker çıkarıp adayı ilhak ettiğini ilan etmesi (16 Şubat 1897) ve Rumeli sınırındaki çete saldırıları üzerine Osmanlı Devleti Yunanistan'a savaş ilan etti.", ic_not_d:"data/devletler.js embedded kronolojisi aynı olayı 1897-04-18 yazıyor — bir günlük çelişki, koordinatöre bildirilir; bu maddede olaylar_ek5.js'in tarihi (04-17) kullanıldı.",
   kaynak:"data/olaylar_ek5.js:385 ile birebir aynı olay, 1897-04-17 tarihiyle zaten doğrulanmış. TDV `girit` maddesi ayrıca Girit'e çıkarmayı 13 Şubat, Vassos'un ilhak beyannamesini 16 Şubat 1897 olarak veriyor." },
 
@@ -3458,7 +3466,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: '1913'te Kral Georg, Yunan topraklarına yeni katılan Selânik'te bir suikast sonucu öldürüldü. Yerine oğlu Konstantinos kral oldu.' Tam gün TDV'de yok; dayanak: standart akademik kaynak." },
 
 { taraflar:["yunanistan"], t:"1913-05-30", b:"Londra Antlaşması", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Birinci Balkan Savaşı'nı resmen sona erdiren antlaşmayla Osmanlı Devleti, Midye-Enez hattının batısındaki bütün Avrupa topraklarını ve Girit üzerindeki haklarını Balkan devletlerine bıraktı.",
   kaynak:"TDV `yunanistan`: '30 Mayıs 1913 Londra ve 10 Ağustos 1913 Bükreş antlaşmaları ile Yunanistan'ın kazanımları tanındı.'" },
 
@@ -3483,7 +3491,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"data/olaylar_ek.js:86 ile birebir aynı olay, 1919-05-15 tarihiyle zaten doğrulanmış." },
 
 { taraflar:["yunanistan"], t:"1920-08-10", b:"Sevr Antlaşması", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"İtilâf devletlerinin Osmanlı hükümetiyle imzalattığı antlaşma, Doğu Trakya'yı ve İzmir bölgesini (beş yıl sonra referandumla ilhak şartıyla) Yunanistan'a bırakıyordu. Ankara'daki Millî Mücadele hareketi antlaşmayı hiç tanımadı ve metin hiçbir zaman uygulanamadı.",
   kaynak:"data/olaylar_ek8.js:22, data/kronoloji_fransa.js:1002 ve data/kronoloji_ingiltere.js:1341 ile zaten çapraz doğrulanmış (dunya:4, üçünde de aynı)." },
 
@@ -3508,7 +3516,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: 'Yunan ordularının Anadolu'daki yenilgisi Yunanistan'da siyasal krize yol açtı; Eylül 1922'de askerlerin müdahalesi üzerine Kral Konstantinos tahtı bırakarak ülkeyi terketti. Yerine oğlu Georg geçti.'" },
 
 { taraflar:["yunanistan"], t:"1923-01-30", b:"Nüfus mübadelesi sözleşmesinin imzalanması", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","sosyal","toprak-kayip","konu-askeri","konu-diplomasi","konu-sosyal","konu-demografi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","sosyal","toprak-kayip","konu-askeri","konu-diplomasi","konu-sosyal","konu-demografi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Lozan görüşmeleri sürerken Türkiye ve Yunanistan, dinî mensubiyet esasına göre zorunlu bir nüfus mübadelesini öngören sözleşmeyi imzaladı. Yaklaşık 500.000 Türk/müslüman Yunanistan'dan Türkiye'ye, 1,5 milyon Rum-Ortodoks Anadolu'dan Yunanistan'a göç ettirildi.",
   kaynak:"TDV `yunanistan`: '1923 Lozan Antlaşması sonucunda gerçekleşen nüfus mübadelesiyle ülke nüfusunun etnik ve dinî yapısı önemli ölçüde değişmiştir.' İmza tarihi TDV'de ayrıca verilmiyor; dayanak: birincil kaynak (T.C. Dışişleri Bakanlığı resmî sitesi)." },
 
@@ -3634,7 +3642,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["evfat"], t:"1300-01-02", b:"Evfât'ın kervan yolları üzerindeki tekeli ve altı tâbi sultanlık", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Zeyla",
   etiket:["ticaret","idari","konu-idari","konu-ekonomi"],
   d:"Evfât, Habeşistan yaylasını Zeyla' limanına bağlayan kervan yollarını denetliyor, bölgenin kara ve deniz ticaretine hâkim oluyordu. Emirliğin nüfuzu altında Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre adlı altı müslüman sultanlık daha vardı.",
-  kaynak:"TDV `evfat`: \"Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre\"" },
+  kaynak:"TDV `evfat`: Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre" },
 
 { taraflar:["evfat"], t:"1328-01-01", b:"Evfât sultanı Habeş kralına yenildi ve esir düştü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -3684,7 +3692,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1415-01-01", b:"II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi", tur:"yikilis", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Zeyla' adasına sığınan son Evfât sultanı Sa'deddin orada kıstırılıp öldürüldü ve emirlik dağıldı. Veleşma hânedanının hayatta kalan üyeleri doğuya çekilerek Adal Sultanlığı'nı kuracak; İfat'ın davası bir asır sonra Ahmed el-Mücâhid'in cihadıyla yeniden dirilecektir.",
-  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\"" },
+  kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. ADAL SULTANLIĞI ve HARAR EMİRLİĞİ — 1415-1887
@@ -3694,7 +3702,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1415-01-02", b:"Adal Sultanlığı Evfât'ın yerini aldı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","kurulus","konu-siyasi","konu-hanedan"],
   d:"Evfât'ın yıkılışının ardından Veleşma hânedanı doğuya, Adal bölgesine çekilerek yeni bir sultanlık kurdu. Merkez önce Zeyla' civarındaydı; devlet İfat'ın Habeş krallığıyla hesabını bir asır sonra kapatacaktır.",
-  kaynak:"TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\" · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
+  kaynak:"TDV `evfat`: Adal Emirliği Evfât'ın yerini aldı · TDV `harar`: \"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)\"", yer_id:"Zeyla" },
 
 { taraflar:["adal"], t:"1480-01-01", b:"Emîr Mahfûz'un Adal genişlemesini başlatması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["askeri","toprak","konu-askeri"],
@@ -3729,12 +3737,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1530-01-01", b:"Fatagar ve Evfât bölgelerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Ahmed el-Mücâhid 1530'da Fatagar ve Evfât bölgelerini ele geçirdi. Bir asır önce yıkılan İfat Emirliği'nin toprakları böylece müslüman idaresine döndü; fetih artık akın değil kalıcı ilhak niteliği kazandı.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"1530'da Fatagar ve Evfât bölgelerini ... ele geçirdi\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"1530'da Fatagar ve Evfât bölgelerini ... ele geçirdi\"", odak_kimlik:["adal"], kapsam_genis:true },
 
 { taraflar:["adal"], t:"1531-01-01", b:"Davâro ve Şüve eyaletlerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri","konu-idari"],
   d:"Ahmed el-Mücâhid 1531'de Davâro ve Şüve (Shoa) eyaletlerini aldı. Bu iki eyalet Habeş krallığının güney kanadını oluşturuyordu; kaybı, kralın başkentini savunmasız bıraktı.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"1531'de Davâro ve Şüve (Shoa) eyaletlerini\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"1531'de Davâro ve Şüve (Shoa) eyaletlerini\"", odak_kimlik:["adal"], kapsam_genis:true },
 
 { taraflar:["adal"], t:"1531-01-02", b:"Başkent Aksum'un ele geçirilmesi", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"Aksum",
   etiket:["askeri","toprak","din","konu-askeri","konu-din"],
@@ -3744,12 +3752,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1532-01-01", b:"Amhare ve Lasta'nın fethi", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Ahmed el-Mücâhid 1532'de Amhare ve Lasta bölgelerini aldı. Krallığın çekirdek Amhara toprakları da elden çıkınca Lebna Dengel dağlara sığınmak zorunda kaldı.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"bir yıl sonra Amhare ve Lasta'yı\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"bir yıl sonra Amhare ve Lasta'yı\"", odak_kimlik:["adal"], kapsam_genis:true },
 
 { taraflar:["adal"], t:"1535-01-01", b:"Tigre topraklarının fethi ve Lebna Dengel'in Portekiz'den yardım istemesi", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","diplomasi","konu-askeri","konu-diplomasi"],
   d:"1535'te Tigre topraklarının da alınmasıyla İslâm, Etiyopya'da siyasî bakımdan en geniş yayılımına ulaştı. Topraklarının büyük kısmını ve başkentini kaybederek içerilere çekilen Lebna Dengel, Portekiz kralından yardım istedi; savaş böylece bölgesel olmaktan çıkıp Osmanlı-Portekiz çekişmesinin bir cephesi hâline geldi.",
-  kaynak:"TDV `ahmed-el-mucahid`: \"1535'te de Tigre topraklarını ele geçirdi\" · TDV `etiyopya`: \"içerilere çekilen Lebna Dengel Portekiz kralından yardım istedi (1535)\"", kapsam_genis:true },
+  kaynak:"TDV `ahmed-el-mucahid`: \"1535'te de Tigre topraklarını ele geçirdi\" · TDV `etiyopya`: \"içerilere çekilen Lebna Dengel Portekiz kralından yardım istedi (1535)\"", odak_kimlik:["adal"], kapsam_genis:true },
 
 { taraflar:["adal"], t:"1528-01-01", b:"Portekiz donanması Zeyla' ve Berberâ'yı yağmaladı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Zeyla",
   etiket:["askeri","ticaret","konu-askeri","konu-ekonomi"],
@@ -3789,7 +3797,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["adal"], t:"1551-01-01", b:"Emîr Nûr'un Harar surlarını yaptırması", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["mimari","sehircilik","imar","konu-imar"],
   d:"Sâhibü'l-fethi's-sânî unvanını taşıyan Emîr Nûr b. Mücâhid, Habeş baskınlarına karşı şehri koruyacak Harar surlarını (Cegol) yeniden inşa ettirdi. Bugün de ayakta olan bu sur, Doğu Afrika'daki en tanınmış İslâm şehir tahkimatıdır.",
-  kaynak:"TDV `harar`: \"Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı\" — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
+  kaynak:"TDV `harar`: Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
 
 { taraflar:["adal"], t:"1554-01-01", b:"Emîr Nûr'un yeniden cihad ilânı ve kaybedilen yerlerin geri alınması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Harar",
   etiket:["askeri","toprak","din","konu-askeri","konu-din"],
@@ -3885,7 +3893,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["habesistan"], t:"1434-01-01", b:"Zar'a Ya'kūb dönemi — krallığın en geniş sınırları", tur:"toprak", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["toprak","hanedan","din","konu-askeri","konu-hanedan","konu-din"],
   d:"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip oldu. Kilise düzenini merkezîleştiren, dinî edebiyatı besleyen ve komşu müslüman emirlikleri vergiye bağlayan bu saltanat, hıristiyan krallığın klasik çağıdır.",
-  kaynak:"TDV `etiyopya`: \"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip olmuştur\"", kapsam_genis:true },
+  kaynak:"TDV `etiyopya`: \"Etiyopya Krallığı en geniş topraklara Zar'a Ya'kūb (1434-1468) zamanında sahip olmuştur\"", odak_kimlik:["habesistan"], kapsam_genis:true },
 
 { taraflar:["habesistan"], t:"1438-01-01", b:"Zar'a Ya'kūb'dan Memlük Sultanı Barsbay'a dostane mektup", tur:"diplomasi", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","konu-diplomasi"],
@@ -3945,7 +3953,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["habesistan"], t:"1558-01-01", b:"Osmanlı ordusunun Tigre bölgesine hâkim olması", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Osmanlı ordusu 1558'de Tigre bölgesine hâkim oldu. Kıyı şeridinden yaylanın kuzey eşiğine çıkan bu ilerleme, eyaletin en derin kara nüfuzudur.",
-  kaynak:"TDV `habes-eyaleti`: \"Osmanlı ordusu 1558'de bölgeye hâkim oldu\"", kapsam_genis:true },
+  kaynak:"TDV `habes-eyaleti`: \"Osmanlı ordusu 1558'de bölgeye hâkim oldu\"", odak_kimlik:["habesistan"], kapsam_genis:true },
 
 { taraflar:["habesistan"], t:"1559-01-01", b:"Debârvâ'nın alınması ve müstahkem üsse dönüştürülmesi", tur:"toprak", onem:4, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","mimari","konu-askeri","konu-imar"],
@@ -4150,7 +4158,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["habesistan"], t:"1872-01-02", b:"Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"],
   d:"1872'de Hidiv İsmâil Paşa, İngilizlerin de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı. Nil sularının denetimi meselesi Mısır-Etiyopya ilişkilerinin değişmez ekseni olarak kaldı.",
-  kaynak:"TDV `etiyopya`: \"1872'de Hidiv İsmâil Paşa İngilizler'in de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı\"", kapsam_genis:true },
+  kaynak:"TDV `etiyopya`: \"1872'de Hidiv İsmâil Paşa İngilizler'in de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı\"", odak_kimlik:["habesistan"], kapsam_genis:true },
 
 { taraflar:["habesistan"], t:"1873-01-01", b:"Masavva'ın Doğu Sudan vilâyetine bağlanması", tur:"idari", onem:2, dunya:1, kapsam:"dis", yer_id:"Masavva",
   etiket:["idari","konu-idari"],
@@ -4433,7 +4441,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1698-12-13", b:"Fort Jesus'un düşüşü — Portekiz çağının sonu, Svahili kıyısının Umman nüfuzuna girmesi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Mombasa",
   etiket:["askeri","toprak","konu-askeri"],
   d:"Umman Sultanı Seyf b. Sultân'ın saldırısıyla Mombasa'daki Fort Jesus düştü ve şehir devletlerinden Mozambik hariç tamamı ele geçirildi; Makdişu da Ummanlılara geçti. İki asırlık Portekiz hâkimiyeti sona erdi ve kıyı Umman nüfuzuna girdi — Svahili şehir devletlerinin müstakil siyasî varlığı da bu tarihte kapanır.",
-  kaynak:"TDV `kilve`: \"Sultan, 1698'de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi\" · TDV `makdisu`: \"1698 yılında Uman Sultanı Seyf b. Sultân Mombasa'yı alınca Makdişu da Umanlılara geçti\" · gün data/devletler.js `svahili-sehirleri` künyesinden devralındı" },
+  kaynak:"TDV `kilve`: \"Sultan, 1698'de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi\" · TDV `makdisu`: \"1698 yılında Uman Sultanı Seyf b. Sultân, Mombasa’yı Portekizliler’den alınca Makdişu ve diğer Somali sahil şehirleri de Umanlılar’ın eline geçti.\" · gün data/devletler.js `svahili-sehirleri` künyesinden devralındı" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. MAKDİŞU SULTANLIĞI (1281-1500) ve SOMALİ SULTANLIKLARI (1500-1923)
@@ -4444,7 +4452,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { t:"1281-01-01", b:"Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması", tur:"ekonomi", onem:5, dunya:2, kapsam:"ic", yer_id:"Mogadişu",
   etiket:["ticaret","hanedan","din","konu-hanedan","konu-ekonomi","konu-din"],
   d:"VII/XIII. yüzyılda Ebû Bekir b. Fahreddin, Makdişu'da bir sultanlık kurdu ve şehir refah seviyesi yüksek bir ticaret merkezi hâline geldi. Mescid-i Cum'a'nın 636 (1238), Erbaa Rükûn Camii'nin 667 (1268) ve Fahreddin Camii'nin 27 Şâban 667 (1 Mayıs 1269) tarihli kitâbeleri şehrin bu dönemdeki imar faaliyetini belgeler.",
-  kaynak:"TDV `somali`: \"VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu\" · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
+  kaynak:"TDV `somali`: VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
 
 { taraflar:["makdisu-sultanligi"], t:"1329-01-01", b:"İbn Battûta'nın Somali kıyısı tasviri — Berber halkı, deve ve balıkçılık", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Zeyla",
   etiket:["kultur","ticaret","sosyal","konu-ekonomi","konu-kultur","konu-sosyal"],
@@ -4484,7 +4492,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["somali"], t:"1823-01-01", b:"Makdişu'nun ismen Seyyid Saîd b. Sultân'a bağlanması", tur:"idari", onem:3, dunya:1, kapsam:"dis", yer_id:"Mogadişu",
   etiket:["idari","konu-idari"],
   d:"1823 yılında Makdişu ismen Umman Sultanı Seyyid Saîd b. Sultân'a bağlandı, fakat yerli reisler yönetimi fiilen sürdürdüler. Bu ikili yapı — nominal Umman hâkimiyeti, fiilî yerel idare — yüzyıl boyunca Somali kıyısının kuralı oldu.",
-  kaynak:"TDV `makdisu`: \"1823 yılında Makdişu ismen Uman Sultanı Seyyid Saîd b. ... bağlanmış fakat yerli reisler yönetim devam ettirmiştir\"" },
+  kaynak:"TDV `makdisu`: \"1823 yılında Makdişu ismen Uman Sultanı Seyyid Saîd b. Sultân’a bağlandıysa da buranın idaresi yine Somali yerli reislerinin elinde kaldı.\"" },
 
 { taraflar:["somali"], t:"1828-01-01", b:"Umman Sultanlığı'nın ikiye bölünmesi ve güney Somali limanlarının Zengibar'a tâbi olması", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"Merka",
   etiket:["idari","ticaret","konu-idari","konu-ekonomi"],
@@ -4721,7 +4729,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 { taraflar:["buganda"], t:"1890-01-02", b:"Almanya-İngiltere antlaşması ile Doğu Afrika'nın paylaşılması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Zanzibar (Zengibar)",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler. Helgoland-Zengibar Antlaşması olarak bilinen bu düzenleme, Uganda'yı İngiliz, Tanganyika'yı Alman nüfuz bölgesine bıraktı ve Zengibar'ı İngiliz himayesine soktu.",
-  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: \"1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar\"" },
+  kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: 1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar" },
 
 { taraflar:["buganda"], t:"1892-01-01", b:"Buganda'da Katolik-Protestan iç savaşı ve İngiliz sömürgeciliğinin başlaması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
   etiket:["din","askeri","isyan","konu-askeri","konu-isyan","konu-din"],
@@ -4902,7 +4910,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"sind (TDV): \"1153'te (1740) Avşarlı hânedanının kurucusu Nâdir Şah'ın ... ele geçirdiği Sind\"" },
 
 { taraflar:["sind"], t:"1752-01-01", b:"Sindî şairi Şah Abdüllatîf Bhitâî öldü", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
-  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"",
+  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"", odak_kimlik:["sind"],
   d:"[Sind] Şah Cû Risâlo adlı divanıyla Sindî'yi bir edebiyat dili hâline getiren mutasavvıf şair, halk destanlarını tasavvufî bir dille yeniden yazdı. Sind kimliğinin bugün de en güçlü ortak zemini onun şiiridir — bir dilin klasiği, çoğu zaman bir devletten uzun yaşar.", ic_not_d:"yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus: Studies in Sindhi Culture" },
 
@@ -4922,7 +4930,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"sind (TDV): \"1783'te Tâlpûr sülâlesinden Mîr Feth Ali Han Sind'e hâkim olduysa da\"" },
 
 { taraflar:["sind"], t:"1827-01-01", b:"Sindî şairi Sachal Sarmast öldü", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"",
+  etiket:["edebiyat","tasavvuf","konu-kisiler","konu-din","konu-sanat","konu-kultur"], yer_id:"", odak_kimlik:["sind"],
   d:"[Sind — Talpur] Yedi dilde şiir söylediği rivayet edilen mutasavvıf şair, vahdet-i vücûd düşüncesini halk diline taşıdı. Şah Abdüllatîf'ten sonra Sindî edebiyatının ikinci büyük adıdır.", ic_not_d:"yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus" },
 
@@ -5168,7 +5176,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"evrengzib (TDV): \"Dârâ Şükûh'u da Ecmîr yakınlarında üç gün süren savaşta bozguna uğrattı (23 Mart 1659)\"" },
 
 { taraflar:["babur-imparatorlugu","racput"], t:"1679-04-02", b:"Evrengzîb cizyeyi yeniden koydu", tur:"idari", onem:5, dunya:2, kapsam:"dis",
-  etiket:["vergi","din","kriz","konu-siyasi","konu-idari","konu-ekonomi","konu-din"], yer_id:"", kapsam_genis:true,
+  etiket:["vergi","din","kriz","konu-siyasi","konu-idari","konu-ekonomi","konu-din"], yer_id:"", odak_kimlik:["babur-imparatorlugu"],
   d:"[Bâbürlü / Racput] Ekber'in kaldırdığı gayri müslim vergisinin yüz yıl sonra yeniden konması, Racput devletleriyle imparatorluk arasındaki uzlaşmanın temelini sarstı. Vergi bir maliye kararıydı; sonucu ise imparatorluğun en sadık askerî ortağını kaybetmesi oldu.",
   kaynak:"evrengzib (TDV) — Racpûtlar'ın destek çekmesi ve isyanlar bölümü; tarih için Cambridge History of India, IV" },
 
@@ -5243,7 +5251,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Mirza Haydar Duglat, Târîh-i Reşîdî (neşir ve çevirisi); L. Petech, a.g.e." },
 
 { taraflar:["ladak"], t:"1600-01-01", b:"Skardu emîri Ali Mîr Şîr Han Ladakh'ı yendi; Camyang Namgyal esir düştü", tur:"savas", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","yenilgi","evlilik","konu-askeri","konu-hanedan"], yer_id:"",
+  etiket:["askeri","yenilgi","evlilik","konu-askeri","konu-hanedan"], yer_id:"", odak_yer:["Leh (Ladakh)"],
   d:"[Ladakh — Namgyal] Baltistan'ın müslüman emîri Ladakh'ı istilâ etti; barış, kralın emîrin kızı Gyal Hatun ile evlenmesiyle kuruldu. Bu evlilikten doğan Senge Namgyal, hem Budist bir kralın oğlu hem müslüman bir emîrin torunuydu — ve Ladakh'ın en büyük hükümdarı olacaktı.", ic_not_d:"yer_id boş: Skardu atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; A. H. Francke, Antiquities of Indian Tibet" },
 
@@ -5378,7 +5386,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur" },
 
 { taraflar:["manipur"], t:"1470-01-01", b:"Manipûr ile Pong (Şan) krallığı Kyang Khampat'ı birlikte aldı", tur:"ittifak", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"], yer_id:"",
+  etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"], yer_id:"", odak_yer:["İmphâl (Manipûr)", "Ava (İnwa)"],
   d:"[Manipûr — Ningthouca] Meitei ordusu Şan müttefikiyle Kabav vadisine yürüdü; ganimet olarak getirilen Vişnu heykeli, Manipûr'da Hindu tapınmasının ilk resmî izi sayılır. Askerî bir sefer, bölgenin din tarihini de değiştirdi.", ic_not_d:"yer_id boş: Kyang Khampat atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur; Çeitharol Kumbaba" },
 
@@ -5423,7 +5431,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı. Dayanak: C. U. Aitchison, Treaties, Engagements and Sanads; Cambridge History of Southeast Asia" },
 
 { taraflar:["manipur"], t:"1834-01-01", b:"Kabav vadisi İngiliz hakemliğiyle Burma'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
-  etiket:["sinir","toprak-kayip","konu-askeri","konu-idari"], yer_id:"",
+  etiket:["sinir","toprak-kayip","konu-askeri","konu-idari"], yer_id:"", odak_yer:["İmphâl (Manipûr)", "Ava (İnwa)"],
   d:"[Manipûr — Ningthouca] Manipûr'un doğusundaki verimli vadi, İngiliz hakemliğiyle Burma'ya devredildi ve karşılığında krallığa yıllık ödeme bağlandı. Sınır çizen tarafın kendisi olmadığı bir kararla toprak kaybetmek, tâbi devlet olmanın bedeliydi.", ic_not_d:"yer_id boş: Kabav vadisi atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: C. U. Aitchison, a.g.e.; Gangmumei Kamei, A History of Manipur" },
 
@@ -5762,13 +5770,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"Ardahan",
   d:"Lala Mustafa Paşa ve Özdemiroğlu Osman Paşa komutasındaki Osmanlı ordusu Safevî kuvvetlerini Çıldır'da ağır bir yenilgiye uğrattı. Bu zafer Kafkasya'nın kapılarını Osmanlı'ya açtı; on beş gün içinde Tiflis'in fethi ve Ahıska atabegliğinin Osmanlı idaresine girmesiyle sonuçlandı.",
-  kaynak:"cildir-savasi (TDV, zaten doğrulanmış — bkz. data/olaylar_ek2.js) + ahiska (TDV — 'Ahıska atabegleri, Lala Mustafa Paşa'nın Çıldır Savaşı sonunda Osmanlı idaresine girdiler')" },
+  kaynak:"cildir-savasi (TDV, zaten doğrulanmış — bkz. data/olaylar_ek2.js) + ahiska (TDV — 'Ahıska atabegleri, Lala Mustafa Paşa’nın Çıldır Savaşı (1578) sonunda Osmanlı idaresine girdiler')" },
 
 { t:"1578-08-24", b:"Tiflis'in Lala Mustafa Paşa tarafından fethi", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","fetih","konu-askeri"],
   yer_id:"Tiflis",
   d:"Çıldır zaferinden on beş gün sonra Lala Mustafa Paşa'nın kuvvetleri Tiflis'e girdi; şehir 1603'e kadar sürecek yirmi beş yıllık bir Osmanlı idaresine girdi. Bu, Ferhad Paşa Antlaşması'na (1590) giden on iki yıllık savaşın açılış hamlesidir.",
-  kaynak:"tiflis (TDV, madde: tiflis — 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi')" },
+  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #24); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #24)" },
 
 { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","imar","konu-din","konu-imar"],
@@ -5804,13 +5812,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"Tiflis",
   d:"Safevî idaresi Kartli'yi Tiflis vilayeti olarak yeniden örgütleyip İslam'a geçmiş Rostom'u vali tayin etti. Bununla başlayan, İslam'a geçmiş Kartli hükümdarları düzeni 1711'e kadar sürdü — Gürcü tahtının Safevî sarayına bağımlılığının kurumsallaştığı dönemdir.",
-  kaynak:"tiflis (TDV — '1632'de Tiflis vilâyeti olarak tekrar Osmanlı idaresiyle birleştirilmiş ve ihtida etmiş olan Rostom buraya vali tayin edilmişti')" },
+  kaynak:"gurcistan (TDV; eski atıf `tiflis` — alıntı `tiflis` gövdesinde yok, `gurcistan` gövdesinde BİREBİR, UMIT-W49 6 Ekim 2026 — '1632'de Tiflis vilâyeti olarak tekrar Osmanlı idaresiyle birleştirilmiş ve ihtida etmiş olan Rostom buraya vali tayin edilmişti')" },
 
 { t:"1635-01-01", b:"Ahıska'nın Osmanlı tarafından Safevîlerden geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"Ahıska",
   d:"IV. Murad döneminin doğu seferleri sırasında Ahıska, geçici bir Safevî ara döneminin ardından yeniden Osmanlı idaresine geçti; şehir 1829'a kadar Çıldır Eyaleti'nin merkezi olarak kalacaktı.",
-  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı')" },
+  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı' [TDV slug: ahiska (alıntı doğrulanmadı)])" },
 
 { t:"1643-01-01", b:"Rüstem Han'ın Tiflis kalesini tahkim etmesi", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","konu-idari"],
@@ -5828,13 +5836,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["siyaset","konu-siyasi"],
   yer_id:"Tiflis",
   d:"1632'den beri süren, Safevî sarayınca tayin edilmiş İslam'a geçmiş Kartli hükümdarları düzeni 1711'de sona erdi; ardından Vahtang VI'nın kanunname çalışmaları ve on üç yıl sonraki Osmanlı müdahalesiyle (1724) yeni bir siyasi evre başladı.",
-  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' süren düzen)" },
+  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' [TDV slug: tiflis (alıntı doğrulanmadı)] süren düzen)" },
 
 { t:"1723-06-24", b:"Osmanlı'nın Tiflis'i son kez alması — Tiflis Beylerbeyiliği kuruldu", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","fetih","idari","konu-askeri","konu-idari"],
   yer_id:"Tiflis",
   d:"Safevî Devleti'nin Afgan istilâsıyla çökmesi ve Rusya'nın Hazar kıyılarına inmesi üzerine Osmanlı ordusu 23-24 Haziran 1723'te Tiflis'e girdi ve şehri yeni bir beylerbeyilik olarak örgütledi. On üç yıl sürecek son büyük Osmanlı işgalinin başlangıcıdır.",
-  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi') + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
+  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi' [TDV slug: tiflis (alıntı doğrulanmadı)]) + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
 
 { t:"1724-01-01", b:"Kartli Çarı Vahtang'ın oğlu İbrahim'in Osmanlı tarafından Kartli'ye tayini", tur:"siyaset", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],
@@ -6287,7 +6295,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi","din","konu-diplomasi","konu-din"],
   yer_id:"",
   d:"Suriye ve Mısır'a hâkim olma arzusundan vazgeçmeyen Gāzân Han, 12 Nisan 1302'de Papa VIII. Bonifacius'a mektup yazarak Memlüklere karşı hıristiyan devletlerinin desteğini sağlamaya çalıştı, fakat sonuç alamadı. Müslüman olmuş bir Moğol hükümdarının papalıkla ittifak araması, İlhanlı dış siyasetinin dinî değil jeopolitik olduğunu gösterir.", ic_not_d:"`kapsam_genis` — muhatabı Avrupa'dır, tek bir yere bağlanamaz.",
-  kaynak:"gazan-han", kapsam_genis:true },
+  kaynak:"gazan-han", odak_kimlik:["ilhanli"], kapsam_genis:true },
 
 { taraflar:["ilhanli"], t:"1303-04-20", b:"Dımaşk yenilgisi — Suriye ümidi kesin olarak bitti", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -6297,13 +6305,13 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 
 { taraflar:["ilhanli"], t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", gun:"Ağustos 1303 — ay hassasiyeti · ay TDV'de var, gün yok (`incu`, `ilhanlilar`, `celayirliler`, `muzafferiler` …)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali","konu-askeri","konu-idari","konu-ekonomi","konu-islahat"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"incu" },
 
 { taraflar:["ilhanli"], t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", gun:"1300 — yıl hassasiyeti · TDV `ilhanlilar`, `celayirliler`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","mali","ulasim","konu-idari","konu-ekonomi","konu-islahat","konu-ulastirma"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", odak_kimlik:["ilhanli"], kapsam_genis:true,
   d:"Gāzân Han âdeta soygun derecesine ulaşan vergileri düzene koydu, kanun ve teamülleri gözden geçirip bazılarını kaldırdı, vergilerin âdil tahsili için görevlilere ağır cezaî hükümler getirdi. Posta teşkilâtını ıslah için menzilhâneler yaptırarak ulakların buralarda dinlenmesini sağladı ve böylece halkı tâciz etmelerini engelledi. Kumandanlara hizmet karşılığı dirlik verdi.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak bu düzenlemelerin yıl yıl sırasını vermiyor; madde saltanatın reform yılları olan dönemin ortasına bağlandı, bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"ilhanlilar" },
 
@@ -6393,7 +6401,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","baris","konu-diplomasi"],
   yer_id:"",
   d:"Memlükler ile yıllardır devam eden mücadeleye 1323'te yapılan bir antlaşmayla son verildi. Aynicâlût'tan (1260) beri altmış üç yıl süren düşmanlık böylece kapandı; iki devlet arasında ticaret ve hac yolları yeniden açıldı.", ic_not_d:"`kapsam_genis` — antlaşma iki devletin bütün sınırını bağlar.",
-  kaynak:"ilhanlilar", kapsam_genis:true },
+  kaynak:"ilhanlilar", odak_kimlik:["ilhanli"], kapsam_genis:true },
 
 { taraflar:["ilhanli"], t:"1327-01-01", b:"Emîr Çoban ve oğlu Herat'ta öldürüldü — Çobanlı ailesinin tasfiyesi", gun:"H. 727 / 1327 — yıl hassasiyeti · TDV `kert`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","olum","ic-savas","taht-kavgasi","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan","konu-hanedan"],
@@ -8712,10 +8720,11 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 //    yapılmadan da eşler. Dosyadaki dört addan TEK bağlanacak olan budur.
 window.KRONOLOJI_KATALAN = [
 
-{ t:"1303-09-01", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+{ t:"1303-09-01", kesinlik:"ay", b:"Katalan Kumpanyası'nın Bizans hizmetine girmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ittifak","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Sicilya savaşlarından işsiz kalan Roger de Flor kumandasındaki Katalan paralı askerleri, Türk beyliklerine karşı savaşmak üzere Bizans hizmetine alındı. Kumpanya Anadolu'da birkaç başarı kazandı ama disiplinsizliği ve talepleriyle imparatorluğu bunalttı. Ege tarihinin en tuhaf devletlerinden birinin çekirdeği budur: bir ŞİRKET olarak örgütlenmiş bir ordu.",
-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · devletler.js künye kronolojisi · gün yaklaşıktır" },
+  kaynak:"Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\" · TDV bizans (yalnız yıl)",
+  ic_not_gun:"Kaynaklar AY verir (Eylül 1303), gün vermez; -09-01 'ayın 1'i' DEĞİL, kesinlik:\"ay\" okunur (D213). Cümleler kumpanyanın İstanbul'a VARIŞINI tarihler; sözleşme daha önce (Ağustos 1302 Caltabellotta barışı sonrası) yapıldı. TDV `bizans` yalnız yıl verir: \"Bizans'ın yardımına koştu (1303)\" — önceki notun 'TDV kapsamıyor' ifadesi bu yüzden düşürüldü. Setton 1975 bu turda da OKUNAMADI — dayanak sayılmadı. Önceki nottan korunan: \"devletler.js künye kronolojisi\" atfı kaldırıldı (D207) ve künyedeki 1303-01-01 maddesi mükerrer olarak silindi (KRONO-CELISKI-1006 §2 #26). W52b/1006" },
 
 { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["kriz","askeri","isyan","konu-askeri","konu-siyasi","konu-kisiler","konu-isyan"],
@@ -8815,42 +8824,42 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1196-01-01", b:"Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Abdülhak, henüz Muvahhid hizmetindeyken Zenâte Berberî boyu Merînîlerin beyliğini kurdu; hanedanın kuruluşu olarak kabul edilir. Bağımsızlaşma bir asrı bulacak bir sürece yayıldı.",
-  kaynak:"TDV `meriniler`: \"592/1196'da Abdülhak tahta geçti, hanedanın kurucusu olarak kabul edildi\"" },
+  kaynak:"TDV `meriniler`: 592/1196'da Abdülhak tahta geçti, hanedanın kurucusu olarak kabul edildi" },
 
 { taraflar:["merini"], t:"1216-01-01", b:"Tâze'de Muvahhid ordusuna zafer", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Merînîler 20.000 kişilik bir Muvahhid ordusunu Tâze'de yenilgiye uğrattı; bağımsızlaşma sürecinin ilk büyük askerî başarısı.",
-  kaynak:"TDV `meriniler`: \"613/1216'da 20.000 kişilik Muvahhid ordusunu yenilgiye uğrattı\"", yer_id:"Tâze (Taza)" },
+  kaynak:"TDV `meriniler`: \"613 (1216) yılında üzerlerine gönderilen 20.000 kişilik Muvahhid ordusunu yenip Tâze’yi (Tâzâ) ele geçirdiler.\"", yer_id:"Tâze (Taza)" },
 
 { taraflar:["merini"], t:"1255-01-01", b:"Fas yakınlarında ikinci büyük Muvahhid zaferi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"80.000 kişilik bir Muvahhid ordusu Fas yakınlarında mağlûp edildi; Merînîlerin kuzey Fas'taki üstünlüğü perçinlendi.",
-  kaynak:"TDV `meriniler`: \"653/1255'te 80.000 kişilik Muvahhid ordusunu mağlûp etti\"", yer_id:"Fas (Fez)" },
+  kaynak:"TDV `meriniler`: \"653 (1255) yılında 80.000 kişilik Muvahhid ordusunu Fas yakınlarında mağlûp etti.\"", yer_id:"Fas (Fez)" },
 
 { taraflar:["merini"], t:"1258-01-01", b:"Ebû Yûsuf Ya'kūb saltanata geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-hanedan"],
   d:"Hanedanın en güçlü hükümdarlarından Ebû Yûsuf Ya'kūb saltanata geçti; onun döneminde Muvahhid Devleti kesin olarak sona erdirilecek ve Endülüs'e büyük seferler düzenlenecekti.",
-  kaynak:"TDV `meriniler`: \"656/1258'de Ebû Yûsuf Ya'kūb saltanata geçti\"" },
+  kaynak:"TDV `meriniler`: 656/1258'de Ebû Yûsuf Ya'kūb saltanata geçti" },
 
 { taraflar:["merini"], t:"1270-01-01", b:"Merakeş alınarak Muvahhidler Devleti sona erdirildi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Merakeş",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebû Yûsuf Ya'kūb Merakeş'i ele geçirerek bir asırdır Kuzey Afrika ve Endülüs'e hükmeden Muvahhidler Devleti'ni tarihe gömdü; Merînîler artık bölgenin tek hâkimiydi.",
-  kaynak:"TDV `meriniler`: \"668/1270'te Merakeş ele geçirilerek Muvahhidler Devleti sona erdirildi\"" },
+  kaynak:"TDV `meriniler`: 668/1270'te Merakeş ele geçirilerek Muvahhidler Devleti sona erdirildi" },
 
 { t:"1274-01-01", b:"Tanca ve Sebte zaptedildi", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis", yer_id:"Tanca",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Merînîler, Cebelitârık Boğazı'na hâkim iki liman şehri Tanca ve Sebte'yi ele geçirerek Endülüs'e geçiş kapısını denetim altına aldı.",
-  kaynak:"TDV `meriniler`: \"672/1273-74'te Tanca ve Sebte zaptedildi\"" },
+  kaynak:"TDV `meriniler`: 672/1273-74'te Tanca ve Sebte zaptedildi" },
 
 { taraflar:["merini"], t:"1275-09-08", b:"İsticce'de Kastilya ordusuna zafer (Endülüs seferi)", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Ebû Yûsuf Ya'kūb'un Endülüs'teki Nasrîlere yardıma çıkan ilk büyük seferi, İsticce (Ecija) yakınlarında Kastilya ordusunu bozguna uğrattı.",
-  kaynak:"TDV `meriniler`: \"15 Rebîülevvel 674/8 Eylül 1275'te İsticce savaşında Kastilya ordusunu mağlûp etti\"", yer_kon:[37.5417,-5.0819] },
+  kaynak:"TDV `meriniler`: 15 Rebîülevvel 674/8 Eylül 1275'te İsticce savaşında Kastilya ordusunu mağlûp etti", yer_kon:[37.5417,-5.0819] },
 
 { taraflar:["merini"], t:"1340-10-30", b:"Rio Salado'da (Tarîf) Kastilya-Portekiz ittifakına yenilgi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Ebü'l-Hasan'ın büyük Endülüs ordusu, Tarîf yakınında XI. Alfonso (Kastilya) ile IV. Alfonso'nun (Portekiz) birleşik kuvvetlerine yenildi. Yenilgi Merînîlerin Endülüs'e askerî müdahale kapasitesini kalıcı olarak kırdı ve Reconquista'nın önündeki son büyük Müslüman deniz aşırı ordusunu tasfiye etti.",
-  kaynak:"TDV `meriniler`: \"8 Cemâziyelevvel 741/30 Ekim 1340'ta Tarîf yakınında XI. Alfonso ve IV. Alfonso'nun birleşik kuvvetlerine yenildi\"", yer_kon:[36.0128,-5.6076] },
+  kaynak:"TDV `meriniler`: \"Ancak Nasrî Sultanı Ebü’l-Haccâc I. Yûsuf kumandasındaki birliklerin kendisine katılmasına rağmen Tarîf civarında Kastilya Kralı XI. Alfonso ve Portekiz Kralı IV. Alfonso’nun birleşik kuvvetleri karşısında yenildi (8 Cemâziyelevvel 741 / 30 Ekim 1340).\"", yer_kon:[36.0128,-5.6076] },
 
 { taraflar:["merini"], t:"1270-01-01", b:"Abdülvâdîler (Zeyyânîler) bağımsızlaşarak Tilimsan'ı kurdu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
@@ -8860,22 +8869,22 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1307-01-01", b:"Sekiz yıllık Tilimsan kuşatması ve sultanın suikastle ölümü", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","kusatma","konu-askeri","konu-kisiler"],
   d:"Ebû Ya'kūb Yûsuf'un Tilimsan kuşatması sekiz yıl üç ay sürdü, şehir teslim edilmedi; kuşatma sırasında sultan suikaste kurban gitti.",
-  kaynak:"TDV `meriniler`: \"706/1306-1307'de Tilimsan kuşatması 8 yıl 3 ay sürdü; suikasta uğrayıp öldü\"" },
+  kaynak:"TDV `meriniler`: 706/1306-1307'de Tilimsan kuşatması 8 yıl 3 ay sürdü; suikasta uğrayıp öldü" },
 
 { taraflar:["merini"], t:"1337-01-01", b:"Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti (geçici) sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebü'l-Hasan Ali, Tilimsan'ı ele geçirerek Abdülvâdî hâkimiyetine son verdi; on yıl sürecek bir Merînî ilhak dönemi başladı. Şehir 1348'de yine Abdülvâdîlere dönecekti (bkz. [[zeyyani]]).",
-  kaynak:"TDV `meriniler`: \"737/1337'de Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti sona erdirildi\"" },
+  kaynak:"TDV `meriniler`: 737/1337'de Tilimsan ele geçirilerek Abdülvâdîler hâkimiyeti sona erdirildi" },
 
 { taraflar:["merini"], t:"1347-01-01", b:"Tunus'a girilip Hafsî toprakları alındı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebü'l-Hasan Ali'nin ordusu Tunus'a girerek Hafsîlerin topraklarını (Tunus, Bicâye, Kostantîne) ele geçirdi; Merînî gücü kısa süreliğine bütün Mağrib'e yayıldı.",
-  kaynak:"TDV `meriniler`: \"748/1347'de Tunus şehrine girerek Hafsîlerin topraklarını aldı\"" },
+  kaynak:"TDV `meriniler`: 748/1347'de Tunus şehrine girerek Hafsîlerin topraklarını aldı" },
 
 { taraflar:["merini"], t:"1348-01-01", b:"Merînîler on yıllık Tilimsan hâkimiyetini kaybetti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Abdülvâdîler Tilimsan'ı geri alarak on yıllık Merînî hâkimiyetine son verdi.",
-  kaynak:"TDV `meriniler`: \"749/1348'de Abdülvâdîler Tilimsân'ı geri aldı; on yıllık Merînî hâkimiyeti sona erdi\"" },
+  kaynak:"TDV `meriniler`: \"Bu arada Abdülvâdîler de Tilimsân’ı geri alarak on yıl süren Merînî hâkimiyetinden kurtuldular (749/1348).\"" },
 
 { taraflar:["merini"], t:"1352-01-01", b:"Ebû İnân Tilimsan'a girdi, Abdülvâdîlerin ikinci hükümranlığı sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -8885,37 +8894,37 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1350-01-01", b:"Ebû İnân babasını tahttan feragate zorladı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","konu-isyan","konu-hanedan"],
   d:"Ebû İnân, Medgūsa'da (Ümmürrebî vadisi) babası Ebü'l-Hasan'ı tahttan feragate mecbur ederek iktidarı ele geçirdi.",
-  kaynak:"TDV `meriniler`: \"751/1350'de Ebû İnân babasını tahttan feragate mecbur etti\"" },
+  kaynak:"TDV `meriniler`: \"Ebû İnân Ümmürrebî vadisinde (Medgūsa) cereyan eden savaştan galip çıkarak Cebelülhintâte’ye sığınan babasını tahttan feragate mecbur etti (751/1350).\"" },
 
 { taraflar:["merini"], t:"1358-01-01", b:"Ebû İnân boğularak öldürüldü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Merînî gücünün zirvesindeki hükümdar Ebû İnân sarayında boğularak öldürüldü; ölümünün ardından hanedan on yıllar sürecek bir taht kavgaları dönemine girdi.",
-  kaynak:"TDV `meriniler`: \"759/1358'de Ebû İnân boğularak öldü\"" },
+  kaynak:"TDV `meriniler`: 759/1358'de Ebû İnân boğularak öldü" },
 
 { taraflar:["merini"], t:"1409-01-01", b:"Hafsî sultanının Fas'a yürüyüşü, Merînîler istiklâlini kaybetti", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Hafsî sultanının Fas üzerine yürümesiyle Merînîler fiilî bağımsızlığını kaybetti; hanedan artık bir Hafsî nüfuz alanına dönüştü. On yıllar süren taht kavgaları ve vezir saltanatları döneminin (Vattâsîler) zemini burada atıldı.",
-  kaynak:"TDV `meriniler`: \"812/1409'da Hafsî sultanının Fas üzerine yürüyüşü; Merînîler istiklâlini kaybetti\"" },
+  kaynak:"TDV `meriniler`: 812/1409'da Hafsî sultanının Fas üzerine yürüyüşü; Merînîler istiklâlini kaybetti" },
 
 { t:"1415-01-01", b:"Portekiz Sebte'yi işgal etti", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Sebte (Ceuta)",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Portekiz Kralı I. Jean, Sebte'yi işgal ederek Fas kıyısındaki ilk Avrupa kolonizasyon hamlesini başlattı — Portekiz'in Fas sahillerini adım adım ele geçireceği bir asrın ilk halkası ve Avrupa'nın deniz aşırı yayılma çağının erken işaretlerinden biri.",
-  kaynak:"TDV `meriniler`: \"818/1415'te Portekiz Kralı I. Jean tarafından işgal edildi\"" },
+  kaynak:"TDV `meriniler`: \"818 (1415) yılında Sebte altın, köle ve baharat yolu ticaretini eline geçirmeyi hedefleyen Portekiz Kralı I. Jean tarafından işgal edildi.\"" },
 
 { taraflar:["merini"], t:"1458-01-01", b:"Kasrüssagīr Portekizlilerin eline geçti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Portekiz kıyı işgallerini sürdürerek Kasrüssagīr'i ele geçirdi.",
-  kaynak:"TDV `meriniler`: \"862/1458'de Kasrüssagīr şehri Portekizlilerin eline geçti\"", yer_kon:[35.8494,-5.5667] },
+  kaynak:"TDV `meriniler`: \"Kasrüssagīr (Kasrımasmûde) şehri (862/1458) ve Tanca (869/1465) Portekizliler’in eline geçti.\"", yer_kon:[35.8494,-5.5667] },
 
 { taraflar:["merini"], t:"1465-01-01", b:"Tanca Portekiz'e düştü, son Merînî sultanı öldürülerek hanedan sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["toprak-kayip","hanedan","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Tanca'nın da Portekiz'in eline geçmesiyle aynı yıl son Merînî sultanı Abdülhak öldürüldü ve iki buçuk asırlık hanedan sona erdi; iktidar fiilen eski Merînî vezirleri Vattâsîlere geçti.",
-  kaynak:"TDV `meriniler`: \"869/1465'te Tanca Portekizliler tarafından işgal edildi\" · \"869/1465'te Merînî Sultanı Abdülhak öldürülerek Merînîler Devleti sona erdi\"" },
+  kaynak:"TDV `meriniler`: 869/1465'te Tanca Portekizliler tarafından işgal edildi · \"869/1465'te Merînî Sultanı Abdülhak öldürülerek Merînîler Devleti sona erdi\"" },
 
 { taraflar:["merini"], t:"1299-01-01", b:"Mansûre şehri kuruldu (Tilimsan kuşatması karargâhı)", tur:"kultur", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["mimari","kurum","imar","konu-burokrasi","konu-kultur","konu-imar"],
   d:"Sekiz yıl süren Tilimsan kuşatması sırasında ordugâh olarak Mansûre şehri kuruldu; köşkler, resmî binalar ve hamamlar inşa edildi — bir kuşatma karargâhının kalıcı şehre dönüşümü.",
-  kaynak:"TDV `meriniler`: \"698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı\"", yer_id:"Tilimsan" },
+  kaynak:"TDV `meriniler`: 698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı", yer_id:"Tilimsan" },
 
 { taraflar:["merini"], t:"1323-01-01", b:"Medresetü'l-Attârîn inşa edildi", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Fas (Fez)",
   etiket:["bilim","mimari","imar","konu-bilim","konu-imar","konu-egitim"],
@@ -8925,7 +8934,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["merini"], t:"1304-01-01", b:"İlk resmî hac kafilesi yola çıktı", tur:"din", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["din","konu-din"],
   d:"Merînî hükümdarlığı himayesinde ilk resmî hac kafilesi Mekke'ye yola çıktı; hanedanın dinî meşruiyet ve hac yolu güvenliği siyasetinin erken bir göstergesi.",
-  kaynak:"TDV `meriniler`: \"703/1303-1304'te ilk hac kafilesi yola çıktı\"" },
+  kaynak:"TDV `meriniler`: 703/1303-1304'te ilk hac kafilesi yola çıktı" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. SÂDÎLER (1511-1659) — bkz. devletler.js id:"sadi"
@@ -8934,27 +8943,27 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1511-01-01", b:"Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde elli kadar kabile reisinden biat alarak cihad emîri oldu — İber yarımadası ve Portekiz'in kıyı işgallerine karşı direniş söylemiyle yükselen Sâdî hanedanının başlangıcı.",
-  kaynak:"TDV `sadiler`: \"916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı\"", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: 916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı", kapsam_genis:true },
 
 { taraflar:["sadi"], t:"1517-01-01", b:"Kurucunun vefatı, Ahmed el-A'rec tahta geçti", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Hanedanın kurucusu Muhammed'in vefatının ardından oğlu Ahmed el-A'rec tahta geçti.",
-  kaynak:"TDV `sadiler`: \"923/1517'de Muhammed'in vefatı; Ahmed el-A'rec'in tahta geçmesi\"" },
+  kaynak:"TDV `sadiler`: 923/1517'de Muhammed'in vefatı; Ahmed el-A'rec'in tahta geçmesi" },
 
 { taraflar:["sadi"], t:"1524-01-01", b:"Merakeş'e girilip başşehir yapıldı", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Merakeş",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Sâdîler Merakeş'e girerek şehri başşehir yaptı; Sûs'taki yerel bir cihad hareketi artık bölgesel bir devletin merkezine sahipti.",
-  kaynak:"TDV `sadiler`: \"930/1524'te Merakeş'e girerek başşehir yapılması\"" },
+  kaynak:"TDV `sadiler`: 930/1524'te Merakeş'e girerek başşehir yapılması" },
 
 { taraflar:["sadi"], t:"1536-01-01", b:"Ukbâ savaşı sonrası Vattâsîlerle sınır antlaşması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Ukbâ savaşının ardından Sâdîler ile eski Merînî vezirleri Vattâsîler arasında egemenlik alanlarını belirleyen bir antlaşma yapıldı — ülke fiilen ikiye bölünmüş durumdaydı.",
-  kaynak:"TDV `sadiler`: \"943/1536'da Ukbâ savaşından sonra Vattâsîler ile egemenlik alanları belirleme antlaşması\"" },
+  kaynak:"TDV `sadiler`: 943/1536'da Ukbâ savaşından sonra Vattâsîler ile egemenlik alanları belirleme antlaşması" },
 
 { taraflar:["sadi"], t:"1537-01-01", b:"Portekiz ile üç yıllık antlaşma", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Sâdîler, kıyı kalelerini elinde tutan Portekiz ile üç yıllık bir antlaşma imzaladı.",
-  kaynak:"TDV `sadiler`: \"1537'de Portekiz ile 3 yıllık antlaşma imzalanması\"" },
+  kaynak:"TDV `sadiler`: 1537'de Portekiz ile 3 yıllık antlaşma imzalanması" },
 
 { taraflar:["sadi"], t:"1541-01-01", b:"Agadir ele geçirildi, Safî ve Azemmûr Portekiz'ce boşaltıldı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Agadir",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -8964,82 +8973,82 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1549-01-01", b:"Fas şehrine girilip Vattâsî hâkimiyetine son verildi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Muhammed eş-Şeyh, Fas şehrine girerek Vattâsî hâkimiyetine son verdi; Sâdîler artık bütün Fas'ın tek hâkimiydi. bkz. [[fas]] (ülke şemsiye kimliği bu tarihte başlıyor).",
-  kaynak:"TDV `sadiler`: \"956/1549'da Fas şehrine giriş; Vattâsî hâkimiyetine son verilmesi\"" },
+  kaynak:"TDV `sadiler`: 956/1549'da Fas şehrine giriş; Vattâsî hâkimiyetine son verilmesi" },
 
 { taraflar:["sadi"], t:"1554-01-01", b:"Osmanlı ordusu Sâdîleri Fas'tan çıkardı, Ebû Hassûn'u tahta oturttu", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Osmanlı-destekli bir sefer Fas şehrini ele geçirip Sâdîleri geçici olarak çıkardı ve eski Vattâsî hanedanından Ebû Hassûn'u tahta oturttu — Osmanlı'nın Fas'a ilk ve tek doğrudan askerî müdahalesi. Aynı yıl Muhammed eş-Şeyh Ebû Hassûn'u yenip öldürerek Fas'ı geri aldı.",
-  kaynak:"TDV `sadiler`: \"961/1554'te Osmanlı ordusu tarafından Fas'tan çıkarılması; Ebû Hassûn'un iktidarı\" · \"Aynı yıl Muhammed eş-Şeyh tarafından Ebû Hassûn'un yenilgisi ve ölümü\"" },
+  kaynak:"TDV `sadiler`: 961/1554'te Osmanlı ordusu tarafından Fas'tan çıkarılması; Ebû Hassûn'un iktidarı · \"Aynı yıl Muhammed eş-Şeyh tarafından Ebû Hassûn'un yenilgisi ve ölümü\"" },
 
 { taraflar:["sadi"], t:"1557-01-01", b:"Muhammed eş-Şeyh Osmanlı ordusunca öldürüldü, Abdullah tahta geçti", tur:"olum", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["hanedan","konu-kisiler","konu-hanedan","konu-din"],
   d:"1554'te Osmanlıları Fas'tan çıkaran Muhammed eş-Şeyh, üç yıl sonra bir Osmanlı harekâtı sırasında öldürüldü; yerine oğlu Abdullah (Gālib-Billâh) geçti. Osmanlı-Sâdî çekişmesi bir kuşak daha sürecekti.", ic_not_d:"⚠️ Kaynağın verdiği yer adı ('Derna dağları') Trablusgarp'taki Derne ile KARIŞTIRILMASIN — Fas içinde bir yerdir, atlasın Derne noktasıyla eşleştirilmedi.",
-  kaynak:"TDV `sadiler`: \"964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi\" · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\"" },
+  kaynak:"TDV `sadiler`: 964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\"" },
 
 { taraflar:["sadi"], t:"1564-01-01", b:"İspanyollar Bâdis'i ele geçirdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip","konu-askeri"],
   d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi.", ic_not_d:"(Bâdis'in TDV'de müstakil maddesi yok; bilgi `sadiler` maddesinden alındı.)",
-  kaynak:"TDV `sadiler`: \"1564'te İspanyolların Bâdis adasını ele geçirmesi\"", yer_id:"Bâdis (Peñón de Vélez)" },
+  kaynak:"TDV `sadiler`: 1564'te İspanyolların Bâdis adasını ele geçirmesi", yer_id:"Bâdis (Peñón de Vélez)" },
 
 { taraflar:["sadi"], t:"1576-01-01", b:"Osmanlı desteğiyle Abdülmelik Fas'a girdi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],
   d:"Osmanlı kuvvetlerinin desteğiyle Abdülmelik Fas'a girdi; kısa süre sonra Mu'tasım unvanıyla tahta oturdu. Osmanlı-Sâdî ilişkisi bu kez bir düşmanlık değil ittifak biçimini aldı.",
-  kaynak:"TDV `sadiler`: \"983/1576'da Osmanlı kuvvetleriyle Abdülmelik'in Fas'a girişi\" · \"19 Rebîülâhir 984/16 Temmuz 1576'da Abdülmelik'in Mu'tasım unvanıyla tahta oturması\"" },
+  kaynak:"TDV `sadiler`: 983/1576'da Osmanlı kuvvetleriyle Abdülmelik'in Fas'a girişi · \"19 Rebîülâhir 984/16 Temmuz 1576'da Abdülmelik'in Mu'tasım unvanıyla tahta oturması\"" },
 
 { taraflar:["sadi"], t:"1578-08-04", b:"Vâdilmehâzin (Üç Kral) Savaşı — Portekiz Haçlı ordusu imha edildi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi.", ic_not_d:"⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
-  kaynak:"TDV `sadiler`: \"30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti\" · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
+  kaynak:"TDV `sadiler`: 30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
 
 { taraflar:["sadi"], t:"1588-01-01", b:"Ahmed el-Mansûr Osmanlı'ya vergiyi kesti", tur:"idari", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","konu-idari","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr, İstanbul'a gönderdiği vergiyi kesti; ardından yumuşatıcı bir elçilik heyeti gönderdi. Sâdîlerin Osmanlı'ya karşı fiilî bağımsızlığının bir göstergesi.",
-  kaynak:"TDV `sadiler`: \"1588'de Ahmed el-Mansûr'un Osmanlıya vergi göndermemesi; ardından elçilik heyeti gönderilmesi\"" },
+  kaynak:"TDV `sadiler`: 1588'de Ahmed el-Mansûr'un Osmanlıya vergi göndermemesi; ardından elçilik heyeti gönderilmesi" },
 
 { t:"1591-04-13", b:"Tondibi zaferiyle Songhay İmparatorluğu yıkıldı, Sudan fethedildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Timbuktu",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ahmed el-Mansûr'un ateşli silahlarla donanmış ordusu Tondibi'de Batı Afrika'nın en büyük gücü Songhay İmparatorluğu'nu yıktı ve Timbuktu dahil Sudan bölgesini fethetti; trans-Sahra altın ve köle ticaretinin denetimi el değiştirdi, Songhay'ın çöküşü bölgenin siyasi haritasını yeniden çizdi.",
-  kaynak:"TDV `sadiler`: \"999/1591'de Tondibi savaşıyla Songay Sultanlığının yıkılması; Sudan'ın fethi\"" },
+  kaynak:"TDV `sadiler`: 999/1591'de Tondibi savaşıyla Songay Sultanlığının yıkılması; Sudan'ın fethi" },
 
 { taraflar:["sadi"], t:"1591-06-01", b:"Sudan seferinden ganimet: 20.000 köle, altın, fildişi", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"Timbuktu",
   etiket:["ekonomi","konu-ekonomi"],
   d:"Tondibi zaferinin ardından Sâdî ordusu yaklaşık 20.000 köle ile büyük miktarda altın ve fildişi ganimeti Fas'a taşıdı; Sâdî hazinesi Sudan altınıyla dolduğu için Ahmed el-Mansûr'a 'ez-Zeheb' (Altınlı) lakabı yakıştırıldı.",
-  kaynak:"TDV `sadiler`: \"Sudan seferi sonrası 20.000 civarında köle, bol altın ve fildişi elde edilmesi\"" },
+  kaynak:"TDV `sadiler`: \"Sudan seferinden 20.000 civarında köle ve bol miktarda altın ve fildişi ile dönüldü.\"" },
 
 { taraflar:["sadi"], t:"1602-01-01", b:"Veliahtın isyanı bastırıldı", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["isyan","konu-isyan"],
   d:"Veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanı bastırılıp kendisi hapsedildi; hanedanın taht kavgaları döneminin habercisiydi.",
-  kaynak:"TDV `sadiler`: \"1011/1602'de veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanının bastırılması; hapsedilmesi\"" },
+  kaynak:"TDV `sadiler`: 1011/1602'de veliaht Muhammed eş-Şeyh el-Me'mûn'un isyanının bastırılması; hapsedilmesi" },
 
 { taraflar:["sadi"], t:"1603-01-01", b:"Ahmed el-Mansûr vebadan öldü, taht kavgaları başladı", tur:"olum", onem:5, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["hanedan","konu-kisiler","konu-hanedan","afet","afet-salgin"],
   d:"Sâdîlerin en güçlü hükümdarı Ahmed el-Mansûr vebadan öldü; ardından yarım asra yakın sürecek, ülkeyi paramparça edecek bir taht kavgaları dönemi başladı.",
-  kaynak:"TDV `sadiler`: \"1012/1603'te Ahmed el-Mansûr'un vebadan ölümü\"" },
+  kaynak:"TDV `sadiler`: 1012/1603'te Ahmed el-Mansûr'un vebadan ölümü" },
 
 { taraflar:["sadi"], t:"1610-01-01", b:"Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","toprak-kayip","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"On yıla yakın süren taht kavgalarının ardından ülke kuzeyde Fas, güneyde Merakeş merkezli iki ayrı emirliğe bölündü; bu bölünme hanedanın 1659'daki sonuna kadar sürdü.",
-  kaynak:"TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi (1019/1610 dolayları)", odak_kimlik:["sadi"], kapsam_genis:true },
 
 { t:"1659-01-01", b:"Ahmed el-Abbas öldürülerek Sâdî hanedanı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"ic", yer_id:"Merakeş",
   etiket:["hanedan","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Son Sâdî hükümdarı Ahmed el-Abbas, Şebbâne liderleri tarafından öldürüldü; bir buçuk asırlık hanedan sona erdi. İktidar, Sûs'tan yükselen yeni bir şerif ailesine, Alevîlere (Filalîlere) geçecekti — bkz. [[fas]].",
-  kaynak:"TDV `sadiler`: \"1069/1659'da Ahmed el-Abbas'ın Şebbâne liderleri tarafından öldürülmesi; Sâdîler hânedanının sona ermesi\"" },
+  kaynak:"TDV `sadiler`: 1069/1659'da Ahmed el-Abbas'ın Şebbâne liderleri tarafından öldürülmesi; Sâdîler hânedanının sona ermesi" },
 
 { taraflar:["sadi"], t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı.", ic_not_d:"⚠️ TDV yalnız \\\"Abdülmelik ve Ahmed el-Mansûr devrinde\\\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları", odak_kimlik:["sadi"], kapsam_genis:true },
 
 { taraflar:["sadi"], t:"1593-01-01", b:"Kasrü'l-bedî' Sarayı inşa edildi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["mimari","imar","konu-kultur","konu-imar"],
   d:"Ahmed el-Mansûr, Tondibi zaferinin Sudan altınıyla finanse edilen görkemli Kasrü'l-bedî' Sarayı'nı Merakeş'te inşa ettirdi; saray, dönemin İber ve Osmanlı saraylarıyla rekabet eden bir güç gösterisiydi.", ic_not_d:"⚠️ TDV yalnız \\\"Ahmed el-Mansûr devrinde\\\" diyor; saltanatının ortası (1593) yaklaşık tarih olarak kullanıldı, gün doğrulanmadı.",
-  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası\"" },
+  kaynak:"TDV `sadiler`: Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası" },
 
 { taraflar:["sadi"], t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler.", ic_not_d:"⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", kapsam_genis:true },
+  kaynak:"TDV `sadiler`: Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması", odak_kimlik:["sadi"], kapsam_genis:true },
 
 // ══════════════════════════════════════════════════════════════════
 // III. HAFSÎLER (TUNUS, 1229-1574)
@@ -9063,12 +9072,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["hafsi"], t:"1287-01-01", b:"Mehdiye Pizalı-Cenevizli korsanlarca yağmalandı", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Mehdiye",
   etiket:["askeri","konu-askeri"],
   d:"İtalyan korsan filoları Mehdiye'yi baskınla tahrip etti; Hafsî sahillerinin Akdeniz korsanlığına açık kırılganlığının erken bir örneği.",
-  kaynak:"TDV `tunus`: \"Pizalı ve Cenevizli korsanlar Mehdiye'yi tahrip etti\" (1287)" },
+  kaynak:"TDV `tunus`: Pizalı ve Cenevizli korsanlar Mehdiye'yi tahrip etti (1287)" },
 
 { taraflar:["hafsi"], t:"1334-01-01", b:"Cerbe adası geri alındı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Cerbe (Djerba)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"1284'te Hıristiyanların eline geçen Cerbe adası Hafsîler tarafından yeniden fethedildi.",
-  kaynak:"TDV `tunus`: \"1284'te hıristiyanların eline geçen Cerbe adasının Hafsîler tarafından tekrar fethilmesi\" (1334)" },
+  kaynak:"TDV `tunus`: 1284'te hıristiyanların eline geçen Cerbe adasının Hafsîler tarafından tekrar fethilmesi (1334)" },
 
 { taraflar:["hafsi"], t:"1370-01-01", b:"I. Ebü'l-Abbas Ahmed el-Müstansır Hafsîlere yeniden itibar kazandırdı", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"Tunus",
   etiket:["hanedan","konu-hanedan"],
@@ -9083,7 +9092,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["hafsi"], t:"1488-01-01", b:"Ebû Amr Osman'ın ölümü ve ikinci parlak dönemin sonu", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Tunus",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Sultan Ebû Amr Osman'ın ölümünün ardından devlet karışıklığa girdi ve Avrupa devletlerinin sahil saldırıları yoğunlaştı — hanedanın çöküş sürecinin başlangıcı.",
-  kaynak:"TDV `tunus`: \"Sultan ölümünün ardından devlet karışıklığa girdi; Avrupa devletlerinin saldırıları yoğunlaştı\" (1488)" },
+  kaynak:"TDV `tunus`: Sultan ölümünün ardından devlet karışıklığa girdi; Avrupa devletlerinin saldırıları yoğunlaştı (1488)" },
 
 { taraflar:["hafsi"], t:"1534-08-16", b:"Barbaros Hayreddin Paşa Tunus'u fethetti", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -9117,7 +9126,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["zeyyani"], t:"1307-01-01", b:"Kuşatma sonrası yeniden imar", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Sekiz yıllık kuşatmanın kaldırılmasının ardından I. Ebû Zeyyân Muhammed, şehrin yıkıntılarını tamir ettirdi.",
-  kaynak:"TDV `tilimsan`: \"I. Ebû Zeyyân Muhammed yıkıntıları tamir etti\" (1304-1308)" },
+  kaynak:"TDV `tilimsan`: I. Ebû Zeyyân Muhammed yıkıntıları tamir etti (1304-1308)" },
 
 { taraflar:["zeyyani"], t:"1318-01-01", b:"I. Ebû Taşfin döneminde mimari gelişme", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
   etiket:["mimari","imar","konu-kultur","konu-imar"],
@@ -9132,7 +9141,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["zeyyani"], t:"1348-01-01", b:"Abdülvâdîler Tilimsan'ı geri aldı", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"On yıllık Merînî ilhakının ardından Abdülvâdîler Tilimsan'ı geri aldı. bkz. [[merini]].",
-  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"749/1348'de Abdülvâdîler Tilimsân'ı geri aldı\"" },
+  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"Bu arada Abdülvâdîler de Tilimsân’ı geri alarak on yıl süren Merînî hâkimiyetinden kurtuldular (749/1348).\"" },
 
 { taraflar:["zeyyani"], t:"1352-01-01", b:"Merînîler Tilimsan'ı ikinci kez aldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
@@ -9142,7 +9151,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["zeyyani"], t:"1360-01-01", b:"Merînî harekâtı başarısız kaldı, Abdülvâdîler kalıcı bağımsızlığını kazandı", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebû İnân'ın ölümünden sonra Merînîlerin Mağrib-i Evsat'taki (Orta Mağrib) yeni harekâtından sonuç alınamadı; Abdülvâdîler bu kez kalıcı olarak bağımsızlığını kazandı ve hanedan bir asır daha (1554'e kadar) sürecekti. bkz. [[merini]].",
-  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"761/1360'ta Mağrib-i Evsat'ta harekâttan sonuç alınamadı; Abdülvâdîler bağımsız oldu\"" },
+  kaynak:"TDV `tilimsan` · TDV `meriniler`: \"Ebû Sâlim, 761 (1360) yılında Mağrib-i Evsat’ta gerçekleştirdiği harekâttan bir netice alamadı ve Abdülvâdîler’in toprakları Merînî hâkimiyetinden çıktı.\"" },
 
 { taraflar:["zeyyani"], t:"1430-01-01", b:"İç kale surları yeniden yaptırıldı", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
   etiket:["mimari","imar","konu-kultur","konu-imar"],
@@ -9177,7 +9186,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1554-01-01", b:"Sâlih Reis Tilimsan'ı kesin olarak fethetti, hanedan sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","hanedan","konu-askeri","konu-siyasi","konu-hanedan"],
   d:"Osmanlı beylerbeyi Sâlih Reis, Tilimsan'ı kesin biçimde ele geçirerek üç asırlık Zeyyânî hanedanına son verdi; şehir Cezayir Ocaklığı'na bağlandı.",
-  kaynak:"TDV `tilimsan`: \"Sâlih Reis kumandasında kesin biçimde ele geçirildi\" (1553)" },
+  kaynak:"TDV `tilimsan`: Sâlih Reis kumandasında kesin biçimde ele geçirildi (1553)" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. TRABLUSGARP OCAĞI (KARAMANLI HANEDANI, 1551-1911)
@@ -9191,17 +9200,17 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { taraflar:["trablusgarp-ocagi"], t:"1556-01-01", b:"Turgut Reis beylerbeyi atandı", tur:"idari", onem:4, dunya:1, kapsam:"ic", yer_id:"Trablus",
   etiket:["reform","konu-idari","konu-islahat"],
   d:"Turgut Reis, Trablusgarp beylerbeyi olarak atandı; dokuz yıl sürecek yönetimi boyunca Osmanlı hâkimiyetini Fizan'a kadar genişletti.",
-  kaynak:"TDV `trablusgarp`: \"Turgut Reis beylerbeyilikle atandı; dokuz yıllık yönetim dönemi başladı (Fizan'a kadar)\" (1556)" },
+  kaynak:"TDV `trablusgarp`: Turgut Reis beylerbeyilikle atandı; dokuz yıllık yönetim dönemi başladı (Fizan'a kadar) (1556)" },
 
 { taraflar:["trablusgarp-ocagi"], t:"1711-01-01", b:"Ahmed Karamanlı özerk hanedanlığını kurdu", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"Trablus",
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Ahmed Karamanlı, merkezî Osmanlı idaresinden fiilen bağımsız bir hanedan kurarak Trablusgarp'ı yarı bağımsız bir eyalete dönüştürdü; hanedan 1835'e kadar sürecekti.",
-  kaynak:"TDV `trablusgarp`: \"Yarı bağımsız eyalet konumuna geçiş; Karamanlı ailesinin yönetimi başladı\" (1711)" },
+  kaynak:"TDV `trablusgarp`: Yarı bağımsız eyalet konumuna geçiş; Karamanlı ailesinin yönetimi başladı (1711)" },
 
 { taraflar:["trablusgarp-ocagi"], t:"1801-05-14", b:"ABD ile Birinci Barbary Savaşı başladı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Trablus",
   etiket:["askeri","konu-askeri"],
   d:"Yusuf Karamanlı'nın ticaret gemilerinden haraç talebini reddeden genç Amerika Birleşik Devletleri ile Trablusgarp arasında çatışmalar başladı; ABD donanması limanı abluka altına aldı, gemiler karşılıklı el değiştirdi. ABD'nin kıtası dışında verdiği ilk savaş olarak Amerikan deniz tarihinde dönüm noktasıdır.",
-  kaynak:"TDV `trablusgarp`: \"Ticaret gemilerinden vergi alınması nedeniyle çatışmalar; gemi kaçırılması ve liman ablukası\" (1796-1805)" },
+  kaynak:"TDV `trablusgarp`: Ticaret gemilerinden vergi alınması nedeniyle çatışmalar; gemi kaçırılması ve liman ablukası (1796-1805)" },
 
 { taraflar:["trablusgarp-ocagi"], t:"1805-06-10", b:"Barbary Savaşı Trablus lehine sona erdi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["diplomasi","konu-diplomasi"],
@@ -9221,7 +9230,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1911-10-09", b:"Trablus şehri İtalyan işgaline düştü", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İtalyan ablukasının ardından Trablus şehri teslim oldu; kısa sürede Tobruk (8 Ekim), Derne (16 Ekim) ve Bingazi (21 Ekim) de işgal edildi.",
-  kaynak:"TDV `trablusgarp-savasi`: \"9 Ekim 1911 Trablusgarp şehrinin teslimi\" · \"8 Ekim 1911 Tobruk işgali\" · \"16 Ekim 1911 Derne işgali\" · \"21 Ekim 1911 Bingazi işgali\"" },
+  kaynak:"TDV `trablusgarp-savasi`: 9 Ekim 1911 Trablusgarp şehrinin teslimi · \"8 Ekim 1911 Tobruk işgali\" · \"16 Ekim 1911 Derne işgali\" · \"21 Ekim 1911 Bingazi işgali\"" },
 
 { t:"1911-10-16", b:"Derne İtalyan işgaline girdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Derne",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -9236,12 +9245,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1911-12-01", b:"Enver Bey direniş karargâhını üstlendi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Gönüllü subay olarak Kuzey Afrika'ya geçen Enver Bey (sonraki Enver Paşa), yerel Arap ve Berberî direnişçilerle birlikte Bingazi-Derne hattında karargâh kurup düzenli bir direniş örgütledi.",
-  kaynak:"TDV `trablusgarp-savasi`: \"1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi\"", kapsam_genis:true },
+  kaynak:"TDV `trablusgarp-savasi`: 1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi", kapsam_genis:true },
 
 { t:"1912-10-18", b:"Uşi Antlaşması — Osmanlı hâkimiyeti resmen sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["diplomasi","toprak-kayip","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Uşi (Ouchy) Antlaşması ile Osmanlı Devleti Trablusgarp ve Bingazi üzerindeki egemenlik hakkından fiilen çekildi; 361 yıllık Osmanlı hâkimiyeti (Sinan Paşa'nın 1551 fethinden bu yana) sona erdi. Antlaşma aynı zamanda Balkan Savaşı arifesinde Osmanlı'nın Avrupa'daki konumunu da zayıflattı.",
-  kaynak:"TDV `trablusgarp-savasi`: \"18 Ekim 1912 Uşi Barış Antlaşması\"" },
+  kaynak:"TDV `trablusgarp-savasi`: 18 Ekim 1912 Uşi Barış Antlaşması" },
 
 ];
 
@@ -10694,12 +10703,12 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1205-01-01", b:"Marco Sanudo'nun sekiz gemiyle Nakşa'yı fethi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["toprak-kazanc","askeri","konu-askeri","konu-siyasi"],
   d:"Venedikli Marco Sanudo, dogesi olmayan bir özel teşebbüsle sekiz gemi donatıp Nakşa'ya çıktı ve adayı Bizans muhafızlarından aldı. Rivayete göre gemilerini yaktırarak dönüşü imkânsız kıldı. Kikladlar'daki Latin hâkimiyeti bu tek adamın girişimiyle başlar.",
-  kaynak:"TDV 'naksa' md.: \"Marco Sanudo conquered the island with eight ships\" (1205) · Lock, The Franks in the Aegean · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: Marco Sanudo conquered the island with eight ships (1205) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
 { t:"1207-01-01", b:"Sanudo'nun 'Egeopelagos Dukası' unvanını alması — dukalığın kuruluşu", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["siyaset","kurulus","konu-siyasi"],
   d:"Latin İmparatoru Henri, Sanudo'ya Nakşa merkezli 'Egeopelagos (Denizler) Dukası' unvanını verdi ve on yedi adayı kapsayan dukalık resmen doğdu. Sanudo böylece Venedik'in değil Latin İmparatorluğu'nun vassalı oldu; bu ikili bağ dukalığın bütün tarihini belirleyecektir. Merkez, Nakşa şehrindeki Kastro'ydu.",
-  kaynak:"TDV 'naksa' md.: \"Sanudo received the title 'Duke of Naxos' from the Latin Emperor in Constantinople\" (1207) · Lock, The Franks in the Aegean · 🟢 `dunya:2` referansı BEN kuruyorum" },
+  kaynak:"TDV 'naksa' md.: Sanudo received the title 'Duke of Naxos' from the Latin Emperor in Constantinople (1207) · Lock, The Franks in the Aegean · 🟢 `dunya:2` referansı BEN kuruyorum" },
 
 { t:"1210-01-01", b:"Nakşa Latin Başpiskoposluğu'nun kurulması", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"Nakşa",
   etiket:["din","idari","konu-idari","konu-din"],
@@ -10724,22 +10733,22 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1383-01-01", b:"Crispo darbesi — Sanudo hanedanının sonu", tur:"darbe", onem:5, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["darbe","hanedan","siyaset","darbe-siyasi","konu-siyasi","konu-darbe","konu-hanedan"],
   d:"Veronalı Francesco Crispo, son Sanudo dukası Niccolò dalle Carceri'yi bir av sırasında öldürterek dukalığı ele geçirdi ve Venedik onu kısa sürede tanıdı. Hanedan değişikliği kan dökülerek olsa da adanın idarî düzeninde kesinti yaratmadı. Crispo ailesi 1566'ya kadar dukalığı elinde tutacaktır.",
-  kaynak:"TDV 'naksa' md.: \"The Crispo family (from Verona) took control of the duchy and administration\" (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: The Crispo family (from Verona) took control of the duchy and administration (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
 { t:"1403-02-01", b:"Süleyman Çelebi ile yapılan antlaşmada Nakşa'nın anılması", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Ankara Savaşı sonrası Süleyman Çelebi'nin Hristiyan devletlerle yaptığı antlaşmada Nakşa da taraf olarak zikredildi. Bu, dukalığın Osmanlı ile ilk resmî temasıdır ve küçük bir ada devletinin Osmanlı diplomasisinde muhatap sayıldığını gösterir. Bundan sonraki bir buçuk yüzyıl, haraç pazarlıklarıyla geçecektir.",
-  kaynak:"TDV 'naksa' md.: \"1403: Nakşa mentioned in treaty with Süleyman Çelebi\" · Elizabeth Zachariadou, Trade and Crusade: Venetian Crete and the Emirates of Menteshe and Aydin (Venice, 1983) · gün yaklaşıktır" },
+  kaynak:"TDV 'naksa' md.: 1403: Nakşa mentioned in treaty with Süleyman Çelebi · Elizabeth Zachariadou, Trade and Crusade: Venetian Crete and the Emirates of Menteshe and Aydin (Venice, 1983) · gün yaklaşıktır" },
 
 { t:"1419-01-01", b:"Haracın Aydınoğulları'ndan Osmanlı'ya çevrilmesi", tur:"antlasma", onem:4, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","ekonomi","konu-diplomasi","konu-ekonomi"],
   d:"Yapılan antlaşmayla duka, o güne kadar Aydınoğulları'na ödediği vergiyi bundan böyle Osmanlı'ya ödeyecekti. Anadolu beyliklerinin tasfiyesi, Ege adalarının vergi muhatabını da tek elde topladı. Dukalık bu tarihten sonra fiilen Osmanlı'ya tâbi bir Latin devletidir.",
-  kaynak:"TDV 'naksa' md.: \"1419: Treaty stipulated the duke would pay tribute to Ottomans instead of Aydınoğulları\" · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1419: Treaty stipulated the duke would pay tribute to Ottomans instead of Aydınoğulları · gün bilinmiyor" },
 
 { t:"1446-01-01", b:"Haraç antlaşmasının yenilenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"1419 düzenlemesi 1426, 1446, 1451 ve 1454'te tekrar tekrar yenilendi. Her yeni padişahla antlaşmanın tazelenmesi gerekiyordu ve bu, dukalığın hayatta kalma yönteminin adıydı. Nakşa savaşarak değil, düzenli ödeyerek yaşadı.",
-  kaynak:"TDV 'naksa' md.: \"1426, 1446, 1451, 1454: Treaties repeated this arrangement\" · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1426, 1446, 1451, 1454: Treaties repeated this arrangement · gün bilinmiyor" },
 
 { t:"1453-05-29", b:"İstanbul'un fethi — dukalığın hâmisiz kalması", tur:"siyaset", onem:4, dunya:5, kapsam:"dis", yer_id:"İstanbul",
   etiket:["siyaset","kriz","konu-siyasi"],
@@ -10759,22 +10768,22 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 { t:"1537-11-01", b:"Barbaros Hayreddin Paşa'nın Kiklad seferi — dukalığın haraca bağlanması", tur:"vassal", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["askeri","vassal","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Barbaros Hayreddin Paşa'nın ada seferi sırasında Kikladlar'ın büyük bölümü alındı ve Duka IV. Giovanni Crispo yıllık ağır bir haraç karşılığında yerinde bırakıldı. Dukalık artık bir Osmanlı tâbi devletidir; duka Latin, tebaası Ortodoks, hükümdarı Osmanlı padişahıdır. Bu tuhaf üçlü düzen kırk yıl sürecektir.",
-  kaynak:"TDV 'naksa' md.: \"1537-1538: Barbaros Hayreddin Paşa's island campaign brought Nakşa under Ottoman control\" · Slot, Archipelagus Turbatus · gün yaklaşıktır" },
+  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27) · daha önce künyede (devletler.js) 1537-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
 
 { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Osmanlı ile Venedik arasındaki barışla Kikladlar üzerindeki hükümranlık resmen Osmanlı'ya geçti. Venedik'in üç yüz otuz yıllık dolaylı himayesi hukuken sona erdi. Dukalık varlığını sürdürdü, ama artık Venedik'e değil İstanbul'a bakıyordu.",
-  kaynak:"TDV 'naksa' md.: \"1540: Ottoman-Venetian treaty formally transferred sovereignty to Ottomans\" · Slot, Archipelagus Turbatus" },
+  kaynak:"TDV 'naksa' md.: 1540: Ottoman-Venetian treaty formally transferred sovereignty to Ottomans · Slot, Archipelagus Turbatus" },
 
 { t:"1566-01-01", b:"Yasef Nasi'ye verilmesi — Crispo hanedanının azli", tur:"hukumdar", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
   etiket:["siyaset","hanedan","konu-siyasi","konu-hanedan"],
   d:"Son Crispo dukası IV. Giacomo tebaasının şikâyetleri üzerine azledildi ve dukalık, II. Selim'in gözdesi Portekiz asıllı yahudi sarraf Yasef Nasi'ye verildi. Nasi adaya hiç ayak basmadı, bir vekil aracılığıyla yönetti. Bir Katolik Latin dukalığının bir Osmanlı saray adamına tevcih edilmesi, adanın 359 yıllık Latin siyasî varlığının fiilen bittiği andır.",
-  kaynak:"TDV 'naksa' md.: \"1566: Duchy granted to Yasef Nasi after dismissing the Crispo heir\" · Slot, Archipelagus Turbatus · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1566: Duchy granted to Yasef Nasi after dismissing the Crispo heir · Slot, Archipelagus Turbatus · gün bilinmiyor" },
 
 { t:"1579-01-01", b:"Crispo restorasyon teşebbüsünün başarısızlığı — dukalığın sonu", tur:"son", onem:5, dunya:1, kapsam:"dis", yer_id:"Nakşa",
   etiket:["son","siyaset","konu-siyasi"],
   d:"Yasef Nasi'nin ölümünden sonra Giacomo Crispo dukalığı geri almaya çalıştı ve başaramadı; adalar doğrudan Kaptanpaşa eyaletine bağlandı. Böylece 1207'de kurulan Egeopelagos Dukalığı 372 yıl sonra sona erdi. Katolik cemaat ve Latin aileler adada kaldı; giden yalnız devletti.",
-  kaynak:"TDV 'naksa' md.: \"1579: Following Nasi's death, Giacomo (Crispo) failed to reclaim the duchy\" · Slot, Archipelagus Turbatus · 🟢 `dunya:1` referansı BEN kuruyorum · gün bilinmiyor" },
+  kaynak:"TDV 'naksa' md.: 1579: Following Nasi's death, Giacomo (Crispo) failed to reclaim the duchy · Slot, Archipelagus Turbatus · 🟢 `dunya:1` referansı BEN kuruyorum · gün bilinmiyor" },
 
 { t:"1669-01-01", b:"Osmanlı sayımında Nakşa'nın Latin ve Ortodoks nüfusu", tur:"sosyal", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["sosyal","idari","konu-idari","konu-sosyal"],
@@ -10936,7 +10945,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   etiket:["askeri","savas","toprak-kazanc","konu-askeri"],
   yer_id:"Suzdal",
   d:"1444 sonbaharında açılan ikinci Moskova seferi 7 Temmuz 1445'te Suzdal civarındaki meydan savaşıyla sonuçlandı: Ruslar yeniden yenildi, Büyük Knez Vasili ve kardeşi Mihail esir düştü. Vasili, o çağ için çok büyük bir yekûn tutan 200.000 ruble fidye ödemek zorunda kaldı. Kazan Hanlığı bu tarihten itibaren bağımsız bir devlet statüsüne kavuşmuş sayılır.",
-  kaynak:"kazan-hanligi (TDV — 'Kazan kuvvetleriyle Moskova ordusu arasında Suzdal şehri civarında vuku bulan meydan savaşı')" },
+  kaynak:"kazan-hanligi (TDV — '7 Temmuz 1445’te Kazan kuvvetleriyle Moskova ordusu arasında Suzdal şehri civarında vuku bulan meydan savaşında Ruslar yeniden mağlûp oldular')" },
 
 { taraflar:["kazan"], t:"1445-08-01", b:"Kāsım Hanlığı'nın kurulmasına Moskova rıza gösterdi", tur:"kurulus", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","antlasma","hanedan","konu-siyasi","konu-diplomasi","konu-hanedan"],
@@ -11158,19 +11167,19 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1420-06-01", b:"Edige'nin ölümü — oğulları Mangıt beyliğini kurdu", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
   etiket:["hanedan","kurulus","siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["altinorda"],
   d:"Cuci ulusunda söz sahibi beylerden Edige'nin 823 (1420) yılında ölümünden sonra oğulları Deştikıpçak'taki siyasî faaliyetlerde yer aldılar ve bazı hanların yanında emirlik yürüttüler. Nogay beylerinin atası sayılan Edige, Mangıt boyundandı; Nogay ordasının yönetim kadrosunu bu boy teşkil eder, halk tabakasının esas unsuru ise Kıpçak Türkleridir.", ic_not_d:"⚠️ Olayın Altın Orda tarafı kronoloji_altinorda.js'te ZATEN var; bu madde Nogay ordasının KURULUŞ tarafıdır.",
   kaynak:"nogaylar (TDV, madde: nogaylar — içerik okundu, 2026-08-22)" },
 
 { taraflar:["nogay"], t:"1500-01-01", b:"Mûsâ Mirza Nogayların beyi olarak anılmaya başlandı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","hukumdar","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"XVI. yüzyılın başında Nogayların beyi olarak Mûsâ Mirza'nın adı geçer. Bu yüzyılın ilk yarısında Nogay ordası, Kırım Hanlığı ve diğer Türk hanlıkları ile ilişkilerinde önemli bir yere sahipti. Orda İdil'in sol kıyısından İrtiş kollarına, doğuda Emba üzerinden Aral'a kadar uzanıyordu.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyılın başında' diyor" },
 
 { taraflar:["nogay"], t:"1554-01-01", b:"Yûsuf Mirza öldürüldü — orda Osmanlı ve Moskova taraftarı diye ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","kriz","hanedan","taht-kavgasi","konu-siyasi","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"Osmanlı taraftarı Yûsuf Mirza ile Moskova taraftarı kardeşi İsmâil Mirza arasındaki mücadele Yûsuf'un öldürülmesiyle sonuçlandı ve yüzyılın ortasında orda bölünmeye uğradı. Bir bozkır konfederasyonunun iç kavgası, iki büyük devletin dış siyaseti hâline gelmişti; bölünme bir daha onarılamadı.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'yüzyılın ortasında' diyor" },
 
@@ -11188,7 +11197,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["nogay"], t:"1563-01-01", b:"İsmâil ve Tin Ahmed Mirza devrinde Rus baskısı sürdü", tur:"siyaset", onem:2, dunya:1, kapsam:"dis",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"Büyük Nogay ordası üzerindeki yoğun Moskova baskısı İsmâil Mirza ve Tin Ahmed Mirza zamanında (1563-1578) da sürdü. Rusya bu devirlerde Nogaylarla ilişkilerini görünüşte dostluk çerçevesinde tutma politikası izliyordu; oysa aynı yüzyıla ait Rus belgeleri Moskova'nın düşmanları sıralanırken hem Büyük hem Küçük Nogay ordasını sayıyordu.",
   kaynak:"nogaylar (TDV)" },
 
@@ -11200,7 +11209,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["nogay"], t:"1578-01-02", b:"Urus Mirza Rus baskısına direndi", tur:"hukumdar", onem:3, dunya:1, kapsam:"dis",
   etiket:["hanedan","hukumdar","askeri","konu-askeri","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"Büyük Nogay ordasının beyi Urus Mirza (1578-1590) Rus baskısına karşı direndiyse de Rus yönetiminin etkisi onun zamanında da sürdü. Bu dönemde Büyük Nogay ordasından bazı gruplar zaman zaman Rus topraklarına ganimet amaçlı akınlar düzenlediler.",
   kaynak:"nogaylar (TDV)" },
 
@@ -11224,7 +11233,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["nogay"], t:"1600-01-01", b:"İşterek Mirza Kırım'ı atlayıp doğrudan Osmanlı ile görüşmek istedi", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"XVII. yüzyılın başında Büyük Nogay ordasının beyi olan İşterek Mirza, Kırım Hanlığı'nın aracılığı olmadan Osmanlı Devleti ile görüşmeler yapmak ve Rusya ile İran'a karşı kendi çıkarına bir siyaset izlemek istedi; bunda başarılı olamadı. Nogayların kendi adına bir dış siyaset kurma çabası bu denemeyle bitmiştir.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVII. yüzyılın başında' diyor" },
 
@@ -11260,13 +11269,13 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1865-01-01", b:"Kitlesel göç sona erdi — Nogaylar Anadolu'ya iskân edildi", tur:"sosyal", onem:4, dunya:2, kapsam:"dis",
   etiket:["sosyal","goc","konu-sosyal","konu-demografi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Ankara", "Konya", "Kırşehir", "Sivas", "Adana"],
   d:"1865'e kadar kitleler hâlinde, sonra küçük kafilelerle devam eden göçle Nogaylar Anadolu'da Çukurova, Ankara, Konya, Kırşehir ve Sivas gibi bölgelere iskân edildiler. Bir bozkır konfederasyonunun nüfusunun büyük kısmı böylece Osmanlı toprağına taşındı; bugün Türkiye'deki Nogay yerleşimleri bu göçün ürünüdür.",
   kaynak:"nogaylar (TDV)" },
 
 { t:"1922-04-01", b:"Nogay kurultayı Açikulak'ta toplandı — Dağıstan'da kalma kararı", tur:"siyaset", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","sosyal","konu-siyasi","konu-sosyal"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Stavropol–Kuma bozkırı", "Terek deltası (Kızlar)"],
   d:"Nogayların birinci kurultayı 1922'de Açikulak'ta yapıldı; aynı yılın Nisan ayındaki bir başka toplantıda yetkililer hangi bölgede kalmak istediklerini sordu ve Nogay temsilcileri Dağıstan topraklarında kalmayı tercih etti. Toplantıda kısmî özerklik vaadinde bulunuldu, ancak bu söz yerine getirilmedi.",
   kaynak:"nogaylar (TDV)" },
 
@@ -11395,7 +11404,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1601-01-01", b:"Küçüm Han Nogayların yanında öldürüldü", tur:"olum", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","olum","konu-kisiler","konu-hanedan"],
-  yer_id:"",
+  yer_id:"", odak_kimlik:["nogay"],
   d:"1598 çarpışmasından sonra kaynaklarda Küçüm Han'la ilgili bilgi yer almaz; sınırlı bilgiler onun Nogayların yanına gittiğini ve kısa zaman sonra Nogaylar tarafından öldürüldüğünü söyler. Ebülgazi Bahadır Han, kırk yıl padişahlık yapıp Rus istilâsının ardından Mangıt halkının yanına kaçtığını ve orada öldüğünü yazar. Ölüm tarihi kesin değildir.", ic_not_d:"kaynak yıl vermez",
   kaynak:"kucum-han (TDV) — tarih YAKLAŞIK ve kaynak kesin gün vermiyor, 'kısa bir zaman sonra' diyor" },
 
@@ -11426,7 +11435,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { taraflar:["kazak-hanligi"], t:"1465-01-02", b:"Ebülhayr'a tâbi olmayan boylar Çu ile Talas arasına çekildi — Kazak adı doğdu", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","siyaset","sosyal","konu-siyasi","konu-kisiler","konu-sosyal"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Taraz (Evliya-Ata)", "Balasagun (Ak-Beşim)"],
   d:"Ebülhayr Han'ın (1428-1468) teşkilâtlandırdığı Özbek devletinde, halkını Moğol saldırılarından koruyamayan hükümdarı hükümdar saymadığını bildiren bir grup ayrılıp kuzeye çekildi ve Çu ile Talas nehirleri arasında hâkimiyet kurdu. Kendi başına buyruk, yiğit, bekâr anlamlarına gelen Kazak adıyla anılmaya başlandılar; bu adlandırma etnik değil sosyal bir gerekçeye dayanır.", ic_not_d:"⚠️ Çu-Talas bölgesinin yerleşim kaydı yok, yer_id boş bırakıldı.",
   kaynak:"kazaklar + kazakistan (TDV, madde: kazaklar ve kazakistan — içerik okundu, 2026-08-22)" },
 
@@ -11791,7 +11800,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1864-01-01", b:"Kırgızlar Rus hâkimiyetine girdi", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","toprak-kayip","konu-askeri","konu-siyasi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Narın (Naryn)", "Issık Göl havzası", "Oş"],
   d:"Kâşgar'a giren Sâdık Bey 1864'te Ruslara tâbi oldu ve Kırgızların yaşadığı topraklar Rus idaresine geçti. Bu topraklar 1917'ye kadar Türkistan Genel Valiliği'nin Semireçen, Siriderya, Fergana ve Semerkant bölgelerine dahil edildi.",
   kaynak:"kirgizlar (TDV)" },
 
@@ -11803,7 +11812,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1916-06-25", b:"II. Nikola'nın fermanı Kırgız ayaklanmasını başlattı", tur:"isyan", onem:4, dunya:2, kapsam:"dis",
   etiket:["isyan","askeri","sosyal","konu-askeri","konu-isyan","konu-sosyal"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Issık Göl havzası", "Balasagun (Ak-Beşim)"],
   d:"25 Haziran 1916'da Çar II. Nikola'nın fermanıyla on dokuz-kırk üç yaş arası bütün Kırgız erkekleri cephe gerisinde çalıştırılmak üzere göreve çağrıldı; Kırgızlar ayaklandı ve isyan kısa sürede bütün Türkistan'a yayıldı. Çarlık idaresi olağan üstü hâl ilân edip yüzlerce kişiyi katletti, Kırgızları Çu ve Isık Göl vadilerinden dağlara sürüp 4 milyon hektar toprağa el koydu; halk açlığa mahkûm edildi ve binlerce insan öldü.",
   kaynak:"kirgizlar (TDV)" },
 
@@ -12047,7 +12056,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1890-01-01", b:"Sart Kalmuklar İslâm'a girip Isık Göl civarına yerleşti", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","goc","sosyal","konu-din","konu-sosyal","konu-demografi"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Issık Göl havzası"],
   d:"XIX. yüzyılın sonlarında Kalmukların Sünnî Müslümanlığı benimseyen küçük bir kısmı Orta Asya'ya göç etti ve Isık Göl civarına yerleşerek Sart (sert) Kalmuk adıyla tanındı. Bir Budist halkın küçük bir kolunun İslâmlaşması, üç asırlık Kalmuk-Türk mücadelesinin en beklenmedik sonucudur.", ic_not_d:"⚠️ Isık Göl için yerleşim kaydı yok.",
   kaynak:"kalmuklar (TDV) — yıl YAKLAŞIK, kaynak 'XIX. yüzyılın sonlarında' diyor" },
 
@@ -12193,7 +12202,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 
 { t:"1856-01-01", b:"Çokan Velihanoğlu MANAS DESTANI'nın bir varyantını derledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["kultur","edebiyat","bilim","konu-bilim","konu-kultur"],
-  yer_id:"",
+  yer_id:"", odak_yer:["Issık Göl havzası", "Narın (Naryn)"],
   d:"Dünyanın en hacimli destanı olan Manas'ı bilim dünyasına ilk duyuran, Cengiz Han soyundan gelen Kazak bilgini Çokan Velihanoğlu'dur; 1856'da Kırgızistan'da yaptığı gezi sırasında destanın bir varyantını derledi. Destanın 840 civarında Yenisey Kırgızlarının Uygur ve Çinlilerle savaşları sırasında oluşmaya başladığı, XVI-XVII. yüzyıllarda Kırgız-Kalmuk savaşlarıyla zenginleştiği kabul edilir.", ic_not_d:"⚠️ Derlemenin yapıldığı yer için birebir yerleşim kaydı yok.",
   kaynak:"manas-destani (TDV, madde: manas-destani — içerik okundu, 2026-08-22)" },
 
@@ -12457,7 +12466,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1522-12-21", b:"Rodos'un teslim şartlarının kabulü — 212 yıllık devletin sonu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","antlasma","son","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Altı aylık kuşatmanın sonunda L'Isle-Adam teslim şartlarını kabul etti; şövalyelere silâh ve bayraklarıyla adadan çıkma, halka din serbestliği ve beş yıl vergi muafiyeti tanındı. Kanûnî'nin bu cömert şartları, tarikatı yok etmek yerine uzaklaştırmayı tercih ettiğini gösterir ve sonradan çok tartışılmıştır. Rodos'taki şövalye devleti böylece sona erdi.",
-  kaynak:"TDV 'rodos' md.: \"1 Safer 929'da (20 Aralık 1522)\" şehrin alınışı · Vatin (1994) · ⚠️ dizinde `1522-12-25` yazılı; TDV 20 Aralık, teslimin imzası 21 Aralık — devletler.js'i DÜZELTMEDİM, koordinatöre bildirdim · 🟢 `dunya:4` referansı BEN kuruyorum" },
+  kaynak:"TDV `rodos`: \"Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.\" · Vatin (1994) (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1522-12-21 (Vatin: teslim şartlarının imzası) · kullanılmayan kaynaklı gün 1522-12-20 (TDV: fetih) · künyedeki 1522-12-25 hiçbir kaynakta yok · neden: iki kaynak iki gün veriyor, tek seçilmez (§4 ⑥) (KRONO-CELISKI-1006 §2 #28) · 🟢 `dunya:4` referansı BEN kuruyorum" },
 
 { t:"1523-01-01", b:"Şövalyelerin Rodos'tan ayrılması — tarikatın topraksız kalması", tur:"son", onem:5, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","sosyal","konu-askeri","konu-siyasi","konu-din","konu-sosyal"],
@@ -12467,12 +12476,12 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1524-01-01", b:"Rodos'a 1343 kişilik Osmanlı muhafız kuvvetinin yerleştirilmesi", tur:"idari", onem:2, dunya:1, kapsam:"dis", yer_id:"Rodos",
   etiket:["idari","konu-idari"],
   d:"Ada Osmanlı idaresine bağlandı ve kalıcı bir muhafız kuvveti yerleştirildi; Süleymaniye Külliyesi ile şehrin yeniden canlandırılmasına girişildi. Şövalye dönemi kapanmış, adanın dört yüz yıl sürecek Osmanlı dönemi başlamıştır. Bu madde, tarikatın dosyasında bir 'sonrası' kaydıdır.",
-  kaynak:"TDV 'rodos' md.: \"Ottoman garrison of 1343 installed (1524)\", Süleymaniye Külliyesi ile imar · gün bilinmiyor" },
+  kaynak:"TDV 'rodos' md.: Ottoman garrison of 1343 installed (1524), Süleymaniye Külliyesi ile imar · gün bilinmiyor" },
 
 { t:"1530-03-24", b:"Malta ve Trablusgarp'ın Şarlken tarafından tarikata verilmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi","konu-din"],
   d:"İmparator V. Karl (Şarlken), Malta adalarını ve Trablusgarp'ı yıllık bir şahin sembolik kirası karşılığında tarikata bağışladı. Şövalyeler yedi yıl sonra yeniden toprak sahibi bir devlet oldular, ama bu kez Sicilya Krallığı'na feodal bağla bağlıydılar. Trablusgarp yükümlülüğü, tarikatı istemediği bir Kuzey Afrika savunmasına mecbur etti.",
-  kaynak:"TDV 'malta' md.: \"Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530\" · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum" },
+  kaynak:"TDV 'malta' md.: Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum" },
 
 { t:"1531-01-01", b:"Modon baskını — Malta'dan ilk büyük deniz harekâtı", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","konu-askeri"],
@@ -12507,7 +12516,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1565-05-18", b:"Büyük Malta Kuşatması'nın başlaması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Mustafa Paşa ve Piyale Paşa kumandasındaki Osmanlı donanması Malta'ya ulaştı ve karaya asker çıkarıldı. Kuvvet yaklaşık iki yüz kırk gemi ve otuz beş bin askerdi; tarikatın elinde ise yardımcılarla birlikte dokuz bin kadar savaşçı vardı. Kuşatma dört ay sürecek ve tarikatın kaderini belirleyecektir.",
-  kaynak:"TDV 'malta' md.: \"18 Şevval 972 / 19 May 1565\" adaya varış; sefer 26 Şâban 972 / 29 Mart 1565'te İstanbul'dan hareket · `dunya:3` — ispanya dosyasıyla BİREBİR hizalandı" },
+  kaynak:"TDV 'malta' md.: 18 Şevval 972 / 19 May 1565 adaya varış; sefer 26 Şâban 972 / 29 Mart 1565'te İstanbul'dan hareket · `dunya:3` — ispanya dosyasıyla BİREBİR hizalandı" },
 
 { t:"1565-06-23", b:"Saint Elmo Kalesi'nin düşüşü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -12527,7 +12536,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1565-09-12", b:"Kuşatmanın kaldırılması — tarikatın hayatta kalması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma","konu-askeri","konu-din"],
   d:"Osmanlı ordusu gemilere binerek adadan ayrıldı; kaynaklara göre kayıp yaklaşık yirmi bin askerdi ve tarikat da savaşçılarının üçte birinden fazlasını yitirmişti. Zafer bütün Katolik Avrupa'da kutlandı ve tarikatın Malta'daki varlığını tartışılmaz kıldı. Rodos'ta kaybedilen itibar burada geri kazanıldı.",
-  kaynak:"TDV 'malta' md.: \"16 Safer 973 / 12 September 1565\" kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
+  kaynak:"TDV 'malta' md.: 16 Safer 973 / 12 September 1565 kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
 
 { t:"1566-03-28", b:"Valletta'nın kurulması — Avrupa'nın ilk planlı ızgara şehirlerinden", tur:"mimari", onem:5, dunya:3, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","reform","sosyal","imar","konu-imar","konu-islahat","konu-sosyal"],
@@ -12542,7 +12551,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1571-10-07", b:"İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katılım", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
   d:"Tarikat, sağ kanatta yer alan üç kadırgasıyla Kutsal İttifak donanmasına katıldı ve tarikat kadırgası ağır kayıp verdi. Sayıca küçük olan katkı, tarikatın Katolik dünyasının ortak savunmasındaki sembolik yerini pekiştirdi. Zafer Akdeniz'de Osmanlı ilerleyişinin durduğu an olarak anıldı.",
-  kaynak:"TDV 'inebahti-savasi' md. · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
+  kaynak:"TDV 'inebahti-deniz-savasi' md. (eski slug 'inebahti-savasi' ölü/302 — UMIT-W49 6 Ekim 2026) · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
 
 { t:"1573-01-01", b:"Saint John Ortak Katedrali'nin inşasına başlanması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","din","kultur","imar","konu-din","konu-kultur","konu-imar"],
@@ -12851,7 +12860,7 @@ window.KRONOLOJI_SAFEVI = [
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ", yer_id:"Nahçıvan" },
 
 // === B) KURULUŞ SONRASI GENİŞLEME (1501-1510) ===============================
-{ t:"1503-06-01", b:"Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı", gun:"Haziran 1503? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+{ t:"1503-06-01", b:"Hemedan Muharebesi — Akkoyunlu'nun tasfiyesi tamamlandı", gun:"Haziran 1503? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor · ⚠️ -06-01 yıl ortası YER TUTUCU olabilir · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): `safeviler` \"909’da (1503)\", `sah-ismail` \"908/1503\" — 908↔909 sınırı Haziran 1503, ikisi de miladî 1503 verir; yıl değişmedi (KRONO-CELISKI-1006 §3.3)", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak","konu-askeri"],
   d:"İsmail, Akkoyunlu artığı Murad Bey'i Hemedan yakınında yenerek Fars, Irak-ı Acem ve Kirman'ı ele geçirdi; Akkoyunlu Devleti'nin son direnç noktaları böylece ortadan kalktı ve Safevî egemenliği İran'ın büyük kısmına yayıldı.",
   kaynak:"Encyclopaedia Iranica, madde: AQ QOYUNLU", yer_id:"Hemedan" },
@@ -12859,6 +12868,14 @@ window.KRONOLOJI_SAFEVI = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"İsmail'in orduları, İran'ın orta ve güney-doğu kentlerini (Kâşân, Yezd, Kirman) art arda ele geçirerek merkezî İran'da rakip hânedan artığı bırakmadı; bu genişleme kuruluşun ilk üç yılını kapsayan on iki seferlik dizinin bir parçasıdır.",
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ · yezd (TDV: \"Şah İsmâil 28 Cemâziyelâhir 910 (6 Aralık 1504) tarihinde bir aylık bir kuşatmanın ardından şehre girdi\")", yer_id:"Yezd" },
+{ t:"1507-01-01", b:"Diyarbekir ve yöresi Safevîlere bağlandı — Dulkadıroğlu Alâüddevle Bey'e karşı sefer", gun:"yıl — TDV ay/gün vermiyor · ⚠️ TDV KENDİ İÇİNDE (BEYAN, MGGP-NOT): kullanılan yıl 1507 · `safeviler` 912 H (Mayıs 1506 – Mayıs 1507), `sah-ismail` 913 H (Mayıs 1507 – Mayıs 1508) — iki hicrî yıl, miladî 1507 ortak; seçilmedi (KRONO-CELISKI-1006 §3.4)", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["askeri","toprak","konu-askeri"],
+  d:"Dulkadıroğlu Alâüddevle Bey'in Diyarbekir'i ele geçirip Akkoyunlu Murad Bey'i yeniden tahta çıkarma girişimi üzerine Şah İsmâil Erzincan üzerinden Osmanlı topraklarına girdi, Maraş ve Elbistan'ı tahrip etti; Diyarbekir ve yöresi Safevîlere bağlandı.",
+  kaynak:"TDV `safeviler`: \"Şah İsmâil 912’de (1507) Erzincan’a yöneldi. … Diyarbekir ve yöresi Safevîler’e bağlanmış oldu.\" · TDV `sah-ismail`: \"913 (1507) yılında Şah İsmâil, hâkimiyetini Diyarbekir’e doğru genişletmeye çalışan Dulkadıroğlu Alâüddevle Bey’e karşı yürüdü.\" · künyeden taşındı: devletler.js eski 1503-01-01 \"Diyarbekir, Bağdat ve Musul\" (KRONO-CELISKI-1006 §2 #29) · daha önce künyede (devletler.js) 1503-01-01 \"Diyarbekir, Bağdat ve Musul ele geçirildi\" yazılıydı, kaynaksız, YILI yanlıştı; D2'de 1507'ye düzeltilip buraya taşınmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #29)", yer_id:"Diyarbakır" },
+{ t:"1508-01-01", b:"Bağdat savaşsız Safevî hâkimiyetine girdi", gun:"yıl — 914 H (Mayıs 1508 – Nisan 1509); TDV ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+  etiket:["askeri","toprak","konu-askeri"],
+  d:"Şah İsmâil Irâk-ı Arab'a yürüdü; Bağdat hâkimi Pürnek Bârik Bey şehri terk etti, Bağdat savaşsız alındı ve şehirdeki Türkmenlerin büyük bölümü kılıçtan geçirildi. Şah ardından Kerbelâ, Necef ve Sâmerrâ'daki imam türbelerini tamir ettirdi.",
+  kaynak:"TDV `sah-ismail`: \"914’te (1508) Irâk-ı Arab’a yürüdü. … Bağdat savaşsız zaptedildikten sonra şehirdeki Türkmenler’in büyük bölümü kılıçtan geçirildi.\" · TDV `safeviler`: \"Ertesi yıl Bağdat hâkimiyet altına alındı.\" · künyeden taşındı (KRONO-CELISKI-1006 §2 #29)", yer_id:"Bağdat" },
 { t:"1508-09-01", b:"Bağdat'ta Ebû Hanîfe ve Abdülkādir-i Geylânî türbelerinin tahribi", gun:"Eylül 1508? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `abbas-i`, `sah-ismail` ay/gün vermiyor", tur:"din", onem:3, dunya:2, kapsam:"ic",
   etiket:["din","siyaset","konu-siyasi","konu-din","konu-imar"],
   d:"Bağdat'ın fethinin ardından Kızılbaş kuvvetleri, Şiî olmayan büyük âlimlerin türbelerine yönelik yıkım eylemlerine giriştiği kaynaklarda anlatılır; bu olay dönemin sert mezhep siyasetinin bir örneği olarak hem Şiî hem Sünni tarihyazımında farklı şekillerde anılır — taraflar arasında bugün de tartışmalı bir konudur.",
@@ -13389,7 +13406,7 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:4, dunya:2, kapsam:"ic", etiket:["goc","din","konu-askeri","konu-din","konu-demografi"],
   yer_id:"",
   d:"Osmanlı-Avusturya savaşında (1683-1699) Habsburg tarafını tutan Sırplar, savaş Osmanlı lehine döndüğünde Osmanlı misillemesinden korkarak Patrik Arsenije III Crnojević önderliğinde Kosova ve çevresini terk edip kuzeye, Habsburg topraklarındaki Karlofça'ya göç etti (tahminen on binlerce aile). Göç, Kosova'nın etnik demografisini kalıcı biçimde değiştirdi ve modern Sırp-Arnavut anlaşmazlığının köklerinden biri sayılır.",
-  kaynak:"TDV `sirbistan`: 'Patrik Arsenije III. Crnojević, 1690 yılında büyük bir grupla Kosova'yı terkederek Karlofça'ya göç etti.' Gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
+  kaynak:"TDV `sirbistan`: 'Osmanlılar’ın rakiplerine destek veren Patrik Arsenije III. Crnojević, 1690 yılında büyük bir grupla (Sırp kaynaklarına göre yaklaşık 37.000 Sırp ailesiyle) Kosova’yı terkederek Karlofça’ya (Karlovci) göç etti ve Avusturya imparatorunun sağladığı imtiyazla burada dinî bir merkez kurdu.' Gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
 
 { t:"1739-09-18", b:"Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü", tur:"toprak-kazanc",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
@@ -13548,9 +13565,12 @@ window.KRONOLOJI_SIRBISTAN = [
 // ============================================================================
 window.KISILER = [
 // --- Sadrazamlar ---
-{ id:"candarli-hayreddin-pasa", tur:"sadrazam", ad:"Çandarlı Hayreddin Paşa (Kara Halil)", t:"1387", donem:"1364–1387", not:"İlk büyük sadrazam ailesinin kurucusu; Rumeli fetihlerinin örgütleyicisi. Asıl adı Kara Halil'dir; oğlu Çandarlı Ali Paşa ve soyundan gelen Çandarlı Halil Paşa (İstanbul'un fethi sonrası azledilen) ile karıştırılmamalı" },
-{ id:"candarli-halil-pasa", tur:"sadrazam", ad:"Çandarlı Halil Paşa", t:"1453", donem:"II. Murad'ın sonu – II. Mehmed'in ikinci cülûsu", not:"İstanbul kuşatmasına şüpheyle yaklaştığı için II. Mehmed tarafından fetihten hemen sonra, 30 Mayıs 1453'te azledildi, kırk gün sonra idam edildi" },
-{ id:"mahmud-pasa", tur:"sadrazam", ad:"Mahmud Paşa (Velî)",             donem:"1456–1466, 1472–1474", not:"Fatih'in fetih kadrosunun başı" },
+{ id:"candarli-hayreddin-pasa", tur:"sadrazam", ad:"Çandarlı Hayreddin Paşa (Kara Halil)", t:"1387", donem:"1364–1387", not:"İlk büyük sadrazam ailesinin kurucusu; Rumeli fetihlerinin örgütleyicisi. Asıl adı Kara Halil'dir; oğlu Çandarlı Ali Paşa ve soyundan gelen Çandarlı Halil Paşa (İstanbul'un fethi sonrası azledilen) ile karıştırılmamalı",
+    kaynak:"TDV: candarli-kara-halil-hayreddin-pasa" },
+{ id:"candarli-halil-pasa", tur:"sadrazam", ad:"Çandarlı Halil Paşa", t:"1453", donem:"II. Murad'ın sonu – II. Mehmed'in ikinci cülûsu", not:"İstanbul kuşatmasına şüpheyle yaklaştığı için II. Mehmed tarafından fetihten hemen sonra, 30 Mayıs 1453'te azledildi, kırk gün sonra idam edildi",
+    kaynak:"TDV: candarli-halil-pasa" },
+{ id:"mahmud-pasa", tur:"sadrazam", ad:"Mahmud Paşa (Velî)", t:"1474",             donem:"1456–1466, 1472–1474", not:"Fatih'in fetih kadrosunun başı",
+    kaynak:"TDV: mahmud-pasa" },
 // 🔴 Kart adı UZUN yazıldı ve gerekçesi ölçüldü: kronolojide iki AYRI Hadım Ali
 // Paşa geçiyor — 1511 Şahkulu maddesindeki "Sadrazam Hadım Ali Paşa" (bu kayıt)
 // ve 1552 Solnok maddesindeki "Hadım Ali Paşa" (Budin beylerbeyi, BAŞKA kişi).
@@ -13564,19 +13584,27 @@ window.KISILER = [
     gorev:"Bâbüssaâde ağalığı → sancak beyliği → Karaman beylerbeyiliği (1482) → vezîriâzamlık",
     tartisma:"TDV'de maddesi 'Hadım Ali Paşa' değil 'ATİK ALİ PAŞA' başlığı altındadır; madde iki adın aynı kişiye ait olduğunu açıkça söyler ('Hadım lakabıyla da tanınan Ali Paşa'). 1552 Solnok seferinde geçen Budin beylerbeyi Hadım Ali Paşa ile KARIŞTIRILMAMALIDIR — bu kayıt 1511'de ölmüştür.",
     kaynak:"TDV: atik-ali-pasa" },
-{ id:"pargali-ibrahim-pasa", tur:"sadrazam", ad:"Pargalı İbrahim Paşa", t:"1536", donem:"1523–1536", not:"İbrahim Paşa, TDV maddesindeki bilgilere göre Parga (bugünkü Yunanistan) yakınlarında doğdu ve altı yaşındayken İstanbul'a getirildi; kesin doğum tarihi ve getiriliş şartları kaynaklarda tartışmalıdır. Henüz şehzade olan Süleyman'a Manisa'da hizmet ederken onun en yakın adamı hâline geldi ve sultanın kız kardeşi Hatice Sultan ile evlendi. Süleyman tahta çıktıktan sonra saraydaki nüfuzu hızla arttı; 927 (1521) Belgrad kuşatmasında kapı ağası, ardından has oda başı ve şahincibaşı gibi görevlerde bulundu, 928 (1522) Rodos seferine katıldı. Alışılmışın dışında doğrudan bu iç saray görevlerinden sadrazamlığa yükseltilerek 13 Şâban 929 (27 Haziran 1523) tarihinde vezîriâzam oldu. Macaristan seferlerinde ve 932 (1526) Mohaç Savaşı'nda görev aldı; 1533-1535 yıllarındaki İrakeyn (Tebriz-Bağdat) Seferi'ni \"serasker sultan\" unvanı ve geniş yetkilerle bizzat yönetti, bu seferde Tebriz ve Bağdat'ın fethini sağladı. 21-22 Ramazan 942 (14-15 Mart 1536) tarihinde boğdurularak idam edildi; TDV maddesine göre idamın resmî gerekçesi açıklanmamış, kaynaklarda güç hırsı, Bağdat fethinden sonraki tutumundaki değişim ve Hürrem Sultan ile rekabet gibi sebepler zikredilmiştir — bunlar rivayet düzeyinde kalan, kesinleşmemiş açıklamalardır." },
+{ id:"pargali-ibrahim-pasa", tur:"sadrazam", ad:"Pargalı İbrahim Paşa", t:"1536", donem:"1523–1536", not:"İbrahim Paşa, TDV maddesindeki bilgilere göre Parga (bugünkü Yunanistan) yakınlarında doğdu ve altı yaşındayken İstanbul'a getirildi; kesin doğum tarihi ve getiriliş şartları kaynaklarda tartışmalıdır. Henüz şehzade olan Süleyman'a Manisa'da hizmet ederken onun en yakın adamı hâline geldi ve sultanın kız kardeşi Hatice Sultan ile evlendi. Süleyman tahta çıktıktan sonra saraydaki nüfuzu hızla arttı; 927 (1521) Belgrad kuşatmasında kapı ağası, ardından has oda başı ve şahincibaşı gibi görevlerde bulundu, 928 (1522) Rodos seferine katıldı. Alışılmışın dışında doğrudan bu iç saray görevlerinden sadrazamlığa yükseltilerek 13 Şâban 929 (27 Haziran 1523) tarihinde vezîriâzam oldu. Macaristan seferlerinde ve 932 (1526) Mohaç Savaşı'nda görev aldı; 1533-1535 yıllarındaki İrakeyn (Tebriz-Bağdat) Seferi'ni \"serasker sultan\" unvanı ve geniş yetkilerle bizzat yönetti, bu seferde Tebriz ve Bağdat'ın fethini sağladı. 21-22 Ramazan 942 (14-15 Mart 1536) tarihinde boğdurularak idam edildi; TDV maddesine göre idamın resmî gerekçesi açıklanmamış, kaynaklarda güç hırsı, Bağdat fethinden sonraki tutumundaki değişim ve Hürrem Sultan ile rekabet gibi sebepler zikredilmiştir — bunlar rivayet düzeyinde kalan, kesinleşmemiş açıklamalardır.",
+    kaynak:"TDV: ibrahim-pasa-makbul" },
 { id:"sokullu-mehmed-pasa", tur:"sadrazam", ad:"Sokullu Mehmed Paşa", f:"1505", t:"1579", donem:"1565–1579", not:"Bosna'nın Sokoloviç köyünde 1505'te doğdu, devşirme olarak saraya alındı. Çeşitli görevlerden geçerek 1549'da Rumeli beylerbeyi, 1554'te dördüncü, 1561'de ikinci vezir oldu; 1565-1579 arasında Kanûnî Sultan Süleyman, II. Selim ve III. Murad dönemlerinde on dört yıl kesintisiz sadrazamlık yaptı. Zigetvar kuşatması sırasında (1566) Kanûnî'nin ölümünü gizleyerek II. Selim'in cülusunu sorunsuz sağladı; İnebahtı bozgunundan (1571) sonra donanmayı hızla yeniden inşa ettirdi. Lehistan tahtı meselesinde önce Fransız prensi Henri de Valois'yı, sonra Stefan Báthory'yi destekleyerek Osmanlı nüfuzunu korudu. 12 Ekim 1579'da bir dervişin hançeriyle öldürüldü; suikastın, idam edilen bir Hamzavî şeyhinin intikamıyla bağlantılı olabileceği düşünülür.", kaynak:"TDV: sokullu-mehmed-pasa" },
 // UYGULA-KART-0930 (0052/H-0007): 1596 maddesinde (olaylar_ek7.js 1596-06-20)
 // kisiBul "Damad İbrahim Paşa"yı Lâle Devri'nin Nevşehirli'siyle eşliyordu.
 // `ad` dizgisi UYGULA-OLAYLAR-0930'un maddeye yazdığıyla BİREBİR (M-5592).
 { id:"damad-ibrahim-pasa-1601", tur:"sadrazam", ad:"Damad İbrâhim Paşa (ö. 1601)", t:"1601", donem:"1596–1601 (üç sadâret)", not:"Bosna'da doğdu, gençken Enderun'a alındı. Aralık 1579'da yeniçeri ağası, 26 Şubat 1582'de Rumeli, 1583 baharında Mısır beylerbeyi oldu; Eylül 1585'te üçüncü vezir. Mayıs 1586'da III. Murad'ın kızı Ayşe Sultan'la evlenerek 'damad' unvanını aldı, 1587'de kaptan-ı deryâ oldu. Nisan 1596'da sadrazam olup III. Mehmed'le Eğri seferine çıktı: Eğri 24 Eylül 1596'da alındı, ardından Haçova Meydan Muharebesi kazanıldı — kaynak, yakın muharebelerde asıl emeğin Cığalazâde Sinan Paşa'ya ait olduğunu kaydeder. Sefer dönüşü azledildi, ama azli ancak kırk beş gün kadar sürdü; 5 Aralık 1596'da mühür yeniden kendisine verildi, 3 Kasım 1597'de yine azledildi. 6 Ocak 1599'da üçüncü kez sadrazam ve Macaristan serdarı oldu; barış teşebbüslerinden sonuç alınamayınca sefere devam etti, 23 Ekim 1600'da Kanije Kalesi'ni aldı. 9 Muharrem 1010'da (10 Temmuz 1601) Belgrad'da öldü, Şehzade Camii hazîresine gömüldü. Lâle Devri sadrazamı Nevşehirli Damad İbrâhim Paşa'yla (ö. 1730) karıştırılmamalıdır.", olum_yer:"Belgrad", kaynak:"TDV: damad-ibrahim-pasa (Nezihi Aykut)" },
-{ id:"koprulu-mehmed-pasa", tur:"sadrazam", ad:"Köprülü Mehmed Paşa", t:"1661", donem:"1656–1661", not:"Köprülü Mehmed Paşa, devşirme yoluyla Arnavutluk'ta Berat sancağına bağlı Rudnik köyünden İstanbul'a getirildi. İleri yaşında, TDV maddesine göre yaklaşık seksen yaşındayken, 26 Zilkade 1066 (15 Eylül 1656) tarihinde Boynueğri Mehmed Paşa'nın yerine sadrazamlığa getirildi. Göreve gelirken dört şart ileri sürdü: kendisine sunulan bütün emirlerin başka bir karşı emirle geçersiz kılınmadan uygulanması, en alt kademeden en üste kadar atamalara müdahale edilmemesi, yetkisinin nüfuzlu kişilerin etkisiyle sınırlandırılmaması ve kendisine karşı çıkanların susturulması; padişah ile Vâlide Turhan Sultan bu şartları yeminle kabul etti. Beş yıllık sadaretinde Kadızâdeliler hareketinin yol açtığı dinî anlaşmazlıkları bastırdı, Abaza Hasan Paşa başta olmak üzere rakip görülen görevlileri 1659'da ortadan kaldırdı, Anadolu'da Celâlî isyancılarına karşı geniş çaplı bir tenkil harekâtı yürüttü, Venediklilerin elindeki Bozcaada ve Limni'yi geri aldı, 1658'de Erdel Voyvodası Rákóczi'ye karşı sefere çıktı ve yeniçeri ocağında disiplini yeniden tesis etti. Amasya yakınlarındaki Köprü kasabasında Ayşe Hanım ile evlenip yerleştiği için \"Köprülü\" adıyla anılmıştır. 7 Rebîülevvel 1072 (31 Ekim 1661) tarihinde Edirne'de, rivayete göre seksen altı yaşında iken öldü. Kendisinden sonra oğulları ve akrabalarının uzun süre sadaret makamını elde tuttuğu Köprülüler hanedanının kurucusu kabul edilir." },
-{ id:"kopruluzade-fazil-ahmed-pasa", tur:"sadrazam", ad:"Köprülüzâde Fâzıl Ahmed Paşa", f:"1635", t:"1676", donem:"1661–1676", not:"Uyvar ve Kandiye fatihi" },
-{ id:"merzifonlu-kara-mustafa-pasa", tur:"sadrazam", ad:"Merzifonlu Kara Mustafa Paşa", t:"1683", donem:"1676–1683", not:"Merzifonlu Kara Mustafa Paşa, 1044 (1634-35) yılında Merzifon'un Marınca köyünde doğdu. TDV maddesine göre babasının IV. Mehmed dönemindeki bir Bağdat kuşatması sırasında ölmesi üzerine dört yaşında yetim kaldı ve Köprülü Mehmed Paşa'nın himayesinde onun oğullarıyla birlikte büyütüldü; ileride bu aileye evlilik yoluyla da bağlandı. 1661-1666 yılları arasında kaptan-ı derya olarak donanmaya kumanda etti. 28 Şâban 1087 (5 Kasım 1676) tarihinde sadrazamlığa getirildi. 1683'te Osmanlı ordusunu Viyana üzerine sevk etti; ordu 19 Receb 1094 (14 Temmuz 1683) tarihinde şehrin önlerine ulaştı ve yaklaşık iki ay süren kuşatma 12 Eylül 1683'teki büyük muharebeyle Osmanlı yenilgisiyle sonuçlandı. TDV maddesine göre geri çekilme sırasında yaklaşık 300 top ve 15.000'e yakın çadır elden çıktı. Viyana bozgunundan sonra Kızlar Ağası Yusuf Ağa ve Mirahor Sarı Süleyman gibi saraydaki rakipleri, paşanın inadı, sertliği ve kin tutuculuğu ile edindiği düşmanlıklardan yararlanarak onun sonunu hazırladı; 6 Muharrem 1095 (25 Aralık 1683) tarihinde Belgrad'da idam edildi. İstanbul Çarşıkapı'da cami, medrese, kütüphane, mektep, çeşme ve türbeden oluşan külliyesinin inşaatını Viyana seferi öncesinde başlatmış, eser onun ölümünden sonra oğlu Ali Bey tarafından 1690'da tamamlanmıştır; Merzifon'da da 1666-1679 yılları arasında yaptırdığı cami, çarşı, kütüphane, iki hamam ve dükkânlardan oluşan bir külliyesi bulunmaktadır." },
-{ id:"amcazade-huseyin-pasa", tur:"sadrazam", ad:"Amcazâde Hüseyin Paşa", t:"1702", donem:"1697–1702", not:"Karlofça sonrası toparlanmanın mimarı" },
-{ id:"baltaci-mehmed-pasa", tur:"sadrazam", ad:"Baltacı Mehmed Paşa",            donem:"1704–1706, 1710–1711", not:"Prut zaferinin komutanı" },
-{ id:"nevsehirli-damad-ibrahim-pasa", tur:"sadrazam", ad:"Nevşehirli Damad İbrahim Paşa", f:"1666", t:"1730", donem:"1718–1730", not:"1662 dolayında Nevşehir'de doğdu, 1689'da İstanbul'a gelip saraya Helvacılar, ardından Baltacılar Ocağı'ndan girdi. Şehzade Ahmed'in (III. Ahmed) hizmetinde bulunup 1703 Edirne Vak'asını atlatarak Dârüssaâde kethüdâsı yazıcılığına yükseldi. III. Ahmed'in kızı ve dul kalmış Şehid Ali Paşa'nın eşi Fatma Sultan'la 19 Şubat 1717'de evlendirilip 'dâmâd-ı şehriyârî' oldu, 1718'de sadrazamlığa atandı. İlk icraatı uzayan savaşları bitiren Pasarofça Antlaşması (1718) oldu; hazineye 5675 divanî kese fazla sağladı. 1720-1721'de Yirmisekiz Çelebi Mehmed Efendi'yi Paris'e elçi gönderip Avrupa'ya kültürel açılımı hızlandırdı. Kâğıthane'de Sâdâbâd Kasrı'nı yaptırdı, lale yetiştiriciliğinin seçkinler arasında zevk simgesi olduğu bu dönem 'Lâle Devri' adını aldı. 1727'de İbrâhim Müteferrika'nın ilk Türk matbaasını kurmasını destekledi, tulumbacı teşkilâtını kurdu, bilim adamı ve sanatçıları himaye etti. Afgan seferindeki yenilgi, yeni vergiler ve halkın 'zevk ve sefahat' algısıyla büyüyen hoşnutsuzluk 1730'da Patrona Halil İsyanı'na dönüştü; III. Ahmed damadını feda etmek zorunda kaldı — İbrahim Paşa 1 Ekim 1730'da damatlarıyla birlikte öldürüldü, cesedi İstanbul sokaklarında sürüklenip parçalanmış hâlde III. Ahmed Çeşmesi yakınında bırakıldı.", kaynak:"TDV: damad-ibrahim-pasa-nevsehirli" },
-{ id:"damad-ali-pasa", tur:"sadrazam", ad:"Damad Ali Paşa (Şehid)", t:"1716", donem:"1713–1716", not:"Mora'yı geri alan sadrazam; Petrovaradin'de şehit" },
+{ id:"koprulu-mehmed-pasa", tur:"sadrazam", ad:"Köprülü Mehmed Paşa", t:"1661", donem:"1656–1661", not:"Köprülü Mehmed Paşa, devşirme yoluyla Arnavutluk'ta Berat sancağına bağlı Rudnik köyünden İstanbul'a getirildi. İleri yaşında, TDV maddesine göre yaklaşık seksen yaşındayken, 26 Zilkade 1066 (15 Eylül 1656) tarihinde Boynueğri Mehmed Paşa'nın yerine sadrazamlığa getirildi. Göreve gelirken dört şart ileri sürdü: kendisine sunulan bütün emirlerin başka bir karşı emirle geçersiz kılınmadan uygulanması, en alt kademeden en üste kadar atamalara müdahale edilmemesi, yetkisinin nüfuzlu kişilerin etkisiyle sınırlandırılmaması ve kendisine karşı çıkanların susturulması; padişah ile Vâlide Turhan Sultan bu şartları yeminle kabul etti. Beş yıllık sadaretinde Kadızâdeliler hareketinin yol açtığı dinî anlaşmazlıkları bastırdı, Abaza Hasan Paşa başta olmak üzere rakip görülen görevlileri 1659'da ortadan kaldırdı, Anadolu'da Celâlî isyancılarına karşı geniş çaplı bir tenkil harekâtı yürüttü, Venediklilerin elindeki Bozcaada ve Limni'yi geri aldı, 1658'de Erdel Voyvodası Rákóczi'ye karşı sefere çıktı ve yeniçeri ocağında disiplini yeniden tesis etti. Amasya yakınlarındaki Köprü kasabasında Ayşe Hanım ile evlenip yerleştiği için \"Köprülü\" adıyla anılmıştır. 7 Rebîülevvel 1072 (31 Ekim 1661) tarihinde Edirne'de, rivayete göre seksen altı yaşında iken öldü. Kendisinden sonra oğulları ve akrabalarının uzun süre sadaret makamını elde tuttuğu Köprülüler hanedanının kurucusu kabul edilir.",
+    kaynak:"TDV: koprulu-mehmed-pasa" },
+{ id:"kopruluzade-fazil-ahmed-pasa", tur:"sadrazam", ad:"Köprülüzâde Fâzıl Ahmed Paşa", f:"1635", t:"1676", donem:"1661–1676", not:"Uyvar ve Kandiye fatihi",
+    kaynak:"TDV: kopruluzade-fazil-ahmed-pasa" },
+{ id:"merzifonlu-kara-mustafa-pasa", tur:"sadrazam", ad:"Merzifonlu Kara Mustafa Paşa", f:"1634", t:"1683", donem:"1676–1683", not:"Merzifonlu Kara Mustafa Paşa, 1044 (1634-35) yılında Merzifon'un Marınca köyünde doğdu. TDV maddesine göre babasının IV. Mehmed dönemindeki bir Bağdat kuşatması sırasında ölmesi üzerine dört yaşında yetim kaldı ve Köprülü Mehmed Paşa'nın himayesinde onun oğullarıyla birlikte büyütüldü; ileride bu aileye evlilik yoluyla da bağlandı. 1661-1666 yılları arasında kaptan-ı derya olarak donanmaya kumanda etti. 28 Şâban 1087 (5 Kasım 1676) tarihinde sadrazamlığa getirildi. 1683'te Osmanlı ordusunu Viyana üzerine sevk etti; ordu 19 Receb 1094 (14 Temmuz 1683) tarihinde şehrin önlerine ulaştı ve yaklaşık iki ay süren kuşatma 12 Eylül 1683'teki büyük muharebeyle Osmanlı yenilgisiyle sonuçlandı. TDV maddesine göre geri çekilme sırasında yaklaşık 300 top ve 15.000'e yakın çadır elden çıktı. Viyana bozgunundan sonra Kızlar Ağası Yusuf Ağa ve Mirahor Sarı Süleyman gibi saraydaki rakipleri, paşanın inadı, sertliği ve kin tutuculuğu ile edindiği düşmanlıklardan yararlanarak onun sonunu hazırladı; 6 Muharrem 1095 (25 Aralık 1683) tarihinde Belgrad'da idam edildi. İstanbul Çarşıkapı'da cami, medrese, kütüphane, mektep, çeşme ve türbeden oluşan külliyesinin inşaatını Viyana seferi öncesinde başlatmış, eser onun ölümünden sonra oğlu Ali Bey tarafından 1690'da tamamlanmıştır; Merzifon'da da 1666-1679 yılları arasında yaptırdığı cami, çarşı, kütüphane, iki hamam ve dükkânlardan oluşan bir külliyesi bulunmaktadır.",
+    kaynak:"TDV: merzifonlu-kara-mustafa-pasa (doğum: 1044 / 1634-35)" },
+{ id:"amcazade-huseyin-pasa", tur:"sadrazam", ad:"Amcazâde Hüseyin Paşa", t:"1702", donem:"1697–1702", not:"Karlofça sonrası toparlanmanın mimarı",
+    kaynak:"TDV: amcazade-huseyin-pasa" },
+{ id:"baltaci-mehmed-pasa", tur:"sadrazam", ad:"Baltacı Mehmed Paşa", t:"1712",            donem:"1704–1706, 1710–1711", not:"Prut zaferinin komutanı",
+    kaynak:"TDV: baltaci-mehmed-pasa" },
+{ id:"nevsehirli-damad-ibrahim-pasa", tur:"sadrazam", ad:"Nevşehirli Damad İbrahim Paşa", f:"1662", t:"1730", donem:"1718–1730", not:"1662 dolayında Nevşehir'de doğdu, 1689'da İstanbul'a gelip saraya Helvacılar, ardından Baltacılar Ocağı'ndan girdi. Şehzade Ahmed'in (III. Ahmed) hizmetinde bulunup 1703 Edirne Vak'asını atlatarak Dârüssaâde kethüdâsı yazıcılığına yükseldi. III. Ahmed'in kızı ve dul kalmış Şehid Ali Paşa'nın eşi Fatma Sultan'la 19 Şubat 1717'de evlendirilip 'dâmâd-ı şehriyârî' oldu, 1718'de sadrazamlığa atandı. İlk icraatı uzayan savaşları bitiren Pasarofça Antlaşması (1718) oldu; hazineye 5675 divanî kese fazla sağladı. 1720-1721'de Yirmisekiz Çelebi Mehmed Efendi'yi Paris'e elçi gönderip Avrupa'ya kültürel açılımı hızlandırdı. Kâğıthane'de Sâdâbâd Kasrı'nı yaptırdı, lale yetiştiriciliğinin seçkinler arasında zevk simgesi olduğu bu dönem 'Lâle Devri' adını aldı. 1727'de İbrâhim Müteferrika'nın ilk Türk matbaasını kurmasını destekledi, tulumbacı teşkilâtını kurdu, bilim adamı ve sanatçıları himaye etti. Afgan seferindeki yenilgi, yeni vergiler ve halkın 'zevk ve sefahat' algısıyla büyüyen hoşnutsuzluk 1730'da Patrona Halil İsyanı'na dönüştü; III. Ahmed damadını feda etmek zorunda kaldı — İbrahim Paşa 1 Ekim 1730'da damatlarıyla birlikte öldürüldü, cesedi İstanbul sokaklarında sürüklenip parçalanmış hâlde III. Ahmed Çeşmesi yakınında bırakıldı.", kaynak:"TDV: damad-ibrahim-pasa-nevsehirli",
+    ic_not_f:"eski: f:\"1666\" — TDV `damad-ibrahim-pasa-nevsehirli` \"Nevşehir'de tahminen 1073'te (1662) dünyaya geldi\"; kaydın kendi notu da \"1662 dolayında\" diyordu (W12 not-çelişkisi). §4 gereği TDV esas alındı" },
+{ id:"damad-ali-pasa", tur:"sadrazam", ad:"Damad Ali Paşa (Şehid)", t:"1716", donem:"1713–1716", not:"Mora'yı geri alan sadrazam; Petrovaradin'de şehit",
+    kaynak:"TDV: sehid-ali-pasa" },
 { id:"ivazzade-halil-pasa", tur:"sadrazam", ad:"İvazzâde Halil Paşa", f:"1724", t:"1776", donem:"1724/25–1776 (sadrazamlık: 12 Aralık 1769 – 20 Aralık 1770)", not:"1770 Kartal Bozgunu'nun serdâr-ı ekremi; Rus kuvvetleri karşısında yenilip ordugâhı terketti, dört ay sonra mührü alındı",
     dogum:"1137 (1724-25)",
     dogum_yer:"İstanbul",
@@ -13588,35 +13616,62 @@ window.KISILER = [
     tartisma:"TDV maddesi bu bozgunu 'Kartal (Larga) Muharebesi' adıyla ve 2 Ağustos 1770 tarihiyle verir.", ic_not_tartisma:"çıkarılan: atlasın kronolojisi aynı olayı 1 Ağustos 1770'te 'Kartal (Kagul) Ovası Bozgunu' adıyla tutuyor. Ad ve gün farkı koordinatöre bildirildi — kronoloji dosyası bu kaydı yazan oturumun yetkisinde değil.",
     tarihciler:"Çağdaşı bazı tarihçiler bozgunu doğrudan onun adıyla, 'Halil Paşa inhizamı' diye anmıştır. Kendisi padişaha yazdığı arîzada açıkça 'Bu askerle iş görülmez' diyerek barış görüşmelerini savunmuştu; hezimet İstanbul'a 13 Ağustos 1770 tarihli bir mahzarla duyuruldu.",
     kaynak:"TDV: ivazzade-halil-pasa" },
-{ id:"alemdar-mustafa-pasa", tur:"sadrazam", ad:"Alemdar Mustafa Paşa",           donem:"1808", not:"Alemdar Mustafa Paşa 1765'te Hotin'de doğdu ve Rusçuk âyanı olarak yükseldi. Himayesindeki Tirsinikli İsmâil Ağa'nın 12 Ağustos 1806'da ölümünün ardından \"âyanlar âyanı\" konumuna geldi; 1807 Osmanlı-Rus Savaşı sırasında Sultan III. Selim'den vezirlik rütbesi ve Silistre'nin ömür boyu valiliğini aldı. Kabakçı Mustafa İsyanı'nın (19 Mayıs 1807) III. Selim'i tahttan indirip IV. Mustafa'yı geçirmesinin ardından, \"Rusçuk yâranı\" adlı reformist grup Alemdar'ı III. Selim'i yeniden tahta çıkarmaya ikna etti. 28 Temmuz 1808'de yaklaşık 15.000 kişilik kuvvetiyle İstanbul'a girdi; ancak IV. Mustafa'nın emriyle III. Selim daha önce öldürülmüştü ve hanedanın hayatta kalan tek şehzadesi Mahmud'du. Alemdar, III. Selim'in cesediyle karşılaşınca Şehzade Mahmud'u tahta çıkardı (II. Mahmud) ve kendisi sadrazam oldu. Sadrazamlığının en önemli icraatı, Ekim 1808'de merkezî hükümet ile Anadolu ve Rumeli âyanları arasında imzalanan Sened-i İttifak'tır; ayrıca Sekbân-ı Cedîd adlı yeni bir askerî ocak kurdu. 15-16 Kasım 1808'de yeniçerilerin çıkardığı büyük isyanda Bâbıâli'deki konağı kuşatıldı; direnişi sırasında barut deposunu ateşleyerek kendisini yüzlerce yeniçeri âsisiyle birlikte havaya uçurdu ve 43 yaşında öldü." },
-{ id:"mustafa-resid-pasa", tur:"sadrazam", ad:"Mustafa Reşid Paşa", f:"1800", t:"1858",            donem:"1800–1858 (sadrazamlık: 1846–1858 arası 6 kez)", not:"Mustafa Reşid Paşa, 13 Mart 1800'de (16 Şevval 1214) İstanbul'un Davutpaşa mahallesinde doğdu. Diplomatik kariyerine erken yaşta atıldı; Mart 1835'te İstanbul'a dönüp Temmuz ayında Paris'e daimî elçi olarak gönderildi, Eylül 1836'da ise Londra büyükelçiliğine getirildi. Paris ve Londra'da geçirdiği üç yıl boyunca Avrupa diplomasisiyle haşır neşir oldu, Fransızcasını ilerletti ve dönemin önde gelen devlet adamlarıyla kurduğu ilişkilerle tecrübe kazandı; 1836 sonbaharında hariciye müsteşarlığına, 13 Haziran 1837'de ise hariciye nâzırlığına yükseldi. Reşid Paşa, diğer devletlere kıyasla İngiltere'nin ekonomik ve askerî üstünlüğüne inanan bir devlet adamıydı ve iktidarda bulunduğu dönemlerde politikasını bu inanç doğrultusunda şekillendirdi. Mehmed Ali Paşa'nın Mısır'da yarattığı krizin çözümünde üstlendiği etkin rol sırasında, 3 Kasım 1839'da Tanzimat Fermanı'nın ilânını sağladı. Uzun devlet hayatı boyunca birçok kez sadrazamlık makamına geldi; beşinci sadrazamlığına 1 Kasım 1856'da, altıncısına 22 Ekim 1857'de başladı. Yetiştirdiği Mehmed Emin Âli ve Keçecizâde Fuad paşalarla uyum içinde geçen bu son kısa sadrazamlığının ardından 7 Ocak 1858'de (21 Cemâziyelevvel 1274) kalp krizi sonucu vefat etti; türbesi Beyazıt Camii Külliyesi yanındadır." },
-{ id:"ali-pasa", tur:"sadrazam", ad:"Âlî Paşa", f:"1814", t:"1871", dogum_yer:"İstanbul", olum_yer:"İstanbul",         donem:"1814–1871 (sadrazamlık: 1852–1871 arası 5 kez)", not:"Islahat Fermanı ve Tanzimat diplomasisinin yürütücüsü; 7 Eylül 1871'de öldü, Süleymaniye haziresine defnedildi" },
+{ id:"alemdar-mustafa-pasa", tur:"sadrazam", ad:"Alemdar Mustafa Paşa", f:"1765", t:"1808",           donem:"1808", not:"Alemdar Mustafa Paşa 1765'te Hotin'de doğdu ve Rusçuk âyanı olarak yükseldi. Himayesindeki Tirsinikli İsmâil Ağa'nın 12 Ağustos 1806'da ölümünün ardından \"âyanlar âyanı\" konumuna geldi; 1807 Osmanlı-Rus Savaşı sırasında Sultan III. Selim'den vezirlik rütbesi ve Silistre'nin ömür boyu valiliğini aldı. Kabakçı Mustafa İsyanı'nın (19 Mayıs 1807) III. Selim'i tahttan indirip IV. Mustafa'yı geçirmesinin ardından, \"Rusçuk yâranı\" adlı reformist grup Alemdar'ı III. Selim'i yeniden tahta çıkarmaya ikna etti. 28 Temmuz 1808'de yaklaşık 15.000 kişilik kuvvetiyle İstanbul'a girdi; ancak IV. Mustafa'nın emriyle III. Selim daha önce öldürülmüştü ve hanedanın hayatta kalan tek şehzadesi Mahmud'du. Alemdar, III. Selim'in cesediyle karşılaşınca Şehzade Mahmud'u tahta çıkardı (II. Mahmud) ve kendisi sadrazam oldu. Sadrazamlığının en önemli icraatı, Ekim 1808'de merkezî hükümet ile Anadolu ve Rumeli âyanları arasında imzalanan Sened-i İttifak'tır; ayrıca Sekbân-ı Cedîd adlı yeni bir askerî ocak kurdu. 15-16 Kasım 1808'de yeniçerilerin çıkardığı büyük isyanda Bâbıâli'deki konağı kuşatıldı; direnişi sırasında barut deposunu ateşleyerek kendisini yüzlerce yeniçeri âsisiyle birlikte havaya uçurdu ve 43 yaşında öldü.",
+    kaynak:"TDV: alemdar-mustafa-pasa" },
+{ id:"mustafa-resid-pasa", tur:"sadrazam", ad:"Mustafa Reşid Paşa", f:"1800", t:"1858",            donem:"1800–1858 (sadrazamlık: 1846–1858 arası 6 kez)", not:"Mustafa Reşid Paşa, 13 Mart 1800'de (16 Şevval 1214) İstanbul'un Davutpaşa mahallesinde doğdu. Diplomatik kariyerine erken yaşta atıldı; Mart 1835'te İstanbul'a dönüp Temmuz ayında Paris'e daimî elçi olarak gönderildi, Eylül 1836'da ise Londra büyükelçiliğine getirildi. Paris ve Londra'da geçirdiği üç yıl boyunca Avrupa diplomasisiyle haşır neşir oldu, Fransızcasını ilerletti ve dönemin önde gelen devlet adamlarıyla kurduğu ilişkilerle tecrübe kazandı; 1836 sonbaharında hariciye müsteşarlığına, 13 Haziran 1837'de ise hariciye nâzırlığına yükseldi. Reşid Paşa, diğer devletlere kıyasla İngiltere'nin ekonomik ve askerî üstünlüğüne inanan bir devlet adamıydı ve iktidarda bulunduğu dönemlerde politikasını bu inanç doğrultusunda şekillendirdi. Mehmed Ali Paşa'nın Mısır'da yarattığı krizin çözümünde üstlendiği etkin rol sırasında, 3 Kasım 1839'da Tanzimat Fermanı'nın ilânını sağladı. Uzun devlet hayatı boyunca birçok kez sadrazamlık makamına geldi; beşinci sadrazamlığına 1 Kasım 1856'da, altıncısına 22 Ekim 1857'de başladı. Yetiştirdiği Mehmed Emin Âli ve Keçecizâde Fuad paşalarla uyum içinde geçen bu son kısa sadrazamlığının ardından 7 Ocak 1858'de (21 Cemâziyelevvel 1274) kalp krizi sonucu vefat etti; türbesi Beyazıt Camii Külliyesi yanındadır.",
+    kaynak:"TDV: mustafa-resid-pasa" },
+{ id:"ali-pasa", tur:"sadrazam", ad:"Âlî Paşa", f:"1814", t:"1871", dogum_yer:"İstanbul", olum_yer:"İstanbul",         donem:"1814–1871 (sadrazamlık: 1852–1871 arası 5 kez)", not:"Islahat Fermanı ve Tanzimat diplomasisinin yürütücüsü; 7 Eylül 1871'de öldü, Süleymaniye haziresine defnedildi",
+    kaynak:"TDV: ali-pasa-mehmed-emin" },
 { id:"midhat-pasa", tur:"sadrazam", ad:"Midhat Paşa",                    donem:"1872, 1876–1877", not:"1822'de İstanbul'da doğdu; 1834'te Divan-ı Hümayun kalemine girdi, 1849'da Meclis-i Vâlâ üyesi oldu. Niş (1861-63) ve Tuna (1864-68) valiliklerinde Vilayet Nizamnamesi'ni uygulayarak modern taşra yönetiminin öncüsü oldu, imparatorluğun ilk vilayet gazetesini çıkardı. 1869-72 Bağdat valiliğinin ardından iki kez (1872 ve 1876-77) sadrazamlık yaptı; 1876 Kanûn-ı Esâsî'sinin baş mimarıydı ve bununla iç karışıklığın yabancı müdahale olmadan sona ereceğini umuyordu — bu umut gerçekleşmedi. 1877'de görevden alınıp sürgüne gönderildi, sonra Suriye ve Aydın valiliklerinde bulundu. 1881'de Sultan Abdülaziz'in ölümüyle suç ortaklığı iddiasıyla tutuklanıp önce idama, sonra müebbet hapse mahkûm edildi. Taif zindanında şüpheli koşullarda öldürüldü (7-8 Mayıs 1884); kemikleri 1951'de İstanbul'a nakledildi.", kaynak:"TDV: midhat-pasa" },
-{ id:"huseyin-avni-pasa", tur:"sadrazam", ad:"Hüseyin Avni Paşa", f:"1820", t:"1876", donem:"1820–1876", not:"30 Mayıs 1876'da Abdülaziz'in tahttan indirilişini örgütleyen serasker; 16 Haziran 1876'da Midhat Paşa'nın konağında Çerkes Hasan Bey tarafından öldürüldü, Süleymaniye Camii haziresine defnedildi" },
-{ id:"mutercim-rusdu-pasa", tur:"sadrazam", ad:"Mütercim Rüşdü Paşa", f:"1811", t:"1882", dogum_yer:"Ayandon (Sinop)", olum_yer:"Manisa", donem:"1811–1882", not:"30 Mayıs 1876'da Abdülaziz'i tahttan indiren kadronun sadrazamı; sonradan kararı benimsemediğini, padişahı uyarmaya çalıştığını ileri sürdü" },
+{ id:"huseyin-avni-pasa", tur:"sadrazam", ad:"Hüseyin Avni Paşa", f:"1820", t:"1876", donem:"1820–1876", not:"30 Mayıs 1876'da Abdülaziz'in tahttan indirilişini örgütleyen serasker; 16 Haziran 1876'da Midhat Paşa'nın konağında Çerkes Hasan Bey tarafından öldürüldü, Süleymaniye Camii haziresine defnedildi",
+    kaynak:"TDV: huseyin-avni-pasa" },
+{ id:"mutercim-rusdu-pasa", tur:"sadrazam", ad:"Mütercim Rüşdü Paşa", f:"1811", t:"1882", dogum_yer:"Ayandon (Sinop)", olum_yer:"Manisa", donem:"1811–1882", not:"30 Mayıs 1876'da Abdülaziz'i tahttan indiren kadronun sadrazamı; sonradan kararı benimsemediğini, padişahı uyarmaya çalıştığını ileri sürdü",
+    kaynak:"TDV: mutercim-rusdu-pasa" },
 // --- Vezirler ve paşalar ---
-{ id:"lala-sahin-pasa", tur:"vezir-pasa", ad:"Lala Şâhin Paşa",              donem:"14. yy", not:"İlk Rumeli beylerbeyi; Edirne ve Filibe fetihleri" },
+{ id:"lala-sahin-pasa", tur:"vezir-pasa", ad:"Lala Şâhin Paşa",              donem:"14. yy", not:"İlk Rumeli beylerbeyi; Edirne ve Filibe fetihleri",
+    kaynak:"TDV: lala-sahin-pasa" },
 { id:"gedik-ahmed-pasa", tur:"vezir-pasa", ad:"Gedik Ahmed Paşa",             donem:"15. yy", not:"Sırbistan'da (muhtemelen Vranye yakınlarındaki Punuševce köyünde) doğdu. II. Murad ve II. Mehmed dönemlerinde saray hizmetlerinden yetişti; Rum ve Anadolu beylerbeyiliği yaptı, 1470'te vezir, Mahmud Paşa'nın idamı üzerine 1474'te sadrazam oldu. Koyulhisar (1461), Karaman toprakları, Alanya (1471) ve Kefe dahil Kırım'daki Ceneviz kolonilerinin (1475) fethinde rol aldı; 1473 Otlukbeli zaferinde Akkoyunlulara karşı belirleyici katkısı oldu. Ağustos 1480'de Otranto'yu ele geçirerek Osmanlı'nın İtalya'daki ilk ve tek fiilî fethini gerçekleştirdi. II. Bayezid döneminde, Cem Sultan'ın tarafını tuttuğu şüphesiyle bir saray ziyafetinde boğdurularak idam edildi (18 Kasım 1482).", kaynak:"TDV: gedik-ahmed-pasa" },
-{ id:"lala-mustafa-pasa", tur:"vezir-pasa", ad:"Lala Mustafa Paşa",            donem:"16. yy", not:"TDV İslâm Ansiklopedisi'ndeki maddesine göre Lala Mustafa Paşa, saray hizmetinde yükselerek 1544'te çaşnigirlik görevine getirildi. 3 Haziran 1557'de Şehzade Selim'e lala (mürebbi) tayin edildi ve 1559'da Selim ile kardeşi Bayezid arasındaki taht mücadelesinde etkili bir rol oynadı. 1562'de Erzurum, 6 Kasım 1563'te Halep ve Şam valiliklerine getirildi; 1567-68'de Yemen'deki isyanı bastırmakla görevlendirildi. Sokollu Mehmed Paşa'nın muhalefetine rağmen Kıbrıs seferinin serdarlığına tayin edildi. Ordusu 9 Eylül 1570'te Lefkoşe Kalesi'ni ele geçirdi; adanın fethi 1 Ağustos 1571'de Mağusa'nın teslim alınmasıyla tamamlandı. 1577-78'de İran seferinde Koca Sinan Paşa ile rekabeti şiddetlendi; 5 Nisan 1578'de Şirvan seferi için Üsküdar'a geçti, 9 Ağustos 1578'de Çıldır'da Safevî kuvvetlerini yendi ve 23 Ağustos 1579'da Kars Kalesi'nin inşasını tamamlattırdı. Ocak 1580'de serdarlık görevinden azledildi ve 7 Ağustos 1580'de yetmiş yaşında vefat etti." },
-{ id:"biyikli-mehmed-pasa", tur:"vezir-pasa", ad:"Bıyıklı Mehmed Paşa",          donem:"16. yy", not:"Doğu Anadolu'nun katılmasını yöneten ilk Diyarbekir beylerbeyi" },
+{ id:"lala-mustafa-pasa", tur:"vezir-pasa", ad:"Lala Mustafa Paşa", t:"1580",            donem:"16. yy", not:"TDV İslâm Ansiklopedisi'ndeki maddesine göre Lala Mustafa Paşa, saray hizmetinde yükselerek 1544'te çaşnigirlik görevine getirildi. 3 Haziran 1557'de Şehzade Selim'e lala (mürebbi) tayin edildi ve 1559'da Selim ile kardeşi Bayezid arasındaki taht mücadelesinde etkili bir rol oynadı. 1562'de Erzurum, 6 Kasım 1563'te Halep ve Şam valiliklerine getirildi; 1567-68'de Yemen'deki isyanı bastırmakla görevlendirildi. Sokollu Mehmed Paşa'nın muhalefetine rağmen Kıbrıs seferinin serdarlığına tayin edildi. Ordusu 9 Eylül 1570'te Lefkoşe Kalesi'ni ele geçirdi; adanın fethi 1 Ağustos 1571'de Mağusa'nın teslim alınmasıyla tamamlandı. 1577-78'de İran seferinde Koca Sinan Paşa ile rekabeti şiddetlendi; 5 Nisan 1578'de Şirvan seferi için Üsküdar'a geçti, 9 Ağustos 1578'de Çıldır'da Safevî kuvvetlerini yendi ve 23 Ağustos 1579'da Kars Kalesi'nin inşasını tamamlattırdı. Ocak 1580'de serdarlık görevinden azledildi ve 7 Ağustos 1580'de yetmiş yaşında vefat etti.",
+    kaynak:"TDV: lala-mustafa-pasa" },
+{ id:"biyikli-mehmed-pasa", tur:"vezir-pasa", ad:"Bıyıklı Mehmed Paşa", t:"1521",          donem:"16. yy", not:"Doğu Anadolu'nun katılmasını yöneten ilk Diyarbekir beylerbeyi",
+    kaynak:"TDV: biyikli-mehmed-pasa" },
 { id:"sinan-pasa", tur:"vezir-pasa", ad:"Sinan Paşa (Koca)",            donem:"16. yy", not:"Koca Sinan Paşa (15. yüzyılın âlim-veziri Sinan Paşa ile karıştırılmamalıdır). Doğumu belirsiz, yaklaşık 1520 civarı tahmin edilir (ikinci sadrazamlığında 'yetmiş yaşında' olduğu kaydına dayanarak); 1596'da öldü. Mısır, Suriye ve Erzurum beylerbeyiliklerinden geçerek yükseldi; III. Murad ve III. Mehmed devirlerinde BEŞ KEZ sadrazam oldu — sık sık görevden alınıp yeniden atanan, döneminin en tecrübeli devlet adamlarından biriydi. İspanyolların elindeki Tunus'u geri almak üzere komutan tayin edildi; Osmanlı donanması otuz üç günlük kuşatma sonunda Halkulvâdî'yi alıp Tunus'a yeniden hâkim oldu (1574) — bu başarısıyla 'Tunus fâtihi' unvanını kazanıp dördüncü vezirliğe yükseldi.", kaynak:"TDV: koca-sinan-pasa (DİKKAT: 'sinan-pasa' slug'ı BAŞKA bir kişiye — 15. yy âlim-vezir, ö. 1486 — ait; kisiler.js kaydının id'i 'sinan-pasa' olsa da TDV eşlemesi koca-sinan-pasa olmalı)" },
-{ id:"tiryaki-hasan-pasa", tur:"vezir-pasa", ad:"Tiryâki Hasan Paşa",           donem:"17. yy", not:"Kanije savunmasının kahramanı" },
-{ id:"kemankes-kara-mustafa-pasa", tur:"vezir-pasa", ad:"Kemankeş Kara Mustafa Paşa",   donem:"17. yy", not:"Kasr-ı Şirin barışının yapıcısı" },
+{ id:"tiryaki-hasan-pasa", tur:"vezir-pasa", ad:"Tiryâki Hasan Paşa", t:"1608",           donem:"17. yy", not:"Kanije savunmasının kahramanı",
+    kaynak:"TDV: tiryaki-hasan-pasa" },
+{ id:"kemankes-kara-mustafa-pasa", tur:"sadrazam", ad:"Kemankeş Kara Mustafa Paşa", t:"1644",   donem:"17. yy", not:"Kasr-ı Şirin barışının yapıcısı",
+    ic_not_tur:"eski: tur:\"vezir-pasa\" — TDV maddesi onu \"Osmanlı sadrazamı\" diye tanımlar (vezîriâzamlığı 1638-1644)",
+    kaynak:"TDV: kemankes-mustafa-pasa" },
 // --- Komutanlar ---
 { id:"suleyman-pasa", tur:"komutan", ad:"Süleyman Paşa (Orhan oğlu)",      donem:"14. yy", not:"Orhan Bey'in büyük oğlu; yaklaşık 1310-1316'da doğdu, sonbahar 1357'de öldü. Babasının kumandanlığında yetişti; 1348'de Bizans imparatoru Kantakuzenos'a yardım için 10.000 süvariyle Rumeli'ye geçti. 1352-1354 arasında tekrarlanan seferlerle Rumeli'de kalıcı Osmanlı varlığının temelini attı. Mart 1354'teki büyük deprem Gelibolu surlarını yıkınca hemen Gelibolu yakasına geçip şehre hâkim oldu ve Anadolu'dan Türkmen nüfusu yerleştirdi. Tekirdağ, Keşan ve Edirne yönünde ilerleyerek Rumeli fethinin öncüsü oldu; Bizans kaynaklarında Orhan Bey'in vârisi ve devletin fiilen bütün işlerinden sorumlu yöneticisi diye anılır. Bolayır-Seyitgazi arasında av sırasında atının bir çukura düşmesi sonucu öldüğü rivayet edilir (bazı kaynaklar savaşla ilişkilendirir, kesin değil).", kaynak:"TDV: suleyman-pasa" },
-{ id:"evrenos-bey", tur:"komutan", ad:"Evrenos Bey",                     donem:"14.-15. yy", not:"Rumeli uç beyi; Teselya fetihleri" },
-{ id:"pasa-yigit-bey", tur:"komutan", ad:"Paşa Yiğit Bey",                  donem:"14.-15. yy", not:"Üsküp'ün fatihi" },
-{ id:"turahanoglu-omer-bey", tur:"komutan", ad:"Turahanoğlu Ömer Bey",            donem:"15. yy", not:"Atina'nın fatihi" },
-{ id:"gazi-osman-pasa", tur:"komutan", ad:"Gazi Osman Paşa",                 f:"1832", t:"1900", donem:"1832–1900", not:"Plevne savunması" },
-{ id:"gazi-ahmed-muhtar-pasa", tur:"komutan", ad:"Gazi Ahmed Muhtar Paşa",          f:"1839", t:"1919", donem:"1839–1919", not:"93 Harbi Kafkas cephesi" },
-{ id:"edhem-pasa", tur:"komutan", ad:"Edhem Paşa",                      donem:"19. yy", not:"1897 Dömeke zaferi" },
-{ id:"halil-pasa", tur:"komutan", ad:"Halil Paşa (Kut)",                f:"1882", t:"1957", donem:"1882–1957", not:"Kûtülamâre zaferi" },
-{ id:"fahreddin-pasa", tur:"komutan", ad:"Fahreddin Paşa (Çöl Kaplanı)",    f:"1868", t:"1948", donem:"1868–1948", not:"Medine müdafaası" },
-{ id:"kazim-karabekir-pasa", tur:"komutan", ad:"Kâzım Karabekir Paşa",            f:"1882", t:"1948", donem:"1882–1948", not:"Doğu cephesi; Kars Antlaşması" },
-{ id:"fevzi-pasa", tur:"komutan", ad:"Fevzi Paşa (Çakmak)",             f:"1876", t:"1950", donem:"1876–1950", not:"Millî Mücadele Genelkurmay Başkanı" },
-{ id:"ismet-pasa", tur:"komutan", ad:"İsmet Paşa (İnönü)",              f:"1884", t:"1973", donem:"1884–1973", not:"Batı cephesi komutanı; Lozan başmurahhası" },
-{ id:"enver-pasa", tur:"komutan", ad:"Enver Paşa",                      f:"1881", t:"1922", donem:"1881–1922", not:"Harbiye nâzırı; Edirne'nin geri alınışı" },
-{ id:"mustafa-kemal-pasa", tur:"komutan", ad:"Mustafa Kemal Paşa (Atatürk)",    f:"1881", t:"1938", donem:"1881–1938", not:"Çanakkale, Millî Mücadele önderi, ilk cumhurbaşkanı" },
+{ id:"evrenos-bey", tur:"komutan", ad:"Evrenos Bey", t:"1417",                     donem:"14.-15. yy", not:"Rumeli uç beyi; Teselya fetihleri",
+    kaynak:"TDV: evrenosogullari (müstakil madde yok — `gazi-evrenos-bey` yalnız gönderme; ölüm 820/1417 kaynakta var, doğum yılı kaynakta yok)" },
+{ id:"pasa-yigit-bey", tur:"komutan", ad:"Paşa Yiğit Bey",                  donem:"14.-15. yy", not:"Üsküp'ün fatihi",
+    kaynak:"TDV: uskup (müstakil madde yok; doğum ve ölüm yılı kaynakta yok)" },
+{ id:"turahanoglu-omer-bey", tur:"komutan", ad:"Turahanoğlu Ömer Bey",            donem:"15. yy", not:"Atina'nın fatihi",
+    kaynak:"TDV: turahan-bey (müstakil madde yok; doğum ve ölüm yılı kaynakta yok)" },
+{ id:"gazi-osman-pasa", tur:"komutan", ad:"Gazi Osman Paşa",                 f:"1833", t:"1900", donem:"1833–1900", not:"Plevne savunması",
+    ic_not_f:"eski: f:\"1832\" (donem 1832–1900) — TDV maddesi \"GAZİ OSMAN PAŞA (1833-1900)\" der; §4 gereği TDV esas alındı",
+    kaynak:"TDV: gazi-osman-pasa" },
+{ id:"gazi-ahmed-muhtar-pasa", tur:"komutan", ad:"Gazi Ahmed Muhtar Paşa",          f:"1839", t:"1919", donem:"1839–1919", not:"93 Harbi Kafkas cephesi",
+    kaynak:"TDV: gazi-ahmed-muhtar-pasa" },
+{ id:"edhem-pasa", tur:"komutan", ad:"Edhem Paşa",                      donem:"19. yy", not:"1897 Dömeke zaferi",
+    kaynak:"TDV: gazi-edhem-pasa (`edhem-pasa-ibrahim` aynı adlı BAŞKA kişidir — sadrazam)" },
+{ id:"halil-pasa", tur:"komutan", ad:"Halil Paşa (Kut)",                f:"1882", t:"1957", donem:"1882–1957", not:"Kûtülamâre zaferi",
+    kaynak:"TDV: kutulamare (müstakil madde yok; doğum 1882 ve ölüm 1957 yılları kaynakta yok)" },
+{ id:"fahreddin-pasa", tur:"komutan", ad:"Fahreddin Paşa (Çöl Kaplanı)",    f:"1868", t:"1948", donem:"1868–1948", not:"Medine müdafaası",
+    kaynak:"TDV: fahreddin-pasa" },
+{ id:"kazim-karabekir-pasa", tur:"komutan", ad:"Kâzım Karabekir Paşa",            f:"1882", t:"1948", donem:"1882–1948", not:"Doğu cephesi; Kars Antlaşması",
+    kaynak:"TDV: kazim-karabekir" },
+{ id:"fevzi-pasa", tur:"komutan", ad:"Fevzi Paşa (Çakmak)",             f:"1876", t:"1950", donem:"1876–1950", not:"Millî Mücadele Genelkurmay Başkanı",
+    kaynak:"TDV: cakmak-fevzi" },
+{ id:"ismet-pasa", tur:"komutan", ad:"İsmet Paşa (İnönü)",              f:"1884", t:"1973", donem:"1884–1973", not:"Batı cephesi komutanı; Lozan başmurahhası",
+    kaynak:"TDV: inonu-mustafa-ismet" },
+{ id:"enver-pasa", tur:"komutan", ad:"Enver Paşa",                      f:"1881", t:"1922", donem:"1881–1922", not:"Harbiye nâzırı; Edirne'nin geri alınışı",
+    tartisma:"Doğum tarihi tartışmalıdır: TDV maddesine göre Türkçe ve Almanca otobiyografilerinde iki ayrı tarih verilir — 23 Kasım 1881 ve 6 Aralık 1882.",
+    kaynak:"TDV: enver-pasa",
+    ic_not_f:"öteki aday: 6 Aralık 1882 — TDV: otobiyografilerinde 23 Kasım 1881 ve 6 Aralık 1882 — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)" },
+{ id:"mustafa-kemal-pasa", tur:"komutan", ad:"Mustafa Kemal Paşa (Atatürk)",    f:"1881", t:"1938", donem:"1881–1938", not:"Çanakkale, Millî Mücadele önderi, ilk cumhurbaşkanı",
+    kaynak:"TDV: mustafa-kemal-ataturk" },
 // --- Denizciler ---
 { id:"kemal-reis", tur:"denizci", ad:"Kemal Reis", t:"1510", donem:"ö. 1510", not:"TDV İslâm Ansiklopedisi'ndeki maddesine göre Gelibolulu olan Kemal Reis, 874 (1470) yılında Vezîriâzam Mahmud Paşa kumandasındaki Eğriboz seferine bir azap neferi olarak katıldı; 879 (1475) tarihli Gelibolu Tahrir Defteri'nde kadırga reisi olarak kayıtlıdır. 892 (1487)'de İspanya'ya gönderilip Mâleka (Malaga) kıyılarını vurdu, 897 (1492)'de Balear Adaları ve Malta'ya baskınlar düzenledi. 901 (1495)'te İstanbul'a davet edilerek donanmada görevlendirildi; 903 (1498)'de Cenevizli kaptan Nicolas Centurione'yi yakalayıp beş gemi ve çok sayıda esirle döndü. 905 (1499)'da başlayan İnebahtı seferinde, 28 Temmuz 1499'da cereyan eden Sapienza deniz savaşında Venedik donanmasını mağlûp etti; bu zafer üzerine II. Bayezid kendisine 3000 akçe ve bir hil'at bağışladı, yevmiyesine de 5 akçe zam yaptı. 906 (1501)'de Anavarin'in yeniden fethinde rol aldı ve sekiz Venedik gemisini ele geçirdi. 1507'de Kahire'ye elçi olarak gönderilip Memlük sultanına elli top ve ustalarını teslim etti. Yeğeni Pîrî Reis'in denizcilik tecrübesini ve Kitâb-ı Bahriyye adlı eserini şekillendiren isimlerden biri olan Kemal Reis, 916 (Receb 1510/Ekim 1510)'da Mısır'a yardım götüren filonun kumandanı olarak yol alırken fırtınaya yakalandı; gemisinin batmasıyla hayatını kaybetti.",
     dogum_yer:"Gelibolu (bazı kayıtlarda Karaburun)",
@@ -13665,19 +13720,38 @@ window.KISILER = [
     + "(Turgut Reis, Piyale Paşa) sayesinde ölümünden sonra da "
     + "sürdüğünü, kurumsal bir mirasa işaret ederek vurgular.",
     kaynak:"TDV: barbaros-hayreddin-pasa" },
-{ id:"turgut-reis", tur:"denizci", ad:"Turgut Reis",                     f:"1485", t:"1565", donem:"1485–1565", not:"TDV İslâm Ansiklopedisi'ne göre Turgut Reis, yaklaşık 1487'de Menteşe sancağına bağlı Seravalos köyünde doğdu ve genç yaşta denizciliğe atılarak levent reisliğine kadar yükseldi. 1538'de Preveze Deniz Savaşı'na gönüllü kaptan olarak katıldı. 1540'ta Malta yakınlarındaki Gozo'ya düzenlediği akın sırasında Giannettino Doria tarafından on üç gemisiyle birlikte esir alındı; 1543'te Barbaros Hayreddin Paşa'nın araya girmesiyle serbest bırakıldı. 30 Temmuz 1547'de \"Akdeniz Leventleri Kaptanı\" tayin edildi. 24 Mayıs 1550'de Mehdiye kendisine sancak olarak verildiyse de aynı yıl İspanyollara kaptırıldı. 15 Ağustos 1551'de Trablusgarp'ı Malta Şövalyeleri'nden fethetti ve 22 Eylül 1551'de Karlıili sancak beyliğine getirildi; Mart 1556'da Trablusgarp beylerbeyi oldu. 1553'te Fransızlarla ortak harekâtta Korsika'nın merkezi Bastia'yı ele geçirdi (17 Ağustos 1553); 16 Mayıs-30 Temmuz 1560'ta Cerbe kuşatmasına katıldı. Malta kuşatması sırasında 18 Haziran 1565'te aldığı yara sonucu 23 Haziran 1565'te vefat etti; Trablusgarp'ta yaptırdığı cami ve hamamdan oluşan külliyenin yanındaki türbesine defnedildi." },
-{ id:"kilic-ali-pasa", tur:"denizci", ad:"Kılıç Ali Paşa (Uluç)",           f:"1500", t:"1587", donem:"1500–1587", not:"İnebahtı'dan filoyu kurtaran, Tunus'u geri alan kaptan-ı deryâ" },
-{ id:"muezzinzade-ali-pasa", tur:"denizci", ad:"Müezzinzâde Ali Paşa",            t:"1571", donem:"ö. 1571", not:"İnebahtı'da şehit düşen kaptan-ı deryâ" },
+{ id:"turgut-reis", tur:"denizci", ad:"Turgut Reis",                     f:"1487", t:"1565", donem:"1487–1565", not:"TDV İslâm Ansiklopedisi'ne göre Turgut Reis, yaklaşık 1487'de Menteşe sancağına bağlı Seravalos köyünde doğdu ve genç yaşta denizciliğe atılarak levent reisliğine kadar yükseldi. 1538'de Preveze Deniz Savaşı'na gönüllü kaptan olarak katıldı. 1540'ta Malta yakınlarındaki Gozo'ya düzenlediği akın sırasında Giannettino Doria tarafından on üç gemisiyle birlikte esir alındı; 1543'te Barbaros Hayreddin Paşa'nın araya girmesiyle serbest bırakıldı. 30 Temmuz 1547'de \"Akdeniz Leventleri Kaptanı\" tayin edildi. 24 Mayıs 1550'de Mehdiye kendisine sancak olarak verildiyse de aynı yıl İspanyollara kaptırıldı. 15 Ağustos 1551'de Trablusgarp'ı Malta Şövalyeleri'nden fethetti ve 22 Eylül 1551'de Karlıili sancak beyliğine getirildi; Mart 1556'da Trablusgarp beylerbeyi oldu. 1553'te Fransızlarla ortak harekâtta Korsika'nın merkezi Bastia'yı ele geçirdi (17 Ağustos 1553); 16 Mayıs-30 Temmuz 1560'ta Cerbe kuşatmasına katıldı. Malta kuşatması sırasında 18 Haziran 1565'te aldığı yara sonucu 23 Haziran 1565'te vefat etti; Trablusgarp'ta yaptırdığı cami ve hamamdan oluşan külliyenin yanındaki türbesine defnedildi.",
+    ic_not_f:"eski: f:\"1485\" (donem 1485–1565) — TDV \"tahminen 1487 yılında doğdu\" der; kaydın kendi notu da 1487 diyordu. §4 gereği TDV esas alındı",
+    kaynak:"TDV: turgut-reis" },
+{ id:"kilic-ali-pasa", tur:"denizci", ad:"Kılıç Ali Paşa (Uluç)", t:"1587", donem:"1500'lü yılların başı (muhtemel) – 1587", not:"İnebahtı'dan filoyu kurtaran, Tunus'u geri alan kaptan-ı deryâ",
+    ic_not_f:"eski: f:\"1500\" (donem 1500–1587) — sahte kesinlik: TDV yalnız \"doksan yaşları civarında vefat ettiğine göre 1500'lü yılların başlarında doğmuş olması muhtemeldir\" der; yıl bilinmiyor, alan boşaltıldı (D210)",
+    kaynak:"TDV: kilic-ali-pasa" },
+{ id:"muezzinzade-ali-pasa", tur:"denizci", ad:"Müezzinzâde Ali Paşa",            t:"1571", donem:"ö. 1571", not:"İnebahtı'da şehit düşen kaptan-ı deryâ",
+    kaynak:"TDV: inebahti-deniz-savasi (müstakil madde yok; ölümü İnebahtı'da 1571 kaynakta var, doğum yılı kaynakta yok)" },
 // --- Âlimler ve mutasavvıflar ---
-{ id:"seyh-edebali", tur:"alim", ad:"Şeyh Edebâli",                       t:"1326", donem:"ö. 1326", not:"Kuruluş devrinin manevi önderi" },
-{ id:"davud-i-kayseri", tur:"alim", ad:"Dâvûd-i Kayserî",                    t:"1350", donem:"ö. 1350", not:"İlk Osmanlı medresesinin başmüderrisi" },
-{ id:"seyh-bedreddin", tur:"alim", ad:"Şeyh Bedreddin",                     f:"1359", t:"1416", donem:"1359–1416", not:"Simavna Kadısı Oğlu Şeyh Bedreddin Mahmud, kaynaklarda doğum yılı tartışmalıdır — hicrî 740-770 (m. 1339-1368) arasında değişen tarihler zikredilir; torununun kaydına göre 760 (1359) yılında doğmuştur. Osmanlıların Edirne'yi fethinin (1362) ardından kadı olan babasıyla birlikte ailesi bu şehre yerleşti. Bedreddin, Arapça fıkıh eseri Câmiu'l-Fusûleyn ile tasavvufa dair Vâridât adlı eserlerin müellifi olarak tanınan bir Osmanlı fakih ve mutasavvıfıdır; aynı zamanda önemli bir isyan ve kalkışma hareketinin başlatıcısı olarak bilinir. 1413'te İznik'te ikamete mecbur tutulan Bedreddin, burada görünüşte dinî-tasavvufî, gerçekte ise siyasî bir teşkilatlanmaya girişti. Rivayete göre 1416 civarında İznik'ten kaçarak önce Kastamonu'ya, ardından Rumeli'ye geçti ve propagandasını buradaki bölgelere yayarak çok sayıda taraftar topladı. Bu faaliyet, müridleri Börklüce Mustafa ve Torlak Kemal'in önderliğinde patlak veren isyan hareketlerini tetikledi. Osmanlı kuvvetlerince yakalanan Bedreddin hakkında toplanan bir ulemâ heyeti, faaliyet ve görüşlerinin şeriata aykırı olduğuna ve isyan teşkil ettiğine, bu sebeple idamının gerektiğine karar verdi. Şeyh Bedreddin 823 (1420) yılında Serez'de idam edildi." },
-{ id:"idris-i-bitlisi", tur:"alim", ad:"İdrîs-i Bitlisî",                    t:"1520", donem:"ö. 1520", not:"Doğu Anadolu'nun Osmanlı'ya bağlanmasının mimarı" },
-{ id:"hoca-sadeddin-efendi", tur:"alim", ad:"Hoca Sâdeddin Efendi",               f:"1536", t:"1599", donem:"1536–1599", not:"Haçova'da orduyu toparlayan hoca; tarihçi" },
+{ id:"seyh-edebali", tur:"alim", ad:"Şeyh Edebâli",                       t:"1326", donem:"ö. 1326", not:"Kuruluş devrinin manevi önderi",
+    kaynak:"TDV: edebali" },
+{ id:"davud-i-kayseri", tur:"alim", ad:"Dâvûd-i Kayserî",                    t:"1350", donem:"ö. 1350", not:"İlk Osmanlı medresesinin başmüderrisi",
+    tartisma:"Ölüm tarihi tartışmalıdır: TDV maddesine göre kaynakların çoğu 751 (1350) yılında İznik'te vefat ettiğini bildirir; bazı eserlerde 745 (1344) ve 1335 tarihleri de geçer.",
+    kaynak:"TDV: davud-i-kayseri",
+    ic_not_t:"öteki adaylar: 745 (1344) ve 1335 — TDV: kaynakların çoğu 751 (1350) — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)" },
+{ id:"seyh-bedreddin", tur:"alim", ad:"Şeyh Bedreddin",                     f:"1359", t:"1420", donem:"1359–1420", not:"Simavna Kadısı Oğlu Şeyh Bedreddin Mahmud, kaynaklarda doğum yılı tartışmalıdır — hicrî 740-770 (m. 1339-1368) arasında değişen tarihler zikredilir; torununun kaydına göre 760 (1359) yılında doğmuştur. Osmanlıların Edirne'yi fethinin (1362) ardından kadı olan babasıyla birlikte ailesi bu şehre yerleşti. Bedreddin, Arapça fıkıh eseri Câmiu'l-Fusûleyn ile tasavvufa dair Vâridât adlı eserlerin müellifi olarak tanınan bir Osmanlı fakih ve mutasavvıfıdır; aynı zamanda önemli bir isyan ve kalkışma hareketinin başlatıcısı olarak bilinir. 1413'te İznik'te ikamete mecbur tutulan Bedreddin, burada görünüşte dinî-tasavvufî, gerçekte ise siyasî bir teşkilatlanmaya girişti. Rivayete göre 1416 civarında İznik'ten kaçarak önce Kastamonu'ya, ardından Rumeli'ye geçti ve propagandasını buradaki bölgelere yayarak çok sayıda taraftar topladı. Bu faaliyet, müridleri Börklüce Mustafa ve Torlak Kemal'in önderliğinde patlak veren isyan hareketlerini tetikledi. Osmanlı kuvvetlerince yakalanan Bedreddin hakkında toplanan bir ulemâ heyeti, faaliyet ve görüşlerinin şeriata aykırı olduğuna ve isyan teşkil ettiğine, bu sebeple idamının gerektiğine karar verdi. Şeyh Bedreddin 823 (1420) yılında Serez'de idam edildi.",
+    tartisma:"Doğum tarihi tartışmalıdır: TDV maddesine göre 740 (1339) ile 770 (1368) arasında değişen çeşitli tarihler gösterilir; torununun menâkıbnâmesi 760 (1359) yılını kaydeder. Ölüm yılı için iki tarih anılır: TDV'ye göre 1416 Bedreddin'in İznik'ten kaçtığı, 823 (1420) ise Serez'de idam edildiği yıldır.",
+    ic_not_t:"eski: t:\"1416\" (donem 1359–1416) — TDV ölümü \"1420'de Serez'de idam edilerek\" diye verir; 1416 TDV'de \"muhtemelen 1416'da İznik'ten kaçmayı başardı\" cümlesindeki kaçış yılıdır. Kaydın kendi notu da 823 (1420) diyordu. §4 gereği TDV esas alındı",
+    kaynak:"TDV: bedreddin-simavi",
+    ic_not_f:"öteki adaylar: 740 (1339) ile 770 (1368) arası çeşitli tarihler — TDV; 760 (1359) torununun menâkıbnâmesindeki tarih — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)" },
+{ id:"idris-i-bitlisi", tur:"alim", ad:"İdrîs-i Bitlisî",                    t:"1520", donem:"ö. 1520", not:"Doğu Anadolu'nun Osmanlı'ya bağlanmasının mimarı",
+    kaynak:"TDV: idris-i-bitlisi" },
+{ id:"hoca-sadeddin-efendi", tur:"alim", ad:"Hoca Sâdeddin Efendi",               f:"1536", t:"1599", donem:"1536–1599", not:"Haçova'da orduyu toparlayan hoca; tarihçi",
+    kaynak:"TDV: hoca-sadeddin-efendi" },
 // --- Hanedan üyeleri ---
-{ id:"cem-sultan", tur:"hanedan", ad:"Cem Sultan",                      f:"1459", t:"1495", donem:"1459–1495", not:"II. Bayezid'in taht rakibi; Avrupa'da rehin şehzade" },
-{ id:"turhan-hatice-sultan", tur:"hanedan", ad:"Turhan Hatice Sultan",            f:"1627", t:"1683", donem:"1627–1683", not:"IV. Mehmed'in annesi; Köprülü'yü iktidara getiren vâlide" },
-{ id:"abdulmecid-efendi", tur:"hanedan", ad:"Abdülmecid Efendi",               f:"1868", t:"1944", donem:"1868–1944", not:"Son halife (1922–1924)" },
+{ id:"cem-sultan", tur:"hanedan", ad:"Cem Sultan",                      f:"1459", t:"1495", donem:"1459–1495", not:"II. Bayezid'in taht rakibi; Avrupa'da rehin şehzade",
+    kaynak:"TDV: cem-sultan" },
+{ id:"turhan-hatice-sultan", tur:"hanedan", ad:"Turhan Hatice Sultan",            f:"1627", t:"1683", donem:"1627–1683", not:"IV. Mehmed'in annesi; Köprülü'yü iktidara getiren vâlide",
+    tartisma:"Doğum yılı kesin değildir: TDV maddesi Rus asıllı olduğunu ve 1627'de doğduğunun \"söylendiğini\" belirtir; belgeyle teyit edilmiş bir tarih vermez.",
+    kaynak:"TDV: turhan-sultan" },
+{ id:"abdulmecid-efendi", tur:"hanedan", ad:"Abdülmecid Efendi",               f:"1868", t:"1944", donem:"1868–1944", not:"Son halife (1922–1924)",
+    kaynak:"TDV: abdulmecid-efendi" },
 // --- Yabancı hükümdarlar ---
 { id:"cuneyd-bey", tur:"yabanci-hukumdar", ad:"Aydınoğlu Cüneyd Bey", devlet:"aydin", t:"1426", donem:"ö. 829/1426", not:"Son Aydınoğlu beyi; Fetret devrinin taraf değiştiren aktörü, 1422'de Aydın-ili'ni geri aldı, 1426'da bütün soyuyla birlikte ortadan kaldırıldı",
     baba:"Fâtih İbrâhim Bey (bazı araştırmacılara göre Bodemya Emîri Bahadır İbrâhim Bey ile aynı kişidir)",
@@ -13688,62 +13762,116 @@ window.KISILER = [
     tartisma:"Babasının kimliği tartışmalıdır: TDV maddesi Fâtih İbrâhim Bey'i verir ama bu zatın Bodemya Emîri Bahadır İbrâhim Bey ile aynı kişi olup olmadığı ihtilâflıdır.",
     tarihciler:"Fetret devrinde önce Emîr Süleyman'ın, sonra Düzmece Mustafa'nın yanında yer alması, tek bir hânedan taraftarlığından çok beyliğini diriltme hesabıyla açıklanır; Ayasuluk'u alıp Aydınoğlu Mustafa Bey'i öldürmesi ve Venedik'le temas araması II. Murad'ı harekete geçirdi. Anadolu Beylerbeyi Hamza Bey'in seferi, oğlu Kurd Hasan'ın Akhisar yakınlarında esir düşmesi ve Cenevizliler'in denizden ablukasıyla sonuçlandı.",
     kaynak:"TDV: cuneyd-bey" },
-{ id:"konstantinos11", tur:"yabanci-hukumdar", ad:"XI. Konstantinos", devlet:"bizans",       t:"1453", donem:"ö. 1453", not:"XI. Konstantinos Palaiologos, Şubat 1404'te Konstantinopolis'te doğdu; İmparator II. Manuel ile Sırp asıllı eşi, Makedonya'daki Dragaš hanedanından Helena'nın dördüncü oğluydu. Erken kariyerinde kardeşleri Theodoros ve Thomas ile birlikte Bizans'ın Mora (Peloponnesos) despotluğunu yönetti ve bölgenin Frenk hâkimiyetinden geri alınmasını tamamladı. 1449'da tahta çıkarak Bizans İmparatorluğu'nun son hükümdarı oldu. 1453'te Osmanlı Sultanı II. Mehmed'in ordusu Konstantinopolis'i kuşattı; yaklaşık iki ay süren kuşatma boyunca durumun umutsuzluğunun farkında olmasına rağmen Konstantinos teslim olmayı reddetti ve savunmaya bizzat katıldı. 29 Mayıs 1453 sabahı Osmanlı kuvvetleri surları aştığında, rivayete göre imparator kendisini fark ettirmemek için tacını ve imparatorluk alâmetlerini üzerinden çıkarıp kılıcını çekerek çarpışmanın en yoğun olduğu noktaya daldı ve esir düşmeyi reddederek can verdi — cesedi kesin olarak teşhis edilememiştir. Konstantinos'un ölümü, kökenini İmparator I. Konstantin'in Konstantinopolis'i 330 yılında başkent ilân etmesine dayandıran Doğu Roma İmparatorluğu'nun kesin sonu anlamına gelmiştir." },
+{ id:"konstantinos11", tur:"yabanci-hukumdar", ad:"XI. Konstantinos", devlet:"bizans",       t:"1453", donem:"ö. 1453", not:"XI. Konstantinos Palaiologos, Şubat 1404'te Konstantinopolis'te doğdu; İmparator II. Manuel ile Sırp asıllı eşi, Makedonya'daki Dragaš hanedanından Helena'nın dördüncü oğluydu. Erken kariyerinde kardeşleri Theodoros ve Thomas ile birlikte Bizans'ın Mora (Peloponnesos) despotluğunu yönetti ve bölgenin Frenk hâkimiyetinden geri alınmasını tamamladı. 1449'da tahta çıkarak Bizans İmparatorluğu'nun son hükümdarı oldu. 1453'te Osmanlı Sultanı II. Mehmed'in ordusu Konstantinopolis'i kuşattı; yaklaşık iki ay süren kuşatma boyunca durumun umutsuzluğunun farkında olmasına rağmen Konstantinos teslim olmayı reddetti ve savunmaya bizzat katıldı. 29 Mayıs 1453 sabahı Osmanlı kuvvetleri surları aştığında, rivayete göre imparator kendisini fark ettirmemek için tacını ve imparatorluk alâmetlerini üzerinden çıkarıp kılıcını çekerek çarpışmanın en yoğun olduğu noktaya daldı ve esir düşmeyi reddederek can verdi — cesedi kesin olarak teşhis edilememiştir. Konstantinos'un ölümü, kökenini İmparator I. Konstantin'in Konstantinopolis'i 330 yılında başkent ilân etmesine dayandıran Doğu Roma İmparatorluğu'nun kesin sonu anlamına gelmiştir.",
+    kaynak:"TDV: bizans (müstakil madde yok; ölüm yılı 1453 kaynakta cümleyle tarihlenmiyor — yalnız devletin bitişi)" },
 { id:"timur", tur:"yabanci-hukumdar", ad:"Timur", devlet:"timurlu",                  f:"1336", t:"1405", donem:"1336–1405", not:"8 Nisan 1336'da Keş'te (bugünkü Şehrisebz yakınları) doğdu, Çin seferine hazırlanırken 18 Şubat 1405'te Otrar'da öldü. On yıllık ittifak/mücadele döneminin ardından Çağatay kabileleri arasında güç topladı, 9 Nisan 1370'te Semerkant'ta tahta çıkarak Timurlu hanedanını kurdu. 1370-1404 arasındaki seferlerle Delhi'den Moskova'ya, Çin sınırından Akdeniz'e uzanan geniş ama kırılgan bir imparatorluk kurdu. 28 Temmuz 1402'de Ankara Savaşı'nda Osmanlı Sultanı I. Bayezid'i yenilgiye uğratıp Fetret Devri'ni başlattı. Semerkant'ı fethettiği ülkelerden getirdiği mimarlarla imar etti (Bibi Hanım Camii, Gûr-ı Emîr türbesi). Egemenlik anlayışını 'dünya iki hükümdara yetecek kadar büyük değildir, Allah bir olduğu gibi sultan da bir olmalıdır' sözüyle özetlediği rivayet edilir.", kaynak:"TDV: timur" },
-{ id:"uzun-hasan", tur:"yabanci-hukumdar", ad:"Uzun Hasan", devlet:"akkoyunlu",             f:"1423", t:"1478", donem:"1423–1478", not:"Uzun Hasan, Akkoyunlu Devleti'nin kurucusu Karayülük Osman Bey'in torunu, Ali Bey'in oğlu olarak hicrî 828 yılının Rebîülevvel veya Rebîülâhir ayında (Şubat-Mart 1425) doğdu; annesi Pîr Ali Bey'in kızı Saray Hatun'dur. 1452-1478 yılları arasında hüküm süren Uzun Hasan, çeşitli askerî ve siyasî faaliyetleriyle Akkoyunlu hanedanının en büyük şahsiyeti konumuna yükseldi. 1469'dan itibaren kendisine kâtiplik yapan ve mektup/antlaşma metinlerini kaleme alan Ebû Bekr-i Tihrânî'nin hâmîliğini üstlendi. Saltanatının dönüm noktası, Osmanlı Sultanı II. Mehmed'in üstün top ve tüfek gücüne sahip ordusu karşısında 16 Rebîülevvel 878 (11 Ağustos 1473) tarihinde yapılan Otlukbeli Savaşı'dır; bu savaşta Uzun Hasan ağır bir bozguna uğradı. Yenilgi, hükümdarın itibarını ve yenilmezlik konusundaki özgüvenini ciddi biçimde sarstı ve sonraki yıllarda fiilî idareden giderek uzaklaşmasına yol açtı. Uzun Hasan, Ramazan 882 (6 Ocak 1478) tarihinde vefat etti." },
-{ id:"ismail", tur:"yabanci-hukumdar", ad:"Şah İsmail", devlet:"safevi",             f:"1487", t:"1524", donem:"1487–1524", not:"17 Temmuz 1487'de Erdebil'de doğdu, 23 Mayıs 1524'te Tebriz'de öldü. Safevî tarikatının başına geçip 1501'de Safevî Devleti'ni kurdu ve ilk şahı oldu (1501-1524); Oniki İmam adına ezan okutarak Şiîliği resmî mezhep ilan etti ve İran'ı bu yönde dönüştürdü. 1510'da Özbek hükümdarı Şeybânî Han'ı yenilgiye uğrattı. 1514 Çaldıran'da Osmanlı Sultanı I. Selim karşısında ağır bir yenilgiye uğradı; TDV'nin ifadesiyle 'Çaldıran mağlûbiyeti Şah İsmail'in yenilmezliği inancına büyük darbe vurdu.' Çağdaşları ve hayranları onu 'sâhib-i seyf ü kalem' (kılıç ve kalem sahibi) diye nitelendirmiştir.", kaynak:"TDV: sah-ismail (aranan slug 'ismail-i' HTTP 200 ama boş 'bk.' yönlendirme stub'ı — gerçek madde bu adreste)" },
-{ id:"kansu-gavri", tur:"yabanci-hukumdar", ad:"Kansu Gavri", devlet:"memluk",            t:"1516", donem:"ö. 1516", not:"Asıl adı Cündeb olan, Seyfeddin ve Kansu lakaplarıyla anılan Kansu Gavri, yaklaşık 78 yaşında öldüğüne göre 844 (1440-41) civarında doğmuş olmalıdır. Tomanbay'a karşı olan emîrler yaşlılığından ve zayıflığından yararlanmayı umarak onu sultan seçtiler; 1 Şevval 906'da (20 Nisan 1501) Abbâsî Halifesi Müstemsik-Billâh ve devlet ileri gelenlerinin biatiyle el-Melikü'l-Eşref unvanını aldı. Saltanatı boyunca Portekizlilere karşı Selman Reis kumandasında donanma gönderdi; Kahire'de camiler, medreseler ve su tesisleri inşa ettirdi, vergi artışlarıyla halkın tepkisini çekti. 922'de (1516) Yavuz Sultan Selim'e karşı Suriye'ye sefere çıkarken Tomanbay'ı Kahire'de kaymakam bıraktı. 10 Cemâziyelâhir 922'de (11 Temmuz 1516) Halep'ten Mercidâbık'a hareket eden Gavri, Osmanlı ordusu karşısında ağır bir yenilgiye uğradı; bir rivayete göre kaçarken atından düşerek öldü ve savaş meydanında ölen ilk Memlük sultanı oldu." },
-{ id:"tahmasb", tur:"yabanci-hukumdar", ad:"Şah Tahmasb", devlet:"safevi",            f:"1514", t:"1576", donem:"1514–1576", not:"Amasya barışının tarafı" },
-{ id:"layos2", tur:"yabanci-hukumdar", ad:"Kral II. Layoş", devlet:"macaristan",         f:"1506", t:"1526", donem:"1506–1526", not:"Mohaç'ta ölen Macar kralı" },
-{ id:"janos-zapolya", tur:"yabanci-hukumdar", ad:"János Zápolya",          f:"1487", t:"1540", donem:"1487–1540", not:"Osmanlı himayesindeki Macar kralı" },
-{ id:"jan-sobieski", tur:"yabanci-hukumdar", ad:"Jan Sobieski", devlet:"lehistan",           f:"1629", t:"1696", donem:"1629–1696", not:"Jan (III.) Sobieski, 17 Ağustos 1629'da Olesko'da doğdu; Jagiellon Üniversitesi'nde eğitim gördü ve gençliğinde Avrupa'yı gezdi. 1673'te Hotin'de Osmanlılara karşı kazandığı zaferin ardından itibarı arttı ve 1674'te Leh-Litvanya seçimli krallığına getirildi (1674-1696). 1683'te Osmanlı ordusu Merzifonlu Kara Mustafa Paşa komutasında Viyana'yı kuşattığında, 31 Mart 1683'te Lehistan ile Avusturya arasında yapılan ittifak gereği Sobieski'nin doğrudan komutasında bir Leh kuvveti gönderilmesi kararlaştırıldı. TDV İslâm Ansiklopedisi'nin Merzifonlu Kara Mustafa Paşa maddesine göre, Jan Sobieski kumandasındaki müttefik kuvvetler Kahlenberg (Alman) dağını işgal ederek Osmanlı ordusunun arkasına geçti; 12 Eylül 1683'teki bu müttefik saldırısı Osmanlı kuşatmasının çözülmesinde belirleyici oldu ve Osmanlıların Orta Avrupa'dan geri çekilişinin başlangıcı sayıldı. Bozgunun sorumlusu tutulan Kara Mustafa Paşa, 25 Aralık 1683'te (6 Muharrem 1095) idam edildi. Sobieski, 17 Haziran 1696'da Wilanów'da öldü." },
+{ id:"uzun-hasan", tur:"yabanci-hukumdar", ad:"Uzun Hasan", devlet:"akkoyunlu",             f:"1425", t:"1478", donem:"1425–1478", not:"Uzun Hasan, Akkoyunlu Devleti'nin kurucusu Karayülük Osman Bey'in torunu, Ali Bey'in oğlu olarak hicrî 828 yılının Rebîülevvel veya Rebîülâhir ayında (Şubat-Mart 1425) doğdu; annesi Pîr Ali Bey'in kızı Saray Hatun'dur. 1452-1478 yılları arasında hüküm süren Uzun Hasan, çeşitli askerî ve siyasî faaliyetleriyle Akkoyunlu hanedanının en büyük şahsiyeti konumuna yükseldi. 1469'dan itibaren kendisine kâtiplik yapan ve mektup/antlaşma metinlerini kaleme alan Ebû Bekr-i Tihrânî'nin hâmîliğini üstlendi. Saltanatının dönüm noktası, Osmanlı Sultanı II. Mehmed'in üstün top ve tüfek gücüne sahip ordusu karşısında 16 Rebîülevvel 878 (11 Ağustos 1473) tarihinde yapılan Otlukbeli Savaşı'dır; bu savaşta Uzun Hasan ağır bir bozguna uğradı. Yenilgi, hükümdarın itibarını ve yenilmezlik konusundaki özgüvenini ciddi biçimde sarstı ve sonraki yıllarda fiilî idareden giderek uzaklaşmasına yol açtı. Uzun Hasan, Ramazan 882 (6 Ocak 1478) tarihinde vefat etti.",
+    ic_not_f:"eski: f:\"1423\" (donem 1423–1478) — TDV \"828 Rebîülevvel veya Rebîülâhirinde (Şubat-Mart 1425) doğdu\" der; kaydın kendi notu da hicrî 828 diyordu. §4 gereği TDV esas alındı",
+    kaynak:"TDV: uzun-hasan" },
+{ id:"ismail", tur:"yabanci-hukumdar", ad:"Şah İsmail", devlet:"safevi",             f:"1487", t:"1524", donem:"1487–1524", not:"17 Temmuz 1487'de Erdebil'de doğdu, 23 Mayıs 1524'te Tebriz'de öldü. Safevî tarikatının başına geçip 1501'de Safevî Devleti'ni kurdu ve ilk şahı oldu (1501-1524); Oniki İmam adına ezan okutarak Şiîliği resmî mezhep ilan etti ve İran'ı bu yönde dönüştürdü. 1510'da Özbek hükümdarı Şeybânî Han'ı yenilgiye uğrattı. 1514 Çaldıran'da Osmanlı Sultanı I. Selim karşısında ağır bir yenilgiye uğradı; TDV'nin ifadesiyle 'Çaldıran mağlûbiyeti Şah İsmail'in yenilmezliği inancına büyük darbe vurdu.' Çağdaşları ve hayranları onu 'sâhib-i seyf ü kalem' (kılıç ve kalem sahibi) diye nitelendirmiştir.", kaynak:"TDV: sah-ismail (aranan slug 'ismail-i' HTTP 200 ama boş 'bk.' yönlendirme stub'ı — gerçek madde bu adreste) · [TDV: safeviler]" },
+{ id:"kansu-gavri", tur:"yabanci-hukumdar", ad:"Kansu Gavri", devlet:"memluk",            t:"1516", donem:"ö. 1516", not:"Asıl adı Cündeb olan, Seyfeddin ve Kansu lakaplarıyla anılan Kansu Gavri, yaklaşık 78 yaşında öldüğüne göre 844 (1440-41) civarında doğmuş olmalıdır. Tomanbay'a karşı olan emîrler yaşlılığından ve zayıflığından yararlanmayı umarak onu sultan seçtiler; 1 Şevval 906'da (20 Nisan 1501) Abbâsî Halifesi Müstemsik-Billâh ve devlet ileri gelenlerinin biatiyle el-Melikü'l-Eşref unvanını aldı. Saltanatı boyunca Portekizlilere karşı Selman Reis kumandasında donanma gönderdi; Kahire'de camiler, medreseler ve su tesisleri inşa ettirdi, vergi artışlarıyla halkın tepkisini çekti. 922'de (1516) Yavuz Sultan Selim'e karşı Suriye'ye sefere çıkarken Tomanbay'ı Kahire'de kaymakam bıraktı. 10 Cemâziyelâhir 922'de (11 Temmuz 1516) Halep'ten Mercidâbık'a hareket eden Gavri, Osmanlı ordusu karşısında ağır bir yenilgiye uğradı; bir rivayete göre kaçarken atından düşerek öldü ve savaş meydanında ölen ilk Memlük sultanı oldu.",
+    kaynak:"TDV: kansu-gavri" },
+{ id:"tahmasb", tur:"yabanci-hukumdar", ad:"Şah Tahmasb", devlet:"safevi",            f:"1514", t:"1576", donem:"1514–1576", not:"Amasya barışının tarafı",
+    kaynak:"TDV: tahmasb" },
+{ id:"layos2", tur:"yabanci-hukumdar", ad:"Kral II. Layoş", devlet:"macaristan",         f:"1506", t:"1526", donem:"1506–1526", not:"Mohaç'ta ölen Macar kralı",
+    kaynak:"TDV: mohac-muharebesi (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"janos-zapolya", tur:"yabanci-hukumdar", ad:"János Zápolya",          f:"1487", t:"1540", donem:"1487–1540", not:"Osmanlı himayesindeki Macar kralı",
+    kaynak:"TDV: budin (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"jan-sobieski", tur:"yabanci-hukumdar", ad:"Jan Sobieski", devlet:"lehistan",           f:"1629", t:"1696", donem:"1629–1696", not:"Jan (III.) Sobieski, 17 Ağustos 1629'da Olesko'da doğdu; Jagiellon Üniversitesi'nde eğitim gördü ve gençliğinde Avrupa'yı gezdi. 1673'te Hotin'de Osmanlılara karşı kazandığı zaferin ardından itibarı arttı ve 1674'te Leh-Litvanya seçimli krallığına getirildi (1674-1696). 1683'te Osmanlı ordusu Merzifonlu Kara Mustafa Paşa komutasında Viyana'yı kuşattığında, 31 Mart 1683'te Lehistan ile Avusturya arasında yapılan ittifak gereği Sobieski'nin doğrudan komutasında bir Leh kuvveti gönderilmesi kararlaştırıldı. TDV İslâm Ansiklopedisi'nin Merzifonlu Kara Mustafa Paşa maddesine göre, Jan Sobieski kumandasındaki müttefik kuvvetler Kahlenberg (Alman) dağını işgal ederek Osmanlı ordusunun arkasına geçti; 12 Eylül 1683'teki bu müttefik saldırısı Osmanlı kuşatmasının çözülmesinde belirleyici oldu ve Osmanlıların Orta Avrupa'dan geri çekilişinin başlangıcı sayıldı. Bozgunun sorumlusu tutulan Kara Mustafa Paşa, 25 Aralık 1683'te (6 Muharrem 1095) idam edildi. Sobieski, 17 Haziran 1696'da Wilanów'da öldü.",
+    kaynak:"TDV: polonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 { id:"petro1", tur:"yabanci-hukumdar", ad:"Çar I. Petro", devlet:"rusya",           f:"1672", t:"1725", donem:"1672–1725", not:"9 Haziran 1672'de Moskova'da doğdu, 8 Şubat 1725'te St. Petersburg'da öldü. Üvey ağabeyi İvan V ile birlikte naiplik döneminden (1682-1696) sonra 1696'da tek başına çar oldu, 1721'de imparator (imperator) ilan edildi. Çağdaş Osmanlı tarih yazımında 'Deli' veya 'Koca' sıfatlarıyla, genelde ise 'Büyük' lakabıyla anılır — bu, yalnız Türkçe halk ağzı değil, TDV'nin doğruladığı bir dönem terminolojisidir. 1697-98'de kimliğini 'Pyotr Mihaylov' adıyla gizleyerek katıldığı 'Büyük Elçilik' seyahatiyle Batı Avrupa'yı (özellikle Hollanda ve İngiltere'yi) gezip gemi yapımı ve zanaatları bizzat öğrendi; dönüşünde ordu ve donanmayı Avrupa modeline göre yeniden kurdu. 27 Mayıs 1703'te, Büyük Kuzey Savaşı'nda İsveç'ten aldığı Baltık kıyısı topraklarında, Neva Nehri ağzındaki bataklık bir adada St. Petersburg'u kurdu — amacı 'Avrupa'ya açılan bir pencere' inşa etmekti, inşaata bizzat katıldı. 27 Haziran/8 Temmuz 1709'da Poltava Muharebesi'nde İsveç Kralı XII. Karl'ın çok daha küçük ordusunu kesin biçimde yendi; bu zafer İsveç'in büyük güç statüsünü sona erdirip Rusya'nın Doğu Avrupa'daki üstünlüğünün başlangıcı oldu. Ama iki yıl sonra, 1711'de Prut Nehri kıyısında Osmanlı ordusunca bizzat kuşatıldı — kariyerinin tek büyük askerî felaketiydi; Baltacı Mehmed Paşa'nın imha etmek yerine barış yapmayı tercih etmesiyle ordusuyla birlikte kurtuldu, karşılığında Azak Kalesi'ni ve yeni inşa ettiği kaleleri (Taganrog dahil) Osmanlı'ya geri verdi. Rusya-Batı uçurumunu tam kapatamadıysa da ekonomi, eğitim, bilim-kültür ve dış politikada büyük ilerleme sağladı; ölümünde Rusya, rızası alınmadan Avrupa'da önemli bir meselenin çözülemeyeceği bir büyük güç hâline gelmişti.", kaynak:"TDV: rusya (müstakil 'petro-i' maddesi YOK, 302 ölü — kapsayıcı 'rusya' maddesi 'Deli Petro' lakabını doğruladı) · Encyclopaedia Britannica, \"Peter I\" (doğum/ölüm/Büyük Elçilik/Poltava/Prut/St. Petersburg ayrıntıları için, TDV'nin kapsamadığı taneciklik)" },
-{ id:"katerina2", tur:"yabanci-hukumdar", ad:"II. Katerina", devlet:"rusya",           f:"1729", t:"1796", donem:"1729–1796", not:"II. Katerina, 21 Nisan 1729'da Stettin'de (bugünkü Szczecin) Anhalt-Zerbst Prensi Christian August'un kızı olarak doğdu. 1745'te Rus Ortodoks Kilisesi'ne geçip adını Katerina olarak değiştirdi ve Rus tahtının vârisi Büyük Dük Petro (sonraki III. Petro) ile evlendi; Haziran 1762'de kocasına karşı düzenlenen bir darbeyle, muhafız birlikleri ve Orlov ailesinin desteğiyle tahtı ele geçirdi ve 1796'ya kadar hüküm sürdü. Osmanlı Devleti'yle iki büyük savaş yaptı (1768-1774 ve 1787-1792). Birincisini bitiren 26 Temmuz 1774 tarihli Küçük Kaynarca Antlaşması, Kırım Hanlığı'nı Osmanlı bağlılığından çıkararak müstakil bir hanlık hâline getirdi; Rus tarafını Mareşal Rumyantsov temsil etti ve Katerina antlaşmayı memnuniyetle karşıladı. Dokuz yıl sonra, 8 Nisan 1783'te (Jülyen takvimiyle; Gregoryen'de 19 Nisan) yayımladığı bir manifestoyla Kırım'ı, Taman'ı ve Kuban'ı doğrudan Rusya topraklarına kattı; Osmanlı Devleti ilhakı 8 Ocak 1784'te resmen tanıdı. 1796'da öldü." },
+{ id:"katerina2", tur:"yabanci-hukumdar", ad:"II. Katerina", devlet:"rusya",           f:"1729", t:"1796", donem:"1729–1796", not:"II. Katerina, 21 Nisan 1729'da Stettin'de (bugünkü Szczecin) Anhalt-Zerbst Prensi Christian August'un kızı olarak doğdu. 1745'te Rus Ortodoks Kilisesi'ne geçip adını Katerina olarak değiştirdi ve Rus tahtının vârisi Büyük Dük Petro (sonraki III. Petro) ile evlendi; Haziran 1762'de kocasına karşı düzenlenen bir darbeyle, muhafız birlikleri ve Orlov ailesinin desteğiyle tahtı ele geçirdi ve 1796'ya kadar hüküm sürdü. Osmanlı Devleti'yle iki büyük savaş yaptı (1768-1774 ve 1787-1792). Birincisini bitiren 26 Temmuz 1774 tarihli Küçük Kaynarca Antlaşması, Kırım Hanlığı'nı Osmanlı bağlılığından çıkararak müstakil bir hanlık hâline getirdi; Rus tarafını Mareşal Rumyantsov temsil etti ve Katerina antlaşmayı memnuniyetle karşıladı. Dokuz yıl sonra, 8 Nisan 1783'te (Jülyen takvimiyle; Gregoryen'de 19 Nisan) yayımladığı bir manifestoyla Kırım'ı, Taman'ı ve Kuban'ı doğrudan Rusya topraklarına kattı; Osmanlı Devleti ilhakı 8 Ocak 1784'te resmen tanıdı. 1796'da öldü.",
+    kaynak:"TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 { id:"napolyon-bonapart", tur:"yabanci-hukumdar", ad:"Napolyon Bonapart",      f:"1769", t:"1821", donem:"1769–1821", not:"15 Ağustos 1769'da Korsika'nın Ajaccio kentinde doğdu, 5 Mayıs 1821'de sürgündeki St. Helena adasında öldü. Toulon kuşatmasındaki (1793) başarısıyla yükseldi, 1799'da Birinci Konsül, 1804'te İmparator oldu. Osmanlı tarihiyle kesiştiği en önemli olay 1798 Mısır Seferi'dir: İskenderiye'yi alıp Nil deltasını ele geçirdiği sırada donanması Ebûkır'da İngiliz amirali Nelson'a yenildi; Mısır'ın nominal hâmisi Osmanlı Devleti Fransa'ya savaş ilan edince Şubat 1799'da Suriye'ye yürüdü, Akka önünde durduruldu ve geri çekildi. 1799'da ordusunu bırakıp Fransa'ya dönerek darbeyle iktidarı ele geçirdi; 1814-15'te tahttan indirilip sürgüne gönderildi.", kaynak:"Encyclopaedia Britannica, britannica.com/biography/Napoleon-I — TDV'de müstakil madde YOK ('napolyon' 302 ölü), §4 kuralına göre akademik kaynağa geçildi" },
-{ id:"serif-huseyin", tur:"yabanci-hukumdar", ad:"Şerif Hüseyin", devlet:"hicaz-kralligi",          f:"1854", t:"1931", donem:"1854–1931", not:"1916 Hicaz isyanının önderi" },
+{ id:"serif-huseyin", tur:"yabanci-hukumdar", ad:"Şerif Hüseyin", devlet:"hicaz-kralligi",          f:"1853", t:"1931", donem:"1853–1931", not:"1916 Hicaz isyanının önderi",
+    ic_not_f:"eski: f:\"1854\" (donem 1854–1931) — TDV künyesi \"(1853-1931)\". §4 gereği TDV esas alındı",
+    kaynak:"TDV: serif-huseyin" },
 // --- Mısır meselesi kadrosu (1801-1849) ---
-{ id:"kavalali-mehmed-ali-pasa", tur:"vezir-pasa", ad:"Kavalalı Mehmed Ali Paşa",     f:"1769", t:"1849", donem:"1769–1849", not:"Mehmed Ali Paşa, 1183 (1769) ya da 1184 (1770) yılında Kavala'da doğdu. Kavala'daki tütün ticaretiyle uğraşan bir ailenin çocuğuydu; Fransız işgaline karşı Mısır'a gönderilen kuvvetler arasında bu topraklara geçti ve kısa sürede nüfuz kazandı. Bâbıâli tarafından 3 Temmuz 1805'te Mısır valiliğine getirildi ve eyaleti fiilen bağımsız bir yönetim hâline getirdi. Oğlu İbrâhim Paşa komutasındaki orduyu 2 Kasım 1831'de Suriye'ye gönderdi; 14 Nisan 1832'de Zerrâa'da, 27 Mayıs 1832'de Akkâ muhasarasını tamamlayarak, 29 Temmuz 1832'de Beylân'da ve 21 Aralık 1832'de Sadrazam Reşid Mehmed Paşa'nın ordusunu yenerek Osmanlı kuvvetlerini art arda mağlûp etti. İkinci kriz 24 Haziran 1839'da patlak verdi: Nizip Muharebesi'nde Osmanlı ordusu yeniden yenilgiye uğradı. Avrupa devletlerinin baskısıyla 24 Mayıs 1841'de Mısır'ın irsî idaresinin Mehmed Ali Paşa soyundan gelen en büyük erkek evlâda bırakılması ilân edilerek kendi adıyla anılan hanedan resmen kuruldu. Mehmed Ali Paşa 2 Ağustos 1849'da İskenderiye'de vefat etti." },
+{ id:"kavalali-mehmed-ali-pasa", tur:"vezir-pasa", ad:"Kavalalı Mehmed Ali Paşa",     f:"1769", t:"1849", donem:"1769–1849", not:"Mehmed Ali Paşa, 1183 (1769) ya da 1184 (1770) yılında Kavala'da doğdu. Kavala'daki tütün ticaretiyle uğraşan bir ailenin çocuğuydu; Fransız işgaline karşı Mısır'a gönderilen kuvvetler arasında bu topraklara geçti ve kısa sürede nüfuz kazandı. Bâbıâli tarafından 3 Temmuz 1805'te Mısır valiliğine getirildi ve eyaleti fiilen bağımsız bir yönetim hâline getirdi. Oğlu İbrâhim Paşa komutasındaki orduyu 2 Kasım 1831'de Suriye'ye gönderdi; 14 Nisan 1832'de Zerrâa'da, 27 Mayıs 1832'de Akkâ muhasarasını tamamlayarak, 29 Temmuz 1832'de Beylân'da ve 21 Aralık 1832'de Sadrazam Reşid Mehmed Paşa'nın ordusunu yenerek Osmanlı kuvvetlerini art arda mağlûp etti. İkinci kriz 24 Haziran 1839'da patlak verdi: Nizip Muharebesi'nde Osmanlı ordusu yeniden yenilgiye uğradı. Avrupa devletlerinin baskısıyla 24 Mayıs 1841'de Mısır'ın irsî idaresinin Mehmed Ali Paşa soyundan gelen en büyük erkek evlâda bırakılması ilân edilerek kendi adıyla anılan hanedan resmen kuruldu. Mehmed Ali Paşa 2 Ağustos 1849'da İskenderiye'de vefat etti.",
+    tartisma:"Doğum yılı tartışmalıdır: TDV maddesine göre 1183 (1769) veya 1184 (1770) yılında Kavala'da doğdu.",
+    ic_not_f:"öteki aday: 1184 (1770) — TDV \"1183 (1769) veya 1184 (1770) yılında Kavala'da doğdu\" — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)",
+    kaynak:"TDV: kavalali-mehmed-ali-pasa" },
 { id:"ibrahim-pasa", tur:"komutan",    ad:"İbrâhim Paşa (Kavalalı)",      f:"1789", t:"1848", donem:"1789–1848", not:"1789'da Kavala'da doğdu, Kasım 1848'de Mısır valiliğine yeni geçtiği sırada öldü. Mısır valisi Kavalalı Mehmed Ali Paşa'nın büyük oğludur; 1805'te babasının valiliğe atanmasıyla Mısır'a geldi, Kahire Kalesi idaresi ve 1807-13 defter kâtipliğinin ardından Yukarı Mısır valisi oldu. 1816-1819'da Hicaz'da Vehhâbîlere karşı sefer düzenleyip Vehhâbî reisi Abdullah b. Suûd'u ele geçirerek hac yollarının güvenliğini sağladı. 1831'de Suriye'ye girip Akka ve Şam'ı aldı, 1832'de Konya'da Osmanlı ordusunu yenerek sadrazamı esir aldı. 1833'te Anadolu'dan çekildikten sonra 1840'a kadar Suriye valiliğini sürdürdü; sağlığı bozulunca Mısır'a döndü, babasının yerine valiliğe geçtikten kısa süre sonra öldü.", kaynak:"TDV: ibrahim-pasa-kavalali" },
-{ id:"tosun-pasa", tur:"komutan",    ad:"Tosun Paşa",                   f:"1794", t:"1816", donem:"1794–1816", not:"Hicaz seferinde Medine ve Mekke'yi geri alan Mısır kumandanı" },
-{ id:"ismail-kamil-pasa", tur:"komutan",    ad:"İsmâil Kâmil Paşa",            f:"1795", t:"1822", donem:"1795–1822", not:"Sudan'ı fetheden Mısır kumandanı; Şendî'de öldürüldü" },
-{ id:"resid-mehmed-pasa", tur:"sadrazam",   ad:"Reşid Mehmed Paşa",            f:"1780", t:"1836", donem:"1780–1836", not:"Missolonghi'nin fatihi; Konya'da esir düşen sadrazam" },
-{ id:"koca-husrev-pasa", tur:"sadrazam",   ad:"Koca Hüsrev Paşa",             f:"1769", t:"1855", donem:"1769–1855", not:"Devrik Mısır valisi, sonra sadrazam; Mehmed Ali'nin baş hasmı" },
-{ id:"hafiz-mehmed-pasa", tur:"vezir-pasa", ad:"Hafız Mehmed Paşa",            donem:"?–1845",    not:"Nizip'te orduyu kaybeden serasker" },
-{ id:"ahmed-fevzi-pasa", tur:"denizci",    ad:"Ahmed Fevzi Paşa (Firârî)",    donem:"?–1858",    not:"1839'da donanmayı İskenderiye'ye götürüp teslim eden kaptan-ı derya" },
-{ id:"omer-mekrem", tur:"alim",       ad:"Ömer Mekrem",                  f:"1755", t:"1822", donem:"1755–1822", not:"Kahire nakîbüleşrafı; 1805'te Mehmed Ali'yi valiliğe getiren halk hareketinin önderi" },
+{ id:"tosun-pasa", tur:"komutan",    ad:"Tosun Paşa",                   f:"1794", t:"1816", donem:"1794–1816", not:"Hicaz seferinde Medine ve Mekke'yi geri alan Mısır kumandanı",
+    kaynak:"TDV: ibrahim-pasa-kavalali (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"ismail-kamil-pasa", tur:"komutan",    ad:"İsmâil Kâmil Paşa",            f:"1795", t:"1822", donem:"1795–1822", not:"Sudan'ı fetheden Mısır kumandanı; Şendî'de öldürüldü",
+    kaynak:"TDV: cealiyyun (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"resid-mehmed-pasa", tur:"sadrazam",   ad:"Reşid Mehmed Paşa",            f:"1780", t:"1836", donem:"1780–1836", not:"Missolonghi'nin fatihi; Konya'da esir düşen sadrazam",
+    kaynak:"TDV: resid-mehmed-pasa (doğum yılı kaynakta yok)" },
+{ id:"koca-husrev-pasa", tur:"sadrazam",   ad:"Koca Hüsrev Paşa",             f:"1756", t:"1855", donem:"1756–1855", not:"Devrik Mısır valisi, sonra sadrazam; Mehmed Ali'nin baş hasmı",
+    ic_not_f:"eski: f:\"1769\" (donem 1769–1855) — TDV \"1756 yılında doğduğu tahmin edilmektedir\"; \"Öldüğü sırada yaşı doksanı aşmıştı\" (1769 ölümde 85-86 yaş verirdi). §4 gereği TDV esas alındı",
+    kaynak:"TDV: husrev-pasa-koca" },
+{ id:"hafiz-mehmed-pasa", tur:"vezir-pasa", ad:"Hafız Mehmed Paşa",            donem:"?–1845",    not:"Nizip'te orduyu kaybeden serasker",
+    kaynak:"TDV: kavalali-mehmed-ali-pasa (müstakil madde yok; `hafiz-ahmed-pasa` aynı adlı BAŞKA kişidir)" },
+{ id:"ahmed-fevzi-pasa", tur:"denizci",    ad:"Ahmed Fevzi Paşa (Firârî)",    donem:"?–1858",    not:"1839'da donanmayı İskenderiye'ye götürüp teslim eden kaptan-ı derya",
+    kaynak:"TDV: kavalali-mehmed-ali-pasa (müstakil madde yok)" },
+{ id:"omer-mekrem", tur:"alim",       ad:"Ömer Mekrem",                  f:"1755", t:"1822", donem:"1755–1822", not:"Kahire nakîbüleşrafı; 1805'te Mehmed Ali'yi valiliğe getiren halk hareketinin önderi",
+    kaynak:"TDV: ezher (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 // --- Yabancı komutanlar ---
-{ id:"abdullah-b-suud", tur:"yabanci-komutan", ad:"Abdullah b. Suûd",        donem:"?–1818",    not:"Son Dir'iye emîri; kale düşünce İstanbul'a gönderildi" },
-{ id:"codrington", tur:"yabanci-komutan", ad:"Amiral Codrington",       f:"1770", t:"1851", donem:"1770–1851", not:"Navarin baskınının ve 1828 İskenderiye Sözleşmesi'nin İngiliz amirali" },
-{ id:"napier", tur:"yabanci-komutan", ad:"Commodore Napier",        f:"1786", t:"1860", donem:"1786–1860", not:"Akkâ bombardımanı ve İskenderiye Konvansiyonu" },
-{ id:"helmuth-von-moltke", tur:"yabanci-komutan", ad:"Helmuth von Moltke",      f:"1800", t:"1891", donem:"1800–1891", not:"Nizip'te Osmanlı ordusunda müşavir Prusyalı subay" },
-{ id:"palmerston", tur:"siyasi",     ad:"Lord Palmerston",              f:"1784", t:"1865", donem:"1784–1865", not:"Mısır meselesinde Osmanlı'yı destekleyen İngiliz dışişleri bakanı" },
-{ id:"hunyadi-yanos", tur:"yabanci-komutan", ad:"Hunyadi Yanoş",           f:"1406", t:"1456", donem:"1406–1456", not:"Varna ve II. Kosova'nın Macar komutanı" },
-{ id:"andrea-doria", tur:"yabanci-komutan", ad:"Andrea Doria",            f:"1466", t:"1560", donem:"1466–1560", not:"Preveze'de yenilen amiral" },
-{ id:"don-juan", tur:"yabanci-komutan", ad:"Don Juan",                f:"1547", t:"1578", donem:"1547–1578", not:"İnebahtı'nın galip amirali" },
+{ id:"abdullah-b-suud", tur:"yabanci-hukumdar", ad:"Abdullah b. Suûd", t:"1818",        donem:"?–1818",    not:"Son Dir'iye emîri; kale düşünce İstanbul'a gönderildi",
+    ic_not_tur:"eski: tur:\"yabanci-komutan\" — TDV maddesi onu \"Necid'de hüküm süren Suûdî ailesine mensup Vehhâbî emîri\" diye tanımlar",
+    kaynak:"TDV: abdullah-b-suud" },
+{ id:"codrington", tur:"yabanci-komutan", ad:"Amiral Codrington",       f:"1770", t:"1851", donem:"1770–1851", not:"Navarin baskınının ve 1828 İskenderiye Sözleşmesi'nin İngiliz amirali",
+    kaynak:"TDV: navarin (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"napier", tur:"yabanci-komutan", ad:"Commodore Napier",        f:"1786", t:"1860", donem:"1786–1860", not:"Akkâ bombardımanı ve İskenderiye Konvansiyonu",
+    kaynak:"TDV: kavalali-mehmed-ali-pasa (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"helmuth-von-moltke", tur:"yabanci-komutan", ad:"Helmuth von Moltke",      f:"1800", t:"1891", donem:"1800–1891", not:"Nizip'te Osmanlı ordusunda müşavir Prusyalı subay",
+    kaynak:"TDV: moltke-helmuth-von" },
+{ id:"palmerston", tur:"siyasi",     ad:"Lord Palmerston",              f:"1784", t:"1865", donem:"1784–1865", not:"Mısır meselesinde Osmanlı'yı destekleyen İngiliz dışişleri bakanı",
+    kaynak:"TDV: ingiltere (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"hunyadi-yanos", tur:"yabanci-komutan", ad:"Hunyadi Yanoş",           f:"1406", t:"1456", donem:"1406–1456", not:"Varna ve II. Kosova'nın Macar komutanı",
+    kaynak:"TDV: kosova-savaslari (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"andrea-doria", tur:"yabanci-komutan", ad:"Andrea Doria",            f:"1466", t:"1560", donem:"1466–1560", not:"Preveze'de yenilen amiral",
+    kaynak:"TDV: preveze-deniz-muharebesi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"don-juan", tur:"yabanci-komutan", ad:"Don Juan",                f:"1547", t:"1578", donem:"1547–1578", not:"İnebahtı'nın galip amirali",
+    kaynak:"TDV: inebahti-deniz-savasi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 { id:"francesco-morosini", tur:"yabanci-komutan", ad:"Francesco Morosini",      f:"1619", t:"1694", donem:"1619–1694", not:"1619'da Venedik'te doğdu, 1694'te Nafplion'da (Mora) öldü. 1657'de Venedik donanmasının başkomutanı oldu; birkaç başarılı seferin ardından bir rakibinin entrikasıyla görevden alındı. 1667'de kuşatma altındaki Kandiye'yi (Girit) kurtarmaya gönderildi, şehrin 1669'da Osmanlılara teslim edilmesini engelleyemedi ama sorumlu tutulmadı. 1684'te savaş yeniden başlayınca tekrar başkomutan oldu ve 1684-88 Mora Seferi'nde Mora'yı ve Atina'yı Venedik'e kazandırdı — Atina kuşatmasında bir top güllesi Partenon'u ağır hasara uğrattı. Dönüşünde 'Peloponnesiaco' unvanıyla onurlandırıldı, 1688'de Venedik doju seçildi; 75 yaşında bir kez daha donanmanın başına geçtiği sırada öldü.", kaynak:"Encyclopaedia Britannica, britannica.com/topic/Morosini-family — TDV'de müstakil madde YOK (Girit/Mora/Atina maddelerinde yalnız adı geçiyor), §4 kuralına göre akademik kaynağa geçildi" },
-{ id:"eugen", tur:"yabanci-komutan", ad:"Prens Eugen",             f:"1663", t:"1736", donem:"1663–1736", not:"1717 Belgrad'ın fatihi" },
-{ id:"nelson", tur:"yabanci-komutan", ad:"Amiral Nelson",           f:"1758", t:"1805", donem:"1758–1805", not:"Ebûkır baskını" },
-{ id:"allenby", tur:"yabanci-komutan", ad:"General Allenby",         f:"1861", t:"1936", donem:"1861–1936", not:"Kudüs ve Filistin harekâtı" },
-{ id:"townshend", tur:"yabanci-komutan", ad:"General Townshend",       f:"1861", t:"1924", donem:"1861–1924", not:"Kût'ta teslim olan İngiliz komutan" },
+{ id:"eugen", tur:"yabanci-komutan", ad:"Prens Eugen",             f:"1663", t:"1736", donem:"1663–1736", not:"1717 Belgrad'ın fatihi",
+    kaynak:"TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"nelson", tur:"yabanci-komutan", ad:"Amiral Nelson",           f:"1758", t:"1805", donem:"1758–1805", not:"Ebûkır baskını",
+    kaynak:"TDV: ebukir (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"allenby", tur:"yabanci-komutan", ad:"General Allenby",         f:"1861", t:"1936", donem:"1861–1936", not:"Kudüs ve Filistin harekâtı",
+    kaynak:"TDV: filistin (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"townshend", tur:"yabanci-komutan", ad:"General Townshend",       f:"1861", t:"1924", donem:"1861–1924", not:"Kût'ta teslim olan İngiliz komutan",
+    kaynak:"TDV: kutulamare (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 // --- Siyasi figürler ---
-{ id:"patrona-halil", tur:"siyasi", ad:"Patrona Halil",                    t:"1730", donem:"ö. 1730", not:"1730 ayaklanmasının önderi" },
-{ id:"kabakci-mustafa", tur:"siyasi", ad:"Kabakçı Mustafa",                  t:"1808", donem:"ö. 1808", not:"1807 ayaklanmasının önderi" },
-{ id:"milos-obrenovic", tur:"siyasi", ad:"Miloš Obrenović",                  f:"1780", t:"1860", donem:"1780–1860", not:"Özerk Sırbistan'ın ilk prensi" },
-{ id:"urabi-pasa", tur:"siyasi", ad:"Urâbî Paşa",                       f:"1841", t:"1911", donem:"1841–1911", not:"Mısır millî hareketinin önderi" },
-{ id:"t-e-lawrence", tur:"siyasi", ad:"T. E. Lawrence",                   f:"1888", t:"1935", donem:"1888–1935", not:"Arap isyanındaki İngiliz ajanı" },
-{ id:"hasan-tahsin", tur:"siyasi", ad:"Hasan Tahsin",                     f:"1888", t:"1919", donem:"1888–1919", not:"İzmir'de ilk kurşun" },
+{ id:"patrona-halil", tur:"siyasi", ad:"Patrona Halil",                    t:"1730", donem:"ö. 1730", not:"1730 ayaklanmasının önderi",
+    ic_not_t:"dolaylı dayanak: TDV `patrona-isyani` Patrona Halil'in öldürülüşünü '25 Kasım günü sarayda … yapılan ikinci toplantı' ile aynı paragrafta anlatır; 1143/1730 yılı maddenin bağlamından gelir — ölüm yılı kaynakta yok sayıldı, yıl cümlede yazmıyor (koordinatör K2)",
+    kaynak:"TDV: patrona-isyani (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"kabakci-mustafa", tur:"siyasi", ad:"Kabakçı Mustafa",                  t:"1808", donem:"ö. 1808", not:"1807 ayaklanmasının önderi",
+    ic_not_t:"dolaylı dayanak: TDV `kabakci-isyani` 'II. Mahmud'un tahta çıkarılmasından on beş gün önce … Ali Ağa tarafından öldürülmüştür' der; yıl cülusa bağlanarak çıkarılır — ölüm yılı kaynakta yok sayıldı, yıl cümlede yazmıyor (koordinatör K2)",
+    kaynak:"TDV: kabakci-isyani (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"milos-obrenovic", tur:"siyasi", ad:"Miloš Obrenović",                  f:"1780", t:"1860", donem:"1780–1860", not:"Özerk Sırbistan'ın ilk prensi",
+    kaynak:"TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"urabi-pasa", tur:"siyasi", ad:"Urâbî Paşa",                       f:"1841", t:"1911", donem:"1841–1911", not:"Mısır millî hareketinin önderi",
+    kaynak:"TDV: urabi-pasa" },
+{ id:"t-e-lawrence", tur:"siyasi", ad:"T. E. Lawrence",                   f:"1888", t:"1935", donem:"1888–1935", not:"Arap isyanındaki İngiliz ajanı",
+    kaynak:"TDV: lawrence-thomas-edward" },
+{ id:"hasan-tahsin", tur:"siyasi", ad:"Hasan Tahsin",                     f:"1888", t:"1919", donem:"1888–1919", not:"İzmir'de ilk kurşun",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan 'Hasan Tahsin', 'Osman Nevres'; okunan `izmir`, `kuva-yi-milliye`, `milli-mucadele`, `istiklal-harbi` — ad yok; `selanik`teki Vali Hasan Tahsin Paşa, `tahsin-efendi-hasan` (hattat), `banguoglu-hasan-tahsin` (dil âlimi) aynı adlı BAŞKA kişiler; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
 
 // ============================================================================
 // OTURUM 5 — DÜNYA HÜKÜMDARLARI (data/devletler.js kronolojisinden çıkarıldı)
 // ============================================================================
 
 // --- Parti 1: Safevî / Akkoyunlu / Karakoyunlu / Memlûk ---
-{ id:"abbas1", tur:"yabanci-hukumdar", ad:"Şah I. Abbas",            devlet:"safevi",      f:"1571", t:"1629", donem:"1571–1629 (saltanat 1587–1629)", not:"Safevî Devleti'ni ordu ve idare reformlarıyla zirveye taşıdı; başkenti İsfahan'a taşıdı, 1590'da Tebriz-Şirvan'ı Osmanlı'ya bıraktı, 1603'te geri aldı" },
-{ id:"abbas2", tur:"yabanci-hukumdar", ad:"Şah II. Abbas",           devlet:"safevi",      f:"1633", t:"1666", donem:"1633–1666 (saltanat 1642–1666)", not:"1638'de Bağdat'ı Osmanlı'dan geri alan seferin ardından tahta çıktı, Kasr-ı Şirin barışını (1639) yönetti" },
-{ id:"suleyman", tur:"yabanci-hukumdar", ad:"Şah Süleyman (Safî II)",  devlet:"safevi",      f:"1647", t:"1694", donem:"1647–1694 (saltanat 1666–1694)", not:"Safevî gerilemesinin belirginleştiği, dış siyasette pasif dönemin hükümdarı" },
-{ id:"sultan-huseyin", tur:"yabanci-hukumdar", ad:"Şah Sultan Hüseyin",      devlet:"safevi",      f:"1668", t:"1726", donem:"1668–1726 (saltanat 1694–1722)", not:"Son fiilî hüküm süren Safevî şahı; 1722 Afgan (Gilzai) istilasında İsfahan'ın düşüşüyle tahttan indirildi" },
-{ id:"kara-yuluk-osman-bey", tur:"yabanci-hukumdar", ad:"Kara Yülük Osman Bey",    devlet:"akkoyunlu",   t:"1435", donem:"ö. 1435", not:"Akkoyunlu Devleti'nin kurucusu; Diyarbekir merkezli beyliği bölgesel güç hâline getirdi" },
-{ id:"yakub-bey", tur:"yabanci-hukumdar", ad:"Yakub Bey (Akkoyunlu)",   devlet:"akkoyunlu",   donem:"saltanat 1478–1490", not:"Uzun Hasan'ın oğlu ve halefi; babasının Otlukbeli sonrası topraklarını bir süre daha ayakta tuttu" },
+{ id:"abbas1", tur:"yabanci-hukumdar", ad:"Şah I. Abbas",            devlet:"safevi",      f:"1571", t:"1629", donem:"1571–1629 (saltanat 1587–1629)", not:"Safevî Devleti'ni ordu ve idare reformlarıyla zirveye taşıdı; başkenti İsfahan'a taşıdı, 1590'da Tebriz-Şirvan'ı Osmanlı'ya bıraktı, 1603'te geri aldı",
+    kaynak:"TDV: abbas-i" },
+{ id:"abbas2", tur:"yabanci-hukumdar", ad:"Şah II. Abbas",           devlet:"safevi",      f:"1633", t:"1666", donem:"1633–1666 (saltanat 1642–1666)", not:"12 Mayıs 1642'de on yaşında Safevî tahtına çıkarıldı; Bağdat'ın IV. Murad tarafından alınışı (1638) ve Kasr-ı Şirin Antlaşması (1639) ondan önce, Şah Safî döneminde olmuştu",
+    ic_not_not:"eski not: \"1638'de Bağdat'ı Osmanlı'dan geri alan seferin ardından tahta çıktı, Kasr-ı Şirin barışını (1639) yönetti\" — tarihî olarak yanlış: TDV `safeviler` 1048 (1638) Bağdat'ı IV. Murad'ın aldığını, 1049 (1639) Kasrışîrin Antlaşması'nı; `abbas-ii` tahta çıkışını 12 Mayıs 1642 verir",
+    kaynak:"TDV: abbas-ii" },
+{ id:"suleyman", tur:"yabanci-hukumdar", ad:"Şah Süleyman (Safî II)",  devlet:"safevi",      f:"1647", t:"1694", donem:"1647–1694 (saltanat 1666–1694)", not:"Safevî gerilemesinin belirginleştiği, dış siyasette pasif dönemin hükümdarı",
+    kaynak:"TDV: safeviler (müstakil madde yok; ölümü `huseyin-mirza` maddesinde (6 Ağustos 1694, oğlunun cülusu); doğum yılı kaynakta yok)" },
+{ id:"sultan-huseyin", tur:"yabanci-hukumdar", ad:"Şah Sultan Hüseyin",      devlet:"safevi",      f:"1668", t:"1726", donem:"1668–1726 (saltanat 1694–1722)", not:"Son fiilî hüküm süren Safevî şahı; 1722 Afgan (Gilzai) istilasında İsfahan'ın düşüşüyle tahttan indirildi",
+    tartisma:"Doğum yılı kesin değildir: TDV, tahta geçtiğinde yirmi beş-yirmi altı yaşlarında bulunduğundan hareketle 1668 veya 1669'da doğmuş olması gerektiğini söyler.",
+    ic_not_f:"öteki aday: 1669 — TDV yaştan çıkarımla \"1668 veya 1669'da doğmuş olmalıdır\" — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)",
+    kaynak:"TDV: huseyin-mirza" },
+{ id:"kara-yuluk-osman-bey", tur:"yabanci-hukumdar", ad:"Kara Yülük Osman Bey",    devlet:"akkoyunlu",   t:"1435", donem:"ö. 1435", not:"Akkoyunlu Devleti'nin kurucusu; Diyarbekir merkezli beyliği bölgesel güç hâline getirdi",
+    tartisma:"Ölüm yılı kesin değildir: TDV `akkoyunlular` maddesine göre Osman Bey Ağustos 1435'te Erzurum'un kuzeybatısında Karakoyunlu İskender'e yenildi ve \"çok geçmeden\" öldü; 1435 yenilginin yılıdır.",
+    kaynak:"TDV: akkoyunlular (müstakil madde yok)" },
+{ id:"yakub-bey", tur:"yabanci-hukumdar", ad:"Yakub Bey (Akkoyunlu)", t:"1490",   devlet:"akkoyunlu",   donem:"saltanat 1478–1490", not:"Uzun Hasan'ın oğlu; babasının ölümünden sonra tahta geçen Halil'i Hoy çayı kenarında yenerek 1478'de Akkoyunlu hükümdarı oldu, babasının Otlukbeli sonrası topraklarını bir süre daha ayakta tuttu",
+    ic_not_not:"eski not: \"Uzun Hasan'ın oğlu ve halefi; …\" — TDV `akkoyunlular`: \"Yâkub Bey Hoy çayı kenarında Halil'i mağlûp ederek Akkoyunlu hükümdarı oldu (1478)\"; doğrudan halef Halil'dir",
+    kaynak:"TDV: akkoyunlular (müstakil madde yok; `yakub-bey` slug'ı aynı adlı BAŞKA kişidir — Germiyanoğulları kurucusu)" },
 // ⚠️ Akkoyunlular maddesinde İKİ ayrı Elvend geçiyor: biri 1448'de amcası Cihan
 // Şah'a isyan eden İskender oğlu, öteki BUDUR — Yûsuf Mirza'nın oğlu, Şah
 // İsmail'in 1501'de Nahcıvan yöresinde yendiği hükümdar. Kayıt ikincisidir.
@@ -13754,180 +13882,348 @@ window.KISILER = [
     gorev:"Akkoyunlu hükümdarı — 1498'de Tebriz'de tahta çıkarıldı; 1500'deki paylaşımda Âmid, Azerbaycan ve Arrân onun idaresinde kaldı",
     tartisma:"Akkoyunlu Devleti'nin sonu tek bir tarihe indirgenemez: Elvend 1501'de yenilip Âmid'e çekildi ve 1505'te orada öldü, kardeşi Murad 1503 Hemedan yenilgisinden sonra Bağdat'ta 1509'a kadar hüküm sürdü, Murad Mirza ise 1514'e kadar. TDV maddesi bu üç ucu da ayrı ayrı verir.",
     kaynak:"TDV: akkoyunlular (Elvend'in müstakil maddesi TDV'de bulunamadı — `elvend-bey` ve `elvend` sluglarının ikisi de 302)" },
-{ id:"kara-yusuf", tur:"yabanci-hukumdar", ad:"Kara Yusuf",            devlet:"karakoyunlu", t:"1420", donem:"ö. 1420", not:"Timur'a karşı direnen, 1410'da Bağdat'ı alan Karakoyunlu hükümdarı" },
-{ id:"cihan-sah", tur:"yabanci-hukumdar", ad:"Cihan Şah",               devlet:"karakoyunlu", donem:"saltanat 1438–1467", not:"Karakoyunlu Devleti'ni İran'ın büyük bölümüne yayan en güçlü hükümdarı; Uzun Hasan'a yenilip öldürüldü" },
-{ id:"baybars1", tur:"yabanci-hukumdar", ad:"I. Baybars (Zâhir Baybars)", devlet:"memluk",   f:"1223", t:"1277", donem:"1223–1277 (saltanat 1260–1277)", not:"Zâhir Baybars, 620'de (1223) Kıpçak ülkesinde doğdu. Memlük öncü kuvvetlerinin başında katıldığı Aynicâlût Savaşı'nda Moğollar'ın hezimete uğratılmasında önemli rol oynadı (3 Eylül 1260); savaşın ardından Sultan Kutuz'u 23 Ekim 1260'ta öldürterek 26 Ekim 1260'ta tahta çıktı. Haçlılara karşı sistemli bir fetih siyaseti izledi: Kayseriye, Yafa ve Arsûf'u (1265), Safed ve Remle'yi (1266), Nisan 1268'de Antakya'yı ve 1271'de Trablus'u ele geçirdi. Yaklaşık on yedi yıl süren saltanatının ardından Anadolu seferi dönüşünde başlayan kısa bir hastalık sonucu 20 Haziran 1277'de vefat etti ve Şam'da defnedildi." },
-{ id:"zahir-berkuk", tur:"yabanci-hukumdar", ad:"Zâhir Berkuk",            devlet:"memluk",     t:"1399", donem:"ö. 1399 (saltanat 1382–1399)", not:"Burci (Çerkes) Memlûk hanedanının kurucusu sultanı" },
-{ id:"barsbay", tur:"yabanci-hukumdar", ad:"Sultan Barsbay",          devlet:"memluk",     donem:"saltanat 1422–1438", not:"Kıbrıs Krallığı'nı vasal hâline getiren, Kızıldeniz ticaretini tekelleştiren Memlûk sultanı" },
-{ id:"kayitbay", tur:"yabanci-hukumdar", ad:"Sultan Kayıtbay",         devlet:"memluk",     donem:"saltanat 1468–1496", not:"Fâtih ve II. Bayezid dönemi Osmanlı-Memlûk Çukurova savaşlarının (1485-1491) muhatabı" },
-{ id:"tomanbay", tur:"yabanci-hukumdar", ad:"Tomanbay (II. Tomanbay)", devlet:"memluk",     t:"1517", donem:"ö. 1517", not:"II. Tomanbay, amcası Kansu Gavri'nin 1501'de sultan olmasının ardından \"onlu emîrler\" rütbesine yükseltildi; 1507'de Devâtdârü'l-kebîr Özdemir'in ölümü üzerine onun makamına getirildi. Kansu Gavri 1516'da Yavuz Sultan Selim'e karşı Suriye seferine çıkarken Tomanbay'ı Kahire'de nâibü'l-gaybe (kaymakam) bıraktı; sultanın Mercidâbık'ta ölmesi üzerine Memlük emîrleri 13 Ramazan 922 (10 Ekim 1516) Cuma günü onu sultan ilân etti. 22 Ocak 1517'de Ridâniye'de Osmanlı ordusuyla karşılaşan Tomanbay, Yavuz Sultan Selim'in orduyu ikiye bölüp yandan uyguladığı taarruz karşısında yenildi. Nil'i geçip Saîd bölgesine çekildi, bir savaşı daha kaybettikten sonra Terrûce'de yakalandı. 21 Rebîülevvel 923'te (13 Nisan 1517) Kahire'de Bâbüzüveyle kapısında asıldı; cesedi üç gün asılı kaldıktan sonra amcası Kansu Gavri'nin medresesine defnedildi. Onun tahttan indirilişiyle Memlük Devleti sona ermiş, Mısır Osmanlı hâkimiyetine girmiştir." },
+{ id:"kara-yusuf", tur:"yabanci-hukumdar", ad:"Kara Yusuf",            devlet:"karakoyunlu", t:"1420", donem:"ö. 1420", not:"Timur'a karşı direnen Karakoyunlu hükümdarı; 1410'da Bağdat'ı en büyük oğlu Şah Mehmed fethetti",
+    ic_not_not:"eski not: \"Timur'a karşı direnen, 1410'da Bağdat'ı alan Karakoyunlu hükümdarı\" — TDV `karakoyunlular`: \"Aynı yıl Kara Yûsuf'un en büyük oğlu Şah Mehmed Bağdat'ı fethetti\"",
+    kaynak:"TDV: karakoyunlular (müstakil madde yok)" },
+{ id:"cihan-sah", tur:"yabanci-hukumdar", ad:"Cihan Şah", t:"1467",               devlet:"karakoyunlu", donem:"saltanat 1438–1467", not:"Karakoyunlu Devleti'ni İran'ın büyük bölümüne yayan en güçlü hükümdarı; Uzun Hasan'a yenilip öldürüldü",
+    kaynak:"TDV: cihan-sah" },
+{ id:"baybars1", tur:"yabanci-hukumdar", ad:"I. Baybars (Zâhir Baybars)", devlet:"memluk",   f:"1223", t:"1277", donem:"1223–1277 (saltanat 1260–1277)", not:"Zâhir Baybars, 620'de (1223) Kıpçak ülkesinde doğdu. Memlük öncü kuvvetlerinin başında katıldığı Aynicâlût Savaşı'nda Moğollar'ın hezimete uğratılmasında önemli rol oynadı (3 Eylül 1260); savaşın ardından Sultan Kutuz'u 23 Ekim 1260'ta öldürterek 26 Ekim 1260'ta tahta çıktı. Haçlılara karşı sistemli bir fetih siyaseti izledi: Kayseriye, Yafa ve Arsûf'u (1265), Safed ve Remle'yi (1266), Nisan 1268'de Antakya'yı ve 1271'de Trablus'u ele geçirdi. Yaklaşık on yedi yıl süren saltanatının ardından Anadolu seferi dönüşünde başlayan kısa bir hastalık sonucu 20 Haziran 1277'de vefat etti ve Şam'da defnedildi.",
+    kaynak:"TDV: baybars-i" },
+{ id:"zahir-berkuk", tur:"yabanci-hukumdar", ad:"Zâhir Berkuk",            devlet:"memluk",     t:"1399", donem:"ö. 1399 (saltanat 1382–1399)", not:"Burci (Çerkes) Memlûk hanedanının kurucusu sultanı",
+    kaynak:"TDV: berkuk" },
+{ id:"barsbay", tur:"yabanci-hukumdar", ad:"Sultan Barsbay", t:"1438",          devlet:"memluk",     donem:"saltanat 1422–1438", not:"Kıbrıs Krallığı'nı vasal hâline getiren, Kızıldeniz ticaretini tekelleştiren Memlûk sultanı",
+    kaynak:"TDV: barsbay" },
+{ id:"kayitbay", tur:"yabanci-hukumdar", ad:"Sultan Kayıtbay", f:"1423", t:"1496",         devlet:"memluk",     donem:"saltanat 1468–1496", not:"Fâtih ve II. Bayezid dönemi Osmanlı-Memlûk Çukurova savaşlarının (1485-1490) muhatabı",
+    ic_not_not:"eski not: \"… Çukurova savaşlarının (1485-1491) muhatabı\" — TDV `kayitbay`: \"savaşlar, 895 (1490) yılına kadar sürdü\"",
+    kaynak:"TDV: kayitbay" },
+{ id:"tomanbay", tur:"yabanci-hukumdar", ad:"Tomanbay (II. Tomanbay)", devlet:"memluk",     t:"1517", donem:"ö. 1517", not:"II. Tomanbay, amcası Kansu Gavri'nin 1501'de sultan olmasının ardından \"onlu emîrler\" rütbesine yükseltildi; 1507'de Devâtdârü'l-kebîr Özdemir'in ölümü üzerine onun makamına getirildi. Kansu Gavri 1516'da Yavuz Sultan Selim'e karşı Suriye seferine çıkarken Tomanbay'ı Kahire'de nâibü'l-gaybe (kaymakam) bıraktı; sultanın Mercidâbık'ta ölmesi üzerine Memlük emîrleri 13 Ramazan 922 (10 Ekim 1516) Cuma günü onu sultan ilân etti. 22 Ocak 1517'de Ridâniye'de Osmanlı ordusuyla karşılaşan Tomanbay, Yavuz Sultan Selim'in orduyu ikiye bölüp yandan uyguladığı taarruz karşısında yenildi. Nil'i geçip Saîd bölgesine çekildi, bir savaşı daha kaybettikten sonra Terrûce'de yakalandı. 21 Rebîülevvel 923'te (13 Nisan 1517) Kahire'de Bâbüzüveyle kapısında asıldı; cesedi üç gün asılı kaldıktan sonra amcası Kansu Gavri'nin medresesine defnedildi. Onun tahttan indirilişiyle Memlük Devleti sona ermiş, Mısır Osmanlı hâkimiyetine girmiştir.",
+    kaynak:"TDV: tomanbay" },
 
 // --- Parti 2: Habsburg / Macaristan / Lehistan / Venedik ---
-{ id:"ferdinand1", tur:"yabanci-hukumdar", ad:"I. Ferdinand (Habsburg)", devlet:"habsburg",  f:"1503", t:"1564", donem:"1503–1564 (saltanat 1526–1564)", not:"Mohaç sonrası Bohemya-Macaristan tacını alan, I. Viyana Kuşatması'nı (1529) savunan Habsburg hükümdarı; 1556'da Kutsal Roma imparatoru oldu" },
-{ id:"karl5", tur:"yabanci-hukumdar", ad:"V. Karl (Şarlken)",       devlet:"habsburg",  f:"1500", t:"1558", donem:"1500–1558 (saltanat 1519–1556)", not:"V. Karl, 24 Şubat 1500'de Gent'te doğdu. Anne tarafı büyükbabası II. Fernando'nun 1516'daki ölümüyle İspanya kralı oldu; 1519'da baba tarafı büyükbabası I. Maximilian'ın ölümü üzerine imparatorluk seçmenlerini kazanarak Kutsal Roma-Germen İmparatoru seçildi ve İspanya, Hollanda, Napoli-Sicilya ile Amerika'daki İspanyol topraklarını kapsayan geniş bir hânedan mirasının başına geçti. Kanûnî Sultan Süleyman'ın Akdeniz ve Orta Avrupa'daki başlıca rakibi oldu. TDV İslâm Ansiklopedisi'nin Hafsîler ve Endülüs maddelerine göre, Barbaros Hayreddin Paşa'nın 1534'te Osmanlı donanmasıyla Tunus'u almasının ardından tahttan indirilen Hafsî Sultanı Mevlây Hasan V. Karl'dan yardım istedi; imparator Andrea Doria'nın desteğiyle Temmuz 1535'te Tunus'u geri aldı ve Halkulvâdî Kalesi'ne bir İspanyol garnizonu yerleştirdi. Buna karşılık 1541'de bizzat katıldığı Cezayir seferi, fırtına ve yerel direniş yüzünden ağır bir yenilgiyle sonuçlandı. 1556'da İspanya ve Hollanda tahtını oğlu II. Felipe'ye, Kutsal Roma İmparatorluğu ile Avusturya arşidüklüğünü kardeşi I. Ferdinand'a bırakarak tahttan çekildi; İspanya'daki Yuste Manastırı'na çekildi ve 21 Eylül 1558'de orada öldü." },
-{ id:"rudolf2", tur:"yabanci-hukumdar", ad:"II. Rudolf",               devlet:"habsburg",  f:"1552", t:"1612", donem:"1552–1612 (saltanat 1576–1612)", not:"1606 Zitvatorok Antlaşması'nı imzalayan Kutsal Roma imparatoru; Osmanlı'ya protokolde ilk kez eşit statü tanındı" },
-{ id:"leopold1", tur:"yabanci-hukumdar", ad:"I. Leopold",               devlet:"habsburg",  f:"1640", t:"1705", donem:"1640–1705 (saltanat 1658–1705)", not:"II. Viyana Kuşatması'nı (1683) atlatan, Kutsal İttifak savaşlarını ve Karlofça'ya (1699) giden süreci yöneten imparator" },
-{ id:"maria-theresia", tur:"yabanci-hukumdar", ad:"Maria Theresia",           devlet:"habsburg",  f:"1717", t:"1780", donem:"1717–1780 (saltanat 1740–1780)", not:"Habsburg topraklarının tek kadın hükümdarı; döneminde Osmanlı sınırında görece durgunluk yaşandı" },
-{ id:"josef2", tur:"yabanci-hukumdar", ad:"II. Josef",                devlet:"habsburg",  f:"1741", t:"1790", donem:"1741–1790 (saltanat 1780–1790)", not:"1787-1791 Osmanlı-Avusturya Savaşı'nı başlatan reformcu imparator" },
-{ id:"franz2", tur:"yabanci-hukumdar", ad:"II. Franz (I. Franz)",     devlet:"habsburg",  f:"1768", t:"1835", donem:"1768–1835 (saltanat 1792–1835)", not:"Son Kutsal Roma imparatoru; 1804'te ayrı Avusturya İmparatorluğu'nu ilan etti" },
-{ id:"matyas-corvinus", tur:"yabanci-hukumdar", ad:"Mátyás Corvinus",          devlet:"macaristan", f:"1443", t:"1490", donem:"1443–1490 (saltanat 1458–1490)", not:"Hunyadi Yanoş'un oğlu; Macaristan'ı Orta Avrupa'nın en güçlü krallığına dönüştüren hükümdar" },
-{ id:"zygmunt3", tur:"yabanci-hukumdar", ad:"III. (Vasa) Zygmunt",      devlet:"lehistan",  f:"1566", t:"1632", donem:"1566–1632 (saltanat 1587–1632)", not:"1620-21 Hotin/Ţuţora savaşları döneminin Leh-Litvanya kralı" },
-{ id:"michal-korybut-wisniowiecki", tur:"yabanci-hukumdar", ad:"Michał Korybut Wiśniowiecki", devlet:"lehistan", f:"1640", t:"1673", donem:"1640–1673 (saltanat 1669–1673)", not:"1672 Bucaş Antlaşması'yla Podolya'yı Osmanlı'ya bırakan kral" },
-{ id:"vladislav2", tur:"yabanci-hukumdar", ad:"II. Vladislav (Jagellon)", devlet:"bohemya",   t:"1516", donem:"ö. 1516 (saltanat 1471–1516)", not:"Bohemya ve Macaristan tahtlarını birleştiren Jagellon kralı; oğlu II. Layoş Mohaç'ta öldü" },
-{ id:"enrico-dandolo", tur:"yabanci-hukumdar", ad:"Enrico Dandolo",           devlet:"venedik",   t:"1205", donem:"ö. 1205 (doçluk 1192–1205)", not:"IV. Haçlı Seferi'ni İstanbul'a yönlendirip Bizans'ın yağmalanmasını örgütleyen Venedik doçu" },
+{ id:"ferdinand1", tur:"yabanci-hukumdar", ad:"I. Ferdinand (Habsburg)", devlet:"habsburg",  f:"1503", t:"1564", donem:"1503–1564 (saltanat 1526–1564)", not:"Mohaç sonrası Bohemya-Macaristan tacını alan, I. Viyana Kuşatması'nı (1529) savunan Habsburg hükümdarı; 1556'da Kutsal Roma imparatoru oldu",
+    kaynak:"TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"karl5", tur:"yabanci-hukumdar", ad:"V. Karl (Şarlken)",       devlet:"habsburg",  f:"1500", t:"1558", donem:"1500–1558 (saltanat 1519–1556)", not:"V. Karl, 24 Şubat 1500'de Gent'te doğdu. Anne tarafı büyükbabası II. Fernando'nun 1516'daki ölümüyle İspanya kralı oldu; 1519'da baba tarafı büyükbabası I. Maximilian'ın ölümü üzerine imparatorluk seçmenlerini kazanarak Kutsal Roma-Germen İmparatoru seçildi ve İspanya, Hollanda, Napoli-Sicilya ile Amerika'daki İspanyol topraklarını kapsayan geniş bir hânedan mirasının başına geçti. Kanûnî Sultan Süleyman'ın Akdeniz ve Orta Avrupa'daki başlıca rakibi oldu. TDV İslâm Ansiklopedisi'nin Hafsîler ve Endülüs maddelerine göre, Barbaros Hayreddin Paşa'nın 1534'te Osmanlı donanmasıyla Tunus'u almasının ardından tahttan indirilen Hafsî Sultanı Mevlây Hasan V. Karl'dan yardım istedi; imparator Andrea Doria'nın desteğiyle Temmuz 1535'te Tunus'u geri aldı ve Halkulvâdî Kalesi'ne bir İspanyol garnizonu yerleştirdi. Buna karşılık 1541'de bizzat katıldığı Cezayir seferi, fırtına ve yerel direniş yüzünden ağır bir yenilgiyle sonuçlandı. 1556'da İspanya ve Hollanda tahtını oğlu II. Felipe'ye, Kutsal Roma İmparatorluğu ile Avusturya arşidüklüğünü kardeşi I. Ferdinand'a bırakarak tahttan çekildi; İspanya'daki Yuste Manastırı'na çekildi ve 21 Eylül 1558'de orada öldü.",
+    kaynak:"TDV: ispanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"rudolf2", tur:"yabanci-hukumdar", ad:"II. Rudolf",               devlet:"habsburg",  f:"1552", t:"1612", donem:"1552–1612 (saltanat 1576–1612)", not:"1606 Zitvatorok Antlaşması'nı imzalayan Kutsal Roma imparatoru; Osmanlı'ya protokolde ilk kez eşit statü tanındı",
+    kaynak:"TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"leopold1", tur:"yabanci-hukumdar", ad:"I. Leopold",               devlet:"habsburg",  f:"1640", t:"1705", donem:"1640–1705 (saltanat 1658–1705)", not:"II. Viyana Kuşatması'nı (1683) atlatan, Kutsal İttifak savaşlarını ve Karlofça'ya (1699) giden süreci yöneten imparator",
+    kaynak:"TDV: viyana (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"maria-theresia", tur:"yabanci-hukumdar", ad:"Maria Theresia",           devlet:"habsburg",  f:"1717", t:"1780", donem:"1717–1780 (saltanat 1740–1780)", not:"Habsburg topraklarının tek kadın hükümdarı; döneminde Osmanlı sınırında görece durgunluk yaşandı",
+    kaynak:"TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"josef2", tur:"yabanci-hukumdar", ad:"II. Josef",                devlet:"habsburg",  f:"1741", t:"1790", donem:"1741–1790 (saltanat 1780–1790)", not:"1787-1791 Osmanlı-Avusturya Savaşı'nı başlatan reformcu imparator",
+    kaynak:"TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"franz2", tur:"yabanci-hukumdar", ad:"II. Franz (I. Franz)",     devlet:"habsburg",  f:"1768", t:"1835", donem:"1768–1835 (saltanat 1792–1835)", not:"Son Kutsal Roma imparatoru; 1804'te ayrı Avusturya İmparatorluğu'nu ilan etti",
+    kaynak:"TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"matyas-corvinus", tur:"yabanci-hukumdar", ad:"Mátyás Corvinus",          devlet:"macaristan", f:"1443", t:"1490", donem:"1443–1490 (saltanat 1458–1490)", not:"Hunyadi Yanoş'un oğlu; Macaristan'ı Orta Avrupa'nın en güçlü krallığına dönüştüren hükümdar",
+    kaynak:"TDV: macaristan (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"zygmunt3", tur:"yabanci-hukumdar", ad:"III. (Vasa) Zygmunt",      devlet:"lehistan",  f:"1566", t:"1632", donem:"1566–1632 (saltanat 1587–1632)", not:"1620-21 Hotin/Ţuţora savaşları döneminin Leh-Litvanya kralı",
+    kaynak:"TDV: polonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"michal-korybut-wisniowiecki", tur:"yabanci-hukumdar", ad:"Michał Korybut Wiśniowiecki", devlet:"lehistan", f:"1640", t:"1673", donem:"1640–1673 (saltanat 1669–1673)", not:"1672 Bucaş Antlaşması'yla Podolya'yı Osmanlı'ya bırakan kral",
+    kaynak:"TDV: polonya (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"vladislav2", tur:"yabanci-hukumdar", ad:"II. Vladislav (Jagellon)", devlet:"bohemya",   t:"1516", donem:"ö. 1516 (saltanat 1471–1516)", not:"Bohemya ve Macaristan tahtlarını birleştiren Jagellon kralı; oğlu II. Layoş Mohaç'ta öldü",
+    kaynak:"TDV: macaristan (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"enrico-dandolo", tur:"yabanci-hukumdar", ad:"Enrico Dandolo",           devlet:"venedik",   t:"1205", donem:"ö. 1205 (doçluk 1192–1205)", not:"IV. Haçlı Seferi'ni İstanbul'a yönlendirip Bizans'ın yağmalanmasını örgütleyen Venedik doçu",
+    kaynak:"TDV: haclilar (müstakil madde yok; ölüm yılı kaynakta yok)" },
 
 // --- Parti 3: Rusya / Kırım / Altın Orda ardılları ---
-{ id:"ivan4", tur:"yabanci-hukumdar", ad:"IV. İvan (Korkunç)",       devlet:"rusya",     f:"1530", t:"1584", donem:"1530–1584 (saltanat 1547–1584)", not:"1547'de \"Çar\" unvanını alan, Kazan ve Astarhan'ı ilhak eden, Osmanlı ile ilk çatışmaları (1568-69 Astarhan seferi) yaşayan hükümdar" },
-{ id:"mihail-fyodorovic", tur:"yabanci-hukumdar", ad:"Mihail Fyodoroviç",        devlet:"rusya",     f:"1596", t:"1645", donem:"1596–1645 (saltanat 1613–1645)", not:"Romanov hanedanının kurucusu çarı; Fetret (Smuta) döneminin ardından tahta çıktı" },
-{ id:"aleksandr1", tur:"yabanci-hukumdar", ad:"I. Aleksandr",             devlet:"rusya",     f:"1777", t:"1825", donem:"1777–1825 (saltanat 1801–1825)", not:"Napolyon savaşlarını yöneten, 1812 Bükreş Antlaşması'yla Besarabya'yı alan çar" },
-{ id:"nikolay1", tur:"yabanci-hukumdar", ad:"I. Nikolay",               devlet:"rusya",     f:"1796", t:"1855", donem:"1796–1855 (saltanat 1825–1855)", not:"Kırım Savaşı'nı (1853) başlatan, savaş sürerken ölen çar" },
-{ id:"nikolay2", tur:"yabanci-hukumdar", ad:"II. Nikolay",              devlet:"rusya",     f:"1868", t:"1918", donem:"1868–1918 (saltanat 1894–1917)", not:"Son Rus çarı; 93 Harbi sonrası dönemde I. Dünya Savaşı'na girdi, 1917'de tahttan çekildi" },
-{ id:"haci-giray", tur:"yabanci-hukumdar", ad:"Hacı Giray",               devlet:"kirim",     t:"1466", donem:"ö. 1466 (saltanat 1441–1466)", not:"Kırım Hanlığı'nın kurucusu; Altın Orda'dan bağımsızlığını ilan etti" },
-{ id:"mengli-giray1", tur:"yabanci-hukumdar", ad:"I. Mengli Giray",          devlet:"kirim",     t:"1515", donem:"ö. 1515 (saltanat 1478–1515, aralıklı)", not:"1475 Kefe'nin fethinden sonra Osmanlı himayesini kabul eden, hanlığı Osmanlı'nın en sadık vasalı hâline getiren han" },
-{ id:"devlet-giray", tur:"yabanci-hukumdar", ad:"Devlet Giray",             devlet:"kirim",     t:"1577", donem:"ö. 1577 (saltanat 1551–1577)", not:"1571'de Moskova'yı yakan Kırım hanı" },
-{ id:"batu-han", tur:"yabanci-hukumdar", ad:"Batu Han",                 devlet:"altinorda", t:"1255", donem:"ö. 1255", not:"Cengiz Han'ın torunu; Altın Orda'nın kurucusu" },
-{ id:"ulug-muhammed", tur:"yabanci-hukumdar", ad:"Uluğ Muhammed",            devlet:"kazan",     t:"1445", donem:"ö. yak. 1445", not:"Altın Orda hanı iken Kazan Hanlığı'nı kurdu" },
-{ id:"kucum-han", tur:"yabanci-hukumdar", ad:"Küçüm Han",                devlet:"sibir-hanligi",     t:"1598", donem:"ö. yak. 1598", not:"Sibir Hanlığı'nın son hükümdarı; Rus (Yermak) ilerleyişine karşı uzun süre direndi" },
-{ id:"edigu", tur:"yabanci-hukumdar", ad:"Edigü",                    devlet:"nogay",     t:"1420", donem:"ö. 1420", not:"Nogay Ordası'nın çekirdeğini oluşturan Mangıt beyi" },
+{ id:"ivan4", tur:"yabanci-hukumdar", ad:"IV. İvan (Korkunç)",       devlet:"rusya",     f:"1530", t:"1584", donem:"1530–1584 (saltanat 1547–1584)", not:"1547'de \"Çar\" unvanını alan, Kazan ve Astarhan'ı ilhak eden, Osmanlı ile ilk çatışmaları (1568-69 Astarhan seferi) yaşayan hükümdar",
+    kaynak:"TDV: rusya (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"mihail-fyodorovic", tur:"yabanci-hukumdar", ad:"Mihail Fyodoroviç",        devlet:"rusya",     f:"1596", t:"1645", donem:"1596–1645 (saltanat 1613–1645)", not:"Romanov hanedanının kurucusu çarı; Fetret (Smuta) döneminin ardından tahta çıktı",
+    kaynak:"TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"aleksandr1", tur:"yabanci-hukumdar", ad:"I. Aleksandr",             devlet:"rusya",     f:"1777", t:"1825", donem:"1777–1825 (saltanat 1801–1825)", not:"Napolyon savaşlarını yöneten, 1812 Bükreş Antlaşması'yla Besarabya'yı alan çar",
+    kaynak:"TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"nikolay1", tur:"yabanci-hukumdar", ad:"I. Nikolay",               devlet:"rusya",     f:"1796", t:"1855", donem:"1796–1855 (saltanat 1825–1855)", not:"Kırım Savaşı'nı (1853) başlatan, savaş sürerken ölen çar",
+    kaynak:"TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"nikolay2", tur:"yabanci-hukumdar", ad:"II. Nikolay",              devlet:"rusya",     f:"1868", t:"1918", donem:"1868–1918 (saltanat 1894–1917)", not:"Son Rus çarı; 93 Harbi sonrası dönemde I. Dünya Savaşı'na girdi, 1917'de tahttan çekildi",
+    kaynak:"TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"haci-giray", tur:"yabanci-hukumdar", ad:"Hacı Giray",               devlet:"kirim",     t:"1466", donem:"ö. 1466 (saltanat 1441–1466)", not:"Kırım Hanlığı'nın kurucusu; Altın Orda'dan bağımsızlığını ilan etti",
+    kaynak:"TDV: haci-giray-i" },
+{ id:"mengli-giray1", tur:"yabanci-hukumdar", ad:"I. Mengli Giray",          devlet:"kirim",     t:"1514", donem:"ö. 1514 (saltanat 1478–1514, aralıklı)", not:"1475 Kefe'nin fethinden sonra Osmanlı himayesini kabul eden, hanlığı Osmanlı'nın en sadık vasalı hâline getiren han",
+    ic_not_t:"eski: t:\"1515\" (donem \"ö. 1515 (saltanat 1478–1515, aralıklı)\") — TDV `giray` \"Mengli Giray'ın ölümünden (1514) sonra\", `mengli-giray-turbesi` \"(ö. 919/1514)\"; hicrî 919 = 1513/1514, 1515 iki adayın da dışında. §4 gereği TDV esas alındı",
+    kaynak:"TDV: giray (müstakil madde yok)" },
+{ id:"devlet-giray", tur:"yabanci-hukumdar", ad:"Devlet Giray", f:"1512",             devlet:"kirim",     t:"1577", donem:"ö. 1577 (saltanat 1551–1577)", not:"1571'de Moskova'yı yakan Kırım hanı",
+    kaynak:"TDV: devlet-giray" },
+{ id:"batu-han", tur:"yabanci-hukumdar", ad:"Batu Han",                 devlet:"altinorda", t:"1255", donem:"ö. 1255", not:"Cengiz Han'ın torunu; Altın Orda'nın kurucusu",
+    tartisma:"Ölüm yılı tartışmalıdır: TDV künyesi \"ö. 653/1256\" der; hicrî 653 yılı miladî 1255 ve 1256'ya düşer.",
+    ic_not_t:"öteki aday: 1256 — TDV künyesi \"ö. 653/1256\"; hicrî 653 = 1255/1256 — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)",
+    kaynak:"TDV: batu-han" },
+{ id:"ulug-muhammed", tur:"yabanci-hukumdar", ad:"Uluğ Muhammed",            devlet:"kazan",     t:"1445", donem:"ö. yak. 1445", not:"Altın Orda hanı iken Kazan Hanlığı'nı kurdu",
+    kaynak:"TDV: kazan-hanligi (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"kucum-han", tur:"yabanci-hukumdar", ad:"Küçüm Han",                devlet:"sibir-hanligi",     t:"1598", donem:"ö. yak. 1598", not:"Sibir Hanlığı'nın son hükümdarı; Rus (Yermak) ilerleyişine karşı uzun süre direndi",
+    tartisma:"Ölüm yılı kesin değildir: TDV künyesi yalnız \"ö. 1006/1598'den sonra\" der.",
+    kaynak:"TDV: kucum-han" },
+{ id:"edigu", tur:"yabanci-hukumdar", ad:"Edigü",                    devlet:"altinorda", t:"1420", donem:"ö. 1420", not:"Mangıt boyundan Altın Orda emîri; 1419'a kadar Altın Orda'yı fiilen idare etti. Nogay beylerinin atası sayılır — Nogay Ordası onun ölümünden sonra oğulları üzerinden doğdu", ic_not_not:"eski: Nogay Ordası'nın çekirdeğini oluşturan Mangıt beyi — devlet:\"nogay\" idi; nogay künyesi 1440'ta açılıyor, ölüm 1420 (D205 sınıf ③: ardıl yapı, kişi öncüle bağlanır · UMIT-W11-EDIGU-1006)", kaynak:"TDV: nogaylar — 'Mangıt boyundan Altın Orda emîri olan Edige'nin Nogay beylerinin atası sayıldığına' · 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' · TDV: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'", tartisma:"Ölüm yılı TDV'de iki değerle geçer: nogaylar '823'te (1420)' · mangitlar 'İdigu, ö. 1419'. Atlas 1420'yi tutar (hicrî+milâdî açık cümle). altin-orda-hanligi'ndeki 1419 idarenin SONUDUR, ölüm değil." },
 
 // --- Parti 4: Batı Avrupa — Fransa, İspanya, İngiltere, Papalık ---
-{ id:"francois1", tur:"yabanci-hukumdar", ad:"I. François",              devlet:"fransa",    f:"1494", t:"1547", donem:"1494–1547 (saltanat 1515–1547)", not:"1536'da Kanunî ile Kapitülasyonlar'ı imzalayan, Habsburg'a karşı Osmanlı ile fiilî ittifak arayan Fransız kralı" },
-{ id:"louis14", tur:"yabanci-hukumdar", ad:"XIV. Louis",               devlet:"fransa",    f:"1638", t:"1715", donem:"1638–1715 (saltanat 1643–1715)", not:"Fransa ile Osmanlı Devleti arasındaki ittifak 1536'da I. François ile Kanuni Sultan Süleyman döneminde kurulmuştu; XIV. Louis (saltanatı 1643-1715) bu geleneği Habsburg gücünü Avrupa'da dengelemenin bir aracı olarak sürdürdü ve Osmanlı'nın varlığını \"Avrupa dengesi\"nin vazgeçilmez bir unsuru saydı. Louis, Osmanlı ile resmî bir ittifaka girmekten kaçınsa da Türkler lehine dikkatli bir tarafsızlık izledi, onları Habsburglara karşı yeni bir cephe açmaya teşvik etti ve İmparatorlukla Osmanlı arasındaki çatışmayı Fransa'nın toprak çıkarları için kullandı. 1673'te Çanakkale'ye bir filo göndererek Katoliklerin tek koruyucusu sayıldığı yeni kapitülasyonlar elde etti. 1688'de, Osmanlı üzerindeki İmparatorluk baskısını azaltmak amacıyla Fransız ordularını Ren'in ötesine sürdü; 1709-10 kışında ise İstanbul'daki Fransız büyükelçisi, açlık tehlikesi yaşayan Fransa'yı kurtarmak için Osmanlı topraklarından tahıl sevkiyatları düzenledi." },
-{ id:"louis16", tur:"yabanci-hukumdar", ad:"XVI. Louis",               devlet:"fransa",    f:"1754", t:"1793", donem:"1754–1793 (saltanat 1774–1792)", not:"Fransız Devrimi'nde tahttan indirilen, krallığın ilgasıyla (1792) hükümdarlığı sona eren son eski rejim kralı" },
-{ id:"felipe2", tur:"yabanci-hukumdar", ad:"II. Felipe",               devlet:"ispanya",   f:"1527", t:"1598", donem:"1527–1598 (saltanat 1556–1598)", not:"21 Mayıs 1527'de Valladolid'de doğan II. Felipe, İspanya ve Portekiz tahtlarının hükümdarıydı. Osmanlı'nın Kıbrıs'ı Venedik'ten almaya girişmesi üzerine, Papa V. Pius'un arabuluculuğuyla 1571'de İspanya, Venedik Cumhuriyeti ve Papalık arasında Kutsal İttifak kuruldu; ittifakın kumandanlığına Felipe'nin üvey kardeşi Don Juan de Austria getirildi. 7 Ekim 1571'de gerçekleşen İnebahtı Savaşı'nda müttefik donanma Osmanlı filosunu ağır bir yenilgiye uğrattı; Türk donanmasının üçte birinden fazlası imha edildi. Zafer, Felipe'nin saltanatının en büyük askerî başarısı olarak anılır ve Osmanlı'nın Akdeniz'deki deniz üstünlüğünün ilk kez ciddi biçimde sarsıldığı an olarak kayda geçti; bununla birlikte Osmanlı, savaşın ardındaki bir yılda donanmasını büyük ölçüde yeniden inşa etti." },
-{ id:"elizabeth1", tur:"yabanci-hukumdar", ad:"I. Elizabeth",             devlet:"ingiltere", f:"1533", t:"1603", donem:"1533–1603 (saltanat 1558–1603)", not:"1570'te Papa V. Pius tarafından aforoz edilip Katolik Avrupa'dan siyasî olarak izole edilen I. Elizabeth (saltanatı 1558-1603), casusluk teşkilatının başındaki Francis Walsingham'ın tavsiyesiyle dönemin büyük güçlerinden Osmanlı Devleti ile stratejik bir yakınlaşma aradı; III. Murad ile aralarında on yedi yıl süren, hediye alışverişiyle desteklenen bir mektuplaşma sürdü. Bu diplomatik zeminde 1580'de III. Murad, tüccar William Harborne aracılığıyla İngiliz tacirlerine ilk kapitülasyon imtiyazını tanıdı; bunu izleyen yıl (1581) Elizabeth bir kraliyet fermanıyla \"Turkey Company\"yi (Türkiye Kumpanyası) kurdurdu. 1592'de bu şirket Venedik Company ile birleşerek Levant Company adını aldı ve İngiltere'nin Osmanlı topraklarıyla ticaretini tekelinde topladı; şirket 1825'e kadar varlığını sürdürdü. İttifak, İngiltere'ye Osmanlı pazarlarına doğrudan erişim sağlarken, ortak İspanyol/Habsburg rakibine karşı da bir siyasî fayda üretiyordu." },
-{ id:"victoria", tur:"yabanci-hukumdar", ad:"Kraliçe Victoria",         devlet:"ingiltere", f:"1819", t:"1901", donem:"1819–1901 (saltanat 1837–1901)", not:"1878'de Kıbrıs'ın idaresini devralan, 1877'de \"Hindistan İmparatoriçesi\" unvanını alan İngiltere kraliçesi" },
-{ id:"george5", tur:"yabanci-hukumdar", ad:"V. George",                devlet:"ingiltere", f:"1865", t:"1936", donem:"1865–1936 (saltanat 1910–1936)", not:"I. Dünya Savaşı'nda Osmanlı'ya karşı savaşan İngiltere kralı" },
-{ id:"pius5", tur:"yabanci-hukumdar", ad:"Papa V. Pius",             devlet:"papalik",   f:"1504", t:"1572", donem:"1504–1572 (papalık 1566–1572)", not:"1571'de Kutsal İttifak'ı kurup İnebahtı zaferini örgütleyen papa" },
+{ id:"francois1", tur:"yabanci-hukumdar", ad:"I. François",              devlet:"fransa",    f:"1494", t:"1547", donem:"1494–1547 (saltanat 1515–1547)", not:"1536'da Kanunî ile Kapitülasyonlar'ı imzalayan, Habsburg'a karşı Osmanlı ile fiilî ittifak arayan Fransız kralı",
+    kaynak:"TDV: fransa (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"louis14", tur:"yabanci-hukumdar", ad:"XIV. Louis",               devlet:"fransa",    f:"1638", t:"1715", donem:"1638–1715 (saltanat 1643–1715)", not:"Fransa ile Osmanlı Devleti arasındaki ittifak 1536'da I. François ile Kanuni Sultan Süleyman döneminde kurulmuştu; XIV. Louis (saltanatı 1643-1715) bu geleneği Habsburg gücünü Avrupa'da dengelemenin bir aracı olarak sürdürdü ve Osmanlı'nın varlığını \"Avrupa dengesi\"nin vazgeçilmez bir unsuru saydı. Louis, Osmanlı ile resmî bir ittifaka girmekten kaçınsa da Türkler lehine dikkatli bir tarafsızlık izledi, onları Habsburglara karşı yeni bir cephe açmaya teşvik etti ve İmparatorlukla Osmanlı arasındaki çatışmayı Fransa'nın toprak çıkarları için kullandı. 1673'te Çanakkale'ye bir filo göndererek Katoliklerin tek koruyucusu sayıldığı yeni kapitülasyonlar elde etti. 1688'de, Osmanlı üzerindeki İmparatorluk baskısını azaltmak amacıyla Fransız ordularını Ren'in ötesine sürdü; 1709-10 kışında ise İstanbul'daki Fransız büyükelçisi, açlık tehlikesi yaşayan Fransa'yı kurtarmak için Osmanlı topraklarından tahıl sevkiyatları düzenledi.",
+    kaynak:"TDV: fransa (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"louis16", tur:"yabanci-hukumdar", ad:"XVI. Louis",               devlet:"fransa",    f:"1754", t:"1793", donem:"1754–1793 (saltanat 1774–1792)", not:"Fransız Devrimi'nde tahttan indirilen, krallığın ilgasıyla (1792) hükümdarlığı sona eren son eski rejim kralı",
+    kaynak:"TDV: fransa (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"felipe2", tur:"yabanci-hukumdar", ad:"II. Felipe",               devlet:"ispanya",   f:"1527", t:"1598", donem:"1527–1598 (saltanat 1556–1598)", not:"21 Mayıs 1527'de Valladolid'de doğan II. Felipe, İspanya ve Portekiz tahtlarının hükümdarıydı. Osmanlı'nın Kıbrıs'ı Venedik'ten almaya girişmesi üzerine, Papa V. Pius'un arabuluculuğuyla 1571'de İspanya, Venedik Cumhuriyeti ve Papalık arasında Kutsal İttifak kuruldu; ittifakın kumandanlığına Felipe'nin üvey kardeşi Don Juan de Austria getirildi. 7 Ekim 1571'de gerçekleşen İnebahtı Savaşı'nda müttefik donanma Osmanlı filosunu ağır bir yenilgiye uğrattı; Türk donanmasının üçte birinden fazlası imha edildi. Zafer, Felipe'nin saltanatının en büyük askerî başarısı olarak anılır ve Osmanlı'nın Akdeniz'deki deniz üstünlüğünün ilk kez ciddi biçimde sarsıldığı an olarak kayda geçti; bununla birlikte Osmanlı, savaşın ardındaki bir yılda donanmasını büyük ölçüde yeniden inşa etti.",
+    kaynak:"TDV: ispanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"elizabeth1", tur:"yabanci-hukumdar", ad:"I. Elizabeth",             devlet:"ingiltere", f:"1533", t:"1603", donem:"1533–1603 (saltanat 1558–1603)", not:"1570'te Papa V. Pius tarafından aforoz edilip Katolik Avrupa'dan siyasî olarak izole edilen I. Elizabeth (saltanatı 1558-1603), casusluk teşkilatının başındaki Francis Walsingham'ın tavsiyesiyle dönemin büyük güçlerinden Osmanlı Devleti ile stratejik bir yakınlaşma aradı; III. Murad ile aralarında on yedi yıl süren, hediye alışverişiyle desteklenen bir mektuplaşma sürdü. Bu diplomatik zeminde 1580'de III. Murad, tüccar William Harborne aracılığıyla İngiliz tacirlerine ilk kapitülasyon imtiyazını tanıdı; bunu izleyen yıl (1581) Elizabeth bir kraliyet fermanıyla \"Turkey Company\"yi (Türkiye Kumpanyası) kurdurdu. 1592'de bu şirket Venedik Company ile birleşerek Levant Company adını aldı ve İngiltere'nin Osmanlı topraklarıyla ticaretini tekelinde topladı; şirket 1825'e kadar varlığını sürdürdü. İttifak, İngiltere'ye Osmanlı pazarlarına doğrudan erişim sağlarken, ortak İspanyol/Habsburg rakibine karşı da bir siyasî fayda üretiyordu.",
+    kaynak:"TDV: ingiltere (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"victoria", tur:"yabanci-hukumdar", ad:"Kraliçe Victoria",         devlet:"ingiltere", f:"1819", t:"1901", donem:"1819–1901 (saltanat 1837–1901)", not:"1878'de Kıbrıs'ın idaresini devralan, 1877'de \"Hindistan İmparatoriçesi\" unvanını alan İngiltere kraliçesi",
+    kaynak:"TDV: ingiltere (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"george5", tur:"yabanci-hukumdar", ad:"V. George",                devlet:"ingiltere", f:"1865", t:"1936", donem:"1865–1936 (saltanat 1910–1936)", not:"I. Dünya Savaşı'nda Osmanlı'ya karşı savaşan İngiltere kralı",
+    kaynak:"TDV: cihan-begum (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"pius5", tur:"yabanci-hukumdar", ad:"Papa V. Pius",             devlet:"papalik",   f:"1504", t:"1572", donem:"1504–1572 (papalık 1566–1572)", not:"1571'de Kutsal İttifak'ı kurup İnebahtı zaferini örgütleyen papa",
+    kaynak:"TDV: nigbolu (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 
 // --- Parti 5: Balkan devletleri — Sırp, Bulgar, Bosna, Eflak, Boğdan, Yunanistan ---
-{ id:"stefan-lazarevic", tur:"yabanci-hukumdar", ad:"Stefan Lazarević",         devlet:"sirp-despotlugu", t:"1427", donem:"ö. 1427", not:"Sırp Despotluğu'nun kurucusu; Ankara Savaşı'nda Yıldırım Bayezid'in yanında savaştı, sonra Osmanlı vasalı despot oldu" },
-{ id:"djuradj-brankovic", tur:"yabanci-hukumdar", ad:"Đurađ Branković",          devlet:"sirp-despotlugu", t:"1456", donem:"ö. 1456 (despotluk 1427–1456)", not:"Semendire'yi başkent yapan, II. Murad döneminde Osmanlı ile Macaristan arasında denge siyaseti izleyen Sırp despotu" },
-{ id:"kara-yorgi", tur:"yabanci-hukumdar", ad:"Kara Yorgi (Đorđe Petrović)", devlet:"sirbistan-prensligi", f:"1768", t:"1817", donem:"1768–1817", not:"1804 Birinci Sırp İsyanı'nın önderi" },
-{ id:"ivan-sisman", tur:"yabanci-hukumdar", ad:"İvan Şişman",              devlet:"bulgar-carligi", t:"1395", donem:"ö. 1395", not:"İkinci Bulgar İmparatorluğu'nun son çarı; Niğbolu Haçlı Seferi arifesinde Osmanlı'ya karşı direndi" },
-{ id:"tvrtko1", tur:"yabanci-hukumdar", ad:"Tvrtko I",                 devlet:"bosna-kralligi", t:"1391", donem:"ö. 1391 (krallık 1377–1391)", not:"Bosna Krallığı'nı ilan eden ilk Bosna kralı" },
-{ id:"basarab1", tur:"yabanci-hukumdar", ad:"Basarab I",                devlet:"eflak",     t:"1352", donem:"ö. yak. 1352", not:"Eflak Voyvodalığı'nın Macar tâbiliğinden bağımsızlığını kazanan kurucu voyvodası" },
-{ id:"mircea", tur:"yabanci-hukumdar", ad:"Mircea (cel Bătrân)",      devlet:"eflak",     t:"1418", donem:"ö. 1418 (voyvodalık 1386–1418)", not:"1395 Rovine Savaşı'nda Yıldırım Bayezid'e karşı direnen, sonra Osmanlı'ya haraca bağlanan Eflak voyvodası" },
-{ id:"vlad3", tur:"yabanci-hukumdar", ad:"III. Vlad (Kazıklı Voyvoda / Drakula)", devlet:"eflak", donem:"1431–1476/77", not:"1462'de Fatih'e karşı gece baskını düzenleyen, haraç ve elçi katliyle vassallığı reddeden Eflak voyvodası; aynı yıl Fatih'in seferiyle tahttan indirildi" },
-{ id:"bogdan1", tur:"yabanci-hukumdar", ad:"Bogdan I",                 devlet:"bogdan",    t:"1367", donem:"ö. 1367", not:"Boğdan Voyvodalığı'nın kurucusu" },
-{ id:"stefan-cel-mare", tur:"yabanci-hukumdar", ad:"Ştefan cel Mare",          devlet:"bogdan",    f:"1433", t:"1504", donem:"1433–1504 (voyvodalık 1457–1504)", not:"1475'te Vaslui'de Osmanlı ordusunu yenen, kısa süre sonra Valea Albă'da yenilen Boğdan voyvodası" },
-{ id:"othon1", tur:"yabanci-hukumdar", ad:"I. Othon (Otto)",          devlet:"yunanistan", f:"1815", t:"1867", donem:"1815–1867 (saltanat 1832–1862)", not:"Bağımsız Yunanistan'ın Bavyeralı ilk kralı" },
+{ id:"stefan-lazarevic", tur:"yabanci-hukumdar", ad:"Stefan Lazarević",         devlet:"sirp-despotlugu", t:"1427", donem:"ö. 1427", not:"Sırp Despotluğu'nun kurucusu; Ankara Savaşı'nda Yıldırım Bayezid'in yanında savaştı, sonra Osmanlı vasalı despot oldu",
+    kaynak:"TDV: semendire (müstakil madde yok)" },
+{ id:"djuradj-brankovic", tur:"yabanci-hukumdar", ad:"Đurađ Branković",          devlet:"sirp-despotlugu", t:"1456", donem:"ö. 1456 (despotluk 1427–1456)", not:"Semendire'yi başkent yapan, II. Murad döneminde Osmanlı ile Macaristan arasında denge siyaseti izleyen Sırp despotu",
+    kaynak:"TDV: semendire (müstakil madde yok)" },
+{ id:"kara-yorgi", tur:"yabanci-hukumdar", ad:"Kara Yorgi (Đorđe Petrović)", devlet:"sirbistan-prensligi", f:"1768", t:"1817", donem:"1768–1817", not:"1804 Birinci Sırp İsyanı'nın önderi",
+    kaynak:"TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"ivan-sisman", tur:"yabanci-hukumdar", ad:"İvan Şişman",              devlet:"bulgar-carligi", t:"1395", donem:"ö. 1395", not:"İkinci Bulgar İmparatorluğu'nun son çarı; Niğbolu Haçlı Seferi arifesinde Osmanlı'ya karşı direndi",
+    kaynak:"TDV: bayezid-i (müstakil madde yok)" },
+{ id:"tvrtko1", tur:"yabanci-hukumdar", ad:"Tvrtko I",                 devlet:"bosna-kralligi", t:"1391", donem:"ö. 1391 (krallık 1377–1391)", not:"Bosna Krallığı'nı ilan eden ilk Bosna kralı",
+    kaynak:"TDV: bosna-hersek (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"basarab1", tur:"yabanci-hukumdar", ad:"Basarab I",                devlet:"eflak",     t:"1352", donem:"ö. yak. 1352", not:"Eflak Voyvodalığı'nın Macar tâbiliğinden bağımsızlığını kazanan kurucu voyvodası",
+    kaynak:"TDV: eflak (müstakil madde yok)" },
+{ id:"mircea", tur:"yabanci-hukumdar", ad:"Mircea (cel Bătrân)",      devlet:"eflak",     t:"1418", donem:"ö. 1418 (voyvodalık 1386–1418)", not:"1395 Rovine Savaşı'nda Yıldırım Bayezid'e karşı direnen, sonra Osmanlı'ya haraca bağlanan Eflak voyvodası",
+    kaynak:"TDV: eflak (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"vlad3", tur:"yabanci-hukumdar", ad:"III. Vlad (Kazıklı Voyvoda / Drakula)", devlet:"eflak", donem:"1431–1476/77", not:"1462'de Fatih'e karşı gece baskını düzenleyen, haraç ve elçi katliyle vassallığı reddeden Eflak voyvodası; aynı yıl Fatih'in seferiyle tahttan indirildi",
+    kaynak:"TDV: eflak (müstakil madde yok)" },
+{ id:"bogdan1", tur:"yabanci-hukumdar", ad:"Bogdan I",                 devlet:"bogdan",    t:"1367", donem:"ö. 1367", not:"Boğdan Voyvodalığı'nın kurucusu",
+    kaynak:"TDV: moldova (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"stefan-cel-mare", tur:"yabanci-hukumdar", ad:"Ştefan cel Mare",          devlet:"bogdan",    f:"1433", t:"1504", donem:"1433–1504 (voyvodalık 1457–1504)", not:"1475'te Vaslui'de Osmanlı ordusunu yenen, kısa süre sonra Valea Albă'da yenilen Boğdan voyvodası",
+    kaynak:"TDV: bogdan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"othon1", tur:"yabanci-hukumdar", ad:"I. Othon (Otto)",          devlet:"yunanistan", f:"1815", t:"1867", donem:"1815–1867 (saltanat 1832–1862)", not:"Bağımsız Yunanistan'ın Bavyeralı ilk kralı",
+    kaynak:"TDV: yunanistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 
 // --- Parti 6: Arap ve İran dünyası — Suûdî, Şammar, Yemen, Umman, Kaçar, Afşar ---
-{ id:"nadir-sah", tur:"yabanci-hukumdar", ad:"Nadir Şah",                devlet:"afsar",     f:"1688", t:"1747", donem:"1688–1747 (saltanat 1736–1747)", not:"Safevî hanedanına resmen son veren, Hindistan'a kadar sefer düzenleyen İran hükümdarı; 1746 Kerden Antlaşması'yla Osmanlı sınırını 1639 hattına döndürdü" },
-{ id:"aga-muhammed-han-kacar", tur:"yabanci-hukumdar", ad:"Ağa Muhammed Han Kaçar",   devlet:"kacar",     t:"1797", donem:"ö. 1797 (saltanat 1789–1797)", not:"Kaçar hanedanının kurucusu; Zend hanedanına son verip İran'ı yeniden birleştirdi" },
-{ id:"feth-ali-sah", tur:"yabanci-hukumdar", ad:"Feth Ali Şah",             devlet:"kacar",     f:"1772", t:"1834", donem:"1772–1834 (saltanat 1797–1834)", not:"1821-23 son Osmanlı-İran savaşını ve 1823 Erzurum Antlaşması'nı yöneten Kaçar şahı" },
-{ id:"muhammed-sah-kacar", tur:"yabanci-hukumdar", ad:"Muhammed Şah Kaçar",       devlet:"kacar",     f:"1808", t:"1848", donem:"1808–1848 (saltanat 1834–1848)", not:"1847 İkinci Erzurum Antlaşması'nı (Şattülarap sınır anlaşmazlığının çözümü) imzalayan şah" },
-{ id:"nasiruddin-sah", tur:"yabanci-hukumdar", ad:"Nâsırüddin Şah",           devlet:"kacar",     f:"1831", t:"1896", donem:"1831–1896 (saltanat 1848–1896)", not:"Kaçar Devleti'nin en uzun saltanat süren şahı" },
-{ id:"muhammed-bin-suud", tur:"yabanci-hukumdar", ad:"Muhammed bin Suûd",        devlet:"suud-birinci", t:"1765", donem:"ö. 1765", not:"1744'te Muhammed b. Abdülvehhâb ile kurduğu ittifakla I. Suûdî Devleti'ni kuran Dir'iye emiri" },
-{ id:"muhammed-bin-abdulvehhab", tur:"alim", ad:"Muhammed bin Abdülvehhâb",             devlet:"suud-birinci", f:"1703", t:"1792", donem:"1703–1792", not:"Vehhâbî hareketinin kurucusu dinî önder; Muhammed bin Suûd ile ittifakı I. Suûdî Devleti'nin temelini attı" },
-{ id:"suud-bin-abdulaziz", tur:"yabanci-hukumdar", ad:"Suûd bin Abdülazîz",       devlet:"suud-birinci", t:"1814", donem:"ö. 1814 (emirlik 1803–1814)", not:"Mekke ve Medine'yi ele geçirip I. Suûdî Devleti'ni en geniş sınırlarına ulaştıran emir" },
-{ id:"turki-bin-abdullah", tur:"yabanci-hukumdar", ad:"Türkî bin Abdullah",       devlet:"suud-ikinci", t:"1834", donem:"ö. 1834", not:"II. Suûdî Devleti'ni kurup Riyad'ı geri alan emir" },
-{ id:"abdulaziz-bin-suud", tur:"yabanci-hukumdar", ad:"Abdülazîz bin Suûd (İbn Suûd)", devlet:"suud-ucuncu", f:"1876", t:"1953", donem:"1876–1953", not:"1902'de Riyad'ı alarak üçüncü Suûdî devletini kuran, 1920'de Asîr'i, 1921'de Şammar'ı (Hâil) topraklarına katan emir; site ufkunun (1923) dışında 1932'de Suûdî Arabistan Krallığı'nı ilan etti" },
-{ id:"muhammed-bin-resid", tur:"yabanci-hukumdar", ad:"Muhammed bin Reşid",       devlet:"sammar",    t:"1897", donem:"ö. 1897", not:"1891 Müleyde zaferiyle Necid'i ele geçiren Şammar (Hâil) emiri" },
-{ id:"yahya-hamiduddin", tur:"yabanci-hukumdar", ad:"İmam Yahyâ Hamîdüddin",    devlet:"yemen-zeydi", f:"1869", t:"1948", donem:"1869–1948", not:"1911 Da'an Antlaşması'yla imamlığına geniş özerklik tanınan Zeydî imamı" },
-{ id:"ahmed-bin-said", tur:"yabanci-hukumdar", ad:"Ahmed bin Said (Âl Bû Saîd)", devlet:"umman",  t:"1783", donem:"ö. 1783", not:"Portekizlileri Maskat'tan kesin olarak atan, Bû Saîd hanedanını kuran Umman imamı/sultanı" },
-{ id:"said-bin-sultan", tur:"yabanci-hukumdar", ad:"Said bin Sultan",          devlet:"umman-zengibar", f:"1791", t:"1856", donem:"1791–1856", not:"Başkentini Zengibar'a taşıyan, Umman-Zengibar sultanlığını Doğu Afrika kıyısına yayan hükümdar; ölümünde devlet iki ayrı sultanlığa bölündü" },
+{ id:"nadir-sah", tur:"yabanci-hukumdar", ad:"Nadir Şah",                devlet:"afsar",     f:"1688", t:"1747", donem:"1688–1747 (saltanat 1736–1747)", not:"Safevî hanedanına resmen son veren, Hindistan'a kadar sefer düzenleyen İran hükümdarı; 1746 Kerden Antlaşması'yla Osmanlı sınırını 1639 hattına döndürdü",
+    kaynak:"TDV: nadir-sah--iran (`nadir-sah--afgan` aynı adlı BAŞKA kişidir)" },
+{ id:"aga-muhammed-han-kacar", tur:"yabanci-hukumdar", ad:"Ağa Muhammed Han Kaçar", f:"1741",   devlet:"kacar",     t:"1797", donem:"ö. 1797 (saltanat 1789–1797)", not:"Kaçar hanedanının kurucusu; Zend hanedanına son verip İran'ı yeniden birleştirdi",
+    kaynak:"TDV: aga-muhammed-sah" },
+{ id:"feth-ali-sah", tur:"yabanci-hukumdar", ad:"Feth Ali Şah",             devlet:"kacar",     f:"1771", t:"1834", donem:"1771–1834 (saltanat 1797–1834)", not:"1821-23 son Osmanlı-İran savaşını ve 1823 Erzurum Antlaşması'nı yöneten Kaçar şahı",
+    ic_not_f:"eski: f:\"1772\" (donem 1772–1834) — TDV \"1771'de doğdu\". §4 gereği TDV esas alındı",
+    kaynak:"TDV: feth-ali-sah" },
+{ id:"muhammed-sah-kacar", tur:"yabanci-hukumdar", ad:"Muhammed Şah Kaçar",       devlet:"kacar",     f:"1808", t:"1848", donem:"1808–1848 (saltanat 1834–1848)", not:"1847 İkinci Erzurum Antlaşması'nı (Şattülarap sınır anlaşmazlığının çözümü) imzalayan şah",
+    kaynak:"TDV: muhammed-sah" },
+{ id:"nasiruddin-sah", tur:"yabanci-hukumdar", ad:"Nâsırüddin Şah",           devlet:"kacar",     f:"1831", t:"1896", donem:"1831–1896 (saltanat 1848–1896)", not:"Kaçar Devleti'nin en uzun saltanat süren şahı",
+    kaynak:"TDV: nasiruddin-sah" },
+{ id:"muhammed-bin-suud", tur:"yabanci-hukumdar", ad:"Muhammed bin Suûd",        devlet:"suud-birinci", t:"1765", donem:"ö. 1765", not:"1744'te Muhammed b. Abdülvehhâb ile kurduğu ittifakla I. Suûdî Devleti'ni kuran Dir'iye emiri",
+    kaynak:"TDV: muhammed-b-suud" },
+{ id:"muhammed-bin-abdulvehhab", tur:"alim", ad:"Muhammed bin Abdülvehhâb",             devlet:"suud-birinci", f:"1703", t:"1792", donem:"1703–1792", not:"Vehhâbî hareketinin kurucusu dinî önder; Muhammed bin Suûd ile ittifakı I. Suûdî Devleti'nin temelini attı",
+    kaynak:"TDV: muhammed-b-abdulvehhab" },
+{ id:"suud-bin-abdulaziz", tur:"yabanci-hukumdar", ad:"Suûd bin Abdülazîz", f:"1750",       devlet:"suud-birinci", t:"1814", donem:"ö. 1814 (emirlik 1803–1814)", not:"Mekke ve Medine'yi ele geçirip I. Suûdî Devleti'ni en geniş sınırlarına ulaştıran emir",
+    kaynak:"TDV: suud-b-abdulaziz" },
+{ id:"turki-bin-abdullah", tur:"yabanci-hukumdar", ad:"Türkî bin Abdullah",       devlet:"suud-ikinci", t:"1834", donem:"ö. 1834", not:"II. Suûdî Devleti'ni kurup Riyad'ı geri alan emir",
+    kaynak:"TDV: suudiler (müstakil madde yok)" },
+{ id:"abdulaziz-bin-suud", tur:"yabanci-hukumdar", ad:"Abdülazîz bin Suûd (İbn Suûd)", devlet:"suud-ucuncu", f:"1880", t:"1953", donem:"1880–1953", not:"1902'de Riyad'ı alarak üçüncü Suûdî devletini kuran, 1920'de Asîr'i, 1921'de Şammar'ı (Hâil) topraklarına katan emir; site ufkunun (1923) dışında 1932'de Suûdî Arabistan Krallığı'nı ilan etti",
+    ic_not_f:"eski: f:\"1876\" (donem 1876–1953) — TDV \"2 Aralık 1880'de … Riyad'da doğdu\". §4 gereği TDV esas alındı",
+    kaynak:"TDV: abdulaziz-b-suud" },
+{ id:"muhammed-bin-resid", tur:"yabanci-hukumdar", ad:"Muhammed bin Reşid",       devlet:"sammar",    t:"1897", donem:"ö. 1897", not:"1891 Müleyde zaferiyle Necid'i ele geçiren Şammar (Hâil) emiri",
+    kaynak:"TDV: suudiler (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"yahya-hamiduddin", tur:"yabanci-hukumdar", ad:"İmam Yahyâ Hamîdüddin",    devlet:"yemen-zeydi", f:"1869", t:"1948", donem:"1869–1948", not:"1911 Da'an Antlaşması'yla imamlığına geniş özerklik tanınan Zeydî imamı",
+    tartisma:"Doğum yılı kesin değildir: TDV \"muhtemelen 1286 (1869) yılında San'a'da doğdu\" der; hicrî 1286 miladî 1869 ve 1870'e düşer.",
+    kaynak:"TDV: mutevekkil-alellah-yahya-hamiduddin" },
+{ id:"ahmed-bin-said", tur:"yabanci-hukumdar", ad:"Ahmed bin Said (Âl Bû Saîd)", devlet:"umman",  t:"1783", donem:"ö. 1783", not:"Maskat'ı İranlılar'ın işgalinden kurtaran, Bû Saîd hanedanını kuran Umman imamı/sultanı",
+    tartisma:"Ölüm yılı kesin değildir: TDV'ye göre \"Ahmed b. Saîd'in ölüm tarihi kesin olarak bilinmemekte, ancak bazı araştırmalar bu tarihi 1783 olarak göstermektedir\".",
+    ic_not_not:"eski not: \"Portekizlileri Maskat'tan kesin olarak atan, …\" — TDV `maskat` \"Maskat'ı İranlılar'ın işgalinden kurtardı\", `bu-said-hanedani` Nâdir Şah kumandanına karşı",
+    kaynak:"TDV: bu-said-hanedani (müstakil madde yok)" },
+{ id:"said-bin-sultan", tur:"yabanci-hukumdar", ad:"Said bin Sultan",          devlet:"umman-zengibar", f:"1791", t:"1856", donem:"1791–1856", not:"Başkentini Zengibar'a taşıyan, Umman-Zengibar sultanlığını Doğu Afrika kıyısına yayan hükümdar; ölümünde devlet iki ayrı sultanlığa bölündü",
+    kaynak:"TDV: said-b-sultan" },
 
 // --- Parti 7: Kuzey Afrika ocakları, Fas, Sudan, Habeşistan ---
-{ id:"huseyin-bin-ali", tur:"yabanci-hukumdar", ad:"Hüseyin bin Ali",          devlet:"tunus-ocagi", t:"1740", donem:"ö. 1740 (beylik 1705–1735)", not:"Tunus Ocağı'nda kalıcı bey hanedanını (Hüseynîler) kuran, Osmanlı'ya bağlı özerkliği pekiştiren bey" },
-{ id:"ahmed-karamanli", tur:"yabanci-hukumdar", ad:"Ahmed Karamanlı",          devlet:"trablusgarp-ocagi", t:"1745", donem:"ö. 1745 (beylik 1711–1745)", not:"Trablusgarp'ta özerk Karamanlı hanedanlığını kuran ocak beyi" },
-{ id:"ahmed-el-mansur", tur:"yabanci-hukumdar", ad:"Ahmed el-Mansûr",          devlet:"fas",       f:"1549", t:"1603", donem:"1549–1603 (saltanat 1578–1603)", not:"1578 Üç Kral Savaşı'nda Osmanlı destekli tahta çıkan, 1591'de Songhay İmparatorluğu'nu yıkan Sâdî sultanı" },
-{ id:"muhammed-ahmed", tur:"yabanci-hukumdar", ad:"Muhammed Ahmed (Mehdî)",   devlet:"mehdi",     f:"1844", t:"1885", donem:"1844–1885", not:"Kendini Mehdî ilan edip Sudan'da Mısır-İngiliz idaresine son veren dinî-siyasi önder" },
-{ id:"abdullah-et-teayisi", tur:"yabanci-hukumdar", ad:"Halife Abdullah et-Teâyişî", devlet:"mehdi",   t:"1899", donem:"ö. 1899 (saltanat 1885–1898)", not:"Muhammed Ahmed'in halefi; Kitchener'in Ömdürman zaferiyle Mehdî Devleti onun döneminde yıkıldı" },
-{ id:"amara-dunkas", tur:"yabanci-hukumdar", ad:"Amara Dunkas",             devlet:"funj",      donem:"16. yy başı", not:"Func (Sennâr) Sultanlığı'nın kurucusu" },
-{ id:"ahmed-gran", tur:"yabanci-hukumdar", ad:"Ahmed Gran (Ahmed b. İbrâhim el-Gâzî)", devlet:"adal", t:"1543", donem:"ö. 1543", not:"Osmanlı'dan top-tüfek desteği alarak Habeşistan'ı istila eden Adal komutanı-imamı; Wayna Daga'da öldü, istila çöktü" },
-{ id:"gelawdewos", tur:"yabanci-hukumdar", ad:"Gelawdewos",               devlet:"habesistan", t:"1559", donem:"ö. 1559 (saltanat 1540–1559)", not:"1543 Wayna Daga'da Ahmed Gran'ı yenip Habeş bağımsızlığını kurtaran imparator" },
-{ id:"menelik2", tur:"yabanci-hukumdar", ad:"II. Menelik",              devlet:"habesistan", f:"1844", t:"1913", donem:"1844–1913 (saltanat 1889–1913)", not:"1896 Adva'da İtalya'yı yenip bağımsızlığını koruyan Habeşistan imparatoru" },
-{ id:"mevlay-muhammed", tur:"yabanci-hukumdar", ad:"Mevlây Muhammed",          devlet:"hafsi",     donem:"16. yy", not:"Son Hafsî hükümdarı; 1574'te Sinan Paşa'nın Tunus'u kesin fethi sonrası İstanbul'a gönderildi" },
+{ id:"huseyin-bin-ali", tur:"yabanci-hukumdar", ad:"Hüseyin bin Ali",          devlet:"tunus-ocagi", t:"1739", donem:"ö. 1739 (beylik 1705–1735)", not:"Tunus Ocağı'nda kalıcı bey hanedanını (Hüseynîler) kuran, Osmanlı'ya bağlı özerkliği pekiştiren bey",
+    ic_not_t:"eski: t:\"1740\" (donem \"ö. 1740 …\") — TDV \"16 Safer 1152'de (25 Mayıs 1739) … öldürüldü\". §4 gereği TDV esas alındı",
+    kaynak:"TDV: huseyin-pasa-tunus-beyi" },
+{ id:"ahmed-karamanli", tur:"yabanci-hukumdar", ad:"Ahmed Karamanlı",          devlet:"trablusgarp-ocagi", t:"1745", donem:"ö. 1745 (beylik 1711–1745)", not:"Trablusgarp'ta özerk Karamanlı hanedanlığını kuran ocak beyi",
+    kaynak:"TDV: karamanli (müstakil madde yok)" },
+{ id:"ahmed-el-mansur", tur:"yabanci-hukumdar", ad:"Ahmed el-Mansûr",          devlet:"fas",       f:"1549", t:"1603", donem:"1549–1603 (saltanat 1578–1603)", not:"1578 Üç Kral Savaşı'nda Osmanlı destekli tahta çıkan, 1591'de Songhay İmparatorluğu'nu yıkan Sâdî sultanı",
+    kaynak:"TDV: ahmed-el-mansur" },
+{ id:"muhammed-ahmed", tur:"yabanci-hukumdar", ad:"Muhammed Ahmed (Mehdî)",   devlet:"mehdi",     f:"1844", t:"1885", donem:"1844–1885", not:"Kendini Mehdî ilan edip Sudan'da Mısır-İngiliz idaresine son veren dinî-siyasi önder",
+    tartisma:"Doğum yılı tartışmalıdır: TDV'ye göre 1258 (1842) veya 1260 (1844) yılında Lebeb adasında doğdu.",
+    ic_not_f:"öteki aday: 1258 (1842) — TDV \"1258 (1842) veya 1260 yılında … doğdu\" — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)",
+    kaynak:"TDV: muhammed-ahmed-el-mehdi" },
+{ id:"abdullah-et-teayisi", tur:"yabanci-hukumdar", ad:"Halife Abdullah et-Teâyişî", devlet:"mehdi",   t:"1899", donem:"ö. 1899 (saltanat 1885–1898)", not:"Muhammed Ahmed'in halefi; Kitchener'in Ömdürman zaferiyle Mehdî Devleti onun döneminde yıkıldı",
+    kaynak:"TDV: abdullah-b-muhammed-et-teayisi" },
+{ id:"amara-dunkas", tur:"yabanci-hukumdar", ad:"Amara Dunkas",             devlet:"funj",      donem:"16. yy başı", not:"Func (Sennâr) Sultanlığı'nın kurucusu",
+    kaynak:"TDV: func (müstakil madde yok)" },
+{ id:"ahmed-gran", tur:"yabanci-hukumdar", ad:"Ahmed Gran (Ahmed b. İbrâhim el-Gâzî)", devlet:"adal", t:"1543", donem:"ö. 1543", not:"Osmanlı'dan top-tüfek desteği alarak Habeşistan'ı istila eden Adal komutanı-imamı; Wayna Daga'da öldü, istila çöktü",
+    kaynak:"TDV: ahmed-el-mucahid" },
+{ id:"gelawdewos", tur:"yabanci-hukumdar", ad:"Gelawdewos",               devlet:"habesistan", t:"1559", donem:"ö. 1559 (saltanat 1540–1559)", not:"1543 Wayna Daga'da Ahmed Gran'ı yenip Habeş bağımsızlığını kurtaran imparator",
+    kaynak:"TDV: etiyopya (müstakil madde yok)" },
+{ id:"menelik2", tur:"yabanci-hukumdar", ad:"II. Menelik",              devlet:"habesistan", f:"1844", t:"1913", donem:"1844–1913 (saltanat 1889–1913)", not:"1896 Adva'da İtalya'yı yenip bağımsızlığını koruyan Habeşistan imparatoru",
+    kaynak:"TDV: etiyopya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"mevlay-muhammed", tur:"yabanci-hukumdar", ad:"Mevlây Muhammed",          devlet:"hafsi",     donem:"16. yy", not:"Son Hafsî hükümdarı; 1574'te Sinan Paşa'nın Tunus'u kesin fethi sonrası İstanbul'a gönderildi",
+    kaynak:"TDV: hafsiler (müstakil madde yok; `mevlay-muhammed-*` başlıkları Fas hükümdarlarıdır, bu kişi değil)" },
 
 // --- Parti 8: Uzak dünya — yalnız data/devletler.js kronolojisinde adı geçenler ---
 // Orta Asya
-{ id:"tarmasirin-han", tur:"yabanci-hukumdar", ad:"Tarmaşirin Han",           devlet:"cagatay",   donem:"saltanat yak. 1326–1334", not:"Çağatay Hanlığı'nda İslâmiyet'i kabul edip Alâeddin adını alan han" },
-{ id:"seybani-han", tur:"yabanci-hukumdar", ad:"Şeybânî Han",              devlet:"buhara",    f:"1451", t:"1510", donem:"1451–1510", not:"Timurlu hâkimiyetine Orta Asya'da son verip Buhara Hanlığı'nı kuran Özbek hanı" },
-{ id:"ilbars-han", tur:"yabanci-hukumdar", ad:"İlbars Han",               devlet:"hive",      donem:"16. yy başı", not:"Özbek-Türkmen güçleriyle Harzem'i ele geçirip Hive Hanlığı'nı kuranlardan" },
-{ id:"kerey-han", tur:"yabanci-hukumdar", ad:"Kerey Han",                devlet:"kazak-hanligi", donem:"15. yy", not:"Kazak Hanlığı'nın kurucularından" },
-{ id:"kenesari-han", tur:"yabanci-hukumdar", ad:"Kenesarı Han",             devlet:"kazak-hanligi", t:"1847", donem:"ö. 1847", not:"Rus ilerleyişine karşı direnen son bağımsız Kazak hanı" },
-{ id:"erdeni-batur", tur:"yabanci-hukumdar", ad:"Erdeni Batur",             devlet:"cungar",    t:"1653", donem:"ö. 1653", not:"Oyrat boylarını birleştirip Cungar Hanlığı'nı kuran han" },
-{ id:"tsevang-rabtan", tur:"yabanci-hukumdar", ad:"Tsevang Rabtan",           devlet:"cungar",    t:"1727", donem:"ö. 1727", not:"Cungar Hanlığı'nı Taşkent'e kadar genişletip zirveye taşıyan han" },
-{ id:"yakub-bey-kasgar", tur:"yabanci-hukumdar", ad:"Yâkub Bey (Kaşgar)",       devlet:"yakub-beg", t:"1877", donem:"ö. 1877", not:"Hokand'dan gelen kuvvetlerle Kaşgar'a hâkim olup Doğu Türkistan'da bağımsız emirlik kuran komutan" },
+{ id:"tarmasirin-han", tur:"yabanci-hukumdar", ad:"Tarmaşirin Han",           devlet:"cagatay",   donem:"saltanat yak. 1326–1334", not:"Çağatay Hanlığı'nda İslâmiyet'i kabul edip Alâeddin adını alan han",
+    kaynak:"TDV: cagatay-hanligi (müstakil madde yok)" },
+{ id:"seybani-han", tur:"yabanci-hukumdar", ad:"Şeybânî Han",              devlet:"buhara",    f:"1451", t:"1510", donem:"1451–1510", not:"Timurlu hâkimiyetine Orta Asya'da son verip Buhara Hanlığı'nı kuran Özbek hanı",
+    kaynak:"TDV: seybani-han" },
+{ id:"ilbars-han", tur:"yabanci-hukumdar", ad:"İlbars Han", t:"1525",               devlet:"hive",      donem:"16. yy başı", not:"Özbek-Türkmen güçleriyle Harzem'i ele geçirip Hive Hanlığı'nı kuranlardan",
+    kaynak:"TDV: ilbars-han" },
+{ id:"kerey-han", tur:"yabanci-hukumdar", ad:"Kerey Han",                devlet:"kazak-hanligi", donem:"15. yy", not:"Kazak Hanlığı'nın kurucularından",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan 'Kerey Han', 'Kerey'; okunan `kazakistan`, `kazaklar`, `ebulhayr-han` — ilk Kazak birliği Burunduk/Kasım Han'a bağlanır, `ebulhayr-han`daki 'iki prens' adsızdır; 'Kerey' TDV'de yalnız boy adı; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"kenesari-han", tur:"yabanci-hukumdar", ad:"Kenesarı Han",             devlet:"kazak-hanligi", t:"1847", donem:"ö. 1847", not:"Rus ilerleyişine karşı direnen son bağımsız Kazak hanı",
+    kaynak:"TDV: kazakistan (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"erdeni-batur", tur:"yabanci-hukumdar", ad:"Erdeni Batur",             devlet:"cungar",    t:"1653", donem:"ö. 1653", not:"Oyrat boylarını birleştirip Cungar Hanlığı'nı kuran han",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `kalmuklar` — Cungarya'da Oyrat hanlığını yeniden canlandıran babası Hara Hula'dır; Erdeni Batur adı geçmiyor; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"tsevang-rabtan", tur:"yabanci-hukumdar", ad:"Tsevang Rabtan",           devlet:"cungar",    t:"1727", donem:"ö. 1727", not:"Cungar Hanlığı'nı Taşkent'e kadar genişletip zirveye taşıyan han",
+    kaynak:"TDV: kalmuklar (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"yakub-bey-kasgar", tur:"yabanci-hukumdar", ad:"Yâkub Bey (Kaşgar)",       devlet:"yakub-beg", t:"1877", donem:"ö. 1877", not:"Hokand'dan gelen kuvvetlerle Kaşgar'a hâkim olup Doğu Türkistan'da bağımsız emirlik kuran komutan",
+    tartisma:"Doğum yılı tartışmalıdır: TDV'ye göre 1820 veya 1826-1827 yılında Pişkent'te doğdu.",
+    kaynak:"TDV: yakub-beg (`yakub-bey` slug'ı aynı adlı BAŞKA kişidir)" },
 // Güney Asya
-{ id:"kutbuddin-aybek", tur:"yabanci-hukumdar", ad:"Kutbüddin Aybek",          devlet:"delhi-sultanligi", t:"1210", donem:"ö. 1210", not:"Delhi Sultanlığı'nı (Memlûk/Köle hanedanı) kuran ilk sultan" },
-{ id:"ibrahim-ludi", tur:"yabanci-hukumdar", ad:"İbrâhim Lûdî",             devlet:"delhi-sultanligi", t:"1526", donem:"ö. 1526", not:"Birinci Panipat Savaşı'nda Bâbür'e yenilip öldürülen son Delhi sultanı" },
-{ id:"babur", tur:"yabanci-hukumdar", ad:"Bâbür (Zahîrüddin Muhammed)", devlet:"babur-imparatorlugu", f:"1483", t:"1530", donem:"1483–1530", not:"Zahîrüddin Muhammed Bâbür, TDV İslâm Ansiklopedisi'ne göre 6 Muharrem 888 (14 Şubat 1483) tarihinde Fergana'da doğdu; babası Emîr Timur'un dördüncü kuşaktan torunu Ömer Şeyh Mirza, annesi Cengiz Han soyundan gelen Kutluk Nigâr Hanım'dı. On iki yaşında Fergana hükümdarı oldu; 1497 ve 1501'de kısa süreliğine Semerkant'ı ele geçirdiyse de Özbek hükümdarı Muhammed Şeybânî Han karşısında tutunamadı. 1504'te az sayıda adamıyla Hindukuş dağlarını aşarak Kâbil'e indi, şehri kan dökmeden ele geçirip buraya yerleşti ve 1526'ya kadar burada hüküm sürdü. Nisan 1526'da, Osmanlı savaş nizamını uygulayıp ateşli silâhlar kullanan Bâbür, Pânîpet'te Delhi Sultanı İbrâhim-i Lûdî'yi büyük bir yenilgiye uğrattı; İbrâhim-i Lûdî savaşta öldürüldü ve Lûdî Sultanlığı sona erdi. Aynı yıl Delhi ve Agra'yı ele geçirerek Bâbürlü hânedanını kurdu. 6 Cemâziyelevvel 937 (26 Aralık 1530) tarihinde Agra'da vefat etti; yerine oğlu Hümâyun geçti." },
-{ id:"ekber", tur:"yabanci-hukumdar", ad:"Ekber",                    devlet:"babur-imparatorlugu", f:"1542", t:"1605", donem:"1542–1605 (saltanat 1556–1605)", not:"Ekber Şah, TDV İslâm Ansiklopedisi'ne göre 4 Receb 949 (14 Ekim 1542) tarihinde Sind'deki Ömerkût Kalesi'nde doğdu. Babası Hümâyun'un ölümü üzerine on dört yaşındayken, Delhi'de bulunan Osmanlı denizcisi Seydi Ali Reis'in tavsiyesiyle babasının ölümü bir süre gizli tutuldu; Ekber, 3 Rebîülâhir 963 (15 Şubat 1556) tarihinde Celâleddin Ekber Şah unvanıyla tahta çıktı. Hükümdarlığının ilk yılında Hindu kumandan Hemu Delhi'yi ele geçirdiyse de 5 Kasım 1556'daki Pânîpet Savaşı'nda Bayram Han kumandasındaki Bâbürlü ordusu Hemu'yu yenerek şehri geri aldı. Saltanatının ilk yıllarından itibaren yayılma siyaseti izleyen Ekber Şah, Mâlvâ, Gondvana, Çitor, Gucerât, Bengal, Keşmir, Sind, Belûcistan ve Kandehar'ı ele geçirerek Hindistan'ı tek bir merkezî idare altında toplayan ilk hükümdar oldu. Mansabdârlık rütbe sistemi, eyalet (sûbe) teşkilâtı, gizli haber alma örgütü ve damga usulü gibi idari yenilikler getirdi. 1582 yılında İslâm, Hıristiyanlık, Hinduizm ve Budizm'in ilkelerini birleştiren \"Dîn-i İlâhî\" adlı yeni bir din kurdu. Ekber Şah 16 Ekim 1605'te şiddetli bir hastalık sonucu vefat etti." },
-{ id:"evrengzib", tur:"yabanci-hukumdar", ad:"Evrengzîb",                devlet:"babur-imparatorlugu", f:"1618", t:"1707", donem:"1618–1707 (saltanat 1658–1707)", not:"Evrengzîb, 15 Zilkade 1027 (3 Kasım 1618) tarihinde Mâlvâ'da (Dhod) dünyaya geldi; Bâbürlü hükümdarı Şah Cihan ile Mümtaz Mahal'in üçüncü oğluydu. 1657'de babasının hastalanması üzerine kardeşleri Dârâ Şükûh, Şah Şücâ' ve Murad Bahş ile arasında çıkan taht kavgasını kazandı; kardeşlerini bertaraf ettirdi, babasını Agra Kalesi'nde hapsettirerek 31 Temmuz 1658'de Delhi'de tahta çıktı (ikinci cülus töreni 5 Haziran 1659). Hükümdarlığı boyunca imparatorluğu tarihinin en geniş sınırlarına ulaştırdı: kuzeyde Asam ve Kuçbihâr'ı fethetti (1661-1663), güneyde Tencür ve Triçinapali'ye kadar genişledi. 28 Zilkade 1118'de (3 Mart 1707) vefat etti; Evrengâbâd yakınlarındaki Huldâbâd'da defnedildi. TDV'ye göre ölümünün ardından Sihler'in, Maratalar'ın ve Zutlar'ın çıkardığı isyanlar Bâbürlü Devleti'nin XVIII. yüzyıl ortalarında zayıflamasına yol açtı." },
-{ id:"bahadir-sah2", tur:"yabanci-hukumdar", ad:"II. Bahadır Şah",          devlet:"babur-imparatorlugu", f:"1775", t:"1862", donem:"1775–1862", not:"1857 Büyük Ayaklanması bastırıldıktan sonra tahttan indirilip sürgüne gönderilen son Bâbürlü imparatoru" },
-{ id:"alaeddin-hasan-behmen-sah", tur:"yabanci-hukumdar", ad:"Alâeddin Hasan Behmen Şah", devlet:"behmeni",  t:"1358", donem:"ö. 1358", not:"Delhi'ye isyan edip Dekken'de Behmenî Sultanlığı'nı kuran hükümdar" },
-{ id:"harihara1", tur:"yabanci-hukumdar", ad:"Harihara I",               devlet:"vijayanagara", donem:"14. yy", not:"Kardeşi Bukka ile birlikte Vijayanagara İmparatorluğu'nu kuran hükümdar" },
-{ id:"krisnadevaraya", tur:"yabanci-hukumdar", ad:"Krişnadevaraya",           devlet:"vijayanagara", donem:"saltanat 1509–1529", not:"Vijayanagara İmparatorluğu'nu zirveye taşıyan hükümdar" },
-{ id:"sivaci", tur:"yabanci-hukumdar", ad:"Şivâcî",                   devlet:"maratha",   f:"1630", t:"1680", donem:"1630–1680", not:"Reygad'da taç giyerek Maratha Konfederasyonu'nun temelini atan hükümdar" },
-{ id:"rancit-singh", tur:"yabanci-hukumdar", ad:"Rançit Singh",             devlet:"sih-imparatorlugu", f:"1780", t:"1839", donem:"1780–1839", not:"Lahor'da taç giyip Pencap'ta Sih İmparatorluğu'nu kuran Maharaca" },
-{ id:"haydar-ali", tur:"yabanci-hukumdar", ad:"Haydar Ali",               devlet:"meysur",    t:"1782", donem:"ö. 1782", not:"Meysûr'da Vodeyar racasından fiilî iktidarı ele geçiren komutan-hükümdar" },
-{ id:"tipu-sultan", tur:"yabanci-hukumdar", ad:"Tipu Sultan",              devlet:"meysur",    f:"1750", t:"1799", donem:"1750–1799", not:"Asıl adı Fetih Ali olan Tipu Sultan, 1750'de Devanahalli'de doğdu. Babası Haydar Ali Han, Mysore Sultanlığı'nın kurucusu olup bölgede İngiliz nüfuzuna karşı direniş gösteriyordu. Tipu, Şubat 1782'de cereyan eden İkinci Anglo-Mysore Savaşı'nda İngilizleri mağlûp ederek büyük ün kazandı ve aynı yılın sonunda babasının vefatı üzerine tahta geçip bölgedeki küçük beylikleri kendi topraklarına kattı. 1786'da İstanbul'a 700 kişilik bir elçilik heyeti göndererek Osmanlı padişahı I. Abdülhamid'den İngilizlere karşı askerî yardım istedi; ancak Osmanlı Devleti o sırada başka bir savaşla meşgul olduğundan bu talebi karşılayamadı. Saltanatı boyunca tarımı geliştirmeye, baraj ve yol inşasına önem verdi ve roket teknolojisinde öncü uygulamalarıyla tanınır. Tipu Sultan, Dördüncü Anglo-Mysore Savaşı sırasında Srirangapatam Muharebesi'nde yenilerek 29 Zilkade 1213 / 4 Mayıs 1799'da hayatını kaybetti; türbesi Srirangapatam'dadır. Ölümünün ardından Mysore toprakları İngiliz kontrolüne geçti." },
+{ id:"kutbuddin-aybek", tur:"yabanci-hukumdar", ad:"Kutbüddin Aybek",          devlet:"delhi-sultanligi", t:"1210", donem:"ö. 1210", not:"Delhi Sultanlığı'nı (Memlûk/Köle hanedanı) kuran ilk sultan",
+    kaynak:"TDV: aybeg-kutbuddin" },
+{ id:"ibrahim-ludi", tur:"yabanci-hukumdar", ad:"İbrâhim Lûdî",             devlet:"delhi-sultanligi", t:"1526", donem:"ö. 1526", not:"Birinci Panipat Savaşı'nda Bâbür'e yenilip öldürülen son Delhi sultanı",
+    kaynak:"TDV: ibrahim-i-ludi" },
+{ id:"babur", tur:"yabanci-hukumdar", ad:"Bâbür (Zahîrüddin Muhammed)", devlet:"babur-imparatorlugu", f:"1483", t:"1530", donem:"1483–1530", not:"Zahîrüddin Muhammed Bâbür, TDV İslâm Ansiklopedisi'ne göre 6 Muharrem 888 (14 Şubat 1483) tarihinde Fergana'da doğdu; babası Emîr Timur'un dördüncü kuşaktan torunu Ömer Şeyh Mirza, annesi Cengiz Han soyundan gelen Kutluk Nigâr Hanım'dı. On iki yaşında Fergana hükümdarı oldu; 1497 ve 1501'de kısa süreliğine Semerkant'ı ele geçirdiyse de Özbek hükümdarı Muhammed Şeybânî Han karşısında tutunamadı. 1504'te az sayıda adamıyla Hindukuş dağlarını aşarak Kâbil'e indi, şehri kan dökmeden ele geçirip buraya yerleşti ve 1526'ya kadar burada hüküm sürdü. Nisan 1526'da, Osmanlı savaş nizamını uygulayıp ateşli silâhlar kullanan Bâbür, Pânîpet'te Delhi Sultanı İbrâhim-i Lûdî'yi büyük bir yenilgiye uğrattı; İbrâhim-i Lûdî savaşta öldürüldü ve Lûdî Sultanlığı sona erdi. Aynı yıl Delhi ve Agra'yı ele geçirerek Bâbürlü hânedanını kurdu. 6 Cemâziyelevvel 937 (26 Aralık 1530) tarihinde Agra'da vefat etti; yerine oğlu Hümâyun geçti.",
+    kaynak:"TDV: babur" },
+{ id:"ekber", tur:"yabanci-hukumdar", ad:"Ekber",                    devlet:"babur-imparatorlugu", f:"1542", t:"1605", donem:"1542–1605 (saltanat 1556–1605)", not:"Ekber Şah, TDV İslâm Ansiklopedisi'ne göre 4 Receb 949 (14 Ekim 1542) tarihinde Sind'deki Ömerkût Kalesi'nde doğdu. Babası Hümâyun'un ölümü üzerine on dört yaşındayken, Delhi'de bulunan Osmanlı denizcisi Seydi Ali Reis'in tavsiyesiyle babasının ölümü bir süre gizli tutuldu; Ekber, 3 Rebîülâhir 963 (15 Şubat 1556) tarihinde Celâleddin Ekber Şah unvanıyla tahta çıktı. Hükümdarlığının ilk yılında Hindu kumandan Hemu Delhi'yi ele geçirdiyse de 5 Kasım 1556'daki Pânîpet Savaşı'nda Bayram Han kumandasındaki Bâbürlü ordusu Hemu'yu yenerek şehri geri aldı. Saltanatının ilk yıllarından itibaren yayılma siyaseti izleyen Ekber Şah, Mâlvâ, Gondvana, Çitor, Gucerât, Bengal, Keşmir, Sind, Belûcistan ve Kandehar'ı ele geçirerek Hindistan'ı tek bir merkezî idare altında toplayan ilk hükümdar oldu. Mansabdârlık rütbe sistemi, eyalet (sûbe) teşkilâtı, gizli haber alma örgütü ve damga usulü gibi idari yenilikler getirdi. 1582 yılında İslâm, Hıristiyanlık, Hinduizm ve Budizm'in ilkelerini birleştiren \"Dîn-i İlâhî\" adlı yeni bir din kurdu. Ekber Şah 16 Ekim 1605'te şiddetli bir hastalık sonucu vefat etti.",
+    kaynak:"TDV: ekber-sah" },
+{ id:"evrengzib", tur:"yabanci-hukumdar", ad:"Evrengzîb",                devlet:"babur-imparatorlugu", f:"1618", t:"1707", donem:"1618–1707 (saltanat 1658–1707)", not:"Evrengzîb, 15 Zilkade 1027 (3 Kasım 1618) tarihinde Mâlvâ'da (Dhod) dünyaya geldi; Bâbürlü hükümdarı Şah Cihan ile Mümtaz Mahal'in üçüncü oğluydu. 1657'de babasının hastalanması üzerine kardeşleri Dârâ Şükûh, Şah Şücâ' ve Murad Bahş ile arasında çıkan taht kavgasını kazandı; kardeşlerini bertaraf ettirdi, babasını Agra Kalesi'nde hapsettirerek 31 Temmuz 1658'de Delhi'de tahta çıktı (ikinci cülus töreni 5 Haziran 1659). Hükümdarlığı boyunca imparatorluğu tarihinin en geniş sınırlarına ulaştırdı: kuzeyde Asam ve Kuçbihâr'ı fethetti (1661-1663), güneyde Tencür ve Triçinapali'ye kadar genişledi. 28 Zilkade 1118'de (3 Mart 1707) vefat etti; Evrengâbâd yakınlarındaki Huldâbâd'da defnedildi. TDV'ye göre ölümünün ardından Sihler'in, Maratalar'ın ve Zutlar'ın çıkardığı isyanlar Bâbürlü Devleti'nin XVIII. yüzyıl ortalarında zayıflamasına yol açtı.",
+    kaynak:"TDV: evrengzib" },
+{ id:"bahadir-sah2", tur:"yabanci-hukumdar", ad:"II. Bahadır Şah",          devlet:"babur-imparatorlugu", f:"1775", t:"1862", donem:"1775–1862", not:"1857 Büyük Ayaklanması bastırıldıktan sonra tahttan indirilip sürgüne gönderilen son Bâbürlü imparatoru",
+    kaynak:"TDV: bahadir-sah-ii" },
+{ id:"alaeddin-hasan-behmen-sah", tur:"yabanci-hukumdar", ad:"Alâeddin Hasan Behmen Şah", devlet:"behmeni",  t:"1358", donem:"ö. 1358", not:"Delhi'ye isyan edip Dekken'de Behmenî Sultanlığı'nı kuran hükümdar",
+    ic_not_t:"dolaylı dayanak: TDV `behmeniler` 'Alâeddin ölünce yerine I. Muhammed Şah (1358-1375) geçti' der; yıl halefin saltanat parantezinden çıkarılır — ölüm yılı kaynakta yok sayıldı, yıl cümlede yazmıyor (koordinatör K2)",
+    kaynak:"TDV: behmeniler (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"harihara1", tur:"yabanci-hukumdar", ad:"Harihara I",               devlet:"vijayanagara", donem:"14. yy", not:"Kardeşi Bukka ile birlikte Vijayanagara İmparatorluğu'nu kuran hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `behmeniler` (yalnız 'Vicayanagarlı II. Harihara' — BAŞKA kişi), `hindistan` ('Horihara racalıkları', kişi değil); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"krisnadevaraya", tur:"yabanci-hukumdar", ad:"Krişnadevaraya",           devlet:"vijayanagara", donem:"saltanat 1509–1529", not:"Vijayanagara İmparatorluğu'nu zirveye taşıyan hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `hindistan`, `adilsahiler`, `behmeniler`, `delhi-sultanligi` — Vicayanagar anılır, bu hükümdar anılmaz; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"sivaci", tur:"yabanci-hukumdar", ad:"Şivâcî",                   devlet:"maratha",   f:"1630", t:"1680", donem:"1630–1680", not:"Reygad'da taç giyerek Maratha Konfederasyonu'nun temelini atan hükümdar",
+    kaynak:"TDV: adilsahiler (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"rancit-singh", tur:"yabanci-hukumdar", ad:"Rançit Singh",             devlet:"sih-imparatorlugu", f:"1780", t:"1839", donem:"1780–1839", not:"Lahor'da taç giyip Pencap'ta Sih İmparatorluğu'nu kuran Maharaca",
+    kaynak:"TDV: amritsar (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"haydar-ali", tur:"yabanci-hukumdar", ad:"Haydar Ali", f:"1720",               devlet:"meysur",    t:"1782", donem:"ö. 1782", not:"Meysûr'da Vodeyar racasından fiilî iktidarı ele geçiren komutan-hükümdar",
+    kaynak:"TDV: haydar-ali-han" },
+{ id:"tipu-sultan", tur:"yabanci-hukumdar", ad:"Tipu Sultan",              devlet:"meysur",    f:"1750", t:"1799", donem:"1750–1799", not:"Asıl adı Fetih Ali olan Tipu Sultan, 1750'de Devanahalli'de doğdu. Babası Haydar Ali Han, Mysore Sultanlığı'nın kurucusu olup bölgede İngiliz nüfuzuna karşı direniş gösteriyordu. Tipu, Şubat 1782'de cereyan eden İkinci Anglo-Mysore Savaşı'nda İngilizleri mağlûp ederek büyük ün kazandı ve aynı yılın sonunda babasının vefatı üzerine tahta geçip bölgedeki küçük beylikleri kendi topraklarına kattı. 1786'da İstanbul'a 700 kişilik bir elçilik heyeti göndererek Osmanlı padişahı I. Abdülhamid'den İngilizlere karşı askerî yardım istedi; ancak Osmanlı Devleti o sırada başka bir savaşla meşgul olduğundan bu talebi karşılayamadı. Saltanatı boyunca tarımı geliştirmeye, baraj ve yol inşasına önem verdi ve roket teknolojisinde öncü uygulamalarıyla tanınır. Tipu Sultan, Dördüncü Anglo-Mysore Savaşı sırasında Srirangapatam Muharebesi'nde yenilerek 29 Zilkade 1213 / 4 Mayıs 1799'da hayatını kaybetti; türbesi Srirangapatam'dadır. Ölümünün ardından Mysore toprakları İngiliz kontrolüne geçti.",
+    kaynak:"TDV: tipu-sultan" },
 // Doğu Asya
-{ id:"zhao-kuangyin", tur:"yabanci-hukumdar", ad:"Zhao Kuangyin (Song Taizu)", devlet:"song",    f:"927", t:"976", donem:"927–976", not:"Çin'i yeniden birleştirip Song Hanedanı'nı kuran general-imparator" },
-{ id:"wanyan-aguda", tur:"yabanci-hukumdar", ad:"Wanyan Aguda",             devlet:"jin-hanedani", f:"1068", t:"1123", donem:"1068–1123", not:"Jurchen boylarını birleştirip Jin Hanedanı'nı kuran hükümdar" },
-{ id:"cengiz-han", tur:"yabanci-hukumdar", ad:"Cengiz Han",               devlet:"mogol-imparatorlugu", f:"1162", t:"1227", donem:"yak. 1162–1227", not:"Cengiz Han, TDV İslâm Ansiklopedisi'ne göre 21 Ocak 1155'te bugünkü Doğu Sibirya'da Onon nehri kıyısındaki Deli-ün Boldok mevkiinde, Yesügey Bahadır'ın oğlu olarak Temüçin adıyla doğdu. Onlarca yıl süren mücadeleler sonunda bozkırdaki rakip boyları tek çatı altında birleştirdi ve 1206'da Onon nehri kıyısında topladığı kurultayda dokuz uçlu ak sancağını dikerek \"Cengiz\" unvanıyla han ilân edildi; böylece bütün bozkır kavimlerinin en büyük hükümdarı oldu. Han ilân edilmesinin ardından 1207-1208'de Tangutlar ve Merkitler'e karşı seferler düzenledi; 1210-1214 arasında Kitan/Cin (Kuzey Çin) topraklarına dört büyük sefer yaptı. 1219-1225 arasında Hârizmşahlar Devleti'ne yönelttiği yıkıcı seferde Buhara, Semerkant ve Ürgenç gibi büyük şehirleri tahrip etti. Cengiz Han, Tangutlar'a karşı sürdürdüğü bir sefer sırasında Ağustos 1227'de öldü ve Moğolistan'ın kuzeydoğusundaki Burhan Haldun'a defnedildi. Kurduğu imparatorluk Kore'den Yakındoğu'ya kadar uzanan, tarihin en geniş kara imparatorluğunun temelini oluşturdu." },
-{ id:"kubilay-han", tur:"yabanci-hukumdar", ad:"Kubilay Han",              devlet:"yuan-hanedani", f:"1215", t:"1294", donem:"1215–1294", not:"Kubilay Kağan, TDV İslâm Ansiklopedisi'ne göre 23 Eylül 1215'te doğdu; Cengiz Han'ın en küçük oğlu Tuluy ile Büyük Hatun Sorgaktani'nin ikinci oğluydu. Ağabeyi Mengü Kağan'ın 1259'daki ölümü üzerine taht mücadelesine girişti; taraftarlarınca 1260'ta kağan ilân edildi, ardından Gobi Çölü yakınlarında yaptığı savaşta kardeşi Arıkboğa'yı 1261'de mağlûp ederek konumunu pekiştirdi. Uzun süren bir mücadelenin sonunda 1276'da Sung hânedanına son vererek Çin'in tek hâkimi oldu ve Çin tarihinin resmî yirminci hanedanı sayılan Yüan hânedanını (1271-1368) kurdu. Kubilay Kağan 18 Şubat 1294'te öldü; yerine torunu Temür Olcaytu geçti." },
-{ id:"zhu-yuanzhang", tur:"yabanci-hukumdar", ad:"Zhu Yuanzhang (Hongwu)",   devlet:"ming-hanedani", f:"1328", t:"1398", donem:"1328–1398", not:"Yuan (Moğol) hâkimiyetine son verip Ming Hanedanı'nı kuran köylü kökenli imparator" },
-{ id:"sejong", tur:"yabanci-hukumdar", ad:"Kral Sejong",              devlet:"joseon",    f:"1397", t:"1450", donem:"1397–1450 (saltanat 1418–1450)", not:"Kore alfabesi hangıl'ı icat ettiren Joseon kralı" },
-{ id:"gojong", tur:"yabanci-hukumdar", ad:"Kral Gojong",              devlet:"joseon",    f:"1852", t:"1919", donem:"1852–1919 (saltanat 1863–1907)", not:"1897'de kendini imparator ilan edip \"Kore İmparatorluğu\"nu kuran hükümdar" },
-{ id:"minamoto-no-yoritomo", tur:"yabanci-hukumdar", ad:"Minamoto no Yoritomo",     devlet:"kamakura",  f:"1147", t:"1199", donem:"1147–1199", not:"Genpei Savaşı'nı kazanıp Kamakura Şogunluğu'nu kuran ilk şogun" },
-{ id:"tokugawa-ieyasu", tur:"yabanci-hukumdar", ad:"Tokugawa Ieyasu",          devlet:"edo-bakufu", f:"1543", t:"1616", donem:"1543–1616", not:"Edo (Tokugawa) Şogunluğu'nu kurup Japonya'yı iki buçuk asır sürecek istikrara kavuşturan şogun" },
-{ id:"meiji-imparatoru", tur:"yabanci-hukumdar", ad:"Meiji İmparatoru",         devlet:"meiji-japonya", f:"1852", t:"1912", donem:"1852–1912", not:"Meiji Restorasyonu'yla fiilî iktidara dönen, Japonya'yı hızla modernleştiren imparator" },
-{ id:"dalai-lama5", tur:"yabanci-hukumdar", ad:"5. Dalai Lama",            devlet:"tibet-ganden-phodrang", f:"1617", t:"1682", donem:"1617–1682", not:"Güşi Han'ın askerî desteğiyle Tibet'i dinî-siyasi tek çatı altında birleştiren lider" },
+{ id:"zhao-kuangyin", tur:"yabanci-hukumdar", ad:"Zhao Kuangyin (Song Taizu)", devlet:"song",    f:"927", t:"976", donem:"927–976", not:"Çin'i yeniden birleştirip Song Hanedanı'nı kuran general-imparator",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `cin--ulke`, `asya` — Sung sülâlesinin kuruluşu anılır, kurucusu adlandırılmaz; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"wanyan-aguda", tur:"yabanci-hukumdar", ad:"Wanyan Aguda",             devlet:"jin-hanedani", f:"1068", t:"1123", donem:"1068–1123", not:"Jurchen boylarını birleştirip Jin Hanedanı'nı kuran hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `karahitaylar`, `gurhan`, `mogollar` — yalnız 'Curcenler (Kin)' geçer; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"cengiz-han", tur:"yabanci-hukumdar", ad:"Cengiz Han",               devlet:"mogol-imparatorlugu", f:"1155", t:"1227", donem:"1155–1227", not:"Cengiz Han, TDV İslâm Ansiklopedisi'ne göre 21 Ocak 1155'te bugünkü Doğu Sibirya'da Onon nehri kıyısındaki Deli-ün Boldok mevkiinde, Yesügey Bahadır'ın oğlu olarak Temüçin adıyla doğdu. Onlarca yıl süren mücadeleler sonunda bozkırdaki rakip boyları tek çatı altında birleştirdi ve 1206'da Onon nehri kıyısında topladığı kurultayda dokuz uçlu ak sancağını dikerek \"Cengiz\" unvanıyla han ilân edildi; böylece bütün bozkır kavimlerinin en büyük hükümdarı oldu. Han ilân edilmesinin ardından 1207-1208'de Tangutlar ve Merkitler'e karşı seferler düzenledi; 1210-1214 arasında Kitan/Cin (Kuzey Çin) topraklarına dört büyük sefer yaptı. 1219-1225 arasında Hârizmşahlar Devleti'ne yönelttiği yıkıcı seferde Buhara, Semerkant ve Ürgenç gibi büyük şehirleri tahrip etti. Cengiz Han, Tangutlar'a karşı sürdürdüğü bir sefer sırasında Ağustos 1227'de öldü ve Moğolistan'ın kuzeydoğusundaki Burhan Haldun'a defnedildi. Kurduğu imparatorluk Kore'den Yakındoğu'ya kadar uzanan, tarihin en geniş kara imparatorluğunun temelini oluşturdu.",
+    ic_not_f:"eski: f:\"1162\" (donem \"yak. 1162–1227\") — TDV \"15 Zilkade 549'da (21 Ocak 1155) … doğdu\"; kaydın kendi notu da 21 Ocak 1155 diyordu, TDV metninde 1162 geçmiyor (W12 not-çelişkisi). §4 gereği TDV esas alındı",
+    kaynak:"TDV: cengiz-han" },
+{ id:"kubilay-han", tur:"yabanci-hukumdar", ad:"Kubilay Han",              devlet:"yuan-hanedani", f:"1215", t:"1294", donem:"1215–1294", not:"Kubilay Kağan, TDV İslâm Ansiklopedisi'ne göre 23 Eylül 1215'te doğdu; Cengiz Han'ın en küçük oğlu Tuluy ile Büyük Hatun Sorgaktani'nin ikinci oğluydu. Ağabeyi Mengü Kağan'ın 1259'daki ölümü üzerine taht mücadelesine girişti; taraftarlarınca 1260'ta kağan ilân edildi, ardından Gobi Çölü yakınlarında yaptığı savaşta kardeşi Arıkboğa'yı 1261'de mağlûp ederek konumunu pekiştirdi. Uzun süren bir mücadelenin sonunda 1276'da Sung hânedanına son vererek Çin'in tek hâkimi oldu ve Çin tarihinin resmî yirminci hanedanı sayılan Yüan hânedanını (1271-1368) kurdu. Kubilay Kağan 18 Şubat 1294'te öldü; yerine torunu Temür Olcaytu geçti.",
+    kaynak:"TDV: kubilay-kagan" },
+{ id:"zhu-yuanzhang", tur:"yabanci-hukumdar", ad:"Zhu Yuanzhang (Hongwu)",   devlet:"ming-hanedani", f:"1328", t:"1398", donem:"1328–1398", not:"Yuan (Moğol) hâkimiyetine son verip Ming Hanedanı'nı kuran köylü kökenli imparator",
+    kaynak:"TDV: cin--ulke (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"sejong", tur:"yabanci-hukumdar", ad:"Kral Sejong",              devlet:"joseon",    f:"1397", t:"1450", donem:"1397–1450 (saltanat 1418–1450)", not:"Kore alfabesi hangıl'ı icat ettiren Joseon kralı",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `kore-cumhuriyeti` — Yi/Choson hânedanı (1392-1910) anılır, Sejong ve alfabe anılmaz; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"gojong", tur:"yabanci-hukumdar", ad:"Kral Gojong",              devlet:"joseon",    f:"1852", t:"1919", donem:"1852–1919 (saltanat 1863–1907)", not:"1897'de kendini imparator ilan edip \"Kore İmparatorluğu\"nu kuran hükümdar",
+    kaynak:"TDV: kore-cumhuriyeti (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"minamoto-no-yoritomo", tur:"yabanci-hukumdar", ad:"Minamoto no Yoritomo",     devlet:"kamakura",  f:"1147", t:"1199", donem:"1147–1199", not:"Genpei Savaşı'nı kazanıp Kamakura Şogunluğu'nu kuran ilk şogun",
+    kaynak:"TDV: japonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"tokugawa-ieyasu", tur:"yabanci-hukumdar", ad:"Tokugawa Ieyasu",          devlet:"edo-bakufu", f:"1543", t:"1616", donem:"1543–1616", not:"Edo (Tokugawa) Şogunluğu'nu kurup Japonya'yı iki buçuk asır sürecek istikrara kavuşturan şogun",
+    kaynak:"TDV: japonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"meiji-imparatoru", tur:"yabanci-hukumdar", ad:"Meiji İmparatoru",         devlet:"meiji-japonya", f:"1852", t:"1912", donem:"1852–1912", not:"Meiji Restorasyonu'yla fiilî iktidara dönen, Japonya'yı hızla modernleştiren imparator",
+    kaynak:"TDV: japonya (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"dalai-lama5", tur:"yabanci-hukumdar", ad:"5. Dalai Lama",            devlet:"tibet-ganden-phodrang", f:"1617", t:"1682", donem:"1617–1682", not:"Güşi Han'ın askerî desteğiyle Tibet'i dinî-siyasi tek çatı altında birleştiren lider",
+    kaynak:"TDV: tibet (müstakil madde yok)" },
 // Güneydoğu Asya
-{ id:"raden-wijaya", tur:"yabanci-hukumdar", ad:"Raden Wijaya",             devlet:"majapahit", donem:"13.-14. yy", not:"Moğol istila kuvvetini püskürtüp Majapahit İmparatorluğu'nu kuran hükümdar" },
-{ id:"hayam-wuruk", tur:"yabanci-hukumdar", ad:"Hayam Wuruk",              devlet:"majapahit", donem:"saltanat 1350–1389", not:"Veziri Gajah Mada ile birlikte Majapahit'i zirveye taşıyan hükümdar" },
-{ id:"parameswara", tur:"yabanci-hukumdar", ad:"Parameswara",              devlet:"malaka-sultanligi", donem:"14.-15. yy", not:"Malaka'yı kurup önemli bir ticaret limanı hâline getiren hükümdar" },
-{ id:"u-thong", tur:"yabanci-hukumdar", ad:"U Thong (I. Ramathibodi)", devlet:"ayutthaya", donem:"14. yy", not:"Ayutthaya Krallığı'nı (Siyam) kuran hükümdar" },
-{ id:"rama1", tur:"yabanci-hukumdar", ad:"I. Rama (General Chakri)", devlet:"siyam-chakri", f:"1737", t:"1809", donem:"1737–1809", not:"Bangkok'u başkent yapıp Chakri hanedanını kuran Siyam kralı" },
-{ id:"rama5", tur:"yabanci-hukumdar", ad:"V. Rama (Chulalongkorn)",  devlet:"siyam-chakri", f:"1853", t:"1910", donem:"1853–1910", not:"Siyam'ı modernleştirip sömürgeleşmeden kurtaran reformcu kral" },
-{ id:"le-loi", tur:"yabanci-hukumdar", ad:"Lê Lợi",                   devlet:"le-hanedani", t:"1433", donem:"ö. 1433", not:"Ming işgaline son verip Lê Hanedanı'nı (Đại Việt) kuran hükümdar" },
-{ id:"nguyen-anh", tur:"yabanci-hukumdar", ad:"Nguyễn Ánh (Gia Long)",    devlet:"nguyen-hanedani", f:"1762", t:"1820", donem:"1762–1820", not:"Tây Sơn'ı yenip Vietnam'ı birleştiren Nguyễn hanedanının kurucusu" },
-{ id:"alaungpaya", tur:"yabanci-hukumdar", ad:"Alaungpaya",               devlet:"konbaung",  f:"1714", t:"1760", donem:"1714–1760", not:"Mon isyanını bastırıp Konbaung Hanedanı'nı kuran Birmanya kralı" },
-{ id:"thibaw", tur:"yabanci-hukumdar", ad:"Kral Thibaw",              devlet:"konbaung",  f:"1859", t:"1916", donem:"1859–1916", not:"Üçüncü Anglo-Birman Savaşı sonunda tahttan indirilip sürgüne gönderilen son Birmanya kralı" },
-{ id:"agung", tur:"yabanci-hukumdar", ad:"Sultan Agung",             devlet:"mataram-sultanligi", donem:"saltanat 1613–1645", not:"Mataram Sultanlığı'nı Cava'nın büyük bölümüne hâkim kılan hükümdar" },
+{ id:"raden-wijaya", tur:"yabanci-hukumdar", ad:"Raden Wijaya",             devlet:"majapahit", donem:"13.-14. yy", not:"Moğol istila kuvvetini püskürtüp Majapahit İmparatorluğu'nu kuran hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `cava`, `endonezya` — Macapahitler (1300-1525) anılır, kurucu ve Moğol seferi geçmez; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"hayam-wuruk", tur:"yabanci-hukumdar", ad:"Hayam Wuruk",              devlet:"majapahit", donem:"saltanat 1350–1389", not:"Veziri Gajah Mada ile birlikte Majapahit'i zirveye taşıyan hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `cava`, `endonezya`, `malezya`, `singapur` — ad geçmiyor; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"parameswara", tur:"yabanci-hukumdar", ad:"Parameswara",              devlet:"malaka-sultanligi", donem:"14.-15. yy", not:"Malaka'yı kurup önemli bir ticaret limanı hâline getiren hükümdar",
+    kaynak:"TDV: malaka (müstakil madde yok)" },
+{ id:"u-thong", tur:"yabanci-hukumdar", ad:"U Thong (I. Ramathibodi)", devlet:"ayutthaya", donem:"14. yy", not:"Ayutthaya Krallığı'nı (Siyam) kuran hükümdar",
+    kaynak:"TDV: tayland (müstakil madde yok)" },
+{ id:"rama1", tur:"yabanci-hukumdar", ad:"I. Rama (General Chakri)", devlet:"siyam-chakri", f:"1737", t:"1809", donem:"1737–1809", not:"Bangkok'u başkent yapıp Chakri hanedanını kuran Siyam kralı",
+    kaynak:"TDV: tayland (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"rama5", tur:"yabanci-hukumdar", ad:"V. Rama (Chulalongkorn)",  devlet:"siyam-chakri", f:"1853", t:"1910", donem:"1853–1910", not:"Siyam'ı modernleştirip sömürgeleşmeden kurtaran reformcu kral",
+    kaynak:"TDV: tayland (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"le-loi", tur:"yabanci-hukumdar", ad:"Lê Lợi",                   devlet:"le-hanedani", t:"1433", donem:"ö. 1433", not:"Ming işgaline son verip Lê Hanedanı'nı (Đại Việt) kuran hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `vietnam` maddesi yok (302, başlık araması 0); okunan `camlar` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"nguyen-anh", tur:"yabanci-hukumdar", ad:"Nguyễn Ánh (Gia Long)",    devlet:"nguyen-hanedani", f:"1762", t:"1820", donem:"1762–1820", not:"Tây Sơn'ı yenip Vietnam'ı birleştiren Nguyễn hanedanının kurucusu",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `vietnam` maddesi yok; aranan gia long, nguyen, tay son; okunan `camlar` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"alaungpaya", tur:"yabanci-hukumdar", ad:"Alaungpaya",               devlet:"konbaung",  f:"1714", t:"1760", donem:"1714–1760", not:"Mon isyanını bastırıp Konbaung Hanedanı'nı kuran Birmanya kralı",
+    kaynak:"TDV: myanmar (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"thibaw", tur:"yabanci-hukumdar", ad:"Kral Thibaw",              devlet:"konbaung",  f:"1859", t:"1916", donem:"1859–1916", not:"Üçüncü Anglo-Birman Savaşı sonunda tahttan indirilip sürgüne gönderilen son Birmanya kralı",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan thibaw, thebaw, mandalay, birmanya; okunan `myanmar` — 1886-1889 İngiliz ilhakı anılır, kral adı yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"agung", tur:"yabanci-hukumdar", ad:"Sultan Agung",             devlet:"mataram-sultanligi", donem:"saltanat 1613–1645", not:"Mataram Sultanlığı'nı Cava'nın büyük bölümüne hâkim kılan hükümdar",
+    tartisma:"Saltanatın bitişi tartışmalıdır: TDV `cava`, `asya` ve `endonezya` maddeleri saltanatı 1613-1646 diye verir, `cava` ise halefi I. Amangkurat'ı 1645'ten başlatır.",
+    kaynak:"TDV: cava (müstakil madde yok)" },
 // Afrika (batı, orta, doğu, güney)
-{ id:"sundiata-keita", tur:"yabanci-hukumdar", ad:"Sundiata Keita",           devlet:"mali-imparatorlugu", donem:"13. yy", not:"Kirina Savaşı'nda zafer kazanıp Mali İmparatorluğu'nu kuran hükümdar" },
-{ id:"sunni-ali", tur:"yabanci-hukumdar", ad:"Sünnî Ali",                devlet:"songhay-imparatorlugu", t:"1492", donem:"ö. 1492", not:"Songhay'ı büyük bir imparatorluğa dönüştürmeye başlayan hükümdar" },
-{ id:"askiya-muhammed", tur:"yabanci-hukumdar", ad:"Askiya Muhammed",          devlet:"songhay-imparatorlugu", donem:"saltanat 1493–1528", not:"Timbuktu'yu İslâm dünyasının önemli bir ilim merkezi yapan Songhay hükümdarı" },
-{ id:"idris-alooma", tur:"yabanci-hukumdar", ad:"İdris Alooma",             devlet:"kanem-bornu", donem:"saltanat yak. 1564–1596", not:"Kanem-Bornu İmparatorluğu'nu zirveye taşıyan, başkenti Ngazargamu'ya taşıyan hükümdar" },
-{ id:"osman-dan-fodio", tur:"yabanci-hukumdar", ad:"Osman dan Fodio",          devlet:"sokoto",    f:"1754", t:"1817", donem:"1754–1817", not:"Hausa şehir devletlerini fethedip Sokoto Halifeliği'ni kuran cihad önderi" },
-{ id:"muhammed-bello", tur:"yabanci-hukumdar", ad:"Muhammed Bello",           devlet:"sokoto",    f:"1781", t:"1837", donem:"1781–1837", not:"Babası Osman dan Fodio'nun halefi; Sokoto Halifeliği'ni zirveye taşıyan hükümdar" },
-{ id:"oba-ewuare", tur:"yabanci-hukumdar", ad:"Oba Ewuare",               devlet:"benin-kralligi", donem:"15. yy", not:"Benin Krallığı'nı genişletip merkezîleştiren Oba (kral)" },
-{ id:"joao1", tur:"yabanci-hukumdar", ad:"I. João (Nzinga a Nkuwu)", devlet:"kongo-kralligi", t:"1509", donem:"ö. 1509", not:"Portekizlilerin etkisiyle Hristiyanlığı kabul eden Kongo kralı" },
-{ id:"nzinga", tur:"yabanci-hukumdar", ad:"Kraliçe Nzinga",           devlet:"ndongo",    f:"1583", t:"1663", donem:"1583–1663", not:"Ndongo Krallığı'nda tahta çıkıp Portekiz'e karşı onlarca yıl süren direnişi yöneten kraliçe" },
-{ id:"shaka", tur:"yabanci-hukumdar", ad:"Shaka",                    devlet:"zulu-kralligi", f:"1787", t:"1828", donem:"yak. 1787–1828", not:"Zulu klanını askerî reformlarla büyük bir krallığa dönüştüren kral" },
+{ id:"sundiata-keita", tur:"yabanci-hukumdar", ad:"Sundiata Keita", t:"1255",           devlet:"mali-imparatorlugu", donem:"13. yy", not:"Kirina Savaşı'nda zafer kazanıp Mali İmparatorluğu'nu kuran hükümdar",
+    kaynak:"TDV: mali (müstakil madde yok)" },
+{ id:"sunni-ali", tur:"yabanci-hukumdar", ad:"Sünnî Ali",                devlet:"songhay-imparatorlugu", t:"1492", donem:"ö. 1492", not:"Songhay'ı büyük bir imparatorluğa dönüştürmeye başlayan hükümdar",
+    kaynak:"TDV: mali (müstakil madde yok)" },
+{ id:"askiya-muhammed", tur:"yabanci-hukumdar", ad:"Askiya Muhammed",          devlet:"songhay-imparatorlugu", donem:"saltanat 1493–1528", not:"Timbuktu'yu İslâm dünyasının önemli bir ilim merkezi yapan Songhay hükümdarı",
+    kaynak:"TDV: mali (müstakil madde yok)" },
+{ id:"idris-alooma", tur:"yabanci-hukumdar", ad:"İdris Alooma",             devlet:"kanem-bornu", donem:"saltanat yak. 1564–1596", not:"Kanem-Bornu İmparatorluğu'nu zirveye taşıyan, başkenti Ngazargamu'ya taşıyan hükümdar",
+    kaynak:"TDV: bornu (müstakil madde yok)" },
+{ id:"osman-dan-fodio", tur:"yabanci-hukumdar", ad:"Osman dan Fodio",          devlet:"sokoto",    f:"1754", t:"1817", donem:"1754–1817", not:"Hausa şehir devletlerini fethedip Sokoto Halifeliği'ni kuran cihad önderi",
+    kaynak:"TDV: osman-b-fudi" },
+{ id:"muhammed-bello", tur:"yabanci-hukumdar", ad:"Muhammed Bello",           devlet:"sokoto",    f:"1781", t:"1837", donem:"1781–1837", not:"Babası Osman dan Fodio'nun halefi; Sokoto Halifeliği'ni zirveye taşıyan hükümdar",
+    kaynak:"TDV: muhammed-bello" },
+{ id:"oba-ewuare", tur:"yabanci-hukumdar", ad:"Oba Ewuare",               devlet:"benin-kralligi", donem:"15. yy", not:"Benin Krallığı'nı genişletip merkezîleştiren Oba (kral)",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan ewuare, 'Benin Krallığı'; okunan `nijerya` (Benin Krallığı var, Ewuare yok), `benin` (bugünkü ülke, ilgisiz); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"joao1", tur:"yabanci-hukumdar", ad:"I. João (Nzinga a Nkuwu)", devlet:"kongo-kralligi", t:"1509", donem:"ö. 1509", not:"Portekizlilerin etkisiyle Hristiyanlığı kabul eden Kongo kralı",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan joão, afonso, 'Kongo Krallığı'; okunan `kongo-demokratik-cumhuriyeti` — 1482 Portekiz teması var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"nzinga", tur:"yabanci-hukumdar", ad:"Kraliçe Nzinga",           devlet:"ndongo",    f:"1583", t:"1663", donem:"1583–1663", not:"Ndongo Krallığı'nda tahta çıkıp Portekiz'e karşı onlarca yıl süren direnişi yöneten kraliçe",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `angola` maddesi yok; aranan nzinga, ndongo; okunan `afrika`, `portekiz` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"shaka", tur:"yabanci-hukumdar", ad:"Shaka",                    devlet:"zulu-kralligi", f:"1787", t:"1828", donem:"yak. 1787–1828", not:"Zulu klanını askerî reformlarla büyük bir krallığa dönüştüren kral",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan shaka, zulu; okunan `guney-afrika-cumhuriyeti`, `afrika` — Zulular yalnız Boer göçü ve 1906 ayaklanmasında geçer; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
 // Amerika
-{ id:"moctezuma2", tur:"yabanci-hukumdar", ad:"II. Moctezuma",            devlet:"aztek-imparatorlugu", donem:"saltanat 1502–1520", not:"1466'da doğan II. Moctezuma, Aztek İmparatorluğu'nun dokuzuncu hükümdarı olarak imparatorluğu tarihindeki en geniş sınırlarına ulaştırdı. İspanyol conquistador Hernán Cortés'in Tenochtitlan'a gelişiyle başlayan karşılaşmada Moctezuma önce Cortés'i hoş karşıladı; ancak onu parayla ve hediyelerle uzaklaştıramayınca Cortés, olası bir Aztek saldırısını önlemek amacıyla Moctezuma'yı rehin aldı. Moctezuma'nın ölümünün kesin nedeni tartışmalıdır. Bir rivayete göre, İspanyolların bir dinî törende Aztekleri katletmesinin ardından öfkelenen halkını sakinleştirmek için sarayının penceresinden seslenirken kendi halkı tarafından taşlanarak yaralandı ve bu yaralar sonucu öldü; başka bir rivayete göre ise İspanyollar, kendisini artık kullanışlı bulmayınca onu öldürttü. Moctezuma, 30 Haziran 1520 civarında Tenochtitlan'da (bugünkü Mexico City içinde) hayatını kaybetti." },
-{ id:"cuauhtemoc", tur:"yabanci-hukumdar", ad:"Cuauhtémoc",               devlet:"aztek-imparatorlugu", t:"1525", donem:"ö. 1525", not:"Tenochtitlan kuşatmasında esir alınan son bağımsız Aztek imparatoru" },
-{ id:"pachacuti", tur:"yabanci-hukumdar", ad:"Pachacuti",                devlet:"inka-imparatorlugu", donem:"15. yy", not:"Cusco krallığını büyük bir imparatorluğa (Tahuantinsuyu) dönüştürmeye başlayan İnka hükümdarı" },
-{ id:"atahualpa", tur:"yabanci-hukumdar", ad:"Atahualpa",                devlet:"inka-imparatorlugu", t:"1533", donem:"ö. 1533", not:"İspanyollarca esir alınıp idam edilen son bağımsız İnka imparatoru" },
-{ id:"simon-bolivar", tur:"yabanci-hukumdar", ad:"Simón Bolívar",            devlet:"gran-kolombiya", f:"1783", t:"1830", donem:"1783–1830", not:"Simón Bolívar'ın çağrısıyla 15 Şubat 1819'da Angostura'da (bugünkü Ciudad Bolívar) toplanan kongrede Bolívar, merkezî bir yönetim biçimini güçlü biçimde savundu ve ırk eşitliği ilkesini gündeme getirdi; kongre kendisini başkan, Francisco Antonio Zea'yı başkan yardımcısı seçti. 17 Aralık 1819'da kongre, Yeni Granada (bugünkü Kolombiya ve Panama), Venezuela ve Quito (bugünkü Ekvador) topraklarını kapsayan \"Kolombiya Cumhuriyeti\"ni (tarih yazımında Büyük Kolombiya/Gran Colombia olarak anılır) ilan etti. Bu birleşik devlet yapısı, 31 Temmuz 1821'de toplanan Cúcuta Kongresi'yle anayasal olarak pekiştirildi." },
+{ id:"moctezuma2", tur:"yabanci-hukumdar", ad:"II. Moctezuma",            devlet:"aztek-imparatorlugu", donem:"saltanat 1502–1520", not:"1466'da doğan II. Moctezuma, Aztek İmparatorluğu'nun dokuzuncu hükümdarı olarak imparatorluğu tarihindeki en geniş sınırlarına ulaştırdı. İspanyol conquistador Hernán Cortés'in Tenochtitlan'a gelişiyle başlayan karşılaşmada Moctezuma önce Cortés'i hoş karşıladı; ancak onu parayla ve hediyelerle uzaklaştıramayınca Cortés, olası bir Aztek saldırısını önlemek amacıyla Moctezuma'yı rehin aldı. Moctezuma'nın ölümünün kesin nedeni tartışmalıdır. Bir rivayete göre, İspanyolların bir dinî törende Aztekleri katletmesinin ardından öfkelenen halkını sakinleştirmek için sarayının penceresinden seslenirken kendi halkı tarafından taşlanarak yaralandı ve bu yaralar sonucu öldü; başka bir rivayete göre ise İspanyollar, kendisini artık kullanışlı bulmayınca onu öldürttü. Moctezuma, 30 Haziran 1520 civarında Tenochtitlan'da (bugünkü Mexico City içinde) hayatını kaybetti.",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `meksika` maddesi yok; aranan moctezuma, montezuma, aztek; okunan `amerika` — Aztek İmparatorluğu'nun yıkılışı var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"cuauhtemoc", tur:"yabanci-hukumdar", ad:"Cuauhtémoc",               devlet:"aztek-imparatorlugu", t:"1525", donem:"ö. 1525", not:"Tenochtitlan kuşatmasında esir alınan son bağımsız Aztek imparatoru",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `meksika` maddesi yok; okunan `amerika` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"pachacuti", tur:"yabanci-hukumdar", ad:"Pachacuti",                devlet:"inka-imparatorlugu", donem:"15. yy", not:"Cusco krallığını büyük bir imparatorluğa (Tahuantinsuyu) dönüştürmeye başlayan İnka hükümdarı",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `peru` maddesi yok; okunan `amerika` — İnkalar anılır, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"atahualpa", tur:"yabanci-hukumdar", ad:"Atahualpa",                devlet:"inka-imparatorlugu", t:"1533", donem:"ö. 1533", not:"İspanyollarca esir alınıp idam edilen son bağımsız İnka imparatoru",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `peru` maddesi yok; okunan `amerika` — Pizarro'nun İnka seferi var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"simon-bolivar", tur:"yabanci-hukumdar", ad:"Simón Bolívar",            devlet:"gran-kolombiya", f:"1783", t:"1830", donem:"1783–1830", not:"Simón Bolívar'ın çağrısıyla 15 Şubat 1819'da Angostura'da (bugünkü Ciudad Bolívar) toplanan kongrede Bolívar, merkezî bir yönetim biçimini güçlü biçimde savundu ve ırk eşitliği ilkesini gündeme getirdi; kongre kendisini başkan, Francisco Antonio Zea'yı başkan yardımcısı seçti. 17 Aralık 1819'da kongre, Yeni Granada (bugünkü Kolombiya ve Panama), Venezuela ve Quito (bugünkü Ekvador) topraklarını kapsayan \"Kolombiya Cumhuriyeti\"ni (tarih yazımında Büyük Kolombiya/Gran Colombia olarak anılır) ilan etti. Bu birleşik devlet yapısı, 31 Temmuz 1821'de toplanan Cúcuta Kongresi'yle anayasal olarak pekiştirildi.",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `venezuela`, `kolombiya` maddeleri yok; okunan `amerika` — Büyük Kolombiya (1819) var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
 // Okyanusya
-{ id:"kamehameha1", tur:"yabanci-hukumdar", ad:"Kamehameha I",             devlet:"hawaii-kralligi", t:"1819", donem:"ö. 1819", not:"Hawaii adalarını savaşla birleştirip krallığı kuran hükümdar" },
-{ id:"george-tupou1", tur:"yabanci-hukumdar", ad:"I. George Tupou",          devlet:"tonga-kralligi", f:"1797", t:"1893", donem:"1797–1893", not:"Tonga adalarını birleştiren kral" },
+{ id:"kamehameha1", tur:"yabanci-hukumdar", ad:"Kamehameha I",             devlet:"hawaii-kralligi", t:"1819", donem:"ö. 1819", not:"Hawaii adalarını savaşla birleştirip krallığı kuran hükümdar",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan kamehameha, hawaii; okunan `amerika-birlesik-devletleri` — Hawaii yalnız ilhak bağlamında; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"george-tupou1", tur:"yabanci-hukumdar", ad:"I. George Tupou",          devlet:"tonga-kralligi", f:"1797", t:"1893", donem:"1797–1893", not:"Tonga adalarını birleştiren kral",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: Tonga maddesi yok (başlıkta yalnız adaş `tonga-alp-er`); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
 
 // --- Parti 9 (ek): 1918 sonrası yeni devletler ve atlanan hükümdarlar ---
-{ id:"miklos-horthy", tur:"siyasi", ad:"Miklós Horthy",                      devlet:"macaristan-naiplik", f:"1868", t:"1957", donem:"1868–1957", not:"1920'de \"kralsız krallığın\" naibi seçilen, Macaristan'ı yöneten devlet başkanı" },
-{ id:"jozef-pilsudski", tur:"siyasi", ad:"Józef Piłsudski",                     devlet:"polonya",   f:"1867", t:"1935", donem:"1867–1935", not:"Polonya'nın 1918 bağımsızlığını ilan edip devlet başkanı olan önder" },
-{ id:"tomas-masaryk", tur:"siyasi", ad:"Tomáš Masaryk",                       devlet:"cekoslovakya", f:"1850", t:"1937", donem:"1850–1937", not:"Çekoslovakya Cumhuriyeti'nin kurucu cumhurbaşkanı" },
-{ id:"alexandru-ioan-cuza", tur:"yabanci-hukumdar", ad:"Alexandru Ioan Cuza",       devlet:"romanya",   f:"1820", t:"1873", donem:"1820–1873", not:"Eflak ve Boğdan'ı kişisel birlikte birleştirip Romanya'nın çekirdeğini kuran ilk prens" },
-{ id:"dom-pedro1", tur:"yabanci-hukumdar", ad:"I. Dom Pedro",              devlet:"brezilya-imparatorlugu", f:"1798", t:"1834", donem:"1798–1834", not:"\"Ipiranga Çığlığı\" ile Brezilya'nın bağımsızlığını ilan edip ilk imparator olan hükümdar" },
-{ id:"dom-pedro2", tur:"yabanci-hukumdar", ad:"II. Dom Pedro",             devlet:"brezilya-imparatorlugu", f:"1825", t:"1891", donem:"1825–1891", not:"Askerî darbeyle tahttan indirilen son Brezilya imparatoru" },
-{ id:"jean-jacques-dessalines", tur:"yabanci-hukumdar", ad:"Jean-Jacques Dessalines",   devlet:"haiti",     t:"1806", donem:"ö. 1806", not:"Haiti'nin bağımsızlığını ilan eden lider" },
-{ id:"liliuokalani", tur:"yabanci-hukumdar", ad:"Kraliçe Liliuokalani",      devlet:"hawaii-kralligi", f:"1838", t:"1917", donem:"1838–1917", not:"ABD'li yerleşimcilerce 1893'te devrilen son Hawaii kraliçesi" },
-{ id:"muhammed-davud-sah", tur:"yabanci-hukumdar", ad:"Muhammed Davud Şah",        devlet:"ace-sultanligi", donem:"ö. 20. yy başı", not:"1903'te Hollanda'ya resmen teslim olan son Açe sultanı" },
-{ id:"serif-ul-hasim", tur:"yabanci-hukumdar", ad:"Şerif ül-Hâşim",            devlet:"sulu-sultanligi", donem:"15. yy", not:"Sulu Sultanlığı'nın kurucusu" },
-{ id:"andrianampoinimerina", tur:"yabanci-hukumdar", ad:"Andrianampoinimerina",      devlet:"merina",    t:"1810", donem:"ö. 1810", not:"Madagaskar'da İmerina platosunu birleştiren Merina kralı" },
-{ id:"ranavalona3", tur:"yabanci-hukumdar", ad:"III. Ranavalona",           devlet:"merina",    f:"1861", t:"1917", donem:"1861–1917", not:"Krallığın ilgasıyla sürgüne gönderilen son Merina kraliçesi" },
-{ id:"sho-hashi", tur:"yabanci-hukumdar", ad:"Shō Hashi",                 devlet:"ryukyu",    donem:"15. yy", not:"Üç Okinawa krallığını birleştirip Ryukyu Krallığı'nı kuran kral" },
-{ id:"yagmurasen-b-zeyyan", tur:"yabanci-hukumdar", ad:"Yağmurasen b. Zeyyân",      devlet:"zeyyani",   donem:"13. yy", not:"Tilimsan'da Zeyyânî hanedanını kuran hükümdar" },
-{ id:"ebu-zekeriyya-yahya", tur:"yabanci-hukumdar", ad:"Ebû Zekeriyyâ Yahyâ",       devlet:"hafsi",     donem:"13. yy", not:"Muvahhidler'den ayrılıp İfrîkıye'de Hafsî hanedanını kuran hükümdar" },
-{ id:"guy-de-lusignan", tur:"yabanci-hukumdar", ad:"Guy de Lusignan",           devlet:"kibris-krallik", t:"1194", donem:"ö. 1194", not:"Kıbrıs Krallığı'nı kuran Haçlı kökenli şövalye-kral" },
-{ id:"caterina-cornaro", tur:"yabanci-hukumdar", ad:"Caterina Cornaro",          devlet:"kibris-krallik", f:"1454", t:"1510", donem:"1454–1510", not:"Tacını Venedik'e devrederek Kıbrıs Krallığı'nı sona erdiren son kraliçe" },
+{ id:"miklos-horthy", tur:"siyasi", ad:"Miklós Horthy",                      devlet:"macaristan-naiplik", f:"1868", t:"1957", donem:"1868–1957", not:"1920'de \"kralsız krallığın\" naibi seçilen, Macaristan'ı yöneten devlet başkanı",
+    kaynak:"TDV: macaristan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"jozef-pilsudski", tur:"siyasi", ad:"Józef Piłsudski",                     devlet:"polonya",   f:"1867", t:"1935", donem:"1867–1935", not:"Polonya'nın 1918 bağımsızlığını ilan edip devlet başkanı olan önder",
+    kaynak:"TDV: polonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"tomas-masaryk", tur:"siyasi", ad:"Tomáš Masaryk",                       devlet:"cekoslovakya", f:"1850", t:"1937", donem:"1850–1937", not:"Çekoslovakya Cumhuriyeti'nin kurucu cumhurbaşkanı",
+    kaynak:"TDV: cekoslovakya (müstakil madde yok; doğum yılı kaynakta yok)" },
+{ id:"alexandru-ioan-cuza", tur:"yabanci-hukumdar", ad:"Alexandru Ioan Cuza",       devlet:"romanya",   f:"1820", t:"1873", donem:"1820–1873", not:"Eflak ve Boğdan'ı kişisel birlikte birleştirip Romanya'nın çekirdeğini kuran ilk prens",
+    kaynak:"TDV: eflak (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"dom-pedro1", tur:"yabanci-hukumdar", ad:"I. Dom Pedro",              devlet:"brezilya-imparatorlugu", f:"1798", t:"1834", donem:"1798–1834", not:"\"Ipiranga Çığlığı\" ile Brezilya'nın bağımsızlığını ilan edip ilk imparator olan hükümdar",
+    kaynak:"TDV: portekiz (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"dom-pedro2", tur:"yabanci-hukumdar", ad:"II. Dom Pedro",             devlet:"brezilya-imparatorlugu", f:"1825", t:"1891", donem:"1825–1891", not:"Askerî darbeyle tahttan indirilen son Brezilya imparatoru",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `brezilya` maddesi yok; okunan `portekiz` — yalnız I. Pedro geçer; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"jean-jacques-dessalines", tur:"yabanci-hukumdar", ad:"Jean-Jacques Dessalines",   devlet:"haiti",     t:"1806", donem:"ö. 1806", not:"Haiti'nin bağımsızlığını ilan eden lider",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: Haiti maddesi yok; okunan `amerika` — yalnız Hispaniola; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"liliuokalani", tur:"yabanci-hukumdar", ad:"Kraliçe Liliuokalani",      devlet:"hawaii-kralligi", f:"1838", t:"1917", donem:"1838–1917", not:"ABD'li yerleşimcilerce 1893'te devrilen son Hawaii kraliçesi",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `amerika-birlesik-devletleri` — 1893'te Hawaii'nin ele geçirilişi var, kraliçe adı yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"muhammed-davud-sah", tur:"yabanci-hukumdar", ad:"Muhammed Davud Şah",        devlet:"ace-sultanligi", donem:"ö. 20. yy başı", not:"1903'te Hollanda'ya resmen teslim olan son Açe sultanı",
+    kaynak:"TDV: ace (müstakil madde yok)" },
+{ id:"serif-ul-hasim", tur:"yabanci-hukumdar", ad:"Şerif ül-Hâşim",            devlet:"sulu-sultanligi", donem:"15. yy", not:"Sulu Sultanlığı'nın kurucusu",
+    kaynak:"TDV: filipinler (müstakil madde yok)" },
+{ id:"andrianampoinimerina", tur:"yabanci-hukumdar", ad:"Andrianampoinimerina",      devlet:"merina",    t:"1810", donem:"ö. 1810", not:"Madagaskar'da İmerina platosunu birleştiren Merina kralı",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `madagaskar` — Merinaların XVIII. yüzyıl sonundaki birliği adsız anlatılır; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"ranavalona3", tur:"yabanci-hukumdar", ad:"III. Ranavalona",           devlet:"merina",    f:"1861", t:"1917", donem:"1861–1917", not:"Krallığın ilgasıyla sürgüne gönderilen son Merina kraliçesi",
+    kaynak:"TDV: madagaskar (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"sho-hashi", tur:"yabanci-hukumdar", ad:"Shō Hashi",                 devlet:"ryukyu",    donem:"15. yy", not:"Üç Okinawa krallığını birleştirip Ryukyu Krallığı'nı kuran kral",
+    kaynak:"bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan ryukyu, okinawa; okunan `japonya` — Ryukyu geçmiyor; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi" },
+{ id:"yagmurasen-b-zeyyan", tur:"yabanci-hukumdar", ad:"Yağmurasen b. Zeyyân",      devlet:"zeyyani",   donem:"13. yy", not:"Tilimsan'da Zeyyânî hanedanını kuran hükümdar",
+    kaynak:"TDV: abdulvadiler (müstakil madde yok)" },
+{ id:"ebu-zekeriyya-yahya", tur:"yabanci-hukumdar", ad:"Ebû Zekeriyyâ Yahyâ",       devlet:"hafsi",     donem:"13. yy", not:"Muvahhidler'den ayrılıp İfrîkıye'de Hafsî hanedanını kuran hükümdar",
+    kaynak:"TDV: hafsiler (müstakil madde yok)" },
+{ id:"guy-de-lusignan", tur:"yabanci-hukumdar", ad:"Guy de Lusignan",           devlet:"kibris-krallik", t:"1194", donem:"ö. 1194", not:"Kıbrıs Krallığı'nı kuran Haçlı kökenli şövalye-kral",
+    kaynak:"TDV: kibris (müstakil madde yok)" },
+{ id:"caterina-cornaro", tur:"yabanci-hukumdar", ad:"Caterina Cornaro",          devlet:"kibris-krallik", f:"1454", t:"1510", donem:"1454–1510", not:"Tacını Venedik'e devrederek Kıbrıs Krallığı'nı sona erdiren son kraliçe",
+    kaynak:"TDV: kibris (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 
 // ============================================================================
 // OTURUM 5, 2. FAZ — 5. BOYUT: BİLİM / MİMARLIK / EDEBİYAT
@@ -13937,47 +14233,93 @@ window.KISILER = [
 // ============================================================================
 
 // --- Mimarlık ---
-{ id:"mimar-sinan", tur:"mimar", ad:"Mimar Sinan", f:"1488", t:"1588", dogum_yer:"Ağırnas (Kayseri)", dogum_lat:38.556, dogum_lon:35.417, olum_yer:"İstanbul", donem:"1488–1588", eser:["Süleymaniye Camii (İstanbul)","Selimiye Camii (Edirne)","Şehzade Camii (İstanbul)"], not:"Sinan, 1491'den önce Kayseri'nin Ağırnas köyünde doğdu ve Yavuz Sultan Selim döneminde devşirme olarak İstanbul'a getirildi; kendisi bir vakfiyesinde \"Bu hakir, Sultan Selim Hân-ı Evvel'in gülistân-ı saltanatının devşirmesidir\" diye tanıtılır. Kanûnî Sultan Süleyman döneminde çeşitli askerî seferlere katıldı; Boğdan seferi sırasında Prut nehri üzerine kurduğu köprüyle gösterdiği başarı, hassa mimarbaşı Acem Ali'nin ölümünün ardından 1538'de kırk sekiz yaşında bu göreve getirilmesinde belirleyici oldu. Elli yılı aşan mimarbaşılığı boyunca kendi tabiriyle \"çıraklık eserim\" dediği İstanbul'daki Şehzade Camii'ni (1548), \"kalfalık eserim\" dediği Süleymaniye Camii'ni (1557) ve sanatındaki olgunluğun ifadesi saydığı Edirne'deki Selimiye Camii'ni (1574) inşa etti. Kaynaklarda kendisine atfedilen yapı sayısı listeye göre değişmekte, bazı listelerde 350 civarında, karşılaştırmalı bir dökümde ise 452'ye kadar çıkmaktadır. 996 (1588) yılında yaklaşık yüz yaşında vefat eden Sinan, İstanbul'da Süleymaniye Külliyesi'nde kendi yaptırdığı türbeye defnedildi." },
-{ id:"sedefkar-mehmed-aga", tur:"mimar", ad:"Sedefkâr Mehmed Ağa", t:"1617", donem:"ö. 1617", eser:["Sultan Ahmed Camii (İstanbul)"], not:"Mimar Sinan'ın öğrencilerinden; I. Ahmed'in emriyle Sultanahmet Camii'ni inşa etti" },
-{ id:"garabet-balyan", tur:"mimar", ad:"Garabet Balyan", f:"1800", t:"1866", dogum_yer:"İstanbul", eser:["Dolmabahçe Sarayı (oğlu Nikoğos ile)"], not:"Balyan mimarlık ailesinin önde gelen üyesi; 19. yüzyıl saray mimarîsinin başlıca ismi" },
-{ id:"nikogos-balyan", tur:"mimar", ad:"Nikoğos Balyan", f:"1826", t:"1858", dogum_yer:"İstanbul", eser:["Dolmabahçe Sarayı (babası Garabet ile)"], not:"Garabet Balyan'ın oğlu; Dolmabahçe Sarayı'nın ortak mimarı, genç yaşta öldü" },
+{ id:"mimar-sinan", tur:"mimar", ad:"Mimar Sinan", t:"1588", dogum_yer:"Ağırnas (Kayseri)", dogum_lat:38.556, dogum_lon:35.417, olum_yer:"İstanbul", donem:"1491'den önce – 1588", eser:["Süleymaniye Camii (İstanbul)","Selimiye Camii (Edirne)","Şehzade Camii (İstanbul)"], not:"Sinan, 1491'den önce Kayseri'nin Ağırnas köyünde doğdu ve Yavuz Sultan Selim döneminde devşirme olarak İstanbul'a getirildi; kendisi bir vakfiyesinde \"Bu hakir, Sultan Selim Hân-ı Evvel'in gülistân-ı saltanatının devşirmesidir\" diye tanıtılır. Kanûnî Sultan Süleyman döneminde çeşitli askerî seferlere katıldı; Boğdan seferi sırasında Prut nehri üzerine kurduğu köprüyle gösterdiği başarı, hassa mimarbaşı Acem Ali'nin ölümünün ardından 1538'de kırk sekiz yaşında bu göreve getirilmesinde belirleyici oldu. Elli yılı aşan mimarbaşılığı boyunca kendi tabiriyle \"çıraklık eserim\" dediği İstanbul'daki Şehzade Camii'ni (1548), \"kalfalık eserim\" dediği Süleymaniye Camii'ni (1557) ve sanatındaki olgunluğun ifadesi saydığı Edirne'deki Selimiye Camii'ni (1574) inşa etti. Kaynaklarda kendisine atfedilen yapı sayısı listeye göre değişmekte, bazı listelerde 350 civarında, karşılaştırmalı bir dökümde ise 452'ye kadar çıkmaktadır. 996 (1588) yılında yaklaşık yüz yaşında vefat eden Sinan, İstanbul'da Süleymaniye Külliyesi'nde kendi yaptırdığı türbeye defnedildi.",
+    kaynak:"TDV: sinan (doğum: TDV yalnız \"896 (1491) yılından önce doğduğu kabul edilir\" der)",
+    ic_not_f:"eski: f:\"1488\" (donem 1488–1588) — dayanak ölçüldü, YOK: alan 9d89241a (30 Temmuz 2026, kaynaksız toplu göç) ile girdi; TDV `sinan` (tek bölüm, tam gövde) yalnız \"896 (1491) yılından önce doğduğu kabul edilir\" der (≤1491 sınırı) ve kırk sekiz yaşında mimarbaşı olduğunu yazar (türetilen yıl alıntılanmaz). D210 gereği boşaltıldı (koordinatör K3)" },
+{ id:"sedefkar-mehmed-aga", tur:"mimar", ad:"Sedefkâr Mehmed Ağa", t:"1618", donem:"ö. 1618", eser:["Sultan Ahmed Camii (İstanbul)"], not:"Mimar Sinan'ın öğrencilerinden; I. Ahmed'in emriyle Sultanahmet Camii'ni inşa etti",
+    ic_not_t:"eski: t:\"1617\" (donem \"ö. 1617\") — TDV, Ayvansarâyî'ye atfen \"1027 (1618) yılında vefat ederek Üsküdar'da defnedildiğini\" yazar. §4 gereği TDV esas alındı",
+    kaynak:"TDV: mehmed-aga-sedefkar" },
+{ id:"garabet-balyan", tur:"mimar", ad:"Garabet Balyan", f:"1800", t:"1866", dogum_yer:"İstanbul", eser:["Dolmabahçe Sarayı (oğlu Nikoğos ile)"], not:"Balyan mimarlık ailesinin önde gelen üyesi; 19. yüzyıl saray mimarîsinin başlıca ismi",
+    kaynak:"TDV: dolmabahce-sarayi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
+{ id:"nikogos-balyan", tur:"mimar", ad:"Nikoğos Balyan", f:"1826", t:"1858", dogum_yer:"İstanbul", eser:["Dolmabahçe Sarayı (babası Garabet ile)"], not:"Garabet Balyan'ın oğlu; Dolmabahçe Sarayı'nın ortak mimarı, genç yaşta öldü",
+    kaynak:"TDV: dolmabahce-sarayi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)" },
 
 // --- Bilim ---
-{ id:"ali-kuscu", tur:"alim", ad:"Ali Kuşçu", f:"1403", t:"1474", dogum_yer:"Semerkant", olum_yer:"İstanbul", donem:"1403–1474", eser:["Fethiye (astronomi risalesi)"], not:"XV. yüzyıl başlarında muhtemelen Semerkant'ta doğan Alâeddin Ali (Ali Kuşçu), matematik ve astronomi bilgisini Semerkant'ta Uluğ Bey, Kadızâde-i Rûmî ve Gıyâseddin Cemşîd el-Kâşî'den aldı. Uluğ Bey'in ölümünden sonra Tebriz'e geçti; Akkoyunlu hükümdarı Uzun Hasan'ın elçisi olarak Fâtih Sultan Mehmed'e gönderildi ve pâdişâhın ısrarı üzerine İstanbul'a yerleşti. 1473'te Uzun Hasan seferinden dönüşte Ayasofya Medresesi'ne müderris tayin edildi. 5 Şâban 879 (15 Aralık 1474) tarihinde İstanbul'da vefat etti ve Eyüp Sultan Türbesi civarına defnedildi." },
-{ id:"piri-reis", tur:"alim", ad:"Pîrî Reis", dogum_yer:"Gelibolu", t:"1554", donem:"ö. 1554", eser:["Kitâb-ı Bahriye","1513 Dünya Haritası"], not:"Asıl adı Pîrî Muhyiddin b. Hacı Mehmed olan Pîrî Reis, 1470 civarında doğdu. Amcası Kemal Reis'in yanında Akdeniz'de korsanlık faaliyetlerinde bulundu, ardından II. Bayezid döneminde devlet hizmetine girdi. 1513'te Avrupa keşiflerini de içeren ilk dünya haritasını, 1528'de ise Kuzey Atlantik ile Kuzey ve Orta Amerika kıyılarını gösteren ikinci dünya haritasını hazırladı. Akdeniz ve Ege kıyılarını ayrıntılarıyla anlatan, sonraki baskılarda 223 haritaya ulaşan portolan atlası Kitâb-ı Bahriyye'nin müellifi olarak Osmanlı coğrafya ve harita tarihinin en önemli isimlerinden biri kabul edilir. 1547'de Hint Okyanusu kaptanlığına getirilen Pîrî Reis, Portekizliler'den Aden'i geri aldı. Ancak Basra Beylerbeyi Kubad Paşa'nın yaydığı iddialara göre, başarısızlıkla sonuçlanan bir Hürmüz seferi sırasında yağma yaptığı ve rüşvet karşılığında kuşatmayı kaldırdığı öne sürüldü; TDV İslâm Ansiklopedisi bu suçlamaların rivayet edilir, kesinliği tartışmalıdır olduğunu, nitekim kısa süre sonra bir Portekiz donanmasının Hürmüz önlerine geldiği haberinin bu ithamların yersiz olabileceğini gösterdiğini belirtir. Bu ithamlar yüzünden muhtemelen 960 (1553) yılı sonlarında Kahire'deki Mısır Divanı'nda idam edildiği kaydedilir — TDV metni bu ölümü de \"muhtemelen\" ifadesiyle, yani kesin olmayan bir olay olarak sunar." },
-{ id:"takiyyuddin-er-rasid", tur:"alim", ad:"Takıyyüddin er-Râsıd", f:"1526", t:"1585", dogum_yer:"Şam", olum_yer:"İstanbul", donem:"1526–1585", not:"4 Ramazan 932 (14 Haziran 1526) tarihinde Şam'da doğan Takıyyüddin er-Râsıd, klasik İslâm astronomisinin son büyük temsilcisi kabul edilir ve Osmanlı sarayında müneccimbaşılık yaptı. Eski zîclerin yetersizliğini ileri sürerek III. Murad'ı ikna etti ve 985 (1577) yılında Tophane'de bir rasathane kurdurdu. Şeyhülislâm Kadızâde Ahmed Şemseddin Efendi'nin \"rasathanelerin bulundukları ülkelere felâket getireceği\" yönündeki fetvası üzerine, 4 Zilhicce 987 (22 Ocak 1580) tarihli hattı hümâyunla rasathane âletleriyle birlikte yıktırıldı. Bu olaydan derin üzüntü duyan Takıyyüddin köşesine çekildi ve 993 (1585) yılında İstanbul'da vefat etti." },
-{ id:"seydi-ali-reis", tur:"alim", ad:"Seydi Ali Reis", f:"1498", t:"1563", dogum_yer:"İstanbul", donem:"1498–1563", eser:["Mir'âtü'l-Memâlik"], not:"Hint Okyanusu'ndaki başarısız seferinden kara yoluyla dönüşünü anlatan seyahatnamesiyle tanınan denizci-yazar" },
-{ id:"hezarfen-ahmed-celebi", tur:"alim", ad:"Hezârfen Ahmed Çelebi", donem:"17. yy", not:"IV. Murad döneminde Galata Kulesi'nden Üsküdar'a kanatlarla uçtuğu rivayet edilen (kesin belgeyle doğrulanmamış) deneyci" },
-{ id:"katib-celebi", tur:"alim", ad:"Kâtib Çelebi", f:"1609", t:"1657", dogum_yer:"İstanbul", olum_yer:"İstanbul", donem:"1609–1657", eser:["Keşfü'z-Zünûn","Cihannümâ","Fezleke"], not:"Asıl adı Mustafa olan Kâtib Çelebi 1017'de (Şubat 1609) doğdu; âlimler arasında \"Kâtib Çelebi\", bürokraside ise \"Hacı Halife\" adıyla tanındı. Özel hocalardan eğitim aldıktan sonra on dört yaşında Divan-ı Hümâyun'un muhasebe kalemine girdi; 1620'li-1630'lu yıllarda Erzurum ve Bağdat seferlerine katıldı. 1635'ten sonra kendini tamamen ilme verdi ve miras yoluyla edindiği gelirle geniş bir kütüphane oluşturdu. Eserleri arasında yirmi yıllık bir çalışmayla, çeşitli şehirlerin kitapçılarını dolaşarak hazırladığı kapsamlı bibliyografik ansiklopedisi Keşfü'z-Zunûn, coğrafya alanındaki ünlü eseri Cihannümâ, 1000-1065 (1591-1655) yılları arasındaki Osmanlı tarihini anlatan Fezleke ve dönemin fikrî tartışmalarını ele aldığı Mîzânü'l-Hak sayılabilir; 1653'te devletin malî buhranına çözüm önerdiği Düstûrü'l-Amel de bu dönemde kaleme alınmıştır. 1067'de (6 Ekim 1657) vefat eden Kâtib Çelebi, Osmanlı ilim dünyasının pozitif akılcılığını temsil eden isimlerden biri olarak anılır." },
-{ id:"evliya-celebi", tur:"alim", ad:"Evliya Çelebi", f:"1611", dogum_yer:"İstanbul", donem:"1611–yak. 1685", eser:["Seyahatnâme (10 cilt)"], not:"Evliya Çelebi, 1611'de (1020) İstanbul Unkapanı'nda saray kuyumcubaşısının oğlu olarak doğdu; Şeyhülislâm Hâmid Efendi Medresesi'nde eğitim gördü, hat, mûsiki ve kıraat dersleri aldı ve IV. Murad döneminde Enderun'da hizmet verdi. Hiç evlenmedi; binicilikteki ustalığı, nüktedanlığı ve girgin kişiliğiyle tanındı, seyahatleri boyunca Melek Ahmed Paşa ile yakın ilişkisini sürdürdü. Kırk yılı aşkın süren gezileri boyunca Anadolu, Balkanlar, Kafkasya, İran, Mısır ve Avusturya arşivlerindeki belgelere göre 1665'te Kara Mehmed Paşa'nın Viyana elçilik heyetinde müezzin olarak yer aldığı Orta Avrupa'ya kadar uzanan on ciltlik dev eseri Seyahatnâme'yi kaleme aldı. Eserini hayatının son yıllarını geçirdiği Mısır'da tamamladı; metin, ölümünden sonra Kahire'den İstanbul'a gönderilerek 1742'de Hacı Beşir Ağa'nın nezaretinde istinsah edildi. Her şehri yönetim, coğrafya, nüfus, kültür, mimari ve ticaret başlıkları altında sistematik biçimde ele alan eser, I. cildinde doğduğu İstanbul'u, X. cildinde ise son yıllarını geçirdiği Kahire'yi anlatır; otuza yakın dilden kelime kaydeden dil zenginliği ve resmî-halk dilini harmanlayan anlatımıyla klasik bir edebî eser konumuna yükselmiştir. TDV İslâm Ansiklopedisi, Evliya Çelebi'nin vefatını kesin bir tarihe bağlamaz; 1095 (1684) yılı rivayet edilir, kesinliği tartışmalıdır." },
+{ id:"ali-kuscu", tur:"alim", ad:"Ali Kuşçu", t:"1474", dogum_yer:"Semerkant", olum_yer:"İstanbul", donem:"XV. yüzyıl başı (tahmin) – 1474", eser:["Fethiye (astronomi risalesi)"], not:"XV. yüzyıl başlarında muhtemelen Semerkant'ta doğan Alâeddin Ali (Ali Kuşçu), matematik ve astronomi bilgisini Semerkant'ta Uluğ Bey, Kadızâde-i Rûmî ve Gıyâseddin Cemşîd el-Kâşî'den aldı. Uluğ Bey'in ölümünden sonra Tebriz'e geçti; Akkoyunlu hükümdarı Uzun Hasan'ın elçisi olarak Fâtih Sultan Mehmed'e gönderildi ve pâdişâhın ısrarı üzerine İstanbul'a yerleşti. 1473'te Uzun Hasan seferinden dönüşte Ayasofya Medresesi'ne müderris tayin edildi. 5 Şâban 879 (15 Aralık 1474) tarihinde İstanbul'da vefat etti ve Eyüp Sultan Türbesi civarına defnedildi.",
+    ic_not_f:"eski: f:\"1403\" (donem 1403–1474) — sahte kesinlik: TDV yalnız \"XV. yüzyıl başlarında Semerkant'ta dünyaya geldiği tahmin edilmektedir\" der; yıl bilinmiyor, alan boşaltıldı (D210, kilic-ali-pasa emsali)",
+    kaynak:"TDV: ali-kuscu" },
+{ id:"piri-reis", tur:"alim", ad:"Pîrî Reis", dogum_yer:"Gelibolu", t:"1553", donem:"ö. 1553", eser:["Kitâb-ı Bahriye","1513 Dünya Haritası"], not:"Asıl adı Pîrî Muhyiddin b. Hacı Mehmed olan Pîrî Reis, 1470 civarında doğdu. Amcası Kemal Reis'in yanında Akdeniz'de korsanlık faaliyetlerinde bulundu, ardından II. Bayezid döneminde devlet hizmetine girdi. 1513'te Avrupa keşiflerini de içeren ilk dünya haritasını, 1528'de ise Kuzey Atlantik ile Kuzey ve Orta Amerika kıyılarını gösteren ikinci dünya haritasını hazırladı. Akdeniz ve Ege kıyılarını ayrıntılarıyla anlatan, sonraki baskılarda 223 haritaya ulaşan portolan atlası Kitâb-ı Bahriyye'nin müellifi olarak Osmanlı coğrafya ve harita tarihinin en önemli isimlerinden biri kabul edilir. 1547'de Hint Okyanusu kaptanlığına getirilen Pîrî Reis, Portekizliler'den Aden'i geri aldı. Ancak Basra Beylerbeyi Kubad Paşa'nın yaydığı iddialara göre, başarısızlıkla sonuçlanan bir Hürmüz seferi sırasında yağma yaptığı ve rüşvet karşılığında kuşatmayı kaldırdığı öne sürüldü; TDV İslâm Ansiklopedisi bu suçlamaların rivayet edilir, kesinliği tartışmalıdır olduğunu, nitekim kısa süre sonra bir Portekiz donanmasının Hürmüz önlerine geldiği haberinin bu ithamların yersiz olabileceğini gösterdiğini belirtir. Bu ithamlar yüzünden muhtemelen 960 (1553) yılı sonlarında Kahire'deki Mısır Divanı'nda idam edildiği kaydedilir — TDV metni bu ölümü de \"muhtemelen\" ifadesiyle, yani kesin olmayan bir olay olarak sunar.",
+    ic_not_t:"eski: t:\"1554\" (donem \"ö. 1554\") — TDV \"muhtemelen Dîvân-ı Mısır'da öldürüldü (960 sonu / 1553 sonları)\"; hicrî 960 1553 Aralık başında biter, kaydın kendi notu da 960 (1553) diyordu (W12 not-çelişkisi). §4 gereği TDV esas alındı",
+    kaynak:"TDV: piri-reis" },
+{ id:"takiyyuddin-er-rasid", tur:"alim", ad:"Takıyyüddin er-Râsıd", f:"1526", t:"1585", dogum_yer:"Şam", olum_yer:"İstanbul", donem:"1526–1585", not:"4 Ramazan 932 (14 Haziran 1526) tarihinde Şam'da doğan Takıyyüddin er-Râsıd, klasik İslâm astronomisinin son büyük temsilcisi kabul edilir ve Osmanlı sarayında müneccimbaşılık yaptı. Eski zîclerin yetersizliğini ileri sürerek III. Murad'ı ikna etti ve 985 (1577) yılında Tophane'de bir rasathane kurdurdu. Şeyhülislâm Kadızâde Ahmed Şemseddin Efendi'nin \"rasathanelerin bulundukları ülkelere felâket getireceği\" yönündeki fetvası üzerine, 4 Zilhicce 987 (22 Ocak 1580) tarihli hattı hümâyunla rasathane âletleriyle birlikte yıktırıldı. Bu olaydan derin üzüntü duyan Takıyyüddin köşesine çekildi ve 993 (1585) yılında İstanbul'da vefat etti.",
+    kaynak:"TDV: takiyyuddin-er-rasid" },
+{ id:"seydi-ali-reis", tur:"denizci", ad:"Seydi Ali Reis", f:"1498", t:"1562", dogum_yer:"İstanbul", donem:"1498–1562", eser:["Mir'âtü'l-Memâlik"], not:"Hint Okyanusu'ndaki başarısız seferinden kara yoluyla dönüşünü anlatan seyahatnamesiyle tanınan denizci-yazar",
+    ic_not_tur:"eski: tur:\"alim\" — TDV maddesi onu \"Osmanlı denizcisi\" diye tanımlar",
+    ic_not_t:"eski: t:\"1563\" (donem 1498–1563) — TDV \"vefatına kadar (2 Cemâziyelevvel 970 / 28 Aralık 1562)\"; gün verildiği için hicrî 970'in 1563 adayı düşer. §4 gereği TDV esas alındı",
+    kaynak:"TDV: seydi-ali-reis (doğum yılı kaynakta yok)" },
+{ id:"hezarfen-ahmed-celebi", tur:"alim", ad:"Hezârfen Ahmed Çelebi", donem:"17. yy", not:"IV. Murad döneminde Galata Kulesi'nden Üsküdar'a kanatlarla uçtuğu rivayet edilen (kesin belgeyle doğrulanmamış) deneyci",
+    kaynak:"TDV: hezarfen-ahmed-celebi" },
+{ id:"katib-celebi", tur:"alim", ad:"Kâtib Çelebi", f:"1609", t:"1657", dogum_yer:"İstanbul", olum_yer:"İstanbul", donem:"1609–1657", eser:["Keşfü'z-Zünûn","Cihannümâ","Fezleke"], not:"Asıl adı Mustafa olan Kâtib Çelebi 1017'de (Şubat 1609) doğdu; âlimler arasında \"Kâtib Çelebi\", bürokraside ise \"Hacı Halife\" adıyla tanındı. Özel hocalardan eğitim aldıktan sonra on dört yaşında Divan-ı Hümâyun'un muhasebe kalemine girdi; 1620'li-1630'lu yıllarda Erzurum ve Bağdat seferlerine katıldı. 1635'ten sonra kendini tamamen ilme verdi ve miras yoluyla edindiği gelirle geniş bir kütüphane oluşturdu. Eserleri arasında yirmi yıllık bir çalışmayla, çeşitli şehirlerin kitapçılarını dolaşarak hazırladığı kapsamlı bibliyografik ansiklopedisi Keşfü'z-Zunûn, coğrafya alanındaki ünlü eseri Cihannümâ, 1000-1065 (1591-1655) yılları arasındaki Osmanlı tarihini anlatan Fezleke ve dönemin fikrî tartışmalarını ele aldığı Mîzânü'l-Hak sayılabilir; 1653'te devletin malî buhranına çözüm önerdiği Düstûrü'l-Amel de bu dönemde kaleme alınmıştır. 1067'de (6 Ekim 1657) vefat eden Kâtib Çelebi, Osmanlı ilim dünyasının pozitif akılcılığını temsil eden isimlerden biri olarak anılır.",
+    kaynak:"TDV: katib-celebi" },
+{ id:"evliya-celebi", tur:"alim", ad:"Evliya Çelebi", f:"1611", dogum_yer:"İstanbul", donem:"1611–yak. 1685", eser:["Seyahatnâme (10 cilt)"], not:"Evliya Çelebi, 1611'de (1020) İstanbul Unkapanı'nda saray kuyumcubaşısının oğlu olarak doğdu; Şeyhülislâm Hâmid Efendi Medresesi'nde eğitim gördü, hat, mûsiki ve kıraat dersleri aldı ve IV. Murad döneminde Enderun'da hizmet verdi. Hiç evlenmedi; binicilikteki ustalığı, nüktedanlığı ve girgin kişiliğiyle tanındı, seyahatleri boyunca Melek Ahmed Paşa ile yakın ilişkisini sürdürdü. Kırk yılı aşkın süren gezileri boyunca Anadolu, Balkanlar, Kafkasya, İran, Mısır ve Avusturya arşivlerindeki belgelere göre 1665'te Kara Mehmed Paşa'nın Viyana elçilik heyetinde müezzin olarak yer aldığı Orta Avrupa'ya kadar uzanan on ciltlik dev eseri Seyahatnâme'yi kaleme aldı. Eserini hayatının son yıllarını geçirdiği Mısır'da tamamladı; metin, ölümünden sonra Kahire'den İstanbul'a gönderilerek 1742'de Hacı Beşir Ağa'nın nezaretinde istinsah edildi. Her şehri yönetim, coğrafya, nüfus, kültür, mimari ve ticaret başlıkları altında sistematik biçimde ele alan eser, I. cildinde doğduğu İstanbul'u, X. cildinde ise son yıllarını geçirdiği Kahire'yi anlatır; otuza yakın dilden kelime kaydeden dil zenginliği ve resmî-halk dilini harmanlayan anlatımıyla klasik bir edebî eser konumuna yükselmiştir. TDV İslâm Ansiklopedisi, Evliya Çelebi'nin vefatını kesin bir tarihe bağlamaz; 1095 (1684) yılı rivayet edilir, kesinliği tartışmalıdır.",
+    tartisma:"Ölüm yılı kesin değildir: TDV künyesi \"ö. 1095/1684 [?]\" der ve vefat yeri ve tarihi hakkında kesin bilgi olmadığını belirtir; daha önce 1093/1682 de ileri sürülmüştür.",
+    kaynak:"TDV: evliya-celebi" },
 { id:"ibrahim-muteferrika", tur:"alim", ad:"İbrahim Müteferrika", f:"1674", t:"1745", dogum_yer:"Kolozsvár (bugünkü Cluj-Napoca, Romanya)", olum_yer:"İstanbul", donem:"y. 1670/1674 – 1745 (mezar taşı 1747)", eser:["İlk Osmanlı Türkçe matbaası (1727)","Vankulu Lügati baskısı (1729)"], not:"Erdel'in Kolozsvár şehrinde (bugün Cluj, Romanya) doğdu; Üniteryen bir aileden geldiği, Erdelli Üniteryenlerin toplu ihtidası sırasında Müslüman olmuş olabileceği düşünülür — kesin tarih bilinmiyor. Osmanlı hizmetine esir olarak değil gönüllü girdiği anlaşılır (esir iddiaları Niyazi Berkes tarafından çürütülmüştür). 18 Nisan 1716'da sipahilikten dergâh-ı âlî müteferrikalığına geçti (lakabı buradan gelir); 1717'den itibaren Osmanlı'ya sığınan Erdel prensi II. Ferenc Rákóczi'ye tercümanlık ve mihmandarlık yaptı. 1726'da matbaanın gerekliliğini savunan Vesîletü't-tıbâa risalesini yazdı; Temmuz 1727'de III. Ahmed'in fermanı ve Şeyhülislâm Yenişehirli Abdullah Efendi'nin fetvasıyla (dinî eserler hariç) basım izni aldı. Sağlığında 17, ölümünden sonra basılanlarla toplam 24 kitap bastı. 1741'de Yalova'da bir kâğıt fabrikası kurmaya girişti. Matbaası 1730 Patrona Halil İsyanı'ndan zarar görmeden çıktı. Ölüm yılı 1745 kabul edilir; mezar taşındaki 1160 (1747) mezarın yapıldığı yıl sayılır, TDV ise tarih düşürülen mısrada bir yanlışlık olabileceğini belirtir.", kaynak:"TDV: ibrahim-muteferrika · TDV: matbaa" },
-{ id:"said-efendi", tur:"alim", ad:"Said Efendi (Yirmisekiz Çelebizâde)", t:"1761", donem:"ö. 1761", not:"İbrahim Müteferrika ile ilk Osmanlı matbaasını kuran ortak; Yirmisekiz Çelebi Mehmed Efendi'nin oğlu, sonradan kısa süreli sadrazamlık da yaptı" },
-{ id:"huseyin-rifki-tamani", tur:"alim", ad:"Hüseyin Rıfkı Tamânî", t:"1817", donem:"ö. 1817", not:"Mühendishâne-i Berrî-i Hümâyun'un kuruluş dönemi hocalarından matematikçi" },
-{ id:"mustafa-behcet-efendi", tur:"alim", ad:"Mustafa Behçet Efendi", f:"1774", t:"1834", dogum_yer:"İstanbul", donem:"1774–1834", not:"Tıphâne-i Âmire'nin kurulmasında rol oynayan hekimbaşı; modern tıp eğitiminin öncülerinden" },
-{ id:"ahmed-cevdet-pasa", tur:"alim", ad:"Ahmed Cevdet Paşa", f:"1822", t:"1895", dogum_yer:"Lofça (bugünkü Lovech, Bulgaristan)", donem:"1822–1895", eser:["Tarih-i Cevdet","Mecelle (heyet başkanı)"], not:"Asıl adı Ahmed olan Cevdet Paşa, 26-27 Mart 1823'te Bulgaristan'ın Lofça kasabasında doğdu; babası Hacı İsmâil Ağa, annesi Ayşe Sümbül Hanım'dır. 1839'da İstanbul'a gönderildikten sonra dönemin tanınmış âlimlerinin derslerine katıldı ve burada şair Süleyman Fehîm Efendi'den \"Cevdet\" mahlasını aldı. 1844'te kadılıkla başladığı devlet hizmetinde hızla yükseldi; 1855-1865 yılları arasında vak'anüvislik yaptı, çeşitli kazaskerlik ve nazırlık görevlerinde bulundu. Cevdet Paşa'yı asıl tanınır kılan eser, Hanefî fıkhı temelinde hazırlanan ve modern bir kanun kitabı oluşturulması fikrini kendisinin ortaya attığı Mecelle-i Ahkâm-ı Adliyye'dir; bu çalışmayı hazırlayan cemiyetin reisliğini üstlendi. 1851'de üyeliğine seçildiği Encümen-i Dâniş için ilk eser olarak Kavâid-i Osmâniyye'yi kaleme aldı. On iki ciltlik Tarih-i Cevdet ise 1774-1826 yılları arasındaki Osmanlı tarihini, Avrupa tarihine de geniş yer vererek ele alan ilk kapsamlı çalışma olarak kabul edilir; İbn Haldûn'un Mukaddime'sinden etkilenen Cevdet Paşa, olaylar arasındaki sebep-sonuç ilişkilerini ortaya koyan analitik bir tarihçilik anlayışı geliştirdi. Belâgat-ı Osmâniyye, Kısas-ı Enbiyâ ve Tezâkir-i Cevdet gibi eserleri de bu üretken kariyerinin diğer ürünleridir. 1895'te vefat etti." },
-{ id:"hoca-tahsin-efendi", tur:"alim", ad:"Hoca Tahsin Efendi", donem:"19. yy", not:"İstanbul Darülfünunu'nun ilk hocalarından/müdürlerinden" },
+{ id:"said-efendi", tur:"sadrazam", ad:"Said Efendi (Yirmisekiz Çelebizâde)", t:"1761", donem:"ö. 1761", not:"İbrahim Müteferrika ile ilk Osmanlı matbaasını kuran ortak; Yirmisekiz Çelebi Mehmed Efendi'nin oğlu, sonradan kısa süreli sadrazamlık da yaptı",
+    ic_not_tur:"eski: tur:\"alim\" — TDV künyesi \"Osmanlı sadrazamı\" der (`mehmed-said-pasa-yirmisekizcelebizade`)",
+    kaynak:"TDV: mehmed-said-pasa-yirmisekizcelebizade" },
+{ id:"huseyin-rifki-tamani", tur:"alim", ad:"Hüseyin Rıfkı Tamânî", t:"1816", donem:"ö. 1816", not:"Mühendishâne-i Berrî-i Hümâyun'un kuruluş dönemi hocalarından matematikçi",
+    ic_not_t:"eski: t:\"1817\" (donem \"ö. 1817\") — TDV \"1231 (1816) senesinin sonlarında … vefat etti\", künye \"(ö. 1816)\"; hicrî 1231 = 1815/1816, 1817 iki adayın da dışında. §4 gereği TDV esas alındı",
+    kaynak:"TDV: tamani-huseyin-rifki" },
+{ id:"mustafa-behcet-efendi", tur:"alim", ad:"Mustafa Behçet Efendi", f:"1774", t:"1834", dogum_yer:"İstanbul", donem:"1774–1834", not:"Tıphâne-i Âmire'nin kurulmasında rol oynayan hekimbaşı; modern tıp eğitiminin öncülerinden",
+    kaynak:"TDV: behcet-mustafa-efendi" },
+{ id:"ahmed-cevdet-pasa", tur:"alim", ad:"Ahmed Cevdet Paşa", f:"1823", t:"1895", dogum_yer:"Lofça (bugünkü Lovech, Bulgaristan)", donem:"1823–1895", eser:["Tarih-i Cevdet","Mecelle (heyet başkanı)"], not:"Asıl adı Ahmed olan Cevdet Paşa, 26-27 Mart 1823'te Bulgaristan'ın Lofça kasabasında doğdu; babası Hacı İsmâil Ağa, annesi Ayşe Sümbül Hanım'dır. 1839'da İstanbul'a gönderildikten sonra dönemin tanınmış âlimlerinin derslerine katıldı ve burada şair Süleyman Fehîm Efendi'den \"Cevdet\" mahlasını aldı. 1844'te kadılıkla başladığı devlet hizmetinde hızla yükseldi; 1855-1865 yılları arasında vak'anüvislik yaptı, çeşitli kazaskerlik ve nazırlık görevlerinde bulundu. Cevdet Paşa'yı asıl tanınır kılan eser, Hanefî fıkhı temelinde hazırlanan ve modern bir kanun kitabı oluşturulması fikrini kendisinin ortaya attığı Mecelle-i Ahkâm-ı Adliyye'dir; bu çalışmayı hazırlayan cemiyetin reisliğini üstlendi. 1851'de üyeliğine seçildiği Encümen-i Dâniş için ilk eser olarak Kavâid-i Osmâniyye'yi kaleme aldı. On iki ciltlik Tarih-i Cevdet ise 1774-1826 yılları arasındaki Osmanlı tarihini, Avrupa tarihine de geniş yer vererek ele alan ilk kapsamlı çalışma olarak kabul edilir; İbn Haldûn'un Mukaddime'sinden etkilenen Cevdet Paşa, olaylar arasındaki sebep-sonuç ilişkilerini ortaya koyan analitik bir tarihçilik anlayışı geliştirdi. Belâgat-ı Osmâniyye, Kısas-ı Enbiyâ ve Tezâkir-i Cevdet gibi eserleri de bu üretken kariyerinin diğer ürünleridir. 1895'te vefat etti.",
+    ic_not_f:"eski: f:\"1822\" (donem 1822–1895) — TDV \"(13-14 Receb 1238 / 26-27 Mart 1823) … Lofça kasabasında doğdu\"; kaydın kendi notu da 26-27 Mart 1823 diyordu (W12 not-çelişkisi). §4 gereği TDV esas alındı",
+    kaynak:"TDV: cevdet-pasa" },
+{ id:"hoca-tahsin-efendi", tur:"alim", ad:"Hoca Tahsin Efendi", f:"1811", t:"1881", donem:"19. yy", not:"İstanbul Darülfünunu'nun ilk hocalarından/müdürlerinden",
+    tartisma:"Doğum yılı tartışmalıdır: TDV başlığı 1811 verir; metin 1228 (1813), 1227 (1812) ve 7 Nisan 1811 tarihlerini anar.",
+    ic_not_f:"öteki adaylar: 1227 (1812) ve 1228 (1813) — TDV başlığı 1811, metin üçünü de anar — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)",
+    kaynak:"TDV: hoca-tahsin" },
 
 // --- Tasavvuf / fikir ---
-{ id:"ebussuud-efendi", tur:"alim", ad:"Ebüssuûd Efendi", f:"1490", t:"1574", dogum_yer:"İskilip (Çorum)", donem:"1490–1574", not:"30 Aralık 1490'da (896) doğan Ebüssuûd Efendi, çeşitli medreselerde müderrislik ve Rumeli kazaskerliği görevlerinden sonra 1545'te şeyhülislâmlığa getirildi ve 23 Ağustos 1574'teki (982) vefatına kadar yirmi sekiz yıl on bir ay boyunca bu makamda kaldı; böylece Kanûnî Sultan Süleyman ve II. Selim dönemlerinin uzun süre görev yapan şeyhülislâmı oldu. Görevi süresince Osmanlı ilmiye teşkilâtının hiyerarşi ve terfi sistemini sistemleştirdi, Hanefî fıkhının devletin resmî mezhebi olarak uygulanmasını pekiştirdi, mîrî arazi hukukunun teorik temellerini geliştirdi ve şeyhülislâmlık makamını kazaskerliğin üzerine çıkardı. Kapsamlı bir Kur'an tefsiri olan İrşâdü'l-akli's-selîm ile bütün kadıları bağlayan ve müftülük sıfatıyla verdiği cevapları içeren Fetâvâ-yı Ebüssuûd Efendi ve padişaha sunduğu Ma'rûzât, vakıf ve arazi hukukuna dair risaleleriyle birlikte onun başlıca eserleridir. Bu üretkenliği ve hukukî otoritesi sebebiyle \"sultânü'l-müfessirîn\" unvanıyla anılan Ebüssuûd Efendi, Osmanlı hukuk ve din kurumları üzerinde kalıcı bir etki bıraktı." },
-{ id:"vani-mehmed-efendi", tur:"alim", ad:"Vânî Mehmed Efendi", t:"1685", donem:"ö. 1685", not:"Van'a bağlı Hoşap kasabasında doğan Mehmed Efendi \"Vânî\" ve \"Hoşâbî\" nisbeleriyle anıldı; tahsiline Van'da başlayıp Tebriz, Gence, Karabağ ve Erzurum'da devam etti. Erzurum'da vâizlik yaparken 1659'da Köprülüzâde Fâzıl Ahmed Paşa'nın dikkatini çekti; Fâzıl Ahmed sadrazam olunca İstanbul'a çağrıldı ve IV. Mehmed'in hocası oldu. 1665'te Yenicami vâizliği ve hâce-i sultânîlik görevine, ayrıca Şehzade Mustafa'nın hocalığına getirildi. 1683'teki II. Viyana Kuşatması'na ordu vâizi olarak katıldı ve Kara Mustafa Paşa'nın isteğiyle sefer için halka vaazlar verdirilmesinde etkili oldu. Kuşatmanın başarısızlıkla sonuçlanmasının ardından kamuoyundaki tepkiyi hafifletmek amacıyla görevlerinden uzaklaştırılıp Bursa'nın Kestel kasabasına sürgün edildi. Dönemin fakih-sûfî çekişmesinde fakihler tarafında yer aldığından, mutasavvıf şair Niyâzî-i Mısrî'nin sürgününden de sorumlu tutulmuştur. Sürgün kendisini derinden etkiledi ve kısa süre sonra 14 Zilkade 1096 (12 Ekim 1685) tarihinde vefat etti; mezarı Kestel'de kendi yaptırdığı caminin girişindedir." },
-{ id:"hayrullah-efendi", tur:"alim", ad:"Hayrullah Efendi (İmâm-ı Sultânî)", f:"1834", t:"1898", donem:"1834–1898", not:"12 Mayıs 1876'da ikinci kez şeyhülislâm oldu; Abdülaziz'in 30 Mayıs 1876'da tahttan indirilmesi için gereken fetvayı hazırlayan kadronun içindeydi" },
+{ id:"ebussuud-efendi", tur:"alim", ad:"Ebüssuûd Efendi", f:"1490", t:"1574", dogum_yer:"İskilip (Çorum)", donem:"1490–1574", not:"30 Aralık 1490'da (896) doğan Ebüssuûd Efendi, çeşitli medreselerde müderrislik ve Rumeli kazaskerliği görevlerinden sonra 1545'te şeyhülislâmlığa getirildi ve 23 Ağustos 1574'teki (982) vefatına kadar yirmi sekiz yıl on bir ay boyunca bu makamda kaldı; böylece Kanûnî Sultan Süleyman ve II. Selim dönemlerinin uzun süre görev yapan şeyhülislâmı oldu. Görevi süresince Osmanlı ilmiye teşkilâtının hiyerarşi ve terfi sistemini sistemleştirdi, Hanefî fıkhının devletin resmî mezhebi olarak uygulanmasını pekiştirdi, mîrî arazi hukukunun teorik temellerini geliştirdi ve şeyhülislâmlık makamını kazaskerliğin üzerine çıkardı. Kapsamlı bir Kur'an tefsiri olan İrşâdü'l-akli's-selîm ile bütün kadıları bağlayan ve müftülük sıfatıyla verdiği cevapları içeren Fetâvâ-yı Ebüssuûd Efendi ve padişaha sunduğu Ma'rûzât, vakıf ve arazi hukukuna dair risaleleriyle birlikte onun başlıca eserleridir. Bu üretkenliği ve hukukî otoritesi sebebiyle \"sultânü'l-müfessirîn\" unvanıyla anılan Ebüssuûd Efendi, Osmanlı hukuk ve din kurumları üzerinde kalıcı bir etki bıraktı.",
+    kaynak:"TDV: ebussuud-efendi" },
+{ id:"vani-mehmed-efendi", tur:"alim", ad:"Vânî Mehmed Efendi", t:"1685", donem:"ö. 1685", not:"Van'a bağlı Hoşap kasabasında doğan Mehmed Efendi \"Vânî\" ve \"Hoşâbî\" nisbeleriyle anıldı; tahsiline Van'da başlayıp Tebriz, Gence, Karabağ ve Erzurum'da devam etti. Erzurum'da vâizlik yaparken 1659'da Köprülüzâde Fâzıl Ahmed Paşa'nın dikkatini çekti; Fâzıl Ahmed sadrazam olunca İstanbul'a çağrıldı ve IV. Mehmed'in hocası oldu. 1665'te Yenicami vâizliği ve hâce-i sultânîlik görevine, ayrıca Şehzade Mustafa'nın hocalığına getirildi. 1683'teki II. Viyana Kuşatması'na ordu vâizi olarak katıldı ve Kara Mustafa Paşa'nın isteğiyle sefer için halka vaazlar verdirilmesinde etkili oldu. Kuşatmanın başarısızlıkla sonuçlanmasının ardından kamuoyundaki tepkiyi hafifletmek amacıyla görevlerinden uzaklaştırılıp Bursa'nın Kestel kasabasına sürgün edildi. Dönemin fakih-sûfî çekişmesinde fakihler tarafında yer aldığından, mutasavvıf şair Niyâzî-i Mısrî'nin sürgününden de sorumlu tutulmuştur. Sürgün kendisini derinden etkiledi ve kısa süre sonra 14 Zilkade 1096 (12 Ekim 1685) tarihinde vefat etti; mezarı Kestel'de kendi yaptırdığı caminin girişindedir.",
+    kaynak:"TDV: mehmed-efendi-vani" },
+{ id:"hayrullah-efendi", tur:"alim", ad:"Hayrullah Efendi (İmâm-ı Sultânî)", f:"1834", t:"1898", donem:"1834–1898", not:"12 Mayıs 1876'da ikinci kez şeyhülislâm oldu; Abdülaziz'in 30 Mayıs 1876'da tahttan indirilmesi için gereken fetvayı hazırlayan kadronun içindeydi",
+    tartisma:"Doğum yılı kesin değildir: TDV \"muhtemelen 1834 yılında İstanbul'da doğdu\" der.",
+    kaynak:"TDV: hayrullah-efendi-imam-i-sultani (`hayrullah-efendi` slug'ı aynı adlı BAŞKA kişidir — reîsületıbbâ)" },
 
 // --- Edebiyat / basın (Tanzimat-Yeni Osmanlılar kadrosu) ---
-{ id:"agah-efendi", tur:"edebiyatci", ad:"Agâh Efendi", f:"1832", t:"1885", donem:"1832–1885", eser:["Tercümân-ı Ahvâl (ilk özel Türkçe gazete, 1860)"], not:"İbrâhim Şinâsi ile birlikte ilk özel Türkçe gazeteyi çıkardı" },
-{ id:"sinasi", tur:"edebiyatci", ad:"İbrâhim Şinâsi", f:"1826", t:"1871", dogum_yer:"İstanbul", donem:"1826–1871", eser:["Şair Evlenmesi (ilk Türkçe tiyatro oyunlarından)","Tasvîr-i Efkâr (gazete)"], not:"1826'da İstanbul'da doğan İbrâhim Şinâsi, 1849-1851 arasında Paris'te tahsil gördü ve 1851'de Société Asiatique üyeliğine kabul edildi. Türkçe manzum ve yazılı metne dayanan ilk tiyatro eseri kabul edilen \"Şair Evlenmesi\"ni 1859'da, evlenme âdetlerini konu alan bir komedi olarak yazdı; \"Müntehabât-ı Eş'âr\"ıyla şiire siyasî-toplumsal temaları soktu, \"Dürûb-i Emsâl-i Osmâniyye\" ile ilk sistematik Türk atasözleri derlemesini hazırladı. 1860'ta özel sermayeyle çıkan ilk Türkçe gazete sayılan Tercümân-ı Ahvâl'i, 1862'de ise Tasvîr-i Efkâr'ı kurdu; sadeleştirilmiş Türkçe nesri ve gazete diline özgü terminolojiyi savundu. 13 Eylül 1871'de öldüğünde yarım kalan bir sözlük çalışması ömrünün son eseri olarak kaldı." },
-{ id:"ziya-pasa", tur:"edebiyatci", ad:"Ziya Paşa", f:"1825", t:"1880", dogum_yer:"İstanbul", donem:"1825–1880", not:"Yeni Osmanlılar hareketinin edebiyatçı-devlet adamı kanadından; Nâmık Kemal ile Tasvîr-i Efkâr'ı çıkardı" },
-{ id:"namik-kemal", tur:"edebiyatci", ad:"Nâmık Kemal", f:"1840", t:"1888", dogum_yer:"Tekirdağ (Rodosçuk)", olum_yer:"Sakız Adası", donem:"1840–1888", eser:["Vatan yahut Silistre (1873)"], not:"21 Aralık 1840'ta doğan Nâmık Kemal, 1865'te kurulan İttifâk-ı Hamiyyet (Yeni Osmanlılar) cemiyetine katıldı ve meşrutiyet fikrini savundu; Mustafa Fâzıl Paşa'nın daveti üzerine Mayıs 1867'de Avrupa'ya kaçtı. Şinâsi ile tanıştıktan sonra Tasvîr-i Efkâr'da (1862-1867), Londra'da Ziyâ Paşa ile birlikte Hürriyet'te (1868-1869) ve ardından İbret'te (1872-1873) yazdı. İlk piyesi \"Vatan yahut Silistre\" 1 Nisan 1873'te Gedik Paşa Tiyatrosu'nda sahnelenince seyirciden \"Yaşasın vatan! Yaşasın Kemal!\" nidaları yükseldi; hükümet gazeteyi kapattı, Kemal 6 Nisan 1873'te tutuklanıp 9 Nisan'da Magosa'ya sürüldü. Otuz sekiz ay süren bu sürgünde Gülnihal, Âkif Bey, Zavallı Çocuk, Celâleddin Hârizmşah gibi oyunları, İntibah ve Cezmi romanlarını ve Osmanlı Târihi'ni kaleme aldı. Sakız mutasarrıflığı sırasında Osmanlı Târihi'nin basılan nüshaları sarayca toplattırılınca yeis içinde zatürreeden vefat etti (2 Aralık 1888) ve Gelibolu'da Süleyman Paşa Türbesi hazîresine defnedildi." },
-{ id:"ali-suavi", tur:"siyasi", ad:"Ali Suâvi", f:"1839", t:"1878", dogum_yer:"İstanbul", donem:"1839–1878", not:"Ali Suâvi, Kasım 1839'da İstanbul'da fakir bir ailenin çocuğu olarak doğdu; kendi kendini yetiştirerek dönemin edebiyat ve fikir çevrelerine girdi. 1858'de Simav'da bir rüşdiyede ve Kurşunlu Medresesi'nde öğretmenlik yaptı; hac dönüşü Sofya'da ticaret mahkemesi reisliği, Filibe'de rüşdiye öğretmenliği ve tahrirat müdürlüğü yaptı. İstanbul'da 1866'dan itibaren Şehzade Camii'nde vaazlar verdi. 1867 başında Muhbir gazetesinde yazmaya başladığında Yeni Osmanlılar cemiyetinin varlığından haberdar değildi; Mustafa Fâzıl Paşa'nın daveti üzerine 22 Mayıs 1867'de Avrupa'ya kaçtı, Le Courrier d'Orient gazetesi sahibi Jean Pietri'nin yardımıyla Mesina'da Ziya Paşa ve Nâmık Kemal'e katıldı, 31 Ağustos 1867'de Londra'da Muhbir'i yeniden yayımladı. Ancak aykırı ve geçimsiz tavırları yüzünden diğer Yeni Osmanlı üyeleriyle arası kısa sürede açıldı. 20 Mayıs 1878'de, 93 Harbi sonrasında Balkanlar'dan İstanbul'a gelen Filibeli muhacirlerden topladığı yaklaşık 250 kişilik bir grupla Çırağan Sarayı'nı bastı. Baskın sırasında Beşiktaş Karakolu muhafızı Hasan Ağa tarafından başına sopayla vurularak öldürüldü." },
+{ id:"agah-efendi", tur:"edebiyatci", ad:"Agâh Efendi", f:"1832", t:"1885", donem:"1832–1885", eser:["Tercümân-ı Ahvâl (ilk özel Türkçe gazete, 1860)"], not:"İbrâhim Şinâsi ile birlikte ilk özel Türkçe gazeteyi çıkardı",
+    kaynak:"TDV: agah-efendi-capanzade" },
+{ id:"sinasi", tur:"edebiyatci", ad:"İbrâhim Şinâsi", f:"1826", t:"1871", dogum_yer:"İstanbul", donem:"1826–1871", eser:["Şair Evlenmesi (ilk Türkçe tiyatro oyunlarından)","Tasvîr-i Efkâr (gazete)"], not:"1826'da İstanbul'da doğan İbrâhim Şinâsi, 1849-1851 arasında Paris'te tahsil gördü ve 1851'de Société Asiatique üyeliğine kabul edildi. Türkçe manzum ve yazılı metne dayanan ilk tiyatro eseri kabul edilen \"Şair Evlenmesi\"ni 1859'da, evlenme âdetlerini konu alan bir komedi olarak yazdı; \"Müntehabât-ı Eş'âr\"ıyla şiire siyasî-toplumsal temaları soktu, \"Dürûb-i Emsâl-i Osmâniyye\" ile ilk sistematik Türk atasözleri derlemesini hazırladı. 1860'ta özel sermayeyle çıkan ilk Türkçe gazete sayılan Tercümân-ı Ahvâl'i, 1862'de ise Tasvîr-i Efkâr'ı kurdu; sadeleştirilmiş Türkçe nesri ve gazete diline özgü terminolojiyi savundu. 13 Eylül 1871'de öldüğünde yarım kalan bir sözlük çalışması ömrünün son eseri olarak kaldı.",
+    tartisma:"Doğum yılı tartışmalıdır: TDV'ye göre ilk kaynakta önce 1242 (1826), sonra 1240 yılı verilmiş; belgeye dayanmayan bu tarihlerden 1824 ve 1826 öne çıkarılmıştır.",
+    ic_not_f:"öteki aday: 1824 — TDV \"doğumu için 1824 veya 1826 yılı öne çıkarılmıştır\" — mevcut değer TDV adaylarından biri (tanıklı) olduğu için kaldı (koordinatör hükmü b)",
+    kaynak:"TDV: sinasi" },
+{ id:"ziya-pasa", tur:"edebiyatci", ad:"Ziya Paşa", f:"1829", t:"1880", dogum_yer:"İstanbul", donem:"1829–1880", not:"Yeni Osmanlılar hareketinin edebiyatçı-devlet adamı kanadından; Nâmık Kemal ile Tasvîr-i Efkâr'ı çıkardı",
+    ic_not_f:"eski: f:\"1825\" (donem 1825–1880) — TDV \"ZİYÂ PAŞA (1829-1880)\", \"17 Mayıs 1880 tarihinde henüz elli bir yaşında iken vefat etti\". §4 gereği TDV esas alındı",
+    kaynak:"TDV: ziya-pasa--sair (`ziya-pasa--bestekar` aynı adlı BAŞKA kişidir)" },
+{ id:"namik-kemal", tur:"edebiyatci", ad:"Nâmık Kemal", f:"1840", t:"1888", dogum_yer:"Tekirdağ (Rodosçuk)", olum_yer:"Sakız Adası", donem:"1840–1888", eser:["Vatan yahut Silistre (1873)"], not:"21 Aralık 1840'ta doğan Nâmık Kemal, 1865'te kurulan İttifâk-ı Hamiyyet (Yeni Osmanlılar) cemiyetine katıldı ve meşrutiyet fikrini savundu; Mustafa Fâzıl Paşa'nın daveti üzerine Mayıs 1867'de Avrupa'ya kaçtı. Şinâsi ile tanıştıktan sonra Tasvîr-i Efkâr'da (1862-1867), Londra'da Ziyâ Paşa ile birlikte Hürriyet'te (1868-1869) ve ardından İbret'te (1872-1873) yazdı. İlk piyesi \"Vatan yahut Silistre\" 1 Nisan 1873'te Gedik Paşa Tiyatrosu'nda sahnelenince seyirciden \"Yaşasın vatan! Yaşasın Kemal!\" nidaları yükseldi; hükümet gazeteyi kapattı, Kemal 6 Nisan 1873'te tutuklanıp 9 Nisan'da Magosa'ya sürüldü. Otuz sekiz ay süren bu sürgünde Gülnihal, Âkif Bey, Zavallı Çocuk, Celâleddin Hârizmşah gibi oyunları, İntibah ve Cezmi romanlarını ve Osmanlı Târihi'ni kaleme aldı. Sakız mutasarrıflığı sırasında Osmanlı Târihi'nin basılan nüshaları sarayca toplattırılınca yeis içinde zatürreeden vefat etti (2 Aralık 1888) ve Gelibolu'da Süleyman Paşa Türbesi hazîresine defnedildi.",
+    kaynak:"TDV: namik-kemal" },
+{ id:"ali-suavi", tur:"siyasi", ad:"Ali Suâvi", f:"1839", t:"1878", dogum_yer:"İstanbul", donem:"1839–1878", not:"Ali Suâvi, Kasım 1839'da İstanbul'da fakir bir ailenin çocuğu olarak doğdu; kendi kendini yetiştirerek dönemin edebiyat ve fikir çevrelerine girdi. 1858'de Simav'da bir rüşdiyede ve Kurşunlu Medresesi'nde öğretmenlik yaptı; hac dönüşü Sofya'da ticaret mahkemesi reisliği, Filibe'de rüşdiye öğretmenliği ve tahrirat müdürlüğü yaptı. İstanbul'da 1866'dan itibaren Şehzade Camii'nde vaazlar verdi. 1867 başında Muhbir gazetesinde yazmaya başladığında Yeni Osmanlılar cemiyetinin varlığından haberdar değildi; Mustafa Fâzıl Paşa'nın daveti üzerine 22 Mayıs 1867'de Avrupa'ya kaçtı, Le Courrier d'Orient gazetesi sahibi Jean Pietri'nin yardımıyla Mesina'da Ziya Paşa ve Nâmık Kemal'e katıldı, 31 Ağustos 1867'de Londra'da Muhbir'i yeniden yayımladı. Ancak aykırı ve geçimsiz tavırları yüzünden diğer Yeni Osmanlı üyeleriyle arası kısa sürede açıldı. 20 Mayıs 1878'de, 93 Harbi sonrasında Balkanlar'dan İstanbul'a gelen Filibeli muhacirlerden topladığı yaklaşık 250 kişilik bir grupla Çırağan Sarayı'nı bastı. Baskın sırasında Beşiktaş Karakolu muhafızı Hasan Ağa tarafından başına sopayla vurularak öldürüldü.",
+    kaynak:"TDV: ali-suavi" },
 
 // --- 1876 hanedan krizi (Abdülaziz'in hal'i / V. Murad / Çırağan Vak'ası) ---
-{ id:"cerkes-hasan-bey", tur:"siyasi", ad:"Çerkes Hasan Bey", t:"1876", donem:"ö. 1876", not:"Çerkes Hasan Bey, 1850 yılında doğdu; Sultan Abdülaziz'in eniştesi (kız kardeşinin kocası) idi ve kolağası rütbesinde bir Osmanlı subayıydı. TDV İslâm Ansiklopedisi'nin \"Murad V\" maddesine göre, tahttan indirilen Abdülaziz'in Fer'iye Sarayı'na nakledilişinden üç gün sonra dairesinde ölü bulunmasının (4 Haziran 1876) ardından, eniştesinin ölümünden Hüseyin Avni Paşa'yı sorumlu tutan Çerkes Hasan Bey, 15-16 Haziran 1876 gecesi Midhat Paşa'nın konağında toplanan Meclis-i Vükelâ'yı basarak Serasker Hüseyin Avni Paşa'yı öldürdü. Kısa bir yargılamanın ardından idam edildiği yaygın biçimde aktarılır; akademik bir kaynak (Encyclopedia.com, \"Çerkes Hasan Incident\") idam tarihini 18 Haziran 1876, bazı kaynaklar ölüm tarihini 17 Haziran olarak verir. Bu ayrıntı TDV İslâm Ansiklopedisi'nin taranan maddelerinde doğrulanamamıştır.", ic_not_not:"çıkarılan: (TDV'de müstakil maddesi yok, huseyin-avni-pasa maddesindeki geçişten; doğum yılı ve idam günü doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)" },
-{ id:"yedisekiz-hasan-pasa", tur:"komutan", ad:"Hasan Paşa (Yedi Sekiz)", donem:"19. yy", not:"Beşiktaş muhafızı; 20 Mayıs 1878 Çırağan Vak'ası sırasında sarayı basan Ali Suâvi'yi vurarak öldürdü (olay anındaki rütbesiyle \"Hasan Ağa\" olarak da anılır)", ic_not_not:"eski: (TDV'nin ciragan-vakasi maddesinde … müstakil maddesi yok; doğum-ölüm yılları TDV'de doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)" },
+{ id:"cerkes-hasan-bey", tur:"siyasi", ad:"Çerkes Hasan Bey", t:"1876", donem:"ö. 1876", not:"Çerkes Hasan Bey, 1850 yılında doğdu; Sultan Abdülaziz'in eniştesi (kız kardeşinin kocası) idi ve kolağası rütbesinde bir Osmanlı subayıydı. TDV İslâm Ansiklopedisi'nin \"Murad V\" maddesine göre, tahttan indirilen Abdülaziz'in Fer'iye Sarayı'na nakledilişinden üç gün sonra dairesinde ölü bulunmasının (4 Haziran 1876) ardından, eniştesinin ölümünden Hüseyin Avni Paşa'yı sorumlu tutan Çerkes Hasan Bey, 15-16 Haziran 1876 gecesi Midhat Paşa'nın konağında toplanan Meclis-i Vükelâ'yı basarak Serasker Hüseyin Avni Paşa'yı öldürdü. Kısa bir yargılamanın ardından idam edildiği yaygın biçimde aktarılır; akademik bir kaynak (Encyclopedia.com, \"Çerkes Hasan Incident\") idam tarihini 18 Haziran 1876, bazı kaynaklar ölüm tarihini 17 Haziran olarak verir. Bu ayrıntı TDV İslâm Ansiklopedisi'nin taranan maddelerinde doğrulanamamıştır.", ic_not_not:"çıkarılan: (TDV'de müstakil maddesi yok, huseyin-avni-pasa maddesindeki geçişten; doğum yılı ve idam günü doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)",
+    kaynak:"TDV: murad-v (müstakil madde yok; ölüm yılı kaynakta yok)" },
+{ id:"yedisekiz-hasan-pasa", tur:"komutan", ad:"Hasan Paşa (Yedi Sekiz)", donem:"19. yy", not:"Beşiktaş muhafızı; 20 Mayıs 1878 Çırağan Vak'ası sırasında sarayı basan Ali Suâvi'yi vurarak öldürdü (olay anındaki rütbesiyle \"Hasan Ağa\" olarak da anılır)", ic_not_not:"eski: (TDV'nin ciragan-vakasi maddesinde … müstakil maddesi yok; doğum-ölüm yılları TDV'de doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)",
+    kaynak:"TDV: ali-suavi (müstakil madde yok)" },
 
 // --- Askerî teknoloji reformcuları ---
-{ id:"humbaraci-ahmed-pasa", tur:"komutan", ad:"Humbaracı Ahmed Paşa (Comte de Bonneval)", f:"1675", t:"1747", dogum_yer:"Coussac-Bonneval (Fransa)", olum_yer:"İstanbul", donem:"1675–1747", not:"14 Temmuz 1675'te Fransa'nın Limousin eyaletindeki Coussac'ta soylu bir aileden Claude-Alexandre Comte de Bonneval olarak doğdu; önce donanmada, 1698'den itibaren kara ordusunda hizmet etti. 1704'te XIV. Louis ile arası açılıp ordudan çıkarılınca Paris'ten kaçtı, Avusturya'da Prens Eugene'in emrinde görev aldı. 1729'da Saraybosna'da İslâmiyet'i kabul ederek Ahmed adını aldı ve Osmanlı Devleti'ne sığındı; III. Ahmed döneminde İstanbul'a çağrılsa da Patrona Halil İsyanı yüzünden Gümülcine'de beklemek zorunda kaldı. I. Mahmud döneminde, 1730'da Sadrazam Topal Osman Paşa tarafından humbaracıbaşılığa getirildi; ulûfeli bir humbaracı sınıfı kurup bunun için bir nizamnâme hazırladı. Bosna'dan getirilen yaklaşık 300 (kısa sürede 600'ü aşan) neferi Üsküdar Ayazma'daki humbaracı kışlasında eğitti, kendilerine matematik dersleri de verdirdi; ilk merhalede 100 havan topu ve 50.000 humbara döktürdü. 23 Mayıs 1747'de İstanbul'da öldü ve Galata Mevlevîhânesi'ne defnedildi." },
-{ id:"baron-de-tott", tur:"yabanci-komutan", ad:"Baron de Tott", f:"1733", t:"1793", dogum_yer:"Fransa", donem:"1733–1793", not:"François Baron de Tott, 17 Ağustos 1733'te Fransa'nın Chamigny kasabasında doğdu. 1755'te İstanbul'daki Fransız elçisi Vergennes'in kâtibi olarak Osmanlı başkentine geldi; 1767'de Kırım'a Fransız konsolosu olarak atandı ve 1768-1774 Osmanlı-Rus Savaşı sırasında bu bölgede görev yaptı. 1770'te Rus donanmasının tehdidine karşı Çanakkale Boğazı'nın istihkâmlarını güçlendirmekle görevlendirildi. III. Mustafa döneminde, 1771-1776 yılları arasında Osmanlı topçu ocağının ıslahına girişti ve 10 Ocak 1774'te \"Sürat Topçuları Ocağı\" adıyla yeni bir hızlı-ateşli topçu birliği kurdu. Aynı ıslahat çabalarının devamı olarak deniz mühendisliği eğitimi veren bir okulun (Mühendishâne-i Bahrî-i Hümâyun, 29 Nisan 1775'te açıldı) kuruluş sürecinde de rol oynadı; TDV maddesine göre bu okula alınan ilk öğrenciler genellikle temel matematik bilgisine sahip eski gemi kaptanları ile üst düzey görevlilerin çocuklarından seçildi. Osmanlı hizmetinden ayrıldıktan sonra 1778-1784 yılları arasında kaleme aldığı anılarını \"Mémoires du Baron de Tott sur les turcs et les tartares\" başlığıyla 1784'te Amsterdam'da yayımladı; bu eser dönemin Avrupa'sında Türkler hakkında en çok okunan iki kitaptan biri oldu ve Türkçeye 1975'te çevrildi. TDV maddesine göre Tott bu anılarında, gördüğü kurumsal çözülmeden ve Türk-İslâm karşıtı önyargılardan beslenen sert bir dille Osmanlı kurumlarını eleştirmiştir. Baron de Tott, 24 Eylül 1793'te Macaristan'da öldü." },
-{ id:"mehmed-namik-pasa", tur:"komutan", ad:"Mehmed Nâmık Paşa", f:"1804", t:"1892", donem:"1804–1892", not:"Mekteb-i Harbiye'nin Maçka Kışlası'ndaki kuruluşunda rol oynayan asker-devlet adamı" },
-{ id:"gercek-davud", tur:"alim", ad:"Gerçek Dâvud", donem:"18. yy", not:"1720'de kurulan Tulumbacı Ocağı'nın (Osmanlı itfaiye teşkilatının ilk örneği) kurucusu" },
+{ id:"humbaraci-ahmed-pasa", tur:"komutan", ad:"Humbaracı Ahmed Paşa (Comte de Bonneval)", f:"1675", t:"1747", dogum_yer:"Coussac-Bonneval (Fransa)", olum_yer:"İstanbul", donem:"1675–1747", not:"14 Temmuz 1675'te Fransa'nın Limousin eyaletindeki Coussac'ta soylu bir aileden Claude-Alexandre Comte de Bonneval olarak doğdu; önce donanmada, 1698'den itibaren kara ordusunda hizmet etti. 1704'te XIV. Louis ile arası açılıp ordudan çıkarılınca Paris'ten kaçtı, Avusturya'da Prens Eugene'in emrinde görev aldı. 1729'da Saraybosna'da İslâmiyet'i kabul ederek Ahmed adını aldı ve Osmanlı Devleti'ne sığındı; III. Ahmed döneminde İstanbul'a çağrılsa da Patrona Halil İsyanı yüzünden Gümülcine'de beklemek zorunda kaldı. I. Mahmud döneminde, 1730'da Sadrazam Topal Osman Paşa tarafından humbaracıbaşılığa getirildi; ulûfeli bir humbaracı sınıfı kurup bunun için bir nizamnâme hazırladı. Bosna'dan getirilen yaklaşık 300 (kısa sürede 600'ü aşan) neferi Üsküdar Ayazma'daki humbaracı kışlasında eğitti, kendilerine matematik dersleri de verdirdi; ilk merhalede 100 havan topu ve 50.000 humbara döktürdü. 23 Mayıs 1747'de İstanbul'da öldü ve Galata Mevlevîhânesi'ne defnedildi.",
+    kaynak:"TDV: humbaraci-ahmed-pasa" },
+{ id:"baron-de-tott", tur:"yabanci-komutan", ad:"Baron de Tott", f:"1733", t:"1793", dogum_yer:"Fransa", donem:"1733–1793", not:"François Baron de Tott, 17 Ağustos 1733'te Fransa'nın Chamigny kasabasında doğdu. 1755'te İstanbul'daki Fransız elçisi Vergennes'in kâtibi olarak Osmanlı başkentine geldi; 1767'de Kırım'a Fransız konsolosu olarak atandı ve 1768-1774 Osmanlı-Rus Savaşı sırasında bu bölgede görev yaptı. 1770'te Rus donanmasının tehdidine karşı Çanakkale Boğazı'nın istihkâmlarını güçlendirmekle görevlendirildi. III. Mustafa döneminde, 1771-1776 yılları arasında Osmanlı topçu ocağının ıslahına girişti ve 10 Ocak 1774'te \"Sürat Topçuları Ocağı\" adıyla yeni bir hızlı-ateşli topçu birliği kurdu. Aynı ıslahat çabalarının devamı olarak deniz mühendisliği eğitimi veren bir okulun (Mühendishâne-i Bahrî-i Hümâyun, 29 Nisan 1775'te açıldı) kuruluş sürecinde de rol oynadı; TDV maddesine göre bu okula alınan ilk öğrenciler genellikle temel matematik bilgisine sahip eski gemi kaptanları ile üst düzey görevlilerin çocuklarından seçildi. Osmanlı hizmetinden ayrıldıktan sonra 1778-1784 yılları arasında kaleme aldığı anılarını \"Mémoires du Baron de Tott sur les turcs et les tartares\" başlığıyla 1784'te Amsterdam'da yayımladı; bu eser dönemin Avrupa'sında Türkler hakkında en çok okunan iki kitaptan biri oldu ve Türkçeye 1975'te çevrildi. TDV maddesine göre Tott bu anılarında, gördüğü kurumsal çözülmeden ve Türk-İslâm karşıtı önyargılardan beslenen sert bir dille Osmanlı kurumlarını eleştirmiştir. Baron de Tott, 24 Eylül 1793'te Macaristan'da öldü.",
+    kaynak:"TDV: baron-de-tott-francois · [TDV: fransa]" },
+{ id:"mehmed-namik-pasa", tur:"komutan", ad:"Mehmed Nâmık Paşa", f:"1804", t:"1892", donem:"1804–1892", not:"Mekteb-i Harbiye'nin Maçka Kışlası'ndaki kuruluşunda rol oynayan asker-devlet adamı",
+    kaynak:"TDV: namik-pasa" },
+{ id:"gercek-davud", tur:"alim", ad:"Gerçek Dâvud", donem:"18. yy", not:"1720'de kurulan Tulumbacı Ocağı'nın (Osmanlı itfaiye teşkilatının ilk örneği) kurucusu",
+    kaynak:"TDV: tulumbaci (müstakil madde yok)" },
 { id:"yirmisekiz-celebi-mehmed-efendi", tur:"siyasi", ad:"Yirmisekiz Çelebi Mehmed Efendi", t:"1731", donem:"y. 1670 – 1731", eser:["Sefâretnâme (Fransa)"], not:"Edirne'de doğdu; Yeniçeri Ocağı'nın 28. ortasına mensup olduğu için 'Yirmisekiz Çelebi' diye anıldı (mahlası Fâizî). Ocakta yeniçeri efendiliğine, ardından Darphâne nâzırlığına yükseldi. 1718'de şıkk-ı sâlis defterdarı olarak Pasarofça görüşmelerine katıldı. Damad İbrâhim Paşa'nın desteğiyle olağanüstü elçi olarak Fransa'ya gönderildi: 7 Ekim 1720'de oğlu Mehmed Said Efendi ile yola çıktı, 21 Mart 1721'de XV. Louis tarafından Tuileries'de kabul edildi, 8 Ekim 1721'de döndü. Talimatnâmesi ona Fransa'nın imar ve eğitim araçlarından uygulanabilir olanları öğrenmesini de emrediyordu. Versailles, Trianon, Marly, rasathane, eczahane ve fabrikaları gezdiği Sefâretnâme'si Osmanlı'da Batı hakkındaki ilk bilgilerin kaynaklarından oldu; getirdiği plan ve resimler Lâle Devri kasır ve bahçelerine örnek oldu, oğlunun Müteferrika ile kurduğu matbaa elçiliğin en önemli sonuçlarından sayılır. Dönüşte defter emini, rûznâmçe-i evvel (1722) ve başmuhasebeci (1724) oldu. Patrona Ayaklanması'ndan sonra Lefkoşe'ye sürüldü ve orada öldü (mezar kitâbesine göre 19 Temmuz 1731).", kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
 ];
 
@@ -14245,7 +14587,7 @@ window.SAVASLAR = [
 // galibi farklı veriyor. Koordinat: sefer okundaki istasyon (Nominatim Călugăreni, A4); TDV bukres
 // "Bükreş'e 4 mil (yaklaşık 6 km.)" bu noktayla (~30 km) UYUŞMUYOR — çelişki, çözülmedi.
 { t:"1595-08-23", tur:"meydan", ad:"Kalûgerân (Călugăreni) muharebesi", taraf_metin:"Eflak Voyvodalığı (Mihail)", sonuc:"belirsiz", seri:"habsburg", lat:44.186, lon:26.001, taraf:["osmanli","eflak"],
-  kaynak:"History of Transylvania I (ed. B. Köpeczi, MTA; MEK html 118, s. 1-749): \"On 23 August, at Călugăreni, he managed to halt Sinan Pasha's advance, but superior numbers soon forced him to withdraw into the Carpathians\" · bukres (TDV): \"Kalûgerân (Çalugareni) mevkiinde Prens Mihal … ile Serdar Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595)\" · eflak (TDV): \"Koca Sinan Paşa'nın idaresindeki orduya Kalûgerân'da baskın yaptıktan sonra geri çekildiyse de\"" },
+  kaynak:"History of Transylvania I (ed. B. Köpeczi, MTA; MEK html 118, s. 1-749): \"On 23 August, at Călugăreni, he managed to halt Sinan Pasha's advance, but superior numbers soon forced him to withdraw into the Carpathians\" · bukres (TDV): \"XVI. yüzyılın sonlarına doğru, Bükreş’e 4 mil (yaklaşık 6 km.) mesafede ağaçlık ve bataklıklarla kaplı bir boğaz olan Kalûgerân (Çalugareni) mevkiinde Mihai Viteazul (Cesur Mihai) kumandasındaki Eflak ordusu ile Vezîriâzam ve Serdârıekrem Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595).\" · eflak (TDV): \"Koca Sinan Paşa'nın idaresindeki orduya Kalûgerân'da baskın yaptıktan sonra geri çekildiyse de\"" },
 { t:"1596-10-26", tur:"meydan", ad:"Haçova",                    taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:47.82, lon:20.72, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1600-10-22", tur:"kusatma", ad:"Kanije kuşatması",          taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:46.45, lon:16.99, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1620-09-17", tur:"meydan", ad:"Cecora (Ţuţora)",           taraf_metin:"Lehistan",          sonuc:"zafer",   seri:"lehistan",lat:47.10, lon:27.75, taraf:["osmanli","lehistan"], galip:"osmanli" },
@@ -14354,7 +14696,13 @@ window.SAVASLAR = [
 { t:"1416-05-01", tur:"isyan", ad:"Börklüce Mustafa",       taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:37.86, lon:27.26, sure:400, taraf:["osmanli"] },
 { t:"1416-09-01", tur:"isyan", ad:"Torlak Kemal",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.61, lon:27.43, sure:300, taraf:["osmanli"] },
 { t:"1511-03-01", tur:"isyan", ad:"Şahkulu (Teke)",         taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:36.89, lon:30.70, sure:400, taraf:["osmanli"] },
-{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"] },
+// SEFER-OKU-0087 (paket 0087 H-0001, Emre: "Teke bölgesinden Sivas'a kadar ok çıkarmaya
+// gerek yok, anlamsız"). `isyanYayilmaUret()` bu iki işaretten Teke→Sivas oku üretiyordu;
+// ok Sivas gününde (Şahkulu'nun öldüğü gün) beliriyor ve `sure:400` ile 13 ay kalıyordu.
+// TDV `sahkulu-baba-tekeli` güzergâhı düz bir Teke→Sivas hattı değil: Keçiborlu-Sandıklı-
+// Altıntaş → Kütahya → Alaşehir → Antalya taraflarına dönüş → Sivas yakınında Çubuk.
+// `yayilma_oku:false` = işaretler (🔥) KALIR, yalnız ok üretilmez.
+{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"], yayilma_oku:false },
 { t:"1519-03-01", tur:"isyan", ad:"Bozoklu Şeyh Celâl",     taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.82, lon:34.81, sure:400, taraf:["osmanli"] },
 { t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300, taraf:["osmanli"] },
 // Ad düzeltmesi (Koordinatör, OTURUM-10 turu): TDV'de "Kalender Çelebi" diye madde
@@ -14688,6 +15036,24 @@ window.SEFERLER = [
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
 { ad:"İstanbul seferi (1453)", tur:"sefer", sonuc:"zafer",      f:"1453-02-01", t:"1453-06-29",
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
+// DENIZ-OKU-0085 (paket 0085 H-0020, Emre: "osmanlı deniz seferini oklar ile gösterelim").
+// 14 Temmuz 1454 Kefe muhasarasının deniz kolu. SEFERLER'de 1454 kaydı YOKTU (taranan:
+// savaslar.js + seferler_*.js, "1454" ve "Kefe" — yalnız 1771 Dolgorukov ve 1914 Hamidiye).
+// Kara kolu (Hacı Giray'ın 7000 atlısı) ÇİZİLMEDİ: TDV hareket noktasını vermiyor ("şehri
+// karadan kuşattı"); Solhat'tan çıktığını yazmak çıkarım olurdu.
+// Akkirman tehdidi de ÇİZİLMEDİ: TDV "Aynı yaz" diyor, Kefe'den önce mi sonra mı belli
+// değil — sıra uydurulmaz.
+// `f` AY hassasiyetli: TDV yalnız "Haziran 1454'te … anlaşma yaptı" der; donanmanın
+// İstanbul'dan çıkış günü kaynakta YOK. `t` = muhasaranın başladığı gün (Kefe önünde
+// demirli donanma); kuşatmanın kalktığı gün kaynakta YOK.
+{ id:"d85-kefe-donanma-1454", ad:"Osmanlı donanmasının Kefe seferi (1454)", tur:"deniz", sonuc:"belirsiz", f:"1454-06-01", t:"1454-07-14",
+  kaynak:"mehmed-ii (TDV): \"İlkin 858 (1454) yazında bu denize donanmasını gönderdi. Karadeniz Ceneviz kolonilerinin merkezi olan Kefe, Kırım Hanı I. Hacı Giray'ın müttefik kuvvetleriyle birlikte sıkıştırıldı. Uzun görüşmelerden sonra Cenevizliler Osmanlı padişahına 3000 ve hana 1200 altın haraç vermeye razı oldular.\" · haci-giray-i (TDV): \"Haziran 1454'te Hacı Giray, Fâtih Sultan Mehmed ile Kefe'yi almak için bir anlaşma yaptı.\" · \"Elli altmış kadar kadırgadan oluşan Osmanlı donanması Kefe önlerinde demir atınca Hacı Giray 14 Temmuz 1454'te 7000 atlısıyla şehri karadan kuşattı.\"",
+  tarih_hassasiyet:"f: AY (Haziran 1454 — anlaşmanın ayı; donanmanın çıkış günü kaynakta yok) · t: GÜN (14 Temmuz 1454, kuşatmanın başlangıcı)",
+  kesinlik:"istasyonlar: İstanbul · Kefe; ara durak kaynakta YOK. `rota` türetilmiş çizim hattıdır: İstanbul Boğazı orta hattı (ne_10m_land'in iki kıyısının ortası) + ARAC-SEFER-OK-DENIZ-ROTA-0075.py ile açık deniz; iddia değildir",
+  // 🔴 `rota` — ne_10m_land'e karşı katı ölçü (liman muafiyetsiz): kara üstü 0,6 km
+  // (Kefe limanına yaklaşma). Düz yol 61,2 km karayı kesiyordu (Boğaz + Kırım kıyısı).
+  rota:[[28.98,41.008],[29.001,41.02],[29.001,41.032],[29.019,41.044],[29.04,41.056],[29.05,41.068],[29.057,41.08],[29.062,41.092],[29.066,41.104],[29.07,41.116],[29.079,41.128],[29.075,41.14],[29.06,41.152],[29.06,41.164],[29.08,41.176],[29.092,41.188],[29.104,41.2],[29.115,41.212],[29.129,41.224],[31.81,43.206],[35.365,44.932],[35.382,45.032]],
+  yol:[[28.98,41.008],[35.382,45.032]] },
 // Rumeli Sağ Kol'un tamamı: Filibe-Sofya-Niş-Morava vadisi-Belgrad.
 { ad:"Belgrad kuşatması (1440)", tur:"kusatma", sonuc:"yenilgi",    f:"1440-04-01", t:"1440-10-21",
   yol:[[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[21.33,43.58],[20.93,44.66],[20.46,44.82]] },
@@ -14727,12 +15093,55 @@ window.SEFERLER = [
 // (gövde okundu): "Sinan Paşa'nın hareketinden beş hafta sonra Memlük
 // sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da
 // İstanbul'dan hareket etti." Aynı olay data/olaylar_ek5.js:154'te de var.
+// SEFER-OKU-0087 (paket 0087 H-0005 · H-0006, Emre: "ordu nereye ulaştıysa ok oraya
+// kadar çizilsin, kademe kademe") — ① GÜZERGÂH TDV'ye hizalandı: eski yol İstanbul→
+// SİVAS→Kayseri→Elbistan idi (kaynaksız; Sivas'tan Kayseri'ye GERİ dönen bir zikzak).
+// TDV `selim-i` istasyonları: Akşehir (26 Haz) · Konya ovası (1 Tem) · Malatya ovası
+// (6 Ağu'da ayrıldı) · Antep dışı (20 Ağu) · Halep (28 Ağu) · Şam (27 Eyl) · Celcûliye
+// konağı (26 Ara) · Gazze (2 Oca) · Arîş (11 Oca) · Sâlihiye (16 Oca). Konya ovası ile
+// Malatya ovası arasındaki yol TDV'de YOK — bacak düz çizilir, ara istasyon UYDURULMADI.
+// Üsküdar (yol[1]) kaynakta yok: Anadolu'ya geçişin coğrafî zorunluluğudur; hareket
+// gününde okun yalnız çıkış noktasını göstermesi için var (≈3 km). Celcûliye, Arîş,
+// Sâlihiye atlas noktası DEĞİL — koordinatları ŞEMATİK (genel coğrafya).
+// ② KADEME: her basamağın günü bir KRONOLOJİ MADDESİNİN günüdür (olaylar_ek5.js /
+// olaylar.js), ok o gün o maddenin anlattığı yere kadar uzanır. 1516-07-30 maddesinde
+// TDV'nin verdiği en ileri yer Konya ovasıdır (30 Temmuz'daki konum TDV'de yok).
+// 1516-08-24 basamağı Mercidâbık maddesine dayanır — o madde `t:"1516-08"` (ay
+// hassasiyeti) taşıyor, ayrıca düzeltilmeli (denetim/SEFER-OKU-0087.md §H-0006).
 { ad:"Mısır seferi (1516-17)", tur:"sefer", sonuc:"zafer",      f:"1516-06-05", t:"1517-02-22",
-  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti.\"",
-  yol:[[29.02,41.02],[37.02,39.75],[35.48,38.73],[37.20,38.21],[37.38,37.07],[37.15,36.68],
-       [37.16,36.20],[36.75,35.13],[36.29,33.51],[34.47,31.50],[31.28,30.06]] },
-{ ad:"Rodos seferi (1522)", tur:"kusatma", sonuc:"zafer",         f:"1522-06-01", t:"1523-01-05",
-  yol:[[28.98,40.97],[26.41,40.15],[26.14,38.37],[27.29,36.89],[28.23,36.45]] },
+  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti. 26 Haziran'da Akşehir'e vardığında\" · \"1 Temmuz'da Konya ovasında iken\" · \"6 Ağustos'ta Malatya ovasından ayrılarak Halep'e yöneldi.\" · \"20 Ağustos'ta Antep dışında konakladı\" · \"Oradan Halep'e geldi (28 Ağustos)\" · \"27 Eylül'de Şam'a ulaştı\" · \"15 Aralık'ta Şam'dan hareket etti. 26 Aralık'ta Celcûliye Konağı'na geldiğinde\" · \"Padişah 8 Zilhicce 922'de (2 Ocak 1517) Gazze'ye girdi\" · \"9 Ocak'ta Gazze'den ayrılan Yavuz Sultan Selim 11 Ocak'ta Arîş mevkiine ulaştı … 16 Ocak'ta Sâlihiye'ye gelindiğinde\" · ridaniye-savasi (TDV): \"Kahire önlerinde Matariye ile Cebelülahmer arasında Ridâniye/Reydâniye denilen mevkide\" · \"Savaşın ertesi günü Osmanlı ordularının Kahire'ye girişine izin verildi.\"",
+  kesinlik:"istasyonlar TDV; Üsküdar coğrafî zorunluluk (kaynakta yok); Celcûliye/Arîş/Sâlihiye koordinatı şematik; Konya→Malatya bacağı düz (ara yol kaynakta yok)",
+  yol:[[28.980,41.008],[29.015,41.027],[31.416,38.357],[32.492,37.872],[38.334,38.353],[37.383,37.066],
+       [37.152,36.553],[37.161,36.202],[36.292,33.513],[34.953,32.153],[34.466,31.502],[33.798,31.131],
+       [31.950,30.780],[31.283,30.089],[31.243,30.047]],
+  kademe:[["1516-06-05",1],["1516-07-30",3],["1516-08-24",6],["1516-08-28",7],["1516-09-27",8],
+          ["1516-12-29",9],["1517-01-02",10],["1517-01-22",13],["1517-01-24",14]] },
+// SEFER-OKU-0087 (paket 0087 H-0013 · H-0020 "deniz seferi oku karaların üzerinden
+// geçmemeli" · H-0021 "Bodrum/İstanköy maddesinde Rodos oku hâlâ gösteriliyor").
+// Eski TEK kayıt `tur:"kusatma"` idi ⇒ kavisli çiziliyor, `rota` yok, SEFER-OK-0075'in
+// deniz yönlendirmesinin DIŞINDA kaldı; düz yolu ne_10m_land üstünde 231 km'ydi.
+// Kaynak iki AYRI kol veriyor (TDV `suleyman-i`): donanma 4 Haziran'da denize açıldı,
+// padişah 18 Haziran'da Üsküdar'dan KARA yoluyla Marmaris'e yürüdü. İkiye ayrıldı.
+// `t` eski 1523-01-05 idi (kaynaksız; tam Bodrum maddesinin günü ⇒ ok o maddede hâlâ
+// görünüyordu). TDV `suleyman-i`: "14 Safer'de (2 Ocak 1523) … adadan ayrıldı" ⇒ t.
+// Teslim günü: TDV `rodos` + `suleyman-i` 20 Aralık 1522 der; kronoloji 21 Aralık —
+// çelişki raporda (§H-0021), burada `t`yi etkilemiyor.
+{ ad:"Rodos seferi (1522) — donanma", tur:"deniz", sonuc:"zafer", f:"1522-06-04", t:"1523-01-02",
+  kaynak:"suleyman-i (TDV): \"9 Receb 928'de (4 Haziran 1522) Osmanlı gemileri sefer için denize açılırken\" · \"Padişah 10 Safer'de (29 Aralık) şehri görmek için Rodos'a girdi. 14 Safer'de (2 Ocak 1523) ikinci defa girince, adına hutbe okutup şehre nizam verdi ve adadan ayrıldı.\" · rodos (TDV): \"1 Safer 929'da (20 Aralık 1522) diğer adalarla birlikte Rodos'u fethetti.\"",
+  kesinlik:"istasyonlar: İstanbul · Gelibolu (Çanakkale Boğazı — coğrafî zorunluluk, kaynakta yok) · Rodos; ara Ege durakları kaynakta YOK. `rota` türetilmiş çizim hattıdır (ARAC-SEFER-OK-DENIZ-ROTA-0075.py + boğaz orta hattı ne_10m_land'den), iddia değildir",
+  // 🔴 `rota` — ne_10m_land'e karşı ölçüldü (liman muafiyetsiz, katı): kara üstü 2,1 km,
+  // en büyük bacak 0,95 km. Boğaz kesimi ne_10m_land'in iki kıyısının orta noktalarıdır.
+  rota:[[28.98,41.01],[28.749,40.911],[27.309,40.641],[26.664,40.416],[26.643,40.363],[26.609,40.324],[26.567,40.294],[26.521,40.27],[26.483,40.237],[26.436,40.214],[26.385,40.194],[26.377,40.126],[26.341,40.089],[26.299,40.061],[26.253,40.036],[26.193,40.028],[26.159,39.988],[26.059,39.518],[26.069,39.458],[26.369,39.388],[26.619,39.078],[26.619,38.948],[26.339,38.648],[26.219,38.268],[26.629,37.618],[27.319,36.898],[27.369,36.868],[27.349,36.678],[27.849,36.518],[28.226,36.443]],
+  yol:[[28.98,41.01],[26.664,40.416],[28.226,36.443]],
+  // ⚠️ `kademe` indisi ÇİZİM HATTININ indisidir: `rota` varsa app.js okun hattını
+  // `rota`dan kurar (seferKayitlariniTopla → yol:_cizYol), `yol`dan değil. 3 = Gelibolu
+  // (rota[3] = yol[1]), 29 = Rodos (rota[29] = yol[2]). 1522-06-26 = kronoloji maddesi
+  // "Kanûnî'nin Rodos seferinin adaya varması" (kronoloji_rodos_sovalyeleri.js).
+  kademe:[["1522-06-04",3],["1522-06-26",29]] },
+{ ad:"Kanunî'nin Marmaris'e yürüyüşü (1522)", tur:"sefer", sonuc:"zafer", f:"1522-06-18", t:"1522-07-26",
+  kaynak:"suleyman-i (TDV): \"Kanûnî Sultan Süleyman da 23 Receb'de (18 Haziran) kara yoluyla ordusunun başında Üsküdar'dan hareket etti. İznik, Kütahya, Denizli, Çine, Muğla yolundan Marmaris'e ulaştı (2 Ramazan / 26 Temmuz).\"",
+  kesinlik:"istasyonlar TDV; Çine atlas noktası değil (koordinat şematik)",
+  yol:[[29.015,41.027],[29.721,40.429],[29.983,39.424],[29.094,37.783],[28.061,37.612],[28.363,37.215],[28.274,36.855]] },
 { ad:"Mohaç seferi (1526)", tur:"sefer", sonuc:"zafer",         f:"1526-04-23", t:"1526-09-29",
   yol:[[28.98,41.01],[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[20.93,44.66],
        [20.46,44.82],[19.86,45.25],[18.69,45.55],[18.69,45.99]] },
@@ -14951,7 +15360,7 @@ window.SEFERLER = [
 // `yergogu` ("1595 Ekiminde Eflak'tan dönen ordu") · Alkan · Özçelik 1595 Ekim diyor.
 { id:"a4-sinan-eflak-ilerleyis-1595", ad:"Koca Sinan Paşa'nın Eflak seferi (1595)", tur:"sefer", sonuc:"belirsiz",
   f:"1595-07-18", t:"1595-10-19", tarih_hassasiyet:"f: GÜN (sefere çıkış; Tuna geçiş günü bulunamadı) · t: GÜN (Tergovişte'nin Mihal'e geçişi)",
-  kaynak:"Mustafa Alkan, \"Osmanlı Devleti'nde Akıncı Ocağının Sonu\", Akademik Bakış 7/13 (Kış 2013): \"11 Zilkaade 1003 (18 Temmuz 1595) tarihinde Sadrazam Koca Sinan Paşa, 100.000 kişilik bir orduyla Eflak voyvodası Mihal'in üzerine yürüdü\" · \"19 Ekim 1595 tarihinde Targovişte'yi ele geçirerek\" · Emirhan Özçelik, \"Serdar-ı Ekrem Koca Sinan Paşa'nın Seferlerdeki Ordu İdaresi, Strateji ve Taktikleri\", OTAM 58 (Güz 2025): \"Rusçuk'ta birlikleri bir araya getirmişti\" · \"köprüler tamamlandıktan sonra orduyla Yergöğü'ne geçmiş ve ardından Bükreş'e doğru ilerlemeye başlamıştı\" · \"Bükreş ile Tirgovişte'de de kaleler inşa etmişti\" · bukres (TDV): \"Kalûgerân (Çalugareni) mevkiinde Prens Mihal … ile Serdar Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595)\" · \"Osmanlılar düşmanın boş bıraktığı şehre girdiler\" · \"Mihal tarafından tahkim edilen Târgoviște alındı\" · koca-sinan-pasa (TDV): \"Eflak üzerine yürüdüyse de başarılı olamadı\"",
+  kaynak:"Mustafa Alkan, \"Osmanlı Devleti'nde Akıncı Ocağının Sonu\", Akademik Bakış 7/13 (Kış 2013): \"11 Zilkaade 1003 (18 Temmuz 1595) tarihinde Sadrazam Koca Sinan Paşa, 100.000 kişilik bir orduyla Eflak voyvodası Mihal'in üzerine yürüdü\" · \"19 Ekim 1595 tarihinde Targovişte'yi ele geçirerek\" · Emirhan Özçelik, \"Serdar-ı Ekrem Koca Sinan Paşa'nın Seferlerdeki Ordu İdaresi, Strateji ve Taktikleri\", OTAM 58 (Güz 2025): \"Rusçuk'ta birlikleri bir araya getirmişti\" · \"köprüler tamamlandıktan sonra orduyla Yergöğü'ne geçmiş ve ardından Bükreş'e doğru ilerlemeye başlamıştı\" · \"Bükreş ile Tirgovişte'de de kaleler inşa etmişti\" · bukres (TDV): \"XVI. yüzyılın sonlarına doğru, Bükreş’e 4 mil (yaklaşık 6 km.) mesafede ağaçlık ve bataklıklarla kaplı bir boğaz olan Kalûgerân (Çalugareni) mevkiinde Mihai Viteazul (Cesur Mihai) kumandasındaki Eflak ordusu ile Vezîriâzam ve Serdârıekrem Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595).\" · \"Osmanlılar düşmanın boş bıraktığı şehre girdiler\" · \"Mihal tarafından tahkim edilen Târgoviște alındı\" · koca-sinan-pasa (TDV): \"Eflak üzerine yürüdüyse de başarılı olamadı\"",
   yol:[[25.954,43.848],[25.966,43.896],[26.001,44.186],[26.103,44.436],[25.463,44.927]] },
 { id:"a4-sinan-eflak-cekilis-1595", ad:"Sinan Paşa'nın Eflak'tan çekilişi — Yergöğü köprüsü (1595)", tur:"cekilme", sonuc:"yenilgi",
   f:"1595-10-19", t:"1595-10-24", tarih_hassasiyet:"f: GÜN (Tergovişte'nin düşüşü) · t: GÜN (köprünün çöküşü)",
@@ -15111,11 +15520,45 @@ window.SEFERLER = [
 { ad:"Belgrad garnizonunun çekilmesi (1867)", tur:"cekilme", sonuc:"yenilgi",
   f:"1867-04-18", t:"1867-04-18", yol:[[20.46,44.82],[22.61,44.61]] },
 // olaylar_ek2.js "gun" alanı bitiş tarihini de veriyor: 21 Haziran - 7 Ağustos 1867.
-// Kronolojide yalnız Paris/Londra/Viyana adı geçiyor; sıralama "yer" alanındaki
-// sırayı izler, ara duraklar (Toulon, Coburg vb.) uydurulmadı.
+// 🔴 6 Ekim 2026, UMIT-W4-ELLEVERI-1006 — eski 5 noktalı düz hat (İstanbul → Paris →
+// Londra → Viyana → İstanbul) KALDIRILDI; yerine `data/seferler_p0037.js`teki (PAKET-0037,
+// H-0006) kaynaklı 27 noktalı güzergâh TAŞINDI. Bugüne dek iki kayıt birden yüklüydü ve
+// app.js `_mukerrerMi` İLK çizileni (bu dosyanınkini) tuttuğu için kaynaklı rota ELENİYORDU.
+// Taşınan: `yol` dizisi + aşağıdaki `kaynak` (p0037 dosya başı yorumundan, kaynak adları
+// ve hangi bilginin hangisinden geldiği; alıntı cümlesi orada da yoktu, eklenmedi).
+// Gün gün güzergâh tablosu ve kaynak çelişkisi notu: p0037 dosya başı yorumu.
 { ad:"Abdülaziz'in Avrupa seyahati (1867)", tur:"seyahat", sonuc:"belirsiz",
   f:"1867-06-21", t:"1867-08-07",
-  yol:[[28.98,41.01],[2.35,48.86],[-0.13,51.51],[16.37,48.21],[28.98,41.01]] },
+  kaynak:"[1] \"Sultan Aziz'in Avrupa Seyahati Dönüşü Münasebetiyle ...\", Osmangazi Üniversitesi Sosyal Bilimler Dergisi C. 4, S. 1 (Haziran 2003), dergipark.org.tr/en/download/article-file/112955 — günler · [2] Murat Yurtbilir, \"Sultan Abdülaziz'in 1867 Avrupa Gezisine Bir ...\", Eklektik (İstanbul Gedik Üniversitesi) s. 129-160 — ara duraklar (Nürnberg · Passau · Novi Sad · Belgrad · Orşova · Vidin) ve Dover/Koblenz · [3] abdulaziz (TDV): 21 Haziran çıkış, 7 Ağustos dönüş; Fransa · İngiltere · Belçika · Prusya · Avusturya — ÇELİŞKİ: [2] bir yerde \"28 Haziran ... Dover\" diyor, [1] esas alındı · VARSAYIM: Calais (Manş dönüş limanı iki kaynakta da yazmıyor; en kısa hat)",
+  yol:[
+    [28.98,41.01],   // İstanbul — 21 Haz, Sultâniye vapuru (deniz)
+    [26.41,40.15],   // Çanakkale Boğazı (deniz)
+    [22.48,36.40],   // Mora açıkları — 24 Haz (deniz)
+    [15.55,38.19],   // Messina — 25 Haz (deniz)
+    [14.25,40.84],   // Napoli — 28 Haz (deniz)
+    [5.93,43.12],    // Toulon — 29 Haz, KARAYA ÇIKIŞ
+    [5.37,43.30],    // Marsilya (tren)
+    [4.84,45.76],    // Lyon (tren)
+    [2.35,48.86],    // Paris, Lyon Garı — 30 Haz–10 Tem
+    [1.61,50.73],    // Boulogne — 10 Tem (tren), Manş'a biniş
+    [1.31,51.13],    // Dover — 11 Tem (gemi)
+    [-0.13,51.51],   // Londra — 12–23 Tem (tren)
+    [1.31,51.13],    // Dover — 23 Tem (tren)
+    [1.86,50.95],    // Calais — Manş geçişi (VARSAYIM: liman kaynaklarda yazmıyor)
+    [4.35,50.85],    // Brüksel — 24 Tem (tren)
+    [7.59,50.36],    // Koblenz — 24/25 Tem (tren, Ren vadisi), I. Wilhelm
+    [11.08,49.45],   // Nürnberg — 26 Tem (tren)
+    [13.46,48.57],   // Passau — 26/27 Tem (tren)
+    [16.37,48.21],   // Viyana — 27/28–31 Tem
+    [19.04,47.50],   // Peşte — 31 Tem (Tuna vapuru), Budin'de konaklama
+    [19.84,45.25],   // Novi Sad (Tuna)
+    [20.46,44.82],   // Belgrad (Tuna)
+    [22.40,44.72],   // Orşova / Demirkapı (Tuna)
+    [22.87,43.99],   // Vidin — 3 Ağu akşamı (Tuna)
+    [25.97,43.86],   // Rusçuk — 4 Ağu (Tuna)
+    [27.91,43.21],   // Varna — 6 Ağu (Rusçuk-Varna demiryolu)
+    [28.98,41.01]    // İstanbul — 7 Ağu (gemi)
+  ] },
 // Uçlar kronolojiden: Edirne Mütarekesi (1878-01-31, Edirne) → Ayastefanos
 // Antlaşması (1878-03-03, Ayastefanos/Yeşilköy). Aradaki yürüyüş güzergâhı
 // ayrıca belgelenmediği için iki nokta arası düz hat kullanıldı.

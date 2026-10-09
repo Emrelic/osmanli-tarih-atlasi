@@ -252,12 +252,49 @@ tarih yıl, on yıl, hatta yüzyıl hassasiyetinde olacak.
 
 ```js
 { f:"-0550-01-01", kesinlik:"onyil" }   // arayüzde: "~MÖ 550"
-{ f:"1427-06-01",  kesinlik:"yil" }     // arayüzde: "1427 civarı"
+{ f:"1427-06-01",  kesinlik:"yil" }     // arayüzde: "1427"  (YIL kesin, GÜN değil)
 { f:"1453-05-29",  kesinlik:"gun" }     // arayüzde: "29 Mayıs 1453"
 ```
 Değerler: `gun` · `ay` · `yil` · `onyil` · `yuzyil` · `belirsiz`.
 Alan yoksa `gun` varsayılır (mevcut verinin tamamı böyle sayılır).
 Uydurma gün yazmama kuralına, **uydurma kesinlik yazmama** kuralı eklenir.
+🔴 **"~" işareti YALNIZ `onyil` ve daha kabasında kullanılır.** `yil` kesinliği
+*"yıl KESİN, gün değil"* demektir; "1427 civarı" yazmak yılın kendisini şüpheli
+gösterir ve bir hassasiyet sınıfını ötekine çevirir. (Bu satırın örneği 8 Ekim
+2026'ya kadar yanlıştı — `yil` için "civarı" yazıyordu; Z2 ARAYUZ ölçtü ve bildirdi.)
+
+### 🔴 MÖ TARİH YAZIMI — astronomik yıl, **sıfır yılı VARDIR**
+Karar 9 Ekim 2026 (Emre: *"MÖ tarih temsili konusunda ne gerekiyor ise onu
+yapalım"* ⇒ temsil koordinatöre bırakıldı). Tasarım ve ispat: `GUN-SAYACI-*-1009`.
+
+```
+MÖ 3000  →  "-2999-01-01"     (gün sayacı: −1.814.890)
+MÖ 1     →  "0000-…"          ← SIFIR YILI VARDIR
+MS 1     →  "0001-…"
+MS 908   →  "0908-…"          908 ≡ 0908 ≡ +000908, üçü de AYNI gün
+```
+🔴 **MÖ 3000 için `-3000` YAZILMAZ.** Astronomik numaralandırmada MÖ *n* yılı
+`-(n−1)`'dir. Sebebi tercih değil **yapı**: ISO 8601 ve JavaScript `Date` bu
+kurala göre sayar, ve sıfır yılı olmayan (tarihî) numaralandırmada MÖ 1 ile MS 1
+arasında **bir yıl yoktur** ⇒ bütün aritmetik tam epokta birer kayar, yani hata
+**en görünmez yerde** doğar.
+📌 Artık yıl: astronomik `0` ve `-4` **artık yıldır** (`0000-02-29` geçerli bir
+gündür). 1582-10-04 ile 1582-10-15 arası 11 gün proleptik Gregoryen'de **vardır**.
+
+🔴 **MÖ KAYITTA AÇIKLAYICI METİN ZORUNLUDUR** — `gun:"MÖ 3000"` gibi. Sebebi:
+bir yıllık yazım sapması (`-3000` ↔ `-2999`) hiçbir kapıya takılmaz, **sessizce
+yanlış** bir haritaya dönüşür. Metin ile sayı **çapraz denetlenir** ve çelişirse
+kapı **çıkış 1** verir — uyarı değil, İHLAL.
+
+⚠️ **VE BUGÜN HENÜZ YAZILAMAZ.** Motor sayaca geçene kadar (`C3`) `uret_petek.py`
+sayaçsızdır; negatif yıl taşıyan bir veri `ÖLÇÜLEMEDİ` (çıkış 2) verir, "temiz"
+demez. İzin `C4` ile açılır. Bugünkü evrende negatif yıl: **0**.
+📌 Geriye uyumluluk ÖLÇÜLDÜ, varsayılmadı: MÖ 3000 – MS 9999 arası
+**4.747.787 günün her birinde** Python ve JS ikizleri birebir; bugünkü verinin
+**7.404 tarih dizgisinde** eski `gunIdx`/`gun_no` ile fark **0**.
+⚠️ Jülyen/Gregoryen farkı bu sözleşmenin DIŞINDADIR (1281'de 7, MÖ 3000'de
+**24 gün**). Kaynağın hangi takvimi kullandığı ayrı bir sorudur ve kaynak
+araştırmasında sorulur.
 
 ---
 

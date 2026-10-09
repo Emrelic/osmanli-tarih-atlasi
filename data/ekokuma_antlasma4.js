@@ -352,7 +352,7 @@ window.EKOKUMA_ANTLASMA4 = [
   zincir:[],
   olay:["1553-02-01|Fransız"],
   kaynak:"TDV: fransa (1535 ilk dâimî elçi, 18 Şubat 1536 anlaşması, 1543 Nice, 1 Şubat 1553 ittifakı, 1569 fermanı, İnebahtı'ya katılmama, ittifakın Fransız dış siyasetindeki yeri) · TDV: suleyman-i (II. Henri'nin tutumu, 1551 sonrası ortak harekât)",
-  ic_not:"1536 ahidnâmesinin imzalanıp imzalanmadığı literatürde tartışmalıdır; TDV 'tasarı uzun süre imzalanmadan sadrazamın yanında kaldı' diyor ve ayrıca '1536 ahidnâmesi' ifadesini kullanıyor — kart ikisini de aktardı, hüküm vermedi." },
+  ic_not:"1536 ahidnâmesinin imzalanıp imzalanmadığı literatürde tartışmalıdır; TDV 'tasarı uzun süre imzalanmadan sadrazamın yanında kaldı' [TDV: fransa] diyor ve ayrıca '1536 ahidnâmesi' ifadesini kullanıyor — kart ikisini de aktardı, hüküm vermedi." },
 
 // ── 1573 OSMANLI-VENEDİK ANTLAŞMASI (KIBRIS) ───────────────────────────────
 { id:"antlasma4-venedik-kibris-1573", tur:"sebep-sonuc",
@@ -550,7 +550,7 @@ window.EKOKUMA_ANTLASMA4 = [
   zincir:[],
   olay:["1732-01-08|Ahmed Paşa"],
   kaynak:"TDV: mahmud-i--osmanli (15 Eylül 1731 zaferi, 12 Receb 1144 / 10 Ocak 1732 antlaşması ve paylaşımı, I. Mahmud'un itirazı, aziller, 6 Ekim 1733 savaş ilânı, Nâdir'in reddi, Bağdat kuşatması) · TDV: hemedan (16 Eylül 1731 Korican, 10 Receb 1144 / 8 Ocak 1732, Hemedan'ın İran'a bırakılışı) · TDV: ahmed-pasa (1732 antlaşmasında kısmî muhafaza) · TDV: iran (III. Abbas'ın tahta çıkarılışı 1732)",
-  ic_not:"🔴 GÜN FARKI, TDV içinde: mahmud-i--osmanli '12 Receb 1144 / 10 Ocak 1732', hemedan '10 Receb 1144 / 8 Ocak 1732' (zafer günü de 15/16 Eylül 1731 diye bir gün farklı). Madde t: 30 Eylül 2026'da 1732-01-10'dan 1732-01-08'e çekildi (UYGULA-OLAYLAR-0930, TDV hemedan); kartın t'si ve bağı ona taşındı (UYGULA-KART-0930). Kuşatmayı kaldıran TDV'de 'Erzurum Valisi Osman Paşa'; Topal Osman Paşa ile aynı kişi olup olmadığı bu kartta iddia edilmedi." },
+  ic_not:"🔴 GÜN FARKI, TDV içinde: mahmud-i--osmanli '12 Receb 1144 / 10 Ocak 1732', hemedan '10 Receb 1144 / 8 Ocak 1732' (zafer günü de 15/16 Eylül 1731 diye bir gün farklı). Madde t: 30 Eylül 2026'da 1732-01-10'dan 1732-01-08'e çekildi (UYGULA-OLAYLAR-0930, TDV hemedan); kartın t'si ve bağı ona taşındı (UYGULA-KART-0930). Kuşatmayı kaldıran TDV'de 'Erzurum Valisi Osman Paşa' [TDV: mahmud-i--osmanli]; Topal Osman Paşa ile aynı kişi olup olmadığı bu kartta iddia edilmedi." },
 
 // ── 1736 İSTANBUL ANTLAŞMASI (NÂDİR ŞAH) ────────────────────────────────────
 { id:"antlasma4-istanbul-iran-1736", tur:"sebep-sonuc",
@@ -1222,6 +1222,6 @@ window.EKOKUMA_ANTLASMA4 = [
   zincir:[],
   olay:["1746-09-04|Kerden","1639-05-17|Kasr-ı Şirin","1847-05-31|Erzurum"],
   kaynak:"TDV: iran (1639 Zühâb barışı, Şattülarap, 75 yıllık barış, ticaret yasaklarının kalkması, ticaret yollarının savaş sebebi olması, 1722 sonrası, Kerden'in esas maddesi) · TDV: mahmud-i--osmanli (1736 anlaşma zemini, Nâdir'in talepleri, 1743 Kerkük) · Haydar Efe – Murat Kızıl, 'Sınır Kavramı ve Tarihsel Süreç İçinde Türkiye-İran Sınırının Oluşumu ve Önemi', Erzincan Üniv. SBE Dergisi X-I (2017) — hakemli (1732 güney kesimi, 'İkinci Kasr-ı Şirin', 1775 Zend savaşı, 1821-1823 ve I. Erzurum, 1847, komisyonlar, 1869, 1913 protokolü, 1932 ve 1937) · ayrıca bk. ekokuma_kasrisirin kartları (kalıcılık, tarih yazımı) ve antlasma4 kartları (1732, 1736, 1746, 1847)",
-  ic_not:"Mevcut ekokuma_kasrisirin 'sebep-sonuc-kasrisirin-kalicilik' kartı ile kısmen örtüşür; bu kart H-0018'in iki sorusunu (savaşların niçini ve dayanan barışların sayımı) ekler. 🔴 GÜN FARKLARI (makale–TDV): Kerden makalede '14 Eylül 1746', TDV '17 Şâban 1159 / 4 Eylül 1746'; Ahmed Paşa makalede '16 Ocak 1732', TDV 10 veya 8 Ocak. Kart TDV'yi izledi. 'En az beş kez savaştı' sayımı: 1723-27 · 1730-36 · 1743-46 · 1775-79 · 1821-23 (okunan kaynaklardaki savaşlar). 1727 Hemedan barışı 1639'a dönmedi, büyük kazanç verdi; 1775-79 savaşının barışla mı Kerim Han'ın ölümüyle mi bittiği okunan kaynakta açık değil." },
+  ic_not:"Mevcut ekokuma_kasrisirin 'sebep-sonuc-kasrisirin-kalicilik' kartı ile kısmen örtüşür; bu kart H-0018'in iki sorusunu (savaşların niçini ve dayanan barışların sayımı) ekler. 🔴 GÜN FARKLARI (makale–TDV): Kerden makalede '14 Eylül 1746', TDV '17 Şâban 1159 / 4 Eylül 1746' [TDV: mahmud-i--osmanli]; Ahmed Paşa makalede '16 Ocak 1732', TDV 10 veya 8 Ocak. Kart TDV'yi izledi. 'En az beş kez savaştı' sayımı: 1723-27 · 1730-36 · 1743-46 · 1775-79 · 1821-23 (okunan kaynaklardaki savaşlar). 1727 Hemedan barışı 1639'a dönmedi, büyük kazanç verdi; 1775-79 savaşının barışla mı Kerim Han'ın ölümüyle mi bittiği okunan kaynakta açık değil." },
 
 ];

@@ -1,0 +1,149 @@
+diff --git a/denetim/ARAC-AFRIKA-SUDAN-SINAV-0906.js b/denetim/ARAC-AFRIKA-SUDAN-SINAV-0906.js
+index ecac0eb1..8265b1c9 100644
+--- a/denetim/ARAC-AFRIKA-SUDAN-SINAV-0906.js
++++ b/denetim/ARAC-AFRIKA-SUDAN-SINAV-0906.js
+@@ -34,7 +34,9 @@ function yukleYama(yol, ad) {
+ }
+ 
+ const N = yukleNokta();
+-const Y = yukleYama("denetim/yer_yama_afrika_1923.js", "YER_YAMA_AFRIKA_1923");
++// W36 (6 Ekim 2026): yama 415d18ac ile denetim/ -> data/ TASINDI (icerik ayni).
++//   Yama artik UYGULANMIS; sinav bugun "canli veri yamayla hala ayni mi" sorar.
++const Y = yukleYama("data/yer_yama_afrika_1923.js", "YER_YAMA_AFRIKA_1923");
+ const ix = {};
+ for (const y of N) ix[y.ad] = y;
+ const dev = { window: {} }; vm.createContext(dev);
+diff --git a/denetim/ARAC-D-RENK-0073-SINAV.py b/denetim/ARAC-D-RENK-0073-SINAV.py
+index 7f70b65d..c6c04bb0 100644
+--- a/denetim/ARAC-D-RENK-0073-SINAV.py
++++ b/denetim/ARAC-D-RENK-0073-SINAV.py
+@@ -1,12 +1,28 @@
+ # -*- coding: utf-8 -*-
+-"""F olcumunun govde cikarimi DOGRU mu? Bilinen sehirlerle sinav."""
+-import io, json
++"""F olcumunun govde cikarimi DOGRU mu? Bilinen sehirlerle sinav.
++
++KULLANIM:  py denetim/ARAC-D-RENK-0073-SINAV.py <dizin>
++           <dizin> = `ARAC-D-RENK-0073-GOVDE.js <gun> <dizin>/govde1923.geojson`
++           ciktisinin durdugu dizin (ya da D_RENK_SP ortam degiskeni).
++CIKIS:     0 sinav tam / 1 sapma var / 2 OLCULEMEDI (girdi yok)
++
++W36 (6 Ekim 2026): SP eskiden BASKA MAKINENIN scratchpad yoluydu (C:\\Users\\emrem\\...)
++ve betik her yerde FileNotFoundError ile coktu. Yol artik arguman; sinavin
++sorusu ve 16 sehri DEGISMEDI. Sapma artik cikis kodunda da gorunur.
++"""
++import io, json, os, sys
+ from shapely.geometry import shape, Point
+ from shapely.strtree import STRtree
+ from shapely.prepared import prep
+ 
+-SP = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-\0f85f827-a96b-4a7c-bfd6-a06cab079a08\scratchpad"
+-gj = json.load(io.open(SP + r"\govde1923.geojson", encoding="utf-8"))
++SP = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("D_RENK_SP", "")
++GJ = os.path.join(SP, "govde1923.geojson")
++if not SP or not os.path.isfile(GJ):
++    print("OLCULEMEDI - govde1923.geojson yok (%r). Once: node denetim/"
++          "ARAC-D-RENK-0073-GOVDE.js 1923-10-29 <dizin>/govde1923.geojson "
++          "(data/devletler_harita.js ister). Bu 'temiz' DEGILDIR." % GJ)
++    sys.exit(2)
++gj = json.load(io.open(GJ, encoding="utf-8"))
+ govde, kimlik = [], []
+ for f in gj["features"]:
+     g = shape(f["geometry"])
+@@ -39,5 +55,6 @@ for ad, x, y, bek in SINAV:
+     print("  %-10s beklenen %-22s bulunan %-22s %s" % (ad, bek, b, "OK" if ok else "X"))
+ print("sinav: %d/%d" % (dogru, len(SINAV)))
+ print()
+-print("1923 govde kimlikleri (115):")
++print("1923 govde kimlikleri (%d):" % len(set(kimlik)))
+ print(", ".join(sorted(set(kimlik))))
++sys.exit(0 if dogru == len(SINAV) else 1)
+diff --git a/denetim/ARAC-KAMERIKA-0903-kara-sina.py b/denetim/ARAC-KAMERIKA-0903-kara-sina.py
+index 3d724e68..ce0346cc 100644
+--- a/denetim/ARAC-KAMERIKA-0903-kara-sina.py
++++ b/denetim/ARAC-KAMERIKA-0903-kara-sina.py
+@@ -14,7 +14,14 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ BURA = os.path.dirname(os.path.abspath(__file__))
++# W36 (6 Ekim 2026): `adaylar_tum.json` birlestir.py'nin scratch ciktisiydi ve depoya
++#   HIC girmedi; arguman verilmezse betik her yerde FileNotFoundError ile cokuyordu.
++#   Yoksa KESINLESMIS aday seti okunur (ayni sema: ad/lat/lon, 377 nokta, 12d9d93b).
++#   Soru ayni: her aday kara maskesinin uzerinde mi. Cikis: 0 temiz · 1 >10 km aday var.
+ YOL = sys.argv[1] if len(sys.argv) > 1 else os.path.join(BURA, "adaylar_tum.json")
++if len(sys.argv) <= 1 and not os.path.isfile(YOL):
++    YOL = os.path.join(BURA, "ADAY-KAMERIKA-0903.json")
++print("girdi: %s" % os.path.relpath(YOL))
+ ADAY = json.load(io.open(YOL, encoding="utf-8"))
+ print("aday: %d" % len(ADAY))
+ 
+@@ -50,3 +57,4 @@ for d, ad, la, lo, qy, qx in disarida:
+ print("\n🔴 >10 km : koordinat SUPHELI, tek tek bakilir")
+ print("🟡 2-10 km: kiyi/ada — maske cozunurlugu olabilir")
+ print("⚪ <2 km  : maske kenari, sorun degil")
++sys.exit(1 if any(d > 10 for d, *_ in disarida) else 0)
+diff --git a/denetim/ARAC-TAHTA-KAPI-SINAV-1003.py b/denetim/ARAC-TAHTA-KAPI-SINAV-1003.py
+index 8bd226c2..5707b782 100644
+--- a/denetim/ARAC-TAHTA-KAPI-SINAV-1003.py
++++ b/denetim/ARAC-TAHTA-KAPI-SINAV-1003.py
+@@ -28,7 +28,19 @@ print("=" * 72)
+ print("TAHTA KAPISI SINAVI — iki yonde")
+ print("=" * 72)
+ 
+-G = os.path.join(KOK, ".git")
++# W36 (6 Ekim 2026): `.git` bir worktree'de DIZIN DEGIL, DOSYADIR (`gitdir: ...`).
++#   Eski satir `os.path.join(KOK, ".git")` worktree'de makedirs ile COKUYORDU.
++#   Gercek git dizini git'e SORULUR. Bu, kapinin kendisini de dogru yerde sinar:
++#   kapi `KOK/.git`e bakip worktree'de KORSE, 2) artik bunu HATA olarak gosterir.
++def _git_dizini():
++    r = subprocess.run(["git", "-C", KOK, "rev-parse", "--absolute-git-dir"],
++                       capture_output=True, text=True)
++    if r.returncode != 0 or not r.stdout.strip():
++        print("OLCULEMEDI — git dizini bulunamadi: %s" % (r.stderr or "").strip()[:200])
++        sys.exit(2)
++    return os.path.normpath(r.stdout.strip())
++G = _git_dizini()
++print("git dizini: %s%s" % (G, "  (WORKTREE)" if os.path.isfile(os.path.join(KOK, ".git")) else ""))
+ 
+ # ---------------------------------------------------------------- 1) TEMIZ YON
+ # Depo su an temiz olmali (yarim islem yok) -> kapi SUSMALI
+diff --git a/denetim/ODAK-ASYA-0080-sina.js b/denetim/ODAK-ASYA-0080-sina.js
+index a7c914c9..2d4b7d40 100644
+--- a/denetim/ODAK-ASYA-0080-sina.js
++++ b/denetim/ODAK-ASYA-0080-sina.js
+@@ -9,9 +9,33 @@ const fs = require("fs"), path = require("path"), vm = require("vm");
+ const KOK = path.join(__dirname, "..");
+ const SG = require(path.join(KOK, "js", "suzgec.js"));
+ const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
++// W36 (6 Ekim 2026): index.html 29 Eylul'den (af0c78c6) beri `data/paket_NN.js` yukluyor;
++//   eski regex yalniz 1 dosya (yerlesimler_epir.js) buluyor, devletler.js'i HIC bulmuyordu
++//   ve sonuc SESSIZCE yanlisti (Bagdat n=0 · "osmanli" kunyesiz). Paketler artik
++//   `data/paket_kunye.json` ile ACILIR (arac/paket_coz.py ile ayni kural); ayni dosya
++//   kumesi, ayni sira. Bos/eksik kume SESSIZ GECMEZ — betik durur.
+ const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
+-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]).filter(s => /yerlesimler|devletler\.js/.test(s))
+-  .forEach(rel => { const p = path.join(KOK, rel); if (fs.existsSync(p)) vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); });
++const etiket = [...new Set([...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]))];
++let kunye = null;
++const kaynak = [];
++for (const rel of etiket) {
++  if (!/^data\/paket_\d+\.js$/.test(rel)) { kaynak.push(rel); continue; }
++  if (!kunye) {
++    const kp = path.join(KOK, "data", "paket_kunye.json");
++    if (!fs.existsSync(kp)) { console.error("OLCULEMEDI — data/paket_kunye.json yok, paket acilamaz"); process.exit(2); }
++    kunye = {};
++    for (const p of JSON.parse(fs.readFileSync(kp, "utf8")).paketler || []) kunye[p.paket] = (p.kaynak || []).map(s => s.yol);
++  }
++  if (!kunye[rel]) { console.error("OLCULEMEDI — " + rel + " kunyede yok"); process.exit(2); }
++  kaynak.push(...kunye[rel]);
++}
++const secili = [...new Set(kaynak)].filter(s => /yerlesimler|devletler\.js/.test(s));
++const eksik = secili.filter(rel => !fs.existsSync(path.join(KOK, rel)));
++if (!secili.some(s => /devletler\.js$/.test(s)) || !secili.some(s => /yerlesimler/.test(s)) || eksik.length) {
++  console.error("OLCULEMEDI — yerlesim/kunye kumesi eksik: secili " + secili.length + " · diskte yok " + eksik.join(", "));
++  process.exit(2);
++}
++secili.forEach(rel => vm.runInContext(fs.readFileSync(path.join(KOK, rel), "utf8"), ctx, { filename: rel }));
+ const W = ctx;
+ const Y = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k])).reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
+ const KIX = {}; (W.DEVLETLER || []).forEach(k => { if (k && k.id) KIX[k.id] = k; });

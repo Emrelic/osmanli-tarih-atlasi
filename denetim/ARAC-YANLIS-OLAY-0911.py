@@ -39,7 +39,7 @@ import subprocess
 import sys
 import tempfile
 
-REPO = r"C:\atlas"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TMP = tempfile.gettempdir()
 EXTRACT_JSON = os.path.join(TMP, "yanlis_olay_extract.json")
 

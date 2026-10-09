@@ -16,6 +16,9 @@
    ④ ÇIKTI     dönüş yapısı VARSAYILMAZ, dökülür (`repr`/`len`)
 
 ⚠️ Bu betik VERİYE YAZMAZ. Yamayı yalnız BELLEKTE uygular.
+
+🔴 W32 (6 Ekim): yama VERİYE İNDİ; ön sınav artık TERS yönde koşar (aşağıda
+   "W32" yorumu) — yukarıdaki ①/② ayaklarının 661'i tarihsel kayıttır.
 """
 import sys, os, io, json
 
@@ -51,43 +54,58 @@ kova0 = {}
 for r in d7:
     kova0[r["kova"]] = kova0.get(r["kova"], 0) + 1
 print("kovalar: %s" % kova0)
-assert len(d7) == 661, (
-    "TABAN 661 DEĞİL (%d) — ya veri değişti ya ALETİ YANLIŞ YERDEN "
-    "OKUYORUM. İkincisi ise bu betiğin bütün sayıları geçersiz." % len(d7))
-
-# ── ② ATEŞLEME: yamayı BELLEKTE uygula ───────────────────────────────
+# 🔴 W32 (6 Ekim): ESKİ SABİT `assert len(d7) == 661` BAYATLADI ve bu betiğin
+#    İŞİ BİTTİ — dokuz dönemin dokuzu da bugün veride `enklav:true` taşıyor
+#    (yama uygulandı). 661 yamadan ÖNCEKİ tabandı; bugün 734 (veri büyüdü:
+#    3921 → 4299 yerleşim, kampanya tabanı `BEKLENEN_ENKLAV_SORGU` DONDU,
+#    `denetle.py §3092`). Sabit yerine sınav TERS YÖNDE kurulur:
+#      ① YERİNDE   dokuz dönem `enklav:true` taşıyor mu (sınıf hâlâ var)
+#      ② ATEŞLEME  bellekte KALDIRILINCA sayı YÜKSELMELİ, geri konunca
+#                  tabana TAM dönmeli (alan beklenen yerde mi)
+#      ③ NEGATİF   `enklav` taşımayan bir dönemden "kaldırmak" sayıyı
+#                  OYNATMAMALI (ölçüm gürültüsü yok)
+#    Taban ölçülür ve basılır; hükmü `denetle.py` verir (dondurma).
 ix = {}
 for y in Y:
     ix.setdefault(y["ad"], []).append(y)
 for ad, adet in ix.items():
     assert len(adet) == 1, "MÜKERRER AD: %s (%d)" % (ad, len(adet))
 
-konan = 0
+donem = []
 for ad, f, kim in HEDEF:
     assert ad in ix, "AD BULUNAMADI: %r" % ad          # §4 Türkçe yazım ekseni
-    y = ix[ad][0]
-    esl = [p for p in y.get("s", []) if p.get("f") == f and p.get("d") == kim]
+    esl = [p for p in ix[ad][0].get("s", []) if p.get("f") == f and p.get("d") == kim]
     assert len(esl) == 1, (
         "DÖNEM EŞLEŞMESİ %d (1 bekleniyordu): %s %s %s" % (len(esl), ad, f, kim))
-    assert not esl[0].get("enklav"), "ZATEN enklav: %s %s" % (ad, f)
-    esl[0]["enklav"] = True
-    konan += 1
-assert konan == len(HEDEF), "konan %d != hedef %d" % (konan, len(HEDEF))
-print("\nbellekte `enklav:true` konan dönem: %d" % konan)
+    donem.append(esl[0])
+yerinde = sum(1 for p in donem if p.get("enklav") is True)
+print("\n① yerinde: %d / %d dönem `enklav:true`" % (yerinde, len(HEDEF)))
+assert yerinde == len(HEDEF), (
+    "YAMA YERİNDE DEĞİL: %d/%d — biri `enklav`ı kaldırdı ya da dönem bölündü"
+    % (yerinde, len(HEDEF)))
 
-d7b, muafb = denetle.degismez7(Y)
-print("yamalı : %d sorgusuz enklav" % len(d7b))
-kova1 = {}
-for r in d7b:
-    kova1[r["kova"]] = kova1.get(r["kova"], 0) + 1
-print("kovalar: %s" % kova1)
-print("muaf   : %s" % muafb)
-print("\nFARK   : %d → %d   (%+d)" % (len(d7), len(d7b), len(d7b) - len(d7)))
-print("C-hakiki: %d → %d" % (kova0.get("C-hakiki", 0), kova1.get("C-hakiki", 0)))
-print("tavan %d  ⇒  %s" % (denetle.BEKLENEN_ENKLAV_SORGU,
-      "✓ ALTINDA" if len(d7b) <= denetle.BEKLENEN_ENKLAV_SORGU else "✗ HÂLÂ ÜSTÜNDE"))
+for p in donem:
+    del p["enklav"]
+d7b, _ = denetle.degismez7(Y)
+for p in donem:
+    p["enklav"] = True
+d7c, _ = denetle.degismez7(Y)
+print("② kaldırınca: %d → %d (%+d) · geri koyunca: %d"
+      % (len(d7), len(d7b), len(d7b) - len(d7), len(d7c)))
+assert len(d7b) > len(d7), (
+    "ATEŞLEME YOK: kaldırınca sayı yükselmedi. `enklav` alanı beklediğim "
+    "yerde DEĞİL (dönem içi mi kayıt üstü mü?)")
+assert len(d7c) == len(d7), "GERİ DÖNMEDİ: %d != taban %d" % (len(d7c), len(d7))
 
-# ② ateşleme gerçekten oldu mu — düşmediyse alan yanlış yerde demektir
-assert len(d7b) < len(d7), (
-    "ATEŞLEME YOK: sayı düşmedi. `enklav` alanı beklediğim yerde DEĞİL "
-    "(dönem içi mi kayıt üstü mü?) — yama YAZILMAMALI.")
+# ③ NEGATİF: aynı yerleşimlerin `enklav` TAŞIMAYAN bir dönemine dokunmak
+negatif = [p for ad, _f, _k in HEDEF for p in ix[ad][0].get("s", [])
+           if "enklav" not in p][:1]
+assert negatif, "NEGATİF KONTROL KURULAMADI: enklav'sız dönem yok"
+negatif[0]["enklav"] = False                         # değer yanlışsa etkisiz olmalı
+d7n, _ = denetle.degismez7(Y)
+del negatif[0]["enklav"]
+print("③ negatif (enklav:false): %d (taban %d)" % (len(d7n), len(d7)))
+assert len(d7n) == len(d7), "NEGATİF KONTROL OYNADI: %d != %d" % (len(d7n), len(d7))
+print("\nSONUÇ: GEÇTİ — taban %d (tavan %d, %s)"
+      % (len(d7), denetle.BEKLENEN_ENKLAV_SORGU,
+         "DONDU" if getattr(denetle, "KAMPANYA_DONDURMA", False) else "dondurma yok"))

@@ -1,0 +1,43 @@
+diff --git a/denetim/ARAC-MOTOR-ENV-KAPI-1006.py b/denetim/ARAC-MOTOR-ENV-KAPI-1006.py
+index ae4f2756..05a9ad1f 100644
+--- a/denetim/ARAC-MOTOR-ENV-KAPI-1006.py
++++ b/denetim/ARAC-MOTOR-ENV-KAPI-1006.py
+@@ -33,7 +33,8 @@ HÜKÜM:
+   her MOTOR_*'ı alır ⇒ sınıfsız ad tuzda demektir, kapı ÖTMEZ ama listeyi basar
+   (hangi adların ③3'te sınıflanması gerektiğini görmek için).
+ 
+-Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-1006.py [--kok C:\\atlas] [--dosya arac/uret_petek.py]
++Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-1006.py [--kok <depo>] [--dosya arac/uret_petek.py]
++  --kok: vars. bu betiğin kendi deposu (denetim/..) — mutlak yol YOK, her ağaçta kendini ölçer.
+                                                  [--kumeler oneri.json]
+   --kumeler: {"_ONB_SONUC": [...], "_ONB_ISLETIM": [...], "_ONB_CIKTI_DISI": [...]}
+              verilen kümeler dosyadakilerin YERİNE geçer (yama inmeden öneriyi sınamak için).
+@@ -43,7 +44,7 @@ import argparse, ast, json, os, sys
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+ ap = argparse.ArgumentParser()
+-ap.add_argument("--kok", default=r"C:\atlas")
++ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ ap.add_argument("--dosya", default="arac/uret_petek.py")
+ ap.add_argument("--kumeler", default=None)
+ arg = ap.parse_args()
+diff --git a/denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py b/denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py
+index 135d0b72..50d87674 100644
+--- a/denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py
++++ b/denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py
+@@ -12,12 +12,13 @@ Yapay ağaçlar geçici dizinde kurulur (depoya yazılmaz):
+   HATA    Y7 küme sabit değil → çıkış 2
+   GERÇEK  M1 bugünkü motor → KAPSAYICI mod, çıkış 0
+           M2 bugünkü motor + 1006c önerisi (--kumeler) → TEMİZ, çıkış 0
+-Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py [--kok C:\\atlas]
++Kullanım: py denetim/ARAC-MOTOR-ENV-KAPI-SINAV-1006.py [--kok <depo>]
++  --kok: vars. bu betiğin kendi deposu (denetim/..); kapı da AYNI ağaçtan çağrılır.
+ """
+ import argparse, json, os, subprocess, sys, tempfile, textwrap
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ ap = argparse.ArgumentParser()
+-ap.add_argument("--kok", default=r"C:\atlas")
++ap.add_argument("--kok", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ KOK = ap.parse_args().kok
+ KAPI = os.path.join(KOK, "denetim", "ARAC-MOTOR-ENV-KAPI-1006.py")
+ 

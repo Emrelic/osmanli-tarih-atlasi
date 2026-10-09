@@ -139,7 +139,7 @@ window.OLAYLAR_EK10 = [
   d:"Boğdan 1455 eylülünden beri yılda iki bin altın haraç ödeyen tâbi bir voyvodalıktı, ama Karadeniz'e açılan iki limanı hâlâ voyvodanın elindeydi ve Tuna'dan gelen ticaret oradan geçiyordu. II. Bayezid saltanatının ilk büyük seferini bu iki limana yaptı. On gün boyunca gece gündüz topa tutulan Kili Kalesi'nin kumandanı teslim olmak zorunda kaldı. Kale doğrudan Osmanlı idaresine alınıp sancak beyliği haline getirildi; XVI. yüzyılın ikinci yarısında Kazak tehlikesi yüzünden kaza yapılıp Rumeli beylerbeyiliğine bağlı Akkirman sancağına bağlandı. Buradan sonra Boğdan haritada iki kademeli görünür: içeride voyvodalık açık tonda tâbi toprak olarak durur, kıyıdaki iki liman ise koyu tonda doğrudan Osmanlı sancağıdır. TDV'nin Boğdan maddesi bu ikisini 'Boğdan'ın anahtarları ve kapıları' diye anar ve bölgenin II. Bayezid zamanında kesin olarak Osmanlı'ya bağlandığını yazar.",
   fethedilen:["Kili"],
   statu_dogrudan:["Kili"],
-  kaynak:"kili", duygu:["🎉"] },
+  kaynak:"kili · [TDV: bogdan]", duygu:["🎉"] },
 
 // ---------------------------------------------------------------------------
 // B-2) 1484 AKKİRMAN — yirmi gün sonraki ikinci kuşatma

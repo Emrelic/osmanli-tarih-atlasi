@@ -315,6 +315,6 @@ cikti = {"izgara_kara": int(kara.sum()), "sudan_gecen_adim": len(atlayan),
                                   k["dolanma_km"] > 3 * k["dogrudan_km"] + 20)]),
          "bogazlar": bogaz_sonuc, "petek": petek_sonuc, "tiflis": tif,
          "anlamli_kumeler": sorted(anlamli, key=lambda k: -(k["dolanma_km"] or 1e9))}
-json.dump(cikti, open("C:/atlas/denetim/BOGAZ-OLCUM-0081.json", "w", encoding="utf-8"),
+json.dump(cikti, open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "BOGAZ-OLCUM-0081.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)
 log("yazildi · anlamli deniz kumesi", len(anlamli))

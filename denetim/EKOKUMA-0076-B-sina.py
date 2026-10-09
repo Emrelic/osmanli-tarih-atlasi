@@ -27,8 +27,10 @@ _spec = importlib.util.spec_from_file_location(
 capa = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(capa)
 
-YAMA = r"C:\atlas\denetim\EKOKUMA-0076-B-YAMA-ekokuma_p76c.js"
-DATA = r"C:\atlas\data"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+YAMA = os.path.join(KOK, "denetim", "EKOKUMA-0076-B-YAMA-ekokuma_p76c.js")
+DATA = os.path.join(KOK, "data")
+capa.KOK = DATA  # capa.py kendi KOK'unu mutlak tasiyor; okumayi BU agaca bagla
 
 TURLER = {"sebep-sonuc", "magazin", "merak", "antlasma", "tartisma",
           "teknik-bilimsel", "kimdir", "dis-yankilar", "kahramanlik",

@@ -143,7 +143,7 @@ window.EKOKUMA_LALE = [
   kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
 
 // ── YENİLEŞME: MİMARİ ──────────────────────────────────────────────────────
-{ id:"lale-devri-mimari-ve-sehir", tur:"teknik-bilimsel",
+{ id:"lale-devri-mimari-ve-sehir", tur:"mimari",
   baslik:"Lâle Devri İstanbul'u: kasırlar, çeşmeler, bentler ve yeni yollar",
   olay:["1722-06-01|Sâdâbâd"],
   kisa:"Sâdâbâd iki ayda bitti; Kâğıthane deresinin iki yakası beyaz köşklerle doldu ve TDV'nin deyişiyle Versailles'a bir nazire oldu.",

@@ -8,7 +8,7 @@ Koşu:  py denetim/ARAC-TRIAJ-98-0930.py
 """
 import json, re, sys, os, glob, io, contextlib
 sys.stdout.reconfigure(encoding="utf-8")
-os.chdir(r"C:\atlas")
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, "arac")
 import girdi
 

@@ -17,7 +17,7 @@ import shapely
 from shapely.geometry import box
 from shapely.ops import unary_union
 
-sp = importlib.util.spec_from_file_location("ko", os.path.join(r"C:\atlas\denetim", "ARAC-LEGO-karo-olc.py"))
+sp = importlib.util.spec_from_file_location("ko", os.path.join(os.path.dirname(os.path.abspath(__file__)), "ARAC-LEGO-karo-olc.py"))
 ko = importlib.util.module_from_spec(sp); sp.loader.exec_module(ko)
 
 

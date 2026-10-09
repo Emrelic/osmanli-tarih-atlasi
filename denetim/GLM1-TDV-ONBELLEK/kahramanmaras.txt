@@ -1,0 +1,2584 @@
+﻿         
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+	<head>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66550639, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66550639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819951-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819951-1');
+		</script>
+        		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Akdeniz bölgesinde şehir ve bu şehrin merkez olduğu bir kesimi Akdeniz, bir kesimi Doğu Anadolu bölgesinde bulunan il."><meta property="og:url" content="/kahramanmaras"><meta property="og:site_name" content="TDV İslâm Ansiklopedisi"><meta property="og:title" content="KAHRAMANMARAŞ - TDV İslâm Ansiklopedisi"><meta property="og:type" content="website"><meta property="og:description" content="Akdeniz bölgesinde şehir ve bu şehrin merkez olduğu bir kesimi Akdeniz, bir kesimi Doğu Anadolu bölgesinde bulunan il."><meta property="og:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@TDV_ISAM"><meta property="twitter:title" content="KAHRAMANMARAŞ - TDV İslâm Ansiklopedisi"><meta property="twitter:image" content="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/dia-f-logo.jpg"><meta property="twitter:description" content="Akdeniz bölgesinde şehir ve bu şehrin merkez olduğu bir kesimi Akdeniz, bir kesimi Doğu Anadolu bölgesinde bulunan il.">		<title>KAHRAMANMARAŞ - TDV İslâm Ansiklopedisi</title>
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.core.css?ver=22">
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/dia.design.css?ver=26" />
+		<link rel="stylesheet async" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/all.min.css" />
+		<link rel="shortcut icon" type="image/png" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-favico-v3.ico"/>
+		<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.min.213.js"></script>
+		<script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/modal.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/ResizeSensor.min.js"></script>
+        <script defer src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/theia-sticky-sidebar.min.js"></script>
+				
+	</head>
+
+<body>
+
+<style>
+
+
+
+#topnewst{
+	position: fixed;
+	top: 0;
+    background: #FF8951;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #fff;
+	height:45px;
+	line-height:45px;
+	z-index: 1199;
+	font-weight:bold;
+	letter-spacing:0.02rem;
+}
+#topnewst a{color:#fff; text-decoration:underline !important;}
+
+#volume-list {display:none; }
+
+#letter-lisst { position: absolute; margin-top:-2px; z-index:-10; background:#fff; padding-top:10px; border:2px solid #ccc}
+
+#letter-list a { text-align:center; text-decoration:none; float:right}
+.azcontainer{width:100px;}
+.minict_wrapper ul li:hover{background:#ededed;}
+
+.menu-top-left{text-align:left !important;}
+#searc-complete-result{list-style:none; margin:0px; padding:0px;}
+
+#searc-complete-result li{
+	float:none;
+	line-height:19px;
+	margin:0px !important;
+	padding: 13px 2px !important;
+	border-bottom: 1px solid #efe9e9;
+	border-top:none;
+}
+#searc-complete-result a{text-decoration:none;}
+#searc-complete-result li .sr-title{color:#0093B0; font-weight:bold}
+#searc-complete-result li .sr-desc{color:#666;}
+#searc-complete-result li:hover{background:#f1f4f4;}
+#auto-suggest-loading{height:45px;}
+#auto-suggest-loading1{height:45px;}
+#searchBox1{width: 90%;}
+.logged_user{border-top:2px solid #ddd;}
+
+/* header buyutme */
+
+.header_logo img{height:58px !important;}
+
+
+.hover-menu ul li:hover{background:rgb(236, 230, 230, 0.60);}
+#albhabet_button:hover{color:#666 !important;}
+#cilt_button:hover{color:#666 !important;}
+.hover-menu ul li{text-align:left !important;}
+#auto-suggest-box{width:490px; top:50px !important; border:none; background-color:#f4f1f1; left:0px !important}
+#searc-complete-result{margin-top:14px; line-height:19px;}
+
+#searc-complete-result > a:first-child li{border-top: 2px solid #bdb7b7 !important; padding-top: 25px !important; padding-left:2px !important; padding-right:2px !important;}
+#searc-complete-result a.selected li{background:#e6e6e6 !important;}
+
+body{margin-top:60px;}
+
+#searchBox::-ms-clear {
+    display: none;
+}
+
+.hover-menu ul a li{color:#666;}
+.hover-menu ul a:hover li{color:#000;}
+
+#searc-complete-result{margin:3px 12px 0 12px !important;}
+#searc-complete-result > a:first-child li{padding: 13px 2px !important; border-top:2px solid #ddd !important}
+.sr-title{font-size:0.98rem !important;}
+.sr-desc{font-size:0.95rem !important;}
+.sr-old{color: #9d9d9d; font-size:0.75rem !important;}
+#auto-suggest-box{min-height:125px !important; border: 2px solid rgb(93, 182, 213); border-top:none; background:#fff; border-radius:3px}
+#searc-complete-result > div.no-res{ padding:20px 0px 50px 5px; color:#666}
+
+#searc-complete-result .at-line{position:relative; padding-left:5px;}
+#searc-complete-result .at-line .author-photo{height:35px; border-radius:2px}
+#searc-complete-result .at-line .icon-user{font-size: 31px; color: #ddd; padding-right: 4px;}
+#searc-complete-result .at-line .author-title{position: absolute; top: -3px; padding-left: 10px; color: #0093B0; font-weight: bold;}
+#searc-complete-result .at-line .author-field{position: absolute; top: 15px; padding-left: 10px; font-size:15px; color:#999}
+
+#searc-complete-result .author-photo{height:30px;}
+
+.as-tabs div.as-m.act, .as-tabs div.as-y.act{}
+.as-tabs div.as.psv{cursor:pointer;}
+.as-tabs div.as img.ic{height:20px;}
+.as-tabs div.as.psv img.ic{opacity:0.4}
+.as-tabs div.as.psv img.ic:hover{opacity:1}
+.as-tabs div.as.psv img.up{display:none}
+.as-tabs div.as span{ color:#666; font-size:15px;}
+
+div.mr{text-align:left; padding: 10px 15px 10px 0px; }
+.deep{ height:17px; opacity:0.7; }
+.deep:hover{opacity:0.9;}
+.count{color:#999;}
+/*div.mr a{color:#06839c; font-size:0.93rem;}
+div.mr a:hover{text-decoration:underline !important;}
+div.mr .sall{color: #06839c !important; text-decoration: underline !important;}
+.metinshow{color: #06839c !important}
+.srchp:hover{color:#0e6779 !important;}*/
+
+/* new alert */
+/*#header_container{top:45px !important;}
+.body_container{margin-top:45px !important;}*/
+
+.alert-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.alert-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.alert-close {
+    flex: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: #c69500;
+}
+</style>
+
+<!-- <div id="topnewst">Arama yenilendi: <a href="/duyuru/arama-kilavuzu">Arama kılavuzunu okumak için tıklayınız.</a></div> -->
+
+<div id="header_container" style="position:fixed; top:0px !important;">
+    
+    <div class="centered" id="menu">
+	
+		<div class="static_position pure-g" >
+			<div class="pure-u-13-24 hdr-left">
+        		<div class="header_left">
+            		<ul class="dia-navul">
+           				<li class="header_menu hover-menu-button" style="margin-right:8px; line-height:0px; margin-top:18px; margin-left:-7px ">
+							<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/blue-dot-menu-masaustu.png" />
+							<div class="hover-menu" style="left:10px; right:none; top: 47px;">
+								<div style="position:relative">
+								<img class="menu-top-arrow" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png?ver=2" style="position:absolute; top:-9px; left:5px" />
+								<ul>
+									<a href="/genel_kisaltmalar"><li class="hover_menu_first">Genel Kısaltmalar</li></a>
+									<a href="/transkripsiyon_isaretleri"><li>Transkripsiyon İşaretleri</li></a>
+									<a href="/duyuru/arama-kilavuzu"><li>Arama Kılavuzu</li></a>
+									<a href="/duyurular"><li>Duyurular</li></a>
+									<a href="/hakkinda/"><li style="border-bottom:none;">TDV İslâm Ansiklopedisi Hakkında</li></a>
+								</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header_logo" style="border-right:none; position:relative">
+							<a href="/" id="logo-part"> 
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/dia-yatay-logo.svg" style="height:28px; width:318px;" />
+							</a>
+							<div id="header-article" style="display:none">
+							</div>
+						</li>						
+            		</ul>
+        		</div>
+    		</div>
+    		<div class="pure-u-11-24 hdr-right">
+        		<div class="header_right">
+             		<ul class="dia-navul right">
+						<li class="header_search" style="padding:0px; margin-right:-2px;">
+
+							<span class="icon-search tipsoo tbottom tipso_style" style="background: #0093c1 !important; color: #fff !important;position:absolute;right:9px;top:16px;" id="icon-search-submit" data-width="175" data-tipso="Madde başlıklarında ara."></span>
+							<span class="icon-search tipso tbottom tipso_style" style="background:transparent;color: #DF6F49 !important;position:absolute;right: 50px;top:17px;font-size: 1.1rem; " id="icon-search-submit-txt" data-width="175" data-tipso="Madde içeriklerinde ara."></span>
+							<img class="open-keyboard" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/input-keyboard.png" />
+
+							<input id="searchBox" class="searchBox" style="width:490px; line-height:normal; height:45px; padding-right:55px;" type="text"
+							value='' placeholder="TDV İslâm Ansiklopedisi'nde ara..." autocomplete="off"/>
+							<div id="auto-suggest-box">
+								<input autocomplete="off" id="auto-suggest-state" style="display:none" />
+								<img src='https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif' id="auto-suggest-loading" />
+								<div id="auto-suggest-content"></div>
+							</div>
+							<style>
+							.open-keyboard{position: absolute;
+							right: 90px;
+							top: 27px;
+							opacity: 0.3; cursor:pointer}
+							.open-keyboard:hover{opacity:0.8}
+							.dia-keyboard {display:none; background:#fff; border:1px solid #ddd; padding:20px 15px 15px 15px; position:absolute; top:10px; left:-490px; width:485px; line-height:0px; border-radius:3px;}
+							.dia-keyboard ul{list-style:none; margin:0px; padding:0px; clear:both}
+							.dia-keyboard ul li{float:left; width:30px; height:27px; text-align:center;
+							    border: 1px solid rgba(0,0,0,0.1);
+								background-color: #f5f5f5;
+								border-radius:2px;
+								margin:2px; line-height:27px; cursor:pointer; font-size:15px;}
+							.dia-keyboard ul li:hover{background:#ddd;}
+							.dia-keyboard .shift{width:45px; font-size:13px; font-weight:bold}
+							.dia-keyboard .close-keyboard{position: absolute;right: 10px; top: 10px; font-weight: bold; color: #666; cursor: pointer;}
+							</style>
+							<div class="dia-keyboard">
+								<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/keyboard-arrow.png" style="line-height:0px;position:absolute; right:-5px;" />
+								<span class="close-keyboard">x</span>
+								<ul>
+									<li hb=""" hk=""">"</li>
+									<li hb="1" hk="1">1</li>
+									<li hb="2" hk="2">2</li>
+									<li hb="3" hk="3">3</li>
+									<li hb="4" hk="4">4</li>
+									<li hb="5" hk="5">5</li>
+									<li hb="6" hk="6">6</li>
+									<li hb="7" hk="7">7</li>
+									<li hb="8" hk="8">8</li>
+									<li hb="9" hk="9">9</li>
+									<li hb="0" hk="0">0</li>
+									<li hb="*" hk="*">*</li>
+									<li hb="-" hk="-">-</li>									
+								</ul>							
+								<ul style="margin-left:10px;">
+									<li hb="Q" hk="q">q</li>
+									<li hb="W" hk="w">w</li>
+									<li hb="E" hk="e">e</li>
+									<li hb="R" hk="r">r</li>
+									<li hb="T" hk="t">t</li>
+									<li hb="Y" hk="y">y</li>
+									<li hb="U" hk="u">u</li>
+									<li hb="I" hk="ı">ı</li>
+									<li hb="O" hk="o">o</li>
+									<li hb="P" hk="p">p</li>
+									<li hb="Ğ" hk="ğ">ğ</li>
+									<li hb="Ü" hk="ü">ü</li>
+									<li hb="," hk=",">,</li>									
+								</ul>
+								<ul style="margin-left:25px">
+									<li hb="A" hk="a">a</li>
+									<li hb="S" hk="s">s</li>
+									<li hb="D" hk="d">d</li>
+									<li hb="F" hk="f">f</li>
+									<li hb="G" hk="g">g</li>
+									<li hb="H" hk="h">h</li>
+									<li hb="J" hk="j">j</li>
+									<li hb="K" hk="k">k</li>
+									<li hb="L" hk="l">l</li>
+									<li hb="Ş" hk="ş">ş</li>
+									<li hb="İ" hk="i">i</li>
+																	
+								</ul>
+								<ul>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>
+									<li hb="Z" hk="z">z</li>
+									<li hb="X" hk="x">x</li>
+									<li hb="C" hk="c">c</li>
+									<li hb="V" hk="v">v</li>
+									<li hb="B" hk="b">b</li>
+									<li hb="N" hk="n">n</li>
+									<li hb="M" hk="m">m</li>
+									<li hb="Ö" hk="ö">ö</li>
+									<li hb="Ç" hk="ç">ç</li>
+									<li hb="." hk=".">.</li>
+									<li hb="abc" hk="ABC" class="shift noletter">ABC</li>																		
+								</ul>
+								<ul style="margin-left:65px;">
+										
+									<li hb="Boşluk" hk="Boşluk" class="space noletter" style="width:280px;">Boşluk</li>
+									<li hb="Sil" hk="Sil" class="delete back noletter" style="width:50px">Sil</li>
+								</ul>									
+							</div>
+						</li>			
+	    			</ul>
+        	</div>
+    	</div>	
+  	</div>
+
+	</div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        // Focus search box when page load
+        $('#searchBox').focus();
+    });
+</script>
+
+<div id="scrollTop" title="Sayfanın başına dön." style="z-index:100000">
+	<span class="icon-chevron-up"></span>
+</div>
+
+<style>
+#newsbar_open{display:block ;} /* only this page */
+.m-body{font-size:19px; line-height:28px; text-align:justify;}
+body{color:#494d55 !important}
+
+.inAtr{font-size:16px; color:#999 !important}
+
+@media screen {
+    #print-part-temp { display: none;}
+	.hdrprint{background:#ededed;}
+}
+@media print {
+	#print-part-temp { display: block; padding:30px;}
+	.hdrprint{background:#ededed; padding:5px; margin-bottom:20px; fonst-size:7px;  border-bottom:1px solid #ddd; }
+	.dosyaindir{display:none}
+	 body{margin: 0mm 0mm 1mm 0mm; }
+}
+
+.copy-link{cursor:pointer}
+.copy-link:hover{opacity:0.5 !important;}
+
+#div_bilgi{padding-top:6px;}
+.atif-btn{cursor:pointer;}
+.atif-kutusu{cursor: default !important;}
+.article-pd{font-size:14px; color:#999; line-height:20px; margin-top:5px;}
+
+.fotorama__caption{text-align:center !important;}
+.fotorama__caption__wrap{background-color: rgba(255,255,255,.9) !important;  }
+.fotorama__caption__wrap b{color:#E16327}
+.article-part{margin-bottom:60px;}
+.sterm{background:#E3FF91;}
+
+.m-content p{margin-top:0px; margin-bottom:17px;}
+.m-content bibl p{margin-top:0px; margin-bottom:5px; line-height:22px; padding-left: 1.5em;
+    text-indent:-1.5em; font-size:17px;}
+
+
+
+		.article-part-header{background:#f4f1f1;  border-radius:1px; position:relative; margin-bottom:20px;}
+		.article-part-header.kor-part{background-color:#f1f4f4 !important; }
+		.article-part-header .yazim-arrow{position:absolute; bottom:-10px; left:20px; z-index:1}
+		.part-author{padding-left:15px; line-height:55px}
+		.part-title{display:none}
+		.part-title a{color:#666}
+		.part-authors{}
+		.part-authors span{color:#888}
+		.part-authors a{color:#0093b0}
+		.part-info{padding-right:15px;text-align:right; padding-top:16px}
+		/* .atif-btn{position:absolute; cursor:pointer; color:#0093B0; font-size:26px; right:2px; top:-31px} */
+		.atif-btn.psv{}
+		/*
+		.atif-btn.top{position:absolute; top:5px; right:0px;}
+		.atif-btn.top .atif-kutusu{border-top:1px solid #ddd;}
+		.atif-btn.top .ak-list{height:280px; overflow-y:auto; overflow-x:hidden;}
+		*/
+		.atif-kutusu{text-align:left; right:-0px;  background:#F7F7F7;  display:none; border: 1px solid #e4e4e4;padding:10px 20px 20px 20px; z-index:5; font-size:0.85rem; color:#777; margin-top:-1px;}
+		.ak-title{border-bottom:1px solid #ddd; font-size:1.05rem !important; line-height:23px !important; padding-bottom: 5px; font-weight:bold;}
+		.ak-muellif{line-height:18px; padding-top:9px;}
+		.ak-site{line-height:18px; padding-top:9px;}
+		.ak-yayinci{line-height:18px; padding-top:9px;}
+		.ak-ilkyayin{line-height:18px; padding-top:9px;}
+		.ak-adres{line-height:18px; padding-top:9px;}
+		.ak-copy{border-top:1px solid #ddd; padding-top:10px; margin-top:10px;}
+		.ak-copy span{background:#f9f9f9; color:#666; padding:4px 15px 4px 15px; border:1px solid #ddd; border-radius:2px; cursor:pointer}
+		.ak-copy span:hover{background:#f1f1f1;}
+		.ak-copytext{display:none; line-height:17px; padding-top:20px; padding-bottom:10px}
+		.msg-btn{ cursor:pointer; font-size:28px; color: #967A7A; position: absolute; right: 34px; top: -32px;}
+		.msg-btn a{color: #967A7A}
+		.print-btn{float:right; cursor:pointer; font-size:20px; color: #967A7A; padding-top:1px;}
+
+
+.article-part-nav-info{position:absolute; background:#E98A5C; top:-33px; left:0px; list-style-type:none; margin:0px; padding:0px; color:#fff; border-radius:2px;}
+.article-nav-prev{cursor:pointer; padding:2px 4px 0px 5px; height:18px; float:left; line-height:0px; border-right:none}
+.article-nav-prev span, .article-nav-next span{font-size:11px;}
+.article-nav-prev.kor{border-right:1px solid #ddd;}
+.article-nav-next{cursor:pointer; padding:2px 4px 0px 4px; height:18px; float:left; line-height:0px;}
+.article-nav-next.kor{border-left:1px solid #ddd;}
+.article-nav-passive{cursor:default;}
+.article-nav-passive img{opacity:0.3; cursor:default;}
+.article-nav-prev.kor span, .article-nav-next.kor span{color:#afa1a1;}
+.article-nav-numbers{padding:0.15rem 12px 0 12px; line-height:25px; float:left; border-right:1px solid #F3BFA7; border-left:1px solid #F3BFA7; font-size:13px; font-weight:bold; letter-spacing: 3px;}
+
+.article-nav-open-info{cursor:pointer; padding:0 9px; height:21px; line-height:22px; float:left; border:none; font-size:13px; font-weight:bold;}
+.article-nav-info-li{float:left; height:21px; background:rgb(181, 164, 164); font-size:13px; line-height:21px; height:21px; padding:0 10px; display:none; border-top-right-radius: 2px; border-bottom-right-radius: 2px;}
+.tipso_style{border-bottom:none !important;}
+
+.bibpos{position:absolute; color:#fff; font-size:1px;}
+.m-body span.eser{font-style:italic; text-justify: none; }
+.m-body span.kisaltma{text-justify: none;}
+
+.m-body bibl span.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+.m-body bibl span.eser.kisaltma{text-justify: none; border-bottom:dotted 2px #999; cursor:pointer}
+
+.m-body bibl{
+margin-top: -17px !important;
+    display: block;
+}
+
+.pop-title{font-weight:bold;}
+
+.article-left-bar{padding-bottom:0px !important; box-shadow:none !important; background:none !important; max-width: 68px;z-index: 1;}
+
+.rndleftbtn:hover{opacity:1 !important}
+
+.encokokunan{
+	background: #e4e8e8;
+    width: 100px;
+    /* padding: 2px 5px; */
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -25px;
+    font-size: 0.80rem;
+    padding: 2px 0px 3px 0px;
+    font-weight: bold;
+    color: #888;
+    /* margin-top: 10px; */
+}
+.encokokunan:hover{background:#dbdede; color:#666}
+.captcha-container > img { height: 38px; position: absolute }
+.captcha-container > .form-group { margin-left: 90px; }
+.error-box{background: #ff8585; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+.success-box{background: #26b151; padding: 7px 10px; font-weight: bold; color: #fff; margin-bottom: 20px; border-radius: 3px;}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.grecaptcha-badge.show {
+    visibility: visible !important;
+    z-index: 10000;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.swal2-html-container {
+    font-size: 1rem;
+}
+</style>
+
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.print.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.jquery.lazyload.min.js"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.tipso.min.js"></script>
+<link rel="stylesheet" href="https://cdn2.islamansiklopedisi.org.tr/assets/w/css/vendor.fotorama.css">
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/vendor.fotorama.js"></script>
+
+
+
+<br />
+<div class="centered body_container body_pad_article" style="position:relative">
+
+	<div class="print-meta visible-on-print" style="display: none;">
+		Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+		<a title="KAHRAMANMARAŞ" href="https://islamansiklopedisi.org.tr/kahramanmaras?utm_source=pdf">https://islamansiklopedisi.org.tr/kahramanmaras</a>
+	</div>
+
+	<div class="article_header_container" style="margin-bottom:25px; position:relative;">
+	<!-- mesele -->
+	<!-- article left bar -->
+		<div class="article-left-bar">
+				<div class="pure-g bar-line"  style="    background: #fff;
+		padding-top: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell bleft"><span class="icon-align-left"></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span class="icon-align-justify"></span></div>
+				</div>
+				<div class="pure-g bar-line"  style="background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1-2 bar-cell fup"><span id="txtup" class="icon-font up" style=""></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="txtdown" class="icon-font down"></span></div>
+				</div>
+				<div class="pure-g bar-line-nav"  style="background: #fff; padding-bottom: 5px; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+
+					<div class="pure-u-1-2 bar-cell bleft"><span id="pagecolorSepia" ></span></div>
+					<div class="pure-u-1-2 bar-cell bright"><span id="pagecolorWhite"></span></div>
+				</div>
+
+				<div class="pure-g bar-line-nav rndleftbtn tipso tright tipso_style" data-tipso="<i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde görmek için tıklayınız." data-width="200" style="border-bottom: none; border-radius:4px; margin-top:10px; background:#2FB556; opacity:0.85; border: 1px #5abb76 solid; text-align: center; padding: 7px 0 2px 0px; cursor:pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+					<div class="pure-u-1"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" style="height:20px" /></div>
+				</div>
+
+				<div class="pure-g" style="display:none">
+					<div class="pure-u-1-2 bar-cell bleft">
+						<a href="kahramanlik" class="tipso tright" data-width="200" data-tipso="Önceki madde: KAHRAMANLIK">
+							<span class="icon-chevron-circle-left"></span>
+						</a>
+					</div>
+					<div class="pure-u-1-2 bar-cell bright">
+						<a href="kahtabe-b-sebib" class="tipso tright" data-tipso="Sonraki madde: KAHTABE b. ŞEBÎB">
+							<span class="icon-chevron-circle-right"></span>
+						</a>
+					</div>
+				</div>
+		</div>
+	<!-- article left bar end -->
+
+		<style>
+		.listen{width:15px; opacity:0.5; cursor:pointer}
+		.listen:hover{opacity:1;}
+		</style>
+
+		
+		
+		<div class="article_title"><h1>KAHRAMANMARAŞ</h1></div>
+
+		
+		<div class="article_info"><h2>
+			<div style="padding-top:6px;"><span style="color:#e16328">Akdeniz bölgesinde şehir ve bu şehrin merkez olduğu bir kesimi Akdeniz, bir kesimi Doğu Anadolu bölgesinde bulunan il.</div>			</h2>
+		</div>
+	</div>
+
+
+<div id="article-main-content" class="pure-g " style="">
+    <div class="pure-u-1 pure-u-md-15-24 sticky-content">
+
+		<div class="bibl-popup" style="display:none; position:absolute; padding:22px 24px 18px 18px; max-width:290px; background:#FEFEC6; z-index:1;     box-shadow: 0 3px 10px rgba(0,0,0,.3);">
+			<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/bibl-popup-arrow.png" style="position: absolute;top: -10px;" />
+			<span class="icon-close close-bibl-poup" style="position: absolute;top: 8px; right: 10px; font-size: 20px;cursor: pointer; color:#555"></span>
+			<div class="bibl-cnt"></div>
+		</div>
+
+		
+
+		<div class="m-body" id="m-body" style="font-size:; line-height:">
+
+			<!-- Madde Planı -->
+			<style>
+			body.sepya{background-color:rgb(241, 233, 215) !important}
+			.art-plan{margin-bottom:30px;border:1px solid #ededed; border-radius:3px;}
+			.art-plan.sepya{border: 1px solid #c5bead !important;}
+			.article-plan-buttons{border-bottom:1px solid #ededed; overflow:hidden}
+			.article-plan-buttons.sepya{border:none; border-bottom: 1px solid #c5bead !important;}
+			.article-plan-buttons .passive:hover{border-bottom:3px solid #ededed; color:#333; cursor:pointer}
+			.article-plan-buttons .passive{color:#999; border-bottom:none; font-weight:normal}
+			.article-plan-buttons .active{color:#666; border-bottom:3px solid #ddd; font-weight:bold}
+			.btn-plan, .btn-preview{padding-bottom:5px !important; padding-top:5px !important}
+			.plan-content, .preview-content{ clear:both;  font-size:15px; border-radius:3px;}
+			.preview-span{background: #ededed;padding: 2px 8px; margin-right:10px; font-size: 12px; letter-spacing: 1px;border-radius: 3px;}
+			.preview-ul{list-style:none; padding:0px; margin:0px; height: 189px; overflow-y: auto; padding-right:15px;}
+			.preview-ul li{padding-bottom:30px; line-height:22px; cursor:pointer; color:#777; width:100%;}
+			.preview-ul li:hover{color:#888;}
+			.ind2{padding-left:15px;}
+			.ind3{padding-left:30px;}
+			.ind4{padding-left:45px;}
+			.ind5{padding-left:60px;}
+			.ind6{padding-left:75px;}
+			</style>
+
+			
+				<div id="artplan" class="art-plan">
+					<div class="article-plan-buttons">
+					    							<div class="btn-preview active" style="font-size:15px; text-align:center;float:left; margin-left:20px; padding:0 20px; width:195px">
+								Bölümler İçin Önizleme
+							</div>
+                        											</div>
+										<div class="preview-content" style="line-height:27px; padding:15px 5px 10px 20px; ">
+						<div class="top-prev-container top-prev-container-p" style=" width: 100%;  z-index:100;padding-bottom:5px;">
+								<div class="preview-content">
+								<ul class="preview-ul">
+								<li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >1/3</span><span><span>Müellif: </span><b style="color:#888">TUFAN GÜNDÜZ</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Ahır dağının güney kısmı eteklerinde, şehirle aynı adı taşıyan ovanın kuzey kesiminde meyilli bir alanda yer alır. Önemli bir yol güzergâhı üzerinde b...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#2-bugunku-kahramanmaras"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >2/3</span><span><span>Müellif: </span><b style="color:#888">METİN TUNCEL</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Bugünkü Kahramanmaraş. I. Dünya Savaşı’ndan sonra önce İngilizler, ardından Fransızlar tarafından işgal edilen Kahramanmaraş 11-12 Şubat 1920’de halkı...</div></li><li style="padding-bottom:10px; color:#888" class="preview-jump" data-jurl="#3-mimari"><div style="position:relative; border-bottom:1px solid #ddd; border-radius: 3px; margin-bottom:2px;"><span style="margin-right: 10px; font-weight:bold" >3/3</span><span><span>Müellif: </span><b style="color:#888">HAMZA GÜNDOĞDU</b><span style="position:absolute; right:0px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">MİMARİ. Arkeolojik verilerle kısmen aydınlatılmaya çalışılan şehrin ilk dönemleri hakkında fazla bilgi yoktur. Hareketli geçen tarihî seyir içerisinde...</div></li>								</ul>
+							</div>
+						</div>
+					</div>
+				    									</div>
+
+
+			
+			<!-- Madde Metni -->
+			<style>
+			.hdrprt1{border:1px solid #e4e4e4; border-radius:3px; margin-bottom:0px; position:relative}
+			.hdrprt1.sepya{border: 1px solid #c5bead;}
+			.hdrprt1arrows{border-bottom:1px solid #e4e4e4; overflow:hidden;background: #f4f1f1;}
+			.hdrprt1arrows.sepya{border-bottom: 1px solid #c5bead;background: #e4ddcc;}
+			.partnumbers{float:left;  height:37px; font-size:0.90rem; letter-spacing: 3px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-left:12px; padding-right:12px; color:#007993; padding-top:5px;}
+			.partnumbers.sepya{border-left:1px solid #c5bead; border-right:1px solid #c5bead;}
+			.partdownarrow{float:left;  height:37px; padding-top:4px; padding-left:12px; padding-right:12px;border-right:1px solid #ddd;}
+			.partdownarrow.sepya{border-right:1px solid #c5bead;}
+			.partprint{border-left:1px solid #e4e4e4; float:right;;height:37px; line-height:42px; padding-left: 14px; padding-right: 14px; cursor:pointer}
+			.partprint.sepya{border-left:1px solid #c5bead}
+			.partemail{border-left:1px solid #e4e4e4; float:right; line-height: 37px; padding: 1px 14px; cursor:pointer}
+			.partemail.sepya{border-left:1px solid #c5bead;}
+			.partatif{border-top-right-radius: 2px; float:right; border-left: 1px solid #e4e4e4; padding: 1px 14px; line-height: 37px;}
+			.partatif.sepya{border-left: 1px solid #c5bead;}
+			</style>
+			<!-- Madde Metni -->
+			                <div class="article-parts">
+                                            <!--<div class="visible-on-print">
+                            <img src=""
+                                 title=""  alt="" />
+                            <div class="right-info" style="text-align:center;"></div>
+                        </div>-->
+                    
+                    							<div class="article-part" id="_1" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 1. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="KAHRAMANMARAŞ" href="https://islamansiklopedisi.org.tr/kahramanmaras?utm_source=pdf#1">https://islamansiklopedisi.org.tr/kahramanmaras#1</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev article-nav-passive " data-jurl="#" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 1. bölümü">
+													1/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#2-bugunku-kahramanmaras" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="KAHRAMANMARAŞ//1" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/tufan-gunduz"><b>TUFAN GÜNDÜZ</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">KAHRAMANMARAŞ</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>TUFAN GÜNDÜZ</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2001</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/kahramanmaras#1</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext1">
+														TUFAN GÜNDÜZ, "KAHRAMANMARAŞ", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kahramanmaras#1 (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p>Ahır dağının güney kısmı eteklerinde, şehirle aynı adı taşıyan ovanın kuzey kesiminde meyilli bir alanda yer alır. Önemli bir yol güzergâhı üzerinde bulunan şehrin adının Asur kaynaklarında geçen Markasi’ye dayandığı belirtilir. Markasi adı, Romalılar döneminde Kral Caligula tarafından Germanicia / Kayseria Germanicia’ya çevrildi. Bu isim Bizans Devleti zamanında da kullanıldı. Şehir İslâm hâkimiyetine girince “Mar‘aş” adını aldı. Maraş kelimesi, bölgedeki çeltik ekimi ve bataklıkların sebep olduğu sıtma hastalığı dolayısıyla “titreme yeri” anlamına geldiği şeklinde izah edilmekteyse de bunun ilmî bir kıymeti yoktur. Yeniden Bizans hâkimiyetine girdiği kısa bir dönem içinde Marassion denilen şehir bundan sonra Osmanlı devri de dahil Maraş adıyla anıldı. Bu ad 7 Şubat 1973’te, Türkiye Büyük Millet Meclisi tarafından Millî Mücadele dönemindeki üstün direnişinden dolayı “kahraman” unvanı verilerek Kahramanmaraş şekline dönüştürüldü. Kuruluş tarihi antik dönemlere kadar inen Maraş’ın ilk yerleşim yeri şimdiki şehrin güneydoğusunda bulunan Erkenez çayı kenarındaydı. Roma devrinde Karasu kıyısına taşınan şehir daha sonra doğusunda bulunan Kara Maraş’a taşınmış, bugünkü yerleşim yerine ise Dulkadırlılar zamanında gelmiştir. </p><p> <b>Tarih.</b> Asur ticaret kolonileri çağında Anadolu’yu Mezopotamya’ya bağlayan önemli bir ticaret yolu üzerinde yer alan şehir, Hitit İmparatorluğu yıkıldıktan sonra Geç Hitit şehir devletlerinden Gurgum Krallığı’na başşehirlik yaptı. Kimmerler’in Anadolu’yu istilâsının ardından bir müddet Asur hâkimiyetinde kaldı. Asurlular’ın Med istilâsına uğramasından sonra Pers hâkimiyetine girdi. Şehir, İskender’in Asya seferi sırasında Kapadokya satraplığının önemli merkezlerinden biriydi. Romalılar zamanında Kuzey Suriye vilâyeti sınırlarına katıldı. Roma’nın Sâsânîler’le savaşı Maraş şehrinin zaman zaman saldırılara hedef olmasına yol açtı. Roma İmparatorluğu’nun 395’te ikiye ayrılması üzerine Doğu Roma’nın (Bizans) hâkimiyetine geçti. Sâsânîler 605’ten itibaren Kayseri, Maraş gibi önemli ticaret şehirleri üzerinde hâkimiyet kurdularsa da 611’de geri çekildiler. Sâsânîler’den sonra Maraş bölgesine ilk Arap akınları Hulefâ-yi Râşidîn devrinde başladı. Ebû Ubeyde b. Cerrâh Menbic’de iken Hâlid b. Velîd’i Maraş taraflarına gönderdi. Hâlid şehri kuşattı, halka zarar vermemek kaydıyla Maraş’ı aldı ve kalesini yıktırdı (16/637). Maraş bundan sonra Anadolu içlerine yapılacak akınlarda üs durumuna geldi. Süfyân b. Avf el-Gāmidî Maraş’tan hareketle Bizans topraklarına akınlar düzenledi (30/650-51). Emevîler zamanında Muâviye’nin emriyle şehir yeniden inşa edildi. I. Yezîd’in ölümünün (64/683) ardından Maraş’a yönelik Bizans saldırıları yoğunlaşınca müslümanlar Maraş’ı terketmek zorunda kaldılar. Abdülmelik’in Bizans’la yaptığı antlaşma uzun süreli olmadı. Cemâziyelevvel 74’te (Eylül 693) I. Mervân’ın oğlu Muhammed antlaşmayı bozarak ertesi yıl Bizans topraklarına girdi. Cemâziyelevvel 75’te (Eylül 694) Bizanslılar karşı saldırıya geçip Antakya yakınlarındaki Amik ovasına kadar ilerledilerse de başarılı olamadılar ve Maraş ovasında yapılan savaşta mağlûp edilerek geri püskürtüldüler. Halife I. Velîd’in oğlu Abbas Maraş’a gelip şehri tamir ve tahkim ettirdi. Bir kısım halkı şehre yerleştirerek Maraş’ın nüfusunun artmasını sağladı ve büyük bir cami yaptırdı. Halife II. Mervân zamanında 129 (747) yılında Bizanslılar Maraş’ı kuşattı. Halk canlarının bağışlanması şartıyla şehri boşaltarak el-Cezîre ve Kınnesrîn’e göç etti. Bizans İmparatoru V. Konstantinos şehri yıktırdı. Mervân, Humus’u fethettikten sonra Maraş’ı yeniden ele geçirdi ve şehri imar etti. Bizans kuvvetleri 130’da (747) şehri yağmaladılar. Abbâsî Halifesi Ebû Ca‘fer el-Mansûr devrinde Sâlih b. Ali tarafından onarılan şehir Halife Mehdî-Billâh döneminde tahkim edildi. 161-162 (778-779) yıllarında büyük bir Bizans ordusu Maraş’ı kuşattı, şehri alamadıysa da etrafı yakıp yıktı. Bizans İmparatoru I. Basileios 877’de Göksun ve Toroslar üzerinden Maraş’a saldırdı, fakat şehri ele geçiremedi; varoşları tahrip ve yağma ederek geri çekildi. Şehir Muharrem 292’de (Kasım 904) Bizanslılar’ın eline geçti. 916’da Ermeniler Maraş’ı ele geçirip yağmaladılar. 949’da Bizanslılar şehri tekrar zaptettiler. Maraş 341’de (952) Hamdânîler’in eline geçtiyse de 351 Rebîülevvelinde (Nisan 962) yeniden Bizans topraklarına katıldı. </p><p>Malazgirt Savaşı’nın ardından Türkler’in Anadolu’yu fethe başlaması sırasında yaşanan kargaşadan Maraş ve çevresi de büyük ölçüde etkilendi. Daha önce Bizans’ın Türkler’e karşı güçlü bir direniş hattı oluşturmak amacıyla Ermeniler’i Doğu Anadolu’dan Anadolu’nun iç ve güney kesimlerine çekmiş olması Maraş ve çevresindeki Ermeni nüfusunu arttırdı. Bunun sonucunda bazı küçük Ermeni prenslikleri ortaya çıkmaya başladı. Bizans tarafından Türkler’e karşı Malatya-Antakya hattının savunmasına memur edilen Ermeni asıllı Philaretos, Maraş’ı da içine alan büyük bir prenslik kurdu (1079). Ancak I. Süleyman Şah’ın ve Emîr Buldacı’nın 1085’te Anadolu’nun güneyine yönelik fetihleri sırasında Maraş Buldacı tarafından ele geçirilince Philaretos Urfa’ya gitti. Urfa’nın fethi üzerine de Melikşah’ın yanına giderek müslüman oldu ve Maraş kendisine verildi (1087). Philaretos’un yerine geçen Barsama (1090) kısa bir müddet şehri idare edebildi. Emîr Bozan, Maraşlılar’ın Barsama’ya karşı isyanı sayesinde şehri kolayca fethetti. </p><p> Godefroi de Bouillon kumandasındaki Haçlı ordusu 490’da (1097) Maraş’a girdi. Bu sırada şehri Ermeni Vali Thathul yönetiyordu. Haçlılar valinin hükümranlık yetkilerini kabul ettiler. Maraş uzun süre Haçlılar’ın Urfa, Antakya ve Çukurova’ya yönelik harekâtlarında üs vazifesi gördü. Haçlılar daha Kudüs’e ulaşmadan Antakya ve Urfa’da iki devlet kurmuşlardı. II. Urfa Kontu Baudouin du Bourg Maraş ve çevresini kontluğun sınırlarına kattı. Bizans İmparatoru Aleksios Komnenos’un kumandanlarından Butumites Maraş’ı ele geçirdi ve şehrin idaresi Ermeni Prensi Thathul’a verildi. </p><p> Sultan I. Kılıcarslan, Antakya seferi sırasında 1103 Ağustosunda Maraş yakınlarına kadar geldi; fakat Dânişmendli Gümüştegin Gazi’nin Antakya prinkepsi Bohemund’u serbest bırakması üzerine bu seferini tamamlayamadan geri döndü. Ermeni Thathul Maraş’ı 1104’e kadar elinde tuttuktan sonra Tel Bâşir Hâkimi Josselin de Courtenay’a teslim etmek zorunda kaldı. Şehir 1104’ten itibaren Antakya prinkepsleri Bohemund ile Tankred’in hâkimiyetine girdi ve Tankred şehri kuzeni Richard de Salerno’ya verdi. Ermeni Hâkimi Gogh Vasil’in dul eşi Maraş’ı 1114’te Aksungur el-Porsukī’ye teslim etti. Şehirde aynı yıl büyük bir deprem oldu ve birçok kişi hayatını kaybetti. Kudüs Kralı Baudouin Maraş’ı Godefroi adlı bir kişiye verdi. Godefroi 1124’te öldürüldü. Dânişmendli Emîri Muhammed Maraş bölgesine saldırdı. Şehrin yakınlarına karargâh kurarak etrafa akınlar düzenlemeye başladı. Maraş halkının bir kısmı şehri boşaltarak göç etti. Dânişmendli Melik Muhammed, Göksun ve civarını tahrip ettikten sonra Bizans imparatorunun Antakya’ya yaklaştığını haber alınca bölgeden uzaklaştı (531/1136-37). Bizanslılar’ın bölgeden çekilmesinin ardından Anadolu Selçuklu Sultanı I. Mesud 532’de (1137-38) Maraş yakınlarında Haçlılar’a ait köyleri yağmaladı. 535’te (1141) Malatya Emîri Muhammed, 541’de (1146-47) Şehzade II. Kılıcarslan bölgede tahribatta bulundular. I. Mesud, oğlu Kılıcarslan ile birlikte Maraş’ı kuşatarak Franklar’ın elinden aldı (544/1149). Atabeg Nûreddin Mahmud Zengî, Urfa Kontu Josselin’i esir aldıktan sonra Urfa Kontluğu’na tâbi olan Maraş’ı ele geçirdi. Sultan Mesud, Nûreddin Mahmud ve Artuklu Karaarslan arasında yapılan taksimde Maraş Sultan Mesud’da kaldı (546/1151). I. Mesud, Haçlılar’ın elinden aldığı yerlerin idaresini Elbistan merkez olmak üzere oğlu Kılıcarslan’a verdi. 1156’da şehir Ermeni Hâkimi Stefan tarafından tahrip edildi. Şehirdeki hıristiyanlar da dahil olmak üzere halkın pek çoğu öldürüldü yahut esir alındı. II. Kılıcarslan’ın yaklaşması üzerine Stefan kaçtı. Yerli hıristiyanlar Türk sultanını kurtarıcı olarak karşıladılar. Nûreddin Zengî ile II. Kılıcarslan arasındaki ilişkilerin bozulmasından sonra Maraş Nûreddin Zengî tarafından ele geçirildi (20 Zilkade 568 / 3 Temmuz 1173). Nûreddin Mahmud’un Maraş’ı Ermeni Hâkimi Mleh’e bıraktığı (<span class="kisaltma" data-ad="ia"><i>İA</i></span>, VII, 315) ya da II. Kılıcarslan’a iade ettiği (<i>a.g.e.</i>, VI, 691) rivayet edilir. Mleh 592’de (1196) Ra’han’a saldırınca Eyyûbîler’in Halep hâkimi el-Melikü’z-Zâhir Gāzî kendisine karşı harekete geçti. Bunun üzerine Mleh af dileyip onun hâkimiyetini kabul etti. </p><p> II. Kılıcarslan’ın ölümünden (588/1192) kısa bir süre sonra Kilikya Ermenileri Maraş ve çevresine saldırılarda bulundular. I. Gıyâseddin Keyhusrev 605’te (1208) Ermeniler’i cezalandırmak amacıyla Maraş üzerine bir sefer düzenledi ve Maraş’ı tekrar Selçuklu topraklarına kattı. II. Kılıcarslan’ın emîrlerinden olup vaktiyle bu bölgeye melik tayin edilen Hüsâmeddin Hasan’ı yeniden göreve getirdi. Böylece Maraş’ta Selçuklu Devleti’ne bağlı bir beylik ortaya çıkmış oldu. Maraş, Haçlılar ve Ermeniler tarafından büyük ölçüde tahrip edilmiş, nüfusu da hayli azalmıştı. Hüsâmeddin Hasan ve onun oğlu ile torunu tarafından şehir yeniden imar edildi. Maraş, bundan sonra Kilikya bölgesindeki Ermeniler üzerine yapılan seferlerde de üs vazifesi gördü. </p><p> XIII. yüzyıl başlarında ortaya çıkan Moğol istilâsı Anadolu’ya pek çok Türkmen kitlesini sürdü. Bu ikinci göç dalgası ile gelen Türkmenler’in yoğun olarak bulunduğu sahalardan biri de Maraş ve çevresiydi. Maraş yaylak ve kışlak alanlarına imkân tanıdığı için Türkmenler tarafından kısa sürede doldurulmuştu. Maraş Türkmenleri 637 (1240) yılında çıkan Babaî ayaklanmasına katıldılar. Baba İshak bölgedeki Türkmenler üzerinde büyük nüfuza sahipti. Babaî İsyanı’nın Selçuklu Devleti’nde meydana getirdiği ağır zayiat Moğollar’ın Anadolu’ya girişini kolaylaştırdı. 1243’te Kösedağ Savaşı’nda Selçuklu ordusunun ağır bir yenilgiye uğramasının ardından yaşanan karışık ortamda, Maraş-Malatya arasında kalan bölgeyi yurt tutmuş olan Ağaçeri Türkmenleri ticaret yollarına ve etrafa zarar verdiler. Emîr Hüsâmeddin’in ailesinden İmâdüddin, 656’da (1258) Anadolu Selçuklu Sultanı II. İzzeddin Keykâvus ve Memlük Sultanı el-Melikü’s-Sâlih’ten istediği desteği sağlayamayınca şehri Ermeniler’e terketmek zorunda kaldı. Maraş’ı ele geçirmek için mücadele eden Memlük Sultanı I. Baybars, Kilikya Ermeni hâkiminden gelen elçileri kabul edip Maraş’ın Memlükler’e bırakılmasını istediyse de kendisine yüklü bir meblağ ödenerek bu fikrinden vazgeçirildi. 692’de (1293) Sultan Halil Ermeniler’le bir antlaşma yaparak Maraş’ı almaya muvaffak oldu. Memlükler’in çekilmesinden sonra Maraş tekrar Ermeniler’in eline geçtiyse de 697’de (1298) Memlükler’in Halep nâibi Bilbân et-Tabahî tarafından geri alındı; Ermeniler’le yapılan antlaşmada Ceyhan nehri sınır kabul edildi ve Maraş’ın Memlükler’in hâkimiyetine geçmesine karar verildi. Anadolu’da Moğol hâkimiyetinin çökmesi üzerine Maraş, Zeynüddin Karaca Bey’in etrafında toplanan Dulkadırlı Türkmenleri’nin idaresine girdi. 783’te (1381) güçlü bir Memlük ordusu Dulkadır ordusunu yenerek Maraş’ı aldı. Karaca Bey’in oğlu Halil Bey, Kadı Burhâneddin ve Ramazanoğulları’ndan destek sağlayarak Maraş’ı Memlükler’den kurtardı (786/1384). Fakat Memlükler’in Halep valisi Yelboğa en-Nâsırî’ye mağlûp olunca Maraş tekrar Memlükler’in eline geçti. Dulkadıroğulları bir süre sonra Maraş’a yeniden hâkim oldular. 913’te (1507) Şah İsmâil tarafından tahrip edilen şehir, Yavuz Sultan Selim’in Mısır seferi sırasında ve sonrasında Dulkadıroğulları’nın elinde kaldı. Ancak Şehsuvaroğlu Ali Bey’in 928’de (1522) idamının ardından doğrudan Osmanlı hâkimiyeti altına alındı. Maraş’ın ilk tahrirlerinde çevre kazalara göre oldukça fazla muaf reâyâ yazılmıştı. Kanûnî Sultan Süleyman zamanında yapılan yeni düzenlemelerle bazı sipahilerin ellerinden dirliklerinin alınmasıyla Bozok’ta başlayan ayaklanmalara Maraş bölgesindeki Türkmenler de geniş destek verdiler. Yine dinî karakterli olmakla birlikte Kalender Çelebi ayaklanması da (934/1528) Türkmenler’in desteğini sağlamıştı. Türkmenler’e eski dirlikleri verilmek suretiyle ayaklanmalar bastırılabildi. Bundan sonra uzunca bir süre Maraş’ta herhangi bir olay meydana gelmedi. </p><p> 1599’da Celâlî Hüseyin Paşa Maraş’ı yağmaladı. XVIII. yüzyılda âyanların ortaya çıkması bölgedeki karışıklıkları arttırdı. Şehir âyanlar ile eski aileler arasındaki rekabetin bir sonucu olarak iktisadî bakımdan geriledi. Maraş 1833’te Kavalalı İbrâhim Paşa’nın işgaline uğradı ve on dokuz aya yakın onun idaresinde kaldı. XIX. yüzyılın ikinci yarısında Maraş, bölgedeki aşiretlerin asayişsizliği yüzünden merkezî hükümetin denetiminden hayli uzaklaşmıştı. 1865’te kurulan Fırka-i Islâhiyye, Cevdet ve Derviş paşaların kumandasında aşiretleri yerleşik hayata geçirdikten sonra bölgenin güvenliği sağlanabildi. İngiltere ile Fransa arasında yapılan Sykes-Picot Antlaşması’nda Maraş, I. Dünya Savaşı sonrası Fransız nüfuz bölgesinde bırakılmıştı. Ancak Mondros Mütarekesi’nin ardından İngilizler 22 Şubat 1919’da şehri işgal ettiler. Bundan sonra bölgede Ermeni varlığında artış görülmeye başlandı. İngiltere ile Fransa arasında yapılan antlaşma neticesinde Maraş ve çevresi Fransa’ya devredilince 29 Ekim 1919’da Fransızlar Maraş’a girdiler. Fransız ordusu içinde Ermeniler’den teşkil edilmiş birliklerin olması, şehirdeki Ermeniler’in işgali coşkuyla karşılaması, kaledeki Türk bayrağının indirilmesi, Uzunoluk Hamamı’ndan çıkan kadınları Fransız askerlerinin tâciz etmesi halkın tepkisine yol açtı. Sütçü Hacı İmam işgalci askerlerden birini öldürdü. Şehirdeki direnişi örgütlemek amacıyla 29 Kasım 1919’da Maraş Müdâfaa-i Hukuk Cemiyeti kuruldu. Maraşlı doktor Mustafa ile arkadaşları Maraş’ta Kuvâ-yi Milliye teşkilâtı kurmak üzere Hey’et-i Temsîliyye başkanı Mustafa Kemal ile irtibat kurdular. Sivas Kongresi’nde Maraş’ta Kuvâ-yi Milliye kurulmasına karar verildi ve Hey’et-i Temsîliyye tarafından Yüzbaşı Selim (Kurtoğlu Yörük Selim) ve Üsteğmen Âsaf (Kılıç Ali Bey) bu işe memur edildi. Fransızlar pek çok yerde Kuvâ-yi Milliyeciler’in baskınına uğramaya başladı. Çatışmalar kısa sürede şehre sıçradı. Bertiz Kuvâ-yi Milliyesi kumandanı Doktor Mustafa Bey, Yumurtatepe’deki Fransız karargâhına saldırılar düzenledi. Bu gelişme şehirdeki Müdâfaa-i Hukuk Cemiyeti’ni de harekete geçirdi. Şehirde çatışmalar yoğunlaşınca Pazarcık Kuvâ-yi Milliyesi kumandanı Kılıç Ali Bey de Maraş’a girdi. Türk çeteleri Maraş’a yardım getiren Fransız konvoylarını da vurmaya başladılar. Bayazıtlı mahallesine yönelik ağır topçu saldırıları karşısında halk Doktor Mustafa Bey’i Fransız karargâhına görüşme yapmaya gönderdi. Mustafa Bey, Fransız kumandan General Queratte ile yaptığı görüşmeden dönerken Ermeniler tarafından şehid edildi. Fransızlar 11 Şubat 1920’de şehri boşaltarak İslâhiye tarafına doğru çekilmeye başladılar. Zeytun ve Şar köyünde toplanan bazı Ermeni çetelerinin etrafa zarar vermeye devam etmesi üzerine bölgeye müfrezeler gönderilerek olaylar bastırıldı. </p><p> <b>Fizikî Yapı ve Nüfus.</b> Antikçağ’lardan beri sürekli yerleşime sahne olan ve müstahkem kalesiyle önemli bir ticaret yolunu kontrol altında tutan Maraş, Ortaçağ’larda Bizans ile İslâm dünyası arasındaki sınır bölgesinde bulunması sebebiyle sık sık tahribata uğramış ve yeniden imar edilmiştir. 1114’teki depremde bütünüyle harap olan Maraş, Dulkadıroğulları zamanında şimdiki yerine taşındıktan sonra giderek şehir halinde gelişme gösterdi. Dulkadıroğulları inşa ettirdikleri yapılarla Maraş’ın klasik şehir formunu belirlemiş oldular. Dulkadırlı Süleyman Bey’in yaptırdığı ulucami yerleşmenin ana çekirdeğini oluşturmuştu. Maraş Osmanlı idaresine geçtikten sonra daha da gelişti. XVI. yüzyılda yapılan tahrirler fizikî yapıdaki büyümeye işaret eder. 1526’da tamamında müslüman nüfusun yaşadığı elli üç mahalleden oluşan Maraş’ta 1563’te kırk iki mahalle vardı. Mahalle sayısı XVII. yüzyıl ortalarında kırk iki, 1848’de otuz dokuz, 1904’te kırk bir idi. Mahalle sayılarının bu durumu şehrin fizikî bakımdan küçülmesiyle bağlantılı olmayıp mahalle anlayışındaki değişiklerle ilgilidir. Zira nüfus açısından belirli bir artış dikkati çeker. 1526’da şehirde 473 hâne, doksan iki mücerred vergi nüfusu (yaklaşık 2500 kişi) varken 1563’te bu rakam 3050 nefere (yaklaşık 12.000 kişi) yükselmişti. Aradan geçen otuz yedi yıl içinde görülen artış dışarıdan şehre yönelik göçlerin sonucudur. Ayrıca 1526 tahriri sırasında bölgedeki karışıklıkların şehir nüfusunu olumsuz yönde etkilediği de düşünülebilir. Zamanla güven ortamı sağlandığı için şehrin giderek nüfus bakımından önemli bir gelişmeye sahne olduğu söylenebilir. Şehre yerleşenlerin civarda yoğun olarak bulunan Türkmen boylarına mensup oldukları tahmin edilebilir. Nitekim 1526’da Maraş’ın merkezi olduğu kaza sınırları içinde 23.407 hâne, 2338 mücerredden oluşan yaklaşık 125.000 kişilik nüfusu bulunan konar göçer cemaat yaşıyordu ve bunların bir kısmı muhtemelen 1563’e kadar geçen süre içinde şehre yerleşmişti. XVII. yüzyıla kadar tamamen müslüman nüfustan oluşan Maraş’ı 1619’da gören Polonyalı Simeon burada yirmi hâne kadar Ermeni’nin bulunduğunu belirtir. Bu durum Ermeniler’in şehre yavaş yavaş yerleşmeye başladıklarını gösterir. Nitekim XIX. yüzyıla ait kayıtlarda, bu yüzyılın ilk yarısında Maraş’ta mevcut otuz sekiz mahallede müslüman ve hıristiyan nüfusun karışık olarak oturduğu dikkati çeker. XVII. yüzyıl ortalarında Evliya Çelebi’ye göre 11.000 hâne dolayında nüfusu olan Maraş, güneyden kuzeye doğru uzanan 7000 adım genişliğinde büyük bir şehirdir. Kalesi ayakta olup içinde bir mahalle ve 100 kadar ev bulunmaktadır. Ayrıca burada Sultan Süleyman adına bir cami yer almaktadır. Şehirde çarşı içinde Ada Camii, Kale Camii, Boğazkesen, Begdûdiye, Hatuniye, Ese Divanı, Hatipzâde, Sâdiye, Kara Maraş adlarını taşıyan camileri sayan Evliya Çelebi toplam cami ve mescid sayısını otuz dokuz olarak verir. Bunun yanında on bir medrese, kırk mektep bulunduğunu yazar (<span class="eser">Seyahatnâme</span>, IX, 346-347). Durumunu XIX. yüzyıla kadar koruduğu anlaşılan Maraş, bu asrın başlarında şehirdeki rakip ailelerin yol açtığı mücadeleler yüzünden bazı sıkıntılar yaşadı, nüfus azaldı. Nitekim 1822’de Charles Texier şehrin nüfusunu 6000 olarak verir. Daha sonra Maraş nüfus bakımından yeniden toparlanmaya başladı. 1850-1851 yıllarına ait bir nüfus yoklama defterinde 3655 hâne (yaklaşık 15.000 kişi) tesbit edilmişti (<span class="kisaltma" data-ad="ba">BA</span>, <span class="eser">Mâliye Nezareti Cerîde Muhasebesi</span>, nr. 1375, s. 30). Bunun 2212 hânesini müslümanlar oluşturuyordu. 1890’lara doğru nüfusun 50.000 dolayına çıktığı, bunun 32.000’ini müslümanların teşkil ettiği belirtilir. 1902’de 60.292 olan nüfus 1908’de 68.023’e ulaştı. I. Dünya Savaşı başlarında şehrin nüfusu 32.700 dolayına inmişti. </p><p> XVI. yüzyılda Maraş’ta boyahâne, kirişhâne, tabakhâne, macunhâne gibi işletmeler bulunuyordu. Ayrıca ticarî faaliyetin bir göstergesi olarak bir bedestenle bir kervansaray vardı. Etrafta üretilen tarım ürünleri Maraş’ta pazarlanırdı. Özellikle pamuklu üretimi önem kazanmıştı. Dokumacılık da giderek gelişme göstermişti. İşlenmiş aba, alaca ve bez üretimi önde gelir, dericilik de önemli iş kolları arasında yer alırdı. </p><p>Şehirde Dulkadıroğulları tarafından yaptırılan eserler en dikkat çekici olanları teşkil eder. Dulkadırlı Süleyman Bey’in inşa ettirdiği, üzerinde Alâüddevle Bey’in tamir kitâbesi bulunan ulucami, Alâüddevle Bozkurt Bey’in hanımı Şemse Hatun’un yaptırdığı Hatuniye Camii ile Şâdi Bey Camii ve Boğazkesen Camii bunlar arasında sayılabilir. Nebeviye Medresesi (İmaret Medresesi), Bağdâdiye Medresesi, Taşmedrese ve Kadı Medresesi Alâüddevle Bey tarafından yaptırılmıştır. Şemse Hatun’un Hatuniye Medresesi de bunlara eklenebilir. Ayrıca “buk‘a” adıyla geçen medrese öncesi eğitim veren okullar vardı. Burada 1867’de otuz üç medrese bulunuyordu. Bu sayı 1901’de yirmi üçe düştü. Bu sıralarda sıbyan mektebi, rüşdiye ve idâdî okulları açılmıştı. </p><p> <b>İdarî Yapı.</b> Şehsuvaroğlu Ali Bey’in idamından sonra Maraş’ın idaresi Koçi b. Halîl’e verilmişti. Bu sırada Maraş Dulkadır eyaleti diye anılmakta ve Maraş, Elbistan, Bozok, Kırşehri ve Kars (Kars-ı Zülkadriye / Kars-ı Maraş) olmak üzere beş sancaktan oluşmaktaydı. Maraş ve Elbistan bir ara Rum beylerbeyiliğine, ardından Karaman beylerbeyiliğine ilhak edildi (931/1525). 932 (1526) olarak tarihlendirilen icmal defterinde Maraş, Dulkadır vilâyetine bağlı olarak görülmekle birlikte (<span class="kisaltma" data-ad="ba-td">BA, <i>TD</i></span>, nr. 998, s. 418) sancak listelerinde Karaman vilâyetine tâbi olduğu tesbit edilmektedir. Şehrin Dulkadır vilâyetine yeniden bağlanması 1530’dan sonra olmuştur (<span class="kisaltma" data-ad="ba-td">BA, <i>TD</i></span>, nr. 402, s. 414). Maraş 1850 yılında Adana eyaletine bağlandı. 1853’te müstakil bir mutasarrıflıktı. 1866’da Halep ve Adana vilâyetleri birleştirilince Maraş da Halep’e bağlandı. 1872’de yeni bir vilâyet haline getirilip Ahmed Cevdet Paşa valiliğe tayin edildi. Midhat Paşa’nın sadârete gelmesi üzerine Ahmed Cevdet Paşa valilikten alındığı gibi Maraş da yeniden Halep’e bağlandı. Dulkadır vilâyeti Maraş’tan başka Elbistan, Kars, Zamantı kazalarından oluşuyordu. Hısnımansûr 1563’te buraya dahil edildi. Pazarcık, Güvercinlik, Göynük, Teyek, Kargılık, Hâruniye, Andırın, Zeytun, Firnos ve Bayındır nahiyeleri Maraş kazasına dahildi. </p><p> Maraş livâsında üç kale (Küredi, Dumanlı ve Zamantı), dört nefis, üç cami, beş mescid, on dört zâviye, bir bezzâzistan, otuz altı dükkân, iki hamam, 507 köy, 1787 mezraa, altmış iki çiftlik, seksen iki doğan yuvası, otuz beş yaylak, doksan sekiz çeltik arkı ve 199 değirmen bulunuyordu. Bunlardan iki kale, altmış beş köy, seksen iki mezraa, dokuz çiftlik ve üç yaylak Maraş kazası dahilindeydi. </p><p> 1526’da Maraş livâsında 38.270 hâne, 4800 mücerred müslüman ve 2587 hâne, 181 mücerred gayri müslim olmak üzere toplam 51.342 vergiye kayıtlı nüfus vardı. XVI. yüzyılın ikinci yarısında Maraş’a bağlı köylerde 40.135 vergi nüfusu kaydedilmiştir. Bunların 36.088’ini müslümanlar teşkil ediyordu. Gayri müslimler 869 köyden sadece kırkında görülmekte, on bir köyde Türkler’le birlikte yaşamakta ve yoğun olarak Zeytun nahiyesinde bulunmaktaydılar. </p><p> Maraş’ın merkezi olduğu bölgede, tahrir kayıtlarında Yörükân-ı Mar‘aş ya da Türkmân-ı Dulkadıriyye (<span class="kisaltma" data-ad="tk-td">TK, <i>TD</i></span>, nr. 116) adıyla anılan Türkmen aşiretleri vardı. Bunlar, Dulkadıroğulları Beyliği’nin bakiyeleri olup Anadolu’nun en kalabalık Türkmen teşekkülü idi ve Anamaslı (Karacalı), Dokuz, Akça Koyunlu, Kızıllı, Küreciyan, Eymir, Döngeleli, Gurbetan, Avşar, Çimeli, Alcı/Elci, Çağırganlı, Gündeşli, Tecerli, Küşne taifeleri adı altında 800’den fazla cemaat halinde konar göçerlik etmekteydiler. Yaylaları Binboğa, Engizek, Nurhak, Bertiz dağlarındaydı. Bazı kollar Erciyes dağına kadar gidiyordu. Kışlak için ise Maraş’tan başka Berriye, Antakya ve Çukurova’ya kadar yayılıyorlardı. Dulkadırlı Türkmenleri’nin oldukça kalabalık bir nüfusa sahip olması bölgedeki yerleşik hayata da yansımıştır. Bölgedeki köylerin ezici çoğunluğu bunlar tarafından kurulduğu gibi Maraş dahilindeki Karamanlı, Çiçekli, Akçakoyunlu, Hacı Mehmetli, Deli Alili, Alemli mahallerinin de kurucuları oldukları anlaşılmaktadır. Dulkadırlı Türkmenleri Maraş’tan başka Kırşehir, Adana, Yozgat, Kırıkkale vilâyetlerindeki pek çok köye yerleşmiştir. XIX. yüzyılda konar göçerliği devam ettirenler ise 1866’da Fırka-i Islâhiyye tarafından yerleşik hayata geçirilmiştir. </p><p> 1850-1851’de Maraş’ın kır bölgesinde 7908’i müslüman olmak üzere 8769 hâne tesbit edilmişti. Gayri müslimler toplam nüfusun % 10’unu oluşturuyordu. Bu tarihte Maraş kazasındaki toplam nüfusun % 29’u şehirde yaşamaktaydı. 1867 yılında Maraş kazasında 6566, 1870’te 7735 hâne bulunuyordu. Bu rakam 1876’da 8938 hâneye ulaşmıştı. 1881’de Maraş nüfusunun % 71’i müslümandı. Aynı yıl Maraş kazasında yaşayan halkın % 57’si şehirde yaşamaktaydı. XX. yüzyıl başlarında Maraş vilâyetinin nüfusu 150.000 dolayında idi. </p><p> Ortaçağ’da Mar‘aşî nisbesiyle tanınan birçok âlim arasında muhaddis Ebû Ömer Abdullah b. Yezîd el-Mar‘aşî ile muhaddis Ahmed b. Muhammed el-Mar‘aşî sayılabilir (Sem‘ânî, X, 258). VIII-X. (XIV-XVI.) yüzyıllarda Mâzenderan’da hüküm süren Mar‘aşîler hânedanının kurucusu olan seyyid ailesi de aslen Maraşlıdır (<span class="kisaltma" data-ad="ei2-ing"><i>EI<sup>2</sup> </i>[İng.]</span>, VI, 510). </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p><span class="kisaltma" data-ad="ba-td">BA, <i>TD</i></span>, nr. 402, s. 414; nr. 998, s. 414-579.</p><p><span class="kisaltma" data-ad="ba">BA</span>, <span class="eser">Mâliye Nezareti Cerîde Muhasebesi</span>, nr. 1375, s. 30.</p><p><span class="kisaltma" data-ad="tk-td">TK, <i>TD</i></span>, nr. 116.</p><p><span class="eser">998 Numaralı Muhâsebe-i Vilâyet-i Diyâr-i Bekr ve Arab ve Zü’l-kâdiriyye Defteri: 937/1530</span> (nşr. Ahmet Özkılınç v.dğr.), Ankara 1999, II, 46-52.</p><p><span class="eser">Maraş Tahrir Defteri (1563)</span> (nşr. Refet Yinanç – Mesut Elibüyük), Ankara 1988, I-II.</p><p><span class="kisaltma" data-ad="belazuri-futuh-fayda">Belâzürî, <i>Fütûh </i>(Fayda)</span>, s. 270-272.</p><p><span class="kisaltma" data-ad="taberi-tarih-ebul-fazl">Taberî, <i>Târîḫ </i>(Ebü’l-Fazl)</span>, VI, 202; VII, 188, 401; VIII, 136, 324; IX, 612; X, 80, 118, 120.</p><p><span class="kisaltma" data-ad="istahri-mesalik-de-goeje">İstahrî, <i>Mesâlik </i>(de Goeje)</span>, s. 55-56, 62, 67-68.</p><p><span class="kisaltma" data-ad="ibn-havkal-suretul-arz">İbn Havkal, <i>Ṣûretü’l-arż</i></span>, s. 108-110, 120, 127, 153.</p><p><span class="kisaltma" data-ad="makdisi-ahsenut-tekasim">Makdisî, <i>Aḥsenü’t-teḳāsîm</i></span>, s. 154.</p><p><span class="kisaltma" data-ad="semani-el-ensab-barudi">Sem‘ânî, <i>el-Ensâb </i>(Bârûdî)</span>, X, 258.</p><p><span class="kisaltma" data-ad="yakut-mucemul-buldan">Yâkūt, <i>Muʿcemü’l-büldân</i></span>, V, 126.</p><p><span class="kisaltma" data-ad="ibnul-esir-el-kamil">İbnü’l-Esîr, <i>el-Kâmil</i></span>, bk. İndeks.</p><p>İbn Bîbî, <span class="eser">el-Evâmirü’l-Alâiyye: Selçukname</span> (trc. Mürsel Öztürk), Ankara 1996, I, 204-213.</p><p><span class="kisaltma" data-ad="ebul-ferec-tarih">Ebü’l-Ferec, <i>Târih</i></span>, I-II, bk. İndeks.</p><p>Şükrî Bitlisî, <span class="eser">Selim-Nâme</span> (nşr. Mustafa Argunşah), Kayseri 1997, s. 197, 198.</p><p>Âlî Mustafa Efendi, <span class="eser">Kitâbü’t-Târîh-i Künhü’l-Ahbâr</span> (nşr. Ahmet Uğur v.dğr.), Kayseri 1997, II, 909, 1119, 1185.</p><p><span class="kisaltma" data-ad="katib-celebi-cihannuma">Kâtib Çelebi, <i>Cihannümâ</i></span>, s. 598 vd.</p><p><span class="kisaltma" data-ad="evliya-celebi-seyahatname">Evliya Çelebi, <i>Seyahatnâme</i></span>, III, 170-171; IX, 345-350.</p><p><span class="eser">Halep Vilâyeti Salnâmesi</span> (1284, 1296, 1308), tür.yer.</p><p>H. von Moltke, <span class="eser">Türkiye Mektupları</span> (trc. Hayrullah Örs), Ankara 1960, s. 171 vd.</p><p><span class="kisaltma" data-ad="cuinet">Cuinet</span>, II, 235 vd.</p><p><span class="kisaltma" data-ad="cevdet-maruzat">Cevdet, <i>Ma</i>‘<i>rûzât</i></span>, s. 116 vd.</p><p>a.mlf., <span class="eser kisaltma" data-ad="cevdet-tezakir">Tezâkir</span>, III, 108, 120, 121, 122; III, 120.</p><p><span class="eser">Maârif Salnâmesi (1319)</span>, İstanbul 1319, s. 540.</p><p>Ch. Texier, <span class="eser">Küçük Asya</span> (trc. Ali Suad), İstanbul 1332, III, 109.</p><p>Besim Atalay, <span class="eser">Maraş Tarihi ve Coğrafyası</span>, İstanbul 1339.</p><p>İbrahim Kafesoğlu, <span class="eser">Sultan Melikşah Devrinde Büyük Selçuklu İmparatorluğu</span>, İstanbul 1953, s. 69, 83, 85, 152.</p><p><span class="eser">Polonyalı Simon’un Seyahatnâmesi: 1608-1619</span> (trc. H. D. Andreasyan), İstanbul 1964, s. 157.</p><p>G. le Strange, <span class="eser">The Lands of Eastern Caliphate</span>, Cambridge 1966, s. 122, 128, 133.</p><p>N. Elisséeff, <span class="eser">Nūr ad-Dīn</span>, Damas 1967, bk. İndeks.</p><p><span class="eser">A History of the Crusades</span> (ed. M. W. Baldwin), Madison 1969, I, bk. İndeks.</p><p>E. Honigmann, <span class="eser">Bizans Devletinin Doğu Sınırı</span> (trc. Fikret Işıltan), İstanbul 1970, s. 39, 40, 60, 65, 83, 142.</p><p>a.mlf. – B. Darkot, “Mar’aş”, <span class="kisaltma" data-ad="ia"><i>İA</i></span>, VII, 310-315.</p><p>E. Honigmann – S. Faroqhi, “Marʿas̲h̲”, <span class="kisaltma" data-ad="ei2-ing"><i>EI<sup>2</sup> </i>(İng.)</span>, VI, 505-510.</p><p>S. Faroqhi, <span class="eser">Osmanlı’da Kentler ve Kentliler</span> (trc. Neyyir Kalaycıoğlu), İstanbul 1993, s. 77, 189.</p><p>Işın Demirkent, <span class="eser">Urfa Haçlı Kontluğu Tarihi: 1098-1118</span>, İstanbul 1974, s. 6, 7, 70, 71.</p><p>G. Ostrogorsky, <span class="eser">Bizans Devleti Tarihi</span> (trc. Fikret Işıltan), Ankara 1981, s. 155, 263, 265, 336.</p><p>Osman Turan, <span class="eser">Selçuklular Zamanında Türkiye Tarihi</span>, İstanbul 1984, s. 40, 68-79, 148-151, 197-204, 421, 422.</p><p>a.mlf., “Kılıç Arslan II”, <span class="kisaltma" data-ad="ia"><i>İA</i></span>, VI, 691.</p><p><span class="kisaltma" data-ad="runciman-hacli-seferleri-tarihi">Runciman, <i>Haçlı Seferleri Tarihi</i></span>, I-II, bk. İndeks.</p><p>Faruk Sümer, “Dulkadir Elini Meydana Getiren Oymaklar”, <span class="eser">Kahramanmaraş I. Kurtuluş Sempozyumu Bildirileri</span>, Ankara 1987, s. 42-48.</p><p>Refet Yinanç, “XVI Yüzyılda Maraş Sancağı’nın Nüfus Yapısı”, <i>a.e.</i>, s. 19-27.</p><p>a.mlf., <span class="eser">Dulkadir Beyliği</span>, Ankara 1989.</p><p>Tuncer Baykara, <span class="eser">Anadolu’nun Tarihî Coğrafyasına Giriş I: Anadolu’nun İdarî Taksimatı</span>, Ankara 1988, s. 104, 115, 135.</p><p>İsmail Altınöz, <span class="eser">Dulkadir Beylerbeyliği’nin Teşekkülü ve Gelişmesi</span> (yüksek lisans tezi, 1995), İÜ Sosyal Bilimler Enstitüsü.</p><p>Yücel Özkaya, <span class="eser">Osmanlı İmparatorluğunda Âyânlık</span>, Ankara 1977, s. 188.</p><p>Fehameddin Başar, <span class="eser">Osmanlı Eyâlet Tevcihâtı (1717-1730)</span>, Ankara 1997, s. 88, 224, 225, 263.</p><p>Yaşar Akbıyık, <span class="eser">Millî Mücadelede Güney Cephesi Maraş</span>, Ankara 1999.</p><p>W. Heyd, <span class="eser">Yakın-Doğu Ticaret Tarihi</span> (trc. Enver Ziya Karal), Ankara 2000, s. 410, 413.</p><p>J. Calmard, “Marʿas̲h̲īs”, <span class="kisaltma" data-ad="ei2-ing"><i>EI<sup>2</sup> </i>(İng.)</span>, VI, 510.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/24/C24023188.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 192-196 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('KAHRAMANMARAŞ', 'kahramanmaras', '1', 'C24023188.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/24/C24023188.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_2-bugunku-kahramanmaras" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 2. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="KAHRAMANMARAŞ" href="https://islamansiklopedisi.org.tr/kahramanmaras?utm_source=pdf#2-bugunku-kahramanmaras">https://islamansiklopedisi.org.tr/kahramanmaras#2-bugunku-kahramanmaras</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#1" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 2. bölümü">
+													2/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next  " data-jurl="#3-mimari" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="KAHRAMANMARAŞ//2-bugunku-kahramanmaras" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/metin-tuncel"><b>METİN TUNCEL</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">KAHRAMANMARAŞ</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>METİN TUNCEL</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2001</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/kahramanmaras#2-bugunku-kahramanmaras</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext2">
+														METİN TUNCEL, "KAHRAMANMARAŞ", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kahramanmaras#2-bugunku-kahramanmaras (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>Bugünkü Kahramanmaraş.</b> I. Dünya Savaşı’ndan sonra önce İngilizler, ardından Fransızlar tarafından işgal edilen Kahramanmaraş 11-12 Şubat 1920’de halkın direnişi sonucu kurtuldu. Bu kurtuluşun anısına şehre Türkiye Büyük Millet Meclisi tarafından 5 Nisan 1925’te İstiklâl madalyası verildi. Olaylar sırasında tahribata uğrayan şehir Cumhuriyet’in başlarında gittikçe hızlanan bir gelişme gösterdi. </p><p> Cumhuriyet kurulduktan sonra yapılan ilk nüfus sayımında (1927) şehirde 25.671 kişinin bulunduğu tesbit edilmişti. I. Dünya Savaşı’ndan biraz öncesine ait kaynaklar 8225 evde 32.704 nüfus yaşadığını yazar (Atalay, s. 169). Bu karşılaştırma da Fransız işgalinin şehirdeki menfi etkisini göstermektedir. </p><p> 1950’ye kadar durumunda önemli bir değişiklik olmayan Maraş’ta 1935-1950 yıllarında nüfus 30-35.000 arasında kaldı (1935’te 29.402, 1940’ta 27.744, 1945’te 33.104, 1950’de 34.641). Bu dönemde mekân bakımından da fazla genişlemedi. Söz konusu dönemde Maraş Ahır (Maraş) dağının güney yamacındaki eğimli bir alanı kaplıyor, 1949 yılında on yedi mahallede 6231 ev bulunuyordu (<span class="eser">Belediyeler Yıllığı</span>, II, 777-780). Şehir Ahır dağının güney yamaçlarında yer alan Kanlıdere, Uzunoluk deresi ve Şekerdere vadileriyle birbirinden ayrılan Kümbet tepesi, İt tepesi, Kaletepe, Aladantepe ve Tekketepe’nin yamaçlarında yayılıyor, şehrin çekirdeğini de tarihî kalesi oluşturuyordu. En eski evler, kalenin güneybatısındaki Yusuflar ve Dumlupınar mahallelerinden kalenin bulunduğu tepenin yamaçlarına ve sırtlarına doğru çıkan dar sokaklar boyunca yer alıyordu. Bu küçük şehrin tek önemli sanayi kuruluşu 1924’te açılan çeltik fabrikası idi. Fabrika, şehrin çevresinin en önemli ziraî ürünlerinden olan çeltiği işleyip kabuğundan ayırmakla kalmıyor, Maraş çevresinin hububatını ve kırmızı biberini işleyerek un, pul ve toz biber de üretiyordu. Bu fabrikadan başka şehrin geleneksel uğraşlarından olan dokumacılık (1926’da 100 dokuma tezgâhı) evlerde ve atölyelerde yapılıyor, bakırcılık, kuyumculuk, dericilik ve saraçlık, demircilik gibi eski sanat kolları da faaliyetlerini sürdürüyordu. O dönemde henüz makineli tarım yapılmadığından Maraş demirciliği önemini koruyordu. Günümüzde bu sanat kolları eski önemlerini yitirmiş olsalar da Bakırcılar, Demirciler, Saraçlar Çarşısı gibi adlarla eski meslek gruplarının önemine ve yerine tanıklık yaparlar. Bu çarşı, kalenin güneyindeki ulucami çevresinde Köprübaşı ve Çarşıbaşı mevkileri arasında bulunmaktadır. Burada ulucaminin doğusunda ve batısında gelişen bir çarşı grubu güneye doğru genişleyerek birbirine bağlanmaktadır. İki tarihî bedesten de yine ulucami çevresinde yer alır. Eski çarşı içinde bulunan üç nefli kapalı çarşının bir nefi yol açmak için yakın tarihlerde ortadan kaldırılmıştır. Kapalı çarşının üstü bazı idareciler tarafından açılarak açık çarşı haline getirilmiş ve böylece orijinalliğini kaybetmiştir (bu hatayı bir dereceye kadar gidermek için 2000 yılı sonlarında kapalı çarşının üstü mikaya benzer bir madde ile kapatılmıştır). </p><p> Şehrin kale eteğindeki eski kesimden etekteki düzlüğe doğru gelişmesi 1950’li yıllardan sonra başladı ve hızla ilerledi. Bu gelişmede, 1948’de şehrin Köprüağzı İstasyonu’nda ana hattan ayrılan 28 kilometrelik bir şube hattı ile demiryoluna kavuşması, 1950’den sonra karayollarının daha iyi duruma getirilmesi önemli rol oynadı. Böylece şehrin nüfusu 1955’te 40.000’i aştı (42.962). 1950’den sonra hızlanan kırdan şehre göç ve 1956’da ilk imar planının yapılmasıyla şehir hızla güneye, batıya ve doğuya doğru genişledi. Şehirdeki bu gelişmeye paralel olarak eski kesimde bazı değişiklikler oldu. Özellikle 1960’tan sonra Ahır dağının güney yamaçlarından inen Uzunoluk deresi, Kanlıdere, Şeker deresinin üzeri kapatılarak şehir içi yolları yapıldı. 1955’te Maraş Pamuklu Dokuma Sanayii’nin, 1968’de Maraş Yağ Sanayii’nin devreye girmesi ticareti canlandırdı. Ceyhan nehrinden enerji sağlanmaya başlanması da sanayi faaliyetleri bakımından önemli rol oynadı. </p><p> Maraş’ın nüfusu 1960’ta 50.000’i, 1965’te 60.000’i geçti (54.447 ve 63.284). 1970’te daha hızlı bir nüfus artışı oldu ve şehrin nüfusu ilk defa 100.000’i aştı (110.761). Bir taraftan nüfus hızla artarken diğer taraftan buna bağlı olarak şehirden çıkan yolların iki yanında yeni yerleşme alanları kuruldu. Bunların içinde en dikkat çekenleri, Adana yönünden gelen yolun şehre bağlandığı Azerbaycan Bulvarı, Antep yolu ve Kayseri yolu çevreleridir. Bu yeni yerleşme alanlarından güneyde Yenişehir, İsmetpaşa, Menderes, Mehmetâkif ve Hayrullah mahalleleri şehrin ovaya doğru en fazla gelişen kesimleridir. Yenişehir, İsmetpaşa ve Mehmetâkif mahalleleri fay hattına çok yakın oldukları için iki veya üç katlı evlerden oluşur. 1970’ten sonra daha da hızlanan kırdan şehre göç hareketi diğer bazı şehirler gibi Kahramanmaraş’ta da gecekondulaşmaya sebep olmuştur. Bu tür iskân alanlarının en yoğun olduğu yerler Dumlupınar, Şeyhâdil, Duraklı, Serintepe ve Yörükselim mahalleleridir. </p><p> 1971’de yeni yağ sanayii, 1976’da Toz Biber Fabrikası (Türkiye biber ihtiyacının % 80’ini Kahramanmaraş karşılar), 1977’de iplik fabrikası, 1982’de Çiğtaş Yağ Sanayii kuruldu. Eski geleneksel sanat kolları turizme yönelik olarak şekil değiştirdi; tahta oymacılık turistik eşya yapımıyla sürerken bakırcılık paslanmaz çelik üretimine dönüştü; dericilik ve saraçlık kadın çantası, deri cüzdan yapımıyla yeniden canlandırıldı. Geleneksel kuyumculuk “Maraş burması” yapımına hız vererek yeni bir ivme kazandı (1990’lı yıllarda şehirde 250 kuyumcu atölyesi faaliyet gösteriyordu). Dondurmacılık da 1989’dan itibaren sanayileşerek yeni bir ticarî sektör haline geldi. Ekonomik hayattaki bu gelişmelerden sonra şehrin nüfusu 1997’de 303.594’e ulaştı. 1990’da yapımına başlanan havaalanı 1994 yılından sonra az sayıda seferle de olsa hizmet vermeye başladı. Ancak fazla ekonomik görülmeyen Kahramanmaraş havaalanına ulaşım 2001 yılında durduruldu. </p><p> 1949 yılında on yedi mahalleden oluşan Kahramanmaraş’ta mahalle sayısı 1986’da otuz dörde, 1990’da otuz beşe çıktı. 1995’te Fatih mahallesi Fatih ve Mimarsinan olarak, İsmetpaşa mahallesi de İsmetpaşa ve Yenişehir olmak üzere ikiye ayrıldığından mahalle sayısı otuz yedi oldu. Bunlardan sadece dördü (Divanlı, İsa Divanlı, Karamanlı, Mevlânâ) XVI. yüzyıldaki mahallelerle aynı adı taşır. </p><p> Günümüzde yoğunluğun en fazla olduğu, şehrin yönetim merkezini oluşturan Trabzon caddesinin iki tarafında çok katlı binalar yer alır (1966 yılında açılan bu caddenin ismi, 1920’de Trabzon belediye encümenin, Maraşlılar’ın kurtuluştaki üstün başarısı sebebiyle şehrin en önemli caddesine Maraş caddesi adının verilmesine bir karşılık olarak konmuştur). </p><p> Son yıllarda şehir Kayseri yolu istikametinde büyümektedir. 3 Temmuz 1992 tarihinde kurulan Kahramanmaraş Sütçü İmam Üniversitesi’nin kampüsü de bu kesimde yer almaktadır. Bu arada belediyenin şehrin doğusunda yaptığı Doğukent projesi devam etmektedir (Ağustos 2001). </p><p> Kahramanmaraş şehrinin merkez olduğu Kahramanmaraş ili Adana, Kayseri, Sivas, Malatya, Adıyaman ve Gaziantep illeriyle çevrilmiştir. Merkez ilçe dışında Afşin, Andırın, Çağlayancerit, Ekinözü, Elbistan, Göksun, Nurhak, Pazarcık ve Türkoğlu olmak üzere dokuz ilçeye ayrılmıştır. 14.346 km<sup>2</sup> genişliğindeki Kahramanmaraş ilinin 1997 sayımına göre nüfusu 1.008.107, nüfus yoğunluğu ise 70 idi. </p><p> Diyanet İşleri Başkanlığı’na ait 2000 yılı istatistiklerine göre Kahramanmaraş’ta il ve ilçe merkezlerinde 282, kasabalarda 202 ve köylerde 648 olmak üzere toplam 1132 cami bulunmaktadır. İl merkezindeki cami sayısı 155’tir. </p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p> Besim Atalay, <span class="eser">Maraş Tarihi ve Coğrafyası</span>, İstanbul 1973 (İstanbul 1923).</p><p><span class="eser">Belediyeler Yıllığı</span>, Ankara 1949, II, 777-780.</p><p>Mesut Dedeoğlu, <span class="eser">Dünden Bugüne Kahramanmaraş</span>, Ankara 1996.</p><p>a.mlf., <span class="eser">Kahramanmaraş Ekonomisi</span>, Ankara 1996.</p><p>Serdar Yakar, <span class="eser">Memleketime Dair: Tarihi, Kültürü, Sosyal Yapısı ve Ekonomisi ile Kahramanmaraş</span>, Kahramanmaraş 1997.</p><p><span class="eser">Değişimin Simgelendiği Kent Kahramanmaraş</span> (haz. Şaziye Karlıklı), İstanbul, ts.</p><p>Emrullah Kanadıkırık, “Maraş’ta Nüfus Hareketleri”, <span class="eser">Coğrafya Araştırmaları Dergisi</span>, sy. 3-4, Ankara 1971, s. 381-405.</p><p>a.mlf., “Maraş’ta Konut Tipleri”, <i>a.e.</i>, sy. 5-6 (1972), s. 253-281.</p><p>Besim Darkot, “Maraş”, <span class="kisaltma" data-ad="ia"><i>İA</i></span>, VII, 310-312.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/24/C24023189.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 196-197 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('KAHRAMANMARAŞ', 'kahramanmaras', '2-bugunku-kahramanmaras', 'C24023189.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/24/C24023189.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+													<div class="article-part" id="_3-mimari" style="position:relative">
+								<div class="print-meta" style="display: none;">
+									3 bölümden oluşan maddenin 3. bölümüdür.									Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için:
+									<a title="KAHRAMANMARAŞ" href="https://islamansiklopedisi.org.tr/kahramanmaras?utm_source=pdf#3-mimari">https://islamansiklopedisi.org.tr/kahramanmaras#3-mimari</a>
+								</div>
+
+									<div class="hdrprt1">
+                                        										<img class="partblt" src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png" style="position: absolute; bottom: -9px; left: 10px;" />
+																				<div class="hdrprt1arrows">
+																						<div style="float:left; height:37px">
+																								<div class="tipso tbottom article-nav-prev  " data-jurl="#2-bugunku-kahramanmaras" data-width="160" data-tipso="Önceki bölüme git" data-jfurl="1" style="float:left;  height:33px; padding-left:12px; padding-right:12px; padding-top:4px;">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpy.png">
+												</div>
+
+												<div class="tipso tbottom bolumsayi partnumbers" data-width="200" data-tipso="3 bölümden oluşan maddenin 3. bölümü">
+													3/3												</div>
+
+																								<div  class="partdownarrow tipso tbottom article-nav-next article-nav-passive " data-jurl="#" data-width="160" data-tipso="Sonraki bölüme git" data-jfurl="3-mimari">
+													<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tmpa.png">
+												</div>
+											</div>
+																						<div style="float:right; height:37px">
+												<div class="partatif atif-btn psv tipso tbottom" style="margin-left: 0 !important;" data-tipso="Bu bölümün atıf bilgilerini görün ve kopyalayın.">
+													<span style="color: #967A7A;"><i class="fas fa-quote-right"></i></span>
+												</div>
+												<div class="partemail tipso tbottom tipso_style"  data-tipso="Bu madde/bölüm hakkında bildirimde bulunun.">
+																										<span class="feedback-btn" data-issue="KAHRAMANMARAŞ//3-mimari" style="color: #967A7A;font-size: 1.35rem;">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </span>
+												</div>
+                                                <div class="partprint print-btn tipso tbottom tipso_style" data-tipso="Bu maddeyi/bölümü yazdırın." >
+                                                    <span class="icon-printer2 printPart" style=" font-size: 1.4rem;"></span>
+                                                </div>
+											</div>
+										</div>
+
+                                        										<div style="padding: 9px 10px; line-height:19px !important; text-align:left !important;">
+											<span class="part-authors" style="margin-right: 15px">
+												<span style="font-size:0.85rem; color:#666">Müellif: </span>
+												<span style="font-size:0.85rem;">
+												<a href="/muellif/hamza-gundogdu"><b>HAMZA GÜNDOĞDU</b></a>												</span>
+											</span>
+                                            										</div>
+																			</div>
+
+									<div class="atif-kutusu">
+													<div class="ak-title">KAHRAMANMARAŞ</div>
+													<div class="ak-list">
+                                                        														<div class="ak-muellif"><b>Müellif: </b>
+															<span class='val'>HAMZA GÜNDOĞDU</span>														</div>
+																												<div class="ak-site"><b>Web Sitesi: </b><span class="val">TDV İslâm Ansiklopedisi</span></div>
+														<div class="ak-site"><b>Yayımcı: </b><span class="val">TDV İslâm Araştırmaları Merkezi</span></div>
+                                                        <div class="ak-ilkyayin"><b>Baskı Tarihi: </b><span class="val">2001</span></div>                                                                                                                                                                                                                                														<div class="ak-ilkyayin"><b>Erişim Tarihi: </b><span class="val">06.10.2026</span></div>
+														<div class="ak-adres"><b>Web Adresi:</b><br/><span class="val">
+															https://islamansiklopedisi.org.tr/kahramanmaras#3-mimari</span>
+														</div>
+													</div>
+
+													<div class="ak-copytext" id="ak-copytext3">
+														HAMZA GÜNDOĞDU, "KAHRAMANMARAŞ", TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kahramanmaras#3-mimari (06.10.2026).													</div>
+													<div class="ak-copy"><span>Kopyalama metni</span></div>
+												</div>
+
+
+								<div class="m-content" style="text-align:justify; position:relative; font-size:; line-height:; margin-top:15px; overflow-wrap: break-word;/*Long Word/URL Overflow*/">
+									<p><b>MİMARİ.</b> Arkeolojik verilerle kısmen aydınlatılmaya çalışılan şehrin ilk dönemleri hakkında fazla bilgi yoktur. Hareketli geçen tarihî seyir içerisinde VII. yüzyıldan XIV. yüzyıla kadar bu çevrede kuvvetli bir mimari geleneğin kurulamadığı, mevcutların da sık sık el değiştirme, istilâ, talan ve yakıp yıkmalarla yok olduğu anlaşılmaktadır. Daha çok Dulkadıroğulları Beyliği ile Osmanlı döneminde yaptırıldığı bilinen eserlerin de çeşitli tarihlerde vuku bulan depremlerde yıkıldığı ve özelliklerini yitirdiği görülmektedir. </p><p> <b>Kale.</b> Kahramanmaraş’ın tam ortasında doğu-batı ve kuzeyden ortalama 50 m., güneyden 100 m. yükseklikte, içinde tabii kayalıkların da bulunduğu yığma bir tepe üzerine kurulmuştur. Kalenin kuruluş tarihi hakkında kesin bilgi yoktur. Ancak burada ortaya çıkan, Evliya Çelebi’nin <span class="eser">Seyahatnâme</span>’sinde sayılarını dört olarak belirttiği aslan heykellerinden günümüze ulaşmış birinin üzerinde bulunan kabartma yazılardan anlaşıldığına göre milâttan önce XI. yüzyıldan itibaren kale ve çevresi önemli bir iskâna sahne olmuştur. Öte yandan yakın yıllarda ortaya çıkan verilere dayanarak yapılan değerlendirmelerde Filistin, Kuzey Suriye, içinde Maraş ve Elbistan’ın da yer aldığı Malatya, Erzurum (Karaz) ve Kuzey Kafkasya’ya uzanan bir hat üzerinde milâttan önce 3000 yılına kadar inen çanak, çömlek ve seramik buluntular arasında ortak kültür özellikleri tesbit edilmiştir. Hititler’den sonra çeşitli İlkçağ devletlerinin hâkimiyet alanı içerisinde kalmış olan kalede VII. yüzyıldan itibaren İslâm devletlerinin etkileri görülmeye başlar. XI. yüzyıldan sonra Selçuklu ve diğer Anadolu Türkmen beylikleriyle Dulkadıroğulları Beyliği’nin birtakım tamirler yaparak kaleyi tahkim ettikleri belirtilmektedir. 922 (1516) yılından sonra çevrenin tamamen Osmanlılar’a geçmesiyle kalede daha ciddi boyutlarda onarımlar yapılmış, mahalleler kurulmuş ve bir mescid inşa edilmiştir. Kurtuluş Savaşı sırasında kaleye Fransız bayrağının çekilmesi üzerine infiale kapılan Maraş halkı harekete geçerek şehri düşmandan temizlemiş ve 21 Şubat 1920 tarihinde kalede yeniden Türk bayrağı dalgalanmıştır. 150 × 75 m. ölçülerinde, köşeleri yuvarlatılmış bir dikdörtgeni andıran planı ve 1,60 m. kalınlıktaki sur duvarlarıyla iki ana girişten ibaret kalenin Kanûnî Sultan Süleyman zamanında onarıldığını gösteren kitâbe güneydoğu köşesine yakın yerdeki ana giriş üzerinde bulunmaktadır. Kalenin güneydoğu köşesinde kare, batı duvarında ve kuzeybatı köşesinde ise dikdörtgen planlı olmak üzere üç adet burcu vardır. Ayrıca kuzeye bakan ikinci bir kapısının olduğu da anlaşılmaktadır. </p><p> <b>Cami ve Mescidler.</b> Kahramanmaraş’ta değişik plan tiplerine sahip birçok cami ve mescid orijinal özelliklerini yitirerek fakat minareleri sağlam şekilde günümüze ulaşmıştır. Yakılan, yıkılan, tahrip edilen cami ve mescidlerin yenilenmesi sırasında eskiye ait kitâbeleri ya caminin herhangi bir yerine monte edilmiş ya da minare kaidelerine yerleştirilerek koruma altına alınmış, bu ise yapıların geçirdiği safhaları tanıma konusunda faydalı olmuştur. <b>Ulucami.</b> Kahramanmaraş’taki camilerin en eskilerinden biri olup girişinde mukarnas kavsaranın altındaki örgülü nesih kitâbeye göre 907’de (1501-1502) Dulkadırlı Süleyman Bey’in oğlu Alâüddevle Bozkurt tarafından yenilenmiştir. İlk yapının ise 846-858 (1442-1454) yılları arasında Dulkadırlı Süleyman Bey tarafından inşa ettirildiği anlaşılmaktadır (ayrıca bk. <a href="https://islamansiklopedisi.org.tr/ulucami#36-maras-ulucamii" target="_blank">ULUCAMİ [Maraş Ulucamii]</a>). <b>Haznedarlı Camii.</b> Şehrin güneydoğusunda Kara Maraş denilen yerde Duraklı mahallesinde Dulkadırlı Alâüddevle’nin hazinedarı tarafından XV. yüzyılın sonlarında yaptırılmıştır. 1144’te (1732) onarım geçirdiğini gösteren kitâbe günümüzde kayıptır. 1971 yılından sonra birkaç metre yükseklikteki duvarları üzerine betonarme olarak yenilenen cami, eski plan özelliğine uygun biçimde, ortada iki pâyenin taşıdığı düz tavanlı ve önünde camekânla kaplı, üç gözlü son cemaat yeriyle dikkati çeker. Basit, kübik bir kaide ile başlayan orijinal minare, köşeleri pahlı bir pabuçluğa ve silindirik gövdeye sahip olup kısa şerefe altlığından sonra kısa ve ince petek kısmıyla sonuçlanmaktadır. <b>Hatuniye</b> (Şems Hatun) <b>Camii.</b> Önceleri içeride bulunan kitâbesi daha sonra dışarıya çıkarılarak avlu duvarına monte edilmiş olduğundan bugün tamamıyla okunamaz durumdadır. Ârifî Paşa’ya göre 915 (1509) yılında Şehid Rüstem Bey’in kızı Şems Hatun tarafından inşa ettirilen caminin altında Şems Hatun’a ait bir de türbe bulunmaktadır. Enine dikdörtgen planlı yapı sonradan yenilendiğinden içeride orijinal özellikleri pek kalmamıştır. Ulucamide olduğu gibi sağ ön kısımda yapıdan bağımsız olarak yükselen minare Maraş’taki bazı minarelerle ortak özellikler gösterir. <b>Taşmedrese Mescidi.</b> Medrese, mescid, türbeden ibaret bu küçük külliyeyi Alâüddevle Bey yaptırmış olup mescidin pencere çerçevelerindeki bazı geometrik geçmeler güneyli özellikler olarak dikkati çeker. Mescidin ortası onikigen kasnaklı bir kubbe ile örtülüdür. <b>İklime Hatun</b> (Üdürgücü) <b>Mescidi.</b> Türbe-mescid kompleksinden oluşan yapı, günümüzde tamamen silinmiş olan kitâbesine göre Ârifî Paşa’nın okuyuşu ile Şâhruh Bey’in kızı İklime Hatun tarafından 954 (1547) yılında yaptırılmıştır. Batıya bakan çarpık biçimde, iki gözden ibaret son cemaat yeriyle güneydoğudaki serbest düzenlemeli cami ve mescidlerin son cemaat yerlerini hatırlatan özelliği ve tek kubbeli iç mekân örtüsüyle dikkati çeker. Türbe ile bir kompleks oluşturan yapıda minareye yer verilmemiştir. </p><p> Kahramanmaraş’ta Dulkadırlılar’la doğrudan ilgisi olan bu camilerden başka Osmanlı dönemine tarihlenen, ancak orijinal haliyle Dulkadırlılar’la ilgisi bulunabilecek cami ve mescidler de vardır. Osmanlı dönemine ait bazı örnekler ise şöylece sıralanabilir: <b>Îsâ Divanlı Camii.</b> Şehrin doğusunda Îsâ Divanlı mahallesinde II. Selim tarafından 978 (1570) yılında Hacı Osman adlı bir duvarcı ustasına yaptırılmış olup Evliya Çelebi’nin <span class="eser">Seyahatnâme</span>’sinde Ese Divane Camii olarak geçer. Cami, 1135 (1723) ve 1238 (1823) yıllarına ait ve kitâbelerle belgelenen tamirlerden başka 1961’de son defa onarılmıştır. Eski yapıdan sadece minarenin ayakta kaldığı Îsâ Divanlı Camii taş duvarlar üzerine düz damlı iken günümüzde, enine dikdörtgen mekânın içinde doğu ve batıda birer pâyeye oturan ortası betonarme kubbe ile örtülü olarak yenilenmiştir. <b>Şekerli Camii.</b> Divanlı mahallesinde XVI. yüzyıl sonlarına ait bir yapıdır, halk arasında Yukarı Oba Camii adıyla tanınır. Son cemaat yerine yerleştirilmiş iki kitâbeden biri 600 (1204), diğeri 1107 (1696) tarihlerini taşır ki bunlardan birincisi bir başka yapıya ait olmalıdır. Enine dikdörtgen planlı cami mihrap önü bölümü dışa çıkıntılı olarak inşa edilmiştir. Ortada üç yanda tonoz örtülerle bu caminin plan bakımından en yakın benzeri Manisa’daki Muradiye’dir (993/1585). Caminin planından başka dikkate değer bir yanı da burmalı yivlerle süslü bir gövdeye sahip minaresidir. <b>Şeyh Camii.</b> Şekerli Camii’nin plan özelliklerini büyük ölçüde tekrarlayan yapı XVI. yüzyıl sonuna ait olup minare dışında orijinalitesi bozulmuş, minare kaidesindeki kitâbeye göre 1212’de (1797) onarım görmüştür. Kısa, kübik kaide, yuvarlak gövde, fazla yayvan olmayan şerefe altlığı, kısa petek ve küt şekilde sonuçlanan külâhı ile bu minarenin en yakın benzeri Haznedarlı Camii minaresidir. </p><p> Kahramanmaraş’ta XVI ve XVII. yüzyıllara tarihlenen camilerden Dumlupınar mahallesinde, Yavuz Sultan Selim’in Mısır’dan getirttiği Müftü Ali Efendi tarafından yaptırıldığı belirtilen ve Evliya Çelebi’nin <span class="eser">Seyahatnâme</span>’sinde Sâdiye Camii olarak zikredilen Şâzî Bey Camii, tonozlu bir alt kat üstünde 13,20 × 13,20 m. boyutlarındaki bir iç mekâna sahip ahşap piramidal çatı ile örtülü Saraçhane Camii, Ekmekçi mahallesinde bulunan hücresinde korunan kitâbesine göre 1110 (1699) tarihli Nakıp Camii, minareleri dışında iç mekânları ve duvar düzenleri tamamen değişmiş pek dikkat çekmeyen örneklerdir. </p><p> XVIII. yüzyılda inşa edilmiş Maraş camileri ise halk arasında yanlışlıkla Küçük Çavuşlu olarak bilinen ve 1114’te (1702) Osman Ağa adlı bir kişi tarafından yaptırılan Restebâiye Camii, uzun yıllar sadece ön cephesi ve 3 m. kadar cephenin ilerisindeki minaresiyle kalan 1120 (1708) tarihli Arasa Camii (1898’de ciddi bir onarım geçirmiştir), Turan mahallesinde 1128 (1716) tarihli Nuh Camii, kitâbelerine göre yapımına 1721’de başlanan, araya giren uzun bir zamandan sonra 1766’da tamamlanan Çukuroba Camii, Evliya Çelebi’nin <span class="eser">Seyahatnâme</span>’sinde aynı adla kayıtlı olması dolayısıyla XVII. yüzyılın ortalarına tarihlenen, ancak 1727, 1798, 1801 yıllarında onarılan, eni boyunun iki katı uzunlukta, ortası kubbe, yanları tonozla örtülü Boğazkesen Camii minare özellikleri bakımından Hatuniye Camii ile benzeşir. Fevzi Paşa mahallesinde 1740’ta toprak örtülü eski caminin yerine yaptırılmış ve kitâbesi mihrap üzerine yerleştirilerek korunmuş olan Keşif Efendi Camii, yine Evliya Çelebi’nin <span class="eser">Seyahatnâme</span>’sinde Begdûdiye adıyla kayıtlı, 1794, 1840 yıllarında onarım geçirmiş, ancak orijinal minaresiyle dikkat çeken Begdûtiye (Çınaraltı) Camii ilk sırayı alır. </p><p> Şehrin doğusundaki yüksek kısımda adını verdiği mahallede yer alan Divanlı Camii, geçmişte elden geçirilmiş mimarisi ve Kahramanmaraş’ta iki şerefeli minareye sahip tek örnek oluşuyla dikkati çeker. Okunamayan bir kitâbeden başka 1795 ve 1901 yıllarında onarıldığı anlaşılan bu caminin ilk yapımı konusunda yeterli bilgi yoktur. İçten içe 16 × 13 m. ölçülerinde bir alan üzerine oturan düz ahşap tavanı içten dört haçvari pâye ile desteklenmekte olup dıştan da kırma çatı ile örtülüdür. 1802-1805 yıllarında Maraş valiliği görevinde bulunmuş, şehrin köklü ailelerinden Beyazıtoğulları’ndan Kalender Paşa tarafından yaptırılmış olan Beyazıtlı Camii, XVIII. yüzyıl sonu ile XIX. yüzyıl başlarına tarihlenen Sarayaltı Camii, 1805 yılına tarihlenen ve Nacar Ali oğullarından Mehmed Ali Usta tarafından inşa ettirilen Acemli (Şehid Evliya) Camii ile 1912 tarihli Salihiye Camii, Kahramanmaraş’ta ayakta olan ve özellikle minareleri bakımından geçmişle bağlantıları bulunan camilerdir. XVII. yüzyıl ortalarında Maraş’ı ziyaret eden Evliya Çelebi şehirde kırk dokuz cami ve mescid bulunduğunu belirtmektedir. XIX. yüzyıl sonlarına ait <span class="eser">Halep Vilâyeti Salnâmesi</span>’nde cami ve mescid sayısı kırk altı olarak verilmiştir. Besim Atalay’a göre 1917’ye doğru merkezde doksan iki cami bulunmaktaydı. Günümüzde Kahramanmaraş il merkezinde düzgün sarı kesme taş kaplamalı, betonarme karkas malzeme ile oldukça büyük cami yapımı sürmektedir. Kapı, pencere, kemer ve çerçevelerle minare, kubbe ve geçiş elemanlarında yer yer yozlaşmış süs unsurları kullanılsa da bugünkü camilerde orijinal taş süslemeciliği dikkat çekici boyuttadır. </p><p> <b>Medreseler.</b> Medreselerin Kahramanmaraş’ta pek eski örnekleri bulunmamaktadır. Dikkati çeken bazıları ise şunlardır: <b>Kadı</b> (Begtunlu) <b>Medresesi.</b> Kahramanmaraş’ın en eski medreselerinden biri olup günümüze ulaşmamıştır. Bu medreseyi Dulkadır beylerinden Nasreddin Mehmed’in yaptırdığı bilinmektedir. Daha sonra Alâüddevle Bozkurt tarafından onarılarak yanına bir de mescid ilâve edilmiştir. <b>Taşmedrese.</b> Kalenin hemen güneyinde Ulucami yakınında piramidal külâhlı bir türbe, bir mescid ve açık avlunun etrafında dizilmiş medrese hücrelerinden ibaret küçük bir külliye görünümündedir. Medresenin üzerinde yapım tarihini verecek kitâbe yoktur. Besim Atalay’a göre türbede yatan Alâüddevle’nin oğlu Mehmed’in kabir taşında bulunan 928 (1521) tarihi esas alındığında medresenin XVI. yüzyılın başlarında yaptırılmış olması gerekmektedir. Bugün ortadan kalkmış medreselerden ikisi, yine Alâüddevle tarafından yaptırılmış Begdûdiye (Bektutiye) Medresesi ile İmaret Medresesi’dir. İmaret Medresesi’nin Hatuniye Camii ile aynı tarihte (915/1509) inşa edilmiş olması gerekir. Dulkadırlı Beyi Alâüddevle zamanında yaptırılan Neveviyye Medresesi’nin yanındaki Neveviyye İmareti zamanla medreseyle birlikte ortadan kalkmıştır. </p><p> <b>Hanlar.</b> Yarı göçebe bir hayatı benimseyen Dulkadırlı Türkmenleri için şehirde bazı hanların yaptırılmış olduğu muhakkaktır. Ulucami yakınlarında Alâüddevle’nin inşa ettirdiği handan günümüze pek bir şey ulaşmamıştır. Kapalı çarşı içerisinde XVI. yüzyıl başlarında yanındaki bedesten ve kapalı çarşı ile birlikte yaptırılmış olan Taş Han, 15 × 15 m. ölçülerindeki kare bir avlunun çevresine dizilmiş odalardan oluşan iki katlı bir yapıdır. Kapalı çarşıdan beşik tonozla örtülü bir koridordan geçilerek ulaşılan Taş Han Osmanlılar’ın İstanbul, Tokat, Merzifon gibi yerlerde inşa ettikleri ticarî merkez niteliğindeki şehir hanlarıyla benzerlik gösterir. Ayrıca belediye çarşısı üzerinde ve Taş Han yakınlarında XIV. yüzyıldan kaldığı anlaşılan Hışır Hanı günümüze ulaşan şehir hanlarından bir diğer örnektir. </p><p> <b>Kapalı çarşı.</b> Osmanlı dönemi şehir ticaretinin merkezi sayılan kapalı çarşılardan biri de Kahramanmaraş’ta bulunmaktadır. İlk yapımı XVI. yüzyıl başlarına kadar inen çarşı, bedestenle bakırcılar çarşısı arasında iki bölüm halinde düzenlenmiştir. Hanın karşılıklı dükkânlardan oluşan manifaturacılar kısmı üstte aydınlık pencerelerin yer aldığı beşik tonoz örtüsüyle tamamen, ayakkabıcılar bölümü ise kısmen ayaktadır. Osmanlı çarşılarının özelliği olan dua kubbesiyle dikkat çeken kapalı çarşılardan biri de bu çarşıdır. 23 × 23 m. boyutlarındaki bedesten kapalı çarşının kuzeyinde olup çarşıya bitişiktir. Ortada dört pâyeye oturan, dokuz bölümlü olarak inşa edilmiş bedestenin üzeri tuğla örgülü tonozlarla örtülüdür. Kare ve kübik bir görüntü veren bedestene dört duvar ortasında açılmış dört kapıdan girilmektedir (ayrıca bk. <a href="https://islamansiklopedisi.org.tr/bedesten" target="_blank">BEDESTEN</a>). Kapalı çarşının kuzeydoğusunda ve Taş Han’ın kuzeyinde yer alan bir tekke hayli tahribata uğramıştır. Yapının çarşı kompleksini oluşturan diğer yapılarla tarihî bağlarının olduğu ve onlara yakın tarihlerde inşa edildiği tahmin edilir. </p><p> <b>Hamamlar.</b> Su bakımından oldukça zengin olan Kahramanmaraş’ta pek çok hamam inşa edilmiştir. Ayrıca şehrin sıcak bir bölgede yer alması dolayısıyla duş kabini biçiminde oldukça küçük ölçülerde inşa edilmiş, “girçık hamamı” olarak nitelendirilen küçük banyo mekânları da bölgede eskiden beri yaygındır. XVI. yüzyıla tarihlendirilen kalenin güneyindeki Çukur Hamam, Evliya Çelebi’nin <span class="eser">Seyahatnâme</span>’sinde de yer almış olup klasik Türk hamamlarının mimari özelliklerini taşıyan bir düzenlemeye sahiptir. Kalenin kuzeyinde kaleye çıkan yolun başında bulunan Kale (Acar) Hamamı, Kanûnî Sultan Süleyman’ın kaleyi tamir ettirdiği yıllarda yapılmış ve sonradan yenilenmiş olmalıdır. Kurtuluş mahallesindeki Paşa Hamamı (XVII. yüzyıl), Çarşıbaşı semtinde Demirciler Çarşısı’nda bulunan Tüfekçi Hamamı, özel mülkiyetinde bulunduran şahıs tarafından 1975’te yıktırılan Uzunoluk Hamamı (XVIII. yüzyıl), Kayabaşı semtindeki Çiçekli Hamam (XIX. yüzyıl) ve Divanlı Camii yakınlarında bulunan Divanlı Hamamı (1900), Kahramanmaraş’ın bu konuda hayli zengin olduğunu gösteren örneklerdir. </p><p> <b>Türbeler.</b> Kahramanmaraş’ta mimari açıdan fazla dikkat çekici özellikte türbe yapılmamıştır. Taşmedrese’nin doğusunda yer alan kübik kaide üzerinde piramidal çatılı Taşmedrese Türbesi mimari ve şekil bakımından Anadolu’daki örnekler arasında tektir. Güneyden girilen ve Zengî mimarisinin özelliklerinden sayılan geçmelerle süslü basit bir kapıya sahip olan türbenin içi kubbe ile örtülü olup pencere açıklığına yer verilmediği için loştur. İçerisinde özellikleri büyük ölçüde bozulmuş mezarlardan birinin Alâüddevle’nin oğlu Mehmed’e ait olması dolayısıyla bunun 926 (1520) yılı dolaylarında yaptırıldığı tahmin edilir. Kapalı çarşı, Taş Han, bedesten ve tekke kompleksinin bulunduğu yerde, tekkenin güneybatı köşesindeki bölümde yan yana üç mezardan ibaret kısım Tekke Türbesi olarak tanınır. Fazla bir mimari özelliği bulunmayan yapının üzeri düz çatı ile örtülü olup bakımsız haldedir. Öte yandan Hatuniye Camii’nin altındaki Şems Hatun’a ait türbe (915/1509) ve Üdürgücü (İklime Hatun) Camii’nin güneyinde çok sayıda mezarın bulunduğu türbe Kahramanmaraş’taki diğer örneklerdir. Ancak bunların da mimari açıdan kayda değer bir özellikleri yoktur. </p><p> <b>Çeşmeler.</b> Kahramanmaraş’ta mahallelere serpiştirilmiş çeşmeler bulunmaktadır. 1902 yılında yaptırılan Küçük Çavuşlu (Restebâiye) Camii’nin yanındaki çeşme Maraş mutasarrıfı Galib Paşa’ya aittir. Öte yandan Kayabaşı’na çıkan cadde üzerindeki 1906 tarihli, Mehmed Ağazâde Sâlih Ağa tarafından yaptırılan Kanlıdere Çeşmesi, Şeyhâdil mahallesinde itfaiye müdürlüğünün karşısındaki 1915 tarihli Şeyhâdil Çeşmesi, 1920 tarihli Uzunoluk Çeşmesi şehrin önemli su tesislerindendir. Gazipaşa mahallesinde Kanûnî Sultan Süleyman döneminde ya da Alâüddevle zamanında yaptırıldığı tahmin edilen bir su kemeri günümüzde hayli harap bir durumdadır. Üzerinde yer aldığı vadiye dikine ve geniş tek kemerle oturtulmuştur. Başlangıç ve bitiş noktalarının arası 125 metreyi bulan kemer, düzgün olmayan yonu taşı ve moloztaştan Horasan harcı kullanılarak yapılmıştır. Kemer, Pınarbaşı’ndan gelen suyu günümüzde mevcut olmayan Yürükselim mahallesindeki depoya aktarıyordu. </p><p> <b>Evler.</b> XIX. yüzyıldan kaldığı bilinen ve geleneksel Türk mesken mimarisinin özelliklerini taşıyan evlerin birçoğu yüksek avlu duvarıyla çevrili alanın ortasında, düzgün kesme taştan yapılmış ve daha az sayıda pencere ile biçimlenmiş bodrumlar üzerinde yer alır. Bodrumlar koyu gölgeleriyle güneş sıcaklığının giderildiği, aynı zamanda ahır, helâ, havuz, merdiven boşluğu, kiler, mutfak, depo gibi birimlerin yer aldığı fonksiyonel bir düzenleme gösterir. Üstte harem, selâmlık ve odalardan oluşan bir plana uygun nitelikte, genellikle hafif malzemenin kullanıldığı ince duvarlı, zeminleri taş ya da ahşap döşemeli ev tipleri yaygındır. Evlerin sokağa ya da avluya bakan yüzlerinde güneşin etkisine açık, kışlık gıda ve baharatın kurutulduğu, akşam serinliğinde yemeklerin yendiği iki veya üç yanı açık eyvansı düzenlemelerle zenginleştirilmiş balkon ve sofalar hâkim unsurlardır. Ayrıca balkon ve cumbalara geniş ölçüde yer verilmiş, üzerleri dik meyilli ahşap çatılarla örtülü pek çok ev bulunmaktadır. Bunlardan Aktar Halil Efendi Evi, Cemil Çiftaslan Evi en tipik örneklerdir. XIX. yüzyıl sonlarındaki Ermeni ayaklanması, ardından I. Dünya Savaşı ve Kurtuluş Savaşı sırasındaki Fransız ve Ermeni tahribatıyla yangınlar ve depremlere rağmen geleneksel Maraş evleri varlıklarını hâlâ devam ettirmektedir.</p><bibl><br/><span class='bibliyografya'>BİBLİYOGRAFYA</span><p><span class="kisaltma" data-ad="evliya-celebi-seyahatname">Evliya Çelebi, <i>Seyahatnâme</i></span>, IX, 345-350.</p><p>Besim Atalay, <span class="eser">Maraş Tarihi ve Coğrafyası</span>, İstanbul 1930.</p><p>Nazmi Sevgen, <span class="eser">Anadolu Kaleleri</span>, Ankara 1959, s. 255-258.</p><p><span class="eser">Maraş İl Yıllığı (1968)</span>, Ankara 1968.</p><p>Celâl Çoğalan – Halit Kurtaran, <span class="eser">Her Yönü ile Maraş</span>, İstanbul 1969.</p><p>Celal Çoğalan, <span class="eser">Her Yönüyle Kahramanmaraş</span>, İstanbul 1974.</p><p>Oktay Aslanapa, <span class="eser">Türk Sanatı</span>, Ankara 1990, s. 358, 359, 361, 363.</p><p><span class="eser">Türkiye Rehberi</span> (haz. Hüsamettin Toros), İstanbul 1971, s. 1389-1394.</p><p>Hamza Gündoğdu, <span class="eser">Dulkadırlı Beyliği Mimarisi</span>, Ankara 1986, s. 32-47, 58-61, 75-76.</p><p><span class="eser">Değişimin Simgelendiği Kent Kahramanmaraş</span> (haz. Şaziye Karlıklı), İstanbul, ts., s. 73-97.</p><p>Ârifî, “Maraş ve Elbistan’da Zülkadir (Dulkadir) Oğulları Hükümeti”, <span class="kisaltma" data-ad="toem"><i>TOEM</i></span>, V/30 (1330), s. 358-377; VI/31 (1331), s. 419-431; VI/32 (1331), s. 509-512; VI/33 (1331), s. 535-552; VI/34 (1331), s. 623-629; VI/35 (1331), s. 692-697; VI/36 (1331), s. 767-768; VII/38 (1332), s. 89-96.</p><p>Tahsin Özgüç – Mahmut Akok, “Afşin Yakınındaki Eshâb-ı Kehf Külliyesi”, <span class="eser">AÜ İlâhiyat Fakültesi Yıllık Araştırmalar Dergisi</span>, II, Ankara 1958, s. 77-92.</p><p>M. Zafer Bayburtluoğlu, “Kahraman Maraş’ta Bir Grup Dulkadiroğlu Yapısı”, <span class="kisaltma" data-ad="vd"><i>VD</i></span>, sy. 10 (1973), s. 234-250.</p><p>J. H. Mordtmann – [Mükrimin H. Yınanç], “Dulkadırlılar”, <span class="kisaltma" data-ad="ia"><i>İA</i></span>, III, 654-662.</p><p>Şinasi Altundağ, “Dulkadırlıoğulları”, <span class="kisaltma" data-ad="ta"><i>TA</i></span>, XIV, 114-116.</p><p>Yılmaz Öztuna, “Maraş”, <i>a.e.</i>, XXIII, 285-289.</p><p>M. Ekrem Üzümeri v.dğr., “Maraş”, <span class="eser">Türkiye Ansiklopedisi</span>, Ankara 1976, IV, 98-102.</p><p>“Kahramanmaraş”, <span class="eser">Yeni Rehber Ansiklopedisi</span>, İstanbul 1993, XI, 29-38.</p></bibl>									<div class="article-ps" style="position: relative; padding-left: 40px; margin-top:10px;">
+										<div style="position: absolute; left: 0px; top: 7px;"><a target="_blank" rel="nofollow" class="dosyaindir" href="https://cdn2.islamansiklopedisi.org.tr/dosya/24/C24023190.pdf"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/pdf-download-icon.png" style="height: 40px;"></a></div>										<i>
+										Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 197-201 numaralı sayfalarda yer almıştır. <a target="_blank" rel="nofollow" class="dosyaindir" onclick="pdfStat('KAHRAMANMARAŞ', 'kahramanmaras', '3-mimari', 'C24023190.pdf');" href="https://cdn2.islamansiklopedisi.org.tr/dosya/24/C24023190.pdf">Matbu nüshayı pdf dosyası olarak indirmek için tıklayınız.</a>										</i>
+									</div>
+																	</div>
+							</div>
+									</div>
+					</div>
+    </div>
+
+	<div class="pure-u-1 pure-u-md-9-24 sticky-sidebar" style="padding-left:50px;">
+		
+                    <div class="right-gallery hide-on-print" id="rg">
+                <a img-order="0" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-2.jpg">
+                    <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Manzara fotoğrafı/kahramanmaras-2.jpg"
+                    title="Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş"  alt="Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş" />
+                </a>
+                <div class="right-info" style="text-align:center;">Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş</div>
+            </div>
+        
+		<!-- dosya link -->
+		<style>
+			.ltfolcont{text-align:center; border: 1px dashed #e5774280; border-radius: 3px; padding: 13px 20px; font-size:0.9rem; margin-bottom: 30px; overflow: hidden; line-height:1.25rem;color:#777;}
+			.ltfolcont span a{font-weight:bold; font-size:1.2rem; color:#e57742; line-height:1.2rem}
+			.ltfolcont span a:hover{text-decoration:underline !important;}
+			.ltfol:hover > div.ltfolcont{background:#f9f1f1;}
+		</style>
+		
+
+
+		
+
+
+        <div class="rg-container">
+            <h2 class="visible-on-print">Görseller</h2>
+            <div>
+                                        <div class="right-gallery visible-on-print">
+                            <a target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-2.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Manzara fotoğrafı/kahramanmaras-2.jpg"
+                                title="Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş"  alt="Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş</div>
+                        </div>
+                                            <div class="right-gallery" id="rg1">
+                            <a img-order="1" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-1.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Manzara fotoğrafı/kahramanmaras-1.jpg"
+                                title="Kahramanmaraş’ın eski dokusunu gösteren doğu kesiminden bir görünüş"  alt="Kahramanmaraş’ın eski dokusunu gösteren doğu kesiminden bir görünüş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Kahramanmaraş’ın eski dokusunu gösteren doğu kesiminden bir görünüş</div>
+                        </div>
+                                            <div class="right-gallery" id="rg2">
+                            <a img-order="2" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/kahramanmaras-3.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/kahramanmaras-3.jpg"
+                                title="Sarayaltı Camii – Kahramanmaraş"  alt="Sarayaltı Camii – Kahramanmaraş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Sarayaltı Camii – Kahramanmaraş</div>
+                        </div>
+                                            <div class="right-gallery" id="rg3">
+                            <a img-order="3" data-popup-open="popup-1" target="_blank" href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/kahramanmaras-4.jpg">
+                                <img class="lazy" data-original="https://cdn.islamansiklopedisi.org.tr/gorsel/m/Bina fotoğrafı/kahramanmaras-4.jpg"
+                                title="Kale (Acar) Hamamı – Kahramanmaraş"  alt="Kale (Acar) Hamamı – Kahramanmaraş" />
+                            </a>
+                            <div class="right-info" style="text-align:center;">Kale (Acar) Hamamı – Kahramanmaraş</div>
+                        </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="print-part-temp"></div>
+<div id="print-part-temp-top"></div>
+
+<div class="modal" id="issue-modal">
+    <div class="modal-body">
+        <div class="modal-box">
+            <div class="close-button">
+                <span class="icon-close"></span>
+            </div>
+            <div class="modal-top">
+                <span>TDV İslâm Ansiklopedisi Madde Bildirim Formu</span>
+            </div>
+            <div class="modal-container">
+                <div style="width:540px; margin:0 auto;">
+                    <div style="color:#777; font-size:17px; padding-bottom:10px; font-weight:bold;"></div>
+                    <div class="error-box" style="display: none;"></div>
+                    <div class="success-box" style="display: none;"></div>
+
+                    <div style="font-size:17px; color:#ef2f2f; padding: 0 0 15px 0; text-align:left; line-height:21px;">
+                        Bu form aracılığıyla, sadece <strong id="issue-modal-madde">OSMANLILAR//8-mali-yapi</strong> maddesi ile alakalı mesajların iletilmesi rica olunur. TDV İslâm Ansiklopedisi'nin elektronik sürümü hakkındaki diğer hususların ise <a href="/iletisim-formu">İletişim Formu</a> aracılığıyla iletilmesi rica olunur.
+                    </div>
+
+                    <form id="modal-issue-form" method="post">
+                        <div>
+                            <input name="bildirim-madde-adi" placeholder="Madde adı" value="" style="visibility:hidden; display:none;">
+                            <input type="text" id="ref-url" name="ref-url" style="visibility:hidden; display:none;" value="https://islamansiklopedisi.org.tr/kahramanmaras">
+                            <input type="text" id="issue-g-token" name="g-token" hidden/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bildirim-bildirim">Bildiriminiz <span style="color: red">*</span></label>
+                            <textarea class="form-control" name="bildirim-bildirim" style="max-height: 25vh; min-height: 100px;" placeholder="Ayrıntılı olarak bildiriminizi giriniz." id="bildirim-bildirim" required></textarea>
+                        </div>
+
+                        <div style="font-weight:bold; font-size:15px; color:#666; padding:5px 0 10px 0;">İletişim bilgileriniz</div>
+                        <div class="form-group">
+                            <label for="bildirim-ad-soyad">Adınız ve Soyadınız <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="bildirim-ad-soyad" placeholder="Örn: Ahmet Sönmezgül" id="bildirim-ad-soyad" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-eposta">E-Posta <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="bildirim-eposta" placeholder="isim@ornek.com" id="bildirim-eposta" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bildirim-telefon">Telefon Numarası</label>
+                            <input type="tel" class="form-control" name="bildirim-telefon" placeholder="05XXXXXXXX" id="bildirim-telefon" value="">
+                        </div>
+
+                        <p style="font-size: 12px;">Değişiklikleriniz taslak olarak tarayıcınıza kayıt edilir. Kapatıp daha sonra devam edebilirsiniz.</p>
+                        <div style="text-align: center">
+                            <input id="modal-issue-submit" type="submit" class="tdv-btn tdv-btn-primary" style="min-width: 200px" value="Gönder" />
+                        </div>
+                    </form>
+                    <div class="modal-loading">
+                        <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/loading.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fotorama" class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-auto="false" style="display:none">
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-2.jpg" data-caption="<b>KAHRAMANMARAŞ (1/4)</b> Kahramanmaraş Ulucamii ve Taşmedrese ile arka planda şehrin modern kesiminden bir görünüş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-2.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Manzara fotoğrafı/kahramanmaras-2.jpg" >
+			</a>
+		
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-1.jpg" data-caption="<b>KAHRAMANMARAŞ (2/4)</b> Kahramanmaraş’ın eski dokusunu gösteren doğu kesiminden bir görünüş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Manzara fotoğrafı/kahramanmaras-1.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Manzara fotoğrafı/kahramanmaras-1.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/kahramanmaras-3.jpg" data-caption="<b>KAHRAMANMARAŞ (3/4)</b> Sarayaltı Camii – Kahramanmaraş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/kahramanmaras-3.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/kahramanmaras-3.jpg">
+			</a>
+					<a href="https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/kahramanmaras-4.jpg" data-caption="<b>KAHRAMANMARAŞ (4/4)</b> Kale (Acar) Hamamı – Kahramanmaraş <span style='font-style: italic;'><a href='https://cdn.islamansiklopedisi.org.tr/gorsel/Bina fotoğrafı/kahramanmaras-4.jpg' target='blank'>Görseli Büyüt</a></span>">
+				<img srcs="https://cdn.islamansiklopedisi.org.tr/gorsel/thumbnail/Bina fotoğrafı/kahramanmaras-4.jpg">
+			</a>
+		</div>
+
+<div id="header-article-html" style="display:none">
+	<div id="header-article-html-code">
+		<style>
+		.ults{margin:0px; padding:0px; list-style:none;}
+		.ults li{float:left;}
+		.icon-list-ul{cursor:pointer;}
+		.icon-list-ul:hover{color:#777 !important;}
+		</style>
+		<ul class="ults">
+			<li>
+				<a href="/">
+					<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/logo_2.svg" style="height:39px !important;">
+				</a>
+			</li>
+						<li style="    padding: 24px 7px 0 15px; position:relative; line-height:0px;" class="list-ll">
+				<span class="icon-list-ul topmenurev" style="color:#999; font-size:17px"></span>
+				<div class="top-prev-container bsk" style=" display:none; left:-85px; position: absolute; width: 580px; background: #fff; border: 1px solid #ddd; box-shadow: 0 1px 2px rgba(0,0,0,0.2); top:65px; padding-bottom:5px;">
+						<div class="preview-content">
+						<img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/controls/hover-menu-arrow.png" style="position:absolute; top:-8px; left:100px; width:15px; height:8px !important;" />
+						<ul class="preview-ul" style="padding: 10px 12px 10px 14px; font-size:15px; height:220px; ">
+						<li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#1"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >1/3</span><span><span>Müellif: </span><b style="color:#888">TUFAN GÜNDÜZ</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Ahır dağının güney kısmı eteklerinde, şehirle aynı adı taşıyan ovanın kuzey kesiminde meyilli bir alanda yer alır. Önemli bir yol güzergâhı üzerinde b...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#2-bugunku-kahramanmaras"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >2/3</span><span><span>Müellif: </span><b style="color:#888">METİN TUNCEL</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">Bugünkü Kahramanmaraş. I. Dünya Savaşı’ndan sonra önce İngilizler, ardından Fransızlar tarafından işgal edilen Kahramanmaraş 11-12 Şubat 1920’de halkı...</div></li><li style="font-size:15px; padding-bottom:10px;" class="preview-jump" data-jurl="#3-mimari"><div style="position:relative; border-bottom:1px solid #ddd; padding: 3px 20px 3px 10px; border-radius: 3px; margin-bottom:3px; font-size:15px; "><span style="margin-right: 10px; font-size:15px; " >3/3</span><span><span>Müellif: </span><b style="color:#888">HAMZA GÜNDOĞDU</b><span style="position:absolute; right:10px; margin-left:10px; color:rgb(0, 147, 193)">Bölüme Git<span style="margin-left:5px;font-size:12px; color:rgb(0, 147, 193)" class="icon-chevron-circle-right"></span></span></div><div style="color:#777; line-height:20px; font-size:15px;">MİMARİ. Arkeolojik verilerle kısmen aydınlatılmaya çalışılan şehrin ilk dönemleri hakkında fazla bilgi yoktur. Hareketli geçen tarihî seyir içerisinde...</div></li>						</ul>
+					</div>
+				</div>
+			</li>
+			
+			<li style="padding-left:0px"><span style="font-weight:bold; color:#888; font-size:18px;">KAHRAMANMARAŞ</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="copyright-text" class="centered" style="margin: 0px auto;
+    padding: 30px 20px 0px 20px;
+    color: #888;
+    font-size: 14px; line-height:23px;">
+	<b>Her hakkı mahfuzdur.</b> <i>TDV İslâm Ansiklopedisi’</i>nin her türlü telif hakkı TDV İslâm Araştırmaları Merkezi’ne ait olup 5846 sayılı Kanun hükümlerine tâbidir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarındaki yazıların bütün olarak elektronik ya da matbu bir ortamda yayımlanması yasaktır; ancak kaynak gösterilmesi (<i>TDV İslâm Ansiklopedisi</i> internet sitesinde yer aldığının ifade edilmesi) ve doğrudan aktif bağlantı verilmesi şartıyla yazılardan kısa bölümler iktibas edilebilir. <i>TDV İslâm Ansiklopedisi</i> internet sayfalarında yer alan resim, fotoğraf, grafik, çizim, cetvel vs. her türlü görüntü malzemesinin başka bir ortamda yayımlanması kesinlikle yasaktır.
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS"></script>
+<script src="https://cdn2.islamansiklopedisi.org.tr/assets/w/js/sweetalert.min.js"></script>
+
+<style>
+#fcilt div{padding:3px 5px 3px 5px;}
+.flink{line-height:25px;}
+.flink:hover{text-decoration:underline !important;}
+.footer-box-alert:hover{text-decoration:underline;}
+.footer-container {
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.footer-content {
+    background: #484848;
+    padding-bottom: 50px;
+}
+
+.footer-top-border {
+    background: #e2e2e2;
+    color: #666;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    color: color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-top-border a div{color:color:#777;}	
+.motto-link:hover span{text-decoration:underline}
+.footer-bottom-link a:hover{text-decoration:underline !important; color:#333}
+.footer-logo-container img{opacity:0.9}
+.footer-logo-container img:hover{opacity:1}
+.footer-copy{opacity:0.9}
+.footer-copy:hover{opacity:1}
+
+.bbtns a > div{padding:11px 20px 11px 20px ; font-size:0.93rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;position:relative; opacity:0.9}
+.bbtns a > div:hover{opacity:1}
+.randombtn{font-size:0.95rem; font-weight:bold; border-radius:3px; margin-left:15px; margin-right:15px;
+background:#2FB556; color: #FFF; border:1px solid #f4a76b70; padding:10px 20px; text-align:center; 
+text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;opacity:0.85;
+position:relative
+}
+.randombtn img{position:absolute; height:24px; margin-top:-2px;}
+.randombtn span{margin-left:40px;}
+.randombtn:hover{opacity:1}
+.btnarr{position:absolute; top:0; right:0; bottom:0; background:rgba(29, 48, 55, 0.6); border-top-right-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 12px 10px 12px;font-size: 1.2rem;color: #fff !important;	}
+.btnar{background: #4CAFD2;color: #fff;text-shadow: 1px 0px 0px #407588;letter-spacing: 0.04rem;}
+
+.as-tabs{overflow:hidden; border-bottom: 1px solid #fbcbb2; border-top: 1px solid #fbcbb2; padding-left:15px; padding-right:15px; }
+.as-tabs div.as span{font-size:1rem;}
+.as-tabs div.as{padding: 9px 10px; float:left; text-align:center}
+.as-tabs div.as.act{border-bottom: 2px solid #D97A4A;}
+.as-tabs .as .txt{color:#676767; font-weight:bold; font-size:0.97rem}
+.as-tabs .as.act .txt{}
+.as-tabs .as .txt span{color:#676767;}
+.as-tabs .as.act .txt span{color:#D97A4A}
+.as-tabs .as.psv{cursor:pointer;}
+.as-tabs span.txtcount{font-size:0.75rem !important;}
+
+div.mr{}
+
+	
+</style>
+
+<div class="footer-container">
+	<div class="footer-content">
+        <div class="footer-top-border" style="border-top:2px solid #dedddd; background-color:#f8f8f8; padding-top:30px;">
+
+            <div class="centered" style="font-size:1.2rem;  color:#666; position:relative; text-align:center; background:#f7f7f7; padding:20px 0px; border-radius:3px; border:1px dashed #ddd;">
+                Otuz üç yıllık birikim, yeni yüz: TDV İslâm Ansiklopedisi İnternet sitesi test yayınında.
+                <a href="/hakkinda.php" style="color:#bd6338" class="motto-link">
+                    <span style="color:#0093b0"> Daha fazla bilgi</span>
+                </a>
+            </div>
+
+            <div class="centered bbtns" style=" padding:25px 20px 5px 20px">
+                <div class="pure-g">
+                    <div class="pure-u-1-3"><a href="/dosyalar"><div class="btnar">DOSYALAR<div class="btnarr">»</div></div></a></div>
+                    <div class="pure-u-1-3"><a href="/sergi-arsivi"><div  class="btnar">SERGİ ARŞİVİ<div class="btnarr">»</div></div></a></div>
+                    <!--				<div class="pure-u-1-4"><a href="/gecen-ayin-ilk-20-si"><div  class="btnar">GEÇEN AYIN İLK 20'Sİ<div class="btnarr">»</div></div></a></div>-->
+                    <div class="pure-u-1-3"><div class="randombtn"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png" /><span>RASTGELE</span></div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="centered" style="margin-top: 50px;">
+            <div class="centered_container footer-logo-container" style="text-align:center;">
+                <a href="http://www.diyanet.gov.tr" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/diyanet-isleri-baskanligi-logo.png?t=1" style="border:none; height:140px;" />
+                </a>
+
+                <a href="http://www.isam.org.tr/" class="flink" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/isam-logo.png" style="border:none; height:140px; margin: 0 80px;" />
+                </a>
+
+                <a href="http://tdv.org/" target="_blank">
+                    <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/tdv-logo.png" style="border:none; height:140px;" />
+                </a>
+            </div>
+            <div class="centered_container footer-bottom-link" style="text-align:center; padding-top:40px; color:#fff">
+                <b>Her hakkı mahfuzdur.</b> 2016-2026 TDV İslâm Araştırmaları Merkezi  <span>|</span>
+                <a href="/kullanim_sartlari.php" class="footer-copy" style="color:#fff">Kullanım Şartları</a> <span>|</span>
+                <a href="/iletisim-formu" class="footer-copy" style="color:#fff">İletişim Formu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- random madde -->
+<style>
+.rnd-left-img{text-align:center; padding-top:10px;}
+.rnd-left-img img{max-width:450px; max-height:300px; border-radius: 4px;}
+.rnd-title{font-size: 1.5rem;font-weight: bold; color: #777; text-align:center}
+.rnd-tanitim{color: #e16328; padding-top:2px; text-align:center; padding-left:20px; padding-right:20px;}
+.boxcontainer{overflow: hidden; margin: 20px; border: 1px dashed #c5c5c5; padding: 15px; border-radius: 5px; min-height:190px;}
+.rnd-goto {padding-top:15px;}
+.rnd-goto a{color:#897898;}
+.lightboxrernd{    width: 280px;
+    background: #977898;
+    padding: 7px 25px 8px 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    opacity: 0.9;
+	cursor:pointer;
+}
+.randombtn{cursor:pointer;}
+.rnd-author{padding-top:10px; font-size:0.9rem; color:#777}
+.rnd-author span{font-weight: bold; color: #999;}
+.rnd-kunye{color: #777; font-size: 0.95rem; text-align:center}
+.random-modal {
+    background-color: #0000004f;
+    text-align: center;
+    z-index: 10000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+.random-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 660px;
+    max-height: 90%;
+    width: 660px;
+    margin: 0 auto;
+    text-align:left;
+    border:1px solid #ccc;
+    border-top:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+    z-index:1000001;
+    padding-bottom: 20px;
+}
+.icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+.random-modal-box {
+    overflow: hidden;
+    margin: 20px;
+    border: 1px dashed #c5c5c5;
+    padding: 15px;
+    border-radius: 5px;
+}
+.random-modal-random {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #2FB556;
+    color: #FFF;
+    border: 1px solid #f4a76b70;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 1px 0 0 #407588;
+    letter-spacing: 0.04rem;
+    opacity: 0.85;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.random-modal-random:hover {
+    opacity: .95;
+}
+.random-modal-random:active {
+    opacity: 1;
+}
+.random-modal-random img {
+    position: absolute;
+    height: 24px;
+    margin-top: -2px;
+}
+.random-modal-random span {
+    margin-left: 40px;
+}
+.random-modal-bottom {
+    text-align: center;
+}
+.random-modal-box:hover {
+    background-color: #f6f6f6;
+}
+.random-modal-box:active {
+    background-color: #ebebeb;
+}
+</style>
+
+<div class="random-modal">
+    <div class="random-modal-container">
+        <span class="icon-close"></span>
+        <div style="text-align:center;padding: 22px 25px 15px 25px; border-bottom: 1px solid #ddd; user-select: none;"><img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_popup_baslik.png"  /></div>
+        <div style="padding: 15px 25px; color:#777; background: #e6e5e5;text-align: center; user-select: none;"><i>TDV İslâm Ansiklopedisi</i>'nden rastgele bir madde okumak ister misiniz?</div>
+        <div class="lightboxrndarticle"></div>
+        <div class="random-modal-bottom">
+            <div class="random-modal-random">
+                <img src="https://cdn2.islamansiklopedisi.org.tr/assets/w/images/icons/rastgele_beyaz.png">
+                <span>BAŞKA BİR MADDE GÖSTER</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- random madde -->
+
+
+
+
+
+
+<style>
+.newsalertwrapper{position:fixed; left:0; right:0; bottom:0; top:0; background:rgba(0, 0, 0, 0.55); z-index:10000; display:none; }
+.newsalertbox{
+	position:relative;
+	margin: 100px auto;
+    width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;}
+	
+.newsalertbox .hd1{
+	font-weight: bold;
+    font-size: 1.45rem;
+    color: #267893;
+    padding-bottom: 30px;
+}
+.newsalertbox .hd2{
+	font-size: 1.15rem;
+    color: #666;
+	padding-bottom:20px;	
+}
+.newsalertbox .hd3{
+	text-decoration: underline !important;
+    font-size: 1.15rem;
+	color:#0093b0;
+}
+.newsalertbox .hd3 .linkto{color:#0093b0; cursor:pointer;}
+
+.newsalertbox .hd4{padding-top: 30px;
+    font-size: 1.05rem;
+    color: #777;
+	}	
+.alertclose{
+	position:absolute;
+	right:20px;
+	top:18px;
+	font-size: 1.7rem;
+    color: #666;
+	cursor:pointer;
+}	
+</style>
+
+<!-- ntf203.htm notificaiton html-->	
+	
+
+		
+<script>
+
+	
+$('body').on("mousedown touchend", function(e){ 
+    var resultbox = $("#auto-suggest-box");
+    var inputbox = $("#searchBox");
+	var keyboard = $(".dia-keyboard");
+	
+    if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && 
+		!inputbox.is(e.target) && 
+		!keyboard.is(e.target)  && keyboard.has(e.target).length === 0 ){
+    	resultbox .hide();
+		/*
+			$('#searchBox').css("background-color", "#f4f1f1");
+			$('#searchBox').css("border", "none"); 
+	*/
+		}
+
+    var container = $(".hover-menu");
+    var button = $(".hover-menu-button");
+    if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+    	container.hide();
+		//$('.hover-menu-button').css("background","#F7F4F4");
+		}		
+});
+
+
+$(document).ready(function() {
+    $('.randombtn, .random-modal-random, .rndleftbtn').click(function(event){
+        $('.random-modal').show();
+        changeRndArticle();
+
+        jQuery("body").bind("scroll touchmove mousewheel DOMMouseScroll",function(e){
+            e.preventDefault();
+            return false;
+        });
+
+    });
+
+    $('.lightboxrernd').click(function(event){
+		changeRndArticle();
+	});	
+	
+	$('.random-modal .icon-close').click(function(event){
+		$('.random-modal').hide();
+		jQuery("body").unbind('scroll touchmove mousewheel DOMMouseScroll');
+
+	});
+	
+	function changeRndArticle(){
+		$.ajax({
+			url: "/ajax_search_auto.php?c=g&mdl=rnd&q=rnd", 
+				cache : false,
+				success: function(result){ 
+					if(result.trim() == "")
+					{
+						alert("not");
+					}else{
+						$('.lightboxrndarticle').html(result);
+					}
+				}
+			});
+	}
+	
+	/*
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".lightboxcontent");
+		var inputbox = $(".lightboxcontent .icon-close");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+				$('.lightboxbg').hide();
+				$('.lightboxcontent').hide();
+				$('body').css("overflow","visible");
+		}
+	});
+	*/
+	/* random madde */
+
+	
+	
+	
+		/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});	
+	
+	
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500 ) {
+			$("#scrollTop").show();
+		}
+		else{
+			$("#scrollTop").hide();
+		}
+	});
+	
+	$('#scrollTop').click(function(){
+		$("html, body").animate({ 
+			scrollTop: "0px"
+		}); 
+		
+		
+		var url_string = location.href;
+		var clean_url = url_string.split('#', 1);
+
+		
+		history.pushState({}, document.title, clean_url );
+	});	
+
+/* search autocomplete events */
+var is_search_page = 0;
+var sr_type = 'aa';
+
+if(is_search_page == 0)
+{
+		
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+    clearTimeout (timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+
+// pass url search type parameter to autosuggest box
+var strt = 'm';
+if(strt == "y")
+	sr_type = "y";
+else if(strt == "m")
+	sr_type = "aa";
+else if(strt == "b")
+	sr_type = "b";
+else if(strt == "t")
+    sr_type = "t";
+else
+	sr_type = "aa";
+
+
+$('#searchBox').keyup(function(e) {	
+    // ignor arrow actions..
+	
+	var keycode = (e.keyCode || e.which);
+    if(keycode == 37 || keycode == 38 || keycode == 39 || keycode == 40) {
+        return;
+    }
+	
+	getType(1000);
+});
+
+// bind copy past
+$('#searchBox').bind('paste', null, function(e) {
+	getType(1000);
+});
+
+// mouse out and in open results
+$('#searchBox').click(function(e) {	
+	var typed = $.trim($('#searchBox').val());	
+	if(typed.length > 1){
+		if(!$('#auto-suggest-box').is(":visible")){
+			if($('#auto-suggest-content').html() != ""){			
+				$('#auto-suggest-box').show();
+			}
+			else{
+				getType(0);
+			}				
+		}
+	}
+		
+});
+
+
+function getType(times)
+{
+    delay(function(){
+		var typed = $.trim($('#searchBox').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box").hide();	
+			$("#auto-suggest-loading").hide();
+			
+		}
+    }, times );
+}
+
+function autocomplete(typed)
+{
+	$("#auto-suggest-content").html('');
+	$("#auto-suggest-box").show();
+	$("#auto-suggest-loading").show();
+
+	urlcd = encodeURI("/ajax_search_auto.php?sp=" + sr_type + "&=ac&q=" + typed);
+	$.ajax({
+		url: urlcd,
+		success: function(result) {
+                        gtag('config', 'UA-160819951-1', {
+                'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                'page_path': '/arama/?q=' + typed + '&p=autocomplete-' + sr_type,
+            });
+            gtag('event', 'view_search_results', {
+                'search_term': typed,
+                'q_p': sr_type
+            });
+            			if(result.trim() == "")
+			{
+				$("#auto-suggest-box").hide();	
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html('Sonuç bulunmadı.');
+
+                                gtag('config', 'UA-160819951-1', {
+                    'page_title' : 'Arama - TDV İslam Ansiklopedisi',
+                    'page_path': '/arama/?q=' + typed + '&p=autocomplete-no-result-' + sr_type,
+                });
+                gtag('event', 'view_search_results', {
+                    'search_term': typed,
+                    'q_p': 'autocomplete-no-result-' + sr_type
+                });
+                			}else{   		
+				$("#auto-suggest-loading").hide();
+				$("#auto-suggest-content").html(result);
+				// getTxtNumbers(typed);
+				
+				// break span
+				if ($("#auto-suggest-box").width() < 400 ) 
+				{
+						$("#auto-suggest-box span.txt span").css("display","block");
+						$("#auto-suggest-box span.txt span.txtcount").css("display","inline");	
+				}
+				
+				// $(".header_search").find(".srchp").attr( "href", encodeURI( $(".header_search").find(".srchp").attr("href") ) );
+				$(".header_search").find(".as-t a").attr( "href", encodeURI( $(".header_search").find(".as-t a").attr("href") ) );
+				
+
+			
+			}
+		}
+	});
+	
+	
+}
+
+function getTxtNumbers(typed){
+	$.ajax({
+		url: "/ajax_search_auto.php?mdl=txtdelay&q=" + typed, 
+		cache : false,
+		success: function(result){ 
+			if(parseInt(result) > 0){
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').parent().parent().removeClass('n0').addClass('n' + result.trim());
+				$('.txtcount').removeClass('txtcount');			
+			}
+			else{
+				$('.txtcount').children('img').remove();
+				$('.txtcount').html(result);
+				$('.txtcount').removeClass('txtcount');	
+			}			
+		}
+	});
+}
+
+$("#auto-suggest-content").on("click", ".as-m.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'aa';
+	strt = 'm';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-y.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'y';
+	strt = 'y';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-b.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+	$(this).parent().removeClass("psv").addClass("act");
+	sr_type = 'b';
+	strt = 'b';
+	getType(10);
+});
+
+$("#auto-suggest-content").on("click", ".as-t.psv", function(){
+    $('.as-tabs .as').removeClass("act").addClass("psv");
+    $(this).parent().removeClass("psv").addClass("act");
+    sr_type = 't';
+    strt = 't';
+    getType(10);
+});
+}
+
+
+
+/* top menu hover */
+$('.hover-menu-button').click(function(){
+	$(this).parent().find(".hover-menu").toggle();
+	//$(this).css("background","#ECE6E6");
+});
+
+
+
+
+
+
+
+/* search boxes silinecek 
+$('.searchBoxyazar').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/muellif-arama/' + search;}
+});
+
+$('.searchBoxBibl').keypress(function(e){
+	if(e.which == 13){//Enter key pressed
+        	var search = $(this).val();
+        	window.location = '/bibliyografya_kisaltmalari/' + search;}
+});
+*/
+
+
+$('.searchBox').keypress(function(e){
+	if(e.which == 13){
+		if($('#searc-complete-result a.selected').length == 0){
+			var search = encodeURI($(this).val());
+			window.location = '/arama/?q=' + search + '&p=' + strt;
+		}else{
+			var target = $('#searc-complete-result a.selected').attr('href');
+			window.location = target;
+		}
+	}
+});
+
+$('#icon-search-submit').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?q=' + search;
+});
+
+$('#icon-search-submit-txt').click(function(){
+	var search = encodeURI($("#searchBox").val());
+    window.location = '/arama/?p=t&q=' + search;
+});
+
+$("#searchBox").keydown(function(e) {
+	
+  var searchbox = $(this);
+  switch (e.which) {
+    case 40:
+      e.preventDefault(); // prevent moving the cursor     
+	  if($('#searc-complete-result .alist a.selected').length == 0){
+		$('#searc-complete-result .alist a:first').addClass('selected');
+	  }else{
+		$('#searc-complete-result .alist a:not(:last-child).selected').removeClass('selected').next().addClass('selected');
+	  }
+      break;
+    case 38:
+      e.preventDefault(); // prevent moving the cursor
+	  if($('#searc-complete-result a:first.selected').length == 1){
+		$('#searc-complete-result .selected').removeClass('selected');
+	  }
+      $('#searc-complete-result a:not(:first-child).selected').removeClass('selected').prev().addClass('selected');
+      break;
+  }
+});
+
+
+		var isCapital = false;
+		
+		$('.dia-keyboard').click(function(event){
+			jQuery('#searchBox').focus();
+		});
+		
+		$('.close-keyboard').click(function(event){
+			$('.dia-keyboard').hide();
+			$('.open-keyboard').css("opacity","0.3");
+		});	
+
+		$('.open-keyboard').click(function(event){
+			if( $('.dia-keyboard').is(':visible') ){
+				$('.dia-keyboard').hide();
+				$('.open-keyboard').css("opacity","0.3");
+			}
+			else{
+				$('.dia-keyboard').show();
+				$('.open-keyboard').css("opacity","0.8");
+			}
+		});	
+		
+			
+		function addCurrentLetter(letter)
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var character = letter; 
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart) + character + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart+1, $("#searchBox")[0].selectionEnd = selStart+1;				
+		}
+
+		function deleteCurrentLetter()
+		{
+			var selStart = $("#searchBox")[0].selectionStart;
+			var selEnd = $("#searchBox")[0].selectionEnd;
+			var textAreaStr = $('#searchBox').val();
+			var value = textAreaStr.substring(0, selStart-1) + textAreaStr.substring(selEnd);
+			$("#searchBox").val(value).focus();
+			$("#searchBox")[0].selectionStart = selStart-1, $("#searchBox")[0].selectionEnd = selStart-1;				
+		}		
+		
+		$('.shift').click(function(event){
+			
+			$('.dia-keyboard ul li').each(function(){
+				if(isCapital){
+					$(this).text($(this).attr("hk"));
+				}
+				else{
+					$(this).text($(this).attr("hb"));
+				}
+			});
+						
+			if(isCapital){
+				isCapital = false;
+			}else{
+				isCapital = true;
+			}
+		});
+		
+		$('.dia-keyboard ul li:not(.noletter)').click(function(event){
+			addCurrentLetter($(this).text());
+			$('#searchBox').keyup();
+		});
+		
+		$('.dia-keyboard ul li.space').click(function(event){
+			addCurrentLetter(' ');
+			$('#searchBox').keyup();
+		});
+		$('.dia-keyboard ul li.delete').click(function(event){
+			if($("#searchBox").val().length > 0){
+				deleteCurrentLetter();
+				$('#searchBox').keyup();
+			}
+		});	
+		
+		
+		
+
+
+
+/* volume close-open events */
+$('#albhabet_button').click(function(){
+	$('.cz').hide(); $('.az').toggle();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#cilt_button').click(function(){
+	$('.az').hide(); $('.cz').toggle();
+	$('#albhabet_button').removeClass('arrow-selected');
+	$('#cilt_button').toggleClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_az').click(function(){
+	$('.az').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+$('#close_alphabet_cz').click(function(){
+	$('.cz').hide();
+	$('#cilt_button').removeClass('arrow-selected');
+	$('#albhabet_button').removeClass('arrow-selected');
+	letter_volumes_setter();
+});
+
+function letter_volumes_setter()
+{
+	if( $('.az').is(":visible")){
+		set_public_cookie("lt=1&vl=0");
+	}else if($('.cz').is(":visible")){
+		set_public_cookie("lt=0&vl=1");
+	}else{
+		set_public_cookie("lt=0&vl=0");
+	}
+}
+
+
+/* newsbar */
+
+if(!$('#newsbar_container').is(":visible")){
+	$('#newsbar_open').show();
+} 
+
+$('#newsbar_close').click(function(){
+	$('#newsbar_container').hide();
+	$('#newsbar_open').show();
+	set_public_cookie("nb=0");
+		
+});
+
+$('#newsbar_open').click(function(){
+	$('#newsbar_container').show();
+	$('#newsbar_open').hide();
+	set_public_cookie("nb=1");
+});
+
+});
+
+
+function set_public_cookie(parameter){
+	$.ajax({
+	url: "/cookie_setter.php?" + parameter,
+	cache : false,
+	success: function(result){ 
+	}
+	});
+}
+	
+	
+</script>
+	
+	
+</body>
+</html>
+<script>
+
+var fotoramaLoaded = 0;
+
+/* article image loading */
+$(function() {
+    $("img.lazy").lazyload();
+});
+
+/* article info selected text */
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
+
+function url_redirect(options){
+    var $form = $("<form />");
+	$form.attr("action",options.url);
+	$form.attr("method",options.method);
+
+	for (var data in options.data)
+		$form.append('<input type="hidden" name="'+data+'" value="'+options.data[data]+'" />');
+
+	$("body").append($form);
+	$form.submit();
+}
+
+function requestCaptcha() {
+    grecaptcha.execute('6LenMjsaAAAAAP4m20J-NZT5_qtR9G8xQte1u-QS', {action: 'submit'})
+        .then(function (token) {
+            $('#issue-g-token').val(token);
+        });
+}
+
+function lockModal(lock = true) {
+    let notification = $('textarea[name=bildirim-bildirim]');
+    let name = $('input[name=bildirim-ad-soyad]');
+    let email = $('input[name=bildirim-eposta]');
+    let phone = $('input[name=bildirim-telefon]');
+    let code = $('input[name=bildirim-kodu]');
+    let submitBtn = $('#modal-issue-submit');
+    let loader = $('.modal-loading');
+
+    if (lock) {
+        notification.prop('disabled', true);
+        name.prop('disabled', true);
+        email.prop('disabled', true);
+        phone.prop('disabled', true);
+        code.prop('disabled', true);
+        submitBtn.hide();
+        loader.show();
+    } else {
+        notification.prop('disabled', false);
+        name.prop('disabled', false);
+        email.prop('disabled', false);
+        phone.prop('disabled', false);
+        code.prop('disabled', false);
+        submitBtn.show();
+        loader.hide();
+    }
+}
+
+function resizeFotorama(fotorama) {
+    let activeFrame = fotorama.activeFrame.$stageFrame;
+    let activeImage = activeFrame.find('img.fotorama__img');
+    let activeCaption = activeFrame.find('div.fotorama__caption');
+    let hesap = activeFrame.height() - activeCaption.height();
+    let cssTag = $('#fotorama_max');
+    if (cssTag.length > 0)
+        cssTag.remove()
+    activeImage.parent().append('<style id="fotorama_max">.fotorama_max { max-height: '+ hesap +'px !important; }</style>')
+    activeImage.addClass('fotorama_max');
+}
+
+function pdfStat(articleName, articleSlug, partName, fileName) {
+    const data = {
+        'event_category': 'pdf',
+        'event_label': `${articleName} - ${articleSlug} - ${fileName}`,
+        'file_name': fileName,
+        'file_extension': 'pdf',
+        'link_text': `${articleName} - #${partName}`,
+    };
+
+    gtag('event', 'download', data);
+}
+
+$(document).ready(function() {
+    // Sayfa yüklendiğinde küçük ekranlar için navbar madde adını hazırla.
+    $("#header-article-html-code").appendTo($("#header-article"));
+
+	/* right -left click */
+	$(document).keydown(function(event) {
+		if (event.ctrlKey || event.metaKey) {
+		    switch (event.keyCode) {
+		        // left
+		        case 37:
+                    window.location.href = '/kahramanlik';
+                    break;
+                //right
+                case 39:
+                    window.location.href = '/kahtabe-b-sebib';
+                    break;
+                default:
+                    return;
+            }
+        }
+	});
+
+    let issueModal = $('#issue-modal').modal();
+    let feedbackBtn = $('.feedback-btn');
+    let issue = '';
+
+	/* show arrb */
+	$('bibl .kisaltma').click(function(event) {
+	    let popup = $('.bibl-popup');
+	    let sidebar = $(".theiaStickySidebar");
+
+        let target = $(this);
+        let slug = false;
+        let bibkey = $(this).html();
+        if (target.data('ad')) {
+            bibkey = target.data('ad');
+            slug = true;
+        }
+
+        let offsets = $(this).offset();
+        let position = $(this).position();
+        let sidebarTopOffset = sidebar.offset().top
+        let topoffs = offsets.top - sidebarTopOffset + 40;
+        let leftoffs = (position.left - 26) + ($(this).width() / 2);
+
+        let isUseSafeArea = (sidebar.width() - position.left < 120);
+        popup.find('img').css('right', 'unset');
+        if (isUseSafeArea) {
+            popup.find('img').css('right', 24);
+        }
+
+        let q = bibkey.replace('[', '(').replace(']', ')');
+        $.ajax({
+            url: "/ajax_search_auto.php?c=g&mdl=bpop&q=" + q + '&slug=' + slug,
+			cache : false,
+			success: function(result){
+				if(result.trim() !== "") {
+                    $('.bibl-cnt').html(result);
+
+                    if (isUseSafeArea) {
+                        leftoffs = leftoffs - popup.width() + 14;
+                    }
+
+					popup.css("top", topoffs + "px");
+                    popup.css("left", leftoffs + "px");
+                    popup.show();
+
+				}
+			}
+		});
+	});
+
+	$( window ).resize(function() {
+		$('.kisaltma').each(function( index ) {
+			if($(this).find('.bibpos').length > 0)
+			{
+
+			}
+		});
+	});
+
+	/* close bibl poup */
+	$('.close-bibl-poup').click(function(event){
+		$(this).parent().hide();
+		$('.kisaltma').find('.bibpos').remove();
+	});
+
+	issueModal.on('modal:show', function () {
+        $('.grecaptcha-badge').addClass('show');
+    });
+
+    issueModal.on('modal:hide', function () {
+        $('.grecaptcha-badge').removeClass('show');
+    });
+
+	/* feedback post */
+	feedbackBtn.click(function() {
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+        let issueModalMadde = $('#issue-modal-madde');
+        errorBox.hide();
+        successBox.hide();
+        issue = $(this).data('issue');
+        if (issue) {
+            let cookie = localStorage.getItem('bildirim_' + issue);
+            let form = $('#modal-issue-form');
+            issueModalMadde.text(issue);
+            form[0].reset();
+            form.find('input[name="bildirim-madde-adi"]').val(issue);
+            if (cookie !== null) {
+                let json = JSON.parse(cookie);
+                $.each(json, function (index, elem) {
+                    if (elem.name !== 'bildirim-kodu' && elem.name !== 'bildirim-madde-adi') {
+                        form.find('[name="' + elem.name + '"]').val(elem.value);
+                    }
+                });
+            }
+            requestCaptcha();
+            issueModal.show();
+        }
+	});
+
+
+	var article_div = $('.body_pad_article');
+	var article_div_bottom_pos = article_div.position().top + article_div.outerHeight(true);
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > article_div_bottom_pos - 300 ) {
+			$(".article-left-bar").css("position", "absolute");
+		}
+		else{
+			$(".article-left-bar").css("position", "fixed");
+		}
+	});
+
+	$('.show-former').click(function(event){
+		$(".country-former").toggle();
+
+		if($(".country-former").is(":visible")){
+			$(this).parent().find('.icon-chevron-down').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		}else{
+			$(this).parent().find('.icon-chevron-up').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+	});
+
+	$('.show-source').click(function(event){
+		if( $(this).css('font-weight') == "700")
+			$(this).css('font-weight', 'normal');
+		else
+			$(this).css('font-weight', 'bold');
+
+		$(".country-source").toggle();
+	});
+
+	$('.icon-list-ul').click(function(event){
+		$(".top-prev-container").show();
+		$(this).css("color","#777");
+		$(".preview-title").show();
+		$(".article_title h1").css("color","#fff");
+	});
+	$('.icon-list-up').click(function(event){
+		$(".top-prev-container-p").show();
+		$(this).css("color","#777");
+	});
+
+	$(document).mouseup(function (e)
+	{
+		// preview hover
+		var container = $(".top-prev-container.bsk");
+		var button = $(".list-ll");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+				$(".preview-title").hide();
+				$(".article_title h1").css("color","inherit");
+			}
+			/*
+		var container = $(".top-prev-container-p");
+		var button = $(".icon-list-ul-p");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+				container.hide();
+				button.css("color","#bcbcbc");
+			}
+            */
+	});
+
+
+	$('.btn-preview').click(function(event){
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-plan').removeClass("active").addClass("passive");
+		$('.plan-content').hide();
+		$('.preview-content').show();
+	});
+
+	$('.btn-plan').click(function(event){
+
+		$(this).removeClass("passive").addClass("active");
+		$('.btn-preview').removeClass("active").addClass("passive");
+		$('.plan-content').show();
+		$('.preview-content').hide();
+
+	});
+
+
+	/* prevent img click href */
+	$('.lazy').click(function(event){
+		event.preventDefault();
+	});
+
+
+
+	/* open image slider fotorama */
+	$('.lazy').click(function(){
+
+		if(fotoramaLoaded == 0){
+			$('.fotorama img').each(function(){
+				var imgurl = $(this).attr("srcs");
+				$(this).attr("src", imgurl);
+				fotoramaLoaded = 1;
+			});
+		}
+
+		$('#fotorama').show();
+		var $fotoramaDiv = $('#fotorama').fotorama();
+		var fotorama = $fotoramaDiv.data('fotorama');
+
+		fotorama.requestFullScreen();
+		var order = $(this).parent().attr("img-order");
+		fotorama.show(order);
+	});
+	$('.fotorama').on('fotorama:fullscreenexit', function (e, fotorama, extra) {
+		$('#fotorama').hide();
+	});
+
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenenter', function (e, fotorama) {
+	    resizeFotorama(fotorama);
+    });
+
+    $(window).on('resize', function () {
+        let fotorama = $('.fotorama').data('fotorama');
+        if (fotorama) {
+            setTimeout(function () {
+                resizeFotorama(fotorama);
+            }, 100);
+        }
+    });
+
+	/* article part info fade / soru işareti kaldırıldı
+	$('.article-nav-open-info').click(function(){
+		var totals = $(this).parent().find('.article-nav-numbers').html().split("/")[1];
+		var currents = $(this).parent().find('.article-nav-numbers').html().split("/")[0];
+		$('.article-nav-info-li').html('<b>' + totals + '</b> bölümden oluşan maddenin <b>' +  currents + '</b>. bölümü:');
+		$(this).parent().find(".article-nav-info-li").fadeIn("slow");
+		$(this).hide();
+	});
+	 */
+
+
+	/* part info */
+	$('.ak-copy').click(function(){
+		if($(this).find('span').text() == 'Kopyalama metni'){
+			$(this).parent().find('.ak-list').hide();
+			$(this).parent().find('.ak-copytext').show();
+			SelectText($(this).parent().find('.ak-copytext').attr("id"));
+			$(this).find('span').text('<< Geri');
+		}else{
+			$(this).parent().find('.ak-list').show();
+			$(this).parent().find('.ak-copytext').hide();
+			$(this).find('span').text('Kopyalama metni');
+		}
+	});
+
+
+
+
+	/* tooltip size */
+	$('.tipso.tbottom').tipso({size: 'small', color: '#fff', width: 200, position: 'bottom', background: '#334350', maxWidth: 300});
+	$('.tipso.tleft').tipso({size: 'small', color: '#fff', width: 250, position: 'left', background: '#334350', maxWidth: 300});
+	$('.tipso.tright').tipso({size: 'small', color: '#fff', width: 250, position: 'right', background: '#334350', maxWidth: 300});
+	$('.tipso.ttop').tipso({size: 'small', color: '#fff', width: 250, position: 'top', background: '#334350', maxWidth: 300});
+
+
+
+
+	$('#authors_show').click(function(){$(".authors_popup").toggle();});
+
+	$(document).mouseup(function (e)
+	{
+		var container = $(".authors_popup");
+		var button = $("#authors_show");
+		if (!container.is(e.target)  && container.has(e.target).length === 0 && !button.is(e.target)){
+			container.hide();}
+	});
+
+	// default
+
+	if ($("#auto-suggest-box").width() == 376 )
+	{
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+	}
+
+	$(window).scroll(function() {
+		var poss = "";
+		var firstPart = $('.article-parts').position().top;
+
+		if ($(this).scrollTop() > 60) {
+			$("#logo-part").hide();
+			$("#logo-beta").hide();
+			$("#header-article").show();
+			$("#searchBox").css("width","380px");
+			$("#auto-suggest-box").css("width","380px");
+			$("#auto-suggest-box span.txt span").css("display","block");
+			$("#auto-suggest-box span.txt span.txtcount").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+			$("#header-article-html-code").appendTo($("#header-article"));
+        }
+		else{
+			$("#logo-part").show();
+			$("#logo-beta").show();
+			$("#header-article").hide();
+			$("#searchBox").css("width","490px");
+			$("#auto-suggest-box").css("width","490px");
+			$("#auto-suggest-box span.txt span").css("display","inline");
+			$(".hdr-left").addClass("pure-u-15-24").removeClass("pure-u-13-24");
+			$(".hdr-right").addClass("pure-u-9-24").removeClass("pure-u-11-24");
+		}
+	});
+
+	$('.clicktop').click(function(e){
+		$("html, body").animate({
+			scrollTop: "0px"
+		});
+		window.location.hash=""	;
+	});
+
+	$('.article-nav-next, .article-nav-prev, .preview-jump').not('.article-nav-passive').click(function(){
+		window.location = $(this).attr('data-jurl');
+		var jl = '#_' + window.location.href.split("#").pop();
+		$('html, body').animate({ scrollTop: ( $(jl).offset().top - 120) }, 900);
+		$(".top-prev-container.bsk").hide();
+	});
+
+    issueModal.on('change', function () {
+        let form = $('#modal-issue-form');
+        let bildirimText = form.find('textarea[name="bildirim-bildirim"]');
+        if (issue && bildirimText.val().length > 0) {
+            let excludes = ['g-token'];
+            let cookie = 'bildirim_' + issue;
+            let formData = form.serializeArray();
+            $.each(formData, function (index, item) {
+                if (item && excludes.indexOf(item.name) > -1)
+                    formData.splice(index, 1);
+            });
+            localStorage.setItem(cookie, JSON.stringify(formData));
+        }
+    });
+
+    $('#modal-issue-form').submit(function (e) {
+        e.preventDefault();
+        let form = $('#modal-issue-form');
+        let data = form.serializeArray();
+        let errorBox = $('.error-box');
+        let successBox = $('.success-box');
+
+        errorBox.hide();
+        errorBox.empty();
+        successBox.hide();
+        successBox.empty();
+        lockModal();
+
+        data.push({
+            name: 'article-id',
+            value: 12286        });
+        $.post('/bildirim.php', data).done(function (data) {
+            issueModal.hide();
+            Swal.fire({
+                html: data.message,
+                icon: 'success',
+                showConfirmButton: false,
+                showCloseButton: true
+            });
+
+            form[0].reset();
+            localStorage.removeItem('bildirim_' + issue);
+            lockModal(false)
+            requestCaptcha();
+        }).fail(function (data) {
+            let response = data.responseJSON;
+            if (response.errors) {
+                errorBox.empty();
+                errorBox.html(response.errors.join('<br>'));
+                errorBox.slideDown('fast');
+            }
+            $('input[name=bildirim-kodu]').val('');
+            requestCaptcha();
+            lockModal(false);
+        });
+    });
+
+	if(window.location.href.indexOf('#') > -1){
+		var dashvalue = window.location.href.split("#").pop();
+		try{
+		var jt = '#_' + window.location.href.split("#").pop();
+		if ($(window).scrollTop() <= 0)
+		    $('html, body').animate({ scrollTop: ( $(jt).offset().top - 160) }, 900);
+		}catch(err){}
+	}
+
+	/* article toolbar functioms */
+	$('#pagecolorSepia').click(function(){
+		$("body").css("background", "#fff");
+		$(".body_container").css("background" , "#F5EEDE");
+		$(".m-body, .m-title, .title_info").css("color", "#614D1D");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#F5EEDE");
+		$("#article_toolbar").css("border-color","#E4D0A3");
+		$("#artplan").addClass("sepya");
+		$(".article-plan-buttons").addClass("sepya");
+		$(".hdrprt1").addClass("sepya");
+		$(".hdrprt1arrows").addClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").addClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down-sepya.png")
+		$(".article-left-bar").css("background","#f5eede");
+	});
+
+	$('#pagecolorWhite').click(function(){
+		$(".body_container").css("background" , "#fff");
+		$("body").css("background", "#f1f4f4");
+		$(".m-body, .m-title, .title_info").css("color", "#333");
+		$(".encyp_ico_container, .encyp_text_container").css("background","#f4f1f1");
+		$("#article_toolbar").css("border-color","#ededed");
+		$("#artplan").removeClass("sepya");
+		$(".article-plan-buttons").removeClass("sepya");
+		$(".hdrprt1").removeClass("sepya");
+		$(".hdrprt1arrows").removeClass("sepya");
+		$(".partnumbers, .partdownarrow, .partprint, .partemail, .partatif, .article-country-container, body").removeClass("sepya");
+		$(".partblt").attr("src", "https://cdn2.islamansiklopedisi.org.tr/assets/w/images/layouts/part-header-arrow-down.png");
+		$(".article-left-bar").css("background","#fff");
+	});
+	$('#txtdown').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) + 1;
+		var nlh = parseInt(lh) + 2;
+		if(fs <= '23'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		// set_public_cookie('reader', nfs + 'px,' + nlh + 'px')
+	});
+	$('#txtup').click(function(){
+		var fs = $('.m-content').css('font-size').split('px')[0];
+		var lh = $('.m-content').css('line-height').split('px')[0];
+		var nfs = parseInt(fs) - 1;
+		var nlh = parseInt(lh) - 2;
+		if(fs >= '17'){ $('.m-content').css({"font-size" : nfs + "px", "line-height" : nlh + "px"}); }
+		set_public_cookie("as=" + nfs + "px");
+
+		//set_public_cookie('reader', nfs + 'px,' + nlh + 'px');
+	});
+	$('.icon-align-left').click(function(){
+		$('.m-content').css({"text-align" : "left"});
+		set_public_cookie("aa=left");
+	});
+	$('.icon-align-justify').click(function(){
+		$('.m-content').css({"text-align" : "justify"});
+		set_public_cookie("aa=justify");
+	});
+	/* article toolbar functioms */
+
+
+	$('#printbody').click(function(){
+		$('#m-body').print({
+		globalStyles: true,
+		mediaPrint: false,
+		stylesheet: null,
+		noPrintSelector: ".no-print",
+		iframe: true,
+		append: null,
+		prepend: null,
+		manuallyCopyFormValues: true,
+		deferred: $.Deferred(),
+		timeout: 750,
+		title: null,
+		doctype: '<!doctype html>'
+	   	});
+	});
+
+	$('.printPart').click(function() {
+        const printButton = $(this);
+        const printPart = $('<div class="article-parts"></div>');
+
+        const articlePart = printButton.closest('.article-part');
+        printPart.append(articlePart.clone());
+
+        let pdfPartUrl = '';
+                pdfPartUrl = 'https://islamansiklopedisi.org.tr/kahramanmaras#' + articlePart.attr('id').substring(1);
+        
+        const pdfLink = $('<a></a>')
+            .attr('href', pdfPartUrl)
+            .text(pdfPartUrl.replace('https://', ' '));
+
+        const header = $('<div style="border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 10px;"></div>');
+                const partText = articlePart.find('.partnumbers').data('tipso') + 'dür. ';
+        header.append(partText);
+        
+        header.append('Maddenin TDV İslâm Ansiklopedisi’ndeki güncel elektronik versiyonuna erişmek için: ');
+        header.append(pdfLink);
+
+        const bodyContainer = $('<div class="centered body_container body_pad_article" style="margin-top: 15px;"></div>');
+        bodyContainer.append(header);
+
+        const articleTitle = $('.article_header_container');
+        bodyContainer.append(articleTitle.clone())
+
+		const mBody = $('<div class="m-body"></div>');
+        mBody.append(printPart);
+        bodyContainer.append(mBody);
+
+        const body = $('<body></body>');
+        body.append(bodyContainer);
+
+		body.print({
+            globalStyles: true,
+            mediaPrint: true,
+            stylesheet: null,
+            noPrintSelector: ".no-print",
+            iframe: true,
+            append: null,
+            prepend: null,
+            manuallyCopyFormValues: true,
+            deferred: $.Deferred(),
+            timeout: 750,
+            title: null,
+            doctype: '<!doctype html>'
+	   	});
+	});
+
+
+/* search autocomplete events */
+	var delay = (function(){
+	  var timer = 0;
+	  return function(callback, ms){
+		clearTimeout (timer);
+		timer = setTimeout(callback, ms);
+	  };
+	})();
+	$('#searchBox1').keyup(function() {
+		delay(function(){
+		var typed = $.trim($('#searchBox1').val());
+		if(typed.length > 1)
+		{
+				autocomplete(typed );
+		}
+		else
+		{
+			$("#auto-suggest-box1").hide();
+			$("#auto-suggest-loading1").hide();
+
+		}
+		}, 1000 );
+	});
+
+	function autocomplete(typed)
+	{
+		$("#auto-suggest-content1").html('');
+		$("#auto-suggest-box1").show();
+		$("#auto-suggest-loading1").show();
+
+		$.ajax({
+			url: "/ajax_search_auto.php?q=" + typed,
+			cache : false,
+			success: function(result){
+				if(result.trim() == "")
+				{
+					$("#auto-suggest-box1").hide();
+					$("#auto-suggest-loading1").hide();
+				}else{
+					$("#auto-suggest-loading1").hide();
+					$("#auto-suggest-content1").html(result);
+				}
+			}
+		});
+	}
+
+	/* atif */
+	$('.atif-btn').click(function(){
+		$(this).parent().parent().parent().parent().find('.atif-kutusu').slideToggle();
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $(".atif-kutusu");
+		var inputbox = $(".atif-btn");
+		if (!resultbox.is(e.target)  && resultbox.has(e.target).length === 0 && !inputbox.is(e.target)  && inputbox.has(e.target).length === 0){
+			resultbox.hide();
+			$('.ak-list').show();
+			$('.ak-copytext').hide();
+			$('.ak-copy span').text('Kopyalama metni');
+		}
+	});
+
+	$(document).mouseup(function (e)
+	{
+		var resultbox = $("#auto-suggest-box1");
+		var inputbox = $("#searchBox1");
+		if (!resultbox .is(e.target)  && resultbox .has(e.target).length === 0 && !inputbox .is(e.target)){
+			resultbox.hide();}
+	});
+
+    jQuery('.sticky-content, .sticky-sidebar').theiaStickySidebar({
+        additionalMarginTop: 30
+    });
+
+});
+
+</script>
+
+

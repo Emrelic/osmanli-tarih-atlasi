@@ -154,13 +154,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"Ardahan",
   d:"Lala Mustafa Paşa ve Özdemiroğlu Osman Paşa komutasındaki Osmanlı ordusu Safevî kuvvetlerini Çıldır'da ağır bir yenilgiye uğrattı. Bu zafer Kafkasya'nın kapılarını Osmanlı'ya açtı; on beş gün içinde Tiflis'in fethi ve Ahıska atabegliğinin Osmanlı idaresine girmesiyle sonuçlandı.",
-  kaynak:"cildir-savasi (TDV, zaten doğrulanmış — bkz. data/olaylar_ek2.js) + ahiska (TDV — 'Ahıska atabegleri, Lala Mustafa Paşa'nın Çıldır Savaşı sonunda Osmanlı idaresine girdiler')" },
+  kaynak:"cildir-savasi (TDV, zaten doğrulanmış — bkz. data/olaylar_ek2.js) + ahiska (TDV — 'Ahıska atabegleri, Lala Mustafa Paşa’nın Çıldır Savaşı (1578) sonunda Osmanlı idaresine girdiler')" },
 
 { t:"1578-08-24", b:"Tiflis'in Lala Mustafa Paşa tarafından fethi", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","fetih","konu-askeri"],
   yer_id:"Tiflis",
   d:"Çıldır zaferinden on beş gün sonra Lala Mustafa Paşa'nın kuvvetleri Tiflis'e girdi; şehir 1603'e kadar sürecek yirmi beş yıllık bir Osmanlı idaresine girdi. Bu, Ferhad Paşa Antlaşması'na (1590) giden on iki yıllık savaşın açılış hamlesidir.",
-  kaynak:"tiflis (TDV, madde: tiflis — 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi')" },
+  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #24); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #24)" },
 
 { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","imar","konu-din","konu-imar"],
@@ -196,13 +196,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"Tiflis",
   d:"Safevî idaresi Kartli'yi Tiflis vilayeti olarak yeniden örgütleyip İslam'a geçmiş Rostom'u vali tayin etti. Bununla başlayan, İslam'a geçmiş Kartli hükümdarları düzeni 1711'e kadar sürdü — Gürcü tahtının Safevî sarayına bağımlılığının kurumsallaştığı dönemdir.",
-  kaynak:"tiflis (TDV — '1632'de Tiflis vilâyeti olarak tekrar Osmanlı idaresiyle birleştirilmiş ve ihtida etmiş olan Rostom buraya vali tayin edilmişti')" },
+  kaynak:"gurcistan (TDV; eski atıf `tiflis` — alıntı `tiflis` gövdesinde yok, `gurcistan` gövdesinde BİREBİR, UMIT-W49 6 Ekim 2026 — '1632'de Tiflis vilâyeti olarak tekrar Osmanlı idaresiyle birleştirilmiş ve ihtida etmiş olan Rostom buraya vali tayin edilmişti')" },
 
 { t:"1635-01-01", b:"Ahıska'nın Osmanlı tarafından Safevîlerden geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"Ahıska",
   d:"IV. Murad döneminin doğu seferleri sırasında Ahıska, geçici bir Safevî ara döneminin ardından yeniden Osmanlı idaresine geçti; şehir 1829'a kadar Çıldır Eyaleti'nin merkezi olarak kalacaktı.",
-  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı')" },
+  kaynak:"ahiska (TDV — '1635'te Osmanlılar tarafından Safevîlerden geri alındı' [TDV slug: ahiska (alıntı doğrulanmadı)])" },
 
 { t:"1643-01-01", b:"Rüstem Han'ın Tiflis kalesini tahkim etmesi", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","konu-idari"],
@@ -220,13 +220,13 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["siyaset","konu-siyasi"],
   yer_id:"Tiflis",
   d:"1632'den beri süren, Safevî sarayınca tayin edilmiş İslam'a geçmiş Kartli hükümdarları düzeni 1711'de sona erdi; ardından Vahtang VI'nın kanunname çalışmaları ve on üç yıl sonraki Osmanlı müdahalesiyle (1724) yeni bir siyasi evre başladı.",
-  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' süren düzen)" },
+  kaynak:"tiflis (TDV — 'ihtida etmiş olan Rostom... 1711 yılına kadar' [TDV slug: tiflis (alıntı doğrulanmadı)] süren düzen)" },
 
 { t:"1723-06-24", b:"Osmanlı'nın Tiflis'i son kez alması — Tiflis Beylerbeyiliği kuruldu", tur:"fetih", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","fetih","idari","konu-askeri","konu-idari"],
   yer_id:"Tiflis",
   d:"Safevî Devleti'nin Afgan istilâsıyla çökmesi ve Rusya'nın Hazar kıyılarına inmesi üzerine Osmanlı ordusu 23-24 Haziran 1723'te Tiflis'e girdi ve şehri yeni bir beylerbeyilik olarak örgütledi. On üç yıl sürecek son büyük Osmanlı işgalinin başlangıcıdır.",
-  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi') + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
+  kaynak:"tiflis (TDV — 'Osmanlılar 23-24 Haziran 1723'te şehre girdi' [TDV slug: tiflis (alıntı doğrulanmadı)]) + ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js; aynı harekât, data/kronoloji_iran.js'in 1723-06-24 kaydıyla aynı dunya puanı)" },
 
 { t:"1724-01-01", b:"Kartli Çarı Vahtang'ın oğlu İbrahim'in Osmanlı tarafından Kartli'ye tayini", tur:"siyaset", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],

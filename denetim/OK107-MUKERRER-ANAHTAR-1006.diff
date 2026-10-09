@@ -1,0 +1,46 @@
+diff --git a/data/yerlesimler_ok107.js b/data/yerlesimler_ok107.js
+index 72ec7c96..b4cab7ff 100644
+--- a/data/yerlesimler_ok107.js
++++ b/data/yerlesimler_ok107.js
+@@ -211,14 +211,12 @@ window.YERLESIMLER_OK107 = [
+   // 🟢 Rus fethi günü ÇİMKENT'inkinden AYRI olmalıydı ve bunu uydurmadım:
+   //   Evliya-Ata 1864'te alındı, Çimkent 1864-09-22'de. Aynı seferin iki
+   //   ayrı günü; kendi günümü bulamadığım için Çimkent'inkini kullandım.
+-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},
+-     {f:"1370-01-01",t:"1500-01-01",d:"timurlu"},
+-     {f:"1500-01-01",t:"1598-01-01",d:"buhara"},
+-     {f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},
+-     {f:"1815-01-01",t:"1864-09-22",d:"hokand"},
+-     {f:"1864-09-22",t:"1917-03-15",d:"rusya"},
+-     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
++  // 🔴 MÜKERRER `s:` KALDIRILDI (UMIT-W32, 6 Ekim 2026). 17cd2f98 bu nesneye
++  //   İKİNCİ bir `s:` ekledi (aşağıda `kaynak:`ın SONUNDA). JS'te SONUNCUSU
++  //   kazanır ⇒ motor 17cd2f98'den beri YALNIZ o ikinciyi okuyordu.
++  //   KAZANAN (kalan, değişmedi): cagatay→timurlu 1370-04-09
++  //   KAYBEDEN (silinen, ölü):    cagatay→timurlu 1370-01-01
++  //   Öteki 6 dönem ikisinde birebir aynı. Harita DEĞİŞMEZ; yalnız ölü satır gitti.
+   d:[], v:[],
+   kaynak:"bulunamadı — TDV'de `taraz`/`talas`/`evliya-ata` maddesi YOK (üç slug da 302 ölçüldü); `turkistan` genel maddesi de kasabayı kapsamıyor (§4 tanecik boşluğu). Dönem günleri Çimkent kaydından (159 km) bölgesel hizalama ile alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
+ 
+@@ -227,14 +225,12 @@ window.YERLESIMLER_OK107 = [
+   // Çimkent'e 15,7 km — 3 km kuralını GEÇİYOR ama yakın; ayrı kayıt olmasının
+   // sebebi İsficâb'ın ayrı ve daha eski bir yerleşim olması. Dönem günleri
+   // Çimkent'ten alındı; bu mesafede zaten aynı olmaları beklenir.
+-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},
+-     {f:"1370-01-01",t:"1500-01-01",d:"timurlu"},
+-     {f:"1500-01-01",t:"1598-01-01",d:"buhara"},
+-     {f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},
+-     {f:"1815-01-01",t:"1864-09-22",d:"hokand"},
+-     {f:"1864-09-22",t:"1917-03-15",d:"rusya"},
+-     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
++  // 🔴 MÜKERRER `s:` KALDIRILDI (UMIT-W32, 6 Ekim 2026). 17cd2f98 bu nesneye
++  //   İKİNCİ bir `s:` ekledi (aşağıda `kaynak:`ın SONUNDA). JS'te SONUNCUSU
++  //   kazanır ⇒ motor 17cd2f98'den beri YALNIZ o ikinciyi okuyordu.
++  //   KAZANAN (kalan, değişmedi): cagatay→timurlu 1370-04-09
++  //   KAYBEDEN (silinen, ölü):    cagatay→timurlu 1370-01-01
++  //   Öteki 6 dönem ikisinde birebir aynı. Harita DEĞİŞMEZ; yalnız ölü satır gitti.
+   d:[], v:[],
+   kaynak:"bulunamadı — TDV'de `sayram`/`isficab` maddesi YOK (slug 302 ölçüldü). Dönem günleri Çimkent kaydından (16 km) alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
+ 

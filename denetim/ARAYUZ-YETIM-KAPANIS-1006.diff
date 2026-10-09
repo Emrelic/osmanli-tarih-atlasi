@@ -1,0 +1,275 @@
+diff --git a/arac/denetle_arayuz.py b/arac/denetle_arayuz.py
+index 09a5b762..35008738 100644
+--- a/arac/denetle_arayuz.py
++++ b/arac/denetle_arayuz.py
+@@ -103,6 +103,74 @@ def _dinamik_onekler(kaynak):
+     return k
+ 
+ 
++def _yetim_kapanis(html):
++    """Yorum DIŞINDA kalan metinde yorum kapanışı (`-->` ya da `--!>`) var mı?
++
++    🔴 6 Ekim 2026 (UMIT-W47) — 22 Ağustos sızıntısının ASIL sorusu.
++    O gün bir yorumun içine kapanış dizisi düz metin olarak yazılmıştı:
++    tarayıcı yorumu orada kapattı, kalan açıklama Ayarlar penceresine sızdı.
++    Yazarın asıl kapanışı ise metinde YETİM kaldı. Geçerli HTML'de yorum
++    dışındaki metinde çıplak kapanış dizisi yazmanın meşru bir yolu yok
++    (kasıtlıysa `&gt;` yazılır). Bu yüzden ölçüt kesindir ve terk edilen
++    "sızan metin mi, kasıtlı metin mi" belirsizliğine düşmez.
++
++    Yorum sonu WHATWG ayrıştırıcısı gibi bulunur:
++      `<!-->` ve `<!--->` → yorum HEMEN kapanır (abrupt closing)
++      öteki hâller       → ilk `-->` YA DA `--!>`, hangisi önce gelirse
++    Etiket içi (tırnaklı öznitelik değerleri dahil) ve script/style/
++    textarea/title gövdeleri metin sayılmaz. Kapanmamış yorum ①a'nın işi.
++    Döner: ([(satır, kesit)], ani_kapanan_yorum_sayısı)
++    """
++    ACILIS = "<!" + "--"
++    HAM = re.compile(r"<(script|style|textarea|title)\b", re.I)
++    yetim, ani, i, n = [], 0, 0, len(html)
++    while i < n:
++        lt = html.find("<", i)
++        metin = html[i:] if lt < 0 else html[i:lt]
++        for m in re.finditer(r"--!?>", metin):
++            p = i + m.start()
++            yetim.append((html[:p].count("\n") + 1,
++                          " ".join(html[max(0, p - 60):p + 4].split())))
++        if lt < 0:
++            break
++        if html.startswith(ACILIS, lt):
++            g = lt + len(ACILIS)
++            if html.startswith(">", g):
++                ani, i = ani + 1, g + 1
++                continue
++            if html.startswith("->", g):
++                ani, i = ani + 1, g + 2
++                continue
++            k1, k2 = html.find("-" + "->", g), html.find("--!>", g)
++            ks = [k for k in (k1, k2) if k >= 0]
++            if not ks:
++                break
++            k = min(ks)
++            i = k + (3 if k == k1 else 4)
++            continue
++        if not re.match(r"[A-Za-z/!?]", html[lt + 1:lt + 2]):
++            i = lt + 1          # `a < b` gibi: etiket değil, metin sürüyor
++            continue
++        h = HAM.match(html, lt)
++        # etiketi tırnaklara saygıyla geç
++        j, tirnak = lt + 1, None
++        while j < n:
++            c = html[j]
++            if tirnak:
++                if c == tirnak:
++                    tirnak = None
++            elif c in "\"'":
++                tirnak = c
++            elif c == ">":
++                break
++            j += 1
++        i = j + 1
++        if h:
++            son = re.compile(r"</" + h.group(1) + r"\s*>", re.I).search(html, i)
++            i = son.end() if son else n
++    return yetim, ani
++
++
+ def main():
+     html = io.open(HTML, encoding="utf-8").read()
+     app = io.open(APP, encoding="utf-8").read()
+@@ -136,15 +204,33 @@ def main():
+         if "--" in govde:
+             kesit = govde[max(0, govde.find("--") - 30):govde.find("--") + 20]
+             kirik.append((html[:a].count("\n") + 1,
+-                          "gövdede `--` var → yorum ERKEN KAPANIR: …"
++                          "gövdede `--` var (spec ihlali; tek başına SIZDIRMAZ): …"
+                           + " ".join(kesit.split())))
+         i = k + len(KAPANIS)
+-    print("① yorum bütünlüğü      : %s"
+-          % ("✓ temiz" if not kirik else "🔴 %d KIRIK YORUM" % len(kirik)))
++    # 🔴 6 Ekim 2026 (UMIT-W47): bu dal UYGUNLUK sorar, SIZINTI sormaz.
++    #   Gövdeyi ilk kapanışta kestiği için erken kapatan dizinin KENDİSİ
++    #   gövdeye girmez, kapanıştan sonra sızan metin de taranmaz. 22 Ağustos
++    #   kusurunu (`5603267d^`) yalnız örnek yorumdaki AÇILIŞ dizisi `--`
++    #   içerdiği için yakaladı; açılışsız tek kapanışlı yazımda KÖRDÜ.
++    #   Sızıntıyı ①b sorar.
++    print("①a yorum uygunluğu     : %s"
++          % ("✓ temiz" if not kirik else "🔴 %d UYGUNSUZ YORUM" % len(kirik)))
+     for no, t in kirik[:8]:
+         print("     satır %-5d %s" % (no, t[:96]))
+     ihlal += len(kirik)
+ 
++    # ── ①b YORUM SIZINTISI — yorum dışı metinde YETİM kapanış ──────────
++    yetim, ani = _yetim_kapanis(html)
++    print("①b yorum sızıntısı     : %s"
++          % ("✓ yetim kapanış yok" if not yetim
++             else "🔴 %d YETİM KAPANIŞ — yorum erken kapandı, metin SAYFAYA SIZDI"
++             % len(yetim)))
++    for no, t in yetim[:8]:
++        print("     satır %-5d …%s" % (no, t[:90]))
++    print("     kapsam: yorum dışı metin + öznitelik dışı · script/style/"
++          "textarea/title gövdesi HARİÇ · ani kapanan yorum %d" % ani)
++    ihlal += len(yetim)
++
+     # ── ② MÜKERRER id ───────────────────────────────────────────────────
+     idler = re.findall(r'\bid="([^"]+)"', re.sub(re.escape(ACILIS) + r".*?"
+                                                  + re.escape(KAPANIS), "",
+diff --git a/denetim/ARAC-ARAYUZ-YETIM-KAPANIS-SINAV-1006.py b/denetim/ARAC-ARAYUZ-YETIM-KAPANIS-SINAV-1006.py
+new file mode 100644
+index 00000000..b7bfddb7
+--- /dev/null
++++ b/denetim/ARAC-ARAYUZ-YETIM-KAPANIS-SINAV-1006.py
+@@ -0,0 +1,153 @@
++# -*- coding: utf-8 -*-
++"""SINAV — `denetle_arayuz.py` ①b YORUM SIZINTISI (yetim kapanış), iki yönde.
++
++UMIT-W47b, 6 Ekim 2026. Öngörüler koşudan ÖNCE yazıldı (aşağıdaki BEKLENEN).
++Araç izole bir kopyada koşar: geçici kök + arac/denetle_arayuz.py +
++index.html + js/app.js. Depodaki hiçbir dosya değişmez.
++
++  SONRA = çalışma ağacındaki arac/denetle_arayuz.py (yeni dal)
++  ÖNCE  = 530c6998:arac/denetle_arayuz.py (dalsız ilk sürüm, 22 Ağu)
++
++Gerçek vakalar:
++  K1  5603267d^  22 Ağustos kusurlu hâli (Ayarlar'a sızan açıklama)
++  K2  SENTETİK   K1'de yalnız örnek `<!-- -->` "yorum" yapıldı. Tek bir
++                 düz metin kapanış kaldı; ÖNCE kör, SONRA ötmeli
++  K3  5603267d   düzeltilmiş hâl
++  K4  origin/main  güncel (yoksa HEAD)
++Fikstürler (ani kapanış ve `--!>` ÖLÇÜLSÜN, beyanla geçiştirilmesin):
++  F1  `<!-->` ani kapanış → sızıntı
++  F2  `<!--->` ani kapanış → sızıntı
++  F3  `--!>` ile erken kapanış → sızıntı
++  F4  meşru: öznitelikte kapanış dizisi · `&gt;` · `a < b` → temiz
++  F5  meşru: script/style/textarea/title gövdesinde kapanış dizisi → temiz
++
++    py denetim/ARAC-ARAYUZ-YETIM-KAPANIS-SINAV-1006.py
++Çıkış: 0 bütün öngörüler tuttu · 1 en az biri tutmadı · 2 ölçülemedi
++"""
++import io
++import os
++import subprocess
++import sys
++import tempfile
++
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = os.path.join(KOK, "arac", "denetle_arayuz.py")
++KAP = "-" + "->"          # bu dosya da bir gün HTML'e gömülürse diye
++SENTETIK_ESKI = "blokta zaten bir `<!" + "-- " + KAP + "` vardı ve"
++SENTETIK_YENI = "blokta zaten bir yorum vardı ve"
++
++
++def git_show(ref):
++    r = subprocess.run(["git", "-C", KOK, "show", ref], capture_output=True)
++    if r.returncode:
++        return None
++    return r.stdout.decode("utf-8")
++
++
++def ref_var(ref):
++    return subprocess.run(["git", "-C", KOK, "rev-parse", "--verify", "-q",
++                           ref + "^{commit}"], capture_output=True).returncode == 0
++
++
++def kostur(arac_kaynak, html, app):
++    with tempfile.TemporaryDirectory() as d:
++        os.makedirs(os.path.join(d, "arac"))
++        os.makedirs(os.path.join(d, "js"))
++        for yol, icerik in (("arac/denetle_arayuz.py", arac_kaynak),
++                            ("index.html", html), ("js/app.js", app)):
++            io.open(os.path.join(d, yol), "w", encoding="utf-8",
++                    newline="").write(icerik)
++        env = dict(os.environ, PYTHONIOENCODING="utf-8")
++        r = subprocess.run([sys.executable, os.path.join(d, "arac",
++                                                         "denetle_arayuz.py")],
++                           capture_output=True, env=env)
++        return r.returncode, r.stdout.decode("utf-8", "replace")
++
++
++def fikstur(govde):
++    return ("<!DOCTYPE html>\n<html><head><meta charset=\"utf-8\">"
++            "<title>f</title></head>\n<body>\n" + govde + "\n</body></html>\n")
++
++
++FIKSTUR = {
++    "F1": fikstur("<div><!" + "--" + ">Bu açıklama sızar " + KAP + "</div>"),
++    "F2": fikstur("<div><!" + "---" + ">Bu da sızar " + KAP + "</div>"),
++    "F3": fikstur("<div><!" + "-- not --!> sızan metin " + KAP + "</div>"),
++    "F4": fikstur("<p title=\"a" + KAP + "b\" data-x='c--!>d'>x &gt; y, "
++                  "a < b ve a <= b</p>\n<!" + "-- olağan yorum " + KAP),
++    "F5": fikstur("<script>var s = \"" + KAP + "\";</script>\n"
++                  "<style>/* " + KAP + " */</style>\n"
++                  "<textarea>" + KAP + "</textarea>"),
++}
++
++# (vaka, araç, beklenen çıkış, ①b ötmeli mi)  ← KOŞUDAN ÖNCE YAZILDI
++BEKLENEN = [
++    ("K1", "ÖNCE", 1, None), ("K1", "SONRA", 1, True),
++    ("K2", "ÖNCE", 0, None), ("K2", "SONRA", 1, True),
++    ("K3", "ÖNCE", 0, None), ("K3", "SONRA", 0, False),
++    ("K4", "SONRA", 0, False),
++    ("F1", "SONRA", 1, True), ("F2", "SONRA", 1, True),
++    ("F3", "SONRA", 1, True),
++    ("F4", "SONRA", 0, False), ("F5", "SONRA", 0, False),
++]
++
++
++def main():
++    olculemedi = []
++    sonra = io.open(ARAC, encoding="utf-8").read()
++    once = git_show("530c6998:arac/denetle_arayuz.py")
++    if once is None:
++        olculemedi.append("ÖNCE aracı (530c6998) okunamadı")
++    if "_yetim_kapanis" not in sonra:
++        olculemedi.append("SONRA aracında ①b dalı yok — yama uygulanmamış")
++
++    son_ref = "origin/main" if ref_var("origin/main") else "HEAD"
++    girdi = {}
++    for ad, ref in (("K1", "5603267d^"), ("K3", "5603267d"), ("K4", son_ref)):
++        h, a = git_show(ref + ":index.html"), git_show(ref + ":js/app.js")
++        if h is None or a is None:
++            olculemedi.append("%s (%s) okunamadı" % (ad, ref))
++        else:
++            girdi[ad] = (h, a)
++    if "K1" in girdi:
++        h, a = girdi["K1"]
++        if h.count(SENTETIK_ESKI) != 1:
++            olculemedi.append("K2 üretilemedi: K1'de hedef cümle %d kez"
++                              % h.count(SENTETIK_ESKI))
++        else:
++            girdi["K2"] = (h.replace(SENTETIK_ESKI, SENTETIK_YENI), a)
++    for ad, h in FIKSTUR.items():
++        girdi[ad] = (h, "")
++
++    if olculemedi:
++        for o in olculemedi:
++            print("ÖLÇÜLEMEDİ:", o)
++        return 2
++
++    print("K4 = %s · K2 = K1'de `%s` → `%s`\n" % (son_ref, SENTETIK_ESKI,
++                                                  SENTETIK_YENI))
++    tutmayan = 0
++    for vaka, hangi, b_cikis, b_1b in BEKLENEN:
++        h, a = girdi[vaka]
++        cikis, cikti = kostur(once if hangi == "ÖNCE" else sonra, h, a)
++        satir1b = [s for s in cikti.splitlines() if s.startswith("①b")]
++        o1b = None if not satir1b else ("🔴" in satir1b[0])
++        tuttu = cikis == b_cikis and (b_1b is None or o1b == b_1b)
++        tutmayan += not tuttu
++        print("%s %-3s %-5s çıkış %d (beklenen %d)%s"
++              % ("✓" if tuttu else "✗", vaka, hangi, cikis, b_cikis,
++                 "" if b_1b is None else " · ①b %s (beklenen %s)"
++                 % ("ÖTTÜ" if o1b else "sustu",
++                    "öter" if b_1b else "susar")))
++        if not tuttu or vaka in ("K2", "F1"):
++            for s in cikti.splitlines()[:9]:
++                print("        " + s)
++    print("-" * 68)
++    print("SONUÇ: %s" % ("bütün öngörüler tuttu (%d)" % len(BEKLENEN)
++                         if not tutmayan else "%d öngörü TUTMADI" % tutmayan))
++    return 1 if tutmayan else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())

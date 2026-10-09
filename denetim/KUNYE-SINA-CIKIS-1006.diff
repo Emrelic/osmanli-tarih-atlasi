@@ -1,0 +1,71 @@
+diff --git a/denetim/ARAC-KUNYE-SINA-0903.py b/denetim/ARAC-KUNYE-SINA-0903.py
+index 74605937..1ad0a550 100644
+--- a/denetim/ARAC-KUNYE-SINA-0903.py
++++ b/denetim/ARAC-KUNYE-SINA-0903.py
+@@ -11,12 +11,27 @@
+   ⑦ RENK              BOYALAR'da var mi (yoksa §8 harita deligi)
+ 
+ Kullanim:  py kunye_sina.py <json yolu>   (kok dizinden)
++Cikis kodu (CLAUDE.md §3): 0 temiz · 1 HATA var · 2 OLCULEMEDI (arguman yok,
++girdi okunamadi, devletler.js/renkler okunamadi, girdide kunye bulunamadi).
+ """
+ import sys, os, io, json, subprocess
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ KOK = os.getcwd()
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+-import renkler as R
++
++
++def olculemedi(neden):
++    print("⚫ ÖLÇÜLEMEDİ — %s" % neden)
++    print("   (ölçülemeyen soru TEMİZ DEĞİLDİR · çıkış 2)")
++    sys.exit(2)
++
++
++if len(sys.argv) < 2:
++    olculemedi("argüman yok — kullanım: py denetim/ARAC-KUNYE-SINA-0903.py <json yolu>")
++try:
++    import renkler as R
++except Exception as e:
++    olculemedi("arac/renkler.py yüklenemedi: %r" % e)
+ 
+ UFUK = (1923, 10, 29)
+ 
+@@ -38,12 +53,21 @@ js = ("global.window={};eval(require('fs').readFileSync(process.argv[1],'utf8'))
+       "console.log(JSON.stringify(D.map(d=>({id:d.id,harita:d.harita}))));")
+ p = subprocess.run(["node", "-e", js, os.path.join(KOK, "data", "devletler.js")],
+                    capture_output=True, text=True, encoding="utf-8")
+-MEVCUT = json.loads(p.stdout.strip())
++try:
++    MEVCUT = json.loads(p.stdout.strip())
++except ValueError:
++    MEVCUT = None
++if p.returncode != 0 or not MEVCUT:
++    olculemedi("data/devletler.js okunamadı (node çıkış %s): %s"
++               % (p.returncode, (p.stderr or "").strip()[-200:]))
+ MEVCUT_ID = {d["id"] for d in MEVCUT if d.get("id")}
+ ANAHTAR = MEVCUT_ID | {d["harita"] for d in MEVCUT if d.get("harita")}
+ BOYA = set(R.BOYALAR)
+ 
+-veri = json.load(io.open(sys.argv[1], encoding="utf-8"))
++try:
++    veri = json.load(io.open(sys.argv[1], encoding="utf-8"))
++except (OSError, ValueError) as e:
++    olculemedi("girdi okunamadı: %s — %r" % (sys.argv[1], e))
+ # kunye listesini ic ice yapidan cikar: 'id' ve 'f' tasiyan her sozluk
+ kunyeler = []
+ 
+@@ -61,6 +85,8 @@ def topla(o):
+ 
+ 
+ topla(veri)
++if not kunyeler:
++    olculemedi("girdide künye yok ('id' + 'f'/'t' taşıyan sözlük 0) — boş küme TEMİZ sayılmaz")
+ print("mevcut künye : %d · BOYALAR : %d" % (len(MEVCUT_ID), len(BOYA)))
+ print("önerilen     : %d" % len(kunyeler))
+ print()
+@@ -118,3 +144,4 @@ for kid, m in uyari:
+ print("   ⑦ RENK YOK: %d künye — renk partisi BENDE, bu beklenen" % len(renksiz))
+ print()
+ print("🟢 UYGULANABİLİR" if not hata else "🔴 UYGULAMA DURDU — önce hatalar")
++sys.exit(1 if hata else 0)

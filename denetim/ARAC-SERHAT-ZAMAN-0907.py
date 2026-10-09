@@ -12,7 +12,8 @@ Emre'nin kendi ornegi:
 import sys, io, math, json
 from collections import defaultdict
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, KOK + r"\arac")
 import girdi
 

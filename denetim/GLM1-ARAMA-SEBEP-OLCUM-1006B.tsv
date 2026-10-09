@@ -1,0 +1,4 @@
+sorgu	url	kod	madde_liste_satir	onbellek_kova	onbellek_govde_hash8	canli_href_tekil	govde_satiri_canli_hrefta	href_hash_eslesme	not
+meshed	https://islamansiklopedisi.org.tr/arama/?q=meshed	200	13	ONCE1281-YERLESIM	(önb: 293 bayt govde)	20	14/14	YOK	canlı menü 30 Eyl'den büyük: arama-kilavuzu/genel_kisaltmalar/hakkinda yeni
+absu	https://islamansiklopedisi.org.tr/arama/?q=absu	200	5	ONCE1281-YERLESIM	(önb: 71 bayt govde)	11	5/5	YOK	aynı neden; makale sonucu 0=0 (satırlar sorgu-eko/hakkinda.php)
+vize	https://islamansiklopedisi.org.tr/arama/?q=vize	200	2	ONCE1281-YERLESIM	f8bd2f5c	12	6/6	YOK	aynı neden; önb. gövde = menü 5 + tek sonuç 'vize'

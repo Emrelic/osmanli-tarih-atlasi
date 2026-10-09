@@ -12,6 +12,12 @@ import os
 import sys
 from collections import Counter
 
+# W32b (6 Ekim 2026): T1 — üretilmiş girdi yoksa çöküp ÇIKIŞ 1 ("ihlal") vermek
+# yerine ÇIKIŞ 2 ("ölçülemedi") + nasıl üretileceği. denetim/olcu_kapisi_1006.py
+import os as _w32_os, sys as _w32_sys
+_w32_sys.path.insert(0, _w32_os.path.join(_w32_os.path.dirname(_w32_os.path.dirname(_w32_os.path.abspath(__file__))), "denetim"))
+import olcu_kapisi_1006 as _w32_ok
+_w32_ok.dosya(["data/devletler_harita.js"])
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, "arac")
 import girdi  # noqa: E402

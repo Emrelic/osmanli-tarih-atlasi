@@ -6,13 +6,55 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
 
 ## 1. Açılış — TEK hamle dizisi, ekrana yazı YOK
 1. `CLAUDE.md` + bu dosya. Başka belge OKUMA (görev gelince şartnamen söyler).
-2. Adını ölç: `get_session("self")` → başlık (ör. `Opus hazır kıta 1016`). Tahta adın
-   bunun BÜYÜK HARFLİSİ: `OPUS HAZIR KITA 1016`.
-3. Tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
+2. 🆕 **Adını koy (Emre, 9 Ekim 2026):** `date +%d%m.%H%M.%S` → `HAZIR KITA GGAA.SSDD.ss`
+   (ör. `HAZIR KITA 0910.2101.55`), `set_session_title("self", …)` + `get_session("self")` ile
+   geri oku. Ad zaten BÜYÜK HARF ⇒ pencere adı = tahta adı. Saniye şart: aynı dakikada
+   açılan kıtalar çakışıyordu (`0910 10502`/`10503`). Model açılışta Opus; görev gelince
+   işin yettiği en ucuz modele inilir — tablo `.claude/commands/kita.md §4` (Haiku kaynak
+   işinde YOK, `CLAUDE.md §4`). Eski biçim (`Opus hazır kıta 1016` → büyük harflisi) tarihîdir.
+3. 🔴 **HAZIRIM'ı NEREYE yazacağın MAKİNEYE BAĞLIDIR — önce ölç, sonra yaz:**
+   ```bash
+   hostname                             # MAKİNE ADI — ölçüt BUDUR
+   ```
+   🔴 **ÖLÇÜT HOSTNAME'DİR, DEPO YOLU DEĞİL** — düzeltildi 6 Ekim 2026, ölçülmüş zararla.
+   Buraya eskiden `git rev-parse --show-toplevel` yazılıydı ve *"`C:/atlas` = EMRELIC"*
+   deniyordu. **Yanlış: HER MAKİNEDE depo `C:\atlas`tır.** UMIT'te de, HAVVA'da da.
+   ⇒ UMIT'te açılan **BEŞ KITA kendini EMRELIC sanıp YEREL tahtaya yazdı**
+   (`DEVLETLER-SLUG-B` ve `GENCE` ölçtü): HAZIRIM'ları push edilemedi, 15 yerel tahta
+   commit'i birikti, UMIT'in `C:\atlas`ı `origin/main`in **114 gerisine** düştü ve bütün
+   makinenin tahtası kilitlendi. Emre'nin onayıyla hizalandı (`umit-tahta-yerel-1006`
+   dalında saklı).
+   📌 Ailesi `D267`: **bir ölçütün evreni sorunun evreninden küçükse, cevabı bir ölçüm
+   değil bir YANILSAMADIR** — ve burada yanılsama *"doğru makinedeyim"* diyordu.
+   ⚠️ `hostname` da tek başına yetmezse (makine adı değişirse) ölçüt ÇOĞALTILMAZ,
+   TEK OTORİTEYE bağlanır: `oturumlar/TOPOLOJI.md`nin makine tablosu. İki ölçüt
+   bugün aynı cevabı verir, yarın ayrışır.
+   **EMRELIC ise** — tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
    `py arac/tahta.py yaz --kim "<ADIN>" --kime "YILDIRIM BAYEZIT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
+
+   **EMRELIC DIŞINDA ise — `tahta.py` KULLANMA.** HAZIRIM'ı o makinenin İRTİBAT
+   oturumuna `send_message` ile tek satır olarak ver (ör. `UMIT İRTİBAT`).
+   ⚠️ Bu bir kolaylık değil, ÖLÇÜLMÜŞ bir arızanın çaresidir (6 Ekim 2026, 01:28):
+   `tahta.py` yazarken `pull --rebase` yapıyor; `main`in TEK YAZICISI koordinatördür
+   (`TOPOLOJI.md`), dolayısıyla EMRELIC dışındaki bir makinede yerel `main`de push
+   edilemeyen bir tahta commit'i birikir ve **her yeni kıtanın HAZIRIM'ı aynı
+   çatışmayı yeniden doğurur** (`UU TAHTA.md` + `tahta.json`). Emre abort etti,
+   4 dakika sonra geri geldi — çare abort değil, o makinede tahtaya HİÇ yazmamaktır.
+   📌 Zararı da yoktu: dalda çalışan bir makine `main`e yazılan tahtayı **HİÇ görmez**
+   (LAB ölçtü, `CLAUDE.md §7.2 ④`) ⇒ o HAZIRIM koordinatöre zaten ULAŞMIYORDU.
 4. Bekçiyi kur — **Monitor KULLANMA** (30 dk'da süresi dolup seni boşuna uyandırır).
-   **Bash aracı, `run_in_background: true`:** `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
-   Süre tavanı yok; YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
+   **Bash aracı, `run_in_background: true` VE `timeout: 7200000`:**
+   `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
+   YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
+   🔴 **SÜRE TAVANI VAR: 2 SAAT** (`7.200.000 ms`, izin verilen EN UZUN değer).
+   `timeout` VERİLMEZSE bekçi **30 DAKİKADA** düşer ve sen bir daha hiç uyanmazsın.
+   ⚠️ Bu satır 5-6 Ekim 2026'ya kadar *"süre tavanı yok"* diyordu ve **ölçülmüş zarar
+   verdi**: UMIT'te açılan **19 oturumun 19'u** bekçiyi `timeout`suz kurdu, **19'u da 30
+   dakikada düştü** (W25 ölçtü, 5.868 mesaj tarandı). Dördü (W12-W15) tavandan sonra
+   bekçiyi hiç yeniden kurmadı.
+   ⇒ 2 saat dolunca bekçi `killed` olur — **bu ARIZA DEĞİL, SINIR.** Gör, tek kelime
+   yazma, **AYNI komutla sessizce YENİDEN KUR.** 2 saatte bir yeniden kurma turu
+   NORMALDİR (`CLAUDE.md §7.2 ④`).
 5. **DUR.** Ekrana hiçbir şey yazma — "hazırım", "bekliyorum", "bekçi kuruldu" DAHİL.
 
 ## 2. Beklerken — SESSİZLİK
@@ -57,6 +99,45 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
 ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne istiyorum/öneriyorum + değişen dosyalar + commit.
 Uzun rapor → `denetim/<AD>-<tarih>.md` dosyasına, mesajda yalnız yolu. Mesajı
 `oturumlar/tahta.json`dan geri oku (uzunluğu tam mı).
+
+### 4.1 🆕 🔴 TESLİM KANITI — "çalıştı" demek "indi" demek DEĞİLDİR
+*(9 Ekim 2026 gecesi ÖLÇÜLDÜ; beşi de gerçekten yaşandı, beşi de bir kıtanın önleyebileceği kusurdu.)*
+
+- **① YENİ DOSYA varsa teslimde AYRI SATIR: `YENİ DOSYALAR: …`** ve kanıtı
+  `git cat-file -e HEAD:<yol>` — `ls` ya da "sınav geçti" DEĞİL.
+  🔴 Vaka: `arac/gun.py` + `js/gun.js` diskte vardı, sınavları **52/52 geçti**, ama
+  git'e HİÇ girmemişti. Sınav diski okur, git'i okumaz ⇒ taze bir klonda
+  `ModuleNotFoundError`. **Yeşil sınav, inişin kanıtı değildir.**
+- **② Dosya listeni `git status --porcelain`den türet, `git diff --name-only HEAD`den DEĞİL.**
+  `git diff` **izlenmeyen (yeni) dosyaları GÖRMEZ** — ölçüldü: iki yeni dosya diskteyken
+  o komut 0 satır döndü. `git add -A` yasak olduğu için adlar elle sayılır; listeyi
+  üreten komut yanlışsa kusur SESSİZ olur.
+- **③ `git apply --check` ÇAKIŞIYOR bir TEŞHİS DEĞİLDİR.** En az iki sebebi var ve
+  ikisi AYNI çıkış kodunu verir: ⓐ içerik **ZATEN UYGULANMIŞ** ⓑ gerçek çakışma.
+  Ayırmanın yolu `apply`a sormak değil, yamanın `+` satırlarını **hedef dosyada ARAMAK.**
+  🔴 Vaka: ikinci kuyruğun 22 diffi "çakışıyor" göründü; ölçünce **13'ü zaten inmişti**
+  ve bir kıta boş işe gönderilmek üzereydi.
+- **④ Çok dosyalı bir yama REDDEDİLİRSE, "şu dosya temiz indi" satırı KANIT DEĞİLDİR.**
+  `git apply` başarılı satırları başarısız bir yamada da basar, sonra **atomik geri alır.**
+  Kontrol: `git diff HEAD -- <dosya>` boş mu?
+- **⑤ Bir yamanın "şu alan DEĞİŞMEDİ" iddiası HER ZAMAN TABANINA görelidir — ve tabanlar bayatlar.**
+  "İki yönde sınandı" damgası bir yamayı zamana karşı KORUMAZ.
+  🔴 Vaka: `yer_yama_1923_1945.js` başlığında "1281-1923 arası dönemler BİREBİR aynı
+  (iki yönde sınandı)" yazıyordu; tabanına göre doğruydu, bugüne göre **76 düzeltmeyi
+  geri alıyordu.** Yama ürettiysen tabanını (`git rev-parse HEAD`) teslime YAZ.
+
+### 4.2 🆕 TAVAN ÖNERİRKEN — sayıdan önce "KAÇ DİFF" bilgisi
+Bir `BEKLENEN_*` tavanı oynatıyorsan, sayıyı ver **ve yanına şunu ekle:**
+**"bu sayaca benim dışımda kaç diff daha dokunuyor"**. Tavanı koordinatör yazar (`§3.4④`),
+ama bu bilgi olmadan doğru yazamaz.
+🔴 9 Ekim gecesi dört kez ölçüldü ve desen net:
+```
+aynı sayaca DÖRT diff dokundu → 2242/2259 önerildi, 2253 çıktı   TUTMADI
+aynı sayaca BİR  diff dokundu → 2265 önerildi,      2265 çıktı   TUTTU
+aynı sayaca İKİ  diff dokundu → 182/"sabit",        181 çıktı    TUTMADI
+aynı sayaca BİR  diff dokundu → yedi sayı, YEDİSİ DE tuttu       TUTTU
+```
+⇒ Belirleyen senin dikkatin değil, **dokunan diff sayısı.** Tek dokunan sensen öngörün tutar.
 
 ## 5. Köşeye çekil
 - Teslimden sonra DUR. Ekrana özet YAZMA (koordinatör tahtadan okur).

@@ -1,0 +1,48 @@
+diff --git a/data/kronoloji_kirim.js b/data/kronoloji_kirim.js
+index 80349518..5f62b57d 100644
+--- a/data/kronoloji_kirim.js
++++ b/data/kronoloji_kirim.js
+@@ -208,7 +208,7 @@ window.KRONOLOJI_KIRIM = [
+   etiket:["askeri","toprak","konu-askeri","afet","afet-yangin"],
+   yer_id:"Moskova",
+   d:"Kırım tarihinin en büyük askerî başarılarından biri: Devlet Giray'ın ordusu Moskova'nın güneyindeki Oka savunma hattını aşarak şehre ulaştı ve büyük bir yangınla tahrip etti; kaynaklarda şehrin büyük bölümünün kül olduğu, yüz binlerce kişinin öldüğü veya esir alındığı aktarılır. Han bu zaferle \"Taht-algan\" (taht alan) unvanını kazandı.",
+-  kaynak:"devlet-giray (TDV); tarih data/devletler.js:189 eski kayıtla (1571-05-24) örtüşüyor, gün TDV'de verilmiyor" },
++  kaynak:"TDV `devlet-giray`: \"Devlet Giray 1571’de Oka suyunda Rus müdafaa hattını yarıp Moskova önlerine geldi ve burayı ateşe verdikten sonra geri döndü. Bu başarı dolayısıyla kendisine “Taht-algan” unvanı verildi.\" · gün: bulunamadı — TDV gün vermiyor; künyedeki 1571-05-24 kaynaksızdır, atlas kaydı dayanak olamaz (D207; KRONO-CELISKI-1006 §2 #31)" },
+ { t:"1571-01-01", b:"Devlet Giray, Gözleve'de bir cami inşa ettirdi", tur:"kultur", onem:2, dunya:1, kapsam:"ic",
+   etiket:["mimari","din","imar","konu-din","konu-kultur","konu-imar"],
+   yer_id:"Gözleve (Kezlev)",
+@@ -312,7 +312,7 @@ window.KRONOLOJI_KIRIM = [
+   etiket:["ittifak","askeri","konu-askeri","konu-diplomasi","konu-isyan"],
+   yer_id:"",
+   d:"Kırım, Lehistan'a karşı ayaklanan Zaporojya Kazakları'nın Hetmanı Bohdan Hmelnitski ile ittifak kurdu; Tugay Bey'in kuvvetleri Sarı Sular baskınında Kazakların yanında yer aldı — bu ittifak birkaç yıl boyunca Doğu Avrupa siyasetini derinden etkileyecektir.",
+-  kaynak:"kirim (TDV); tarih data/kronoloji_lehistan.js:429 ile birebir", yer_kon:[48.35,33.5] },
++  kaynak:"TDV `kirim` (Kırım Hanlığı bölümü): \"Nitekim Kazak Hatmanı Chemilnicki önce onun, daha sonra da Osmanlı padişahının metbûluğunu kabul etmiştir. Bu sayede İslâm Giray 1648-1653 yılları arasında Lehistan’a seferler yaptı.\" · gün (05-16): bulunamadı — TDV gün vermiyor, Tugay Bey/Sarı Sular adı TDV gövdesinde geçmiyor. Önceki dayanak kronoloji_lehistan.js:429 bir atlas kaydıdır (D207), onun da kaynağı yalnız \"el-kitabi\" (KRONO-CELISKI-1006 §2 #9)", yer_kon:[48.35,33.5] },
+ { t:"1648-01-01", b:"İslâm Giray, 1653'e dek birkaç kez Lehistan'a sefer düzenledi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+   etiket:["askeri","konu-askeri"],
+   yer_id:"",
+diff --git a/data/kronoloji_naksa_dukaligi.js b/data/kronoloji_naksa_dukaligi.js
+index f54ca174..cc181990 100644
+--- a/data/kronoloji_naksa_dukaligi.js
++++ b/data/kronoloji_naksa_dukaligi.js
+@@ -81,7 +81,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
+ { t:"1537-11-01", b:"Barbaros Hayreddin Paşa'nın Kiklad seferi — dukalığın haraca bağlanması", tur:"vassal", onem:5, dunya:2, kapsam:"dis", yer_id:"Nakşa",
+   etiket:["askeri","vassal","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
+   d:"Barbaros Hayreddin Paşa'nın ada seferi sırasında Kikladlar'ın büyük bölümü alındı ve Duka IV. Giovanni Crispo yıllık ağır bir haraç karşılığında yerinde bırakıldı. Dukalık artık bir Osmanlı tâbi devletidir; duka Latin, tebaası Ortodoks, hükümdarı Osmanlı padişahıdır. Bu tuhaf üçlü düzen kırk yıl sürecektir.",
+-  kaynak:"TDV 'naksa' md.: \"1537-1538: Barbaros Hayreddin Paşa's island campaign brought Nakşa under Ottoman control\" · Slot, Archipelagus Turbatus · gün yaklaşıktır" },
++  kaynak:"TDV `naksa`: \"Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.\" (944 H = Haziran 1537 – Mayıs 1538) · Slot, Archipelagus Turbatus (doğrulanmadı) · gün: bulunamadı — 11-01 yaklaşıktır, kaynak gün vermiyor. Önceki İngilizce tırnaklı cümle TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #27)" },
+ 
+ { t:"1540-10-02", b:"Osmanlı-Venedik antlaşmasıyla hükümranlığın resmen devri", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Nakşa",
+   etiket:["antlasma","diplomasi","konu-diplomasi"],
+diff --git a/data/kronoloji_timurlu.js b/data/kronoloji_timurlu.js
+index 00454782..15316df3 100644
+--- a/data/kronoloji_timurlu.js
++++ b/data/kronoloji_timurlu.js
+@@ -85,7 +85,7 @@ window.KRONOLOJI_TIMURLU = [
+ { t:"1400-10-01", b:"Halep'in düşüşü — Memlük ordusu bozguna uğradı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Halep",
+   etiket:["askeri","toprak-kayip","konu-askeri"],
+   d:"Hindistan seferinden dönen Timur, 'Yedi Yıllık Sefer' adı verilen batı harekâtı kapsamında Suriye'ye girip Halep önünde Memlük ordusunu yendi; şehir üç gün yağmalandı ve kafataslarından kuleler yapıldı. Halep'in düşüşü, Kahire'deki Memlük sarayında paniğe yol açan ilk büyük darbeydi.",
+-  kaynak:"TDV `timur`: \"1400-1401: Halep, Hama, Humus ve Şam dahil Suriye şehirlerinin fethi\"" },
++  kaynak:"TDV `timur`: \"Suriye’de Halep, Hama, Humus ve Dımaşk gibi şehirleri aldı.\" (cümle TARİHSİZ) · TDV `timurlular`: \"Timur, 1399-1400 döneminde Memlükler’i ve ardından Osmanlılar’ı yendi\" · gün: bulunamadı — TDV gün vermiyor. Önceki tırnaklı \"1400-1401: …\" cümlesi TDV gövdesinde YOK, kaldırıldı (KRONO-CELISKI-1006 §2 #20)" },
+ 
+ { t:"1401-01-25", b:"Şam'ın teslimi ve İbn Haldûn ile görüşme", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"Şam",
+   etiket:["diplomasi","din","kultur","konu-diplomasi","konu-din","konu-kultur"],

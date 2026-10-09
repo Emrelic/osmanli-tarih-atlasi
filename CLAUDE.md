@@ -25,6 +25,23 @@ oturumda" değildir (4 belge = 440 KB/oturumdu; 17 Eylül 2026 token kararı, Em
 Veriye/motora dokunacaksan ek olarak `git log --oneline -10` ve `py arac/durum_tablosu.py`
 (sayılar §1.5 ile uyuşmuyorsa önce onu söyle). [`D231`](dersler/D231-belge-seti-acilis-sirasi.md)
 
+🆕 🔴 **AĞACIN GERİDEYSE DUR — ÖLÇME** (9 Ekim 2026). `git log` koşturmak yetmez;
+sonucu **`origin/main` ile KARŞILAŞTIRILIR**:
+```bash
+git fetch origin --quiet && git rev-list --count HEAD..origin/main
+```
+**0 değilse ÖLÇÜM YAPMA, DUR ve koordinatöre bildir.** Geride bir ağaçta yapılan
+ölçüm yanlış değil — **BAŞKA BİR ATLASIN** ölçümüdür, ve hiçbir kapı bunu yakalamaz.
+⚠️ Ölçülen vaka: UMIT'in `C:\atlas`'ı **44 commit** geriydi ve bütün kıtalar orada
+açılıyordu; o ağaçta bu gecenin **42 inişi YOKTU** (Harput V2 · EPOK-SAHIP ·
+bayat-taban kapısı · BOYA · gün sayacı · düzeltilmiş BÜTÜN tavanlar).
+📌 Bu, `_sahiplik_uygula`ya aynı gece koyulan **bayat-taban kapısının kör noktası**:
+o kapı YAMANIN tabanını ölçer, **İŞÇİNİN GÖZÜNÜ** değil. Yama taze olsa bile
+bayat bir ağaçta ölçülen sayı bayattır.
+🔴 Ve ölçüm **ayrı worktree'de, `origin/main`den** yapılır:
+`git worktree add <yol> origin/main --detach`. Ana checkout okuma tabanıdır,
+ölçüm zemini değil.
+
 ---
 
 ## 1. Proje nedir
@@ -45,23 +62,24 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **4298** nokta, 93 girdi dosyası |
-| Kronoloji | **1767** madde · 1393 duygu etiketli · 1633 `yer_id` · 28 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 4298 yerleşim, 309 sahipsiz (beklenen 309) |
+| Yerleşim (motorun okuduğu) | **4300** nokta, 93 girdi dosyası · kaynak_zayif işaretli kayıt: 0 |
+| Kronoloji | **1801** madde · 1431 duygu etiketli · 1661 `yer_id` (boş yer_id: 5) · 27 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 4300 yerleşim, 309 sahipsiz (beklenen 309) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 7/7 — tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 621 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 1709 YABANCI kırılması · 189 AÇIK (tavan 189) · 792 KAPSAM DIŞI · 164 YIL-TEMSİLÎ BORÇ |
-| Değişmez 2i — işgal senkronu | ✓ 142 İŞGAL kırılması, 1 açık (tavan 1) |
+| Değişmez 2 — Osmanlı senkronu | ✓ 628 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 1738 YABANCI kırılması · 181 AÇIK (tavan 181) · 792 KAPSAM DIŞI · 174 YIL-TEMSİLÎ BORÇ |
+| Değişmez 2i — işgal senkronu | ✓ 171 İŞGAL kırılması, 1 açık (tavan 1) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 13 (tavan 13) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **895** künye · **608** renk (`renkler.py`) |
+| Devletler dizini | **897** künye · **704** renk (`renkler.py`) |
 | Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 93 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
-| Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 77 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
-| Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
-| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **11** hiçbir yerde (gerçek sessiz borç) · 🟢 24 BEYANLI boya borcu (`boya_gerekli:true` — tam inşa koşusunu bekliyor, sessiz DEĞİL) · ⚪ 205 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 15 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 13 sınır · 183 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
+| Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 99 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
+| Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · 🟡 1 ölü renk (kullanılmıyor) · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
+| Renksiz künye — HARİTA DELİĞİ | 🔴 **7** kimlik haritada (`s:`/`isg:`) kullanılıyor ama BOYANMIYOR · 🟡 **11** hiçbir yerde (gerçek sessiz borç) · 🟢 5 BEYANLI boya borcu (`boya_gerekli:true` — tam inşa koşusunu bekliyor, sessiz DEĞİL) · ⚪ 125 yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil) · ⚪ 14 tâbi-çizili (yalnız `v:kid`, delik değil) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · katman evreni: `index.html`in yüklediği 13 sınır · 184 kronoloji/olay · 2 savaş · 1 kişi dosyası (kimlik alanları `durum_tablosu.py`de) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
+| Kişi kaynağı | TDV 257 · başka 2 · bulunamadı BEYANI 29 · kaynaksız 0 |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r11195** · `7a8815c3` |
+| Yayın | **r11995** · `c2ed5d94` |
 
 **Elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py` · `--yaz`
 (§1.5'i günceller). Güvenmeden önce koştur; bayat tabloyla kabul ölçütü kurulmaz.
@@ -93,7 +111,14 @@ gün için yeniden üretilir.
 Kod 2 yeni ve bir kusuru kapatıyor: araç *"Ölçülemeyen soru TEMİZ DEĞİLDİR"*
 cümlesini basıp **`SONUÇ: temiz` + çıkış 0** veriyordu. Ölçülen vaka — HAVVA'da
 shapely yok ⇒ Değişmez 8 ve konum denetimi atlanıyor, araç yine "temiz" diyordu;
-EMRELIC'te de `devletler_harita.js` diskte olmadığı için aynısı. **Otomasyon
+EMRELIC'te de `devletler_harita.js` diskte olmadığı için aynısı.
+⚠️ **BU ÖRNEK TARİHÎDİR, KAPANDI** (HAVVA ölçtü, 6 Ekim 2026: shapely 2.1.2 + rasterio
+1.5.2 KURULU; 5 Ekim'de o makinede `denetle.py` çıkış 0 verdi ve D8 + konum GERÇEKTEN
+koştu). Kural yerinde, **örneği bayat** — ve koordinatör bu örneği bugünkü ölçüm sanıp
+Emre'den gereksiz bir karar istedi (`SABAH-1004 ⑰`de düzeltildi). ⇒ Bir kuralın VAKASI
+bayatlayabilir; vakaya dayanıp **bugünkü durum hükmü verilmez**, bugün ÖLÇÜLÜR. Örneğin
+bayatlaması kuralı zayıflatmaz: `OLCULEMEDI_KOVA` bağımlılık dışında da dolar
+(dosya yok · API değişti · ağ yok). **Otomasyon
 cümleyi okumaz, çıkış kodunu okur.** Yeni topolojide LAB denetleyici: eksik
 bağımlılıklı bir LAB, ölçemediği depoyu temiz raporlardı. Ölçülemeyen her soru
 `OLCULEMEDI_KOVA`ya ADIYLA düşer (sayı değil LİSTE) ve hükümde basılır; ihlal
@@ -116,7 +141,10 @@ daha geniş evrende sorar.
   kendi yorumu "toprak boyaması etkilenmiyor" der (`uret_petek.py:1051`). ⇒ Gövde
   çakışması / üst üste binme `kd:` ile DÜŞMEZ ve koşu istemez; o kusur
   `donemler.js` + `devletler_harita.js` gövdelerindedir. İki kusur sınıfı tek cümleyle
-  anılırsa bir oturum 40 dakikalık koşuyu boşa ister — bir kez tam bu oldu.
+  anılırsa bir oturum KOCA BİR KOŞUYU boşa ister — bir kez tam bu oldu.
+  ⚠️ Bu cümle uzun süre "40 dakikalık koşu" diyordu; sayı BAYATTI. Ölçüldü
+  (HAVVA, 9 Ekim 2026, `uretim_canli.log`): tam inşa **7-8 SAAT**. Yani boşa
+  istenen şey bir öğle arası değil, bir GECE — kural zayıflamıyor, güçleniyor.
 - **8 — şehir bölgesi ülke sınırını aşamaz** (Emre H-0069/H-0086, 27 Eyl 2026). İki soru,
   iki tavan: **8a** gövde, o gün geçerli D/E/F hattını aşıp karşı yakaya ≥ 5 km uzanan
   yerleşim peteği · **8b** Osmanlı `BOLGELER` poligonunun yabancı gövdeye düşen payı.
@@ -124,6 +152,34 @@ daha geniş evrende sorar.
   ölçümdür (dondurma, onay değil); yeni D hattı tavana değil "YENİ KAPSAM" kovasına düşer
   (`--d8-defter-yaz`). Muafiyetler (eksklav · menderes · `__BOSLUK__` · tâbi · `isg:` ·
   C/YOK hattı) `denetle.py`de gerekçeli. [`D237`](dersler/D237-sehir-bolgesi-sinir-asamaz.md)
+
+### 3.4 🆕 🔴 TAVAN DİSİPLİNİ — her `BEKLENEN_*` için, istisnasız
+0. 🔴 **TAVAN, YAZILDIĞI ANDA ÖLÇÜLÜR** — "bugünkü ölçüm" yetmez. Ölçülen vaka (6 Ekim):
+   kaynaksızlık sayıları **bir günde 5 kayıt** oynadı (öngörü 1968/333, ölçüm 1930/371;
+   bir gün önceki 1935/366 de bayattı). ⇒ Saatler önce ölçülmüş bir tavanı yazmak, bayat
+   bir sabit dondurur. Yazmadan hemen önce ölçüm **yeniden koşturulur** ve fark
+   **ADIYLA** karşılaştırılır (geçiş dosyası: hangi kayıt hangi kovadan hangisine geçti).
+1. **Tavan BUGÜNKÜ ÖLÇÜMDÜR.** Geleceğin değeri yazılmaz: ölçüm 6 iken 12 yazmak
+   **tavanla susturulmuş borç** üretir ve kapı o borcu bir daha hiç göstermez.
+   (5-6 Ekim gecesi vaka: iran künyesi borcu tavana yazılmış, kapı görüyordu,
+   bir oturum "kapı bu sınıfı görmüyor" diye rapor etti — kör olan kapı değildi.)
+2. 🔴 **TAVAN + SABİT AYNI COMMIT'TE.** Bir düzeltme tavanı oynatıyorsa, yeni sabit
+   o düzeltmeyle **aynı commit'te** iner. Ayrılırsa arada kalan commit'te kapı
+   **DOĞRU çıktıyı yanlışlıkla REDDEDER** (ya da tersi: gevşek tavan yeni borcu yutar).
+   ⚠️ Bu kural 5-6 Ekim gecesine kadar YAZILI DEĞİLDİ ve koordinatör onu dört kez
+   uyguladı (`BEKLENEN_MUKERRER` · `OLU_ISTISNA` · `2S_YALNIZ_TARAF` · `BAYAT_KOPYA`)
+   — bir işçi onu arayıp **bulamadı**. `§9.1`in cümlesi: *kural yazılı olmayan kural
+   değil, UNUTULAN kuraldır.*
+3. **Yalnız GERİLEME bloke eder; İYİLEŞİNCE TAVAN İNER.** İyileşmiş bir ölçümde eski
+   tavanı bırakmak, aradaki payı sessiz borç yapar.
+4. **Tavanı İŞÇİ ÖNERİR, KOORDİNATÖR YAZAR** (`§7` dosya sahipliği). İşçi ölçer ve
+   önerir; `--tavan-yaz` gibi yardımcılar **körü körüne kullanılmaz** — ölçülen vaka:
+   `ODAK-TAVAN.json`da o bayrak evreni genişletip 3306 kalemi affediyordu.
+5. **İSTİSNA LİSTESİ DE TAVAN AİLESİDİR** (`BILINEN_AYRI`, `bilinen_kusur`): sayı değil
+   **LİSTE** tutar, ve bir girdinin "ölü" olup olmadığı **TÜKETİCİYE GÖRE** sorulur —
+   aynı liste iki işlev tarafından okunuyorsa birinde ölü, ötekinde CANLI olabilir.
+   📌 Ve ölü istisna zararsız değildir: bugün hiçbir şeyi susturmayan bir istisna,
+   yarın gerçek bir ihlali susturur. **En iyi istisna, yazılmayan istisnadır.**
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`
@@ -174,7 +230,10 @@ daha geniş evrende sorar.
   cümleyi doğru ayrıştır** (Türkçe yan cümle) · ⑦ çıkarıcının "okuyamadım"ı belge
   hakkında bir şey söylemez (ikinci çıkarıcı dene) · ⑧ rakamın gövdede geçmesi o değeri
   desteklediği anlamına gelmez — **rakamı taşıyan cümlenin neyi tarihlediği okunur**;
-  gövde ile künye karşılıklı okunur. [`D211`](dersler/D211-tdv-tuzak-5-8-once-ayristir.md)
+  gövde ile künye karşılıklı okunur · 🆕 ⑨ **aramada çıkmayan madde ÖLÜ DEĞİL**: ölçüldü
+  (GLM1, 6 Ekim 2026) `sarikamis-harekati` GET **200** ve gövdesi var ama TDV aramasında
+  HİÇ görünmüyor ⇒ arama ADAY üretir, `GET` DOĞRULAR; köprü aramadan tek başına kurulmaz
+  (liste ilk ~10'dur ve sayfa sayısı basmaz). [`D211`](dersler/D211-tdv-tuzak-5-8-once-ayristir.md)
 - **Arama:** `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`. "TDV'de yok" demeden ARA;
   dar slug tutmazsa kapsayıcı maddeyi dene — **TDV olay değil yer-kişi ansiklopedisidir**, olay
   slug'ı ölüyse olayın geçtiği YERE ya da başındaki KİŞİYE bak. Kapsama tablosu künye
@@ -208,6 +267,29 @@ dersler/ · denetim/ · oturumlar/ · assets/portreler/
 py -c "import sys;sys.path.insert(0,'arac');import girdi;print(len(girdi.GIRDI_DOSYALARI));[print(' ',f) for f in girdi.GIRDI_DOSYALARI]"
 ```
 Vaka: [`D219`](dersler/D219-dosya-haritasi-tam.md)
+
+🆕 🔴 **AYNI KURALIN ÇIKTI YÜZÜ — ÜRETİLMİŞ DOSYA DİSKTE OLABİLİR, YAYINDA OLMAYABİLİR**
+(10 Ekim 2026). Çıktı tarafında canlı olan, diskteki en büyük dosya değil
+**`index.html`in `<script src=>` satırıdır.** Ölçülen vaka: koordinatör
+`data/devletler_harita.js`i "yayındaki harita" diye iki kıtaya ve UMIT'e verdi.
+```
+data/devletler_harita.js    93.694.456 bayt, 4 Ekim   GIT'TE HİÇ YOK (takipsiz,
+                            origin/main'de de yok) — YEREL ÇÖZÜM, yayın DEĞİL
+                            UMIT'te aynı adda 180.999.059 baytlık BAŞKA kopya
+data/devlet_harita_ust.js    3.148.869 bayt  TAKİPLİ · index.html:1759 · YAYIN BU
+                            son dokunan: `14174ef7` KOŞU 21 (7 Ekim) ⇒ 93 MB'lık
+                            dosya yayındaki haritadan ÜÇ GÜN ESKİ
+```
+⇒ Kusur "dosya yok" değil: **dosya VARDI ve YANLIŞTI.** Varlığı doğruluk sanıldı.
+🔴 Üretilmiş haritayı ölçecek her iş, tabanını KENDİ ÇÖZER:
+```bash
+git worktree add <yol> origin/main --detach
+cd <yol> && py arac/kodla.py coz-c data data/devletler_harita.js
+```
+Ve ölçüm raporuna **taban commit + boyut + sha256** yazılır; yazılmayan parametre
+ölçümü tek kullanımlık yapar (ÖNCE/SONRA kıyaslanamaz).
+📌 Bu, `§7`in "ÜRETİLMİŞ — ELLE DÜZENLEME" uyarısının eksik yarısı: o satır
+üretilmiş dosyaya **yazmayı** yasaklıyordu, **okumayı** düzenlemiyordu.
 
 ## 6. Kapsam genişlemesinin sırası
 Dizin katmanı → yerleşim yoğunluğu → harita penceresi. **Nokta yoğunluğu sağlanmadan pencere
@@ -529,7 +611,12 @@ Alan alan tam şema, alan sözlüğü ve kaynak seti: **`VERI-YAPISI.md`**. Veri
 ## 9. Komutlar
 
 ```bash
-py arac/uret_petek.py     # harita üretimi (~40 dk, yalnız Oturum 0)
+py arac/uret_petek.py     # harita üretimi — 🔴 ~40 dk DEĞİL: TAM İNŞA **7-8 SAAT**
+                          #   ölçüldü (HAVVA, 9 Ekim 2026, `uretim_canli.log`
+                          #   AŞAMA BİLANÇOSU): KOŞU 21 duvar 7s13dk · KOŞU 20 8s13dk.
+                          #   En büyükler: yabancı gövdeler 2s38dk · dönemler 2s11dk ·
+                          #   ufuk bantları 57dk · çöl tavanı 30dk. Tuz değişirse
+                          #   önbellek tamamen ıskalar ⇒ üst sınır. Koşucu HAVVA (§7).
 py arac/uret_devirler.py  # devirler.js — uret_petek'ten SONRA koşar
 py arac/renk_olc.py       # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
 py arac/denetle.py        # altı değişmez
@@ -604,8 +691,11 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 264 ders (dosya 264 = dizin bağı 264,
-6 Ekim 2026'da ÖLÇÜLDÜ). Toplu okunmaz, kural
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 268 ders (dosya 268 = dizinde anılan
+benzersiz no 268, 6 Ekim 2026 gecesi ÖLÇÜLDÜ).
+⚠️ Sayarken `ls dersler/D*.md` KULLANMA: `DIZIN.md` de "D" ile başlıyor ve glob onu da
+sayıyor (bir fazla verir — `D267`nin tuzağının birebir aynısı). Doğrusu
+`ls dersler/ | grep -cE "^D[0-9]+-"`. Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
 (ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.

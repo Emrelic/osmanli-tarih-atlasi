@@ -151,7 +151,7 @@ window.YERLESIMLER_EK7 = [
 // ⚠️ Memel Litvanya DEĞİL: Töton/Prusya toprağıdır ve 1923 Ocak'a kadar
 //    Almanya'dadır. Königsberg'in zinciri kullanıldı.
 { ad:"Klaipėda (Memel)", tur:"liman", lat:55.703, lon:21.144, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-02-16",d:"almanya"},{f:"1923-02-16",t:"1923-10-29",d:"litvanya"}] },
+  s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1920-01-10",d:"almanya"},{f:"1920-01-10",t:"1923-02-16",d:"itilaf-emaneti",kaynak:"F8 + D205 ③ (Lvov/Gdansk emsali): Versay md. 99 (avalon.law.yale.edu/imt/partiii.asp): 'Germany renounces in favour of the Principal Allied and Associated Powers all rights and title over the territories included between the Baltic, the north-eastern frontier of East Prussia as defined in Article 28 of Part II (Boundaries of Germany) of the present Treaty and the former frontier between Germany and Russia.' · FRUS 1919 c. XIII (history.state.gov frus1919Parisv13): Versay 10 Ocak 1920'de yürürlüğe girdi · atama: FRUS c. XIII not III-99 (ch12subch10): 'The Conference of Ambassadors on February 16, 1923 assigned the territory of Memel to Lithuania' (UMIT-W54b 1006)"},{f:"1923-02-16",t:"1923-10-29",d:"litvanya",kaynak:"F8: de jure devir atama gününde — FRUS c. XIII not III-99: 'The Conference of Ambassadors on February 16, 1923 assigned the territory of Memel to Lithuania'"}] },
 
 // ── LİTVANYA BÜYÜK DUKALIĞI'NIN DOĞUSU — birinci taksim ─────────────
 { ad:"Polotsk",kaynak:"polonya", tur:"sehir", lat:55.485, lon:28.786, g:0, k:3, d:[],

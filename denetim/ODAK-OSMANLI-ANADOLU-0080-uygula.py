@@ -34,6 +34,11 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import odak_olc  # noqa: E402
+# W32b (6 Ekim 2026): T4 — _oku · sinifla · yer_havuzu 26741c10 (27 Eyl) ile odak_olc'tan KALDIRILDI;
+# betik AttributeError ile çöküp ÇIKIŞ 1 ("ihlal") veriyordu. Artık açılışta ÇIKIŞ 2,
+# veriye HİÇBİR ŞEY yazılmadan. Taşıma: arac/odak_cozum.js (W36: ODAK-ASYA-0080-uygula).
+import olcu_kapisi_1006 as _w32_ok
+_w32_ok.api(odak_olc, ['_oku', 'sinifla', 'yer_havuzu'], "odak_olc")
 
 UYGULA = "--uygula" in sys.argv
 KG_KALDIR = "--kg-kaldir" in sys.argv

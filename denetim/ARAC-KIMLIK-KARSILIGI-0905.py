@@ -11,7 +11,7 @@ OLCMEDIGI: kayitlarin `d:`/`s:` KIMLIKLERI kunyede ve BOYALAR'da var mi.
 SALT OKUR. ASCII.
 """
 import io, os, re, sys, unicodedata, collections
-KOK = r"C:\atlas"
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEN = os.path.join(KOK, "denetim")
 
 

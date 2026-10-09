@@ -1,0 +1,233 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 6e9172eb..69d35d6d 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -1503,7 +1503,24 @@ def _2s_taraf_adaylari(sid):
+ #   eder; iyileşince indirilir.
+ # ═══════════════════════════════════════════════════════════════════════════
+ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
+-              "maskeli_yer": 0, "maskeli_yalniz_taraf": 0}
++              "maskeli_yer": 0, "maskeli_yalniz_taraf": 0,
++              "gun_yer": 0, "gun_yalniz_taraf": 0,
++              "ocak1_yer": 0, "ocak1_yalniz_taraf": 0}
++# 🆕 6 Ekim 2026 — OCAK-1 KOVALARI BİRİM BAŞINA (W41b ölçtü, koordinatör onayı: SENARYO B).
++#   `YYYY-01-01` kırılması yıl-temsilîdir: o kovadaki yerler aynı OLAYI değil aynı YILI
++#   paylaşır. Kova eşitliği bir olay iddiası taşımadığı için "kovadaki HER yer açıklanmalı"
++#   (Mankup 1349) kuralı orada maske üretir: ölçüldü (47290f11) maskeli TARAF'ın %58'i
++#   (348/597) ve maskeli YER'in %42'si OCAK-1 kovalarındaydı; OCAK-1 kovalarının yalnız
++#   %19'u kapanıyordu (gün kovalarında %54). Uç vaka 1794-01-01: 5 Kanada noktası 126
++#   alakasız taraf birimini görünmez tutuyordu.
++#   ⇒ OCAK-1 kovasında AÇIKLANMIŞ her birim kendi başına GÖRÜNÜR sayılır, MASKELENMEZ.
++#   🔴 YALNIZ SAYIM değişir, HÜKÜM DEĞİŞMEZ: kovanın AÇIK/KAPALI kararı (Mankup kuralı),
++#   2s AÇIK sayısı, YIL-TEMSİLÎ BORÇ ve KAPSAM DIŞI aynen kalır.
++#   `yer`/`yalniz_taraf` = GÜN + OCAK-1 toplamı (öteki araçlar bu anahtarları okuyor —
++#   anlamları "görünür kapalı" olarak korunur). `maskeli_*` artık YALNIZ gün kovalarıdır.
++#   Görünür+maskeli TARAF toplamı (tavanın sorduğu sayı) bu değişiklikle KIPIRDAMAZ:
++#   OCAK-1'in maskeli birimi görünüre geçer, toplam aynı kalır (sınav:
++#   `denetim/ARAC-2SK-OCAK1-SINAV-1006.py`).
+ # 🆕 🔴 ÜÇÜNCÜ SAYI (5 Ekim 2026, ONCE1281 ölçtü) — "acik_kovada": SAYACIN MASKESİ.
+ #   `degismez2` güne göre TEK KOVA kurar ve kovadaki TEK bir yer açıklanmazsa kovadaki
+ #   HİÇBİR birim kapalı sayılmaz (`eksik` dolu ⇒ fark 31 ⇒ AÇIK). Sonuç: büyük bir kova
+@@ -1631,6 +1648,8 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
+         #   sıfırlanmadığı için ikinci çağrıda 1654 → 3270 birikiyordu (ana akış tek
+         #   çağrı yaptığından resmî sayı doğruydu; çoklu çağıran araç yanlış okurdu).
+         KAPANIS_2S["acik_kovada"] = 0
++        for _a in ("gun_yer", "gun_yalniz_taraf", "ocak1_yer", "ocak1_yalniz_taraf"):
++            KAPANIS_2S[_a] = 0
+     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
+     ol = [{"g": gun_no(o["t"]), "b": o["b"],
+            "yer": o.get("yer_id") or o.get("yer")} for o in O]
+@@ -1734,6 +1753,14 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
+                             _kol.append("yer" if _yer_uyan else "yalniz_taraf")
+                         else:
+                             eksik.append(ad)
++                    # 🆕 OCAK-1 kovası: SAYIM birim başına (bkz. KAPANIS_2S
++                    #   yorumu). Açıklanmış birim kovanın hükmünden BAĞIMSIZ
++                    #   görünür sayılır; aşağıdaki hüküm (eksik ⇒ AÇIK) aynen.
++                    _ocak1 = str(d)[4:] == "-01-01"
++                    if _ocak1:
++                        for _k in _kol:
++                            KAPANIS_2S[_k] += 1
++                            KAPANIS_2S["ocak1_" + _k] += 1
+                     if eksik:
+                         fark = 31          # açıklanmayan yerleşim VAR ⇒ AÇIK
+                         kir[d]["eksik"] = eksik
+@@ -1741,17 +1768,21 @@ def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
+                         #   ATILMIYOR, SAYILIYOR (bkz. KAPANIS_2S "acik_kovada"):
+                         #   açıklanmış oldukları hâlde kovanın tek eksiği yüzünden
+                         #   görünmez kalan birimler maskenin KENDİSİDİR.
+-                        KAPANIS_2S["acik_kovada"] += len(_kol)
+-                        # 🆕 6 Ekim 2026: maske KOLA göre de sayılır — 2sk tavanı
+-                        #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
+-                        for _k in _kol:
+-                            KAPANIS_2S["maskeli_" + _k] += 1
++                        #   (OCAK-1 kovasında maske YOK — birimler yukarıda sayıldı.)
++                        if not _ocak1:
++                            KAPANIS_2S["acik_kovada"] += len(_kol)
++                            # 🆕 6 Ekim 2026: maske KOLA göre de sayılır — 2sk tavanı
++                            #   görünür + maskeli TARAF toplamına bağlandı (bkz. tavan).
++                            for _k in _kol:
++                                KAPANIS_2S["maskeli_" + _k] += 1
+                     else:
+                         en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
+                         fark = abs(en_yakin["g"] - gd)
+                         # 🆕 kırılma KAPANDI ⇒ birimlerin kolu ŞİMDİ sayılır
+-                        for _k in _kol:
+-                            KAPANIS_2S[_k] += 1
++                        if not _ocak1:
++                            for _k in _kol:
++                                KAPANIS_2S[_k] += 1
++                                KAPANIS_2S["gun_" + _k] += 1
+                 else:
+                     esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
+                     if esli:
+@@ -6020,6 +6051,12 @@ def main():
+     print(f"Değişmez 2sk {'🧊' if not _trf_asim else '⚠️'}  kapanışın SINIFI: "
+           f"{_k_top} kapalı = {_k_yer} YER anılarak + {_k_trf} YALNIZ TARAF ile "
+           f"· yalnız-taraf görünür+maskeli {_k_trf_tum} (tavan {BEKLENEN_2S_YALNIZ_TARAF})")
++    # 🆕 6 Ekim 2026 — GÜN / OCAK-1 AYRI SÜTUN (bkz. KAPANIS_2S yorumu): OCAK-1 birim
++    #   başına sayılır, maskelenmez; maske yalnız gün kovalarındadır.
++    print(f"            GÜN    YER {KAPANIS_2S['gun_yer']:5} · TARAF {KAPANIS_2S['gun_yalniz_taraf']:5}"
++          f" · maskeli YER {KAPANIS_2S['maskeli_yer']} · TARAF {_k_mtrf}")
++    print(f"            OCAK-1 YER {KAPANIS_2S['ocak1_yer']:5} · TARAF {KAPANIS_2S['ocak1_yalniz_taraf']:5}"
++          f" · maske YOK (yıl-temsilî kova birim başına sayılır)")
+     _k_mask = KAPANIS_2S["acik_kovada"]
+     if _k_mask:
+         print(f"            🔴 MASKE: {_k_mask} birim AÇIKLANMIŞ olduğu hâlde SAYILMIYOR "
+diff --git a/denetim/ARAC-2SK-OCAK1-SINAV-1006.py b/denetim/ARAC-2SK-OCAK1-SINAV-1006.py
+new file mode 100644
+index 00000000..8dab3e0a
+--- /dev/null
++++ b/denetim/ARAC-2SK-OCAK1-SINAV-1006.py
+@@ -0,0 +1,131 @@
++# ARAC-2SK-OCAK1-SINAV-1006 — 2sk OCAK-1 kovaları BİRİM BAŞINA (SENARYO B) sınavı (UMIT-W41).
++#
++#   S1  OCAK-1 kovası AÇIK, bir birim açıklanmış → birim OCAK-1 sütununa düşer, MASKEYE düşmez
++#   S2  GÜN kovası aynı kurguyla → birim MASKEYE düşer, OCAK-1 sütununa DÜŞMEZ (ters yön)
++#   S3  GÜN kovası KAPALI → birim GÜN sütununa düşer
++#   S4  OCAK-1'de TARAF kolu → ocak1_yalniz_taraf
++#   S5  HÜKÜM DEĞİŞMEZ: OCAK-1 kovası birim sayılsa da AÇIK listesinde kalır
++#   S6  gerçek veri: yer = gün + ocak1 · taraf = gün + ocak1 · görünür+maskeli TARAF = tavan
++#   S7  gerçek veri: OCAK-1 sütunu BAĞIMSIZ birim-başına sayımla birebir (yer + taraf)
++#   S8  çağrı başına sıfırlama: iki ardışık çağrı aynı sayıları verir
++# Koşum: py denetim/ARAC-2SK-OCAK1-SINAV-1006.py   (çıkış 0 = hepsi geçti)
++# İki yön: bu sınav değişiklik ÖNCESİ denetle.py'de S1/S6/S7 ✗ verir (anahtar yok ⇒ ✗, çökmez).
++import io, os, re, sys
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++os.chdir(KOK)
++sys.path.insert(0, os.path.join(KOK, "arac"))
++_out = sys.stdout
++import denetle as D
++sys.stdout = _out
++out = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8") if hasattr(sys.stdout, "buffer") else sys.stdout
++
++gecti = toplam = 0
++
++
++def sina(ad, kosul, ayrinti=""):
++    global gecti, toplam
++    toplam += 1
++    gecti += bool(kosul)
++    out.write("%s %s%s\n" % ("✓" if kosul else "✗", ad,
++                             ("  — " + str(ayrinti)) if (ayrinti and not kosul) else ""))
++
++
++def K(a):
++    return D.KAPANIS_2S.get(a)
++
++
++def yer(ad, gun, eski, yeni, lat=40.0, lon=30.0):
++    return {"ad": ad, "lat": lat, "lon": lon, "_kaynak": "sinav.js",
++            "s": [{"f": "1281-01-01", "t": gun, "d": eski},
++                  {"f": gun, "t": "1923-10-29", "d": yeni}]}
++
++
++def madde(t, b, yer_id="", d=""):
++    return {"t": t, "b": b, "yer_id": yer_id, "yer": yer_id, "d": d}
++
++
++# ── Sentetik: iki yerleşimli kova, yalnız A maddede anılıyor (B anılmıyor ⇒ kova AÇIK) ──
++for gun, etiket in (("1500-01-01", "OCAK-1"), ("1500-06-15", "GÜN")):
++    Y = [yer("Sinavkent Alfa", gun, "safevi", "akkoyunlu"),
++         yer("Sinavkent Beta", gun, "safevi", "akkoyunlu", lat=41.0)]
++    O = [madde(gun, "Sinavkent Alfa düştü", yer_id="Sinavkent Alfa")]
++    kir, acik = D.degismez2(Y, O, ("s",), yer_sarti=True)
++    acik_gun = [a[0] for a in acik]
++    if etiket == "OCAK-1":
++        sina("S1 OCAK-1 AÇIK kova: açıklanmış birim ocak1_yer'e düşer (1)", K("ocak1_yer") == 1, K("ocak1_yer"))
++        sina("S1 OCAK-1 AÇIK kova: birim MASKEYE düşmez (maskeli_yer 0, acik_kovada 0)",
++             K("maskeli_yer") == 0 and K("acik_kovada") == 0, (K("maskeli_yer"), K("acik_kovada")))
++        sina("S1 OCAK-1: görünür yer = 1 (toplam anahtar)", K("yer") == 1, K("yer"))
++        sina("S5 HÜKÜM DEĞİŞMEZ: OCAK-1 kovası yine AÇIK listesinde", gun in acik_gun, acik_gun)
++    else:
++        sina("S2 GÜN AÇIK kova: birim MASKEYE düşer (maskeli_yer 1)", K("maskeli_yer") == 1, K("maskeli_yer"))
++        sina("S2 GÜN AÇIK kova: ocak1_yer'e DÜŞMEZ (0)", (K("ocak1_yer") or 0) == 0, K("ocak1_yer"))
++        sina("S2 GÜN AÇIK kova: görünür yer 0", K("yer") == 0, K("yer"))
++        sina("S2 GÜN: kova AÇIK listesinde", gun in acik_gun, acik_gun)
++
++# ── S3: GÜN kovası KAPALI (iki yer de anılıyor) ──
++gun = "1500-06-15"
++Y = [yer("Sinavkent Alfa", gun, "safevi", "akkoyunlu"), yer("Sinavkent Beta", gun, "safevi", "akkoyunlu", lat=41.0)]
++O = [madde(gun, "Sinavkent Alfa ve Sinavkent Beta düştü", yer_id="Sinavkent Alfa")]
++kir, acik = D.degismez2(Y, O, ("s",), yer_sarti=True)
++sina("S3 GÜN KAPALI kova: gun_yer 2 · ocak1_yer 0", K("gun_yer") == 2 and (K("ocak1_yer") or 0) == 0,
++     (K("gun_yer"), K("ocak1_yer")))
++
++# ── S4: OCAK-1 TARAF kolu — başlıkta taraf adı, yer adı yok ──
++taraf = D._2s_taraf_adaylari("akkoyunlu")
++gun = "1500-01-01"
++Y = [yer("Sinavkent Gamma", gun, "safevi", "akkoyunlu")]
++O = [madde(gun, "%s olayı" % (taraf[0].title() if taraf else "Akkoyunlu"))]
++kir, acik = D.degismez2(Y, O, ("s",), yer_sarti=True)
++sina("S4 OCAK-1 TARAF kolu: ocak1_yalniz_taraf 1 · ocak1_yer 0 (taraf adayı %r)" % (taraf[:1],),
++     K("ocak1_yalniz_taraf") == 1 and K("ocak1_yer") == 0, (K("ocak1_yalniz_taraf"), K("ocak1_yer")))
++
++# ── Gerçek veri ──
++Y = D.yerlesimleri_yukle()
++O = D.olaylari_yukle()
++Yc = [y for y in Y if y.get("_kaynak") not in D.KUYRUK_DOSYALARI]
++kir, acik = D.degismez2(Yc, O, ("s",), yer_sarti=True)
++R1 = dict(D.KAPANIS_2S)
++g = lambda a: R1.get(a) or 0
++sina("S6 gerçek: yer = gun_yer + ocak1_yer (%d = %d + %d)" % (g("yer"), g("gun_yer"), g("ocak1_yer")),
++     "gun_yer" in R1 and g("yer") == g("gun_yer") + g("ocak1_yer"))
++sina("S6 gerçek: taraf = gun + ocak1 (%d = %d + %d)" % (g("yalniz_taraf"), g("gun_yalniz_taraf"), g("ocak1_yalniz_taraf")),
++     "gun_yalniz_taraf" in R1 and g("yalniz_taraf") == g("gun_yalniz_taraf") + g("ocak1_yalniz_taraf"))
++tum = g("yalniz_taraf") + g("maskeli_yalniz_taraf")
++sina("S6 gerçek: görünür+maskeli TARAF %d = tavan %d" % (tum, D.BEKLENEN_2S_YALNIZ_TARAF),
++     tum == D.BEKLENEN_2S_YALNIZ_TARAF)
++
++# S7 — BAĞIMSIZ birim-başına sayım (degismez2'nin kova mantığını KULLANMAZ; yalnız kırılma
++#   kümesini ve iki kol yardımcısını kullanır) → OCAK-1 sütunu ile birebir.
++Y_KOK = {y["ad"]: D._2s_norm(re.sub(r"\s*\(.*?\)", "", y["ad"] or "").strip()) for y in Y}
++Y_MERKEZ = {y["ad"]: (y.get("m") or "", D._2s_norm(y.get("m") or "")) for y in Y}
++ol = [{"g": D.gun_no(o["t"]), "b": o["b"], "yer": o.get("yer_id") or o.get("yer"),
++       "nrm": D._2s_norm(" ".join([o.get("b") or "", o.get("yer") or "", o.get("d") or ""])),
++       "nrm_b": D._2s_norm(o.get("b") or ""),
++       "nrm_y": D._2s_norm(" ".join([o.get("b") or "", o.get("yer") or ""])),
++       "yer_id": o.get("yer_id") or ""} for o in O]
++by, bt = 0, 0
++for d in kir:
++    if str(d)[4:] != "-01-01":
++        continue
++    gd = D.gun_no(d)
++    yak = [o for o in ol if abs(o["g"] - gd) <= 30]
++    for ad in kir[d]["ad"]:
++        if any(D._2s_yeri_aniyor(o, {ad}, Y_KOK, Y_MERKEZ) for o in yak):
++            by += 1
++        elif any(D._2s_tarafi_aniyor(o, {ad: kir[d]["sahip"].get(ad, {})}) for o in yak):
++            bt += 1
++sina("S7 gerçek: ocak1_yer %s = bağımsız sayım %d" % (R1.get("ocak1_yer"), by), R1.get("ocak1_yer") == by)
++sina("S7 gerçek: ocak1_yalniz_taraf %s = bağımsız sayım %d" % (R1.get("ocak1_yalniz_taraf"), bt),
++     R1.get("ocak1_yalniz_taraf") == bt)
++
++# S8 — ikinci çağrı aynı sayıları vermeli (sıfırlama)
++D.degismez2(Yc, O, ("s",), yer_sarti=True)
++R2 = dict(D.KAPANIS_2S)
++sina("S8 ikinci çağrı aynı sayılar (birikme yok)", R1 == R2,
++     {k: (R1.get(k), R2.get(k)) for k in R2 if R1.get(k) != R2.get(k)})
++
++out.write("SINAV %d/%d\n" % (gecti, toplam))
++out.flush()
++raise SystemExit(0 if gecti == toplam else 1)

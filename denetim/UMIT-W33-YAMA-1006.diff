@@ -1,0 +1,846 @@
+diff --git a/data/kronoloji_cok_1dunya_A.js b/data/kronoloji_cok_1dunya_A.js
+index fb85fba5..12eb0868 100644
+--- a/data/kronoloji_cok_1dunya_A.js
++++ b/data/kronoloji_cok_1dunya_A.js
+@@ -99,7 +99,7 @@ window.KRONOLOJI_COK_1DUNYA_A = [
+ {"t": "1919-06-19", "devlet": "letonya", "taraflar": ["letonya", "estonya"], "devletler": ["letonya", "estonya"], "b": "Cēsis Muharebesi", "tur": "savas", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Cēsis (Wenden)", "etiket": ["1-dunya-savasi", "konu-siyasi", "baltik-bagimsizlik", "letonya", "estonya"], "d": "Litvanya, Letonya ve Estonya'nın bağımsızlık savaşları sırasında 19 Haziran 1919'da Cēsis Muharebesi yapıldı.", "kaynak": "1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/"},
+ {"t": "1919-06-28", "devlet": "fransa-cumhuriyet", "taraflar": ["fransa-cumhuriyet", "italya", "abd", "belcika"], "devletler": ["fransa-cumhuriyet", "italya", "abd", "belcika"], "b": "Versay Antlaşması imzalandı", "tur": "antlasma", "onem": 5, "dunya": 5, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "baris", "fransa-cumhuriyet", "italya", "abd", "belcika"], "d": "Almanya Dışişleri Bakanı Hermann Müller 28 Haziran 1919'da Versay Antlaşması'nı imzaladı. TDV'ye göre Belçika bu antlaşmayla bağımsızlığına yeniden kavuştu ve Almanya'dan Malmedy ile çevresini aldı. (Almanya, İngiltere, eski Fransa ve Polonya künyelerinde bu olay zaten var.)", "kaynak": "TDV İslâm Ansiklopedisi, «Birinci Dünya Savaşı» (Ercüment Kuran, 1992, c. 6, s. 196-200) — islamansiklopedisi.org.tr/birinci-dunya-savasi · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/ · TDV İslâm Ansiklopedisi, «Belçika» — islamansiklopedisi.org.tr/belcika"},
+ {"t": "1919-07-12", "devlet": "almanya", "taraflar": ["almanya", "ingiltere"], "devletler": ["almanya", "ingiltere"], "b": "Müttefiklerin Almanya'ya uyguladığı deniz ablukası kaldırıldı", "tur": "diplomasi", "onem": 3, "dunya": 3, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "baris", "almanya", "ingiltere"], "d": "Müttefiklerin savaş boyunca Almanya'ya uyguladığı deniz ablukası 12 Temmuz 1919'da kaldırıldı.", "kaynak": "1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/"},
+-{"t": "1919-09-10", "devlet": "italya", "taraflar": ["italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi"], "devletler": ["italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi"], "b": "Saint-Germain Antlaşması — Avusturya ile barış", "tur": "antlasma", "onem": 5, "dunya": 4, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "baris", "italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi"], "d": "TDV'ye göre 10 Eylül 1919'da Avusturya ile Saint-Germain Antlaşması imzalandı. Antlaşma Bukovina'nın Romanya'nın parçası olduğunu uluslararası alanda tanıdı. (Avusturya, Çekoslovakya ve SHS künyelerinde bu olay zaten var.)", "kaynak": "TDV İslâm Ansiklopedisi, «Birinci Dünya Savaşı» (Ercüment Kuran, 1992, c. 6, s. 196-200) — islamansiklopedisi.org.tr/birinci-dunya-savasi · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/ · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), «Romania» — encyclopedia.1914-1918-online.net/article/romania-1-1/"},
++{"t": "1919-09-10", "devlet": "italya", "taraflar": ["italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi", "itilaf-emaneti"], "devletler": ["italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi"], "b": "Saint-Germain Antlaşması — Avusturya ile barış", "tur": "antlasma", "onem": 5, "dunya": 4, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "baris", "italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi"], "d": "TDV'ye göre 10 Eylül 1919'da Avusturya ile Saint-Germain Antlaşması imzalandı. Antlaşma Bukovina'nın Romanya'nın parçası olduğunu uluslararası alanda tanıdı. (Avusturya, Çekoslovakya ve SHS künyelerinde bu olay zaten var.)", "kaynak": "TDV İslâm Ansiklopedisi, «Birinci Dünya Savaşı» (Ercüment Kuran, 1992, c. 6, s. 196-200) — islamansiklopedisi.org.tr/birinci-dunya-savasi · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/ · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), «Romania» — encyclopedia.1914-1918-online.net/article/romania-1-1/ · itilaf-emaneti (taraflar): Saint-Germain md. 91 — 'Austria renounces so far as she is concerned in favour of the Principal Allied and Associated Powers all rights and title over the territories … [which] have not at present been assigned to any State' (antlaşma metni, Part III; FOROST 19190910-1)"},
+ {"t": "1919-11-27", "devlet": "bulgaristan-kralligi", "taraflar": ["bulgaristan-kralligi", "yunanistan", "yugoslavya", "romanya-kralligi", "fransa-cumhuriyet", "ingiltere", "italya"], "devletler": ["bulgaristan-kralligi", "yunanistan", "yugoslavya", "romanya-kralligi", "fransa-cumhuriyet", "ingiltere", "italya"], "b": "Neuilly Antlaşması — Bulgaristan ile barış", "tur": "antlasma", "onem": 5, "dunya": 4, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "baris", "bulgaristan-kralligi", "yunanistan", "yugoslavya", "romanya-kralligi", "fransa-cumhuriyet", "ingiltere", "italya"], "d": "TDV'ye göre 27 Kasım 1919'da Bulgaristan ile Neuilly Antlaşması imzalandı. Yunanistan bu antlaşmayla Bulgaristan'dan Batı Trakya'yı aldı.", "kaynak": "TDV İslâm Ansiklopedisi, «Birinci Dünya Savaşı» (Ercüment Kuran, 1992, c. 6, s. 196-200) — islamansiklopedisi.org.tr/birinci-dunya-savasi · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/ · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), Richard C. Hall, «Bulgaria» — encyclopedia.1914-1918-online.net/article/bulgaria/ · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), «Greece» — encyclopedia.1914-1918-online.net/article/greece/"},
+ {"t": "1920-01-10", "devlet": "ingiltere", "taraflar": ["ingiltere", "italya"], "devletler": ["ingiltere", "italya"], "b": "Versay Antlaşması yürürlüğe girdi", "tur": "antlasma", "onem": 4, "dunya": 4, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "baris", "ingiltere", "italya"], "d": "Versay Antlaşması 10 Ocak 1920'de yürürlüğe girdi. Ren bölgesindeki başlangıçta tamamen askerî olan işgal idaresinin yerini Müttefiklerin sivil idaresi olan Ren Bölgesi Müttefikler Arası Yüksek Komisyonu aldı. (Almanya, Fransa Cumhuriyeti, Belçika, Polonya ve Çekoslovakya künyelerinde bu yürürlük sınır maddeleriyle zaten var.)", "kaynak": "1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/ · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), «Occupation during and after the War (Germany)» — encyclopedia.1914-1918-online.net/article/occupation-during-and-after-the-war-germany/"},
+ {"t": "1920-04-25", "devlet": "polonya", "taraflar": ["polonya", "sovyet-rusya"], "devletler": ["polonya", "sovyet-rusya"], "b": "Polonya-Sovyet Savaşı", "tur": "savas", "onem": 4, "dunya": 3, "kapsam": "dis", "yer_id": "", "etiket": ["1-dunya-savasi", "konu-siyasi", "polonya-sovyet-savasi", "polonya", "sovyet-rusya"], "d": "1914-1918-online zaman çizelgesi Polonya-Sovyet Savaşı'nı 25 Nisan 1920 tarihiyle veriyor. Polonya açısından Dünya Savaşı, 18 Mart 1921 Riga Barışı'na kadar süren sınır mücadeleleriyle birlikte ele alınır.", "kaynak": "1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), WW1 Timeline — encyclopedia.1914-1918-online.net/ww1-timeline/ · 1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin), «Poland» — encyclopedia.1914-1918-online.net/article/poland/"},
+diff --git a/data/olaylar.js b/data/olaylar.js
+index 297be91b..9c35a3bf 100644
+--- a/data/olaylar.js
++++ b/data/olaylar.js
+@@ -172,7 +172,7 @@ window.OLAYLAR = [
+ { t:"1877-04", k:"savas", etiket:["savas","ekonomi","konu-askeri","konu-ekonomi"], b:"93 Harbi (1877–78 Osmanlı-Rus Savaşı)", gun:"24 Nisan 1877 (Rus savaş ilanı)", yer:"Tuna ve Kafkas cepheleri", kisiler:"Gazi Osman Paşa, Ahmed Muhtar Paşa, Grandük Nikolay",
+   d:"Rûmî 1293 yılına denk geldiği için '93 Harbi' diye anılan savaşta Rus orduları iki cepheden saldırdı; Gazi Osman Paşa'nın Plevne savunması ve Ahmed Muhtar Paşa'nın Kafkas muharebeleri destanlaştıysa da cephe çöktü ve Ruslar Yeşilköy'e (Ayastefanos) kadar ilerledi. Savaş, Balkanlar ve Kafkasya'dan İstanbul'a yönelen, etkileri bugüne uzanan büyük Müslüman göç dalgalarını başlattı; imparatorluğun demografik ve mali yapısı bir daha eski hâline dönemedi.", kaynak:"doksanuc-harbi", duygu:["⚔️"], kapsam_genis:true },
+ { t:"1878-07-13", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Berlin Antlaşması", gun:"13 Temmuz 1878", yer:"Berlin", yer_id:"Berlin", kisiler:"II. Abdülhamid, Bismarck, Karatodori Paşa",
+-  d:"Ayastefanos'un yarattığı 'Büyük Bulgaristan'ı büyük devletler dengesi adına revize eden Berlin Kongresi, yine de ağır bir tablo bıraktı: Sırbistan, Karadağ ve Romanya bağımsız oldu; özerk Bulgaristan Prensliği kuruldu; Bosna-Hersek Avusturya işgaline, Kıbrıs İngiliz idaresine, Kars-Ardahan-Batum Rusya'ya bırakıldı. Rumeli'deki beş yüz yıllık Osmanlı düzeni büyük ölçüde çözüldü; 'şark meselesi' Avrupa diplomasisinin sürekli gündemi hâline geldi. Aynı tarihte elden çıkan diğer yerleşimler: Filibe, Vidin, Tırnova, Varna, Şumnu, Silistre, Rusçuk, Bükreş, Yaş, Köstence.", statu_vasal:["Eski Zağra (Stara Zagora)","Tatarpazarcığı","Filibe","Vidin","Tırnova","Varna","Şumnu","Silistre","Rusçuk"], kaynak:"berlin-antlasmasi", duygu:["🤝"] },
++  d:"Ayastefanos'un yarattığı 'Büyük Bulgaristan'ı büyük devletler dengesi adına revize eden Berlin Kongresi, yine de ağır bir tablo bıraktı: Sırbistan, Karadağ ve Romanya bağımsız oldu; özerk Bulgaristan Prensliği kuruldu; Bosna-Hersek Avusturya işgaline, Kıbrıs İngiliz idaresine, Kars-Ardahan-Batum Rusya'ya bırakıldı. Rumeli'deki beş yüz yıllık Osmanlı düzeni büyük ölçüde çözüldü; 'şark meselesi' Avrupa diplomasisinin sürekli gündemi hâline geldi. Aynı tarihte elden çıkan diğer yerleşimler: Filibe, Vidin, Tırnova, Varna, Şumnu, Silistre, Rusçuk, Köstence. (Bükreş ve Yaş 9 Mayıs 1877'deki bağımsızlık ilânıyla ayrılmıştı; Berlin bunu tanıdı.)", ic_not_d:"eski ifade: … Rusçuk, Bükreş, Yaş, Köstence. — 874940ee (H-0037) Romanya'yı 1877-05-09'a taşıdı; liste bayatlamıştı (UMIT-W33).", statu_vasal:["Eski Zağra (Stara Zagora)","Tatarpazarcığı","Filibe","Vidin","Tırnova","Varna","Şumnu","Silistre","Rusçuk"], kaynak:"berlin-antlasmasi", duygu:["🤝"] },
+ { t:"1881-05-12", k:"kayip", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"], b:"Tunus'un işgali ve Düyûn-ı Umûmiyye", gun:"12 Mayıs 1881 (Bardo Antlaşması)", yer:"Tunus / İstanbul", kisiler:"II. Abdülhamid",
+   d:"Fransa, Cezayir sınırındaki olayları bahane ederek Tunus'u işgal etti ve Bardo Antlaşması'yla himayesine aldı; Osmanlı'nın Kuzey Afrika'daki varlığı Trablusgarp'a indi. Aynı yıl çıkarılan Muharrem Kararnamesi'yle iflas etmiş dış borçların yönetimi için alacaklıların temsil edildiği Düyûn-ı Umûmiyye İdaresi kuruldu: tuz, tütün, ipek gibi temel gelirler doğrudan bu yabancı idareye bağlandı ve mali egemenlik ağır biçimde sınırlandı. Aynı tarihte elden çıkan diğer yerleşimler: Kayrevan, Gabes, Sfaks, Cerbe (Djerba).", kaynak:"duyun-i-umumiyye", duygu:["😔"], yer_id:"Tunus" },
+ { t:"1882-09", k:"kayip", etiket:["toprak-kayip","ekonomi","konu-askeri","konu-ekonomi"], b:"Mısır'ın İngiliz işgali", gun:"Eylül 1882 (Tel el-Kebîr ve Kahire)", yer:"Mısır", kisiler:"Urâbî Paşa, General Wolseley",
+diff --git a/data/olaylar_ek.js b/data/olaylar_ek.js
+index e62566ba..fd64cba2 100644
+--- a/data/olaylar_ek.js
++++ b/data/olaylar_ek.js
+@@ -76,7 +76,7 @@ window.OLAYLAR_EK = [
+ { t:"1829-09-14", k:"antlasma", etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"], b:"Edirne Antlaşması", gun:"14 Eylül 1829", yer:"Edirne", yer_id:"Edirne", kisiler:"II. Mahmud, Çar I. Nikolay", d:"Rus ordusunun Edirne'ye girdiği savaşın sonunda Tuna deltası kaybedildi; Yunanistan'ın özerkliği/bağımsızlığı fiilen kabul edildi. Aynı tarihte elden çıkan diğer yerleşimler: İbrail, Anapa, Ahıska. Antlaşma toprağı geri verse de işgali hemen bitirmedi: Eflak-Boğdan ile Silistre, savaş tazminatı ödenene kadar rehin olarak Rus idaresinde kaldı — haritada bu yerlerin 1829'dan sonra da işgal altında görünmesinin sebebi budur.", kaynak:"edirne-antlasmasi", duygu:["🤝"] },
+ { t:"1830-10-17", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Sırbistan'a özerklik fermanı — irsî knezlik ve garnizon şartı", gun:"17 Ekim 1830", ic_not_t:"önceki kayıt 1830-11-08; Emre 30 Eyl 2026 kararıyla TDV günü esas alındı — TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti' (UYGULA-OLAYLAR-0930, 0075/H-0005)", yer:"Belgrad", yer_id:"Belgrad", kisiler:"Miloš Obrenović", d:"Edirne Antlaşması'nın Sırbistan'a dair hükmü gereği çıkarılan hatt-ı hümâyun, Miloš Obrenović'i irsî knez tanıdı ve Sırbistan'ı iç işlerinde serbest, dışta Osmanlı'ya bağlı özerk bir prenslik hâline getirdi. Hükümler: knezlik babadan oğula geçecek, yıllık vergi maktû ödenecek, Sırp meclisi kendi iç idaresini kuracak, kilise özerk olacak; buna karşılık Belgrad, Semendire, Şabac, Böğürdelen ve Fethülislâm kalelerinde Osmanlı garnizonları KALACAKTI. Bu ikili yapı 1867'de garnizonların çekilmesine kadar sürdü.", statu_vasal:["Kragujevac","Çaçak"], kaynak:"sirbistan", duygu:["😔"] },
+ { t:"1878-06-04", k:"kayip", etiket:["toprak-kayip","ittifak","konu-askeri","konu-diplomasi"], b:"Kıbrıs'ın İngiliz idaresine bırakılması", gun:"4 Haziran 1878", yer:"Kıbrıs", kisiler:"II. Abdülhamid", d:"Rus tehdidine karşı ittifak karşılığı Kıbrıs'ın idaresi İngiltere'ye devredildi; hukuken Osmanlı toprağı kaldı. Aynı tarihte elden çıkan diğer yerleşimler: Lefkoşa, Magosa.", kaynak:"kibris", duygu:["😔"], yer_id:"Lefkoşa" },
+-{ t:"1881-07-02", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Teselya'nın Yunanistan'a bırakılması", gun:"1881", yer:"Teselya", kisiler:"", d:"Berlin Kongresi kararları uyarınca Teselya ve Narda çevresi Yunanistan'a devredildi. Aynı tarihte elden çıkan diğer yerleşimler: Arta, Yenişehir (Larissa), Tırhala, İzdin (Lamia).", kaynak:"tesalya", duygu:["😔"], yer_id:"Tırhala" },
++{ t:"1881-07-02", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Teselya'nın Yunanistan'a bırakılması", gun:"1881", yer:"Teselya", kisiler:"", d:"Berlin Kongresi kararları uyarınca Teselya ve Narda çevresi Yunanistan'a devredildi. Aynı tarihte elden çıkan diğer yerleşimler: Arta, Yenişehir (Larissa), Tırhala. (İzdin 1832'deki Arta-Volos hattıyla zaten Yunanistan'da kalmıştı.)", ic_not_d:"eski ifade: … Tırhala, İzdin (Lamia). — 874940ee (H-0045, TDV izdin) İzdin'i 1832'ye taşıdı; liste bayatlamıştı (UMIT-W33).", kaynak:"tesalya", duygu:["😔"], yer_id:"Tırhala" },
+ { t:"1885-09-18", k:"kayip", etiket:["toprak-kayip","toprak-kazanc","konu-askeri"], b:"Doğu Rumeli'nin Bulgaristan'a katılması", gun:"18 Eylül 1885", yer:"Filibe", yer_id:"Filibe", kisiler:"", d:"Özerk Doğu Rumeli vilayeti bir darbeyle Bulgaristan'a bağlandı; Bâbıâli oldubittiyi kabullendi.", kaynak:"bulgaristan", duygu:["😔"] },
+ { t:"1897-05-17", k:"savas", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Dömeke Meydan Muharebesi", gun:"17 Mayıs 1897", yer:"Dömeke, Teselya", kisiler:"Edhem Paşa", d:"1897 Osmanlı-Yunan Savaşı'nda ordu Dömeke'de kesin zafer kazandı; diplomatik baskıyla toprak kazanımı sınırlı kaldı.", kaynak:"yunanistan", duygu:["⚔️"], yer_id:"Yenişehir (Larissa)" },
+ { t:"1898-12-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Girit'e özerklik", gun:"Aralık 1898", yer:"Girit", yer_id:"Girit (Resmo)", kisiler:"Prens George", d:"Büyük devletlerin müdahalesiyle Girit fiilen Osmanlı yönetiminden çıktı (resmen 1913'te ayrıldı). Aynı tarihte elden çıkan diğer yerleşimler: Kandiye (Girit), Hanya.", kaynak:"girit", duygu:["😔"] },
+diff --git a/denetim/ARAC-DEGISMEZ2-YERKORU-1004.defter.txt b/denetim/ARAC-DEGISMEZ2-YERKORU-1004.defter.txt
+index a8a1390c..da4e72cf 100644
+--- a/denetim/ARAC-DEGISMEZ2-YERKORU-1004.defter.txt
++++ b/denetim/ARAC-DEGISMEZ2-YERKORU-1004.defter.txt
+@@ -1,106 +1,408 @@
+ # DEĞİŞMEZ 2 YER KÖRLÜĞÜ — YER KÖRÜ + AÇIK ÜYELİK DEFTERİ (tavan = üyelik, sayı değil)
+-# Satır: kapı¦KOVA¦gün¦tip¦yer. 'Defterde var' ≠ 'incelendi ve kabul edildi'.
++# Satır: kapı¦KOVA¦gün¦tip¦yer (YER BAŞINA bir satır). 'Defterde var' ≠ 'incelendi ve kabul edildi'.
+ # Bu araç yayın kapısına BAĞLI DEĞİL; defter bugünkü gerçekliğin tavanıdır.
+-2 (d,v)¦YER KÖRÜ¦1395-05-17¦kazanc¦Doyran, Köprülü (Veles), Köstendil +2
+-2 (d,v)¦YER KÖRÜ¦1398-06-01¦kazanc¦Gölköy (Habsamana), Mesudiye (Milas), Ordu (Bayramlı) +2
++2 (d,v)¦YER KÖRÜ¦1395-05-17¦kazanc¦Doyran
++2 (d,v)¦YER KÖRÜ¦1395-05-17¦kazanc¦Köprülü (Veles)
++2 (d,v)¦YER KÖRÜ¦1395-05-17¦kazanc¦Köstendil
++2 (d,v)¦YER KÖRÜ¦1395-05-17¦kazanc¦Ustrumca (Strumica)
++2 (d,v)¦YER KÖRÜ¦1395-05-17¦kazanc¦İştip (Štip)
++2 (d,v)¦YER KÖRÜ¦1398-06-01¦kazanc¦Gölköy (Habsamana)
++2 (d,v)¦YER KÖRÜ¦1398-06-01¦kazanc¦Mesudiye (Milas)
++2 (d,v)¦YER KÖRÜ¦1398-06-01¦kazanc¦Ordu (Bayramlı)
++2 (d,v)¦YER KÖRÜ¦1398-06-01¦kazanc¦Reşadiye (İskefsir)
++2 (d,v)¦YER KÖRÜ¦1398-06-01¦kazanc¦Ünye
+ 2 (d,v)¦YER KÖRÜ¦1401-01-01¦kayip¦Divriği
+-2 (d,v)¦YER KÖRÜ¦1424-02-22¦kazanc¦Ahtapolu (Ahtopol), Rezve (Rezovo), İğneada
+-2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Ayasaranda (Sarandë), Aydonat (Paramythia), Delvine +4
+-2 (d,v)¦YER KÖRÜ¦1463-06-01¦kazanc¦Koniçe (Konjic), Travnik, Vişegrad
++2 (d,v)¦YER KÖRÜ¦1424-02-22¦kazanc¦Ahtapolu (Ahtopol)
++2 (d,v)¦YER KÖRÜ¦1424-02-22¦kazanc¦Rezve (Rezovo)
++2 (d,v)¦YER KÖRÜ¦1424-02-22¦kazanc¦İğneada
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Ayasaranda (Sarandë)
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Aydonat (Paramythia)
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Delvine
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Filat (Filiates)
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Margiliç (Margariti)
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦Souli (Sûli)
++2 (d,v)¦YER KÖRÜ¦1430-10-01¦kazanc¦İgumenitsa (Gomenice)
++2 (d,v)¦YER KÖRÜ¦1463-06-01¦kazanc¦Koniçe (Konjic)
++2 (d,v)¦YER KÖRÜ¦1463-06-01¦kazanc¦Travnik
++2 (d,v)¦YER KÖRÜ¦1463-06-01¦kazanc¦Vişegrad
+ 2 (d,v)¦YER KÖRÜ¦1465-01-24¦kayip¦Kili
+-2 (d,v)¦YER KÖRÜ¦1466-06-01¦kazanc¦Trebinye, İlbasan (Elbasan)
++2 (d,v)¦YER KÖRÜ¦1466-06-01¦kazanc¦Trebinye
++2 (d,v)¦YER KÖRÜ¦1466-06-01¦kazanc¦İlbasan (Elbasan)
+ 2 (d,v)¦YER KÖRÜ¦1516-09-21¦kazanc¦Humus
+-2 (d,v)¦YER KÖRÜ¦1517-01-01¦kazanc¦Kerak, Maan
+-2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Ahmîm, Asvan, Asyut +25
++2 (d,v)¦YER KÖRÜ¦1517-01-01¦kazanc¦Kerak
++2 (d,v)¦YER KÖRÜ¦1517-01-01¦kazanc¦Maan
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Ahmîm
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Asvan
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Asyut
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Atfîh
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Bahriye (Bâvîtî)
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Behnesâ
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Benî Süveyf
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Cirge (Girga)
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Deyrût
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Dâhile
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Edfû
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Esna
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Ferâfire
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Ferşût
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Feyyûm
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Hârice (Vâhât)
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Kusayr
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Kûm Ombo
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Kûs
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Kına
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Mellevî
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Minye
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Sefâce
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Sîva (Siwa)
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Tahtâ
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Uksur (Luksor)
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦Vâdî Halfâ
++2 (d,v)¦YER KÖRÜ¦1517-04-13¦kazanc¦İbrim
+ 2 (d,v)¦YER KÖRÜ¦1524-01-01¦kazanc¦Orsova (Eski Orsova)
+ 2 (d,v)¦YER KÖRÜ¦1526-08-29¦kazanc¦Lugos (Lugoj)
+-2 (d,v)¦YER KÖRÜ¦1527-01-01¦kazanc¦Gospić, Konstantin
+-2 (d,v)¦YER KÖRÜ¦1535-01-01¦kazanc¦Annaba, Şehrizor
+-2 (d,v)¦YER KÖRÜ¦1537-08-25¦kazanc¦Ayasaranda (Sarandë), Delvine
+-2 (d,v)¦YER KÖRÜ¦1538-01-01¦kazanc¦Bosna Brod'u (Bosanski Brod), Bosna Dubiçası (Bosanska Dubica), Jasenovaç (Jasenovac) +1
++2 (d,v)¦YER KÖRÜ¦1527-01-01¦kazanc¦Gospić
++2 (d,v)¦YER KÖRÜ¦1527-01-01¦kazanc¦Konstantin
++2 (d,v)¦YER KÖRÜ¦1535-01-01¦kazanc¦Annaba
++2 (d,v)¦YER KÖRÜ¦1535-01-01¦kazanc¦Şehrizor
++2 (d,v)¦YER KÖRÜ¦1537-08-25¦kazanc¦Ayasaranda (Sarandë)
++2 (d,v)¦YER KÖRÜ¦1537-08-25¦kazanc¦Delvine
++2 (d,v)¦YER KÖRÜ¦1538-01-01¦kazanc¦Bosna Brod'u (Bosanski Brod)
++2 (d,v)¦YER KÖRÜ¦1538-01-01¦kazanc¦Bosna Dubiçası (Bosanska Dubica)
++2 (d,v)¦YER KÖRÜ¦1538-01-01¦kazanc¦Jasenovaç (Jasenovac)
++2 (d,v)¦YER KÖRÜ¦1538-01-01¦kazanc¦Seyûn (Sayvan)
+ 2 (d,v)¦YER KÖRÜ¦1540-01-01¦kazanc¦Annaba
+-2 (d,v)¦YER KÖRÜ¦1540-10-02¦kazanc¦Nadin, Vrana (Urana)
++2 (d,v)¦YER KÖRÜ¦1540-10-02¦kazanc¦Nadin
++2 (d,v)¦YER KÖRÜ¦1540-10-02¦kazanc¦Vrana (Urana)
+ 2 (d,v)¦YER KÖRÜ¦1555-05-29¦kazanc¦Kutaisi
+ 2 (d,v)¦YER KÖRÜ¦1574-08-24¦kazanc¦Halkulvâdî
+-2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Bin Gerdân, Bâce (Béja), Cendûbe +19
+-2 (d,v)¦YER KÖRÜ¦1578-08-09¦kazanc¦Batum, Hulo (Acara), Makhalak’auri +2
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Bin Gerdân
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Bâce (Béja)
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Cendûbe
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Cerciş (Zarzis)
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Gabes
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Kafsa
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Kasrayn
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Kayrevan
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Kef
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Kelîbiye
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Kerkene (Kerkennah)
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Medenîn
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Mehdiye
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Munastır
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Mâtir (Mateur)
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Nefta
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Nâbil (Nabeul)
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Sfaks
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Sûse
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Tatavin
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Tozer
++2 (d,v)¦YER KÖRÜ¦1574-08-25¦kazanc¦Zağvân
++2 (d,v)¦YER KÖRÜ¦1578-08-09¦kazanc¦Batum
++2 (d,v)¦YER KÖRÜ¦1578-08-09¦kazanc¦Hulo (Acara)
++2 (d,v)¦YER KÖRÜ¦1578-08-09¦kazanc¦Makhalak’auri
++2 (d,v)¦YER KÖRÜ¦1578-08-09¦kazanc¦Murvaneti
++2 (d,v)¦YER KÖRÜ¦1578-08-09¦kazanc¦Sohum
+ 2 (d,v)¦YER KÖRÜ¦1590-03-21¦kazanc¦Kirmanşah
+ 2 (d,v)¦YER KÖRÜ¦1638-12-25¦kazanc¦Erbil
+-2 (d,v)¦YER KÖRÜ¦1639-05-17¦kayip¦Kotur, Mâku, Şeyh Salû-yi Ulyâ
++2 (d,v)¦YER KÖRÜ¦1639-05-17¦kayip¦Kotur
++2 (d,v)¦YER KÖRÜ¦1639-05-17¦kayip¦Mâku
++2 (d,v)¦YER KÖRÜ¦1639-05-17¦kayip¦Şeyh Salû-yi Ulyâ
+ 2 (d,v)¦YER KÖRÜ¦1658-08-30¦kazanc¦Lugos (Lugoj)
+-2 (d,v)¦YER KÖRÜ¦1669-09-27¦kazanc¦Sitiye (Sitia), İsfakiye (Sfakia)
+-2 (d,v)¦YER KÖRÜ¦1672-10-18¦kazanc¦Braslav (Bratslav), Vinnitsa (Vinnytsia)
+-2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Eperjes (Prešov), Fülek (Fiľakovo), Kassa (Košice) +3
++2 (d,v)¦YER KÖRÜ¦1669-09-27¦kazanc¦Sitiye (Sitia)
++2 (d,v)¦YER KÖRÜ¦1669-09-27¦kazanc¦İsfakiye (Sfakia)
++2 (d,v)¦YER KÖRÜ¦1672-10-18¦kazanc¦Braslav (Bratslav)
++2 (d,v)¦YER KÖRÜ¦1672-10-18¦kazanc¦Vinnitsa (Vinnytsia)
++2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Eperjes (Prešov)
++2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Fülek (Fiľakovo)
++2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Kassa (Košice)
++2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Munkács (Mukacheve)
++2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Tokaj
++2 (d,v)¦YER KÖRÜ¦1682-09-16¦kazanc¦Ungvár (Uzhhorod)
+ 2 (d,v)¦YER KÖRÜ¦1684-06-27¦kayip¦Vaç (Vác)
+ 2 (d,v)¦YER KÖRÜ¦1686-09-30¦kayip¦Sin (Sinj)
+-2 (d,v)¦YER KÖRÜ¦1687-08-01¦kayip¦Elafonisos (Cervi), Mora (Tripoliçe)
++2 (d,v)¦YER KÖRÜ¦1687-08-01¦kayip¦Elafonisos (Cervi)
++2 (d,v)¦YER KÖRÜ¦1687-08-01¦kayip¦Mora (Tripoliçe)
+ 2 (d,v)¦YER KÖRÜ¦1687-08-06¦kayip¦İnebahtı
+-2 (d,v)¦YER KÖRÜ¦1687-09-06¦kayip¦Baç (Bács), Varadin (Petrovaradin)
++2 (d,v)¦YER KÖRÜ¦1687-09-06¦kayip¦Baç (Bács)
++2 (d,v)¦YER KÖRÜ¦1687-09-06¦kayip¦Varadin (Petrovaradin)
+ 2 (d,v)¦YER KÖRÜ¦1687-09-29¦kayip¦Ösek (Osijek)
+ 2 (d,v)¦YER KÖRÜ¦1687-09-30¦kayip¦Herseknovi (Herceg Novi)
+ 2 (d,v)¦YER KÖRÜ¦1688-01-01¦kayip¦Orsova (Eski Orsova)
+ 2 (d,v)¦YER KÖRÜ¦1688-06-01¦kayip¦Lugos (Lugoj)
+ 2 (d,v)¦YER KÖRÜ¦1688-10-01¦kayip¦Semendire
+-2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Bar (Podolya), Braslav (Bratslav), Gyula (Göle) +10
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Bar (Podolya)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Braslav (Bratslav)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Gyula (Göle)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Jasenovaç (Jasenovac)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Kamaniçe
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Kostayniçe (Kostajnica)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Meciboj (Mejibuji)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Nadin
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Uman
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Vinnitsa (Vinnytsia)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Vrana (Urana)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Yazlofça (Yazlovets)
++2 (d,v)¦YER KÖRÜ¦1699-01-26¦kayip¦Çehrin (Çigirin)
+ 2 (d,v)¦YER KÖRÜ¦1716-01-01¦kayip¦Lugos (Lugoj)
+ 2 (d,v)¦YER KÖRÜ¦1717-01-01¦kayip¦Orsova (Eski Orsova)
+ 2 (d,v)¦YER KÖRÜ¦1717-08-17¦kayip¦Böğürdelen (Šabac)
+-2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Ayamavra (Lefkada), Bosna Brod'u (Bosanski Brod), Bosna Dubiçası (Bosanska Dubica) +5
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Ayamavra (Lefkada)
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Bosna Brod'u (Bosanski Brod)
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Bosna Dubiçası (Bosanska Dubica)
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Krayova (Craiova)
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Rimnik (Râmnicu Vâlcea)
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Turnu Severin
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Tırgu Jiu
++2 (d,v)¦YER KÖRÜ¦1718-07-21¦kayip¦Çuha Adası (Kythira)
+ 2 (d,v)¦YER KÖRÜ¦1724-09-28¦kazanc¦Hoy
+ 2 (d,v)¦YER KÖRÜ¦1732-01-08¦kayip¦Tebriz
+-2 (d,v)¦YER KÖRÜ¦1732-01-10¦kayip¦Merîvan, Sakkız, Senendec (Sine)
++2 (d,v)¦YER KÖRÜ¦1732-01-10¦kayip¦Merîvan
++2 (d,v)¦YER KÖRÜ¦1732-01-10¦kayip¦Sakkız
++2 (d,v)¦YER KÖRÜ¦1732-01-10¦kayip¦Senendec (Sine)
+ 2 (d,v)¦YER KÖRÜ¦1735-08-12¦kayip¦Tiflis
+-2 (d,v)¦YER KÖRÜ¦1739-09-28¦kazanc¦Bosna Brod'u (Bosanski Brod), Bosna Dubiçası (Bosanska Dubica)
+-2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Akmescid, Anapa, Bahçesaray +19
+-2 (d,v)¦YER KÖRÜ¦1775-05-07¦kayip¦Suçava (Suceava), Çernovitz (Çernivtsi)
+-2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Aluşta, Balaklava (Cembalo), Kefe +8
++2 (d,v)¦YER KÖRÜ¦1739-09-28¦kazanc¦Bosna Brod'u (Bosanski Brod)
++2 (d,v)¦YER KÖRÜ¦1739-09-28¦kazanc¦Bosna Dubiçası (Bosanska Dubica)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Akmescid
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Anapa
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Bahçesaray
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Bozkır (Deşt-i Kıpçak)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Camboyluk bozkırı
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Eski Kırım (Solhat)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Gözleve (Kezlev)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Karasubazar
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Kerç
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Kuban (Yekaterinodar)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Kuban Nogay bozkırı
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Kuban deltası bozkırı
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Kızıkermen (Gazi Kerman)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Maykop (Çerkezya)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Or Kapı (Ferahkirman)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Soçi (Sâşe)
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Stavropol–Kuma bozkırı
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Taman
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Tuapse
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Yedisan bozkırı
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Yediçkul bozkırı
++2 (d,v)¦YER KÖRÜ¦1774-07-21¦kayip¦Yenikale
++2 (d,v)¦YER KÖRÜ¦1775-05-07¦kayip¦Suçava (Suceava)
++2 (d,v)¦YER KÖRÜ¦1775-05-07¦kayip¦Çernovitz (Çernivtsi)
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Aluşta
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Balaklava (Cembalo)
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Kefe
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Mankup
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Maykop (Çerkezya)
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Soçi (Sâşe)
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Sudak (Suğdak)
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Tuapse
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Yalta
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦Yedisan bozkırı
++2 (d,v)¦YER KÖRÜ¦1783-04-19¦kayip¦İnkirman (Kalamita)
+ 2 (d,v)¦YER KÖRÜ¦1790-04-16¦kayip¦Orsova (Eski Orsova)
+-2 (d,v)¦YER KÖRÜ¦1791-08-04¦kayip¦Cetin (Cetingrad), Drežnik (Drežnik Grad)
+-2 (d,v)¦YER KÖRÜ¦1792-01-09¦kayip¦Hacıbey (Odessa), Yedisan bozkırı
+-2 (d,v)¦YER KÖRÜ¦1792-09-12¦kazanc¦Mersa'l-Kebîr, Oran
+-2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Ahmîm, Asvan, Asyut +52
+-2 (d,v)¦YER KÖRÜ¦1805-07-20¦kayip¦Bedir, Yenbu
+-2 (d,v)¦YER KÖRÜ¦1811-11-01¦kazanc¦Bedir, Yenbu
+-2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Akkirman, Bender, Hotin +5
++2 (d,v)¦YER KÖRÜ¦1791-08-04¦kayip¦Cetin (Cetingrad)
++2 (d,v)¦YER KÖRÜ¦1791-08-04¦kayip¦Drežnik (Drežnik Grad)
++2 (d,v)¦YER KÖRÜ¦1792-01-09¦kayip¦Hacıbey (Odessa)
++2 (d,v)¦YER KÖRÜ¦1792-01-09¦kayip¦Yedisan bozkırı
++2 (d,v)¦YER KÖRÜ¦1792-09-12¦kazanc¦Mersa'l-Kebîr
++2 (d,v)¦YER KÖRÜ¦1792-09-12¦kazanc¦Oran
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Ahmîm
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Asvan
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Asyut
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Atfîh
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Bahriye (Bâvîtî)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Behnesâ
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Benhâ (Kalyûbiye)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Benî Süveyf
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Bilbîs (Şarkiye)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Bürüllüs (Baltîm)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Cirge (Girga)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Demenhûr (Damanhur)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Dessûk
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Deyrût
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Dimyat
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Dâhile
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Ebû Ramâd (Şalâtîn)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Ebûkîr
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Edfû
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦El-Arîş
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Esna
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Ferâfire
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Ferşût
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Feyyûm
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Fâkûs
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Hârice (Vâhât)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Kafrüşşeyh
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Kahire
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Katye
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Kusayr
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Kûm Ombo
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Kûs
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Kına
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Mahalletülkübrâ
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Mansûre
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Mellevî
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Menzile
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Mersâ Matruh
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Minye
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Mît Gamr
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Reşîd (Rosetta)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Sefâce
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Sellûm
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Sina güneyi
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Sâlihiyye
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Sîva (Siwa)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Süveyş
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Tahtâ
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Tanta
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Tûr (Sînâ)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Uksur (Luksor)
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Vâdî Halfâ
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦İbrim
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦İskenderiye
++2 (d,v)¦YER KÖRÜ¦1805-07-03¦kayip¦Şibînülkûm (Menûfiye)
++2 (d,v)¦YER KÖRÜ¦1805-07-20¦kayip¦Bedir
++2 (d,v)¦YER KÖRÜ¦1805-07-20¦kayip¦Yenbu
++2 (d,v)¦YER KÖRÜ¦1811-11-01¦kazanc¦Bedir
++2 (d,v)¦YER KÖRÜ¦1811-11-01¦kazanc¦Yenbu
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Akkirman
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Bender
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Hotin
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Kahul (Cahul)
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Kili
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Orhei
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦Soroka (Soroca)
++2 (d,v)¦YER KÖRÜ¦1812-05-28¦kayip¦İsmail
+ 2 (d,v)¦YER KÖRÜ¦1813-10-05¦kazanc¦Böğürdelen (Šabac)
+ 2 (d,v)¦YER KÖRÜ¦1815-01-13¦kazanc¦Türabe
+-2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Alonisos, Andros, Değirmenlik (Milos) +18
+-2 (d,v)¦YER KÖRÜ¦1830-10-17¦kayip¦Kragujevac, Yagodina (Jagodina), Çaçak
+-2 (d,v)¦YER KÖRÜ¦1831-11-08¦kazanc¦Kudüs, Nablus
+-2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Adana, Antakya, Antep +4
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Alonisos
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Andros
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Değirmenlik (Milos)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Folegandros
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Kimolos (Argentiera)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Koçbaba (Serifos)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Mikonos
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Murted (Kea)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Nakşa
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Namfi (Anafi)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Nio (İos)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Paros
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Santorini
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Sifnos (Yavuzca)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Sire (Syros)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Termiye (Kythnos)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦Yamurgi (Amorgos)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦İskiathos
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦İskiros (Skyros)
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦İskopelos
++2 (d,v)¦YER KÖRÜ¦1830-02-03¦kayip¦İstendil (Tinos)
++2 (d,v)¦YER KÖRÜ¦1830-10-17¦kayip¦Kragujevac
++2 (d,v)¦YER KÖRÜ¦1830-10-17¦kayip¦Yagodina (Jagodina)
++2 (d,v)¦YER KÖRÜ¦1830-10-17¦kayip¦Çaçak
++2 (d,v)¦YER KÖRÜ¦1831-11-08¦kazanc¦Kudüs
++2 (d,v)¦YER KÖRÜ¦1831-11-08¦kazanc¦Nablus
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Adana
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Antakya
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Antep
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Kilis
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Maraş
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Payas
++2 (d,v)¦YER KÖRÜ¦1832-07-29¦kazanc¦Tarsus
+ 2 (d,v)¦YER KÖRÜ¦1832-08-15¦kazanc¦Urfa
+ 2 (d,v)¦YER KÖRÜ¦1832-12-10¦kayip¦Sisam
+-2 (d,v)¦YER KÖRÜ¦1833-06-30¦kayip¦Karaman, Konya, Kütahya
+-2 (d,v)¦YER KÖRÜ¦1838-01-01¦kazanc¦Dilem (Harc), Havta (Havtat Benî Temîm), Leylâ (Eflâc)
++2 (d,v)¦YER KÖRÜ¦1833-06-30¦kayip¦Karaman
++2 (d,v)¦YER KÖRÜ¦1833-06-30¦kayip¦Konya
++2 (d,v)¦YER KÖRÜ¦1833-06-30¦kayip¦Kütahya
++2 (d,v)¦YER KÖRÜ¦1838-01-01¦kazanc¦Dilem (Harc)
++2 (d,v)¦YER KÖRÜ¦1838-01-01¦kazanc¦Havta (Havtat Benî Temîm)
++2 (d,v)¦YER KÖRÜ¦1838-01-01¦kazanc¦Leylâ (Eflâc)
+ 2 (d,v)¦YER KÖRÜ¦1839-05-13¦kayip¦Cicel
+-2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Bedir, Cidde, Hayber +4
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Bedir
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Cidde
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Hayber
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Medine
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Mekke
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Râbiğ
++2 (d,v)¦YER KÖRÜ¦1841-05-24¦kazanc¦Yenbu
+ 2 (d,v)¦YER KÖRÜ¦1844-02-12¦kayip¦Batna
+ 2 (d,v)¦YER KÖRÜ¦1847-05-31¦kayip¦Abâdân
+-2 (d,v)¦YER KÖRÜ¦1849-05-01¦kazanc¦Ferasan (Farasan), Kemeran (Kamaran)
++2 (d,v)¦YER KÖRÜ¦1849-05-01¦kazanc¦Ferasan (Farasan)
++2 (d,v)¦YER KÖRÜ¦1849-05-01¦kazanc¦Kemeran (Kamaran)
+ 2 (d,v)¦YER KÖRÜ¦1861-06-09¦kayip¦Deyrülkamer (Dayr al-Kamer)
+ 2 (d,v)¦YER KÖRÜ¦1867-06-08¦kayip¦Sina güneyi
+ 2 (d,v)¦YER KÖRÜ¦1875-06-01¦kayip¦Zeyla
+ 2 (d,v)¦YER KÖRÜ¦1877-05-17¦kayip¦Ardahan
+ 2 (d,v)¦YER KÖRÜ¦1877-07-16¦kayip¦Niğbolu
+ 2 (d,v)¦YER KÖRÜ¦1878-01-11¦kayip¦Niş
+-2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Arpaçay (Akyaka), Artvin, Beri +11
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Arpaçay (Akyaka)
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Artvin
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Beri
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Borçka
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Digor
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Hanak
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Hulo (Acara)
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Iğdır
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Küçükperveli
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Makhalak’auri
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Posof
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Sarp
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Saylıca
++2 (d,v)¦YER KÖRÜ¦1878-03-03¦kayip¦Şavşat
+ 2 (d,v)¦YER KÖRÜ¦1882-09-01¦kayip¦Bâra
+-2 (d,v)¦YER KÖRÜ¦1882-09-07¦kayip¦Kordofan, Kordofan (Ubeyyid)
++2 (d,v)¦YER KÖRÜ¦1882-09-07¦kayip¦Kordofan
++2 (d,v)¦YER KÖRÜ¦1882-09-07¦kayip¦Kordofan (Ubeyyid)
+ 2 (d,v)¦YER KÖRÜ¦1884-06-03¦kayip¦Kerene
+ 2 (d,v)¦YER KÖRÜ¦1891-01-01¦kazanc¦Şırnak
+ 2 (d,v)¦YER KÖRÜ¦1912-10-07¦kayip¦Bozcaada
+ 2 (d,v)¦YER KÖRÜ¦1912-10-24¦kayip¦Kırklareli
+-2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦Doyran, Gevgili (Gevgelija), Köprülü (Veles) +3
+-2 (d,v)¦YER KÖRÜ¦1912-11-01¦kayip¦Tekirdağ, İmroz
++2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦Doyran
++2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦Gevgili (Gevgelija)
++2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦Köprülü (Veles)
++2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦Ustrumca (Strumica)
++2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦Üsküp
++2 (d,v)¦YER KÖRÜ¦1912-10-26¦kayip¦İştip (Štip)
++2 (d,v)¦YER KÖRÜ¦1912-11-01¦kayip¦Tekirdağ
++2 (d,v)¦YER KÖRÜ¦1912-11-01¦kayip¦İmroz
+ 2 (d,v)¦YER KÖRÜ¦1912-11-03¦kayip¦Prizren
+-2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Dedeağaç (Alexandroupoli), Dimetoka, Drama +22
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Dedeağaç (Alexandroupoli)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Dimetoka
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Drama
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Elhova (Elhovo)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Ferecik (Feres)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Girit (Resmo)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Gümülcine
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Hanya
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Kandiye (Girit)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Kavala
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Köstendil
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Malak Dervent (Lalkovo)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Nevrokop (Gotse Delçev)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Orestiada (Kumçiftliği)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Petriç
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Praviște (Eleftheroupoli)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Serez
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Sitiye (Sitia)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Sofulu (Soufli)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Stérna
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Távri
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Umur Fakih (Fakia)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦Çirmen
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦İsfakiye (Sfakia)
++2 (d,v)¦YER KÖRÜ¦1913-05-30¦kayip¦İskeçe
+ 2 (d,v)¦YER KÖRÜ¦1913-07-14¦kayip¦Kırcaali
+-2 (d,v)¦YER KÖRÜ¦1913-09-29¦kayip¦Ahtapolu (Ahtopol), Malko Tırnova, Mustafapaşa (Svilengrad) +1
++2 (d,v)¦YER KÖRÜ¦1913-09-29¦kayip¦Ahtapolu (Ahtopol)
++2 (d,v)¦YER KÖRÜ¦1913-09-29¦kayip¦Malko Tırnova
++2 (d,v)¦YER KÖRÜ¦1913-09-29¦kayip¦Mustafapaşa (Svilengrad)
++2 (d,v)¦YER KÖRÜ¦1913-09-29¦kayip¦Rezve (Rezovo)
+ 2 (d,v)¦YER KÖRÜ¦1915-01-01¦kayip¦Ammâre
+ 2 (d,v)¦YER KÖRÜ¦1915-06-10¦kayip¦Kemeran (Kamaran)
+-2 (d,v)¦YER KÖRÜ¦1916-06-16¦kayip¦Cidde, Râbiğ
++2 (d,v)¦YER KÖRÜ¦1916-06-16¦kayip¦Cidde
++2 (d,v)¦YER KÖRÜ¦1916-06-16¦kayip¦Râbiğ
+ 2 (d,v)¦YER KÖRÜ¦1917-11-16¦kayip¦Yafa
+-2 (d,v)¦YER KÖRÜ¦1918-01-01¦kayip¦Kerak, Medâin-i Sâlih (el-Hicr), Tebük +2
++2 (d,v)¦YER KÖRÜ¦1918-01-01¦kayip¦Kerak
++2 (d,v)¦YER KÖRÜ¦1918-01-01¦kayip¦Medâin-i Sâlih (el-Hicr)
++2 (d,v)¦YER KÖRÜ¦1918-01-01¦kayip¦Tebük
++2 (d,v)¦YER KÖRÜ¦1918-01-01¦kayip¦el-Ulâ
++2 (d,v)¦YER KÖRÜ¦1918-01-01¦kayip¦el-Vech
+ 2 (d,v)¦YER KÖRÜ¦1918-03-03¦kazanc¦Aşkale
+ 2 (d,v)¦YER KÖRÜ¦1918-04-01¦kayip¦Tuz Hurmatu
+ 2 (d,v)¦YER KÖRÜ¦1918-09-21¦kayip¦Nablus
+@@ -109,45 +411,186 @@
+ 2 (d,v)¦YER KÖRÜ¦1918-09-27¦kayip¦Maan
+ 2 (d,v)¦YER KÖRÜ¦1918-10-06¦kayip¦Sayda
+ 2 (d,v)¦YER KÖRÜ¦1918-10-07¦kayip¦Beyrut
+-2 (d,v)¦YER KÖRÜ¦1918-10-08¦kayip¦Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer), Sûr (Tyre) — Lübnan
++2 (d,v)¦YER KÖRÜ¦1918-10-08¦kayip¦Ba'lebek (Baalbek)
++2 (d,v)¦YER KÖRÜ¦1918-10-08¦kayip¦Deyrülkamer (Dayr al-Kamer)
++2 (d,v)¦YER KÖRÜ¦1918-10-08¦kayip¦Sûr (Tyre) — Lübnan
+ 2 (d,v)¦YER KÖRÜ¦1918-10-13¦kayip¦Trablusşam
+-2 (d,v)¦YER KÖRÜ¦1918-10-26¦kayip¦Antakya, Deyrizor, Qaţţīnah +1
+-2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Ayn el-Arab (Kobani), Azez (A'zâz), Babū +23
+-2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Akra, Duhok, Gōrabī +7
+-2 (d,v)¦YER KÖRÜ¦1918-12-01¦kayip¦Batum, Murvaneti
+-2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Batnoz (Patmos), Bozbaba (Ay Strati), Fornoz (Fourni) +20
+-2i (isg)¦AÇIK¦1878-09-18¦kazanc¦Bihaç (Bihać), Ostrovica (Stara Ostrovica, Kulen Vakuf)
++2 (d,v)¦YER KÖRÜ¦1918-10-26¦kayip¦Antakya
++2 (d,v)¦YER KÖRÜ¦1918-10-26¦kayip¦Deyrizor
++2 (d,v)¦YER KÖRÜ¦1918-10-26¦kayip¦Qaţţīnah
++2 (d,v)¦YER KÖRÜ¦1918-10-26¦kayip¦Rakka
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Ayn el-Arab (Kobani)
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Azez (A'zâz)
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Babū
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Cerablus
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Cumai (Birlikköy)
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Ebha (Asir)
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Erbil
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Ferasan (Farasan)
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Hudeyde
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Jadlā’
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Kerkük
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Kevkebân
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Malikiye (Derik)
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Mersin
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Moha
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Münbiç
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Sa'de
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Sana
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Silopi
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Sincan
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Taiz
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Zebîd
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦İskenderun
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Şehrizor
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Şehâre
++2 (d,v)¦YER KÖRÜ¦1918-10-30¦kayip¦Ḩīmū
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Akra
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Duhok
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Gōrabī
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Musul
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Rewândiz
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Sincar
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Telafer
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Tirwānīsh
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦Zaho
++2 (d,v)¦YER KÖRÜ¦1918-11-08¦kayip¦İmâdiye (Amêdî)
++2 (d,v)¦YER KÖRÜ¦1918-12-01¦kayip¦Batum
++2 (d,v)¦YER KÖRÜ¦1918-12-01¦kayip¦Murvaneti
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Batnoz (Patmos)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Bozbaba (Ay Strati)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Fornoz (Fourni)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Herke (Halki)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Karpatos
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Kaşot (Kasos)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Kelemez (Kalimnos)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Limni
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Lindos
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Midilli
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Molova (Molyvos)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Nikarya (İkarya)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Rodos
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Sakız
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Semadirek
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Sömbeki (Simi)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦Taşoz
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦İleryoz (Leros)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦İlyaki (Tilos)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦İncirli (Nisiros)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦İpsara (Psara)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦İstanbulya (Astipalya)
++2 (d,v)¦YER KÖRÜ¦1923-07-24¦kayip¦İstanköy
++2i (isg)¦AÇIK¦1878-09-18¦kazanc¦Bihaç (Bihać)
++2i (isg)¦AÇIK¦1878-09-18¦kazanc¦Ostrovica (Stara Ostrovica, Kulen Vakuf)
+ 2i (isg)¦YER KÖRÜ¦1739-09-12¦kazanc¦Yaş
+-2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Akkirman, Akmescid, Bahçesaray +10
+-2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Aluşta, Balaklava (Cembalo), Kefe +4
+-2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Belgrad, Bosna Dubiçası (Bosanska Dubica), Bosna Novi'si (Bosanski Novi) +5
+-2i (isg)¦YER KÖRÜ¦1792-01-09¦kayip¦Anapa, Bender, Hotin +2
+-2i (isg)¦YER KÖRÜ¦1798-07-01¦kazanc¦Asyut, Dimyat, Reşîd (Rosetta)
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Akkirman
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Akmescid
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Bahçesaray
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Bender
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Eski Kırım (Solhat)
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Gözleve (Kezlev)
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Hotin
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Karasubazar
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Kerç
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Or Kapı (Ferahkirman)
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Taman
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Yedisan bozkırı
++2i (isg)¦YER KÖRÜ¦1774-07-21¦kayip¦Yenikale
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Aluşta
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Balaklava (Cembalo)
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Kefe
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Mankup
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Sudak (Suğdak)
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦Yalta
++2i (isg)¦YER KÖRÜ¦1783-04-19¦kayip¦İnkirman (Kalamita)
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Belgrad
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Bosna Dubiçası (Bosanska Dubica)
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Bosna Novi'si (Bosanski Novi)
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Böğürdelen (Šabac)
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Bükreş
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Cetin (Cetingrad)
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Drežnik (Drežnik Grad)
++2i (isg)¦YER KÖRÜ¦1791-08-04¦kayip¦Semendire
++2i (isg)¦YER KÖRÜ¦1792-01-09¦kayip¦Anapa
++2i (isg)¦YER KÖRÜ¦1792-01-09¦kayip¦Bender
++2i (isg)¦YER KÖRÜ¦1792-01-09¦kayip¦Hotin
++2i (isg)¦YER KÖRÜ¦1792-01-09¦kayip¦Kili
++2i (isg)¦YER KÖRÜ¦1792-01-09¦kayip¦İsmail
++2i (isg)¦YER KÖRÜ¦1798-07-01¦kazanc¦Asyut
++2i (isg)¦YER KÖRÜ¦1798-07-01¦kazanc¦Dimyat
++2i (isg)¦YER KÖRÜ¦1798-07-01¦kazanc¦Reşîd (Rosetta)
+ 2i (isg)¦YER KÖRÜ¦1798-11-08¦kazanc¦Süveyş
+-2i (isg)¦YER KÖRÜ¦1801-10-09¦kayip¦Asyut, Dimyat, Reşîd (Rosetta)
++2i (isg)¦YER KÖRÜ¦1801-10-09¦kayip¦Asyut
++2i (isg)¦YER KÖRÜ¦1801-10-09¦kayip¦Dimyat
++2i (isg)¦YER KÖRÜ¦1801-10-09¦kayip¦Reşîd (Rosetta)
+ 2i (isg)¦YER KÖRÜ¦1810-09-27¦kazanc¦Yergöğü (Giurgiu)
+ 2i (isg)¦YER KÖRÜ¦1827-10-13¦kazanc¦Revan
+-2i (isg)¦YER KÖRÜ¦1829-09-14¦kayip¦Anapa, İbrail
++2i (isg)¦YER KÖRÜ¦1829-09-14¦kayip¦Anapa
++2i (isg)¦YER KÖRÜ¦1829-09-14¦kayip¦İbrail
+ 2i (isg)¦YER KÖRÜ¦1900-01-01¦kazanc¦Mengo (Buganda)
+ 2i (isg)¦YER KÖRÜ¦1912-10-08¦kazanc¦Bozbaba (Ay Strati)
+-2i (isg)¦YER KÖRÜ¦1912-10-21¦kazanc¦Limni, Preveze, Vonitsa
++2i (isg)¦YER KÖRÜ¦1912-10-21¦kazanc¦Limni
++2i (isg)¦YER KÖRÜ¦1912-10-21¦kazanc¦Preveze
++2i (isg)¦YER KÖRÜ¦1912-10-21¦kazanc¦Vonitsa
+ 2i (isg)¦YER KÖRÜ¦1912-10-30¦kazanc¦Taşoz
+ 2i (isg)¦YER KÖRÜ¦1912-11-01¦kazanc¦Semadirek
+-2i (isg)¦YER KÖRÜ¦1912-11-02¦kazanc¦Aynaroz (Athos), Kesendire (Kassandra)
+-2i (isg)¦YER KÖRÜ¦1912-11-11¦kazanc¦Sakız, İpsara (Psara)
+-2i (isg)¦YER KÖRÜ¦1912-11-21¦kazanc¦Midilli, Molova (Molyvos)
+-2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Akçakale, Ceylanpınar, Dörtyol +5
++2i (isg)¦YER KÖRÜ¦1912-11-02¦kazanc¦Aynaroz (Athos)
++2i (isg)¦YER KÖRÜ¦1912-11-02¦kazanc¦Kesendire (Kassandra)
++2i (isg)¦YER KÖRÜ¦1912-11-11¦kazanc¦Sakız
++2i (isg)¦YER KÖRÜ¦1912-11-11¦kazanc¦İpsara (Psara)
++2i (isg)¦YER KÖRÜ¦1912-11-21¦kazanc¦Midilli
++2i (isg)¦YER KÖRÜ¦1912-11-21¦kazanc¦Molova (Molyvos)
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Akçakale
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Ceylanpınar
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Dörtyol
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Erzin
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Nusaybin
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Payas
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Suruç
++2i (isg)¦YER KÖRÜ¦1918-10-30¦kazanc¦Yumurtalık
+ 2i (isg)¦YER KÖRÜ¦1918-12-06¦kazanc¦Kilis
+-2i (isg)¦YER KÖRÜ¦1918-12-17¦kazanc¦Antep, Tarsus
++2i (isg)¦YER KÖRÜ¦1918-12-17¦kazanc¦Antep
++2i (isg)¦YER KÖRÜ¦1918-12-17¦kazanc¦Tarsus
+ 2i (isg)¦YER KÖRÜ¦1918-12-24¦kazanc¦Adana
+ 2i (isg)¦YER KÖRÜ¦1919-01-01¦kazanc¦Urfa
+ 2i (isg)¦YER KÖRÜ¦1919-05-22¦kazanc¦Ayasuluk (Selçuk)
+ 2i (isg)¦YER KÖRÜ¦1919-05-28¦kazanc¦Tire
+-2i (isg)¦YER KÖRÜ¦1919-10-29¦kayip¦Kilis, Maraş, Urfa
++2i (isg)¦YER KÖRÜ¦1919-10-29¦kayip¦Kilis
++2i (isg)¦YER KÖRÜ¦1919-10-29¦kayip¦Maraş
++2i (isg)¦YER KÖRÜ¦1919-10-29¦kayip¦Urfa
+ 2i (isg)¦YER KÖRÜ¦1919-11-05¦kayip¦Antep
+ 2i (isg)¦YER KÖRÜ¦1920-08-04¦kazanc¦Gelibolu
+-2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Akçakale, Ceylanpınar, Dörtyol +5
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Akçakale
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Ceylanpınar
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Dörtyol
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Erzin
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Nusaybin
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Payas
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Suruç
++2i (isg)¦YER KÖRÜ¦1921-10-20¦kayip¦Yumurtalık
+ 2i (isg)¦YER KÖRÜ¦1922-09-04¦kayip¦Tire
+ 2i (isg)¦YER KÖRÜ¦1922-09-08¦kayip¦Ayasuluk (Selçuk)
+ 2i (isg)¦YER KÖRÜ¦1922-10-03¦kayip¦Gelibolu
+-2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Batnoz (Patmos), Bozbaba (Ay Strati), Fornoz (Fourni) +20
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Batnoz (Patmos)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Bozbaba (Ay Strati)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Fornoz (Fourni)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Herke (Halki)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Karpatos
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Kaşot (Kasos)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Kelemez (Kalimnos)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Limni
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Lindos
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Midilli
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Molova (Molyvos)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Nikarya (İkarya)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Rodos
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Sakız
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Semadirek
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Sömbeki (Simi)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦Taşoz
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦İleryoz (Leros)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦İlyaki (Tilos)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦İncirli (Nisiros)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦İpsara (Psara)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦İstanbulya (Astipalya)
++2i (isg)¦YER KÖRÜ¦1923-07-24¦kayip¦İstanköy
+diff --git a/denetim/ARAC-DEGISMEZ2-YERKORU-1004.py b/denetim/ARAC-DEGISMEZ2-YERKORU-1004.py
+index b918c50d..e46c39ef 100644
+--- a/denetim/ARAC-DEGISMEZ2-YERKORU-1004.py
++++ b/denetim/ARAC-DEGISMEZ2-YERKORU-1004.py
+@@ -35,9 +35,12 @@ Y_cekirdek, aynı `olaylari_yukle()` evreni). Kapılar: `2 (d,v)` ve `2i (isg)`.
+ 
+ ÇIKIŞ KODU  0 YER KÖRÜ ∪ AÇIK kümesinin her üyesi üyelik defterinde · 1 defterde olmayan üye girdi ·
+             2 ÖLÇÜLEMEDİ. Kapı DEĞİL ölçümdür; yayın kapısına BAĞLANMAZ (bağlama kararı koordinatörün).
+-🔴 TAVAN ÜYELİKTİR, SAYI DEĞİL (D259): satır `kapı¦KOVA¦gün¦tip¦yer` (yer = ilk 3 yerleşim adı,
+-   alfabetik, fazlası `+N`). Aynı sayıda üye takası ÖTER. Kırılmaya yeni yerleşim eklenirse anahtar
+-   değişir ve yeni üye sayılır (kasıtlı: kör bir kırılmanın kapsamı büyüdü).
++🔴 TAVAN ÜYELİKTİR, SAYI DEĞİL (D259): satır `kapı¦KOVA¦gün¦tip¦yer` — YER BAŞINA BİR SATIR.
++   Aynı sayıda üye takası ÖTER. Kör kırılmaya yeni yerleşim eklenirse YALNIZ o yerin satırı yeni
++   sayılır (kapsam büyüdü, adıyla); yerleşim çıkarsa o satır düşer (iyi haber), öteki satırlar
++   YERİNDE kalır. ⚠️ İlk sürüm grubu tek satırda özetliyordu (ilk 3 ad + `+N`): grup KÜÇÜLÜNCE
++   anahtar değişip iyileşme "yeni kör" diye ÖTÜYORDU (UMIT-W33: 1913-05-30, Silistre çıktı,
++   `+22`→`+21`). Ekrandaki `--liste` özeti grup hâlinde kalır; defter yer başınadır.
+ 
+ KULLANIM
+   py denetim/ARAC-DEGISMEZ2-YERKORU-1004.py                 ölç, kapıyı uygula
+@@ -158,11 +161,13 @@ def main(argv):
+                     print("    %s %-7s %-9s %-40s | en yakın madde: %s" % (
+                         r["gun"], r["tip"], r["alt"], yer_etiketi(r["adlar"])[:40],
+                         ("%s [%s] %s" % (en["t"], en["yer"], en["b"][:50])) if en else "—"))
+-        uyeler = {r["anahtar"] for k in s.values() for r in k["kayit"] if r["kova"] != "YER EŞLİ"}
++        uyeler = {"%s¦%s¦%s¦%s¦%s" % (kapi, r["kova"], r["gun"], r["tip"], ad)
++                  for kapi, k in s.items() for r in k["kayit"] if r["kova"] != "YER EŞLİ"
++                  for ad in r["adlar"]}
+         if "--defter-yaz" in argv:
+             ko.defter_yaz(defter_yolu, uyeler,
+                           "DEĞİŞMEZ 2 YER KÖRLÜĞÜ — YER KÖRÜ + AÇIK ÜYELİK DEFTERİ (tavan = üyelik, sayı değil)\n"
+-                          "Satır: kapı¦KOVA¦gün¦tip¦yer. 'Defterde var' ≠ 'incelendi ve kabul edildi'.\n"
++                          "Satır: kapı¦KOVA¦gün¦tip¦yer (YER BAŞINA bir satır). 'Defterde var' ≠ 'incelendi ve kabul edildi'.\n"
+                           "Bu araç yayın kapısına BAĞLI DEĞİL; defter bugünkü gerçekliğin tavanıdır.")
+             print("  defter yazıldı: %s (%d üye)" % (defter_yolu, len(uyeler)))
+             return 0
+diff --git a/denetim/ARAC-DEGISMEZ2-YERKORU-SINAV-1004.py b/denetim/ARAC-DEGISMEZ2-YERKORU-SINAV-1004.py
+index 7de63d25..a391cb4c 100644
+--- a/denetim/ARAC-DEGISMEZ2-YERKORU-SINAV-1004.py
++++ b/denetim/ARAC-DEGISMEZ2-YERKORU-SINAV-1004.py
+@@ -25,6 +25,13 @@ KULLANIM:  py denetim/ARAC-DEGISMEZ2-YERKORU-SINAV-1004.py     (çıkış: 0 hep
+ """
+ import io, json, os, re, shutil, subprocess, sys, tempfile
+ 
++# cp1254 konsolda/pipe'ta `→`/`🔴` basarken UnicodeEncodeError → sahte çıkış 1 (UMIT-W33 ölçtü).
++for _akis in (sys.stdout, sys.stderr):
++    try:
++        _akis.reconfigure(encoding="utf-8")
++    except Exception:                                   # noqa
++        pass
++
+ DENETIM = os.path.dirname(os.path.abspath(__file__))
+ KOK = os.path.dirname(DENETIM)
+ ARAC = os.path.join(DENETIM, "ARAC-DEGISMEZ2-YERKORU-1004.py")
+diff --git a/denetim/ARAC-KUNYE-KRONO-KAPSAM-SINAV-1004.py b/denetim/ARAC-KUNYE-KRONO-KAPSAM-SINAV-1004.py
+index 91bb15de..3b3dc317 100644
+--- a/denetim/ARAC-KUNYE-KRONO-KAPSAM-SINAV-1004.py
++++ b/denetim/ARAC-KUNYE-KRONO-KAPSAM-SINAV-1004.py
+@@ -21,6 +21,13 @@ KULLANIM:  py denetim/ARAC-KUNYE-KRONO-KAPSAM-SINAV-1004.py     (çıkış: 0 he
+ """
+ import glob, io, os, shutil, subprocess, sys, tempfile
+ 
++# cp1254 konsolda/pipe'ta `→`/`🔴` basarken UnicodeEncodeError → sahte çıkış 1 (UMIT-W33 ölçtü).
++for _akis in (sys.stdout, sys.stderr):
++    try:
++        _akis.reconfigure(encoding="utf-8")
++    except Exception:                                   # noqa
++        pass
++
+ DENETIM = os.path.dirname(os.path.abspath(__file__))
+ KOK = os.path.dirname(DENETIM)
+ ARAC = os.path.join(DENETIM, "ARAC-KUNYE-KRONO-KAPSAM-1004.py")
+@@ -35,10 +42,11 @@ def sonuc(ok, baslik, detay=""):
+         HATA += 1
+ 
+ 
+-def calistir(kok, defter=None):
++def calistir(kok, defter=None, *ek):
+     a = [sys.executable, ARAC, "--kok", kok]
+     if defter:
+         a += ["--defter", defter]
++    a += list(ek)
+     env = dict(os.environ, PYTHONIOENCODING="utf-8")
+     p = subprocess.run(a, capture_output=True, env=env, timeout=900)
+     return p.returncode, p.stdout.decode("utf-8", "replace") + p.stderr.decode("utf-8", "replace")
+@@ -111,18 +119,26 @@ try:
+     else:
+         sonuc(False, "3) atlandı — defter boş")
+ 
++    # 4/5 TABANI — ZZ'siz kopyanın O ANKİ C'si. 4 ve 5 yalnız ZZ kaydının etkisini sorar; gerçek
++    # ağaçta C büyüdüyse onu (1) söyler. Taban olmadan bir yeni C üyesi 1·4·5'te ÜÇ HATA sayılıyordu
++    # (UMIT-W33: 4f390691 `itilaf-emaneti` — bir kök, üç hata).
++    kok_t, _ = kopya(tmp, "taban")
++    d_taban = os.path.join(tmp, "defter-taban.txt")
++    k, o = calistir(kok_t, d_taban, "--defter-yaz")
++    sonuc(k == 0 and os.path.exists(d_taban), "4/5 ön koşul: taban defteri yazıldı (ZZ'siz kopya)", "çıkış %d" % k)
++
+     # 4) ANILAN KÜNYE C'DEN ÇIKAR — aynı hayalet, bu kez harici madde anıyor
+     kok4, d4 = kopya(tmp, "anilan")
+     devlet_ekle(d4, HAYALET)
+     io.open(os.path.join(d4, "kronoloji_cok_zzsinav.js"), "w", encoding="utf-8").write(ANAN)
+-    k, o = calistir(kok4)
++    k, o = calistir(kok4, d_taban)
+     sonuc(k == 0, "4) aynı künyeyi harici madde anıyor → C'ye GİRMEZ → çıkış 0",
+           "çıkış %d" % k)
+ 
+     # 5) B AYRI KOVA
+     kok5, d5 = kopya(tmp, "bkova")
+     devlet_ekle(d5, B_KUNYE)
+-    k, o = calistir(kok5)
++    k, o = calistir(kok5, d_taban)
+     sonuc(k == 0 and "zz-sinav-b-kovasi" not in o.split("C ikisi")[-1][:200],
+           "5) yalnız künye-içi kronolojili künye → B kovası, C'ye girmez → çıkış 0", "çıkış %d" % k)
+ 
+diff --git a/denetim/ARAC-LISTE-BAYAT-SINAV-1004.py b/denetim/ARAC-LISTE-BAYAT-SINAV-1004.py
+index b1d34c00..ef23424f 100644
+--- a/denetim/ARAC-LISTE-BAYAT-SINAV-1004.py
++++ b/denetim/ARAC-LISTE-BAYAT-SINAV-1004.py
+@@ -25,6 +25,13 @@ KULLANIM:  py denetim/ARAC-LISTE-BAYAT-SINAV-1004.py     (çıkış: 0 hepsi ge
+ """
+ import io, json, os, re, shutil, subprocess, sys, tempfile
+ 
++# cp1254 konsolda/pipe'ta `→`/`🔴` basarken UnicodeEncodeError → sahte çıkış 1 (UMIT-W33 ölçtü).
++for _akis in (sys.stdout, sys.stderr):
++    try:
++        _akis.reconfigure(encoding="utf-8")
++    except Exception:                                   # noqa
++        pass
++
+ DENETIM = os.path.dirname(os.path.abspath(__file__))
+ KOK = os.path.dirname(DENETIM)
+ ARAC = os.path.join(DENETIM, "ARAC-LISTE-BAYAT-1004.py")

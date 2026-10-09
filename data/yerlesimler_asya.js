@@ -837,7 +837,10 @@ window.YERLESIMLER_ASYA = [
      {f:"1305-01-01", t:"1392-01-01", d:"delhi-sultanligi"},
      {f:"1392-01-01", t:"1561-03-29", d:"malva-sultanligi"},
      {f:"1561-03-29", t:"1732-01-01", d:"babur-imparatorlugu"},
-     {f:"1732-01-01", t:"1923-10-29", d:"maratha"}] },
+     {f:"1732-01-01", t:"1818-06-03", d:"maratha"},
+     // HAYALET-KUNYE-1008 · EB1911 c.27 s.583 «in the state of Gwalior» · «the headquarters of Sindhia».
+     // 1818-06-03 = `maratha` künye sonu (kaynak günü DEĞİL, künye sınırı — İndor/Gvalyar emsali).
+     {f:"1818-06-03", t:"1923-10-29", d:"gvalyar"}] },
 
 // İndor — Holkar hânedanının merkezi; Malhar Rao Holkar 1733'ten itibaren
 // buradan yönetti, şehir 1715 civarında pazar yeri olarak kuruldu.
@@ -897,8 +900,11 @@ window.YERLESIMLER_ASYA = [
 
 // Cabalpûr — Gond Garha-Mandla krallığı; Ekber 1564'te vergiye bağladı ama
 // hânedan sürdü. 1781'de Maratha, 1818'de İngiliz.
+// HAYALET-KUNYE-1008-K · `gond-kralliklari` künyesi 1301-01-01'de başlıyor (kesinlik yuzyil); 1281→1301-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Cabalpûr (Jabalpur)", tur:"sehir", lat:23.1810, lon:79.9870, g:0, k:3, d:[],
-  s:[{f:"1281-01-01", t:"1781-01-01", d:"gond-kralliklari"},
+  s:[{f:"1281-01-01", t:"1301-01-01", d:"__BOSLUK__"},
+     {f:"1301-01-01", t:"1781-01-01", d:"gond-kralliklari"},
      {f:"1781-01-01", t:"1818-01-01", d:"maratha"},
      {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
@@ -1402,7 +1408,9 @@ window.YERLESIMLER_ASYA = [
   kur:"1537-01-01",
   s:[{f:"1537-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1687-01-01", d:"bicapur"},
-     {f:"1687-01-01", t:"1923-10-29", d:"meysur"}] },
+     {f:"1687-01-01", t:"1799-05-04", d:"meysur"},
+     // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
+     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
 
 // MEYSÛR — Vodeyar hânedanı 1399'dan beri Vijayanagara'nın tâbiidir;
 // Talikota'dan sonra bağımsızlaştı. Haydar Ali 1761'de, Tipu Sultan
@@ -1413,13 +1421,17 @@ window.YERLESIMLER_ASYA = [
 { ad:"Seringapatam (Şrirangapatnam)", tur:"kale", lat:12.4120, lon:76.6940, g:1, k:2,kd:[{f:"1761-01-01",t:"1799-05-04",k:1,m:"Seringapatam (Şrirangapatnam)"}], d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
-     {f:"1565-01-26", t:"1923-10-29", d:"meysur"}] },
+     {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
+     // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
+     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
 
 // Meysûr — Seringapatam'a 13 km; 1799'dan sonra krallığın başkenti oldu.
 { ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
-     {f:"1565-01-26", t:"1923-10-29", d:"meysur"}] },
+     {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
+     // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
+     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
 
 // ===== 2d. Koromandel ve Tamil ülkesi =====
 
@@ -3272,15 +3284,21 @@ window.YERLESIMLER_ASYA = [
 // "lan-xang" başlangıcı 1281'e çekildi ve gerekçesi burada yazıldı —
 // bölgeyi Angkor ya da Sukhothai ile boyamak daha büyük bir hata olurdu.
 
+// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Luang Prabang", tur:"sehir", lat:19.8850, lon:102.1350, g:1, k:1,kd:[{f:"1281-01-01",t:"1893-10-03",k:1,m:"Luang Prabang"}], d:[],
-  s:[{f:"1281-01-01", t:"1707-01-01", d:"lan-xang"},
+  s:[{f:"1281-01-01", t:"1353-01-01", d:"__BOSLUK__"},
+     {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
      {f:"1707-01-01", t:"1893-10-03", d:"laos-kralliklari"},
      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
 // Vientiane — 1560'ta Lan Xang'ın başkenti oldu; Siyam 1828'de şehri
 // yıktı ve krallığı kaldırdı, 1893'te Fransa aldı.
+// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Vientiane", tur:"sehir", lat:17.9750, lon:102.6300, g:1, k:1,kd:[{f:"1281-01-01",t:"1893-10-03",k:1,m:"Vientiane"}], d:[],
-  s:[{f:"1281-01-01", t:"1707-01-01", d:"lan-xang"},
+  s:[{f:"1281-01-01", t:"1353-01-01", d:"__BOSLUK__"},
+     {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
      {f:"1707-01-01", t:"1828-11-01", d:"laos-kralliklari"},
      {f:"1828-11-01", t:"1893-10-03", d:"siyam-chakri"},
      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
@@ -3769,8 +3787,11 @@ window.YERLESIMLER_ASYA = [
 // Kotabato — Magindanao Sultanlığı; Sultan Kudarat XVII. yüzyılda
 // İspanyol seferlerini püskürttü. İspanya 1888'de nihayet bağladı,
 // Amerika 1899'da devraldı.
+// HAYALET-KUNYE-1008-K · `magindanao-sultanligi` künyesi 1515-01-01'de başlıyor (kesinlik onyil); 1281→1515-01-01 dilimi → `filipin-racaliklari`.
+//   öncül `filipin-racaliklari`: TDV `filipinler` «datularla (yerli kabile reisleri)».
 { ad:"Kotabato (Magindanao)", tur:"sehir", lat:7.2230, lon:124.2460, g:0, k:1,kd:[{f:"1281-01-01",t:"1888-01-01",k:1,m:"Kotabato (Magindanao)"}], d:[],
-  s:[{f:"1281-01-01", t:"1888-01-01", d:"magindanao-sultanligi"},
+  s:[{f:"1281-01-01", t:"1515-01-01", d:"filipin-racaliklari"},
+     {f:"1515-01-01", t:"1888-01-01", d:"magindanao-sultanligi"},
      {f:"1888-01-01", t:"1898-08-13", d:"ispanya"},
      {f:"1898-08-13", t:"1923-10-29", d:"abd"}] },
 

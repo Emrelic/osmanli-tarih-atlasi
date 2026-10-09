@@ -17,7 +17,8 @@ yaslama js/d_katman.js'te koşar, Python'da yeniden kurulmaz):
 import io, json, math, subprocess, sys
 sys.stdout.reconfigure(encoding="utf-8")
 
-KOK = r"C:\atlas"
+import os  # MUTLAK-KOK-DENETIM-1006: kök için
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GUN = "1923-09-01"
 ADIM_KM = 5.0
 YAN_KM = 5.0

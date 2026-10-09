@@ -1,0 +1,216 @@
+diff --git a/denetim/ARAC-LEGO-alet-sinav.py b/denetim/ARAC-LEGO-alet-sinav.py
+index 24adfd15..320e3826 100644
+--- a/denetim/ARAC-LEGO-alet-sinav.py
++++ b/denetim/ARAC-LEGO-alet-sinav.py
+@@ -2,7 +2,7 @@
+ """MOTOR-LEGO-0925 — B9: önbellek ALETİ `govde` yazıp okuyabiliyor mu? (geçici dosyada)
+ + yamanın `tuz_karsilastir`ı iki yönde (aynı tuz → [], farklı → adlar, ilk → None).
+ Kullanım: py denetim/ARAC-LEGO-alet-sinav.py <motor_onbellek.py dizini>"""
+-import importlib.util, os, pickle, sys, tempfile
++import importlib.util, os, pickle, shutil, sys, tempfile
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ dz = sys.argv[1]
+ sp = importlib.util.spec_from_file_location("mob", os.path.join(dz, "motor_onbellek.py"))
+@@ -10,35 +10,45 @@ mob = importlib.util.module_from_spec(sp); sp.loader.exec_module(mob)
+ tmp = tempfile.mkdtemp(prefix="lego_sinav_")
+ yol = os.path.join(tmp, "o.sqlite")
+ hata = 0
+-def bak(ad, kosul):
+-    global hata
+-    print(("  ✓ " if kosul else "  ✗ ") + ad); hata += 0 if kosul else 1
++try:
++    def bak(ad, kosul):
++        global hata
++        print(("  ✓ " if kosul else "  ✗ ") + ad); hata += 0 if kosul else 1
+ 
+-o = mob.Onbellek(yol, "tuz-A")
+-k = o.anahtar("govde", b"GOVDE_TUZ", b"cevre", b"#GRUP#", b"1.0,2.0;xyz")
+-v = ([[[[1.0, 2.0], [3.0, 4.0], [1.0, 2.0]]]], [1.5, 2.5], 12.25, 0)
+-bak("yazmadan önce ıska", o.oku("govde", k) == (False, None))
+-o.yaz("govde", k, v)
+-var, g = o.oku("govde", k)
+-bak("yazdıktan sonra isabet", var)
+-bak("değer BİT BİT aynı (pickle)", pickle.dumps(g, protocol=4) == pickle.dumps(v, protocol=4))
+-# ikinci bağlantı (başka süreç gibi) görüyor mu — commit edildi mi
+-o2 = mob.Onbellek(yol, "tuz-A")
+-bak("yeni bağlantı aynı kaydı görüyor (commit)", o2.oku("govde", k)[0])
+-o3 = mob.Onbellek(yol, "tuz-B")
+-bak("farklı tuz ⇒ farklı anahtar", o3.anahtar("govde", b"GOVDE_TUZ", b"cevre", b"#GRUP#", b"1.0,2.0;xyz") != k)
+-kapali = mob.Onbellek(yol, "tuz-A", acik=False)
+-bak("KAPALI önbellek okumaz (negatif çapa)", kapali.oku("govde", k) == (False, None))
+-bak("ozet govde satırı basar", any(s.startswith("govde:") for s in o.ozet()))
+-if hasattr(mob.Onbellek, "tuz_karsilastir"):
+-    p1 = {"motor:uret_petek.py": "aa", "ortam": "[]"}
+-    bak("tuz_karsilastir ilk koşu → None", o.tuz_karsilastir("geo", p1) is None)
+-    bak("tuz_karsilastir aynı → []", o.tuz_karsilastir("geo", p1) == [])
+-    p2 = dict(p1, **{"motor:uret_petek.py": "bb"})
+-    bak("tuz_karsilastir farklı → değişen adı", o.tuz_karsilastir("geo", p2) == ["motor:uret_petek.py"])
+-    bak("etiketler ayrı tutulur", o.tuz_karsilastir("genel", p1) is None)
+-    bak("KAPALI önbellekte tuz_karsilastir → None", kapali.tuz_karsilastir("geo", p1) is None)
+-else:
+-    print("  (tuz_karsilastir yok — HEAD sürümü)")
+-print(f"SONUÇ: {'GEÇTİ' if not hata else f'{hata} KUSUR'} · {tmp}")
++    o = mob.Onbellek(yol, "tuz-A")
++    k = o.anahtar("govde", b"GOVDE_TUZ", b"cevre", b"#GRUP#", b"1.0,2.0;xyz")
++    v = ([[[[1.0, 2.0], [3.0, 4.0], [1.0, 2.0]]]], [1.5, 2.5], 12.25, 0)
++    bak("yazmadan önce ıska", o.oku("govde", k) == (False, None))
++    o.yaz("govde", k, v)
++    var, g = o.oku("govde", k)
++    bak("yazdıktan sonra isabet", var)
++    bak("değer BİT BİT aynı (pickle)", pickle.dumps(g, protocol=4) == pickle.dumps(v, protocol=4))
++    # ikinci bağlantı (başka süreç gibi) görüyor mu — commit edildi mi
++    o2 = mob.Onbellek(yol, "tuz-A")
++    bak("yeni bağlantı aynı kaydı görüyor (commit)", o2.oku("govde", k)[0])
++    o3 = mob.Onbellek(yol, "tuz-B")
++    bak("farklı tuz ⇒ farklı anahtar", o3.anahtar("govde", b"GOVDE_TUZ", b"cevre", b"#GRUP#", b"1.0,2.0;xyz") != k)
++    kapali = mob.Onbellek(yol, "tuz-A", acik=False)
++    bak("KAPALI önbellek okumaz (negatif çapa)", kapali.oku("govde", k) == (False, None))
++    bak("ozet govde satırı basar", any(s.startswith("govde:") for s in o.ozet()))
++    if hasattr(mob.Onbellek, "tuz_karsilastir"):
++        p1 = {"motor:uret_petek.py": "aa", "ortam": "[]"}
++        bak("tuz_karsilastir ilk koşu → None", o.tuz_karsilastir("geo", p1) is None)
++        bak("tuz_karsilastir aynı → []", o.tuz_karsilastir("geo", p1) == [])
++        p2 = dict(p1, **{"motor:uret_petek.py": "bb"})
++        bak("tuz_karsilastir farklı → değişen adı", o.tuz_karsilastir("geo", p2) == ["motor:uret_petek.py"])
++        bak("etiketler ayrı tutulur", o.tuz_karsilastir("genel", p1) is None)
++        bak("KAPALI önbellekte tuz_karsilastir → None", kapali.tuz_karsilastir("geo", p1) is None)
++    else:
++        print("  (tuz_karsilastir yok — HEAD sürümü)")
++    print(f"SONUÇ: {'GEÇTİ' if not hata else f'{hata} KUSUR'} · {tmp}")
++finally:
++    # temizlik (UMIT-W39b): %TEMP%'te lego_sinav_* artığı BIRAKILMAZ
++    for ad in ("o", "o2", "o3", "kapali"):  # sqlite bağlantısı Windows'ta dosyayı kilitler
++        b = getattr(getattr(globals().get(ad), "_yerel", None), "b", None)
++        if b is not None:
++            b.close()
++    shutil.rmtree(tmp, ignore_errors=True)
++    if os.path.exists(tmp):
++        print(f"  ⚠️ geçici dizin SİLİNEMEDİ: {tmp}")
+ sys.exit(1 if hata else 0)
+diff --git a/denetim/TOPLU-SINAV.py b/denetim/TOPLU-SINAV.py
+index ed6d508d..58542a16 100644
+--- a/denetim/TOPLU-SINAV.py
++++ b/denetim/TOPLU-SINAV.py
+@@ -20,7 +20,10 @@ Her sınav için: GECTI · OTTU · HATA · ATLANDI + süre.
+ 
+ YAN ETKİ: her sınavdan önce/sonra `git status --porcelain` (+ listelenen dosyaların sha1'i,
+ zaten kirli bir dosyanın yeniden değişmesini de görmek için) alınır; fark varsa adıyla basılır.
+-Yan etki çıkış kodunu DEĞİŞTİRMEZ (bilgi). Depo DIŞI artıklar (%TEMP%) bu ölçümle GÖRÜNMEZ.
++YAN ETKİ (TEMP): depo DIŞI artık için her sınavdan önce/sonra %TEMP%'in üst düzey girdileri
++alınır; sınav sırasında YENİ beliren girdiler adıyla basılır (UMIT-W39b). ⚠️ TEMP paylaşımlıdır:
++aynı anda çalışan başka bir süreç de girdi açabilir ⇒ bu bir İPUCUDUR, kanıt değil.
++İki yan etki de çıkış kodunu DEĞİŞTİRMEZ (bilgi; karar koordinatörde).
+ """
+ import argparse, hashlib, os, shlex, shutil, subprocess, sys, tempfile, time
+ 
+@@ -73,6 +76,14 @@ def git_durum():
+     return sonuc
+ 
+ 
++def temp_durum():
++    """%TEMP%'in üst düzey girdi adları · ölçülemezse None."""
++    try:
++        return set(os.listdir(tempfile.gettempdir()))
++    except OSError:
++        return None
++
++
+ def yan_etki(once, sonra):
+     fark = []
+     for y in sorted(set(once) | set(sonra)):
+@@ -156,12 +167,12 @@ def kos(liste, zaman, ayrintili):
+         return 2
+     print(f"TOPLU-SINAV · {len(sinavlar)} sınav · zaman aşımı {zaman} sn/adım · kapıya BAĞLI DEĞİL")
+     sayac = {"GECTI": [], "OTTU": [], "HATA": [], "ATLANDI": []}
+-    yan, olculemedi_git = [], []
++    yan, yan_temp, olculemedi_git = [], [], []
+     t0 = time.time()
+     for ad, adimlar in sinavlar:
+-        once = git_durum()
++        once, t_once = git_durum(), temp_durum()
+         durum, not_, cikti, sure = sinav_kos(ad, adimlar, zaman, ayrintili)
+-        sonra = git_durum()
++        sonra, t_sonra = git_durum(), temp_durum()
+         sayac[durum].append(ad)
+         print(f"  {durum:<8} {sure:7.2f} sn  {ad}" + (f"  — {not_}" if not_ else ""))
+         if cikti.strip() and (durum != "GECTI" or ayrintili):
+@@ -178,8 +189,19 @@ def kos(liste, zaman, ayrintili):
+                 print(f"           🟠 YAN ETKİ ({len(fark)} dosya):")
+                 for f in fark:
+                     print(f"              {f}")
++        if t_once is None or t_sonra is None:
++            print(f"           ⚠️ YAN ETKİ (TEMP) ÖLÇÜLEMEDİ (%TEMP% okunamadı)")
++        else:
++            yeni = sorted(t_sonra - t_once)
++            if yeni:
++                yan_temp.append(ad)
++                print(f"           🟠 YAN ETKİ (TEMP) ({len(yeni)} yeni girdi, başka süreç de olabilir):")
++                for y in yeni[:10]:
++                    print(f"              YENİ   %TEMP%/{y}")
++                if len(yeni) > 10:
++                    print(f"              … +{len(yeni) - 10}")
+     print(f"── {time.time() - t0:.1f} sn · GECTI {len(sayac['GECTI'])} · OTTU {len(sayac['OTTU'])} · "
+-          f"HATA {len(sayac['HATA'])} · ATLANDI {len(sayac['ATLANDI'])} · YAN ETKİ {len(yan)}")
++          f"HATA {len(sayac['HATA'])} · ATLANDI {len(sayac['ATLANDI'])} · YAN ETKİ {len(yan)} · TEMP {len(yan_temp)}")
+     olculemedi = sayac["HATA"] + sayac["ATLANDI"] + olculemedi_git
+     if sayac["OTTU"]:
+         print(f"🔴 ÖTEN: {', '.join(sayac['OTTU'])}")
+@@ -187,6 +209,8 @@ def kos(liste, zaman, ayrintili):
+         print(f"🟡 ÖLÇÜLEMEDİ: {', '.join(olculemedi)}")
+     if yan:
+         print(f"🟠 YAN ETKİ (çıkışı değiştirmez): {', '.join(yan)}")
++    if yan_temp:
++        print(f"🟠 YAN ETKİ (TEMP, çıkışı değiştirmez): {', '.join(yan_temp)}")
+     if sayac["OTTU"]:
+         print("SONUÇ: İHLAL VAR (1)"); return 1
+     if olculemedi:
+@@ -213,6 +237,8 @@ def oz_sinav():
+         iki = betik("iki.py", "import sys; print('olculemedi'); sys.exit(2)\n")
+         gecen = betik("gecen.py", "print('tamam')\n")
+         yan = betik("yan.py", f"open({yan_dosya!r}, 'w').write('x')\n")
++        temp_on = f"toplu_oz_temp_{os.getpid()}_"
++        temp_yaz = betik("temp_yaz.py", f"import tempfile; tempfile.mkdtemp(prefix={temp_on!r})\n")
+         olmayan = os.path.join(d, "olmayan.py").replace("\\", "/")
+         with open(VARSAYILAN_LISTE, encoding="utf-8") as f:
+             gercek = f.read()
+@@ -226,6 +252,8 @@ def oz_sinav():
+         durumlar = [
+             # (ad, liste gövdesi, ek argüman, beklenen çıkış, çıktıda olması gereken)
+             ("gerçek liste (3 betik)", gercek, [], 0, ["SONUÇ: temiz"]),
++            ("LEGO tek başına TEMP artığı bırakmaz (W39b temizliği)",
++             "LEGO-ALET | denetim/ARAC-LEGO-alet-sinav.py arac\n", [], 0, ["GECTI", "TEMP 0"]),
+             ("+ yapay öten", gercek + f"\nOTEN | {oten}\n", [], 1, ["OTTU", "ÖTEN: OTEN"]),
+             ("+ olmayan betik", gercek + f"\nYOK | {olmayan}\n", [], 2, ["ATLANDI", "ÖLÇÜLEMEDİ: YOK"]),
+             ("öten + olmayan → 1, ATLANDI gizlenmez",
+@@ -237,6 +265,9 @@ def oz_sinav():
+              ["hazırlık adımı 1", "ÖLÇÜLEMEDİ: HAZ"]),
+             ("yan etki görünür, çıkışı değiştirmez", f"YAN | {yan}\n", [], 0,
+              ["YAN ETKİ (1 dosya)", "_toplu_oz_yan_etki_"]),
++            ("TEMP'e yazan betik basılır, çıkışı değiştirmez", f"TMP | {temp_yaz}\n", [], 0,
++             ["YAN ETKİ (TEMP)", temp_on, "TEMP 1"]),
++            ("TEMP'e yazmayan betik basılmaz", f"GECEN | {gecen}\n", [], 0, ["TEMP 0"]),
+             ("bozuk satır → liste okunamadı", "AD_ama_adim_yok\n", [], 2, ["liste okunamadı"]),
+         ]
+         hatali = 0
+@@ -255,12 +286,21 @@ def oz_sinav():
+                     print(f"        │ {s}")
+             if os.path.exists(yan_dosya):
+                 os.remove(yan_dosya)
++            temp_temizle(temp_on)
+         print(f"ÖZ-SINAV: {len(durumlar) - hatali}/{len(durumlar)} tuttu")
+         return 0 if hatali == 0 else 1
+     finally:
+         shutil.rmtree(d, ignore_errors=True)
+         if os.path.exists(yan_dosya):
+             os.remove(yan_dosya)
++        temp_temizle(f"toplu_oz_temp_{os.getpid()}_")
++
++
++def temp_temizle(onek):
++    k = tempfile.gettempdir()
++    for ad in os.listdir(k):
++        if ad.startswith(onek):
++            shutil.rmtree(os.path.join(k, ad), ignore_errors=True)
+ 
+ 
+ if __name__ == "__main__":

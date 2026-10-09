@@ -8,11 +8,13 @@ const KOK = path.join(__dirname, "..");
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
 const yukle = rel => { const p = path.join(KOK, rel); if (!fs.existsSync(p)) return false; vm.runInContext(fs.readFileSync(p, "utf8"), ctx, { filename: rel }); return true; };
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-[...html.matchAll(/src="(data\/[^"?]+\.js)/g)].map(m => m[1]).filter(s => /yerlesimler/.test(s)).forEach(yukle);
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+IK.kaynaklar(html, /src="(data\/[^"?]+\.js)/).filter(s => /yerlesimler/.test(s)).forEach(yukle);
 const W = ctx;
 W.YERLESIMLER = Object.keys(W).filter(k => /^YERLESIMLER_/.test(k) && Array.isArray(W[k]))
   .reduce((a, k) => a.concat(W[k]), (W.YERLESIMLER || []).slice());
 const Y = W.YERLESIMLER;
+IK.yerlesimKapisi(Y);
 console.log("YERLESIMLER", Y.length);
 const kids = {};
 Y.forEach(y => {

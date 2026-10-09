@@ -302,5 +302,10 @@ Teknik tasarım — parçalama, manifest ve ilgi bağlarının **veriden türeti
   Sahra altı Afrika ve Amerika için on yıl hassasiyeti bile zor. `kesinlik` alanı
   bunu taşımalı.
 - **Kapsam kayması** — Boyut 8'in erken açılması en olası kayma yönüdür.
-- **Ad ve kimlik** — site "Osmanlı Tarih Atlası" adıyla yayında; dünya kapsamı
-  olgunlaştığında ad, ana sayfa metni ve varsayılan görünüm yeniden düşünülmeli.
+- **Ad ve kimlik** — ✅ **KAPANDI (9 Ekim 2026, Emre: _"tarih atlası daha
+  doğru"_):** site adı **"Tarih Atlası"** oldu. Sebebi bu maddenin kendi öngörüsü:
+  kapsam Osmanlı'nın ötesine açıldı (Sümer → MS 2000 kararı). Çekirdek katmanı
+  anlatan yerlerde "Osmanlı" sözcüğü yerinde kaldı.
+  ⚠️ **Açık kalan iki alt kalem:** depo adı (`osmanli-tarih-atlasi`) ve yayın
+  adresi değişmedi — ayrı karar, Emre'de. Ana sayfa metni ve varsayılan görünüm
+  de kapsam olgunlaştıkça yeniden bakılacak.

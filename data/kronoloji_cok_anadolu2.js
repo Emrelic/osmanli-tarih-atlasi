@@ -39,7 +39,7 @@ window.KRONOLOJI_COK_ANADOLU2 = [
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"Darende", gun:"1338 (TDV dulkadirogullari gün vermez)",
   d:"İlhanlı şehzadeleri arasındaki kanlı mücadelelerin Anadolu'daki Moğol hâkimiyetini çökertmesinden yararlanan Dulkadırlı Karaca Bey, bir baskınla Eretnaoğulları'nın elindeki Darende'yi işgal etti. Elbistan merkezli yeni beylik böylece Eretna ile Memlükler arasındaki sınır bölgesinde toprak kazanmaya başladı.",
-  ic_not_d:"Harita aynı gün Gürün'ü de eretna→dulkadir çeviriyor; TDV bu cümlede yalnız Darende'yi anar, Gürün'ü beyliğin genel sınır tarifinde sayar ('Sivas'ın güneyinde Gemerek ve Gürün'den') — Gürün'ün 1338'de alındığı ÖLÇÜLEMEDİ. Kuruluş (1337) data/kronoloji_anadolu.js'te duruyor.",
+  ic_not_d:"Harita aynı gün Gürün'ü de eretna→dulkadir çeviriyor; TDV bu cümlede yalnız Darende'yi anar, Gürün'ü beyliğin genel sınır tarifinde sayar ('Sivas'ın güneyinde Gemerek ve Gürün'den' [TDV: dulkadirogullari]) — Gürün'ün 1338'de alındığı ÖLÇÜLEMEDİ. Kuruluş (1337) data/kronoloji_anadolu.js'te duruyor.",
   kaynak:"TDV dulkadirogullari ('1338'de İlhanlı şehzadeleri arasında başlayan kanlı mücadeleler sonucunda Anadolu'da Moğol hâkimiyetinin çökmesinden faydalanan Karaca Bey, bir baskınla Eretnaoğulları'nın elinde bulunan Dârende'yi işgal etti')" },
 
 { t:"1341-01-01", devlet:"sahibata", devletler:["sahibata","germiyan"],
@@ -47,7 +47,7 @@ window.KRONOLOJI_COK_ANADOLU2 = [
   etiket:["siyaset","son","toprak-kayip","konu-siyasi"],
   yer_id:"Karahisâr-ı Sâhib (Afyon)", gun:"'742'den (1341) sonra' (TDV sahib-ataogullari) — kesin yıl YOK, değer EN ERKEN sınırdır",
   d:"Afyonkarahisar merkezli Sâhib Ataoğulları beyliğinin son beyi Nusretüddevle Ahmed'in 1341'den sonra ölümüyle beyliğin toprakları Germiyanoğulları tarafından ilhak edildi. Beylik, Selçuklu veziri Sâhib Ata Fahreddin Ali'nin oğullarına 1275'te verilen subaşılıklardan doğmuştu.",
-  ic_not_d:"Harita Afyon'u 1327-01-01'de sahibata→germiyan çeviriyor; TDV 1327'yi yalnız Eretna'nın Karahisar kuşatmasından geri çekilişi için veriyor ('Timurtaş'ın emriyle Karahisarıdevle kuşatması kaldırıldı (727/1327)') — yani 1327 bir el değiştirme DEĞİL. Öneri: YERLESIM-ONERI Ö3. Bu madde 1327 kırılmasını KAPATMAZ (bilerek).",
+  ic_not_d:"Harita Afyon'u 1327-01-01'de sahibata→germiyan çeviriyor; TDV 1327'yi yalnız Eretna'nın Karahisar kuşatmasından geri çekilişi için veriyor ('Timurtaş'ın emriyle Karahisarıdevle kuşatması kaldırıldı (727/1327)' [TDV: sahib-ataogullari]) — yani 1327 bir el değiştirme DEĞİL. Öneri: YERLESIM-ONERI Ö3. Bu madde 1327 kırılmasını KAPATMAZ (bilerek).",
   kaynak:"TDV sahib-ataogullari ('742'den (1341) sonra öldüğü tahmin edilen Nusretüddevle Ahmed'in ardından Sâhib Ataoğulları'nın toprakları Germiyanoğulları tarafından ilhak edildi')" },
 
 { t:"1350-01-01", devlet:"haciemir", devletler:["haciemir","trabzon-rum"],

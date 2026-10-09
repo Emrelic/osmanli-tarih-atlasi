@@ -1,0 +1,2 @@
+URL https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%2213th%20century%20polynesian%20colonization%20of%20Hawai%22&resultType=core&format=json
+{"version":"6.9","hitCount":0,"request":{"queryString":"TITLE:\"13th century polynesian colonization of Hawai\"","resultType":"core","cursorMark":"*","pageSize":25,"sort":"","synonym":false},"resultList":{"result":[]}}

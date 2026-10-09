@@ -1,0 +1,65 @@
+diff --git a/arac/durum_tablosu.py b/arac/durum_tablosu.py
+index 112d9fe0..21eff01a 100644
+--- a/arac/durum_tablosu.py
++++ b/arac/durum_tablosu.py
+@@ -28,6 +28,48 @@ def _oku(y):
+     return io.open(y, encoding="utf-8", newline="").read()
+ 
+ 
++def _kod_iskeleti(js):
++    """JS metninin YORUMSUZ ve DİZGE İÇERİĞİSİZ iskeleti — alan ADI sayımı için.
++
++    🔴 5 Ekim 2026, UMIT-W7-DURUM-1006: `vefat_id` metin geçişiyle sayılıyordu
++    ve §1.5 "28" dedi; gerçek nesne alanı 27'ydi. Fark `olaylar_ek17.js:39`
++    bir YORUM satırıydı (`// eski kayıt vefat_id:"osman2" …`).
++    ⇒ `//` ve `/* … */` yorumları DİZGE FARKINDA atılır (`denetle.py`
++      `_yorumsuz` ile aynı yöntem; oradan import EDİLMİYOR — stdout
++      sarmalayıcı çakışması). Dizge içeriği de silinir ki `d:` metninde
++      geçen "vefat_id:" sayılmasın. Tek istisna: içeriği salt tanımlayıcı
++      olan dizge (JSON biçimli `"vefat_id": …` anahtarı) TIRNAKSIZ bırakılır.
++    """
++    cik, i, n = [], 0, len(js)
++    while i < n:
++        c = js[i]
++        if c in "\"'`":
++            j, kacis = i + 1, False
++            while j < n:
++                if kacis:
++                    kacis = False
++                elif js[j] == "\\":
++                    kacis = True
++                elif js[j] == c:
++                    break
++                j += 1
++            ic = js[i + 1:j]
++            cik.append(ic if re.fullmatch(r"[A-Za-z_]\w*", ic) else '""')
++            i = j + 1
++            continue
++        if c == "/" and i + 1 < n and js[i + 1] == "/":
++            j = js.find("\n", i)
++            i = n if j < 0 else j          # satır sonu KORUNUR
++            continue
++        if c == "/" and i + 1 < n and js[i + 1] == "*":
++            j = js.find("*/", i + 2)
++            i = n if j < 0 else j + 2
++            continue
++        cik.append(c)
++        i += 1
++    return "".join(cik)
++
++
+ # ══════════════════════════════════════════════════════════════════════════
+ # KASITLI BOŞLUK DEYİMİ — 2 Eylül 2026'da kovalandı
+ #
+@@ -414,7 +456,10 @@ def olc():
+                      for f in glob.glob("data/olaylar*.js"))
+     o["yer_id"] = sum(len(re.findall(r"yer_id:", _oku(f)))
+                       for f in glob.glob("data/olaylar*.js"))
+-    o["vefat_id"] = sum(len(re.findall(r"vefat_id:", _oku(f)))
++    # ⚠️ madde/duygu/yer_id hâlâ METİN sayımı — aynı kusur ölçüldü
++    #    (yorum + çift yönlü biçim farkı), bkz. denetim/UMIT-W7-DURUM-1006.md.
++    o["vefat_id"] = sum(len(re.findall(r"(?<![\w$])vefat_id\s*:",
++                                       _kod_iskeleti(_oku(f))))
+                         for f in glob.glob("data/olaylar*.js"))
+ 
+     d = _oku("data/devletler.js")

@@ -375,6 +375,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Münster", tur:"sehir", lat:51.961, lon:7.626, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Dortmund", tur:"sehir", lat:51.514, lon:7.466, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Aachen", tur:"sehir", lat:50.776, lon:6.084, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
+{ ad:"Saarbrücken", tur:"sehir", lat:49.233, lon:6.997, g:0, k:3, d:[], kaynak:"Versay md. 45-50 (Saar Havzası; md. 49 MC emaneti) · koordinat: coğrafî bilgi (UMIT-W54b 1006)", s:[{f:"1281-01-01",t:"1920-01-10",d:"almanya",kaynak:"komşu Trier/Metz deseni — 1793-1815 Fransız dönemi bu işte KAYNAKLANMADI (Trier ile aynı borç; UMIT-W54b 1006)"},{f:"1920-01-10",t:"1923-10-29",d:"saar-havzasi-mandasi",kaynak:"Versay md. 49 (avalon.law.yale.edu/imt/partiii.asp): 'Germany renounces in favour of the League of Nations, in the capacity of trustee, the government of the territory defined above.' · FRUS 1919 c. XIII (history.state.gov frus1919Parisv13): Versay 10 Ocak 1920'de yürürlüğe girdi · künye saar-havzasi-mandasi f/t (FRUS · Staatskanzlei Saarland · LVR) (UMIT-W54b 1006)"}] },
 { ad:"Trier", tur:"sehir", lat:49.750, lon:6.637, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Mainz", tur:"sehir", lat:49.999, lon:8.273, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Kassel", tur:"sehir", lat:51.313, lon:9.492, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },

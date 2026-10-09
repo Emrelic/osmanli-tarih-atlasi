@@ -125,7 +125,7 @@ window.OLAYLAR_P0063 = [
 // ---- H-0010: İran'ın Rusları kendi topraklarından çıkarması ----
 { t:"1724-09-11", k:"savas", etiket:["savas","konu-askeri"], b:"Salyan'da Rus taburunun yok edilmesi — Tahmasb'ın birlikleri Kura ağzına girdi", gun:"eski takvim 31 Ağustos → Gregoryen 11 Eylül 1724", yer:"Salyan (Kura ağzı)", kisiler:"Zembulatov", d:"Bakü'nün alınmasından sonra Kura ağzına yerleşen Rus taburunun subayları Salyan naibinin verdiği bir ziyafette öldürüldü; kalan birlik Bakü'ye çekildi ve Salyan'a II. Tahmasb'ın yaklaşık dört bin kişilik birliği girdi. Ruslar bölgeye ancak birkaç yıl sonra, naibi kendileri atayarak dönebildiler. İşgal döneminde Rusların İran içinde silahla geri püskürtüldüğü nadir olaylardan biridir.", kaynak:"Kurukin, Персидский поход Петра Великого (2010) · Özdamirova, Sovremennaya nauçnaya mısl' 2024 (arşiv belgeleri)", ic_not_gun:"Kurukin çevrimiçi aynadan okundu, basılı nüshayla KARŞILAŞTIRILMADI · YAMA-0063-KRONO #1", yer_id:"Salyan" },
 
-{ t:"1734-05-31", k:"diplomasi", etiket:["diplomasi","konu-diplomasi"], b:"Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend verilmezse Osmanlı ile anlaşacak", gun:"eski takvim 20 Mayıs → Gregoryen 31 Mayıs 1734", yer:"Nâdir'in karargâhı", kisiler:"Nâdir (Tahmasb Kulu Han), Prens S. D. Golitsın", d:"Revan önünde Osmanlı ordusunu yenen Nâdir, Rus yardım teklifini reddetti ve Rusya Hazar kıyısı eyaletleriyle Derbend'i Reşt Antlaşması'nın ötesinde hemen iade etmezse Osmanlı ile ayrı barış yapacağını bildirdi. Petersburg, yeni bir Osmanlı savaşının arifesinde İran'ı karşı tarafa itmemek için geri adım attı.", kaynak:"Salamova, Omskiy nauçnıy vestnik 2007 ('на аудиенции 20 мая … если российское правительство немедленно не возвратит')", ic_not_gun:"makale yılı bağlamdan veriyor, takvimi belirtmiyor — eski takvim varsayıldı, DOĞRULANMADI · YAMA-0063-KRONO #2", yer_id:"" },
+{ t:"1734-05-31", k:"diplomasi", etiket:["diplomasi","konu-diplomasi"], b:"Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend verilmezse Osmanlı ile anlaşacak", gun:"eski takvim 20 Mayıs → Gregoryen 31 Mayıs 1734", yer:"Nâdir'in karargâhı", kisiler:"Nâdir (Tahmasb Kulu Han), Prens S. D. Golitsın", d:"Revan önünde Osmanlı ordusunu yenen Nâdir, Rus yardım teklifini reddetti ve Rusya Hazar kıyısı eyaletleriyle Derbend'i Reşt Antlaşması'nın ötesinde hemen iade etmezse Osmanlı ile ayrı barış yapacağını bildirdi. Petersburg, yeni bir Osmanlı savaşının arifesinde İran'ı karşı tarafa itmemek için geri adım attı.", kaynak:"Salamova, Omskiy nauçnıy vestnik 2007 ('на аудиенции 20 мая … если российское правительство немедленно не возвратит')", ic_not_gun:"makale yılı bağlamdan veriyor, takvimi belirtmiyor — eski takvim varsayıldı, DOĞRULANMADI · YAMA-0063-KRONO #2", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: audiyans gezici ordugâhta; kaynak (Salamova 2007) yerini vermiyor. Ölçüm: denetim/KRONO-YER-0075.json (K4_YERSIZ_ya_da_GEZICI)" },
 
 { t:"1734-11-09", k:"idari", etiket:["konu-idari","konu-siyasi"], b:"Rus çekilme buyruğu — Bakü, Nizovaya ve Kura'dan Derbend'e kadar bütün mevziler boşaltılacak", gun:"eski takvim 29 Ekim → Gregoryen 9 Kasım 1734", yer:"St. Petersburg", kisiler:"İmparatoriçe Anna, General V. Y. Levaşov", d:"İmparatoriçe Anna'nın buyruğu Rus kuvvetlerinin önce Bakü'den ve Nizovaya kalesinden Derbend'e çekilmesini, Derbend ile kalan eyaletlerin de mevsim elverdiğinde boşaltılmasını emretti. Nâdir'in baskısı antlaşmadan önce sonuç vermişti.", kaynak:"Garunova, Vestnik DGU 2016 ('29 октября 1734 г. последовал новый указ … вывести русские войска из Баку, Низовой')", ic_not_gun:"YAMA-0063-KRONO #3", yer_id:"Bakü" },
 
@@ -182,31 +182,31 @@ window.OLAYLAR_P0917TARAF = [
 
 { t:"1909-04-19", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
-  gun:"19 Nisan 1909", yer:"İstanbul", yer_id:"İstanbul", kisiler:"",
+  gun:"19 Nisan 1909", yer:"İstanbul", yer_id:"Sofya", kisiler:"",
   d:"Rusya'nın aracılığıyla İstanbul'da imzalanan protokolle Osmanlı Devleti, altı ay önce tek taraflı ilan edilen Bulgaristan bağımsızlığını resmen tanıdı. Böylece Istranca'daki eski Osmanlı-Bulgar sınırı hukuken de iki bağımsız devlet arasındaki hat oldu; bu kesim bugün de Türkiye-Bulgaristan sınırının parçasıdır.",
   kaynak:"Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9", duygu:["🤝"] },
 
 { t:"1913-11-17", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İstanbul Protokolü — Türk-İran sınırının tahdidi",
-  gun:"17 Kasım 1913", yer:"İstanbul", yer_id:"İstanbul", kisiler:"",
+  gun:"17 Kasım 1913", yer:"İstanbul", yer_id:"Kasr-ı Şîrîn", kisiler:"",
   d:"Osmanlı ve İran temsilcileri, İngiliz ve Rus elçilerinin gözetiminde, 1847 Erzurum Antlaşması'na dayanan Türk-İran sınırının tahdit protokolünü İstanbul'da imzaladı. Karma komisyon ertesi yıl Ekim'e kadar hattı Kotur çevresindeki kısa bir kesim dışında yerinde işaretledi. 1923'te Türkiye-İran sınırı olarak kalan bu hat 1932 ve 1937'de üç kesimde değiştirildi.",
   kaynak:"IBS No. 28 Iran-Turkey (1964) s.5-7 · H. Efe-M. Kızıl, ERZSOSDE X-I (2017) s.77-90", duygu:["🤝"] },
 
 { t:"1915-09-06", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
-  gun:"6 Eylül 1915 (24 Ağustos Jülyen)", yer:"Sofya", yer_id:"Sofya", kisiler:"",
+  gun:"6 Eylül 1915 (24 Ağustos Jülyen)", yer:"Sofya", yer_id:"Dimetoka", kisiler:"",
   d:"Bulgaristan'ın Osmanlı yanında savaşa girmesinden kısa süre önce Sofya'da imzalanan sözleşme, 1913 İstanbul Antlaşması'nın çizdiği Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca yeniden işaretlenip Lozan'da teyit edildi.",
   kaynak:"IBS No. 49 Bulgaria-Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'", duygu:["🤝"] },
 
 { t:"1886-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
-  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", kisiler:"",
+  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: sınır çizgisi olayı; uç noktalar kaynakta (IBS 121) yok. Ölçüm: denetim/KRONO-YER-0075.json (K2_BOLGESEL)", kisiler:"",
   d:"Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmiyor.",
   kaynak:"IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')", duygu:["🤝"] },
 
 { t:"1892-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
-  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", kisiler:"",
+  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: sınır çizgisi olayı; uç noktalar kaynakta (IBS 121) yok. Ölçüm: denetim/KRONO-YER-0075.json (K2_BOLGESEL)", kisiler:"",
   d:"İkinci bir Fransız-Osmanlı düzenlemesi, Tunus ile Trablusgarp vilayeti arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge on sekiz yıl sonra imzalanacak Trablus Sözleşmesi'dir.",
   kaynak:"IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')", duygu:["🤝"] },
 
@@ -544,7 +544,7 @@ window.OLAYLAR_P0068B = [
 { t:"1791-10-16", k:"diger", etiket:["diplomasi"], b:"Potemkin'in ölümü — Yaş görüşmelerinin Rus tarafında el değiştirmesi", odak_yer:["Yaş","Kalas","Bender"], ic_not_odak:"önceki odak_yer:[\"Yaş\"] kamerayı şehir kademesine indiriyordu; olay Yaş'tan Nikolaşet'e giderken yolda, anlamı diplomatik. KARADENIZ-0082-CEVAP H-0044 önerisi: Yaş–Kalas–Bender kutusu · UYGULA-OLAYLAR-0930", gun:"16 Ekim 1791", yer:"Boğdan", kisiler:"Potemkin, Bezborodko", d:"Rus murahhası Potemkin, Nikolaşet Manastırı'na giderken yolda 16 Ekim 1791'de öldü. Yerine görüşmeleri Kont Bezborodko yürüttü; barış müzakereleri ancak onun gelişinden sonra, kasım ayında düzenli biçimde başlayabildi.", kaynak:"yas-antlasmasi", duygu:["😐"] },
 { t:"1791-11-10", k:"diplomasi", etiket:["diplomasi"], b:"Yaş'ta Osmanlı-Rus müzakerelerinin başlaması", yer_id:"Yaş", gun:"13 Rebîülevvel 1206 / 10 Kasım 1791", yer:"Yaş (Iaşi)", kisiler:"Ahmed Vâsıf Efendi, Bezborodko", d:"Osmanlı ve Rus heyetleri 10 Kasım 1791'de Yaş'ta ilk oturumu yaptı. İki ay boyunca on altı toplantı yapılacak, tazminat ve sınır meseleleri bu oturumlarda çözülecektir.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1792-01-07", k:"diplomasi", etiket:["diplomasi"], b:"Yaş'ta on dördüncü oturum — Rusya'nın tazminat talebinden vazgeçmesi", yer_id:"Yaş", gun:"7 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"Bezborodko, Ahmed Vâsıf Efendi", d:"7 Ocak 1792'deki on dördüncü görüşmede Rus murahhası Bezborodko tazminat talebinden vazgeçerek barışın akdedildiğini ilân etti. Antlaşma metninin üç gün sonra imzalanması kararlaştırıldı.", ic_not_d:"Aynı oturumda imza günü olarak 9 Ocak kararlaştırıldı, fiilen 10 Ocak'ta imzalandı (TDV yas-antlasmasi). Atlastaki 1792-01-10 maddesi TDV'nin çapalı tarihidir; kuyruktaki KRONOLOJI_RUSYA maddesi 1792-01-09 diyor — düzeltme önerisi raporda.", kaynak:"yas-antlasmasi", duygu:["📜"] },
-{ t:"1792-01-18", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Yaş Antlaşması'nın sadrazam senediyle onaylanması", yer_id:"Yaş", gun:"23 Cemâziyelevvel 1206 / 18 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"Koca Yûsuf Paşa", d:"10 Ocak 1792'de imzalanan Yaş Antlaşması, 18 Ocak'ta sadrazamın verdiği senetle onaylandı. Onayı teyidnâme ve tasdiknâme mübadeleleri izleyecek, barış şubat başında hukuken kesinleşecektir.", kaynak:"yas-antlasmasi", duygu:["📜"] },
+{ t:"1792-01-18", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Yaş Antlaşması'nın sadrazam senediyle onaylanması", yer_id:"Hacıbey (Odessa)", gun:"23 Cemâziyelevvel 1206 / 18 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"Koca Yûsuf Paşa", d:"10 Ocak 1792'de imzalanan Yaş Antlaşması, 18 Ocak'ta sadrazamın verdiği senetle onaylandı. Onayı teyidnâme ve tasdiknâme mübadeleleri izleyecek, barış şubat başında hukuken kesinleşecektir.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1792-01-27", k:"diplomasi", etiket:["antlasma","diplomasi"], b:"Yaş'ta on altıncı oturum — teyidnâmelerin mübadelesi", yer_id:"Yaş", gun:"2 Cemâziyelâhir 1206 / 27 Ocak 1792", yer:"Yaş (Iaşi)", kisiler:"—", d:"27 Ocak 1792'de yapılan on altıncı ve son toplantıda teyidnâmeler karşılıklı olarak mübadele edildi. Konferans böylece kapandı; geriye yalnız hükümdar tasdiknâmelerinin değişimi kaldı.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 { t:"1792-02-10", k:"antlasma", etiket:["antlasma","diplomasi"], b:"Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kesinleşmesi", yer_id:"Yaş", gun:"16 Cemâziyelâhir 1206 / 10 Şubat 1792", yer:"Yaş (Iaşi)", kisiler:"III. Selim, II. Katerina", d:"Hükümdar tasdiknâmeleri 10 Şubat 1792'de mübadele edildi ve barış devletler hukuku açısından da kesinlik kazandı. Beş yıl süren, iki cepheli savaş böylece resmen kapandı; Kırım'ın kaybı kesinleşti ve Osmanlı Devleti'nin yeni sınırı Turla (Dinyester) oldu.", kaynak:"yas-antlasmasi", duygu:["📜"] },
 
@@ -837,7 +837,7 @@ window.OLAYLAR_KAMERIKA = [
     "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
     "gun": "3 Temmuz 1868",
     "yer": "Fort Bridger, Wyoming",
-    "yer_id": "Fort Bridger",
+    "yer_id": "Fort Washakie (Wind River)",
     "kisiler": "Şef Washakie, ABD Barış Komisyonu",
     "kapsam": "dis",
     "dunya": 2,
@@ -905,7 +905,7 @@ window.OLAYLAR_KAMERIKA = [
     "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
     "gun": "17 Eylül 1851",
     "yer": "Fort Laramie, Wyoming",
-    "yer_id": "Fort Laramie",
+    "yer_id": "Crow Agency (Apsáalooke)",
     "kisiler": "ABD Kızılderili İşleri Dairesi, Ova halklarının reisleri",
     "kapsam": "dis",
     "dunya": 2,
@@ -1409,12 +1409,13 @@ window.SAVAS_KUNYE_1 = [
 // -*- coding: utf-8 -*-
 // SEFERLER_P0037 — PAKET-0037 oturumu (Fable), 2 Eylül 2026 · p0037/H-0006
 //
-// 🔴 BU DOSYA index.html'e BAĞLI DEĞİLDİR ve app.js yalnız `window.SEFERLER`i okur (app.js:2675).
-//    Aşağıdaki kayıt, data/savaslar.js:743'teki "Abdülaziz'in Avrupa seyahati (1867)" kaydının
-//    YERİNE GEÇECEK tam hâlidir (aynı ad · aynı tur · aynı f/t; yalnız `yol` dizisi genişledi).
-//    Uygulama koordinatörün (savaslar.js onun): kaydı savaslar.js'te değiştir YA DA app.js:2675'te
-//    `(window.SEFERLER || []).concat(window.SEFERLER_P0037 || [])` ile bağla ve eski kaydı düşür.
-//    İki yol da olur; ikisi birden OLMAZ (mükerrer ok).
+// 🔴 6 Ekim 2026, UMIT-W4-ELLEVERI-1006 — KAYIT data/savaslar.js'e TAŞINDI, bu dizi BOŞ.
+//    Eski not "ikisi birden OLMAZ" diyordu; olan tam oydu: dosya index.html'e bağlandı
+//    (SEFERLER_* toplayıcısı), savaslar.js'teki 5 noktalı eski kayıt da kaldı ⇒ mükerrer ok.
+//    app.js `_mukerrerMi` İLK çizileni (savaslar.js) tuttuğu için bu dosyanın kaynaklı
+//    27 noktalı rotası ELENİYORDU. Şimdi rota + `kaynak` alanı savaslar.js kaydında.
+//    Dosya SİLİNMEDİ: index.html ve paket künyesi onu yüklüyor; boş dizi toplayıcıda 0/0 sayılır.
+//    Aşağıdaki kaynak ve gün gün güzergâh notu BELGE olarak duruyor.
 //
 // EMRE'NİN İSTEĞİ (H-0006): "önce deniz yolu ile nereye çıktı, sonra nereden nereye kara ile gitti,
 // nerede konakladı; adım adım. Ama İstanbul'dan Londra'ya uçmuş gibi olmasın."
@@ -1453,39 +1454,7 @@ window.SAVAS_KUNYE_1 = [
 //
 // Koordinatlar [lon, lat] (savaslar.js `yol` deseni), coğrafî bilgi.
 
-window.SEFERLER_P0037 = [
-{ ad:"Abdülaziz'in Avrupa seyahati (1867)", tur:"seyahat", sonuc:"belirsiz",
-  f:"1867-06-21", t:"1867-08-07",
-  yol:[
-    [28.98,41.01],   // İstanbul — 21 Haz, Sultâniye vapuru (deniz)
-    [26.41,40.15],   // Çanakkale Boğazı (deniz)
-    [22.48,36.40],   // Mora açıkları — 24 Haz (deniz)
-    [15.55,38.19],   // Messina — 25 Haz (deniz)
-    [14.25,40.84],   // Napoli — 28 Haz (deniz)
-    [5.93,43.12],    // Toulon — 29 Haz, KARAYA ÇIKIŞ
-    [5.37,43.30],    // Marsilya (tren)
-    [4.84,45.76],    // Lyon (tren)
-    [2.35,48.86],    // Paris, Lyon Garı — 30 Haz–10 Tem
-    [1.61,50.73],    // Boulogne — 10 Tem (tren), Manş'a biniş
-    [1.31,51.13],    // Dover — 11 Tem (gemi)
-    [-0.13,51.51],   // Londra — 12–23 Tem (tren)
-    [1.31,51.13],    // Dover — 23 Tem (tren)
-    [1.86,50.95],    // Calais — Manş geçişi (VARSAYIM: liman kaynaklarda yazmıyor)
-    [4.35,50.85],    // Brüksel — 24 Tem (tren)
-    [7.59,50.36],    // Koblenz — 24/25 Tem (tren, Ren vadisi), I. Wilhelm
-    [11.08,49.45],   // Nürnberg — 26 Tem (tren)
-    [13.46,48.57],   // Passau — 26/27 Tem (tren)
-    [16.37,48.21],   // Viyana — 27/28–31 Tem
-    [19.04,47.50],   // Peşte — 31 Tem (Tuna vapuru), Budin'de konaklama
-    [19.84,45.25],   // Novi Sad (Tuna)
-    [20.46,44.82],   // Belgrad (Tuna)
-    [22.40,44.72],   // Orşova / Demirkapı (Tuna)
-    [22.87,43.99],   // Vidin — 3 Ağu akşamı (Tuna)
-    [25.97,43.86],   // Rusçuk — 4 Ağu (Tuna)
-    [27.91,43.21],   // Varna — 6 Ağu (Rusçuk-Varna demiryolu)
-    [28.98,41.01]    // İstanbul — 7 Ağu (gemi)
-  ] }
-];
+window.SEFERLER_P0037 = [];
 
 ;
 /* ==== data/seferler_p0064.js ==== */
@@ -1868,7 +1837,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   tur:"tahliye", sonuc:"belirsiz", devlet:"misir-kavalali",
   f:"1841-02-01", t:"1841-02-25",
   tarih_hassasiyet:"AY — atlas kronolojisi 'Şubat 1841' (data/olaylar_ek4.js:276 ve data/kronoloji_misir.js:215, madde günü 1841-02-25); TDV ibrahim-pasa-kavalali yalnız emri verir (27 Kasım 1840)",
-  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\"",
+  kaynak:"TDV ibrahim-pasa-kavalali: \"kuvvetlerini geri çekmek üzere İbrâhim Paşa'ya gerekli emirleri verdi\" (27 Kasım 1840) · atlas kronolojisi (TDV suriye'den uyarlanmış, data/kronoloji_misir.js:215): \"İbrâhim Paşa'nın ordusu Sînâ üzerinden Mısır'a döndü\" [TDV slug: ibrahim-pasa-kavalali (alıntı doğrulanmadı)]",
   kesinlik:"İSTASYONLAR (Adana, Belen, Halep, Humus, Şam, Gazze, Kahire) 1831-33 işgal güzergâhının ('Suriye harekâtı (1831-32)' + 'Anadolu ilerleyişi (1832-33)' kayıtları) TERSİDİR; dönüş yolunun KENDİ kaynağı yok — TDV yalnız 'geri çekmek üzere emirler verdi' der. Sıra ve uçlar temsilîdir; günler yalnız AY (Şubat 1841).",
   yol:[[35.32,37.0],[36.2,36.52],[37.16,36.2],[36.71,34.73],[36.29,33.51],[34.47,31.5],[31.24,30.05]] }
 

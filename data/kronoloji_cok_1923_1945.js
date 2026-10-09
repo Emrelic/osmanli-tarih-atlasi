@@ -460,7 +460,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   yer_kon:[29.74, 24.52],
   d:"Faşist İtalya'nın Libya'daki yeniden fetih harekâtında Senûsiyye'nin kutsal merkezlerinden Cağbûb İtalyan kuvvetlerince alındı. Senûsî direnişi Berka'nın iç kesimine ve Kufra'ya çekildi.",
   kaynak:"TDV İslâm Ansiklopedisi 'SENÛSİYYE' https://islamansiklopedisi.org.tr/senusiyye : \"iktidarı ele geçiren faşist idare 1926 yılı Şubat ayında Cağbûb’u, 1931 yılı Ocak ayında Kufra’yı ele geçirdi.\"",
-  ic_not_d:"Kaynak yalnız AY veriyor (Şubat 1926); kural gereği t=1926-01-01. ÇELİŞKİ (TDV içi): 'BERKA' maddesi \"Senûsî merkezlerinden Cağbûb ve Câlû’yu 1927’de işgal ettiler\" der." },
+  ic_not_d:"Kaynak yalnız AY veriyor (Şubat 1926); kural gereği t=1926-01-01. ÇELİŞKİ (TDV içi): 'BERKA' maddesi \"Senûsî merkezlerinden Cağbûb ve Câlû’yu 1927’de işgal ettiler\" [TDV: berka] der." },
 
 { t:"1926-01-01",
   b:"Yemen İtalya ile dostluk ve ticaret antlaşması imzaladı",
@@ -4685,7 +4685,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   yer_kon:[44.82, 20.46],
   d:"Sırp subaylar naipliği devirdi, 17 yaşındaki II. Petar'ı tahta çıkardı ve General Dušan Simović hükümeti kuruldu. Hitler aynı akşam Yugoslavya'nın işgali emrini verdi.",
   kaynak:"USHMM 'Axis Invasion of Yugoslavia': \"On March 27, Serb military officers overthrew the regency, placed the 17-year-old King Peter on the throne and denounced the previous government's decision to join the Axis.\" · TDV İA 'Yugoslavya': \"27 Mart sabahında General Dušan Simović başkanlığında yeni bir hükümet kuruldu\"",
-  ic_not_d:"TDV 'Ertesi gün hükümet darbesi yapıldı ve 27 Mart sabahında' der (darbe 26/27 gecesi); USHMM ve LoC 27 Mart." },
+  ic_not_d:"TDV 'Ertesi gün hükümet darbesi yapıldı ve 27 Mart sabahında' [TDV: yugoslavya] der (darbe 26/27 gecesi); USHMM ve LoC 27 Mart." },
 
 { t:"1941-04-03",
   b:"Başbakan Pál Teleki intihar etti",

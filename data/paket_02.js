@@ -160,22 +160,6 @@ window.OLAYLAR_EK8 = [
   "kaynak": "diu"
  },
  {
-  "t": "1515-01-01",
-  "b": "Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle Osmanlı'ya katılması", "gun": "921 (1515) yılı sonları",
-  "tur": "fetih",
-  "onem": 2,
-  "dunya": 2,
-  "kapsam": "ic",
-  "etiket": [
-   "askeri",
-   "konu-askeri"
-  ],
-  "ic_not_etiket": "toprak-kazanc KALDIRILDI (GEMINI-DOGRULA 0919): aynı katılışı olaylar_ok107.js '1515-09-19 Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması' GÜNLÜ anlatıyor ve Nusaybin/Cizre kırılmasını o kapatıyor; bu madde onun yıl düzeyli mükerreri.",
-  "yer_id": "Nusaybin",
-  "d": "Çaldıran seferi (1514) sonrasında Doğu Anadolu'da yürütülen ilhak sürecinde İdrîs-i Bitlisî'nin bölgedeki Sünnî Kürt beyleriyle kurduğu ilişkiler sayesinde Nusaybin, 921 (1515) yılı sonlarında savaşsız biçimde Osmanlı topraklarına katıldı.", "ic_not_d": "TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor.  Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
-  "kaynak": "nusaybin"
- },
- {
   "t": "1526-01-01",
   "b": "Kalender Şah isyanı",
   "tur": "isyan",
@@ -359,7 +343,7 @@ window.OLAYLAR_EK8 = [
   "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
   "gun": "3 Şubat 1830",
   "yer": "Londra",
-  "yer_id": "Londra",
+  "yer_id": "Andros",
   "kisiler": "II. Mahmud, Reşid Mehmed Paşa",
   "d": "İngiltere, Fransa ve Rusya'nın Londra'da imzaladığı protokol, Edirne Antlaşması'nın öngördüğü özerkliği aşarak Yunanistan'ı BAĞIMSIZ bir devlet olarak tanıdı. Hükümler: Mora yarımadası, Attika ve Eğriboz ile Kiklad adaları yeni devlete bırakıldı; sınır Arta-Volos hattında çizildi; Osmanlı Devleti'ne tazminat ödenmesi kararlaştırıldı; devletin yönetim biçimi 'bağımsız monarşi' olarak belirlendi. Bu, imparatorluktan kopan İLK bağımsız devlettir ve sonraki Balkan bağımsızlıklarının hukukî örneğini kurmuştur.",
   "kaynak": "yunanistan",
@@ -439,11 +423,13 @@ window.OLAYLAR_EK8 = [
 
 { t:"1921-09-05", tur:"siyaset", etiket:["idari","konu-siyasi","konu-idari"], kapsam:"dis", b:"Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm", yer_kon:[41.3783,60.3639], gun:"5 Eylül 1921", yer:"Hive", kisiler:"-", d:"Ülke, adını ve statüsünü değiştirerek Hârizm Sovyet Sosyalist Cumhuriyeti oldu; idari-yasal yapı Sovyet sistemine göre yeniden düzenlendi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
 
+{ t:"1920-09-02", tur:"kayip", etiket:["askeri","toprak-kayip","hanedan-degisimi","konu-askeri","konu-siyasi"], kapsam:"dis", b:"Kızıl Ordu Buhara şehrine girdi — son emir Âlim Han tahttan uzaklaştırıldı", yer_kon:[39.7681,64.421], gun:"2 Eylül 1920", yer:"Buhara", yer_id:"Buhara", kisiler:"Emir Seyyid Âlim Han", d:"Kızıl Ordu 2 Eylül 1920'de Buhara şehrine girdi ve son Mangıt emiri Âlim Han tahttan uzaklaştırıldı. Emir ülkenin doğusuna, Düşenbe'ye çekildi ve yarım yıl oradan Sovyetlerle mücadeleyi yönetti; Kızıl Ordu Düşenbe'yi 21 Şubat 1921'de aldı, emir daha doğuya ve oradan Afganistan'a geçti. Hanlık resmen 6 Ekim 1920'de ilga edildi (bkz. Buhara Halk Sovyet Cumhuriyeti).", kaynak:"Iranica, JADIDISM (K. Hitchins) — AYNEN: «Decisive for the Young Bukharan movement was the overthrow of the emir of Bukhara by the Red Army, which entered the city on 2 September 1920.» (GÜN) · TDV, buhara — AYNEN: «1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu’nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920’de Buhara Hanlığı ilga edildi.» (AY) · Iranica, DUSHANBE — AYNEN: «The last amir of Bukhara, Sayyed ʿĀlem Khan, fled to Dushanbe at the end of August 1920 to escape advancing Red Army forces from Tashkent.» · «The Red Army took Dushanbe on 21 February 1921; the amir fled farther east and eventually reached Afghanistan.» · ⚠️ TDV «Ağustos sonu» emirin düşüşünü, Iranica «2 September» şehre girişi tarihliyor; birkaç günlük fark ÇELİŞKİ İLAN EDİLMEDİ (§4). Mükerrer: kronoloji_ozbek.js 1920-09-02 (kuyruk, kaynağı buhara-hanligi — o gövdede 1920 YOK)" },
+
 { t:"1920-10-08", tur:"kurulus", etiket:["idari","hanedan-degisimi","konu-siyasi","konu-idari","konu-hanedan"], kapsam:"dis", b:"Buhara Halk Sovyet Cumhuriyeti ilan edildi", yer_kon:[39.7681,64.421], gun:"8 Ekim 1920", yer:"Buhara", kisiler:"Feyzullah Hocayev", d:"Kızıl Ordu'nun 28-31 Ağustos 1920'de Buhara Emirliği'ni yıkıp Emir Alim Han'ı Doğu Buhara'ya kaçırmasının ardından, Feyzullah Hocayev başkanlığında Buhara Halk Sovyet Cumhuriyeti ilân edildi.", kaynak:"TDV, ozbekistan — AYNEN: «1920'de Buhara Halk Sovyet Cumhuriyeti ile Hîve'de Hârizm Halk Cumhuriyeti teşkil edildi» (YIL) · TDV, buhara — AYNEN: «1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu'nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920'de Buhara Hanlığı ilga edildi». ⚠️ 8 Ekim GÜNÜ TDV'de ve akademik kaynakta BULUNAMADI (TDV hanlığın ilgasına 6 Ekim diyor); soviethistory.msu.edu ifadesi bu turda okunmadı; Wikipedia dayanak olarak KALDIRILDI (KAYNAK-DOGRULA 19 Eyl 2026)" },
 
 { t:"1921-09-01", tur:"siyaset", etiket:["anayasa","reform","konu-siyasi","konu-islahat","konu-hukuk"], kapsam:"dis", b:"Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi", yer_kon:[39.7681,64.421], gun:"Eylül 1921 (gün kaynaklarda yok)", yer:"Buhara", kisiler:"-", d:"Rus 1918 anayasasının aksine özel toprak/üretim mülkiyetine izin veren ve proleter-olmayanlara da oy hakkı tanıyan yeni bir anayasa kabul edildi (devrik emirin akrabaları ve büyük toprak sahipleri hariç).", kaynak:"bulunamadı — akademik kaynak: soviethistory.msu.edu (Buhara Halk Sovyet Cumhuriyeti Anayasası metni, MSU arşivi) + Wikipedia çapraz" },
 
-{ t:"1924-01-01", tur:"kayip", etiket:["idari","toprak-kayip","hanedan-degisimi","konu-askeri","konu-idari","konu-hanedan"], kapsam:"dis", b:"Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbekistan/Türkmenistan SSC'lerinin kuruluşu", odak_yer:["Hîve","Buhara","Taşkent"], kapsam_genis:true, gun:"1924 (kaynaklar farklı günler verir)", ic_not_gun:"gün KAYNAKLAR ARASINDA ÇELİŞİYOR — künyenin kendi f:/t: günü DEVRALINDI, bkz. not", yer:"Hive, Buhara, Taşkent", kisiler:"Feyzullah Hocayev", d:"Sovyet 'millî sınırlandırma' (natsionalno-territorialnoe razmezhevanie) kararıyla Hârizm Sovyet Sosyalist Cumhuriyeti ile Buhara Halk Sovyet Cumhuriyeti ilga edildi; toprakları yeni kurulan Özbekistan ve Türkmenistan Sovyet Sosyalist Cumhuriyetleri arasında paylaştırıldı (Hîve'nin doğusu Özbekistan'a, batısı Türkmenistan'a). TDV'nin `harizm` maddesi: '1924'te Hîve Hanlığı'nın doğu kesimleri Özbekistan SSC'ye, batı tarafı da Türkmenistan SSC'ye bırakıldı' — yalnız YIL veriyor.", ic_not_d:"⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR, ÇÖZÜLMEDİ: akademik kaynaklar sürecin BİRDEN FAZLA kararla ilerlediğini gösteriyor — Türkistan MİK'in 16 Eylül 1924 kararı, Buhara/Hârizm kurultaylarının Eylül-Ekim 1924 toplantıları, SSCB Merkezî Yürütme Kurulu'nun 14 Ekim 1924 kararı, ve cumhuriyetlerin fiilen SSCB'ye 27 Ekim 1924'te birer birlik cumhuriyeti olarak katılıp aynı anda ilga edilmesi — tek bir 'kesin gün' YOK, süreç ~6 haftaya yayılıyor. §4'ün kuralı gereği (künyenin f:/t: günü bir KAYNAK DEĞİLDİR ama BURADA TERSİ: benim kaynağım künyeden DAHA hassas görünüyor ama KENDİ İÇİNDE tutarsız) daha hassas ama çelişik bir gün UYDURMAK yerine künyenin kendi t: günü (1924-01-01, TDV'nin yalnız yıl vermesinin YYYY-01-01 karşılığı) DEVRALINDI — 5 Eylül 2026 `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı karar: 'kaba tarih yazılmaz, künyenin günü devralınır, künyenin gününün de kaynaksız olduğu bildirilir.'", kaynak:"harizm (TDV — CANLI, yalnız yıl) + soviethistory.msu.edu (Michigan State, süreç kararları ama TEK gün vermiyor) — KITA 3'ün DALGA2 görevi TAMAMLANDIKTAN SONRA, KITA 1'in PAKET-T künye penceresini 1924-01-01'e çekmesi (M-3544) üzerine EK olarak yazıldı" }
+{ t:"1924-01-01", tur:"kayip", etiket:["idari","toprak-kayip","hanedan-degisimi","konu-askeri","konu-idari","konu-hanedan"], kapsam:"dis", b:"Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbekistan/Türkmenistan SSC'lerinin kuruluşu", odak_yer:["Hîve","Buhara","Taşkent"], kapsam_genis:true, gun:"1924 (kaynaklar farklı günler verir)", ic_not_gun:"gün KAYNAKLAR ARASINDA ÇELİŞİYOR — künyenin kendi f:/t: günü DEVRALINDI, bkz. not", yer:"Hive, Buhara, Taşkent", kisiler:"Feyzullah Hocayev", d:"Sovyet 'millî sınırlandırma' (natsionalno-territorialnoe razmezhevanie) kararıyla Hârizm Sovyet Sosyalist Cumhuriyeti ile Buhara Halk Sovyet Cumhuriyeti ilga edildi; toprakları yeni kurulan Özbekistan ve Türkmenistan Sovyet Sosyalist Cumhuriyetleri arasında paylaştırıldı (Hîve'nin doğusu Özbekistan'a, batısı Türkmenistan'a). TDV'nin `harizm` maddesi: '1924’te Hîve Hanlığı’nın doğu kesimleri Özbekistan Sovyet Sosyalist Cumhuriyeti’ne, batı tarafı da Türkmenistan Sovyet Sosyalist Cumhuriyeti’ne bırakıldı.' — yalnız YIL veriyor.", ic_not_d:"⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR, ÇÖZÜLMEDİ: akademik kaynaklar sürecin BİRDEN FAZLA kararla ilerlediğini gösteriyor — Türkistan MİK'in 16 Eylül 1924 kararı, Buhara/Hârizm kurultaylarının Eylül-Ekim 1924 toplantıları, SSCB Merkezî Yürütme Kurulu'nun 14 Ekim 1924 kararı, ve cumhuriyetlerin fiilen SSCB'ye 27 Ekim 1924'te birer birlik cumhuriyeti olarak katılıp aynı anda ilga edilmesi — tek bir 'kesin gün' YOK, süreç ~6 haftaya yayılıyor. §4'ün kuralı gereği (künyenin f:/t: günü bir KAYNAK DEĞİLDİR ama BURADA TERSİ: benim kaynağım künyeden DAHA hassas görünüyor ama KENDİ İÇİNDE tutarsız) daha hassas ama çelişik bir gün UYDURMAK yerine künyenin kendi t: günü (1924-01-01, TDV'nin yalnız yıl vermesinin YYYY-01-01 karşılığı) DEVRALINDI — 5 Eylül 2026 `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı karar: 'kaba tarih yazılmaz, künyenin günü devralınır, künyenin gününün de kaynaksız olduğu bildirilir.'", kaynak:"harizm (TDV — CANLI, yalnız yıl) + soviethistory.msu.edu (Michigan State, süreç kararları ama TEK gün vermiyor) — KITA 3'ün DALGA2 görevi TAMAMLANDIKTAN SONRA, KITA 1'in PAKET-T künye penceresini 1924-01-01'e çekmesi (M-3544) üzerine EK olarak yazıldı" }
 
 ];
 
@@ -1014,7 +1000,7 @@ window.OLAYLAR_EK10 = [
   d:"Boğdan 1455 eylülünden beri yılda iki bin altın haraç ödeyen tâbi bir voyvodalıktı, ama Karadeniz'e açılan iki limanı hâlâ voyvodanın elindeydi ve Tuna'dan gelen ticaret oradan geçiyordu. II. Bayezid saltanatının ilk büyük seferini bu iki limana yaptı. On gün boyunca gece gündüz topa tutulan Kili Kalesi'nin kumandanı teslim olmak zorunda kaldı. Kale doğrudan Osmanlı idaresine alınıp sancak beyliği haline getirildi; XVI. yüzyılın ikinci yarısında Kazak tehlikesi yüzünden kaza yapılıp Rumeli beylerbeyiliğine bağlı Akkirman sancağına bağlandı. Buradan sonra Boğdan haritada iki kademeli görünür: içeride voyvodalık açık tonda tâbi toprak olarak durur, kıyıdaki iki liman ise koyu tonda doğrudan Osmanlı sancağıdır. TDV'nin Boğdan maddesi bu ikisini 'Boğdan'ın anahtarları ve kapıları' diye anar ve bölgenin II. Bayezid zamanında kesin olarak Osmanlı'ya bağlandığını yazar.",
   fethedilen:["Kili"],
   statu_dogrudan:["Kili"],
-  kaynak:"kili", duygu:["🎉"] },
+  kaynak:"kili · [TDV: bogdan]", duygu:["🎉"] },
 
 // ---------------------------------------------------------------------------
 // B-2) 1484 AKKİRMAN — yirmi gün sonraki ikinci kuşatma
@@ -1522,6 +1508,15 @@ window.OLAYLAR_EK11 = [
   kisiler:"Şah İsmail, Akkoyunlu Sultan Murad",
   d:"Akkoyunlu tahtının ikinci iddiacısı Sultan Murad, Şah İsmâil'e karşı Hemedan yakınlarında yapılan savaşta ağır bir yenilgiye uğradı ve Bağdat'a kaçtı. Bu tek savaşla Irâk-ı Acem, Fars ve Kirman bölgeleri Safevî idaresine girdi; haritada bu bölgeler aynı anda el değiştirir. Akkoyunlu Devleti'nin çözülüşünün en büyük tek adımı budur — Tebriz'in kaybı hânedanı başkentsiz bırakmıştı, Hemedan yenilgisi ise topraksız bıraktı.", ic_not_d:"⚠️ Bu kırılma bugüne kadar kronolojide karşılıksızdı: ona en yakın madde on sekiz gün ötedeki Osmanlı-Venedik Savaşı'nın sona ermesiydi, yani kullanıcı İran'ın el değiştirdiğini görürken ekranda Venedik barışını okuyordu. · eski: haritada otuz yedi yerleşim aynı anda el değiştirir.",
   kaynak:"safeviler", duygu:["🏛","😔"] },
+
+// EEK-DOGU-2-0086 · Yezd 1504-12-06 kırılması (Akkoyunlu adası kapanır) — çekirdekte maddesi yoktu; kuyruktaki
+//   `kronoloji_safevi.js` maddesi Değişmez 2 evreninde DEĞİL. Gün TDV `yezd`den, birebir.
+{ t:"1504-12-06", k:"fetih", etiket:["siyaset","savas","konu-askeri"],
+  b:"Şah İsmail Yezd'e girdi: Akkoyunlu artığının merkezî İran'daki son kalesi düştü",
+  gun:"6 Aralık 1504 (28 Cemâziyelâhir 910)", yer:"Yezd", yer_id:"Yezd",
+  kisiler:"Şah İsmail",
+  d:"1503 Hemedan yenilgisinden sonra Irâk-ı Acem ve Fars Safevî'ye geçtiği hâlde Yezd, Akkoyunlu hânedanından Bayındırlı Murad Bey'in elinde ayrı kalmıştı. Şehir bir aylık kuşatmayla düştü ve merkezî İran'daki son Akkoyunlu adası kapandı. TDV'nin kaydı: \"Şah İsmâil 28 Cemâziyelâhir 910 (6 Aralık 1504) tarihinde bir aylık bir kuşatmanın ardından şehre girdi.\"",
+  kaynak:"yezd · sah-ismail", duygu:["🏛"] },
 
 { t:"1507-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
@@ -2170,7 +2165,7 @@ window.OLAYLAR_EK13 = [
   gun:"Mayıs 1517", ic_not_gun:"(TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)",
   yer:"Mardin, Diyarbekir", yer_id:"Mardin", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
   d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \"ancak dokuz ay sonra\" teslim oldu.", ic_not_d:"TDV `mardin` maddesi zaptı \"1516 sonlarında (veya Mayıs 1517)\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
-  kaynak:"mardin", duygu:["🎉"] },
+  kaynak:"mardin · [TDV: biyikli-mehmed-pasa]", duygu:["🎉"] },
 
 // ===========================================================================
 // İŞ ⑤ — ORHAN GAZİ'NİN ÖLÜMÜ (koordinatörün 8'lik eksik listesinden)

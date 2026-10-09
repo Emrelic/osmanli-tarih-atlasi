@@ -229,6 +229,18 @@ BILINEN_ALANLAR = {
     # tarihinin KAYNAK cümlesi. Blanket değil — muaf sayı denetle.py'de tavan.
     "devir_beyani": "kur: öncesi dönemler bölge vekili, devir beklenir — değer: kur:'un "
                     "kaynak cümlesi. Okuyan: denetle.py Değişmez 5a (motor OKUMAZ)",
+    # 🔴 `dogrulanmadi` — KAYIT DÜZEYİNDE "bu kaydın bir iddiası doğrulanamadı" beyanı.
+    # Veride ZATEN CANLI ve BİR kayıtta var (`yerlesimler_ek29.js` Deyrülkamer: `dogrulanmadi:true`,
+    # `neden:` hangi iddianın doğrulanmadığını söylüyor — 'başkent' sıfatı yalnız Wikipedia'da).
+    # Kütükte yoktu ⇒ `renk_olc.py`/`girdi.yukle()` her yüklemede "BILINEN_ALANLAR'da yok" UYARISI
+    # basıyordu: doğru davranış, hatalıymış gibi görünüyordu (`kaynak` 16 Ağustos, `neden` 3 Ağustos
+    # ve `devir_beyani` vakalarının aynısı: kural/veri yazılmış, ALET güncellenmemişti).
+    # ⚠️ Bir alanı buraya eklemek "motor/kapı bunu okuyor" demek DEĞİLDİR, "varlığından haberdarım"
+    # demektir. Bugün bu alanı HİÇBİR kapı okumuyor (ölçüldü); değeri `true` ise gerekçe `neden:`dedir.
+    # `data/hukuki_sinirlar.js`teki `dogrulanmadi` AYRI bir şemadır (sınır köşe noktası), buna girmez.
+    "dogrulanmadi": "True ise kaydın `neden:`de adı geçen iddiası kaynakça ile DOĞRULANAMADI — "
+                    "kayıt/nokta/dönemler kaynaklı kalır, yalnız o sıfat/iddia belirsizdir. "
+                    "Okuyan: yok (yalnız bilinen-alan uyarısını susturur)",
     # 🔴 kd: — `k:` ve `m:`nin ZAMANLI hâli (`ALTYAPI ④`, `VERI-YAPISI §kd`)
     #   kd:[{f,t,k,m}, …]  —  "şu tarihten şu tarihe kademe K, merkez M"
     # NİÇİN: bugün bir yerleşim bütün tarih boyunca TEK merkeze bağlı; bu

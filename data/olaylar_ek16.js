@@ -482,13 +482,13 @@ window.OLAYLAR_EK16 = [
   d:"I. Dünya Savaşı sürerken, Basra Körfezi'ndeki İngiliz siyasi temsilcisi Binbaşı Percy Cox ile Katar şeyhi Abdullah bin Cassim Âl Sânî arasında 3 Kasım 1916'da imzalanan antlaşmayla Katar, dış ilişkilerini İngiltere'nin onayına bağlamayı kabul etti, karşılığında deniz saldırılarına karşı İngiliz koruması güvencesi aldı; bu antlaşma Katar'ın 1971'e kadar sürecek İngiliz himaye ilişkisinin hukuki temelini oluşturdu ve resmen 1918'de onaylandı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1335-05-02", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ t:"1335-05-01", kesinlik:"ay", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
-  gun:"2 Nisan 1335 (Dük VI. Heinrich'in ölümü) — Habsburg beratı birkaç hafta içinde",
-  yer:"Ljubljana",
+  gun:"Mayıs 1335 başı (berat; Dük VI. Heinrich'in ölümü Nisan 1335) — gün kaynakta yok",
+  yer:"Ljubljana, Klagenfurt",
   yer_id:"Ljubljana", kisiler:"Karintiya Dükü VI. Heinrich, Habsburglu II. Albrecht ve IV. Otto",
   d:"Karintiya Dükü ve Tirol Kontu VI. Heinrich'in 2 Nisan 1335'te Tirol Kalesi'nde vârissiz ölmesiyle, 23 Kasım 1330'da Bavyeralı Ludwig ile gizlice yapılan bir anlaşma uyarınca Habsburg kardeşler II. Albrecht ve IV. Otto, Karintiya Dukalığı'nı ve ona bağlı Karniyola (bugünkü Ljubljana'nın da içinde olduğu bölge) imparatorluk beratıyla aldılar; Tirol ise Heinrich'in kızı vasıtasıyla ayrı kaldı. Bu, Habsburgların Alp bölgesindeki genişlemesinin ilk büyük adımlarından biriydi ve Karniyola 1918'e kadar (kesintili) Habsburg/Avusturya elinde kalacaktı.",
-  kaynak:"bulunamadı — TDV bu olayı kapsamıyor, dayanak: standart akademik kaynak (Duchy of Carniola / Habsburg succession 1335 tarihyazımı)", duygu:["😔"] },
+  kaynak:"NDB 'Ludwig der Bayer' (Neue Deutsche Biographie, deutsche-biographie.de/gnd118574957.html): 'bereits Anfang Mai 1335' … 'die österr. Herzöge mit Kärnten belehnt' — AY · AEIOU/Austria-Forum '1335 Erwerbung Kärntens': '1335 belehnte der Kaiser die Habsburger mit Kärnten, das seither mit Österreich verbunden blieb.' · TDV bu olayı kapsamıyor · eski t:1335-05-02 ve '2 Nisan' günü kaynaksızdı (LUGOS-KLAGENFURT-1006)", duygu:["😔"] },
 
 { t:"1891-02-06", k:"savas", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:3, b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",

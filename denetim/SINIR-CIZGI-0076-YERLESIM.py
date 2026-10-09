@@ -5,8 +5,8 @@ Kaynak: arac/girdi.py GIRDI_DOSYALARI (CANLI liste — CLAUDE.md §5).
 """
 import sys, os
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
-sys.path.insert(0, r'C:\atlas\arac')
-os.chdir(r'C:\atlas')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import girdi
 
 G, K, B, D = map(float, sys.argv[1:5])

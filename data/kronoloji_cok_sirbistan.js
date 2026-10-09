@@ -62,7 +62,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   onem:3, dunya:1, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"", odak_yer:"Kragujevac", devlet:"sirp-despotlugu", gun:"1428 (TDV yalnız yıl verir)",
   d:"Stefan Lazareviç'in Temmuz 1427'de ölümü ve Belgrad'ın eski bir anlaşma gereği Macarlara bırakılması üzerine Osmanlılar, yeni despot Đurađ Branković'in elindeki Kruşevac'ı (Alacahisar) ele geçirdi. Başkentsiz kalan despot, daha savunulabilir bir merkez olarak Semendire'yi kurmaya yöneldi.",
-  kaynak:"TDV `semendire`: 'Temmuz 1427'de … Stefan Lazareviç … öldü … Curac Brankoviç … Belgrad'ı Macarlar'a iade etti. 1428'de Osmanlılar Đurađ'ın başşehri olan Kruševac'ı (Alacahisar) aldı.'" },
+  kaynak:"TDV `semendire`: Temmuz 1427'de … Stefan Lazareviç … öldü … Curac Brankoviç … Belgrad'ı Macarlar'a iade etti. 1428'de Osmanlılar Đurađ'ın başşehri olan Kruševac'ı (Alacahisar) aldı." },
 
 { t:"1454-01-01", b:"Fâtih'in Sırbistan seferi: Ostrovica alındı, Semendire kuşatıldı", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","kusatma","konu-askeri"],

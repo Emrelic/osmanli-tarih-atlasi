@@ -97,7 +97,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"Historisches Lexikon der Schweiz 'Lausanner Vertrag'" },
 
 { t:"1570-12-13", devlet:"danimarka", devletler:["danimarka","isvec"], sinir_id:"dg6-dk-se-1751-oncesi",
-  b:"Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Stettin (Szczecin)",
+  b:"Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Östersund (Jämtland)",
   etiket:["antlasma","konu-siyasi","danimarka","isvec","norvec-kralligi"],
   d:"Danimarka-Norveç ile İsveç Stettin'de barış imzaladı. İsveç işgal ettiği Jämtland ve Härjedalen'i geri verdi ve Gotland'dan resmen vazgeçti; Älvsborg için 150.000 taler fidye ödemeyi üstlendi. Aynı kaynak barışı savaş öncesi sınıra dönüş olarak da nitelendiriyor.",
   kaynak:"Store norske leksikon 'Den nordiske sjuårskrigen'" },
@@ -132,13 +132,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"Pireneler Antlaşması ve Llívia sözleşmesi metni (Digithèque MJP, Perpignan Üniversitesi) · UNTS c.1288 No. 907 (Bayonne 1866 md. XVI)" },
 
 { t:"1668-05-02", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-guneyhol-fr-1",
-  b:"Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Aachen",
+  b:"Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Lille",
   etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya"],
   d:"Fransa ile İspanya arasında imzalanan Aachen Barışı İspanyol Hollandası ile Fransa arasındaki sınırı değiştirdi. Güney Hollanda–Fransa sınırı 1659, 1668, 1678 ve 1697 barışlarıyla defalarca değişti; bu hatların koordinatı haritada yoktur.",
   kaynak:"Aachen Antlaşması metni (Digithèque MJP, 1668aix)" },
 
 { t:"1678-09-17", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-fr-ch-jura-1",
-  b:"Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Nijmegen",
+  b:"Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Besançon",
   etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya","isvicre"],
   d:"Fransa ile İspanya arasındaki Nijmegen Barışı'nın XI. maddesiyle Franş-Konte Fransa'ya bırakıldı. Böylece bugünkü Fransa–İsviçre sınırının Jura kesimine komşu olan bölge Fransız oldu; İspanyol Hollandası sınırında da yeni değişiklikler yapıldı.",
   kaynak:"Nijmegen Antlaşması (Fransa–İspanya) metni, md. XI (Digithèque MJP, 1678nimegue)" },

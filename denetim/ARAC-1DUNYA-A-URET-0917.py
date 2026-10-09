@@ -177,11 +177,8 @@ M = [
  "İtalya cephesindeki Isonzo muharebelerinin ilki 23 Haziran 1915'te başladı. "
  "TDV'ye göre bu cephedeki muharebelerde hiçbir taraf üstünlük sağlayamadı.",
  ve(TL, TDV), ["italya-cephesi"]),
-("1915-08-05", ["almanya", "rusya", "kongre-polonyasi"],
- "Alman ordusu Varşova'ya girdi — Rus Polonyası işgal edildi", "isgal", 5, 4,
- "Alman süvarisi 5 Ağustos 1915'te Varşova'ya girdi. "
- "TDV'ye göre Almanlar yaz boyunca Polonya'yı işgal etti, ağır kayıp veren Ruslar eylülde doğuya çekildi; Varşova'nın düşüşünden sonra Polonya yardım komitesi Petrograd'a taşındı.",
- ve(POL, TDV), ["dogu-cephesi"]),
+# 1915-08-05 Varşova maddesi ÇIKARILDI (UMIT-W53, 6 Ekim 2026): üç tarafın üçünde de
+# KRONOLOJI_SINIR_POLONYA_1915 aynı olayı taşıyor (Değişmez 2 evreni, sinif D).
 ("1915-09-06", ["bulgaristan-kralligi", "almanya"],
  "Bulgaristan Merkezî Devletler'le gizli ittifak anlaşması imzaladı", "ittifak", 4, 3,
  "TDV'ye göre Bulgarlar 6 Eylül 1915'te Almanya ve müttefikleriyle gizli bir anlaşma yaptı ve karşılığında Osmanlı Devleti'nden Dimetoka'nın bir bölümünü aldı. "
@@ -348,10 +345,10 @@ M = [
  "ABD Başkanı Wilson 8 Ocak 1918'de Kongre'de On Dört Madde'lik barış programını açıkladı. "
  "Programın on üçüncü maddesi denize çıkışı olan bağımsız bir Polonya'nın kurulmasını öngörüyordu.",
  ve(TL, POL, MNE), ["diplomasi"]),
-("1918-02-09", ["almanya", "habsburg", "bulgaristan-kralligi", "ukrayna-halk-cumhuriyeti"],
+("1918-02-09", ["almanya", "habsburg", "bulgaristan-kralligi"],
  "«Ekmek Barışı» — Ukrayna ile Merkezî Devletler arasında Brest-Litovsk Antlaşması", "antlasma", 4, 4,
  "Rus ve Ukraynalı Kızıl Muhafızlar Ukrayna'ya girip Rada'yı Kiev'den çıkarınca Rada delegeleri acil askerî yardım umuduyla 9 Şubat 1918'de Brest-Litovsk'ta Merkezî Devletler'le barış antlaşması imzaladı. "
- "(Ukrayna Halk Cumhuriyeti'nin atlasta künyesi YOK; kimlik öneri olarak yazıldı.)",
+ "(Ukrayna Halk Cumhuriyeti künyesinde bu olay zaten var — KRONOLOJI_COK_UKRAYNA; madde öteki imzacılar içindir.)",
  ve(TL, AHO), ["dogu-cephesi"]),
 ("1918-03-03", ["almanya", "habsburg", "bulgaristan-kralligi"],
  "Brest-Litovsk Antlaşması — Rusya savaştan çekildi", "antlasma", 5, 5,

@@ -1,11 +1,16 @@
 {
- "bekci_yasak": false,
+ "bekci_yasak": true,
  "kod": "KOSU",
- "ilan": "2026-10-04 13:01",
+ "ilan": "2026-10-07 01:31",
  "ilan_eden": "YILDIRIM BAYEZIT",
  "olcum": "",
- "gerekce": "Petek koşusu sürüyor; makine koşuya ayrıldı.",
+ "gerekce": "Emre 7 Ekim: haftalik limit %94 — butun is DURDU, yalniz HAVVA kosusu + yayin surecek. Bekci kurulmasi YASAK (token).",
  "muaf": [],
- "kaldirildi": "2026-10-04 22:00",
- "kaldirma_gerekce": ""
+ "kapi": {
+  "durum": "GECTI",
+  "kok": "C:\\atlas",
+  "ozet": [
+   "MOD: KAPSAYICI — `_ONB_SONUC` yok (③3 inmemiş). Bugünkü tuz İŞLETİM dışı her MOTOR_*'ı alır ⇒ 30 ad tuzda. Kapı ÖTMEZ."
+  ]
+ }
 }

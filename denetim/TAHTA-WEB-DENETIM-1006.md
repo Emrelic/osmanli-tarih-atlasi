@@ -184,11 +184,81 @@ numara kaldığı yerden sürüyor (ÇOKLU sınavı Y1'': M-0007).
 öngörünün dördü de yanlış çıktı; kusur sınavların KALİTESİNDE değil, **sorulmayan tek
 soruda** çıktı. Sınavı küçümseyen öngörü, sınavın boşluğunu bulmakta yardımcı olmadı.
 
+## 10. K2 DEVAM GÖREVİ — sınava kirli-ağaç kolu eklendi (6 Ekim, aynı oturum)
+
+Öngörü: `denetim/TAHTA-WEB-DENETIM-1006-ONGORU-K2.md`, commit `56ab4bcc` — kol
+yazılmadan önce mühürlendi. Yama: `denetim/TAHTA-WEB-DENETIM-1006-sinav-kirli-kol.diff`
+(179 satır; `apply --check` **temiz**, kesme yamasıyla **birlikte de temiz**; sınav
+dosyası worktree'de `git checkout` ile geri alındı).
+
+### Kol — dört kol, her biri KENDİ geçici deposu ve portu (K1–K10'un deposuna dokunmaz)
+| İddia | Soru |
+|---|---|
+| K11 · K11' | temiz (ikisi de commitli) → çıkış 0 · iki yol izlenmiyor |
+| K12 · K12' | `tahta.json` yalnız çalışma ağacında kirli → çıkış 1 · **yarım hâl doğmadı** |
+| K13 · K13' | `tahta.json` sahnelenmiş (index == disk) → çıkış 1 · yarım hâl doğmadı |
+| K14 · K14' | yalnız `TAHTA.md` kirli → çıkış 1 · yarım hâl doğmadı (`git rm` ATOMİK) |
+
+**Değişmez (tasarımdan bağımsız):** yarım hâl = *HEAD yolu kaybetmiş **ve** paylaşılan
+index onu hâlâ tutuyor.* Kesme ya tamamen olur ya hiç olmaz; arası `geri --uygula` ile
+kurtarılamayan hâldir. Asıl kusuru yakalayan iddia budur.
+
+### İKİ YÖNLÜ ÖLÇÜM — aynı sınav, iki alet
+```
+YAMASIZ alette  → çıkış 1 · 29 iddia · 3 HATA
+                  K12' (yarım hâl doğdu: HEAD tutuyor False · index tutuyor True)
+                  K14' (aynısı — TAHTA.md kirliyken tahta.json DA düşmedi)
+                  K13  (çıkış 0 beklenirken 1 istendi — aşağıdaki nota bak)
+YAMALI alette   → çıkış 0 · 29 iddia · 0 HATA   (gerileme yok)
+eski K1–K10     → iki koşuda da 21 iddianın 21'i OK
+```
+
+### 🔴 DÜRÜSTLÜK NOTU — K13 bir kusur YAKALAMIYOR, bir TASARIM KARARINI sınıyor
+Öngörümde (P6) "sahnelenmiş tahta değişikliği kesmede **sessizce kaybolur**" demiştim.
+**Çıkış kodu tahminim tuttu (yamasız alet 0 veriyor), çıkarımım YANLIŞTI.** Ölçtüm
+(`OLCUM-1006e.py`, yamasız alet, sahnelenmiş kol):
+```
+kesmeden önce          disk 4 · index 4 · git 3
+kes --uygula           çıkış 0
+kesmeden sonra         disk 4 · index YOK · git YOK
+sunucuya yazım         çıkış 0
+yazımdan sonra         disk 5 · index YOK · git YOK
+geri --uygula          çıkış 0
+geri alındıktan sonra  disk 5 · index 5 · git 5
+```
+⇒ **Mesaj kaybı YOK.** Kesmeden sonra otorite diskteki dosyadır; git'e girmemiş bir
+sahne zaten anlamsızlaşır ve `geri` diskteki güncel hâli geri alır.
+⇒ Dolayısıyla yamanın ön şartı **git'in kendi reddetme şartından DAHA GENİŞ**: git
+yalnız "içerik hem dosyadan hem HEAD'den farklı" olduğunda reddeder; yama *her türlü*
+commitlenmemişlikte reddediyor. Bu **muhafazakâr bir karar**, ölçülmüş bir zarar değil.
+Bedeli: canlı makinede sahnelenmiş bir tahta değişikliği kesmeyi gereksiz yere bloke
+edebilir (çare tek satır: `git add` + `git commit`, ve `tahta.py` bunu zaten yapıyor —
+şu an canlı depoda iki yol **temiz**). Kazancı: yarım hâlin doğabileceği tek yol
+kapanıyor ve kural "ölçmesi kolay" oluyor. **Hüküm koordinatörde**; daha dar şart
+isteniyorsa yamanın ön şartı git'in şartına indirilebilir, ama o zaman `-f` maddesi
+TEK BAŞINA taşıyıcı olur.
+
+### K2 öngörü karnesi (mühür `56ab4bcc`)
+| | Öngörü | Sonuç |
+|---|---|---|
+| P1 | kol 8–12 iddia | ✅ 8 |
+| P2 | yamasız alette sınav öter (çıkış 1) | ✅ |
+| P3 | yamasız alette 3–5 HATA | ✅ 3 |
+| P4 | çalışma ağacı kirli → yarım hâl doğar | ✅ |
+| P5 | yalnız `TAHTA.md` kirli → yarım hâl doğar (atomik) | ✅ |
+| P6 | sahnelenmiş kol 0 verir **ve sessiz kayıp olur** | 🟡 **YARISI**: 0 verdi (✅), kayıp YOK (❌) |
+| P7 | yamalı alette dördü de geçer, çıkış 0 | ✅ 29/29 |
+| P8 | eski 21 iddia bozulmaz | ✅ |
+
 ## 9. DEĞİŞEN/ÜRETİLEN DOSYALAR
 - `denetim/TAHTA-WEB-DENETIM-1006-ONGORU.md` (commit `85c7e2dd`, ölçümden önce)
 - `denetim/TAHTA-WEB-DENETIM-1006.md` (bu rapor)
 - `denetim/TAHTA-WEB-DENETIM-1006-kesme-kirli-yol.diff` (39 satır, `apply --check` temiz)
-- `arac/*`: **DOKUNULMADI** (yama worktree'de denendi, `git checkout` ile geri alındı)
-- `C:/atlas-tahtaweb` detached worktree — işi biten koordinatör `git worktree remove` edebilir
+- `denetim/TAHTA-WEB-DENETIM-1006-ONGORU-K2.md` (commit `56ab4bcc`, kol yazılmadan önce)
+- `denetim/TAHTA-WEB-DENETIM-1006-sinav-kirli-kol.diff` (179 satır; tek başına ve kesme
+  yamasıyla **birlikte** `apply --check` temiz)
+- `arac/*` ve `denetim/ARAC-TAHTA-KESME-SINAV-1004.py`: **DOKUNULMADI** (ikisi de
+  worktree'de denendi, `git checkout` ile geri alındı — dalın hâli bozulmadı)
+- `C:/atlas-tahtaweb` detached worktree — **kaldırıldı** (koordinatörün hükmü)
 
 — TAHTA-WEB-DENETIM-1006

@@ -17,7 +17,7 @@ import sys
 
 import numpy as np
 
-DEPO = r"C:\atlas"
+DEPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(DEPO, "arac"))
 sys.stdout.reconfigure(encoding="utf-8")
 import girdi                                                        # noqa: E402

@@ -1,0 +1,20 @@
+diff --git a/data/olaylar_p0917taraf.js b/data/olaylar_p0917taraf.js
+index 83439170..e3a518cd 100644
+--- a/data/olaylar_p0917taraf.js
++++ b/data/olaylar_p0917taraf.js
+@@ -42,13 +42,13 @@ window.OLAYLAR_P0917TARAF = [
+ 
+ { t:"1886-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+   b:"Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+-  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", kisiler:"",
++  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: sınır çizgisi olayı; uç noktalar kaynakta (IBS 121) yok. Ölçüm: denetim/KRONO-YER-0075.json (K2_BOLGESEL)", kisiler:"",
+   d:"Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmiyor.",
+   kaynak:"IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')", duygu:["🤝"] },
+ 
+ { t:"1892-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+   b:"İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
+-  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", kisiler:"",
++  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: sınır çizgisi olayı; uç noktalar kaynakta (IBS 121) yok. Ölçüm: denetim/KRONO-YER-0075.json (K2_BOLGESEL)", kisiler:"",
+   d:"İkinci bir Fransız-Osmanlı düzenlemesi, Tunus ile Trablusgarp vilayeti arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge on sekiz yıl sonra imzalanacak Trablus Sözleşmesi'dir.",
+   kaynak:"IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')", duygu:["🤝"] },
+ 

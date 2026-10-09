@@ -1,0 +1,436 @@
+diff --git a/denetim/A-AVRUPA-0078-serit.py b/denetim/A-AVRUPA-0078-serit.py
+index 405b7b73..379c8f8b 100644
+--- a/denetim/A-AVRUPA-0078-serit.py
++++ b/denetim/A-AVRUPA-0078-serit.py
+@@ -8,7 +8,7 @@ kapi  = d_katman.js _dYaslaAdim yon kapisinin ornek-sayili taklidi (20 km'ye kad
+ kullanim: py serit.py [aday.js ...] [hat-id-parcasi ...]"""
+ import sys, os, io, re, math, contextlib, glob
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-sys.path.insert(0, r"C:\atlas\arac")
++sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
+ with contextlib.redirect_stdout(io.StringIO()):
+     import girdi
+     Y = girdi.yukle()
+@@ -59,7 +59,7 @@ def en_yakin(la, lo):
+     return best
+ 
+ kayitlar = []
+-for f in glob.glob(r"C:\atlas\data\d_sinirlar*.js"):
++for f in glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "d_sinirlar*.js")):
+     js = io.open(f, encoding="utf-8").read()
+     for m in re.finditer(r"window\.(D_SINIRLAR\w*)\s*=", js):
+         with contextlib.redirect_stdout(io.StringIO()):
+diff --git a/denetim/ACILIS-ANIM-0081-avmac-olc.py b/denetim/ACILIS-ANIM-0081-avmac-olc.py
+index cf42d2d1..3de5b410 100644
+--- a/denetim/ACILIS-ANIM-0081-avmac-olc.py
++++ b/denetim/ACILIS-ANIM-0081-avmac-olc.py
+@@ -2,7 +2,8 @@ import sys, json
+ sys.stdout.reconfigure(encoding="utf-8")
+ from shapely.geometry import Polygon, Point
+ from shapely.ops import unary_union
+-s = open("C:/atlas/data/devletler_harita.js", encoding="utf-8").read()
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++s = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devletler_harita.js"), encoding="utf-8").read()
+ def dizi(ad):
+     i = s.index("window." + ad + " =") + len("window." + ad + " =")
+     return json.loads(s[i:s.index(";\n", i)])
+diff --git a/denetim/ACILIS-ANIM-0081-govde-olc.py b/denetim/ACILIS-ANIM-0081-govde-olc.py
+index b9cece54..220740f1 100644
+--- a/denetim/ACILIS-ANIM-0081-govde-olc.py
++++ b/denetim/ACILIS-ANIM-0081-govde-olc.py
+@@ -8,7 +8,8 @@ from shapely.geometry import Polygon, MultiPolygon
+ from shapely.ops import unary_union
+ 
+ t0 = time.time()
+-s = open("C:/atlas/data/devletler_harita.js", encoding="utf-8").read()
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++s = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devletler_harita.js"), encoding="utf-8").read()
+ def dizi(ad):
+     i = s.index("window." + ad + " =") + len("window." + ad + " =")
+     j = s.index(";\n", i)
+diff --git a/denetim/ARAC-ACILIS-ANIM-0929-URET.py b/denetim/ARAC-ACILIS-ANIM-0929-URET.py
+index 514a572b..ab9c378f 100644
+--- a/denetim/ARAC-ACILIS-ANIM-0929-URET.py
++++ b/denetim/ARAC-ACILIS-ANIM-0929-URET.py
+@@ -15,7 +15,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ from shapely.geometry import shape, Polygon, box
+ from shapely.ops import unary_union
+ 
+-KOK = "C:/atlas/"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
+ CIKTI = KOK + "data/acilis_siluet.js"
+ 
+ # (anahtar, tür, kaynak kimliği, ekranda ad, renk, seçim)
+diff --git a/denetim/ARAC-B-ENKLAV-CIZ-0912.py b/denetim/ARAC-B-ENKLAV-CIZ-0912.py
+index 54109886..92b5ea84 100644
+--- a/denetim/ARAC-B-ENKLAV-CIZ-0912.py
++++ b/denetim/ARAC-B-ENKLAV-CIZ-0912.py
+@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
+ import numpy as np
+ 
+ sys.stdout.reconfigure(encoding="utf-8")
+-CIKTI = r"C:\atlas\denetim"
++CIKTI = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim")
+ LOG = (r"C:\Users\emrem\AppData\Local\Temp\claude"
+        r"\C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-"
+        r"\3d557ab4-454e-4b21-98e0-60171b40e6fd\tasks\b3ly9wsgt.output")
+diff --git a/denetim/ARAC-D3ORTA-URET-0916.py b/denetim/ARAC-D3ORTA-URET-0916.py
+index ad3c2631..e8b04ed9 100644
+--- a/denetim/ARAC-D3ORTA-URET-0916.py
++++ b/denetim/ARAC-D3ORTA-URET-0916.py
+@@ -17,7 +17,8 @@ from math import asin, cos, radians, sin, sqrt
+ from shapely.geometry import LineString, Point, shape
+ 
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+-KOK = "C:/atlas/"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
+ CIKTI = KOK + "data/d_sinirlar_avrupa_orta.js"
+ T = "1923-10-29"
+ 
+diff --git a/denetim/ARAC-KASA-IC-CELISKI-1004.py b/denetim/ARAC-KASA-IC-CELISKI-1004.py
+index c2f8bffc..f50b0037 100644
+--- a/denetim/ARAC-KASA-IC-CELISKI-1004.py
++++ b/denetim/ARAC-KASA-IC-CELISKI-1004.py
+@@ -2,7 +2,7 @@
+ # Kullanim: py denetim/ARAC-KASA-IC-CELISKI-1004.py cikti.json
+ import sys, os, re, json, io, contextlib, collections
+ from datetime import date
+-AR=r"C:\atlas\arac"; sys.path.insert(0,AR); os.chdir(AR)
++AR=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"); sys.path.insert(0,AR); os.chdir(AR)
+ if True:
+     import denetle, girdi
+     O=denetle.olaylari_yukle()
+diff --git a/denetim/ARAC-KASA-IMZA-YERI-1004.py b/denetim/ARAC-KASA-IMZA-YERI-1004.py
+index bd92a6b4..b191e09e 100644
+--- a/denetim/ARAC-KASA-IMZA-YERI-1004.py
++++ b/denetim/ARAC-KASA-IMZA-YERI-1004.py
+@@ -1,6 +1,6 @@
+ # KASA 4 Ekim 2026 - YALNIZ OLCUM. Kullanim: py denetim/ARAC-KASA-IMZA-YERI-1004.py cikti.json
+ import sys, os, re, json, collections
+-AR=r"C:\atlas\arac"; sys.path.insert(0,AR); os.chdir(AR)
++AR=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"); sys.path.insert(0,AR); os.chdir(AR)
+ import denetle, girdi
+ O=denetle.olaylari_yukle(); h={y["ad"]:y for y in girdi.yukle(sessiz=True)}
+ ANT=re.compile(r"Antlaşma|Antlasma|Barış|Barışı|Mütareke|Sözleşme|Protokol|Konvansiyon|Kongre|Muahede|Ahidnâme|Tenkihnâme|Mukāsemenâme|Paylaşım|Taksim|Treaty|Peace",re.I)
+diff --git a/denetim/ARAC-KASA-TERS-MADDE-1004.py b/denetim/ARAC-KASA-TERS-MADDE-1004.py
+index 16ffbb4c..16249028 100644
+--- a/denetim/ARAC-KASA-TERS-MADDE-1004.py
++++ b/denetim/ARAC-KASA-TERS-MADDE-1004.py
+@@ -3,7 +3,7 @@
+ # Madde yeni sahibi anmiyor mu (F1) / yalniz kusatma-yikim mi anlatiyor (F2)?
+ import sys, os, re, json, collections
+ from datetime import date
+-AR=r"C:\atlas\arac"; sys.path.insert(0,AR); os.chdir(AR)
++AR=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"); sys.path.insert(0,AR); os.chdir(AR)
+ import denetle, girdi
+ O=denetle.olaylari_yukle(); H=girdi.yukle(sessiz=True)
+ N=denetle._2s_norm
+diff --git a/denetim/ARAC-LEGO-0925-say.py b/denetim/ARAC-LEGO-0925-say.py
+index 98bf55e4..fc00e4cc 100644
+--- a/denetim/ARAC-LEGO-0925-say.py
++++ b/denetim/ARAC-LEGO-0925-say.py
+@@ -6,7 +6,8 @@ import sys
+ import time
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-yollar = sys.argv[1:] or [r"C:\atlas\_motor_onbellek\motor_onbellek.sqlite",
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++yollar = sys.argv[1:] or [os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_motor_onbellek", "motor_onbellek.sqlite"),
+                           r"C:\atlas-onbellek\motor_onbellek.sqlite"]
+ for y in yollar:
+     b = sqlite3.connect(f"file:{y}?mode=ro", uri=True, timeout=30)
+diff --git a/denetim/ARAC-LEGO-0925-tahta.py b/denetim/ARAC-LEGO-0925-tahta.py
+index 46134b90..5aae6a06 100644
+--- a/denetim/ARAC-LEGO-0925-tahta.py
++++ b/denetim/ARAC-LEGO-0925-tahta.py
+@@ -5,7 +5,8 @@ import sys
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ AD = sys.argv[1] if len(sys.argv) > 1 else "MOTOR-LEGO-0925"
+-d = json.load(open(r"C:\atlas\oturumlar\tahta.json", encoding="utf-8"))
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++d = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "tahta.json"), encoding="utf-8"))
+ m = d if isinstance(d, list) else d.get("mesajlar", d)
+ for x in m:
+     if AD in (x.get("kimden"), x.get("kime")):
+diff --git a/denetim/ARAC-LEGO-sayim.py b/denetim/ARAC-LEGO-sayim.py
+index e88f55f1..1765482f 100644
+--- a/denetim/ARAC-LEGO-sayim.py
++++ b/denetim/ARAC-LEGO-sayim.py
+@@ -4,7 +4,7 @@ Kullanım: py denetim/ARAC-LEGO-sayim.py [yol ...]"""
+ import sqlite3, sys, os, time
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ yollar = sys.argv[1:] or [r"C:\atlas-onbellek\motor_onbellek.sqlite",
+-                          r"C:\atlas\_motor_onbellek\motor_onbellek.sqlite"]
++                          os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_motor_onbellek", "motor_onbellek.sqlite")]
+ for y in yollar:
+     if not os.path.exists(y):
+         print(y, "YOK"); continue
+diff --git a/denetim/ARAC-LEGO-tahta-ara.py b/denetim/ARAC-LEGO-tahta-ara.py
+index 8c3803ad..591d88da 100644
+--- a/denetim/ARAC-LEGO-tahta-ara.py
++++ b/denetim/ARAC-LEGO-tahta-ara.py
+@@ -3,7 +3,8 @@
+ import json, sys, re
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ aranan = sys.argv[1]
+-d = json.load(open(r"C:\atlas\oturumlar\tahta.json", encoding="utf-8"))
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++d = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "oturumlar", "tahta.json"), encoding="utf-8"))
+ m = d if isinstance(d, list) else d.get("mesajlar", d)
+ for x in m:
+     t = x.get("mesaj", "")
+diff --git a/denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py b/denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py
+index b5eca4c8..4239cb41 100644
+--- a/denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py
++++ b/denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py
+@@ -5,7 +5,8 @@
+ #   py denetim/ARAC-ONCE1281-DOGU-ASYA-ODAK.py
+ import io, re, sys, json
+ sys.stdout.reconfigure(encoding="utf-8")
+-P = r"C:\atlas\data\kronoloji_cok_once1281_dogu_asya.js"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++P = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "kronoloji_cok_once1281_dogu_asya.js")
+ Y, O = "yer_id", "odak_yer"
+ # (t, b'nin başı) → (alan, değer)
+ H = [
+diff --git a/denetim/ARAC-TASMA-PROTOTIP-CIZ-0911.py b/denetim/ARAC-TASMA-PROTOTIP-CIZ-0911.py
+index de3c0870..8ed87d7c 100644
+--- a/denetim/ARAC-TASMA-PROTOTIP-CIZ-0911.py
++++ b/denetim/ARAC-TASMA-PROTOTIP-CIZ-0911.py
+@@ -23,7 +23,7 @@ nx, ny = int(d["nx"]), int(d["ny"])
+ pts = d["pts"]
+ DIS = (24.5, 34.5, 46.5, 43.5)
+ KV = 0.05
+-CIKTI = r"C:\atlas\denetim"
++CIKTI = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim")
+ 
+ 
+ def hatlar(sahip):
+diff --git a/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py b/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py
+index 09375583..66e50256 100644
+--- a/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py
++++ b/denetim/ARAC-TEKRAR-OLCULECEK-0930-CIZ.py
+@@ -16,7 +16,7 @@ kat, K, latm, _, _ = G.sorgu(gun, la0, lo0, la1, lo1)
+ DH = {d['id']: d.get('renk') for d in G.Havuz('devletler_harita.js', 'DEVLET_PARCALAR', 'DEVLET_PARCA_HALKA')._json('DEVLET_HARITA')}
+ renk = {'OSMANLI': '#8e0b22', 'tabi(OSM)': '#d98a95'}
+ fig, ax = plt.subplots(figsize=(7, 7 * (la1 - la0) / (lo1 - lo0) + 0.6), dpi=90)
+-gl = json.load(open('C:/atlas/veri-kaynak/ne_10m_land.geojson', encoding='utf-8'))
++gl = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "ne_10m_land.geojson"), encoding='utf-8'))
+ kara = unary_union([make_valid(shape(f['geometry'])).intersection(K) for f in gl['features'] if shape(f['geometry']).intersects(K)])
+ 
+ def ciz(g, **kw):
+@@ -40,7 +40,7 @@ for i in range(len(ks)):
+         x = ks[i][1].intersection(ks[j][1])
+         if not x.is_empty and G.km2(x, latm) >= 1:
+             ciz(x, color='black', alpha=0.9, lw=0)
+-sys.path.insert(0, 'C:/atlas/arac')
++sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
+ with contextlib.redirect_stdout(io.StringIO()):
+     import girdi
+     Y = girdi.yukle()
+diff --git a/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py b/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py
+index a0b86b0a..e5b0c7b9 100644
+--- a/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py
++++ b/denetim/ARAC-TEKRAR-OLCULECEK-0930-GOVDE.py
+@@ -110,7 +110,7 @@ def sorgu(gun, lat1, lon1, lat2, lon2):
+                     if not u.is_empty:
+                         kat[dv['id']] = unary_union([kat[dv['id']], u]) if dv['id'] in kat else u
+     # işgal (devirler.js ISGALLER — Osmanlı toprağındaki işgaller)
+-    js = open('C:/atlas/data/devirler.js', encoding='utf-8').read()
++    js = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devirler.js"), encoding='utf-8').read()
+     k = js.index('window.ISGALLER = ') + len('window.ISGALLER = ')
+     I = json.loads(js[k:js.index(';\n', k)])
+     for x in I:
+@@ -151,7 +151,7 @@ if __name__ == '__main__':
+     U = unary_union([g for _, g in ks]) if ks else None
+     bos = K.difference(U) if U is not None else K
+     # kara ile kes
+-    kara_yol = 'C:/atlas/veri-kaynak/motor_kara.geojson'
++    kara_yol = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "motor_kara.geojson")
+     try:
+         gj = json.load(open(kara_yol, encoding='utf-8'))
+         fs = gj['features'] if 'features' in gj else [gj]
+diff --git a/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py b/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py
+index 7d10395e..75b930a8 100644
+--- a/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py
++++ b/denetim/ARAC-TEKRAR-OLCULECEK-0930-TOPLU.py
+@@ -13,17 +13,18 @@ D = G.Havuz('donemler.js', 'PARCALAR', 'PARCA_HALKA')
+ DON = D._json('DONEMLER')
+ H = G.Havuz('devletler_harita.js', 'DEVLET_PARCALAR', 'DEVLET_PARCA_HALKA')
+ DH = H._json('DEVLET_HARITA')
+-js = open('C:/atlas/data/devirler.js', encoding='utf-8').read()
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++js = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "devirler.js"), encoding='utf-8').read()
+ k = js.index('window.ISGALLER = ') + len('window.ISGALLER = ')
+ I = json.loads(js[k:js.index(';\n', k)])
+ MASKE = sys.argv[2] if len(sys.argv) > 2 else 'motor_kara'
+-gj = json.load(open('C:/atlas/veri-kaynak/%s.geojson' % ('motor_kara' if MASKE == 'motor_kara' else 'ne_10m_land'), encoding='utf-8'))
++gj = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "%s.geojson") % ('motor_kara' if MASKE == 'motor_kara' else 'ne_10m_land'), encoding='utf-8'))
+ KARA = [make_valid(shape(f['geometry'])) for f in (gj['features'] if 'features' in gj else [gj])]
+ from shapely.strtree import STRtree
+ KT = STRtree(KARA)
+ GOL = []
+ if MASKE != 'motor_kara':
+-    gl = json.load(open('C:/atlas/veri-kaynak/ne_10m_lakes.geojson', encoding='utf-8'))
++    gl = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "veri-kaynak", "ne_10m_lakes.geojson"), encoding='utf-8'))
+     GOL = [make_valid(shape(f['geometry'])) for f in gl['features']]
+ GT = STRtree(GOL) if GOL else None
+ from shapely.geometry import Polygon
+diff --git a/denetim/ARAC-UFUK-DUGME-0930-TABAN.py b/denetim/ARAC-UFUK-DUGME-0930-TABAN.py
+index e02f3a30..66926125 100644
+--- a/denetim/ARAC-UFUK-DUGME-0930-TABAN.py
++++ b/denetim/ARAC-UFUK-DUGME-0930-TABAN.py
+@@ -17,7 +17,8 @@ from shapely.geometry import Polygon, MultiPolygon
+ from shapely.ops import unary_union
+ from shapely.validation import make_valid
+ 
+-KOK = r"C:\atlas\data"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+ b = open(KOK + r"\donemler.js", "rb").read()
+ 
+ _DEC = json.JSONDecoder()
+diff --git a/denetim/ARAC-UYGULA-YERLESIM-0930.py b/denetim/ARAC-UYGULA-YERLESIM-0930.py
+index 951ef924..14d6081d 100644
+--- a/denetim/ARAC-UYGULA-YERLESIM-0930.py
++++ b/denetim/ARAC-UYGULA-YERLESIM-0930.py
+@@ -12,7 +12,7 @@ evren ayrıca erdel_tara ile 7 ölçüldü).
+ """
+ import io, os, sys
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-K = r"C:\atlas\data"
++K = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+ YAZ = "--yaz" in sys.argv
+ U = "UYGULA-YERLESIM-0930"
+ 
+diff --git a/denetim/ARAYUZ-0077-yukleme-silueti.py b/denetim/ARAYUZ-0077-yukleme-silueti.py
+index 9a7f7fea..a866c55b 100644
+--- a/denetim/ARAYUZ-0077-yukleme-silueti.py
++++ b/denetim/ARAYUZ-0077-yukleme-silueti.py
+@@ -9,7 +9,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ from shapely.geometry import shape, MultiPolygon, Polygon, box
+ from shapely.ops import unary_union
+ 
+-KOK = "C:/atlas/"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "")
+ ULKELER = [  # (ISO_A3, ekranda yazı, renk) — Emre'nin H-0002 listesinin modern kısmı
+     ("TUR", "Türkiye", "#c0392b"),
+     ("FRA", "Fransa", "#2e5aa8"),
+diff --git a/denetim/AVRUPA-SINIR-0077-yer_dok.py b/denetim/AVRUPA-SINIR-0077-yer_dok.py
+index b8ebc7d2..df7f426c 100644
+--- a/denetim/AVRUPA-SINIR-0077-yer_dok.py
++++ b/denetim/AVRUPA-SINIR-0077-yer_dok.py
+@@ -1,8 +1,9 @@
+ import sys, json
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-sys.path.insert(0, r"C:\atlas\arac")
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
+ import girdi
+ Y = girdi.yukle(sessiz=True)
+ out = [{k: y.get(k) for k in ("ad", "lat", "lon", "s", "d", "v", "isg")} for y in Y]
+-json.dump(out, open(r"C:\atlas\denetim\AVRUPA-SINIR-0077-yer.json", "w", encoding="utf-8"), ensure_ascii=False)
++json.dump(out, open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "AVRUPA-SINIR-0077-yer.json"), "w", encoding="utf-8"), ensure_ascii=False)
+ print(len(out))
+diff --git a/denetim/BALKAN-MACAR-0081-uygula.py b/denetim/BALKAN-MACAR-0081-uygula.py
+index f5eb8126..324f4f2b 100644
+--- a/denetim/BALKAN-MACAR-0081-uygula.py
++++ b/denetim/BALKAN-MACAR-0081-uygula.py
+@@ -11,7 +11,8 @@ Gerekçe ve kaynaklar: denetim/BALKAN-MACAR-0081.md
+ import io, re, sys
+ 
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+-KOK = r"C:\atlas\data" + "\\"
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++KOK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data") + "\\"
+ UYGULA = "--uygula" in sys.argv
+ DOSYA = {}      # ad -> metin (bellekte)
+ HATA = []
+@@ -150,7 +151,7 @@ HIRVAT_HAB = {
+     "Bosna Brod'u (Bosanski Brod)": "1538-01-01", "Krupa (Bosanska Krupa)": "1565-01-01",
+ }
+ import os
+-sys.path.insert(0, r"C:\atlas\arac")
++sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
+ import girdi  # noqa: E402  yalnız hangi dosyada olduğunu okumak için
+ NEREDE = {y["ad"]: y["_kaynak"] for y in girdi.yukle(sessiz=True)}
+ 
+diff --git a/denetim/BOGAZ-OLCUM-0081-sinif.py b/denetim/BOGAZ-OLCUM-0081-sinif.py
+index 406d129e..7afe513d 100644
+--- a/denetim/BOGAZ-OLCUM-0081-sinif.py
++++ b/denetim/BOGAZ-OLCUM-0081-sinif.py
+@@ -72,5 +72,6 @@ print(f"  200 km² ALTI (ızgaraya sorulmadı): {len(alt)} · {sum(s['km2'] for
+ print(f"    kara hatlı aday alıcısı OLAN: {sum(1 for s in alt if s['aday_kara_hatli'])}")
+ print(f"  200 km² ÜSTÜ (ızgara 'aynı sahip' dedi ya da kilit/kararsız): {len(satir)-len(alt)}")
+ for s in sorted(satir, key=lambda s: -s["km2"])[:25]: print(" ", s)
+-json.dump(satir, open("C:/atlas/denetim/BOGAZ-OLCUM-0081-sinif.json", "w", encoding="utf-8"),
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++json.dump(satir, open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "BOGAZ-OLCUM-0081-sinif.json"), "w", encoding="utf-8"),
+           ensure_ascii=False, indent=0)
+diff --git a/denetim/BOGAZ-OLCUM-0081.py b/denetim/BOGAZ-OLCUM-0081.py
+index 1a7e4636..325a3569 100644
+--- a/denetim/BOGAZ-OLCUM-0081.py
++++ b/denetim/BOGAZ-OLCUM-0081.py
+@@ -315,6 +315,6 @@ cikti = {"izgara_kara": int(kara.sum()), "sudan_gecen_adim": len(atlayan),
+                                   k["dolanma_km"] > 3 * k["dogrudan_km"] + 20)]),
+          "bogazlar": bogaz_sonuc, "petek": petek_sonuc, "tiflis": tif,
+          "anlamli_kumeler": sorted(anlamli, key=lambda k: -(k["dolanma_km"] or 1e9))}
+-json.dump(cikti, open("C:/atlas/denetim/BOGAZ-OLCUM-0081.json", "w", encoding="utf-8"),
++json.dump(cikti, open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "BOGAZ-OLCUM-0081.json"), "w", encoding="utf-8"),
+           ensure_ascii=False, indent=1)
+ log("yazildi · anlamli deniz kumesi", len(anlamli))
+diff --git a/denetim/HARITA-0076-cevap-yaz.py b/denetim/HARITA-0076-cevap-yaz.py
+index e2c24fd4..01eee534 100644
+--- a/denetim/HARITA-0076-cevap-yaz.py
++++ b/denetim/HARITA-0076-cevap-yaz.py
+@@ -13,7 +13,7 @@ import sys
+ sys.stdout.reconfigure(encoding='utf-8')
+ 
+ HEDEF = r'C:\claudemre\kutu\giden\parti-emrelic-0076\CEVAP.json'
+-NUSHA = r'C:\atlas\denetim\HARITA-0076-CEVAP.json'
++NUSHA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "HARITA-0076-CEVAP.json")
+ 
+ R = 'denetim/HARITA-0076.md'
+ Y = 'denetim/HARITA-0076-YAMA-hukuki_sinirlar.md'
+diff --git a/denetim/HARITA-0076-kutu-kapisi.py b/denetim/HARITA-0076-kutu-kapisi.py
+index 40b377bb..38e86e63 100644
+--- a/denetim/HARITA-0076-kutu-kapisi.py
++++ b/denetim/HARITA-0076-kutu-kapisi.py
+@@ -23,7 +23,8 @@ import re
+ import sys
+ 
+ sys.stdout.reconfigure(encoding='utf-8')
+-YOL = r'C:\atlas\data\hukuki_sinirlar.js'
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++YOL = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "hukuki_sinirlar.js")
+ 
+ 
+ def kayitlar(metin):
+diff --git a/denetim/HARITA-0076-sahip-toplu.py b/denetim/HARITA-0076-sahip-toplu.py
+index 2f5d820d..4a8b66ca 100644
+--- a/denetim/HARITA-0076-sahip-toplu.py
++++ b/denetim/HARITA-0076-sahip-toplu.py
+@@ -5,15 +5,16 @@
+ """
+ import sys
+ 
+-sys.path.insert(0, r'C:\atlas\arac')
+-sys.path.insert(0, r'C:\atlas\denetim')
++import os  # MUTLAK-KOK-DENETIM-1006: kök için
++sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "arac"))
++sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim"))
+ sys.stdout.reconfigure(encoding='utf-8')
+ 
+ import girdi  # noqa: E402
+ import importlib.util  # noqa: E402
+ 
+ _spec = importlib.util.spec_from_file_location(
+-    'h76sahip', r'C:\atlas\denetim\HARITA-0076-sahip.py')
++    'h76sahip', os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "denetim", "HARITA-0076-sahip.py"))
+ _m = importlib.util.module_from_spec(_spec)
+ _spec.loader.exec_module(_m)
+ gun_no, sahip = _m.gun_no, _m.sahip

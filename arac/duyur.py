@@ -83,29 +83,50 @@ def main(argv):
     aciliyet = al("--aciliyet", "DURDURUCU")
     print()
     print("YAZILIYOR — %d oturuma, ADIYLA" % len(adlar))
-    basarili, hatali = 0, []
+    # 🔴 ÜÇ KOVA, İKİ DEĞİL (W50c, 6 Ekim 2026). `tahta.py yaz` artık çıkış
+    # koduyla TESLİMİ söyler (0 ulaştı · 1 ulaşmadı · 2 yazılmadı/ölçülemedi),
+    # "yazıldı" satırı ise mesajın YEREL tahta.json'a girdiğini. Eskiden kod
+    # hep 0'dı; bu döngü "0 değilse ELLE YAZ" diyebiliyordu çünkü o yol hiç
+    # açılmıyordu. Kod 1/2 + "yazıldı" ile o öğüt MÜKERRER üretir: mesaj
+    # tahtada ZATEN var, yalnız gitmedi (M-0242 = M-0243 sınıfı).
+    # ⇒ "yazıldı" var + kod≠0 ⇒ YAZILDI-GİTMEDİ: yeniden YAZILMAZ, push edilir.
+    #   "yazıldı" yok ⇒ YAZILAMADI: eski 🔴, elle yazılır.
+    ulasti, gitmedi, hatali = [], [], []
     for a in adlar:
         r = subprocess.run(
             [sys.executable, os.path.join(KOK, "arac", "tahta.py"), "yaz",
              "--kim", BEN, "--kime", a, "--cins", cins,
              "--aciliyet", aciliyet, "--mesaj-dosya", dosya],
             capture_output=True, encoding="utf-8", errors="replace")
-        ok = r.returncode == 0 and "yazıldı" in (r.stdout or "")
-        print("   %-34s %s" % (a[:34], "✓" if ok else "🔴"))
-        if ok:
-            basarili += 1
+        yazildi = "yazıldı" in (r.stdout or "")
+        kuyruk = (r.stdout or r.stderr or "")[-160:]
+        if r.returncode == 0 and yazildi:
+            ulasti.append(a)
+            isaret = "✓"
+        elif yazildi:
+            gitmedi.append((a, r.returncode, kuyruk))
+            isaret = "🟡 yazıldı, GİTMEDİ (kod %d)" % r.returncode
         else:
-            hatali.append((a, (r.stdout or r.stderr or "")[-160:]))
+            hatali.append((a, kuyruk))
+            isaret = "🔴"
+        print("   %-34s %s" % (a[:34], isaret))
     print()
-    print("ulaştı: %d / %d" % (basarili, len(adlar)))
+    print("ulaştı: %d · yazıldı-gitmedi: %d · yazılamadı: %d  (toplam %d)"
+          % (len(ulasti), len(gitmedi), len(hatali), len(adlar)))
+    for a, kod, c in gitmedi:
+        print("🟡 %s (kod %d)\n   %s" % (a, kod, c.strip()))
+    if gitmedi:
+        print()
+        print("⚠️ YAZILDI, GİTMEDİ — bunları YENİDEN YAZMA (mükerrer olur): mesaj")
+        print("   tahta.json'da VAR. `git status` + `git push`; kod 2 (ölçülemedi)")
+        print("   ise önce `git log @{u}..` ile bak — gitmiş olabilir.")
     for a, c in hatali:
         print("🔴 %s\n   %s" % (a, c.strip()))
     if hatali:
         print()
-        print("⚠️ HATALI OLANLARI ELLE YAZ — bir duyuru KISMEN gitmişse")
+        print("⚠️ YAZILAMAYANLARI ELLE YAZ — bir duyuru KISMEN gitmişse")
         print("   gitmemiş gibidir: kilit bir oturumu bağlamıyorsa kilit yoktur.")
-        return 1
-    return 0
+    return 1 if (gitmedi or hatali) else 0
 
 
 if __name__ == "__main__":

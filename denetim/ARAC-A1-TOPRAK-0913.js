@@ -7,7 +7,8 @@ const fs = require("fs"), vm = require("vm"), path = require("path");
 const KOK = path.join(__dirname, "..");
 const S = require(path.join(KOK, "js/suzgec.js"));
 const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
-const dosyalar = [...html.matchAll(/<script src="(data\/[^"?]+)/g)].map(m => m[1])
+const IK = require("./INDEX-KAYNAK-1006.js"); // W32: paket_NN.js açılır + SESSİZ SIFIR kapısı
+const dosyalar = IK.kaynaklar(html, /<script src="(data\/[^"?]+)/)
   .filter(f => /olaylar|donemler/.test(f));
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
 for (const f of dosyalar) {

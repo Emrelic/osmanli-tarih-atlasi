@@ -202,7 +202,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1606-11-11", b:"Zitvatorok Antlaşması — protokolde eşitlik", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Uzun Türk Savaşı'nı bitiren antlaşma, Habsburg imparatorunu Osmanlı padişahıyla protokolde eşit saydı ve yıllık ödemeyi tek seferlik bir armağana çevirdi. Avusturya tarihyazımı bunu, Osmanlı üstünlüğünün simgesel olarak kırıldığı ilk belge sayar.",
-  kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden savaş, nihayet Zitvatorok Antlaşması (1606) ile sona ermiştir\" · depo savaslar.js (1606-11-11) · TDV `zitvatorok-antlasmasi` slug CANLI", yer_kon:[47.855,18.242] },
+  kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden ve Avrupa’da “Uzun Türk savaşları” adıyla anılan savaş, nihayet Zitvatorok Antlaşması (1606) ile sona ermiştir.\" · depo savaslar.js (1606-11-11) · TDV `zitvatorok-antlasmasi` slug CANLI", yer_kon:[47.855,18.242] },
 
 // ══════════════════════════════════════════════════════════════════
 // II. OTUZ YIL SAVAŞLARI VE KARŞI-REFORM (1608-1648)
