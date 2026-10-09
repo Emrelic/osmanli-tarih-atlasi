@@ -1424,8 +1424,11 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1898-09-29",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"gine" },
 
+// HAYALET-KUNYE-1008-K · `dagbon` künyesi 1401-01-01'de başlıyor (kesinlik yuzyil); 1281→1401-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Yendi (Dagbon)", tur:"sehir", lat:9.4400, lon:-0.0100, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1899-01-01",d:"dagbon"},
+  s:[{f:"1281-01-01",t:"1401-01-01",d:"__BOSLUK__"},
+     {f:"1401-01-01",t:"1899-01-01",d:"dagbon"},
      {f:"1899-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
@@ -1863,8 +1866,11 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"kenya" },
 
+// HAYALET-KUNYE-1008-K · `bunyoro` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Masindi", tur:"sehir", lat:1.6800, lon:31.7200, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1899-04-09",d:"bunyoro"},
+  s:[{f:"1281-01-01",t:"1501-01-01",d:"__BOSLUK__"},
+     {f:"1501-01-01",t:"1899-04-09",d:"bunyoro"},
      {f:"1899-04-09",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"uganda" },
 
@@ -1883,8 +1889,11 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
+// HAYALET-KUNYE-1008-K · `bunyoro` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Hoima (Bunyoro)", tur:"sehir", lat:1.4300, lon:31.3500, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1899-04-09",d:"bunyoro"},
+  s:[{f:"1281-01-01",t:"1501-01-01",d:"__BOSLUK__"},
+     {f:"1501-01-01",t:"1899-04-09",d:"bunyoro"},
      {f:"1899-04-09",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"uganda" },
 
@@ -2712,9 +2721,13 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
 
+// HAYALET-KUNYE-1008-K · Toamasina D204 (yer yanlış): yayla krallığı `merina-oncesi` doğu kıyısında DEĞİL. Künye
+//   `betsimisaraka` (1712→1817) başkentini «Toamasina» yazıyor, kaynağı «Merina 1817'de Toamasina'yı aldı»;
+//   TDV `madagaskar`: 1750'de Fransa «Betsinisaraka kabileleri birliğinin reisiyle» antlaşma. 1281→1712 künyesiz ⇒ __BOSLUK__.
 { ad:"Toamasina (Tamatave)", tur:"sehir", lat:-18.1500, lon:49.4000, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
-     {f:"1787-01-01",t:"1897-02-28",d:"merina"},
+  s:[{f:"1281-01-01",t:"1712-01-01",d:"__BOSLUK__"},
+     {f:"1712-01-01",t:"1817-01-01",d:"betsimisaraka"},
+     {f:"1817-01-01",t:"1897-02-28",d:"merina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
 
@@ -2723,14 +2736,20 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1903-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
+// HAYALET-KUNYE-1008-K · `merina-oncesi` künyesi 1401-01-01'de başlıyor (kesinlik yuzyil); 1281→1401-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Ambohimanga", tur:"sehir", lat:-18.7600, lon:47.5600, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
+  s:[{f:"1281-01-01",t:"1401-01-01",d:"__BOSLUK__"},
+     {f:"1401-01-01",t:"1787-01-01",d:"merina-oncesi"},
      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },
 
+// HAYALET-KUNYE-1008-K · `merina-oncesi` künyesi 1401-01-01'de başlıyor (kesinlik yuzyil); 1281→1401-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Tsiroanomandidy", tur:"sehir", lat:-18.7700, lon:46.0500, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1787-01-01",d:"merina-oncesi"},
+  s:[{f:"1281-01-01",t:"1401-01-01",d:"__BOSLUK__"},
+     {f:"1401-01-01",t:"1787-01-01",d:"merina-oncesi"},
      {f:"1787-01-01",t:"1897-02-28",d:"merina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"madagaskar" },

@@ -66,10 +66,14 @@ window.YERLESIMLER_GDASYA = [
   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1795-01-01",d:"kamboc-kralligi"},{f:"1795-01-01",t:"1907-03-23",d:"siyam-chakri"},{f:"1907-03-23",t:"1923-10-29",d:"fransiz-cinhindi"}] },
 { ad:"Kompong Cham", tur:"liman", lat:12.00, lon:105.46, g:0, k:3,
   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Xieng Khouang", tur:"sehir", lat:19.45, lon:103.15, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Savannakhet", tur:"liman", lat:16.56, lon:104.75, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
 
 // ---------- VİETNAM (Kızıl Nehir + orta/güney kıyı) ----------
 // Kuzey zinciri (tran→ho→ming işgali→le→...) yerlesimler_asya.js'teki
@@ -211,8 +215,10 @@ window.YERLESIMLER_GDASYA = [
   s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
 { ad:"Preah Vihear", tur:"sehir", lat:14.39, lon:104.68, g:0, k:3,
   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+// HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Muang Sing", tur:"sehir", lat:21.18, lon:101.15, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
 { ad:"Vinh Long", tur:"liman", lat:10.25, lon:105.97, g:0, k:3,
   s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
 { ad:"Can Tho", tur:"liman", lat:10.03, lon:105.79, g:0, k:3,

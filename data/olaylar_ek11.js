@@ -124,6 +124,15 @@ window.OLAYLAR_EK11 = [
   d:"Akkoyunlu tahtının ikinci iddiacısı Sultan Murad, Şah İsmâil'e karşı Hemedan yakınlarında yapılan savaşta ağır bir yenilgiye uğradı ve Bağdat'a kaçtı. Bu tek savaşla Irâk-ı Acem, Fars ve Kirman bölgeleri Safevî idaresine girdi; haritada bu bölgeler aynı anda el değiştirir. Akkoyunlu Devleti'nin çözülüşünün en büyük tek adımı budur — Tebriz'in kaybı hânedanı başkentsiz bırakmıştı, Hemedan yenilgisi ise topraksız bıraktı.", ic_not_d:"⚠️ Bu kırılma bugüne kadar kronolojide karşılıksızdı: ona en yakın madde on sekiz gün ötedeki Osmanlı-Venedik Savaşı'nın sona ermesiydi, yani kullanıcı İran'ın el değiştirdiğini görürken ekranda Venedik barışını okuyordu. · eski: haritada otuz yedi yerleşim aynı anda el değiştirir.",
   kaynak:"safeviler", duygu:["🏛","😔"] },
 
+// EEK-DOGU-2-0086 · Yezd 1504-12-06 kırılması (Akkoyunlu adası kapanır) — çekirdekte maddesi yoktu; kuyruktaki
+//   `kronoloji_safevi.js` maddesi Değişmez 2 evreninde DEĞİL. Gün TDV `yezd`den, birebir.
+{ t:"1504-12-06", k:"fetih", etiket:["siyaset","savas","konu-askeri"],
+  b:"Şah İsmail Yezd'e girdi: Akkoyunlu artığının merkezî İran'daki son kalesi düştü",
+  gun:"6 Aralık 1504 (28 Cemâziyelâhir 910)", yer:"Yezd", yer_id:"Yezd",
+  kisiler:"Şah İsmail",
+  d:"1503 Hemedan yenilgisinden sonra Irâk-ı Acem ve Fars Safevî'ye geçtiği hâlde Yezd, Akkoyunlu hânedanından Bayındırlı Murad Bey'in elinde ayrı kalmıştı. Şehir bir aylık kuşatmayla düştü ve merkezî İran'daki son Akkoyunlu adası kapandı. TDV'nin kaydı: \"Şah İsmâil 28 Cemâziyelâhir 910 (6 Aralık 1504) tarihinde bir aylık bir kuşatmanın ardından şehre girdi.\"",
+  kaynak:"yezd · sah-ismail", duygu:["🏛"] },
+
 { t:"1507-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
   gun:"1507 (912-913 h.; ay ve gün kaynakta yok)", yer:"Diyarbekir, Âmid, Mardin, Urfa, Harput, Siverek", yer_id:"Diyarbakır",

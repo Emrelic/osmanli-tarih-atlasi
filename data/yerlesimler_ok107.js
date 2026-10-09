@@ -59,7 +59,7 @@ window.YERLESIMLER_OK107 = [
   neden:"kunye-yok — 1508-01-01 / 1515-09-19 arasi (7,7 yil) BILEREK bos. TDV cizre maddesi bu araligi ACIKCA anlatiyor: Emir II. Seref 1508'de sehri Akkoyunlulardan aliyor ve MAHALLI YONETIMI yeniden kuruyor, arada kisa bir Sah Ismail idaresi var ama TDV gununu VERMIYOR. Yani kaynak KONUSUYOR, devletler.js'te Cizre/Bohtan emirligi kunyesi YOK. Kunye yazilirsa bu bosluk kapanir — KUNYE ONERISI raporda."
 },
 
-{ ad:"Siirt", kd:[{f:"1281-01-01",t:"1514-09-06",k:0,m:null},{f:"1514-09-06",t:"1923-10-29",k:3,m:"Diyarbakır"}], tur:"sehir", lat:37.930, lon:41.940, k:3, m:"Diyarbakır",
+{ ad:"Siirt", kd:[{f:"1281-01-01",t:"1514-09-06",k:0,m:null},{f:"1514-09-06",t:"1923-10-29",k:3,m:"Diyarbakır"}], neden:"0087/H-0003 (TEBRIZ-1514-0087, *eek ① GERÇEKTEN ATLANDI — BEYAN): 1514-09-06 → 1515-09 arası Siirt çevresinden KOPUK bir Osmanlı noktasıdır (Hasankeyf 52 km ve Bitlis 54 km Safevî; Diyarbakır 1515-09-10, Hasankeyf 1517-05-01) ve bu TARİHÎDİR, veri hatası değildir. TDV `hasankeyf`: 'Çaldıran zaferi üzerine hapisten kurtulan Melik Halîl diğer bazı beylerle birlikte Osmanlılar’a itaat arzetti ve Siirt’i geri aldıktan sonra … (1517) Mardin’in fethinin ardından … Hasankeyf’i ele geçirdi' ⇒ Siirt'i Safevîden alan, Osmanlı'ya itaat etmiş Eyyûbî meliki Halil'dir; Hasankeyf ise 1517'ye kadar Safevî kalmıştır. Uğur Demlikoğlu, '998 ve 1112 Numaralı Tapu Tahrir Defterlerine Göre Siirt Vakıfları (1526-1566)', SDÜ Fen-Edebiyat Fak. Sosyal Bilimler Dergisi 44 (2018), s. 40-61: 'Van ve ardından Bitlis’e gelen Halil Bey 3 günlük bir kuşatmanın ardından Safevi Devleti’nin elinde bulunan Siirt Kalesi’ne girmeyi başarmıştır.' ⚠️ GÜN: 1514-09-06 bir EN ERKEN SINIRDIR (Tebriz'e giriş = Halil'in serbest kalışı), Siirt'in geri alınış günü kaynakta YOK. Eski gerekçe ('atlasın kendi günü, Doğubayazıt d:, 19 kayıt') BAYATLADI: Doğubayazıt 8584cfce ile bu günü bıraktı, günü bugün 6 kayıt paylaşıyor. YYYY-01-01 (1514-01-01) Çaldıran'dan önceye düşeceği için yazılamaz. ⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR: Demlikoğlu 2018 'Bu savaştan 2 yıl sonra da Siirt Osmanlı hâkimiyetine girmiştir' ve '1516 yılında Cizre, Eğil, Bitlis, Hizan, Siirt ve Hasankeyf Osmanlı Devleti’ne katılmıştır' (İnalcık 2009 · Uzunçarşılı 1988) der; TDV `siirt` '(920/1514) … Osmanlı topraklarına katıldı' der. §4 gereği TDV esas, 1514 KORUNDU — iki kaynak aynı olgunun iki yüzü olabilir (1514 itaat + geri alış · 1516 doğrudan idare), ama bu bir yorumdur. 🟡 Melik Halil'in idaresi `d:` ile yazıldı: `eyyubi-hisnikeyfa` künyesi 1462'de bitiyor, `v:` tâbi yazmak hayalet kimlik doğururdu (künye kararı ayrı kalem).", tur:"sehir", lat:37.930, lon:41.940, k:3, m:"Diyarbakır",
   // TDV `siirt` (200, gövde 15.849 kr, okundu):
   //   "İlhanlılar'ın ve onların halefleri durumundaki Celâyirliler'in
   //    hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra
@@ -68,8 +68,8 @@ window.YERLESIMLER_OK107 = [
   //   "Yavuz Sultan Selim'in Çaldıran'da … kazandığı zafer sonrasında
   //    (920/1514) Siirt çevredeki başka yerlerle birlikte Osmanlı
   //    topraklarına katıldı."
-  // 1514-09-06: atlasın kendi günü (Doğubayazıt d:, 19 kayıt aynı gün) ve
-  // TDV'nin 920/1514'ü ile uyuşuyor. 1507: bölgenin Safevî günü (Diyarbakır ·
+  // 1514-09-06: EN ERKEN SINIR (Tebriz'e giriş = Melik Halil'in serbest kalışı) — bkz. `neden` (TEBRIZ-1514-0087).
+  // Eski gerekçe (Doğubayazıt'ın günü) 8584cfce ile BAYATLADI. 1507: bölgenin Safevî günü (Diyarbakır ·
   // Mardin · Palu · Siverek · Urfa hepsi bunu kullanıyor).
   // 🔴 İLK YAZIŞIM `celayirli 1340→1462` idi; Celâyirli künyesi 1431'de
   //   bitiyor ⇒ 31 yıllık hayalet. Kapı yakaladı, zincire karakoyunlu

@@ -67,22 +67,6 @@ window.OLAYLAR_EK8 = [
   "kaynak": "diu"
  },
  {
-  "t": "1515-01-01",
-  "b": "Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle Osmanlı'ya katılması", "gun": "921 (1515) yılı sonları",
-  "tur": "fetih",
-  "onem": 2,
-  "dunya": 2,
-  "kapsam": "ic",
-  "etiket": [
-   "askeri",
-   "konu-askeri"
-  ],
-  "ic_not_etiket": "toprak-kazanc KALDIRILDI (GEMINI-DOGRULA 0919): aynı katılışı olaylar_ok107.js '1515-09-19 Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması' GÜNLÜ anlatıyor ve Nusaybin/Cizre kırılmasını o kapatıyor; bu madde onun yıl düzeyli mükerreri.",
-  "yer_id": "Nusaybin",
-  "d": "Çaldıran seferi (1514) sonrasında Doğu Anadolu'da yürütülen ilhak sürecinde İdrîs-i Bitlisî'nin bölgedeki Sünnî Kürt beyleriyle kurduğu ilişkiler sayesinde Nusaybin, 921 (1515) yılı sonlarında savaşsız biçimde Osmanlı topraklarına katıldı.", "ic_not_d": "TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor.  Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
-  "kaynak": "nusaybin"
- },
- {
   "t": "1526-01-01",
   "b": "Kalender Şah isyanı",
   "tur": "isyan",

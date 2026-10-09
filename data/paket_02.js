@@ -160,22 +160,6 @@ window.OLAYLAR_EK8 = [
   "kaynak": "diu"
  },
  {
-  "t": "1515-01-01",
-  "b": "Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle Osmanlı'ya katılması", "gun": "921 (1515) yılı sonları",
-  "tur": "fetih",
-  "onem": 2,
-  "dunya": 2,
-  "kapsam": "ic",
-  "etiket": [
-   "askeri",
-   "konu-askeri"
-  ],
-  "ic_not_etiket": "toprak-kazanc KALDIRILDI (GEMINI-DOGRULA 0919): aynı katılışı olaylar_ok107.js '1515-09-19 Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması' GÜNLÜ anlatıyor ve Nusaybin/Cizre kırılmasını o kapatıyor; bu madde onun yıl düzeyli mükerreri.",
-  "yer_id": "Nusaybin",
-  "d": "Çaldıran seferi (1514) sonrasında Doğu Anadolu'da yürütülen ilhak sürecinde İdrîs-i Bitlisî'nin bölgedeki Sünnî Kürt beyleriyle kurduğu ilişkiler sayesinde Nusaybin, 921 (1515) yılı sonlarında savaşsız biçimde Osmanlı topraklarına katıldı.", "ic_not_d": "TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor.  Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
-  "kaynak": "nusaybin"
- },
- {
   "t": "1526-01-01",
   "b": "Kalender Şah isyanı",
   "tur": "isyan",
@@ -1524,6 +1508,15 @@ window.OLAYLAR_EK11 = [
   kisiler:"Şah İsmail, Akkoyunlu Sultan Murad",
   d:"Akkoyunlu tahtının ikinci iddiacısı Sultan Murad, Şah İsmâil'e karşı Hemedan yakınlarında yapılan savaşta ağır bir yenilgiye uğradı ve Bağdat'a kaçtı. Bu tek savaşla Irâk-ı Acem, Fars ve Kirman bölgeleri Safevî idaresine girdi; haritada bu bölgeler aynı anda el değiştirir. Akkoyunlu Devleti'nin çözülüşünün en büyük tek adımı budur — Tebriz'in kaybı hânedanı başkentsiz bırakmıştı, Hemedan yenilgisi ise topraksız bıraktı.", ic_not_d:"⚠️ Bu kırılma bugüne kadar kronolojide karşılıksızdı: ona en yakın madde on sekiz gün ötedeki Osmanlı-Venedik Savaşı'nın sona ermesiydi, yani kullanıcı İran'ın el değiştirdiğini görürken ekranda Venedik barışını okuyordu. · eski: haritada otuz yedi yerleşim aynı anda el değiştirir.",
   kaynak:"safeviler", duygu:["🏛","😔"] },
+
+// EEK-DOGU-2-0086 · Yezd 1504-12-06 kırılması (Akkoyunlu adası kapanır) — çekirdekte maddesi yoktu; kuyruktaki
+//   `kronoloji_safevi.js` maddesi Değişmez 2 evreninde DEĞİL. Gün TDV `yezd`den, birebir.
+{ t:"1504-12-06", k:"fetih", etiket:["siyaset","savas","konu-askeri"],
+  b:"Şah İsmail Yezd'e girdi: Akkoyunlu artığının merkezî İran'daki son kalesi düştü",
+  gun:"6 Aralık 1504 (28 Cemâziyelâhir 910)", yer:"Yezd", yer_id:"Yezd",
+  kisiler:"Şah İsmail",
+  d:"1503 Hemedan yenilgisinden sonra Irâk-ı Acem ve Fars Safevî'ye geçtiği hâlde Yezd, Akkoyunlu hânedanından Bayındırlı Murad Bey'in elinde ayrı kalmıştı. Şehir bir aylık kuşatmayla düştü ve merkezî İran'daki son Akkoyunlu adası kapandı. TDV'nin kaydı: \"Şah İsmâil 28 Cemâziyelâhir 910 (6 Aralık 1504) tarihinde bir aylık bir kuşatmanın ardından şehre girdi.\"",
+  kaynak:"yezd · sah-ismail", duygu:["🏛"] },
 
 { t:"1507-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",

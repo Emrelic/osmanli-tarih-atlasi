@@ -64,7 +64,7 @@ window.YERLESIMLER_OK107 = [
   neden:"kunye-yok — 1508-01-01 / 1515-09-19 arasi (7,7 yil) BILEREK bos. TDV cizre maddesi bu araligi ACIKCA anlatiyor: Emir II. Seref 1508'de sehri Akkoyunlulardan aliyor ve MAHALLI YONETIMI yeniden kuruyor, arada kisa bir Sah Ismail idaresi var ama TDV gununu VERMIYOR. Yani kaynak KONUSUYOR, devletler.js'te Cizre/Bohtan emirligi kunyesi YOK. Kunye yazilirsa bu bosluk kapanir — KUNYE ONERISI raporda."
 },
 
-{ ad:"Siirt", kd:[{f:"1281-01-01",t:"1514-09-06",k:0,m:null},{f:"1514-09-06",t:"1923-10-29",k:3,m:"Diyarbakır"}], tur:"sehir", lat:37.930, lon:41.940, k:3, m:"Diyarbakır",
+{ ad:"Siirt", kd:[{f:"1281-01-01",t:"1514-09-06",k:0,m:null},{f:"1514-09-06",t:"1923-10-29",k:3,m:"Diyarbakır"}], neden:"0087/H-0003 (TEBRIZ-1514-0087, *eek ① GERÇEKTEN ATLANDI — BEYAN): 1514-09-06 → 1515-09 arası Siirt çevresinden KOPUK bir Osmanlı noktasıdır (Hasankeyf 52 km ve Bitlis 54 km Safevî; Diyarbakır 1515-09-10, Hasankeyf 1517-05-01) ve bu TARİHÎDİR, veri hatası değildir. TDV `hasankeyf`: 'Çaldıran zaferi üzerine hapisten kurtulan Melik Halîl diğer bazı beylerle birlikte Osmanlılar’a itaat arzetti ve Siirt’i geri aldıktan sonra … (1517) Mardin’in fethinin ardından … Hasankeyf’i ele geçirdi' ⇒ Siirt'i Safevîden alan, Osmanlı'ya itaat etmiş Eyyûbî meliki Halil'dir; Hasankeyf ise 1517'ye kadar Safevî kalmıştır. Uğur Demlikoğlu, '998 ve 1112 Numaralı Tapu Tahrir Defterlerine Göre Siirt Vakıfları (1526-1566)', SDÜ Fen-Edebiyat Fak. Sosyal Bilimler Dergisi 44 (2018), s. 40-61: 'Van ve ardından Bitlis’e gelen Halil Bey 3 günlük bir kuşatmanın ardından Safevi Devleti’nin elinde bulunan Siirt Kalesi’ne girmeyi başarmıştır.' ⚠️ GÜN: 1514-09-06 bir EN ERKEN SINIRDIR (Tebriz'e giriş = Halil'in serbest kalışı), Siirt'in geri alınış günü kaynakta YOK. Eski gerekçe ('atlasın kendi günü, Doğubayazıt d:, 19 kayıt') BAYATLADI: Doğubayazıt 8584cfce ile bu günü bıraktı, günü bugün 6 kayıt paylaşıyor. YYYY-01-01 (1514-01-01) Çaldıran'dan önceye düşeceği için yazılamaz. ⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR: Demlikoğlu 2018 'Bu savaştan 2 yıl sonra da Siirt Osmanlı hâkimiyetine girmiştir' ve '1516 yılında Cizre, Eğil, Bitlis, Hizan, Siirt ve Hasankeyf Osmanlı Devleti’ne katılmıştır' (İnalcık 2009 · Uzunçarşılı 1988) der; TDV `siirt` '(920/1514) … Osmanlı topraklarına katıldı' der. §4 gereği TDV esas, 1514 KORUNDU — iki kaynak aynı olgunun iki yüzü olabilir (1514 itaat + geri alış · 1516 doğrudan idare), ama bu bir yorumdur. 🟡 Melik Halil'in idaresi `d:` ile yazıldı: `eyyubi-hisnikeyfa` künyesi 1462'de bitiyor, `v:` tâbi yazmak hayalet kimlik doğururdu (künye kararı ayrı kalem).", tur:"sehir", lat:37.930, lon:41.940, k:3, m:"Diyarbakır",
   // TDV `siirt` (200, gövde 15.849 kr, okundu):
   //   "İlhanlılar'ın ve onların halefleri durumundaki Celâyirliler'in
   //    hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra
@@ -73,8 +73,8 @@ window.YERLESIMLER_OK107 = [
   //   "Yavuz Sultan Selim'in Çaldıran'da … kazandığı zafer sonrasında
   //    (920/1514) Siirt çevredeki başka yerlerle birlikte Osmanlı
   //    topraklarına katıldı."
-  // 1514-09-06: atlasın kendi günü (Doğubayazıt d:, 19 kayıt aynı gün) ve
-  // TDV'nin 920/1514'ü ile uyuşuyor. 1507: bölgenin Safevî günü (Diyarbakır ·
+  // 1514-09-06: EN ERKEN SINIR (Tebriz'e giriş = Melik Halil'in serbest kalışı) — bkz. `neden` (TEBRIZ-1514-0087).
+  // Eski gerekçe (Doğubayazıt'ın günü) 8584cfce ile BAYATLADI. 1507: bölgenin Safevî günü (Diyarbakır ·
   // Mardin · Palu · Siverek · Urfa hepsi bunu kullanıyor).
   // 🔴 İLK YAZIŞIM `celayirli 1340→1462` idi; Celâyirli künyesi 1431'de
   //   bitiyor ⇒ 31 yıllık hayalet. Kapı yakaladı, zincire karakoyunlu
@@ -2943,7 +2943,7 @@ window.YERLESIMLER_KAMERIKA = [
     s:[{f:"1281-01-01",t:"1876-08-23",d:"kri"},{f:"1876-08-23",t:"1923-10-29",d:"kanada"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
   { ad:"Kızıl Kızılderili Gölü (Beothuk)", tur:"sehir", lat:48.65, lon:-56.85, g:0,
-    s:[{f:"1281-01-01",t:"1829-06-06",d:"beothuk"},{f:"1829-06-06",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+    s:[{f:"1281-01-01",t:"1829-06-06",d:"beothuk"},{f:"1829-06-06",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}],
     kaynak:"bulunamadı", not:"Beothuk iç kışlakları; halk 1829'da tükendi · dayanak: HNAI c.15 Northeast (Smithsonian)" },
   { ad:"Fort Colvile", tur:"kale", lat:48.617, lon:-118.1, g:0,
     kur:"1825-01-01",
@@ -3005,7 +3005,10 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: HNAI c.7 Northwest Coast (Smithsonian)" },
   { ad:"St. John's (Newfoundland)", tur:"sehir", lat:47.561, lon:-52.712, g:0,
     kur:"1583-08-05",
-    s:[{f:"1583-08-05",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+    // HAYALET-KUNYE-1008 · `abd` YANLIŞ: Newfoundland İngiliz kolonisi/dominyonu, Kanada'ya 1949'da katıldı (künye
+    //   `newfoundland-dominyonu` kaynağı: heritage.nf.ca · gov.nl.ca). 1763-02-10 gün komşudan: Plaisance (Paris Antl.).
+    //   DOĞRUSU 1855-01-01→ `newfoundland-dominyonu` — künyede «Renk YOK» ⇒ boya inene dek ingiliz-kuzey-amerika.
+    s:[{f:"1583-08-05",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}],
     kaynak:"bulunamadı", not:"Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski · dayanak: Dictionary of Canadian Biography" },
   { ad:"Madawaska (Maliseet)", tur:"sehir", lat:47.35, lon:-68.32, g:0,
     s:[{f:"1281-01-01",t:"1761-01-01",d:"maliseet"},{f:"1761-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
@@ -3019,7 +3022,7 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: Historical Atlas of Canada" },
   { ad:"Plaisance (Placentia)", tur:"sehir", lat:47.2491, lon:-53.9605, g:0,
     kur:"1662-01-01",
-    s:[{f:"1662-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+    s:[{f:"1662-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}],
     kaynak:"bulunamadı", not:"konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2440,-53.9630 → 47.2491,-53.9605) · konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2491,-53.9605 → 47.2491,-53.9605) · dayanak: Dictionary of Canadian Biography" },
   { ad:"Duluth (Fond du Lac)", tur:"kale", lat:46.7897, lon:-92.1045, g:0,
     kur:"1793-01-01",
@@ -3098,8 +3101,8 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: Dictionary of Canadian Biography" },
   { ad:"Kahnawake", tur:"sehir", lat:45.412, lon:-73.683, g:0,
     kur:"1667-01-01",
-    s:[{f:"1667-01-01",t:"1777-01-01",d:"haudenosaunee"},{f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
-    kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
+    s:[{f:"1667-01-01",t:"1777-01-01",d:"haudenosaunee"},{f:"1777-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+    kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian) · 1783 sonrası İngiliz yakası: Paris Antl. 3 Eyl 1783 md.2 (45. enlem / Iroquois-Cataraquy nehri hattının kuzeyi; Avalon Project, Yale) · 1867-07-01 gün komşudan: Montreal (Ville-Marie) · Kanada Konfederasyonu" },
   { ad:"Saint John (NB)", tur:"sehir", lat:45.2916, lon:-66.0603, g:0,
     kur:"1631-01-01",
     s:[{f:"1631-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
@@ -3113,8 +3116,8 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
   { ad:"Sainte-Marie-au-pays-des-Hurons", tur:"sehir", lat:44.683, lon:-79.75, g:0,
     kur:"1639-01-01",
-    s:[{f:"1639-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
-    kaynak:"bulunamadı", not:"dayanak: Trigger, The Children of Aataentsic (McGill-Queen's UP)" },
+    s:[{f:"1639-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+    kaynak:"bulunamadı", not:"dayanak: Trigger, The Children of Aataentsic (McGill-Queen's UP) · 1649-1763 Yeni Fransa iddiası, 1763-02-10 / 1867-07-01 günleri komşudan: York (Toronto) · Fort Frontenac · 1783 sonrası İngiliz yakası: Paris Antl. 3 Eyl 1783 md.2 (Ontario-Erie-Huron gölleri hattının kuzeyi; Avalon Project, Yale)" },
   { ad:"Halifax", tur:"sehir", lat:44.6486, lon:-63.5755, g:0,
     kur:"1749-06-21",
     s:[{f:"1749-06-21",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
@@ -3127,8 +3130,8 @@ window.YERLESIMLER_KAMERIKA = [
     s:[{f:"1634-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
   { ad:"Ossossané", tur:"sehir", lat:44.5, lon:-79.933, g:0,
-    s:[{f:"1281-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
-    kaynak:"bulunamadı", not:"Huron Ayı boyunun ana kasabası · dayanak: Trigger, The Children of Aataentsic" },
+    s:[{f:"1281-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+    kaynak:"bulunamadı", not:"Huron Ayı boyunun ana kasabası · dayanak: Trigger, The Children of Aataentsic · 1649-1763 Yeni Fransa iddiası, 1763-02-10 / 1867-07-01 günleri komşudan: York (Toronto) · Fort Frontenac · 1783 sonrası İngiliz yakası: Paris Antl. 3 Eyl 1783 md.2 (Avalon Project, Yale)" },
   { ad:"Deadwood (Kara Tepeler)", tur:"sehir", lat:44.377, lon:-103.729, g:0,
     kur:"1876-01-01",
     s:[{f:"1876-01-01",t:"1923-10-29",d:"abd"}],
@@ -3452,8 +3455,10 @@ window.YERLESIMLER_KAMERIKA = [
     kur:"1739-01-01",
     s:[{f:"1739-01-01",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
+  // HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
+  //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
   { ad:"Etowah", tur:"sehir", lat:34.122, lon:-84.809, g:0,
-    s:[{f:"1281-01-01",t:"1550-01-01",d:"etowah"},{f:"1550-01-01",t:"1733-06-09",d:"creek-konfederasyonu"},{f:"1733-06-09",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+    s:[{f:"1281-01-01",t:"1550-01-01",d:"etowah"},{f:"1550-01-01",t:"1701-01-01",d:"__BOSLUK__"},{f:"1701-01-01",t:"1733-06-09",d:"creek-konfederasyonu"},{f:"1733-06-09",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
     kaynak:"bulunamadı", not:"14. yy'da hâlâ iskânlı büyük höyük merkezi · dayanak: HNAI c.14 Southeast (Smithsonian)" },
   { ad:"Los Ángeles (El Pueblo)", tur:"sehir", lat:34.053, lon:-118.243, g:0,
     kur:"1781-09-04",
@@ -3469,8 +3474,10 @@ window.YERLESIMLER_KAMERIKA = [
   { ad:"Moundville", tur:"sehir", lat:32.998, lon:-87.63, g:0,
     s:[{f:"1281-01-01",t:"1450-01-01",d:"moundville"},{f:"1450-01-01",t:"1699-04-08",d:"choctaw"},{f:"1699-04-08",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
+  // HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
+  //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
   { ad:"Ocmulgee", tur:"sehir", lat:32.837, lon:-83.608, g:0,
-    s:[{f:"1281-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},{f:"1832-03-24",t:"1923-10-29",d:"abd"}],
+    s:[{f:"1281-01-01",t:"1701-01-01",d:"__BOSLUK__"},{f:"1701-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},{f:"1832-03-24",t:"1923-10-29",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.14 Southeast (Smithsonian)" },
   { ad:"Santa Rita del Cobre", tur:"sehir", lat:32.8, lon:-108.07, g:0,
     kur:"1804-01-01",
@@ -3616,7 +3623,9 @@ window.YERLESIMLER_KAMERIKA = [
     s:[{f:"1550-01-01",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}],
     kaynak:"bulunamadı", not:"Manila kalyonu limanı · dayanak: Cambridge History of Latin America (CUP)" },
   { ad:"Tehuantepec", tur:"sehir", lat:16.323, lon:-95.241, g:0,
-    s:[{f:"1281-01-01",t:"1523-01-01",d:"zapotek-krallik"},{f:"1523-01-01",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+    // HAYALET-KUNYE-1008 · `ingiltere`/`abd` YANLIŞ (Kıstak Yeni İspanya → Meksika). Günler komşudan: Mitla
+    //   (kaynak: Marcus & Flannery 1996) — aynı Oaxaca süreci, ~136 km. Kaydın kendi dayanağı «1522 İspanyol».
+    s:[{f:"1281-01-01",t:"1523-01-01",d:"zapotek-krallik"},{f:"1523-01-01",t:"1535-04-17",d:"ispanya"},{f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"}],
     kaynak:"bulunamadı", not:"Kıstakta Zapotek merkezi; 1522 İspanyol · dayanak: Cambridge History of Latin America (CUP)" },
   { ad:"Trujillo (Honduras)", tur:"sehir", lat:15.918, lon:-85.953, g:0,
     kur:"1525-05-18",

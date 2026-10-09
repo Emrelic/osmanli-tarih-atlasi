@@ -1,0 +1,34 @@
+DOGU-SAFEVI-0086 — KRONOLOJİ diff, UYGULANMADI. Temel origin/main 6865cc87. 3 yeni madde (olaylar_ek17.js sonuna): 1485-01-01 yil (Taşkent→Moğulistan, TDV taskent) · 1504-01-01 yil (Bâbür Fergana'yı bıraktı, TDV fergana/babur) · 1538-10-01 ay (Şirvanşahlar'ın sonu, TDV sirvansahlar/sirvan). KOORD ile AYNI commit.
+
+diff --git a/data/olaylar_ek17.js b/data/olaylar_ek17.js
+index de5eb7d5..68c38f1b 100644
+--- a/data/olaylar_ek17.js
++++ b/data/olaylar_ek17.js
+@@ -235,4 +235,27 @@ window.OLAYLAR_EK17 = [
+   d:"İmparatorluk kuvvetlerince 1685 sonunda kuşatılan Munkács kalesi, Thököly İmre'nin eşi İlona Zrínyi idaresinde üç yıl boyunca direndi; çok sayıda yayımlanmış başvuru eserine göre kale 17 Ocak 1688'de General Antonio Caraffa'ya teslim edildi. Bu, Osmanlı-Habsburg cephesinde Macaristan'daki Osmanlı yanlısı direnişin son büyük kalelerinden birinin düşüşüydü.", ic_not_d:"⚠️ VERİ DÜZELTMESİ: `data/yerlesimler_ek_macaristan.js`'i yazan oturum, Değişmez 2'yi açmamak için BİLEREK bu tarihi Eğri'nin (Eger, ~250 km uzak, ayrı bir kuşatma) düşüş gününe (1687-12-17) eşitlemiş ve bunu kendi yorumunda açıkça 'sadeleştirme, ölçüm değil' diye işaretlemişti — çare olarak da tam bu maddenin yazılmasını önermişti. Bu madde inince koordinatör tarihi 1687-12-17 → 1688-01-17 olarak GERÇEĞİNE çekti (§7, VERİ SAHİPLİK/koordinatör yetkisi); ikisi AYNI turda inmezse Değişmez 2 açılırdı.",
+   kaynak:"bulunamadı — TDV'de Munkács'ın müstakil maddesi yok, 17 Ocak 1688 tarihi çok sayıda yayımlanmış başvuru eserinde (hungarianottomanwars.com, Encyclopedia.com, Wikipedia) tekrarlanıyor ama hakemli akademik kaynakta doğrulanamadı — CLAUDE.md §4 kırmızı çizgisi gereği bu popüler/derleme kaynaklar tek dayanak sayılmadı, eksiklik açıkça yazıldı" },
+ 
++// ── DOGU-SAFEVI-0086 (9 Ekim 2026): üç kırılmanın maddesi — 0086/H-0002 · H-0007 ──
++{ t:"1485-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-siyasi"], kapsam:"dis",
++  b:"Taşkent Moğulistan hanı Yûnus Han'ın idaresine geçti",
++  gun:"890 (1485) — yıl hassasiyeti; ay ve gün kaynakta yok", yer:"Taşkent", yer_id:"Taşkent",
++  kisiler:"Yûnus Han, Mahmud Han", taraflar:["timurlu","mogulistan"],
++  d:"Timurlu şehzadeleri arasındaki taht mücadelesi sırasında Taşkent ve çevresi Doğu Çağatay (Moğulistan) hanı Yûnus Han'ın eline geçti. İki yıl sonra Yûnus Han ölünce yerine oğlu Mahmud Han geçti; şehir 1503'te Şeybânî Han'ın Özbekleri alana kadar Moğul hanlarında kaldı.",
++  kaynak:"TDV taskent: 'Timurlular arasında başlayan taht mücadelesi neticesinde Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485).' · 'Yûnus Han iki yıl sonra vefat edince yerine oğlu Mahmud Han geçti.'" },
++
++{ t:"1504-01-01", kesinlik:"yil", k:"kayip", etiket:["toprak-kayip","konu-siyasi","maveraunnehir"], kapsam:"dis",
++  b:"Bâbür Fergana'yı Özbekler'e bırakıp Kâbil'e gitti",
++  gun:"1504 — yıl hassasiyeti; ay ve gün kaynakta yok", yer:"Fergana (Endican, Oş, Hokand, Hucend)", yer_id:"Andican",
++  kisiler:"Bâbür, Muhammed Şeybânî Han", taraflar:["timurlu","buhara"],
++  d:"Ömer Şeyh Mirza'nın oğlu Timurlu Bâbür, 1494'ten beri hüküm sürdüğü Fergana'yı Muhammed Şeybânî Han'la yaptığı savaşlardan sonra Özbekler'e bıraktı ve Hindukuş'u aşarak Kâbil'e yerleşti.",
++  ic_not_d:"Fergana noktaları bu maddeyle 1504'te Buhara (Şeybânî) kimliğine geçer; 1500-01-01 açılışı Semerkant/Buhara şablonundandı ve kaynaksızdı. ⚠️ kronoloji_cok_orta_asya2.js 1503-06-01 Aksı maddesi 'Fergana … Özbek eline geçti' der (Britannica/EI² web özeti); TDV fergana ve babur 1504 der — TDV esas.",
++  kaynak:"TDV fergana: 'Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.' · TDV babur: 'Fergana hâkimiyeti (1494-1504)'" },
++
++{ t:"1538-10-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"], kapsam:"dis",
++  b:"Şirvanşahlar'ın sonu: Elkas Mirza Şâhruh'u esir aldı, Şirvan Safevî vilâyeti oldu",
++  gun:"Ekim 1538 (945 Cemâziyelevveli) — ay hassasiyeti", yer:"Şamahı, Bakü, Şâbüran, Kabala, Ereş, Mahmudâbâd, Salyan, Kuba — Şirvan", yer_id:"Şamahı",
++  kisiler:"Şah I. Tahmasb, Elkas Mirza, Şirvanşah Şâhruh", taraflar:["sirvansah","safevi"],
++  d:"Şah Tahmasb'ın gönderdiği Elkas Mirza Şirvan'ı yağmalayıp Baykurd Kalesi'ni zaptetti ve on beş yaşındaki Şirvanşah Şâhruh'u esir alarak Tebriz'e götürdü. Bölgede uzun süre hâkimiyetini sürdüren Şirvanşahlar idaresi böylece sona erdi; Şirvan Safevî Devleti'nin bir vilâyeti oldu.",
++  kaynak:"TDV sirvansahlar: 'Safevîler bölgeyi yağma edip 945 Cemâziyelevvelinde (Ekim 1538) Baykurd Kalesi’ni zaptettiler ve şiddetli savaşlardan sonra on beş yaşındaki Şâhruh’u esir alarak Tebriz’e götürdüler.' · TDV sirvan: 'Şah Tahmasb’ın 1538’de Şirvanşahlar’ın hâkimiyetine son vermesinin ardından bölge Safevî Devleti’nin bir vilâyeti haline geldi.'" },
++
+ ];

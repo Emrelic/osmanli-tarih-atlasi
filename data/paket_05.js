@@ -1127,7 +1127,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"sirvansah", ad:"Şirvanşahlar", tur:"devlet", bolge:"kafkasya",
-  f:"0861-01-01", t:"1538-01-01", baskent:"Şamahı",
+  f:"0861-01-01", t:"1538-10-01", baskent:"Şamahı",
   ozet:"Doğu Kafkasya'da uzun ömürlü yerel hanedan (hanedan ömrü); Arap fethi sonrası valilerden teşekkül etti, Şah Tahmasb'ın 1538'de hâkimiyetine son vermesiyle Safevî vilayeti oldu.",
   kaynak:"sirvan",
   kronoloji:[
@@ -2788,12 +2788,13 @@ window.DEVLETLER = [
     { t:"1899-01-01", tur:"son", b:"İngiliz Altın Kıyı himayesine katıldı" }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1401: TDV `gana` «XV. yüzyılda kuzeydeki Dagomba ve Mamprusîler’in kurduğu devletler takip etti». ⚠️ Britannica 'Dagomba' XIV. yy der (Z3) — ÇELİŞKİ, TDV esas (§4). Kronolojinin 1281 «teşekkül» maddesi kaynaksızdı.
 { id:"dagbon", ad:"Dagbon Krallığı (Dagomba)", tur:"krallik", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1899-01-01", baskent:"Yendi",
+  f:"1401-01-01", t:"1899-01-01", kesinlik:{f:"yuzyil"}, baskent:"Yendi",
   ozet:"Dagomba halkının Ya Naa unvanlı hükümdarlarca yönetilen krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Yendi.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Dagbon krallığı teşekkül etti" },
+    { t:"1401-01-01", tur:"kurulus", b:"Dagbon krallığı teşekkül etti" },
     { t:"1899-01-01", tur:"son", b:"İngiliz-Alman paylaşımıyla bölündü" }
   ,
     { t:"1416-01-01", tur:"hukumdar", b:"Naa Nyagsi tahta çıkıp Yani Dabari'de (Diyali/Tamale yakını) merkezî bir siyasi teşkilat kurarak Dagbon devletini istikrara kavuşturdu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Naa Nyagsi, 1416-1432) doğrulandı." }
@@ -3154,12 +3155,13 @@ window.DEVLETLER = [
     { t:"1903-01-01", tur:"vassal", b:"Mwezi Gisabo, Kiganda Antlaşması'nı imzalayarak Alman sömürge idaresine boyun eğdi", kaynak:"bulunamadı (TDV) — standart akademik kaynak; ay/gün kaynakta yok, YYYY-01-01. Çevrimiçi ikincil kaynaklarla doğrulandı." }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1501: Britannica 'Bunyoro' «flourished from the 16th to the 19th century» (Z3; UMIT'te 403). TDV `uganda` kuruluş tarihi VERMİYOR. Kronolojinin 1281 «kurdu» maddesi kaynaksızdı.
 { id:"bunyoro", ad:"Bunyoro-Kitara Krallığı", tur:"krallik", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1899-04-09", baskent:"Hoima",
+  f:"1501-01-01", t:"1899-04-09", kesinlik:{f:"yuzyil"}, baskent:"Hoima",
   ozet:"Bito hânedanının Kitara mirası üzerine kurduğu, Buganda'nın başlıca rakibi olan krallık. TDV uganda maddesine dayanır.",
   kaynak:"uganda — TDV gövdesi bu turda okundu. Bito hânedanı; Kabalega 1899'da esir alındı.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Bito hânedanı Bunyoro-Kitara'yı kurdu" },
+    { t:"1501-01-01", tur:"kurulus", b:"Bito hânedanı Bunyoro-Kitara'yı kurdu" },
     { t:"1899-04-09", tur:"son", b:"Kabalega esir alındı" }
   ,
     { t:"1869-01-01", tur:"hukumdar", b:"Mukama Kamurasi öldü, yerine oğlu Kabarega (Kabalega) geçti", kaynak:"TDV: uganda (bu turda okundu, birebir: Kamurasi'nin ölümü '1869'da' ve ardından oğlu Kabarega'nın yönetimine geçiş)." }
@@ -3554,12 +3556,13 @@ window.DEVLETLER = [
     { t:"1791-01-01", tur:"bolunme", b:"Hânedanın üçüncü hükümdarının ölümüyle konfederasyon fiilen dağıldı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Betsimisaraka confederation') doğrulandı. 🔴 ÇELİŞKİ: künyenin kendi 'son' tarihi 1817 — akademik kaynak dağılmayı 1791'e tarihliyor, 26 yıl ÖNCE. Künye sahibine bildiriliyor, t: gözden geçirilebilir." }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1401: Britannica 'Merina' «entered the central plateau of Madagascar in the 15th century and soon established a small kingdom» (Z3; UMIT'te 403). TDV `madagaskar` yalnız XVIII. yy birleşmesini tarihliyor. Kronolojinin 1281 «teşekkül» maddesi kaynaksızdı.
 { id:"merina-oncesi", ad:"İmerina Krallıkları (Merina birleşmesi öncesi)", tur:"krallik", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1787-01-01", baskent:"Ambohimanga",
+  f:"1401-01-01", t:"1787-01-01", kesinlik:{f:"yuzyil"}, baskent:"Ambohimanga",
   ozet:"Andrianampoinimerina'nın birleştirmesinden önce İmerina yaylasındaki rakip Merina krallıkları. TDV madagaskar maddesine dayanır.",
   kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: Merina — orta yaylalar, XVIII. yüzyılda birleşti. Mevcut `merina` künyesi 1787'de BAŞLIYOR; öncesi bu künyeye ait. Ambohimanga bu dönemin kutsal başkentidir.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"İmerina krallıkları teşekkül etti" },
+    { t:"1401-01-01", tur:"kurulus", b:"İmerina krallıkları teşekkül etti" },
     { t:"1787-01-01", tur:"son", b:"Andrianampoinimerina İmerina'yı birleştirdi" }
   ,
     { t:"1710-01-01", tur:"bolunme", b:"18. yüzyılda İmerina, dört rakip krallığa (Ambohimanga dahil) bölündü — Andrianampoinimerina'nın 1787'de başlayacak yeniden birleştirme hareketinden önceki son dönem", kaynak:"bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz, YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla (Britannica 'Merina') doğrulandı." }
@@ -5842,8 +5845,9 @@ window.DEVLETLER = [
     { t:"1572-01-01", tur:"son", b:"Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü", ic_not_b:"eski b: Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü (TDV imadsahiler)", kaynak:"TDV: imadsahiler — «Berâr, 1572’de bir defa daha Nizamşâhîler tarafından ilhak edilmek istendi. Vezir Tufâl Han bunun üzerine Bâbürlü Sultanı Ekber Şah’tan yardım talep etti. Murtazâ, Şah Ekber’in uyarısına rağmen Berâr topraklarına girdi. Böylece İmâdşâhî hânedanlığı sona ermiş oldu»" }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1301: Britannica 'Gondwana' «From the 14th to the 18th century the area was held by powerful Gond dynasties» (Z3; UMIT'te 403).
 { id:"gond-kralliklari", ad:"Gond Krallıkları (Garha-Mandla, Deogarh)", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1781-01-01", baskent:"Mandla", harita:"gond-kralliklari",
+  f:"1301-01-01", t:"1781-01-01", kesinlik:{f:"yuzyil"}, baskent:"Mandla", harita:"gond-kralliklari",
   ozet:"Orta Hindistan ormanlarında Gond kabile hânedanlarının kurduğu krallıklar; Râni Durgâvatî'nin direnişiyle anılır, Maratha yayılmasıyla son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6004,8 +6008,9 @@ window.DEVLETLER = [
     { t:"1887-01-01", tur:"son", b:"Üçüncü Anglo-Birman Savaşı'ndan sonra beylikler İngiliz himâyesine girdi" }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1353: künyenin KENDİ kronolojisi «1353 kurulus — Fa Ngum … Lan Xang'ı kurdu»; Britannica 'Lan Xang' «Date: 1353 - 1707» (Z3 okudu, UMIT'te 403). 1281-1353 Lao-Tai beylikleri künyesiz ⇒ __BOSLUK__.
 { id:"lan-xang", ad:"Lan Xang Krallığı (Laos)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1707-01-01", baskent:"Luang Prabang → Vientiane", harita:"lan-xang",
+  f:"1353-01-01", t:"1707-01-01", kesinlik:{f:"yil"}, baskent:"Luang Prabang → Vientiane", harita:"lan-xang",
   ozet:"Mekong boyunca kurulan, 'bir milyon fil' adıyla anılan Lao krallığı; veraset çekişmesiyle üçe bölünüp Laos krallıklarına dönüştü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6206,8 +6211,9 @@ window.DEVLETLER = [
     { t:"1001-01-01", tur:"diplomasi", b:"Butuan racalığı Song sarayına ilk haraç heyetini gönderdi", kaynak:"Scott 1994" }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1515: TDV `filipinler` «Maguindanao Sultanlığı’nı kurmuştur (tah. 1515)» · «Mindanao’da (1515)». Öncül: aynı cümle «datularla (yerli kabile reisleri)» ⇒ `filipin-racaliklari` (Butuan · Zamboanga emsali).
 { id:"magindanao-sultanligi", ad:"Magindanao Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1888-01-01", baskent:"Kotabato", harita:"magindanao-sultanligi",
+  f:"1515-01-01", t:"1888-01-01", kesinlik:{f:"onyil"}, baskent:"Kotabato", harita:"magindanao-sultanligi",
   ozet:"Mindanao'da İspanyol yayılmasına üç yüzyıl direnen müslüman sultanlık; Moro savaşlarının ardından İspanyol hâkimiyetini kabul etti. ⚠️ 10 Ağustos 2026 DÜZELTME: eski `kaynak:` alanı 'bulunamadı' diyordu — YANLIŞ YÖNLENDİRMEYMİŞ. `morolar` slug'ı canlı ama içi tek cümle/yönlendirme (klasik 'canlı slug, boş gövde' tuzağı); gerçek zengin kaynak `filipinler` maddesinin 'III. Ülkede İslâmiyet' bölümü (müellif İsmail Hakkı Göksoy) imiş — orada Magindanao'nun kuruluşu, Kudarat dönemi ve İspanyol savaşları ayrıntılı anlatılıyor.",
   kaynak:"filipinler (TDV, 'III. Ülkede İslâmiyet' bölümü, müellif İ.H. Göksoy)",
   kronoloji:[
@@ -7120,8 +7126,9 @@ window.DEVLETLER = [
     { t:"1830-09-27", tur:"son", b:"Dancing Rabbit Creek Antlaşması imzalandı: Choctaw, Mississippi ve Alabama'daki on milyon dönümlük topraklarını ABD'ye devredip Oklahoma'ya yerleşmeyi kabul etti — Kaldırma Yasası kapsamında yürürlüğe giren ilk antlaşma", kaynak:"bulunamadı (TDV yok) — BİRİNCİL BELGE emsalli standart akademik kaynak, GÜN hassasiyeti çevrimiçi kurumsal kaynaklarla (Encyclopedia of Alabama) doğrulandı. Künyenin kendi t: alanıyla BİREBİR eşleşiyor." }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1701: Britannica 'Creek' «During the 18th century a Muscogee confederacy was organized» (Z3; UMIT'te 403). Künyenin kendi kaynağı «kesin tarih yok».
 { id:"creek-konfederasyonu", ad:"Creek (Mvskoke) Konfederasyonu", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1832-03-24", baskent:"—",
+  f:"1701-01-01", t:"1832-03-24", kesinlik:{f:"yuzyil"}, baskent:"—",
   ozet:"Alt ve Yukarı Creek kasabalarının ortak meclisle yürüttüğü konfederasyon. Künyenin bitişi 1832 Cusseta Antlaşması'dır.",
   kaynak:"Standart akademik — savunma ittifakı olarak kuruldu, kesin tarih yok. Bitiş: Cusseta Antlaşması (nokta verisinde zaten bu tarih).",
   kronoloji:[
@@ -7142,8 +7149,9 @@ window.DEVLETLER = [
     { t:"1722-01-01", tur:"birlesme", b:"Tuscarora, altıncı üye ulus olarak Konfederasyona katıldı (Beş Ulus'tan Altı Ulus'a)", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı." }
   ]
 },
+// HAYALET-KUNYE-1008-K · f 1281 → 1501: künyenin KENDİ kaynağı (Encyclopedia Virginia) «Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi»; «atlas ufku 1281'e hizalandı» cümlesi kaynak değil. 1501 = yüzyıl ALT SINIRI (gerçek kuruluş yüzyılın sonu).
 { id:"powhatan", ad:"Powhatan Konfederasyonu (Tsenacomoco)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1646-10-01", baskent:"—",
+  f:"1501-01-01", t:"1646-10-01", kesinlik:{f:"yuzyil"}, baskent:"—",
   ozet:"Chesapeake körfezi çevresinde otuzdan fazla kasabayı bir başkanlık altında toplayan Tsenacomoco birliği; İngiliz Virginia kolonisiyle savaşları sonunda dağıldı.",
   kaynak:"Encyclopedia Virginia, 'Tsenacomoco (Powhatan Paramount Chiefdom)' — Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi, 1607'de 28-32 oymağı kapsıyordu; atlas ufku 1281'e hizalandı. Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).",
   kronoloji:[

@@ -627,7 +627,7 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 184   # 1 EKIM: 195 -> 191 -> 189 · 6 EKİM: 189 -> 186 -> 185
+BEKLENEN_ACIK_S = 183   # 9 EKIM (dalga 1): 184 -> 183 · DOGU-SAFEVI+EEK-DOGU-2-FARK+TEBRIZ-1514+DOGU-1533+MISIR-SENKRON+SABLON+HAYALET BIRLIKTE olculdu — IYILESME, §3.4-3 · ONCESI: 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184
 # 9 EKİM: 185 -> 184 (§3.4③ iyileşince tavan İNER, §3.4② sabitle AYNI commit).
 # KRONO-SENKRON-1008 MOSTAR yarısı: Hersek'in fethi 1466-01-01 maddesi indi ve
 # Mostar'ın kırılmasını kapattı. Ölçüm YAZMADAN HEMEN ÖNCE koşturuldu (§3.4⓪):
@@ -1710,7 +1710,7 @@ KAPANIS_2S = {"yer": 0, "yalniz_taraf": 0, "acik_kovada": 0,
 #   kapanışı toplamı AŞAR ⇒ alarm çalar.
 #   Ölçüm (yazmadan hemen önce, makine/umit ab2c57a4): görünür 1665 + maskeli 597 = 2262.
 #   ⚠️ Maskeli pay AYRI SATIRDA basılır — tavanın açtığı 597'lik pay SESSİZ KALMAZ (§3.4①).
-BEKLENEN_2S_YALNIZ_TARAF = 2251   # 9 EKİM: 2250 → 2251 · DIVRIGI-MEMLUK-1008 + EK (Darende/Behisni),
+BEKLENEN_2S_YALNIZ_TARAF = 2253   # 9 EKIM (dalga 1): 2251 -> 2253 · 🔴 BIRLESIK OLCUM, iki isci onerisinin HICBIRI degil: DOGU-SAFEVI 2242 (iyilesme) + DOGU-1533 2259 (yeni kapsam) onermisti, birlikte 2253 cikti (§3.4-0). YUKARI yon YENI KAPSAM, yeni kusur DEGIL: 4227 kapanisin 2117'si yalniz-taraf ile kapaniyor (once 2114). 2sk denetle.py'nin kendi ifadesiyle 'IHLAL DEGIL, BORC' — ACIK sayisini ve hukmu etkilemez
 # AYNI commit (§3.4②). Ölçüm yazmadan hemen önce (§3.4⓪): önce 2250 · sonra 2251. Yeni kalem
 # Darende'nin 1400 Dulkadir kazancı (kıtanın hipotezi; `--ayrinti` 2sk'yi tek tek BASMADIĞI için
 # teşhis edilemedi — bu bir KAPI KUSURU, §3.4⑤ "liste, sayı değil"; ayrı kalem açıldı).
@@ -2691,7 +2691,7 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 124   # 9 EKIM 2026: 126 -> 124 · IKI AYRI KALEM, BIRLIKTE olculdu (§3.4-0): HARPUT-DULKADIR-1009 (Harput artuklu 1353-1429 -> __BOSLUK__ 1353-1378 + dulkadir 1378-1429; artuklu kunyesi 1409'da bitiyordu) ve EEK-BALKAN-1009 (Herseknovi bosna 1463-1482 HAYALETI -> hersek) — ikisi de "126 -> 125" onermisti; birlikte inince 124 CIKTI, yani ayri kalemlermis. IYILESME, §3.4-3
+BEKLENEN_ASAN = 118   # 9 EKIM (dalga 1): 124 -> 118 · HAYALET-KUNYE-1008 (KOORD+EK+K) + DOGU-SAFEVI (Kars/Ardahan/Sarikamis akkoyunlu hayaleti, Kandehar timurlu) + MISIR-SENKRON + sirvansah kunyesi t 1538-01-01 -> 1538-10-01 — IYILESME, §3.4-3 · ONCESI: 126 -> 124 HARPUT-DULKADIR-1009 + EEK-BALKAN-1009 (iki ayri kalem, birlikte olculdu)
 # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
 # 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
 #   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).
@@ -2793,7 +2793,7 @@ ATLAS_BASI = "1281-01-01"
 #   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
 #   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
 #   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
-BEKLENEN_ONCE = 324   # 1 EKIM 2026 (gece): 317 -> 324 · KAPSAM GENISLEMESI, AF DEGIL
+BEKLENEN_ONCE = 326   # 9 EKIM (dalga 1): 324 -> 326 · DOGU-1533-0087, ADIYLA ve AYNI commit'te (§3.4-2). YUKARI yon: denetle.py'nin kendi uyarisi 'BU BIR KUSUR SAYISI DEGIL, BIR SORU SAYISIDIR — care cogu zaman kunyeyi GENISLETMEKTIR'. En buyuk kovalar zend 134 · adal 37 · napoli 24; yeni iki soru da ayni ailede. Kusur olarak kapatilmadi, SORU olarak sayildi · ONCESI: 1 EKIM 317 -> 324 KAPSAM GENISLEMESI
 # 🔴 +7'nin sebebi 4c ile AYNI: `degismez4` kimligi artik `id:` ∪ `harita:`
 #   ile cozuyor; once `harita:` takma adli donemler bu dala HIC girmiyordu.
 #   Yedisi (KASA olcumden ONCE bildirdi, birebir tuttu):
@@ -2835,7 +2835,7 @@ BEKLENEN_ONCE = 324   # 1 EKIM 2026 (gece): 317 -> 324 · KAPSAM GENISLEMESI, AF
 # 🔴 28 -> 6, 6 EYLÜL 2026 — aynı düzeltme. `4s` = `4c` ∩ `4d` KESİŞİMİ
 #   olduğu için en çok o daraldı: 14 dönem `4c`den çıkınca kesişimden de
 #   çıktı. Düşüşün büyüklüğü bir veri kaybı DEĞİL, kesişimin doğası.
-BEKLENEN_SARAN = 5   # 1 EKIM 2026: 6 -> 5, kunye genislemesiyle biri kapandi
+BEKLENEN_SARAN = 2   # 9 EKIM (dalga 1): 5 -> 2 · HAYALET-KUNYE-1008 ailesi uc sarmayi kapatti — IYILESME, §3.4-3. 4s AYRI KOVA DEGIL, 4c ∩ 4d kesisimi (4c yalniz 116 · 4d yalniz 324 · ikisi birden 2) · ONCESI: 1 EKIM 6 -> 5
 
 
 def degismez4(Y):

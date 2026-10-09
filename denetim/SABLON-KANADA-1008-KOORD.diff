@@ -1,0 +1,41 @@
+SABLON-KANADA-1008 — KOORD diff, UYGULANMADI. Temel: origin/makine/umit 7f63bcd9.
+Gün aralığı: 1649-03-16 → 1923-10-29 (yalnız 1281-1923 dilimi). 3 nokta: Kahnawake · Sainte-Marie-au-pays-des-Hurons · Ossossané.
+St. John's ve Tehuantepec DOKUNULMADI (HAYALET-KUNYE-1008-KOORD.diff kapsamında); Newfoundland noktalarına (Plaisance, Beothuk) dokunulmadı.
+
+diff --git a/data/yerlesimler_kamerika.js b/data/yerlesimler_kamerika.js
+index cda853f5..d0176fc2 100644
+--- a/data/yerlesimler_kamerika.js
++++ b/data/yerlesimler_kamerika.js
+@@ -950,8 +950,8 @@ window.YERLESIMLER_KAMERIKA = [
+     kaynak:"bulunamadı", not:"dayanak: Dictionary of Canadian Biography" },
+   { ad:"Kahnawake", tur:"sehir", lat:45.412, lon:-73.683, g:0,
+     kur:"1667-01-01",
+-    s:[{f:"1667-01-01",t:"1777-01-01",d:"haudenosaunee"},{f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+-    kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
++    s:[{f:"1667-01-01",t:"1777-01-01",d:"haudenosaunee"},{f:"1777-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian) · 1783 sonrası İngiliz yakası: Paris Antl. 3 Eyl 1783 md.2 (45. enlem / Iroquois-Cataraquy nehri hattının kuzeyi; Avalon Project, Yale) · 1867-07-01 gün komşudan: Montreal (Ville-Marie) · Kanada Konfederasyonu" },
+   { ad:"Saint John (NB)", tur:"sehir", lat:45.2916, lon:-66.0603, g:0,
+     kur:"1631-01-01",
+     s:[{f:"1631-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+@@ -965,8 +965,8 @@ window.YERLESIMLER_KAMERIKA = [
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
+   { ad:"Sainte-Marie-au-pays-des-Hurons", tur:"sehir", lat:44.683, lon:-79.75, g:0,
+     kur:"1639-01-01",
+-    s:[{f:"1639-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+-    kaynak:"bulunamadı", not:"dayanak: Trigger, The Children of Aataentsic (McGill-Queen's UP)" },
++    s:[{f:"1639-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    kaynak:"bulunamadı", not:"dayanak: Trigger, The Children of Aataentsic (McGill-Queen's UP) · 1649-1763 Yeni Fransa iddiası, 1763-02-10 / 1867-07-01 günleri komşudan: York (Toronto) · Fort Frontenac · 1783 sonrası İngiliz yakası: Paris Antl. 3 Eyl 1783 md.2 (Ontario-Erie-Huron gölleri hattının kuzeyi; Avalon Project, Yale)" },
+   { ad:"Halifax", tur:"sehir", lat:44.6486, lon:-63.5755, g:0,
+     kur:"1749-06-21",
+     s:[{f:"1749-06-21",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
+@@ -979,8 +979,8 @@ window.YERLESIMLER_KAMERIKA = [
+     s:[{f:"1634-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+     kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
+   { ad:"Ossossané", tur:"sehir", lat:44.5, lon:-79.933, g:0,
+-    s:[{f:"1281-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1783-09-03",d:"ingiltere"},{f:"1783-09-03",t:"1923-10-29",d:"abd"}],
+-    kaynak:"bulunamadı", not:"Huron Ayı boyunun ana kasabası · dayanak: Trigger, The Children of Aataentsic" },
++    s:[{f:"1281-01-01",t:"1649-03-16",d:"vendat"},{f:"1649-03-16",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}],
++    kaynak:"bulunamadı", not:"Huron Ayı boyunun ana kasabası · dayanak: Trigger, The Children of Aataentsic · 1649-1763 Yeni Fransa iddiası, 1763-02-10 / 1867-07-01 günleri komşudan: York (Toronto) · Fort Frontenac · 1783 sonrası İngiliz yakası: Paris Antl. 3 Eyl 1783 md.2 (Avalon Project, Yale)" },
+   { ad:"Deadwood (Kara Tepeler)", tur:"sehir", lat:44.377, lon:-103.729, g:0,
+     kur:"1876-01-01",
+     s:[{f:"1876-01-01",t:"1923-10-29",d:"abd"}],

@@ -1819,8 +1819,11 @@ window.YERLESIMLER_AMERIKA = [
 //         İngiltere'ye yazıldı, AÇIKÇA işaretli.
 // k gerekçesi: Onondaga konfederasyon merkezi k:2, dört üye millet k:1
 
+// HAYALET-KUNYE-1008-K · `powhatan` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Werowocomoco (Powhatan Konfederasyonu Başkenti)", tur:"sehir", lat:37.3939, lon:-76.6302, g:2, k:2,
-  s:[{f:"1281-01-01",t:"1646-10-01",d:"powhatan"},
+  s:[{f:"1281-01-01",t:"1501-01-01",d:"__BOSLUK__"},
+     {f:"1501-01-01",t:"1646-10-01",d:"powhatan"},
      {f:"1646-10-01",t:"1776-07-04",d:"ingiltere"},
      {f:"1776-07-04",t:"1923-10-29",d:"abd"}] },
 // kaynak: Helen C. Rountree, "Pocahontas's People" (1990). Necotowance Antlaşması (Ekim 1646,
@@ -1867,8 +1870,11 @@ window.YERLESIMLER_AMERIKA = [
 //         DEĞİL) — Louisiana/Florida Küba Genel Kaptanlığı üzerinden yönetildi.
 // k gerekçesi: teokratik şeflik başkenti — k:2
 
+// HAYALET-KUNYE-1008-K · `creek-konfederasyonu` künyesi 1701-01-01'de başlıyor (kesinlik yuzyil); 1281→1701-01-01 dilimi → `__BOSLUK__`.
+//   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)", tur:"sehir", lat:32.4699, lon:-84.9877, g:2, k:2,
-  s:[{f:"1281-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},
+  s:[{f:"1281-01-01",t:"1701-01-01",d:"__BOSLUK__"},
+     {f:"1701-01-01",t:"1832-03-24",d:"creek-konfederasyonu"},
      {f:"1832-03-24",t:"1923-10-29",d:"abd"}] },
 // kaynak: Hudson (1976); Encyclopedia of Alabama "Creeks in Alabama" — Cusseta Antlaşması
 //         (24 Mart 1832) hukuki devir tarihi (fiilî sürgün 1836-37).
