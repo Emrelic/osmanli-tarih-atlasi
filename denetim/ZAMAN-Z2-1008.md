@@ -5,6 +5,21 @@ Teslim: `ZAMAN-Z2-1008-APPJS.diff` (üç dosya tek diff, UYGULANMADI). **SÜRÜM
 (aşağıda §R2), temel `c69b890f`. Diff başlığı: dokunduğu GÜN ARALIĞI — arayüz kodu, veri değil; davranış yalnız
 `VERI_UFKU` DIŞINDA (1281-01-01 öncesi · 1923-10-29 sonrası) değişir, 1281–1923 arası çizim aynı (ölçek hariç).
 
+## §R5-EK — Sitenin adı "Tarih Atlası" (Emre, 9 Ekim: "tarih atlası daha doğru")
+Yalnız AD değişti; "Osmanlı" çekirdek katmanı anlatan metinlerde (lejant "Osmanlı doğrudan/tâbi", padişah kartı, kronoloji) KALDI.
+**Değişen yerler (adıyla):**
+1. `index.html` `<title>` — "Osmanlı Tarih Atlası" → **"Tarih Atlası"**
+2. `js/app.js` pencere başlığı damgası (`parcalar[0]`, `document.title`) → "Tarih Atlası · <gün> · …" (tarayıcıda ölçüldü:
+   "Tarih Atlası · 1500-01-01 · 40.00N 30.00E …")
+3. `js/app.js:2` dosya başlığı yorumu · damga açıklamasındaki örnek satır (yorum)
+
+**Taranıp DEĞİŞMEYENLER:** `<meta name="description">`, `og:`/`twitter:` paylaşım etiketleri ve görünen `<h1>` YOK (h1 Ağustos'ta
+silinmişti). `css/style.css`teki üç geçiş Emre'nin geçmiş sözlerinin alıntısı olan yorumlardır, tarih kaydı olarak bırakıldı.
+`arac/` (etiket.py · kutu_serit.py örnek yorumu · uret_donemler.py) benim dosyam değil; ekranda görünmüyor ve hiçbiri damgayı
+ayrıştırmıyor (tarandı). Yayın adresi/depo adı `osmanli-tarih-atlasi` bu diff'in konusu değil (GitHub ayarı, Emre).
+**Kapılar:** `node --check` ✓ · `denetle_arayuz` temiz · odak: SESSİZ 20 / OKUNMAYAN 1, sürüm 5 ile birebir · ufuk 5/5 ·
+tarayıcı hata 0.
+
 ## §R5 — Sürüm 5 (Emre'nin kararları, 9 Ekim) · temel `67e9ec9d` (SEFER-OKU-0087'nin 3 satırı dahil) · apply-check ✓ `dcd98f95`
 Diff başlığı GÜN ARALIĞI: ① 1923-11-01 sonrası (padişah kartı) · ② her tarih (statik metin) · ③ 1281–1923 içinde, madde
 sahnesi ve kırpma (veri değişmez) · ④ VERI_UFKU dışı.
