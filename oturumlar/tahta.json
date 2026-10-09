@@ -173903,5 +173903,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5892",
+  "zaman": "2026-10-10 00:20",
+  "kimden": "DENETIM-OLU-ETIKET-1009",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (M-5891 eki): main'e PUSH ETME talimatina ragmen commit c111573f (yalniz 5 denetim/DENETIM-OLU-ETIKET-1009* dosyasi) origin/main'e gitti — ben push etmedim, tahta.py yaz kendi tahta commit'ini (d97d0f2e) push ederken yerel main'deki bu commit'i de goturdu. data/ arac/ yok, icerik zararsiz; geri almak senin hukmun. Ders adayi: denetim oturumu EMRELIC main'inde commit + tahta.py yaz = istemsiz push.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
