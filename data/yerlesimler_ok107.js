@@ -52,7 +52,7 @@ window.YERLESIMLER_OK107 = [
   //   pencerelerine oturtuldu; ara halkalar (celayirli · karakoyunlu)
   //   TDV'de Cizre için ADIYLA geçmiyor, bölgesel (Bitlis · Mardin
   //   kayıtlarının aynı halkaları). Bu bir HİZALAMADIR, kaynak değil.
-  s:[{f:"1281-01-01",t:"1353-01-01",d:"ilhanli"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1261-01-01",t:"1353-01-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV cizre: 'Böylece Eyyûbîler ile Bedreddin Lü’lü’ün nüfuzu altına giren şehir 660’ta (1261-62) Moğol istilâsına uğradı.' · 'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI · ZAMAN-Z6-1008"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1515-09-19",t:"1920-04-23"}],
   v:[], kaynak:"cizre",
   bos:"veri-yok",
@@ -104,7 +104,7 @@ window.YERLESIMLER_OK107 = [
   //   🔴 VE BU, İLK TURDA ÇIKARIM OLAN 1462'Yİ KAYNAĞA BAĞLADI: o günü
   //     Siirt'in Akkoyunlu yılından TÜRETMİŞTİM ("iki şehir 60 km"), şimdi
   //     TDV onu Hasankeyf için ADIYLA söylüyor. Çıkarım → kaynak.
-  s:[{f:"1281-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1085-01-01",d:"buyuk-selcuklu",kaynak:"TDV hasankeyf: 'Nihayet Sultan Melikşah zamanında Selçuklular Mervânî hâkimiyetine son verip bölgedeki diğer şehirlerle birlikte burayı da aldılar (1085).' · ZAMAN-Z6-1008",t:"1102-01-01",kesinlik:"yil"},{f:"1102-01-01",d:"artuklu",kaynak:"TDV hasankeyf: 'Sökmen’in desteğiyle Çökürmüş’ü bozguna uğratan Mûsâ kısa bir süre sonra öldürülünce Sökmen Hasankeyf’e gidip şehri teslim aldı; böylece burada Artuklular’ın Hısnıkeyfâ kolu kurulmuş oldu (495/1102).' · ZAMAN-Z6-1008",t:"1232-01-01",kesinlik:"yil"},{f:"1232-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa",kaynak:"f 1281-01-01'den geri çekildi — TDV hasankeyf: 'Hasankeyf Artukluları’nın son emîri Mesud zamanında, Eyyûbî Hükümdarı el-Melikü’l-Kâmil Nâsırüddin Muhammed önce Âmid’i, daha sonra Hasankeyf’i zaptederek Artuklular’ın buradaki hâkimiyetine son verdi ve şehri oğlu el-Melikü’s Sâlih’in idaresine bıraktı (629/1232).' · ZAMAN-Z6-1008"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1517-05-01",t:"1920-04-23"}],
   v:[], kaynak:"hasankeyf",
   // ⚠️ 1517-05-01 BİR TABANDIR, ÖLÇÜLMÜŞ GÜN DEĞİL — açıkça yazıyorum.
@@ -466,7 +466,7 @@ window.YERLESIMLER_OK107 = [
   kaynak:"bulunamadı — TDV'de `kilkis` ve `avrathisar` maddesi YOK (iki slug da 302 ölçüldü). Dayanak TDV `gevgili` maddesi: \"1383'te Serez ile 1387'de Selânik'in fethi arasında Gynaikokastro (Avrathisar) ve çevresi Osmanlılar'ın eline geçmiş olmalıdır.\"" },
 
 { ad:"Vodina (Edessa)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.803, lon:22.047, k:3, m:null,
-  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1246-01-01",d:"epir-despotlugu",kaynak:"TDV vodina: 'İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı.' · ZAMAN-Z6-1008",t:"1251-01-01",kesinlik:"yil"},{f:"1251-01-01",d:"iznik-imparatorlugu",kaynak:"TDV vodina: 'İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti.' · kaynak '1251-1252' ARALIĞI verir; aralığın başı yazıldı (beyan) · ZAMAN-Z6-1008",t:"1261-07-25",kesinlik:{f:"yil",t:"gun"}},{f:"1261-07-25",t:"1345-01-01",d:"bizans",kaynak:"f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   v:[],
   d:[{f:"1387-01-01",t:"1402-07-28",kaynak:"vodina — 1386-1387 kışı (TDV: kuvvetli ihtimal; KPZ 1391, APZ Üsküp sonrası), YIL"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"vodina" },

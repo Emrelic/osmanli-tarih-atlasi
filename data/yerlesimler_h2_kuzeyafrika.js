@@ -84,7 +84,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   // TDV `sicilmase` — Tâfilelt'in kervan başkenti, Alevî hanedanının ocağı.
   { ad:"Sicilmâse (Tâfilelt)", tur:"sehir", lat:31.281, lon:-4.283, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Sa'dî hanedanının ilk merkezi (Sûs) — TDV `sus`.
   { ad:"Tarûdant", tur:"sehir", lat:30.471, lon:-8.877, g:0, k:3, m:null,

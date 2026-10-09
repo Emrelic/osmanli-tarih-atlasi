@@ -87,7 +87,7 @@ window.YERLESIMLER_EK27 = [
 //    1939. Nokta ekleniyor ki körfezin GÜNEY yakası temsil edilsin ve
 //    petek Çukurova'dan sarkmasın.
 { ad:"İskenderun",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"liman", lat:36.587, lon:36.173, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1098-06-03",d:"antakya-prinkipsligi",kaynak:"TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · Tankred zaptı 1097; prinkepslik künyesi 1098-06-03'te başladığından künye günü DEVRALINDI (1097-1098 Haçlı ordusu, künyesiz) — kaynaksız gün · ZAMAN-Z6-1008",t:"1268-01-01",kesinlik:{f:"gun",t:"yil"}},{f:"1268-01-01",t:"1516-08-24",d:"memluk",kaynak:"f 1281-01-01'den geri çekildi — TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · kaynak YIL verir (Antakya'nın düşüşü 18 Mayıs 1268 — TDV antakya; gün komşudan devralınMADI, yıl bırakıldı) · ZAMAN-Z6-1008"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 // 🔴 PAYAS BURADAN DUSURULDU (12 Agustos 2026, koordinator).

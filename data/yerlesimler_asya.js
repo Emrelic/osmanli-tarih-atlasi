@@ -229,14 +229,7 @@ window.YERLESIMLER_ASYA = [
 //     hükümdarı tahtta kaldı ama şehir Maratha'nındı. 11 Eylül 1803 Delhi
 //     Muharebesi'nden sonra saray İngiliz himayesine girdi.
 { ad:"Delhi", tur:"sehir", lat:28.6440, lon:77.2160, g:2, k:1,kd:[{f:"1281-01-01",t:"1857-09-21",k:1,m:"Delhi"}], d:[],
-  s:[{f:"1281-01-01", t:"1398-12-17", d:"delhi-sultanligi"},
-     {f:"1398-12-17", t:"1399-01-01", d:"timurlu",enklav:true},
-     {f:"1399-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
-     {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
-     {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
-     {f:"1555-07-23", t:"1788-01-01", d:"babur-imparatorlugu"},
-     {f:"1788-01-01", t:"1803-09-11", d:"maratha"},
-     {f:"1803-09-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+  s:[{f:"1192-01-01",d:"gurlu",kaynak:"TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1398-12-17",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1398-12-17",t:"1399-01-01",d:"timurlu",enklav:true},{f:"1399-01-01",t:"1526-04-21",d:"delhi-sultanligi"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1788-01-01",d:"babur-imparatorlugu"},{f:"1788-01-01",t:"1803-09-11",d:"maratha"},{f:"1803-09-11",t:"1923-10-29",d:"ingiliz-hindistani"}] },
 
 // Agra — Sikender Lodî 1504'te kurdu ve başkent yaptı; Bâbürlü başkenti
 // 1526-1648. kur: bu yüzden yazıldı, 1504 öncesi boşluk KASITLIDIR.
@@ -294,12 +287,7 @@ window.YERLESIMLER_ASYA = [
 // Koil (Aligarh) — Doâb'ın ortası. 1757-1803 arası Rohilla, Câtlar ve
 // Maratha arasında elden ele geçti; 4 Eylül 1803'te İngiliz'e düştü.
 { ad:"Koil (Aligarh)", tur:"kale", lat:27.8970, lon:78.0880, g:0, k:4, d:[],
-  s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
-     {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
-     {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
-     {f:"1555-07-23", t:"1784-01-01", d:"babur-imparatorlugu"},
-     {f:"1784-01-01", t:"1803-09-04", d:"maratha"},
-     {f:"1803-09-04", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+  s:[{f:"1194-01-01",d:"gurlu",kaynak:"TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · 'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · ardıl yapı; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1784-01-01",d:"babur-imparatorlugu"},{f:"1784-01-01",t:"1803-09-04",d:"maratha"},{f:"1803-09-04",t:"1923-10-29",d:"ingiliz-hindistani"}] },
 
 // Etâve (Etawah) — Yamuna-Ganj arası. 1801'de Avad nevâbı tarafından
 // İngilizlere devredilen "Ceded Districts" içindedir.
@@ -445,13 +433,7 @@ window.YERLESIMLER_ASYA = [
 // erken evresi). Ranjit Singh Lahor'a 7 Temmuz 1799'da girdi.
 
 { ad:"Lahor", tur:"sehir", lat:31.5490, lon:74.3430, g:2, k:2,kd:[{f:"1801-04-12",t:"1849-03-29",k:1,m:"Lahor"}], d:[],
-  s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
-     {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
-     {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
-     {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
-     {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
-     {f:"1765-04-16", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+  s:[{f:"1013-01-01",d:"gazneli",kaynak:"TDV lahor: 'Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.' · kaynak '1013-1014' ARALIĞI; başı yazıldı · ZAMAN-Z6-1008",t:"1186-01-01",kesinlik:"yil"},{f:"1186-01-01",d:"gurlu",kaynak:"TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1752-04-01",d:"babur-imparatorlugu"},{f:"1752-04-01",t:"1765-04-16",d:"afgan-durrani"},{f:"1765-04-16",t:"1849-03-29",d:"sih-imparatorlugu"},{f:"1849-03-29",t:"1923-10-29",d:"ingiliz-hindistani"}] },
 
 // Multan — 1445-1528 arası Langah hânedanının bağımsız sultanlığıdır
 // (TDV MULTAN). 1528'de Şah Hüseyin Erguni aldı, 1557'de Bâbürlü'ye geçti.
@@ -673,11 +655,7 @@ window.YERLESIMLER_ASYA = [
 // 1559'da aldı, 1818'de Maratha'dan İngilizlere geçti ve prens devleti
 // olmadı. Bu yüzden zinciri komşularından ayrılır.
 { ad:"Ecmîr (Ajmer)", tur:"sehir", lat:26.4500, lon:74.6390, g:1, k:3, d:[],
-  s:[{f:"1281-01-01", t:"1365-01-01", d:"delhi-sultanligi"},
-     {f:"1365-01-01", t:"1559-01-01", d:"racput"},
-     {f:"1559-01-01", t:"1756-01-01", d:"babur-imparatorlugu"},
-     {f:"1756-01-01", t:"1818-06-25", d:"maratha"},
-     {f:"1818-06-25", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+  s:[{f:"1192-01-01",d:"gurlu",kaynak:"TDV ecmir: 'Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.' · fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi) · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1365-01-01",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV ecmir: 'Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.' · Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil · ZAMAN-Z6-1008"},{f:"1365-01-01",t:"1559-01-01",d:"racput"},{f:"1559-01-01",t:"1756-01-01",d:"babur-imparatorlugu"},{f:"1756-01-01",t:"1818-06-25",d:"maratha"},{f:"1818-06-25",t:"1923-10-29",d:"ingiliz-hindistani"}] },
 
 // Çitor (Chittorgarh) — Mevar'ın kalesi ve Hint tarihinin üç büyük
 // kuşatmasının sahnesi: Alâeddin Halacî 26 Ağustos 1303, Gucerât sultanı
@@ -2415,14 +2393,7 @@ window.YERLESIMLER_ASYA = [
 // gerekçesi budur.
 
 { ad:"Kaşgar", tur:"sehir", lat:39.4700, lon:75.9900, g:1, k:2,kd:[{f:"1865-01-01",t:"1878-03-16",k:1,m:"Kaşgar"}], d:[],
-  s:[{f:"1281-01-01", t:"1347-01-01", d:"cagatay"},
-     {f:"1347-01-01", t:"1514-01-01", d:"mogulistan"},
-     {f:"1514-01-01", t:"1705-01-01", d:"yarkent-hanligi"},
-     {f:"1705-01-01", t:"1759-01-01", d:"cungar"},
-     {f:"1759-01-01", t:"1864-06-04", d:"qing-hanedani"},
-     {f:"1864-06-04", t:"1877-12-17", d:"yakub-beg"},
-     {f:"1877-12-17", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+  s:[{f:"1218-01-01",d:"mogol-imparatorlugu",kaynak:"TDV kasgar: 'Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.' · 1130 Karahıtay zaptı ('iki yıl sonra' — türetilmiş yıl) ile 1218 arası Küçlüg dönemi tarihsiz · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1347-01-01",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV kasgar: 'Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1347-01-01",t:"1514-01-01",d:"mogulistan"},{f:"1514-01-01",t:"1705-01-01",d:"yarkent-hanligi"},{f:"1705-01-01",t:"1759-01-01",d:"cungar"},{f:"1759-01-01",t:"1864-06-04",d:"qing-hanedani"},{f:"1864-06-04",t:"1877-12-17",d:"yakub-beg"},{f:"1877-12-17",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
 
 { ad:"Yarkent (Şaçe)", tur:"sehir", lat:38.4160, lon:77.2430, g:1, k:2,kd:[{f:"1514-01-01",t:"1705-01-01",k:1,m:"Yarkent (Şaçe)"}], d:[],
   s:[{f:"1281-01-01", t:"1347-01-01", d:"cagatay"},

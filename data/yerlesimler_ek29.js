@@ -590,9 +590,7 @@ window.YERLESIMLER_EK29 = [
 // eklendi (1516-09-27→1521-01-01, Harfûş ailesinin fiilen yerleşmesine
 // kadar). Harfûşoğulları künyesinin kendi f:'i (1521-01-01) DEĞİŞMEDİ.
 { ad:"Ba'lebek (Baalbek)", tur:"kasaba", lat:34.0059, lon:36.2181, g:0, k:3, m:"Şam",
-  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},
-     {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
-     {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1260-01-01",d:"ilhanli",kaynak:"TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · Moğol = Hülâgû'nun Suriye seferi (İlhanlı). 1174 Selâhaddin · 1182-1230 Behram Şah · 1230 el-Eşref tanıklıkları Eyyûbî kol eşlemesi tarihsiz olduğundan YAZILMADI · ZAMAN-Z6-1008",t:"1260-09-03",kesinlik:{f:"yil",t:"gun"}},{f:"1260-09-03",t:"1516-09-27",d:"memluk",kaynak:"f 1281-01-01'den geri çekildi — TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR) · ZAMAN-Z6-1008"},{f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   v:[{f:"1521-01-01",t:"1850-01-01",statu:"özerk",kid:"harfusogullari"}],
   d:[{f:"1516-09-27",t:"1521-01-01"},{f:"1850-01-01",t:"1918-10-08"}],
   kaynak:"TDV `balebek` (gövdesi okundu, `baalbek` slug'ı ona yönlendiriyor — §4② tuzağı): '1516'da Yavuz Sultan Selim'in Suriye seferi sırasında Osmanlı hâkimiyetine geçti... küçük beylerin, özellikle Harfûş ailesinin elinde kaldı' · '1850'de Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı'. Fetih günü Şam/Mercidabık (1516-09-27, komşu emsali) ile hizalandı; Harfûş hâkimiyeti künyenin kendi f:'i (1521-01-01, Canbirdi Gazâlî isyanı sonrası) ile başlıyor." },

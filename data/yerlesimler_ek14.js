@@ -113,7 +113,7 @@ window.YERLESIMLER_EK14 = [
 // 🔴 DOSYANIN EN ÖNEMLİ İKİ KAYDI. Semerkant 1370-1500 arası Timurlu
 //    başkenti, 1500-1868 arası Özbek hanlarının; ikisi de haritada YOKTU.
 { ad:"Semerkant", tur:"sehir", lat:39.6542, lon:66.9758, g:0, k:2, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1868-05-14","d":"buhara"},{"f":"1868-05-14","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{f:"1220-01-01",d:"mogol-imparatorlugu",kaynak:"TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · 1074/1089 Melikşah hâkimiyeti (Karahanlı tâbiiyeti) kopuk · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · Moğol İmparatorluğu → Çağatay ardıl yapı; cagatay künye günü (1227-01-01) devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Buhara Emirliği 1868'de Rus himayesine girdi ama ILGA EDİLMEDİ —
 // hanlık 1920'ye kadar ayrı bir devlet olarak durdu. Semerkant'ın 1868'de

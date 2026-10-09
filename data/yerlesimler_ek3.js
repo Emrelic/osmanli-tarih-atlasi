@@ -30,7 +30,7 @@ window.YERLESIMLER_EK3 = [
 // 📌 Gün yok, yıl var ⇒ `YYYY-01-01` (ev kuralı). Zaten üçü de s:→s:
 //    geçişi olduğu için KIRILMA ÜRETMİYOR — Değişmez 2 borcu sıfır.
 { ad:"Sebte (Ceuta)", tur:"liman", lat:35.889, lon:-5.318, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1415-01-01",d:"merini"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz",enklav:true},{f:"1581-04-16",t:"1923-10-29",d:"ispanya",enklav:true}] },
+  s:[{f:"1273-01-01",t:"1415-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sebte: 'Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.' · 1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk · ZAMAN-Z6-1008"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz",enklav:true},{f:"1581-04-16",t:"1923-10-29",d:"ispanya",enklav:true}] },
 
 // 🔴 BU PARTİNİN EN ZAYIF KAYDI — ve zayıflığı burada yazılı.
 // TDV'de `melile` slug'ı ÖLÜ, müstakil madde YOK. Arama içeriklerinde
