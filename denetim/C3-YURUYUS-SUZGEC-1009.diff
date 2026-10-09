@@ -1,0 +1,146 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index b809c618..de24ea5c 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -1176,6 +1176,99 @@ if MOTOR_YURUYUS:
+ if YURUYUS_16:
+     print("  🚶 MOTOR_YURUYUS_16=1 — Dijkstra 16 komşulu (at hamlesi).")
+ 
++# ═══ 🦷 YÜRÜYÜŞ DİŞ SÜZGECİ — C3 (9 Ekim 2026 · denetim/C3-YURUYUS-SUZGEC-1009.md) ═══
++# TEŞHİS (GORUNTU-0085 H-0011 Sivas · DOGU-ANADOLU-0085 §10 H-0003 Iğdır): eğim
++# sürtünmeli Dijkstra'da iki tohum uzak olunca eşit-maliyet cephesi vadilere PARMAK
++# PARMAK girer. Dişler 1-2 hücre (0,05-0,10°) enli, 15-50 km boyunda; `YURUYUS_SADE`
++# (1 hücre) onları silemez. Bu, ızgara ölçeğinde bir ARTEFAKTTIR.
++# ÇARE: `_YR_SAHIP` (yerleşim-indisi etiketli, GÜNDEN BAĞIMSIZ) poligonlaştırmadan
++# ÖNCE süzülür. Bir hücre YALNIZ şu beşi birden tutarsa komşu sahibe geçer:
++#   ① geçerli (kara + erişilmiş: etiket ≥ 0) — deniz/maske dışı ASLA değişmez
++#   ② tohum hücresi değil (Değişmez 1: yerleşimin kendi yeri kesilmez)
++#   ③ İNCE: kendi etiketinin hiçbir 3×3 tekdüze penceresine girmiyor (3×3 açılmanın
++#      dışı) ⇒ ≥ 3 hücre enli çıkıntı ve büyük bölgenin köşesi DOKUNULMAZ
++#   ④ 8 komşusunun ≥ YURUYUS_DIS_ESIK'i TEK bir başka sahip — deniz, maske dışı ve
++#      boğaz-yasaklı (`_KVSU`) komşu OY VERMEZ ⇒ kıyıya yaslanan ince şerit, yarımada,
++#      kıstak, boğaz kıyısı ÇEVRİLEMEZ (çoğunluk denizle kurulamaz)
++#   ⑤ BASİT NOKTA: kendi etiketli komşuları 8'li halkada ≤ 1 kesintisiz dizi ⇒
++#      çevirmek kendi bölgesini BÖLEMEZ; iki gövdeyi bağlayan 1 enli boyun KALIR,
++#      ölü uçlu diş UCUNDAN yenir
++# Dört alt alan (satır/sütun paritesi) sırayla işlenir: aynı alt alandaki hücreler
++# 8-komşu değildir, eşzamanlı çevirme topolojiyi bozamaz. En çok YURUYUS_DIS_TUR tur.
++# 🔴 SABİTİN DEĞİŞMESİ TUZU DEĞİŞTİRİR (uret_petek.py özeti `_MOTOR_IZI`de) ⇒ tam
++#    yeniden inşa. Ortamdan kapatma (`MOTOR_YURUYUS_DIS_KAPALI=1`) da tuza girer
++#    (`MOTOR_*` ortamı `_ONB_TUZ`ta). Kapatmak her iki yoldan da BEDAVA DEĞİLDİR.
++# Sınav (motor koşturmadan, işlevi AST ile çeker):
++#   py denetim/ARAC-C3-YURUYUS-SUZGEC-SINAV-1009.py
++YURUYUS_DIS_SUZGECI = True
++if os.environ.get("MOTOR_YURUYUS_DIS_KAPALI") == "1":
++    YURUYUS_DIS_SUZGECI = False
++YURUYUS_DIS_TUR = 10       # tur üst sınırı — ölü uçlu ince dilden yenebilecek boyu sınırlar
++YURUYUS_DIS_ESIK = 5       # 8 komşudan en az bu kadarı TEK bir başka sahip olmalı
++# 8'li halka, döngüsel sırada (ardışık iki öğe 4-komşudur). (di, dj) = (sütun, satır)
++# — `_KV_YON` ile AYNI sözleşme.
++_YR_DIS_HALKA = ((0, 1), (1, 1), (1, 0), (1, -1), (0, -1), (-1, -1), (-1, 0), (-1, 1))
++
++
++def _yr_dis_suzgec(sahip, tohum, yasak=None, tur=10, esik=5):
++    """🦷 Yürüyüş sahiplik ızgarasının diş süzgeci — SAF işlev (küresel okumaz).
++
++    sahip : ny×nx int — hücre sahibi (yerleşim indisi), < 0: karar yok / deniz
++    tohum : ny×nx bool — tohum hücreleri (asla değişmez)
++    yasak : None ya da 1-B int64 dizisi, öğe = düz_indis*8 + halka_yönü
++            (`_YR_DIS_HALKA` sırası) — o komşu bu hücre için OY VERMEZ ve
++            "kendi" sayılmaz (boğaz yasağı: suyu atlayan komşuluk)
++    Döner: (yeni_sahip, tur_başına_değişen_listesi). Girdi DEĞİŞTİRİLMEZ.
++    """
++    import numpy as np
++    from scipy import ndimage as ndi
++    S = np.asarray(sahip, dtype=np.int32)
++    ny, nx = S.shape
++    R = _YR_DIS_HALKA
++    W = np.pad(S, 1, constant_values=-1)
++    gec = S >= 0
++    tek = gec.copy()                     # c merkezli 3×3 pencere tekdüze ve geçerli
++    for dj in (-1, 0, 1):
++        for di in (-1, 0, 1):
++            tek &= W[1 + dj:1 + dj + ny, 1 + di:1 + di + nx] == S
++    kalin = ndi.binary_dilation(tek, structure=np.ones((3, 3), dtype=bool))
++    aday = gec & ~kalin & ~np.asarray(tohum, dtype=bool)
++    jj, ii = np.nonzero(aday)
++    sayim = []
++    if not len(jj):
++        return S.copy(), sayim
++    aktif = np.ones(len(jj), dtype=bool)
++    yasak = None if yasak is None or len(yasak) == 0 else np.asarray(yasak, dtype=np.int64)
++    for _ in range(int(tur)):
++        n_tur = 0
++        for pj, pi in ((0, 0), (0, 1), (1, 0), (1, 1)):
++            sel = np.nonzero(aktif & (jj % 2 == pj) & (ii % 2 == pi))[0]
++            if not len(sel):
++                continue
++            cj, ci = jj[sel] + 1, ii[sel] + 1
++            a = W[cj, ci]
++            N = np.stack([W[cj + dj, ci + di] for (di, dj) in R], axis=1)
++            if yasak is not None:
++                h8 = ((cj - 1).astype(np.int64) * nx + (ci - 1)) * 8
++                Y = np.stack([np.isin(h8 + k, yasak) for k in range(8)], axis=1)
++                N = np.where(Y, -1, N)
++            own = N == a[:, None]
++            dizi = (own & ~np.roll(own, 1, axis=1)).sum(axis=1)
++            cnt = (N[:, :, None] == N[:, None, :]).sum(axis=2)
++            okb = (N >= 0) & ~own & (cnt >= esik)
++            cev = okb.any(axis=1) & (dizi <= 1)
++            if not cev.any():
++                continue
++            k = okb.argmax(axis=1)
++            b = N[np.arange(len(sel)), k]
++            W[cj[cev], ci[cev]] = b[cev]
++            aktif[sel[cev]] = False
++            n_tur += int(cev.sum())
++        sayim.append(n_tur)
++        if n_tur == 0:
++            break
++    return W[1:-1, 1:-1].copy(), sayim
++
+ # ---------------- KARA-KISITLI SAHİPLİK ----------------
+ # Ada kuralı KARA BİLEŞENİ bazlıdır ve Afrika ile Avrasya Sina üzerinden TEK
+ # bileşendir; bu yüzden Oran'ın peteği İspanya anakarasına geçebiliyordu. Kural
+@@ -1854,6 +1947,41 @@ if MOTOR_YURUYUS:
+     _YR_BUTCE = YURUYUS_SAAT * NEHIR_KM_SAAT          # km-eşdeğeri (MENZIL ②)
+     _yr_u = _np.fromiter(_kvuzak, dtype=_np.float32, count=_yr_n).reshape(_kvny, _kvnx)
+     _YR_SAHIP = _np.fromiter(_kvsahip, dtype=_np.int32, count=_yr_n).reshape(_kvny, _kvnx)
++    if YURUYUS_DIS_SUZGECI:
++        # 🦷 C3 — diş süzgeci (tanım ve gerekçe: `_yr_dis_suzgec`). `_kvsahip`
++        #    (liste) DOKUNULMAZ: BTB ayrışma sınavı ve `_kv_bilesen` onu okur.
++        #    `_yr_u` (bedel) de dokunulmaz: bütçe konturu sahipten bağımsızdır.
++        _dis_t = time.time()
++        _dis_tohum = _np.zeros(_yr_n, dtype=bool)
++        _dis_tohum[_np.fromiter(_kvtohum.keys(), dtype=_np.int64)] = True
++        _dis_yon = {d: k for k, d in enumerate(_YR_DIS_HALKA)}
++        _dis_yasak = _np.array(sorted(
++            (_e // _KV_YS) * 8 + _dis_yon[_KV_YON[_e % _KV_YS]]
++            for _e in _KVSU if _KV_YON[_e % _KV_YS] in _dis_yon), dtype=_np.int64)
++        _dis_once = _YR_SAHIP
++        _YR_SAHIP, _dis_sayim = _yr_dis_suzgec(
++            _YR_SAHIP, _dis_tohum.reshape(_kvny, _kvnx), _dis_yasak,
++            YURUYUS_DIS_TUR, YURUYUS_DIS_ESIK)
++        _dis_D = _dis_once != _YR_SAHIP
++        if bool((_YR_SAHIP[_dis_D] < 0).any()) or bool((_dis_once[_dis_D] < 0).any()):
++            raise SystemExit("🦷 DİŞ SÜZGECİ: geçersiz hücre değişti — koşu durduruldu.")
++        _dis_er = int((_dis_once >= 0).sum())
++
++        def _dis_pen(x0, x1, y0, y1):
++            _i0 = max(0, int((x0 - _kvx0) / KV_ADIM)); _i1 = min(_kvnx, int((x1 - _kvx0) / KV_ADIM) + 1)
++            _j0 = max(0, int((y0 - _kvy0) / KV_ADIM)); _j1 = min(_kvny, int((y1 - _kvy0) / KV_ADIM) + 1)
++            return int(_dis_D[_j0:_j1, _i0:_i1].sum()) if _i1 > _i0 and _j1 > _j0 else -1
++        print(f"  🦷 DİŞ SÜZGECİ: değişen hücre {int(_dis_D.sum()):,} / erişilen "
++              f"{_dis_er:,} (%{100.0 * _dis_D.sum() / max(1, _dis_er):.3f}) · tur "
++              f"{_dis_sayim} · yasak kenar {len(_dis_yasak):,} · "
++              f"H-0011 Sivas pen. {_dis_pen(35.0, 38.5, 38.8, 40.6)} · "
++              f"H-0003 Iğdır pen. {_dis_pen(43.3, 44.8, 39.3, 40.2)} · "
++              f"{time.time() - _dis_t:.1f} sn  (ÖNGÖRÜ: %0,05-0,5 · Sivas 20-150 · "
++              f"Iğdır 10-80 — denetim/C3-YURUYUS-SUZGEC-1009.md §0)")
++        del _dis_once, _dis_D, _dis_tohum, _dis_yasak
++    else:
++        print("  🦷 DİŞ SÜZGECİ KAPALI (YURUYUS_DIS_SUZGECI=False / "
++              "MOTOR_YURUYUS_DIS_KAPALI=1)")
+     _yr_kara = _np.frombuffer(bytes(_kvkara), dtype=_np.uint8).reshape(_kvny, _kvnx) > 0
+     _yr_R = _yr_kara & (_YR_SAHIP >= 0)               # ızgaranın ERİŞTİĞİ kara
+     _yr_U = _yr_kara & ~_yr_R                         # tohumsuz bileşen / kaydırılamamış tohum
