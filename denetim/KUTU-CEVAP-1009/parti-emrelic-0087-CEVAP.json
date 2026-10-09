@@ -1,0 +1,157 @@
+{
+ "damga": "2026-10-09 23:15",
+ "cevap_tarihi": "2026-10-09",
+ "paket": "parti-emrelic-0087",
+ "cevaplayan": "KUTU-CEVAP-1009 (UMIT derleme işçisi) · hükümler: DOGU-ANADOLU · CELAYIRLI · GORUNTU-0085 · TUNA-BALKAN · DENIZ-OKU · DIVRIGI-MEMLUK · ARTUKLU-IKI-PARCA · EEK-DOGU · EEK-BALKAN · KRONO-SENKRON · DOGU-SAFEVI · EEK-DOGU-2 · BOSNA-MACAR · BERKA · GORUNTU-0087 · SEFER-OKU · TEBRIZ-1514 · DOGUBEYAZIT · DOGU-1533 · MISIR-SENKRON · HAVVA-H0008",
+ "madde_sayisi": 24,
+ "hukum_dagilimi": {
+  "cozuldu": 9,
+  "kosu-bekliyor": 13,
+  "zaten-dogru": 2
+ },
+ "not": "Hükümler 9 Ekim 2026 gecesi atlas çalışma kayıtlarından (C:/atlas-umit/denetim/*.md) ve origin/main commit'lerinden DERLENDİ; yeni ölçüm yapılmadı. Kural: veri main'e indi ama etkisi harita görüntüsünde ⇒ kosu-bekliyor (bu gecenin tam inşa koşusu henüz yapılmadı) · kronoloji/ok/arayüz main'e indi ⇒ cozuldu · motor yaması önerildi ama yazılmadı ⇒ sirada. Her maddenin `kaynak_rapor` alanı dayanağı gösterir.",
+ "maddeler": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "Haklıydın: Şahkulu oku gerçek bir sefer değildi, iki isyan işaretinden üretilip 13 ay haritada kalıyordu. Ok kaldırıldı, isyan işaretleri yerinde. İndi: cefc73bb, yayında (r11995).",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md",
+   "commit": "cefc73bb DALGA 4 INDI"
+  },
+  "H-0002": {
+   "hukum": "zaten-dogru",
+   "not": "Belli ve harita doğru: TDV selim-i 'İzmit'ten Konya'ya, oradan Kayseri üzerinden Sivas'a', caldiran-savasi 'Yenişehir, Seyitgazi ve Konya üzerinden'. Konya geçişi kaynaklı.",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md"
+  },
+  "H-0003": {
+   "hukum": "kosu-bekliyor",
+   "not": "Dört parçadan üçü gerçek: Tebriz 9 gün tutuldu (TDV selim-i), Kemah 9 ay direndi, Siirt'i Halil Bey kendisi aldı — aradakiler gerçekten alınmamıştı. Tek gerçek hata Doğubayazıt'tı (8584cfce). Açıklama notları 658a7552'de indi. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/TEBRIZ-1514-0087.md",
+   "commit": "8584cfce DOGUBEYAZIT-0087 INDI"
+  },
+  "H-0004": {
+   "hukum": "kosu-bekliyor",
+   "not": "Matematiği: Ağrı ovasında (Eleşkirt, Diyadin, Patnos, Malazgirt…) hiç nokta yok, bütün ova en yakın nokta Doğubayazıt'ın peteğine emiliyor. Ayrıca Doğubayazıt'ın 1514 Osmanlılığı veri hatasıydı, 1534-06-23'e çekildi: 8584cfce. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor. Ovaya nokta ekleme ayrı kalem.",
+   "kaynak_rapor": "denetim/DOGUBEYAZIT-0087.md",
+   "commit": "8584cfce DOGUBEYAZIT-0087 INDI"
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "Mısır seferi oku artık 9 basamakta ordu ile ilerliyor (her basamak bir madde günü) ve güzergâh TDV istasyonlarına göre düzeltildi. İndi: cefc73bb, yayında. Ek: ok kendi son gününün sonunda kayboluyor (be5cc3c0, sürüm damgası koşu commit'inde).",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md",
+   "commit": "cefc73bb DALGA 4 INDI"
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "H-0005 ile aynı iş: Mısır seferi oku kademeli, ordu nereye vardıysa ok oraya kadar çiziliyor. İndi: cefc73bb.",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md",
+   "commit": "cefc73bb DALGA 4 INDI"
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "Haklıydın: 1515-01-01 maddesi yanlış yıla düşen bir mükerrerdi (TDV nusaybin '921 sonları'). Silindi; değişimi haritayla aynı gündeki 19 Eylül 1515 maddesi taşıyor. İndi: 658a7552.",
+   "kaynak_rapor": "denetim/MISIR-SENKRON-0087.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0008": {
+   "hukum": "kosu-bekliyor",
+   "not": "Animasyon boştu çünkü Süveyş noktası 15 Şubat'ta, madde 22 Ocak'taydı. Kahire'nin el değiştirme günü 24 Ocak'a (TDV selim-i: Osmanlı birliklerinin girişi) çekildi, Süveyş ve madde de 24 Ocak. İndi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/MISIR-SENKRON-0087.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0009": {
+   "hukum": "kosu-bekliyor",
+   "not": "H-0008 ile aynı madde, aynı düzeltme (658a7552). Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/MISIR-SENKRON-0087.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0010": {
+   "hukum": "zaten-dogru",
+   "not": "Harita doğru: Kudüs padişahın gelişinden önce, muhtemelen Ekim 1516'da Osmanlı'ya geçti (TDV kudus). El değiştirme 1 Ekim 1516 maddesinde; 29 Aralık maddesi padişahın ziyareti.",
+   "kaynak_rapor": "denetim/MISIR-SENKRON-0087.md"
+  },
+  "H-0011": {
+   "hukum": "cozuldu",
+   "not": "Gazze 21 Aralık 1516 Hanyûnus çatışmasından beri öncü kuvvetteydi (TDV ridaniye-savasi); padişah 2 Ocak'ta girdi. 2 Ocak maddesinden yanıltıcı 'toprak kazancı' etiketi kaldırıldı, metne açıklama eklendi: 658a7552.",
+   "kaynak_rapor": "denetim/MISIR-SENKRON-0087.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0012": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hata vardı: Kahire noktası 15 Şubat'ı (padişahın törenle girişi) taşıyordu. Osmanlı birliklerinin girişi 24 Ocak (TDV selim-i/ridaniye-savasi) ⇒ çekildi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/MISIR-SENKRON-0087.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "not": "Rodos deniz oku ikiye ayrıldı (donanma deniz yolundan + padişahın kara kolu); kara üstü 231 km'den 2 km'ye indi. İndi: cefc73bb, yayında.",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md",
+   "commit": "cefc73bb DALGA 4 INDI"
+  },
+  "H-0014": {
+   "hukum": "kosu-bekliyor",
+   "not": "Kama motor geometrisi (Osmanlı ve Kanem-Bornu gövdeleri üst üste) ama tetikleyen veriydi: Berka'daki 1517 Osmanlı kayıtları kaynaksız kopyaydı. Berka 1281-1551 kasıtlı boşluk, Osmanlı 1551'den: f6ff142d. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/GORUNTU-0087.md · denetim/BERKA-0087.md",
+   "commit": "f6ff142d DALGA 2 INDI"
+  },
+  "H-0015": {
+   "hukum": "kosu-bekliyor",
+   "not": "Doğru değildi: Berka'da dört ayrı statü yan yana duruyordu, üç TDV maddesi üç ayrı şey söylüyor. Koordinatör kararı: 1551'e kadar kasıtlı boşluk (sahibi kaynakta yok), Osmanlı 1551-08-15'ten: f6ff142d. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor. Derne ve Câlû için ikinci kaynak araştırması açık.",
+   "kaynak_rapor": "denetim/GORUNTU-0087.md · denetim/BERKA-0087.md",
+   "commit": "f6ff142d DALGA 2 INDI"
+  },
+  "H-0016": {
+   "hukum": "kosu-bekliyor",
+   "not": "Sava şeridinin görüntüsü doğru: Bosna Brodu ve Jasenovaç Yayça/Banaluka'dan sonra alındı. Ama günleri 1538 yerine 1536 (komşudan alınmıştı; HE kaynakları) ve müstakil 1536 maddesi eklendi: f6ff142d. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/BOSNA-MACAR-0087.md §H-0016",
+   "commit": "f6ff142d DALGA 2 INDI"
+  },
+  "H-0017": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hayır, böyle bir eksklav yoktu: Doğubayazıt'ın Çaldıran'dan beri Osmanlı görünmesi veri hatasıydı (gün Tebriz'den devralınmıştı). Kaynak (Kaya 2017): Osmanlı 23 Haziran 1534'ten, 1547'de yine İran. Düzeltme: 8584cfce. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGUBEYAZIT-0087.md · denetim/TEBRIZ-1514-0087.md",
+   "commit": "8584cfce DOGUBEYAZIT-0087 INDI"
+  },
+  "H-0018": {
+   "hukum": "kosu-bekliyor",
+   "not": "Sessiz toprak değişimiydi: Arpaçay, Digor, Küçükperveli Haziran 1534'e (TDV irakeyn-seferi, Irakeyn seferi) çekildi; Iğdır ve Beri 1534'te Osmanlı olmadı, Revan'ın zincirine bağlandı + 1534 maddesi düzeltildi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGU-1533-0087.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0019": {
+   "hukum": "cozuldu",
+   "not": "Sarı toprak Kotor (Venedik, 1420-1797). Nokta vardı ama işareti çizilmiyordu; Kotor kalıcı işaret yapıldı (bedeli: etiket çakışmasında Cetinje gizleniyor). Koşu gerekmez; f6ff142d, paketler yenilendi, yayında.",
+   "kaynak_rapor": "denetim/GORUNTU-0087.md §H-0019",
+   "commit": "f6ff142d DALGA 2 INDI"
+  },
+  "H-0020": {
+   "hukum": "cozuldu",
+   "not": "Rodos deniz oku artık denizden gidiyor (kara üstü 2 km, yalnız liman yaklaşması). İndi: cefc73bb, yayında.",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md",
+   "commit": "cefc73bb DALGA 4 INDI"
+  },
+  "H-0021": {
+   "hukum": "cozuldu",
+   "not": "Rodos oku 5 Ocak 1523 maddesinde artık görünmüyor: kaydın bitişi TDV suleyman-i'ye göre 2 Ocak'a çekildi (cefc73bb, yayında) + oklar kendi son gününün sonunda kayboluyor (be5cc3c0).",
+   "kaynak_rapor": "denetim/SEFER-OKU-0087.md",
+   "commit": "cefc73bb DALGA 4 INDI"
+  },
+  "H-0022": {
+   "hukum": "kosu-bekliyor",
+   "not": "İki şey: bulanık dişler sahipsiz komşuya bakan 'belirsizlik hâlesi' (tasarım), keskin kama H-0014'ün aynısı. İkisi de Berka'daki sahipsiz/kopya veriden doğuyordu; Berka düzeltmesi f6ff142d'de indi. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/GORUNTU-0087.md · denetim/BERKA-0087.md",
+   "commit": "f6ff142d DALGA 2 INDI"
+  },
+  "H-0023": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hata vardı, eksklav tarihî değil veri ürünü: Doğubayazıt'ın 1514 günü Tebriz'den devralınmıştı; 1514-1534'te çevresinin 27/28'i Safevî. Osmanlı 23 Haziran 1534'ten (Kaya 2017, TDV slug'ları ölü). İndi: 8584cfce. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGUBEYAZIT-0087.md",
+   "commit": "8584cfce DOGUBEYAZIT-0087 INDI"
+  },
+  "H-0024": {
+   "hukum": "kosu-bekliyor",
+   "not": "Doğru değildi: Mohaç sonrası 25 nokta yanlışlıkla 'Avusturya' yazılmıştı, doğrusu 'Habsburg Macaristanı' (TDV budin/hirvatistan/macaristan). Düzeltme f6ff142d. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/BOSNA-MACAR-0087.md §H-0024",
+   "commit": "f6ff142d DALGA 2 INDI"
+  }
+ }
+}

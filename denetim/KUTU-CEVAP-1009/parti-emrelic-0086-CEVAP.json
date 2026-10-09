@@ -1,0 +1,94 @@
+{
+ "damga": "2026-10-09 23:15",
+ "cevap_tarihi": "2026-10-09",
+ "paket": "parti-emrelic-0086",
+ "cevaplayan": "KUTU-CEVAP-1009 (UMIT derleme işçisi) · hükümler: DOGU-ANADOLU · CELAYIRLI · GORUNTU-0085 · TUNA-BALKAN · DENIZ-OKU · DIVRIGI-MEMLUK · ARTUKLU-IKI-PARCA · EEK-DOGU · EEK-BALKAN · KRONO-SENKRON · DOGU-SAFEVI · EEK-DOGU-2 · BOSNA-MACAR · BERKA · GORUNTU-0087 · SEFER-OKU · TEBRIZ-1514 · DOGUBEYAZIT · DOGU-1533 · MISIR-SENKRON · HAVVA-H0008",
+ "madde_sayisi": 14,
+ "hukum_dagilimi": {
+  "kosu-bekliyor": 8,
+  "olculecek": 4,
+  "sirada": 1,
+  "zaten-dogru": 1
+ },
+ "not": "Hükümler 9 Ekim 2026 gecesi atlas çalışma kayıtlarından (C:/atlas-umit/denetim/*.md) ve origin/main commit'lerinden DERLENDİ; yeni ölçüm yapılmadı. Kural: veri main'e indi ama etkisi harita görüntüsünde ⇒ kosu-bekliyor (bu gecenin tam inşa koşusu henüz yapılmadı) · kronoloji/ok/arayüz main'e indi ⇒ cozuldu · motor yaması önerildi ama yazılmadı ⇒ sirada. Her maddenin `kaynak_rapor` alanı dayanağı gösterir.",
+ "maddeler": {
+  "H-0001": {
+   "hukum": "kosu-bekliyor",
+   "not": "TEKRAR gelen madde (0081/H-0001'in yarım kalan devamı): Kaheti künyesi 1578'den başlıyordu, 1578 kuruluş değil tâbiliktir. Kaheti 1492'den (EB1911; 1490'ı veren kaynak yok, TDV yıl vermiyor). İndi: 1edf7f9a. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor. Bedel: 1490-1492 arası Zagem Gürcistan kalıyor.",
+   "kaynak_rapor": "denetim/KRONO-SENKRON-1008.md §③④",
+   "commit": "1edf7f9a KRONO-SENKRON-1008 GURCISTAN INDI"
+  },
+  "H-0002": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hata vardı, ama tersten: ortadaki cep Taşkent, 1485-1503 Moğulistan olmalı (TDV taskent); Fergana 1504'e kadar Timurlu (TDV fergana/babur). Veri + kronoloji maddeleri indi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0002",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0003": {
+   "hukum": "kosu-bekliyor",
+   "not": "Büyük ölçüde doğru (Horasan 1507, Harezm 1505). İki istisna: Taşkent düzeltmesi 658a7552'de indi; Kâbil/Gazne'nin 1502-1504 Argun dönemi künye olmadığı için açık kalem. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0003",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0004": {
+   "hukum": "olculecek",
+   "not": "Henüz ölçülmedi: hiçbir işçi bu maddeye bakmadı. Görsel künyesi şartnamesinde 'varlık sorusu' diye sınıflandı — cevabı o kutudaki noktaların o günkü sahibini sorgulamak; resim gerekmiyor.",
+   "kaynak_rapor": "oturumlar/KUTU-GORSEL-KUNYE-SARTNAME.md"
+  },
+  "H-0005": {
+   "hukum": "olculecek",
+   "not": "Henüz ölçülmedi (H-0004 ile aynı sınıf: 'burada yerleşim/devlet yok mu'). Nokta sorgusuyla cevaplanacak.",
+   "kaynak_rapor": "oturumlar/KUTU-GORSEL-KUNYE-SARTNAME.md"
+  },
+  "H-0006": {
+   "hukum": "olculecek",
+   "not": "Henüz ölçülmedi. Bilinen arka plan: Himalaya-Tibet atlasın en seyrek noktalı bölgesi (eski taramada kutuda 8 nokta) — noktası olmayan bölge en yakın peteğe emilir ya da boş kalır. Bu dönem için ayrıca ölçülmeli.",
+   "kaynak_rapor": "oturumlar/KUTU-GORSEL-KUNYE-SARTNAME.md · denetim/BULGU-TENHA-ASYA-ARS.md"
+  },
+  "H-0007": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hata vardı, ters bölünme: çekirdek (Şamahı, Bakü…) 1501'de Safevî, kenarlar 1538'e kadar Şirvanşah görünüyordu. Şirvanşahlar 1538 Ekim'e kadar sürdü (TDV sirvan/sirvansahlar) ⇒ hepsi 1538'e kadar Şirvanşah + 1538 maddesi. İndi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0007",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0008": {
+   "hukum": "zaten-dogru",
+   "not": "Doğru: Bayburt 1501'de Safevîlere geçti, Ekim 1514'te Osmanlı aldı (TDV bayburt). Değişiklik yok.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0008"
+  },
+  "H-0009": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hata vardı: Kars, Ardahan, Sarıkamış 1514'e kadar Akkoyunlu kalıyordu (künye 1514 başında bitiyor ⇒ hayalet ada). TDV kars: 1501'de Safevî. 1501-07-01'e çekildi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0009",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0010": {
+   "hukum": "kosu-bekliyor",
+   "not": "İşaretli adaların çoğu HATA: Hemedan, Şiraz, Kirman, Zencan 1503'te Safevî olmalı (TDV sah-ismail/siraz/kirman), Yezd 6 Aralık 1504 (TDV yezd), Reşt 1592'ye kadar Gilan. Gerçek olanlar (Mâzenderan, Gilan, Şirvan kenarı) beyan edildi. İndi: 658a7552 (EEK-DOGU-2 FARK). Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor. Kasr-ı Şîrîn ve Kirmanşah ölçülemedi.",
+   "kaynak_rapor": "denetim/EEK-DOGU-2-0086.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0011": {
+   "hukum": "kosu-bekliyor",
+   "not": "H-0010'un Akkoyunlu satırlarıyla aynı küme (Hemedan/Şiraz/Yezd/Kirman/Zencan); aynı düzeltme 658a7552'de indi. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/EEK-DOGU-2-0086.md",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0012": {
+   "hukum": "kosu-bekliyor",
+   "not": "Hata vardı, iki kat: iki cep Kars grubu ve Kirman'dı (H-0009); ayrıca Irâk-ı Acem ve Fars 1508 yerine 1503'te Safevî olmalı (TDV safeviler — atlasın kendi 1503 maddesi de bunu diyordu). İndi: 658a7552. Haritada görünmesi bu gecenin tam inşa koşusunu bekliyor.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0012",
+   "commit": "658a7552 DALGA 1 INDI"
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "not": "Hayır: 1507'den sonra 'Timurlu' görünen tek yer Kandehar ve o Argunluların elindeydi (TDV kandehar). Argunlular künyesi yok (TDV argunlular slug'ı ölü); künye + renk + akademik kaynak gerekiyor, sırada.",
+   "kaynak_rapor": "denetim/DOGU-SAFEVI-0086.md §H-0013"
+  },
+  "H-0014": {
+   "hukum": "olculecek",
+   "not": "Henüz ölçülmedi. 'Sınırları belli boş bölge' büyük olasılıkla ya sahipsiz noktalar ya da kasıtlı boşluk (__BOSLUK__, sahibi kaynakta olmayan dilim) — hangisi olduğu nokta sorgusuyla ölçülecek.",
+   "kaynak_rapor": "oturumlar/KUTU-GORSEL-KUNYE-SARTNAME.md"
+  }
+ }
+}
