@@ -1,15 +1,15 @@
 # ZAMAN-Z5-1008-KOORD.diff — YENI data/yer_yama_1923_1945.js (window.YER_YAMA_1923_1945)
 # DOKUNDUGU GUN ARALIGI: 1923-10-29 -> 1945-09-02 (yalniz; 1281-1923 dilimi birebir ayni)
-# Temel: origin/makine/umit e28edfdc. On sart ve boya: dosya basligi ve denetim/ZAMAN-Z5-1008.md
+# Temel: origin/makine/umit 23a7901a. On sart ve boya: dosya basligi ve denetim/ZAMAN-Z5-1008.md
 
 diff --git a/data/yer_yama_1923_1945.js b/data/yer_yama_1923_1945.js
 new file mode 100644
-index 00000000..ae46a36a
+index 00000000..d823bca0
 --- /dev/null
 +++ b/data/yer_yama_1923_1945.js
 @@ -0,0 +1,7979 @@
 +// ZAMAN-Z5-1008 — yerleşim dönemlerinin 1923-10-29 → 1945-09-02 uzatılması (ÖNERİ)
-+// Üretici: denetim/ARAC-ZAMAN-Z5-OLC-1008.py --yama · temel e28edfdc
++// Üretici: denetim/ARAC-ZAMAN-Z5-OLC-1008.py --yama · temel 23a7901a
 +// Kova A: s: sahibi değişmiyor (ÇIKARIM — kayıt `not:` alanında BEYANLI, dönem kaynak:ına DOKUNULMADI) · B: kalıcı
 +// egemenlik değişimi, gün kaynaklı maddeden · C: tbmm-turkiye → turkiye-cumhuriyeti.
 +// Kayıt `s:` dizisinin TAMAMINI taşır (uygulayıcı alanı değiştirir); sıra korunmuştur.

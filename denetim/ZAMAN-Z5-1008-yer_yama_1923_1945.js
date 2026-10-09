@@ -1,5 +1,5 @@
 // ZAMAN-Z5-1008 — yerleşim dönemlerinin 1923-10-29 → 1945-09-02 uzatılması (ÖNERİ)
-// Üretici: denetim/ARAC-ZAMAN-Z5-OLC-1008.py --yama · temel e28edfdc
+// Üretici: denetim/ARAC-ZAMAN-Z5-OLC-1008.py --yama · temel 23a7901a
 // Kova A: s: sahibi değişmiyor (ÇIKARIM — kayıt `not:` alanında BEYANLI, dönem kaynak:ına DOKUNULMADI) · B: kalıcı
 // egemenlik değişimi, gün kaynaklı maddeden · C: tbmm-turkiye → turkiye-cumhuriyeti.
 // Kayıt `s:` dizisinin TAMAMINI taşır (uygulayıcı alanı değiştirir); sıra korunmuştur.

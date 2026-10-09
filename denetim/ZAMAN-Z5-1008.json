@@ -1,5 +1,5 @@
 {
- "temel": "e28edfdc",
+ "temel": "23a7901a",
  "yerlesim": 4300,
  "girdi_dosya": 93,
  "kova_sayi": {
@@ -16,8 +16,8 @@
   "X_kunye_1923_once_bitti": 8
  },
  "A_alt": {
-  "A2_bolge_disi": 2399,
-  "A1_toprak_maddesi_yok": 804
+  "A2_bolge_disi": 2401,
+  "A1_toprak_maddesi_yok": 802
  },
  "A_I_aday": 1532,
  "kova_sahip": {
@@ -3065,7 +3065,7 @@
     "s_idx": 2,
     "s_n": 3,
     "not_dolu": false,
-    "alt": "A1_toprak_maddesi_yok"
+    "alt": "A2_bolge_disi"
    },
    {
     "ad": "Kerak",
@@ -3081,7 +3081,7 @@
     "s_idx": 2,
     "s_n": 3,
     "not_dolu": false,
-    "alt": "A1_toprak_maddesi_yok"
+    "alt": "A2_bolge_disi"
    },
    {
     "ad": "Rakka",

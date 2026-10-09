@@ -71,6 +71,24 @@ Bu bölüm aşağıdakilerin yerine geçer. Aşağıdaki bölümler ara teslimin
   Son sürümde tekrar denendi, makine kaynak tükenmesiyle düştü (fork başarısız; uygulayıcı çıkış 3 verdi,
   hiçbir şey yazmadı, ağaç geri yüklendi). ⇒ **Son sürümün `denetle.py` sınavı YAPILAMADI**, yerine bellek sınavı var.
 
+### 🆕 YENİDEN ÜRETİM + TAM SINAV (9 Ekim, temel 23a7901a, uygulayıcı 1806e2b3 sonrası)
+- **707 kayıt `not:` sorusu:** teslim edilen son sürümde **3.203 A kaydının HEPSİ zaten `not:` taşıyordu**.
+  Boş bırakma yalnız ara teslim sürümündeydi; `not:` taşımayan 493 kayıt B/C/D, onların kaynağı dönemde.
+  Yeni temelde yeniden üretildi: kova sayıları aynı, yama içeriği başlık satırı dışında **birebir aynı** (fark 0 satır).
+- **Kuru koşu** (`_sahiplik_uygula.py --yama-glob "^yer_yama_1923_1945\.js$"`): **çıkış 0** ·
+  **TANINMADI 0** ("motorun okuduğu 4300 kaydın HEPSİ bu araçça görülüyor") · **ÇAKIŞMA 0** ·
+  `uygulandi` 3.982 · **`mukerrer-tekillendi` 2** (Taraz · Sayram, `s` x2, ölü kopya silindi) ·
+  `not-eklendi` 711 · bayat yama kapısı TAZE · geri okuma 3.982/3.982 ✓.
+  "2s zayıf gün" uyarısı 1.439 satır: eski (1923 öncesi) kırılma günleri, bilgi.
+- **Tam sınav, atılabilir ağaçta:**
+  - `--yaz` çıkış 0, 91 dosya, **diskten geri okuma 3.982/3.982 ✓**.
+  - `denetle.py` yamalı ↔ taban: **tek fark "kaynaksız `s:`" 1.912 → 1.479** (sahte, tavan 1.912'de kalır).
+  - Öteki bütün değişmezler birebir aynı (1 · 1b · 1c · 2 · 2s · 2sk · 2i · 2t · 4 · 4c · 4d · 4s · 5 · 7 · R).
+  - İkisi de **çıkış 2**: yalnız Değişmez 8 ÖLÇÜLEMEDİ (taze ağaçta `devletler_harita.js` yok; yamadan bağımsız).
+- ⚠️ **4c'nin "aynı" çıkması ön şartı onaylamaz:** `denetle.py` 4c'si ufuk ötesindeki dönemi bugün görmüyor.
+  Kaçar'ın 108 dönemi 1925-12-12'ye uzuyor ama 4c 127'de kaldı. Bellek sınavı ② aynı 111 dönemi görüyor.
+  ⇒ Ufuk açılınca (Z1) künye t'leri inmemişse 4c ANINDA +111 olur. Ön şart yine AYNI commit.
+
 ### Ön şartlar
 - **Aynı commit'te:**
   - künye t: kacar 1925-12-12 · bhopal 1945-09-02 · surakarta 1945-09-02 · buhara-halk-cumhuriyeti 1924-10-27
@@ -214,9 +232,12 @@ yeniden üret" ve üretici `denetim/ARAC-D1-URET-0916.py` · `ARAC-D2/D3BATI/D3O
    - **28 kayıt** `yerlesimler_sinir_guney/kuzey.js` JSON biçimli (`"ad":`) — `AD_RX` tırnaksız `ad:`
      arıyor, kaydı GÖRMÜYOR ("veride-yok" sayıyor). İçlerinde **Sincan (HATAY)** ve Malak Dervent,
      Umur Fakih, 6 Hatay köyü, 9 Kafkas köyü var.
-   - **5 kayıt** (Honolulu · Antananarivo · İmâdiye · Taraz · Sayram) çok satırlı: araç yeni `s:`yi
-     `ad:` satırına YAZIYOR ama eski `s:` aşağıda KALIYOR ⇒ JS'te **mükerrer anahtar, son yazılan
-     kazanır, yama düşer** — araç "uygulandı" der. 📌 Honolulu'da aynı kusur 10 Eylül'de bir kez elle
+   - **5 kayıt, İKİ AYRI kusur** (düzeltildi 9 Ekim — ilk cümle beşini tek sınıfa koyuyordu, YANLIŞTI):
+     ⓐ **3 kayıt** (Honolulu · Antananarivo · İmâdiye) çok satırlı: araç yeni `s:`yi `ad:` satırına
+     YAZIYOR ama eski `s:` aşağıda KALIYOR ⇒ JS'te **mükerrer anahtar, son yazılan kazanır, yama düşer**
+     — araç "uygulandı" der. ⓑ **2 kayıt** (Taraz · Sayram) **hiçbir sayaca düşmeden SESSİZCE
+     atlanıyordu** (ilk sınav: 3.519 yama = 3.489 "uygulandı" + 28 "veride-yok" + **2 sayılmayan**).
+     İkisi de SAHIPLIK-UYGULA-KUSUR-1008 ile kapandı (1806e2b3). 📌 Honolulu'da ⓐ 10 Eylül'de bir kez elle
      temizlenmiş ("MÜKERRER `s:` VE `kaynak:` KALDIRILDI") — sınıf olarak kapanmamış.
    ⇒ Öneri: bu 33'ü elle (ya da uygulayıcı düzeltilince); düzeltme bu kalemin değil.
 3. **T kovası (234 nokta) için KARAR** — seçenekler: ⓐ *(önerim)* s: değişmez, savaş içi ilhak/kukla devlet
