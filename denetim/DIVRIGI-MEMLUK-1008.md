@@ -134,3 +134,60 @@ kaynaksız s: kaydı                1912 → 1909
 - `denetim/DIVRIGI-MEMLUK-1008-KOORD.diff` (LF, CR 0)
 - `denetim/DIVRIGI-MEMLUK-1008-KOORD-ARTUKLU-SONRASI.diff` (LF, CR 0)
 - `denetim/DIVRIGI-MEMLUK-1008.diff` (LF, CR 0)
+
+## § v2 (1009) — DIVRIGI-MEMLUK-1009 · origin/main 0c4b383c karşısında yeniden ölçüm
+Ağaç `C:\atlas-umit-divrigi` (detached `origin/main` 0c4b383c, `git fetch` sonrası) · commit yok · kaldırıldı.
+
+### Ölçtüm
+**Ailenin TAMAMI main'de — 647bcf31'de indi** ("DIVRIGI-MEMLUK-1008 + EK INDI", 9 Ekim 14:48).
+ARTUKLU (a36928df) 647bcf31'in atasıdır ⇒ geçerli zincir **B** (ARTUKLU-SONRASI varyantları).
+
+Doğrulama iki yönde:
+1. **İleri yeniden kurulum:** `647bcf31^` üzerine B zinciri (1008 → EK → KOORD-AS → EK-BEHISNI-AS →
+   EK-KOORD) uygulandı. Üç veri dosyası (`olaylar_senkron_0930.js` · `yerlesimler.js` ·
+   `yerlesimler_ok110.js`) `git diff 647bcf31 -- <dosya>` ile **BİREBİR AYNI** (fark 0).
+2. **Geri kontrol bugünkü HEAD'de:** sırayla `git apply -R` — EK-BEHISNI-AS ✓ → KOORD-AS ✓ ·
+   EK ✓ → 1008 ✓ · EK-KOORD tek başına ✓. ⇒ 647bcf31'den sonra gelen 6 commit (EEK-DOGU,
+   HARPUT V2, DALGA 1-4, EPOK-SAHIP) bu satırları ne sildi ne değiştirdi.
+
+Dört kova, hunk başına (her diff tek hunk):
+| diff | kova |
+|---|---|
+| `-1008.diff` (Divriği 1401 maddesi) | ZATEN MAIN'DE (tek başına -R ✗ çünkü EK bitişiğine madde ekledi — BAĞLAM; EK geri alınınca -R ✓) |
+| `-EK.diff` (Besni 1400 · Darende 1414/1418 maddeleri) | ZATEN MAIN'DE |
+| `-KOORD-ARTUKLU-SONRASI.diff` | ZATEN MAIN'DE (EK-BEHISNI-AS aynı satırları sonradan değiştirdi — -R yalnız onun ardından ✓) |
+| `-EK-BEHISNI-KOORD-ARTUKLU-SONRASI.diff` | ZATEN MAIN'DE |
+| `-EK-KOORD.diff` (Darende, ok110) | ZATEN MAIN'DE |
+| `-KOORD.diff` | GEÇERSİZ VARYANT — ileri ✗, geri ✗ |
+| `-EK-BEHISNI-KOORD.diff` | GEÇERSİZ VARYANT — ileri ✗, geri ✗ |
+TEMİZ: 0 · GERÇEK ÇAKIŞMA: 0.
+
+**`denetle.py`** (`PYTHONHASHSEED=0 --ayrinti`, 0c4b383c): **çıkış 2** — tek sebep Değişmez 8
+ÖLÇÜLEMEDİ (`devletler_harita.js` taze ağaçta yok; UMIT tabanı, beklenen). Uygulanacak içerik
+olmadığı için önce = sonra; DEĞİŞEN SAYAÇ YOK ⇒ "başka kaç bekleyen diff dokunuyor" satırı
+boş küme. Kayıt için taban: D1 309/309 · D2 628/0 · 2s 1738 · AÇIK 181 (tavan 181) ·
+2sk yalnız-taraf 2265 (tavan 2265) · YIL-TEMSİLÎ 174 (>151, ihlal değil).
+
+**İki eski hükmün düzeltmesi:**
+- ZAMAN-PAKET-1009 "cefc73bb'de zaten main'de": **sonuç doğru, commit yanlış** — inen commit
+  647bcf31; cefc73bb (DALGA 4) onun torunudur, aileye dokunmaz.
+- Koordinatörün "main'e uymuyor"u: ileri `git apply --check` yedi diffte de ✗ verir — çünkü
+  **içerik zaten orada**. Uymazlık çakışma değil, iniş kanıtı.
+
+### Bulamadım
+- 647bcf31 `arac/denetle.py`ye de dokundu (`BEKLENEN_2S_YALNIZ_TARAF` 2250→2251); bu ailenin
+  hiçbir diff'inde yok — koordinatörün kendi tavan satırı (§3.4②). Doğru/yanlış hükmü vermedim.
+- EK raporundaki "2sk +1 Darende" hipotezi hâlâ teşhis edilmedi (kapı 2sk'yi kalem kalem basmıyor).
+
+### İstiyorum
+- **v2 diff YAZILMADI:** kalan içerik boş. Boş bir `-1009-v2.diff` `git apply --check`te
+  "No valid patches" verir ve iniş hattında "yama var" yanılsaması doğurur. Aile KAPALI sayılsın,
+  yedi diff "İNDİ (647bcf31)" diye arşivlensin.
+- Ayrı kalemler (rapordaki gibi, hâlâ açık): Malatya 1421 Dulkadır dönemi · Besni 1418 Dulkadır
+  ara dönemi bitişi · Değişmez 2 yer şartı kapı önerisi.
+
+**GEÇERSİZ VARYANTLAR:** `DIVRIGI-MEMLUK-1008-KOORD.diff` · `DIVRIGI-MEMLUK-1008-EK-BEHISNI-KOORD.diff`
+— gerekçe: ARTUKLU (a36928df) 647bcf31'den ÖNCE indi; bu ikisi ARTUKLU-ÖNCESİ bağlamına yazılmıştı.
+Bugün uygulanamazlar; zorlanırsa aynı düzeltme ikinci kez girer.
+
+**YENİ DOSYALAR:** yok (yalnız bu bölüm eklendi).
