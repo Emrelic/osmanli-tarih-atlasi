@@ -1,5 +1,7 @@
 # LAB-YALAN0-RISK-1010 — YALAN-0 araçlarının çağrı grafiği (STATİK, yalnız ölçüm)
 
+> 🕰 10 Ekim güncellemesi: UMIT ab9aa957 + 60b7731c ile 7 aracın çıkış kodu düzeltildi; aşağıdaki işaretler o tarihten. Ölçüm değerleri değiştirilmedi — yalnız durum notu eklendi.
+
 - **Ölçülen ağaç:** origin/main `6df8c2cd84aec31af69c1b8d5da3239660b4216d` (ayrık worktree `C:\atlas-yalan0-olcum`, iş sonunda kaldırıldı).
 - **Girdi:** `denetim/LAB-KAPI-CIKIS-KODU-1009.md` §2.2 (21 YALAN-0) + §2.4/tablo (10 BELIRSIZ) = 31 araç.
 - **Hiçbir araç KOŞULMADI.** data/ ve arac/'a dokunulmadı. Tek yürütülen kod, scratch'teki kendi okuyucum
@@ -90,7 +92,7 @@ Yanlış 0 bir tur kaybettirir, yayın kaybettirmez.
 
 | Araç | Kova (1009) | Kanıt |
 |---|---|---|
-| ARAC-KIMLIK-SINA-0903 | YALAN-0 | `oturumlar/TAHTA.md:2606` (M-2595, 3 Eyl, **HERKES'e**): "`py denetim/ARAC-KIMLIK-SINA-0903.py <sizin json>` # künye · renk · ömür" — teslim öncesi elle kapı; `oturumlar/BAYRAK-DEVRI-0903.md:49` "üç kapı". Ayrıca envanter GECTI + hızlı-66 |
+| ARAC-KIMLIK-SINA-0903 | YALAN-0 → KAPANDI (canlı, bugün 0/1) · ab9aa957 | `oturumlar/TAHTA.md:2606` (M-2595, 3 Eyl, **HERKES'e**): "`py denetim/ARAC-KIMLIK-SINA-0903.py <sizin json>` # künye · renk · ömür" — teslim öncesi elle kapı; `oturumlar/BAYRAK-DEVRI-0903.md:49` "üç kapı". Ayrıca envanter GECTI + hızlı-66 |
 | EKOKUMA-0076-A-SINA | YALAN-0 (ÖLÇÜLDÜ) | `denetim/EKOKUMA-0076-A.md:14`, `denetim/EKOKUMA-0076-A-YAMA-app.js:44` ("`py denetim/EKOKUMA-0076-A-SINA.py` → ④ 'TANIMSIZ 0' demeli"), `js/app.js:12009` (yorum), TAHTA M-5050 |
 | KRONO-0076-C-sinav | YALAN-0 | `denetim/KRONO-0076-C.md:123` "`py denetim/KRONO-0076-C-sinav.py` ile tekrarlanabilir", TAHTA M-5027 |
 | ODAK-BALKAN-0080-uygula | YALAN-0 (`--ters`) | `denetim/ODAK-BALKAN-0080.md:48-51` (`--ters` "süzgecin ters sınavı"); SESSIZ-SIFIR-TARA evreninde (argümansız) |
@@ -111,16 +113,16 @@ kanıt olarak saklıyor (ölçümün tekrarlanabilirliği); hiçbiri ömür beya
 
 | Araç | Kova | Son commit (tek commit'liyse doğum) | Ne içindi |
 |---|---|---|---|
-| A-OKYANUSYA-0078-sina | YALAN-0 | `2074550a8` 24 Eyl | yeni Okyanusya dosyasının kabul sınavı; `data/paket_24.js:2669` yorumda "sınav:" diye anılıyor. Envanter GECTI, **hızlı-66** |
+| A-OKYANUSYA-0078-sina | YALAN-0 → KAPANDI (TARİHÎ, bugün 2) | `2074550a8` 24 Eyl | yeni Okyanusya dosyasının kabul sınavı; `data/paket_24.js:2669` yorumda "sınav:" diye anılıyor. Envanter GECTI, **hızlı-66** · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (a78 GIRDI'de, 61 nokta kendisiyle), gerileme sezicisi · ab9aa957 |
 | A-OKYANUSYA-0078-alan | YALAN-0 | `2074550a8` 24 Eyl | 1923 alan vekili ölçümü (`--sina`) |
-| ARAC-HARITA-DURUM-0074-KABARTMA-SINAV | YALAN-0 | `75a3ccbbc` 21 Eyl | kabartma kör noktası iki yönlü sınavı (TAHTA M-4949). Envanter GECTI, **hızlı-66** |
-| ARAC-KAMERIKA-0903-kunye-sina | YALAN-0 | `12d9d93bb` 3 Eyl | K.Amerika künye reçetesi teslim sınavı. Envanter GECTI (alt sebep "çıkış0-ama-başarısızlık-izi"), **hızlı-66** |
+| ARAC-HARITA-DURUM-0074-KABARTMA-SINAV | YALAN-0 → KAPANDI (canlı, bugün 0) · 60b7731c | `75a3ccbbc` 21 Eyl | kabartma kör noktası iki yönlü sınavı (TAHTA M-4949). Envanter GECTI, **hızlı-66** |
+| ARAC-KAMERIKA-0903-kunye-sina | YALAN-0 → KAPANDI (TARİHÎ, bugün 2) | `12d9d93bb` 3 Eyl | K.Amerika künye reçetesi teslim sınavı. Envanter GECTI (alt sebep "çıkış0-ama-başarısızlık-izi"), **hızlı-66** · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (46/46 reçete devletler.js'te), gerileme sezicisi · ab9aa957 |
 | ARAC-MUKERRER-KAPI-0930 | YALAN-0 | `52222fa3c` 1 Eki | denetle.py'nin mükerrer ölçütünü modül olarak içe alıp ölçer (yön: araç → denetle, tersi değil) |
 | ARAC-TASIMA-ON-SINAV-0905 | YALAN-0 | `ec819dd3a` 6 Eki (mutlak yol yaması) | MERGE adım ⑥ ön hazırlığı; `KOSU-SONRASI-KUYRUK.md:2363,2800` geçmiş kullanım |
-| ARAC-UYGULA4-ONSINAV-0918 | YALAN-0 | `98dd71454` 22 Eyl | UYGULA-4 yaması ön sınavı (TAHTA M-4493 tarihi). Envanter GECTI, **hızlı-66** |
+| ARAC-UYGULA4-ONSINAV-0918 | YALAN-0 → KAPANDI (TARİHÎ, bugün 2) | `98dd71454` 22 Eyl | UYGULA-4 yaması ön sınavı (TAHTA M-4493 tarihi). Envanter GECTI, **hızlı-66** · 🕰 TARİHÎ — teslim-öncesi araç, bugün 2 ÖLÇÜLEMEDİ (yama inmiş, nokta kendisi), gerileme sezicisi · 60b7731c |
 | ARAC-YERLESIM-1281-ONCE-C | YALAN-0 | `52222fa3c` 1 Eki | 1281 öncesi yerleşim öneri JSON üretici (adım C); ad yalnız LAB-1009'da |
-| NOKTA-KAFKAS-0077-sina | YALAN-0 | `120015e8d` 27 Eyl | Kafkas nokta dosyasının kabul sınavı. Envanter GECTI, **hızlı-66** |
-| SINAV-DONEM-KAYNAK-0907 | YALAN-0 | `e1da4ae78` 7 Eyl | dönem-içi `kaynak:` iniyor mu (dayanak yaması kapısı; KUSUR'da yamayı kendisi yazmıyor). Envanter GECTI, **hızlı-66** ⚠️ envanter "yan etkisiz", LAB-1009 "dosya yazar" diyor — çelişki, ölçülemedi |
+| NOKTA-KAFKAS-0077-sina | YALAN-0 → KAPANDI (canlı, bugün 0/1) · ab9aa957 | `120015e8d` 27 Eyl | Kafkas nokta dosyasının kabul sınavı. Envanter GECTI, **hızlı-66** |
+| SINAV-DONEM-KAYNAK-0907 | YALAN-0 → KAPANDI (canlı, bugün 0) · 60b7731c | `e1da4ae78` 7 Eyl | dönem-içi `kaynak:` iniyor mu (dayanak yaması kapısı; KUSUR'da yamayı kendisi yazmıyor). Envanter GECTI, **hızlı-66** ⚠️ envanter "yan etkisiz", LAB-1009 "dosya yazar" diyor — çelişki, ölçülemedi · DÜZELTME (UMIT Y §1, audit hook ölçümü): yalnız %TEMP%'e yazar, siler; repo yan etkisi YOK — LAB'ın statik AST sınıflaması geçici dizini repo yazımından ayırmıyordu |
 | SINAV-RENK-98-0903 | YALAN-0 | `d041a0800` 5 Eyl | renk partisi öngörü sınavı; UMIT-W32 "yanlış kova — yan etkili akış aracı". Envanter OTTU (bayat sabit) |
 | SINIR-CIZGI-0076-SINA | YALAN-0 | `ec819dd3a` 6 Eki (mutlak yol yaması) | üretilen sınır dosyalarının node --check sınavı |
 | ACILIS-ANIM-0929-sina | BELIRSIZ | `5e77ff104` 29 Eyl | perde animasyonu ölçümü (`data/acilis_siluet.js:55` yorum; `-sinav-kur.py` ile ad benzerliği tesadüf) |
@@ -171,7 +173,7 @@ kanıt olarak saklıyor (ölçümün tekrarlanabilirliği); hiçbiri ömür beya
 - **`C:\atlas` (ana worktree) izlenmeyen dosyaları** — dokunma yasağı nedeniyle bakılmadı (git status index'e yazabilir).
 - **UMIT-W27 envanter koşucusu** repo'da yok; ayrıştırdığı desenler bilinmiyor.
 - **SESSIZ-SIFIR-TARA'nın gerçekten gece koşturulup koşturulmadığı** (zamanlanmış görev yok; "gece" = elle).
-- **SINAV-DONEM-KAYNAK-0907 yan etki çelişkisi** (envanter: yok · LAB-1009: dosya yazar).
+- **SINAV-DONEM-KAYNAK-0907 yan etki çelişkisi** (envanter: yok · LAB-1009: dosya yazar). → 10 Ekim: ÇÖZÜLDÜ — DÜZELTME (UMIT Y §1, audit hook ölçümü): yalnız %TEMP%'e yazar, siler; repo yan etkisi YOK — LAB'ın statik AST sınıflaması geçici dizini repo yazımından ayırmıyordu
 - Statik tarama exec/dinamik yüklemeyi kaçırabilir; burada adlar tireli olduğundan dosya adı dizgesi gerekir —
   ad taraması bunu kapsıyor, ama ad bir dosyadan/ağdan okunup kurulursa (ör. bir .tsv'den) görünmez.
   Repo'da `SINAV-ENVANTER-1006.tsv`yi okuyan kod yok.
