@@ -477,6 +477,48 @@ def _kabuk_bildir(d):
           "silme kararı Emre'nindir.")
 
 
+def _cek(_kod):
+    """Uzaktan tazele — çalışma ağacı KİRLİYKEN de (TAHTA-TEMIZ-AGAC-1010).
+
+    🔴 VAKA (10 Ekim 2026, f0b6fd50): `pull --rebase` izlenen HERHANGİ bir
+    dosyada unstaged değişiklik görünce REDDEDER ("cannot pull with rebase:
+    You have unstaged changes"). Bir oturumun `defter.py` ile kirli bıraktığı
+    `oturumlar/defter.json`, uzak ilerlediği an BÜTÜN oturumların tahtasını
+    susturdu: numara bayat, push reddedildi, ve depo ayrışık kaldığı için
+    sonraki HER yazım da düştü. Haberleşme aracı başkasının yarım dosyasına
+    bağlı olmamalı.
+    ⇒ Ağaç TEMİZSE eski yol AYNEN (`pull --rebase`). KİRLİYSE `fetch` + git'in
+      kirliliğe TOLERANSLI iki işlemi: geride → `merge --ff-only`; ayrışık →
+      `merge --no-edit` (çakışırsa KENDİ merge'ümüzü `--abort` ile geri alırız).
+      İkisi de kirli dosyaya dokunmaz; dokunmak zorunda kalacaksa HİÇBİR ŞEY
+      yapmadan reddeder. ⚠️ `--autostash` BİLEREK yok: başkasının dosyasını
+      geçici olarak geri alır (arada yazılan kaybolur) ve çakışırsa ortak
+      `refs/stash`e düşer (24 Eylül kabuğu tam bu sınıftı).
+    Dönüş `CompletedProcess` (returncode · stdout · stderr)."""
+    def g(*a):
+        return subprocess.run(["git", "-C", KOK] + list(a), **_kod)
+    s = g("status", "--porcelain", "--untracked-files=no")
+    if s.returncode != 0 or not (s.stdout or "").strip():
+        return g("pull", "--rebase")
+    print("⚪ çalışma ağacı KİRLİ (%d izlenen dosya, tahta dışı olabilir) — "
+          "rebase yerine fetch + merge." % len(s.stdout.strip().splitlines()))
+    r = g("fetch", "-q")
+    if r.returncode == 0:
+        r = g("rev-parse", "--verify", "-q", "@{u}")
+    if r.returncode != 0:
+        return r
+    if g("merge-base", "--is-ancestor", "@{u}", "HEAD").returncode == 0:
+        return r                                   # uzak zaten içimizde
+    if g("merge-base", "--is-ancestor", "HEAD", "@{u}").returncode == 0:
+        return g("merge", "--ff-only", "-q", "@{u}")
+    r = g("merge", "--no-edit", "-q", "@{u}")
+    if r.returncode != 0 and os.path.exists(
+            os.path.join(_git_dizini() or "", "MERGE_HEAD")):
+        g("merge", "--abort")
+        print("⚠️ merge ÇAKIŞTI, kendi merge'üm geri alındı.")
+    return r
+
+
 def _tazele():
     """Numara verilmeden ÖNCE tahtayı uzaktan tazele.
 
@@ -491,7 +533,7 @@ def _tazele():
     _kod = {"capture_output": True, "text": True,
             "encoding": "utf-8", "errors": "replace"}
     try:
-        r = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
+        r = _cek(_kod)
     except Exception as e:
         print("⚠️ tazeleme KOŞMADI (%s) — numara bayat olabilir." % type(e).__name__)
         return
@@ -631,7 +673,7 @@ def _git(kayit, baslik, govde):
         #   temizdiyse, sonradan doğan yarım işlem bizimdir. (`yaz()` kapısı
         #   yalnız `yaz`ı korur; `oku`/`teyit`/`kapat` buraya kapısız gelir.)
         _once = _git_yarim()
-        _pr = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
+        _pr = _cek(_kod)
         if _pr.returncode != 0 and not _once and _git_yarim():
             subprocess.run(["git", "-C", KOK, "rebase", "--abort"], **_kod)
             print("⚠️ `pull --rebase` ÇAKIŞTI, kendi rebase'im geri alındı"
