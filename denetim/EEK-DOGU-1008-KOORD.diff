@@ -1,0 +1,20 @@
+# EEK-DOGU-1008-KOORD.diff — paket 0085/H-0026 (Erciş) — UYGULANMAMIŞTIR
+# Sahip: koordinatör (data/yerlesimler.js). Yazan: EEK-DOGU-1008 (UMIT, ayrı worktree C:\atlas-eekd, 54e3da7c).
+# DOKUNDUĞU GÜN ARALIĞI: 1467-01-01 .. 1469-01-01 (yalnız Erciş s: karakoyunlu/akkoyunlu sınırı; öteki dilimler AYNEN)
+# KAYIT: yalnız Erciş. Cizre/Cibri (H-0027) ve Harput/Çemişgezek/Palu (ARTUKLU-IKI-PARCA) DOKUNULMADI.
+# NE: karakoyunlu→akkoyunlu sınırı 1469-01-01 → 1467-01-01 (gün komşudan: Van · TDV van "(1467)"; çıkarım beyanlı, ③).
+# ⚠️ denetle.py ÖNCE/SONRA bu ağaçta ÖLÇÜLEMEDİ: veri dosyasına geçici yazma izin katmanınca REDDEDİLDİ.
+#    Taban (yamasız) çıkış 2 (yalnız D8 ÖLÇÜLEMEDİ). Uygulayan koordinatör sonra-ölçümü koşturmalı.
+diff --git a/data/yerlesimler.js b/data/yerlesimler.js
+index af6f5cc..cdd4876 100644
+--- a/data/yerlesimler.js
++++ b/data/yerlesimler.js
+@@ -1780,7 +1780,7 @@ window.YERLESIMLER = [
+     s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}], d:[{f:"1345-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}] },
+ // TDV KARAKOYUNLULAR: "Van-Erciş bölgesi merkez olmak üzere" kuruldu.
+ { ad:"Erciş", tur:"kale", lat:39.026, lon:43.360, g:0, k:4, m:"Van",
+-    s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}], d:[{f:"1548-08-24",t:"1920-04-23"}] },
++    s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu",kesinlik:"yil",kaynak:"EEK-DOGU-1008 (paket 0085/H-0026) · protokol ③ BİRLİKTE ALINDI, KAYNAK SUSUYOR — ÇIKARIMDIR: Erciş için ADIYLA tarihli geçiş bulunamadı (TDV'de `ercis` maddesi YOK: slug 302, arama yalnız `ercisli-emrah`). Gün komşudan: Van · TDV `van`: 'Cihan Şah döneminde (1438-1467) Van ve çevresi Karakoyunlular'ın hâkimiyetinde kaldı. Karakoyunlu-Akkoyunlu mücadelesi sonunda Uzun Hasan bu yörede Akkoyunlu hâkimiyetini başlattı (1467).' (aynı madde Erciş'i Van yöresi yerleşimleri arasında sayar). Eski 1469-01-01 kaynaksızdı ve Van · Bargiri · Hoşap · Kotur · Çaldıran 1467-01-01 iken Erciş'i 1467-1469 arası Karakoyunlu cebi yapıyordu. YIL hassasiyeti; olayın günü 10 Kasım 1467 (TDV cihan-sah)."},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}], d:[{f:"1548-08-24",t:"1920-04-23"}] },
+ 
+ // ---- Likya kıyısı: ölçülen yoğunluk açığı (en yakın nokta 85-95 km) ----
+ // Antalya ile Fethiye arasında hiç yerleşim yoktu; kıyı boyasız kalıyordu.
