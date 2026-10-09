@@ -141,6 +141,69 @@
    "f": "1281-01-01",
    "t": "1774-07-21",
    "neden": "Künyenin kendi notu: TDV `kabartaylar` kuruluş tarihi BULUNAMADI (5 slug 302). Bu turda `kabartaylar` curl 000 (taşıma arızası, ölü değil — tuzak ⑤)."
+  },
+  {
+   "islem": "yeni",
+   "id": "pecenekler",
+   "ad": "Peçenekler (Peçenek Boy Birliği)",
+   "tur": "devlet",
+   "bolge": "dogu-avrupa",
+   "f": "0895-01-01",
+   "t": "1091-04-29",
+   "kesinlik": {
+    "f": "yil",
+    "t": "gun"
+   },
+   "baskent": null,
+   "harita": null,
+   "boya_gerekli": true,
+   "ozet": "Karadeniz'in kuzeyindeki bozkırda, Ten (Don) ile Tuna arasında hüküm süren Türk boy birliği; 889'da Hazar-Oğuz ittifakıyla İdil'in batısına itildi, 895'te Macarları Pannonia'ya sürüp bozkırı aldı, 29 Nisan 1091'de Bizans-Kıpçak ittifakına yenilince siyasî güç olmaktan çıktı.",
+   "kaynak": "TDV: pecenekler (PEÇENEKLER, Faruk Sümer) — https://islamansiklopedisi.org.tr/pecenekler (gövde okundu, HTTP 200)",
+   "alinti_f": "Peçenekler, 282 (895) yılında Bulgar Kralı Simeon’un müttefiki olarak Macarlar’a saldırıp onları bugünkü yurtları olan Pannonia’ya gitmek zorunda bıraktılar ve Ten (Don) ırmağından Tuna nehrine kadar uzanan bozkır bölgesini hâkimiyetleri altına aldılar.",
+   "alinti_t": "Bizanslılar bundan faydalanarak müttefiki Kıpçaklar ile birlikte Peçenekler’i ağır bir yenilgiye uğrattılar (29 Nisan 1091). … bu yenilgiden sonra Peçenekler’in siyasî ve askerî bir güç olarak önemleri kayboldu.",
+   "ic_not_f": "f = bozkır hâkimiyetinin başı (895); boyun varlığı daha eskidir (889 İdil'in batısına itilme; VIII. yy Yayık-İdil) — ama Karadeniz-kuzeyi POLİTİ 895'te başlar ve harita için doğru uç budur. Koordinatörün '≈860' tahmini TDV'de karşılık bulmadı. Gün yok ⇒ kesinlik yil.",
+   "ic_not_t": "TDV gün verir. ⚠️ TDV iç tutarsızlık (tuzak ⑥): aynı paragrafta Çaka Bey ittifakıyla Meriç'te toplanma '(Mart-Nisan 1081)' yazılı, yenilgi '29 Nisan 1091' — Çaka Bey bağlamı 1090-91'dir, '1081' büyük ihtimalle dizgi hatası; t'yi etkilemez. Peçenekler Tuna boylarında 1197'ye kadar akın yaptı (TDV) — siyasî güç olarak değil.",
+   "komsu_kontrol": "hazar-kaganligi t:0965 · kipcak f:1054 · birinci-bulgar 681-1018 · kiev-rusu 882- : Peçenek 895-1091 bu ikisinin ARASINDAKİ bozkır boşluğunu kapatır (KAPSAM taramasındaki tek eksik).",
+   "kronoloji": [
+    {
+     "t": "0889-01-01",
+     "tur": "savas",
+     "b": "Hazar-Oğuz ittifakı Peçenekleri İdil'in batısına geçmeye zorladı",
+     "kaynak": "TDV: pecenekler — «Peçenekler’e hücum edip (276/889) onları İdil’in batısına geçmeye mecbur bıraktılar»"
+    },
+    {
+     "t": "0895-01-01",
+     "tur": "kurulus",
+     "b": "Peçenekler Macarları Pannonia'ya sürüp Don-Tuna bozkırını hâkimiyetleri altına aldı",
+     "kaynak": "TDV: pecenekler"
+    },
+    {
+     "t": "1049-01-01",
+     "tur": "savas",
+     "b": "Peçenekler Bizans ordusunu yenip Edirne'ye kadar ulaştı",
+     "kaynak": "TDV: pecenekler — «Bizans ordusunu yenip Edirne’ye kadar ulaştılar (1049)»"
+    },
+    {
+     "t": "1091-04-29",
+     "tur": "son",
+     "b": "Bizans-Kıpçak ittifakı Peçenekleri ağır yenilgiye uğrattı (Levunion); Peçenekler siyasî güç olmaktan çıktı",
+     "kaynak": "TDV: pecenekler"
+    }
+   ]
+  },
+  {
+   "islem": "genislet",
+   "id": "naksa-dukaligi",
+   "f_bugun": "1207-01-01",
+   "f": "1205-01-01",
+   "t": "1579-01-01",
+   "kesinlik": {
+    "f": "yil"
+   },
+   "siniflandirma": "D205 sınıf ② — aynı polity sürüyor: 1205 Sanudo'nun adayı alışı, 1207 aynı yönetimin Latin imparatorundan dük unvanı alışı. 1205-1207 arasını tutan BAŞKA künye yok (Sanudo özel girişimdi) ⇒ kısaltma/ardıl değil, GENİŞLETME.",
+   "kaynak_f": "TDV: naksa (NAKŞA) — https://islamansiklopedisi.org.tr/naksa (gövde okundu, HTTP 200)",
+   "alinti_f": "Venedikli Marco Sanudo 1205’te sekiz gemiyle adayı ve yakın çevresini ele geçirdi, 1207’de İstanbul’daki Latin imparatorundan Nakşa dükü unvanını aldı. Böylece Kiklad adalarında Nakşa merkezli Arkhipelagos Dukalığı oluştu.",
+   "ic_not_f": "Yan cümle ayrıştırması (tuzak ⑥): 'Böylece … oluştu' iki fiilin TOPLAMINA bağlanır; unvan 1207, egemenlik 1205. Künyenin kronolojisine '1207 dük unvanı' maddesi kalmalı (tur: hukumdar/unvan), 'kurulus' 1205'e geçer. Z7'nin 1205 maddesi (kronoloji_naksa_dukaligi.js + kronoloji_cok_once1281_anadolu.js) künye penceresine girer. ⚠️ kronoloji_naksa_dukaligi.js:19 kaynağı TDV'yi İNGİLİZCE 'alıntılıyor' ('Marco Sanudo conquered the island with eight ships') — TDV'nin birebir metni değil; Z7'ye bildirilsin."
   }
  ],
  "boya_onerisi": [
@@ -5839,5 +5902,114 @@
    "harita": null,
    "boya": false
   }
- ]
+ ],
+ "sind_olcum": {
+  "soru_1_semma_kunyesi": "AYRI Semmâ künyesi YOK. Bileşik `sind` künyesi ('Sind (Sûmra, Samma, Ergunlu, Kalhora, Talpur)', 1281-01-01→1843-02-17) Semmâ'yı İÇERİYOR ve kendi kronolojisi '1351-01-01 Samma hânedanı Sûmraların yerini aldı' ile başlıyor ⇒ kısaltılınca bu künye Semmâ+ardılları künyesi olur: EVET (bileşik künye olarak).",
+  "soru_2_pencere_1351": "EVET: f 1281 ≤ 1351 ≤ t 1843. Kısaltma f:'1351-01-01' (kesinlik yil). TDV: 'daha sonra Hindu Semmâ kabilesi tarafından zaptedildi (1351)'.",
+  "soru_3_1281_1351_kim": "EVET: etkilenen NOKTA TEK: Tatta (Thatta) (yerlesimler_asya.js) s: 1281-01-01→1592-01-01 sind. `delhi-sultanligi` künyesi 1206-01-01→1526-04-21, BOYALI (harita: delhi-sultanligi) ⇒ Tatta s: [delhi-sultanligi 1281→1351-01-01, sind 1351-01-01→1592]. TDV: 'Kutbüddin Aybeg’in onu ortadan kaldırması üzerine Delhi Sultanlığı’na geçti'. Öteki 4 sind noktası (Multan 1528-, Haydarâbâd 1768-, Karaçi 1729-, Şikârpûr 1701-) 1351 SONRASI başlar, etkilenmez.",
+  "hukum": "ÜÇÜ DE EVET ⇒ koordinatör kuralına göre KISALT (sınıf ①). Aynı commit'te: ① devletler.js sind f→1351-01-01 + ad'dan 'Sûmra' çıkar ② yerlesimler_asya.js Tatta s: bölünmesi ③ Değişmez 2: 1351 kırılmasının ±30 gün maddesi ZATEN VAR (kronoloji_guney_asya.js:55 '1351-01-01 Semmâ hânedanı Sind'de hâkimiyeti ele geçirdi', taraflar YOK — taraflar:['sind','delhi-sultanligi'] eklenmeli, Z7).",
+  "yan_bulgu": "🔴 kronoloji_guney_asya.js:35 (t:1281-01-01, taraflar:['sind']) 'XI. yüzyıldan beri yerli Sûmrâ hânedanının elindeydi' der, kaynak 'sind (TDV) — Sûmrâ dönemi anlatımı'. TDV `sind` gövdesinde 'Sûm*' HİÇ GEÇMİYOR; TDV aramasında 'Sûmre'/'Sûmra' madde başlığı 0 (içerik: yalnız Gucerât/Mahmud I'de XV. yy Sumra reisleri). ⇒ atıf DAYANAKSIZ. Ayrıca bu madde ile 1298/1333 maddeleri (taraf sind) kısaltma sonrası künye penceresi DIŞINA düşer — 1298/1333 taraf → delhi-sultanligi; 1281 maddesi kaldırılmalı ya da kaynaksız işaretlenmeli (Z7)."
+ },
+ "nebhani_tam_metin": {
+  "tdv_uman_cumle": "Bir süre Nebhânîler’in hâkimiyetinde kalan Uman, V. (XI.) yüzyılın ilk yarısında Kays adasında hüküm süren Benî Kayser’in nüfuz alanına girdi. 627’de (1230) Benî Kayser’i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman’ı yönettiler. Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler.",
+  "tdv_uman_onceki_cumle": "356’da (967) Büveyhîler’in ardından Selçuklular’ın hâkimiyetine geçti. Kirman Selçukluları’nın kurucusu Kavurd Bey … 1053-1062 yılları arasındaki bir tarihte … Uman’ı zaptetti.",
+  "ayristirma": "Yan cümle iki türlü okunur: (A) '[V. (XI.) yüzyılın ilk yarısında] … girdi' — Nebhânî dönemi XI. yy ilk yarısından ÖNCE biter; (B) '[V. (XI.) yüzyılın ilk yarısında Kays adasında hüküm süren] Benî Kayser' — tarih Benî Kayser'i niteler, Nebhânî'nin bitişi TARİHSİZ kalır. Her iki okumada da TDV Nebhânî'ye HİÇBİR YIL vermez ve Nebhânî'yi 1230 ÖNCESİNE koyar. TDV'nin pozitif iddiası tek: 1230 → 1507 'Salgurlular'.",
+  "tdv_salgurlular": "TDV `salgurlular` (200, okundu): '[Ebû Bekir] Kays adasına bir ordu sevkederek burayı ele geçirdi (627/1230) ve Basra körfezi hâkimiyetini Arabistan sahillerine kadar genişletti' — AYNI 627/1230 olayı ⇒ `uman`daki 'Salgurlular' Fars hânedanıdır (10 Ağustos'un AÇIK SORUSU kapanır). Aynı madde: 'Âbiş Hatun’un … 11 Zilkade 685’te (29 Aralık 1286) ölümüyle Salgurlu hâkimiyeti sona erdi'.",
+  "celiski": "TDV KENDİSİYLE ÇELİŞİR (tuzak ⑥): `uman` Salgurlu'yu 1507'ye kadar götürür, `salgurlular` 1286-12-29'da bitirir. Atlas: nebhani 1281-01-01→1515-04-01 (21 nokta) · salgurlu 1148-01-01→1286-12-29 (TDV `salgurlular` ile GÜNÜ GÜNÜNE uyumlu).",
+  "tdv_esastir_uygulamasi": "TDV'nin iki maddesi birlikte okununca: Uman 1230→1286-12-29 SALGURLU (iki madde uyumlu) · 1287→1507 TDV'de SAHİPSİZ (uman 'Salgurlu' der ama salgurlular bunu dışlar). ⇒ ① 1281-1286 için 21 noktanın sahibi TDV'ye göre `salgurlu` (5 yıl, ufuk içinde) — Değişmez 2 kırılması + madde gerekir ② 1287-1507 için TDV pozitif sahip VERMİYOR; Nebhânî atlas kaydı TDV ile çelişmiyor ama TDV'den DAYANAK da almıyor ⇒ akademik kaynak (EI2 'Nabhānids') gerekir. Önerim: (a) 1281-1286 salgurlu kesiti — KARAR koordinatörde, 21 nokta ölçülmeden yazılmaz (Z6 alanı) (b) nebhani künyesi dokunulmadan kalır, ozet'e bu ayrıştırma eklenir, 10 Ağustos açık sorusu 'Fars Salgurluları — kapandı' diye işaretlenir."
+ },
+ "k_grubu": {
+  "olcum": "Bu künyeler BUGÜNKÜ haritada 1281-01-01'den itibaren nokta BOYUYOR (ufuk açılınca değil, ŞU AN). Tek tek s: dönemleri girdi.yukle() ile sayıldı.",
+  "kural_notu": "Kısaltma tek başına DELİK açar (Değişmez 1): her biri için 1281→kuruluş arasını tutacak öncül künye ya da beyanlı __BOSLUK__ gerekir ⇒ çoğu sınıf ③. Yalnız yüzyıl veren kaynakta YIL YAZILMAZ; VERI-YAPISI 'kesinlik:yuzyil' meşru alt sınırdır çünkü cümle künyenin KENDİSİNİ tarihliyor.",
+  "liste": [
+   {
+    "id": "lan-xang",
+    "nokta": "5 (Luang Prabang, Vientiane, Xieng Khouang, Savannakhet, Muang Sing)",
+    "kaynak": "Britannica 'Lan Xang' — Quick Facts 'Date: 1353 - 1707'",
+    "hukum": "K kesin · f 1353 (yil) · 1281-1353 öncülü künyesiz ⇒ ③"
+   },
+   {
+    "id": "magindanao-sultanligi",
+    "nokta": "1 (Kotabato)",
+    "kaynak": "TDV filipinler: '…Mindanao adasında Maguindanao Sultanlığı’nı kurmuştur (tah. 1515)'",
+    "hukum": "K kesin · f 1515 kesinlik:onyil ('tah.') · ③"
+   },
+   {
+    "id": "palembang-sultanligi",
+    "nokta": "2 (Palembang, Lampung)",
+    "kaynak": "Britannica 'Palembang': 13. yy Majapahit hâkimiyeti, 14. yy sonu yıkım, sonra Çinli tüccar idaresi; sultanlık 1659 (künyenin kendi 10 Ağustos notu)",
+    "hukum": "K kesin (sultanlık 1659) · 1281-1659 arası BİRDEN ÇOK sahip ⇒ ③, en ağır"
+   },
+   {
+    "id": "gova-makassar",
+    "nokta": "2 (Makassar, Bantaeng)",
+    "kaynak": "Britannica 'Gowa': '…1530 the Makassarese state of Gowa emerged as the strongest state, and its ruler adopted Islam in 1605'",
+    "hukum": "K (sultanlık 1605; krallığın kuruluşu kaynakta YOK) · künye adı 'Sultanlığı' ⇒ ya ad krallığa genişler ya f 1605 + öncül"
+   },
+   {
+    "id": "gond-kralliklari",
+    "nokta": "1 (Cabalpûr)",
+    "kaynak": "Britannica 'Gondwana': 'From the 14th to the 18th century the area was held by powerful Gond dynasties'",
+    "hukum": "K · kesinlik:yuzyil (XIV.) · ③"
+   },
+   {
+    "id": "bunyoro",
+    "nokta": "2 (Masindi, Hoima)",
+    "kaynak": "Britannica 'Bunyoro': 'East African kingdom that flourished from the 16th to the 19th century'",
+    "hukum": "K · kesinlik:yuzyil (XVI.) · TDV uganda yıl vermiyor · ③"
+   },
+   {
+    "id": "dagbon",
+    "nokta": "1 (Yendi)",
+    "kaynak": "Britannica 'Dagomba': 'According to tradition, the Dagomba kingdom was founded by northern invaders in the 14th century'",
+    "hukum": "K · kesinlik:yuzyil (XIV., 'geleneğe göre') · ③"
+   },
+   {
+    "id": "merina-oncesi",
+    "nokta": "3 (Toamasina, Ambohimanga, Tsiroanomandidy)",
+    "kaynak": "Britannica 'Merina': '…entered the central plateau of Madagascar in the 15th century and soon established a small kingdom there'",
+    "hukum": "K · kesinlik:yuzyil (XV.) · ③ · ⚠️ Toamasina doğu kıyısıdır, yayla krallığına 1281'den ait olması ayrıca şüpheli (D204)"
+   },
+   {
+    "id": "creek-konfederasyonu",
+    "nokta": "2 (Coweta, Ocmulgee)",
+    "kaynak": "Britannica 'Creek': 'During the 18th century a Muscogee confederacy was organized'",
+    "hukum": "K · konfederasyon XVIII. yy ⇒ 1281-1700'ler hayalet · öncül (Mississippi şeflikleri) ya da __BOSLUK__"
+   },
+   {
+    "id": "powhatan",
+    "nokta": "1 (Werowocomoco)",
+    "kaynak": "künyenin kendi kaynağı: Encyclopedia Virginia — 'Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi'",
+    "hukum": "K · künye KENDİ kaynağıyla çelişiyor ('atlas ufku 1281'e hizalandı') · kesinlik:onyil · __BOSLUK__ önerisi"
+   },
+   {
+    "id": "choctaw",
+    "nokta": "1 (Nanih Waiya)",
+    "kaynak": "Britannica 'Choctaw' kuruluş vermiyor",
+    "hukum": "ölçülemedi — bulunamadı"
+   },
+   {
+    "id": "pagaruyung",
+    "nokta": "4 (Padang, Bengkulu, Indrapura, Painan)",
+    "kaynak": "TDV sumatra/endonezya yıl vermiyor; Britannica 'Minangkabau' kuruluş vermiyor; 'Adityavarman' 404",
+    "hukum": "ölçülemedi — bulunamadı (Adityawarman 1347 model bilgisi, KAYNAK DEĞİL)"
+   },
+   {
+    "id": "matamba",
+    "nokta": "1",
+    "kaynak": "Britannica 'Matamba' 404",
+    "hukum": "ölçülemedi — bulunamadı"
+   }
+  ],
+  "gruptan_cikan": [
+   {
+    "id": "arakan",
+    "neden": "TDV arakan: Mrauk-U 1433'te KURULAN BAŞKENT; krallık önceden vardı ('1404’te Burmalılar’ın başşehir Launggret’i işgal etmeleri', '1338 Çitagong … Arakanlılar’dan') ⇒ K DEĞİL, sınıf ② (aynı Arakan krallığı). ⚠️ 1404-1430 Burma işgali arası ayrı bir senkron sorusu."
+   },
+   {
+    "id": "mossi-vagadugu",
+    "neden": "künyenin kendi kaynağı TDV burkina-faso: 'XII. yüzyıl sonunda Ouédraogo temel Mossi krallığını kurdu' ⇒ 1281'den ÖNCE ⇒ G (genişletme adayı, yüzyıl kesinliği)."
+   }
+  ]
+ }
 }

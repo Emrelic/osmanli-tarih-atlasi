@@ -117,3 +117,72 @@ yani bugünkü haritada hiç çizilmiyor. Bu bir delik değil, ufuk açılınca 
 - `denetim/ZAMAN-Z3-1008.md` (bu dosya)
 - `denetim/ZAMAN-Z3-1008-KUNYE.json`: 12 kayıt (1 yeni · 3 genişlet · 1 iptal-mükerrer · 7 dokunmadım) + `boya_onerisi` 4 +
   7 JSON ölçümünün tam listesi (`olcum_7_json`) + 129 kesik künyenin listesi (`kesik_1281`)
+
+---
+
+# TUR 2 — koordinatör hükümlerinden sonra (9 Ekim 2026)
+
+Bu tura gelen istekler: (b) sind ölç · (c) nebhani tam metin · (d) Peçenek künyesi · (f) K grubu · Z7'nin Naksa 1205/1207 boşluğu.
+Yeni yazılan üç haneli yıllar `0YYY` biçiminde. Ayrıntılar JSON'da: `sind_olcum` · `nebhani_tam_metin` · `k_grubu` ve iki yeni kayıt.
+
+## ① Öngörü (ölçümden önce)
+- sind: Semmâ künyesi yoktur; 1281–1351 için Delhi künyesi tutar; birden çok nokta etkilenir.
+- Peçenek: TDV 860'lı yılları verir.
+- K grubu: noktaları 1281'den başlıyordur, ama bunun ufuk açılınca sorun olacağını sanıyordum.
+
+## ② Ne ölçtüm
+**(b) sind: koordinatörün üç sorusunun ÜÇÜNE DE cevap EVET ⇒ KISALT (sınıf ①).**
+- Ayrı bir Semmâ künyesi yok, ama bileşik `sind` künyesi Semmâ'yı adında taşıyor ve kendi kronolojisi 1351'de Samma ile başlıyor.
+- Künyenin penceresi 1351'i kapsıyor.
+- Etkilenen yalnız **1 nokta** var (öngörüm "birden çok" diyordu, yanlış): Tatta. 1281–1351 aralığını boyalı `delhi-sultanligi` künyesi (1206–1526) karşılıyor. TDV: *"Kutbüddin Aybeg'in onu ortadan kaldırması üzerine Delhi Sultanlığı'na geçti … Hindu Semmâ kabilesi tarafından zaptedildi (1351)"*.
+- Aynı commit'te üç iş: künyede f→1351-01-01 ve addan "Sûmra" çıkarılır; Tatta'nın `s:` dönemi ikiye bölünür (koordinatör dosyası); `kronoloji_guney_asya.js:55`teki 1351 maddesine `taraflar` eklenir (Değişmez 2 maddesi zaten var).
+- 🔴 **Yan bulgu:** `kronoloji_guney_asya.js:35` (1281) Sûmra'yı "sind (TDV)"ye dayandırıyor. Oysa TDV `sind` gövdesinde "Sûm…" hiç geçmiyor; TDV aramasında Sûmre/Sûmra adlı madde yok. ⇒ Atıf dayanaksız. Kısaltmadan sonra bu madde ve 1298/1333 maddeleri künye penceresinin dışında kalır; bunlar Z7'nin işi.
+
+**(c) nebhani: tam metin ve ayrıştırma** (JSON'da birebir)
+- TDV `uman`: *"Bir süre Nebhânîler'in hâkimiyetinde kalan Uman, V. (XI.) yüzyılın ilk yarısında Kays adasında hüküm süren Benî Kayser'in nüfuz alanına girdi. 627'de (1230) Benî Kayser'i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman'ı yönettiler."*
+- Yan cümle iki türlü okunabiliyor: tarih ya "girdi" fiiline ya "Benî Kayser"e bağlanıyor. İki okumada da TDV Nebhânî'ye **hiçbir yıl vermiyor** ve Nebhânî'yi 1230'dan önceye koyuyor.
+- TDV `salgurlular` aynı 627/1230 Kays olayını anlatıyor. ⇒ `uman`daki "Salgurlular" Fars hânedanı; 10 Ağustos'tan beri açık duran soru **kapandı**.
+- Aynı madde Salgurlu hâkimiyetini **29 Aralık 1286**'da bitiriyor. ⇒ **TDV kendisiyle çelişiyor:** `uman` Salgurlu'yu 1507'ye götürüyor, `salgurlular` 1286'da bitiriyor.
+- Atlas: `nebhani` 1281→1515, 21 nokta. `salgurlu` künyesi 1286-12-29'da bitiyor, yani TDV ile uyumlu.
+- TDV'nin iki maddesi birlikte okununca: 1281–1286 arası 21 noktanın sahibi `salgurlu` (karar ister); 1287–1507 için TDV olumlu bir sahip vermiyor ⇒ akademik kaynak (EI2 'Nabhānids') gerekir. Önerim: künyeye dokunulmasın, açık soru "kapandı" diye işaretlensin.
+
+**(d) Peçenek künyesi — YENİ:** `pecenekler` **0895-01-01 → 1091-04-29** (`kesinlik:{f:"yil",t:"gun"}`), TDV `pecenekler`ten birebir alıntıyla. Kronolojisi 4 madde: 0889 · 0895 · 1049 · 1091-04-29.
+- Koordinatörün "≈860" tahmini TDV'de karşılık bulmadı. Öngörüm (860'lı yıllar) yanlıştı. TDV'de boy için 775–785 ve 889 geçiyor; Karadeniz'in kuzeyindeki siyasî yapı 895'te başlıyor.
+- TDV'de iç tutarsızlık var: Çaka Bey bağlamında "(Mart-Nisan 1081)" yazıyor, büyük ihtimalle 1091 olmalı. `t`'yi etkilemiyor.
+- Bu künye `hazar-kaganligi` (bitiş 965) ile `kipcak` (başlangıç 1054) arasındaki bozkır boşluğunu kapatıyor.
+
+**Naksa (Z7): D205 sınıf ② ⇒ GENİŞLET** `naksa-dukaligi` f 1207→**1205-01-01**.
+- TDV `naksa`: *"Marco Sanudo 1205'te sekiz gemiyle adayı … ele geçirdi, 1207'de … Nakşa dükü unvanını aldı. Böylece … Arkhipelagos Dukalığı oluştu."*
+- "Böylece" iki fiilin toplamına bağlanıyor. 1205–1207 aralığını başka bir künye tutmuyor (Sanudo'nun girişimi özel bir girişimdi).
+- ⚠️ `kronoloji_naksa_dukaligi.js:19` TDV'yi İngilizce "alıntılıyor"; bu birebir metin değil, Z7'ye bildirilsin.
+
+**(f) K grubu — 🔴 öngörüm yanlıştı ve sonuç daha ağır:** Bu künyeler **bugünkü haritada** 1281'den itibaren nokta boyuyor. Hayalet devlet sorunu ileride değil, şu anda var.
+
+| künye | nokta | kaynak | hüküm |
+|---|---|---|---|
+| lan-xang | 5 | Britannica: "Date: 1353 - 1707" | K kesin · f 1353 · ③ |
+| magindanao-sultanligi | 1 | TDV filipinler: "(tah. 1515)" | K kesin · ③ |
+| palembang-sultanligi | 2 | Britannica (13. yy Majapahit…) + künye notu (sultanlık 1659) | K · ③ (en ağır) |
+| gova-makassar | 2 | Britannica: "…1530 … Gowa emerged … adopted Islam in 1605" | K (sultanlık 1605) |
+| gond-kralliklari | 1 | Britannica: "From the 14th to the 18th century … Gond dynasties" | K · yüzyıl |
+| bunyoro | 2 | Britannica: "flourished from the 16th to the 19th century" | K · yüzyıl |
+| dagbon | 1 | Britannica: "founded … in the 14th century" (geleneğe göre) | K · yüzyıl |
+| merina-oncesi | 3 | Britannica: "15th century … established a small kingdom" | K · yüzyıl · ayrıca Toamasina şüpheli (D204) |
+| creek-konfederasyonu | 2 | Britannica: "During the 18th century a Muscogee confederacy was organized" | K |
+| powhatan | 1 | künyenin kendi kaynağı: "1500'lerin sonunda" | K · künye kendi kaynağıyla çelişiyor |
+| choctaw · pagaruyung · matamba | 1 · 4 · 1 | — | **bulunamadı** |
+
+- Gruptan çıkanlar: `arakan` (TDV'ye göre Mrauk-U 1433'te kurulan başkent, krallık daha önce de vardı ⇒ ②) ve `mossi-vagadugu` (künyenin kendi TDV kaynağı XII. yy sonu diyor ⇒ G).
+- **Kısaltma tek başına delik açar** (Değişmez 1). Her künye için öncül bir künye ya da beyanlı `__BOSLUK__` gerekir ⇒ çoğu sınıf ③. Yalnız yüzyıl veren kaynakta yıl yazılmaz; `kesinlik:"yuzyil"` meşru bir alt sınırdır, çünkü cümle künyenin kendisini tarihliyor.
+
+## ③ Ne bulamadım
+- Choctaw, Pagaruyung ve Matamba'nın kuruluşu.
+- Gowa krallığının (sultanlık öncesi) kuruluşu.
+- K grubunun öncülleri: 1281'den kuruluşa kadar o yerlerin sahibi kim, bu turda araştırılmadı. Bu bir ③ kalemi.
+- Nebhânî için EI2 (1287–1507).
+
+## ④ Ne istiyorum
+1. `pecenekler` (yeni) ve `naksa-dukaligi` genişletmesi indirilsin. Peçenek boya ister.
+2. sind kısaltması: üç şart sağlandı; kararı koordinatör verir. Uygulanırsa tek commit.
+3. nebhani: 1281–1286 `salgurlu` kesiti için karar; künye kalır.
+4. K grubu: 10 künye kaynakla 1281'den sonra kurulmuş görünüyor ve bugünkü haritayı boyuyor. Önerim, sonraki kalem olarak "öncül ya da `__BOSLUK__`" araştırması (Z6 ile ortak, çünkü noktalara dokunuyor). Ağırlık sırası: lan-xang (5 nokta) · pagaruyung (4) · merina-oncesi (3) · palembang (2, birden çok öncül).
