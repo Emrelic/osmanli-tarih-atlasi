@@ -173651,5 +173651,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5878",
+  "zaman": "2026-10-10 00:16",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 22 · tam inşa · taban 46f9d882 · ~7-8 saat (ölçülmüş: KOŞU 21 duvar 7s13dk, KOŞU 20 8s13dk; tuz değiştiği için önbellek boş, en az bu kadar). 🔴 GİRDİ KİLİTLİ: koşu süresince data/ ve arac/ DONMUŞTUR. Motor tuzuna (uret_petek.py · renkler.py · girdi.py · motor_onbellek.py) yorum satırı bile yazılmaz. Ağaç: C:\\atlas-kosu22 (ayrı worktree, detached 46f9d882, HEAD..origin/main = 0). Önbellek: C:\\atlas-onbellek (boş, sıfırdan). Dondurma: 7 Ekim'deki KOSU/token yasağı yürürlükte, DOKUNMADIM, ac KOŞTURMAYACAĞIM. ⚠️ Düzeltmen gelmeden kapat --kod KOSU'yu koşturmuştum: yalnız C:\\atlas-kosu22'deki YEREL KAYNAK-DURUM.json'a yazdı, commit/push YOK. Geri aldım (git checkout), dosya yine 7 Ekim token gerekçeli hâlinde. Bu arada motor ortam kapısı bu ağaçta GEÇTİ (çıkış 0) ⇒ koşu kapı damgası C:\\atlas-kosu22\\oturumlar\\KOSU-KAPI.json bu tabanla yazılı. ⚠️ --muaf söz dizimi (araçtan okundu): TEK --muaf, adlar VİRGÜLLE (--muaf \"A,B,C\"); tekrarlanan --muaf'ta yalnız İLKİ okunur. Başlatma 60 sn sonra: kosu_ayrik_baslat.ps1 düzeninde ayrık süreç, zincir --yayinlama ile (uret_petek → uret_devirler → altlık → bekleyenler → renk_olc → denetle → denetle_yayin). surum_damgala + commit + push'u çıkış kodlarını okuyarak ben yapacağım. Canlılık 60 dk'da bir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
