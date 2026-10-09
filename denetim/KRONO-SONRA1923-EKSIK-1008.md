@@ -83,3 +83,11 @@ ZATEN MAIN'DE 0 · çakışma 0 · geçersiz varyant 0. Sayaç değişimi yok (d
 ### İstiyorum
 v2 YAZILMADI: **iki tabanda da temiz**. İniş: (ZAMAN-PAKET) → A → B, aynı commit önerilir. Künye önerileri ayrı kalem.
 **YENİ DOSYALAR:** yok.
+
+## § v2b (1009) — KAPSAM DARALDI (UMIT İRTİBAT), paket tabanında birlikte ölçüm
+Taban: `origin/main` **0e9e8f71** (0c4b383c'den farkı yalnız 3 belge dosyası, veri/araç yok) + `ZAMAN-PAKET-1009.diff` `-C1` · ağaç `C:tlas-umit-k3` (kaldırıldı).
+- Zincir (pakette Z7-MADDE) → A → B: ✓ ✓. `+` satırları hedefte yok, ZAMAN'ın 3 maddesiyle ortak `t` 0, t+b ikizi 0 ⇒ EKSİK (bayat değil) — v2 YAZILMADI, **paketten sonra temiz** (temiz main'de de temiz).
+- `odak_olc.py` (Z+B → Z+B+C), çıkış 0 → 0, DEĞİŞEN SAYAÇLAR:
+  - SEKME madde **10809 → 10822** (+13) · SEKME_NOKTA **5357 → 5370** (+13) · TOPLAM 12610 → 12623 · odaklı 7844 → 7857 · `kronoloji_cok_1923_1945.js` 503 → 516. ODAKSIZ/kırık/OKUNMAYAN/SESSIZ aynı (13 maddenin 13'ü noktaya uçuyor).
+  - **Kaç diff dokunuyor (SEKME madde · SEKME_NOKTA):** **3** — ZAMAN-PAKET-1009 (kendi raporu: 10805→10809 · 5354→5357) · KRONO-SONRA1923-A (+8) · -B (+5). KRONO-GORUNURLUK 0. Z6 v2 henüz yok — ölçülemedi. Sıra önemli değil (toplamsal), ama tavan üçü birlikte inince yazılmalı (§3.4②).
+- `denetle.py`: önceki ölçümde bayt bayt aynı (dosya Değişmez 2 evreninde değil).

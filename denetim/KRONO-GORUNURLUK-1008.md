@@ -165,3 +165,11 @@ ZATEN MAIN'DE 0 · geçersiz varyant 0. Sayaç değişimi yok (kronoloji kuyruğ
 - İniş sırası: ZAMAN-PAKET → SUZGEC → TUR → TUR2. ⚠️ TUR2 metin olarak SUZGEC'siz de uygulanır ama ANLAMCA ona bağlı (`siyasi` TUR_GRUP'a SUZGEC ile giriyor, -DEVAM ②a) ⇒ TUR2, SUZGEC'ten önce inmesin.
 - Dosya çakışması bekleyenlerle: ZAMAN-PAKET `kronoloji_cok_once1281_iran.js`e dokunuyor (yukarıdaki sebep). Başka bekleyen bu sekiz dosyaya dokunmuyor (ZAMAN-PAKET dosya listesinden okundu; Z6 v2 henüz yok — ölçülemedi).
 **YENİ DOSYALAR:** yok.
+
+## § v2b (1009) — KAPSAM DARALDI (UMIT İRTİBAT), paket tabanında birlikte ölçüm
+Taban: `origin/main` **0e9e8f71** (0c4b383c'den farkı yalnız 3 belge dosyası, veri/araç yok) + `ZAMAN-PAKET-1009.diff` `-C1` · ağaç `C:tlas-umit-k3` (kaldırıldı).
+- Üçlü BİRLİKTE, sırayla SUZGEC → TUR → TUR2: **üçü de ✓** paket tabanında ⇒ **v2 YAZILMADI, paketten sonra temiz.**
+- **+ satırı araması (yöntem dersi):** TUR 278/278 ve TUR2 172/172 satır çiftinde `−` ile `+` arasındaki TEK fark eklenen `tur` alanı (JSON tırnaklı anahtar dahil) ⇒ hiçbir + satırı başka bir alanın ESKİ değerini taşımıyor; BAYAT satır 0.
+- Temiz main'deki TUR çakışması **gerçek çakışma değil, TABAN farkı**: `kronoloji_cok_once1281_iran.js`te main'de olmayan TEK `−` satırı (1026-01-08 "Gazneli Mahmud Somnat Kalesi'ni fethetti") ZAMAN-PAKET'in + satırıdır (doğrulandı). TUR o hâl üzerine yazılmış.
+- `odak_olc.py` (Z → Z+B): **bayt bayt aynı**, çıkış 0 (TUR/TUR2'nin eklediği `tur` alanını odak çözümü okumuyor). `denetle.py`: önceki ölçümde (0c4b383c, aynı veri) bayt bayt aynı.
+- **Kaç diff dokunuyor:** B hiçbir sayacı değiştirmiyor ⇒ B için satır boş küme. (SEKME sayaçlarına dokunanlar C'de.)
