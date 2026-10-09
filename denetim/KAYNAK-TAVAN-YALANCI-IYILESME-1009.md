@@ -26,6 +26,9 @@ defterinden SİLER ve bu kayıtlar bir daha hiç görünmez. Bu yüzden beyan ik
 #    BİÇİMİNDEN gelir: yama, eklediği 1923-1945 dönemine kendi `kaynak:` metnini yazar ve
 #    kayıt "dönem-içi" kovasına geçer. O kaynak YALNIZ 1923 sonrasını tarihler; kaydın
 #    1281-1923 zincirinin kaynak borcu KAPANMADI. Gerçek borç ≈ 1880.
+#    AYNI SINIF ZAMAN-Z6'DA: 1281 öncesi dönem kaynakları "hiçbiri"ni ~46 düşürür (Z6 v2
+#    --yaz ölçümü 1880 → 1834). Z5 + Z6 ≈ −464 bir ÖNGÖRÜDÜR, iki gövde BİRLİKTE
+#    ÖLÇÜLMEDİ — iki yama aynı sayaca dokunuyorsa toplam ancak birlikte ölçülünce bilinir.
 #    ⇒ `--kaynak-tavan-indir` bu düşüşü İYİLEŞME SAYMAZ. Defter Z5'ten önceki hâlinde
 #    BİLEREK bırakıldı. "TAVAN GEVŞEK" uyarısına uyup indiren, 418 kaydın borcunu
 #    SESSİZLEŞTİRİR (§3.4③ bu duruma UYGULANMAZ: iyileşme ölçülen şeyden değil,
@@ -33,8 +36,9 @@ defterinden SİLER ve bu kayıtlar bir daha hiç görünmez. Bu yüzden beyan ik
 ```
 
 ## Önerilen not (KAYNAK-TAVAN.json, alan adı dosyanın şemasına göre)
-"Z5 (ZAMAN-Z5-1009) inince 'hiçbiri' ~418 düşer. Düşüş YALANCI: yamanın 1923-1945 dönem
-kaynağı 1281-1923 borcunu kapatmıyor. Bu kayıtlar için `--kaynak-tavan-indir` UYGULANMAZ.
+"Z5 (ZAMAN-Z5-1009) inince 'hiçbiri' ~418, Z6 inince ~46 düşer (birlikte ≈ −464, ÖNGÖRÜ,
+birlikte ölçülmedi). Düşüş YALANCI: yamaların ufuk dışı (1923 sonrası / 1281 öncesi) dönem
+kaynakları 1281-1923 borcunu kapatmıyor. Bu kayıtlar için `--kaynak-tavan-indir` UYGULANMAZ.
 Bkz. denetim/KAYNAK-TAVAN-YALANCI-IYILESME-1009.md"
 
 ## Kalıcı çare önerisi (yazılmadı; karar koordinatörde)
