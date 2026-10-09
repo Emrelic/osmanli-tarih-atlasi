@@ -2240,7 +2240,11 @@ def kapsam_disi(Y, acik):
     ici, disi = [], []
     for kayit in acik:
         d, tip, adlar, baslik, fark = kayit
-        g = d if len(d) == 10 else (d + "-01-01")[:10]
+        # DENETLE-TARIH-KALAN-1008: üç haneli yıl ("330-05-11") önce pad()'den
+        # geçer — yoksa `(d+"-01-01")[:10]` "330-05-11-" verir ve FETRET dalının
+        # `int(g[:4])`ü ValueError ile ÇÖKER. Dolgulu ve dört haneli girdi aynı kalır.
+        g = pad(d)
+        g = g if len(g) == 10 else (g + "-01-01")[:10]
         kure = _osmanli_kure(Y, g)
         if not kure:
             # FETRET yedegi: en yakin govdeli gune kaydir
@@ -5068,9 +5072,24 @@ def _d8_d_dosyalari():
 def _d8_gun_once(g):
     from datetime import date, timedelta
     try:
-        return (date.fromisoformat(g) - timedelta(days=1)).isoformat()
+        # DENETLE-TARIH-KALAN-1008: `fromisoformat` dört haneli yıl ister;
+        # "330-05-11" pad()'siz SESSİZCE None dönüyordu (gün düşüyordu).
+        return (date.fromisoformat(pad(g)) - timedelta(days=1)).isoformat()
     except ValueError:
         return None
+
+
+def _d8_gunler(f, t):
+    """D8'in ölçeceği günler: (düşen, ölçülen) — ikisi de pad'li ve sıralı.
+
+    `_d8_gun_once` her zaman dolgulu döner (`isoformat`); `f` dolgusuz kalırsa
+    "0330-12-31" < "330-05-11" dizgi kıyası YANLIŞ dala düşer ve aynı gün iki
+    yazımla kümeye iki kez girer. ⇒ İkisi de pad'li kıyaslanır.
+    """
+    f_ = pad(f or "")
+    gunler = {pad(f), _d8_gun_once(t) if t else None}
+    return (sorted(g for g in gunler if g and g < f_),
+            sorted(g for g in gunler if g and g >= f_))
 
 
 # 🔴 GÖVDE KİMLİK SINAVI — "ölçtüğüm gövde, SİTENİN gösterdiği gövde mi?"
@@ -5363,10 +5382,10 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
         SOL, SAG = SOL.difference(ortak), SAG.difference(ortak)
         derin = cizgi.buffer(D8_DERIN)
         degme = cizgi.buffer(D8_DEGME)
-        gunler = {r.get("f"), _d8_gun_once(r.get("t")) if r.get("t") else None}
-        for g_ in sorted(g for g in gunler if g and g < (r.get("f") or "")):
+        _dusen, _olcul = _d8_gunler(r.get("f"), r.get("t"))
+        for g_ in _dusen:
             dusen_gun.append((r["id"], g_))     # eskiden SESSİZCE düşerdi (davranış aynı, artık kayıtlı)
-        for gun in sorted(g for g in gunler if g and g >= (r.get("f") or "")):
+        for gun in _olcul:
             govde = {"sol": [], "sag": []}
             for gid, g in gv.kesit(gun, kutu):
                 if gid == "__BOSLUK__":
@@ -5434,8 +5453,8 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
         BG = unary_union(poligonlar)
         M = _d8_izdusum(B["lon"], B["lat"])
         alan = affine_transform(BG, M).area
-        gunler = {B.get("f"), _d8_gun_once(B.get("t")) if B.get("t") else None}
-        for gun in sorted(g for g in gunler if g):
+        _dusen, _olcul = _d8_gunler(B.get("f"), B.get("t"))
+        for gun in sorted(_dusen + _olcul):
             parca = gv.kesit(gun, BG.bounds)
             osm = [g for gid, g in parca if gid in ("OSMANLI", "OSM-TABI")]
             yab = {}
@@ -6077,8 +6096,8 @@ def zincir_kaynagi_rapor(R, ayrinti=False):
     for ad, sebep in R["bozuk"]:
         print(f"    ✗ BOZUK BEYAN  {ad}: {sebep}")
     for ad, yer, f, t, tur, farklar in R["bayat"]:
-        gun = sum((date.fromisoformat(s) - date.fromisoformat(b)).days
-                  for b, s, _, _ in farklar)
+        gun = sum((date.fromisoformat(pad(s)) - date.fromisoformat(pad(b))).days
+                  for b, s, _, _ in farklar)     # pad: DENETLE-TARIH-KALAN-1008
         yalniz_isg = all(a[0] == k[0] for _, _, a, k in farklar)
         print(f"    BAYAT KOPYA  {ad} ← {yer}  [{f}, {t}) {tur} · {len(farklar)} dilim, {gun} gün ayrı"
               + (" · YALNIZ isg: örtüsü" if yalniz_isg else ""))
@@ -6832,7 +6851,9 @@ def main():
             _k3 = {}
             for _a, _k, _f, _t in saran:
                 _k3[_k] = _k3.get(_k, 0) + 1
-            for _k, _n in sorted(_k3.items(), key=lambda x: -x[1])[:8]:
+            # eşitlik kırıcı ad: `saran` bir KÜME, eşit sayılılar yoksa tohuma
+            # göre sıralanıyordu (YIL-DOLGU-1008 · DENETLE-TARIH-KALAN-1008)
+            for _k, _n in sorted(_k3.items(), key=lambda x: (-x[1], x[0]))[:8]:
                 print(f"    {_k:<26} {_n:4d} dönem")
         if kunyesiz:
             kim_say = {}
