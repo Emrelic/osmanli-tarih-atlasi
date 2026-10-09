@@ -220,6 +220,29 @@ daha geniş evrende sorar.
   ("temsilî" damgası uydurmayı meşrulaştırmaz). Sahte kesinlik de yasak: künyenin `f:`/`t:`
   günü bir KAYNAK DEĞİLDİR; kaynak yıl diyorsa yıl yazılır ve fark bildirilir. Pencere uçları
   (`1923-10-29`) ölçüm değeri değil sınır işaretidir. [`D210`](dersler/D210-hassasiyet-kaynagi-asamaz.md)
+  🆕 🔴 **HİCRÎ YIL TUZAĞI — `YYYY-01-01` VARSAYILANI BU ATLASIN ÇEKİRDEĞİNDE
+  YANLIŞ** (10 Ekim 2026, `NOKTA-LEVANT-KIYI-1010` dört yerde ölçtü).
+  Kaynak **hicrî yıl** veriyorsa, o yılın mîlâdî karşılığı 1 Ocak'ta BAŞLAMAZ ⇒
+  `YYYY-01-01` yazmak **kaynağın DIŞLADIĞI bir güne** yazmaktır:
+```
+hicrî 584 → 1188-03-02'de başlar   ⇒ 1188-01-01 584'ün DIŞINDA
+hicrî 686 → 1287-02-16             ⇒ 1287-01-01 DIŞINDA
+hicrî 690 → 1291-01-04             ⇒ ve olay (Akkâ) 05-18'den SONRA
+hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
+```
+  ⇒ **VARSAYILAN DEĞİŞİR:** kaynak mîlâdî yıl veriyorsa `YYYY-01-01`;
+  **hicrî yıl veriyorsa o hicrî yılın İLK MÎLÂDÎ GÜNÜ** (ya da olay bir
+  tarihten sonraysa o tarih), ve seçim `ic_not`ta hicrî aralıkla BEYAN edilir.
+  📌 Niçin bu kadar geniş: `§4` TDV'yi İslâm dünyası ve Osmanlı için birincil
+  yapar — yani atlasın **çekirdeğinin** kaynakları hicrî tarihler. Bu tuzak
+  istisna değil, **varsayılan hâl.**
+  ⚠️ Ve `kesinlik:"yil"` bunu TEK BAŞINA çözmez: alan "yıl hassasiyeti" der
+  ama yazılan GÜN hâlâ kaynağın dışındadır. Hassasiyeti beyan etmek, yanlış
+  günü doğru yapmaz.
+  🔴 **TERS SINIF, aynı vakada bulundu:** `1289-01-01` yazılmış ama TDV
+  `haclilar`da **GÜN var** (26 Nisan) ⇒ sınıfı "4 ay erken" değil,
+  **"gün kaynağı VARKEN yıl yazılmış"**. İlki kaynağı aşıyor, ikincisi
+  kaynağı KULLANMIYOR; ikisi ayrı kusur ve çareleri ayrı.
 - **Hassasiyet alanı:** tarih alanı kaynağın desteklediği en kaba güvenli düzeyi taşır, ay/gün
   metinde durur; `YYYY-MM-01` biçimi "ayın 1'i" ile "ay biliniyor"u ayırt edemez — hassasiyet
   AÇIKLAYAN alandan okunur. Kaba tarih künye penceresi dışına düşüyorsa künyenin günü
