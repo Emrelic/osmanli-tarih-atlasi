@@ -3,6 +3,82 @@
 Oturum: ZAMAN-Z1-MOTOR-UFUK-1008 (UMIT) · 8 Ekim 2026 · ağaç `C:\atlas-z1` @ `origin/makine/umit` `e28edfdc`
 Şartname: `ZAMAN-GENIS-ORTAK.md` + `GOREV-ORTAK.md` + UMIT İRTİBAT mesajı. **Veriye ve depoya yazılmadı; commit yok.**
 
+---
+# 🆕 SÜRÜM 2 (9 Ekim 2026) — koordinatör hükümleri ③ > ① > ②
+Ağaç `C:\atlas-z1b` @ `origin/makine/umit` `8b2f5415` (gun_no pad `c747b411` İÇİNDE) + Z1 s1 + Z2 APPJS.
+`MOTOR.diff` ve `ARAC.diff` **yeniden üretildi**. Sürüm 1'in **`KOORD.diff`i GEÇERSİZ**: `goller.js`e
+satır yazılmıyor (dosya geçmiş için yerinde bırakıldı, uygulanmamalı). Sınav
+`denetim/ARAC-ZAMAN-Z1-SINAV-1008.py` **31/31** (iki yönde; ⑥ GERÇEK koşulda iki koşu). Temiz bir
+ağaçta (`8b2f5415`) MOTOR + ARAC + **en güncel** Z2 APPJS: `git apply --check` temiz, sınav 31/31. LF, CR 0.
+
+## S2-③ TEK İLKE: üç kavram, TEK tanım (`arac/girdi.py`)
+```
+UFUK            = ("1000-01-01", "1945-09-02")      ÖNERİ — Emre değiştirirse tek satır
+VERI_UFKU       = ("1281-01-01", "1923-10-29")
+UFUK_DAMGASI    = frozenset(UFUK) | frozenset(VERI_UFKU)   ← dört uç gün, KIRILMA SAYILMAZ
+ufuk_devirleri()= UFUK − VERI_UFKU = [("geri",1000→1281), ("ileri",1923-10-29→1945-09-02)]
+```
+Ayrı bir liste tutulmuyor. Uçlar değişirse damga da devirler de kendiliğinden değişir.
+`VERI_UFKU = UFUK` olunca devir listesi boşalır, iki kova da kendiliğinden kapanır (sınav ② ③).
+
+| kova | şart (1) LİSTE | (2) ölçüt VERİ | (3) borçla toplanmaz | (4) beyan | ölçüm |
+|---|---|---|---|---|---|
+| **UFUK DAMGASI** (`denetle.kirilma_disi`) | dört gün, adıyla | — (tanım, kova değil) | — | ✓ | D2 624 · 2s 1723 / AÇIK 185 · 2i 171 — s1 ile aynı. Z7'nin ölçtüğü sahte kırılma yok |
+| **D1 KAPSAM DIŞI** (`denetle.degismez1_kapsam`) | ✓ (yerleşim × devir, `--ayrinti`) | ✓ o devire dokunan tek s/d/v dönemi yok | ✓ 309 ayrı satırda | ✓ | **6.804** (geri 2.676 · ileri 4.128) · borç **309** değişmedi |
+| ↳ VERİLİ DEVİR DELİĞİ | ✓ | veri VAR ama örnek günde sahipsiz ⇒ GERÇEK borç, kovaya girmez | ayrı satır, `BEKLENEN_VERILI_DELIK = None` (tavanı koordinatör yazar) | ✓ | **0** (Lapaha'nın `kur:1220` alanı var) |
+| **odak VERİ PENCERESİ DIŞI** (`odak_cozum.js veriDisi` → `SEKME_VERI_DISI`) | ✓ (madde × künye × devir) | ✓ hedef kimliğin o devire dokunan tek `dnm`i yok | ✓ SESSİZ 46 ayrı | ✓ | **19** (geri 19: selçuklu 7 · kilikya-ermeni 9 · gürcistan · memlük · bulgar-çarlığı · karaman) · SESSİZ **46** |
+
+**İki yönde, gerçek koşulda ölçüldü:** Z2 app.js'iyle kova 19, SESSİZ 46. Devir yokken (ya da Z2'siz app.js'te) kova 0
+oluyor ve aynı 19 çift SESSİZ'e geri dönüyor (sınav ⑥).
+- **0900 Mapungubwe · 0981 Bạch Đằng:** UFUK'un dışındalar, kovaya **girmedi** (sınav ⑥).
+- 🔴 **1026 Somnat kovaya GİRMEDİ. Hükmün bu kalemi şart (2)'yi tutmuyor**, bu yüzden kovaya koymadım.
+  Ölçülen sebep: madde `kronoloji_cok_once1281_iran.js:24`, `yer_kon` yazılı ama `kapsam_genis` yok ⇒
+  `sekmeDali` → `SEKME_OKUNMAYAN` / `kipirdamaz_yer_kon`. Bu dal gövdeye HİÇ bakmıyor. Gazneli'ye
+  1026 verisi yazılsa da kalem çıkmaz. Yani ölçüt veri değil, maddenin kendi alanı. Kovaya girerse kalıcı
+  istisna olur. Ayrıca bu üçlü (0900 · 0981 · 1026 OKUNMAYAN) ve 1381 Timur/iran SESSİZ **Z2'siz app.js'te de
+  aynen çıkıyor** (ölçüldü) ⇒ ufuk değişikliğinin değil, tabanın borcu. Çaresi `yer_id` ya da `kapsam_genis` (madde sahibi).
+  ⚠️ Taban ölçümü bu ağaçta 4 Ekim tarihli `devletler_harita.js` ile yapıldı (HAVVA'nınki daha taze olabilir).
+
+## S2-① ARAL — hipotez (c) KODDAN ölçüldü
+- **Motor gölü statik uyguluyor:** `uret_petek.py:776-820`: `girdi.oku_goller()` → `GOLLER` birleşimi →
+  `KARA = KARA.difference(GOLLER)` TEK sefer. `gecerli` motorda **hiç okunmuyor** (`grep gecerli` →
+  yalnız alakasız `_kvkomp_gecerli`/`_asli_gecerli`).
+- **Kapsama testi bir hata değildi, bilinçli bir seçimdi** (eski yorum: "dar pencereli gölü statik uygulamak
+  anakronizm üretir"). Ama dayandığı öncül tutmuyor: Aral'ın `gecerli` uçları ölçüm değil, UFUK DAMGASI.
+  Statik motorda iki hata da kaçınılmaz. KAPSAMA: göl geçerli olduğu yıllarda da YOK olur ve her ufuk
+  açılışında sessizce düşer. ÖRTÜŞME: göl geçerli olmadığı yıllarda da VAR olur, ama ufuk açılışından etkilenmez.
+  ⇒ **(c) doğrulandı ve girdi.py'de uygulandı.** Hiç örtüşmeyen göl yine alınmaz. Kısmi örtüşme sessiz
+  değil, dilimleriyle basılıyor ("göl KISMİ: … şu dilimlerde de UYGULANDI: 1000→1281 · 1923→1945").
+  `goller.js`e dokunulmadı. Sınav ④: kısmi göl alınır, tam/zamansız alınır, dışarıdaki alınmaz, gerçek Aral alınır.
+- Yan not, tarihî karar değil: Natural Earth baraj kuralı `year ≥ 1900` barajları statik olarak dışlıyor
+  (`uret_petek.py` ~797). Ufuk 1945'e açılınca 1900-1945 barajları kendi döneminde de yok sayılıyor. Küçük, ölçülmedi.
+
+## S2-② Ekler
+- **Yayın kapısı UFUK EŞİTLİĞİ** (`denetle_yayin.ufuk_esitligi`, H-0008 gerekçesiyle). app.js'teki üç
+  literal (`var BASLANGIC/BITIS = gunIdx("…")`, `var VERI_UFKU = [..]`) yorumlar silinerek okunuyor ve
+  her biri **tam bir kez** bulunmalı. Bulunmazsa ÖLÇÜLEMEDİ ⇒ ihlal. Sınav ⑤ altı yön: eşit → temiz ·
+  BITIS geri alınmış → İHLAL · VERI_UFKU yok / yalnız yorumda / çift tanım → ÖLÇÜLEMEDİ · VERI farklı → İHLAL.
+  Sonuç `SONUÇ` koşuluna `_ufuk_ihlali` olarak bağlandı.
+- **YIL-TEMSİLÎ:** ufuk açılınca 165 → **166**. Tek kalem, adıyla: **Lapaha (Muʻa) · s:tui-tonga-imparatorlugu
+  f:1220-01-01** (betikle doğrulandı: 1000-1281 arasında başka tarih yok). Tavan önerim:
+  **YÜKSELTME (151'de kalsın)**. Gerekçe: sayaç çıkış kodunu değiştirmiyor (yalnız uyarı), 1 Ekim kararı aynı.
+  151→166 farkının öteki 14 kalemi bu commit'in değil ve adıyla ölçülmedi. 166 yazmak onları adsız
+  affeder (§3.4-0/5). Diff'te yalnız bir yorum var: +1'in adı. Koordinatör 166 isterse tek satır.
+- **gun_no pad (`c747b411`) tabanda.** Diff'im gun_no'ya dokunmuyor; ATLAS_BASI karşılaştırması da artık
+  pad'li `degismez4` üzerinden geçiyor (Z7'nin ① bulgusu kapandı).
+- **MOTOR-TARIH-TARAMA'yı beklemeli mi:** **MOTOR yarısı EVET, araç yarısı HAYIR (ama ayrı inemez).**
+  Tarama motorda başka bir ufuk/tarih literal'i bulursa o da **aynı MOTOR.diff'e** girmeli, çünkü tuz bir kez
+  değişir (`§9.1`-2). Tam inşa koşusu zaten taramadan sonra. ARAC yarısı MOTOR'suz ImportError verdiği için
+  ikisi birlikte bekler. Önerim: paketi şimdi kayda al (KAYIT), taramanın sonucunu MOTOR.diff'e ekleyip
+  koşudan hemen önce tek commit'te indir.
+
+## S2 dosyaları (`C:\atlas-umit\denetim\`)
+`ZAMAN-Z1-1008-MOTOR.diff` (s2, başlıklı) · `ZAMAN-Z1-1008-ARAC.diff` (s2, başlıklı) ·
+`ARAC-ZAMAN-Z1-SINAV-1008.py` (yeni) · bu rapor. `ZAMAN-Z1-1008-KOORD.diff` **GEÇERSİZ** (s1, uygulanmamalı).
+
+---
+# SÜRÜM 1 (8 Ekim) — aşağısı tarihî kayıt; s2'de değişenler yukarıda
+
 ## HÜKÜM — tek paragraf
 Üç diff (MOTOR · ARAC · KOORD) **aynı commit'te ve tam inşa koşusundan önce** iner. Ayrı inemezler:
 ARAC, `girdi.VERI_UFKU`yi import eder (MOTOR'suz ImportError verir). KOORD'suz MOTOR ise Aral Gölü'nü
