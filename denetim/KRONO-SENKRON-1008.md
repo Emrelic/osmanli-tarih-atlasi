@@ -150,7 +150,7 @@ TDV aralık + "olmalıdır" veriyor; kesin olan yalnız ÜST SINIR (1468-69 tahr
 
 ---
 
-## ③ H-0001 Gürcistan (0086) — MÜKERRER ÇEKİRDEK: 0081/H-0001'in yarım kalan devamı
+## ③ H-0001 Gürcistan (0086) — ↻ TEKRAR: 0081/H-0001'in yarım kalan devamı (mükerrer çekirdek)
 
 **Mükerrer kapısı:** `denetim/KAFKAS-KORFEZ-0081-nokta.md` §3 aynı şikâyeti (Kartli+Kaheti tek
 renk) ölçmüş, üç adım önermiş. Bugünkü durum:
@@ -205,3 +205,34 @@ renk) ölçmüş, üç adım önermiş. Bugünkü durum:
 - Temel `origin/makine/umit` = `e28edfdc`; ikisi de `git apply --check --cached` temiz;
   iki diff birlikte uygulanmalı (madde ile kırılma aynı commit'te, yoksa 2t/2 oynar).
 - Tavan önerileri (§3.4, koordinatör yazar, aynı commit): `2s` 185 → **184** · `2sk` 2250 → **2251**.
+
+---
+
+## ④ Gürcistan şartı (koordinatör, 9 Ekim) — SEÇİM ②: `f` = 1492, EB1911 adıyla
+
+**Gerekçe:** ① seçilemez: 1490'ı veren kaynak YOK (TDV yıl vermiyor · EB1911 iki ayrı
+cümleyle "Alexandre saltanatının sonu" ve "1424" diyor · Iranica 403 · 0081 de bulamamıştı).
+③ yıl hassasiyetinde 1490 yazmak, kaynaksız bir yılı damgayla meşrulaştırmak olur (§4: "temsilî
+damgası uydurmayı meşrulaştırmaz"). ② kaynakla tanıklanan EN ERKEN yıldır: EB1911 'Georgia'
+«in 1492, when the king of Kakhetia sought the protection of Ivan III». Bu yıl kuruluş DEĞİL
+ÜST SINIRDIR (krallık o yıl vardı); künyede ve kalemde öyle yazıldı, iç çelişki (1424) notta.
+Bedeli: 1490-1492 arasında Zagem `gurcistan` kalır (iki yıl) — kaynaksız bir yıl yazmaktan iyi.
+
+**Diff:** `denetim/KRONO-SENKRON-1008-GURCISTAN-KOORD.diff` — YALNIZ `data/devletler.js`
+(kaheti-kralligi: f 1578-08-09→1492-01-01 · yeni kalem 1492 `kurulus` `kesinlik:"yil"` EB1911 ·
+1578 kalemi `kurulus`→`vassal` · bayat "1606 son" → 1762 son, TDV) + `data/yerlesimler.js` Zagem
+(`s:` gurcistan 1281-1492 · kaheti-kralligi 1492-1762 `kesinlik:"yil"` · gurcistan 1762-1801).
+Taban `8b2f5415`, `git apply --check --cached` temiz; CR yalnız devletler.js hunk'larında (17).
+
+**Kapı — tek başına (ağaç 8b2f5415, D8 girdileri `kodla.py coz-c` ile kurulu):**
+```
+öngörü (ölçümden önce): 2 624/0 · 2s AÇIK 185 · 2sk 2251 · 2t 13 · çıkış 2
+taban : çıkış 2 (yalnız D8 körlük)   ·  2s 1722 yabancı / 185 AÇIK / 791 kapsam dışı / 165 yıl-temsilî
+sonra : çıkış 2 (aynı kova, ihlal 0) ·  2s 1723 yabancı / 185 AÇIK / 790 kapsam dışı / 167 yıl-temsilî
+        2sk 2250 → 2250 (DEĞİŞMEDİ)  ·  2 624/0  ·  2t 13  ·  sayaç 3z m: 489 → 491 (Zagem m:Tiflis, şema borcu)
+```
+🔴 **Öngörüm 2sk'de YANLIŞ çıktı, ve önceki teslimdeki çıkarımım da:** 2sk +1 Gürcistan'dan
+GELMİYOR — tek başına ölçülünce 2250 kalıyor. ⇒ Birleşik ölçümdeki 2250→2251 **Mostar/Trebinye
+diff'inden** gelir; o tavan önerisi Mostar diff'iyle aynı commit'e gitmeli, Gürcistan'ınkiyle
+değil. Gürcistan için tavan hareketi YOK (2s AÇIK 185 sabit; yıl-temsilî 165→167 bilgi kovası,
+ihlal değil — iki yeni `YYYY-01-01` kırılması: Zagem 1492 ve 1762).
