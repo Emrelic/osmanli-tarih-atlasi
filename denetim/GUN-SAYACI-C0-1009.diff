@@ -1,0 +1,559 @@
+diff --git a/arac/gun.py b/arac/gun.py
+new file mode 100644
+index 00000000..edbd0256
+--- /dev/null
++++ b/arac/gun.py
+@@ -0,0 +1,196 @@
++# -*- coding: utf-8 -*-
++"""GÜN SAYACI — tarih dizgisi ↔ tam sayı gün. TEK otorite (ikizi: js/gun.js).
++
++GUN-SAYACI-C0-1009 · tasarım `denetim/GUN-SAYACI-TASARIM-1009.md` (koordinatör onayı, 9 Ekim 2026).
++
++## Neden
++Atlas tarihleri DİZGİ olarak karşılaştırıyordu. Bu üç yerde sessizce yanlış:
++  · negatif yıl:   "-0499" < "-2999"  (TERS sıra)
++  · üç haneli yıl: "900-01-01" > "1281-01-01"
++  · JS Date.UTC:   0-99 yılını 1900+ yapar (app.js gunIdx, ölçüldü 36.159/36.159 gün)
++Çare biçim seçmek değil, dizgi KARŞILAŞTIRMASINI TERK ETMEK: tarih okunduğu sınırda
++bir kez bu modülle sayıya çevrilir, kıyas ve sıralama yalnız sayıyla yapılır. Dizgi
++yalnız giriş/çıkış ve gösterim biçimidir.
++
++## Sözleşme (onaylı kurallar)
++  · Takvim PROLEPTİK GREGORYEN (1582 öncesi de). Bugünkü app.js `gunIdx` (JS Date) ve
++    denetle `gun_no` (Python ordinal) ikisi de böyle ⇒ bugünkü her gün BİREBİR aynı sayı.
++    Kaynağın Jülyen olup olmadığı AYRI bir veri sorusudur, burada çevrilmez.
++  · Yıl ASTRONOMİK (ISO 8601): 0 yılı VAR. MÖ 1 = 0000 · MÖ 3000 = -2999 · MS 1 = 0001.
++  · Sıfır günü 1970-01-01 = 0 (app.js `gunIdx` ile aynı; denetle ordinal'i = gun + 719163).
++  · Girdi: ^([+-]?)(\\d{1,6})(-MM(-GG)?)?$ — 908 ≡ 0908 ≡ +000908 · "1453" = 1453-01-01 ·
++    "1453-05" = 1453-05-01. Ay 1-12, gün o ayın gerçek uzunluğu (29 Şubat artık yılda).
++  · 🔴 GEÇERSİZ GİRDİDE FIRLATIR (ValueError / TypeError). None dönmek YASAK: eski
++    `denetle._gun_farki` negatif yılda None dönüyordu ve 11 site ihlali GÖRMEDEN geçiyordu.
++  · Algoritma: Howard Hinnant `days_from_civil` / `civil_from_days` — yalnız tam sayı ve
++    TABAN bölme (Python `//`, JS `Math.floor`). Date/datetime KULLANILMAZ (MINYEAR = 1).
++
++Sınav: `py denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.py` (node eşiyle, iki yönde).
++"""
++import re
++
++_RX = re.compile(r"^([+-]?)(\d{1,6})(?:-(\d{2})(?:-(\d{2}))?)?$")
++_AY_GUN = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
++
++
++def artik_mi(y):
++    """Proleptik Gregoryen artık yıl — astronomik yıl (0, -4, -400 artık)."""
++    return y % 4 == 0 and (y % 100 != 0 or y % 400 == 0)
++
++
++def ay_uzunlugu(y, a):
++    return 29 if a == 2 and artik_mi(y) else _AY_GUN[a - 1]
++
++
++def gun_sayisi(y, a, g):
++    """(astronomik yıl, ay, gün) → gün sayısı (1970-01-01 = 0). Doğrulama YAPMAZ."""
++    y -= 1 if a <= 2 else 0
++    era = y // 400
++    yoe = y - era * 400
++    doy = (153 * (a + (-3 if a > 2 else 9)) + 2) // 5 + g - 1
++    doe = yoe * 365 + yoe // 4 - yoe // 100 + doy
++    return era * 146097 + doe - 719468
++
++
++def parcala(n):
++    """gün sayısı → (astronomik yıl, ay, gün)."""
++    if isinstance(n, bool) or not isinstance(n, int):
++        raise TypeError("gün sayısı tam sayı olmalı: %r" % (n,))
++    z = n + 719468
++    era = z // 146097
++    doe = z - era * 146097
++    yoe = (doe - doe // 1460 + doe // 36524 - doe // 146096) // 365
++    doy = doe - (365 * yoe + yoe // 4 - yoe // 100)
++    mp = (5 * doy + 2) // 153
++    g = doy - (153 * mp + 2) // 5 + 1
++    a = mp + (3 if mp < 10 else -9)
++    return era * 400 + yoe + (1 if a <= 2 else 0), a, g
++
++
++def gun(s):
++    """Tarih dizgisi → gün sayısı. Geçersizse FIRLATIR."""
++    if not isinstance(s, str):
++        raise TypeError("tarih dizgi olmalı: %r" % (s,))
++    m = _RX.match(s)
++    if not m:
++        raise ValueError("tarih biçimi geçersiz: %r" % (s,))
++    y = int(m.group(2)) * (-1 if m.group(1) == "-" else 1)
++    a = int(m.group(3)) if m.group(3) else 1
++    g = int(m.group(4)) if m.group(4) else 1
++    if not 1 <= a <= 12:
++        raise ValueError("ay 1-12 olmalı: %r" % (s,))
++    if not 1 <= g <= ay_uzunlugu(y, a):
++        raise ValueError("gün o ayda yok: %r" % (s,))
++    return gun_sayisi(y, a, g)
++
++
++def _yil_dizgi(y):
++    if 0 <= y <= 9999:
++        return "%04d" % y
++    if -9999 <= y < 0:
++        return "-%04d" % -y
++    return ("+%06d" if y > 0 else "-%06d") % abs(y)    # ISO 8601 genişletilmiş
++
++
++def dizgi(n, hassasiyet="gun"):
++    """gün sayısı → kanonik dizgi. hassasiyet: "gun" (YYYY-MM-DD) · "ay" (YYYY-MM) · "yil" (YYYY)."""
++    y, a, g = parcala(n)
++    if hassasiyet == "gun":
++        return "%s-%02d-%02d" % (_yil_dizgi(y), a, g)
++    if hassasiyet == "ay":
++        return "%s-%02d" % (_yil_dizgi(y), a)
++    if hassasiyet == "yil":
++        return _yil_dizgi(y)
++    raise ValueError("hassasiyet gun/ay/yil olmalı: %r" % (hassasiyet,))
++
++
++def yil(n):
++    """gün sayısı → astronomik yıl."""
++    return parcala(n)[0]
++
++
++def yil_yazi(y):
++    """astronomik yıl → okunur yazı: 1453 → "1453" · 0 → "MÖ 1" · -2999 → "MÖ 3000"."""
++    if isinstance(y, bool) or not isinstance(y, int):
++        raise TypeError("yıl tam sayı olmalı: %r" % (y,))
++    return str(y) if y >= 1 else "MÖ %d" % (1 - y)
++
++
++# ---------------------------------------------------------------------------
++# ÇAPRAZ DENETİM — metin (`gun:"MÖ 3000"`) ile sayı çelişmez. UYARI DEĞİL KAPI:
++# çağıran (C1'de denetle) dönen listede kalem varsa çıkış ≠ 0 verir.
++# Ölçüt yalnız MÖ'ye bakar — MS metinlerinde hicrî/rûmî yıllar ("16 Zilkade 416 /
++# 8 Ocak 1026") geçer, onları yıl sanmak yanlış alarm üretir.
++#   ① metin "MÖ n" diyor  ⇒ sayının yılı 1 − n olmalı (−2999 ↔ MÖ 3000)
++#   ② sayının yılı ≤ 0 (MÖ) ⇒ metinde "MÖ n" ZORUNLU (bir yıllık yazım hatası
++#      — MÖ 3000 için "-3000" — ancak metinle yakalanır; metinsiz MÖ = yakalanamaz)
++#   ③ metin "MÖ" diyor ama sayı MS ⇒ çelişki
++# ---------------------------------------------------------------------------
++_MO_RX = re.compile(r"(?<![A-Za-zÇĞİÖŞÜçğıöşü])M\.?\s?Ö\.?\s*(\d{1,6})")
++
++
++def metin_mo_yillari(metin):
++    """Metindeki "MÖ n" / "M.Ö. n" yıllarını ASTRONOMİK yıla çevirip döker (n → 1 − n)."""
++    return [1 - int(x) for x in _MO_RX.findall(metin or "")]
++
++
++def capraz_denetim(t, metin):
++    """→ çelişki açıklaması (str) ya da None (tutarlı). `t` geçersizse FIRLATIR."""
++    y = yil(gun(t))
++    mo = metin_mo_yillari(metin)
++    if y <= 0:
++        if not mo:
++            return "MÖ tarih (%s = %s) metinsiz: gun alanında \"%s\" yazılı olmalı" % (t, yil_yazi(y), yil_yazi(y))
++        if y not in mo:
++            return "metin %s diyor, sayı %s (%s) — %+d yıl kayık" % (
++                ", ".join(yil_yazi(x) for x in mo), t, yil_yazi(y), y - mo[0])
++        return None
++    if mo:
++        return "metin %s diyor ama tarih MS (%s)" % (", ".join(yil_yazi(x) for x in mo), t)
++    return None
++
++
++def capraz_kapi(kayitlar):
++    """kayitlar: [(ad, t, metin)] → (çıkış_kodu, [satır]). Çelişki varsa 1; tarih
++    geçersizse o kalem de ihlaldir (çağıran ölçemediği tarihi TEMİZ saymaz)."""
++    satir = []
++    for ad, t, metin in kayitlar:
++        try:
++            c = capraz_denetim(t, metin)
++        except (TypeError, ValueError) as e:
++            c = "tarih okunamadı: %s" % e
++        if c:
++            satir.append("%s · %s" % (ad, c))
++    return (1 if satir else 0), satir
++
++
++# ---------------------------------------------------------------------------
++# GEÇİCİ KAPI (C0 → C3) — "veride negatif yıl var + motor sayaçsız ⇒ ÖLÇÜLEMEDİ".
++# Motor (uret_petek.py) C3'e kadar tarihleri DİZGİ olarak kıyaslar: ters sıralı bir
++# MÖ dönemi SESSİZ sahipsizlik üretir. Motorun sayaçlı olduğunu C3 tek bir işaretle
++# beyan eder: uret_petek.py içinde satır başında `GUN_SAYACI = True`. İşaret yoksa ve
++# veride yıl ≤ 0 varsa harita ÖLÇÜLEMEZ. C3 inince işaret konur, kapı kendiliğinden açılır.
++# ---------------------------------------------------------------------------
++_ISARET_RX = re.compile(r"^GUN_SAYACI\s*=\s*True\b", re.M)
++
++
++def motor_sayacli_mi(uret_petek_yolu):
++    """uret_petek.py `GUN_SAYACI = True` taşıyor mu. Dosya okunamazsa FIRLATIR."""
++    with open(uret_petek_yolu, encoding="utf-8") as f:
++        return bool(_ISARET_RX.search(f.read()))
++
++
++def negatif_yil_kapisi(tarihler, motor_sayacli):
++    """tarihler: [(ad, t)] → ("TAMAM" | "OLCULEMEDI", [satır]).
++    Okunamayan tarih de ÖLÇÜLEMEDİ'dir (temiz sayılmaz)."""
++    neg, bozuk = [], []
++    for ad, t in tarihler:
++        try:
++            if yil(gun(t)) <= 0:
++                neg.append("%s · %s (%s)" % (ad, t, yil_yazi(yil(gun(t)))))
++        except (TypeError, ValueError) as e:
++            bozuk.append("%s · %s" % (ad, e))
++    satir = ["tarih okunamadı: " + x for x in bozuk]
++    if neg and not motor_sayacli:
++        satir += ["negatif yıl, motor SAYAÇSIZ (uret_petek.py `GUN_SAYACI = True` yok): " + x for x in neg]
++    return ("OLCULEMEDI" if satir else "TAMAM"), satir
+diff --git a/denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.js b/denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.js
+new file mode 100644
+index 00000000..100b6d0e
+--- /dev/null
++++ b/denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.js
+@@ -0,0 +1,82 @@
++// GUN-SAYACI-C0-1009 SINAVI — node eşi. Python sınavı bunu çağırır; tek başına da koşar.
++// Kullanım: node denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.js <kok> <kip>
++//   kip ikiz    → js/gun.js ile vektör özeti + sınırlar + biçim varyantları + geçersizler (JSON)
++//   kip yamasiz → app.js'in GERÇEK gunIdx/idxTarih'i: negatif yıl · 0001-0099 · dizgi sırası (JSON)
++//   kip evren   → index.html'in yüklediği data/ betikleri vm'de eval; her madde t + künye f/t için
++//                 gunIdx (bugünkü) ve GUN.gun (yeni) — JSON
++const fs = require("fs"), path = require("path"), vm = require("vm"), crypto = require("crypto");
++const KOK = process.argv[2], KIP = process.argv[3];
++const GUN = require(path.join(path.resolve(KOK), "js", "gun.js"));
++const SINIRLAR = ["-2999-01-01", "-0001-12-31", "0000-01-01", "0000-02-29", "0001-01-01", "0099-12-31",
++                  "0100-01-01", "1281-01-01", "1582-10-04", "1582-10-15", "1923-10-29", "1945-09-02",
++                  "9999-12-31"];
++const VARYANT = ["908-03-01", "0908-03-01", "+000908-03-01", "1453", "1453-05", "1453-05-01",
++                 "-2999", "-002999-01-01", "-0", "+1923-10-29", "0330-05-11", "330-05-11"];
++const GECERSIZ = ["", "1923-13-01", "abc", "1281-02-30", "1900-02-29", "1453/05/29", " 1453", "1453-5-1",
++                  "1453-05-00", "1234567-01-01", "--1453"];
++
++function appGunIdx() {
++  const app = fs.readFileSync(path.join(KOK, "js", "app.js"), "utf8");
++  const c = {};
++  vm.runInNewContext(app.slice(app.indexOf("function gunIdx(s)"), app.indexOf("function idxYazi(i)"))
++                     + ";this.gunIdx=gunIdx;this.idxTarih=idxTarih;", c);
++  return c;
++}
++function dene(f) { try { return { v: f() }; } catch (e) { return { hata: e.constructor.name + ": " + e.message }; } }
++
++let cikti;
++if (KIP === "ikiz") {
++  const h = crypto.createHash("sha256");
++  const bas = GUN.gun("-2999-01-01"), son = GUN.gun("9999-12-31");
++  let kimlikHata = 0;
++  for (let z = bas; z <= son; z++) {
++    const s = GUN.dizgi(z), g = GUN.gun(s), y = GUN.yil(z);
++    if (g !== z) kimlikHata++;
++    h.update(z + "|" + s + "|" + y + "\n");
++  }
++  cikti = {
++    aralik: [bas, son], gun_sayisi: son - bas + 1, ozet: h.digest("hex"), kimlik_hata: kimlikHata,
++    sinir: SINIRLAR.map(s => [s, dene(() => GUN.gun(s))]),
++    varyant: VARYANT.map(s => [s, dene(() => GUN.gun(s))]),
++    gecersiz: GECERSIZ.map(s => [s, dene(() => GUN.gun(s))]),
++    yil_yazi: [1453, 1, 0, -1, -2999].map(y => [y, GUN.yilYazi(y)]),
++    dizgi_hass: [["gun", GUN.dizgi(GUN.gun("-2999-03-01"), "gun")], ["ay", GUN.dizgi(GUN.gun("-2999-03-01"), "ay")],
++                 ["yil", GUN.dizgi(GUN.gun("-2999-03-01"), "yil")], ["10000", GUN.dizgi(GUN.gun("+010000-01-01"))]],
++  };
++} else if (KIP === "yamasiz") {
++  const A = appGunIdx();
++  const neg = ["-2999-01-01", "-0499-03-01", "0000-01-01"].map(s => {
++    const g = A.gunIdx(s); return [s, g, A.idxTarih(g).y, GUN.gun(s), GUN.yil(GUN.gun(s))];
++  });
++  let kayik = 0, toplam = 0;
++  for (let z = GUN.gun("0001-01-01"); z < GUN.gun("0100-01-01"); z++) { toplam++; if (A.gunIdx(GUN.dizgi(z)) !== z) kayik++; }
++  const L = ["-2999-01-01", "-1199-06-15", "-0499-01-01", "0000-01-01", "330-05-11", "1281-01-01"];
++  cikti = { negatif: neg, d0099: [kayik, toplam],
++            dizgi_sira: [...L].sort(), sayi_sira: [...L].sort((a, b) => GUN.gun(a) - GUN.gun(b)) };
++} else if (KIP === "evren") {
++  const A = appGunIdx();
++  const html = fs.readFileSync(path.join(KOK, "index.html"), "utf8");
++  const srcs = [...html.matchAll(/<script[^>]+src="(data\/[^"?]+)/g)].map(m => m[1]);
++  const ctx = { console: { log() {}, warn() {}, error() {} } };
++  ctx.window = ctx; ctx.self = ctx; ctx.document = { addEventListener() {}, querySelector() { return null; } };
++  vm.createContext(ctx);
++  const hata = [];
++  for (const s of srcs) {
++    try { vm.runInContext(fs.readFileSync(path.join(KOK, s), "utf8"), ctx, { filename: s }); }
++    catch (e) { hata.push(s + ": " + String(e.message).slice(0, 120)); }
++  }
++  const tarih = new Set();
++  for (const k of Object.keys(ctx)) {
++    if (!(/^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) || /^KRONOLOJI_[A-Z0-9_]+$/.test(k)) || !Array.isArray(ctx[k])) continue;
++    for (const m of ctx[k]) if (m && m.t != null) tarih.add(String(m.t));
++  }
++  for (const d of (ctx.DEVLETLER || [])) {
++    for (const x of [d.f, d.t]) if (x != null) tarih.add(String(x));
++    for (const m of (d.kronoloji || [])) if (m && m.t != null) tarih.add(String(m.t));
++  }
++  const satir = [...tarih].sort().map(s => [s, dene(() => A.gunIdx(s)).v ?? null, dene(() => GUN.gun(s))]);
++  cikti = { betik: srcs.length, eval_hata: hata, tarih: satir };
++} else {
++  console.error("kip: ikiz | yamasiz | evren"); process.exit(2);
++}
++process.stdout.write(JSON.stringify(cikti));
+diff --git a/denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.py b/denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.py
+new file mode 100644
+index 00000000..b70c3666
+--- /dev/null
++++ b/denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.py
+@@ -0,0 +1,179 @@
++# GUN-SAYACI-C0-1009 SINAVI — arac/gun.py + js/gun.js, İKİ YÖNDE.
++# Kullanım (ağaç kökünden): py denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.py
++#   node eşi: denetim/ARAC-GUN-SAYACI-C0-SINAV-1009.js (bu betik çağırır)
++# Bölümler: A yamasız kol (kusur GERÇEKTEN var) · B ikiz eşitliği · C gerileme (veri evreni) ·
++#           D geçersiz girdi fırlatır · E çapraz denetim kapısı · F geçici kapı (ÖLÇÜLEMEDİ)
++import hashlib, io, json, os, subprocess, sys, tempfile
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++sys.path.insert(0, os.path.join(KOK, "arac"))
++if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
++    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
++import gun as G
++import denetle, girdi
++
++SONUC = []
++def sor(ad, kosul, ek=""):
++    SONUC.append((ad, bool(kosul)))
++    print(("✓ " if kosul else "✗ ") + ad + (("  · " + ek) if ek else ""))
++
++def node(kip):
++    r = subprocess.run(["node", "--max-old-space-size=1500", os.path.join(KOK, "denetim", "ARAC-GUN-SAYACI-C0-SINAV-1009.js"),
++                        KOK, kip], capture_output=True, text=True, encoding="utf-8")
++    if r.returncode != 0:
++        raise SystemExit("node %s çıkış %d: %s" % (kip, r.returncode, r.stderr[:300]))
++    return json.loads(r.stdout)
++
++def dene(f):
++    try:
++        return {"v": f()}
++    except Exception as e:                              # noqa: BLE001
++        return {"hata": "%s: %s" % (type(e).__name__, e)}
++
++# ---------------------------------------------------------------- A yamasız kol
++print("A — YAMASIZ KOL (bugünkü okuyucular, gerçekten koşturuldu)")
++Y = node("yamasiz")
++g, y_app = Y["negatif"][0][1], Y["negatif"][0][2]
++sor("A1 app.js gunIdx('-2999-01-01') → yıl 2149 (KUSUR VAR)", y_app == 2149, "gunIdx=%s → y=%s" % (g, y_app))
++sor("A1' yeni gun('-2999-01-01') → yıl −2999", Y["negatif"][0][4] == -2999 and G.yil(G.gun("-2999-01-01")) == -2999)
++sor("A2 Date.UTC 0001-0099: gunIdx her günü kaydırıyor (KUSUR VAR)", Y["d0099"][0] == Y["d0099"][1] > 0,
++    "%d / %d gün" % tuple(Y["d0099"]))
++sor("A3 denetle._gun_farki negatifte None (KUSUR VAR)", denetle._gun_farki("-2999-01-01", "1281-01-01") is None)
++_bag = sum(366 if G.artik_mi(y) else 365 for y in range(-2999, 1281))   # bağımsız: yıl uzunlukları toplamı
++sor("A3' yeni: gün farkı sayıyla (= -2999…1280 yıl uzunlukları toplamı)",
++    G.gun("1281-01-01") - G.gun("-2999-01-01") == _bag, "%d gün" % _bag)
++a4 = dene(lambda: denetle.gun_no("-2999-01-01"))
++sor("A4 denetle.gun_no negatifte ÇÖKÜYOR (KUSUR VAR)", "hata" in a4, a4.get("hata", ""))
++L = ["-2999-01-01", "-1199-06-15", "-0499-01-01", "0000-01-01", "330-05-11", "1281-01-01"]
++sor("A5 dizgi sırası YANLIŞ (KUSUR VAR, Py ve JS)", sorted(L) != L and Y["dizgi_sira"] == sorted(L),
++    " < ".join(sorted(L)))
++sor("A5' sayı sırası DOĞRU (Py ve JS)", sorted(L, key=G.gun) == L and Y["sayi_sira"] == L)
++
++# ---------------------------------------------------------------- B ikiz eşitliği
++print("\nB — İKİZ EŞİTLİĞİ (Python ↔ JS, aynı vektör)")
++J = node("ikiz")
++h = hashlib.sha256()
++bas, son = G.gun("-2999-01-01"), G.gun("9999-12-31")
++kimlik = 0
++for z in range(bas, son + 1):
++    s = G.dizgi(z)
++    if G.gun(s) != z:
++        kimlik += 1
++    h.update(("%d|%s|%d\n" % (z, s, G.yil(z))).encode())
++sor("B1 aralık aynı (MÖ 3000 → 9999-12-31)", J["aralik"] == [bas, son], "%d gün" % (son - bas + 1))
++sor("B2 gün×dizgi×yıl özeti BİREBİR (her gün)", J["ozet"] == h.hexdigest(), h.hexdigest()[:16])
++sor("B3 gidiş-dönüş gun(dizgi(z)) == z (Py 0 hata · JS 0 hata)", kimlik == 0 and J["kimlik_hata"] == 0)
++for kume in ("sinir", "varyant", "gecersiz"):
++    farkli = []
++    for s, jr in J[kume]:
++        pr = dene(lambda: G.gun(s))
++        if ("v" in pr) != ("v" in jr) or pr.get("v") != jr.get("v"):
++            farkli.append((s, pr, jr))
++    sor("B4 %s kümesi Py ↔ JS aynı (%d girdi)" % (kume, len(J[kume])), not farkli, str(farkli[:2]))
++v = dict((s, r.get("v")) for s, r in J["varyant"])
++sor("B5 908 ≡ 0908 ≡ +000908", v["908-03-01"] == v["0908-03-01"] == v["+000908-03-01"] == G.gun("0908-03-01"))
++sor("B6 '1453' = '1453-05'−120 = 1453-01-01", v["1453"] == G.gun("1453-01-01") and v["1453-05"] == G.gun("1453-05-01"))
++sor("B7 MÖ 3000 = -2999 ≡ -002999-01-01", v["-2999"] == v["-002999-01-01"] == G.gun("-2999-01-01"))
++sor("B8 0 yılı var ve artık: 0000-02-29 geçerli", "v" in dict(J["sinir"])["0000-02-29"] and G.artik_mi(0))
++sor("B9 1582-10-04 → 1582-10-15 arası 11 gün (proleptik Gregoryen, Jülyen sıçraması YOK)",
++    G.gun("1582-10-15") - G.gun("1582-10-04") == 11)
++sor("B10 yil_yazi Py ↔ JS", all(G.yil_yazi(y) == w for y, w in J["yil_yazi"]),
++    " · ".join(w for _, w in J["yil_yazi"]))
++sor("B11 dizgi hassasiyetleri Py ↔ JS", [G.dizgi(G.gun("-2999-03-01"), "gun"), G.dizgi(G.gun("-2999-03-01"), "ay"),
++    G.dizgi(G.gun("-2999-03-01"), "yil"), G.dizgi(G.gun("+010000-01-01"))] == [x for _, x in J["dizgi_hass"]],
++    str([x for _, x in J["dizgi_hass"]]))
++
++# ---------------------------------------------------------------- C gerileme
++print("\nC — GERİLEME (bugünkü veri evreni: girdi.yukle + devletler + kronoloji)")
++tar = set()
++Yer = girdi.yukle(sessiz=True)
++for y in Yer:
++    for kat in ("s", "d", "v", "isg", "kd"):
++        for p in y.get(kat) or []:
++            for k in ("f", "t"):
++                if p.get(k):
++                    tar.add(p[k])
++    for k in ("kur", "bit"):
++        if y.get(k):
++            tar.add(y[k])
++for d in girdi.oku_devletler():
++    for k in ("f", "t"):
++        if d.get(k):
++            tar.add(str(d[k]))
++E = node("evren")
++app_gi = {}
++for s, gi, jr in E["tarih"]:
++    tar.add(s)
++    app_gi[s] = (gi, jr)
++print("   evren: %d yerleşim · %d betik (eval hatası %d) · %d ayrık tarih dizgisi"
++      % (len(Yer), E["betik"], len(E["eval_hata"]), len(tar)))
++okunamaz, py_fark, eski_cokus, js_fark, js_yeni_fark = [], [], [], [], []
++for s in sorted(tar):
++    r = dene(lambda: G.gun(s))
++    if "hata" in r:
++        okunamaz.append((s, r["hata"])); continue
++    e = dene(lambda: denetle.gun_no(s) - 719163)
++    if "hata" in e:
++        eski_cokus.append(s)
++    elif e["v"] != r["v"]:
++        py_fark.append((s, e["v"], r["v"]))
++    if s in app_gi:
++        gi, jr = app_gi[s]
++        if gi != r["v"]:
++            js_fark.append((s, gi, r["v"]))
++        if jr.get("v") != r["v"]:
++            js_yeni_fark.append(s)
++sor("C1 her tarih yeni sayaçla OKUNUYOR (geçersiz 0)", not okunamaz, str(okunamaz[:5]))
++sor("C2 gun() == bugünkü gun_no − 719163 (okunabilen her tarihte)", not py_fark, str(py_fark[:5]))
++sor("C3 gun() == bugünkü app.js gunIdx (kronoloji + künye evreni)", not js_fark, str(js_fark[:5]))
++sor("C4 JS gun.js == Python gun.py (evren)", not js_yeni_fark, str(js_yeni_fark[:5]))
++print("   bilgi: bugünkü gun_no'nun OKUYAMADIĞI tarih %d (yeni sayaç okuyor): %s" % (len(eski_cokus), eski_cokus[:8]))
++
++# ---------------------------------------------------------------- D geçersiz
++print("\nD — GEÇERSİZ GİRDİ FIRLATIR (None/NaN yasak)")
++for s in ["", "1923-13-01", "abc", "1281-02-30", "1900-02-29", "1453/05/29", "1453-5-1", "1453-05-00"]:
++    r = dene(lambda: G.gun(s))
++    sor("D %-12r fırlatıyor" % s, "hata" in r, r.get("hata", "DÖNDÜ: %r" % r.get("v")))
++for x in (None, 1453, 14.5):
++    r = dene(lambda: G.gun(x))
++    sor("D tip %-8r fırlatıyor" % (x,), "hata" in r)
++sor("D JS geçersizlerin HEPSİ fırlatıyor", all("hata" in jr for _, jr in J["gecersiz"]))
++
++# ---------------------------------------------------------------- E çapraz denetim kapısı
++print("\nE — ÇAPRAZ DENETİM (UYARI DEĞİL KAPI)")
++kod, sat = G.capraz_kapi([("Uruk", "-2999-01-01", "MÖ 3000"), ("Ur", "-2111-01-01", "M.Ö. 2112 civarı"),
++                          ("İstanbul", "1453-05-29", "29 Mayıs 1453"),
++                          ("Somnat", "1026-01-08", "16 Zilkade 416 / 8 Ocak 1026")])
++sor("E1 tutarlı metinler GEÇER (çıkış 0)", kod == 0, str(sat))
++for ad, t, m, bek in [("Uruk-kayık", "-3000-01-01", "MÖ 3000", "1 yıl kayık"),
++                      ("Uruk-metinsiz", "-2999-01-01", "", "metinsiz MÖ"),
++                      ("MS-ama-MÖ-metin", "0300-01-01", "MÖ 300", "MS tarih + MÖ metin"),
++                      ("bozuk-tarih", "-2999-13-01", "MÖ 3000", "okunamayan tarih")]:
++    kod, sat = G.capraz_kapi([(ad, t, m)])
++    sor("E2 %s ⇒ çıkış ≠ 0 (%s)" % (ad, bek), kod != 0, sat[0] if sat else "GEÇTİ")
++
++# ---------------------------------------------------------------- F geçici kapı
++print("\nF — GEÇİCİ KAPI: negatif yıl + motor sayaçsız ⇒ ÖLÇÜLEMEDİ")
++gercek = G.motor_sayacli_mi(os.path.join(KOK, "arac", "uret_petek.py"))
++sor("F0 bugünkü uret_petek.py SAYAÇSIZ (işaret yok)", gercek is False)
++uyd = [("Uruk (uydurma)", "-2999-01-01"), ("İstanbul", "1453-05-29")]
++d, s = G.negatif_yil_kapisi(uyd, gercek)
++sor("F1 uydurma MÖ kayıt + bugünkü motor ⇒ ÖLÇÜLEMEDİ", d == "OLCULEMEDI", s[0] if s else "")
++d, s = G.negatif_yil_kapisi([("İstanbul", "1453-05-29"), ("Bizans", "330-05-11")], gercek)
++sor("F2 negatif yıl yok ⇒ TAMAM (bugünkü veri kapıdan geçer)", d == "TAMAM")
++d, s = G.negatif_yil_kapisi(uyd, True)
++sor("F3 motor sayaçlı ⇒ TAMAM", d == "TAMAM")
++d, s = G.negatif_yil_kapisi([("bozuk", "abc")], True)
++sor("F4 okunamayan tarih ⇒ ÖLÇÜLEMEDİ (temiz sayılmaz)", d == "OLCULEMEDI")
++with tempfile.TemporaryDirectory() as td:
++    for metin, bek in [("x = 1\nGUN_SAYACI = True\n", True), ("# GUN_SAYACI = True\n", False),
++                       ("    GUN_SAYACI = True\n", False), ("GUN_SAYACI = False\n", False)]:
++        yol = os.path.join(td, "u.py")
++        io.open(yol, "w", encoding="utf-8").write(metin)
++        sor("F5 işaret %-24r ⇒ sayaçlı=%s" % (metin.strip(), bek), G.motor_sayacli_mi(yol) is bek)
++d, s = G.negatif_yil_kapisi([(y["ad"], p[k]) for y in Yer for kat in ("s", "d", "v", "isg")
++                             for p in y.get(kat) or [] for k in ("f", "t") if p.get(k)], gercek)
++sor("F6 BUGÜNKÜ yerleşim verisi kapıdan GEÇİYOR (negatif yıl 0)", d == "TAMAM", "%d satır" % len(s))
++
++n = sum(1 for _, k in SONUC if k)
++print("\nSONUÇ: %d/%d" % (n, len(SONUC)))
++sys.exit(0 if n == len(SONUC) else 1)
+diff --git a/js/gun.js b/js/gun.js
+new file mode 100644
+index 00000000..8b7f95cb
+--- /dev/null
++++ b/js/gun.js
+@@ -0,0 +1,78 @@
++// GÜN SAYACI — tarih dizgisi ↔ tam sayı gün. İKİZİ: arac/gun.py (TEK sözleşme, aynı vektörle sınanır).
++// GUN-SAYACI-C0-1009 · tasarım denetim/GUN-SAYACI-TASARIM-1009.md (koordinatör onayı, 9 Ekim 2026).
++//
++// Sözleşme (ayrıntı ve gerekçe arac/gun.py başında):
++//   · proleptik Gregoryen · ASTRONOMİK yıl (0 VAR: MÖ 1 = 0000 · MÖ 3000 = -2999 · MS 1 = 0001)
++//   · 1970-01-01 = 0 (bugünkü app.js gunIdx ile aynı sıfır günü)
++//   · girdi ^([+-]?)(\d{1,6})(-MM(-GG)?)?$ — 908 ≡ 0908 ≡ +000908
++//   · 🔴 geçersiz girdide THROW — NaN/undefined dönmek YASAK
++//   · Hinnant days_from_civil — Date KULLANILMAZ (Date.UTC 0-99 yılını 1900+ yapar)
++// Tarayıcıda `window.GUN`, node'da `module.exports`. app.js'e C2'de bağlanır (C0'da tüketicisiz).
++(function (kok) {
++  "use strict";
++  var RX = /^([+-]?)(\d{1,6})(?:-(\d{2})(?:-(\d{2}))?)?$/;
++  var AY_GUN = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
++  function fdiv(a, b) { return Math.floor(a / b); }
++
++  function artikMi(y) { return y % 4 === 0 && (y % 100 !== 0 || y % 400 === 0); }
++  function ayUzunlugu(y, a) { return a === 2 && artikMi(y) ? 29 : AY_GUN[a - 1]; }
++
++  function gunSayisi(y, a, g) {                 // doğrulama YAPMAZ
++    y -= a <= 2 ? 1 : 0;
++    var era = fdiv(y, 400), yoe = y - era * 400;
++    var doy = fdiv(153 * (a + (a > 2 ? -3 : 9)) + 2, 5) + g - 1;
++    var doe = yoe * 365 + fdiv(yoe, 4) - fdiv(yoe, 100) + doy;
++    return era * 146097 + doe - 719468;
++  }
++
++  function parcala(n) {                         // → [astronomik yıl, ay, gün]
++    if (typeof n !== "number" || !Number.isInteger(n)) throw new TypeError("gün sayısı tam sayı olmalı: " + n);
++    var z = n + 719468;
++    var era = fdiv(z, 146097), doe = z - era * 146097;
++    var yoe = fdiv(doe - fdiv(doe, 1460) + fdiv(doe, 36524) - fdiv(doe, 146096), 365);
++    var doy = doe - (365 * yoe + fdiv(yoe, 4) - fdiv(yoe, 100));
++    var mp = fdiv(5 * doy + 2, 153);
++    var g = doy - fdiv(153 * mp + 2, 5) + 1;
++    var a = mp + (mp < 10 ? 3 : -9);
++    return [era * 400 + yoe + (a <= 2 ? 1 : 0), a, g];
++  }
++
++  function gun(s) {
++    if (typeof s !== "string") throw new TypeError("tarih dizgi olmalı: " + s);
++    var m = RX.exec(s);
++    if (!m) throw new RangeError("tarih biçimi geçersiz: " + JSON.stringify(s));
++    var y = (m[1] === "-" ? -1 : 1) * parseInt(m[2], 10);
++    if (y === 0) y = 0;                         // -0 → 0
++    var a = m[3] ? parseInt(m[3], 10) : 1, g = m[4] ? parseInt(m[4], 10) : 1;
++    if (a < 1 || a > 12) throw new RangeError("ay 1-12 olmalı: " + JSON.stringify(s));
++    if (g < 1 || g > ayUzunlugu(y, a)) throw new RangeError("gün o ayda yok: " + JSON.stringify(s));
++    return gunSayisi(y, a, g);
++  }
++
++  function pad(n, w) { var s = String(n); while (s.length < w) s = "0" + s; return s; }
++  function yilDizgi(y) {
++    if (y >= 0 && y <= 9999) return pad(y, 4);
++    if (y < 0 && y >= -9999) return "-" + pad(-y, 4);
++    return (y > 0 ? "+" : "-") + pad(Math.abs(y), 6);      // ISO 8601 genişletilmiş
++  }
++
++  function dizgi(n, hassasiyet) {
++    var p = parcala(n), h = hassasiyet || "gun";
++    if (h === "gun") return yilDizgi(p[0]) + "-" + pad(p[1], 2) + "-" + pad(p[2], 2);
++    if (h === "ay") return yilDizgi(p[0]) + "-" + pad(p[1], 2);
++    if (h === "yil") return yilDizgi(p[0]);
++    throw new RangeError("hassasiyet gun/ay/yil olmalı: " + h);
++  }
++
++  function yil(n) { return parcala(n)[0]; }
++
++  function yilYazi(y) {
++    if (typeof y !== "number" || !Number.isInteger(y)) throw new TypeError("yıl tam sayı olmalı: " + y);
++    return y >= 1 ? String(y) : "MÖ " + (1 - y);
++  }
++
++  var GUN = { gun: gun, dizgi: dizgi, yil: yil, yilYazi: yilYazi, parcala: parcala,
++              gunSayisi: gunSayisi, artikMi: artikMi, ayUzunlugu: ayUzunlugu };
++  if (typeof module !== "undefined" && module.exports) module.exports = GUN;
++  else kok.GUN = GUN;
++})(typeof window !== "undefined" ? window : this);
