@@ -10,6 +10,13 @@
 
     py arac/_sahiplik_uygula.py           KURU KOŞU (hiçbir şey yazmaz)
     py arac/_sahiplik_uygula.py --yaz     gerçekten yaz
+    --yama-glob <regex>                   yama dosyası süzgeci (öntanımlı ^yer_yama.*\.js$)
+
+ÇIKIŞ: 0 temiz · 1 node hatası · 2 BAYAT YAMA (yazılmadı) · 3 geri alma kapısı ölçemedi ·
+       4 (SAHIPLIK-UYGULA-KUSUR-1008) GERİ OKUMA doğrulamadı ya da TANINMAYAN kayıt var.
+       Geri okuma: değişen her dosya motorun okuyucusuyla (`girdi._cevir`) yeniden
+       ayrıştırılır; kaydın son değeri = yazılan değer, öteki her şey birebir aynı olmalı.
+       Önce bellekte (tutmazsa HİÇBİR ŞEY yazılmaz), yazımdan sonra DİSKTEN.
 
 ═══ NİÇİN VAR ═══
 Üç yama ailesi ölçüldü, ikisinin uygulayıcısı vardı, ÜÇÜNCÜSÜNÜNKİ YOKTU:
@@ -50,6 +57,7 @@
      `Değişmez 2` onu denetler. `s:` yabancı günleri `2s`nin işi ve onun
      tavanı 121, yani doluluk payı var; orada UYARI verilir, ENGEL değil.
 """
+import bisect
 import collections
 import io
 import json
@@ -64,13 +72,24 @@ if hasattr(sys.stdout, "reconfigure"):
 KOK = os.getcwd()
 VERI = os.path.join(KOK, "data")
 YAZ = "--yaz" in sys.argv
+# `--yama-glob <regex>` — hangi `data/` dosyaları YAMA sayılır (öntanımlı `^yer_yama.*\.js$`).
+#   SAHIPLIK-UYGULA-KUSUR-1008: sınavın tek bir yamayı, inmiş yamaların glob'u
+#   (174 kaydı geri alır — dosya başı) DIŞINDA koşturabilmesi için.
+YAMA_GLOB = r"^yer_yama.*\.js$"
+if "--yama-glob" in sys.argv:
+    YAMA_GLOB = sys.argv[sys.argv.index("--yama-glob") + 1]
+# Sınav kancası (yalnız `denetim/ARAC-SAHIPLIK-UYGULA-SINAV-1008.py`): adı verilen kaydın
+# yazılacak metnine yapay bir MÜKERRER anahtar eklenir — geri okumanın onu yakaladığı
+# (çıkış 4, hiçbir dosya yazılmadan) İKİNCİ YÖNDE sınanır. Gerçek koşuda boştur.
+SINAV_BOZ = os.environ.get("SAHIPLIK_SINAV_BOZ", "")
 
 # ─────────────────────────────────────────────────────────── ① yamaları oku
 JS = r"""
 global.window = {};
 const fs = require('fs');
 const kaynak = {};
-for (const f of fs.readdirSync('data').filter(x => /^yer_yama.*\.js$/.test(x))) {
+const GLOB = new RegExp(process.env.YAMA_GLOB);
+for (const f of fs.readdirSync('data').filter(x => GLOB.test(x))) {
   const onceki = new Set(Object.keys(global.window));
   try { eval(fs.readFileSync('data/' + f, 'utf8')); } catch (e) { continue; }
   for (const k of Object.keys(global.window)) if (!onceki.has(k)) kaynak[k] = f;
@@ -103,7 +122,8 @@ for (const k of Object.keys(global.window)) {
 }
 process.stdout.write(JSON.stringify(cik));
 """
-p = subprocess.run(["node", "-e", JS], cwd=KOK, capture_output=True)
+p = subprocess.run(["node", "-e", JS], cwd=KOK, capture_output=True,
+                   env=dict(os.environ, YAMA_GLOB=YAMA_GLOB))
 if p.returncode != 0:
     print("NODE HATASI:\n" + p.stderr.decode("utf-8", "replace")[:800])
     raise SystemExit(1)
@@ -172,31 +192,109 @@ except Exception as _e:  # noqa: BLE001
           % (type(_e).__name__, _e))
     raise SystemExit(3)
 
-DOSYALAR = list(girdi.GIRDI_DOSYALARI)
-AD_RX = re.compile(r'\bad:\s*"((?:[^"\\]|\\.)*)"')
+# ══ ALAN ARAMASI DİZGE İÇİNİ ATLAR — 7 Eylül 2026, 1.MURAT ══════════════
+# 🔴 VE BU BİR VERİ BOZULMASINDAN DOĞDU, teoriden değil.
+#   `Zagem (Kaheti)` kaydına bir `neden:` beyanı indi ve o beyanın METNİ
+#   şu cümleyi içeriyordu:
+#       "Veri de aynı günle teyit ediyor: v:[{f:"1578-08-09",…}]"
+#   `ALAN_RX["v"]` = `\bv:\s*\[` o düzyazıdaki `v:[`i YAKALADI, `dizi_sonu`
+#   cümlenin içindeki `]`i buldu, ve aralığı HAM JS ile değiştirdi.
+#   Sonuç: `neden:` dizgesi ortasından kapandı, `yerlesimler.js`
+#   AYRIŞTIRILAMAZ hâle geldi (`denetle.py` JSONDecodeError ile öldü).
+#
+# 📌 §11'in *"bir alet, aradığı şeyin NEREDE OLMAYACAĞINI da bilmeli"*
+#   ailesinin YENİ ekseni. Önceki üyeler yorumda · başlıkta · önsözde
+#   arıyordu; bu **kaydın KENDİ DÜZYAZISINDA** arıyor — ve o düzyazı
+#   veriyle aynı sözdizimini taşıyor, çünkü veriyi ANLATIYOR.
+#   ⚠️ Kusur yıllardır oradaydı ve ateşlemedi: ancak `v:[…]` içeren bir
+#     metin, `v:` alanı da olan bir kayda inince patlar.
+def _dizge_maskesi(s):
+    """Her karakter için 1 = JS dizgesinin ya da YORUMUN İÇİNDE.
 
-def _denge(s):
-    """Satırdaki { } [ ] dengesi — tırnak ve kaçış farkında."""
-    d = 0
-    tirnak = False
+    Yorumlar da maskelenir: bir kaydın üstündeki `// d: 1352'de başlıyordu`
+    yorumu, `d:` alanı sanılmamalı.
+    """
+    maske = bytearray(len(s))
+    tirnak = None
     kacis = False
-    for c in s:
+    i = 0
+    n = len(s)
+    while i < n:
+        c = s[i]
         if kacis:
             kacis = False
-            continue
-        if c == "\\":
-            kacis = True
-            continue
-        if c == '"':
-            tirnak = not tirnak
+            maske[i] = 1
+            i += 1
             continue
         if tirnak:
+            maske[i] = 1
+            if c == "\\":
+                kacis = True
+            elif c == tirnak:
+                tirnak = None
+            i += 1
             continue
-        if c in "{[":
-            d += 1
-        elif c in "}]":
-            d -= 1
-    return d
+        if c in "\"'":
+            tirnak = c
+            maske[i] = 1
+            i += 1
+            continue
+        if c == "/" and i + 1 < n and s[i + 1] == "/":
+            while i < n and s[i] != "\n":
+                maske[i] = 1
+                i += 1
+            continue
+        if c == "/" and i + 1 < n and s[i + 1] == "*":
+            maske[i] = maske[i + 1] = 1
+            i += 2
+            while i < n and not (s[i] == "*" and i + 1 < n and s[i + 1] == "/"):
+                maske[i] = 1
+                i += 1
+            while i < n and i < len(s) and s[i] in "*/":
+                maske[i] = 1
+                i += 1
+            continue
+        i += 1
+    return maske
+
+
+DOSYALAR = list(girdi.GIRDI_DOSYALARI)
+# 🔴 SAHIPLIK-UYGULA-KUSUR-1008 · K1 — TIRNAKLI ANAHTAR (`"ad":`) DA ANAHTARDIR.
+#   Ölçüldü (ZAMAN-Z5-1008 ④-2): `yerlesimler_sinir_guney/kuzey.js` JSON biçimli
+#   (`{"ad":"Sincan",…,"s":[…]}`); eski `\bad:` onu GÖRMÜYOR, kayıt "veride-yok"
+#   sayılıyor ve 28 kayıt (Sincan dahil) düşüyordu. Ve kusur yalnız `AD_RX`te
+#   DEĞİLDİ: `ALAN_RX` · `SKALER_RX` · `ARALIK_RX` · `mukerrer_alanlar` da tırnaklı
+#   anahtarı görmüyordu ⇒ yalnız `AD_RX` düzeltilseydi `s:` "yok" sanılıp İKİNCİ bir
+#   `"s"` eklenecekti (K2'nin JSON kopyası) ve kapsam-daralma koruması JSON kayıtta
+#   KÖR kalacaktı (eski kapsam boş okunur ⇒ "kayıp yok"). Hepsi `_anahtar_rx`ten geçer.
+#   Tırnaksız dal ESKİ desenin BİREBİR aynısıdır (gerileme sınavı ölçer).
+
+
+def _anahtar_rx(alan):
+    """`alan:` (tırnaksız, eski desen) ya da `"alan":` (JSON) — anahtar + `:`."""
+    return r'(?:\b%s|"%s"\s*)' % (alan, alan) + ":"
+
+
+AD_RX = re.compile(_anahtar_rx("ad") + r'\s*"((?:[^"\\]|\\.)*)"')
+
+
+def _disarida(maske, metin, p):
+    """`p`de başlayan eşleşme DİZGE/YORUM DIŞINDA mı.
+
+    Tırnaklı anahtarın ilk karakteri bir dizgenin AÇILIŞ tırnağıdır ve maskede 1'dir;
+    o yüzden ölçüt: açılış tırnağının ÖNCESİ dizge dışında mı. (Dizge İÇİNDEKİ kaçışlı
+    tırnak ters bölüden sonra gelir, ters bölü maskelidir ⇒ reddedilir.)"""
+    if not maske[p]:
+        return True
+    return metin[p] == '"' and (p == 0 or not maske[p - 1])
+
+
+def _coz(ham):
+    """JS dizge gövdesini (tırnaksız) çözer; çözemezse HAM döner."""
+    try:
+        return json.loads('"%s"' % ham)
+    except ValueError:
+        return ham
 
 
 # 🔴 KAYIT BİR SATIR DEĞİL, BİR ARALIKTIR — ve bu ÖLÇÜLDÜ.
@@ -209,28 +307,119 @@ def _denge(s):
 #   hepsi rastlantıyla tek satırlıktı.
 # 📌 "Şehrizor'u elle düzelt" kararı, %66'lık bir körlüğü BİR VAKA
 #   sanmak olurdu. Ölçüm on saniye sürdü.
+# 🔴 SAHIPLIK-UYGULA-KUSUR-1008 · K2 — ARALIK `ad:` SATIRINDAN DEĞİL, KAYDIN `{`…`}`
+#   ÇİFTİNDEN kurulur. Eski hâl aralığı `ad:` satırından başlatıp satır dengesini
+#   sayıyordu; `{` bir ÜST satırdaysa (Honolulu · Antananarivo · İmâdiye · Taraz ·
+#   Sayram) `ad: "…",` satırının dengesi 0 ⇒ aralık TEK SATIR ⇒ `s:` "yok" sanılıp
+#   `ad:`ın ardına EKLENİYOR, eski `s:` aşağıda KALIYOR ⇒ JS'te aynı anahtar iki kez,
+#   SONUNCUSU (eski) kazanır, yama düşer — ve araç "uygulandı" diyordu.
+#   `mukerrer_alanlar` da aynı tek satıra baktığı için mükerreri GÖREMİYORDU.
+#   Şimdi: dosya bir kez maskelenir, dizinin ÜST SEVİYE nesneleri (`[` içinde
+#   derinlik 1 `{…}`) kayıttır, `ad` anahtarı O NESNENİN kendi seviyesinde aranır
+#   (yorumdaki / iç nesnedeki `ad:` kayıt SAYILMAZ). Aralık = `{` satırı … `}` satırı.
 konum = collections.defaultdict(list)
 icerik = {}
+json_stili = {}          # (dosya, i) -> kayıt anahtarları TIRNAKLI mı
+eksik_dosya = []
+paylasimli = {}          # ad -> sebep  (iki kayıt aynı satırı paylaşıyor)
 for dosya in DOSYALAR:
     ad_d = os.path.basename(dosya)
     yol = os.path.join(VERI, ad_d)
     if not os.path.exists(yol):
+        eksik_dosya.append(ad_d)            # D225: sessizce elenmez, aşağıda basılır
         continue
-    satirlar = io.open(yol, encoding="utf-8", newline="").read().split("\n")
+    metin = io.open(yol, encoding="utf-8", newline="").read()
+    satirlar = metin.split("\n")
     icerik[ad_d] = satirlar
-    for i, satir in enumerate(satirlar):
-        m = AD_RX.search(satir)
-        if not m:
+    maske = _dizge_maskesi(metin)
+    bas_ofs = [0]
+    for _l in satirlar[:-1]:
+        bas_ofs.append(bas_ofs[-1] + len(_l) + 1)
+    yigin = []
+    nesneler = []
+    for p, ch in enumerate(metin):
+        if maske[p]:
             continue
-        d = _denge(satir)
-        j = i
-        while d != 0 and j + 1 < len(satirlar) and (j - i) < 60:
-            j += 1
-            d += _denge(satirlar[j])
-        konum[m.group(1)].append((ad_d, i, j))     # ARALIK: [i..j]
+        if ch in "{[":
+            yigin.append((ch, p))
+        elif ch in "}]":
+            if not yigin:
+                continue
+            ac, q = yigin.pop()
+            if ch == "}" and ac == "{" and len(yigin) == 1 and yigin[0][0] == "[":
+                nesneler.append((q, p))
+    dosya_ar = []
+    for q, p in nesneler:
+        govde = metin[q:p + 1]
+        gm = maske[q:p + 1]
+        bul = None
+        for m in AD_RX.finditer(govde):
+            if not _disarida(gm, govde, m.start()):
+                continue
+            der = 0
+            for k in range(m.start()):
+                if gm[k]:
+                    continue
+                if govde[k] in "{[":
+                    der += 1
+                elif govde[k] in "}]":
+                    der -= 1
+            if der == 1:
+                bul = m
+                break
+        if not bul:
+            continue
+        i = bisect.bisect_right(bas_ofs, q) - 1
+        j = bisect.bisect_right(bas_ofs, p) - 1
+        ad = _coz(bul.group(1))
+        konum[ad].append((ad_d, i, j))     # ARALIK: [i..j]
+        json_stili[(ad_d, i)] = govde[bul.start()] == '"'
+        dosya_ar.append((i, j, ad))
+    # İki kayıt aynı satırı paylaşıyorsa satır aralığıyla yazmak ÖTEKİNİ de ezer ⇒ yazılmaz.
+    dosya_ar.sort()
+    for (i1, j1, a1), (i2, j2, a2) in zip(dosya_ar, dosya_ar[1:]):
+        if i2 <= j1:
+            paylasimli[a1] = paylasimli[a2] = "%s:%d — '%s' ile '%s' aynı satırı paylaşıyor" % (
+                ad_d, i2 + 1, a1, a2)
 _cs = sum(1 for l in konum.values() for x in l if x[2] > x[1])
 print("TABAN: %d benzersiz ad, %d dosya (%d kayıt ÇOK SATIRLI)"
       % (len(konum), len(icerik), _cs))
+if eksik_dosya:
+    print("  🔴 GIRDI_DOSYALARI'nda olup DİSKTE OLMAYAN %d dosya: %s"
+          % (len(eksik_dosya), ", ".join(eksik_dosya)))
+
+# ── TANIMA SINAVI (D225: süzgeç tanımadığını sessizce elemez, SAYIP BASAR) ─────
+#   Tarayıcının gördüğü kayıt kümesi, motorun okuyucusunun (`girdi.oku_dosya`)
+#   gördüğüyle dosya dosya karşılaştırılır. Okuyucunun gördüğü ama tarayıcının
+#   GÖREMEDİĞİ her kayıt ADIYLA basılır; yamada geçiyorsa "veride-yok" DEĞİL
+#   "TANINMADI" sayılır ve araç ÇIKIŞ 4 verir (K1 tam böyle saklanıyordu).
+girdi_kayit = {}         # ad -> (dosya, kayıt)  — motorun okuduğu hâl
+girdi_degisken = {}
+taninmayan_dosya = collections.defaultdict(list)
+for ad_d, satirlar in icerik.items():
+    _m = re.search(r"window\.(YERLESIMLER\w*)\s*=", "\n".join(satirlar))
+    girdi_degisken[ad_d] = _m.group(1) if _m else None
+    try:
+        _kl = girdi.oku_dosya(ad_d)
+    except (ValueError, SystemExit) as _e:
+        print("  🔴 %s motor okuyucusuyla AYRIŞTIRILAMADI (%s) — kayıtları SINANAMADI"
+              % (ad_d, _e))
+        continue
+    _gor = {a for a, l in konum.items() for x in l if x[0] == ad_d}
+    for _y in _kl:
+        girdi_kayit[_y["ad"]] = (ad_d, _y)
+        if _y["ad"] not in _gor:
+            taninmayan_dosya[ad_d].append(_y["ad"])
+_tn = sum(len(v) for v in taninmayan_dosya.values())
+if _tn:
+    print("  🔴 TANINMAYAN KAYIT: %d — motor okuyor, bu araç GÖREMİYOR (yama inemez):" % _tn)
+    for _d, _l in sorted(taninmayan_dosya.items()):
+        print("       %-36s %4d  %s%s" % (_d, len(_l), ", ".join(_l[:6]),
+                                         " …" if len(_l) > 6 else ""))
+else:
+    print("  ✓ tanıma: motorun okuduğu %d kaydın HEPSİ bu araçça görülüyor" % len(girdi_kayit))
+if paylasimli:
+    print("  🟡 SATIR PAYLAŞAN KAYIT: %d — bunlara satır aralığıyla YAZILMAZ" % len(paylasimli))
 
 # ────────────────────────────────────────── ④ ÇAKIŞMA — aynı ad, iki yama
 gruplu = collections.defaultdict(list)
@@ -484,7 +673,8 @@ if kaynak_ayrisan:
             {y["__dosya"] for y in gruplu[_a]}))))
 
 # ───────────────────────────────────────────────────── ⑤ alanı değiştir
-ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
+# K1: tırnaklı anahtar da (`"s":[`) — grup(1) anahtar+`:`+boşluk, DEĞER `[`ten başlar.
+ALAN_RX = {a: re.compile(r'(%s\s*)\[' % _anahtar_rx(a)) for a in ("d", "s", "v", "isg")}
 
 # ══ SKALER ALANLAR — 1 Eylül 2026, 1.MURAT ══════════════════════════════
 # 🔴 NİÇİN EKLENDİ — ölçülmüş bir TIKANMA:
@@ -550,10 +740,20 @@ SKALER_KORUNAN = ("kaynak", "bos", "neden", "not", "kur")
 assert set(CATISABILIR) == {"d", "s", "v", "isg"} | set(SKALER_ALANLAR), (
     "CATISABILIR ile SKALER_ALANLAR AYRIŞTI: %r vs %r — yeni alan "
     "eklenirken çakışma imzası güncellenmemiş." % (CATISABILIR, SKALER_ALANLAR))
-SKALER_RX = {a: re.compile(r'(\b%s:\s*)"((?:[^"\\]|\\.)*)"' % a)
+SKALER_RX = {a: re.compile(r'(%s\s*)"((?:[^"\\]|\\.)*)"' % _anahtar_rx(a))
              for a in SKALER_ALANLAR}
 # `m:null` de geçerli bir yazım — ayrıca aranır, yoksa "alan yok" sanılır
-SKALER_NULL_RX = {a: re.compile(r'\b%s:\s*null\b' % a) for a in SKALER_ALANLAR}
+SKALER_NULL_RX = {a: re.compile(r'%s\s*null\b' % _anahtar_rx(a)) for a in SKALER_ALANLAR}
+
+# 🔴 SAHIPLIK-UYGULA-KUSUR-1008 · K3 — `not:` EZİLMEZ ama EKLENİR.
+#   Ölçüldü (ZAMAN-Z5-1008): 707 kayıtta `not:` zaten dolu ve korunan skaler kuralı
+#   yüzünden yamanın beyanı HİÇ inmiyordu ("ZATEN DOLU, ezilmedi"). `not` bir
+#   ARAŞTIRMA SONUCU değil, birikimli bir NOT DEFTERİDİR: eskisini silmek de yenisini
+#   düşürmek de bilgi kaybı. ⇒ Eski metin KORUNUR, yeni beyan `NOT_AYRAC` ile sonuna
+#   eklenir. Yeni beyan eskinin İÇİNDE zaten geçiyorsa eklenmez (tekrar koşu ikiler
+#   yazmasın). `kaynak`/`bos`/`neden`/`kur` DEĞİŞMEDİ — onlar hâlâ yalnız BOŞSA dolar.
+NOT_AYRAC = " · "
+SKALER_EKLENEN = ("not",)
 
 
 def js_metin(s):
@@ -561,70 +761,19 @@ def js_metin(s):
     return '"%s"' % s.replace("\\", "\\\\").replace('"', '\\"')
 
 
-# ══ ALAN ARAMASI DİZGE İÇİNİ ATLAR — 7 Eylül 2026, 1.MURAT ══════════════
-# 🔴 VE BU BİR VERİ BOZULMASINDAN DOĞDU, teoriden değil.
-#   `Zagem (Kaheti)` kaydına bir `neden:` beyanı indi ve o beyanın METNİ
-#   şu cümleyi içeriyordu:
-#       "Veri de aynı günle teyit ediyor: v:[{f:"1578-08-09",…}]"
-#   `ALAN_RX["v"]` = `\bv:\s*\[` o düzyazıdaki `v:[`i YAKALADI, `dizi_sonu`
-#   cümlenin içindeki `]`i buldu, ve aralığı HAM JS ile değiştirdi.
-#   Sonuç: `neden:` dizgesi ortasından kapandı, `yerlesimler.js`
-#   AYRIŞTIRILAMAZ hâle geldi (`denetle.py` JSONDecodeError ile öldü).
-#
-# 📌 §11'in *"bir alet, aradığı şeyin NEREDE OLMAYACAĞINI da bilmeli"*
-#   ailesinin YENİ ekseni. Önceki üyeler yorumda · başlıkta · önsözde
-#   arıyordu; bu **kaydın KENDİ DÜZYAZISINDA** arıyor — ve o düzyazı
-#   veriyle aynı sözdizimini taşıyor, çünkü veriyi ANLATIYOR.
-#   ⚠️ Kusur yıllardır oradaydı ve ateşlemedi: ancak `v:[…]` içeren bir
-#     metin, `v:` alanı da olan bir kayda inince patlar.
-def _dizge_maskesi(s):
-    """Her karakter için 1 = JS dizgesinin ya da YORUMUN İÇİNDE.
+def deger_yaz(deger, jsn):
+    """Kaydın kendi üslûbunda değer: JSON kayıtta JSON, öteki kayıtta eski `js_yaz`."""
+    if jsn:
+        return json.dumps(deger, ensure_ascii=False, separators=(",", ":"))
+    return js_yaz(deger)
 
-    Yorumlar da maskelenir: bir kaydın üstündeki `// d: 1352'de başlıyordu`
-    yorumu, `d:` alanı sanılmamalı.
-    """
-    maske = bytearray(len(s))
-    tirnak = None
-    kacis = False
-    i = 0
-    n = len(s)
-    while i < n:
-        c = s[i]
-        if kacis:
-            kacis = False
-            maske[i] = 1
-            i += 1
-            continue
-        if tirnak:
-            maske[i] = 1
-            if c == "\\":
-                kacis = True
-            elif c == tirnak:
-                tirnak = None
-            i += 1
-            continue
-        if c in "\"'":
-            tirnak = c
-            maske[i] = 1
-            i += 1
-            continue
-        if c == "/" and i + 1 < n and s[i + 1] == "/":
-            while i < n and s[i] != "\n":
-                maske[i] = 1
-                i += 1
-            continue
-        if c == "/" and i + 1 < n and s[i + 1] == "*":
-            maske[i] = maske[i + 1] = 1
-            i += 2
-            while i < n and not (s[i] == "*" and i + 1 < n and s[i + 1] == "/"):
-                maske[i] = 1
-                i += 1
-            while i < n and i < len(s) and s[i] in "*/":
-                maske[i] = 1
-                i += 1
-            continue
-        i += 1
-    return maske
+
+def metin_yaz(s, jsn):
+    return json.dumps(s, ensure_ascii=False) if jsn else js_metin(s)
+
+
+def anahtar_yaz(alan, jsn):
+    return ('"%s":' % alan) if jsn else ("%s:" % alan)
 
 
 def mukerrer_alanlar(kayit, alanlar):
@@ -642,10 +791,10 @@ def mukerrer_alanlar(kayit, alanlar):
     maske = _dizge_maskesi(kayit)
     bulunan = []
     for alan in alanlar:
-        rx = re.compile(r"\b%s:" % alan)
+        rx = re.compile(_anahtar_rx(alan))        # K1: `"s":` de sayılır
         say = 0
         for m in rx.finditer(kayit):
-            if maske[m.start()]:
+            if not _disarida(maske, kayit, m.start()):
                 continue
             d = 0
             for p in range(m.start()):
@@ -663,11 +812,88 @@ def mukerrer_alanlar(kayit, alanlar):
     return bulunan
 
 
+def olu_kopyalari_sil(kayit, alanlar):
+    """K2 (kayıtta ZATEN mükerrer anahtar): ÜST SEVİYEDE iki kez yazılmış alanın SONUNCUSU
+    (JS'in okuduğu, CANLI olan) bırakılır, öncekiler (ÖLÜ kopyalar) silinir.
+
+    🔴 SAHIPLIK-UYGULA-KUSUR-1008 — ölçüldü: Taraz (Evliya-Ata) · Sayram (İsficâb)
+      (`yerlesimler_ok107.js`) `s:`yi İKİ KEZ taşıyor; ikincisi `kaynak:`tan sonra
+      tırnaklı (`"s":[…]`) ve ESKİ aracın K2 kusurunun bıraktığı izdir. Eski koruma
+      bunları atlıyordu (doğru — ilkine yazmak yamayı öldürürdü) ama yamayı da
+      İNDİRMİYORDU. Ölü kopyayı silmek ANLAMI DEĞİŞTİRMEZ (JS onu zaten okumuyor);
+      geri okuma bunu ayrıca sınar (dokunulmayan alan değişirse DOĞRULANAMADI).
+    Döner: (yeni_kayit, ["s x2", …]) — silinen yoksa liste boş."""
+    silinen = []
+    for alan in alanlar:
+        maske = _dizge_maskesi(kayit)
+        konumlar = []
+        for m in re.finditer(_anahtar_rx(alan), kayit):
+            if not _disarida(maske, kayit, m.start()):
+                continue
+            d = 0
+            for p in range(m.start()):
+                if maske[p]:
+                    continue
+                if kayit[p] in "{[":
+                    d += 1
+                elif kayit[p] in "}]":
+                    d -= 1
+            if d == 1:
+                konumlar.append(m)
+        if len(konumlar) < 2:
+            continue
+        kesim = []
+        for m in konumlar[:-1]:                     # SONUNCU kalır
+            v = m.end()
+            while v < len(kayit) and kayit[v] in " \t\r\n":
+                v += 1
+            son = -1
+            if v < len(kayit) and kayit[v] in "[{" and not maske[v]:
+                der = 0
+                for k in range(v, len(kayit)):
+                    if maske[k]:
+                        continue
+                    if kayit[k] in "[{":
+                        der += 1
+                    elif kayit[k] in "]}":
+                        der -= 1
+                        if der == 0:
+                            son = k
+                            break
+            elif v < len(kayit) and kayit[v] == '"':
+                k = v + 1
+                while k < len(kayit) and maske[k]:
+                    k += 1
+                son = k - 1                         # kapanış tırnağı
+            else:
+                mm = re.match(r"[^,}\n]*", kayit[v:])
+                son = v + len(mm.group(0)) - 1
+            if son < v:
+                return kayit, []                    # çözülemedi: koruma (aşağıda) yazmaz
+            bas, bit = m.start(), son + 1
+            k = bit
+            while k < len(kayit) and kayit[k] in " \t":
+                k += 1
+            if k < len(kayit) and kayit[k] == ",":
+                bit = k + 1                         # ardındaki virgülle birlikte
+            else:
+                k = bas - 1
+                while k >= 0 and (kayit[k] in " \t\r\n" or maske[k]):
+                    k -= 1
+                if k >= 0 and kayit[k] == ",":
+                    bas = k                         # sondaysa öndeki virgülle
+            kesim.append((bas, bit))
+        for bas, bit in sorted(kesim, reverse=True):
+            kayit = kayit[:bas] + kayit[bit:]
+        silinen.append("%s x%d" % (alan, len(konumlar)))
+    return kayit, silinen
+
+
 def ara_disi(rx, metin):
     """`rx`in DİZGE DIŞINDAKİ ilk eşleşmesi; yoksa None."""
     maske = _dizge_maskesi(metin)
     for m in rx.finditer(metin):
-        if not maske[m.start()]:
+        if _disarida(maske, metin, m.start()):
             return m
     return None
 
@@ -699,12 +925,13 @@ def dizi_sonu(satir, bas):
     return -1
 
 
-ARALIK_RX = re.compile(r'\{\s*f:\s*"([^"]+)"\s*,\s*t:\s*"([^"]+)"')
+# K1: JSON dönemi `{"f":"…","t":"…"}` de — yoksa kapsam-daralma koruması JSON kayıtta KÖR.
+ARALIK_RX = re.compile(r'\{\s*"?f"?\s*:\s*"([^"]+)"\s*,\s*"?t"?\s*:\s*"([^"]+)"')
 
 
 def _dilim(satir, alan):
     """Satırdaki `<alan>:[ ... ]` diziSİNİN metnini döndürür; yoksa ''."""
-    m = ALAN_RX[alan].search(satir)
+    m = ara_disi(ALAN_RX[alan], satir)     # düzyazıdaki `s:[` kapsam sayılmaz
     if not m:
         return ""
     son = dizi_sonu(satir, m.end() - 1)
@@ -771,6 +998,12 @@ degisiklik = collections.defaultdict(int)
 inen = []
 duzenleme = []        # (dosya, i, j, yeni_satirlar) — TERSTEN uygulanır
 kapi_aday = []        # geri alma kapısına gidecek her değişim (yazmadan ÖNCE sorulur)
+beklenen = collections.defaultdict(dict)   # dosya -> ad -> {alan: GERİ OKUMADA beklenen}
+
+
+def _tirnaksiz(s):
+    """JSON kaydın anahtarlarını tırnaksız gösterir — YALNIZ geri alma kapısının görünümü."""
+    return re.sub(r'"([A-Za-z_]\w*)"\s*:', r"\1:", s)
 
 for ad, liste in sorted(gruplu.items()):
     x = liste[0]
@@ -787,6 +1020,12 @@ for ad, liste in sorted(gruplu.items()):
         continue
 
     yerler = konum.get(ad, [])
+    if not yerler and ad in girdi_kayit:
+        # K1'in sınıfı: motor bu kaydı OKUYOR, araç GÖREMİYOR. "veride-yok" demek YALANDIR.
+        ist["taninmadi"] += 1
+        atlanan.append((ad, "🔴 TANINMADI — kayıt %s içinde VAR (motor okuyor) ama bu araç "
+                            "göremiyor; yama İNMEDİ (çıkış 4)" % girdi_kayit[ad][0]))
+        continue
     if not yerler:
         ist["veride-yok"] += 1
         atlanan.append((ad, "veride YOK — yeni nokta, yama ile yazılmaz"))
@@ -794,6 +1033,11 @@ for ad, liste in sorted(gruplu.items()):
     if len(yerler) > 1:
         ist["belirsiz"] += 1
         atlanan.append((ad, "%d kayıtta birden geçiyor" % len(yerler)))
+        continue
+    if ad in paylasimli:
+        ist["satir-paylasimli"] += 1
+        atlanan.append((ad, "SATIR PAYLAŞIMLI — %s; satır aralığıyla yazmak öteki kaydı "
+                            "da ezer" % paylasimli[ad]))
         continue
 
     # `d:` günleri Değişmez 2'nin menzilinde — maddesiz gün ENGEL
@@ -824,6 +1068,14 @@ for ad, liste in sorted(gruplu.items()):
 
     # 🔴 MÜKERRER ÜST-SEVİYE ANAHTAR ⇒ YAZMA. JS sonuncuyu okur, bu betik
     #   ilkine yazar; sessizce ölür. Ölçüldü: 6 kayıt (7 Eylül 2026).
+    #   🔴 1008: önce ÖLÜ kopyalar silinir (sonuncu = canlı kalır), sonra koruma
+    #   yeniden sorar — silme başaramadıysa kayıt yine ATLANIR, sessiz geçmez.
+    satir_orj = satir
+    satir, _tekil = olu_kopyalari_sil(satir, [a for a in CATISABILIR if a in r])
+    if _tekil:
+        ist["mukerrer-tekillendi"] += 1
+        print("  🟡 MÜKERRER ANAHTAR TEKİLLENDİ: %-28s %s — ölü kopya silindi, canlı "
+              "(sonuncu) yamalandı" % (ad[:28], ", ".join(_tekil)))
     _muk = mukerrer_alanlar(satir, [a for a in CATISABILIR if a in r])
     if _muk:
         ist["mukerrer-anahtar"] += 1
@@ -834,6 +1086,9 @@ for ad, liste in sorted(gruplu.items()):
                         % ", ".join(_muk)))
         continue
 
+    jsn = json_stili.get((dosya, i), False)      # K1: kaydın KENDİ üslûbunda yaz
+    eski_kayit = girdi_kayit.get(ad, (None, {}))[1]
+    bek = {}                                     # geri okumada BEKLENEN son değerler
     yeni_satir = satir
     dokunulan = []
     hata = None
@@ -841,7 +1096,7 @@ for ad, liste in sorted(gruplu.items()):
         if alan not in r:
             continue
         m = ara_disi(ALAN_RX[alan], yeni_satir)   # düzyazıdaki `v:[` DEĞİL
-        yeni_js = js_yaz(r[alan])
+        yeni_js = deger_yaz(r[alan], jsn)
         if m:
             son = dizi_sonu(yeni_satir, m.end() - 1)
             if son < 0:
@@ -854,8 +1109,9 @@ for ad, liste in sorted(gruplu.items()):
             if not ma:
                 hata = "ad: çıpası yok"
                 break
-            yeni_satir = (yeni_satir[:ma.end()] + ",%s:%s" % (alan, yeni_js)
+            yeni_satir = (yeni_satir[:ma.end()] + ",%s%s" % (anahtar_yaz(alan, jsn), yeni_js)
                           + yeni_satir[ma.end():])
+        bek[alan] = r[alan]
         dokunulan.append(alan)
 
     # ── SKALER ALANLAR (`m:` · `kaynak:`) — dizi mantığından AYRI ──────
@@ -884,31 +1140,48 @@ for ad, liste in sorted(gruplu.items()):
             #   EZİLMEZ — doğrulanmış bir beyanı silmek, eksik beyandan
             #   kötüdür. Sessizce geçmez, SAYILIR. (`m` bilerek dışarıda —
             #   onun sözleşmesi tersi, bkz. `SKALER_KORUNAN` tanımı.)
+            if alan in SKALER_EKLENEN and m.group(2).strip():
+                # K3: EZME YOK, EKLE. Eski metin HAM hâliyle korunur (yeniden
+                #   kodlanmaz), yeni beyan ayraçla sonuna eklenir.
+                eski_deger = _coz(m.group(2))
+                if deger in eski_deger:
+                    ist["%s-zaten-icinde" % alan] += 1
+                    continue
+                ek = metin_yaz(NOT_AYRAC + deger, jsn)[1:-1]
+                yeni_satir = (yeni_satir[:m.start()] + m.group(1) + '"' + m.group(2)
+                              + ek + '"' + yeni_satir[m.end():])
+                ist["%s-eklendi" % alan] += 1
+                bek[alan] = eski_kayit.get(alan, eski_deger) + NOT_AYRAC + deger
+                dokunulan.append(alan + "+")
+                continue
             if alan in SKALER_KORUNAN and m.group(2).strip():
                 ist["%s-dolu" % alan] += 1
                 atlanan.append((ad, "%s: ZATEN DOLU, ezilmedi — "
                                     "değiştirmek isteyen elle yapar" % alan))
                 continue
             yeni_satir = (yeni_satir[:m.start()] + m.group(1)
-                          + js_metin(deger) + yeni_satir[m.end():])
+                          + metin_yaz(deger, jsn) + yeni_satir[m.end():])
         elif mn:
             # `m:null` → gerçek değer. Bu bir DOLDURMADIR, ezme değil.
-            yeni_satir = (yeni_satir[:mn.start()] + "%s:%s" % (alan, js_metin(deger))
+            yeni_satir = (yeni_satir[:mn.start()] + "%s%s" % (anahtar_yaz(alan, jsn),
+                                                              metin_yaz(deger, jsn))
                           + yeni_satir[mn.end():])
         else:
             ma = ara_disi(AD_RX, yeni_satir)
             if not ma:
                 hata = "ad: çıpası yok (%s)" % alan
                 break
-            yeni_satir = (yeni_satir[:ma.end()] + ",%s:%s" % (alan, js_metin(deger))
+            yeni_satir = (yeni_satir[:ma.end()] + ",%s%s" % (anahtar_yaz(alan, jsn),
+                                                             metin_yaz(deger, jsn))
                           + yeni_satir[ma.end():])
+        bek[alan] = deger
         dokunulan.append(alan)
 
     if hata:
         ist["cipa-yok"] += 1
         atlanan.append((ad, hata))
         continue
-    if yeni_satir == satir:
+    if yeni_satir == satir_orj:
         ist["zaten-boyle"] += 1
         continue
 
@@ -946,9 +1219,19 @@ for ad, liste in sorted(gruplu.items()):
     #   numaralarını kaydırır. Bütün düzenlemeler toplanır ve dosya
     #   sonundan başına doğru (TERSTEN) uygulanır; böylece henüz
     #   uygulanmamış aralıkların indeksleri geçerli kalır.
+    if SINAV_BOZ and ad == SINAV_BOZ:
+        # Sınav kancası: yapay MÜKERRER anahtar — geri okuma bunu yakalamalı.
+        _k = yeni_satir.rindex("}")
+        yeni_satir = yeni_satir[:_k] + ",%s[]" % anahtar_yaz("s", jsn) + yeni_satir[_k:]
+        print("  ⚠️ SINAV KANCASI ETKİN: '%s' kaydına yapay mükerrer `s` eklendi" % ad)
     duzenleme.append((dosya, i, j, yeni_satir.split("\n")))
+    beklenen[dosya][ad] = bek
+    # Geri alma kapısı yalnız TIRNAKSIZ anahtarı okur (`_bayat_yama_kapi.dilim`:
+    #   `(?<![\w"])s:`) ⇒ JSON kayıtta dizi GÖRÜNMEZ ve kapı soruyu SORMADAN "taze"
+    #   derdi. Kapıya JSON kaydın tırnaksız GÖRÜNÜMÜ verilir; yazılan metin değişmez.
     kapi_aday.append({"ad": ad, "dosya_yol": "data/" + dosya, "i": i + 1, "j": j + 1,
-                      "eski": satir, "yeni": yeni_satir})
+                      "eski": _tirnaksiz(satir_orj) if jsn else satir_orj,
+                      "yeni": _tirnaksiz(yeni_satir) if jsn else yeni_satir})
     ist["uygulandi"] += 1
     degisiklik[dosya] += 1
     inen.append((ad, dosya, "+".join(dokunulan), zayif,
@@ -958,10 +1241,13 @@ for ad, liste in sorted(gruplu.items()):
 print()
 print("=== SAHİPLİK YAMASI — %s ===" % ("YAZILDI" if YAZ else "KURU KOŞU"))
 print("benzersiz ad: %d" % len(gruplu))
-for k in ("uygulandi", "zaten-boyle", "cakisma", "kendi-kilidi",
-          "gun-maddesiz", "belirsiz", "veride-yok", "cipa-yok"):
+_SIRA = ("uygulandi", "zaten-boyle", "cakisma", "kendi-kilidi",
+         "gun-maddesiz", "belirsiz", "veride-yok", "cipa-yok")
+# D225: sayaçta olup sabit listede OLMAYAN kova da basılır (eskiden `mukerrer-anahtar` ·
+#   `kapsam-daraldi` · `*-dolu` sayılıyor ama ÖZETTE GÖRÜNMÜYORDU).
+for k in list(_SIRA) + sorted(k for k in ist if k not in _SIRA):
     if ist[k]:
-        print("  %-16s %4d" % (k, ist[k]))
+        print("  %-20s %4d" % (k, ist[k]))
 
 if inen:
     print()
@@ -982,6 +1268,89 @@ if atlanan:
     print("[!] ATLANAN (%d) — sebebiyle:" % len(atlanan))
     for ad, sebep in atlanan:
         print("  %-28s %s" % (ad[:28], sebep))
+
+# ─────────────────────────────── ⑦b GERİ OKUMA — "yazdım" değil "OKUNUYOR" (ŞART)
+# 🔴 SAHIPLIK-UYGULA-KUSUR-1008: K2'de araç yeni `s:`yi YAZDI, rapora "uygulandı" BASTI,
+#   ama JS aynı anahtarın SONUNCUSUNU (eskisini) okuduğu için yama ÖLÜYDÜ. "Yazdığım
+#   metin dosyada" bir kanıt değildir; kanıt, dosyanın MOTORUN OKUYUCUSUYLA
+#   (`girdi._cevir`, JSON ⇒ sonuncu anahtar kazanır, JS ile aynı) yeniden
+#   ayrıştırılmasında o kaydın son değerinin beklenen değer olmasıdır. Ayrıca:
+#   dokunulmayan HER kayıt ve dokunulan kaydın dokunulmayan HER alanı birebir aynı
+#   kalmalı (yan etki), kayıt sayısı ve sırası değişmemeli.
+#   Doğrulanamayan kayıt "UYGULANDI" sayılmaz ⇒ HİÇBİR DOSYA YAZILMAZ, ÇIKIŞ 4.
+def _degerlendir(dosya, eski_metin, yeni_metin, bek_dosya):
+    """[(ad, sebep)] — boşsa dosyanın bütün beklentileri tuttu."""
+    deg = girdi_degisken.get(dosya)
+    try:
+        eski = girdi._cevir(eski_metin, deg)
+        yeni = girdi._cevir(yeni_metin, deg)
+    except (ValueError, SystemExit) as e:
+        return [(a, "dosya AYRIŞTIRILAMADI: %s" % e) for a in bek_dosya] or [
+            ("<%s>" % dosya, "dosya AYRIŞTIRILAMADI: %s" % e)]
+    hatalar = []
+    if [y.get("ad") for y in eski] != [y.get("ad") for y in yeni]:
+        hatalar.append(("<%s>" % dosya, "kayıt sayısı/sırası DEĞİŞTİ (%d → %d)"
+                        % (len(eski), len(yeni))))
+        return hatalar
+    for e, y in zip(eski, yeni):
+        a = e.get("ad")
+        b = bek_dosya.get(a)
+        if b is None:
+            if e != y:
+                hatalar.append((a, "YAN ETKİ — dokunulmaması gereken kayıt değişti"))
+            continue
+        for alan, v in b.items():
+            if alan not in y:
+                hatalar.append((a, "%s: geri okumada YOK" % alan))
+            elif y[alan] != v:
+                hatalar.append((a, "%s: geri okunan değer yazılanla AYNI DEĞİL "
+                                   "(mükerrer anahtar / yanlış yer?)" % alan))
+        for alan in set(e) | set(y):
+            if alan in b:
+                continue
+            if e.get(alan, KeyError) != y.get(alan, KeyError):
+                hatalar.append((a, "%s: dokunulmaması gereken alan DEĞİŞTİ" % alan))
+    return hatalar
+
+
+def geri_oku(yeni_icerik):
+    hatalar = []
+    for dosya in degisiklik:
+        eski_metin = "\n".join(icerik[dosya])
+        hatalar += [(dosya, a, s) for a, s in
+                    _degerlendir(dosya, eski_metin, yeni_icerik[dosya], beklenen[dosya])]
+    return hatalar
+
+
+def _uygula_bellekte():
+    out = {}
+    kopya = {d: list(icerik[d]) for d in degisiklik}
+    # 🔴 TERSTEN — dosya SONUNDAN başına doğru (bkz. aşağıdaki yazım bloğu).
+    for dosya, i, j, yeni in sorted(duzenleme, key=lambda x: (x[0], -x[1])):
+        kopya[dosya][i:j + 1] = yeni
+    for d in kopya:
+        out[d] = "\n".join(kopya[d])
+    return out
+
+
+def _dogrulama_bas(hatalar, baslik):
+    kotu = sorted({(d, a) for d, a, _ in hatalar})
+    print("🔴 %s: %d kayıt DOĞRULANAMADI — 'uygulandı' SAYILMAZ:" % (baslik, len(kotu)))
+    for d, a, s in sorted(hatalar):
+        print("  %-28s %-34s %s" % (a[:28], d, s))
+    return kotu
+
+
+print()
+_bellek = _uygula_bellekte()
+_hatalar = geri_oku(_bellek)
+_toplam_bek = sum(len(v) for v in beklenen.values())
+if _hatalar:
+    _dogrulama_bas(_hatalar, "GERİ OKUMA (yazmadan önce, bellekte)")
+    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 4).")
+    raise SystemExit(4)
+print("GERİ OKUMA: %d/%d kayıt motorun okuyucusuyla yeniden ayrıştırıldı — son değer = "
+      "yazılan değer, yan etki 0 ✓" % (_toplam_bek, _toplam_bek))
 
 # ─────────────────────────────────────────── ⑧ GERİ ALMA KAPISI (ŞART)
 # Kuru koşuda da sorulur: "177 iner" demek, 174'ü geri almaysa YALAN bir rapordur.
@@ -1016,13 +1385,32 @@ if YAZ:
     #   değişirse (çok satırlı kayıt tek satıra inebilir) ondan SONRAKİ
     #   kayıtların indeksleri kayar; tersten yazınca henüz uygulanmamış
     #   aralıklar hep geçerli kalır.
-    for dosya, i, j, yeni in sorted(duzenleme, key=lambda x: (x[0], -x[1])):
-        icerik[dosya][i:j + 1] = yeni
+    #   (1008) Diske YAZILAN, bellekte DOĞRULANAN metnin KENDİSİDİR (`_bellek`, yukarıda
+    #   `_uygula_bellekte` aynı tersten sırayla kurdu) — düzenlemeyi ikinci kez uygulamak
+    #   iki ayrı yol açar. 📌 Ölçüldü: bu yamanın ilk sürümü düzenlemeyi İKİ KEZ uyguladı;
+    #   bellek sınavı geçti, DİSKTEN geri okuma bozulmayı yakaladı (1.832 kayıt DOĞRULANAMADI,
+    #   çıkış 4, "UYGULANDI" denmedi) — bu kapı tam bu sınıf için var.
     for dosya in degisiklik:
         io.open(os.path.join(VERI, dosya), "w", encoding="utf-8",
-                newline="").write("\n".join(icerik[dosya]))
+                newline="").write(_bellek[dosya])
     print()
-    print("%d dosya yazıldı. 🔴 ŞİMDİ `py arac/denetle.py` KOŞTUR." % len(degisiklik))
+    print("%d dosya yazıldı." % len(degisiklik))
+    # 🔴 DİSKTEN GERİ OKUMA — bellekteki sınav yazılanın kanıtı değildir.
+    _disk = {d: io.open(os.path.join(VERI, d), encoding="utf-8", newline="").read()
+             for d in degisiklik}
+    _hatalar = geri_oku(_disk)
+    if _hatalar:
+        _dogrulama_bas(_hatalar, "DİSKTEN GERİ OKUMA")
+        print("   ⇒ dosyalar YAZILDI ama doğrulanmadı — `git diff` ile incele (çıkış 4).")
+        raise SystemExit(4)
+    print("DİSKTEN GERİ OKUMA: %d/%d kayıt ✓ — UYGULANDI. 🔴 ŞİMDİ `py arac/denetle.py` KOŞTUR."
+          % (_toplam_bek, _toplam_bek))
 else:
     print()
     print("(kuru koşu — hiçbir dosya yazılmadı; --yaz ile çalıştır)")
+
+if ist["taninmadi"]:
+    print()
+    print("🔴 TANINMAYAN %d yama kaydı İNMEDİ (adları ATLANAN'da '🔴 TANINMADI') — çıkış 4."
+          % ist["taninmadi"])
+    raise SystemExit(4)

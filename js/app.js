@@ -5409,6 +5409,9 @@ function isyanYayilmaUret() {
     nk.sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
     for (var i = 1; i < nk.length; i++) {
       var a = nk[i - 1], b = nk[i];
+      // SEFER-OKU-0087 (paket 0087 H-0001): varış işareti `yayilma_oku:false` taşıyorsa
+      // ok üretilmez, 🔥 işaretleri yerinde kalır (Şahkulu Teke→Sivas — Emre "anlamsız").
+      if (b.yayilma_oku === false) continue;
       out.push({
         fi: gunIdx(b.t), ti: gunIdx(b.t) + (b.sure || 400),
         yol: [[a.lon, a.lat], [b.lon, b.lat]], tur: "isyan",

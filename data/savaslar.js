@@ -369,7 +369,13 @@ window.SAVASLAR = [
 { t:"1416-05-01", tur:"isyan", ad:"Börklüce Mustafa",       taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:37.86, lon:27.26, sure:400, taraf:["osmanli"] },
 { t:"1416-09-01", tur:"isyan", ad:"Torlak Kemal",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.61, lon:27.43, sure:300, taraf:["osmanli"] },
 { t:"1511-03-01", tur:"isyan", ad:"Şahkulu (Teke)",         taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:36.89, lon:30.70, sure:400, taraf:["osmanli"] },
-{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"] },
+// SEFER-OKU-0087 (paket 0087 H-0001, Emre: "Teke bölgesinden Sivas'a kadar ok çıkarmaya
+// gerek yok, anlamsız"). `isyanYayilmaUret()` bu iki işaretten Teke→Sivas oku üretiyordu;
+// ok Sivas gününde (Şahkulu'nun öldüğü gün) beliriyor ve `sure:400` ile 13 ay kalıyordu.
+// TDV `sahkulu-baba-tekeli` güzergâhı düz bir Teke→Sivas hattı değil: Keçiborlu-Sandıklı-
+// Altıntaş → Kütahya → Alaşehir → Antalya taraflarına dönüş → Sivas yakınında Çubuk.
+// `yayilma_oku:false` = işaretler (🔥) KALIR, yalnız ok üretilmez.
+{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"], yayilma_oku:false },
 { t:"1519-03-01", tur:"isyan", ad:"Bozoklu Şeyh Celâl",     taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.82, lon:34.81, sure:400, taraf:["osmanli"] },
 { t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300, taraf:["osmanli"] },
 // Ad düzeltmesi (Koordinatör, OTURUM-10 turu): TDV'de "Kalender Çelebi" diye madde
@@ -742,12 +748,55 @@ window.SEFERLER = [
 // (gövde okundu): "Sinan Paşa'nın hareketinden beş hafta sonra Memlük
 // sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da
 // İstanbul'dan hareket etti." Aynı olay data/olaylar_ek5.js:154'te de var.
+// SEFER-OKU-0087 (paket 0087 H-0005 · H-0006, Emre: "ordu nereye ulaştıysa ok oraya
+// kadar çizilsin, kademe kademe") — ① GÜZERGÂH TDV'ye hizalandı: eski yol İstanbul→
+// SİVAS→Kayseri→Elbistan idi (kaynaksız; Sivas'tan Kayseri'ye GERİ dönen bir zikzak).
+// TDV `selim-i` istasyonları: Akşehir (26 Haz) · Konya ovası (1 Tem) · Malatya ovası
+// (6 Ağu'da ayrıldı) · Antep dışı (20 Ağu) · Halep (28 Ağu) · Şam (27 Eyl) · Celcûliye
+// konağı (26 Ara) · Gazze (2 Oca) · Arîş (11 Oca) · Sâlihiye (16 Oca). Konya ovası ile
+// Malatya ovası arasındaki yol TDV'de YOK — bacak düz çizilir, ara istasyon UYDURULMADI.
+// Üsküdar (yol[1]) kaynakta yok: Anadolu'ya geçişin coğrafî zorunluluğudur; hareket
+// gününde okun yalnız çıkış noktasını göstermesi için var (≈3 km). Celcûliye, Arîş,
+// Sâlihiye atlas noktası DEĞİL — koordinatları ŞEMATİK (genel coğrafya).
+// ② KADEME: her basamağın günü bir KRONOLOJİ MADDESİNİN günüdür (olaylar_ek5.js /
+// olaylar.js), ok o gün o maddenin anlattığı yere kadar uzanır. 1516-07-30 maddesinde
+// TDV'nin verdiği en ileri yer Konya ovasıdır (30 Temmuz'daki konum TDV'de yok).
+// 1516-08-24 basamağı Mercidâbık maddesine dayanır — o madde `t:"1516-08"` (ay
+// hassasiyeti) taşıyor, ayrıca düzeltilmeli (denetim/SEFER-OKU-0087.md §H-0006).
 { ad:"Mısır seferi (1516-17)", tur:"sefer", sonuc:"zafer",      f:"1516-06-05", t:"1517-02-22",
-  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti.\"",
-  yol:[[29.02,41.02],[37.02,39.75],[35.48,38.73],[37.20,38.21],[37.38,37.07],[37.15,36.68],
-       [37.16,36.20],[36.75,35.13],[36.29,33.51],[34.47,31.50],[31.28,30.06]] },
-{ ad:"Rodos seferi (1522)", tur:"kusatma", sonuc:"zafer",         f:"1522-06-01", t:"1523-01-05",
-  yol:[[28.98,40.97],[26.41,40.15],[26.14,38.37],[27.29,36.89],[28.23,36.45]] },
+  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti. 26 Haziran'da Akşehir'e vardığında\" · \"1 Temmuz'da Konya ovasında iken\" · \"6 Ağustos'ta Malatya ovasından ayrılarak Halep'e yöneldi.\" · \"20 Ağustos'ta Antep dışında konakladı\" · \"Oradan Halep'e geldi (28 Ağustos)\" · \"27 Eylül'de Şam'a ulaştı\" · \"15 Aralık'ta Şam'dan hareket etti. 26 Aralık'ta Celcûliye Konağı'na geldiğinde\" · \"Padişah 8 Zilhicce 922'de (2 Ocak 1517) Gazze'ye girdi\" · \"9 Ocak'ta Gazze'den ayrılan Yavuz Sultan Selim 11 Ocak'ta Arîş mevkiine ulaştı … 16 Ocak'ta Sâlihiye'ye gelindiğinde\" · ridaniye-savasi (TDV): \"Kahire önlerinde Matariye ile Cebelülahmer arasında Ridâniye/Reydâniye denilen mevkide\" · \"Savaşın ertesi günü Osmanlı ordularının Kahire'ye girişine izin verildi.\"",
+  kesinlik:"istasyonlar TDV; Üsküdar coğrafî zorunluluk (kaynakta yok); Celcûliye/Arîş/Sâlihiye koordinatı şematik; Konya→Malatya bacağı düz (ara yol kaynakta yok)",
+  yol:[[28.980,41.008],[29.015,41.027],[31.416,38.357],[32.492,37.872],[38.334,38.353],[37.383,37.066],
+       [37.152,36.553],[37.161,36.202],[36.292,33.513],[34.953,32.153],[34.466,31.502],[33.798,31.131],
+       [31.950,30.780],[31.283,30.089],[31.243,30.047]],
+  kademe:[["1516-06-05",1],["1516-07-30",3],["1516-08-24",6],["1516-08-28",7],["1516-09-27",8],
+          ["1516-12-29",9],["1517-01-02",10],["1517-01-22",13],["1517-01-24",14]] },
+// SEFER-OKU-0087 (paket 0087 H-0013 · H-0020 "deniz seferi oku karaların üzerinden
+// geçmemeli" · H-0021 "Bodrum/İstanköy maddesinde Rodos oku hâlâ gösteriliyor").
+// Eski TEK kayıt `tur:"kusatma"` idi ⇒ kavisli çiziliyor, `rota` yok, SEFER-OK-0075'in
+// deniz yönlendirmesinin DIŞINDA kaldı; düz yolu ne_10m_land üstünde 231 km'ydi.
+// Kaynak iki AYRI kol veriyor (TDV `suleyman-i`): donanma 4 Haziran'da denize açıldı,
+// padişah 18 Haziran'da Üsküdar'dan KARA yoluyla Marmaris'e yürüdü. İkiye ayrıldı.
+// `t` eski 1523-01-05 idi (kaynaksız; tam Bodrum maddesinin günü ⇒ ok o maddede hâlâ
+// görünüyordu). TDV `suleyman-i`: "14 Safer'de (2 Ocak 1523) … adadan ayrıldı" ⇒ t.
+// Teslim günü: TDV `rodos` + `suleyman-i` 20 Aralık 1522 der; kronoloji 21 Aralık —
+// çelişki raporda (§H-0021), burada `t`yi etkilemiyor.
+{ ad:"Rodos seferi (1522) — donanma", tur:"deniz", sonuc:"zafer", f:"1522-06-04", t:"1523-01-02",
+  kaynak:"suleyman-i (TDV): \"9 Receb 928'de (4 Haziran 1522) Osmanlı gemileri sefer için denize açılırken\" · \"Padişah 10 Safer'de (29 Aralık) şehri görmek için Rodos'a girdi. 14 Safer'de (2 Ocak 1523) ikinci defa girince, adına hutbe okutup şehre nizam verdi ve adadan ayrıldı.\" · rodos (TDV): \"1 Safer 929'da (20 Aralık 1522) diğer adalarla birlikte Rodos'u fethetti.\"",
+  kesinlik:"istasyonlar: İstanbul · Gelibolu (Çanakkale Boğazı — coğrafî zorunluluk, kaynakta yok) · Rodos; ara Ege durakları kaynakta YOK. `rota` türetilmiş çizim hattıdır (ARAC-SEFER-OK-DENIZ-ROTA-0075.py + boğaz orta hattı ne_10m_land'den), iddia değildir",
+  // 🔴 `rota` — ne_10m_land'e karşı ölçüldü (liman muafiyetsiz, katı): kara üstü 2,1 km,
+  // en büyük bacak 0,95 km. Boğaz kesimi ne_10m_land'in iki kıyısının orta noktalarıdır.
+  rota:[[28.98,41.01],[28.749,40.911],[27.309,40.641],[26.664,40.416],[26.643,40.363],[26.609,40.324],[26.567,40.294],[26.521,40.27],[26.483,40.237],[26.436,40.214],[26.385,40.194],[26.377,40.126],[26.341,40.089],[26.299,40.061],[26.253,40.036],[26.193,40.028],[26.159,39.988],[26.059,39.518],[26.069,39.458],[26.369,39.388],[26.619,39.078],[26.619,38.948],[26.339,38.648],[26.219,38.268],[26.629,37.618],[27.319,36.898],[27.369,36.868],[27.349,36.678],[27.849,36.518],[28.226,36.443]],
+  yol:[[28.98,41.01],[26.664,40.416],[28.226,36.443]],
+  // ⚠️ `kademe` indisi ÇİZİM HATTININ indisidir: `rota` varsa app.js okun hattını
+  // `rota`dan kurar (seferKayitlariniTopla → yol:_cizYol), `yol`dan değil. 3 = Gelibolu
+  // (rota[3] = yol[1]), 29 = Rodos (rota[29] = yol[2]). 1522-06-26 = kronoloji maddesi
+  // "Kanûnî'nin Rodos seferinin adaya varması" (kronoloji_rodos_sovalyeleri.js).
+  kademe:[["1522-06-04",3],["1522-06-26",29]] },
+{ ad:"Kanunî'nin Marmaris'e yürüyüşü (1522)", tur:"sefer", sonuc:"zafer", f:"1522-06-18", t:"1522-07-26",
+  kaynak:"suleyman-i (TDV): \"Kanûnî Sultan Süleyman da 23 Receb'de (18 Haziran) kara yoluyla ordusunun başında Üsküdar'dan hareket etti. İznik, Kütahya, Denizli, Çine, Muğla yolundan Marmaris'e ulaştı (2 Ramazan / 26 Temmuz).\"",
+  kesinlik:"istasyonlar TDV; Çine atlas noktası değil (koordinat şematik)",
+  yol:[[29.015,41.027],[29.721,40.429],[29.983,39.424],[29.094,37.783],[28.061,37.612],[28.363,37.215],[28.274,36.855]] },
 { ad:"Mohaç seferi (1526)", tur:"sefer", sonuc:"zafer",         f:"1526-04-23", t:"1526-09-29",
   yol:[[28.98,41.01],[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[20.93,44.66],
        [20.46,44.82],[19.86,45.25],[18.69,45.55],[18.69,45.99]] },

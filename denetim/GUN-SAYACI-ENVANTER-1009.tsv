@@ -1,0 +1,223 @@
+dosya	satır	işlev	sınıf	ifade
+js/app.js	15	gunIdx	GUN-SAYI-URET	function gunIdx(s) {                    // "1453-05-29" | "1453-05" -> gün indeksi
+js/app.js	16	gunIdx	DIZGI-PARCALA	var p = s.split("-");
+js/app.js	17	gunIdx	GUN-SAYI-URET	return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5);
+js/app.js	19	idxTarih	GUN-SAYI-COZ	function idxTarih(i) {                  // gün indeksi -> {y, a, g}
+js/app.js	20	idxTarih	GUN-SAYI-COZ	var d = new Date(i * 864e5);
+js/app.js	21	idxTarih	GUN-SAYI-COZ	return { y: d.getUTCFullYear(), a: d.getUTCMonth() + 1, g: d.getUTCDate() };
+js/app.js	23	idxYazi	GUN-SAYI-COZ	function idxYazi(i) {                   // gün indeksi -> "29 Mayıs 1453"
+js/app.js	24	idxYazi	GUN-SAYI-COZ	var t = idxTarih(i);
+js/app.js	32	gunMetniIdx	GUN-SAYI-URET	if (m && y) return gunIdx(y[1] + "-" + AY_NO[m[2]] + "-" + m[1]);
+js/app.js	43	kesinlikliYazi	GOSTERIM	function kesinlikliYazi(ham, gi) {
+js/app.js	44	kesinlikliYazi	GUN-SAYI-COZ	if (!ham) return idxYazi(gi);
+js/app.js	45	kesinlikliYazi	DIZGI-PARCALA	var p = ham.split("-");
+js/app.js	48	kesinlikliYazi	GUN-SAYI-COZ	return idxYazi(gi);
+js/app.js	50	olayTarihYazi	GOSTERIM	function olayTarihYazi(o) { return o.gun || kesinlikliYazi(o.t, o.gi); }
+js/app.js	89	(modül)	GUN-SAYI-URET	var BASLANGIC = gunIdx("1281-01-01");
+js/app.js	90	(modül)	GUN-SAYI-URET	var BITIS     = gunIdx("1923-10-29");
+js/app.js	349	(modül)	GUN-SAYI-URET	return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
+js/app.js	407	(modül)	GUN-SAYI-URET	return { fi: gunIdx(b.f), ti: gunIdx(b.t),
+js/app.js	448	(modül)	GUN-SAYI-URET	p.fi = gunIdx(p.f); p.ti = gunIdx(p.t);
+js/app.js	501	(modül)	GUN-SAYI-URET	r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
+js/app.js	574	rotusGun	GUN-SAYI-COZ	var t = idxTarih(i);
+js/app.js	662	oku	GUN-SAYI-COZ	tur: "rotus-teklif", surum: 1, gun: gun, gun_yazi: idxYazi(suanki),
+js/app.js	951	cozVeKur	GUN-SAYI-URET	r.fi = gunIdx(r.f); r.ti = gunIdx(r.t); r.ft = null; n++;
+js/app.js	1200	guvenAktifNoktalar	GUN-SAYI-URET	if (aktifAralik(gunIdx(p.f), gunIdx(p.t), t)) { aktif = true; break; }
+js/app.js	1206	guvenAktifNoktalar	GUN-SAYI-URET	if (q.d === devletId && aktifAralik(gunIdx(q.f), gunIdx(q.t), t)) { aktif = true; break; }
+js/app.js	3689	tekVeri	DIZGI-ESIT	var epokBaslangici = dn.f === EPOK_DAMGASI && y.g === 0;
+js/app.js	3697	tekVeri	DIZGI-ESIT	e: dn.f === EPOK_DAMGASI,
+js/app.js	3778	(modül)	GUN-SAYI-URET	go: s.go ? gunIdx(s.go) : null,
+js/app.js	3784	(modül)	GUN-SAYI-URET	return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b, y: r.y || "", e: !!r.e };
+js/app.js	4011	osmanliBaskentPencereleriKur	GUN-SAYI-URET	basl.push({ ad: ad, fi: gunIdx(y.d[0].f) });
+js/app.js	4095	(modül)	GUN-SAYI-URET	if (p.d === d.id && p.f) pl.push({ fi: gunIdx(p.f), ti: gunIdx(p.t) });
+js/app.js	4245	_yakinAktifSavasVarMi	GUN-SAYI-COZ	fetihTarihi[si] = { t: o.gun || idxYazi(o.gi),
+js/app.js	4724	(modül)	GUN-SAYI-URET	return { gi: gunIdx(s.t), sure: s.sure || 0, ekli: false,
+js/app.js	4910	devirGuncelle	GUN-SAYI-URET	if (a.gi === undefined) a.gi = gunIdx(a.t);
+js/app.js	5005	isgalGuncelle	GUN-SAYI-URET	if (ig.gi === undefined) ig.gi = gunIdx(ig.f);
+js/app.js	5006	isgalGuncelle	GUN-SAYI-URET	if (ig.gs === undefined) ig.gs = gunIdx(ig.t);
+js/app.js	5121	isyanGuncelle	GUN-SAYI-URET	if (p.gi === undefined) { p.gi = gunIdx(p.f); p.gs = gunIdx(p.t); }
+js/app.js	5186	isyanAtesGuncelle	GUN-SAYI-URET	if (p.gi === undefined) { p.gi = gunIdx(p.f); p.gs = gunIdx(p.t); }
+js/app.js	5229	_isyanTarihYazi	GOSTERIM	function _isyanTarihYazi(s, kes) {
+js/app.js	5230	_isyanTarihYazi	DIZGI-PARCALA	var p = String(s).split("-");
+js/app.js	5241	isyanMaddeKutusu	DIZGI-ESIT	var bagli = (IT.maddeler || []).some(function (m) { return m.t === o.t && o.b.indexOf(m.b) === 0; });
+js/app.js	5250	isyanMaddeKutusu	DIZGI-KIYAS	var aktif = p.f <= gs && gs < p.t;
+js/app.js	5251	isyanMaddeKutusu	DIZGI-KIYAS	var durum = aktif ? "bu gün taralı" : (gs < p.f ? "henüz başlamadı" : "sona erdi");
+js/app.js	5258	isyanMaddeKutusu	GOSTERIM	_isyanTarihYazi(p.f, p.kesinlik_f) + " → " + _isyanTarihYazi(p.t, p.kesinlik_t) +
+js/app.js	5416	isyanYayilmaUret	GUN-SAYI-URET	fi: gunIdx(b.t), ti: gunIdx(b.t) + (b.sure || 400),
+js/app.js	5581	(modül)	GUN-SAYI-URET	var fi = s.fi !== undefined ? s.fi : gunIdx(s.f);
+js/app.js	5594	(modül)	GUN-SAYI-URET	var ti = s.fi !== undefined ? s.ti : gunIdx(s.t);
+js/app.js	5604	(modül)	GUN-SAYI-URET	var kademe = (s.kademe || []).map(function (k) { return { g: gunIdx(k[0]), i: k[1] }; })
+js/app.js	5634	(modül)	GUN-SAYI-URET	vurus.push({ gi: gunIdx(v.t), ekli: false,
+js/app.js	5801	_isgalKutulari	GUN-SAYI-URET	if (ig.gi === undefined) ig.gi = gunIdx(ig.f);
+js/app.js	5802	_isgalKutulari	GUN-SAYI-URET	if (ig.gs === undefined) ig.gs = gunIdx(ig.t);
+js/app.js	6438	koridorTopla	GUN-SAYI-URET	fi: gunIdx(e.f || "1539-01-01"),
+js/app.js	6439	koridorTopla	GUN-SAYI-URET	ti: gunIdx(e.t || "1839-01-01")
+js/app.js	7124	padisahGuncelle	GUN-SAYI-URET	if (gunIdx(p.from) <= t && t < gunIdx(p.to)) { aktif = p; break; }
+js/app.js	7129	padisahGuncelle	GUN-SAYI-URET	saltanatKutu.textContent = idxTarih(gunIdx(aktif.from)).y + " – " + idxTarih(gunIdx(aktif.to)).y;
+js/app.js	7296	(modül)	GUN-SAYI-URET	var kaba = gunIdx(o.t);
+js/app.js	7297	(modül)	DIZGI-PARCALA	return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
+js/app.js	7492	(modül)	GOSTERIM	div.innerHTML = '<div class="o-tarih">' + agRozetHtml + olayTarihYazi(o) + '</div>' +
+js/app.js	7587	olayMetniUret	GOSTERIM	s.push(olayTarihYazi(o) + " — " + o.b);
+js/app.js	8349	detayAc	GUN-SAYI-COZ	document.getElementById("detay-tarih").textContent = o.gun || idxYazi(o.gi);
+js/app.js	8739	_hukukiSinirGuncelle	GUN-SAYI-URET	return gunIdx(k.f) <= gun && (k.t == null || gun < gunIdx(k.t));
+js/app.js	8855	_khGunUTC	GUN-SAYI-URET	var d = new Date(Date.UTC(2000, a - 1, g));
+js/app.js	8968	_khGunStr	GUN-SAYI-COZ	var t = idxTarih(i);
+js/app.js	8980	_khKirpikPencere	GUN-SAYI-URET	[q.f, q.t].forEach(function (g) { var i = gunIdx(g); if (i > p[0] && i < p[1]) sinir[i] = 1; });
+js/app.js	9165	_khGunYazi	GUN-SAYI-COZ	var t = idxTarih(gun);
+js/app.js	9285	sahip	DIZGI-KIYAS	if ((p = y.d[i]).f <= gun && gun < p.t)
+js/app.js	9288	sahip	DIZGI-KIYAS	if ((p = y.v[i]).f <= gun && gun < p.t) {
+js/app.js	9296	sahip	DIZGI-KIYAS	if ((p = y.s[i]).f <= gun && gun < p.t)
+js/app.js	9325	_cubukCiz	GUN-SAYI-URET	var BAS = gunIdx("1281-01-01"), SON = BITIS, GEN = SON - BAS;
+js/app.js	9333	_cubukCiz	GUN-SAYI-URET	var fi = Math.max(gunIdx(p.f), BAS), ti = Math.min(gunIdx(p.t), SON);
+js/app.js	9440	baslik	GUN-SAYI-URET	satir(kesinlikliYazi(s.t, gunIdx(s.t)), s.ad + " — " + karsiTaraf(s), isaret,
+js/app.js	9441	baslik	GUN-SAYI-URET	function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(s.t)); });
+js/app.js	9445	baslik	GUN-SAYI-URET	satir(kesinlikliYazi(a.t, gunIdx(a.t)), a.ad + " — " + karsiTaraf(a), a.ozet,
+js/app.js	9446	baslik	GUN-SAYI-URET	function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
+js/app.js	9468	baslik	DIZGI-PARCALA	(s.kur ? " · kur. " + s.kur.slice(0, 4) : "");
+js/app.js	9470	baslik	GUN-SAYI-URET	idxYazi(gunIdx(ilk.f)) + " → " + idxYazi(gunIdx(son.t)),
+js/app.js	9475	baslik	GUN-SAYI-URET	tarihAyarla(gunIdx(ilk.f));
+js/app.js	9530	detay	DIZGI-PARCALA	(y.tur ? " · " + y.tur : "") + (y.kur ? " · kuruluş " + y.kur.slice(0, 4) : "");
+js/app.js	9566	detay	GUN-SAYI-URET	var yil = Math.round((gunIdx(p.t) - gunIdx(p.f)) / 365.25);
+js/app.js	9573	detay	GUN-SAYI-URET	tarihAyarla(gunIdx(p.f));
+js/app.js	9596	ciz	DIZGI-PARCALA	var ilk = dn.length ? dn[0].f.slice(0, 4) : "—";
+js/app.js	9597	ciz	DIZGI-PARCALA	var son = dn.length ? dn[dn.length - 1].t.slice(0, 4) : "—";
+js/app.js	9663	ciz	GUN-SAYI-URET	function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); });
+js/app.js	9694	ciz	GUN-SAYI-COZ	satir(k.ad, orta, idxYazi(madde.gi),
+js/app.js	9826	_yaSahip	DIZGI-KIYAS	if (p.f <= gs && gs < p.t) ad += " · işgal: " + devletAdi(p.d);
+js/app.js	9881	ciz	GUN-SAYI-COZ	bas.textContent = idxYazi(t) + " · " + _YA.aktif.length + " yer haritada · " +
+js/app.js	10004	guncelle	GUN-SAYI-COZ	if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
+js/app.js	10005	guncelle	GUN-SAYI-COZ	if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
+js/app.js	10237	tepeEtiketGuncelle	GUN-SAYI-URET	donemEtiketi.title = o ? (idxYazi(gunIdx(o.t)) + " — " + o.b) : "";
+js/app.js	10255	kronolojiSeritGuncelle	GUN-SAYI-COZ	var y = idxTarih(suanki).y;
+js/app.js	10259	kronolojiSeritGuncelle	GUN-SAYI-COZ	'<span class="ks-tarih">' + idxYazi(suanki) + '</span>' +
+js/app.js	10349	baslikDamgala	GUN-SAYI-COZ	var t = idxTarih(suanki);
+js/app.js	10596	padisahEslesmesi	GUN-SAYI-URET	if (gi != null && (gi < gunIdx(p.from) - PADISAH_ONCE_GUN || gi > gunIdx(p.to) + PADISAH_SONRA_GUN)) continue;
+js/app.js	10605	padisahBul	GUN-SAYI-URET	if (gunIdx(p.from) <= t && t < gunIdx(p.to)) return p;
+js/app.js	10720	kisiKartSatirlari	DIZGI-PARCALA	o.kisiler.split(/[,;]/).slice(0, 4).forEach(function (ad) {
+js/app.js	10768	obGoster	GUN-SAYI-COZ	document.getElementById("ob-tarih").textContent = o.gun || idxYazi(o.gi);
+js/app.js	10840	kutu	GUN-SAYI-URET	return Math.abs(gunIdx(s.t) - o.gi) < 60 &&
+js/app.js	10850	kutu	GUN-SAYI-URET	return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
+js/app.js	10917	_antlasmaKaydi	GUN-SAYI-URET	return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
+js/app.js	11258	antlasmaFarkiGoster	GUN-SAYI-URET	var kirilma = gunIdx(r.f.gun);
+js/app.js	11378	dugme	GUN-SAYI-URET	"Savaşın başındaki durum — kayıtlı başlangıç " + _khGunYazi(gunIdx(kademe.savasBasi)) +
+js/app.js	11386	dugme	GUN-SAYI-URET	: "◀ Öncesi · " + _khGunYazi(gunIdx(onceStr));
+js/app.js	11388	dugme	GUN-SAYI-URET	? "Antlaşmadan önceki gün (" + _khGunYazi(gunIdx(onceStr)) + ") fiilen kimin elindeydi — işgaller işgalcinin KOYU tonunda"
+js/app.js	11881	_ekBagEslesir	DIZGI-ESIT	if (i < 0) return s === o.t;
+js/app.js	11882	_ekBagEslesir	DIZGI-ESIT	if (s.slice(0, i) !== o.t) return false;
+js/app.js	11902	ekKartBagliMi	DIZGI-ESIT	for (var j = 0; j < liste.length; j++) if (_ekBagGun(liste[j]) === o.t) return false;
+js/app.js	14635	tarihMetniAyristir	GUN-SAYI-URET	return { gi: Math.round(Date.UTC(yil, ay - 1, gun) / 864e5) };
+js/app.js	14683	calistir	GUN-SAYI-COZ	_durumYaz("ℹ️ Atlas " + idxTarih(BASLANGIC).y + "–" + idxTarih(BITIS).y +
+js/app.js	14686	calistir	GOSTERIM	"); en yakın olaya götürüldü: " + olayTarihYazi(o));
+js/app.js	14688	calistir	GOSTERIM	_durumYaz("✓ " + olayTarihYazi(o) + " — " + o.b);
+js/app.js	14768	kronoGun	GUN-SAYI-URET	var d = new Date(Date.UTC(2000, +m[2] - 1, +m[3]));
+js/app.js	14888	(modül)	DIZGI-ESIT	var var_mi = d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; });
+js/app.js	15325	birlesikTopla	GUN-SAYI-URET	var gi = m.gi !== undefined ? m.gi : gunIdx(m.t);
+js/app.js	15345	birlesikTopla	GUN-SAYI-URET	out.push({ gi: gunIdx(m.t), t: m.t, b: m.b, d: d, m: m, odak: false });
+js/app.js	15369	kopyaMaddesi	GUN-SAYI-URET	mo.gi = gunIdx(m.t);
+js/app.js	15484	kartCiz	DIZGI-PARCALA	(d.f || "").slice(0, 4) + " – " + (d.t || "").slice(0, 4)
+js/app.js	15511	listeCiz	DIZGI-SIRA	return (a.t || "").localeCompare(b.t || "");
+js/app.js	15512	listeCiz	GUN-SAYI-URET	}).map(function (m) { return { gi: gunIdx(m.t), t: m.t, b: m.b, d: d, m: m }; });
+js/app.js	15543	maddeAc	GUN-SAYI-URET	var gi = gunIdx(m.t);
+js/app.js	16058	derinAc	GUN-SAYI-URET	kopyaMenusuAc(e, { t: a.t, gi: gunIdx(a.t), b: a.b, d: a.d, kaynak: a.kaynak, _devletMaddesi: true }, li);
+js/app.js	16098	derinGit	GUN-SAYI-URET	try { tarihAyarla(gunIdx(a.t)); } finally { kameraCoz(); }
+arac/odak_cozum.js	175	(modül)	GUN-SAYI-URET	["function gunIdx(s)", "function idxYazi("],              // gunIdx + idxTarih
+arac/odak_cozum.js	182	(modül)	GUN-SAYI-URET	["var BASLANGIC = gunIdx(", "// ═══"],                    // atlas penceresi (tarihAyarla kıstırır)
+arac/odak_cozum.js	263	kusurlari_bul	DIZGI-ESIT	const gs = typeof o.t === "string" ? o.t : "";
+arac/odak_cozum.js	297	siniflandir	DIZGI-ESIT	const gs = typeof o.t === "string" ? o.t : "";
+arac/odak_cozum.js	372	devletiYaySessiz	GUN-SAYI-URET	const su = Math.max(W.BASLANGIC, Math.min(W.BITIS, W.gunIdx(t)));
+arac/odak_cozum.js	375	devletiYaySessiz	GUN-SAYI-URET	if (W.aktifAralik(W.gunIdx(p.f), W.gunIdx(p.t), su)) return null;
+arac/odak_cozum.js	384	govdeSonucu	GUN-SAYI-URET	try { k = maddeOdakKutusu({ t: m.t, gi: W.gunIdx(m.t), odak_kimlik: [d.id] }); } catch (e) { k = null; }
+arac/odak_cozum.js	584	(modül)	GUN-SAYI-URET	geval("suanki = " + Math.max(W.BASLANGIC, Math.min(W.BITIS, W.gunIdx(m.t))) + ";");
+arac/denetle.py	1187	pad	DIZGI-PARCALA	`gun_no` `s[0:4]` keser ⇒ "900-" ile ValueError; dizgi karşılaştırması
+arac/denetle.py	1188	pad	DIZGI-KIYAS	`"900-01-01" > "1281-01-01"` ⇒ True (YANLIŞ). Tarih karşılaştıran her yer
+arac/denetle.py	1201	gun_no	GUN-SAYI-URET	def gun_no(s):
+arac/denetle.py	1203	gun_no	DIZGI-PARCALA	y, a = int(s[0:4]), int(s[5:7])
+arac/denetle.py	1204	gun_no	DIZGI-PARCALA	g = int(s[8:10]) if len(s) >= 10 else 1
+arac/denetle.py	1205	gun_no	GUN-SAYI-URET	return date(y, a, g).toordinal()
+arac/denetle.py	1211	ir	DIZGI-KIYAS	return bool(periods) and any(p["f"] <= g < p["t"] for p in periods)
+arac/denetle.py	1422	degismez1b	GUN-SAYI-URET	gun = gun_no(son) - gun_no(bas)
+arac/denetle.py	1568	_2s_es_ad_rapor	DIZGI-PARCALA	+ ", ".join(f"{a} {d}" for d, a, _, _ in olc[:4]))
+arac/denetle.py	1850	degismez2	GUN-SAYI-URET	ol = [{"g": gun_no(o["t"]), "b": o["b"],
+arac/denetle.py	1880	degismez2	DIZGI-KIYAS	if not d or d <= "1281-01-01" or d >= "1923-10-29":
+arac/denetle.py	1889	degismez2	GUN-SAYI-URET	gd = gun_no(d)
+arac/denetle.py	2010	degismez2	DIZGI-PARCALA	acik.append((d, kir[d]["t"], gosterilecek[:4], en_yakin["b"], fark))
+arac/denetle.py	2238	_osmanli_kure	DIZGI-KIYAS	if any(p["f"] <= g < p["t"] for p in (y.get(alan) or [])):
+arac/denetle.py	2265	kapsam_disi	DIZGI-PARCALA	yy, mm, dd = int(g[:4]), int(g[5:7]), int(g[8:10])
+arac/denetle.py	2269	kapsam_disi	GUN-SAYI-COZ	+ datetime.timedelta(days=yon * kaydir)).isoformat()
+arac/denetle.py	2344	kirilmasiz_madde	GUN-SAYI-URET	gunler = sorted([gun_no(d) for d in kir_dv] + [gun_no(d) for d in kir_s])
+arac/denetle.py	2345	kirilmasiz_madde	GUN-SAYI-URET	isg = [(gun_no(d), k["ad"]) for d, k in (kir_isg or {}).items()]
+arac/denetle.py	2350	kirilmasiz_madde	GUN-SAYI-URET	g = gun_no(o["t"])
+arac/denetle.py	2422	durum	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle.py	2425	durum	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle.py	2428	durum	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle.py	2642	_harita_tarih_sec	GUN-SAYI-URET	if pt and f and _gun_farki(f, pt) is not None and _gun_farki(f, pt) > 0:
+arac/denetle.py	2644	_harita_tarih_sec	GUN-SAYI-URET	if pf and t and _gun_farki(pf, t) is not None and _gun_farki(pf, t) > 0:
+arac/denetle.py	2650	_gun_farki	GUN-SAYI-URET	def _gun_farki(a, b):
+arac/denetle.py	2654	ay	DIZGI-PARCALA	p = (s or "").split("-")
+arac/denetle.py	2967	degismez4	GUN-SAYI-URET	g = _gun_farki(p.get("f"), kt) if kt else None
+arac/denetle.py	2974	degismez4	GUN-SAYI-URET	g2 = _gun_farki(kf, p.get("t")) if kf else None
+arac/denetle.py	2984	degismez4	GUN-SAYI-URET	g3 = _gun_farki(p.get("t"), kt)
+arac/denetle.py	2994	degismez4	GUN-SAYI-URET	g4 = _gun_farki(kf, p.get("f"))
+arac/denetle.py	3109	degismez5	GUN-SAYI-URET	g = _gun_farki(kur, ilk)     # kur − ilk; pozitifse dönem ÖNCE
+arac/denetle.py	3118	degismez5	GUN-SAYI-URET	if (_gun_farki(kur, p[0]) or 0) > HAYALET_TOLERANS_GUN)
+arac/denetle.py	3133	degismez5	DIZGI-KIYAS	and ilk <= "1281-12-31"):
+arac/denetle.py	3635	artir	DIZGI-PARCALA	p = g.split("-")
+arac/denetle.py	3637	artir	GUN-SAYI-URET	return (date(int(p[0]), int(p[1]), int(p[2]))
+arac/denetle.py	3638	artir	GUN-SAYI-COZ	+ timedelta(days=gun)).isoformat()
+arac/denetle.py	3697	degismez7	DIZGI-KIYAS	if f <= "1281-01-01" or f >= "1923-10-29":
+arac/denetle.py	3704	degismez7	DIZGI-KIYAS	if f <= "1281-01-01" or f >= "1923-10-29":
+arac/denetle.py	3735	durum	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle.py	3738	durum	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle.py	3741	durum	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle.py	4206	_gun_no	DIZGI-PARCALA	p = (t + "-01-01").split("-")
+arac/denetle.py	4207	_gun_no	GUN-SAYI-URET	return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
+arac/denetle.py	4346	onek_olcutu	DIZGI-SIRA	S = sorted(O, key=lambda o: o["t"])
+arac/denetle.py	4403	hassasiyet_dususu	GUN-SAYI-URET	ol = [(gun_no(tam(o["t"])), o.get("b", ""), o["t"]) for o in O]
+arac/denetle.py	4409	hassasiyet_dususu	GUN-SAYI-URET	g = gun_no(t)
+arac/denetle.py	4424	savas_senkronu	GUN-SAYI-URET	ol = [(gun_no(tam(o["t"])), o.get("b", "")) for o in O]
+arac/denetle.py	4430	savas_senkronu	GUN-SAYI-URET	g = gun_no(tam(r["t"]))
+arac/denetle.py	4465	mukerrer_maddeler	DIZGI-SIRA	S = sorted(O, key=lambda o: o["t"])
+arac/denetle.py	4501	mukerrer_maddeler	DIZGI-PARCALA	bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
+arac/denetle.py	4730	orusuyor	DIZGI-KIYAS	return a["f"] < b["t"] and b["f"] < a["t"]
+arac/denetle.py	5096	_d8_gun_once	GUN-SAYI-URET	return (date.fromisoformat(pad(g)) - timedelta(days=1)).isoformat()
+arac/denetle.py	5105	_d8_gunler	DIZGI-KIYAS	"0330-12-31" < "330-05-11" dizgi kıyası YANLIŞ dala düşer ve aynı gün iki
+arac/denetle.py	5975	kaynak_tavan_indir	GUN-SAYI-COZ	T.setdefault("gecmis", []).append({"tarih": date.today().isoformat(),
+arac/denetle.py	6118	zincir_kaynagi_rapor	GUN-SAYI-URET	gun = sum((date.fromisoformat(pad(s)) - date.fromisoformat(pad(b))).days
+arac/denetle.py	6378	degismez_r	DIZGI-KIYAS	if a["f"] < b["t"] and b["f"] < a["t"] and P_[a["id"]].intersects(P_[b["id"]]) \
+arac/renk_olc.py	389	ayni_anahtar	DIZGI-SIRA	sorted(kayitlar, key=lambda x: x["f"]), 2):
+arac/renk_olc.py	390	ayni_anahtar	DIZGI-KIYAS	if a["f"] < b["t"] and b["f"] < a["t"]:
+arac/renk_olc.py	545	yakin_renk	DIZGI-SIRA	pencere[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1]))
+arac/renk_olc.py	629	_cie_evreni	DIZGI-SIRA	pencere[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1]))
+arac/renk_olc.py	715	cie94_karsilastir	DIZGI-PARCALA	f"{b:<22} {yer}  {(F or '')[:4]}-{(T or '')[:4]}")
+arac/renk_olc.py	885	denetle	DIZGI-SIRA	bas, son = max(a["f"], b["f"]), min(a["t"], b["t"])
+arac/renk_olc.py	924	denetle	DIZGI-PARCALA	print(f"  {d:>6.2f}  {km_:>5.0f} km  {a:<20} ↔ {b:<20} {f[:4]}-{t[:4]}")
+arac/renk_olc.py	932	denetle	DIZGI-PARCALA	print(f"     {d:>6.2f}  {km_:>5.0f} km  {a:<20} ↔ {b:<20} {f[:4]}-{t[:4]}")
+arac/renk_olc.py	1013	engel_kumesi	DIZGI-SIRA	pen[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1])) if e
+arac/renk_olc.py	1152	dogrula	DIZGI-PARCALA	+ " · ".join(f"{b} {d:.1f}" for d, b in _alt[:4]))
+arac/uret_devirler.py	275	isgalleri_uret	DIZGI-KIYAS	if any(q["f"] <= f < q["t"] for q in (y.get(kat) or [])):
+arac/uret_devirler.py	346	osmanli_govdesi	DIZGI-KIYAS	d = [x for x in D if x["f"] <= g < x["t"]]
+arac/uret_devirler.py	348	osmanli_govdesi	DIZGI-KIYAS	d = [x for x in D if x["f"] <= g]
+arac/uret_devirler.py	362	devlet_govdesi	DIZGI-KIYAS	if p["f"] <= g < p["t"]:
+arac/denetle_yayin.py	1585	main	DIZGI-PARCALA	% (yol, ", ".join(fark[:4]) + ("…" if len(fark) > 4 else "")))
+arac/kodla.py	625	_acilis_halkalari	DIZGI-KIYAS	if not (p.get("f", "9999") <= gun <= p.get("t", "0000")):
+arac/denetle_eslesme.py	149	_sahipli	DIZGI-KIYAS	if p.get("f") and p.get("t") and p["f"] <= g < p["t"]:
+arac/denetle_eslesme.py	162	a_yanlis_eslesme	GUN-SAYI-URET	ol = [{"g": denetle.gun_no(o["t"]),
+arac/denetle_eslesme.py	169	a_yanlis_eslesme	DIZGI-KIYAS	if not dt or dt <= "1281-01-01" or dt >= "1923-10-29":
+arac/denetle_eslesme.py	175	a_yanlis_eslesme	GUN-SAYI-URET	gd = denetle.gun_no(dt)
+arac/denetle_eslesme.py	309	c_coklu_yer	GUN-SAYI-URET	kir.setdefault(y["ad"], set()).add(denetle.gun_no(dt))
+arac/denetle_eslesme.py	331	c_coklu_yer	GUN-SAYI-URET	g = denetle.gun_no(o["t"])
+arac/denetle_eslesme.py	662	_b_kimlik	DIZGI-PARCALA	return "%s|%s" % (kayit[0][:4], kayit[1] or "?")
+arac/denetle_eslesme.py	686	odenmis_vaka_sinamasi	DIZGI-ESIT	if p.get("f") == gun or p.get("t") == gun:
+arac/denetle_statu.py	105	_gun	GUN-SAYI-URET	return denetle.gun_no(s)
+arac/denetle_statu.py	292	d_isgal_ortusu	DIZGI-KIYAS	if g <= "1281-01-01" or g >= "1923-10-29":
+arac/denetle_statu.py	462	main	DIZGI-PARCALA	print(f"      {g}  {yon}  ({len(adlar)} nokta) {', '.join(adlar[:4])}")
+arac/denetle_statu.py	514	main	DIZGI-PARCALA	c[int(g[:4]) // 100 + 1] = c.get(int(g[:4]) // 100 + 1, 0) + 1
+arac/denetle_gorunur.py	283	yerlesim_gorunurlugu	GUN-SAYI-URET	if not any(_d.gun_no(p["t"]) > _d.gun_no(p["f"]) for p in pencereler if p.get("f") and p.get("t")):
+arac/denetle_gorunur.py	294	kronoloji_icerigi	GUN-SAYI-URET	baslangic, bitis = _d.gun_no("1281-01-01"), _d.gun_no("1923-10-29")
+arac/denetle_gorunur.py	300	kronoloji_icerigi	GUN-SAYI-URET	gi = _d.gun_no(o["t"])
+arac/denetle_anakronizm.py	184	gun_no	GUN-SAYI-URET	def gun_no(s):
+arac/denetle_anakronizm.py	186	gun_no	DIZGI-PARCALA	p = s.split("-")
+arac/denetle_anakronizm.py	206	omurler	GUN-SAYI-URET	ham.setdefault(h, []).append((gun_no(d["f"]), gun_no(d["t"]), d))
+arac/denetle_anakronizm.py	244	topla	GUN-SAYI-URET	f, t = gun_no(sp["f"]), gun_no(sp["t"])
+arac/denetle_anakronizm.py	294	savas_taraflari	GUN-SAYI-URET	kimlik_omru[d["id"]] = (gun_no(d["f"]), gun_no(d["t"]))
+arac/denetle_anakronizm.py	310	savas_taraflari	GUN-SAYI-URET	g = gun_no(t if len(t) == 10 else (t + "-01-01")[:10])
