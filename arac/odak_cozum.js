@@ -134,6 +134,12 @@ for (const m of HTML.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)) {
       try { geval(oku(path.join(KOK, src))); } catch (e) { olculemedi("js/suzgec.js koşmadı: " + e.message); }
       continue;
     }
+    // NEGATIF-YIL-1010-A: app.js gunIdx/idxTarih artık js/gun.js'in GUN'una bağlı;
+    // yüklenmezse kesilen gunIdx ATAR ⇒ aşağıda "app.js parçası koşmadı" ÖLÇÜLEMEDİ.
+    if (src === "js/gun.js") {
+      try { geval(oku(path.join(KOK, src))); } catch (e) { olculemedi("js/gun.js koşmadı: " + e.message); }
+      continue;
+    }
     if (!src.startsWith("data/")) continue;            // dış URL, öteki js/ — kamera çözümü değil
     const liste = EK[src];
     if (!liste) olculemedi("index.html `" + src + "` yüklüyor ama Python'un etiket→kaynak haritasında yok (paket_coz)");

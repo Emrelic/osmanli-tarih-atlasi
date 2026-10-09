@@ -12,24 +12,47 @@ var AYLAR = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran",
 var AY_NO = {};
 AYLAR.forEach(function (a, i) { AY_NO[a] = i + 1; });
 
-function gunIdx(s) {                    // "1453-05-29" | "1453-05" -> gün indeksi
-  var p = s.split("-");
-  return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5);
+// NEGATIF-YIL-1010-A — gün sayacı `js/gun.js`e (window.GUN) BAĞLANDI (tasarım C2,
+// denetim/GUN-SAYACI-TASARIM-1009.md). Eski gövde `Date.UTC` + `split("-")` idi:
+// "-2999-01-01" → 2149 yılı (split'in ilk parçası "") · "0050" → 1950 (Date.UTC
+// 0-99'u 1900+ yapar) · "" → 1900-01-01 · "1281-02-30" → 2 Mart, HEPSİ SESSİZ.
+// Şimdi: astronomik yıl (MÖ 1 = 0000 · MÖ 3000 = -2999), 1970-01-01 = 0 (eski ile
+// aynı sıfır günü ⇒ 0100-9999'da her gün BİREBİR), geçersiz girdide THROW.
+// ⚠️ Bu dilim `arac/odak_cozum.js` (KESIMLER) tarafından METİNLE KESİLİP koşulur; GUN
+// orada da yüklenir. Bu yorum o kesim işaretlerini (işlev başlıklarını) birebir
+// İÇERMEMELİ — içerirse ilk eşleşme yorumda olur ve odak nöbetçisi ÖLÇEMEZ
+// (ölçüldü, NEGATIF-YIL-1010-A: "Unexpected string").
+function gunIdx(s) {                    // "1453-05-29" | "1453-05" | "-2999-01-01" -> gün indeksi
+  return _gunSayaci().gun(s);
 }
-function idxTarih(i) {                  // gün indeksi -> {y, a, g}
-  var d = new Date(i * 864e5);
-  return { y: d.getUTCFullYear(), a: d.getUTCMonth() + 1, g: d.getUTCDate() };
+function idxTarih(i) {                  // gün indeksi -> {y, a, g} · y ASTRONOMİK (MÖ 1 = 0)
+  var p = _gunSayaci().parcala(i);
+  return { y: p[0], a: p[1], g: p[2] };
 }
-function idxYazi(i) {                   // gün indeksi -> "29 Mayıs 1453"
+function _gunSayaci() {                 // GUN yoksa SESSİZ eski davranışa DÜŞMEZ, durur
+  if (typeof GUN === "undefined" || !GUN || typeof GUN.gun !== "function") {
+    throw new Error("js/gun.js yüklenmedi (GUN yok) — index.html'de app.js'ten ÖNCE olmalı");
+  }
+  return GUN;
+}
+function idxYazi(i) {                   // gün indeksi -> "29 Mayıs 1453" · "1 Ocak MÖ 3000"
   var t = idxTarih(i);
-  return t.g + " " + AYLAR[t.a - 1] + " " + t.y;
+  return t.g + " " + AYLAR[t.a - 1] + " " + GUN.yilYazi(t.y);
 }
 // "gun" metninden kesin gün çıkar ("29 Mayıs 1453", "26 Ağustos – 9 Eylül 1922"...)
+// NEGATIF-YIL-1010-A: ay/gün iki haneye dolgulanır (gun.js tek biçim ister; eski
+// Date.UTC "1453-5-29"u da yutuyordu) · "MÖ n" / "M.Ö. n" metni astronomik 1−n olur
+// (eskiden "15 Mart MÖ 1200" yoktu; olsaydı \d{4} onu MS 1200'e koyardı).
 function gunMetniIdx(gun, varsayilan) {
   if (!gun) return varsayilan;
   var m = gun.match(/(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)/);
-  var y = gun.match(/(\d{4})/);
-  if (m && y) return gunIdx(y[1] + "-" + AY_NO[m[2]] + "-" + m[1]);
+  var mo = gun.match(/M\.?\s?Ö\.?\s*(\d{1,4})/);
+  var y = mo ? null : gun.match(/(\d{4})/);
+  if (m && (y || mo)) {
+    var yil = mo ? 1 - (+mo[1]) : +y[1];
+    return gunIdx(GUN.dizgi(GUN.gunSayisi(yil, 1, 1), "yil") + "-" +
+                  ("0" + AY_NO[m[2]]).slice(-2) + "-" + ("0" + m[1]).slice(-2));
+  }
   return varsayilan;
 }
 
@@ -57,15 +80,19 @@ function kesinlikliYazi(ham, gi, kesinlik) {
   var kb = kesinlikBirimi(kesinlik);
   if (kb && kb !== "gun") {
     var tt = idxTarih(gi != null ? gi : gunIdx(ham));
-    if (kb === "ay") return AYLAR[tt.a - 1] + " " + tt.y;
-    if (kb === "yil") return String(tt.y);
-    if (kb === "onyil") return "~" + Math.floor(tt.y / 10) * 10;
+    // NEGATIF-YIL-1010-A: yıl ≤ 0 (MÖ) GUN.yilYazi ile "MÖ n" basılır; y ≥ 1 AYNEN eski.
+    // MÖ onyıl/yüzyıl TARİHSEL yıl (n = 1 − y) üzerinden: MÖ 2999 → ~MÖ 2990 · XXX. yüzyıl.
+    var mo = tt.y <= 0, ty = mo ? 1 - tt.y : tt.y;
+    if (kb === "ay") return AYLAR[tt.a - 1] + " " + GUN.yilYazi(tt.y);
+    if (kb === "yil") return GUN.yilYazi(tt.y);
+    if (kb === "onyil") return "~" + (mo ? "MÖ " : "") + Math.floor(ty / 10) * 10;
     if (kb === "yuzyil") {
       // Birim [1400, 1500) — `_khBirimBasi` ile aynı kova (floor(y/100)).
-      var yz = Math.floor(tt.y / 100) + 1;           // 1400–1499 → XV. yüzyıl
-      return (_ROMA_YUZYIL[yz] || yz) + ". yüzyıl";
+      var yz = mo ? Math.floor((ty - 1) / 100) + 1    // MÖ 3000–2901 → MÖ XXX. yüzyıl
+                  : Math.floor(tt.y / 100) + 1;        // 1400–1499 → XV. yüzyıl
+      return (mo ? "MÖ " : "") + (_ROMA_YUZYIL[yz] || yz) + ". yüzyıl";
     }
-    if (kb === "belirsiz") return "~" + tt.y + " (belirsiz)";
+    if (kb === "belirsiz") return "~" + GUN.yilYazi(tt.y) + " (belirsiz)";
   }
   if (!ham) return idxYazi(gi);
   var p = ham.split("-");
@@ -82,7 +109,7 @@ function kesinlikliYazi(ham, gi, kesinlik) {
 function isoDizgi(s) { return String(s == null ? "" : s).replace(/^(-?)0+(?=\d)/, "$1"); }
 function yilDizgi(s) {
   var m = /^(-?\d+)/.exec(String(s || ""));
-  return m ? String(+m[1]) : "—";
+  return m ? GUN.yilYazi(+m[1] || 0) : "—";     // NEGATIF-YIL-1010-A: "-2999" → "MÖ 3000" · "0000" → "MÖ 1"
 }
 // ZAMAN-GENİŞ-1008 (sürüm 3) — ufuk dışı madde LİSTEDE de görünür işaretlenir
 // (soluk + ⏳ ipucu): tıklanınca haritanın neden oynamadığı önceden belli olsun.
@@ -190,7 +217,7 @@ var VERI_SONU = gunIdx(VERI_UFKU[1]);
 var ZAMAN_KONUM_MAX = 1000000;
 var ZAMAN_DIS_KAT = 0.29;
 var ZAMAN_DIS_TABAN = 0.08;
-function _yilYazi(g) { return String(idxTarih(g).y); }
+function _yilYazi(g) { return GUN.yilYazi(idxTarih(g).y); }   // NEGATIF-YIL-1010-A: y ≤ 0 → "MÖ n"
 var ZAMAN_CAGLARI = (function () {
   var vb = Math.max(BASLANGIC, Math.min(BITIS, VERI_BASI));
   var vs = Math.max(BASLANGIC, Math.min(BITIS, VERI_SONU));
@@ -7504,7 +7531,9 @@ var olaylar = Object.keys(window)
   .filter(function (o) { return dunyaAcik || o.kapsam !== "konu"; })
   .map(function (o) {
   var kaba = gunIdx(o.t);
-  return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
+  // NEGATIF-YIL-1010-A: gün hassasiyeti DESENLE (eski `split("-").length > 2` "-2999-05"i
+  // — baştaki "-" yüzünden 3 parça — GÜN hassasiyetli sayıyordu).
+  return Object.assign({ gi: /^[+-]?\d+-\d{2}-\d{2}$/.test(o.t) ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) {
   // 🔴 EKLENDİ (DALGA-0068 H-0004, YAMA-SIRA-0918, ISGAL-TARAMA, 18 Eylül
   // 2026): aynı güne (`gi` eşit) düşen maddelerin sırası bugüne kadar TARİHSEL
@@ -9174,10 +9203,8 @@ function _khYerAnahtari(k, kon) { return k.yer || ("@" + kon[1] + "," + kon[0]);
 //    Ölçüm: bugünkü 189 kayıtta çeyrek-kesit örnekleminde 0 vaka — kural veri
 //    büyüdükçe (HALKA-FETIH, KRONOLOJI dalgaları) devreye girsin diye var.
 var _khKirpikOnbellek = { n: -1, ix: {} };
-function _khGunStr(i) {
-  var t = idxTarih(i);
-  var y = String(t.y); while (y.length < 4) y = "0" + y;
-  return y + "-" + (t.a < 10 ? "0" : "") + t.a + "-" + (t.g < 10 ? "0" : "") + t.g;
+function _khGunStr(i) {                  // NEGATIF-YIL-1010-A: GUN.dizgi (0000-9999'da eskiyle aynı dizgi;
+  return GUN.dizgi(i);                    // eski dolgu y = -1'de "00-1" basıyordu)
 }
 function _khKirpikPencere(k) {
   var p = kaynakliHalkaPencere(k);
@@ -9372,8 +9399,7 @@ function kaynakliHalkaSehirBlogu(yerAdi) {
   return d;
 }
 function _khGunYazi(gun) {                // gün indeksi → "15 Haziran 1595"
-  var t = idxTarih(gun);
-  return t.g + " " + AYLAR[t.a - 1] + " " + t.y;
+  return idxYazi(gun);                    // NEGATIF-YIL-1010-A: aynı biçim, y ≤ 0 → "MÖ n"
 }
 
 // ---- AYAR — katman seçicide, varsayılan KAPALI, tercih hatırlanır ------------
@@ -9581,7 +9607,7 @@ function zamanEksenDoldur(el) {
   ZAMAN_CAGLARI.filter(function (c) { return c.cekirdek; }).forEach(function (c) {
     var y0 = idxTarih(c.f).y, y1 = idxTarih(c.t).y;
     for (var y = Math.ceil((y0 + 50) / ZAMAN_EKSEN_ADIM) * ZAMAN_EKSEN_ADIM; y <= y1 - 50; y += ZAMAN_EKSEN_ADIM) {
-      gunler.push(gunIdx(("000" + y).slice(-4) + "-01-01"));
+      gunler.push(GUN.gunSayisi(y, 1, 1));   // NEGATIF-YIL-1010-A: ("000"+y).slice(-4) negatifte "2999"di
     }
   });
   gunler.sort(function (a, b) { return a - b; });
@@ -10661,10 +10687,7 @@ function baslikDamgala() {
   // madde haritadan bağımsızdır — kamera hazır olmasa da yazılabilir.
   try {
     if (!_tuvalDik) tuvalOlc();
-    var t = idxTarih(suanki);
-    var iso = String(t.y).padStart(4, "0") + "-" +
-              String(t.a).padStart(2, "0") + "-" +
-              String(t.g).padStart(2, "0");
+    var iso = GUN.dizgi(suanki);          // NEGATIF-YIL-1010-A: padStart(4) negatifte "00-1" basıyordu
 
     var c = harita.getCenter(), z = harita.getZoom();
     var s = null;

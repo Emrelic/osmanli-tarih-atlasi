@@ -15,8 +15,17 @@ const VARYANT = ["908-03-01", "0908-03-01", "+000908-03-01", "1453", "1453-05", 
 const GECERSIZ = ["", "1923-13-01", "abc", "1281-02-30", "1900-02-29", "1453/05/29", " 1453", "1453-5-1",
                   "1453-05-00", "1234567-01-01", "--1453"];
 
+// NEGATIF-YIL-1010-A: app.js gunIdx artık js/gun.js'e BAĞLI. Bu sınavın A/C bölümleri "YAMASIZ
+// okuyucu"yu (Date.UTC gövdesi) ölçer; çalışma ağacındaki app.js bağlıysa o okuyucu artık orada
+// YOKTUR ⇒ bağlantı öncesi taban (f0b6fd50) git'ten okunur. Bağlı gövde ayrıca sınanır:
+// denetim/ARAC-NEGATIF-YIL-A-SINAV-1010.js. (Çalışan gövdeyi GUN'suz koşturmak "GUN yok" diye ATAR.)
+const YAMASIZ_TABAN = "f0b6fd50";
 function appGunIdx() {
-  const app = fs.readFileSync(path.join(KOK, "js", "app.js"), "utf8");
+  let app = fs.readFileSync(path.join(KOK, "js", "app.js"), "utf8");
+  if (/_gunSayaci|GUN\./.test(app.slice(app.indexOf("function gunIdx(s)"), app.indexOf("function idxYazi(")))) {
+    app = require("child_process").execFileSync("git", ["-C", KOK, "show", YAMASIZ_TABAN + ":js/app.js"],
+                                                  { encoding: "utf8", maxBuffer: 64 << 20 });
+  }
   const c = {};
   vm.runInNewContext(app.slice(app.indexOf("function gunIdx(s)"), app.indexOf("function idxYazi(i)"))
                      + ";this.gunIdx=gunIdx;this.idxTarih=idxTarih;", c);
