@@ -83,3 +83,60 @@ Kars 1239-1256) ⇒ uygulanırsa ufuk açılınca bu dilimler boyanmaz — Z3'e 
 - **Çanakkale:** XV. yy kuruluşu, atlas 1281'den boyuyor (`kur` yok). **Uzunköprü:** `kur:1443` ama ilk dönemi 1281.
 - **Karaman/Lârende:** TDV karaman (1165 Selçuklu) ile TDV silifke (1210 Levon Lârende'yi Saint Jean'a bıraktı) çelişiyor.
 - `ahlatsahlar` künyesi 1208-01-01'de bitiyor; TDV bitlis Ahlatşah hâkimiyetini 1209'a dek sürdürüyor (Z3).
+
+## ① ÖNGÖRÜ — BALKAN dilimi (ölçümden ÖNCE, 2026-10-09, TDV çekimi başlamadan)
+Kutu: lat 36.0-48.5 · lon 13.0-29.9, Anadolu/çekirdek kutuları dışı · duvar (tur≠bolge) **276** nokta (sayım, öngörü değil).
+| Soru | Öngörü | Mekanizma |
+|---|---|---|
+| TDV yer maddesi bulunan | ~90 (%33) | TDV Balkan büyük şehirlerini kapsar, kasaba/kale azdır |
+| ② sıkı zincir | **15-25** | Bizans/Bulgar/Sırp/Latin el değiştirmeleri sık ve çoğu tarihsiz ⇒ Anadolu'dan düşük oran |
+| ① kaynakta 1281 sonrası kuruluş | ~5 | Osmanlı kuruluşu kasabalar (Tatarpazarcık vb.) |
+| künyesi olmayan sahip | sık | Sırp (Nemanjić), II. Bulgar, Macar, Latin dukalıkları — `devletler.js`te kısmen var |
+
+## ① ÖNGÖRÜ — ORTADOĞU dilimi (Suriye+Irak+Mısır kutuları, ölçümden ÖNCE, 2026-10-09)
+Duvar (tur≠bolge): Suriye 24 · Irak 60 · Mısır 47 = **131** (sayım). 0930 var-aday: Suriye 15 · Irak 14 · Mısır 5.
+| Soru | Öngörü | Mekanizma |
+|---|---|---|
+| ② sıkı zincir | **12-20** | Suriye büyük şehirleri TDV'de ayrıntılı (Halep, Şam, Hama, Humus) ama Haçlı/Zengî/Eyyûbî/Memlük el değiştirmeleri sık; Mısır'da Fâtımî→Eyyûbî→Memlük düz zinciri birkaç şehirde tutar |
+| ① 1281 sonrası kuruluş | ~2 | |
+| boyasız künye kullanımı | `eyyubi` ve haçlı künyeleri sık | Anadolu'da `eyyubi` boyasız çıktı |
+
+## ② BALKAN — ölçüm (276 noktanın TAMAMI okundu)
+| Kova | Sayı | Öngörü |
+|---|---|---|
+| TDV yer maddesi bulunan | 105 | ~90 ✅ |
+| **① 1281 sonrası kuruluş (kaynakta)** | **0** | ~5 ❌ |
+| **② sıkı zincir → diff** | **7** — Kavala · Modon · Atina · İstefe · Livadya · Nakşa · Vodina | 15-25 ❌ |
+| **③ kaynak yok** | **269** | |
+| ↳ TDV maddesi yok | 171 | |
+| ↳ madde var, 1000-1280 tarihli cümle yok | 53 | |
+| ↳ tarihli tanık var, zincir kopuk | 23 | |
+| ↳ bölge / akın / hicrî / sahiplik demeyen cümle | 21 | |
+| ↳ yanlış madde | 1 (Yenişehir-Larissa → Bursa Yenişehir'i) | |
+⇒ Balkan'ın **%2,5'i** (7/276) sıkı kuralla geriye uzar — Anadolu'nun beşte biri. Mekanizma: TDV Balkan
+şehir maddeleri 1000-1281'i çoğu kez tek cümleyle geçer (Bizans-Bulgar-Latin-Epir-İznik el değiştirmeleri tarihsiz),
+Macaristan/Bosna/Sırbistan maddelerinde 1281 öncesine dair tarihli sahiplik cümlesi neredeyse yok (Moğol 1241 yağması dışında).
+**Mevcut 1281 kimlikleri `harita:` anahtarıdır** (`atinadukaligi`, `bulgaristan`, `sirbistan`…); künye sınavı anahtarı
+künyeye çözerek yapıldı (`atinadukaligi`→`atina-dukaligi` 1205).
+
+### Balkan yan bulguları (1281 SONRASI — dokunulmadı)
+- **Korfu:** atlas 1281-1797 VENEDİK; TDV 1267 Napoli (Anjou), Venedik 1386.
+- **Draç:** atlas 1281'den VENEDİK; TDV 1273'te Anjou elinde.
+- **Balyabadra (Patras):** atlas 1281-1430 BİZANS; TDV 1205'te Franklar Bizans'tan aldı.
+- **Köprülü (Veles):** atlas 1281 sirbistan; TDV 1246 Vatatzis aldı — Sırp'a geçiş tarihsiz.
+
+## Yamam uygulayıcıda nasıl davranıyor — ÖLÇÜLDÜ (`py arac/_sahiplik_uygula.py` KURU koşu, yazmaz)
+- **`girdi.py`'ye satır GEREKMİYOR:** uygulayıcı `data/` altında `^yer_yama.*\.js$` glob'unu okuyor (satır 73);
+  `yer_yama_once1281_z6.js` okundu (42 kayıt sayıma girdi). Z5'in ölçümüyle aynı.
+- **Çıkış 2 benden ÖNCE de var:** dosyam yokken de kuru koşu çıkış 2 (bayat yama kapısı, inmiş yamalar glob'da).
+- **42 kaydın 36'sı ÇAKIŞMA** (dosyamla: 55 çakışma · dosyamsız: 20 ⇒ +35 ad; Karaman/Konya/Kütahya üçlü): karşı taraf
+  çoğunlukla `yer_yama_tbmm_1920_0905.js` (Anadolu şehirlerinin 1920 dönemini taşıyan, ZATEN İNMİŞ yama); öteki
+  `dogumakedonya` · `balkan_trakya` · `isg_yunan_kaynak`/`yunananakara` · `ada_*`/`onikiada` · `vassal_kid_0906`.
+  **Sebep:** yamam `s:` dizisinin TAMAMINI bugünkü veriden kopyalayıp önüne ekliyor; inmiş eski yamalar aynı adın daha
+  eski `s:` dizisini taşıyor ⇒ "içerik farklı". Yamam bugünkü hâlin ÜST KÜMESİdir; çakışma inmiş yamaların glob dışına
+  taşınmasıyla (koordinatörün ayrı işi, aracın kendi önerisi `data/yer_yama_arsiv/`) çözülür.
+- **6 kayıt bugün temiz uygulanır:** Atina · İstefe · Livadya · Nakşa · Modon · Bayburt.
+- Kaynak alanı: alıntı her ÖN-DÖNEMİN kendi `kaynak:`ına yazıldı (uygulayıcı `once1281` alanını taşımaz — ölçüldü,
+  yalnız d/s/v/isg/m/kaynak/bos/neden/not iner). Birleşen dönemde mevcut `kaynak:` EZİLMEZ: yeni dayanak başına
+  "f 1281-01-01'den geri çekildi — …" diye eklenir, eskisi "‖ önceki:" ile korunur.
+- Pre-1281 kırılma günleri uygulayıcının "gün-maddesiz" kovasına DÜŞMEDİ (6 temiz kayıt "uygulandi"da).

@@ -59,6 +59,19 @@ def olc(Y):
     return duvar
 
 
+EK_KOVA = [("Balkan", 36.0, 48.5, 13.0, 29.9)]
+
+
+def kova_bul(y):
+    k = T.kova(y)
+    if k:
+        return k
+    for ad, a, b, c, d in EK_KOVA:
+        if a <= y["lat"] <= b and c <= y["lon"] <= d:
+            return ad
+    return None
+
+
 def tum_tanik(govde):
     out = []
     for cum in re.split(r"(?<=[.!?])\s+", T.govde_metni(govde)):
@@ -76,7 +89,7 @@ def tum_tanik(govde):
 
 def tdv(Y, kova_adi, ek_slug):
     duvar = [y for y in Y if (ilk(y) or {}).get("f") == EPOK and y.get("tur") != "bolge"
-             and T.kova(y) == kova_adi]
+             and kova_bul(y) == kova_adi]
     sonuc = []
     for i, y in enumerate(duvar):
         denenen, bulunan = [], None

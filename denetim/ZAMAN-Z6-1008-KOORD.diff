@@ -1,9 +1,9 @@
 diff --git a/data/yer_yama_once1281_z6.js b/data/yer_yama_once1281_z6.js
 new file mode 100644
-index 00000000..8a387d76
+index 00000000..2d35e5fb
 --- /dev/null
 +++ b/data/yer_yama_once1281_z6.js
-@@ -0,0 +1,2203 @@
+@@ -0,0 +1,2541 @@
 +// -*- coding: utf-8 -*-
 +// YER_YAMA_ONCE1281_Z6 — yerleşimlerin 1000-1281 sahipliği (ZAMAN-Z6-YER-ONCE1281-1008, UMIT)
 +// window.YER_YAMA_ONCE1281_Z6 · ÖNERİ — koordinatör uygular. Rapor: denetim/ZAMAN-Z6-1008.md
@@ -25,6 +25,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1078-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV iznik: 'Nikephoros adıyla tahta çıkarken Süleyman Şah da onun İstanbul’a hareketinin ardından İznik ve civarını fethedip İznik başşehir olmak üzere Anadolu’nun ilk Türk devletini, Anadolu Selçukluları’nı kurdu (1078).' · TDV içinde çelişki: aynı madde Azîmî'den 467 (1075) fethini de aktarır; ana metnin (1078) yılı alındı · ZAMAN-Z6-1008",
 +    "t": "1097-06-19",
 +    "kesinlik": {
 +     "f": "yil",
@@ -34,19 +35,22 @@ index 00000000..8a387d76
 +   {
 +    "f": "1097-06-19",
 +    "d": "bizans",
++    "kaynak": "TDV konya: 'Selçuklular’ın İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi üzerine Selçuklu hükümdar ailesi tarafından Konya başşehir olarak seçildi.' · ZAMAN-Z6-1008",
 +    "t": "1204-04-13",
 +    "kesinlik": "gun"
 +   },
 +   {
 +    "f": "1204-04-13",
 +    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV iznik: 'Haçlı Seferi sırasında İstanbul’un Latinler’in eline geçmesi ve Bizans hâkimiyetinin ortadan kalkması üzerine 1204’te I. Theodoros Laskaris tarafından İznik Bizans Devleti kuruldu ve dört yıl sonra İstanbul Ortodoks Patrikliği de buraya nakledilerek Theodoros Laskaris’in Patrik IV.' · kaynak YIL verir; künye f'si 1204-04-13 olduğundan künye günü devralındı (CLAUDE.md §4 hassasiyet kuralı) — kaynaksız gün · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": "gun"
 +   },
 +   {
 +    "f": "1261-07-25",
 +    "t": "1331-03-02",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1402-07-28",
@@ -74,7 +78,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -117,6 +120,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1228-01-01",
 +    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV izmit: 'Uzun süre Bizans ve Latinler arasında el değiştiren şehir 1228’de yeniden Bizans hâkimiyetine geçti.' · TDV 'Bizans' der; 1228'deki Bizans = İznik İmparatorluğu (kimlik eşlemesi, tarih değil). Öncesi (1081 Selçuklu · 1085 Bizans · Latin dönemleri) kopuk, YAZILMADI · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": {
 +     "f": "yil",
@@ -126,7 +130,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1261-07-25",
 +    "t": "1337-01-01",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1402-07-28",
@@ -154,7 +159,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -182,12 +186,14 @@ index 00000000..8a387d76
 +   {
 +    "f": "1134-01-01",
 +    "d": "danismendli",
++    "kaynak": "TDV ankara: 'Emîr Gazi’nin 1134’te ölümünden sonra yerine geçen oğlu Melik Muhammed devrinde de Ankara Dânişmendli hâkimiyetinde kaldı.' · TANIK (ediniş günü değil) · ZAMAN-Z6-1008",
 +    "t": "1142-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1142-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV ankara: 'Ancak onun ölümü üzerine hânedan mensupları arasında başlayan taht kavgalarından istifade eden Sultan Mesud Ankara, Çankırı, Kastamonu, Kayseri ve Malatya yörelerini Dânişmendliler’den aldı ve ilk üç şehrin idaresini küçük oğlu Şâhinşah’a bıraktı (1142).' · 1164 (Kılıcarslan kardeşinden aldı) ve 1204/1212 el değiştirmeleri Selçuklu hânedanı İÇİ — sahip değişmez · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -222,7 +228,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ahiler",
 +   "dayanak": [
@@ -250,7 +255,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1233-01-01",
 +    "t": "1300-01-01",
-+    "d": "selcuklu"
++    "d": "selcuklu",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV kutahya: 'Alâeddin Keykubad zamanında İznik İmparatorluğu’ndan geri alındı (1233).' · 1080/1097/1180 tanıklıkları kopuk (İznik'e geçiş günü yok), YAZILMADI · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1300-01-01",
@@ -273,7 +279,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -294,7 +299,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1204-01-01",
 +    "t": "1297-01-01",
-+    "d": "selcuklu"
++    "d": "selcuklu",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV isparta: 'Kılıcarslan zamanında 1204’te zaptedilmiştir ( el-Evâmirü’l-ʿAlâʾiyye , s.' · aynı madde 1196'da daha önce zaptedilmiş olabileceğini çıkarır (ihtimal cümlesi) — 1204 alındı · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1297-01-01",
@@ -317,7 +323,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -338,13 +343,15 @@ index 00000000..8a387d76
 +   {
 +    "f": "1204-04-13",
 +    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV manisa: 'Latinler’in 1204’te İstanbul’u almalarından sonra İznik İmparatorluğu’nun sınırlarına dahil edildi.' · kaynak YIL verir; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": "gun"
 +   },
 +   {
 +    "f": "1261-07-25",
 +    "t": "1313-01-01",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1313-01-01",
@@ -367,7 +374,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -395,6 +401,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1207-03-05",
 +    "d": "selcuklu",
++    "kaynak": "TDV antalya: 'Nihayet 5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethi gerçekleştirdi.' · önceki sahip 'Latin idaresi' (Aldobrandini) — künyesi yok, YAZILMADI · ZAMAN-Z6-1008",
 +    "t": "1212-01-01",
 +    "kesinlik": {
 +     "f": "gun",
@@ -404,6 +411,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1212-01-01",
 +    "d": "kibris-krallik",
++    "kaynak": "TDV antalya: 'Ancak bir süre sonra Kıbrıs kralının da desteği ile şehirdeki yerli hıristiyan ahalinin çıkardığı isyan sonucu Antalya 1212’de Kıbrıslılar’ın eline geçti; fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ertokuş’a verildi.' · ZAMAN-Z6-1008",
 +    "t": "1216-01-22",
 +    "kesinlik": {
 +     "f": "yil",
@@ -413,7 +421,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1216-01-22",
 +    "t": "1300-01-01",
-+    "d": "selcuklu"
++    "d": "selcuklu",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV antalya: 'Ancak bir süre sonra Kıbrıs kralının da desteği ile şehirdeki yerli hıristiyan ahalinin çıkardığı isyan sonucu Antalya 1212’de Kıbrıslılar’ın eline geçti; fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ertokuş’a verildi.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1300-01-01",
@@ -436,7 +445,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -471,7 +479,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1256-01-01",
 +    "t": "1397-07-01",
-+    "d": "karaman"
++    "d": "karaman",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV karaman: 'Selçuklular’ın çöküş dönemi sırasında kurulan Karamanoğulları Beyliği’nin eline geçti (654/1256) ve daha sonra beyliğin merkezi oldu.' · 1165 Selçuklu ilhakı ile 1256 arası KOPUK: TDV silifke 1210'da Levon'un Lârende'yi Saint Jean şövalyelerine bıraktığını yazar — iki madde çelişiyor, 1256 öncesi YAZILMADI · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1402-07-28",
@@ -489,7 +498,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -510,7 +518,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1214-01-01",
 +    "t": "1308-01-01",
-+    "d": "selcuklu"
++    "d": "selcuklu",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV nigde: 'Zeynüddin Beşâre’nin ismi, Sinop’un 611 (1214) yılında fethi sonrasında girişilen inşa ve imar faaliyetleri sırasında da Niğde beyi olarak geçer.' · TANIK (ediniş günü değil) · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1308-01-01",
@@ -534,7 +543,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -554,12 +562,14 @@ index 00000000..8a387d76
 +   {
 +    "f": "1143-01-01",
 +    "d": "danismendli",
++    "kaynak": "TDV kayseri: 'Dânişmendli Beyi Emîr Gazi’nin (Melik Gazi) Kayseri’yi ele geçirmesi üzerine büyük oğlu Melik Muhammed şehri tamir ettirerek burayı merkez yaptı, daha önceki akınlarda harap olan şehrin imarına çalıştı; 537’de (1143) Kayseri’de vefat ederek Ulucami’nin kıble tarafındaki türbesine gömüldü.' · Dânişmendli fethi tarihsiz; 1067 'muhtemelen' Türk ele geçirmesi YAZILMADI · TANIK (ediniş günü değil) · ZAMAN-Z6-1008",
 +    "t": "1169-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1169-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV kayseri: 'Kılıcarslan Kayseri ve civarını 564’te (1169) Selçuklu topraklarına kattı.' · 1243 Kösedağ sonrası Moğol eline geçiş (10 günlük direniş) Selçuklu'yu kaldırmadı — vesâyet `v:` önerilmedi; 1281'de mevcut veri ilhanli · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -594,7 +604,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -623,18 +632,21 @@ index 00000000..8a387d76
 +   {
 +    "f": "1214-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV nigde: 'Zeynüddin Beşâre’nin ismi, Sinop’un 611 (1214) yılında fethi sonrasında girişilen inşa ve imar faaliyetleri sırasında da Niğde beyi olarak geçer.' · başka maddeden (niğde), cümle Sinop'un fethini tarihliyor · ZAMAN-Z6-1008",
 +    "t": "1259-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1259-01-01",
 +    "d": "trabzon-rum",
++    "kaynak": "TDV sinop: 'İzzeddin Keykâvus arasındaki rekabet sırasında Trabzon Rumları kısa bir süre Sinop’ta tekrar egemenlik kurdu (657/1259).' · ZAMAN-Z6-1008",
 +    "t": "1266-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1266-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV sinop: 'Ancak şehir, Abaka Han’dan kaybedilen toprakları ele geçirmek için izin alan Muînüddin Süleyman Pervâne tarafından geri alındı (664/1266).' · Pervâne Selçuklu adına aldı; pervane künyesi 1277'de başlar · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -654,7 +666,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→pervane",
 +   "dayanak": [
@@ -690,12 +701,14 @@ index 00000000..8a387d76
 +   {
 +    "f": "1074-01-01",
 +    "d": "danismendli",
++    "kaynak": "TDV tokat: '1071 Malazgirt zaferinin ardından Emîr Dânişmend 1074’te Tokat’ı fethetti.' · ZAMAN-Z6-1008",
 +    "t": "1175-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1175-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV tokat: 'Kılıcarslan 1175’te Dânişmendliler’i ortadan kaldırınca Tokat Selçuklu hâkimiyetine geçti.' · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -725,7 +738,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -752,6 +764,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1184-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV sivas: 'Kılıcarslan’ın topraklarını on bir oğlu arasında paylaştırmasının ardından (580/1184) Sivas sırasıyla Kutbüddin Melikşah, II.' · 1076-77/1080 fethi 'bazı araştırmalarda' — YAZILMADI; Dânişmendli dönemi tarihsiz. 1243 Baycu Noyan ele geçirişi Selçuklu'yu kaldırmadı · TANIK (ediniş günü değil) · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -786,7 +799,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -807,7 +819,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1204-01-01",
 +    "t": "1461-08-15",
-+    "d": "trabzon-rum"
++    "d": "trabzon-rum",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV trabzon: '1204’te İstanbul’da Latin idaresinin kurulması üzerine Trabzon’a kaçan Aleksios Komnenos kendini imparator ilân edince şehir bu yeni devletin merkezi haline geldi.' · 1081 Türk idaresi kopuk, YAZILMADI · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1916-04-18",
@@ -830,7 +843,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -851,7 +863,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1204-01-01",
 +    "t": "1461-08-15",
-+    "d": "trabzon-rum"
++    "d": "trabzon-rum",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV giresun: 'Haçlılar’ın İstanbul’u işgallerinin (1204) ardından Trabzon’da kurulan Rum İmparatorluğu’nun sınırları içinde kalan kaleye yönelik Türk akınları ve tehdidi bundan sonra da sürdü.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1920-04-23",
@@ -859,7 +872,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -879,7 +891,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1204-01-01",
 +    "t": "1461-08-15",
-+    "d": "trabzon-rum"
++    "d": "trabzon-rum",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV rize: 'Haçlı Seferi’nden sonra Komnenoslar’ın Gürcü Krallığı’nın desteğiyle Trabzon merkez olmak üzere kurdukları Trabzon Rum Devleti’nin sınırları içinde kaldı (1204).' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1916-03-08",
@@ -904,7 +917,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -924,12 +936,14 @@ index 00000000..8a387d76
 +   {
 +    "f": "1142-01-01",
 +    "d": "mengucuklu",
++    "kaynak": "TDV erzincan: 'Melik İshak’ın 1142’de vefatı üzerine beylik ikiye bölündü ve Erzincan Dâvud Şah’ın idaresine girdi.' · Mengücüklü hânedanı İÇİ bölünme — sahip değişmez · TANIK (ediniş günü değil) · ZAMAN-Z6-1008",
 +    "t": "1228-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1228-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV erzincan: 'Alâeddin Keykubad tarafından Anadolu Selçuklu topraklarına katıldı (1228).' · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1005,7 +1019,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -1033,12 +1046,14 @@ index 00000000..8a387d76
 +   {
 +    "f": "1071-01-01",
 +    "d": "saltuklu",
++    "kaynak": "TDV erzurum: 'Ancak Sultan Alparslan zaferden sonra Erzurum’un çevresini Emîr Saltuk’a iktâ olarak vermiş ve onun aynı yıl (1071) Erzurum’u fethetmesiyle şehirde Türk hâkimiyeti kesin olarak başlamış, Büyük Selçuklu Devleti’ne bağlı Saltuklular Beyliği’nin temelleri atılmıştır (Turan, s.' · TDV içinde çelişki: Yinanç fethi 1080'e koyar (İA'dan aktarım) — ana metnin 1071'i alındı · ZAMAN-Z6-1008",
 +    "t": "1202-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1202-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV erzurum: 'Süleyman Şah Saltukoğulları Beyliği’ni ortadan kaldırarak Erzurum’u kardeşi Mugīsüddin Tuğrul Şah’a iktâ etti (1202).' · Erzurum Selçukluları (Tuğrul Şah · Cihan Şah) künye kararıyla Selçuklu İÇİNDE (ONCE1281-ANADOLU-BIZANS) · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1103,7 +1118,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -1132,13 +1146,15 @@ index 00000000..8a387d76
 +   {
 +    "f": "1239-01-01",
 +    "d": "mogol-imparatorlugu",
++    "kaynak": "TDV kars: '636’da (1239) Curmagan Noyan kumandasındaki Moğol ordusu Gürcistan seferi sırasında Kars’ı alarak tahrip etti.' · 1080 Selçuklu · 1153 Saltuklu · 1226 Celâleddin tanıklıkları kopuk (aralarda tarihsiz Gürcü dönemleri) · ZAMAN-Z6-1008",
 +    "t": "1256-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1256-01-01",
 +    "t": "1340-01-01",
-+    "d": "ilhanli"
++    "d": "ilhanli",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV kars: 'Şehir 1336 yılına kadar İlhanlılar’ın, ardından da mahallî hânedanların idaresinde kaldı.' · kaynak 1239'dan 1336'ya İlhanlı der; ilhanli künyesi 1256'da başladığından künye günü DEVRALINDI (ardıl yapı) — kaynaksız gün · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1340-01-01",
@@ -1187,7 +1203,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1216,6 +1231,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1232-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV van: 'Alâeddin Keykubad’ın doğuya doğru genişleme siyaseti neticesinde Van 1232’de Selçuklu hâkimiyetine girdi.' · 1064 Melikşah fethi ve 1230 Celâleddin zaptı kopuk (harizmsah künyesi 1231'de biter, 1231-1232 sahibi yok) · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1245,7 +1261,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -1266,18 +1281,21 @@ index 00000000..8a387d76
 +   {
 +    "f": "1209-01-01",
 +    "d": "eyyubi",
++    "kaynak": "TDV bitlis: 'yüzyıl başlarında Bitlis’e Eyyûbîler hâkim oldu (1209).' · 1192 Ahlatşah zaptı YAZILMADI: ahlatsahlar künyesi 1208-01-01'de biter, 1208-1209 aşımı Z3'e bildirildi · ZAMAN-Z6-1008",
 +    "t": "1231-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1231-01-01",
 +    "d": "mogol-imparatorlugu",
++    "kaynak": "TDV bitlis: 'Daha sonra da Celâleddin Hârizmşah’ı takip eden Moğollar 1231’de Bitlis’i de ele geçirerek tahrip ettiler.' · ZAMAN-Z6-1008",
 +    "t": "1232-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1232-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV bitlis: 'Kemâleddin Kâmyar kısa bir süre içinde çevredeki başka yerlerle (Van, Ahlat, Adilcevaz) birlikte Bitlis’i de Anadolu Selçuklu Devleti sınırları içine kattı (1232) ve Moğollar’ın harap etmiş olduğu kaleyi de onardı.' · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1317,7 +1335,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -1352,13 +1369,15 @@ index 00000000..8a387d76
 +   {
 +    "f": "1085-01-01",
 +    "d": "buyuk-selcuklu",
++    "kaynak": "TDV mardin: 'Büyük Selçuklu Sultanı Melikşah 478’de (1085) şehirdeki Mervânî hâkimiyetine son verdi.' · öncesi Mervânî (başlangıç günü yok, YAZILMADI); 1092 Berkyaruk ele geçirişi Büyük Selçuklu İÇİ · ZAMAN-Z6-1008",
 +    "t": "1103-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1103-01-01",
 +    "t": "1409-01-01",
-+    "d": "artuklu"
++    "d": "artuklu",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV mardin: 'Mardin, 496’dan (1103) itibaren el-Cezîre’de yoğunlaşan Türkmen ailelerinin en büyüklerinden olan Artuklular’ın eline geçti ve Hısnıkeyfâ Artukluları’nın yönetiminde kaldı.' · 1185 Eyyûbî, 1220 Selçuklu, 1260 İlhanlı tâbiiyetleri `v:` olarak önerilmedi (sahip Artuklu kalır) · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1409-01-01",
@@ -1381,7 +1400,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1410,6 +1428,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1204-04-13",
 +    "d": "latin-imparatorlugu",
++    "kaynak": "TDV gelibolu: 'Haçlı ordularının buradan geçerek Anadolu’ya ulaştıkları Gelibolu 1204’te Latinler’in idaresi altına girdi.' · kaynak YIL verir; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008",
 +    "t": "1235-01-01",
 +    "kesinlik": {
 +     "f": "gun",
@@ -1419,6 +1438,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1235-01-01",
 +    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV gelibolu: 'Ioannes tarafından geri alındı (1235).' · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": {
 +     "f": "yil",
@@ -1428,7 +1448,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1261-07-25",
 +    "t": "1354-03-02",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1366-08-01",
@@ -1461,7 +1482,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1496,12 +1516,14 @@ index 00000000..8a387d76
 +   {
 +    "f": "1230-01-01",
 +    "d": "bulgar-carligi",
++    "kaynak": "TDV dimetoka: '1230-1246 yılları arasında Bulgarlar’ın hâkimiyetinde kaldıysa da bu son tarihten itibaren Bizans’ın yönetimi altına girdi.' · ZAMAN-Z6-1008",
 +    "t": "1246-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1246-01-01",
 +    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV dimetoka: '1230-1246 yılları arasında Bulgarlar’ın hâkimiyetinde kaldıysa da bu son tarihten itibaren Bizans’ın yönetimi altına girdi.' · 1246'daki 'Bizans' = İznik İmparatorluğu (kimlik eşlemesi) · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": {
 +     "f": "yil",
@@ -1511,7 +1533,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1261-07-25",
 +    "t": "1361-01-01",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1402-07-28",
@@ -1544,7 +1567,6 @@ index 00000000..8a387d76
 +    "d": "yunanistan"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1579,7 +1601,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1275-01-01",
 +    "t": "1357-01-01",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV tekirdag: 'Mikhail zamanında 1275’te şehir tekrar Bizans idaresine girdi.' · 1204 Latin işgali kopuk (1261-1275 arası sahip yok), YAZILMADI · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1402-07-28",
@@ -1612,7 +1635,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1633,6 +1655,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1258-01-01",
 +    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV istankoy: 'yüzyılda Arap akınlarına hedef olmasının ardından Latin hâkimiyetine girmiş, 1258’de yeniden Bizans’ın eline geçmiştir.' · 1258'deki 'Bizans' = İznik İmparatorluğu (kimlik eşlemesi) · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": {
 +     "f": "yil",
@@ -1642,7 +1665,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1261-07-25",
 +    "t": "1310-08-15",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1310-08-15",
@@ -1655,7 +1679,6 @@ index 00000000..8a387d76
 +    "d": "italya"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1683,19 +1706,22 @@ index 00000000..8a387d76
 +   {
 +    "f": "0330-05-11",
 +    "d": "bizans",
++    "kaynak": "TDV istanbul: 'Meydanlar imparatorluğun çeşitli yerlerinden getirilen sanat eserleriyle süslendi ve nihayet 11 Mayıs 330’da günlerce süren eğlenceler içinde şehrin resmî açılış töreni yapıldı.' · başşehrin açılışı; künye f'si de 330-05-11 (künye DAYANAK değil, kaynak aynı günü verir). Motor/ufuk bu dönemi 1000'de kırpar · ZAMAN-Z6-1008",
 +    "t": "1204-04-13",
 +    "kesinlik": "gun"
 +   },
 +   {
 +    "f": "1204-04-13",
 +    "d": "latin-imparatorlugu",
++    "kaynak": "TDV istanbul: 'Bunun üzerine Haçlılar şehri zaptettiler (13 Nisan 1204).' · ZAMAN-Z6-1008",
 +    "t": "1261-07-25",
 +    "kesinlik": "gun"
 +   },
 +   {
 +    "f": "1261-07-25",
 +    "t": "1453-05-29",
-+    "d": "bizans"
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1920-04-23",
@@ -1703,7 +1729,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1738,6 +1763,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1173-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV kirsehir: 'Kılıcarslan döneminde Dânişmendli topraklarının Selçuklular’a ilhak edilmesiyle (1173) tekrar Selçuklular’ın idaresine geçti.' · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1772,7 +1798,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -1792,6 +1817,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1142-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV ankara: 'Ancak onun ölümü üzerine hânedan mensupları arasında başlayan taht kavgalarından istifade eden Sultan Mesud Ankara, Çankırı, Kastamonu, Kayseri ve Malatya yörelerini Dânişmendliler’den aldı ve ilk üç şehrin idaresini küçük oğlu Şâhinşah’a bıraktı (1142).' · başka maddeden (ankara); 'ilk üç şehrin idaresini' cümlesi Çankırı'yı ŞEHİR olarak anar. 1135 Bizans zaptı (çankırı maddesi) ile 1142 arası Dânişmendli dönüşü tarihsiz · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1821,7 +1847,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→cobanogullari",
 +   "dayanak": [
@@ -1842,6 +1867,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1202-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV bayburt: 'Selçuklular 1202’de Saltuklu Devleti’ne son verince Bayburt’u da ele geçirdiler.' · 1072-1202 'bazan Saltuklu bazan Dânişmendli' — tarihsiz, YAZILMADI · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -1899,7 +1925,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -1920,7 +1945,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1261-01-01",
 +    "t": "1353-01-01",
-+    "d": "ilhanli"
++    "d": "ilhanli",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV cizre: 'Böylece Eyyûbîler ile Bedreddin Lü’lü’ün nüfuzu altına giren şehir 660’ta (1261-62) Moğol istilâsına uğradı.' · 'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1353-01-01",
@@ -1943,7 +1969,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -1964,19 +1989,22 @@ index 00000000..8a387d76
 +   {
 +    "f": "1085-01-01",
 +    "d": "buyuk-selcuklu",
++    "kaynak": "TDV hasankeyf: 'Nihayet Sultan Melikşah zamanında Selçuklular Mervânî hâkimiyetine son verip bölgedeki diğer şehirlerle birlikte burayı da aldılar (1085).' · ZAMAN-Z6-1008",
 +    "t": "1102-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1102-01-01",
 +    "d": "artuklu",
++    "kaynak": "TDV hasankeyf: 'Sökmen’in desteğiyle Çökürmüş’ü bozguna uğratan Mûsâ kısa bir süre sonra öldürülünce Sökmen Hasankeyf’e gidip şehri teslim aldı; böylece burada Artuklular’ın Hısnıkeyfâ kolu kurulmuş oldu (495/1102).' · ZAMAN-Z6-1008",
 +    "t": "1232-01-01",
 +    "kesinlik": "yil"
 +   },
 +   {
 +    "f": "1232-01-01",
 +    "t": "1462-01-01",
-+    "d": "eyyubi-hisnikeyfa"
++    "d": "eyyubi-hisnikeyfa",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV hasankeyf: 'Hasankeyf Artukluları’nın son emîri Mesud zamanında, Eyyûbî Hükümdarı el-Melikü’l-Kâmil Nâsırüddin Muhammed önce Âmid’i, daha sonra Hasankeyf’i zaptederek Artuklular’ın buradaki hâkimiyetine son verdi ve şehri oğlu el-Melikü’s Sâlih’in idaresine bıraktı (629/1232).' · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1462-01-01",
@@ -1994,7 +2022,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -2028,6 +2055,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1202-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV elbistan: 'Süleyman Şah Gürcistan seferi sırasında Erzurum’u Saltuklular’dan alıp maiyetinde bulunan Tuğrul Şah’a verdi ve buna karşılık Elbistan’ı doğrudan merkeze bağlı bir vilâyet haline getirdi (1202).' · 1085-1156 arası zengin ama KOPUK zincir (1085 Selçuklu · 1097/1103 Haçlı · 1105 Selçuklu · Tancred · 1111 · 1124 Dânişmendli · 1144 Selçuklu · 1156 Dânişmendli) — 1156-1202 arası tarihsiz, YAZILMADI · TANIK (ediniş günü değil) · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -2061,7 +2089,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -2082,6 +2109,7 @@ index 00000000..8a387d76
 +   {
 +    "f": "1228-01-01",
 +    "d": "selcuklu",
++    "kaynak": "TDV kemah: 'Alâeddin Keykubad tarafından 625 (1228) yılında Anadolu Selçuklu Devleti topraklarına katıldı (İbnü’l-Esîr, XII, 479).' · ZAMAN-Z6-1008",
 +    "t": "1281-01-01",
 +    "kesinlik": "yil"
 +   },
@@ -2143,7 +2171,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "sinir-1281:selcuklu→ilhanli",
 +   "dayanak": [
@@ -2163,7 +2190,8 @@ index 00000000..8a387d76
 +   {
 +    "f": "1097-01-01",
 +    "t": "1308-01-01",
-+    "d": "selcuklu"
++    "d": "selcuklu",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV konya: 'Selçuklular’ın İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi üzerine Selçuklu hükümdar ailesi tarafından Konya başşehir olarak seçildi.' · 1073 Türk fethi 'muhtemelen' — YAZILMADI. 1277 Karamanlı işgali 'bir süre için', bitiş günü yok — YAZILMADI (bilinen boşluk) · TANIK (ediniş günü değil) · ZAMAN-Z6-1008"
 +   },
 +   {
 +    "f": "1308-01-01",
@@ -2191,7 +2219,6 @@ index 00000000..8a387d76
 +    "d": "tbmm-turkiye"
 +   }
 +  ],
-+  "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
 +  "once1281": {
 +   "gecis": "birlesti",
 +   "dayanak": [
@@ -2202,6 +2229,317 @@ index 00000000..8a387d76
 +     "tdv": "konya",
 +     "alinti": "Selçuklular’ın İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi üzerine Selçuklu hükümdar ailesi tarafından Konya başşehir olarak seçildi.",
 +     "not": "1073 Türk fethi 'muhtemelen' — YAZILMADI. 1277 Karamanlı işgali 'bir süre için', bitiş günü yok — YAZILMADI (bilinen boşluk)"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Kavala",
++  "s": [
++   {
++    "f": "1242-01-01",
++    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV kavala: 'Uzun süre Franklar’ın hâkimiyetinde kaldıktan sonra 1242-1243’te Bizanslılar tarafından geri alındı.' · kaynak '1242-1243' ARALIĞI verir; aralığın başı yazıldı (yıl kesinliği bir yıl fazla iddialı — beyan). 1242'deki 'Bizans' = İznik İmparatorluğu. Önceki Frank dönemi tarihsiz, YAZILMADI · ZAMAN-Z6-1008",
++    "t": "1261-07-25",
++    "kesinlik": {
++     "f": "yil",
++     "t": "gun"
++    }
++   },
++   {
++    "f": "1261-07-25",
++    "t": "1387-04-09",
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1913-05-30",
++    "t": "1913-08-10",
++    "d": "bulgaristan-kralligi"
++   },
++   {
++    "f": "1913-08-10",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   },
++   {
++    "f": "1402-07-28",
++    "t": "1410-02-13",
++    "d": "suleyman-celebi"
++   },
++   {
++    "f": "1410-02-13",
++    "t": "1410-06-15",
++    "d": "musa-celebi"
++   },
++   {
++    "f": "1410-06-15",
++    "t": "1411-02-17",
++    "d": "suleyman-celebi"
++   },
++   {
++    "f": "1411-02-17",
++    "t": "1413-07-05",
++    "d": "musa-celebi"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1242-01-01",
++     "d": "iznik-imparatorlugu",
++     "tur": "edinim",
++     "tdv": "kavala",
++     "alinti": "Uzun süre Franklar’ın hâkimiyetinde kaldıktan sonra 1242-1243’te Bizanslılar tarafından geri alındı.",
++     "not": "kaynak '1242-1243' ARALIĞI verir; aralığın başı yazıldı (yıl kesinliği bir yıl fazla iddialı — beyan). 1242'deki 'Bizans' = İznik İmparatorluğu. Önceki Frank dönemi tarihsiz, YAZILMADI"
++    },
++    {
++     "f": "1261-07-25",
++     "d": "bizans",
++     "tur": "edinim",
++     "tdv": "istanbul",
++     "alinti": "Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı."
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Modon",
++  "s": [
++   {
++    "f": "1209-01-01",
++    "t": "1500-08-10",
++    "d": "venedik",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV modon: 'Venedikliler 1209’da Modon’u tekrar alınca burayı yeniden iskân etmiş ve savunmasını güçlendirmişti.' · 1205 Frank zaptı (harabe kasaba) ile 1209 arası sahip YAZILMADI · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1686-06-01",
++    "t": "1715-08-01",
++    "d": "venedik"
++   },
++   {
++    "f": "1821-03-25",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1209-01-01",
++     "d": "venedik",
++     "tur": "edinim",
++     "tdv": "modon",
++     "alinti": "Venedikliler 1209’da Modon’u tekrar alınca burayı yeniden iskân etmiş ve savunmasını güçlendirmişti.",
++     "not": "1205 Frank zaptı (harabe kasaba) ile 1209 arası sahip YAZILMADI"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Atina",
++  "s": [
++   {
++    "f": "1205-01-01",
++    "t": "1456-06-04",
++    "d": "atinadukaligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV atina: '1204’te Haçlılar tarafından ele geçirilen şehir, yeni kurulmuş olan Burgundiya (İng.' · kaynak 1204 der; atina-dukaligi künyesi 1205-01-01'de başladığından künye günü DEVRALINDI (1204-1205 arası Haçlı ordusu, künyesiz) — kaynaksız gün · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1687-09-26",
++    "t": "1688-04-01",
++    "d": "venedik"
++   },
++   {
++    "f": "1821-03-25",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1205-01-01",
++     "d": "atinadukaligi",
++     "tur": "edinim",
++     "tdv": "atina",
++     "alinti": "1204’te Haçlılar tarafından ele geçirilen şehir, yeni kurulmuş olan Burgundiya (İng.",
++     "not": "kaynak 1204 der; atina-dukaligi künyesi 1205-01-01'de başladığından künye günü DEVRALINDI (1204-1205 arası Haçlı ordusu, künyesiz) — kaynaksız gün"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "İstefe (Tebai)",
++  "s": [
++   {
++    "f": "1205-01-01",
++    "t": "1456-06-04",
++    "d": "atinadukaligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istefe: '1204’te Kostantinopol’ün Haçlılar tarafından fethi ve Bizans İmparatorluğu’nun parçalanmasıyla Haçlı Prensi Othon de la Roche, Thebai ve ona bağlı yerleri ele geçirdi.' · kaynak 1204 der; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1821-03-25",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1205-01-01",
++     "d": "atinadukaligi",
++     "tur": "edinim",
++     "tdv": "istefe",
++     "alinti": "1204’te Kostantinopol’ün Haçlılar tarafından fethi ve Bizans İmparatorluğu’nun parçalanmasıyla Haçlı Prensi Othon de la Roche, Thebai ve ona bağlı yerleri ele geçirdi.",
++     "not": "kaynak 1204 der; künye günü devralındı — kaynaksız gün"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Livadya",
++  "s": [
++   {
++    "f": "1205-01-01",
++    "t": "1456-06-04",
++    "d": "atinadukaligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV livadya: '1204’te Haçlılar tarafından İstanbul’un zaptının ardından Haçlı Prens Othon de la Roche şehri ve çevresini ele geçirdi ve şehri Latin (Katolik) prensliğine dahil etti.' · kaynak 1204 der; künye günü devralındı. 1225 Nicolas de Saint Omer'e geçiş dukalık İÇİ (fief), sahip değişmez · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1821-03-25",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1205-01-01",
++     "d": "atinadukaligi",
++     "tur": "edinim",
++     "tdv": "livadya",
++     "alinti": "1204’te Haçlılar tarafından İstanbul’un zaptının ardından Haçlı Prens Othon de la Roche şehri ve çevresini ele geçirdi ve şehri Latin (Katolik) prensliğine dahil etti.",
++     "not": "kaynak 1204 der; künye günü devralındı. 1225 Nicolas de Saint Omer'e geçiş dukalık İÇİ (fief), sahip değişmez"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Nakşa",
++  "s": [
++   {
++    "f": "1207-01-01",
++    "t": "1537-01-01",
++    "d": "naksa-dukaligi",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV naksa: 'Haçlı Seferi sırasında İstanbul’da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo 1205’te sekiz gemiyle adayı ve yakın çevresini ele geçirdi, 1207’de İstanbul’daki Latin imparatorundan Nakşa dükü unvanını aldı.' · Marco Sanudo adayı 1205'te aldı; dukalık künyesi 1207'de başlar ⇒ 1205-1207 (Sanudo'nun şahsî zaptı) YAZILMADI · TANIK (ediniş günü değil) · ZAMAN-Z6-1008 ‖ önceki: TDV naksa: Marco Sanudo '1207'de İstanbul'daki Latin imparatorundan Nakşa dükü unvanını aldı' · 'Venedik'in Nakşa üzerindeki vesâyeti' — dükalık Venedik'in kendisi değil (GEMINI-DOGRULA 0919)"
++   },
++   {
++    "f": "1830-02-03",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1207-01-01",
++     "d": "naksa-dukaligi",
++     "tur": "tanik",
++     "tdv": "naksa",
++     "alinti": "Haçlı Seferi sırasında İstanbul’da Latin İmparatorluğu kurulunca Venedikli Marco Sanudo 1205’te sekiz gemiyle adayı ve yakın çevresini ele geçirdi, 1207’de İstanbul’daki Latin imparatorundan Nakşa dükü unvanını aldı.",
++     "not": "Marco Sanudo adayı 1205'te aldı; dukalık künyesi 1207'de başlar ⇒ 1205-1207 (Sanudo'nun şahsî zaptı) YAZILMADI"
++    }
++   ]
++  }
++ },
++ {
++  "ad": "Vodina (Edessa)",
++  "s": [
++   {
++    "f": "1246-01-01",
++    "d": "epir-despotlugu",
++    "kaynak": "TDV vodina: 'İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı.' · ZAMAN-Z6-1008",
++    "t": "1251-01-01",
++    "kesinlik": "yil"
++   },
++   {
++    "f": "1251-01-01",
++    "d": "iznik-imparatorlugu",
++    "kaynak": "TDV vodina: 'İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti.' · kaynak '1251-1252' ARALIĞI verir; aralığın başı yazıldı (beyan) · ZAMAN-Z6-1008",
++    "t": "1261-07-25",
++    "kesinlik": {
++     "f": "yil",
++     "t": "gun"
++    }
++   },
++   {
++    "f": "1261-07-25",
++    "t": "1345-01-01",
++    "d": "bizans",
++    "kaynak": "f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"
++   },
++   {
++    "f": "1345-01-01",
++    "t": "1387-01-01",
++    "d": "sirbistan"
++   },
++   {
++    "f": "1402-07-28",
++    "t": "1410-02-13",
++    "d": "suleyman-celebi"
++   },
++   {
++    "f": "1410-02-13",
++    "t": "1410-06-15",
++    "d": "musa-celebi"
++   },
++   {
++    "f": "1410-06-15",
++    "t": "1411-02-17",
++    "d": "suleyman-celebi"
++   },
++   {
++    "f": "1411-02-17",
++    "t": "1413-07-05",
++    "d": "musa-celebi"
++   },
++   {
++    "f": "1913-11-14",
++    "t": "1923-10-29",
++    "d": "yunanistan"
++   }
++  ],
++  "once1281": {
++   "gecis": "birlesti",
++   "dayanak": [
++    {
++     "f": "1246-01-01",
++     "d": "epir-despotlugu",
++     "tur": "edinim",
++     "tdv": "vodina",
++     "alinti": "İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı."
++    },
++    {
++     "f": "1251-01-01",
++     "d": "iznik-imparatorlugu",
++     "tur": "edinim",
++     "tdv": "vodina",
++     "alinti": "İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti.",
++     "not": "kaynak '1251-1252' ARALIĞI verir; aralığın başı yazıldı (beyan)"
++    },
++    {
++     "f": "1261-07-25",
++     "d": "bizans",
++     "tur": "edinim",
++     "tdv": "istanbul",
++     "alinti": "Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı."
 +    }
 +   ]
 +  }

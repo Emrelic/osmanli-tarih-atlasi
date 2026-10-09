@@ -27,9 +27,14 @@ def pad(g):
 
 def kunyeler():
     kod = ("global.window={};eval(require('fs').readFileSync('data/devletler.js','utf8'));"
-           "process.stdout.write(JSON.stringify(window.DEVLETLER.map(d=>[d.id,d.f,d.t])))")
+           "process.stdout.write(JSON.stringify(window.DEVLETLER.map(d=>[d.id,d.f,d.t,d.harita||''])))")
     o = subprocess.run(["node", "-e", kod], capture_output=True, text=True, encoding="utf-8", cwd=KOK)
-    return {i: (f, t) for i, f, t in json.loads(o.stdout)}
+    K = {}
+    for i, f, t, h in json.loads(o.stdout):
+        K.setdefault(i, []).append((f, t, i))
+        if h and h != i:
+            K.setdefault(h, []).append((f, t, i))   # `harita:` anahtarı (veride d: olarak kullanılan)
+    return K
 
 
 def cumle_bul(slug, parca):
@@ -49,77 +54,85 @@ def kes(tarih):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dilim", default="anadolu")
+    ap.add_argument("--dilim", default="anadolu,balkan")
     a = ap.parse_args()
     K = kunyeler()
-    karar = json.load(io.open(os.path.join(KOK, "denetim", f"ZAMAN-Z6-KARAR-{a.dilim}.json"), encoding="utf-8"))
-    ham = {r["ad"]: r for r in json.load(io.open(os.path.join(KOK, "denetim", f"ZAMAN-Z6-{a.dilim}-ham.json"), encoding="utf-8"))}
-    hata, kayitlar, tablo = [], [], []
-    verilen = {k["ad"] for k in karar}
-    for ad, r in ham.items():
-        if ad in verilen:
-            continue
-        if not r.get("slug"):
-            karar.append({"ad": ad, "sinif": "3", "neden": "TDV yer maddesi bulunamadı",
-                          "denenen": r.get("denenen")})
-        else:
-            karar.append({"ad": ad, "sinif": "3", "neden": f"TDV `{r['slug']}` var; 1000-1280 tarihli sahiplik cümlesi yok"})
-    for k in karar:
-        ad = k["ad"]
-        r = ham.get(ad)
-        if not r:
-            hata.append(f"{ad}: ham listede yok"); continue
-        sinif = k["sinif"]
-        tablo.append(k)
-        if sinif != "2":
-            continue
-        mevcut = [dict(p) for p in r["s"]]
-        if mevcut[0]["f"] != EPOK:
-            hata.append(f"{ad}: mevcut ilk dönem {mevcut[0]['f']} (EPOK değil)")
-        zincir, kaynak = [], []
-        for i, p in enumerate(k["zincir"]):
-            alinti = cumle_bul(p["slug"], p["parca"])
-            if not alinti:
-                hata.append(f"{ad}: alıntı bulunamadı {p['slug']} «{p['parca']}»"); continue
-            kaynak.append({"f": p["f"], "d": p["d"], "tur": p.get("tur", "edinim"),
-                           "tdv": p["slug"], "alinti": alinti, **({"not": p["not"]} if p.get("not") else {})})
-            zincir.append({"f": p["f"], "d": p["d"]})
-        # t'leri bağla
-        for i in range(len(zincir) - 1):
-            zincir[i]["t"] = zincir[i + 1]["f"]
-        son = zincir[-1]
-        if son["d"] == mevcut[0]["d"]:
-            mevcut[0]["f"] = son["f"]
-            yeni = zincir[:-1] + mevcut
-            gecis = "birlesti"
-        else:
-            if mevcut[0]["d"] not in YAPISAL and not k.get("gecis_izin"):
-                hata.append(f"{ad}: 1281 geçişi {son['d']}→{mevcut[0]['d']} YAPISAL değil")
-            son["t"] = EPOK
-            yeni = zincir + mevcut
-            gecis = f"sinir-1281:{son['d']}→{mevcut[0]['d']}"
-        on_donem = zincir if gecis != "birlesti" else zincir[:-1]
-        for p in on_donem:
-            kf, kt = kes(p["f"]), kes(p["t"])
-            p["kesinlik"] = kf if kf == kt else {"f": kf, "t": kt}
-        # sınav ② ③
-        for i, p in enumerate(yeni):
-            if pad(p["f"]) >= pad(p.get("t", "9999")):
-                hata.append(f"{ad}: f>=t {p}")
-            if i and i <= len(on_donem) and yeni[i - 1].get("t") != p["f"]:
-                hata.append(f"{ad}: bitişik değil {yeni[i-1]} / {p}")
-            d = p.get("d")
-            if d and pad(p["f"]) < pad(EPOK):
-                if d not in K:
-                    hata.append(f"{ad}: künye yok {d}"); continue
-                kf, kt = K[d]
-                if pad(p["f"]) < pad(kf) or pad(min(p.get("t", "9999"), EPOK)) > pad(kt):
-                    hata.append(f"{ad}: künye penceresi dışı {d} [{kf}→{kt}] ← {p['f']}→{p.get('t')}")
-        kayitlar.append({"ad": ad, "s": yeni,
-                         "kaynak": "ZAMAN-Z6-1008 — 1281 öncesi zincir; dönem başına TDV alıntısı `once1281` alanında",
-                         "once1281": {"gecis": gecis, "dayanak": kaynak,
-                                      **({"not": k["not"]} if k.get("not") else {})}})
-    print(f"karar {len(karar)} · ② kayıt {len(kayitlar)} · HATA {len(hata)}")
+    hata, kayitlar = [], []
+    for dilim in a.dilim.split(","):
+        karar = json.load(io.open(os.path.join(KOK, "denetim", f"ZAMAN-Z6-KARAR-{dilim}.json"), encoding="utf-8"))
+        ham = {r["ad"]: r for r in json.load(io.open(os.path.join(KOK, "denetim", f"ZAMAN-Z6-{dilim}-ham.json"), encoding="utf-8"))}
+        tablo = []
+        verilen = {k["ad"] for k in karar}
+        for ad, r in ham.items():
+            if ad in verilen:
+                continue
+            if not r.get("slug"):
+                karar.append({"ad": ad, "sinif": "3", "neden": "TDV yer maddesi bulunamadı",
+                              "denenen": r.get("denenen")})
+            else:
+                karar.append({"ad": ad, "sinif": "3", "neden": f"TDV `{r['slug']}` var; 1000-1280 tarihli sahiplik cümlesi yok"})
+        for k in karar:
+            ad = k["ad"]
+            r = ham.get(ad)
+            if not r:
+                hata.append(f"{ad}: ham listede yok"); continue
+            sinif = k["sinif"]
+            tablo.append(k)
+            if sinif != "2":
+                continue
+            mevcut = [dict(p) for p in r["s"]]
+            if mevcut[0]["f"] != EPOK:
+                hata.append(f"{ad}: mevcut ilk dönem {mevcut[0]['f']} (EPOK değil)")
+            zincir, kaynak = [], []
+            for i, p in enumerate(k["zincir"]):
+                alinti = cumle_bul(p["slug"], p["parca"])
+                if not alinti:
+                    hata.append(f"{ad}: alıntı bulunamadı {p['slug']} «{p['parca']}»"); continue
+                kaynak.append({"f": p["f"], "d": p["d"], "tur": p.get("tur", "edinim"),
+                               "tdv": p["slug"], "alinti": alinti, **({"not": p["not"]} if p.get("not") else {})})
+                zincir.append({"f": p["f"], "d": p["d"],
+                               "kaynak": f"TDV {p['slug']}: '{alinti}'" + (f" · {p['not']}" if p.get("not") else "")
+                                         + (" · TANIK (ediniş günü değil)" if p.get("tur") == "tanik" else "") + " · ZAMAN-Z6-1008"})
+            # t'leri bağla
+            for i in range(len(zincir) - 1):
+                zincir[i]["t"] = zincir[i + 1]["f"]
+            son = zincir[-1]
+            if son["d"] == mevcut[0]["d"]:
+                mevcut[0]["f"] = son["f"]
+                # mevcut dönemin kaynağı EZİLMEZ — f'nin yeni dayanağı başına eklenir
+                ek = "f 1281-01-01'den geri çekildi — " + son["kaynak"]
+                mevcut[0]["kaynak"] = ek + (" ‖ önceki: " + mevcut[0]["kaynak"] if mevcut[0].get("kaynak") else "")
+                yeni = zincir[:-1] + mevcut
+                gecis = "birlesti"
+            else:
+                if mevcut[0]["d"] not in YAPISAL and not k.get("gecis_izin"):
+                    hata.append(f"{ad}: 1281 geçişi {son['d']}→{mevcut[0]['d']} YAPISAL değil")
+                son["t"] = EPOK
+                yeni = zincir + mevcut
+                gecis = f"sinir-1281:{son['d']}→{mevcut[0]['d']}"
+            on_donem = zincir if gecis != "birlesti" else zincir[:-1]
+            for p in on_donem:
+                kf, kt = kes(p["f"]), kes(p["t"])
+                p["kesinlik"] = kf if kf == kt else {"f": kf, "t": kt}
+            # sınav ② ③
+            for i, p in enumerate(yeni):
+                if pad(p["f"]) >= pad(p.get("t", "9999")):
+                    hata.append(f"{ad}: f>=t {p}")
+                if i and i <= len(on_donem) and yeni[i - 1].get("t") != p["f"]:
+                    hata.append(f"{ad}: bitişik değil {yeni[i-1]} / {p}")
+                d = p.get("d")
+                if d and pad(p["f"]) < pad(EPOK):
+                    if d not in K:
+                        hata.append(f"{ad}: künye yok {d}"); continue
+                    son_t = p.get("t", "9999") if pad(p.get("t", "9999")) < pad(EPOK) else EPOK
+                    if not any(pad(kf) <= pad(p["f"]) and pad(son_t) <= pad(kt) for kf, kt, _ in K[d]):
+                        hata.append(f"{ad}: künye penceresi dışı {d} {K[d]} ← {p['f']}→{p.get('t')}")
+            kayitlar.append({"ad": ad, "s": yeni,
+                             "once1281": {"gecis": gecis, "dayanak": kaynak,
+                                          **({"not": k["not"]} if k.get("not") else {})}})
+        json.dump(tablo, io.open(os.path.join(KOK, "denetim", f"ZAMAN-Z6-{dilim}-sinif.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"{dilim}: karar {len(karar)}")
+    print(f"② kayıt {len(kayitlar)} · HATA {len(hata)}")
     for h in hata:
         print("  ✗", h)
     if hata:
@@ -140,8 +153,6 @@ def main():
            "// ⚠️ Motor UFUK 1281-01-01 iken bu dönemler kırpılır — görünürlük Z1 (ufuk) + Z3 (boya) ile.\n"
            + "window.YER_YAMA_ONCE1281_Z6 = " + json.dumps(kayitlar, ensure_ascii=False, indent=1) + ";\n")
     io.open(os.path.join(KOK, "data", "yer_yama_once1281_z6.js"), "w", encoding="utf-8", newline="\n").write(bas)
-    json.dump(tablo, io.open(os.path.join(KOK, "denetim", f"ZAMAN-Z6-{a.dilim}-sinif.json"), "w", encoding="utf-8"),
-              ensure_ascii=False, indent=1)
     print("yazıldı: data/yer_yama_once1281_z6.js")
 
 

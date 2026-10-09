@@ -1,0 +1,2611 @@
+[
+ {
+  "ad": "Kavala",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1242-01-01",
+    "d": "iznik-imparatorlugu",
+    "slug": "kavala",
+    "parca": "1242-1243’te Bizanslılar tarafından geri alındı",
+    "not": "kaynak '1242-1243' ARALIĞI verir; aralığın başı yazıldı (yıl kesinliği bir yıl fazla iddialı — beyan). 1242'deki 'Bizans' = İznik İmparatorluğu. Önceki Frank dönemi tarihsiz, YAZILMADI"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Modon",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1209-01-01",
+    "d": "venedik",
+    "slug": "modon",
+    "parca": "Venedikliler 1209’da Modon’u tekrar alınca",
+    "not": "1205 Frank zaptı (harabe kasaba) ile 1209 arası sahip YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Atina",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1205-01-01",
+    "d": "atinadukaligi",
+    "slug": "atina",
+    "parca": "1204’te Haçlılar tarafından ele geçirilen şehir, yeni kurulmuş olan Burgundiya",
+    "not": "kaynak 1204 der; atina-dukaligi künyesi 1205-01-01'de başladığından künye günü DEVRALINDI (1204-1205 arası Haçlı ordusu, künyesiz) — kaynaksız gün"
+   }
+  ]
+ },
+ {
+  "ad": "İstefe (Tebai)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1205-01-01",
+    "d": "atinadukaligi",
+    "slug": "istefe",
+    "parca": "Othon de la Roche, Thebai ve ona bağlı yerleri ele geçirdi",
+    "not": "kaynak 1204 der; künye günü devralındı — kaynaksız gün"
+   }
+  ]
+ },
+ {
+  "ad": "Livadya",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1205-01-01",
+    "d": "atinadukaligi",
+    "slug": "livadya",
+    "parca": "Othon de la Roche şehri ve çevresini ele geçirdi",
+    "not": "kaynak 1204 der; künye günü devralındı. 1225 Nicolas de Saint Omer'e geçiş dukalık İÇİ (fief), sahip değişmez"
+   }
+  ]
+ },
+ {
+  "ad": "Nakşa",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1207-01-01",
+    "d": "naksa-dukaligi",
+    "tur": "tanik",
+    "slug": "naksa",
+    "parca": "1207’de İstanbul’daki Latin imparatorundan Nakşa dükü unvanını aldı",
+    "not": "Marco Sanudo adayı 1205'te aldı; dukalık künyesi 1207'de başlar ⇒ 1205-1207 (Sanudo'nun şahsî zaptı) YAZILMADI"
+   }
+  ]
+ },
+ {
+  "ad": "Vodina (Edessa)",
+  "sinif": "2",
+  "zincir": [
+   {
+    "f": "1246-01-01",
+    "d": "epir-despotlugu",
+    "slug": "vodina",
+    "parca": "Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar"
+   },
+   {
+    "f": "1251-01-01",
+    "d": "iznik-imparatorlugu",
+    "slug": "vodina",
+    "parca": "İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti",
+    "not": "kaynak '1251-1252' ARALIĞI verir; aralığın başı yazıldı (beyan)"
+   },
+   {
+    "f": "1261-07-25",
+    "d": "bizans",
+    "slug": "istanbul",
+    "parca": "25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri"
+   }
+  ]
+ },
+ {
+  "ad": "Selanik",
+  "sinif": "3k",
+  "neden": "TDV yalnız Latin Selânik Krallığı'nın (1205-1225) merkezi olduğunu tarihler; 1224/1225 Epir ve 1246 İznik geçişleri bu maddede tarihli değil — 1281 Bizans'a bağlanmıyor"
+ },
+ {
+  "ad": "Vidin",
+  "sinif": "3k",
+  "neden": "1003 Bizans · 1185 Bulgar · 1257 Rotislav · 1260 Konstantin Tih · 1263-1272 Jakov Svetoslav — 1272→1281 Bulgar'a dönüş tarihsiz"
+ },
+ {
+  "ad": "Serez",
+  "sinif": "3k",
+  "neden": "1206 Kaloyan zaptı — Bizans'a dönüş tarihsiz"
+ },
+ {
+  "ad": "Ohri",
+  "sinif": "3k",
+  "neden": "1018 Bizans — sonrası tarihsiz; atlas 1281 sirbistan"
+ },
+ {
+  "ad": "Yanya",
+  "sinif": "3k",
+  "neden": "1081 Norman zaptı — sonrası tarihsiz"
+ },
+ {
+  "ad": "Eğriboz",
+  "sinif": "3k",
+  "neden": "'1204’te bölünmesinden SONRA Venedikliler’in kontrolü altına girdi' — yıl belirsiz"
+ },
+ {
+  "ad": "İnebahtı",
+  "sinif": "3k",
+  "neden": "'1204’ten sonra … Epiros Despotluğu toprakları içinde kaldı' — yıl belirsiz; atlas 1281 venedik"
+ },
+ {
+  "ad": "Semadirek",
+  "sinif": "3k",
+  "neden": "1204 Venedik — atlas 1281 ceneviz'e geçiş tarihsiz"
+ },
+ {
+  "ad": "Taşoz",
+  "sinif": "3k",
+  "neden": "1204 Latin/Dandolo — atlas 1281 ceneviz'e geçiş tarihsiz"
+ },
+ {
+  "ad": "Limni",
+  "sinif": "3k",
+  "neden": "1204 Navigaioso · 'adanın idaresini 1279 yılına kadar ellerinde tuttular' — Bizans'ın 1279 alışı ÇIKARIM (1277-1279 kuşatma), açık cümle yok"
+ },
+ {
+  "ad": "Koron",
+  "sinif": "3k",
+  "neden": "1205 Villehardouin Bizans'tan aldı — Venedik'e geçiş tarihsiz"
+ },
+ {
+  "ad": "Prizren",
+  "sinif": "3k",
+  "neden": "1169-1190 Sırp, 1190 Bizans — sonrası tarihsiz"
+ },
+ {
+  "ad": "İştip (Štip)",
+  "sinif": "3k",
+  "neden": "1018 Bizans — sonrası tarihsiz"
+ },
+ {
+  "ad": "Ustrumca (Strumica)",
+  "sinif": "3k",
+  "neden": "1019-1194 Bizans · 1194 Dobromir · 1201-1202 Bizans — atlas 1281 sirbistan'a geçiş tarihsiz"
+ },
+ {
+  "ad": "Karaferye (Veria)",
+  "sinif": "3k",
+  "neden": "1001 Bizans · 1206-1209 Strez · 1215-1216 Epir — sonrası tarihsiz"
+ },
+ {
+  "ad": "Kesriye (Kastoria)",
+  "sinif": "3k",
+  "neden": "1018 Bizans — sonrası tarihsiz"
+ },
+ {
+  "ad": "Köprülü (Veles)",
+  "sinif": "3k",
+  "neden": "1246 Vatatzis Bulgarlar'dan aldı — atlas 1281 sirbistan; İznik/Bizans→Sırp geçişi tarihsiz"
+ },
+ {
+  "ad": "Viyana",
+  "sinif": "3k",
+  "neden": "1155-56 Babenberg başşehri · 1237 kayzere bağlı · 1276 I. Rudolf — atlas 1281 'avusturya' (habsburg künyesi 1282'de başlar). ONCE1281-AVUSTURYA kampanyasının alanı — dokunulmadı"
+ },
+ {
+  "ad": "Napoli",
+  "sinif": "3k",
+  "neden": "1139 Sicilya ve Apulia Krallığı — 1194/1266 geçişleri bu maddede tarihsiz; napoli künyesi 1282-03-30"
+ },
+ {
+  "ad": "Bihaç (Bihać)",
+  "sinif": "3k",
+  "neden": "'Macar-Hırvat birliğinin kuruluşuna kadar (1102) Hırvat Krallığı’nın önemli bir merkezi' — 1102 sonrası Macar sahipliği ÇIKARIM"
+ },
+ {
+  "ad": "Korfu",
+  "sinif": "3k",
+  "neden": "1147 Norman · 1259 Sicilya · 1267 Napoli · 'daha sonra Venedik’e bağlandı (1386)'. 🔴 Yan bulgu: atlas 1281-1797 VENEDİK boyuyor, TDV 1267-1386 Napoli (Anjou) der"
+ },
+ {
+  "ad": "Draç",
+  "sinif": "3k",
+  "neden": "'1273’te Sicilyalı Anjouvinler’in elinde iken' (tanık). 🔴 Yan bulgu: atlas 1281'den VENEDİK; TDV 1273'te Anjou der"
+ },
+ {
+  "ad": "Balyabadra (Patras)",
+  "sinif": "3k",
+  "neden": "'1205’te … Franklar tarafından Bizanslılar’dan alındı'. 🔴 Yan bulgu: atlas 1281-1430 BİZANS boyuyor; TDV 1205'ten Frank (Ahaya) der, Bizans'a dönüş tarihsiz"
+ },
+ {
+  "ad": "Mora (Tripoliçe)",
+  "sinif": "3b",
+  "neden": "Mora yarımadası bölge cümleleri (1204 Frank yönetimi, 1262 Bizans'ın güney kaleleri) — şehir değil"
+ },
+ {
+  "ad": "İstolni Belgrad",
+  "sinif": "3b",
+  "neden": "'Aziz István döneminde (1000-1038) krallık merkezlerinden' — saltanat aralığı"
+ },
+ {
+  "ad": "Mohaç",
+  "sinif": "3b",
+  "neden": "1093 ilk belge — sahip demiyor"
+ },
+ {
+  "ad": "Silistre",
+  "sinif": "3b",
+  "neden": "1279 Bizans kuşatması başarısız — sahiplik cümlesi değil"
+ },
+ {
+  "ad": "Filibe",
+  "sinif": "3b",
+  "neden": "1204 Haçlı saldırısı — sahiplik cümlesi değil"
+ },
+ {
+  "ad": "Şumnu",
+  "sinif": "3b",
+  "neden": "Bulgar İmparatorluğu (1186-1393) aralığı — devlet aralığı, şehir sahipliği tarihlemiyor"
+ },
+ {
+  "ad": "Gümülcine",
+  "sinif": "3b",
+  "neden": "1207 Bulgar istilâsı — yöre"
+ },
+ {
+  "ad": "İskeçe",
+  "sinif": "3b",
+  "neden": "1206 Kaloyan yakın kaleleri tahrip etti — sahiplik değil"
+ },
+ {
+  "ad": "Üsküp",
+  "sinif": "3b",
+  "neden": "1050-1065 Peçenek/Uz baskısı — bölge"
+ },
+ {
+  "ad": "Budin",
+  "sinif": "3b",
+  "neden": "1241-1242 Moğol istilâsı — sahiplik değişimi değil"
+ },
+ {
+  "ad": "Estergon",
+  "sinif": "3b",
+  "neden": "1241-1242 Moğol istilâsı — sahiplik değişimi değil"
+ },
+ {
+  "ad": "Eğri",
+  "sinif": "3b",
+  "neden": "1009 'yılına doğru' piskoposluk · 1241 Moğol — sahiplik değil"
+ },
+ {
+  "ad": "Varad (Oradea)",
+  "sinif": "3b",
+  "neden": "1241 Moğol yağması — sahiplik değil"
+ },
+ {
+  "ad": "Segedin (Szeged)",
+  "sinif": "3b",
+  "neden": "1241 Moğol saldırısı — sahiplik değil"
+ },
+ {
+  "ad": "Zagreb",
+  "sinif": "3b",
+  "neden": "1242 Tatar saldırısı — bölge"
+ },
+ {
+  "ad": "Anabolu (Nauplion)",
+  "sinif": "3b",
+  "neden": "1189 metropolitlik — sahiplik demiyor"
+ },
+ {
+  "ad": "Debre (Dibra)",
+  "sinif": "3b",
+  "neden": "1107 'yılından sonra' piskoposluk — sahiplik değil"
+ },
+ {
+  "ad": "Niş",
+  "sinif": "3b",
+  "neden": "tek cümle hicrî 1150 (1737)"
+ },
+ {
+  "ad": "Rusçuk",
+  "sinif": "3b",
+  "neden": "tek cümle hicrî 1244 (1828)"
+ },
+ {
+  "ad": "Kanije",
+  "sinif": "3b",
+  "neden": "tek cümle hicrî 1009 (1600)"
+ },
+ {
+  "ad": "Yanova (Ineu)",
+  "sinif": "3b",
+  "neden": "tek cümle hicrî 1068 (1658)"
+ },
+ {
+  "ad": "Yenişehir (Larissa)",
+  "sinif": "3y",
+  "neden": "slug `yenisehir` = Bursa Yenişehir'i — YANLIŞ MADDE"
+ },
+ {
+  "ad": "Otranto",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "otranto:302",
+   "otranto--sehir:302",
+   "arama:otranto:200"
+  ]
+ },
+ {
+  "ad": "Brindisi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "brindisi:302",
+   "brindisi--sehir:302",
+   "arama:brindisi:200"
+  ]
+ },
+ {
+  "ad": "Taranto",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "taranto:302",
+   "taranto--sehir:302",
+   "arama:taranto:200"
+  ]
+ },
+ {
+  "ad": "Lecce",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lecce:302",
+   "lecce--sehir:302",
+   "arama:lecce:200"
+  ]
+ },
+ {
+  "ad": "Eski Zağra (Stara Zagora)",
+  "sinif": "3",
+  "neden": "TDV `eski-zagra` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Tatarpazarcığı",
+  "sinif": "3",
+  "neden": "TDV `tatarpazarcigi` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "İhtiman",
+  "sinif": "3",
+  "neden": "TDV `ihtiman` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Köstendil",
+  "sinif": "3",
+  "neden": "TDV `kostendil` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Petriç",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "petric:302",
+   "petric--sehir:302",
+   "arama:petric:200"
+  ]
+ },
+ {
+  "ad": "Nevrokop (Gotse Delçev)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nevrokop:302",
+   "nevrokop--sehir:302",
+   "gotse-delcev:302",
+   "gotse-delcev--sehir:302",
+   "arama:nevrokop:200",
+   "arama:gotse-delcev:200"
+  ]
+ },
+ {
+  "ad": "Drama",
+  "sinif": "3",
+  "neden": "TDV `drama` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Sofya",
+  "sinif": "3",
+  "neden": "TDV `sofya` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Tırnova",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tirnova:302",
+   "tirnova--sehir:302",
+   "arama:tirnova:200"
+  ]
+ },
+ {
+  "ad": "Varna",
+  "sinif": "3",
+  "neden": "TDV `varna` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Niğbolu",
+  "sinif": "3",
+  "neden": "TDV `nigbolu` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Manastır",
+  "sinif": "3",
+  "neden": "TDV `manastir` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Arta",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "arta:302",
+   "arta--sehir:302",
+   "arama:arta:200"
+  ]
+ },
+ {
+  "ad": "Tırhala",
+  "sinif": "3",
+  "neden": "TDV `tirhala` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Damala (Troizen)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "damala:302",
+   "damala--sehir:302",
+   "troizen:302",
+   "troizen--sehir:302",
+   "arama:damala:200",
+   "arama:troizen:200"
+  ]
+ },
+ {
+  "ad": "Methana",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "methana:302",
+   "methana--sehir:302",
+   "arama:methana:200"
+  ]
+ },
+ {
+  "ad": "Ermiyoni (Hermione)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ermiyoni:302",
+   "ermiyoni--sehir:302",
+   "hermione:302",
+   "hermione--sehir:302",
+   "arama:ermiyoni:200",
+   "arama:hermione:200"
+  ]
+ },
+ {
+  "ad": "Kranidi",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kranidi:302",
+   "kranidi--sehir:302",
+   "arama:kranidi:200"
+  ]
+ },
+ {
+  "ad": "İzdin (Lamia)",
+  "sinif": "3",
+  "neden": "TDV `izdin` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "İşkodra",
+  "sinif": "3",
+  "neden": "TDV `iskodra` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Akçahisar (Kruja)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "akcahisar:200",
+   "akcahisar--sehir:302",
+   "kruja:302",
+   "kruja--sehir:302",
+   "arama:akcahisar:200",
+   "arama:kruja:200"
+  ]
+ },
+ {
+  "ad": "Berat",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "berat:302",
+   "berat--sehir:302",
+   "arama:berat:200"
+  ]
+ },
+ {
+  "ad": "Avlonya",
+  "sinif": "3",
+  "neden": "TDV `avlonya` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Priştine",
+  "sinif": "3",
+  "neden": "TDV `pristine` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Semendire",
+  "sinif": "3",
+  "neden": "TDV `semendire` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Belgrad",
+  "sinif": "3",
+  "neden": "TDV `belgrad` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Saraybosna",
+  "sinif": "3",
+  "neden": "TDV `saraybosna` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Mostar",
+  "sinif": "3",
+  "neden": "TDV `mostar` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Banaluka",
+  "sinif": "3",
+  "neden": "TDV `banaluka` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Bükreş",
+  "sinif": "3",
+  "neden": "TDV `bukres` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Yaş",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yas:302",
+   "yas--sehir:302",
+   "arama:yas:200"
+  ]
+ },
+ {
+  "ad": "Kili",
+  "sinif": "3",
+  "neden": "TDV `kili` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Suçava (Suceava)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sucava:302",
+   "sucava--sehir:302",
+   "suceava:302",
+   "suceava--sehir:302",
+   "arama:sucava:200",
+   "arama:suceava:200"
+  ]
+ },
+ {
+  "ad": "Çernovitz (Çernivtsi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cernovitz:302",
+   "cernovitz--sehir:302",
+   "cernivtsi:302",
+   "cernivtsi--sehir:302",
+   "arama:cernovitz:200",
+   "arama:cernivtsi:200"
+  ]
+ },
+ {
+  "ad": "Roman",
+  "sinif": "3",
+  "neden": "TDV `roman` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Birlad (Bârlad)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "birlad:302",
+   "birlad--sehir:302",
+   "barlad:302",
+   "barlad--sehir:302",
+   "arama:birlad:200",
+   "arama:barlad:200"
+  ]
+ },
+ {
+  "ad": "Kalas (Galatz)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kalas:302",
+   "kalas--sehir:302",
+   "galatz:302",
+   "galatz--sehir:302",
+   "arama:kalas:200",
+   "arama:galatz:200"
+  ]
+ },
+ {
+  "ad": "İbrail",
+  "sinif": "3",
+  "neden": "TDV `ibrail` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Peçuy",
+  "sinif": "3",
+  "neden": "TDV `pecuy` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Uyvar",
+  "sinif": "3",
+  "neden": "TDV `uyvar` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Temeşvar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "temesvar:200",
+   "temesvar--sehir:302",
+   "arama:temesvar:200"
+  ]
+ },
+ {
+  "ad": "Lugos (Lugoj)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lugos:302",
+   "lugos--sehir:302",
+   "lugoj:302",
+   "lugoj--sehir:302",
+   "arama:lugos:200",
+   "arama:lugoj:200"
+  ]
+ },
+ {
+  "ad": "Orsova (Eski Orsova)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "orsova:302",
+   "orsova--sehir:302",
+   "eski-orsova:302",
+   "eski-orsova--sehir:302",
+   "arama:orsova:200",
+   "arama:eski-orsova:200"
+  ]
+ },
+ {
+  "ad": "Andros",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "andros:302",
+   "andros--sehir:302",
+   "arama:andros:200"
+  ]
+ },
+ {
+  "ad": "Çuha Adası (Kythira)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cuha-adasi:302",
+   "cuha-adasi--sehir:302",
+   "kythira:302",
+   "kythira--sehir:302",
+   "arama:cuha-adasi:200",
+   "arama:kythira:200"
+  ]
+ },
+ {
+  "ad": "İskiros (Skyros)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "iskiros:302",
+   "iskiros--sehir:302",
+   "skyros:302",
+   "skyros--sehir:302",
+   "arama:iskiros:200",
+   "arama:skyros:200"
+  ]
+ },
+ {
+  "ad": "İskopelos",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "iskopelos:302",
+   "iskopelos--sehir:302",
+   "arama:iskopelos:200"
+  ]
+ },
+ {
+  "ad": "İstendil (Tinos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "istendil:302",
+   "istendil--sehir:302",
+   "tinos:302",
+   "tinos--sehir:302",
+   "arama:istendil:200",
+   "arama:tinos:200"
+  ]
+ },
+ {
+  "ad": "Santorini",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "santorini:302",
+   "santorini--sehir:302",
+   "arama:santorini:200"
+  ]
+ },
+ {
+  "ad": "Graz",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "graz:302",
+   "graz--sehir:302",
+   "arama:graz:200"
+  ]
+ },
+ {
+  "ad": "Ljubljana",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ljubljana:302",
+   "ljubljana--sehir:302",
+   "arama:ljubljana:200"
+  ]
+ },
+ {
+  "ad": "Bratislava",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bratislava:302",
+   "bratislava--sehir:302",
+   "arama:bratislava:200"
+  ]
+ },
+ {
+  "ad": "Palermo",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "palermo:302",
+   "palermo--sehir:302",
+   "arama:palermo:200"
+  ]
+ },
+ {
+  "ad": "Peşte",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "peste:200",
+   "peste--sehir:302",
+   "arama:peste:200"
+  ]
+ },
+ {
+  "ad": "Yanıkkale (Győr)",
+  "sinif": "3",
+  "neden": "TDV `yanikkale` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Bender",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bender:302",
+   "bender--sehir:302",
+   "arama:bender:200"
+  ]
+ },
+ {
+  "ad": "İsmail",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ismail:302",
+   "ismail--sehir:302",
+   "arama:ismail:200"
+  ]
+ },
+ {
+  "ad": "Plevne",
+  "sinif": "3",
+  "neden": "TDV `plevne` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Yenipazar (Novi Pazar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yenipazar:302",
+   "yenipazar--sehir:302",
+   "novi-pazar:302",
+   "novi-pazar--sehir:302",
+   "arama:yenipazar:200",
+   "arama:novi-pazar:200"
+  ]
+ },
+ {
+  "ad": "Ayamavra (Lefkada)",
+  "sinif": "3",
+  "neden": "TDV `ayamavra` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Parga",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "parga:302",
+   "parga--sehir:302",
+   "arama:parga:200"
+  ]
+ },
+ {
+  "ad": "Vonitsa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vonitsa:302",
+   "vonitsa--sehir:302",
+   "arama:vonitsa:200"
+  ]
+ },
+ {
+  "ad": "Preveze",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "preveze:302",
+   "preveze--sehir:302",
+   "arama:preveze:200"
+  ]
+ },
+ {
+  "ad": "Aynaroz (Athos)",
+  "sinif": "3",
+  "neden": "TDV `aynaroz` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Kesendire (Kassandra)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kesendire:302",
+   "kesendire--sehir:302",
+   "kassandra:302",
+   "kassandra--sehir:302",
+   "arama:kesendire:200",
+   "arama:kassandra:200"
+  ]
+ },
+ {
+  "ad": "Köstence",
+  "sinif": "3",
+  "neden": "TDV `kostence` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Ösek (Osijek)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "osek:302",
+   "osek--sehir:302",
+   "osijek:302",
+   "osijek--sehir:302",
+   "arama:osek:200",
+   "arama:osijek:200"
+  ]
+ },
+ {
+  "ad": "Varadin (Petrovaradin)",
+  "sinif": "3",
+  "neden": "TDV `varadin` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Baç (Bács)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bac:200",
+   "bac--sehir:302",
+   "bacs:302",
+   "bacs--sehir:302",
+   "arama:bac:200",
+   "arama:bacs:200"
+  ]
+ },
+ {
+  "ad": "Kalocsa",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kalocsa:302",
+   "kalocsa--sehir:302",
+   "arama:kalocsa:200"
+  ]
+ },
+ {
+  "ad": "Şimontorna",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "simontorna:302",
+   "simontorna--sehir:302",
+   "arama:simontorna:200"
+  ]
+ },
+ {
+  "ad": "Hatvan",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hatvan:302",
+   "hatvan--sehir:302",
+   "arama:hatvan:200"
+  ]
+ },
+ {
+  "ad": "Vaç (Vác)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vac:302",
+   "vac--sehir:302",
+   "arama:vac:200"
+  ]
+ },
+ {
+  "ad": "Solnok (Szolnok)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "solnok:302",
+   "solnok--sehir:302",
+   "szolnok:302",
+   "szolnok--sehir:302",
+   "arama:solnok:200",
+   "arama:szolnok:200"
+  ]
+ },
+ {
+  "ad": "Zigetvar",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zigetvar:200",
+   "zigetvar--sehir:302",
+   "arama:zigetvar:200"
+  ]
+ },
+ {
+  "ad": "Paros",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "paros:302",
+   "paros--sehir:302",
+   "arama:paros:200"
+  ]
+ },
+ {
+  "ad": "Değirmenlik (Milos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "degirmenlik:302",
+   "degirmenlik--sehir:302",
+   "milos:302",
+   "milos--sehir:302",
+   "arama:degirmenlik:200",
+   "arama:milos:200"
+  ]
+ },
+ {
+  "ad": "Kimolos (Argentiera)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kimolos:302",
+   "kimolos--sehir:302",
+   "argentiera:302",
+   "argentiera--sehir:302",
+   "arama:kimolos:200",
+   "arama:argentiera:200"
+  ]
+ },
+ {
+  "ad": "Murted (Kea)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "murted:200",
+   "murted--sehir:302",
+   "kea:302",
+   "kea--sehir:302",
+   "arama:murted:200",
+   "arama:kea:200"
+  ]
+ },
+ {
+  "ad": "Termiye (Kythnos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "termiye:302",
+   "termiye--sehir:302",
+   "kythnos:302",
+   "kythnos--sehir:302",
+   "arama:termiye:200",
+   "arama:kythnos:200"
+  ]
+ },
+ {
+  "ad": "Koçbaba (Serifos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kocbaba:302",
+   "kocbaba--sehir:302",
+   "serifos:302",
+   "serifos--sehir:302",
+   "arama:kocbaba:200",
+   "arama:serifos:200"
+  ]
+ },
+ {
+  "ad": "Sifnos (Yavuzca)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sifnos:302",
+   "sifnos--sehir:302",
+   "yavuzca:302",
+   "yavuzca--sehir:302",
+   "arama:sifnos:200",
+   "arama:yavuzca:200"
+  ]
+ },
+ {
+  "ad": "Sire (Syros)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sire:302",
+   "sire--sehir:302",
+   "syros:302",
+   "syros--sehir:302",
+   "arama:sire:200",
+   "arama:syros:200"
+  ]
+ },
+ {
+  "ad": "Mikonos",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mikonos:302",
+   "mikonos--sehir:302",
+   "arama:mikonos:200"
+  ]
+ },
+ {
+  "ad": "Nio (İos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nio:302",
+   "nio--sehir:302",
+   "ios:302",
+   "ios--sehir:302",
+   "arama:nio:200",
+   "arama:ios:200"
+  ]
+ },
+ {
+  "ad": "Namfi (Anafi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "namfi:302",
+   "namfi--sehir:302",
+   "anafi:302",
+   "anafi--sehir:302",
+   "arama:namfi:200",
+   "arama:anafi:200"
+  ]
+ },
+ {
+  "ad": "Folegandros",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "folegandros:302",
+   "folegandros--sehir:302",
+   "arama:folegandros:200"
+  ]
+ },
+ {
+  "ad": "İpsara (Psara)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ipsara:302",
+   "ipsara--sehir:302",
+   "psara:302",
+   "psara--sehir:302",
+   "arama:ipsara:200",
+   "arama:psara:200"
+  ]
+ },
+ {
+  "ad": "Bozbaba (Ay Strati)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bozbaba:302",
+   "bozbaba--sehir:302",
+   "ay-strati:302",
+   "ay-strati--sehir:302",
+   "arama:bozbaba:200",
+   "arama:ay-strati:200"
+  ]
+ },
+ {
+  "ad": "İskiathos",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "iskiathos:302",
+   "iskiathos--sehir:302",
+   "arama:iskiathos:200"
+  ]
+ },
+ {
+  "ad": "Alonisos",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "alonisos:302",
+   "alonisos--sehir:302",
+   "arama:alonisos:200"
+  ]
+ },
+ {
+  "ad": "Kulluk (Salamis)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kulluk:302",
+   "kulluk--sehir:302",
+   "salamis:302",
+   "salamis--sehir:302",
+   "arama:kulluk:200",
+   "arama:salamis:200"
+  ]
+ },
+ {
+  "ad": "Egina (Aegina)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "egina:302",
+   "egina--sehir:302",
+   "aegina:302",
+   "aegina--sehir:302",
+   "arama:egina:200",
+   "arama:aegina:200"
+  ]
+ },
+ {
+  "ad": "Çamlıca (Hidra)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "camlica:302",
+   "camlica--sehir:302",
+   "hidra:302",
+   "hidra--sehir:302",
+   "arama:camlica:200",
+   "arama:hidra:200"
+  ]
+ },
+ {
+  "ad": "Kefalonya",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kefalonya:302",
+   "kefalonya--sehir:302",
+   "arama:kefalonya:200"
+  ]
+ },
+ {
+  "ad": "İthaki",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ithaki:302",
+   "ithaki--sehir:302",
+   "arama:ithaki:200"
+  ]
+ },
+ {
+  "ad": "Zaklise (Zakynthos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zaklise:302",
+   "zaklise--sehir:302",
+   "zakynthos:302",
+   "zakynthos--sehir:302",
+   "arama:zaklise:200",
+   "arama:zakynthos:200"
+  ]
+ },
+ {
+  "ad": "Krk (Veglia)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "krk:302",
+   "krk--sehir:302",
+   "veglia:302",
+   "veglia--sehir:302",
+   "arama:krk:200",
+   "arama:veglia:200"
+  ]
+ },
+ {
+  "ad": "Cres (Cherso)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cres:302",
+   "cres--sehir:302",
+   "cherso:302",
+   "cherso--sehir:302",
+   "arama:cres:200",
+   "arama:cherso:200"
+  ]
+ },
+ {
+  "ad": "Rab (Arbe)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rab:200",
+   "rab--sehir:302",
+   "arbe:302",
+   "arbe--sehir:302",
+   "arama:rab:200",
+   "arama:arbe:200"
+  ]
+ },
+ {
+  "ad": "Pag (Pago)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pag:302",
+   "pag--sehir:302",
+   "pago:302",
+   "pago--sehir:302",
+   "arama:pag:200",
+   "arama:pago:200"
+  ]
+ },
+ {
+  "ad": "Uzunada (Dugi Otok)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "uzunada:302",
+   "uzunada--sehir:302",
+   "dugi-otok:302",
+   "dugi-otok--sehir:302",
+   "arama:uzunada:200",
+   "arama:dugi-otok:200"
+  ]
+ },
+ {
+  "ad": "Brakya (Brač)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "brakya:302",
+   "brakya--sehir:302",
+   "brac:302",
+   "brac--sehir:302",
+   "arama:brakya:200",
+   "arama:brac:200"
+  ]
+ },
+ {
+  "ad": "Hvar (Lesina)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "hvar:302",
+   "hvar--sehir:302",
+   "lesina:302",
+   "lesina--sehir:302",
+   "arama:hvar:200",
+   "arama:lesina:200"
+  ]
+ },
+ {
+  "ad": "Korçula (Kurzola)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "korcula:302",
+   "korcula--sehir:302",
+   "kurzola:302",
+   "kurzola--sehir:302",
+   "arama:korcula:200",
+   "arama:kurzola:200"
+  ]
+ },
+ {
+  "ad": "Vis (Lissa)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vis:302",
+   "vis--sehir:302",
+   "lissa:302",
+   "lissa--sehir:302",
+   "arama:vis:200",
+   "arama:lissa:200"
+  ]
+ },
+ {
+  "ad": "Mliyet (Mljet)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mliyet:302",
+   "mliyet--sehir:302",
+   "mljet:302",
+   "mljet--sehir:302",
+   "arama:mliyet:200",
+   "arama:mljet:200"
+  ]
+ },
+ {
+  "ad": "Messina",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "messina:302",
+   "messina--sehir:302",
+   "arama:messina:200"
+  ]
+ },
+ {
+  "ad": "Sirakuza",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sirakuza:302",
+   "sirakuza--sehir:302",
+   "arama:sirakuza:200"
+  ]
+ },
+ {
+  "ad": "Karistos (Kızılhisar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "karistos:302",
+   "karistos--sehir:302",
+   "kizilhisar:302",
+   "kizilhisar--sehir:302",
+   "arama:karistos:200",
+   "arama:kizilhisar:200"
+  ]
+ },
+ {
+  "ad": "Kanina",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kanina:302",
+   "kanina--sehir:302",
+   "arama:kanina:200"
+  ]
+ },
+ {
+  "ad": "Oreoi (İstiaia)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "oreoi:302",
+   "oreoi--sehir:302",
+   "istiaia:302",
+   "istiaia--sehir:302",
+   "arama:oreoi:200",
+   "arama:istiaia:200"
+  ]
+ },
+ {
+  "ad": "Kragujevac",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kragujevac:302",
+   "kragujevac--sehir:302",
+   "arama:kragujevac:200"
+  ]
+ },
+ {
+  "ad": "Çaçak",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cacak:302",
+   "cacak--sehir:302",
+   "arama:cacak:200"
+  ]
+ },
+ {
+  "ad": "Tırgovişte",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tirgoviste:302",
+   "tirgoviste--sehir:302",
+   "arama:tirgoviste:200"
+  ]
+ },
+ {
+  "ad": "Piteşti",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "pitesti:302",
+   "pitesti--sehir:302",
+   "arama:pitesti:200"
+  ]
+ },
+ {
+  "ad": "Slatina",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "slatina:302",
+   "slatina--sehir:302",
+   "arama:slatina:200"
+  ]
+ },
+ {
+  "ad": "Buzău",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "buzau:302",
+   "buzau--sehir:302",
+   "arama:buzau:200"
+  ]
+ },
+ {
+  "ad": "Rimnik-i Sârat (Râmnicu Sărat)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rimnik-i-sarat:302",
+   "rimnik-i-sarat--sehir:302",
+   "ramnicu-sarat:302",
+   "ramnicu-sarat--sehir:302",
+   "arama:rimnik-i-sarat:200",
+   "arama:ramnicu-sarat:200"
+  ]
+ },
+ {
+  "ad": "Krayova (Craiova)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "krayova:302",
+   "krayova--sehir:302",
+   "craiova:302",
+   "craiova--sehir:302",
+   "arama:krayova:200",
+   "arama:craiova:200"
+  ]
+ },
+ {
+  "ad": "Tırgu Jiu",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tirgu-jiu:302",
+   "tirgu-jiu--sehir:302",
+   "arama:tirgu-jiu:200"
+  ]
+ },
+ {
+  "ad": "Rimnik (Râmnicu Vâlcea)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "rimnik:302",
+   "rimnik--sehir:302",
+   "ramnicu-valcea:302",
+   "ramnicu-valcea--sehir:302",
+   "arama:rimnik:200",
+   "arama:ramnicu-valcea:200"
+  ]
+ },
+ {
+  "ad": "Turnu Severin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "turnu-severin:302",
+   "turnu-severin--sehir:302",
+   "arama:turnu-severin:200"
+  ]
+ },
+ {
+  "ad": "Kımpulung (Câmpulung)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kimpulung:302",
+   "kimpulung--sehir:302",
+   "campulung:302",
+   "campulung--sehir:302",
+   "arama:kimpulung:200",
+   "arama:campulung:200"
+  ]
+ },
+ {
+  "ad": "Soroka (Soroca)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "soroka:302",
+   "soroka--sehir:302",
+   "soroca:302",
+   "soroca--sehir:302",
+   "arama:soroka:200",
+   "arama:soroca:200"
+  ]
+ },
+ {
+  "ad": "Orhei",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "orhei:302",
+   "orhei--sehir:302",
+   "arama:orhei:200"
+  ]
+ },
+ {
+  "ad": "Podgorica",
+  "sinif": "3",
+  "neden": "TDV `podgorica` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Böğürdelen (Šabac)",
+  "sinif": "3",
+  "neden": "TDV `bogurdelen` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Travnik",
+  "sinif": "3",
+  "neden": "TDV `travnik` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "İzvornik (Zvornik)",
+  "sinif": "3",
+  "neden": "TDV `izvornik` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Foça (Foča)",
+  "sinif": "3",
+  "neden": "TDV `foca` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Livno (İhlevne)",
+  "sinif": "3",
+  "neden": "TDV `livno` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Yayça (Jajce)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yayca:302",
+   "yayca--sehir:302",
+   "jajce:302",
+   "jajce--sehir:302",
+   "arama:yayca:200",
+   "arama:jajce:200"
+  ]
+ },
+ {
+  "ad": "Srebrenik",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "srebrenik:302",
+   "srebrenik--sehir:302",
+   "arama:srebrenik:200"
+  ]
+ },
+ {
+  "ad": "Yergöğü (Giurgiu)",
+  "sinif": "3",
+  "neden": "TDV `yergogu` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Dubrovnik",
+  "sinif": "3",
+  "neden": "TDV `dubrovnik` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Trebinye",
+  "sinif": "3",
+  "neden": "TDV `trebinye` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Vişegrad",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "visegrad:302",
+   "visegrad--sehir:302",
+   "arama:visegrad:200"
+  ]
+ },
+ {
+  "ad": "Tuzla (Bosna)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tuzla:302",
+   "tuzla--sehir:302",
+   "bosna:302",
+   "bosna--sehir:302",
+   "arama:tuzla:200",
+   "arama:bosna:200"
+  ]
+ },
+ {
+  "ad": "Koniçe (Konjic)",
+  "sinif": "3",
+  "neden": "TDV `konice` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Visoko",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "visoko:302",
+   "visoko--sehir:302",
+   "arama:visoko:200"
+  ]
+ },
+ {
+  "ad": "Gyula (Göle)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gyula:302",
+   "gyula--sehir:302",
+   "gole:302",
+   "gole--sehir:302",
+   "arama:gyula:200",
+   "arama:gole:200"
+  ]
+ },
+ {
+  "ad": "Tokaj",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "tokaj:302",
+   "tokaj--sehir:302",
+   "arama:tokaj:200"
+  ]
+ },
+ {
+  "ad": "Sopron",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sopron:302",
+   "sopron--sehir:302",
+   "arama:sopron:200"
+  ]
+ },
+ {
+  "ad": "Zadar (Zara)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "zadar:302",
+   "zadar--sehir:302",
+   "zara:302",
+   "zara--sehir:302",
+   "arama:zadar:200",
+   "arama:zara:200"
+  ]
+ },
+ {
+  "ad": "Şibenik (Sebenico)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sibenik:302",
+   "sibenik--sehir:302",
+   "sebenico:302",
+   "sebenico--sehir:302",
+   "arama:sibenik:200",
+   "arama:sebenico:200"
+  ]
+ },
+ {
+  "ad": "Split (Spalato)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "split:302",
+   "split--sehir:302",
+   "spalato:302",
+   "spalato--sehir:302",
+   "arama:split:200",
+   "arama:spalato:200"
+  ]
+ },
+ {
+  "ad": "Kotor (Cattaro)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kotor:302",
+   "kotor--sehir:302",
+   "cattaro:302",
+   "cattaro--sehir:302",
+   "arama:kotor:200",
+   "arama:cattaro:200"
+  ]
+ },
+ {
+  "ad": "Knin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "knin:302",
+   "knin--sehir:302",
+   "arama:knin:200"
+  ]
+ },
+ {
+  "ad": "Sin (Sinj)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sin:302",
+   "sin--sehir:302",
+   "sinj:302",
+   "sinj--sehir:302",
+   "arama:sin:200",
+   "arama:sinj:200"
+  ]
+ },
+ {
+  "ad": "Klis",
+  "sinif": "3",
+  "neden": "TDV `klis` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Vrana (Urana)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "vrana:302",
+   "vrana--sehir:302",
+   "urana:302",
+   "urana--sehir:302",
+   "arama:vrana:200",
+   "arama:urana:200"
+  ]
+ },
+ {
+  "ad": "Nadin",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nadin:302",
+   "nadin--sehir:302",
+   "arama:nadin:200"
+  ]
+ },
+ {
+  "ad": "Udine",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "udine:302",
+   "udine--sehir:302",
+   "arama:udine:200"
+  ]
+ },
+ {
+  "ad": "Trieste",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "trieste:302",
+   "trieste--sehir:302",
+   "arama:trieste:200"
+  ]
+ },
+ {
+  "ad": "Ancona",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ancona:302",
+   "ancona--sehir:302",
+   "arama:ancona:200"
+  ]
+ },
+ {
+  "ad": "L'Aquila",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "laquila:302",
+   "laquila--sehir:302",
+   "arama:laquila:200"
+  ]
+ },
+ {
+  "ad": "Bari",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bari:302",
+   "bari--sehir:302",
+   "arama:bari:200"
+  ]
+ },
+ {
+  "ad": "Foggia",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "foggia:302",
+   "foggia--sehir:302",
+   "arama:foggia:200"
+  ]
+ },
+ {
+  "ad": "Cosenza",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cosenza:302",
+   "cosenza--sehir:302",
+   "arama:cosenza:200"
+  ]
+ },
+ {
+  "ad": "Reggio Calabria",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "reggio-calabria:302",
+   "reggio-calabria--sehir:302",
+   "arama:reggio-calabria:200"
+  ]
+ },
+ {
+  "ad": "Katanya (Catania)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "katanya:302",
+   "katanya--sehir:302",
+   "catania:302",
+   "catania--sehir:302",
+   "arama:katanya:200",
+   "arama:catania:200"
+  ]
+ },
+ {
+  "ad": "Dedeağaç (Alexandroupoli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dedeagac:302",
+   "dedeagac--sehir:302",
+   "alexandroupoli:302",
+   "alexandroupoli--sehir:302",
+   "arama:dedeagac:200",
+   "arama:alexandroupoli:200"
+  ]
+ },
+ {
+  "ad": "Erdel Belgradı (Gyulafehérvár)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "erdel-belgradi:302",
+   "erdel-belgradi--sehir:302",
+   "gyulafehervar:302",
+   "gyulafehervar--sehir:302",
+   "arama:erdel-belgradi:200",
+   "arama:gyulafehervar:200"
+  ]
+ },
+ {
+  "ad": "Brassó (Braşov)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "brasso:302",
+   "brasso--sehir:302",
+   "brasov:302",
+   "brasov--sehir:302",
+   "arama:brasso:200",
+   "arama:brasov:200"
+  ]
+ },
+ {
+  "ad": "Segesvár (Sighişoara)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "segesvar:302",
+   "segesvar--sehir:302",
+   "sighisoara:302",
+   "sighisoara--sehir:302",
+   "arama:segesvar:200",
+   "arama:sighisoara:200"
+  ]
+ },
+ {
+  "ad": "Nitra (Nyitra)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "nitra:302",
+   "nitra--sehir:302",
+   "nyitra:302",
+   "nyitra--sehir:302",
+   "arama:nitra:200",
+   "arama:nyitra:200"
+  ]
+ },
+ {
+  "ad": "Komárom (Komárno)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "komarom:302",
+   "komarom--sehir:302",
+   "komarno:302",
+   "komarno--sehir:302",
+   "arama:komarom:200",
+   "arama:komarno:200"
+  ]
+ },
+ {
+  "ad": "Léva (Levice)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "leva:302",
+   "leva--sehir:302",
+   "levice:302",
+   "levice--sehir:302",
+   "arama:leva:200",
+   "arama:levice:200"
+  ]
+ },
+ {
+  "ad": "Varasd (Varaždin)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "varasd:302",
+   "varasd--sehir:302",
+   "varazdin:302",
+   "varazdin--sehir:302",
+   "arama:varasd:200",
+   "arama:varazdin:200"
+  ]
+ },
+ {
+  "ad": "Sisak",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "sisak:302",
+   "sisak--sehir:302",
+   "arama:sisak:200"
+  ]
+ },
+ {
+  "ad": "Kostayniçe (Kostajnica)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kostaynice:302",
+   "kostaynice--sehir:302",
+   "kostajnica:302",
+   "kostajnica--sehir:302",
+   "arama:kostaynice:200",
+   "arama:kostajnica:200"
+  ]
+ },
+ {
+  "ad": "Bosna Dubiçası (Bosanska Dubica)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bosna-dubicasi:302",
+   "bosna-dubicasi--sehir:302",
+   "bosanska-dubica:302",
+   "bosanska-dubica--sehir:302",
+   "arama:bosna-dubicasi:200",
+   "arama:bosanska-dubica:200"
+  ]
+ },
+ {
+  "ad": "Bosna Novi'si (Bosanski Novi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bosna-novisi:302",
+   "bosna-novisi--sehir:302",
+   "bosanski-novi:302",
+   "bosanski-novi--sehir:302",
+   "arama:bosna-novisi:200",
+   "arama:bosanski-novi:200"
+  ]
+ },
+ {
+  "ad": "Jasenovaç (Jasenovac)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "jasenovac:302",
+   "jasenovac--sehir:302",
+   "arama:jasenovac:200"
+  ]
+ },
+ {
+  "ad": "Bosna Brod'u (Bosanski Brod)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "bosna-brodu:302",
+   "bosna-brodu--sehir:302",
+   "bosanski-brod:302",
+   "bosanski-brod--sehir:302",
+   "arama:bosna-brodu:200",
+   "arama:bosanski-brod:200"
+  ]
+ },
+ {
+  "ad": "Prevadi (Provadia)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "prevadi:302",
+   "prevadi--sehir:302",
+   "provadia:302",
+   "provadia--sehir:302",
+   "arama:prevadi:200",
+   "arama:provadia:200"
+  ]
+ },
+ {
+  "ad": "Babadağı (Babadag)",
+  "sinif": "3",
+  "neden": "TDV `babadagi` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "İshakçı (Isaccea)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ishakci:302",
+   "ishakci--sehir:302",
+   "isaccea:302",
+   "isaccea--sehir:302",
+   "arama:ishakci:200",
+   "arama:isaccea:200"
+  ]
+ },
+ {
+  "ad": "Yagodina (Jagodina)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "yagodina:302",
+   "yagodina--sehir:302",
+   "jagodina:302",
+   "jagodina--sehir:302",
+   "arama:yagodina:200",
+   "arama:jagodina:200"
+  ]
+ },
+ {
+  "ad": "Praviște (Eleftheroupoli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "praviste:302",
+   "praviste--sehir:302",
+   "eleftheroupoli:302",
+   "eleftheroupoli--sehir:302",
+   "arama:praviste:200",
+   "arama:eleftheroupoli:200"
+  ]
+ },
+ {
+  "ad": "Lanzaka (Lagkadas)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lanzaka:302",
+   "lanzaka--sehir:302",
+   "lagkadas:302",
+   "lagkadas--sehir:302",
+   "arama:lanzaka:200",
+   "arama:lagkadas:200"
+  ]
+ },
+ {
+  "ad": "Krupa (Bosanska Krupa)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "krupa:302",
+   "krupa--sehir:302",
+   "bosanska-krupa:302",
+   "bosanska-krupa--sehir:302",
+   "arama:krupa:200",
+   "arama:bosanska-krupa:200"
+  ]
+ },
+ {
+  "ad": "Ostrovica (Stara Ostrovica, Kulen Vakuf)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ostrovica:302",
+   "ostrovica--sehir:302",
+   "stara-ostrovica:302",
+   "stara-ostrovica--sehir:302",
+   "kulen-vakuf:302",
+   "kulen-vakuf--sehir:302",
+   "arama:ostrovica:200",
+   "arama:stara-ostrovica:200"
+  ]
+ },
+ {
+  "ad": "Udbina",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "udbina:302",
+   "udbina--sehir:302",
+   "arama:udbina:200"
+  ]
+ },
+ {
+  "ad": "Gospić",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "gospic:302",
+   "gospic--sehir:302",
+   "arama:gospic:200"
+  ]
+ },
+ {
+  "ad": "Cetin (Cetingrad)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "cetin:302",
+   "cetin--sehir:302",
+   "cetingrad:302",
+   "cetingrad--sehir:302",
+   "arama:cetin:200",
+   "arama:cetingrad:200"
+  ]
+ },
+ {
+  "ad": "Drežnik (Drežnik Grad)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "dreznik:302",
+   "dreznik--sehir:302",
+   "dreznik-grad:302",
+   "dreznik-grad--sehir:302",
+   "arama:dreznik:200",
+   "arama:dreznik-grad:200"
+  ]
+ },
+ {
+  "ad": "Aydonat (Paramythia)",
+  "sinif": "3",
+  "neden": "TDV `aydonat` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Margiliç (Margariti)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "margilic:302",
+   "margilic--sehir:302",
+   "margariti:302",
+   "margariti--sehir:302",
+   "arama:margilic:200",
+   "arama:margariti:200"
+  ]
+ },
+ {
+  "ad": "Delvine",
+  "sinif": "3",
+  "neden": "TDV `delvine` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Ergiri (Ergirikasrı)",
+  "sinif": "3",
+  "neden": "TDV `ergirikasri` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Butrint (Butrinto)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "butrint:302",
+   "butrint--sehir:302",
+   "butrinto:302",
+   "butrinto--sehir:302",
+   "arama:butrint:200",
+   "arama:butrinto:200"
+  ]
+ },
+ {
+  "ad": "Hımara (Himarë)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "himara:302",
+   "himara--sehir:302",
+   "himare:302",
+   "himare--sehir:302",
+   "arama:himara:200",
+   "arama:himare:200"
+  ]
+ },
+ {
+  "ad": "Ayasaranda (Sarandë)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "ayasaranda:302",
+   "ayasaranda--sehir:302",
+   "sarande:302",
+   "sarande--sehir:302",
+   "arama:ayasaranda:200",
+   "arama:sarande:200"
+  ]
+ },
+ {
+  "ad": "Souli (Sûli)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "souli:302",
+   "souli--sehir:302",
+   "suli:302",
+   "suli--sehir:302",
+   "arama:souli:200",
+   "arama:suli:200"
+  ]
+ },
+ {
+  "ad": "İgumenitsa (Gomenice)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "igumenitsa:302",
+   "igumenitsa--sehir:302",
+   "gomenice:302",
+   "gomenice--sehir:302",
+   "arama:igumenitsa:200",
+   "arama:gomenice:200"
+  ]
+ },
+ {
+  "ad": "Filat (Filiates)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "filat:302",
+   "filat--sehir:302",
+   "filiates:302",
+   "filiates--sehir:302",
+   "arama:filat:200",
+   "arama:filiates:200"
+  ]
+ },
+ {
+  "ad": "Şehirköy (Pirot)",
+  "sinif": "3",
+  "neden": "TDV `sehirkoy` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Alacahisar (Kruševac)",
+  "sinif": "3",
+  "neden": "TDV `alacahisar` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Debrecen",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "debrecen:302",
+   "debrecen--sehir:302",
+   "arama:debrecen:200"
+  ]
+ },
+ {
+  "ad": "Paksos (Paxos)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "paksos:302",
+   "paksos--sehir:302",
+   "paxos:302",
+   "paxos--sehir:302",
+   "arama:paksos:200",
+   "arama:paxos:200"
+  ]
+ },
+ {
+  "ad": "Elafonisos (Cervi)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "elafonisos:302",
+   "elafonisos--sehir:302",
+   "cervi:302",
+   "cervi--sehir:302",
+   "arama:elafonisos:200",
+   "arama:cervi:200"
+  ]
+ },
+ {
+  "ad": "Fülek (Fiľakovo)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "fulek:302",
+   "fulek--sehir:302",
+   "filakovo:302",
+   "filakovo--sehir:302",
+   "arama:fulek:200",
+   "arama:filakovo:200"
+  ]
+ },
+ {
+  "ad": "Munkács (Mukacheve)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "munkacs:302",
+   "munkacs--sehir:302",
+   "mukacheve:302",
+   "mukacheve--sehir:302",
+   "arama:munkacs:200",
+   "arama:mukacheve:200"
+  ]
+ },
+ {
+  "ad": "Szatmár (Satu Mare)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "szatmar:302",
+   "szatmar--sehir:302",
+   "satu-mare:302",
+   "satu-mare--sehir:302",
+   "arama:szatmar:200",
+   "arama:satu-mare:200"
+  ]
+ },
+ {
+  "ad": "Mat (Mati)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "mat:302",
+   "mat--sehir:302",
+   "mati:302",
+   "mati--sehir:302",
+   "arama:mat:200",
+   "arama:mati:200"
+  ]
+ },
+ {
+  "ad": "Leş (Alessio)",
+  "sinif": "3",
+  "neden": "TDV `les` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Doyran",
+  "sinif": "3",
+  "neden": "TDV `doyran` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Gevgili (Gevgelija)",
+  "sinif": "3",
+  "neden": "TDV `gevgili` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Kılkış (Avrathisar)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kilkis:302",
+   "kilkis--sehir:302",
+   "avrathisar:302",
+   "avrathisar--sehir:302",
+   "arama:kilkis:200",
+   "arama:avrathisar:200"
+  ]
+ },
+ {
+  "ad": "Kahul (Cahul)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "kahul:302",
+   "kahul--sehir:302",
+   "cahul:302",
+   "cahul--sehir:302",
+   "arama:kahul:200",
+   "arama:cahul:200"
+  ]
+ },
+ {
+  "ad": "Murska Sobota",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "murska-sobota:302",
+   "murska-sobota--sehir:302",
+   "arama:murska-sobota:200"
+  ]
+ },
+ {
+  "ad": "Lendava (Alsólendva)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "lendava:302",
+   "lendava--sehir:302",
+   "alsolendva:302",
+   "alsolendva--sehir:302",
+   "arama:lendava:200",
+   "arama:alsolendva:200"
+  ]
+ },
+ {
+  "ad": "Linz",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "linz:302",
+   "linz--sehir:302",
+   "arama:linz:200"
+  ]
+ },
+ {
+  "ad": "Görice (Korçë)",
+  "sinif": "3",
+  "neden": "TDV `gorice` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Filorina (Florina)",
+  "sinif": "3",
+  "neden": "TDV `florina` var; 1000-1280 tarihli sahiplik cümlesi yok"
+ },
+ {
+  "ad": "Klagenfurt",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "klagenfurt:302",
+   "klagenfurt--sehir:302",
+   "arama:klagenfurt:200"
+  ]
+ },
+ {
+  "ad": "Maribor (Marburg)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "maribor:302",
+   "maribor--sehir:302",
+   "marburg:302",
+   "marburg--sehir:302",
+   "arama:maribor:200",
+   "arama:marburg:200"
+  ]
+ },
+ {
+  "ad": "Eisenstadt (Kismarton)",
+  "sinif": "3",
+  "neden": "TDV yer maddesi bulunamadı",
+  "denenen": [
+   "eisenstadt:302",
+   "eisenstadt--sehir:302",
+   "kismarton:302",
+   "kismarton--sehir:302",
+   "arama:eisenstadt:200",
+   "arama:kismarton:200"
+  ]
+ }
+]
