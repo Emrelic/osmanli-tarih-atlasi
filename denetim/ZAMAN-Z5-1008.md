@@ -89,9 +89,40 @@ Bu bölüm aşağıdakilerin yerine geçer. Aşağıdaki bölümler ara teslimin
   Kaçar'ın 108 dönemi 1925-12-12'ye uzuyor ama 4c 127'de kaldı. Bellek sınavı ② aynı 111 dönemi görüyor.
   ⇒ Ufuk açılınca (Z1) künye t'leri inmemişse 4c ANINDA +111 olur. Ön şart yine AYNI commit.
 
+### 🆕🆕 KAÇAR 1925-10-31 + TC RENGİ (9 Ekim, temel 67e9ec9d) — SON SÜRÜM
+- **Kaçar→İran geçişi 1925-10-31** (koordinatör hükmü: 12 Aralık taç giyme, tasarruf devri DEĞİL —
+  `denetle.py` ZEND→KAÇAR içtihadı). Dayanak `kronoloji_cok_1923_1945.js` 1925-10-31 maddesi, Encyclopaedia
+  Iranica 'AḤMAD SHAH QĀJĀR': *"On 31 October 1925, the Majlis approved a bill deposing the Qajars…"*.
+  Üretici değişti, sed DEĞİL. **Kayıt kayıt sınandı: 108/108 doğru**:
+  - kacar dönemi 1925-10-31'de bitiyor, `f`'si eskisiyle aynı
+  - iran 1925-10-31 → 1945-09-02, Iranica kaynaklı, hemen ardından
+  - yamada `1925-12-12` geçişi **0**
+- **TC rengi = TBMM moru (Emre):** öneri `turkiye-cumhuriyeti` künyesine `harita:"tbmm-turkiye"`.
+  `renkler.py` diff'ini koordinatör yazar. Kalan boyasız 5: hirvatistan-bagimsiz 38 · almanya-muttefik-isgali 31 ·
+  mancukuo 11 · slovakya-cumhuriyeti 4 · hatay-devleti 3 = **87 kayıt**.
+- **Kuru koşu** (yeni uygulayıcı, `--yama-glob "^yer_yama_1923_1945\.js$"`):
+  - çıkış 0 · TANINMADI 0 ("4300 kaydın HEPSİ görülüyor") · ÇAKIŞMA 0
+  - uygulandi 3.982 · mukerrer-tekillendi 2 (Taraz, Sayram) · not-eklendi 711
+  - GERİ OKUMA 3.982/3.982 ✓ · bayat yama yok
+- **Tam sınav (atılabilir ağaç `C:tlas-z5c`; künye uçları GEÇİCİ olarak hükme çekildi: kacar.t = iran.f =
+  1925-10-31 · bhopal.t / surakarta.t 1945-09-02 · buhara.t 1924-10-27 · TC harita:tbmm-turkiye):**
+  | ölçüm | ÖNCE (taban 67e9ec9d) | SONRA (künye + yama) |
+  |---|---|---|
+  | Değişmez 1 (sahipsiz) | 309 (beklenen 309) | **309** |
+  | Değişmez 4c (denetle) | 126 (beklenen 126) | **126** |
+  | Değişmez 4d (denetle) | 324 | **324** |
+  | bellek sınavı 4c (ufuk ötesi dahil) | 111 (künye eski) | **0** |
+  | bellek sınavı 4d | 108 iran (iran.f eski) | **0** |
+  | kaynaksız `s:` | 1.909 | 1.479 (SAHTE — tavan değişmez) |
+  | öteki değişmezler | — | **birebir aynı** |
+  | çıkış | 2 (yalnız D8 ÖLÇÜLEMEDİ) | 2 (yalnız D8 ÖLÇÜLEMEDİ) |
+  `--yaz` çıkış 0, 91 dosya, diskten geri okuma 3.982/3.982 ✓. Sonra veri git'ten geri alındı (değişiklik 0).
+  ⚠️ İlk deneme geçersizdi: geçici künye betiği kacar'da `t:"1925-01-01"`i iki yerde (künye ucu + künye-içi
+  madde) buldu ve bilerek DURDU. Yeniden koşuda eşleşme `kronoloji:` alanının öncesiyle sınırlandı.
+
 ### Ön şartlar
 - **Aynı commit'te:**
-  - künye t: kacar 1925-12-12 · bhopal 1945-09-02 · surakarta 1945-09-02 · buhara-halk-cumhuriyeti 1924-10-27
+  - künye uçları: kacar.t = iran.f = 1925-10-31 · bhopal 1945-09-02 · surakarta 1945-09-02 · buhara-halk-cumhuriyeti 1924-10-27
   - `_sahiplik_uygula` düzeltmesi (SAHIPLIK-UYGULA-KUSUR-1008: 33 kayıt + not: EKLEME)
 - **Yayından önce:** 6 boya (TC rengi Emre'de).
 - 📌 **`girdi.py` `GIRDI_DOSYALARI`'na satır GEREKMEZ.** Ölçtüm: listede `yer_yama*` dosyası 0. `girdi.py`'de

@@ -1,5 +1,5 @@
 {
- "temel": "23a7901a",
+ "temel": "67e9ec9d",
  "yerlesim": 4300,
  "girdi_dosya": 93,
  "kova_sayi": {
@@ -2256,8 +2256,8 @@
     "lat": 41.7,
     "lon": 45.78,
     "s_f": "1921-02-25",
-    "s_idx": 5,
-    "s_n": 6,
+    "s_idx": 7,
+    "s_n": 8,
     "not_dolu": false,
     "alt": "A2_bolge_disi",
     "I_aday": "1941-44 Alman (batı)"
@@ -57635,8 +57635,8 @@
     "lat": 38.714,
     "lon": 39.245,
     "s_f": "1920-04-23",
-    "s_idx": 3,
-    "s_n": 4,
+    "s_idx": 6,
+    "s_n": 7,
     "not_dolu": true,
     "gecis": [
      [
@@ -58537,8 +58537,8 @@
     "lat": 39.041,
     "lon": 38.492,
     "s_f": "1920-04-23",
-    "s_idx": 3,
-    "s_n": 4,
+    "s_idx": 4,
+    "s_n": 5,
     "not_dolu": false,
     "gecis": [
      [
@@ -58559,8 +58559,8 @@
     "lat": 37.764,
     "lon": 38.278,
     "s_f": "1920-04-23",
-    "s_idx": 2,
-    "s_n": 3,
+    "s_idx": 3,
+    "s_n": 4,
     "not_dolu": false,
     "gecis": [
      [
@@ -58603,8 +58603,8 @@
     "lat": 37.783,
     "lon": 38.622,
     "s_f": "1920-04-23",
-    "s_idx": 2,
-    "s_n": 3,
+    "s_idx": 3,
+    "s_n": 4,
     "not_dolu": false,
     "gecis": [
      [
@@ -58647,8 +58647,8 @@
     "lat": 38.694,
     "lon": 39.937,
     "s_f": "1920-04-23",
-    "s_idx": 3,
-    "s_n": 4,
+    "s_idx": 4,
+    "s_n": 5,
     "not_dolu": true,
     "gecis": [
      [
@@ -59377,8 +59377,8 @@
     "lat": 39.548,
     "lon": 44.084,
     "s_f": "1920-04-23",
-    "s_idx": 4,
-    "s_n": 5,
+    "s_idx": 5,
+    "s_n": 6,
     "not_dolu": false,
     "gecis": [
      [
@@ -60489,8 +60489,8 @@
     "lat": 38.55,
     "lon": 37.5,
     "s_f": "1920-04-23",
-    "s_idx": 3,
-    "s_n": 4,
+    "s_idx": 6,
+    "s_n": 7,
     "not_dolu": false,
     "gecis": [
      [
@@ -60790,9 +60790,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -60812,9 +60812,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -60834,9 +60834,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -60856,9 +60856,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -60923,9 +60923,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -60945,9 +60945,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -60967,9 +60967,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61360,9 +61360,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61382,9 +61382,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61404,9 +61404,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61426,9 +61426,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61448,9 +61448,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61470,9 +61470,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61492,9 +61492,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61514,9 +61514,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61536,9 +61536,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61558,9 +61558,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61580,9 +61580,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61617,9 +61617,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61639,9 +61639,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61661,9 +61661,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61683,9 +61683,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61705,9 +61705,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61727,9 +61727,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61749,9 +61749,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61771,9 +61771,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61793,9 +61793,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61815,9 +61815,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61837,9 +61837,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61859,9 +61859,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61881,9 +61881,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61903,9 +61903,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61925,9 +61925,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61947,9 +61947,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61969,9 +61969,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -61991,9 +61991,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62013,9 +62013,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62035,9 +62035,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62057,9 +62057,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62079,9 +62079,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62101,9 +62101,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62123,9 +62123,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62145,9 +62145,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62167,9 +62167,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62189,9 +62189,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62211,9 +62211,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62233,9 +62233,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62255,9 +62255,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62277,9 +62277,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62299,9 +62299,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62321,9 +62321,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62343,9 +62343,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62365,9 +62365,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62387,9 +62387,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62409,9 +62409,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62431,9 +62431,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62453,9 +62453,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62475,9 +62475,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62497,9 +62497,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62519,9 +62519,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62541,9 +62541,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62563,9 +62563,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62585,9 +62585,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62607,9 +62607,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62629,9 +62629,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62651,9 +62651,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62673,9 +62673,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62695,9 +62695,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62717,9 +62717,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62739,9 +62739,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62761,9 +62761,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62783,9 +62783,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62805,9 +62805,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62827,9 +62827,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62849,9 +62849,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62871,9 +62871,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62893,9 +62893,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62915,9 +62915,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62937,9 +62937,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62959,9 +62959,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -62981,9 +62981,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63003,9 +63003,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63025,9 +63025,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63047,9 +63047,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63069,9 +63069,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63091,9 +63091,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63113,9 +63113,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63135,9 +63135,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63157,9 +63157,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63179,9 +63179,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63201,9 +63201,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63223,9 +63223,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63245,9 +63245,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63267,9 +63267,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63289,9 +63289,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63311,9 +63311,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63333,9 +63333,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63355,9 +63355,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63377,9 +63377,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -63399,9 +63399,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64685,9 +64685,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64707,9 +64707,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64729,9 +64729,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64751,9 +64751,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64861,9 +64861,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64883,9 +64883,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64905,9 +64905,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
@@ -64927,9 +64927,9 @@
     "not_dolu": false,
     "gecis": [
      [
-      "1925-12-12",
+      "1925-10-31",
       "iran",
-      "gün komşudan: iran · TDV riza-sah-pehlevi '12 Aralık 1925' (Z4) — ÜST SINIR; kacarlar maddesi yalnız 1925 der. ÖN ŞART: kacar künyesi t 1925-01-01 → 1925-12-12 (Z4 önerisi)"
+      "data/kronoloji_cok_1923_1945.js 1925-10-31 — Encyclopaedia Iranica 'AḤMAD SHAH QĀJĀR': 'On 31 October 1925, the Majlis approved a bill deposing the Qajars and entrusting the provisional government to Reżā Khan.' (koordinatör hükmü 9 Ekim: 12 Aralık taç giyme, tasarruf devri DEĞİL — denetle.py ZEND→KAÇAR içtihadı). ÖN ŞART: kacar.t = iran.f = 1925-10-31 AYNI commit"
      ]
     ]
    },
