@@ -228,3 +228,65 @@ ZAMAN-v2'nin `uret_petek.py` parçası ~2900. satırda (`_YASLAMA_IPTAL`), C3 is
 
 YENİ DOSYALAR: `denetim/C3-YURUYUS-SUZGEC-1009.diff` · `denetim/ARAC-C3-YURUYUS-SUZGEC-SINAV-1009.py`
 · `denetim/C3-YURUYUS-SUZGEC-1009.md`
+
+---
+
+## § tur 5 (koordinatör hükmü) — 9/10 Ekim 2026 gecesi
+
+**Hüküm (koordinatör):** C3 bu geceki koşuya GİRMİYOR; bir sonraki tam inşa partisinin İLK
+kalemi olacak. `YURUYUS_DIS_TUR = 5` (10 değil). Gerekçe: ayakta kalan diş BEYANLI bir
+kusurdur, yenilmiş koridor SESSİZ bir kusurdur (BES-ALTYAPI ⑤ koridor); oran eşitse hata
+BEYANLI tarafta yapılır. Hüküm ve gerekçe diff'te sabitin üstüne yorum olarak yazıldı.
+⇒ §5 risk 1 ve §6 ② (önerim 10) bu hükümle KAPANDI; §2 tablosu TUR=10 içindir.
+
+**Öngörü (koordinatörün):** ölü uç tavanı ~10 hücre. Ölçüm aşağıda.
+
+```
+kurgu                              TUR=10 (önce)            TUR=5 (sonra)
+diş 1×4                            4 sil · kalan 0          4 sil · kalan 0
+diş 1×6                            6 sil · kalan 0          6 sil · kalan 0
+diş 1×10                          10 sil · kalan 0          9 sil · kalan 1   ← TUR TAVANI
+diş 2×4 / 2×6                      kalan 2 (taban)          kalan 2 (taban) — değişmedi
+diş 2×10                          18 sil · kalan 2 (taban) 18 sil · kalan 2 (taban) — değişmedi
+çapraz 1×6 · zikzak 1×6            kalan 0 · 2              kalan 0 · 2 — değişmedi
+üçüncü sahip uzakta, diş b içinde  kalan 0                  kalan 0
+ölü uçlu 1 enli dil, boy 30        19 hücre yendi           9 hücre yendi
+ölü uçlu 2 enli dil, boy 30        19 satır (38 h.)         9 satır (18 h.)
+boğaz şeridi YASAKSIZ (teşhis)     20 yenirdi               10 yenirdi
+kıyı · koridor · kıstak · boyun ·
+3 enli çıkıntı · köşe · düz sınır   değişmedi                değişmedi (birebir aynı)
+HIZ (2900×7200, %3 gürültü)        1,2 sn                   1,1 sn
+sınav                              176/176                  187/187, çıkış 0
+```
+
+- **Ölü uç tavanı: ölçüm 9 hücre/satır** (öngörü ~10 — TUTTU). ≈ 40-50 km.
+- **UZUN DİŞ (boy 10) 5 TURDA TAMAMEN SİLİNMİYOR — ADIYLA: `diş 1×10`: 9/10 hücre silindi,
+  dişin taban hücresi (satır 20) KALDI.** Bu kalan TUR TAVANIDIR (1 enli diş turda ~2 hücre
+  yenir, ilk tur 1); 2 enlilerdeki kalan 2 ise taban beraberliğidir ve TUR'dan bağımsızdır.
+  2×10 diş 5 turda tavana değmeden bitti (son tur 4 hücre, kalan yalnız taban).
+  Haritada anlamı: ≤ 2 hücre enli bölümü ~45 km'den uzun dişlerin ucu değil, TABANA yakın
+  ~1 hücresi kalır (diş, gövdeye yapışık 1 hücrelik bir basamağa iner).
+- **Kıstas ölçüme göre güncellendi:** sınava `BEKLENEN_KALAN` tablosu eklendi (TUR → kurgu →
+  kalan hücre, BİREBİR). TUR=10 ve TUR=5 değerleri ölçümle kuruldu; tablosu olmayan bir TUR
+  değeri sınavı düşürür; ayrıca `TUR == 5` hükmü sınanır. (TUR=10 satırı ilk teslimin
+  ölçümünden alındı; o diff artık yok, bu satır bugün YENİDEN koşturulmadı.)
+- **Diff yeniden yazıldı:** aynı ad, 8.986 bayt, CR 0, BOM yok, +132 −0;
+  sha256 `17e48a2a05ff51c8cfdb75caaf8a5b82a464c545aeb99f468af73ccf1afcf899`
+  (eskisine göre fark yalnız sabit satırı + 4 satır yorum).
+  `--check`: ① temiz origin/main **3429ead9** ✓ ② + ZAMAN-PAKET-1009-v2 (-C1) ✓, uygulandı,
+  `py_compile` ✓ ③ ters sıra ✓.
+
+### Partiye giriş şartı (ölçüm EMRELIC'te, başka kıtada)
+C3 partiye girmeden ÖNCE: **bugünkü haritada ≤ 2 hücre enli GÖMÜLÜ dillerin listesi**
+(gerçek koridor olabilecek, tek bir komşu sahibin içine gömülü, ölü uçlu ince toprak). Bu
+liste, TUR=5 ile yenebilecek ≤ 9 hücrelik ucun hangi gerçek yerlere değdiğini ADIYLA gösterir;
+koşu sonrası aynı liste yeniden ölçülerek "yenilen koridor" SESSİZ kalmaz.
+
+### Taban harita — hangi dosya
+- `data/devletler_harita.js` YAYINDAKİ HARİTA DEĞİLDİR; yerel bir çözümdür (gitignore'da;
+  §3'te andığım `C:\atlas-umit\data\devletler_harita.js` 4 Ekim tarihli, bayat bir çözümdü).
+- Yayındaki harita: **`data/devlet_harita_ust.js`** (depoda izli; `index.html` onu yükler).
+- Taze çözüm, TEMİZ bir origin/main worktree'de:
+  `py arac/kodla.py coz-c data data/devletler_harita.js`
+- Önce/sonra ölçümleri (gömülü dil listesi, H-0011/H-0003 piksel ölçümü) bu taze çözüme ya da
+  yayındaki dosyaya karşı yapılmalı, eski yerel çözüme karşı DEĞİL.

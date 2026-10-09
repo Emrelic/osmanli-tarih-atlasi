@@ -65,6 +65,15 @@ def cek(kaynak):
 
 
 SONUC = []
+TUR_SABIT = [None]
+# Ölçümle kurulan BİREBİR kalan-hücre tablosu (TUR'a göre). 10 → ilk teslim (9 Ekim),
+# 5 → koordinatör hükmü (9 Ekim gecesi). Yeni TUR değeri tablosuz geçmez (aşağıda sınanır).
+BEKLENEN_KALAN = {
+    10: {"dis 1x4": 0, "dis 1x6": 0, "dis 1x10": 0, "dis 2x4": 2, "dis 2x6": 2, "dis 2x10": 2,
+         "capraz dis 1x6": 0, "zikzak dis 1x6": 2, "ucuncu sahip uzakta, dis b icinde": 0},
+    5:  {"dis 1x4": 0, "dis 1x6": 0, "dis 1x10": 1, "dis 2x4": 2, "dis 2x6": 2, "dis 2x10": 2,
+         "capraz dis 1x6": 0, "zikzak dis 1x6": 2, "ucuncu sahip uzakta, dis b icinde": 0},
+}
 
 
 def sina(ad, kosul, ayrinti=""):
@@ -246,6 +255,9 @@ def main():
     sina("`_kvsahip` (liste) yamada yeniden atanmıyor",
          "_kvsahip =" not in yamali[i_sahip:i_R] and "_kvsahip[" not in yamali[i_sahip:i_R])
     print(f"  sabitler: TUR={F1['YURUYUS_DIS_TUR']} · ESIK={F1['YURUYUS_DIS_ESIK']}")
+    TUR_SABIT[0] = F1["YURUYUS_DIS_TUR"]
+    sina(f"TUR={TUR_SABIT[0]} için ölçülmüş kalan-hücre tablosu VAR", TUR_SABIT[0] in BEKLENEN_KALAN)
+    sina("TUR = 5 (koordinatör hükmü, 9 Ekim 2026)", TUR_SABIT[0] == 5)
 
     satirlar = []
     for yon, ad, S, T, yasak, bek in kurgular():
@@ -270,6 +282,12 @@ def main():
                  ust == 0 and taban <= 2)
             if a_kuzey1:
                 print(f"     ÖNGÖRÜDEN SAPMA: kalan {a_kuzey1} hücre (taban basamağı, 1 satır)")
+            # 🆕 TUR=5 (koordinatör hükmü, 9 Ekim): kalan hücre ADIYLA ve TUR'a göre BİREBİR.
+            #    1×10 dişte kalan 1 hücre TUR TAVANIDIR (taban beraberliği değil): 5 turda
+            #    9/10 yenir. 2 enlilerde kalan 2 = taban basamağı (TUR'dan bağımsız).
+            bk = BEKLENEN_KALAN.get(TUR_SABIT[0], {}).get(ad)
+            if bk is not None:
+                sina(f"{ad}: TUR={TUR_SABIT[0]} kalan hücre {a_kuzey1} = beklenen {bk}", a_kuzey1 == bk)
             govde = S[:20] == 0
             sina(f"{ad}: a gövdesi (güney yarı) dokunulmadı", np.array_equal(S1[:20][govde], S[:20][govde]))
         elif isinstance(bek, tuple):

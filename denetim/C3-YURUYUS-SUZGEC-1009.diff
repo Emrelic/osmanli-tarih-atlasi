@@ -1,8 +1,8 @@
 diff --git a/arac/uret_petek.py b/arac/uret_petek.py
-index b809c618..de24ea5c 100644
+index b809c618..0718ed46 100644
 --- a/arac/uret_petek.py
 +++ b/arac/uret_petek.py
-@@ -1176,6 +1176,99 @@ if MOTOR_YURUYUS:
+@@ -1176,6 +1176,103 @@ if MOTOR_YURUYUS:
  if YURUYUS_16:
      print("  🚶 MOTOR_YURUYUS_16=1 — Dijkstra 16 komşulu (at hamlesi).")
  
@@ -33,7 +33,11 @@ index b809c618..de24ea5c 100644
 +YURUYUS_DIS_SUZGECI = True
 +if os.environ.get("MOTOR_YURUYUS_DIS_KAPALI") == "1":
 +    YURUYUS_DIS_SUZGECI = False
-+YURUYUS_DIS_TUR = 10       # tur üst sınırı — ölü uçlu ince dilden yenebilecek boyu sınırlar
++# TUR = 5 — KOORDİNATÖR HÜKMÜ (9 Ekim 2026): ayakta kalan diş BEYANLI bir kusurdur,
++# yenilmiş bir koridor SESSİZ bir kusurdur (BES-ALTYAPI ⑤ koridor). Oran eşitse hata
++# BEYANLI tarafta yapılır. Sınavda ölçüldü: 5 turda ölü uçlu ince dilden en çok 9
++# hücre/satır yenir (10 turda 19); bedeli: 1 enli 10 hücrelik dişin 1 hücresi KALIR.
++YURUYUS_DIS_TUR = 5        # tur üst sınırı — ölü uçlu ince dilden yenebilecek boyu sınırlar
 +YURUYUS_DIS_ESIK = 5       # 8 komşudan en az bu kadarı TEK bir başka sahip olmalı
 +# 8'li halka, döngüsel sırada (ardışık iki öğe 4-komşudur). (di, dj) = (sütun, satır)
 +# — `_KV_YON` ile AYNI sözleşme.
@@ -102,7 +106,7 @@ index b809c618..de24ea5c 100644
  # ---------------- KARA-KISITLI SAHİPLİK ----------------
  # Ada kuralı KARA BİLEŞENİ bazlıdır ve Afrika ile Avrasya Sina üzerinden TEK
  # bileşendir; bu yüzden Oran'ın peteği İspanya anakarasına geçebiliyordu. Kural
-@@ -1854,6 +1947,41 @@ if MOTOR_YURUYUS:
+@@ -1854,6 +1951,41 @@ if MOTOR_YURUYUS:
      _YR_BUTCE = YURUYUS_SAAT * NEHIR_KM_SAAT          # km-eşdeğeri (MENZIL ②)
      _yr_u = _np.fromiter(_kvuzak, dtype=_np.float32, count=_yr_n).reshape(_kvny, _kvnx)
      _YR_SAHIP = _np.fromiter(_kvsahip, dtype=_np.int32, count=_yr_n).reshape(_kvny, _kvnx)
