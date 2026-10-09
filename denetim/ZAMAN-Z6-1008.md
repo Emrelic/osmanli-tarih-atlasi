@@ -325,3 +325,95 @@ ZAMAN-Z6-{…}-sinif.json (1263 noktanın sınıfı) · ZAMAN-Z6-{…}-tablo.md 
 ZAMAN-Z6-{anadolu,balkan,suriye,irak,misir,ortadogu,iran,maveraunnehir,kafkas,irankafkas,kuzeyafrika,arabistan,hint,arabhint}-ham.json ·
 ARAC-ZAMAN-Z6-1008.py (ölçüm + TDV çekme) · ARAC-ZAMAN-Z6-URET-1008.py (yama üretimi + sınav) · ARAC-ZAMAN-Z6-TABLO-1008.py ·
 ZAMAN-Z6-tdv/ (TDV önbelleği).
+
+---
+# § v2 (1009) — Z6 yaması BUGÜNKÜ origin/main'e karşı yeniden kuruldu
+
+**TABAN: `origin/main` `0c4b383c1e91eddeaca7bbc967eeb0fab59da630`** (EPOK-SAHIP-1009 INDI, 9 Ekim 2026).
+v1 (`ZAMAN-Z6-1008-KOORD.diff`) `origin/makine/umit` `e28edfdc` verisinden üretilmişti; "1281 sonrası
+dönemlere dokunulmadı" iddiası O TABANA göreydi. v2'nin aynı iddiası `0c4b383c`e görelidir (dosya başlığında yazılı).
+
+## Yöntem
+v2 kayıt = v1'in KENDİ ön-1281 dönemleri (aynen: alıntı, kaynak, kesinlik, `once1281`) + tabanın BUGÜNKÜ `s:`
+dizisi (`girdi.yukle()`, 1281-01-01 ve sonrası AYNEN). `birlesti` kayıtlarında tabanın ilk döneminin yalnız `f`si
+geri çekilir, `kaynak` başına v1'in "f 1281-01-01'den geri çekildi — …" öneki eklenir (tabanın kaynağı "‖ önceki:"
+ile korunur). Bağ noktası sınavı: tabanın ilk dönemi `f:1281-01-01` mi · 1281 sahibi v1'in bağlandığı sahip mi ·
+ön-1281 zinciri + bağ noktası bitişik mi · f<t. Üretici: `ARAC-ZAMAN-Z6-V2-URET-1009.py`.
+
+## Kayıt sınıflaması (80 kayıt)
+| Sınıf | Sayı | Not |
+|---|---|---|
+| TEMİZ (1281+ dilimi tabanla birebir) | **74** | v2'de içerik v1 ile BİREBİR |
+| ZATEN MAIN'DE | **0** | `data/yer_yama_once1281_z6.js` main'de yok; hiçbir kaydın tabandaki ilk dönemi 1281 öncesi değil |
+| BAĞLAM KAYDI | **0** | v1 YENİ DOSYA diff'i, bağlam satırı yok |
+| **BAYAT** (1281-1923'te main'in sonraki düzeltmesini geri yazıyordu) | **6** | aşağıda — v2'de main değeri |
+| GERÇEK ÇAKIŞMA (bağ noktası değişmiş: ilk dönem ≠ 1281-01-01 ya da 1281 sahibi farklı) | **0** | |
+
+Z6'nın kendi kaynaklı bir 1281-1923 düzeltmesi YOK (v1 üreticisi 1281+ dilimini tabandan kopyalıyordu) ⇒ ezilen
+main hükmü yok. v1→v2 farkı ölçüldü: değişen kayıt tam bu 6'sı; 80 kaydın hiçbirinde `once1281` ya da ön-1281 dönem değişmedi.
+
+## Bayat liste — 6, bilinen 6'nın AYNISI (80 kaydın tamamı karşılaştırıldı, fazlası çıkmadı)
+| Kayıt | v1 (eski) | main `0c4b383c` (v2'ye giren) | Değiştiren commit |
+|---|---|---|---|
+| Ankara | 1404-03-01→1411-02-17 `suleyman-celebi` · 1411-02-17→1413-07-05 `mehmed-celebi` | 1404-03-01→**1406-01-01 `mehmed-celebi`** · 1406-01-01→1411-02-17 `suleyman-celebi` · 1411-02-17→1413-07-05 `mehmed-celebi` | `23c08363` (ANKARA-1406, DALGA 3) |
+| Kars | `akkoyunlu` 1467-01-01→**1514-09-06** · `safevi` 1514-09-06→1534-06-01 | `akkoyunlu` →**1501-07-01** · `safevi` 1501-07-01→1534-06-01 (kaynak da yeni) | `658a7552` (DALGA 1, DOGU-SAFEVI) |
+| Kahire | `memluk` 1281-01-01→**1517-02-15** | `memluk` →**1517-01-24** | `658a7552` (DALGA 1) |
+| Gence | `celayirli` 1340-01-01→**1406-10-21** · `karakoyunlu` 1406-10-21→… | `celayirli` →**1386-01-01** · **`timurlu` 1386-01-01→1406-10-21** (v1'de olmayan dönem) · `karakoyunlu` 1406-10-21→… | **bulunamadı** (talimat gereği aranmadı) |
+| Taşkent | `timurlu` 1370-04-09→**1503-01-01** · `buhara` 1503-01-01→… | `timurlu` →**1485-01-01** · **`mogulistan` 1485-01-01→1503-01-01** (v1'de olmayan dönem) · `buhara` 1503-01-01→… | **bulunamadı** |
+| Hucend | `timurlu` 1370-04-09→**1500-01-01** · `buhara` 1500-01-01→1802-01-01 | `timurlu` →**1504-01-01** (kaynak yeni) · `buhara` 1504-01-01→1802-01-01 | **bulunamadı** |
+
+Gence ve Taşkent'te dizi kayması: araya giren tek dönem sonraki bütün dönemleri bir sıra kaydırdığı için sınav
+çıktısında 1923'e dek her satır "farklı" görünür — gerçek fark tablodaki tek dönemdir.
+
+## Sınav — `py denetim/ARAC-ZAMAN-Z6-V2-SINAV-1009.py <taban-rev> <yama.diff>` (iki yönde, `0c4b383c`e karşı)
+| Yön | Yama | A: 1281-01-01…1923-10-29 farklı | B: 1281+ bütün dilim farklı | Çıkış |
+|---|---|---|---|---|
+| ötmeli | `ZAMAN-Z6-1008-KOORD.diff` (v1) | **6** (yukarıdaki 6, adıyla) | 6 | **1** |
+| susmalı | `ZAMAN-Z6-1009-KOORD-v2.diff` | **0** | 0 | **0** |
+| susmalı | `ZAMAN-PAKET-1009-v2.diff` (Z6 dosyası paketten çıkarılır) | **0** | 0 | **0** |
+
+Normalleştirme yalnız yamanın BEYANLI dokunuşudur (geri çekilen ilk dönemin `f`si + kaynak öneki); öteki her alan birebir.
+
+## Ölçüm — `denetle.py --ayrinti` (`PYTHONHASHSEED=0`, worktree `0c4b383c`)
+| Durum | Çıkış | Fark |
+|---|---|---|
+| temiz main | **2** (yalnız D8 ÖLÇÜLEMEDİ — `devletler_harita.js` yok, UMIT'te normal) | — |
+| + v2 dosyası eklendi (uygulanmadı) | **2** | çıktı BAYT BAYT AYNI (dosya `GIRDI_DOSYALARI`nda değil, okunmuyor) |
+| + `_sahiplik_uygula.py --yama-glob '^yer_yama_once1281_z6\.js$' --yaz` (yalnız worktree'de; uygulayıcı çıkış 0, geri okuma 80/80, kapı "80 değişim TAZE", 11 dosya) | **2** | **kaynaksız `s:` kaydı 1880 → 1834** (−46) · **dönem-içi kaynaklı 421 → 467** (+46) · kayıt-kaynaksız 2301 → 2301 · duvar listesinde 80 kaydın "ilk" günü 1281-01-01 → v2'nin ilk günü. **Başka sayaç değişmedi** (UFUK 1281 iken ön-1281 dönemler kırpılır) |
+
+İhlal (çıkış 1) YOK. Tavan önerilmiyor (§3.4-4); kaynaksız tavanı 1930 tabanda da "TAVAN GEVŞEK" uyarısı veriyor.
+⚠️ Uygulayıcının kapısı v1'i de "TAZE" geçiriyordu (ZAMAN-PAKET-1009 §5) — v2'nin temizliğinin kanıtı kapı DEĞİL, sınavdır.
+
+### Bu sayaca başka bekleyen diff dokunuyor mu (`0c4b383c`e karşı `apply --check` ileri/geri)
+| diff | durum | dosya | yerleşim `s:` sayacına dokunur mu |
+|---|---|---|---|
+| EPOK-SAHIP-1009-KOORD-v2 | **ZATEN MAIN'DE** (geri temiz; taban `0c4b383c` onu içeriyor) | yerlesimler.js · _ok107 | tabanda; Z6 adı geçen değişen satır 0 |
+| EPOK-SAHIP-1008-KRONO | ZATEN MAIN'DE (geri temiz) | olaylar_ek5.js | hayır (kronoloji) |
+| KRONO-SONRA1923-EKSIK (A) | bekliyor, ileri temiz | kronoloji_cok_1923_1945.js | hayır — yalnız `yer_id` Antakya |
+| KRONO-SONRA1923-EKSIK-B | bekliyor, A'dan sonra | aynı | hayır — `yer_id` Kahire |
+| KRONO-GORUNURLUK-SUZGEC / TUR / TUR2 | bekliyor (SUZGEC ve TUR2 ileri temiz; TUR paketten sonra) | js/suzgec.js · kronoloji | hayır — Z6 adları yalnız kronoloji `yer_id`lerinde (TUR 15 ad, TUR2 2) |
+| DENIZ-OKU-0085 (+METIN) | ZATEN MAIN'DE (geri temiz; `e3604721`) | savaslar.js · olaylar_ek5.js | hayır |
+
+⇒ Listedeki bekleyenlerin hiçbiri yerleşim `s:` dizisine yazmıyor; kaynaksız `s:` sayacına bekleyenlerden yalnız Z6-v2 dokunuyor.
+
+## Paket uyumu
+- Paketteki Z6 parçası `ZAMAN-Z6-1008-KOORD.diff` ile BAYT BAYT aynı (ölçüldü) ⇒ `ZAMAN-PAKET-1009-v2.diff` = paket,
+  yalnız o parça v2 ile değiştirildi (öncesi ve sonrası bayt bayt aynı, ölçüldü).
+- `git apply --check` `0c4b383c`e: **v1 paket de v2 paket de ✗ — `index.html:3`** · `--exclude=index.html` ile ikisi de ✓ ·
+  `-C1` ile v2 paket ✓. Sebep Z6 DEĞİL: hunk'ın bağlam satırı `style.css?v=r11994`, main'de `r11995`
+  (`7a5e2f1a` SURUM DAMGASI). Paketin geri kalanı talimat gereği DEĞİŞTİRİLMEDİ.
+- `ZAMAN-Z6-1009-KOORD-v2.diff` tek başına `0c4b383c`e `--check` ✓ · CR 0 · BOM yok · LF.
+
+## ① Ne ölçtüm
+80 kaydın tamamı bugünkü main ile karşılaştırıldı: 74 temiz · 6 bayat (adıyla) · 0 çakışma · 0 zaten-main'de.
+Sınav iki yönde (v1: 6 / çıkış 1 · v2: 0 / çıkış 0 · paket-v2: 0 / çıkış 0). denetle 2→2; uygulanınca yalnız
+kaynaksız `s:` 1880→1834 / dönem-içi kaynaklı 421→467.
+## ② Ne bulamadım
+Gence · Taşkent · Hucend farkını getiren commit (talimat gereği aranmadı — beyan). D8 ölçülemedi (UMIT, `devletler_harita.js` yok).
+## ③ Ne istiyorum
+1. Paket uygulanacaksa `ZAMAN-PAKET-1009-v2.diff` kullanılsın (v1 paket 6 düzeltmeyi geri yazar); `index.html` hunk'ı damga
+   bağlamı yüzünden `r11995`e yeniden türetilmeli ya da `-C1` ile uygulanmalı — karar koordinatörde.
+2. Uygulayıcının bayat-yama kapısı bu sınıfı (yama tabanı ≠ kaydın bugünkü dilimi) hâlâ görmüyor; v2'nin kanıtı sınavdır.
+
+YENİ DOSYALAR: `denetim/ZAMAN-Z6-1009-KOORD-v2.diff` · `denetim/ZAMAN-PAKET-1009-v2.diff` ·
+`denetim/ARAC-ZAMAN-Z6-V2-SINAV-1009.py` · `denetim/ARAC-ZAMAN-Z6-V2-URET-1009.py`
