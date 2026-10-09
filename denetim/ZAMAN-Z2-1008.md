@@ -5,6 +5,78 @@ Teslim: `ZAMAN-Z2-1008-APPJS.diff` (üç dosya tek diff, UYGULANMADI). **SÜRÜM
 (aşağıda §R2), temel `c69b890f`. Diff başlığı: dokunduğu GÜN ARALIĞI — arayüz kodu, veri değil; davranış yalnız
 `VERI_UFKU` DIŞINDA (1281-01-01 öncesi · 1923-10-29 sonrası) değişir, 1281–1923 arası çizim aynı (ölçek hariç).
 
+## §R5 — Sürüm 5 (Emre'nin kararları, 9 Ekim) · temel `67e9ec9d` (SEFER-OKU-0087'nin 3 satırı dahil) · apply-check ✓ `dcd98f95`
+Diff başlığı GÜN ARALIĞI: ① 1923-11-01 sonrası (padişah kartı) · ② her tarih (statik metin) · ③ 1281–1923 içinde, madde
+sahnesi ve kırpma (veri değişmez) · ④ VERI_UFKU dışı.
+
+**① Padişah kartı → 1923 sonrası CUMHURBAŞKANI (Emre).**
+Ölçüm: veride cumhurbaşkanı dizisi YOK. `kisiler.js`te tek ilgili kayıt `mustafa-kemal-pasa` (`tur:"komutan"`, f/t yalnız yıl,
+makam tarihi yok). `devletler.js`teki "cumhurbaşkanı" geçişleri yabancı künyelerde metin. ⇒ Kaynak dosyası yok.
+**Öneri:** `data/cumhurbaskanlari.js` → `window.CUMHURBASKANLARI`, `PADISAHLAR` ile AYNI şema (`id · ad · from · to · kaynak`;
+isteğe bağlı `kisi_id` → `KISILER` bağı). Ayrı dosya, çünkü künye içi kronoloji makam aralığı taşımıyor ve kart aralık arıyor.
+Dosya inince index.html'e tek `<script>` satırı eklenir. **İsim yazılmadı** (araştırma KASA'nın işi).
+**İskelet (`cumhurbaskaniGoster`):** son padişah kaydının bitişinden (hilâfet, 1923-11) sonra devreye giriyor. Durumlar:
+- veri yokken "Cumhurbaşkanı · veri bekliyor" ve ☆
+- kayıt varken ad + "Cumhurbaşkanı · YYYY – YYYY" + `assets/portreler/<id>.jpg` (yoksa baş harf)
+- kayıt dışı günde "bu tarih için kayıt yok"
+
+Albüm bağı yok (`_aktifPadisah` null). Sınandı: bellekte geçici bir sınav kaydıyla üç durum da doğru, kayıt sonra silindi.
+1923-10-29'da kart eskisi gibi Halife Abdülmecid; 1281 öncesi "Osmanlı hanedanından önce".
+
+**② "1281–1923" kalktı.** `<title>` → **"Osmanlı Tarih Atlası"** · açılış perdesi (`css/style.css` `html::before`) →
+"Atlas yükleniyor… / Gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin".
+Öneri gerekçesi: ikisi de JS'ten ÖNCE okunan statik metin; ufuktan türetilemez (ufuk app.js'te). Ufuklu bir ifade ufuk
+her değiştiğinde ikinci kez elle düzeltilmek zorunda kalır, yani bayatlardı. Ufuksuz başlık hiç bayatlamaz. Pencere başlığı
+damgası zaten "Osmanlı Tarih Atlası · <gün> · …" yazıyor, gün bilgisi orada. "Osmanlı" sözcüğünün de kalkıp kalkmayacağı
+(ör. "Tarih Atlası") **Emre'nin kararı** — dokunmadım.
+
+**③ Madde sahnesi KIRILMANIN KENDİSİNE bağlandı (tek kalem).** Yeni `maddeKirilmasi(o)`:
+- Pencere: ±`KIRILMA_PENCERE_GUN` (= 30, Değişmez 2'nin ölçeği), en yakın günden başlayarak; eşitlikte ileri.
+- Kendine bağlı: `SUZGEC.maddeDegisimleri` (yer_id · yer · başlıkta ad · aynı el değiştirme çifti).
+- Başkasınınkini almaz: o güne DAHA YAKIN bir madde değişimi DOĞRUDAN sahipleniyorsa (komşu yolu sayılmaz) alınmaz.
+- Komşu eşleşme, dayanağı olan doğrudan eşleşme maddede kaldıysa tutulur. Sınavda ölçülen bir kusur düzeltildi: dayanağı
+  bırakılan dört madde komşuyu yine alıyordu.
+
+Bağlandığı üç yer: madde kutusu ve sahnesi (`maddeFarkiGoster`) · dar kırpma (`maddeyeDarKirp`) · antlaşma penceresi
+(`antlasmaFarkiHesapla`: eski `[gün, min(+365, sonraki−1)]` kalktı → ileri 30 gün, yoksa geri 30 gün, taraf süzgeci aynen,
+daha yakın maddenin doğrudan sahiplendiği değişim düşer). Kutu metni kırılma başka gündeyse "Haritadaki kırılma N gün
+sonra/önce (gün)" diyor.
+**Sınavlar (tarayıcı, gerçek işlevler):**
+```
+1533-01-01 İstanbul Antlaşması → kırılma YOK (±30'da taraf değişimi yok; 1534-01-01'i ALMAZ)
+1534-01-01 Bitlis maddesi       → aynı gün [Bitlis, Arpaçay, Digor, Iğdır, Beri, Küçükperveli] · nikâh/Matrakçı → boş (doğru)
+1517-01-22 Süveyş maddesi       → kırılma 1517-02-15 (+24) [Süveyş, Sina güneyi, Tûr] — eskiden BOŞTU; dar kırpma da bunu oynatıyor
+1517-01-24 Kahire'ye ilk giriş  → BOŞ: Kahire'nin kırılması 02-15'te ve o günün maddesi (Selim'in girişi) onu DOĞRUDAN alıyor
+1517-02-15 Selim'in girişi      → aynı gün [Kahire, Süveyş, Sina güneyi, Tûr]
+1460-01-01 Amasra / İzvornik    → [Amasra] · [İzvornik, Tuzla] — sürüm 3 davranışı KORUNDU
+```
+📌 MISIR-SENKRON-0087'nin veri diff'leri (Kahire + bağlı 3 nokta → 01-24, Süveyş maddesi → 01-24) inince ne olur:
+tarayıcı veriyi üretilmiş `data/paket_13.js`ten okuduğu için diff'i paket üretilmeden göremez; aynı değişiklik BELLEKTE
+taklit edildi (benzetim, veri dosyasına yazılmadı). Sonuç: Süveyş 01-24 → aynı gün [Süveyş, Sina, Tûr] · Kahire 01-24 →
+aynı gün [Kahire, …] · 02-15 maddesi → boş (MISIR'ın `toprak-kazanc` kaldırmasıyla uyumlu). ⇒ Kahire'nin 01-24 sahnesi
+**veri düzeltmesiyle dolar**, kural bunu zorlamaz (ve zorlamamalı: 02-15 maddesi bugün o değişimi doğrudan anıyor).
+⚠️ DOGU-1533 notu: mevcut veride ESKİ pencere de 1534'ü almıyordu (sonraki madde 1534-01-01 olduğu için pencere 1533-12-31'de
+bitiyordu); salt `+365` alırdı. Yeni kural bunu yapısal olarak dışlıyor (365 > 30 ve Bitlis'i kendi maddesi sahipleniyor).
+**Bütün akışta önce/sonra (ana akış, veri penceresi içi):**
+```
+madde kutusu  aynı gün 770 (eskisiyle birebir) · BAŞKA GÜN 32 (eskiden 32'si de BOŞTU; Δ≤7: 10 · 8-14: 10 · 15-30: 12)
+              kırılma yok, günde değişim var 154 · hiç değişim yok 685
+antlaşma      aynı 67 · değişti 1 · kayboldu 2 · yeni bulundu 10 · ikisi de yok 59
+              kaybolan: 1612-07-06 Hollanda ahidnâmesi (Δ57) · 1838-08-16 Balta Limanı (Δ46) — 30 günün dışında
+              yeni: 8'i GERİYE (Niş 1739 → 09-28, Edirne Mütarekesi 1878 → 01-11 …) — antlaşmadan önceki taraf değişimi
+dar kırpma    tam gün 453 · dar 349 · yok 154 · değişimsiz 685
+```
+⚠️ "Geri" bulunan antlaşma kırılmaları (antlaşmadan ≤30 gün ÖNCE) yeni bir davranış. Kuralın ±30'unun doğal sonucu, ama tek
+tek okunmadı.
+
+**④ Şerit metni (Sümer kararı):** "Bu çağda yalnız kaynaklı şehirler boyanır — boş görünen yer kaynağı olmayan yerdir,
+devletsiz değil." Tepe etiketi "Bu çağda yalnız kaynaklı şehirler boyanır", alan yazısı "📐 yalnız kaynaklı şehirler".
+
+**Kapılar (sürüm 5):**
+- `node --check` ✓ · `denetle_arayuz` temiz
+- odak kapısı: SESSİZ 20 (taban `dcd98f95`: 1) = aynı 19 · OKUNMAYAN 1 (tabanda da 1) · ÖLÇEMEDİ yok
+- ufuk sınavı 5/5 · tarayıcı `window.onerror` 0 · diff 67.620 bayt, CR 0
+
 ## §R4 — Sürüm 4 (UMIT İRTİBAT, 9 Ekim) · temel `7f63bcd9` · apply-check ✓ `82680a17`
 Diff başlığı GÜN ARALIĞI: ① gösterim (her tarih, veri değişmez) · ② derin anlatı doğrulayıcı · ③ EK görünümü (her tarih) ·
 ② sürüm 3'ün dar kırpması: antlaşma maddeleri eski davranışa döndü (1281–1923).
@@ -283,5 +355,5 @@ Yeni ölçüm doğru, eski "GÖVDE" yanlış pozitifti. **Kusur değil, KAPSAM**
 
 ## Dosyalar (`C:\atlas-umit\denetim\`e kopyalandı, izlenmeyen)
 - `ZAMAN-Z2-1008.md` — bu rapor
-- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 4) — `js/app.js` (+487/−56) · `index.html` (+9/−0) · `css/style.css` (+31/−6)
+- `ZAMAN-Z2-1008-APPJS.diff` (sürüm 5) — `js/app.js` (+634/−67) · `index.html` (+10/−1) · `css/style.css` (+32/−7)
 - `ZAMAN-Z2-KIRPMA-YOK-1008.tsv` — dar kırpmada "yok" kovasındaki 160 madde (UTF-8, sekme ayraçlı, LF)

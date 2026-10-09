@@ -1,5 +1,5 @@
 diff --git a/css/style.css b/css/style.css
-index 0e9a5127..d88e687c 100644
+index 0e9a5127..456b1635 100644
 --- a/css/style.css
 +++ b/css/style.css
 @@ -547,6 +547,17 @@ body {
@@ -67,10 +67,28 @@ index 0e9a5127..d88e687c 100644
  .yer-cubuk-sarmal[data-mesafe]::after {
    content: attr(data-mesafe);
    display: block; font-size: 10px; color: #c8861a; margin-top: 3px;
+@@ -3145,7 +3170,7 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
+    kendi 1600 zirvesi) — aşağıdaki SILUETLER bloğu o betiğin çıktısıdır.
+    ═══════════════════════════════════════════════════════════════════════ */
+ html::before {
+-  content: "Atlas yükleniyor…\A 1281’den 1923’e, gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin";
++  content: "Atlas yükleniyor…\A Gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin";
+   white-space: pre-line;
+   position: fixed; inset: 0; z-index: 9000;
+   display: flex; align-items: flex-end; justify-content: center;
 diff --git a/index.html b/index.html
-index 525f6691..5ba8e31c 100644
+index 525f6691..d25833ef 100644
 --- a/index.html
 +++ b/index.html
+@@ -3,7 +3,7 @@
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>Osmanlı Tarih Atlası (1281–1923)</title>
++<title>Osmanlı Tarih Atlası</title>
+ <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+ <link rel="stylesheet" href="css/style.css?v=r11964">
+ </head>
 @@ -423,7 +423,16 @@
        <div id="yer-ara-liste" class="gizli" role="listbox"></div>
      </div>
@@ -89,7 +107,7 @@ index 525f6691..5ba8e31c 100644
           kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-
           goster` (eski id) SİLİNDİ; `js/app.js`teki `tarihGoster` değişkeni
 diff --git a/js/app.js b/js/app.js
-index 99bd9116..5080665e 100644
+index a2757868..786b62f9 100644
 --- a/js/app.js
 +++ b/js/app.js
 @@ -40,14 +40,71 @@ function gunMetniIdx(gun, varsayilan) {
@@ -326,7 +344,7 @@ index 99bd9116..5080665e 100644
  }
  // Bağlı madde (ISYAN_TARAMA.maddeler: t + başlık öneki) açılınca pencere özeti.
  // Tarama tarihe bağlıdır: madde açılınca harita o güne gider ve o gün aktif
-@@ -5627,7 +5786,7 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
+@@ -5630,7 +5789,7 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
      // İç <span>: MapLibre işaretçinin KENDİ transform'unu konum için kullanır;
      // canlandırma dış öğede olsaydı işaret ekranın köşesine fırlardı.
      ve.innerHTML = "<span>💥</span>";
@@ -335,7 +353,7 @@ index 99bd9116..5080665e 100644
      vurus.push({ gi: gunIdx(v.t), ekli: false,
                   mk: new maplibregl.Marker({ element: ve, anchor: "center" }).setLngLat([v.lon, v.lat]) });
    });
-@@ -7121,7 +7280,21 @@ function padisahGuncelle(t) {
+@@ -7124,7 +7283,26 @@ function padisahGuncelle(t) {
      if (gunIdx(p.from) <= t && t < gunIdx(p.to)) { aktif = p; break; }
    }
    _aktifPadisah = aktif;
@@ -350,15 +368,52 @@ index 99bd9116..5080665e 100644
 +    for (var j = 0; j < P.length; j++) {
 +      ilk = Math.min(ilk, gunIdx(P[j].from)); son = Math.max(son, gunIdx(P[j].to));
 +    }
-+    saltanatKutu.textContent = t < ilk ? "Osmanlı hanedanından önce"
-+                             : t >= son ? "Osmanlı hanedanından sonra" : "";
++    // 🆕 sürüm 5 — Emre kararı: 1923 sonrasında kartta CUMHURBAŞKANI gösterilir.
++    // Kaynak `window.CUMHURBASKANLARI` (önerilen `data/cumhurbaskanlari.js`,
++    // `PADISAHLAR` ile AYNI şema: id · ad · from · to · kaynak). Dosya bugün YOK —
++    // kaynaklı veri araştırma işidir (KASA); isim UYDURULMAZ, kart "veri bekliyor"
++    // der. Dosya inince yalnız index.html'e bir <script> satırı eklenir.
++    if (t >= son) { cumhurbaskaniGoster(t); return; }
++    saltanatKutu.textContent = t < ilk ? "Osmanlı hanedanından önce" : "";
 +    if (sonPadisahId !== null) { sonPadisahId = null; portreKutu.innerHTML = ""; }
 +    return;
 +  }
    adKutu.textContent = aktif.ad;
    saltanatKutu.textContent = idxTarih(gunIdx(aktif.from)).y + " – " + idxTarih(gunIdx(aktif.to)).y;
    if (sonPadisahId === aktif.id + aktif.ad) return;
-@@ -9319,7 +9492,10 @@ function _yerlesimSerit(y) {
+@@ -7141,6 +7319,31 @@ function padisahGuncelle(t) {
+   portreKutu.appendChild(img);
+ }
+ 
++// ZAMAN-GENİŞ-1008 (sürüm 5) — Osmanlı hanedanı sonrası kart: Cumhurbaşkanı.
++// `_aktifPadisah` null kalır (albüm yalnız padişah portreleri için).
++function cumhurbaskaniGoster(t) {
++  var C = window.CUMHURBASKANLARI || [], aktif = null;
++  for (var i = 0; i < C.length; i++) {
++    if (gunIdx(C[i].from) <= t && t < gunIdx(C[i].to)) { aktif = C[i]; break; }
++  }
++  if (!aktif) {
++    adKutu.textContent = "Cumhurbaşkanı";
++    saltanatKutu.textContent = C.length ? "bu tarih için kayıt yok" : "veri bekliyor";
++    if (sonPadisahId !== "cb-yok") { sonPadisahId = "cb-yok"; portreKutu.innerHTML = ""; portreKutu.textContent = "☆"; }
++    return;
++  }
++  adKutu.textContent = aktif.ad;
++  saltanatKutu.textContent = "Cumhurbaşkanı · " + idxTarih(gunIdx(aktif.from)).y + " – " + idxTarih(gunIdx(aktif.to)).y;
++  if (sonPadisahId === "cb:" + aktif.id) return;
++  sonPadisahId = "cb:" + aktif.id;
++  portreKutu.innerHTML = "";
++  var img = new Image();
++  img.src = "assets/portreler/" + aktif.id + ".jpg";
++  img.alt = aktif.ad;
++  img.onerror = function () { portreKutu.innerHTML = ""; portreKutu.textContent = aktif.ad.charAt(0); };
++  portreKutu.appendChild(img);
++}
++
+ // 🆕 16 Eylül 2026 — H-0128 (Emre, DALGA-0052 UI): "padişah resmine tıklanınca
+ // o padişah ile ilgili resim albümü açılsın, o padişahla ilgili tüm resimleri
+ // oraya yükleyelim." Şartname notu (H-0128, §3): "yalnız mevcut
+@@ -9322,7 +9525,10 @@ function _yerlesimSerit(y) {
  function _cubukCiz(y) {
    var serit = _yerlesimSerit(y);
    if (!serit.taban.length && !serit.isgal.length) return null;
@@ -370,7 +425,7 @@ index 99bd9116..5080665e 100644
    var sar = document.createElement("div");
    sar.className = "yer-cubuk-sarmal";
    var cb = document.createElement("div");
-@@ -9331,11 +9507,12 @@ function _cubukCiz(y) {
+@@ -9334,11 +9540,12 @@ function _cubukCiz(y) {
      if (ti <= fi) return;
      var s = document.createElement("i");
      s.className = "yer-dilim" + (p.isgalKatmani ? " isgal" : "");
@@ -386,7 +441,7 @@ index 99bd9116..5080665e 100644
      // Dilime tıklayınca zaman göstergesi O DÖNEMİN BAŞINA gider — çubuk
      // yalnız gösterme değil, gezinme aracı.
      s.addEventListener("click", function (e) {
-@@ -9346,12 +9523,66 @@ function _cubukCiz(y) {
+@@ -9349,12 +9556,66 @@ function _cubukCiz(y) {
    });
    sar.appendChild(cb);
    var ek = document.createElement("div");
@@ -455,7 +510,7 @@ index 99bd9116..5080665e 100644
  // Haritada bir noktaya en yakın yerleşim. Dönüş: {y, km} ya da null.
  function _enYakinYerlesim(lat, lon) {
    var Y = window.YERLESIMLER || [], en = null, enKm = Infinity;
-@@ -9462,7 +9693,7 @@ function dizinDoldur(sekme) {
+@@ -9465,7 +9726,7 @@ function dizinDoldur(sekme) {
          var ilk = s.don.reduce(function (a, b) { return a.f < b.f ? a : b; });
          var son = s.don.reduce(function (a, b) { return a.t > b.t ? a : b; });
          var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D" +
@@ -464,7 +519,7 @@ index 99bd9116..5080665e 100644
          satir((s.tur === "kale" ? "🏰 " : "") + s.ad + (s.m ? " → " + s.m : ""), koord,
                idxYazi(gunIdx(ilk.f)) + " → " + idxYazi(gunIdx(son.t)),
                function () {
-@@ -9524,7 +9755,7 @@ function dizinDoldur(sekme) {
+@@ -9527,7 +9788,7 @@ function dizinDoldur(sekme) {
        var h = document.createElement("div");
        h.className = "dz-grup";
        h.textContent = y.ad + " — " + y.lat.toFixed(3) + "K, " + y.lon.toFixed(3) + "D" +
@@ -473,7 +528,7 @@ index 99bd9116..5080665e 100644
        liste.appendChild(h);
  
        // 🆕 HALKA-TIKLAMA (13 Eylül 2026) — ⑧ açık ve bu tarihte bu yere
-@@ -9558,7 +9789,7 @@ function dizinDoldur(sekme) {
+@@ -9561,7 +9822,7 @@ function dizinDoldur(sekme) {
          d.className = "dz-satir tikla";
          d.innerHTML = '<span class="dz-sol"></span><span class="dz-orta"></span><span class="dz-sag"></span>';
          d.children[0].textContent = p.ad + (p.cins ? " (" + p.cins + ")" : "");
@@ -482,7 +537,7 @@ index 99bd9116..5080665e 100644
          d.children[2].textContent = (function () {
            var yil = Math.round((gunIdx(p.t) - gunIdx(p.f)) / 365.25);
            return yil >= 1 ? yil + " yıl" : "";
-@@ -9590,8 +9821,8 @@ function dizinDoldur(sekme) {
+@@ -9593,8 +9854,8 @@ function dizinDoldur(sekme) {
        // gösterilmediğini SÖYLÜYORUZ — sessiz kırpma "hepsi bu" diye okunur.
        bulunan.slice(0, 300).forEach(function (y) {
          var dn = donemler(y);
@@ -493,7 +548,7 @@ index 99bd9116..5080665e 100644
          var d = document.createElement("div");
          d.className = "dz-satir tikla";
          d.innerHTML = '<span class="dz-sol"></span><span class="dz-orta"></span><span class="dz-sag"></span>';
-@@ -9656,7 +9887,7 @@ function dizinDoldur(sekme) {
+@@ -9659,7 +9920,7 @@ function dizinDoldur(sekme) {
               : DEVLET_TUR_ADI[tur] || (tur.charAt(0).toUpperCase() + tur.slice(1));
        baslik(ad + " (" + dgruplar[tur].length + ")");
        dgruplar[tur].forEach(function (d) {
@@ -502,7 +557,7 @@ index 99bd9116..5080665e 100644
                function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); });
        });
      });
-@@ -9984,11 +10215,25 @@ var ustbarYil = document.getElementById("ustbar-yil");
+@@ -9987,11 +10248,25 @@ var ustbarYil = document.getElementById("ustbar-yil");
    if (b.yuruyus === false) el.classList.add("kosu-yuruyussuz");
  })();
  
@@ -532,7 +587,7 @@ index 99bd9116..5080665e 100644
  var zamanlayici = null;
  var aktifDonem = -1;
  
-@@ -9997,7 +10242,31 @@ function alanYazi(km2) {
+@@ -10000,7 +10275,33 @@ function alanYazi(km2) {
    return "≈ " + km2.toLocaleString("tr-TR") + " km²";
  }
  
@@ -554,8 +609,10 @@ index 99bd9116..5080665e 100644
 +  }
 +  _kapsamSerit.classList.toggle("gizli", !disi);
 +  if (disi) {
-+    _kapsamSerit.textContent = "Kapsam dışı — harita verisi " + idxTarih(VERI_BASI).y + "–" +
-+      idxTarih(VERI_SONU).y + " arasını kapsıyor; bu tarihte çizili olan EKSİKTİR.";
++    // sürüm 5 — Emre'nin Sümer kararı: "Sümer'de olan şehirler boyanır, gerisi boş
++    // görünse de olur." ⇒ şerit bir EKSİKLİK itirafı değil, bir GÖSTERİM KURALIDIR.
++    _kapsamSerit.textContent = "Bu çağda yalnız kaynaklı şehirler boyanır — boş görünen yer " +
++      "kaynağı olmayan yerdir, devletsiz değil.";
 +  }
 +}
 +
@@ -564,7 +621,7 @@ index 99bd9116..5080665e 100644
    if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
    if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
    var di = donemBul(suanki);
-@@ -10006,7 +10275,7 @@ function guncelle() {
+@@ -10009,7 +10310,7 @@ function guncelle() {
    // hep "0" ⇒ bu satır hiçbir şey yapmaz.
    var _rotusI = rotusImza(suanki);
    if (_rotusI !== rotusOsmImza) { rotusOsmImza = _rotusI; if (haritaHazir) aktifDonem = null; }
@@ -573,18 +630,18 @@ index 99bd9116..5080665e 100644
      // Fetret Devri: Osmanlı, tâbi ve bölge katmanları boşaltılır; sahnede yalnız
      // şehzade payları (devlet katmanı) kalır. zoomUygula çağrılmaz — kırpılacak
      // bir gövde yok, mevcut görüntü korunur.
-@@ -10021,7 +10290,9 @@ function guncelle() {
+@@ -10024,7 +10325,9 @@ function guncelle() {
      // DEĞİŞTİĞİNDE giriliyor (`di !== aktifDonem`), yani buradan yazılan metin
      // sonraki bütün günlerde takılı kalıyordu. Tek yazan: tepeEtiketGuncelle().
      var alanBos = document.getElementById("ustbar-alan"); // 0046/H-0005: haritadan üst çubuğa taşındı
 -    if (alanBos) alanBos.textContent = "📐 tek gövde yok — paylar ayrı ayrı";
 +    if (alanBos) alanBos.textContent = di === -3
-+      ? "📐 bu tarihte harita verisi yok"
++      ? "📐 yalnız kaynaklı şehirler"
 +      : "📐 tek gövde yok — paylar ayrı ayrı";
    } else if (haritaHazir && di >= 0 && di !== aktifDonem) {
      aktifDonem = di;
      var d = donemler[di];
-@@ -10236,6 +10507,12 @@ function tepeEtiketGuncelle() {
+@@ -10239,6 +10542,11 @@ function tepeEtiketGuncelle() {
    var di = donemBul(suanki);
    if (di === -2) {
      tepeDegisim.textContent = "Fetret Devri — şehzade payları";
@@ -592,12 +649,11 @@ index 99bd9116..5080665e 100644
 +    // ZAMAN-GENİŞ-1008 — boş harita "veri yok"tur, "devlet yok" DEĞİL; etiket
 +    // bunu söylemezse kullanıcı boşluğu tarihî bir iddia sanar.
 +    // (Yıl sonrası ek YOK: "1281'den"/"1923'te" eki yıla göre değişir.)
-+    tepeDegisim.textContent = "Harita verisi " + idxTarih(VERI_BASI).y + "–" +
-+      idxTarih(VERI_SONU).y + " · bu tarihte yalnız kronoloji";
++    tepeDegisim.textContent = "Bu çağda yalnız kaynaklı şehirler boyanır";
    } else if (di >= 0 && donemler[di].fi === suanki) {
      tepeDegisim.textContent = donemler[di].ad || "";
    } else {
-@@ -10289,7 +10566,7 @@ function tarihAyarla(t) {
+@@ -10292,7 +10600,7 @@ function tarihAyarla(t) {
    // 🔴 Kırpma sırasında ZAMAN ÇUBUĞU da oynamaz. Kullanıcı bir gün geri
    // gitmedi — harita geçici olarak önceki hâli gösteriyor. Çubuğun
    // titremesi, olmayan bir zaman yolculuğunu varmış gibi gösterirdi.
@@ -606,7 +662,7 @@ index 99bd9116..5080665e 100644
    guncelle();
  }
  
-@@ -10425,8 +10702,17 @@ window.addEventListener("resize", function () { tuvalOlc(); baslikDamgala(); });
+@@ -10428,8 +10736,17 @@ window.addEventListener("resize", function () { tuvalOlc(); baslikDamgala(); });
  // olsun (o aralıkta alınan kareler tarihsiz kalmasın).
  baslikDamgala();
  
@@ -625,7 +681,142 @@ index 99bd9116..5080665e 100644
  });
  
  // ---------- Olay bilgi paneli (olay-olay akışında harita üstünde yüzer) ----------
-@@ -11495,7 +11781,9 @@ function maddeFarkiGoster(o, ozelEl) {
+@@ -10973,17 +11290,35 @@ function antlasmaFarkiHesapla(o) {
+   if (!SG || !SG.antlasmaFarki) return { hata: "js/suzgec.js eski sürüm (önbellek)" };
+   var Y = window.YERLESIMLER || [];
+   _farkIndeksiKur();
+-  var oi = olaylar.indexOf(o), sonraki = null;
+-  for (var j = (oi >= 0 ? oi : 0); j < olaylar.length; j++) {
+-    if (olaylar[j].gi > o.gi) { sonraki = olaylar[j]; break; }
+-  }
+-  var sonIx = Math.min(o.gi + 365, sonraki ? sonraki.gi - 1 : o.gi + 365);
+-  if (sonIx < o.gi) sonIx = o.gi;
++  // 🆕 ZAMAN-GENİŞ-1008 (sürüm 5) — pencere KIRILMAYA bağlı (bkz. `maddeKirilmasi`).
++  // Eski: [gün, min(gün+365, sonraki madde−1)] ⇒ 1533 İstanbul Antlaşması 1534-01-01
++  // değişimini alıyordu (366. gün). Yeni: önce İLERİ ±KIRILMA_PENCERE_GUN, yoksa GERİ;
++  // taraf süzgeci aynen, ve o güne DAHA YAKIN bir maddenin doğrudan sahiplendiği
++  // değişim antlaşmaya mal edilmez.
+   var kayit = _antlasmaKaydi(o);
+   var T = SG.antlasmaTaraflari(o.b + " " + (o.d || ""),
+                                kayit && Array.isArray(kayit.taraf) ? kayit.taraf : [],
+                                window.DEVLETLER || []);
+-  var f = SG.antlasmaFarki(Y, ANT_FARK.ix, _khGunStr(o.gi), _khGunStr(sonIx), T);
++  function suz(f) {
++    if (!f) return null;
++    var bas = _baskasininKirilmasi(o, f.gun, gunIdx(f.gun));
++    f.degisim = f.degisim.filter(function (x) { return !bas[x.i]; });
++    return f.degisim.length ? f : null;
++  }
++  var f = null, ileriSon = o.gi + KIRILMA_PENCERE_GUN, g = o.gi;
++  while (!f && g <= ileriSon) {
++    var aday = SG.antlasmaFarki(Y, ANT_FARK.ix, _khGunStr(g), _khGunStr(ileriSon), T);
++    if (!aday) break;
++    f = suz(aday);
++    g = gunIdx(aday.gun) + 1;
++  }
++  if (!f) {
++    _yakinKirilmaGunleri(o.gi).filter(function (x) { return x.gi < o.gi; }).some(function (x) {
++      f = suz(SG.antlasmaFarki(Y, ANT_FARK.ix, x.D, x.D, T));
++      return !!f;
++    });
++  }
++  var sonIx = f ? Math.max(gunIdx(f.gun), o.gi) : ileriSon;
+   // 🆕 DALGA-0074 H-0013 — üç kademe. `savas_basi` YALNIZ `ANTLASMALAR`da var
+   // (ölçüldü: 37/41 kayıtta dolu, ama 137 antlaşma maddesinin yalnız 44'ü bir
+   // kayda bağlı). Bağsız maddede ① kademesi TÜRETİLEMEZ ve düğmesi HİÇ ÇIKMAZ —
+@@ -11256,7 +11591,7 @@ function antlasmaFarkiGoster(o, ozelEl) {
+   kutuEl.appendChild(yazi);
+   ozelEl.appendChild(kutuEl);
+   var kirilma = gunIdx(r.f.gun);
+-  var anaMetin = (kirilma === o.gi ? "Aynı gün" : "Haritadaki kırılma " + (kirilma - o.gi) + " gün sonra (" + _khGunYazi(kirilma) + ")") +
++  var anaMetin = _kirilmaYazisi({ fark: kirilma - o.gi, gi: kirilma }) +   // sürüm 5: geri de olabilir
+     " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + _farkOzeti(r.f.degisim);
+   // 🆕 DALGA-0074 H-0013 — fiilî kademenin ne anlattığı METİNDE de söylenir.
+   // Katmanda tarama yok (yalnız `fill-color`), o yüzden "hangisi işgal" sorusu
+@@ -11494,14 +11829,97 @@ function _sahneBitince(fn) {
+ //   Ankara çevresindeki 6 peteği "TBMM → sahipsiz" diye BEYAZ yakıyordu. O gün
+ //   haritada gerçek bir el değiştirme yok, yalnız atlasın penceresi bitiyor.
+ var MADDE_FARK_ACIK = true;
++// 🆕 ZAMAN-GENİŞ-1008 (sürüm 5) — MADDE SAHNESİ KIRILMANIN KENDİSİNE BAĞLI.
++// Eski iki pencere aynı kusurun iki ucuydu:
++//   · antlaşma: [gün, min(gün+365, sonraki madde−1)] — 1533 İstanbul Antlaşması bir
++//     yıl açık kalıp 1534-01-01 değişimini kendine mal ediyordu (DOGU-1533-0087);
++//   · öteki madde: yalnız madde GÜNÜ (±0) — 1517'de nokta ile madde 22-24 gün
++//     ayrık olduğu için Süveyş/Kahire sahnesi BOŞ kalıyordu (MISIR-SENKRON-0087).
++// KURAL (Değişmez 2'nin ±30'u ile aynı ölçek): madde, ±KIRILMA_PENCERE_GUN içinde
++// KENDİNE bağlanan kırılmayı oynatır — en yakın günden başlayarak (eşitlikte ileri).
++// "Kendine bağlı" = `SUZGEC.maddeDegisimleri` (yer_id · yer · başlıkta ad · aynı
++// el değiştirme çifti). "Başkasınınkini almaz" = o değişimi o güne DAHA YAKIN
++// başka bir madde DOĞRUDAN (yer_id/yer/başlık — `komsu` yolu sayılmaz) sahipleniyorsa
++// alınmaz; aynı gün kardeşlerin payı zaten `maddeDegisimleri`nin kendi kuralı.
++var KIRILMA_PENCERE_GUN = 30;
++function _olayAraligi(g0, g1) {                     // olaylar gi'ye göre SIRALI
++  var lo = 0, hi = olaylar.length;
++  while (lo < hi) { var md = (lo + hi) >> 1; if (olaylar[md].gi < g0) lo = md + 1; else hi = md; }
++  var out = [];
++  for (var k = lo; k < olaylar.length && olaylar[k].gi <= g1; k++) out.push(olaylar[k]);
++  return out;
++}
++// D gününün değişimlerinden, o'dan DAHA YAKIN bir maddenin doğrudan sahiplendikleri.
++function _baskasininKirilmasi(o, D, Dgi) {
++  var SG = window.SUZGEC, Y = window.YERLESIMLER || [], alinan = {};
++  var uzak = Math.abs(o.gi - Dgi);
++  _olayAraligi(Dgi - uzak + 1, Dgi + uzak - 1).forEach(function (m) {
++    if (m === o) return;
++    SG.maddeDegisimleri(m, D, Y, ANT_FARK.ix, [m]).secilen.forEach(function (x) {
++      if (x.yol !== "komsu") alinan[x.i] = m;
++    });
++  });
++  return alinan;
++}
++// ±pencerede kırılma günleri: en yakından uzağa (eşitlikte ileri, yani madde sonrası önce).
++function _yakinKirilmaGunleri(gi) {
++  var G = ANT_FARK.ix.gunler, bas = _khGunStr(gi - KIRILMA_PENCERE_GUN), son = _khGunStr(gi + KIRILMA_PENCERE_GUN);
++  var lo = 0, hi = G.length;
++  while (lo < hi) { var md = (lo + hi) >> 1; if (G[md] < bas) lo = md + 1; else hi = md; }
++  var out = [];
++  for (var k = lo; k < G.length && G[k] <= son; k++) out.push({ D: G[k], gi: gunIdx(G[k]) });
++  out.sort(function (a, b) {
++    var x = Math.abs(a.gi - gi), y = Math.abs(b.gi - gi);
++    return x - y || b.gi - a.gi;
++  });
++  return out;
++}
++// → { gun:"YYYY-MM-DD", gi, fark, r:{gun,degisim,secilen,…}, gunR } ya da null.
++// `gunR`: madde GÜNÜNÜN kendi sonucu (o günün öteki değişimleri için — dar kırpma).
++function maddeKirilmasi(o) {
++  var SG = window.SUZGEC, Y = window.YERLESIMLER || [];
++  if (!SG || !SG.maddeDegisimleri || !o || o.gi == null) return null;
++  _farkIndeksiKur();
++  var gs = _khGunStr(o.gi), gunR = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, o._agGrup || [o]);
++  if (gunR.secilen.length) return { gun: gs, gi: o.gi, fark: 0, r: gunR, gunR: gunR };
++  var aday = _yakinKirilmaGunleri(o.gi);
++  for (var a = 0; a < aday.length; a++) {
++    if (aday[a].gi === o.gi) continue;
++    var D = aday[a].D, Dgi = aday[a].gi;
++    var r = SG.maddeDegisimleri(o, D, Y, ANT_FARK.ix, [o]);
++    if (!r.secilen.length) continue;
++    var bas = _baskasininKirilmasi(o, D, Dgi);
++    r.secilen = r.secilen.filter(function (x) { return !bas[x.i]; });
++    // `komsu` yolu bir DOĞRUDAN eşleşmeye yaslanır (aynı once→sonra çifti). Dayanağı
++    // daha yakın maddeye bırakıldıysa komşu da düşer — yoksa 1517'de Kahire'yi
++    // 02-15 maddesine bırakan dört madde, ona yaslanan Süveyş/Sina/Tûr'u yine
++    // alıyordu (sürüm 5 sınavında ölçüldü).
++    var dog = r.secilen.filter(function (x) { return x.yol !== "komsu"; });
++    r.secilen = r.secilen.filter(function (x) {
++      return x.yol !== "komsu" || dog.some(function (d) { return d.once === x.once && d.sonra === x.sonra; });
++    });
++    if (dog.length && r.secilen.length) return { gun: D, gi: Dgi, fark: Dgi - o.gi, r: r, gunR: gunR };
++  }
++  return { gun: gs, gi: o.gi, fark: 0, r: null, gunR: gunR };
++}
++function _kirilmaYazisi(k) {
++  if (!k.fark) return "Aynı gün";
++  return "Haritadaki kırılma " + Math.abs(k.fark) + " gün " + (k.fark > 0 ? "sonra" : "önce") +
++    " (" + _khGunYazi(k.gi) + ")";
++}
++
+ function maddeFarkiGoster(o, ozelEl) {
    if (!MADDE_FARK_ACIK || !o || !ozelEl || antlasmaMaddesiMi(o)) return;
    var SG = window.SUZGEC;
    if (!SG || !SG.maddeDegisimleri) { console.warn("[aynı gün farkı] js/suzgec.js eski sürüm (önbellek) — kutu çizilmedi"); return; }
@@ -635,8 +826,27 @@ index 99bd9116..5080665e 100644
 +  if (!(o.gi > VERI_BASI && o.gi < VERI_SONU)) return;
    _farkIndeksiKur();
    var Y = window.YERLESIMLER || [], gs = _khGunStr(o.gi), kardes = o._agGrup || [o];
-   var r = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes);
-@@ -12541,12 +12829,27 @@ function oynatDurdur() {
+-  var r = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes);
++  // sürüm 5: kırılma madde gününe ±KIRILMA_PENCERE_GUN içinde aranır (yukarıda).
++  var K = maddeKirilmasi(o);
++  var r = (K && K.r) ? K.r : (K ? K.gunR : SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes));
+   if (!r.degisim.length) return;                      // o gün haritada değişim yok — gösterilecek fark yok
+   var gunYazi = _khGunYazi(o.gi);
+   // 🆕 16 Eylül 2026 — H-0047 (Emre): "hiçbiri bu maddeye bağlanamadı" GELİŞTİRİCİ
+@@ -11535,9 +11953,10 @@ function maddeFarkiGoster(o, ozelEl) {
+   // değil — okura gitmez, konsola gider.
+   if (kalan) console.debug("[aynı gün farkı] " + gunYazi + " · o günün öteki " + kalan +
+     " değişimi bu maddeye bağlanmadı, yanıp sönmüyor.");
+-  var anaMetin = "Aynı gün · bu maddeye bağlı " + r.secilen.length + " yerleşim bölgesi el değiştirdi: " +
++  var kg = (K && K.r) ? K : { gun: gs, gi: o.gi, fark: 0 };
++  var anaMetin = _kirilmaYazisi(kg) + " · bu maddeye bağlı " + r.secilen.length + " yerleşim bölgesi el değiştirdi: " +
+     _farkOzeti(r.secilen);
+-  _farkKutusuCiz(o, kutuEl, yazi, r.secilen, anaMetin, SG.gunKaydir(gs, -1), o.gi, o.gi);
++  _farkKutusuCiz(o, kutuEl, yazi, r.secilen, anaMetin, SG.gunKaydir(kg.gun, -1), kg.gi, Math.max(kg.gi, o.gi));
+ }
+ 
+ // 🆕 13 Eylül 2026 — paket 0046, ③ (koordinatörün kararı). Madde görseli
+@@ -12544,12 +12963,27 @@ function oynatDurdur() {
    btnOynat.textContent = "⏸";
  
    if (akisModu.value === "olay") {
@@ -664,7 +874,7 @@ index 99bd9116..5080665e 100644
        olayIndexTazele();
        var i = suankiOlayI + 1;
        while (i < olaylar.length && suzulduMu(i)) i++;   // süzülmüş: atla (H-0003)
-@@ -12602,6 +12905,7 @@ function oynatDurdur() {
+@@ -12605,6 +13039,7 @@ function oynatDurdur() {
      //    sınırlıyor.
      var _sonIsaretGun = suanki;
      var _sonAn = performance.now();
@@ -672,7 +882,7 @@ index 99bd9116..5080665e 100644
      var _tik = function () {
        if (!zamanlayici) return;            // durduruldu — zinciri KURMA
        if (suanki >= BITIS) { oynatDurdur(); return; }
-@@ -12609,7 +12913,16 @@ function oynatDurdur() {
+@@ -12612,7 +13047,16 @@ function oynatDurdur() {
        var _gecen = Math.min(1000, _simdi - _sonAn);
        _sonAn = _simdi;
        var _onceki = suanki;
@@ -690,7 +900,7 @@ index 99bd9116..5080665e 100644
        // Aralıkta kalan SON olayı işaretle. Birden çok olay varsa hepsini
        // ard arda yakmak titreme üretirdi; sonuncusu "gelinen an"dır.
        try {
-@@ -13243,7 +13556,7 @@ function haritayiOlayaGotur(o, zorla) {
+@@ -13246,7 +13690,7 @@ function haritayiOlayaGotur(o, zorla) {
        //    dosyada yazılı ders: *bir düzeltme, aynı kusurun BÜTÜN
        //    dallarında aranmalı.*
        var _kirptiNY = false;
@@ -699,7 +909,7 @@ index 99bd9116..5080665e 100644
        if (!_kirptiNY) panelSinyali();
        return;
      }
-@@ -13328,7 +13641,7 @@ function haritayiOlayaGotur(o, zorla) {
+@@ -13331,7 +13775,7 @@ function haritayiOlayaGotur(o, zorla) {
        // Kırpma ATEŞLERSE harita zaten konuşuyor; ATEŞLEMEZSE bu adım
        // tamamen sessiz kalırdı ve Emre onu "pas geçildi" diye okuyordu.
        var _kirptiIG = false;
@@ -708,7 +918,7 @@ index 99bd9116..5080665e 100644
        // 🆕 KRONO-YER-0072 · DALGA-0074 — `odak_yer` dalının notu AYRI yazılır.
        // Sebebi ayrımın kendisi: "bölgeye odaklanıldı" (odak_kimlik) o günün
        // SAHİPLİK verisinden türer; `odak_yer` ise bizim GÖSTERİM tercihimizdir
-@@ -13476,7 +13789,7 @@ function haritayiOlayaGotur(o, zorla) {
+@@ -13479,7 +13923,7 @@ function haritayiOlayaGotur(o, zorla) {
        // Emre'nin kuralı bir maddede EN ÇOK BİR yanıp sönme istiyor (M-4714 §4).
        // Vuruş oynamayan maddelerde (ör. bağ kurulamayan 148 madde) kırpma
        // ESKİSİ GİBİ koşar — sessiz adım bırakmıyoruz.
@@ -717,7 +927,7 @@ index 99bd9116..5080665e 100644
      }
      _sahneBitince(_simgeVeAnlati);
    }
-@@ -14161,12 +14474,68 @@ function kirpmayiDurdur() {
+@@ -14164,12 +14608,73 @@ function kirpmayiDurdur() {
  // 📌 Bu projede yazılı olan dersin ta kendisi: *"aletin BASMADIĞI ≠
  //    ölçtüğü"* — sessiz atlama, yanlış sonuçtan daha zor bulunur, çünkü
  //    yanlış sonuç bir sayı gösterir, sessiz atlama HİÇBİR ŞEY göstermez.
@@ -742,11 +952,16 @@ index 99bd9116..5080665e 100644
 +  if (antlasmaMaddesiMi(o)) return null;
 +  var SG = window.SUZGEC;
 +  if (!SG || !SG.maddeDegisimleri || !SG.sinirIndeksi) return null;
-+  _farkIndeksiKur();
-+  var Y = window.YERLESIMLER || [], gs = _khGunStr(o.gi), kardes = o._agGrup || [o];
-+  var r = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes);
-+  if (!r.degisim.length || r.secilen.length === r.degisim.length) return null;
-+  if (!r.secilen.length) return "yok";
++  var Y = window.YERLESIMLER || [];
++  // sürüm 5: maddenin kırılması ±KIRILMA_PENCERE_GUN içinde aranır (`maddeKirilmasi`).
++  //   · aynı gün ve günün BÜTÜN değişimi bu maddenin → eski tam gün kırpması (null)
++  //   · aynı gün kısmen ya da kırılma BAŞKA günde → DAR (yalnız maddenin petekleri)
++  //   · hiç kırılma yok ve madde gününde başka değişim var → "yok"
++  var K = maddeKirilmasi(o);
++  if (!K) return null;
++  var r = K.r, gunR = K.gunR;
++  if (!r) return gunR.degisim.length ? "yok" : null;
++  if (!K.fark && r.secilen.length === r.degisim.length) return null;
 +  function oynat() {
 +    var G = window.PETEK_GOVDE, P = window.PETEK_GOVDE_PARCA, fs = [];
 +    if (!G || !P) return;
@@ -787,7 +1002,7 @@ index 99bd9116..5080665e 100644
  
    // DEĞİŞİM VAR MI — yoksa hiç başlama
    var oIdx = donemBul(once), gIdx = donemBul(gun);
-@@ -14540,8 +14909,21 @@ function agirAdim(e, is) {
+@@ -14543,8 +15048,21 @@ function agirAdim(e, is) {
  document.getElementById("btn-geri").addEventListener("click", function (e) {
    agirAdim(e, geriAdim);
  });
@@ -809,7 +1024,7 @@ index 99bd9116..5080665e 100644
    olayIndexTazele();
    var gi2 = suankiOlayI - 1;
    while (gi2 >= 0 && suzulduMu(gi2)) gi2--;       // süzülmüş: atla (H-0003)
-@@ -14556,6 +14938,7 @@ document.getElementById("btn-ileri").addEventListener("click", function (e) {
+@@ -14559,6 +15077,7 @@ document.getElementById("btn-ileri").addEventListener("click", function (e) {
  });
  function ileriAdim() {
    if (odakGezintiAktif()) { ODAK_GEZINTI.adim(1); return; }    // H-79:15
@@ -817,7 +1032,7 @@ index 99bd9116..5080665e 100644
    olayIndexTazele();
    var ii2 = suankiOlayI + 1;
    while (ii2 < olaylar.length && suzulduMu(ii2)) ii2++;   // süzülmüş: atla (H-0003)
-@@ -14669,12 +15052,24 @@ function enYakinOlayBul(gi) {
+@@ -14672,12 +15191,24 @@ function enYakinOlayBul(gi) {
        var og = ODAK_GEZINTI.enYakin(hedefGi);
        if (!og) { _durumYaz("⚠️ Odaktaki kronolojide madde yok.", true); return; }
        ODAK_GEZINTI.git(og);
@@ -843,7 +1058,7 @@ index 99bd9116..5080665e 100644
      olayaGit(o, true, true);
      if (kirpildi) {
        _durumYaz("ℹ️ Atlas " + idxTarih(BASLANGIC).y + "–" + idxTarih(BITIS).y +
-@@ -15336,8 +15731,18 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15339,8 +15870,18 @@ function kronoTemsilEdiliyor(k, derin) {
        var d = bul(id);
        if (!d || !d.kronoloji) return;
        d.kronoloji.forEach(function (m) {
@@ -864,7 +1079,7 @@ index 99bd9116..5080665e 100644
          if (EK_YALNIZ_DIS && m.kapsam !== "dis") return;
          out.push({ gi: gunIdx(m.t), t: m.t, b: m.b, d: d, m: m, odak: false });
        });
-@@ -15412,13 +15817,14 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15415,13 +15956,14 @@ function kronoTemsilEdiliyor(k, derin) {
      birlesikDom = birlesikListe.map(function (o) {
        var el = document.createElement("div");
        el.className = "olay ek-madde" + (o.odak ? " ek-odak" : "");
@@ -880,7 +1095,7 @@ index 99bd9116..5080665e 100644
        var baslik = document.createElement("span");
        baslik.className = "o-baslik";
        baslik.textContent = o.b || "";
-@@ -15478,7 +15884,7 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15481,7 +16023,7 @@ function kronoTemsilEdiliyor(k, derin) {
      portreKutu.textContent = (d.ad || "?").charAt(0);
      adKutu.textContent = d.ad;
      saltanatKutu.textContent =
@@ -889,7 +1104,7 @@ index 99bd9116..5080665e 100644
        + (d.baskent ? " · " + d.baskent : "");
    }
  
-@@ -15504,14 +15910,19 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15507,14 +16049,19 @@ function kronoTemsilEdiliyor(k, derin) {
      // `odakSirali` ÇİZİLENİN KENDİSİ (süzülmüş + sıralı) — ⏭/⏮ ve "geçmiş"
      // vurgusu bunu okur. Eski sarmalayıcı SÜZÜLMEMİŞ listeyi DOM'la indeks
      // indeks eşliyordu ⇒ süzgeç açıkken vurgu kayıyordu.
@@ -913,7 +1128,7 @@ index 99bd9116..5080665e 100644
          + '</span> <span class="olay-baslik">' + (m.b || "").replace(/</g, "&lt;")
          + "</span>";
        el.addEventListener("click", function () { gezGit(o); });
-@@ -15538,6 +15949,13 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15541,6 +16088,13 @@ function kronoTemsilEdiliyor(k, derin) {
    // ---- madde açıklaması: mevcut #olay-bilgi penceresine ----------------
    function maddeAc(d, m) {
      var gi = gunIdx(m.t);
@@ -927,7 +1142,7 @@ index 99bd9116..5080665e 100644
      // 🔴 KAMERA hakemi — `tarihAyarla` oto-zoom'u tetikliyordu ve ~1,9 sn
      // sonra gelen uçuş onu eziyordu (ölçüldü). Bayrak `guncelle()`nin
      // tamamını kapsar; `finally` şart, yoksa bir fırlatma oto-zoom'u kalıcı
-@@ -15547,14 +15965,18 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15550,14 +16104,18 @@ function kronoTemsilEdiliyor(k, derin) {
      // beri TypeError atıyordu ("Cannot set property olayBekliyor … which has
      // only a getter") — devlet kronolojisi panelinde madde tıklaması HİÇ
      // açılmıyordu (ölçüldü: panel gizli, başlık boş). Sayaç deseni, olayaGit ile aynı.
@@ -949,7 +1164,7 @@ index 99bd9116..5080665e 100644
        // 🆕 14 Eylül 2026 — PAKET-UI4 İŞ 3 (1.MURAT, M-3930 aksaklığı): ek okuma
        // akordeonu yalnız Osmanlı panelinde (obGoster) çiziliyordu; kuyruk
        // maddesine (KRONOLOJI_*) bağlanan kart — ör. "1571-01-01|Moskova"
-@@ -15597,6 +16019,14 @@ function kronoTemsilEdiliyor(k, derin) {
+@@ -15600,6 +16158,14 @@ function kronoTemsilEdiliyor(k, derin) {
      // ⚠️ `haritayiOlayaGotur` maddeyi olduğu gibi alıyor (`yer_id`/`yer_kon`/
      // `kapsam_genis` alanları Osmanlı maddeleriyle AYNI) — ayrı bir uyarlama
      // katmanı GEREKMİYOR, aynı fonksiyon yeniden kullanılıyor.
@@ -964,7 +1179,7 @@ index 99bd9116..5080665e 100644
      var hedefYer = m.yer_id ? olayKonumu(m) : null;
      if (hedefYer) {
        try { haritayiOlayaGotur(m, true); } catch (e) { /* harita hazır değil */ }
-@@ -15971,7 +16401,8 @@ function derinAdimlari(o) {
+@@ -15974,7 +16540,8 @@ function derinAdimlari(o) {
    var iyi = [], elenen = [];
    ham.forEach(function (a, i) {
      var sebep = !a ? "boş kayıt"
@@ -974,7 +1189,7 @@ index 99bd9116..5080665e 100644
        : !a.b ? "b (başlık) yok"
        : !String(a.kaynak || "").trim() ? "kaynak YOK"
        : null;
-@@ -16103,7 +16534,7 @@ function derinGit(k) {
+@@ -16106,7 +16673,7 @@ function derinGit(k) {
    var det = d.kat.querySelector(".derin-detay");
    det.innerHTML = "";
    var h = document.createElement("div"); h.className = "derin-detay-b";
