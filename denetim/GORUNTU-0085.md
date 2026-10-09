@@ -70,3 +70,38 @@ Gün 1405-01-01'de beşi de yeniden üretildi (`GOR85-once-h15-iran-1405-0101.pn
 - `denetim/GORUNTU-0085.md` — bu rapor
 - `denetim/GORUNTU-0085-KOORD.diff` — `data/yerlesimler.js` 2 satır, UYGULANMADI, CR 0
 - Görüntüler ve aletler scratchpad'de (`gor85/GOR85-*.png`, `gor85.js`, `gor85b.js`); paket görselleri açık depoya KOPYALANMADI.
+
+---
+## DEVAM (UMIT İRTİBAT, 9 Ekim) — v2 diff + ANKARA 1406 · ağaç `C:tlas-gor85b` @ `origin/main` 5921a031
+
+### ① ÖNGÖRÜ — ölçümden ÖNCE
+Taban (`PYTHONHASHSEED=0 py arac/denetle.py`, 5921a031): D1 309 · D2 627/0 · **2s 1734 kırılma · 183 AÇIK · 792 kapsam dışı · 168 yıl-temsilî** · 2i 171/1 · 2t 13 · 4c 118 · 4d 326 · 4s 2 · D7 738 · çıkış 2 (D8 ölçülemedi — taze ağaç, `devletler_harita.js` yok).
+- **v2 (yalnız Luristan):** ilk ölçümle aynı mekanizma ⇒ 2s yıl-temsilî 168 → 167; ötekiler değişmez.
+- **ANKARA 1406:** Ankara `suleyman-celebi` 1404-03-01→1411-02-17 ⇒ `mehmed-celebi` 1404-03-01→1406-01-01 + `suleyman-celebi` 1406-01-01→1411-02-17. Yeni kırılma günü 1406-01-01 (Ankara: mehmed-celebi → suleyman-celebi).
+  · O gün ±30 içinde Ankara'yı ya da iki çelebiyi ADIYLA anan madde YOK (olaylar*/kronoloji_sinir*'de 1406 maddesi: "İsa Çelebi'nin ortadan kalkması"). Gün YYYY-01-01 ⇒ `yil_temsili_ayir` onu AÇIK değil **YIL-TEMSİLÎ** kovasına koyar. Öngörü: 2s kırılma +1 (1735), AÇIK 183 → 183, yıl-temsilî +1 (169). D2 değişmez (Osmanlı `d:` yok, iki çelebi `s:`).
+  · 1404-03-01 kırılması kalır (timurlu → artık mehmed-celebi); `olaylar_ek5.js:54` maddesi yer metninde "Ankara" diyor ⇒ YER kolu kapatır, AÇIK değişmez.
+  · Ama o madde ARTIK YANLIŞ: başlığı "Bursa ve Ankara onun eline geçti" diyor ⇒ KRONO diff: başlık + yer'den Ankara çıkar, 1406 için TDV `ankara` maddesi eklenir. KRONO uygulanınca: 1406 kırılması maddeli olur (yıl-temsilî −1 ya da kapalı); 1404-03-01 Ankara birimi YER kolunu kaybeder ⇒ TARAF koluyla (Çelebi Mehmed başlıkta değil) kapanmazsa AÇIK +1 riski — ölçülecek.
+
+### ② ÖLÇÜM — `PYTHONHASHSEED=0 py arac/denetle.py`, aynı ağaç, ADIYLA (yalnız değişen satırlar; ötekiler birebir)
+```
+                          2s kırılma  2s AÇIK  yıl-temsilî  2sk kapalı (YER)   D7 enklav   mükerrer   çıkış
+taban 5921a031               1734       183        168       4227 (2110)         738          95        2
++ v2 (Luristan)              1734       183        167       4227 (2110)         738          95        2
++ ANKARA (KOORD tek başına)  1735       183        169       4227 (2110)         739          95        2
++ ANKARA + KRONO             1735       183        168       4228 (2111)         739          95        2
++ üçü birlikte               1735       183        167       4228 (2111)         739          95        2
+```
+- Öngörü: v2 ✓ birebir · ANKARA 2s ✓ birebir (+1 kırılma, AÇIK aynı, yıl-temsilî +1) · KRONO ✓ (1406 kırılması maddeli olur → YER koluyla kapanır, yıl-temsilî −1) · "1404-03-01 Ankara birimi AÇIK +1 riski" → **gerçekleşmedi** (AÇIK 183 kaldı).
+- 🔴 Öngörmediğim: **D7 sorgusuz enklav 738 → 739** (ANKARA ile). Ankara artık 1406-1411 penceresinde Süleyman gövdesinden kopuk (Sivrihisar-Beypazarı Karaman kuşağı) — TDV `sivrihisar`a göre tarihe UYGUN bir eksklav; D7 donmuş (🧊, beklenen 731) bir sayaç.
+- ⚠️ ANKARA KOORD diff'i KRONO'suz inerse yıl-temsilî borç 169'a çıkar (tavan uyarısı zaten aşık: 151). **İkisi aynı commit'te inmeli** (§3.4 ②'nin ruhu). Tavan sayısı ÖNERİLMEDİ (birleşik ölçüm koordinatörde).
+- Çıkış kodu her satırda 2: D8 ölçülemedi (taze ağaç, `devletler_harita.js` yok) — bu işin kusuru değil, D8 bu diff'ler için ÖLÇÜLMEDİ.
+
+### Önce ölçülenler (ANKARA)
+- Ankara'ya bağlı nokta: `m:"Ankara"` taşıyan 16 nokta (Kastamonu · Sinop · Amasra · Bartın · Safranbolu · Sivrihisar · Kırşehir · Çorum · Çankırı · Eflani · Bolu · Düzce · Mudurnu · Ereğli · Devrek · Akçakoca) — **hiçbirinin dönemi Ankara'nın 1404-1406'sına bağlı DEĞİL** (kendi zincirleri: candar · karaman · mehmed-celebi · timurlu). 1404-1406'da `suleyman-celebi` taşıyan başka İç Anadolu noktası (31.5-35E) **yok**.
+- Kronoloji (olaylar* + kronoloji_sinir*, 1402-1413, "Ankara"): `olaylar_ek5.js:54` (1404-03-01 "Bursa ve Ankara onun eline geçti") yeni hükümle ÇELİŞİYORDU → KRONO diff. `olaylar_ek5.js:55` (1405-01-01 Yenişehir) anlatısında "Bursa ve Ankara'yı kaybeden Çelebi Mehmed" geçiyor (kaynak `mehmed-i`, OKUMADIM) — **dokunulmadı**, gerilim beyan: yeni hükümle Ankara 1406'ya kadar Mehmed'de. Koordinatör o cümleyi de "Bursa'yı kaybeden" yapabilir; `mehmed-i` okunmadan önermiyorum.
+
+### Diff'ler (UYGULANMADI; temel origin/main 5921a031; üçü tek tek ve birlikte `git apply --check` ✓; CR 0)
+- `GORUNTU-0085-KOORD-v2.diff` — `data/yerlesimler.js` YALNIZ Luristan: 1353-1508 tek dönem `lur-i-kucek` (TDV luristan). Zagros içi ÇIKARILDI (DOGU-SAFEVI-0086 / CELAYIRLI-0085 çakışması); gerekçesi bu dosyanın ilk bölümündeki H-0015 tablosunda kalıyor (koordinatör kaynak alanına taşıyabilir).
+- `ANKARA-1406-KOORD.diff` — `data/yerlesimler.js` Ankara: `mehmed-celebi` 1404-03-01→1406-01-01 (`kesinlik:{t:"yil"}`) + `suleyman-celebi` 1406-01-01→1411-02-17 (`kesinlik:{f:"yil"}`); kaynak alanında TDV ankara cümleleri + ÇELİŞKİ BEYANI + "koordinatör hükmü, BEYANLI" + "tek okuma, GET teyidi KASA kalemi".
+- `ANKARA-1406-KRONO.diff` — `data/olaylar_ek5.js`: 1404-03-01 maddesinden Ankara çıkarıldı (başlık · yer · anlatı; `ic_not` ile gerekçe) + yeni madde 1406-01-01 "Emîr Süleyman Ankara'yı Çelebi Mehmed'den aldı" (TDV ankara, yıl hassasiyeti `ic_not_t`'de).
+- ⚠️ Sıra: KOORD + KRONO AYNI commit. Uygulandıktan sonra `py arac/paketle.py yenile` (index.html paketleri okur — GORUNTU-0087 ④) ve harita için koşu.

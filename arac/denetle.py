@@ -627,7 +627,7 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # ⚠️ 195 > 191: sayı YÜKSELDİ çünkü ölçüt daraldı — 4 tarih artık gerçekten
 #   açık sayılıyor. Yükseliş yeni borç DEĞİL, görünür olmuş eski borçtur.
 #   Buradan AŞAĞI iner: her biri "madde yaz" işidir.
-BEKLENEN_ACIK_S = 182   # 9 EKIM (dalga 2): 183 -> 182 · TUNA-BALKAN-0085-KRONO (1403-02-01 Gelibolu Antlasmasi kiyi kazanimi maddesi, o kirilma 2s'de ACIKTI) — IYILESME, §3.4-3 · ONCESI: dalga 1 184 -> 183 · 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184
+BEKLENEN_ACIK_S = 181   # 9 EKIM (dalga 3): 182 -> 181 · CELAYIRLI-0085-v2 (Gence 1406-10-21 kapandi) + ANKARA-1406(KOORD+KRONO) + GORUNTU-0085-v2, BIRLIKTE olculdu — IYILESME, §3.4-3. 📌 Isci ongorusu YINE tutmadi: CELAYIRLI "183 -> 182", ANKARA "183 sabit" demisti; ayni sayaca iki diff dokununca 181 cikti (§3.4-0) · ONCESI: dalga 2 183 -> 182 · dalga 1 184 -> 183 · 1 EKIM 195->191->189 · 6 EKIM 189->186->185 -> 184
 # 9 EKİM: 185 -> 184 (§3.4③ iyileşince tavan İNER, §3.4② sabitle AYNI commit).
 # KRONO-SENKRON-1008 MOSTAR yarısı: Hersek'in fethi 1466-01-01 maddesi indi ve
 # Mostar'ın kırılmasını kapattı. Ölçüm YAZMADAN HEMEN ÖNCE koşturuldu (§3.4⓪):
