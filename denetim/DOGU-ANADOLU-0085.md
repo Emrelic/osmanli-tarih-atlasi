@@ -172,3 +172,58 @@ D1 · D2 · 2i · 2t · 4c · 4d   hepsi aynı
   1418-01-01, türetilmiş üst sınır) + `burhaneddin` notu.
   - 🔴 **Künye + boya, KOORD diff'iyle AYNI commit'te.**
   - Boya C3 listesine: ölçümde geçici #c2185b kullanıldı, bu bir öneri değil.
+
+---
+
+## 10. H-0003 PİKSEL DOĞRULAMASI (9 Ekim 2026, `origin/main` 5921a031, paketler taze)
+**Alet:** `C:\atlas-umit\denetim\ARAC-GORUNTU-0087.js`. Headless Chrome, gerçek `index.html`,
+`tarihAyarla`. Sahne: **1395-06-15**, merkez 44.05D/39.75K, zoom 9. Ayrı worktree
+`C:\atlas-danadolu`, `py -m http.server 8761`. Veriye dokunulmadı. Sunucu ve tarayıcı kapatıldı.
+`queryRenderedFeatures` iki yerde çağrıldı:
+- üç noktada (Iğdır, Beri, Doğubayazıt)
+- **0,01° adımlı ızgarada**: 43.55-44.60 D × 39.45-40.15 K, **7.526 piksel**
+
+Görüntü H-0003'ü birebir yeniden üretti: Doğubayazıt'ın pembe gövdesinden kuzeye **üç diş**
+çıkıyor, Timurlu alanı altlıktan ayırt edilemiyor.
+
+### Ayrım — ölçüldü
+```
+Iğdır        (441,286 px)  → devlet-dolgu {id:"timurlu", renk:"#9c7563"}   TEK dolgu
+Beri         (516,287 px)  → devlet-dolgu {id:"timurlu"}                    TEK dolgu
+Doğubayazıt  (455,462 px)  → devlet-dolgu {id:"karakoyunlu"}               TEK dolgu
+ızgara 7.526 piksel:  timurlu 5.190 · karakoyunlu 2.230 · aynı kimlik çift poligon 106 (timurlu 100, karakoyunlu 6 — zararsız)
+                      serbest-* 0 · İKİ FARKLI devletin dolgusu aynı pikselde 0 · dolgusuz piksel 0
+```
+⇒ **Hâle (serbest-*) DEĞİL, gövde çakışması DEĞİL.**
+- Iğdır ve Beri **boyalı**, `timurlu` #9c7563. "Boyamamış" izlenimi tamamen rengin
+  solukluğundan geliyor (kroma 20, altlığa ΔE76 38,9, §1).
+- Dişler **tek dolgulu Karakoyunlu gövdesinin şekli**. Bu, GORUNTU-0085'in yürüyüş katmanı
+  (eğim sürtünmeli Dijkstra) sınıfıdır.
+
+### Diş ölçüleri (ızgaradan; hücre = `YURUYUS_SADE` 0,05°, `uret_petek.py:1166`)
+```
+ORTA diş  (ucu 43.83D/39.91K, Iğdır'ın ~19 km batısı)
+   en: uçta 0,02° (0,4 hücre) → 0,05° (1 hücre) 39.86K'de → 0,10° (2 hücre) 39.75K'de → 0,15° (3 hücre) 39.65K'de
+   boy: ≤2 hücre bölüm ≈ 0,16° enlem ≈ 18 km · ≤3 hücre bölüm ≈ 0,26° ≈ 29 km
+DOĞU diş  (ucu 44.36D/39.92K, Beri'nin ~10 km doğusu, Iğdır-Beri enleminde)
+   en: uçta 0,02° → 0,05° 39.88K'de → 0,10° 39.79K'de → 0,15° 39.74K'de, sonra gövdeye açılıyor
+   boy: ≤2 hücre bölüm ≈ 0,13° ≈ 14 km · ≤3 hücre bölüm ≈ 0,18° ≈ 20 km · uçtan gövdeye ≈ 25 km
+BATI diş  (ekranda ~43.38D/39.88K) — ızgaranın DIŞINDA kaldı, ÖLÇÜLMEDİ
+```
+- İki diş de uçta 1 hücreden dar, 20-30 km boyunca ≤2-3 hücre enli.
+- Uçları Iğdır/Beri enlemine (39,92) kadar çıkıyor; en yakın Karakoyunlu noktası Doğubayazıt
+  (39,55) ise 40 km güneyde.
+- ⇒ İmza GORUNTU-0085 ile örtüşüyor ("1-2 hücre enli, 30-50 km"). Bizim dişler biraz daha kısa
+  (20-30 km).
+- §1'deki kaba piksel tahmini (2,5-5 km en, 35-48 km boy) bunun **yerini aldı**: en tutuyor,
+  boy fazla tahmin edilmişti.
+
+### Hüküm (H-0003)
+1. **Veri doğru.** Iğdır ve Beri 1386-1408 arasında `timurlu`, boyalı.
+2. **"Boyamamış" = renk okunurluğu.** Timurlu #9c7563 rölyef altlığında kayboluyor. Çare renk
+   kalemi (C3 / `renk_olc` rölyefe karşı ölçmüyor).
+3. **Sivri dişler = motorun yürüyüş katmanı** (`uret_petek.py:1138-1160`, `:1308`; kök
+   GORUNTU-0085). Hâle değil, çakışma değil. `YURUYUS_SADE` (1 hücre) dişleri silemiyor. Çare motor
+   kalemi, tam inşa koşusu ister.
+
+Artefaktlar (scratchpad, depoya alınmadı): `SINAV-GORUNTU-0087-igdir-1395.png` · `sonuc.json` (ızgara).
