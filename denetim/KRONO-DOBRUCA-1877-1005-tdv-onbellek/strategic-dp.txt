@@ -1,0 +1,1252 @@
+[s1] VAKANÜVİS- Uluslararası Tarih Araştırmaları Dergisi/ International Journal of Historical 
+Researches, Yıl/Vol. 8, Sayı/No. 1, Bahar/Spring 2023  ISSN: 2149-9535 / 2636-7777 
+ 
+Araştırma Makalesi 
+How to Lost a War: 
+Strategic Command Faults and Defeat in the Ottoman-
+Russian War of 1877-1878  
+Umut Akçakaya* 
+(ORCID: 0000-0002-6285-5982) 
+ 
+Makale Gönderim Tarihi Makale Kabul Tarihi 
+13.11.2022 16.01.2023 
+ 
+Atıf Bilgisi/Reference Information 
+Chicago: Akçakaya, U., “ How to Lost a War:  Strategic Command Faults and 
+Defeat in the Ottoman -Russian War of 1877 -1878”, Vakanüvis-Uluslararası 
+Tarih Araştırmaları Dergisi, 8/1 (Mart 2023): 1-33. 
+APA: Akçakaya, U. (2023). How to Lost a War:  Strategic Command Faults and 
+Defeat in the Ottoman -Russian War of 1877 -1878. Vakanüvis-Uluslararası 
+Tarih Araştırmaları Dergisi, 8 (1) , 1-33. 
+ 
+Abstract  
+Considering the results of the Ottoman -Russian War of 1877 -1878, it was 
+one of the most important wars in the Ottoman history. The war was a tough 
+exam for the Ottoman army, but the defeat could not be prevented. The most 
+important reason for defeat was the mistakes made in strategic command. 
+The Ottoman war plan was prepared on the basis of wrong predictions and 
+important mistakes were made in the deployment of the forces. The se 
+mistakes allowed the Russian army to easily cross the Danube. Ottoman 
+decision makers could not take precautions in time and the Russian army was 
+able to seize the Balkan passes quickly. The mistakes in the strategic 
+command continued throughout the war. A multi -headed system was created 
+                                                           
+* PhD., Republic of Türkiye Ministry of National Defence, General Staff, Republic of 
+Türkiye, umutakcakaya@outlook.com. 
+Dr., T.C. Milli Savunma Bakanlığı, Genel Kurmay Başkanlığı , Türkiye, 
+umutakcakaya@outlook.com.  
+[s2] Umut Akçakaya                                                                                                                           2 
+ 
+for the command of the war, and it was not possible to establish a unity of 
+command. In addition, incompatibility and personal struggles among the 
+commanders at the front paralyzed the command system. Under these 
+conditions, it was not possible for the Ottoman forces to carry out a 
+coordinated oper ation. The only significant success of the Ottoman army on 
+the Balkan Front was the defense of Pleven. With the defeat the Ottoman 
+rule in the Balkans was largely eliminated. 
+Keywords: Ottoman-Russian War of 1877-1878, Balkan Front, Strategic 
+Command, Pleven, Shipka. 
+ 
+Bir Savaş Nasıl Kaybedilir: 
+1877-1878 Osmanlı-Rus Harbinde Stratejik Komuta Hataları ve Mağlubiyet 
+ 
+Öz 
+1877-1878 Osmanlı -Rus Harbi, Osmanlı tarihinin en önemli savaşlarından 
+biri olmuştur. Osmanlı ordusu savaşta iyi bir sınav verememiş ve mağlup 
+olmuştur. Mağlubiyetin en önemli sebebi  stratejik komutada yapılan hatalar 
+olmuştur. Osmanlı savaş planı yanlış öngörüler üstüne hazırlanmış ve bu plana 
+göre kuvvetlerin konuşlanmasında önemli hatalar yapılmıştır. Bu hatalar Rus 
+ordusunun kolaylıkla Tuna nehrini geçmesine imkân sağlamıştır. Osmanlı 
+karar alıcıları zamanında tedbir alamamış ve Rus ordusu çok kısa süre  
+içerisinde Balkan geçitlerini ele geçirebilmiştir. Harbin yönetimi için çok başlı 
+bir sistem yaratılmış, emir komuta birliğini tesis etmek mümkün olmamıştır. 
+Ayrıca cephedeki komutanlar arasında hüküm süren uyumsuzluk ve kişisel 
+mücadeleler emir komuta si stemini felç etmiştir. Bu koşullarda Osmanlı 
+kuvvetlerinin koordineli bir harekât yapması mümkün olmamıştır. Osmanlı 
+ordusunun Balkan Cephesi’ndeki kayda değer tek başarısı beş ay süren Plevne 
+müdafaası olmuştur. Harp sonunda gelen mağlubiyetle Balkanlarda ki Osmanlı 
+hâkimiyeti büyük oranda ortadan kalkmıştır. 
+Anahtar Kelimeler: 1877-1878 Osmanlı -Rus Harbi, Balkan Cephesi, 
+Stratejik Komuta, Plevne, Şipka. 
+ 
+Introduction 
+One of the most difficult exam  given by the Ottoman army in the 
+19th century was the Ottoman-Russian War of 1877-1878 (namely the 
+93 War).  The main reason for the war was the pan -slavist policies 
+[s3] How to Lost a War                                                                                                                      3 
+ 
+followed by Russia and the nationalism movement that gained 
+strength in the Balkans.  The w ar took place on two fronts, the 
+Caucasus and the Balkans.  However, the center of gravity was the 
+Balkan Front and the outcome of the war was taken here.  In the 
+Caucasus Front, the Ottoman army under the command of Gazi Ahmet 
+Muhtar Pasha had a tough fight  against the Russians and gained 
+important successes. However, in the last months of the war, defeats 
+followed each other and a large area up to Erzurum fell under Russian 
+occupation until the armistice. 
+Before the war, the Ottoman Empire gathered a large force on the 
+Balkan Front.  However, the mistakes made in the war plan and 
+deployment did not allow this force to be utilized properly.  Ottoman 
+soldiers fought heroically throughout the war and some tactical 
+successes were achieved.  Especially the defense o f Pleven had 
+repercussions all over the world.  However, mistakes made at the 
+strategic command level determined the outcome of the war and the 
+Russian advance could only be stopped in front of Istanbul with the 
+intervention of England. 
+There is an extensive literature on the Ottoman -Russian War of 
+1877-1878. The defeat has been a subject studied by some Ottoman 
+authors, especially the officers.  In addition, the memories of the 
+commanders who were in the decision -making position and the 
+defenses of t hose who were tried in the court of war are important 
+sources. Besides, the observations of foreign journalists in the region 
+during the war contain valuable information.  The memories of foreign 
+doctors, who served in the Ottoman army during the war , are o ther 
+important sources.  Finally there are extensive studies written by 
+European and American researchers right after the war.  In modern 
+studies, the defense of Pleven has been emphasized and the reasons 
+for the defeat have not been adequately addressed. 
+The aim of this study is to evaluate the defeat in the Balkan Front in 
+the context of strategic command.  Thus, the history of this important 
+war can be carried beyond the heroic stories.  In this context, first of 
+all, the political process leading to the w ar will be discussed. Then, the 
+strength, operational plans and strategic deployments of both armies 
+[s4] Umut Akçakaya                                                                                                                           4 
+ 
+will be examined.  Finally t he strategic command of the war will be 
+analyzed in two phases, and faults will be evaluated. 
+The Political Process Leading to the War 
+The events leading up to the Ottoman -Russian War of 1877 -1878 
+started with the conflicts in the Balkans.  The pan -slavist policies 
+followed by Russia increased the tension in the region.  The rebellion, 
+which started in Herzegovina in July 1875, quickly expanded and 
+spread to Bosnia.  While the Ottoman Empire was dealing with this 
+problem, a new uprising started in Bulgaria in May 1876. The Bulgarian 
+events were reflected in the European public opinion as a Muslim -
+Christian conflict and became a n European issue.1 The situation of the 
+Ottoman Empire gave Serbia and Montenegro the opportunity they 
+were waiting for.  These two principalities  started a war with the 
+Ottoman Empire in July.  There were about five thousand Russian 
+volunteers in the Serbian army under the command of Russian General 
+M.G.Cherniaev.2 
+Ottoman forces could not get a decisive victory against the 
+Montenegrin army. However, he managed to defeat the Serbian army 
+in the Battle of Aleksinac . The Belgrade road was opened to the 
+Ottoman army. St.Petersburg which disturbed by this situation,  issued 
+an ultimatum on October 31  to stop the war . The Tsar ordered the 
+mobilization of six corps in the area near the Romanian border.  The 
+Ottoman government, worried about Russia's threat of war, ag reed to 
+an armistice with Serbia.  At this stage  London, which wanted to 
+prevent Russia from handling the issue alone, took action . With the 
+proposal of London, it was decided to discuss the Balkan issues at an 
+interstate conference. The Ottoman government, which was reluctant 
+to be alone with Russia, accepted this offer reluctantly.3 
+                                                           
+1 Mahmud Celaleddin Paşa, Mir’at-ı Hakikat, Berekat Yayınevi, İstanbul 1983,  p. 133 -
+136.  
+2Barbara Jelavich, History Of The Balkans, Eighteenth and Nineteenth Centuries I , 
+Cambridge University Press, Cambridge 1995, p. 352-355. 
+3 Yuluğ Tekin Kurat, “1877 -1878 Osmanlı -Rus Harbinin Sebepleri”, Belleten, 26/104, 
+(1962), p. 584 -586; Francis Vinton Greene, Russian Army and its Campaigns in Turkey 
+in 1877-1878, D.Appleton&Company, New York 1879, p. 139. 
+[s5] How to Lost a War                                                                                                                      5 
+ 
+The Istanbul Conference, which gathered to discuss the Balkan 
+issues, was opened on 23 December 1876.  The decisions made at the 
+end of the conference were quite heavy for Istanbul. The Ottoman 
+Empire would make a peace treaty with Serbia and Montenegro that 
+included border corrections in favor of these two states.  Bulgaria 
+would be divided into two provinces, and extensive concessions would 
+be given to Bosnia -Herzegovina an d Bulgaria.  The gover nors of 
+Bulgaria and Bosnia -Herzegovina would be appointed by the vote of 
+the Great Powers. The governor of Bulgaria would be chosen among 
+the Christians. And a commission would be established from the 
+representatives of the Great Powers to oversee the reform.4 
+On January 18, a general assembly  was convened under the 
+chairmanship of Grand Vizier Mithat Pasha to discuss the conference 
+proposals and reach a decision.  More than two hundred delegates 
+attended this assembly including soldier s, bureaucrats, Muslim and 
+non-Muslim clergyman.  According to the prevailing opinion in the 
+assembly, the conference proposals greatly restricted the sovereignty 
+of the Ottoman Empire.  Moreover It was obvious that such a reform 
+would pave the way for indep endence for Bosnia -Herzegovina and 
+Bulgaria. As a matter of fact, it was decided to reject the proposals at 
+all costs.5 
+Upon this decision, the İstanbul C onference ended on January 20  
+and the delegates left Istanbul.  The Ottoman Empire signed a peace 
+treaty with Serbia on February 28. However, the footsteps of the 
+approaching war could be heard.  The states participating in the 
+Istanbul Conference came together in London in March and signed a 
+protocol. According to the London Protocol, a peace agreement would 
+be made with Montenegro, reforms would be implemented in Bosnia -
+Herzegovina and Bulgaria, and the mobilization of the Ottoman army 
+would be terminated.  If these conditions were to be fulfilled, the 
+Russians would also put an end to the mobilization . Istanbul once 
+                                                           
+4 Enver Ziya Karal, Osmanlı Tarihi VIII, Birinci Meşrutiyet ve İstibdat Devirleri (1876 -
+1908), Türk T arih Kurumu, Ankara 2007, p. 31 -32; F.A.K. Yasamee,  Ottoman 
+Diplomacy, Abdülhamid II and the Great Powers, 1878-1888, Gorgias Press, New Jersey 
+2011, p. 16. 
+5 Mahmud Celaleddin Paşa, op. cit., p. 217-219. 
+[s6] Umut Akçakaya                                                                                                                           6 
+ 
+again refused the demands. Thereupon, Russia declared war on the 
+Ottoman Empire on April 24.6 
+Operational Plans, Deployment and Comparison of Forces 
+Until a month before the start of the war, the Ottoman army did 
+not have an operation plan against Russia. The Ottoman operation 
+plan was prepared only at the end of March.  Therefore, there was not 
+enough time left to develop the details of the plan and m ake the 
+necessary preparations. It was discussed that the Ottoman forces 
+would pass to the north of the Danube and meet the Russians there. 
+However, for diplomatic reasons, they did not dare to enter Romanian 
+territory.7 According to the terms of the Paris  Agreement, both the 
+Ottoman Empire and Russia were forbidden to bring soldiers into 
+Romania. But the Russians did not take this into account. As of April 
+24, Russian troops crossed the border and began to advance towards 
+the deployment areas inside Romani a. Thereupon, the Principality of 
+Romania formed an alliance with Russia and declared its 
+independence on May 21.8 
+According to the Ottoman plan, most of the forces were to be 
+deployed in Shumen, Varna, Silistra and Ruse. Another part of the 
+forces were to be deployed at Vidin, on the western flank of the front. 
+A third group of forces were to be deployed between Sofia and Siliven. 
+In addition, an important force would be deployed outside the 
+operational area against the threat from Serbia, Montenegro and 
+Greece.9 According to this concentration, the Danube river was the 
+first line and the Balkan mountains were the second line of defense. 
+The Commander of the Balkan Front was Müşir Abdülkerim Nadir 
+Pasha.10 He was in Shumen with his headquarters. The units un der the 
+                                                           
+6 Akdes Nimet Kurat, Türkiye ve Rusya, Kültür Bakanlığı Yayınları, Ankara 1990, p. 82. 
+7 H.Hikmet Süer,  1877-1878 Osmanlı -Rus Harbi  Rumeli Cephesi , Genelkurmay 
+Basımevi, Ankara 1993,  p. 51-52 
+8 Henry Montague Hozier, The Russo-Turkish War I , William Mackenzie, London 1878, 
+p. 336. 
+9 Süer, op. cit., p. 59. 
+10 Abdülkerim Pasha was a former soldier who was over seventy at that time. He spoke 
+little and moved slowly. He did not have the ability to make quick decisions, which are 
+the basic principles of modern warfare, and to make changes in plans according  to 
+[s7] How to Lost a War                                                                                                                      7 
+ 
+command of Abdülkerim Pasha were the Danube Eastern Army, the 
+Danube Western Army, the Silistra, Ruse, Varna Castle Commands, and 
+the Sofia and Sliven Commands. The Eastern Army stationed in 
+Shumen was under the command of Müşir Ahmet Eyüp Pasha. T he 
+Western Army was stationed in Vidin and was headed by Osman Nuri 
+Pasha.11 
+The Ottoman mobilization began on 6 November 1876. But the 
+gathering and deployment of troops was slow. By the end of June, the 
+Ottoman force at the front had reached 186.000  men, including 189 
+infantry battalions, 12.000 cavalry and 360 cannons. 12 50 battalions 
+were in Shumen under the command of Ahmed Eyüb Pasha, and 50 
+battalions were in Vidin under the command of Osman Pasha. There 
+were 30 battalions in Ruse, 20 battalions in Sil istra, 12 battalions in 
+Varna, 4 battalions in Tırnovo and 6 battalions in Svishtov.  There were 
+also 10 battalions in the Balkan passes and Kazanlak. In addition, 
+107.000 men (80 battalions) were deployed against Serbia and 
+Montenegro in Bosnia -Herzegovina and Shkodra, and 15.000 men (24 
+battalions) were deployed in Ioannina against Greece. There were 40 
+battalions in Istanbul as a reserve.13 
+In addition to these  forces, there was a fleet of 2 armored 
+corvettes, 7 armored gunboats, 4 wooden gunboats and 15 
+steamboats on the Danube river. The Ottoman Danube Fleet was 
+dispersed to regions considered strategically important. Abdulkerim 
+Pasha thought that this fleet would play a very important role in the 
+defense of the river. But his expectation would not come true. It was a 
+big mistake to replace Hüseyin Pasha, who had been in charge of the 
+fleet for a long time and knew the river very well, just before the 
+battle. Arif Pasha, who was appointed to his place, arrived late and 
+                                                                                                                               
+developing situations. However, due to his age and seniority, he was respected by his 
+unit commanders and his orders were obeyed. Ahmed Saib , Son Osmanlı -Rus 
+Muharebesi, Hindiye Matbaası, Cairo 1327 (1911), p. 15. 
+11  Süer, op. cit., p. 72-73. 
+12 Erkan-ı Harbiye Kolağalarından Reşid, 1293 Osmanlı -Rus Sefer -i Ahiri , Kayıhan 
+Yayınları, İstanbul 2016, p. 29; Süer, op. cit., p.  63. 
+13 Ahmed Midhat Efendi, Zübdetü’l Hakayık, 93 Harbi’nin Arka Planı , T ürk Tarih 
+Kurumu, Ankara 2015, p. 144; Ahmed Saib, op. cit., p. 10-13, 97. 
+[s8] Umut Akçakaya                                                                                                                           8 
+ 
+could not take the necessary precautions.14 The Russians restricted the 
+movement of the Ottoman fleet and caused serious damage, both 
+with artillery fire, mine lines and torpedo attacks.15 
+Ottoman troops were deployed very scattered in the Balkans. In 
+this conditions it was not possible to concentrate forces at one point 
+to create a center of gravity. Due to the large force deployed against 
+Serbia, Montenegro and Greece, the Ottoman force at the front was 
+weak compared to the Russian army. An important obstacle such as 
+the Danube was not suf ficiently utilized, and the points that were 
+likely to be crossed by the Russians were not held with sufficient force. 
+The main force of the army was conce ntrated in the forts. There were  
+not enough forces in the directions of Svishtov -Tırnovo, Svishtov -
+Gabrovo and Nikopol-Pleven-Sevlievo, which went from the Danube to 
+the Balkan passes. Abdülkerim Pasha thought that the Russians would 
+cross the Danube from the region between Ruse and Nikopol. 
+However, he believed that he could not prevent the advance of th e 
+Russian army with his available forces. Therefore, he concentrated 
+most of his forces in fortified positions. He believed that the Russians 
+crossing the Danube would not go south without surrendering the 
+Ruse and Silistra fortresses, as in previous battl es. He planned to fight 
+in the region between Ruse, Silistra and Shumen. However, 
+Abdülkerim Pasha's expectation would not come true. It was very 
+difficult for the Ottoman forces, which were positioned in the castles 
+to the east of the Balkan Front, to sto p the Russian operation that 
+would advance from Svishtov to the south.16 
+The Russian plan was to cross the  Danube between Ruse and 
+Nikopol without colliding with the strongly held Ottoman fortresses. In 
+                                                           
+14 Mustafa Öztürk, “1877 -1878 Osmanlı -Rus Harbi Belgeleri: Abdi Paşa'nın 
+Muhakemesi”, Belgeler, 23/27, (2003), p. 125-126; Süer, op. cit., p. 71 
+15 Erkan-ı Harbiye Kolağalarından Reşid, op. cit., p. 84-85. 
+16 Keçecizade İzzet Fuat, Kaçırılan Fırsatlar, 1877-1878 Osmanlı -Rus Savaşı Hakkında  
+Eleştiriler ve Askerî Düşünceler , Genelkurmay Basımevi, Ankara 1997,  p. 15 -16. 
+Abdülkerim Pasha was tried in the court of war after he was dismissed. In his defense, 
+he said that he had only 170 b attalions to defend the Danube and that he had warned 
+the Chief of Staff Mahmud Pasha that this force was insufficient. According to 
+Abdülkerim Pasha, İstanbul did not give the necessary importance to the Balkan Front. 
+Öztürk, op. cit., p. 133. 
+[s9] How to Lost a War                                                                                                                      9 
+ 
+order to hide the main crossing area and divert the at tention of the 
+Ottoman army, a secondary force would cross the Danube from the 
+Galati-Macin region and enter Dobruja and advance to the Constanta 
+line. The main attacking force, after crossing the river, would advence 
+rapidly to the south, seize the Balkan  passes, and advance in the 
+direction of Edirne to divide the Ottoman forces into two parts. The 
+Russian general headquarters wanted to be victorious in a short time 
+by advancing rapidly to Istanbul. Thus, Britain and France would not 
+have a chance to inte rvene militarily or diplomatically against Russia. 
+According to the plan, the 8th, 9th, 12th and 13th corps, constituting 
+the bulk of the Russian army, were positioned in front of Ni kopol-
+Svishtov. While the 11th c orps was gathered agai nst Silistra, the 14 th 
+corps was positioned against Galati.17 
+The Russian force gathered at the front was about 200.000 men, 
+including 182 infantry battalions, 204 cavalry squadrons and 858 
+cannons.18 According to Ottoman sources, the Russian army had 
+275.000 infantry, 20.000 c avalry and 756 cannons. 19 The army was 
+commanded by the Tsar's brother, Grand Duke Nichola. 
+When the strength of the two armies is compared, it is seen that 
+the Russian army is superior in terms of the number of soldiers. The 
+number of cannons  in the Ottoma n army was about half that of the 
+Russians. In terms of the number of cavalry, the Russians had an 
+absolute superiority. 20 This was a major disadvantage. Cavalry units 
+played a very important role in the war tactics of the period. Cavalry 
+units with high mo bility were of decisive importance in types of 
+operations that required speed such as reconnaissance, encirclement, 
+outflanking and pursuit operations. In order to eliminate this 
+deficiency, muavene cavalry units (commonly known as başıbozuk) 
+were formed f rom the immigrant Circassian tribes. The fact that the 
+muavene cavalrymen joined the army with their own horses offered 
+                                                           
+17 Bruce W. Menning, Bayonets Bofore Bullets, The Imperial Russian Army 1861 -1914, 
+Indiana University Press, Bloomington & Indianapolis, p. 52-55. 
+18 Frederick Maurice, The Russo-Turkish War  1877, Swan Sonnenschein&Co., London 
+1905, p. 25; Greene, op. cit., p. 140.  
+19 Süer, op. cit., p. 48; According to B.W.Menning, the number of the Russian army is 
+approximately 260.000. Menning, op. cit., p. 55. 
+20 Greene, op. cit., p. 141.   
+[s10] Umut Akçakaya                                                                                                                           10 
+ 
+an important advantage for the Ottoman army, which was generally 
+suffering from animal shortages. 21 However, the combat effectiveness 
+of the muavene cavalry units was quite low. These units were not 
+acting in military discipline. They co uld not properly carry out the  
+reconnaissance service, which is one of the most important duties of 
+the cavalry units. With the rush to plunder, their order  was being 
+broken in the battles. The Ottoman commanders at the front would 
+complain a lot about this situation.22 
+The weapons used by the Ottoman army were better than the 
+Russians. Thanks to the extensive purchases made during the reign of 
+Sultan Abdulazi z, the troops were equipped with modern and high 
+quality weapons. The main weakness of the army was the lack of 
+qualified officers. Since the beginning of the century, important steps 
+have been taken to develop the military education system. However, 
+at that time, military schools still could not train enough officers. For 
+this reason, the number of officers with the skills and qualifications to 
+command their troops deftly was insufficient. 23 Uneducated officers , 
+which was not gtatuated from military schools , constituted 90% of the 
+officer corps. Some of them could not read or write at all. Only 45 of 
+the 70 pashas , who commanded the army during the war , were 
+military school graduates. In  the lower ranks, the proportion of 
+educated officers was even lower . These uneducated officers did not 
+have the technical and tactical knowledge required by modern 
+warfare. The number of staff officers in the entire Ottoman army 
+consisted of 132.24  
+                                                           
+21 Mehmet Beşikçi, “Başıbozuk Savaşçıdan ‘Makbul’ Tebaaya: 1877 -1878 Osmanlı-Rus 
+Savaşı’nda Osmanlı Ordusunda Çerkez Muhacirler”,  Hacettepe Üniversitesi Türkiyat 
+Araştırmaları Dergisi, 23, (2015), p. 102. 
+22 Hüseyin Raci Efendi, Zağra Müftüsünün Anıları, Tarihçe-i Vak’a-ı Zağra, Tercüman, p. 
+153; Ali İhsan Gencer -Nedim İpek, “1877 -1878 Osm anlı-Rus Harbi Rumeli Cephesi 
+Vesikaları (Temmuz 1877)”, Belgeler, 25/19, (1993), p. 233. 
+23 Mesut Uyar- Edward J.Erickson, A Military History of The Ottomans, From Osman to 
+Atatürk, Praeger Security International, California 2009, p. 177. 
+24 Gültekin Yıldız, “Kara Kuvvetleri”, Osmanlı Askeri Tarihi: Kara, Deniz ve Hava 
+Kuvvetleri, 1792 -1918, T imaş Yayınları, İstanbul 2013, p . 67; Türk Silahlı Kuvvetleri 
+Tarihi,  1877 -1878 Osmanlı -Rus Harb î Kafkas Cephesi Harekâtı II, Genelkurmay 
+Basımevi, Ankara 1985, p. 43. 
+[s11] How to Lost a War                                                                                                                      11 
+ 
+The Ottoman commanders were having trouble in command of the 
+troops. Because they had little preparation and experience until they 
+came to command posts. Commanders of all levels were faced with 
+many situations for the first time during the campaign, as the army did 
+not conduct exercises and maneuvers in peacetime. Some experience  
+was gained in the wars of Serbia and Montenegro. But this was only 
+limited to the troops that participated in these wars. As a matter of 
+fact, the experience of commanding the troops could only be gained in 
+the campaign, but the experience gained on the b attlefield came at a 
+heavy price.25 
+The biggest problem of the Ottoman army was in the strategic 
+command system. As it is known, Müşir Abdülkerim Nadir Pasha was 
+appointed as the Front Commander. However, II. Abdülhamit did not 
+intend to leave the command of the war to Abdülkerim Pasha. As a 
+matter of fact, a war council ( Meclis-i Umuru Harbiye) was established 
+in Istanbul on May 24. The war council consisted of  Chief of General 
+Staff, Minister of the Navy and some other military personnel.26  
+While the members of the council were elected, their loyalty to the 
+Sultan was taken into account rather than their military careers. For 
+this reason, it was not possible for the pashas in the military council to 
+oppose the Sultan's wishes. The S ultan, who closely follow ed all the 
+events on the front line, would try to command the war from Istanbul 
+through the war council. However, the distance from Istanbul to the 
+front headquarters was more than 450 kilometers. Communication 
+facilities between the front and Istanbul were extremely limited. It was 
+not possible for the situation at the front to reach Istanbul on time and 
+clearly. A three -headed system was created for the management of 
+the war. The Sultan and the military council would constantly interfere 
+with the decision s of the Front Commander. The commanders at the 
+front would not be able to react quickly and would have to get 
+approval from Istanbul for all their decisio ns. The decisions taken by 
+the S ultan and the council members, who did not know the real 
+situation at the front, would have a negative effect on the command 
+                                                           
+25 Gazi Ahmed Muhtar Paşa, Anılar-2, Sergüzeşt -i Hayatımın Cild -i Sanisi , Tarih Vakfı 
+Yurt Yayınları, İstanbul 1996, p. 80. 
+26 BOA, İ.DH., 748/61133. 
+[s12] Umut Akçakaya                                                                                                                           12 
+ 
+of the war. As a matter of fact, the confusion of strategic command 
+could not be overcome until the end of the war.27 
+From the Beginning of the War to the Third Battle of Pleven 
+The Russian army entere d Romanian territory on April 24 and 
+completed its deployment within two months. On the other hand, the 
+Ottoman army made no attempt to restrict and prevent the activities 
+of its enemy in Romania. The destruction of the Barboshi bridge, which 
+the Russians had to use to cross the Seret River, was important in 
+slowing the movement of the enemy. This measure was considered by 
+the Ottoman headquarters, but the Ru ssians were more agile and 
+succeeded in seizing the bridge. 28 The Ottoman army remained 
+motionless throughout the Russian deployment. Reconnaissance 
+operations were not carried out in the north of the Danube, and spies 
+were not used properly. Ottoman comman ders were largely unaware 
+of the Russian preparations north of the river.29 
+The operation started with the Russian troops (25.000 men and 108 
+guns) crossing the Danube and entering Dobrudja on 22 June. It was a 
+deception. The Russians wanted to draw th e att ention of the 
+Ottomans to Dobruja . The task of the force that entered Dobruja was 
+to advance to the Constanta line and ensure the safety of the Russian 
+army in Romania. The Ottoman force in the region (15.000 men and 40 
+cannons) could not prevent the river  crossing and quickly retreated to 
+the Constanta line.30 The Russian army had easily reached its target at 
+east of the Danube. 
+On the other hand, the Russian troops deployed against Svishtov 
+approached the Danube and started to cross the river on 26 June. 
+Thanks to the imprudence of the Ottoman troops in Svishtov, the 
+Russians had crossed the river much more easily than they had 
+                                                           
+27 Mahmud Celaleddin Paşa, op. cit., p. 310; Uyar-Erickson, op. cit., p. 183-184. 
+28 Augustus Charles Hobart -Hampden, Hobart Pasha , Nel son Daubleday, New York 
+1915,  p. 220. 
+29 Mehmed Hulusi, Niçin Mağlub Olduk: 1877 -78 Osmanlı -Rus Seferi: Avrupa 
+Cephesindeki Harekât, Kayhan Yayınları, İstanbul 2021, p. 74. 
+30 Erkan-ı Harbiye Kolağalarından  Reşid, op. cit. , p.  38;  Tsenko Genov, “Military 
+Operations in the Balkan Theatre during the 1877 -78 War”,  Southeastern 
+Europe/L’europe Du Sud-Est, 6, Pt.2, (1979), p. 139. 
+[s13] How to Lost a War                                                                                                                      13 
+ 
+expected. The Ottoman forces (4000 men), who could not resist in 
+Svishtov, had to withdraw to Tırnovo in a short time. The Russians  
+completed the construction of a bridge on July 2, and succeeded in 
+passing a large amount of forces across the Danube. Russian troops 
+advanced rapidly to the south and captured Tırnovo on 7 July.31 
+The Ottoman defense could not react effectively during the  river 
+crossing, which was the most critical stage of the Russian operation. 
+The Ottoman troops in the region were not strong enough and were 
+not well commanded. The commanders had a tendency to withdraw 
+immediately in the face of enemy pressure. Abdulkeri m Pasha should 
+have acted quickly . Because the Russian forces, which were able to 
+cross the Danube until July 2, were relatively weak. It was obvious that 
+the Russian force crossing the river would increase in a short time. 
+Under these conditions, it was possible to move towards Svishtov with 
+the troops in Ruse and Nikopol. During this time Ottoman attacks 
+could put the Russians in a very difficult position. Thus, time would be 
+gained for the forces in Shumen to catch up and the Russians could be 
+prevented from crossing the Danube.  But the Front Commander 
+missed this opportunity by remaining inactive.32 
+Grand Duke Nikola did not face the difficulties he expected in the 
+Danube. He was thinking of advancing swiftly to the Balkan passes 
+with the majority of his forces while securing his flanks with secondary 
+forces. However, the Tsar was concerned about the Ottoman 
+deployment in Shumen and the forces in the fortresses.  Therefore, he 
+stopped the advance until the Russian troops in Romania had crossed 
+the river. After completing the river crossing, the Russian army was to 
+divide into three groups and continue its operation. While the central 
+group (8th Corps) was advancing towards the Balkan passes, the left 
+flank group (XII and XIII Corps) would advance west and h old the 
+                                                           
+31 R.Grant Barnwell, The Russo-Turkish War, John E. Potter And Company, Philadelphia 
+1877, s. 481-484; Maurice, op. cit., p. 61-65. 
+32 Abdulkerim Pasha, in his defense at the Court of War, said that the Russians mainly 
+planned to cross the Danube through Tutrakan, that he prevented this with the 
+measures he took and that they had to pas s through Svishtov. He stated that he 
+thought the operation in Svishtov might be a deception, that he was waiting for the 
+main operation in Ruse, and that there was not enough force in Ruse to re inforce 
+Svishtov.  Öztürk, op. cit., p. 129-130. 
+[s14] Umut Akçakaya                                                                                                                           14 
+ 
+Yantra line. Thus, it would cover the operation of the central group 
+against the Ottoman forces in Shumen and Ruse. On the other hand, 
+the right flank group (9th Corps) was going to occupy Nikopol and 
+Pleven against a possible operation of Osman Pa sha corps in Vidin. 33 
+This pause in the Russian advance was an important opportunity. 
+However, Abdülkerim Pasha would not be able to take advantage of 
+this opportunity. 
+While the Russian operation continued, the Ottoman forces in 
+Shumen and Ruse  (the Danube Eastern Army)  remained inactive. 
+However, while a small part of the Russian troops had crossed the 
+Danube, the Danube Eastern Army could have prevented the crossing 
+and threatened the left flank of the Russian troops advancing south. 
+With an e ffective attack, the Russian forces could be split in two and 
+their withdrawal paths could be cut off. However, Abdulkerim Pasha 
+remained motionless in hesitation. He left the initiative entirely to the 
+Russians. Istanbul, on the other hand, was worried ab out the Russian 
+advance. Abdülkerim Pasha, who h ad to act on the orders of the 
+Sultan himself, dispatched a corps (34 battalions and 40 cavalry 
+squadrons) from Shumen to Byala on 3 July. 34 This force under the 
+command of Ahmet Eyüp Pasha engaged in battle w ith the Russian 
+forces in the east of Byala on 9 July. However, Abdulkerim Pasha 
+panicked and ordered a withdrawal to Shumen on 11 July.35 
+The advance force of the Russian central group was under the 
+command of General Gurko. As a result of the reconnaissan ce he had 
+made from Tırnovo, Gurko  learned that the Hainköy s trait was 
+defended with a very weak force.  The Russians took advantage of this 
+                                                           
+33 Greene, op. cit., p. 164; Menning, op. cit., p. 57-58. 
+34 Abdülkerim Pasha, in his defense in the court of war, said that he planned to 
+prevent the Russians from reaching the Balkan passes by sending hiz force to 
+Omurtag.However, Istanbul intervened and demanded that  the forces be dispatched 
+in the di rection of Svishtov . Abdülkerim Pasha complained that he could not take the 
+measures he thought because of such interventions. Öztürk, op. cit., p. 131. 
+35 Mehmed Hulusi, op. cit. , p. 100-102; Süer, op. cit. , p. 134-137; According to the 
+decision taken by Abdülkerim Pasha together with Serasker Redif Pasha and Nazım 
+Pasha, the Ahmet Eyüp Pasha corps would not advance on the enemy, but would 
+retreat and draw the enemy on itself. Gencer-İpek, op. cit., p. 229. 
+[s15] How to Lost a War                                                                                                                      15 
+ 
+opportunity and captured the pass on 14 July. 36 Russian troops 
+advanced south from the Hainköy pass and captured Kaz anlak on 17 
+July. The main goal for the Russians was to capture the Shipka pass. 
+Russian attacks, from Gabrovo on 17 July and from the south on 18 
+July to Shipka pass, had failed. However, the weak Ottoman force 
+defending Shipka withdrew on the night of 18/19 July and emptied the 
+pass. The strategically important Shipka pass was captured by the 
+Russians on 19 July. Russian troops entered the Stara Zagora on July 
+22.37 Thus, the road to the south of the Balkan Mountains was opened. 
+The Sultan was panicked by the news from the front and sent the 
+Chief of General Staff Redif Pasha and Nazım Pasha to the front. Redif 
+Pasha, who came to Shumen on July 4, said  in the reports he sent to 
+the Sultan that the army did not have enough strength and supported 
+Abdulkerim P asha's decision to stay on the defensive. 38 The Sultan, 
+who lost his patience in the face of the defeats, dismissed Abdülkerim 
+and Redif Pashas from their duties on 17 July. On July 21, Mehmet Ali 
+Pasha was appointed as the General Commander of the Danube 
+Armies and Süleyman Pasha as the Balkan Com mander.39 Abdülkerim 
+and Redif Pashas were tried in the court of war and sentenced to exile. 
+The first target of the Russian right flank group (IX Corps) was 
+Nikopol. There was an Ottoman force of 10.000 men in the city under 
+the command of Hasan Pasha. Osm an Pasha had informed Hasan 
+Pasha that he would come to help in a few days while he was leaving 
+Vidin. The Russians attacked on July 15, but could not capture the city. 
+However, Hasan Pasha panicked and surrendered on 16 July. The 
+Russians had captured 700 0 prisoners in Nikopol. After two days of 
+preparation, the Russians dispatched a force to Pleven on 18 July. 40 
+However, they were late. 
+                                                           
+36 Nikolay Epan chin, Operations of General Gurko’s Advance Guard in 1877 , 
+çev.H.Havelock, Kegan Paul, Trench, Trübner Co., London 1900, p. 54-64 . 
+37 Barnwell, op. cit. , p. 504-507; Alexander Statiev, “The Thorns of the Wild Rose: 
+Russian Ordeals at the Shipka Pass During  the Russo-Turkish War of 1877 –1878”, The 
+Journal of Slavic Military Studies, 32/3, p. 369-371. 
+38 The Ottoman Ministry of War evaluated the strength of the Russian army, which 
+attacked from the Danube, as 160.000-180.000. BOA, A.}MKT.MHM., 481/100.  
+39 Ahmed Midhat Efendi, op. cit., p. 204-207.  
+40 Greene, op. cit., p.  185-189. 
+[s16] Umut Akçakaya                                                                                                                           16 
+ 
+The Ottoman Danube Western Army remained motionless in Vidin, 
+although the Russians crossed the Danube in the first days of the war. 
+Osman Pasha offered to the Front Commander to go to Pleven with his 
+forces, to meet with the Nikopol forces there, and then to attack 
+Svishtov in coordination with the Danube Eastern Army. Abdulkerim 
+Pasha, who did not want to leave Vidin defenseless, did not accept this 
+offer. However, due to the rapid advance of the Russian army, he 
+changed his mind and ordered Osman Pasha to advance to Pleven. 
+However, a telegram from Istanbul delayed Osman Pasha's advance 
+for a few days. The intelligence t hat the Russians would attack Vidin 
+would not turn out to be true. Osman Pasha departed from Vidin with 
+most of his forces on 13 July . On the way, he learned that N ikopol had 
+fallen and reached Pleven on 19 July after a difficult 190 -kilometers 
+walk. Pleve n was located at the crossroads of the roads leading to 
+western Bulgaria and the Balkan passes. 41 The deployment of a strong 
+Ottoman unit in the city was threatening the right flank of the Russian 
+forces advancing south. The Russians (13.000 infantry, 3 cav alry 
+regiments and 60 guns) were able to reach the city on 20 July and 
+attacked immediately. However, Osman Pasha (27 battalions, 1 cavalry 
+regiment and 46 guns) defeated the Russians and forced them to 
+withdraw. Russian casualties were over 2700. If the r etreating troops 
+were followed, the Russian defeat would have turned into a rout. 
+However, after days of marching, the soldiers were exhausted and 
+Osman Pasha did not have enough cavalry forces. Osman Pasha 
+immediately sent a force and took Lovech back. 42 The First Battle of 
+Pleven had been an important turning point in the war. For the first 
+time, the Ottoman forces were able to stop a strong Russian attack 
+and forced them to retreat. 
+The defeat in Pleven greatly disturbed the Tsar. Grand Duke 
+Nichola attempted to gather a new force to remove this obstacle that 
+                                                           
+41 The city of Pleven was located at the intersection of five critical roads. These ways; 
+Nikopol-Pleven road, Ruse -Byala-Pleven road, Plovdiv -Lovech-Pleven road, Sofia-
+Orhanie-Pleven road and Vidin -Pleven road.  Ahmet Cemal (Cemal Pasha ), Plevne 
+Müdafaası, Ötüken, İstanbul 2020, p. 39. 
+42 Albay Talat, Plevne Savunması , Gene lkurmay Basımevi, Ankara 1997, p . 4-12; Von 
+Der Goltz, Plevne: Tarih-i Harpten Asakir -i Redife Kısmına Dair Tedkikat , Mahmud Bey 
+Matbaası, İstanbul 1316 (1898), p. 4-13; Maurice, op. cit., p. 106-113. 
+[s17] How to Lost a War                                                                                                                      17 
+ 
+threatened the right flank of his army as soon as possible. The force 
+gathered under the command of General Krudener was 30 .000 men, 
+including 36 battalions, 30 cavalry squadrons and 176 cannons. 43 On 
+the other hand, Osman Pasha began to fortify the city. The force in 
+Pleven was about 20.000 men, including 33 battalions, 5 cavalry 
+squadrons and 300 Circassian volunteers. Before the attack on the city, 
+General Kru dener wanted to take control of the Pleve n-Sevlievo-
+Tırnovo road by seizing Lovech. However, his attack on Lovech on 28 
+July was unsu ccessful. Thereupon, General Kru dener attacked Pleven 
+on 30 July. But he was defeated again. Russian casualties amounted to 
+7000 men. If the panicked Russian troops  had been pursued, the 
+defeat would have turned into a rout. But Osman Pasha had very little 
+cavalry and his troops were exhausted in battle.44 
+The Russians, who had been advancing easily since the beginning of 
+the war, were defeated twice in Pleven. The ef fect of the defeat 
+spread to the entire army. The Russian General Headquarters was very 
+concerned about this situation. In these circumstances, Grand Duke 
+Nichola wanted to attack again quickly. However, the Tsar did not 
+approve of this. The Russians were also under the pressure of the 
+Ottoman Danube Eastern Army in the east and the Balkan Corps in the 
+south. If the forces gathered in front of Pleven and were defeated 
+once again, the Russian army would be defenseless against the 
+Ottoman forces in the east a nd south. In this situation, the Tsar 
+decided to bring reinforcements from Russia. In addition, the 
+Romanian army would participate in the Pleven campaign. 45 There 
+would be no operation to Pleven until reinforcements were gathered . 
+Throughout August, the Ru ssians were busy with the attacks of 
+Süleyman Pasha and Mehmet Ali Pasha. 
+During the days of the Pleven defeat, bad news was also coming 
+from the south of the Balkans for the Russians. While General Gurko 
+captured the Balkan passes in mid -July, the Ottoman  forces in Sliven 
+and Nova Zagora remained inactive. Having captured Shipka, the 
+                                                           
+43 Hozier, op. cit., p. 591; Greene, op. cit., p. 194. 
+44 İbrahim Edhem, Plevne Hatıraları, İstanbul 1979, p. 44-46; Süer, op. cit., p. 230-247; 
+Mehmed Hulusi, op. cit., p. 136-138; Menning, op. cit., p. 62-64. 
+45 Greene, op. cit., p. 203-205. 
+[s18] Umut Akçakaya                                                                                                                           18 
+ 
+Russian troops were advancing towards the Nova Zagora. It seemed 
+that the road to Edirne was opened for the Russians. However, the 
+situation was about to change. The Ottoman f orces in Montenegro 
+under the command of Süleyman Pasha received orders to transfer to 
+Eastern Rumelia on 3 July. These forces were transported by sea from 
+the Adriatic coast and arrived in Alexandroupolis on 21 July. Süleyman 
+Pasha proceeded to Nova Zagor a via Edirne without wasting any time. 
+He took the forces in Sliven and Nova Zagora under his command and 
+formed the Balkan corps (42 battalions and 2 cavalry squadrons) and 
+advanced to the Stara Zagora on 29 July. 46 His plan was to push the 
+Russians to the  north of the Balkan passes, and then to force them to 
+withdraw to  the Danube in coordinated attacks with the Danube 
+Eastern Army. Süleyman Pasha recaptured the Stara Zagora on July 31 
+and the Nova Zagora on August 3 and drove the Gurko forces to the 
+Hainköy Pass. The Russian advance in the south of the Balkans was 
+halted.47 
+Mehmet Ali Pasha, who was appointed as the General Com mander 
+of the Danube Armies, arrived in Shumen on 21 July. He decided to 
+gather the scattered forces in the Danube Eastern Army and form a 
+strong attack group. By the end of July, a force of 58 infantry 
+battalions, 38 cavalry squadrons and 96 guns had gath ered in Razgrad. 
+However, he did not find this force sufficient to take the offensive and 
+requested reinforcements from Istanbul to gather a force of about 100 
+battalions.48 It was a big mistake that Mehmet Ali Pasha did not attack 
+quickly. After the defeat in Pleven, the Russians had the opportunity to 
+recover and bring reinforcements from Russia.49 
+By the beginning of August, the Ottoman army had gained some 
+advantages. The Russian advance was stopped in Pleven and a large 
+enemy force was engaged there. The  Russians were driven from the 
+south of the Balkan Mountains and a strong Ottoman force deployed 
+                                                           
+46 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V.2, Askeri Mecmua, 11, (1928), p. 5. 
+47 Nikolay Epanchin, op. cit., p. 257-277; Ahmed Saib, op. cit., p. 169-178.  
+48 Süer, op. cit., p. 206-207. 
+49 At the end of August, Istanbul estimated that the Russian force in the Balkans was 
+248.000 men, of which 150 .000 were combatants and the rest were non -combatant 
+personnel. BOA, Y.PRK.ASK. 1/40. 
+[s19] How to Lost a War                                                                                                                      19 
+ 
+against Shipka. Besides, the Danube Eastern Army gathered in the 
+Razgrad-Omurtag region with its main force. If these groups could 
+attack in coordination, the Russian army could be driven to the 
+Danube. But that would not be possible. The forces in Razgrad, Shipka 
+and Pleven could not act in coordination to support each other. 
+Because there was a serious discord among the Ottoman commanders 
+at the front. Mehmet Ali Pasha, who was appointed as the General 
+Commander of the Danube Armies, had just risen to the rank of Müşir. 
+Süleyman and Osman Pasha were his seniors. This caused a reaction. 
+The forces in Shipka and Pleven acted as if they were independent. 
+The attit ude of Istanbul made the situation even more complicated. 
+There was mutual distrust and rivalry between Mehmet Ali Pasha and 
+Süleyman Pasha. In fact, Mehmet Ali Pasha was acting more like the 
+Eastern Army commander rather than Front Commander. The Sultan, 
+bypassing the Front Commander, was directly communicating with 
+Süleyman and Osman Pashas and giving orders. 50 Under these 
+conditions, it was not possible to establish a unity of command. 
+Süleyman Pasha captured Nova Zagora on 3 August and the 
+Russians withdrew to the Balkan passes. He was planning to attack the 
+Shipka pass. At the same time, the Danube Western Army would 
+attack from the east and the Danube Eastern Army from the west. 
+Thus, the enemy would be stuck between the three armies. 51 
+However, Mehmet A li Pasha did not agree.  He wanted Süleyman 
+Pasha to come to the north of the Balkans via Elena and Omurtag with 
+his main force and join the Danube East ern Army.52 He was thinking of 
+forcing the Russians to withdraw with the attack of his own forces 
+from the east and the Danube Western Army from the west. Thus, the 
+Ottoman forces would not have to attack a fortified position like 
+Shipka. However, Süleyman Pasha was reluctant to go to the north of 
+the Balkans with his forces and to enter the command of Mehmet  Ali 
+                                                           
+50 For the correspond ence between Süleyman Pasha, Mehmet Ali Pasha and Istanbul, 
+see. Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V.3, Erkan-ı Hârbiye-i Umumiye Onuncu 
+Şubesi, 1928, p. 1-171; Süer, op. cit., p. 181. 
+51 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık , V .2, s. 28 -29; Rumeli Orduları 
+Başkumandanı Süleyman Hüsnü Paşa’nın 93 Osmanlı -Rus Harbi Hatıraları , Çelik 
+Yayınevi, İstanbul 2021, p. 57. 
+52 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V.2, p. 114. 
+[s20] Umut Akçakaya                                                                                                                           20 
+ 
+Pasha. He wanted a victory on his own. Both sides were complaining 
+about each other to Istanbul, but neither the Sultan nor the Military 
+Council could solve the crisis at the front. As a result, the two 
+commanders did not agree on a coordinated attack  that would 
+support each other. Thus, the Russians had the opportunity to bring 
+reinforcements from Tırnovo at the most critical moments of the 
+Battle of Shipka.53 
+Süleyman Pasha, who decided to attack Shipka, had to move 
+quickly before the Russians could m ake defense preparations. 
+However, he lost time with the preparations for the attack, and the 
+Shipka attack could only begin on August 21. In this way, the Russians 
+had the opportunity to bring reinforcements and strengthen the 
+defense. The Ottoman force deployed against Shipka was 28.000 men. 
+However, the attack that continued for six days against the fortified 
+positions in a narrow strait was not successful. Ottoman casualties 
+were about 7000 men. Süleyman Pasha realized that he could not 
+seize the pass w ith his strength and stopped the attack. He attacked 
+Shipka once again on September 16. However, he was defeated again 
+and had to withdraw.54 
+Mehmet Ali Pasha played an important role in the loss of the Battle 
+of Shipka by not taking action. The force gathe red in Razgrad had 
+reached 67 battalions, 44 cavalry squadrons and 22 batteries by the 
+end of August.55 But Mehmet Ali Pasha could not dare to attack due to 
+the false intelligence he received about the enemy. He carried out 
+some limited targeted attacks with the warning of Istanbul, but did not 
+dare to a decisive battle. These attacks were made without a center of 
+gravity and were not well commanded. The Russians withdrew from 
+                                                           
+53 Mehmed Hulusi, op. cit., p. 146, 158-162; Erkan-ı Harbiye Kolağalarından Reşid, op. 
+cit., p. 51-52. 
+54 Barnwell, op. cit., p. 510-521; Greene, op. cit., p. 209-215. 
+55 In a report submitted to the S ultan on September 10, the state of force was shown 
+as follows. Danube East Army; 39 battalions in Ruse, 30 battalions in Silistra, 48 
+battalions in Shumen, 11 battalions in Varna and 15 battalions in Dobrici. Danube 
+Western Army; 20 battalions in Vidin, Lom and Rahova, 52 in Pleven, 32 in Sofia, 
+Berkovitsa and Orhanie. BOA, Y. PRK. ASK, 1/42. 
+[s21] How to Lost a War                                                                                                                      21 
+ 
+the Lom line and established a new line of defense just behind it.56 The 
+pressure from Istanbul was increasing day by day. Finally, Mehmet Ali 
+Pasha planned a massive attack at the beginning of October, but could 
+not find the opportunity to implement it. The Sultan dismissed 
+Mehmet Ali Pasha on October 2 and appointed Süleyman Pasha as t he 
+Commander of the Danube Army.57 
+From the Third Battle of Pleven to the End of the War 
+After surviving the Ottoman offensives in August, the Russians 
+turned their attention back to Pleven. Capturing this critical city would 
+unlock the war. Meanwhile, Osma n Pasha made a great effort to 
+improve the defense of the city. He was also trying to disrupt the 
+Russians by making limited attacks on critical areas around Pleven. 
+However, the Russian force against him was growing more and more. 
+With reinforcements from  Russia and the participation of the 
+Romanian army, the forces around Pleven had increased to four corps 
+(74.000 infantry, 10.000 cavalry and 442 cannons). The Russians also 
+brought heavy siege artillery. 58 The Ottoman force was approximately 
+40 thousand, including 35.000 infantry, 3000 cavalry, 1000 artillery 
+and 80 cannons.59 
+The first step of the Pleven operation would be th e capture of 
+Lovech. The force defending the city consisted of 8 infantry battalion s 
+and 6 cannons. The Russian force prepared for the attack on the city 
+consisted of 25 battalions, 4 regiments of cavalry and 30 cannons. The 
+Russians attacked on 1 September. Although the Ottoman forces 
+suffered great losses, they lasted until September 3 . Only two 
+battalions were able to withdraw to Pleven. Osman Pasha, who 
+learned that Lovech was in danger, took action with 22 battalions on 3 
+                                                           
+56 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V .3, s. 3-4; Maurice, op. cit., p. 152-159; 
+Süer, op. cit., p. 311. 
+57 Ahmed Midhat Efendi, op. cit., p. 256-262; Keçecizade İzzet Fuat, op. cit., p. 46-48. 
+58 Greene, op. cit., p. 234; According to H. Süer, the Russian force against Pleven was 
+96.000 infantry, 20.000 cavalry and 458 cannons. Süer, op. cit., p. 360. 
+59 Albay Talat, op. cit., p. 45; According to William von Herbert, the force in the city 
+was 30.000 men and 72 cannons. William von Herbert, The Defence of Plevna 1877 , 
+Smith, Elder&Co., London 1911, p. 181.   
+[s22] Umut Akçakaya                                                                                                                           22 
+ 
+September to help. However, when he approached the city, he saw 
+that he was late and he return to Pleven.60 
+The Third Battle of Pleven began with Russian bombardment on 7 
+September. While the Russian artillery heavily fired the fortifications 
+around the city, the offensive forces were positioned for the attack. 
+The defenders were trying to respond despite the insuffic ient number 
+of guns and ammunition. In addition, Ottoman forces were making 
+limited attacks against Russian positions. The fortifications destroyed 
+by artillery fire were being repaired at night s. After four days of 
+bombardment, on September 11, the Russia n-Romanian army 
+attacked. The Russians attacked in three groups. But these groups 
+could not act in coordination. In this way, Osman Pasha could move 
+troops to critical points within the defense lines. Due to the 
+determined defense of the Ottoman forces, th e Russians suffered 
+great losses. They managed to seize some fortifications around the 
+city. However, Osman Pasha took back most of these bastions with 
+counterattacks. By the evening of September 12, the Russian 
+casualties had exceeded 20.000  men. Ottoman casualties were about 
+4000 men. While the Russo -Romanian forces were withdrawing in 
+panic, the Ottomans were unable to carry out a pursuit operation once 
+again.61 
+After being defeated for the third time in Pleven, the Russians gave 
+up the offensive. In this  case, two courses of action are possible. The 
+first was to leave a sufficient force in front of Pleven and march on 
+Edirne with the rest of the army. However, the Tsar did not approve of 
+this plan. It was very dangerous to advance to the south of the Balkans 
+without capturing Pleven. As a result, it was decided to besiege the 
+city and cut off its contact with the outside. In order to besiege Pleven, 
+reinforcements had to come from Russia. A large cavalry force was 
+sent to the Pleven -Sofia road to isolate t he city. However, the Russian 
+                                                           
+60 Herbert, op. cit., p. 178-181.   
+61 In different sources, different numbers are given for the casualties of the R ussian-
+Romanian army between 18.000 -25.000 and for the Ottoman casualties between 
+3000-5000 men. Charles S. Ryan - John Sandes, Under The Red  Crescent, Charles 
+Scribner's Sons, New York 1897, p . 225-238; Francis Stanley,  St.Petersburg to Plevna , 
+Richard Bentley and Son, London 1878, p . 187 -203; Herbert, op. cit. , p. 221-223; 
+İbrahim Edhem, op. cit., p. 52-57.   
+[s23] How to Lost a War                                                                                                                      23 
+ 
+cavalry could not prevent the Ottomans from bringing supplies to 
+Pleven via Orhanie. The last Ottoman reinforcements arrived in the 
+city on 8 October. But the Russian force around Pleven continued to 
+increase. General Gurko ca ptured Radomirtsi on 28 October and 
+forced the Ottoman forces to withdraw to Orhanie. The siege was 
+completed when the Russians captured the Orhanie-Pleven road.62 
+Osman Pasha has been  criticized for not leaving Pleven when he 
+had the opportunity. Actually,  Osman Pasha knew that he would be 
+besieged and he wanted to withdraw from Pleven at the beginning of 
+October. He would retreat to Orhanie and be positioned there, 
+preventing the Russians from advancing to the south of the Balkans. In 
+case of staying in Pl even, the Orhanie-Pleven supply route had to be 
+kept open. However, Istanbul did not accept the withdrawal and failed 
+to keep the Orhanie -Pleven road open. 63 The war council gave 
+permission to withdraw from Pleven at the end of October, but it was 
+too late.64 
+The Russian army was stuck around Pleven. The pause in the 
+Russian operation was an important opportunity for the Ottomans.  
+But this opportunity would be wasted. Mehmet Ali Pasha had planned 
+a general offensive at the beginning of October. But Suleyman Pasha, 
+who was appointed as the Commander -in-Chief of the Danube Army 
+on October 2, did not consider the preparations for the attack 
+sufficient. He began preparations for the offensive again. By mid -
+October the strength of the Danube East ern Army had reach ed 
+118.000 men (71.800 in the field army and 46.400 in the forts). 
+However, Istanbul saw an offensive move as very dangerous and 
+wanted to wait for the enemy's move.65  The orders sent from Istanbul 
+to the front were  uncertain and inconsisted. These left Sü leyman 
+Pasha in indecision. 
+                                                           
+62 Alexander Jacob Schem, War In The East:  An Illustrated History of the Conflict 
+Between Russia, H.S.Goodspeed & Co., New York 1878,  p. 323-326; Maurice, op. cit., 
+p. 247-257; Barnwell, op. cit., p. 573-574. 
+63 Mahmud Celaleddin Paşa, op. cit., p. 470-471; Ahmed Midhat Efendi, op. cit., p. 272-
+277; Süer, op. cit., p. 454. 
+64 BOA, Y.EE, 76/26. 
+65 Süer, op. cit., p. 418-421. 
+[s24] Umut Akçakaya                                                                                                                           24 
+ 
+Rescuing the forces in Pleven was possible only with a coordinated 
+attack of the Danube Eastern Army, the Balkan Corps and the forces in 
+Sofia. However, Süleyman Pasha could not get support from the 
+commanders at the front.  The  incompatibility between the Ottoman 
+commanders prevented cooperation. Rauf Pasha, who was brought to 
+the Balkan Command after Süleyman Pasha, was hostile to him. Rauf 
+Pasha complained about Süleyman Pasha to Istanbul and said that he 
+did not want to work under his command. Rauf Pasha achieved his 
+goal at the end of November and was appointed as the commander of 
+the reserve army. Shortly after, he became the Chief of the General 
+Staff. After Rauf Pasha, Ahmet Eyüp Pasha was appointed as the 
+Balkan Commander. However, in a short time, conflict arose between 
+Ahmet Eyüp Pasha and Süleyman Pasha. Ahmet Eyüp Pasha was 
+dismissed on 20 December and replaced by Veysel Pasha. On the other 
+hand, Mehmet Ali Pasha, who was dismissed from the front command, 
+was appointed to the command of the forces in Sofia. Like Rauf Pasha, 
+Mehmet Ali Pasha did not cooperate with Süleyman Pasha. Mehmet 
+Ali Pasha planned an operation from Orhanie to open the way to 
+Pleven. However, he was not successful and was replaced by Şakir 
+Pasha. It was a big mistake that these three commanders, who could 
+not work together, were assigned to the Balkan front at the same 
+time. Istanbul did nothing to correct this mistake.66 
+The Ottoman headquarters spent October in indecision. According 
+to Suleyman Pasha, the Russian plan was to march to Sofia via Pleven 
+and from there to the south of the Balkans and advance to Edirne. In 
+order to prevent the Russians, the Orhaniye region had to be defended 
+strongly and the forces in Pleven had to be saved. For this pur pose, 
+Süleyman Pasha planned a coordinated operation. He would lead a 
+force of 40 battalions to be taken from the Danube Eastern Army and 
+the Balkan corps, and he would personally advance to Radomirtsi. At 
+the same time, Osman Pasha would break the siege a nd unite with 
+Süleman Pasha force in Radomirtsi. However, Istanbul did not accept 
+                                                           
+66 Uyar-Erickson, op. cit., p. 191-192; Ahmed Saib, op. cit., p. 282-287. 
+[s25] How to Lost a War                                                                                                                      25 
+ 
+this and demanded a new plan. 67 As the Ottomans wasted valuable 
+time, the siege in Pleven was approaching to the end. 
+By mid -November, the Ottoman and Russian armies were hold ing 
+their current positions. Süleyman Pasha was planning to move his 
+headquarters to Edirne in order to communicate easily with the forces 
+in Shipka and Sofia. This plan worried the Sultan a lot. Because the 
+Sultan had severe suspicions against Süleyman Pa sha because of his 
+role in the dethronement of Sultan Abdülaziz. As a result, he did not 
+allow Süleyman Pasha to leave Razgrad. 68 In this situation, Süleyman 
+Pasha decided to take action with the Danube Eastern Army. He would 
+attack Elena to attract the attention of the Russians and would allow 
+Osman Pasha to withdraw from Pleven. Süleyman Pasha captured 
+Elena on 4 December. The road to Tırnovo was opened. But Mehmet 
+Ali Pasha in Sofia did not act on Pleven. The  Balkan corps also did not 
+support this offensive. Under these conditions, Süleyman Pasha could 
+not continue the offensive towards Tırnovo. 69 Once again, an 
+important opportunity was missed because of the disagreement 
+between the commanders at the front. 
+By the end of November, Pleven had no hope of salvation. General 
+Gurko captured Orhanie on 28 November and forced Mehmet Ali 
+Pasha to withdraw. The Russo -Romanian force around the city had 
+totaled 160.000 men, including 191 battalions, 120 cavalry squadrons 
+and 650 cannons. The Ottoman force was about 40.000 men, including 
+30.000 combatants. There were not enough supplies and ammunition 
+stored in the city. By December supplies had run out. Nearly 4000 
+soldiers had died in the last six weeks, most of them from  disease.70 
+Osman Pasha had planned to break the siege with a sudden attack and 
+withdraw to Sofia rather than surrender. The Ottoman forces leaving 
+Pleven on 10 December . They  were able to break through the first 
+siege line, but could not advance any furthe r. The Ottoman army lost 
+                                                           
+67 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V .4, Erkan-ı Hârbiye-i Umumiy e Onuncu 
+Şubesi, 1928, p. 1. 
+68 Rumeli Orduları Başkumandanı Süleyman Hüsnü Paşa’nın 93 Osmanlı -Rus Harbi 
+Hatıraları, s. 64-65; Süer, op. cit., p. 431-432. 
+69 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V.4, p. 19-20. 
+70 Greene, op. cit., p. 290-298; Herbert, op. cit., p. 306 
+[s26] Umut Akçakaya                                                                                                                           26 
+ 
+about 6000 casualties in the battle. After Osman Pasha was injured, 
+the Pleven army had to surrender. 71 Osman Pasha was personally 
+visited by Grand Duke Nichola and Romanian Prince Charles and 
+congratulated for his heroic defense.72 
+The fall of Pleven changed the course of the war, and the Russian 
+forces, gathered around the city for siege , was released. The Russian 
+force gathered at the front had exceeded 300.000 men. In addition, 
+Serbia declared its independence on December 16 and d eclared war 
+on the Ottoman Empire. Some of the Ottoman forces in Sofia had to 
+engage in the Serbian operation. Two ideas were put forward at the 
+Russian headquarters for the next phase of the operation. According 
+to some commanders, it was very dangerous t o advance to the south 
+of the Balkans under winter conditions and the Ruse fortress had to be 
+captured first. Grand Duke Nichola, on the other hand, wanted to 
+move quickly to the south of the Balkans via Sofia and march on 
+Edirne. Finally, the second opini on prevailed. 73 The Ottoman plan, on 
+the other hand, was to stop the Russian army at the Balkan passes and 
+prevent its advance to the south of the Balkans. According to Istanbul, 
+if the Russian army could be stopped for a while, diplomacy would 
+come into pl ay and the war would come to an end. For this purpose, 
+Istabul requested that a force of 60 battalions be shifted from the 
+Danube Eastern Army to the south of the Balkan Mountains.74 
+The Russians took action on December 28. General Gurko (65.000 
+infantry, 6 000 cavalry and 280 guns) advanced from Orhanie and 
+captured Sofia on January 3, 1878. 75 Ottoman forces withdrew to 
+Pazardzhik and started to establish a new defense line. Süleyman 
+Pasha was planning to collect his forces in Edirne and establish a new 
+line of defense. Edirne was in the middle of the front and the center of 
+the telegraph lines. He wanted to move his headquarters to Edirne. 
+But the Sultan, who was worried that Süleyman Pasha would be so 
+                                                           
+71 Albay Talat, op. cit., p. 111-118; İbrahim Edhem, op. cit., p. 67-73; Henry Hozier, op. 
+cit., p. 715-725. 
+72 Stanley,  op. cit., p. 239-241. 
+73 Greene, op. cit., p. 323-324 
+74 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V.4, p. 220-221; Ahmed Saib , op. cit., p. 
+305-306; Menning, op. cit., p. 57. 
+75 Maurice, op. cit., p. 292-293. 
+[s27] How to Lost a War                                                                                                                      27 
+ 
+close to the capital, did not allow it. Istanbul forced Süleyman Pasha to 
+go to the defense  line in Pazardzhik. Süleyman Pasha, who came to 
+Panagüriste, was ten hours away from the nearest telegraph center. 
+While he was at the headquarters in Panagüriste, it was not possible 
+for him to learn the developments in time and give orders quickly. The 
+Front Commander was paralyzed.76 
+While the Ottoman army was trying to establish a defensive line in 
+Pazardzhik, the Russians attacked Shipka. General Radetzky's forces 
+(56.000 infantry, 2000 cavalry and 252 guns) were divided into three 
+groups. While the central group attacked directly, t he other two 
+groups advanced from the east and west of the pass to encircle the 
+Ottoman troops. The Russian operation was successful and the 
+Ottoman troops at Shipka surrendered on January 9. 77 The situation 
+was very critical for the Ottoman army. The Russians could march from 
+Shipka to Edirne and surround the Ottoman forces in Pazardzhik from 
+behind. Under these conditions, all Ottoman forces had to be 
+withdrawn to Edirne quickly and a new defense line had to be 
+established. The Ottoman army could gain time by defending in Edirne 
+and the Russians could be persuaded to an armistice during this time. 
+But Istanbul made a big mistake. The Ottoman government decided to 
+ask for an armistice on 8 January. In this context, all troops were 
+ordered to keep their posit ions and not to withdraw. Istanbul was 
+acting as if an armistice had been signed. However, the Russians did 
+not respond to the armistice offer and continued to advance. All 
+troops had to be withdrawn to Edirne quickly, but Istanbul prevented 
+this. Süleyman  Pasha lost two days to get approval from Istanbul to 
+withdraw to Edirne.78   
+                                                           
+76 Süleyman Hüsnü Paşa, Umdetü’l Hakâyık , V .2, p . 161 -162; Rumeli Orduları 
+Başkumandanı Süleyman Hüsnü Paşa’nın 93 Osmanlı-Rus Harbi Hatıraları, p. 75-78. 
+77 Richard Graf von Pfeil, Experiences of a Prussian Officer in the Russian Service During 
+the Turkish War of 1877 -1878, Edward Stanford,  London 1893, p . 184-204; Alexander 
+Statiev, “A Hitch on the Path to Glory: The Breakthrough Across the Balkan Ridge 
+During the Russo-Turkish War of 1877–78”, The Journal of Slavic Military Studies, 32/4, 
+(2019) p. 519-522 ; Hozier, op. cit., p. 798-803. 
+78 Süleyman Hüsnü  Paşa, Umdetü’l Hakâyık , V .4, p . 350; Rumeli Orduları 
+Başkumandanı Süleyman Hüsnü Paşa’nın 93 Osmanlı-Rus Harbi Hatıraları, p. 79-82. 
+[s28] Umut Akçakaya                                                                                                                           28 
+ 
+The Russians took advantage of this opportunity and from the 
+north they advenced to the withdrawal route of the forces in 
+Pazardzhik. General Gurko, on the other hand, was pushing  the 
+Ottoman forces by advancing from the west. Süleyman Pasha could 
+not hold on to Plovdiv. His retreat path was also cut off. Stuck between 
+two Russian forces, Suleyman Pasa panicked and headed for the 
+Rhodope Mountains. The Ottoman forces passed through  the passes 
+in the mountains and reached Komotini and Xanthi in a devastated 
+state.79 Suleyman Pasha was planning to gather his forces again and 
+transport them to Alexandroupoli by sea and reach Edirne. However, 
+he wouldn't have enough time for that. 
+The Russians captured Plovdiv on January 17. Edirne road was 
+completely opened. The weak Ottoman force gathered in the city 
+withdrew on 19 January. The Russians entered Edirne on 20 January 
+without any resistance. Meanwhile, Ahmet Muhtar Pasha, who was 
+called from the Caucasus Front, was trying to establish a defense line 
+in Çatalca. But it was a hopeless effort. Only 25.000 men were able to 
+gather in Çatalca in a miserable condition. Russian forces reached 
+Çatalca on 29 January. The Sultan saw that the situati on was hopeless 
+and appli ed to the Tsar on 13 January to request  an armistice. 
+Armistice talks started on 20 January and were signed on 31 October 
+in Edirne. The Russian army entered Çatalca on 6 February. Grand 
+Duke Nichola established his headquarters in  San Stefano the next 
+day.80 The war was over. 
+Conclusion 
+The war of 1877 -1878 was a tough exam for the Ottoman army.  
+But he failed in this exam. There were many reasons for the defeat. In 
+particular, mistakes made in strategic command were decisive in the  
+defeat. While the Ottoman campaign was being planned, the course of 
+action that the Russians would follow could not be predicted correctly. 
+Ottoman decision makers had acted with wrong predictions. The 
+Ottomans thought that the Russians would not go to th e south of the 
+                                                           
+79 Erkan-ı Harbiye Kolağalarından Reşid, op. cit. , p. 60-61; Keçecizade İzzet Fuat, op. 
+cit., p. 112-114; Greene, op. cit., p. 338-347. 
+80 Gazi Ahmed Muhtar Paşa, op. cit., p. 284-289; Mehmed Hulusi, op. cit., p. 204-208. 
+[s29] How to Lost a War                                                                                                                      29 
+ 
+Balkans without capturing the Danube fortresses as in the previous 
+wars, but they were wrong. Therefore, an incorrect deployment was 
+made. The Danube River and the Balkan Mountains, which were the 
+main defense lines, were not defended with s ufficient forces. As a 
+matter of fact, the Russian army was able to cross the Danube easily 
+and captured the Balkan passes in a very short time. The Ottoman 
+forces, which were deployed very dispersedly, could not react by 
+gathering on time. 
+The Ottoman arm y entered the war with a wrong plan and 
+improper deployment. However, bigger mistakes were made in the 
+command of the war. Three generals commanded the Ottoman forces 
+in the Balkans throughout the war. Of these, only Abdülkerim Pasha 
+had authority over the army commanders. However, he could not take 
+the necessary measures against the rapidly developing Russian 
+operation and was dismissed in a short time. Mehmet Ali Pasha and 
+Süleyman Pasha never had the opportunity to act as front 
+commanders. Incompatibility and personal struggles between frontline 
+commanders paralyzed the command system. This situation worsened 
+with the interventions  of Istanbul on the front. The S ultan's desire to 
+conduct the war from Istanbul , destroyed the unity of command. The 
+repeated interventions of both the S ultan and the military council 
+destroyed the weak authority of the front commanders. Under these 
+conditions, it was not possible for the Ottoman forces gathered in 
+Shumen, Shipka and Pleven to carry out a coordinated operation. T he 
+Ottoman forces, which could not act together against the enemy, were 
+defeated piece by piece. On the other hand, the Russian army was 
+commanded from one hand throughout the war and the Tsar did not 
+leave the army. 
+  The only significant success of the O ttoman army on the Balkan 
+Front was the defense of Pleven, which lasted for five months. 
+Ottoman soldiers proved to the whole world, how well they could fight 
+under the command of a competent and determined commander like 
+Osman Pasha. However, the advantag e gained through the defense of 
+Pleven could not be used properly. With the defeat at the end of the 
+war, the Ottoman rule in the Balkans was largely eliminated. The great 
+migration from the Balkans to Anatolia due to the war had important 
+[s30] Umut Akçakaya                                                                                                                           30 
+ 
+political and social consequences. With the war of 1877-1878, another 
+step was taken on the way to the end of the Ottoman Empire. 
+ 
+ 
+References 
+Primary Sources 
+Turkish Rebublic Presidency Ottoman Archives (BOA)  
+BOA, İ.DH., 748/61133, (24 May 1877). 
+BOA, A.}MKT.MHM., 481/100, (21 July 1877). 
+BOA, Y.PRK.ASK., 1/40, (26 August 1877). 
+BOA, Y. PRK. ASK, 1/42, (10 September 1877). 
+BOA, Y.EE, 76/26, (29 October 1877). 
+ 
+Books and Articles 
+Ahmed Midhat Efendi, Zübdetü’l Hakayık, 93 Harbi’nin Arka Planı , Türk 
+Tarih Kurumu, Ankara 2015. 
+Ahmet Cemal (Cemal Pasha), Plevne Müdafaası, (Ötüken, İstanbul 2020 
+Ahmed Saib, Son Osmanlı-Rus Muharebesi, Hindiye Matbaası, Kahire 1327 
+(1911). 
+Albay Talat, Plevne Savunması, Genelkurmay Basımevi, Ankara 1997. 
+Beşikçi, Mehmet, “Başıbozuk Savaşçıdan ‘Makbul’ Tebaaya: 1877 -1878 
+Osmanlı-Rus Savaşı’nda Osmanlı Ordusunda Çerkez Muhacirler”, Hacettepe 
+Üniversitesi Türkiyat Araştırmaları Dergisi, 23, (2015), p. 85-124. 
+Barnwell, R.Grant, The Russo -Turkish War , John E.Potter And Company, 
+Philadelphia 1877. 
+Epanchin, Nikolay, Operations of General Gurko’s Advance Guard in 1877 , 
+(Translated by H.Havelock), Kegan Paul, Trench, Trübner Co., London 1900.   
+Erkan-ı Harbiye Kolağalarından Reşid, 1293 Osmanlı -Rus Sefer -i Ahiri , 
+Kayıhan Yayınları, İstanbul 2016. 
+Gazi Ahmed Muhtar Paşa, Anılar-2, Sergüzeşt -i Hayatımın Cild -i Sanisi , 
+Tarih Vakfı Yurt Yayınları, İstanbul 1996. 
+Gencer, Ali İhsan -İpek, Nedim, “1877 -1878 Osmanlı -Rus Harbi Rumeli 
+Cephesi Vesikaları (Temmuz 1877)”, Belgeler, 25/19, (1993), p. 205-244. 
+Genov, Tsenko, “Military Operations in the Balkan Theatre during the 
+1877-78 War”,  Southeastern Europe/L’europe Du Sud -Est, 6, Pt.2 (1979), p. 
+136-153. 
+Greene, Francis Vinton, Russian Army and its Campaigns in Turkey in 
+1877-1878, D. Appleton&Company, New York 1879. 
+[s31] How to Lost a War                                                                                                                      31 
+ 
+Herbert, William von, The Defence of Plevna 1877 , Smith, Elder&Co., 
+London 1911. 
+Hobart-Hampden, Augustus Charles, Hobart Pasha , Nelson Daubleday, 
+New York 1915. 
+Hozier, Henry Montague, The Russo -Turkish War I -III-IV, Willi am 
+Mackenzie, London 1878. 
+İbrahim Edhem, Plevne Hatıraları, İstanbul 1979. 
+Jelavich, Barbara, History Of The Balkans, Eighteenth a nd Nineteenth 
+Centuries I, Cambridge University Press, Cambridge 1995. 
+Karal, Enver Ziya, Osmanlı Tarihi VIII, Birinci Meşrutiyet ve İstibdat Devirleri 
+(1876-1908), Türk Tarih Kurumu, Ankara 2007. 
+Keçecizade İzzet Fuat, Kaçırılan Fırsatlar, 1877-1878 Osmanlı -Rus Savaşı 
+Hakkında Eleştiriler ve Askerî Düşünceler , Genelkurmay Basımevi, Ankara 
+1997. 
+Kurat, Akdes Nimet, Türkiye ve Rusya, Kültür Bakanlığı Yayınları, Ankara 
+1990. 
+Kurat, Yuluğ Tekin, “1877 -1878 Osmanlı-Rus Harbinin Sebepleri”, Belleten, 
+26, (1962), p. 562-597. 
+Mahmud Celaleddin Paşa, Mir’at-ı Hakikat , Berekat Yayınevi, İstanbul 
+1983. 
+Maurice, Frederick, The Russo -Turkish War  1877, Swan Sonnenschein, & 
+Co., London 1905. 
+Mehmed Hulusi, Niçin Mağlub Olduk: 1877 -78 Osmanlı-Rus Seferi: Avrupa 
+Cephesindeki Harekât, Kayhan Yayınları, İstanbul 2021. 
+Menning, Bruce W., Bayonets Bofore Bullets, The Imperial Russian Army 
+1861-1914, Indiana University Press, Bloomington & Indianapolis.  
+Öztürk, Mustafa, “1877 -1878 Osmanlı -Rus Harbi Belgeleri: Abdi Paşa'nın 
+Muhakemesi”, Belgeler, 23/27, (2003), p. 117-139. 
+Pfeil, Richard Graf von, Experiences of a Prussian Officer in the Russian 
+Service During the Turkish War of 1877-1878, Edward Stanford,  London 1893. 
+Rumeli Orduları Başkumandanı Süleyman Hüsnü Paşa’nın 93 Osmanlı -Rus 
+Harbi Hatıraları, Çelik Yayınevi, İstanbul 2021. 
+Ryan, Charles S. -Sandes, John, Under The Red Crescent , Charles Scribner's 
+Sons, New York 1897. 
+Schem, Alexander Jacob, War In The East:  An Illustrated History of the 
+Conflict Between Russia, H.S.Goodspeed & Co., New York 1878. 
+Stanley, Francis, St.Petersburg to Plevna, Richard Bentley and Son, London 
+1878. 
+Statiev, Al exander, “A Hitch on the Path to Glory: The Breakthrough 
+Across the Balkan Ridge During the Russo -Turkish War of 1877 –78”, The 
+Journal of Slavic Military Studies, 32/4, (2019), p. 507-525. 
+[s32] Umut Akçakaya                                                                                                                           32 
+ 
+Statiev, Alexander, “The Thorns of the Wild Rose: Russian Ordeals at the 
+Shipka Pass During the Russo -Turkish War of 1877 –1878”, The Journal of 
+Slavic Military Studies, 32/3, (2019), p. 367-387. 
+Süer, H.Hikmet,  1877-1878 Osmanlı -Rus Harbi  Rumeli Cephesi , 
+Genelkurmay Basımevi, Ankara 1993. 
+Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V.2, Askeri Mecmua, S.11, 1928. 
+Süleyman Hüsnü Paşa, Umdetü’l Hakâyık, V .3-4, Erkan-ı Hârbiye -i 
+Umumiye Onuncu Şubesi, 1928. 
+Türk Silahlı Kuvvetleri Tarihi,  1877 -1878 Osmanlı -Rus Harbî Kafkas 
+Cephesi Harekâtı II, Genelkurmay Basımevi, Ankara 1985. 
+Uyar, Mesut-Erickson, Edward J., A Military History of The Ottomans, From 
+Osman to Atatürk, Praeger Security International, California 2009. 
+Von Der Goltz , Plevne: Tarih -i Harpten Asakir-i Redife Kısmına Dair 
+Tedkikat, Mahmud Bey Matbaası, İstanbul 1316 (1898). 
+Yasamee, F.A.K.,  Ottoman Diplomacy, Abdülhamid II and the Great 
+Powers, 1878-1888, Gorgias Press, New Jersey 2011. 
+Yıldız, Gültekin, “Kara Kuvvetleri”, Osmanlı Askeri Tarihi:  Kara, Deniz ve 
+Hava Kuvvetleri, 1792 -1918, (Ed.Gültekin Yıldız), T imaş Yayınları, İstanbul 
+2013, p. 35-78. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+[s33] How to Lost a War                                                                                                                      33 
+ 
+APPENDICES 
+Appendix 1. Balkan Front  Operations in the Ottoman-Russian War of 
+1877-1878 
+ 
+ 
