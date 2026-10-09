@@ -70,6 +70,7 @@ i = KAYNAK.index('JS = r"""') + len('JS = r"""')
 j = KAYNAK.index('"""', i)
 JS = KAYNAK[i:j]
 gecici = tempfile.mkdtemp(prefix="sinav_donem_")
+node_hukum = None    # True ulaştı · False ulaşmadı · None ölçülemedi (node hatası)
 try:
     os.makedirs(os.path.join(gecici, "data"))
     io.open(os.path.join(gecici, "data", "yer_yama_SINAV.js"),
@@ -81,13 +82,17 @@ try:
         '       {f:"1814-01-14",t:"1923-10-29",d:"isvec"}\n'
         '    ] },\n'
         '];\n')
-    p = subprocess.run(["node", "-e", JS], cwd=gecici,
-                       capture_output=True, text=True, encoding="utf-8")
+    try:
+        p = subprocess.run(["node", "-e", JS], cwd=gecici,
+                           capture_output=True, text=True, encoding="utf-8")
+    except OSError as e:     # node yok ⇒ ölçülemedi (2), ihlal (1) DEĞİL
+        p = subprocess.CompletedProcess([], 127, "", "node koşturulamadı: %s" % e)
     if p.returncode != 0:
         print("   🔴 node hatası: " + (p.stderr or "")[:200])
     else:
         veri = json.loads(p.stdout)
         print("   süzgeçten geçen kayıt: %d" % len(veri))
+        node_hukum = False
         if veri:
             r = veri[0]["r"]
             d0 = (r.get("s") or [{}])[0]
@@ -96,6 +101,7 @@ try:
             var = "kaynak" in d0
             print("   ⇒ dönem-içi `kaynak:` Python'a ULAŞTI: " +
                   ("🟢 EVET — " + str(d0["kaynak"]) if var else "🔴 HAYIR"))
+            node_hukum = var
 finally:
     shutil.rmtree(gecici, ignore_errors=True)
 
@@ -103,10 +109,15 @@ print()
 print("=" * 66)
 print("HÜKÜM")
 print("=" * 66)
-if a1 == 2 and a2 == 0 and korunan:
+# ② node süzgeci de hükmün parçasıdır — 🔴 basıp çıkış 0 vermez.
+if a1 == 2 and a2 == 0 and korunan and node_hukum:
     print("🟢 DÖNEM-İÇİ `kaynak:` TAŞINIYOR — dayanak yaması YAZILABİLİR.")
     print("   `js_yaz` sabit bir alan listesi KULLANMIYOR: `deger.items()`")
     print("   sözlükteki HER anahtarı yazıyor. `not:`/`bos:` vakasının")
     print("   (sabit `sira` listesi) tersi — o kusur BURADA YOK.")
+elif a1 == 2 and a2 == 0 and korunan and node_hukum is None:
+    print("⚪ ÖLÇÜLEMEDİ — node süzgeci koşmadı (②); hüküm eksik.")
+    raise SystemExit(2)
 else:
     print("🔴 KUSUR VAR — dayanak yaması YAZILMAZ, koordinatöre bildir.")
+    raise SystemExit(1)

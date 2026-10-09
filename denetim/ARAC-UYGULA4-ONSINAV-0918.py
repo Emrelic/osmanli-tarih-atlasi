@@ -38,6 +38,12 @@ mes = sorted(((girdi.km(YENI[1], YENI[2], y["lat"], y["lon"]), y["ad"]) for y in
 for d, a in mes:
     print(f"   {d:8.1f} km  {a}")
 print("   3 km eşiği:", "🔴 İHLAL" if mes[0][0] < 3 else "✓ temiz")
+# Yama İNDİYSE en yakın nokta yeni noktanın KENDİSİDİR (0 km, aynı ad):
+# ön sınavın sorusu artık sorulamaz — İHLAL değil ÖLÇÜLEMEDİ.
+kendisi = mes[0][0] < 0.05 and norm(mes[0][1]) == n
+if kendisi:
+    print("   ⚪ nokta ZATEN veride (yama inmiş) — ön sınavın sorusu bayat, ÖLÇÜLEMEDİ")
+ihlal_3km = mes[0][0] < 3 and not kendisi
 
 print("\n② Belgrad")
 b = [y for y in Y if y["ad"] == "Belgrad"]
@@ -63,9 +69,19 @@ def gun(s):
     return date(int(s[:4]), int(s[5:7]), int(s[8:10])).toordinal()
 
 
+maddesiz = []
 for hedef in ("1789-10-13", "1791-08-04", "1789-11-01"):
     yak = sorted(((abs(gun(t) - gun(hedef)), t, b, f) for t, b, f in mad))[:3]
+    if not yak or yak[0][0] > 30:
+        maddesiz.append(hedef)
     print(f"   {hedef}:")
     for d, t, b, f in yak:
         im = "🟢" if d <= 30 else "🔴"
         print(f"      {im} {d:5d} gün · {t} · {b[:70]} · {f}")
+
+# Hüküm çıkış koduna bağlı (CLAUDE.md §3: 0 temiz · 1 ihlal · 2 ölçülemedi).
+print("\nHÜKÜM:", "🔴 İHLAL" if (ihlal_3km or maddesiz) else
+      ("⚪ ÖLÇÜLEMEDİ" if kendisi else "✓ temiz"),
+      "· 3 km:", "İHLAL" if ihlal_3km else ("ölçülemedi" if kendisi else "temiz"),
+      "· ±30 gün maddesiz:", maddesiz or "yok")
+sys.exit(1 if (ihlal_3km or maddesiz) else (2 if kendisi else 0))

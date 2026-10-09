@@ -109,3 +109,5 @@ for e in bosluk[:5]:
 io.open(os.path.join(KOK, "denetim", "HARITA-DURUM-0074-KABARTMA-SINAV.json"), "w",
         encoding="utf-8").write(json.dumps(SON, ensure_ascii=False, indent=1))
 print("yazildi")
+# "SINAV KALDI" basip cikis 0 vermez (CLAUDE.md §3: 0 temiz · 1 ihlal).
+sys.exit(0 if hepsi else 1)
