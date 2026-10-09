@@ -1,0 +1,51 @@
+{
+  "_kalem": "HAYALET-KUNYE-1008-K — K grubunun DİFF'E GİRMEYEN beş künyesi. Yeni künye ya da boya istemiyorlar; eksik olan KAYNAK. Her biri için ne bulundu, ne bulunamadı, hangi seçenek kaldı. UYGULANMADI.",
+  "diffe_girmeyenler": [
+    {
+      "id": "palembang-sultanligi",
+      "nokta": ["Palembang (1281→1825)", "Lampung (1281→1527)"],
+      "sinif": "③ — 1281-1659 arası BİRDEN ÇOK sahip",
+      "bulunan": [
+        "TDV `sumatra`: «Srivijaya, VII. yüzyıldan XIV. yüzyıla kadar adanın en önemli siyasî gücü olarak varlığını sürdürmüştür» · «XIV. yüzyılın ikinci yarısında [Macapahitler’in] egemenliklerini tanımıştır»",
+        "TDV `endonezya`: «1440 yıllarında … Palembang’daki Majapahitler’in valisi Arya Damar» · «Majapahit Krallığı’nın 1478’de yıkılışı» · «1658 yılında … Palembang Sultanlığı ile yaptığı savaş»"
+      ],
+      "celiski": "🔴 `srivijaya` künyesi t:1275-01-01 — TDV Srivijaya'yı XIV. yüzyıla dek yaşatıyor. Öncül olarak `srivijaya` yazılırsa 4c'ye düşer; künye ucu önce çözülmeli. `majapahit` künye t:1527, TDV yıkılışı 1478 diyor — ikinci çelişki.",
+      "bulunamadi": "1478→1659 Palembang'ın sahibi (Demak? yerel krallık?) · Srivijaya→Majapahit geçişinin yılı (TDV yalnız 'XIV. yy ikinci yarısı') · Lampung'un 1527 öncesi sahibi",
+      "secenek": "(a) 1281→1351 `srivijaya` [künye t genişletilirse] · 1351→1478 `majapahit` [kesinlik yuzyil] · 1478→1659 __BOSLUK__ · 1659→ sultanlık. (b) künye ucu çözülene dek DOKUNMA. Önerim (b): zincirin iki ucu da başka künyelerin bozuk penceresine yaslanıyor."
+    },
+    {
+      "id": "gova-makassar",
+      "nokta": ["Makassar", "Bantaeng"],
+      "sinif": "② AYNI DEVLET (Gowa krallığı → 1603'te İslâm'a geçen sultanlık) — K değil, künye ADI dar",
+      "bulunan": [
+        "TDV `endonezya`: «Sulavesi’nin güney bölgesi, XVII. yüzyıl başlarında Gowa hükümdarının müslüman olmasıyla (1603) İslâmiyet’e girdi» ⇒ 1603'te hükümdarı olan bir Gowa ZATEN VAR",
+        "Britannica 'Gowa' (Z3): «…1530 the Makassarese state of Gowa emerged as the strongest state, and its ruler adopted Islam in 1605»"
+      ],
+      "celiski": "⚠️ İhtida yılı: TDV 1603 ↔ Britannica 1605. TDV esas (§4).",
+      "bulunamadi": "Gowa krallığının KURULUŞU (Z3 de bulamadı). 1530 kuruluş DEĞİL ('emerged as the strongest').",
+      "secenek": "Künye adı 'Gova (Makassar) Krallığı / Sultanlığı' olmalı (ad değişikliği, f değil). f için alt sınır yok ⇒ 1281 kaynaksız ama KISALTMA da kaynaksız. Kaynak bulunana dek dokunma."
+    },
+    {
+      "id": "pagaruyung",
+      "nokta": ["Padang", "Bengkulu", "Indrapura", "Painan"],
+      "bulunan": ["TDV `endonezya`: Minangkabau bölgesinin İslâmlaşması XVI. yy (kuruluş DEĞİL)"],
+      "bulunamadi": "kuruluş — TDV minangkabau/pagaruyung 302, sumatra/endonezya yıl vermiyor, EB1911 'Menangkabau' maddesi yok. Z3'ün 'Adityawarman 1347' notu model bilgisi, KAYNAK DEĞİL.",
+      "secenek": "dokunma; akademik kaynak aranmalı"
+    },
+    {
+      "id": "choctaw",
+      "nokta": ["Nanih Waiya (1281→1830)", "Moundville (1450→1699)"],
+      "bulunan": ["EB1911 c.6 s.275 'Choctaws': kuruluş tarihi YOK («Their emigration westward began about 1800»)"],
+      "bulunamadi": "konfederasyonun kuruluşu (Z3 de bulamadı)",
+      "secenek": "dokunma. ⚠️ Moundville `moundville` 1281→1450 sonra `choctaw` — Mississippi şefliği → Choctaw geçişi kaynaksız, ayrı kalem."
+    },
+    {
+      "id": "matamba",
+      "nokta": ["Matamba"],
+      "bulunan": [],
+      "bulunamadi": "kuruluş — TDV angola 302, EB1911 'Matamba' maddesi yok, Britannica 404 (Z3)",
+      "secenek": "dokunma"
+    }
+  ],
+  "diffteki_kunyeler_beyan": "8 künyenin f'si değişti (lan-xang 1353 yil · magindanao 1515 onyil · dagbon 1401 · bunyoro 1501 · gond 1301 · merina-oncesi 1401 · creek 1701 · powhatan 1501, yüzyıllar kesinlik:{f:'yuzyil'} — emsal Bîcâr kur:'1801-01-01' kesinlik:'yuzyil'). Yeni künye YOK, yeni boya YOK: öncüller `__BOSLUK__`, `filipin-racaliklari` (boyalı), `betsimisaraka` (boyalı)."
+}
