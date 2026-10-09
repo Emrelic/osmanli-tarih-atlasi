@@ -372,6 +372,65 @@ Sümer kutusu (güney Mezopotamya)   D=150 km → 13-20 KAYNAKLI nokta
 Bölge bölge tablo `LAB-YOGUNLUK-IZGARA-1010.md §6`da. **Bunlar ALT SINIR**;
 kutu kenarı ayrıca ölçülür.
 
+### 5.1 🆕 🔴 SÜMER ÇEKİRDEK KUTUSU — resmî tanım (10 Ekim 2026, koordinatör hükmü)
+
+`D220` pencere genişlemesinin SIRASINI veriyor ama **koordinatlı bir çekirdek
+tanımı içermiyordu.** Kampanyanın ilk kutusu bu yüzden burada tanımlanıyor:
+```
+ÇEKİRDEK KUTU   30,5 – 33,5 K  ·  44 – 47 D        (güney Mezopotamya)
+MASKE           veri-kaynak/motor_kara.geojson
+```
+🔴 **Maske `motor_kara` seçildi, `ne_10m_land` DEĞİL** — gerekçe: o dosya
+`veri-kaynak/` notunda *"GİRDİ DEĞİL ÇIKTI — motorun çizdiği kara"* diye
+işaretli. **Ölçüm, motorun GÖRDÜĞÜ karada yapılır**; başka bir kara tanımı
+ikinci bir otorite olurdu.
+
+**ÖLÇÜM — "sorun SAYI değil KONUM" (KASA + LAB, bağımsız iki ölçüm):**
+| aşama | p95 | azamî |
+|---|---|---|
+| mevcut 10 nokta (bütün kutu) | 232 | 303 |
+| + 15 yeni Sümer sitesi | 221 | 302 |
+| + Susa (doğu kenarı) | 186 | 249 |
+| **çekirdek kutu, 26 nokta, maskeli** | **148,9** | **194,5** |
+| **+ 1 dolgu noktası (KD köşe)** | **111 – 113** | **177,7** |
+
+🔴 **15 SÜMER SİTESİNİN TOPLAM ETKİSİ YALNIZ −11 km**, ve 13'ü p95'i HİÇ
+oynatmıyor: hepsi Fırat-Dicle hattında, mevcutların 10-60 km yakınında.
+**Sümer KÜMELİ bir coğrafyadır.**
+⇒ `N = alan × (k/D)²` formülü **düzgün dağılım varsayar** ⇒ *"13-20 nokta
+yeter"* bu kutu için **GEÇERSİZDİR.** Formül yanlış değil; **varsayımı bu
+coğrafyada tutmuyor**, ve bu ancak gerçek siteler konulunca görülebildi.
+📌 Ders: **bir modelin cevabı, varsayımı sorulmadan kullanılamaz.**
+
+**EŞİK GEÇİŞİ VE GÜRÜLTÜ — hüküm:**
+KASA maskesiz **151**, LAB maskeli **148,9** ölçtü; aradaki ~2 km hücre
+merkezleme ve R seçiminden geliyor. Eşik **150**.
+🔴 **Eşik geçişi ölçüm gürültüsünün İÇİNDEYSE hüküm AÇ da SINIR da değil,
+`ÖLÇÜLEMEDİ`dir** (`§3`: *ölçülemeyen soru TEMİZ DEĞİLDİR*). Ve eşik **iki
+yönde de** ölçüme göre oynatılmaz: 151 geldiğinde gevşetilmedi, 148,9
+geldiğinde de AÇ ilan edilmedi.
+⇒ **Çare tartışmak değil, BELİRSİZLİĞİ KALDIRMAK:** bir `tur:"bolge"` dolgu
+noktası (KD köşe `33,475/46,825`, ya da `33,2/46,6`) p95'i **111 km**'ye
+indiriyor — eşiğe pay **~37 km**, gürültü ±2-3 km. Soru o zaman ölçülebilir
+ve cevabı **AÇ** tarafında açık.
+
+**SÜMER PENCERESİNİ AÇMAK İÇİN GEREKEN — tek cümlede:**
+> **26 kaynaklı nokta (var) + 1 `tur:"bolge"` dolgu noktası.**
+
+⚠️ Üç şart, atlanamaz:
+1. **Dolgu `BEKLENEN_SAHIPSIZ`ı oynatır** (Değişmez 1 sahipsizi sayar) ⇒
+   dolgu ve tavan **AYNI COMMIT'TE** (`§3.4②`).
+2. **Dolgu gerçek şehir değildir** ⇒ kaynak aranmaz, ama `bos:` ile
+   etiketlenir ve sahipsiz kalacağı BEYAN edilir (bu bölümün başı).
+3. **Dolgu indikten sonra yeni azamî GB köşeye (30,525K · 44,025D, çöl)
+   geçiyor** ⇒ hüküm ORADA yeniden ölçülür. Bir eşiği geçmek, sonraki
+   darboğazı görünür kılar.
+
+🔴 **VE BU KUTU MÖ'Yİ AÇMIYOR — yalnız kutunun YOĞUNLUK şartını açıyor.**
+MÖ penceresi için ayrıca: `kur:` borcu (2.823 nokta) · MÖ künyeleri (KASA'da,
+16 öneri) · negatif yıl makinesi (`gun.js` indi, motor tarafı partide) ·
+ve `§6`nın sırası (dizin → yoğunluk → pencere) tamamlanmalı.
+
 Seyrek bölgelerde nokta gerçek şehir olmak zorunda değil; `tur:"bolge"` tipinde bir
 **dolgu noktası** olabilir. Dolgu noktası sahipsiz kalır ve `bos:` alanıyla
 etiketlenir (bkz. §6).
