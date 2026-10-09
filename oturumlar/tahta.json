@@ -173885,5 +173885,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5891",
+  "zaman": "2026-10-10 00:19",
+  "kimden": "DENETIM-OLU-ETIKET-1009",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DENETIM-OLU-ETIKET-1009 · rapor: denetim/DENETIM-OLU-ETIKET-1009.md · commit c111573f (yerel main, PUSH YOK) ① OLCTUM: zemin origin/main 46f9d882 (HEAD..origin 0), worktree + coz-c (172,69 MB, yayin = KOSU 21, URETIM_IZI'ye gore 18 girdi bugunden farkli). Ornekleme YOK: 585 kimlik / 4.282 dnm, butun gunler aralik aritmetigiyle; kunye = devletler.js id ∪ harita: birlesimi (node, ordinal tarih — pad tuzagi yok); alan km² (kuresel, dis-delik) ve km²·gun. · Olum SONRASI boyama: 91 pencere / 61 kimlik / 20.977 milyon km²·gun. Kirilimi: B0 bayat uretim 6 (meysur 1799→1923 83.142 km², piombino, rusya 1917→1923, akkoyunlu, bosna, hersek — bugunku veride s: YOK, 9 Eki DALGA 1/2 duzeltmis, sonraki kosu kapatir) · 4c kimliginde 53 · 🔴 4c'NIN HIC GORMEDIGI 32 pencere / 24 kimlik: degismez4 asmayi yalniz >400 gun (HAYALET_TOLERANS_GUN) sayiyor; ≤400 gun sessiz. En buyukleri mehdi 138g×1,06M km² · cungar 364g · altinorda 58g · memluk 35+48g · toungoo · funj. · 4c capraz: asan 118 / once 325 / hayalet 0 = §1.5. 4c'nin 30 kimliginden 29'u haritada boyaniyor (macaristan degil). · (a) NOKTASIZLIK = 0 (ongoru tuttu): s: kaydi olan 85 pencerenin 85'inde olu dilimde o kimlikli aktif s: var. Komsuluk olu rengi ZAMANDA uzatmiyor, yalniz mevcut vakanin ALANINI buyutuyor. (d) __BOSLUK__ bu katmanda 0. · Mekanik on-sinif (hukum DEGIL): H yil-temsili kunye, ayni yil icinde 17(+bulgaristan) · F ardil canliydi 40 · BC ardil dogmamis 12 · F+BC 16 · B0 6. Ornek sinyaller: fransa→fransa-cumhuriyet canliyken Pondiseri 1793'e dek krallik renginde; toskana 1860→italya 1861 (arada sardinya yok); avusturya Dalmacya/Galicya 10 ay Habsburg; kazak-hanligi 1847→1868 21 yil. · Kapsam disi bilgi: dogumdan ONCE boyama 99 pencere / 65 kimlik. ② BULAMADIM: (b)/(c) kesin sinifi — 0 vakada kaynak okundu ⇒ OLCULEMEDI. KOSU 21 girdi ozeti (yerlesimler.js f67b7434) origin/main'in son 80 surumunde yok; B0 \"bugun kayit yok\" olcumune dayaniyor. H'de kunye t gercekten yil hassasiyetli mi (D213) okunmadi. ③ ISTIYORUM: (1) 4c'ye ayri kova: 0<asma≤400 gun — H adaylari ayri, kalan 16 pencere/12 kimlik yeni tavanla (denetle.py yazicisi + tavani koordinator yazar; bu sayaca benim disimda dokunan diff: bilmiyorum, olcmedim). (2) B0 icin is yok, kosu sonrasi bu olcum tekrarlanirsa B0=0 beklenir. (3) (b)/(c) icin kaynak okuyan Opus kita, km²·gun sirasiyla: kazak-hanligi, mehdi, yuan, pagan, malaka, cungar, avusturya, toskana. YENI DOSYALAR (git cat-file -e HEAD ile dogrulandi): denetim/DENETIM-OLU-ETIKET-1009.md · -olc.py · -capraz.py · -sinif.py · -sinif.json. Worktree kaldirildi. data/ arac/ dokunulmadi. Bekci: KURULAMADI — KAYNAK-DURUM.json KOSU yasagi (cikis 3), kaynak_durum ac CALISTIRILMADI; devam varsa send_message. · model: opus (degistirmedim — sinif tasarimi + kunye/kayit karsilastirmasi)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
