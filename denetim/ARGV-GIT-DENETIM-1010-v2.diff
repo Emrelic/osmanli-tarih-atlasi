@@ -1,9 +1,9 @@
 diff --git a/denetim/ARAC-ARGV-GIT-DENETIM-1010.py b/denetim/ARAC-ARGV-GIT-DENETIM-1010.py
 new file mode 100644
-index 00000000..26423a2d
+index 00000000..43d8602f
 --- /dev/null
 +++ b/denetim/ARAC-ARGV-GIT-DENETIM-1010.py
-@@ -0,0 +1,607 @@
+@@ -0,0 +1,846 @@
 +# -*- coding: utf-8 -*-
 +"""ARAC-ARGV-GIT-DENETIM-1010 — araçların İÇİNDEKİ git çağrılarının STATİK denetimi.
 +
@@ -42,6 +42,20 @@ index 00000000..26423a2d
 +(ör. `["git","commit","-F",m] + liste` ve liste bilinmiyor — `--` içinde olabilir).
 +
 +    py denetim/ARAC-ARGV-GIT-DENETIM-1010.py [--kok <ağaç>] [--dizin arac] [--ayrinti]
++                                            [--cwd-sinifla]
++
++--cwd-sinifla (v2, ARGV-GIT-DENETIM-AYIR-1010): her ihlalin HEDEF DEPOSU sınıflanır.
++  Hedef = argv'deki `-C <x>`, yoksa çağrının `cwd=`'si, yoksa SÜREÇ CWD'Sİ. İfade
++  geriye izlenir: atama · `with … as x` · sarmalayıcı parametresi (çağıranın
++  argümanı) · işlev parametresi (AYNI DOSYADAKİ bütün çağıranlar) · os.path.join/
++  abspath/realpath/normpath/dirname/str/Path/.replace (ilk argüman/alıcı) · `/` ve `+`.
++    GEÇİCİ      tempfile.mkdtemp/TemporaryDirectory/mkstemp/gettempdir · sabit yolda
++                Temp/tmp/scratchpad
++    GERÇEK      `__file__`'dan türeyen kök · os.getcwd() · süreç cwd'si (cwd/-C yok)
++                · başka sabit yol
++    ÖLÇÜLEMEDİ  izlenemeyen her şey — GÜVENLİ YÖN: "GERÇEK depoya dokunuyor" VARSAYILIR
++  Bu kipte çıkış: 0 bütün ihlaller GEÇİCİ (ve argv ölçülemedi yok) · 1 GERÇEK ya da
++  ÖLÇÜLEMEDİ hedefli ihlal var · 2 yalnız argv ölçülemedi.
 +Çıkış: 0 temiz · 1 İHLAL · 2 ÖLÇÜLEMEDİ (ihlal yoksa). İhlal varsa ölçülemeyenler
 +YİNE basılır.
 +"""
@@ -88,11 +102,17 @@ index 00000000..26423a2d
 +
 +    def __init__(self, govde):
 +        self.olay = {}
++        self.ile = {}                  # with … as ad → (satır, bağlam ifadesi)
 +        for n in ast.walk(ast.Module(body=govde, type_ignores=[])):
 +            if isinstance(n, ast.Assign):
 +                for t in n.targets:
 +                    if isinstance(t, ast.Name):
 +                        self.olay.setdefault(t.id, []).append((n.lineno, n.value, "="))
++            elif isinstance(n, (ast.With, ast.AsyncWith)):
++                for it in n.items:
++                    if isinstance(it.optional_vars, ast.Name):
++                        self.ile.setdefault(it.optional_vars.id, []).append(
++                            (n.lineno, it.context_expr))
 +            elif isinstance(n, ast.AugAssign) and isinstance(n.target, ast.Name) \
 +                    and isinstance(n.op, ast.Add):
 +                self.olay.setdefault(n.target.id, []).append((n.lineno, n.value, "+="))
@@ -307,7 +327,7 @@ index 00000000..26423a2d
 +                if a.name in SP_FONK:
 +                    sp_ad[a.asname or a.name] = a.name
 +    if not sp_mod and not sp_ad and not os_mod:
-+        return [], [], 0, [], []
++        return [], [], 0, [], [], {}
 +
 +    def tur(c):
 +        f = c.func
@@ -374,9 +394,176 @@ index 00000000..26423a2d
 +                    kayit[2].append((e, kabuk, c))
 +
 +    ihlal, olc, gitler = [], [], []
++    hedefler = {}
 +    say = 0
++    islev_ad = {f.name: f for f in fk}
++    cagri_ad = {}
++    for _c in cagrilar:
++        if isinstance(_c.func, ast.Name):
++            cagri_ad.setdefault(_c.func.id, []).append(_c)
 +
-+    def degerlendir(argv_e, kabuk, bag, kaps, satir, yer):
++    GECICI_FONK = {"mkdtemp", "TemporaryDirectory", "mkstemp", "gettempdir", "NamedTemporaryFile"}
++    SARMA_FONK = {"join", "abspath", "realpath", "normpath", "dirname", "expanduser", "str",
++                  "Path", "fspath", "replace", "resolve", "PurePath"}
++
++    def yol_sinifla(e, fn, satir, ib, d=0, ziyaret=None):
++        """Yol ifadesi → (GEÇİCİ|GERÇEK|ÖLÇÜLEMEDİ, açıklama zinciri)."""
++        ziyaret = ziyaret if ziyaret is not None else set()
++        if d > 10:
++            return "ÖLÇÜLEMEDİ", "iz 10 adımdan derin"
++        kaps = ([fk[fn]] if fn in fk else []) + [modul_k]
++        if e is None or (isinstance(e, ast.Constant) and e.value is None):
++            return "GERÇEK", "cwd/-C yok ⇒ süreç cwd'si"
++        if isinstance(e, ast.Constant) and isinstance(e.value, str):
++            if re.search(r"(?i)temp|tmp|scratchpad", e.value):
++                return "GEÇİCİ", "sabit %r" % e.value[:40]
++            return "GERÇEK", "sabit yol %r" % e.value[:40]
++        if isinstance(e, ast.Name):
++            if e.id == "__file__":
++                return "GERÇEK", "__file__"
++            if e.id in ib and ib[e.id][0] == "tek":
++                _t, x, fn2, l2, ib2 = ib[e.id]
++                s_, a_ = yol_sinifla(x, fn2, l2, ib2, d + 1, ziyaret)
++                return s_, "%s ← (çağıran:%d) %s" % (e.id, l2, a_)
++            # kapsam zinciri: en içteki işlev → kapsayan işlevler (kapanış) → modül
++            zincir, f_ = [], fn
++            while f_ is not None:
++                zincir.append(f_)
++                f_ = ebeveyn.get(f_)
++            for sira, fs in enumerate(zincir + [None]):
++                k = fk[fs] if fs is not None else modul_k
++                sinir = satir if sira == 0 else 10 ** 9      # kapanış: satır sınırı yok
++                w_ = [o for o in k.ile.get(e.id, []) if o[0] <= sinir]
++                a_ = [o for o in k.olay.get(e.id, []) if o[0] < sinir and o[2] == "="]
++                son = max(w_ + a_, key=lambda o: o[0], default=None)
++                if son is not None:
++                    s_, ac = yol_sinifla(son[1], fs, son[0], ib if sira == 0 else {}, d + 1, ziyaret)
++                    return s_, "%s ← :%d %s" % (e.id, son[0], ac)
++                if fs is None or e.id not in [a.arg for a in fs.args.args + fs.args.kwonlyargs]:
++                    continue
++                anahtar = (fs.name, e.id)
++                if anahtar in ziyaret:
++                    return "ÖLÇÜLEMEDİ", "özyineli parametre %s" % e.id
++                ziyaret = ziyaret | {anahtar}
++                konum = [a.arg for a in fs.args.args]
++                cagiran = cagri_ad.get(fs.name, [])
++                if not cagiran:
++                    return "ÖLÇÜLEMEDİ", "%s() parametresi %s, dosyada çağıran YOK" % (fs.name, e.id)
++                sonuc = []
++                for cc in cagiran:
++                    x = None
++                    if e.id in konum and konum.index(e.id) < len(cc.args):
++                        x = cc.args[konum.index(e.id)]
++                    for kw in cc.keywords:
++                        if kw.arg == e.id:
++                            x = kw.value
++                    if x is None:
++                        dfl = dict(zip(konum[len(konum) - len(fs.args.defaults):], fs.args.defaults))
++                        dfl.update({a.arg: v for a, v in zip(fs.args.kwonlyargs, fs.args.kw_defaults)
++                                    if v is not None})
++                        x = dfl.get(e.id)
++                    if x is None or isinstance(x, ast.Starred):
++                        sonuc.append(("ÖLÇÜLEMEDİ", ":%d argüman yok/yıldızlı" % cc.lineno))
++                        continue
++                    s_, ac = yol_sinifla(x, ebeveyn.get(cc), cc.lineno, {}, d + 1, ziyaret)
++                    sonuc.append((s_, ":%d %s" % (cc.lineno, ac)))
++                for kova in ("GERÇEK", "ÖLÇÜLEMEDİ"):
++                    if any(x[0] == kova for x in sonuc):
++                        return kova, "%s() parametresi %s ← %s" % (
++                            fs.name, e.id, next(x[1] for x in sonuc if x[0] == kova))
++                return "GEÇİCİ", "%s() parametresi %s ← %d çağıranın hepsi geçici (%s)" % (
++                    fs.name, e.id, len(sonuc), sonuc[0][1])
++            return "ÖLÇÜLEMEDİ", "%s izlenemedi" % e.id
++        if isinstance(e, ast.Call):
++            f = e.func
++            ad = f.attr if isinstance(f, ast.Attribute) else (f.id if isinstance(f, ast.Name) else "")
++            if ad in GECICI_FONK:
++                return "GEÇİCİ", "tempfile.%s" % ad
++            if isinstance(f, ast.Name) and f.id in islev_ad:
++                # AYNI DOSYADAKİ işlevin dönüş değeri: bütün `return`ler sınıflanır
++                fh = islev_ad[f.id]
++                anahtar = ("return", fh.name)
++                if anahtar in ziyaret:
++                    return "ÖLÇÜLEMEDİ", "özyineli dönüş %s()" % fh.name
++                donusler = [r for r in ast.walk(fh) if isinstance(r, ast.Return)
++                            and r.value is not None and ebeveyn.get(r) is fh]
++                if not donusler:
++                    return "ÖLÇÜLEMEDİ", "%s() değer döndürmüyor" % fh.name
++                sonuc = []
++                for r in donusler:
++                    v = r.value.elts[0] if isinstance(r.value, ast.Tuple) and r.value.elts else r.value
++                    s_, ac = yol_sinifla(v, fh, r.lineno, {}, d + 1, ziyaret | {anahtar})
++                    sonuc.append((s_, ":%d %s" % (r.lineno, ac)))
++                for kova in ("GERÇEK", "ÖLÇÜLEMEDİ"):
++                    if any(x[0] == kova for x in sonuc):
++                        return kova, "%s() dönüşü ← %s" % (fh.name, next(x[1] for x in sonuc if x[0] == kova))
++                return "GEÇİCİ", "%s() dönüşü ← %s" % (fh.name, sonuc[0][1])
++            if ad in ("getcwd", "getcwdb"):
++                return "GERÇEK", "os.getcwd()"
++            if ad in SARMA_FONK:
++                if ad == "replace" and isinstance(f, ast.Attribute):
++                    return yol_sinifla(f.value, fn, satir, ib, d + 1, ziyaret)
++                if ad == "resolve" and isinstance(f, ast.Attribute):
++                    return yol_sinifla(f.value, fn, satir, ib, d + 1, ziyaret)
++                if e.args:
++                    s_, ac = yol_sinifla(e.args[0], fn, satir, ib, d + 1, ziyaret)
++                    return s_, "%s(%s)" % (ad, ac)
++            return "ÖLÇÜLEMEDİ", "çağrı %s()" % (ad or "?")
++        if isinstance(e, ast.BinOp) and isinstance(e.op, (ast.Div, ast.Add)):
++            return yol_sinifla(e.left, fn, satir, ib, d + 1, ziyaret)
++        if isinstance(e, ast.JoinedStr) and e.values:
++            v0 = e.values[0]
++            return yol_sinifla(v0.value if isinstance(v0, ast.FormattedValue) else v0,
++                               fn, satir, ib, d + 1, ziyaret)
++        return "ÖLÇÜLEMEDİ", "ifade türü %s" % type(e).__name__
++
++    def C_ara(e, fn, satir, ib, d=0):
++        """argv ifadesinde `-C <x>` → (x, fn, satır, ib) ya da None."""
++        if d > 8 or e is None:
++            return None
++        elts = None
++        if isinstance(e, (ast.List, ast.Tuple)):
++            elts = [(x, fn, satir, ib) for x in e.elts]
++        elif isinstance(e, ast.BinOp) and isinstance(e.op, ast.Add):
++            return C_ara(e.left, fn, satir, ib, d + 1) or C_ara(e.right, fn, satir, ib, d + 1)
++        elif isinstance(e, ast.Call) and isinstance(e.func, ast.Name) and e.func.id in ("list", "tuple") \
++                and e.args:
++            return C_ara(e.args[0], fn, satir, ib, d + 1)
++        elif isinstance(e, ast.Starred):
++            return C_ara(e.value, fn, satir, ib, d + 1)
++        elif isinstance(e, ast.Name) and e.id in ib and ib[e.id][0] == "dizi":
++            elts = ib[e.id][1]
++        elif isinstance(e, ast.Name):
++            kaps = ([fk[fn]] if fn in fk else []) + [modul_k]
++            for k in kaps:
++                o = [x for x in k.olay.get(e.id, []) if x[0] < satir and x[2] == "="]
++                if o:
++                    return C_ara(o[-1][1], fn, o[-1][0], ib, d + 1)
++            return None
++        if elts is None:
++            return None
++        for i, (x, f2, l2, ib2) in enumerate(elts):
++            if isinstance(x, ast.Starred):
++                r = C_ara(x.value, f2, l2, ib2, d + 1)
++                if r:
++                    return r
++            elif isinstance(x, ast.Constant) and x.value == "-C" and i + 1 < len(elts):
++                return elts[i + 1]
++        return None
++
++    def hedef(argv_e, c, ib):
++        fn = ebeveyn.get(c)
++        r = C_ara(argv_e, fn, c.lineno, ib) if argv_e is not None else None
++        if r:
++            s_, ac = yol_sinifla(r[0], r[1], r[2], r[3])
++            return s_, "-C " + ac
++        for k in c.keywords:
++            if k.arg == "cwd":
++                s_, ac = yol_sinifla(k.value, fn, c.lineno, ib)
++                return s_, "cwd= " + ac
++        return "GERÇEK", "cwd/-C yok ⇒ süreç cwd'si"
++
++    def degerlendir(argv_e, kabuk, bag, kaps, satir, yer, c=None, ib=None):
 +        nonlocal say
 +        say += 1
 +        try:
@@ -386,6 +573,8 @@ index 00000000..26423a2d
 +                    gitler.append((yer, "(kabuk) " + m[:90]))
 +                for s, a in kabuk_sinifla(m, add_adi):
 +                    ihlal.append((yer, s, a))
++                    if c is not None:
++                        hedefler[(yer, s, a)] = hedef(None, c, ib or {})
 +                return
 +            argv = coz(argv_e, bag, kaps, satir)
 +        except Cozulemedi as ex:
@@ -398,14 +587,35 @@ index 00000000..26423a2d
 +                gitler.append(_k)
 +        for s, a in i:
 +            ihlal.append((yer, s, a))
++            if c is not None:
++                hedefler[(yer, s, a)] = hedef(argv_e, c, ib or {})
 +        if sebep:
 +            olc.append((yer, "%s: %s" % (sebep, " ".join(_g(a) for a in argv)[:90])))
 +
-+    def sarmal_coz(ad, c, kaps, yer, derinlik=0, dis_bag=None, tohum=None):
++    def sarmal_coz(ad, c, kaps, yer, derinlik=0, dis_bag=None, tohum=None, dis_ib=None):
 +        dis_bag = dis_bag or {}
++        dis_ib = dis_ib or {}
 +        params, var, ic = sarmal[ad]
 +        fn_d = next((f for f in fk if f.name == ad), None)
 +        bag = {}
++        ib = {}
++        fn_c = ebeveyn.get(c)
++        if fn_d is not None:
++            _konum = [a.arg for a in fn_d.args.args]
++            for p_, dv in zip(_konum[len(_konum) - len(fn_d.args.defaults):], fn_d.args.defaults):
++                ib[p_] = ("tek", dv, None, fn_d.lineno, {})
++            for a_, dv in zip(fn_d.args.kwonlyargs, fn_d.args.kw_defaults):
++                if dv is not None:
++                    ib[a_.arg] = ("tek", dv, None, fn_d.lineno, {})
++            for i_, p_ in enumerate(_konum):
++                if i_ < len(c.args) and not isinstance(c.args[i_], ast.Starred):
++                    ib[p_] = ("tek", c.args[i_], fn_c, c.lineno, dis_ib)
++            for k_ in c.keywords:
++                if k_.arg:
++                    ib[k_.arg] = ("tek", k_.value, fn_c, c.lineno, dis_ib)
++            if fn_d.args.vararg:
++                ib[fn_d.args.vararg.arg] = ("dizi", [(x, fn_c, c.lineno, dis_ib)
++                                                    for x in c.args[len(_konum):]])
 +        if fn_d is not None:
 +            vars_ = fn_d.args.defaults
 +            for p, dv in zip([a.arg for a in fn_d.args.args][-len(vars_):] if vars_ else [], vars_):
@@ -434,11 +644,12 @@ index 00000000..26423a2d
 +                mb.update(lb)
 +                if e is icc:                       # sarmalayıcı → sarmalayıcı
 +                    if derinlik < 3 and icc.func.id in sarmal:
-+                        sarmal_coz(icc.func.id, icc, kaps_ic, yer, derinlik + 1, dis_bag=mb)
++                        sarmal_coz(icc.func.id, icc, kaps_ic, yer, derinlik + 1, dis_bag=mb,
++                                   dis_ib=ib)
 +                    elif derinlik >= 3:
 +                        olc.append((yer, "sarmalayıcı zinciri 3 turdan derin"))
 +                    continue
-+                degerlendir(e, kabuk, mb, kaps_ic, icc.lineno, yer)
++                degerlendir(e, kabuk, mb, kaps_ic, icc.lineno, yer, c=icc, ib=ib)
 +
 +    def dongu_baglari(c, kaps, ilk=None):
 +        """Çağrıyı kapsayan `for X in <sabit dizi>` döngüleri → bağ listesi (kartezyen)."""
@@ -479,7 +690,7 @@ index 00000000..26423a2d
 +                olc.append((yer, "argv argümanı yok"))
 +                continue
 +            for b in dongu_baglari(c, kapsamlar(c)):
-+                degerlendir(e, kabuk, b, kapsamlar(c), c.lineno, yer)
++                degerlendir(e, kabuk, b, kapsamlar(c), c.lineno, yer, c=c, ib={})
 +        elif isinstance(c.func, ast.Name) and c.func.id in sarmal and id(c) not in ic_cagrilar:
 +            for b in dongu_baglari(c, kapsamlar(c)):
 +                sarmal_coz(c.func.id, c, kapsamlar(c), yer, dis_bag=b)
@@ -497,8 +708,10 @@ index 00000000..26423a2d
 +        sarmal_coz(ad, sahte, [modul_k], "-", tohum=bos)
 +        if not ihlal and not olc:
 +            guvenli.append(ad)
++    _hed = dict(hedefler)
 +    ihlal[:], olc[:], gitler[:] = _kayit[0], _kayit[1], _kayit[2]
-+    return ihlal, olc, _kayit[3], gitler, sorted(a for a in sarmal if a not in guvenli)
++    return (ihlal, olc, _kayit[3], gitler, sorted(a for a in sarmal if a not in guvenli),
++            {k: v for k, v in _hed.items() if k in set(ihlal)})
 +
 +
 +def _bag_degeri(x, kaps, satir, bag):
@@ -532,11 +745,11 @@ index 00000000..26423a2d
 +        print("🔴 ÖLÇÜLEMEDİ — kabuk_nobetci DALLAR'da ADD-HEPSI yok: %s" % siniflar)
 +        return 2
 +    dosyalar = sorted(glob.glob(os.path.join(kok, dizin, "**", "*.py"), recursive=True))
-+    ihlal, olc, say, tarandi, gitler, sarmallar = [], [], 0, 0, [], {}
++    ihlal, olc, say, tarandi, gitler, sarmallar, hedefler = [], [], 0, 0, [], {}, {}
 +    for y in dosyalar:
 +        g = os.path.relpath(y, kok).replace(os.sep, "/")
 +        try:
-+            i, o, s, gt, sr = tara_dosya(y, add_adi, g)
++            i, o, s, gt, sr, hd = tara_dosya(y, add_adi, g)
 +        except (SyntaxError, UnicodeDecodeError, ValueError) as e:
 +            olc.append((g, "AYRIŞTIRILAMADI: %s" % str(e)[:100]))
 +            continue
@@ -545,6 +758,7 @@ index 00000000..26423a2d
 +        olc += o
 +        say += s
 +        gitler += gt
++        hedefler.update(hd)
 +        mod = os.path.splitext(os.path.basename(y))[0]
 +        for ad in sr:
 +            sarmallar[(mod, ad)] = g
@@ -599,6 +813,31 @@ index 00000000..26423a2d
 +    print("  ÖLÇÜLEMEDİ           %d" % len(olc))
 +    for yer, sb in olc:
 +        print("     ? %-40s %s" % (yer, sb[:120]))
++    if "--cwd-sinifla" in argv:
++        print("\nHEDEF DEPO SINIFLAMASI (--cwd-sinifla) — ÖLÇÜLEMEDİ ⇒ GERÇEK varsayılır")
++        print("  %-52s %-19s %-11s %s" % ("dosya:satır", "sınıf", "hedef", "çözüm"))
++        say_k = {"GEÇİCİ": 0, "GERÇEK": 0, "ÖLÇÜLEMEDİ": 0}
++        riskli = []
++        for yer, s, a in sorted(ihlal, key=lambda x: (x[0].split(":")[0], int(x[0].split(":")[-1])
++                                                    if x[0].split(":")[-1].isdigit() else 0)):
++            h, ac = hedefler.get((yer, s, a), ("ÖLÇÜLEMEDİ", "hedef hesaplanmadı"))
++            say_k[h] += 1
++            print("  %-52s %-19s %-11s %s" % (yer, s, h, ac[:150]))
++            if h != "GEÇİCİ":
++                riskli.append((yer, s, a, h, ac))
++        print("  TOPLAM: GEÇİCİ %d · GERÇEK %d · ÖLÇÜLEMEDİ %d" % (
++            say_k["GEÇİCİ"], say_k["GERÇEK"], say_k["ÖLÇÜLEMEDİ"]))
++        if riskli:
++            print("\n  🔴 GERÇEK depoya dokunan (ya da öyle varsayılan) — koşturulursa ne yapar:")
++            for yer, s, a, h, ac in riskli:
++                print("     %-50s %-11s %s" % (yer, h, a[:110]))
++            print("SONUÇ: GERÇEK/ÖLÇÜLEMEDİ hedefli ihlal %d — çıkış 1" % len(riskli))
++            return 1
++        if olc:
++            print("SONUÇ: ihlallerin hepsi GEÇİCİ depoda; argv ÖLÇÜLEMEDİ %d — çıkış 2" % len(olc))
++            return 2
++        print("SONUÇ: %d ihlalin HEPSİ GEÇİCİ depoda — çıkış 0" % len(ihlal))
++        return 0
 +    if ihlal:
 +        print("SONUÇ: İHLAL %d — çıkış 1" % len(ihlal))
 +        return 1
@@ -613,10 +852,10 @@ index 00000000..26423a2d
 +    sys.exit(main(sys.argv[1:]))
 diff --git a/denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py b/denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py
 new file mode 100644
-index 00000000..95d7aade
+index 00000000..f501a70f
 --- /dev/null
 +++ b/denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py
-@@ -0,0 +1,181 @@
+@@ -0,0 +1,243 @@
 +# -*- coding: utf-8 -*-
 +"""ARAC-ARGV-GIT-DENETIM-SINAV-1010 — `denetim/ARAC-ARGV-GIT-DENETIM-1010.py`nin sınavı, İKİ YÖNDE.
 +
@@ -644,6 +883,16 @@ index 00000000..95d7aade
 +  U4  dosyalar arası sarmalayıcı (from a import g; g(<değişken>)) ⇒ ÖLÇÜLEMEDİ adıyla
 +  U5  kabuk_nobetci DALLAR'ında ADD-HEPSI yoksa ⇒ çıkış 2 (sınıf adı OKUNUYOR, uydurulmuyor)
 +  U6  `git commit -F m` + bilinmeyen dizi ⇒ ÖLÇÜLEMEDİ (`--` içinde olabilir), ihlal DEĞİL
++--cwd-sinifla (v2, ARGV-GIT-DENETIM-AYIR-1010) — İKİ YÖN:
++  H1  cwd = tempfile.mkdtemp()                         ⇒ GEÇİCİ
++  H2  `with tempfile.TemporaryDirectory() as t` + -C t ⇒ GEÇİCİ
++  H3  git(d, *a) sarmalayıcısı, d = kur() dönüşü, kur içinde mkdtemp ⇒ GEÇİCİ
++  H4  işlev parametresi, BÜTÜN çağıranlar mkdtemp ⇒ GEÇİCİ
++  H5  KOK = dirname(dirname(abspath(__file__))), -C KOK ⇒ GERÇEK
++  H6  cwd/-C YOK (süreç cwd'si) ⇒ GERÇEK
++  H7  işlev parametresi, bir çağıran geçici BİRİ gerçek ⇒ GERÇEK
++  H8  cwd = sys.argv[1] (izlenemez) ⇒ ÖLÇÜLEMEDİ, "riskli" listesinde, çıkış 1
++  H9  yalnız geçici hedefli ihlaller ⇒ çıkış 0 ("HEPSİ GEÇİCİ")
 +Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
 +"""
 +import io
@@ -667,7 +916,7 @@ index 00000000..95d7aade
 +    print("%s %s %s" % ("✓" if kosul else "✗ BAŞARISIZ", ad, ayrinti))
 +
 +
-+def kos(dosyalar, kabuk=None):
++def kos(dosyalar, kabuk=None, ek=()):
 +    d = tempfile.mkdtemp(prefix="argvgit-sinav-")
 +    try:
 +        os.makedirs(os.path.join(d, "arac"))
@@ -680,7 +929,7 @@ index 00000000..95d7aade
 +            io.open(os.path.join(d, "arac", ad), "w", encoding="utf-8").write(m)
 +        if not os.path.exists(ARAC):
 +            return 99, "ARAÇ YOK: %s" % ARAC
-+        p = subprocess.run([sys.executable, ARAC, "--kok", d, "--ayrinti"], capture_output=True,
++        p = subprocess.run([sys.executable, ARAC, "--kok", d, "--ayrinti"] + list(ek), capture_output=True,
 +                           text=True, encoding="utf-8", errors="replace",
 +                           env=dict(os.environ, PYTHONIOENCODING="utf-8"), timeout=120)
 +        return p.returncode, p.stdout + p.stderr
@@ -790,6 +1039,58 @@ index 00000000..95d7aade
 +                             'subprocess.run(["git", "commit", "-F", m] + sys.argv[1:])\n')})
 +    sina("U6", rc == 2 and "? arac/u6.py:3" in out and "COMMIT-PATHSPECSIZ   0" in out,
 +         "commit + bilinmeyen dizi ⇒ ÖLÇÜLEMEDİ, ihlal DEĞİL (çıkış %s)" % rc)
++
++    # ── --cwd-sinifla ──
++    HEDEF = {
++        "h1.py": ('import subprocess, tempfile\n'
++                  'd = tempfile.mkdtemp()\n'
++                  'subprocess.run(["git", "commit", "-m", "x"], cwd=d)\n'),
++        "h2.py": ('import subprocess, tempfile\n'
++                  'with tempfile.TemporaryDirectory() as t:\n'
++                  '    subprocess.run(["git", "-C", t, "add", "-A"])\n'),
++        "h3.py": ('import subprocess, tempfile, os\n'
++                  'def git(d, *a):\n'
++                  '    return subprocess.run(["git"] + list(a), cwd=d)\n'
++                  'def kur():\n'
++                  '    d = tempfile.mkdtemp()\n'
++                  '    return d\n'
++                  'k = kur()\n'
++                  'git(k, "commit", "-am", "x")\n'),
++        "h4.py": ('import subprocess, tempfile, os\n'
++                  'def yap(kok):\n'
++                  '    A = os.path.join(kok, "A")\n'
++                  '    subprocess.run(["git", "stash"], cwd=A)\n'
++                  'yap(tempfile.mkdtemp())\n'
++                  'g = tempfile.mkdtemp()\n'
++                  'yap(g)\n'),
++        "h5.py": ('import subprocess, os\n'
++                  'KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n'
++                  'subprocess.run(["git", "-C", KOK, "commit", "-F", "m.txt"])\n'),
++        "h6.py": 'import subprocess\nsubprocess.run(["git", "add", "."])\n',
++        "h7.py": ('import subprocess, tempfile, os\n'
++                  'def yap(kok):\n'
++                  '    subprocess.run(["git", "push", "-f"], cwd=kok)\n'
++                  'yap(tempfile.mkdtemp())\n'
++                  'yap(os.path.dirname(os.path.abspath(__file__)))\n'),
++        "h8.py": 'import subprocess, sys\nsubprocess.run(["git", "commit", "-m", "x"], cwd=sys.argv[1])\n',
++    }
++    rc, out = kos(HEDEF, ek=["--cwd-sinifla"])
++
++    def hedef_sinifi(yer):
++        for l in out.splitlines():
++            if l.strip().startswith("arac/" + yer + " "):
++                return l.split()[2]
++        return None
++    for ad, yer, bek in (("H1", "h1.py:3", "GEÇİCİ"), ("H2", "h2.py:3", "GEÇİCİ"),
++                         ("H3", "h3.py:8", "GEÇİCİ"), ("H4", "h4.py:4", "GEÇİCİ"),
++                         ("H5", "h5.py:3", "GERÇEK"), ("H6", "h6.py:2", "GERÇEK"),
++                         ("H7", "h7.py:3", "GERÇEK"), ("H8", "h8.py:2", "ÖLÇÜLEMEDİ")):
++        sina(ad, hedef_sinifi(yer) == bek, "arac/%s hedef = %s (beklenen %s)" % (yer, hedef_sinifi(yer), bek))
++    riskli = out.split("koşturulursa ne yapar:")[-1] if "koşturulursa ne yapar:" in out else ""
++    sina("H8b", rc == 1 and "arac/h8.py:2" in riskli and "arac/h1.py:3" not in riskli,
++         "ÖLÇÜLEMEDİ riskli listesinde, GEÇİCİ değil; çıkış %s" % rc)
++    rc, out = kos({k: HEDEF[k] for k in ("h1.py", "h2.py", "h3.py", "h4.py")}, ek=["--cwd-sinifla"])
++    sina("H9", rc == 0 and "HEPSİ GEÇİCİ" in out, "yalnız geçici ihlaller ⇒ çıkış %s" % rc)
 +
 +    g = sum(1 for _, k in SONUC if k)
 +    print("SONUÇ: %d/%d geçti" % (g, len(SONUC)))
