@@ -19,6 +19,35 @@
    verirse **DURUR ve YAYINLAMAZ.** Yanlış bir yayın, yayınlanmamış bir
    düzeltmeden kat kat pahalıdır (Emre'nin kuralı: *"75 dakika bedava,
    yanlış yayın değil"*).
+   İki kapı (denetle.py · denetle_yayin.py) üç kodu AYRI okur (`CLAUDE.md
+   §3`): 0 geçer · 1 İHLAL → DUR · 2 ÖLÇÜLEMEDİ → DUR ve ölçülemeyen
+   sorular ADIYLA basılır · başka kod / zaman aşımı → DUR. Bu zincirde
+   kapıyı uyarıya indiren bayrak YOKTUR.
+
+🔒 ÇİFT KOŞU KİLİDİ — SÜREÇ DAMGASI (`.zincir.kilit`), yaş DEĞİL:
+   Kilit `pid=<N> | bas=<zaman> | makine=<ad> | argv=…` taşır; başkasının
+   kilidi yalnız OKUNUR (hiçbir süreç öldürülmez). Karar:
+     PID CANLI (psutil, yoksa `tasklist`)   → BAŞLATMAZ, çıkış 3 (meşgul)
+     PID ÖLÜ (aynı makine)                  → devralır, sebebini yazar
+     damga BOZUK / pid= yok / eski biçim /
+     başka makine / canlılık ölçülemedi     → BAŞLATMAZ, çıkış 2 (ölçülemedi)
+   Yaş yalnız İKİNCİL bilgi olarak basılır, karara girmez. Eskiden
+   `yas < 240` dk vekiliydi: 7-8 saatlik tam inşada 4. saatten sonra CANLI
+   bir zincirin kilidini devralırdı (KOSU-YAYIN-KAPI-1010).
+   ⚠️ PID yeniden kullanımı (ölü zincirin PID'ini başka süreç almış) CANLI
+   okunur ⇒ güvenli yön: başlatmaz; kayıt basılır, insan karar verir.
+
+📦 COMMIT YALNIZ YAYIN LİSTESİNİ TAŞIR (KOS-VE-YAYINLA-ADD-1010):
+   Liste `arac/yayin_listesi.py`den TÜRETİLİR ve satır satır basılır.
+   `git add -- <liste>` + `git commit -F <mesaj> -- <liste>` (aynı pathspec,
+   ADIYLA; `add -A` / `add .` / `commit -a` YOK), sonra `git show --name-only`
+   ile GERİ OKUNUR — liste dışı dosya taşıyorsa push YAPILMAZ. data/ altında
+   listede olmayan değişmiş/izlenmeyen her dosya ADIYLA basılır, commite
+   GİRMEZ. Liste DURDURUCU (gitignore'lu · diskte yok · BAYAT TÜREV) ya da
+   ÖLÇÜLEMEDİ verirse commit ATILMAZ.
+
+Çıkış: 0 tamam · 1 bir adım/kapı düştü · 2 kilit ÖLÇÜLEMEDİ · 3 kilit
+CANLI bir zincirde.
 
 Koşum:
     py arac/kos_ve_yayinla.py                 # hemen koş
@@ -35,6 +64,8 @@ import sys
 import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import yayin_listesi                                        # noqa: E402
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG = os.path.join(KOK, "kosu_zincir.log")
 MESAJ = os.path.join(KOK, "denetim", "zincir-commit-mesaji.txt")
@@ -46,8 +77,11 @@ def yaz(s):
         f.write(s + "\n")
 
 
-def kos(ad, argv, olumcul=True, dk=200):
-    """Bir adımı koştur. olumcul=True ise başarısızlıkta ZİNCİR DURUR."""
+def kos(ad, argv, olumcul=True, dk=200, tum=None):
+    """Bir adımı koştur. olumcul=True ise başarısızlıkta ZİNCİR DURUR.
+
+    tum: liste verilirse çıktının TAMAMI oraya da eklenir (kapı ayrıştırması).
+    """
     yaz("\n" + "=" * 66)
     yaz("ADIM: %s   (%s)" % (ad, time.strftime("%H:%M:%S")))
     yaz("=" * 66)
@@ -71,6 +105,8 @@ def kos(ad, argv, olumcul=True, dk=200):
                 f.write(satir)
                 f.flush()
                 son.append(satir.rstrip("\n"))
+                if tum is not None:
+                    tum.append(satir.rstrip("\n"))
     okuyucu = threading.Thread(target=_akit, daemon=True)
     okuyucu.start()
     try:
@@ -158,41 +194,184 @@ def beep(n=9):
 KILIT = os.path.join(KOK, ".zincir.kilit")
 
 
+def _pid_canli(pid):
+    """PID canlı mı? True / False / None (ÖLÇÜLEMEDİ — 'ölü' DEĞİL).
+
+    Önce psutil; yoksa Windows'ta `tasklist /FI "PID eq N"` (CSV'nin PID
+    alanı TAM eşitlikle okunur — yerelleştirilmiş "BİLGİ: …" satırı
+    eşleşmez). Yalnız OKUR; hiçbir süreç öldürülmez.
+    """
+    if not isinstance(pid, int) or pid <= 0:
+        return None
+    try:
+        import psutil
+    except ImportError:
+        psutil = None
+    if psutil is not None:
+        try:
+            return bool(psutil.pid_exists(pid))
+        except Exception:
+            return None
+    try:
+        if os.name == "nt":
+            r = subprocess.run(["tasklist", "/FI", "PID eq %d" % pid,
+                                "/NH", "/FO", "CSV"],
+                               capture_output=True, text=True, timeout=30,
+                               errors="replace")
+            if r.returncode != 0:
+                return None
+            for satir in (r.stdout or "").splitlines():
+                alan = [x.strip('"') for x in satir.strip().split('","')]
+                if len(alan) >= 2 and alan[1] == str(pid):
+                    return True
+            return False
+        os.kill(pid, 0)
+        return True
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        return True
+    except Exception:
+        return None
+
+
+def _makine():
+    import platform
+    return os.environ.get("COMPUTERNAME") or platform.node() or "?"
+
+
+def _kilit_oku():
+    """Kilit damgası → (pid, alanlar, ham). Ayrıştırılamazsa pid None."""
+    try:
+        ham = io.open(KILIT, encoding="utf-8").read().strip()
+    except Exception:
+        return None, {}, ""
+    alan = {}
+    for parca in ham.split("|"):
+        k, ayr, v = parca.strip().partition("=")
+        if ayr:
+            alan[k.strip()] = v.strip()
+    try:
+        pid = int(alan.get("pid", ""))
+    except ValueError:
+        pid = None
+    return pid, alan, ham
+
+
+def _kilit_yaz():
+    """O_EXCL ile yaz: iki zincir aynı anda boş kilidi göremez."""
+    fd = os.open(KILIT, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    with io.open(fd, "w", encoding="utf-8") as f:
+        f.write("pid=%d | bas=%s | makine=%s | argv=%s"
+                % (os.getpid(), time.strftime("%Y-%m-%d %H:%M:%S"), _makine(),
+                   " ".join(sys.argv[1:])))
+
+
 def _kilit_al():
     """🔴 ÇİFT KOŞU KİLİDİ — Emre 'ŞİMDİ BAŞLAT' düğmesi istedi (12 Ağu).
 
     Elle başlatma + 22:00 zamanlayıcısı + 23:50 emniyet ağı = aynı anda üç
     tetikleyici. İki üretim aynı anda koşarsa `data/` yarı yazılmış hâlde
     okunur ve çıktı SESSİZCE bozulur — bu proje dört üretimi böyle kaybetti.
+
+    🔴 SÜREÇ DAMGASI, yaş DEĞİL (KOSU-YAYIN-KAPI-1010 · `CLAUDE.md §7`:
+    "çakışmada beyana değil süreç damgasına bak"). Eski `yas < 240` vekili,
+    tam inşa 7-8 saat sürerken CANLI zincirin kilidini 4. saatte
+    devralıyordu. Dönüş: "alindi" · "mesgul" (canlı PID) · "olculemedi".
     """
     if os.path.exists(KILIT):
+        pid, alan, ham = _kilit_oku()
         try:
-            yas = (time.time() - os.path.getmtime(KILIT)) / 60.0
-            eski = io.open(KILIT, encoding="utf-8").read().strip()
+            yas = "%.0f dk" % ((time.time() - os.path.getmtime(KILIT)) / 60.0)
         except Exception:
-            yas, eski = 0, "?"
-        if yas < 240:                      # 4 saat — en uzun makul koşu
-            yaz("🔴 ZATEN BİR ZİNCİR KOŞUYOR (%.0f dk önce başladı: %s)"
-                % (yas, eski))
+            yas = "?"
+        makine = alan.get("makine")
+        if pid is None:
+            canli, neden = None, "damga BOZUK ya da eski biçim (pid= yok)"
+        elif makine and makine != _makine():
+            canli, neden = None, "damga BAŞKA MAKİNENİN (%s)" % makine
+        else:
+            canli = _pid_canli(pid)
+            neden = "PID %d canlılığı ölçülemedi" % pid
+        if canli is True:
+            yaz("🔴 ZATEN BİR ZİNCİR KOŞUYOR — PID %d CANLI (bilgi: kilit yaşı %s)"
+                % (pid, yas))
+            yaz("   Kayıt: %s" % ham)
             yaz("   İkinci koşu BAŞLATILMADI. İki üretim aynı anda koşarsa")
             yaz("   data/ yarı yazılmış okunur ve çıktı SESSİZCE bozulur.")
-            yaz("   Gerçekten takıldıysa: .zincir.kilit dosyasını sil.")
-            return False
-        yaz("⚠️ Eski kilit bulundu (%.0f dk) — takılmış sayıp devralıyorum." % yas)
-    with io.open(KILIT, "w", encoding="utf-8") as f:
-        f.write(time.strftime("%Y-%m-%d %H:%M:%S"))
-    return True
+            return "mesgul"
+        if canli is None:
+            yaz("🔴 KİLİT VAR ve ÖLÇÜLEMEDİ — %s (bilgi: kilit yaşı %s)"
+                % (neden, yas))
+            yaz("   Kayıt: %r" % ham)
+            yaz("   'Ölçülemedi' ÖLÜ demek DEĞİLDİR — koşu BAŞLATILMADI.")
+            yaz("   Elle doğrula; sahibi gerçekten yoksa: %s dosyasını sil." % KILIT)
+            return "olculemedi"
+        yaz("⚠️ Kilit vardı ama PID %d ÖLÜ — devralıyorum (bilgi: kilit yaşı %s)"
+            % (pid, yas))
+        yaz("   Eski kayıt: %s" % ham)
+        try:
+            os.remove(KILIT)
+        except FileNotFoundError:
+            pass
+        except Exception as e:
+            yaz("🔴 Ölü kilit silinemedi (%s) — koşu BAŞLATILMADI." % e)
+            return "olculemedi"
+    try:
+        _kilit_yaz()
+    except FileExistsError:
+        yaz("🔴 Kilidi aynı anda başka bir zincir aldı — koşu BAŞLATILMADI.")
+        return "mesgul"
+    return "alindi"
 
 
 def _kilit_birak():
+    """Yalnız KENDİ damgamızı siler — başkasının kilidine dokunmaz."""
+    pid, _alan, _ham = _kilit_oku()
+    if pid != os.getpid():
+        return
     try:
         os.remove(KILIT)
     except Exception:
         pass
 
 
+def _kapi_hukmu(ad, kod, satirlar):
+    """Kapı adımının çıkış kodunu üç hâlde okur. True yalnız 0'da.
+
+    kod None = zaman aşımı (kos() öyle döndürür).
+    """
+    if kod == 0:
+        return True
+    if kod is None:
+        yaz("🔴 %s ZAMAN AŞIMI — ZİNCİR DURDU, YAYIN YAPILMADI." % ad)
+    elif kod == 1:
+        yaz("🔴 %s çıkış 1 — İHLAL VAR. ZİNCİR DURDU, YAYIN YAPILMADI." % ad)
+    elif kod == 2:
+        yaz("🔴 %s çıkış 2 — ÖLÇÜLEMEDİ (temiz DEĞİL). ZİNCİR DURDU, "
+            "YAYIN YAPILMADI." % ad)
+        kova, icinde = [], False
+        for l in satirlar:
+            if "ÖLÇÜLEMEYEN SORU" in l:
+                icinde = True
+            elif icinde and l.strip().startswith("SONUÇ"):
+                break
+            if icinde:
+                kova.append(l)
+        for l in kova or ["(ölçülemeyen soru listesi çıktıda BULUNAMADI — "
+                          "tam çıktı: %s)" % LOG]:
+            yaz("   │ " + l)
+    else:
+        yaz("🔴 %s çıkış %d — tanınmayan kod (çökme?). ZİNCİR DURDU, "
+            "YAYIN YAPILMADI." % (ad, kod))
+    return False
+
+
 def zincir(yayinla=True, uretimsiz=False):
-    if not _kilit_al():
+    durum = _kilit_al()
+    if durum == "mesgul":
+        return 3
+    if durum != "alindi":
         return 2
     try:
         return _zincir(yayinla, uretimsiz)
@@ -291,8 +470,11 @@ def _zincir(yayinla=True, uretimsiz=False):
     #    Ölümcül DEĞİL: uyarı üretir, yayını kesmez (eşik ≠ tercih ayrımı).
     kos("renk ölçümü (renk_olc.py)", [sys.executable, "arac/renk_olc.py"],
         olumcul=False, dk=40)
-    if kos("ALTI DEĞİŞMEZ (denetle.py)", [sys.executable, "arac/denetle.py"],
-           dk=40) is None:
+    _tum = []
+    if not _kapi_hukmu("ALTI DEĞİŞMEZ (denetle.py)",
+                       kos("ALTI DEĞİŞMEZ (denetle.py)",
+                           [sys.executable, "arac/denetle.py"],
+                           olumcul=False, dk=40, tum=_tum), _tum):
         return 1
     # 🔴🔴 SÜRÜM DAMGASI KAPIDAN **ÖNCE** — 7 Eylül 2026'da ölçüldü, ve bu
     # bir sıra kusuruydu: damga adımı kapıdan 20 SATIR SONRA duruyordu.
@@ -320,8 +502,11 @@ def _zincir(yayinla=True, uretimsiz=False):
     if yayinla and kos("sürüm damgası", [sys.executable, "arac/surum_damgala.py"],
                        dk=10) is None:
         return 1
-    if kos("YAYIN KAPISI (denetle_yayin.py)",
-           [sys.executable, "arac/denetle_yayin.py"], dk=40) is None:
+    _tum = []
+    if not _kapi_hukmu("YAYIN KAPISI (denetle_yayin.py)",
+                       kos("YAYIN KAPISI (denetle_yayin.py)",
+                           [sys.executable, "arac/denetle_yayin.py"],
+                           olumcul=False, dk=40, tum=_tum), _tum):
         return 1
     # 🔴 ADRES NÖBETÇİSİ — 13 Ağustos 2026, BEŞ KEZ tekrarlanan bir hatadan sonra.
     # Şartnameye oturum kimliği yazılması: bayat/yanlış adres ⇒ işçilerin raporu
@@ -335,6 +520,24 @@ def _zincir(yayinla=True, uretimsiz=False):
     kos("adres nöbetçisi (adres_nobetci.py)",
         [sys.executable, "arac/adres_nobetci.py"], olumcul=False, dk=5)
 
+    # 🔴 YAYIN LİSTESİ — `git add -A -- data` YERİNE (KOS-VE-YAYINLA-ADD-1010).
+    #    Eski satır data/ altındaki HER ŞEYİ alıyordu: başka oturumların yarım
+    #    dosyaları ve izlenmeyen dosyalar dahil — `CLAUDE.md §7`: "`git add -A`
+    #    YASAK", burada bir ARAÇ yapıyordu. Ve `git commit -F` pathspec'siz
+    #    olduğu için İNDEKSTE başkasının hazırladığı her şeyi de taşıyordu.
+    #    Artık: liste `arac/yayin_listesi.py`den TÜRETİLİR (kural orada),
+    #    add ve commit AYNI pathspec'le ADIYLA, commit `git show --name-only`
+    #    ile GERİ OKUNUR. Listede olmayan kirli/izlenmeyen data/ dosyası
+    #    ADIYLA basılır ve commite GİRMEZ.
+    L = yayin_listesi.turet(KOK)
+    yaz("\n" + "=" * 66)
+    yaz("ADIM: yayın listesi (arac/yayin_listesi.py)")
+    yaz("=" * 66)
+    for s in L["satirlar"]:
+        yaz("   " + s)
+    for s in _liste_disi_kirli(L["liste"]):
+        yaz("   · listede DEĞİL, commite GİRMEZ: %s" % s)
+
     if not yayinla:
         yaz("\n🟡 --yayinlama verildi: damga/commit/push ATLANDI.")
         beep(9)
@@ -342,15 +545,32 @@ def _zincir(yayinla=True, uretimsiz=False):
 
     # (sürüm damgası YUKARI TAŞINDI — kapıdan önce; gerekçesi orada.)
 
+    if L["dur"] or L["olculemedi"]:
+        yaz("🔴 YAYIN LİSTESİ %s — commit ve push YAPILMADI."
+            % ("DURDURUCU VERDİ" if L["dur"] else "ÖLÇÜLEMEDİ"))
+        return 1
+
     # --- commit: mesaj ÖNCEDEN dosyaya yazılmış olmalı (§11) ----------
     if not os.path.exists(MESAJ):
         yaz("🔴 COMMIT MESAJI YOK: %s" % MESAJ)
         yaz("   Zincir kurulurken yazılmalıydı. Yayın YAPILMADI.")
         return 1
-    kos("git add", ["git", "add", "-A", "--", "data", "index.html"],
-        olumcul=False, dk=10)
-    if kos("git commit", ["git", "commit", "-F", MESAJ], dk=10) is None:
+    liste = L["liste"]
+    if kos("git add (liste, ADIYLA)", ["git", "add", "--"] + liste, dk=10) is None:
         return 1
+    if kos("git commit (aynı pathspec)", ["git", "commit", "-F", MESAJ, "--"] + liste,
+           dk=10) is None:
+        return 1
+    tasinan = _commit_dosyalari()
+    fazla = sorted(set(tasinan) - set(liste)) if tasinan is not None else None
+    if fazla is None:
+        yaz("🔴 commit GERİ OKUNAMADI (git show) — push YAPILMADI.")
+        return 1
+    if fazla:
+        yaz("🔴 commit LİSTE DIŞI dosya taşıyor: %s — push YAPILMADI." % " ".join(fazla))
+        return 1
+    yaz("✓ commit geri okundu: %d dosya, hepsi listede: %s"
+        % (len(tasinan), " ".join(tasinan)))
     kos("git pull --rebase", ["git", "pull", "--rebase"], olumcul=False, dk=10)
     if kos("git push", ["git", "push"], dk=10) is None:
         return 1
@@ -359,6 +579,33 @@ def _zincir(yayinla=True, uretimsiz=False):
     yaz("   GitHub Pages'in sunması ~40-60 sn sürer.")
     beep(9)
     return 0
+
+
+def _liste_disi_kirli(liste):
+    """data/ altında değişmiş ya da izlenmeyen, LİSTEDE OLMAYAN dosyalar (salt okur)."""
+    r = subprocess.run(["git", "-C", KOK, "status", "--porcelain=v1",
+                        "--untracked-files=all", "--", "data"],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode != 0:
+        return ["(git status ÖLÇÜLEMEDİ: %s)" % (r.stderr or "").strip()[:100]]
+    sec = set(liste)
+    cikti = []
+    for satir in (r.stdout or "").splitlines():
+        durum, yol = satir[:2], satir[3:].strip().strip('"')
+        if " -> " in yol:
+            yol = yol.split(" -> ")[-1]
+        if yol not in sec:
+            cikti.append("%s (%s)" % (yol, "izlenmiyor" if durum == "??" else "değişmiş " + durum.strip()))
+    return cikti
+
+
+def _commit_dosyalari():
+    """Son commit'in taşıdığı dosyalar; okunamazsa None."""
+    r = subprocess.run(["git", "-C", KOK, "show", "--name-only", "--format=", "HEAD"],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode != 0:
+        return None
+    return [l.strip() for l in (r.stdout or "").splitlines() if l.strip()]
 
 
 def zamanla(saat, uretimsiz=False):
@@ -411,7 +658,8 @@ def main(argv):
         #   yalnız BASILAN METİN — denetim akışına dokunmuyor.
         print("PLAN: uret_petek → uret_devirler → uret_altlik →")
         print("      uret_bekleyenler → renk_olc → denetle → surum_damgala →")
-        print("      denetle_yayin → adres_nobetci → commit → push → 9 bip")
+        print("      denetle_yayin → adres_nobetci → yayın listesi →")
+        print("      commit (yalnız liste, pathspec) → geri okuma → push → 9 bip")
         print("      (surum_damgala YALNIZ yayın koşusunda; --yayinlama ile")
         print("       ATLANIR ⇒ kuru koşuda `damga_ihlali` HÂLÂ ötebilir)")
         print("commit mesajı: %s  (%s)"
