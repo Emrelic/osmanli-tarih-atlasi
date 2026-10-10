@@ -676,7 +676,8 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
                          İÇERİĞİ · SAYILAR — bunlar bir DOSYADA yaşar
 ```
   ⚠️ *"Bağlamını doldurmaz"* kuralı koordinatörü `VERI-YAPISI.md`yi okumaktan
-  alıkoyar — **ve o gece bu, YEDİ yanlış hükme yol açtı.** Ölçülen vakalar:
+  alıkoyar — **ve o gece bu, ON BİR yanlış hükme yol açtı** (liste "YEDİ"
+  diyordu ve üç saat içinde bayatladı — `D199`un ailesi). Ölçülen vakalar:
 ```
   v: alanını "vassal" diye okudum  → VERI-YAPISI: v = OSMANLI'YA GÖRE tâbi
      ⇒ Madrid · Sevilla · Córdoba · Oviedo · Görice · Hama · Alaşehir ·
@@ -688,7 +689,28 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   "iki zincir betiğini de koşturma"    → --yayinlama kipi KORUMALI
   §9.1 ③ "hiçbir ağaçta"               → donan, KOŞUNUN OKUDUĞU ağaç
   "scratchpad = kendi dizinin"         → scratchpad OTURUM başına
+  "iz_kapsami ayrı işçiye"             → o kod denetle_yayin.py:347'de ⇒ TEK SAHİP
+  "EPOK == VERI_UFKU[0] bugün YANLIŞ"  → VERI_UFKU ≠ UFUK · app.js:197'de
+                                          [0] = 1281 ⇒ eşitlik DOĞRUydu
+  "tahta KOTASIZ"                      → UMIT main'e push edemez ⇒ tahta.py
+                                          commit biriktirip makineyi KİLİTLER
 ```
+  🔴 **VE SON ÜÇÜ AYRI BİR YANLILIK — ADI VAR:**
+```
+  "EMRELIC'TE DOĞRU OLANI HER YERDE DOĞRU SANMAK"
+     koordinatör TEK makinede oturur ve BEŞ makineye hüküm verir; kendi
+     makinesinin AYRICALIKLARINI (main'e push · kayıtlı kanca · çalışan
+     tahta) kuralın PARÇASI sanır.
+     vakalar: kabuk_nobetci kaydı (yalnız EMRELIC) · §9.1 ③ "hiçbir ağaçta"
+              · "tahta kotasız"
+```
+  ⇒ Ötekiler *"dosyayı okumadım"*, bu **"makinemi evren sandım"** — iki
+  ayrı yanlılık, iki ayrı çare. Birincisinin çaresi ÖLÇTÜRMEK; ikincisinin
+  çaresi **hükmün MAKİNESİNİ sormak**: *"bu her makinede böyle mi?"*
+  📌 Ve `§11`in kapı ailesinin dördüncü üyesini (*kaydı paylaşılmayan kapı*)
+  yazan da bu koordinatördü — kuralı yazdıktan saatler sonra aynı hatayı
+  iki kez daha yaptı. **Bir yanlılığı adlandırmak, ondan kurtulmak
+  değildir.**
   🔴 **ÇÖZÜM "koordinatör her şeyi okusun" DEĞİL** (o zaman rol çöker):
   > **Bir olgu bir DOSYADA yaşıyorsa, koordinatör onu HÜKÜM DEĞİL SORU
   > yapar.** *"`v:` ne demek"* bir hüküm değil bir ölçümdür; cevabı şemada
