@@ -5,7 +5,8 @@ Geçici worktree'ler: `C:\atlas-umit-ys7` (origin/main `7a613d9e`, ölçüm + d�
 (origin/main `68bcd6c0`, `git apply --check`). İki revizyon arasında `data/` + `arac/` farkı **0**. İş bitince ikisi de kaldırıldı.
 Girdi: `ATLANAN-63-1010.md` §6c (9 dosya / 10 kayıt; hükmü olan Akçahisar · Floransa · Ahıska kapsam dışı).
 
-YENİ DOSYALAR: denetim/YER-YAMA-SESSIZ-7-1010.md · denetim/YER-YAMA-SESSIZ-7-1010-KOORD.diff
+YENİ DOSYALAR: denetim/YER-YAMA-SESSIZ-7-1010.md · denetim/YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff
+⚠️ **v1 diff (`…-KOORD.diff`) DİSKTEN KALDIRILDI** — §③ v1'i anlatır (tarihî); geçerli olan **§ v2** (dosyanın sonu).
 
 ## Kısa hüküm
 | # | yama | kayıt | atlama | veri | tek cümle |
@@ -189,3 +190,84 @@ kalır (`fransa-cumhuriyet` künyesi 1945-09-02'ye kadar). Sırayla inerlerse Z5
   TAM yamanın kendi notu). ② Beş HAKLI kayıt için ② bölümündeki hüküm metni + yamalarda "HÜKÜMLE DÜŞTÜ" düzenlemesi (istenirse diff'ini
   yazarım). ③ Z5 v3 ile sıra: önce bu diff inerse Z5'e Timbuktu 1923→1945 satırı gerekir. ④ Ayrı kalemler: Çehrin 1668-1678 Doroşenko/Rus
   dönemi (D204) · Silistre üst `kaynak:`/`not:` çelişkisi · `ARALIK_RX` anahtar sırası körlüğü (iki yön de ölçüldü).
+
+---
+
+## § v2 — koordinatör hükmü sonrası (10 Ekim 2026)
+Hüküm (üç mesaj): Timbuktu diff'i koşudan sonra iner · istisna YAZILIR, gerekçe üç şeyi birebir taşır · yamaya ŞERH YASAK ·
+"hükümle devre dışı" (yoruma alma) yalnız ayrı diff + SHA'lı dayanak + satır silinmeden, ve **yalnız (a) bir kapıyı bozarsa** ·
+iniş sırası SAHIPLIK-KAPSAM-1010 → SESSIZ-7 → Z5 v4.
+
+### v2 diff — `YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff` (35 satır, 2 dosya) = seçenek (a)
+| dosya | değişiklik |
+|---|---|
+| `data/yerlesimler.js` | Timbuktu TAM zinciri (v1 ile aynı) · `neden:` 1893-1894 cümlesi yeniden yazıldı: "bir yıllık BİLİNMEZLİK, tasarım tercihi DEĞİL … 1893 ya da 1894 için gün/yıl veren bir kaynak bulunduğunda bu boşluk ve denetle.py istisnası DÜŞER" |
+| `arac/denetle.py` | `BEYAN_EDILEN_BOSLUK` += `("Timbuktu","1893-01-01","1894-01-01")`; gerekçe üç şartı BİREBİR taşıyor: ① iki kaynak adıyla — `tekrur` künyesi `t:"1893-01-01"` + künyenin `kaynak:` alanı (TDV `el-hac-omer` «1893-1894 yıllarında», `mali` çelişkisi künyede kayıtlı) · TDV `tinbuktu` «1894'te Fransız işgal ordusu şehri Batı Afrika sömürgesine ilhak etti.» ② "bir yıllık BİLİNMEZLİK, tasarım tercihi DEĞİL" ③ "DÜŞME ŞARTI: 1893 ya da 1894 için gün/yıl veren bir kaynak bulunduğunda bu istisna DÜŞER." |
+| yama dosyaları | **DOKUNULMADI** (ne şerh ne yorumlama) |
+- `git apply --check` ✓ temiz origin/main **`2d931a6f`** üzerinde (ayrı worktree). CRLF: çalışma ağacı CRLF, depo LF (`autocrlf=true`), diff `git diff` çıktısı.
+- v1 diff diskten kaldırıldı. (b) için ayrı diff (`…-DEVREDISI.diff`) **YAZILMADI** — (a) hiçbir kapıyı bozmadı (aşağıda).
+
+### Ölçüm — taban ① bugünkü main `2d931a6f` (PYTHONHASHSEED=0)
+**denetle.py --ayrinti** (önce = temiz main · sonra = main + v2; ikisi de çıkış 2 = D8 ölçülemedi, beklenen): fark v1 ile **birebir aynı**
+| sayaç | önce | (a) sonra |
+|---|---|---|
+| Değişmez 1 sahipsiz | 309 | 309 (Timbuktu kesitleri 14 → 2: 1440, 1460) |
+| Değişmez 1c BELGESİZ | 4 | **3** (Timbuktu çıktı; araç "TAVAN GEVŞEK — BEKLENEN_BELGESIZ = 3 yapılmalı") |
+| Değişmez 1b | 0 beyansız · beyanlı 7/7 | 0 beyansız · **beyanlı 8/8** |
+| Değişmez 2s | 1805 · AÇIK 193 · kapsam dışı 793 · yıl-temsilî 228 | 1807 · **AÇIK 193** · 792 · 231 |
+| Değişmez 7 muaf cografi-tecrit | 4711 | 4718 (enklav sayısı değişmedi) |
+| öteki bütün değişmezler | — | değişmedi |
+
+**772 → 771 sorusu — CEVAP: düşüşü YORUMLAMA getiriyordu, zincir DEĞİL.** Tam kuru koşu (`_sahiplik_uygula.py`, glob varsayılan):
+| | önce (main) | (a) main + v2 | (b) v1 (yorumlamalı, 7a613d9e'de ölçülmüştü) |
+|---|---|---|---|
+| `cakisma` | 772 | **772** | 771 |
+| Timbuktu satırı | ÇAKIŞMA (5 yama) | **ÇAKIŞMA (5 yama) — aynen** | yok (yalnız kaynak/bos/neden dolu) |
+| `zaten-boyle` | 50 | 50 | 51 |
+| `kapsam-daraldi` | 15 | 15 | 15 |
+| çıkış | 2 (geri alma BAYAT: İştip vb.) | 3 ⚠️ | 3 ⚠️ |
+⚠️ (a) ve (b)'nin çıkış 3'ü **ölçüm artefaktıdır**: geri alma kapısı "hedef dosya COMMİTLENMEMİŞ değişiklik taşıyor: data/yerlesimler.js
+⇒ ölçülemedi" diyor (diff worktree'de uygulanmış ama commit'lenmemiş; commit/push YOK kuralı gereği commit'lemedim). İnişten sonraki
+gerçek çıkış kodu bu ölçümle BİLİNMİYOR; sayaçlar (kapıdan önce basılan) geçerli.
+⇒ Çakışma kovası yamaların İÇERİĞİNİ karşılaştırır, veriyi değil: tam zincir veriye yazılsa da beş Timbuktu yaması birbirinden farklı
+olduğu sürece Timbuktu tam koşuda ÇAKIŞMA'da kalır. Yamalara dokunmadan bu kovayı boşaltmanın yolu bugünkü araçta YOK
+(çare araçta olurdu: "veri zaten bir yamaya eşitse çakışma sayma" — öneri, yazmadım).
+
+**Tek tek kuru koşu — parça yamalar (a)'da hangi kovaya düşüyor, ADIYLA** (bu gecenin sessiz atlama sınıfı):
+| yama | önce (main) | (a) main + v2 | çıkış (a) |
+|---|---|---|---|
+| `yer_yama_1923_bosluk_0906.js` · Timbuktu | KAPSAM DARALDI `1281→1430; 1468→1700` | KAPSAM DARALDI `1281→1430; 1468→1893` | **0 — SESSİZ** |
+| `yer_yama_timbuktu.js` · Timbuktu | KAPSAM DARALDI `1281→1430; 1468→1700` | KAPSAM DARALDI `1281→1430; 1468→1760` | **0 — SESSİZ** |
+| `yer_yama_ok107.js` · Timbuktu | **uygulandı** (s+bos+neden+not; s bugünküyle aynı) | 🔴 **YENİ:** KAPSAM DARALDI `1700→1893; 1894→1923-10-29` (+bos/neden dolu) | **0 — SESSİZ** |
+| `yer_yama_belgesiz7.js` · Timbuktu | uygulandı (bos+neden) | zaten-böyle / bos-neden dolu | 0 (atlama değil) |
+| `yer_yama_timbuktu_tam_0906.js` · Timbuktu | uygulanırdı ama **çıkış 3** (taban beyansız) | **zaten-böyle** | 0 (atlama değil) |
+⇒ (a)'da Timbuktu'nun sessiz atlaması **2 → 3** olur (ok107 sınıfa KATILIR — tam zincir onun 1700 sonrası "eksik"liğini daralmaya
+çevirdi). Üçü de **bugünkü araçta çıkış 0**. Hiçbiri yıkıcı yazım yapmıyor (üçü de atlanıyor) ⇒ **(a) bir kapıyı BOZMUYOR**, yalnız
+bilinen sessiz sınıfı büyütüyor. SAHIPLIK-KAPSAM-1010 ("kapsam atlaması ⇒ 2") inince bu üç kayıt görünür olacak ve tek tek koşuda
+çıkış 2 verecek — beklenen; o noktada ya yoruma alma (b, ayrı diff, dayanak `63bb90dd`/`HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906`) ya da
+araçta bir hüküm-listesi gerekecek. Karar koordinatörün.
+
+### (a) ↔ (b) karşılaştırma
+| | (a) yamalara dokunmadan — **v2 varsayılan** | (b) dört parça kaydı yoruma alarak (v1'deki gibi, ayrı diff olurdu) |
+|---|---|---|
+| veri (Timbuktu zinciri) | iner | iner |
+| denetle sayaçları | 1c 4→3 · 1b 8/8 · 2s +2/AÇIK 193 | **aynı** |
+| tam koşu `cakisma` | 772 (Timbuktu kalır) | 771 (Timbuktu çıkar) |
+| tek tek sessiz atlama (Timbuktu) | **3** (bosluk_0906 · timbuktu · ok107) | **0** |
+| KAPSAM-1010 inince | 3 kayıt çıkış 2 verir (görünür borç) | etkisiz |
+| yama kaydı | el değmemiş | yorumda (satır silinmeden) |
+| kapı bozuyor mu | HAYIR | HAYIR |
+
+### Taban ② main + `SAHIPLIK-KAPSAM-1010.diff` — **ÖLÇÜLEMEDİ: KAPSAM diff'i bekleniyor**
+`C:\atlas-umit\denetim\SAHIPLIK-KAPSAM-1010*` diskte YOK (10 Ekim, bu teslim anında). Ne ikinci tabanda koşu ne de "KAPSAM'dan sonra
+`git apply --check`" yapılabildi. Dosya gelince ölçülecekler: üç parça yamanın tek tek çıkışı (beklenen 2), tam koşu çıkışı, v2'nin
+KAPSAM üstüne `apply --check`'i (v2 `arac/denetle.py` + `data/yerlesimler.js`e dokunuyor; KAPSAM büyük olasılıkla
+`arac/_sahiplik_uygula.py`ye dokunur ⇒ dosya kesişimi beklenmez, ama ölçülmedi).
+
+### v2 — ölçtüm · bulamadım · istiyorum
+- **Ölçtüm:** v2 = (a), 2 dosya, `apply --check` ✓ `2d931a6f`. denetle farkı v1 ile aynı. 772→771'i yorumlama getiriyordu; (a)'da 772 kalır.
+  (a)'da Timbuktu'nun sessiz atlaması 2→3 (ok107 yeni), üçü çıkış 0; yıkıcı yazım 0 ⇒ kapı bozulmadı ⇒ (b) diff'i yazılmadı.
+- **Bulamadım:** SAHIPLIK-KAPSAM-1010.diff (taban ② ölçülemedi). (a)'nın iniş sonrası gerçek tam-koşu çıkış kodu (commit'siz worktree'de
+  geri alma kapısı 3 veriyor — artefakt).
+- **İstiyorum:** ① v2'nin koşudan sonra inişi + aynı commit'te `BEKLENEN_BELGESIZ 4→3` (§3.4 ②③) + `renk_olc.py`. ② KAPSAM-1010 gelince
+  taban ② için yeniden çağrılmak. ③ (a)'nın bıraktığı 3 görünür borç için hüküm: (b) ayrı diff mi, araçta hüküm listesi mi.
