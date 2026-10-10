@@ -241,22 +241,18 @@ hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
 ```
   ⚠️ `∩ mîlâdî yıl` ihmal edilemez: hicrî yıl iki mîlâdî yıla yayılır, kaynak
   hangisini söylüyorsa kesişim ORADA kalır — *"543/1148" 1149'a TAŞMAZ.*
-  🔴 **VE BU BİR TAHMİN DEĞİL, 145 UÇTA ÖLÇÜLDÜ** (897 künye tarandı; hicrî
-  taşıyan 108 · taşımayan 789 · kaynak alanı BOŞ 0):
-```
-  İÇİNDE 72  ·  DIŞINDA 72  ·  ÖLÇÜLEMEDİ 1   (1. tur, 145 uç)
-  + madde başına tarama 6 yeni  ⇒  GECE TOPLAMI 78 dış uç
-  DIŞARIDAKİ 78'in  78'i  →  `YYYY-01-01`
-  gün YAZILMIŞ 28 ucun   0'ı  →  dışarıda
-```
-  Sıfır ve yüz yan yana ⇒ **tek bir mekanizma.** Hata hiçbir zaman "yanlış
-  okuma" değil: *"gün yoksa 1 Ocak"* sözleşmesinin hicrî kaynağa uygulanması.
-  TDV'nin `H/M`si *"M'de başlayan H yılı"* demek; `M-01-01` ise o hicrî yıl
-  **başlamadan önceki gün.** ⇒ 70 vakası tek bir satıra inen bir kusur, bir
-  "hata listesi" değil **bir SÖZLEŞME AÇIĞIDIR** — çaresi de liste değil,
-  sözleşme. Ölçülen kaymalar: `zengi-musul`/`lului` **11 ay** ·
-  `hamdani-musul` 10 ay · `karmati`/`uyuni` 7 ay · `muvahhidler` f'de kaynakta
-  gün VAR ama yazılmamış (14 Ramazan 524 / 21 Ağustos 1130).
+  🔴 **VE BU BİR TAHMİN DEĞİL, ÖLÇÜLDÜ:** künye uçlarının **ONLARCASI**
+  kaynağın hicrî aralığının DIŞINDA, ve **dışarıda kalanların HEPSİ**
+  `YYYY-01-01`; gün YAZILMIŞ uçların **hiçbiri** dışarıda değil. Sıfır ve yüz yan yana ⇒ **tek bir mekanizma.**
+  Hata hiçbir zaman *"yanlış okuma"* değil: `"gün yoksa 1 Ocak"` sözleşmesinin
+  hicrî kaynağa uygulanması. TDV'nin `H/M`si *"M'de başlayan H yılı"* demek;
+  `M-01-01` ise o hicrî yıl **başlamadan önceki gün.** ⇒ Onlarca vakası tek bir
+  satıra inen bir kusur, bir "hata listesi" değil **bir SÖZLEŞME AÇIĞIDIR** —
+  çaresi de liste değil, **sözleşme.** Kaymalar 11 aya kadar çıkıyor.
+  📌 **SAYILAR VE VAKALAR BU DOSYADA TUTULMAZ** (`§11`: *slogan burada, vaka
+  `dersler/`de*) — tur-tur döküm, künye adları, sınır günleri ve örnek cümleler
+  tek doğruluk kaynağında: **`denetim/KASA-HICRI-*`**. Sayı değişince o rapor
+  güncellenir, bu dosya DEĞİL.
   🔴 **ZİNCİR ŞARTI:** bir künyenin `t`si başka birinin `f`siyse ikisi
   **BİRLİKTE** kaydırılır; tek taraflı kaydırma Değişmez 1 (sahipsizlik)
   ihlali üretir. ⚠️ Ve otomatik eşleşmeye GÜVENİLMEZ: ham 33 eşleşmenin
@@ -295,31 +291,19 @@ hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
   çelişiyorsa bu kural İŞLEMEZ, cevap `ÖLÇÜLEMEDİ`dir ve mevcut değer korunur
   (`muvahhidler` t: 667 ↔ 668 ↔ Merînî 666).
 
-  ⚠️ **78 BİR TABANDIR, TAVAN DEĞİL — ve ÜÇ sebeple:**
-```
-  ① notunda hicrî TAŞIMAYAN 789 künyenin TDV gövdeleri çekilmedi
-     (`sasani` t ve `hulefa-yi-rasidin` f bu evrene HİÇ girmiyor; hicrî
-     tarihleri başka TDV maddesinden geliyor — "çapraz madde" sınıfı)
-  ② 1. turun İÇİNDE'lerinin ÇOK ADAYLI 7'si kontrol edildi (2 DIŞINDA'ya,
-     1 ÖLÇÜLEMEDİ'ye geçti, 4 kaldı) AMA kalan 64 "tek ifadeli" İÇİNDE
-     DOĞRULANMADI: o tek ifade de KOMŞU bir polity'nin maddesinden alıntı
-     olabilir — aynı risk sınıfı, henüz açılmadı.
-     Ölçülen vakalar: `hamdani-yemen` f (dayanağı komşu `suleyhiler` 491)
-     ⇒ 1098-11-28 · `eyyubi-hisnikeyfa` f (İÇİNDE veren ŞEHİR maddesi
-     `hasankeyf` 629, DIŞINDA veren HÂNEDAN maddesi `eyyubiler` 630)
-     ⇒ 1232-10-18
-  ③ hânedan-ana maddeleri (`osmanlilar` · `selcuklular` · `abbasiler` ·
-     `fatimiler`) HENÜZ TARANMADI
-```
+  ⚠️ **O SAYI BİR TABANDIR, TAVAN DEĞİL** — ve sebepleri raporda ADIYLA sayılı
+  (notunda hicrî taşımayan künyeler hiç ölçülemedi; bazı madde kümeleri henüz
+  taranmadı). ⇒ **Bir sayının taban olduğunu bilmek, bilmemekten iyidir;
+  HANGİ SEBEPLERLE taban olduğunu bilmek daha iyidir.**
+  🔴 Ve bir sıra kuralı: **BİLİNEN BİR DELİĞİ KAPATMAK, YENİ BİR ÖLÇÜMDEN
+  ÖNCE GELİR** — deliği olan ölçüm ZATEN KULLANILIYOR.
   🔴 **DAR KAPSAM KURALININ İKİ EKSENİ** (ikinci eksen `eyyubi-hisnikeyfa` ile
   doğdu): bir **KÜNYENİN** kendi `f:`/`t:`si → **o polity'nin** maddesi esas ·
   bir **YERİN** kendi olguları (kuruluş, iskân) → **yer** maddesi esas. Şehir
   maddesi, bir hânedan kolunun saltanat tarihinde dar kapsamlı DEĞİLDİR.
   ⚠️ Ve komşu hicrî yıllar ÖRTÜŞMEZ (629 ∩ 630 = ∅) ⇒ böyle bir hüküm bir
   **SEÇİM**tir, kesişim değil; alternatif `ic_not`ta ADIYLA yazılır.
-  ⇒ Bir sayının TABAN olduğunu bilmek, bilmemekten iyidir; **hangi sebeplerle
-  taban olduğunu bilmek daha iyidir.** Ve: **bilinen bir deliği kapatmak, yeni
-  bir ölçümden ÖNCE gelir** — deliği olan ölçüm ZATEN KULLANILIYOR.
+
   📌 Niçin bu kadar geniş: `§4` TDV'yi İslâm dünyası ve Osmanlı için birincil
   yapar — yani atlasın **çekirdeğinin** kaynakları hicrî tarihler. Bu tuzak
   istisna değil, **varsayılan hâl.**

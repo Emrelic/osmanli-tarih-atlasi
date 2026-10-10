@@ -305,7 +305,53 @@ Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gece
     Trablusşam 1289-01-01 → 1289-04-26
 2g  Taiz 13 dilimi · BOYA-BAYRAK-TEMIZ-1010 (94 ölü bayrak)
     NOKTA-ONCE1281-UCUZ (4 pencere · Silistre **1279**, 1189 DEĞİL)
-2h  KASA-SUMER-SAHIPLIK (MÖ 539→MS 226) — geldiğinde
+2h  KASA-SUMER-SAHIPLIK (MÖ 539→MS 226) — geldi: 15 nokta zinciri
+2l  🆕 HİCRÎ UÇ DÜZELTMELERİ (KASA, dört tur) — `data/devletler.js`
+    78 dış uç + 10 ardıl çifti. 🔴 ARDIL ÇİFTLERİ **BİRLİKTE** iner
+    (tek taraflı kaydırma Değişmez 1 ihlali üretir):
+      rasidin↔emevi 0661-07-29 · karahanli↔doğu/batı karahanli 1041-08-31
+      midrari↔magrave 0976-08-30 · zengi-musul↔lului 1233-12-05
+      kakuyi↔yezd 1141-08-06 · karmati↔uyuni 1076-08-05
+      suve↔evfat 1285-03-09 · yezd↔muzafferi 1318-03-05
+    ADIYLA tekil uçlar:
+      sasani t 0651-08-24 · hulefa-yi-rasidin f 0632-06-04 (ay, alt sınır
+      çıkarımı BEYANLI) · memluk f 1250-07-03 + `__BOSLUK__` (N) 04-30…07-03
+      hamdani-yemen f 1098-11-28 · eyyubi-hisnikeyfa f 1232-10-18 (SEÇİM,
+      alternatif `hasankeyf` 629 → `ic_not`) · akkoyunlu t 1514-02-26
+      trablusgarp-ocagi f 1551-01-09 · yemen-zeydi f 0897-02-08
+      kirman-selcuklu f/t 1048-06-16 / 1187-03-13 (2i ile AYNI commit'te)
+    DEĞİŞİKLİK YOK ama `ic_not`a beyan: ziyadi f (⑧ başka olay) ·
+      hamdani-yemen t (yapısal ±1, geçerli) · muvahhidler t (kaynak kendiyle
+      çelişiyor ⇒ ÖLÇÜLEMEDİ, üç yıl `ic_not`ta) · memluk Şecerüddür okulu
+    ⚠️ `karakene` YAZILMAZ (tek kaynak livius/Lendering) — ERTELENDİ
+2m  🆕 SAHİP DÜZELTMELERİ — `yerlesimler*.js`
+    🔴 14 UYDURMA EGEMENLİK DEVRİ: `1281-01-01`de biten dönem AYNI GÜN başka
+       sahiple sürüyor — 11'i Selçuklu→İlhanlı (Kayseri · Tokat · Sivas · Van ·
+       Kırşehir · Erzincan · Erzurum · Bitlis · Elbistan · Kemah · Bayburt) +
+       Sinop→Pervâne · Çankırı→Çobanoğulları · Ankara→Ahiler.
+       **1 Ocak 1281'de böyle bir devir YOK.**
+       ⚠️ ÖN ŞART: bu 14 kırılmanın kronoloji maddesi VAR MI? Varsa 14 UYDURMA
+       MADDE de var ve iş iki katı (kronoloji dosyaları = başka sahipler).
+       Sayım `KAYNAKSIZ-14-KIRILMA-1010`da, tahtaya yazıldı.
+    9 ÖLÇÜLMÜŞ SAHİP HATASI (2. örneklem): Aydın (TDV 1282 Menteşe) ·
+       Larissa (Tesalya Doukas) · Muhâ (Resûlî Tihâme) · Şelif (1351'e dek
+       Mağrâve) · Müstegānim (1511 İspanyol / 1539 Osmanlı) · Lâhîcân (1305'e
+       dek Nâsırvend) · Nazret (Oromo) · **Maumere (künye Timor, yer FLORES —
+       `§3.5` "devlet var, YERİ yanlış")** · Buryat (1281-1368 Yuan, 87 yıl aşım)
+    5 ÖRNEKLEM DIŞI tespit (oranı ETKİLEMEZ, düzeltilecek kalem):
+       Vize 1413-53 · Ermenek 1397-1402 · Santorini · Purwokerto · Maan↔TDV 1916
+    KASA-SASANI: Kutha `sasani` 0226→0637-03-04 · Susa `sasani` 0224→0640
+       + `hulefa-yi-rasidin` ARDIL halkası (uç TEK BAŞINA inmez, delik açar)
+       `kaynak:`a "bölge cümlesi, şehir adı geçmiyor"
+    VARLIK uçları: Ur t −0316 · Nina t −0329 · Uruk t 0400 (`kesinlik:yuzyil`,
+       van Ess *"im 4. Jh. aufgegeben"*) · Eridu t 0500 · Larsa t 0300
+       + Dēr `ahameni` Ş (Kyros silindiri) + `__BOSLUK__` (K) beş pencere
+2n  🆕 LAB KONUM — v3b (2b) ÜSTÜNE
+    ada taramasından KESİN: Krk (6,0-6,3) · Pantelerya (v3b'de)
+    **Hvar: KUSUR KESİN / TAŞIMA PARK** (`§6.5` — kimlik kategorik olarak
+    kapanıyor, koordinat tek tanıklı: GN 3199180, 20,8 km)
+    ADAY-GÜÇLÜ, ilk partiye GİRMEZ: Paros 4,7 · Mikonos 4,3 · Nio 4,2 ·
+    İpsara 3,3 · Sömbeki 3,4 (nesne belirsiz ⇒ `§6.1` eşiği DÜŞMEZ)
 ```
 ```
 2i  NOKTA-ONCE1281-ZINCIR  8 nokta / 33 pencere + 14 KRONOLOJİ MADDESİ +
