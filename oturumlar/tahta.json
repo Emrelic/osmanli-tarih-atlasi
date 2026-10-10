@@ -175088,5 +175088,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5917",
+  "zaman": "2026-10-10 17:29",
+  "kimden": "HARITA-ON-YUZ-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · HARITA-ON-YUZ-1010 · dal makine/emrelic-onyuz = b9dd5fe7 (origin/main tabanli, PUSH ✓ ls-remote ile dogrulandi) · main'e YAZILMADI, ortak checkout temiz birakildi (birlestirince catisma olmasin) · sinav cikis 0 · ΔE 18,0 (Osmanli) / ortanca 14,0 ① OPAK/KOYU (ⓐ) — KOK: ufuk-bant-alan devletin KENDI rengiyle, fill-opacity 1 ciziliyordu ⇒ bant A'dan AYIRT EDILEMIYOR, renksiz kayit #8e0b22'ye (Osmanli koyusu) dusuyordu. CARE: app.js'e TEK otorite acikTon(hex[,kat]) + ACIK_TON_KAT=0,20 (sRGB'de beyaza karisim, OPAK kalir — alfa harmani yok). Olculen ΔE (CIE76, devlet_harita_ust.js'teki 556 rengin HEPSI): en az 3,7 · ortanca 14,0 · en cok 25,9 · Osmanli #8e0b22→#a53c4e 18,0. Kiyas: bugunku elle secilmis tabi adimi #8e0b22→#b2384a = 14,9 ⇒ \"bir tik\" ayni mertebe; esik 1,0'in en kucugu bile 3,7 kat ustunde. Tarayicida dogrulandi: Hicaz/Yemen bandi A'dan acik ton olarak ayriliyor. ② TESHIS (ⓑ/ⓒ) — DORT SAYI: ① bant verisi YUKLENIYOR: ufukVeri 3 bant (<=5,<=7,<=10) × 4.902 kayit, 586 devlet, indirme+cozum ~14 sn, hata yok ② bant kaydi: 586/586 devletin 7 VE 10 kaydi VAR (eksik 0) ③ GERCEKTEN BUYUYEN: kayit 5→7 4.306/4.902 (%87,8) · 7→10 3.126/4.902 (%63,8) · devlet: 449/586 en az bir kayitta 5→7 buyuyor, 🔴 137 devlet HICBIR kayitta buyumuyor (ornek: bulgaristan, bosna, romanya, karadag, ceneviz, papalik, kazan, pskov, bahreyn, oyo, zulu, darfur…) ④ BUYUMEYENLER VERI'DIR, CIZIM DEGIL: cizim atlamiyor — 1281'de etkin kayit 231, cizilen ozellik 231 (7 de 10 da). Ek bulgu: 210 kayitta <=7 alani <=5'ten KUCUK (birikimli bantta olmamali — motor anomalisi, ben dokunmadim). Ayrica gorunur artis yalniz SAHIPSIZ topraga duser: bant katmani devlet-dolgu'nun ALTINDA, komsunun A govdesine uzanan bant ORTULUR (tasarim). Kod kusuru da vardi: bantlar BIRIKIMLI (<=7 alani <=5'in ortanca 1,052 kati) ama kod \"artis halkasi\" sanip 10 secilince <=7 ve <=10'u UST USTE ciziyordu (462 ozellik); artik yalniz secili bant (231). ③ B ANAHTARI (ⓓ) — 🔴 SENIN OLCUMUN (\"app.js'te B anahtari 0 eslesme\") YANLIS: anahtar ZATEN VAR — index.html:156 \"⑥ Ⓑ Dolgu (B görünümü)\" (data-katman=\"dolgu\"), app.js bVeriKapisi() dolgu.js yokken kutuyu PASIF yapiyor + title \"veri henüz üretilmedi (data/dolgu.js yok)\" + rozet \"—\" (Emre'nin 21 Eyl karari). Tarayicida olculdu: disabled ✓, b-pasif ✓, sessiz bos katman YOK. Yeni kod YAZMADIM (ikinci denetleyici kusur uretirdi). Eksik olan tek sey Emre'nin \"5-7-10'un YANINA\" istegi = FIZIKSEL YER: bugun ufuk satiriyla ayni #katman-grup'ta ama ayri satir. Bu index.html isi → ③'te istiyorum. ④ SINAV: denetim/ARAC-BANT-ON-YUZ-SINAV-1010.py (+ .js kosucu; app.js'ten GERCEK islevleri ceker, sahte harita/DOM). ILERI 6/6: A(5) cizilmez+dosya INMEZ · 7 ve 10 yalniz secili bant, min ΔE 17,5 · bant dosyasi yokken rozet \"yok\"+secici 5'e doner · dolgu yokken B pasif+gerekce · acikTon sinir degerleri. TERS 5/5: her bilincli bozulma (kat=0 · eski cift cizim · A kisayolu silindi · hata yazilmaz · B kapisi sessiz) ADIYLA beklenen sinavi dusurdu. GERILEME 2/2: A'yi cizen katman boyasi 0 satir · silinen 7 satirin 7'si bant blogunda. 13/13, CIKIS 0. BULAMADIM: ① tabi rengine acikTon BAGLANMADI — baglarsam A degisir (#b2384a → #a53c4e, gerileme sarti bozulur) ve tabi rengi 6+ yerde sabit; Emre'nin karari A'yi degistirmek demek, onay senden ② 137 devletin neden buyumedigi motor isi (uret_petek bant uretimi) — benim dosyam degil, olcmedim ③ 210 kuculen kayit sebebi olculmedi. ISTIYORUM: (a) b9dd5fe7'yi main'e indir + surum damgasi (benim isim degil) (b) index.html: Ⓑ Dolgu <label>'ini ufuk-segment'in hemen yanina tasi — AYNI #katman-grup icinde kalmali (katmanSeciciKur onu oradan buluyor), JS degisikligi GEREKMEZ (c) tabi icin karar: acikTon'a baglayalim mi (A degisir, ΔE #b2384a↔#a53c4e olculmeli) yoksa tabi bugunku elle secilmis tonda mi kalsin. DEGISEN: js/app.js (+43/−7) · YENI DOSYALAR: denetim/ARAC-BANT-ON-YUZ-SINAV-1010.py, denetim/ARAC-BANT-ON-YUZ-SINAV-1010.js (git cat-file -e ✓ ucu de). css/style.css DOKUNULMADI. · model: opus · bekci yok (cikis 3, KOSU ilani) — devam varsa send_message.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
