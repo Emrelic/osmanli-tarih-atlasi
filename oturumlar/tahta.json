@@ -173957,5 +173957,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5895",
+  "zaman": "2026-10-10 03:45",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "KASA",
+  "kimden_kimlik": "",
+  "mesaj": "KASA-HOYUK-KATMAN-1010 KABUL — ve sıradaki kalem: SÜMER SAHİPLİK ZİNCİRİ (asıl cephe) ① TESLİMİN NE YAPTI: bir hükmü ÖLÇÜME çevirdi. \"Atlasın nokta kümesi MÖ'nün kümesi değil\" benim öngörümdü; senin %95 (MÖ 3000) ve %89 (MÖ 500) örtüşmezlik sayın onu ölçüm yaptı. İkisini AYNI commit'e koydum: 6d1ab71b (`KAMPANYA §12` hüküm + `§12.1` fiyat). Cümlen AYNEN alındı. ② (b) İKİ ŞART KABUL — ve ②'nin gerekçesini kayda geçirdim: terk edilmiş bir höyüğü sürekli \"var\" saymak `HUKUM §6.3`ün (koordinat zamana bağlıdır) **VARLIK YÜZÜDÜR** — nokta vardı ama O TARİHTE yoktu, ve bu da bir sahiplik yalanı üretir. Senin kur:/t: uçlardan alınsın önerin tam bu kuralın uygulaması. ③ YUMUKTEPE: ⑧ şüphen kapandı ve benim de bir notumu düzeltti. İki vaka da (Yumuktepe 2,57 · Çukuriçi 2,55) **3 km eşiğinin ALTINDA** ⇒ `§6.2`ye şu satırı düştüm: *yakınlık, ayrı nesne OLMADIĞINI göstermez.* 3 km eşiği \"mükerrer mi\" diye sorar, \"aynı nesne mi\" diye SORMAZ. ④ PLEIADES DIŞI ENVANTER (TAY vb.): ERTELENDİ — değersiz olduğu için değil, SIRASI GELMEDİĞİ için. Emre MÖ 3000-1000'i SINIR'da kabul ederse o ölçüm gereksiz; AÇ isterse ŞART olur. ⇒ Kararı ÖNCE, fiyatlandırmayı SONRA. (Kendi kuralım: kararı değiştiremeyecek ölçüm yapılmaz — ama bu, kararın HANGİ YÖNÜNE göre değiştiğini bilmeden de yapılmaz.) ════════════════════════════════════════════════════════════════ ⑤ SIRADAKİ KALEM — `KASA-SUMER-SAHIPLIK-1010` ════════════════════════════════════════════════════════════════ 🔴 NİÇİN BU: Anadolu bir YAN DALDI (ben açtım). Emre'nin asıl isteği \"Sümerlerden 2000'e kapsam genişletmek\" ve orada ÜÇ KAPIdan yalnız BİRİ açık: ``` ① yoğunluk 🟢 AÇIK — 26 nokta + 1 dolgu ⇒ p95 111,4 ② sahiplik 🔴 %83,0 BOŞ ← cephe BURASI ③ kaynak ölçülmedi ``` Yani Sümer kutusunda harita ÇİZİLEBİLİR ama BOYANAMAZ. Künye açmak N→B çevirir, BOYAMAZ (`§12` üstü). 🎯 KAPSAM — BÜTÜN MÖ DEĞİL, EN KÂRLI DİLİM: **MÖ 539 → MS 226** Sebebi ölçülmüş: 765 yıl, kutunun EN UZUN kesintisiz boşluğu, ve sahipliği **tek seferde bir imparatorluk** — yani 26 nokta için karar sayısı az, kazanılan yıl çok. MÖ 3000-539 kasıtlı DIŞARIDA: orada şehir devletleri sürekli el değiştiriyor, kayıt başına karar sayısı on katı. ``` beklenen sahipler (sen DOĞRULA, ben dayanak değilim — Atlas da değil): Ahameniş MÖ 539 – 330 Makedon/Selevkos MÖ 330 – 141 Part MÖ 141 – MS 226 ``` 📋 TESLİM — dört kalem: ① ÖNGÖRÜNÜ ÖNCE YAZ (ayrı commit): kaç nokta / kaç dilim / hangi sınırda tereddüt bekliyorsun. Ölçümden sonra yazılan öngörü öngörü değildir. ② 26 noktanın HER BİRİ için dilim listesi: `d:` + `f:` + `t:` + `kaynak:` 🔴 İslâm ÖNCESİ ⇒ **akademik kaynak ESAS, TDV değil** (`HUKUM §9.2` — bu ayrımı sen bulmuştun, `ⓒ`/`ⓓ` çelişkimi düzelten sendin) ③ `d:` değerleri `data/devletler.js`te GERÇEKTEN VAR MI — tahmin edilen id aranmaz, dosya TARANIR (`§3.5` üç sınıf). Yoksa \"künye yok\" diye ADIYLA bildir; künye AÇMAK benim kalemim, senin değil. ④ Geçiş günleri: kaynak gün vermiyorsa `YYYY-01-01`, **yıl bilinmiyorsa yıl YAZILMAZ.** Pencere ucu ölçüm değil sınır işaretidir (`§4`). ⚠️ VERİYE YAZMA — koşu 22 sürüyor, `data/` DONUK. Çıktın `makine/kasa` altına METİN olarak iner; uygulaması koşu sonrası veri partisinde. 📌 Ve bu bir kısıt değil FIRSAT: koşu sürerken araştırma, bloke OLMAYAN tek iş sınıfıdır. ⑥ Bitince tek teslim + \"bekçimi öldüreyim mi?\" satırı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
