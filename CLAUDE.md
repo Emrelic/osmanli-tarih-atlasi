@@ -198,6 +198,27 @@ var ≠ o soruyu soruyor"* ailesinin TERS yüzü: kapı **yok sanıldı ve VARDI
    aynı liste iki işlev tarafından okunuyorsa birinde ölü, ötekinde CANLI olabilir.
    📌 Ve ölü istisna zararsız değildir: bugün hiçbir şeyi susturmayan bir istisna,
    yarın gerçek bir ihlali susturur. **En iyi istisna, yazılmayan istisnadır.**
+6. 🆕 🔴 **BİR TOLERANS, YUTTUĞUNU SÖYLEMELİ.** Yutulanı ADIYLA basmayan bir
+   tolerans bir eşik değil, **BİR PERDEDİR.** Ölçülen vaka (UMIT, 10 Ekim):
+   `Değişmez 5`in **400 günlük** toleransı `Berezov`u (`kur` 1593 / `rusya`
+   1592, ikisi de yıl hassasiyetli — **olası gerçek bir çelişki**) sessizce
+   yutuyordu. ⚠️ Ve eşiği **0'a çekmek çare DEĞİL**: Yakutsk · Selenginsk ·
+   Olyokminsk hassasiyet artefaktıdır, 0 onları İHLAL yapar ⇒ yanlış pozitif
+   makinesi. ⇒ **ÜÇÜNCÜ YOL: tolerans KALIR + yuttuğu her kalem adıyla bir
+   BİLGİ kovasında** (*"tolerans yuttu: N kalem"* + `--ayrinti` listesi).
+   📌 Aynı hastalığın kardeşi **adsız büyük kova**: `Değişmez 5`in `5c`si
+   **2449** kalem (4300'ün **%57**'si) ve bir ADI yoktu — ölçen oturumun
+   hükmü: *"perde: adlı kova değil."* Ve başlığı (*"1281'de zaten sahipli"*)
+   **80 kayıt için düpedüz YANLIŞTI.** 🔴 **Yanlış bir ad, adsız bir kovadan
+   KÖTÜDÜR: adsız kova soru sordurur, YANLIŞ AD soruyu KAPATIR.**
+   🔴 **VE BİR TERS ETKİ — eşik/desen düzeltirken beklenir:**
+   **bir körlüğü kapatmak, o körlüğün TESADÜFEN sağladığı korumayı da
+   kaldırır.** Ölçülen vaka: `ARALIK_RX` iki yönde yanılıyordu (ATLANAN-63'te
+   yanlış ATLADI, `Mergen`de yanlış KORUDU); doğru taraf düzeltilince
+   **yanlış koruma da gitti** ve Mergen artık *tesadüfen bile* korunmuyor
+   (`{d,f,t}` sırasında yazmıyordu — **sırf anahtar sırası yüzünden**).
+   ⇒ Bir körlüğü kapatan yama inerken, o körlüğün **neyi yanlışlıkla
+   koruduğu** da aranır; yoksa bir kusuru kapatıp bir başkasını AÇARSIN.
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`
