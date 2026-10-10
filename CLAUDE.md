@@ -507,6 +507,16 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   > Tek meşru ölçüt: **KENDİ başlattığın PID ve onun ALT AĞACI.**
   📌 İki vaka da aynı dersi veriyor: *bir süreci "benim gibi görünüyor" diye
   öldürmek, aynı makinede çalışan başka bir oturumun işini öldürmektir.*
+  🆕 🔴 **VE AYNI KÖKÜN İKİNCİ YÜZÜ: AJANLAR BİRBİRİNİN DİZİNİNE DE YAZMAZ.**
+  Ölçülen vaka (10 Ekim): bir sınav **17/18** verdi ve tek kalan soru *"koşu
+  sırasında başka bir ajan AYNI DİZİNE yazdı"* yüzündendi — yani sonuç ölçüm
+  değil **kirlenme**ydi. ⇒ **Her ajan KENDİ dizinine yazar** (scratchpad ya da
+  kendi worktree'si); paylaşılan `denetim/` yalnız **TESLİM** içindir, çalışma
+  alanı değil.
+  📌 Birlikte okunur: *aynı makinede çalışan ajanlar süreçleri, dosyaları ve
+  dizinleri PAYLAŞIR.* Bir sınavın çıktısı başka bir ajanın yazdığı dosyayla
+  kirlendiğinde o sınav **"geçti" ya da "kaldı" der ve sebebi ÖLÇÜM DEĞİLDİR**
+  — `D269`un (*kanal da bir alettir*) dosya sistemi yüzü.
   🔴 **VE ÇIKIŞ KODU TUZAĞI — bu makinede ÖLÇÜLDÜ, genel bilgi DEĞİL:**
 ```
   Stop-Process -Force (python.exe / py.exe)  →  127
