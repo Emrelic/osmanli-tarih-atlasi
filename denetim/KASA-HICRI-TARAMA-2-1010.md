@@ -96,8 +96,22 @@ aralıkları iki kat genişletildiği için ikisi aralık içinde kaldı, ama ik
 **büyük** tahmin ettim. Sebep: "TDV hicrî tarih verir" genellemesi, notunda hicrî olmayan künyelerin çoğunun
 TDV'ye hiç bağlı olmadığını ya da TDV'nin o dönem için miladî konuştuğunu hesaba katmadı.
 
+### 1.4 🔴 DÜZELTME (koordinatör, 2026-10-10) — PAYDA KUSURU
+§1.1'deki "0/50 ⇒ %0-7,1 ⇒ 789'da en çok ~56" **GEÇERSİZ**. Payda 48 ÖLÇÜLEMEDİ ucu İÇİNDE sayıyor. Ölçülemeyen uç
+temiz DEĞİL (§3 üç kod). Gerçek oran **0/2 ⇒ Wilson %95 ≈ %0-66** ⇒ 789 için büyüklük hükmü **YOK**.
+Birinci turdaki kendi "GENEL'i ölçülemedi saymak YUKARI yanlıdır" uyarımın ayna görüntüsü: ölçülemedi'yi İÇİNDE
+saymak AŞAĞI yanlı.
+**Geçerli sonuç cümlesi:** "Hicrî tuzak, notunda hicrî taşıyan 108 künyede ölçüldü ve orada tükendi (145 uçtan 70'i
+dışarıda). Notunda hicrî TAŞIMAYAN 789 künyede ise yöntem ölçemiyor: 50'lik örneklemin 48'i ÖLÇÜLEMEDİ (27 slug
+yok · 21 gövdede o yılı taşıyan hicrî ifade yok), ölçülebilen 2'sinde tuzak çıkmadı ⇒ o evren için hüküm AÇIK,
+'temiz' DEĞİL."
+Öngörü karnesinden de iki satır düşüyor:
+- "789'a genelleme 60-200 ✗" ⇒ **ölçülemedi**.
+- "yön yine 'tuzak büyük' tahmini, yine yanlış" ⇒ **bilinmiyor** (2 ölçümle yön hükmü verilmez).
+Bu tur kalibrasyon listesine girmez.
+
 ## 2. ③ İSTİYORUM
-a) **Sonuç cümlesi (sözleşme kararını destekler):** "Hicrî tuzak, notunda hicrî taşıyan 108 künyede ölçüldü ve
+a) ~~**Sonuç cümlesi:**~~ (§1.4 ile değiştirildi) **Eski sonuç cümlesi:** "Hicrî tuzak, notunda hicrî taşıyan 108 künyede ölçüldü ve
    tüketildi (70 uç). Notunda hicrî olmayan 789 künyede kendi TDV maddesinden yeni tuzak çıkmadı (0/50; ≤~56
    künye). Kalan risk çapraz madde sınıfında."
 b) **Çapraz madde sınıfı için hedefli tur önerisi:** yalnız büyük dönüm noktaları. Halifelikler · imparatorluk
