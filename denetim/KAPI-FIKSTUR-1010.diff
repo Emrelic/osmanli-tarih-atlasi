@@ -1,0 +1,63 @@
+diff --git a/denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py b/denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py
+index fd24fdf..38f47ca 100644
+--- a/denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py
++++ b/denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py
+@@ -128,8 +128,12 @@ if AD == "uret_petek":
+     io.open(os.path.join(KOK, "data", "devirler.js"), "w", encoding="utf-8").write(
+         "window.DEVIRLER = %%r;\n" %% time.time())
+ if AD == "surum_damgala":
+-    io.open(os.path.join(KOK, "index.html"), "w", encoding="utf-8").write(
+-        "<!-- r%%d -->\n" %% int(time.time()))
++    # KAPI-FIKSTUR-1010: yalnız damga satırı değişir, <script src> yükleyicileri KORUNUR —
++    # yayın listesi (yayin_listesi.py) index.html'in yükleyicilerinden türetilir.
++    _ix = os.path.join(KOK, "index.html")
++    _sat = io.open(_ix, encoding="utf-8").read().splitlines(True)[1:]
++    io.open(_ix, "w", encoding="utf-8").write(
++        "<!-- r%%d -->\n" %% int(time.time()) + "".join(_sat))
+ if kod == 2 and AD in ("denetle", "denetle_yayin"):
+     print("🔴 ÖLÇÜLEMEYEN SORU: 1 — bu kapı o soruda TEMİZ DEĞİL")
+     print("     • SAHTE-KOVA-%%s        shapely yok (sinav)" %% AD.upper())
+@@ -164,12 +168,22 @@ def depo_kur(ignore_ek=""):
+     os.makedirs(os.path.join(d, "denetim"))
+     for b in ("kosu_yayin.py", "kos_ve_yayinla.py"):
+         shutil.copy2(os.path.join(KOK, "arac", b), os.path.join(d, "arac", b))
++    # KAPI-FIKSTUR-1010: KOSU-YAYIN-LISTE-1010 ile iki betik `yayin_listesi`ni import eder,
++    # o da `kodla.py`nin AST'sini okur ⇒ ikisi de (VARSA) kopyalanır. Yamasız ağaçta yoklar
++    # ve betikler onları istemez ⇒ sınav iki dünyada da aynı fikstürle koşar.
++    for b in ("yayin_listesi.py", "kodla.py"):
++        k = os.path.join(KOK, "arac", b)
++        if os.path.exists(k):
++            shutil.copy2(k, os.path.join(d, "arac", b))
+     for ad in STUBLAR:
+         io.open(os.path.join(d, "arac", ad + ".py"), "w", encoding="utf-8").write(STUB % ad)
+     io.open(os.path.join(d, "_sarmal.py"), "w", encoding="utf-8").write(SARMAL)
+     io.open(os.path.join(d, "data", "donemler.js"), "w", encoding="utf-8").write("eski\n")
+     io.open(os.path.join(d, "data", "devirler.js"), "w", encoding="utf-8").write("eski\n")
+-    io.open(os.path.join(d, "index.html"), "w", encoding="utf-8").write("<!-- r1 -->\n")
++    # KAPI-FIKSTUR-1010: sahte sitenin TEK yükleyicisi data/devirler.js (sahte üreteç onu
++    # yazar) ⇒ yayın listesi Y∩Ü = {devirler.js}; boş kesişim ÖLÇÜLEMEDİ verirdi.
++    io.open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(
++        '<!-- r1 -->\n<script src="data/devirler.js?v=r1"></script>\n')
+     io.open(os.path.join(d, "denetim", "zincir-commit-mesaji.txt"), "w",
+             encoding="utf-8").write("SINAV commit\n")
+     io.open(os.path.join(d, ".gitignore"), "w", encoding="utf-8").write(
+@@ -308,6 +322,19 @@ def main():
+     def _ignoreli(d):
+         io.open(os.path.join(d, "data", "devletler_harita.js"), "w",
+                 encoding="utf-8").write("yerel cozum\n")
++        # KAPI-FIKSTUR-1010: yayın listesi artık SABİT değil, TÜRETİLİR (Y: index.html
++        # yükleyicileri ∩ Ü: üreteç AST'si). Sorunun anlamı — "zincirin ÜRETTİĞİ ve sitenin
++        # YÜKLEDİĞİ bir çıktı .gitignore'da" — ancak dosya iki kümede de varsa kurulur:
++        # sahte üreteç onu YAZAR, sahte site onu YÜKLER. (Eskiden sabit listede hep vardı.)
++        p = os.path.join(d, "arac", "uret_petek.py")
++        m = io.open(p, encoding="utf-8").read().replace(
++            "sys.exit(kod)",
++            'io.open(os.path.join(KOK, "data", "devletler_harita.js"), "w", '
++            'encoding="utf-8").write("uretildi\\n")\nsys.exit(kod)')
++        io.open(p, "w", encoding="utf-8").write(m)
++        p = os.path.join(d, "index.html")
++        io.open(p, "a", encoding="utf-8").write(
++            '<script src="data/devletler_harita.js?v=r1"></script>\n')
+     r = soru("K9", KY, ignore_ek="data/devletler_harita.js\n", hazir=_ignoreli)
+     sina("K9", r["commit"] == 0 and r["rc"] == 1 and not r["push"],
+          "kosu_yayin commit düşer (gitignore'lu çıktı) → çıkış 1, push YOK " + ozet(r))
