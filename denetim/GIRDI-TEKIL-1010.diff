@@ -1,0 +1,32 @@
+diff --git a/arac/girdi.py b/arac/girdi.py
+index 2a17f344..006dc467 100644
+--- a/arac/girdi.py
++++ b/arac/girdi.py
+@@ -106,7 +106,12 @@ def anlik_goruntu():
+     raise SystemExit("Girdi 5 denemede de durulmadı — kopya alınamadı.")
+ 
+ # ⚠️ SIRA ÖNEMLİ: aynı ad iki dosyada varsa hangisinin kazandığı değil, HATA
+-# verilmesi gerekir (aşağıda kontrol ediliyor). Sıra yalnız okunabilirlik için.
++# verilmesi gerekir. Sıra yalnız okunabilirlik için.
++# 📌 KONTROLÜN YERİ: `yukle()` → `raise ValueError("AD ÇAKIŞMASI: …")` (30 Temmuz
++#   2026'dan beri). Dosya içi mükerreri de yakalar. Ad BİREBİR karşılaştırılır,
++#   normalleştirilmez (`Roma`/`Roma (Queensland)` meşru) — o soru `yakin_ciftler`in.
++#   ⚠️ "HATA" diye grep eden bir oturum bu kodu BULAMADI ve "kontrol yok" dedi
++#   (D5-GUN-1010) — bu satır o yüzden var. Sınav: denetim/ARAC-GIRDI-TEKIL-SINAV-1010.py
+ # 🔴 GIRDI_DOSYALARI ARTIK AYRI MODULDE — 24 Eylul 2026 (Emre)
+ # Liste `girdi.py`nin icindeyken her yeni yerlesim dosyasi motor TUZUNU
+ # degistirip 279 MB'lik onbellegi olduruyor ve kosuyu ~19 saate donduruyordu.
+@@ -619,9 +624,11 @@ def yukle(sessiz=False):
+         kayitlar = oku_dosya(ad)
+         for y in kayitlar:
+             if y["ad"] in nereden:
++                yer = (f"{ad} içinde İKİ KEZ" if nereden[y["ad"]] == ad
++                       else f"hem {nereden[y['ad']]} hem {ad} içinde")
+                 raise ValueError(
+-                    f"AD ÇAKIŞMASI: '{y['ad']}' hem {nereden[y['ad']]} hem {ad} "
+-                    f"içinde. Yerleşim adı benzersiz olmalı (VERI-YAPISI.md)."
++                    f"AD ÇAKIŞMASI: '{y['ad']}' {yer}. "
++                    f"Yerleşim adı benzersiz olmalı (VERI-YAPISI.md)."
+                 )
+             nereden[y["ad"]] = ad
+             for alan in y:
