@@ -352,6 +352,61 @@ Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gece
     kapanıyor, koordinat tek tanıklı: GN 3199180, 20,8 km)
     ADAY-GÜÇLÜ, ilk partiye GİRMEZ: Paros 4,7 · Mikonos 4,3 · Nio 4,2 ·
     İpsara 3,3 · Sömbeki 3,4 (nesne belirsiz ⇒ `§6.1` eşiği DÜŞMEZ)
+2q  🆕 DÖRT YENİ KÜNYE (`devletler.js`, hepsi `boya_gerekli:true`)
+    `nasirvend` · `sasa-bey-beyligi` · `dehlek-sultanligi` ·
+    `tesalya-sirp-beyligi` — `f`/`t`/`kaynak` ADIYLA `KASA-KUNYE-4-1010`de
+    ⚠️ `tesalya-sirp-beyligi` t ≈1372 (Nicol, Cambridge 1984) — **TDV 1393
+       diyor, 21 YIL FAZLA.** `§4`: İslâm dünyası DIŞI ⇒ TDV birincil DEĞİL
+    ❌ AÇILMAYANLAR, gerekçeli: `karakene` (tek kaynak livius/Lendering) ·
+       `tesalya-angelos` (Nicol'da ne atama ne bağımsızlık cümlesi ⇒
+       `__BOSLUK__` N) · güney Tunus aileleri (dört şehir devleti, ağır
+       makine ⇒ `__BOSLUK__` N, künyeler ADAY) · Tebesse şeyhi (şeyh ≠ polity)
+    🟡 ADAY künyeler kuyrukta: `cerbe-emirligi` (1480-) · `gattilusio`
+       (Midilli Senyörlüğü — `D205`: AYRI polity, `ceneviz` DEĞİL)
+2r  🆕 SAHİP DÜZELTMELERİ — 4 bölge + 130 nokta + 16 Cezayir
+    `KASA-SAHIP-BOLGE-1010` · `-2-1010` · `KASA-CEZAYIR-16-1010`
+    🔴 ASIL ORAN: kaynaklı halkada hata **0/27** · kaynaksızda **≥15/477**
+       (Yemen'in "kaynaksız 7/7 yanlış" bulgusunun büyük ölçekte tekrarı)
+    🔴 BASKIN DESEN (3 turda 3 kez): **"uzun düz dilim ARA sahipleri yutmuş"**
+       — Cerbe `hafsi 1281-1560` Sicilya 1284-1334'ü ve 1480 istiklâlini ·
+       Midilli `ceneviz 1281-1462` 1281-1354 Bizans'ı · Sisam iki Bizans
+       dilimini + 1475-79 TERKİ yuttu
+    🔴 Doğu Cezayir: **Zeyyânî iddiasını doğrulayan şehir SIFIR** ⇒ 5 nokta
+       `hafsi` (Brunschvig 1940) · 12 `__BOSLUK__` (K)
+    ⚠️ ÖLÇÜLEMEDİ, ADIYLA beyanlı: Fas 22 · Endülüs/Portekiz · Tunus içi ·
+       Ege adaları · 22 çelişkili nokta ⇒ **tek künye maddesiyle KAPATILMADI**
+       (`D208`: bölgeden şehre hüküm taşınmaz)
+2s  🆕 LAB KONUM v2 — `LAB-AYNI-AD-TARAMA-v2-1010` (+ `-etki`)
+    ablasyon: v1 358 → **231** (`9 KESİN / 205 ADAY / 17 ÖLÇ`)
+    🔴 YÖN AYRIMI: tanım düzeltmeleri AZALTIYOR (−234), kapsam
+       genişletmeleri ARTIRIYOR (+191) — net düşüş ikisini GİZLİYORDU
+    8 KESİN = HAZIR 5 · **İKAME 1 (Egina, `§6.3`)** · PARK 2 (Hvar ·
+       Xieng Khouang) · Kimolos ADAY'a indi (*kırılgan: 4 m*)
+    `etki:` ekseni: Ulubat 12,43 km/405 km² · Zaklise 10,58/354 · Tshane
+       3,39/1649 · üç havalimanı köyü listede ALTTA
+    ⚠️ `etki` SONUCU ölçer, GÜVENİ ölçmez: ADAY-YÜKSEK'in uzakları
+       (Brakya 103 km · Elba 78 · Peşte 67) **"önce ELLE BAK"** demek
+
+#### 🔴 FAZ 1'İN İÇ SIRASI — üç diff, sıra BAĞLAYICI
+```
+① SAHIPLIK-KAPSAM-1010-v2   hüküm listesi + gruplu ölçülemedi + hızlı kip
+                            (`--atlama-yalniz --json`, 12-19 sn)
+                            tavan: BEKLENEN_TABAN_OLCULEMEDI = 190 (LİSTE
+                            defteri, "NET TAKAS" kolu) — ÖNERİ, iniş anında
+                            YENİDEN ölçülüp AYNI commit'te yazılır
+② SAHIPLIK-KUR-KAPI-1010    YAZICI kapısı: `gun(f) < gun(kur)` ⇒ YAZMA
+                            🔴 KAPSAM-v2 ile AYNI FAZDA ya da ÖNCE — çünkü
+                            KAPSAM anahtar sırası körlüğünü kapatınca
+                            Mergen'in TESADÜFÎ koruması KALKTI
+③ D5-GUN-1010               DENETLEYİCİ: `gun.gun` · sayısal sıralama ·
+                            `isg:` evrene · tolerans KALIR + "yuttu: N"
+                            bilgi kovası (Berezov ADIYLA) · `5c` adlı kova
+                            ve BAŞLIĞI DÜZELTİLDİ (80 kayıt için yanlıştı)
++ KASA DİKİŞ KAPISI v2      `ESKI_UFUKLAR` + `gun()` kıyası, TEK diff
+                            (10/10 sınav; MÖ paketi BENZETİLEREK sınandı)
+```
+⚠️ `SAHIPLIK_HIZLI_HARIC` (Z5 karantinası) **Z5 v4 commit'inde kalkar** — ve o
+commit'te defter + sabit **YENİDEN ÖLÇÜLÜR**, çünkü evren değişir.
 2o  🆕 **İLK TAM ZİNCİR — Kutha + Susa, MÖ 539 → 1281 KESİNTİSİZ**
     Kampanyanın ilk tamamlanmış kalemi: iki nokta, **1.820 yıl.**
     ```
