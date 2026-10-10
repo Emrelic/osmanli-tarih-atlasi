@@ -142,3 +142,11 @@ hükmü statik okumadır; sınav onu SINAMAZ (motor koşturmadan sınanamaz).
 - HAVVA'daki DEM'lerin varlığı/sha256'sı ve KOŞU 22b logundaki `eğim DEM:` satırı — ölçülmedi (makine dışı).
 - DEM-türevini anahtarsız okuyan önbellek yeri — **bulunamadı** (aradım; statik sınırla).
 - (a)/(b)'yi haklı çıkaracak bir doğruluk kazancı — **bulunamadı**.
+
+## § BEYANLI RİSK (koordinatör kararı, 10 Ekim) — `MOTOR_ISCI_BETIK`, yama ÖNERİLMEDİ
+`MOTOR_ISCI_BETIK` işletim değişkenidir ⇒ tuz dışı. `motor_izi()` işçi betiğinin ADINI özetler, YOLUNU değil.
+Başka bir betiğe işaret ettirilirse işçiler, tuzun tanımadığı kodla önbelleğe yazar. Varsayılan kullanımda bu yol
+yok ⇒ bugün TEORİK. Parti dolu olduğu için yama yazılmadı; kayıt "unutulmasın" diye burada (`§9.1`: kural yazılı
+olmayan kural değil, UNUTULAN kuraldır). Kapatma adayı: işçi betiğinin İÇERİK özetinin `motor_izi`ye girmesi.
+Eksen notu (koordinatör): TUZ "önbellek hâlâ geçerli mi"yi sorar; DAMGA (`URETIM_IZI`) "bu çıktıyı hangi girdiyle
+ürettik"i sorar. DEM sorusu bir KÖKEN sorusudur ⇒ (c) damgaya yazar, tuza değil — onaylandı, partide.
