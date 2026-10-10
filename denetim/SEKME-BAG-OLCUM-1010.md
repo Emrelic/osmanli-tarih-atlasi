@@ -360,3 +360,91 @@ Başlık satırları (ad-sözleşmeli + bağsız; ilk anlamlı yorum satırı):
 - `kronoloji_sirbistan.js` (BAGSIZ_COK_YOLUNA): // SIRBİSTAN — DEVLET KRONOLOJİSİ (1. tur, 22 Ağustos 2026)
 - `kronoloji_timurlu.js` (AD_SOZLESMESI): // TİMURLULAR — DEVLET KRONOLOJİSİ (1. tur, 21 Ağustos 2026)
 
+
+---
+
+## §ek — SEKME-BAG-OLCUM-1010-EK (üç ek ölçüm, yalnız ölçüm, hüküm YOK)
+
+Taban: `870482c98e3af39efa24183d21eb85545d6fd6cb` (origin/main, ayrı worktree). Ana ölçüm bu tabanda
+yeniden koşturuldu, sonuç birebir aynı: 26 ad-sözleşmeli dosya · 321 pencere dışı · 285 KURTULUYOR ·
+22 SESSİZ · 14 YARININ KUSURU · gun.py↔kronoGun çapraz 0.
+Ara betikler (scratchpad/SEKME-BAG/): `kova_olc.py` (durum_tablosu.olc() GERÇEK koşu; yalnız
+denetle.py alt süreci kesildi; kova o çağrıdan ÖNCE hesaplanıyor) · `ek_sinif.py` · `ek_inmeyen.py`.
+
+### ek-1 · §1.5 "⚪ N yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil)" kovası
+- Bugünkü N (`durum_tablosu.olc()` → `o["renksiz_baska"]`): **121** (§1.5'te 125 yazıyor; aynı
+  koşuda delik 11, gerçek borç 11 — §1.5'teki 7/11'den farklı, §1.5 bayat).
+- Bütün sekme evreninde SESSİZ (madde × künye) çifti üreten künye: **19 künye, 54 çift** (46'sı
+  maddenin ilk künyesinde = kapının saydığı).
+- Bu 121'lik kova ile kesişim: **1 künye, 1 çift** — `guney-afrika-birligi` (neden `harita_kaydi_yok`,
+  `kronoloji_cok_1dunya_B.js`, ilk künye DEĞİL ⇒ kapı saymıyor, tavanda yok). VERİ-DIŞI kesişim 0.
+- 🔴 `iran` bu kovada **DEĞİL**: `iran` BOYALAR'da var (renkli), bu yüzden hiçbir "renksiz künye"
+  kovasına girmiyor. Ama DEVLET_HARITA'da kaydı yok. SESSİZ üreten 19 künyenin kova dağılımı:
+  18'i **BOYALI (hiçbir §1.5 kovası dışında)**, 1'i `renksiz_baska`.
+- "Boyalı ama DEVLET_HARITA kaydı yok" sınıfı (neden `harita_kaydi_yok`) — §1.5'te bu sınıfı sayan
+  satır bulunamadı:
+
+| künye | SESSİZ çift | ilk künye | §1.5 kovası |
+|---|---|---|---|
+| iran | 17 | 17 | yok (boyalı) |
+| evfat | 2 | 2 | yok (boyalı) |
+| honduras-cumhuriyeti | 2 | 0 | yok (boyalı) |
+| nikaragua-cumhuriyeti | 2 | 0 | yok (boyalı) |
+| kosta-rika-cumhuriyeti | 1 | 0 | yok (boyalı) |
+| guney-afrika-birligi | 1 | 0 | renksiz_baska (⚪ 121) |
+
+  Öteki 13 künye (`sahnede_degil`: DH kaydı VAR, o gün dönemi yok): dulkadir 5 · karadag 5 · zeta 4 ·
+  fransa 3 · karaman 2 · aydin 2 · yemen-zeydi 2 · gurcistan 1 · ispanya 1 · kirim 1 · colla-krallik 1 ·
+  lupaqa-krallik 1 · moundville 1.
+
+### ek-2 · İki yolun kullanıcıya görünüşü (app.js, taban 870482c9)
+**A. Çok taraflı yol — pencere dışı çift İNMEZ** (`cokTarafliKronolojiEkle`, 15429-15482; sınav 15446-15448,
+`pencereDisi.push` 15447; toplu konsol uyarısı 15467).
+- Madde o künyenin `d.kronoloji`sine hiç girmez ⇒ sekme listesinde yok (`odakSuz(d.kronoloji)` 16080),
+  sekme sayacında yok (16114-16116), devlet seçicideki "(N)" sayısında yok (15719), EK (çoklu) listesinde
+  yok (15903-15904). Künye seçicide/dizinde DURUR (kendi başka maddeleri varsa; 15496 yalnız boş
+  kronolojili künyeyi eler). Kullanıcıya hiçbir not yok; iz yalnız konsolda (15467, toplu tek satır).
+- Ölçüm: pencere dışı inmeyen çift **22**. Bunların **15**'inde madde BAŞKA bir taraf künyesinin
+  sekmesinde görünüyor; **7**'si hiçbir sekmede yok (yalnız konsol):
+  rio-de-la-plata-valiligi 1811-05-18 · maratha 1665-06-11 · varsova-dukaligi 1807-07-07 ·
+  naksa-dukaligi 1205-01-01 · malaka-sultanligi 1396-01-01 · sulu-sultanligi 1450-01-01 ·
+  mataram-sultanligi 1585-01-01 (dosya ve başlık `scratchpad/SEKME-BAG/ek/inmeyen_cift.json`).
+  (Ayrıca pencere dışı OLMAYAN sebeplerle inmeyen: künyesiz taraf ve taraf alanı olmayan madde — ana
+  tablo ②b/②c.)
+
+**B. Ad sözleşmesi yolu — pencere sınavı yok, madde İNER** (`derinKronolojiBindir` 15345-15414).
+- Madde sekme listesinde ve sayaçta GÖRÜNÜR, tıklanabilir. Tıklanınca `maddeAc` (16121):
+  zaman çubuğu maddenin gününe gider (`tarihAyarla(gi)` 16141; ufuk dışıysa gitmez, 16129), panel açılır
+  (16145-16149: başlık "<künye adı> — <tür>", detay tarih + `b`).
+- Kamera dalı: `hedefYer` (16201) → nokta; `!m.kapsam_genis` (16204) → kamera kıpırdamaz, not YOK;
+  `maddeOdakKutusu(m)` (16257) → kutu; yoksa `devletiYay(d.harita || d.id)` (16281-16282).
+- SESSİZ çift (gövde de tâbi kutusu da yok, 16283-16297): `SEKME_ODAK_DUSEN++` (16291), konsol uyarısı,
+  ve panelde KULLANICIYA görünen not (16295-16296):
+  `📍 Bu tarihte <künye adı> haritada çizili değil — harita yerinde kaldı.`
+  ⇒ iran örneğinde kullanıcı "İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)" başlıklı panelde 1381
+  maddesini görür, harita yerinde kalır ve "Bu tarihte İran (Pehlevi…) haritada çizili değil" notu çıkar.
+- Sayı: ad-sözleşmeli dosyalarda bugün 22 SESSİZ (ana tablo ②a); bütün evrende 54 çift (ek-1).
+
+Özet karşılaştırma (yalnız görünüş): A'da madde o sekmeden **kaybolur, iz yalnız konsolda**; B'de madde
+**görünür ve açılır, kamera kıpırdamaz, panel notu söyler**.
+
+### ek-3 · macaristan 8 — iki liste aynı mı
+`YAYIN-KAPI-OLCULEMEDI-1010.md:39-40` yalnız YIL veriyor ("1657 · 1678 · 1720 · 1738 · 1831 · 1850 ·
+1854 · 1878", hepsi `macaristan` sekmesi); `.diff`inde macaristan kalemi/`ODAK-TAVAN.json` değişikliği YOK.
+Benim listem (tavanda SESSİZ, bugün SEKME_GOVDE, tam kimlik, ilk künye `macaristan`):
+
+| yıl | kimlik (bu ölçüm) | YAYIN-KAPI listesi |
+|---|---|---|
+| 1657 | 1657-01-01\|II. Rákóczi György'nin talihsiz Lehistan seferi | 1657 ✓ |
+| 1678 | 1678-09-13\|Thököly İmre'nin Kuruc hareketinin başına geçmesi | 1678 ✓ |
+| 1720 | 1720-01-01\|Bácska ve Bánát'a Alman (Schwaben) göçmenlerin iskânının başlaması | 1720 ✓ |
+| 1738 | 1738-01-01\|Büyük veba salgınının Güney Macaristan'ı vurması | 1738 ✓ |
+| 1831 | 1831-08-01\|Doğu Slovakya kolera isyanı | 1831 ✓ |
+| 1850 | 1850-01-01\|Bach döneminin merkezîleştirici idaresinin kurulması | 1850 ✓ |
+| 1854 | 1854-03-02\|Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması | 1854 ✓ |
+| 1878 | 1878-01-01\|Avusturya-Macaristan Gümrük ve Ticaret Birliği'nin on yıllık yenilenmesi | 1878 ✓ |
+
+8/8 yıl eşleşiyor, iki yönde artık 0. Eşleme YIL + künye düzeyindedir (o raporda tam kimlik yok);
+macaristan sekmesinde bu yıllarda tavanda başka SESSİZ kalem yok, yani yıl eşlemesi tektir.
+⇒ Aynı 8 çift: tavandan TEK kez düşmeli. Diğer 6 macaristan YARININ KUSURU kalemi (1571 · 1671 · 1707 ·
+1811 · 1867 · 1868; OKUNMAYAN/govde_yer_kon) tavan sessiz listesinde YOK — bu indirmeyle ilgisiz.
