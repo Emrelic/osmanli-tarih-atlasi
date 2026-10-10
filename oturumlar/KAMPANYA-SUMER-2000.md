@@ -415,6 +415,68 @@ Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gece
                               Characene yılları tahminle `part`a YAZILMAZ (`D208`)
 ```
 
+#### 🔴🔴 FAZ 2'NİN BİRİNCİ ÖN ŞARTI — **GENİŞLETME KAPISI**
+*(KASA ölçtü, `KASA-1281-ILK-HALKA-1010`. Bu şart, MÖ paketinin YARATACAĞI bir
+kusuru önceden kapatıyor — var olan bir kusuru değil.)*
+
+`1281-01-01` **İKİ AYRI ŞEY**, ve ikisi tek sayıda okunuyordu:
+```
+Ⓚ KIRPMA       s[0].f = 1281-01-01, ÖNÜNDE halka YOK   765 nokta / 72 grup
+               ⇒ UFUK işaretçisi · ZARARSIZ · `D210` gereği MEŞRU
+Ⓖ SAHTE GEÇİŞ  bir halka 1281'de biter, BAŞKA sahip     13 nokta, hepsi
+               aynı gün başlar                           ANADOLU
+               ⇒ UYDURMA bir egemenlik devri · YALAN
+```
+🔴 **VE Ⓖ'Yİ, Ⓚ'YI GENİŞLETMEK YARATTI.** Mekanizma ölçüldü: o 13'ün 1281
+öncesi halkaları `ZAMAN-Z6-1008` ile **eklendi**; eski `s[0]` kırpması, önüne
+halka eklenince bir **sahip değişimi günü**ne dönüştü. **Kanıt: 13'ün hepsinde
+`1281-01-01`de başlayan halkanın `kaynak:` alanı YOK, öncekinin VAR.**
+⇒ **Sümer/MÖ paketi tam bunu yapacak** — 1281'in önüne halka ekliyor.
+
+```
+🔴 KAPI (FAZ 1'e, `denetle.py`): bir `s:` halkasının `f`si tam `1281-01-01`
+   ise VE o halka s[0] DEĞİLSE ⇒ `kaynak:` alanı ZORUNLU.
+   Yoksa İHLAL (ya da beyanlı istisna listesinde, dayanağıyla).
+SINAV İKİ YÖNDE: kaynaksız 1281 halkası → İHLAL · kaynaklı → 0 ·
+                 s[0] olan → DOKUNULMAZ
+```
+Gerekçe: önünde halka varsa `1281-01-01` **artık bir sınır işareti değil**,
+iddia edilen bir **GEÇİŞ GÜNÜDÜR** — ve geçiş günü kaynak ister. Kapı 13'ün
+13'ünü yakalar, Ⓚ'nin 765'ine **dokunmaz.**
+> **Önüne halka eklenen her `s[0]`ın `f`si YENİDEN KAYNAKLANIR; kırpma günü
+> geçiş günü olarak BIRAKILAMAZ.**
+
+**SÖZLEŞME KARARI (`D271`):**
+```
+İLERİYE DÖNÜK : yeni yazılan ya da önüne halka EKLENEN her `s[0]` GERÇEK günü
+                taşır, kaynağıyla. Kırpma YENİ VERİDE kullanılmaz.
+MEVCUT 765    : olduğu gibi KALIR ve BEYAN edilir — Ⓚ'nin zararsızlığı ÖLÇÜLDÜ.
+                765 noktayı yeniden kaynaklamak kampanyanın önüne geçer ve
+                hiçbir yalanı düzeltmez.
+```
+⇒ **Zararsız veriyi toptan yeniden yazmak bir iyileştirme değil, bir MALİYET.**
+⚠️ Ve komşu devralma Ⓚ'ye UYGULANMAZ: pencere-DIŞI bir gün yazılır, o bir
+düzeltme değil **sözleşme değişikliğidir.**
+
+**Ⓖ'nin 13'ü için modelleme kararı — 1308, ve 1243 AYRI BİR ŞEY:**
+```
+1243 Kösedağ → VESÂYET/TÂBİYET ⇒ `v:` alanı; `d:` DEĞİŞMEZ
+1308 Selçuklu sonu → EGEMENLİK ⇒ `d:` selcuklu → ilhanli
+```
+İkisini tek güne yazmak `D206`nın tersi: **tâbi olmak ≠ ilhak edilmek**, ve
+atlasta `v:` mekanizması tam bu iş için var. ⇒ 12 nokta `d:` **1308**
+(`ic_not`: *"şehir adlı geçiş cümlesi bulunamadı; `selcuklu` künye t'si
+devralındı, kaynaksızlığı beyanlı"* — `§4` izin veriyor ama künye günü bir
+KAYNAK DEĞİLDİR, yani bu bir **beyanlı devir**, ölçüm değil).
+🟢 **ERZURUM İSTİSNA — ölçüldü:** TDV `erzurum` *"Anadolu Selçuklu Devleti'nin
+yıkılmasından (1308) sonra İlhanlılar'a bağlandıysa da…"* ⇒ şehir adlı ve
+yıllı. `selcuklu` t → **1308** · `ilhanli` f → **1308**. 1281 orada **27 yıl
+erken.** (Kalan 12'de TDV yalnız 1243'ü ya da iç olayları tarihliyor —
+Tokat Pervâne'ye verildi · Elbistan 15 Nisan 1277 · Van Argun 1284-91 —
+hiçbirinde **1281'de** bir geçiş cümlesi YOK.)
+⚠️ Açık kalem: `Bayburt` — `EPOK-SAHIP-1008` 14 sayıyordu, bu ölçüm 13 buldu;
+fark ADIYLA bırakıldı, kontrol edilmedi.
+
 #### 🔴 FAZ 2'NİN ÖN ŞARTI — **NEGATİF YIL ÖLÇÜLMEDEN SÜMER NOKTASI İNMEZ**
 `KUNYE-SUMER-7-1010`ın raporunun son cümlesi bir blokaj açığa çıkardı:
 > *"`pad()` docstring 'negatif yıl `gun_no` ÇÖKER' ⇒ veri partisinden ÖNCE
