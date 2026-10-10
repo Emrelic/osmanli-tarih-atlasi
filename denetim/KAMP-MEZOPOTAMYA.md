@@ -350,3 +350,62 @@ KASA kaynağı KENDİ okudu: RlA 6 s.492–494 (Postgate), görüntüler `https:
   - `deniz-ulkesi-ii` ardılı "Bazi hanedanı — araştırılmadı".
 - **Babil'in 1005–626 arası 379 yılı künyesiz.** Hükmün ② "künyeyi GENİŞLET" sınıfı uygulanacak bir künye bulamıyor.
 - Ne yapılıyor: dilim tablosu (732→626, her yıl tek bir duruma; BAGIMSIZ / v:asur-cifte / v:asur-tabi / v:elam / OLCULEMEDI; boşluk düzlenmez) ayrı okuyucuda hazırlanıyor. Hangi künyeye bağlanacağı koordinatörün hükmü.
+
+## 14. Babil künye adı · kaldu emsali ölçümü · ② SINIR aralık taraması
+### Babil 1005–626: künye ADI önerisi (devletler.js'e koordinatör yazar)
+- **Öneri: `babil-ara`** — ad "Babil Krallığı (Kassit/İsin II sonrası ara dönem)". `yeni-babil` ve `babil-i` ile karışmaz.
+- Yedek öneri: `babil-orta-sonu`. `babil-orta` ÖNERİLMEDİ: "Orta Babil" literatürde Kassit dönemi demek ⇒ karışır.
+- **f/t ÖDÜNÇ UÇ değil, Babil'in KENDİ tanığından gelecek:** Babil Kral Listesi A'daki hanedan geçişi (Bazi hanedanı ilk kralı), kronikler, eponimler.
+- **Uyarı:** ardıl hanedanın ilk kralının tahta çıkışı DOĞASI GEREĞİ öncülün sonuyla AYNI ANDIR (Kral Listesi tek geçiş satırı).
+  - Bu yüzden "f ≠ 1005" yazmak her zaman mümkün olmayabilir.
+  - Ölçüt: değer KENDİ künyenin satırından mı okunuyor, komşunun ucundan mı kopyalanıyor? İlki ödünç değil.
+- **Hüküm gerektiren gözlem (ölçülmedi, adıyla):** "TEK KÜNYE, hanedan başına DEĞİL" ilkesi tutarlı uygulanırsa sorun daha büyük.
+  - `isin-ii`, `deniz-ulkesi-ii`, `kassit-babil` (ve belki `babil-i`) da Babil'in HÜKÜMDAR HANELERİ.
+  - Mevcut POLITY tablosu Babil'i hanedan başına bölmüş.
+  - ⇒ `babil-ara` ya bu hanedan künyelerinin YANINA açılır (tutarsız ama dar), ya da Babil'in bütün hanedan künyeleri tek künyede birleşir (tutarlı ama geniş).
+
+### kaldu EMSALİ — ölçüldü, beklentin TUTMADI
+| nerede | kaldu / konfederasyon ne taşıyor |
+|---|---|
+| `data/devletler.js` | **kaldu YOK** (atlas penceresi 1281+; MÖ künye yok) |
+| K1 `KAMP-MEZOPOTAMYA-POLITY.csv` | `kaldu`: ad "Keldani (Kaldu) kabileleri — tek polity DEĞİL", bütün alanlar "—", durum "listeye alınmadı / bulunamadı" ⇒ dizinde **DE YOK** |
+| `devletler.js` öteki konfederasyonlar | `berabis` "Berâbîş Kabile Konfederasyonu" tur:"devlet", f/t 1600–1894, **`devlet_harita_ust.js`'te dnm dilimi VAR ⇒ BOYANIYOR** · `nogay` (konfederasyon, boyanıyor) · `ranquel` "Ranquel Konfederasyonu" tur:"devlet" (harita_ust'ta yok) |
+- Beklentin "dizinde KALIR, haritada BOYANMAZ" idi. Ölçülen evrende bu davranışı taşıyan emsal **0**.
+- Atlasta konfederasyon sorusunun zaten **İKİ AYRI cevabı** var: kaldu = dizinde yok · berabis/nogay = devlet olarak boyanıyor.
+  - Bu tam olarak "aynı soruyu soran iki uygulama = iki ayrı davranış" (§3).
+- ⇒ Laqe'ye emsal UYGULANMADI. Hangi emsalin uygulanacağı belirsiz; ikisini birlikte bağlayan hüküm sende.
+- `lake` künyesi şimdilik olduğu gibi duruyor; §3 alıntısı notunda.
+
+### ② SINIR uç taraması — "aralığın hangi ucu?" (D206 tanık hâli)
+- Evren: POLITY'de `tarih_turu = SALTANAT` olan **33 UÇ**.
+- Kural (kanıttan, uçtan değil):
+  - "X saltanatında İLK anıldı" ⇒ f ≤ saltanat SONU (ÜST);
+  - "X saltanatında hâlâ var" ⇒ t ≥ saltanat BAŞI (ALT);
+  - "X saltanatında bitti / X saltanatına dek ilhak" ⇒ t ≤ saltanat SONU (ÜST);
+  - "olay E'den sonra kuruldu" ⇒ f ≥ E (ALT).
+
+| sınıf | UÇ |
+|---|---|
+| bir ARALIKTAN alınmış | **17** |
+| ↳ doğru uç | 10 (uruk-ed t, lagas-ii f, umma t, mari-sakkanakku f, hanigalbat f, elam-avan t, elam-sukkalmah t, elam-orta f, elam-orta t [aralık beyanlı], elam-yeni f) |
+| ↳ **YANLIŞ uç** | **7** (ur-i f, lagas-ii t, kis t, gutium t, mari-sakkanakku t, lake f · lake t §13'te düzeltilmişti) |
+| aralık DEĞİL ama **YÖN hatası** | **3** (kis f, akkad t, mitanni f) |
+| aralık değil, doğru (kurucu saltanat başı / ölüm / tek nokta) | 13 |
+
+Bu turda düzeltilen 9 UÇ (POLITY not alanına eski değer + gerekçe; KRONOLOJİ 6 satır):
+- **ur-i f** -2500 → **-2401 ÜST**: 25. yy tanıklığı, yüzyılın sonu.
+- **lagas-ii t** -2112 → **-2095 ÜST**: Ur-Nammu saltanatı içinde.
+- **kis t** -1880 → **-1845 ÜST**: Sumu-la-El saltanatı içinde.
+- **gutium t** -2116 → **-2110 ÜST**.
+- **mari-sakkanakku t** -1985 → **-2017 ALT**: Išbi-Erra saltanatı başı. ⚠️ Bunu §10'da BEN yazdım — kendi hatam.
+- **lake f** -911 ALT → **-891 ÜST**: ilk anılış saltanatın sonuna kadar olabilir.
+- **kis f** ALT → **ÜST** (değer -2700 aynı).
+- **akkad t** ÜST → **ALT** (değer -2193 aynı): hanedan sürdü; not alanı bunu ZATEN söylüyordu.
+- **mitanni f** ALT → **ÜST** (değer -1500 aynı).
+
+**KÖK NEDEN (sistemik, benim aracım):**
+- `k1_tip.py` (§9 düzeltme turu) `yaz()` fonksiyonu SINIR yönünü KANITTAN değil UÇTAN türetiyordu: `'ALT' if uc=='f' else 'ÜST'`.
+- Yani her f "alt sınır", her t "üst sınır" etiketlendi. "İlk tanıklık" bir f için ÜST sınırdır; "hâlâ var" bir t için ALT sınırdır.
+- 10 UÇ'luk hatanın (7 yanlış uç + 3 yön) TÜMÜ bu tek satırdan.
+- Ders: **sınırın yönü uçtan değil tanığın cümlesinden okunur.** Bir şablonun "f=alt / t=üst" varsayımı, tanık "ilk anılış" dediğinde ters çalışır.
+- K3/K5/K6 aynı aracı kullanacaksa önce bu satır düzeltilmeli.
