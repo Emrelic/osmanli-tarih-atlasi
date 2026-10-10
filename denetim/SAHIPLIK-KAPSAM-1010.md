@@ -1,12 +1,12 @@
-# SAHIPLIK-KAPSAM-1010 — `_sahiplik_uygula.py`: kapsam kusurları + hüküm listesi + hızlı kip + denetle köprüsü
+# SAHIPLIK-KAPSAM-1010 (v2) — `_sahiplik_uygula.py`: kapsam kusurları + hüküm listesi + hızlı kip + denetle köprüsü
 
 UMIT yazıcı · 10 Ekim 2026 · teslim DİFF (commit/push YOK, stash YOK, C:\atlas'a yazılmadı) · `--check` tabanı **origin/main `d50ddbed`** (sınavlar `7a613d9e`/`7b542dc4` üzerinde; aradaki commitler `data/` ve bu diff'in dosyalarına DOKUNMUYOR — ölçüldü).
-Diff: `denetim/SAHIPLIK-KAPSAM-1010.diff` — LF, BOM yok, CR 0; temiz origin/main ağacında `git apply --check` ✓;
+Diff: **`denetim/SAHIPLIK-KAPSAM-1010-v2.diff`** (v1'in YERİNE; v1 diskten kaldırıldı; 8 dosya; v2 farkı §10) — LF, BOM yok, CR 0; temiz origin/main ağacında `git apply --check` ✓;
 `YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff` ile **iki sırada** da `--check` ✓ (KAPSAM→SESSIZ ✓ · SESSIZ→KAPSAM ✓; ortak
 dosya `arac/denetle.py`, hunk'lar ayrı: SESSIZ-7 `:1396`, bu diff `:6526+` ve `main()`).
 Tuz dosyalarına (uret_petek · renkler · girdi · motor_onbellek · gun · yukseklik) DOKUNULMADI; `girdi._cevir` yalnız İTHAL edildi.
 
-YENİ DOSYALAR: arac/_hukum_listesi.py · denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py · denetim/SAHIPLIK-HUKUM-LISTESI.json
+YENİ DOSYALAR: arac/_hukum_listesi.py · denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py · denetim/SAHIPLIK-HUKUM-LISTESI.json · denetim/SAHIPLIK-TABAN-OLCULEMEDI.json
 DEĞİŞEN DOSYALAR: arac/_sahiplik_uygula.py · arac/_bayat_yama_kapi.py · arac/denetle.py · denetim/ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009.py
 
 ## 0. Kısa hüküm
@@ -230,4 +230,60 @@ Tam koşu (son yapı, `7a613d9e` verisi = bugünkü main verisi; 8 Z5 koşusu pa
 
 ## 9. Temizlik
 Worktree'ler kaldırıldı (`C:\atlas-umit-kps` · `-kps-once` · `-kps-chk` · `-kps-g3` · `-kps-g4` · sınavların geçici `Temp/kapsam_*`, `taban_gercek_*` dizinleri; `git worktree list`te kalan 0). `--yaz` yalnız sınavın geçici `git init` depolarında. git stash kullanılmadı.
-`C:\atlas` ve `C:\atlas-umit` `git status --short` sonda: `C:\atlas` → boş · `C:\atlas-umit` → ` M denetim/NEGATIF-YIL-1010-A.md` (başka oturum, işe başlarken vardı) · `?? denetim/SAHIPLIK-KAPSAM-1010.diff` · `?? denetim/SAHIPLIK-KAPSAM-1010.md` (bu teslim) · `?? denetim/ZAMAN-Z6-tdv/` (başlangıçta vardı)
+`C:\atlas` ve `C:\atlas-umit` `git status --short` sonda: `C:\atlas` → boş · `C:\atlas-umit` → ` M denetim/NEGATIF-YIL-1010-A.md` (başka oturum, işe başlarken vardı) · `?? denetim/SAHIPLIK-KAPSAM-1010-v2.diff` · `?? denetim/SAHIPLIK-KAPSAM-1010.md` (bu teslim) · `?? denetim/ZAMAN-Z6-tdv/` (başlangıçta vardı)
+
+## 10. v2 (FAZ 1 kabulünden sonra, koordinatör ek ② ③) — `SAHIPLIK-KAPSAM-1010-v2.diff`
+Taban: origin/main `48df6bf1` üzerine v1 uygulandı, v2 eklendi; `--check` origin/main **`b860f4c9`**'da ✓, SESSIZ-7 v2 ile iki
+sırada ✓ (V2→SESSIZ ✓ · SESSIZ→V2 ✓). v1 (`SAHIPLIK-KAPSAM-1010.diff`) diskten SİLİNDİ. `_sahiplik_uygula.py` v2'de
+DEĞİŞMEDİ; yalnız `arac/denetle.py`, sınav ve yeni defter.
+
+### ② Gruplu basım (sunum; hüküm ve çıkış kodu DEĞİŞMEZ)
+- `olculemedi_grup(ad, sebep)` grubu kaydın KENDİSİNDEN türetir (durumsuz — `OLCULEMEDI_KOVA` biçimi 2'li kaldı, hiçbir
+  tüketici kırılmadı): `sahiplik atlama <ad>` + `[yama] <kova> — …` ⇒ `sahiplik atlama: <kova>` · `hüküm listesi …` ⇒ tek
+  grup · öteki her soru kendi grubu (D8 tek satırı AYNEN).
+- `olculemedi_bas(ayrinti)`: varsayılanda grup + SAYI (`(adlar: --ayrinti)`), `--ayrinti`'de adlar; sonda
+  `toplam N = a + b + …` ve `assert` (sayan = basan).
+- Bugünkü gerçek çıktı (`py arac/denetle.py`, çıkış **2**, değişmedi):
+```
+🔴 ÖLÇÜLEMEYEN SORU: 196 — bu kapı o soruda TEMİZ DEĞİL
+     • Değişmez 8             RuntimeError: devletler_harita.js YOK (üretilmiş + gitignore'lu çıktı) — …
+     • sahiplik atlama: veride-yok 60   (adlar: --ayrinti)
+     • sahiplik atlama: cakisma 67   (adlar: --ayrinti)
+     • sahiplik atlama: kapsam-daraldi 53   (adlar: --ayrinti)
+     • sahiplik atlama: gun-maddesiz 15   (adlar: --ayrinti)
+     toplam 196 = 1 + 60 + 67 + 53 + 15
+```
+  ⚠️ Koordinatör mesajındaki "142 kalem" sayısını ÖLÇMEDİM/BULAMADIM: bugünkü ölçüm 195 sahiplik + 1 D8 = 196
+  (67 + 60 + 53 + 15 = 195). Hepsi 2'de KALDI.
+
+### ③ TABAN-ÖLÇÜLEMEDİ — 2'ye GİRMEZ, SAYI + DEFTER tavanı
+- Birim KAYIT = `ad [yama]` (aynı kaydın birden çok alanı TEK sayılır; JSON'da 247 alan → 190 kayıt).
+- **Liste mi sayı mı → İKİSİ birlikte, gerekçe:** §3.4⑤ istisna listesi tavan ailesidir; yalnız sayı tutan tavan bir
+  kayıt düzelip başkası bozulunca (NET TAKAS) HİÇBİR şey görmez. Defter `denetim/SAHIPLIK-TABAN-OLCULEMEDI.json`
+  (`KAYNAK-TAVAN.json` emsali, `kayitlar` dizisi + ölçüm künyesi); sabit `BEKLENEN_TABAN_OLCULEMEDI` `denetle.py`de.
+  Defter sayısı ≠ sabit ⇒ ÖLÇÜLEMEDİ (§3.4②: ikisi AYNI commit'te değişir).
+- Kural: bugünkü küme sayısı > tavan **ya da** defterde OLMAYAN kayıt belirdi ⇒ **İHLAL** (adıyla `+ ad [yama]`; sayı
+  aynıysa "NET TAKAS"). Azalma ya da defterden düşen kayıt ⇒ `⚠️ TAVAN GEVŞEK — BEKLENEN_TABAN_OLCULEMEDI = n yapılmalı`
+  (ihlal değil, §3.4③). Defter yok/bozuk ⇒ ÖLÇÜLEMEDİ.
+- **ÖNERİ (§3.4④ — koordinatör yeniden ölçüp YAZAR): `BEKLENEN_TABAN_OLCULEMEDI = 190` · ölçüm anı origin/main
+  `48df6bf1`, 10 Ekim 2026 06:26 · evren `yer_yama*.js − yer_yama_1923_1945.js`.** Diff'te sabit = 190, defter = 190
+  kayıt (aynı ölçümden üretildi). Bugünkü denetle satırı: `taban-ölçülemedi 190 (tavan 190)`, gevşeklik/ihlal yok.
+- `SAHIPLIK_HIZLI_HARIC` KALIYOR — yorumu güncellendi: "v4 indiği COMMİT'te kaldırılır (koordinatör), daha önce DEĞİL".
+  ⚠️ O commit'te evren değişir ⇒ taban-ölçülemedi kümesi de değişir: defter + sabit AYNI commit'te yeniden ölçülmeli.
+
+### Sınav (v2) — `ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py --gercek-yok`: **90/90**
+- V1 gruplu basım iki yönde (varsayılan: sayı, ad yok · --ayrinti: adlar; D8 aynen; toplam 8 = 1+3+2+1+1).
+- V2 gerçek `denetle.py` ± `--ayrinti`: çıkış 2 · toplam = ÖLÇÜLEMEYEN (196) = Σ grup · varsayılanda tekil ad satırı 0 ·
+  `--ayrinti`'de isimli satır 195 = Σ sahiplik grubu · D8 satırı görünür.
+- V3 tavan (sahte alt süreç + geçici defter): eşit → 0 · artış → İHLAL adıyla · NET TAKAS → İHLAL · azalma → GEVŞEK, ihlal
+  yok · defter yok → ÖLÇÜLEMEDİ · defter ≠ sabit → ÖLÇÜLEMEDİ · depodaki defter = sabit 190.
+- Önceki kollar (K/H/F/R/D) aynı koşuda yine GEÇTİ. Tam (gerçek Z5) kolu koşturulmadı: `_sahiplik_uygula.py` v2'de değişmedi;
+  denetle.py değişikliği V2'de GERÇEK `denetle.py` koşusuyla ölçüldü.
+- Gerileme (v2 yapısı): `ARAC-SAHIPLIK-KAPI-SINAV-1006` **17/17** · `ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009 --gercek-yok` **24/24**.
+- `py arac/denetle.py`: çıkış 2 (önce de 2), 66 sn (makine boşken; v1 ölçümü 157 sn çekişmeliydi).
+
+### v2 — ölçtüm · bulamadım · istiyorum
+- **Ölçtüm:** taban-ölçülemedi 190 kayıt (247 alan); gruplu basımda 196 = 1 + 60 + 67 + 53 + 15; v2 sınavı 90/90.
+- **Bulamadım:** "142 kalem"in kaynağı (bugünkü ölçüm 195 sahiplik kalemi).
+- **İstiyorum:** ① `BEKLENEN_TABAN_OLCULEMEDI = 190` önerisini yeniden ölçüp yaz (defter de aynı ölçümle, aynı commit).
+  ② v4 inişinde `SAHIPLIK_HIZLI_HARIC` kaldırılırken defter + sabit o commit'te yeniden üretilsin.
