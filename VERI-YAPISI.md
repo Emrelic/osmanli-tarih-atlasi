@@ -417,7 +417,28 @@ uydurmak** cazip görünür. **Yasak.** Ayrımı bir örnek çifti veriyor:
 🟢 MEŞRU — ŞIRNAK   kur:"1891-01-01" · kesinlik:"belirsiz"
    Kaynak ŞIRNAK HAKKINDA konuşuyor: "XIX. yüzyılın sonlarına doğru bir
    KÖY ADI olarak geçmektedir (Cuinet)."
-   ⇒ 1891 bir ALT SINIRDIR ve alt sınırın DAYANAĞI o cümledir.
+   ⇒ 🔴 1891'İN NEYİN SINIRI OLDUĞU YAZILMALIDIR — iki ayrı nicelik var:
+     · **KURULUŞ için 1891 ÜST SINIRDIR:** "en geç 1891'de vardı".
+       Daha ÖNCE kurulmuş olabilir ve kaynak bunu DIŞLAMIYOR.
+     · **HARİTADA GÖRÜNME günü için 1891 ALT SINIRDIR:** daha erken
+       gösteremeyiz, çünkü tanık yok.
+     Dayanağı o cümledir — ama hangi niceliğin sınırı olduğu da yazılır.
+
+🔴 BURADAN ÇIKAN KURAL — İLK ANILIŞTAN `kur:` TÜRETİLMEZ
+   *(10 Ekim 2026, KASA ölçtü — K1 Mezopotamya yazım turu)*
+   `kur:` bir KURULUŞ iddiasıdır ve örtük olarak **"öncesi yok"** der.
+   İlk anılış ise yalnız **"bu tarihte vardı"** der. İkisi aynı şey değil:
+   ilk anılış kuruluşun ÜST sınırıdır, kuruluşun KENDİSİ değildir.
+   ⇒ Elinde yalnız ilk anılış varsa: `f:` o tarihtir (harita o gün
+     başlar), `kur:` YAZILMAZ; "en geç" beyanı `ic_not`a girer.
+   ⚠️ MÖ evreninde HER şehrin bir ilk anılışı var. Bu kural yazılmadan,
+     ilk anılışları `kur:`a çeviren bir yazım binlerce yanlış kuruluş
+     tarihi üretir — ve hepsi birbiriyle TUTARLI olacağı için hiçbir
+     kapı yakalamaz.
+   📌 Aynı ailenin veri yüzü aynı gün ölçüldü: *"by the reign of
+     Adad-nīrārī III (810–783)"* tanığından **-810** alınmıştı; güvenli
+     sınır **-783**'tü. Orada aralığın yanlış UCU, burada sınırın yanlış
+     YÖNÜ. **Bir sayı, niceliği ve yönü yazılmadan anlamsızdır.**
 
 🔴 YASAK — bir başkentin `f`/`t`sini HÜKÜMDARIN saltanatından türetmek
    Kaynak hükümdarın saltanatı hakkında konuşuyor, BAŞKENT hakkında
