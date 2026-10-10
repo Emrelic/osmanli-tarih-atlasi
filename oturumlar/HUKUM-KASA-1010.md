@@ -475,3 +475,65 @@ temsil noktası, ADLI NESNE değil** ⇒ `§6.1`in eşik indirimi İŞLEMEZ
 (indirim *"nesne kesin, adı verilmiş, uzun tasdikli"* için konuldu).
 📌 Bu bir *"bulamadım"* değil **ÖLÇÜLMÜŞ BİR HAYIR**dır — ve ikisini aynı
 kovaya atmak, yapılmış bir işi yapılmamış göstermekti.
+
+---
+
+## §6.5 🔴 TANIK İKİ AYRI SORUYA AYRI AYRI ÇAĞRILIR — kimlik ≠ koordinat
+
+> **① HANGİ NESNE? (kimlik)  ② NEREDE? (koordinat)
+> Birine yeten tanık, ötekine yetmeyebilir — ve eşik yalnız ②'de durur.**
+
+### Vaka — `BALASAGUN` (LAB ölçtü, 10 Ekim 2026)
+```
+kaydın adı + TDV      → Ak-Beşim ("Ak-Peşin harabelerinin bulunduğu yerde")
+atlasın koordinatı    → Burana (TGN ile 1,69 km) · Ak-Beşim 6,02 km uzakta
+TGN                   → Balasagun'u Burana ile ÖZDEŞLEŞTİRİYOR
+```
+İlk hükmüm *"Ak-Beşim'e taşınır"*dı. LAB bir delik gösterdi: **taşıma kararı
+TDV'den, ama 6,02 km'lik yeni KOORDİNAT tek tanıklı (TGN 8711887) ve TGN'nin
+hatası ölçülmemiş.** LAB'ın ayrımı doğruydu — TGN burada *sinyal* olarak değil,
+TDV'nin seçtiği nesnenin *koordinatı* olarak kullanılıyordu.
+
+🔴 **AMA SONUÇ "o hâlde inebilir" DEĞİL, TERSİ:** taşımanın **büyüklüğünü**
+belirleyen ②'dir, ①'i değil. TDV bize *"Burana değil Ak-Beşim"* diyor; **6,02
+km'yi TGN söylüyor.** `§6.1`in ≥10 km eşiği tam bunu durdurmak için konuldu.
+⇒ Ayrım, eşiği ①'den KALDIRIR; ②'den **kaldırmaz.**
+
+📌 **Ve risk asimetrik:** bugünkü konum (Burana) TGN ile atlasın UYUŞTUĞU yer;
+yeni konum TEK tanıklı. Yanlışsak, **iki tanıklı bir yerden tek tanıklı bir
+yere** taşımış oluruz — yani düzeltme, kanıt tabanını ZAYIFLATIR.
+
+### Ölçüm ve hüküm
+LAB aradı: Pleiades tam dökümünde ve al-Ṯurayyā'da **Ak-Beşim / Suyab kaydı
+YOK** (10 anahtar: `suyab · suy-ab · sui-ye · ak-be · beshim · besim ·
+balasag · burana · navekat · tokmak · sūyāb`; Pleiades 884869 "Balasagan"
+Kafkas Balasakan'ı, late-antique ve koordinatsız).
+⇒ **`ÖLÇÜLEMEDİ`, "yok" DEĞİL** (`§3`ün üç kodu).
+**HÜKÜM: kayıt YERİNDE KALIR; taşıma PARK EDİLİR; çelişki `not:` alanına YAZILIR.**
+
+🔴 **VE BURADAN BİR GENEL KURAL ÇIKTI:**
+> **Beyan, düzeltmenin ŞARTI değil — düzeltmeden BAĞIMSIZ bir borçtur.**
+Çelişkiyi beyan etmek için taşımaya gerek yok. Taşıma ikinci tanığa bağlı,
+**beyan her hâlde iniyor.** ⇒ *Çelişki TAŞINMAZ, BEYAN EDİLİR.*
+❌ Adı *"Balasagun (Burana)"* yapmak reddedildi: o, çelişkiyi **ADA gömer** ve
+bir daha okunamaz kılar.
+
+### §6.5b YÖNTEM — park edilen yama KENDİ KENDİNİ bloke eder
+LAB'ın çözümü kayda geçirilmeye değer: park edilen
+`-v3-balasagun-tasima-BEKLER.diff`in `not:` metnine **`[İKİNCİ TANIK BURAYA]`**
+yer tutucusu konuldu. Tanık yazılmadan o diff inemez — çünkü inerse veriye
+yer tutucunun kendisi yazılır ve derhal görünür.
+> **Park edilmiş bir yamanın yanlışlıkla inmesini bir İNSAN HATIRLAMASINA
+> değil, YAMANIN KENDİSİNE bağla.**
+📌 Bu, `§3.4 ⑤`in ("en iyi istisna yazılmayan istisnadır") kardeşi: en iyi
+bekleyen yama, beklediğini KENDİ söyleyen yamadır.
+
+### Tanık kuralı artık ALTI katman
+```
+§6.1  tanığın kendi HATASI              (Ṯ p90 8,7 km ⇒ tek tanık eşiği ≥10)
+§9.4  tanığın ÇÖZÜNÜRLÜĞÜ               (dakika-yuvarlak · "inhabited places")
+§6.2  tanığın gösterdiği NESNE          (höyük/antik/ortaçağ/modern · ADA)
+§6.3  nesnenin ZAMANA BAĞLILIĞI         (doğru nesne pencere içinde değişir)
+§6.4  KAYDIN KENDİ İDDİASI              (`tur:`/`ad:` birinci tanıktır)
+§6.5  tanığın CEVAPLADIĞI SORU          (kimlik mi, koordinat mı)
+```
