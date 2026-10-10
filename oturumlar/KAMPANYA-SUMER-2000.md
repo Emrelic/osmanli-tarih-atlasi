@@ -256,22 +256,86 @@ D7            739 → 800     Emre'nin dondurması yürürlükte · DOKUNULMADI
                             (KRONO-ONCE1281 A/B/C) ⇒ üçü BİRLİKTE ölçülüp inecek
 ```
 
-### ⑤ KOŞUDAN SONRA İNECEK, HAZIR BEKLEYENLER
+### ⑤ 🔴 KOŞUDAN SONRA İNİŞ SIRASI — LİSTE DEĞİL, SIRA (10 Ekim, güncellendi)
+
+⚠️ Bu bölüm bir LİSTEYDİ ve sekiz bağımsız diff birikince liste yetmez oldu:
+diff'ler birbirine bağlı ve yanlış sırada inen doğru bir yama, kapıyı yanlış
+ötürür. Beş faz, ve fazlar ARASINDA sıra bağlayıcıdır.
+
+#### FAZ 0 — KOŞU 22 İNER ve YAYINLANIR, hiçbir şeyle karıştırılmaz
+`kosu/22` dalından `git checkout kosu/22 -- <dosyalar>` · sonra `surum_damgala`
+→ `denetle_yayin` → yayın. **Koşu çıktısı bayattır ve yine yayınlanır** (§9);
+durduran yalnız koşunun kendi `denetle.py` ihlalidir. Aşağıdaki hiçbir diff bu
+faza KARIŞMAZ — karışırsa "koşu neyi getirdi" sorusu bir daha cevaplanamaz.
+
+#### FAZ 1 — KAPI ÖNCE: `SAHIPLIK-KAPSAM` + hüküm listesi
+🔴 **Niçin veriden ÖNCE:** bu kapı, sessiz atlamayı çıkış 2'ye çeviriyor.
+Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gecenin
+ölçümü tam o: 104 inmiş yamadan 9'u / 10 kaydı **çıkış 0 ile sessizce atlandı.**
 ```
-MOTOR PARTİSİ (tuz bir kez değişir, §9.1②) — tam inşa gerektirir:
-  C3 yürüyüş diş süzgeci (tur 5) · Z6'nın 4 rengi · BOYA v2'nin 16'sı
-  TUZ-DÖRDÜNCÜ-DOSYA yaması · norvec-bagimsiz-1814 boyası
-  NEGATIF-YIL-B (motor tarafı) · C3'ün ÖN ŞARTI: gömülü dil listesi
-VERİ (koşudan sonra, tuz dışı):
-  KRONO-ONCE1281 A+B+C → index.html ÜÇ satır (C'ninki YOK, eklenecek) + paketle
-  LAB-KONUM-ONERI: 4 KESİN + 4 YAN-KESİN + 2 İKAME koordinat düzeltmesi
-  Urfa + Siverek zinciri (1465→1404 · 1507→1514 · 1516-05→1517)
-  Lazkiye kol künyesi — 🔴 YALNIZ noktalarıyla BİRLİKTE (Cebele · Merkab · Baniyas)
-  Merakeş Murâbıt dönemi · Antalya Aldobrandini künyesi · Ayla 1170 fatimi
-  Trablusşam penceresi 1289-01-01 → 1289-04-26
-ARAÇ/ALTYAPI:
-  ARAC-TAHTA-NUMARA-1010 (TEMIZ-AGAC'tan SONRA oturur) · makine önekleri ilanı
+① denetle.py'nin BEDAVA katmanı: hüküm listesi DOSYA olarak denetlenir
+   (dayanak çözülüyor mu · ölü satır var mı · dayanaksız satır var mı)
+② hüküm listesi ilk içeriği: Akçahisar · Floransa · Ahıska (63bb90dd)
+   + Timbuktu üçlüsü (HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906)
+③ Honolulu · Mergen · Çehrin · Silistre · Şehrizor → hükmüm YOK ⇒ listeye
+   GİRMEZ, çıkış 2 verir, borç GÖRÜNÜR kalır. Bu bir arıza değil, tasarım.
+④ sınav İKİ YÖNDE: listedeki atlama 0 · listede olmayan atlama 2
 ```
+⚠️ Ölçülmüş şart: `denetle_yayin.py` `_sahiplik_uygula`yı **hiç çağırmıyor**
+(UMIT ölçtü, `:1376` yalnız metin taraması) ⇒ çıkış 2 yayını BLOKE ETMEZ.
+
+#### FAZ 2 — VERİ (tuz DIŞI), bağımlılık sırasıyla
+```
+2a  SESSIZ-7 v2         🔴 ok107 satırı + BEKLENEN_BELGESIZ 4→3 + tavan
+                           HEPSİ AYNI COMMIT'te (§3.4 ②)
+2b  LAB-KONUM-ONERI v3b  v3.diff (9 TAŞIMA) → -v3-ikame.diff (Kandehar+Angkor)
+                        → -v3-balasagun-not.diff → `paketle.py yenile` → sına
+                        ⚠️ park: -v3-balasagun-tasima-BEKLER.diff (ikinci tanık yok;
+                           not:'unda `[İKİNCİ TANIK BURAYA]` yer tutucusu var,
+                           tanık yazılmadan İNEMEZ)
+                        iniş SONRASI iki adım: ⓐ kademe_f5c9a5.js:81 yeniden
+                           ölçülür, geri yazıyorsa AYNI commit'te düzeltilir
+                           ⓑ yer_yama_1923_1945.js:1575/:7729 karantina şerhi
+2c  Z5 v4
+2d  KRONO-ONCE1281 A+B+C + index.html ÜÇ satır (C'ninki YOK) + paketle yenile
+2e  Timbuktu tam zinciri + BEYAN_EDILEN_BOSLUK muafiyeti
+2f  Urfa + Siverek (1465→1404 · 1507→1514 · 1516-05→1517)
+    Lazkiye kol künyesi — 🔴 YALNIZ noktalarıyla BİRLİKTE (Cebele·Merkab·Baniyas)
+    Merakeş Murâbıt · Antalya Aldobrandini · Ayla 1170 fatimi
+    Trablusşam 1289-01-01 → 1289-04-26
+2g  Taiz 13 dilimi · BOYA-BAYRAK-TEMIZ-1010 (94 ölü bayrak)
+    NOKTA-ONCE1281-UCUZ (4 pencere · Silistre **1279**, 1189 DEĞİL)
+2h  KASA-SUMER-SAHIPLIK (MÖ 539→MS 226) — geldiğinde
+```
+🔴 Her 2x'ten sonra `denetle.py`; **hepsi bittikten sonra `renk_olc.py`**
+(palet verinin fonksiyonudur, renge dokunmadan çakışma doğar).
+
+#### FAZ 3 — MOTOR PARTİSİ: tuz BİR KEZ değişir (§9.1 ②)
+🔴 **FAZ 2 TAM İNMEDEN VE ÖLÇÜLMEDEN BAŞLAMAZ.** Sebebi aritmetik: tuz
+değişince önbellek TAMAMEN ıskalar ve tam inşa **7-8 saat** (ölçüldü, HAVVA,
+`uretim_canli.log`). Faz 2'de kalan bir veri hatası, ikinci bir GECEYE mal olur.
+```
+TUZ v3 — ALTI dosya · 🔴 `CLAUDE.md §9.1` "dört" → "ALTI" AYNI COMMIT'te
+         (sınav bunu zorluyor; ayrılırsa kapı doğru çıktıyı reddeder)
+NEGATIF-YIL-B (motor tarafı) · C3 tur 5 (ön şartı: gömülü dil listesi)
+BOYA v2 (16) · Z6'nın 4 rengi · norvec-bagimsiz-1814 · resuli + tahiri
+kibris-isaakios · `uret_petek.py:606` coğrafî süzgeç (gun.py + motor_onbellek.py,
+   yukseklik.py DEĞİL) · 🔴 DEM .tif sha256 coğrafî tuza
+🆕 HAVVA'nın iki kalemi — ÖNCELİKSİZ (ölçülmüş kazanç %3-9, `D270`):
+   ⓐ işçi bitiş log satırı (ucuz, ÖNCE — teşhis kabiliyeti kazandırıyor)
+   ⓑ devlet İÇİ gün bölmesi (~%9; ağırlık yeniden ölçeklemesi yalnız ~%3,
+      çünkü TEK DEVLET BÖLÜNEMEZ ve İngiltere yalnız ~100 dk)
+   ⚠️ Asıl kuyruk BAŞKA aşamada: dönemler 2s11 + ufuk bantları 57 dk
+```
+
+#### FAZ 4 — TAM İNŞA ve YAYIN
+`uret_petek.py` (7-8 saat, HAVVA) → `uret_devirler.py` → `renk_olc.py` →
+`denetle.py` → `surum_damgala.py` → `denetle_yayin.py` → yayın.
+
+#### ARAÇ/ALTYAPI (faz dışı, sırası serbest)
+`ARAC-TAHTA-NUMARA-1010` (TEMIZ-AGAC'tan SONRA oturur) · makine önekleri ilanı ·
+`VERI-YAPISI.md` alan tablosuna `not:` eklenmesi (veride yerleşik 18+44 kayıt,
+tabloda YOK — alan icat değil, TABLO EKSİK).
 
 ### ⑥ KOŞUDAN SONRA ÖLÇÜLECEK — bu gece ölçülemeyenler
 ```
