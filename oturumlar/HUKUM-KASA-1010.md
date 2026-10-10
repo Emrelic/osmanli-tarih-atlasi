@@ -797,3 +797,47 @@ SURGUT   kayıt notu BRE «Заложен летом 1594»'ü *"TDV esastır"* 
 ```
 ⇒ *"TDV esastır"* bir **kapsam içi** kuraldır; kapsam dışında onu uygulamak
 **kuralı değil, kuralın adını** uygulamaktır.
+
+---
+
+## §9.10 🔴 ÖZ-İLAN SINIFININ ÜÇ KURALI — teyit turundan sonra
+
+`§9.8 ⑤` bu sınıfı *"kaynak doğru, veri kaynağı izlemiyor"* diye açtı ve
+*"taraması bedava"* dedi. **Teyit turu (KASA, `KASA-A14-TEYIT-1010`) o
+cümleyi düzeltti:** 17 iddianın 16'sı teyit edildi, **ama 14 notun 4'ü
+AYRINTIDA kusurluydu.** Çıkan üç kural:
+
+### ① ÖZ-İLAN BİR İŞARETTİR, BİR TEŞHİS DEĞİL
+```
+"burada bir hata var"          ≈ DOĞRU   (16/17)
+"hata şu tarihlerdedir"        ≈ SIK YANLIŞ (4/14 notta)
+```
+Ölçülen vakalar: `Eisenstadt` baş **1445/47** (not 1463/1491 diyor) ·
+`Bayburt` notu BAYAT (1916 Rus işgali ZATEN yazılı; eksik olan TDV'nin
+andığı 1828-29 ve 1878) · `Draç` 1392'si kaynaksız (EB1911 *"in 1394 to
+Venice"*) · `Klagenfurt` tamamen YANLIŞ.
+⇒ Aday listesi bir **tarama çıktısıdır**, bir düzeltme listesi değil. Her
+kalem **kendi kaynağıyla** teyit edilmeden FAZ 2'ye girmez.
+
+### ② ÇÜRÜTÜLEN ÖZ-İLAN SİLİNMEZ — ÇÜRÜTÜLDÜĞÜ YAZILIR
+Notu silmek üç şeyi birden kaybettirir:
+```
+① çürütmenin KENDİSİ kaybolur (bir ölçümdü, kayıt değil)
+② tarama bir dahaki turda aynı notu YENİDEN işaretler
+③ bir sonraki okuyucu aynı emeği YENİDEN harcar
+```
+Biçim: `ic_not`a *"'<iddia>' İDDİASI ÇÜRÜTÜLDÜ — <kaynak>: <alıntı>"*.
+📌 Vaka: Klagenfurt'un *"1809-1813 İlirya illeri yazılmadı"* notu; Ghon
+Fransa'ya bırakılanı **Villacher Kreis** diye veriyor, Austria-Forum
+1824'te Klagenfurter Kreis'in eklendiğini yazıyor ⇒ Klagenfurt Avusturya'da
+kaldı.
+
+### ③ 🔴 TEYİT TURU, TARAMADAN DAHA VERİMLİ OLABİLİR
+> **Bir kusuru DOĞRULAMAK için kaynağa gitmek, o kusurdan FAZLASINI bulur**
+> — çünkü not yalnız **YAZARIN GÖRDÜĞÜNÜ** taşır, kaynak **HEPSİNİ** taşır.
+Ölçüldü: 14 notu teyit ederken **öz-ilanın hiç anmadığı 5 yeni çelişki**
+çıktı — `Alaşehir` 1402-1429 (TDV: Timur, sonra Cüneyd Bey ↔ atlas
+`germiyan`) · `Görice` Şubat 1918 Fransız yönetimi (atlasta YOK) ·
+`Bayburt` 1828-29 · `Aosta` 1691/1704-06/1798-99 · `Klagenfurt` 1809.
+⇒ Bu beşi, kalan **zayıf 42** adaydan ÜSTÜN sınıftır: beşi **kaynak**
+destekli, 42'si **not** destekli. Sıra buna göre kurulur.

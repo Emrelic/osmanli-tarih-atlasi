@@ -289,6 +289,17 @@ var ≠ o soruyu soruyor"* ailesinin TERS yüzü: kapı **yok sanıldı ve VARDI
 - **İslâm dünyası, Osmanlı ve komşuları: TDV İslâm Ansiklopedisi birincil;** çelişirse TDV
   esastır. TDV'nin kapsamadığı coğrafya/tanecikte akademik kaynak meşrudur ve `kaynak:`
   alanına AÇIKÇA yazılır. **Vikipedi tek dayanak değildir.** Küçük model (Haiku) kullanılmaz.
+  🆕 🔴 **AMA "TDV ESASTIR" BİR *TARİH* ÇELİŞKİSİNİ ÇÖZER, BİR *OLGU*
+  ÇELİŞKİSİNİ ÇÖZMEZ** (KASA ölçtü, 10 Ekim 2026, `arma` künyesi).
+  Birincillik kuralı **aynı soruya iki cevap** geldiğinde hakemdir; sorunun
+  ÖNCÜLÜ tartışmalıysa cevap **`ÖLÇÜLEMEDİ`**dir. Ölçülen vaka: TDV
+  Tinbüktü paşalığının sonu için 1760 veriyor (Tevârik'in zaptı); UNESCO
+  *General History of Africa V* Tevârik'in *"never thought of seizing
+  political power in Timbuktu"* diyor ⇒ reddedilen TARİH değil **OLGU**.
+  ⇒ `f 1591` KESİN (TDV + Hunwick + EB1911 üçü birden), `t` BEYANLI TARTIŞMA.
+  📌 Ve aynı vakada künyenin `1750-1760`ı TDV'ye *uymamaktan* değil
+  **TDV'yi YANLIŞ OKUMAKTAN** doğmuştu: TDV paşalığın İÇ olayını anlatıyor,
+  künye onu bütün paşalık sanmış ⇒ yukarıdaki ⑧in ta kendisi.
 - **Atlas referans değildir, mamul üründür** (Emre, 13 Eylül): yerleşim dönemi, künye günü,
   komşu kaydın günü, atlas koordinatı DAYANAK OLAMAZ; çelişkide ATLAS düzelir. **Komşu günü
   şartlı serbest:** komşunun günü kendi kaynağına dayanıyor + hedefte kaynak gün vermiyor +
