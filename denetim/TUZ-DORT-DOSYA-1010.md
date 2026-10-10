@@ -454,3 +454,10 @@ yalnız toplam süreye bakılmamalı.
 2. Geo süzgecine (`:606`) yalnız `gun.py` ve `motor_onbellek.py` eklensin; `yukseklik` eklenmesin.
 3. DEM dosyasını tuza almak için hüküm (motor kodu).
 4. `denetle.py:32` StringIO kusuru için ayrı iş.
+
+## § SINAV NOTU (koordinatör uyarısı, 10 Ekim) — c2 sorusu KOD değil BELGE sınar
+TUZ-v3 sınavının c2 sorusu `CLAUDE.md §9.1`i oracle olarak okur. Partili ağaçta 33/34 verir: §9.1 hâlâ "dört" der,
+TUZ-v3 tuzu ALTI dosyaya çıkarır. ⇒ c2'nin sorduğu "kod doğru mu" DEĞİL, "BELGE kodla tutuyor mu"dur. İki soru tek
+sayıda toplanmamalı: §9.1 "ALTI" düzeltmesi PARTİ COMMIT'inde iner ve c2 o zaman geçer — ama c2'nin geçmesi kodun
+sınandığı anlamına gelmez; kod soruları ayrı sayılır (33 kod kolu). İkisi de bugünkü dünyada doğrudur: §9.1 "dört"
+TUZ-v3 ÖNCESİ, "altı" SONRASI içindir.
