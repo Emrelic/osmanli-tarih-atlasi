@@ -504,6 +504,18 @@ KASA   dört hüküm ölçüldü (Kostajnica A geçerli · Töton tuza dokunmuyo
 LAB    Ö-T2 kova bölünmesi + Ö-T1 TESLİM · tanık-arama hattı KAPATILDI
 BEN    91 commit · iniş öncesi kümülatif `--check` bende
 ```
-**İNİŞ:** KOŞU 22b bitince `oturumlar/INIS-KOSU22.md` · sonra FAZ 1 dörtlüsü
-(KAPSAM-v3 → KUR-KAPI → D5-GUN-v3 → SESSIZ-7). İki tavan (TABAN 190 ·
-D5C 2449) **koşu indikten SONRA** yeniden ölçülüp sabitle aynı commit'e girer.
+**İNİŞ — ⚠️ 09:00 İTİBARIYLA DEĞİŞTİ, bu bölümün üstü 07:40'ın fotoğrafı:**
+```
+FAZ 1 artık DOKUZ kalem (dörtlü DEĞİL):
+  KAPSAM-v3 → KUR-KAPI → D5-GUN-v3 → SESSIZ-7 → KASA-GORUNURLUK →
+  KASA-DIKIS-v3 → OKU-DOSYA-ATLAMA → MADDE-VAR-MÖ → NEGATIF-YIL-A2
+  (+ KRONO-NEG · TAHTA-ACIL · KOSU-YAYIN-KAPI · SINAV-ISIRMA: sırasız, tuz dışı)
+
+🔴 MÖ PAKETİ BU İNİŞE GİRMİYOR — BEŞ ön koşulu var (INIS §8.1d):
+  ① NEGATIF-YIL-A2 ✅  ② KUNYE-SUMER-v3 (4 günlük örtüşme)
+  ③ SUMER-SAHIP (21 noktanın `s:`i YOK!)  ④ MOTOR-GECISLI  ⑤ NEG-B-v2
+  ⇒ KÜNYE de çıktı: "etkisiz" ölçmüştüm, ÇAKIŞMAYI sormamıştım
+```
+İki tavan (TABAN 190 → **188** · D5C 2449) **koşu indikten SONRA** yeniden
+ölçülüp sabitle aynı commit'e girer. Güncel hâl her zaman
+`git show origin/main:oturumlar/INIS-KOSU22.md` **§8**'dedir.

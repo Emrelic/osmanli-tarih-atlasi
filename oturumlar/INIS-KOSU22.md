@@ -286,6 +286,40 @@ görünüyor.
 dilim %62 yanlış.** Türetilen dilim ya KASA'nın kaynağıyla teyit edilir ya
 `bos:`/`bit:` olur.
 
+### 8.1e 🔴 CANLI RİSK — ZİNCİR KİLİDİ ~11:53'TE YAŞ VEKİLİNİ AŞIYOR
+Ölçüldü (`KOSU-YAYIN-KAPI-1010`, yamasız L1 kolu):
+```
+kos_ve_yayinla.py kilidi bir YAŞ VEKİLİ kullanıyor (240 dk)
+yamasız sınav: CANLI PID + 5 saatlik kilit ⇒ zincir kilidi DEVRALDI,
+               commit attı ve PUSH ETTİ
+dosyanın :241'deki kendi yorumu bu kusuru "düzeltildi" diyor — DEĞİLDİ
+```
+🔴 **VE BUGÜN CANLI:** KOŞU 22b `kos_ve_yayinla.py --yayinlama` ile koşuyor
+(PID 17800, 06:53:49) ⇒ **~11:53'ten sonra kilidi 240 dakikayı geçiyor.** O
+andan sonra o zinciri İKİNCİ kez başlatan **canlı koşunun kilidini devralır.**
+⇒ **KOŞU 22b bitene kadar `kos_ve_yayinla` HİÇBİR KİPTE ikinci kez
+başlatılmaz** (HAVVA ve UMIT teyit etti; hiçbir hat gerçek zinciri
+koşturmuyor, sınavlar sahte depoda).
+✅ Çare hazır (`700bebd9`): kilit **süreç damgası** olur
+(`pid | bas | makine | argv`, `O_EXCL`) · canlı PID ⇒ 3 · ölü ⇒ devralır ·
+bozuk/başka makine/ölçülemeyen ⇒ 2 · **yaş yalnız BİLGİ** · kilit yalnız
+kendi PID'iyse silinir, **süreç öldürme YOK** (`§7`).
+⚠️ **GEÇİŞ:** eski biçimli `.zincir.kilit` yamadan sonra ÖLÇÜLEMEDİ verir ve
+**elle silinmesi** gerekir — bilinçli, ve iniş duyurusuna yazılacak.
+
+### 8.1f 🔴 COMMIT LİSTESİ YANLIŞ DOSYAYI CANLI SANIYOR — `§5`in üçüncü tekrarı
+```
+kosu_yayin'in commit LİSTESİ:  data/devletler_harita.js · data/petek_govde.js
+                               İKİSİ DE GITIGNORE'DA (:28, :56)
+                               ⇒ diskteyseler add+commit DÜŞÜYOR ve
+                                 HİÇBİR ŞEY commitlenmiyor (ölçüldü: K9)
+YAYINDAKİ GERÇEK HARİTA:       data/devlet_harita_ust.js  ⇒ LİSTEDE YOK
+```
+Yamadan önce bu düşüş **çıkış 0 ile örtülüyordu.** ⇒ `KOSU-YAYIN-LISTE-1010`
+listeyi `index.html`in `<script src>` satırlarından **türetiyor** (+ dolaylı
+yükleyiciler: `geo_coz` dinamik · `paket_*` · `donem_*`), ve türetmeyi
+**ADIYLA basıyor** (satır → dosya).
+
 ### 8.2 İNİŞ SIRASI — bağlayıcı
 ```
 ① KOŞU 22b iner (~15:45-17:00) · §0-§7 uygulanır
