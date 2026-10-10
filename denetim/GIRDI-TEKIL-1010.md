@@ -129,6 +129,44 @@ Kapı metni bulunamazsa çıkış kodu **2** (ÖLÇÜLEMEDİ) olur.
 \* eşdikdörtgen formülün şişmesi, gerçek mesafe değil.
 📌 Yalnız Kordofan çifti aynı bölgede (80 km, aynı dosyada). Biri il merkezi (Ubeyyid), öteki bölge noktası gibi görünüyor. 3 km eşiğinin dışında kaldığı için yakın mükerrer DEĞİL; listede bilgi olarak duruyor.
 
+## 6b. Kontrol ne SORUYOR, ne SORMUYOR — 37 çakışma kapıdan nasıl kaçıyor (çerçeve: koordinatör/LAB)
+
+Çerçeve: sınıf "yorum var, kod yok" değil. Doğrusu: **kontrol koşuyor, ama normalleştirilmiş çakışmayı sormuyor.**
+`girdi.py:620-626` (`37770b31`): `if y["ad"] in nereden` sorusu ham dizgi üzerinde birebir sözlük üyeliği soruyor.
+- **SORDUKLARI:** birebir aynı `ad` dizgisi · dosyalar arasında · dosya içinde.
+- **SORMADIKLARI:** harf büyüklüğü (`roma` ≠ `Roma`) · aksan/şapka (`Kudüs` ≠ `Kudus`, `Nâin` ≠ `Nain`, `Şire` ≠ `Sire`) · parantezli ek (`Roma` ≠ `Roma (Queensland)`) · boşluk ve tire varyantı · eşanlamlı ad (`Diyarbekir`/`Diyarbakır`; bu normalleştiricinin de işi değil, sözlük işi). Bunların ilk ikisi sınavın S3 sorusunda, parantez S4'te kanıtlı.
+
+**37 grup kaçış sınıfı** (`37770b31`, worktree; aynı 37 grup `534633f8`te de çıktı):
+
+| Kaçış farkı | Grup | Gruplar |
+|---|---|---|
+| yalnız **parantezli ek** | 34 | akra · aveiro · avustralya iç kesimi · charleston · concepcion · douglas · feyzabad · georgetown · gore · haydarabad · kazak bozkırı · **kordofan** · la paz · lagos · las vegas · loreto · merida · mora · new amsterdam · perth · plymouth · port royal · radom · roma · san miguel · santa fe · trujillo · tula · tuzla · üstyurt platosu · yeni gine iç kesimi · yeni gine iç yaylaları · yenişehir · york |
+| yalnız **aksan/harf** | 1 | **kudus**: `Kudüs` / `Kudus` (ü/u) |
+| **parantez + aksan** | 2 | **nain**: `Nâin` / `Nain (Labrador)` (â/a + ek) · **sire**: `Sire (Syros)` / `Şire` (Ş/S + ek) |
+
+Mesafeler §6'daki tabloda. **3 km içinde: 0 grup.** <100 km: 1 grup (Kordofan, 80,5 km).
+Aynı dosyada olan gruplar: 13. Öteki 24 grup 2-3 dosyaya dağılmış.
+📌 Kudüs/Kudus, yalnız aksan farkıyla kaçan TEK gruptur. Aradaki mesafe 9.272 km; koordinat Orta Cava'yı gösteriyor.
+
+## 6c. ÖNERİ — normalleştirilmiş kontrol (YAZILMADI, yalnız öneri)
+
+Kontrol yeniden yazılmadı (emir: mantığa dokunma). Bir öneri olarak:
+
+1. **Yerine:** `denetle.py`de bir **UYARI kalemi**. `girdi.yukle()`de HATA olmamalı: 37 meşru ad aynı anahtara düşüyor, motoru düşürmek yanlış olur.
+2. **Anahtar:** `norm(parantezsiz(ad))` (`denetim/ARAC-NORMAL-0903.py`). Kapsam boşluk ve tire varyantına genişletilebilir.
+3. **Meşru ayrı yer nasıl ayrılır? Mesafeyle, liste YAZMADAN.** Aynı anahtarlı çift **< N km** ise UYARI verilir, ≥ N km ise sessiz kalır (Roma/Roma (Queensland) gibi eşadlı yerler). Bugün N=100 seçilirse kovada **1** grup kalır: Kordofan. 3 km altı zaten `yakin_ciftler`in alanı (adı ne olursa olsun). Normalleştirilmiş kontrolün getireceği tek yeni soru şu bant: *aynı yer, farklı yazım, 3-N km arası koordinat sapması.*
+   - Neden istisna listesi değil: `§3.4 ⑤` "en iyi istisna, yazılmayan istisnadır". 36 meşru grubu adıyla listelemek 36 kalemlik bir tavan ailesi açar; mesafe ölçütü bunu gerektirmiyor.
+   - N değeri koordinatörün kararı. Bugün 80,5 km (Kordofan) ile 243,9 km (Üstyurt) arasında boşluk var, N=100 ile N=200 aynı sonucu verir.
+4. **Yazım düzeni (veriye öneri, hüküm değil):** eşadlı iki yerden yalnız biri parantez taşıyorsa (`Roma` · `Kudüs` · `Tula` · `York` …), çıplak ad "asıl" sayılmış oluyor. Bu bugün çakışma üretmiyor ve kural değil, gözlem.
+5. Kod, `girdi.py` tuzunda DEĞİL, `denetle.py`de olur ⇒ koşu gerektirmez. ⚠️ Ama bu kalem bir tavan da getirir (bugün 1). `§3.4 ⓪②`ye göre o tavan yazıldığı anda ölçülür ve aynı commit'e girer.
+
+## 6d. Motor bu `raise`a BAŞTA düşüyor — AST ile doğrulandı
+
+`origin/main:arac/uret_petek.py` `ast.parse` ile tarandı (`girdi.yukle` adlı `Call` düğümleri):
+- **Tek çağrı, satır 1028.** Modül gövdesinde üst düzey bir `Assign` deyimi: `YERLER = girdi.yukle()`. Hiçbir fonksiyonun, `try`ın ya da `if`in içinde değil ⇒ `ValueError` yakalanmaz, süreç düşer.
+- Ondan önce koşan aşamalar (`asama(...)`): anlık görüntü · kara maskesi · göller · nehir yatakları · dağ sırtları · "Yerleşimler okunuyor". 8518 satırlık betiğin ilk 1028 satırı. Ağır aşamaların hepsi (yabancı gövdeler, dönemler, ufuk bantları, çöl tavanı) bundan sonra geliyor.
+- İşçi süreçleri motoru baştan koşuyor (`uret_petek.py:489` yorumu, Windows'ta fork yok) ⇒ onlar da aynı satırdan geçiyor.
+
 ## 7. Bulunamayanlar
 - "Yerleşimler okunuyor" aşamasına kadar geçen süre (saniye): bu makinede üretim logu yok.
 - D5-GUN'un kodu niçin bulamadığı doğrudan ölçülmedi. Grep sözcüğü hipotezi D5-GUN'un raporundan çıkarım.
