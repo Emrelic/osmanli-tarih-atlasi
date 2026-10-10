@@ -1,0 +1,24 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 5b8d03a99..a6a384e97 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -5479,6 +5479,19 @@ window.DEVLETLER = [
+     { t:"1815-09-07", tur:"antlasma", b:"Viyana Kongresi daimi tarafsızlığını uluslararası garanti altına aldı" }
+   ]
+ },
++{ id:"cenevre-cumhuriyeti", ad:"Cenevre Cumhuriyeti (Seigneurie et République de Genève)", tur:"cumhuriyet", bolge:"orta-avrupa",
++  f:"1536-08-07", t:"1815-05-19", baskent:"Cenevre", boya_gerekli:true,
++  ic_not_f:"HLS 'Genève (canton)' (M. Piguet vd., 2005, rev. 2017): 'en signant le 7 août 1536 un traité dit perpétuel et en renouvelant la combourgeoisie de 1526' — piskopos-prensliğinden (Kutsal Roma) bağımsız cumhuriyetin işlemsel başı; Reform kararı 21.05.1536 (HLS commune). HLS künyenin kendi adını '(1534-1798)' diye tarihler; atlas işlem gününü esas aldı.",
++  ic_not_t:"Acte d'union du 19 mai 1815 (silgeneve.ch, birincil metin) — Konfederasyona kanton olarak katılma İŞLEMİ; Diet kararı 12.09.1814 (HLS 'Pacte fédéral'). ⚠️ ARA: 26.04.1798 → 31.12.1813 Fransa'ya doğrudan ilhak (Léman departmanı merkezi) — künye ömrü bu aralıkta KESİNTİLİ; yerleşimin s: zinciri arayı fransa-cumhuriyet ile taşıyor.",
++  ozet:"Reform ve Savoya'dan kopuşla 1536'da kurulan, Bern ve Zürih'le müttefik ama Konfederasyona üye olmayan bağımsız şehir cumhuriyeti; 1798-1813 Fransa'ya ilhak edildi, 1815'te İsviçre kantonu oldu.",
++  kaynak:"HLS 'Genève (canton)' (007398) · 'Genève (commune)' (002903) · 'Léman (département)' · EB1911 'Geneva' · KASA-CENEVRE-1010",
++  kronoloji:[
++    { t:"1536-08-07", tur:"antlasma", b:"Bern ile 'daimî' antlaşma; 1526 combourgeoisie yenilendi" },
++    { t:"1798-04-26", tur:"ilhak", b:"Réunion antlaşmasıyla Fransa'ya ilhak; Léman departmanının merkezi oldu" },
++    { t:"1813-12-31", tur:"kurulus", b:"Cumhuriyet restore edildi (Fransız birlikleri çekildi)" },
++    { t:"1815-05-19", tur:"son", b:"Acte d'union: Cenevre İsviçre Konfederasyonu'na kanton olarak katıldı" }
++  ]
++},
+ { id:"belcika", ad:"Belçika Krallığı", tur:"krallik", bolge:"bati-avrupa",
+   f:"1830-10-04", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Brüksel", harita:"belcika",
+   ozet:"Hollanda Birleşik Krallığı'ndan ayrılan devrimle kurulan, tarafsızlığı büyük güçlerce garanti edilen krallık; I. Dünya Savaşı'nda Alman istilasına uğradı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
