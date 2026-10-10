@@ -97,3 +97,21 @@ py arac/sinav_isirma.py --taban ba636eee --diff denetim/KRONO-NEG-1010.diff \
 koşturulmadı; `denetim/` arşiv kopyaları yalnız grep ile sayıldı (21 dosya), tek tek okunmadı.
 **③ İstiyorum:** (1) diff'in inişi (tuz dışı, data'ya dokunmaz, D2 çıktısını değiştirmez); (2) `_sahiplik_uygula`
 sahibine öneri 1 — NOKTA-SUMER `s:` yazımından ÖNCE; (3) NEG-B inmeden MÖ madde yazılmasın (denetle.py çöker).
+
+## §ek — 21 arşiv betiğinin sayısı bugün bir TAVANDA/BELGEDE yaşıyor mu? (koordinatör sorusu)
+Taban: yeni worktree `origin/main` `02f6ed23` (yalnız okuma). **Cevap: HAYIR.**
+- Aranan: 21 betiğin adı → `arac/` (148 `BEKLENEN_*` satırlı `denetle.py` dahil, bütün kapılar) · `CLAUDE.md` ·
+  `oturumlar/INIS-*.md` (1 dosya) · `denetim/*.json` (bütün `*TAVAN*.json` ve defterler dahil).
+- 17 betik bu evrende HİÇ geçmiyor. Geçen 4'ü:
+  - `ODAK-KAPI-SINAV` → `CLAUDE.md:971` (yalnız "kapı iki yönde sınanır" — sayı YOK) · `arac/odak_cozum.js:49/251`
+    (yorum) · `ODAK-KAPAT-0930.json` ("KOŞMADI"). Regex'i (:170) yalnız bir KURBAN madde seçer, sayı üretmez;
+    `ODAK-TAVAN.json`daki sayılar `odak_olc.py`den gelir (regex'siz).
+  - `ARAC-KITA29-BENZETIM-0913` → `YAMA-KITA29-FERHATPASA-0913.json` · `ARAC-KRONOLOJI-KUNYE-0911` ve
+    `ARAC-MISIR-SIRBISTAN-KOVA0-0911` → `HAZIRLIK-/ONGORU-MISIR-SIRBISTAN-0911.json`. Bu üç json'u hiçbir
+    `arac/`, `CLAUDE.md`, `INIS` okumuyor/anmıyor ⇒ tavan değil, arşiv.
+- Öteki md anılmaları (`denetim/UMIT-W*`, `LAB-*`, `UYGULA-4-0918.md`, `TAHTA.md` vb.) rapor/tarihçedir; hiçbiri
+  bir kapının okuduğu sabit değil. `§1.5`in kronoloji sayısı `durum_tablosu` → `arac/kronoloji_say.js` (node, `\d{4}` yok);
+  `ARAC-KRONO-SAY-SINAV-1006` eski regex'i yalnız "ESKİ yanlış sayar" yönü için taşır.
+- **Etki ÖLÇÜLDÜ, varsayılmadı:** `data/*.js`in tamamında `(\bt|"t")\s*:\s*"-[0-9]` = **0** ⇒ bu betiklerden biri
+  bugün yeniden koşturulsa bile MÖ atlaması hiçbir sayıyı değiştirmez. Etki ilk MÖ madde yazılınca başlar; o gün de
+  bir kapıya bağlı değiller.
