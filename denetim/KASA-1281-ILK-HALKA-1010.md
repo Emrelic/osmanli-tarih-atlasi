@@ -112,6 +112,13 @@ meşru 10 ± 10 · ölçülemedi 10 ± 10            0 ✓ · 12 ✓
 ```
 🆕 Öngörmediğim: Ⓖ'nin MEKANİZMASI. Kırpma, geriye genişletmede sahte geçişe dönüşüyor; ve bu zaten bir kez oldu (Z6).
 
+### 1.6 🔴 DÜZELTME (KASA-DIKIS-KAPI-1010 ölçümüyle)
+- **Kırpma sayısı 765 değil 2.442.** Yetkili yükleyici `girdi.yukle` (4.300 kayıt, bütün nokta dosyaları) ile ölçüldü;
+  765 benim dar ayrıştırıcımındı. Ⓚ/Ⓖ ayrımı ve hükümler değişmez.
+- **Ⓖ 13 değil 14 (13 kaynaksız + Elbistan kaynaklı):** Bayburt (`yerlesimler_anadolu_0914.js`) yükleyiciyle bulundu
+  ⇒ EPOK'un 14'ü TAMAM.
+- Elbistan'ın 1281 halkası kaynak taşıyor ama kaynak SONU (1337) tarihliyor (kapının beyanlı sınırı).
+
 ## 2. ③ İSTİYORUM
 a) **Erzurum:** selcuklu t 1281-01-01 → **1308** (TDV erzurum, yıl), ilhanli f 1308. EPOK'un modelleme sorusunda
    kaynakla çözülen ilk nokta.

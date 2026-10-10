@@ -1,0 +1,99 @@
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -6064,6 +6064,85 @@
+     return ihlal
+ 
+ 
++# 🔴 DİKİŞ KAPISI (KASA-1281-ILK-HALKA-1010, 10 Ekim 2026) — VERI_UFKU[0] günündeki SAHTE GEÇİŞ.
++#   İKİ AYRI ŞEY: `s[0]`ın `f`si VERI_UFKU[0] ise bu bir KIRPMA'dır (Ⓚ): pencere orada açılır,
++#   halka "bu günden itibaren X" der ve doğrudur (765 nokta, DOKUNULMAZ). Ama ÖNÜNDE bir halka
++#   varsa aynı gün artık bir sınır işareti değil, iddia edilen bir SAHİP DEĞİŞİMİ GÜNÜDÜR (Ⓖ)
++#   ve geçiş günü kaynak ister.
++#   NASIL DOĞDU (ölçüldü): ZAMAN-Z6-1008 1281 öncesi halkaları zincirlerin ÖNÜNE ekledi; eski
++#   `s[0]` kırpması (1281-01-01, kaynaksız) yerinde kaldı ve bir geçiş gününe dönüştü. 14 Anadolu
++#   noktası (EPOK-SAHIP-1008'in "14 çelişki"si); 13'ünde o halkanın `kaynak:`'ı YOK.
++#   NİÇİN KAPI, KURAL DEĞİL: MÖ / Sümer paketi tam bunu yapacak (1281'in önüne halka ekliyor).
++#   Kural yazılı kalır, kapı ölçer. ⇒ "önüne halka eklenen her s[0]'ın f'si yeniden
++#   kaynaklanır; kırpma günü geçiş günü olarak BIRAKILAMAZ."
++#   ÖLÇÜT: dönemin `f`si == VERI_UFKU[0] VE aynı kayıtta `f`si ondan KÜÇÜK başka bir dönem var
++#   (sıra değil, tarih — `s:` dizisi sıralı varsayılmaz) VE dönemin kendi `kaynak:`'ı boş ⇒ İHLAL.
++#   Kayıt düzeyindeki `kaynak:` SAYILMAZ: o kaynak geçiş gününü tarihlemiyor.
++#   ⚠️ BEYANLI SINIR (ölçülmüş): kapı `kaynak:` DOLU mu diye sorar, NEYİ tarihlediğini bilmez.
++#   Elbistan'ın 1281 halkasında kaynak var ama halkanın SONUNU (1337) tarihliyor ⇒ kapıdan geçer.
++#   Bu sınıf kapı ile değil okuma ile bulunur (D267: araç doğru sayı verdiğini sanır).
++#   DEFTER: bugünkü 13 kaynaksız dikiş BORÇTUR (koordinatör hükmü: 12'si `selcuklu` t'si 1308'e
++#   devir, Erzurum TDV ile 1308 — FAZ 2 veri partisi). Yeni üye = GERİLEME (çıkış 1); defterden
++#   düşen üye = iyileşme, `DIKIS_DEFTER` elle küçültülür (tavan yalnız İNER).
++DIKIS_DEFTER = frozenset({
++    "yerlesimler.js|Ankara|1281-01-01|ahiler",
++    "yerlesimler.js|Bitlis|1281-01-01|ilhanli",
++    "yerlesimler.js|Erzincan|1281-01-01|ilhanli",
++    "yerlesimler.js|Erzurum|1281-01-01|ilhanli",
++    "yerlesimler.js|Kayseri|1281-01-01|ilhanli",
++    "yerlesimler.js|Kemah|1281-01-01|ilhanli",
++    "yerlesimler.js|Kırşehir|1281-01-01|ilhanli",
++    "yerlesimler.js|Sinop|1281-01-01|pervane",
++    "yerlesimler.js|Sivas|1281-01-01|ilhanli",
++    "yerlesimler.js|Tokat|1281-01-01|ilhanli",
++    "yerlesimler.js|Van|1281-01-01|ilhanli",
++    "yerlesimler.js|Çankırı|1281-01-01|cobanogullari",
++    "yerlesimler_anadolu_0914.js|Bayburt|1281-01-01|ilhanli",
++})
++
++
++def dikis_olc(Y, ufuk_bas=None):
++    """VERI_UFKU[0] günündeki geçişler. Döner: {kaynaksiz, kaynakli, kirpma} → sıralı liste.
++    Anahtar `dosya|ad|f|d`. kirpma = önünde dönem olmayan (s[0] konumundaki) halka (BİLGİ)."""
++    ufuk_bas = ufuk_bas or VERI_UFKU[0]
++    K = {"kaynaksiz": [], "kaynakli": [], "kirpma": []}
++    for y in Y:
++        S = [p for p in (y.get("s") or []) if isinstance(p, dict)]
++        for p in S:
++            if p.get("f") != ufuk_bas:
++                continue
++            a = "%s|%s|%s|%s" % (y.get("_kaynak"), y.get("ad"), p.get("f"), p.get("d"))
++            if not any((q.get("f") or "9999") < ufuk_bas for q in S if q is not p):
++                K["kirpma"].append(a)
++            elif _kaynak_dolu(p.get("kaynak")):
++                K["kaynakli"].append(a)
++            else:
++                K["kaynaksiz"].append(a)
++    return {k: sorted(v) for k, v in K.items()}
++
++
++def dikis_rapor(Y, ayrinti=False, defter=None):
++    """main() için: basar, GERİLEME varsa True döner."""
++    defter = DIKIS_DEFTER if defter is None else defter
++    D = dikis_olc(Y)
++    yeni = sorted(set(D["kaynaksiz"]) - set(defter))
++    n = len(D["kaynaksiz"])
++    print(f"\nEk denetim  {'✗' if yeni else '✓'}  {VERI_UFKU[0]} DİKİŞİ: kaynaksız geçiş {n} "
++          f"(defter {len(defter)}) · kaynaklı geçiş {len(D['kaynakli'])} · kırpma (s[0]) "
++          f"{len(D['kirpma'])} — kırpma DOKUNULMAZ, geçiş günü kaynak ister")
++    for k in (yeni if ayrinti else yeni[:15]):
++        print(f"    DİKİŞ YENİ  {k}  → geçiş gününü kaynaklı yaz ya da halkayı yeniden kaynakla "
++              f"(kırpma günü geçiş günü olarak BIRAKILAMAZ)")
++    if ayrinti:
++        for k in D["kaynakli"]:
++            print(f"    DİKİŞ KAYNAKLI  {k}  (kapı geçer — kaynağın O GÜNÜ tarihlediği OKUNMADI)")
++    if yeni:
++        print(f"            🔴 GERİLEME: {len(yeni)} yeni kaynaksız dikiş — defter BÜYÜTÜLMEZ.")
++    elif n < len(defter):
++        print(f"            ⚠️ DEFTER GEVŞEK {len(defter)}→{n} (iyileşme) — DIKIS_DEFTER'den düşenleri sil")
++    return bool(yeni)
++
++
+ def _kaynak_gerileme(K, T):
+     """ÜYELİK ölçütü (blok yorumu): (yeni_h, yeni_d, hiçbiri tavanı, kayıt-kaynaksız tavanı)."""
+     Hd, Dd = set(T["hicbiri_defter"]), set(T["donem_ici_defter"])
+@@ -7229,6 +7308,10 @@
+     if kaynak_tavan_rapor(Y, ayrinti=args.ayrinti):
+         ihlal = True
+ 
++    # Ek denetim — VERI_UFKU[0] dikişi (DIKIS_DEFTER üstündeki blok)
++    if dikis_rapor(Y, ayrinti=args.ayrinti):
++        ihlal = True
++
+     # Ek denetim — mükerrer kronoloji maddesi. ÜÇ kademe:
+     #   [başlık] Jaccard ≥ 0.34            → İHLAL
+     #   [kişi!]  aynı GÜN + ortak kişi +
