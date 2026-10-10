@@ -10,6 +10,10 @@
    "kesinlik": "onyil",
    "baskent": "Uruk",
    "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Utu-hegal of Uruk (c. 2116–c. 2110)'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (çıkarım: sayılar OK'ye uyuyor) · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Utu-hegal saltanatı (c. 2116–c. 2110); gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — aynı saltanatın sonu; gerçek uç ÖLÇÜLEMEDİ"
   },
   {
@@ -22,6 +26,10 @@
    "kesinlik": "yil",
    "baskent": "Uruk",
    "kaynak": "RlA 12 s.519 Charpin 'Sîn-kāšid' https://publikationen.badw.de/de/rla/a/12.576.jpg: 'fonda vers 1860 (chron. moy.) … jusqu'à l'annexion par Rīm-Sîn en sa 20e année (1802)'",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · OK (Orta Kronoloji) (kaynak açıkça 'chron. moy.')"
   },
   {
@@ -34,6 +42,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Girsu",
    "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'a century of complete independence, between Shar-kali-sharri and the beginning of Ur III'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (çıkarım: sayılar OK'ye uyuyor) · Gudea Met 2150–2125 ↔ Britannica/AMGG Ur-Nammu çağdaşı ⑥ · Gudea Gutlara tâbi vali olabilir (Britannica Lagash) · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — 'between Shar-kali-sharri and … Ur III' — Şar-kali-şarri saltanat sonundan türetilmiş; gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Ur-Nammu saltanat başından (2112) türetilmiş; gerçek uç ÖLÇÜLEMEDİ · t ARALIK/YÖN DÜZELTME (D206 tanık hâli): -2112 → -2095 ÜST SINIR — son Ur-Nammu saltanatı (2112–2095) İÇİNDE ⇒ güvenli üst sınır 2095; 2112 aralığın alt ucuydu ama ÜST etiketliydi"
   },
   {
@@ -46,6 +58,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Kiş",
    "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Enmebaragesi … about 2700' · RlA 5 s.607 Edzard https://publikationen.badw.de/de/rla/a/5.644.jpg 'unter Sumu-la-El von Babylon (1880—1845/1816—1781) … einverleibt'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (Orta Kronoloji) (Edzard iki dizi: 1880-1845 OK / 1816-1781 düşük) · Kiş tekrar tekrar bağımsız: tek sürekli devlet DEĞİL · SKL Kiş I hanedanı mitolojik, dayanak değil · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Enmebaragesi 'about 2700' = kral floruit; gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Sumu-la-El saltanatı (1880–1845) içinde ilhak ⇒ sınır; gerçek uç ÖLÇÜLEMEDİ · f ARALIK/YÖN DÜZELTME (D206 tanık hâli): -2700 → -2700 ÜST SINIR — Enmebaragesi c.2700 İLK tanıklık ⇒ f ≤ ~2700 ÜST sınır; ALT etiketliydi (yön hatası, aralık değil) · t ARALIK/YÖN DÜZELTME (D206 tanık hâli): -1880 → -1845 ÜST SINIR — ilhak Sumu-la-El saltanatı (1880–1845) İÇİNDE ⇒ güvenli üst sınır 1845; 1880 aralığın alt ucuydu ama ÜST etiketliydi"
   },
   {
@@ -58,6 +74,10 @@
    "kesinlik": "onyil",
    "baskent": "Akkad/Agade (konumu BİLİNMİYOR)",
    "kaynak": "Britannica Sargon (Dalley) 'c. 2334–2279' · Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Shar-kali-sharri (c. 2217–c. 2193) … the dynasty went under'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (Orta Kronoloji) · f alternatifleri Met 2340 / AMGG 2323 ⑥ · t = Şar-kali-şarri'nin ölümü; dönem sonu c. 2150 (Met) · 2154 KAYNAKSIZ, yazılmadı · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Sargon 'reigned c. 2334–2279' = kurucu saltanat başı; gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Şar-kali-şarri saltanat sonu; hanedan Dudu/Šu-Turul ile SÜRDÜ (S1); gerçek uç ÖLÇÜLEMEDİ · t ARALIK/YÖN DÜZELTME (D206 tanık hâli): -2193 → -2193 ALT SINIR — hanedan Şar-kali-şarri SONRASI sürdü (Dudu, Šu-Turul — S1) ⇒ t ≥ 2193 ALT; ÜST etiketliydi (yön hatası)"
   },
   {
@@ -70,6 +90,10 @@
    "kesinlik": "yuzyil",
    "baskent": "yok (kanıtlanmış başkent YOK)",
    "kaynak": "Britannica Lagash 'from about 2230 to about 2130' · RlA 3 s.708 Hallo https://publikationen.badw.de/de/rla/a/3.725.jpg (SKL Gut listesi 'negligible')",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "SINIR"
+   },
    "ic_not": "f: OLAY · t: SALTANAT · OK (çıkarım: sayılar OK'ye uyuyor) · gevşek hegemonya: katı toprak değil örtü olarak çizilmeli · t = Utu-hegal zaferi · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Utu-hegal saltanatından (c. 2116) türetilmiş; gerçek uç ÖLÇÜLEMEDİ · t ARALIK/YÖN DÜZELTME (D206 tanık hâli): -2116 → -2110 ÜST SINIR — Utu-hegal saltanatı (c.2116–2110) İÇİNDE ⇒ güvenli üst 2110; 2116 ÜST etiketliydi"
   },
   {
@@ -82,6 +106,10 @@
    "kesinlik": "yil",
    "baskent": "Ur",
    "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'c. 2112–c. 2004' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html · Met Heilbrunn 'List of Rulers of Mesopotamia' https://www.metmuseum.org/toah/hd/meru/hd_meru.htm",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · OK (Orta Kronoloji)"
   },
   {
@@ -94,6 +122,10 @@
    "kesinlik": "yil",
    "baskent": "İsin",
    "kaynak": "Britannica Isin 'about 2017 … About 1794 Isin lost its independence' · RlA 5 s.181 Edzard",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · OK (çıkarım: sayılar OK'ye uyuyor) · t ⑥: Renger (Britannica Hammurabi) Rim-Sin İsin'i c. 1792'de aldı"
   },
   {
@@ -106,6 +138,10 @@
    "kesinlik": "yil",
    "baskent": "Larsa",
    "kaynak": "Britannica Larsa 'Naplanum (c. 2025–c. 2005) … Hammurabi … defeated Rim-Sin in 1763' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "OLAY"
+   },
    "ic_not": "f: SALTANAT · t: OLAY · OK (çıkarım: sayılar OK'ye uyuyor) · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Naplanum saltanatı (c. 2025–c. 2005); gerçek uç ÖLÇÜLEMEDİ"
   },
   {
@@ -118,6 +154,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Mari (Tell Hariri)",
    "kaynak": "RlA 7 s.383 Kupper https://publikationen.badw.de/de/rla/a/7.416.jpg 'la lignée des šakkanakku se poursuivit encore pendant près d'un siècle'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · yıl YOK — Ur III dönemi → ~1 yüzyıl sonrası · f ⑤: ÜST SINIR (en geç) — Apil-kīn Ur-Namma (2112–2095) çağında 'Mari kralı', kızı Tarām-Uram Ur-Namma'nın oğluyla evli (RlA 7 s.384 Kupper; Boese–Sallaberger AoF 23 1996); Drehem Mari elçileri Š46–ŠS6 (2049–2032) yıl adlı; gerçek doğuş ÖLÇÜLEMEDİ · t ⑤: ALT SINIR (en erken) — BIN 9 384 Išbi-Erra (2017–1985) döneminde Mari habercileri; RlA 'Ur III sonrası ~bir yüzyıl' ölçü DEĞİL; gerçek son ÖLÇÜLEMEDİ · t ARALIK/YÖN DÜZELTME (D206 tanık hâli): -1985 → -2017 ALT SINIR — tanıklık Išbi-Erra saltanatı (2017–1985) İÇİNDE ⇒ güvenli alt sınır 2017 (tanık 2017 de olabilir); 1985 ALT etiketliydi"
   },
   {
@@ -130,6 +170,10 @@
    "kesinlik": "onyil",
    "baskent": "Mari (Tell Hariri)",
    "kaynak": "RlA 7 s.383 Kupper 'accession … de Jaḫdun-Lim, vers 1820' · Britannica Hammurabi (Renger) 'in 1761 bce against … Zimrilim'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "OLAY"
+   },
    "ic_not": "f: SALTANAT · t: OLAY · OK (çıkarım: sayılar OK'ye uyuyor) · ARA: Şamşi-Adad'ın oğlu Yasmah-Addu dönemi (c. 1800-1776) Lim hanedanını kesti ⇒ çok aralıklı · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Yahdun-Lim'in tahta çıkışı 'vers 1820'; gerçek uç ÖLÇÜLEMEDİ",
    "_suzeren_ozet": "elam-sukkalmah"
   },
@@ -143,6 +187,10 @@
    "kesinlik": "onyil",
    "baskent": "bulunamadı",
    "kaynak": "RlA 8 s.6 Brinkman 'Meerland' https://publikationen.badw.de/de/rla/a/8.35.jpg '§ 1. First Sealand Dynasty, c. 1740–1475'",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · OK (çıkarım: sayılar OK'ye uyuyor)"
   },
   {
@@ -155,6 +203,10 @@
    "kesinlik": "onyil",
    "baskent": "Asur",
    "kaynak": "Met (Highcock) 'Puzur-Ashur I (r. ca. 2025–1950 B.C.) … Shamshi-Adad I captured Ashur in 1808/1807 B.C.' https://www.metmuseum.org/toah/hd/assy_2/hd_assy_2.htm",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "OLAY"
+   },
    "ic_not": "f: SALTANAT · t: OLAY · OK (Orta Kronoloji) · Şamşi-Adad sonrası yerli hanedan geri döndü ⇒ ikinci aralık (çok aralıklı) · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Puzur-Aššur I 'r. ca. 2025–1950'; gerçek uç ÖLÇÜLEMEDİ",
    "_suzeren_ozet": "mitanni"
   },
@@ -168,6 +220,10 @@
    "kesinlik": "yil",
    "baskent": "Šubat-Enlil (DOĞRULANMADI) · Asur · Ekallatum",
    "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Samsī-Addu I (ca. 1808-1776 BC)'",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "SINIR"
+   },
    "ic_not": "f: OLAY · t: SALTANAT · OK (Orta Kronoloji) · Met saltanatı 1813–1781 ⑥ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Şamşi-Adad'ın ölümü (saltanat sonu 1776); gerçek uç ÖLÇÜLEMEDİ"
   },
   {
@@ -180,6 +236,10 @@
    "kesinlik": "onyil",
    "baskent": "bulunamadı (Isin ile 'ilişki' — Brinkman §1 tam okunmadı)",
    "kaynak": "RlA 5 s.183 Brinkman https://publikationen.badw.de/de/rla/a/5.216.jpg 'ruled Babylonia ca. 1157—1026'",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · OK (Orta Kronoloji) · Met 1155 ⇒ Kassit ile ~2 yıl örtüşme ⑥"
   },
   {
@@ -192,6 +252,10 @@
    "kesinlik": "yil",
    "baskent": "bulunamadı",
    "kaynak": "RlA 8 s.6 Brinkman '§ 3. Second Sealand Dynasty, 1025–1005'",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · OK (çıkarım: sayılar OK'ye uyuyor)"
   },
   {
@@ -204,6 +268,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Waššukanni (KONUMU BİLİNMİYOR)",
    "kaynak": "RlA 8 s.286 Wilhelm https://publikationen.badw.de/de/rla/a/8.317.jpg 'bezeugt von ca. 1500 bis ins 13 Jh.' · s.294 https://publikationen.badw.de/de/rla/a/8.326.jpg (Šuppiluliuma I + Aššur-uballiṭ I)",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (çıkarım: sayılar OK'ye uyuyor) · t c. 1360 yalnız imzasız Britannica (Tushratta ö. c. 1360) ⇒ yüzyıl; ardıl Ḫanigalbat 13. yy · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — 'bezeugt von ca. 1500' = İLK TANIKLIK ⇒ alt sınır (saltanat değil tanıklık; sınır verir); gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Tušratta 'died c. 1360' (imzasız Britannica) = saltanat sonu; gerçek uç ÖLÇÜLEMEDİ · f ARALIK/YÖN DÜZELTME (D206 tanık hâli): -1500 → -1500 ÜST SINIR — \"bezeugt von ca. 1500\" İLK tanıklık ⇒ f ≤ 1500 ÜST; ALT etiketliydi (yön hatası)"
   },
   {
@@ -212,11 +280,31 @@
    "tur": "krallik",
    "bolge": "mezopotamya",
    "f": "-1352-01-01",
-   "t": "-0911-01-01",
+   "t": "-0910-01-01",
    "kesinlik": "yil",
    "baskent": "Asur; Kar-Tukulti-Ninurta",
    "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Aššur-uballiṭ I (1353-1318 BC) … Aššur-dān II (934-912 BC)'",
-   "ic_not": "f: SALTANAT · t: SALTANAT · OK çerçevesi · Frahm 2017 (RIAo) · Met Aššur-uballiṭ I 1365–1330 ⑥ (±12 yıl) · t = kral listesinden (Adad-nārārī II 911) · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Aššur-uballiṭ I saltanatı 1353 (RIAo krallık başı 1363 — S11); gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Aššur-dān II saltanat sonu 912; gerçek uç ÖLÇÜLEMEDİ"
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
+   "ic_not": "f: SALTANAT · t: SALTANAT · OK çerçevesi · Frahm 2017 (RIAo) · Met Aššur-uballiṭ I 1365–1330 ⑥ (±12 yıl) · t = kral listesinden (Adad-nārārī II 911) · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Aššur-uballiṭ I saltanatı 1353 (RIAo krallık başı 1363 — S11); gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Aššur-dān II saltanat sonu 912; gerçek uç ÖLÇÜLEMEDİ · t DÜZELTME: -912-01-01 → -911-01-01. Aššur-dān II saltanatı 912 DAHİL biter ⇒ uç 911 başı; eski yazım 912 yılını dışarıda bırakıp yeni-asur ile 1 YIL boşluk açıyordu (künye sınırı bitişik olmalı)"
+  },
+  {
+   "id": "yeni-asur",
+   "ad": "Yeni Asur İmparatorluğu",
+   "tur": "imparatorluk",
+   "bolge": "mezopotamya",
+   "f": "-0910-01-01",
+   "t": "-0608-01-01",
+   "kesinlik": "yil",
+   "baskent": "Asur → Kalhu → Dur-Şarrukin → Ninova → Harran",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Adad-nārārī II (911-891 BC) … Aššur-uballiṭ II (611–609 BC)' · RlA 9 s.14 Brinkman 'Nabopolassar' https://publikationen.badw.de/de/rla/a/9.41.jpg 'this is the last mention of Assyrian involvement in a military action' (609)",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "OLAY"
+   },
+   "ic_not": "f: SALTANAT · t: OLAY · mutlak (eponim/kronik) · 612 Ninova düştü, 610 Harran terk · f: kaynak değeri -911-01-01 bir DÖNEM/KONVANSİYON sınırı (911 = kronolojinin güvenle uzatılabildiği yıl (Met) / dönem başı — KONVANSİYON) — tarih olarak da sınır olarak da YAZILMADI · ③ → ② YENİDEN TİPLEME (koordinatör hipotezi, ölçüldü): \"Yeni Asur\" bir DÖNEM ADIDIR (konvansiyon) ama 911 bir SALTANAT BAŞIDIR — RIAo \"Adad-nārārī II (911-891 BC)\", eponim listesiyle mutlak. Tipleme dönemin ETİKETİNİ tarihin KENDİ TANIĞIYLA karıştırmıştı. f = Adad-nārārī II tahta çıkışı (kurucu saltanat başı; akkad f ve orta-asur f ile AYNI tip). ① DEĞİL: tahta çıkışın günü/olayı tanıklı değil, yalnız saltanat listesindeki yıl."
   },
   {
    "id": "yeni-babil",
@@ -231,6 +319,10 @@
    },
    "baskent": "Babil",
    "kaynak": "RlA 9 s.12-13 Brinkman 'Nabopolassar' https://publikationen.badw.de/de/rla/a/9.39.jpg 'came to the throne in Babylon on VIII-26-626 (= Nov. 23, 626 in the Julian calendar)' · Met Babylon (Seymour) 'in 539 B.C., Cyrus II of Persia conquered the city'",
+   "uc_turu": {
+    "f": "OLAY",
+    "t": "OLAY"
+   },
    "ic_not": "f: OLAY · t: OLAY · mutlak (eponim/kronik) · resmî sayım 625'ten · Jülyen gün kaynakta verili · 'Keldani' adı yanıltıcı (Brinkman)"
   },
   {
@@ -243,6 +335,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Susa + Anşan",
    "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Epartid or sukkalmah dynasty (ca. 1970-1600 B.C.E.)'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (Orta Kronoloji) · 1600-1500 arası kaynaksız BOŞLUK · f: kaynak değeri -1970-01-01 bir DÖNEM/KONVANSİYON sınırı (Vallat başlığı 'ca. 1970-1600') — tarih olarak da sınır olarak da YAZILMADI · t: kaynak değeri -1600-01-01 bir DÖNEM/KONVANSİYON sınırı (aynı) — tarih olarak da sınır olarak da YAZILMADI · f ⑤: ALT SINIR, OLAYDAN türetilmiş — Vallat, Iranica ELAM i GÖVDE (Wayback 2023id_): 'brought an end to the empire of Ur in 2004 … annexed Susiana, where the Epartid, or sukkalmah, dynasty was founded by the ninth king of Simaški'; kuruluş 2004'ten SONRA, yılı ÖLÇÜLEMEDİ · t ⑤: ALT SINIR — Vallat, Iranica ELAM i GÖVDE (Wayback 2023id_): 'Kuk-Našur II, a contemporary of Ammiṣaduqa, king of Babylon (1646-26)'; ardından 'a break'; gerçek son ÖLÇÜLEMEDİ"
   },
   {
@@ -255,6 +351,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Susa; Anşan; Çoğa Zanbil",
    "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Middle Elamite period (ca. 1500-1100 B.C.E.)'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (Orta Kronoloji) · alt hanedanlar: Kidinuid 1500-1400 · İgihalkid 1400-1210 · Şutrukid 1210-1100 · f: kaynak değeri -1500-01-01 bir DÖNEM/KONVANSİYON sınırı (Vallat 'Middle Elamite period (ca. 1500-1100)') — tarih olarak da sınır olarak da YAZILMADI · t: kaynak değeri -1100-01-01 bir DÖNEM/KONVANSİYON sınırı (aynı) — tarih olarak da sınır olarak da YAZILMADI · f ⑤: ÜST SINIR (en geç) — Haft Tepe tableti Tepti-ahar ↔ Kadašman-Enlil I (c.1374–1360) (Iranica HAFT TEPE); 1500 dönem başlığı yazılmadı · t ⑤: SALTANATLA SINIRLI OLAY — Vallat, Iranica ELAM i GÖVDE (Wayback 2023id_): 'Hutelutuš-Inšušinak had to abandon Susa briefly to Nebuchadnezzar (1125-04) … Elamite power faded'; Nebukadnezar I kudurrusu BM 90858 I 41-43 'he captured the land of Elam'; yıl 1125–1104 arası, Iranica ANSHAN ~1110"
   },
   {
@@ -267,6 +367,10 @@
    "kesinlik": "yuzyil",
    "baskent": "Susa; Madaktu",
    "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Neo-Elamite Period (1100-539 B.C.E.)' · 'Neo-Elamite III (646-539?B.C.E.)'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · OK (Orta Kronoloji) (f) / mutlak (eponim/kronik) (646) · 646 Susa yağması SON DEĞİL: Yeni Elam III küçülmüş olarak 539?'a dek · 539 '?' ⇒ ⑥ · f: kaynak değeri -1100-01-01 bir DÖNEM/KONVANSİYON sınırı (Vallat 'Neo-Elamite Period (1100-539)') — tarih olarak da sınır olarak da YAZILMADI · t: BELİRSİZ — 'conquest of Susiana … perhaps by Cyrus in 539' — 'perhaps' + tek tanık ⇒ BELİRSİZ (539 Babil'in düşüşü değil, Susiana'nın fethi; ama kesin değil); aralık __BOSLUK__ bırakılır (zorla kapatılmaz) · f ⑤: ALT SINIR — Orta Elam'ın sonu olan I. Nebukadnezar olayı (1125–1104) ⇒ Yeni Elam bundan SONRA; 1100 dönem başlığı yazılmadı · t ⑤: ALT SINIR, OLAYDAN — Asurbanipal Susa yağması 646 (Prism A, ORACC) sonrası krallık 'rose from the ashes' (Vallat, Iranica ELAM i GÖVDE (Wayback 2023id_)); üst uç BELİRSİZ ('perhaps by Cyrus in 539') — kapatılmadı",
    "_suzeren_ozet": "yeni-asur"
   },
@@ -280,6 +384,10 @@
    "kesinlik": "yuzyil",
    "baskent": "bulunamadı ('Laqû' adlı kent yok)",
    "kaynak": "RlA 6 s.492 Postgate https://publikationen.badw.de/de/rla/a/6.527.jpg 'first attested in the reign of Adad-nirari II (911–891) and incorporated into the Assyrian provincial system by the reign of Adad-nirari III (810–783)—and probably earlier'",
+   "uc_turu": {
+    "f": "SINIR",
+    "t": "SINIR"
+   },
    "ic_not": "f: SALTANAT · t: SALTANAT · mutlak (eponim/kronik) · f/t SALTANAT SINIRLARI (ilk anılış / en geç ilhak) — üst/alt sınır · f: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ALT SINIR — Adad-nārārī II saltanatında (911–891) İLK anılış ⇒ alt sınır; gerçek uç ÖLÇÜLEMEDİ · t: SALTANATTAN/TANIKLIKTAN TÜRETİLMİŞ ÜST SINIR — Adad-nārārī III saltanatına (810–783) dek ilhak ⇒ üst sınır; gerçek uç ÖLÇÜLEMEDİ · LAQE YENİDEN OKUMA (KASA kendi okudu, RlA 6 s.492-494 Postgate, sayfa görüntüleri 6.527/6.528/6.529.jpg): -810 bir OLAY DEĞİL, ② SINIR — ve POLITY'yi değil BÖLGE ADINI tarihliyor: \"In the 8th century L. is mentioned as part of the provincial holdings of Palil-ēreš, between Sirqu and Ḫindānu … (Iraq 30 [1968] 142:13)\" ⇒ AD VAR, POLITY YOK. Eski t=-810 yön hatası: tanık Adad-nārārī III saltanatının (810–783) HERHANGİ bir yılında olabilir ⇒ güvenli ÜST sınır -783, -810 değil. -810 iç nota geçti. Aššurnaṣirpal II ile eyaletleşme (≤859) RlA'ca DESTEKLENMİYOR: \"presumably therefore this was not a very successful campaign, although it did not prevent Aššur-naṣir-apli from including the land of L. in its entirety among his conquests in his standard inscriptions\" ⇒ kraliyet İDDİASI, eyaletleşme değil. §3: \"The land of L. was never under one ruler, and was at best a loose confederation of Aramaean sheikhs\" ⇒ tür \"emirlik\" şüpheli: tek polity değil KONFEDERASYON (ÖLÇÜLMEDİ, koordinatöre). · f ARALIK/YÖN DÜZELTME (D206 tanık hâli): -911- → -891- ÜST SINIR — İLK anılış Adad-nārārī II saltanatında (911–891) ⇒ f ≤ 891 (ÜST); -911 ALT etiketliydi — ilk tanıklık var olmanın EN GEÇ tarihini verir · KOORDİNATÖR HÜKMÜ: konfederasyon BOYANIR (19/21 emsal boyalı); ic_not AYNEN: \"The land of L. was never under one ruler, and was at best a loose confederation of Aramaean sheikhs\" (RlA 6 s.494 Postgate) · MENZİL ŞARTI: toprak yalnız üyelerin attested olduğu yere kadar (Sirqu, Ṣupru, Aqarbani, Kipina, Sūru/Bīt-Ḫalupê — RlA 6 s.493 tablosu)",
    "_suzeren_ozet": "yeni-asur"
   }
@@ -287,92 +395,136 @@
  "v_dilimleri": {
   "babil-ara": [
    {
-    "f": "-0727-01-01",
-    "t": "-0726-01-01",
+    "f": "-0728-01-01",
+    "t": "-0725-01-01",
     "d": "yeni-asur",
     "k": "v:asur-cifte",
+    "uc_turu": {
+     "f": "OLAY",
+     "t": "İÇ"
+    },
     "kaynak": "L1 ABC 1 i.23-26: 'Tiglath-pileser ascended the throne in Babylon. The second year: [727/726.] Tiglath-pileser went to his destiny in the month Tebêtu. For <eighteen> years Tiglath-pileser ruled Akkad and Assyria. For two of these years he ruled in Akkad.' + RlA 7.408: 'Assyria gained control of the",
-    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Tiglath-pileser III (Pulu) · Died in Tebetu of 727/726."
+    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Tiglath-pileser III (Pulu) · Died in Tebetu of 727/726. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: 729 ① ABC 1 i.19-23 TP III Babil'i aldı (resmî 1. yıl 728 ③) · t: iç sınır (aynı suzeren)"
    },
    {
     "f": "-0725-01-01",
-    "t": "-0721-01-01",
+    "t": "-0720-01-01",
     "d": "yeni-asur",
     "k": "v:asur-cifte",
+    "uc_turu": {
+     "f": "İÇ",
+     "t": "OLAY"
+    },
     "kaynak": "L1 ABC 1 i.27-30: 'On the twenty-fifth of the month Tebêtu, Šalmaneser in Assyria and Akkad ascended the throne. ... The fifth year: [722/721.] Šalmaneser went to his destiny in the month Tebêtu. For five years Šalmaneser ruled Akkad and Assyria.'",
-    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Shalmaneser V (Ululayu)"
+    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Shalmaneser V (Ululayu) · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): t: 721 ① ABC 1 i.31-32 Marduk-apla-iddina II Nisannu 721 tahta ⇒ dahil son yıl 722"
    },
    {
-    "f": "-0708-01-01",
-    "t": "-0704-01-01",
+    "f": "-0709-01-01",
+    "t": "-0703-01-01",
     "d": "yeni-asur",
     "k": "v:asur-cifte",
+    "uc_turu": {
+     "f": "OLAY",
+     "t": "İÇ"
+    },
     "kaynak": "L2 ABC 1 ii.5: 'Sargon ascended the throne in Babylon.' + L1B ABC 1B ii.15'-20': 'The thirteenth year: [709/708] Sargon took Bêl's hand. ... The seventeenth year: [705/704] Sargon marched to Tabalu.'",
-    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Sargon II · The Canon gives Arkeanos (Sargon) 709-704 (6 years) and absorbs Sennacherib's 704."
+    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Sargon II · The Canon gives Arkeanos (Sargon) 709-704 (6 years) and absorbs Sennacherib's 704. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: 710 ① ABC 1 ii.1-5 Sargon Babil'i aldı (resmî 709 ③)"
    },
    {
     "f": "-0703-01-01",
     "t": "-0702-01-01",
     "d": "yeni-asur",
     "k": "v:asur-cifte",
+    "uc_turu": {
+     "f": "İÇ",
+     "t": "OLAY"
+    },
     "kaynak": "L2 ABC 1 ii.6-11: 'The first year of Sennacherib [704/703.] [...] Marduk-apla-iddina [...] [too broken]' + RlA 7.408: 'Sennacherib* (704–681) had succeeded Sargon on the Assyrian and Babylonian thrones'",
-    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Sennacherib (1st Babylonian reign) · The chronicle text is broken here. PB gives 'Sennacherib (704–703)'. The Canon gives 704-703 as 'Without kings'."
+    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Sennacherib (1st Babylonian reign) · The chronicle text is broken here. PB gives 'Sennacherib (704–703)'. The Canon gives 704-703 as 'Without kings'. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): t: 703 ① ABC 1 ii.12-13 Marduk-zākir-šumi II / MAI ayaklanması"
    },
    {
     "f": "-0701-01-01",
     "t": "-0699-01-01",
     "d": "yeni-asur",
     "k": "v:asur-tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "OLAY"
+    },
     "kaynak": "L2 ABC 1 ii.23-29: 'When he withdrew, Sennacherib put Bêl-ibni on the throne in Babylon. ... The third year of Bêl-ibni: [700/699.] Sennacherib, to Akkad he went down and plundered Akkad. He led away to Assyria Bêl-ibni and his officers. For three years Bêl-ibni ruled Babylon.'",
-    "ic_not": "v:asur-tabi — Bel-ibni · Installed by Sennacherib and removed by him in 700."
+    "ic_not": "v:asur-tabi — Bel-ibni · Installed by Sennacherib and removed by him in 700. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: Bel-ibni 703'te tahta (① ABC 1 ii.21-23) AMA aynı yıl 703 içinde İKİ geçiş var (Sanherib→bağımsız→Bel-ibni); yıl çözünürlüğünde sıfır uzunluk YASAK ⇒ 702'ye konuldu, SINIR beyanlı · t: 700 ① ABC 1 ii.29 Bel-ibni götürüldü"
    },
    {
-    "f": "-0698-01-01",
+    "f": "-0699-01-01",
     "t": "-0693-01-01",
     "d": "yeni-asur",
     "k": "v:asur-tabi",
+    "uc_turu": {
+     "f": "OLAY",
+     "t": "OLAY"
+    },
     "kaynak": "L2 ABC 1 ii.30-31, ii.42-43: 'Sennacherib, Aššur-nadin-šumi, his son, he put on the throne in Babylon.' ... 'Aššur-nadin-šumni was taken prisoner and transported to Elam. For six years, Aššur-nadin-šumni ruled Babylon.'",
-    "ic_not": "v:asur-tabi — Aššur-nadin-šumi · 694 is KARMA: Elam entered Sippar 'at the end of the month Tašrîtu' (ii.40) and installed Nergal-ušezib in 694 (RlA 9.255: 'during the Elamite campaign of 694')."
+    "ic_not": "v:asur-tabi — Aššur-nadin-šumi · 694 is KARMA: Elam entered Sippar 'at the end of the month Tašrîtu' (ii.40) and installed Nergal-ušezib in 694 (RlA 9.255: 'during the Elamite campaign of 694'). · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: 700 ① (Aššur-nadin-šumi atandı, ABC 1 ii.29-31) · t: 694 ① ABC 1 ii.36-45 Elam Aššur-nadin-šumi'yi aldı"
    },
    {
-    "f": "-0692-01-01",
-    "t": "-0691-01-01",
+    "f": "-0693-01-01",
+    "t": "-0692-01-01",
     "d": "elam-yeni",
     "k": "v:elam-tabi",
+    "uc_turu": {
+     "f": "OLAY",
+     "t": "OLAY"
+    },
     "kaynak": "L2 ABC 1 ii.44-46: 'The king of Elam put Nergal-ušezib in Babylon on the throne. He effected an Assyrian retreat. The first year of Nergal-ušezib: [693/692.]' + L3 ABC 1 iii.4-6: 'He was taken prisoner in the battlefield and transported to Assyria. For one year - precisely: six months - Nergal-ušezi",
-    "ic_not": "v:elam — Nergal-ušezib · KARMA: captured 7 Tašrîtu 693 (L3 iii.3). Mušezib-Marduk then took the throne 'in the latter part of 693' (RlA 8.486). PB also lists 'Hallušu-Inšušinak (693–692)' as a dating authority in Babylonia, which supports the Elamite link."
+    "ic_not": "v:elam — Nergal-ušezib · KARMA: captured 7 Tašrîtu 693 (L3 iii.3). Mušezib-Marduk then took the throne 'in the latter part of 693' (RlA 8.486). PB also lists 'Hallušu-Inšušinak (693–692)' as a dating authority in Babylonia, which supports the Elamite link. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: 694 ① Elam Nergal-ušezib'i tahta çıkardı · t: 693 ① ABC 1 iii.1-12 Nergal-ušezib yakalandı (7 Tašrîtu)"
    },
    {
     "f": "-0679-01-01",
-    "t": "-0668-01-01",
+    "t": "-0667-01-01",
     "d": "yeni-asur",
     "k": "v:asur-cifte",
+    "uc_turu": {
+     "f": "OLAY",
+     "t": "İÇ"
+    },
     "kaynak": "L14 ABC 14 1 (restored in brackets on Livius), 31-33: '[ The first year of the reign of Esarhaddon, [680/679 BCE.]' ... 'The twelfth year: [669/668.] The king of Assyria marched to Egypt but became ill on the way and died on the tenth day of the month Arahsamna. For twelve years Esarhaddon ruled Ass",
-    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Esarhaddon · ABC 1 iii.38 says only 'ascended the throne in Assyria'. The personal union rests on the chronicles using his regnal years for Babylonian dating, on Frame's title, and on the Canon. He died 10 Arahsamnu 669. The Canon gives him 13 years (to 668) and absorbs Šamaš-šuma-ukin's accession year."
+    "ic_not": "ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN. · v:asur-cifte — Esarhaddon · ABC 1 iii.38 says only 'ascended the throne in Assyria'. The personal union rests on the chronicles using his regnal years for Babylonian dating, on Frame's title, and on the Canon. He died 10 Arahsamnu 669. The Canon gives him 13 years (to 668) and absorbs Šamaš-šuma-ukin's accession year. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: 680 ① Esarhaddon tahta (18 Ad"
    },
    {
     "f": "-0667-01-01",
-    "t": "-0652-01-01",
+    "t": "-0651-01-01",
     "d": "yeni-asur",
     "k": "v:asur-tabi",
+    "uc_turu": {
+     "f": "İÇ",
+     "t": "OLAY"
+    },
     "kaynak": "L14 ABC 14 38-39: 'The accession year of Šamaš-šuma-ukin: [668/667.] In the month Ajaru Bêl and the gods of Akkad went out from Aššur ...' + RlA 11.670 (Frame): 'it was not until the second month of the following year that Š. escorted the statue of the god Marduk back to Babylonia from Assyria and a",
-    "ic_not": "v:asur-tabi — Šamaš-šuma-ukin (loyal phase; accession yr 668 + yrs 1-15) · Accession year 668 (Ajaru 668) is included here. PB also lists 'Assurbanipal (668–627)' as a separate dating authority (e.g. Nippur), which confirms Assyrian overlordship."
+    "ic_not": "v:asur-tabi — Šamaš-šuma-ukin (loyal phase; accession yr 668 + yrs 1-15) · Accession year 668 (Ajaru 668) is included here. PB also lists 'Assurbanipal (668–627)' as a separate dating authority (e.g. Nippur), which confirms Assyrian overlordship. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): t: 652 ① ABC 16 9-11 + Frame \"rebellion began early in 652\""
    },
    {
     "f": "-0646-01-01",
-    "t": "-0626-01-01",
+    "t": "-0625-01-01",
     "d": "yeni-asur",
     "k": "v:asur-tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "RlA 5.403 (Brinkman): 'Kandalānu. King of Babylonia, 647—627 B. C. K. was appointed to the Babylonian throne by Ashurbanipal probably within a year after the suppression of the revolt of Šamaš-šum-ukīn (667—648). He served as a dependent monarch under Assyrian suzerainty until his own death' + LUKL ",
-    "ic_not": "v:asur-tabi — Kandalanu · Brinkman calls the Kandalanu = Ashurbanipal identification 'unlikely'. Nippur kept dating by Ashurbanipal 651 to at least 631 (RlA 5.403). 627 is KARMA: 'K. died in 627, perhaps sometime between Ajjaru and Araḫsamnu'. The Canon gives 'Kineladanos 22 647-626' and absorbs 626."
+    "ic_not": "v:asur-tabi — Kandalanu · Brinkman calls the Kandalanu = Ashurbanipal identification 'unlikely'. Nippur kept dating by Ashurbanipal 651 to at least 631 (RlA 5.403). 627 is KARMA: 'K. died in 627, perhaps sometime between Ajjaru and Araḫsamnu'. The Canon gives 'Kineladanos 22 647-626' and absorbs 626. · OLAY YILI DÜZELTMESİ (koordinatör hükmü: resmî yıl ③ konvansiyon): f: 647 Kandalanu resmî 1. yıl ③ — Babil'in düşüşü (648) kronikte YOK (ABC 15 yalnız 650 kuşatması) ⇒ olay yılı ① DEĞİL · t: 627 ölümü Uruk Kral Listesi 21 yılından TÜRETİLMİŞ (②; Brinkman \"perhaps sometime between Ajjaru and Araḫ"
    }
   ],
   "patina": [
    {
     "f": "-0856-01-01",
-    "t": "-0830-01-01",
+    "t": "-0829-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Qalparunda haracı 857, 853, 848 + 831 Sasi atanması (gaspçı aynı yıl giderildi) — 4 sabit yıllı tanık · uçlar ÖLÇÜLEMEDİ: dilim YALNIZ ilk ve son tanık arası (gerçek başlangıç/bitiş daha geniş olabilir) · 831–738 tanıksız; 738 isyan + ilhak ayrı"
    }
@@ -380,9 +532,13 @@
   "samal": [
    {
     "f": "-0856-01-01",
-    "t": "-0852-01-01",
+    "t": "-0851-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Haiianu \"I receive (it) annually\" 857 + 853 — 2 tanık · uçlar ÖLÇÜLEMEDİ: dilim YALNIZ ilk ve son tanık arası (gerçek başlangıç/bitiş daha geniş olabilir) · 853–738 arası beş saltanatta tanık YOK ⇒ boşluk DÜZLENMEDİ"
    },
@@ -391,6 +547,10 @@
     "t": "-0736-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Panammû Tiglat-pileser III haraç listesinde · TEK TANIKLI YIL — yalnız bu yıl tanıklı, öncesi/sonrası ÖLÇÜLEMEDİ; sıfır uzunluk YASAK olduğu için 1 YIL dilim (Tebriz kuralı); kullanıcıya titreyerek görünür ⇒ BEYAN"
    }
@@ -398,9 +558,13 @@
   "kummuh": [
    {
     "f": "-0865-01-01",
-    "t": "-0852-01-01",
+    "t": "-0851-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Qatazili haracı 866 (eponim Šamaš-nūrī), 858, 857, 853 — 4 tanık · uçlar ÖLÇÜLEMEDİ: dilim YALNIZ ilk ve son tanık arası (gerçek başlangıç/bitiş daha geniş olabilir) · Pazarcık ön yüzü (805, konvansiyonel ②, \"haraç\" kelimesi yok) SAYILMADI"
    },
@@ -409,6 +573,10 @@
     "t": "-0771-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Pazarcık arka yüzü (Grayson 773) · TEK TANIKLI YIL — yalnız bu yıl tanıklı, öncesi/sonrası ÖLÇÜLEMEDİ; sıfır uzunluk YASAK olduğu için 1 YIL dilim (Tebriz kuralı); kullanıcıya titreyerek görünür ⇒ BEYAN"
    },
@@ -417,6 +585,10 @@
     "t": "-0736-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Tiglat-pileser III haraç listesi · TEK TANIKLI YIL — yalnız bu yıl tanıklı, öncesi/sonrası ÖLÇÜLEMEDİ; sıfır uzunluk YASAK olduğu için 1 YIL dilim (Tebriz kuralı); kullanıcıya titreyerek görünür ⇒ BEYAN · ⚠️ 743 Urartu koalisyonu (yalnız özet metin 47) KESİNTİ adayı ⇒ 773 ile 738 BİRLEŞTİRİLMEDİ"
    }
@@ -424,9 +596,13 @@
   "qatnu": [
    {
     "f": "-0893-01-01",
-    "t": "-0877-01-01",
+    "t": "-0876-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Amīl-Adad \"my vassal\" 894 + haraç 885, 883 (±1), 878 — 4 tanık · uçlar ÖLÇÜLEMEDİ: dilim YALNIZ ilk ve son tanık arası (gerçek başlangıç/bitiş daha geniş olabilir) · ≥797 Nergal-ēreš eyaleti (②) ⇒ polity sonu"
    }
@@ -434,9 +610,13 @@
   "bit-zamani": [
    {
     "f": "-0885-01-01",
-    "t": "-0878-01-01",
+    "t": "-0877-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: 886 yemin, 882 haraç, 879 vasal öldürüldü → Ilānu YILLIK haraçla atandı (ilişki sürdü) — 3 tanık · uçlar ÖLÇÜLEMEDİ: dilim YALNIZ ilk ve son tanık arası (gerçek başlangıç/bitiş daha geniş olabilir) · 866 Damdammusa kuşatması = İSYAN ⇒ dilim 879'da kesildi"
    }
@@ -447,6 +627,10 @@
     "t": "-0880-01-01",
     "d": "yeni-asur",
     "k": "tabi",
+    "uc_turu": {
+     "f": "SINIR",
+     "t": "SINIR"
+    },
     "kaynak": "KAMP-MEZOPOTAMYA-HARAC-UZAT.md (RIMA 2/3 Grayson OCR, SAAS 2, RINAP 1)",
     "ic_not": "HARAÇ ⓑ TANIK UZATMA: Ilu-ibni haracı Ninova'ya KENDİSİ getirdi · TEK TANIKLI YIL — yalnız bu yıl tanıklı, öncesi/sonrası ÖLÇÜLEMEDİ; sıfır uzunluk YASAK olduğu için 1 YIL dilim (Tebriz kuralı); kullanıcıya titreyerek görünür ⇒ BEYAN · 885 Anat haracı TANIK SAYILMADI (okuyucu saymıştı): 882 metni \"at the time of the kings my fathers the governor of the land Suhu had not come to Assyria\" ⇒ 885 sefer ganimeti (ⓐ, §16) · 878 Kudurru isyanı ⇒ kesinti"
    }
@@ -492,10 +676,6 @@
   [
    "hanigalbat",
    "uç YAZILAMAZ: f=-1360-01-01 (SALTANAT) · t=bulunamadı (YOK) — üç saat kuralı: ③/YOK/TARTIŞMALI tarih de sınır da değildir"
-  ],
-  [
-   "yeni-asur",
-   "uç YAZILAMAZ: f=ÖLÇÜLEMEDİ (DONEM) · t=-609-01-01 (OLAY) — üç saat kuralı: ③/YOK/TARTIŞMALI tarih de sınır da değildir"
   ],
   [
    "elam-avan",

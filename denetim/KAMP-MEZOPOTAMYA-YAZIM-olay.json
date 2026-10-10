@@ -558,17 +558,30 @@
    "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=orta-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
   },
   {
-   "t": "-0911-01-01",
+   "t": "-0910-01-01",
    "k": "siyaset",
    "etiket": [
     "toprak-kayip"
    ],
    "b": "Orta Asur Krallığı — yıkılış / son",
-   "gun": "MÖ 912 (sınır — olay günü DEĞİL)",
+   "gun": "MÖ 911 (sınır — olay günü DEĞİL)",
    "yer": "Asur; Kar-Tukulti-Ninurta",
-   "d": "OK çerçevesi · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "d": "OK çerçevesi · SINIR (saltanattan türetilmiş), olay günü DEĞİL · t 912 → 911 başı (912 dahil biter)",
    "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Aššur-uballiṭ I (1353-1318 BC) … Aššur-dān II (934-912 BC)'",
-   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=orta-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=orta-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0910-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Yeni Asur İmparatorluğu — doğuş",
+   "gun": "MÖ 911 (sınır — olay günü DEĞİL)",
+   "yer": "Asur → Kalhu → Dur-Şarrukin → Ninova → Harran",
+   "d": "mutlak (eponim/kronik) · ③→② yeniden tiplendi: Adad-nārārī II saltanat başı 911 (RIAo)",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Adad-nārārī II (911-891 BC) … Aššur-uballiṭ II (611–609 BC)' · RlA 9 s.14 Brinkman 'Nabopolassar' https://publikationen.badw.de/de/rla/a/9.41.jpg 'this is the last mention of Assyrian involvement in a military action' (609)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
   },
   {
    "t": "-0608-01-01",
@@ -1818,7 +1831,8 @@
    "yer": "Deniz Ülkesi / Ur",
    "d": "[The first year of the reign of Esarhaddon, Nabû-zer-kitti-lišir, governor of the Sealand, having come upstream, set up camp before Ur but did not take the city. He fled before the officers of Assyria and reached Elam. In Elam] the king of Elam [captured and executed him. Es]arhaddon named his brother Na'id-Marduk governor of the Sealand.",
    "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-14-esarhaddon-chronicle/ | ABC 14, 1-5 (ayrıca ABC 1 iii.39-42) | 'Esarhaddon named his brother Na'id-Marduk governor of the Sealand'",
-   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=HAYIR (Asur içi vali değişimi) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=HAYIR (Asur içi vali değişimi) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
   },
   {
    "t": "-0678-01-01",
@@ -3158,6 +3172,33 @@
    "d": "\"On my return (from Damascus) I gave this boundary stone to Uspilulume, king of the Kummuhites.\" (Pazarcık steli arka yüzü, RIMA 3 A.0.105.1; Grayson: \"written in 773 BC\"; eponim kroniği 773 \"to Damascus\") · HARAÇ ≠ DEVİR: HARAC-b — v:asur dilimi KANITI (tanık uzatma, §18); Değişmez 2 ön denetiminde eksik çıktığı için eklendi",
    "kaynak": "https://archive.org/download/AssyrianRulersOfTheEarlyFirstMillenniumBc858-754Bc/ (RIMA 3 OCR, A.0.105.1) · KAMP-MEZOPOTAMYA-HARAC-UZAT.md",
    "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0679-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Esarhaddon Asur tahtına çıktı; Babil krallığını da üstlendi (çifte hükümdarlık)",
+   "gun": "MÖ 680",
+   "yer": "Babil",
+   "d": "ABC 1 iii.38 \"Esarhaddon ascended the throne in Assyria\" (18 Addaru 681/680 ⇒ Mart 680 Jülyen) · ABC 14 \"The first year of the reign of Esarhaddon [680/679]\" · Frame RlA 11 s.670 \"Esarhaddon, king of Assyria and Babylonia\" · ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL (v_tipi v:asur-cifte)",
+   "kaynak": "KAMP-MEZOPOTAMYA-BABIL-DILIM.md (livius ABC 1, ABC 14; RlA 11.670)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0651-01-01",
+   "k": "isyan",
+   "etiket": [
+    "ayaklanma"
+   ],
+   "b": "Šamaš-šuma-ukin Asur'a karşı ayaklandı (Babil bağımsız)",
+   "gun": "MÖ 652",
+   "yer": "Babil",
+   "d": "ABC 16 9-11 \"From the month Ajaru until the month Tebêtu the major-domo conscripted troops in Akkad. On the nineteenth day of the month Tebêtu hostilities began between Assyria and Akkad.\" · Frame RlA 11 s.670 \"The rebellion began early in 652\" · ⚠️ 19 Tebêtu (16. yıl 652/651) Jülyen Ocak 651'e düşebilir; Frame 652 der ⇒ 652 yazıldı, ayrım beyanlı",
+   "kaynak": "KAMP-MEZOPOTAMYA-BABIL-DILIM.md (livius ABC 16; RlA 11.670)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-ara · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
   }
  ],
  "olay_disi": [
@@ -3215,11 +3256,6 @@
    "hanigalbat",
    "Ḫanigalbat (Mitanni artık devleti) — yıkılış",
    "bulunamadı"
-  ],
-  [
-   "yeni-asur",
-   "Yeni Asur İmparatorluğu — doğuş",
-   "ÖLÇÜLEMEDİ"
   ],
   [
    "elam-avan",

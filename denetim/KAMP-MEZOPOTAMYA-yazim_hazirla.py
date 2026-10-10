@@ -55,6 +55,7 @@ for p in POL:
          "tur": TUR.get(p["tur"], "devlet"), "bolge": BOLGE(k),
          "f": astro(p["f"])[0], "t": astro(p["t"])[0], "kesinlik": kes,
          "baskent": p["merkez"], "kaynak": p["kaynak"],
+         "uc_turu": {"f": "OLAY" if tf == "OLAY" else "SINIR", "t": "OLAY" if tt == "OLAY" else "SINIR"},
          "ic_not": ("f: " + tf + " · t: " + tt + " · " + p["not"])[:4000]}
     if p.get("suzeren", "").startswith("YOK") is False and p.get("suzeren"):
         r["_suzeren_ozet"] = p["suzeren"]
@@ -68,12 +69,17 @@ def yil_astro(x):
     return "-%04d-01-01" % (int(m.group(1)) - 1) if m else None
 for z in SUZ:
     if z["v_tipi"] == "ÇÜRÜTÜLDÜ": v_yazilmaz.append((z["kimlik_onerisi"], "ÇÜRÜTÜLDÜ — yazılmaz, kayıt CSV'de kalır")); continue
-    f, t = yil_astro(z["suzeren_f"]), yil_astro(z["suzeren_t"])
+    f = yil_astro(z["suzeren_f"])
+    # suzeren_t DAHİL son yıldır ("857–831" = 831 de tâbi) ⇒ yazım ucu bir SONRAKİ yılın başı.
+    # (İlk sürüm t'yi o yılın BAŞI yazıyordu: son yılı dışarıda bırakıyor, tek yıllık dilimi SIFIR
+    #  uzunluğa düşürüp "1 yıl" yamasına muhtaç ediyordu — kusur yine üreticideydi.)
+    m = re.match(r"^-(\d{1,4})$", (z["suzeren_t"] or "").strip())
+    t = "-%04d-01-01" % (int(m.group(1)) - 2) if m else None
     if not f or not t:
         v_yazilmaz.append((z["kimlik_onerisi"], f"uç sayısal değil (f={z['suzeren_f'][:30]} · t={z['suzeren_t'][:30]}) — ②/③ sınır, dilim YAZILMAZ")); continue
-    if f == t:  # sıfır uzunluk YASAK (Tebriz) ⇒ 1 YIL
-        n = int(t[1:5]); t = "-%04d-01-01" % (n - 1)
-    vdil[z["kimlik_onerisi"]].append({"f": f, "t": t, "d": z["suzeren"], "k": z["v_tipi"], "kaynak": z["kaynak"][:300], "ic_not": z["not"][:600]})
+    vdil[z["kimlik_onerisi"]].append({"f": f, "t": t, "d": z["suzeren"], "k": z["v_tipi"],
+        "uc_turu": {"f": z.get("uc_turu_f") or "BELIRTILMEDI", "t": z.get("uc_turu_t") or "BELIRTILMEDI"},
+        "kaynak": z["kaynak"][:300], "ic_not": z["not"][:600]})
 
 # ── YERLEŞİM ──
 yer = []
@@ -175,21 +181,30 @@ def gun_no(s):
     return y * 372 + (m - 1) * 31 + d  # ±30 gün yaklaşık sınama için yeterli monoton sayaç
 OT = [gun_no(o["t"]) for o in olay]
 def var_mi(t): g = gun_no(t); return any(abs(g - x) <= 30 for x in OT)
-kir = []
+kir = []   # (küme, kimlik, uç, tarih, uc_turu)
 for p in kunye:
-    for u in ("f", "t"): kir.append(("kunye", p["id"], u, p[u]))
+    for u in ("f", "t"): kir.append(("kunye", p["id"], u, p[u], p["uc_turu"][u]))
 # v: — HARİTA kırılması yalnız SUZEREN DEĞİŞTİĞİNDE olur: aynı suzerenin bitişik dilimleri
 # (ör. Tiglat-pileser III + Šalmaneser V, ikisi de yeni-asur) haritada TEK renk ⇒ aradaki sınır kırılma değil.
 for k, L in vdil.items():
     S = sorted(L, key=lambda p: -int(p["f"][1:5]))
     for i, p in enumerate(S):
         onceki = S[i - 1] if i else None; sonraki = S[i + 1] if i + 1 < len(S) else None
-        if not (onceki and onceki["d"] == p["d"] and onceki["t"] == p["f"]): kir.append(("v", k, "f", p["f"]))
-        if not (sonraki and sonraki["d"] == p["d"] and sonraki["f"] == p["t"]): kir.append(("v", k, "t", p["t"]))
+        if not (onceki and onceki["d"] == p["d"] and onceki["t"] == p["f"]): kir.append(("v", k, "f", p["f"], p["uc_turu"]["f"]))
+        if not (sonraki and sonraki["d"] == p["d"] and sonraki["f"] == p["t"]): kir.append(("v", k, "t", p["t"], p["uc_turu"]["t"]))
+KUNYE_UC = {p["id"]: p["uc_turu"] for p in kunye}
 for r in yer:
-    for p in r.get("s", []): kir.append(("yer.s", r["ad"] + "/" + p["d"], "f", p["f"])); kir.append(("yer.s", r["ad"] + "/" + p["d"], "t", p["t"]))
+    for p in r.get("s", []):
+        u = KUNYE_UC.get(p["d"], {"f": "SINIR", "t": "SINIR"})
+        kir.append(("yer.s", r["ad"] + "/" + p["d"], "f", p["f"], u["f"])); kir.append(("yer.s", r["ad"] + "/" + p["d"], "t", p["t"], u["t"]))
 eks = [x for x in kir if not var_mi(x[3])]
-rapor["d_kirilma_toplam"] = len(kir); rapor["d_kronolojisiz"] = eks
+# KOORDİNATÖR HÜKMÜ: istisna `uc_turu`na bağlanır. OLAY tipli uç kronolojisizse KIRAR (AÇIK);
+# SINIR tipli uç ayrı kova "SINIR UÇLU" — tolerans DEĞİL, kendi sayısıyla görünür.
+rapor["d_kirilma_toplam"] = len(kir)
+rapor["d_ACIK_olay_uclu"] = [x for x in eks if x[4] == "OLAY"]
+rapor["d_SINIR_UCLU"] = [x for x in eks if x[4] == "SINIR"]
+rapor["d_tipsiz"] = [x for x in eks if x[4] not in ("OLAY", "SINIR")]
+rapor["d_kronolojisiz"] = eks
 # ⓔ hayalet kimlik
 DV = {d["id"] for d in girdi.oku_devletler()}
 kullanilan = set()
@@ -210,6 +225,8 @@ for r in yer:
     if r["ad"] in YAKIN_AYNI:
         b, d, dos = YAKIN_AYNI[r["ad"]]
         r["_yazim"] = f"YENİ NOKTA AÇMA — mevcut '{b}' ({dos}, {d} km) noktasına MÖ alanları EKLENİR (VERI-YAPISI: 3 km içinde ikinci nokta açma)"
+    elif r["ad"].startswith("Guzana"):
+        r["_yazim"] = "YENİ NOKTA — AYRI KALIR (koordinatör hükmü: Ceylanpınar 2,06 km komşuluk, mükerrer DEĞİL; yakınlık `not`ta beyanlı)"
     elif any(a == r["ad"] for a, *_ in yak):
         r["_yazim"] = "⚠️ 1–3 km arası mevcut nokta var (" + "; ".join(f"{b} {d} km" for a, b, d, _ in yak if a == r["ad"]) + ") — antik höyük ≠ modern kasaba olabilir; YAZICI/KOORDİNATÖR KARARI"
     else:
@@ -224,4 +241,6 @@ print("KÜNYE yazılabilir", len(kunye), "· yazılamaz", len(kunye_disi), "· v
 print("YERLEŞİM", len(yer), "· s: taşıyan", sum(1 for r in yer if r.get("s")), "· bos:veri-yok", sum(1 for r in yer if r.get("bos")))
 print("OLAY", len(olay), "· yazılamaz", len(olay_disi), "· k:", dict(collections.Counter(o["k"] for o in olay)))
 print("ⓐ kaynaksız", len(ka)); print("ⓑ 3km mevcut", len(yak), "· ad eşit mevcut", len(adesit), "· 3km kendi içi", len(ic))
-print("ⓒ dönem kusuru", len(cz)); print("ⓓ kırılma", len(kir), "· kronolojisiz", len(eks)); print("ⓔ hayalet", len(hay), hay)
+print("ⓒ dönem kusuru", len(cz), cz[:6]); print("ⓓ kırılma", len(kir), "· kronolojisiz", len(eks), "= AÇIK (OLAY uçlu)", len(rapor["d_ACIK_olay_uclu"]), "+ SINIR UÇLU", len(rapor["d_SINIR_UCLU"]), "+ tipsiz", len(rapor["d_tipsiz"]))
+for x in rapor["d_ACIK_olay_uclu"] + rapor["d_tipsiz"]: print("   ", x)
+print("ⓔ hayalet", len(hay), hay)

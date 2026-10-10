@@ -458,8 +458,14 @@
   },
   "s": [
    {
+    "f": "-0910-01-01",
+    "t": "-0608-01-01",
+    "d": "yeni-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur → Kalhu → Dur-Şarrukin → Ninova → Harran"
+   },
+   {
     "f": "-1352-01-01",
-    "t": "-0911-01-01",
+    "t": "-0910-01-01",
     "d": "orta-asur",
     "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur; Kar-Tukulti-Ninurta"
    },
@@ -494,7 +500,14 @@
    "arkeolojik_katman": "3. binyıldan (Pleiades)",
    "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
   },
-  "bos": "veri-yok",
+  "s": [
+   {
+    "f": "-0910-01-01",
+    "t": "-0608-01-01",
+    "d": "yeni-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur → Kalhu → Dur-Şarrukin → Ninova → Harran"
+   }
+  ],
   "_yazim": "YENİ NOKTA"
  },
  {
@@ -513,7 +526,14 @@
    "arkeolojik_katman": "Pleiades minDate -5500",
    "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
   },
-  "bos": "veri-yok",
+  "s": [
+   {
+    "f": "-0910-01-01",
+    "t": "-0608-01-01",
+    "d": "yeni-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur → Kalhu → Dur-Şarrukin → Ninova → Harran"
+   }
+  ],
   "_yazim": "YENİ NOKTA"
  },
  {
@@ -602,7 +622,14 @@
    "arkeolojik_katman": "Kalkolitik (Bakanlık)",
    "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
   },
-  "bos": "veri-yok",
+  "s": [
+   {
+    "f": "-0910-01-01",
+    "t": "-0608-01-01",
+    "d": "yeni-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur → Kalhu → Dur-Şarrukin → Ninova → Harran"
+   }
+  ],
   "_yazim": "YENİ NOKTA"
  },
  {
@@ -697,7 +724,14 @@
    "arkeolojik_katman": "yeni kuruluş",
    "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
   },
-  "bos": "veri-yok",
+  "s": [
+   {
+    "f": "-0910-01-01",
+    "t": "-0608-01-01",
+    "d": "yeni-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur → Kalhu → Dur-Şarrukin → Ninova → Harran"
+   }
+  ],
   "_yazim": "YENİ NOKTA"
  },
  {
@@ -738,7 +772,7 @@
   "s": [
    {
     "f": "-1352-01-01",
-    "t": "-0911-01-01",
+    "t": "-0910-01-01",
     "d": "orta-asur",
     "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur; Kar-Tukulti-Ninurta"
    }
@@ -1076,7 +1110,7 @@
   "g": 1,
   "k": 0,
   "kaynak": "https://oracc.museum.upenn.edu/riao/Q006021/html 'marched to the city Guzāna, which Abi-salamu of the land Bīt-Baḫiāni … held' (eponim Šamaš-abūʾa) · koordinat: https://pleiades.stoa.org/places/874739 — An Aramaean principality and Neo-Assyrian provincial capital founded on the site of an extinct Neolithic settlement\"\"",
-  "not": "OK (Orta Kronoloji) · İKİNCİ OKUYUCU (Suriye/Habur): -894- → -891- — RIAo Q006021 Adad-nārārī II saltanat sonu ⇒ eponim→yıl eşlemesi kaynaksızdı",
+  "not": "OK (Orta Kronoloji) · İKİNCİ OKUYUCU (Suriye/Habur): -894- → -891- — RIAo Q006021 Adad-nārārī II saltanat sonu ⇒ eponim→yıl eşlemesi kaynaksızdı · YAKINLIK BEYANI (koordinatör hükmü): Ceylanpınar 2,06 km · Qaţţīnah 2,47 km — MÜKERRER DEĞİL, KOMŞULUK (antik höyük ↔ modern sınır kasabası); 3 km taraması ADAY üretir, hüküm vermez ⇒ sonraki tarama bunu yeniden işaretlemesin",
   "_ilk_kayit": {
    "tarih": "-0890-01-01",
    "gun": "~MÖ 891",
@@ -1085,7 +1119,7 @@
    "tanik_sayisi": "2"
   },
   "bos": "veri-yok",
-  "_yazim": "⚠️ 1–3 km arası mevcut nokta var (Ceylanpınar 2.06 km; Qaţţīnah 2.47 km) — antik höyük ≠ modern kasaba olabilir; YAZICI/KOORDİNATÖR KARARI"
+  "_yazim": "YENİ NOKTA — AYRI KALIR (koordinatör hükmü: Ceylanpınar 2,06 km komşuluk, mükerrer DEĞİL; yakınlık `not`ta beyanlı)"
  },
  {
   "ad": "Til-Barsip",

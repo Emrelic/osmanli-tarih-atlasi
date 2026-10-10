@@ -130,3 +130,76 @@ Kanıt: `KAMP-MEZOPOTAMYA-YILLIK-KORUNMUS.md` (Grayson RIMA 2/3 girişleri, RINA
   - **Kummuh:** "I receive annually" beyanı yıllık haracın her yıl ANILMAYACAĞINI da düşündürür ⇒ 852–828 sessizliği aleyhte delil sayıldı (kural uygulandı), ama zayıf.
   - **Qatnu:** iç (Habur) birim yabancı haraç listesine girmeyebilir ⇒ "ALEYHTE DELİL?" ayrı etiket.
 - **Eponim kroniği** 823–727 için neredeyse her yıl sefer hedefi veriyor. Ama haraç ÖDEYENLERİ listelemiyor ⇒ tâbi sessizliği için delil DEĞİL. Yoğun kaynak, yanlış soru.
+
+---
+
+## TAZELEME 1 — koordinatörün dört hükmü uygulandı (aynı gece)
+### ③ `yeni-asur` f: ③ → ② (koordinatör hipotezi, ÖLÇÜLDÜ, TUTTU — bir ince farkla)
+- "Yeni Asur" bir DÖNEM ADI (konvansiyon). 911 ise bir **SALTANAT BAŞI**: RIAo "Adad-nārārī II (911-891 BC)", eponim listesiyle mutlak.
+- §9 tiplemesi dönemin ETİKETİNİ tarihin KENDİ TANIĞIYLA karıştırmıştı.
+- **İnce fark:** 911 ① OLAY değil, ② SALTANAT.
+  - Tahta çıkışın günü/olayı tanıklı değil, yalnız saltanat listesindeki yıl.
+  - akkad f (Sargon) ve orta-asur f (Aššur-uballiṭ I) ile AYNI tip.
+  - ② yazılabilir ⇒ künye AÇILDI.
+- **Yan bulgu (DÜZELTİLDİ):** orta-asur t `-912-01-01` idi.
+  - Aššur-dān II'nin saltanatı 912 DAHİL biter; o yazım 912'yi dışarıda bırakıp iki künye arasında **1 YIL boşluk** açıyordu.
+  - ⇒ t = 911 başı; iki künye artık BİTİŞİK. KRONOLOJİ satırı da düzeltildi.
+- ⇒ ⓔ hayalet 8 → **7**. Asur'a bağlı **18 v: dilimi tek hamlede açıldı**.
+
+### ① Babil v: uçları OLAY yılına — 12 harita kırılma ucu TEK TEK tiplendi
+Resmî saltanat yılı (Nisannu'da başlayan "1. yıl") ③ konvansiyon ⇒ yazılamaz. Olay yılı yazıldı:
+
+| uç | eski (resmî) | yeni | tip | tanık |
+|---|---|---|---|---|
+| TP III f | 728 | **729** | ① | ABC 1 i.19-23 Babil'i aldı |
+| Šalmaneser V t | 722 dahil | **721** başı | ① | ABC 1 i.31-32 Marduk-apla-iddina II Nisannu 721 |
+| Sargon II f | 709 | **710** | ① | ABC 1 ii.1-5 |
+| Sanherib t | 704 dahil | **703** başı | ① | ABC 1 ii.12-13 Marduk-zākir-šumi II |
+| Bel-ibni f | 702 | **702** | **SINIR** | 703'te tahta (①) AMA aynı yıl iki geçiş (Sanherib→bağımsız→Bel-ibni) ⇒ yıl çözünürlüğünde sıfır uzunluk YASAK ⇒ 702, beyanlı |
+| Aššur-nadin-šumi t | 694 | **694** | ① | ABC 1 ii.36-45 Elam aldı |
+| Nergal-ušezib f | 693 | **694** | ① | Elam tahta çıkardı |
+| Nergal-ušezib t | 693 | **693** başı | ① | ABC 1 iii.1-12 yakalandı |
+| Esarhaddon f | 680 | **680** | ① | 18 Addaru 681/680 = Mart **680** Jülyen (ABC 1 iii.38, ABC 14) |
+| Šamaš-šuma-ukin t | 653 dahil | **652** başı | ① | ABC 16 9-11 + Frame "began early in 652" (⚠️ 19 Tebêtu Ocak 651'e düşebilir, beyanlı) |
+| Kandalanu f | 647 | **647** | **SINIR** | Babil'in düşüşü (648) kronikte YOK (ABC 15 yalnız 650 kuşatması) ⇒ olay yılı ① DEĞİL, resmî yıl kaldı |
+| Kandalanu t | 627 dahil | **626** başı | **SINIR** | 627 ölümü Uruk Kral Listesi'nin 21 yılından türetilmiş (②) |
+
+- **Sayı:** 12 harita kırılma ucunun **9'u ① OLAY**, **3'ü SINIR**.
+  - SINIR 3'ün hiçbiri "türetilmiş olay yılı" yazılarak ① gösterilmedi (koordinatör şartı).
+  - Öteki 6 uç İÇ: aynı suzerenin bitişik dilimleri, haritada kırılma değil.
+- Kronolojiye 2 kaynaklı madde eklendi (KRONOLOJİ 255 → **257**): 680 Esarhaddon tahtı · 652 Šamaš-šuma-ukin ayaklanması. İkisi de dilim tablosunun kaynağından.
+- Esarhaddon olayı ① ama tâbilik DEĞİL ⇒ `v_tipi = v:asur-cifte` korunur.
+
+### ② `uc_turu` VERİYE indi + "SINIR UÇLU" ayrı kova
+- Her v: diliminde ve künyede `uc_turu: {f, t}` ∈ `OLAY | SINIR | İÇ`.
+  - Haraç tanık-uzatma dilimleri (§18): iki ucu da SINIR (ilk/son tanık).
+- Değişmez 2 ön denetimi istisnayı **`uc_turu`na** bağlar, kayda değil: OLAY tipli uç kronolojisizse KIRAR.
+- **Ayrıca üreticide bir kusur daha bulundu ve düzeltildi:**
+  - v: dilimlerinin t ucu "o yılın BAŞI" yazılıyordu. Tablolardaki t DAHİL son yıldır (857–831 = 831 de tâbi) ⇒ son yıl düşüyordu.
+  - Tek yıllık dilimler sıfır uzunluğa iniyor, "1 yıl" yamasıyla örtülüyordu.
+  - Şimdi t = sonraki yılın başı, yama kaldırıldı.
+  - Bu gece aracımda bulunan ÜÇÜNCÜ kök neden: f=ALT/t=ÜST şablonu · alt-dizgi eşleyici · dahil-son-yıl.
+
+### ④ Guzana — AYRI KALIR
+- `not`a yakınlık beyanı yazıldı (Ceylanpınar 2,06 km · Qaţţīnah 2,47 km, komşuluk) ⇒ sonraki tarama yeniden işaretlemesin.
+- **Kural (koordinatör):** 3 km taraması ADAY üretir, HÜKÜM VERMEZ.
+
+### ⓪ `kur:` — koordinatör VERI-YAPISI tanımını düzeltti (7dc2b084)
+İLK ANILIŞTAN `kur:` TÜRETİLMEZ. Bu çıktıda `kur:` YOK; ilk kayıt `_ilk_kayit` alanında, yazıcıya bilgi.
+
+### ÖN DENETİM — tazelenmiş sayılar
+| # | önceki | şimdi |
+|---|---|---|
+| künye yazılabilir | 23 | **24** (+yeni-asur) |
+| yerleşim `s:` taşıyan | 11 | **15** (yeni-asur başkentleri: Asur, Kalhu, Dur-Şarrukin, Ninova, Harran'dan eşleşenler) |
+| olay | 240 | **243** |
+| ⓐ kaynaksız | 0 | **0** |
+| ⓑ 3 km | 6 çift | **6 çift**: 4 mevcut noktaya ek · Guzana ayrı · 0 karar bekleyen |
+| ⓒ dönem kusuru | 0 | **0** |
+| ⓓ kırılma / kronolojisiz | 120 / 16 | **124 / 7** ⇒ **AÇIK (OLAY uçlu) 0** · **SINIR UÇLU 7** |
+| ⓔ hayalet | 8 | **7** |
+
+- **SINIR UÇLU 7 (adıyla):**
+  - babil-ara f 702 (Bel-ibni) · babil-ara f 647 (Kandalanu) · babil-ara t 626 (Kandalanu);
+  - samal t 738+1 · kummuh t 773+1 · kummuh t 738+1 · qatnu t 878+1 (son tanık).
+- **ⓔ kalan 7:** babil-ara (f/t ÖLÇÜLEMEDİ) · suhu (yer tutucu) · patina · samal · kummuh · qatnu · bit-zamani (dataset dışı haraç polity'leri, atif K3/K4).
