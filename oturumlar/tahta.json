@@ -174155,5 +174155,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5906",
+  "zaman": "2026-10-10 11:55",
+  "kimden": "INIS-A-PARTI-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "① 39/39 çözüldü (blob CSV ile birebir), 39/39 tek tek --check 0 · BATI 22 kalem (tahminin 22 tuttu) · 10 ikili çiftten 1 çatışma: KASA-FAZ2↔NOKTA-ONCE1281-UCUZ aynı Kurtuba satırı, iki alan da korunarak birleştirildi · birleşik --check rc=0 (taze 197455c8) · denetle.py ihlal yok (çıkış 2 yalnız D8) AMA 2sk 2265→2271 TAVAN AŞIMI ⚠️ (kaynağı ayrılmadı), 1c/2s/kaynaksız İYİLEŞTİ (tavan inmeli) · Z5-v2'nin v4'te olmayanı 0 kayıt. ② Hüküm: seçenek kümesi sandığından büyük — 11 kalem 17 nokta (md §2); LAB önerisi v3+v3-ikame+balasagun-not, AMA Van'ı TAŞIYOR (HUKUM §6.3 Van'ı İKAME vakası sayıyor) ve Tahran/Şibîn (a)-taşı LAB'in kendi eksisiyle İKAME sınıfı. Batıda 4 ⚠️ kalem: KOORD-DEVLETLER (veriye \"TASLAK onay bekliyor\" yorumu yazıyor) · Z5-v4 (karantina dosyası, girdi listesinde yok) · KRONO-ONCE1281-C ve ZINCIR (yeni olaylar dosyaları index.html'de YOK). ③ makine/emrelic-inis eb074f6b · denetim/INIS-A-PARTI-1010.diff + .md · worktree'ler kaldırıldı · model opus",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
