@@ -171,7 +171,7 @@ const GEZ = [{ gi: G("0510-01-01"), m: { t: "0510-01-01", b: "ufuk dışı (510)
 [Y_, E_].forEach(function (c) { c.GEZ = GEZ; c.ODAK_ACIK = true; });
 const oY = Y_.enter("500"), oE = E_.enter("500");
 soru("odak '500' → yazılan güne en yakın 510 (kırpılmış 1000'e en yakın 990 DEĞİL) + 'okunur' notu",
-  oY.kayit.join("|") === "odak 0510-01-01" && /ufkunun \(1000–1945\) dışında — okunur, harita 1000'de kalır/.test(oY.durum), oY.kayit + " · " + oY.durum);
+  oY.kayit.join("|") === "odak 0510-01-01" && /harita TAKİP ETMİYOR, ufkun başında \(1000-01-01\) kaldı; madde atlasın zaman ufkunun \(1000–1945\) dışında/.test(oY.durum), oY.kayit + " · " + oY.durum);
 console.log("      yeni durum: " + oY.durum);
 console.log("      (eski: " + oE.kayit + " · " + oE.durum + ")");
 soru("YAMASIZ odak kolu önce kırpıp 990'a gidiyor", oE.kayit.join("|") === "odak 0990-01-01", oE.kayit.join("|"));
@@ -200,7 +200,7 @@ GIR.forEach(function (s) {
 });
 soru("ufuk içi " + GIR.length + " giriş (946 yıl × 3 biçim + bütün olay günleri): durum + çağrı fark 0", f2.length === 0, f2.slice(0, 3).join(" | "));
 // odak gezintisi TAM YOL (gerçek künye kronolojileri): ufuk içi girişte gidilen madde eski == yeni;
-// durum metni yalnız gidilen madde UFUK DIŞIYSA değişir (yeni "okunur, harita …'de kalır" notu — beyanlı)
+// durum metni yalnız gidilen madde UFUK DIŞIYSA değişir (yeni "harita TAKİP ETMİYOR … kaldı" notu — beyanlı)
 const DEV = (V.DEVLETLER || []).filter(function (d) { return d && d.kronoloji && d.kronoloji.length; });
 let n3 = 0, f3 = [], beyan3 = 0, disKunye = 0;
 const GIR3 = []; for (let y = 1000; y <= 1945; y += 5) GIR3.push(String(y), "15.06." + y);
@@ -215,14 +215,16 @@ DEV.forEach(function (d) {
     const a = Y_.enter(s), b = E_.enter(s);
     if (a.kayit.join("|") !== b.kayit.join("|")) { f3.push(d.id + "@" + s + " " + a.kayit + "≠" + b.kayit); return; }
     if (a.durum === b.durum) return;
-    if (/okunur, harita/.test(a.durum)) beyan3++; else f3.push(d.id + "@" + s + " durum");
+    // beyanlı: yeni metin haritanın TAKİP ETMEDİĞİNİ ve kaldığı ufuk GÜNÜNÜ söylemeli
+    if (/^ℹ️ Madde okunuyor — harita TAKİP ETMİYOR, ufkun (başında \(1000-01-01\)|sonunda \(1945-09-02\)) kaldı; /.test(a.durum)) beyan3++;
+    else f3.push(d.id + "@" + s + " durum: " + a.durum.slice(0, 60));
   });
 });
 [Y_, E_].forEach(function (c) { c.ODAK_ACIK = false; c.GEZ = []; });
 console.log("      künye " + DEV.length + " · ufuk dışı madde taşıyan künye " + disKunye);
 soru("odak tam yol " + DEV.length + " künye × " + GIR3.length + " ufuk içi giriş (" + n3 + "): gidilen madde fark 0 · beyansız durum farkı 0",
   f3.length === 0, f3.slice(0, 4).join(" | "));
-console.log("      (beyanlı durum farkı " + beyan3 + " — gidilen madde ufuk dışında: eskiden '✓', şimdi 'okunur, harita …'de kalır')");
+console.log("      (beyanlı durum farkı " + beyan3 + " — gidilen madde ufuk dışında: eskiden '✓', şimdi 'harita TAKİP ETMİYOR, ufkun başında/sonunda (gün) kaldı')");
 
 console.log("\nSONUÇ: " + gecen + "/" + (gecen + kalan) + " geçti · " + kalan + " tutmadı");
 kotu.forEach(function (k) { console.log("  - " + k); });

@@ -15,10 +15,10 @@ index 7623e370..d9913e9c 100644
  bolum("B", "B · MÖ sentetik — yeni doğru, eski yanlış");
 diff --git a/denetim/ARAC-UFUK-KIRPMA-SINAV-1010.js b/denetim/ARAC-UFUK-KIRPMA-SINAV-1010.js
 new file mode 100644
-index 00000000..2e72baae
+index 00000000..ec20cc62
 --- /dev/null
 +++ b/denetim/ARAC-UFUK-KIRPMA-SINAV-1010.js
-@@ -0,0 +1,229 @@
+@@ -0,0 +1,231 @@
 +// ARAC-UFUK-KIRPMA-SINAV-1010 — "tarihe git" ufka kırpma + en yakın olay UFUK İÇİNDEN mi? (iki yön)
 +//
 +// Görev ARAYUZ-UFUK-KIRPMA-1010 (UMIT, 10 Ekim 2026). Ufuk 1281–1923'ten 1000–1945'e açıldı;
@@ -192,7 +192,7 @@ index 00000000..2e72baae
 +[Y_, E_].forEach(function (c) { c.GEZ = GEZ; c.ODAK_ACIK = true; });
 +const oY = Y_.enter("500"), oE = E_.enter("500");
 +soru("odak '500' → yazılan güne en yakın 510 (kırpılmış 1000'e en yakın 990 DEĞİL) + 'okunur' notu",
-+  oY.kayit.join("|") === "odak 0510-01-01" && /ufkunun \(1000–1945\) dışında — okunur, harita 1000'de kalır/.test(oY.durum), oY.kayit + " · " + oY.durum);
++  oY.kayit.join("|") === "odak 0510-01-01" && /harita TAKİP ETMİYOR, ufkun başında \(1000-01-01\) kaldı; madde atlasın zaman ufkunun \(1000–1945\) dışında/.test(oY.durum), oY.kayit + " · " + oY.durum);
 +console.log("      yeni durum: " + oY.durum);
 +console.log("      (eski: " + oE.kayit + " · " + oE.durum + ")");
 +soru("YAMASIZ odak kolu önce kırpıp 990'a gidiyor", oE.kayit.join("|") === "odak 0990-01-01", oE.kayit.join("|"));
@@ -221,7 +221,7 @@ index 00000000..2e72baae
 +});
 +soru("ufuk içi " + GIR.length + " giriş (946 yıl × 3 biçim + bütün olay günleri): durum + çağrı fark 0", f2.length === 0, f2.slice(0, 3).join(" | "));
 +// odak gezintisi TAM YOL (gerçek künye kronolojileri): ufuk içi girişte gidilen madde eski == yeni;
-+// durum metni yalnız gidilen madde UFUK DIŞIYSA değişir (yeni "okunur, harita …'de kalır" notu — beyanlı)
++// durum metni yalnız gidilen madde UFUK DIŞIYSA değişir (yeni "harita TAKİP ETMİYOR … kaldı" notu — beyanlı)
 +const DEV = (V.DEVLETLER || []).filter(function (d) { return d && d.kronoloji && d.kronoloji.length; });
 +let n3 = 0, f3 = [], beyan3 = 0, disKunye = 0;
 +const GIR3 = []; for (let y = 1000; y <= 1945; y += 5) GIR3.push(String(y), "15.06." + y);
@@ -236,20 +236,22 @@ index 00000000..2e72baae
 +    const a = Y_.enter(s), b = E_.enter(s);
 +    if (a.kayit.join("|") !== b.kayit.join("|")) { f3.push(d.id + "@" + s + " " + a.kayit + "≠" + b.kayit); return; }
 +    if (a.durum === b.durum) return;
-+    if (/okunur, harita/.test(a.durum)) beyan3++; else f3.push(d.id + "@" + s + " durum");
++    // beyanlı: yeni metin haritanın TAKİP ETMEDİĞİNİ ve kaldığı ufuk GÜNÜNÜ söylemeli
++    if (/^ℹ️ Madde okunuyor — harita TAKİP ETMİYOR, ufkun (başında \(1000-01-01\)|sonunda \(1945-09-02\)) kaldı; /.test(a.durum)) beyan3++;
++    else f3.push(d.id + "@" + s + " durum: " + a.durum.slice(0, 60));
 +  });
 +});
 +[Y_, E_].forEach(function (c) { c.ODAK_ACIK = false; c.GEZ = []; });
 +console.log("      künye " + DEV.length + " · ufuk dışı madde taşıyan künye " + disKunye);
 +soru("odak tam yol " + DEV.length + " künye × " + GIR3.length + " ufuk içi giriş (" + n3 + "): gidilen madde fark 0 · beyansız durum farkı 0",
 +  f3.length === 0, f3.slice(0, 4).join(" | "));
-+console.log("      (beyanlı durum farkı " + beyan3 + " — gidilen madde ufuk dışında: eskiden '✓', şimdi 'okunur, harita …'de kalır')");
++console.log("      (beyanlı durum farkı " + beyan3 + " — gidilen madde ufuk dışında: eskiden '✓', şimdi 'harita TAKİP ETMİYOR, ufkun başında/sonunda (gün) kaldı')");
 +
 +console.log("\nSONUÇ: " + gecen + "/" + (gecen + kalan) + " geçti · " + kalan + " tutmadı");
 +kotu.forEach(function (k) { console.log("  - " + k); });
 +process.exit(kalan ? 1 : 0);
 diff --git a/js/app.js b/js/app.js
-index d4828ffe..a296c7f5 100644
+index d4828ffe..8e4330e9 100644
 --- a/js/app.js
 +++ b/js/app.js
 @@ -11868,9 +11868,11 @@ function _sahneBitince(fn) {
@@ -310,7 +312,7 @@ index d4828ffe..a296c7f5 100644
  
  (function tariheGitKur() {
    var giris = document.getElementById("tarihe-git-giris");
-@@ -15255,15 +15271,23 @@ function enYakinOlayBul(gi) {
+@@ -15255,15 +15271,26 @@ function enYakinOlayBul(gi) {
      var sonuc = tarihMetniAyristir(giris.value);
      if (sonuc.hata) { _durumYaz("⚠️ " + sonuc.hata, true); return; }
      if (!olaylar.length) { _durumYaz("⚠️ Kronoloji henüz yüklenmedi.", true); return; }
@@ -331,15 +333,18 @@ index d4828ffe..a296c7f5 100644
        if (!og) { _durumYaz("⚠️ Odaktaki kronolojide madde yok.", true); return; }
        ODAK_GEZINTI.git(og);
 -      _durumYaz("✓ " + kisaTarihYazi(og.m) + " — " + og.m.b
-+      var ogDisi = og.gi < BASLANGIC || og.gi > BITIS;
-+      _durumYaz((ogDisi ? "ℹ️ Madde atlasın zaman ufkunun (" + _yilYazi(BASLANGIC) + "–" + _yilYazi(BITIS) +
-+                  ") dışında — okunur, harita " + _yilYazi(ufkaKirp(og.gi).hedef) + "'de kalır: "
++      // v2 (koordinatör şartı, CLAUDE §1): kronoloji ile harita birbirini doğrulamıyorsa
++      // bu BEYAN edilir — haritanın maddeyi TAKİP ETMEDİĞİ ve kaldığı GÜN açıkça yazılır.
++      var ogKp = ufkaKirp(og.gi), ogDisi = !!ogKp.kirpildi;
++      _durumYaz((ogDisi ? "ℹ️ Madde okunuyor — harita TAKİP ETMİYOR, ufkun " +
++                  (ogKp.kirpildi === "önce" ? "başında" : "sonunda") + " (" + isoDizgi(GUN.dizgi(ogKp.hedef)) +
++                  ") kaldı; madde atlasın zaman ufkunun (" + _yilYazi(BASLANGIC) + "–" + _yilYazi(BITIS) + ") dışında: "
 +                : kirpildi ? "ℹ️ " + kirpNot + "; en yakın madde: " : "✓ ") +
 +                kisaTarihYazi(og.m) + " — " + og.m.b
                  + " (" + (og.d.ad || og.d.id) + ")");
        return;
      }
-@@ -15274,19 +15298,21 @@ function enYakinOlayBul(gi) {
+@@ -15274,19 +15301,21 @@ function enYakinOlayBul(gi) {
      // 1923–1945'in 505 maddesi DEVLET kronolojilerinde. "1100" yazan kullanıcıyı
      // 180 yıl ötedeki ilk maddeye (1281) taşımak yazdığı tarihi YOK SAYMAKTIR.
      // En yakın madde UZAKSA tarihin KENDİSİNE gidilir ve bu söylenir.

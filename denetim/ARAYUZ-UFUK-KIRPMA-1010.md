@@ -119,3 +119,14 @@ Sıra: **A2 → APPJS-TARIH → ARAYUZ-UFUK-KIRPMA**. `js/app.js` ve `js/d_katma
 YENİ DOSYALAR: `C:\atlas-umit\denetim\ARAYUZ-UFUK-KIRPMA-1010.diff` (`js/app.js` · `js/d_katman.js` · `denetim/ARAC-APPJS-TARIH-SINAV-1010.js` A46 · YENİ `denetim/ARAC-UFUK-KIRPMA-SINAV-1010.js`) · `C:\atlas-umit\denetim\ARAYUZ-UFUK-KIRPMA-1010.md` · `C:\atlas-umit\denetim\ARAC-UFUK-KIRPMA-SINAV-1010.js`
 Taban: `1d5e2dfd` + A2 + APPJS-TARIH. Diff sha256 `b97007558e0c8c3e04ffe39cb3ec42c9f11675ab916d884928fb26758e7f4e50` (382 satır).
 `git apply --cached --check` (geçici index), A2 → APPJS → UFUK zinciri: `1d5e2dfd` ✓ · `792bf4a4` (teslimdeki `origin/main`) ✓.
+
+## v2 (koordinatör şartı: harita takip etmiyorsa BEYAN edilir) — `ARAYUZ-UFUK-KIRPMA-1010-v2.diff` v1'in yerine geçer
+- v1'deki metin `"…dışında — okunur, harita 1000'de kalır: "` idi. Haritanın kaldığını yalnız **yıl** ile söylüyordu, "takip etmiyor" demiyordu ⇒ **DEĞİŞTİ**.
+- v2 metni: `"ℹ️ Madde okunuyor — harita TAKİP ETMİYOR, ufkun başında (1000-01-01) kaldı; madde atlasın zaman ufkunun (1000–1945) dışında: <tarih> — <madde> (<devlet>)"`. Ufuk sonrasında madde varsa "ufkun sonunda (1945-09-02)" yazar.
+- Değişen yalnız bu metin (`app.js` odak dalı) ve sınav. Sınavın B8 sorusu ve C3'ün beyanlı kolu yeni metni **tam desenle** istiyor (gün dahil).
+- Ölçüm:
+  - v2 sınavı **22/22**. Aynı sınav v1 `app.js` ile **20/22**: B8 ve C3 düşüyor, sınav metni ayırt ediyor.
+  - C3: gidilen madde fark 0, beyansız durum farkı 0, beyanlı **7.528**. Hepsi yeni desenle eşleşiyor.
+  - C1/C2 gerileme 0. `odak_olc` v1 ve v2'de `cmp` ile birebir. APPJS sınavı 79/79.
+- apply --check zinciri A2 → APPJS → v2, `origin/main` `870482c9` üstünde ✓. `792bf4a4..870482c9` arasında `js/`, `index.html` ve `odak_cozum.js` farkı 0.
+- v2 diff sha256 `a2e46da5d8990f60e21c81c8afdc9790df09c1b1d82d43c7361df9875749590a` (387 satır). v1 diff diskten silindi; tarihte `makine/umit 930bca47`'de duruyor.
