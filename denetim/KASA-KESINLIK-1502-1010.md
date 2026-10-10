@@ -37,7 +37,11 @@ Geniş diff dar diff'i kapsar ⇒ ikisi birlikte UYGULANMAZ (aynı satırlar).
 - Tam `denetle.py`, dar diff ile ve tabanla (aynı temiz worktree): iki çıktı **satır satır AYNI** (349 satır, `diff`
   boş). İkisi de çıkış 2: Değişmez 8 ÖLÇÜLEMEDİ (`devletler_harita.js` üretilmiş + gitignore'lu, taze ağaçta yok). Bu
   diff'ten bağımsız, iki koşuda da aynı. ⇒ Dar diff hiçbir kapı sayısını değiştirmiyor; Değişmez 8 iki tarafta da
-  ölçülmedi. **Geniş diff için tam koşu YAPILMADI** (beyan; yalnız yükleme + alan karşılaştırması).
+  ölçülmedi.
+- ⚠️ `paketle.py sina` ✗ (iki diff de): `paket_13/14/18.js` bu dosyaların kopyası ⇒ uygulayan
+  `py arac/paketle.py yenile` koşar (FAZ 2 uygulaması; üretilmiş dosyaya DOKUNULMADI).
+- Tam `denetle.py`, **geniş diff** ile (ayrı temiz worktree): çıktı tabanla **satır satır AYNI** (`diff` 0 satır; aynı
+  Değişmez 8 ÖLÇÜLEMEDİ). ⇒ 42 uca `kesinlik` eklemek hiçbir kapı sayısını değiştirmiyor.
 
 ## 4. Yan bulgular (hüküm değil)
 - **Künye ↔ dilim:** `devletler.js` `altinorda` `t:"1502-01-01"`; 21 dilim `1502-03-01`de bitiyor ⇒ dilimler künyeyi
