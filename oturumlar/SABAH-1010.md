@@ -339,19 +339,44 @@ bir hatadan kötüdür. Sayım sırada.
 
 ---
 
-# §8 🟢 **TEK EKRAN — 06:00 İTİBARIYLA. YALNIZ BUNU OKUSAN YETER.**
+# §8 🟢 **TEK EKRAN — 07:40 İTİBARIYLA. YALNIZ BUNU OKUSAN YETER.**
 
-## Senden istediğim ÜÇ ŞEY
+## Senden istediğim: iki İŞ, dört KARAR
+
+**İŞ** — karar değil, yalnız senin yapabileceğin:
 ```
-① TEK SATIR MESAJ — kota sıfırlansın (EMRELIC'teki yerel oturumlara
-   mesaj gönderemiyorum; köprüdeki dört makine çalışıyor). Ne yazdığın
-   önemli değil.
+① TEK SATIR MESAJ — ne yazdığın önemli değil. Oturumlar arası mesaj
+   kotası doldu (10 mesaj, sen yazana kadar kapalı) ⇒ EMRELIC'teki
+   7 yerel kıta ULAŞILAMAZ. Köprüdeki dört makine çalışıyor.
 ② EMRELIC'teki iki hazır kıtanın ONAY PENCERESİNİ aç (§6)
-③ KARAR: Anadolu MÖ'sü için (i) KAPALI beyan + (ii) höyük katmanı
-   onaylanıyor mu? Ayrıntı §1 ②
 ```
 ⚠️ ①+② olmadan bu makinenin kendi iş gücü atıl; öteki dört makine tam
 otonom çalıştı.
+
+**KARAR** — gerekçeleri §1-§7'de, burada yalnız soru:
+```
+① MÖ PAKETİNİ İNDİRELİM Mİ? 21 nokta + 7 künye + zincirler HAZIR,
+   hiçbiri inmemiş. Soru "genişletelim mi" değil: "İNDİRELİM Mİ"
+② ANADOLU MÖ    → ÖNERİM (i) KAPALI beyan + (ii) höyük katmanı;
+                   (iii) reddim gerekçeli (§1 ②)
+③ kaynaksız 1841 → ≈554 kayıtta yanlış ilk halka. Sebep hâlâ HİPOTEZ
+                   ama artık KONTROL GRUBU var: Bağdat 1258-02-10 ↔
+                   sekiz komşusu 1281-01-01, aynı sahip aynı kutu aynı
+                   İlhanlı olayı ⇒ 1281 bir İHMAL, hassasiyet değil
+④ `kur:` SINIFI  → modern idarî merkezler erken sahiplik iddiasıyla
+                   (Mersin 1671↔~1836 · Batna · Aynı Beydâ · Berc Bû
+                   Areric). Sınıfın adı var, hükmü yok
+```
+
+## ⚠️ BİR GİZLİLİK OLAYI — kapandı, ama bilmen gerek
+LAB'ın bir alt ajanı Wikidata'ya giden ~7 istekte `User-Agent` başlığına
+**senin e-posta adresini** koydu (Wikidata'nın görgü kuralları iletişim
+adresi İSTER — iyi niyetli bir kural çarpışması). Ajan fark edip çıkardı.
+**Bağımsız doğruladım:** çalışma ağacında 0 isabet · `git log --all -S`
+ile bütün dallarda 0 commit (ekleyen de, silen de). Commit müellifliğindeki
+adres meşrudur, o ayrı şey.
+⇒ Kural yazıldı: **dış servise giden iletişim bilgisi PROJE adresi olur,
+şahsî e-posta ASLA.** LAB kalıcı hafızasına da aldı.
 
 ## Gece ne ÜRETTİ — üç başlık
 **① KAMPANYANIN İLK TAM ZİNCİRİ:** Kutha + Susa, **MÖ 539 → 1281 kesintisiz,
@@ -384,8 +409,17 @@ KOŞU 22  00:57 → 06:43 (5s45dk) · çıkış 0 · bütün değişmezler TEMİ
          🔴 AMA YANLIŞ AYARLA KOŞTU: üç YÜRÜYÜŞ aşaması + Ⓑ ufuk bantları
             aşaması HİÇ KOŞMADI · `ufuk_bant_parcalar.js` hâlâ 1923 ufkunda
          ⇒ YAYINLANMADI. Yayınlansa harita GERİLERDİ.
-KOŞU 22b 06:53:49 başladı · aynı taban (e54e60df) · bayraklar TEYİTLİ
-         bitiş ~16:00-17:00
+KOŞU 22b 06:53:49 başladı · aynı taban (e54e60df)
+         🟢 ÖLÇÜLDÜ (HAVVA, 07:36:38) — tahmin değil:
+            NEREDE  "Çöl tavanı", koşu saati 32dk 15sn
+            BAYRAK  BEŞİ DE motorun KENDİ logunda, satır numarasıyla ✓
+                    (503 yürüyüş+bütçe 40sa · 534 çöl ufku 56sa ·
+                     537 bantlar 40/56/80 · 28 işçi süreç)
+            YÜRÜYÜŞ 3 aşamanın 2'si koştu, 1 kaldı
+            İŞÇİ    ikisi de SAĞ, tam yükte · GEOS segfault sınıfı YOK
+            BİTİŞ   uret_petek ~15:00-16:15 · inişle ~15:45-17:00
+                    dayanak KOŞU 21 bilançosu × ölçülen hız (×1,15);
+                    bayraksız KOŞU 22'nin oranları KULLANILMADI
 ```
 **SEBEP — ve yarısı BENİM:** beş zorunlu bayrak
 (`MOTOR_YURUYUS=1` · `MOTOR_YURUYUS_SAAT=40` · `MOTOR_UFUK_BANT=40,56,80` ·
@@ -413,6 +447,32 @@ emrini ben verdim; **bayrakları yazmadım.** Şimdi `CLAUDE.md §9`da.
 **5s45dk, 7s14dk'dan hızlı değil; DAHA AZ İŞ YAPMIŞ.** Çıkış 0, "iş yapıldı"
 demek değil.
 
+## 🔴 06:00'DAN SONRA ÇIKAN ÜÇ BAŞLIK
+```
+① ÖZ-İLAN SINIFI — veride yaşayan bir YAPILACAKLAR listesi bulundu.
+   Kayıtların KENDİ kaynak notları kendi dilimini yanlış ilan ediyor:
+   Malta "1284-1530 napoli YANLIŞ, yazılmadı" · Hama · Mljet · Çehrin ·
+   Königsberg "künyesi YOK, dokunulmadı" — O KÜNYE ARTIK VAR.
+   ⇒ Önceki işçi hatayı GÖRMÜŞ, ADIYLA YAZMIŞ, düzeltmemiş; ve hiçbir
+   alet o notu okumuyor. Tarama SÖZLÜKSÜZ ve BEDAVA (kanıt elde).
+② LAB KENDİ SAYISINI DÜRÜSTLEŞTİRDİ — 221 "YANLIŞ"ın yalnız 26'sı
+   kanıtlı (%11,8), 195'i ölçüm açığı. İkinci tanık ailesi 171 satırın
+   1'ini kapattı (%0,6) ⇒ o hat KAPATILDI. Üç turda öngörü üç kez AYNI
+   YÖNE ıskaladı: yanlış olan tek öngörü değil ÖNGÖRÜ MODELİ.
+③ "KAYNAKSIZ = RİSKLİ" YANLIŞLANDI. Ayırt eden doluluk değil GÖVDE:
+   gövdesi tanıksız dilim %62 yanlış ↔ gövdeli %33 — ve tanıksızların
+   13 yanlışının SIFIRI kaynağın tarihlediği uçta. Beş kural HUKUM §9.8.
+```
+
+## 🔴 VE BİR KUSURUM DAHA — 30 saniyeyle bu belgeye girmedi
+Koşunun durumunu EMRELIC'teki `uretim_canli.log`dan okudum; o dosya
+**4 Ekim 19:17'den**, altı gün bayat, ve içinde gerçek bir aşama bilançosu
+durduğu için TAZE görünüyor. *"Koşu bitti, 4 saat sürdü"* diye buraya
+yazmaya 30 saniye vardı. Sebep yapısal: koşu **ayrı worktree'de** koşar
+(`C:\atlas-kosu22\`) ⇒ ana checkout'un logu tanım gereği o koşunun logu
+DEĞİLDİR. Kural `CLAUDE.md §5`e yazıldı — 93 MB'lık vakanın üçüncü yüzü,
+ve en sinsisi: ötekiler BOYUTLA ele veriyordu, bu yalnız **mtime** ile.
+
 ## Üç karar (§1) — kısa hâli
 ```
 ① MÖ penceresi   → Sümer paketi HAZIR, hiçbiri İNMEMİŞ: 21 nokta + 7 künye
@@ -424,7 +484,7 @@ demek değil.
                    ↔ komşuları 1281-01-01, aynı sahip aynı kutu)
 ```
 
-## Çalışan yedi iş hattı
+## Çalışan iş hatları — ⚠️ 06:00 FOTOĞRAFI (güncel hâl §8 sonunda)
 ```
 HAVVA  koşu 22 · canlılık saat başı (05:55 alındı, ~06:55 bekleniyor)
 KASA   SAHIP-BOLGE: Kuzey Afrika kıyısı · Tihâme · Gîlân · Ege-Tesalya
@@ -433,3 +493,17 @@ LAB    AYNI-AD-TARAMA v2 — tek koşu, BEŞ sayı (ablasyon şartıyla)
 kıta   NOKTA-SUMER v2 (bitti, FAZ 3 bekliyor) · NEGATIF-YIL (bitti) ·
        KUNYE-SUMER-7 v2 (bitti) · HARITA-DIL (C3 kararı verildi)
 ```
+
+## ⓔ ŞU AN ÇALIŞAN (07:40) — yukarıdaki 06:00 bloğunun YERİNE
+```
+HAVVA  KOŞU 22b gözetim (dakikada bir süreç + olay 1000) · iniş sırası hazır
+UMIT   CELISKI-ICKAYNAK-1010 (taze ajan) — ÖZ-İLAN + ENGEL-KALKMIŞ taraması
+       FAZ 1 tarafı BİTTİ: 4 diff kümülatif temiz, sınavlar 93/18/23
+KASA   dört hüküm ölçüldü (Kostajnica A geçerli · Töton tuza dokunmuyor) +
+       `_kaynak_tanikli` diff v2 (13/13) · ÖZ-İLAN öngörüsü 07:34:56 MÜHÜRLÜ
+LAB    Ö-T2 kova bölünmesi + Ö-T1 TESLİM · tanık-arama hattı KAPATILDI
+BEN    91 commit · iniş öncesi kümülatif `--check` bende
+```
+**İNİŞ:** KOŞU 22b bitince `oturumlar/INIS-KOSU22.md` · sonra FAZ 1 dörtlüsü
+(KAPSAM-v3 → KUR-KAPI → D5-GUN-v3 → SESSIZ-7). İki tavan (TABAN 190 ·
+D5C 2449) **koşu indikten SONRA** yeniden ölçülüp sabitle aynı commit'e girer.
