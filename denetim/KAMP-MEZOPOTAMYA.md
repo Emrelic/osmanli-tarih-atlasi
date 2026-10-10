@@ -11,7 +11,7 @@ POLITY     36 polity (f/t kaynaklı; f bulunamadı 2 · t bulunamadı 4) + 5 "li
            (Nippur — polity DEĞİL · Dēr bulunamadı · Kaldu tek polity değil · Suḫu bulunamadı · Hitit 1595 = olay)
 KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; harita_degisimi EVET 76 · HAYIR 1 ·
            "—" 6 (tarihi bulunamadı satırları — kırılma yok)
-ŞEHİR      35 şehir · ilk YAZILI kayıt tarihli 32 · bulunamadı 3 (Borsippa · Nuzi/Gasur · Vaşukanni)
+ŞEHİR      35 şehir · ilk YAZILI kayıt tarihli 33 · bulunamadı 2 (Borsippa · Vaşukanni)
            · koordinat Pleiades 32 · NOKTA YAZILAMAZ 3 (Akkad · Ekallatum · Vaşukanni — konum bilinmiyor/öneri)
 ```
 §5 eşikleri: aile TAM (şartnamedeki 18 adın hepsi + 18 ek: Uruk dönemleri, Gut, Deniz Ülkesi I/II, İsin II, Ḫana,
@@ -39,7 +39,7 @@ KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; har
 - **Akademik:** Ziegler & Otto 2023 (BBVO 30) · Blömer 2023 (Electrum 30) · LMU i3.MesopOil · FU Berlin Fekheriye · T.C.
   Kültür Bakanlığı.
 - **Kırmızı çizgi:** blog, World History Encyclopedia, içerik çiftliği KULLANILMADI. Vikipedi yalnız ipucu. Yalnız
-  Vikipedi'ye dayanan satırlar `bulunamadı` + "aday" notu (Nuzi, Borsippa, Vaşukanni).
+  Vikipedi'ye dayanan satırlar `bulunamadı` + "aday" notu (Borsippa, Vaşukanni).
 - **Okuma beyanı:** RlA ve CDLI çoğunlukla okuyucular tarafından tam metinden okundu. Met, Britannica ve Iranica canlı
   site 403/429 verdi ⇒ Wayback anlık görüntüleri.
 - ⚠️ KASA bu turda tanıkları **örnekleyerek** doğrulamadı (önceki turlarda yaptığım birebir sınama bu teslimde YOK) —
@@ -62,7 +62,7 @@ KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; har
   - t: Ur I · Mari şakkanakku · Ḫana · Ḫanigalbat.
   - Bütün polity: Dēr · Suḫu.
   - Başkent: Şubat-Enlil (doğrulanmadı) · Deniz Ülkesi I/II · İsin II.
-- **Şehir:** Borsippa · Nuzi/Gasur · Vaşukanni (tarih); Akkad · Ekallatum · Vaşukanni (konum). Arkeolojik katman:
+- **Şehir:** Borsippa · Vaşukanni (tarih); Akkad · Ekallatum · Vaşukanni (konum). Arkeolojik katman:
   Umma · İsin · Sippar · Babil · Kutha · Terqa · Arrapha.
 - **Kaynakta olmayan / doğrulanmamış:** Akkad'ın sonu **2154** (hiçbir kaynakta YOK ⇒ 2193 Şar-kali-şarri). Elam
   1600-1500 arası. Bazi hanedanı ve 1004 sonrası Babil hanedanları.
@@ -90,3 +90,11 @@ KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; har
   - (v) Vikipedi'ye kalan 3 şehrin birincil tanığı (Ebla ARET numaraları, CTH 51 Beckman HDT 6A, RlA 'Barsip').
 - `kimlik_onerisi` sütunu yalnız ÖNERİ: `devletler.js`'te bu kimliklerin hiçbiri yok (MÖ künye 0). Yazım sırası ve kimlik
   hükmü koordinatörün (§6).
+
+## 8. Geç dönen okuyucularla güncelleme (aynı gün)
+İlk şehir okuyucusunun geç dönen alt-yardımcıları (A, B, C, D) dört satırı güçlendirdi:
+- **Nuzi/Gasur:** `bulunamadı` → **≤2200** (WiBiLex, geç Eski Akkad Gasur arşivi).
+- **Arrapha:** Pleiades-yalnız Ur III → **2042** (CDLI P125583, Amar-Suen 5).
+- **Arbela:** Ebla ⑥ + tabletle doğrulanan Ur III ≈2045 (P100007).
+- **Akkad:** Sargon-sonrası üst sınır → **ED IIIb ≈2340, Sargon'dan ÖNCE** (TMH 5, 081 En-şakušana yıl adı; okuma hasarlı ⑥).
+- **Tutub:** → Naram-Sin 19 ≈ **2218** (Tutub 65).
