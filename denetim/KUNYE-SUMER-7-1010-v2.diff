@@ -1,0 +1,91 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 5b8d03a9..199f1060 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -10567,13 +10567,79 @@ window.DEVLETLER = [
+     { t:"0750-08-05", tur:"son", b:"Zap yenilgisinden sonra kaçan II. Mervân Mısır'da öldürüldü; Emevî Hilâfeti sona erdi", kaynak:"TDV: emeviler: '(26 Zilhicce 132 / 5 Ağustos 750)'" }
+   ]
+ },
+-{ id:"sasani", ad:"Sâsânî İmparatorluğu", tur:"imparatorluk", bolge:"iran",
+-  f:"0226-01-01", t:"0651-01-01", baskent:"Medâin (Ktesifon)", boya_gerekli:true,
+-  ic_not_f:"TDV başlığı: '226-651 yılları arasında hüküm süren bir İran hânedanı' — YIL. Kuşak 500'de başlar; f kuşak dışı ama künyenin gerçek başlangıcıdır (kırpılmadı).",
+-  ic_not_t:"TDV: '651 yılında düşmanları tarafından Merv’de öldürülen Yezdicerd' [TDV: sasaniler] — YIL.",
+-  ozet:"Erdeşîr-i Bâbekân'ın kurduğu İran hânedanı; Kādisiye ve Nihâvend yenilgilerinden sonra III. Yezdicerd'in Merv'de öldürülmesiyle sona erdi. (kaynak: TDV, madde: sasaniler)",
+-  kaynak:"TDV: sasaniler (SÂSÂNÎLER)",
+-  kronoloji:[
++{ id:"ahameni", ad:"Ahamenî (Pers) İmparatorluğu", tur:"imparatorluk", bolge:"iran",
++  f:"-0538-01-01", t:"-0330-10-22", baskent:"— (kaynakta adı bulunamadı)", boya_gerekli:true,
++  kesinlik:{f:"yil", t:"gun"},
++  ic_not_f:"ZARF, iddia değil (HUKUM-KASA-1010 §9.6): atlasın nokta kümesindeki EN ERKEN tasdik — Sippar, Grayson ABC 7 (Nabonid Kroniği, livius çevirisi): 'On the fourteenth day Sippar was captured without a battle.' (Nabonid 17. yılı = MÖ 539 ⇒ astronomik -0538). Ay/Jülyen gün çeviride yok ⇒ YIL; -0538-01-01 sınır işaretidir. ⚠️ Devletin kendisi daha eski: TDV iran 'Ahamenîler devrinde (m.ö. 559-330)' — bu künye Mezopotamya zarfıdır (koordinatör hükmü).",
++  ic_not_t:"Babil'e giriş: livius-ADART notu '22 October 331' (Gaugamela 1 Ekim 331 sonrası) ⇒ MÖ 331 = astronomik -0330 — GÜN. TDV keldaniler/babil Mezopotamya ucunu '539-332' diziyor: dizi parantezi, olay cümlesi değil (KASA ⑧).",
++  ozet:"Kyros'un kurduğu Pers imparatorluğu; Mezopotamya'yı MÖ 539'da aldı, Büyük İskender'in Babil'e girişiyle (MÖ 331) bölgede sona erdi. (kaynak: Grayson ABC 7 · Sachs–Hunger ADART I · TDV iran)",
++  kaynak:"Grayson ABC 7 (Nabonid Kroniği) · Sachs–Hunger ADART I (-330) · NaBuCCo (ÖAW/KU Leuven) · CDLI · Oracc RIBo · TDV: iran · keldaniler · babil — KASA-SUMER-SAHIPLIK-1010",
++  kronoloji:[
++    { t:"-0538-01-01", tur:"toprak-kazanc", b:"Kyros Babil'i aldı; Sippar savaşsız teslim oldu (MÖ 539)", kaynak:"Grayson ABC 7 (yıl)" },
++    { t:"-0330-10-22", tur:"son", b:"Gaugamela'dan sonra İskender Babil'e girdi; Ahamenî hâkimiyeti Mezopotamya'da sona erdi (MÖ 331)", kaynak:"Sachs–Hunger ADART I, livius notu '22 October 331' (gün)" }
++  ]
++},
++{ id:"makedon", ad:"Makedon (Argead) Krallığı — Mezopotamya", tur:"imparatorluk", bolge:"mezopotamya",
++  f:"-0330-10-18", t:"-0307-01-01", baskent:"Bâbil", boya_gerekli:true,
++  kesinlik:{f:"gun", t:"yil"},
++  ic_not_f:"ZARF (HUKUM-KASA-1010 §9.6): nokta kümesindeki en erken tasdik — Sippar, Sachs–Hunger ADART I -330 'On the eleventh, in Sippar an order of Al[exander …]' + livius notu '18 October 331' ⇒ MÖ 331 = astronomik -0330 — GÜN. Babil'e giriş 4 gün sonra ('22 October 331'). ahameni t (-0330-10-22, Babil) ile 4 günlük örtüşme BEYANLIDIR: Sippar Babil'den önce düştü. Koordinatör onayı (KUNYE-SUMER-7-1010 ⓐ).",
++  ic_not_t:"ZARF: en geç tasdik Finkel–van der Spek–Pirngruber BCHP 3 Rev.iv.32'-33' '[Year 8] of Alexander, the king, son of idem, and Seleu[cus the General (309/8). Month ?, day n' … '[the satrap of A]kkad went to Borsippa' — ay okunmuyor. Babil 8. yılı Nisan 309 → Mart 308 (aynı kronikte 7. yıl 'Month XII, day 2 (2 March 309)') ⇒ -0308-01-01 yazmak yılın TAMAMINDAN önce kalırdı (hicrî yıl tuzağının Babil eşi, CLAUDE.md §4). t = yılın bittiği mîlâdî yılın başı -0307-01-01 — YIL; Ocak-Mart 308 kalan payı beyanlıdır. selefki f (-0311) ile ~4 yıllık örtüşme BEYANLIDIR: 311-308 arası Babilonya'da iki iddia yan yanaydı (Diadokhoi; tarih formülü IV. Aleksandros + Seleukos birlikte). Koordinatör onayı (ⓑ). Argead değil 'iskender': belgeler İskender'in ölümünden (323) sonra da III. Philippos / IV. Aleksandros yıllarıyla tarihli (CDLI P414739 UET 4 43 'Philip Arrh. 07' = 317 · NaBuCCo '7 Alx IV' · Corò 2018). ⚠️ Boiy 2000 (JCS 52): Larsa BM 105211 Antigonos 9. yılı ⇒ 315-311 iki sahip.",
++  ozet:"Büyük İskender ve ardılları III. Philippos Arrhidaios ile IV. Aleksandros adına yürüyen Makedon hâkimiyeti; Mezopotamya'da Sippar ve Babil'in alınmasından (MÖ 331) Diadokhoi çekişmesinin son tarihli belgesine (MÖ 309/8) kadar; MÖ 312'den sonra Selevkos iddiasıyla yan yana. (kaynak: ADART I · CDLI · NaBuCCo · TDV babil)",
++  kaynak:"Sachs–Hunger ADART I (-330) · CDLI P414739 (UET 4 43), P342411 (OECT 9 74) · NaBuCCo 2 · Corò 2018 · Boiy, JCS 52 (2000) · Finkel–van der Spek–Pirngruber BCHP 3 · TDV: babil · keldaniler — KASA-SUMER-SAHIPLIK-1010",
++  kronoloji:[
++    { t:"-0330-10-18", tur:"toprak-kazanc", b:"Sippar'da İskender adına emir verildi (MÖ 331)", kaynak:"Sachs–Hunger ADART I -330, livius notu '18 October 331' (gün)" },
++    { t:"-0330-10-22", tur:"toprak-kazanc", b:"Büyük İskender Babil'e girdi (MÖ 331)", kaynak:"Sachs–Hunger ADART I, livius notu (gün)" },
++    { t:"-0311-01-01", tur:"bolunme", b:"Selevkos çağı başladı; Babilonya'da Seleukos ile Antigonos çekişmesi (MÖ 312)", kaynak:"TDV: keldaniler 'Selefki (312-171)' (yıl) · Boiy, JCS 52 (2000)" },
++    { t:"-0307-01-01", tur:"son", b:"IV. Aleksandros yılıyla tarihli son kayıt: 8. yıl, Borsippa (MÖ 309/8)", kaynak:"BCHP 3 Rev.iv.32'-33' — ay okunmuyor (yıl)" }
++  ]
++},
++{ id:"selefki", ad:"Selefkîler (Seleukos Krallığı)", tur:"krallik", bolge:"mezopotamya",
++  f:"-0311-01-01", t:"-0126-06-01", baskent:"Seleukeia → Antakya", boya_gerekli:true,
++  kesinlik:{f:"yil", t:"gun"},
++  ic_not_f:"TDV keldaniler 'Selefki (312-171)' · TDV iran 'Mezopotamya, İran ve Suriye’yi Selevkos (Seleucos) … aldı' ⇒ MÖ 312 = astronomik -0311 — YIL.",
++  ic_not_t:"ZARF ÜST SINIRI (HUKUM-KASA-1010 §9.6, koordinatör onayı ⓒ): ara dilimi KAPSAYACAK kadar. Olmstead, CPh 32 (1937): '…of Aspasine of Charax, as a letter dated year 184, Airu 24 (June 1, 127 B.C.) proves' ⇒ Babil o gün Karakene'de ⇒ Selevkos hâkimiyeti -0126-06-01'den SONRA hiçbir noktada yok (MÖ 127 = astronomik -0126) — GÜN, üst sınır. Ara dilimin kendi sonu (VII. Antiokhos'un ölümü) kaynakta yok ⇒ nokta dilimi en çok bu sınıra kadar uzanabilir. part f (-0140-07-03) ile örtüşme BEYANLIDIR (Seleukeia Part'ta, Babil MÖ 130'da yeniden Selevkos'ta). Mezopotamya ana ucu, devlet ucu DEĞİL (devlet Suriye'de sürdü; TDV'de yılsız). Olmstead, CPh 32 (1937): 'Mithradates I conquered Seleucia before the lunar eclipse of year 171, Duzu 13 (July 22, 141 B.C.); presumably, therefore, the enthronement was Simannu 28 (July 3, 141 B.C.)' ⇒ MÖ 141 = astronomik -0140; 'presumably' ⇒ AY. TDV iran '… milâttan önce 141’de Selevkos Krallığı’na tamamen hâkim oldu'. ⚠️ ARA DİLİM: VII. Antiokhos'un Babil'i geri alışı — Olmstead 'year 182, Airu 22 (June 1, 130 B.C.)' ⇒ -0129-06-01, tek tanık; bu zarf onu kapsar.",
++  ozet:"I. Selevkos'un kurduğu Helenistik krallık; Mezopotamya'yı MÖ 312'den Part I. Mithridates'in Seleukeia'yı almasına (MÖ 141) kadar tuttu, MÖ 130'da kısa bir geri dönüş yaşadı. (kaynak: Olmstead 1937 · TDV iran · keldaniler)",
++  kaynak:"Olmstead, 'Cuneiform Texts and Hellenistic Chronology', CPh 32 (1937) · Oracc CAMS-SelBI · CDLI · Finkel–van der Spek–Pirngruber BCHP 10 · TDV: iran · keldaniler · medain — KASA-SUMER-SAHIPLIK-1010",
++  kronoloji:[
++    { t:"-0311-01-01", tur:"kurulus", b:"Selevkos Mezopotamya'ya hâkim oldu; Selevkos çağı başladı (MÖ 312)", kaynak:"TDV: keldaniler (yıl)" },
++    { t:"-0140-07-03", tur:"toprak-kayip", b:"Part I. Mithridates Seleukeia'yı aldı; Mezopotamya Partlara geçti (MÖ 141)", kaynak:"Olmstead, CPh 32 (1937) — 'presumably' (ay)" },
++    { t:"-0129-06-01", tur:"toprak-kazanc", b:"VII. Antiokhos Babil'i geçici olarak geri aldı (MÖ 130)", kaynak:"Olmstead, CPh 32 (1937): 'year 182, Airu 22 (June 1, 130 B.C.)' — tek tanık (gün)" },
++    { t:"-0126-06-01", tur:"son", b:"Babil Karakene (Charax) hâkimiyetinde; Selevkos hâkimiyetinin kesin üst sınırı (MÖ 127)", kaynak:"Olmstead, CPh 32 (1937): 'year 184, Airu 24 (June 1, 127 B.C.)' (gün, üst sınır)" }
++  ]
++},
++{ id:"part", ad:"Part (Arsakî / Eşkânî) İmparatorluğu", tur:"imparatorluk", bolge:"iran",
++  f:"-0140-07-03", t:"0226-01-01", baskent:"Ktesifon", boya_gerekli:true,
++  kesinlik:{f:"ay", t:"yil"},
++  ic_not_f:"ZARF (HUKUM-KASA-1010 §9.6): atlas nokta kümesindeki en erken tasdik — Olmstead CPh 32 (1937) Seleukeia 'enthronement was Simannu 28 (July 3, 141 B.C.)' ('presumably' ⇒ AY); Schippmann EIr 'Arsacids ii' 'by 12 October 141, Mithridates’ power was recognized as far afield as … Uruk'. MÖ 141 = astronomik -0140. ⚠️ Devletin kendisi daha eski: TDV iran 'Part İmparatorluğu’nu kurdu (m.ö. 250)'.",
++  ic_not_t:"🔴 UÇ İKİ YERDE AYRI: Mezopotamya 0226 — Kröger EIr 'Ctesiphon': 'coronation of the Sasanian king Ardašīr I at Ctesiphon in 226' · Shahbazi EIr 'Vologeses VI (207-27), who ruled from Ctesiphon' · Schippmann: Vologases VI sikkeleri Seleukeia'da 'until at least 221/2' — YIL. Susa/Elymais 0224 (Martinez-Sève EIr 'Susa iv' 'conquered by the Sasanians in 224') — o uç noktanın kendi s: diliminde taşınır; zarf t = en geç uç = 0226.",
++  ozet:"Arsakes'in kurduğu İran hânedanı; MÖ 141'de Mezopotamya'yı Selevkoslardan aldı, Hormizdagan'da IV. Artabanos'un yenilgisi (224) ve Erdeşîr'in Ktesifon'da taç giymesiyle (226) sona erdi. (kaynak: EIr Arsacids ii · Ctesiphon · TDV iran · medain)",
++  kaynak:"EIr: Schippmann 'Arsacids ii' (1986) · Kröger 'Ctesiphon' · Shahbazi 'Sasanian dynasty' (2005) · Martinez-Sève 'Susa iv' (2015) · Jakubiak 'Arsacids viii' (2008) · Olmstead, CPh 32 (1937) · TDV: iran · keldaniler · medain — KASA-SUMER-SAHIPLIK-1010 · -2-1010",
++  kronoloji:[
++    { t:"-0140-07-03", tur:"toprak-kazanc", b:"I. Mithridates Seleukeia'yı aldı; Mezopotamya Part hâkimiyetine girdi (MÖ 141)", kaynak:"Olmstead, CPh 32 (1937) — 'presumably' (ay)" },
++    { t:"0224-01-01", tur:"savas", b:"Hormizdagan savaşı: IV. Artabanos Erdeşîr'e yenildi", kaynak:"EIr: Wiesehöfer 'Ardašīr I' '28 April 224' · Shahbazi 'Sasanian dynasty' '30 Mehr (= 28 May) 224' — gün iki maddede ayrışıyor ⇒ yıl" },
++    { t:"0226-01-01", tur:"son", b:"Erdeşîr Ktesifon'da taç giydi; Part hâkimiyeti Mezopotamya'da sona erdi", kaynak:"EIr: Kröger 'Ctesiphon' (yıl)" }
++  ]
++},
++{ id:"elymais", ad:"Elymais Krallığı", tur:"krallik", bolge:"iran",
++  f:"-0146-01-01", t:"0224-01-01", baskent:"— (kaynakta bulunamadı)", boya_gerekli:true,
++  kesinlik:{f:"onyil", t:"yil"},
++  ic_not_f:"Hansman EIr 'Elymais' (1998): 'in about 147 B.C.E. … Kamnaskires I took possession of Susiana' ⇒ MÖ 147 = astronomik -0146. ⚠️ ⑥ Martinez-Sève EIr 'Susa iv' 'about 143' — iki 'about' ⇒ ONYIL; -0146-01-01 sınır işaretidir. KASA'nın Susa dilimleri: ≈-0146 → ≈-0139 ve 0045 → 0215.",
++  ic_not_t:"Wiesehöfer EIr 'Ardašīr I' (1986): 'By 224, Ardašīr had extended his sway over Persis and beyond into Elymais (Ḵūzestān)' ⇒ 0224 üst sınır (ZARF) — YIL. Susa'da Elymais 215'te Part'a geri geçti: Hansman 'A commemorative inscription recovered at Susa and dated to 215 C.E. attests that Khwasak … had been satrap of Susa under Artabanus IV'. Başkent: Hansman alıntısındaki 'at the capital Susa' Susiana'nın başkentini mi Elymais'inkini mi söylüyor ayrıştırılamadı ⇒ yazılmadı.",
++  ozet:"Huzistan dağlık kesiminde Kamnaskires hânedanının krallığı; Susa'yı MÖ ~147'de ve MS I. yüzyıl ortasından 215'e kadar tuttu, Erdeşîr'in seferleriyle (224'e kadar) Sâsânî hâkimiyetine girdi. (kaynak: EIr Elymais · Susa iv · Ardašīr I)",
++  kaynak:"EIr: Hansman 'Elymais' (1998) · Martinez-Sève 'Susa iv' (2015) · Wiesehöfer 'Ardašīr I' (1986) — KASA-SUMER-SAHIPLIK-1010 · -2-1010",
++  kronoloji:[
++    { t:"-0146-01-01", tur:"kurulus", b:"I. Kamnaskires Susiana'yı aldı (MÖ ~147)", kaynak:"EIr: Hansman 'Elymais' — 'about' (onyıl)" },
++    { t:"0224-01-01", tur:"son", b:"Erdeşîr Elymais'i Sâsânî hâkimiyetine kattı", kaynak:"EIr: Wiesehöfer 'Ardašīr I' — 'By 224' (yıl, üst sınır)" }
++  ]
++},
++{ id:"sasani", ad:"Sâsânî İmparatorluğu", tur:"imparatorluk", bolge:"iran",
++  f:"0224-01-01", t:"0651-01-01", baskent:"Medâin (Ktesifon)", boya_gerekli:true,
++  ic_not_f:"ZARF (HUKUM-KASA-1010 §9.6): nokta kümesindeki en erken tasdik — Susa/Elymais 224, iki tanık: Martinez-Sève EIr 'Susa iv' 'conquered by the Sasanians in 224' · Wiesehöfer EIr 'Ardašīr I' 'By 224 … into Elymais (Ḵūzestān)'. Hormizdagan 224; gün iki EIr maddesinde ayrışıyor (28 Nisan / 28 Mayıs) ⇒ yıl hassasiyeti; 0224-01-01 sınır işaretidir. Mezopotamya noktaları 0226'dan başlar (Kröger EIr 'Ctesiphon': taç giyme 226). Önceki değer 0226 (TDV başlığı '226-651'). Kuşak 500'de başlar; f kuşak dışı ama künyenin gerçek başlangıcıdır (kırpılmadı).",
++  ic_not_t:"TDV: '651 yılında düşmanları tarafından Merv’de öldürülen Yezdicerd' [TDV: sasaniler] — YIL.",
++  ozet:"Erdeşîr-i Bâbekân'ın kurduğu İran hânedanı; Kādisiye ve Nihâvend yenilgilerinden sonra III. Yezdicerd'in Merv'de öldürülmesiyle sona erdi. (kaynak: TDV, madde: sasaniler)",
++  kaynak:"TDV: sasaniler (SÂSÂNÎLER) · EIr: Wiesehöfer 'Ardašīr I' · Martinez-Sève 'Susa iv' · Kröger 'Ctesiphon'",
++  kronoloji:[
++    { t:"0224-01-01", tur:"toprak-kazanc", b:"Hormizdagan zaferi; Erdeşîr Persis'ten Elymais'e (Huzistan) hâkimiyetini genişletti", kaynak:"EIr: Wiesehöfer 'Ardašīr I' · Martinez-Sève 'Susa iv' — gün iki EIr maddesinde ayrışıyor (28 Nisan / 28 Mayıs) ⇒ yıl" },
+     { t:"0226-01-01", tur:"kurulus", b:"Erdeşîr-i Bâbekân Sâsânî hânedanını kurdu", kaynak:"TDV: sasaniler başlığı: '226-651' (yıl)" },
+     { t:"0651-01-01", tur:"son", b:"Son Sâsânî hükümdarı III. Yezdicerd Merv'de öldürüldü; imparatorluk sona erdi", kaynak:"TDV: sasaniler (yıl)" }
+   ]
