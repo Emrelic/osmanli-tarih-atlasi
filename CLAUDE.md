@@ -714,8 +714,8 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 268 ders (dosya 268 = dizinde anılan
-benzersiz no 268, 6 Ekim 2026 gecesi ÖLÇÜLDÜ).
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 270 ders (dosya 270 = dizinde anılan
+benzersiz no 270, 10 Ekim 2026 ÖLÇÜLDÜ: `ls dersler/ | grep -cE "^D[0-9]+-"`).
 ⚠️ Sayarken `ls dersler/D*.md` KULLANMA: `DIZIN.md` de "D" ile başlıyor ve glob onu da
 sayıyor (bir fazla verir — `D267`nin tuzağının birebir aynısı). Doğrusu
 `ls dersler/ | grep -cE "^D[0-9]+-"`. Toplu okunmaz, kural
