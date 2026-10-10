@@ -1,0 +1,521 @@
+diff --git a/arac/_sahiplik_uygula.py b/arac/_sahiplik_uygula.py
+index 949984bb..a6946dc9 100644
+--- a/arac/_sahiplik_uygula.py
++++ b/arac/_sahiplik_uygula.py
+@@ -34,6 +34,9 @@
+        yazılır, çıkış 4) · yalnız gerekçesi tabloda YAZILI meşru kovalar 0'a izin verir.
+        Atlananlar en sonda TEK BLOK hâlinde ADIYLA basılır (`ATLANAN (n): ad [kova] · …`),
+        kuru koşuda da — commit mesajına olduğu gibi yapıştırılır.
++       (SAHIPLIK-KUR-KAPI-1010) KUR KAPISI: yazılacak d·s·v·isg dönemi `kur:`dan önce (arac/gun.py,
++       tolerans 0) ⇒ `kur-oncesi` = 2, yazılmaz · ayrıştırılamazsa `kur-olculemedi` = 3 · `devir_beyani`
++       muafiyeti `denetle.degismez5`in kendisinden okunur.
+ 
+ TABAN BEYANI (SAHIPLIK-BAYAT-TABAN-1009) — kayıt başına, `git apply`ın üç-yollu sorusu:
+     {ad:"Budin", s:[…hedef…], taban:{s:[…yamanın üretildiği andaki s…]}}
+@@ -1152,6 +1155,9 @@ ATLAMA_CIKIS = {
+     "kapsam-daraldi": 2,
+     # Kapsam ayrıştırılamadı — "kayıp yok" denemez.
+     "kapsam-olculemedi": 3,
++    # SAHIPLIK-KUR-KAPI-1010: yazılacak dönem `kur:`dan ÖNCE başlıyor (Değişmez 5a'yı YAZICI ÜRETİRDİ).
++    "kur-oncesi": 2,
++    "kur-olculemedi": 3,       # `f`/`kur` arac/gun.py ile ayrıştırılamadı ya da muafiyet ölçütü yüklenemedi
+     # Araç İNDİREMEDİ (yama doğru olabilir, yazıcı yazamıyor):
+     "taninmadi": 4,          # motor okuyor, araç göremiyor (1008'den beri 4)
+     "cipa-yok": 4,           # dizi kapanmıyor / `ad:` çıpası yok
+@@ -1187,6 +1193,80 @@ taban_aday = []       # (ad, dosya, r) — TABAN KAPISINA gidecek her değişim
+ beklenen = collections.defaultdict(dict)   # dosya -> ad -> {alan: GERİ OKUMADA beklenen}
+ kapsam_daralan = []   # (ad, dosya, [kayıp aralık]) — KAPSAM-1010: ÇIKIŞ 2, hiçbir dosya yazılmaz
+ kapsam_olcmedi = []   # (ad, dosya, sebep)          — KAPSAM-1010: ÇIKIŞ 3
++kur_oncesi = []       # (ad, dosya, [(alan, f)], kur) — KUR-KAPI-1010: ÇIKIŞ 2, yazılmaz
++kur_olcmedi = []      # (ad, dosya, sebep)            — KUR-KAPI-1010: ÇIKIŞ 3
++kur_muaf = []         # (ad, dosya, kur, ilk_f)        — Değişmez 5'in devir_beyani muafiyeti (bilgi)
++
++
++# ══ KUR KAPISI — SAHIPLIK-KUR-KAPI-1010 ═════════════════════════════════════════════════════
++# 🔴 ÖLÇÜLDÜ (denetim/KUR-KAPI-OLCUM-1010.md §③): KAPSAM-1010 anahtar sırası körlüğünü kapatınca
++#   Mergen (Nenjiang)'ın TESADÜFİ kalkanı da gitti: taban beyanı "taze" yazılmış bir yama `s:` qing
++#   1636'yı yazdı (`--yaz` çıkış 0), `kur:1686` yerinde kaldı, ardından denetle Değişmez 5 ✗ verdi.
++#   Yazıcı yazıyor, denetleyici SONRADAN yakalıyordu. Taban kapısı tabanı bugünle, geri alma kapısı
++#   diziyi geçmişle kıyaslar — hiçbiri dönemi `kur:`la kıyaslamaz.
++# Kural (tolerans 0): yazılacak d·s·v·isg dönemlerinden biri `gun.gun(f) < gun.gun(kur)` ise KAYIT
++#   YAZILMAZ (`kur-oncesi`, çıkış 2). "Yazılacak dönem" = bugünkü kayıtta AYNEN olmayan (yeni/değişen) dönem. `kur` yamalı kaydın son hâlinden okunur (yama boş `kur:`u
++#   dolduruyorsa onun değeri). Yama `kur:`u değiştiriyorsa kaydın BÜTÜN dönemleri sorulur.
++#   Tarih kıyası YALNIZ `arac/gun.py` (MÖ ve yıl 0 doğru; dizgi/datetime YOK). `f`/`kur` ayrıştırılamazsa
++#   `kur-olculemedi` (çıkış 3).
++# MUAFİYET — `devir_beyani`: ölçütü KOPYALANMAZ; Değişmez 5'in KENDİ işlevi (`denetle.degismez5`) yamalı
++#   kayıt üzerinde çağrılır, kayıt onun `muaf` listesine düşüyorsa (iki kilit: beyan metni + kur öncesi
++#   dönemlerde `kaynak:` yok) muaftır. ⚠️ Değişmez 5 kendi toleransının (HAYALET_TOLERANS_GUN) ALTINDAKİ
++#   farkta kilitleri hiç değerlendirmez ⇒ o bantta muafiyet kararı YOKTUR ve kapı tolerans 0 ile kayıt
++#   yazmaz (adıyla, "Değişmez 5 bu farkta karar vermiyor" notuyla). İşlev yüklenemezse `kur-olculemedi`.
++KUR_ALANLARI = ("d", "s", "v", "isg")
++
++
++def _kanon_d(p):
++    return json.dumps(p, sort_keys=True, ensure_ascii=False)
++
++
++def kur_kapisi(ad, r, eski_obj, yeni_obj):
++    """→ ("gecer"|"muaf"|"oncesi"|"olculemedi", ayrıntı)."""
++    kur = yeni_obj.get("kur")
++    if kur is None or (isinstance(kur, str) and not kur.strip()):
++        return "gecer", None
++    try:
++        import gun as _GUN                            # tuz dosyası — yalnız İTHAL
++        kg = _GUN.gun(kur.strip() if isinstance(kur, str) else kur)
++    except Exception as e:  # noqa: BLE001
++        return "olculemedi", "kur %r ayrıştırılamadı (%s: %s)" % (kur, type(e).__name__, e)
++    alanlar = KUR_ALANLARI if yeni_obj.get("kur") != eski_obj.get("kur") else \
++        [a for a in KUR_ALANLARI if a in r]
++    kur_degisti = yeni_obj.get("kur") != eski_obj.get("kur")
++    erken = []
++    for a in alanlar:
++        v = yeni_obj.get(a)
++        if not isinstance(v, list):
++            continue
++        # Bugün AYNEN duran dönem yazımla DOĞMAZ (yalnız korunur): o dönem Değişmez 5'in sorusudur,
++        #   yazıcının değil. Ölçüldü: Z5 v4'te Berezov · Olyokminsk · Selenginsk · Yakutsk'un 1592/1635/
++        #   1665/1632 dönemi BUGÜN de duruyor (D5 tolerans bandı); katı okuma v4'ü bu dördü için durdururdu.
++        #   `kur` değiştiyse BÜTÜN dönemler yeni kura karşı sorulur.
++        bugun = set() if kur_degisti else {_kanon_d(x) for x in (eski_obj.get(a) or []) if isinstance(x, dict)}
++        for p in v:
++            if _kanon_d(p) in bugun:
++                continue
++            f = p.get("f") if isinstance(p, dict) else None
++            try:
++                gf = _GUN.gun(f)
++            except Exception as e:  # noqa: BLE001
++                return "olculemedi", "%s dönemi f=%r ayrıştırılamadı (%s)" % (a, f, e)
++            if gf < kg:
++                erken.append((a, f))
++    if not erken:
++        return "gecer", None
++    try:
++        import denetle as _D5                         # Değişmez 5'in KENDİ ölçütü
++        _cel, _sup, _kursuz, _muaf = _D5.degismez5([dict(yeni_obj, ad=ad)])
++    except Exception as e:  # noqa: BLE001
++        return "olculemedi", "devir_beyani muafiyeti ölçülemedi — denetle.degismez5 çağrılamadı (%s: %s)" % (
++            type(e).__name__, str(e)[:100])
++    if any(m[0] == ad for m in _muaf):
++        return "muaf", (kur, erken)
++    not_ = "" if any(c[0] == ad for c in _cel) else \
++        " (Değişmez 5 bu farkta karar VERMİYOR — tolerans altı; muafiyet kilitleri sorulmadı)"
++    return "oncesi", (kur, erken, not_)
+ 
+ 
+ def _tirnaksiz(s):
+@@ -1395,8 +1475,10 @@ for ad, liste in sorted(gruplu.items()):
+     # 🔴 SAHIPLIK-KAPSAM-1010: kapsam desenle değil MOTORUN OKUYUCUSUYLA (kusur ②); bugünkü
+     #   hâl (`satir_orj`) ve yamalı hâl AYNI ayrıştırıcıdan geçer.
+     try:
+-        eski_kap = kapsam(_kayit_cevir(_kayit_nesnesi(satir_orj, dosya, i, j)))
+-        yeni_kap = kapsam(_kayit_cevir(_kayit_nesnesi(yeni_satir, dosya, i, j)))
++        _eski_obj = _kayit_cevir(_kayit_nesnesi(satir_orj, dosya, i, j))
++        _yeni_obj = _kayit_cevir(_kayit_nesnesi(yeni_satir, dosya, i, j))
++        eski_kap = kapsam(_eski_obj)
++        yeni_kap = kapsam(_yeni_obj)
+     except KapsamOlculemedi as _e:
+         ist["kapsam-olculemedi"] += 1
+         kapsam_olcmedi.append((ad, dosya, str(_e)))
+@@ -1418,6 +1500,23 @@ for ad, liste in sorted(gruplu.items()):
+         taban_aday.append((ad, dosya, r))
+         continue
+ 
++    # ⑤b KUR KAPISI (SAHIPLIK-KUR-KAPI-1010) — dönem kuruluştan ÖNCE mi (tolerans 0, arac/gun.py)
++    _kd, _kx = kur_kapisi(ad, r, _eski_obj, _yeni_obj)
++    if _kd == "olculemedi":
++        ist["kur-olculemedi"] += 1
++        kur_olcmedi.append((ad, dosya, _kx))
++        atlanan.append((ad, "kur-olculemedi", "KUR ÖLÇÜLEMEDİ — %s; kayıt YAZILMADI (çıkış 3)" % _kx))
++        continue
++    if _kd == "oncesi":
++        ist["kur-oncesi"] += 1
++        kur_oncesi.append((ad, dosya, _kx[1], _kx[0]))
++        atlanan.append((ad, "kur-oncesi", "KUR ÖNCESİ — kur:%s ama %s%s; yazılsa Değişmez 5a ihlali "
++                                          "(çıkış 2)" % (_kx[0], "; ".join("%s f:%s" % e for e in _kx[1][:3]),
++                                                         _kx[2])))
++        continue
++    if _kd == "muaf":
++        kur_muaf.append((ad, dosya, _kx[0], _kx[1][0][1]))
++
+     # 🔴 HEMEN YAZMA — aralık değişimi sonraki kayıtların satır
+     #   numaralarını kaydırır. Bütün düzenlemeler toplanır ve dosya
+     #   sonundan başına doğru (TERSTEN) uygulanır; böylece henüz
+@@ -1508,6 +1607,7 @@ for _h in hukumler:
+     else:
+         hukum_olu.append(_h)                      # yama koşuda, kayıt ATLANMIYOR (indi / değişti)
+ _hk_ad = {(_a, _k[8:]) for _a, _k, _s in atlanan if _k.startswith("hukumlu:")}
++kur_oncesi = [x for x in kur_oncesi if (x[0], "kur-oncesi") not in _hk_ad]   # hükümlü ⇒ 0
+ kapsam_hukumlu = [x for x in kapsam_daralan if (x[0], "kapsam-daraldi") in _hk_ad]
+ kapsam_daralan = [x for x in kapsam_daralan if (x[0], "kapsam-daraldi") not in _hk_ad]
+ if hukumler or hukum_red:
+@@ -1960,6 +2060,19 @@ if kapsam_daralan:
+     if _iki:
+         print("  ↳ %d kayıt İKİ KOVADA (KAPSAM DARALDI + BAYAT TABAN): %s"
+               % (len(_iki), " · ".join(_iki)))
++if kur_oncesi:
++    print()
++    print("🔴 KUR ÖNCESİ: %d kayıt — yazılacak dönem `kur:`dan ÖNCE başlıyor (Değişmez 5a; yazılmaz):"
++          % len(kur_oncesi))
++    for ad, dosya, erken, kur in sorted(kur_oncesi):
++        print("  KUR-ONCESI  %s  [%s]  kur:%s · %s" % (ad, dosya, kur, "; ".join("%s f:%s" % e for e in erken)))
++if kur_olcmedi:
++    print("🟠 KUR ÖLÇÜLEMEDİ: %d kayıt:" % len(kur_olcmedi))
++    for ad, dosya, x in sorted(kur_olcmedi):
++        print("  KUR-OLCULEMEDI  %s  [%s]  %s" % (ad, dosya, x))
++if kur_muaf:
++    print("  i KUR MUAF (Değişmez 5 devir_beyani, iki kilit): %s"
++          % " · ".join("%s (kur:%s, ilk %s)" % (a, k, f) for a, _d, k, f in sorted(kur_muaf)))
+ if kapsam_olcmedi:
+     print("🟠 KAPSAM ÖLÇÜLEMEDİ: %d kayıt — ölçülemedi ≠ temiz:" % len(kapsam_olcmedi))
+     for ad, dosya, x in sorted(kapsam_olcmedi):
+@@ -1978,6 +2091,8 @@ if bayat:
+     _ihlal.append("GERİ ALMA KAPISI BAYAT %d kayıt" % len(bayat))
+ if kapsam_daralan:
+     _ihlal.append("KAPSAM DARALDI %d kayıt" % len(kapsam_daralan))
++if kur_oncesi:
++    _ihlal.append("KUR ÖNCESİ %d kayıt" % len(kur_oncesi))
+ if yikici:
+     _ihlal.append("YIKICI YAZIM %d kayıt" % len(yikici))
+ _olcmedi = []
+@@ -1991,6 +2106,8 @@ if hukum_olu:
+     _olcmedi.append("HÜKÜM LİSTESİ %d ÖLÜ satır" % len(hukum_olu))
+ if kapsam_olcmedi:
+     _olcmedi.append("KAPSAM ölçülemedi %d kayıt" % len(kapsam_olcmedi))
++if kur_olcmedi:
++    _olcmedi.append("KUR ölçülemedi %d kayıt" % len(kur_olcmedi))
+ if _ihlal:
+     print()
+     print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 2) — %s%s." % (
+diff --git a/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py b/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
+index cbde5a6d..fe8e6d19 100644
+--- a/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
++++ b/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
+@@ -87,7 +87,10 @@ if hasattr(sys.stdout, "reconfigure"):
+     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+-ARAC = ["_sahiplik_uygula.py", "_bayat_yama_kapi.py", "girdi.py", "girdi_listesi.py", "_hukum_listesi.py"]
++# (KUR-KAPI-1010) kur kapısı `gun` ile kıyaslar ve muafiyeti `denetle.degismez5`ten okur ⇒ ikisi (ve denetle'nin
++#   import anında okuduğu uret_petek.py) geçici depoya da kopyalanır.
++ARAC = ["_sahiplik_uygula.py", "_bayat_yama_kapi.py", "girdi.py", "girdi_listesi.py", "_hukum_listesi.py",
++        "gun.py", "denetle.py", "uret_petek.py"]
+ HUKUM_LISTESI = os.path.join("denetim", "SAHIPLIK-HUKUM-LISTESI.json")
+ ESKI_REF = "origin/main"
+ ISARET = "SAHIPLIK-KAPSAM-1010"
+@@ -324,7 +327,8 @@ def imza(kod, out):
+     bay = tuple(sorted(satir_adlari(out, "TABAN-BAYAT")))
+     inen_b = out.split("İNEN (")[1].split("\n\n")[0] if "İNEN (" in out else ""
+     inen = tuple(sorted(re.findall(r"^  (Sinav\w+)", inen_b, re.M)))
+-    return (kod, tuple(sorted((a, tuple(k)) for a, k in adlar.items())), kap, bay, inen)
++    kur = tuple(sorted(satir_adlari(out, "KUR-ONCESI")))
++    return (kod, tuple(sorted((a, tuple(k)) for a, k in adlar.items())), kap, bay, inen, kur)
+ 
+ 
+ def kur():
+@@ -457,8 +461,9 @@ def sentetik(eski):
+             ad_s = "{" + ",".join(sira) + "}"
+             d = kur_p(("f", "t", "d"), ("mergen",), sira); dizinler.append(d)   # veri GERÇEKTEKİ gibi {f,t,d}
+             kod, out = kos(d)
+-            sina("K9 YENİ %s → çıkış 2 · TABAN-BAYAT'ta Sinavmergen · KAPSAM-DARALDI'da YOK" % ad_s,
+-                 kod == 2 and "Sinavmergen" in satir_adlari(out, "TABAN-BAYAT")
++            # (KUR-KAPI-1010) Mergen eşi artık TABAN'a ulaşmadan KUR KAPISINDA durur (qing 1636 < kur 1686).
++            sina("K9 YENİ %s → çıkış 2 · KUR-ONCESI'nde Sinavmergen · KAPSAM-DARALDI'da YOK" % ad_s,
++                 kod == 2 and "Sinavmergen" in satir_adlari(out, "KUR-ONCESI")
+                  and "Sinavmergen" not in satir_adlari(out, "KAPSAM-DARALDI"), "çıkış %d" % kod)
+             if eski:
+                 kod_e, out_e = kos(d, arac=eski)
+@@ -487,12 +492,13 @@ def sentetik(eski):
+             shutil.rmtree(d, ignore_errors=True)
+         farkli = set(imzalar_y.values())
+         ilk = imzalar_y[("ayni", ("f", "t", "d", "kaynak"))]
+-        print("    K10 YENİ imza (f,t,d,kaynak sırası): çıkış %d · blok %s · kapsam %s · bayat %s · inen %s" % ilk)
++        print("    K10 YENİ imza (f,t,d,kaynak sırası): çıkış %d · blok %s · kapsam %s · bayat %s · inen %s · kur-öncesi %s" % ilk)
+         sina("K10 YENİ 48 koşuda (24 ortak sıra + 24 yalnız-yama sırası) TEK sonuç (çıkış · blok · kapsam satırları · bayat · inen)",
+              len(farkli) == 1, "%d farklı imza" % len(farkli))
+-        sina("K10 YENİ o tek sonuç DOĞRU: çıkış 2 · kapsam {istanbul, gorunmez, ikikova} · bayat ⊇ {ikikova, mergen} · mesru İNDİ",
++        sina("K10 YENİ o tek sonuç DOĞRU: çıkış 2 · kapsam {istanbul, gorunmez, ikikova} · bayat ⊇ {ikikova} · "
++             "kur-öncesi {mergen} · mesru İNDİ",
+              ilk[0] == 2 and {a for a, _ in ilk[2]} == {"Sinavistanbul", "Sinavgorunmez", "Sinavikikova"}
+-             and {"Sinavikikova", "Sinavmergen"} <= set(ilk[3]) and "Sinavmesru" in ilk[4], str(ilk))
++             and "Sinavikikova" in ilk[3] and ilk[5] == ("Sinavmergen",) and "Sinavmesru" in ilk[4], str(ilk))
+         if eski:
+             fe = collections.Counter(imzalar_e.values())
+             print("    (bilgi) K10 ESKİ 48 koşuda %d FARKLI sonuç verdi (çıkış, kapsam-daraldı adları):" % len(fe))
+diff --git a/denetim/ARAC-SAHIPLIK-KUR-KAPI-SINAV-1010.py b/denetim/ARAC-SAHIPLIK-KUR-KAPI-SINAV-1010.py
+new file mode 100644
+index 00000000..428a016a
+--- /dev/null
++++ b/denetim/ARAC-SAHIPLIK-KUR-KAPI-SINAV-1010.py
+@@ -0,0 +1,272 @@
++# -*- coding: utf-8 -*-
++"""ARAC-SAHIPLIK-KUR-KAPI-SINAV-1010 — `_sahiplik_uygula.py` KUR KAPISI, İKİ YÖNDE.
++
++    py denetim/ARAC-SAHIPLIK-KUR-KAPI-SINAV-1010.py [--gercek-yok]
++
++Gerçek ağaçta HİÇBİR ŞEY yazmaz. Sentetik kollar geçici `git init` deposunda, `--yaz` YALNIZ orada.
++"ESKİ" = origin/main'deki araç (kur kapısı yok). Kapı: yazılacak (bugün AYNEN durmayan) d·s·v·isg dönemi
++`gun.gun(f) < gun.gun(kur)` ⇒ kayıt YAZILMAZ, kova `kur-oncesi`, çıkış 2; ayrıştırılamazsa `kur-olculemedi`, 3;
++`devir_beyani` muafiyeti `denetle.degismez5`in KENDİSİNDEN.
++
++SENTETİK                                                         beklenen
++  U1  Mergen eşi, yama {d,f,t}: qing 1636 < kur 1686               2 · KUR-ONCESI · dosya aynı (--yaz)
++  U2  aynı yama {f,t,d}                                           2 · aynı (sıradan BAĞIMSIZ)
++  U3  kur -2999 / f -3100                                         2 (yazmaz)
++  U4  kur -3100 / f -2999 (genişletme)                           0 · YAZILDI
++  U5  kur 0000 / f -0001                                          2 (yazmaz)
++  U6  f == kur                                                    0 · YAZILDI
++  U7  devir_beyani + kur öncesi dönemlerde kaynak YOK (iki kilit) 0 · YAZILDI · "KUR MUAF" satırı
++  U8  devir_beyani AMA kur öncesi bir dönem kaynaklı (kilit b)    2 (muafiyet YOK)
++  U9  bozuk kur (1686-13-01)                                      3 · KUR-OLCULEMEDI
++  U10 bozuk f (yeni dönemde 1700-02-30)                           3 · KUR-OLCULEMEDI
++  U11 D5 tolerans bandı (kur 1593, yeni f 1592-06-01)             2 · "Değişmez 5 bu farkta karar VERMİYOR"
++  U12 bugün AYNEN duran erken dönem + yeni geç dönem              0 (yazıcı doğurmuyor, sorulmaz)
++  U13 yama BOŞ kur'u dolduruyor, mevcut dönem ondan erken         2 (kur değişince bütün dönemler)
++  U14 hızlı kip JSON: kur-oncesi `listesiz_atlama`da, bozuk kur `listesiz_atlama`da (kod 3 kovası)
++GERÇEK (yalnız KURU, hızlı kip):
++  G1  denetle evreni (yer_yama* − Z5 karantinası): kur-oncesi ADIYLA basılır (ölçüm, sayı bilgi)
++  G2  Z5 v4 (+SESSIZ-7 v2) varsa: kur-oncesi 0, çıkış 0 (v4'ü durdurmuyor)
++SON  C:\\atlas ve C:\\atlas-umit `git status --short` sınavdan önce ve sonra AYNI.
++Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
++"""
++import hashlib
++import io
++import json
++import os
++import re
++import shutil
++import subprocess
++import sys
++import tempfile
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = ["_sahiplik_uygula.py", "_bayat_yama_kapi.py", "girdi.py", "girdi_listesi.py", "_hukum_listesi.py",
++        "gun.py", "denetle.py", "uret_petek.py"]
++IZLENEN = [r"C:\atlas", r"C:\atlas-umit"]
++GERCEK = "--gercek-yok" not in sys.argv
++sys.path.insert(0, os.path.join(KOK, "arac"))
++import girdi_listesi  # noqa: E402
++
++HEDEF = os.path.basename(girdi_listesi.GIRDI_DOSYALARI[0])
++sonuc = []
++
++
++def sina(ad, kosul, ayrinti=""):
++    sonuc.append((ad, bool(kosul)))
++    print("%s %s %s" % ("✓" if kosul else "✗ BAŞARISIZ", ad, ayrinti))
++
++
++def git(d, *a):
++    return subprocess.run(["git", "-c", "user.name=sinav", "-c", "user.email=s@s", "-c", "core.autocrlf=false"]
++                          + list(a), cwd=d, capture_output=True)
++
++
++def durum():
++    return {k: git(k, "status", "--short").stdout for k in IZLENEN if os.path.isdir(k)}
++
++
++def yaz(d, yol, metin):
++    io.open(os.path.join(d, yol), "w", encoding="utf-8", newline="\n").write(metin)
++
++
++def ozet(d):
++    return hashlib.sha256(open(os.path.join(d, "data", HEDEF), "rb").read()).hexdigest()
++
++
++def kos(d, *arg, arac=None):
++    p = subprocess.run([sys.executable, arac or "arac/_sahiplik_uygula.py"] + list(arg), cwd=d,
++                       capture_output=True, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++    return p.returncode, (p.stdout.decode("utf-8", "replace") + p.stderr.decode("utf-8", "replace")).replace("\r\n", "\n")
++
++
++def adlar(out, onek):
++    return {m.group(1) for m in re.finditer(r"^  %s  (.+?)  \[" % re.escape(onek), out, re.M)}
++
++
++def _js(v, sira):
++    if isinstance(v, list):
++        return "[" + ",".join(_js(x, sira) for x in v) + "]"
++    if isinstance(v, dict):
++        ks = [k for k in sira if k in v] + [k for k in v if k not in sira]
++        return "{" + ",".join("%s:%s" % (k, _js(v[k], sira)) for k in ks) + "}"
++    return json.dumps(v, ensure_ascii=False)
++
++
++def P(f, t, d, kaynak=None):
++    p = {"f": f, "t": t, "d": d}
++    if kaynak:
++        p["kaynak"] = kaynak
++    return p
++
++
++def kur_repo(bugun, yama, sira=("f", "t", "d")):
++    """bugun: kayıt dict (ad dahil) · yama: kayıt dict (taban otomatik = bugünkü s)."""
++    d = tempfile.mkdtemp(prefix="kur_sinav_")
++    os.makedirs(os.path.join(d, "arac"))
++    os.makedirs(os.path.join(d, "data"))
++    for f in ARAC:
++        shutil.copy(os.path.join(KOK, "arac", f), os.path.join(d, "arac", f))
++    k = dict(bugun)
++    ad = k.pop("ad")
++    yaz(d, "data/" + HEDEF, "window.YERLESIMLER = [\n{ ad:%s, tur:\"sehir\", lat:40.0, lon:30.0, %s },\n];\n"
++        % (json.dumps(ad, ensure_ascii=False), ", ".join("%s:%s" % (a, _js(v, ("f", "t", "d"))) for a, v in k.items())))
++    y = dict(yama)
++    y.setdefault("taban", {a: bugun.get(a) for a in ("d", "s", "v", "isg") if a in yama})
++    yaz(d, "data/yer_yama_sinav.js", "window.YER_YAMA_SINAV = [\n{ad:%s, %s}\n];\n"
++        % (json.dumps(ad, ensure_ascii=False), ", ".join("%s:%s" % (a, _js(v, sira)) for a, v in y.items() if a != "ad")))
++    git(d, "init", "-q"); git(d, "add", "-A"); git(d, "commit", "-q", "-m", "1")
++    return d
++
++
++MERGEN = {"ad": "Sinavmergen", "kur": "1686-01-01",
++          "s": [P("1686-01-01", "1912-02-12", "qing-hanedani"), P("1912-02-12", "1923-10-29", "cin-cumhuriyeti")]}
++MERGEN_Y = {"s": [P("1636-05-15", "1912-02-12", "qing-hanedani"), P("1912-02-12", "1923-10-29", "cin-cumhuriyeti")]}
++
++
++def mo(kur, f_eski, f_yeni):
++    """Bugün: kur + dönem [f_eski → 1500]; yama: dönemi f_yeni'den başlatır."""
++    return ({"ad": "Sinavmo", "kur": kur, "s": [P(f_eski, "1500-01-01", "a-devlet")]},
++            {"s": [P(f_yeni, "1500-01-01", "a-devlet")]})
++
++
++def sentetik(eski):
++    print("\n=== SENTETİK ===")
++    d_ler = []
++    try:
++        def vaka(ad_, bugun, yama, bek, sira=("f", "t", "d"), yazilmali=None, ek=None):
++            d = kur_repo(bugun, yama, sira); d_ler.append(d)
++            once = ozet(d)
++            kod, out = kos(d, "--yaz")
++            yazildi = ozet(d) != once
++            ok = kod == bek and (yazilmali is None or yazildi == yazilmali) and (ek is None or ek(out))
++            sina("%s → çıkış %d%s" % (ad_, bek, "" if yazilmali is None else (" · YAZILDI" if yazilmali else " · dosya aynı")),
++                 ok, "çıkış %d · yazıldı %s" % (kod, yazildi))
++            return d, kod, out
++
++        for u, sira in (("U1", ("d", "f", "t")), ("U2", ("f", "t", "d"))):
++            d, kod, out = vaka("%s Mergen eşi yama {%s}: qing 1636 < kur 1686" % (u, ",".join(sira)), MERGEN, MERGEN_Y, 2,
++                               sira, False, lambda o: adlar(o, "KUR-ONCESI") == {"Sinavmergen"})
++            if eski:
++                kod_e, out_e = kos(d, "--yaz", arac=eski)
++                print("    (bilgi) %s ESKİ (origin/main, kur kapısı YOK) → çıkış %d · %s" % (
++                    u, kod_e, "YAZDI (qing 1636)" if "1636-05-15" in io.open(os.path.join(d, "data", HEDEF),
++                                                                              encoding="utf-8").read() else "yazmadı"))
++        vaka("U3 kur -2999 / f -3100", *mo("-2999-01-01", "-2999-01-01", "-3100-01-01"), 2, yazilmali=False)
++        vaka("U4 kur -3100 / f -2999 (yama dönemi -2000'den -2999'a GENİŞLETİYOR)", *mo("-3100-01-01", "-2000-01-01", "-2999-01-01"), 0, yazilmali=True)
++        vaka("U5 kur 0000 / f -0001", *mo("0000-01-01", "0000-01-01", "-0001-01-01"), 2, yazilmali=False)
++        vaka("U6 f == kur", *mo("1500-01-01", "1450-06-01" if False else "1500-01-01", "1500-01-01"), 0,
++             ek=lambda o: not adlar(o, "KUR-ONCESI"))
++        # U6'nın yazım yönü: bugün f 1600 (kur 1500'den sonra), yama f'yi tam kur'a çekiyor
++        vaka("U6b f == kur (yama dönemi kur gününe çekiyor)",
++             {"ad": "Sinavmo", "kur": "1500-01-01", "s": [P("1600-01-01", "1700-01-01", "a-devlet")]},
++             {"s": [P("1500-01-01", "1700-01-01", "a-devlet")]}, 0, yazilmali=True)
++        beyan = "TDV murad-ii: Ergene Köprüsü 1443'te tamamlandı, kasaba o gün doğdu"
++        db = {"ad": "Sinavkopru", "kur": "1443-01-01", "devir_beyani": beyan,
++              "s": [P("1281-01-01", "1371-01-01", "bizans"), P("1371-01-01", "1923-10-29", "osmanli")]}
++        vaka("U7 devir_beyani + kur öncesi dönemlerde kaynak YOK → MUAF",
++             db, {"s": [P("1281-01-01", "1371-01-01", "bizans"), P("1371-01-01", "1500-01-01", "osmanli"),
++                        P("1500-01-01", "1923-10-29", "osmanli")]}, 0, yazilmali=True,
++             ek=lambda o: "KUR MUAF" in o and "Sinavkopru" in o)
++        vaka("U8 devir_beyani AMA kur öncesi dönem KAYNAKLI (kilit b) → muafiyet YOK",
++             db, {"s": [P("1281-01-01", "1371-01-01", "bizans", "TDV bizans: kasaba vardı"),
++                        P("1371-01-01", "1923-10-29", "osmanli")]}, 2, yazilmali=False,
++             ek=lambda o: adlar(o, "KUR-ONCESI") == {"Sinavkopru"})
++        vaka("U9 bozuk kur (1686-13-01)", dict(MERGEN, kur="1686-13-01"), MERGEN_Y, 3, yazilmali=False,
++             ek=lambda o: adlar(o, "KUR-OLCULEMEDI") == {"Sinavmergen"})
++        vaka("U10 bozuk f (yeni dönem 1700-02-30)", MERGEN,
++             {"s": [P("1686-01-01", "1700-02-30", "qing-hanedani"), P("1700-02-30", "1923-10-29", "cin-cumhuriyeti")]},
++             3, yazilmali=False, ek=lambda o: adlar(o, "KUR-OLCULEMEDI") == {"Sinavmergen"})
++        vaka("U11 D5 tolerans bandı (kur 1593 · yeni f 1592-06-01) → yine 2, 'karar VERMİYOR' notu",
++             {"ad": "Sinavberezov", "kur": "1593-01-01", "s": [P("1593-01-01", "1923-10-29", "rusya")]},
++             {"s": [P("1592-06-01", "1923-10-29", "rusya")]}, 2, yazilmali=False,
++             ek=lambda o: "karar VERMİYOR" in o)
++        vaka("U12 bugün AYNEN duran erken dönem + yeni geç dönem → sorulmaz, 0",
++             {"ad": "Sinavyakutsk", "kur": "1632-10-05", "s": [P("1632-01-01", "1923-10-29", "rusya")]},
++             {"s": [P("1632-01-01", "1923-10-29", "rusya"), P("1923-10-29", "1945-01-01", "sovyet")]}, 0,
++             yazilmali=True)
++        vaka("U13 yama BOŞ kur'u dolduruyor, mevcut dönem ondan erken → 2",
++             {"ad": "Sinavyenikur", "s": [P("1500-01-01", "1923-10-29", "a-devlet")]},
++             {"kur": "1600-01-01", "s": [P("1500-01-01", "1923-10-29", "a-devlet"), P("1923-10-29", "1945-01-01", "b")]},
++             2, yazilmali=False, ek=lambda o: adlar(o, "KUR-ONCESI") == {"Sinavyenikur"})
++        # U14 — hızlı kip JSON
++        d = kur_repo(MERGEN, MERGEN_Y); d_ler.append(d)
++        jy = os.path.join(d, "k.json")
++        kod, out = kos(d, "--atlama-yalniz", "--json", jy)
++        J = json.load(io.open(jy, encoding="utf-8"))
++        sina("U14 hızlı kip: çıkış 2 · JSON listesiz_atlama'da Sinavmergen [kur-oncesi]",
++             kod == 2 and [(o["ad"], o["kova"]) for o in J["listesiz_atlama"]] == [("Sinavmergen", "kur-oncesi")],
++             "çıkış %d" % kod)
++    finally:
++        for d in d_ler:
++            shutil.rmtree(d, ignore_errors=True)
++
++
++def gercek():
++    print("\n=== GERÇEK (yalnız KURU, hızlı kip) ===")
++    tmp = tempfile.mkdtemp(prefix="kur_gercek_")
++    W = os.path.join(tmp, "w")
++    try:
++        # çalışma ağacının satır sonu kuralıyla (autocrlf) — kopyalanan araç dosyalarına diff uygulanabilsin
++        subprocess.run(["git", "worktree", "add", "--detach", W, "HEAD"], cwd=KOK, capture_output=True)
++        for f in ARAC:
++            shutil.copy(os.path.join(KOK, "arac", f), os.path.join(W, "arac", f))
++        for f in ("SAHIPLIK-HUKUM-LISTESI.json",):
++            if os.path.exists(os.path.join(KOK, "denetim", f)):
++                shutil.copy(os.path.join(KOK, "denetim", f), os.path.join(W, "denetim", f))
++        jy = os.path.join(tmp, "g1.json")
++        kod, out = kos(W, "--atlama-yalniz", "--yama-glob", r"^(?!(?:yer_yama_1923_1945\.js)$)yer_yama.*\.js$",
++                       "--json", jy)
++        J = json.load(io.open(jy, encoding="utf-8"))
++        ko = [(o["ad"], o["yama"]) for o in J["listesiz_atlama"] if o["kova"] == "kur-oncesi"]
++        print("    G1 kur-oncesi %d kayıt (denetle evreni):" % len(ko))
++        for a, y in ko:
++            print("      %s  [%s]" % (a, y))
++        sina("G1 kur-oncesi ADIYLA basıldı (KUR-ONCESI satırları = JSON kovası)",
++             adlar(out, "KUR-ONCESI") == {a for a, _ in ko}, "%d" % len(ko))
++        v = [p for p in (os.path.join(KOK, "denetim", "YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff"),
++                         os.path.join(KOK, "denetim", "ZAMAN-Z5-1009-KOORD-v4.diff"),
++                         r"C:\atlas-umit\denetim\YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff",
++                         r"C:\atlas-umit\denetim\ZAMAN-Z5-1009-KOORD-v4.diff") if os.path.exists(p)]
++        ses = next((p for p in v if "SESSIZ" in p), None)
++        v4 = next((p for p in v if "v4" in p), None)
++        def ap(x):
++            return subprocess.run(["git", "apply", x], cwd=W, capture_output=True).returncode == 0
++        if ses and v4 and ap(ses) and ap(v4):
++            kod, out = kos(W, "--atlama-yalniz", "--yama-glob", r"^yer_yama_1923_1945\.js$")
++            sina("G2 Z5 v4 (+SESSIZ-7 v2): kur-oncesi 0 · çıkış 0", kod == 0 and not adlar(out, "KUR-ONCESI"),
++                 "çıkış %d · %s" % (kod, sorted(adlar(out, "KUR-ONCESI"))))
++        else:
++            print("    (G2 atlandı: SESSIZ-7 v2 / v4 diff'i bulunamadı ya da uygulanamadı)")
++    finally:
++        git(KOK, "worktree", "remove", "--force", W)
++        shutil.rmtree(tmp, ignore_errors=True)
++
++
++def main():
++    bas = durum()
++    tmp = tempfile.mkdtemp(prefix="kur_eski_")
++    eski = os.path.join(tmp, "_sahiplik_uygula_ESKI.py")
++    p = subprocess.run(["git", "show", "origin/main:arac/_sahiplik_uygula.py"], cwd=KOK, capture_output=True)
++    if p.returncode != 0 or b"SAHIPLIK-KUR-KAPI-1010" in p.stdout:
++        eski = None
++    else:
++        open(eski, "wb").write(p.stdout)
++    try:
++        sentetik(eski)
++        if GERCEK:
++            gercek()
++    finally:
++        shutil.rmtree(tmp, ignore_errors=True)
++    sina("SON C:\\atlas ve C:\\atlas-umit git status önce/sonra AYNI", durum() == bas)
++    kalan = [a for a, k in sonuc if not k]
++    print("\nSINAV: %d/%d geçti" % (len(sonuc) - len(kalan), len(sonuc)))
++    for a in kalan:
++        print("  ✗ " + a)
++    return 1 if kalan else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())
