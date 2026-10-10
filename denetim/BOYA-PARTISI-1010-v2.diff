@@ -1,0 +1,33 @@
+diff --git a/arac/renkler.py b/arac/renkler.py
+index 81b6d09..39a8cca 100644
+--- a/arac/renkler.py
++++ b/arac/renkler.py
+@@ -3117,6 +3117,16 @@ BOYALAR = {
+     "dobruca-despotlugu":      ("Dobruca Prensliği (Dobrotiç Devleti)", "#5ad224"),
+     "hersek":                  ("Hersek (Kosača Dukalığı)",           "#24c6d8"),
+     "prusya-dukaligi":         ("Prusya Dükalığı",                    "#ba24d2"),
++    # BOYA-PARTISI-1010 (10 Eki 2026, UMIT) — 3 künye, veride HENÜZ s:/isg: YOK (boya ÖNCE iner).
++    #   ⚠️ `renk_olc.py --oner` bu üçüne "komşusu ölçülemeyen kimlik" der (yalnız 2 engel = Osmanlı ikilisi)
++    #   ⇒ öneri BOŞ KÜMEYE karşı olurdu. Seçim, notlarda adı geçen yerleşimlere BELLEKTE eklenen
++    #   dönemlerle (Königsberg·Elbing·Gdansk / Freistadt·Linz + Bavyera 4 şehir / Nagpûr·Raipur·Ratanpur)
++    #   RENK-ARDIL-1009 v3 `renk_olc.py` engel evreninde (Voronoi ∪ 1500 km ∪ ardıl/selef) yapıldı;
++    #   kırmızı aile (ton 70°-330° dışı) ve L* < 59 elendi, hedef ΔE ≥ 13 (güvenli pay). Ayrıntı:
++    #   denetim/BOYA-PARTISI-1010.md. Veri yazılınca `py arac/renk_olc.py` ŞART (simülasyon veri değildir).
++    "teuton-devleti":          ("Töton Şövalyeleri Devleti (Prusya)", "#6c0cf0"),
++    "bavyera":                 ("Bavyera (Dükalık → Elektörlük → Krallık)", "#ea9618"),
++    "nagpur-bhonsle":          ("Nagpur Bhonsle Krallığı",            "#b424d8"),
+     # ================================================================
+     # MERGE 5 EYLUL 2026 — 29 KIMLIK, TEK TURDA COZULDU
+     # `renk_olc.py --oner` · artefakt: oneri-20260905-224505.txt
+diff --git a/data/devletler.js b/data/devletler.js
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -10253,7 +10253,7 @@
+   ]
+ },
+ { id:"teuton-devleti", ad:"Töton Şövalyeleri Devleti (Prusya)", tur:"tarikat-devleti", bolge:"orta-avrupa",
+-  f:"1230-01-01", t:"1525-04-08", baskent:"Kulm → Marienburg (1309) → Königsberg (1457)", boya_gerekli:true,
++  f:"1230-01-01", t:"1525-04-08", baskent:"Kulm → Marienburg (1309) → Königsberg (1457)",
+   alinti_f:"1230 pirmieji VO daliniai atsikėlė į Kulmo žemę ir pradėjo pulti prūsus",
+   alinti_t:"mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches we",
+   ic_not_f:"f seçimi: Rimini Altın Bullası (1226) toprak VERMEZ, yalnız hak tanır (VLE: '1226 ir 1230 Aukso bulės'; snl 'Tyske orden': 'i 1226 fikk den det ennå hedenske Preussen som misjonsmark'); fiilî toprak sahipliği ilk birliklerin Kulm'a yerleşmesiyle 1230'da başlar ⇒ harita için 1230. Gün kaynakta yok. Fetih 1231'de başlar (lex).",

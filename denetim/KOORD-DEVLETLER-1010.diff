@@ -1,0 +1,13 @@
+diff --git a/data/devletler.js b/data/devletler.js
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -10535,7 +10535,8 @@
+   ]
+ },
+ { id:"teuton-sovalyeleri", ad:"Töton Tarikatı Devleti (Prusya'da)", tur:"devlet", bolge:"dogu-avrupa",
+-  f:"1281-01-01", t:"1525-04-08", baskent:"Marienburg (Malbork) → Königsberg",
++  // TASLAK — koordinatör onayı bekliyor (KOORD-DEVLETLER-1010 ①: aynı devletin iki künyesi, takma ad)
++  f:"1281-01-01", t:"1525-04-08", baskent:"Marienburg (Malbork) → Königsberg", harita:"teuton-devleti",
+   ic_not_f:"PENCERE İŞARETİ, ölçüm DEĞİL: tarikat devleti 1281'den eskidir; 1226 Rimini / 1230 Kulm yalnız özette (P) — kurumsal kaynakta kelimesi kelimesine BULUNAMADI.",
+   ic_not_t:"HLB gün verir. Ardıl prusya-dukaligi f: 1525-04-08 — pencere birebir tutuyor. Kronolojideki '1525-04-10 sekülerleşme' maddesi 2 gün DIŞARIDA kalıyor (10 Nisan biat günü kurumsal kaynakta bulunamadı) — kronoloji_almanya.js sahibine bildirilecek.",
+   ozet:"Töton Şövalyeleri Tarikatı'nın Prusya'da kurduğu tarikat devleti; 1410 Grunwald yenilgisinden sonra geriledi, 1525'te büyük üstat Albrecht'in tarikattan ayrılıp Polonya'ya tâbi Prusya Dükalığı'nı almasıyla sona erdi. Ardılı [[prusya-dukaligi]].",
