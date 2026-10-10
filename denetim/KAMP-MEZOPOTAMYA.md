@@ -562,3 +562,41 @@ Okuyucunun 68 EVET KAYIT'ı bölündü:
 
 ### 📌 Yöntem (koordinatör adlandırdı): bir ilişkinin DÜZENLİ olup olmadığı, o ilişkiyi İNKÂR EDEN SONRAKİ bir kaynaktan okunabilir
 - 882 metni ("atalarım zamanında Suhu valisi gelmemişti") 885 haracını ⓐ'ya düşürdü. Sonraki tanık, önceki olayı tipledi.
+
+## 18. ⓑ HARAÇ: TANIK UZATMA → tanıklı aralık dilimleri
+Okuyucu RIMA 2/3 (Grayson OCR), SAAS 2 eponim listesi + kroniği, RINAP 1 (Tiglat-pileser III 1–57) ve ORACC Suhu'yu taradı. Kanıt `KAMP-MEZOPOTAMYA-HARAC-UZAT.md`.
+
+### Dilim kuralı (koordinatör hükmü + KASA'nın beyanlı ek kuralı)
+- tanık ≥2 nokta → dilim [ilk, son]; uçlar ÖLÇÜLEMEDİ beyanlı.
+- tanık 1 nokta → 1 YIL dilim + beyan (sıfır uzunluk YASAK, Tebriz kuralı).
+- **KASA ek kuralı (beyanlı, hüküm sende):**
+  - Tanıklar ancak AYNI ya da ARDIŞIK saltanattaysa tek dilimde birleşir.
+  - Arada tanıksız bir saltanat varsa ayrı dilim açılır, ara BOŞLUK kalır.
+  - Bir İSYAN/koalisyon tanığı varsa dilim orada kesilir.
+- Gerekçe: Sam'al'ın 857/853 ile 738 tanıkları arasında BEŞ saltanat ve 115 YIL tanıksız. [857, 738] yazmak 115 yıllık bir tâbiliği beyansız İDDİA ederdi.
+
+### Sonuç: 6 POLITY → 9 DİLİM
+| polity | dilim | tanık | not |
+|---|---|---|---|
+| patina | 857–831 | 4 (857, 853, 848, 831) | 831 gaspçı aynı yıl giderildi (Sasi atandı); 738 isyan + ilhak ayrı |
+| samal | 857–853 | 2 | 853–738 BOŞLUK |
+| samal | 738 | 1 → 1 YIL | Panammû, TP III listesi |
+| kummuh | 866–853 | 4 (866, 858, 857, 853) | ilk tanık 857 değil **866** (okuyucu buldu) |
+| kummuh | 773 | 1 → 1 YIL | Pazarcık arka yüzü; ön yüz (805) konvansiyonel ②, "haraç" kelimesi yok ⇒ SAYILMADI |
+| kummuh | 738 | 1 → 1 YIL | 743 Urartu koalisyonu (yalnız özet metin 47) kesinti adayı ⇒ 773 ile BİRLEŞTİRİLMEDİ |
+| qatnu | 894–878 | 4 | ≥797 Nergal-ēreš eyaleti (②) ⇒ polity sonu |
+| bit-zamani | 886–879 | 3 | 879 vasal öldürüldü → Ilānu YILLIK haraçla atandı (ilişki sürdü); 866 kuşatma = isyan ⇒ kesinti |
+| suhu | 882 | 1 → 1 YIL | 878 Kudurru isyanı ⇒ kesinti |
+
+- 1 YIL'lık DİLİM sayısı: **4**. Kullanıcıya titreyerek görünür ⇒ her birinin notunda BEYAN var.
+- **Okuyucu ile ayrıştığım yer — Suhu:**
+  - Okuyucu Suhu'nun ilk tanığını **885** saydı (Tukulti-Ninurta II, Anat'ta haraç). KASA saymadı.
+  - Sebep: §16'daki 882 cümlesi ("atalarım zamanında Suhu valisi Asur'a gelmemişti") 885'i sefer ganimeti (ⓐ) yapar.
+  - Yeni okuyucu aynı 885'i "ilişki tanığı" diye getirdi. Sonraki inkâr eden tanık ilkesi ⇒ getirilen tanık REDDEDİLDİ, beyanlı.
+- **🔴 ÇÜRÜTME (silinmedi):** SUZEREN.csv'deki eski `suhu ← yeni-asur ≥-911 (Adad-nārārī II)` satırı (§12, ⓓ okuyucusu).
+  - Aynı 882 cümlesi Adad-nārārī II'den beri DÜZENLİ ilişki OLMADIĞINI söylüyor.
+  - Satır `v_tipi = ÇÜRÜTÜLDÜ` yapıldı, gerekçe yanında. Düzenli dilim 882 satırında.
+  - ⇒ "Kapı geçti, sebep yanlış": ⓓ okuyucusu bir haraç alımını tâbiliğin BAŞLANGICI saymıştı.
+- `dataset_ici`: 5 POLITY dataset dışı (patina, samal, kummuh, qatnu, bit-zamani; `atif` K3/K4 notta), yalnız suhu içeride.
+- SUZEREN.csv: 20 → **29 satır** (9 yeni dilim; çürütülen 1 satır yerinde).
+- Kapsam dışı kalan: Kummuh'un 708 ilhakı (bu kaynaklarda yok; OLAY-C'de 708 "Kummuhu alındı ve vali atandı" ZATEN var ⇒ kummuh polity sonu oradan okunabilir).
