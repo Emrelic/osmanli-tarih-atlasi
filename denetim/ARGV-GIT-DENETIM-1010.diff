@@ -1,0 +1,800 @@
+diff --git a/denetim/ARAC-ARGV-GIT-DENETIM-1010.py b/denetim/ARAC-ARGV-GIT-DENETIM-1010.py
+new file mode 100644
+index 00000000..26423a2d
+--- /dev/null
++++ b/denetim/ARAC-ARGV-GIT-DENETIM-1010.py
+@@ -0,0 +1,607 @@
++# -*- coding: utf-8 -*-
++"""ARAC-ARGV-GIT-DENETIM-1010 — araçların İÇİNDEKİ git çağrılarının STATİK denetimi.
++
++🔴 NİÇİN (KOS-VE-YAYINLA-ADD-1010): `kos_ve_yayinla.py` aylarca
++    kos("git add", ["git", "add", "-A", "--", "data", "index.html"])
++    kos("git commit", ["git", "commit", "-F", MESAJ])          ← pathspec YOK
++çalıştırdı. `arac/kabuk_nobetci.py`nin ADD-HEPSI dalı `git add -A`yı KABUK
++METNİNDE yakalar; bir aracın `subprocess` argv LİSTESİ onun evreninde değildi.
++Kanca da dört makinede kayıtlı değil (`.claude/settings.json` gitignore'da).
++⇒ Yasak, komutun METNİNE değil KOMUTUN KENDİSİNE yazılır: bu araç `arac/**/*.py`
++dosyalarını AST ile okur, git'e giden her argv'yi ÇÖZER ve sınıflar.
++Kapı ya da kanca DEĞİL; `denetle.py`ye bağlı DEĞİL (tek-sahip kuralı).
++
++ÇÖZÜLEN ÇAĞRILAR
++  • subprocess.run/call/Popen/check_output/check_call/getoutput/getstatusoutput
++    (`import subprocess as X` ve `from subprocess import run as Y` dahil)
++  • os.system / os.popen (kabuk metni)
++  • DOSYANIN KENDİ SARMALAYICILARI: bir işlevin parametresi (ya da *args'ı) bir
++    subprocess çağrısının argv'sine akıyorsa o işlev SARMALAYICIDIR (kos(),
++    _calistir(), git(*a) …). İç çağrı raporlanmaz; sarmalayıcıyı çağıran HER
++    satır, parametre bağlanarak çözülür. Sarmalayıcıyı çağıran sarmalayıcı
++    da (3 tura kadar) çözülür.
++  • Ad çözümü: aynı kapsamda çağrıdan ÖNCEKİ `X = [...]`, `X += [...]`,
++    `X.append(..)`, `X.extend(..)` (denetim akışı yok sayılır — yaklaşık).
++    `sys.executable` "python" sayılır.
++
++SINIFLAR (ilk ad `arac/kabuk_nobetci.py` DALLAR'ından OKUNUR, değiştirilmez)
++  ADD-HEPSI            git add -A / --all / .            (kabuk_nobetci adı)
++  COMMIT-HEPSI         git commit -a / --all / -am …
++  COMMIT-PATHSPECSIZ   git commit, `--` YOK              (YENİ: paylaşılan indeks)
++  STASH                git stash (list/show HARİÇ)       (proje yasağı)
++  PUSH-ZORLA           git push --force / -f / --force-with-lease / +refspec
++
++ÖLÇÜLEMEDİ (adıyla, sebebiyle): ayrıştırılamayan dosya · argv çözülemedi (program
++bilinmiyor) · git alt komutu çözülemedi · çözülemeyen parça kararı değiştirebilir
++(ör. `["git","commit","-F",m] + liste` ve liste bilinmiyor — `--` içinde olabilir).
++
++    py denetim/ARAC-ARGV-GIT-DENETIM-1010.py [--kok <ağaç>] [--dizin arac] [--ayrinti]
++Çıkış: 0 temiz · 1 İHLAL · 2 ÖLÇÜLEMEDİ (ihlal yoksa). İhlal varsa ölçülemeyenler
++YİNE basılır.
++"""
++import ast
++import glob
++import io
++import os
++import re
++import shlex
++import sys
++import warnings
++
++warnings.simplefilter("ignore", SyntaxWarning)   # taranan dosyaların kaçış uyarıları
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++
++SP_FONK = {"run", "call", "Popen", "check_output", "check_call", "getoutput",
++           "getstatusoutput"}
++OS_FONK = {"system", "popen"}
++BILINMEZ = None                    # bilinmeyen TEK öğe
++DIZI = object()                    # bilinmeyen UZUNLUKTA dizi (Starred, çözülemeyen ad)
++
++
++class Cozulemedi(Exception):
++    pass
++
++
++# ── sınıf adları kabuk_nobetci'den ─────────────────────────────────────────
++def kabuk_siniflari(kok):
++    yol = os.path.join(kok, "arac", "kabuk_nobetci.py")
++    agac = ast.parse(io.open(yol, encoding="utf-8").read())
++    for n in agac.body:
++        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "DALLAR"
++                                             for t in n.targets):
++            return [e.elts[0].value for e in n.value.elts
++                    if isinstance(e, ast.Tuple) and isinstance(e.elts[0], ast.Constant)]
++    raise Cozulemedi("kabuk_nobetci.py DALLAR bulunamadı")
++
++
++# ── argv çözümü ────────────────────────────────────────────────────────────
++class Kapsam:
++    """Bir işlev (ya da modül) gövdesi: ad → [(satır, düğüm, tür)]."""
++
++    def __init__(self, govde):
++        self.olay = {}
++        for n in ast.walk(ast.Module(body=govde, type_ignores=[])):
++            if isinstance(n, ast.Assign):
++                for t in n.targets:
++                    if isinstance(t, ast.Name):
++                        self.olay.setdefault(t.id, []).append((n.lineno, n.value, "="))
++            elif isinstance(n, ast.AugAssign) and isinstance(n.target, ast.Name) \
++                    and isinstance(n.op, ast.Add):
++                self.olay.setdefault(n.target.id, []).append((n.lineno, n.value, "+="))
++            elif isinstance(n, ast.Call) and isinstance(n.func, ast.Attribute) \
++                    and isinstance(n.func.value, ast.Name) and n.args \
++                    and n.func.attr in ("append", "extend", "insert"):
++                self.olay.setdefault(n.func.value.id, []).append(
++                    (n.lineno, n.args[-1], n.func.attr))
++
++
++def coz(e, bag, kapsamlar, satir, derinlik=0):
++    """İfade → öğe listesi (str · BILINMEZ · DIZI). Yapı çözülemezse Cozulemedi."""
++    if derinlik > 12:
++        raise Cozulemedi("çözüm derinliği aşıldı")
++    d = derinlik + 1
++    if isinstance(e, (ast.List, ast.Tuple)):
++        out = []
++        for x in e.elts:
++            if isinstance(x, ast.Starred):
++                out += coz(x.value, bag, kapsamlar, satir, d)
++            else:
++                out.append(oge(x, bag, kapsamlar, satir, d))
++        return out
++    if isinstance(e, ast.BinOp) and isinstance(e.op, ast.Add):
++        return coz(e.left, bag, kapsamlar, satir, d) + coz(e.right, bag, kapsamlar, satir, d)
++    if isinstance(e, ast.Call) and isinstance(e.func, ast.Name) and e.func.id in ("list", "tuple") \
++            and len(e.args) == 1:
++        return coz(e.args[0], bag, kapsamlar, satir, d)
++    if isinstance(e, ast.Name):
++        if e.id in bag:
++            return list(bag[e.id])
++        for k in kapsamlar:
++            olay = [o for o in k.olay.get(e.id, []) if o[0] < satir]
++            if not olay:
++                continue
++            son_atama = max((i for i, o in enumerate(olay) if o[2] == "="), default=None)
++            if son_atama is None:
++                return [DIZI]
++            deger = coz(olay[son_atama][1], bag, kapsamlar, olay[son_atama][0], d)
++            for no, x, tur in olay[son_atama + 1:]:
++                if tur == "+=" or tur == "extend":
++                    deger += _guvenli_coz(x, bag, kapsamlar, no, d)
++                elif tur == "append":
++                    deger.append(oge(x, bag, kapsamlar, no, d))
++                else:
++                    deger.append(DIZI)
++            return deger
++        return [DIZI]
++    if isinstance(e, ast.Starred):
++        return coz(e.value, bag, kapsamlar, satir, d)
++    if isinstance(e, ast.Constant) and isinstance(e.value, str):
++        raise Cozulemedi("argv bir METİN (kabuk) — liste değil")
++    return [DIZI]
++
++
++def _guvenli_coz(x, bag, kapsamlar, satir, d):
++    try:
++        return coz(x, bag, kapsamlar, satir, d)
++    except Cozulemedi:
++        return [DIZI]
++
++
++def oge(x, bag, kapsamlar, satir, d):
++    if isinstance(x, ast.Constant) and isinstance(x.value, str):
++        return x.value
++    if isinstance(x, ast.Attribute) and isinstance(x.value, ast.Name) \
++            and x.value.id == "sys" and x.attr == "executable":
++        return "python"
++    if isinstance(x, ast.Name):
++        if x.id in bag:
++            v = bag[x.id]
++            return v[0] if len(v) == 1 and isinstance(v[0], str) else BILINMEZ
++        for k in kapsamlar:
++            olay = [o for o in k.olay.get(x.id, []) if o[0] < satir and o[2] == "="]
++            if olay and isinstance(olay[-1][1], ast.Constant) and isinstance(olay[-1][1].value, str):
++                return olay[-1][1].value
++    if isinstance(x, ast.IfExp):
++        a, b = oge(x.body, bag, kapsamlar, satir, d), oge(x.orelse, bag, kapsamlar, satir, d)
++        if a is BILINMEZ or b is BILINMEZ:
++            return BILINMEZ
++        if "git" in (os.path.basename(a).lower(), os.path.basename(b).lower()):
++            return "git"
++        return a if a == b else "%s|%s" % (a, b)
++    if isinstance(x, ast.JoinedStr):
++        parca = [v.value for v in x.values if isinstance(v, ast.Constant)]
++        return "".join(parca) if parca and len(parca) == len(x.values) else BILINMEZ
++    return BILINMEZ
++
++
++def metin(e, bag, kapsamlar, satir):
++    """Kabuk metni → str ({} = bilinmeyen parça) ya da Cozulemedi."""
++    if isinstance(e, ast.Constant) and isinstance(e.value, str):
++        return e.value
++    if isinstance(e, ast.JoinedStr):
++        return "".join(v.value if isinstance(v, ast.Constant) else "{}" for v in e.values)
++    if isinstance(e, ast.BinOp) and isinstance(e.op, (ast.Add, ast.Mod)):
++        sol = metin(e.left, bag, kapsamlar, satir)
++        if isinstance(e.op, ast.Mod):
++            return sol
++        return sol + metin(e.right, bag, kapsamlar, satir)
++    if isinstance(e, ast.Name):
++        for k in kapsamlar:
++            olay = [o for o in k.olay.get(e.id, []) if o[0] < satir and o[2] == "="]
++            if olay:
++                return metin(olay[-1][1], bag, kapsamlar, olay[-1][0])
++    raise Cozulemedi("kabuk metni çözülemedi")
++
++
++# ── sınıflama ──────────────────────────────────────────────────────────────
++GLOBAL_DEGERLI = {"-C", "-c", "--git-dir", "--work-tree", "--namespace", "--exec-path"}
++
++
++def sinifla(argv, add_adi):
++    """argv öğeleri → ([(sınıf, açıklama)], ölçülemedi_sebebi|None). git değilse ([], None)."""
++    if not argv:
++        return [], None
++    p = argv[0]
++    if p is DIZI:
++        return [], "program çözülemedi (argv bilinmeyen bir diziyle başlıyor)"
++    if p is BILINMEZ:
++        return [], "program çözülemedi (argv[0] bilinmiyor)"
++    if os.path.basename(p).lower() not in ("git", "git.exe"):
++        return [], None
++    i = 1
++    while i < len(argv):
++        t = argv[i]
++        if t is DIZI or t is BILINMEZ:
++            return [], "git alt komutu çözülemedi"
++        if t in GLOBAL_DEGERLI:
++            i += 2
++            continue
++        if t.startswith("-"):
++            i += 1
++            continue
++        break
++    if i >= len(argv):
++        return [], None
++    alt, arg = argv[i], argv[i + 1:]
++    bilinen = [a for a in arg if isinstance(a, str)]
++    # 📌 Yalnız DIZI (bilinmeyen UZUNLUKTA parça) `--`/-A taşıyabilir sayılır;
++    #    tek BILINMEZ öğe bir DEĞERDİR (yol değişkeni, -F dosyası) — "--" ya da
++    #    "-A" olduğunu varsaymak her yol değişkeninde yanlış "ölçülemedi" üretir.
++    belirsiz = any(a is DIZI for a in arg)
++    once = []                                   # `--`dan önceki seçenekler
++    for a in arg:
++        if a == "--":
++            break
++        once.append(a)
++    ihlal = []
++    if alt == "add":
++        if any(a in ("-A", "--all") for a in bilinen) or "." in bilinen:
++            ihlal.append((add_adi, "git add %s" % " ".join(_g(a) for a in arg)))
++        elif belirsiz and "--" not in bilinen:
++            return [], "git add argümanı çözülemedi (-A/. içerebilir, `--` yok)"
++    elif alt == "commit":
++        if any(a in ("-a", "--all") or (isinstance(a, str) and re.fullmatch(r"-[A-Za-z]*a[A-Za-z]*", a)
++                                         and not a.startswith("--"))
++               for a in once if isinstance(a, str)):
++            ihlal.append(("COMMIT-HEPSI", "git commit %s" % " ".join(_g(a) for a in arg)))
++        if "--" not in bilinen:
++            if belirsiz:
++                return ihlal, "git commit argümanı çözülemedi (`--` içinde olabilir)"
++            ihlal.append(("COMMIT-PATHSPECSIZ", "git commit %s" % " ".join(_g(a) for a in arg)))
++    elif alt == "stash":
++        ilk = arg[0] if arg else None
++        if ilk not in ("list", "show"):
++            ihlal.append(("STASH", "git stash %s" % " ".join(_g(a) for a in arg)))
++    elif alt == "push":
++        if any(a in ("--force", "-f", "--force-with-lease") or a.startswith("--force")
++               or (a.startswith("+") and len(a) > 1) for a in bilinen):
++            ihlal.append(("PUSH-ZORLA", "git push %s" % " ".join(_g(a) for a in arg)))
++    return ihlal, None
++
++
++def _g(a):
++    return "<?>" if a is BILINMEZ else ("<…>" if a is DIZI else a)
++
++
++def kabuk_sinifla(m, add_adi):
++    """Kabuk metninde git komut(lar)ı; kabuk_nobetci düzenleriyle."""
++    ihlal = []
++    for parca in re.split(r"&&|\|\||;|\|", m):
++        try:
++            argv = shlex.split(parca, posix=True)
++        except ValueError:
++            argv = parca.split()
++        argv = [BILINMEZ if a == "{}" else a for a in argv]
++        if argv and argv[0] in ("git", "git.exe"):
++            i, _ = sinifla(argv, add_adi)
++            ihlal += i
++    return ihlal
++
++
++# ── dosya taraması ─────────────────────────────────────────────────────────
++def _islevler(agac):
++    return [n for n in ast.walk(agac) if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))]
++
++
++def tara_dosya(yol, add_adi, goreli):
++    kaynak = io.open(yol, encoding="utf-8", errors="strict").read()
++    agac = ast.parse(kaynak, filename=yol)
++    sp_mod, sp_ad, os_mod = set(), {}, set()
++    for n in ast.walk(agac):
++        if isinstance(n, ast.Import):
++            for a in n.names:
++                if a.name == "subprocess":
++                    sp_mod.add(a.asname or "subprocess")
++                if a.name == "os":
++                    os_mod.add(a.asname or "os")
++        elif isinstance(n, ast.ImportFrom) and n.module == "subprocess":
++            for a in n.names:
++                if a.name in SP_FONK:
++                    sp_ad[a.asname or a.name] = a.name
++    if not sp_mod and not sp_ad and not os_mod:
++        return [], [], 0, [], []
++
++    def tur(c):
++        f = c.func
++        if isinstance(f, ast.Attribute) and isinstance(f.value, ast.Name):
++            if f.value.id in sp_mod and f.attr in SP_FONK:
++                return "sp"
++            if f.value.id in os_mod and f.attr in OS_FONK:
++                return "os"
++        if isinstance(f, ast.Name) and f.id in sp_ad:
++            return "sp"
++        return None
++
++    # düğüm → en içteki işlev · düğüm → kapsayan For düğümleri (dıştan içe)
++    ebeveyn, donguler = {}, {}
++
++    def _in(n, fn, fors):
++        for c in ast.iter_child_nodes(n):
++            ebeveyn[c] = fn
++            donguler[c] = fors
++            if isinstance(c, (ast.FunctionDef, ast.AsyncFunctionDef)):
++                _in(c, c, ())
++            elif isinstance(c, ast.For):
++                ebeveyn[c.iter] = fn
++                donguler[c.iter] = fors
++                _in(c, fn, fors + (c,))
++            else:
++                _in(c, fn, fors)
++    _in(agac, None, ())
++    modul_k = Kapsam(agac.body)
++    fk = {fn: Kapsam(fn.body) for fn in _islevler(agac)}
++
++    def kapsamlar(dugum):
++        fn = ebeveyn.get(dugum)
++        return ([fk[fn]] if fn else []) + [modul_k]
++
++    def argv_ifadesi(c):
++        e = c.args[0] if c.args else next((k.value for k in c.keywords if k.arg in ("args", "command", "cmd")), None)
++        kabuk = any(k.arg == "shell" and isinstance(k.value, ast.Constant) and k.value.value
++                    for k in c.keywords)
++        return e, kabuk
++
++    # sarmalayıcılar: işlev adı → (parametre adları, vararg adı, [(argv ifadesi, kabuk, çağrı)])
++    sarmal = {}
++    cagrilar = [n for n in ast.walk(agac) if isinstance(n, ast.Call)]
++    for _tur in range(3):
++        for c in cagrilar:
++            fn = ebeveyn.get(c)
++            if fn is None:
++                continue
++            params = [a.arg for a in fn.args.args + fn.args.kwonlyargs]
++            var = fn.args.vararg.arg if fn.args.vararg else None
++            if tur(c):
++                e, kabuk = argv_ifadesi(c)
++            elif isinstance(c.func, ast.Name) and c.func.id in sarmal and c.func.id != fn.name:
++                e, kabuk = c, False
++            else:
++                continue
++            if e is None:
++                continue
++            adlar = {x.id for x in ast.walk(e) if isinstance(x, ast.Name)}
++            if adlar & (set(params) | ({var} if var else set())):
++                kayit = sarmal.setdefault(fn.name, (params, var, []))
++                if (e, kabuk, c) not in kayit[2]:
++                    kayit[2].append((e, kabuk, c))
++
++    ihlal, olc, gitler = [], [], []
++    say = 0
++
++    def degerlendir(argv_e, kabuk, bag, kaps, satir, yer):
++        nonlocal say
++        say += 1
++        try:
++            if kabuk or (isinstance(argv_e, (ast.Constant, ast.JoinedStr))):
++                m = metin(argv_e, bag, kaps, satir)
++                if re.search(r"\bgit\b", m):
++                    gitler.append((yer, "(kabuk) " + m[:90]))
++                for s, a in kabuk_sinifla(m, add_adi):
++                    ihlal.append((yer, s, a))
++                return
++            argv = coz(argv_e, bag, kaps, satir)
++        except Cozulemedi as ex:
++            olc.append((yer, str(ex)))
++            return
++        i, sebep = sinifla(argv, add_adi)
++        if argv and isinstance(argv[0], str) and os.path.basename(argv[0]).lower() in ("git", "git.exe"):
++            _k = (yer, " ".join(_g(a) for a in argv)[:110])
++            if _k not in gitler:
++                gitler.append(_k)
++        for s, a in i:
++            ihlal.append((yer, s, a))
++        if sebep:
++            olc.append((yer, "%s: %s" % (sebep, " ".join(_g(a) for a in argv)[:90])))
++
++    def sarmal_coz(ad, c, kaps, yer, derinlik=0, dis_bag=None, tohum=None):
++        dis_bag = dis_bag or {}
++        params, var, ic = sarmal[ad]
++        fn_d = next((f for f in fk if f.name == ad), None)
++        bag = {}
++        if fn_d is not None:
++            vars_ = fn_d.args.defaults
++            for p, dv in zip([a.arg for a in fn_d.args.args][-len(vars_):] if vars_ else [], vars_):
++                bag[p] = _bag_degeri(dv, kaps, c.lineno, dis_bag)
++        npos = len(fn_d.args.args) if fn_d is not None else len(params)
++        for i, p in enumerate(params[:npos]):
++            if i < len(c.args):
++                bag[p] = _bag_degeri(c.args[i], kaps, c.lineno, dis_bag)
++        for k in c.keywords:
++            if k.arg in params:
++                bag[k.arg] = _bag_degeri(k.value, kaps, c.lineno, dis_bag)
++        if tohum:
++            bag.update(tohum)                     # güvenlik ölçümü: her parametre DIZI
++        if var and not tohum:
++            bag[var] = []
++            for x in c.args[npos:]:
++                if isinstance(x, ast.Starred):
++                    bag[var] += _guvenli_coz(x.value, dis_bag, kaps, c.lineno, 0)
++                else:
++                    bag[var].append(oge(x, dis_bag, kaps, c.lineno, 0))
++        for e, kabuk, icc in ic:
++            fn = ebeveyn.get(icc)
++            kaps_ic = ([fk[fn]] if fn else []) + [modul_k]
++            for lb in dongu_baglari(icc, kaps_ic, bag):
++                mb = dict(bag)
++                mb.update(lb)
++                if e is icc:                       # sarmalayıcı → sarmalayıcı
++                    if derinlik < 3 and icc.func.id in sarmal:
++                        sarmal_coz(icc.func.id, icc, kaps_ic, yer, derinlik + 1, dis_bag=mb)
++                    elif derinlik >= 3:
++                        olc.append((yer, "sarmalayıcı zinciri 3 turdan derin"))
++                    continue
++                degerlendir(e, kabuk, mb, kaps_ic, icc.lineno, yer)
++
++    def dongu_baglari(c, kaps, ilk=None):
++        """Çağrıyı kapsayan `for X in <sabit dizi>` döngüleri → bağ listesi (kartezyen)."""
++        baglar = [{}]
++        ilk = ilk or {}
++        for f in donguler.get(c, ()):
++            it = f.iter
++            if isinstance(it, ast.Name):
++                for k in kaps:
++                    o = [x for x in k.olay.get(it.id, []) if x[2] == "=" and x[0] <= f.lineno]
++                    if o:
++                        it = o[-1][1]
++                        break
++            if not isinstance(it, (ast.List, ast.Tuple)):
++                continue
++            yeni = []
++            for b in baglar:
++                for el in it.elts:
++                    nb = dict(b)
++                    hedefler = f.target.elts if isinstance(f.target, ast.Tuple) else [f.target]
++                    degerler = el.elts if isinstance(f.target, ast.Tuple) and isinstance(el, ast.Tuple) \
++                        and len(el.elts) == len(hedefler) else ([el] if not isinstance(f.target, ast.Tuple) else None)
++                    if degerler is None:
++                        continue
++                    for h, v in zip(hedefler, degerler):
++                        if isinstance(h, ast.Name):
++                            nb[h.id] = _bag_degeri(v, kaps, f.lineno, dict(ilk, **b))
++                    yeni.append(nb)
++            baglar = yeni or baglar
++        return baglar
++
++    ic_cagrilar = {id(c) for _p, _v, ic in sarmal.values() for _e, _k, c in ic}
++    for c in cagrilar:
++        yer = "%s:%d" % (goreli, c.lineno)
++        if tur(c) and id(c) not in ic_cagrilar:
++            e, kabuk = argv_ifadesi(c)
++            if e is None:
++                olc.append((yer, "argv argümanı yok"))
++                continue
++            for b in dongu_baglari(c, kapsamlar(c)):
++                degerlendir(e, kabuk, b, kapsamlar(c), c.lineno, yer)
++        elif isinstance(c.func, ast.Name) and c.func.id in sarmal and id(c) not in ic_cagrilar:
++            for b in dongu_baglari(c, kapsamlar(c)):
++                sarmal_coz(c.func.id, c, kapsamlar(c), yer, dis_bag=b)
++    # 📌 DOSYALAR ARASI GÜVENLİK: sarmalayıcı, parametrelerinin HER değeri (DIZI)
++    #    için ihlalsiz ve ölçülebilirse başka dosyadan çağrılması sorun değildir.
++    guvenli = []
++    _kayit = (list(ihlal), list(olc), list(gitler), say)
++    for ad, (params, var, _ic) in sarmal.items():
++        del ihlal[:], olc[:]
++        bos = {p_: [DIZI] for p_ in params}
++        if var:
++            bos[var] = [DIZI]
++        sahte = ast.Call(func=ast.Name(id=ad, ctx=ast.Load()), args=[], keywords=[])
++        ast.copy_location(sahte, agac.body[0] if agac.body else agac)
++        sarmal_coz(ad, sahte, [modul_k], "-", tohum=bos)
++        if not ihlal and not olc:
++            guvenli.append(ad)
++    ihlal[:], olc[:], gitler[:] = _kayit[0], _kayit[1], _kayit[2]
++    return ihlal, olc, _kayit[3], gitler, sorted(a for a in sarmal if a not in guvenli)
++
++
++def _bag_degeri(x, kaps, satir, bag):
++    """Çağrı argümanı → bağ değeri (öğe listesi). Sabit metin TEK öğedir."""
++    if isinstance(x, ast.Constant) and isinstance(x.value, str):
++        return [x.value]
++    if isinstance(x, (ast.List, ast.Tuple, ast.BinOp, ast.Starred)) or \
++            (isinstance(x, ast.Call) and isinstance(x.func, ast.Name) and x.func.id in ("list", "tuple")):
++        return _guvenli_coz(x, bag, kaps, satir, 0)
++    if isinstance(x, ast.Name) and x.id in bag:
++        return list(bag[x.id])
++    v = oge(x, bag, kaps, satir, 0)
++    if v is BILINMEZ and isinstance(x, ast.Name):
++        r = _guvenli_coz(x, bag, kaps, satir, 0)
++        if r != [DIZI]:
++            return r
++    return [v]
++
++
++def main(argv):
++    kok = argv[argv.index("--kok") + 1] if "--kok" in argv else \
++        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++    dizin = argv[argv.index("--dizin") + 1] if "--dizin" in argv else "arac"
++    try:
++        siniflar = kabuk_siniflari(kok)
++    except Exception as e:                                   # noqa: BLE001
++        print("🔴 ÖLÇÜLEMEDİ — kabuk_nobetci sınıf adları okunamadı: %s" % e)
++        return 2
++    add_adi = "ADD-HEPSI" if "ADD-HEPSI" in siniflar else None
++    if add_adi is None:
++        print("🔴 ÖLÇÜLEMEDİ — kabuk_nobetci DALLAR'da ADD-HEPSI yok: %s" % siniflar)
++        return 2
++    dosyalar = sorted(glob.glob(os.path.join(kok, dizin, "**", "*.py"), recursive=True))
++    ihlal, olc, say, tarandi, gitler, sarmallar = [], [], 0, 0, [], {}
++    for y in dosyalar:
++        g = os.path.relpath(y, kok).replace(os.sep, "/")
++        try:
++            i, o, s, gt, sr = tara_dosya(y, add_adi, g)
++        except (SyntaxError, UnicodeDecodeError, ValueError) as e:
++            olc.append((g, "AYRIŞTIRILAMADI: %s" % str(e)[:100]))
++            continue
++        tarandi += 1
++        ihlal += i
++        olc += o
++        say += s
++        gitler += gt
++        mod = os.path.splitext(os.path.basename(y))[0]
++        for ad in sr:
++            sarmallar[(mod, ad)] = g
++    # 🔴 DOSYALAR ARASI SARMALAYICI — bu araç onu ÇÖZMEZ; sessiz kalmasın diye
++    #    başka dosyadan İTHAL EDİLEN her sarmalayıcı çağrısı ÖLÇÜLEMEDİ'ye düşer.
++    for y in dosyalar:
++        g = os.path.relpath(y, kok).replace(os.sep, "/")
++        try:
++            agac = ast.parse(io.open(y, encoding="utf-8").read())
++        except Exception:                                    # noqa: BLE001
++            continue
++        ithal = {}
++        for n in ast.walk(agac):
++            if isinstance(n, ast.ImportFrom) and n.module:
++                for a in n.names:
++                    if (n.module.split(".")[-1], a.name) in sarmallar:
++                        ithal[a.asname or a.name] = (n.module, a.name)
++            elif isinstance(n, ast.Import):
++                for a in n.names:
++                    ithal.setdefault("__mod__" + (a.asname or a.name), (a.name, None))
++        for n in ast.walk(agac):
++            if not isinstance(n, ast.Call):
++                continue
++            hedef = None
++            if isinstance(n.func, ast.Name) and n.func.id in ithal and ithal[n.func.id][1]:
++                hedef = ithal[n.func.id]
++            elif isinstance(n.func, ast.Attribute) and isinstance(n.func.value, ast.Name) \
++                    and ("__mod__" + n.func.value.id) in ithal \
++                    and (ithal["__mod__" + n.func.value.id][0].split(".")[-1], n.func.attr) in sarmallar:
++                hedef = (ithal["__mod__" + n.func.value.id][0], n.func.attr)
++            if hedef:
++                olc.append(("%s:%d" % (g, n.lineno), "DOSYALAR ARASI sarmalayıcı %s.%s (%s) — "
++                            "çözülmedi" % (hedef[0], hedef[1], sarmallar[(hedef[0].split(".")[-1], hedef[1])])))
++    print("ARGV-GIT DENETİMİ · kök %s · %s/**/*.py: %d dosya, %d ayrıştırıldı · "
++          "%d çağrı çözüldü" % (kok, dizin, len(dosyalar), tarandi, say))
++    print("  sınıflar: %s (kabuk_nobetci DALLAR: %s) · COMMIT-HEPSI · COMMIT-PATHSPECSIZ · "
++          "STASH · PUSH-ZORLA" % (add_adi, ", ".join(siniflar)))
++    kovalar = {}
++    for yer, s, a in ihlal:
++        kovalar.setdefault(s, []).append((yer, a))
++    for s in (add_adi, "COMMIT-HEPSI", "COMMIT-PATHSPECSIZ", "STASH", "PUSH-ZORLA"):
++        k = kovalar.get(s, [])
++        print("  %-20s %d" % (s, len(k)))
++        for yer, a in k:
++            print("     🔴 %-40s %s" % (yer, a[:110]))
++    print("  git çağrısı çözüldü  %d%s" % (len(gitler), "" if "--ayrinti" in argv else "  (liste: --ayrinti)"))
++    if "--ayrinti" in argv:
++        for yer, a in gitler:
++            print("     · %-40s %s" % (yer, a))
++        print("  sarmalayıcılar       %d: %s" % (len(sarmallar), " ".join(
++            "%s:%s" % (v, k[1]) for k, v in sorted(sarmallar.items(), key=lambda kv: kv[1]))))
++    print("  ÖLÇÜLEMEDİ           %d" % len(olc))
++    for yer, sb in olc:
++        print("     ? %-40s %s" % (yer, sb[:120]))
++    if ihlal:
++        print("SONUÇ: İHLAL %d — çıkış 1" % len(ihlal))
++        return 1
++    if olc:
++        print("SONUÇ: ÖLÇÜLEMEDİ %d — çıkış 2" % len(olc))
++        return 2
++    print("SONUÇ: temiz")
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py b/denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py
+new file mode 100644
+index 00000000..95d7aade
+--- /dev/null
++++ b/denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py
+@@ -0,0 +1,181 @@
++# -*- coding: utf-8 -*-
++"""ARAC-ARGV-GIT-DENETIM-SINAV-1010 — `denetim/ARAC-ARGV-GIT-DENETIM-1010.py`nin sınavı, İKİ YÖNDE.
++
++    py denetim/ARAC-ARGV-GIT-DENETIM-SINAV-1010.py [--kok <ağaç kökü>]
++
++Her soru, geçici bir dizinde SENTETİK `arac/*.py` dosyalarıyla koşar (+ ağaçtaki
++`arac/kabuk_nobetci.py`nin kopyası — sınıf adları ondan okunur). Hiçbir git
++komutu ÇALIŞTIRILMAZ: araç statiktir, sentetik dosyalar yalnız AST olarak okunur.
++  A1  ADD-HEPSI: run(["git","add","-A"]) yakalanır, dosya:satır ve adıyla
++  A2  ADD-HEPSI: os.system("git add . && …") (kabuk metni)
++  A3  ADD-HEPSI: projenin kendi kos(ad, argv) sarmalayıcısıyla ["git","add","--all"]
++  A4  ADD-HEPSI: `for c in (["add","-A"],): run(["git"]+c)` (döngü bağı)
++  A5  ADD-HEPSI: `git -C kok add -A -- data` (kos_ve_yayinla'nın eski satırı)
++  C1  COMMIT-HEPSI: ["git","commit","-am","x"]
++  C2  COMMIT-PATHSPECSIZ: ["git","commit","-F",mesaj]  (mesaj değişken)
++  C3  COMMIT-PATHSPECSIZ: git(*a) sarmalayıcısıyla git("commit","-m","x")
++  S1  STASH: `import subprocess as sp; sp.check_output(["git","stash","push"])`
++  P1  PUSH-ZORLA: `from subprocess import run as R; R(["git","push","-f"])` ve "+main"
++  T1  TEMİZ: pathspec'li add/commit, `git -C`, stash list, push, döngülü pathspec'li
++      commit, -F değişkenli pathspec'li commit ⇒ 0 ihlal, 0 ölçülemedi, çıkış 0
++  T2  TEMİZ dosyada git çağrıları GERÇEKTEN çözüldü (sayı > 0 — "boş geçti" değil)
++  U1  çözülemeyen argv (sys.argv'den) ⇒ ÖLÇÜLEMEDİ adıyla, çıkış 2
++  U2  ayrıştırılamayan dosya ⇒ ÖLÇÜLEMEDİ "AYRIŞTIRILAMADI" adıyla, çıkış 2
++  U3  ihlal + ölçülemedi birlikte ⇒ çıkış 1, ölçülemedi YİNE basılı
++  U4  dosyalar arası sarmalayıcı (from a import g; g(<değişken>)) ⇒ ÖLÇÜLEMEDİ adıyla
++  U5  kabuk_nobetci DALLAR'ında ADD-HEPSI yoksa ⇒ çıkış 2 (sınıf adı OKUNUYOR, uydurulmuyor)
++  U6  `git commit -F m` + bilinmeyen dizi ⇒ ÖLÇÜLEMEDİ (`--` içinde olabilir), ihlal DEĞİL
++Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
++"""
++import io
++import os
++import shutil
++import subprocess
++import sys
++import tempfile
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
++
++KOK = (sys.argv[sys.argv.index("--kok") + 1] if "--kok" in sys.argv
++       else os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
++ARAC = os.path.join(KOK, "denetim", "ARAC-ARGV-GIT-DENETIM-1010.py")
++SONUC = []
++
++
++def sina(ad, kosul, ayrinti=""):
++    SONUC.append((ad, bool(kosul)))
++    print("%s %s %s" % ("✓" if kosul else "✗ BAŞARISIZ", ad, ayrinti))
++
++
++def kos(dosyalar, kabuk=None):
++    d = tempfile.mkdtemp(prefix="argvgit-sinav-")
++    try:
++        os.makedirs(os.path.join(d, "arac"))
++        kn = os.path.join(KOK, "arac", "kabuk_nobetci.py")
++        metin = io.open(kn, encoding="utf-8").read()
++        if kabuk:
++            metin = kabuk(metin)
++        io.open(os.path.join(d, "arac", "kabuk_nobetci.py"), "w", encoding="utf-8").write(metin)
++        for ad, m in dosyalar.items():
++            io.open(os.path.join(d, "arac", ad), "w", encoding="utf-8").write(m)
++        if not os.path.exists(ARAC):
++            return 99, "ARAÇ YOK: %s" % ARAC
++        p = subprocess.run([sys.executable, ARAC, "--kok", d, "--ayrinti"], capture_output=True,
++                           text=True, encoding="utf-8", errors="replace",
++                           env=dict(os.environ, PYTHONIOENCODING="utf-8"), timeout=120)
++        return p.returncode, p.stdout + p.stderr
++    finally:
++        shutil.rmtree(d, ignore_errors=True)
++
++
++def satir_var(out, sinif, yer):
++    """`  SINIF  n` başlığından sonra `🔴 arac/<yer>` satırı var mı."""
++    blok, icinde = [], False
++    for l in out.splitlines():
++        if l.startswith("  ") and not l.startswith("     "):
++            icinde = l.split()[0] == sinif
++            continue
++        if icinde:
++            blok.append(l)
++    return any(("🔴 arac/%s " % yer) in l for l in blok)
++
++
++IHLALLI = {
++    "a1.py": 'import subprocess\nsubprocess.run(["git", "add", "-A"])\n',
++    "a2.py": 'import os\nos.system("git add . && git status")\n',
++    "a3.py": ('import subprocess, sys\n'
++              'def kos(ad, argv, dk=10):\n'
++              '    p = subprocess.Popen(argv, cwd=".")\n'
++              '    return p.wait()\n'
++              'kos("ekle", ["git", "add", "--all"])\n'),
++    "a4.py": ('import subprocess\n'
++              'for c in (["add", "-A"],):\n'
++              '    subprocess.run(["git"] + c)\n'),
++    "a5.py": ('import subprocess, os\nKOK = os.getcwd()\n'
++              'subprocess.run(["git", "-C", KOK, "add", "-A", "--", "data", "index.html"])\n'),
++    "c1.py": 'import subprocess\nsubprocess.run(["git", "commit", "-am", "x"])\n',
++    "c2.py": ('import subprocess, os\nMESAJ = os.path.join("d", "m.txt")\n'
++              'subprocess.run(["git", "commit", "-F", MESAJ])\n'),
++    "c3.py": ('import subprocess\n'
++              'def git(*a):\n'
++              '    return subprocess.run(["git"] + list(a), capture_output=True)\n'
++              'git("commit", "-m", "x")\n'),
++    "s1.py": 'import subprocess as sp\nsp.check_output(["git", "stash", "push"])\n',
++    "p1.py": ('from subprocess import run as R\n'
++              'R(["git", "push", "-f"])\n'
++              'R(["git", "push", "origin", "+main"])\n'),
++}
++TEMIZ = {
++    "t1.py": ('import subprocess, os, sys\n'
++              'KOK = os.getcwd()\nm = os.path.join(KOK, "m.txt")\n'
++              'liste = ["data/a.js", "index.html"]\n'
++              'subprocess.run(["git", "-C", KOK, "add", "--"] + liste)\n'
++              'subprocess.run(["git", "-C", KOK, "commit", "-F", m, "--"] + liste)\n'
++              'subprocess.run(["git", "stash", "list"])\n'
++              'subprocess.run(["git", "push"])\n'
++              'subprocess.run([sys.executable, "arac/denetle.py"])\n'
++              'for c in (["add", "--", "x.js"], ["commit", "-F", m, "--", "x.js"]):\n'
++              '    subprocess.run(["git", "-C", KOK] + c)\n'
++              'def kos(ad, argv):\n'
++              '    return subprocess.run(argv)\n'
++              'kos("c", ["git", "commit", "-F", m, "--", "x.js"])\n'),
++}
++
++
++def main():
++    print("Araç:", ARAC)
++    rc, out = kos(IHLALLI)
++    for ad, sinif, yer in (("A1", "ADD-HEPSI", "a1.py:2"), ("A2", "ADD-HEPSI", "a2.py:2"),
++                           ("A3", "ADD-HEPSI", "a3.py:5"), ("A4", "ADD-HEPSI", "a4.py:3"),
++                           ("A5", "ADD-HEPSI", "a5.py:3"), ("C1", "COMMIT-HEPSI", "c1.py:2"),
++                           ("C2", "COMMIT-PATHSPECSIZ", "c2.py:3"),
++                           ("C3", "COMMIT-PATHSPECSIZ", "c3.py:4"), ("S1", "STASH", "s1.py:2")):
++        sina(ad, rc == 1 and satir_var(out, sinif, yer), "%s yakalandı: arac/%s (çıkış %s)" % (sinif, yer, rc))
++    sina("P1", rc == 1 and satir_var(out, "PUSH-ZORLA", "p1.py:2")
++         and satir_var(out, "PUSH-ZORLA", "p1.py:3"), "PUSH-ZORLA: -f ve +main (çıkış %s)" % rc)
++
++    rc, out = kos(TEMIZ)
++    ihlal_yok = all(("🔴 arac/t1.py" not in l) for l in out.splitlines())
++    sina("T1", rc == 0 and ihlal_yok and "ÖLÇÜLEMEDİ           0" in out,
++         "pathspec'li/temiz çağrılar ⇒ 0 ihlal, 0 ölçülemedi (çıkış %s)" % rc)
++    n = sum(1 for l in out.splitlines() if l.strip().startswith("· arac/t1.py"))
++    sina("T2", n >= 7, "temiz dosyada çözülen git çağrısı: %d (≥7 bekleniyor)" % n)
++
++    rc, out = kos({"u1.py": 'import subprocess, sys\nsubprocess.run(sys.argv[1:])\n'})
++    sina("U1", rc == 2 and "? arac/u1.py:2" in out and "program çözülemedi" in out,
++         "çözülemeyen argv ⇒ ÖLÇÜLEMEDİ adıyla (çıkış %s)" % rc)
++
++    rc, out = kos({"u2.py": 'import subprocess\ndef (:\n'})
++    sina("U2", rc == 2 and "? arac/u2.py" in out and "AYRIŞTIRILAMADI" in out,
++         "ayrıştırılamayan dosya ⇒ ÖLÇÜLEMEDİ adıyla (çıkış %s)" % rc)
++
++    rc, out = kos({"a1.py": IHLALLI["a1.py"],
++                   "u1.py": 'import subprocess, sys\nsubprocess.run(sys.argv[1:])\n'})
++    sina("U3", rc == 1 and "? arac/u1.py:2" in out and "ÖLÇÜLEMEDİ           1" in out,
++         "ihlal + ölçülemedi ⇒ çıkış 1, ölçülemedi YİNE basılı (çıkış %s)" % rc)
++
++    rc, out = kos({"yard.py": ('import subprocess\n'
++                               'def g(*a):\n'
++                               '    return subprocess.run(["git"] + list(a))\n'),
++                   "kul.py": 'import sys\nfrom yard import g\ng(*sys.argv[1:])\n'})
++    sina("U4", rc == 2 and "? arac/kul.py:3" in out and "DOSYALAR ARASI" in out,
++         "dosyalar arası sarmalayıcı ⇒ ÖLÇÜLEMEDİ adıyla (çıkış %s)" % rc)
++
++    rc, out = kos({"a1.py": IHLALLI["a1.py"]},
++                  kabuk=lambda m: m.replace('("ADD-HEPSI", _add_hepsi', '("ADD-TUMU", _add_hepsi'))
++    sina("U5", rc == 2 and "ADD-HEPSI yok" in out,
++         "DALLAR'da ADD-HEPSI yok ⇒ çıkış 2 (çıkış %s)" % rc)
++
++    rc, out = kos({"u6.py": ('import subprocess, os, sys\nm = os.path.join("a", "b")\n'
++                             'subprocess.run(["git", "commit", "-F", m] + sys.argv[1:])\n')})
++    sina("U6", rc == 2 and "? arac/u6.py:3" in out and "COMMIT-PATHSPECSIZ   0" in out,
++         "commit + bilinmeyen dizi ⇒ ÖLÇÜLEMEDİ, ihlal DEĞİL (çıkış %s)" % rc)
++
++    g = sum(1 for _, k in SONUC if k)
++    print("SONUÇ: %d/%d geçti" % (g, len(SONUC)))
++    return 0 if g == len(SONUC) else 1
++
++
++if __name__ == "__main__":
++    sys.exit(main())
