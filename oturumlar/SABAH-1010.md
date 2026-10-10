@@ -74,11 +74,35 @@ Bu, gecenin en rahatsız edici ölçümü. Yemen örneklemi:
 2 kaynaklı nokta  · ikisi de DOĞRU
 Taiz: 254 yıl boyunca YANLIŞ SAHİP
 ```
-⇒ `kaynaksız` damgası *"kaynağını yazmadık"* demiyor olabilir; *"muhtemelen
-yanlış"* diyor olabilir. 1841 sayısı o zaman bir **beyan borcu** değil bir
-**hata tahmini** olur ve önceliği tamamen değişir. Daha geniş örneklem koşuyor
-(`DENETIM-OLU-ETIKET-1009`); sonuç gelince sana tek satırla bildirilecek.
-**Şimdilik senden karar istemiyorum — bilmen gerekiyor diye yazıyorum.**
+🔴 **ÖLÇÜLDÜ (04:4x) — CEVAP "İKİSİ DE DEĞİL", VE SEBEBİ BULUNDU.**
+`KAYNAKSIZ-ORNEKLEM-1010`, tabakalı örneklemle (N=48, 11 bölge, tohum 20261010)
+ölçtü ve **asıl bulgu bir desen değil bir SEBEP:**
+```
+iddia penceresi 1281-01-01'de BAŞLIYORSA   YANLIŞ %70  (7/10)
+daha GEÇ başlıyorsa                        YANLIŞ  %8  (3/36)
+1841 kaydın 1419'u (%77) en az bir 1281-başlangıçlı halka taşıyor
+toplam yanlış iddia tahmini  ≈400  (Wilson %95: 226-655)
+```
+**Sebebi:** `1281-01-01` atlasın **ufkunun kenarı** — bir kaynak değil, bir
+**sınır işareti** (`CLAUDE.md §4` / `D210` bunu zaten yasaklıyordu). 1419
+kayıtta o kenar bir kaynak gibi yazılmış: nokta *"1281'den beri şu devletin"*
+diye işaretlenmiş, oysa 1281 o devletle ilgili hiçbir şey söylemiyor —
+**atlasın nereden başladığını** söylüyor. ⇒ Bu kayıtlar kaynaksız değil,
+**YANLIŞ KAYNAKLI**; kaynakları atlasın kendi sınır işareti. Ve `§4`ün
+*"atlas referans değildir, mamul üründür"* kuralı tam bunu yasaklıyor —
+senin 13 Eylül'deki kararın.
+
+**BENİM KARARIM (senin onayına sunmuyorum, bildiriyorum):** 1841 tek kova
+olmaktan çıkıyor, ikiye bölünüyor —
+```
+kaynaksız ∧ 1281-01-01 başlangıçlı  = 1419  → YANLIŞLIK ŞÜPHESİ
+kalan                               =  422  → gerçek BEYAN BORCU
+```
+İkinci bir örneklem (1419'dan, n≈40, yeni tohum) koşuyor: %40-89 aralığı bir
+müdahaleyi 1419 kayda uygulamaya yetmez. **Senden karar istemiyorum**; sayı
+daralınca önceliği ben kurarım.
+📌 Bölgesel yoğunlaşma: Sahra-altı Afrika 4/5 · Dahlak · Kannur · Bintan ·
+Bantaeng. Avrupa/Amerika/Rusya/Doğu Asya'nın geç iddiaları TEMİZ.
 
 ---
 

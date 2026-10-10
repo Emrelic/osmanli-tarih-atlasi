@@ -307,8 +307,45 @@ Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gece
     NOKTA-ONCE1281-UCUZ (4 pencere · Silistre **1279**, 1189 DEĞİL)
 2h  KASA-SUMER-SAHIPLIK (MÖ 539→MS 226) — geldiğinde
 ```
+```
+2i  NOKTA-ONCE1281-ZINCIR  8 nokta / 33 pencere + 14 KRONOLOJİ MADDESİ +
+                           `kirman-selcuklu` f/t düzeltmesi — 🔴 TEK COMMIT
+2j  KASA-SUMER-VARLIK      Ur `t: −0316` · Nina `t: −0329` · Dēr `ahameni` Ş
+                           + `__BOSLUK__` (K) beş pencere (İsin·Dēr·Dilbat
+                           Selevkos-Part · Eridu bütün pencere · Nina Ahamenî)
+```
 🔴 Her 2x'ten sonra `denetle.py`; **hepsi bittikten sonra `renk_olc.py`**
 (palet verinin fonksiyonudur, renge dokunmadan çakışma doğar).
+
+#### 🔴 FAZ 2'NİN YENİ KURALI — **PENCERE + MADDE AYNI COMMIT'TE**
+`NOKTA-ONCE1281-ZINCIR-1010` ölçtü ve bir öngörüsü ÇÜRÜDÜ:
+```
+pencereler MADDESİZ inerse  2s AÇIK 193 → 207 (+14)  ⇒ ÇIKIŞ 1, İHLAL
+maddelerle birlikte         193 → 193 ✓  ·  16 kırılma kapandı (2sk 2122→2138)
+```
+> **1281 ÖNCESİ bir PENCERE, kendi KRONOLOJİ MADDELERİYLE aynı commit'te iner.
+> Ayrılırsa arada kalan commit Değişmez 2s'yi KIRAR.** (`§3.4 ②`nin yeni ekseni.)
+⚠️ Ve niçin bugüne kadar görülmedi: `yerlesimler.js` ve ek14 **2s evreninde**,
+kuyruk kronoloji dosyaları **değil.** `NOKTA-ONCE1281-UCUZ`un temiz çıkması bir
+doğrulama değil **TESADÜFTÜ** — o noktalar şans eseri kuyruk dosyalarındaydı.
+*Tesadüfü kural sanmak, `§11`in "boş küme her öngörüyü doğrular" ailesi.*
+📌 İlgili: madde dosyası `index.html`e **bağlanmazsa** kapı TEMİZ der ama
+kullanıcı HİÇBİR ŞEY GÖRMEZ (`denetle` glob'la okur, ekran okumaz) — `D265`'in
+*"hesaplanan ama basılmayan"* sınıfı. `index.html` satırı koordinatörde ve
+**aynı partide** iner (o dosya motor tuzunda DEĞİL).
+
+#### 🔴 FAZ 2 UYARILARI — nokta yazacak her oturuma
+```
+ERİDU  Pleiades 912845   = Eridu TELL'i          ✅ atlasın noktası BU
+       Pleiades 54136919 = Babil'in Eridu MAHALLESİ  ❌ yüzlerce km uzakta
+       ⇒ §6.2'nin ders kitabı vakası: aynı ADI taşıyan İKİ AYRI NESNE,
+         ve biri ötekinin İÇİNDE bir mahalle. Ad eşleşmesi nesne eşleşmesi DEĞİL.
+TAVO   bir noktanın "geç dönemde de vardı" etiketi TAVO satırından geliyorsa
+       TANIK SAYILMAZ (`MIMARI §5.1b`). KASA bu yüzden Ur'un kendi ölçümünü
+       çürüttü — hüküm Anadolu için yazılmıştı, Sümer'de de kesti.
+MOĞOL  `mogol-imparatorlugu` BOYALAR'da YOK ⇒ ZİNCİR inince 4 noktanın Moğol
+       dilimi FAZ 3'e kadar BOYANMAZ. Geçici, BEYANLI delik (kapı kırmıyor —
+       ölçüldü: çıkış 2, sebebi yalnız D8 ölçülemedi).
 
 #### FAZ 3 — MOTOR PARTİSİ: tuz BİR KEZ değişir (§9.1 ②)
 🔴 **FAZ 2 TAM İNMEDEN VE ÖLÇÜLMEDEN BAŞLAMAZ.** Sebebi aritmetik: tuz
