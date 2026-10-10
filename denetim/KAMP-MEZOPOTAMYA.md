@@ -265,3 +265,60 @@ harita_degisimi:
 - **Babil 732–627:** ayrı polity id'si yok; `polity` = eylemi yapan taraf. -651 Kutha `yeni-babil` yer tutucu (Šamaš-šuma-ukin Babil'i).
 - **911–746 palû yıllıkları alınamadı:** RIAo sayfaları betikle yükleniyor. Til-Barsip 856, Laqe/Suhu seferleri bu yüzden eksik ve sıradaki en büyük havuz.
 - **② kovası:** A 7, B 10, C 16 KAYIT; dosyalarda listeli, CSV'ye girmedi. Örnekler: Tukulti-Ninurta I'in Babil'i alışı, Tiglat-pileser I, Halule, 648 Babil'in düşüşü.
+
+## 12. Koordinatör hükmü sonrası: ① kapsam işareti · ② YIKIM ≠ DEVİR taraması · ③ Ur III ölçümü · ⓓ suzeren
+Hüküm: 80+ TÜM KAPSAMLA sayılır ⇒ **86 KAYIT, TUTTU**. Şartı: kapsam-dışı işaret (aşağıda ①).
+
+### ① Kapsam işareti (KRONOLOJİ yeni kolonlar)
+- `kapsam_disi` = EVET: **11 KAYIT**; HAYIR: 166 KAYIT.
+- `sahip_dilim` = **K1 MEZOPOTAMYA**, bütün 177 KAYIT'ta.
+- `atif_dilim` = olayın düştüğü öteki dilim, yalnız 11 KAYIT'ta:
+  - K4 AKDENIZ: Sidon, Aşkelon, Arpad, Kullania (son ikisi sınır doğrulanmadı);
+  - K2 MISIR: Memfis;
+  - K3 ANADOLU: Kummuhu, Šubria, Pirindu;
+  - iki adaylı: Arza (K4/K2), Kudüs (K4/K7);
+  - Bazza: BİLİNMİYOR (Arabistan — dilim tablosunda yok).
+- Yorum (beyanlı): hükmün iki satırı arasında gerilim vardı:
+  - `sahip_dilim (K2 MISIR…)` diyor;
+  - ama "olayın sahibi FAİL POLITY'nin dilimidir" de diyor.
+  - **Kural satırı esas alındı:** sahip = fail = K1. Coğrafî dilim AYRI kolonda (`atif_dilim`): o dilim bu kayda ATIF yapar, yeniden yazmaz.
+  - Yanlış okuduysam tek kolon adı değişir; veri değişmez.
+
+### ② YIKIM ≠ DEVİR — 39 AKIN KAYDI "yıkımdan sonra şehir sürdü mü?"
+Kolon `akin_sonrasi`. Kanıt: `KAMP-MEZOPOTAMYA-AKIN-SONDU.md` + iç kanıt (aynı şehrin KRONOLOJİ'de daha sonraki kaydı).
+| sonuç | KAYIT |
+|---|---|
+| SÜRDÜ | 12 (Der ×2, Anšan ×2, Urbilum ×2, Susa, Kiš ×2, Eşnunna, Ur/Uruk, Mari) |
+| SÜRMEDİ — ama O GÜN DEĞİL | 2 (Kisurra: RlA 5 Kienast, aB sonrası iskân yok ama Hammurabi ardıllarında anılıyor ⇒ son ≤ ~1595 · Šehna/Leilan: Ristvet & Weiss RlA 13 "After ca. 1700, Š. was abandoned") |
+| **ŞEHRİN SONU = YIKIM GÜNÜ** | **0** |
+| ÖLÇÜLEMEDİ (yer şehir listesinde yok: Simurrum, Karahar, Harši, Lullubum, Kimaš …) | 25 |
+⇒ Ölçülebilen 14 KAYIT'ın **0**'ı şehrin sonu. "Akıncı gelir, yıkar, gider" ölçülen evrende 14/14 tuttu.
+- İki VAKA'da şehir SONRA bitti, ama kaynak terk tarihini yıkım yılına bağlamıyor ⇒ şehir `t:` ucu bir SINIR (Kisurra ≤1595, Leilan ~1700). Olay günü değil.
+- Mari: "the end of Mari as a great city" (Fransız Kültür Bak.) — büyük şehir bitti, yerleşim sürdü.
+  - Petek ölçeğine göre iki yüzlü VAKA; nokta ölmedi.
+
+### ③ Ur III: 25 KAYIT → EVET 0 — açıklama (hipotez koordinatörün, ölçüm benim)
+**Tek satır:** 25 KAYIT'ın 21'i yıkım fiili (ba-hul/mu-hul), 1'i "kafalarını ezdi" (Š45), 1'i yalnız sefer (IS9), 1'i boyun eğiş (IS17), 1'i "bir günde boyun eğdirdi ve beylerini yakaladı" (IS14). Devir fiili (dab5 + şehir) taşıyan: **0**.
+Hipotez **genel haliyle TUTMADI**:
+- "Yıl adı temelli kanıt devri kaydetmez" genellemesini aynı ölçüm çürütüyor: Eski Babil yıl adlarının 36 KAYIT'ının **20**'si "seized / annexed / conquered" taşıyor; 16'sı EVET sayıldı (Rim-Sin 20 *"Kisurra was seized and annexed to Larsa"*).
+- **Daraltılmış ders (TUTTU):** sınır yıl adı TÜRÜNÜN değil, **Ur III yıl adı FORMÜLERİNİN** sınırı. Ur III çevre seferlerini hep "ba-hul" ile anar.
+  - Bu yüzden Ur III'te toprak devri yıl adından OKUNAMAZ: ÖLÇÜLEMEDİ.
+  - Ur III'ün çevre hâkimiyeti başka kanıtla (gun₂ ma-da vergi kayıtları, vali atamaları) aranmalı. Bu turda aranmadı.
+- K3/K5/K6 için kural: bir yıl adı dizisini kullanmadan önce **fiil dağılımını say**. Devir fiili 0 ise o dizi harita değişimi kaynağı değildir.
+- IS14 sınır VAKA: "beylerini yakaladı" bir kişiyi tutsak alır, şehri değil ⇒ AKIN'da bırakıldı, beyanlı.
+- Seçim yanlılığı: okuyucu A yalnız askerî yıl adlarını topladı. Ur III yıl adlarının TÜMÜNDE askerî payı ÖLÇÜLMEDİ.
+
+### ⓓ Suzeren (tâbilik) — yeni alan
+- `KAMP-MEZOPOTAMYA-SUZEREN.csv`: **14 DİLİM**. 10 DİLİM dataset içindeki **8 POLITY**'de; 4 DİLİM Babil 729–626'da (`dataset_ici=HAYIR`, polity id YOK — öneri: id açılsın).
+- POLITY.csv'ye `suzeren`, `suzeren_f`, `suzeren_t` eklendi; çok dilim varsa " ; " ile ayrılıyor.
+- Uç tipi (28 UÇ): ① 11 · ② 9 · ③ 8. Kanıt: `KAMP-MEZOPOTAMYA-SUZEREN-KANIT.md`.
+- **Düzeltme:** okuyucu Ḫanigalbat'ın Hitit suzerenini `hitit-1595` diye yazmıştı. O kimlik bir OLAY (1595 akını), polity değil ⇒ "Hitit (dataset DIŞI — K3 ANADOLU)".
+- **Tutarsızlık, düzeltilmedi:**
+  - `lake` tâbiliği ≤859'da eyaletleşmeyle bitiyor, ama POLITY `lake` t = -810.
+  - İkisi aynı anda doğru olamaz: ya 859 eyaletleşme kalıcı değildi, ya t yanlış. ÖLÇÜLMEDİ.
+- Doğrulanmayan öncüller: Hana ← Samsu-iluna (Charpin: "no positive record"), Elam ← Eşnunna 1765.
+- İlhak ≠ tâbilik ayrı listede: Tukulti-Ninurta I Babil'i, Ur III Lagaş/Umma eyaletleri, Şalmaneser I Ḫanigalbat'ı.
+
+### Sürmekte
+- 911–746 palû yıllıkları: okuyucu ORACC JSON yolunu deniyor. Sonuç gelmeden ÖLÇÜLEMEDİ yazılmadı.
+- ⓒ şehir ilk kayıtları: 35 KAYIT koordinatlı; 3 okuyucu + 2 geç dönen alt-rapor çapraz denetlenecek.
