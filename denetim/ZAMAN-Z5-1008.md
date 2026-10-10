@@ -579,7 +579,7 @@ v3 3.987 · v4 **3.988**. Yalnız v4'te: **Timbuktu**. Yalnız v3'te: yok. Ortak
 | v4 · **SESSIZ-7'siz** main `7d7b5ee1` (sıra kanıtı) | **2** | **BAYAT TABAN 1: Timbuktu** `[yerlesimler.js · s]`. Tabandaki `fas 1591→1750 · arma · tuareg…` bugün yok, bugün `fas 1591→1700` ⇒ v4 SESSIZ-7'den önce inerse Timbuktu zincirini yazardı; kapı DURDURUYOR |
 - ⚠️ İkinci koşuda geri alma kapısı ayrıca `KAPI ÖLÇEMEDİ — git diff hata:` (boş mesaj) bastı. Hüküm yine çıkış 2 (taban kapısı). Sebebini
   ölçmedim (bulunamadı). Aynı ağaçta önceki bir koşuyu yarıda durdurmuştum; ilişkisi doğrulanmadı.
-- Not: v1 tabanındaki ilk iki koşu (v4 + sıra kanıtı, paralel) `CIKIS=127` ile aynı satırda kesildi (makine yükü olabilir; ölçülmedi). Tek başına yeniden koşulan v1-tabanlı v4 **çıkış 0, TAZE** verdi. v1-tabanlı sıra kanıtını v2 gelince durdurdum. Tablodaki iki sonuç v2 tabanında, sırayla koşuldu.
+- Not: v1 tabanındaki ilk iki koşu (v4 + sıra kanıtı, paralel) `CIKIS=127` ile aynı satırda kesildi (makine yükü olabilir; ölçülmedi). **düzeltme (§ v4 ek: ÇIKIŞ 127): makine yükü DEĞİL — 127 bu makinede `Stop-Process`/`Process.Kill` ile DIŞARIDAN sonlandırmanın imzası (ölçüldü); iki süreç aynı anda (13 ms) öldü, çökme kaydı yok; öldüren bulunamadı; paralel tekrarda yeniden üretilemedi.** Tek başına yeniden koşulan v1-tabanlı v4 **çıkış 0, TAZE** verdi. v1-tabanlı sıra kanıtını v2 gelince durdurdum. Tablodaki iki sonuç v2 tabanında, sırayla koşuldu.
 
 ### Bağımsız dilim kontrolü (taban üzerinde)
 v4: ÖNCE1281 dilimi farklı **0** · 1281-1923 dilimi farklı **0** · Z6'nın 140 once1281 döneminden Z5'te eksik **0** (77 `s:` yazan ortak; Tunus ayrık alan).
@@ -594,3 +594,69 @@ SAHİPLİ olur. Ölçülmedi, öngörü.
 
 ### Temizlik
 `C:\atlas-umit-z5v4` · `C:\atlas-umit-z5v4c` kaldırıldı. C:\atlas'a yazılmadı.
+
+
+---
+
+## § v4 ek: ÇIKIŞ 127 (1010) — "makine yükü" açıklaması TUTMADI; 127 burada "command not found" da DEĞİL
+
+UMIT işçi · geçici worktree'ler `C:\atlas-umit-r127a` / `-r127b` (kaldırıldı) · `--yaz` yok · commit yok.
+
+### ① 127 hangi satırdan, hangi çağrıdan
+- Koşu kaydı: `cd <wt> && export PYTHONHASHSEED=0 && py arac/_sahiplik_uygula.py --yama-glob '^yer_yama_1923_1945\.js$' [--taban-rapor …] > LOG 2>&1; echo "CIKIS=$?" >> LOG`
+  (Bash aracı, `run_in_background`, Git Bash). **127 `py`nin çıkış kodudur**, `echo` öncesindeki tek komut odur.
+- `py` ÇALIŞTI: iki log da 370.667 bayt çıktı taşıyor (YAMA KAYDI, tanıma, İNEN listesi). "Komut bulunamadı" olsaydı çıktı OLMAZDI.
+- **"Aynı satır" bir çağrı DEĞİL, stdout TAMPON SINIRIDIR:** iki logun gövdesi bayt bayt aynı uzunlukta (370.667; `CIKIS=127` satırı hariç).
+  Bugünkü başarılı paralel koşular da 32. dakikada TAM bu baytta duruyordu: araç o noktadan sonra geri alma kapısında (`git log -L` × 3.988)
+  sessizce çalışıyor ve stdout blok tamponlu. Süreç öldürülünce son tampon kaybolur. ⇒ Log hangi Python satırında ölündüğünü SÖYLEMEZ.
+  Söylediği tek şey: ölüm İNEN listesinden SONRA, sonuç basılmadan ÖNCE.
+- **İki süreç AYNI ANDA öldü:** log mtime `03:07:15.9016` ve `03:07:15.9141` (13 ms arayla). Koşular dakikalar arayla başlamıştı.
+  ⇒ Ortak bir DIŞ olay, koşu içi bir çağrı değil.
+- Windows olay günlüğü 03:05-03:10: System 0 olay; Application yalnız bir VBScript uyarısı. **python.exe çökme kaydı (Application Error 1000) YOK.**
+  Çökme değil, dışarıdan sonlandırma.
+
+### ② 127 neyin imzası — ÖLÇÜLDÜ (aynı kabuk, Git Bash, `py` uyuyan bir betik)
+| sonlandırma | Git Bash `$?` |
+|---|---|
+| `Stop-Process -Force` → python.exe | **127** |
+| `Stop-Process -Force` → py.exe (launcher) | **127** |
+| `taskkill /F` → python.exe | 1 |
+| `taskkill /F /T` → py.exe ağacı | 1 |
+| (benim `TaskStop`um, bu gece v4_mainyalniz2) | 1 |
+⇒ Bu makinede **127 = süreç .NET `Process.Kill()` / `Stop-Process` ile (TerminateProcess, kod −1) dışarıdan öldürüldü** imzasıdır.
+Ne POSIX "command not found" ne yük: yük öldürseydi bellek tükenmesi izi/çökme kaydı olurdu, ikisi de yok.
+- **Kim öldürdü: BULUNAMADI.** Oturum dökümlerinde `Stop-Process` araması yalnız CLAUDE.md alıntılarını buldu. 03:07:15'te bu makinede
+  `Stop-Process` (ya da `Process.Kill`) koşturan bir süreç vardı. Bu ÇIKARIMDIR, sahibini göstermiyor.
+- Aynı aileden ikinci iz: v4_mainyalniz3'te geri alma kapısı `git diff hata: ` (**BOŞ stderr**) bastı (`_bayat_yama_kapi._kirli_mi`:
+  `git diff --quiet` dönüşü 0/1 dışı). Dışarıdan öldürülen bir `git.exe` tam bunu verir. **Ölçülmedi, hipotez.**
+
+### ③ Paralel yeniden üretim — YENİDEN ÜRETİLEMEDİ
+- Aynı iki koşu, aynı anda (04:26:10.57 / 04:26:10.66), aynı kabuk (Bash aracı, `run_in_background`, Git Bash), aynı komut biçimi
+  (`PYTHONUNBUFFERED` YOK, `> LOG 2>&1; echo CIKIS=$?`).
+  A: origin/main `2ce5dc31` + v4 · B: origin/main `7d7b5ee1` + v4. Yanında 10 sn'lik süreç izleyici.
+- Sonuç: ikisi de **çıkış 2** (04:59:53 / 04:59:59), 127 YOK. İkisi de BAYAT TABAN 1 = Timbuktu.
+  A için bu beklenmedikti ama DOĞRU: `2ce5dc31`'de SESSIZ-7 HÂLÂ İNMEMİŞ (Timbuktu `fas 1591→1700`; `7d7b5ee1..2ce5dc31` arasında
+  `yerlesimler.js` commit'i 0). ⇒ Sıra kapısı bugünkü main'de de doğru ötüyor.
+- Paralel bağlamda ikili çözümlemesi (her koşunun başında, aynı alt kabukta):
+  `command -v` → `py` `/c/Users/user/AppData/Local/Programs/Python/Launcher/py` · `git` `/mingw64/bin/git` · `node` `/c/Program Files/nodejs/node`;
+  `where` → `py.exe` · `C:\Program Files\Git\mingw64\bin\git.exe` + `C:\Program Files\Git\cmd\git.exe` · `node.exe`.
+  **İkisi birebir aynı, hiçbiri eksik değil.** Bulunamayan ikili 0.
+- Denenen koşullar: 2 paralel koşu · Git Bash · arka plan · tamponlu stdout · iki ayrı worktree · aynı glob. Denenmeyen: yüksek RAM baskısı
+  (boş 5-7 GB'tı) · başka oturumların eşzamanlı yükü (o gece 03:03'te başka bir oturum `denetim/`e yazıyordu; bugün sessizdi).
+
+### ④ FAZ 2 için kalıcı tehlikeler — ÇARE ÖNERİSİ (yazılmadı)
+1. **Tamponlu stdout ölümü gizliyor:** öldürülen koşu son ≤8 KB'ı kaybediyor, log "bir satırda durdu" gibi görünüyor (bu gece yanılttı).
+   Çare: FAZ 2 koşuları `py -u …` ya da `PYTHONUNBUFFERED=1` ile; başına/sonuna `date` damgası.
+2. **127'nin anlamı ortama bağlı:** Git Bash'te `Stop-Process` 127 veriyor. Otomasyon 127'yi "komut yok" diye okursa yanlış teşhis koyar.
+   Çare: sarmalayıcı, çıktı başlamışsa 127/1'i "DIŞARIDAN SONLANDIRILDI" diye etiketlesin. FAZ 2 süresince makinede `Stop-Process`
+   kullanılacaksa ad değil PID ile, ve koşan aracın PID'leri (izleyici dosyası) dışlanarak.
+3. **`_bayat_yama_kapi._kirli_mi` dönüş kodunu basmıyor:** `git diff hata: ` boş kalıyor.
+   Çare: mesaja `returncode` eklenmeli (4294967295/−1 = öldürüldü).
+4. **`_sahiplik_uygula.py` `KOK = os.getcwd()`:** göreli kök. Depo kökü dışından çağrılırsa başka ağacı okur/yazar (bugün tüm koşular `cd <wt> &&` ile, güvenli).
+   Çare: `KOK = dirname(dirname(abspath(__file__)))` ya da `git rev-parse --show-toplevel` ile cwd'yi doğrulayıp uyuşmazsa çıkış 3.
+5. **PATH bağımlılığı:** `git`/`node` çıplak adla çağrılıyor. Git Bash `/mingw64/bin/git`, PowerShell `Git\cmd\git.exe` buluyor; ikisi de
+   çalışıyor ama farklı ikili. Çare: araç açılışta `shutil.which` sonuçlarını bassın (ölçülemezse `OLCULEMEDI_KOVA`).
+
+### Düzeltme
+§ v4'teki "makine yükü olabilir; ölçülmedi" cümlesi **YANLIŞTI** (aşağıda yerinde işaretlendi): 127, `Stop-Process` türü bir DIŞ
+sonlandırmanın imzası. Öldüren bulunamadı. Paralel bağlam 127'yi yeniden üretmedi.
