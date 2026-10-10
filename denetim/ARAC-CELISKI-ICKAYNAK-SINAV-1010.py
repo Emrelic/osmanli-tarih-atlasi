@@ -20,6 +20,10 @@ NEGATİF (sentetik kayıt, GERÇEK devletler.js):
   N9  GERÇEK: "hiç Meksika olmadı" (St. Louis) ve "Vattâsî/merini DEĞİL" (Agadir) → ELENDI
   N11 hedef dilim zaten __BOSLUK__ → ELENDI
   N10 "XV. yüzyıl", "s. 1284", "1.609 km²", "EPOK-SAHIP-1008" yıl ÜRETMEZ
+KÖK (⑦):
+  K1  --kok verilmezse çıkış 2, ölçüm yok
+  K2  origin/main~2'den açılmış geçici worktree ⇒ "GERİDE: N" (N ≥ 2) basılıyor
+      (geçici worktree sınav sonunda kaldırılır)
 Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
 """
 import argparse
@@ -32,14 +36,14 @@ BURASI = os.path.dirname(os.path.abspath(__file__))
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--kok", default=os.path.dirname(BURASI))
-a = ap.parse_args()
+ap.add_argument("--kok", required=True)
+ARGS = ap.parse_args()
 
 spec = importlib.util.spec_from_file_location(
     "tarayici", os.path.join(BURASI, "ARAC-CELISKI-ICKAYNAK-1010.py"))
 T = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(T)
-girdi, gun, renkler, norm = T.ortam(a.kok)
+girdi, gun, renkler, norm = T.ortam(ARGS.kok)
 DEV = girdi.oku_devletler()
 BOY = renkler.BOYALAR
 SONUC = []
@@ -148,6 +152,33 @@ sina("N11 hedef dilim __BOSLUK__ (beyanlı) → ELENDI", b and all(x["sinif"] ==
 for metin in ["XV. yüzyıl", "s. 1284", "1.609 km²", "EPOK-SAHIP-1008", "35.899 / 14.514"]:
     yy = T.yillari_cikar(metin)
     sina("N10 gürültü yıl üretmez: %r" % metin, yy == [], yy)
+
+# ── ⑦ KÖK KOLLARI (koordinatör, 10 Ekim) ──────────────────────────────────
+print("KÖK (⑦)")
+import re as _re
+import subprocess
+import tempfile
+ARAC = os.path.join(BURASI, "ARAC-CELISKI-ICKAYNAK-1010.py")
+r = subprocess.run([sys.executable, ARAC, "--ozet"], capture_output=True, text=True,
+                   encoding="utf-8", errors="replace")
+sina("K1 --kok YOK ⇒ çıkış 2, ölçüm yok", r.returncode == 2 and "evren:" not in r.stdout,
+     "çıkış %d" % r.returncode)
+gecici = tempfile.mkdtemp(prefix="celiski-geride-")
+yol = os.path.join(gecici, "agac")
+w = subprocess.run(["git", "-C", ARGS.kok, "worktree", "add", yol, "origin/main~2", "--detach"],
+                   capture_output=True, text=True)
+try:
+    if w.returncode != 0:
+        sina("K2 geride kök ⇒ sayı basılıyor", False, "worktree açılamadı: " + w.stderr[:120])
+    else:
+        r = subprocess.run([sys.executable, ARAC, "--kok", yol, "--ozet"], capture_output=True,
+                           text=True, encoding="utf-8", errors="replace")
+        m = _re.search(r"GERİDE: (\d+)", r.stdout)
+        sina("K2 origin/main~2 kökü ⇒ 'GERİDE: N' basılıyor, N ≥ 2",
+             m is not None and int(m.group(1)) >= 2 and "KÖK GERİDE" in r.stdout,
+             (m.group(0) if m else r.stdout[:120]))
+finally:
+    subprocess.run(["git", "-C", ARGS.kok, "worktree", "remove", "--force", yol], capture_output=True)
 
 kalan = [ad for ad, ok in SONUC if not ok]
 print("SONUÇ: %d/%d geçti%s" % (len(SONUC) - len(kalan), len(SONUC),

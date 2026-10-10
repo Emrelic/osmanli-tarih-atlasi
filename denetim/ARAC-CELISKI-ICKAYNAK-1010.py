@@ -25,7 +25,9 @@
            yalnız BİLGİ sütunu (`a_anilan_yabanci`).
 
 Kullanım
-   py ARAC-CELISKI-ICKAYNAK-1010.py [--kok <depo>] [--json <yol>] [--c2-kapali] [--ozet]
+   py ARAC-CELISKI-ICKAYNAK-1010.py --kok <depo> [--json <yol>] [--c2-kapali] [--ozet]
+   --kok ZORUNLU (yoksa çıkış 2, ölçüm yok). Alet kökün HEAD..origin/main geriliğini
+   kendisi ölçer, basar ve JSON künyesine yazar; fetch olmazsa "olculemedi".
 """
 import argparse
 import contextlib
@@ -707,14 +709,45 @@ def tara(kayitlar, devletler, gun, norm, boyalar, c2=True):
     return out, sayac, sz
 
 
+def geride_olc(kok):
+    """Kökün origin/main'e göre GERİLİĞİ — alet kendisi ölçer (§0 "AĞACIN GERİDEYSE DUR").
+    → (taban_sha, geride_sayi|None, durum). Fetch ya da sayım başarısızsa sayı None ve
+    durum "olculemedi: <sebep>" — SESSİZ 0 YAZILMAZ."""
+    import subprocess
+
+    def git(*arg):
+        return subprocess.run(["git", "-C", kok] + list(arg), capture_output=True, text=True)
+    try:
+        r = git("rev-parse", "HEAD")
+        taban = r.stdout.strip() if r.returncode == 0 else None
+        f = git("fetch", "origin", "--quiet")
+        if f.returncode != 0:
+            return taban, None, "olculemedi: fetch başarısız (%s)" % (f.stderr.strip()[:120] or f.returncode)
+        c = git("rev-list", "--count", "HEAD..origin/main")
+        if c.returncode != 0 or not c.stdout.strip().isdigit():
+            return taban, None, "olculemedi: rev-list başarısız (%s)" % c.stderr.strip()[:120]
+        n = int(c.stdout.strip())
+        return taban, n, "olculdu"
+    except OSError as e:
+        return None, None, "olculemedi: git çağrılamadı (%s)" % e
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--kok", default=os.path.dirname(BURASI))
+    # 🔴 --kok ZORUNLU (koordinatör ⑦, 10 Ekim): varsayılan kök (`denetim/`in üstü)
+    #    BAŞKA bir dalın verisini sessizce okuyordu (C:tlas-umit = makine/umit).
+    ap.add_argument("--kok", required=True,
+                    help="ölçülecek depo kökü — origin/main'den açılmış AYRI worktree")
     ap.add_argument("--json")
     ap.add_argument("--c2-kapali", action="store_true")
     ap.add_argument("--ozet", action="store_true")
-    a = ap.parse_args()
+    a = ap.parse_args()          # --kok yoksa argparse çıkış 2 verir, ölçüm YAPILMAZ
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    taban, geride, gdurum = geride_olc(a.kok)
+    print("kök: %s · taban %s · origin/main'e göre GERİDE: %s"
+          % (a.kok, taban, geride if geride is not None else gdurum))
+    if geride:
+        print("  🔴 KÖK GERİDE (%d commit) — bu ölçüm BAŞKA BİR ATLASIN ölçümüdür" % geride)
     girdi, gun, renkler, norm = ortam(a.kok)
     Y = girdi.yukle(sessiz=True)
     Dv = girdi.oku_devletler()
@@ -730,12 +763,6 @@ def main():
         print("  %-6s %-22s %d" % (k[0], k[1], c[k]))
     print("YÜKSEK toplam:", sum(1 for x in out if x["yuksek"]))
     if a.json:
-        import subprocess
-        try:
-            taban = subprocess.run(["git", "-C", a.kok, "rev-parse", "HEAD"], capture_output=True,
-                                   text=True).stdout.strip()
-        except OSError:
-            taban = "olculemedi"
         sira = {"ENGEL-KALKMIS": 0, "OZ-ILAN-ISABET": 1, "ENGEL-YARIM": 2,
                 "OZ-ILAN-OLCULEMEDI": 3, "ENGEL-OLCULEMEDI": 4, "ENGEL-DURUYOR": 5,
                 "ENGEL-DONULMUS": 6, "YALNIZ-A": 7, "ELENDI": 8}
@@ -746,7 +773,9 @@ def main():
             x["alan"] = x["metin_alani"]
         with io.open(a.json, "w", encoding="utf-8") as f:
             json.dump({"arac": "ARAC-CELISKI-ICKAYNAK-1010", "kapi_degil": True,
-                       "taban_commit": taban, "c2": not a.c2_kapali,
+                       "taban_commit": taban or "olculemedi",
+                       "geride_origin_main": geride, "geride_durum": gdurum,
+                       "c2": not a.c2_kapali,
                        "evren": {"girdi_dosyasi": len(girdi.GIRDI_DOSYALARI), "kayit": len(Y),
                                  "kunye": len(Dv), "boya": len(renkler.BOYALAR)},
                        "sayac": sayac, "siniflar": {"%s/%s" % k: v for k, v in sorted(c.items())},

@@ -5,10 +5,10 @@ Koordinatörün 10 Ekim düzeltmesi uygulandı: sıralamayı **④ ENGEL-KALKMI�
 
 | | |
 |---|---|
-| Taban | `origin/main` **79ff492a225c124bd48a83be6868861c1d62b8bb** (ayrı worktree, `--detach`; teslim anında `HEAD..origin/main` = 0) |
+| Taban | v1: `79ff492a` · **v1.1: `534633f8d21cf022c59d8f66fed41d26b568b75b`** (ayrı worktree; alet geriliği kendisi ölçüp basıyor → 0) |
 | Evren | `girdi.GIRDI_DOSYALARI` canlı: **93 dosya · 4300 kayıt** · `devletler.js` **897 künye** · `renkler.BOYALAR` **704** |
-| Tarayıcı | `denetim/ARAC-CELISKI-ICKAYNAK-1010.py --kok <origin/main worktree> --json <yol>` (~4 sn) |
-| Sınav | `denetim/ARAC-CELISKI-ICKAYNAK-SINAV-1010.py --kok <aynı>` → **30/30**, çıkış 0 |
+| Tarayıcı | `denetim/ARAC-CELISKI-ICKAYNAK-1010.py --kok <origin/main worktree> --json <yol>` · **`--kok` ZORUNLU** (yoksa çıkış 2) · ~4 sn + fetch |
+| Sınav | `denetim/ARAC-CELISKI-ICKAYNAK-SINAV-1010.py --kok <aynı>` → **32/32** (v1.1'de K1 ve K2 eklendi), çıkış 0 |
 
 ## 1. Sayılar (bugün)
 
@@ -147,3 +147,123 @@ Seçim kuralı: önce ENGEL-KALKMIŞ, güçlü kimlik yolu olanlar öne alındı
 
 **Sahte pozitif sınıfları:** ① selef/halef anışı (ENGEL) · ② kapsayıcı ya da etnik adın bir künyenin ad parçasına düşmesi · ③ coğrafî uygunluğu ölçülemeyen künye · ④ "bulunamadı = kanıt yok" (veri zaten yokluğa göre yazılmış; bu yüzden `guc:"zayif"`) · ⑤ konusu sahip değil `kur:`/`kd:` olan öz-ilan · ⑥ karşı-olgusal "X'e itmek yanlış olur" (hedef `__BOSLUK__` ise ELENDI'ye taşındı).
 Sınav (`ARAC-CELISKI-ICKAYNAK-SINAV-1010.py`) iki yönde **30/30** geçti. Bozma sınavı da yapıldı: tolerans `yf ≤ Y ≤ yt` yapılınca N1, hassasiyet süzgeci kapatılınca N6 KALDI. Yani sınav ısırıyor.
+
+
+---
+
+## §v1.1 — ⑦ düzeltmesi ve ölçümler (koordinatör isteği, 10 Ekim 2026)
+
+**Yeni taban:** `origin/main` **534633f8d21cf022c59d8f66fed41d26b568b75b**. Ölçüm ayrı bir worktree'de yapıldı; alet bu kökü kendisi ölçtü: GERİDE 0. Ana sayılar v1 ile birebir aynı: 156 YÜKSEK (27 ENGEL-KALKMIŞ + 129 ÖZ-İLAN-İSABET) · A 1574 · B-REFERANSSIZ 1280. Güçlü ad sayısı 1751'den 1728'e indi; sebebi `devletler.js`teki değişim, sınıf sayılarına etkisi 0.
+
+### ⑦ `--kok` artık ZORUNLU
+* `--kok` verilmezse argparse çıkış **2** verir ve ölçüm yapılmaz. Eski varsayılan kök (`denetim/`in üstü) `C:\atlas-umit` = `makine/umit` dalını sessizce okuyordu.
+* Alet kökte `git fetch origin` koşturur, sonra `rev-list --count HEAD..origin/main` sayar. Sonucu basar ve JSON künyesine yazar: `taban_commit` · `geride_origin_main` · `geride_durum`.
+  * Fetch ya da sayım başarısız olursa sayı `null` olur ve durum `"olculemedi: <sebep>"` yazılır. **Sessizce 0 yazılmaz.**
+  * Sayı 0'dan büyükse `🔴 KÖK GERİDE (N commit)` satırı basılır.
+* Sınava iki kol eklendi; sonuç **32/32**:
+  * **K1:** `--kok` yoksa çıkış 2.
+  * **K2:** `origin/main~2`'den geçici bir worktree açılır, "GERİDE: 2" basılıyor. Geçici worktree sınav sonunda kaldırılır.
+
+### ① 105 `data/yer_yama*.js` — ÖZ-İLAN anahtar sözcüklerinin kaba isabeti
+Tek geçiş yapıldı; sınıflama, hedef çözümü ve hüküm yok. Tarayıcının `RX_B` + `RX_ENGEL` kalıpları her satıra uygulandı (64.228 satır, bunların 10.531'i `//` yorum satırı).
+
+| | N |
+|---|---:|
+| isabet toplamı | **11.835** |
+| NEG (değil/olmadı) | 5.940 |
+| BELİRSİZ (bulunamadı/çıkarım…) | 4.956 |
+| BOŞLUK (yazılmadı/kapsam dışı…) | 526 |
+| YANLIŞ | 243 |
+| ENGEL (künye/kimlik yok…) | 170 |
+
+* İsabet olan dosya: **104/105**.
+* En çok isabet alan dosyalar: yer_yama_1923_1945 7.392 · kademe2 2.720 · yer_yama 200 · misir_himaye 168 · hayalet2 123 · once1281_z6 96 · avrupa_isvec_1923 91 · sahiplik 57 · kafkas 52 · hayalet 51. Tam liste JSON `v1_1.yer_yama_ozilan_kaba`'da.
+* ⚠️ Bu sayılar KABADIR. `de[gğ]il\w*` kalıbı "emin değil**sen**" gibi sözcükleri de sayıyor; kademe2'nin binlerce isabeti tek bir şablon cümleden geliyor.
+* 5 örnek (tohum 1010):
+  * `yer_yama_kademe2.js:17300` [değilsen] "Emre kuralı: \"emin değilsen k3 yaz, k1 değil.\""
+  * `yer_yama_kademe2.js:10100` [değilsen] aynı şablon
+  * `yer_yama_1923_1945.js:3739` [ÇIKARIM] Sığnak kaydı (s: altinorda→kazak-hanligi→rusya…)
+  * `yer_yama_kademe2.js:2707` [bulunamadı] "kaynak": "bulunamadı — varsayılan kademe"
+  * `yer_yama_1923_1945.js:1095` [değil] Üstyurt kuzeyi kaydı
+
+### ② 93 girdi dosyasının `//` yorum satırları — aynı kaba sayım
+* 14.218 yorum satırında **1.421 isabet** var: NEG 819 · BOŞLUK 222 · BELİRSİZ 158 · YANLIŞ 153 · ENGEL 69.
+* İsabet olan dosya 87. En çok isabet alanlar: yerlesimler.js 100 · e9353f 90 · ek29 62 · afrika 46 · h2_afrika 46 · asya 44 · epir 42 · ek31 38 · ek 37 · ek_macaristan 36.
+* Satır sonu yorumu (kod + `//`) **0**: yorumların hepsi satır başında ve hepsini `girdi._cevir` atıyor.
+* **Malta yerlesimler.js:906-936 bloğu** üç isabet veriyor: 902 "olmadı", 916 "değildi", 926 "YANLIŞ". Bu üçü de **Malta hakkında değil**; Sirenayka, dosya ve Fizan atfı hakkında. Malta'nın kendi öz-ilanı veri satırındaki `s[1].kaynak`ta duruyor ve v1 onu zaten yakalıyordu.
+* 5 örnek (tohum 1010):
+  * `ek12.js:11` "BATI KENARI YALNIZ İZLANDA DEĞİL"
+  * `ek31.js:212` "ÜÇÜ DE YAZILMADI … koordinat bulunamadı"
+  * `ek12.js:52` "`1537-01-01` KAYNAKTAN DEĞİL, TUTARLILIKTAN"
+  * `asya.js:854` "başkenti UJJAIN'di, GWALIOR DEĞİL"
+  * `ek.js:361` "1918 kuyruğu `sirbistan` — … `yugoslavya` DEĞİL"
+* ⇒ Yorumlarda kayda bağlanmamış hatırı sayılır bir metin var. Ama bir yorumun **hangi kayda** ait olduğu ölçülmedi: blok başlıkları birden çok kaydı anlatıyor.
+
+### ⑥ Örtüşme — 156 YÜKSEK aday (122 kayıt) ile iki kardeş aletin ÇIKTISI
+* **İki alet ne soruyor:**
+  * `ARAC-NOT-CELISKI-1006` şunu sorar: metindeki yıl, en yakın olay sözcüğüne (devir/fetih…) bağlanınca alanın yılıyla uyuşuyor mu? Sınıfları ① aday · ② farklı olay · ③ belirsiz. "eski / değil / yanlış" cümleleri ③'e düşer.
+  * `ARAC-KASA-IC-CELISKI-1004` şunu sorar: `yer_id`li ve sahiplik fiili taşıyan bir kronoloji maddesinin ±1 yıl içinde kayıtta kırılma yok mu?
+* **Kayıtlı çıktılar bayattı.** `KASA-IC-CELISKI-1004-aday.json` 4 Ekim tabanından; `UMIT-W12-NOT-CELISKI-1006.md` yalnız md, JSON değil. Bu yüzden iki alet **534633f8 worktree'sinde taze koşturuldu**. Çıktılar worktree dışındaki bir dosyaya yazıldı. `git status --porcelain --ignored` koşudan önce ve sonra **birebir aynı** çıktı, yani depoya hiçbir şey yazılmadı.
+  * NOT-1006 yerleşim: ① 128 bulgu / 107 kayıt · ③ 314 bulgu / 226 kayıt.
+  * KASA-1004: ADAY 183 / 95 kayıt.
+* Kıyas **kayıt düzeyindedir**; aynı dilim ve aynı iddia olup olmadığı ölçülmedi.
+
+| Karşılaştırma | İkisinde | Yalnız bizde | Yalnız onlarda |
+|---|---:|---:|---:|
+| dar: NOT-1006 ① ∪ KASA-1004 | **19** kayıt (25 YÜKSEK aday) | 103 | 175 |
+| geniş: NOT-1006 ①∪③ ∪ KASA-1004 | 49 kayıt (68 YÜKSEK aday) | 73 | 319 |
+
+* **Dar kesişim, adıyla (19 kayıt):** Alaşehir · Doğubayazıt · Hama · Kirmanşah · Klagenfurt · Konya · Lienz · Lugos (Lugoj) · Luristan · Malta · Nihâvend · Raipur · San Pedro de Atacama · Silistre · Sivrihisar · Soçi (Sâşe) · Suçava (Suceava) · Yaş · Çaldıran.
+* Geniş kesişimin 49 kaydı JSON'da (`v1_1.ortusme.kesisim`).
+* 27 ENGEL-KALKMIŞ'tan yalnız Qitai, Raipur ve Vitim öteki aletlerde de geçiyor. ⇒ **ENGEL sınıfı büyük ölçüde YALNIZ BİZDE.**
+
+### ④ C2 kaybı — adıyla (süzgeç DEĞİŞTİRİLMEDİ)
+C2 kapatılınca A'ya **82**, B-İSABET'e **2** kalem ekleniyor. 82 kalemin hepsi okundu; tam liste ve her kalemin okuması JSON'da (`v1_1.c2_kaybi`).
+
+| A'daki 82 kalemin okuması | N | Örnek |
+|---|---:|---|
+| **YAYIN YILI** (doğru düşmüş) | **45** | "Roger Bigelow Merriman (1918)" İber kayıtlarında 39 kez · Deutsches Kolonial-Lexikon (1920) ×3 · Imperial Gazetteer (1908) · Lorimer (1915) · Scott & Hardiman (1900) |
+| ESER BAŞLIĞINDAKİ DÖNEM (yayın yılı değil, olay da değil) | 11 | Karataş "…Taksimatındaki Yeri (1555-1722)" ×6 · "Siirt Vakıfları (1526-1566)" ×2 · "Great War (1914-1919)" · "(1880-1914)" · "Guerra del Pacífico (1879-1884)" |
+| ATLAS İÇ DEĞERİ | 1 | Kuba "yamanın penceresinin (1583-1607)" |
+| **GERÇEK OLAY YILI** (C2 yüzünden kaybedildi) | **25** | aşağıda |
+
+**Kaybedilen 25 gerçek olay yılı:**
+* Anapa 1427 ve 1456, Maykop 1456, Soçi 1456, Tuapse 1456: hepsi "Yinal (1427-1456)".
+* Draç 1388 ("ölümüne kadar (1388)").
+* Erciş 1438 ("Cihan Şah döneminde (1438-1467)").
+* Rabat 1184 ve 1199 ("el-Mansûr (1184-1199)").
+* İzdin 1424 ("Osmanlılar zamanında (1424-1832)").
+* Cushamen 1904 (Gastre'nin kuruluş yılı).
+* San Antonio de los Cobres 1908 (başkentlik).
+* Atapupu 1812 ("İngiliz ara döneminde (1812-16)").
+* Ecmîr 1210 ("Aybeg (1206-1210)").
+* Andican, Hokand, Hucend, Oş 1494 ("Fergana hâkimiyeti (1494-1504)").
+* Mustafapaşa 1574 ve 1595 ("III. Murad devrinden (1574-1595)").
+* Doğubayazıt 1512 ve 1520 ("Yavuz … döneminde (1512-1520)").
+* Udbina 1791 ("Svištov'a (1791)").
+* Dera İsmail Han 1825 ("Hafız Ahmed Han'ı (1815-1825)").
+* Brest-Litovsk 1915 ("Alman işgali (1915-1918)").
+
+**B'deki +2 kalem:**
+* **Brest-Litovsk:** "Alman işgali (1915-1918) 'isg:' olarak YAZILMADI". Bu **GERÇEK BİR ÖZ-İLAN** ve C2 onu kaçırıyor.
+* **Cushamen:** "Gastre'nin kuruluş yılı (1904) … doğrulanamadı". Sahte: konu kuruluş yılı, dilimin sahibi değil.
+
+⇒ **C2'nin bilançosu (yalnız sayı; süzgeci değiştirmek koordinatörün kararı):**
+* Düşen 82 yılın 45'i doğru düştü (yayın yılı), 25'i yanlış düştü (gerçek olay), 12'si nötr.
+* B'deki kayıp 1 gerçek öz-ilan.
+* Olay yıllarının ortak işareti şu: parantezin önünde **dönem/kişi sözü** var ("döneminde", "zamanında", "hâkimiyeti", "ölümüne kadar", bir hükümdar adı). Yayın yıllarının önünde ise **yazar adı ya da eser başlığı** var.
+
+### ⑤ B-REFERANSSIZ 1280 kovasından 20 kalemlik rastgele örnek (tohum **20261010**)
+**Sonuç: 0/20 kalem kapalı listenin kaçırdığı açık bir öz-ilan (YANLIŞ/kapsam dışı türü). 2/20 sınırda.**
+
+| # | Kayıt · alan | Tetik | Okuma |
+|---|---|---|---|
+| 1,4,5,6,7,8,9,12,13,15,16,17,18,19 | Michipicoten · Anaktuvuk Geçidi · Marten Falls · Timbisha · Berens River · Keweenaw · Qeqertarsuaq · Fort Ross · Bissav · Aranos · Kasongo · Fort Nelson · Fort Albany · Aravan — hepsi `kaynak` | "bulunamadı" | **Kayıt kaynaksız beyanı** (14 kalem). Bir dilim hakkında hüküm değil, kaynaksızlık ölçümünün alanı |
+| 2 | Tigil · kaynak | "hakemli DEĞİL" | kaynağın niteliği hakkında bir not |
+| 3 | Nablus · d[0].kaynak | "varış günü, teslim günü değil" | **SINIRDA:** kendi `d[0].f` gününün dayanağı (gün komşudan, Şam) |
+| 10 | Mapungubwe · neden | "'Aramadım' DEĞİL" | yöntem cümlesi |
+| 11 | Şerur · s[3].kaynak | "ŞEHİR TANIKLIĞI DEĞİL … bulunamadı" | **SINIRDA:** s[3] karakoyunlu'nun f=1408-04-13'ü bir bölge cümlesine dayanıyor. Aynı parçadaki "bulunamadı" ELENDI'ye düştü, çünkü tek yıl = P.f ve tek yıl uç sayılmıyor. **Bilinen bir kör nokta:** dilimin TAM UCU hakkındaki öz-ilan B'de görünmüyor |
+| 14 | Bozüyük · neden | "UYDURMA NOKTA YAZILMADI" | yöntem cümlesi |
+| 20 | Gorbitsa · not | "daha eski olup olmadığı bulunamadı" | konu `kur`, dilimin sahibi değil |
+
+⇒ Kapalı anahtar listesinin bu kovadaki kaybı, örneklemde **gözlenmedi**. Asıl kör nokta liste değil, **tek yıl = dönem ucu** kuralı (#11). Bu kuralın kaç kalemi kaçırdığı ölçülmedi.
