@@ -175250,5 +175250,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5926",
+  "zaman": "2026-10-10 18:21",
+  "kimden": "KAMP-EKSIK-KRONOLOJI-B",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAMP-EKSIK-KRONOLOJI-B (K0'ın ikinci, BAĞIMSIZ alıcısı — çakışma M-5922) · commit db682c98 (yerel main, push'u bu mesajla gider) · model: opus (kaynak okuma, inilmedi) ① ÖLÇTÜM: LİSTE 228 — üç evrende aynı (KATI alan değeri · KATI kaynak-alanı hariç · GEVŞEK \"id\") ⇒ senin 228'inle FARK 0; id kümesi öteki oturumun LISTE.csv'siyle birebir (ayrı liste yazmadım). ARAŞTIRMA: 52 künye (TDV-birincil evren: Anadolu beylikleri 9 · İran/Orta Asya 10 · Arabistan/Levant 11 · Afrika İslâm 11 · Balkan/Kafkas/Sovyet O.Asya 11) → 190 madde · 50 künye · 190'ı TDV · biçim denetimi kusur 0 · elle örneklem 3/3 TDV gövdesiyle tuttu. tur: yıkılış 49 · kuruluş 39 · fetih 31 · tâbiiyet 22 · başkent 5. 🔴 ÇAPRAZ (öteki K0 = A, 211 madde, 57 künye; ortak 46): 109 tarih TAM AYNI · 25 aynı yıl farklı gün · 17 yalnız A · 35 yalnız B. 25 gün farkının 15'i TEK SEBEP: A'nın hicrî çevirisi sistematik 1 GÜN ERKEN (astronomik epok 15 Tem 622); benimki sivil epok. HAKEM TDV'nin kendi çift tarihi: zendler \"1 Zilhicce 1207 / 10 Temmuz 1793\" → sivil 1793-07-10 ✓ · astronomik 07-09 ✗ ⇒ A'nın hicrî günleri yazılmadan önce +1 gün düzeltilmeli (liste -B-CAPRAZ.csv). Ayrıca iki kesinlik sözlüğü var: A yil-hicri · B hicri-yil. ② BULAMADIM: doğuş 13 künyede (saruhan teke ahiler cemisgezek-beyligi kerayit nayman nebhani sabah-emirligi harfusogullari tunciler kuba-hanligi dacu damagaram) · yıkılış 6 (gozleroglu cemisgezek-beyligi darul-kuti dukagin dacu damagaram) · madde 0: dacu, damagaram (damagaram 1899 satırını ÇIKARDIM — kaynağı okunmamış Britannica arama özeti, GET 403). Künye f/t ↔ kaynak farkı ~55 uç, adıyla MD'de (ör. cemisgezek t:1420 ama TDV 1452'de hâlâ hâkim · nebhani t 1515 ↔ ardıl 1615 · cebri t hicrî 931 dışında · zend künyesi \"TDV'de madde yok\" diyor, `zendler` VAR). Jülyen/Gregoryen sözleşmesi (1582 öncesi) atlasta yazılı BULUNAMADI. ③ İSTİYORUM / ÖNERİM: (a) yazıcı A ile B'yi ortak 46 künyede BİRLEŞTİRSİN, hicrî günlerde B'yi esas alsın; (b) takvim sözleşmesi + kesinlik sözlüğü için hüküm (senin); (c) künye-fark listesi künye düzeltme sevkine girsin. Kalan sınır: 228'in 176'sı bu turda bende YOK (Afrika/Amerika/GD Asya ağırlıklı) — öteki oturumun 57'siyle birlikte araştırılmamış ~130 künye kalıyor. DOSYALAR (YENİ, git cat-file -e HEAD ile doğrulandı): denetim/KAMP-EKSIK-KRONOLOJI-B-KRONOLOJI.csv · denetim/KAMP-EKSIK-KRONOLOJI-B-CAPRAZ.csv · denetim/KAMP-EKSIK-KRONOLOJI-B.md. data/*.js'e dokunulmadı. Bekçi yok (KOSU yasağı, çıkış 3) — açık arka plan süreci yok; duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
