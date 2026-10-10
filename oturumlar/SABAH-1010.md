@@ -78,19 +78,35 @@ Taiz: 254 yıl boyunca YANLIŞ SAHİP
 `KAYNAKSIZ-ORNEKLEM-1010`, tabakalı örneklemle (N=48, 11 bölge, tohum 20261010)
 ölçtü ve **asıl bulgu bir desen değil bir SEBEP:**
 ```
-iddia penceresi 1281-01-01'de BAŞLIYORSA   YANLIŞ %70  (7/10)
-daha GEÇ başlıyorsa                        YANLIŞ  %8  (3/36)
+İKİ TUR (tohum 20261010 N=48 · tohum 20261011 N=40 — bolge() dondurulmuş)
+1281-başlangıçlı halka   YANLIŞ %39,0 (16/41, %25,7-54,3) ⇒ ≈554 kayıt (364-770)
+daha GEÇ başlayan halka  YANLIŞ  %8   (3/36, %3-22)
 1841 kaydın 1419'u (%77) en az bir 1281-başlangıçlı halka taşıyor
-toplam yanlış iddia tahmini  ≈400  (Wilson %95: 226-655)
+toplam yanlış iddia (tur 1, bütün evren)  ≈400  (Wilson %95: 226-655)
 ```
-**Sebebi:** `1281-01-01` atlasın **ufkunun kenarı** — bir kaynak değil, bir
-**sınır işareti** (`CLAUDE.md §4` / `D210` bunu zaten yasaklıyordu). 1419
-kayıtta o kenar bir kaynak gibi yazılmış: nokta *"1281'den beri şu devletin"*
-diye işaretlenmiş, oysa 1281 o devletle ilgili hiçbir şey söylemiyor —
-**atlasın nereden başladığını** söylüyor. ⇒ Bu kayıtlar kaynaksız değil,
-**YANLIŞ KAYNAKLI**; kaynakları atlasın kendi sınır işareti. Ve `§4`ün
-*"atlas referans değildir, mamul üründür"* kuralı tam bunu yasaklıyor —
-senin 13 Eylül'deki kararın.
+⚠️ **BU SAYI BİR KEZ DÜZELDİ:** tur 1 yalnız n=10 ile **%70** demişti ve ben
+onu sana öyle yazmıştım. Tur 2 düşürdü — %70 **küçük n + bölge karışımıydı**
+(tur 1'in 1281 alt kümesi Afrika Boynuzu ağırlıklı; tur 2 Avrupa'ya 11 pay
+verdi ve Kutsal Roma/Portekiz/Danimarka/Tver DOĞRU çıktı). Fark hâlâ GERÇEK
+(%39 ↔ %8) ama **küçük**, ve yanlış kayıt tahmini ≈554, ≈990 DEĞİL.
+**Sebebi — ve burada DÜRÜST OLMAM gerekiyor:** ben *"`1281-01-01` atlasın
+ufkunun kenarı, bir sınır işareti, ve 1419 kayıtta bir KAYNAK GİBİ yazılmış"*
+dedim ve bunu **ölçülmüş bir sebep** gibi yazdım. Ölçen oturum çürüttü:
+```
+1419 kaydın 1419'unda f TAM 1281-01-01 · f < 1281 olan 0
+⇒ KARŞILAŞTIRMA GRUBU BOŞ
+```
+İki açıklama aynı veriyi üretiyor: **Ⓐ** ufuk ucu varsayılan yazıldı · **Ⓑ**
+zincirin ilk halkası zaten en zor halkadır (en eski dönem, en ince kaynak).
+Veri Ⓐ ile uyumlu ama Ⓑ'yi **dışlamıyor** ⇒ sebep bir **HİPOTEZ.** Üstelik
+kontrol grubunun boşluğunun bir kısmı veri değil **evren seçimi**: ölçüm
+penceresi `1281-01-01..1923-10-29` ve 1281'den öncesini zaten dışlıyor.
+⇒ Ayırt edici tek ölçüm koşuyor: *ilk halkası KAYNAKLI olan kayıtlarda
+(`donem_ici` 460) `f:` kaç tanesinde tam `1281-01-01`?* Dağınıksa Ⓐ
+desteklenir, ~%100 ise yoğunlaşma bir kaynak sorunu değil veri yapısıdır.
+📌 Ne olursa olsun `§4`ün *"atlas referans değildir, mamul üründür"* kuralı
+(senin 13 Eylül kararın) bu kayıtların düzeltilmesini gerektiriyor — sebep
+hangisi çıkarsa çıksın **~554 kayıt yanlış** ve bu bir DÜZELTME işi.
 
 **BENİM KARARIM (senin onayına sunmuyorum, bildiriyorum):** 1841 tek kova
 olmaktan çıkıyor, ikiye bölünüyor —

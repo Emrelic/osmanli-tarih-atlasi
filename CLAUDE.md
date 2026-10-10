@@ -230,9 +230,48 @@ hicrî 686 → 1287-02-16             ⇒ 1287-01-01 DIŞINDA
 hicrî 690 → 1291-01-04             ⇒ ve olay (Akkâ) 05-18'den SONRA
 hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
 ```
-  ⇒ **VARSAYILAN DEĞİŞİR:** kaynak mîlâdî yıl veriyorsa `YYYY-01-01`;
-  **hicrî yıl veriyorsa o hicrî yılın İLK MÎLÂDÎ GÜNÜ** (ya da olay bir
-  tarihten sonraysa o tarih), ve seçim `ic_not`ta hicrî aralıkla BEYAN edilir.
+  🔴 **VARSAYILAN GÜN SÖZLEŞMESİ — bu bir uyarı değil, UYGULANACAK KURAL**
+  (KASA ölçtü, `KASA-HICRI-TARAMA-1010`):
+```
+  kaynak MÎLÂDÎ yıl veriyorsa  → YYYY-01-01
+  kaynak HİCRÎ yıl veriyorsa   → hicrî aralık ∩ kaynağın yazdığı MÎLÂDÎ yıl
+                                 ∩ (varsa) mîlâdî AY   ⇒ kesişimin İLK günü
+  kaynakta GÜN varsa           → O GÜN (yıl yazılmaz)
+  seçim `ic_not`ta hicrî aralıkla BEYAN edilir
+```
+  ⚠️ `∩ mîlâdî yıl` ihmal edilemez: hicrî yıl iki mîlâdî yıla yayılır, kaynak
+  hangisini söylüyorsa kesişim ORADA kalır — *"543/1148" 1149'a TAŞMAZ.*
+  🔴 **VE BU BİR TAHMİN DEĞİL, 145 UÇTA ÖLÇÜLDÜ** (897 künye tarandı; hicrî
+  taşıyan 108 · taşımayan 789 · kaynak alanı BOŞ 0):
+```
+  İÇİNDE 75  ·  DIŞINDA 70  ·  SINIRDA 0
+  DIŞARIDA kalan 70'in  70'i  →  `YYYY-01-01`
+  gün YAZILMIŞ 28 ucun   0'ı  →  dışarıda
+```
+  Sıfır ve yüz yan yana ⇒ **tek bir mekanizma.** Hata hiçbir zaman "yanlış
+  okuma" değil: *"gün yoksa 1 Ocak"* sözleşmesinin hicrî kaynağa uygulanması.
+  TDV'nin `H/M`si *"M'de başlayan H yılı"* demek; `M-01-01` ise o hicrî yıl
+  **başlamadan önceki gün.** ⇒ 70 vakası tek bir satıra inen bir kusur, bir
+  "hata listesi" değil **bir SÖZLEŞME AÇIĞIDIR** — çaresi de liste değil,
+  sözleşme. Ölçülen kaymalar: `zengi-musul`/`lului` **11 ay** ·
+  `hamdani-musul` 10 ay · `karmati`/`uyuni` 7 ay · `muvahhidler` f'de kaynakta
+  gün VAR ama yazılmamış (14 Ramazan 524 / 21 Ağustos 1130).
+  🔴 **ZİNCİR ŞARTI:** bir künyenin `t`si başka birinin `f`siyse ikisi
+  **BİRLİKTE** kaydırılır; tek taraflı kaydırma Değişmez 1 (sahipsizlik)
+  ihlali üretir. ⚠️ Ve otomatik eşleşmeye GÜVENİLMEZ: ham 33 eşleşmenin
+  yalnız **10'u** gerçek ardıl çifti, kalanı *aynı yanlış `-01-01`i paylaşan*
+  tesadüfler (`gazneli`↔`eyyubi-halep`, `idrisi`↔`norse-gronland`) — **hatanın
+  kendisi sahte bir zincir deseni üretiyor.**
+  🔴 **VE BOŞLUK ZORLA KAPATILMAZ:** iki ucun İKİSİ DE kaynaklıysa ve arada
+  boşluk varsa, boşluk GERÇEKTİR ve `__BOSLUK__` ile beyan edilir — uçlardan
+  biri ötekine ÇEKİLMEZ. Vaka: `rustemi` t *"Şevval 296 / Temmuz 909"*
+  (Tâhert'in düşüşü) ↔ `fatimi` f *"297 (909)"* = 0909-09-20 (Ubeydullah'ın
+  ilânı); arada **2,5 ay** ve bu İKİ AYRI OLAY. Zinciri dikişsiz yapmak bir
+  düzeltme değil **bir varsayımdır** — *"bir devlet düştüğü an ardılı başladı"*
+  diye bir kural yok.
+  ⚠️ Kapsam sınırı ADIYLA: notunda hicrî TAŞIMAYAN 789 künyenin TDV gövdeleri
+  çekilmedi ⇒ gerçek sayı **70'ten BÜYÜK** (`sasani` t ve `hulefa-yi-rasidin` f
+  bu evrene hiç girmiyor, hicrî tarihleri başka TDV maddesinden geliyor).
   📌 Niçin bu kadar geniş: `§4` TDV'yi İslâm dünyası ve Osmanlı için birincil
   yapar — yani atlasın **çekirdeğinin** kaynakları hicrî tarihler. Bu tuzak
   istisna değil, **varsayılan hâl.**
@@ -344,6 +383,28 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   bitince "dosya senin" der; devir sözle yapılır.
 - **Uzun bir işi (koşu) başlatmadan önce** tahtaya "BEN BAŞLATIYORUM · ne · ~süre" yaz ve
   60 sn bekle; çakışmada beyana değil süreç damgasına bak. [`D225`](dersler/D225-ad-alani-kaynak-sahipligi.md)
+- 🆕 🔴 **SÜREÇ ÖLDÜRME — ADLA YA DA ZAMAN PENCERESİYLE ASLA.** `Stop-Process`
+  yalnız **KENDİ başlattığın PID ve onun ALT AĞACI** için kullanılır
+  (`taskkill /T /PID <kendi>`). Bu makinede aynı anda birden çok oturum `git`,
+  `py` ve `node` koşturuyor. ⚠️ Ölçülen vaka (UMIT, 10 Ekim 2026, öz-ihbar):
+  `Get-Process git | ? StartTime -gt <X> | Stop-Process -Force` **sahibine
+  bakmadan** o 13 saniyelik pencerede başlamış BÜTÜN `git` süreçlerini
+  öldürdü — kurbanları Z5 v4'ün boş mesajlı *"KAPI ÖLÇEMEDİ — git diff hata:"*
+  satırı ve o anda koşan `SAHIPLIK-KAPSAM` ölçümleri. `§7.2`de aynı sınıfın
+  eski bir vakası var (koordinatör dört kıtanın bekçisini dışarıdan öldürdü);
+  o zaman zarar GÖRÜNMEMİŞTİ, bu gece GÖRÜLDÜ.
+  🔴 **VE ÇIKIŞ KODU TUZAĞI — bu makinede ÖLÇÜLDÜ, genel bilgi DEĞİL:**
+```
+  Stop-Process -Force (python.exe / py.exe)  →  127
+  taskkill /F   ·   taskkill /F /T   ·   TaskStop  →  1
+```
+  Yani Git Bash'te **127 "komut bulunamadı" DEMEK ZORUNDA DEĞİL**: burada
+  *"dışarıdan sonlandırıldı"* da demek. Ayırt edici **çıktı başlamış mı**
+  sorusudur (eksik bir ikili çıktı üretmez; ölçülen vakada iki log 370.667
+  bayt gerçek çıktı taşıyordu). ⇒ **Genel bilgi, bu makinedeki ölçümün yerine
+  geçmez** (`§3`in *"vakaya dayanıp bugünkü durum hükmü verilmez"* kuralının
+  ortam yüzü) — ve bu tuzağa koordinatör de düştü: işçinin "makine yükü"
+  tahminini "127 = command not found" diye düzeltti, ölçüm İKİSİNİ de çürüttü.
 - **Koşu nöbetçisi** düzenli canlılık basar (60 dk'da bir); sessizlik "nöbetçi ölmüş
   olabilir"dir (tahta bekçisi mesaj yoksa sessizdir — §7.2). [`D222`](dersler/D222-nobetci-altyapiyla-olur.md)
 - **Commit:** push ve paylaşılan dosyalar Oturum 0'da. Oturum KENDİ ürettiklerini
