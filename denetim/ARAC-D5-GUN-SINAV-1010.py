@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """ARAC-D5-GUN-SINAV-1010 — Değişmez 5 (`denetle.degismez5` / `degismez5_rapor`) gün sayacı sınavı.
 
-Koordinatör kararı (b), dayanak `denetim/KUR-KAPI-OLCUM-1010.md`, yama `denetim/D5-GUN-1010-v2.diff` (v2: 5c DEFTERİ, V1–V7 kolları).
+Koordinatör kararı (b), dayanak `denetim/KUR-KAPI-OLCUM-1010.md`, yama `denetim/D5-GUN-1010-v3.diff` (v2: 5c DEFTERİ, V1–V7 · v3: anahtar 'DOSYA | ad', V8 kimlik değişimi / V9 ad değişimi).
 
 Her soru TAZE ALT SÜREÇTE koşar, SENTETİK veriyle: gerçek `data/` okunmaz, yazılmaz —
 sentetik kayıt listesi geçici bir JSON dosyasından `degismez5_rapor(Y)`a ENJEKTE edilir.
@@ -42,11 +42,14 @@ dyol = None
 with contextlib.redirect_stdout(buf):
     rapor = getattr(denetle, "degismez5_rapor", None)
     if rapor is not None and "d5c_defter" in inspect.signature(rapor).parameters:
-        yolu = "v2"
+        yolu = "defterli"
         # Sentetik defter — gerçek denetim/D5C-DEFTER.json'a DOKUNULMAZ
         if dspec["mod"] == "esit":
             kay = sorted(denetle.d5c_anahtar(r) for r in denetle.degismez5(Y)[2])
             ben = len(kay)
+        elif dspec["mod"] == "once":            # defter = Y_ONCE'nin 5c kümesi, AĞACIN KENDİ anahtarıyla
+            kay = sorted(denetle.d5c_anahtar(r) for r in denetle.degismez5(dspec["Y"])[2])
+            ben = dspec.get("beklenen", len(kay))
         elif dspec["mod"] == "liste":
             kay, ben = dspec["kayitlar"], dspec.get("beklenen", len(dspec["kayitlar"]))
         else:                                   # "yok"
@@ -89,7 +92,7 @@ try:
     kay = sorted(denetle.d5c_anahtar(r) for r in denetle.degismez5(girdi.yukle(sessiz=True))[2])
     D = json.load(io.open(denetle.D5C_DEFTER_YOL, encoding="utf-8"))
     esit = sorted(D["kayitlar"]) == kay and denetle.BEKLENEN_D5C == len(kay)
-    sonuc.update(yol="v2", kod=0 if esit else 1,
+    sonuc.update(yol="depo", kod=0 if esit else 1,
                  cikti="olcum %d · defter %d · sabit %d · fark +%d/-%d" % (
                      len(kay), len(D["kayitlar"]), denetle.BEKLENEN_D5C,
                      len(set(kay) - set(D["kayitlar"])), len(set(D["kayitlar"]) - set(kay))))
@@ -239,30 +242,30 @@ sor("S12", "401 gün ⇒ İHLAL · 400 gün ⇒ ihlal değil (eşik 400 KALDI)",
     r["kod"] == 1 and a5(r, "S12-401") and r2["kod"] == 0 and not a5(r2, "S12-400"), r)
 
 # ═══ v2 — 5c DEFTERİ (emsal SAHIPLIK-TABAN-OLCULEMEDI). Aşım İHLAL DEĞİL, ÖLÇÜLEMEDİ (çıkış 2) ═══
-K = lambda ad: "%s [sentetik-devlet]" % ad
+# Defterler AĞACIN KENDİ anahtar işleviyle bir "önceki" Y'den kurulur (mod "once") —
+# böylece kollar anahtar BİÇİMİNDEN bağımsızdır (v2 "ad [kimlik]" · v3 "DOSYA | ad").
 YD = [kayit("D-A", f="1281-01-01"), kayit("D-B", f="1200-01-01"), kayit("D-C", f="1281-06-01")]
+ONCE = lambda Y0, **k: dict({"mod": "once", "Y": Y0}, **k)
 
 # V1 — eşit küme ⇒ 0
-r = kos(YD, {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")]})
+r = kos(YD, ONCE(YD))
 sor("V1", "defter = 5c kümesi ⇒ çıkış 0, ölçülemedi yok", r["kod"] == 0 and not r["olc"]
     and "GİRDİ" not in r["cikti"] and "TAVAN GEVŞEK" not in r["cikti"], r)
 
 # V2 — GİREN: defterde olmayan kayıt 5c'de ⇒ İHLAL DEĞİL (1 yok), ÖLÇÜLEMEDİ adıyla (2)
-r = kos(YD + [kayit("D-YENI", f="1281-01-01")],
-        {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")]})
+r = kos(YD + [kayit("D-YENI", f="1281-01-01")], ONCE(YD))
 sor("V2", "giren kayıt ⇒ İHLAL DEĞİL, ölçülemedi adıyla (çıkış 2)", r["kod"] == 2
-    and any(K("D-YENI") in o[0] for o in r["olc"]) and "NET TAKAS" not in r["cikti"], r)
+    and any("D-YENI" in o[0] and "GİREN" in o[0] for o in r["olc"]) and "NET TAKAS" not in r["cikti"], r)
 
 # V3 — NET TAKAS: sayı aynı, küme farklı ⇒ ölçülemedi + "NET TAKAS"
-r = kos(YD, {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-ESKI")]})
+r = kos(YD, ONCE(YD[:2] + [kayit("D-ESKI", f="1281-01-01")]))
 sor("V3", "net takas (sayı aynı, küme farklı) ⇒ 'NET TAKAS' + giren ölçülemedi",
-    r["kod"] == 2 and "NET TAKAS" in r["cikti"] and any(K("D-C") in o[0] for o in r["olc"]), r)
+    r["kod"] == 2 and "NET TAKAS" in r["cikti"] and any("D-C" in o[0] and "GİREN" in o[0] for o in r["olc"]), r)
 
 # V4 — ÇIKAN: defterdeki kayıt artık 5c'de değil (kur: kazandı) ⇒ TAVAN GEVŞEK, bilgi, çıkış 0
-r = kos(YD[:2] + [kayit("D-C", kur="1281-06-01", f="1281-06-01")],
-        {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")]})
+r = kos(YD[:2] + [kayit("D-C", kur="1281-06-01", f="1281-06-01")], ONCE(YD))
 sor("V4", "çıkan kayıt ⇒ 'TAVAN GEVŞEK' bilgi, çıkış 0", r["kod"] == 0 and not r["olc"]
-    and "TAVAN GEVŞEK" in r["cikti"] and K("D-C") in r["cikti"], r)
+    and "TAVAN GEVŞEK" in r["cikti"] and "D-C" in r["cikti"], r)
 
 # V5 — defter YOK ⇒ ölçülemedi
 r = kos(YD, {"mod": "yok", "beklenen": 3})
@@ -275,9 +278,25 @@ sor("V5b", "defter bozuk ⇒ ölçülemedi (çıkış 2)", r["kod"] == 2
     and any(o[0] == "Değişmez 5c defteri" for o in r["olc"]), r)
 
 # V6 — sabit ≠ defter ⇒ ölçülemedi
-r = kos(YD, {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")], "beklenen": 4})
+r = kos(YD, ONCE(YD, beklenen=4))
 sor("V6", "BEKLENEN_D5C ≠ defter kayıt sayısı ⇒ ölçülemedi (çıkış 2)", r["kod"] == 2
     and any(o[0] == "Değişmez 5c defteri" and "≠" in o[1] for o in r["olc"]), r)
+
+# V8 — TERS SINAV (v3, koordinatör): bir 5c kaydının İLK DÖNEM KİMLİĞİ değişir (FAZ 2'nin işi:
+#   devir, ilk halka, hicrî uç, sahip düzeltmesi). Kayıt hâlâ 5c'de, hâlâ AYNI kayıt ⇒
+#   defter anahtarı KAYMAMALI: giren 0, NET TAKAS yok, çıkış 0.  (v2'nin "ad [kimlik]"i burada SAHTE NET TAKAS verir.)
+YK = YD[:2] + [dict(kayit("D-C", f="1281-06-01"), s=[{"d": "baska-devlet", "f": "1281-06-01", "t": "1923-10-29"}])]
+r = kos(YK, ONCE(YD))
+sor("V8", "ilk dönem kimliği değişti ⇒ giren 0, NET TAKAS yok, çıkış 0 (anahtar izlenenden bağımsız)",
+    r["kod"] == 0 and not r["olc"] and "NET TAKAS" not in r["cikti"] and "GİRDİ" not in r["cikti"]
+    and "TAVAN GEVŞEK" not in r["cikti"], r)
+
+# V9 — AD DEĞİŞİMİ GÖRÜNÜR (beklenen): "DOSYA | ad" anahtarında ad değişen kayıt GİREN + ÇIKAN
+#   (sayı aynı ⇒ NET TAKAS) üretir ⇒ ölçülemedi (2). Ad değişikliği sessiz geçmemeli.
+r = kos(YD[:2] + [kayit("D-C-YENIAD", f="1281-06-01")], ONCE(YD))
+sor("V9", "ad değişti ⇒ GİREN + ÇIKAN (NET TAKAS) görünür, çıkış 2",
+    r["kod"] == 2 and "NET TAKAS" in r["cikti"] and any("D-C-YENIAD" in o[0] for o in r["olc"])
+    and "TAVAN GEVŞEK" in r["cikti"], r)
 
 # V7 — DEPO: ağacın denetim/D5C-DEFTER.json'u + BEKLENEN_D5C = ağacın gerçek verisinin ölçümü (yalnız OKUR)
 r = _alt([COCUK_DEPO, KOK])
