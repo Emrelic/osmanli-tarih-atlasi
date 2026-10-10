@@ -1,0 +1,381 @@
+diff --git a/arac/aciliyet.py b/arac/aciliyet.py
+new file mode 100644
+index 00000000..c50cfd17
+--- /dev/null
++++ b/arac/aciliyet.py
+@@ -0,0 +1,80 @@
++# -*- coding: utf-8 -*-
++"""ACİLİYET TESPİTİ — tahta YAZICISI ile tahta BEKÇİSİNİN ortak, TEK kararı.
++
++🔴 VAKA (YORUM-KONTROL-TARAMA-1010, 10 Ekim 2026; TAHTA-ACIL-I-1010 ölçtü):
++   aynı soruya iki ayrı cevap veren iki kod vardı.
++     tahta.py       `_t(aciliyet).upper() in ("ACIL", "DURDURUCU")`
++                    ⇒ `--aciliyet ACİL` (noktalı İ) → "ACİL" ≠ "ACIL"
++                    ⇒ NORMAL sayılıyor ⇒ `--dayanak` İSTENMİYOR, KÜTÜK diye geçiyor
++     tahta_bekci.py `_sade(aciliyet) in ("ACIL", "DURDURUCU")`  (İ→I düzlüyor)
++                    ⇒ aynı kayıt ACIL ⇒ HERKES yayını BÜTÜN bekçileri UYANDIRIYOR
++   Sonuç: CLAUDE.md §7.2 ③'ün "dayanaksız uyandırma yok" sözleşmesi Türkçe
++   yazımın EN DOĞAL biçiminde (ACİL) deliniyordu. Kusur iki kodun her birinde
++   değil, İKİSİNİN AYRIŞMASINDAYDI — bu yüzden çare bir tarafı düzeltmek
++   değil, iki tarafı TEK işleve bağlamaktır.
++
++📌 Normalleştirici `denetim/ARAC-NORMAL-0903.py`deki `norm()`dur, BURAYA
++   TAŞINDI (arac/ araçları denetim/ dosyasına çalışma anında bağlanmasın diye).
++   Davranış eşdeğerliği `denetim/ARAC-TAHTA-ACIL-I-SINAV-1010.py` E1'de
++   iki işlev aynı derlem üzerinde koşturularak sınanır. Biri değişirse sınav öter.
++   Tuzak (§4): "İ".lower() iki kod noktası verir, casefold() da çözmez.
++
++🔴 KELİME SINIRI KARARI: eşleşme TAM SÖZCÜKTÜR, alt dizgi DEĞİL.
++   "ACİLEN" · "aciliyet" · "acilci" → ACİL SAYILMAZ (NORMAL).
++   Gerekçe: `--aciliyet` bir ANAHTAR alanıdır, serbest metin değil; alt dizgi
++   eşleşmesi "aciliyet: düşük" gibi bir değeri ALARMA çevirir. Asıl güvence
++   kelime sınırı değil TUTARLILIKTIR: hangi karar verilirse verilsin yazıcı
++   ve bekçi AYNI kararı verir — "dayanak istenmedi ama uyandırdı" hâli
++   artık yapısal olarak İMKÂNSIZ.
++   ⚠️ Bilinen yanlış pozitif (bilerek kabul): "ACİL DEĞİL" → ACİL sayılır ve
++   dayanak ister. Güvenli yöne düşer (RED, açık mesajla), sessizce geçmez.
++"""
++import re
++import unicodedata as _u
++
++ACIL = "ACIL"
++DURDURUCU = "DURDURUCU"
++
++# ── denetim/ARAC-NORMAL-0903.py `norm()` — BİREBİR ────────────────────────
++_ESLEME = str.maketrans({
++    "İ": "i", "I": "i", "ı": "i",
++    "Ş": "s", "ş": "s", "Ğ": "g", "ğ": "g",
++    "Ü": "u", "ü": "u", "Ö": "o", "ö": "o", "Ç": "c", "ç": "c",
++    "Â": "a", "â": "a", "Î": "i", "î": "i", "Û": "u", "û": "u",
++    "’": "'", "‘": "'", "”": '"', "“": '"', "–": "-", "—": "-",
++})
++
++
++def norm(s):
++    """Ad karsilastirmasi icin TEK normallestirici (ARAC-NORMAL-0903)."""
++    if not s:
++        return ""
++    s = s.translate(_ESLEME)
++    s = _u.normalize("NFKD", s)
++    s = "".join(c for c in s if not _u.combining(c))
++    return s.lower().strip()
++# ──────────────────────────────────────────────────────────────────────────
++
++
++def sinif(s):
++    """'DURDURUCU' · 'ACIL' · '' (uyandırmaz). Tam sözcük, Türkçe düzlenmiş."""
++    kelimeler = set(re.findall(r"[a-z0-9]+", norm(s)))
++    if "durdurucu" in kelimeler:
++        return DURDURUCU
++    if "acil" in kelimeler:
++        return ACIL
++    return ""
++
++
++def uyandirir_mi(s):
++    """HERKES yayınında bu aciliyet BÜTÜN bekçileri uyandırır mı?
++    Yazıcının `--dayanak` şartı da TAM BU soruya bağlıdır."""
++    return bool(sinif(s))
++
++
++def kanonik(s):
++    """Kayda yazılacak değer: tanınan sınıf kanonik adıyla, öteki düzlenmiş."""
++    k = sinif(s)
++    if k:
++        return k
++    return norm(" ".join((s or "").split())).upper() or "NORMAL"
+diff --git a/arac/tahta.py b/arac/tahta.py
+index 7873c197..8ccc0f64 100644
+--- a/arac/tahta.py
++++ b/arac/tahta.py
+@@ -73,6 +73,11 @@ import subprocess
+ import sys
+ import time
+ 
++# 🔴 ACİLİYET TEK KARARDIR (TAHTA-ACIL-I-1010): yazıcının `--dayanak` şartı
++# ile bekçinin uyandırma kararı AYNI işlevi çağırır — `arac/aciliyet.py`.
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++import aciliyet as _aciliyet  # noqa: E402
++
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+@@ -952,8 +957,12 @@ def yaz(a):
+     #   Biri geri alınırsa öteki YALAN SÖYLER — ikisi tek karardır.
+     # ══════════════════════════════════════════════════════════════════
+     if _kime == "HERKES":
+-        _ac = (_t(a.get("aciliyet")) or "NORMAL").upper()
+-        if _ac in ("ACIL", "DURDURUCU"):
++        # 🔴 TAHTA-ACIL-I-1010: eskiden `_t(..).upper() in ("ACIL", ...)`
++        #   idi; noktalı İ ("ACİL") TANINMIYOR, dayanaksız geçiyordu — ama
++        #   bekçi `_sade` ile düzleyip HERKESİ uyandırıyordu. Artık ikisi
++        #   de `aciliyet.sinif`i sorar: biri tanırsa öteki de tanır.
++        _ac = _aciliyet.sinif(a.get("aciliyet"))
++        if _ac:
+             if not _t(a.get("dayanak")):
+                 print("🔴 REDDEDİLDİ — ACİL/DURDURUCU bir HERKES yayını "
+                       "BÜTÜN oturumları uyandırır.")
+@@ -969,7 +978,7 @@ def yaz(a):
+                   "Dayanak: %s" % _t(a.get("dayanak"))[:80])
+         else:
+             print("⚪ HERKES/KÜTÜK — bu mesaj KİMSEYİ UYANDIRMAZ "
+-                  "(aciliyet '%s')." % _ac)
++                  "(aciliyet '%s')." % _aciliyet.kanonik(a.get("aciliyet")))
+             print("   Tahtada durur, her oturum KENDİ turunda okur. "
+                   "Duyuru için doğru olan budur.")
+             print("   Gerçekten herkesin işini DURDURUYORSA: "
+@@ -1087,7 +1096,7 @@ def yaz(a):
+         #    bakılmalı" der. İkisi ayrı: vadesi yarın olan bir DURDURUCU
+         #    şimdi okunmalıdır. Bu projede bir durdurucu (ayrıştırıcı kilidi)
+         #    saatlerce fark edilmedi ve BÜTÜN denetim/üretim hattı durdu.
+-        "aciliyet": (_t(a.get("aciliyet")) or "NORMAL").upper(),  # DURDURUCU·ACIL·NORMAL·DUSUK
++        "aciliyet": _aciliyet.kanonik(a.get("aciliyet")),  # DURDURUCU·ACIL·NORMAL·DUSUK (TAHTA-ACIL-I-1010)
+     }
+     # 🔴🔴 KRİTİK BÖLGE — KİLİT ALTINDA. Yukarıdaki `kayit`/`no` artık BAYAT
+     # olabilir: mesaj hazırlanırken başka bir oturum yazmış olabilir. O yüzden
+@@ -1161,7 +1170,7 @@ def oku(a):
+             bayrak = "  🔴 CEVAP BEKLİYOR" + (" · vade %s" % m["vade"] if m["vade"] else "")
+         elif m["cevap"].startswith("→"):
+             bayrak = "  ✅ cevaplandı %s" % m["cevap"]
+-        acil = m.get("aciliyet") or "NORMAL"
++        acil = _aciliyet.sinif(m.get("aciliyet"))   # eski kayıtlarda "ACİL" de var
+         acil_im = {"DURDURUCU": "🔴🔴 DURDURUCU", "ACIL": "🔴 ACİL"}.get(acil, "")
+         print("%s  %s  %s → %s  [%s · %s]%s %s" % (
+             m["no"], m["zaman"], m["kimden"], m["kime"],
+diff --git a/arac/tahta_bekci.py b/arac/tahta_bekci.py
+index 294f9d0a..b31046e3 100644
+--- a/arac/tahta_bekci.py
++++ b/arac/tahta_bekci.py
+@@ -566,7 +566,13 @@ def main(argv):
+                 #   durduruyorsa `--aciliyet ACIL` ile yazılır. Aciliyet
+                 #   artık bir süs değil, bir ANAHTAR.
+                 _t = m.get("mesaj") or ""
+-                _acil = _sade(m.get("aciliyet")) in ("ACIL", "DURDURUCU")
++                # 🔴 TAHTA-ACIL-I-1010: yazıcının `--dayanak` kapısıyla AYNI
++                #   işlev. Eskiden burada `_sade` (İ→I) vardı, yazıcıda düz
++                #   `.upper()` — "ACİL" yazıcıda NORMAL, burada ACIL'di:
++                #   dayanak istenmeden HERKES uyanıyordu.
++                sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++                import aciliyet as _aciliyet
++                _acil = _aciliyet.uyandirir_mi(m.get("aciliyet"))
+                 if herkes_hepsi:
+                     yeni.append(m)
+                 elif dosyam:
+diff --git a/arac/tahta_sunucu.py b/arac/tahta_sunucu.py
+index 6e9ab942..6483f0ec 100644
+--- a/arac/tahta_sunucu.py
++++ b/arac/tahta_sunucu.py
+@@ -646,11 +646,12 @@ def ey_html(g):
+     e = html.escape
+     sat = []
+     for m in reversed(dilim):
+-        acil = m.get("aciliyet") or "NORMAL"
++        import aciliyet as _aciliyet   # TAHTA-ACIL-I-1010 — yazıcı/bekçiyle TEK karar
++        acil = _aciliyet.sinif(m.get("aciliyet"))
+         sat.append(
+             "<tr class='%s'><td>%s</td><td>%s</td><td>%s</td><td>%s</td>"
+             "<td>%s</td><td>%s</td><td class='m'>%s</td></tr>" % (
+-                "acil" if acil in ("ACIL", "DURDURUCU") else "",
++                "acil" if acil else "",
+                 e(m.get("no", "")), e(m.get("zaman", "")), e(m.get("kimden", "")),
+                 e(m.get("kime", "")), e(m.get("cins") or "BILGI"),
+                 e(m.get("hal", "")), e(m.get("mesaj", ""))))
+diff --git a/denetim/ARAC-TAHTA-ACIL-I-SINAV-1010.py b/denetim/ARAC-TAHTA-ACIL-I-SINAV-1010.py
+new file mode 100644
+index 00000000..5868d6fd
+--- /dev/null
++++ b/denetim/ARAC-TAHTA-ACIL-I-SINAV-1010.py
+@@ -0,0 +1,193 @@
++# -*- coding: utf-8 -*-
++"""SINAV — TAHTA-ACIL-I-1010: yazıcı (`tahta.py yaz`) ile bekçi
++(`tahta_bekci.py`) aciliyete AYNI hükmü veriyor mu?
++
++🔴 GERÇEK TAHTAYA DOKUNMAZ. İki aracın GERÇEK işlevleri süreç içinde
++çağrılır; yan etkili kenarlar (git, kilit, kayıt, tazeleme, nabız,
++kaynak darboğazı dosyası, defter) sınav içinde değiştirilir:
++  tahta.py       `yaz()` — `_git_yarim/_tazele/_yukle/_Kilit/_kaydet/_git`
++                 yerine bellek içi taklit; VERI/GORUNUM geçici dizinde.
++                 Dönüş kodu GERÇEK `yaz()`ın dönüşüdür (2 = RED).
++  tahta_bekci.py `main()` — `--tahta <geçici> --kaynak yerel --defter-yok
++                 --tur 1 --ara 0`; `_oku_kaynak` ilk turda boş, ikinci
++                 turda tek HERKES mesajı döner; `_bas` (UYANDIRAN stdout)
++                 yakalanır. Filtre kodu GERÇEKTİR.
++
++Kök: `--kok <ağaç>` ya da bu dosyanın `..`'su (sinav_isirma ağaca kopyalar).
++Çıkış: 0 hepsi geçti · 1 kalan var.
++
++SORULAR
++  R*  dayanaksız ACİL/DURDURUCU varyantı HERKES'e ⇒ yazıcı RED (2)
++  K*  dayanaklı varyant ⇒ yazıcı KABUL (0)          [süreklilik]
++  T*  yazıcının hükmü == bekçinin hükmü (dayanak istendi ⇔ uyandırdı)
++  B*  bilgi amaçlı HERKES ⇒ yazıcı dayanaksız kabul, bekçi UYANDIRMAZ
++  N1  ortak normalleştirici == denetim/ARAC-NORMAL-0903.py `norm` (derlem)
++"""
++import contextlib
++import importlib.util
++import io
++import json
++import os
++import sys
++import tempfile
++import types
++
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++
++KOK = (sys.argv[sys.argv.index("--kok") + 1] if "--kok" in sys.argv
++       else os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
++ARAC = os.path.join(KOK, "arac")
++sys.path.insert(0, ARAC)
++
++# Kaynak darboğazı kapısı bekçide GERÇEK `oturumlar/KAYNAK-DURUM.json`u okur;
++# sınavda o dosyanın hâli ölçümü etkilemesin.
++sys.modules["kaynak_durum"] = types.SimpleNamespace(
++    bekci_yasak_mi=lambda ad: (False, ""))
++
++GECICI = tempfile.mkdtemp(prefix="tahta-acil-i-")
++import tahta      # noqa: E402
++import tahta_bekci  # noqa: E402
++
++tahta.VERI = os.path.join(GECICI, "tahta.json")
++tahta.GORUNUM = os.path.join(GECICI, "TAHTA.md")
++_YAKALANAN = []
++
++
++class _SahteKilit(object):
++    def __init__(self, *a, **k):
++        pass
++
++    def __enter__(self):
++        return self
++
++    def __exit__(self, *a):
++        return False
++
++
++tahta._git_yarim = lambda *a, **k: None
++tahta._tazele = lambda *a, **k: None
++tahta._yukle = lambda *a, **k: []
++tahta._Kilit = _SahteKilit
++tahta._kaydet = lambda kayit: _YAKALANAN.append(list(kayit))
++tahta._git = lambda *a, **k: "ULASTI"
++
++
++def yaz(aciliyet, dayanak=""):
++    """GERÇEK `tahta.yaz` — (dönüş kodu, yazılan kayıt | None)."""
++    del _YAKALANAN[:]
++    with contextlib.redirect_stdout(io.StringIO()):
++        kod = tahta.yaz({"kim": "SINAV-YAZAN", "kime": "HERKES",
++                         "mesaj": "sınav mesajı", "aciliyet": aciliyet,
++                         "dayanak": dayanak})
++    kayit = _YAKALANAN[-1][-1] if _YAKALANAN else None
++    return kod, kayit
++
++
++TAHTA_DOSYA = os.path.join(GECICI, "bekci-tahta.json")
++with open(TAHTA_DOSYA, "w", encoding="utf-8") as f:
++    json.dump([], f)
++tahta_bekci._nabiz_yaz = lambda *a, **k: None
++
++
++def bekci_uyandirir(kayit):
++    """GERÇEK `tahta_bekci.main` filtresi — bu kayıt `_bas` ile basıldı mı?"""
++    m = dict(kayit)
++    m.setdefault("no", "M-9001")
++    m.setdefault("kimden", "SINAV-YAZAN")
++    m["kime"] = "HERKES"
++    m.setdefault("mesaj", "sınav mesajı")
++    cagri = {"n": 0}
++
++    def _oku():
++        cagri["n"] += 1
++        return [] if cagri["n"] == 1 else [m]
++
++    basilan = []
++    tahta_bekci._oku_kaynak = _oku
++    tahta_bekci._bas = lambda s: basilan.append(s)
++    with contextlib.redirect_stderr(io.StringIO()):
++        tahta_bekci.main(["--kim", "SINAV-DINLEYEN", "--kaynak", "yerel",
++                          "--tahta", TAHTA_DOSYA, "--defter-yok",
++                          "--tur", "1", "--ara", "0"])
++    return any(m["no"] in s for s in basilan)
++
++
++SONUC = []
++
++
++def soru(no, ok, aciklama):
++    SONUC.append(bool(ok))
++    print("%s %s %s" % ("✓" if ok else "✗", no, aciklama))
++
++
++ACIL_VARYANT = [
++    ("R1", "ACİL"), ("R2", "ACIL"), ("R3", "acil"), ("R4", "Acil"),
++    ("R5", "acİl"), ("R6", "ACİL:"), ("R7", "🔴 ACİL"),
++    ("R8", "DURDURUCU"), ("R9", "durdurucu"), ("R10", "🔴🔴 DURDURUCU"),
++]
++BILGI_VARYANT = [
++    ("B1", "NORMAL"), ("B2", ""), ("B3", "DÜŞÜK"), ("B4", "ACİLEN"),
++    ("B5", "aciliyet"),
++]
++
++print("SINAV — TAHTA-ACIL-I-1010 · kök %s" % KOK)
++print("  aciliyet.py: %s" % ("VAR (yamalı ağaç)"
++      if os.path.exists(os.path.join(ARAC, "aciliyet.py")) else "YOK (yamasız ağaç)"))
++print()
++
++for no, v in ACIL_VARYANT:
++    kod, _ = yaz(v)
++    soru(no, kod == 2, "dayanaksız HERKES aciliyet=%r ⇒ RED(2) bekleniyor, "
++         "alınan %s" % (v, kod))
++
++for no, v in ACIL_VARYANT:
++    kod, kayit = yaz(v, dayanak="sınav: bütün hattı durduran ayrıştırıcı kilidi")
++    soru("K" + no[1:], kod == 0 and kayit is not None,
++         "dayanaklı HERKES aciliyet=%r ⇒ KABUL(0), alınan %s · kayıttaki "
++         "aciliyet %r" % (v, kod, kayit and kayit.get("aciliyet")))
++
++# T — tutarlılık: yazıcı dayanak İSTEDİ ⇔ bekçi UYANDIRDI.
++#   Yazıcı dayanaksız kabul ettiyse, o KAYIT bekçiye verilir (gerçek akış).
++#   Reddettiyse dayanaklı yazımın kaydı verilir.
++for no, v in ACIL_VARYANT + BILGI_VARYANT:
++    kod, kayit = yaz(v)
++    istedi = (kod == 2)
++    if istedi:
++        _, kayit = yaz(v, dayanak="sınav")
++    uyandi = bekci_uyandirir(kayit) if kayit else None
++    soru("T" + no, uyandi is not None and istedi == uyandi,
++         "aciliyet=%r · yazıcı dayanak %s · bekçi %s · kayıt %r"
++         % (v, "İSTEDİ" if istedi else "istemedi",
++            {True: "UYANDIRDI", False: "uyandırmadı", None: "ÖLÇÜLEMEDİ"}[uyandi],
++            kayit and kayit.get("aciliyet")))
++
++for no, v in BILGI_VARYANT:
++    kod, kayit = yaz(v)
++    uyandi = bekci_uyandirir(kayit) if kayit else None
++    soru(no, kod == 0 and uyandi is False,
++         "bilgi HERKES aciliyet=%r ⇒ dayanaksız KABUL + KİMSEYİ uyandırmaz · "
++         "yazıcı %s · bekçi %s" % (v, kod, uyandi))
++
++# N1 — ortak normalleştirici, kaynağıyla AYNI mı?
++_ref = os.path.join(KOK, "denetim", "ARAC-NORMAL-0903.py")
++try:
++    import aciliyet as _ac
++    sp = importlib.util.spec_from_file_location("_norm0903", _ref)
++    ref = importlib.util.module_from_spec(sp)
++    sp.loader.exec_module(ref)
++    derlem = ["İnyupiak", "Üsküp", "Eğirdir", "Iğdır", "İstanbul", "ACİL",
++              "acİl", "🔴 ACİL", "DURDURUCU", "Karahisâr-ı Sâhib", "ı İ i I",
++              "", "  ACİL:  ", "Şanlıurfa", "Çanakkale", "’—“"]
++    fark = [s for s in derlem if _ac.norm(s) != ref.norm(s)]
++    soru("N1", not fark, "ortak normalleştirici ARAC-NORMAL-0903 eşdeğerliği: "
++         "arac/aciliyet.norm (%d dizgi, fark %d%s)" % (len(derlem), len(fark),
++                                     (": %r" % fark) if fark else ""))
++except ImportError:
++    soru("N1", False, "ortak normalleştirici ARAC-NORMAL-0903 eşdeğerliği: "
++         "arac/aciliyet.py YOK — bulunamadı")
++
++g = sum(SONUC)
++n = len(SONUC)
++print()
++print("SONUÇ: %d soru · %d geçti · %d kaldı" % (n, g, n - g))
++sys.exit(0 if g == n else 1)
