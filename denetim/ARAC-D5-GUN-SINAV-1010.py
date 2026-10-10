@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """ARAC-D5-GUN-SINAV-1010 — Değişmez 5 (`denetle.degismez5` / `degismez5_rapor`) gün sayacı sınavı.
 
-Koordinatör kararı (b), dayanak `denetim/KUR-KAPI-OLCUM-1010.md`, yama `denetim/D5-GUN-1010.diff`.
+Koordinatör kararı (b), dayanak `denetim/KUR-KAPI-OLCUM-1010.md`, yama `denetim/D5-GUN-1010-v2.diff` (v2: 5c DEFTERİ, V1–V7 kolları).
 
 Her soru TAZE ALT SÜREÇTE koşar, SENTETİK veriyle: gerçek `data/` okunmaz, yazılmaz —
 sentetik kayıt listesi geçici bir JSON dosyasından `degismez5_rapor(Y)`a ENJEKTE edilir.
 Çıkış kodu `denetle.main()`in hüküm sırasıyla türetilir: ihlal ⇒ 1 · `OLCULEMEDI_KOVA` dolu ⇒ 2 · yoksa 0
 (main'in son üç satırı; tam `main()` 70 sn sürer ve D8 yüzünden taze ağaçta hep 2 verir ⇒ ayırt edemez).
 
+V1–V6 sentetik defteri GEÇİCİ dosyaya yazar (depodaki defter okunmaz/yazılmaz); V7 ağacın KENDİ defterini gerçek veriyle kıyaslar (yalnız okur).
 YAMASIZ ağaçta `degismez5_rapor` yoktur: alt süreç `degismez5(Y)`ü doğrudan çağırır
 (eski main'in 5a hükmüyle aynı kural) — sınavın ISIRDIĞI orada görülür.
 
@@ -30,17 +31,36 @@ KOK = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else
                       os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
 COCUK = r'''
-import contextlib, io, json, os, sys
-kok, yol = sys.argv[1], sys.argv[2]
+import contextlib, inspect, io, json, os, sys, tempfile
+kok, yol, dspec = sys.argv[1], sys.argv[2], json.loads(sys.argv[3])
 sys.path.insert(0, os.path.join(kok, "arac"))
 import denetle
 sys.stdout.reconfigure(encoding="utf-8")
 Y = json.load(io.open(yol, encoding="utf-8"))
 buf = io.StringIO()
+dyol = None
 with contextlib.redirect_stdout(buf):
-    if hasattr(denetle, "degismez5_rapor"):
-        yolu = "yamali"
-        ihlal = denetle.degismez5_rapor(Y, ayrinti=True)
+    rapor = getattr(denetle, "degismez5_rapor", None)
+    if rapor is not None and "d5c_defter" in inspect.signature(rapor).parameters:
+        yolu = "v2"
+        # Sentetik defter — gerçek denetim/D5C-DEFTER.json'a DOKUNULMAZ
+        if dspec["mod"] == "esit":
+            kay = sorted(denetle.d5c_anahtar(r) for r in denetle.degismez5(Y)[2])
+            ben = len(kay)
+        elif dspec["mod"] == "liste":
+            kay, ben = dspec["kayitlar"], dspec.get("beklenen", len(dspec["kayitlar"]))
+        else:                                   # "yok"
+            kay, ben = None, dspec.get("beklenen", 0)
+        fd, dyol = tempfile.mkstemp(suffix=".json", prefix="d5c_defter_")
+        os.close(fd)
+        if kay is None:
+            os.remove(dyol)
+        else:
+            io.open(dyol, "w", encoding="utf-8").write(json.dumps({"kayitlar": kay}, ensure_ascii=False))
+        ihlal = rapor(Y, ayrinti=True, d5c_defter=dyol, d5c_beklenen=ben)
+    elif rapor is not None:
+        yolu = "v1"
+        ihlal = rapor(Y, ayrinti=True)
     else:
         yolu = "yamasiz"
         c, s, k, m = denetle.degismez5(Y)
@@ -48,10 +68,34 @@ with contextlib.redirect_stdout(buf):
                  or len(m) > denetle.BEKLENEN_DEVIR_BEYANI)
         for r in c:
             print("    5a  %s" % r[0])
+if dyol and os.path.exists(dyol):
+    os.remove(dyol)
 kod = 1 if ihlal else (2 if denetle.OLCULEMEDI_KOVA else 0)
 sys.stdout.write(json.dumps({"yol": yolu, "kod": kod, "cikti": buf.getvalue(),
                              "olc": [list(x) for x in denetle.OLCULEMEDI_KOVA]},
                             ensure_ascii=False))
+'''
+
+# DEPO kolu: ağacın KENDİ defteri + sabiti, ağacın KENDİ verisinin ölçümüne eşit mi (yalnız OKUR)
+COCUK_DEPO = r'''
+import io, json, os, sys
+kok = sys.argv[1]
+sys.path.insert(0, os.path.join(kok, "arac"))
+os.chdir(kok)
+import denetle, girdi
+sys.stdout.reconfigure(encoding="utf-8")
+sonuc = {"yol": "?", "kod": None, "cikti": "", "olc": []}
+try:
+    kay = sorted(denetle.d5c_anahtar(r) for r in denetle.degismez5(girdi.yukle(sessiz=True))[2])
+    D = json.load(io.open(denetle.D5C_DEFTER_YOL, encoding="utf-8"))
+    esit = sorted(D["kayitlar"]) == kay and denetle.BEKLENEN_D5C == len(kay)
+    sonuc.update(yol="v2", kod=0 if esit else 1,
+                 cikti="olcum %d · defter %d · sabit %d · fark +%d/-%d" % (
+                     len(kay), len(D["kayitlar"]), denetle.BEKLENEN_D5C,
+                     len(set(kay) - set(D["kayitlar"])), len(set(D["kayitlar"]) - set(kay))))
+except Exception as e:
+    sonuc.update(cikti="%s: %s" % (type(e).__name__, e))
+sys.stdout.write(json.dumps(sonuc, ensure_ascii=False))
 '''
 
 
@@ -64,18 +108,22 @@ def kayit(ad, kur=None, alan="s", f="1500-01-01", t="1923-10-29", tur="sehir", *
     return y
 
 
-def kos(Y):
+def _alt(argv):
+    env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    p = subprocess.run([sys.executable, "-c"] + argv, capture_output=True, env=env, timeout=300)
+    out = p.stdout.decode("utf-8", "replace")
+    if p.returncode != 0:
+        return {"yol": "?", "kod": None, "cikti": out + p.stderr.decode("utf-8", "replace"), "olc": []}
+    return json.loads(out)
+
+
+def kos(Y, defter=None):
+    '''defter: None ⇒ {"mod": "esit"} (defter = bugünkü 5c kümesi) · {"mod":"liste","kayitlar":[..],"beklenen":n} · {"mod":"yok"}'''
     fd, yol = tempfile.mkstemp(suffix=".json", prefix="d5sinav_")
     try:
         with io.open(fd, "w", encoding="utf-8") as h:
             json.dump(Y, h, ensure_ascii=False)
-        env = dict(os.environ, PYTHONIOENCODING="utf-8")
-        p = subprocess.run([sys.executable, "-c", COCUK, KOK, yol], capture_output=True,
-                           env=env, timeout=120)
-        out = p.stdout.decode("utf-8", "replace")
-        if p.returncode != 0:
-            return {"yol": "?", "kod": None, "cikti": out + p.stderr.decode("utf-8", "replace"), "olc": []}
-        return json.loads(out)
+        return _alt([COCUK, KOK, yol, json.dumps(defter or {"mod": "esit"})])
     finally:
         os.remove(yol)
 
@@ -189,6 +237,51 @@ r = kos([kayit("S12-401", kur="1686-01-01", f="1684-11-26")])     # 401 gün
 r2 = kos([kayit("S12-400", kur="1686-01-01", f="1684-11-27")])    # 400 gün
 sor("S12", "401 gün ⇒ İHLAL · 400 gün ⇒ ihlal değil (eşik 400 KALDI)",
     r["kod"] == 1 and a5(r, "S12-401") and r2["kod"] == 0 and not a5(r2, "S12-400"), r)
+
+# ═══ v2 — 5c DEFTERİ (emsal SAHIPLIK-TABAN-OLCULEMEDI). Aşım İHLAL DEĞİL, ÖLÇÜLEMEDİ (çıkış 2) ═══
+K = lambda ad: "%s [sentetik-devlet]" % ad
+YD = [kayit("D-A", f="1281-01-01"), kayit("D-B", f="1200-01-01"), kayit("D-C", f="1281-06-01")]
+
+# V1 — eşit küme ⇒ 0
+r = kos(YD, {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")]})
+sor("V1", "defter = 5c kümesi ⇒ çıkış 0, ölçülemedi yok", r["kod"] == 0 and not r["olc"]
+    and "GİRDİ" not in r["cikti"] and "TAVAN GEVŞEK" not in r["cikti"], r)
+
+# V2 — GİREN: defterde olmayan kayıt 5c'de ⇒ İHLAL DEĞİL (1 yok), ÖLÇÜLEMEDİ adıyla (2)
+r = kos(YD + [kayit("D-YENI", f="1281-01-01")],
+        {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")]})
+sor("V2", "giren kayıt ⇒ İHLAL DEĞİL, ölçülemedi adıyla (çıkış 2)", r["kod"] == 2
+    and any(K("D-YENI") in o[0] for o in r["olc"]) and "NET TAKAS" not in r["cikti"], r)
+
+# V3 — NET TAKAS: sayı aynı, küme farklı ⇒ ölçülemedi + "NET TAKAS"
+r = kos(YD, {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-ESKI")]})
+sor("V3", "net takas (sayı aynı, küme farklı) ⇒ 'NET TAKAS' + giren ölçülemedi",
+    r["kod"] == 2 and "NET TAKAS" in r["cikti"] and any(K("D-C") in o[0] for o in r["olc"]), r)
+
+# V4 — ÇIKAN: defterdeki kayıt artık 5c'de değil (kur: kazandı) ⇒ TAVAN GEVŞEK, bilgi, çıkış 0
+r = kos(YD[:2] + [kayit("D-C", kur="1281-06-01", f="1281-06-01")],
+        {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")]})
+sor("V4", "çıkan kayıt ⇒ 'TAVAN GEVŞEK' bilgi, çıkış 0", r["kod"] == 0 and not r["olc"]
+    and "TAVAN GEVŞEK" in r["cikti"] and K("D-C") in r["cikti"], r)
+
+# V5 — defter YOK ⇒ ölçülemedi
+r = kos(YD, {"mod": "yok", "beklenen": 3})
+sor("V5", "defter yok ⇒ ölçülemedi (çıkış 2)", r["kod"] == 2
+    and any(o[0] == "Değişmez 5c defteri" for o in r["olc"]), r)
+
+# V5b — defter BOZUK ⇒ ölçülemedi
+r = kos(YD, {"mod": "liste", "kayitlar": "bozuk", "beklenen": 3})
+sor("V5b", "defter bozuk ⇒ ölçülemedi (çıkış 2)", r["kod"] == 2
+    and any(o[0] == "Değişmez 5c defteri" for o in r["olc"]), r)
+
+# V6 — sabit ≠ defter ⇒ ölçülemedi
+r = kos(YD, {"mod": "liste", "kayitlar": [K("D-A"), K("D-B"), K("D-C")], "beklenen": 4})
+sor("V6", "BEKLENEN_D5C ≠ defter kayıt sayısı ⇒ ölçülemedi (çıkış 2)", r["kod"] == 2
+    and any(o[0] == "Değişmez 5c defteri" and "≠" in o[1] for o in r["olc"]), r)
+
+# V7 — DEPO: ağacın denetim/D5C-DEFTER.json'u + BEKLENEN_D5C = ağacın gerçek verisinin ölçümü (yalnız OKUR)
+r = _alt([COCUK_DEPO, KOK])
+sor("V7", "depodaki defter = sabit = gerçek ölçüm", r["kod"] == 0, r, r["cikti"][:120])
 
 kalan = [s for s in SONUC if not s[2]]
 print("\nSONUÇ: %d soru · %d geçti · %d kaldı%s" % (
