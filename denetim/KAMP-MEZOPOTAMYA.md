@@ -9,7 +9,8 @@ dosyasına dokunulmadı.** Dosyalar:
 ```
 POLITY     36 polity (f/t kaynaklı; f bulunamadı 2 · t bulunamadı 4) + 5 "listeye alınmadı" satırı
            (Nippur — polity DEĞİL · Dēr bulunamadı · Kaldu tek polity değil · Suḫu bulunamadı · Hitit 1595 = olay)
-KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; harita_degisimi EVET 81 · HAYIR/— 2
+KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; harita_degisimi EVET 76 · HAYIR 1 ·
+           "—" 6 (tarihi bulunamadı satırları — kırılma yok)
 ŞEHİR      35 şehir · ilk YAZILI kayıt tarihli 32 · bulunamadı 3 (Borsippa · Nuzi/Gasur · Vaşukanni)
            · koordinat Pleiades 32 · NOKTA YAZILAMAZ 3 (Akkad · Ekallatum · Vaşukanni — konum bilinmiyor/öneri)
 ```
