@@ -328,9 +328,19 @@ yükleyiciler: `geo_coz` dinamik · `paket_*` · `donem_*`), ve türetmeyi
    ⚠️ KASA-DIKIS-KAPI kümülatif olarak DÜŞTÜ (arac/denetle.py:7229) —
       yeniden tabanlanmasını BEKLER (ölçüldü 07:55, taban 534633f8)
 ③ iki tavan YENİDEN ÖLÇÜLÜR ve sabitle AYNI COMMIT'e girer (`§3.4 ②`):
-      BEKLENEN_TABAN_OLCULEMEDI = 190   (UMIT 07:08'de ölçtü, koşu sonrası
+      BEKLENEN_TABAN_OLCULEMEDI = 190   (UMIT 07:08'de ÖLÇTÜ · koşu sonrası
                                          defterin evreni DEĞİŞEBİLİR)
-      BEKLENEN_D5C = 2449
+      BEKLENEN_D5C = 2449               (iki D5 sürümü de AYNI değeri koyuyor)
+🔴 **"188" BİR ÖNERİYDİ VE BEN ONU SAYIYMIŞ GİBİ YAZDIM** (LAB ölçtü,
+`LAB-DIFF-CARPISMA-1010 ④`): *"'188' HİÇBİR diff'te ya da dalda YOK."*
+UMIT onu *"tavan ÖNERİSİ (yazılmadı): 190 → 188, Mersin + Mergen
+`kur-oncesi`ne geçiyor"* diye vermişti — **öneri**, ölçüm değil. Ben
+belgeye sabit gibi yazdım.
+📌 Ve bu, bu gece `§11`e yazdığım kuralın BİREBİR ihlali: *"ÖNERİ üzerinde
+ölçülen sayı da bugünkü durum DEĞİLDİR… öneri sayısı GELECEĞİ bugün gibi
+gösterir, ve daha sinsidir çünkü TARİHİ YOKTUR."*
+⇒ **Geçerli tek değer `190`.** `KUR-KAPI` inince yeniden ÖLÇÜLÜR; çıkan
+sayı ne olursa o yazılır (`§3.4 ⓪`: tavan YAZILDIĞI ANDA ölçülür).
 ④ PARTİ (①+②+③) tek seferde uygulanır, tuz BİR KEZ değişir
 ⑤ tam inşa (7-8 saat) + yayın zinciri:
    kodla.py yay → coz-c (İKİ dosya!) → denetle → renk_olc →

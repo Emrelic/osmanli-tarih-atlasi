@@ -516,6 +516,9 @@ FAZ 1 artık DOKUZ kalem (dörtlü DEĞİL):
   ③ SUMER-SAHIP (21 noktanın `s:`i YOK!)  ④ MOTOR-GECISLI  ⑤ NEG-B-v2
   ⇒ KÜNYE de çıktı: "etkisiz" ölçmüştüm, ÇAKIŞMAYI sormamıştım
 ```
-İki tavan (TABAN 190 → **188** · D5C 2449) **koşu indikten SONRA** yeniden
-ölçülüp sabitle aynı commit'e girer. Güncel hâl her zaman
+İki tavan (TABAN **190** · D5C 2449) **koşu indikten SONRA** yeniden
+ölçülüp sabitle aynı commit'e girer.
+⚠️ Burada bir ara **"188"** yazmıştım; LAB ölçtü ve o sayı **hiçbir diff'te
+ya da dalda YOK** — bir ÖNERİYİ sabit gibi yazmıştım. Geçerli değer `190`,
+ve iniş anında yeniden ölçülecek. Güncel hâl her zaman
 `git show origin/main:oturumlar/INIS-KOSU22.md` **§8**'dedir.

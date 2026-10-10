@@ -499,7 +499,12 @@ data/devlet_harita_ust.js    3.148.869 bayt  TAKİPLİ · index.html:1759 · YAY
 ```
 ⇒ Kusur "dosya yok" değil: **dosya VARDI ve YANLIŞTI.** Varlığı doğruluk sanıldı.
 🔴 Üretilmiş haritayı ölçecek her iş, tabanını KENDİ ÇÖZER:
-🆕 ✅ **ELLE YAPMA — ALET VAR** (`OLCUM-AGACI-1010`):
+🆕 ✅ **ALET VAR — AMA 10 EKİM 10:00 İTİBARIYLA `main`'DE DEĞİL** (LAB
+ölçtü): `arac/olcum_agaci.py` bu inişte iniyor. **İnene kadar aşağıdaki
+İKİ KOMUT elle koşturulur** — ikisi de ŞART. Koordinatör bu satırı *"alet
+standart oldu"* diye yazdı ve alet henüz inmemişti; `§11`in *"öneri sayısı
+geleceği bugün gibi gösterir"* ailesi.
+✅ **ALET** (`OLCUM-AGACI-1010`):
 ```bash
 py arac/olcum_agaci.py hazirla      # fetch · worktree · HEAD..origin/main=0 ·
                                     #   İKİ hedefi çöz · sha256'yı DAMGAYLA kıyasla
