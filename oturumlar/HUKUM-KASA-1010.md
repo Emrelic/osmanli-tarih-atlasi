@@ -216,6 +216,37 @@ nesneleri** ölçüyor olabilirler.
 Pleiades'i "birincil tanık" yapan şey hatasının küçüklüğü değil,
 **kaydının zenginliği** — ve zenginlik tek bir noktaya indirgenince kaybolur.
 
+### §6.3 🆕 🔴 KOORDİNAT ZAMANA BAĞLI BİR İDDİADIR — tek nokta onu taşıyamaz
+
+`§6.2` *"tanık hangi nesneyi gösteriyor"* diye sordu. Bir adım daha var ve
+LAB onu `KONUM-KESIN` işine başlarken kendisi buldu:
+```
+VAN       eski şehir 1915-18'de TERK EDİLDİ, yenisi kuruldu
+KANDEHAR  1738/1747 Ahmed Şah YENİ şehri kurdu
+```
+⇒ Kaydın penceresi **hem** tarihî sitenin doğru olduğu dönemi **hem** modern
+şehrin doğru olduğu dönemi kapsıyorsa, **koordinatı taşımak sonraki dönemleri
+BOZAR.** Düzeltme hatayı öbür uca taşır — `D206`nın (*"iki uç da ölçülür"*)
+konum yüzü.
+
+> 🔴 **KURAL: bir noktanın DOĞRU konumu, kaydın penceresi içinde
+> DEĞİŞEBİLİR. Koordinat bir sabit değil, ZAMANA BAĞLI bir iddiadır.**
+> Şema nokta başına TEK koordinat tutuyor ⇒ konumu zamanla değişen bir
+> yerleşim **TEK NOKTAYLA TEMSİL EDİLEMEZ.**
+
+**ÇARE — `İKAME` (Tahran→Rey hükmünün genel biçimi):**
+```
+modern nokta YERİNDE KALIR  (modern dönemler için doğru nesne)
+tarihî site AYRI NOKTA olarak eklenir  (tarihî dönemler için)
+her ikisinin s: penceresi KENDİ döneminde durur
+```
+📌 Niçin taşıma değil ekleme: taşımak **bir dönemi düzeltip ötekini bozar**;
+eklemek ikisini de doğru tutar. Ve iki yer gerçekten **iki ayrı yerdir** —
+`§6.2`nin "ayrı nesne" hükmünün kendisi.
+⚠️ Ve bu, hangi düzeltmelerin **ana diff'e** girip hangilerinin **ayrı
+seçenek** olacağını belirler: pencere tek katmanlıysa taşıma, çok katmanlıysa
+ikame. LAB `KONUM-ONERI v2`de bu ayrımı uyguluyor.
+
 ---
 
 ## §7 İŞ DAĞITIMI
