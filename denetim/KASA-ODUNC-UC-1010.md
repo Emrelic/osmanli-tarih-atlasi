@@ -74,3 +74,86 @@ Doğrulayıcı (kör, tabakayı bilmez) yerin O UÇTAKİ yerel olay gününü ka
 - **TESADÜF toplamda 2 ± 2.** ÖLÇÜLEMEDİ her tabakada **2 ± 1**.
 - **Ayırma testi:** (ARDIL + TEK) YANLIŞ oranı ≥ MEŞRU oranı + %25 ⇒ "yerel metin yokluğu bir sinyal" — **%55**.
   Ayırt edilemez — **%45** (SUSAN dersi: kontrol farkı silebilir).
+
+## 1. ÖLÇÜM (30 UÇ, kör doğrulama; okuyucular `scratchpad/odunc_sonuc1..3.md`, alıntı + URL)
+Yargı kuralları: R1-R3 (KASA-SUSAN §1.1) + önceden ilan edilmiş **KONV** = projenin bilinçli modelleme kararı, yerel hata
+sayılmaz. KONV olanlar:
+- TBMM 1920-04-23 (M-3066);
+- Fetret şehzade künyeleri;
+- 1479 Aragon → İspanya ardıllığı.
+
+İşgal (`isg`) sahibi değiştirmez: Bodrum'un İtalyan işgali 1919-21 bir örtü.
+
+| # | kayıt · uç | yargı | yerel olay / tanık (okuyucu) |
+|---|---|---|---|
+| ARDIL-01 | Hakata · t 1868-01-03 | DOĞRU | Kotobank: Fukuoka hanı Restorasyon'a girdi; yerel gün yok, ulusal ferman |
+| ARDIL-02 | Menorka · t 1479-01-20 | KONV | aragon → ispanya ardıllığı. **YAN:** f 1281 YANLIŞ olabilir — 1287'ye dek Müslüman vasal (Gran Enciclopèdia Catalana) |
+| ARDIL-03 | Kahire · t 1922-03-15 | DOĞRU | TDV Fuâd (yıl) + 28 Şubat / 15 Mart 1922 |
+| ARDIL-04 | Camboyluk · t 1917-03-15 | DOĞRU | imparatorluk çapı, yerel gün yok |
+| ARDIL-05 | Jyväskylä · t 1523-06-06 | ÖLÇÜLEMEDİ | Danimarka garnizonları 1523 yaz-sonbahar (gün yok); 06-06 Vasa'nın seçimi |
+| ARDIL-06 | Lille · f 1482-03-27 | **TESADÜF** | 1482-03-27 Burgonyalı Mary'nin ölümü (hanedan mirası); yerel Habsburg yetkisi 1477 (lilletourism); Fransız metbûluğu ayrıca |
+| ARDIL-07 | Utrecht · f 1581-07-26 | DOĞRU | Abjuration Akti, Utrecht adıyla (DBNL) |
+| ARDIL-08 | Mankup · t 1917-03-15 | DOĞRU | IEU "Crimea" |
+| TEK-01 | Keşan · t 1920-04-23 | KONV | yerel: Yunan işgali 1920-07-30 (= `isg`, sahip değil) |
+| TEK-02 | Listuguj · t 1763-02-10 | **YANLIŞ** | Parks Canada Occ. Paper 16: Restigouche'daki Fransız birlikleri **1760-10-29** teslim — t ~2,3 yıl geç (Paris Antlaşması ödünç) |
+| TEK-03 | Quito · t 1830-05-13 | DOĞRU | Quito ayrılık akti |
+| TEK-04 | Bodrum · f 1920-04-23 | KONV | yerel: İtalyan işgali 1919-05-11 → 1921-07-05 (`isg`) |
+| TEK-05 | Ben Tre · t 1859-02-17 | **YANLIŞ** ⑥ | VNU-HCM 2021: batı üç eyalet (Vĩnh Long dahil) **1867** — 1859-02-17 Saygon kalesinin günü (BAŞKA YER) |
+| TEK-06 | Loango · f 1883 | DOĞRU | CNRS/ICAR: 1883 himaye antlaşması |
+| TEK-07 | Dârâb · t 1794 | ÖLÇÜLEMEDİ | Iranica: Fars Kaçar'a 1791-92 (Şiraz 21.07.1792) — eyalet düzeyi, YANLIŞ'a eğilimli |
+| TEK-08 | Lac la Ronge · t 1867-07-01 | **YANLIŞ** | Canadian Encyclopedia: Rupert's Land **1870** — Fort Confidence (SUSAN S1-12) ile AYNI |
+| U1281-01 | Amasya | DOĞRU | TDV Amasya: 1243 sonrası Moğol valileri |
+| U1281-02 | Mankup · bizans | **YANLIŞ** ⑥ | Kuzenkov & Mogarichev 2024 (özet): 13. yy 2. yarısı GB Kırım yerel Ortodoks elitler, Altın Orda düzeninde — Bizans değil |
+| U1281-03 | Ponorogo | ÖLÇÜLEMEDİ | — |
+| U1281-04 | Şamahı · ilhanli | DOĞRU (R2) | TDV: İlhanlı'ya bağlı Şirvanşahlar |
+| U1281-05 | Ayn Temûşent · zeyyani | DOĞRU (bölge) | TDV Abdülvâdîler (Yağmurasan 1235-83) |
+| U1281-06 | Mînâb · ilhanli | DOĞRU (R2, üst metbû) | Iranica + TDV Kirman: Hürmüz → Kirman → İlhanlı |
+| U1281-07 | Linz · almanya | DOĞRU | Linz şehir arşivi: ~1280 Habsburg yetkilileri |
+| U1281-08 | Akçakale · memluk | **YANLIŞ** ⑥ | Iranica "Harran": 1281'de İlhanlı tarafında boşaltılmış sınır; Memlük Harran'ı 14. yy başı. TDV Harran muğlak |
+| MESRU-01 | Hît | ÖLÇÜLEMEDİ | — |
+| MESRU-02 | Tromsø · t 1905-06-07 | DOĞRU ⑥ | SNL: Storting 7.6.1905 (kişisel birlik) |
+| MESRU-03 | Lüleburgaz · t 1402-07-28 | KONV | Fetret künyesi (Süleyman Çelebi) |
+| MESRU-04 | Bayburt · f 1917-11-07 | ÖLÇÜLEMEDİ | (TESADÜF'e eğilimli: Ekim Devrimi günü) |
+| MESRU-05 | Zaporojye Seçi · t 1552 | DOĞRU ⑥ | IEU: ilk Sech "ca 1552" |
+| MESRU-06 | Örebro · f 1523-06-06 | **YANLIŞ** | Länsstyrelsen Örebro: kale **Ocak 1522**'de Vasa'ya düştü — 06-06-1523 seçim günü ödünç (~17 ay) |
+
+### 1.1 Sayım (birim UÇ; YANLIŞ / ölçülen)
+```
+ARDIL      0 / 7   (+1 TESADÜF, +1 KONV)        ⇒ rejim ardıllığı UÇLARI SAĞLAM
+TEK-YANLI  3 / 7   (+2 KONV)  = %43             ⇒ ödüncün ASIL yeri
+U1281      2 / 7   (ikisi de ⑥) = %29            ⇒ D271 %39 ile uyumlu (n küçük)
+MEŞRU      1 / 4   (+1 KONV)                     ⇒ "yerel metin" vekili ayırmıyor
+```
+- 🔴 **Ayırıcı "yerel metin var/yok" DEĞİL, "ARDIL / TEK-YANLI".** Rejim ardıllığı günü (künye→künye) ülke çapında gerçekten
+  geçerli; tek yanlı künye ucu (bir devletin çöküşü/kuruluşu, bir antlaşma) yerelde başka gün. KONV'lar yanlış sayılsa
+  bile ARDIL 1/7 kalır.
+- **D271'in asılı sebebi (kısmen ölçüldü):** 1281 uçlarındaki iki yanlış ödünç GÜN değil ödünç **SAHİP**. Bölgenin geniş
+  künyesi (Bizans, Memlûk) yerel tutucu (Mankup'ta Altın Orda düzeninde yerel elit · Harran sınırında İlhanlı) yerine
+  yazılmış. ⇒ Mekanizma Tengyue/Parras ile AYNI aile (yerel yerine "üst düzey" değer), ama eksen SAHİP. n = 7, ikisi ⑥ ⇒
+  **hipotez güçlendi, kanıtlanmadı.**
+
+### 1.2 🔴 SINIF: Rupert's Land / BC — `1867-07-01` (ölçüldü, mekanik)
+- İki tanık:
+  - SUSAN S1-12 Fort Confidence: Canadian Encyclopedia, Rupert's Land/NWT → Kanada **15 Temmuz 1870**;
+  - ODUNC TEK-08 Lac la Ronge: aynı.
+- `girdi` ölçümü: `1867-07-01`'de biten dilim **126** (hepsi `ingiliz-kuzey-amerika` → `kanada`).
+  - **lon < −95 (Rupert's Land / NWT / Britanya Kolumbiyası adayı): 66.** Örn. Fort McPherson · Fort Good Hope · Déline ·
+    Fort Norman · Fort Rae.
+  - **−95…−60 ve lat ≥ 50,5 (Hudson havzası adayı): 20.** Örn. Prince of Wales Fort · York Factory · Kuujjuaq · Hebron
+    (Labrador — Newfoundland'a ait, Kanada'ya 1949!).
+  - Geri kalan 40: 1867 eyaletleri (Ontario/Quebec/NS/NB) olabilir.
+- ⇒ **~86 dilimin ucu 3-4 yıl ERKEN** (Rupert's Land/NWT 1870-07-15; BC 1871-07-20; Labrador/Newfoundland 1949 —
+  pencere dışı, 1923'e dek Kanada DEĞİL).
+- Coğrafi ayrım kaba (boylam/enlem eşiği). Kesin liste her noktanın 1867 eyalet sınırına göre okunmalı. Hüküm + yazım
+  senin (künye/veri dosyaları).
+
+## 2. Öngörü ↔ ölçüm (D273: arama işi, kötümser beklenmişti)
+```
+ARDIL YANLIŞ 3 ± 2 / 8      ✗ 0 — kötümser çıktı (D273 yönünde)
+TEK YANLIŞ 4 ± 2 / 8        ✓ 3
+U1281 YANLIŞ 3 ± 2 / 8      ✓ 2
+MEŞRU YANLIŞ 1 ± 1 / 6      ✓ 1
+TESADÜF 2 ± 2               ✓ 1
+ÖLÇÜLEMEDİ 2 ± 1 her biri   ✓ (1 · 1 · 1 · 2)
+"yerel metin yokluğu sinyal" %55   ✗ ayırt edilemedi (%21 ↔ %25); asıl ayırıcı ARDIL/TEK (%0 ↔ %43)
+```
