@@ -438,3 +438,94 @@ Bu turda düzeltilen 9 UÇ (POLITY not alanına eski değer + gerekçe; KRONOLOJ
 - **§12 YIKIM ≠ DEVİR'in ÖLÇÜLEMEDİ 25 KAYIT'ı yeniden soruldu:** yeni 36 şehrin hiçbiri o 25 yerden biri değil ⇒ **25 KAYIT hâlâ ÖLÇÜLEMEDİ**:
   - Simurrum, Karahar, Harši, Lullubum, Kimaš, Hurti, Šašrum, Šurudhum, Bitum-rabium, Jabru, Huhnuri, Simanum, Zabšali, Adamdun, Girtab, Amurru kenti, Bašimi, Akusum, Pi-naratim, Kazallu, Malgium, Sabum, Dur-Yakin;
   - Kazallu, Malgium ve Girtab konumsuz diye DIŞLANDI.
+
+## 16. Koordinatör hükümleri uygulandı: HARAÇ ≠ DEVİR (911–746) · babil-ara · Laqe boyanır · tanik_sayisi · Pleiades dersi
+### ③ HARAÇ ≠ DEVİR — 911–746 yıllıkları (okuyucu D, 77 KAYIT) birleştirildi
+Kaynak: RIMA 2/3 Grayson çevirisi (archive.org OCR) + SAAS 2 eponim listesi. Kanıt `KAMP-MEZOPOTAMYA-OLAY-D.md`, betik `-olay_D_birlestir.py`.
+
+Okuyucunun 68 EVET KAYIT'ı bölündü:
+| kova | KAYIT | ne oldu |
+|---|---|---|
+| DEVİR (ele geçirme, ilhak, vali/kral atama, iskân, "mine saydım") | **47** | EVET |
+| ⓑ TEKRARLAYAN haraç / açık vasallık | **6** | EVET + `v:asur` dilimi KANITI |
+| ⓐ TEK SEFERLİK haraç | **4** | AKIN |
+| ⓒ ayırt edilemiyor | **11** | `HARAÇ-ÖLÇÜLEMEDİ` (yeni kova), dilim yazılmadı |
+
+- **ⓑ'nin 6 KAYIT'ı:**
+  - 857 Patina "imposed … as ANNUAL tribute";
+  - 857 Sam'al "I receive (it) ANNUALLY in my city, Assur";
+  - 857 Kummuh "I receive ANNUALLY";
+  - 894 Qatnu "(my) vassal" (açık vasallık beyanı);
+  - 886 Bīt-Zamani "take an oath by Assur" (vasallık andı);
+  - 882 Suhu: valinin haracı Ninova'ya KENDİSİNİN getirmesi.
+- **Ayırt edici örnek:** 885 Suhu haracı ⓐ çıktı.
+  - Gerekçe 882 metninin kendisi: *"although at the time of the kings my fathers the governor of the land Suhu had not come to Assyria"*.
+  - ⇒ 885'te alınan haraç bir ilişki DEĞİL, sefer ganimetiydi; düzenli ilişki 882'de BAŞLIYOR.
+- **ⓒ'nin 11 KAYIT'ı:**
+  - Laqe 894 ve 885; Hindanu 894, 885 ve 883: üç krallık boyunca tekrar, ama süreklilik BEYAN edilmiyor;
+  - Sur 841 ve 838;
+  - Tabal 837 ve 836;
+  - "yükledi" (imposed) beyanları: Guzana, Habhu, Nairi, Madara.
+  - Kural (koordinatör): "iki kez ≠ düzenli; tereddütte ⓒ".
+- **Geriye dönük:** 616 Suhu/Hindanu haracı (okuyucu C) aynı kuralla ⓐ ⇒ EVET'ten AKIN'a geçti.
+- Okuyucunun kendi 9 AKIN'ı (yıkım/yağma) AKIN kaldı.
+- **KRONOLOJİ 177 → 254 KAYIT:**
+  - EVET 86 → **138** (−1 + 47 + 6). Kapsam içi **100**, kapsam dışı 38 (`atif_dilim`: K3 ANADOLU / K4 AKDENIZ / İran BİLİNMİYOR).
+  - AKIN 39 → 53 · HARAÇ-ÖLÇÜLEMEDİ 11 · SINIR 33 · HAYIR 15 · — 4.
+- ⓑ'lerin `v:` dilimi olarak SUZEREN.csv'ye yazılması YAPILMADI. Her biri bir başlangıç tanığı, bitiş ucu yok ⇒ dilim AÇIK UÇLU olur. Hüküm sende: açık uçlu `v:` dilimi yazılsın mı, yoksa yalnız kanıt olarak mı dursun?
+
+### ① babil-ara — açıldı, YANINDA
+- POLITY'ye `babil-ara` eklendi: f, t **ÖLÇÜLEMEDİ**, ÖDÜNÇ UÇ YAZILMADI.
+  - 1005 = deniz-ulkesi-ii sonu, 626-11-23 = yeni-babil başı; ikisi de komşunun ucu.
+  - Kendi tanığı Kral Listesi A (CT 36, 25) bu turda AÇILMADI ⇒ aralık `__BOSLUK__`.
+- **732→626 yıl yıl durum** (`KAMP-MEZOPOTAMYA-BABIL-DILIM.md`, betikle denetlendi: her yıl TEK durumda, boşluk/örtüşme 0):
+  - v:asur-tabi **46** · BAGIMSIZ **26** · v:asur-cifte **25** · OLCULEMEDI **9** · v:elam **1** = **107 YIL** (her iki uç dahil);
+  - 18 saltanat satırı.
+- SUZEREN.csv'deki id'siz 4 satır (`babil-NB-oncesi`) kaldırıldı ⇒ yerine `babil-ara` için **10 `v:` DİLİMİ**.
+  - Kaldırılanların içeriği dilim tablosunda KAPSANIYOR (Bel-ibni, Aššur-nadin-šumi, Nergal-ušezib, Šamaš-šuma-ukin).
+  - Silinen bilgi yok.
+- **BAĞIMSIZLIK aralıkları dilim DEĞİL, BOŞLUK** (hüküm gereği):
+  - 732–729 Nabû-mukin-zeri · 721–710 Marduk-apla-iddina II · 703 · 692–689 Mušezib-Marduk · 652–648 Šamaš-šuma-ukin isyanı.
+- **OLCULEMEDI 9 YIL:**
+  - 688–681: ABC 1 iii.28 ve Kanon "kralsız". Brinkman "Assyrian monarchy resumed direct rule" der ⇒ zorlanırsa v:asur-cifte olurdu, ZORLANMADI;
+  - 626 fetret.
+- **Ptolemaios Kanonu boşlukları DÜZLÜYOR:** Tiglat-pileser 731–727, Sargon 709–704, Esarhaddon 680–668, Kandalanu 647–626. Kroniklere uyuldu, her fark dosyada.
+- **🔴 BEYAN EDİLMİŞ BORÇ (koordinatör hükmü):**
+  - İlke "Babil TEK künye, hanedan başına değil" der. Tablo Babil'i hanedan başına böler: babil-i, kassit-babil, isin-ii, deniz-ulkesi-ii, babil-ara, yeni-babil.
+  - `babil-ara` o düzene uyarak açıldı. Birleştirme haritayı değiştirir ⇒ ayrı, ölçülmüş iniş ve Emre'nin modelleme kararı.
+  - Birleştirmenin en güçlü delili olacak cümle: Babil Kral Listesi A Babil'i TEK krallık olarak sayar ve hanedanları (BALA) onun İÇİNDE sıralar.
+  - ⚠️ Bu cümle koordinatörün ifadesi; KASA Kral Listesi A'yı bu turda AÇMADI ⇒ birleştirme turunda ÖNCE o metin açılmalı.
+
+### ② Laqe: Kabile Konfederasyonu, BOYANIR
+- `lake` tur → **"Kabile Konfederasyonu"**. ic_not AYNEN: *"The 'land of L.' was never under one ruler, and was at best a loose confederation of Aramaean sheikhs"*.
+- MENZİL şartı not'ta: toprak yalnız attested üye yerlerine kadar (Sirqu, Ṣupru, Aqarbani, Kipina, Sūru/Bīt-Ḫalupê — RlA 6 s.493 tablosu).
+- **İKİNCİ CEVAP ADIYLA (ölçüldü):** `devletler.js`'te adında/türünde "Konfederasyon" geçen **21 künye**:
+  - **19'u BOYANIYOR**: berabis, aro-konfederasyonu, tuareg ×5, tubu-tibesti, maravi, betsimisaraka, vendat, turkmen, maratha, isvicre, choctaw, creek, haudenosaunee, powhatan, diaguita-calchaqui, muisca;
+  - **2'si BOYANMIYOR**: `ranquel` (Ranquel Konfederasyonu) ve `alman-konfederasyonu` (Deutscher Bund).
+  - Alman Konfederasyonu'nun boyanmaması BİLİNÇLİ olabilir: üyeleri ayrı boyalı, çatı boyanırsa üst üste biner. Ranquel'inki ÖLÇÜLMEDİ (geometri eksikliği mi, karar mı?).
+  - Hüküm sende.
+
+### ⓒ şehir: `tanik_sayisi` kolonu + ikinci okuyucu döndü
+- Suriye/Habur ikinci okuyucusu DÖNDÜ (18 KAYIT, hepsi tarihli). 11 KAYIT değişti:
+  - **Ebla arşivi grubu** (Tuttul, Ebla, Emar, Karkamış, Halab, Nagar) -2350 → **-2250**:
+    - ikinci okuyucu CDLI ARET tabletlerini (BİRİNCİL) açtı; CDLI dönem etiketi 2350–2250;
+    - ilk değer ikincil kaynakların "um 2400 / 24. Jh." ifadesinden türetilmişti;
+    - Tuttul'un ⚠️'si kalktı (birincil tablet).
+  - **Qatna, Kahat, Anat → -1781**: Mari ARM 1 Šamši-Adad I mektupları.
+    - Kaynaksız Zimri-Lim eşlemesi ARTIK GEREKMİYOR.
+    - Anat -1076 → -1781: 700 yıl erken.
+  - **Dur-Katlimmu** -1234 → -1201 ("wahrscheinlich" yerine sert "13. yy"). **Guzana** -894 → -891 (eponim→yıl eşlemesi kaynaksızdı).
+- `tanik_sayisi`: 2 = **34 KAYIT**, 1 = **2 KAYIT** (Nerebtum, Kutalla — yalnız konum okuyucusu), ilk turun 32 KAYIT'ı "ÖLÇÜLMEDİ (1. tur)".
+- **Alalah:** Zimri-Lim eşlemesine bağlı tek kayıt kaldı ⇒ kesinlik `yuzyil`, sert yazılmadı (hüküm).
+  - İkinci okuyucunun Ebla adayı "NI-la-la-hu{ki}" KENDİ eşitlemesi ⇒ kullanılmadı.
+- ⚠️ zayıf sayısı 8 → **5**: Ekalte, Kabnak, Me-Turan, Tarbisu, Alalah.
+
+### 📌 DERS: ALETİN KESİNLİK DAMGASI, OLGUNUN KESİNLİĞİ DEĞİLDİR (koordinatör adlandırdı)
+- Pleiades Opis için "precise" diyor. Bu ÖNERİLEN koordinatın hassasiyeti, teşhisin sağlamlığı DEĞİL. Livius: *"The precise location of Opis has not been established"*.
+- Aynı kusurun ayna hâli: "kesinlik:yil yanlış günü doğru yapmaz" ↔ "precise damgası belirsiz yeri belirli yapmaz".
+- ⇒ K2/K3/K4/K6 Pleiades kullanırken `reprPoint` hassasiyetini değil isim/teşhis `certainty` alanını ("certain / less-certain") ölçmeli.
+- Ek tuzak (alt-ajan E): Karana/Qattara kaydının reprPoint'i doğru poligonla YANLIŞ bir noktanın ORTALAMASI (34.70, 43.33). Doğru konum ~36.26, 42.45 ⇒ reprPoint kör kullanılmaz.
+
+### 25 ÖLÇÜLEMEDİ AKIN — **ŞARTLI AÇIK**
+- Yeniden sorma ŞARTI (koordinatör): şehir listesi YENİ BİR BÖLGEYE açıldığında (Zagros dağlık kuşağı, İran platosu, Yukarı Dicle). Sayı arttığında DEĞİL.
+- Sebep: o 25 yer teşhis edilmemiş küçük yerleşimler (Simurrum, Karahar, Harši, Kimaš, Hurti, Lullubum…). Aynı bölgede liste büyütmek onları getirmez.
