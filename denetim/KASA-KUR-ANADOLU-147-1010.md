@@ -105,6 +105,10 @@ MÖ 1000     9    454,9 / 576,5  KAPALI         11  314,1 KAP     54  153,8 / 25
 MÖ  500    38    377,7 / 601,3  KAPALI         50  201,2 SINIR   93  132,2 / 189,2  AÇ             190  93,8 AÇ
 ```
 **CEVAP: 120-136'da KALMIYOR — 439-620 bandına ÇIKIYOR** (MÖ 3000-1500 aynı; MÖ 1000 455, MÖ 500 378).
+⚠️ **Yöntem farkı (çelişki DEĞİL):** KUR-ANADOLU-48 §1.3'te TASDİKLİ sıra 620 / 484 / 484 / 484 / 439 (68 nokta,
+ad araması); burada 620 / 484 / 484 / 455 / 378 (68 ad araması + 147 mekânsal). MÖ 1000'de 484 ↔ 455 ve
+MÖ 500'de 439 ↔ 378 farkı 147'nin eklenmesinden ve eşleştirme yönteminden geliyor. İki sıra da her kesitte
+KAPALI. 68 mekânsal yöntemle yeniden yapılmadı (koordinatör kararı (c): hüküm değişmiyor).
 - 147'nin hiçbiri MÖ 3000'e §6.2-temiz tanıkla girmiyor. Kutuyu bugün AÇ tutan "147 var" varsayımı
   kaynakla karşılanmıyor: 147'nin 105'i C ve bunların **74'ü MÖ 330 ya da sonrası** (Helenistik/Roma) başlıyor.
 - **En cömert kaynaklı okuma bile** (ölçülemeyen her şeyi "var" saymak) MÖ 3000-1000'de SINIR (154-183).
