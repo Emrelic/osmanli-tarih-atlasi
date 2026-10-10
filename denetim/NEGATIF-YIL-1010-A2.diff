@@ -1,0 +1,432 @@
+diff --git a/denetim/ARAC-NEGATIF-YIL-A2-SINAV-1010.js b/denetim/ARAC-NEGATIF-YIL-A2-SINAV-1010.js
+new file mode 100644
+index 00000000..63e49f2a
+--- /dev/null
++++ b/denetim/ARAC-NEGATIF-YIL-A2-SINAV-1010.js
+@@ -0,0 +1,277 @@
++// ARAC-NEGATIF-YIL-A2-SINAV-1010 — js/suzgec.js tarih kıyası SAYISAL mı? (iki yön)
++//
++// Görev NEGATIF-YIL-1010-A2 (UMIT, 10 Ekim 2026). A (`gunIdx` → GUN) app.js'i
++// geçirdi ama suzgec.js'in sahiplik yüklemi düz dizgi kıyası olarak kaldı
++// (DIZGI-TARIH-TARAMA-1010 J1-J4): iki taraf negatifken `"-0549…" <= "-0400…"`
++// YANLIŞ ⇒ MÖ pencerede sahip "". A2 bütün kıyasları GUN.gun ile sayısala çevirdi.
++//
++// KOŞ:  node denetim/ARAC-NEGATIF-YIL-A2-SINAV-1010.js [--eski <git-ref>] [--kok <dizin>]
++//   --eski  yamasız suzgec.js'in okunacağı commit (varsayılan 6cec6a9b — A2'nin tabanı).
++//           O sürümde A2 damgası VARSA ölçülemedi (eski kol eski değil).
++// ÇIKIŞ: 0 hepsi tuttu · 1 en az bir soru tutmadı · 2 ÖLÇÜLEMEDİ
++//
++// BÖLÜMLER
++//   A  MÖ dönem içinde bir gün ⇒ doğru sahip (yeni) · eski kol "" (yamasız kusur görünür)
++//   B  iki dönemin sınırı ⇒ doğru taraf · yıl 0 geçişi · karışık işaretli pencere
++//   C  gunKaydir: MÖ, yıl 0 geçişi, artık yıl (astronomik: -0004 artık) + pozitif alanda eski==yeni
++//   D  GERİLEME: gerçek veri (index.html'in app.js'ten önceki betikleri), bütün yerleşimler,
++//      kendi sınır günleri ±1 + örnek günler: sahipAnahtari/isgalAnahtari/aktifVAdi eski==yeni;
++//      sinirIndeksi sırası · antlasmaFarki · kademeKumesi · gunDegisimleri · isyanAktif/isyanSecim eski==yeni
++//   E  ATAR: GUN yoksa ve bozuk tarihte sessiz kalmaz
++"use strict";
++const fs = require("fs"), path = require("path"), vm = require("vm"), cp = require("child_process");
++
++const arg = process.argv.slice(2);
++function argAl(ad, vars) { const i = arg.indexOf(ad); return i >= 0 ? arg[i + 1] : vars; }
++const KOK = path.resolve(argAl("--kok", path.join(__dirname, "..")));
++const ESKI_REF = argAl("--eski", "6cec6a9b");
++
++let gecen = 0, kalan = 0;
++const kotu = [];
++function soru(ad, kosul, ayrinti) {
++  if (kosul) gecen++; else { kalan++; kotu.push(ad + (ayrinti ? "  → " + ayrinti : "")); }
++  console.log((kosul ? "  ✓ " : "  ✗ ") + ad + (ayrinti && !kosul ? "  → " + ayrinti : ""));
++}
++function olculemedi(neden) { console.log("ÖLÇÜLEMEDİ: " + neden); process.exit(2); }
++
++// ---- modüller --------------------------------------------------------------
++const GUN_SRC = fs.readFileSync(path.join(KOK, "js", "gun.js"), "utf8");
++function gunYukle() { const m = { exports: {} }; vm.runInNewContext(GUN_SRC, { module: m }); return m.exports; }
++const GUN = gunYukle();
++function suzgecYukle(src, gunVar) {
++  const m = { exports: {} }, c = { module: m, console: console };
++  if (gunVar) c.GUN = GUN;
++  vm.runInNewContext(src, c, { filename: "suzgec.js" });
++  return m.exports;
++}
++const YENI_SRC = fs.readFileSync(path.join(KOK, "js", "suzgec.js"), "utf8");
++let ESKI_SRC;
++try { ESKI_SRC = cp.execFileSync("git", ["-C", KOK, "show", ESKI_REF + ":js/suzgec.js"], { encoding: "utf8", maxBuffer: 64 << 20 }); }
++catch (e) { olculemedi("eski suzgec.js git'ten okunamadı (" + ESKI_REF + "): " + e.message.split("\n")[0]); }
++if (/NEGATIF-YIL-1010-A2/.test(ESKI_SRC)) olculemedi("--eski " + ESKI_REF + " zaten A2'li — yamasız kol değil");
++if (!/NEGATIF-YIL-1010-A2/.test(YENI_SRC)) console.log("⚠️  çalışma ağacındaki suzgec.js A2'siz (yamasız ağaçta koşuyor: A-E'nin YENİ yönü düşmeli)");
++const YENI = suzgecYukle(YENI_SRC, true), ESKI = suzgecYukle(ESKI_SRC, false);
++console.log("kök " + KOK + " · eski kol " + ESKI_REF + ":js/suzgec.js");
++
++// ---- A · MÖ dönem içinde bir gün -----------------------------------------
++// Sentetik yerleşim (astronomik yıl: MÖ 550 = -0549, MÖ 330 = -0329).
++console.log("\nA · MÖ dönem içinde bir gün ⇒ doğru sahip");
++const PERS = { ad: "Persepolis(sentetik)", lat: 29.9, lon: 52.9,
++  s: [{ d: "ahameni", f: "-0549-01-01", t: "-0329-10-01" },
++      { d: "makedonya", f: "-0329-10-01", t: "-0311-01-01" },
++      { d: "selevkos", f: "-0311-01-01", t: "0001-01-01" }],
++  v: [{ kid: "medya", k: "Medya", f: "-0600-01-01", t: "-0549-01-01" }],
++  isg: [{ d: "iskit", f: "-0400-03-01", t: "-0399-03-01" }] };
++const SUS = { ad: "Sus(sentetik)", lat: 32.2, lon: 48.2,
++  d: [{ f: "-2999-01-01", t: "-2000-01-01" }],
++  s: [{ d: "elam", f: "-2000-01-01", t: "-0639-01-01" }] };
++[
++  [PERS, "-0400-06-15", "s:ahameni"], [PERS, "-0549-01-01", "s:ahameni"], [PERS, "-0330-12-31", "s:ahameni"],
++  [PERS, "-0320-01-01", "s:makedonya"], [PERS, "-0100-01-01", "s:selevkos"], [PERS, "-0580-01-01", "tabi:medya"],
++  [SUS, "-2500-07-01", "osmanli"], [SUS, "-1200-01-01", "s:elam"], [SUS, "-0639-01-01", ""], [SUS, "-3000-12-31", ""],
++].forEach(function (v) {
++  const yeni = YENI.sahipAnahtari(v[0], v[1]), eski = ESKI.sahipAnahtari(v[0], v[1]);
++  soru("yeni sahipAnahtari(" + v[0].ad + ", " + v[1] + ") = " + JSON.stringify(v[2]), yeni === v[2], JSON.stringify(yeni));
++  console.log("      (eski kol: " + JSON.stringify(eski) + (eski === v[2] ? "" : "  ← YAMASIZ KUSUR") + ")");
++});
++soru("yeni isgalAnahtari(PERS, -0400-12-01) = iskit", YENI.isgalAnahtari(PERS, "-0400-12-01") === "iskit");
++soru("yeni aktifVAdi(PERS, -0580-01-01) = Medya", YENI.aktifVAdi(PERS, "-0580-01-01") === "Medya");
++// Yamasız kolun MÖ kusuru GÖRÜNÜYOR mu (sınav ayırt ediyor mu)?
++const eskiKusur = [ESKI.sahipAnahtari(PERS, "-0400-06-15") !== "s:ahameni",
++  ESKI.isgalAnahtari(PERS, "-0400-12-01") !== "iskit",
++  ESKI.aktifVAdi(PERS, "-0580-01-01") !== "Medya",
++  ESKI.sahipAnahtari(SUS, "-2500-07-01") !== "osmanli"];
++soru("YAMASIZ kolda MÖ kusuru görünüyor (sahip/isgal/vAdi/d — 4'te 4 yanlış)", eskiKusur.every(Boolean),
++  JSON.stringify(eskiKusur));
++soru("yeni sahipKimlikte(odak) MÖ: PERS -0400 'ahameni' kimliğinde",
++  YENI.sahipKimlikte(YENI.sahipAnahtari(PERS, "-0400-06-15"), YENI.aktifVAdi(PERS, "-0400-06-15"), ["ahameni"], {}));
++console.log("      (eski kol: " + ESKI.sahipKimlikte(ESKI.sahipAnahtari(PERS, "-0400-06-15"), ESKI.aktifVAdi(PERS, "-0400-06-15"), ["ahameni"], {}) + ")");
++
++// ---- B · sınır ---------------------------------------------------------------
++console.log("\nB · iki dönemin sınırında ⇒ doğru taraf");
++[[PERS, "-0329-09-30", "s:ahameni"], [PERS, "-0329-10-01", "s:makedonya"],
++ [PERS, "-0311-01-01", "s:selevkos"], [PERS, "-0312-12-31", "s:makedonya"],
++ [PERS, "0000-12-31", "s:selevkos"], [PERS, "0001-01-01", ""],
++ [SUS, "-2000-01-01", "s:elam"], [SUS, "-2001-12-31", "osmanli"]].forEach(function (v) {
++  const yeni = YENI.sahipAnahtari(v[0], v[1]);
++  soru("sınır " + v[0].ad + " " + v[1] + " = " + JSON.stringify(v[2]), yeni === v[2], JSON.stringify(yeni));
++});
++const KARISIK = { ad: "karışık", s: [{ d: "roma", f: "-0026-01-16", t: "0395-01-17" }] };
++// Kural (DIZGI K5): sorgu günü ≥ 0 ise kıyaslardan yalnız biri negatif ⇒ eski de DOĞRU;
++// sorgu günü de negatifse (−0001) f ile kıyas İKİ TARAF NEGATİF ⇒ eski YANLIŞ.
++[["0050-01-01", true], ["0000-01-01", true], ["-0001-06-01", false]].forEach(function (v) {
++  const e = ESKI.sahipAnahtari(KARISIK, v[0]);
++  soru("karışık işaretli pencere " + v[0] + " → yeni s:roma · eski " + (v[1] ? "de doğru (tek taraf negatif)" : "YANLIŞ (iki taraf negatif)"),
++    YENI.sahipAnahtari(KARISIK, v[0]) === "s:roma" && (e === "s:roma") === v[1], "eski " + JSON.stringify(e));
++});
++// sinirIndeksi + antlasmaFarki MÖ: sıra sayısal, fark bulunur
++const ixY = YENI.sinirIndeksi([PERS, SUS]), ixE = ESKI.sinirIndeksi([PERS, SUS]);
++const sirali = ixY.gunler.every(function (g, i, a) { return i === 0 || GUN.gun(a[i - 1]) < GUN.gun(g); });
++soru("yeni sinirIndeksi gunler SAYISAL sırada (" + ixY.gunler.length + " gün)", sirali, ixY.gunler.join(" "));
++console.log("      (eski kol sırası: " + ixE.gunler.slice(0, 4).join(" ") + " …  ← dizgi sırası)");
++const fY = YENI.antlasmaFarki([PERS, SUS], ixY, "-0331-01-01", "-0320-01-01", { makedonya: true });
++soru("yeni antlasmaFarki MÖ penceresinde -0329-10-01 ahameni→makedonya",
++  !!fY && fY.gun === "-0329-10-01" && fY.once === "-0329-09-30" && fY.degisim.length === 1 &&
++  fY.degisim[0].once === "s:ahameni" && fY.degisim[0].sonra === "s:makedonya", JSON.stringify(fY));
++let fE; try { fE = ESKI.antlasmaFarki([PERS, SUS], ixE, "-0331-01-01", "-0320-01-01", { makedonya: true }); } catch (e) { fE = "ATTI " + e.message; }
++console.log("      (eski kol: " + JSON.stringify(fE) + ")");
++const kY = YENI.kademeKumesi([PERS], [0], [], "", "-0400-12-01", "-0390-01-01", "-0401-01-01", "-0390-01-01", { iskit: true });
++soru("yeni kademeKumesi MÖ: işgal biten (-0399-03-01) pencerede ⇒ PERS kümede, k2=isg:iskit",
++  kY.length === 1 && kY[0].k2 === "isg:iskit" && kY[0].k3 === "s:ahameni", JSON.stringify(kY));
++const gdY = YENI.gunDegisimleri([PERS, SUS], ixY, "-0329-10-01");
++soru("yeni gunDegisimleri(-0329-10-01) = PERS ahameni→makedonya",
++  gdY.length === 1 && gdY[0].once === "s:ahameni" && gdY[0].sonra === "s:makedonya", JSON.stringify(gdY));
++const ITm = { pencereler: [{ kimlik: "x", f: "-0500-01-01", t: "-0490-01-01" }] };
++soru("yeni isyanAktif MÖ penceresi -0495 → 1", YENI.isyanAktif(ITm, "-0495-01-01").length === 1);
++console.log("      (eski kol: " + ESKI.isyanAktif(ITm, "-0495-01-01").length + ")");
++
++// ---- C · gunKaydir ----------------------------------------------------------
++console.log("\nC · gunKaydir — MÖ, yıl 0 (ASTRONOMİK: A'nın gun.js sözleşmesi), artık yıl");
++[["-0330-10-18", -1, "-0330-10-17"], ["0001-01-01", -1, "0000-12-31"], ["0000-01-01", -1, "-0001-12-31"],
++ ["-0001-12-31", 1, "0000-01-01"], ["0000-12-31", 1, "0001-01-01"], ["-0004-03-01", -1, "-0004-02-29"],
++ ["-0001-03-01", -1, "-0001-02-28"], ["0000-03-01", -1, "0000-02-29"], ["-0329-10-01", -1, "-0329-09-30"],
++ ["1453-05-29", -1, "1453-05-28"], ["1900-03-01", -1, "1900-02-28"], ["2000-03-01", -1, "2000-02-29"],
++ ["0050-03-01", -1, "0050-02-28"], ["1923-10-29", 365, "1924-10-28"], ["-2999-01-01", -1, "-3000-12-31"]
++].forEach(function (v) {
++  const y = YENI.gunKaydir(v[0], v[1]);
++  soru("gunKaydir(" + v[0] + ", " + v[1] + ") = " + v[2], y === v[2], y);
++});
++console.log("      (eski kol gunKaydir('-0330-10-18',-1) = " + JSON.stringify(ESKI.gunKaydir("-0330-10-18", -1)) +
++  " · ('0001-01-01',-1) = " + JSON.stringify(ESKI.gunKaydir("0001-01-01", -1)) + ")");
++soru("YAMASIZ kolda gunKaydir MÖ kusuru görünüyor", ESKI.gunKaydir("-0330-10-18", -1) !== "-0330-10-17");
++// Pozitif alanda eski == yeni (yıl 1..9999, fark −400..+400, 20.000 rastgele + kenarlar), tohumlu
++let tohum = 1010;
++function rnd() { tohum = (tohum * 1103515245 + 12345) % 2147483648; return tohum / 2147483648; }
++let pozFark = 0, pozN = 0, ilkFark = "";
++for (let i = 0; i < 20000; i++) {
++  const n = GUN.gunSayisi(1 + Math.floor(rnd() * 9998), 1, 1) + Math.floor(rnd() * 365);
++  const s = GUN.dizgi(n), f = Math.floor(rnd() * 801) - 400;
++  const a = ESKI.gunKaydir(s, f), b = YENI.gunKaydir(s, f);
++  // eski kol yıl < 1'e düşünce çöp verir — o bölge "pozitif alan" değil
++  if (GUN.yil(n + f) < 1) continue;
++  pozN++; if (a !== b) { pozFark++; if (!ilkFark) ilkFark = s + " " + f + " eski " + a + " yeni " + b; }
++}
++["1453", "1453-05", "0001-01-02", "9999-12-30"].forEach(function (s) {
++  pozN++; const a = ESKI.gunKaydir(s, 1), b = YENI.gunKaydir(s, 1);
++  if (a !== b) { pozFark++; if (!ilkFark) ilkFark = s + " eski " + a + " yeni " + b; }
++});
++soru("gunKaydir pozitif alanda eski == yeni (" + pozN + " örnek, yıl/ay hassasiyetli girdi dahil)", pozFark === 0, ilkFark);
++
++// ---- D · GERİLEME: gerçek veri ----------------------------------------------
++console.log("\nD · GERİLEME YOK — gerçek veride eski == yeni");
++const HTML = fs.readFileSync(path.join(KOK, "index.html"), "utf8").replace(/<!--[\s\S]*?-->/g, "");
++const ctx = { console: { log() {}, warn() {}, error() {}, debug() {}, info() {} } };
++ctx.window = ctx;
++ctx.document = { getElementById() { return null; }, querySelector() { return null; }, querySelectorAll() { return []; },
++  createElement() { return { style: {}, appendChild() {} }; }, addEventListener() {}, body: { appendChild() {} } };
++ctx.localStorage = { getItem() { return null; }, setItem() {}, removeItem() {} };
++vm.createContext(ctx);
++let betik = 0; const yukHata = []; let appVar = false;
++for (const m of HTML.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)) {
++  const sm = m[1].match(/\bsrc="([^"?#]*)/), src = sm ? sm[1] : null;
++  if (src === "js/app.js") { appVar = true; break; }
++  try {
++    if (!src) vm.runInContext(m[2], ctx);
++    else if (src.startsWith("data/")) { vm.runInContext(fs.readFileSync(path.join(KOK, src), "utf8"), ctx, { filename: src }); betik++; }
++  } catch (e) { yukHata.push((src || "satır içi") + ": " + e.message); }
++}
++if (!appVar) olculemedi("index.html'de js/app.js yok");
++const Y = ctx.YERLESIMLER || [];
++const kritik = yukHata.filter(function (h) { return /^(data\/(paket|yerlesimler|isyan|antlasma)|satır içi)/.test(h); });
++console.log("  veri: " + betik + " betik · yükleme hatası " + yukHata.length + (yukHata.length ? " (" + yukHata.join(" | ").slice(0, 160) + ")" : "") +
++  " · YERLESIMLER " + Y.length);
++if (kritik.length) olculemedi("kritik veri betiği koşmadı: " + kritik.join(" | "));
++if (Y.length < 1000) olculemedi("YERLESIMLER " + Y.length + " — evren eksik");
++// Bugünkü veride MÖ var mı? (varsa D'nin anlamı değişir: eski kol orada yanlış — fark beklenir)
++let moUc = 0, tumUc = 0;
++Y.forEach(function (y) { ["d", "v", "s", "isg"].forEach(function (a) { (y[a] || []).forEach(function (p) {
++  tumUc += 2; if (/^-/.test(p.f)) moUc++; if (/^-/.test(p.t)) moUc++; }); }); });
++console.log("  dönem ucu " + tumUc + " · MÖ uç " + moUc);
++// Örnek günler: her yerleşimin KENDİ uçları, uç−1, uç+1 + 41 küresel gün
++const kuresel = [];
++for (let yil = 1000; yil <= 2026; yil += 25) kuresel.push(GUN.dizgi(GUN.gunSayisi(yil, 6, 15)));
++["1281-07-27", "1453-05-29", "1514-08-23", "1683-09-12", "1923-10-29", "0330-05-11", "0001-01-01", "0000-06-01", "-0400-01-01"]
++  .forEach(function (g) { kuresel.push(g); });
++let cagri = 0, fS = 0, fI = 0, fV = 0; const ornekFark = [];
++Y.forEach(function (y) {
++  const gunler = new Set(kuresel);
++  ["d", "v", "s", "isg"].forEach(function (a) { (y[a] || []).forEach(function (p) {
++    [p.f, p.t].forEach(function (g) { const n = GUN.gun(g); gunler.add(g); gunler.add(GUN.dizgi(n - 1)); gunler.add(GUN.dizgi(n + 1)); });
++  }); });
++  gunler.forEach(function (g) {
++    cagri++;
++    const a1 = ESKI.sahipAnahtari(y, g), b1 = YENI.sahipAnahtari(y, g);
++    const a2 = ESKI.isgalAnahtari(y, g), b2 = YENI.isgalAnahtari(y, g);
++    const a3 = ESKI.aktifVAdi(y, g), b3 = YENI.aktifVAdi(y, g);
++    if (a1 !== b1) { fS++; if (ornekFark.length < 5) ornekFark.push(y.ad + " " + g + " sahip " + a1 + "→" + b1); }
++    if (a2 !== b2) { fI++; if (ornekFark.length < 5) ornekFark.push(y.ad + " " + g + " isg " + a2 + "→" + b2); }
++    if (a3 !== b3) { fV++; if (ornekFark.length < 5) ornekFark.push(y.ad + " " + g + " vAdi " + a3 + "→" + b3); }
++  });
++});
++console.log("  " + Y.length + " yerleşim × kendi uçları±1 + " + kuresel.length + " küresel gün = " + cagri + " (yerleşim, gün) çifti");
++soru("sahipAnahtari eski == yeni (fark 0)", fS === 0, fS + " · " + ornekFark.join(" | "));
++soru("isgalAnahtari eski == yeni (fark 0)", fI === 0, String(fI));
++soru("aktifVAdi eski == yeni (fark 0)", fV === 0, String(fV));
++const IXe = ESKI.sinirIndeksi(Y), IXy = YENI.sinirIndeksi(Y);
++soru("sinirIndeksi gunler sırası eski == yeni (" + IXy.gunler.length + " gün)", JSON.stringify(IXe.gunler) === JSON.stringify(IXy.gunler));
++let gdF = 0;
++IXy.gunler.forEach(function (g) {
++  if (JSON.stringify(ESKI.gunDegisimleri(Y, IXe, g)) !== JSON.stringify(YENI.gunDegisimleri(Y, IXy, g))) gdF++;
++});
++soru("gunDegisimleri eski == yeni (bütün " + IXy.gunler.length + " sınır günü)", gdF === 0, String(gdF));
++// antlasmaFarki + kademeKumesi: her 23. sınır gününden pencere [g−30, g+400], iki taraf kümesiyle
++const isgL = YENI.isgalliYerlesimler(Y);
++let afN = 0, afF = 0, kkF = 0;
++const pencereler = [];
++IXy.gunler.forEach(function (g, i) { if (i % 23 === 0) pencereler.push(g); });
++pencereler.forEach(function (g) {
++  const n = GUN.gun(g), bas = GUN.dizgi(n - 30), son = GUN.dizgi(n + 400);
++  [{ osmanli: true }, null].forEach(function (Tt) {
++    // T=null ⇒ o penceredeki ilk değişimin taraflarını içeren T kur (Osmanlı-dışı farkı da sına)
++    let T = Tt;
++    if (!T) { T = {}; (YENI.gunDegisimleri(Y, IXy, g) || []).forEach(function (d) {
++      [d.once, d.sonra].forEach(function (k) { if (k.indexOf("s:") === 0) T[k.slice(2)] = true; }); }); }
++    afN++;
++    const a = ESKI.antlasmaFarki(Y, IXe, bas, son, T), b = YENI.antlasmaFarki(Y, IXy, bas, son, T);
++    if (JSON.stringify(a) !== JSON.stringify(b)) afF++;
++    const fd = b ? b.degisim : [], k2 = b ? ESKI.gunKaydir(b.gun, -1) : GUN.dizgi(n - 1);
++    const k1 = GUN.dizgi(n - 200);
++    const ka = ESKI.kademeKumesi(Y, isgL, fd, k1, k2, b ? b.gun : g, bas, son, T);
++    const kb = YENI.kademeKumesi(Y, isgL, fd, k1, k2, b ? b.gun : g, bas, son, T);
++    if (JSON.stringify(ka) !== JSON.stringify(kb)) kkF++;
++  });
++});
++soru("antlasmaFarki eski == yeni (" + afN + " pencere)", afF === 0, String(afF));
++soru("kademeKumesi eski == yeni (" + afN + " pencere, " + isgL.length + " işgalli yerleşim)", kkF === 0, String(kkF));
++const IT = ctx.ISYAN_TARAMA;
++if (!IT || !(IT.pencereler || []).length) olculemedi("ISYAN_TARAMA yok");
++let isF = 0, isN = 0;
++const isGun = new Set(kuresel);
++IT.pencereler.forEach(function (p) { [p.f, p.t].forEach(function (g) { const n = GUN.gun(g);
++  [-1, 0, 1, 200].forEach(function (d) { isGun.add(GUN.dizgi(n + d)); }); }); });
++const kix = {}; (ctx.DEVLETLER || []).forEach(function (d) { if (d && d.id) kix[d.id] = d; });
++isGun.forEach(function (g) {
++  isN++;
++  const pa = ESKI.isyanAktif(IT, g), pb = YENI.isyanAktif(IT, g);
++  if (JSON.stringify(pa) !== JSON.stringify(pb)) { isF++; return; }
++  const sa = ESKI.isyanSecim(Y, pa, g, kix, IT.kimliksiz_uye), sb = YENI.isyanSecim(Y, pb, g, kix, IT.kimliksiz_uye);
++  if (JSON.stringify(sa.map(function (x) { return [x.i, x.p.kimlik, x.yol]; })) !==
++      JSON.stringify(sb.map(function (x) { return [x.i, x.p.kimlik, x.yol]; }))) isF++;
++});
++soru("isyanAktif + isyanSecim eski == yeni (" + isN + " gün, " + IT.pencereler.length + " pencere)", isF === 0, String(isF));
++
++// ---- E · sessiz kalmaz ------------------------------------------------------
++console.log("\nE · bozuk girdide ATAR (sessiz dizgi kıyasına düşmez)");
++function atar(f) { try { f(); return false; } catch (e) { return true; } }
++soru("sahipAnahtari(y, '1453-13-01') ATAR", atar(function () { YENI.sahipAnahtari(PERS, "1453-13-01"); }));
++soru("sahipAnahtari dönem ucu bozuk ('abc') ATAR", atar(function () { YENI.sahipAnahtari({ s: [{ d: "x", f: "abc", t: "1500-01-01" }] }, "1453-01-01"); }));
++soru("gunKaydir('', -1) ATAR (eski: sessiz çöp " + JSON.stringify(ESKI.gunKaydir("", -1)) + ")", atar(function () { YENI.gunKaydir("", -1); }));
++const GUNSUZ = suzgecYukle(YENI_SRC, false);   // require yok, GUN yok
++soru("GUN yüklenmemişse sahipAnahtari ATAR ('js/gun.js yüklenmedi')",
++  atar(function () { GUNSUZ.sahipAnahtari(PERS, "1453-01-01"); }));
++soru("dönemsiz yerleşimde aktifVAdi/isgalAnahtari GUN'suz da \"\" (eski davranış, gün çözülmez)",
++  GUNSUZ.aktifVAdi({}, "1453-01-01") === "" && GUNSUZ.isgalAnahtari({}, "1453-01-01") === "");
++
++console.log("\nSONUÇ: " + gecen + "/" + (gecen + kalan) + (kalan ? "  ✗ " + kalan + " soru tutmadı" : "  ✓"));
++if (kalan) { kotu.forEach(function (k) { console.log("  ✗ " + k); }); process.exit(1); }
++process.exit(0);
+diff --git a/js/suzgec.js b/js/suzgec.js
+index d6a264f5..5de58a4d 100644
+--- a/js/suzgec.js
++++ b/js/suzgec.js
+@@ -416,24 +416,56 @@ function baslikSayilari(olaylar) {
+ // Yeni geometri YOK: fark, yerleşimin d/v/s dönemlerinden çözülür; çizimde
+ // motorun kendi peteği (PETEKLER, yerleşim adıyla) kullanılır.
+ 
++// 🆕 NEGATIF-YIL-1010-A2 (10 Ekim 2026) — TARİH KIYASI SAYISAL.
++// Eskiden `p.f <= gs && gs < p.t` DÜZ DİZGİ kıyasıydı. İyi biçimli
++// `[-]YYYY-AA-GG`de ölçülen kural (DIZGI-TARIH-TARAMA-1010 K5/J1):
++//   tek taraf negatif → DOĞRU ('-' < '0') · İKİ TARAF NEGATİF → TERS
++//   ("-0549…" < "-0329…" dizgide YANLIŞ) ⇒ MÖ pencerede sahip "" çıkıyordu.
++// Çare: her iki uç `js/gun.js`in `GUN.gun`u ile tam sayı güne çevrilir
++// (proleptik Gregoryen · ASTRONOMİK yıl: MÖ 1 = 0000, A'nın sözleşmesi).
++// Dizgi → gün önbellekli (veride ~33 bin uç, ayrık dizgi birkaç bin).
++// 🔴 Geçersiz tarih ATAR (GUN'un sözleşmesi) — sessiz dizgi kıyasına DÜŞMEZ.
++// GUN çağrı anında aranır: index.html suzgec.js'i gun.js'ten ÖNCE yükler,
++// ama işlevler app.js koşarken çağrılır (o anda window.GUN VAR).
++function _sgGunMod() {
++  if (typeof GUN !== "undefined" && GUN && typeof GUN.gun === "function") return GUN;
++  if (typeof window !== "undefined" && window.GUN && typeof window.GUN.gun === "function") return window.GUN;
++  if (typeof require === "function") { try { return require("./gun.js"); } catch (e) { /* aşağıda ATAR */ } }
++  throw new Error("js/gun.js yüklenmedi — suzgec.js tarih kıyası GUN.gun ister (NEGATIF-YIL-1010-A2)");
++}
++// Önbellek kapanışta: tarayıcıda üst düzey `var` window özelliğidir (yavaş arama).
++var _sgG = (function () {
++  var onb = Object.create(null), n = 0;
++  return function (s) {
++    if (typeof s !== "string") return _sgGunMod().gun(s);      // ATAR (dizgi değil)
++    var v = onb[s];
++    if (v === undefined) {
++      v = _sgGunMod().gun(s);                                  // geçersizse ATAR, önbelleğe girmez
++      if (n >= 200000) { onb = Object.create(null); n = 0; }   // gezinme günleri sınırsız büyümesin
++      onb[s] = v; n++;
++    }
++    return v;
++  };
++})();
++// p.f <= g < p.t (f dahil, t hariç — atlasın dönem kuralı); g tam sayı gün
++function _sgIcinde(p, g) { return _sgG(p.f) <= g && g < _sgG(p.t); }
++
+ // Haritanın öncelik kuralı (app.js `_yerlesimSerit` ile AYNI):
+ //   d varsa "osmanli" · yoksa v varsa "tabi:<kid>" · yoksa s varsa "s:<d>" · yoksa ""
+-// `gs` "YYYY-MM-DD" dizgisi; karşılaştırma dizgi — veri de dizgi tutuyor.
++// `gs` "[-]YYYY-MM-DD" dizgisi; kıyas SAYISAL (yukarıda, A2).
+ function sahipAnahtari(y, gs) {
+-  var i, p;
+-  for (i = 0; i < (y.d || []).length; i++) if ((p = y.d[i]).f <= gs && gs < p.t) return "osmanli";
+-  for (i = 0; i < (y.v || []).length; i++) if ((p = y.v[i]).f <= gs && gs < p.t) return "tabi:" + (p.kid || "");
+-  for (i = 0; i < (y.s || []).length; i++) if ((p = y.s[i]).f <= gs && gs < p.t) return "s:" + p.d;
++  var i, p, g = _sgG(gs);
++  for (i = 0; i < (y.d || []).length; i++) if (_sgIcinde(p = y.d[i], g)) return "osmanli";
++  for (i = 0; i < (y.v || []).length; i++) if (_sgIcinde(p = y.v[i], g)) return "tabi:" + (p.kid || "");
++  for (i = 0; i < (y.s || []).length; i++) if (_sgIcinde(p = y.s[i], g)) return "s:" + p.d;
+   return "";
+ }
+-function _sgPad(n, w) { var s = String(n); while (s.length < w) s = "0" + s; return s; }
+-// "YYYY-MM-DD" ± gün (yıl < 1000 için de doğru: setUTCFullYear)
++// "[-]YYYY-MM-DD" ± gün. A2: GUN.gun → +fark → GUN.dizgi. Eski gövde
++// `split("-")` idi: "-0330-10-18"in baş parçası "" ⇒ yıl 0, ay 330 ⇒ ÇÖP
++// ("0000-06-09"). Yıl 0 geçişi astronomik: 0001-01-01 −1 = 0000-12-31.
+ function gunKaydir(s, fark) {
+-  var p = String(s).split("-");
+-  var d = new Date(Date.UTC(2000, (+p[1] || 1) - 1, +p[2] || 1));
+-  d.setUTCFullYear(+p[0]);
+-  d.setUTCDate(d.getUTCDate() + fark);
+-  return _sgPad(d.getUTCFullYear(), 4) + "-" + _sgPad(d.getUTCMonth() + 1, 2) + "-" + _sgPad(d.getUTCDate(), 2);
++  var G = _sgGunMod();
++  return G.dizgi(G.gun(String(s)) + fark);
+ }
+ // Sınır günü → o gün dönemi başlayan/biten yerleşimlerin indeksleri. Bir kez kurulur.
+ function sinirIndeksi(Y) {
+@@ -449,7 +481,10 @@ function sinirIndeksi(Y) {
+       });
+     });
+   });
+-  return { gunler: Object.keys(by).sort(), by: by };
++  // A2: SAYISAL sıra (dizgi sırası MÖ'de TERS). Eşit günde dizgiyle kır — kararlı.
++  return { gunler: Object.keys(by).sort(function (a, b) {
++    return (_sgG(a) - _sgG(b)) || (a < b ? -1 : a > b ? 1 : 0);
++  }), by: by };
+ }
+ // Türkçe normalleştirici — `lower()`dan ÖNCE eşleme (CLAUDE.md §4: "İ".lower() iki kod noktası)
+ function sgNorm(s) {
+@@ -517,9 +552,9 @@ function sahipIlgiliMi(key, T) {
+ // birine dokunan el değiştirmeler. Yoksa null. Gün başına yalnız o gün sınırı olan
+ // yerleşimler bakılır — bütün dünya taranmaz (maliyet: sınır sayısı × birkaç kayıt).
+ function antlasmaFarki(Y, ix, basGun, sonGun, T) {
+-  var G = ix.gunler, lo = 0, hi = G.length;
+-  while (lo < hi) { var md = (lo + hi) >> 1; if (G[md] < basGun) lo = md + 1; else hi = md; }
+-  for (var k = lo; k < G.length && G[k] <= sonGun; k++) {
++  var G = ix.gunler, lo = 0, hi = G.length, bg = _sgG(basGun), sg = _sgG(sonGun);   // A2: sayısal
++  while (lo < hi) { var md = (lo + hi) >> 1; if (_sgG(G[md]) < bg) lo = md + 1; else hi = md; }
++  for (var k = lo; k < G.length && _sgG(G[k]) <= sg; k++) {
+     var g = G[k], once = gunKaydir(g, -1), liste = [];
+     var aday = ix.by[g];
+     for (var n = 0; n < aday.length; n++) {
+@@ -552,7 +587,9 @@ function antlasmaFarki(Y, ix, basGun, sonGun, T) {
+ // Veriyi ölçen alet: denetim/ARAC-ANTLASMA-{KADEME,ZINCIR,AYIRT,KAPSAM}-0074.js
+ function isgalAnahtari(y, gs) {
+   var L = y.isg || [];
+-  for (var i = 0; i < L.length; i++) if (L[i].f <= gs && gs < L[i].t) return L[i].d || "";
++  if (!L.length) return "";
++  var g = _sgG(gs);                                                        // A2: sayısal
++  for (var i = 0; i < L.length; i++) if (_sgIcinde(L[i], g)) return L[i].d || "";
+   return "";
+ }
+ // `isg:` sınır günleri `sinirIndeksi`de YOKTUR (o yalnız d/v/s okur) — ölçüldü:
+@@ -579,7 +616,7 @@ function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun,
+     var y = Y[i], g = isgalAnahtari(y, k2gun), ilgili = !!(g && T[g]);
+     if (!ilgili) {
+       var L = y.isg || [];
+-      for (var j = 0; j < L.length; j++) if (L[j].t >= basGun && L[j].t <= sonGun && T[L[j].d]) { ilgili = true; break; }
++      for (var j = 0; j < L.length; j++) if (_sgG(L[j].t) >= _sgG(basGun) && _sgG(L[j].t) <= _sgG(sonGun) && T[L[j].d]) { ilgili = true; break; }   // A2: sayısal
+     }
+     if (ilgili) al(i);
+   });
+@@ -612,7 +649,9 @@ function sahipKimlikte(key, vK, ids, kunyeIx) {
+ }
+ // O gün aktif v: döneminin `k` adı (kid'siz tâbi kayıtlar için)
+ function aktifVAdi(y, gs) {
+-  for (var i = 0; i < (y.v || []).length; i++) { var p = y.v[i]; if (p.f <= gs && gs < p.t) return p.k || ""; }
++  if (!(y.v || []).length) return "";
++  var g = _sgG(gs);                                                        // A2: sayısal
++  for (var i = 0; i < y.v.length; i++) { var p = y.v[i]; if (_sgIcinde(p, g)) return p.k || ""; }
+   return "";
+ }
+ 
+@@ -627,7 +666,9 @@ function aktifVAdi(y, gs) {
+ // gs günü aktif pencereler (f dahil, t hariç — atlasın dönem kuralı)
+ function isyanAktif(IT, gs) {
+   var P = (IT && IT.pencereler) || [], r = [];
+-  for (var i = 0; i < P.length; i++) if (P[i].f <= gs && gs < P[i].t) r.push(P[i]);
++  if (!P.length) return r;
++  var g = _sgG(gs);                                                        // A2: sayısal
++  for (var i = 0; i < P.length; i++) if (_sgIcinde(P[i], g)) r.push(P[i]);
+   return r;
+ }
+ // → [{ i: yerleşim indeksi, p: pencere, yol: "atlas" | "kaynakli-uye" }] · kunyeIx: { id: künye }
+@@ -637,7 +678,7 @@ function isyanAktif(IT, gs) {
+ function _isyanKimliksizMi(y, gs) {
+   for (var i = 0; i < (y.v || []).length; i++) {
+     var p = y.v[i];
+-    if (p.f <= gs && gs < p.t) return !p.kid && !p.k;
++    if (_sgIcinde(p, _sgG(gs))) return !p.kid && !p.k;                   // A2: sayısal
+   }
+   return false;
+ }
