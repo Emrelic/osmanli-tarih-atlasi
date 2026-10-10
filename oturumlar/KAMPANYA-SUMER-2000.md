@@ -324,6 +324,101 @@ tam bunu ölçecek.
 
 ---
 
+### §12 🔴 KAMPANYANIN MERKEZÎ SONUCU — atlasın nokta kümesi MÖ'nün kümesi DEĞİL
+
+Gece boyunca iki kutu ölçüldü ve **ters sonuç verdi:**
+```
+SÜMER kutusu    → yoğunluk AÇILDI      26 nokta + 1 dolgu ⇒ p95 111,4 km
+ANADOLU kutusu  → HİÇBİR KESİTTE AÇILMIYOR
+                  MÖ 3000 620 · 2000 484 · 1500 484 · 1000 455 · 500 378 km
+```
+**Niçin biri açıldı öteki açılmadı** — cevap iki ölçümü yan yana koyunca çıkıyor:
+```
+Sümer noktaları   = HÖYÜKLER (Girsu · Tutub · Eşnunna · Ubaid · Nina …)
+                    ⇒ MÖ tasdikli, çünkü MÖ'nün yerleşimleri ONLAR
+Anadolu noktaları = MODERN ŞEHİRLER (Ankara · Kayseri · Konya · Sivas …)
+                    ⇒ MÖ tasdiki YOK, çünkü MÖ'de o şehirler yok
+ve §6.2 kanıtı:  147 Anadolu noktasının 40'ı (%27) yanında AYRI bir antik site taşıyor
+```
+
+> 🔴 **ATLASIN NOKTA KÜMESİ BİR MODERN/ORTAÇAĞ YERLEŞİM KÜMESİDİR.
+> MÖ, KENDİ NOKTA KÜMESİNİ İSTER.**
+
+Bu, `§6`nın sırasına (dizin → yoğunluk → pencere) **dördüncü** bir şart
+ekliyor: *noktalar O DÖNEMİN yerleşimleri mi?* Bir kutuda yoğunluk eşiği
+sağlanıyor görünüyorsa, bunun sebebi noktaların **o dönemde var olmaması**
+olabilir (`MIMARI §5.1b`: Anadolu'nun bugünkü 67 km'si tam böyle doğmuş).
+
+**EMRE'NİN KARARI — üç seçenek, ölçülmüş bedelleriyle:**
+| | seçenek | ölçüm | koordinatör önerisi |
+|---|---|---|---|
+| (i) | MÖ Anadolu kesitleri **KAPALI/ölçülemedi** beyanı | bedeli 0 | ✅ **EVET, hemen** |
+| (ii) | **höyük tabanlı ayrı site katmanı** | 🆕 **ÖLÇÜLDÜ** — 118 nokta ⇒ SINIR · 498 nokta ⇒ MÖ 500 AÇ | ✅ sonraki faz |
+| (iii) | MÖ 500'den başlatmak | TASDİKLİ'de **378 km, KAPALI** | ❌ reddedildi |
+
+(iii) niçin reddedildi: eşiği aşmayan bir başlangıç, başlangıç değildir.
+(ii) niçin tek işleyen yol: **MÖ'nün yerleşimleri höyüklerdir** — Sümer'de
+zaten böyle yaptık, Anadolu'da yapmadık. Fiyatı `KASA-HOYUK-KATMAN-1010`
+ölçüyor: Anadolu kutusunda Pleiades'te MÖ tasdikli kaç höyük var, kaçı
+atlasta yok, ve o noktalarla kutu **açılıyor mu.**
+
+⚠️ Ve bir şey daha ölçüldü: kutuyu açmanın tek "kolay" yolu **sınıflanmış
+C'leri MÖ 3000'de 'var' saymak** (~90 nokta) — ve bu **kaynağın söylediğinin
+TERSİ.** Yani kutu, ancak ölçümü yok sayarak açılıyor.
+
+#### §12.1 🆕 (ii)'NİN FİYATI ÖLÇÜLDÜ — `KASA-HOYUK-KATMAN-1010`
+
+Hükmüm bir öngörüydü; **sayıyla doğrulandı ve fiyatı çıktı.** Kaynak Pleiades
+dökümleri (2026-10-09), TAVO satırları süzülerek (`§5.1b` TAVO hükmü):
+```
+Anadolu kutusunda Pleiades yeri 3.354 · TAVO-DIŞI MÖ etiketli 684
+```
+
+| kesit | MÖ sitesi | atlasta YOK (>3 km) | p95 (site + TASDİKLİ) | kapı |
+|---|---|---|---|---|
+| MÖ 3000 | 37 | **35 (%95)** | 186,1 / azamî 254,8 | 🟡 SINIR |
+| MÖ 2000 | 67 | 63 | 158,1 | 🟡 SINIR |
+| MÖ 1500 | 67 | 63 | 148,8 | 🟢 AÇ — ama **kırılgan** (yalnız `precise` 151,3 ⇒ SINIR) |
+| MÖ 1000 | 98 | 90 | 172,4 | 🟡 SINIR |
+| MÖ 500 | 462 | **412 (%89)** | 86,9 | 🟢 AÇ |
+
+🔴 **ÜÇ SONUÇ:**
+1. **§12'nin merkezî hükmü SAYIYLA DOĞRULANDI.** "Atlasın nokta kümesi MÖ'nün
+   kümesi değil" bir yorum değil **ölçüm**: MÖ sitelerinin **%95'i** (MÖ 3000)
+   ve MÖ 500'de bile **%89'u** atlasta YOK. Örtüşme neredeyse sıfır.
+2. **KAPALI, HİÇBİR KESİTTE KALMIYOR.** Azamî her kesitte ≤255 km; atlas
+   noktalarıyla 455-620 olan TASDİKLİ ölçüm **kabaca üçte bire** iniyor.
+   Yani (ii) işliyor — ama MÖ 3000-1000'i **AÇ'a getirmiyor, SINIR'a getiriyor.**
+3. **Pleiades YETMİYOR.** Erken kesitlerde AÇ için **Pleiades dışı** höyük
+   envanteri (TAY vb.) şart; erişim/lisans henüz ölçülmedi.
+
+📌 **MÖ 1000'in MÖ 1500'den KÖTÜ olması bir kusur değil, GERÇEK:** Hitit
+etiketleri MÖ 1200'de bitiyor. Eğri monoton değil çünkü kaynak monoton değil.
+
+🆕 **VE BİR ŞÜPHE ÖLÇÜMLE KAPANDI:** `§5.1b`de "Mersin'in MÖ 6000'i büyük
+olasılıkla ayrı bir höyük (Yumuktepe)" diye yazılmıştı — **doğrulandı:**
+Yumuktepe = Pleiades 12504073, atlas Mersin'ine **2,57 km**. Çukuriçi de
+atlas noktasına 2,55 km'de AYRI bir höyük. ⇒ `HUKUM §6.2`nin ("tanık yanlış
+nesneyi ölçüyor") iki yeni vakası, ve **ikisi de 3 km eşiğinin ALTINDA** —
+yani yakınlık ayrı nesne olmadığını göstermiyor.
+
+🔴 **KATMAN GELİRSE İKİ ŞART** (KASA'nın önerisi, kabul edildi):
+```
+① Yumuktepe · Çukuriçi AYRI NOKTA olur (Milid deseni · §6.2 ikame)
+② kur:/t: dönem aralığının UÇLARINDAN alınır — höyükler TERK EDİLDİ,
+   "başlangıçtan beri var" SAYILMAZ
+```
+②'nin sebebi: terk edilmiş bir höyüğü sürekli saymak, `§6.3`ün
+(koordinat zamana bağlıdır) **varlık yüzüdür** — nokta vardı ama o tarihte
+YOKTU, ve bu da bir sahiplik yalanı üretir.
+
+**EMRE'YE TEK CÜMLE:**
+> *"Anadolu MÖ'sü atlas noktalarıyla KAPALI (455-620 km), Pleiades höyük
+> katmanıyla SINIR (149-186), MÖ 500'de AÇ (87); erken kesitlerde AÇ için
+> Pleiades dışı envanter gerekir."*
+
+---
+
 ### ⑦ MÖ İÇİN SIRADAKİ KAPI — `§6`nın kuralı
 `MIMARI.md §5`e bu gece yazıldı: **AÇ = p95 ≤150 km VE azamî ≤300 km.**
 Sümer kutusu için **13-20 kaynaklı nokta** gerekiyor (KASA'nın 10 adayıyla
