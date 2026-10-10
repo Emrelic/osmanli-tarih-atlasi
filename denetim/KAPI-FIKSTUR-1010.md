@@ -13,11 +13,27 @@ sınav `denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py` (sha256 `8ec05a58975176b2…
 | yalnız KAPI | 23/23 | 23/23 |
 | KAPI + LISTE + ADD | **8/23** | **23/23** |
 
-🔴 **LAB'in 18/23'ünü YENİDEN ÜRETEMEDİM:** bu tabanda eski fikstür üç yamayla **8/23** (15 düşen),
-5 değil. Ve 8 geçenin bir kısmı **SAHTE TEMİZ**: K1·K3·K6·Z1·Z3 betik import'ta çöktüğü için
-geçiyor (çökme = rc 1, commit 0 — sorunun beklediği tam o). LAB'in ortamında `yayin_listesi`nin
-sınav deposu DIŞINDAN (gerçek ağacın `arac/`ından, `sys.path` ile) çözülmüş olması 18'i açıklayabilir
-— ölçülmedi, hipotez. Öyleyse eski fikstür o ortamda GERÇEK `index.html`i okuyordu (sızıntı).
+**K0 — 8/23 ↔ LAB 18/23: ÇÖZÜLDÜ** (koordinatör + LAB ölçtü): iki ölçüm FARKLI YAMA KÜMESİNİ
+ölçtü, ikisi de doğru. LAB KAPI+LISTE (import yalnız `kosu_yayin.py`de ⇒ yalnız K düşer, 18/23);
+bu ölçüm KAPI+LISTE+ADD (ADD aynı importu `kos_ve_yayinla.py`ye de ekler ⇒ Z ve L de düşer, 8/23).
+Sızıntı YOK. Ve iki sayı da fikstürün geçerli ölçümü değildi: LAB'ın 18'inde 4, buradaki 8'de 5
+**SAHTE TEMİZ** vardı (K1·K3·K6·Z1·Z3 import'ta çöktüğü için geçiyordu — çökme = rc 1, commit 0,
+sorunun beklediği tam o). Geçerli ölçüm tek cümle: *fikstür `yayin_listesi.py` + `kodla.py`yi
+kopyalamıyor.*
+
+## 🆕 İki koruma eklendi (koordinatör kararı) — bir SONRAKİ kırılma da gizlenmesin
+- **ⓑ ÇÖKÜŞ KAPISI** (`sina`): koşunun çıktısında `ModuleNotFoundError` / `ImportError` /
+  `Traceback` varsa soru **ÖLÇÜLEMEDİ** (⚠) — GEÇTİ de KALDI da değil. Sınavın çıkış kodu üçlü oldu:
+  **0** temiz · **1** en az biri KALDI · **2** kalan yok ama ÖLÇÜLEMEYEN var (`§3`). K0/K0b muaf
+  (kendi koruma soruları, betik koşmaz).
+- **SEBEP İDDİASI** (`durdu`) K1·K3·K6·Z1·Z3'e: çökme yok · reddeden kapı (`denetle.py` /
+  `denetle_yayin.py`) GERÇEKTEN çağrıldı · sonraki kapıya geçilmedi · `git commit` çağrılmadı ·
+  günlük "ZİNCİR DURDU" diyor. (K9'a konmadı: yalnız-KAPI dünyasında red commit ADIMINDA olur.)
+- **ⓑ ÇİFT YÖNDE SINANDI:** 3 yamalı ağaçta `arac/yayin_listesi.py` kasten kaldırıldı ⇒ yeni sınav
+  **21 ÖLÇÜLEMEDİ · 0 kaldı · 2 geçti (K0, K0b) · çıkış 2.** Sahte ✓ **0** (eski fikstür aynı
+  kırılmada 5 sahte ✓ veriyordu).
+- Korumalarla yeniden: yamasız **7/23** (eski fikstürle 23/23 soru aynı hüküm) · yalnız-KAPI
+  **23/23** · 3 yama **23/23** · `apply --check` temiz, ağaç içinden koşu 23/23.
 
 ## Düşen sorular ve sınıfları — hepsi (a), ayrı ayrı gerekçe
 **Kök sebep (14 soru): `ModuleNotFoundError: No module named 'yayin_listesi'`.** LISTE yaması
@@ -60,6 +76,6 @@ dosya iki kümeye de sokuldu (sahte üreteç yazar + sahte site yükler). Sonuç
 
 ## Koordinatöre
 ⚠️ Diff, sınav dosyasının `origin/makine/umit`teki hâline göredir ve dosya `main`de YOK —
-önce sınavı (`denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py`) umit'ten al, sonra bu diffi uygula.
-Ya da LAB'in 18/23 ortamını ölç: `yayin_listesi` deponun dışından çözülüyorsa eski fikstür gerçek
-ağacı okuyordu — bu, sınavın kendi güvenliği (K0) için ayrı bir sorudur.
+önce sınavı (`denetim/ARAC-KOSU-YAYIN-KAPI-SINAV-1010.py`, blob `fd24fdf`) umit'ten al, sonra bu
+diffi uygula. KAPI + LISTE + ADD + fikstür AYNI commit'te (`§3.4 ②`). Diff 7 yer: yukarıdaki 4 +
+`cokus`/`sina` çöküş kapısı + `durdu` sebep iddiası (5 soru) + üçlü çıkış kodu.
