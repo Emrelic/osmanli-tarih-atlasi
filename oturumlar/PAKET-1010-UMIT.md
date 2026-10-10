@@ -134,7 +134,12 @@ temiz yön yalnız REGEX ile sınanıyor, CANLI koşulmuyor
 (bu gece FAZ 1'in üç diff'i yüzünden `KASA-DIKIS-KAPI` `:7229`da düştü).
 Bulgun `denetle.py` düzeltmesi gerektiriyorsa **ADIYLA RAPOR ET**, yazma.
 
-## §K — D8k: 49 TAM KÖR D/E/F HATTI
+## §K — D8k: **78** TAM KÖR D/E/F HATTI (sayı 10 Ekim 08:40'ta GÜNCELLENDİ)
+🔴 **ŞARTNAMEM BAYATLADI:** burada "49" yazıyordu; `OLCUM-AGACI-1010` taze
+`origin/main`de **78 tam kör** ölçtü, **18'i YENİ körleşmiş** (hat, gün).
+Ve D8a **1517 > tavan 1508**; üç tabanda (`37770b31` · `a51430cc` ·
+`14bb94b9`) aynı 1517. ⇒ Sayıyı ÖNCE kendin ölç (`py arac/olcum_agaci.py
+hazirla`), şartnamedeki sayıya güvenme — bu satır onun kanıtı.
 LAB ölçtü: `denetle.py` D8'in **k** kolunda *"49 D/E/F tam kör hatta taşma
 HİÇ SORULMUYOR"* (78 hat raporda adıyla). `Değişmez 8` Emre'nin
 H-0069/H-0086 kalemidir — yani kör nokta **onaylı bir değişmezin içinde.**

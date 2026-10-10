@@ -473,6 +473,21 @@ data/devlet_harita_ust.js    3.148.869 bayt  TAKİPLİ · index.html:1759 · YAY
 ```
 ⇒ Kusur "dosya yok" değil: **dosya VARDI ve YANLIŞTI.** Varlığı doğruluk sanıldı.
 🔴 Üretilmiş haritayı ölçecek her iş, tabanını KENDİ ÇÖZER:
+🆕 ✅ **ELLE YAPMA — ALET VAR** (`OLCUM-AGACI-1010`):
+```bash
+py arac/olcum_agaci.py hazirla      # fetch · worktree · HEAD..origin/main=0 ·
+                                    #   İKİ hedefi çöz · sha256'yı DAMGAYLA kıyasla
+py arac/olcum_agaci.py kaldir       # çıkış 0 temiz · 2 ölçülemedi · 3 taban/damga bozuk
+```
+⚠️ `kodla.py coz_c` damgayı **okuyup ATIYOR**, doğrulamıyor — doğrulamayı
+alet yapar. Ölçüldü: `devletler_harita.js` **181.080.905 B (172,69 MB)**
+47 sn · `donemler.js` 61.296.467 B 11 sn · toplam 78 sn · disk 231 MB.
+🔴 **VE YUKARIDAKİ "93.694.456 bayt" SAYISI YANLIŞ KOPYANINDI** — yayın
+damgasının çözümü **172,69 MB**. Yani o satır doğru dersi yanlış sayıyla
+anlatıyordu; ders duruyor, sayı düzeltildi.
+⚠️ Çözülen kaynaklar **sitede YÜKLENMİYOR** (yükleyiciler `geo_coz.js:195` ·
+`index.html:1768` · `:1813-1814`) — çözme bir ÖLÇÜM hazırlığıdır, yayın değil.
+Elle yapılacaksa iki komut da ŞART:
 ```bash
 git worktree add <yol> origin/main --detach
 cd <yol> && py arac/kodla.py coz-c data data/devletler_harita.js
@@ -1125,7 +1140,27 @@ tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/
   çağıranı olmayan kapı  → kapı VAR, hiç ÇAĞRILMIYOR
   denetim ≠ soruyu sorar → kapı KOŞUYOR, o soruyu SORMUYOR
   yorum ≠ kontrol        → kapı HİÇ YOK, ama VARMIŞ GİBİ YAZILI
+  KAYDI PAYLAŞILMAYAN    → kapı VAR ve ÇALIŞIYOR — ama TEK MAKİNEDE
 ```
+  🆕 🔴 **DÖRDÜNCÜ ÜYE, ve bu dosyanın kendi nöbetçisi** (10 Ekim 2026;
+  UMIT kendi makinesinde ölçtü, koordinatör EMRELIC'te doğruladı):
+```
+  arac/kabuk_nobetci.py     TAKİPLİ — KOD paylaşılıyor
+  .claude/settings.json     `.gitignore:3` ⇒ origin/main'de YOK
+                            EMRELIC: hooks PreToolUse → kabuk_nobetci ✅
+                            UMIT   : settings YOK, hiçbir kanca KAYITLI DEĞİL
+```
+  ⇒ `§11`in kaçış nöbetçisi **yalnız koordinatörde bir KAPI**, öteki dört
+  makinede bir **YORUM.** Ölçülen kanıt: bu gece EMRELIC'te backtick ve
+  heredoc denemelerim REDDEDİLDİ, UMIT'te Türkçe karakterli heredoc'lar
+  **geçti.** Ve `kural_olc.py:211/220` o kapıyı *"KAPI (bugün)"* diye
+  sayıyor — yani **kural ölçer kendi kapısını ölçmüyor.**
+  📌 Ayırt edici soru bu yüzden ÜÇ değil **DÖRT**: ① soruyu soruyor mu
+  ② çıkış kodunu KİM okuyor ③ hiç çağrılıyor mu **④ KAYDI HER MAKİNEDE
+  VAR MI** — yoksa bir makinedeki *"geçti"*, ötekilerde ölçülmemiş demektir.
+  ⚠️ Kaydın paylaşılması bir **YAPILANDIRMA** kararıdır (kanca/izin alanı)
+  ⇒ hüküm Emre'nin; hiçbir oturum başka bir makinenin `settings`ine
+  dokunmaz.
   ⇒ **Bir yorumun iddia ettiği değişmez, KODDA ARANMADAN doğru sayılmaz** — ve
   yorum, yokluktan **daha kötüdür:** yokluk soru sordurur, yorum **soruyu
   KAPATIR.** (Koordinatör tam buna güvendi: bir defter anahtarını `ad`ın tekil
