@@ -269,9 +269,44 @@ hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
   ilânı); arada **2,5 ay** ve bu İKİ AYRI OLAY. Zinciri dikişsiz yapmak bir
   düzeltme değil **bir varsayımdır** — *"bir devlet düştüğü an ardılı başladı"*
   diye bir kural yok.
-  ⚠️ Kapsam sınırı ADIYLA: notunda hicrî TAŞIMAYAN 789 künyenin TDV gövdeleri
-  çekilmedi ⇒ gerçek sayı **70'ten BÜYÜK** (`sasani` t ve `hulefa-yi-rasidin` f
-  bu evrene hiç girmiyor, hicrî tarihleri başka TDV maddesinden geliyor).
+  🔴 **SÖZLEŞMENİN İKİ ŞARTI — bunlar olmadan formül YENİ HATA ÜRETİR**
+  (KASA ölçtü, `KASA-HICRI-SINIR-1010`; ikisi de birer vakayla doğdu):
+  **(i) "gün yoksa" koşulu KÜNYE BAŞINA sınanır, MADDE başına DEĞİL.** Bir
+  maddede gün yoksa künyenin ilgili ÖTEKİ maddelerine BAKILIR. Vaka: `memluk`
+  f için bir maddede gün yoktu, formül uygulandı ve `1250-04-05` önerildi —
+  oysa gün İKİ ayrı maddede birebir vardı (`memlukler` *"1 Rebîülâhir 648 /
+  3 Temmuz 1250"* · `eyyubiler` *"3 Temmuz 1250 … resmen başlamış oldu"*).
+  **(ii) Formül uygulandıktan SONRA öncül/ardıl ucuyla ÇAKIŞMA KONTROLÜ
+  ZORUNLUDUR.** Çakışma varsa formülün çıktısı **REDDEDİLİR** ve gün aranır.
+  Vaka: o `1250-04-05`, `eyyubi` t'den (`1250-04-30`, kaynakta GÜN var) **25
+  gün ÖNCEYE** düşüyordu. ⇒ (ii) olmadan sözleşme **bir hatayı ötekiyle
+  değiştiriyor**: yanlış bir `-01-01`i, bir ÇAKIŞMAYLA.
+  📌 Doğru değer `1250-07-03`; `eyyubi` t ile arası **64 gün**, iki uç da
+  kaynaklı ve İKİ AYRI OLAY (Turanşah'ın öldürülmesi ↔ Aybek'in tahta çıkışı)
+  ⇒ `__BOSLUK__` (N). *Boşluk zorla kapatılmaz* kuralının ikinci vakası.
+  ⚠️ Ve **±1 YIL ÇELİŞKİLERİ GENELLİKLE ÇELİŞKİ DEĞİL:** dört vakada
+  (`muvahhidler` 667↔668 · `ziyadi` 202↔203 · `hamdani-yemen` 491↔492 ve
+  569↔570) kaynağın mîlâdî yılı **iki hicrî yılın SINIRINI içeriyor** —
+  mekanizma bu (sınır günleri 1269-08-31 · 0818-07-09 · 1098-11-28 ·
+  1174-08-02). ⇒ Çelişki ilan etmeden **önce** sınır kontrolü yapılır.
+  🔴 Ve iki ayrı madde çeliştiğinde **DAHA DAR KAPSAMLI madde esastır**
+  (hânedanın kendi maddesi, ülke maddesi değil) — ama **bir madde KENDİYLE**
+  çelişiyorsa bu kural İŞLEMEZ, cevap `ÖLÇÜLEMEDİ`dir ve mevcut değer korunur
+  (`muvahhidler` t: 667 ↔ 668 ↔ Merînî 666).
+
+  ⚠️ **70 BİR TABANDIR, TAVAN DEĞİL — ve İKİ sebeple:**
+```
+  ① notunda hicrî TAŞIMAYAN 789 künyenin TDV gövdeleri çekilmedi
+     (`sasani` t ve `hulefa-yi-rasidin` f bu evrene HİÇ girmiyor; hicrî
+     tarihleri başka TDV maddesinden geliyor — "çapraz madde" sınıfı)
+  ② 1. turun 75 `İÇİNDE`si DOĞRULANMADI: eşleştirici "biri içeriyorsa
+     İÇİNDE" diyordu ve içeren ifade KOMŞU HÂNEDANIN maddesinden
+     olabiliyor. Ölçülen vaka: `hamdani-yemen` f 1. turda İÇİNDE sayıldı,
+     yeniden bakılınca DIŞINDA çıktı (⇒ 1098-11-28).
+```
+  ⇒ Bir sayının TABAN olduğunu bilmek, bilmemekten iyidir; **hangi sebeplerle
+  taban olduğunu bilmek daha iyidir.** Ve: **bilinen bir deliği kapatmak, yeni
+  bir ölçümden ÖNCE gelir** — deliği olan ölçüm ZATEN KULLANILIYOR.
   📌 Niçin bu kadar geniş: `§4` TDV'yi İslâm dünyası ve Osmanlı için birincil
   yapar — yani atlasın **çekirdeğinin** kaynakları hicrî tarihler. Bu tuzak
   istisna değil, **varsayılan hâl.**
