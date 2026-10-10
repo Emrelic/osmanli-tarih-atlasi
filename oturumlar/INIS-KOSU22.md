@@ -158,7 +158,7 @@ değişir, önbellek bir kez ıskalar (`§9.1 ②`).
 ① MÖ BLOĞU   origin/makine/emrelic-nokta 7100bd5f · …-kunye-2 cd5828f8
    NOKTA-SUMER-1010.diff              12 nokta (ANA)
    NOKTA-SUMER-1010-B10.diff           9 nokta — 🔴 KESİŞİM ÖLÇÜLECEK
-   KUNYE-SUMER-7-1010-v2.diff          7 künye zarfı
+   KUNYE-SUMER-7-1010-v2.diff   🔴 BU DA ÇIKTI — v3 BEKLİYOR (aşağıda ⓔ)
    NEGATIF-YIL-1010-A.diff             js/suzgec.js
    NEGATIF-YIL-1010-B-v2.diff          🔴 uret_petek.py + girdi.py ⇒ TUZDA
 ② BOYA PARTİSİ  (renkler.py ⇒ TUZDA) — origin/makine/umit c6daf618
@@ -234,6 +234,44 @@ düşüyor · `denetle_anakronizm:316` 14 gün kayma · `app.js:15186` *"50"→1
 bugün tetiklenmiyor (MÖ veri 0) ve 57'si NEG-B-v2 inince kapanıyor.
 🟢 `rotus.js` MÖ'yü **YÜKSEK SESLE** reddediyor (ÇÖKER) — bu bir kusur
 değil, **sessiz yanlışın yeğlenen alternatifi.**
+
+### 8.1c 🔴 ⓔ KÜNYE DE ÇIKTI — "ETKİSİZ" GEÇERLİ DEMEK DEĞİLDİ
+Sabah `KUNYE-SUMER-7-v2`yi *"etkisiz olduğu ölçüldü, delik açmıyor"* diye
+partide BIRAKTIM. Ölçüm (`NEGATIF-YIL-A2`) bir **`§8` ihlali** gösterdi:
+```
+makedon.f  -0330-10-18
+ahameni.t  -0330-10-22     ⇒ 4 GÜNLÜK ÖRTÜŞME
+```
+`§8`: *"Dönemler çakışmamalı, ters olmamalı, sıfır uzunlukta olmamalı."*
+⇒ **Hükmümün kusuru:** DELİK aradım, **ÇAKIŞMAYI SORMADIM.** *"Etkisiz"*
+bir yama, *"geçerli"* bir yama değildir — iki ayrı soru.
+⇒ `KUNYE-SUMER-7-1010-v3.diff` bekler: hangi uç kaynaklı (kaynak cümlesiyle),
+örtüşme kaldırılır, **boşluk zorla kapatılmaz** (`§4`).
+
+### 8.1d 🔴 VE MÖ'NÜN GERÇEK ÖN KOŞULU MOTOR YAMASI DEĞİL: `s:` DÖNEMLERİ
+Ölçüldü (`NEGATIF-YIL-A2` ②): **`NOKTA-SUMER` noktalarının HEPSİ `s:[] d:[]`**
+— sahiplik dönemi YOK (K2, K2-B ve B10'da da). ⇒
+```
+MOTOR-GECISLI ölü peteklerin toprağını DEVREDİYOR — ama devredilecek
+   bir SAHİP yok ⇒ yama bu noktalar için TEK BAŞINA ÇARE DEĞİL
+KUNYE-SUMER'in 16 MÖ maddesinin HEPSİ ODAKSIZ (sahipli nokta yok)
+sentetik kanıt: 11 noktaya ahameni penceresi eklenince -0400-06-15'te
+   eski "" → yeni `s:ahameni`, sınırlar DOĞRU  ⇒ A2 + `s:` = ÇALIŞAN harita
+```
+📌 Ve bu sabah YENİ MÖ bölgeleri için şartnameye yazdığım kural tam bu:
+*"🔴 HİÇBİR NOKTAYI `s:`SİZ YAZMA."* Sümer paketi o kuraldan ÖNCE yazılmış
+⇒ kural doğruydu, paket ona uymuyor.
+🔴 **MÖ'NÜN DÖRTLÜ ÖN KOŞULU** (hepsi bir sonraki tam inşaya):
+```
+① NEGATIF-YIL-A2      suzgec.js — FAZ 1'de İNİYOR ✅
+② KUNYE-SUMER-7-v3    4 günlük örtüşme kalkar
+③ SUMER-SAHIP-1010    21 noktaya KAYNAKLI `s:` · bilinmeyen `bos:`/`bit:`
+④ MOTOR-GECISLI       `bit:`li noktaların peteği GEÇİŞLİ devrolur
+```
+⚠️ ③'te **künye penceresinden TÜRETİLEN sahiplik bir KAYNAK DEĞİLDİR**
+(`§4`: atlas kendi dayanağı olamaz) — ve ölçüldü ki **gövdesi tanıksız uzun
+dilim %62 yanlış.** Türetilen dilim ya KASA'nın kaynağıyla teyit edilir ya
+`bos:`/`bit:` olur.
 
 ### 8.2 İNİŞ SIRASI — bağlayıcı
 ```
