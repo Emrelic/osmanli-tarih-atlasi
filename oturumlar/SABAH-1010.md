@@ -370,6 +370,54 @@ hâlâ soruyordu; bu bir bayatlıktı ve düzeltildi. Cevapların ve ne yaptığ
      vaka 2: Mersin/Batna/Aynı Beydâ/Berc Bû Areric — aynı kalıp, sırada
 ```
 
+## 🔴 10:47 — KOŞU ÖLDÜ, VE SENDEN TEK BİR ŞEY RİCA EDİYORUM
+
+HAVVA 10:47'de **yeniden başlatıldı** ve koşu öldü. Ölçüm (HAVVA yaptı,
+tahmin değil):
+```
+System olayı 1074 · 10:47:21
+  "StartMenuExperienceHost.exe … HAVVA\user … yeniden başlat …
+   Diğer (Planlanmamış)"
+⇒ Başlat menüsünden ELLE. Çökme DEĞİL · Windows Update DEĞİL
+KAYIP : 3 saat 50 dakika. Gövde aşamasının bitişine ~10-15 dakika kalmıştı.
+```
+⚠️ **Seni suçlamıyorum ve bir açıklama da istemiyorum** — makine senin,
+yeniden başlatmak en normal şey. Sorun **sistemin bunu kaldıramaması**, ve
+o benim kusurum: `kosu_ayrik_baslat.ps1` kendi notunda *"ayrık düzen
+reboot'u kurtarmıyor"* diye yazıyor, yani kırılganlık BİLİNİYORDU ve
+kimse önüne bir şey koymamıştı.
+
+🔴 **RİCAM TEK CÜMLE:** *HAVVA'da koşu sürerken o makineyi yeniden
+başlatma.* Koşu 7-8 saat sürüyor ve hiçbir noktada durup kaldığı yerden
+devam edemiyor.
+📌 Niçin sana yazıyorum, koda değil: bu bir yazılım kapısıyla
+önlenemiyordu. Çaresi motorun içinde (aşama damgası + devam) ve motora
+dokunmak **tuzu** değiştirip 7-8 saatlik tam inşayı zorunlu kılıyor ⇒
+koşu sürerken yapılamaz. İniş sonrası kalemi; **o inene kadar tek kapı
+bu cümle.**
+⚠️ Ve bir ölçüm şerhi: reboot'un ELLE olduğu kesin, **NİÇİN olduğu
+ölçülmedi.** HAVVA *"demek ki Emre makineyi istiyor, karar ona ait"*
+diye okudu; ben o çıkarımı kabul etmedim ve koşuyu yeniden başlattırdım
+(KOŞU 22c). **Makineyi kullanacaksan söyle, hemen durdururum** — koşu
+iki çekirdeği tam yükte tutuyor.
+
+### Bu olayın İNİŞE etkisi — ve bir şey KAZANDIK
+İniş ~15:30-16:30 tahmini **öldü**; yeni bitiş saatini ölçmedim ve tahmin
+de etmiyorum. Ama bu beni bir alışkanlığı sorgulamaya zorladı ve
+**kalıcı bir iyileşme çıktı:**
+```
+🔴 İNİŞ ARTIK KOŞUYA BAĞLI DEĞİL
+   A GRUBU : koşuyu BEKLEMEZ — veri düzeltmeleri · künyeler · belgeler ·
+             diffler. Gecenin işinin EZİCİ ÇOĞUNLUĞU burada.
+   B GRUBU : koşuyu bekler — motor kodu yamaları · koşu sonrası ölçülecek
+             iki tavan · üretilmiş haritayı okuyan ölçümler
+```
+📌 *Bir inişin bir koşuya bağlı olması bir GEREKLİLİK değil, bir
+ALIŞKANLIKTI.* Kalemlerin çoğu motor çıktısına hiç dokunmuyor. ⇒ Bundan
+sonra bir koşu ölse bile gecenin işi inebilir. (Hangi kalemin hangi grupta
+olduğunu LAB ölçüyor — ben "çoğu A'dadır" diye GEREKÇELENDİRDİM ama
+SAYMADIM, o yüzden saydırıyorum.)
+
 ## Senden istediğim: iki İŞ, ÜÇ KARAR (biri YENİ, biri KÜÇÜLDÜ, biri DÜŞTÜ)
 
 **İŞ** — karar değil, yalnız senin yapabileceğin:
