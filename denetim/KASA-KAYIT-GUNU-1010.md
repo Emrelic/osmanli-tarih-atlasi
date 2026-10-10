@@ -79,3 +79,34 @@ tam denetle tabanla AYNI %80               ✓
 ```
 **Öngörülmeyen:** K3 — 本紀 olay gününü yazmış (kayma 0). Öngörüye "imkânsıza yakın" diye yazdığım yön değil, ama
 "her (kayıt) ucu kayar" varsayımını yanlışladı.
+
+## 3. Hüküm sonrası (koordinatör: KAYIT-GUNU ONAY · K4/K2/K6 notları Ji'an diff'ine KATLA · K7 şartlı)
+### 3.1 K7 Xinyang — kol ölçümü
+Mevcut `qing f:1645-09-08`'in tanığı (kaydın kendi `kaynak:`ı, KENDİM okudum): *"清史稿 卷4 順治二年七月(庚戌朔):
+'戊辰，西平賊首劉洪起伏誅，汝寧州縣悉平' → 1645-09-08 (Xinyang Ming'de 汝寧府'a bağlıydı)"*.
+- **Şehir adı YOK** (汝寧 府 düzeyi, "州縣悉平"), olay **BAŞKA** (劉洪起'nun 西平'da idamı) ⇒ D208 anlamında Xinyang'ın
+  tanığı değil. Bir **ÜST SINIR** (09-08'de Runing'in bütün ilçeleri Qing'deydi).
+- Tanığın sınıfı: 清史稿 kendisi de bir 20. yy derlemesi (1914-1927). 南明史稿 ile aynı sınıf. Ama asıl ayrım: şehir
+  adlı DEĞİL.
+- 06-21 bu üst sınırla **çelişmiyor** (sınırın içinde).
+- ⇒ **Kol (b)** uygulandı: mevcut 09-08'in şehir adlı tanığı yoktu, kaynaksız bir uca kaynaklı ve şerhli gün geçer.
+  - Eski dayanak SİLİNMEDİ, "ÜST SINIR olarak geçerli" diye yanında duruyor.
+  - ⚠️ Kol (a) okuması mümkündü ("tanık VAR"); şehir adlı olmadığı için (b)'yi seçtim. Ters hükmün varsa diff'ten tek
+    blok çıkar.
+- **`kesinlik` YAZILMADI:** ölçülen hassasiyet GÜN (己酉 = 廿八), ve iki uç da gün ⇒ VERI-YAPISI kural ① (skaler varsayılan
+  gün, gereksiz yapı yazılmaz). Zayıflık hassasiyet değil kaynak gücü ⇒ `kaynak:` şerhinde ("`kesinlik` ne kadar kesin
+  der, biliyor muyuz demez").
+- `not:` "1644-04-25 → 1645-09-08 BOŞ" maddesinin ucu güncellendi, eski uç parantezde.
+  - Yan bilgi: 南明史稿'nın "知州萬以忠死之"si (Ming valisi şehirde öldü) BOŞ dönemin sonunda şehrin Güney Ming
+    elinde olduğunu ima eder. Ama tek tanık ⇒ boşluk DOLDURULMADI, yalnız not.
+### 3.2 Katlanmış diff — `KASA-JIAN-TAIPING-1010.diff` v2 (tek dosya, tek commit; 10+/10−)
+v1 (Ji'an Taiping 1856-03-02 → 1858-09-22 + 1861 notu) + **K4** Ji'an 1676 ÜST SINIR notu (實錄 甲戌 '圍吉安' · 乙亥
+'吉安被陷') + **K6** Chenzhou ÜST SINIR + YIL notu (古今圖書集成 '順治四年入版圖') + **K7** Xinyang `__BOSLUK__ t` /
+`qing f` 1645-09-08 → **1645-06-21** (şerhli).
+- K2 notu zaten onaylı KAYIT-GUNU diff'inde (Hengyang satırı); orada kaldı.
+- **Sınav:**
+  - temiz worktree'de `git apply` ✓; `girdi` Xinyang `__BOSLUK__ → 1645-06-21 · qing 1645-06-21 →` ve Ji'an
+    1856-03-02 dilimlerini okuyor; çıplak LF 0;
+  - **KAYIT-GUNU diff'iyle birlikte uygulanabilir** (`git apply --check` ✓);
+  - tam `denetle.py` tabanla **satır satır AYNI**;
+  - `paketle.py yenile` (paket_23).

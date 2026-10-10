@@ -94,3 +94,6 @@ Fetih yılları: Dubica 1538 %70                   ✓
 ```
 **Öngörülmeyen:** "ARAŞTIRILMADI" ilanının bayat olması. Öngörüyü "araştırma gerekecek" diye kurdum; araştırma çoktan
 yapılmıştı. Kuyruğa "pahalı, belirsiz" diye giren iş, ucuz ve kesin çıktı.
+
+### 1.4 v2 (KASA-BAYAT-OZILAN-1010 ile katlandı)
+Brod ve Jasenovaç s[0]/s[1] "(atlas 1538 — çelişki raporda)" ibarelerinin (4 yer) yanına "⇒ GÜNCEL DEĞİL: veri artık 1536" eklendi — aynı dosya, aynı iniş ⇒ tek diff. Veri değişikliği v1 ile aynı (Novi 1557). Tam denetle tabanla AYNI.
