@@ -815,6 +815,41 @@ py arac/uret_petek.py     # harita üretimi — 🔴 ~40 dk DEĞİL: TAM İNŞA 
                           #   En büyükler: yabancı gövdeler 2s38dk · dönemler 2s11dk ·
                           #   ufuk bantları 57dk · çöl tavanı 30dk. Tuz değişirse
                           #   önbellek tamamen ıskalar ⇒ üst sınır. Koşucu HAVVA (§7).
+```
+🆕 🔴 **KOŞU BAYRAKLARI — ZORUNLU, VE BUNLAR OLMADAN KOŞU "BİTER" AMA EKSİKTİR**
+(10 Ekim 2026, pahalı öğrenildi):
+```
+MOTOR_YURUYUS=1          MOTOR_YURUYUS_SAAT=40
+MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56
+MOTOR_SUREC_ISCI=2
+```
+⚠️ **Motorun VARSAYILANLARI bunları KAPATIR:** `uret_petek.py:1162` `MOTOR_YURUYUS`
+yalnız `"1"` ise açık · `:1892` `COL_UFUK_SAAT` varsayılan `"0"` · `:2159`
+`UFUK_BANT` varsayılan BOŞ. Ve `kos_ve_yayinla.py` zinciri yalnız
+`MOTOR_ONBELLEK_DIZIN` + `MOTOR_SUREC_ISCI` koyuyor ⇒ **zincire güvenmek
+bayrakları KAYBETTİRİR.**
+🔴 **ÖLÇÜLEN VAKA — KOŞU 22:** bayraksız koştu, `uret_petek` çıkış **0** verdi,
+5s45dk'da "bitti" ve **ÜÇ YÜRÜYÜŞ AŞAMASI + Ⓑ UFUK BANTLARI AŞAMASI YOK**
+(`data/ufuk_bantlari.js` üretilmedi; `ufuk_bant_parcalar.js` KOŞU 21'in **1923**
+ufkunda kaldı). Yayınlansa harita **GERİLERDİ.**
+⇒ **ÇIKIŞ 0, "iş yapıldı" DEMEK DEĞİL.** Ve kısa süre bir hız kazancı değil
+**YAPILMAYAN İŞ** işaretidir (`D270` ailesi): 5s45dk ↔ KOŞU 21'in 7s14dk'sı.
+🔴 **KURAL:** koşucu bayrakları **başlamadan önce loga BASAR** ve koordinatöre
+teyit eder. Ve koşu bitince **AŞAMA BİLANÇOSU** KOŞU 21'in aşama listesiyle
+KARŞILAŞTIRILIR — eksik aşama varsa çıktı **YAYINA ADAY DEĞİLDİR.**
+📌 Niçin bu satır burada: bu beş bayrak **hiçbir belgede yazılı değildi**,
+yalnız `14174ef7`in (KOŞU 21) commit mesajında duruyordu.
+> **Bir koşunun ayarları commit mesajında yaşıyorsa, o ayarlar KAYITLI DEĞİLDİR
+> — bir sonraki koşucu onları ARAMAK zorundadır, ve aramadığında kimse fark
+> etmez.**
+⚠️ Ve `§9`un *"bayat çıktı yine de yayınlanır"* kuralı **BAYATLIĞI** affeder,
+**GERİLEMEYİ** affetmez. İkisi ayrı şeydir.
+⚠️ Zincir `kodla.py yay` · `coz-c` · `paketle.py yenile` adımlarını
+**KOŞTURMUYOR** (KOŞU 21 bunları ELLE koşmuştu) ⇒ atlanırsa `denetle` D8'de
+*"GÖVDE UYUŞMUYOR"* ile **çıkış 2** verir. Elle sıralama:
+`kodla.py yay` → `coz-c` → `denetle` → `renk_olc` → `paketle.py yenile` →
+`surum_damgala` → `denetle_yayin`.
+```
 py arac/uret_devirler.py  # devirler.js — uret_petek'ten SONRA koşar
 py arac/renk_olc.py       # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
 py arac/denetle.py        # altı değişmez
