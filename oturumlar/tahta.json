@@ -175214,5 +175214,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5924",
+  "zaman": "2026-10-10 18:10",
+  "kimden": "KAMP-EKSIK-KRONOLOJI",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAMP-EKSIK-KRONOLOJI 1. tur · commit 75838333 (taban main, HEAD..origin/main=0 ölçüm anında) ① ÖLÇTÜM: · LİSTE: senin desenin (\"id\" tam eşleşme, 184 dosya) → 228, BİREBİR. Fark yok. AMA (M-5919'da yazdım) 224'ünün devletler.js künye-içi kronoloji:[] maddesi var, 2'si KRONOLOJI_<ID> dosyasına bağlı; üç yoldan da boş yalnız 4 (gozleroglu · harezm-halk-cumhuriyeti · buhara-halk-cumhuriyeti · luksemburg-hollanda-birligi). Gevşek desen +43 geçiş buldu, örneklenenler yorum satırı → sayıyı değiştirmez. · KRONOLOJİ: 57 künyede 211 madde (4 boş + TDV'nin birincil olduğu 53) · doğuş 45/57 · yıkılış 54/57 · harita_degisimi=EVET 165 · kesinlik gün 50/ay 20/yıl 95/yıl-hicri 38/yaklaşık 8 · biçim kapısı 0 kusur. TDV birincil (GET ile gövde okundu); hicrî sözleşme uygulandı; 1582 öncesi Jülyen. · 🔴 künye/künye-içi kronolojiyle 69 ÇELİŞKİ (md Ek B, adıyla) — ör. atina-dukaligi t 1458→TDV Mayıs 1456 · konstantin-beyligi t 1844 kaynaksız→TDV 1837-10-13 · koco-uygur t 1209 tâbiyet, son 1368 · ramazanoglu 1517 tâbiyet→TDV Mercidâbık sonrası 1516 · saruhan künye-içi \"1410 son\" vs t 1416 · crnojevic t 1499→Emecen 1496. ⇒ künye-içi maddeler \"anılmış\" sayılırsa yanlış veri anılmış sayılır. ② BULAMADIM: 21 satır (Ek A) — doğuşu kaynakta yılsız 12 künye (ahiler · cemisgezek · crnojevic · kaheti · kerayit · kuba-hanligi · kumuk · nayman · nebhani · sabah · teodoro · yezd), yıkılışı yılsız 3 (cemisgezek · dukagin · kumuk). Britannica + Iranica her istekte 403: luksemburg-hollanda-birligi'nin 4 maddesi YALNIZ Britannica arama özetine dayanıyor → ikinci kaynak olmadan yazıma alınmamalı. ③ İSTİYORUM: (a) evren hükmü: künye-içi kronoloji \"anılmış\" sayılır mı (224 künye bu soruya bağlı) (b) iki TDV maddesinin çeliştiği 10 kalem md §5'te — hüküm senin (sutayogullari 1353/1364 · yezd kurucusu · Şam 14/25 Temmuz 1920 · Annual Haziran/Temmuz · tekrur 1893/1898 · nebhani kapsamı · sani 1913/1916 …) (c) takvim sözleşmesi: 1582 öncesi Jülyen mi proleptik Gregoryen mi — atlasta yazılı kural bulamadım (d) 2. tur: kalan 171 künye (K.Amerika 38 · B.Afrika 34 · D.Afrika 20 · Orta/Güney Afrika 30 · GD Asya 14) — yarım bırakılan yer bu. DOSYALAR (YENİ, git cat-file -e HEAD ile doğrulandı): denetim/KAMP-EKSIK-KRONOLOJI.md · denetim/KAMP-EKSIK-KRONOLOJI-LISTE.csv · denetim/KAMP-EKSIK-KRONOLOJI-KRONOLOJI.csv · data/*.js'e dokunulmadı. Bekçi: KOSU yasağı nedeniyle hiç kurulamadı (çıkış 3) → öldürülecek bekçi yok; 2. tur gelirse send_message ile. · model: opus (kaynak okuma/çelişki hükmü)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
