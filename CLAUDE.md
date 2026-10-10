@@ -455,6 +455,34 @@ Ve ölçüm raporuna **taban commit + boyut + sha256** yazılır; yazılmayan pa
 📌 Bu, `§7`in "ÜRETİLMİŞ — ELLE DÜZENLEME" uyarısının eksik yarısı: o satır
 üretilmiş dosyaya **yazmayı** yasaklıyordu, **okumayı** düzenlemiyordu.
 
+🆕 🔴 **VE ÜÇÜNCÜ YÜZ — LOG: BAŞKA MAKİNENİN KOŞUSU, BU MAKİNEDE BAYAT BİR
+DOSYA OLARAK DURUR** (10 Ekim 2026, koordinatörün kendi hatası). Koşucu
+HAVVA'dır (`§7`), ama `uretim_canli.log` adı HER makinede vardır:
+```
+EMRELIC  C:\atlas\uretim_canli.log   507.121 bayt, 4 EKİM 19:17  ← ALTI GÜN BAYAT
+         içinde GERÇEK bir AŞAMA BİLANÇOSU var (yabancı gövdeler 2s10dk,
+         dönemler 1s37dk) ⇒ "koşu bitti, 4 saat sürdü" diye OKUNUYOR
+GERÇEK   KOŞU 22b HAVVA'da, 06:53:49'da başladı, 30 dakikadır koşuyor
+```
+⇒ **Kusur "dosya yok" değil yine: dosya VARDI, İÇİ TUTARLIYDI ve YANLIŞTI.**
+🔴 Ve bu yüz ötekilerden daha sinsi, çünkü **anomali YOK:** 93 MB'lık vaka
+BOYUTUYLA ele veriyordu, bayat log hiçbir şeyle ele vermiyor — tek belirti
+**mtime**, ve kimse loga mtime için bakmaz. Koşu durumu bir sabah belgesine
+yazılacaksa, kaynağı **koşucunun ÖLÇÜMÜ**dür; kendi diskimdeki aynı adlı
+dosya değil.
+```bash
+ls -la --time-style=full-iso uretim_canli.log   # ÖNCE BU. Bugün değilse DUR.
+```
+🔴 **VE BU BAYATLIK KAZA DEĞİL, YAPISALDIR:** `§7` koşuların **ayrı
+worktree'de** koşmasını emreder ⇒ canlı log HER ZAMAN başka bir dizindedir
+(ölçülen: `C:\atlas-kosu22\uretim_canli.log`, HAVVA). Yani ana checkout'un
+`uretim_canli.log`u **tanım gereği** o koşunun logu DEĞİLDİR — bugün bayat
+olması bir arıza değil, beklenen hâldir. ⇒ Koşu logu **dizin adıyla** anılır,
+`uretim_canli.log` diye anılmaz.
+📌 `§1`in "AĞACIN GERİDEYSE DUR" kuralının log yüzü: orada ölçüm **başka
+bir atlasın**, burada **başka bir koşunun**. İkisinde de hiçbir kapı
+yakalamaz.
+
 ## 6. Kapsam genişlemesinin sırası
 Dizin katmanı → yerleşim yoğunluğu → harita penceresi. **Nokta yoğunluğu sağlanmadan pencere
 açılmaz** (kenar petekleri dünyaya yayılır). [`D220`](dersler/D220-kapsam-genisleme-sirasi.md)
