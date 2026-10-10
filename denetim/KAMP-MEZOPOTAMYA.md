@@ -221,3 +221,47 @@ Kaynak raporları: `KAMP-MEZOPOTAMYA-CAPA-ELAM.md` (Vallat gövdesi + birincil m
 - RIMA 3 (Šamši-Adad V) boş;
 - CDLI Hammurabi yıl adları boş;
 - Englund OBO 160/1.
+
+## 11. ⓑ KRONOLOJİ DERİNLEŞTİRME — hedef 80+ ATTESTED ① harita değişimi
+Üç okuyucu, üç çağ:
+- A: Ur III ve Akkad yıl adları (CDLI wiki);
+- B: Eski Babil yıl adları (CDLI wiki + Wayback cdli.ucla T12K);
+- C: Babil Kronikleri ABC 1–22 + Limmu listesi 858–699 (livius.org Grayson/Glassner aktarımı).
+Kanıt dosyaları: `KAMP-MEZOPOTAMYA-OLAY-A.md`, `-OLAY-B.md`, `-OLAY-C.md`. Birleştirme betiği `KAMP-MEZOPOTAMYA-olay_birlestir.py`.
+
+### Yeni ayrım: OLAY ≠ HARİTA DEĞİŞİMİ ("SÜRE ≠ OLAY"ın kardeşi)
+Yılı sabit bir olay (①) harita değişimi olmak zorunda değil.
+- **"ba-hul / mu-hul / sur yıktı"** (yıkım, cezalandırma seferi) **AKIN** kovasına girdi; HEDEFE SAYILMADI.
+  Örnek: Simurrum yıl adlarında DOKUZ kez yıkılıyor (Š44 "a-ra2 1(u) la2 1-kam") ⇒ yıkım kontrol değişimi değil.
+- **"seized / captured / annexed / conquered / tahta çıktı / haraç verdi / ayaklandı"** **EVET** sayıldı.
+
+### Tarih konvansiyonu (yıl adları, A+B)
+- Yıl adı ÖNCEKİ yılın olayını anar ⇒ TARİH = yıl adının yılı − 1, metinde "±1 yıl" beyanlı.
+- Mevcut 1763 Larsa kaydıyla (H31 yıl adı ⇒ olay 1763) aynı konvansiyon.
+- C kroniklerde regnal yıl/eponim olay yılıdır ⇒ kaydırma yok.
+- C'de ay/gün var ama Jülyen dönüşümü kaynakta yok ⇒ kesinlik `yil`.
+
+### Sayım (kendi tabanımda; KRONOLOJİ 83 → 177 KAYIT)
+| okuyucu | ① gelen | EVET | AKIN | HAYIR | eklenmedi |
+|---|---|---|---|---|---|
+| A (2350–2004) | 25 KAYIT | **0** | 23 | 2 (IS9 yalnız sefer; IS17 boyun eğiş) | 0 |
+| B (2004–1595) | 36 KAYIT | **16** | 15 | 0 | 5 (Zimri-Lim 4: ZL1'=1774 mutlak eşlemesi KAYNAKSIZ açılmadı · RS30 Isin = mevcut 1794 kaydı, mükerrer) |
+| C (1595–539) | 38 KAYIT | **36** | 1 (707 Dur-Yakin yıkımı; 709'da alınmıştı) | 1 (680 Asur içi vali değişimi) | 0 |
+| **toplam** | 99 KAYIT | **52** | 39 | 3 | 5 |
+
+harita_degisimi:
+- **EVET 34 → 86 KAYIT (+52)**. Bunun **75 KAYIT**'ı Mezopotamya içi, **11 KAYIT**'ı Mezopotamya dışı (yeni `kapsam` kolonu):
+  - Arpad, Kullania, Kummuhu;
+  - Arza, Sidon, Bazza, Šubria;
+  - Memfis, Aşkelon, Kudüs, Pirindu.
+- SINIR 33 (ayrı kova, sayılmadı) · AKIN 39 (ayrı kova, sayılmadı) · HAYIR 15 · "—" 4.
+- **Hedef 80+: tüm kapsamda TUTTU (86); yalnız Mezopotamya içinde TUTMADI (75).** Hangisi sayılır, koordinatör hükmü.
+- Çakışma denetimi: aynı yıl + aynı yer + mevcut EVET = 0 VAKA.
+
+### Bilinen zayıflıklar (adıyla)
+- **Çağ dengesizliği:** 3. binyılda kontrol değişimi yazan yıl adı neredeyse yok. A'nın EVET'i 0; Ur III fetihleri yıl adlarında hep "yıktı".
+- **C'nin metni livius.org aktarımı** (Grayson ABC / Glassner). Birincil yayın sayfası açılmadı.
+- **Arpad:** eponim 741 der, literatür 740 der. 741 yazıldı, fark beyanlı.
+- **Babil 732–627:** ayrı polity id'si yok; `polity` = eylemi yapan taraf. -651 Kutha `yeni-babil` yer tutucu (Šamaš-šuma-ukin Babil'i).
+- **911–746 palû yıllıkları alınamadı:** RIAo sayfaları betikle yükleniyor. Til-Barsip 856, Laqe/Suhu seferleri bu yüzden eksik ve sıradaki en büyük havuz.
+- **② kovası:** A 7, B 10, C 16 KAYIT; dosyalarda listeli, CSV'ye girmedi. Örnekler: Tukulti-Ninurta I'in Babil'i alışı, Tiglat-pileser I, Halule, 648 Babil'in düşüşü.
