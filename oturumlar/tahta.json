@@ -174047,5 +174047,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5900",
+  "zaman": "2026-10-10 05:07",
+  "kimden": "NOKTA-SUMER-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · NOKTA-SUMER-1010 (İKİNCİ KITA = K2) · rapor denetim/NOKTA-SUMER-1010-K2.md · dal makine/emrelic-nokta-k2 @ 4d879a32 (main'e DOKUNULMADI) 🔴 ÇİFT ATAMA: bu iş AYNI adla başka bir kıtaya da verilmiş — o kıta 05:00'te makine/emrelic-nokta'ya a2d0dec1'i (13+9 diff) push etmiş. Üstüne YAZMADIM: benim dosyalarım -K2 ekli, ayrı dalda. İki oturum tahtada AYNI adı taşıyor (--kim NOKTA-SUMER-1010). ① ÖLÇTÜM: 26 aday → 24 yazıldı (A 22 nokta · B 2: Borsippa+Susa), 2 ÖLÇÜLEMEDİ (Adab: TGN 12,48 km yuvarlak + iki CIGS aynı köken · Tell el-Lahm: tek kayıt). K1 ile bağımsız ölçüm aynı 22'yi ve aynı Adab hükmünü verdi. Mükerrer 0 (3 km); AD ÇAKIŞMASI 1: atlasta \"Kiş (Kish)\" = Kays adası, 1.127 km. KASA'nın 12 TGN uzaklığı birebir tuttu; Marad iç kayıtları 2,28 km (KASA'nın 1,14'ü reprPoint'e). git apply --check temiz (taban aa266e1f) · node OK · denetle.py TABAN↔A yalnız sayım satırı farklı, D1 309=309 · A+B: D1 311, 1c 6 → çıkış 1 (B bu yüzden ayrı). Negatif yılla denetle ÇÖKMEDİ — çağrılmamış olabilir, doğruluğu NEGATIF-YIL-OLCUM'un işi. 🔴 ANA BULGU (M-5897'nin ölçümü; K1'de YOK, K1 §4'teki \"petek_epok paylaştırır\" iddiasıyla ÇELİŞİYOR): motor sahnede olmayan SAHİPSİZ peteği yalnız ≥%90 kuşatılmışsa devrediyor (_kusatilmis) ⇒ simülasyon (denetim/NOKTA-SUMER-1010-K2-DELIK-SIM.py, tekrarlanabilir): 22/22 BOŞ, ~62.400 km², 1000-1923 boyunca. Değişmez 1 GÖRMEZ. ② BULAMADIM: Eridu'nun MS 499'u ve Kiş'in bit: çelişkisi (açıklama MÖ 140 ↔ ad MS 640) için ikinci akademik kaynak · Barrington'un dahil etme ölçütü (bit: kuralı K1↔K2 sekiz sitede ayrışıyor, hepsi MS 1000 öncesi, tablo §8) · Adab için bağımsız ikinci tanık. ③ İSTİYORUM: (a) Sümer noktaları FAZ 2'de İNMESİN — önerim motor yaması (sahnede olmayan nokta sahipsiz de olsa devredilsin, bos: taşıyan hariç — Kuveyt) FAZ 3'te, noktalar o koşuyla birlikte (b) K1 ile K2'den hangisi esas, sen seç; benim önerim K1'in diff'i + K2 §3 bulgusu + K1'in paket_23 yeniden paketleme notu (c) B (Borsippa/Susa) ayrı kalem. Dosyalar (hepsi YENİ, uzakta doğrulandı): denetim/NOKTA-SUMER-1010-K2.md · -K2.diff · -K2-B.diff · -K2-DELIK-SIM.py · -K2-DELIK-GIRDI.json · model: opus (kaynak hükmü + motor kodu okuma). Bekçim yok (KOSU ilanı), duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
