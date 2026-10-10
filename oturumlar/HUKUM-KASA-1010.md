@@ -180,6 +180,42 @@ hata dağılımları **ÖLÇÜLMEDİ.** Yani bugün yalnız Ṯ için eşiğimiz
 kalem — ve o ölçülene kadar "iki tanık uyuşuyor" ifadesi, ikisinin hatası
 bilinmediği için **ne kadar güçlü olduğu bilinmeyen** bir ifadedir.
 
+### §6.2 🆕 🔴 TANIK YANLIŞ NESNEYİ ÖLÇÜYOR — çok katmanlı şehir BİRDEN ÇOK NESNEDİR
+
+`§6.1` tanığın **hatasını**, `§9.4` tanığın **çözünürlüğünü** sordu. Üçüncüsü
+daha temelde: **tanık HANGİ NESNEYİ gösteriyor?**
+Ölçülen vaka (KASA yakaladı, LAB doğruladı, 10 Ekim 2026):
+```
+Pleiades "Melitene" 629040  = ARSLANTEPE höyüğü (Melid)        0,02 km
+al-Ṯurayyā  Malaṭīn         = MODERN merkez                     2,1 km
+TGN                         = atlas noktası ↔ modern Malatya    1,54 km
+⇒ atlas noktası MODERN ŞEHİRDE. LAB'in ilk "4,0 km SINIRDA, TEMİZ" kıyası
+  HÖYÜKLE yapılmıştı — Roma/Ortaçağ Malatya'sı (Battalgazi) ile DEĞİL.
+```
+🔴 **Höyük · antik katman · ortaçağ katmanı · modern şehir AYRI NESNELERDİR.**
+Pleiades'in tek `reprPoint`i çok dönemli yerleşimleri **birleştirebiliyor** ⇒
+iki tanık "uyuşuyor" ya da "ayrışıyor" görünürken aslında **başka başka
+nesneleri** ölçüyor olabilirler.
+
+> **KURAL: iki tanığı karşılaştırmadan ÖNCE her birinin HANGİ NESNEYİ
+> gösterdiği sorulur.** Fark bir bulgu değil, nesneler aynı değilse
+> **ÖLÇÜLEMEDİ**dir.
+
+**Sonuçları, adıyla:**
+- `Malatya` → `TEMİZ-ÖLÇÜLDÜ`den **`ÖLÇÜLEMEDİ`**ye alındı
+- `Milid`/`Melid` = Arslantepe höyüğü ⇒ **AYRI NOKTA** (mevcut Malatya noktası
+  modern şehirde; 4 km'lik fark iki ayrı yerin farkı)
+- `Battalgazi` için kabul edilen bir tanıkta **kaynaklı koordinat YOK**
+  (kaynaksız büyüklük ~8 km) ⇒ **1281-1839 için Malatya'nın konum sorusu AÇIK**
+- 🔴 Ve `TEMİZ` kovasındaki öteki **çok katmanlı** şehirler yeniden bakılmayı
+  hak ediyor: `Van` 4,7 km · `Dimyat` · `Semerkant` (ilk ikisi "sınırda"
+  diye temiz sayılmıştı). İş `LAB-KONUM-KATMAN-1010`.
+
+📌 Ve bu, `§6.1`in bedelini büyütüyor: Pleiades'in hata dağılımı ölçülmedi
+**ve** `reprPoint`inin hangi katmanı gösterdiği kayıt kayıt değişiyor. Yani
+Pleiades'i "birincil tanık" yapan şey hatasının küçüklüğü değil,
+**kaydının zenginliği** — ve zenginlik tek bir noktaya indirgenince kaybolur.
+
 ---
 
 ## §7 İŞ DAĞITIMI
