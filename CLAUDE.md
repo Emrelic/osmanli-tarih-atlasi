@@ -986,6 +986,26 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   adım koşturulur ve HER ÇIKIŞ KODU OKUNUR** (KOŞU 21 de böyle yapmıştı):
   `kodla.py yay` → `coz-c` **(İKİ dosya, §5)** → `denetle` → `renk_olc` →
   `paketle.py yenile` → `surum_damgala` → `denetle_yayin`.
+  🔴 **DÜZELTME — YASAK BETİĞE DEĞİL KİPE** (HAVVA ölçtü, aynı gün):
+  yukarıdaki satırı ilk yazdığımda *"iki betiği de koşturma"* demiştim; o
+  **FAZLA GENİŞTİ** ve KOŞU 22b'nin kendisini de yasaklardı.
+```
+  kos_ve_yayinla.py --yayinlama   ← ÜRETİMİ TAŞIYAN KİP, KOŞTURULUR
+     `surum_damgala` `if yayinla` korumalı · commit/pull/push öncesi
+     `if not yayinla: … ATLANDI; return 0` · `kosu_yayin.py`yi ÇAĞIRMIYOR
+     `denetle` sıfır-dışı ⇒ `kos(...) is None` ⇒ return 1, `denetle_yayin`e
+     HİÇ GELMİYOR (KOŞU 22 tam böyle durdu, kod 2)
+  kosu_yayin.py  ·  kos_ve_yayinla.py'nin YAYIN KİPLERİ   ← KULLANILMAZ
+```
+  ⚠️ Ve zincirin içindeki `denetle` **`coz-c` YAPILMADAN** koşar ⇒ D8 kesin
+  `ÖLÇÜLEMEDİ`, çıkış 2, zincir durur. **O `denetle` sonucu KABUL ÖLÇÜMÜ
+  SAYILMAZ** — `coz-c` ikilisinden sonra elle yeniden koşturulur.
+  📌 Ve bu, yazdığım kuralın ÜÇÜNCÜ kez aynı biçimde geniş çıkması
+  (`YIKICI` tanımı · `§9.1 ③`ün kapsamı · bu). Ortak kök:
+  > **Riski TAŞIYAN şeyi değil, onu İÇEREN şeyi yasaklamak.** Yasak bir
+  > DOSYAYA değil, o dosyanın RİSKLİ KİPİNE/YOLUNA yazılır — yoksa kural
+  > doğru işi de durdurur ve bir sonraki işçi onu haklı olarak esnetir.
+
   Yayından önce sürüm
   damgası yükseltilir; Pages gecikmesi ~40-60 sn.
 - **Koşu çıktısı her zaman bayattır — yine de yayınlanır** (Emre, 17 Eylül): "YAYIN BAYAT"
