@@ -203,3 +203,82 @@ Resmî saltanat yılı (Nisannu'da başlayan "1. yıl") ③ konvansiyon ⇒ yaz�
   - babil-ara f 702 (Bel-ibni) · babil-ara f 647 (Kandalanu) · babil-ara t 626 (Kandalanu);
   - samal t 738+1 · kummuh t 773+1 · kummuh t 738+1 · qatnu t 878+1 (son tanık).
 - **ⓔ kalan 7:** babil-ara (f/t ÖLÇÜLEMEDİ) · suhu (yer tutucu) · patina · samal · kummuh · qatnu · bit-zamani (dataset dışı haraç polity'leri, atif K3/K4).
+
+---
+
+## TAZELEME 2 — asgarî künyeler · DEVİR SINAVI · `m:` ölçümü
+### 📌 DERS (koordinatör adlandırdı): BİR YAMA BİR BELİRTİYİ SUSTURUYORSA, ÖRTTÜĞÜ SEBEP ARANIR. Yama kaldırılmadan "düzeldi" denmez.
+- Üreticideki "1 yıllık dilim sıfır çıkarsa 1 yıla uzat" yaması BELİRTİYİ susturuyordu.
+- SEBEP (dahil/hariç uç karışıklığı) ayakta kalıp öteki dilimlerde son yılı sessizce düşürüyordu.
+- Sebep bulunup yama KALDIRILDI.
+- Bu gece aracımda üç kök neden: alt-dizgi eşleyici · yönü uçtan türetme · dahil uç.
+
+### ① 5 asgarî künye (koordinatör hükmü) — hayalet 7 → **2**
+| id önerisi | ad | f – t (tanık) | sahip_dilim |
+|---|---|---|---|
+| `patina` | Patina (Unqi) Krallığı | 857 – 831 | **K3** (K4 → K3, koordinatör hükmü) |
+| `samal` | Sam'al (Bīt-Gabbari) Krallığı | 857 – 738 | **K3** (K4 → K3, koordinatör hükmü — şerh doğru yöne işaret ediyordu) |
+| `kummuh` | Kummuh (Kommagene) Krallığı | 866 – 738 | K3 |
+| `qatnu` | Qatnu (Habur) beyliği | 894 – 878 | **K1** |
+| `bit-zamani` | Bīt-Zamani (Amedi) beyliği | 886 – 879 | K3 |
+
+- İki uç da `uc_turu = SINIR`.
+- ic_not AYNEN: *"Uçlar Asur haraç tanığından türetilmiş SINIRLARDIR; polity'nin gerçek ömrü ÖLÇÜLEMEDİ. Asgarî künye — K3/K4 tamamlayacak."*
+- t = son tanık yılı DAHİL ⇒ alan sonraki yılın başı.
+- **KÜNYE sahipliği ≠ OLAY sahipliği:** künye kendi toprağının dilimine (K3/K4/K1), olay failin dilimine (K1).
+- `devletler.js`'te çakışma 0 (ölçüldü). id'ler koordinatöre gönderildi.
+- Kalan hayalet 2: `babil-ara` (f/t ölçülemedi) · `suhu` (POLITY yer tutucusu).
+  - ⚠️ Bu yüzden babil-ara'nın 10 ve suhu'nun 1 tâbilik dilimi künyesiz kalıyor; çıktıda var, bağlanacak künye yok.
+
+### ⓐ DEVİR SINAVI — çıktı ATLASIN KENDİ OKUYUCULARINA verildi
+Betik `KAMP-MEZOPOTAMYA-devir_sinavi.py`:
+- JSON'u atlas üslubunda (anahtar tırnaksız) JS'e çevirir.
+- Scratch dizine yazar; `girdi.DATA`yı oraya yönlendirip AYRI SÜREÇTE okur.
+- `data/`ya dokunmaz (`git status data` = 0). Ham sonuç `KAMP-MEZOPOTAMYA-YAZIM-devir.json`.
+
+| okuyucu | beklenen | okunan | tanınmayan alan |
+|---|---|---|---|
+| `girdi.yukle()` — yerleşim, şema-yalın | 68 | **68** | **0** |
+| `girdi.yukle()` — yerleşim, ham (`_` bilgi alanlarıyla) | 68 | 68 | **2**, SAYILIP BASILDI (`_ilk_kayit`, `_yazim` ×68) ⇒ D225 iddiası bu çıktı için ÖLÇÜLDÜ: süzgeç tanımadığını elemiyor, söylüyor |
+| `girdi.oku_devletler()` — künye | 29 | **29** | ⚠️ **sözlük YOK** (aşağıda) |
+| `denetle.oku_pencere()` — olay | 243 | **243** | 0 (bütün alanlar mevcut gelenekte) |
+
+**Devir sınavının bulduğu ŞEMA UYUŞMAZLIKLARI (ilk sürümde vardı, düzeltildi):**
+1. **`ozet` YOKTU.** Gerçek `devletler.js`'te 897/897 künyede var. ⇒ Eklendi (ad + MÖ aralık + uç tipleri); `ozetsiz` 0.
+2. **`kronoloji[]` YOKTU** (894/897'de var). ⇒ KRONOLOJİ.csv'den aynı polity'nin tarihli satırları; alt alanlar (`t · tur · b · kaynak`) gelenekte mevcut, yeni alt alan 0.
+3. **`ic_not` adlı alan atlasta YOK.** Gelenek `not` (60) ve uç başına `ic_not_f` / `ic_not_t` (205/268). ⇒ `not`a taşındı.
+4. **Künye düzeyinde tâbilik için YENİ `v` alanı açıyordum — oysa alan VAR:** `tabi:[{f, t, ust}]`, 14 künyede canlı (kirim, dulkadir, eflak…).
+   - ⇒ `tabi`ye çevrildi, `ust` = suzeren.
+   - 🔴 **Ve `tabi` alanı `VERI-YAPISI.md`'de TANIMSIZ** (belgede tek geçiş yok). `bos:`/`kd:` vakasının aynısı: canlı alan, bayat belge. Ölçmeden yazsaydım ikinci bir tâbilik alanı doğacaktı.
+
+**Kalan YENİ alanlar (bilerek, hükümle):**
+- künye: `uc_turu`, `sahip_dilim` (koordinatör "veri alanına terfi" hükmü);
+- `tabi` alt alanları: `tip` (v_tipi: cifte/tabi), `uc_turu`, `kaynak`.
+- ⚠️ `oku_devletler()`'in alan sözlüğü YOK ⇒ bu alanlar ne elenir ne sayılır, SESSİZCE geçer. Ölçüt olarak gerçek veride geçen alan kümesi kullanıldı. **Yazıcı bunları `girdi.py`ye / VERI-YAPISI'na kaydetmeden indirmemeli.**
+
+**MÖ tarihleri:** `denetle.gun_no("-2333-01-01")` → **ÇÖKTÜ** (`ValueError: year must be in 1..9999, not -233`).
+- Çökme BEKLENEN (VERI-YAPISI: C3 inmeden MÖ ⇒ ÖLÇÜLEMEDİ), ama mesaj bir şey daha söylüyor: `gun_no` `s[0:4]` kesiyor ⇒ "-2333"ü **"-233"** okuyor.
+- `-0625-11-23` "-062" olurdu. Bugün çöküyor çünkü `datetime` negatif yılı reddediyor. C3'te `datetime` yerine sayaç gelirken bu kesim DÜZELMEZSE çökme kalkar ve **sessizce yanlış yıl** kalır.
+- ⇒ C3 sahibine adıyla iletilmeli.
+
+### ⓑ `m:` — YAZILMADI, gerekçe ÖLÇÜLDÜ
+Koordinatörün öncülü: "`m:` 4.287 noktanın %27,4'ünde; 68 yeni nokta borca eklenmesin". Ölçüm (`girdi.yukle()`, bugün 4.300 nokta):
+
+| k (idarî kademe) | nokta | `m:` taşıyan |
+|---|---|---|
+| 0 (kademesiz: yabancı şehir, dolgu) | 1.616 | **1** |
+| 1 | 382 | 1 |
+| 2 | 229 | 3 |
+| 3 | 1.351 | 268 |
+| 4 | 722 | 555 |
+
+- Toplam `m:` 828 / 4.300 = **%19,3** (kademeli noktalarda 827 / 2.684 = %30,8). %27,4 eski bir paydaydı.
+- ⇒ `m:` OSMANLI idarî hiyerarşisinin alanı: k3/k4 birimin bağlı olduğu k1/k2 merkezinin ADI. Bölgede değerleri Bağdat 14 · Diyarbakır 8 · Musul 7 · Basra 6 · Şehrizor 5 · Halep 5.
+- **k=0 noktaların 1.616'sından yalnız 1'inde var.** 68 K1 noktası k=0 (antik şehir, Osmanlı kademesi yok).
+- Kaynaklarımın verdiği "bölge" ANTİK bölge (Sümer, Akkad, Subartu, Habur). Atlasın `m:` değeri değil.
+- Osmanlı `m:`yi en yakın komşudan türetmek kaynaktan değil YAKINLIKTAN türetmek olurdu (VERI-YAPISI `kesinlik` sınırı: "komşu bir olgudan çağrışımla türetilen tarih…"). Motor `kd:`yi okumadığı için Osmanlı biriminin adı MÖ 3000'e de uygulanırdı.
+- **Sonuç:** 68 nokta `m:` borcuna EKLENMEDİ, çünkü borcun evreni (k1–k4) dışındalar. Kademeli 4 mevcut noktaya ek (Erbil→Şehrizor, Kerkük→Şehrizor, Cerablus→Halep, Halep) zaten `m:` gelenekleriyle duruyor.
+- **Açık şema sorusu (Emre/koordinatör):** MÖ şehirleri için ANTİK bölge alanı gerekiyorsa `m:` değil AYRI bir alan olmalı. Aynı sözcüğe iki anlam yüklemek "iki ayrı davranış" sınıfı.
+
+- **İniş BEKLETİLİYOR (koordinatör):** MÖ yılları astronomik NEGATİF. `gun.py:168` geçici kapısı "veride negatif yıl VAR + motor sayaçsız ⇒ ÖLÇÜLEMEZ" bugün sıfır negatif yılla temiz. İlk negatif yıl deponun TAMAMINI ÖLÇÜLEMEDİ yapardı. Tetikleyici C3 (GUN_SAYACI); C3 inince MÖ paketi (künye · 68 yerleşim · 243 olay · tabi dilimleri) TEK PAKETTE.
+- **Koordinatörün kör noktası (kendi beyanı):** Neo-Hitit / Suriye-Anadolu ailesi K1, K3, K4 dilimlerinin ARASINDA kalıyordu. Ona ancak `v:` atfı SARKTIĞINDA çarpıldı: kör noktayı başka bir şeyi (hayalet) arayan denetim buldu. K3 ailesine eklendi: Karkamış · Kummuh · Gurgum · Sam'al · Patina · Bīt-Zamani · Tabal · Melid · Que.

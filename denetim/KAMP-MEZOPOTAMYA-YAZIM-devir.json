@@ -1,0 +1,72 @@
+{
+ "beklenen": {
+  "yerlesim": 68,
+  "kunye": 29,
+  "olay": 243
+ },
+ "olculen": {
+  "yerlesimler_k1mez_yalin.js": {
+   "okunan": 68,
+   "uyari": [],
+   "s_donemli": 15,
+   "bos": 53
+  },
+  "yerlesimler_k1mez_ham.js": {
+   "okunan": 68,
+   "uyari": [
+    "UYARI alan: '_ilk_kayit' BILINEN_ALANLAR'da yok — 68 kayıtta (yerlesimler_k1mez_ham.js:Uruk, yerlesimler_k1mez_ham.js:Ur, yerlesimler_k1mez_ham.js:Nippur…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.",
+    "UYARI alan: '_yazim' BILINEN_ALANLAR'da yok — 68 kayıtta (yerlesimler_k1mez_ham.js:Uruk, yerlesimler_k1mez_ham.js:Ur, yerlesimler_k1mez_ham.js:Nippur…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet."
+   ],
+   "s_donemli": 15,
+   "bos": 53
+  },
+  "devletler": {
+   "okunan": 29,
+   "alanlar": [
+    "ad",
+    "baskent",
+    "bolge",
+    "f",
+    "id",
+    "kaynak",
+    "kesinlik",
+    "kronoloji",
+    "not",
+    "ozet",
+    "sahip_dilim",
+    "t",
+    "tabi",
+    "tur",
+    "uc_turu"
+   ],
+   "atlasta_HIC_gecmeyen_alan": [
+    "sahip_dilim",
+    "uc_turu"
+   ],
+   "tabi_alt_alan_yeni": [
+    "kaynak",
+    "tip",
+    "uc_turu"
+   ],
+   "kronoloji_alt_alan_yeni": [],
+   "ozetsiz": 0,
+   "tabi_dilimli": 5
+  },
+  "olaylar": {
+   "okunan": 243,
+   "alanlar": [
+    "b",
+    "d",
+    "etiket",
+    "gs",
+    "gun",
+    "ic_not_d",
+    "k",
+    "kaynak",
+    "t",
+    "yer"
+   ]
+  },
+  "gun_no": "ÇÖKTÜ (ValueError: year must be in 1..9999, not -233) — -2333-01-01"
+ }
+}

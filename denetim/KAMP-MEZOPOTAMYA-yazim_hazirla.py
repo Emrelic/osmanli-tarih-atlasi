@@ -56,11 +56,26 @@ for p in POL:
          "f": astro(p["f"])[0], "t": astro(p["t"])[0], "kesinlik": kes,
          "baskent": p["merkez"], "kaynak": p["kaynak"],
          "uc_turu": {"f": "OLAY" if tf == "OLAY" else "SINIR", "t": "OLAY" if tt == "OLAY" else "SINIR"},
-         "ic_not": ("f: " + tf + " · t: " + tt + " · " + p["not"])[:4000]}
-    if p.get("suzeren", "").startswith("YOK") is False and p.get("suzeren"):
-        r["_suzeren_ozet"] = p["suzeren"]
+         "sahip_dilim": p.get("sahip_dilim") or "K1 MEZOPOTAMYA",
+         # DEVİR SINAVI (ⓐ) bulgusu: devletler.js'te `ic_not` adlı alan YOK (897 künyede 0) — mevcut
+         # gelenek `not` (60) ve uç başına `ic_not_f`/`ic_not_t` (205/268). İç not `not`a yazılır.
+         "not": ("f: " + tf + " · t: " + tt + " · " + p["not"])[:4000]}
+    # `ozet` 897/897 künyede VAR (zorunlu gelenek) — ilk sürümde YOKTU
+    gf, gt = gun_metni(p["f"], kes if isinstance(kes, str) else kes.get("f")), gun_metni(p["t"], kes if isinstance(kes, str) else kes.get("t"))
+    r["ozet"] = (f"{r['ad']}; {gf} – {gt}. Uçlar: f {'olay' if tf == 'OLAY' else 'sınır (saltanat/tanıktan türetilmiş)'}, "
+                 f"t {'olay' if tt == 'OLAY' else 'sınır (saltanat/tanıktan türetilmiş)'}. (K1 KAMP-MEZOPOTAMYA; ayrıntı ve kaynak `not`ta.)")
     kunye.append(r)
 KID = {r["id"] for r in kunye}
+# künye-içi `kronoloji[]` (894/897 künyede var) — KRONOLOJİ.csv'den, aynı polity'nin tarihli satırları
+KTUR = lambda b, h: ("kurulus" if b.endswith("— doğuş") else "son" if "yıkılış" in b else "isyan" if re.search(r"ayaklan|isyan", b, re.I)
+                     else "hukumdar" if re.search(r"tahta|tahtı|atandı|kral oldu", b) else "toprak-kazanc" if h == "EVET" else "savas")
+for p in kunye:
+    kr = []
+    for q in KRO:
+        a = astro(q["tarih"])
+        if q["polity"] == p["id"] and a:
+            kr.append({"t": a[0], "tur": KTUR(q["baslik"], q["harita_degisimi"]), "b": q["baslik"], "kaynak": q["kaynak"][:300]})
+    if kr: p["kronoloji"] = sorted(kr, key=lambda x: -int(x["t"][1:5]))
 
 # ── v: DİLİMLERİ (künyeye; ÇÜRÜTÜLDÜ olanlar YAZILMAZ ama listelenir) ──
 vdil, v_yazilmaz = collections.defaultdict(list), []

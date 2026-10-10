@@ -60,9 +60,30 @@
  ],
  "b_3km_kendi_ici": [],
  "c_donem": [],
- "d_kirilma_toplam": 124,
+ "d_kirilma_toplam": 134,
  "d_ACIK_olay_uclu": [],
  "d_SINIR_UCLU": [
+  [
+   "kunye",
+   "samal",
+   "t",
+   "-0736-01-01",
+   "SINIR"
+  ],
+  [
+   "kunye",
+   "kummuh",
+   "t",
+   "-0736-01-01",
+   "SINIR"
+  ],
+  [
+   "kunye",
+   "qatnu",
+   "t",
+   "-0876-01-01",
+   "SINIR"
+  ],
   [
    "v",
    "babil-ara",
@@ -116,6 +137,27 @@
  "d_tipsiz": [],
  "d_kronolojisiz": [
   [
+   "kunye",
+   "samal",
+   "t",
+   "-0736-01-01",
+   "SINIR"
+  ],
+  [
+   "kunye",
+   "kummuh",
+   "t",
+   "-0736-01-01",
+   "SINIR"
+  ],
+  [
+   "kunye",
+   "qatnu",
+   "t",
+   "-0876-01-01",
+   "SINIR"
+  ],
+  [
    "v",
    "babil-ara",
    "f",
@@ -167,11 +209,6 @@
  ],
  "e_hayalet": [
   "babil-ara",
-  "bit-zamani",
-  "kummuh",
-  "patina",
-  "qatnu",
-  "samal",
   "suhu"
  ],
  "e_devletler_js_de_olan": [],
