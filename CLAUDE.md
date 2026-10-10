@@ -963,6 +963,20 @@ tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/
   okunur. ⇒ Yeni bir kapı/tavan/istisna konulurken **ÜÇ soru**: ① soruyu soruyor
   mu ② çıkış kodunu KİM okuyor ③ hiç çağrılıyor mu. Üçüncüsü sorulmazsa, sessiz
   bir borcu 2'ye çevirip 2'yi kimseye göstermeyen bir çare yazılır.
+  🆕 🔴 **VE ÜÇÜNCÜ ÜYE: YORUM BİR KONTROL DEĞİLDİR.** Ölçülen vaka (UMIT,
+  10 Ekim): `girdi.py:108`de *"aynı ad iki dosyada ⇒ HATA"* yorumu var ve
+  **arkasında KOD YOK** — tekillik bugün ölçülmüş bir DURUM, garanti değil
+  (ve normalleştirmeyle **37 ad çakışması** ölçüldü: `Kudüs/Kudus` ·
+  `Roma`/`Roma (Queensland)` · `Yenişehir (Bursa)`/`(Larissa)`).
+```
+  çağıranı olmayan kapı  → kapı VAR, hiç ÇAĞRILMIYOR
+  denetim ≠ soruyu sorar → kapı KOŞUYOR, o soruyu SORMUYOR
+  yorum ≠ kontrol        → kapı HİÇ YOK, ama VARMIŞ GİBİ YAZILI
+```
+  ⇒ **Bir yorumun iddia ettiği değişmez, KODDA ARANMADAN doğru sayılmaz** — ve
+  yorum, yokluktan **daha kötüdür:** yokluk soru sordurur, yorum **soruyu
+  KAPATIR.** (Koordinatör tam buna güvendi: bir defter anahtarını `ad`ın tekil
+  olduğu varsayımına kurdu, ölçüm 37 çakışma buldu.)
 - **Bayatlayan belge/sayı** — sayı ölçümün fotoğrafıdır; kaynağını (log, alet) aç.
   🆕 🔴 **VE AYNA GÖRÜNTÜSÜ — ÖNERİ üzerinde ölçülen sayı da bugünkü durum
   DEĞİLDİR.** Bir kapının *"AÇIK"* olması, ölçülen kümenin **CANLI** olmasına
