@@ -396,7 +396,18 @@ otonom çalıştı.
    İki küçük kardeşi: `sekme` şemada TANIMSIZ ve bir künyeye AD
    KONVANSİYONUYLA bağlı (dört seçenek var, en ucuzu `KRONOLOJI_ID_OZEL`
    — mevcut ve BOŞ) · `kur:`/`bit:` ve `f:`/`t:` TEK aralık, çok
-   aralıklı varlık yazılamıyor (Girsu · Uruk · Nippur · cenevre).
+   aralıklı varlık yazılamıyor.
+   🔴 ŞERH — ÖRNEKLERİN HEPSİ ÖNERİ, MEVCUT KAYIT DEĞİL (10:50'de ölçtüm):
+     Girsu · Uruk · Nippur · Borsippa · Lagaş ⇒ `girdi.yukle()` 4300
+     kayıtta **0**, `devletler.js` 897 künyede **0**. `cenevre-cumhuriyeti`
+     de **YOK** (yalnız "Cenevre" adlı bir YERLEŞİM var). ⇒ Bugün bu
+     yüzden BOZUK bir kayıt YOK; boşluk, yazılmak İSTENEN kaydı
+     ENGELLİYOR. Soru hâlâ gerçek — ama "dört kayıt kırık" değil,
+     "dört kayıt YAZILAMIYOR".
+   ⚠️ Bunu ayrıca yazıyorum çünkü bu satırı 10:45'te ÖNERİ etiketi
+     KOYMADAN yazdım; `§11`in *"öneri sayısı geleceği bugün gibi
+     gösterir"* kuralının bu gecedeki dördüncü ihlali, ve bu kez
+     SENİN belgende.
    📌 Hepsinin tek kökü: şema BİR polity için kuruldu (Osmanlı,
      1281-1923, kesintisiz).
 ② MISIR RENGİ — ΔE 1,0: Memlûk Sultanlığı → Mısır Krallığı geçişi

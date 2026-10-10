@@ -266,3 +266,53 @@ adresi DEĞİL.* Aynı sınıf (`D272`): **ad bir KAYITTIR, dizin bir ÖLÇÜMD�
 ⇒ Çare `HAZIR-KITA §3.1`: **ŞARTNAME MESAJDA DEĞİL, GİT'TE** — *"git
 İÇERİĞİ taşır, mesaj UYANDIRIR."* Kanal geri geldiğinde içerik burada
 duruyor; uyandırma mesajı tek satır olur.
+
+---
+
+## §O — `durum_tablosu.py:767` ETİKETİ, SAYDIĞI ŞEYİ YANLIŞ ADLANDIRIYOR
+
+Ölçüldü (koordinatör, 10 Ekim ~10:50, taban `0261d784`). **SAYI DOĞRU,
+ETİKET YANLIŞ** — ve bu `D268`in (*toplayıcının kendi tanımını okumamak*)
+birebir vakası, bu kez `§1.5`in kendi satırında.
+
+```
+`§1.5` satırı : "🟢 5 BEYANLI boya borcu (`boya_gerekli:true` — tam inşa
+                 koşusunu bekliyor, sessiz DEĞİL)"
+ÇİĞ SAYIM     : `devletler.js`te `boya_gerekli:true` taşıyan künye = 174
+KODUN GERÇEĞİ : `durum_tablosu.py:667`
+                o["renksiz_beyanli"] = renksiz_gercek ∩ _beyan
+                ⇒ 5, BİR KESİŞİMDİR: "aksi hâlde SESSİZ borç sayılacak
+                  künyelerin beyanlı olan kısmı"
+```
+
+⇒ Etiket **`boya_gerekli:true`** diyor (bayrağı adlandırıyor), sayı ise
+**kesişimi** sayıyor. Okuyan *"atlasta 5 beyanlı boya borcu var"* anlıyor;
+gerçek **174 künye beyan taşıyor**, bunların 169'u başka bir kovada zaten
+dışlanmış (⚪ 121 *"yalnız sınır/kronoloji katmanında"* vb.).
+🔴 Bu bir sayı hatası DEĞİL — iki sayı **İKİ AYRI SORUYU** doğru cevaplıyor.
+Kusur, etiketin **hangi soruyu** cevapladığını söylememesi.
+
+### İstediğim düzeltme (tek satır, `durum_tablosu.py:767`)
+Etikete kesişim ADIYLA yazılır, ör.:
+> *"🟢 %d'si BEYANLI (`boya_gerekli:true`) — yani sessiz borç sayılmadı;
+> bayrağı taşıyan künye toplamı %d"*
+
+⇒ İki sayı yan yana görünür ve *"5 mi 174 mü"* sorusu bir daha doğmaz.
+📌 `D199` gereği `§1.5`e ELLE yazılmaz: tablo ÜRETİLİR, etiket KODDA durur.
+
+### 🔴 YAN BULGU — "188"İN KÖKENİ BULUNDU, ve dersi keskinleştiriyor
+Bu gece `TABAN_OLCULEMEDI` için iki belgeye **188** yazdım; LAB ölçtü ve
+*"188 HİÇBİR diff'te ya da dalda YOK"* dedi — haklıydı, ve düzelttim (190).
+Ama **188 depoda VAR**: tam bu işlevin yorumunda, `durum_tablosu.py:651`:
+
+> *"bu dal o alanı okumuyordu ve 170'ini GERÇEK SESSİZ BORÇ sayıyordu:
+> sayı 12 → **188** diye sıçradı ve sabah bakan biri bunu ÇÖKÜŞ sanırdı."*
+
+⇒ **Uydurduğum sayı yoktan gelmemiş; KOMŞU bir ölçümün gerçek sayısıydı**
+(renksiz künye sayısı, `TABAN_OLCULEMEDI` değil). Ders bu yüzden daha
+keskin:
+> **Bir yerde GERÇEKTEN bulunan bir sayı, uydurulmuş bir sayıdan DAHA
+> TEHLİKELİDİR** — çünkü *"bu sayı nereden geldi"* kontrolünü GEÇER.
+Yanlışlığı değerinde değil **EVRENİNDE**; ve evren sorulmazsa hiçbir
+arama onu ele vermez. (`§11`: *bir sayıyı aktarırken ne zaman ölçüldüğü
+kadar NEREDE ölçüldüğü sorulur* — bu, o kuralın en somut vakası.)
