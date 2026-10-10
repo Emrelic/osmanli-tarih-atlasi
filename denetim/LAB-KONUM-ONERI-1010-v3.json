@@ -1,6 +1,6 @@
 {
- "taban": "origin/main 1896b8ecd38f9561f8dc49e955cf878178fee20d",
- "uretim": "LAB 2026-10-10 (v3)",
+ "taban": "origin/main 9e9e5abe8ae7524c60a70b921e1bbfe79e4406fe",
+ "uretim": "LAB 2026-10-10 (v3, revizyon v3b — Balasagun çıkarıldı, İKAME kaynak:, iniş sonrası adımlar)",
  "yerine_gecer": [
   "LAB-KONUM-ONERI-1010-v2.json",
   "LAB-KONUM-ONERI-1010-v2.diff",
@@ -10,10 +10,12 @@
  ],
  "kural": "HUKUM-KASA-1010 §6.1 · §6.2 · §6.3 · §9.4 + koordinatörün eşik-düşer kuralı · koordinatör kararları ①②③④⑥⑦⑧ (2026-10-10)",
  "diffler": {
-  "LAB-KONUM-ONERI-1010-v3.diff": "TAŞIMA 10 kalem (11 satır, 5 dosya)",
-  "LAB-KONUM-ONERI-1010-v3-ikame.diff": "İKAME 2 kalem (yalnız data/yerlesimler_asya.js)"
+  "LAB-KONUM-ONERI-1010-v3.diff": "TAŞIMA 9 kalem (10 satır, 4 dosya) — 7 v1 + Pantelerya + Van",
+  "LAB-KONUM-ONERI-1010-v3-ikame.diff": "İKAME 2 kalem (yalnız data/yerlesimler_asya.js); bölme günleri kaynak: alanında 'kaydın kendi sınırından, kaynakla teyit edilmedi' diye beyan edildi",
+  "LAB-KONUM-ONERI-1010-v3-balasagun-not.diff": "Balasagun: YALNIZ not: satırı (koordinat değişmez) — uygulanacak",
+  "LAB-KONUM-ONERI-1010-v3-balasagun-tasima-BEKLER.diff": "Balasagun taşıma + not — PARK, yalnız ikinci koordinat tanığı bulunursa; balasagun-not.diff ile birbirini DIŞLAR (ikisi aynı satıra dokunur); not: içindeki [İKİNCİ TANIK BURAYA] yer tutucusu doldurulmadan uygulanmaz"
  },
- "taban_notu": "46ebbc3c6..1896b8ecd arasında data/ değişmedi (git diff --stat boş); satır numaraları aynı",
+ "taban_notu": "1896b8ecd..9e9e5abe8 arasında data/ değişmedi (git diff --stat boş); satır numaraları aynı (alanlar satir_1896b8ecd adını korur)",
  "tasima_diff": [
   {
    "dosya": "data/yerlesimler.js",
@@ -445,51 +447,6 @@
    ],
    "pencere": "s: 1232-01-01..1548-08-24 (selcuklu→safevi) + 1920-04-23..1923-10-29 tbmm-turkiye; d: 1548-08-24..1920-04-23 (kusatma). tur:kale. sehirler.js:190 k: 1548-08-24..1918-10-30",
    "kaynak_oneri": "LAB-KONUM-KESIN-1010 §1"
-  },
-  {
-   "dosya": "data/yerlesimler_ortaasya3.js",
-   "satir": 131,
-   "ad": "Balasagun (Ak-Beşim)",
-   "grup": "ADAY → koordinatör kararı",
-   "uygula": true,
-   "karar": "⑥ Ak-Beşim'e TAŞIMA (TDV birincil, §4) + not: alanına çelişki beyanı; ad DEĞİŞMEDİ",
-   "eski": [
-    42.76,
-    75.24
-   ],
-   "yeni": [
-    42.805,
-    75.199
-   ],
-   "eski_metin": "lat:42.7600, lon:75.2400",
-   "yeni_metin": "lat:42.805, lon:75.199",
-   "fark_km": 6.02,
-   "ek_alan": {
-    "not": "KONUM ÇELİŞKİSİ … TDV … Ak-Peşin … TGN 8711886=Burana(8724271) … Ak-Beşim 8711887=Suyab … (tam metin diff'te)"
-   },
-   "tanik": [
-    {
-     "id": "TGN 8711887 Ak-Beshim (deserted settlements)",
-     "url": "http://vocab.getty.edu/page/tgn/8711887",
-     "lat": 42.805,
-     "lon": 75.199,
-     "eski_noktaya_km": 6.02,
-     "yeni_noktaya_km": 0.0
-    },
-    {
-     "id": "TDV balasagun (metin tanığı, koordinat vermez)",
-     "alinti": "bugünkü Ak-Peşin harabelerinin bulunduğu yerde kurulmuş olduğu kabul edilmektedir"
-    }
-   ],
-   "karsi_tanik": [
-    {
-     "id": "TGN 8724271 Burana / TGN 8711886 Balasagun (aynı koordinat 42.746/75.248)",
-     "eski_noktaya_km": 1.69,
-     "yeni_noktaya_km": 7.68
-    }
-   ],
-   "uyari": "Ak-Beşim tek tanıklı (TGN, 3 hane, hata dağılımı ölçülmedi); hangi harabenin Balasagun olduğu tarih yazımı sorusu — karar §4 (TDV birincil) ile verildi",
-   "kaynak_oneri": "LAB-KONUM-ADAY-1010 §5"
   }
  ],
  "ikame_diff": [
@@ -533,7 +490,12 @@
    "karar": "② İKAME (tek seçenek)",
    "satir_1896b8ecd": 564,
    "bolme_gunu": "1738-03-24 (kaydın kendi galzay→afsar sınırı; yıkım günü kaynakla TEYİT EDİLMEDİ)",
-   "yeni_kayit": "Kandehar (Eski Şehir) 31.6026/65.6589 bit:1738-03-24; modern Kandehar kur:1738-03-24"
+   "yeni_kayit": "Kandehar (Eski Şehir) 31.6026/65.6589 bit:1738-03-24; modern Kandehar kur:1738-03-24",
+   "kaynak_beyani": {
+    "alan": "s: künyesi kaynak: (dosyanın yerleşik geleneği; yeni alan YOK)",
+    "metin": "bölme günü kaydın kendi sınırından, kaynakla teyit edilmedi",
+    "yer": "eski kaydın son künyesi (galzay t:1738-03-24) + modern kaydın ilk künyesi (afsar f:1738-03-24)"
+   }
   },
   {
    "ad": "Angkor (Siem Reap)",
@@ -579,7 +541,12 @@
    "karar": "③ İKAME",
    "satir_1896b8ecd": 3288,
    "bolme_gunu": "1431-01-01 (kaydın kendi kd/angkor-kmer sınırı; Pleiades 'abandoned by 1609' — gün kaynakla TEYİT EDİLMEDİ)",
-   "yeni_kayit": "Angkor Thom (Yaşodharapura) 13.4413/103.8590 k:1 bit:1431-01-01; Angkor (Siem Reap) Angkor Wat'ta kalır, kur:1431-01-01, kd kaldırılır"
+   "yeni_kayit": "Angkor Thom (Yaşodharapura) 13.4413/103.8590 k:1 bit:1431-01-01; Angkor (Siem Reap) Angkor Wat'ta kalır, kur:1431-01-01, kd kaldırılır",
+   "kaynak_beyani": {
+    "alan": "s: künyesi kaynak: (dosyanın yerleşik geleneği; yeni alan YOK)",
+    "metin": "bölme günü kaydın kendi sınırından, kaynakla teyit edilmedi",
+    "yer": "eski kaydın tek künyesi (angkor-kmer t:1431-01-01) + modern kaydın ilk künyesi (kamboc-kralligi f:1431-01-01); yalnız YIL"
+   }
   }
  ],
  "degismeyen": {
@@ -735,5 +702,87 @@
    "modern_kasaba_taniği": null,
    "kaynak_oneri": "LAB-KONUM-ONERI-1010 (v1, karar bekliyor; v2 diff'ine GİRMEDİ)"
   }
- ]
+ ],
+ "balasagun_v3b": {
+  "dosya": "data/yerlesimler_ortaasya3.js",
+  "satir": 131,
+  "ad": "Balasagun (Ak-Beşim)",
+  "grup": "ADAY → koordinatör kararı",
+  "uygula": false,
+  "karar": "REVİZYON v3b (koordinatör, HUKUM §6.5): kimlik tanığı ① TDV (Ak-Beşim) sağlam; koordinat tanığı ② TGN 8711887 tek, hata ölçülmedi. 6,02 km ②'den gelir ⇒ §6.1 ≥5 km eşiği geçerli ⇒ ikinci tanık gerekli. ÖLÇÜLEMEDİ ⇒ nokta YERİNDE; çelişki not:'ta beyan (beyan taşımanın şartı değil, taşımadan bağımsız borcu). ESKİ v3 ⑥ (taşıma) BU REVİZYONLA GEÇERSİZ.",
+  "eski": [
+   42.76,
+   75.24
+  ],
+  "yeni": [
+   42.805,
+   75.199
+  ],
+  "eski_metin": "lat:42.7600, lon:75.2400",
+  "yeni_metin": "lat:42.805, lon:75.199",
+  "fark_km": 6.02,
+  "ek_alan": {
+   "not": "KONUM ÇELİŞKİSİ — beyan; nokta TAŞINMADI … TDV 'Ak-Peşin harabelerinin bulunduğu yerde' … TGN Balasagun(8711886)=Burana(8724271) … Ak-Beşim için ikinci koordinat tanığı yok (Pleiades/Ṯurayyā'da kayıt yok, 10 Ekim) … (tam metin diff'te)"
+  },
+  "tanik": [
+   {
+    "id": "TGN 8711887 Ak-Beshim (deserted settlements)",
+    "url": "http://vocab.getty.edu/page/tgn/8711887",
+    "lat": 42.805,
+    "lon": 75.199,
+    "eski_noktaya_km": 6.02,
+    "yeni_noktaya_km": 0.0
+   },
+   {
+    "id": "TDV balasagun (metin tanığı, koordinat vermez)",
+    "alinti": "bugünkü Ak-Peşin harabelerinin bulunduğu yerde kurulmuş olduğu kabul edilmektedir"
+   }
+  ],
+  "karsi_tanik": [
+   {
+    "id": "TGN 8724271 Burana / TGN 8711886 Balasagun (aynı koordinat 42.746/75.248)",
+    "eski_noktaya_km": 1.69,
+    "yeni_noktaya_km": 7.68
+   }
+  ],
+  "uyari": "Ak-Beşim tek tanıklı (TGN, 3 hane, hata dağılımı ölçülmedi); hangi harabenin Balasagun olduğu tarih yazımı sorusu — karar §4 (TDV birincil) ile verildi",
+  "kaynak_oneri": "LAB-KONUM-ADAY-1010 §5",
+  "ikinci_tanik_aramasi": {
+   "tarih": "2026-10-10",
+   "kaynaklar": [
+    "Pleiades tam döküm",
+    "al-Ṯurayyā"
+   ],
+   "aranan": [
+    "suyab",
+    "ak-beshim",
+    "beshim",
+    "besim",
+    "balasag",
+    "burana",
+    "navekat",
+    "tokmak"
+   ],
+   "sonuc": "Ak-Beşim/Suyab için KAYIT YOK. İlgisiz eşleşmeler; Pleiades 884869 'Balasagan' = Kafkasya'daki Balasakan (geç antik, koordinatsız) — sayılmadı"
+  },
+  "uygulanacak_diff": "LAB-KONUM-ONERI-1010-v3-balasagun-not.diff",
+  "park_diff": "LAB-KONUM-ONERI-1010-v3-balasagun-tasima-BEKLER.diff"
+ },
+ "inis_sonrasi": [
+  "ⓐ apply sonrası kademe_f5c9a5.js:81 YENİDEN ÖLÇÜLÜR: Angkor (Siem Reap)'e kd:[1281–1431 k:1] geri yazıyorsa düzeltme AYNI diff/commit'te yapılır (§3.4②), sonraki commit'e bırakılmaz",
+  "ⓑ karantinadaki yer_yama_1923_1945.js (:1575 Kandehar, :7729 Angkor) etkinleştirilirse iki kaydın 1281'den tam s: zincirini modern kayda geri yazar ⇒ karantinadan çıkmadan önce bu iki kayıt ADIYLA denetlenmeli; karantina listesine şerh önerilir (LAB düzenlemez; koordinatör kalemi)"
+ ],
+ "dogrulama_v3b": {
+  "worktree": "C:\\atlas-v3b (iş sonunda kaldırıldı)",
+  "taban": "9e9e5abe8ae7524c60a70b921e1bbfe79e4406fe",
+  "apply_check": {
+   "v3": "GEÇTİ",
+   "v3-ikame": "GEÇTİ",
+   "v3-balasagun-not": "GEÇTİ",
+   "v3-balasagun-tasima-BEKLER (tek başına)": "GEÇTİ",
+   "yığın v3→ikame→balasagun-not": "GEÇTİ",
+   "BEKLER, not uygulandıktan sonra": "UYMAZ (beklenen: birbirini dışlar)"
+  },
+  "node_ayristirma": "node v22.17.1 — yığın sonrası değişen 5 dosya OK"
+ }
 }

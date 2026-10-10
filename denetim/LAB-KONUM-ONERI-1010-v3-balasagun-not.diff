@@ -1,0 +1,12 @@
+diff --git a/data/yerlesimler_ortaasya3.js b/data/yerlesimler_ortaasya3.js
+index 81bcc627b..dab8de8ab 100644
+--- a/data/yerlesimler_ortaasya3.js
++++ b/data/yerlesimler_ortaasya3.js
+@@ -130,6 +130,7 @@ window.YERLESIMLER_ORTAASYA3 = [
+ // `karahanli` kimliği yok ama gerekmiyor: hânedan 1212'de bitiyor.
+ { ad:"Balasagun (Ak-Beşim)", tur:"sehir", lat:42.7600, lon:75.2400, g:1, k:2,
+   kaynak:"balasagun",
++  not:"KONUM ÇELİŞKİSİ — beyan; nokta TAŞINMADI. Kimlik: TDV `balasagun` Balasagun'un 'bugünkü Ak-Peşin harabelerinin bulunduğu yerde kurulmuş olduğu kabul edilmektedir' der (Ak-Beşim; kayıt adı da bu). TGN ise Balasagun'u (8711886) Burana ile (8724271) özdeşleştirir, Ak-Beşim'i (8711887, 42.805/75.199) Suyab sayar. Bu nokta (42.7600/75.2400) Burana'ya 1,69 km, Ak-Beşim'e 6,02 km. Koordinat: Ak-Beşim'in tek tanığı TGN 8711887 (3 hane, hata dağılımı ölçülmedi); ≥5 km taşıma ikinci tanık ister (HUKUM §6.1/§6.5). Ak-Beşim için ikinci koordinat tanığı yok (Pleiades/Ṯurayyā'da kayıt yok, 10 Ekim) ⇒ nokta yerinde bırakıldı; ikinci tanık bulunursa LAB-KONUM-ONERI-1010-v3-balasagun-tasima-BEKLER uygulanır · LAB-KONUM-ONERI-1010-v3b",
+   s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},
+      {f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},
+      {f:"1634-01-01",t:"1758-01-01",d:"cungar"},

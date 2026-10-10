@@ -104,18 +104,3 @@ index de38d9a33..9d16e839d 100644
      s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
      d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
      v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
-diff --git a/data/yerlesimler_ortaasya3.js b/data/yerlesimler_ortaasya3.js
-index 81bcc627b..08fbd1919 100644
---- a/data/yerlesimler_ortaasya3.js
-+++ b/data/yerlesimler_ortaasya3.js
-@@ -128,8 +128,9 @@ window.YERLESIMLER_ORTAASYA3 = [
- // "XIV. yüzyılda eski önemini kaybetmeye başladı."
- // ⇒ Atlas penceresinin TAMAMINDA meşru bir nokta; Çu vadisinin temsilcisi.
- // `karahanli` kimliği yok ama gerekmiyor: hânedan 1212'de bitiyor.
--{ ad:"Balasagun (Ak-Beşim)", tur:"sehir", lat:42.7600, lon:75.2400, g:1, k:2,
-+{ ad:"Balasagun (Ak-Beşim)", tur:"sehir", lat:42.805, lon:75.199, g:1, k:2,
-   kaynak:"balasagun",
-+  not:"KONUM ÇELİŞKİSİ (iki rakip özdeşleştirme): TDV `balasagun` Balasagun'un 'bugünkü Ak-Peşin harabelerinin bulunduğu yerde kurulmuş olduğu kabul edilmektedir' der; TGN ise Balasagun'u (8711886) Burana ile (8724271, aynı koordinat) özdeşleştirir ve Ak-Beşim'i (8711887) Suyab sayar. Nokta TDV'ye göre (CLAUDE.md §4 birincil) Ak-Beşim'e, TGN 8711887 42.805/75.199'a taşındı; eski nokta 42.7600/75.2400 Burana'daydı (6,02 km). Ak-Beşim tek tanıklı (TGN, 3 hane) · LAB-KONUM-ONERI-1010-v3 ⑥",
-   s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},
-      {f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},
-      {f:"1634-01-01",t:"1758-01-01",d:"cungar"},
