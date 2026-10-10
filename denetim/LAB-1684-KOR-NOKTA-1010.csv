@@ -1,0 +1,41 @@
+﻿no,i_ayniad,ad,tur,lat,lon,makro_bolge,ad_tipi,sinif,dogru_kayit,km,normalizasyon_adimi,onceki_tarama_150km_buldu,not
+1,2222,Cadale,liman,2.752,46.31,AFRIKA-SS,DIGER-YAZI-TRANSLIT,KOORDİNAT UZAK,GN 63344 Cadale P.PPL,1.64,-,evet,"GN T.PT Cadale 2,33"
+2,2130,Verder,sehir,6.96,45.35,AFRIKA-SS,DIGER-YAZI-TRANSLIT,KOORDİNAT UZAK,GN 326282 Warder P.PPL (alt Werder),1.9,B translit (w↔v),hayır,Verder↔Werder
+3,3746,Solwezi,sehir,-12.17,26.38,AFRIKA-SS,DIGER-YAZI-TRANSLIT,KOORDİNAT UZAK,GN 897045 Solwezi P.PPLA,1.03,-,evet,
+4,2624,Upemba (Kisale) havzası,bolge,-8.45,26.55,AFRIKA-SS,PARANTEZ,KOORDİNAT UZAK,GN 10041137 Upemba Depression H.MRSH,23.46,"TR cins sözcüğü (havzası↔Depression, çeviri)","kısmen (Lac Kisale 24,4)","bölge noktası; Lac Upemba 24,75"
+5,3971,Coxim,sehir,-18.5013,-54.751,AMERIKA-OKYANUSYA,AVRUPA-LATIN,KOORDİNAT UZAK,GN 3465228 Coxim P.PPL,1.12,-,evet,
+6,3974,Perdizes,sehir,-19.3434,-47.2963,AMERIKA-OKYANUSYA,AVRUPA-LATIN,KOORDİNAT UZAK,GN 3454157 Perdizes P.PPL,1.11,-,evet,
+7,3986,Flores de Goiás,sehir,-14.4451,-47.0417,AMERIKA-OKYANUSYA,AVRUPA-LATIN,KOORDİNAT UZAK,GN 6317147 Flores de Goiás P.PPL,1.32,-,evet,
+8,3013,Beyan G10.5 B52.5,sehir,-10.5,-52.5,AMERIKA-OKYANUSYA,AVRUPA-LATIN,ÖLÇÜLEMEDİ,—,,-,hayır,"ad bir yer adı değil: sentetik 'Beyan' noktası (kasitli_bosluk, Yukarı Xingu)"
+9,3003,Beyan G7.5 B62.5,sehir,-7.5,-62.5,AMERIKA-OKYANUSYA,AVRUPA-LATIN,ÖLÇÜLEMEDİ,—,,-,hayır,ad bir yer adı değil: sentetik 'Beyan' noktası (kasitli_bosluk)
+10,3405,Fort Sill (Wiçita Dağları),kale,34.663,-98.4,AMERIKA-OKYANUSYA,PARANTEZ,KOORDİNAT UZAK,GN 7267494 Fort Sill S.INSM,1.5,-,evet,"≤1 km: Fort Sill Post Cemetery S.CMTY 0,86 (bileşik ad)"
+11,2730,Manaus (Forte de São José do Rio Negro),kale,-3.119,-60.0217,AMERIKA-OKYANUSYA,PARANTEZ,KOORDİNAT UZAK,GN 3663517 Manaus P.PPLA (alt Barra do Rio Negro),1.93,-,evet,Forte São José kaydı GN'de yok
+12,3084,Kaktovik (Barter Adası),liman,70.0918,-143.6225,AMERIKA-OKYANUSYA,PARANTEZ,KOORDİNAT UZAK,GN 5880062 Barter Island T.ISL,3.36,-,evet,"Kaktovik P.PPL 4,46"
+13,2582,Bau (Fiji Konfederasyonları),bolge,-18.007,178.567,AMERIKA-OKYANUSYA,PARANTEZ,KOORDİNAT UZAK,GN 12041683 Bau A.ADM3,3.63,-,evet,"Bau P.PPL 6,37 · Bau Island 6,42"
+14,3251,Secwépemc (Adams Gölü),sehir,51.0,-119.5,AMERIKA-OKYANUSYA,PARANTEZ,KOORDİNAT UZAK,GN 5882256 Adams Lake P.PPL,13.36,-,evet,"etnonim; Shuswap (=Secwépemc exonym) P.PPL 27,9"
+15,2887,Louisiade-Milne takımadası,bolge,-11.5,153.5,AMERIKA-OKYANUSYA,TR-OSM,KOORDİNAT UZAK,GN 2133000 Louisiade Archipelago T.ISLS,63.91,TR cins sözcüğü (takımadası) + bileşik ad,hayır,bölge noktası
+16,1528,Sakai,liman,34.573,135.483,ASYA,DIGER-YAZI-TRANSLIT,KOORDİNAT UZAK,GN 7391696 Sakai Ku A.ADM3 / 1853195 Sakai P.PPLA2,1.54,-,evet,"≤1 km: Sakai-kuyakusho S.ADMF 0,04 (bileşik ad)"
+17,3919,Dera Gazi Han,sehir,30.05,70.63,ASYA,DIGER-YAZI-TRANSLIT,KOORDİNAT UZAK,GN 1180289 Dera Ghazi Khan P.PPLA2,1.09,"B translit (gh↔g, kh↔h)",hayır,pencereye 90 m
+18,2923,Telembinsk,kale,52.5,113.9,ASYA,DIGER-YAZI-TRANSLIT,ÖLÇÜLEMEDİ,aday: GN 2015405 Telemba P.PPL (alt Telemba-Russkaya),49.21,B translit/türetme (Telembinsk↔Telemba),hayır,ostrog kaydı yok; ardıl köy olup olmadığı doğrulanamadı; atlas 'KOORDİNAT yaklaşık' diyor
+19,1615,Samudra Pasai,liman,5.18,97.07,ASYA,DIGER-YAZI-TRANSLIT,GAZETTEER'DA YOK,—,,-,hayır,"±10 km'de kayıt yok; yalnız adaş Kecamatan Samudera ADM3 17,7 · Sungai Pase 17,7 km"
+20,1062,Guryev (Atyrau),liman,47.11,51.92,ASYA,PARANTEZ,KOORDİNAT UZAK,GN 610529 Atyrau P.PPLA (alt Gur'yev),2.77,-,evet,
+21,1458,Wuchang (Wuhan),sehir,30.5657,114.3337,ASYA,PARANTEZ,KOORDİNAT UZAK,GN 1791351 Wuchang P.PPLX,4.04,-,evet,"Wuhan P.PPLA 6,71"
+22,1359,Gvalyar (Gwalior),kale,26.218,78.183,ASYA,PARANTEZ,KOORDİNAT UZAK,GN 1270583 Gwalior P.PPL,1.63,-,evet,"≤1 km: Gwalior Jn / Gwalior Ng S.RSTN 0,18 (bileşik ad, kaçan yanlış-cins)"
+23,4147,Ning'er (Pu'er),sehir,23.06,101.04,ASYA,PARANTEZ,KOORDİNAT UZAK,GN 1799389 Ning’er P.PPLA3,2.19,-,evet,
+24,2899,Yeni Britanya iç kesimi,bolge,-5.5,150.5,ASYA,TR-OSM,KOORDİNAT UZAK,GN 2089703 New Britain Island T.ISL,40.42,çeviri-exonym (Yeni Britanya↔New Britain) + TR cins,hayır,bölge noktası
+25,1722,Vaygaç,bolge,69.9,59.3,ASYA,TR-OSM,KOORDİNAT UZAK,GN 476326 Ostrov Vaygach T.ISL,14.27,A TR harf (ç↔ch) + cins sözcüğü (Ostrov),hayır,bölge noktası
+26,1679,Kaunas,sehir,54.897,23.886,AVRUPA,AVRUPA-LATIN,KOORDİNAT UZAK,GN 598318 Kaunas A.ADM2 / 598316 P.PPLA,1.32,-,evet,"SINIRDA: ≤1 km Kauno pilis S.CSTL 0,23 (Litvanca -o hâli) · Senamiestis (Kaunas) P.PPLX 0,26 (GN-tarafı parantez)"
+27,452,Meciboj (Mejibuji),kale,49.431,27.415,AVRUPA,PARANTEZ,AD-NORMALİZASYONU,GN 701425 Medzhybizh P.PPL (alt Medzhibozh),0.75,"A2 TR c↔dzh, j↔zh",hayır,
+28,430,Hoggar,bolge,24.0,3.0,MENA-IRAN,AR-FA-TRANSLIT,KOORDİNAT UZAK,GN 2508584 Ahaggar T.MTS (Tassili du Hoggar),303.2,ad varyantı (Hoggar↔Ahaggar),hayır,bölge noktası (kasitli_bosluk); ülke dökümünün tamamı tarandı
+29,696,Muhammere,liman,30.4392,48.1664,MENA-IRAN,AR-FA-TRANSLIT,KOORDİNAT UZAK,GN 127319 Khorramshahr P.PPLA2 (alt Mohammerah),1.72,B2 ünlü + son -h / alternatif ad,hayır,
+30,2341,Dârülbeyzâ (Anfa),liman,33.573,-7.59,MENA-IRAN,PARANTEZ,KOORDİNAT UZAK,GN 2553604 Casablanca P.PPLA (alt Anfa),2.61,-,evet,
+31,2338,Mamûra (Mehdiye),kale,34.256,-6.678,MENA-IRAN,PARANTEZ,AD-NORMALİZASYONU,GN 2542768 Mehdya P.PPL,0.42,"B2 ünlü (Mehdiye↔Mehdya, -iye↔-ya), parantez adı üzerinden",hayır,Mamora kalesi = Mehdiya kasbası
+32,2383,Merâde,bolge,29.23,19.213,MENA-IRAN,TR-OSM,AD-NORMALİZASYONU,PL 363995 Marada settlement,0.54,B2 ünlü (Merâde↔Marada),hayır,"GN Marādah P.PPL 1,33"
+33,2234,Atbay çölü,bolge,19.8,34.8,MENA-IRAN,TR-OSM,KOORDİNAT UZAK,GN 359757 ‘Atbāy L.RGN (EG),245.5,TR cins (çölü) + ‘ / ay↔ai,hayır,bölge noktası (kasitli_bosluk); SD+EG dökümü tamamı tarandı
+34,2343,Verzâzât,sehir,30.92,-6.91,MENA-IRAN,TR-OSM,KOORDİNAT UZAK,GN 2540850 Ouarzazate P.PPLA2 (alt Varzazat),1.59,B2 ünlü/ou↔v,hayır,
+35,2377,Sinâvin,sehir,31.007,10.616,MENA-IRAN,TR-OSM,KOORDİNAT UZAK,GN 2210688 Sīnāwin P.PPL,2.48,B translit (w↔v),hayır,"PL Sinawen 2,92"
+36,998,Ebû Hamed,sehir,19.535,33.319,MENA-IRAN,TR-OSM,AD-NORMALİZASYONU,GN 380858 Abū Ḩamad P.PPL,0.31,B2 ünlü (Ebû↔Abū),hayır,
+37,491,Karatigin,kale,40.42,29.78,OSM-CEKIRDEK(Balkan-Anadolu-Kafkas),AVRUPA-LATIN,ÖLÇÜLEMEDİ,aday: PL 511367 *Ploketta settlement,0.26,? (Ploketta = Karatigin ise ad varyantı),hayır,"atlas koordinatı Barrington *Ploketta'ya 0,26 km; kimlik bağı kaynakla kurulamadı; GN Karadin 8,7 km"
+38,504,Harput (Elazığ),kale,38.714,39.245,OSM-CEKIRDEK(Balkan-Anadolu-Kafkas),PARANTEZ,KOORDİNAT UZAK,GN 312532 Harput P.PPLA3 / Harput Kalesi S.CSTL,1.14,-,evet,
+39,188,İmroz,kale,40.163,25.905,OSM-CEKIRDEK(Balkan-Anadolu-Kafkas),TR-OSM,KOORDİNAT UZAK,"PL 501439 Imbros (island) / GN Gökçeada (alt İmroz) 4,25",4.1,-,evet,"Kaleköy 7,77"
+40,648,Bîcâr,sehir,35.8728,47.6053,OSM-CEKIRDEK(Balkan-Anadolu-Kafkas),TR-OSM,AD-NORMALİZASYONU,GN 140521 Bījār P.PPL,0.67,A2 TR c↔j,hayır,"GN Bījār ADM2 0,83"
