@@ -1,0 +1,365 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 627c4be9..27a73c8b 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -3098,6 +3098,25 @@ BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
+ # olmadan yazılamaz. Düşerse `--yaz` ile indirilir.
+ BEKLENEN_DEVIR_BEYANI = 2   # 9 EKIM 2026: 1 -> 2 · HUKUM (koordinator) · EPOK-SAHIP-1009 Canakkale. Sartname yerine getirildi: devir_beyani KAYNAK CUMLESINI tasiyor — TDV canakkale 'kurulusu pek eski donemlere inmeyen ve temeli Fatih Sultan Mehmed doneminde atilmis olan bir XV. yuzyil sehri' + 'bu caminin yapimi kaleden de once 1452 yilindadir' ⇒ kur:1452, kurulusun UST siniri. 1281-1452 donemleri BOLGE vekilidir. Bugunku tek uye UZUNKOPRU (kur:1443, Ergene Koprusu) ile YAPISAL OLARAK AYNI sinif. BLANKET DEGIL: ucuncu uye yine hukum ister · ONCESI: 28 Eylul, ilk ve tek kayit Uzunkopru
+ 
++# ── D5-GUN-1010 (koordinatör kararı (b), dayanak `denetim/KUR-KAPI-OLCUM-1010.md`) ──
++# 🔴 Tarih farkı ve SIRA yalnız `arac/gun.py` ile, SAYISAL gün. Eski yol
++#   (`_gun_farki` = split + `datetime.date`, dizgi `sort()`, dizgi eşikleri)
++#   MÖ ve 0 yılında None dönüyordu ve `g is not None` şartı onu SESSİZCE TEMİZ
++#   sayıyordu (B1); None hiçbir kovaya düşmüyordu (B2). `gun.gun()` geçersizde
++#   FIRLATIR ⇒ ayrıştırılamayan tarih ADIYLA `OLCULEMEDI_KOVA`ya ⇒ çıkış 2.
++# ⚠️ `_gun_farki` BİLEREK değiştirilmedi: 4c/4d ve `_harita_tarih_sec` onun None
++#   sözleşmesini okuyor — o işlevler bu yamanın bölgesi DEĞİL (NEGATIF-YIL-B ayrı).
++import gun as _gun_d5          # yalnız İTHAL — tuz dosyası değil, tuz bozulmaz
++D5_ALANLAR = ("d", "s", "v", "isg")   # B3: işgal de "o gün VAR mıydı" ister
++D5_SINIF_ARTEFAKT = "hassasiyet artefaktı (yıl vs gün)"
++D5_SINIF_GERCEK = "olası gerçek çelişki — kaynakla sınanacak"
++D5C_KOVA_AD = ("kur: YOK · bölge değil · kasitli_bosluk yok · ilk dönem ≤%d ⇒ "
++               "ÖLÇÜLEMEDİ (muaf değil, ihlal değil, kapsam dışı değil)")
++# 5c TAVANI — §3.4: İŞÇİ ÖNERİR, KOORDİNATÖR YAZAR. Bugünkü ölçümdür (dondurma,
++# onay değil). Çıkış kodunu ETKİLEMEZ (koordinatör kararı b-5); aşılırsa ⚠️ basılır,
++# iyileşince "TAVAN GEVŞEK" ile indirilmesi istenir.
++BEKLENEN_D5C = 2449   # D5-GUN-1010 ÖNERİSİ (koordinatör yazar) · ölçüm 2026-10-10 06:40 UMIT · taban b860f4c9 · eski koddaki 5c ile ADIYLA özdeş
++
+ 
+ # 🔴 5c — VE BU DAL, 5b YAZILDIKTAN BİR SAAT SONRA DOĞDU, ÇÜNKÜ 5b'NİN
+ # MENZİLİ DIŞINDA KOCA BİR SINIF VARDI. Bulan denetim değil, bir İŞÇİ
+@@ -3122,7 +3141,27 @@ BEKLENEN_DEVIR_BEYANI = 2   # 9 EKIM 2026: 1 -> 2 · HUKUM (koordinator) · EPOK
+ #   (ölçüldü: 2527 kaydın 2527'sinde `tur:` var). Kalan ikisini
+ #   (meşru / şüpheli) ayırmak ARAŞTIRMADIR, denetimin işi değil: bu dal
+ #   *"nereye BAKILACAK"* der, *"ne YAZILACAK"* demez.
+-def degismez5(Y):
++def _d5_yil_hassas(s):
++    """`YYYY` ya da `YYYY-01-01` ⇒ yıl hassasiyetli (atlas kuralı: gün bilinmiyorsa
++    `YYYY-01-01`, CLAUDE.md §4). `YYYY-MM` ay hassasiyetidir, yıl DEĞİL."""
++    m = re.match(r"^[+-]?\d{1,6}(?:-(\d{2})(?:-(\d{2}))?)?$", str(s).strip())
++    if not m:
++        return False
++    return m.group(1) is None or (m.group(1) == "01" and m.group(2) == "01")
++
++
++def _d5_tolerans_sinif(kur, f):
++    """Tolerans altı kalemi SINIFLAR. Aynı astronomik yıl + taraflardan biri yıl
++    hassasiyetli ⇒ fark kaynağın değil yazımın (Yakutsk sınıfı). Değilse ⇒
++    iki tarih farklı yıllarda ya da aynı hassasiyette: olası GERÇEK çelişki
++    (Berezov: kur 1593 / rusya 1592, ikisi de yıl hassasiyetli)."""
++    ayni_yil = _gun_d5.yil(_gun_d5.gun(kur)) == _gun_d5.yil(_gun_d5.gun(f))
++    if ayni_yil and (_d5_yil_hassas(kur) or _d5_yil_hassas(f)):
++        return D5_SINIF_ARTEFAKT
++    return D5_SINIF_GERCEK
++
++
++def degismez5(Y, ek=None):
+     """(celiskiler, supheliler, kursuz, muaflar) — 5a ihlal, 5b/5c borç listesi,
+     5a-muaf DEVİR BEYANI kayıtları.
+ 
+@@ -3151,67 +3190,202 @@ def degismez5(Y):
+     FREEZE — `Değişmez 8` deseni; yalnız gerileme bloke eder).
+     ⚠️ Ve muafiyet KAPANIŞ KANITI DEĞİLDİR: devrin gerçekten çalıştığı
+     ancak KOŞUDAN SONRA peteğin komşulara geçtiği ölçülerek görülür.
++
++    🆕 D5-GUN-1010: ① fark ve sıra `arac/gun.py` ile SAYISAL gün · ② okunamayan
++    `f`/`kur:` → `ek["olculemedi"]` ADIYLA (rapor `OLCULEMEDI_KOVA`ya düşürür) ·
++    ③ `isg:` evrende · ④ 0 < fark ≤ tolerans → `ek["tolerans"]` ADIYLA, sınıflı.
++    Dönüş imzası DEĞİŞMEDİ (4'lü); ek kovalar yalnız `ek` sözlüğü verilirse dolar.
+     """
+     celiski, suphe, kursuz, muaf = [], [], [], []
++    tolerans, olcm = [], []
++    ufuk_yil = _gun_d5.yil(_gun_d5.gun(VERI_UFKU[0]))
++    esik_5b = _gun_d5.gun_sayisi(ufuk_yil + SUPHE_ESIK_YIL, 1, 1)   # 1381-01-01
++    esik_5c = _gun_d5.gun_sayisi(ufuk_yil, 12, 31)                  # 1281-12-31
+     for y in Y:
++        ad = y.get("ad") or "?"
++        kay = y.get("_kaynak") or ""
++        kur_ham = y.get("kur")
++        kur = kur_ham.strip() if isinstance(kur_ham, str) else kur_ham
++        kur_var = kur not in (None, "")
++        kur_n = None
++        if kur_var:
++            try:
++                kur_n = _gun_d5.gun(kur)
++            except (TypeError, ValueError) as e:
++                olcm.append((ad, "kur", kur, str(e), kay))
+         donemler = []
+-        for k in ("d", "s", "v"):
++        for k in D5_ALANLAR:
+             for p in (y.get(k) or []):
++                if not isinstance(p, dict):
++                    continue
+                 f = p.get("f")
+-                if f:
+-                    donemler.append((f, k, p.get("d") or "",
+-                                     (p.get("kaynak") or "").strip()))
++                if not f:
++                    continue
++                try:
++                    n = _gun_d5.gun(f)
++                except (TypeError, ValueError) as e:
++                    olcm.append((ad, k + ".f", f, str(e), kay))
++                    continue
++                donemler.append((n, f, k, p.get("d") or "",
++                                 (p.get("kaynak") or "").strip()))
+         if not donemler:
+             continue
+-        donemler.sort()
+-        ilk = donemler[0][0]
+-        kur = (y.get("kur") or "").strip()
+-        if kur:
++        donemler.sort(key=lambda p: (p[0], p[2], p[3]))   # SAYISAL gün, sonra alan/kimlik
++        ilk_n, ilk, ilk_k, ilk_kim = donemler[0][:4]
++        if kur_var:
++            if kur_n is None:
++                continue        # ÖLÇÜLEMEDİ — kovaya düştü; kur VAR, 5b/5c'nin işi değil
+             # 5a — dönem kuruluştan ÖNCE başlıyor mu
+-            # 🔴 SIRA ÖNEMLİ: `_gun_farki(a, b)` = a − b (gün).
+-            # İlk yazımda `_gun_farki(ilk, kur)` yazdım ve denetim
+-            # NORMALİ ihlal saydı: Doha kur:1825 · ilk dönem 1871 →
+-            # "46,7 yıl ÖNCE" diye bağırdı, oysa dönem kuruluştan SONRA.
+-            # Beş "ihlal"in beşi de böyleydi. ⇒ Alet öttü, ama BAŞKA BİR
+-            # SORUYU sordu — *"ölçüm doğru, çıkarım yanlış"* ailesinin
+-            # işaret yüzü, ve onu YALNIZ ÇIKTIYI OKUMAK ele verdi.
+-            g = _gun_farki(kur, ilk)     # kur − ilk; pozitifse dönem ÖNCE
+-            if g is not None and g > HAYALET_TOLERANS_GUN:
++            # 🔴 SIRA ÖNEMLİ: g = kur − ilk (gün). Pozitifse dönem ÖNCE.
++            #   (Doha vakası: ters yazım normali ihlal saymıştı — eski yorum.)
++            g = kur_n - ilk_n
++            if g > HAYALET_TOLERANS_GUN:
+                 # ── DEVİR BEYANI muafiyeti — iki kilit, ikisi de şart
+                 beyan = (y.get("devir_beyani") or "")
+                 beyan = beyan.strip() if isinstance(beyan, str) else ""
+                 # (b) `kur:`dan ÖNCE başlayan dönemlerden biri bile kendi
+                 #     `kaynak:`ını taşıyorsa kasaba o gün VARDI ⇒ muafiyet YOK
+                 onceki_kaynakli = any(
+-                    p[3] for p in donemler
+-                    if (_gun_farki(kur, p[0]) or 0) > HAYALET_TOLERANS_GUN)
++                    p[4] for p in donemler
++                    if kur_n - p[0] > HAYALET_TOLERANS_GUN)
+                 if beyan and not onceki_kaynakli:
+-                    muaf.append((y["ad"], kur, ilk, donemler[0][2],
+-                                 g / 365.25, beyan))
++                    muaf.append((ad, kur, ilk, ilk_kim, g / 365.25, beyan))
+                 else:
+-                    celiski.append((y["ad"], kur, ilk, donemler[0][2],
+-                                    g / 365.25))
++                    celiski.append((ad, kur, ilk, ilk_kim, g / 365.25))
++            elif g > 0:
++                # B4 — tolerans YUTTU: ihlal sayılmaz ama ADIYLA görünür
++                tolerans.append((ad, kur, ilk, ilk_k, ilk_kim, g,
++                                 _d5_tolerans_sinif(kur, ilk), kay))
+         else:
+             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
+-            if ilk > "%04d-01-01" % (int(VERI_UFKU[0][:4]) + SUPHE_ESIK_YIL):
+-                suphe.append((y["ad"], ilk, donemler[0][2],
++            if ilk_n > esik_5b:
++                suphe.append((ad, ilk, ilk_kim,
+                               round(y.get("lat", 0), 2),
+                               round(y.get("lon", 0), 2)))
+             elif (y.get("tur") != "bolge"
+                   and not y.get("kasitli_bosluk")
+-                  and ilk <= VERI_UFKU[0][:4] + "-12-31"):
+-                # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
+-                # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
+-                kursuz.append((y["ad"], ilk, donemler[0][2],
+-                               y.get("tur") or "", y.get("_kaynak") or "",
++                  and ilk_n <= esik_5c):
++                # 5c — `kur:` HİÇ YOK, ilk dönem ≤ VERI_UFKU yılı ⇒ "kur'dan
++                # önce mi" sorusu SORULAMAZ: ÖLÇÜLEMEDİ kovası (ad D5C_KOVA_AD).
++                # ⚠️ "1281'de ZATEN SAHİPLİ" DEĞİL: Z6'dan sonra bir kısmı
++                #   1281'den ÖNCE başlıyor (KUR-KAPI-OLCUM-1010: 80 kayıt).
++                kursuz.append((ad, ilk, ilk_kim, y.get("tur") or "", kay,
+                                round(y.get("lat", 0), 2),
+                                round(y.get("lon", 0), 2)))
+-    suphe.sort(key=lambda r: r[1])
++    suphe.sort(key=lambda r: (_gun_d5.gun(r[1]), r[0]))
+     kursuz.sort(key=lambda r: (r[4], r[0]))
+     muaf.sort()
++    tolerans.sort(key=lambda r: (r[6] != D5_SINIF_GERCEK, r[0]))
++    if ek is not None:
++        ek["tolerans"] = tolerans
++        ek["olculemedi"] = olcm
+     return celiski, suphe, kursuz, muaf
+ 
+ 
++def degismez5_rapor(Y, ayrinti=False):
++    """main() için Değişmez 5 bölümü: basar, ihlal varsa True döner.
++    Ölçülemeyen tarihleri ADIYLA `OLCULEMEDI_KOVA`ya düşürür (⇒ çıkış 2).
++    Tolerans ve 5c kovaları BİLGİDİR — çıkış kodunu ETKİLEMEZ."""
++    ek = {}
++    celiski, suphe, kursuz, muaf5 = degismez5(Y, ek=ek)
++    tol, olcm = ek["tolerans"], ek["olculemedi"]
++    ihlal = False
++    n5 = len(celiski)
++    durum5 = "✓" if n5 <= BEKLENEN_HAYALET_YERLESIM else "✗"
++    if n5 > BEKLENEN_HAYALET_YERLESIM:
++        ihlal = True
++    print(f"\nDeğişmez 5  {durum5}  {n5} çelişki "
++          f"(beklenen {BEKLENEN_HAYALET_YERLESIM}) — dönem (d/s/v/isg) `kur:`dan "
++          f"ÖNCE başlıyor · gün sayacı `arac/gun.py` · tolerans {HAYALET_TOLERANS_GUN} gün")
++    # 5a-muaf — DEVİR BEYANI. Tavan FREEZE'dir, onay değil: yalnız GERİLEME
++    # bloke eder. Muafiyet bir kapanış kanıtı DEĞİLDİR — devrin çalıştığı
++    # ancak koşudan sonra peteğin komşulara geçtiği ölçülerek görülür.
++    if muaf5 or BEKLENEN_DEVIR_BEYANI:
++        durum5m = "✓" if len(muaf5) <= BEKLENEN_DEVIR_BEYANI else "✗"
++        if len(muaf5) > BEKLENEN_DEVIR_BEYANI:
++            ihlal = True
++        print(f"Değişmez 5a-muaf {durum5m}  {len(muaf5)} kayıt `devir_beyani` "
++              f"ile muaf (tavan {BEKLENEN_DEVIR_BEYANI}) — motorun petek "
++              f"devri BU BİÇİMLE tetikleniyor")
++        for ad, kur, ilk, kim, yil, beyan in muaf5[:6]:
++            print(f"    {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
++                  f"{yil:.1f} yıl ÖNCE  · beyan: {beyan[:60]}")
++    for ad, kur, ilk, kim, yil in (celiski if ayrinti else celiski[:12]):
++        print(f"    5a  {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
++              f"{yil:.1f} yıl ÖNCE")
++    if n5 > 12 and not ayrinti:
++        print(f"    … {n5 - 12} tane daha (--ayrinti)")
++    # ÖLÇÜLEMEDİ — B2: None artık sessiz temiz değil, ADIYLA kova ⇒ çıkış 2
++    if olcm:
++        print(f"Değişmez 5  !  ÖLÇÜLEMEDİ — {len(olcm)} tarih `arac/gun.py` ile "
++              f"ayrıştırılamadı; o kayıtta soru SORULAMADI (temiz DEĞİL)")
++        for ad, alan, deger, sebep, kay in olcm:
++            print(f"    5-olc  {ad:<24} {alan:<6} {deger!r}  [{kay}]  — {sebep}")
++            olculemedi(f"Değişmez 5 · {ad} · {alan}", f"{deger!r}: {sebep}")
++    # TOLERANS — B4: yuttuğunu SÖYLER. BİLGİ kovası, çıkış kodunu ETKİLEMEZ.
++    _sn = {}
++    for r in tol:
++        _sn[r[6]] = _sn.get(r[6], 0) + 1
++    print(f"Değişmez 5t i  tolerans yuttu: {len(tol)} kalem — 0 < kur − ilk dönem "
++          f"≤ {HAYALET_TOLERANS_GUN} gün; ihlal SAYILMADI, çıkış kodunu ETKİLEMEZ"
++          + ("" if not _sn else " · " + " · ".join(f"{k}: {v}" for k, v in sorted(_sn.items()))))
++    _gercek = [r[0] for r in tol if r[6] == D5_SINIF_GERCEK]
++    if _gercek:
++        print(f"               🔴 {D5_SINIF_GERCEK}: " + ", ".join(_gercek[:8])
++              + (f" … +{len(_gercek) - 8}" if len(_gercek) > 8 else ""))
++    if ayrinti:
++        for ad, kur, ilk, alan, kim, g, sinif, kay in tol:
++            print(f"    5-tol  {ad:<24} kur:{kur}  ilk {ilk} ({alan} {kim})  "
++                  f"{g} gün ÖNCE · {sinif}  [{kay}]")
++    elif tol:
++        print("               liste: --ayrinti")
++    # 5b — BORÇ LİSTESİ, ihlal DEĞİL. Çıkış kodunu etkilemez.
++    ufuk_yil = _gun_d5.yil(_gun_d5.gun(VERI_UFKU[0]))
++    print(f"Değişmez 5b i  {len(suphe)} nokta: `kur:` YOK ve ilk dönemi "
++          f"{ufuk_yil + SUPHE_ESIK_YIL}'den sonra başlıyor")
++    print( "               ⇒ İHLAL DEĞİL, BORÇ LİSTESİ. Bir nokta gerçekten")
++    print( "                 eski olup ilk kaydı geç başlıyor OLABİLİR — ama")
++    print( "                 sayılmayan borç yarın kusur diye keşfedilir.")
++    if suphe:
++        for ad, ilk, kim, la, lo in (suphe if ayrinti else suphe[:10]):
++            print(f"                 {ad:<26} ilk {ilk} ({kim:<14}) "
++                  f"{la:7.2f},{lo:8.2f}")
++        if not ayrinti and len(suphe) > 10:
++            print(f"                 … {len(suphe) - 10} tane daha (--ayrinti)")
++    # 5c — ADLI KOVA + TAVAN + BİLGİ (D5-GUN-1010, koordinatör kararı b-5)
++    n5c = len(kursuz)
++    _once = sum(1 for r in kursuz if _gun_d5.gun(r[1]) < _gun_d5.gun(VERI_UFKU[0]))
++    print(f"Değişmez 5c i  {n5c} nokta (tavan {BEKLENEN_D5C}) — "
++          f"{D5C_KOVA_AD % ufuk_yil}")
++    print(f"               çıkış kodunu ETKİLEMEZ · ilk dönemi {VERI_UFKU[0]}'den "
++          f"ÖNCE başlayan: {_once} (Z6 ufku) — 'zaten sahipli' DEĞİL, SORULAMADI")
++    if n5c > BEKLENEN_D5C:
++        print(f"               ⚠️ TAVAN AŞILDI — +{n5c - BEKLENEN_D5C} yeni `kur:`suz kayıt. "
++              f"Çıkış kodu bugün DEĞİŞMEZ (karar b-5); `--ayrinti` listesini önceki "
++              f"koşuyla ADIYLA karşılaştır, gerekçesiz artış yeni kayda `kur:` istemektir.")
++    elif n5c < BEKLENEN_D5C:
++        print(f"               ⚠️ TAVAN GEVŞEK — BEKLENEN_D5C = {n5c} yapılmalı "
++              f"(aradaki {BEKLENEN_D5C - n5c} puanlık gerileme GÖRÜNMEZ).")
++    print( "               🔴 BU SAYI KÜRESEL OLARAK İŞE YARAMAZ: Bursa · Konya ·")
++    print( "                 Kahire de bu kovada, üçü de MEŞRU. Erken var olmak")
++    print( "                 Anadolu'da normaldir, SİBİRYA'da şüphelidir — anlamı")
++    print( "                 BÖLGEYE bağlı ve bu dal bölge bilmiyor.")
++    print( "               ⇒ KULLANIMI: kendi kutunda süz. Aşağıdaki DOSYA")
++    print( "                 dağılımı o yüzden basılıyor. Meşru/şüpheli ayrımı")
++    print( "                 ARAŞTIRMADIR — bu dal nereye BAKILACAĞINI söyler.")
++    if kursuz:
++        _kay = {}
++        for r in kursuz:
++            _kay[r[4]] = _kay.get(r[4], 0) + 1
++        for _d, _n in sorted(_kay.items(), key=lambda x: -x[1])[:8]:
++            print(f"                 {_d:<34} {_n}")
++        if ayrinti:
++            for ad, ilk, kim, tur, kay, la, lo in kursuz:
++                print(f"    5c   {ad:<28} {tur:<7} ilk {ilk} "
++                      f"({kim:<14}) {la:7.2f},{lo:8.2f}  [{kay}]")
++    return ihlal
++
++
+ # ---------------- Değişmez 7 — ENKLAV SORGUSU ----------------------------
+ # 🔴 DOĞURAN CÜMLE (Emre, 25 Ağustos 2026 — `Değişmez 7` olarak onayladı):
+ #   *"Eğer bir toprak kazancı ana parçadan ada gibi enklav şekilde kopuk ise
+@@ -7067,69 +7241,9 @@ def main():
+             for _k, (_ids, _n) in sorted(_ch.items(), key=lambda x: -x[1][1]):
+                 print(f"                 {_k:<20} {_n} dönem → {_ids}")
+ 
+-    # ── Değişmez 5 — HAYALET YERLEŞİM ────────────────────────────────
+-    celiski, suphe, kursuz, muaf5 = degismez5(Y)
+-    n5 = len(celiski)
+-    durum5 = "✓" if n5 <= BEKLENEN_HAYALET_YERLESIM else "✗"
+-    if n5 > BEKLENEN_HAYALET_YERLESIM:
++    # ── Değişmez 5 — HAYALET YERLEŞİM (D5-GUN-1010: bölüm `degismez5_rapor`da) ──
++    if degismez5_rapor(Y, ayrinti=args.ayrinti):
+         ihlal = True
+-    print(f"\nDeğişmez 5  {durum5}  {n5} çelişki "
+-          f"(beklenen {BEKLENEN_HAYALET_YERLESIM}) — dönem `kur:`dan ÖNCE başlıyor")
+-    # 5a-muaf — DEVİR BEYANI. Tavan FREEZE'dir, onay değil: yalnız GERİLEME
+-    # bloke eder. Muafiyet bir kapanış kanıtı DEĞİLDİR — devrin çalıştığı
+-    # ancak koşudan sonra peteğin komşulara geçtiği ölçülerek görülür.
+-    if muaf5 or BEKLENEN_DEVIR_BEYANI:
+-        durum5m = "✓" if len(muaf5) <= BEKLENEN_DEVIR_BEYANI else "✗"
+-        if len(muaf5) > BEKLENEN_DEVIR_BEYANI:
+-            ihlal = True
+-        print(f"Değişmez 5a-muaf {durum5m}  {len(muaf5)} kayıt `devir_beyani` "
+-              f"ile muaf (tavan {BEKLENEN_DEVIR_BEYANI}) — motorun petek "
+-              f"devri BU BİÇİMLE tetikleniyor")
+-        for ad, kur, ilk, kim, yil, beyan in muaf5[:6]:
+-            print(f"    {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
+-                  f"{yil:.1f} yıl ÖNCE  · beyan: {beyan[:60]}")
+-    for ad, kur, ilk, kim, yil in celiski[:12]:
+-        print(f"    {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
+-              f"{yil:.1f} yıl ÖNCE")
+-    if n5 > 12:
+-        print(f"    … {n5 - 12} tane daha (--ayrinti)")
+-    # 5b — BORÇ LİSTESİ, ihlal DEĞİL. Çıkış kodunu etkilemez.
+-    print(f"Değişmez 5b i  {len(suphe)} nokta: `kur:` YOK ve ilk dönemi "
+-          f"{1281 + SUPHE_ESIK_YIL}'den sonra başlıyor")
+-    print( "               ⇒ İHLAL DEĞİL, BORÇ LİSTESİ. Bir nokta gerçekten")
+-    print( "                 eski olup ilk kaydı geç başlıyor OLABİLİR — ama")
+-    print( "                 sayılmayan borç yarın kusur diye keşfedilir.")
+-    if suphe:
+-        for ad, ilk, kim, la, lo in (suphe if args.ayrinti else suphe[:10]):
+-            print(f"                 {ad:<26} ilk {ilk} ({kim:<14}) "
+-                  f"{la:7.2f},{lo:8.2f}")
+-        if not args.ayrinti and len(suphe) > 10:
+-            print(f"                 … {len(suphe) - 10} tane daha (--ayrinti)")
+-    # 5c — İKİ SÜZGEÇ ARASINDAN GEÇEN SINIF (NOKTA SİBİRYA 2, M-0121)
+-    print(f"Değişmez 5c i  {len(kursuz)} nokta: `kur:` HİÇ YOK ve 1281'de "
+-          f"ZATEN SAHİPLİ")
+-    print( "               🔴 BU SAYI KÜRESEL OLARAK İŞE YARAMAZ ve sebebini")
+-    print( "                 yazıyorum: Bursa · Konya · Kahire de bu kovada,")
+-    print( "                 üçü de MEŞRU. 1281'de var olmak Anadolu'da")
+-    print( "                 normaldir, SİBİRYA'da şüphelidir — yani anlamı")
+-    print( "                 BÖLGEYE bağlı ve bu dal bölge bilmiyor.")
+-    print( "               ⇒ KULLANIMI: kendi kutunda süz. Aşağıdaki DOSYA")
+-    print( "                 dağılımı o yüzden basılıyor — bir araştırma")
+-    print( "                 partisi kendi dosyasının satırına bakar.")
+-    print( "               ⚠️ `tur:\"bolge\"` dolgu noktaları DIŞARIDA tutuldu")
+-    print( "                 (kurulmazlar, hep vardırlar). Kalanı meşru/şüpheli")
+-    print( "                 diye ayırmak ARAŞTIRMADIR — bu dal nereye")
+-    print( "                 BAKILACAĞINI söyler, ne YAZILACAĞINI değil.")
+-    if kursuz:
+-        _kay = {}
+-        for r in kursuz:
+-            _kay[r[4]] = _kay.get(r[4], 0) + 1
+-        for _d, _n in sorted(_kay.items(), key=lambda x: -x[1])[:8]:
+-            print(f"                 {_d:<34} {_n}")
+-        if args.ayrinti:
+-            for ad, ilk, kim, tur, kay, la, lo in kursuz:
+-                print(f"                   {ad:<28} {tur:<7} ilk {ilk} "
+-                      f"({kim:<14}) {la:7.2f},{lo:8.2f}")
+ 
+     # ── Değişmez 7 — ENKLAV SORGUSU ──────────────────────────────────
+     d7isg = {}
