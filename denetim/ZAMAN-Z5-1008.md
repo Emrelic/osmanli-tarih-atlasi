@@ -531,3 +531,66 @@ Yalnız v3'te: **Tehuantepec** (X_ANOMALI silindi). Yalnız v2'de: yok.
 ### Temizlik
 Worktree'ler `C:\atlas-umit-z5v3` (tmp commit + v3 + `--yaz`) · `C:\atlas-umit-z5v3b` (v2 aynı tabanda) · `C:\atlas-umit-z5v3c`
 (P ölçümü) kaldırıldı; tmp commit hiçbir dala bağlı değildi. C:\atlas'a yazılmadı.
+
+
+---
+
+## § v4 (1010) — Timbuktu satırı eklendi (SESSIZ-7 v2 tabanında) · v3'ün YERİNE
+
+UMIT işçi · commit/push YOK · stash YOK · `--yaz` hiçbir yerde koşmadı (yalnız kuru koşu).
+Koordinatör hükmü: "Z5'e Timbuktu satırı eklensin, iniş sırası çözmez."
+
+YENİ DOSYALAR: denetim/ZAMAN-Z5-1009-KOORD-v4.diff
+SİLİNEN: denetim/ZAMAN-Z5-1009-KOORD-v3.diff (v4 yerine geçti; koordinatör talimatı)
+
+### İNİŞ SIRASI
+1. **YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff** (`arac/denetle.py` + `data/yerlesimler.js` Timbuktu satırı)
+2. **Z5 v4**: bu diff, sonra `py arac/_sahiplik_uygula.py --yaz --yama-glob '^yer_yama_1923_1945\.js$'` (`--taban` GEREKMEZ)
+(KAPI · PAKET-v2 · Z6 yaması zaten main'de: `_sahiplik_uygula.py` taban kapısını taşıyor, `UFUK = 1000→1945`, İznik `selcuklu 1078`.)
+
+### TABAN — tam tarif
+`4e59f6bce98f70503f8bf84ba9298170a1d38fad` = **YEREL geçici commit, push YOK**, hiçbir dala bağlı değil (worktree silindi):
+origin/main **`7d7b5ee1`** + **`YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff`** (`git diff --stat HEAD`: 2 dosya, +12/−1: denetle.py 11 · yerlesimler.js 1).
+- **SESSIZ-7'nin v2'si kullanıldı.** İş başladığında diskte yalnız v1 vardı; v1 ile üretip kapıdan geçirdim, sonra v2 geldi ve main
+  `2d931a6f → 7d7b5ee1` ilerledi. Tabanı v2 + yeni main ile BAŞTAN kurdum. Ölçülen farklar:
+  - v1 ↔ v2: `yerlesimler.js` Timbuktu satırında **`s:` BİREBİR aynı**, yalnız `neden:` metni farklı. v2 dört `yer_yama_*` dosyasına dokunmuyor (v1 dokunuyordu).
+    denetle.py istisna yorumu genişledi.
+  - main `2d931a6f..7d7b5ee1`: `data/` + `arac/` farkı **0**.
+  - Gövde: v1 tabanlı ve v2 tabanlı v4 başlık dışında **0 satır** farklı.
+- Gövde başlığında `// TABAN TARİFİ:` satırı var.
+
+### Timbuktu — kova ve 1923-1945 sahibi
+- Taban: `… tekrur 1862→1893 · (1893-1894 BEYANLI veri-yok) · fransa-cumhuriyet 1894-01-01→1923-10-29`.
+- Üretici: **A_mekanik (A2_bolge_disi)**. Sahip `fransa-cumhuriyet` künye t `1945-09-02` ⇒ yalnız t uzar: **`fransa-cumhuriyet 1894-01-01→1945-09-02`**, A beyanı `not:`ta.
+  `taban.s` son dönemi `…→1923-10-29`.
+- **"Fransız Sudanı" künyesi YOK** (koddan tarandı: id/ad'da sudan+fran 0). Var olan: `fransiz-bati-afrika` "Fransız Batı Afrikası (AOF)"
+  1895-06-16→1959-01-01, `harita:"fransa-cumhuriyet"`. Veri `fransa-cumhuriyet` diyor. Z5 mekanik kova sahibi DEĞİŞTİRMEZ; AOF'a geçiş
+  1281-1923 dilimi kararıdır. Boyası aynı olduğu için haritada fark yok.
+- I-aday işareti ("1940-44 Alman/İtalyan") künye düzeyindedir, Timbuktu için anlamsız (Vichy AOF işgal edilmedi). Bilgi.
+
+### v3 ↔ v4 — kayıt kayıt
+v3 3.987 · v4 **3.988**. Yalnız v4'te: **Timbuktu**. Yalnız v3'te: yok. Ortak 3.987 kayıtta **tam kayıt** (s/isg/v/not/`taban`) farkı **0**.
+⇒ v3'ün taban beyanları bugünkü main'de de taze; tek eksiği Timbuktu'ydu.
+
+### Kapı (kuru koşu, PYTHONHASHSEED=0)
+| koşu | çıkış | sonuç |
+|---|---|---|
+| **v4 · taban (main + SESSIZ-7 v2)** | **0** | uygulandi 3.988 · atlanan 0 · TABAN TAZE · geri alma TAZE · geri okuma 3.988/3.988 ✓ · mükerrer-tekillendi 2 · not-eklendi 712 |
+| v4 · **SESSIZ-7'siz** main `7d7b5ee1` (sıra kanıtı) | **2** | **BAYAT TABAN 1: Timbuktu** `[yerlesimler.js · s]`. Tabandaki `fas 1591→1750 · arma · tuareg…` bugün yok, bugün `fas 1591→1700` ⇒ v4 SESSIZ-7'den önce inerse Timbuktu zincirini yazardı; kapı DURDURUYOR |
+- ⚠️ İkinci koşuda geri alma kapısı ayrıca `KAPI ÖLÇEMEDİ — git diff hata:` (boş mesaj) bastı. Hüküm yine çıkış 2 (taban kapısı). Sebebini
+  ölçmedim (bulunamadı). Aynı ağaçta önceki bir koşuyu yarıda durdurmuştum; ilişkisi doğrulanmadı.
+- Not: v1 tabanındaki ilk iki koşu (v4 + sıra kanıtı, paralel) `CIKIS=127` ile aynı satırda kesildi (makine yükü olabilir; ölçülmedi). Tek başına yeniden koşulan v1-tabanlı v4 **çıkış 0, TAZE** verdi. v1-tabanlı sıra kanıtını v2 gelince durdurdum. Tablodaki iki sonuç v2 tabanında, sırayla koşuldu.
+
+### Bağımsız dilim kontrolü (taban üzerinde)
+v4: ÖNCE1281 dilimi farklı **0** · 1281-1923 dilimi farklı **0** · Z6'nın 140 once1281 döneminden Z5'te eksik **0** (77 `s:` yazan ortak; Tunus ayrık alan).
+
+### Ölçüm
+`denetle.py` koşmadı: v4'ün v3'ten tek farkı Timbuktu'nun 1923-45 kuyruğu. Etki beklentisi: Değişmez 1/1c'de Timbuktu ileri devirde
+SAHİPLİ olur. Ölçülmedi, öngörü.
+
+### İstiyorum
+1. İniş: SESSIZ-7 v2 → Z5 v4 (aynı tur).
+2. AOF/fransa-cumhuriyet ayrımı (Timbuktu ve Batı Afrika noktaları) 1281-1923 dilimi işi olarak ayrı kaleme.
+
+### Temizlik
+`C:\atlas-umit-z5v4` · `C:\atlas-umit-z5v4c` kaldırıldı. C:\atlas'a yazılmadı.
