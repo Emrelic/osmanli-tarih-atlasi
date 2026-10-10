@@ -102,6 +102,38 @@ yazılmıştı) **ama:**
 📌 **ÜRÜN SAĞLAM, ÖLÇÜSÜ SAKAT** — ikisini ayırt etmek bu inişin en kolay
 kaçırılacak şeyi.
 
+## 6b. 🟢 DİFF'LER SINANDI — 07:00, koşu sürerken, AYRI WORKTREE'DE
+
+Tek tek değil **İNİŞ SIRASINDA, KÜMÜLATİF** denendi (`origin/main` `0f893331`
+üstünde, `/c/atlas-sira-sinav`, ana ağaca DOKUNULMADI):
+```
+FAZ1   SAHIPLIK-KAPSAM-1010-v2.diff                 UYGULANDI
+FAZ1   D5-GUN-1010-v2.diff                          UYGULANDI
+FAZ1   KASA-DIKIS-KAPI-1010.diff                    UYGULANDI
+FAZ2a  YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff         UYGULANDI
+FAZ2b  LAB-KONUM-ONERI-1010-v3.diff                 UYGULANDI
+FAZ2b  LAB-KONUM-ONERI-1010-v3-ikame.diff           UYGULANDI
+FAZ2b  LAB-KONUM-ONERI-1010-v3-balasagun-not.diff   UYGULANDI
+FAZ2c  ZAMAN-Z5-1009-KOORD-v4.diff                  UYGULANDI
+FAZ2k  KUNYE-SUMER-7-1010-v2.diff                   UYGULANDI
+⇒ 16 dosya: 3 arac/*.py · 7 data/*.js · 1 sınav · 5 YENİ dosya
+   (hüküm listesi · iki defter · D5C defteri · KAPSAM sınavı)
+```
+🔴 **NİÇİN TEK TEK YETMEZ:** on diff tek tek `apply --check` geçebilir ve
+**sırayla çakışabilir** — her biri öncekinin değiştirdiği satırların üstüne
+geliyor. `D269`un dersi: *`--check` çatışması bir teşhis değil*, ve
+`--check` İKİ AĞAÇTA ayrı sonuç verir (`autocrlf`) ⇒ **sınav İNİŞ AĞACINDA
+yapıldı.**
+⚠️ Ve bu sınav **bir fotoğraftır:** `main` ilerledikçe ya da yeni diff
+geldikçe (`SAHIPLIK-KUR-KAPI` · `D5-GUN-v3`) **yeniden koşulur.**
+Betik: `scratchpad/diff_sira.sh` (ayrı worktree kurar, iner, kaldırır).
+
+🔴 **BİR UYARI, sınavdan çıktı:** `data/yer_yama_1923_1945.js` **DEĞİŞİYOR**
+(SESSIZ-7-v2 dokunuyor) — ve bu, LAB'ın karantina uyarısındaki dosyanın
+kendisi: *"karantinadaki `yer_yama_1923_1945.js` etkinleşirse Kandehar ve
+Angkor'un tam zincirini geri yazar."* ⇒ Dosya **karantinada KALIR**; iniş
+sonrası o iki kayıt **adıyla** kontrol edilir (`§5.1` açık kalemim).
+
 ## 7. İNİŞTEN SONRA SIRA
 ```
 FAZ 1  KAPILAR (veriden ÖNCE): SAHIPLIK-KAPSAM + hüküm listesi + hızlı kip
