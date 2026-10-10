@@ -1,0 +1,743 @@
+diff --git a/arac/denetle_yayin.py b/arac/denetle_yayin.py
+index 496e3bf0..50679649 100644
+--- a/arac/denetle_yayin.py
++++ b/arac/denetle_yayin.py
+@@ -56,6 +56,34 @@ if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8
+ 
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ 
++# ============================================================================
++# 🆕 🔴 ÜÇ ÇIKIŞ KODU — `CLAUDE.md §3` SÖZLEŞMESİ YAYIN KAPISINA TAŞINDI
++#   (YAYIN-KAPI-OLCULEMEDI-1010). `0` temiz · `1` İHLAL VAR · `2` ÖLÇÜLEMEDİ.
++#   `denetle.py` 4 Ekim'den beri üç kodluydu; bu kapı iki kodluydu ve
++#   ölçülemeyen bir soruyu ya SESSİZCE temiz sayıyordu (tazelik: `bool(None)`
++#   = False · git izleme: ✗ satırı kayboluyor, "izlenen: 83" YALANI basılıyor)
++#   ya da YANLIŞ TEŞHİSLE ihlal sayıyordu (paket evreni düşünce ~156 "yetim").
++#   Ölçüm: `denetim/SESSIZ-YUTMA-TARAMA-1010.md` T1 · T2 · 1101.
++# KURAL: hükme giren ve ÖLÇÜLEMEYEN her soru bu kovaya ADIYLA düşer (sayı
++#   değil LİSTE). İhlal varsa hüküm 1'dir, ama kova YİNE DE basılır — biri
++#   ötekini gizlemez. Kova bloğunun başlığı `ÖLÇÜLEMEYEN SORU` dizgisini
++#   taşır ve `SONUÇ:` satırıyla biter: `kosu_yayin.py`/`kos_ve_yayinla.py`
++#   okuyucuları (KOSU-YAYIN-KAPI-1010) bloğu bu iki işaretle söker.
++# ⚠️ KAPSAM: yalnız HÜKME GİREN sorular. Bilgi satırları (`§40` çizilmiyor,
++#   `iz_olculemedi` — Emre 1 Ekim hükmüyle bloke etmez) kovaya GİRMEZ; onlar
++#   kendi satırında "ÖLÇÜLEMEDİ" diye basılmaya devam eder.
++# ============================================================================
++OLCULEMEDI_KOVA = []
++
++
++def olculemedi(ad, sebep):
++    """Hükme giren bir soru ölçülemedi: ADIYLA kovaya yaz (sessiz 0 YOK)."""
++    OLCULEMEDI_KOVA.append((ad, " ".join(str(sebep).split())[:160]))
++
++
++# git ls-files düşerse sebebi burada durur (`git_izlenen` None döndürür).
++_GIT_HATA = [None]
++
+ # index.html'in çektiği yerel varlıklar: src= ve href=
+ VARLIK = re.compile(r'(?:src|href)\s*=\s*"([^"]+)"')
+ 
+@@ -1026,6 +1054,7 @@ def git_izlenen():
+                            text=True, encoding="utf-8", check=True)
+     except (subprocess.CalledProcessError, FileNotFoundError) as e:
+         print("UYARI: git ls-files çalıştırılamadı (%s) — yalnız disk kontrolü yapılıyor" % e)
++        _GIT_HATA[0] = str(e)
+         return None
+     return {l.strip().replace("\\", "/") for l in c.stdout.splitlines() if l.strip()}
+ 
+@@ -1037,7 +1066,9 @@ def main():
+                     help="damga denetiminin tarayacağı commit sayısı")
+     args = ap.parse_args()
+ 
++    del OLCULEMEDI_KOVA[:]          # main() aynı süreçte iki kez çağrılabilir (sınav)
+     html = io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
++    _GIT_HATA[0] = None
+     izlenen = git_izlenen()
+ 
+     yoklar, izlenmeyenler, tamam = [], [], []
+@@ -1056,17 +1087,29 @@ def main():
+             tamam.append(ham)
+ 
+     print("index.html'in çektiği yerel varlık: %d" % (len(yoklar) + len(izlenmeyenler) + len(tamam)))
+-    print("  diskte VAR ve git'te izlenen : %d" % len(tamam))
++    if izlenen is None:
++        # 🔴 T2 (SESSIZ-YUTMA-TARAMA-1010): eskiden burada "diskte VAR ve git'te
++        #   izlenen: 83" basılıyordu — izlenip izlenmediği HİÇ ölçülmeden.
++        print("  diskte VAR                    : %d  (git'te izlenip izlenmediği "
++              "ÖLÇÜLEMEDİ)" % len(tamam))
++    else:
++        print("  diskte VAR ve git'te izlenen : %d" % len(tamam))
+ 
+     durum1 = "✓" if not yoklar else "✗"
+     print("\n%s  diskte HİÇ YOK: %d" % (durum1, len(yoklar)))
+     for y in yoklar:
+         print("     %s" % y)
+ 
+-    durum2 = "✓" if not izlenmeyenler else "✗"
+-    print("%s  diskte var ama GIT'TE İZLENMİYOR: %d" % (durum2, len(izlenmeyenler)))
+-    for y in izlenmeyenler:
+-        print("     %s   ← yayında 404 verir, sayfa sessizce eksik çalışır" % y)
++    if izlenen is None:
++        olculemedi("git izleme", "git ls-files düştü (%s) — %d varlığın izlenip "
++                   "izlenmediği bilinmiyor" % (_GIT_HATA[0] or "?", len(tamam)))
++        print("!  diskte var ama GIT'TE İZLENMİYOR: ÖLÇÜLEMEDİ — git ls-files "
++              "düştü; %d varlık için soru SORULAMADI (0 DEĞİL)" % len(tamam))
++    else:
++        durum2 = "✓" if not izlenmeyenler else "✗"
++        print("%s  diskte var ama GIT'TE İZLENMİYOR: %d" % (durum2, len(izlenmeyenler)))
++        for y in izlenmeyenler:
++            print("     %s   ← yayında 404 verir, sayfa sessizce eksik çalışır" % y)
+ 
+     # --- TERS YÖN: diskte veri var ama index.html onu istemiyor ---------------
+     # Oturum 14'ün bulgusu (2026-07-30): araç yalnız "index.html'in istediği
+@@ -1092,14 +1135,29 @@ def main():
+     # (ölçüldü: bu düzeltmeden önce yetim 1 → 156'ya çıktı). Kusur verinin
+     # değil ARACIN modelinde olurdu — yukarıdaki `goller.js` vakasının aynısı,
+     # üçüncü kez. ⇒ Paketin künyesi, index.html'in bir uzantısı gibi okunur.
++    # 🆕 🔴 9 EKİM KORUMASI BURAYA DA (YAYIN-KAPI-OLCULEMEDI-1010; örnek
++    #   `_bagli_mi.py` DURUM-TABLOSU-YUTMA-1009). Eskiden `except: _paket_ici =
++    #   set()` her hatayı "paketleme kurulu değil, eski düzen" sayıyordu. Ama
++    #   index.html paket_*.js YÜKLÜYORSA eski düzen YOKTUR: paket evreni
++    #   ölçülemedi demektir ve ~156 dosya YANLIŞ TEŞHİSLE "yetim" ötüyordu.
++    #   ⇒ index paket yüklüyorken: içe aktarma düşerse YA DA `kaynaklar()` boş
++    #     dönerse → ÖLÇÜLEMEDİ; yetim sorusu o turda hükme GİRMEZ (kovada adıyla).
++    #   Paket yüklemeyen (eski düzen) index.html için boş evren meşrudur.
++    _paket_olculemedi = None
++    _index_paketli = bool(re.search(r'data/paket_\d+\.js', html))
+     try:
+         sys.path.insert(0, os.path.join(KOK, "arac"))
+         import paketle as _pkt
+         _paket_ici = set(_pkt.kaynaklar())
++        if not _paket_ici and _index_paketli:
++            raise RuntimeError("index.html paket_*.js yüklüyor ama paketle.kaynaklar() "
++                               "boş (data/paket_kunye.json?)")
+         istenen |= _paket_ici
+         istenen |= {p["paket"] for p in (_pkt._kunye_oku() or {}).get("paketler", [])}
+-    except Exception:                                       # noqa: BLE001
++    except Exception as _e:                                 # noqa: BLE001
+         _paket_ici = set()   # paketleme kurulu değilse eski düzen geçerlidir
++        if _index_paketli:
++            _paket_olculemedi = str(_e)
+     motor_girdisi = set()
+     try:
+         sys.path.insert(0, os.path.join(KOK, "arac"))
+@@ -1462,10 +1520,20 @@ def main():
+             else:
+                 kayitsiz.append(yol)
+ 
+-    durum4 = "✓" if not kayitsiz else "✗"
+-    print("%s  yetim veri dosyası: %d / %d  (ne index.html ne girdi.py okuyor)"
+-          % (durum4, len(kayitsiz), len(diskte)))
+-    for y in kayitsiz:
++    if _paket_olculemedi:
++        # Paket evreni bilinmiyor ⇒ aşağıdaki aday listesi "yetim" HÜKMÜ DEĞİL.
++        olculemedi("yetim veri dosyası", "paket evreni okunamadı (%s) — %d aday "
++                   "yetim mi, pakette mi bilinmiyor" % (_paket_olculemedi, len(kayitsiz)))
++        print("!  yetim veri dosyası: ÖLÇÜLEMEDİ — paket evreni okunamadı (%s); "
++              "%d / %d aday HÜKÜM DEĞİL" % (_paket_olculemedi[:80], len(kayitsiz),
++                                           len(diskte)))
++        _yetim_ihlali = False
++    else:
++        _yetim_ihlali = bool(kayitsiz)
++        durum4 = "✓" if not kayitsiz else "✗"
++        print("%s  yetim veri dosyası: %d / %d  (ne index.html ne girdi.py okuyor)"
++              % (durum4, len(kayitsiz), len(diskte)))
++    for y in (kayitsiz if not _paket_olculemedi else kayitsiz[:10]):
+         print("     %s   ← yayında yüklenmez; denetle.py sayar, kullanıcı görmez" % y)
+     if dinamik_bulunan:
+         print("  i %d dosya app.js _EKOKUMA_DOSYA_ADLARI / _KAYNAKLI_HALKA_DOSYA_ADLARI ile ÇALIŞMA ANINDA yükleniyor"
+@@ -1517,6 +1585,12 @@ def main():
+     # --- sürüm damgası ARTTI MI (r83 vakası) ---------------------------------
+     gecmis_ihlal, simdi_ihlal = damga_denetimi(args.gecmis)
+     damga_ihlali = False
++    if gecmis_ihlal is None:
++        # 🆕 T2 AİLESİ (YAYIN-KAPI-OLCULEMEDI-1010): git log düşünce yalnız
++        #   "UYARI … ATLANDI" basılıyor, `damga_ihlali` False kalıyordu.
++        olculemedi("sürüm damgası artışı", "git log çalıştırılamadı — son %d "
++                   "commit taranmadı" % args.gecmis)
++        print("!  damga artışı: ÖLÇÜLEMEDİ (git log düştü)")
+     if gecmis_ihlal is not None:
+         takili = [x for x in gecmis_ihlal if x[3] == -1]
+         durum5 = "✓" if not simdi_ihlal and not takili else "✗"
+@@ -1586,6 +1660,9 @@ def main():
+                                         or bayat_gun > BAYAT_TAZE_GUN)
+     print()
+     if _bayat is None:
++        # 🔴 T1 (SESSIZ-YUTMA-TARAMA-1010): `bool(None)` = False ⇒ bu satır
++        #   basılıyor ama hükme GİRMİYORDU. Artık kovada adıyla ⇒ çıkış ≥ 2.
++        olculemedi("yayın tazeliği", yontem)
+         print("!  yayın tazeliği ÖLÇÜLEMEDİ: %s" % yontem)
+     elif _bayat and not bayat_durdurucu:
+         print("ℹ️  yayın bayat ama TAZE SAYILIYOR — çıktı girdiden %.2f gün geride "
+@@ -1712,6 +1789,7 @@ def main():
+             _nj, _nb, _uy, _ok = dom_sozlesmesi(_rev)
+         except Exception as _e:                               # noqa: BLE001
+             _dom_ihlali = True          # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz
++            olculemedi("DOM sözleşmesi (%s)" % _etiket, _e)
+             print("\n✗  DOM sözleşmesi (%s) ÖLÇEMEDİ: %s" % (_etiket, str(_e)[:90]))
+             continue
+         if _uy or _ok or not _nb:
+@@ -1747,6 +1825,7 @@ def main():
+     except Exception as _e:
+         # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz (`CLAUDE.md §11`).
+         _bagli = True
++        olculemedi("bağlılık nöbetçisi", _e)
+         print("\n✗  bağlılık nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
+ 
+     # ── DİZİNSİZ HARİTA KİMLİĞİ (2 Eylül 2026, PAKET-0033'ün ölçümüyle) ──
+@@ -1815,6 +1894,7 @@ def main():
+     except Exception as _e:
+         # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz — `_bagli` ile aynı desen.
+         _dizinsiz = 1
++        olculemedi("dizinsiz kimlik nöbetçisi", _e)
+         print("\n✗  dizinsiz kimlik nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
+ 
+     # -----------------------------------------------------------------------
+@@ -1856,8 +1936,13 @@ def main():
+         print()
+         for _s in _odak["satirlar"]:
+             print(_s)
++            # odak_olc kendi ölçülemeyenini ✗ satırı olarak döndürür (ihlal=True);
++            # kovaya da ADIYLA geçer ki ölçülemedi bloğunda görünsün.
++            if _s.lstrip().startswith("✗") and ("ÖLÇÜLEMEDİ" in _s or "ÖLÇEMEDİ" in _s):
++                olculemedi("odak nöbetçisi", _s.strip().lstrip("✗").strip())
+     except Exception as _e:                                 # noqa: BLE001
+         _odak_ihlali = True
++        olculemedi("odak nöbetçisi", _e)
+         print("\n✗  odak nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
+     # -----------------------------------------------------------------------
+@@ -1892,6 +1977,7 @@ def main():
+             print("\n⚪ kodlama kapısı: %s yok — eski düzen, atlandı" % _kd.DP_JS)
+     except Exception as _e:                                 # noqa: BLE001
+         _kod_ihlali = True
++        olculemedi("kodlama kapısı", _e)
+         print("\n✗  kodlama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
+     # -----------------------------------------------------------------
+@@ -1917,6 +2003,7 @@ def main():
+         _paket_ihlali = bool(_pk.sina())
+     except Exception as _e:                                 # noqa: BLE001
+         _paket_ihlali = True
++        olculemedi("paket kapısı", _e)
+         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
+     # 🆕 UFUK EŞİTLİĞİ — app.js ↔ girdi.py (ZAMAN-GENİŞ-1008, yukarıdaki işlev)
+@@ -1927,6 +2014,7 @@ def main():
+             print(_s)
+     except Exception as _e:                                 # noqa: BLE001
+         _ufuk_ihlali = True
++        olculemedi("ufuk eşitliği", _e)
+         print("\n✗  UFUK EŞİTLİĞİ ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
+     # -----------------------------------------------------------------
+@@ -1939,9 +2027,21 @@ def main():
+             print(_s)
+     except Exception as _e:                                 # noqa: BLE001
+         _kapi_ihlali = True
++        olculemedi("sınama kapısı", _e)
+         print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
+ 
+-    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
++    # 🆕 ÖLÇÜLEMEYEN SORU bloğu — HÜKÜMDEN ÖNCE ve HER ZAMAN basılır: ihlal
++    #   varsa hüküm 1'dir ama eksik ölçüm görünür kalır (`§3`: biri ötekini
++    #   gizlemez). Biçim `denetle.py` ile aynı; okuyucular (`kosu_yayin.py`,
++    #   `kos_ve_yayinla.py`) bloğu "ÖLÇÜLEMEYEN SORU" → "SONUÇ" arasından söker.
++    if OLCULEMEDI_KOVA:
++        print()
++        print("🔴 ÖLÇÜLEMEYEN SORU: %d — yayın kapısı bu sorularda TEMİZ DEĞİL"
++              % len(OLCULEMEDI_KOVA))
++        for _ad, _sb in OLCULEMEDI_KOVA:
++            print("     • %-26s %s" % (_ad, _sb))
++        print("   ⇒ 'ölçülemedi' ≠ 'yok' ≠ 'temiz' (CLAUDE.md §3 · §11).")
++    if (_kapi_ihlali or yoklar or izlenmeyenler or _yetim_ihlali or len(damgalar) > 1
+             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
+             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
+             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
+@@ -1953,6 +2053,9 @@ def main():
+             or _paket_ihlali or _dom_ihlali or _ufuk_ihlali):
+         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
+         return 1
++    if OLCULEMEDI_KOVA:
++        print("SONUÇ: TEMİZ DEĞİL — eksik ölçüm, çıkış kodu 2")
++        return 2
+     print("SONUÇ: temiz")
+     return 0
+ 
+diff --git a/arac/durum_tablosu.py b/arac/durum_tablosu.py
+index 7d49dc67..ec3e8bb5 100644
+--- a/arac/durum_tablosu.py
++++ b/arac/durum_tablosu.py
+@@ -23,6 +23,17 @@ os.chdir(KOK)
+ sys.path.insert(0, os.path.join(KOK, "arac"))
+ import girdi
+ 
++# 🆕 ÖLÇÜLEMEDİ KOVASI (YAYIN-KAPI-OLCULEMEDI-1010, `CLAUDE.md §3` sözleşmesi).
++#   Ölçülemeyen bir tablo hücresi SESSİZ BİR SAYIYA dönüşmez: adıyla buraya
++#   düşer, tablo hücresi "ÖLÇÜLEMEDİ" yazar, çıkış 2 olur ve `--yaz` §1.5'i
++#   YAZMAZ (yanlış sayı CLAUDE.md'ye girmesin). Vaka T3: `boya_gerekli` okuması
++#   yutulunca `renksiz_gercek 11→16 · renksiz_beyanli 5→0`, uyarısız.
++OLCULEMEDI_KOVA = []
++
++
++def olculemedi(ad, sebep):
++    OLCULEMEDI_KOVA.append((ad, " ".join(str(sebep).split())[:160]))
++
+ 
+ def _oku(y):
+     return io.open(y, encoding="utf-8", newline="").read()
+@@ -657,15 +668,24 @@ def olc():
+     #   beyanlı → kayda geçmiş bir BEKLEYİŞ (boya koşuyu bekliyor)
+     #   sessiz  → görülmemiş bir DELİK
+     # İkisini tek sayıda toplamak, ikinciyi birincinin içinde gizler.
++    # 🔴 T3 (SESSIZ-YUTMA-TARAMA-1010): burada `except: _beyan = set()` vardı ⇒
++    #   okuma düşünce 5 BEYANLI borç sessizce "gerçek sessiz borç"a karışıyordu
++    #   (11→16, 5→0). Boş beyan kümesi ölçülmüş bir 0 DEĞİLDİR.
+     _beyan = set()
+     try:
+         for k in girdi.oku_devletler():
+             if k.get("boya_gerekli"):
+                 _beyan.add(k["id"])
+-    except Exception:                                          # noqa: BLE001
+-        _beyan = set()
+-    o["renksiz_beyanli"] = sorted(i for i in o["renksiz_gercek"] if i in _beyan)
+-    o["renksiz_gercek"] = [i for i in o["renksiz_gercek"] if i not in _beyan]
++    except Exception as e:                                     # noqa: BLE001
++        _beyan = None
++        olculemedi("renksiz künye beyanlı/gerçek ayrımı",
++                   "`boya_gerekli` okunamadı (%s) — %d kimlik AYRILMADI"
++                   % (e, len(o["renksiz_gercek"])))
++    if _beyan is None:
++        o["renksiz_beyanli"] = None           # None = ölçülemedi (tablo böyle basar)
++    else:
++        o["renksiz_beyanli"] = sorted(i for i in o["renksiz_gercek"] if i in _beyan)
++        o["renksiz_gercek"] = [i for i in o["renksiz_gercek"] if i not in _beyan]
+     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
+     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
+     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
+@@ -690,6 +710,9 @@ def olc():
+                         ("konum", r"konum:\s*(.*)")):
+         mm = re.search(anahtar, cik)
+         o[ad] = (" ".join(mm.groups())).strip() if mm else "ölçülemedi"
++        if not mm:
++            olculemedi("denetle.py → %s" % ad, "çıktıda satır yok (çıkış %s)"
++                       % (getattr(c, "returncode", "?") if cik else "koşamadı"))
+ 
+     try:
+         o["surum"] = re.search(r"\?v=(r\d+)", _oku("index.html")).group(1)
+@@ -762,6 +785,8 @@ def tablo(o):
+              "`__BOSLUK__` muaf* |"
+              % ("🔴" if o["renksiz_delik"] else "✓",
+                 len(o["renksiz_delik"]),
++                (" · ⚠️ **%d** hiçbir yerde — beyanlı/gerçek ayrımı ÖLÇÜLEMEDİ"
++                 % len(o["renksiz_gercek"])) if o.get("renksiz_beyanli") is None else
+                 (" · 🟡 **%d** hiçbir yerde (gerçek sessiz borç)"
+                  % len(o["renksiz_gercek"])) if o["renksiz_gercek"] else "",
+                 (" · 🟢 %d BEYANLI boya borcu (`boya_gerekli:true` — tam inşa "
+@@ -795,11 +820,22 @@ if __name__ == "__main__":
+         print("🟡 ÖLÜ RENK (dizinsiz ama veride kullanılmıyor): %s"
+               % ", ".join(o["renk_olu"][:20]))
+     if o["renksiz_gercek"]:
+-        print("🟡 GERÇEK SESSİZ BORÇ (künye var, hiçbir katmanda yok): %s"
+-              % ", ".join(o["renksiz_gercek"]))
++        print("%s (künye var, hiçbir katmanda yok): %s"
++              % ("⚠️ SESSİZ BORÇ — beyanlı/gerçek AYRILAMADI"
++                 if o.get("renksiz_beyanli") is None else "🟡 GERÇEK SESSİZ BORÇ",
++                 ", ".join(o["renksiz_gercek"])))
+     if o["kaynak_zayif"].get("adlar"):
+         print("🟡 KAYNAK_ZAYIF İŞARETLİ (kaynak var ama dayanılamıyor, beyanlı): %s"
+               % ", ".join(o["kaynak_zayif"]["adlar"]))
++    if OLCULEMEDI_KOVA:
++        print("\n🔴 ÖLÇÜLEMEYEN SORU: %d — tablo bu hücrelerde TEMİZ/DOĞRU DEĞİL"
++              % len(OLCULEMEDI_KOVA))
++        for _ad, _sb in OLCULEMEDI_KOVA:
++            print("     • %-34s %s" % (_ad, _sb))
++        if "--yaz" in sys.argv:
++            print("   ⇒ `--yaz` REDDEDİLDİ: ölçülemeyen hücre §1.5'e sayı olarak yazılmaz.")
++        print("SONUÇ: TEMİZ DEĞİL — eksik ölçüm, çıkış kodu 2")
++        raise SystemExit(2)
+     if "--yaz" in sys.argv:
+         y = "CLAUDE.md"
+         h = _oku(y)
+diff --git a/denetim/ARAC-YAYIN-KAPI-OLCULEMEDI-SINAV-1010.py b/denetim/ARAC-YAYIN-KAPI-OLCULEMEDI-SINAV-1010.py
+new file mode 100644
+index 00000000..d09019cf
+--- /dev/null
++++ b/denetim/ARAC-YAYIN-KAPI-OLCULEMEDI-SINAV-1010.py
+@@ -0,0 +1,352 @@
++# -*- coding: utf-8 -*-
++"""ARAC-YAYIN-KAPI-OLCULEMEDI-SINAV-1010 — yayın kapısının ÜÇ ÇIKIŞ KODU sınavı.
++
++Sınanan yama: `denetim/YAYIN-KAPI-OLCULEMEDI-1010.diff`
++  · `arac/denetle_yayin.py`  OLCULEMEDI_KOVA (adlı liste) + çıkış 2
++  · `arac/durum_tablosu.py`  T3: `boya_gerekli` okuması yutulmaz → ölçülemedi
++Dayanak: `denetim/SESSIZ-YUTMA-TARAMA-1010.md` (T1 · T2 · 1101 · T3).
++
++YÖNTEM — monkeypatch, depoya YAZMAZ. `denetle_yayin.main()` her soruda TAZE
++yüklenir; ağır nöbetçiler (odak · kodlama · bağlılık · dizinsiz · DOM ·
++sözdizimi · üretim izi · ufuk · sınama) TEMİZ sahteyle değiştirilir ki
++yalnız sınanan soru hükmü oynatsın. Gerçek olan: index.html, `git ls-files`,
++BEKLEYEN/yetim taraması, paket künyesi (yetim evreni için).
++
++Soru biçimi `✓ ID …` / `✗ ID …`, özet `SONUÇ: n soru · g geçti · k kaldı`
++(`arac/sinav_isirma.py` dilbilgisi). Çıkış: 0 hepsi geçti · 1 kalan var.
++
++Yamasız beklenen (ölçümden ÖNCE yazıldı): K0 · T2K · AST1 · DTK geçer
++(süreklilik soruları); T1 · T1B · T2 · T2D · P1 · O1 · N1 · FMT · AST2 · DT3
++KALIR (yamanın ısırdığı sorular).
++
++    py denetim/ARAC-YAYIN-KAPI-OLCULEMEDI-SINAV-1010.py
++"""
++import ast
++import contextlib
++import importlib.util
++import io
++import os
++import subprocess
++import sys
++import types
++
++if hasattr(sys.stdout, "reconfigure"):
++    try:
++        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++    except Exception:                                         # noqa: BLE001
++        pass
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = os.path.join(KOK, "arac")
++DY_YOL = os.path.join(ARAC, "denetle_yayin.py")
++DT_YOL = os.path.join(ARAC, "durum_tablosu.py")
++if ARAC not in sys.path:
++    sys.path.insert(0, ARAC)
++
++SONUC = []
++
++
++def soru(kid, gecti, metin):
++    SONUC.append((kid, bool(gecti)))
++    print("%s %s %s" % ("✓" if gecti else "✗", kid, metin))
++
++
++_sayac = [0]
++
++
++def yukle(yol, ad):
++    _sayac[0] += 1
++    sp = importlib.util.spec_from_file_location("%s_sinav_%d" % (ad, _sayac[0]), yol)
++    m = importlib.util.module_from_spec(sp)
++    sp.loader.exec_module(m)
++    return m
++
++
++# ---------------------------------------------------------------- sahteler
++def _mod(ad, **oz):
++    m = types.ModuleType(ad)
++    for k, v in oz.items():
++        setattr(m, k, v)
++    return m
++
++
++def temiz_sahteler():
++    return {
++        "odak_olc": _mod("odak_olc", kapi_olcumu=lambda **k: {
++            "ihlal": False, "satirlar": ["✓  odak (sınav sahtesi)"]}),
++        "kodla": _mod("kodla", DP_JS="devlet_parcalar.js",
++                      kapi=lambda d: (False, ["✓  kodlama (sınav sahtesi)"])),
++        "_bagli_mi": _mod("_bagli_mi", denetle=lambda: False),
++        "durum_tablosu": _mod("durum_tablosu",
++                              kimlik_evreni=lambda: (set(), set()),
++                              bosluk_kovalari=lambda kul, diz: ({}, {})),
++    }
++
++
++def gercek_paketle():
++    """Gerçek paketle (yetim evreni gerçek künyeden), ama `sina` temiz."""
++    pk = yukle(os.path.join(ARAC, "paketle.py"), "paketle")
++    pk.sina = lambda: 0
++    return pk
++
++
++def dy_kos(ek_mod=None, dy_yama=None):
++    """denetle_yayin.main()'i taze yükle, sahtelerle koştur → (kod, çıktı)."""
++    mods = temiz_sahteler()
++    mods["paketle"] = gercek_paketle()
++    mods.update(ek_mod or {})
++    eski = {k: sys.modules.get(k) for k in mods}
++    eski_argv = sys.argv
++    tampon = io.StringIO()
++    try:
++        for k, v in mods.items():
++            sys.modules[k] = v
++        sys.argv = ["denetle_yayin.py"]
++        with contextlib.redirect_stdout(tampon):
++            dy = yukle(DY_YOL, "denetle_yayin")
++            dy.bayat_mi = lambda: ([], [], "sha256 izi (sınav sahtesi)", False)
++            dy.iz_kapsami = lambda: ([], [], [], [], [], [])
++            dy.cizilmiyor_mu = lambda: ([], 0)
++            dy.inline_sozdizimi = lambda: (1, [])
++            dy.dom_sozlesmesi = lambda rev=None: (1, 1, [], [])
++            dy.ufuk_esitligi = lambda app_yol=None: (False, ["✓  ufuk (sınav sahtesi)"])
++            dy.kapi_hukmu = lambda k=None: (False, ["✓  sınama (sınav sahtesi)"])
++            dy.damga_denetimi = lambda gecmis=30: ([], [])
++            for k, v in (dy_yama or {}).items():
++                setattr(dy, k, v)
++            try:
++                kod = dy.main()
++            except SystemExit as e:
++                kod = e.code
++            except Exception as e:                            # noqa: BLE001
++                print("SINAV: main() ÇÖKTÜ: %r" % e)
++                kod = "çöktü"
++    finally:
++        for k, v in eski.items():
++            if v is None:
++                sys.modules.pop(k, None)
++            else:
++                sys.modules[k] = v
++        sys.argv = eski_argv
++    return kod, tampon.getvalue()
++
++
++def blok(cikti):
++    """KOSU-YAYIN-KAPI-1010 okuyucusunun ayrıştırıcısının BİREBİR kopyası."""
++    satirlar, icinde = [], False
++    for l in (cikti or "").splitlines():
++        if "ÖLÇÜLEMEYEN SORU" in l:
++            icinde = True
++        elif icinde and l.strip().startswith("SONUÇ"):
++            break
++        if icinde:
++            satirlar.append(l)
++    return satirlar
++
++
++def kova_adlari(cikti):
++    return [l.strip()[1:].strip() for l in blok(cikti) if l.strip().startswith("•")]
++
++
++def adli(cikti, ad):
++    return any(x.startswith(ad) for x in kova_adlari(cikti))
++
++
++# ============================================================ denetle_yayin
++print("=" * 78)
++print("YAYIN KAPISI — ÜÇ ÇIKIŞ KODU SINAVI (YAYIN-KAPI-OLCULEMEDI-1010)")
++print("taban: %s" % KOK)
++print("=" * 78)
++
++# K0 — süreklilik: hepsi temizse 0, blok YOK
++kod, c = dy_kos()
++soru("K0", kod == 0 and not blok(c),
++     "sahteler temiz → çıkış 0 ve ölçülemedi bloğu yok (çıkış %r · blok %d satır)"
++     % (kod, len(blok(c))))
++
++# T1 — tazelik ölçülemedi ⇒ 2, adıyla
++_t1 = {"bayat_mi": lambda: (None, None, "donemler.js YOK", None)}
++kod, c = dy_kos(dy_yama=_t1)
++soru("T1", kod == 2 and adli(c, "yayın tazeliği") and "donemler.js YOK" in "\n".join(blok(c)),
++     "bayat_mi → None ⇒ çıkış 2 + kovada 'yayın tazeliği' (çıkış %r · kova %s)"
++     % (kod, kova_adlari(c)))
++
++# T1B — ihlal VAR + ölçülemedi: hüküm 1, ama kova YİNE görünür (biri ötekini gizlemez)
++_t1b = dict(_t1, inline_sozdizimi=lambda: (1, [(0, "sınav: sahte sözdizimi hatası")]))
++kod, c = dy_kos(dy_yama=_t1b)
++soru("T1B", kod == 1 and adli(c, "yayın tazeliği") and "SONUÇ: İHLAL VAR" in c,
++     "ihlal + ölçülemedi ⇒ çıkış 1 VE kova basılı (çıkış %r · kova %s)"
++     % (kod, kova_adlari(c)))
++
++# git ls-files enjeksiyonu
++_gercek_run = subprocess.run
++
++
++def _git_ls_dusur(*a, **k):
++    argv = a[0] if a else k.get("args")
++    if isinstance(argv, (list, tuple)) and list(argv[:2]) == ["git", "ls-files"]:
++        raise FileNotFoundError("sınav: git yok")
++    return _gercek_run(*a, **k)
++
++
++def _git_ls_appjs_yok(*a, **k):
++    argv = a[0] if a else k.get("args")
++    r = _gercek_run(*a, **k)
++    if isinstance(argv, (list, tuple)) and list(argv[:2]) == ["git", "ls-files"]:
++        r = subprocess.CompletedProcess(r.args, r.returncode, "\n".join(
++            l for l in r.stdout.splitlines() if l.strip() != "js/app.js") + "\n", r.stderr)
++    return r
++
++
++def _sp(run):
++    m = types.SimpleNamespace(**{k: getattr(subprocess, k) for k in dir(subprocess)
++                                 if not k.startswith("__")})
++    m.run = run
++    return m
++
++
++# T2K — süreklilik (kontrol kolu): js/app.js izlenmiyorsa ✗ ve 1
++kod, c = dy_kos(dy_yama={"subprocess": _sp(_git_ls_appjs_yok)})
++soru("T2K", kod == 1 and "GIT'TE İZLENMİYOR: 1" in c,
++     "kontrol: app.js izlenmiyor ⇒ '✗ GIT'TE İZLENMİYOR: 1' + çıkış 1 (çıkış %r)" % kod)
++
++# T2 — git düşer: ✗ satırı kaybolmaz-yerine ÖLÇÜLEMEDİ, yalan sayı YOK, çıkış 2
++kod, c = dy_kos(dy_yama={"subprocess": _sp(_git_ls_dusur)})
++yalan = "diskte VAR ve git'te izlenen" in c
++soru("T2", kod == 2 and adli(c, "git izleme") and not yalan,
++     "git ls-files düşer ⇒ çıkış 2 + kovada 'git izleme' + 'git'te izlenen: N' YALANI yok "
++     "(çıkış %r · yalan satır %s · kova %s)" % (kod, "VAR" if yalan else "yok", kova_adlari(c)))
++
++# T2D — damga denetimi git log düşer (damga_denetimi → (None, None))
++kod, c = dy_kos(dy_yama={"damga_denetimi": lambda gecmis=30: (None, None)})
++soru("T2D", kod == 2 and adli(c, "sürüm damgası artışı"),
++     "damga_denetimi git log düşer ⇒ çıkış 2 + kovada 'sürüm damgası artışı' (çıkış %r)" % kod)
++
++# P1 — 9 Ekim koruması: index paket yüklüyor ama kaynaklar() boş
++_pk_bos = gercek_paketle()
++_pk_bos.kaynaklar = lambda: []
++_pk_bos._kunye_oku = lambda: None
++kod, c = dy_kos(ek_mod={"paketle": _pk_bos})
++_yetim_x = [l for l in c.splitlines() if l.startswith("✗  yetim veri dosyası")]
++soru("P1", kod == 2 and adli(c, "yetim veri dosyası") and not _yetim_x,
++     "paket künyesi boş ⇒ '✗ yetim' YANLIŞ TEŞHİSİ yok, çıkış 2 + kovada 'yetim veri "
++     "dosyası' (çıkış %r · ✗ yetim satırı: %s)" % (kod, _yetim_x[0][:60] if _yetim_x else "yok"))
++
++# O1 — odak_olc kendi ÖLÇÜLEMEDİ'sini döndürür: fail-closed 1 KORUNUR + kovada ad
++_od = {"odak_olc": _mod("odak_olc", kapi_olcumu=lambda **k: {
++    "ihlal": True, "satirlar": ["✗  ÖLÇÜLEMEDİ: 2 sekme çiftinin sınıfı ölçülemedi (sınav)"]})}
++kod, c = dy_kos(ek_mod=_od)
++soru("O1", kod == 1 and adli(c, "odak nöbetçisi"),
++     "odak ölçülemedi ⇒ çıkış 1 (fail-closed korunur) + kovada 'odak nöbetçisi' (çıkış %r)" % kod)
++
++
++# N1 — nöbetçi istisnası (kodlama kapısı patlar): 1 korunur + kovada ad
++def _patla(*a, **k):
++    raise RuntimeError("sınav: kodlama patladı")
++
++
++kod, c = dy_kos(ek_mod={"kodla": _mod("kodla", DP_JS="devlet_parcalar.js", kapi=_patla)})
++soru("N1", kod == 1 and adli(c, "kodlama kapısı"),
++     "kodlama kapısı istisnası ⇒ çıkış 1 + kovada 'kodlama kapısı' (çıkış %r)" % kod)
++
++# FMT — okuyucu uyumu: blok "ÖLÇÜLEMEYEN SORU" ile başlar, SONUÇ'tan önce biter,
++#        ve öncesinde başka "ÖLÇÜLEMEYEN SORU" yoktur (erken yakalama olmaz)
++kod, c = dy_kos(dy_yama=_t1)
++b = blok(c)
++ilk = [i for i, l in enumerate(c.splitlines()) if "ÖLÇÜLEMEYEN SORU" in l]
++son = c.strip().splitlines()[-1] if c.strip() else ""
++soru("FMT", bool(b) and len(ilk) == 1 and son.startswith("SONUÇ: TEMİZ DEĞİL")
++     and "çıkış kodu 2" in son,
++     "blok tek ve SONUÇ'tan hemen önce; son satır 'SONUÇ: TEMİZ DEĞİL … çıkış kodu 2' "
++     "(başlık sayısı %d · son: %s)" % (len(ilk), son[:60]))
++
++# AST — eski sınavların sözleşmesi bozulmadı + yeni dal var
++_kaynak = io.open(DY_YOL, encoding="utf-8").read()
++_ana = next(n for n in ast.parse(_kaynak).body
++            if isinstance(n, ast.FunctionDef) and n.name == "main")
++_don = [getattr(n.value, "value", None) for n in ast.walk(_ana) if isinstance(n, ast.Return)]
++_son_if = [n for n in ast.walk(_ana) if isinstance(n, ast.If)
++           and any(isinstance(r, ast.Return) and getattr(r.value, "value", None) == 1
++                   for r in n.body)]
++_bagli = bool(_son_if) and any(isinstance(x, ast.Name) and x.id == "_kapi_ihlali"
++                               for x in ast.walk(_son_if[-1].test))
++soru("AST1", _don.count(1) == 1 and _bagli,
++     "main(): tek 'return 1' (SINAV-KOSU8-KAPI ②) ve son ret if'inde _kapi_ihlali "
++     "(KAYNAK-DURUM-SINAMA Y6) — return'ler %s" % _don)
++soru("AST2", _don.count(2) == 1,
++     "main(): 'return 2' (ÖLÇÜLEMEDİ) dalı var — return'ler %s" % _don)
++
++
++# ============================================================ durum_tablosu T3
++def dt_olc(t3):
++    """durum_tablosu.olc()'yi koştur: denetle.py alt süreci SAHTE çıktı,
++    `oku_devletler` (t3 ise) yalnız `boya_gerekli` çağrısında patlar."""
++    import girdi as _g
++    gercek_od = _g.oku_devletler
++    sayac = [0]
++
++    def od(*a, **k):
++        # Yalnız olc()'nin KENDİ çağrıları sayılır (başka işlevlerinkiler değil):
++        # 1. çağrı `_kn` (harita: eşlemesi) · 2. çağrı `boya_gerekli` okuması.
++        if sys._getframe(1).f_code.co_name == "olc":
++            sayac[0] += 1
++        if t3 and sys._getframe(1).f_code.co_name == "olc" and sayac[0] == 2:
++            raise OSError("sınav: devletler.js okunamadı (T3)")
++        return gercek_od(*a, **k)
++
++    sahte_denetle = ("Değişmez 1 — sahipsizlik ✓ x\nDeğişmez 1b ✓ x\nDeğişmez 2 ✓ x\n"
++                     "Değişmez 2s ✓ x\nDeğişmez 2i ✓ x\nDeğişmez 2t ✓ x\nkonum: 0 x\n")
++
++    def run(*a, **k):
++        argv = a[0] if a else k.get("args")
++        if isinstance(argv, (list, tuple)) and any("denetle.py" in str(x) for x in argv):
++            return subprocess.CompletedProcess(argv, 0, sahte_denetle.encode("utf-8"), b"")
++        return _gercek_run(*a, **k)
++
++    eski_out, eski_cwd = sys.stdout, os.getcwd()
++    sys.stdout = io.TextIOWrapper(io.BytesIO(), encoding="utf-8")   # modül düzeyi sarmalayıcı için
++    try:
++        dt = yukle(DT_YOL, "durum_tablosu")
++    finally:
++        try:
++            sys.stdout.detach()
++        except Exception:                                     # noqa: BLE001
++            pass
++        sys.stdout = eski_out
++    dt.subprocess = _sp(run)
++    _g.oku_devletler = od
++    dt.girdi = _g
++    try:
++        o = dt.olc()
++        t = dt.tablo(o)
++    finally:
++        _g.oku_devletler = gercek_od
++        os.chdir(eski_cwd)
++    return dt, o, t
++
++
++dt, o, t = dt_olc(False)
++_kova = list(getattr(dt, "OLCULEMEDI_KOVA", []) or [])
++soru("DTK", isinstance(o.get("renksiz_beyanli"), list) and not _kova,
++     "kontrol: enjeksiyonsuz ⇒ beyanlı LİSTE (%s kimlik) · gerçek %d · kova boş (%d)"
++     % (len(o.get("renksiz_beyanli") or []), len(o["renksiz_gercek"]), len(_kova)))
++_kontrol = (len(o.get("renksiz_beyanli") or []), len(o["renksiz_gercek"]))
++
++dt, o, t = dt_olc(True)
++_kova = list(getattr(dt, "OLCULEMEDI_KOVA", []) or [])
++soru("DT3", o.get("renksiz_beyanli") is None and any("beyanlı" in a for a, _ in _kova)
++     and "ÖLÇÜLEMEDİ" in t,
++     "T3: boya_gerekli okunamaz ⇒ beyanlı=None (sessiz [] DEĞİL) + kovada ad + tablo "
++     "'ÖLÇÜLEMEDİ' der (kontrol beyanlı/gerçek %d/%d → enjeksiyonda beyanlı %r · gerçek %d)"
++     % (_kontrol[0], _kontrol[1],
++        (len(o["renksiz_beyanli"]) if isinstance(o.get("renksiz_beyanli"), list)
++         else o.get("renksiz_beyanli")), len(o["renksiz_gercek"])))
++
++# ---------------------------------------------------------------- özet
++g = sum(1 for _, x in SONUC if x)
++k = len(SONUC) - g
++print("SONUÇ: %d soru · %d geçti · %d kaldı" % (len(SONUC), g, k))
++for kid, x in SONUC:
++    if not x:
++        print("  ✗ %s" % kid)
++sys.exit(1 if k else 0)
+diff --git a/denetim/ODAK-KAPI-SINAV.py b/denetim/ODAK-KAPI-SINAV.py
+index 857b8d72..e0f7b51a 100644
+--- a/denetim/ODAK-KAPI-SINAV.py
++++ b/denetim/ODAK-KAPI-SINAV.py
+@@ -67,9 +67,19 @@ def sina(ad, bekle_ihlal):
+     ok = (v == bekle_ihlal)
+     print("  %s %-46s ihlal=%-5s (beklenen %s)"
+           % ("✓" if ok else "🔴 SINAV BAŞARISIZ", ad, v, bekle_ihlal))
++    # 🆕 YAYIN-KAPI-OLCULEMEDI-1010: ✗ başlığının ALTINDAKİ girintili ad satırları
++    #   da basılır. Eskiden yalnız başlık basılıyordu ("SEKME SESSİZ GERİLEDİ:
++    #   1 YENİ çift") ve çiftin ADI görünmüyordu — `§3.4 ⑤`: sayı değil LİSTE.
++    #   Kapının kendisi adı zaten veriyordu; kör olan SINAVIN SÜZGECİYDİ.
++    _alt = False
+     for s in r["satirlar"]:
+         if s.strip().startswith("✗"):
+             print("        %s" % s.strip())
++            _alt = True
++        elif _alt and s.startswith("     ") and s.strip():
++            print("          %s" % s.strip())
++        else:
++            _alt = False
+     if ok:
+         gecti += 1
+     else:
