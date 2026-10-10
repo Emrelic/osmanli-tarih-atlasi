@@ -98,3 +98,59 @@ KRONOLOJİ  83 madde = 36 × (doğuş + yıkılış) = 72 + 11 büyük olay; har
 - **Arbela:** Ebla ⑥ + tabletle doğrulanan Ur III ≈2045 (P100007).
 - **Akkad:** Sargon-sonrası üst sınır → **ED IIIb ≈2340, Sargon'dan ÖNCE** (TMH 5, 081 En-şakušana yıl adı; okuma hasarlı ⑥).
 - **Tutub:** → Naram-Sin 19 ≈ **2218** (Tutub 65).
+
+## 9. DÜZELTME TURU (örneklem 7/12 ⇒ yazım değil düzeltme) — ÜÇ SAAT tiplemesi + koordinatör hükümleri
+Kural (koordinatör, aynen):
+- **① OLAY** = attested olay ⇒ YAZILIR.
+- **② SALTANAT** = kişi saltanat ucu ya da İLK TANIKLIK ⇒ polity ömrü DEĞİL, SINIR olarak ADIYLA yazılır (`not:`
+  "saltanattan/tanıklıktan türetilmiş ALT/ÜST SINIR — gerçek uç ÖLÇÜLEMEDİ").
+- **③ DÖNEM/KONVANSİYON** = arkeolojik tabaka ya da akademik bölme çizgisi ⇒ tarih olarak da sınır olarak da YAZILMAZ,
+  `ÖLÇÜLEMEDİ`.
+
+POLITY.csv'ye `tarih_turu_f` · `tarih_turu_t` · `kaynak_degeri_f` · `kaynak_degeri_t` eklendi. Eski sayı silinmedi,
+`kaynak_degeri_*`'de duruyor.
+
+### 9.1 Dersin üç sayısı (birim UÇ = polity f/t; 36 polity × 2 = 72 UÇ)
+```
+① OLAY                   25 UÇ
+② SALTANAT / TANIKLIK    24 UÇ   ← dersin ölçümü (1)
+③ DÖNEM / KONVANSİYON    16 UÇ   ← dersin ölçümü (2)
+BELİRSİZ                  1 UÇ   (Yeni Elam t 539)
+zaten bulunamadı          6 UÇ
+HİÇ YAZILABİLİR UCU KALMAYAN POLITY: 7 / 36   ← dersin ölçümü (3)
+   uruk-gec-uruk · mari-sakkanakku · elam-avan · elam-simaski · elam-sukkalmah · elam-orta · elam-yeni
+```
+- 🔴 **Şema sorusu (Emre'ye):** Elam'ın BEŞ evresinin beşi ucu olmadan kaldı. Vallat'ın bütün aralıkları dönem
+  başlıkları ("ca. 2400-2100" …), bir olayın tanığı değil.
+- 72 UÇ'un yalnız 25'i (%35) OLAY. 49'u ya sınır ya hiç.
+- ⇒ MÖ evreninde künye şemasının "`f`/`t` zorunlu" varsayımı **taşınmıyor**: polity VAR (yüzlerce yıl kaynakta), ama
+  ucu olay olarak tarihlenemiyor.
+- Gerekli şema kavramı: **"varlık aralığı yalnız SINIRLARLA bilinir"** (alt/üst sınır çifti) ya da **uçsuz künye**.
+
+### 9.2 KRONOLOJİ etkisi (birim MADDE, 83)
+```
+harita_degisimi  EVET 76 → 34 · SINIR (kırılma günü değil) 24 · HAYIR (ÖLÇÜLEMEDİ/tartışmalı) 19 · — 6
+```
+⇒ Yazıma girseydi 42 madde YANLIŞ GÜNDE kırılma üretecekti ve Değişmez 2 onları kabul edecekti (madde ile kayıt birbirine
+tutarlı). Örneklem kapısının değeri bu.
+
+### 9.3 Hükümlerin uygulanışı (pass'in içinde)
+- **Babil I `f`:** `TARTIŞMALI` — tek tarih YAZILMADI.
+  - Okuma A: 1894 Sumu-abum (Saggs, Britannica; konvansiyonel).
+  - Okuma B: 1880 Sumu-la-El (Goddeeris, RlA 13 s.300, taramada birebir okundu).
+  - Kronoloji doğuş maddesi "TARTIŞMALI (1894 ↔ 1880)", harita HAYIR.
+- **Yeni Elam `t`:** tipleme soruyu çözdü. Vallat *"perhaps by Cyrus in 539"* — 'perhaps' + tek tanık ⇒ BELİRSİZ ⇒
+  `ÖLÇÜLEMEDİ`, aralık `__BOSLUK__` (zorla kapatılmadı). Not: 539 burada Babil'in değil Susiana'nın fethi olarak
+  anılıyor, ama kesin değil.
+- **SEHIR'den çıkanlar** (künye/kronolojide kalırlar; "başkent/şehir olarak biliniyor, YERİ BULUNAMADI"):
+  - **Akkad** (ilk kayıt ED IIIb ≈2340 — tarihli ama YERLEŞTİRİLEMEZ; ayrıca o tarih bir yıl adından, ⑥);
+  - **Ekallatum** (≈1775, konum öneri Tell Ḥuwaish);
+  - **Vaşukanni** (tarih de bulunamadı).
+  - ⇒ SEHIR **32 şehir, 31 tarihli**.
+- **Nippur:** polity DEĞİL, SEHIR'de KALDI ✓.
+
+### 9.4 Bu turda YAPILMAYAN (ADIYLA)
+- Tiplemenin kendisi kaynak cümlesinden yapıldı. Ama 72 UÇ'un hepsi için kaynak bu turda YENİDEN AÇILMADI: okuyucu
+  raporlarındaki birebir alıntılar kullanıldı, KASA yalnız örneklemin 12'sini açtı.
+- İkinci turun ⓑ (kronoloji 120+), ⓒ (şehir 60+), ⓓ (`suzeren` kolonları) kalemleri bu düzeltme turunda BAŞLAMADI.
+- ③ çıkan 16 UÇ için "başka bir attested çapa" ARANMADI. Her biri bir sonraki turun sorusu.
