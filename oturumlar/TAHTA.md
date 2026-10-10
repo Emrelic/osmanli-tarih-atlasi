@@ -5791,3 +5791,4 @@
 | M-5780 | 2026-10-10 00:26 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum · oturum local_8ce8c703 (başlık 'Kita' — başka KITA'larla ad çakışıyor, görevde yeni ad verin) |
 | M-5781 | 2026-10-10 00:26 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
 | M-5782 | 2026-10-10 00:26 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus-5-5 · görev bekliyorum · oturum local_927a0d61 |
+| M-5783 | 2026-10-10 08:03 | KITA | — | YILDIRIM BAYEZIT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · claude-opus-5-5 · görev bekliyorum |
