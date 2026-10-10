@@ -409,3 +409,32 @@ Bu turda düzeltilen 9 UÇ (POLITY not alanına eski değer + gerekçe; KRONOLOJ
 - 10 UÇ'luk hatanın (7 yanlış uç + 3 yön) TÜMÜ bu tek satırdan.
 - Ders: **sınırın yönü uçtan değil tanığın cümlesinden okunur.** Bir şablonun "f=alt / t=üst" varsayımı, tanık "ilk anılış" dediğinde ters çalışır.
 - K3/K5/K6 aynı aracı kullanacaksa önce bu satır düzeltilmeli.
+
+## 15. ⓒ ŞEHİR 32 → 68 KAYIT (hedef 60+ TUTTU)
+- Eklenen 36 KAYIT:
+  - ⓒ okuyucusunun koordinatlı 35 KAYIT'ı (Pleiades JSON);
+  - − Upi/Opis: alt-ajan E, *"The precise location of Opis has not been established"* (livius) — Pleiades "precise" demesine rağmen ÇIKARILDI;
+  - + konum denetimiyle Nerebtum ve Kutalla.
+- İlk kayıt tarihli: **67 / 68 KAYIT**.
+- Her şehir İKİ bağımsız okuyucuyla çapraz denetlendi:
+  - ⓒ ajanının geç dönen 4 alt-raporu + benim 3 okuyucum;
+  - Suriye/Habur'un benim okuyucusu henüz dönmedi ⇒ o 17 KAYIT şimdilik TEK okuyucu.
+- Kurallar uygulandı:
+  - ilk kayıt = tanıklı dönemin GEÇ sınırı;
+  - arkeoloji ayrı kolonda;
+  - Sümer Kral Listesi kullanılmadı (Bad-tibira'da özellikle).
+- Ayrışma çözüm kuralı (beyanlı, her satırın `not`unda):
+  - erken AMA doğrulanmış tanık esas;
+  - konvansiyon çatışmasında atlasın klasik OK'si (Šulgi 2094–2047). ARCANE'nin 2 yıl kayık tablosu kullanılmadı ⇒ Kisurra -2064, Puzriš-Dagan -2056, Maškan-šapir -2154;
+  - dönem sonu konvansiyonu mevcut satırlarla AYNI (Zabalam -3000 = Ur satırı).
+- ⚠️ işaretli zayıf **8 KAYIT**:
+  - Tuttul: alıntıda Ebla adı yok;
+  - Ekalte: tablet tarihi ≠ ad;
+  - Kabnak: kimlik Iranica'da şüpheli;
+  - Qatna, Alalah, Kahat: Zimri-Lim mutlak eşlemesi KAYNAKSIZ (OLAY-B'de aynı sebeple dışarıda);
+  - Me-Turan: Pleiades kimliği Tall al-Sīb;
+  - Tarbisu: kimlik belirsiz.
+- Kanıt: `KAMP-MEZOPOTAMYA-SEHIR-KANIT.md` (8 ham rapor). Betik: `KAMP-MEZOPOTAMYA-sehir_birlestir.py`.
+- **§12 YIKIM ≠ DEVİR'in ÖLÇÜLEMEDİ 25 KAYIT'ı yeniden soruldu:** yeni 36 şehrin hiçbiri o 25 yerden biri değil ⇒ **25 KAYIT hâlâ ÖLÇÜLEMEDİ**:
+  - Simurrum, Karahar, Harši, Lullubum, Kimaš, Hurti, Šašrum, Šurudhum, Bitum-rabium, Jabru, Huhnuri, Simanum, Zabšali, Adamdun, Girtab, Amurru kenti, Bašimi, Akusum, Pi-naratim, Kazallu, Malgium, Sabum, Dur-Yakin;
+  - Kazallu, Malgium ve Girtab konumsuz diye DIŞLANDI.

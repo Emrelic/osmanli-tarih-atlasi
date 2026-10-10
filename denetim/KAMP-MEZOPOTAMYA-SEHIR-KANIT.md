@@ -1,0 +1,201 @@
+# KAMP-MEZOPOTAMYA-SEHIR-KANIT — ⓒ okuyucu raporları (ham, birleştirme öncesi)
+
+---
+## kaynak dosya: k1_sehir_ek.md
+# K1 şehir ekleri (taslak)
+
+UYARI: ILK_KAYIT_TARIHI araştırması (4 alt ajan) bu dosya yazılırken bitmemişti; doğrulanmış alıntı olmadığından tüm tarihler `bulunamadı`. Koordinatlar Pleiades'ten (her URL'nin /json sürümü açıldı, HTTP 200).
+
+## 1. CSV
+
+```csv
+ad,enlem,boylam,ILK_KAYIT_TARIHI,kesinlik,kaynak,arkeolojik_katman,not
+"Kar-Tukulti-Ninurta",35.49518,43.27415,bulunamadı,,"https://pleiades.stoa.org/places/430344980 — "A place from the TAVO Index"",,"OK (Orta Kronoloji); Orta Asur başkenti"
+"Al-Untaş-Napirişa (Çoğa Zanbil)",32.00839,48.52177,bulunamadı,,"https://pleiades.stoa.org/places/459393126 — "An ancient Elamite complex founded ca"",,"OK (Orta Kronoloji); Orta Elam kült merkezi"
+"Kabnak (Haft Tepe)",32.08054,48.32828,bulunamadı,,"https://pleiades.stoa.org/places/379400932 — "An important town of the Middle Elamite period discovered at the archaeological site of Haft Tepe in southwestern Iran"",,"OK (Orta Kronoloji); Orta Elam merkezi"
+"Marad",32.08143,44.78556,bulunamadı,,"https://pleiades.stoa.org/places/912901 — "Marad (modern Tell Wannat es-Sadum), a city located ca"",,"OK (Orta Kronoloji)"
+"Dilbat",32.29580,44.46689,bulunamadı,,"https://pleiades.stoa.org/places/893987 — "Dilbat (modern Tell ed-Duleym), a small city southeast of Babylon on the eastern bank of the Euphrates River, was the cult center of the god Uraš and the goddess Ninegal"",,"OK (Orta Kronoloji)"
+"Kisurra",31.83817,45.48081,bulunamadı,,"https://pleiades.stoa.org/places/797093165 — "Kisurra (modern Tell Abu Hatab) was established in the Early Dynastic II period (ca"",,"OK (Orta Kronoloji)"
+"Der (Tell Aqar/Badra)",33.11928,45.93733,bulunamadı,,"https://pleiades.stoa.org/places/903013 — "An ancient place, cited: BAtlas 92 A3 Deru/Beth Daraya/[Badra]"",,"OK (Orta Kronoloji)"
+"Tuttul (Tell Bi'a)",35.95807,39.04723,bulunamadı,,"https://pleiades.stoa.org/places/582993625 — "Tuttul was a Bronze Age city that is associated with the archaeological site of Tell Bi'a located in the Raqqa Governorate of northern Syria"",,"OK (Orta Kronoloji)"
+"Ebla",35.79902,36.79833,bulunamadı,,"https://pleiades.stoa.org/places/869702586 — "An important Bronze Age city and the capital of the three Eblaite Kingdoms."",,"OK (Orta Kronoloji); krallık başkenti"
+"Emar",35.98731,38.11180,bulunamadı,,"https://pleiades.stoa.org/places/279984092 — "An important Bronze Age trading center in northern Syria"",,"OK (Orta Kronoloji)"
+"Karkamış",36.82942,38.01492,bulunamadı,,"https://pleiades.stoa.org/places/658465 — "An ancient city that was part of the Mitanni, Hittite, and Neo-Assyrian Empires (Kargamiš in Hittite; commonly Carchemish)"",,"OK (Orta Kronoloji); krallık başkenti"
+"Qatna",34.83467,36.86631,bulunamadı,,"https://pleiades.stoa.org/places/412342122 — "A city in western Syria that was first settled in the Early Bronze Age III (ca"",,"OK (Orta Kronoloji); krallık başkenti"
+"Halab",36.19941,37.16290,bulunamadı,,"https://pleiades.stoa.org/places/658409 — "The ancient city of Aleppo, located in modern Syria, where extensive elements of Hittite, Hellenistic, Roman, Byzantine, Ayyubid, and Umayyad architecture are incorporated into the urban fabric of the modern city"",,"OK (Orta Kronoloji); Yamhad başkenti"
+"Ekalte",36.21887,38.12993,bulunamadı,,"https://pleiades.stoa.org/places/703315102 — "Ekalte, modern Tall Munbāqa, is a medium-sized Bronze Age settlement on the left bank of the Euphrates in northern Syria, ca"",,"OK (Orta Kronoloji)"
+"Nagar (Tell Brak)",36.66716,41.05855,bulunamadı,,"https://pleiades.stoa.org/places/874735 — "Tell Brak, located in the Upper Khabur of northeastern Syria, was occupied between the sixth and second millennia BCE"",,"OK (Orta Kronoloji); Pleiades adlar: Nagar"
+"Urkeş (Tell Mozan)",37.05784,40.99776,bulunamadı,,"https://pleiades.stoa.org/places/260976011 — "Urkesh or Urkish (the modern Tell Mozan) is a tell located in the foothills of the Taurus Mountains of northeastern Syria"",,"OK (Orta Kronoloji)"
+"Kahat (Tell Barri)",36.73880,41.12704,bulunamadı,,"https://pleiades.stoa.org/places/874732 — "Tell Barri/[Kahat] is an archaeological site located along the Wadi Jaghjagh, a tributary of the Khabur River, in north-eastern Syria's Al-Hasakah Governorate"",,"OK (Orta Kronoloji)"
+"Şadikanni",36.20822,40.72046,bulunamadı,,"https://pleiades.stoa.org/places/874688 — "An ancient place, cited: BAtlas 89 C4 Shadikanni/Ar(a)ban/(H)Oraba?/*Castellum Arabum"",,"OK (Orta Kronoloji)"
+"Guzana (Tell Halaf)",36.82673,40.03968,bulunamadı,,"https://pleiades.stoa.org/places/874739 — "An Aramaean principality and Neo-Assyrian provincial capital founded on the site of an extinct Neolithic settlement"",,"OK (Orta Kronoloji); Bit-Bahiani başkenti"
+"Til-Barsip",36.67591,38.11682,bulunamadı,,"https://pleiades.stoa.org/places/378114381 — "In House C1 in the Lower City of Til-Barsip, 22 Assyrian clay tablets, as well as 2 Aramaic texts, were discovered in and around the doorway between Room XI and XII in a secondary position"",,"OK (Orta Kronoloji); koordinat Pleiades arşiv kaydından (şehir içi)"
+"Hindanu",34.38969,41.02799,bulunamadı,,"https://pleiades.stoa.org/places/894006 — "An ancient place, cited: BAtlas 91 C3 Hindanu/Eddana"",,"OK (Orta Kronoloji)"
+"Anat (Anah)",34.46780,41.97940,bulunamadı,,"https://pleiades.stoa.org/places/893936 — "An ancient place, cited: BAtlas 91 C3 Anatho"",,"OK (Orta Kronoloji)"
+"Şaduppum (Tell Harmal)",33.30980,44.46660,bulunamadı,,"https://pleiades.stoa.org/places/821129014 — "Shaduppum was a small but heavily fortified city dating from the middle of the third millennium to the second millennium B.C."",,"OK (Orta Kronoloji)"
+"Zabalam",31.74339,45.87693,bulunamadı,,"https://pleiades.stoa.org/places/921099766 — "This Sumerian/Babylonian city (also known as Zabalam, now as modern Tell Ibzeikh) was a cult centre of the goddess Inanna/Ishtar"",,"OK (Orta Kronoloji)"
+"Bad-tibira",31.38326,46.00412,bulunamadı,,"https://pleiades.stoa.org/places/771224406 — "A town mentioned in Neo-Assyrian sources; an alternate name is Bad-tibira; the modern site is Tel Madain."",,"OK (Orta Kronoloji)"
+"Me-Turan",34.19290,45.05790,bulunamadı,,"https://pleiades.stoa.org/places/733857262 — "Hamrin basin site named Tall al-Sīb."",,"OK (Orta Kronoloji); Pleiades: Tall al-Sib"
+"Sippar-Amnanum (Tell ed-Der)",33.09924,44.29924,bulunamadı,,"https://pleiades.stoa.org/places/392373882 — "Sippar-Amnanum (modern Tell ed-Der; also referred to as Sippar-Annunītu) was a small city located 6 km northeast of Sippar and 63 km north of Babylon"",,"OK (Orta Kronoloji)"
+"Upi/Opis",33.18440,44.70150,bulunamadı,,"https://pleiades.stoa.org/places/894056 — "Opis was an ancient city of Babylonia located on the Tigris River close to the site of modern Baghdad."",,"OK (Orta Kronoloji); konum Pleiades'te precise; literatürde tartışmalı"
+"Dur-Katlimmu",35.64487,40.74249,bulunamadı,,"https://pleiades.stoa.org/places/893991 — "[Dur-Katlimmu]/Magdalu (modern Tell Schech Hamad in Syria) is a multi-period human settlement where occupation began in the Late Chalcolithic period and continued/reoccurred into the Roman period"",,"OK (Orta Kronoloji)"
+"Imgur-Enlil (Balawat)",36.22367,43.41771,bulunamadı,,"https://pleiades.stoa.org/places/673099593 — "The Mamu temple of Imgur-Enlil was located on the northeastern side of the citadel"",,"OK (Orta Kronoloji); koordinat Pleiades arşiv kaydından (şehir içi)"
+"Tarbisu",36.40884,43.07741,bulunamadı,,"https://pleiades.stoa.org/places/30774368 — "Tarbiṣu, now modern Sherif Khan, was an Assyrian city located about 5 kilometers north of Nineveh"",,"OK (Orta Kronoloji)"
+"Kilizu",36.10480,43.75179,bulunamadı,,"https://pleiades.stoa.org/places/894027 — "An ancient place, cited: BAtlas 91 E1 Kilizu"",,"OK (Orta Kronoloji)"
+"Puzriş-Dagan (Drehem)",32.05938,45.29213,bulunamadı,,"https://pleiades.stoa.org/places/359215729 — "An ancient city of Lower Mesopotamia, Puzriš-Dagan was founded in the twenty-first century B.C"",,"OK (Orta Kronoloji)"
+"Maşkan-şapir",32.40550,45.22070,bulunamadı,,"https://pleiades.stoa.org/places/715980704 — "Mashkan-Shapir, covering 56 ha, was occupied during the Uruk period and becomes more prominent during the Akkadian period and then during the Ur III period"",,"OK (Orta Kronoloji)"
+"Alalah",36.23808,36.38383,bulunamadı,,"https://pleiades.stoa.org/places/309866128 — "A major Late Bronze Age city in the Amuq River Valley, inhabited during the Second Millennium BCE until about the 12th century BCE."",,"OK (Orta Kronoloji); Mukiş başkenti"
+```
+
+## 2. Dışlananlar
+
+- Nerebtum: Pleiades 581862460 (Tell Ischali) Nerebtum adını vermiyor; kimlik bu kaynakta yok.
+- Kutalla: Pleiades 932138410 (Tall al-Sifr) antik adı vermiyor.
+- Kuara: Pleiades'te kayıt yok; konum belirsiz.
+- Kazallu: Pleiades'te kayıt yok; konum bilinmiyor.
+- Rapiqum: Pleiades'te kayıt yok; konum bilinmiyor.
+- Madaktu: Pleiades 906016 'unlocated'.
+- Malgium: Pleiades 656796826 (Tell Yassir) 'tentatively identified'.
+- Taidu: ayrı kayıt yok (Pleiades Tell Brak kaydında 'Taidum' adı geçiyor; tartışmalı).
+- Karana/Qattara: Pleiades 356369838 'either Qattara or Karana'.
+- Larak: Pleiades 813485298 yalnızca 'related' konum.
+- Sirqu: Terqa ile aynı; zaten mevcut.
+- Ka-ib: kayıt bulunamadı.
+- Akkad, Ekallatum, Waššukanni: talimat gereği eklenmedi.
+
+## 3. Sayılar
+
+eklenen 35 KAYIT, ilk kayıt tarihli 0, bulunamadı 35, dışlanan 13
+
+---
+## kaynak dosya: k1_sehir_ilk_A2.md
+# K1 – Şehir adlarının ilk yazılı kaydı (A2 grubu, 9 şehir)
+
+Kronoloji: OK (Orta Kronoloji). Mutlak MÖ yıllar 3. binyıl için **ARCANE III (Sallaberger & Schrakamp 2015), Table 39 "MC dates"** sütunundan alındı:
+https://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf
+Alıntılar (s. 136, Table 39): "Fara period ca. 2575-2475?±30" · "Presargonic period Lagash I // Umma ca. 175 years ca. 2475-2300 ±30" · "Shudurul 15 years 2156-2142±30" · "Shulgi 48 years 2092-2045".
+(Not: klasik OK tablosu Šulgi'yi 2094–2047 verir; o tabloyla Š31 = -2064, Š39 = -2056 olur. Burada açıp alıntılayabildiğim ARCANE MC değerleri kullanıldı.)
+Sümer Kral Listesi hiçbir yerde temel alınmadı. Arkeolojik katman tarihe karıştırılmadı.
+
+| ad | ILK_KAYIT_TARIHI | kesinlik | kaynak (URL + alıntı) | arkeolojik_katman | not |
+|---|---|---|---|---|---|
+| Kar-Tukulti-Ninurta | -1207-01-01 | on_yil | ORACC RIAo, Tukultī-Ninurta I: https://oracc.museum.upenn.edu/riao/thekingdomofassyria13631115bc/tukultininurtai/index.html — "Tukultī-Ninurta I (1243-1207 BC)" ; "around his eleventh regnal year (1231 BC), Tukultī-Ninurta founded his new capital at Kār-Tukultī-Ninurta." ; kralın yazıtından: "I called it Kār-Tukultī-Ninurta." — RlA 5, S. 455: https://publikationen.badw.de/de/rla/a/5.492.jpg — "ist wohl nach der Eroberung Babyloniens und der Gefangennahme Kaštiliaš's IV. etwa im 11. Jahr Tukulti-Ninurtas I. (1231 v. Chr.) gegründet worden." | RlA 5 "Kār-Tukulti-Ninurta B. Archäologisch" (S. 456) ayrı madde; orta Asur dönemi kenti (Tulūl al-ʿAqar) | Adı veren kuruluş yazıtı (ARI I 15–17) yıl adıyla sabitlenmiyor → kural gereği saltanat sonu (1207). Kuruluş yaklaşık 1231 (11. yıl), yani gerçek ilk kayıt muhtemelen 1231 civarı. |
+| Al-Untaš-Napiriša (Çoğa Zanbil) | -1300-01-01 | yuzyil | RlA 14, S. 339 "Untaš-Napiriša" (Henkelman): https://publikationen.badw.de/de/rla/a/14.402.jpg — "The synchronism with Burnaburiaš places U.'s reign in the second half of the 14th cent." ; "the grand temple complex of Dūr-Untaš-Napiriša (Čogā Zanbīl…)" ; "From Čogā Zanbīl alone 53 discrete brick inscriptions are known." — Iranica (Wayback): https://web.archive.org/web/2016id_/http://www.iranicaonline.org/articles/coga-zanbil — "ČOḠĀ ZANBĪL (Chogha Zanbil), ancient Āl Untaš dNapiriša (Elamite) or Dūr Untaš (Assyrian), a city founded by the Elamite king Untaš Napiriša" | Iranica: "After his death it remained a place of religious pilgrimage and a burial ground until about 1000 B.C.E." | Ad, kurucunun tuğla yazıtlarında. Iranica eski tarihleme "ca. 1275-40 B.C.E." verir (→ -1240); daha yeni RlA (Burnaburiaš II eşzamanlılığı) 14. yy 2. yarısı der → -1300 seçildi. |
+| Kabnak (Haft Tepe) | -1400-01-01 | yuzyil | Mainz Üniv. Haft Tappeh kazı projesi: https://www.ao.altertumswissenschaften.uni-mainz.de/bringing-the-past-to-light/haft-tappeh — "The city of Kabnak is mentioned as an important political centre during the reign of the Elamite king Tepti-Ahar" ; "Tepti-Ahar, the last king of the Kidinuid dynasty ruling in the 15th century BC" ; "Administrative texts belonging to the reigns of Tepti-Ahar and Inshushinak-zunkir-nappipir were also found at the site" | RlA 4, S. 39 "Haft Tepe": https://publikationen.badw.de/de/rla/a/4.68.jpg — Tepe Abu Fandowa'da "chalkolithischer Keramik"; ana höyükte "bedeutenden mittelelamischen Heiligtum"; ca. 500 tablet | Iranica "Haft Tepe" (Wayback 2016) adı henüz bilmiyor ("The ancient name of the site remains in doubt.") ve Tepti-ahar'ı Kadašman-Enlil I ile eşzamanlı sayar (→ 14. yy başı). Kazıcı ekibin 15. yy tarihlemesi esas alındı; 14. yy alternatifi notta. |
+| Marad | -2300-01-01 | yuzyil | CDLI P020449 (TMH 05, 035), Nippur, dönem "ED IIIb (ca. 2500-2340 BC)": https://cdli.earth/artifacts/20449 — "1(asz@c) lu2 mar2-da{ki}" ; aynı dönemden P020481 "2(esze3@c) lu2 mar2-da{ki}", P020529 "mar2-da{ki}" (https://cdli.earth/artifacts/20481, https://cdli.earth/artifacts/20529). Dönem sonu: ARCANE Table 39 "Presargonic period … ca. 2475-2300 ±30" | — (açtığım kaynaklarda kazı katmanı yok; RlA 7 S. 351 yalnız yer tespiti: "Wanna-wa-Sadum") | RlA 7 S. 351 (Edzard 1987–90; https://publikationen.badw.de/de/rla/a/7.384.jpg) hâlâ "bezeugt von der altakk. bis in die neubab. Zeit" der ve ilk kaydı Maništušu Obeliski'ne koyar; CDLI'deki Presargonik Nippur metinleri daha eski. CDLI'nin kendi dönem sınırıyla alınırsa -2340. |
+| Dilbat | -1878-01-01 | on_yil | RlA 13, S. 304 "Sumu-la-el" (Frayne): https://publikationen.badw.de/de/rla/a/13.379.jpg — "First king of the First Dynasty of Babylon (1880–1845)." ; "At the beginning of his reign (year 3), S. chased Alumbiumu from Dilbat." — RlA 13, S. 300–301 "Sumu-abum": https://publikationen.badw.de/de/rla/a/13.376.jpg — "S. was probably an overlord in northern Babylonia during the first part of Sumu-la-el's reign" ; "S. occurs in oaths and year names on documents from Sippar…, Kisurra and Dilbat" — CDLI P307215 (YOS 14, 120): https://cdli.earth/artifacts/307215 — yıl adı "mu dil-bat{ki} in-dab5" (Ḫalun-pi-umu/Alumbiumu) | — (açtığım kaynaklarda kazı katmanı yok) | Sumu-la-el 3. yıl (1880−2 = 1878) en geç sınır; Alumbiumu'nun "Dilbat'ı aldığı yıl" adı ve Sumu-abum 9. yıl adı ("Mauer von D.", RlA 2 S. 219: https://publikationen.badw.de/de/rla/a/2.228.jpg) biraz daha erken ama mutlak yılları sabit değil. CDLI'de "dil-bat" için Ur III / Akkad / ED kaydı çıkmadı (44 sonuç, en erkeni Erken Eski Babil). |
+| Kisurra | -2062-01-01 | yil | CDLI P101958 (ASJ 02, 018 53), Girsu, Ur III: https://cdli.earth/artifacts/101958 — "2. sza3 ki-sur-ra{ki}" ; yıl adı "mu kar2-har{ki} a-ra2 2(disz)-kam-asz ba-hul" ; CDLI "Dates Referenced: Šulgi.31.00.00". Šulgi 1. yıl = 2092 (ARCANE MC) → Š31 = 2062 | RlA 5, S. 623–624 (Kienast): https://publikationen.badw.de/de/rla/a/5.661.jpg — Abū Ḥaṭab'da buluntular "weiter als bis in die Zeit der III. Dynastie von Ur" gitmiyor; "Das gefundene Material gehört ausschließlich in die neusum. und in die altbab. Epoche." | RlA: "Zunächst ein Teil des Reiches von Ur III". CDLI'de "ki-sur-ra{ki}" için 116 sonuç; Ur III öncesi yok; tarihli en erken metin Š31. Klasik OK ile -2064. |
+| Der | -2475-01-01 | yuzyil | ARCANE III (Sallaberger & Schrakamp 2015), s. 65 (§4.5, Fara dönemi, Abu Salabikh za3-me ilahileri): https://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf — "the composition displays a geographical horizon of remarkable extent that includes … Shuruppag, Isin and Der, thus being delimited by Sippar and Kish to the North, Der to the East" ; Table 39: "Fara period ca. 2575-2475?±30" | ARCANE haritası "Der/'Aqar" (Tell ʿAqar); kazı katmanı bilgisi açtığım kaynaklarda yok | RlA 2 S. 199 (Unger 1938; https://publikationen.badw.de/de/rla/a/2.208.jpg) yalnızca Rimuš'tan itibaren yazıt veriyor ("Rimuš hat den König und den Priesterkönig von D. gefangen genommen"), güncel değil. |
+| Puzriš-Dagan (Drehem) | -2054-01-01 | yil | RlA 11, S. 125 (Sallaberger): https://publikationen.badw.de/de/rla/a/11.174.jpg — "Šulgi benannte sein 39. bis 41. Jahr nach der Gründung einer staatlichen Institution: „Jahr: (Bīt-)P. (Haus des Šulgi,) wurde errichtet". Damit erfolgte die Umbenennung von (E-)Saĝdana(-Nibru)" ; "Vor und nach der Ur III-Zeit ist P. nicht belegt." — Sallaberger 2003/04: https://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_2004_puzris-dagan.pdf — "Der einzigartige Status von Puzriš-Dagan wird zudem durch das Datum Šulgi 39 unterstrichen. Mit der Neugründung wurde das ältere Esagdana Nibru … umbenannt" ; Š1 = 2092 (ARCANE MC) → Š39 = 2054 | RlA 11: kimlik 1910 yağma kazılarındaki satıcı bilgisine dayanır ("erfolgte durch die Händlerangabe der 1910 bei Raubgrabungen gefundenen Urkunden"); "Drehem" metinleri Š26'dan itibaren (eski ad altında) | Ad ilk kez Š39 yıl adında geçiyor (önceki ad Esaĝdana-Nibru). Klasik OK ile -2056. |
+| Maškan-šapir | -2142-01-01 | yuzyil | RlA 7, S. 447–448 (Edzard): https://publikationen.badw.de/de/rla/a/7.481.jpg — "M. ist zum ersten Mal in einer sargonischen Gerichtsurkunde(?) erwähnt: i-na Maš-kà-ni-P[A].ALki „in M." (SR Nr. 83: 8–9). In Ur III-Quellen erscheint es durchweg im Zusammenhang mit Hirten und Viehlieferungen." Dönem sonu: ARCANE Table 39 "Shudurul 15 years 2156-2142±30" | — (açtığım kaynaklarda kazı katmanı yok) | Sargonik metnin hükümdar yılı belli değil → Sargon hanedanı sonu (2142) en geç sınır. Yedek: tarihli en erken Ur III kaydı CDLI P101694 (AnOr 12, 277; https://cdli.earth/artifacts/101694) "masz-kan2-szabra{ki}-me", "Dates Referenced: Šulgi.33" → -2060. |
+
+**Sayım: tarihli 9, bulunamadı 0.**
+
+## Notlar
+- ARCANE Table 39 3. binyıl tarihlerinde ±30 yıl belirsizlik veriyor; bu yüzden dönem sınırına dayalı tarihler (Der, Marad, Maškan-šapir) "yuzyil".
+- Dilbat (RlA 2) ve Der (RlA 2) maddeleri 1938 tarihli, eski. Dilbat için tarih daha yeni RlA 13 maddelerinden (Sumu-la-el, Sumu-abum) ve CDLI'den alındı.
+- RlA'da "Kabnak" veya "Āl-Untaš-Napiriša" başlıklı ayrı madde yok (BAdW dizininde arandı); "Haft Tepe", "Dūr-Untaš" (1938) ve "Untaš-Napiriša" maddeleri kullanıldı.
+- CDLI sorguları cdli.earth/search?atf_transliteration=… ile yapıldı ("mar2-da{ki}": 125, "ki-sur-ra{ki}": 116, "dil-bat": 44, "masz-kan2-szabra": 55 sonuç). Kayıtların dönem/tarih alanları artifact sayfalarından okundu.
+
+---
+## kaynak dosya: k1_sehir_ilk_A_alt.md
+# Şehir ilk kayıt — alt-ajan A (ⓒ ajanının çocuğu, geç döndü) — ham rapor
+ad | ILK_KAYIT_TARIHI | kesinlik | kaynak | not
+Kar-Tukulti-Ninurta | -1207-01-01 | yil | https://oracc.museum.upenn.edu/riao/Q005858 "I built a large cult center … I called it Kār-Tukultī-Ninurta" (A.0.78.22) | sayfa "ca. 1233-1197" der ⇒ -1197; MA saltanat 1243-1207 ⇒ -1207 — TEK konvansiyon seçilmeli (RIAo kendi tarihi)
+Al-Untaš-Napiriša | -1235-01-01 | on_yil | https://collections.smvk.se/carlotta-mhm/web/object/3400087 "He founded a new capital called either Al-Untash-Napirisha … Period Ca 1260-1235 BC." | tuğla yazıtı MM 1977:023a
+Kabnak (Haft Tepe) | -1300-01-01 | yuzyil | https://www.staff.uni-mainz.de/mofidi/Hafttape,english/what.html "the seal of Athibu, Governor of Kabnak … Tepti-Ahar" + press.uni-mainz.de ?p=19750 "14th century BC" | gevşek sınır
+Marad | -2218-01-01 | yil | https://cdli.earth/inscriptions/2180744 "Lipit-ili … ensi2 … mar2-da{ki}" (RIME 2.01.04.09; Naram-Sin) | Naram-Sin 2254-2218 kaynaksız varsayım ⇒ kesinlik yuzyil olmalı
+Dilbat | bulunamadı | | | OB Sabium 9 en erken doğrulanan (Almamori & Bartelmus PDF) — daha erken doğrulanmadı
+Kisurra | bulunamadı | | |
+Der | -2084-01-01 | yil | https://web.archive.org/web/2023id_/https://cdli.ox.ac.uk/wiki/shulgi_years_11-20 "11. mu d ištaran bad3-an ki der ki e2-a-na ba-ku4" | Šulgi 11 yıl adı ⇒ olay −1 = -2085 (konvansiyon)
+Puzriš-Dagan | -2056-01-01 | yil | https://web.archive.org/web/2023id_/https://cdli.ucla.edu/tools/yearnames/HTML/T6K2.htm "39 … e2-puzur4-isz-{d}da-gan{ki} … mu-du3" | Š39 yıl adı ⇒ olay −1 = -2057
+Maškan-šapir | -2154-01-01 | yuzyil | Stone & Zimansky 2004 (Steinkeller) repo.library.stonybrook.edu 11401/89161 "The earliest known mention of Mashkan-shapir comes from a Sargonic letter of Nippur provenience" | Sargonlu sonu ~2154
+
+---
+## kaynak dosya: k1_sehir_ilk_B_alt.md
+# Şehir ilk kayıt — alt-ajan B (ⓒ ajanının çocuğu, geç döndü) — ham rapor
+ad | ILK_KAYIT_TARIHI | kesinlik | kaynak | not
+Tuttul (Tell Bi'a) | -2350-01-01 | yuzyil | https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/dagan "the BE of Tuttul (i.e., "the Lord of Tuttul" refers to Dagan), modern Tell Bīʿa" | Ebla arşivi bağlamı (alıntıda Ebla adı yok — ZAYIF)
+Ebla | -2350-01-01 | yuzyil | https://cordis.europa.eu/project/id/249394/reporting "royal archives consisting of 17.000 cuneiform tablets dating to c. 2300 BC" · Britannica Wayback "Ebla's archives, dating to the 3rd millennium bce" | kaynak c.2300 der; Ebla arşivi MC 2400-2350 konvansiyonu
+Emar | -2350-01-01 | yuzyil | https://web.archive.org/web/2023id_/https://www.die-bibel.de/stichwort/17472 "Die ältesten Erwähnungen von Emar finden sich in den Keilschrifttafeln aus dem nordsyrischen Ebla … um 2400 v. Chr." |
+Karkamış | -2350-01-01 | yuzyil | https://web.archive.org/web/2023id_/https://www.die-bibel.de/stichwort/23208 "erscheint Karkemisch in den Archiven von Ebla (24. Jh. v. Chr.)" |
+Qatna | -1761-01-01 | on_yil | https://web.archive.org/web/2023id_/https://www.britannica.com/place/Katna "frequently named as Qatanum in the royal archives of Mari" | Zimri-Lim sonu üst sınır; ZL tarihleri kaynakla doğrulanmadı
+Halab | -2350-01-01 | yuzyil | https://web.archive.org/web/2023id_/https://www.britannica.com/place/Aleppo "first mentioned in the archives of the ancient city of Ebla at the end of the 3rd millennium bce" |
+Ekalte | -1301-01-01 | yuzyil | Sallaberger 2001 PDF (archiv.ub.uni-heidelberg.de propylaeumdok 6201) "eine Datierung in das 14. Jh. wahrscheinlich" (Mayer: vor 1446) | ZAYIF: alıntı tabletleri tarihliyor, adı açıkça değil
+Alalah | -1761-01-01 | on_yil | https://web.archive.org/web/2023id_/https://www.die-bibel.de/stichwort/12985 "Die Briefe aus Mari legen ein erstes Zeugnis darüber ab" | Zimri-Lim sonu; ZL tarihleri doğrulanmadı
+Nagar (Tell Brak) | -2350-01-01 | yuzyil | https://www.thebritishacademy.ac.uk/documents/2009/pba131p001.pdf "Contemporary cuneiform tablets from Ebla tell us that in the third millennium Nagar was the dominant city" |
+
+---
+## kaynak dosya: k1_sehir_ilk_C_alt.md
+# Şehir ilk kayıt — alt-ajan C (ⓒ ajanının çocuğu, geç döndü) — ham rapor özeti
+Urkeš | -2218 | yuzyil | urkesh.org Buccellati 2003 JCS55 PDF "dating of king Tupkish to the Akkadian period … early Naram-Sin" + 2007 PDF "ruler of Urkesh … Tupkish"
+Kahat | -1775 | yil | Wayback cdli.ox.ac.uk/wiki/year_names_zimri-lim "Year in which Zimri-Lim seized Kahat (ZL 01)" — ZL mutlak eşleme KAYNAKSIZ; yıl adı −1 konvansiyonu uygulanmadı
+Šadikanni | -967 | on_yil | oracc riao Q006010 "the mooring-pole of the city Šadikanni … At the time of Aššur-rēša-iši (II)"
+Guzana | -894 | yil | oracc riao Q006021 "marched to the city Guzāna, which Abi-salamu of the land Bīt-Baḫiāni … held" (eponim Šamaš-abūʾa)
+Til-Barsip | -858 | yil | oracc riao Q004607 "I approached the city Tīl-Barsip, the fortified city of Aḫūnu"
+Hindanu | -1076 | on_yil | oracc riao Q005929 "as far as the city Ḫindānu" (Tiglat-pileser I) — Mari kontrol edilmedi
+Anat | -1076 | on_yil | oracc riao Q005929 "Anat of the land Sūḫu" — OB Ḫanat muhtemel, doğrulanmadı
+Dur-Katlimmu | -1234 | on_yil | schechhamad.de/ausgrabung/archive.php "seit Salmanassar I., der den Tempel des Stadtgottes Salmānu von Dūr-Katlimmu gründete" — "wahrscheinlich"; alternatif -1197
+Tarbiṣu | -1296 | on_yil | oracc riao Q005737 "Tarbiṣi, (and) Kudina" (Arik-dīn-ili 8) — kimlik belirsiz; sağlam yedek Šalmaneser III Q004735 (açılmadı)
+
+---
+## kaynak dosya: k1_sehir_ilk_D2.md
+# K1 – Şehir adının ilk yazılı kaydı (D2: Babil / Diyala / Asur)
+
+Kronoloji: OK (Orta Kronoloji). MÖ 911 sonrası mutlak tarihler. ILK_KAYIT_TARIHI = adı geçen dönemin/saltanatın **en geç sınırı**.
+SKL (Sumer Kral Listesi) hiçbir satırda temel alınmadı.
+
+RlA sayfa görüntüleri BAdW'nin RlA dizininden (https://publikationen.badw.de/de/rla/index → `index/index.json` → sayfa görüntüsü `https://publikationen.badw.de/de/rla/a/<cilt>.<sayfa>.jpg`). Hepsi açıldı ve okundu. CDLI sayfaları cdli.earth adresinden curl ile çekildi.
+
+| ad | ILK_KAYIT_TARIHI | kesinlik | kaynak (URL + alıntı) | arkeolojik_katman | not |
+|---|---|---|---|---|---|
+| Šaduppum (Tell Harmal) | -1900-01-01 | yuzyil | RlA 11, 488 (van Koppen, "Šaduppûm A"): https://publikationen.badw.de/de/rla/a/11.539.jpg — "der Name bezieht sich auf die Funktion als regionales Verwaltungszentrum und ist seit Ḫammi-dušur nachzuweisen." Ḫammi-dušur'un tarihi: RlA 14, 243 (Tutub A), https://publikationen.badw.de/de/rla/a/14.306.jpg — "Von der in Mound D gefundenen frühaltbab. Textgruppe dokumentieren insbes. die Jahresdaten … mehrerer Kleinkönige der Region. … Ḫammidušur*". CDLI'de "Early Old Babylonian" dönemi = "(ca. 2000-1900 BC)" (ör. https://cdli.earth/artifacts/299653 YOS 14, 040: "a-na sza-du-up-pe3-e{ki}") | RlA 11, 490 (https://publikationen.badw.de/de/rla/a/11.541.jpg): "Die Textfunde umfassen etwa zwei Jahrhunderte vor der Zerstörung der Stadt am Ende der Regierungszeit von Ibal-pi-El II. von Ešnunna (ca. 1766)"; Schichten V–IV yerel/Ešnunna öncesi, III–II Ešnunna. Akkad dönemine inen sondajlar yalnızca Wikipedia'da geçiyor (ipucu, doğrulanmadı). | Erken Eski Babil dönemi (Tutub kralı Ḫammi-dušur). CDLI YOS 14, 040'ı "Early OB" diye etiketliyor, RlA ise aynı metni Ibal-pi-El II dönemine koyuyor (s. 489), yani tarihlemede kullanılmadı. Mari Eponim Kroniği'nde Aminum'un ilhakı ca. 1864 olarak geçiyor, ama bu sonradan yazılmış bir metin. |
+| Zabalam | -2900-01-01 | yuzyil | RlA 15, 170 (Molina, "Zabala/u(m)"): https://publikationen.badw.de/de/rla/a/15.170.pdf — "The name of the city of Z., spelled AB a.MUŠ3, is first attested in a small fragment of a tablet dated to the Uruk III period (ca.3100−2900) recording geographical names (ATU 3, 54 pl. 78 W 20266,148: Geography X), and in the archaic city seals of Ǧamdat Nasr". Ayrıca CDLI P000393: https://cdli.earth/artifacts/393 — "Lexical tablet excavated in Uruk (mod. Warka), dated to the Uruk III (ca. 3200-3000 BC) period"; "3. 1(N01) , ZABALAM~a#" (Archaic Geography, P471686) | bulunamadı (açılan kaynaklarda kazı katmanı bilgisi yok) | CDLI'deki dönem sınırı kullanılırsa tarih -3000 olur. Değer için RlA'nın açık "first attested" ifadesi esas alındı. RlA'ya göre Uruk III'teki öteki ZATU 613 geçişleri bir İnanna tapınağı da olabilir, kesin değil. |
+| Bad-tibira (Pa-tibira) | -2420-01-01 | on_yil | CDLI P431120 (RIME 1.09.05.04 composite, Enmetena): https://cdli.earth/artifacts/431120 — "38. e2-musz3 pa5-ti-bir5-ra{ki}-ka  en: the Emuš of Pa-tibira … 44. dumu pa5-ti-bir5-ra-ka  en: and the citizens of Pa-tibira"; "dated to the ED IIIb (ca. 2500-2340 BC) period". Saltanat tarihi: CDLI wiki https://cdli.ox.ac.uk/wiki/rulers_of_mesopotamia — "All dates used here are BC, following the conventional middle chronology" … "Enmetena (vers 2420)". Yazımın kontrolü: RlA 10, 365 (Edzard, "Patibira"), https://publikationen.badw.de/de/rla/a/10.406.jpg — "Pa5-ti-bir5-raki, Pa5-/Pà-ti-bi-raki, Bàd-tibx(KU)-ra, RGTC 1, 23 (vor Ur III)." | bulunamadı (açılan kaynaklarda yok; Tell al-Madā'in için kaynak açılmadı) | SKL kullanılmadı. CDLI'de ED I-II ve ED IIIa'da geçen "tibira" sonuçlarının hepsi meslek adı (demirci/tibira), şehir adı değil. ED IIIb'de şehir adı yalnızca Enmetena metinlerinde çıkıyor. Bilinen Emuš kabartmalı çivisinde (RIME 1.9.5.3) şehrin adı geçmiyor. |
+| Me-Turan (Tell Haddad / Tell as-Sib) | -1900-01-01 | yuzyil | RlA 8, 150 (Röllig, "Mê-Turran, Mê-Turnat"): https://publikationen.badw.de/de/rla/a/8.179.jpg — "Zuerst altbab. genannt (Me-Tu-ra-anki MSL 11,57 iii 78; s. auch OBTI 63: 18)". OBTI 063 = CDLI P369493, "Provenience: Nerebtum (mod. Iščali) / Period: Early Old Babylonian (ca. 2000-1900 BC)" (arama: https://cdli.earth/search?simple-field[]=transliteration&simple-value[]=me-tu-ra). Tell Haddad'da da var: https://cdli.earth/artifacts/491235 — "dated to the Early Old Babylonian (ca. 2000-1900 BC) period"; "3. _us2-sa-du e2_ be-el-me-tu-ra-an" | Wikipedia (yalnızca ipucu): İsin-Larsa (seviye 4), Eski Babil (3-2), Kassit, Yeni Asur (1). RlA'da katman bilgisi yok. | Arīm-Līm'in "bad3-am sza me-tu-ra-an{ki}" yazıtı (https://cdli.earth/artifacts/448605) CDLI'de genel OB (ca. 1900-1600) olarak tarihleniyor. CDLI'deki Akkad dönemi "me-tu-ra" sonucu bir kişi adı (me-me-tu-ra-ah), Ur III sonucu ise ilgisiz. |
+| Sippar-Amnanum (Tell ed-Der) | -1734-01-01 | yil | RlA 12, 528 (Kalla, "Sippar A. I"): https://publikationen.badw.de/de/rla/a/12.585.jpg — "Tell ed-Dēr war bis Samsu-iluna Sippir-rabûm, danach Sippir-Amnānum." CDLI'de tarihli en erken örnek: https://cdli.earth/artifacts/510246 (MHET 2/6, 870) — "1. _a-sza3 sza3_ er-s,e-et zimbir{ki}-am-na-nim"; künye: "Dates Referenced Samsu-iluna.16.00.00". Samsu-iluna: "Samsu-iluna (1749-1712)" (https://cdli.ox.ac.uk/wiki/rulers_of_mesopotamia) ⇒ 16. yıl = 1734 | bulunamadı (açılan kaynaklarda yok) | Yerleşimin kendisi daha eski, ama "Sippir-rabûm" adıyla. Buradaki tarih yalnızca "Sippar-Amnanum" adının ilk kaydı. 62 CDLI sonucunun hepsi tarandı, en erken tarihli olan Samsu-iluna 16. Tarihsiz birkaç tablet daha erken olabilir, o yüzden bu bir üst sınır olarak okunmalı. |
+| Upi / Opis | -2000-01-01 | yuzyil | RlA 10, 113 (Streck, "Opis"): https://publikationen.badw.de/de/rla/a/10.154.jpg — "§ 1. Schreibungen und Name. Ur III U-NE(pi5?) RGTC 2, 216; M. Sigrist, JCS 33 (1981) 264." Ur III sınırı: CDLI "Ur III (ca. 2100-2000 BC)" | RlA 10, 114 (https://publikationen.badw.de/de/rla/a/10.155.jpg): "O. ist daher wahrscheinlich" Tulūl al-Muǧayli' ile özdeş (s. 113: "wahrscheinlich mit Tulūl al-Muǧayli' zu identifizieren"). Kazı bilgisi bulunamadı. | Ur III okuması RlA'da da soru işaretli ("pi5?"). Akšak (ÚḪ) ile özdeşleştirme RlA'ya göre ancak "spätestens in der 2. Hälfte des II. Jts." söz konusu, bu yüzden Akšak'ın ED kayıtları sayılmadı. CDLI'de "u2-pi2" ile çıkan Ur III sonuçları "dan-u2-pi2" kişi adı. |
+| Imgur-Enlil (Balawat) | -0859-01-01 | on_yil | RlA 5, 66-67 (Postgate, "Imgur-Enlil"): https://publikationen.badw.de/de/rla/a/5.98.jpg — "The Mamu Temple inscription of Aššur-naṣir-apli II informs us that he refounded the town at Balawat and gave it the new name of Imgur-Enlil ('Enlil agreed')." Saltanat: https://publikationen.badw.de/de/rla/a/5.97.jpg — "Aššur-naṣir-apli* II (883—859)" | RlA 5, 67: "The only evidence of later occupation is a level some 0.80—1.00 m. above the Assyrian floors in the temple which yielded painted wares … Hellenistic period, ca. 250—150 B. C."; buluntular 7. yy sonuna kadar süren iskânı gösteriyor | Ad Aššurnaṣirpal II tarafından konmuş, yani kuruluş adı. MÖ 911 sonrası olduğu için tarih mutlak. Saltanatın son yılı alındı. |
+| Kilizu (Qasr Shemamok) | -1076-01-01 | yuzyil | RlA 5, 592 (Postgate, "Kilizu"): https://publikationen.badw.de/de/rla/a/5.629.jpg — "There are no certain attestations of K. in the OB period … In the MA period K. was almost certainly incorporated into Assyria during the reign of Aššur-uballiṭ I … In administrative texts of Tiglath-pileser I K. is listed between Arbil and Ḫalaḫḫu, and it is occasionally referred to in other MA documents from Assur." Ad yazımı, https://publikationen.badw.de/de/rla/a/5.628.jpg: "In Middle Assyrian texts the name is written syllabically KUR/URU ki-li-zi." Tiglat-pileser I saltanatı (RlA 5, 591, aynı sayfa): "Nach den Annalen Tiglatpilesers I. … 1114" | RlA 5, 592: "The 2nd millennium levels were not reached in excavation, although Ninevite V incised sherds are reported from the surface"; Kasr'ın KB köşesinde Part katmanları ve Part mezarlığı var | Tarih tartışmalı: -1076, Tiglat-pileser I'in (1114-1076) idari metinlerinin bitiş yılı, yani güvenli bir üst sınır. Daha eski Orta Asur belgeleri de var (KAJ 105:8; 158:7; 298:13, Assur; muhtemelen 14.-13. yy), ama bunların tarihi kaynakta verilmiyor. Eski Babil'deki ka-li-zi ve Ki-li-zi-imki (ARM V 74:5) RlA'ya göre "no certain attestations". |
+| Girtab | atlandı | – | RlA dizininde coğrafi bir "Girtab" maddesi yok, yalnızca "dGír-tab" (Skorpion/akrep) var: https://publikationen.badw.de/de/rla/index/index.json | – | Yeri belirlenmemiş (lokalize edilmemiş) olduğu için talimat gereği atlandı. |
+
+## Sayımlar
+- Toplam şehir: 9
+- Tarih bulunan: 8 (Šaduppum, Zabalam, Bad-tibira, Me-Turan, Sippar-Amnanum, Upi/Opis, Imgur-Enlil, Kilizu)
+- bulunamadı: 0
+- Atlanan (yeri belirlenmemiş): 1 (Girtab)
+- kesinlik: yuzyil 5 (Šaduppum, Zabalam, Me-Turan, Opis, Kilizu) · on_yil 2 (Bad-tibira, Imgur-Enlil) · yil 1 (Sippar-Amnanum)
+- arkeolojik_katman dolu: 4 (Šaduppum, Opis-lokalizasyon, Imgur-Enlil, Kilizu) · Wikipedia ipucu: 1 (Me-Turan) · bulunamadı: 3
+
+## Uyarılar
+- Sippar-Amnanum (-1734) ve Kilizu (-1076) "en erken bulunan" kayıtlar, yani üst sınır olarak okunmalı. İkisinde de daha erken bir kayıt bulunma ihtimali var.
+- Opis'in Ur III okuması RlA'da da soru işaretli ("pi5?").
+- ORACC/ETCSRI ve Britannica açılmadı. Değerlerin hepsi RlA sayfa görüntülerine ve CDLI'ye dayanıyor.
+
+---
+## kaynak dosya: k1_sehir_ilk_D_alt.md
+# Şehir ilk kayıt — alt-ajan D (ⓒ ajanının çocuğu, geç döndü) — ham rapor özeti
+Šaduppum | -1900 | yuzyil | cdli.earth/artifacts/299653 "a-na sza-du-up-pe3-e{ki}" Early OB (2000-1900)
+Zabalam | -3000 | yuzyil | Collins 1994 PIA 5 "Archaic Level III tablets from Uruk, where MUS-le … is interpreted as the city" + CDLI P000393 ZABALAM~a — yorum, kesin değil
+Bad-tibira | -2340 | yuzyil | cdli.earth/artifacts/431120 "e2-musz3 pa5-ti-bir5-ra{ki}-ka" ED IIIb (2500-2340)
+Mê-Turan | -1818 | on_yil | cdli.earth/artifacts/369493 "mu i-pi2-iq-{d}iszkur bad3 me-tu-ra-an in-dab5" (Ipiq-Adad II; 1818 kaynaksız) — CDLI etiketi -1900
+Sippar-Amnanum | -1720 | yil | cdli.earth/artifacts/257787 "zimbir{ki}-am-na-nu-um" Samsu-iluna 30
+Upi/Opis | -1900 | yuzyil | livius "mentioned for the first time at the beginning of second millennium" + cdli 369432 Ishchali "u2-pi2-i{ki}"
+Imgur-Enlil | -859 | on_yil | oracc riao Q004504 "I reorganized this city (and) named it Imgur-Enlil"
+Kilizu | -1250 | yuzyil | Wayback Iranica Kilizu ii "already part of the Middle-Assyrian empire in the first half of the 13th century BCE"
+
+---
+## kaynak dosya: k1_sehir_E_konum.md
+# Şehir konum denetimi — alt-ajan E (dışlananlar) — ham rapor
+| ad | konum | koordinat | kaynak | ilk kayıt | not |
+|---|---|---|---|---|---|
+| Nerebtum (Iščali) | EVET | 33.3015, 44.5831 | https://pleiades.stoa.org/places/357565832 "Nērebtum is a medium-sized Bronze Age settlement located east of Baghdad on the left bank of the Diyala river" (ad 'certain'; RGTC 3:176, RlA 9:211-214) · CDLI prov 245 | ≈-1818 (Ipiq-Adad II sonu) — https://cdli.earth/artifacts/448197 "ne-re-eb-tum{ki}" · YOS 14 075 erken OB (2000-1900) daha erken olabilir | ⇒ EKLENEBİLİR |
+| Kutalla (Tell Sifr) | EVET | 31.2946, 45.9672 | https://cdli.earth/proveniences/167 "Kutalla (mod. Tell Sifr)" · Pleiades 932138410 | -1835 (Ṣilli-Adad) — https://cdli.earth/artifacts/270025 "ku-ta-al-la{ki}" | yalnız bir yazım tarandı ⇒ EKLENEBİLİR |
+| Kuara | HAYIR | — | CDLI prov 33 "uncertain (mod. Tell al-Lahm)" | — | dışla |
+| Kazallu | HAYIR | — | CDLI prov 193 "Kazallu (mod. uncertain)" | — | dışla |
+| Rapiqum | HAYIR | — | Collège de France "Rapiqum (Tell Anbar?)" | — | dışla |
+| Madaktu | HAYIR | — | Potts "identification … with Tepe Patak has not received general acceptance" | — | dışla |
+| Malgium | DENEME | 32.5613, 45.0989 | Pleiades 656796826 "tentatively identified" | -1914 Gungunum 19 | dışla (tentative) |
+| Taidu | DENEME | 36.8165, 41.1668 | Pleiades 874740 "Tell Hamidi/[Ta'idu]?" | — | dışla |
+| Karana/Qattara | DENEME (Tell al-Rimah hangisi tartışmalı) | 36.2569, 42.45 | Pleiades 356369838 "either Qattara or Karana" — reprPoint (34.70,43.33) HATALI | Karana ≈-1776 ARM 4 26 | dışla |
+| **Upi/Opis** | **DENEME** — Pleiades "precise" der ama | 33.1844, 44.7015 | livius.org "The precise location of Opis has not been established" | — | ⚠️ ⓒ ajanı EKLEMİŞTİ ⇒ ÇIKARILMALI |
