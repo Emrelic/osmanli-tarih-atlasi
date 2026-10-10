@@ -93,3 +93,28 @@ Gerekçe: YÜKSEK etki bandı tek-aile uzak tanıklara dayanıyor; 67–103 km u
 - **Alonisos** ve **Tsabong**'un GN doğru-nesne koordinatları 0,05° ızgarasına yuvarlak. TAŞIMA-PARK'tan çıkarken §9.4 çözünürlük şartı da aranmalı.
 
 Dosyalar: bu rapor + `denetim/LAB-ADAY-YUKSEK-28-1010.csv` (28 satır).
+
+## §EK — 10 Ekim koordinatör hükümleri
+
+(Bu ek yukarıdaki metni değiştirmez; §0–§6 olduğu gibi kalır. CSV'ye `hukum_1010` sütunu eklendi.)
+
+**1. Ö-2 İLKE OLARAK KABUL.** "Tarihî bir atlasta doğru nesne modern merkez değil tarihî çekirdektir."
+- Yeni sınıf adı: **DOĞRU-DÖNEM** (kusur değil). Atlas noktası yerin tarihî çekirdeğinde, taramanın "doğru nesne"si aynı yerin modern merkezi.
+- Bu sınıfa geçen satırlar: **Bamako · Tucson · Port of Spain** (önce ÖLÇÜLEMEDİ, Ö-2 tanım boşluğu). Üçü de ADAY'dan düşer.
+- **ADAY 196 → 193.**
+
+**2. Tsabong ve Alonisos → ÖLÇÜLEMEDİ.** Gerekçe her ikisi için aynı: "tanık 0,05° ızgaraya yuvarlak (≈5,5 km), çözünürlük > ölçülen fark (§9.4)". Tsabong'da ölçülen fark 6,01 km, Alonisos'ta 8,76 km.
+- **GERÇEK KUSUR 11 → 9:** Korçula · Nichicun · Jinan · Çuha · Pusan · Krk · Pantelerya · Ûicu · Ayamavra.
+- **ADAY toplamı = 193, değişmiyor.** İki satır GERÇEK KUSUR'dan ÖLÇÜLEMEDİ'ye geçiyor ama ikisi de zaten ADAY kovasındaydı (KUSUR-KESİN değildi). ÖLÇÜLEMEDİ satırlar ADAY'da kalır, tıpkı Kefalonya · Marmara · Sennar · Kiş · İthaki gibi. Hesap: 206 − 9 (EŞADLI) − 1 (Pantelerya → KESİN) − 3 (DOĞRU-DÖNEM) = **193**. KUSUR-KESİN **9** olarak kalıyor.
+- Düzeltilmiş çare dökümü: TAŞIMA 7 (Korçula · Ayamavra · Nichicun · Jinan · Krk · Pantelerya · Ûicu), İKAME/katman sorusu açık 2 (Pusan · Çuha). TAŞIMA-HAZIR 1 (Pantelerya), PARK 8.
+
+**3. Fort Nez Percés: ayrı SAHİPLİK kusuru adayı.** `s:` zinciri `kanada` 1867–1923 diyor, ama nokta Washington eyaletinde. 1846 Oregon Antlaşması'ndan sonra bu toprak ABD'de. Konum hükmü (EŞADLI BAŞKA YER) değişmiyor. Sahiplik ayrı kalem olarak **koordinatör kuyruğu 2r**'ye girer.
+
+**Düzeltilmiş özet (28 satır):**
+
+| hüküm_1010 | sayı | satırlar |
+|---|---|---|
+| **GERÇEK KUSUR** | **9** | Korçula · Ayamavra · Nichicun · Jinan · Çuha Adası · Pusan · Krk · Pantelerya · Ûicu |
+| **EŞADLI BAŞKA YER** | **9** | Brakya · Elba · Knife River · Peşte · Nikarya · Fort Nez Percés (+ sahiplik 2r) · Fort Ross · Fort Langley · Kekionga |
+| **DOĞRU-DÖNEM** | **3** | Bamako · Tucson · Port of Spain |
+| **ÖLÇÜLEMEDİ** | **7** | Kefalonya · Marmara Adası · Sennar · Kiş · İthaki · Tsabong (§9.4) · Alonisos (§9.4) |
