@@ -173975,5 +173975,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5896",
+  "zaman": "2026-10-10 04:41",
+  "kimden": "KUNYE-SUMER-7-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-SUMER-7-1010 · dal makine/emrelic-kunye 6b025c94 (main'e dokunulmadi) · rapor denetim/KUNYE-SUMER-7-1010.md YENI DOSYALAR: denetim/KUNYE-SUMER-7-1010.diff · denetim/KUNYE-SUMER-7-1010.md (git cat-file -e HEAD: dogrulandi) ① OLCTUM: diff data/devletler.js +70/-7, taban origin/main 1f080648, git apply --check TEMIZ (taban worktree + C:\\atlas ana checkout), sha256 c9d039a3. 6 kalem: ahameni -0538-01-01→-0330-10-22 · makedon -0330-10-22→-0311-01-01 · selefki -0311-01-01→-0140-07-03 (+kronoloji -0129-06-01) · part -0140-07-03→0226-01-01 (Susa ucu 0224 ic_not_t'de) · elymais -0146-01-01 (onyil)→0224-01-01 · sasani f 0226→0224-01-01 (Hormizdagan gun ayrismasi kaynak'ta ADIYLA). Kunye 897→902, mukerrer 0, node --check OK. Hepsine boya_gerekli:true. MO→astronomik donusumler 9/9 raporda gosterildi. renkler.py BOYALAR: 7/7 YOK (yazilmadi). denetle.py taban↔yamali ayni anda: 352/352 satir, FARK 0, ikisi de cikis 2 yalniz D8 devletler_harita.js YOK yuzunden — ama bu 'temiz' degil: hicbir yerlesim bu kimlikleri kullanmiyor, negatif f HIC okunmadi; pad() docstring 'negatif yil gun_no COKER' ⇒ veri partisinden ONCE olculmeli. ② BULAMADIM: karakene YAZILMADI — f akademik (Olmstead, Babil -0126-06-01) ama t yalniz livius/Lendering 222, Hansman yilsiz ⇒ tek kaynakli kunye karari sende. ahameni.baskent + elymais.baskent kaynakta yok (aciklamali tire). makedon.baskent 'Babil' yalniz Iskender icin tanikli. ③ ISTIYORUM — 3 ZARF ASIMI hukmun: (a) makedon f: Sippar ADART 'order of Alexander' -0330-10-18, f'den 4 gun once · (b) makedon t: BCHP 3 'Year 8 of Alexander … Borsippa' = -0308, t -0311'den sonra · (c) selefki ara dilim -0129-06-01 kunye t -0140-07-03'un DISINDA. Onerim: ucunde de §9.6 zarf (f -0330-10-18 · t -0308 · selefki t >= -0129-06-01); deger senin. Ayrica ahameni/part f = Mezopotamya zarfi, devlet basi degil (TDV 559/250). Ilk diff Edit araciyla 519 satir churn uretti (karisik CRLF), atildi; Python bayt eklemesiyle yeniden uretildi. Bekci yok (KOSU yasagi), duruyorum. · model: opus",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5897",
+  "zaman": "2026-10-10 04:45",
+  "kimden": "NOKTA-SUMER-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (teslim değil, iş sürüyor) · Sümer noktaları s:'siz inerse 1000-1923 haritasında GÜNEY IRAK DELİNİR. Ölçtüm: motor, sahnede olmayan (bit: ufuktan önce) SAHİPSİZ peteği yalnız kara sınırının ≥%90'ı sahipli komşuyla sarılıysa devrediyor (uret_petek.py:4921-4990 _kusatilmis, KUSATMA_ESIK 0.90; devir_kumesi :4995). Sümer noktaları BİRBİRİNE komşu ⇒ hiçbiri kuşatılmış değil. Yaklaşık simülasyon (düz Voronoi + motor_kara, 1000/1300/1600/1900 kesitleri): 22 noktanın 22'si de BOŞ kalıyor, ~62.400 km² (en yüksek pay Dilbat 0,70). Değişmez 1 bunu GÖRMEZ (bit: ile sahipsizlik sorulmuyor). Askalân/Dvin emsali tek, kuşatılmış nokta olduğu için çalışıyordu. ⇒ Diff'i yine üretiyorum (git apply --check temiz olacak) ama FAZ 2'de İNEMEZ: ya motor 'bit:/kur: ile sahnede olmayan nokta sahipsiz de olsa devredilir' (tuz ⇒ FAZ 3) ya da noktalar MÖ penceresi/C4 ile birlikte iner. Karar senin. Teslim ~1 saat içinde tek mesajla.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]

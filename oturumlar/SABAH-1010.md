@@ -74,11 +74,35 @@ Bu, gecenin en rahatsız edici ölçümü. Yemen örneklemi:
 2 kaynaklı nokta  · ikisi de DOĞRU
 Taiz: 254 yıl boyunca YANLIŞ SAHİP
 ```
-⇒ `kaynaksız` damgası *"kaynağını yazmadık"* demiyor olabilir; *"muhtemelen
-yanlış"* diyor olabilir. 1841 sayısı o zaman bir **beyan borcu** değil bir
-**hata tahmini** olur ve önceliği tamamen değişir. Daha geniş örneklem koşuyor
-(`DENETIM-OLU-ETIKET-1009`); sonuç gelince sana tek satırla bildirilecek.
-**Şimdilik senden karar istemiyorum — bilmen gerekiyor diye yazıyorum.**
+🔴 **ÖLÇÜLDÜ (04:4x) — CEVAP "İKİSİ DE DEĞİL", VE SEBEBİ BULUNDU.**
+`KAYNAKSIZ-ORNEKLEM-1010`, tabakalı örneklemle (N=48, 11 bölge, tohum 20261010)
+ölçtü ve **asıl bulgu bir desen değil bir SEBEP:**
+```
+iddia penceresi 1281-01-01'de BAŞLIYORSA   YANLIŞ %70  (7/10)
+daha GEÇ başlıyorsa                        YANLIŞ  %8  (3/36)
+1841 kaydın 1419'u (%77) en az bir 1281-başlangıçlı halka taşıyor
+toplam yanlış iddia tahmini  ≈400  (Wilson %95: 226-655)
+```
+**Sebebi:** `1281-01-01` atlasın **ufkunun kenarı** — bir kaynak değil, bir
+**sınır işareti** (`CLAUDE.md §4` / `D210` bunu zaten yasaklıyordu). 1419
+kayıtta o kenar bir kaynak gibi yazılmış: nokta *"1281'den beri şu devletin"*
+diye işaretlenmiş, oysa 1281 o devletle ilgili hiçbir şey söylemiyor —
+**atlasın nereden başladığını** söylüyor. ⇒ Bu kayıtlar kaynaksız değil,
+**YANLIŞ KAYNAKLI**; kaynakları atlasın kendi sınır işareti. Ve `§4`ün
+*"atlas referans değildir, mamul üründür"* kuralı tam bunu yasaklıyor —
+senin 13 Eylül'deki kararın.
+
+**BENİM KARARIM (senin onayına sunmuyorum, bildiriyorum):** 1841 tek kova
+olmaktan çıkıyor, ikiye bölünüyor —
+```
+kaynaksız ∧ 1281-01-01 başlangıçlı  = 1419  → YANLIŞLIK ŞÜPHESİ
+kalan                               =  422  → gerçek BEYAN BORCU
+```
+İkinci bir örneklem (1419'dan, n≈40, yeni tohum) koşuyor: %40-89 aralığı bir
+müdahaleyi 1419 kayda uygulamaya yetmez. **Senden karar istemiyorum**; sayı
+daralınca önceliği ben kurarım.
+📌 Bölgesel yoğunlaşma: Sahra-altı Afrika 4/5 · Dahlak · Kannur · Bintan ·
+Bantaeng. Avrupa/Amerika/Rusya/Doğu Asya'nın geç iddiaları TEMİZ.
 
 ---
 
@@ -183,3 +207,57 @@ ilgisiz). ⇒ `ÖLÇÜLEMEDİ` beyanı, "yok" değil.
 📌 **VE BU BÖLÜM BİR DESENİN BEŞİNCİ VAKASI:** bu gece beş kez bir işçinin
 ölçümü benim hükmümü düzeltti, ve beşinde de ölçüm kabul edildi. Bir koordinatör
 olarak ürettiğim en pahalı şey hüküm değil, **ölçülmeden verilmiş hüküm.**
+
+---
+
+## §6 🔴 SENİN AÇMAN GEREKEN TEK ŞEY — EMRELIC'in yedeği kullanılamıyor
+
+Gece ilerledikçe yeni iş dağıtmak gerekti ve **ölçtüm:**
+```
+EMRELIC'te 6 "HAZIR KITA 0910.21xx" oturumu var — ve GERÇEKTEN BOŞ:
+   ad damgası 21:28:16  ↔  son etkinlik 21:30:03   ⇒  107 SANİYE yaşamış
+   (yani §7.3 ⑧'in "dolu işçi" tuzağı DEĞİL; bunlar gerçek yedek)
+```
+Üçüne görev göndermeyi denedim:
+```
+HAZIR KITA 0910.2128.16   ✅ TESLİM EDİLDİ — turu başladı (KUNYE-SUMER-7-1010)
+HAZIR KITA 0910.2127.47   ❌ undelivered — "onay penceresinde olabilir"
+HAZIR KITA 0910.2127.58   ❌ undelivered — aynı
+```
+⇒ `CLAUDE.md §7.2`nin yazdığı hâl: **`send_message` "undelivered" diyorsa oturum
+ONAY PENCERESİNDEDİR ve bunu yalnız SEN açabilirsin.** Deneme başına ~20 sn
+beklediği için daha fazla denemedim — ölçüm yeterli.
+
+**SENDEN İSTEDİĞİM (tek hareket):** o oturumların pencerelerine bir kez bakıp
+bekleyen onayı ver, ya da onlara *"izinli kipte çalış"* de. Sonrasında
+dağıtımı ben yapıyorum.
+📌 Niçin önemli: UMIT · KASA · LAB · HAVVA dört makinede sorunsuz çalışıyor
+(köprüden haberleşiyorlar). Tıkanan **yalnız EMRELIC'in kendi yedeği** — yani
+senin makinende duran altı boş işçi. Dört makine doluyken yedeğe iş
+verememek, kadro yokluğundan değil **bir onay penceresinden** kaynaklanıyor.
+⚠️ Ve EMRELIC'te **canlı bekçi 0** (7 Ekim `KOSU` darboğazı, token gerekçesi
+— kaldırmanı İSTEMİYORUM, gerekçesi hâlâ geçerli); bu yüzden buradaki
+oturumlara tek ulaşma yolu `send_message`, ve o da onay penceresinde duruyor.
+
+⚠️ **KÜÇÜK BİR RİSK, bilmen için:** `NOKTA-SUMER-1010` görevi iki kıtaya da
+kuyruklandı (ikisi de "sonra alabilir"). İkincisine **mükerrer koruması**
+koydum (başlamadan önce dosya/dal var mı diye bakıp durur), birincisine
+koyamadım. İkisi de uyanırsa aynı dal adına push edecekleri için ikinci push
+**başarısız olur ve bana rapor eder** — yani sistem kendi kendini yakalar,
+ama bir kıtanın turu boşa gidebilir. Kabul ettim; alternatifi işi hiç
+başlatmamaktı.
+
+### §6.1 BU GECE DAĞITILAN YENİ İŞLER (senin onayını beklemiyor)
+```
+KUNYE-SUMER-7-1010   7 künyenin devletler.js diff'i — ÇALIŞIYOR
+NOKTA-SUMER-1010     26 Sümer noktasının diff'i — KUYRUKTA (yukarıdaki onay)
+KASA-SUMER-VARLIK    Eridu/İsin/Dēr/Nina + Ur/Dilbat: iskân mı, terk mi
+LAB-AYNI-AD-TARAMA   koordinat yanlış CİNSTEN bir kayıttan mı alınmış
+                     (vaka: Hvar — nokta bir OTEL kaydında, kasaba 19-20,8 km uzakta)
+UMIT  FAZ 1          hüküm listesi + hızlı kip (--atlama-yalniz, ölçüldü: 12 sn)
+```
+📌 Bir karar da verildi ve not düşüyorum: Sümer noktaları **yeni bir dosyaya
+DEĞİL**, mevcut `data/yerlesimler_nokta_ortadogu_0917.js`e girecek. Sebebi
+`girdi.py`nin **motor tuzunda** olması — yeni bir dosya ona satır ister, satır
+tuzu bozar, tuz **7-8 saatlik tam inşa** demektir. Mevcut dosyaya eklemek
+noktaları FAZ 2'de indiriyor, FAZ 3'ü beklemiyor.
