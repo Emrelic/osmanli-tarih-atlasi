@@ -621,6 +621,12 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   değil **kirlenme**ydi. ⇒ **Her ajan KENDİ dizinine yazar** (scratchpad ya da
   kendi worktree'si); paylaşılan `denetim/` yalnız **TESLİM** içindir, çalışma
   alanı değil.
+  🆕 🔴 **ŞERH — `scratchpad` OTURUM başınadır, AJAN başına DEĞİL** (UMIT'in
+  öz-ihbarı, 10 Ekim): bir oturumun BÜTÜN alt ajanları AYNI scratchpad'i
+  paylaşır; bir ajan ötekinin dizininde dosya bulup oraya yanlışlıkla
+  `git init` yaptı (hasar yok, kendi `.git`ini sildi). ⇒ **`scratchpad/<GÖREV-ADI>/`
+  alt dizini ZORUNLU.** Yukarıdaki cümle "scratchpad" derken paylaşılan bir
+  dizini işaret ediyordu — yani kural kendi yasakladığı şeyi gösteriyordu.
   📌 Birlikte okunur: *aynı makinede çalışan ajanlar süreçleri, dosyaları ve
   dizinleri PAYLAŞIR.* Bir sınavın çıktısı başka bir ajanın yazdığı dosyayla
   kirlendiğinde o sınav **"geçti" ya da "kaldı" der ve sebebi ÖLÇÜM DEĞİLDİR**
