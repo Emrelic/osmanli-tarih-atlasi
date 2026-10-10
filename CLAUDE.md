@@ -1214,7 +1214,30 @@ En sık aileler:
   denetim ≠ soruyu sorar → kapı KOŞUYOR, o soruyu SORMUYOR
   yorum ≠ kontrol        → kapı HİÇ YOK, ama VARMIŞ GİBİ YAZILI
   KAYDI PAYLAŞILMAYAN    → kapı VAR ve ÇALIŞIYOR — ama TEK MAKİNEDE
+  YANLIŞ EVRENDE ARAYAN  → kapı VAR, ÇALIŞIYOR, DOĞRU SORUYU SORUYOR —
+                           ama YANLIŞ YERDE ARIYOR
 ```
+  🆕 🔴 **BEŞİNCİ ÜYE EN SİNSİSİ** — öteki dördü *"kapı yok/çalışmıyor"*
+  ailesinden, bu ise **"kapı doğru çalışıyor" görünümünde** (10 Ekim 2026,
+  `KOS-VE-YAYINLA-ADD-1010`):
+```
+  kabuk_nobetci.py:165 (ADD-HEPSI) yalnız KABUKTA yazılan `git add -A`'yı
+  görüyor; bir ARACIN kendi `subprocess` argv'si onun evreninde DEĞİL.
+  ⇒ `kos_ve_yayinla.py` hem `git add -A -- data` hem **pathspec'SİZ
+    `git commit -F`** yapıyordu ve kapı HİÇ GÖRMEDİ.
+  Ölçülen sonuç (yamasız sınav): commit yarım bir `yerlesimler_x.js`,
+  izlenmeyen bir dosya, **BAŞKA BİR OTURUMUN indekslediği `olaylar_y.js`**
+  ve yayında olmayan bir motor çıktısını TAŞIDI · çıkış 0 · push çağrıldı.
+```
+  ⇒ **Yasak komutun METNİNE değil, KOMUTUN KENDİSİNE yazılır:** `git add -A`
+  kabuktan da, bir Python `subprocess`ünden de çıkar. ⚠️ Ve 17+ oturum
+  **AYNI git indeksini** paylaştığı için pathspec'siz bir commit, başkasının
+  yarım işini yayınlar — `§7`nin *"pathspec commit'te de TEKRARLANIR,
+  `git show --name-only` ile doğrulanır"* kuralı tam bu yüzden var ve bir
+  ARAÇ onu çiğniyordu.
+  📌 Çare çifti: kapıyı **statik taramaya** da genişlet (kanca dört makinede
+  kayıtlı DEĞİL ⇒ kanca biçimi yalnız EMRELIC'te korur; statik tarama her
+  yerde koşar).
   🆕 🔴 **DÖRDÜNCÜ ÜYE, ve bu dosyanın kendi nöbetçisi** (10 Ekim 2026;
   UMIT kendi makinesinde ölçtü, koordinatör EMRELIC'te doğruladı):
 ```
