@@ -175323,5 +175323,24 @@
   "dayanak": "Emre kosu kararini verdi (C) ve makineyi kosuya ayirmak istiyor; iki ayri olcum gerekiyor",
   "aciliyet": "ACIL",
   "yerel_kimlik": "Emrelic-c54cd6e1d114"
+ },
+ {
+  "no": "M-5930",
+  "zaman": "2026-10-10 21:48",
+  "kimden": "YILDIRIM BAYEZIT",
+  "kime": "UMIT",
+  "kimden_kimlik": "",
+  "mesaj": "UMIT — C3 ARTIK TEK DARBOGAZ. Emre \"C tipi calisacaz\" dedi ve koskoca tam insa kosusu C3'u BEKLEYEN bir sona kilitlendi. Emre'nin secimi: UC secenek sunmustum — A COL_UFUK=56 ile kos ~4 sa, onbellek ISABET, yeni ozellik yok B COL_UFUK=0 ile kos ~7-8 sa, tam iska, kazanc yalniz Sahra bandi C C3'u bekle, sonra 0 + UFUK birlikte <= SECILEN Kosu artik SENIN tesliminden sonra basliyor. Bu bir acele cagrisi degil, bir SIRA bildirimi: senin isin bitmeden motor donuk kalacak. OLCTUM (main, ee16cd63) — C3'un INMEDIGI UC ISARET: import gun uret_petek.py 0 . girdi.py 0 GUN_SAYACI=True uret_petek.py'de YOK UFUK (\"1000-01-01\",\"1945-09-02\") DEGISMEDI SENDEN UC SAYI ISTIYORUM (hukum degil OLCUM — 7.1 TOKEN KURALI): 1. C3 yamasi ne kadar bitti — \"yuzde\" yerine SOMUT: kac dosya, kac cagri noktasi degisti / kac kaldi 2. git apply --check TEMIZ mi (denetim/*.diff olarak hazir mi) 3. KALAN SURE tahminin — ve neyi bekledigin ADIYLA 🔴 VE GECEN TURDA SANA YAZDIGIM UYARI HALA EN KRITIK MADDE: datetime'i kaldirmak YETMEZ — DIZGI KESIMINI de kaldirmak gerek. \"-2333-01-01\"[0:4] sonucu \"-233\". Bugun date() yil<1'i REDDETTIGI ICIN COKUYOR, yani kusur GORUNUR. Sen datetime'i kaldirir da kesimi birakirsan COKME GIDER ve SESSIZCE 2.100 YILLIK HATA KALIR — ve -233 de gecerli bir yil oldugu icin HER KAPIYI GECER. 📌 Bir cokme armagandir. Bir korlugu kapatan yama, onun TESADUFEN sagladigi korumayi da kaldirir (3.4 alti). Burada korumayi saglayan sey datetime'in KATILIGIYDI — ve sen tam onu kaldiriyorsun. ⇒ C3'UN SINAVINA BU MADDE ADIYLA GIRECEK: \"dizgi kesimi ile yil okuyan kac yer kaldi\" taramasi, SAYIYLA. 0 degilse C3 bitmemistir. Tarama onerisi: grep -rnE \"\\[0:4\\]¦\\[:4\\]\" arac/*.py ve her isabette sorulan soru: \"bu satir negatif yili DOGRU okuyor mu\". KOORDINATORUN YAPTIGI IS (bilgi, tekrarlama): arac/denetle.py:1226 gun_no artik gun.py'ye devrediyor (ee16cd63) — 874/0 sinav, kapinin TAM CIKTISI ONCE/SONRA BIREBIR, 16 cagiranin hicbiri etkilenmedi. denetle_anakronizm.py:190 UCUNCU uygulamayi tasiyor (kayan nokta yaklasikligi); birlestirmeyi DENEDIM, GEC yon 86 -> 76 degisti, YONUNU DOGRULAMADIM ve GERI ALDIM. O kalem BENDE, sende degil — dokunma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "Emre C secti; tam insa kosusu artik C3'e kilitlendi — darbogaz olcumu gerekiyor",
+  "aciliyet": "ACIL",
+  "yerel_kimlik": "Emrelic-4bdf6ef1a3ff"
  }
 ]
