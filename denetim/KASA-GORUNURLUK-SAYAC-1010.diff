@@ -1,6 +1,6 @@
 --- a/arac/denetle.py	2026-10-10 07:00:35.992145700 +0300
-+++ b/arac/denetle.py	2026-10-10 07:01:03.789978600 +0300
-@@ -6073,4 +6073,89 @@
++++ b/arac/denetle.py	2026-10-10 07:36:40.235279400 +0300
+@@ -6073,4 +6073,110 @@
  
  
 +# 🆕 GÖRÜNÜRLÜK SAYAÇLARI (KASA-UZUN-DILIM-TARAMA-1010 · koordinatör hükmü ⑤c/⑤d)
@@ -20,22 +20,37 @@
 +#      kronolojisi ADIYLA gösterilerek eklenir.
 +#   ③ `bulunamadı` TANIK DEĞİLDİR: `_kaynak_dolu` onu DOLU sayar ve kaynak tavanında bu
 +#      DOĞRUDUR (§4 beyan borcu ödenmiş). Ama "bu dönemi bir kaynak tarihliyor mu"
-+#      sorusunda `bulunamadı` bir SONUÇTUR ⇒ `_kaynak_tanikli`. Ölçülmüş: 6 dönem
-+#      (Benin ×2, Oyo, Elmina …). Kaynak tavanının hükmü DEĞİŞMEZ; yalnız sayılır.
++#      sorusunda `bulunamadı` bir SONUÇTUR ⇒ `_kaynak_tanikli`. İki yüklem, iki soru
++#      (koordinatör hükmü): kaynak tavanı `_kaynak_dolu`, DIKIS-KAPI ve gövde ölçümleri
++#      `_kaynak_tanikli`. Kaynak tavanının hükmü DEĞİŞMEZ; yalnız sayılır.
++#      v2 (KASA-KAYNAK-SAHIP §1.5-3): sınır kelimenin VARLIĞI değil, notun BAŞINDA
++#      olması — "bulunamadı — Akçakale için MÜSTAKİL kaynak YOK …" tam eşleşmeye
++#      girmiyordu ve TANIK sayılıyordu. Ölçüt: `^\s*bulunamad[ıi]` (büyük/küçük).
++#      Cümle İÇİNDEKİ "bulunamadı" (ör. "1525 BULUNAMADI") tanıklığı düşürmez.
++#      Defter SAYI değil LİSTE (§3.4 ⑤): yeni üye ADIYLA gerileme basar.
 +#   Tarih karşılaştırması `gun.gun()` ile (dizgi değil: eksi yıllar).
 +TAM_PENCERE_TAVAN = 110
 +TAM_PENCERE_TEK_TAVAN = 112
 +KUNYE_IC_BOSLUK = {"almanya": ("1806-08-06", "1871-01-18")}
 +KUNYE_IC_BOSLUK_TAVAN = 27
-+BULUNAMADI_DEGERLER = ("bulunamadı", "bulunamadi")
-+BULUNAMADI_TAVAN = 6
++BULUNAMADI_BAS = re.compile(r"^\s*bulunamad[ıi](?![a-zçğıöşü])", re.I)
++# Ölçülmüş 7 üye (v1: 6 · v2 önek kuralıyla +1: Akçakale). Anahtar `dosya|ad|f|d`.
++BULUNAMADI_DEFTER = (
++    "yerlesimler_e9353f.js|Benin Şehri (Edo)|1281-01-01|benin-kralligi",
++    "yerlesimler_e9353f.js|Benin Şehri (Edo)|1897-02-18|ingiltere",
++    "yerlesimler_e9353f.js|Elmina (São Jorge da Mina)|1637-01-01|hollanda",
++    "yerlesimler_e9353f.js|Elmina (São Jorge da Mina)|1872-01-01|ingiltere",
++    "yerlesimler_e9353f.js|Oyo-İle (Eski Oyo)|1400-01-01|oyo-imparatorlugu",
++    "yerlesimler_e9353f.js|Ulundi (Zululand)|1816-01-01|zulu-kralligi",
++    "yerlesimler_ek25.js|Akçakale|1281-01-01|memluk",  # v2: "bulunamadı — Akçakale için MÜSTAKİL kaynak YOK …"
++)
 +
 +
 +def _kaynak_tanikli(v):
 +    """`kaynak:` bir TANIK mı — dolu VE `bulunamadı` değil (③)."""
 +    if not _kaynak_dolu(v):
 +        return False
-+    return not (isinstance(v, str) and v.strip().lower() in BULUNAMADI_DEGERLER)
++    return not (isinstance(v, str) and BULUNAMADI_BAS.match(v))
 +
 +
 +def gorunurluk_olc(Y, ufuk=None):
@@ -69,16 +84,22 @@
 +    satirlar = (("tam_pencere", TAM_PENCERE_TAVAN, "TAM PENCERE kaynaksız dönem (1281→1923 tek iddia)"),
 +                ("tek_dilimli", TAM_PENCERE_TEK_TAVAN, "tek dilimli tam pencere nokta"),
 +                ("ic_bosluk", KUNYE_IC_BOSLUK_TAVAN, "künye iç boşluğunu aşan dönem (almanya 1806-1871)"),
-+                ("bulunamadi", BULUNAMADI_TAVAN, "`bulunamadı` kaynaklı dönem (dolu ama TANIK DEĞİL)"))
++                ("bulunamadi", len(BULUNAMADI_DEFTER), "`bulunamadı` ile başlayan kaynak (dolu ama TANIK DEĞİL)"))
 +    ihlal = False
 +    print("\nEk denetim  · GÖRÜNÜRLÜK (beyanlı sayaç, kapı değil — tavan aşılırsa gerileme)")
++    # `bulunamadi` ÜYELİK defteriyle ölçülür (§3.4 ⑤): yeni üye ADIYLA basılır.
++    yeni_b = sorted(set(G["bulunamadi"]) - set(BULUNAMADI_DEFTER))
++    for k in yeni_b:
++        print(f"    BULUNAMADI YENİ  {k}  → tanık değil; kaynak bulunursa yaz, yoksa deftere ADIYLA ekle")
++    if yeni_b:
++        ihlal = True
 +    for alan, tavan, ad in satirlar:
 +        n = len(G[alan])
 +        isaret = "✗" if n > tavan else "✓"
 +        ihlal = ihlal or n > tavan
 +        ek = f" ⚠️ GEVŞEK {tavan}→{n} (iyileşme — tavanı indir)" if n < tavan else ""
 +        print(f"            {isaret} {ad}: {n} (tavan {tavan}){ek}")
-+        if n > tavan and not ayrinti:
++        if n > tavan and not ayrinti and alan != "bulunamadi":
 +            # BEYANLI SINIR: SAYI tavanı, üyelik defteri yok ⇒ hangisinin YENİ olduğunu
 +            # bilemez; ilk beşi basmak yanlış üyeyi gösterirdi. Tam liste --ayrinti ile.
 +            print(f"              🔴 GERİLEME {tavan}→{n} — yeni üyeyi bulmak için "
@@ -90,7 +111,7 @@
 +
  def kaynak_tavan_indir(Y, yol=None):
      """Tavanı YALNIZ İNDİRİR. Sayı artmışsa ya da defterde olmayan yeni üye
-@@ -7230,4 +7315,8 @@
+@@ -7230,4 +7336,8 @@
          ihlal = True
  
 +    # Ek denetim — görünürlük sayaçları (GÖRÜNÜRLÜK SAYAÇLARI bloğu)

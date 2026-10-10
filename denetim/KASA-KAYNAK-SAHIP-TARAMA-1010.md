@@ -130,7 +130,11 @@ yerde daha var:
 ### 1.5 Yan bulgular (ölçülü)
 1. **Çift künye — Töton Tarikatı:** `teuton-devleti` (f 1230-01-01, t 1525-04-08, baskent "Kulm → Marienburg (1309)
    → Königsberg (1457)") ve `teuton-sovalyeleri` (f 1281-01-01 "PENCERE İŞARETİ", t 1525-04-08, baskent "Marienburg
-   → Königsberg"). İkisi de 2'şer `s:` diliminde kullanılıyor. Aynı devlet, iki kimlik ⇒ D205 birleştirme kalemi.
+   → Königsberg"). Aynı devlet, iki kimlik ⇒ D205 birleştirme kalemi.
+   🔴 **ÖZ-DÜZELTME (KASA-HUKUM-SART-1010):** ilk teslimde "ikisi de 2'şer `s:` diliminde kullanılıyor" yazdım —
+   YANLIŞ. `grep 'd:"…"'` deseni `id:"…"`yi de yakaladı; o "2" künye TANIMIYDI (devletler.js + paket_05). Ölçüm
+   (`girdi.yukle`, `s:`/`v:`/`isg:`): **hiçbir dilim iki kimliği de kullanmıyor.** `teuton-sovalyeleri` yalnız
+   kronolojide `devlet:` olarak geçiyor (bkz. HUKUM-SART).
    Ve Königsberg'in notu (*"künyesi YOK, dokunulmadı"*) bayat: künye(ler) şimdi var ⇒ `almanya 1281-1525` düzeltilebilir.
 2. **Dubrovnik `macaristan 1358-1459`** (ve onu izleyen Mljet): `dubrovnik` künyesi VAR; zincirin kendi notu
    *"macaristan himayesi 1358"* diyor. Himaye = tâbiyet ⇒ `d:dubrovnik` + `v:macaristan` olmalı mı? (D205.)

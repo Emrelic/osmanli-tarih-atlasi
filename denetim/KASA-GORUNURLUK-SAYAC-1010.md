@@ -33,6 +33,23 @@ DIKIS v3'ü sen isterse yazarım. Kaynak tavanının da değişmesini istersen o
 - `git apply --check`: main'e tek başına ✓; DIKIS-KAPI diff'inin ÜSTÜNE ✓ (çağrı, ikisinin çakışmaması için
   "mükerrer kronoloji" bloğunun önüne bağlandı) · sözdizimi ✓.
 
+## v2 (koordinatör hükmü, KAYNAK-SAHIP §1.5-3) — diff dosyası yerinde güncellendi (122 satır)
+- **Yüklem:** `_kaynak_tanikli` artık `bulunamadı`'nın notun **BAŞINDA** olmasını sorar:
+  `BULUNAMADI_BAS = re.compile(r"^\s*bulunamad[ıi](?![a-zçğıöşü])", re.I)`. v1 yalnız tam eşleşme arıyordu;
+  *"bulunamadı — Akçakale için MÜSTAKİL kaynak YOK …"* TANIK sayılıyordu. Cümle içindeki "… 1525 BULUNAMADI …" ve
+  "bulunamadık" tanıklığı düşürmez.
+- **Sayaç SAYI değil LİSTE (§3.4 ⑤):** `BULUNAMADI_DEFTER` 7 anahtar; 6 → 7'nin artan üyesi ADIYLA:
+  `yerlesimler_ek25.js|Akçakale|1281-01-01|memluk`. Defterde olmayan üye `BULUNAMADI YENİ <anahtar>` diye ADIYLA basılır
+  ve ihlal olur. Tavan (`len(defter)`) ve düzeltme AYNI commit'te (§3.4 ①).
+- Sözleşme (koordinatör hükmü): **kaynak tavanı `_kaynak_dolu`** (beyan borcu; `bulunamadı` öder) · **DIKIS-KAPI ve
+  gövde ölçümleri `_kaynak_tanikli`** (tanık; `bulunamadı` ödemez). `_kaynak_dolu` değişmedi.
+- Sınav v2 (13/13 GEÇTİ): gerçek veri = defter (7) · öteki üç sayaç 110/112/27 aynı · temiz veride ihlal yok ·
+  `'bulunamadı'`, `'Bulunamadı — X …'`, `'BULUNAMADI'`, `'  bulunamadi: …'` ⇒ tanık değil · `'TDV x: 1525 BULUNAMADI
+  ama 1526 var'`, `'bulunamadık değil'`, `'TDV x'` ⇒ tanık · `''` ⇒ değil · `_kaynak_dolu` aynı · sentetik yeni üye ⇒
+  ADIYLA ihlal.
+- `git apply --check`: main d50ddbedd'ye tek başına ✓ · DIKIS-KAPI üstüne ✓ · sözdizimi ✓. Tam denetle: bkz. commit
+  mesajı.
+
 ## Beyanlı sınır
 Sayı tavanı, üyelik defteri yok: aşılınca hangi üyenin YENİ olduğunu söyleyemez. Bunu yanlış üye göstermek yerine
 açıkça basar (`--ayrinti` ile tam liste). Üyelik defteri istenirse 110 + 27 anahtarlık bir json gerekir.
