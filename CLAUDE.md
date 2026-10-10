@@ -977,9 +977,27 @@ yalnız `14174ef7`in (KOŞU 21) commit mesajında duruyordu.
 > etmez.**
 ⚠️ Ve `§9`un *"bayat çıktı yine de yayınlanır"* kuralı **BAYATLIĞI** affeder,
 **GERİLEMEYİ** affetmez. İkisi ayrı şeydir.
-⚠️ Zincir `kodla.py yay` · `coz-c` · `paketle.py yenile` adımlarını
-**KOŞTURMUYOR** (KOŞU 21 bunları ELLE koşmuştu) ⇒ atlanırsa `denetle` D8'de
-*"GÖVDE UYUŞMUYOR"* ile **çıkış 2** verir. Elle sıralama:
+🔴 **ZİNCİR YAYINLANAN HARİTAYI HİÇ ÜRETMİYOR — ve bu satır eskiden
+sonucu ÇOK KÜÇÜK yazıyordu** (`KOSU-YAYIN-LISTE-1010`, 10 Ekim 2026).
+Olgu baştan beri doğruydu: zincir `kodla.py yay` · `coz-c` ·
+`paketle.py yenile` adımlarını **KOŞTURMUYOR** (KOŞU 21 bunları ELLE
+koşmuştu). **Ama sonucu *"denetle D8'de çıkış 2 verir"* diye tarif
+etmek yanlış boyuttaydı.** Ölçülen gerçek sonuç:
+```
+`uret_petek` de `kodla`yı ÇAĞIRMIYOR
+⇒ YAYINDAKİ HARİTANIN TAMAMI `kodla` + `paketle` ÜRÜNÜDÜR
+⇒ GERÇEK BİR ZİNCİR KOŞUSU, BUGÜN YENİ HARİTA YAYINLAYAMAZ
+```
+🔴 Ve asıl tehlike eksiklik değil **yeterli SANILMASIydı**: eski commit
+listesi gitignore yüzünden düşüyordu ve **düşmeseydi yeni `bolgeler.js`i
+ESKİ haritayla yayınlayacaktı** — yeni sınırlar, eski gövdeler.
+⇒ **Zincir artık "BAYAT TÜREV" ile DURUYOR ve bu DOĞRU DAVRANIŞTIR**,
+düzeltilecek bir kusur değil. Adım eklenmedi; **türev adımları ELLE
+kalır** (koordinatör hükmü, 10 Ekim — "zincir gözetimsiz YAYIN
+yapabilsin mi" bir ÜRÜN kararıdır ve Emre'ye taşındı).
+📌 Yeni kusur sınıfı: **doğru olgu, küçük yazılmış AĞIRLIK.** Bir satır
+yanlış bir şey söylemiyorsa da, sonucu küçük tarif ederek yanlış bir
+GÜVEN üretebilir. Elle sıralama:
 `kodla.py yay` → `coz-c` → `denetle` → `renk_olc` → `paketle.py yenile` →
 `surum_damgala` → `denetle_yayin`.
 ```
