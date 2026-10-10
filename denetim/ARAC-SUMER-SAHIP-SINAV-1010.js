@@ -1,6 +1,6 @@
 // ARAC-SUMER-SAHIP-SINAV-1010 — 21 Sümer noktasının sahibi örnek günlerde ne? (suzgec.sahipAnahtari, A2'li)
 //
-// Görev SUMER-SAHIP-1010 (UMIT, 10 Ekim 2026). Ağaç: NOKTA-SUMER + B10 + KUNYE-SUMER-7-v3 + NEGATIF-YIL-A2
+// Görev SUMER-SAHIP-1010 (UMIT, 10 Ekim 2026). Ağaç: NOKTA-SUMER + B10 + KUNYE-SUMER-7-v4 + NEGATIF-YIL-A2
 // + SUMER-SAHIP-1010 uygulanmış olmalı.
 // KOŞ:  node ARAC-SUMER-SAHIP-SINAV-1010.js --kok <worktree> --talep <SUMER-SAHIP-1010-KAYNAK-TALEP.json>
 // ÇIKIŞ: 0 hepsi tuttu · 1 en az bir soru tutmadı · 2 ÖLÇÜLEMEDİ
@@ -10,7 +10,7 @@
 //   S2  MÖ/MS örnek günlerinde "" olan HER (nokta, gün) KAYNAK TALEP listesinin bir penceresine düşer
 //       (beyansız "" yok)  — ters yön: talep penceresine düşen her gün gerçekten "" (talep fazlası yok)
 //   S3  her s: dilimi künyenin penceresi İÇİNDE (hayalet yok) ve s: dilimleri kur:/bit: arasında, çakışmasız
-//   S4  KÜNYE v3: ahameni.t ≤ makedon.f (örtüşme 0) — ve ahameni.t == makedon.f (boşluk 0)
+//   S4  KÜNYE v4 (zincir eşitliği): ahameni.t ≤ makedon.f (örtüşme 0) — ve ahameni.t == makedon.f (boşluk 0)
 //   S5  ATAR: sentetik bozuk kopya (bit: silinmiş Ur; künye dışı dilim) S1/S3'te YAKALANIR
 "use strict";
 const fs = require("fs"), path = require("path"), vm = require("vm");
@@ -112,7 +112,7 @@ const s3 = dilimDenet(NOK);
 soru("dilim kusuru = 0 (" + NOK.reduce((n, y) => n + (y.s || []).length, 0) + " dilim)", s3.length === 0, s3.join(" | "));
 
 // ---- S4 ---------------------------------------------------------------
-console.log("\nS4 · künye v3");
+console.log("\nS4 · künye v4 (zincir eşitliği)");
 const ah = DEV.ahameni, mk = DEV.makedon;
 soru("ahameni.t ≤ makedon.f (örtüşme yok)", g(ah.t) <= g(mk.f), ah.t + " / " + mk.f);
 soru("ahameni.t == makedon.f (boşluk yok)", g(ah.t) === g(mk.f), ah.t + " / " + mk.f);

@@ -239,3 +239,19 @@ Eridu · Isin · Nina · Dilbat · Marad: MÖ 539 sonrasında şehir adlı TARİ
 MS 80/101/187/268 sonrasından `bit:`e kadar Uruk · Nippur · Kutha · Sippar · Larsa · Dilbat · Eridu: Part
 sonu, Sâsânî, Râşidîn, Emevî dilimlerinde HİÇBİR tanık yok (KASA bu çağı taramadı) · MÖ 539 öncesi:
 künye yok · van der Spek 1992 ve OLA 277 erişilemedi (KASA) · Sachs–Hunger ADART I erişilemedi (ben).
+
+---
+
+## v4 — KOORDİNATÖR DÜZELTMESİ (KUNYE-SUMER-7-1010-v4.diff, v3'ün YERİNE; v3 diskten silindi)
+- `ahameni.t = makedon.f = -0330-10-18`. Değer v3 ile aynı, gerekçe artık **ZİNCİR EŞİTLİĞİ** (§4 zincir
+  şartı). Not alanı: künyelerde düz `ic_not` YOK (ölçüldü: `ic_not_f` 210 · `ic_not_t` 287 · `ic_not_b` 239 …)
+  ⇒ uç notu `ahameni.ic_not_t`ye yazıldı (zincir · imzasız livius aktarımı · ADART I erişilemedi ·
+  11. gün ↔ "22" tutarsızlığı BEYANLI · doğrulama KASA'da · ŞART: makedon.f değişirse ahameni.t birlikte
+  değişir). Karşı not `makedon.ic_not_f`de: "ahameni.t bu değere ZİNCİRLE bağlı". `ahameni.kronoloji`
+  son maddesi -0330-10-18'e çekildi; v3'teki `ozet` değişikliği v4'te YOK (en küçük fark: +4/−4).
+- Sınav v4 ile yeniden koştu: ÇIKIŞ 0 · 12/12 (S4 v4 zinciri; S5 "v2 örtüşmesi yakalanıyor" kolu tuttu).
+- **Koordinatör hükmü:** künye penceresi örtüşmesi NORMALDİR (iki devlet aynı anda var olabilir);
+  `§8`'in "dönemler çakışmamalı" kuralı YERLEŞİM dönemleri içindir ⇒ makedon/selefki (~4 yıl) ve
+  selefki/part (~14 yıl) örtüşmelerine dokunulmadı.
+- **`bos:` ayrımı:** `bos:` = "devlet YOKTU" (ONTOLOJİK; motor okur, geometriyi değiştirir —
+  `uret_petek.py:3209`). "BİLMİYORUZ" (EPİSTEMİK) için atlasta alan YOK ⇒ şimdilik `not:` + talep listesi.
