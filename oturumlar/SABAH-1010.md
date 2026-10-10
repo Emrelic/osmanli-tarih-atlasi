@@ -339,9 +339,38 @@ bir hatadan kötüdür. Sayım sırada.
 
 ---
 
-# §8 🟢 **TEK EKRAN — 07:40 İTİBARIYLA. YALNIZ BUNU OKUSAN YETER.**
+# §8 🟢 **TEK EKRAN — 10:45 İTİBARIYLA TAZELENDİ. YALNIZ BUNU OKUSAN YETER.**
 
-## Senden istediğim: iki İŞ, dört KARAR
+🔴 **ÖNCE BU: 07:40'ta sorduğum DÖRT KARARI SEN CEVAPLADIN.** Belge onları
+hâlâ soruyordu; bu bir bayatlıktı ve düzeltildi. Cevapların ve ne yaptığım:
+
+```
+① MÖ paketini indirelim        → "mö paketini indirelim"   ✅ KABUL
+   ⇒ AMA İNMEDİ, ve ERTELEME KARARI BENİM: paket BEŞ ön şart ölçüldü ve
+     beşi de AÇIK (§8.1b-d · INIS-KOSU22). Yamasız inerse 21 petek BOŞ
+     kalır (~61.869 km², 1281-1923) ⇒ harita GERİLER. Kararını
+     uyguluyorum, sırasını değiştirdim: ön şartlar inince paket iner.
+② Anadolu MÖ önerim            → "anadolu mö önerini kabul ediyorum" ✅
+   ⇒ (i) KAPALI beyan + (ii) höyük katmanı yürürlükte; (iii) reddim
+     gerekçeli duruyor. PAKET-1010-KITA §A'da şartnamesi hazır.
+③ kaynaksız 1841               → "kararı sana bırakıyorum" ✅ DEVRALINDI
+   ⇒ HÜKMÜM: sınıfın ADI değişiyor. "kaynaksız" ARAŞTIRMA çaresini
+     çağırıyor, ölçüm DÜZELTME istiyor (ilk halka %39 yanlış ≈554 kayıt;
+     dersi D271). Sebep hâlâ HİPOTEZ ve öyle KALIYOR — veri onu
+     ayrıştırmıyor (1419 kaydın 1419'u tam 1281-01-01, karşılaştırma
+     grubu BOŞ). Araştırma turu yerine DÜZELTME turu açtım.
+④ `kur:` sınıfı                → "kararı sana bırakıyorum"  ✅ DEVRALINDI
+   ⇒ HÜKMÜM üç maddede, ve BUGÜN İKİ VAKADA UYGULANDI:
+     ⓐ adı olan bir ÖNCÜL yerleşimin tanığı modern noktaya YAZILMAZ
+     ⓑ önceli zincirlemek (A→B→bugünkü şehir) atlasın KENDİ ürettiği
+        bir süreklilik iddiasıdır ⇒ YASAK (§4 "atlas referans değildir")
+     ⓒ kalan boşluk __BOSLUK__ ile BEYAN edilir, komşuya itilmez
+     vaka 1: Feyzâbâd kur 1479 → 1680 (1479 köprüsü 5 km batıdaki
+             Ḵamčān'ın; bugünkü şehir 1091/1680 "Jawzān") ✅ İNİŞ LİSTESİNDE
+     vaka 2: Mersin/Batna/Aynı Beydâ/Berc Bû Areric — aynı kalıp, sırada
+```
+
+## Senden istediğim: iki İŞ, ÜÇ KARAR (biri YENİ, biri KÜÇÜLDÜ, biri DÜŞTÜ)
 
 **İŞ** — karar değil, yalnız senin yapabileceğin:
 ```
@@ -353,20 +382,42 @@ bir hatadan kötüdür. Sayım sırada.
 ⚠️ ①+② olmadan bu makinenin kendi iş gücü atıl; öteki dört makine tam
 otonom çalıştı.
 
-**KARAR** — gerekçeleri §1-§7'de, burada yalnız soru:
+**KARAR** — üçü kaldı, gerekçeleri §1-§7'de. Burada yalnız soru:
 ```
-① MÖ PAKETİNİ İNDİRELİM Mİ? 21 nokta + 7 künye + zincirler HAZIR,
-   hiçbiri inmemiş. Soru "genişletelim mi" değil: "İNDİRELİM Mİ"
-② ANADOLU MÖ    → ÖNERİM (i) KAPALI beyan + (ii) höyük katmanı;
-                   (iii) reddim gerekçeli (§1 ②)
-③ kaynaksız 1841 → ≈554 kayıtta yanlış ilk halka. Sebep hâlâ HİPOTEZ
-                   ama artık KONTROL GRUBU var: Bağdat 1258-02-10 ↔
-                   sekiz komşusu 1281-01-01, aynı sahip aynı kutu aynı
-                   İlhanlı olayı ⇒ 1281 bir İHMAL, hassasiyet değil
-④ `kur:` SINIFI  → modern idarî merkezler erken sahiplik iddiasıyla
-                   (Mersin 1671↔~1836 · Batna · Aynı Beydâ · Berc Bû
-                   Areric). Sınıfın adı var, hükmü yok
+① ŞEMA — ÜÇ kalem, ve DÖRDÜNCÜ VAKASI bugün çıktı. Tek asıl soru:
+   YABANCI BİR GÜCE TÂBİLİK ÇİZİLEMİYOR. `v:` alanı OSMANLI'ya göre
+   tâbiliktir (VERI-YAPISI); yabancı-yabancı metbûluk yalnız METİN
+   olarak yazılabiliyor. Bugüne kadar dört vaka:
+      Dubrovnik · Görice · Hama/Alaşehir kümesi · ⭐ Dürrânî→Feyzâbâd 1768
+      (Courant: "took Faizabad and then relinquished it" · Lee: "never
+       entertained the idea of direct rule or annexation")
+   ⇒ Soru: bu bir ALAN mı olsun (şema büyür, motor değişir), yoksa
+     METİN BEYANI olarak mı kalsın (bugünkü hâl, ve dört vaka SESSİZ)?
+   İki küçük kardeşi: `sekme` şemada TANIMSIZ ve bir künyeye AD
+   KONVANSİYONUYLA bağlı (dört seçenek var, en ucuzu `KRONOLOJI_ID_OZEL`
+   — mevcut ve BOŞ) · `kur:`/`bit:` ve `f:`/`t:` TEK aralık, çok
+   aralıklı varlık yazılamıyor (Girsu · Uruk · Nippur · cenevre).
+   📌 Hepsinin tek kökü: şema BİR polity için kuruldu (Osmanlı,
+     1281-1923, kesintisiz).
+② MISIR RENGİ — ΔE 1,0: Memlûk Sultanlığı → Mısır Krallığı geçişi
+   haritada GÖRÜNMÜYOR. Önerim `#9cd824`. Tek kelime yeter.
+③ ZİNCİR GÖZETİMSİZ YAYIN YAPABİLSİN Mİ? Bugün yayın zinciri
+   `kodla.py yay` · `coz-c` · `paketle.py yenile` adımlarını
+   KOŞTURMUYOR ⇒ "BAYAT TÜREV" ile DURUYOR. Bu bir KUSUR DEĞİL,
+   bir ÜRÜN KARARI. Önerim: ELLE kalsın (bir koşunun yayınını
+   gözetimsiz bırakmak, bu gece ölçülen üç günlük sessiz gerilemenin
+   tam koşuluydu). Katılmazsan adım eklerim.
 ```
+🔴 **VE BİR KALEM MASANA GELMEDEN DÜŞTÜ** — bunu bilmen işime güvenin
+için önemli: bir işçi *"`kur` hassasiyeti için şema alanı yok ⇒ Emre'nin
+listesine"* diye teslim etti. Yazmadan ölçtüm: **o alan VAR ve 38 kayıt
+onu TAM BU İŞ İÇİN kullanıyor** (38'inin 38'i `kur:`lu). Bir alan-ekleme
+kalemi + bir senin kararın + muhtemel bir şema alanı — hepsi zaten
+çözülmüş bir şey için. Sınıfı `dersler/D272`ye yazdım: **"tanım, kendi
+kullanımını eksik beyan eder"** — ve ikinci vakası BENİM (yarım saat
+sonra aynı hatayı haberleşmede yaptım).
+📌 Ölçtüğüm ama SANA SORMADIĞIM kalem sayısı bu gece **beş**; dördünün
+hükmünü kendim verdim, biri (bu) hiç var olmadı.
 
 ## ⚠️ BİR GİZLİLİK OLAYI — kapandı, ama bilmen gerek
 LAB'ın bir alt ajanı Wikidata'ya giden ~7 istekte `User-Agent` başlığına
