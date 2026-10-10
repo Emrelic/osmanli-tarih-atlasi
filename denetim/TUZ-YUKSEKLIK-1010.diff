@@ -1,0 +1,116 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index bd2d1de..a9d1a1f 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -561,8 +561,18 @@ _MOTOR_IZI = girdi.motor_izi()
+ 
+ # ══ 🧱 ARTIMLI MOTOR — KOŞULAR ARASI ÖNBELLEK (M-4537, Emre 18 Eylül 2026) ══════
+ # "Bir ampul için bina yıkılmaz." Ayrıntı ve ilke: arac/motor_onbellek.py.
+-# TUZ = KÖKLÜ DEĞİŞİKLİK: motor kodu (uret_petek · renkler · girdi · motor_onbellek)
+-# ve sonucu etkileyebilecek bütün MOTOR_* ortam değişkenleri + harita penceresi.
++# TUZ = KÖKLÜ DEĞİŞİKLİK: motorun DÖRT kod dosyası (uret_petek · renkler · girdi ·
++# motor_onbellek) ve sonucu etkileyebilecek bütün MOTOR_* ortam değişkenleri +
++# harita penceresi (`BOLGE`, uret_petek.py'de sabit ⇒ onun özetiyle gelir).
++# ⚠️ "Motorun BÜTÜN kodu" DEĞİL — TUZ-YUKSEKLIK-1010 (10 Ekim 2026, AST ile
++#    ölçüldü): uret_petek'in ithal ettiği dört yerel modül tuz DIŞINDADIR:
++#      yukseklik     (:708, DEM seçimi `tam_mi`)   girdi_listesi (girdi.py:115,
++#      KASITLI — liste veridir, başlık bloğuna bak)  dolgu (Ⓑ, önbelleksiz)
++#      kosu_kilit    (yalnız kilit)
++#    Bunların sonucu etkileyen kısmı önbelleğe ANAHTARIN İÇERİĞİNDEN girer
++#    (petek WKB · yürüyüş saat matrisi · yerleşim kimliği); tuz bu dosyaların
++#    sürümünü TANIMAZ. Eğim DEM'inin hangisi olduğu ise çıktı künyesindedir
++#    (`URETIM_IZI.egim`), tuzda değil.
+ # Tuz değişirse bütün anahtarlar değişir ⇒ tam yeniden inşa — elle karar yok.
+ # Yalnız İŞLETİM değişkenleri (süreç sayısı, log yolu, devam/önbellek dizini…)
+ # tuza girmez: sonucu değiştirmezler (bit denkliği sınandı).
+@@ -726,6 +736,23 @@ elif EGIM_CARPANI > 0:
+             "  NICIN OLDURUYORUM: egimsiz kosan motor kusursuz gorunen bir\n"
+             "  harita uretir ve HICBIR denetim bunu gormez. Sessiz bayat\n"
+             "  cikti, gurultulu bir olumden pahalidir.")
++# 🧾 EĞİM KÜNYESİ — TUZ-YUKSEKLIK-1010 (10 Ekim 2026).
++# Hangi DEM'in seçildiği yalnız LOGA basılıyordu ("eğim DEM: …"); çıktının
++# künyesinde (`URETIM_IZI`) YOKTU. `motor_izi` 31 Temmuz'da tam bu yüzden
++# doğdu: "çıktı hangi KODDAN üretildi" sorusu dosyadan cevaplanamamıştı.
++# DEM ikinci bir girdidir ve aynı soruyu sorar ⇒ ad + boyut + sha256 künyeye.
++# 🔴 TUZA GİRMEZ, ve bu KASITLI: DEM'in bütün etkisi (`_kvsurt` → `_kvsahip` →
++#    PETEK_D · `_YR_PUAN_SAAT` · `_yr_epok_onar`) önbelleğe anahtarın
++#    İÇERİĞİNDEN girer (col/kusat/govde/osm/sb: petek WKB · dolgu: saat
++#    satırı · DEVAM: `_sr_iz`). DEM'i tuza koymak k1 katmanlarını ve eğimin
++#    dokunmadığı petekleri de boşuna öldürürdü — `girdi_listesi.py`
++#    başlığındaki gerekçenin aynısı.
++if EGIM_DEM:
++    _EGIM_IZI = dict(_yk.dem_izi(EGIM_DEM), carpan=EGIM_CARPANI)
++    print(f"  eğim DEM künyesi: {_EGIM_IZI['ad']} · {_EGIM_IZI['boyut']:,} bayt · "
++          f"sha256 {_EGIM_IZI['sha256'][:12]}")
++else:
++    _EGIM_IZI = {"ad": None, "carpan": EGIM_CARPANI}
+ 
+ # ---------------- Kara maskesi ----------------
+ # KARA_TOL: kıyı çizgisinin sadeleştirme toleransı (derece). Bütün gövdeler
+@@ -5891,7 +5918,7 @@ _bj += "window.BOLGELER = " + json.dumps(BOLGELER, ensure_ascii=False, separator
+ # (İş G, 2 Ağustos: 7 üretilen çıktının 6'sında iz yoktu — denetle_yayin
+ #  tazeliği yalnız donemler.js için ölçebiliyordu, gerisi kör noktaydı.)
+ _bj += ("window.URETIM_IZI = "
+-        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
++        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI, "egim": _EGIM_IZI},
+                      separators=(",", ":"), sort_keys=True) + ";\n")
+ _muhru_dogrula("data/bolgeler.js")
+ girdi.izi_dogrula(_GIRDI_IZI, "data/bolgeler.js")
+@@ -7980,7 +8007,7 @@ _dj += ("window.DEVLET_PARCA_HALKA = "
+         + json.dumps(DEV_PARCA, separators=(",", ":")) + ";\n")
+ _dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
+ _dj += ("window.URETIM_IZI = "
+-        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
++        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI, "egim": _EGIM_IZI},
+                      separators=(",", ":"), sort_keys=True) + ";\n")
+ _muhru_dogrula("data/devletler_harita.js")
+ girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
+@@ -8225,7 +8252,7 @@ _pg += ("window.PETEK_GOVDE_PARCA = "
+ _pg += ("window.PETEK_GOVDE = "
+         + json.dumps(_pg_indeks, separators=(",", ":")) + ";\n")
+ _pg += ("window.URETIM_IZI = "
+-        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
++        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI, "egim": _EGIM_IZI},
+                      separators=(",", ":"), sort_keys=True) + ";\n")
+ girdi.izi_dogrula(_GIRDI_IZI, "data/petek_govde.js")
+ io.open(_pgyol, "w", encoding="utf-8").write(_pg)
+@@ -8245,7 +8272,7 @@ print(f"Per-petek gövde → data/petek_govde.js "
+ # aksi hâlde koşu ortasında değişen bir girdi kendi izini damgalar ve damga
+ # yalanı doğrular.
+ js += ("window.URETIM_IZI = "
+-       + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
++       + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI, "egim": _EGIM_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
+ # VERI_SINIRI — arayüzün "Veri sınırı" düğmesinin TEK otoritesi (İş S1,
+ # koordinatör onayı 2 Ağustos). app.js:594'teki elle kopya bu satırdan
+diff --git a/arac/yukseklik.py b/arac/yukseklik.py
+index a6fe6bf..f9daf72 100644
+--- a/arac/yukseklik.py
++++ b/arac/yukseklik.py
+@@ -108,6 +108,26 @@ def tam_mi(yol):
+     return True, "%dx%d · son şeritte %d geçerli hücre" % (g, y, gecerli)
+ 
+ 
++def dem_izi(yol):
++    """Seçilen DEM'in künyesi — {"ad", "boyut", "sha256"}.
++
++    `uret_petek.py` bunu çıktının `URETIM_IZI.egim` alanına yazar
++    (TUZ-YUKSEKLIK-1010). Ad tek başına yetmez: aynı adla başka içerik
++    (yeniden indirme, başka ETOPO sürümü) sessizce başka bir eğim yüzeyi
++    verir. Yol yazılmaz — makineye özeldir, künyeyi makineden makineye
++    farklı gösterirdi. Bedel ölçüldü: 626 MB'lık dünya DEM'i ≈ 2,5 sn.
++    ⚠️ Bu dosya motor TUZUNDA DEĞİL ve olmamalı: buradaki bir değişiklik
++    önbelleği öldürmemeli; DEM'in etkisi anahtar içeriğinden geçer.
++    """
++    import hashlib
++    h = hashlib.sha256()
++    with open(yol, "rb") as f:
++        for parca in iter(lambda: f.read(1 << 24), b""):
++            h.update(parca)
++    return {"ad": os.path.basename(yol), "boyut": os.path.getsize(yol),
++            "sha256": h.hexdigest()}
++
++
+ def durum():
+     print("=" * 68)
+     print("YÜKSEKLİK KATMANI — ALTYAPI ①")
