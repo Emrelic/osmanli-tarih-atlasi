@@ -1,0 +1,1778 @@
+{
+ "tohum": 20261011,
+ "N": 40,
+ "evren": 1382,
+ "evren_1281": 1419,
+ "evren_bolge": {
+  "Anadolu-Kafkas": 157,
+  "Avrupa": 378,
+  "Ortadogu-Iran": 74,
+  "Arabistan": 37,
+  "Kuzey Afrika": 146,
+  "Sahra-alti Afrika": 111,
+  "Orta Asya-Sibirya-Rusya": 78,
+  "Guney Asya": 91,
+  "Dogu Asya": 114,
+  "GD Asya-Okyanusya": 161,
+  "Amerika": 35
+ },
+ "pay": {
+  "Anadolu-Kafkas": 5,
+  "Avrupa": 11,
+  "Ortadogu-Iran": 2,
+  "Arabistan": 1,
+  "Kuzey Afrika": 4,
+  "Sahra-alti Afrika": 3,
+  "Orta Asya-Sibirya-Rusya": 2,
+  "Guney Asya": 3,
+  "Dogu Asya": 3,
+  "GD Asya-Okyanusya": 5,
+  "Amerika": 1
+ },
+ "secim": [
+  {
+   "bolge": "Amerika",
+   "anahtar": "yerlesimler_amerika.js|Xochimilco",
+   "ad": "Xochimilco",
+   "lat": 19.2647,
+   "lon": -99.1031,
+   "iddia_d": "nahua-sehir-devletleri",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1430-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1430-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1430-01-01",
+     "d": "nahua-sehir-devletleri",
+     "kaynak": null
+    },
+    {
+     "f": "1430-01-01",
+     "t": "1521-08-13",
+     "d": "aztek-imparatorlugu",
+     "kaynak": null
+    },
+    {
+     "f": "1521-08-13",
+     "t": "1535-04-17",
+     "d": "ispanya",
+     "kaynak": null
+    },
+    {
+     "f": "1535-04-17",
+     "t": "1821-09-27",
+     "d": "yeni-ispanya",
+     "kaynak": null
+    },
+    {
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "d": "meksika",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Anadolu-Kafkas",
+   "anahtar": "yerlesimler_ek23.js|Şarköy",
+   "ad": "Şarköy",
+   "lat": 40.6142,
+   "lon": 27.1146,
+   "iddia_d": "bizans",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1357-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1357-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1357-01-01",
+     "d": "bizans",
+     "kaynak": null
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1410-02-13",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-02-13",
+     "t": "1410-06-15",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-06-15",
+     "t": "1411-02-17",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1411-02-17",
+     "t": "1413-07-05",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1357-01-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1413-07-05",
+     "t": "1920-04-23"
+    }
+   ]
+  },
+  {
+   "bolge": "Anadolu-Kafkas",
+   "anahtar": "yerlesimler.js|Safranbolu",
+   "ad": "Safranbolu",
+   "lat": 41.253,
+   "lon": 32.694,
+   "iddia_d": "selcuklu",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1308-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1308-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1308-01-01",
+     "d": "selcuklu",
+     "kaynak": null
+    },
+    {
+     "f": "1308-01-01",
+     "t": "1309-01-01",
+     "d": "ilhanli",
+     "kaynak": null
+    },
+    {
+     "f": "1309-01-01",
+     "t": "1392-11-01",
+     "d": "candar",
+     "kaynak": null
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1461-06-01",
+     "d": "candar",
+     "kaynak": null
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1392-11-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1461-06-01",
+     "t": "1920-04-23"
+    }
+   ]
+  },
+  {
+   "bolge": "Anadolu-Kafkas",
+   "anahtar": "yerlesimler.js|Malkara",
+   "ad": "Malkara",
+   "lat": 40.89,
+   "lon": 26.905,
+   "iddia_d": "bizans",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1357-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1357-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1357-01-01",
+     "d": "bizans",
+     "kaynak": null
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1410-02-13",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-02-13",
+     "t": "1410-06-15",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-06-15",
+     "t": "1411-02-17",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1411-02-17",
+     "t": "1413-07-05",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1357-01-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1413-07-05",
+     "t": "1920-04-23"
+    }
+   ]
+  },
+  {
+   "bolge": "Anadolu-Kafkas",
+   "anahtar": "yerlesimler.js|Aydın",
+   "ad": "Aydın",
+   "lat": 37.845,
+   "lon": 27.84,
+   "iddia_d": "bizans",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1308-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1308-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1308-01-01",
+     "d": "bizans",
+     "kaynak": null
+    },
+    {
+     "f": "1308-01-01",
+     "t": "1344-10-28",
+     "d": "aydin",
+     "kaynak": null
+    },
+    {
+     "f": "1344-10-28",
+     "t": "1390-01-01",
+     "d": "sovalye",
+     "kaynak": null
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1402-09-15",
+     "d": "timurlu",
+     "kaynak": null
+    },
+    {
+     "f": "1402-09-15",
+     "t": "1415-06-01",
+     "d": "aydin",
+     "kaynak": null
+    },
+    {
+     "f": "1422-01-01",
+     "t": "1425-06-01",
+     "d": "aydin",
+     "kaynak": null
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1390-01-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1415-06-01",
+     "t": "1422-01-01"
+    },
+    {
+     "f": "1425-06-01",
+     "t": "1920-04-23"
+    }
+   ]
+  },
+  {
+   "bolge": "Anadolu-Kafkas",
+   "anahtar": "yerlesimler.js|Anamur",
+   "ad": "Anamur",
+   "lat": 36.078,
+   "lon": 32.837,
+   "iddia_d": "karaman",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1471-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1471-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1471-01-01",
+     "d": "karaman",
+     "kaynak": null
+    },
+    {
+     "f": "1920-04-23",
+     "t": "1923-10-29",
+     "d": "tbmm-turkiye",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1471-01-01",
+     "t": "1920-04-23"
+    }
+   ]
+  },
+  {
+   "bolge": "Arabistan",
+   "anahtar": "yerlesimler.js|Moha",
+   "ad": "Moha",
+   "lat": 13.319,
+   "lon": 43.25,
+   "iddia_d": "yemen",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1538-08-03",
+   "ham_f": "1281-01-01",
+   "ham_t": "1538-08-03",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1538-08-03",
+     "d": "yemen",
+     "kaynak": null
+    },
+    {
+     "f": "1635-10-22",
+     "t": "1849-01-01",
+     "d": "yemen",
+     "kaynak": null
+    },
+    {
+     "f": "1918-10-30",
+     "t": "1923-10-29",
+     "d": "yemen",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1538-08-03",
+     "t": "1635-10-22"
+    },
+    {
+     "f": "1849-01-01",
+     "t": "1918-10-30"
+    }
+   ]
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler_avrupa.js|Münster",
+   "ad": "Münster",
+   "lat": 51.961,
+   "lon": 7.626,
+   "iddia_d": "almanya",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1923-10-29",
+   "ham_f": "1281-01-01",
+   "ham_t": "1923-10-29",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1923-10-29",
+     "d": "almanya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler.js|Bastia (Korsika)",
+   "ad": "Bastia (Korsika)",
+   "lat": 42.7,
+   "lon": 9.45,
+   "iddia_d": "ceneviz",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1768-05-15",
+   "ham_f": "1281-01-01",
+   "ham_t": "1768-05-15",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1768-05-15",
+     "d": "ceneviz",
+     "kaynak": null
+    },
+    {
+     "f": "1768-05-15",
+     "t": "1792-09-22",
+     "d": "fransa",
+     "kaynak": null
+    },
+    {
+     "f": "1792-09-22",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler.js|Alonisos",
+   "ad": "Alonisos",
+   "lat": 39.213,
+   "lon": 23.911,
+   "iddia_d": "bizans",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1453-05-29",
+   "ham_f": "1281-01-01",
+   "ham_t": "1453-05-29",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1453-05-29",
+     "d": "bizans",
+     "kaynak": null
+    },
+    {
+     "f": "1453-05-29",
+     "t": "1538-08-01",
+     "d": "venedik",
+     "kaynak": null
+    },
+    {
+     "f": "1830-02-03",
+     "t": "1923-10-29",
+     "d": "yunanistan",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1538-08-01",
+     "t": "1830-02-03"
+    }
+   ]
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler.js|Yenişehir (Larissa)",
+   "ad": "Yenişehir (Larissa)",
+   "lat": 39.639,
+   "lon": 22.418,
+   "iddia_d": "bizans",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1311-03-15",
+   "ham_f": "1281-01-01",
+   "ham_t": "1311-03-15",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1311-03-15",
+     "d": "bizans",
+     "kaynak": null
+    },
+    {
+     "f": "1311-03-15",
+     "t": "1390-01-01",
+     "d": "katalan",
+     "kaynak": null
+    },
+    {
+     "f": "1390-01-01",
+     "t": "1394-01-01",
+     "d": "bizans",
+     "kaynak": null
+    },
+    {
+     "f": "1881-07-02",
+     "t": "1923-10-29",
+     "d": "yunanistan",
+     "kaynak": null
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1410-02-13",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-02-13",
+     "t": "1410-06-15",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-06-15",
+     "t": "1411-02-17",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1411-02-17",
+     "t": "1413-07-05",
+     "d": "musa-celebi",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1394-01-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1413-07-05",
+     "t": "1881-07-02"
+    }
+   ]
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler.js|İhtiman",
+   "ad": "İhtiman",
+   "lat": 42.433,
+   "lon": 23.817,
+   "iddia_d": "bulgaristan",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1373-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1373-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1373-01-01",
+     "d": "bulgaristan",
+     "kaynak": null
+    },
+    {
+     "f": "1402-07-28",
+     "t": "1410-02-13",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-02-13",
+     "t": "1410-06-15",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1410-06-15",
+     "t": "1411-02-17",
+     "d": "suleyman-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1411-02-17",
+     "t": "1413-07-05",
+     "d": "musa-celebi",
+     "kaynak": null
+    },
+    {
+     "f": "1908-10-05",
+     "t": "1923-10-29",
+     "d": "bulgaristan-kralligi",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1373-01-01",
+     "t": "1402-07-28"
+    },
+    {
+     "f": "1413-07-05",
+     "t": "1878-07-13"
+    }
+   ]
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler.js|Olomouc",
+   "ad": "Olomouc",
+   "lat": 49.594,
+   "lon": 17.251,
+   "iddia_d": "almanya",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1526-08-29",
+   "ham_f": "1281-01-01",
+   "ham_t": "1526-08-29",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-08-29",
+     "d": "almanya",
+     "kaynak": null
+    },
+    {
+     "f": "1526-08-29",
+     "t": "1918-11-11",
+     "d": "avusturya",
+     "kaynak": null
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1923-10-29",
+     "d": "cekoslovakya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler.js|Srebrenik",
+   "ad": "Srebrenik",
+   "lat": 44.705,
+   "lon": 18.489,
+   "iddia_d": "bosna",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1463-06-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1463-06-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1463-06-01",
+     "d": "bosna",
+     "kaynak": null
+    },
+    {
+     "f": "1463-06-01",
+     "t": "1512-01-01",
+     "d": "macaristan",
+     "kaynak": null
+    },
+    {
+     "f": "1908-10-05",
+     "t": "1918-11-11",
+     "d": "avusturya",
+     "kaynak": null
+    },
+    {
+     "f": "1918-11-11",
+     "t": "1918-12-01",
+     "d": "sirbistan-kralligi",
+     "kaynak": null
+    },
+    {
+     "f": "1918-12-01",
+     "t": "1923-10-29",
+     "d": "yugoslavya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1512-01-01",
+     "t": "1908-10-05"
+    }
+   ]
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler_avrupa.js|Flensburg",
+   "ad": "Flensburg",
+   "lat": 54.783,
+   "lon": 9.436,
+   "iddia_d": "danimarka",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1864-10-30",
+   "ham_f": "1281-01-01",
+   "ham_t": "1864-10-30",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1864-10-30",
+     "d": "danimarka",
+     "kaynak": null
+    },
+    {
+     "f": "1864-10-30",
+     "t": "1923-10-29",
+     "d": "almanya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler_h2_rusya.js|Tver",
+   "ad": "Tver",
+   "lat": 56.859,
+   "lon": 35.912,
+   "iddia_d": "tver",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1485-09-12",
+   "ham_f": "1281-01-01",
+   "ham_t": "1485-09-12",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1485-09-12",
+     "d": "tver",
+     "kaynak": null
+    },
+    {
+     "f": "1485-09-12",
+     "t": "1547-01-16",
+     "d": "moskova",
+     "kaynak": null
+    },
+    {
+     "f": "1547-01-16",
+     "t": "1917-03-15",
+     "d": "rusya",
+     "kaynak": null
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet",
+     "kaynak": null
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler_avrupa.js|Metz",
+   "ad": "Metz",
+   "lat": 49.12,
+   "lon": 6.176,
+   "iddia_d": "almanya",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1552-04-18",
+   "ham_f": "1281-01-01",
+   "ham_t": "1552-04-18",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1552-04-18",
+     "d": "almanya",
+     "kaynak": null
+    },
+    {
+     "f": "1552-04-18",
+     "t": "1792-09-22",
+     "d": "fransa",
+     "kaynak": null
+    },
+    {
+     "f": "1792-09-22",
+     "t": "1871-05-10",
+     "d": "fransa-cumhuriyet",
+     "kaynak": null
+    },
+    {
+     "f": "1871-05-10",
+     "t": "1919-06-28",
+     "d": "almanya",
+     "kaynak": null
+    },
+    {
+     "f": "1919-06-28",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Avrupa",
+   "anahtar": "yerlesimler_avrupa.js|Évora",
+   "ad": "Évora",
+   "lat": 38.571,
+   "lon": -7.907,
+   "iddia_d": "portekiz",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1581-04-16",
+   "ham_f": "1281-01-01",
+   "ham_t": "1581-04-16",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1581-04-16",
+     "d": "portekiz",
+     "kaynak": null
+    },
+    {
+     "f": "1581-04-16",
+     "t": "1640-12-01",
+     "d": "ispanya",
+     "kaynak": null
+    },
+    {
+     "f": "1640-12-01",
+     "t": "1923-10-29",
+     "d": "portekiz",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Dogu Asya",
+   "anahtar": "yerlesimler_asya.js|Zhangye (Ganzhou)",
+   "ad": "Zhangye (Ganzhou)",
+   "lat": 38.926,
+   "lon": 100.45,
+   "iddia_d": "yuan-hanedani",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1368-04-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1368-04-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1368-04-01",
+     "d": "yuan-hanedani",
+     "kaynak": null
+    },
+    {
+     "f": "1368-04-01",
+     "t": "1644-10-01",
+     "d": "ming-hanedani",
+     "kaynak": null
+    },
+    {
+     "f": "1644-10-01",
+     "t": "1912-02-12",
+     "d": "qing-hanedani",
+     "kaynak": null
+    },
+    {
+     "f": "1912-02-12",
+     "t": "1923-10-29",
+     "d": "cin-cumhuriyeti",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Dogu Asya",
+   "anahtar": "yerlesimler_asya.js|Hakata (Fukuoka)",
+   "ad": "Hakata (Fukuoka)",
+   "lat": 33.59,
+   "lon": 130.402,
+   "iddia_d": "kamakura",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1333-07-04",
+   "ham_f": "1281-01-01",
+   "ham_t": "1333-07-04",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1333-07-04",
+     "d": "kamakura",
+     "kaynak": null
+    },
+    {
+     "f": "1333-07-04",
+     "t": "1336-11-07",
+     "d": "kenmu",
+     "kaynak": null
+    },
+    {
+     "f": "1336-11-07",
+     "t": "1573-01-01",
+     "d": "muromachi",
+     "kaynak": null
+    },
+    {
+     "f": "1573-01-01",
+     "t": "1603-03-24",
+     "d": "azuchi-momoyama",
+     "kaynak": null
+    },
+    {
+     "f": "1603-03-24",
+     "t": "1868-01-03",
+     "d": "edo-bakufu",
+     "kaynak": null
+    },
+    {
+     "f": "1868-01-03",
+     "t": "1923-10-29",
+     "d": "meiji-japonya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Dogu Asya",
+   "anahtar": "yerlesimler_asya.js|Pekin (Hanbalık)",
+   "ad": "Pekin (Hanbalık)",
+   "lat": 39.904,
+   "lon": 116.407,
+   "iddia_d": "yuan-hanedani",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1368-09-14",
+   "ham_f": "1281-01-01",
+   "ham_t": "1368-09-14",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1368-09-14",
+     "d": "yuan-hanedani",
+     "kaynak": null
+    },
+    {
+     "f": "1368-09-14",
+     "t": "1644-04-25",
+     "d": "ming-hanedani",
+     "kaynak": null
+    },
+    {
+     "f": "1644-04-25",
+     "t": "1644-06-06",
+     "d": "dashun",
+     "kaynak": null
+    },
+    {
+     "f": "1644-06-06",
+     "t": "1912-02-12",
+     "d": "qing-hanedani",
+     "kaynak": null
+    },
+    {
+     "f": "1912-02-12",
+     "t": "1923-10-29",
+     "d": "cin-cumhuriyeti",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "GD Asya-Okyanusya",
+   "anahtar": "yerlesimler_gdasya.js|Legazpi",
+   "ad": "Legazpi",
+   "lat": 13.14,
+   "lon": 123.74,
+   "iddia_d": "filipin-racaliklari",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1573-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1573-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1573-01-01",
+     "d": "filipin-racaliklari",
+     "kaynak": null
+    },
+    {
+     "f": "1573-01-01",
+     "t": "1898-08-13",
+     "d": "ispanya",
+     "kaynak": null
+    },
+    {
+     "f": "1898-08-13",
+     "t": "1923-10-29",
+     "d": "abd",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "GD Asya-Okyanusya",
+   "anahtar": "yerlesimler_gdasya.js|Maumere (Flores)",
+   "ad": "Maumere (Flores)",
+   "lat": -8.62,
+   "lon": 122.21,
+   "iddia_d": "timor-beylikleri",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1613-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1613-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1613-01-01",
+     "d": "timor-beylikleri",
+     "kaynak": null
+    },
+    {
+     "f": "1613-01-01",
+     "t": "1859-04-20",
+     "d": "portekiz",
+     "kaynak": null
+    },
+    {
+     "f": "1859-04-20",
+     "t": "1923-10-29",
+     "d": "hollanda-dogu-hint",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "GD Asya-Okyanusya",
+   "anahtar": "yerlesimler_gdasya.js|Jepara",
+   "ad": "Jepara",
+   "lat": -6.59,
+   "lon": 110.67,
+   "iddia_d": "singhasari",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1292-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1292-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1292-01-01",
+     "d": "singhasari",
+     "kaynak": null
+    },
+    {
+     "f": "1292-01-01",
+     "t": "1527-01-01",
+     "d": "majapahit",
+     "kaynak": null
+    },
+    {
+     "f": "1527-01-01",
+     "t": "1587-01-01",
+     "d": "demak",
+     "kaynak": null
+    },
+    {
+     "f": "1587-01-01",
+     "t": "1743-11-11",
+     "d": "mataram-sultanligi",
+     "kaynak": null
+    },
+    {
+     "f": "1743-11-11",
+     "t": "1811-08-18",
+     "d": "hollanda-dogu-hint",
+     "kaynak": null
+    },
+    {
+     "f": "1811-08-18",
+     "t": "1816-08-19",
+     "d": "ingiltere",
+     "kaynak": null
+    },
+    {
+     "f": "1816-08-19",
+     "t": "1923-10-29",
+     "d": "hollanda-dogu-hint",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "GD Asya-Okyanusya",
+   "anahtar": "yerlesimler_gdasya.js|Kompong Cham",
+   "ad": "Kompong Cham",
+   "lat": 12.0,
+   "lon": 105.46,
+   "iddia_d": "angkor-kmer",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1431-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1431-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1431-01-01",
+     "d": "angkor-kmer",
+     "kaynak": null
+    },
+    {
+     "f": "1431-01-01",
+     "t": "1863-08-11",
+     "d": "kamboc-kralligi",
+     "kaynak": null
+    },
+    {
+     "f": "1863-08-11",
+     "t": "1923-10-29",
+     "d": "fransiz-cinhindi",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "GD Asya-Okyanusya",
+   "anahtar": "yerlesimler_gdasya.js|Ponorogo",
+   "ad": "Ponorogo",
+   "lat": -7.87,
+   "lon": 111.46,
+   "iddia_d": "singhasari",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1292-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1292-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1292-01-01",
+     "d": "singhasari",
+     "kaynak": null
+    },
+    {
+     "f": "1292-01-01",
+     "t": "1527-01-01",
+     "d": "majapahit",
+     "kaynak": null
+    },
+    {
+     "f": "1527-01-01",
+     "t": "1587-01-01",
+     "d": "demak",
+     "kaynak": null
+    },
+    {
+     "f": "1587-01-01",
+     "t": "1743-11-11",
+     "d": "mataram-sultanligi",
+     "kaynak": null
+    },
+    {
+     "f": "1743-11-11",
+     "t": "1811-08-18",
+     "d": "hollanda-dogu-hint",
+     "kaynak": null
+    },
+    {
+     "f": "1811-08-18",
+     "t": "1816-08-19",
+     "d": "ingiltere",
+     "kaynak": null
+    },
+    {
+     "f": "1816-08-19",
+     "t": "1923-10-29",
+     "d": "hollanda-dogu-hint",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Guney Asya",
+   "anahtar": "yerlesimler_asya.js|Broaç (Bharuch)",
+   "ad": "Broaç (Bharuch)",
+   "lat": 21.7153,
+   "lon": 72.995,
+   "iddia_d": "racput",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1304-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1304-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1304-01-01",
+     "d": "racput",
+     "kaynak": null
+    },
+    {
+     "f": "1304-01-01",
+     "t": "1407-01-01",
+     "d": "delhi-sultanligi",
+     "kaynak": null
+    },
+    {
+     "f": "1407-01-01",
+     "t": "1573-02-26",
+     "d": "gucerat-sultanligi",
+     "kaynak": null
+    },
+    {
+     "f": "1573-02-26",
+     "t": "1772-11-18",
+     "d": "babur-imparatorlugu",
+     "kaynak": null
+    },
+    {
+     "f": "1772-11-18",
+     "t": "1923-10-29",
+     "d": "ingiliz-hindistani",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Guney Asya",
+   "anahtar": "yerlesimler_asya.js|Trivandrum (Thiruvananthapuram)",
+   "ad": "Trivandrum (Thiruvananthapuram)",
+   "lat": 8.524,
+   "lon": 76.936,
+   "iddia_d": "travankur",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1923-10-29",
+   "ham_f": "1281-01-01",
+   "ham_t": "1923-10-29",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1923-10-29",
+     "d": "travankur",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Guney Asya",
+   "anahtar": "yerlesimler_asya.js|Raygad",
+   "ad": "Raygad",
+   "lat": 18.234,
+   "lon": 73.441,
+   "iddia_d": "yadava",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1318-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1318-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1318-01-01",
+     "d": "yadava",
+     "kaynak": null
+    },
+    {
+     "f": "1318-01-01",
+     "t": "1347-08-03",
+     "d": "delhi-sultanligi",
+     "kaynak": null
+    },
+    {
+     "f": "1347-08-03",
+     "t": "1490-01-01",
+     "d": "behmeni",
+     "kaynak": null
+    },
+    {
+     "f": "1490-01-01",
+     "t": "1636-01-01",
+     "d": "ahmednagar",
+     "kaynak": null
+    },
+    {
+     "f": "1636-01-01",
+     "t": "1674-06-06",
+     "d": "bicapur",
+     "kaynak": null
+    },
+    {
+     "f": "1674-06-06",
+     "t": "1689-11-03",
+     "d": "maratha",
+     "kaynak": null
+    },
+    {
+     "f": "1689-11-03",
+     "t": "1733-01-01",
+     "d": "babur-imparatorlugu",
+     "kaynak": null
+    },
+    {
+     "f": "1733-01-01",
+     "t": "1818-05-09",
+     "d": "maratha",
+     "kaynak": null
+    },
+    {
+     "f": "1818-05-09",
+     "t": "1923-10-29",
+     "d": "ingiliz-hindistani",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Kuzey Afrika",
+   "anahtar": "yerlesimler_afrika.js|Şelif",
+   "ad": "Şelif",
+   "lat": 36.165,
+   "lon": 1.334,
+   "iddia_d": "zeyyani",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1519-09-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1519-09-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1519-09-01",
+     "d": "zeyyani",
+     "kaynak": null
+    },
+    {
+     "f": "1832-11-22",
+     "t": "1843-01-01",
+     "d": "abdulkadir",
+     "kaynak": null
+    },
+    {
+     "f": "1843-01-01",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1519-09-01",
+     "t": "1671-01-01"
+    }
+   ]
+  },
+  {
+   "bolge": "Kuzey Afrika",
+   "anahtar": "yerlesimler_afrika.js|Sîdî Bel Abbès",
+   "ad": "Sîdî Bel Abbès",
+   "lat": 35.194,
+   "lon": -0.641,
+   "iddia_d": "zeyyani",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1552-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1552-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1552-01-01",
+     "d": "zeyyani",
+     "kaynak": null
+    },
+    {
+     "f": "1832-11-22",
+     "t": "1843-06-12",
+     "d": "abdulkadir",
+     "kaynak": null
+    },
+    {
+     "f": "1843-06-12",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1552-01-01",
+     "t": "1671-01-01"
+    }
+   ]
+  },
+  {
+   "bolge": "Kuzey Afrika",
+   "anahtar": "yerlesimler_afrika.js|Nâlût",
+   "ad": "Nâlût",
+   "lat": 31.868,
+   "lon": 10.983,
+   "iddia_d": "hafsi",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1551-08-15",
+   "ham_f": "1281-01-01",
+   "ham_t": "1551-08-15",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1551-08-15",
+     "d": "hafsi",
+     "kaynak": null
+    },
+    {
+     "f": "1912-10-18",
+     "t": "1923-10-29",
+     "d": "italya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1551-08-15",
+     "t": "1711-07-29"
+    },
+    {
+     "f": "1835-05-26",
+     "t": "1912-10-18"
+    }
+   ]
+  },
+  {
+   "bolge": "Kuzey Afrika",
+   "anahtar": "yerlesimler_afrika.js|Mustagānim",
+   "ad": "Mustagānim",
+   "lat": 35.931,
+   "lon": 0.089,
+   "iddia_d": "zeyyani",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1552-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1552-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1552-01-01",
+     "d": "zeyyani",
+     "kaynak": null
+    },
+    {
+     "f": "1832-11-22",
+     "t": "1833-07-28",
+     "d": "abdulkadir",
+     "kaynak": null
+    },
+    {
+     "f": "1833-07-28",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": [
+    {
+     "f": "1552-01-01",
+     "t": "1671-01-01"
+    }
+   ]
+  },
+  {
+   "bolge": "Orta Asya-Sibirya-Rusya",
+   "anahtar": "yerlesimler_h2_rusya.js|Kostroma",
+   "ad": "Kostroma",
+   "lat": 57.758,
+   "lon": 40.905,
+   "iddia_d": "altinorda",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1325-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1325-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1325-01-01",
+     "d": "altinorda",
+     "kaynak": null
+    },
+    {
+     "f": "1325-01-01",
+     "t": "1547-01-16",
+     "d": "moskova",
+     "kaynak": null
+    },
+    {
+     "f": "1547-01-16",
+     "t": "1917-03-15",
+     "d": "rusya",
+     "kaynak": null
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet",
+     "kaynak": null
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Orta Asya-Sibirya-Rusya",
+   "anahtar": "yerlesimler_sibirya.js|Buryat toprakları (Selenge havzası)",
+   "ad": "Buryat toprakları (Selenge havzası)",
+   "lat": 53.0,
+   "lon": 110.0,
+   "iddia_d": "kuzey-yuan",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1631-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1631-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1631-01-01",
+     "d": "kuzey-yuan",
+     "kaynak": null
+    },
+    {
+     "f": "1631-01-01",
+     "t": "1917-03-15",
+     "d": "rusya",
+     "kaynak": null
+    },
+    {
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "d": "rusya-gecici-hukumet",
+     "kaynak": null
+    },
+    {
+     "f": "1917-11-07",
+     "t": "1923-10-29",
+     "d": "sovyet-rusya",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Ortadogu-Iran",
+   "anahtar": "yerlesimler.js|Bocnûrd",
+   "ad": "Bocnûrd",
+   "lat": 37.4744,
+   "lon": 57.3292,
+   "iddia_d": "ilhanli",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1337-09-09",
+   "ham_f": "1281-01-01",
+   "ham_t": "1337-09-09",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1337-09-09",
+     "d": "ilhanli",
+     "kaynak": null
+    },
+    {
+     "f": "1337-09-09",
+     "t": "1381-01-01",
+     "d": "serbedariler",
+     "kaynak": null
+    },
+    {
+     "f": "1381-01-01",
+     "t": "1507-05-24",
+     "d": "timurlu",
+     "kaynak": null
+    },
+    {
+     "f": "1507-05-24",
+     "t": "1510-12-02",
+     "d": "buhara",
+     "kaynak": null
+    },
+    {
+     "f": "1510-12-02",
+     "t": "1736-03-08",
+     "d": "safevi",
+     "kaynak": null
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1747-06-20",
+     "d": "afsar",
+     "kaynak": null
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1794-01-01",
+     "d": "zend",
+     "kaynak": null
+    },
+    {
+     "f": "1794-01-01",
+     "t": "1923-10-29",
+     "d": "kacar",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Ortadogu-Iran",
+   "anahtar": "yerlesimler.js|Lâhîcan",
+   "ad": "Lâhîcan",
+   "lat": 37.2072,
+   "lon": 50.0044,
+   "iddia_d": "ilhanli",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1371-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1371-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1371-01-01",
+     "d": "ilhanli",
+     "kaynak": null
+    },
+    {
+     "f": "1371-01-01",
+     "t": "1592-01-01",
+     "d": "gilan-kiya",
+     "kaynak": null
+    },
+    {
+     "f": "1592-01-01",
+     "t": "1725-01-01",
+     "d": "safevi",
+     "kaynak": null
+    },
+    {
+     "f": "1725-01-01",
+     "t": "1732-09-02",
+     "d": "rusya",
+     "kaynak": null
+    },
+    {
+     "f": "1732-09-02",
+     "t": "1736-03-08",
+     "d": "safevi",
+     "kaynak": null
+    },
+    {
+     "f": "1736-03-08",
+     "t": "1747-06-20",
+     "d": "afsar",
+     "kaynak": null
+    },
+    {
+     "f": "1747-06-20",
+     "t": "1794-01-01",
+     "d": "zend",
+     "kaynak": null
+    },
+    {
+     "f": "1794-01-01",
+     "t": "1923-10-29",
+     "d": "kacar",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Sahra-alti Afrika",
+   "anahtar": "yerlesimler_afrika.js|Garove",
+   "ad": "Garove",
+   "lat": 8.406,
+   "lon": 48.483,
+   "iddia_d": "somali",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1923-10-29",
+   "ham_f": "1281-01-01",
+   "ham_t": "1923-10-29",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1923-10-29",
+     "d": "somali",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Sahra-alti Afrika",
+   "anahtar": "yerlesimler_h2_afrika.js|Nazret",
+   "ad": "Nazret",
+   "lat": 8.54,
+   "lon": 39.27,
+   "iddia_d": "habesistan",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1923-10-29",
+   "ham_f": "1281-01-01",
+   "ham_t": "1923-10-29",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1923-10-29",
+     "d": "habesistan",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  },
+  {
+   "bolge": "Sahra-alti Afrika",
+   "anahtar": "yerlesimler_h2_afrika.js|Ed-Damazîn",
+   "ad": "Ed-Damazîn",
+   "lat": 11.789,
+   "lon": 34.359,
+   "iddia_d": "nube",
+   "iddia_f": "1281-01-01",
+   "iddia_t": "1504-01-01",
+   "ham_f": "1281-01-01",
+   "ham_t": "1504-01-01",
+   "s_zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1504-01-01",
+     "d": "nube",
+     "kaynak": null
+    },
+    {
+     "f": "1504-01-01",
+     "t": "1821-06-14",
+     "d": "funj",
+     "kaynak": null
+    },
+    {
+     "f": "1885-01-26",
+     "t": "1899-01-19",
+     "d": "mehdi",
+     "kaynak": null
+    },
+    {
+     "f": "1899-01-19",
+     "t": "1923-10-29",
+     "d": "ingiliz-sudani",
+     "kaynak": null
+    }
+   ],
+   "d_osmanli": []
+  }
+ ]
+}
