@@ -181,7 +181,7 @@ index 00000000..8f25461f
 +                        % ",".join(alanlar)))
 +    return olu, olcmedi
 diff --git a/arac/_sahiplik_uygula.py b/arac/_sahiplik_uygula.py
-index c4f5f853..949984bb 100644
+index c4f5f853..9d0b0afd 100644
 --- a/arac/_sahiplik_uygula.py
 +++ b/arac/_sahiplik_uygula.py
 @@ -27,6 +27,13 @@
@@ -667,7 +667,7 @@ index c4f5f853..949984bb 100644
  # ───────────────────────────────────────────────────────────── ⑦ rapor
  print()
  print("=== SAHİPLİK YAMASI — %s ===" % ("YAZILDI" if YAZ else "KURU KOŞU"))
-@@ -1295,9 +1560,87 @@ if degisiklik:
+@@ -1295,9 +1560,89 @@ if degisiklik:
  if atlanan:
      print()
      print("[!] ATLANAN (%d) — sebebiyle:" % len(atlanan))
@@ -726,8 +726,10 @@ index c4f5f853..949984bb 100644
 +           for a, _d, al, x in g.get("taban_bayat", []) if a in g.get("_tb_ihlal", set())]
 +    bay += [{"yama": yama_of(a), "ad": a, "kova": "geri-alma-bayat", "sebep": "%s:%d" % (yl, no)}
 +            for a, yl, no, _al in g.get("bayat", [])]
-+    olc = [{"yama": yama_of(a), "ad": a, "kova": "taban-olculemedi", "sebep": "[%s] %s" % (al, x)}
-+           for a, _d, al, x in g.get("taban_olcmedi", []) if a in g.get("_to_ihlal", set())]
++    # (v3) `dosya` = kaydın GİRDİ dosyası (yerlesimler*.js — girdi'nin `_kaynak`ı): denetle'nin taban defteri
++    #   anahtarı "dosya | ad"dır; yama listesi yalnız GÖRÜNÜR alan (`yama`), anahtar DEĞİL.
++    olc = [{"yama": yama_of(a), "ad": a, "dosya": d_, "kova": "taban-olculemedi", "sebep": "[%s] %s" % (al, x)}
++           for a, d_, al, x in g.get("taban_olcmedi", []) if a in g.get("_to_ihlal", set())]
 +    olc += [{"yama": yama_of(a), "ad": a, "kova": "kapsam-olculemedi", "sebep": x}
 +            for a, _d, x in kapsam_olcmedi]
 +    olc += [{"yama": "?", "ad": e, "kova": "hukum-red", "sebep": x} for e, x in g.get("hukum_red", [])]
@@ -756,7 +758,7 @@ index c4f5f853..949984bb 100644
  # ─────────────────────────────── ⑦b GERİ OKUMA — "yazdım" değil "OKUNUYOR" (ŞART)
  # 🔴 SAHIPLIK-UYGULA-KUSUR-1008: K2'de araç yeni `s:`yi YAZDI, rapora "uygulandı" BASTI,
  #   ama JS aynı anahtarın SONUNCUSUNU (eskisini) okuduğu için yama ÖLÜYDÜ. "Yazdığım
-@@ -1372,12 +1715,55 @@ def _dogrulama_bas(hatalar, baslik):
+@@ -1372,12 +1717,55 @@ def _dogrulama_bas(hatalar, baslik):
  
  print()
  _bellek = _uygula_bellekte()
@@ -814,7 +816,7 @@ index c4f5f853..949984bb 100644
  print("GERİ OKUMA: %d/%d kayıt motorun okuyucusuyla yeniden ayrıştırıldı — son değer = "
        "yazılan değer, yan etki 0 ✓" % (_toplam_bek, _toplam_bek))
  
-@@ -1487,8 +1873,12 @@ for ad, dosya, r in taban_aday:
+@@ -1487,8 +1875,12 @@ for ad, dosya, r in taban_aday:
              taban_bayat.append((ad, dosya, alan, "[%s] %s" % (kaynak_ad, _ozet_fark(taban, bugun))))
  
  print()
@@ -828,7 +830,7 @@ index c4f5f853..949984bb 100644
  if _rev_okunamadi:
      print("  🟡 --taban %s: %d dosya okunamadı: %s" % (TABAN_REV, len(_rev_okunamadi),
                                                       ", ".join(_rev_okunamadi[:8])))
-@@ -1510,39 +1900,45 @@ if not taban_bayat and not taban_olcmedi:
+@@ -1510,39 +1902,45 @@ if not taban_bayat and not taban_olcmedi:
      print("  ✓ her değişimin tabanı bugünkü değer — TAZE.")
  if TABAN_RAPOR:
      with io.open(TABAN_RAPOR, "w", encoding="utf-8", newline="\n") as _f:
@@ -893,7 +895,7 @@ index c4f5f853..949984bb 100644
      print("🔴 BAYAT YAMA: %d kayıt — yamanın yazacağı dizi O KAYDIN geçmişinde VARDI ve bugün"
            " YOK ⇒ yama bir kez inmiş, kayıt sonra düzeltilmiş; yazmak o düzeltmeyi GERİ ALIR."
            % len(bayat))
-@@ -1550,15 +1946,73 @@ if bayat:
+@@ -1550,15 +1948,73 @@ if bayat:
          print("  %-28s %s:%d  %s" % (ad[:28], yol, satir_no, " · ".join(
              "%s (geçmişte: %s)" % (a, ", ".join("%s %s" % hg for hg in isabet[:3]))
              for a, isabet in alanlar)))
@@ -976,7 +978,7 @@ index c4f5f853..949984bb 100644
  
  if YAZ:
      # 🔴 TERSTEN — dosya SONUNDAN başına doğru. Bir kaydın satır sayısı
-@@ -1582,7 +2036,7 @@ if YAZ:
+@@ -1582,7 +2038,7 @@ if YAZ:
      if _hatalar:
          _dogrulama_bas(_hatalar, "DİSKTEN GERİ OKUMA")
          print("   ⇒ dosyalar YAZILDI ama doğrulanmadı — `git diff` ile incele (çıkış 4).")
@@ -985,7 +987,7 @@ index c4f5f853..949984bb 100644
      print("DİSKTEN GERİ OKUMA: %d/%d kayıt ✓ — UYGULANDI. 🔴 ŞİMDİ `py arac/denetle.py` KOŞTUR."
            % (_toplam_bek, _toplam_bek))
  else:
-@@ -1593,4 +2047,12 @@ if ist["taninmadi"]:
+@@ -1593,4 +2049,12 @@ if ist["taninmadi"]:
      print()
      print("🔴 TANINMAYAN %d yama kaydı İNMEDİ (adları ATLANAN'da '🔴 TANINMADI') — çıkış 4."
            % ist["taninmadi"])
@@ -1000,10 +1002,10 @@ index c4f5f853..949984bb 100644
 +    _cik(2 if ATLAMA_YALNIZ else 4)   # hızlı kipin sözleşmesi: listesiz atlama = 2
 +_cik(0)
 diff --git a/arac/denetle.py b/arac/denetle.py
-index 627c4be9..d666da5c 100644
+index 627c4be9..8d7b9c77 100644
 --- a/arac/denetle.py
 +++ b/arac/denetle.py
-@@ -5764,6 +5764,42 @@ def olculemedi(ad, sebep):
+@@ -5764,6 +5764,44 @@ def olculemedi(ad, sebep):
      OLCULEMEDI_KOVA.append((ad, str(sebep)[:160]))
  
  
@@ -1019,6 +1021,8 @@ index 627c4be9..d666da5c 100644
 +        return "sahiplik atlama: %s" % (m.group(1) if m else "?")
 +    if ad.startswith("hüküm listesi "):
 +        return "hüküm listesi"
++    if ad.startswith("sahiplik taban GİREN "):
++        return "sahiplik taban: defter dışı"
 +    return ad
 +
 +
@@ -1046,7 +1050,7 @@ index 627c4be9..d666da5c 100644
  def degismez8_rapor(Y, ayrinti=False, defter_yaz=False, kor_defter_yaz=False, kor_defter=None):
      """main() için: basar, ihlal varsa True döner."""
      try:
-@@ -6548,6 +6584,184 @@ def degismez_r_rapor(Y, ayrinti=False):
+@@ -6548,6 +6586,220 @@ def degismez_r_rapor(Y, ayrinti=False):
      return bool(R["ihlal"])
  
  
@@ -1113,18 +1117,40 @@ index 627c4be9..d666da5c 100644
 +# Evren: `yer_yama*.js` − SAHIPLIK_HIZLI_HARIC. Süre ölçüldü: ~12 sn (10 Ekim 2026, UMIT).
 +SAHIPLIK_HIZLI_HARIC = ("yer_yama_1923_1945.js",)   # Z5 v1 KARANTİNASI — v4 indiği COMMİT'te kaldırılır (koordinatör), daha önce DEĞİL
 +SAHIPLIK_HIZLI_ZAMAN = 180
-+# ③ (v2) TABAN-ÖLÇÜLEMEDİ — 2'ye GİRMEZ; SAYIYLA basılır ve TAVAN alır (§3.4). Birim: kayıt = "ad [yama]"
-+#   (aynı kaydın birden çok alanı TEK sayılır). Tavan SAYI + ad DEFTERİ birlikte (§3.4⑤ — istisna listesi
++# ③ (v2) TABAN-ÖLÇÜLEMEDİ — 2'ye GİRMEZ; SAYIYLA basılır ve TAVAN alır (§3.4). Birim: kayıt
++#   (aynı kaydın birden çok alanı TEK sayılır).
++#   🔴 (v3) ANAHTAR = "DOSYA | ad" (+ "#n" aynı dosyada mükerrer adda) — D5-GUN-1010 v3'ün 5c defteriyle AYNI
++#   biçim; DOSYA = kaydın GİRDİ dosyası (girdi'nin `_kaynak`ı, `yerlesimler*.js`), yama DEĞİL.
++#   Ölçülen kusur (D5-GUN-1010.md ⑥): v2'nin "ad [yama]" anahtarındaki yama = o adı taşıyan BÜTÜN yer_yama*
++#   dosyalarının listesi ⇒ kayda dokunan YENİ bir yama ya da yama dosyası ADI değişince anahtar kayıyor,
++#   aynı kayıt GİREN + ÇIKAN görünüyor ve GİREN SAHTE İHLAL üretiyordu (190 kaydın 66'sı zaten çok yamalı).
++#   İlke: defterin anahtarı, izlediği şeyden (yamalar, dönemler) BAĞIMSIZ olmalı. Kayıtların kararlı id'si yok
++#   (D5 ölçtü); girdi dosyası + ad kararlıdır (4300 kayıtta ad mükerreri 0). Yama listesi `yamalar` alanında
++#   GÖRÜNÜR kalır, kıyasa girmez. Kayıt adı ya da girdi dosyası değişince GİREN + ÇIKAN görünür (beklenen). Tavan SAYI + ad DEFTERİ birlikte (§3.4⑤ — istisna listesi
 +#   tavan ailesidir): yalnız sayı, bir kayıt düzelip bir başkası bozulunca (NET TAKAS) hiçbir şey görmez.
-+#   Yalnız ARTIŞ bloke eder (İHLAL): sayı tavanı aşarsa YA DA defterde olmayan bir kayıt belirirse.
++#   🔴 (v3) DEFTER DIŞI (GİREN) kayıt — NET TAKAS dahil — ÖLÇÜLEMEDİ'dir (§3 kodu 2), İHLAL DEĞİL
++#   (koordinatör kararı, 10 Ekim 2026; D5C defteriyle aynı). v2'de 1 veriyordu ve bunun yazılı bir
++#   gerekçesi YOKTU (ölçüldü: SAHIPLIK-KAPSAM-1010.md v2 §10 yalnız kuralı söylüyor; BAYAT-TABAN-1009
++#   tasarımı beyansız tabanı baştan ÖLÇÜLEMEDİ sayar). "Taban ölçülemedi" bir ölçüm boşluğudur; 1 vermek
++#   beyanlı yeni bir yama dosyasını bile ihlal yapardı. Her giren kayıt OLCULEMEDI_KOVA'ya ADIYLA düşer.
 +#   İyileşince "TAVAN GEVŞEK". Defter ile sabit AYNI commit'te iner (§3.4②) — uyuşmazsa ÖLÇÜLEMEDİ.
-+#   🔴 ÖNERİ (işçi ölçtü, koordinatör YAZAR §3.4④): 190 · ölçüm origin/main 48df6bf1, 10 Ekim 2026 06:26.
++#   🔴 ÖNERİ (işçi ölçtü, koordinatör YAZAR §3.4④): 190 · v3 anahtarıyla YENİDEN ölçüm origin/main 0f893331, 10 Ekim 2026 07:08 (v2'nin 190'ıyla ad kümesi BİREBİR).
 +BEKLENEN_TABAN_OLCULEMEDI = 190
 +SAHIPLIK_TABAN_DEFTER_YOL = os.path.join(KOK, "denetim", "SAHIPLIK-TABAN-OLCULEMEDI.json")
 +
 +
-+def sahiplik_taban_tavan(anahtarlar, defter_yol=None, beklenen=None, yaz=print):
-+    """Bugünkü taban-ölçülemedi kümesi ↔ tavan + defter. Döner: ihlal (artış / yeni kayıt) var mı."""
++def sahiplik_taban_anahtar(ogeler):
++    """[(dosya, ad)] → ["dosya | ad" (+ "#n")] — sıra korunur; n = aynı (dosya, ad)nin görünüş sırası (2'den)."""
++    say, cik = {}, []
++    for d, a in ogeler:
++        say[(d, a)] = say.get((d, a), 0) + 1
++        cik.append("%s | %s" % (d, a) + ("" if say[(d, a)] == 1 else "#%d" % say[(d, a)]))
++    return cik
++
++
++def sahiplik_taban_tavan(anahtarlar, defter_yol=None, beklenen=None, yaz=print, yamalar=None):
++    """Bugünkü taban-ölçülemedi kümesi ↔ tavan + defter. (v3) İhlal üretmez: defter dışı kayıt ÖLÇÜLEMEDİ'ye
++    ADIYLA düşer. Dönüş (uyumluluk için) her zaman False."""
 +    defter_yol = defter_yol or SAHIPLIK_TABAN_DEFTER_YOL
 +    beklenen = BEKLENEN_TABAN_OLCULEMEDI if beklenen is None else beklenen
 +    try:
@@ -1143,13 +1169,14 @@ index 627c4be9..d666da5c 100644
 +        return False
 +    bugun, df = set(anahtarlar), set(defter)
 +    yeni, giden = sorted(bugun - df), sorted(df - bugun)
-+    if len(bugun) > beklenen or yeni:
-+        yaz("    ✗ TABAN-ÖLÇÜLEMEDİ ARTTI: %d (tavan %d) · defterde OLMAYAN %d kayıt%s"
-+            % (len(bugun), beklenen, len(yeni), " (NET TAKAS: sayı aynı, küme farklı)" if len(bugun) <= beklenen else ""))
++    if yeni:
++        yaz("    ! TABAN-ÖLÇÜLEMEDİ DEFTER DIŞI: %d kayıt (bugün %d · tavan %d)%s — ÖLÇÜLEMEDİ, ihlal değil"
++            % (len(yeni), len(bugun), beklenen, " · NET TAKAS (sayı aynı, küme farklı)" if len(bugun) <= beklenen else ""))
 +        for k in yeni:
-+            yaz("      + %s" % k)
-+        return True
-+    if len(bugun) < beklenen or giden:
++            ek = ("   (yamalar: %s)" % yamalar[k]) if yamalar and k in yamalar else ""
++            yaz("      + %s%s" % (k, ek))
++            olculemedi("sahiplik taban GİREN %s" % k, "defterde YOK — tabanı ölçülemeyen yeni kayıt%s" % ek)
++    if len(bugun) < beklenen or giden:   # (v3) GİREN varken de ÇIKAN görünür (ad değişimi = GİREN + ÇIKAN)
 +        yaz("    ⚠️ TAVAN GEVŞEK — BEKLENEN_TABAN_OLCULEMEDI = %d yapılmalı; defterden çıkacak %d: %s"
 +            % (len(bugun), len(giden), " · ".join(giden[:20]) + (" …" if len(giden) > 20 else "")))
 +    return False
@@ -1172,8 +1199,20 @@ index 627c4be9..d666da5c 100644
 +    olc = [(o["ad"], "[%s] %s — %s" % (o["yama"], o.get("kova", "?"), o["sebep"])) for o in J["listesiz_atlama"]]
 +    olc += [(o["ad"], "[%s] %s — %s" % (o["yama"], o.get("kova", "?"), o["sebep"]))
 +            for o in J["olculemedi"] if o.get("kova") in _SAHIPLIK_OLCULEMEDI_KOVA]
-+    tab = sorted({"%s [%s]" % (o["ad"], o["yama"]) for o in J["olculemedi"] if o.get("kova") == "taban-olculemedi"})
-+    bilgi = {"listeli": [o["ad"] for o in J["listeli_atlama"]], "taban_anahtar": tab,
++    # (v3) aynı kaydın birden çok alanı TEK kayıt: (dosya, ad) tekilleştirilir, SONRA anahtar kurulur.
++    _gor, _tek, _yam = set(), [], {}
++    for o in J["olculemedi"]:
++        if o.get("kova") != "taban-olculemedi":
++            continue
++        if not isinstance(o.get("dosya"), str) or not o["dosya"]:
++            raise ValueError("taban-olculemedi öğesinde `dosya` (girdi dosyası) YOK: %r" % o)
++        if (o["dosya"], o["ad"]) not in _gor:
++            _gor.add((o["dosya"], o["ad"]))
++            _tek.append((o["dosya"], o["ad"], o["yama"]))
++    tab = sahiplik_taban_anahtar([(d, a) for d, a, _ in _tek])
++    _yam = {k: y for k, (_, _, y) in zip(tab, _tek)}
++    tab = sorted(tab)
++    bilgi = {"listeli": [o["ad"] for o in J["listeli_atlama"]], "taban_anahtar": tab, "taban_yamalar": _yam,
 +             "taban_olculemedi": len(tab)}
 +    return ihlal, olc, bilgi
 +
@@ -1213,7 +1252,8 @@ index 627c4be9..d666da5c 100644
 +    for ad, x in olc:
 +        olculemedi("sahiplik atlama %s" % ad, x)
 +    satirlar = []
-+    tavan_ihlal = sahiplik_taban_tavan(bilgi["taban_anahtar"], taban_defter, taban_beklenen, yaz=satirlar.append)
++    tavan_ihlal = sahiplik_taban_tavan(bilgi["taban_anahtar"], taban_defter, taban_beklenen, yaz=satirlar.append,
++                                       yamalar=bilgi["taban_yamalar"])
 +    durum = "✗" if (ihl or tavan_ihlal) else ("!" if olc else "✓")
 +    print("Ek denetim  %s  sahiplik atlama sınıfı (--atlama-yalniz, %.0f sn, alt çıkış %s): listeli %d (0) · "
 +          "listesiz %d (ÖLÇÜLEMEDİ) · yıkıcı %d (İHLAL) · taban-ölçülemedi %d (tavan %d)"
@@ -1231,7 +1271,7 @@ index 627c4be9..d666da5c 100644
  def main():
      ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
      ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
-@@ -7382,6 +7596,12 @@ def main():
+@@ -7382,6 +7634,12 @@ def main():
      if degismez_r_rapor(Y, ayrinti=args.ayrinti):
          ihlal = True
  
@@ -1244,7 +1284,7 @@ index 627c4be9..d666da5c 100644
      _kdsonuc = konum_denetimi(Y)
      kd, kd_pencere = (None, []) if _kdsonuc is None else _kdsonuc
      if kd is None:
-@@ -7443,8 +7663,7 @@ def main():
+@@ -7443,8 +7701,7 @@ def main():
      if OLCULEMEDI_KOVA:
          print("🔴 ÖLÇÜLEMEYEN SORU: %d — bu kapı o soruda TEMİZ DEĞİL"
                % len(OLCULEMEDI_KOVA))
@@ -1305,10 +1345,10 @@ index b7de0b8e..061fb11e 100644
              sina("R4 ESKİ araç aynı Z5 kuru koşusu → çıkış 0 (kusurun ölçümü: GÖRMÜYORDU)", kod4 == 0,
 diff --git a/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py b/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
 new file mode 100644
-index 00000000..cbde5a6d
+index 00000000..c6a2d5d7
 --- /dev/null
 +++ b/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
-@@ -0,0 +1,1124 @@
+@@ -0,0 +1,1162 @@
 +# -*- coding: utf-8 -*-
 +"""ARAC-SAHIPLIK-KAPSAM-SINAV-1010 — `_sahiplik_uygula.py` KAPSAM kusurları, İKİ YÖNDE.
 +
@@ -1365,8 +1405,11 @@ index 00000000..cbde5a6d
 +      toplam = grupların toplamı (sayan = basan)
 +  V2  gerçek `py arac/denetle.py` (± --ayrinti): çıkış 2 değişmez · varsayılanda `• sahiplik atlama <ad>` satırı YOK,
 +      grup satırları sayıyla · --ayrinti'de listesiz adların HEPSİ · toplam satırı = ÖLÇÜLEMEYEN SORU sayısı
-+  V3  taban-ölçülemedi tavanı (sahte alt süreç + geçici defter): eşit → 0 · ARTIŞ → İHLAL ADIYLA · NET TAKAS (sayı
-+      aynı, küme farklı) → İHLAL · azalma → TAVAN GEVŞEK, ihlal YOK · defter yok → ÖLÇÜLEMEDİ · defter ≠ sabit → ÖLÇÜLEMEDİ
++  V3  taban-ölçülemedi tavanı (sahte alt süreç + geçici defter; v3 anahtarı "DOSYA | ad"): eşit → 0 · GİREN → ÖLÇÜLEMEDİ
++      (2) ADIYLA, ihlal DEĞİL · NET TAKAS → ÖLÇÜLEMEDİ · azalma → TAVAN GEVŞEK · defter yok / defter ≠ sabit → ÖLÇÜLEMEDİ
++      (yamasız v2 kuralı aynı GİREN/NET TAKAS'ta İHLAL verirdi — bilgi satırı)
++  V4  TERS SINAV — anahtar yamalardan bağımsız: kayda yeni yama dosyası · yama dosyası yeniden adlandırma → v3 GİREN/ÇIKAN 0,
++      v2 kuralı SAHTE İHLAL · kayıt adı değişince v3'te GİREN + ÇIKAN görünür (beklenen)
 +KÖK (KAPSAM-1010 ek ①-④):
 +  R1  araç A deposunda, çalışma dizini B deposu, --yaz → A'ya yazar, B BAYT BAYT aynı (kök aracın yolundan)
 +  R2  araç bir git deposunun ALT dizininde (kök ≠ toplevel) → çıkış 3, hiçbir şey yazılmaz
@@ -2121,15 +2164,18 @@ index 00000000..cbde5a6d
 +    try:
 +        os.makedirs(os.path.join(tmp, "arac"))
 +
++        # (v3) kayıt = (GİRDİ dosyası, ad, yama listesi); anahtar "dosya | ad", yama yalnız görünür alan.
 +        def sahte(kayitlar):
-+            olc = [{"yama": y, "ad": a, "kova": "taban-olculemedi", "sebep": "[s] taban BEYANSIZ"} for a, y in kayitlar]
++            olc = [{"yama": y, "ad": a, "dosya": d_, "kova": "taban-olculemedi", "sebep": "[s] taban BEYANSIZ"}
++                   for d_, a, y in kayitlar]
 +            yaz(tmp, "arac/_sahiplik_uygula.py", "import sys, json\nJ = sys.argv[sys.argv.index('--json') + 1]\n"
 +                "json.dump({'listeli_atlama': [], 'listesiz_atlama': [], 'yikici': [], 'olculemedi': %r}, open(J, 'w'))\n"
 +                "raise SystemExit(2)\n" % olc)
 +
-+        def defter(adlar, ad="defter.json"):
++        def defter(kayitlar, ad="defter.json"):
 +            p_ = os.path.join(tmp, ad)
-+            io.open(p_, "w", encoding="utf-8").write(json.dumps({"kayitlar": adlar}, ensure_ascii=False))
++            io.open(p_, "w", encoding="utf-8").write(json.dumps(
++                {"kayitlar": ["%s | %s" % (d_, a) for d_, a, _ in kayitlar]}, ensure_ascii=False))
 +            return p_
 +
 +        def kos_d(kayitlar, df, bek):
@@ -2140,22 +2186,54 @@ index 00000000..cbde5a6d
 +                ihl = denetle.sahiplik_atlama_rapor(kok=tmp, taban_defter=df, taban_beklenen=bek)
 +            return ihl, buf.getvalue(), list(denetle.OLCULEMEDI_KOVA)
 +
-+        uc = [("A", "y1.js"), ("B", "y1.js"), ("C", "y2.js")]
-+        df = defter(["A [y1.js]", "B [y1.js]", "C [y2.js]"])
++        def giren(k):
++            return sorted(a[len("sahiplik taban GİREN "):] for a, _ in k if a.startswith("sahiplik taban GİREN "))
++
++        def v2_kurali(onceki, simdi):
++            """v2'nin kuralı yeniden kurularak: anahtar "ad [yama]", defter dışı ⇒ İHLAL. → (ihlal, giren, çıkan)"""
++            a_ = {"%s [%s]" % (a, y) for _, a, y in onceki}
++            b_ = {"%s [%s]" % (a, y) for _, a, y in simdi}
++            return bool(b_ - a_), len(b_ - a_), len(a_ - b_)
++
++        uc = [("g1.js", "A", "y1.js"), ("g1.js", "B", "y1.js,y2.js"), ("g2.js", "C", "y2.js")]
++        df = defter(uc)
 +        ihl, out, k = kos_d(uc, df, 3)
 +        sina("V3 eşit küme → ihlal YOK, kova boş", ihl is False and k == [] and "tavan 3" in out, out[-200:])
-+        ihl, out, k = kos_d(uc + [("D", "y3.js")], df, 3)
-+        sina("V3 ARTIŞ (4 > 3) → İHLAL, yeni kayıt ADIYLA", ihl is True and "+ D [y3.js]" in out and "ARTTI" in out)
-+        ihl, out, k = kos_d([("A", "y1.js"), ("B", "y1.js"), ("D", "y3.js")], df, 3)
-+        sina("V3 NET TAKAS (C gitti, D geldi; sayı 3) → İHLAL ADIYLA", ihl is True and "NET TAKAS" in out
-+             and "+ D [y3.js]" in out)
++        ihl, out, k = kos_d(uc + [("g3.js", "D", "y3.js")], df, 3)
++        sina("V3 GİREN (4 > 3) → ÖLÇÜLEMEDİ (2) ADIYLA, İHLAL DEĞİL · yamalar görünür",
++             ihl is False and giren(k) == ["g3.js | D"] and "(yamalar: y3.js)" in out and "DEFTER DIŞI" in out,
++             str(k))
++        ihl, out, k = kos_d(uc[:2] + [("g3.js", "D", "y3.js")], df, 3)
++        sina("V3 NET TAKAS (C çıktı, D girdi; sayı 3) → ÖLÇÜLEMEDİ ADIYLA, İHLAL DEĞİL",
++             ihl is False and giren(k) == ["g3.js | D"] and "NET TAKAS" in out and "g2.js | C" in out, str(k))
++        print("    (bilgi) yamasız (v2) kural aynı iki vakada: GİREN → %s · NET TAKAS → %s  (ihlal, giren, çıkan)"
++              % (v2_kurali(uc, uc + [("g3.js", "D", "y3.js")]), v2_kurali(uc, uc[:2] + [("g3.js", "D", "y3.js")])))
 +        ihl, out, k = kos_d(uc[:2], df, 3)
-+        sina("V3 azalma (2 < 3) → TAVAN GEVŞEK, ihlal YOK", ihl is False and "TAVAN GEVŞEK" in out and "C [y2.js]" in out)
++        sina("V3 azalma (2 < 3) → TAVAN GEVŞEK, ihlal YOK, kova boş",
++             ihl is False and k == [] and "TAVAN GEVŞEK" in out and "g2.js | C" in out)
 +        ihl, out, k = kos_d(uc, os.path.join(tmp, "yok.json"), 3)
 +        sina("V3 defter yok → ÖLÇÜLEMEDİ ADIYLA", ihl is False and [a for a, _ in k] == ["sahiplik taban defteri"])
 +        ihl, out, k = kos_d(uc, df, 4)
 +        sina("V3 defter (3) ≠ sabit (4) → ÖLÇÜLEMEDİ (tavan + sabit aynı commit)",
 +             ihl is False and [a for a, _ in k] == ["sahiplik taban defteri"] and "≠ sabit 4" in k[0][1])
++        # V4 — TERS SINAV: anahtar izlenen şeyden (yamalar) BAĞIMSIZ mı
++        vakalar = (
++            ("kayda YENİ yama dosyası eklendi (A: y1 → y1,y9)",
++             [("g1.js", "A", "y1.js,y9.js")] + uc[1:], False),
++            ("yama dosyası YENİDEN ADLANDIRILDI (y1.js → y1b.js)",
++             [("g1.js", "A", "y1b.js"), ("g1.js", "B", "y1b.js,y2.js"), uc[2]], False),
++            ("kayıt ADI değişti (C → C2)", uc[:2] + [("g2.js", "C2", "y2.js")], True),
++        )
++        for et, simdi, beklenen_kayma in vakalar:
++            ihl, out, k = kos_d(simdi, df, 3)
++            v2 = v2_kurali(uc, simdi)
++            if beklenen_kayma:
++                sina("V4 %s → v3 GİREN + ÇIKAN görünür (beklenen): giren 'g2.js | C2' ÖLÇÜLEMEDİ, çıkan 'g2.js | C'" % et,
++                     ihl is False and giren(k) == ["g2.js | C2"] and "g2.js | C" in out.split("defterden çıkacak")[-1],
++                     "v2: %s" % (v2,))
++            else:
++                sina("V4 %s → v3 GİREN/ÇIKAN 0 (kova boş, gevşeklik yok) · v2 kuralı SAHTE İHLAL %s" % (et, v2),
++                     ihl is False and k == [] and "TAVAN GEVŞEK" not in out and v2[0] is True, str(k))
 +        gercek_defter = json.load(io.open(os.path.join(KOK, "denetim", "SAHIPLIK-TABAN-OLCULEMEDI.json"), encoding="utf-8"))
 +        sina("V3 depodaki defter = sabit (%d)" % denetle.BEKLENEN_TABAN_OLCULEMEDI,
 +             len(set(gercek_defter["kayitlar"])) == denetle.BEKLENEN_TABAN_OLCULEMEDI)
@@ -2461,208 +2539,401 @@ index 00000000..259bd433
 +}
 diff --git a/denetim/SAHIPLIK-TABAN-OLCULEMEDI.json b/denetim/SAHIPLIK-TABAN-OLCULEMEDI.json
 new file mode 100644
-index 00000000..5f833bd9
+index 00000000..e269a9b1
 --- /dev/null
 +++ b/denetim/SAHIPLIK-TABAN-OLCULEMEDI.json
-@@ -0,0 +1,201 @@
+@@ -0,0 +1,394 @@
 +{
-+ "_aciklama": "SAHIPLIK-KAPSAM-1010 v2 ③ — _sahiplik_uygula --atlama-yalniz'ın TABAN-ÖLÇÜLEMEDİ kayıtları (taban beyansız yama; kayıt = 'ad [yama]'). Tavan: arac/denetle.py BEKLENEN_TABAN_OLCULEMEDI — ikisi AYNI commit'te değişir (§3.4②). Yalnız ARTIŞ ve defterde olmayan kayıt bloke eder; azalma 'TAVAN GEVŞEK'. ÖNERİ: işçi ölçtü, koordinatör yeniden ölçüp YAZAR (§3.4⓪④).",
++ "_aciklama": "SAHIPLIK-KAPSAM-1010 v3 ③ — _sahiplik_uygula --atlama-yalniz'ın TABAN-ÖLÇÜLEMEDİ kayıtları (taban beyansız yama). ANAHTAR = 'DOSYA | ad' (+ '#n' aynı dosyada mükerrer adda; bugün 0) — DOSYA = kaydın GİRDİ dosyası (yerlesimler*.js, girdi `_kaynak`), D5-GUN-1010 v3 5c defteriyle AYNI biçim. Yama listesi ANAHTARDA DEĞİL, `yamalar` alanında (görünür, kıyasa girmez) — yeni yama eklenmesi ya da yama dosyasının yeniden adlandırılması anahtarı KAYDIRMAZ. Tavan: arac/denetle.py BEKLENEN_TABAN_OLCULEMEDI — ikisi AYNI commit'te değişir (§3.4②). Defterde olmayan kayıt ÖLÇÜLEMEDİ (çıkış 2, ihlal DEĞİL); azalma 'TAVAN GEVŞEK'. Kayıt adı / girdi dosyası değişince GİREN + ÇIKAN (beklenen). ÖNERİ: işçi ölçtü, koordinatör yeniden ölçüp YAZAR (§3.4⓪④).",
 + "olcum": {
-+  "sha": "48df6bf1",
-+  "saat": "2026-10-10 06:26",
++  "sha": "0f893331",
++  "saat": "2026-10-10 07:08",
 +  "evren": "yer_yama*.js − yer_yama_1923_1945.js",
-+  "arac": "_sahiplik_uygula --atlama-yalniz"
++  "arac": "_sahiplik_uygula --atlama-yalniz",
++  "alt_cikis": 2
 + },
 + "kayitlar": [
-+  "Ahar (Karadağ) [yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js]",
-+  "Akkirman [yer_yama_balkan_1923.js,yer_yama_erken.js,yer_yama_vassal_kid_0906.js]",
-+  "Akkâ [yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js]",
-+  "Aksaray [yer_yama_tbmm_1920_0905.js]",
-+  "Akçakale [yer_yama_cukurova_isg_0907.js]",
-+  "Alanya [yer_yama_tbmm_1920_0905.js]",
-+  "Ammâre [yer_yama_manda_0906.js,yer_yama_ok109_fetret.js]",
-+  "Annaba [yer_yama_vassal_kid_0906.js]",
-+  "Arapkir [yer_yama_tbmm_1920_0905.js]",
-+  "Ardahan [yer_yama_tbmm_1920_0905.js]",
-+  "Astara [yer_yama_zend_kacar.js]",
-+  "Asyut [yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js]",
-+  "Ayasaranda (Sarandë) [yer_yama_vassal_kid_0906.js]",
-+  "Ayn el-Ğazâle (Bomba) [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Aynı Beydâ [yer_yama_vassal_kid_0906.js]",
-+  "Ağraham burnu [yer_yama_zend_kacar.js]",
-+  "Aşkale [yer_yama_tbmm_1920_0905.js]",
-+  "Bakü [yer_yama_zend_kacar.js]",
-+  "Batna [yer_yama_vassal_kid_0906.js]",
-+  "Behisni (Besni) [yer_yama_tbmm_1920_0905.js]",
-+  "Bender [yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js]",
-+  "Berc Bû Areric [yer_yama_vassal_kid_0906.js]",
-+  "Berde (Karabağ) [yer_yama_zend_kacar.js]",
-+  "Beyzâ (Kirene) [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Bicâye [yer_yama_vassal_kid_0906.js]",
-+  "Bingazi [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Birlad (Bârlad) [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Biskra [yer_yama_vassal_kid_0906.js]",
-+  "Bolayır [yer_yama_tbmm_1920_0905.js]",
-+  "Brassó (Braşov) [yer_yama_vassal_kid_0906.js]",
-+  "Budin [yer_yama_vassal_kid_0906.js]",
-+  "Buzău [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Bükreş [yer_yama_balkan_1923.js,yer_yama_gece_v3.js,yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Cicel [yer_yama_vassal_kid_0906.js]",
-+  "Culfa [yer_yama_ferhatpasa.js,yer_yama_zend_kacar.js]",
-+  "Darende [yer_yama_tbmm_1920_0905.js]",
-+  "Debrecen [yer_yama_vassal_kid_0906.js]",
-+  "Delvine [yer_yama_vassal_kid_0906.js]",
-+  "Demirköy [yer_yama_tbmm_1920_0905.js]",
-+  "Denizli [yer_yama_tbmm_1920_0905.js]",
-+  "Dereköy (Kırklareli) [yer_yama_tbmm_1920_0905.js]",
-+  "Derne [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Dihistan ovası (Meşhed-i Misriyân) [yer_yama_zend_kacar.js]",
-+  "Divriği [yer_yama_tbmm_1920_0905.js]",
-+  "Diyarbakır [yer_yama_tbmm_1920_0905.js]",
-+  "Doyran [yer_yama_vassal_kid_0906.js]",
-+  "Doğubayazıt [yer_yama_tbmm_1920_0905.js]",
-+  "Dubrovnik [yer_yama_vassal_kid_0906.js]",
-+  "Ecdâbiye [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "El-Arîş [yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js]",
-+  "Enez [yer_yama_tbmm_1920_0905.js]",
-+  "Eperjes (Prešov) [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js]",
-+  "Erbil [yer_yama_manda_0906.js,yer_yama_ok109_fetret.js]",
-+  "Erciş [yer_yama_tbmm_1920_0905.js]",
-+  "Erdebil [yer_yama_zend_kacar.js]",
-+  "Erdel (Kaloşvar) [yer_yama_vassal_kid_0906.js]",
-+  "Erdel Belgradı (Gyulafehérvár) [yer_yama_vassal_kid_0906.js]",
-+  "Ereş [yer_yama_zend_kacar.js]",
-+  "Eçmiyadzin [yer_yama_zend_kacar.js]",
-+  "Fülek (Fiľakovo) [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js]",
-+  "Gümrü (Aleksandropol) [yer_yama_zend_kacar.js]",
-+  "Gümülcine [yer_yama_balkan_trakya.js]",
-+  "Halhâl [yer_yama_zend_kacar.js]",
-+  "Hama [yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js]",
-+  "Hanşele (Khenchela) [yer_yama_vassal_kid_0906.js]",
-+  "Harput (Elazığ) [yer_yama_tbmm_1920_0905.js]",
-+  "Havsa [yer_yama_tbmm_1920_0905.js]",
-+  "Hayber [yer_yama_vassal_kid_0906.js]",
-+  "Hemedan [yer_yama_zend_kacar.js]",
-+  "Hotin [yer_yama_balkan_1923.js,yer_yama_erken.js,yer_yama_vassal_kid_0906.js]",
-+  "Hoy [yer_yama_iran.js,yer_yama_zend_kacar.js]",
-+  "Hürmüz Adası [yer_yama_zend_kacar.js]",
-+  "Hısn-ı Mansûr (Adıyaman) [yer_yama_tbmm_1920_0905.js]",
-+  "Kabala [yer_yama_zend_kacar.js]",
-+  "Kabartay (Nalçik) [yer_yama_ok106.js]",
-+  "Kahul (Cahul) [yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js]",
-+  "Kalas (Galatz) [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Kalme (Guelma) [yer_yama_vassal_kid_0906.js]",
-+  "Kalyari (Cagliari) [yer_yama_avrupa_1923.js]",
-+  "Karahisâr-ı Şarkî (Şebinkarahisar) [yer_yama_tbmm_1920_0905.js]",
-+  "Kassa (Košice) [yer_yama_vassal_kid_0906.js]",
-+  "Kelkit [yer_yama_sh107.js,yer_yama_tbmm_1920_0905.js]",
-+  "Keşan [yer_yama_tbmm_1920_0905.js]",
-+  "Kili [yer_yama_balkan_1923.js,yer_yama_erken.js,yer_yama_vassal_kid_0906.js]",
-+  "Kirman [yer_yama_zend_kacar.js]",
-+  "Kiş (Kish) [yer_yama_zend_kacar.js]",
-+  "Kişm (Qeshm) [yer_yama_zend_kacar.js]",
-+  "Kofçaz [yer_yama_tbmm_1920_0905.js]",
-+  "Kolo [yer_yama_vassal_kid_0906.js]",
-+  "Konstantin [yer_yama_vassal_kid_0906.js]",
-+  "Krayova (Craiova) [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Kuba [yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js]",
-+  "Kâhta [yer_yama_tbmm_1920_0905.js]",
-+  "Köprülü (Veles) [yer_yama_vassal_kid_0906.js]",
-+  "Kımpulung (Câmpulung) [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Kırklareli [yer_yama_tbmm_1920_0905.js]",
-+  "Lalapaşa [yer_yama_tbmm_1920_0905.js]",
-+  "Lenkeran [yer_yama_zend_kacar.js]",
-+  "Limni [yer_yama_egeadalari.js,yer_yama_isg_yunan_kaynak.js]",
-+  "Luristan [yer_yama_zend_kacar.js]",
-+  "Lüleburgaz [yer_yama_tbmm_1920_0905.js]",
-+  "Mahmudâbâd [yer_yama_zend_kacar.js]",
-+  "Malatya [yer_yama_tbmm_1920_0905.js]",
-+  "Maraş [yer_yama_cukurova_isg_0907.js,yer_yama_tbmm_1920_0905.js,yer_yama_uyg2.js,yer_yama_vassal_kid_0906.js]",
-+  "Maydos (Eceabat) [yer_yama_tbmm_1920_0905.js]",
-+  "Medine [yer_yama_vassal_kid_0906.js]",
-+  "Mekke [yer_yama_vassal_kid_0906.js]",
-+  "Merc [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Merend [yer_yama_zend_kacar.js]",
-+  "Mergen (Nenjiang) [yer_yama_doguasya.js]",
-+  "Meriç (İpsala kuzeyi) [yer_yama_tbmm_1920_0905.js]",
-+  "Mersin [yer_yama_cukurova_isg_0907.js]",
-+  "Merîvan [yer_yama_zend_kacar.js]",
-+  "Meşkinşehr (Hiyav) [yer_yama_zend_kacar.js]",
-+  "Miyâne [yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js]",
-+  "Munkács (Mukacheve) [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js]",
-+  "Mâku [yer_yama_zend_kacar.js]",
-+  "Mîle [yer_yama_vassal_kid_0906.js]",
-+  "Mîyandoab [yer_yama_iran.js,yer_yama_uyg2.js,yer_yama_zend_kacar.js]",
-+  "Nahçıvan [yer_yama_zend_kacar.js]",
-+  "Niğbolu [yer_yama_p0035.js]",
-+  "Ordubad [yer_yama_zend_kacar.js]",
-+  "Orhei [yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js]",
-+  "Palu [yer_yama_tbmm_1920_0905.js]",
-+  "Peşte [yer_yama_vassal_kid_0906.js]",
-+  "Piteşti [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Prevadi (Provadia) [yer_yama_vassal_kid_0906.js]",
-+  "Revan [yer_yama_zend_kacar.js]",
-+  "Reşt [yer_yama_zend_kacar.js]",
-+  "Reşîd (Rosetta) [yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js]",
-+  "Rimnik (Râmnicu Vâlcea) [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Rimnik-i Sârat (Râmnicu Sărat) [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Roman [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Rāzhān [yer_yama_zend_kacar.js]",
-+  "Sakkız [yer_yama_zend_kacar.js]",
-+  "Salyan [yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js]",
-+  "Sarâb [yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js]",
-+  "Sarıkamış [yer_yama_tbmm_1920_0905.js]",
-+  "Sayda [yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js]",
-+  "Segesvár (Sighişoara) [yer_yama_vassal_kid_0906.js]",
-+  "Selmâs (Dilman) [yer_yama_zend_kacar.js]",
-+  "Semadirek [yer_yama_egeadalari.js,yer_yama_isg_yunan_kaynak.js]",
-+  "Serez [yer_yama_dogumakedonya.js]",
-+  "Sero [yer_yama_zend_kacar.js]",
-+  "Setif [yer_yama_vassal_kid_0906.js]",
-+  "Sikikde [yer_yama_vassal_kid_0906.js]",
-+  "Slatina [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Sofya [yer_yama_kid20_0907.js,yer_yama_vassal_kid_0906.js]",
-+  "Soroka (Soroca) [yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js]",
-+  "Sultâniye [yer_yama_zend_kacar.js]",
-+  "Sûk Ahrâs [yer_yama_vassal_kid_0906.js]",
-+  "Tarki (Tarku) [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js,yer_yama_zend_kacar.js]",
-+  "Taşoz [yer_yama_egeadalari.js,yer_yama_isg_yunan_kaynak.js]",
-+  "Tebesse [yer_yama_vassal_kid_0906.js]",
-+  "Tobruk [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Tokaj [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js]",
-+  "Trablusşam [yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js]",
-+  "Tulmeyse [yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js]",
-+  "Turnu Severin [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Tâif [yer_yama_vassal_kid_0906.js]",
-+  "Tırgovişte [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Tırgu Jiu [yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Ungvár (Uzhhorod) [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js]",
-+  "Urmiye [yer_yama_ferhatpasa.js,yer_yama_zend_kacar.js]",
-+  "Ustrumca (Strumica) [yer_yama_vassal_kid_0906.js]",
-+  "Varad (Oradea) [yer_yama_vassal_kid_0906.js]",
-+  "Vize [yer_yama_tbmm_1920_0905.js]",
-+  "Yagodina (Jagodina) [yer_yama_kid20_0907.js,yer_yama_ok110.js,yer_yama_vassal_kid_0906.js]",
-+  "Yanova (Ineu) [yer_yama_vassal_kid_0906.js]",
-+  "Yanıkkale (Győr) [yer_yama_erken.js]",
-+  "Yaş [yer_yama_balkan_1923.js,yer_yama_gece_v3.js,yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "Yergöğü (Giurgiu) [yer_yama_p0035.js,yer_yama_romanya.js]",
-+  "Yezd [yer_yama_zend_kacar.js]",
-+  "Zagem (Kaheti) [yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js]",
-+  "Zagros içi [yer_yama_zend_kacar.js]",
-+  "Zencan [yer_yama_zend_kacar.js]",
-+  "Çemişgezek [yer_yama_tbmm_1920_0905.js]",
-+  "Çorlu [yer_yama_tbmm_1920_0905.js]",
-+  "İbrail [yer_yama_romanya.js,yer_yama_vassal_kid_0906.js]",
-+  "İskenderiye [yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js]",
-+  "İsmail [yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js]",
-+  "İğneada [yer_yama_tbmm_1920_0905.js]",
-+  "İştip (Štip) [yer_yama_vassal_kid_0906.js]",
-+  "Şamahı [yer_yama_zend_kacar.js]",
-+  "Şehirköy (Pirot) [yer_yama_ok105.js]",
-+  "Şerur (Sharur) [yer_yama_zend_kacar.js]",
-+  "Şeyh Salû-yi Ulyâ [yer_yama_zend_kacar.js]",
-+  "Şeyhrumi (Yücelen) [yer_yama_tbmm_1920_0905.js]",
-+  "Şiraz [yer_yama_zend_kacar.js]",
-+  "Şâbüran [yer_yama_zend_kacar.js]"
-+ ]
++  "yerlesimler.js | Ahar (Karadağ)",
++  "yerlesimler.js | Akkirman",
++  "yerlesimler.js | Akkâ",
++  "yerlesimler.js | Aksaray",
++  "yerlesimler.js | Alanya",
++  "yerlesimler.js | Ammâre",
++  "yerlesimler.js | Annaba",
++  "yerlesimler.js | Arapkir",
++  "yerlesimler.js | Ardahan",
++  "yerlesimler.js | Astara",
++  "yerlesimler.js | Asyut",
++  "yerlesimler.js | Ağraham burnu",
++  "yerlesimler.js | Bakü",
++  "yerlesimler.js | Behisni (Besni)",
++  "yerlesimler.js | Bender",
++  "yerlesimler.js | Berde (Karabağ)",
++  "yerlesimler.js | Bicâye",
++  "yerlesimler.js | Bingazi",
++  "yerlesimler.js | Birlad (Bârlad)",
++  "yerlesimler.js | Biskra",
++  "yerlesimler.js | Bolayır",
++  "yerlesimler.js | Budin",
++  "yerlesimler.js | Buzău",
++  "yerlesimler.js | Bükreş",
++  "yerlesimler.js | Culfa",
++  "yerlesimler.js | Denizli",
++  "yerlesimler.js | Derne",
++  "yerlesimler.js | Dihistan ovası (Meşhed-i Misriyân)",
++  "yerlesimler.js | Divriği",
++  "yerlesimler.js | Diyarbakır",
++  "yerlesimler.js | Dubrovnik",
++  "yerlesimler.js | Enez",
++  "yerlesimler.js | Erbil",
++  "yerlesimler.js | Erciş",
++  "yerlesimler.js | Erdebil",
++  "yerlesimler.js | Erdel (Kaloşvar)",
++  "yerlesimler.js | Ereş",
++  "yerlesimler.js | Gümülcine",
++  "yerlesimler.js | Halhâl",
++  "yerlesimler.js | Hama",
++  "yerlesimler.js | Harput (Elazığ)",
++  "yerlesimler.js | Hemedan",
++  "yerlesimler.js | Hotin",
++  "yerlesimler.js | Hoy",
++  "yerlesimler.js | Hürmüz Adası",
++  "yerlesimler.js | Hısn-ı Mansûr (Adıyaman)",
++  "yerlesimler.js | Kabala",
++  "yerlesimler.js | Kabartay (Nalçik)",
++  "yerlesimler.js | Kalas (Galatz)",
++  "yerlesimler.js | Kalyari (Cagliari)",
++  "yerlesimler.js | Keşan",
++  "yerlesimler.js | Kili",
++  "yerlesimler.js | Kirman",
++  "yerlesimler.js | Kiş (Kish)",
++  "yerlesimler.js | Kişm (Qeshm)",
++  "yerlesimler.js | Konstantin",
++  "yerlesimler.js | Krayova (Craiova)",
++  "yerlesimler.js | Kuba",
++  "yerlesimler.js | Kâhta",
++  "yerlesimler.js | Kımpulung (Câmpulung)",
++  "yerlesimler.js | Kırklareli",
++  "yerlesimler.js | Lenkeran",
++  "yerlesimler.js | Limni",
++  "yerlesimler.js | Luristan",
++  "yerlesimler.js | Lüleburgaz",
++  "yerlesimler.js | Mahmudâbâd",
++  "yerlesimler.js | Malatya",
++  "yerlesimler.js | Maraş",
++  "yerlesimler.js | Maydos (Eceabat)",
++  "yerlesimler.js | Medine",
++  "yerlesimler.js | Mekke",
++  "yerlesimler.js | Merend",
++  "yerlesimler.js | Merîvan",
++  "yerlesimler.js | Miyâne",
++  "yerlesimler.js | Mâku",
++  "yerlesimler.js | Mîyandoab",
++  "yerlesimler.js | Nahçıvan",
++  "yerlesimler.js | Niğbolu",
++  "yerlesimler.js | Ordubad",
++  "yerlesimler.js | Orhei",
++  "yerlesimler.js | Palu",
++  "yerlesimler.js | Peşte",
++  "yerlesimler.js | Piteşti",
++  "yerlesimler.js | Revan",
++  "yerlesimler.js | Reşt",
++  "yerlesimler.js | Reşîd (Rosetta)",
++  "yerlesimler.js | Rimnik (Râmnicu Vâlcea)",
++  "yerlesimler.js | Rimnik-i Sârat (Râmnicu Sărat)",
++  "yerlesimler.js | Roman",
++  "yerlesimler.js | Sakkız",
++  "yerlesimler.js | Salyan",
++  "yerlesimler.js | Sarâb",
++  "yerlesimler.js | Sayda",
++  "yerlesimler.js | Selmâs (Dilman)",
++  "yerlesimler.js | Semadirek",
++  "yerlesimler.js | Serez",
++  "yerlesimler.js | Setif",
++  "yerlesimler.js | Slatina",
++  "yerlesimler.js | Sofya",
++  "yerlesimler.js | Soroka (Soroca)",
++  "yerlesimler.js | Sultâniye",
++  "yerlesimler.js | Tarki (Tarku)",
++  "yerlesimler.js | Taşoz",
++  "yerlesimler.js | Trablusşam",
++  "yerlesimler.js | Turnu Severin",
++  "yerlesimler.js | Tâif",
++  "yerlesimler.js | Tırgovişte",
++  "yerlesimler.js | Tırgu Jiu",
++  "yerlesimler.js | Urmiye",
++  "yerlesimler.js | Varad (Oradea)",
++  "yerlesimler.js | Yanova (Ineu)",
++  "yerlesimler.js | Yanıkkale (Győr)",
++  "yerlesimler.js | Yaş",
++  "yerlesimler.js | Yergöğü (Giurgiu)",
++  "yerlesimler.js | Yezd",
++  "yerlesimler.js | Zagem (Kaheti)",
++  "yerlesimler.js | Zagros içi",
++  "yerlesimler.js | Zencan",
++  "yerlesimler.js | Çemişgezek",
++  "yerlesimler.js | Çorlu",
++  "yerlesimler.js | İbrail",
++  "yerlesimler.js | İskenderiye",
++  "yerlesimler.js | İsmail",
++  "yerlesimler.js | Şamahı",
++  "yerlesimler.js | Şiraz",
++  "yerlesimler.js | Şâbüran",
++  "yerlesimler_afrika.js | Batna",
++  "yerlesimler_afrika.js | Berc Bû Areric",
++  "yerlesimler_afrika.js | Beyzâ (Kirene)",
++  "yerlesimler_afrika.js | Cicel",
++  "yerlesimler_afrika.js | Ecdâbiye",
++  "yerlesimler_afrika.js | El-Arîş",
++  "yerlesimler_afrika.js | Kalme (Guelma)",
++  "yerlesimler_afrika.js | Kolo",
++  "yerlesimler_afrika.js | Merc",
++  "yerlesimler_afrika.js | Mîle",
++  "yerlesimler_afrika.js | Sikikde",
++  "yerlesimler_afrika.js | Sûk Ahrâs",
++  "yerlesimler_afrika.js | Tebesse",
++  "yerlesimler_afrika.js | Tobruk",
++  "yerlesimler_ek.js | Eperjes (Prešov)",
++  "yerlesimler_ek.js | Kassa (Košice)",
++  "yerlesimler_ek.js | Tokaj",
++  "yerlesimler_ek24.js | Demirköy",
++  "yerlesimler_ek24.js | Dereköy (Kırklareli)",
++  "yerlesimler_ek24.js | Havsa",
++  "yerlesimler_ek24.js | Kofçaz",
++  "yerlesimler_ek24.js | Lalapaşa",
++  "yerlesimler_ek24.js | Meriç (İpsala kuzeyi)",
++  "yerlesimler_ek24.js | İğneada",
++  "yerlesimler_ek25.js | Akçakale",
++  "yerlesimler_ek26.js | Doğubayazıt",
++  "yerlesimler_ek26.js | Eçmiyadzin",
++  "yerlesimler_ek26.js | Gümrü (Aleksandropol)",
++  "yerlesimler_ek27.js | Mersin",
++  "yerlesimler_ek28.js | Sarıkamış",
++  "yerlesimler_ek29.js | Aşkale",
++  "yerlesimler_ek29.js | Brassó (Braşov)",
++  "yerlesimler_ek29.js | Erdel Belgradı (Gyulafehérvár)",
++  "yerlesimler_ek29.js | Karahisâr-ı Şarkî (Şebinkarahisar)",
++  "yerlesimler_ek29.js | Kelkit",
++  "yerlesimler_ek29.js | Prevadi (Provadia)",
++  "yerlesimler_ek29.js | Segesvár (Sighişoara)",
++  "yerlesimler_ek29.js | Vize",
++  "yerlesimler_ek29.js | Yagodina (Jagodina)",
++  "yerlesimler_ek_macaristan.js | Fülek (Fiľakovo)",
++  "yerlesimler_ek_macaristan.js | Munkács (Mukacheve)",
++  "yerlesimler_ek_macaristan.js | Ungvár (Uzhhorod)",
++  "yerlesimler_epir.js | Ayasaranda (Sarandë)",
++  "yerlesimler_epir.js | Delvine",
++  "yerlesimler_h2_kuzeyafrika.js | Ayn el-Ğazâle (Bomba)",
++  "yerlesimler_h2_kuzeyafrika.js | Aynı Beydâ",
++  "yerlesimler_h2_kuzeyafrika.js | Hanşele (Khenchela)",
++  "yerlesimler_h2_kuzeyafrika.js | Tulmeyse",
++  "yerlesimler_kalite4.js | Meşkinşehr (Hiyav)",
++  "yerlesimler_kalite4.js | Şerur (Sharur)",
++  "yerlesimler_kdmacar.js | Debrecen",
++  "yerlesimler_nokta_asya_0917.js | Mergen (Nenjiang)",
++  "yerlesimler_ok101.js | Hayber",
++  "yerlesimler_ok107.js | Doyran",
++  "yerlesimler_ok107.js | Köprülü (Veles)",
++  "yerlesimler_ok107.js | Ustrumca (Strumica)",
++  "yerlesimler_ok107.js | İştip (Štip)",
++  "yerlesimler_ok110.js | Darende",
++  "yerlesimler_p0037.js | Kahul (Cahul)",
++  "yerlesimler_serhat.js | Şehirköy (Pirot)",
++  "yerlesimler_sinir_dogu.js | Rāzhān",
++  "yerlesimler_sinir_dogu.js | Sero",
++  "yerlesimler_sinir_dogu.js | Şeyh Salû-yi Ulyâ",
++  "yerlesimler_sinir_dogu.js | Şeyhrumi (Yücelen)"
++ ],
++ "yamalar": {
++  "yerlesimler.js | Ahar (Karadağ)": "yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Akkirman": "yer_yama_balkan_1923.js,yer_yama_erken.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Akkâ": "yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Aksaray": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Alanya": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Ammâre": "yer_yama_manda_0906.js,yer_yama_ok109_fetret.js",
++  "yerlesimler.js | Annaba": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Arapkir": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Ardahan": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Astara": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Asyut": "yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Ağraham burnu": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Bakü": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Behisni (Besni)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Bender": "yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Berde (Karabağ)": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Bicâye": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Bingazi": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Birlad (Bârlad)": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Biskra": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Bolayır": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Budin": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Buzău": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Bükreş": "yer_yama_balkan_1923.js,yer_yama_gece_v3.js,yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Culfa": "yer_yama_ferhatpasa.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Denizli": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Derne": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Dihistan ovası (Meşhed-i Misriyân)": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Divriği": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Diyarbakır": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Dubrovnik": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Enez": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Erbil": "yer_yama_manda_0906.js,yer_yama_ok109_fetret.js",
++  "yerlesimler.js | Erciş": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Erdebil": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Erdel (Kaloşvar)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Ereş": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Gümülcine": "yer_yama_balkan_trakya.js",
++  "yerlesimler.js | Halhâl": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Hama": "yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Harput (Elazığ)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Hemedan": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Hotin": "yer_yama_balkan_1923.js,yer_yama_erken.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Hoy": "yer_yama_iran.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Hürmüz Adası": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Hısn-ı Mansûr (Adıyaman)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Kabala": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Kabartay (Nalçik)": "yer_yama_ok106.js",
++  "yerlesimler.js | Kalas (Galatz)": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Kalyari (Cagliari)": "yer_yama_avrupa_1923.js",
++  "yerlesimler.js | Keşan": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Kili": "yer_yama_balkan_1923.js,yer_yama_erken.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Kirman": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Kiş (Kish)": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Kişm (Qeshm)": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Konstantin": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Krayova (Craiova)": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Kuba": "yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Kâhta": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Kımpulung (Câmpulung)": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Kırklareli": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Lenkeran": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Limni": "yer_yama_egeadalari.js,yer_yama_isg_yunan_kaynak.js",
++  "yerlesimler.js | Luristan": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Lüleburgaz": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Mahmudâbâd": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Malatya": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Maraş": "yer_yama_cukurova_isg_0907.js,yer_yama_tbmm_1920_0905.js,yer_yama_uyg2.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Maydos (Eceabat)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Medine": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Mekke": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Merend": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Merîvan": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Miyâne": "yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Mâku": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Mîyandoab": "yer_yama_iran.js,yer_yama_uyg2.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Nahçıvan": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Niğbolu": "yer_yama_p0035.js",
++  "yerlesimler.js | Ordubad": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Orhei": "yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Palu": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Peşte": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Piteşti": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Revan": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Reşt": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Reşîd (Rosetta)": "yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Rimnik (Râmnicu Vâlcea)": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Rimnik-i Sârat (Râmnicu Sărat)": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Roman": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Sakkız": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Salyan": "yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Sarâb": "yer_yama_kademe_m_0905.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Sayda": "yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Selmâs (Dilman)": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Semadirek": "yer_yama_egeadalari.js,yer_yama_isg_yunan_kaynak.js",
++  "yerlesimler.js | Serez": "yer_yama_dogumakedonya.js",
++  "yerlesimler.js | Setif": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Slatina": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Sofya": "yer_yama_kid20_0907.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Soroka (Soroca)": "yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Sultâniye": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Tarki (Tarku)": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Taşoz": "yer_yama_egeadalari.js,yer_yama_isg_yunan_kaynak.js",
++  "yerlesimler.js | Trablusşam": "yer_yama_manda_0906.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Turnu Severin": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Tâif": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Tırgovişte": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Tırgu Jiu": "yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Urmiye": "yer_yama_ferhatpasa.js,yer_yama_zend_kacar.js",
++  "yerlesimler.js | Varad (Oradea)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Yanova (Ineu)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Yanıkkale (Győr)": "yer_yama_erken.js",
++  "yerlesimler.js | Yaş": "yer_yama_balkan_1923.js,yer_yama_gece_v3.js,yer_yama_kid20_0907.js,yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Yergöğü (Giurgiu)": "yer_yama_p0035.js,yer_yama_romanya.js",
++  "yerlesimler.js | Yezd": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Zagem (Kaheti)": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Zagros içi": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Zencan": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Çemişgezek": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | Çorlu": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler.js | İbrail": "yer_yama_romanya.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | İskenderiye": "yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | İsmail": "yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler.js | Şamahı": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Şiraz": "yer_yama_zend_kacar.js",
++  "yerlesimler.js | Şâbüran": "yer_yama_zend_kacar.js",
++  "yerlesimler_afrika.js | Batna": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Berc Bû Areric": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Beyzâ (Kirene)": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Cicel": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Ecdâbiye": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | El-Arîş": "yer_yama_misir_himaye.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Kalme (Guelma)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Kolo": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Merc": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Mîle": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Sikikde": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Sûk Ahrâs": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Tebesse": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_afrika.js | Tobruk": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek.js | Eperjes (Prešov)": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek.js | Kassa (Košice)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek.js | Tokaj": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek24.js | Demirköy": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek24.js | Dereköy (Kırklareli)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek24.js | Havsa": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek24.js | Kofçaz": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek24.js | Lalapaşa": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek24.js | Meriç (İpsala kuzeyi)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek24.js | İğneada": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek25.js | Akçakale": "yer_yama_cukurova_isg_0907.js",
++  "yerlesimler_ek26.js | Doğubayazıt": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek26.js | Eçmiyadzin": "yer_yama_zend_kacar.js",
++  "yerlesimler_ek26.js | Gümrü (Aleksandropol)": "yer_yama_zend_kacar.js",
++  "yerlesimler_ek27.js | Mersin": "yer_yama_cukurova_isg_0907.js",
++  "yerlesimler_ek28.js | Sarıkamış": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek29.js | Aşkale": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek29.js | Brassó (Braşov)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek29.js | Erdel Belgradı (Gyulafehérvár)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek29.js | Karahisâr-ı Şarkî (Şebinkarahisar)": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek29.js | Kelkit": "yer_yama_sh107.js,yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek29.js | Prevadi (Provadia)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek29.js | Segesvár (Sighişoara)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek29.js | Vize": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_ek29.js | Yagodina (Jagodina)": "yer_yama_kid20_0907.js,yer_yama_ok110.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek_macaristan.js | Fülek (Fiľakovo)": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek_macaristan.js | Munkács (Mukacheve)": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ek_macaristan.js | Ungvár (Uzhhorod)": "yer_yama_kademe_m_0905.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_epir.js | Ayasaranda (Sarandë)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_epir.js | Delvine": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_h2_kuzeyafrika.js | Ayn el-Ğazâle (Bomba)": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_h2_kuzeyafrika.js | Aynı Beydâ": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_h2_kuzeyafrika.js | Hanşele (Khenchela)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_h2_kuzeyafrika.js | Tulmeyse": "yer_yama_barka_dogu8.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_kalite4.js | Meşkinşehr (Hiyav)": "yer_yama_zend_kacar.js",
++  "yerlesimler_kalite4.js | Şerur (Sharur)": "yer_yama_zend_kacar.js",
++  "yerlesimler_kdmacar.js | Debrecen": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_nokta_asya_0917.js | Mergen (Nenjiang)": "yer_yama_doguasya.js",
++  "yerlesimler_ok101.js | Hayber": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ok107.js | Doyran": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ok107.js | Köprülü (Veles)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ok107.js | Ustrumca (Strumica)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ok107.js | İştip (Štip)": "yer_yama_vassal_kid_0906.js",
++  "yerlesimler_ok110.js | Darende": "yer_yama_tbmm_1920_0905.js",
++  "yerlesimler_p0037.js | Kahul (Cahul)": "yer_yama_balkan_1923.js,yer_yama_vassal_kid_0906.js",
++  "yerlesimler_serhat.js | Şehirköy (Pirot)": "yer_yama_ok105.js",
++  "yerlesimler_sinir_dogu.js | Rāzhān": "yer_yama_zend_kacar.js",
++  "yerlesimler_sinir_dogu.js | Sero": "yer_yama_zend_kacar.js",
++  "yerlesimler_sinir_dogu.js | Şeyh Salû-yi Ulyâ": "yer_yama_zend_kacar.js",
++  "yerlesimler_sinir_dogu.js | Şeyhrumi (Yücelen)": "yer_yama_tbmm_1920_0905.js"
++ }
 +}

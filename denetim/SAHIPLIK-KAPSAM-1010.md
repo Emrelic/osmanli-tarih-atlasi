@@ -1,7 +1,7 @@
-# SAHIPLIK-KAPSAM-1010 (v2) — `_sahiplik_uygula.py`: kapsam kusurları + hüküm listesi + hızlı kip + denetle köprüsü
+# SAHIPLIK-KAPSAM-1010 (v3) — `_sahiplik_uygula.py`: kapsam kusurları + hüküm listesi + hızlı kip + denetle köprüsü
 
 UMIT yazıcı · 10 Ekim 2026 · teslim DİFF (commit/push YOK, stash YOK, C:\atlas'a yazılmadı) · `--check` tabanı **origin/main `d50ddbed`** (sınavlar `7a613d9e`/`7b542dc4` üzerinde; aradaki commitler `data/` ve bu diff'in dosyalarına DOKUNMUYOR — ölçüldü).
-Diff: **`denetim/SAHIPLIK-KAPSAM-1010-v2.diff`** (v1'in YERİNE; v1 diskten kaldırıldı; 8 dosya; v2 farkı §10) — LF, BOM yok, CR 0; temiz origin/main ağacında `git apply --check` ✓;
+Diff: **`denetim/SAHIPLIK-KAPSAM-1010-v3.diff`** (v2'nin YERİNE; v1 ve v2 diskten kaldırıldı, tarihte duruyor; 8 dosya; v2 farkı §10, v3 farkı §11) — LF, BOM yok, CR 0; temiz origin/main ağacında `git apply --check` ✓;
 `YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff` ile **iki sırada** da `--check` ✓ (KAPSAM→SESSIZ ✓ · SESSIZ→KAPSAM ✓; ortak
 dosya `arac/denetle.py`, hunk'lar ayrı: SESSIZ-7 `:1396`, bu diff `:6526+` ve `main()`).
 Tuz dosyalarına (uret_petek · renkler · girdi · motor_onbellek · gun · yukseklik) DOKUNULMADI; `girdi._cevir` yalnız İTHAL edildi.
@@ -287,3 +287,55 @@ DEĞİŞMEDİ; yalnız `arac/denetle.py`, sınav ve yeni defter.
 - **Bulamadım:** "142 kalem"in kaynağı (bugünkü ölçüm 195 sahiplik kalemi).
 - **İstiyorum:** ① `BEKLENEN_TABAN_OLCULEMEDI = 190` önerisini yeniden ölçüp yaz (defter de aynı ölçümle, aynı commit).
   ② v4 inişinde `SAHIPLIK_HIZLI_HARIC` kaldırılırken defter + sabit o commit'te yeniden üretilsin.
+
+## 11. v3 — taban defterinin anahtarı + defter dışı kayıt ÖLÇÜLEMEDİ (`SAHIPLIK-KAPSAM-1010-v3.diff`)
+Ölçüm tabanı: origin/main `0f893331` üzerine v2 uygulandı, v3 eklendi. `--check` origin/main **`79ff492a`**'da ✓.
+
+### 11.1 Anahtar = "DOSYA | ad" (D5-GUN-1010 v3 5c defteriyle AYNI biçim)
+- **Kusur (D5-GUN-1010.md ⑥, `65554e0a`):** v2 anahtarı `ad [yama]`; yama = o adı taşıyan BÜTÜN `yer_yama*` dosyalarının
+  listesi ⇒ kayda dokunan yeni bir yama ya da yama dosyası ADI değişince anahtar kayıyor, aynı kayıt GİREN + ÇIKAN
+  görünüyordu; GİREN sahte ihlal (1) üretiyordu. Risk evreni ölçüldü: 190 kaydın **66'sı** zaten çok yamalı (**28** dosya).
+- **Çare:** anahtar `"<girdi dosyası> | <ad>"`, aynı dosyada mükerrer adda `#n` (bugün 0). **DOSYA = kaydın GİRDİ dosyası**
+  (`yerlesimler*.js`, girdi'nin `_kaynak`ı), yama değil. Gerekçe: izlenen soru "bu KAYDIN tabanı ölçülemiyor mu"dur; kayıt
+  girdi dosyasında yaşar ve oradan taşınmaz, yama dosyaları ise kayıt üzerinde çoğalır, birleşir, yeniden adlanır, arşive
+  taşınır — tam da izlenen değişkenin kendisi. Kararlı id alanı yok (D5 ölçtü); girdi dosyası + ad kararlı (4300'de ad
+  mükerreri 0). Yama listesi anahtardan çıktı: JSON öğesinde `yama` (görünür), defterde ayrı `yamalar` haritası,
+  denetle'de GİREN satırında `(yamalar: …)`. `_sahiplik_uygula` JSON'u `taban-olculemedi` öğesine `dosya` (girdi dosyası)
+  ekledi; `dosya` yoksa denetle JSON'u BOZUK sayar (ÖLÇÜLEMEDİ, asla 0).
+- **Defter + sabit yeniden ölçüldü (aynı koşu):** `0f893331`, 10 Ekim 2026 07:08 — **190 kayıt**, v2'nin 190'ıyla ad
+  kümesi BİREBİR (−0 / +0); çok yamalı 66; `#n` 0. **Öneri: `BEKLENEN_TABAN_OLCULEMEDI = 190`** (koordinatör yeniden ölçüp yazar).
+
+### 11.2 🔴 KARAR — defter dışı (GİREN) kayıt: İHLAL (1) değil ÖLÇÜLEMEDİ (2)
+- **Soru:** v2'nin 1'i bilinçli bir tasarım mıydı ("tabanı ölçülemeyen yama uygulanmamalı")?
+- **Ölçtüm:** `SAHIPLIK-KAPSAM-1010.md` v2 §10 (`e1dda8d4`, satır ~265) yalnız kuralı söylüyor ("defterde OLMAYAN kayıt belirdi
+  ⇒ İHLAL"), gerekçe YOK — koordinatörün v2 ③ cümlesindeki "yalnız ARTIŞ bloke eder"i ben İHLAL diye okudum. `SAHIPLIK-
+  BAYAT-TABAN-1009.md` (satır 12, 16, 24, 33, 53; `3429ead9` ile inen tasarım) beyansız tabanı baştan **ÖLÇÜLEMEDİ** sayar
+  (araçta çıkış 3, "temiz DEĞİL"); "uygulanmamalı" kısmı zaten ARAÇTA yaşıyor (3 ⇒ hiçbir dosya yazılmaz) — denetle'nin
+  bunu ihlale çevirmesi için yazılı bir gerekçe yok.
+- **⇒ YOK ⇒ 2'ye çevrildi.** GİREN kayıt (NET TAKAS dahil) `OLCULEMEDI_KOVA`ya `sahiplik taban GİREN <dosya | ad>` adıyla
+  düşer, gruplu basımda `sahiplik taban: defter dışı` grubu; ihlal üretmez. ÇIKAN kayıt `TAVAN GEVŞEK` satırında, GİREN
+  varken de görünür (ad değişimi = GİREN + ÇIKAN). `sahiplik_taban_tavan` artık her zaman False döner (imza korundu).
+- Sınav: GİREN ve NET TAKAS kolları 2 (ÖLÇÜLEMEDİ, adıyla) bekliyor; aynı iki vakada yamasız v2 kuralı (sınav içinde yeniden
+  kurularak) **İHLAL** verirdi: GİREN → (ihlal True, giren 1, çıkan 0) · NET TAKAS → (True, 1, 1).
+
+### 11.3 Sınav (v3) — `--gercek-yok` **93/93**
+- V3: eşit → 0, kova boş · GİREN → ÖLÇÜLEMEDİ adıyla + `(yamalar: …)` · NET TAKAS → ÖLÇÜLEMEDİ · azalma → GEVŞEK · defter yok
+  / defter ≠ sabit → ÖLÇÜLEMEDİ · depodaki defter = sabit 190.
+- **V4 ters sınav:** kayda YENİ yama dosyası → v3 GİREN/ÇIKAN **0** · v2 kuralı **sahte İHLAL** (giren 1, çıkan 1) ·
+  yama dosyası YENİDEN ADLANDIRMA → v3 **0** · v2 **sahte İHLAL** (2, 2) · kayıt ADI değişimi → v3 GİREN + ÇIKAN görünür (beklenen).
+- Gerileme: `ARAC-SAHIPLIK-KAPI-SINAV-1006` **17/17** · `ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009 --gercek-yok` **24/24**.
+
+### 11.4 Uygulama sırası ve birlikte uygulanabilirlik (origin/main `79ff492a`)
+| zincir | `--check` / sınav |
+|---|---|
+| KAPSAM-v3 | ✓ |
+| KAPSAM-v3 → `SAHIPLIK-KUR-KAPI-1010.diff` | ✓ (KUR-v2 GEREKMEDİ) |
+| KAPSAM-v3 → KUR → `D5-GUN-1010-v3.diff` | ✓ |
+| … → `YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff` | ✓ |
+| üçü uygulanmış ağaçta sınavlar | KAPSAM `--gercek-yok` **93/93** · KUR (gerçek kol dahil) **18/18** · D5-GUN **23/23** |
+**Sıra: KAPSAM-v3 → KUR-KAPI → D5-GUN-v3** (SESSIZ-7 v2 herhangi bir noktada).
+
+### 11.5 Yeni kural uygulandı
+Ara dosyalar yalnız scratchpad'de ve kendi worktree'lerimde (`C:\atlas-umit-v3`, `-chk`); `denetim/`e yalnız teslimde yazıldı
+(v3 diff + bu md güncellemesi). v2 diff silindi.
+YENİ DOSYALAR (bu turda C:\atlas-umit\denetim'e): denetim/SAHIPLIK-KAPSAM-1010-v3.diff
