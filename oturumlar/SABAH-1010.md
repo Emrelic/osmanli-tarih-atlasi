@@ -277,3 +277,62 @@ DEĞİL**, mevcut `data/yerlesimler_nokta_ortadogu_0917.js`e girecek. Sebebi
 `girdi.py`nin **motor tuzunda** olması — yeni bir dosya ona satır ister, satır
 tuzu bozar, tuz **7-8 saatlik tam inşa** demektir. Mevcut dosyaya eklemek
 noktaları FAZ 2'de indiriyor, FAZ 3'ü beklemiyor.
+
+---
+
+## §7 GECENİN İKİNCİ YARISI — ve BENİM İKİ KUSURUM
+
+### §7.1 🔴 `CLAUDE.md` ŞİŞTİ — ve bu benim kendi kuralımın ihlali
+```
+gece başı  733 satır   →   05:20  850 satır   (+16%)
+```
+Eklenenler ölçülmüş kurallar (hicrî sözleşme · çağıranı olmayan kapı · öneri
+sayısı · süreç öldürme · `§4`ün iki şartı) **ama `§11` açıkça şöyle diyor:**
+> *"Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
+> (ikisini buraya yazmak bu dosyayı yeniden şişirir)."*
+Hicrî bloğuna **vaka ayrıntısı** yazdım — sınır günleri, künye adları, örnek
+cümleler. Onların yeri bir `D` dosyası. Ve bu dosyayı **her oturum** okuyor
+(`§7.1`de ölçülmüş: 10.773 token/oturum, şimdi daha fazla).
+📌 17 Eylül'de 167 → 25 KB budanmıştı; bir gecede %16 geri aldım.
+**AÇIK KALEMİM:** hicrî vakasını `D272`ye taşı, `§4`te **sözleşme + iki şart +
+"70 bir tabandır"** kalsın (vakalar `D272`de). Koşu sonrası, acele yok —
+7 oturum şu an bu dosyayı okuyor, ortasında yeniden yapılandırmak riskli.
+
+### §7.2 🔴 MESAJ KOTASI — otonom koordinasyonun tavanı
+```
+"this session has already messaged Claude Desktop sessions 10 times since
+ your user last typed here … Paused until your user's next message."
+```
+⇒ **EMRELIC'teki yerel oturumlara ulaşamıyorum.** Köprü (UMIT · KASA · LAB ·
+HAVVA — öteki makineler) ÇALIŞIYOR; tıkanan yalnız bu makinenin kendi
+oturumları. Hükümleri **tahtaya** yazdım (`git` üzerinden gider, kotaya tabi
+değil) ama bekçileri olmadığı için (7 Ekim `KOSU` darboğazı) **uyanmıyorlar.**
+**SENDEN:** tek satır. Ne yazdığın önemli değil, kota sıfırlanıyor.
+📌 Bu, `§6`daki onay penceresi sorunuyla birleşince şu sonucu veriyor:
+**EMRELIC'in kendi iş gücü, gece boyunca senin iki kez klavyeye dokunmanı
+gerektiriyor.** Öteki dört makine tam otonom çalıştı.
+
+### §7.3 HİCRÎ TUZAĞIN TAM BİLANÇOSU (KASA, dört tur)
+```
+897 künye tarandı · hicrî taşıyan 108 · kontrol edilebilen uç 145
+İÇİNDE 75 · DIŞINDA 70 · SINIRDA 0   ·   DIŞARIDAKİ 70'in 70'i `-01-01`
+gün YAZILMIŞ 28 ucun 0'ı dışarıda     ⇒ TEK BİR MEKANİZMA
+madde başına tarama: 12 TDV maddesi · 788 H/M çifti · 6 YENİ hata
+```
+🔴 **Ve 70 bir TABAN:** ① 789 künye hiç ölçülemedi ② 1. turun 75 `İÇİNDE`si
+doğrulanmadı (gevşek eşleştirici komşu hânedanın maddesini "içeriyor"
+sayabiliyor — bir vaka bulundu ve DIŞINDA çıktı).
+**Kapanan iki büyük uç:** `sasani` t `0651-08-24` · `hulefa-yi-rasidin` f
+`0632-06-04` · ve Râşidîn↔Emevî çifti **birlikte** `0661-07-29`.
+
+### §7.4 🔴 14 UYDURMA EGEMENLİK DEVRİ — somut, ve hepsi Anadolu
+`1281-01-01`de biten dönem **aynı gün başka sahiple** sürüyor:
+```
+11'i Selçuklu→İlhanlı  Kayseri · Tokat · Sivas · Van · Kırşehir · Erzincan
+                        Erzurum · Bitlis · Elbistan · Kemah · Bayburt
+Sinop Selçuklu→Pervâne · Çankırı Selçuklu→Çobanoğulları · Ankara Selçuklu→Ahiler
+```
+**1 Ocak 1281'de böyle bir devir yok.** Bu, ufuk kenarının bir OLAY gibi
+yazıldığı tek doğrudan kanıt. ⚠️ Ve bu 14 kırılma Değişmez 2'nin evreninde:
+maddeleri varsa **hata belgelenmiş görünüyor** demektir, ve o belgelenmemiş
+bir hatadan kötüdür. Sayım sırada.

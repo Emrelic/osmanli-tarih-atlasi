@@ -244,8 +244,9 @@ hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
   🔴 **VE BU BİR TAHMİN DEĞİL, 145 UÇTA ÖLÇÜLDÜ** (897 künye tarandı; hicrî
   taşıyan 108 · taşımayan 789 · kaynak alanı BOŞ 0):
 ```
-  İÇİNDE 75  ·  DIŞINDA 70  ·  SINIRDA 0
-  DIŞARIDA kalan 70'in  70'i  →  `YYYY-01-01`
+  İÇİNDE 72  ·  DIŞINDA 72  ·  ÖLÇÜLEMEDİ 1   (1. tur, 145 uç)
+  + madde başına tarama 6 yeni  ⇒  GECE TOPLAMI 78 dış uç
+  DIŞARIDAKİ 78'in  78'i  →  `YYYY-01-01`
   gün YAZILMIŞ 28 ucun   0'ı  →  dışarıda
 ```
   Sıfır ve yüz yan yana ⇒ **tek bir mekanizma.** Hata hiçbir zaman "yanlış
@@ -294,16 +295,28 @@ hicrî 922 → Mercidâbık 1516-08-24  ⇒ 1516-01-01 olaydan ÖNCE
   çelişiyorsa bu kural İŞLEMEZ, cevap `ÖLÇÜLEMEDİ`dir ve mevcut değer korunur
   (`muvahhidler` t: 667 ↔ 668 ↔ Merînî 666).
 
-  ⚠️ **70 BİR TABANDIR, TAVAN DEĞİL — ve İKİ sebeple:**
+  ⚠️ **78 BİR TABANDIR, TAVAN DEĞİL — ve ÜÇ sebeple:**
 ```
   ① notunda hicrî TAŞIMAYAN 789 künyenin TDV gövdeleri çekilmedi
      (`sasani` t ve `hulefa-yi-rasidin` f bu evrene HİÇ girmiyor; hicrî
      tarihleri başka TDV maddesinden geliyor — "çapraz madde" sınıfı)
-  ② 1. turun 75 `İÇİNDE`si DOĞRULANMADI: eşleştirici "biri içeriyorsa
-     İÇİNDE" diyordu ve içeren ifade KOMŞU HÂNEDANIN maddesinden
-     olabiliyor. Ölçülen vaka: `hamdani-yemen` f 1. turda İÇİNDE sayıldı,
-     yeniden bakılınca DIŞINDA çıktı (⇒ 1098-11-28).
+  ② 1. turun İÇİNDE'lerinin ÇOK ADAYLI 7'si kontrol edildi (2 DIŞINDA'ya,
+     1 ÖLÇÜLEMEDİ'ye geçti, 4 kaldı) AMA kalan 64 "tek ifadeli" İÇİNDE
+     DOĞRULANMADI: o tek ifade de KOMŞU bir polity'nin maddesinden alıntı
+     olabilir — aynı risk sınıfı, henüz açılmadı.
+     Ölçülen vakalar: `hamdani-yemen` f (dayanağı komşu `suleyhiler` 491)
+     ⇒ 1098-11-28 · `eyyubi-hisnikeyfa` f (İÇİNDE veren ŞEHİR maddesi
+     `hasankeyf` 629, DIŞINDA veren HÂNEDAN maddesi `eyyubiler` 630)
+     ⇒ 1232-10-18
+  ③ hânedan-ana maddeleri (`osmanlilar` · `selcuklular` · `abbasiler` ·
+     `fatimiler`) HENÜZ TARANMADI
 ```
+  🔴 **DAR KAPSAM KURALININ İKİ EKSENİ** (ikinci eksen `eyyubi-hisnikeyfa` ile
+  doğdu): bir **KÜNYENİN** kendi `f:`/`t:`si → **o polity'nin** maddesi esas ·
+  bir **YERİN** kendi olguları (kuruluş, iskân) → **yer** maddesi esas. Şehir
+  maddesi, bir hânedan kolunun saltanat tarihinde dar kapsamlı DEĞİLDİR.
+  ⚠️ Ve komşu hicrî yıllar ÖRTÜŞMEZ (629 ∩ 630 = ∅) ⇒ böyle bir hüküm bir
+  **SEÇİM**tir, kesişim değil; alternatif `ic_not`ta ADIYLA yazılır.
   ⇒ Bir sayının TABAN olduğunu bilmek, bilmemekten iyidir; **hangi sebeplerle
   taban olduğunu bilmek daha iyidir.** Ve: **bilinen bir deliği kapatmak, yeni
   bir ölçümden ÖNCE gelir** — deliği olan ölçüm ZATEN KULLANILIYOR.
