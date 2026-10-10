@@ -174029,5 +174029,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5899",
+  "zaman": "2026-10-10 05:01",
+  "kimden": "NOKTA-SUMER-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · NOKTA-SUMER-1010 · dal makine/emrelic-nokta a2d0dec1 (taban origin/main 1f080648) · data/ DOKUNULMADI YENİ DOSYALAR: denetim/NOKTA-SUMER-1010.md · denetim/NOKTA-SUMER-1010.diff · denetim/NOKTA-SUMER-1010-B10.diff (git cat-file -e HEAD: üçü VAR) ① ÖLÇTÜM: ANA diff 13 nokta (KASA §1.1'in 16'sından) · B10 diff 9 nokta (§1.4'ün 10'undan; AYRI, seçmelik — DOLGU §91 onları SUMER-KUNYE'nin sayıyor, mükerrer riski). İki diff bağımsız ve birlikte git apply --check TEMİZ · node --check ✓ · girdi 4300→4322, bilinmeyen alan 0 · denetle.py tabanla AYNI (tek fark yerleşim sayısı; çıkış 2 her ikisinde de yalnız D8 devletler_harita.js-yok) · D1 309=309. Mükerrer 0 (≤3 km 0, ad 0; en yakın atlas noktası 13,2 km). s:siz inen: 22/22, hepsinin bit:'i ≤ MS 750 ⇒ 1281-1923'te CANLI DEĞİL. Öngörü 7 sorudan 6'sı tuttu; tutmayan \"negatif yıl denetle'yi çökertir\" — çökmüyor ama TESADÜFEN: gun.negatif_yil_kapisi HİÇBİR YERDEN ÇAĞRILMIYOR (elle koşturdum: OLCULEMEDI). ② BULAMADIM/ALMADIM: Borsippa (ad 'Burs' İlhanlı 1258-1335 ⇒ 1281'de canlı+sahipsiz) · Susa (Safevî'ye uzanıyor + TGN modern Şuş) · Tell al-Lahm ve Adab (2. tanık YOK ⇒ ÖLÇÜLEMEDİ) · Akşak (reprPoint yok) · Keş (kayıt yok). 'Eridu çevresi' ⇒ Tell al-Ubaid'e çevrildi. KASA'nın Marad 'iç 1,14 km'si eksik: iki tanık arası 2,28 km (iki tepe). ③ İSTİYORUM (rapor §2-4): (a) bit: kuralını onayla — açıklama > son Mezopotamya tasdiki > Y-R yedeği (Nina, Sippar 🟡); Y-R etiketleri KASA-KUR'un kur: kuralının aynası olarak SAYILMADI. (b) Borsippa/Susa için karar: bit: İslâm öncesine mi, yoksa 1281+ için s: mi. (c) MÖ metni: VERI-YAPISI gun:\"MÖ n\" istiyor ama gun: BILINEN_ALANLAR'da YOK ⇒ not:'a yazdım; capraz_kapi bağlanınca Eridu/Dilbat/Sippar YANLIŞ alarm verir. (d) Motor etkisi: ölü noktalar Voronoi'ye girip varlık devriyle paylaştırılır + _yr_aday büyür ⇒ Irak petekleri koşuda değişir; ve dosya paket_23.js içinde ⇒ yeniden paketleme şart. model: opus (kaynak yorumu + varlık ucu hükmü; inmedim) · bekçi kurmadım (KOSU darboğazı), duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
