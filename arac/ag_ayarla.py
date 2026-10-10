@@ -33,6 +33,7 @@ atmak Emre'yi yanlış tarafı tamir etmeye gönderir.
 import io
 import json
 import os
+import platform
 import secrets
 import sys
 
@@ -80,7 +81,18 @@ def sina(ayar):
         print("🔴 SINANAMADI: ag.json'da sunucu adresi ya da jeton yok.")
         return 2
     url = "http://%s/tahta/oku?son=1" % adres
-    istek = urllib.request.Request(url, headers={"X-Tahta-Jeton": jeton})
+    # 🔴 BASLIK ADLARI SUNUCUDAN OKUNDU, UYDURULMADI (tahta_sunucu.py:748,
+    #    :782). Ilk yazimda "X-Tahta-Jeton" yazmistim: sunucu o basligi
+    #    HIC okumaz ⇒ jeton bos sayilir ⇒ 401 ⇒ alet "JETON YANLIS" der ve
+    #    kullaniciyi SAGLAM olan jetonu duzeltmeye gonderir. Yani teshis
+    #    aleti kendi teshisini bozuyordu.
+    # `X-Atlas-Makine` sunucunun makine defterine duser (ey_makineler);
+    #    beyandir, dogrulanmaz — ama "hangi makine hic gelmedi" sorusunu
+    #    cevaplayan tek alan, o yuzden DOLDURULUR.
+    istek = urllib.request.Request(url, headers={
+        "X-Atlas-Jeton": jeton,
+        "X-Atlas-Makine": platform.node() or "bilinmeyen",
+    })
     try:
         with urllib.request.urlopen(istek, timeout=8) as c:
             kod = c.status
