@@ -156,3 +156,29 @@ Zaman damgası: 2026-10-10 06:47:57 +0300  (193 satırın noktaları ve tanık d
 ## §7 DOSYALAR
 - Bu rapor + `denetim/LAB-TARIHI-CEKIRDEK-1010.csv` (193 satır, `hukum` + `hukum_kaynagi` + mekanik 1/1,5/2/3 km ve gevşek kol sütunları).
 - Scriptler `scratchpad\cekirdek\`: `dump.py` · `pop.py` · `tan.py` · `gnh.py` (döküm taraması) · `sinif.py` · `yaz.py`.
+
+## §EK — 10 Ekim koordinatör hükümleri
+
+(Bu ek rapor yazıldıktan sonra eklendi. §0–§7 metni değiştirilmedi. CSV'deki `hukum` sütunu da değiştirilmedi. Aşağıdaki sayılar bu hükümlerin uygulanmış halidir.)
+
+**1. Ö-Ç1 ONAYLANDI.** DOĞRU-DÖNEM için çekirdeğin atlas noktasına, modern merkezden **daha yakın** olması gerekir.
+- Zadar ve Nojpetén → **ÖLÇÜLEMEDİ**. Gerekçe: "çekirdek iki noktaya eşit uzaklıkta, tanık ayırt etmiyor".
+- DOĞRU-DÖNEM **7 → 5**: Fort Laramie · Hille · Częstochowa · Hirosaki · Salvador.
+- DOĞRU-DÖNEM satırları ADAY'dan çıkar. Zadar ve Nojpetén ÖLÇÜLEMEDİ olarak ADAY'a geri döner.
+  - Hesap: 193 − 5 = **188 ADAY**. Bunun 17'si GERÇEK KUSUR, 171'i ÖLÇÜLEMEDİ.
+  - (§3'teki 186'nın yerine geçer: 186 + 2 = 188.)
+- **Toplam:** YANLIŞ = 231 − 1 (Knife River) − 3 (Ö-2) − 5 (bu turun DOĞRU-DÖNEM'i) = **222**.
+  - Dağılım: KESİN 9 / ADAY 188 / ÖLÇ 25.
+  - 3988 paydasında **%5,57**. §3'teki 220 ve %5,52'nin yerine geçer.
+
+**2. Adlandırma hükmü.** Mekanik etiket `ADAY` kodda ve CSV'de kalır. Raporlardaki her başlık ve her sayı ise şöyle okunur: **"ADAY — SINANMAMIŞ İDDİA (%N'inde çekirdek tanığı YOK)"**.
+- Bu tur için N = 171/188 = **%91,0**.
+  - Katı okumada Zadar/Nojpetén'in ayırt etmeyen tanığı var sayılırsa N = 169/188 = %89,9 olur.
+- **Sayma kuralı:** rapordaki bir sayı mekanik sınıftan değil, **HÜKÜM sütunundan** okunur. İki eksen yan yana verilir:
+
+| sınıf | mekanik (`mekanik_1.5`) | HÜKÜM (Ö-Ç1 sonrası) |
+|---|---|---|
+| DOĞRU-DÖNEM | 8 | **5** |
+| GERÇEK KUSUR | 10 | **17** |
+| ÖLÇÜLEMEDİ | 175 | **171** |
+| **ADAY — SINANMAMIŞ İDDİA (%91,0'inde çekirdek tanığı YOK)** | 185 | **188** |
