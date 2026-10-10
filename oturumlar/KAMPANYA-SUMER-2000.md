@@ -313,7 +313,44 @@ Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gece
 2j  KASA-SUMER-VARLIK      Ur `t: −0316` · Nina `t: −0329` · Dēr `ahameni` Ş
                            + `__BOSLUK__` (K) beş pencere (İsin·Dēr·Dilbat
                            Selevkos-Part · Eridu bütün pencere · Nina Ahamenî)
+2k  KUNYE-SUMER-7          6 künye (`ahameni·makedon·selefki·part·elymais` +
+                           `sasani` f: 0226→0224) · künye 897→902 · +70/−7
+                           🔴 ÜÇ ZARF DÜZELTMESİ AYNI DİFF'TE (ayrılırsa 4c kırılır):
+                              makedon f: −0330-10-18 (Sippar ADART, 4 gün ÖNCE)
+                              makedon t: −0308 (BCHP 3 "Year 8 … Borsippa")
+                              selefki  t: ≥ −0129-06-01 (ara dilimi KAPSA)
+                           ⚠️ makedon −0308 ↔ selefki −0311 ÜÇ YIL ÖRTÜŞÜR —
+                              kusur DEĞİL: `§8`in çakışma yasağı BİR NOKTANIN
+                              dilimleri içindir, iki künyenin ömrü için değil
+                              (ve 311-308 Babilonya'da iki iddia yan yanaydı)
+                           ⚠️ `karakene` YAZILMADI: `t:` yalnız livius/Lendering
+                              222 ⇒ livius'ta BARINAN akademik çeviri (Grayson ·
+                              BCHP · ADART) meşru, Lendering'in KENDİ metni
+                              popüler tarih (`§4` kırmızı çizgi). ERTELENDİ;
+                              Characene yılları tahminle `part`a YAZILMAZ (`D208`)
 ```
+
+#### 🔴 FAZ 2'NİN ÖN ŞARTI — **NEGATİF YIL ÖLÇÜLMEDEN SÜMER NOKTASI İNMEZ**
+`KUNYE-SUMER-7-1010`ın raporunun son cümlesi bir blokaj açığa çıkardı:
+> *"`pad()` docstring 'negatif yıl `gun_no` ÇÖKER' ⇒ veri partisinden ÖNCE
+> ölçülmeli."*
+`NEGATIF-YIL-B` FAZ 3'te (motor partisi) yazılıydı — **yanlış yerde.** Sümer
+noktalarının `kur:`/`t:` değerleri de negatif; `gun_no` negatif yılda çöküyorsa
+noktalar **`s:`siz bile** inemez. ⇒ Paralel bir kalem değil, **ÖN ŞART.**
+📌 Ve bunu künye diff'i **göstermedi**, çünkü künye `f:`leri inert: hiçbir
+yerleşim o kimlikleri kullanmıyor, o yüzden `gun_no` hiç çağrılmadı.
+*Bir kodun çökmemesi, çökmeyeceği anlamına gelmez — sadece ÇAĞRILMADIĞI.*
+```
+ÖLÇÜM KOŞUYOR: NEGATIF-YIL-OLCUM-1010
+  pad() + gun_no ÇAĞIRILARAK sınanır (docstring'e güvenilmez)
+  evren: denetle.py · girdi.py · odak_* · suzgec.js (node tarafı AYRI)
+  her yol için: çöker / SESSİZ YANLIŞ / doğru  🔴 sessiz yanlış en tehlikelisi
+  yıl 0 ayrı: astronomik numaralamada VAR, çoğu kütüphane REDDEDER
+              (`-0001` ↔ `0000` ↔ `0001` üçlüsü ayrı ayrı)
+  HÜKÜM: Sümer noktaları NEGATİF-YIL-B olmadan FAZ 2'de inebilir mi? E/H + gerekçe
+```
+⇒ **Cevap "HAYIR" ise Sümer noktaları FAZ 3'e kayar** ve Emre'ye verilen sıra
+değişir. O yüzden tahmin değil ölçüm bekliyor.
 🔴 Her 2x'ten sonra `denetle.py`; **hepsi bittikten sonra `renk_olc.py`**
 (palet verinin fonksiyonudur, renge dokunmadan çakışma doğar).
 
