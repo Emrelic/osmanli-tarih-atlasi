@@ -957,7 +957,36 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   🔴 `kapsam_genis:true` + odak yok ⇒ kamera **o günün OSMANLI sınırına** uçar
   (`app.js:11835`) — yabancı kronolojide bu bir kusurdur, odaksızlıktan KÖTÜDÜR.
 - Ortamda `python` değil **`py`**. Üretim logu koşarken boş görünür (normal); çıktıda
-  "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm
+  🔴 **O SATIRI KABUL ÖLÇÜTÜ YAPMA — ÜÇ KATMANLI YANLIŞ** (10 Ekim 2026,
+  `YORUM-KONTROL-TARAMA-1010`; koordinatör kodu okuyup DOĞRULADI):
+```
+  uret_petek.py:8477   if not (y["d"] or y["v"]): continue   ← 3279/4300 ATLANIYOR
+            :8484      "tüm yerleşimlerin peteği geçerli ✓"  ← "TÜM" YANLIŞ
+            sonrası    `hata` ÇIKIŞ KODUNA HİÇ YANSIMIYOR
+```
+  ⇒ Satır *"N uyumsuzluk"* dese bile koşu **0 ile çıkar.** Ve bu cümleyi
+  kabul ölçütü yapan **bu dosyaydı** — yani kusur motorda değil, BURADA.
+  🔴 **YERİNE, üçü birden:** ① `denetle.py`nin **ÇIKIŞ KODU** (0/1/2, cümlesi
+  değil) ② **AŞAMA BİLANÇOSU** KOŞU 21'in listesiyle karşılaştırılır (eksik
+  aşama ⇒ yayına aday DEĞİL) ③ `:8484` satırı yalnız **`d:`/`v:` dönemli
+  kayıtlar için kısmî bir sinyal** olarak okunur, kapsamı ADIYLA yazılır.
+  📌 `§11`in *"yorum ≠ kontrol"* ailesinin en pahalı üyesi: bir KABUL
+  ÖLÇÜTÜ, kapsamını yanlış BEYAN eden bir çıktı satırına bağlanmıştı.
+
+  🔴 **VE YAYIN ZİNCİRİ BETİKLERİ BU İNİŞTE KULLANILMAZ** (aynı tarama):
+```
+  kosu_yayin.py:18   her SIFIR-DIŞI kodu "bilinen borç" sayıyor ⇒ commit +
+                     push YİNE atılıyor. Kendi belgesi "🔴 KAPILAR TAVİZSİZ:
+                     ③ ya da ⑥ düşerse commit ATILMAZ" diyor — kod ETMİYOR.
+                     Üstelik andığı `--yayin-kapisi-uyari` bayrağı YOK.
+  kos_ve_yayinla.py:161   zincir kilidi hâlâ 240 dk YAŞ VEKİLİ
+```
+  ⇒ Zincir, `denetle.py` **çıkış 1** verse bile yayınlar. Ve bugün taze
+  `main` **çıkış 1 veriyor** (D8a 1517 > tavan 1508). ⇒ **İniş ELLE, adım
+  adım koşturulur ve HER ÇIKIŞ KODU OKUNUR** (KOŞU 21 de böyle yapmıştı):
+  `kodla.py yay` → `coz-c` **(İKİ dosya, §5)** → `denetle` → `renk_olc` →
+  `paketle.py yenile` → `surum_damgala` → `denetle_yayin`.
+  Yayından önce sürüm
   damgası yükseltilir; Pages gecikmesi ~40-60 sn.
 - **Koşu çıktısı her zaman bayattır — yine de yayınlanır** (Emre, 17 Eylül): "YAYIN BAYAT"
   yayını durdurmaz; durduran yalnız koşunun kendi `denetle.py` ihlalidir. Koşu bittiği an
