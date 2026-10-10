@@ -154,3 +154,70 @@ tutarlı). Örneklem kapısının değeri bu.
   raporlarındaki birebir alıntılar kullanıldı, KASA yalnız örneklemin 12'sini açtı.
 - İkinci turun ⓑ (kronoloji 120+), ⓒ (şehir 60+), ⓓ (`suzeren` kolonları) kalemleri bu düzeltme turunda BAŞLAMADI.
 - ③ çıkan 16 UÇ için "başka bir attested çapa" ARANMADI. Her biri bir sonraki turun sorusu.
+
+## 10. ⑤ ÇAPA ARAMASI + ① 19 UÇUN YENİDEN AÇILIŞI (koordinatör: "Başlıkları değil GÖVDEYİ oku")
+Kapsam (sayıyı ben verdim, koordinatör ~13 tahmin etmişti):
+- ⓐ uçsuz 7 polity'nin BÜTÜN uçları = 14 UÇ;
+- ⓑ tek kalan ucu ② olan 5 polity'nin o ucu (uruk-ed t, ur-i f, lagas-i t, umma t, hanigalbat f) = 5 UÇ;
+- toplam **19 UÇ**.
+Kaynak raporları: `KAMP-MEZOPOTAMYA-CAPA-ELAM.md` (Vallat gövdesi + birincil metinler), `KAMP-MEZOPOTAMYA-CAPA-DIGER.md`.
+
+**Vallat sınaması:** "Elam 5/5 ③" hükmü BAŞLIK okumasının eseriydi — koordinatörün şüphesi DOĞRULANDI.
+- Gövde: 2004 Ur'un düşüşü (Kindattu) ve Sukkalmah'ın 2004 SONRASI kuruluşu; Nebukadnezar I (1125–04) Susa'yı alır; 646 Susa yağması; Puzur-Inšušinak ↔ Ur-Nammu.
+- Yanlış okumanın kaydı silinmedi: §9 tablosu ve `k1_tip.py` T sözlüğü olduğu gibi duruyor; çürütme burada.
+
+### Kaç polity çapa buldu (7 uçsuz polity)
+**6 / 7 POLITY attested olay ya da tanıklık buldu · 1 / 7 BULAMADI (uruk-gec-uruk).**
+| polity | çapa | yeni yazılabilir uç |
+|---|---|---|
+| uruk-gec-uruk | YOK (proto-çivi idari, yazı evresiyle tarihli; yokluk ÇIKARIM) | 0 UÇ |
+| mari-sakkanakku | Apil-kīn ↔ Ur-Namma; Drehem Š46–ŠS6 yıl adlı; BIN 9 384 Išbi-Erra | 2 UÇ (f ≤2095, t ≥1985) |
+| elam-avan | Sargon/Rimuš yazıtları; son kral ↔ Ur-Nammu | 1 UÇ (t ≥2112) |
+| elam-simaski | Š30/Š34/IS14 yıl adları; 2004 Ur fethi (SON DEĞİL — örtüşme) | 0 UÇ |
+| elam-sukkalmah | 2004 olayı; Kuk-Našur II ↔ Ammi-ṣaduqa | 2 UÇ (f ≥2004, t ≥1646) |
+| elam-orta | Haft Tepe ↔ Kadašman-Enlil I; Nebukadnezar I (BM 90858) | 2 UÇ (f ≤1360, t 1125–1104) |
+| elam-yeni | Nebukadnezar I; Babil Kroniği 743, 720; 646 | 2 UÇ (f ≥1125, t ≥646) |
+**Mutlak, yıl adıyla ya da eponimle tam tarihlenmiş bir UÇ olayı: 0 UÇ.** Bulunan bütün uç çapaları ②: saltanatla sınırlı ya da sınır.
+
+### 19 UÇUN sonucu
+| geçiş | UÇ |
+|---|---|
+| DÖNEM → SALTANAT/SINIR | 6 UÇ |
+| YOK → SALTANAT/SINIR | 2 UÇ (Mari f, t) |
+| BELİRSİZ → SALTANAT/SINIR | 1 UÇ (elam-yeni t; üst uç hâlâ BELİRSİZ, kapatılmadı) |
+| DÖNEM, değişmedi | 5 UÇ (uruk-gec-uruk f, t · avan f · şimaşki f, t) |
+| SALTANAT, değişmedi (not zenginleşti) | 5 UÇ |
+| → ① OLAY | **0 UÇ** |
+
+### Kendi tabanımda (72 UÇ)
+| tip | önceki (§9) | şimdi | fark |
+|---|---|---|---|
+| OLAY | 25 | 25 | 0 |
+| SALTANAT/SINIR | 24 | 33 | +9 |
+| DÖNEM | 16 | 10 | −6 |
+| BELİRSİZ | 1 | 0 | −1 |
+| bulunamadı | 6 | 4 | −2 |
+- Yazılabilir ucu olmayan polity: 7 → **2 POLITY** (uruk-gec-uruk, elam-simaski).
+- KRONOLOJİ harita_degisimi (83 KAYIT):
+  - EVET 34 → 34 (0);
+  - SINIR 24 → 33 (+9);
+  - HAYIR 19 → 12 (−7);
+  - "—" 6 → 4 (−2).
+- **SINIR kovası hedefe SAYILMADI** (koordinatör hükmü).
+
+### Kapsam dışı, bulundu ama YAZILMADI (öneri)
+- **hanigalbat t:** Šalmaneser I (RIMA 1 A.0.77.1, 1263–1234) Taidu'dan Karkamış'a kadar alır. RlA 4 s.107: *"Damit war die Geschichte des Staates Ḫ. beendet."* ⇒ ② SINIR adayı (şu an bulunamadı).
+- **elam-avan f:** Sargon saltanatı içinde tanıklık ⇒ f ≤2279 ÜST sınır adayı.
+- **ⓑ için ① OLAY adayları** (kronolojiye eklenecek, harita değişimi):
+  - Š34 (2061) Anşan yıkıldı;
+  - IS14 (2015) Susa;
+  - 1158 Šutruk-Nahhunte Zababa-šuma-iddina'yı öldürür;
+  - Babil Kroniği 1 i 9-10 743 Humban-nikaš I tahta çıkar;
+  - 720 Der savaşı.
+
+### Erişilemeyen
+- Iranica SUSA/ŠIMAŠKI/SUKKALMAH (arşivde yok);
+- RlA Elam maddeleri okunmadı;
+- RIMA 3 (Šamši-Adad V) boş;
+- CDLI Hammurabi yıl adları boş;
+- Englund OBO 160/1.
