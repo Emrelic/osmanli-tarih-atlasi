@@ -366,3 +366,72 @@ MOTOR_ISCI_BETIK         BEYANLI RİSK: motor_izi betiğin ADINI özetliyor,
                          Bugün teorik (varsayılanda yol yok). Yama YOK.
 normalleştirilmiş ad      KAPI AÇILMADI (verim 1: Kordofan 80,5 km)
 ```
+
+---
+
+## 🔴 9. İNİŞ SONRASI DUYURULAR — HAZIR METİN, DOĞAÇLANMAZ
+
+Bu inişte **dört şey SIKILAŞIYOR ya da DEĞİŞİYOR**, ve bilmeyen bir oturum
+bugün çalışan bir şeyi yarın çalışmaz bulacak. Metinler burada duruyor ki
+iniş anında yazılmasın — **doğaçlanan bir duyuru eksik kalır.**
+⚠️ Kanal: `tahta.py yaz --kim "YILDIRIM BAYEZIT" --kime "<AD>"` **EMRELIC'ten**
+(UMIT'te `tahta.py` kapalı — `main`e push edemediği için commit biriktirip
+makineyi kilitler). Başka makinedeki alıcılar için kayıt **o makinenin
+kendi dalındaki** bir dosyaya gider.
+🔴 Ve bugün `"🔴 DURDURUCU"` biçimi **TANINMIYOR** (TAHTA-ACIL inene kadar)
+⇒ duyuruyu yazarken aciliyet gerekiyorsa **`ACIL` (noktasız I)** kullan.
+
+### ⓐ ACİLİYET TESPİTİ BİRLEŞTİ — ve KAPI SIKILAŞTI
+```
+arac/aciliyet.py  TEK OTORİTE · tahta.py · tahta_bekci.py · tahta_sunucu.py
+                  üçü de ONU soruyor (eskiden ÜÇ AYRI tespit, ÜÇ FARKLI CEVAP)
+🔴 "🔴 DURDURUCU" ve "ACİL:" ARTIK TANINIYOR — ve DAYANAK İSTİYOR
+   (eskiden bu biçimler HİÇ tanınmıyordu ve sessizce kütüğe düşüyordu;
+    koordinatörün 05:54'teki durdurucu hükmü böyle kayboldu)
+⇒ Dayanaksız bir ACİL/DURDURUCU artık REDDEDİLİR (çıkış 2)
+🔴 BEKÇİNİZİ YENİDEN KURUN: eski süreçler ESKİ kodla çalışıyor
+⚠️ GEÇİŞ PENCERESİ: yeniden kurulana kadar yazıcı ile bekçi AYRIŞIK kalır
+   (yazıcı "kimseyi uyandırmaz" derken bekçi herkesi uyandırabilir)
+```
+
+### ⓑ ESKİ `.zincir.kilit` ELLE SİLİNİR
+```
+kilit artık bir SÜREÇ DAMGASI (pid | bas | makine | argv, O_EXCL)
+   canlı PID ⇒ 3 · ölü PID ⇒ devralır · bozuk/eski biçim/başka makine ⇒ 2
+   YAŞ yalnız BİLGİ (eskiden 240 dk YAŞ VEKİLİ idi ve canlı bir zincirin
+   kilidini DEVRALIP commit + push atabiliyordu — ölçüldü)
+⇒ Yamadan sonra eski biçimli bir `.zincir.kilit` ÖLÇÜLEMEDİ verir.
+  BİLİNÇLİ. Elle silinir, sonra zincir normal çalışır.
+```
+
+### ⓒ `olcum_agaci` ARTIK STANDART — çıplak ağaçta `2` DOĞRUDUR
+```
+py arac/olcum_agaci.py hazirla      # ~78 sn · 231 MB · fetch + worktree +
+                                   #   İKİ hedefi çöz + sha256'yı damgayla kıyas
+py arac/olcum_agaci.py kaldir
+```
+🔴 **Çıplak bir ağaçta `denetle`/`denetle_yayin` artık `2` verir ve bu
+DOĞRUDUR** — gerçekten ölçülmemiştir. Sebebi ölçüldü: çıplak ağaç bu gece
+boyunca **bir ihlali gizledi** (D8a **1517** > tavan 1508, çıkış 2'nin
+arkasında, üç tabanda aynı). ⇒ *"Ölçülemedi bir ihlali GİZLER."*
+⚠️ Kova artık **hangi soruyu** ölçemediğini adıyla yazıyor ve **çare
+komutunu** basıyor.
+
+### ⓓ YAYIN KAPISI TAVİZSİZ OLDU
+```
+kosu_yayin ⑥   eskiden `uyari_kodu=True` ile 1, 2 VE ÇÖKME'yi
+               "bilinen borç" sayıyordu ⇒ commit + push YİNE atılıyordu
+               ve andığı `--yayin-kapisi-uyari` bayrağı YOKTU
+🔴 ÖLÇÜLEN VAKA: kapı ÜÇ GÜNDÜR ✗ veriyordu ve yayın SÜRÜYORDU
+   (SEKME SESSİZ gerilemesi, 14174ef7 = KOŞU 21 · bisect 123 commit)
+   ve KOŞU 21'in COMMIT MESAJI bunu YAZIYORDU
+⇒ ③ her zaman ölümcül · ⑥ varsayılan TAVİZSİZ, yalnız
+  `--yayin-kapisi-uyari` ile uyarıya iner (bayrak artık GERÇEK) ·
+  2 HER ZAMAN durdurur · commit ya da push düşerse 1
+⇒ commit yalnız TÜRETİLMİŞ LİSTEDEKİ dosyalar, pathspec ADIYLA, ve
+  `git show --name-only` ile GERİ OKUNARAK (eskiden `add -A -- data` +
+  pathspec'SİZ commit: başka oturumun indekslediğini de taşıyordu)
+```
+📌 **Bir commit mesajı KİMSENİN OKUDUĞU bir kayıt değildir** — orada beyan
+edilen bir gerileme, beyan edilmemiş sayılır. Bu yüzden bu dört duyuru
+**tahtaya** gider, commit mesajına değil.
