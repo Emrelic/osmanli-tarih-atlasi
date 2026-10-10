@@ -400,3 +400,8 @@ fark ölçüm gürültüsü içinde. Tam inşada log süresi önceki koşuyla k�
 - `C:\atlas-umit\denetim\NEGATIF-YIL-1010-B.md` — bu rapor
 Değişen (yalnız diff içinde): `arac/gun.py` (+110) · `arac/girdi.py` (+23) · `arac/uret_petek.py` (+4/−2) ·
 `arac/denetle.py` (+51/−17) · `arac/motor_esitlik.py` (+2/−1).
+
+## § v3 (10 Ekim) — NEGATIF-YIL-1010-B-v3.diff YERİNİ ALDI
+Sebep: v2 ile D5-GUN-1010-v3, `arac/denetle.py` :3188 (5b/5c eşik) hunk'ında HİÇBİR SIRADA birlikte uygulanmıyordu (LAB ölçtü: NEG→D5 ✗ :3151 · D5→NEG ✗ :3188). v3 = v2 − o hunk − `denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py` yeni-dosya bölümü (main sürümü otorite; düzeltmesi NEGATIF-YIL-B-SINAV-DUZELT-1010.diff). ⇒ İnişte `--exclude` ve elle hunk ayıklama GEREKMEZ.
+Doğrulama (UMIT İRTİBAT, origin/main üstünde): NEG-v3→D5-v3 ✓ · D5-v3→NEG-v3 ✓ · iki sırada write-tree a27c07ed6db5b12c241661dc6f82e3186e997c9c — LAB'ın ölçtüğü ağaçla BİREBİR. v3 + NEGATIF-YIL-B-SINAV-DUZELT ✓. sha256(v3) 240c3d910de09377…
+v2 SİLİNMEDİ: tarih ve bağımlılık kaydı olarak duruyor; bu inişte KULLANILMAZ.
