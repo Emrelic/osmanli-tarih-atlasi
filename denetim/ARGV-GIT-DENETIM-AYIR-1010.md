@@ -52,3 +52,6 @@ Bilgi: `denetim/` taramasında ayrıca **17 argv ÖLÇÜLEMEDİ** kalemi var. He
 - Çapraz dosya izleme yok.
 - Tuple dönüş değerinde ilk öğe alınıyor (`return (kok, …)`). Bugünkü 29 kalemde bu yol kullanılmadı.
 - Denetim akışına duyarlı değil; son atama alınıyor.
+
+## § KAPI DEĞİL (koordinatör şerhi, 10 Ekim)
+--cwd-sinifla bir ÖLÇÜM kipidir, KAPI DEĞİL; `--dizin denetim` ile çıkışı 17 bilinmeyen argv (argv[0] değişken: PY, node yolu) yüzünden kalıcı 2dir ve bu BEKLENENDİR. Bir kapı zincirine BAĞLANMAZ — sürekli 2 veren adım zinciri durdurur. Kapı olarak kullanılabilecek tek biçim: varsayılan `arac/` evreni (bugün ADD sonrası 0).
