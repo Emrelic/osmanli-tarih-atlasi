@@ -1,0 +1,2260 @@
+diff --git a/arac/_bayat_yama_kapi.py b/arac/_bayat_yama_kapi.py
+index 6368f19a..db26bba0 100644
+--- a/arac/_bayat_yama_kapi.py
++++ b/arac/_bayat_yama_kapi.py
+@@ -83,17 +83,30 @@ def _git(kok, *arg):
+     return p
+ 
+ 
++def git_hata(p, ne):
++    """Git hatasının TEŞHİS EDİLEBİLİR metni (SAHIPLIK-KAPSAM-1010 ④): DÖNÜŞ KODU her zaman yazılır.
++    Boş stderr teşhis değildir. Ölçüldü (UMIT, 10 Ekim 2026): Git Bash'te dışarıdan `Stop-Process` ile
++    öldürülen süreç 127, `taskkill` ile 1 döner."""
++    err = p.stderr.decode("utf-8", "replace").strip()[:200]
++    out = p.stdout.decode("utf-8", "replace")
++    not_ = ""
++    if p.returncode in (127, 1) and (out or not err):
++        not_ = " — dönüş kodu %d + %s: süreç DIŞARIDAN sonlandırılmış olabilir" % (
++            p.returncode, "çıktı başlamış" if out else "stderr boş")
++    return "%s: dönüş kodu %d · stderr %s%s" % (ne, p.returncode, repr(err) if err else "BOŞ", not_)
++
++
+ def hazirlik(kok):
+     """Kapının soruyu sorabilir olduğunu sına; soramıyorsa KapiOlcemedi."""
+     p = _git(kok, "rev-parse", "--is-inside-work-tree")
+     if p.returncode != 0 or p.stdout.decode().strip() != "true":
+-        raise KapiOlcemedi("git deposu değil: %s" % kok)
++        raise KapiOlcemedi("git deposu değil: %s (%s)" % (kok, git_hata(p, "git rev-parse")))
+ 
+ 
+ def _kirli_mi(kok, dosya_yol):
+     p = _git(kok, "diff", "--quiet", "HEAD", "--", dosya_yol)
+     if p.returncode not in (0, 1):
+-        raise KapiOlcemedi("git diff hata: %s" % p.stderr.decode("utf-8", "replace")[:200])
++        raise KapiOlcemedi(git_hata(p, "git diff hata (%s)" % dosya_yol))
+     return p.returncode == 1
+ 
+ 
+@@ -101,8 +114,7 @@ def _gecmis(kok, dosya_yol, i, j):
+     """Aralığın satır geçmişi: [(kısa_hash, gün, '+' satırlarının birleşimi)]."""
+     p = _git(kok, "log", "-L", "%d,%d:%s" % (i, j, dosya_yol), "--format=@@C %h %cs")
+     if p.returncode != 0:
+-        raise KapiOlcemedi("git log -L %d,%d:%s → %s" % (
+-            i, j, dosya_yol, p.stderr.decode("utf-8", "replace").strip()[:200]))
++        raise KapiOlcemedi(git_hata(p, "git log -L %d,%d:%s" % (i, j, dosya_yol)))
+     surum, cur = [], None
+     for ln in p.stdout.decode("utf-8", "replace").splitlines():
+         if ln.startswith("@@C "):
+diff --git a/arac/_hukum_listesi.py b/arac/_hukum_listesi.py
+new file mode 100644
+index 00000000..8f25461f
+--- /dev/null
++++ b/arac/_hukum_listesi.py
+@@ -0,0 +1,129 @@
++# -*- coding: utf-8 -*-
++"""SAHİPLİK HÜKÜM LİSTESİ — TEK OKUYUCU (SAHIPLIK-KAPSAM-1010 · ⓑ/ⓐ).
++
++`denetim/SAHIPLIK-HUKUM-LISTESI.json` — `_sahiplik_uygula.py`nin KASITLI (hükümlü) atlamaları.
++İki tüketici AYNI okuyucuyu kullanır (bir bilgi iki yerde ayrıştırılınca ayrışır, §11):
++  · `arac/_sahiplik_uygula.py` — atlamayı `hukumlu:<kova>` yapar; ÖLÜ satırı GERÇEK koşuyla ölçer
++  · `arac/denetle.py`          — yalnız DOSYAYI denetler (dayanak · dayanaksız · ucuz ölü), araç KOŞMAZ
++
++Satır: {"yama": "yer_yama_x.js", "ad": "Kayıt", "kova": "kapsam-daraldi",
++        "dayanak": "<SHA> · <yol>[:<bölüm>]", "gerekce": "kısa"}
++DAYANAK dilbilgisi: ` · ` ile ayrılmış parçalar. Bir parça ya bir COMMIT SHA'sıdır (7-40 onaltılık,
++  `git cat-file -e <sha>^{commit}` çözülmeli) ya da `denetim|dersler|oturumlar|arac|data/…` ile başlayan
++  bir YOL (dosya VAR olmalı; `:bölüm` verildiyse bölüm metni dosyada GEÇMELİ). Başka parça (düz metin)
++  sayılmaz. Geçerli satır: en az BİR parça çözülür, HİÇBİR SHA/yol parçası çözülmeden kalmaz.
++  ⇒ "koordinatör hükmü bekleniyor" gibi bir dayanak REDDEDİLİR — dayanaksız istisna, istisna değildir.
++"""
++import io
++import json
++import os
++import re
++import subprocess
++
++VARSAYILAN = os.path.join("denetim", "SAHIPLIK-HUKUM-LISTESI.json")
++ALANLAR = ("yama", "ad", "kova", "dayanak", "gerekce")
++_SHA_RX = re.compile(r"^[0-9a-f]{7,40}$")
++_YOL_RX = re.compile(r"^((?:denetim|dersler|oturumlar|arac|data)/[^:]+?)(?::(.+))?$")
++
++
++def dayanak_coz(dayanak, kok):
++    """([çözülen parça], [çözülmeyen parça + sebep])."""
++    tamam, bozuk = [], []
++    for p in [x.strip() for x in (dayanak or "").split("·")]:
++        if not p:
++            continue
++        if _SHA_RX.match(p):
++            q = subprocess.run(["git", "-C", kok, "cat-file", "-e", "%s^{commit}" % p], capture_output=True)
++            (tamam if q.returncode == 0 else bozuk).append(p if q.returncode == 0 else "%s (commit YOK)" % p)
++            continue
++        m = _YOL_RX.match(p)
++        if not m:
++            continue                                   # düz metin: dayanak SAYILMAZ
++        yol, bolum = m.group(1).strip(), (m.group(2) or "").strip()
++        tam = os.path.join(kok, yol)
++        if not os.path.isfile(tam):
++            bozuk.append("%s (dosya YOK)" % yol)
++        elif bolum and bolum not in io.open(tam, encoding="utf-8", errors="replace").read():
++            bozuk.append("%s:%s (bölüm dosyada GEÇMİYOR)" % (yol, bolum))
++        else:
++            tamam.append(p)
++    return tamam, bozuk
++
++
++def oku(yol, kok):
++    """None (dosya YOK) ya da (geçerli_satırlar, reddedilen[(etiket, sebep)]). Satıra `_no` eklenir."""
++    if not os.path.exists(yol):
++        return None
++    red, gecerli = [], []
++    try:
++        j = json.load(io.open(yol, encoding="utf-8"))
++        liste = j.get("hukumler") if isinstance(j, dict) else None
++        if not isinstance(liste, list):
++            raise ValueError("`hukumler` listesi yok")
++    except ValueError as e:
++        return [], [("<dosya>", "hüküm listesi OKUNAMADI: %s" % e)]
++    for n, h in enumerate(liste, 1):
++        if not isinstance(h, dict):
++            red.append(("#%d" % n, "satır bir nesne değil"))
++            continue
++        eksik = [k for k in ALANLAR if not (isinstance(h.get(k), str) and h[k].strip())]
++        if eksik:
++            red.append(("#%d %s" % (n, h.get("ad", "?")), "alan EKSİK/BOŞ: %s" % ", ".join(eksik)))
++            continue
++        ok, boz = dayanak_coz(h["dayanak"], kok)
++        if boz or not ok:
++            red.append(("#%d %s" % (n, h["ad"]), "DAYANAK %s: %r" % (
++                "çözülmüyor — " + "; ".join(boz) if boz else "YOK (çözülen SHA ya da dosya yok)", h["dayanak"])))
++            continue
++        gecerli.append(dict(h, _no=n))
++    return gecerli, red
++
++
++_NODE = r"""
++global.window = {};
++const fs = require('fs');
++eval(fs.readFileSync(process.argv[1], 'utf8'));
++const out = [];
++for (const k of Object.keys(window)) for (const r of (Array.isArray(window[k]) ? window[k] : []))
++  if (r && r.ad !== undefined) out.push(r);
++process.stdout.write(JSON.stringify(out));
++"""
++UZERINE_YAZAN = ("d", "s", "v", "isg", "m")
++
++
++def _kanon(v):
++    return json.dumps(v, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
++
++
++def olu_ucuz(satirlar, veri_dizini, bugun):
++    """UCUZ ölü-satır ölçümü (denetle.py için — `_sahiplik_uygula` KOŞMAZ).
++
++    `bugun`: {ad: kayıt} (motorun okuduğu hâl). Döner: [(satır, sebep)] ölü · [(satır, sebep)] ölçülemedi.
++    Ölçüt: ① yama dosyası YOK · ② kayıt yamada YOK · ③ yama İNMİŞ = yamanın üzerine yazan her alanı
++    (d·s·v·isg·m) bugünkü kayıtla BİREBİR aynı (yazacak bir şeyi kalmamış ⇒ atlanamaz ⇒ satır ölü).
++    ⚠️ "o kova ile hâlâ atlanıyor mu" sorusunun TAMAMI pahalıdır (aracın kendisi); burada yalnız bu üçü."""
++    olu, olcmedi, onbellek = [], [], {}
++    for h in satirlar:
++        yol = os.path.join(veri_dizini, h["yama"])
++        if not os.path.isfile(yol):
++            olu.append((h, "yama dosyası data/'da YOK"))
++            continue
++        if yol not in onbellek:
++            p = subprocess.run(["node", "-e", _NODE, yol], capture_output=True)
++            onbellek[yol] = json.loads(p.stdout.decode("utf-8")) if p.returncode == 0 else None
++        kayitlar = onbellek[yol]
++        if kayitlar is None:
++            olcmedi.append((h, "yama dosyası node ile okunamadı"))
++            continue
++        r = [x for x in kayitlar if x.get("ad") == h["ad"]]
++        if not r:
++            olu.append((h, "kayıt yamada YOK"))
++            continue
++        b = bugun.get(h["ad"])
++        if b is None:
++            continue                                     # veride yok: inmiş olamaz (atlanma sebebi başka)
++        alanlar = [a for a in UZERINE_YAZAN if any(a in x for x in r)]
++        if alanlar and all(_kanon(x[a]) == _kanon(b.get(a)) for x in r for a in alanlar if a in x):
++            olu.append((h, "yama İNMİŞ — üzerine yazan alanları (%s) bugünkü kayıtla birebir aynı"
++                        % ",".join(alanlar)))
++    return olu, olcmedi
+diff --git a/arac/_sahiplik_uygula.py b/arac/_sahiplik_uygula.py
+index c4f5f853..949984bb 100644
+--- a/arac/_sahiplik_uygula.py
++++ b/arac/_sahiplik_uygula.py
+@@ -27,6 +27,13 @@
+        TABLO KULLANIR. `denetle.py` alışkanlığıyla buradaki 2'yi "ölçülemedi" okumak GERÇEK bir
+        ihlali yutar. Bu aracın tablosu projenin 0/1/2 düzeninden ÖNCE kuruldu ve değiştirmek
+        ARAC-SAHIPLIK-KAPI-SINAV-1006'yı bozar; korunan öz aynıdır: ölçülemedi ASLA 0 dönmez.
++       (SAHIPLIK-KAPSAM-1010) ATLAMA DA ÇIKIŞA YANSIR — kova kova `ATLAMA_CIKIS` tablosu:
++       `kapsam-daraldi` (yama uygulansa kaydın bugünkü kapsamından gün SİLER) = BAYAT ailesi,
++       ÇIKIŞ 2, HİÇBİR DOSYA YAZILMAZ · `kapsam-olculemedi` = 3 (hiçbir dosya yazılmaz) ·
++       araç indiremedi / karar bekleyen atlamalar = 4 (`taninmadi` gibi: öteki kayıtlar
++       yazılır, çıkış 4) · yalnız gerekçesi tabloda YAZILI meşru kovalar 0'a izin verir.
++       Atlananlar en sonda TEK BLOK hâlinde ADIYLA basılır (`ATLANAN (n): ad [kova] · …`),
++       kuru koşuda da — commit mesajına olduğu gibi yapıştırılır.
+ 
+ TABAN BEYANI (SAHIPLIK-BAYAT-TABAN-1009) — kayıt başına, `git apply`ın üç-yollu sorusu:
+     {ad:"Budin", s:[…hedef…], taban:{s:[…yamanın üretildiği andaki s…]}}
+@@ -88,11 +95,56 @@ import subprocess
+ import sys
+ 
+ if hasattr(sys.stdout, "reconfigure"):
+-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+-
+-KOK = os.getcwd()
++    # (KAPSAM-1010 ③) SATIR TAMPONLU: dışarıdan öldürülen koşu log kuyruğunu kaybetmesin (`py -u` eşdeğeri).
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
++
++# 🔴 (KAPSAM-1010 ①) KÖK ARACIN KENDİ YOLUNDAN — `os.getcwd()` DEĞİL. Eski hâl repo kökü DIŞINDAN
++#   çağrılınca BAŞKA bir ağacı okur ve --yaz'da ONA YAZARDI (aynı anda birden çok worktree açık).
++#   Kök, `git rev-parse --show-toplevel` ile UYUŞMAZSA araç KURULAMAZ (çıkış 3). Bu kontrolün
++#   kapatma bayrağı YOKTUR — --yaz dahil her kipte koşar.
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ VERI = os.path.join(KOK, "data")
++
++
++def _kok_dogrula():
++    import shutil
++    try:
++        q = subprocess.run(["git", "-C", KOK, "rev-parse", "--show-toplevel", "HEAD"], capture_output=True)
++    except OSError as e:
++        print("🔴 KÖK DOĞRULANAMADI — git çalıştırılamadı (%s); hiçbir şey okunmadı/yazılmadı (çıkış 3)." % e)
++        raise SystemExit(3)
++    satir = q.stdout.decode("utf-8", "replace").split()
++    ust = satir[0] if satir else ""
++    norm = lambda p: os.path.normcase(os.path.realpath(p))  # noqa: E731
++    if q.returncode != 0 or not ust or norm(ust) != norm(KOK):
++        print("🔴 KÖK UYUŞMAZ — aracın kökü %s · git'in kökü %r (dönüş kodu %d) ⇒ yanlış ağacı okuyup "
++              "yazmamak için araç KURULAMADI (çıkış 3)." % (KOK, ust, q.returncode))
++        raise SystemExit(3)
++    print("KÖK: %s" % KOK)
++    print("HEAD: %s" % (satir[1] if len(satir) > 1 else "?"))
++    print("git: %s" % (shutil.which("git") or "?"))
++    print("node: %s" % (shutil.which("node") or "?"))
++    if os.path.normcase(os.path.realpath(os.getcwd())) != norm(KOK):
++        print("  i çalışma dizini %s ≠ kök — kök ARACIN yolundan alındı" % os.getcwd())
++
++
++_kok_dogrula()
+ YAZ = "--yaz" in sys.argv
++# `--atlama-yalniz` (SAHIPLIK-KAPSAM-1010 · denetle.py'nin hızlı kipi): GERİ ALMA KAPISINI (git log -L,
++#   Z5 boyunda ~21 dk) ATLAR; yükleme · kapsam/atlama tespiti · hüküm listesi · yıkıcı yazım · taban
++#   kapısı KOŞAR. Kendi çıkış sözleşmesi: 0 temiz (yalnız listeli/meşru atlama) · 2 listesiz atlama /
++#   kapsam / yıkıcı / bayat taban · 3 ölçülemedi. 🔴 `--yaz` ile REDDEDİLİR (çıkış 3): geri alma
++#   kapısı sorulmadan hiçbir şey yazılamaz.
++# `--json <yol>`: ayrı KOVALAR — listeli_atlama · listesiz_atlama · yikici (+ mesru_atlama · bayat ·
++#   olculemedi); her öğe yama · ad · kova · sebep. Kovalar HER ZAMAN yazılır (boş liste ≠ eksik anahtar).
++#   🔴 İLKE: bu aracın çıkış kodu §3'ün 0/1/2 tablosu DEĞİLDİR (burada 2 = BAYAT/ihlal, denetle.py'de
++#   2 = ölçülemedi — aynı rakam, ters hüküm). denetle.py koda değil JSON'a dayanır ve §3'e KENDİSİ çevirir.
++ATLAMA_YALNIZ = "--atlama-yalniz" in sys.argv
++JSON_YOL = sys.argv[sys.argv.index("--json") + 1] if "--json" in sys.argv else None
++if ATLAMA_YALNIZ and YAZ:
++    print("🔴 --atlama-yalniz --yaz REDDEDİLDİ: hızlı kip GERİ ALMA KAPISINI sormaz; yazım yalnız tam "
++          "kipte yapılır. Hiçbir dosya yazılmadı (çıkış 3).")
++    raise SystemExit(3)
+ # `--yama-glob <regex>` — hangi `data/` dosyaları YAMA sayılır (öntanımlı `^yer_yama.*\.js$`).
+ #   SAHIPLIK-UYGULA-KUSUR-1008: sınavın tek bir yamayı, inmiş yamaların glob'u
+ #   (174 kaydı geri alır — dosya başı) DIŞINDA koşturabilmesi için.
+@@ -109,6 +161,15 @@ TABAN_RAPOR = (sys.argv[sys.argv.index("--taban-rapor") + 1]
+ # yazılacak metnine yapay bir MÜKERRER anahtar eklenir — geri okumanın onu yakaladığı
+ # (çıkış 4, hiçbir dosya yazılmadan) İKİNCİ YÖNDE sınanır. Gerçek koşuda boştur.
+ SINAV_BOZ = os.environ.get("SAHIPLIK_SINAV_BOZ", "")
++# Sınav kancası (yalnız `denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py`): adı verilen kaydın yazılacak
++#   metninden KAPSAM KONTROLÜNDEN SONRA ilk `s` dönemi düşürülür (ARALIK_RX körlüğünün eşi: kontrolün
++#   görmediği bir silme). Yıkıcı yazım denetimi onu dosya düzeyinde yakalamalı. Gerçek koşuda boştur.
++SINAV_YIKICI = os.environ.get("SAHIPLIK_SINAV_YIKICI", "")
++# `--hukum-listesi <yol>` (SAHIPLIK-KAPSAM-1010 · ⓑ) — KASITLI atlamaların LİSTESİ; öntanımlı
++#   `denetim/SAHIPLIK-HUKUM-LISTESI.json` (emsal: `denetim/KAYNAK-TAVAN.json` — kod dosyası kendi
++#   istisnasını düzenlemez; liste VERİ, onu okuyan KAPI). Dosya yoksa istisna 0 (en sıkı hâl).
++HUKUM_YOL = (sys.argv[sys.argv.index("--hukum-listesi") + 1] if "--hukum-listesi" in sys.argv
++             else os.path.join(KOK, "denetim", "SAHIPLIK-HUKUM-LISTESI.json"))
+ 
+ # ─────────────────────────────────────────────────────────── ① yamaları oku
+ JS = r"""
+@@ -347,6 +408,7 @@ def _coz(ham):
+ konum = collections.defaultdict(list)
+ icerik = {}
+ json_stili = {}          # (dosya, i) -> kayıt anahtarları TIRNAKLI mı
++nesne_sinir = {}         # (dosya, i) -> ({ sütunu i. satırda, } sütunu j. satırda) — KAPSAM-1010
+ eksik_dosya = []
+ paylasimli = {}          # ad -> sebep  (iki kayıt aynı satırı paylaşıyor)
+ for dosya in DOSYALAR:
+@@ -401,6 +463,7 @@ for dosya in DOSYALAR:
+         ad = _coz(bul.group(1))
+         konum[ad].append((ad_d, i, j))     # ARALIK: [i..j]
+         json_stili[(ad_d, i)] = govde[bul.start()] == '"'
++        nesne_sinir[(ad_d, i)] = (q - bas_ofs[i], p - bas_ofs[j])
+         dosya_ar.append((i, j, ad))
+     # İki kayıt aynı satırı paylaşıyorsa satır aralığıyla yazmak ÖTEKİNİ de ezer ⇒ yazılmaz.
+     dosya_ar.sort()
+@@ -952,22 +1015,75 @@ def dizi_sonu(satir, bas):
+     return -1
+ 
+ 
+-# K1: JSON dönemi `{"f":"…","t":"…"}` de — yoksa kapsam-daralma koruması JSON kayıtta KÖR.
+-ARALIK_RX = re.compile(r'\{\s*"?f"?\s*:\s*"([^"]+)"\s*,\s*"?t"?\s*:\s*"([^"]+)"')
++# ══ KAPSAM GERÇEK AYRIŞTIRICIYLA — SAHIPLIK-KAPSAM-1010 · kusur ② ════════════════
++# 🔴 ÖLÇÜLDÜ (denetim/ATLANAN-63-1010.md §2c): eski `ARALIK_RX`
++#       \{\s*"?f"?\s*:\s*"…"\s*,\s*"?t"?\s*:\s*"…"
++#   yalnız `t`nin `f`nin HEMEN ardından geldiği dönemi görüyordu. `{f, d, kaynak, t}`
++#   sıralı dönemler (Z6'nın eklediği biçim) GÖRÜNMÜYORDU: 93 girdi dosyasında 110 dönem
++#   başlangıcı, ~55 kayıt. Sonuç: İstanbul'un 330-1261'i, Gence'nin 1235-1256'sı kapsam
++#   kaybı olarak HİÇ sayılmadı; 14 kayıt (Ankara, Bayburt, …) kapsam korumasını geçti.
++#   `D267`: *desen veriye uymazsa araç ölmez, YANLIŞ SAYI verir.*
++# 🟢 Çare desen düzeltmek DEĞİL, deseni KALDIRMAK: kaydın `{…}` metni (bugünkü hâli de
++#   yamalı hâli de) MOTORUN OKUYUCUSUNDAN (`girdi._cevir`) geçer ve dönemler ayrıştırılmış
++#   nesneden okunur — anahtar sırası, tırnak, satır bölünmesi artık soru değildir.
++#   Ayrıştırılamayan kayıt / f-t'si eksik dönem / çözülemeyen tarih ⇒ KAPSAM ÖLÇÜLEMEDİ
++#   (sessizce "kayıp yok" DENMEZ — eski desen tam bunu yapıyordu).
++#   Tarihler dizgi olarak değil SAYI üçlüsü olarak karşılaştırılır (`-0330-…` < `0330-…`).
++KAPSAM_ALANLARI = ("d", "s", "v")     # `isg:` kapsama SAYILMAZ (aşağıda, ⑤)
++_GUN_RX = re.compile(r"^(-?\d+)(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
++
++
++class KapsamOlculemedi(Exception):
++    pass
++
+ 
++def _kayit_nesnesi(metin, dosya, i, j):
++    """Satır aralığı [i..j] metninden kaydın KENDİ `{…}` metni (dizi sözdizimi hariç).
+ 
+-def _dilim(satir, alan):
+-    """Satırdaki `<alan>:[ ... ]` diziSİNİN metnini döndürür; yoksa ''."""
+-    m = ara_disi(ALAN_RX[alan], satir)     # düzyazıdaki `s:[` kapsam sayılmaz
++    Önek (`{`dan önceki sütunlar) ve sonek (`}`dan sonrası) yazımla DEĞİŞMEZ — bütün
++    yazımlar nesnenin içindedir ve SATIR PAYLAŞIMLI kayıt zaten yazılmaz."""
++    cq, cp = nesne_sinir[(dosya, i)]
++    kuyruk = len(icerik[dosya][j]) - cp - 1
++    return metin[cq:len(metin) - kuyruk] if kuyruk > 0 else metin[cq:]
++
++
++def _kayit_cevir(nesne):
++    """Tek kaydın metni → dict, MOTORUN OKUYUCUSUYLA (`girdi._cevir`; sonuncu anahtar kazanır)."""
++    try:
++        l = girdi._cevir("window.YERLESIMLER_KAPSAM = [\n%s\n];" % nesne, "YERLESIMLER_KAPSAM")
++    except (ValueError, SystemExit) as e:
++        raise KapsamOlculemedi("kayıt motorun okuyucusuyla ayrıştırılamadı (%s)" % str(e)[:80])
++    if len(l) != 1 or not isinstance(l[0], dict):
++        raise KapsamOlculemedi("kayıt metninden %d nesne çıktı (1 beklenirdi)" % len(l))
++    return l[0]
++
++
++def _gun_anahtar(g):
++    m = _GUN_RX.match(g) if isinstance(g, str) else None
+     if not m:
+-        return ""
+-    son = dizi_sonu(satir, m.end() - 1)
+-    return satir[m.end() - 1:son + 1] if son > 0 else ""
++        raise KapsamOlculemedi("tarih çözülemedi: %r" % (g,))
++    return (int(m.group(1)), int(m.group(2) or 1), int(m.group(3) or 1))
+ 
+ 
+-def araliklar(metin):
+-    """`{f:"..",t:".."}` çiftlerini toplar."""
+-    return [(a, b) for a, b in ARALIK_RX.findall(metin or "")]
++def kapsam(kayit):
++    """d·s·v dönemlerinin birleşik kapsamı: [((anahtar, "f"), (anahtar, "t")), …]."""
++    par = []
++    for alan in KAPSAM_ALANLARI:
++        v = kayit.get(alan)
++        if v is None:
++            continue
++        if not isinstance(v, list):
++            raise KapsamOlculemedi("%s: dizi değil" % alan)
++        for p in v:
++            if not isinstance(p, dict) or "f" not in p or "t" not in p:
++                raise KapsamOlculemedi("%s: f/t'si eksik dönem %s"
++                                       % (alan, json.dumps(p, ensure_ascii=False)[:80]))
++            par.append(((_gun_anahtar(p["f"]), p["f"]), (_gun_anahtar(p["t"]), p["t"])))
++    return birlestir(par)
++
++
++def _ar_yaz(x):
++    return "%s→%s" % (x[0][1], x[1][1])
+ 
+ 
+ def birlestir(par):
+@@ -1019,6 +1135,48 @@ def js_yaz(deger):
+ 
+ 
+ # ──────────────────────────────────────────────────────────── ⑥ uygula
++# ══ ATLAMA ÇIKIŞA YANSIR — SAHIPLIK-KAPSAM-1010 · kusur ① ═══════════════════════════
++# 🔴 ÖLÇÜLDÜ (denetim/ATLANAN-63-1010.md §6): `atlanan` listesi çıkış kararına HİÇ girmiyordu.
++#   Yalnız "KAPSAM DARALDI" atlaması olan kuru koşu ÇIKIŞ 0 verdi ve iki kapı da "TAZE" bastı
++#   (0 değişim üzerinde); inmiş yamalarda 9 dosya / 10 kayıt bugün tam böyle SESSİZ atlanıyordu.
++# Her kova burada ADIYLA ve GEREKÇESİYLE durur; tabloda OLMAYAN kova MEŞRU SAYILMAZ (4).
++#   2 — BAYAT ailesi: yama uygulansa VERİ SİLER ⇒ HİÇBİR DOSYA YAZILMAZ.
++#   3 — ölçülemedi ⇒ HİÇBİR DOSYA YAZILMAZ (ölçülemedi ≠ temiz).
++#   4 — kayıt İNMEDİ ve bu bir karar/araç sorunudur (`taninmadi`nın ailesi): öteki kayıtlar
++#       yazılır, ama araç 0 DEMEZ. ⚠️ `cakisma` · `belirsiz` · `veride-yok` · `gun-maddesiz`
++#       için meşruiyet KOORDİNATÖRE SORULDU (denetim/SAHIPLIK-KAPSAM-1010.md); cevap gelene
++#       kadar varsayılan "çıkışa yansır" (koordinatör hükmü, 10 Ekim 2026).
++#   0 — meşru: kayıt ya da ALANI kasıtla yazılmadı, veri kaybı YOK, kararı zaten VERİLMİŞ.
++ATLAMA_CIKIS = {
++    # BAYAT ailesi — yeni kapsam bugünkünden dar: yazılsa bugünkü dönemler SİLİNİRDİ.
++    "kapsam-daraldi": 2,
++    # Kapsam ayrıştırılamadı — "kayıp yok" denemez.
++    "kapsam-olculemedi": 3,
++    # Araç İNDİREMEDİ (yama doğru olabilir, yazıcı yazamıyor):
++    "taninmadi": 4,          # motor okuyor, araç göremiyor (1008'den beri 4)
++    "cipa-yok": 4,           # dizi kapanmıyor / `ad:` çıpası yok
++    "mukerrer-anahtar": 4,   # tekilleştirme başaramadı
++    "satir-paylasimli": 4,   # iki kayıt aynı satırda — satır aralığıyla yazılamaz
++    # Karar bekliyor — VARSAYILAN YANSIR (koordinatöre soruldu):
++    "cakisma": 4,            # iki yama aynı alana FARKLI değer — hangisi doğru, insan kararı
++    "belirsiz": 4,           # ad birden çok kayıtta — hangi kayıt, insan kararı
++    "veride-yok": 4,         # yeni nokta ya da ADI DEĞİŞMİŞ kayıt (bayat yama olabilir)
++    "gun-maddesiz": 4,       # Değişmez 2 kapısı — madde inince yama iner; o zamana dek AÇIK iş
++    # MEŞRU — 0'a izin verir:
++    "kendi-kilidi": 0,       # yazar `d2_gerek` ile BİLEREK kilitlemiş (başlık ③)
++    "kaynak-ayrisan": 0,     # veri İNDİ; yalnız kaynak yazılmadı — 2 Eylül koordinatör hükmü
++    "skaler-bos": 0,         # yamanın değeri boş — yazılacak bir şey yok
++    # "<alan>-dolu" (kaynak/bos/neden/kur DOLU, ezilmedi) — MEŞRU, `_atlama_kodu`na bak:
++    #   sözleşme gereği korunan alan ezilmez, kaydın öteki alanları İNDİ.
++}
++
++
++def _atlama_kodu(kova):
++    if kova.endswith("-dolu") or kova.startswith("hukumlu:"):
++        return 0
++    return ATLAMA_CIKIS.get(kova, 4)        # tanınmayan kova MEŞRU SAYILMAZ
++
++
+ ist = collections.Counter()
+ atlanan = []
+ degisiklik = collections.defaultdict(int)
+@@ -1027,6 +1185,8 @@ duzenleme = []        # (dosya, i, j, yeni_satirlar) — TERSTEN uygulanır
+ kapi_aday = []        # geri alma kapısına gidecek her değişim (yazmadan ÖNCE sorulur)
+ taban_aday = []       # (ad, dosya, r) — TABAN KAPISINA gidecek her değişim
+ beklenen = collections.defaultdict(dict)   # dosya -> ad -> {alan: GERİ OKUMADA beklenen}
++kapsam_daralan = []   # (ad, dosya, [kayıp aralık]) — KAPSAM-1010: ÇIKIŞ 2, hiçbir dosya yazılmaz
++kapsam_olcmedi = []   # (ad, dosya, sebep)          — KAPSAM-1010: ÇIKIŞ 3
+ 
+ 
+ def _tirnaksiz(s):
+@@ -1039,32 +1199,32 @@ for ad, liste in sorted(gruplu.items()):
+ 
+     if ad in cakisan:
+         ist["cakisma"] += 1
+-        atlanan.append((ad, "ÇAKIŞMA: %s — içerik farklı, KARAR GEREK"
++        atlanan.append((ad, "cakisma", "ÇAKIŞMA: %s — içerik farklı, KARAR GEREK"
+                         % " vs ".join(sorted({y["__dosya"] for y in liste}))))
+         continue
+     if r.get("d2_gerek"):
+         ist["kendi-kilidi"] += 1
+-        atlanan.append((ad, "KENDİ KİLİDİ: %s" % str(r["d2_gerek"])[:70]))
++        atlanan.append((ad, "kendi-kilidi", "KENDİ KİLİDİ: %s" % str(r["d2_gerek"])[:70]))
+         continue
+ 
+     yerler = konum.get(ad, [])
+     if not yerler and ad in girdi_kayit:
+         # K1'in sınıfı: motor bu kaydı OKUYOR, araç GÖREMİYOR. "veride-yok" demek YALANDIR.
+         ist["taninmadi"] += 1
+-        atlanan.append((ad, "🔴 TANINMADI — kayıt %s içinde VAR (motor okuyor) ama bu araç "
++        atlanan.append((ad, "taninmadi", "🔴 TANINMADI — kayıt %s içinde VAR (motor okuyor) ama bu araç "
+                             "göremiyor; yama İNMEDİ (çıkış 4)" % girdi_kayit[ad][0]))
+         continue
+     if not yerler:
+         ist["veride-yok"] += 1
+-        atlanan.append((ad, "veride YOK — yeni nokta, yama ile yazılmaz"))
++        atlanan.append((ad, "veride-yok", "veride YOK — yeni nokta, yama ile yazılmaz"))
+         continue
+     if len(yerler) > 1:
+         ist["belirsiz"] += 1
+-        atlanan.append((ad, "%d kayıtta birden geçiyor" % len(yerler)))
++        atlanan.append((ad, "belirsiz", "%d kayıtta birden geçiyor" % len(yerler)))
+         continue
+     if ad in paylasimli:
+         ist["satir-paylasimli"] += 1
+-        atlanan.append((ad, "SATIR PAYLAŞIMLI — %s; satır aralığıyla yazmak öteki kaydı "
++        atlanan.append((ad, "satir-paylasimli", "SATIR PAYLAŞIMLI — %s; satır aralığıyla yazmak öteki kaydı "
+                             "da ezer" % paylasimli[ad]))
+         continue
+ 
+@@ -1077,7 +1237,7 @@ for ad, liste in sorted(gruplu.items()):
+                 kayip.append(g)
+     if kayip:
+         ist["gun-maddesiz"] += 1
+-        atlanan.append((ad, "MADDESİZ GÜN (Değişmez 2 açılır): %s"
++        atlanan.append((ad, "gun-maddesiz", "MADDESİZ GÜN (Değişmez 2 açılır): %s"
+                         % ", ".join(sorted(set(kayip))[:4])))
+         continue
+ 
+@@ -1107,7 +1267,7 @@ for ad, liste in sorted(gruplu.items()):
+     _muk = mukerrer_alanlar(satir, [a for a in CATISABILIR if a in r])
+     if _muk:
+         ist["mukerrer-anahtar"] += 1
+-        atlanan.append((ad, "MÜKERRER ÜST-SEVİYE ANAHTAR (%s) — JS SONUNCUYU "
++        atlanan.append((ad, "mukerrer-anahtar", "MÜKERRER ÜST-SEVİYE ANAHTAR (%s) — JS SONUNCUYU "
+                             "okur, bu betik İLKİNE yazar ⇒ yama SESSİZCE "
+                             "ÖLÜRDÜ. Kayıt önce tekilleştirilmeli "
+                             "(`denetim/ARAC-MUKERRER-TEKILLE-0907.js`)"
+@@ -1152,14 +1312,14 @@ for ad, liste in sorted(gruplu.items()):
+         #   olur — bu aletin başlığının adıyla mahkûm ettiği şey.
+         #   ⇒ Kaynak YAZILMAZ, soru AÇIK ve GÖRÜNÜR kalır.
+         if alan == "kaynak" and ad in kaynak_ayrisan:
+-            atlanan.append((ad, "kaynak: %d yama FARKLI kaynak yazıyor — "
++            atlanan.append((ad, "kaynak-ayrisan", "kaynak: %d yama FARKLI kaynak yazıyor — "
+                                 "VERİ İNDİ, kaynak YAZILMADI; hangisinin "
+                                 "doğru olduğu KARARA BAĞLANMALI"
+                             % len(gruplu[ad])))
+             continue
+         deger = r[alan]
+         if deger is None or deger == "":
+-            atlanan.append((ad, "%s: yamada BOŞ — boş değer yazılmaz" % alan))
++            atlanan.append((ad, "skaler-bos", "%s: yamada BOŞ — boş değer yazılmaz" % alan))
+             continue
+         m = ara_disi(SKALER_RX[alan], yeni_satir)
+         mn = ara_disi(SKALER_NULL_RX[alan], yeni_satir)
+@@ -1184,7 +1344,7 @@ for ad, liste in sorted(gruplu.items()):
+                 continue
+             if alan in SKALER_KORUNAN and m.group(2).strip():
+                 ist["%s-dolu" % alan] += 1
+-                atlanan.append((ad, "%s: ZATEN DOLU, ezilmedi — "
++                atlanan.append((ad, "%s-dolu" % alan, "%s: ZATEN DOLU, ezilmedi — "
+                                     "değiştirmek isteyen elle yapar" % alan))
+                 continue
+             yeni_satir = (yeni_satir[:m.start()] + m.group(1)
+@@ -1207,7 +1367,7 @@ for ad, liste in sorted(gruplu.items()):
+ 
+     if hata:
+         ist["cipa-yok"] += 1
+-        atlanan.append((ad, hata))
++        atlanan.append((ad, "cipa-yok", hata))
+         continue
+     if yeni_satir == satir_orj:
+         ist["zaten-boyle"] += 1
+@@ -1232,21 +1392,44 @@ for ad, liste in sorted(gruplu.items()):
+     #   kaybolan aralık ADIYLA raporlanır. Genişleme serbest, daralma
+     #   insan kararı ister.
+     # 📌 `isg:` kapsama SAYILMAZ — o bir işgal ÖRTÜSÜdür, sahiplik değil.
+-    eski_kap = birlestir(sum(
+-        (araliklar(_dilim(satir, alan)) for alan in ("d", "s", "v")), []))
+-    yeni_kap = birlestir(sum(
+-        (araliklar(_dilim(yeni_satir, alan)) for alan in ("d", "s", "v")), []))
++    # 🔴 SAHIPLIK-KAPSAM-1010: kapsam desenle değil MOTORUN OKUYUCUSUYLA (kusur ②); bugünkü
++    #   hâl (`satir_orj`) ve yamalı hâl AYNI ayrıştırıcıdan geçer.
++    try:
++        eski_kap = kapsam(_kayit_cevir(_kayit_nesnesi(satir_orj, dosya, i, j)))
++        yeni_kap = kapsam(_kayit_cevir(_kayit_nesnesi(yeni_satir, dosya, i, j)))
++    except KapsamOlculemedi as _e:
++        ist["kapsam-olculemedi"] += 1
++        kapsam_olcmedi.append((ad, dosya, str(_e)))
++        atlanan.append((ad, "kapsam-olculemedi", "KAPSAM ÖLÇÜLEMEDİ — %s; ölçülemedi ≠ temiz, "
++                                                 "kayıt YAZILMADI (çıkış 3)" % _e))
++        continue
+     kayip_ar = eksilen(eski_kap, yeni_kap)
+     if kayip_ar:
+         ist["kapsam-daraldi"] += 1
+-        atlanan.append((ad, "KAPSAM DARALDI — %s (yama EKLEME mi DEĞİŞTİRME mi belirsiz)"
+-                        % "; ".join("%s→%s" % x for x in kayip_ar[:3])))
++        kapsam_daralan.append((ad, dosya, kayip_ar))
++        atlanan.append((ad, "kapsam-daraldi", "KAPSAM DARALDI — %s%s (yama EKLEME mi DEĞİŞTİRME mi "
++                                              "belirsiz; uygulansa gün SİLER ⇒ çıkış 2)"
++                        % ("; ".join(_ar_yaz(x) for x in kayip_ar[:3]),
++                           " … +%d aralık" % (len(kayip_ar) - 3) if len(kayip_ar) > 3 else "")))
++        # 🔴 KAPSAM-1010 · kusur ③: eskiden burada `continue` vardı ve kayıt TABAN KAPISINA
++        #   hiç ulaşmıyordu ⇒ hem daralan hem bayat kayıtta bayatlık ÖLÇÜLMÜYORDU (ölçüldü:
++        #   Gence · Hucend · Kars · Taşkent, Z6'dan sonra BAYAT'tan ATLANAN'a "kayboldu").
++        #   Kayıt YAZILMAZ ama taban sorusuna GİRER; iki kovada da ADIYLA görünebilir.
++        taban_aday.append((ad, dosya, r))
+         continue
+ 
+     # 🔴 HEMEN YAZMA — aralık değişimi sonraki kayıtların satır
+     #   numaralarını kaydırır. Bütün düzenlemeler toplanır ve dosya
+     #   sonundan başına doğru (TERSTEN) uygulanır; böylece henüz
+     #   uygulanmamış aralıkların indeksleri geçerli kalır.
++    if SINAV_YIKICI and ad == SINAV_YIKICI and isinstance(r.get("s"), list) and len(r["s"]) > 1:
++        # Sınav kancası: kapsam kontrolü GEÇTİKTEN SONRA ilk `s` dönemi düşer; geri okuma beklentisi de
++        #   ona uydurulur (kendini doğru sanan kör bir yazıcının eşi) ⇒ yalnız YIKICI denetimi görebilir.
++        _m = ara_disi(ALAN_RX["s"], yeni_satir)
++        _son = dizi_sonu(yeni_satir, _m.end() - 1)
++        yeni_satir = yeni_satir[:_m.end() - 1] + deger_yaz(r["s"][1:], jsn) + yeni_satir[_son + 1:]
++        bek["s"] = r["s"][1:]
++        print("  ⚠️ SINAV KANCASI ETKİN: '%s' kaydından ilk `s` dönemi kapsam kontrolünden SONRA düşürüldü" % ad)
+     if SINAV_BOZ and ad == SINAV_BOZ:
+         # Sınav kancası: yapay MÜKERRER anahtar — geri okuma bunu yakalamalı.
+         _k = yeni_satir.rindex("}")
+@@ -1266,6 +1449,88 @@ for ad, liste in sorted(gruplu.items()):
+     inen.append((ad, dosya, "+".join(dokunulan), zayif,
+                  (j - i + 1) if j > i else 1))
+ 
++# ─────────────────────────────── ⑥b HÜKÜM LİSTESİ — KASITLI atlama ≠ KAZA atlaması (KAPSAM-1010 ⓑ)
++# 🔴 ÖLÇÜLDÜ (ATLANAN-63 §6c): 104 inmiş yamada 9 dosya / 10 kayıt çıkış 0 ile atlanıyordu; üçünün
++#   hükmü vardı (63bb90dd), yedisinin YOKTU — ve ikisi ekranda BİREBİR aynı görünüyordu.
++# Kural (§3.4⑤ — istisna listesi de tavan ailesidir, SAYI değil LİSTE):
++#   ① her satır = yama + ad + kova + DAYANAK (çözülen commit SHA'sı ve/veya var olan `dosya[:bölüm]`)
++#     + gerekçe. Dayanaksız / çözülmeyen dayanaklı satır REDDEDİLİR ⇒ ÇIKIŞ 3 (liste güvenilmez).
++#   ② listedeki atlama `hukumlu:<kova>` kovasına geçer, ADIYLA basılır, 0'a izin verir; listede
++#     OLMAYAN atlama `ATLAMA_CIKIS`e göre (kapsam-daraldi ⇒ 2) — hiçbir şey sessizce affedilmez.
++#   ③ ÖLÜ SATIR YOK: satırın yaması bu koşunun glob'unda ama o kayıt o kovayla ATLANMIYORSA ya da
++#     yama dosyası data/'da YOKSA satır ÖLÜdür ⇒ ÇIKIŞ 3. Gerekçe: ölü istisna bugün hiçbir şeyi
++#     susturmuyor ama listenin bu veriyle bağı kopmuş demektir — yarın gerçek bir ihlali susturur;
++#     bu bir veri ihlali (2) değil, KAPININ kendi ayarının ölçülemezliğidir (3). Hiçbir dosya yazılmaz.
++#     Yaması glob DIŞINDA kalan satır ölü değil KAPSAM DIŞIdır (tek dosyalık koşu bütün listeyi
++#     öldürmesin) — sayısı basılır.
++#   Okuyucu TEKTİR: `arac/_hukum_listesi.py` (denetle.py de onu kullanır; dayanak dilbilgisi orada).
++hukumler, hukum_red, hukum_olu, hukum_disi = [], [], [], []
++try:
++    import _hukum_listesi as HL  # noqa: E402
++except Exception as _e:  # noqa: BLE001
++    HL = None
++    _hl_hata = "%s: %s" % (type(_e).__name__, _e)
++if not os.path.exists(HUKUM_YOL):
++    print("HÜKÜM LİSTESİ: %s YOK — kasıtlı atlama istisnası 0 (en sıkı hâl)" % HUKUM_YOL)
++elif HL is None:
++    hukum_red.append(("<okuyucu>", "arac/_hukum_listesi.py YÜKLENEMEDİ (%s) — liste okunamadı" % _hl_hata))
++    print("HÜKÜM LİSTESİ: okuyucu yok — liste VAR ama OKUNAMADI (çıkış 3)")
++else:
++    hukumler, hukum_red = HL.oku(HUKUM_YOL, KOK)
++    print("HÜKÜM LİSTESİ: %s — %d satır geçerli, %d REDDEDİLDİ"
++          % (os.path.relpath(HUKUM_YOL, KOK), len(hukumler), len(hukum_red)))
++
++_glob_rx = re.compile(YAMA_GLOB)
++_kullanilan = set()
++hukum_uyusmaz = []
++# Kayıt düzeyinde atlanan adlar (alan düzeyindeki `-dolu` / `kaynak-ayrisan` / `skaler-bos` kaydı İNDİRİR).
++_kayit_atlanan = {_a for _a, _k, _s in atlanan
++                  if not (_k.endswith("-dolu") or _k in ("kaynak-ayrisan", "skaler-bos"))}
++for _i, (_a, _k, _s) in enumerate(atlanan):
++    _dosyalar = {y["__dosya"] for y in gruplu.get(_a, [])}
++    for _h in hukumler:
++        if _h["ad"] == _a and _h["kova"] == _k and _h["yama"] in _dosyalar:
++            atlanan[_i] = (_a, "hukumlu:" + _k, "%s ⇐ HÜKÜM %s — %s" % (_s, _h["dayanak"], _h["gerekce"]))
++            _kullanilan.add(_h["_no"])
++            break
++for _h in hukumler:
++    if _h["_no"] in _kullanilan:
++        continue
++    if not os.path.exists(os.path.join(VERI, _h["yama"])):
++        hukum_olu.append(_h)                      # yama silindi / taşındı
++    elif not _glob_rx.search(_h["yama"]):
++        hukum_disi.append(_h)
++    elif _h["ad"] in _kayit_atlanan:
++        # Kayıt bu koşuda ATLANIYOR ama BAŞKA kovayla (ör. tam glob'da iki yama `cakisma` verir):
++        #   satır ölü DEĞİL (kayıt hâlâ atlanıyor), ama o kovayı da AFFETMEZ — öteki kova kendi
++        #   koduyla çıkışa yansır. Ayrı basılır.
++        hukum_uyusmaz.append(_h)
++    else:
++        hukum_olu.append(_h)                      # yama koşuda, kayıt ATLANMIYOR (indi / değişti)
++_hk_ad = {(_a, _k[8:]) for _a, _k, _s in atlanan if _k.startswith("hukumlu:")}
++kapsam_hukumlu = [x for x in kapsam_daralan if (x[0], "kapsam-daraldi") in _hk_ad]
++kapsam_daralan = [x for x in kapsam_daralan if (x[0], "kapsam-daraldi") not in _hk_ad]
++if hukumler or hukum_red:
++    if _kullanilan:
++        print("  🟢 HÜKÜMLÜ ATLAMA: %d kayıt — KASITLI, dayanaklı; 0'a izin verir:" % len(_kullanilan))
++        for _h in hukumler:
++            if _h["_no"] in _kullanilan:
++                print("  HUKUMLU  %s  [%s · %s]  %s — %s" % (_h["ad"], _h["yama"], _h["kova"], _h["dayanak"],
++                                                          _h["gerekce"]))
++    for _r, _x in hukum_red:
++        print("  HUKUM-RED  %s  [%s]" % (_r, _x))
++    for _h in hukum_olu:
++        print("  HUKUM-OLU  %s  [%s · %s]  #%d — %s" % (
++            _h["ad"], _h["yama"], _h["kova"], _h["_no"],
++            "yama dosyası data/'da YOK" if not os.path.exists(os.path.join(VERI, _h["yama"]))
++            else "bu koşuda o kayıt o kovayla ATLANMIYOR (yama indi / kayıt değişti) — satırı SİL"))
++    for _h in hukum_uyusmaz:
++        print("  HUKUM-KOVA-UYUSMAZ  %s  [%s · %s]  #%d — kayıt bu koşuda BAŞKA kovayla atlanıyor (%s); "
++              "satır o kovayı AFFETMEZ" % (_h["ad"], _h["yama"], _h["kova"], _h["_no"], ",".join(sorted(
++                  {_k for _a, _k, _s in atlanan if _a == _h["ad"]}))))
++    if hukum_disi:
++        print("  i %d hüküm satırı bu koşunun glob'u DIŞINDA (ölü değil, sorulmadı)" % len(hukum_disi))
++
+ # ───────────────────────────────────────────────────────────── ⑦ rapor
+ print()
+ print("=== SAHİPLİK YAMASI — %s ===" % ("YAZILDI" if YAZ else "KURU KOŞU"))
+@@ -1295,9 +1560,87 @@ if degisiklik:
+ if atlanan:
+     print()
+     print("[!] ATLANAN (%d) — sebebiyle:" % len(atlanan))
+-    for ad, sebep in atlanan:
++    for ad, _kova, sebep in atlanan:
+         print("  %-28s %s" % (ad[:28], sebep))
+ 
++# ─────────────────────────────── ⑦a ATLANAN BLOĞU — commit mesajına (SAHIPLIK-KAPSAM-1010 ④)
++# 🔴 ÖLÇÜLDÜ (ATLANAN-63 §6c): geçmiş inişlerin atlanan listeleri commit mesajlarında YOKTU;
++#   "hangi inişte ne atlandı" sorusu git log'dan cevaplanamadı. ⇒ Her çıkış yolunda (kuru
++#   koşu dahil) tek blok ADIYLA basılır; koordinatör onu commit mesajına olduğu gibi yapıştırır.
++def atlanan_blok():
++    sira, kovalar = [], collections.OrderedDict()
++    for a, k, _s in atlanan:
++        if a not in kovalar:
++            kovalar[a] = []
++            sira.append(a)
++        if k not in kovalar[a]:
++            kovalar[a].append(k)
++    ogeler = ["%s [%s]" % (a, ",".join(kovalar[a])) for a in sira]
++    satirlar, cur = [], "ATLANAN (%d):" % len(sira)
++    if not ogeler:
++        cur += " —"
++    for n, o in enumerate(ogeler):
++        parca = (" " if n == 0 else " · ") + o
++        if len(cur) + len(parca) > 100 and n > 0:
++            satirlar.append(cur + " ·")
++            cur = "  " + o
++        else:
++            cur += parca
++    satirlar.append(cur)
++    say = collections.Counter(k for a in sira for k in kovalar[a])
++    if say:
++        satirlar.append("ATLAMA KOVALARI: " + " · ".join(
++            "%s %d (→%d%s)" % (k, n, _atlama_kodu(k), (" hüküm" if k.startswith("hukumlu:") else " meşru")
++                               if _atlama_kodu(k) == 0 else "")
++            for k, n in sorted(say.items())))
++    return satirlar
++
++
++def _json_yaz(kod):
++    """`--json`: ayrı kovalar; HER anahtar her zaman yazılır (boş liste ≠ eksik anahtar)."""
++    if not JSON_YOL:
++        return
++    g = globals()
++
++    def yama_of(a):
++        return ",".join(sorted({y["__dosya"] for y in gruplu.get(a, [])})) or "?"
++    lis, lsz, msr = [], [], []
++    for a, k, sb in atlanan:
++        o = {"yama": yama_of(a), "ad": a, "kova": k, "sebep": sb}
++        (lis if k.startswith("hukumlu:") else msr if _atlama_kodu(k) == 0 else lsz).append(o)
++    yik = [{"yama": yama_of(a), "ad": a, "kova": "yikici", "dosya": d, "sebep": sb}
++           for a, d, sb in g.get("yikici", [])]
++    bay = [{"yama": yama_of(a), "ad": a, "kova": "taban-bayat", "sebep": "[%s] %s" % (al, x)}
++           for a, _d, al, x in g.get("taban_bayat", []) if a in g.get("_tb_ihlal", set())]
++    bay += [{"yama": yama_of(a), "ad": a, "kova": "geri-alma-bayat", "sebep": "%s:%d" % (yl, no)}
++            for a, yl, no, _al in g.get("bayat", [])]
++    olc = [{"yama": yama_of(a), "ad": a, "kova": "taban-olculemedi", "sebep": "[%s] %s" % (al, x)}
++           for a, _d, al, x in g.get("taban_olcmedi", []) if a in g.get("_to_ihlal", set())]
++    olc += [{"yama": yama_of(a), "ad": a, "kova": "kapsam-olculemedi", "sebep": x}
++            for a, _d, x in kapsam_olcmedi]
++    olc += [{"yama": "?", "ad": e, "kova": "hukum-red", "sebep": x} for e, x in g.get("hukum_red", [])]
++    olc += [{"yama": h["yama"], "ad": h["ad"], "kova": "hukum-olu", "sebep": "satır #%d" % h["_no"]}
++            for h in g.get("hukum_olu", [])]
++    if g.get("_kapi_olcmedi"):
++        olc.append({"yama": "*", "ad": "*", "kova": "geri-alma-olculemedi", "sebep": g["_kapi_olcmedi"]})
++    with io.open(JSON_YOL, "w", encoding="utf-8", newline="\n") as f:
++        json.dump({"arac": "_sahiplik_uygula", "kip": "atlama-yalniz" if ATLAMA_YALNIZ else "tam",
++                   "yama_glob": YAMA_GLOB, "cikis": kod, "uygulanan": len(inen),
++                   "listeli_atlama": lis, "listesiz_atlama": lsz, "yikici": yik,
++                   "mesru_atlama": msr, "bayat": bay, "olculemedi": olc}, f, ensure_ascii=False, indent=1)
++
++
++def _cik(kod):
++    _json_yaz(kod)
++    print()
++    print("── ATLANAN BLOĞU (commit mesajına olduğu gibi yapıştır) ──")
++    for _l in atlanan_blok():
++        print(_l)
++    print("ÇIKIŞ: %d" % kod)
++    sys.stdout.flush()
++    raise SystemExit(kod)
++
++
+ # ─────────────────────────────── ⑦b GERİ OKUMA — "yazdım" değil "OKUNUYOR" (ŞART)
+ # 🔴 SAHIPLIK-UYGULA-KUSUR-1008: K2'de araç yeni `s:`yi YAZDI, rapora "uygulandı" BASTI,
+ #   ama JS aynı anahtarın SONUNCUSUNU (eskisini) okuduğu için yama ÖLÜYDÜ. "Yazdığım
+@@ -1372,12 +1715,55 @@ def _dogrulama_bas(hatalar, baslik):
+ 
+ print()
+ _bellek = _uygula_bellekte()
++
++# ─────────────────────────────── ⑦b' YIKICI YAZIM — dosya düzeyinde, MOTORUN OKUYUCUSUYLA (KAPSAM-1010)
++# Soru: değişimler UYGULANDIĞINDA (bellekte, yazmadan önce) bir kaydın sahiplik DİLİMİ (d·s·v
++#   dönemlerinin birleşik zaman kapsamı) bir gün bile kaybediyor mu, ya da kayıt SİLİNİYOR mu?
++#   Önce/sonra BÜTÜN dosya `girdi._cevir`den geçer — desen (ARALIK_RX) YOK, kayıt sınırı tarayıcısı YOK:
++#   kapsam kontrolünün (⑤) kayıt düzeyinde KAÇIRDIĞI her silmeyi (o kontrolün kendi kör noktası,
++#   yanlış nesne sınırı, komşu kayda taşma) bağımsız bir yoldan yakalar. Bugün BOŞ olmalı; sınav
++#   kancasıyla dolu hâli iki yönde sınanır.
++# ⚠️ Bir devletin döneminin kısalması TEK BAŞINA yıkıcı DEĞİLDİR: her düzeltme yaması (b 1281-1600 →
++#   b 1281-1550 + yeni 1550-1600) bunu yapar. Yıkıcı olan SAHİPSİZ kalan gündür (Değişmez 1/1b'nin
++#   sorusu) ve kaydın kendisinin silinmesidir.
++yikici = []                                   # (ad, dosya, sebep)
++for _d in degisiklik:
++    try:
++        _ek = girdi._cevir("\n".join(icerik[_d]), girdi_degisken.get(_d))
++        _yk = girdi._cevir(_bellek[_d], girdi_degisken.get(_d))
++    except (ValueError, SystemExit) as _e:
++        kapsam_olcmedi.append(("<%s>" % _d, _d, "yıkıcı denetimi: dosya ayrıştırılamadı (%s)" % _e))
++        continue
++    _ym = {}
++    for _y in _yk:
++        _ym.setdefault(_y.get("ad"), []).append(_y)
++    for _y in _ek:
++        _a = _y.get("ad")
++        _sonra = _ym.get(_a, [])
++        if len(_sonra) != 1:
++            yikici.append((_a, _d, "kayıt SİLİNDİ" if not _sonra else "kayıt %d kez" % len(_sonra)))
++            continue
++        try:
++            _kay = eksilen(kapsam(_y), kapsam(_sonra[0]))
++        except KapsamOlculemedi as _e:
++            kapsam_olcmedi.append((_a, _d, "yıkıcı denetimi: %s" % _e))
++            continue
++        if _kay:
++            yikici.append((_a, _d, "dilim SİLİNDİ/KISALDI: %s" % "; ".join(_ar_yaz(x) for x in _kay)))
++if yikici:
++    print("🔴 YIKICI YAZIM: %d kayıt — uygulanınca sahiplik dilimi SİLİNİYOR (kapsam kontrolü KAÇIRDI):"
++          % len(yikici))
++    for _a, _d, _x in yikici:
++        print("  YIKICI  %s  [%s]  %s" % (_a, _d, _x))
++else:
++    print("YIKICI YAZIM: %d dosya önce/sonra motorun okuyucusuyla karşılaştırıldı — silinen dilim 0 ✓"
++          % len(degisiklik))
+ _hatalar = geri_oku(_bellek)
+ _toplam_bek = sum(len(v) for v in beklenen.values())
+ if _hatalar:
+     _dogrulama_bas(_hatalar, "GERİ OKUMA (yazmadan önce, bellekte)")
+-    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 4).")
+-    raise SystemExit(4)
++    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış %d)." % (3 if ATLAMA_YALNIZ else 4))
++    _cik(3 if ATLAMA_YALNIZ else 4)
+ print("GERİ OKUMA: %d/%d kayıt motorun okuyucusuyla yeniden ayrıştırıldı — son değer = "
+       "yazılan değer, yan etki 0 ✓" % (_toplam_bek, _toplam_bek))
+ 
+@@ -1487,8 +1873,12 @@ for ad, dosya, r in taban_aday:
+             taban_bayat.append((ad, dosya, alan, "[%s] %s" % (kaynak_ad, _ozet_fark(taban, bugun))))
+ 
+ print()
++_n_dar = len(kapsam_daralan) + len(kapsam_hukumlu)
+ print("TABAN KAPISI: %d değişim — yamanın TABANI kaydın BUGÜNKÜ hâli mi? (%s)"
+-      % (len(taban_aday), ("--taban " + TABAN_REV) if TABAN_REV else "yalnız kayıt `taban:` beyanı"))
++      % (len(taban_aday) - _n_dar, ("--taban " + TABAN_REV) if TABAN_REV else "yalnız kayıt `taban:` beyanı"))
++if _n_dar:
++    print("  + %d KAPSAM DARALAN kayıt da SORULDU — yazılmayacak, ama bayatlığı ayrıca ölçülür "
++          "(KAPSAM-1010 ③: eskiden hiç sorulmuyordu)" % _n_dar)
+ if _rev_okunamadi:
+     print("  🟡 --taban %s: %d dosya okunamadı: %s" % (TABAN_REV, len(_rev_okunamadi),
+                                                      ", ".join(_rev_okunamadi[:8])))
+@@ -1510,39 +1900,45 @@ if not taban_bayat and not taban_olcmedi:
+     print("  ✓ her değişimin tabanı bugünkü değer — TAZE.")
+ if TABAN_RAPOR:
+     with io.open(TABAN_RAPOR, "w", encoding="utf-8", newline="\n") as _f:
+-        json.dump({"taban_rev": TABAN_REV, "degisim": len(taban_aday),
++        json.dump({"taban_rev": TABAN_REV, "degisim": len(taban_aday) - _n_dar,
+                    "bayat": [dict(ad=a, dosya=d, alan=al, ayrinti=x) for a, d, al, x in taban_bayat],
+                    "olculemedi": [dict(ad=a, dosya=d, alan=al, ayrinti=x)
+                                   for a, d, al, x in taban_olcmedi],
+                    "rev_okunamadi": _rev_okunamadi,
+-                   "atlanan": [dict(ad=a, sebep=s) for a, s in atlanan]},
++                   "atlanan": [dict(ad=a, kova=k, cikis=_atlama_kodu(k), sebep=s)
++                               for a, k, s in atlanan],
++                   "kapsam_daralan": [dict(ad=a, dosya=d, kayip=[_ar_yaz(x) for x in ky])
++                                      for a, d, ky in kapsam_daralan],
++                   "kapsam_olculemedi": [dict(ad=a, dosya=d, sebep=x) for a, d, x in kapsam_olcmedi],
++                   "kapsam_hukumlu": [dict(ad=a, dosya=d, kayip=[_ar_yaz(x) for x in ky])
++                                      for a, d, ky in kapsam_hukumlu],
++                   "hukum_red": [dict(satir=a, sebep=x) for a, x in hukum_red],
++                   "hukum_olu": [dict(ad=h["ad"], yama=h["yama"], kova=h["kova"]) for h in hukum_olu]},
+                   _f, ensure_ascii=False, indent=1)
+ 
+ # ─────────────────────────────────────────── ⑧ GERİ ALMA KAPISI (ŞART)
+ # Kuru koşuda da sorulur: "177 iner" demek, 174'ü geri almaysa YALAN bir rapordur.
+ # (1009) Kapının ÖLÇEMEDİ'si de TABAN KAPISI'nın BAYAT'ını gizlemez: çıkış en sonda,
+ #   ikisinin hükmü birleştirilerek verilir (ihlal > ölçülemedi).
++# (KAPSAM-1010) KAPSAM DARALDI da aynı hükme girer: BAYAT ailesidir (ihlal, çıkış 2).
+ print()
+-print("GERİ ALMA KAPISI: %d değişim, her biri kendi satır geçmişine (git log -L) soruluyor…"
+-      % len(kapi_aday))
+ bayat, _kapi_olcmedi = [], None
+-try:
+-    bayat = KAPI.tara(KOK, kapi_aday)
+-except KAPI.KapiOlcemedi as _e:
+-    _kapi_olcmedi = "🔴 KAPI ÖLÇEMEDİ — %s" % _e
+-except Exception as _e:  # noqa: BLE001
+-    _kapi_olcmedi = "🔴 KAPI ÇALIŞMADI — %s: %s" % (type(_e).__name__, _e)
++if ATLAMA_YALNIZ:
++    print("GERİ ALMA KAPISI: SORULMADI (--atlama-yalniz) — %d değişim; bu kip YAZMAZ" % len(kapi_aday))
++else:
++    print("GERİ ALMA KAPISI: %d değişim, her biri kendi satır geçmişine (git log -L) soruluyor…"
++          % len(kapi_aday))
++    try:
++        bayat = KAPI.tara(KOK, kapi_aday)
++    except KAPI.KapiOlcemedi as _e:
++        _kapi_olcmedi = "🔴 KAPI ÖLÇEMEDİ — %s" % _e
++    except Exception as _e:  # noqa: BLE001
++        _kapi_olcmedi = "🔴 KAPI ÇALIŞMADI — %s: %s" % (type(_e).__name__, _e)
+ if _kapi_olcmedi:
+     print(_kapi_olcmedi)
+-    print("   ölçülemedi ≠ temiz ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış %d)."
+-          % (2 if taban_bayat else 3))
+-if taban_bayat and not bayat:
+-    print("   ⇒ TABAN KAPISI: HİÇBİR DOSYA YAZILMADI (çıkış 2). Çare: yamayı bugünkü veriden "
+-          "YENİDEN ÜRET (taban beyanıyla).")
+-    raise SystemExit(2)
+-if _kapi_olcmedi:
+-    raise SystemExit(3)
+-if bayat:
++if ATLAMA_YALNIZ:
++    pass
++elif bayat:
+     print("🔴 BAYAT YAMA: %d kayıt — yamanın yazacağı dizi O KAYDIN geçmişinde VARDI ve bugün"
+           " YOK ⇒ yama bir kez inmiş, kayıt sonra düzeltilmiş; yazmak o düzeltmeyi GERİ ALIR."
+           % len(bayat))
+@@ -1550,15 +1946,73 @@ if bayat:
+         print("  %-28s %s:%d  %s" % (ad[:28], yol, satir_no, " · ".join(
+             "%s (geçmişte: %s)" % (a, ", ".join("%s %s" % hg for hg in isabet[:3]))
+             for a, isabet in alanlar)))
+-    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 2). Çare: inmiş yamayı glob dışına al "
+-          "(`data/yer_yama_arsiv/`), ya da kaydın bugünkü hâlini yamaya işle.")
+-    raise SystemExit(2)
+-print("  ✓ bayat yama yok — %d değişim TAZE." % len(kapi_aday))
+-if taban_olcmedi:
+-    print("🟠 TABAN KAPISI ÖLÇEMEDİ: %d kayıt — ölçülemedi ≠ temiz ⇒ hiçbir dosya yazılmadı "
+-          "(çıkış 3). Çare: yamaya kayıt başına `taban:` beyanı ya da `--taban <rev>`."
+-          % len({a for a, _, _, _ in taban_olcmedi}))
+-    raise SystemExit(3)
++elif not _kapi_olcmedi:
++    print("  ✓ bayat yama yok — %d değişim TAZE." % len(kapi_aday))
++
++# ─────────────────────────────── ⑧b KAPSAM DARALDI — BAYAT ailesi (SAHIPLIK-KAPSAM-1010 ①③)
++if kapsam_daralan:
++    print()
++    print("🔴 KAPSAM DARALDI: %d kayıt — yama uygulansa kaydın BUGÜNKÜ kapsamından gün SİLER "
++          "(BAYAT ailesi, yazılmaz):" % len(kapsam_daralan))
++    for ad, dosya, kayip in sorted(kapsam_daralan):
++        print("  KAPSAM-DARALDI  %s  [%s]  %s" % (ad, dosya, "; ".join(_ar_yaz(x) for x in kayip)))
++    _iki = sorted({a for a, _, _ in kapsam_daralan} & {a for a, _, _, _ in taban_bayat})
++    if _iki:
++        print("  ↳ %d kayıt İKİ KOVADA (KAPSAM DARALDI + BAYAT TABAN): %s"
++              % (len(_iki), " · ".join(_iki)))
++if kapsam_olcmedi:
++    print("🟠 KAPSAM ÖLÇÜLEMEDİ: %d kayıt — ölçülemedi ≠ temiz:" % len(kapsam_olcmedi))
++    for ad, dosya, x in sorted(kapsam_olcmedi):
++        print("  KAPSAM-OLCULEMEDI  %s  [%s]  %s" % (ad, dosya, x))
++
++# ─────────────────────────────── ⑧c HÜKÜM — ihlal (2) > ölçülemedi (3); ikisi de YAZMAZ
++# Kapsam daralan (hükümlü ya da değil) kayıt YAZILMAZ: taban sonucu onda ADIYLA basılır (③) ama
++#   çıkışı kapsam belirler — yazılmayacak kaydın "taban ölçülemedi"si dosya yazımını bloke etmez.
++_yazilmaz = {a for a, _, _ in kapsam_daralan} | {a for a, _, _ in kapsam_hukumlu}
++_tb_ihlal = {a for a, _, _, _ in taban_bayat if a not in _yazilmaz}
++_to_ihlal = {a for a, _, _, _ in taban_olcmedi if a not in _yazilmaz}
++_ihlal = []
++if _tb_ihlal:
++    _ihlal.append("TABAN KAPISI BAYAT %d kayıt" % len(_tb_ihlal))
++if bayat:
++    _ihlal.append("GERİ ALMA KAPISI BAYAT %d kayıt" % len(bayat))
++if kapsam_daralan:
++    _ihlal.append("KAPSAM DARALDI %d kayıt" % len(kapsam_daralan))
++if yikici:
++    _ihlal.append("YIKICI YAZIM %d kayıt" % len(yikici))
++_olcmedi = []
++if _kapi_olcmedi:
++    _olcmedi.append("GERİ ALMA KAPISI ölçemedi")
++if _to_ihlal:
++    _olcmedi.append("TABAN KAPISI ölçülemedi %d kayıt" % len(_to_ihlal))
++if hukum_red:
++    _olcmedi.append("HÜKÜM LİSTESİ %d satır REDDEDİLDİ (dayanaksız/bozuk)" % len(hukum_red))
++if hukum_olu:
++    _olcmedi.append("HÜKÜM LİSTESİ %d ÖLÜ satır" % len(hukum_olu))
++if kapsam_olcmedi:
++    _olcmedi.append("KAPSAM ölçülemedi %d kayıt" % len(kapsam_olcmedi))
++if _ihlal:
++    print()
++    print("   ⇒ HİÇBİR DOSYA YAZILMADI (çıkış 2) — %s%s." % (
++        " · ".join(_ihlal), ("; ayrıca ÖLÇÜLEMEDİ: " + " · ".join(_olcmedi)) if _olcmedi else ""))
++    if taban_bayat:
++        print("     Çare (TABAN KAPISI): yamayı bugünkü veriden YENİDEN ÜRET (taban beyanıyla).")
++    if bayat:
++        print("     Çare (GERİ ALMA): inmiş yamayı glob dışına al (`data/yer_yama_arsiv/`), ya da "
++              "kaydın bugünkü hâlini yamaya işle.")
++    if kapsam_daralan:
++        print("     Çare (KAPSAM): yamayı bugünkü kaydın dönemlerini KORUYARAK yeniden üret; daralma "
++              "kasıtlıysa insan kararıyla elle yaz.")
++    _cik(2)
++if _olcmedi:
++    print()
++    if _to_ihlal:
++        print("🟠 TABAN KAPISI ÖLÇEMEDİ: %d kayıt — ölçülemedi ≠ temiz ⇒ hiçbir dosya yazılmadı "
++              "(çıkış 3). Çare: yamaya kayıt başına `taban:` beyanı ya da `--taban <rev>`."
++              % len(_to_ihlal))
++    print("   ölçülemedi ≠ temiz ⇒ araç KOŞMAZ, hiçbir dosya yazılmadı (çıkış 3) — %s."
++          % " · ".join(_olcmedi))
++    _cik(3)
+ 
+ if YAZ:
+     # 🔴 TERSTEN — dosya SONUNDAN başına doğru. Bir kaydın satır sayısı
+@@ -1582,7 +2036,7 @@ if YAZ:
+     if _hatalar:
+         _dogrulama_bas(_hatalar, "DİSKTEN GERİ OKUMA")
+         print("   ⇒ dosyalar YAZILDI ama doğrulanmadı — `git diff` ile incele (çıkış 4).")
+-        raise SystemExit(4)
++        _cik(4)
+     print("DİSKTEN GERİ OKUMA: %d/%d kayıt ✓ — UYGULANDI. 🔴 ŞİMDİ `py arac/denetle.py` KOŞTUR."
+           % (_toplam_bek, _toplam_bek))
+ else:
+@@ -1593,4 +2047,12 @@ if ist["taninmadi"]:
+     print()
+     print("🔴 TANINMAYAN %d yama kaydı İNMEDİ (adları ATLANAN'da '🔴 TANINMADI') — çıkış 4."
+           % ist["taninmadi"])
+-    raise SystemExit(4)
++# (KAPSAM-1010 ①) `ATLAMA_CIKIS`te 4 olan her kova: kayıt İNMEDİ ⇒ araç 0 DEMEZ.
++_yansiyan = collections.Counter(k for _a, k, _s in atlanan if _atlama_kodu(k) == 4)
++if _yansiyan:
++    print()
++    print("🟠 İNMEYEN KAYIT — çıkışa YANSIYAN atlama (%s) ⇒ çıkış %d%s."
++          % (" · ".join("%s %d" % kv for kv in sorted(_yansiyan.items())), 2 if ATLAMA_YALNIZ else 4,
++             " (öteki kayıtlar YAZILDI)" if YAZ and degisiklik else ""))
++    _cik(2 if ATLAMA_YALNIZ else 4)   # hızlı kipin sözleşmesi: listesiz atlama = 2
++_cik(0)
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 627c4be9..14c4034e 100644
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -6548,6 +6548,139 @@ def degismez_r_rapor(Y, ayrinti=False):
+     return bool(R["ihlal"])
+ 
+ 
++# ═══ SAHİPLİK HÜKÜM LİSTESİ — yalnız DOSYA (SAHIPLIK-KAPSAM-1010 ⓐ, "bedava katman") ═══════
++# `denetim/SAHIPLIK-HUKUM-LISTESI.json` `_sahiplik_uygula.py`nin KASITLI atlamalarını tutar.
++#   Burada araç KOŞMAZ; yalnız liste okunur (okuyucu TEK: `arac/_hukum_listesi.py`):
++#   ① her satırın dayanağı ÇÖZÜLÜYOR mu (SHA: `git cat-file -e` · dosya:bölüm: dosya var, bölüm geçiyor)
++#   ② dayanaksız / alanı eksik satır var mı
++#   ③ ÖLÜ satır var mı — UCUZ ölçüt: yama dosyası yok · kayıt yamada yok · yama İNMİŞ (üzerine yazan
++#      alanları bugünkü kayıtla birebir aynı). "O kovayla HÂLÂ atlanıyor mu"nun tamamı PAHALIDIR
++#      (aracın kendisi) — onu `_sahiplik_uygula` her koşuda sorar (ölü satır ⇒ orada çıkış 3).
++#   Bozuk/dayanaksız/ölü satır ve liste dosyasının YOKLUĞU ⇒ OLCULEMEDI_KOVA'ya ADIYLA (çıkış 2):
++#   ihlal DEĞİL (veri bozulmadı), ama istisna listesine GÜVENİLEMEZ — ölü istisna yarın susturur.
++HUKUM_LISTESI_YOL = os.path.join(KOK, "denetim", "SAHIPLIK-HUKUM-LISTESI.json")
++
++
++def hukum_listesi_rapor(Y, yol=None):
++    """main() için: basar; ihlal üretmez, sorunları OLCULEMEDI_KOVA'ya ADIYLA düşer."""
++    yol = yol or HUKUM_LISTESI_YOL
++    try:
++        import _hukum_listesi as HL
++        sonuc = HL.oku(yol, KOK)
++    except Exception as e:
++        print("Ek denetim  !  hüküm listesi: OKUNAMADI — %s: %s" % (type(e).__name__, str(e)[:120]))
++        olculemedi("hüküm listesi", "%s: %s" % (type(e).__name__, e))
++        return
++    if sonuc is None:
++        print("Ek denetim  !  hüküm listesi: %s YOK" % os.path.relpath(yol, KOK))
++        olculemedi("hüküm listesi", "%s YOK" % os.path.relpath(yol, KOK))
++        return
++    gecerli, red = sonuc
++    try:
++        olu, olcmedi = HL.olu_ucuz(gecerli, DATA, {y["ad"]: y for y in Y if isinstance(y, dict) and "ad" in y})
++    except Exception as e:
++        olu, olcmedi = [], [({"ad": "<hepsi>", "yama": "?"}, "ölü ölçümü çalışmadı: %s: %s" % (type(e).__name__, e))]
++    for et, sb in red:
++        olculemedi("hüküm listesi RED %s" % et, sb)
++    for h, sb in olu:
++        olculemedi("hüküm listesi ÖLÜ %s" % h["ad"], "[%s] %s" % (h["yama"], sb))
++    for h, sb in olcmedi:
++        olculemedi("hüküm listesi ? %s" % h["ad"], "[%s] %s" % (h["yama"], sb))
++    durum = "!" if (red or olu or olcmedi) else "✓"
++    print("Ek denetim  %s  hüküm listesi: %d satır · dayanaksız/çözülmeyen %d · ölü %d · ölçülemedi %d"
++          % (durum, len(gecerli) + len(red), len(red), len(olu), len(olcmedi)))
++    for et, sb in red:
++        print("    RED  %s  %s" % (et, sb[:150]))
++    for h, sb in olu:
++        print("    ÖLÜ  %s  [%s · %s]  %s" % (h["ad"], h["yama"], h["kova"], sb))
++    for h, sb in olcmedi:
++        print("    ?    %s  [%s]  %s" % (h["ad"], h["yama"], sb))
++
++
++# ═══ SAHİPLİK ATLAMA SINIFI — `_sahiplik_uygula --atlama-yalniz` ALT SÜREÇ (SAHIPLIK-KAPSAM-1010) ═══
++# 🔴 İLKE: §3 tablosu (0 temiz · 1 ihlal · 2 ölçülemedi) YALNIZ bu dosyanındır. Alt aracın çıkış kodu
++#   §3'e DOĞRUDAN TAŞINMAZ — `_sahiplik_uygula`da 2 = BAYAT (ihlal), burada 2 = ölçülemedi: AYNI RAKAM,
++#   TERS HÜKÜM. Bu işlev ÇEVİRİCİDİR: koda değil JSON'un KOVALARINA dayanır (koordinatör kararı):
++#     listeli_atlama  (hüküm listesinde, dayanaklı)          → 0  (adıyla BİLGİ)
++#     listesiz_atlama (kapsam daraldı · çakışma · veride-yok…) → 2  OLCULEMEDI_KOVA, ADIYLA
++#     yikici          (uygulanınca dilim SİLEN/KISALTAN)       → 1  İHLAL, ADIYLA
++#   Hüküm satırı reddi/ölüsü · kapsam ölçülemedi → 2 ADIYLA. JSON YOK / BOZUK / kova EKSİK (boş liste ≠
++#   eksik anahtar) / alt süreç çöktü / zaman aşımı → 2, ASLA 0.
++#   `taban-olculemedi` (taban beyansız yama) BİLGİ olarak sayılır: o soru YAZIMIN sorusudur (tam kipte
++#   çıkış 3), atlama sınıfının değil — bugün 247 kayıt (inmiş yamaların hepsi beyansız). Koordinatöre
++#   açık soru: `denetim/SAHIPLIK-KAPSAM-1010.md`.
++# Evren: `yer_yama*.js` − SAHIPLIK_HIZLI_HARIC. Süre ölçüldü: ~12 sn (10 Ekim 2026, UMIT).
++SAHIPLIK_HIZLI_HARIC = ("yer_yama_1923_1945.js",)   # Z5 v1 KARANTİNASI — v3 inince koordinatör kaldırır
++SAHIPLIK_HIZLI_ZAMAN = 180
++SAHIPLIK_JSON_KOVALAR = ("listeli_atlama", "listesiz_atlama", "yikici", "olculemedi")
++_SAHIPLIK_OLCULEMEDI_KOVA = ("hukum-red", "hukum-olu", "kapsam-olculemedi", "geri-alma-olculemedi")
++
++
++def sahiplik_atlama_cevir(J):
++    """JSON (dict) → (ihlal[(ad, ayrıntı)], olculemedi[(ad, ayrıntı)], bilgi{}). Kova eksikse ValueError."""
++    if not isinstance(J, dict):
++        raise ValueError("JSON bir nesne değil")
++    for k in SAHIPLIK_JSON_KOVALAR:
++        if not isinstance(J.get(k), list):
++            raise ValueError("kova EKSİK ya da liste değil: %r" % k)
++    for k in SAHIPLIK_JSON_KOVALAR:
++        for o in J[k]:
++            if not (isinstance(o, dict) and all(isinstance(o.get(a), str) for a in ("yama", "ad", "sebep"))):
++                raise ValueError("%s öğesi bozuk: %r" % (k, o))
++    ihlal = [(o["ad"], "[%s] %s" % (o["yama"], o["sebep"])) for o in J["yikici"]]
++    olc = [(o["ad"], "[%s] %s — %s" % (o["yama"], o.get("kova", "?"), o["sebep"])) for o in J["listesiz_atlama"]]
++    olc += [(o["ad"], "[%s] %s — %s" % (o["yama"], o.get("kova", "?"), o["sebep"]))
++            for o in J["olculemedi"] if o.get("kova") in _SAHIPLIK_OLCULEMEDI_KOVA]
++    bilgi = {"listeli": [o["ad"] for o in J["listeli_atlama"]],
++             "taban_olculemedi": sum(1 for o in J["olculemedi"] if o.get("kova") == "taban-olculemedi")}
++    return ihlal, olc, bilgi
++
++
++def sahiplik_atlama_rapor(kok=None, env=None, glob_rx=None):
++    """main() için: alt süreci koşturur, JSON'u §3'e çevirir, basar. Döner: ihlal var mı."""
++    import subprocess
++    import tempfile
++    import time
++    kok = kok or KOK
++    if glob_rx is None:
++        glob_rx = r"^(?!(?:%s)$)yer_yama.*\.js$" % "|".join(re.escape(h) for h in SAHIPLIK_HIZLI_HARIC)
++    tmp = tempfile.mkdtemp(prefix="sahiplik_hizli_")
++    jy = os.path.join(tmp, "atlama.json")
++    t0 = time.time()
++    try:
++        try:
++            p = subprocess.run([sys.executable, os.path.join(kok, "arac", "_sahiplik_uygula.py"),
++                                "--atlama-yalniz", "--yama-glob", glob_rx, "--json", jy],
++                               cwd=kok, capture_output=True, timeout=SAHIPLIK_HIZLI_ZAMAN,
++                               env=dict(os.environ, PYTHONIOENCODING="utf-8", **(env or {})))
++            kod = p.returncode
++        except subprocess.TimeoutExpired:
++            kod = "ZAMAN AŞIMI (%d sn)" % SAHIPLIK_HIZLI_ZAMAN
++        sure = time.time() - t0
++        try:
++            J = json.load(io.open(jy, encoding="utf-8"))
++            ihl, olc, bilgi = sahiplik_atlama_cevir(J)
++        except Exception as e:   # YOK · geçersiz · kova eksik · çöktü/zaman aşımı (JSON yazılmadı)
++            print("Ek denetim  !  sahiplik atlama sınıfı: ÖLÇÜLEMEDİ — alt süreç %s · %s: %s"
++                  % (kod, type(e).__name__, str(e)[:120]))
++            olculemedi("sahiplik atlama sınıfı", "alt süreç %s · JSON okunamadı: %s: %s" % (kod, type(e).__name__, e))
++            return False
++    finally:
++        import shutil
++        shutil.rmtree(tmp, ignore_errors=True)
++    for ad, x in olc:
++        olculemedi("sahiplik atlama %s" % ad, x)
++    durum = "✗" if ihl else ("!" if olc else "✓")
++    print("Ek denetim  %s  sahiplik atlama sınıfı (--atlama-yalniz, %.0f sn, alt çıkış %s): listeli %d (0) · "
++          "listesiz %d (ÖLÇÜLEMEDİ) · yıkıcı %d (İHLAL) · taban-ölçülemedi %d (bilgi)"
++          % (durum, sure, kod, len(bilgi["listeli"]), len(olc), len(ihl), bilgi["taban_olculemedi"]))
++    if bilgi["listeli"]:
++        print("    listeli (hükümlü): %s" % " · ".join(bilgi["listeli"]))
++    for ad, x in ihl:
++        print("    ✗ YIKICI  %s  %s" % (ad, x[:150]))
++    return bool(ihl)
++
++
+ def main():
+     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
+     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
+@@ -7382,6 +7515,12 @@ def main():
+     if degismez_r_rapor(Y, ayrinti=args.ayrinti):
+         ihlal = True
+ 
++    # Ek denetim — SAHİPLİK HÜKÜM LİSTESİ (KAPSAM-1010 ⓐ): yalnız dosya, ihlal değil ölçülemedi
++    hukum_listesi_rapor(Y)
++    # Ek denetim — SAHİPLİK ATLAMA SINIFI (KAPSAM-1010): hızlı kip alt süreç, JSON → §3 çevirisi
++    if sahiplik_atlama_rapor():
++        ihlal = True
++
+     _kdsonuc = konum_denetimi(Y)
+     kd, kd_pencere = (None, []) if _kdsonuc is None else _kdsonuc
+     if kd is None:
+diff --git a/denetim/ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009.py b/denetim/ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009.py
+index b7de0b8e..061fb11e 100644
+--- a/denetim/ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009.py
++++ b/denetim/ARAC-SAHIPLIK-BAYAT-TABAN-SINAV-1009.py
+@@ -19,8 +19,11 @@ SENTETİK (geçici `git init` deposu, araç kopyalanır, `--yaz` YALNIZ orada):
+ 
+ GERÇEK (HEAD'den geçici worktree, yalnız KURU koşu, glob = Z5 gövdesi `yer_yama_1923_1945.js`):
+   R1  `--taban 67e9ec9d` (Z5'in tabanı, gövdenin başlığından) → çıkış 2 · Budin ADIYLA
+-  R2  bayat küme = BAĞIMSIZ kâhin (node ile rev ve bugün okunur; araçtan bağımsız) − aracın ATLANAN'ı
++  R2  bayat küme = BAĞIMSIZ kâhin (node ile rev ve bugün okunur; araçtan bağımsız) − aracın TABAN
++      SORUSUNA GİRMEYEN atlananları (SAHIPLIK-KAPSAM-1010 ③: KAPSAM DARALAN kayıt artık taban
++      sorusuna GİRER ⇒ eksiltilmez; eski araçta `kova` alanı yoksa bütün ATLANAN eksiltilir)
+   R3  `--taban` yok (beyansız)                                  → çıkış 3, "temiz" DEĞİL
++      (KAPSAM-1010: kapsam daralan kayıt varsa ihlal > ölçülemedi ⇒ 2; TABAN-OLCULEMEDI yine basılı)
+   R4  ESKİ araç (origin/main) aynı koşulda                      → çıkış 0 (kusurun ölçümü)
+   R5  kapı BAYAT ∪ aracın ATLANAN'ı = DİLİM KÂHİNİ, fark 0 — ikisi AYNI ANDA, AYNI ağaçta hesaplanır.
+       Kâhin araçtan bağımsızdır: node yamayı ve bugünkü veriyi okur, kayıt kayıt 1281-1923
+@@ -408,14 +411,27 @@ def gercek(eski_arac):
+ 
+         gfiles = [os.path.basename(f) for f in girdi_listesi.GIRDI_DOSYALARI]
+         k_bayat, k_belirsiz, n, kj = kahin(W, tmp, gfiles)
+-        beklenen = k_bayat - atl
++        # (KAPSAM-1010 ③) Taban sorusuna GİREN atlama kovaları: kapsam daralan kayıt + yalnız bir ALANI
++        #   atlanan (kaydın kendisi indi). Öteki kovalar kaydı taban sorusundan ÖNCE düşürür.
++        def _soruldu(k):
++            return k in ("kapsam-daraldi", "kaynak-ayrisan", "skaler-bos") or k.endswith("-dolu")
++        _al = r.get("atlanan", [])
++        if all("kova" in x for x in _al):
++            sorulmayan = {x["ad"] for x in _al if not _soruldu(x["kova"])}
++        else:
++            sorulmayan = atl                    # kovasız (eski) rapor: eski ölçüt
++        beklenen = k_bayat - sorulmayan
+         print("  kâhin (node, araçtan bağımsız): %d yama kaydı · bayat %d · belirsiz %d · bayat∩atlanan %d"
+-              % (n, len(k_bayat), len(k_belirsiz), len(k_bayat & atl)))
+-        sina("R2 araç kümesi = kâhin bayat − aracın ATLANAN'ı", bay == beklenen,
++              " · taban sorusuna girmeyen atlanan %d"
++              % (n, len(k_bayat), len(k_belirsiz), len(k_bayat & atl), len(sorulmayan)))
++        sina("R2 araç kümesi = kâhin bayat − taban sorusuna GİRMEYEN atlananlar", bay == beklenen,
+              "yalnız araç: %s · yalnız kâhin: %s" % (sorted(bay - beklenen)[:6], sorted(beklenen - bay)[:6]))
+ 
+         kod3, out3 = kos(W, "--yama-glob", Z5_GLOB)
+-        sina("R3 beyansız (--taban yok) → çıkış 3, 'temiz' değil", kod3 == 3, "çıkış %d" % kod3)
++        bek3 = 2 if "  KAPSAM-DARALDI  " in out3 else 3
++        sina("R3 beyansız (--taban yok) → çıkış %d (%s), 'temiz' değil, TABAN-OLCULEMEDI basılı"
++             % (bek3, "kapsam daralan var: ihlal > ölçülemedi" if bek3 == 2 else "ölçülemedi"),
++             kod3 == bek3 and "TABAN-OLCULEMEDI" in out3, "çıkış %d" % kod3)
+         if eski_arac:
+             kod4, out4 = kos(W, "--yama-glob", Z5_GLOB, arac=eski_arac)
+             sina("R4 ESKİ araç aynı Z5 kuru koşusu → çıkış 0 (kusurun ölçümü: GÖRMÜYORDU)", kod4 == 0,
+diff --git a/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py b/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
+new file mode 100644
+index 00000000..721d5f25
+--- /dev/null
++++ b/denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py
+@@ -0,0 +1,1021 @@
++# -*- coding: utf-8 -*-
++"""ARAC-SAHIPLIK-KAPSAM-SINAV-1010 — `_sahiplik_uygula.py` KAPSAM kusurları, İKİ YÖNDE.
++
++    py denetim/ARAC-SAHIPLIK-KAPSAM-SINAV-1010.py [--gercek-yok] [--v3 <ZAMAN-Z5-1009-KOORD-v3.diff>]
++
++Gerçek ağaçta HİÇBİR ŞEY yazmaz. "ESKİ" = origin/main'deki araç (yamasız); "YENİ" = çalışma
++ağacındaki araç. ESKİ zaten bu yamayı taşıyorsa (iniş sonrası) "önce" kolları atlanır, basılır.
++
++SENTETİK (geçici `git init`, `--yaz` YALNIZ orada):
++  K1  görünür + görünmez dönem kaybı (İstanbul'un eşi)  ESKİ 0 · YENİ 2, ad ADIYLA, kaybın TAMAMI
++  K2  YALNIZ {f,d,kaynak,t} dönem kaybı, taban TAZE       ESKİ 0 + --yaz VERİ SİLER · YENİ 2, dosya aynı
++  K3  hem daralan hem bayat taban                         ESKİ 0 (bayatlık ölçülmez) · YENİ 2, İKİ kovada
++  K4  meşru atlama (kendi-kilidi · kaynak-dolu) + taze    ESKİ 0 · YENİ 0, taze kayıt YAZILDI (gerileme yok)
++  K5  ATLANAN bloğu biçimi                                 `ATLANAN (n): ad [kova] · …` — n = ad sayısı, kuru ve --yaz
++  K6  karar bekleyen kova (veride-yok)                     YENİ 4 (varsayılan "çıkışa yansır")
++  K7  f/t'si eksik dönem                                   YENİ 3 (KAPSAM ÖLÇÜLEMEDİ), dosya aynı
++  K8  negatif yıl (MÖ) kaybı                               YENİ 2 (dizgi değil sayı karşılaştırması)
++  K9  Mergen'in eşi — yama GENİŞLETİR (1636 < 1686), dönemleri {d,f,t} ya da {f,t,d} sırasında; kayıt
++      yamadan SONRA düzeltilmiş (kur 1686) ⇒ doğru sebep BAYAT TABAN:
++        ESKİ {d,f,t} → 0, sahte "KAPSAM DARALDI" (yanlış sebeple, TESADÜFEN korur) · ESKİ {f,t,d} → 2 bayat
++        YENİ iki sırada da → 2, TABAN-BAYAT ADIYLA, KAPSAM-DARALDI'da YOK — sonuç sıradan BAĞIMSIZ
++  K10 ASIL SORU — SINIF: dönem anahtarlarının {f,t,d,kaynak} 24 PERMÜTASYONU, iki eksende (48 koşu):
++      ① veride, tarihçede ve yamada aynı sıra · ② veri {f,t,d,kaynak} SABİT, yalnız yama sırası döner ⇒ YENİ'de çıkış · ATLANAN bloğu (ad→kova) · KAPSAM-DARALDI
++      satırları · TABAN-BAYAT adları · İNEN adları 24 sırada BİREBİR AYNI. ESKİ'nin kaç farklı sonuç
++      verdiği BİLGİ olarak basılır (kusurun ölçümü).
++GERÇEK (HEAD'den geçici worktree'ler, yalnız KURU):
++  G1  ATLANAN-63 §6b: Z5 v1'den İstanbul · Konya · Gence    ESKİ 0 · YENİ 2, üçü ADIYLA
++  G2  Z5 v3 (bugünkü main + v3 diff; dosya diskten kalktıysa `fac601ed^`ten okunur)  YENİ 0 · uygulandı = ESKİ'ninki ·
++      geri okuma n/n · kapsam 0 · blok ATLANAN (0)
++  G2b Z5 v4 (main + YER-YAMA-SESSIZ-7 v2 + v4 — v4'ün beyan ettiği iniş sırası): kapsam 0 · yıkıcı 0 · geri okuma n/n ·
++      tam kip 3 YALNIZ 'hedef COMMİTLENMEMİŞ' yüzünden (SESSIZ-7 commitlenmeden uygulandı — kapının doğru hâli) ·
++      hızlı kip 0
++  G3  Z5 v1 (main'deki karantina) `--taban 67e9ec9d`       YENİ 2 · kapsam ⊇ ESKİ atlanan(kapsam) · bayat ⊇ ESKİ bayat
++  G4  GERÇEK Mergen yaması (`yer_yama_doguasya.js`, {d,f,t}) yalnız Mergen, iki sırada, `--taban d041a080`
++      (yamanın commit'i): YENİ → KAPSAM-DARALDI'da YOK (yama genişletiyor), TABAN-OLCULEMEDI'de ADIYLA
++      ("kayıt YOK": Mergen kaydı yamadan 12 gün SONRA doğdu), çıkış 3, iki sırada AYNI · ESKİ {d,f,t} 0
++HÜKÜM LİSTESİ (KAPSAM-1010 ⓑ, sentetik, `--hukum-listesi <geçici json>`):
++  H1  listedeki kapsam atlaması → 0 · HUKUMLU satırı ADIYLA · blokta `hukumlu:kapsam-daraldi`
++  H2  aynı koşuda listede OLMAYAN atlama → 2 (listeli olan HUKUMLU'da, listesiz KAPSAM-DARALDI'da)
++  H3  dayanaksız ("koordinatör hükmü bekleniyor") · çözülmeyen SHA · geçmeyen bölüm · olmayan dosya · eksik alan
++      → 3, HUKUM-RED ADIYLA, dosya aynı · listesiz kapsam atlamasıyla birlikteyse 2 (ihlal > ölçülemedi), RED yine basılı
++  H4  ölü satır: kayıt o kovayla ATLANMIYOR · yama dosyası YOK → 3, HUKUM-OLU ADIYLA; glob dışı satır ÖLÜ DEĞİL
++  H5  liste dosyası yok → istisna 0 (K1 gibi 2)
++  H6  kayıt BAŞKA kovayla atlanıyor (cakisma) → HUKUM-KOVA-UYUSMAZ, ölü DEĞİL, affetmez (çıkış 4)
++HIZLI KİP + DENETLE ÇEVİRİCİSİ (`--atlama-yalniz --json`, `denetle.sahiplik_atlama_rapor`) — DÖRT YÖN:
++  F1  hızlı kip: listeli atlama → 0 · listesiz → 2 · `--atlama-yalniz --yaz` → 3 REDDEDİLDİ, dosya aynı
++  F2  YIKICI (sınav kancası: kapsam kontrolünden SONRA ilk `s` dönemi düşer) → tam kip 2 + YIKICI ADIYLA ·
++      hızlı kip JSON `yikici`de ADIYLA · denetle → İHLAL (1)
++  F3  denetle çevirisi: listeli → 0 (kova boş) · listesiz → 2 (OLCULEMEDI_KOVA ADIYLA) · yıkıcı → 1 ·
++      JSON YOK / GEÇERSİZ / kova EKSİK → 2 (üçü ayrı ayrı, sahte alt süreçle) — ASLA 0
++  F4  gerçek ağaç: denetle çağrıyı yapar, satırı basar; süre ≤ 60 sn
++KÖK (KAPSAM-1010 ek ①-④):
++  R1  araç A deposunda, çalışma dizini B deposu, --yaz → A'ya yazar, B BAYT BAYT aynı (kök aracın yolundan)
++  R2  araç bir git deposunun ALT dizininde (kök ≠ toplevel) → çıkış 3, hiçbir şey yazılmaz
++  R3  açılış satırları: KÖK · HEAD · git · node (tam yol) · R4 stdout satır tamponlu (kaynakta)
++  R5  `_bayat_yama_kapi.git_hata`: dönüş kodu HER ZAMAN yazılır; 127/1 + çıktı ⇒ "dışarıdan sonlandırılmış olabilir"
++DENETLE (KAPSAM-1010 ⓐ, `denetle.hukum_listesi_rapor`, gerçek veri, araç KOŞMAZ):
++  D1  depodaki liste temiz → OLCULEMEDI_KOVA'ya 0 satır
++  D2  bozuk SHA · dayanaksız · bölüm yok · yama dosyası yok · kayıt yamada yok · yama İNMİŞ · dosya yok → her biri ADIYLA kovada
++GERÇEK (ek):
++  G5  koordinatör hükmü ②: Honolulu · Çehrin · Silistre · Şehrizor (listesiz) → kendi yamalarının tek dosyalık koşusunda
++      çıkış 2, KAPSAM-DARALDI'da ADIYLA · Mergen: KAPSAM DEĞİL (yama genişletiyor) → TABAN-OLCULEMEDI, çıkış 3 ·
++      listeli beşli (Akçahisar · Floransa · Ahıska · Timbuktu ×2) → HUKUMLU (bosluk_0906 Honolulu yüzünden 2)
++SON  C:\\atlas ve C:\\atlas-umit `git status --short` sınavdan önce ve sonra AYNI.
++
++Çıkış: 0 hepsi geçti · 1 en az biri kaldı · 2 sınav koşulamadı.
++"""
++import collections
++import hashlib
++import io
++import json
++import os
++import re
++import shutil
++import subprocess
++import sys
++import tempfile
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = ["_sahiplik_uygula.py", "_bayat_yama_kapi.py", "girdi.py", "girdi_listesi.py", "_hukum_listesi.py"]
++HUKUM_LISTESI = os.path.join("denetim", "SAHIPLIK-HUKUM-LISTESI.json")
++ESKI_REF = "origin/main"
++ISARET = "SAHIPLIK-KAPSAM-1010"
++Z5_TABAN = "67e9ec9d"
++Z5_V1 = "yer_yama_1923_1945.js"
++IZLENEN = [r"C:\atlas", r"C:\atlas-umit"]
++GERCEK = "--gercek-yok" not in sys.argv
++V3_REF = "fac601ed^"          # v3 bu commit'te diskten kaldırıldı (v4 geldi); tarihçeden okunur
++Z5_ARAMA = [os.path.join(KOK, "denetim"), r"C:\atlas-umit\denetim"]
++
++
++def diff_bul(ad, tmp, ref=None):
++    for k in Z5_ARAMA:
++        if os.path.exists(os.path.join(k, ad)):
++            return os.path.join(k, ad)
++    if ref:
++        p = subprocess.run(["git", "-C", KOK, "show", "%s:denetim/%s" % (ref, ad)], capture_output=True)
++        if p.returncode == 0:
++            hedef = os.path.join(tmp, ad)
++            open(hedef, "wb").write(p.stdout)
++            return hedef
++    return None
++
++
++V3 = None
++if "--v3" in sys.argv:
++    V3 = sys.argv[sys.argv.index("--v3") + 1]
++else:
++    for _a in (os.path.join(KOK, "denetim", "ZAMAN-Z5-1009-KOORD-v3.diff"),
++               r"C:\atlas-umit\denetim\ZAMAN-Z5-1009-KOORD-v3.diff"):
++        if os.path.exists(_a):
++            V3 = _a
++            break
++sys.path.insert(0, os.path.join(KOK, "arac"))
++import girdi_listesi  # noqa: E402
++
++HEDEF = os.path.basename(girdi_listesi.GIRDI_DOSYALARI[0])
++sonuc = []
++
++
++def sina(ad, kosul, ayrinti=""):
++    sonuc.append((ad, bool(kosul)))
++    print("%s %s %s" % ("✓" if kosul else "✗ BAŞARISIZ", ad, ayrinti))
++
++
++def git(d, *a):
++    return subprocess.run(["git", "-c", "user.name=sinav", "-c", "user.email=s@s", "-c", "core.autocrlf=false"]
++                          + list(a), cwd=d, capture_output=True)
++
++
++def durum():
++    return {k: git(k, "status", "--short").stdout for k in IZLENEN if os.path.isdir(k)}
++
++
++def yaz(d, yol, metin):
++    io.open(os.path.join(d, yol), "w", encoding="utf-8", newline="\n").write(metin)
++
++
++def veri(*kayit):
++    return "window.YERLESIMLER = [\n" + "\n".join(kayit) + "\n];\n"
++
++
++def ozet(d):
++    return hashlib.sha256(open(os.path.join(d, "data", HEDEF), "rb").read()).hexdigest()
++
++
++def komut(d, arg, arac=None):
++    return [sys.executable, arac or "arac/_sahiplik_uygula.py"] + list(arg)
++
++
++def kos(d, *arg, arac=None):
++    p = subprocess.run(komut(d, arg, arac), cwd=d, capture_output=True,
++                       env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++    return p.returncode, (p.stdout.decode("utf-8", "replace") + p.stderr.decode("utf-8", "replace")).replace("\r\n", "\n")
++
++
++def satir_adlari(out, onek):
++    """`  <ONEK>  <ad>  [...]` satırlarındaki adlar."""
++    adlar = set()
++    for ln in out.splitlines():
++        m = re.match(r"^  %s  (.+?)  \[" % re.escape(onek), ln)
++        if m:
++            adlar.add(m.group(1))
++    return adlar
++
++
++def blok(out):
++    """ATLANAN BLOĞU → (n, {ad: [kova]}, ham satırlar). Yoksa (None, {}, [])."""
++    ln = out.splitlines()
++    try:
++        i = max(k for k, l in enumerate(ln) if l.startswith("── ATLANAN BLOĞU"))
++    except ValueError:
++        return None, {}, []
++    ham = []
++    for l in ln[i + 1:]:
++        if l.startswith("ATLAMA KOVALARI:") or l.startswith("ÇIKIŞ:"):
++            break
++        ham.append(l)
++    metin = " ".join(x.strip() for x in ham)
++    m = re.match(r"^ATLANAN \((\d+)\):(.*)$", metin)
++    if not m:
++        return None, {}, ham
++    n, govde = int(m.group(1)), m.group(2).strip()
++    adlar = {}
++    if govde != "—":
++        for oge in govde.split(" · "):
++            mm = re.match(r"^(.*) \[([^\]]+)\]$", oge.strip())
++            if mm:
++                adlar[mm.group(1)] = mm.group(2).split(",")
++    return n, adlar, ham
++
++
++def ozet_kova(out, kova):
++    m = re.search(r"^\s+%s\s+(\d+)\s*$" % re.escape(kova), out, re.M)
++    return int(m.group(1)) if m else 0
++
++
++# ───────────────────────────────────────────────────────────── SENTETİK
++ISTANBUL = ('{ ad:"Sinavistanbul", tur:"sehir", lat:41.0, lon:29.0, s:['
++            '{f:"0330-05-11",d:"bizans",kaynak:"k1",t:"1204-04-13"},'
++            '{f:"1204-04-13",d:"latin",kaynak:"k2",t:"1261-07-25"},'
++            '{f:"1261-07-25",t:"1453-05-29",d:"bizans"}] },')
++ISTANBUL_Y = ('{ad:"Sinavistanbul", s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"}],'
++              ' taban:{s:[{f:"0330-05-11",d:"bizans",kaynak:"k1",t:"1204-04-13"},'
++              '{f:"1204-04-13",d:"latin",kaynak:"k2",t:"1261-07-25"},{f:"1261-07-25",t:"1453-05-29",d:"bizans"}]}}')
++GORUNMEZ = ('{ ad:"Sinavgorunmez", tur:"sehir", lat:40.0, lon:35.0, s:['
++            '{f:"1134-01-01",d:"danismendli",kaynak:"tdv",t:"1281-01-01"},'
++            '{f:"1281-01-01",t:"1500-01-01",d:"x-devlet"}] },')
++GORUNMEZ_Y = ('{ad:"Sinavgorunmez", s:[{f:"1281-01-01",t:"1500-01-01",d:"x-devlet"}],'
++              ' taban:{s:[{f:"1134-01-01",d:"danismendli",kaynak:"tdv",t:"1281-01-01"},'
++              '{f:"1281-01-01",t:"1500-01-01",d:"x-devlet"}]}}')
++IKIKOVA = ('{ ad:"Sinavikikova", tur:"sehir", lat:39.0, lon:36.0, s:['
++           '{f:"1200-01-01",t:"1281-01-01",d:"a-devlet"},{f:"1281-01-01",t:"1450-01-01",d:"b-devlet"},'
++           '{f:"1450-01-01",t:"1500-01-01",d:"c-duzeltme",kaynak:"sonraki"}] },')
++IKIKOVA_Y = ('{ad:"Sinavikikova", s:[{f:"1281-01-01",t:"1500-01-01",d:"b-devlet"}],'
++             ' taban:{s:[{f:"1200-01-01",t:"1281-01-01",d:"a-devlet"},{f:"1281-01-01",t:"1500-01-01",d:"b-devlet"}]}}')
++MESRU = ('{ ad:"Sinavmesru", tur:"koy", lat:38.0, lon:37.0, kaynak:"var olan kaynak",'
++         ' s:[{f:"1281-01-01",t:"1600-01-01",d:"m-devlet"}] },')
++MESRU_Y = ('{ad:"Sinavmesru", kaynak:"baska kaynak", s:[{f:"1281-01-01",t:"1550-01-01",d:"m-devlet"},'
++           '{f:"1550-01-01",t:"1600-01-01",d:"yeni-devlet"}], taban:{s:[{f:"1281-01-01",t:"1600-01-01",d:"m-devlet"}]}}')
++KILIT = '{ ad:"Sinavkilit", tur:"koy", lat:37.0, lon:38.0, s:[{f:"1281-01-01",t:"1700-01-01",d:"k-devlet"}] },'
++KILIT_Y = ('{ad:"Sinavkilit", s:[{f:"1281-01-01",t:"1650-01-01",d:"k-devlet"},{f:"1650-01-01",t:"1700-01-01",d:"z"}],'
++           ' d2_gerek:"1650 maddesi inmeden UYGULAMA"}')
++YOK_Y = ('{ad:"Sinavhicyok", s:[{f:"1281-01-01",t:"1700-01-01",d:"k-devlet"}],'
++         ' taban:{s:null}}')
++EKSIK_Y = ('{ad:"Sinavmesru", s:[{f:"1281-01-01",d:"m-devlet"}], taban:{s:[{f:"1281-01-01",t:"1600-01-01",d:"m-devlet"}]}}')
++MO = ('{ ad:"Sinavmo", tur:"sehir", lat:36.0, lon:39.0, s:['
++      '{f:"-0500-01-01",t:"-0100-01-01",d:"a-devlet"},{f:"-0100-01-01",t:"1500-01-01",d:"b-devlet"}] },')
++MO_Y = ('{ad:"Sinavmo", s:[{f:"-0300-01-01",t:"-0100-01-01",d:"a-devlet"},{f:"-0100-01-01",t:"1500-01-01",d:"b-devlet"}],'
++        ' taban:{s:[{f:"-0500-01-01",t:"-0100-01-01",d:"a-devlet"},{f:"-0100-01-01",t:"1500-01-01",d:"b-devlet"}]}}')
++HEPSI = (ISTANBUL, GORUNMEZ, IKIKOVA, MESRU, KILIT, MO)
++# IKIKOVA'nın tabanından SONRAKİ düzeltme: c1'de c-duzeltme yok, c2'de var (taban kapısı için gerekmez —
++#   beyan kayıtta; ama geçmiş GERÇEK olsun diye iki commit kurulur).
++IKIKOVA_ESKI = ('{ ad:"Sinavikikova", tur:"sehir", lat:39.0, lon:36.0, s:['
++                '{f:"1200-01-01",t:"1281-01-01",d:"a-devlet"},{f:"1281-01-01",t:"1500-01-01",d:"b-devlet"}] },')
++
++
++# ── K9/K10: anahtar sırası parametreli veri. Dönem nesneleri `sira`ya göre yazılır (sırada olmayan
++#    anahtarlar sona); BUGÜNKÜ veri, ilk commit ve yama AYNI sırayla. Kayıt: (c1 hâli, c2 hâli, yama).
++def _js(v, sira):
++    if isinstance(v, list):
++        return "[" + ",".join(_js(x, sira) for x in v) + "]"
++    if isinstance(v, dict):
++        ks = [k for k in sira if k in v] + [k for k in v if k not in sira]
++        return "{" + ",".join("%s:%s" % (k, _js(v[k], sira)) for k in ks) + "}"
++    return json.dumps(v, ensure_ascii=False)
++
++
++def _P(f, t, d, kaynak=None):
++    p = {"f": f, "t": t, "d": d}
++    if kaynak:
++        p["kaynak"] = kaynak
++    return p
++
++
++_IST = [_P("0330-05-11", "1204-04-13", "bizans", "k1"), _P("1204-04-13", "1261-07-25", "latin", "k2"),
++        _P("1261-07-25", "1453-05-29", "bizans")]
++_GOR = [_P("1134-01-01", "1281-01-01", "danismendli", "tdv"), _P("1281-01-01", "1500-01-01", "x-devlet")]
++_IKI1 = [_P("1200-01-01", "1281-01-01", "a-devlet"), _P("1281-01-01", "1500-01-01", "b-devlet")]
++_IKI2 = [_P("1200-01-01", "1281-01-01", "a-devlet"), _P("1281-01-01", "1450-01-01", "b-devlet"),
++         _P("1450-01-01", "1500-01-01", "c-duzeltme", "sonraki")]
++_MER1 = [_P("1636-05-15", "1912-02-12", "qing-hanedani"), _P("1912-02-12", "1923-10-29", "cin-cumhuriyeti")]
++_MER2 = [_P("1686-01-01", "1912-02-12", "qing-hanedani", "Reardon-Anderson 2005 s.24"),
++         _P("1912-02-12", "1923-10-29", "cin-cumhuriyeti")]
++_MES = [_P("1281-01-01", "1600-01-01", "m-devlet")]
++PERM = {
++    "istanbul": ({"ad": "Sinavistanbul", "s": _IST}, {"ad": "Sinavistanbul", "s": _IST},
++                 {"ad": "Sinavistanbul", "s": [_P("1281-01-01", "1453-05-29", "bizans")], "taban": {"s": _IST}}),
++    "gorunmez": ({"ad": "Sinavgorunmez", "s": _GOR}, {"ad": "Sinavgorunmez", "s": _GOR},
++                 {"ad": "Sinavgorunmez", "s": [_P("1281-01-01", "1500-01-01", "x-devlet")], "taban": {"s": _GOR}}),
++    "ikikova": ({"ad": "Sinavikikova", "s": _IKI1}, {"ad": "Sinavikikova", "s": _IKI2},
++                {"ad": "Sinavikikova", "s": [_P("1281-01-01", "1500-01-01", "b-devlet")], "taban": {"s": _IKI1}}),
++    # Mergen: yama 1636 (kaynaksız) GENİŞLETİR; kayıt yamadan SONRA kaynakla 1686'ya düzeltildi (kur:).
++    "mergen": ({"ad": "Sinavmergen", "s": _MER1}, {"ad": "Sinavmergen", "kur": "1686-01-01", "s": _MER2},
++               {"ad": "Sinavmergen", "s": _MER1, "bos": "veri-yok", "taban": {"s": _MER1}}),
++    "mesru": ({"ad": "Sinavmesru", "kaynak": "var olan kaynak", "s": _MES},
++              {"ad": "Sinavmesru", "kaynak": "var olan kaynak", "s": _MES},
++              {"ad": "Sinavmesru", "kaynak": "baska kaynak",
++               "s": [_P("1281-01-01", "1550-01-01", "m-devlet"), _P("1550-01-01", "1600-01-01", "yeni-devlet")],
++               "taban": {"s": _MES}}),
++}
++PERM_KAYITLAR = tuple(PERM)
++
++
++def _kayit_js(k, sira, n):
++    k = dict(k)
++    ad = k.pop("ad")
++    govde = ", ".join("%s:%s" % (a, _js(v, sira)) for a, v in k.items())
++    return '{ ad:%s, tur:"sehir", lat:%d.0, lon:%d.0, %s },' % (json.dumps(ad, ensure_ascii=False), 30 + n, 30 + n, govde)
++
++
++def kur_p(sira, adlar, yama_sira=None):
++    yama_sira = yama_sira or sira
++    d = tempfile.mkdtemp(prefix="kapsam_perm_")
++    os.makedirs(os.path.join(d, "arac"))
++    os.makedirs(os.path.join(d, "data"))
++    for f in ARAC:
++        shutil.copy(os.path.join(KOK, "arac", f), os.path.join(d, "arac", f))
++    yaz(d, "data/" + HEDEF, veri(*[_kayit_js(PERM[a][0], sira, n) for n, a in enumerate(adlar)]))
++    git(d, "init", "-q"); git(d, "add", "-A"); git(d, "commit", "-q", "-m", "1")
++    yaz(d, "data/" + HEDEF, veri(*[_kayit_js(PERM[a][1], sira, n) for n, a in enumerate(adlar)]))
++    git(d, "commit", "-q", "-am", "2")
++    yaz(d, "data/yer_yama_sinav.js", "window.YER_YAMA_SINAV = [\n" + ",\n".join(
++        "{ad:%s, %s}" % (json.dumps(PERM[a][2]["ad"], ensure_ascii=False), ", ".join(
++            "%s:%s" % (k, _js(v, yama_sira)) for k, v in PERM[a][2].items() if k != "ad")) for a in adlar) + "\n];\n")
++    git(d, "add", "-A"); git(d, "commit", "-q", "-m", "yama")
++    return d
++
++
++def imza(kod, out):
++    """Sıradan bağımsız olması gereken her şey: çıkış · blok · kapsam satırları · bayat adları · inen adları."""
++    _, adlar, _ = blok(out)
++    kap = tuple(sorted(re.findall(r"^  KAPSAM-DARALDI  (.+?)  \[[^\]]*\]  (.*)$", out, re.M)))
++    bay = tuple(sorted(satir_adlari(out, "TABAN-BAYAT")))
++    inen_b = out.split("İNEN (")[1].split("\n\n")[0] if "İNEN (" in out else ""
++    inen = tuple(sorted(re.findall(r"^  (Sinav\w+)", inen_b, re.M)))
++    return (kod, tuple(sorted((a, tuple(k)) for a, k in adlar.items())), kap, bay, inen)
++
++
++def kur():
++    d = tempfile.mkdtemp(prefix="kapsam_sinav_")
++    os.makedirs(os.path.join(d, "arac"))
++    os.makedirs(os.path.join(d, "data"))
++    for f in ARAC:
++        shutil.copy(os.path.join(KOK, "arac", f), os.path.join(d, "arac", f))
++    yaz(d, "data/" + HEDEF, veri(*[IKIKOVA_ESKI if k is IKIKOVA else k for k in HEPSI]))
++    git(d, "init", "-q")
++    git(d, "add", "-A")
++    git(d, "commit", "-q", "-m", "1: ilk hal")
++    yaz(d, "data/" + HEDEF, veri(*HEPSI))
++    git(d, "commit", "-q", "-am", "2: kaynakli duzeltme")
++    return d
++
++
++def yama(d, *kayit):
++    yaz(d, "data/yer_yama_sinav.js", "window.YER_YAMA_SINAV = [\n" + ",\n".join(kayit) + "\n];\n")
++    git(d, "add", "data/yer_yama_sinav.js")
++    git(d, "commit", "-q", "-m", "yama")
++
++
++def sentetik(eski):
++    print("\n=== SENTETİK ===")
++    dizinler = []
++    try:
++        # K1 — İstanbul'un eşi: görünür (1261-1281) + görünmez (330-1261) kayıp
++        d = kur(); dizinler.append(d); yama(d, ISTANBUL_Y)
++        kod, out = kos(d)
++        sina("K1 YENİ → çıkış 2", kod == 2, "çıkış %d" % kod)
++        sina("K1 YENİ KAPSAM-DARALDI listesinde ADIYLA", satir_adlari(out, "KAPSAM-DARALDI") == {"Sinavistanbul"})
++        sina("K1 YENİ kaybın TAMAMI (0330-05-11→1281-01-01, görünmez dönemler dahil)",
++             "0330-05-11→1281-01-01" in out, [l for l in out.splitlines() if "KAPSAM-DARALDI  " in l][:1])
++        if eski:
++            kod, out = kos(d, arac=eski)
++            sina("K1 ESKİ → çıkış 0 (kusur: atlama çıkışa yansımıyordu)", kod == 0, "çıkış %d" % kod)
++            sina("K1 ESKİ yalnız GÖRÜNÜR parçayı görüyordu (1261-07-25→1281-01-01, 0330 YOK)",
++                 "1261-07-25→1281-01-01" in out and "0330-05-11" not in out.split("ATLANAN")[-1])
++
++        # K2 — YALNIZ {f,d,kaynak,t} dönemi kaybolur; taban TAZE (taban = bugün)
++        d = kur(); dizinler.append(d); yama(d, GORUNMEZ_Y)
++        once = ozet(d)
++        kod, out = kos(d, "--yaz")
++        sina("K2 YENİ --yaz → çıkış 2", kod == 2, "çıkış %d" % kod)
++        sina("K2 YENİ dosya BAYT BAYT aynı", ozet(d) == once)
++        sina("K2 YENİ Sinavgorunmez ADIYLA, 1134-01-01→1281-01-01",
++             satir_adlari(out, "KAPSAM-DARALDI") == {"Sinavgorunmez"} and "1134-01-01→1281-01-01" in out)
++        if eski:
++            kod, out = kos(d, "--yaz", arac=eski)
++            yeni = io.open(os.path.join(d, "data", HEDEF), encoding="utf-8").read()
++            sina("K2 ESKİ --yaz → çıkış 0 ve 1134 dönemi SİLİNDİ (kusurun ölçümü: GÖRMÜYORDU)",
++                 kod == 0 and "danismendli" not in yeni, "çıkış %d · danismendli %s" % (kod, "danismendli" in yeni))
++
++        # K3 — hem daralan hem bayat
++        d = kur(); dizinler.append(d); yama(d, IKIKOVA_Y)
++        kod, out = kos(d)
++        sina("K3 YENİ → çıkış 2", kod == 2, "çıkış %d" % kod)
++        sina("K3 YENİ KAPSAM-DARALDI kovasında ADIYLA", "Sinavikikova" in satir_adlari(out, "KAPSAM-DARALDI"))
++        sina("K3 YENİ TABAN-BAYAT kovasında da ADIYLA", "Sinavikikova" in satir_adlari(out, "TABAN-BAYAT"))
++        sina("K3 YENİ 'İKİ KOVADA' satırı adı basıyor",
++             any("İKİ KOVADA" in l and "Sinavikikova" in l for l in out.splitlines()))
++        if eski:
++            kod, out = kos(d, arac=eski)
++            sina("K3 ESKİ → çıkış 0 ve TABAN-BAYAT'ta YOK (bayatlık ölçülmüyordu)",
++                 kod == 0 and not satir_adlari(out, "TABAN-BAYAT"), "çıkış %d" % kod)
++
++        # K4 — meşru atlama: kendi-kilidi + kaynak-dolu, taze değişim yazılır
++        d = kur(); dizinler.append(d); yama(d, MESRU_Y, KILIT_Y)
++        once = ozet(d)
++        kod, out = kos(d, "--yaz")
++        yeni = io.open(os.path.join(d, "data", HEDEF), encoding="utf-8").read()
++        n, adlar, _ = blok(out)
++        sina("K4 YENİ meşru atlama (kendi-kilidi · kaynak-dolu) → çıkış 0", kod == 0, "çıkış %d" % kod)
++        sina("K4 YENİ taze kayıt YAZILDI, kaynak EZİLMEDİ", ozet(d) != once and 'd:"yeni-devlet"' in yeni
++             and 'kaynak:"var olan kaynak"' in yeni)
++        sina("K4 YENİ meşru atlananlar blokta ADIYLA",
++             adlar.get("Sinavkilit") == ["kendi-kilidi"] and adlar.get("Sinavmesru") == ["kaynak-dolu"], str(adlar))
++        if eski:
++            d = kur(); dizinler.append(d); yama(d, MESRU_Y, KILIT_Y)
++            kod, out = kos(d, "--yaz", arac=eski)
++            sina("K4 ESKİ aynı durumda → çıkış 0 (ikisi aynı: gerileme yok)", kod == 0, "çıkış %d" % kod)
++
++        # K5 — blok biçimi: kuru ve --yaz, 2 yolunda da
++        d = kur(); dizinler.append(d); yama(d, ISTANBUL_Y, GORUNMEZ_Y, KILIT_Y)
++        kod, out = kos(d)
++        n, adlar, ham = blok(out)
++        sina("K5 blok var, ilk satır 'ATLANAN (n):'", n is not None and ham[0].startswith("ATLANAN ("), str(ham[:1]))
++        sina("K5 n = blokta adı geçen kayıt sayısı = 3", n == len(adlar) == 3, "n=%s adlar=%s" % (n, adlar))
++        sina("K5 her ad kendi kovasıyla",
++             adlar == {"Sinavistanbul": ["kapsam-daraldi"], "Sinavgorunmez": ["kapsam-daraldi"],
++                       "Sinavkilit": ["kendi-kilidi"]}, str(adlar))
++        sina("K5 'ATLAMA KOVALARI' satırı kova → çıkış kodunu basıyor",
++             any(l.startswith("ATLAMA KOVALARI:") and "kapsam-daraldi 2 (→2)" in l and "kendi-kilidi 1 (→0 meşru)" in l
++                 for l in out.splitlines()))
++        sina("K5 'ÇIKIŞ: 2' son satırlarda", "ÇIKIŞ: 2" in out.splitlines()[-3:] or "ÇIKIŞ: 2" in out)
++        kod2, out2 = kos(d, "--yaz")
++        sina("K5 --yaz'da da aynı blok", blok(out2)[1] == adlar and kod2 == 2, "çıkış %d" % kod2)
++        d = kur(); dizinler.append(d); yama(d, MESRU_Y)
++        kod, out = kos(d)
++        n, adlar, ham = blok(out)
++        sina("K5 atlama olmayınca da blok basılır (boş değil: kaynak-dolu var) — ya da 'ATLANAN (0): —'",
++             n == 1 and kod == 0, "n=%s çıkış %d" % (n, kod))
++
++        # K6 — karar bekleyen kova: veride-yok → 4
++        d = kur(); dizinler.append(d); yama(d, YOK_Y)
++        kod, out = kos(d)
++        sina("K6 YENİ veride-yok (karar bekleyen kova) → çıkış 4 (varsayılan YANSIR)", kod == 4, "çıkış %d" % kod)
++        if eski:
++            kod, out = kos(d, arac=eski)
++            sina("K6 ESKİ → çıkış 0 (bilgi: aynı kusur ailesi)", kod == 0, "çıkış %d" % kod)
++
++        # K7 — f/t'si eksik dönem → KAPSAM ÖLÇÜLEMEDİ (3), dosya aynı
++        d = kur(); dizinler.append(d); yama(d, EKSIK_Y)
++        once = ozet(d)
++        kod, out = kos(d, "--yaz")
++        sina("K7 YENİ f/t eksik dönem → çıkış 3 · KAPSAM-OLCULEMEDI ADIYLA · dosya aynı",
++             kod == 3 and "Sinavmesru" in satir_adlari(out, "KAPSAM-OLCULEMEDI") and ozet(d) == once,
++             "çıkış %d" % kod)
++
++        # K8 — negatif yıl
++        d = kur(); dizinler.append(d); yama(d, MO_Y)
++        kod, out = kos(d)
++        sina("K8 YENİ MÖ kaybı (-0500→-0300) → çıkış 2, ADIYLA",
++             kod == 2 and satir_adlari(out, "KAPSAM-DARALDI") == {"Sinavmo"} and "-0500-01-01→-0300-01-01" in out,
++             "çıkış %d" % kod)
++
++        # K9 — Mergen'in eşi, iki sıra
++        for sira in (("d", "f", "t"), ("f", "t", "d")):
++            ad_s = "{" + ",".join(sira) + "}"
++            d = kur_p(("f", "t", "d"), ("mergen",), sira); dizinler.append(d)   # veri GERÇEKTEKİ gibi {f,t,d}
++            kod, out = kos(d)
++            sina("K9 YENİ %s → çıkış 2 · TABAN-BAYAT'ta Sinavmergen · KAPSAM-DARALDI'da YOK" % ad_s,
++                 kod == 2 and "Sinavmergen" in satir_adlari(out, "TABAN-BAYAT")
++                 and "Sinavmergen" not in satir_adlari(out, "KAPSAM-DARALDI"), "çıkış %d" % kod)
++            if eski:
++                kod_e, out_e = kos(d, arac=eski)
++                print("    (bilgi) K9 ESKİ %s → çıkış %d · KAPSAM DARALDI dedi mi: %s · TABAN-BAYAT: %s"
++                      % (ad_s, kod_e, "Sinavmergen" in out_e.split("ATLANAN")[-1] and "KAPSAM DARALDI" in out_e,
++                         sorted(satir_adlari(out_e, "TABAN-BAYAT"))))
++                if sira == ("d", "f", "t"):
++                    sina("K9 ESKİ {d,f,t} → çıkış 0 ve SAHTE 'KAPSAM DARALDI' (yanlış sebeple koruma — kusur)",
++                         kod_e == 0 and "KAPSAM DARALDI — 1686-01-01" in out_e, "çıkış %d" % kod_e)
++
++        # K10 — 24 permütasyon
++        import itertools
++        imzalar_y, imzalar_e = {}, {}
++        _perm = list(itertools.permutations(("f", "t", "d", "kaynak")))
++        for sira in [("ayni", x) for x in _perm] + [("yama", x) for x in _perm]:
++            # "ayni": veri + tarihçe + yama aynı sıra · "yama": veri {f,t,d,kaynak} SABİT, yalnız yama sırası döner
++            if sira[0] == "ayni":
++                d = kur_p(sira[1], PERM_KAYITLAR)
++            else:
++                d = kur_p(("f", "t", "d", "kaynak"), PERM_KAYITLAR, sira[1])
++            kod, out = kos(d)
++            imzalar_y[sira] = imza(kod, out)
++            if eski:
++                kod_e, out_e = kos(d, arac=eski)
++                imzalar_e[sira] = (kod_e, tuple(sorted(x for x in re.findall(r"^  (Sinav\w+)\s+KAPSAM DARALDI", out_e, re.M))))
++            shutil.rmtree(d, ignore_errors=True)
++        farkli = set(imzalar_y.values())
++        ilk = imzalar_y[("ayni", ("f", "t", "d", "kaynak"))]
++        print("    K10 YENİ imza (f,t,d,kaynak sırası): çıkış %d · blok %s · kapsam %s · bayat %s · inen %s" % ilk)
++        sina("K10 YENİ 48 koşuda (24 ortak sıra + 24 yalnız-yama sırası) TEK sonuç (çıkış · blok · kapsam satırları · bayat · inen)",
++             len(farkli) == 1, "%d farklı imza" % len(farkli))
++        sina("K10 YENİ o tek sonuç DOĞRU: çıkış 2 · kapsam {istanbul, gorunmez, ikikova} · bayat ⊇ {ikikova, mergen} · mesru İNDİ",
++             ilk[0] == 2 and {a for a, _ in ilk[2]} == {"Sinavistanbul", "Sinavgorunmez", "Sinavikikova"}
++             and {"Sinavikikova", "Sinavmergen"} <= set(ilk[3]) and "Sinavmesru" in ilk[4], str(ilk))
++        if eski:
++            fe = collections.Counter(imzalar_e.values())
++            print("    (bilgi) K10 ESKİ 48 koşuda %d FARKLI sonuç verdi (çıkış, kapsam-daraldı adları):" % len(fe))
++            for (k, a), n in sorted(fe.items(), key=lambda x: -x[1]):
++                print("      %2d sıra → çıkış %d · KAPSAM DARALDI %s" % (n, k, list(a)))
++            sina("K10 ESKİ sıraya BAĞIMLI (>1 farklı sonuç) — kusurun ölçümü", len(fe) > 1)
++
++        # ── HÜKÜM LİSTESİ
++        def hukum_kur(*yamalar):
++            d = kur(); dizinler.append(d)
++            os.makedirs(os.path.join(d, "denetim"))
++            yaz(d, "denetim/HUKUM-SINAV.md", "# HÜKÜM\n## ③ HÜKÜM\nSinavistanbul birleştirilir.\n")
++            git(d, "add", "-A"); git(d, "commit", "-q", "-m", "hukum")
++            yama(d, *yamalar)
++            sha = git(d, "rev-parse", "--short=8", "HEAD~1").stdout.decode().strip()
++            return d, sha
++
++        def liste(d, satirlar):
++            p = os.path.join(d, "hukum.json")
++            io.open(p, "w", encoding="utf-8").write(json.dumps({"hukumler": satirlar}, ensure_ascii=False))
++            return p
++
++        def satir(ad="Sinavistanbul", yama_="yer_yama_sinav.js", kova="kapsam-daraldi", dayanak=None, sha="", gerekce="g"):
++            return {"yama": yama_, "ad": ad, "kova": kova, "gerekce": gerekce,
++                    "dayanak": dayanak if dayanak is not None else "%s · denetim/HUKUM-SINAV.md:## ③ HÜKÜM" % sha}
++
++        d, sha = hukum_kur(ISTANBUL_Y)
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(sha=sha)]))
++        sina("H1 listedeki kapsam atlaması → çıkış 0 · HUKUMLU ADIYLA · KAPSAM-DARALDI'da YOK",
++             kod == 0 and satir_adlari(out, "HUKUMLU") == {"Sinavistanbul"} and not satir_adlari(out, "KAPSAM-DARALDI"),
++             "çıkış %d" % kod)
++        sina("H1 blokta 'hukumlu:kapsam-daraldi'", blok(out)[1].get("Sinavistanbul") == ["hukumlu:kapsam-daraldi"],
++             str(blok(out)[1]))
++
++        d, sha = hukum_kur(ISTANBUL_Y, GORUNMEZ_Y)
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(sha=sha)]))
++        sina("H2 listesiz atlama → 2 (Sinavgorunmez KAPSAM-DARALDI'da, Sinavistanbul HUKUMLU'da)",
++             kod == 2 and satir_adlari(out, "KAPSAM-DARALDI") == {"Sinavgorunmez"}
++             and satir_adlari(out, "HUKUMLU") == {"Sinavistanbul"}, "çıkış %d" % kod)
++
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(dayanak="koordinatör hükmü bekleniyor")]))
++        sina("H3a dayanaksız satır + listesiz kapsam atlaması → 2 (ihlal > ölçülemedi), RED yine ADIYLA basılı",
++             kod == 2 and any(l.startswith("  HUKUM-RED  #1 Sinavistanbul") for l in out.splitlines()), "çıkış %d" % kod)
++        d, sha = hukum_kur(MESRU_Y)          # başka ihlal YOK: reddin kendi kodu (3) görünsün
++        for et, st in (("dayanaksız", satir(dayanak="koordinatör hükmü bekleniyor")),
++                       ("çözülmeyen SHA", satir(dayanak="deadbeef12 · denetim/HUKUM-SINAV.md")),
++                       ("geçmeyen bölüm", satir(dayanak="%s · denetim/HUKUM-SINAV.md:④ YOK" % sha)),
++                       ("olmayan dosya", satir(dayanak="denetim/YOK-BOYLE-BIR-HUKUM.md")),
++                       ("eksik gerekçe", satir(sha=sha, gerekce=""))):
++            once = ozet(d)
++            kod, out = kos(d, "--yaz", "--hukum-listesi", liste(d, [st]))
++            sina("H3 %s satır (yalnız taze yama + reddedilen satır) → çıkış 3 · HUKUM-RED ADIYLA · dosya aynı" % et,
++                 kod == 3 and any(l.startswith("  HUKUM-RED  #1 Sinavistanbul") for l in out.splitlines())
++                 and ozet(d) == once, "çıkış %d" % kod)
++
++        d, sha = hukum_kur(ISTANBUL_Y, MESRU_Y)
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(sha=sha), satir(ad="Sinavmesru", sha=sha)]))
++        sina("H4 ölü satır (Sinavmesru o kovayla ATLANMIYOR, İNDİ) → çıkış 3 · HUKUM-OLU ADIYLA",
++             kod == 3 and satir_adlari(out, "HUKUM-OLU") == {"Sinavmesru"}, "çıkış %d" % kod)
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(sha=sha), satir(yama_="yer_yama_silindi.js", sha=sha)]))
++        sina("H4 ölü satır (yama dosyası YOK) → çıkış 3 · HUKUM-OLU ADIYLA", kod == 3 and "  HUKUM-OLU  Sinavistanbul  [yer_yama_silindi.js" in out,
++             "çıkış %d" % kod)
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(sha=sha), satir(yama_="yer_yama_baska.js", sha=sha)]))
++        yaz(d, "data/yer_yama_baska.js", "window.YER_YAMA_BASKA = [];\n")
++        kod, out = kos(d, "--yama-glob", r"^yer_yama_sinav\.js$",
++                       "--hukum-listesi", liste(d, [satir(sha=sha), satir(yama_="yer_yama_baska.js", sha=sha)]))
++        sina("H4 glob DIŞINDAKİ yamanın satırı ÖLÜ SAYILMAZ (kapsam dışı) → çıkış 0",
++             kod == 0 and not satir_adlari(out, "HUKUM-OLU") and "glob'u DIŞINDA" in out, "çıkış %d" % kod)
++        os.remove(os.path.join(d, "data", "yer_yama_baska.js"))
++
++        d, sha = hukum_kur(ISTANBUL_Y)
++        kod, out = kos(d, "--hukum-listesi", os.path.join(d, "yok.json"))
++        sina("H5 liste dosyası yok → istisna 0 · çıkış 2", kod == 2 and "YOK — kasıtlı atlama istisnası 0" in out,
++             "çıkış %d" % kod)
++
++        # H6 — kayıt BAŞKA kovayla atlanıyor (tam glob'da Timbuktu: iki yama ⇒ cakisma): satır ÖLÜ DEĞİL, AFFETMEZ
++        d, sha = hukum_kur(ISTANBUL_Y)
++        yaz(d, "data/yer_yama_sinav2.js", "window.YER_YAMA_SINAV2 = [\n"
++            '{ad:"Sinavistanbul", s:[{f:"1200-01-01",t:"1453-05-29",d:"bizans"}]}\n];\n')
++        git(d, "add", "-A"); git(d, "commit", "-q", "-m", "ikinci yama")
++        kod, out = kos(d, "--hukum-listesi", liste(d, [satir(sha=sha)]))
++        sina("H6 kayıt başka kovayla (cakisma) atlanıyor → HUKUM-KOVA-UYUSMAZ ADIYLA · ÖLÜ değil · çıkış 4 (cakisma)",
++             kod == 4 and "Sinavistanbul" in satir_adlari(out, "HUKUM-KOVA-UYUSMAZ")
++             and not satir_adlari(out, "HUKUM-OLU"), "çıkış %d" % kod)
++    finally:
++        for d in dizinler:
++            shutil.rmtree(d, ignore_errors=True)
++
++
++# ───────────────────────────────────────────────────────────── GERÇEK
++NODE_CEK = r"""
++global.window = {};
++const fs = require('fs');
++eval(fs.readFileSync(process.argv[1], 'utf8'));
++const ad = new Set(process.argv[2].split('|'));
++const out = [];
++for (const k of Object.keys(window)) for (const r of (Array.isArray(window[k]) ? window[k] : []))
++  if (r && ad.has(r.ad)) out.push(r);
++process.stdout.write(JSON.stringify(out));
++"""
++
++
++def worktree(tmp, ad):
++    W = os.path.join(tmp, ad)
++    p = git(KOK, "worktree", "add", "--detach", W, "HEAD")
++    if p.returncode != 0:
++        raise RuntimeError("worktree: " + p.stderr.decode("utf-8", "replace"))
++    for f in ARAC:
++        shutil.copy(os.path.join(KOK, "arac", f), os.path.join(W, "arac", f))
++    if os.path.exists(os.path.join(KOK, HUKUM_LISTESI)):          # sınanan (çalışma ağacındaki) liste
++        shutil.copy(os.path.join(KOK, HUKUM_LISTESI), os.path.join(W, HUKUM_LISTESI))
++    return W
++
++
++# ───────────────────────────────────────────────────────────── DENETLE (yalnız dosya)
++NODE_HEPSI = r"""
++global.window = {};
++const fs = require('fs');
++eval(fs.readFileSync(process.argv[1], 'utf8'));
++const out = [];
++for (const k of Object.keys(window)) for (const r of (Array.isArray(window[k]) ? window[k] : [])) if (r && r.ad) out.push(r);
++process.stdout.write(JSON.stringify(out));
++"""
++
++
++def hizli_kol():
++    print("\n=== HIZLI KİP (--atlama-yalniz) + DENETLE ÇEVİRİCİSİ ===")
++    sys.path.insert(0, os.path.join(KOK, "arac"))
++    import denetle
++    import time
++    dizinler = []
++
++    def kur_h(*yamalar, liste_satir=True):
++        d = kur(); dizinler.append(d)
++        os.makedirs(os.path.join(d, "denetim"))
++        yaz(d, "denetim/HUKUM-SINAV.md", "# HÜKÜM\n## ③ HÜKÜM\nSinavistanbul birleştirilir.\n")
++        git(d, "add", "-A"); git(d, "commit", "-q", "-m", "hukum")
++        sha = git(d, "rev-parse", "--short=8", "HEAD").stdout.decode().strip()
++        if liste_satir:
++            yaz(d, "denetim/SAHIPLIK-HUKUM-LISTESI.json", json.dumps({"hukumler": [
++                {"yama": "yer_yama_sinav.js", "ad": "Sinavistanbul", "kova": "kapsam-daraldi", "gerekce": "g",
++                 "dayanak": "%s · denetim/HUKUM-SINAV.md:## ③ HÜKÜM" % sha}]}, ensure_ascii=False))
++        yama(d, *yamalar)
++        return d
++
++    def kova_sifirla():
++        denetle.OLCULEMEDI_KOVA.clear()
++
++    try:
++        # F1
++        d = kur_h(ISTANBUL_Y)
++        kod, out = kos(d, "--atlama-yalniz")
++        sina("F1 hızlı kip, listeli atlama → 0 · GERİ ALMA SORULMADI", kod == 0 and "SORULMADI (--atlama-yalniz)" in out,
++             "çıkış %d" % kod)
++        kova_sifirla()
++        ihl = denetle.sahiplik_atlama_rapor(kok=d)
++        sina("F3 denetle: listeli → 0 (ihlal yok, OLCULEMEDI_KOVA boş)", not ihl and denetle.OLCULEMEDI_KOVA == [],
++             str(denetle.OLCULEMEDI_KOVA))
++        d = kur_h(ISTANBUL_Y, GORUNMEZ_Y)
++        kod, out = kos(d, "--atlama-yalniz")
++        sina("F1 hızlı kip, listesiz atlama → 2", kod == 2, "çıkış %d" % kod)
++        kova_sifirla()
++        ihl = denetle.sahiplik_atlama_rapor(kok=d)
++        sina("F3 denetle: listesiz → 2 (OLCULEMEDI_KOVA'da Sinavgorunmez ADIYLA, listeli Sinavistanbul YOK)",
++             not ihl and [a for a, _ in denetle.OLCULEMEDI_KOVA] == ["sahiplik atlama Sinavgorunmez"],
++             str(denetle.OLCULEMEDI_KOVA))
++        once = ozet(d)
++        kod, out = kos(d, "--atlama-yalniz", "--yaz")
++        sina("F1 --atlama-yalniz --yaz → 3 REDDEDİLDİ · dosya aynı", kod == 3 and "REDDEDİLDİ" in out and ozet(d) == once,
++             "çıkış %d" % kod)
++
++        # F2 — yıkıcı (sınav kancası)
++        d = kur_h(MESRU_Y, liste_satir=False)
++        env = dict(os.environ, PYTHONIOENCODING="utf-8", SAHIPLIK_SINAV_YIKICI="Sinavmesru")
++        once = ozet(d)
++        p = subprocess.run(komut(d, ["--yaz"]), cwd=d, capture_output=True, env=env)
++        out = p.stdout.decode("utf-8", "replace").replace("\r\n", "\n")
++        sina("F2 tam kip --yaz, yıkıcı → 2 · YIKICI ADIYLA (1281-01-01→1550-01-01) · dosya aynı",
++             p.returncode == 2 and satir_adlari(out, "YIKICI") == {"Sinavmesru"} and "1281-01-01→1550-01-01" in out
++             and ozet(d) == once, "çıkış %d" % p.returncode)
++        jy = os.path.join(d, "y.json")
++        p = subprocess.run(komut(d, ["--atlama-yalniz", "--json", jy]), cwd=d, capture_output=True, env=env)
++        J = json.load(io.open(jy, encoding="utf-8"))
++        sina("F2 hızlı kip yıkıcı → 2 · JSON `yikici`de Sinavmesru",
++             p.returncode == 2 and [o["ad"] for o in J["yikici"]] == ["Sinavmesru"], "çıkış %d" % p.returncode)
++        kova_sifirla()
++        ihl = denetle.sahiplik_atlama_rapor(kok=d, env={"SAHIPLIK_SINAV_YIKICI": "Sinavmesru"})
++        sina("F3 denetle: yıkıcı → İHLAL (1)", ihl is True)
++        kova_sifirla()
++        ihl = denetle.sahiplik_atlama_rapor(kok=d)
++        sina("F2 kanca YOKKEN aynı yama yıkıcı DEĞİL (iki yön) → denetle 0", ihl is False and denetle.OLCULEMEDI_KOVA == [],
++             str(denetle.OLCULEMEDI_KOVA))
++
++        # F3 — JSON YOK / GEÇERSİZ / kova EKSİK: sahte alt süreç (arac/_sahiplik_uygula.py yerine)
++        for et, govde in (("JSON YOK", "pass"),
++                          ("JSON GEÇERSİZ", "open(J, 'w').write('{bozuk')"),
++                          ("kova EKSİK (yikici yok)", "import json; json.dump({'listeli_atlama': [], 'listesiz_atlama': [],"
++                                                      " 'olculemedi': []}, open(J, 'w'))"),
++                          ("kova liste değil", "import json; json.dump({'listeli_atlama': [], 'listesiz_atlama': None,"
++                                               " 'yikici': [], 'olculemedi': []}, open(J, 'w'))")):
++            sk = tempfile.mkdtemp(prefix="kapsam_sahte_"); dizinler.append(sk)
++            os.makedirs(os.path.join(sk, "arac"))
++            yaz(sk, "arac/_sahiplik_uygula.py", "import sys\nJ = sys.argv[sys.argv.index('--json') + 1]\n%s\n"
++                "raise SystemExit(0)\n" % govde)
++            kova_sifirla()
++            ihl = denetle.sahiplik_atlama_rapor(kok=sk)
++            sina("F3 %s (alt süreç çıkış 0!) → 2 ÖLÇÜLEMEDİ, ASLA 0" % et,
++                 ihl is False and len(denetle.OLCULEMEDI_KOVA) == 1
++                 and denetle.OLCULEMEDI_KOVA[0][0] == "sahiplik atlama sınıfı", str(denetle.OLCULEMEDI_KOVA))
++
++        # R1-R5 — kök
++        dA = kur_h(MESRU_Y, liste_satir=False)
++        dB = kur_h(MESRU_Y, liste_satir=False)
++        onceA, onceB = ozet(dA), ozet(dB)
++        p = subprocess.run([sys.executable, os.path.join(dA, "arac", "_sahiplik_uygula.py"), "--yaz"], cwd=dB,
++                           capture_output=True, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++        out = p.stdout.decode("utf-8", "replace").replace("\r\n", "\n")
++        sina("R1 başka dizinden --yaz → aracın KENDİ ağacına (A) yazdı, B BAYT BAYT aynı",
++             p.returncode == 0 and ozet(dA) != onceA and ozet(dB) == onceB and ("KÖK: %s" % dA) in out,
++             "çıkış %d" % p.returncode)
++        sina("R3 açılış satırları KÖK · HEAD · git · node",
++             all(re.search(r"^%s: \S" % k, out, re.M) for k in ("KÖK", "HEAD", "git", "node")))
++        alt = os.path.join(dB, "alt"); os.makedirs(os.path.join(alt, "arac")); os.makedirs(os.path.join(alt, "data"))
++        for f in ARAC:
++            shutil.copy(os.path.join(KOK, "arac", f), os.path.join(alt, "arac", f))
++        shutil.copy(os.path.join(dB, "data", HEDEF), os.path.join(alt, "data", HEDEF))
++        shutil.copy(os.path.join(dB, "data", "yer_yama_sinav.js"), os.path.join(alt, "data", "yer_yama_sinav.js"))
++        once_alt = hashlib.sha256(open(os.path.join(alt, "data", HEDEF), "rb").read()).hexdigest()
++        p = subprocess.run([sys.executable, os.path.join(alt, "arac", "_sahiplik_uygula.py"), "--yaz"], cwd=alt,
++                           capture_output=True, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++        out = p.stdout.decode("utf-8", "replace")
++        sina("R2 kök ≠ git toplevel (alt dizin) → çıkış 3 · KÖK UYUŞMAZ · hiçbir dosya yazılmadı",
++             p.returncode == 3 and "KÖK UYUŞMAZ" in out and ozet(dB) == onceB
++             and hashlib.sha256(open(os.path.join(alt, "data", HEDEF), "rb").read()).hexdigest() == once_alt,
++             "çıkış %d" % p.returncode)
++        kaynak = io.open(os.path.join(KOK, "arac", "_sahiplik_uygula.py"), encoding="utf-8").read()
++        sina("R4 stdout satır tamponlu (line_buffering=True, hasattr korumalı)",
++             "line_buffering=True" in kaynak and 'hasattr(sys.stdout, "reconfigure")' in kaynak)
++        import importlib.util
++        sp_ = importlib.util.spec_from_file_location("_bk_sinav", os.path.join(KOK, "arac", "_bayat_yama_kapi.py"))
++        BK = importlib.util.module_from_spec(sp_); sp_.loader.exec_module(BK)
++        m127 = BK.git_hata(subprocess.CompletedProcess([], 127, b"@@C abc 2026-10-10\n", b""), "git log -L 1,2:x")
++        m128 = BK.git_hata(subprocess.CompletedProcess([], 128, b"", b"fatal: bad revision"), "git diff hata")
++        sina("R5 git_hata: 127 + çıktı → dönüş kodu ve 'DIŞARIDAN sonlandırılmış olabilir'",
++             "dönüş kodu 127" in m127 and "DIŞARIDAN" in m127, m127)
++        sina("R5 git_hata: 128 + stderr → dönüş kodu ve stderr, 'dışarıdan' notu YOK",
++             "dönüş kodu 128" in m128 and "bad revision" in m128 and "DIŞARIDAN" not in m128, m128)
++
++        # F4 — gerçek ağaç
++        kova_sifirla()
++        t0 = time.time()
++        ihl = denetle.sahiplik_atlama_rapor()
++        sure = time.time() - t0
++        ol = [a for a, _ in denetle.OLCULEMEDI_KOVA]
++        sina("F4 gerçek ağaç: denetle çağrıyı yaptı ve sonucu ÇEVİRDİ (yıkıcı 0 · listesiz ADIYLA kovada) · %.0f sn ≤ 60" % sure,
++             ihl is False and sure <= 60 and all(a.startswith("sahiplik atlama ") for a in ol) and ol,
++             "listesiz %d" % len(ol))
++        print("    (bilgi) bugün listesiz atlama %d ad → denetle.py ÇIKIŞ 2 (ÖLÇÜLEMEDİ); ilk 12: %s"
++              % (len(ol), " · ".join(a[16:] for a in ol[:12])))
++    finally:
++        denetle.OLCULEMEDI_KOVA.clear()
++        for d in dizinler:
++            shutil.rmtree(d, ignore_errors=True)
++
++
++def denetle_kol():
++    print("\n=== DENETLE — hüküm listesi yalnız DOSYA olarak (araç KOŞMAZ) ===")
++    sys.path.insert(0, os.path.join(KOK, "arac"))
++    import girdi
++    import denetle
++    Y = girdi.yukle(sessiz=True)
++    bugun = {y["ad"]: y for y in Y}
++
++    def kova(yol):
++        denetle.OLCULEMEDI_KOVA.clear()
++        denetle.hukum_listesi_rapor(Y, yol)
++        return list(denetle.OLCULEMEDI_KOVA)
++
++    gercek_liste = os.path.join(KOK, HUKUM_LISTESI)
++    k = kova(gercek_liste)
++    sina("D1 depodaki liste temiz → OLCULEMEDI_KOVA 0", os.path.exists(gercek_liste) and k == [], str(k))
++    # yama İNMİŞ bir kayıt bul (bağımsız: node + girdi, `_hukum_listesi` kullanılmaz)
++    inmis = None
++    for f in sorted(os.listdir(os.path.join(KOK, "data"))):
++        if not re.match(r"^yer_yama.*\.js$", f) or f == Z5_V1 or inmis:
++            continue
++        p = subprocess.run(["node", "-e", NODE_HEPSI, os.path.join(KOK, "data", f)], capture_output=True)
++        if p.returncode != 0:
++            continue
++        for r in json.loads(p.stdout.decode("utf-8")):
++            b = bugun.get(r["ad"])
++            al = [a for a in ("d", "s", "v", "isg", "m") if a in r]
++            if b and al and all(json.dumps(r[a], sort_keys=True) == json.dumps(b.get(a), sort_keys=True) for a in al):
++                inmis = (f, r["ad"])
++                break
++    tmp = tempfile.mkdtemp(prefix="kapsam_denetle_")
++    try:
++        temel = json.load(io.open(gercek_liste, encoding="utf-8"))["hukumler"][0]
++        vakalar = [
++            ("bozuk SHA", dict(temel, dayanak="deadbeef12 · denetim/HUKUM-KAPSAM-DARALDI-0906.md"), "RED"),
++            ("dayanaksız", dict(temel, dayanak="koordinatör hükmü bekleniyor"), "RED"),
++            ("bölüm yok", dict(temel, dayanak="63bb90dd · denetim/HUKUM-KAPSAM-DARALDI-0906.md:⑨ YOK"), "RED"),
++            ("yama dosyası yok", dict(temel, yama="yer_yama_boyle_bir_dosya_yok.js"), "ÖLÜ"),
++            ("kayıt yamada yok", dict(temel, ad="Boyle Bir Kayit Yok"), "ÖLÜ"),
++        ]
++        if inmis:
++            vakalar.append(("yama İNMİŞ (%s · %s)" % inmis, dict(temel, yama=inmis[0], ad=inmis[1]), "ÖLÜ"))
++        else:
++            sina("D2 yama İNMİŞ bir kayıt bulundu (ölü vakası için)", False)
++        for et, st, tur in vakalar:
++            yol = os.path.join(tmp, "l.json")
++            io.open(yol, "w", encoding="utf-8").write(json.dumps({"hukumler": [st]}, ensure_ascii=False))
++            k = kova(yol)
++            sina("D2 %s → OLCULEMEDI_KOVA'da ADIYLA (%s %s)" % (et, tur, st["ad"]),
++                 len(k) == 1 and tur in k[0][0] and (st["ad"] in k[0][0]), str(k))
++        k = kova(os.path.join(tmp, "yok.json"))
++        sina("D2 liste dosyası YOK → OLCULEMEDI_KOVA'da", len(k) == 1 and "YOK" in k[0][1], str(k))
++    finally:
++        shutil.rmtree(tmp, ignore_errors=True)
++        denetle.OLCULEMEDI_KOVA.clear()
++
++
++def gercek(eski):
++    print("\n=== GERÇEK (yalnız KURU) ===")
++    if not os.path.exists(os.path.join(KOK, "data", Z5_V1)):
++        sina("G0 Z5 v1 gövdesi (data/%s) var" % Z5_V1, False)
++        return
++    tmp = tempfile.mkdtemp(prefix="kapsam_gercek_")
++    agaclar = []
++    try:
++        W1 = worktree(tmp, "w1"); agaclar.append(W1)       # Z5 v1 (main'deki karantina)
++        W3 = worktree(tmp, "w3"); agaclar.append(W3)       # main + v3
++        v3 = V3 or diff_bul("ZAMAN-Z5-1009-KOORD-v3.diff", tmp, V3_REF)
++        v3_ok = bool(v3) and git(W3, "apply", v3).returncode == 0
++        W4 = worktree(tmp, "w4"); agaclar.append(W4)       # main + SESSIZ-7 v2 + v4
++        v4p = [diff_bul("YER-YAMA-SESSIZ-7-1010-KOORD-v2.diff", tmp), diff_bul("ZAMAN-Z5-1009-KOORD-v4.diff", tmp)]
++        v4_ok = all(v4p) and all(git(W4, "apply", x).returncode == 0 for x in v4p)
++        # G1 — üç kayıtlık yama (ATLANAN-63 §6b)
++        p = subprocess.run(["node", "-e", NODE_CEK, os.path.join(W1, "data", Z5_V1), "İstanbul|Konya|Gence"],
++                           capture_output=True)
++        uc = json.loads(p.stdout.decode("utf-8")) if p.returncode == 0 else []
++        WG = worktree(tmp, "wg"); agaclar.append(WG)
++        yaz(WG, "data/yer_yama_zz_sinav63.js",
++            "window.YER_YAMA_ZZ_SINAV63 = " + json.dumps(uc, ensure_ascii=False) + ";\n")
++        g1 = ["--yama-glob", r"^yer_yama_zz_sinav63\.js$"]
++        isler = {
++            "G1-yeni": (WG, g1, None),
++            "G2-yeni": (W3, ["--yama-glob", r"^%s$" % re.escape(Z5_V1)], None),
++            "G3-yeni": (W1, ["--yama-glob", r"^%s$" % re.escape(Z5_V1), "--taban", Z5_TABAN,
++                             "--taban-rapor", os.path.join(tmp, "g3_yeni.json")], None),
++        }
++        if eski:
++            isler["G1-eski"] = (WG, g1, eski)
++            isler["G2-eski"] = (W3, isler["G2-yeni"][1], eski)
++            isler["G3-eski"] = (W1, ["--yama-glob", r"^%s$" % re.escape(Z5_V1), "--taban", Z5_TABAN,
++                                     "--taban-rapor", os.path.join(tmp, "g3_eski.json")], eski)
++        isler["G2b-yeni"] = (W4, isler["G2-yeni"][1], None)
++        if eski:
++            isler["G2b-eski"] = (W4, isler["G2-yeni"][1], eski)
++        if not v3_ok:
++            isler.pop("G2-yeni"); isler.pop("G2-eski", None)
++        if not v4_ok:
++            isler.pop("G2b-yeni"); isler.pop("G2b-eski", None)
++        once = {W: git(W, "status", "--porcelain", "--", "data/").stdout for W in agaclar}
++        surec = {}
++        for k, (W, arg, arac) in isler.items():
++            surec[k] = subprocess.Popen(komut(W, arg, arac), cwd=W, stdout=subprocess.PIPE,
++                                        stderr=subprocess.STDOUT, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++        print("  %d koşu paralel başladı: %s" % (len(surec), ", ".join(sorted(surec))))
++        sonuclar = {}
++        for k, pr in surec.items():
++            o, _ = pr.communicate()
++            sonuclar[k] = (pr.returncode, o.decode("utf-8", "replace"))
++            print("  %-8s çıkış %d" % (k, pr.returncode))
++            io.open(os.path.join(tmp, k + ".log"), "w", encoding="utf-8").write(sonuclar[k][1])
++
++        sina("G1 Z5 v1'den 3 kayıt çekildi (İstanbul · Konya · Gence)", len(uc) == 3, str([x.get("ad") for x in uc]))
++        kod, out = sonuclar["G1-yeni"]
++        sina("G1 YENİ → çıkış 2", kod == 2, "çıkış %d" % kod)
++        sina("G1 YENİ üç kayıt KAPSAM-DARALDI'da ADIYLA",
++             satir_adlari(out, "KAPSAM-DARALDI") == {"İstanbul", "Konya", "Gence"},
++             str(satir_adlari(out, "KAPSAM-DARALDI")))
++        sina("G1 YENİ üçü blokta ADIYLA", set(blok(out)[1]) == {"İstanbul", "Konya", "Gence"}, str(blok(out)[1]))
++        print("    " + "\n    ".join(l for l in out.splitlines() if l.startswith("  KAPSAM-DARALDI  ")))
++        if eski:
++            kod, out = sonuclar["G1-eski"]
++            sina("G1 ESKİ → çıkış 0 (ATLANAN-63 §6b'nin kusuru)", kod == 0, "çıkış %d" % kod)
++
++        for g, ok, adi in (("G2", v3_ok, "Z5 v3"), ("G2b", v4_ok, "Z5 v4 (+SESSIZ-7 v2)")):
++            if not ok:
++                sina("%s %s diff'i bulundu ve HEAD'e uygulandı" % (g, adi), False)
++                continue
++            kod, out = sonuclar[g + "-yeni"]
++            m = re.search(r"GERİ OKUMA: (\d+)/(\d+) kayıt", out)
++            uyg = ozet_kova(out, "uygulandi")
++            if g == "G2":
++                sina("%s %s YENİ → çıkış 0" % (g, adi), kod == 0, "çıkış %d" % kod)
++            else:
++                # v4'ün iniş sırası: SESSIZ-7 v2 ÖNCE COMMİTLENİR. Burada SESSIZ-7 commitlenmeden (commit
++                #   YOK kuralı) uygulandı ⇒ geri alma kapısı "hedef dosya COMMİTLENMEMİŞ" der ve 3 verir — bu
++                #   kapının DOĞRU davranışıdır. Taban TAZE olmalı; hızlı kip (geri alma sorulmaz) 0 vermeli.
++                sina("%s %s YENİ tam kip → çıkış 3 YALNIZ 'COMMİTLENMEMİŞ' yüzünden · taban TAZE" % (g, adi),
++                     kod == 3 and "COMMİTLENMEMİŞ değişiklik taşıyor" in out
++                     and "her değişimin tabanı bugünkü değer — TAZE" in out, "çıkış %d" % kod)
++                kod_h, out_h = kos(W4, "--atlama-yalniz", "--yama-glob", r"^%s$" % re.escape(Z5_V1))
++                sina("%s %s YENİ hızlı kip → çıkış 0 (kapsam 0 · yıkıcı 0 · taban TAZE)" % (g, adi), kod_h == 0,
++                     "çıkış %d" % kod_h)
++            sina("%s YENİ kapsam-daraldı 0 · kapsam-ölçülemedi 0 · yıkıcı 0 · blok 'ATLANAN (0)'" % g,
++                 ozet_kova(out, "kapsam-daraldi") == 0 and ozet_kova(out, "kapsam-olculemedi") == 0
++                 and "silinen dilim 0 ✓" in out and blok(out)[0] == 0, "blok n=%s" % blok(out)[0])
++            sina("%s YENİ geri okuma n/n = uygulandı (%d)" % (g, uyg), bool(m) and m.group(1) == m.group(2) == str(uyg),
++                 m.group(0) if m else "geri okuma satırı yok")
++            if eski:
++                kod_e, out_e = sonuclar[g + "-eski"]
++                sina("%s ESKİ ile aynı: çıkış ve uygulandı (gerileme yok)" % g,
++                     kod_e == kod and ozet_kova(out_e, "uygulandi") == uyg,
++                     "ESKİ çıkış %d uygulandı %d" % (kod_e, ozet_kova(out_e, "uygulandi")))
++
++        kod, out = sonuclar["G3-yeni"]
++        ry = json.load(io.open(os.path.join(tmp, "g3_yeni.json"), encoding="utf-8"))
++        kap_y = {x["ad"] for x in ry.get("kapsam_daralan", [])}
++        bay_y = {x["ad"] for x in ry.get("bayat", [])}
++        sina("G3 Z5 v1 YENİ --taban %s → çıkış 2" % Z5_TABAN, kod == 2, "çıkış %d" % kod)
++        sina("G3 YENİ kapsam/bayat listesi ekrana ADIYLA (sayan = basan)",
++             satir_adlari(out, "KAPSAM-DARALDI") == kap_y and satir_adlari(out, "TABAN-BAYAT") == bay_y,
++             "kapsam %d · bayat %d" % (len(kap_y), len(bay_y)))
++        print("    YENİ: KAPSAM DARALDI %d · BAYAT TABAN %d · iki kovada %d · blok n=%s"
++              % (len(kap_y), len(bay_y), len(kap_y & bay_y), blok(out)[0]))
++        if eski:
++            re_ = json.load(io.open(os.path.join(tmp, "g3_eski.json"), encoding="utf-8"))
++            kap_e = {x["ad"] for x in re_.get("atlanan", []) if x.get("sebep", "").startswith("KAPSAM DARALDI")}
++            bay_e = {x["ad"] for x in re_.get("bayat", [])}
++            print("    ESKİ: çıkış %d · KAPSAM DARALDI (atlanan) %d · BAYAT TABAN %d"
++                  % (sonuclar["G3-eski"][0], len(kap_e), len(bay_e)))
++            sina("G3 YENİ kapsam ⊇ ESKİ kapsam-daraldı (63 + 7 dahil)", kap_y >= kap_e,
++                 "eksik: %s" % sorted(kap_e - kap_y))
++            sina("G3 YENİ bayat ⊇ ESKİ bayat", bay_y >= bay_e, "eksik: %s" % sorted(bay_e - bay_y))
++            yeni_gor = sorted(kap_y - kap_e)
++            print("    YENİ GÖRÜNEN kapsam daralması (%d, eskiden kör): %s" % (len(yeni_gor), " · ".join(yeni_gor)))
++            yeni_bay = sorted(bay_y - bay_e)
++            print("    YENİ ÖLÇÜLEN bayat (%d, eskiden kapsam yüzünden sorulmuyordu): %s"
++                  % (len(yeni_bay), " · ".join(yeni_bay)))
++            sina("G3 ESKİ'nin yeni bayat sandığı her ad YENİ'de kapsam-daralan (bayatlık ③ ile açıldı)",
++                 set(yeni_bay) <= kap_y, "kapsamsız: %s" % sorted(set(yeni_bay) - kap_y))
++        # G4 — GERÇEK Mergen yaması, iki sıra
++        p = subprocess.run(["node", "-e", NODE_CEK, os.path.join(WG, "data", "yer_yama_doguasya.js"),
++                            "Mergen (Nenjiang)"], capture_output=True)
++        mer = json.loads(p.stdout.decode("utf-8")) if p.returncode == 0 else []
++        sina("G4 Mergen gerçek yamadan çekildi", len(mer) == 1, str(len(mer)))
++        g4 = {}
++        for sira in (("d", "f", "t"), ("f", "t", "d")):
++            ad_s = ",".join(sira)
++            yaz(WG, "data/yer_yama_zz_mergen.js", "window.YER_YAMA_ZZ_MERGEN = [" + ",".join(
++                "{%s}" % ", ".join("%s:%s" % (json.dumps(k), _js(v, sira)) for k, v in r_.items()) for r_ in mer) + "];\n")
++            arg = ["--yama-glob", r"^yer_yama_zz_mergen\.js$", "--taban", "d041a080"]
++            kod, out = kos(WG, *arg)
++            g4[sira] = (kod, satir_adlari(out, "KAPSAM-DARALDI"), satir_adlari(out, "TABAN-OLCULEMEDI"),
++                        satir_adlari(out, "TABAN-BAYAT"), tuple(sorted(blok(out)[1].items())))
++            sina("G4 YENİ {%s} → KAPSAM-DARALDI'da YOK · TABAN-OLCULEMEDI'de ADIYLA ('kayıt YOK') · çıkış 3" % ad_s,
++                 kod == 3 and not g4[sira][1] and g4[sira][2] == {"Mergen (Nenjiang)"} and "d041a080'de kayıt YOK" in out,
++                 "çıkış %d" % kod)
++            if eski:
++                kod_e, out_e = kos(WG, *arg, arac=eski)
++                print("    (bilgi) G4 ESKİ {%s} → çıkış %d · KAPSAM DARALDI: %s · TABAN-OLCULEMEDI: %s" % (
++                    ad_s, kod_e, "KAPSAM DARALDI" in out_e, sorted(satir_adlari(out_e, "TABAN-OLCULEMEDI"))))
++            os.remove(os.path.join(WG, "data", "yer_yama_zz_mergen.js"))
++        sina("G4 YENİ iki sırada AYNI sonuç (çıkış · kovalar · listeler)", len(set(map(repr, g4.values()))) == 1)
++
++        # G5 — koordinatör hükmü ② (listesizler 2, ADIYLA) + listeli beşli HUKUMLU
++        g5 = (("yer_yama_1923_bosluk_0906.js", 2, {"Honolulu"}, {"Timbuktu"}),
++              ("yer_yama_litvanya.js", 2, {"Çehrin (Çigirin)"}, set()),
++              ("yer_yama_silistre_0906.js", 2, {"Silistre"}, set()),
++              ("yer_yama_uyg3.js", 2, {"Şehrizor"}, set()),
++              ("yer_yama_arnavutluk.js", 0, set(), {"Akçahisar (Kruja)"}),
++              ("yer_yama_floransa.js", 0, set(), {"Floransa"}),
++              ("yer_yama_sh106.js", 0, set(), {"Ahıska"}),
++              ("yer_yama_timbuktu.js", 0, set(), {"Timbuktu"}))
++        for f, bek, kap, huk in g5:
++            kod, out = kos(WG, "--yama-glob", "^%s$" % re.escape(f))
++            sina("G5 %s → çıkış %d · KAPSAM-DARALDI %s · HUKUMLU %s" % (f, bek, sorted(kap), sorted(huk)),
++                 kod == bek and satir_adlari(out, "KAPSAM-DARALDI") == kap and satir_adlari(out, "HUKUMLU") == huk
++                 and set(blok(out)[1]) >= kap | huk,
++                 "çıkış %d · kapsam %s · hükümlü %s" % (kod, sorted(satir_adlari(out, "KAPSAM-DARALDI")),
++                                                     sorted(satir_adlari(out, "HUKUMLU"))))
++        kod, out = kos(WG, "--yama-glob", r"^yer_yama_doguasya\.js$")
++        sina("G5 Mergen (doguasya): KAPSAM DEĞİL (yama genişletiyor) · TABAN-OLCULEMEDI ADIYLA · çıkış 3",
++             kod == 3 and "Mergen (Nenjiang)" in satir_adlari(out, "TABAN-OLCULEMEDI")
++             and "Mergen (Nenjiang)" not in satir_adlari(out, "KAPSAM-DARALDI"), "çıkış %d" % kod)
++
++        for W in agaclar:
++            sina("G  %s data/ yazılmadı" % os.path.basename(W),
++                 git(W, "status", "--porcelain", "--", "data/").stdout == once[W])
++    finally:
++        for W in agaclar:
++            git(KOK, "worktree", "remove", "--force", W)
++        shutil.rmtree(tmp, ignore_errors=True)
++
++
++def main():
++    bas = durum()
++    tmp = tempfile.mkdtemp(prefix="kapsam_eski_")
++    eski = os.path.join(tmp, "_sahiplik_uygula_ESKI.py")
++    p = subprocess.run(["git", "show", "%s:arac/_sahiplik_uygula.py" % ESKI_REF], cwd=KOK, capture_output=True)
++    if p.returncode != 0:
++        print("  (eski araç okunamadı: %s — 'önce' kolları atlanıyor)" % ESKI_REF)
++        eski = None
++    elif ISARET.encode() in p.stdout:
++        print("  (%s zaten %s'i taşıyor — 'önce' kolları anlamsız, atlanıyor)" % (ESKI_REF, ISARET))
++        eski = None
++    else:
++        open(eski, "wb").write(p.stdout)
++    try:
++        sentetik(eski)
++        denetle_kol()
++        hizli_kol()
++        if GERCEK:
++            gercek(eski)
++        else:
++            print("\n(--gercek-yok: G1-G3 koşmadı)")
++    finally:
++        shutil.rmtree(tmp, ignore_errors=True)
++    son = durum()
++    sina("SON C:\\atlas ve C:\\atlas-umit git status önce/sonra AYNI", bas == son,
++         "; ".join(k for k in bas if bas[k] != son.get(k)))
++    kalan = [a for a, k in sonuc if not k]
++    print("\nSINAV: %d/%d geçti" % (len(sonuc) - len(kalan), len(sonuc)))
++    for a in kalan:
++        print("  ✗ " + a)
++    return 1 if kalan else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())
+diff --git a/denetim/SAHIPLIK-HUKUM-LISTESI.json b/denetim/SAHIPLIK-HUKUM-LISTESI.json
+new file mode 100644
+index 00000000..259bd433
+--- /dev/null
++++ b/denetim/SAHIPLIK-HUKUM-LISTESI.json
+@@ -0,0 +1,20 @@
++{
++ "_aciklama": "SAHIPLIK-KAPSAM-1010 ⓑ — _sahiplik_uygula.py'nin KASITLI (hükümlü) atlamaları. SAYI değil LİSTE (§3.4⑤). Her satır: yama + ad + kova + DAYANAK (çözülen commit SHA'sı ve/veya var olan denetim/… dosyası[:bölüm]) + gerekçe. Dayanaksız satır REDDEDİLİR (araç çıkış 3, denetle.py OLCULEMEDI). Ölü satır (yama silindi / kayıt yamada yok / yama inmiş / kayıt artık o kovayla atlanmıyor) öter. Okuyucu: arac/_hukum_listesi.py. Satır EKLEYEN/SİLEN koordinatördür; ok107 Timbuktu satırı YER-YAMA-SESSIZ-7 v2 ile AYNI commit'te eklenir (koşullu satır YOK).",
++ "hukumler": [
++  {"yama": "yer_yama_arnavutluk.js", "ad": "Akçahisar (Kruja)", "kova": "kapsam-daraldi",
++   "dayanak": "63bb90dd · denetim/HUKUM-KAPSAM-DARALDI-0906.md:## ③ HÜKÜM",
++   "gerekce": "yama olduğu gibi UYGULANMAZ — erken zincir + tabanın arnavutluk-bagimsiz 1912-1923 kuyruğu BİRLEŞTİRİLİR"},
++  {"yama": "yer_yama_floransa.js", "ad": "Floransa", "kova": "kapsam-daraldi",
++   "dayanak": "63bb90dd · denetim/HUKUM-KAPSAM-DARALDI-0906.md:## ③ HÜKÜM",
++   "gerekce": "yama olduğu gibi UYGULANMAZ — floransa 1281-1532 + toskana 1532-1861 + tabanın italya 1861-1923 BİRLEŞTİRİLİR"},
++  {"yama": "yer_yama_sh106.js", "ad": "Ahıska", "kova": "kapsam-daraldi",
++   "dayanak": "63bb90dd · denetim/HUKUM-KAPSAM-DARALDI-0906.md:## ③ HÜKÜM",
++   "gerekce": "yama haklı ama EKSİK (s:gurcistan.t 1578-08-09 yok) — olduğu gibi uygulanmaz, düzeltilip uygulanır"},
++  {"yama": "yer_yama_1923_bosluk_0906.js", "ad": "Timbuktu", "kova": "kapsam-daraldi",
++   "dayanak": "fea0f1b9 · denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md:ÇARE: TEK VE TAM ZİNCİR",
++   "gerekce": "parça yama YOK, tek ve tam zincir — kısmî dizi tam diziyi silerdi"},
++  {"yama": "yer_yama_timbuktu.js", "ad": "Timbuktu", "kova": "kapsam-daraldi",
++   "dayanak": "fea0f1b9 · denetim/HUKUM-CAKISMA-KUTAISI-TIMBUKTU-0906.md:ÇARE: TEK VE TAM ZİNCİR",
++   "gerekce": "parça yama YOK, tek ve tam zincir — kısmî dizi tam diziyi silerdi"}
++ ]
++}
