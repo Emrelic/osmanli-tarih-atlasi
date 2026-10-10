@@ -219,6 +219,22 @@ var ≠ o soruyu soruyor"* ailesinin TERS yüzü: kapı **yok sanıldı ve VARDI
    (`{d,f,t}` sırasında yazmıyordu — **sırf anahtar sırası yüzünden**).
    ⇒ Bir körlüğü kapatan yama inerken, o körlüğün **neyi yanlışlıkla
    koruduğu** da aranır; yoksa bir kusuru kapatıp bir başkasını AÇARSIN.
+7. 🆕 🔴 **②'NİN KARDEŞİ — DÜZELTME İLE GÖRÜNÜRLÜĞÜ AYRILAMAZ.** ② *tavan +
+   sabit* için yazılmıştı; aynı mekanizma **veri + boya** için de geçerli:
+   > bir düzeltme ile onun **GÖRÜNÜR OLMASINI** sağlayan şey ayrı inerse,
+   > araya kalan commit'te durum **düzeltmeden ÖNCEKİNDEN KÖTÜ** olabilir.
+   Ölçülen vaka (KASA, 10 Ekim): Königsberg `almanya 1281-1525` YANLIŞ;
+   doğrusu `teuton-devleti`, **ama o kimlik `BOYALAR`da YOK** ⇒ düzeltme tek
+   başına inerse boyalı bir yanlış, **boyasız bir delikle** değişir. Boyayı
+   eklemek `renkler.py`ye dokunur = MOTOR TUZU = 7-8 saatlik tam inşa (`§9.1`).
+   ⇒ **ÇARE: ikisini birleştir, olmuyorsa ARADAKİ HÂLİ BEYAN ET.** Atlasta
+   bunun kovası KURULU: `boya_gerekli:true` (`§1.5` — *"tam inşa koşusunu
+   bekliyor, sessiz DEĞİL"*); kalem oraya **ADIYLA** yazılır, sayı olarak değil.
+   📌 Ve takma ad (`harita:` ile mevcut bir boyayı paylaşmak) çare DEĞİLDİR:
+   iki devleti aynı renkte çizmek, **gürültülü bir hatayı SESSİZ bir hatayla**
+   değiştirir.
+   🔴 Seçim ölçütü: **yanlış renk bir YALANDIR, beyanlı delik bir İTİRAFTIR.**
+   Delik masum değildir (`§3.5`), ama yalandan kötü de değildir.
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`
@@ -1021,5 +1037,12 @@ tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/
 - **Toplu düzeltme** — `replace(…, 1)` yalnız ilk eşleşmeyi değiştirir; Türkçe/kesme işaretli
   metinde `sed` kullanma; heredoc yerine `Write` + `py <yol>`.
 - **Yakın mükerrer yerleşim** — yeni noktadan önce ad (normalleştirilmiş) + 3 km tara.
+- 🆕 **Aracın DESENİ de bir ölçüm parametresidir** — gevşek desen sayı verir ve
+  güven telkin eder. Ölçülen vaka (KASA, 10 Ekim): `grep 'd:"…"'` deseni
+  `id:"…"`yi de yakaladı ⇒ *"Töton künyeleri 2'şer dilimde kullanılıyor"*
+  çıktı, oysa yakalananlar **künye TANIMI**ydı; `girdi.yukle` ile gerçek **0**.
+  Aynı aile: `ls dersler/D*.md` `DIZIN.md`yi de sayar (`§11` başı). ⇒ Desen,
+  tavan gibi, **yazıldığı anda sınanır** — ve tercihen ayrıştırıcıyla
+  değiştirilir.
 - **Öngörü ölçümden önce yazılır** (sınav anı + evreniyle); yeni denetim iki yönde
   sınanmadan çalışıyor sayılmaz.

@@ -731,6 +731,24 @@ değiştirmek borcu geriye dönük açardı). Gövde ölçümleri ve `DIKIS-KAPI
 `_kaynak_tanikli` kullanır. ⚠️ Mevcut yüklemi tek taraflı çevirmek, onun
 BÜTÜN tüketicilerini sessizce değiştirir.
 
+🆕 🔴 **ŞERH — yüklem yazıldığı gün düzeltildi, ve sınır NEREDE olduğu:**
+`_kaynak_tanikli`, `bulunamadı` kelimesinin **VARLIĞINA** bakıyordu; KASA
+ölçtü ki bu yanlış:
+```
+Akçakale  kaynak: "bulunamadı — Akçakale için MÜSTAKİL kaynak YOK…"
+          ⇒ eski yüklem bunu TANIK saydı
+```
+⇒ **Sınır, kelimenin metinde BULUNMASI değil, CÜMLENİN BAŞINDA olmasıdır**
+(`^\s*bulunamad[ıi]` + harf olmayan devam). Cümle İÇİNDEKİ *"1525
+BULUNAMADI"* bir tanıklığı DÜŞÜRMEZ — o, kaydın bir ucu hakkında bir
+beyandır; başındaki `bulunamadı` ise **kaydın TAMAMI** hakkındadır.
+📌 Atlas genelinde etkisi **1 dönem**, ve tam bu yüzden öğretici: bugün tek
+bir kalemi yanlış sayan bir yüklem, yarın bir sınıfı yanlış sayar.
+⚠️ Düzeltme `BULUNAMADI_DEFTER`i 6 → 7'ye çıkarır; artan kalem **ADIYLA**
+(`yerlesimler_ek25.js|Akçakale|1281-01-01|memluk`) ve düzeltmeyle **aynı
+commit'te** iner (`§3.4 ②`). Artan bir tavan burada bir gevşeme DEĞİL:
+yüklem bir borcu YUTUYORDU, düzeltme onu **görünür kıldı.**
+
 ### ③ YAYIN YILI, KAPSAMA ÖLÇÜMÜNE GİRMEZ (C2)
 Ölçülen vaka: kilitli ölçüt kaynak metnindeki **bütün** sayıları yıl saydı ⇒
 `Vicens Vives (1952) … Merriman (1918)` yüzünden kapsama **0,99** çıktı ve
