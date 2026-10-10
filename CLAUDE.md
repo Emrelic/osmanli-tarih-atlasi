@@ -835,7 +835,16 @@ ufkunda kaldı). Yayınlansa harita **GERİLERDİ.**
 ⇒ **ÇIKIŞ 0, "iş yapıldı" DEMEK DEĞİL.** Ve kısa süre bir hız kazancı değil
 **YAPILMAYAN İŞ** işaretidir (`D270` ailesi): 5s45dk ↔ KOŞU 21'in 7s14dk'sı.
 🔴 **KURAL:** koşucu bayrakları **başlamadan önce loga BASAR** ve koordinatöre
-teyit eder. Ve koşu bitince **AŞAMA BİLANÇOSU** KOŞU 21'in aşama listesiyle
+teyit eder. 🔴 **AMA BEYAN YETMEZ — MOTORUN GÖRDÜĞÜ KANITLANIR:**
+```
+TUZ HASHİ karşılaştırılır: bayraklar tuza girdiyse hash DEĞİŞİR
+   ölçülen vaka: KOŞU 22b tuz `810b524268d5` ↔ KOŞU 22 `fcfc307db9e8`
+   + motorun kendi satırı: "tuz geçen koşudan FARKLI (değişen: ORTAM)"
+İŞÇİ DÜZENİ: "1 işçi süreç başlatıldı (pid …)" ⇒ KOŞU 21 ile aynı düzen
+İLK AŞAMA SATIRI: "▶ YÜRÜYÜŞ" gelmezse koşu DURDURULUR
+```
+⇒ *"Bayrakları koydum"* bir beyandır; **tuzun değişmesi bir ÖLÇÜMDÜR.** Bir
+ayarın etkili olduğu, ayarı YAZARAK değil **çıktıdaki İZİNDEN** doğrulanır. Ve koşu bitince **AŞAMA BİLANÇOSU** KOŞU 21'in aşama listesiyle
 KARŞILAŞTIRILIR — eksik aşama varsa çıktı **YAYINA ADAY DEĞİLDİR.**
 📌 Niçin bu satır burada: bu beş bayrak **hiçbir belgede yazılı değildi**,
 yalnız `14174ef7`in (KOŞU 21) commit mesajında duruyordu.

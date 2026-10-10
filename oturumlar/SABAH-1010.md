@@ -378,14 +378,40 @@ hicrî sözleşme    `§4`te kalıcı kural; 79 uç düzeltilecek
 ⇒ Motor yaması + NEGATİF-YIL-B + noktalar **tek tuz değişiminde** inecek.
 Künyeler FAZ 2'de kalıyor (inert — ölçüldü).
 
-## Koşu
+## 🔴 KOŞU — SABAH HARİTASI YOK, VE SEBEBİ BİR BELGE BOŞLUĞU
 ```
-KOŞU 22   taban e54e60df · 00:57 başladı · şu an "Dönemler" aşaması
-          uret_petek ~08:30-08:45  ·  HER ŞEY ~09:15-09:30
-⚠️ işçi 2 ÇÖKTÜ (GEOS segfault); çıktı EKSİK DEĞİL (yedek yol 175 devleti
-   ana süreçte hesapladı) ama GOVDE-CAKISMA ve EKLEYİCİ KAPI sayaçları
-   YALNIZ ana sürecin payı ⇒ `§1.5`e KOYULMAYACAK, `ölçülemedi` işaretlenecek
+KOŞU 22  00:57 → 06:43 (5s45dk) · çıkış 0 · bütün değişmezler TEMİZ
+         🔴 AMA YANLIŞ AYARLA KOŞTU: üç YÜRÜYÜŞ aşaması + Ⓑ ufuk bantları
+            aşaması HİÇ KOŞMADI · `ufuk_bant_parcalar.js` hâlâ 1923 ufkunda
+         ⇒ YAYINLANMADI. Yayınlansa harita GERİLERDİ.
+KOŞU 22b 06:53:49 başladı · aynı taban (e54e60df) · bayraklar TEYİTLİ
+         bitiş ~16:00-17:00
 ```
+**SEBEP — ve yarısı BENİM:** beş zorunlu bayrak
+(`MOTOR_YURUYUS=1` · `MOTOR_YURUYUS_SAAT=40` · `MOTOR_UFUK_BANT=40,56,80` ·
+`MOTOR_COL_UFUK_SAAT=56` · `MOTOR_SUREC_ISCI=2`) **hiçbir belgede yazılı
+değildi** — yalnız KOŞU 21'in commit mesajında. Motorun varsayılanları onları
+KAPATIYOR, zincir yalnız ikisini koyuyor. Kök `*.md` benim dosyalarım ve koşu
+emrini ben verdim; **bayrakları yazmadım.** Şimdi `CLAUDE.md §9`da.
+> **Bir koşunun ayarları commit mesajında yaşıyorsa, o ayarlar KAYITLI
+> DEĞİLDİR** — bir sonraki koşucu onları aramak zorundadır, ve aramadığında
+> kimse fark etmez.
+
+**ÜÇ SEÇENEKTEN BİRİNİ SEÇTİM** (*"tüm yetki sende"* dediğin için):
+```
+(A) ✅ 22b'yi ŞİMDİ koş, doğru bayraklarla      ← SEÇİLDİ
+(B) ❌ bu çıktıyı yayınla — GERİLEME
+(C) ❌ hiçbir şey koşma, Emre karar verir — makine 9 saat boş durur ve
+       senin 09:00 kararın bitişi 18:00-19:00'a kaydırır
+```
+📌 Ve bir ayrım çizdim: `§9`un *"bayat çıktı yine de yayınlanır"* kuralı
+**BAYATLIĞI** affeder, **GERİLEMEYİ** affetmez.
+⚠️ İşçi 2 KOŞU 22'de çöktü (GEOS `0xC0000005`); o koşunun `GOVDE-CAKISMA` ve
+`EKLEYİCİ KAPI` sayaçları yalnız ana sürecin payıydı. 22b yeni sayaçlar
+üretecek; eskiler kullanılmayacak.
+🔴 Ve koşucunun uyarısı kabul edildi: *"×1,1-1,2 süre oranlarım YANILTICI"* —
+**5s45dk, 7s14dk'dan hızlı değil; DAHA AZ İŞ YAPMIŞ.** Çıkış 0, "iş yapıldı"
+demek değil.
 
 ## Üç karar (§1) — kısa hâli
 ```
