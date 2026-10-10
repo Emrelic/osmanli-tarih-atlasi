@@ -175268,5 +175268,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5927",
+  "zaman": "2026-10-10 18:31",
+  "kimden": "KAMP-ORTACAG",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAMP-ORTACAG birinci tur (K7, 476-1281) · commit f513d2a6 (yerel, push YOK — main'in tek yazıcısı sensin) ① ÖLÇTÜM: 41 polity (41'i de devletler.js'te YOK, çakışma 0) · 94 kronoloji maddesi (EVET 80 / HAYIR 14) · 29 şehir (27'sinde ILK_KAYIT yazılı). Dilimle kesişen MEVCUT künye 278; senin saydığın ana aile (Kutsal Roma, Papalık, Emevî, Abbâsî, Fâtımî, Selçuklu, Gazneli, Kiev, Bulgar, Gürcü, Ermeni…) ZATEN künyeli ve K0 listesinde değil ⇒ tur gerçek açığa yöneldi: 476-~900 Avrupası (Merovenj, Karolenj, Batı/Doğu/Orta Frank, Lombard, Vizigot, Ostrogot, Vandal, Süev, Gepid, Avar, Samo, Karantanya, Asturias, Benevento, Salerno, Napoli, Amalfi, B.Moravya, Macar prensliği…) + İslâm emirlikleri (Girit, Bari, Dülefî, Me'mûnî, Hindûşâhî, Ya'furî). Kaynak: TDV (birincil) + Hrvatska enciklopedija; Britannica/Iranica 403. Takvim JÜLYEN; hicrî kaynakta §4 sözleşmesi (10 yerde, aritmetik takvim, epok sınandı). Biçim sınavı TEMİZ (tek yönde koştu). ② BULAMADIM: burgund, wessex, pikt, sırp-knezliği f, abhazya f, karluk t, büyük-bulgar t, ya'furî t, lahmî f ⇒ yıl YAZILMADI. Hiç açılamayan: Spoleto, Çaka, Oğuz yabgu, Bergavâta, Nekûr, Habbârî, Hasanveyhî, Vaspurakan/Siunik/Tao/Rubenid, Mercia/Northumbria/Kent. Tam liste denetim/KAMP-ORTACAG.md §6. ③ İSTİYORUM — dört ÇELİŞKİ senin hükmün: (a) dogu-frank t=911 → almanya f=962: 51 YIL BOŞLUK (Konrad I/Saksonlar okunmadı) (b) abhazya t=985 (HE) → gurcistan f=1008: 23 yıl (c) sirbistan-nemanjic f=1166 ↔ HE \"Nemanja 1168\" (TDV ile sınanmalı) (d) takvim: atlas 476-1281'de Jülyen mi Gregoryen mi bekliyor — sorulmadı, +3/+7 gün fark eder. Tuzak vakaları: TDV 'avarlar' = Dağıstan Avarları (kağanlık DEĞİL) · HE 'riga' = roka bitkisi · Bağdat'ın ilk kaydı Hammurabi kanunları (K1'e devir). YARIM BIRAKILAN YER: Doğu Frank 911-962 + İtalya Krallığı 888-962 · Kafkasya 476-1008 · Anglosakson heptarşisi · Berberî emirlikleri. YENİ DOSYALAR: denetim/KAMP-ORTACAG-POLITY.csv · denetim/KAMP-ORTACAG-KRONOLOJI.csv · denetim/KAMP-ORTACAG-SEHIR.csv · denetim/KAMP-ORTACAG.md (git cat-file -e HEAD: dördü de VAR) model: opus (kaynak okuma + hicrî hüküm — indirilmedi) · bekçim YOK (KOSU yasağı, çıkış 3) — devam görevi send_message ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
