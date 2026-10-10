@@ -487,17 +487,85 @@ noktalar **`s:`siz bile** inemez. ⇒ Paralel bir kalem değil, **ÖN ŞART.**
 📌 Ve bunu künye diff'i **göstermedi**, çünkü künye `f:`leri inert: hiçbir
 yerleşim o kimlikleri kullanmıyor, o yüzden `gun_no` hiç çağrılmadı.
 *Bir kodun çökmemesi, çökmeyeceği anlamına gelmez — sadece ÇAĞRILMADIĞI.*
+### 🔴🔴 ÖLÇÜLDÜ — CEVAP **HAYIR**: SÜMER NOKTALARI **FAZ 3**'E KAYDI
+*(10 Ekim 05:5x. Sorulan soru: "NEGATİF-YIL-B olmadan FAZ 2'de inebilir mi?"
+Cevap HAYIR, ve **iki BAĞIMSIZ ölçüm** aynı sonuca vardı — biri beklediğim
+sebepten, biri HİÇ beklemediğim sebepten.)*
+
+**① SESSİZ DELİK** (`NOKTA-SUMER-1010-K2`, simülasyon TEKRARLANABİLİR:
+`denetim/NOKTA-SUMER-1010-K2-DELIK-SIM.py`):
 ```
-ÖLÇÜM KOŞUYOR: NEGATIF-YIL-OLCUM-1010
-  pad() + gun_no ÇAĞIRILARAK sınanır (docstring'e güvenilmez)
-  evren: denetle.py · girdi.py · odak_* · suzgec.js (node tarafı AYRI)
-  her yol için: çöker / SESSİZ YANLIŞ / doğru  🔴 sessiz yanlış en tehlikelisi
-  yıl 0 ayrı: astronomik numaralamada VAR, çoğu kütüphane REDDEDER
-              (`-0001` ↔ `0000` ↔ `0001` üçlüsü ayrı ayrı)
-  HÜKÜM: Sümer noktaları NEGATİF-YIL-B olmadan FAZ 2'de inebilir mi? E/H + gerekçe
+motor, sahnede olmayan SAHİPSİZ peteği YALNIZ ≥%90 kuşatılmışsa devrediyor
+   (`_kusatilmis`)
+⇒ 22 nokta sahipsiz inerse:  22/22 BOŞ  ·  ~62.400 km²  ·  1000-1923 BOYUNCA
+⇒ 🔴 ve Değişmez 1 BUNU GÖRMEZ
 ```
-⇒ **Cevap "HAYIR" ise Sümer noktaları FAZ 3'e kayar** ve Emre'ye verilen sıra
-değişir. O yüzden tahmin değil ölçüm bekliyor.
+⚠️ Bu, K1'in *"`petek_epok` paylaştırır"* iddiasını ÇÜRÜTTÜ. ⇒ **`s:`siz nokta
+indirmek bir ara çözüm DEĞİL, deliğin kendisi.**
+
+**② ÇÖKME ve SESSİZ YANLIŞ** (`NEGATIF-YIL-OLCUM-1010`, altı senaryo ayrı
+worktree'de AYNI ANDA):
+```
+TEK negatif dönem ⇒ `gun_no` (denetle.py:1491→1230) "year -53 is out of range"
+   ⇒ 🔴 Değişmez 1b'den SONRA HİÇBİR DENETİM KOŞMUYOR
+`_gun_farki` / `_d8_gun_once` negatifte ÇÖKMEZ, **sessizce None döner**
+   ⇒ denetim ihlal GÖRMEZ   ·   `_d8_gun_once` 0001'de OverflowError
+`js/suzgec.js` `gunKaydir` (-0538 → "0000-09-30", yıl 0 → "00-1-12-31") ve
+`sahipAnahtari` (negatif dönemde "") SESSİZ YANLIŞ — ve ne A ne B bu dosyaya
+   dokunuyor  ⇒ kapı TEMİZ der, KULLANICI yanlış harita görür (`D265` ailesi)
+B'nin kodu main'e **İNMEMİŞ** (apply --check reddedildi: sınav dosyası main'de
+   FARKLI sürümde, `gun.py`de `Tarih` yok)
+```
+📌 Ve iki isteğin ÇELİŞTİĞİ yer: NEGATİF-YIL *"noktalar DÖNEMSİZ insin"* dedi,
+K2 *"inmesin"* dedi. **Dönemsiz nokta, K2'nin ölçtüğü deliğin TAM KENDİSİDİR.**
+⇒ "Dönemsiz" şıkkı REDDEDİLDİ.
+
+#### FAZ 3'ÜN SÜMER BLOĞU — hepsi AYNI TUZ DEĞİŞİMİNDE
+```
+ⓐ MOTOR YAMASI : sahnede olmayan nokta SAHİPSİZ de olsa DEVREDİLSİN
+                 (`bos:` taşıyan HARİÇ — Kuveyt deseni)
+                 🔴 KABUL SINAVI: K2'nin delik simülasyonu — yama inince
+                    22/22 DOLU çıkmalı
+ⓑ NEGATİF-YIL-B : `gun_no` · `_gun_no` · `_gun_farki` · `_d8_gun_once`
+                 + 🔴 `js/suzgec.js` (ayrı kalem, AYNI parti)
+ⓒ SÜMER NOKTALARI (21) — ⓐ ve ⓑ ile AYNI koşuda
+ⓓ künye BAĞLAMA (KASA §1.2 zincirleri) — ⓑ'den SONRA
+```
+⚠️ Niçin hepsi tek tuz değişiminde: ⓐ ve ⓑ **motor tuzundadır** (`§9.1`), tuz
+bir kez değişir ve o koşu zaten sıfırdan inşa eder. Ayrı inerlerse arada kalan
+commit'te **ya delik ya çökme** olur.
+🟢 **`KUNYE-SUMER-7` FAZ 2'DE KALIYOR** (kalem `2k`): künyeler **inert** —
+hiçbir yerleşim o kimlikleri kullanmıyor, `gun_no` çağrılmıyor; ölçüldü
+(senaryo s2: tabanla fark YALNIZ yerleşim sayısı 4300→4322).
+📌 *Bir kodun çökmemesi, çökmeyeceği anlamına gelmez — sadece ÇAĞRILMADIĞI
+anlamına gelir.* Bu cümle hem künyelerin FAZ 2'de kalmasını hem noktaların
+FAZ 3'e kaymasını **aynı anda** açıklıyor.
+
+#### ESAS DIFF: `NOKTA-SUMER-1010` **v2** (21 nokta)
+v2, TAVO provenansını **satır satır** okudu, kendi v1 kuralını ÇÜRÜTTÜ ve
+**Tutub'u ÇIKARDI** (bütün tarihli etiketleri TAVO).
+🔴 **VE KASA'NIN TAVO GENELLEMESİ DÜZELTİLDİ:** *"late-antique etiketleri
+yalnız TAVO satırlarındaydı"* bu kümede **TUTMUYOR** — Sippar · Dilbat · Kiş ·
+Kutha · Uruk · Nippur'un late-antique'i **BARRINGTON** satırında
+(Roaf/Simpson); yalnız **Ur**'unki TAVO. ⇒ `MIMARI §5.1b`nin TAVO hükmü
+YERİNDE (TAVO sayılmaz) ama *"geç etiketler TAVO'dandır"* ÇIKARIMI yanlıştı.
+**Kural ayakta, çıkarım düştü.**
+```
+GEÇERLİ TAVO-dışı geç tasdikler: Girsu -0549 · Marad -0029 · İsin -0329
+                                 Kutha 0640 · Uruk 0640 · Nippur 0640 · Larsa 0300
+`bit:` KURALI (onaylı): adlı hüküm > siteye özgü açıklama > son TAVO-dışı tasdik
+KİŞ: açıklama ("abandonment under the Seleucids", -0139) ESAS
+     ⚠️ BEYAN ŞART: Kutha/Uruk/Nippur'un 0640'ı AYNI Barrington satırından
+     geliyor ve KULLANILIYOR; Kiş'te kullanılmamasının tek sebebi ÇELİŞEN
+     AÇIK BİR CÜMLE olması
+AD ÇAKIŞMASI: atlasta "Kiş (Kish)" = **Kays adası**, 1.127 km uzakta (`§6.2`)
+ÖLÇÜLEMEDİ 2: Adab (TGN 12,48 km yuvarlak + iki CIGS aynı köken) ·
+              Tell el-Lahm (tek kayıt) — K1 ve K2 BAĞIMSIZ olarak aynı hükmü verdi
+```
+📌 **ÇİFT ATAMA koordinatörün hatasıydı** (aynı görev iki kıtaya gitti: ilki
+"undelivered" döndü, ikincisi korumalı gönderildi, sonra ikisi de uyandı). K2
+üstüne yazmayıp `-K2` ekiyle ayrı dala push etti ⇒ israfın yarısı **TEYİDE**
+dönüştü: iki bağımsız ölçüm aynı 22'yi ve aynı Adab hükmünü verdi.
 🔴 Her 2x'ten sonra `denetle.py`; **hepsi bittikten sonra `renk_olc.py`**
 (palet verinin fonksiyonudur, renge dokunmadan çakışma doğar).
 
