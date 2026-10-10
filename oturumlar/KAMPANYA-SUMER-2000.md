@@ -352,6 +352,45 @@ Veriyi önce indirmek, onu **görmeyen bir kapıyla** indirmektir — ve bu gece
     kapanıyor, koordinat tek tanıklı: GN 3199180, 20,8 km)
     ADAY-GÜÇLÜ, ilk partiye GİRMEZ: Paros 4,7 · Mikonos 4,3 · Nio 4,2 ·
     İpsara 3,3 · Sömbeki 3,4 (nesne belirsiz ⇒ `§6.1` eşiği DÜŞMEZ)
+2o  🆕 **İLK TAM ZİNCİR — Kutha + Susa, MÖ 539 → 1281 KESİNTİSİZ**
+    Kampanyanın ilk tamamlanmış kalemi: iki nokta, **1.820 yıl.**
+    ```
+    MÖ 539 → MS 226   ahameni · makedon/selefki · part   (bağlı %44,1)
+    MS 226 → 650      sasani                             (bağlı %24,3)
+    MS 650 → 1281     rasidin · emevi · abbasi · buveyhi (bağlı %66,2)
+    ```
+    KUTHA  `abbasi` Ş (Ibn Khurdâdbih/Kudâma Sevâd listesi: *"…along the Kutha
+           canal … sub-districts of Kutha"*) · `t: ≈1258` (Ibn Hawkal, 10. yy:
+           *"Kutha Rabba … a city larger than Babil"*)
+    SUSA   `abbasi` Ş + `buveyhi` Ş · 1281'e **ULAŞIYOR** (Mustawfî, 8./14. yy
+           *"flourishing place"*)
+    🔴 SUSA `§8` ÇAKIŞMASI ÇÖZÜLDÜ: iki Ş halkası aynı yıllara düşüyor
+       (itibarî halife ↔ fiilî emîr) ⇒ **`d:` = `buveyhi` (FİİLÎ denetim)**,
+       `ic_not`: *"itibarî hükümranlık `abbasi`de"*. Ölçüt `sasani` f'yi
+       0224'e çekerken kullanılanın aynısı: **`d:` toprak DENETİMİNİ gösterir,
+       hânedan MEŞRUİYETİNİ değil.** İkisini de `d:` yazmak dönem çakışması
+       üretir; birini silmek kaynağı gizler.
+    ⚠️ Emevî ve Selçuklu/İlhanlı dönemleri için şehir adlı tanık YOK ⇒ **B**
+    ⚠️ Nippur son tasdik `0800` (Streck, Nestûrî piskoposu); RlA'nın 14. yy
+       köyü **500 m ötede AYRI NESNE** (`§6.2`) — kaynağın kendi cümlesi
+       *"long after the city had ceased to exist"*
+    📌 Ve bir kaynak sınırı ölçüldü: bu kutuda TDV'de müstakil madde **0/6**
+       (Kûsâ · Nüffer · Burs · Sûs · Bâdarâyâ · Sippar yok; `hille` 2,6 KB
+       taslak; TDV `sus` = **Fas**). Tanık **Le Strange 1905** ve **RlA**'dan
+       geldi. ⇒ `D217`/`D218`e sınır: TDV şehir-kişi ansiklopedisidir **ama
+       Abbâsî dönemi Mezopotamya KASABALARI için değil** — taneciği belirleyen
+       kasaba değil, **coğrafya + dönem ÇİFTİ.**
+2p  🆕 **1281 İLK HALKA DÜZELTME PROGRAMI** (`KASA-1281-ILK-HALKA-1010`)
+    Irak'ın 8 noktası + Anadolu'nun 14'ü aynı sınıf. Bölge+sahip çiftine göre
+    gruplanır; *"o sahibin o bölgeye girişi TARİHLENEBİLİR bir olay mı?"*
+    ```
+    EVET       → gerçek gün + kaynak ADIYLA        ⇒ DÜZELTME
+    HAYIR      → gerçekten bilinmiyor ⇒ 1281-01-01 MEŞRU (`D210`), DOKUNULMAZ
+    ÖLÇÜLEMEDİ → ayrı kova
+    ```
+    🔴 Program `1281-01-01`i TOPLUCA MAHKÛM ETMEZ. Kaldıraç: `§4`ün *"komşu
+    günü şartlı serbest"* kuralı — tek tarihlenmiş olay (Bağdat 1258-02-10)
+    onlarca komşuyu düzeltebilir, **zincirleme devralma YASAK.**
 ```
 ```
 2i  NOKTA-ONCE1281-ZINCIR  8 nokta / 33 pencere + 14 KRONOLOJİ MADDESİ +
