@@ -445,3 +445,110 @@ kosu_yayin ⑥   eskiden `uyari_kodu=True` ile 1, 2 VE ÇÖKME'yi
 📌 **Bir commit mesajı KİMSENİN OKUDUĞU bir kayıt değildir** — orada beyan
 edilen bir gerileme, beyan edilmemiş sayılır. Bu yüzden bu dört duyuru
 **tahtaya** gider, commit mesajına değil.
+
+---
+
+## 🔴 10. KOŞU 22b ÖLDÜ (10:47) — VE İNİŞ ARTIK KOŞUYA BAĞLI DEĞİL
+
+### Ne oldu — HAVVA ölçtü, tahmin değil
+```
+System olayı 1074 · 10:47:21
+  "StartMenuExperienceHost.exe … HAVVA\user kullanıcısı adına …
+   yeniden başlat … Diğer (Planlanmamış)"
+⇒ ELLE, Başlat menüsünden. Windows Update DEĞİL · ÇÖKME DEĞİL
+  (olay 1000 06:53'ten beri YOK) · 6006 kapanış 10:47:26 ·
+  Kernel-Boot 20: "son kapatma başarılı"
+ÖLEN SÜREÇLER : zincir 17800 · uret_petek 1988 · işçi 18284 · bekçi 20332
+NEREDE ÖLDÜ   : 10:43:21 "Yabancı devlet gövdeleri 2s20dk57sn ·
+                FAZ 2 bekliyor: ingiltere" · işçi 1: "ingiltere gün
+                322/345 (1916-09-01)" ⇒ gövde bitişine ~10-15 dk
+KAYIP         : 3 saat 50 dakika
+```
+⚠️ **`kosu_ayrik_baslat.ps1` kendi notunda yazıyor: "ayrık düzen reboot'u
+kurtarmıyor."** Yani bu bir sürpriz değil, **beyan edilmiş bir kırılganlığın
+tahsil edilmesi.** Çaresi (aşama damgası + kaldığı yerden devam) MOTOR
+işidir ⇒ TUZ ⇒ bu koşuda olmaz. İniş sonrası kalemi.
+🔴 Ve asıl kapı KODDA DEĞİL: *"bu makine koşarken yeniden başlatılmamalı"*
+cümlesi **makineyi kullanan insana** gider. Emre'nin sabah belgesine yazıldı.
+
+### Reboot'un SESSİZ ikinci zararı
+Koşunun öldüğü GÖRÜNÜYOR; **donma ilanının da öldüğü GÖRÜNMÜYOR.**
+`kaynak_durum.py kapat --kod KOSU` ilanı da reboot'la gitti ⇒ ilan
+edilmeden yeniden başlanırsa UMIT'in yazıcı oturumları tuza dokunabilir ve
+`§9.1 ③` korumasız kalır. ⇒ KOŞU 22c'nin başlatma sırasında **③. adım**
+olarak eklendi.
+
+### KOŞU 22c — onaylandı, ve önbellek ÖNCE DOĞRULANIR
+```
+① 🔴 ÖNBELLEK SAĞLAMLIK ÖLÇÜMÜ — başlamadan önce, atlanamaz
+   Reboot 48 MB'lık WAL açıkken geldi (son yazım 10:47:21 = reboot
+   olayıyla AYNI SANİYE). 1.382 MB'lık bir dosyanın VARLIĞI, içindekinin
+   OKUNABİLİR olduğunu söylemez — `§5`in 93 MB vakasının aynı sınıfı:
+   dosya VARDI ve YANLIŞTI, varlığı doğruluk sanıldı.
+      PRAGMA integrity_check;            → "ok" DEĞİLSE BAŞLATMA
+      PRAGMA wal_checkpoint(TRUNCATE);
+      SELECT katman, COUNT(*) FROM kayit GROUP BY katman;   ← TABAN
+   🔴 Bozuk bir önbellekle sekiz saat koşmak, sıfırdan koşmaktan KÖTÜDÜR:
+     sonunda hangi aşamanın gerçekten hesaplandığı ÖLÇÜLEMEZ.
+② kendi ölü kilitlerini sil: `.petek.kilit` (pid 1988 ÖLÜ) ·
+   `.zincir.kilit` (06:53:49). İkisi de O KOŞUNUN soyundan ⇒ meşru;
+   `§7`in süreç öldürme yasağı SÜREÇLERE dairdir, kilit DOSYASINA değil.
+③ `py arac/kaynak_durum.py kapat --kod KOSU`  ← reboot'un öldürdüğü ilan
+④ tahtaya ilan + 60 sn (`§7`)
+⑤ BEŞ BAYRAK + TUZ TEYİDİ: tuz **810b524268d5** çıkmalı; başka bir şey
+   çıkarsa önbellek ıskalar (= 7-8 saat) ⇒ DUR. Beyan değil ÖLÇÜM:
+   motorun kendi tuz satırı koordinatöre kopyalanır (`§9`).
+⑥ ilk "▶ YÜRÜYÜŞ" satırı — gelmezse DURDUR
+```
+🔴 **AĞAÇ DEĞİŞTİRİLMEZ** — ölçüldü ve koordinatörün ilk fikri ÇÜRÜDÜ:
+```
+koşu tabanı e54e60df → HEAD = 109 commit
+  TUZ dosyalarına dokunan commit          : 0  ⇒ tuz GÜVENDE
+  93 `yerlesimler*.js`ten değişen         : 0  ⇒ 4300 nokta BİREBİR AYNI
+  `devletler.js`                          : 1 satır (+1/−1) · değişen id: 0
+```
+⇒ Motorun gözüyle iki ağaç neredeyse AYNI. *"Taze `main`den koş, gecenin
+109 commit'i de girsin"* fikri **bir satır** kazandırıp kırılgan bir anda
+bir git işlemi riski eklerdi. ⇒ Kazanç ~0 olduğu ÖLÇÜLDÜĞÜ için
+DÜŞÜK RİSKLİ yol seçildi: HAVVA kendi worktree'sinde, dokunmadan kalır.
+📌 Ve aynı ölçüm HAVVA'nın *"DAYANAK ZAYIF"* dediği tahmini güçlendirir:
+önbellek anahtarı `sha256(tuz · katman · parçalar)` — **kalem başına**,
+koşu başına DEĞİL (`motor_onbellek.py:66-80`). Tuz aynı + girdi birebir
+aynı ⇒ bitmiş aşamaların isabet alması bir temenni değil **mekanizmanın
+gereği.** Yine de ÖLÇÜLÜR (①).
+🔴 YANLIŞLANABİLİR EŞİK: ilk 30 dakikada `col`/`kusat`/`dolgu` isabeti
+**%80'in altındaysa** bir şey yanlış ⇒ DURDUR ve bildir, sekiz saat öğütme.
+
+### 🔴 KARARIN BÖLÜNMESİ — bu iniş için bağlayıcı
+```
+KOORDİNATÖRÜN : koşu yeniden başlasın mı · hangi ağaçta · hangi sırada ·
+                inişin koşuya bağlı olup olmadığı        (§7.1)
+EMRE'NİN      : makine iki çekirdekte tam yükte kalabilir mi
+                (yani MAKİNEYİ O KULLANACAK MI)
+```
+⚠️ HAVVA *"karar artık Emre'nin, reboot onun elinden"* dedi — yarısı doğru.
+CPU'yu sormak DOĞRU. Ama reboot'un ELLE olduğu ölçüldü, **NİÇİN olduğu
+ÖLÇÜLMEDİ**; Başlat menüsünden gelen bir yeniden başlatma *"makineyi
+istiyorum"* demek zorunda değil (takılmış uygulama · güncelleme uyarısı ·
+alışkanlık aynı olayı üretir). ⇒ Sebebi hükme çevirmemek doğru, **ama
+kararı da ona bağlamamak** gerekir: Emre masada değilse koşu saatlerce
+boşta bekler. Koşu başlar; Emre *"makineyi kullanacağım"* derse durur.
+
+### 🔴 İNİŞ İKİ GRUBA BÖLÜNDÜ — ETA öldüğü için, ve bu KALICI bir ayrım
+Koşuya bağlı bir iniş, gecenin 154 kalemini bir reboot'a rehin verir.
+```
+A GRUBU — KOŞUYU BEKLEMEZ, planlanan saatte iner
+   `INIS-SIRA-1010`in tuza DOKUNMAYAN ve üretilmiş `data/*.js` OKUMAYAN
+   bütün kalemleri: veri düzeltmeleri · künyeler · belgeler · diffler
+   (Feyzâbâd v2 · Bosna ek29 v2 · KAYIT-GUNU · Ji'an v2 · BAYAT-OZILAN)
+B GRUBU — KOŞU 22c BİTENE KADAR BEKLER
+   ① tuz yamaları (`girdi.py` tanım düzeltmeleri — `PAKET-1010-UMIT §M`)
+   ② koşu sonrası ÖLÇÜLECEK iki tavan (TABAN 190 · D5C 2449)
+   ③ üretilmiş haritayı okuyan her ölçüm (D8 · `coz-c` İKİLİSİ, `§5`)
+```
+⇒ `§9.1 ③`ün dördüncü şartı (*koşu bitene kadar tuz içeren hiçbir commit
+`main`e girmez*) **B grubuyla** korunuyor; A grubu `main`i ilerletirken
+HAVVA'nın worktree'si yerinde kalır ve tuz değişmez.
+📌 Ayrım kalıcı çünkü sebebi kalıcı: **bir inişin bir koşuya bağlı olması
+bir gereklilik değil, bir ALIŞKANLIKTI.** Kalemlerin çoğu motor çıktısına
+dokunmuyor; dokunanlar ADIYLA B grubundadır.
