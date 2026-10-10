@@ -25,7 +25,7 @@
            yalnız BİLGİ sütunu (`a_anilan_yabanci`).
 
 Kullanım
-   py ARAC-CELISKI-ICKAYNAK-1010.py --kok <depo> [--json <yol>] [--c2-kapali] [--ozet]
+   py ARAC-CELISKI-ICKAYNAK-1010.py --kok <depo> [--json <yol>] [--c2-kapali|--c2-eski] [--ozet]
    --kok ZORUNLU (yoksa çıkış 2, ölçüm yok). Alet kökün HEAD..origin/main geriliğini
    kendisi ölçer, basar ve JSON künyesine yazar; fetch olmazsa "olculemedi".
 """
@@ -100,6 +100,42 @@ def _roma(s):
     return t
 
 
+# ── K1 — DAR C2 (koordinatör onayı, 10 Ekim v1.2) ─────────────────────────
+# Hicrîsiz, içeriği YALNIZ yıl olan parantez için karar sırası:
+#   ① ARDINDA künye devamı (", *Başlık" · "', Dergi" · ", Bd." · " s.12" · " v11")
+#      ⇒ YAYIN/ESER ⇒ DÜŞER
+#   ② ÖNÜNDE (40 karakter) dönem/olay sözü ya da hükümdar unvanı ⇒ KORUNUR
+#   ②b ardında yalnız metin sonu (tırnak olabilir) ⇒ künye sonu ⇒ DÜŞER
+#   ③ HEMEN ÖNÜNDE ≥2 ardışık Büyük harfli, eksiz sözcük (Ad Soyad) ⇒ YAZAR ⇒ DÜŞER
+#   ④ öteki (cümle sürüyor: "Yinal (1427-1456) Çerkesleri birleştirdi") ⇒ KORUNUR
+RX_C2_ESER_SONRA = re.compile(
+    r"^(?:\s*['\"”’]\s*,|\s*,\s*[*_]|\s*,\s*(?:Bd|vol|c|cilt|s|ss|pp?|no)\.|"
+    r"\s+(?:s|ss|pp?|c|v|vol|Bd)\.?\s*\d)")
+# metin SONU (tırnak kapanışı olabilir) künye sonu da olabilir, alıntı sonu da: dönem
+# sözünden SONRA sınanır (ölçüldü: İzdin "Osmanlılar zamanında (1424-1832)'" alıntı sonu)
+RX_C2_METIN_SONU = re.compile(r"^\s*['\"”’]?\s*$")
+RX_C2_DONEM_ONCE = re.compile(
+    r"(?:d[öo]nem|devr|zaman|h[âa]kimiyet|saltanat|h[üu]k[üu]mdar|[öo]l[üu]m|kurulu[sş]|kurucu|"
+    r"ba[sş]kent|i[sş]gal|idare|fethi|fetih|sava[sş]|antla[sş]ma|bar[iı][sş]|\bhan\b|han'[iı]|\bhan[iı]\b|"
+    r"\b[şs]ah\b|\bbey\b|\bsultan\b|\bpa[şs]a\b|\bel-\w+|\bmelik\b|\bem[îi]r\b)", re.I)
+RX_C2_YAZAR = re.compile(r"(?:\b[A-ZÇĞİÖŞÜ][\w.\-]+\s+){1,}[A-ZÇĞİÖŞÜ][a-zçğıöşüâîûéèáíóú\-]+\s*$")
+
+
+def c2_karar(s, bas, son):
+    """→ ("dus"|"koru", sebep). s: ham metin, [bas:son] parantez."""
+    sonra = s[son:son + 25]
+    once = s[max(0, bas - 40):bas]
+    if RX_C2_ESER_SONRA.match(sonra):
+        return "dus", "eser-sonra"
+    if RX_C2_DONEM_ONCE.search(once):
+        return "koru", "donem-once"
+    if RX_C2_METIN_SONU.match(sonra):
+        return "dus", "metin-sonu"
+    if RX_C2_YAZAR.search(once) and "'" not in once.split()[-1]:
+        return "dus", "yazar-once"
+    return "koru", "cumle-suruyor"
+
+
 def tarih_refleri(metin, c2=True, gunluk=None, yuzyil=False):
     """Metin → [(a, b, biçim, konum)] yıl aralıkları (tek yıl a==b).
     hicrî(miladî) → miladî korunur · C2: hicrîsiz parantezli yıl ATILIR ·
@@ -134,8 +170,15 @@ def tarih_refleri(metin, c2=True, gunluk=None, yuzyil=False):
     if c2:
         for m in RX_PAR.finditer(cur()):
             if RX_PAR_YALNIZ_YIL.match(m.group(1)):
-                gunluk.append(("C2 parantezli yıl", m.group(0)))
-                kapat(m.start(), m.end())
+                if c2 == "genis":                     # v1.1 C2: hepsi atılır
+                    karar, sebep = "dus", "genis"
+                else:                                 # v1.2 C2 (K1): dar
+                    karar, sebep = c2_karar(s, m.start(), m.end())
+                if karar == "dus":
+                    gunluk.append(("C2 parantezli yıl", m.group(0)))
+                    kapat(m.start(), m.end())
+                else:
+                    gunluk.append(("C2 KORUNDU (%s)" % sebep, m.group(0)))
     if yuzyil:
         for m in RX_YUZYIL.finditer(cur()):
             g = m.group(1)
@@ -393,6 +436,28 @@ RX_HASSASIYET = re.compile(
 RX_ESKI = re.compile(r"\beski\s+(?:[ft]\b|\S*\d)", re.I)
 
 
+def ad_ozu(ad, norm):
+    """Kayıt adının ÖZÜ: parantezden önceki ilk sözcük, normalleştirilmiş."""
+    w = norm(re.sub(r"\s*\(.*", "", ad or "")).split()
+    return re.sub(r"[^a-z\-]", "", w[0]) if w else ""
+
+
+def _uc_ilani(tarihler, D, kimlikler, tur, kendi):
+    out = []
+    for P in D:
+        if P["d"] == BOSLUK:
+            continue
+        tek = [a for a, b, _, _ in tarihler if a == b and a in (P["yf"], P["yt"])]
+        if not tek:
+            continue
+        sahip = [1 for ks, _, _ in kimlikler if ks & P["sahip"]]
+        if tur in ("BOSLUK", "BELIRSIZ") or sahip:
+            out.append(P)
+    if kendi is not None and any(P is kendi for P in out):
+        out = [kendi]
+    return out
+
+
 def _kimlik_ref(pencere, sz, D, kayit_kimlikleri):
     """Penceredeki devlet referansları: güçlü alias + tırnaklı/ters tırnaklı
     çıplak kimlik. → [(kanon_set, metinde, konum)]."""
@@ -406,9 +471,30 @@ def _kimlik_ref(pencere, sz, D, kayit_kimlikleri):
     return out
 
 
-def b_tara(y, D, sz, c2=True):
+RX_KAPSAM_BEYANI = re.compile(r"(?i)dokunulmad")
+# D türü (KASA geri bildirimi, v1.2): ilanın SEBEBİ künye engeliyse ilan bir öz-ilan
+# değil bir ENGEL'dir ("1918-1920 … dönemleri künyesiz, KODLANMADI")
+RX_ENGEL_SEBEP = re.compile(
+    r"(?i)k[uü]nyesiz|kimliksiz|k[uü]nye\w*\s+(?:de\s+|da\s+)?(?:yok|eksik)|"
+    r"kimli\w*\s+(?:de\s+|da\s+)?(?:yok|eksik)|eksik_kimlik")
+
+
+def _baska_kayit(pencere, sz, ad_ozler, oz):
+    """G türü: anahtarın hemen önündeki (son 3 sözcük) kesmeli ek almış sözcük
+    BAŞKA bir atlas kaydının adıysa ("HARPER'A DOKUNULMADI") → o kayıt."""
+    for w in sz.norm(pencere).split()[-3:]:
+        # yalnız YÖNELME hâli ('a/'e/'ya/'ye/'na/'ne): "HARPER'A DOKUNULMADI" başka kayda
+        # dairdir; tamlayan/ayrılma ("Medine'nin kaydından") KAYNAĞI anar, ölçüldü: Hayber
+        m = re.match(r"^([a-z][a-z\-]+)'(?:a|e|ya|ye|na|ne)[^a-z]*$", w)
+        if m and m.group(1) in ad_ozler and m.group(1) != oz:
+            return m.group(1)
+    return None
+
+
+def b_tara(y, D, sz, c2=True, ad_ozler=frozenset()):
     bulgular = []
     kayit_kimlikleri = {P["d"] for P in D}
+    oz = ad_ozu(y["ad"], sz.norm)
     for alan, metin, kendi in metinler(y, D):
         for parca in cumleler(metin, RX_AYRAC_B):
             onceki_son = 0
@@ -429,8 +515,13 @@ def b_tara(y, D, sz, c2=True):
                     kimlikler = [x for x in kimlikler if len(sz.norm(pencere)) - x[2] - len(x[1]) <= 3]
                 eski = bool(RX_ESKI.search(pencere[-60:]))
                 hedef, gerekce, sonuc = [], [], None
+                baska = _baska_kayit(pencere, sz, ad_ozler, oz)
                 if eski:
                     sonuc, gerekce = "ELENDI", ["'eski <değer>' — geçmiş düzeltmenin anlatısı"]
+                elif baska:
+                    sonuc, gerekce = "ELENDI", ["G: ilan BAŞKA KAYDA dair (%s)" % baska]
+                elif RX_KAPSAM_BEYANI.match(m.group(0)):
+                    sonuc, gerekce = "ELENDI", ["G: 'dokunulmadı' = işin KAPSAM beyanı, hata iddiası değil"]
                 else:
                     for P in D:
                         t_es = [(a, b) for a, b, _, _ in tarihler if aralik_eslesir(a, b, P)]
@@ -472,12 +563,22 @@ def b_tara(y, D, sz, c2=True):
                         else:
                             sonuc = "OZ-ILAN-OLCULEMEDI"
                             gerekce = ["kendi kimliği anılıyor, tarih yok"]
+                    elif _uc_ilani(tarihler, D, kimlikler, tur, kendi):
+                        # K2 (koordinatör, v1.2): ±1 uç dışlaması A'nındır; B onu MİRAS
+                        # ALMAZ — tek yıl = P.f/P.t olan ilan ELENDI değil UÇ-İLANI
+                        hedef = [(P, "tek-yil-uc") for P in _uc_ilani(tarihler, D, kimlikler, tur, kendi)]
+                        sonuc = "UC-ILANI"
+                        gerekce = ["tek yıl dönemin TAM UCU (P.f/P.t yılı) — ayrı sütun, YÜKSEK değil"]
                     elif kimlikler or tarihler:
                         sonuc = "ELENDI"
                         gerekce = ["hüküm başka devlet/tarih hakkında"]
                     else:
                         sonuc = "B-REFERANSSIZ"
                         gerekce = ["pencerede devlet ya da tarih yok"]
+                if sonuc == "OZ-ILAN-ISABET" and RX_ENGEL_SEBEP.search(pencere[-80:]):
+                    sonuc = "ENGEL-DURUYOR"
+                    gerekce = ["D: ilanın sebebi künye engeli — ENGEL yüklemine devredildi "
+                               "(aynı parçada ENGEL-KALKMIS varsa 'ENGEL-DEVIR' olur)"]
                 guc = None
                 if sonuc == "OZ-ILAN-ISABET":
                     # bulunamadı/doğrulanamadı = "kanıt yok" — çoğu kez veri ZATEN
@@ -501,7 +602,7 @@ def b_tara(y, D, sz, c2=True):
 # ═══ ⑥ ENGEL KALKMIŞ ═══════════════════════════════════════════════════════
 RX_ENGEL = re.compile(
     r"(?:k[uü]nye\w*|kimli\w*|boya\w*|renk\w*)\s+(?:de\s+|da\s+)?(?:yok|eksik)\w*|"
-    r"eksik_kimlik|kimli\w*\s+eksik|boyalar'?da\s+yok|"
+    r"eksik_kimlik|kimli\w*\s+eksik|boyalar'?da\s+yok|k[uü]nyesiz|kimliksiz|"
     # "KUNYE+RENK BEKLIYOR — x/y devletler.js'e henuz UYGULANMADI" (Asvan vakası, ölçüldü)
     r"k[uü]nye\w*(?:\s*\+\s*renk\w*)?\s+bekl\w*|devletler\.js'?[ea]?\s+hen[uü]z\s+\w+", re.I)
 
@@ -523,7 +624,74 @@ ENGEL_PENCERE = 140   # engelin öznesi anahtarın YAKININDA yazılır (ölçül
 RX_KIMLIK_ENGEL = re.compile(r"[`'\"]([a-z][a-z0-9\-]{2,})[`'\"]\s*(?:k[uü]nye|kimli)", re.I)
 
 
-def engel_tara(y, D, sz, boyalar, gun, c2=True):
+# ── v1.2 ÜÇ SÜZGEÇ (koordinatör, KASA'nın 27 ENGEL-KALKMIŞ okumasından) ──────
+# Sırayla: ① OLUMSUZ BAĞLAM → ② KÜNYE PENCERESİ → ③ COĞRAFÎ KAPSAM.
+# YÜKSEK (ENGEL-KALKMIS) = üçünden de GEÇEN aday. Sınav tek tek kapatabilsin diye:
+SUZGEC = {"olumsuz": True, "pencere": True, "cografya": True}
+OLUMSUZ_PENCERE = 3          # anılan adın İKİ yanında kaç sözcük
+RX_OLUMSUZ = re.compile(r"^(?:sonras\w*|oncesi\w*|degil\w*|disinda\w*|disi|haric\w*|yerine|"
+                        r"olmadan|otesinde\w*|eski)$")
+COGRAFYA_KM = 400            # künyeyi kullanan en yakın kayda / bölge kaydına uzaklık eşiği
+
+
+def _olumsuz_baglam(metin, metinde, sz):
+    """① anılan adın (norm) ±OLUMSUZ_PENCERE sözcüğünde olumsuz söz var mı → o söz."""
+    toks = [re.sub(r"[^a-z\-]", "", w) for w in sz.norm(metin).split()]
+    hedef = [re.sub(r"[^a-z\-]", "", w) for w in sz.norm(metinde).split()]
+    if not hedef or not hedef[0]:
+        return None
+    for i, w in enumerate(toks):
+        if w.startswith(hedef[0]):
+            for j in range(max(0, i - OLUMSUZ_PENCERE), min(len(toks), i + len(hedef) + OLUMSUZ_PENCERE)):
+                if i <= j < i + len(hedef):
+                    continue
+                if RX_OLUMSUZ.match(toks[j]):
+                    # "1842 öncesi Tahiti": önündeki sözcük bir YIL ise söz ZAMANI niteler,
+                    # devleti değil (ölçüldü: Papeete sahte ELENDI'si) → sayılmaz
+                    onceki = sz.norm(metin).split()[j - 1] if j > 0 else ""
+                    if re.search(r"\d{3,4}\W*$", onceki):
+                        continue
+                    return toks[j]
+    return None
+
+
+def _pencere_kapsar(kf, kt, dilim, dkaynak):
+    """② künye ömrü kaydın İLGİLİ dilimini kapsıyor mu (yıl, sayısal; gun.py'den).
+    metin / kendi-dönem dilimi: künye dilimi ±1 yılla TAM örter (f ≤ a+1, t ≥ b−1).
+    kaydın boş yılları (ufuk 1000'den başlar, alt uç anlamsız): künye, boşluğun
+    YAZILI bir döneme bağlandığı ucu (b < 1945) b−1 yılında yaşıyor olmalı."""
+    if dkaynak == "kaydin-bos-yillari":
+        return any(b < YIL_UST and kf <= b - 1 <= kt for a, b in dilim)
+    return any(kf <= a + 1 and kt >= b - 1 for a, b in dilim)
+
+
+def _cografya(kid, y, sz, ctx):
+    """③ → (durum, ayrıntı). durum: GECTI | KALDI | OLCULEMEDI.
+    a) künye (id ya da harita) veride KULLANILIYORSA: onu kullanan en yakın kayıt ≤ COGRAFYA_KM
+    b) kullanılmıyorsa: künye `baskent`/`ozet`/`ad` kaydın ad özünü anıyor mu
+    c) o da yoksa: künyenin `bolge`sindeki künyeleri kullanan en yakın kayıt ≤ COGRAFYA_KM
+    d) hiçbiri ölçülemiyorsa OLCULEMEDI (YÜKSEK değil)."""
+    kan = sz.kanon(kid)
+    noktalar = ctx["kullanim"].get(kan, []) + (ctx["kullanim"].get(kid, []) if kid != kan else [])
+    if noktalar:
+        en = min((ctx["km"](y["lat"], y["lon"], la, lo), ad) for la, lo, ad in noktalar)
+        return ("GECTI" if en[0] <= COGRAFYA_KM else "KALDI",
+                "kullanım: en yakın %s %.0f km" % (en[1], en[0]))
+    d = sz.kunye[kid]
+    oz = ad_ozu(y["ad"], sz.norm)
+    for alan in ("baskent", "ozet", "ad"):
+        if len(oz) >= 4 and re.search(r"(?<![a-z])" + re.escape(oz), sz.norm(d.get(alan) or "")):
+            return "GECTI", "metin: künye `%s` kaydın adını anıyor (%s)" % (alan, oz)
+    bolge = d.get("bolge")
+    bn = ctx["bolge_nokta"].get(bolge, [])
+    if bn:
+        en = min((ctx["km"](y["lat"], y["lon"], la, lo), ad) for la, lo, ad in bn)
+        return ("GECTI" if en[0] <= COGRAFYA_KM else "KALDI",
+                "bölge `%s`: en yakın bölge kaydı %s %.0f km" % (bolge, en[1], en[0]))
+    return "OLCULEMEDI", "künye kullanılmıyor, metni kaydı anmıyor, bölgesi (%s) veride yok" % bolge
+
+
+def engel_tara(y, D, sz, boyalar, gun, c2=True, ctx=None):
     bulgular = []
     kayit_kanon = set()
     for P in D:
@@ -543,7 +711,9 @@ def engel_tara(y, D, sz, boyalar, gun, c2=True):
                 onceki_son = m.end()
                 engel_turu = "boya" if re.search(r"(?i)boya|renk", m.group(0)) else "kunye"
                 # dilim: penceredeki tarih aralıkları > kendi dönemi > kaydın boş yılları
+                arka_t = re.split(r"[·;—(]", parca[m.end():m.end() + 80], maxsplit=1)[0]
                 tar = [(a, b) for a, b, _, _ in tarih_refleri(pencere, c2=c2, yuzyil=True)]
+                tar += [(a, b) for a, b, _, _ in tarih_refleri(arka_t, c2=c2, yuzyil=True)]
                 araliklar = [(a, b) for a, b in tar if b > a]
                 if araliklar:
                     dilim, dkaynak = araliklar, "metin"
@@ -610,19 +780,46 @@ def engel_tara(y, D, sz, boyalar, gun, c2=True):
                     if not uyar:
                         continue
                     boya = bool(kid in boyalar or (d.get("harita") in boyalar))
+                    kayit = {"kimlik": kid, "metinde": g, "yol": tur,
+                             "kunye": "%s → %s" % (d["f"], d["t"]), "boya": boya,
+                             "ikinci_engel": None if boya else "BOYA YOK (renkler.BOYALAR'da yok — yazılırsa harita deliği)",
+                             "suzgec": {}}
+                    # ① OLUMSUZ BAĞLAM
+                    ol = _olumsuz_baglam(pencere + " " + m.group(0) + " " + parca[m.end():m.end() + 60], g, sz)
+                    kayit["suzgec"]["olumsuz"] = ol or "gecti"
+                    if SUZGEC["olumsuz"] and ol:
+                        kayit.update(durum="ELENDI", neden="① olumsuz bağlam: '%s' (±%d sözcük)" % (ol, OLUMSUZ_PENCERE))
+                        sonuc_k.append(kayit)
+                        continue
+                    # ② KÜNYE PENCERESİ
+                    pk = _pencere_kapsar(kf, kt, dilim, dkaynak)
+                    kayit["suzgec"]["pencere"] = "gecti" if pk else "kapsamiyor"
+                    if SUZGEC["pencere"] and not pk:
+                        kayit.update(durum="ENGEL-DURUYOR",
+                                     neden="② künye var ama ömrü (%d-%d) kaydın dilimini kapsamıyor %s" % (kf, kt, dilim[:3]))
+                        sonuc_k.append(kayit)
+                        continue
+                    # ③ COĞRAFÎ KAPSAM
+                    if ctx is not None:
+                        cd, ca = _cografya(kid, y, sz, ctx)
+                    else:
+                        cd, ca = "OLCULEMEDI", "bağlam verilmedi"
+                    kayit["suzgec"]["cografya"] = "%s · %s" % (cd, ca)
+                    if SUZGEC["cografya"] and cd == "KALDI":
+                        kayit.update(durum="ELENDI", neden="③ coğrafya uymaz: " + ca)
+                        sonuc_k.append(kayit)
+                        continue
+                    if SUZGEC["cografya"] and cd == "OLCULEMEDI":
+                        kayit.update(durum="ENGEL-OLCULEMEDI", neden="③ coğrafya ölçülemedi: " + ca)
+                        sonuc_k.append(kayit)
+                        continue
                     # engelin TÜRÜ anahtardan: künye/kimlik engeli künye VARSA kalkar;
                     # boya/renk engeli BOYA VARSA kalkar. Öteki engel AYRI sütun.
-                    if engel_turu == "boya":
-                        kalkti = boya
-                    else:
-                        kalkti = True
-                    sonuc_k.append({"kimlik": kid, "metinde": g, "yol": tur,
-                                    "kunye": "%s → %s" % (d["f"], d["t"]),
-                                    "boya": boya,
-                                    "durum": "ENGEL-KALKMIS" if kalkti else "ENGEL-YARIM",
-                                    "ikinci_engel": None if boya else "BOYA YOK (renkler.BOYALAR'da yok — yazılırsa harita deliği)",
-                                    "neden": ("künye VAR + kayıt kullanmıyor" if engel_turu != "boya"
-                                              else ("boya VAR" if boya else "boya hâlâ YOK"))})
+                    kalkti = boya if engel_turu == "boya" else True
+                    kayit.update(durum="ENGEL-KALKMIS" if kalkti else "ENGEL-YARIM",
+                                 neden=("üç süzgeçten geçti · künye VAR + kayıt kullanmıyor"
+                                        if engel_turu != "boya" else ("boya VAR" if boya else "boya hâlâ YOK")))
+                    sonuc_k.append(kayit)
                 # tekilleştir
                 gor, tek = set(), []
                 for x in sonuc_k:
@@ -638,6 +835,10 @@ def engel_tara(y, D, sz, boyalar, gun, c2=True):
                     sinif = "ENGEL-DURUYOR"
                 elif "ENGEL-DONULMUS" in durumlar:
                     sinif = "ENGEL-DONULMUS"
+                elif "ENGEL-OLCULEMEDI" in durumlar:
+                    sinif = "ENGEL-OLCULEMEDI"
+                elif "ELENDI" in durumlar:
+                    sinif = "ELENDI"
                 else:
                     sinif = "ENGEL-OLCULEMEDI"
                 bulgular.append({
@@ -689,16 +890,56 @@ def a_tara(y, D, sz, c2=True, sayac=None):
 YUKSEK = {"ENGEL-KALKMIS", "OZ-ILAN-ISABET"}
 
 
+def _km(a_lat, a_lon, b_lat, b_lon):
+    import math
+    orta = math.radians((a_lat + b_lat) / 2)
+    return 111.32 * math.hypot(a_lat - b_lat, (a_lon - b_lon) * math.cos(orta))
+
+
+def baglam(kayitlar, sz):
+    """③ için: künye (kanon) → onu kullanan kayıtların konumu; bölge → o bölgenin
+    künyelerini kullanan kayıtların konumu; ad özleri (G kuralı)."""
+    kullanim, bolge_nokta = {}, {}
+    for y in kayitlar:
+        if y.get("lat") is None or y.get("lon") is None:
+            continue
+        kimler = set()
+        for kat in ("s", "isg"):
+            for p in y.get(kat) or []:
+                if p.get("d"):
+                    kimler.add(p["d"])
+        for p in y.get("v") or []:
+            if p.get("kid"):
+                kimler.add(p["kid"])
+        for k in kimler:
+            n = (y["lat"], y["lon"], y["ad"])
+            kullanim.setdefault(sz.kanon(k), []).append(n)
+            if k in sz.kunye and sz.kunye[k].get("bolge"):
+                bolge_nokta.setdefault(sz.kunye[k]["bolge"], []).append(n)
+            # harita anahtarıyla yazılmış dönem: o haritayı taşıyan künyelerin bölgesi
+            for kid, h in sz.harita.items():
+                if h == k and kid != k and sz.kunye[kid].get("bolge"):
+                    bolge_nokta.setdefault(sz.kunye[kid]["bolge"], []).append(n)
+    ozler = {ad_ozu(y["ad"], sz.norm) for y in kayitlar}
+    return {"kullanim": kullanim, "bolge_nokta": bolge_nokta, "km": _km,
+            "ad_ozler": frozenset(o for o in ozler if len(o) >= 4)}
+
+
 def tara(kayitlar, devletler, gun, norm, boyalar, c2=True):
     sz = Sozluk(devletler, norm)
+    ctx = baglam(kayitlar, sz)
     sayac = {}
     out = []
     for y in kayitlar:
         D = donemler(y, sz, gun)
         kim = {"dosya": y.get("_kaynak", "?"), "ad": y["ad"]}
         A = a_tara(y, D, sz, c2=c2, sayac=sayac)
-        B = b_tara(y, D, sz, c2=c2)
-        E = engel_tara(y, D, sz, boyalar, gun, c2=c2)
+        B = b_tara(y, D, sz, c2=c2, ad_ozler=ctx["ad_ozler"])
+        E = engel_tara(y, D, sz, boyalar, gun, c2=c2, ctx=ctx)
+        kalkmis = {(e["metin_alani"], e["cumle"]) for e in E if e["sinif"] == "ENGEL-KALKMIS"}
+        for b in B:      # D devri: aynı parçada ENGEL-KALKMIS varsa YÜKSEK ENGEL kaydındadır
+            if b["sinif"] == "ENGEL-DURUYOR" and (b["metin_alani"], b["cumle"]) in kalkmis:
+                b["sinif"] = "ENGEL-DEVIR"
         b_hedef = {(h["alan"], h["i"]) for b in B if b["sinif"] == "OZ-ILAN-ISABET" for h in b["hedef"]}
         for x in A:
             x["B_ayni_donemde_isabet"] = (x["P"]["alan"], x["P"]["i"]) in b_hedef
@@ -740,6 +981,8 @@ def main():
                     help="ölçülecek depo kökü — origin/main'den açılmış AYRI worktree")
     ap.add_argument("--json")
     ap.add_argument("--c2-kapali", action="store_true")
+    ap.add_argument("--c2-eski", action="store_true",
+                    help="v1.1 GENİŞ C2 (bütün hicrîsiz parantezli yıllar atılır) — kıyas için")
     ap.add_argument("--ozet", action="store_true")
     a = ap.parse_args()          # --kok yoksa argparse çıkış 2 verir, ölçüm YAPILMAZ
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -751,21 +994,22 @@ def main():
     girdi, gun, renkler, norm = ortam(a.kok)
     Y = girdi.yukle(sessiz=True)
     Dv = girdi.oku_devletler()
-    out, sayac, sz = tara(Y, Dv, gun, norm, renkler.BOYALAR, c2=not a.c2_kapali)
+    c2 = False if a.c2_kapali else ("genis" if a.c2_eski else True)
+    out, sayac, sz = tara(Y, Dv, gun, norm, renkler.BOYALAR, c2=c2)
     from collections import Counter
     c = Counter((x["yuklem"], x["sinif"]) for x in out)
     print("evren: %d dosya (girdi.GIRDI_DOSYALARI, canlı) · %d kayıt · %d künye · "
           "%d güçlü + %d zayıf alias · BOYALAR %d"
           % (len(girdi.GIRDI_DOSYALARI), len(Y), len(Dv), len(sz.guclu), len(sz.zayif),
              len(renkler.BOYALAR)))
-    print("C2:", "KAPALI" if a.c2_kapali else "açık")
+    print("C2:", "KAPALI" if c2 is False else ("GENİŞ (v1.1)" if c2 == "genis" else "DAR (v1.2, K1)"))
     for k in sorted(c):
         print("  %-6s %-22s %d" % (k[0], k[1], c[k]))
     print("YÜKSEK toplam:", sum(1 for x in out if x["yuksek"]))
     if a.json:
-        sira = {"ENGEL-KALKMIS": 0, "OZ-ILAN-ISABET": 1, "ENGEL-YARIM": 2,
-                "OZ-ILAN-OLCULEMEDI": 3, "ENGEL-OLCULEMEDI": 4, "ENGEL-DURUYOR": 5,
-                "ENGEL-DONULMUS": 6, "YALNIZ-A": 7, "ELENDI": 8}
+        sira = {"ENGEL-KALKMIS": 0, "OZ-ILAN-ISABET": 1, "ENGEL-YARIM": 2, "UC-ILANI": 3,
+                "OZ-ILAN-OLCULEMEDI": 4, "ENGEL-OLCULEMEDI": 5, "ENGEL-DURUYOR": 6,
+                "ENGEL-DEVIR": 7, "ENGEL-DONULMUS": 8, "YALNIZ-A": 9, "ELENDI": 10}
         govde = [x for x in out if x["sinif"] != "B-REFERANSSIZ"]
         govde.sort(key=lambda x: (sira.get(x["sinif"], 9), x.get("guc") == "zayif",
                                   x["dosya"], x["ad"]))
@@ -775,7 +1019,8 @@ def main():
             json.dump({"arac": "ARAC-CELISKI-ICKAYNAK-1010", "kapi_degil": True,
                        "taban_commit": taban or "olculemedi",
                        "geride_origin_main": geride, "geride_durum": gdurum,
-                       "c2": not a.c2_kapali,
+                       "c2": "kapali" if c2 is False else ("genis-v1.1" if c2 == "genis" else "dar-v1.2"),
+                       "surum": "v1.2",
                        "evren": {"girdi_dosyasi": len(girdi.GIRDI_DOSYALARI), "kayit": len(Y),
                                  "kunye": len(Dv), "boya": len(renkler.BOYALAR)},
                        "sayac": sayac, "siniflar": {"%s/%s" % k: v for k, v in sorted(c.items())},

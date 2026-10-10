@@ -5,14 +5,14 @@ Koordinatörün 10 Ekim düzeltmesi uygulandı: sıralamayı **④ ENGEL-KALKMI�
 
 | | |
 |---|---|
-| Taban | v1: `79ff492a` · **v1.1: `534633f8d21cf022c59d8f66fed41d26b568b75b`** (ayrı worktree; alet geriliği kendisi ölçüp basıyor → 0) |
+| Taban | v1: `79ff492a` · v1.1: `534633f8` · **v1.2: `a51430ccdebcefc32bfd5f7c2b31e8984dbf8039`** (ayrı worktree; alet geriliği kendisi ölçüp basıyor → 0) |
 | Evren | `girdi.GIRDI_DOSYALARI` canlı: **93 dosya · 4300 kayıt** · `devletler.js` **897 künye** · `renkler.BOYALAR` **704** |
 | Tarayıcı | `denetim/ARAC-CELISKI-ICKAYNAK-1010.py --kok <origin/main worktree> --json <yol>` · **`--kok` ZORUNLU** (yoksa çıkış 2) · ~4 sn + fetch |
-| Sınav | `denetim/ARAC-CELISKI-ICKAYNAK-SINAV-1010.py --kok <aynı>` → **32/32** (v1.1'de K1 ve K2 eklendi), çıkış 0 |
+| Sınav | `denetim/ARAC-CELISKI-ICKAYNAK-SINAV-1010.py --kok <aynı>` → **57/57** (v1.1'de K1 ve K2 kök kolları; v1.2'de süzgeç, D, G, C2, UÇ kolları eklendi), çıkış 0 |
 
 ## 1. Sayılar (bugün)
 
-**Bugün 156 YÜKSEK aday var: 27 ENGEL-KALKMIŞ ve 129 ÖZ-İLAN-İSABET. Bunlar 122 ayrı kayıtta.**
+**(v1/v1.1 sayısı; güncel sayı için §v1.2'ye bakın: 130 YÜKSEK.)** **Bugün 156 YÜKSEK aday var: 27 ENGEL-KALKMIŞ ve 129 ÖZ-İLAN-İSABET. Bunlar 122 ayrı kayıtta.**
 
 | Yüklem | Sınıf | N | Not |
 |---|---|---:|---|
@@ -267,3 +267,163 @@ C2 kapatılınca A'ya **82**, B-İSABET'e **2** kalem ekleniyor. 82 kalemin heps
 | 20 | Gorbitsa · not | "daha eski olup olmadığı bulunamadı" | konu `kur`, dilimin sahibi değil |
 
 ⇒ Kapalı anahtar listesinin bu kovadaki kaybı, örneklemde **gözlenmedi**. Asıl kör nokta liste değil, **tek yıl = dönem ucu** kuralı (#11). Bu kuralın kaç kalemi kaçırdığı ölçülmedi.
+
+
+---
+
+## §v1.2 — KASA geri bildirimi + K1 + K2 (koordinatör onayı, 10 Ekim 2026)
+
+**Taban:** `origin/main` **a51430cc**. Ölçüm 534633f8'de başladı. Alet kökü kendisi ölçtü ve "GERİDE: 2" bastı (⑦ işini gördü). Aradaki iki commit yalnız `CLAUDE.md` ve `oturumlar/PAKET-1010-*` dosyalarına dokunuyor, `data/` ve `arac/` değişmedi. Yine de worktree a51430cc'ye alındı ve bütün koşular orada tekrarlandı; sayılar birebir aynı çıktı.
+**Sınav 57/57** (v1.1'de 32/32 idi).
+
+**YÜKSEK aday sayısı 156'dan 130'a indi.** ENGEL-KALKMIŞ 27'den 13'e, ÖZ-İLAN-İSABET 129'dan 117'ye.
+
+| Yüklem | v1.1 → v1.2 geçişi | N | Sebep |
+|---|---|---:|---|
+| ENGEL | KALKMIS → ENGEL-DURUYOR | 10 | ② künye penceresi |
+| ENGEL | KALKMIS → ELENDI | 4 | ① olumsuz bağlam: 3 · ③ coğrafya: 1 |
+| ENGEL | (yok) → OLCULEMEDI 17 · DONULMUS 2 · ELENDI 1 | 20 | RX_ENGEL'e `künyesiz` ve `kimliksiz` eklendi |
+| B | İSABET → ENGEL-DURUYOR | 9 | **D kuralı** |
+| B | İSABET → ENGEL-DEVIR | 1 | D kuralı; aynı parçada ENGEL-KALKMIŞ var (Draç) |
+| B | İSABET → ELENDI | 4 | **G kuralı** |
+| B | ELENDI → **UC-ILANI** | **81** | **K2** |
+| B | ELENDI → İSABET | 1 | **K1** (Brest-Litovsk) |
+| B | REFERANSSIZ → İSABET | 1 | K1 (Cushamen) |
+| B | REFERANSSIZ → ELENDI | 8 | G kuralı 6 · K1'in açtığı tarih 2 (Bağdat, Viana) |
+| A | (yok) → YALNIZ-A | 26 | K1 |
+
+Kalem kalem liste: JSON `v1_2.gecis`.
+
+### 1. Sınıflama düzeltmeleri — kural düzeyinde, elle istisna yok
+
+**D kuralı.** Bir B ilanı İSABET verir ve anahtarın önündeki 80 karakterde bir künye engeli geçerse (`künyesiz` · `kimliksiz` · `künye(si) yok/eksik` · `kimlik(i) yok/eksik` · `eksik_kimlik`), ilan bir öz-ilan değil bir ENGEL'dir: sınıfı **ENGEL-DURUYOR** olur. Aynı parçada ENGEL-KALKMIŞ varsa **ENGEL-DEVIR** olur; bu durumda YÜKSEK sayılan ENGEL kaydıdır, iki kez sayılmaz.
+* KASA'nın 9 kalemi buraya geçti: Derbend ×2 · Maykop ×2 · Soçi ×2 · Tuapse ×2 · İlimsk.
+* Kuralın KASA'nın listesinde olmayan tek ek etkisi Draç'tır: "Thopia künyesi YOK, 1368-1392 dilimi AÇIK BORÇ" → ENGEL-DEVIR. Draç'ın YÜKSEK kaydı ENGEL-KALKMIŞ / `topia` olarak kalıyor.
+
+**G kuralı.** İki alt kural var:
+* **(a) Başka kayıt.** Anahtardan önceki son 3 sözcükte, **yönelme hâlinde** ('a/'e/'ya/'ye/'na/'ne) başka bir atlas kaydının ad özü geçiyorsa ilan ELENDI olur: Grand Cess ("HARPER'A"), Mbande ("KARONGA'YA").
+  * Tamlayan ya da ayrılma hâli SAYILMAZ. Ölçülen vaka: Hayber'in "Medine'nin kaydından alındı … ÇIKARIMDIR" cümlesi ilk denemede yanlışlıkla elendi; o cümle kaynağı anıyor, ilan kaydın kendisine dair.
+* **(b) Kapsam beyanı.** "dokunulmadı" bir işin kapsam beyanıdır, hata iddiası değildir ⇒ ELENDI.
+  * KASA'nın listesinden Sivrihisar (`neden`) ve Şeyhrumi bu kuralla elendi.
+  * B-REFERANSSIZ'dan da 6 kalem ELENDI'ye geçti: Arapkir · Culfa · Königsberg · Luristan · Nakşa · Arpaçay. Königsberg'in ISABET'i "YANLIŞ" anahtarından geliyor ve yerinde duruyor.
+
+### 2. ENGEL eşleştiricisi — üç süzgeç, sırayla
+
+YÜKSEK, üç süzgeçten de geçen adaydır. Boya bilgisi `boya` ve `ikinci_engel` sütunlarında ayrı tutuluyor.
+
+* **① Olumsuz bağlam.** Anılan adın iki yanındaki **3'er sözcükte** şu sözlerden biri geçiyorsa ⇒ ELENDI: `sonrası · öncesi · değil · dışında · dışı · hariç · yerine · olmadan · ötesinde · eski`.
+  * İstisna: sözün önündeki sözcük bir yılsa söz zamanı niteliyor, devleti değil ("1842 öncesi Tahiti"). Ölçülen vaka: ilk denemede Papeete sahte yere elendi.
+* **② Künye penceresi.** Künyenin `f`/`t` yılı `gun.py` ile sayısal olarak alınır ve kaydın ilgili dilimiyle kıyaslanır:
+  * Dilim metinden ya da notun kendi döneminden geliyorsa künye onu ±1 yılla TAM örtmeli: f ≤ a+1 ve t ≥ b−1.
+  * Dilim kaydın boş yıllarıysa: ufuk 1000'den başladığı için alt uç anlamsız. Künye, boşluğun yazılı bir döneme bağlandığı uçta (b < 1945) b−1 yılında yaşıyor olmalı.
+  * Kapsamıyorsa ⇒ **ENGEL-DURUYOR** (künye var ama o dilime ait değil).
+  * Dilim artık anahtarın ARDINDAKİ tarih cümleciğini de okuyor (Draç "künyesi YOK, 1368-1392 dilimi").
+* **③ Coğrafî kapsam.** Kullanılan alanlar ölçüldü:
+  * a) Künye veride kullanılıyorsa (`s:`/`isg:` `d`'si ya da `v:` `kid`'i, `harita` dahil): onu kullanan en yakın kayıt ≤ 400 km olmalı.
+  * b) Kullanılmıyorsa: künyenin `baskent` / `ozet` / `ad` alanları kaydın ad özünü anıyor mu.
+  * c) O da yoksa: künyenin `bolge`'sindeki künyeleri kullanan en yakın kayıt ≤ 400 km olmalı. Kayıt kendi sahiplerinden biri o bölgedeyse bu kendiliğinden tutar.
+  * d) Hiçbiri yoksa ⇒ **ENGEL-OLCULEMEDI**, YÜKSEK değil.
+  * Bugünkü 31 adayda ③'e ulaşanlar: a yoluyla 11 (8 geçti, 3 kaldı) · b yoluyla 2 (Königsberg `baskent` "Marienburg → Königsberg", Papeete `baskent` "Papeete") · c yoluyla 4.
+
+**KASA'nın 9 yanlış eşleşmesinin hepsi YÜKSEK'ten çıktı:**
+
+| Kayıt | Künye | v1.2 sınıfı | Süzgeç |
+|---|---|---|---|
+| Ginir · Goba | `adal` | ELENDI | ① "Adal **sonrası**" |
+| Qitai | `cungar` | ELENDI | ① "Kuruluş **öncesi** bölge Cungar" |
+| Kapuas Hulu | `malay-sultanliklari` | ELENDI | ③ en yakın kullanım Bintan (Riau) **944 km** |
+| Qitai | `ming-hanedani` | ENGEL-DURUYOR | ② künye 1368-1644, boşluk uçları 1771/1876 |
+| Vitim | `sibir-hanligi` | ENGEL-DURUYOR | ② künye 1430-1598, boşluk ucu 1661 |
+| Valata | `agadez-sultanligi` | ENGEL-DURUYOR | ② künye 1405-1923, boşluk ucu yalnız 1281 (1945 ucu sayılmaz). ③ de onu tutardı (Agadez ~2500 km) |
+| Gao · Cenne | `arma` 1750-1760 | ENGEL-DURUYOR | ② 10 yıllık künye boşluğun hiçbir ucunu kapsamıyor |
+
+Öteki geçişler:
+* Mega · Moyale · Negele Borana · Yabelo (`kenya-kuzey-halklari`) → ENGEL-DURUYOR (②: künye 1895'te bitiyor, boşluk 1897'de). KASA bunlar için "hüküm koordinatörün" demişti; v1.2 YÜKSEK saymıyor.
+* Niani (`bambara`/`tekrur`) → ENGEL-DURUYOR (②).
+
+**v1.2'de ENGEL-KALKMIŞ olan 13 kalem:**
+
+| Kayıt | Künye | Boya | KASA hükmü |
+|---|---|---|---|
+| Draç | `topia` | VAR | HAZIR |
+| Tembura · Yambio | `zende` | VAR | HAZIR |
+| Anapa | `cerkez` | VAR | HAZIR-ŞARTLI |
+| Papeete | `tahiti` | VAR | HAZIR-ŞARTLI |
+| Maridi | `zende` | VAR | HAZIR-ŞARTLI |
+| Mizan Teferi | `kaffa-kralligi` | VAR | HAZIR-ŞARTLI |
+| Königsberg | `teuton-sovalyeleri` | **YOK** | BOYA BORCU |
+| Raipur · Ratanpur | `nagpur-bhonsle` | **YOK** | BOYA BORCU |
+| Ağere Maryam · Dilla · Şeşemene | `sidamo-kralliklari` | VAR | ÖLÇÜLEMEDİ |
+
+⇒ Tarayıcının 13'ü KASA'nın HAZIR (3) + ŞARTLI (4) + BOYA BORCU (3) kümesiyle 10 kalemde örtüşüyor. Kalan 3 kalem Sidamo ×3: KASA "şehir tanığı yok, kuşak = bölge cümlesi" dedi. Bu, üç süzgecin soramadığı bir sorudur (bir kuşak cümlesinin şehre taşınması, D208). ⇒ **Kalan sahte oranı 3/13**; bu üçü şehir tanığı sınıfıdır, eşleşme hatası değildir.
+
+**Süzgeçler tek tek kapatıldı** (sınav S kolları); her biri kendi negatif kontrolünü ısırıyor:
+* ① kapalı ⇒ Qitai/`cungar` YÜKSEK'e döner.
+* ② kapalı ⇒ Gao/`arma` döner.
+* ③ kapalı ⇒ Kapuas Hulu/`malay-sultanliklari` döner.
+
+Pozitif kontroller yerinde: Königsberg, Anapa, Draç, Papeete, Tembura, Yambio.
+
+### 3. K1 — dar C2
+
+Karar sırası:
+1. Parantezin ardında künye devamı varsa (", *Başlık" · "', Dergi" · ", Bd." · " s.12" · " v11") ⇒ DÜŞER.
+2. Önündeki 40 karakterde dönem/olay sözü ya da hükümdar unvanı varsa (döneminde · devri · zamanında · hâkimiyeti · saltanatı · ölüm · kuruluş · kurucu · başkent · işgal · idare · fetih · savaş · antlaşma · barış · Han · Şah · Bey · Sultan · Paşa · el- · Melik · Emîr) ⇒ KORUNUR.
+3. Ardında yalnız metin sonu varsa (tırnak olabilir) ⇒ DÜŞER.
+4. Hemen önünde ≥2 ardışık büyük harfli, eksiz sözcük varsa (Ad Soyad) ⇒ yazar ⇒ DÜŞER.
+5. Öteki durumlarda (cümle sürüyor) ⇒ KORUNUR.
+
+Hicrî biçim zaten korunuyordu, dokunulmadı.
+
+| | C2 kapalı | Eski C2 (geniş, v1.1) | Yeni C2 (dar, v1.2) |
+|---|---:|---:|---:|
+| A YALNIZ-A | 1656 | 1574 | **1600** |
+| B ÖZ-İLAN-İSABET | 117 | 115 | **117** |
+
+**Yeni süzgecin kaybı, adıyla** (v1.1'in 82 kalemlik okumasına karşı):
+
+| v1.1 okuması | N | Dar C2'de |
+|---|---:|---|
+| YAYIN YILI | 45 | **45/45 hâlâ düşüyor** (Merriman ×39 · Kolonial-Lexikon ×3 · Imperial Gazetteer · Lorimer · Scott & Hardiman) |
+| ESER BAŞLIĞI DÖNEMİ | 11 | 11/11 düşüyor (künye devamı "', Dergi"). Nötr kayıp |
+| GERÇEK OLAY YILI | 25 | **25/25 kurtuldu** |
+| ATLAS İÇ DEĞERİ | 1 | kurtuldu (Kuba "yamanın penceresinin (1583-1607) DISINDA"); nötr |
+| B: Brest-Litovsk (gerçek öz-ilan) | 1 | **kurtuldu** → İSABET |
+| B: Cushamen (sahte, kuruluş yılı) | 1 | kurtuldu → İSABET (bu bir sahte YÜKSEK; KASA'nın E türü) |
+
+**Kalan sapma 0.** Dar C2'nin kaybı tam olarak 56 kalem: 45 yayın yılı + 11 eser başlığı.
+* İlk denemede 5 olay yılı hâlâ düşüyordu: İzdin "zamanında (1424-1832)'" ve Andican/Hokand/Hucend/Oş "hâkimiyeti (1494-1504)"". Sebep, metin sonu kuralının dönem sözünden önce sınanmasıydı; sıra düzeltildi.
+* Sınavda iki yön sınandı: Merriman (1918) DÜŞER, Brest-Litovsk (1915-1918) KALIR.
+
+### 4. K2 — UÇ-İLANI
+B ilanında **tek yıl = P.f ya da P.t yılı** ise ilan artık ELENDI'ye değil **UC-ILANI**'na gider. Bu ayrı bir sütundur, YÜKSEK değildir.
+* Kural `__BOSLUK__` dilimine ve başka devlet hakkındaki NEG/YANLIŞ ilanlarına uygulanmaz; NEG/YANLIŞ için anılan kimlik P'nin sahibi olmalı.
+* Etkisi: **81 kalem / 77 kayıt ELENDI'den UC-ILANI'na geçti.** Anahtara göre: bulunamadı 54 · açık borç 10 · yazılmadı 10 · değil 2 · öteki 5.
+* Pozitif kontrol: **Şerur s[3] karakoyunlu f=1408-04-13** → UC-ILANI.
+* 77 kayıt: Ahar · Ankara · Antakya · Ardahan · Arpaçay · Astara · Barkol · Berde · Beri · Bolgrad · Cenîne · Culfa · Daly Waters · Darende · Dera İsmail Han · Digor · Dimetoka · Doha · Elmina · Eperjes · Erdebil · Ermeni Derbendi · Eçmiyadzin · Fülek · Gence · Gümrü · Halhâl · Herseknovi · Hoy · Iriba · Iğdır · Kahire · Kainsk · Kapuas Hulu · Karaman · Kars · Katar Yarımadası · Kerene · Kliçatak · Küçükperveli · Lenkeran · Lugos · Merend · Merâga · Merîvan · Meşkinşehr · Miyâne · Modon · Munkács · Mâku · Mîyandoab · Nahçıvan · Nakşa · Norapat · Ordubad · Otranto · Oyo-İle · Porto Velho · Revan · Rāzhān · Sakkız · Sarâb · Sarıkamış · Selmâs · Sero · Sin · Sultâniye · Temeşvar · Tokaj · Türabe · Ungvár · Urmiye · Xinyang · Yerbogaçen · Çehrin · Şerur · Şeyh Salû-yi Ulyâ.
+
+### 5. (①) Yama evreni — BENZERSİZ ilan metni
+**Normalleştirme kuralı:**
+* İsabeti taşıyan JS dize değişmezi alınır; yorum satırında `//` sonrası, ikisi de yoksa satırın kendisi.
+* ARAC-NORMAL `norm()` uygulanır (Türkçe katlama, küçük harf).
+* Bütün rakam dizileri `#` olur (tarih ve yıl dahil). Kaçışlar (`\"`, `\n`) sökülür, boşluk tekleşir, baştaki ve sondaki noktalama atılır.
+* **Kayıt adı İÇERİDE kalır:** adı taşıyan cümle tekil sayılır, yani sayı bir ÜST sınırdır.
+
+| | Ham isabet | Benzersiz ilan metni |
+|---|---:|---:|
+| **Karantina dışı** (103 dosya) | 4.456 | **1.000** (dosyalar arası tekil) · dosya içi tekil toplamı 1.027 |
+| `yer_yama_1923_1945.js` — **LAB KARANTİNASI, toplama KATILMADI** | 7.406 | 143 |
+
+* Şablon etkisi: `yer_yama_kademe2.js` 2.720 ham isabetten yalnız **8** benzersiz metin veriyor; `misir_himaye` 168 → 3, `hayalet2` 123 → 6.
+* En çok benzersiz metin: yer_yama.js 162 · once1281_z6 83 · sahiplik 40 · kafkas 28 · japonya 27 · dogafr 27 · kademe_m_0905 26.
+* Ham sayı v1.1'deki 11.835'ten 11.862'ye çıktı, çünkü RX_ENGEL'e `künyesiz` ve `kimliksiz` eklendi.
+* Sınıflama yok.
+
+(②) Yorum evreni ertelendi, dokunulmadı.
+
+### 6. Bulamadım / ölçemedim (v1.2)
+* **Sidamo ×3 ve Maridi/Mizan Teferi'nin "kuşak" notları:** bir bölge cümlesinin şehre taşınması (D208) üç süzgeçle sorulamıyor. Coğrafya süzgeci künyenin YAKINLIĞINI ölçer, notun şehir için tanıklık edip etmediğini ölçmez.
+* **③-b metin yolu yalnız kaydın ad özünü arıyor:** eşanlam sözlüğü (`ad_esanlam.js`) kullanılmadı. Königsberg ve Papeete künyenin `baskent` alanında birebir geçtiği için tuttu.
+* **400 km eşiği bir ÖLÇÜM DEĞİL, seçimdir.** Bugünkü 11 "kullanım" uzaklığı: geçenler 39–334 km, kalanlar 544 km (Zagreb), 944 km (Kapuas Hulu) ve 1074 km (Sebte). Eşik 335–543 km aralığının herhangi bir yerinde aynı sonucu verir; yeni veride sınanmadı.
+* **G-(b) "dokunulmadı" kuralının sahte negatif riski:** bir notta hem kapsam beyanı hem gerçek bir hata iddiası tek anahtarla geliyorsa ilan elenir. Örneklemde gözlenmedi, ölçülmedi.
+* **D kuralının ENGEL tarafı:** Derbend/Maykop/Soçi/Tuapse'nin ENGEL kaydı ENGEL-OLCULEMEDI. Sebebi "Gürcü/Beyaz/Dağlı" adlarının bir künyeye bağlanamaması; o dönem künyelerinin bugün var olup olmadığı ölçülmedi.

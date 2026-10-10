@@ -24,6 +24,19 @@ KÖK (⑦):
   K1  --kok verilmezse çıkış 2, ölçüm yok
   K2  origin/main~2'den açılmış geçici worktree ⇒ "GERİDE: N" (N ≥ 2) basılıyor
       (geçici worktree sınav sonunda kaldırılır)
+v1.2 (koordinatör + KASA geri bildirimi):
+  E-  yanlış eşleşmeler YÜKSEK'te DEĞİL: Kapuas Hulu · Vitim · Ginir · Goba · Valata ·
+      Qitai ×2 · Gao · Cenne
+  E+  Königsberg (teuton) · Anapa (cerkez) · Draç (topia) · Papeete (tahiti) ·
+      Tembura/Yambio (zende) ENGEL-KALKMIS'te KALIR
+  S1/S2/S3  süzgeç TEK TEK kapatılınca ilgili negatif YÜKSEK'e döner:
+      ① olumsuz bağlam → Qitai/cungar · ② künye penceresi → Gao/arma · ③ coğrafya → Kapuas/malay
+  D   Derbend/Maykop/Soçi/Tuapse/İlimsk "künyesiz KODLANMADI" → ENGEL-DURUYOR (B'de)
+  G   Grand Cess (HARPER'A) · Mbande (KARONGA'YA) · Sivrihisar/Şeyhrumi "dokunulmadı" → ELENDI;
+      Hayber ("Medine'nin kaydından … ÇIKARIMDIR", tamlayan hâli) ELENMEZ
+  C2a K1: "Merriman (1918), *The Rise…" DÜŞER (Madrid A'da 1918 yok)
+  C2b K1: "Alman işgali (1915-1918) 'isg:' YAZILMADI" KALIR (Brest-Litovsk B-İSABET)
+  U   K2: Şerur s[3].f 1408 → UC-ILANI
 Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
 """
 import argparse
@@ -152,6 +165,62 @@ sina("N11 hedef dilim __BOSLUK__ (beyanlı) → ELENDI", b and all(x["sinif"] ==
 for metin in ["XV. yüzyıl", "s. 1284", "1.609 km²", "EPOK-SAHIP-1008", "35.899 / 14.514"]:
     yy = T.yillari_cikar(metin)
     sina("N10 gürültü yıl üretmez: %r" % metin, yy == [], yy)
+
+# ── v1.2 ──────────────────────────────────────────────────────────────────
+print("v1.2 (ENGEL süzgeçleri · D · G · K1 · K2)")
+
+
+def kalkmis(L):
+    out = {}
+    for x in L:
+        if x["yuklem"] == "ENGEL" and x["sinif"] == "ENGEL-KALKMIS":
+            for k in x["kimlikler"]:
+                if k.get("durum") == "ENGEL-KALKMIS":
+                    out.setdefault(x["ad"], set()).add(k["kimlik"])
+    return out
+
+
+KM = kalkmis(GER)
+YANLIS = ["Kapuas Hulu (bölge)", "Vitim (Vitimskoye zimov'e / Vitimskiy ostrog)", "Ginir", "Goba",
+          "Valata (Oualata)", "Qitai (Gucheng)", "Gao", "Cenne (Djenné)"]
+sina("E- 7 yanlış eşleşme + arma ×2 YÜKSEK'te YOK", not [a for a in YANLIS if a in KM],
+     [a for a in YANLIS if a in KM])
+for ad, kid in [("Königsberg", "teuton-sovalyeleri"), ("Anapa", "cerkez"), ("Draç", "topia"),
+                ("Papeete", "tahiti"), ("Tembura", "zende"), ("Yambio", "zende")]:
+    sina("E+ %s → %s ENGEL-KALKMIS" % (ad, kid), kid in KM.get(ad, set()), sorted(KM.get(ad, set())))
+for anahtar, ad, kid in [("olumsuz", "Qitai (Gucheng)", "cungar"), ("pencere", "Gao", "arma"),
+                         ("cografya", "Kapuas Hulu (bölge)", "malay-sultanliklari")]:
+    T.SUZGEC[anahtar] = False
+    try:
+        km2 = kalkmis(tara(Y))
+    finally:
+        T.SUZGEC[anahtar] = True
+    sina("S %s KAPALI ⇒ %s/%s YÜKSEK'e döner (süzgeç ısırıyor)" % (anahtar, ad, kid),
+         kid in km2.get(ad, set()), sorted(km2.get(ad, set())))
+for ad in ["Derbend", "Maykop (Çerkezya)", "Soçi (Sâşe)", "Tuapse", "İlimsk (Ilimskiy ostrog)"]:
+    b = [x["sinif"] for x in GER if x["ad"] == ad and x["yuklem"] == "B"
+         and x["sinif"] in ("ENGEL-DURUYOR", "OZ-ILAN-ISABET")]
+    sina("D %s künyesiz → ENGEL-DURUYOR, İSABET değil" % ad,
+         b and all(c == "ENGEL-DURUYOR" for c in b), b)
+for ad, anahtar in [("Grand Cess (Kru)", "dokunulmad"), ("Mbande (Ngonde)", "dokunulmad"),
+                    ("Sivrihisar", "dokunulmad"), ("Şeyhrumi (Yücelen)", "dokunulmad")]:
+    b = [x["sinif"] for x in GER if x["ad"] == ad and x["yuklem"] == "B"
+         and anahtar in x["anahtar"].lower().replace("ı", "i")]
+    sina("G %s 'dokunulmadı' → ELENDI" % ad, b and all(c == "ELENDI" for c in b), b)
+b = [x["sinif"] for x in GER if x["ad"] == "Hayber" and x["yuklem"] == "B" and "ARIM" in x["anahtar"].upper()]
+sina("G ters yön: Hayber (Medine'nin — tamlayan) ELENMEZ", b and "ELENDI" not in b, b)
+a = [x for x in GER if x["ad"] == "Madrid" and x["yuklem"] == "A" and x["Y"] == 1918]
+sina("C2a K1: Merriman (1918) DÜŞER — Madrid A'da 1918 yok", a == [], len(a))
+b = [x for x in GER if x["ad"] == "Brest-Litovsk" and x["yuklem"] == "B" and x["sinif"] == "OZ-ILAN-ISABET"]
+sina("C2b K1: Brest-Litovsk (1915-1918) KALIR → B-İSABET", bool(b), len(b))
+yy = [y for y, _ in T.yillari_cikar("ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire*")]
+sina("C2a' birim: Merriman (1918) yıl üretmez", yy == [], yy)
+yy = [y for y, _ in T.yillari_cikar("Alman işgali (1915-1918) 'isg:' olarak YAZILMADI")]
+sina("C2b' birim: Alman işgali (1915-1918) korunur", yy == [1915, 1918], yy)
+u = [x for x in GER if x["ad"] == "Şerur (Sharur)" and x["sinif"] == "UC-ILANI"]
+sina("U K2: Şerur s[3].f 1408 → UC-ILANI",
+     any(h["alan"] == "s" and h["i"] == 3 for x in u for h in x["hedef"]),
+     [(h["d"], h["f"]) for x in u for h in x["hedef"]])
 
 # ── ⑦ KÖK KOLLARI (koordinatör, 10 Ekim) ──────────────────────────────────
 print("KÖK (⑦)")
