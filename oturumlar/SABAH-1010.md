@@ -15,10 +15,32 @@ ders           269
 
 ### ① MÖ PENCERESİ NEREDEN AÇILSIN?
 ```
-SÜMER kutusu    🟢 yoğunluk AÇILDI    26 nokta + 1 dolgu ⇒ p95 111,4 km
-                🔴 sahiplik %83,0 BOŞ  — bunun %63,3'ü "künye VAR, şehir BAĞLANMAMIŞ"
+SÜMER kutusu    🟡 yoğunluk AÇILACAK  26 nokta + 1 dolgu ⇒ p95 111,4 km
+                🔴 ama NOKTALARIN HİÇBİRİ `data/`da YOK — ölçüm ÖNERİ üzerinde
 ANADOLU kutusu  🔴 atlas noktalarıyla HİÇBİR KESİTTE açılmıyor (455-620 km)
 ```
+🔴 **DÜZELTME (04:3x, kendi hükmümdü): "yoğunluk AÇILDI" diye yazmıştım, YANLIŞ.**
+Ölçtüm, KASA'nın bir yan cümlesi üzerine:
+```
+grep -rl "Uruk|Nippur|Borsippa" data/         → HİÇBİR DOSYA (0)
+devletler.js: ahameni·makedon·selefki·part·akkad → 0 · yalnız `sasani` → 1
+```
+⇒ **Sümer kutusunun ne noktaları ne künyeleri `data/`da. Hepsi `denetim/`
+altında ÖLÇÜLMÜŞ ÖNERİ.** p95 111,4 geçerli bir ölçüm ama **inmemiş bir küme
+üzerinde**; kapı AÇIK değil **AÇILACAK**. Ve bu, %83'lük sahiplik boşluğunu da
+açıklıyor — künye yoksa sahiplik elbette boş; o rakamın "%63,3'ü künye var"
+kısmı **ŞÜPHELİ** ilan edildi (hangi künye kümesinde ölçüldüğü yeniden
+sorulacak; yeni sayı UYDURULMADI, eskisi sağlam sayılmadı).
+
+**⇒ O HÂLDE SORU DEĞİŞİYOR:** *"Sümer'i genişletelim mi"* değil,
+**"ölçülmüş Sümer PAKETİNİ indirelim mi?"**
+```
+26 nokta  +  7 künye (ahameni·makedon·selefki·karakene·part·elymais·sasani)
+          + 15 sahiplik zinciri (MÖ 539 → MS 226)
+hepsi HAZIR · hiçbiri İNMEMİŞ · inişi FAZ 2 (koşu 22'den sonra)
+```
+📌 KASA bu pencerede şehir adlı akademik tanıkla bağlı payı **%7,7 → %38,2**'ye
+çıkardı; kalan %61,8 için kaynak (van der Spek 1992) sırada.
 **ÖNERİM: Sümer'den aç, ve ilk dilim MÖ 539 → MS 226.** Sebebi: 765 yıl, kutunun
 en uzun kesintisiz boşluğu, ve sahipliği tek seferde **bir** imparatorluk
 (Ahameniş → Selevkos → Part) ⇒ 26 nokta için karar sayısı az, kazanılan yıl çok.

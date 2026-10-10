@@ -392,7 +392,12 @@ tam bunu ölçecek.
 
 Gece boyunca iki kutu ölçüldü ve **ters sonuç verdi:**
 ```
-SÜMER kutusu    → yoğunluk AÇILDI      26 nokta + 1 dolgu ⇒ p95 111,4 km
+SÜMER kutusu    → yoğunluk AÇILACAK    26 nokta + 1 dolgu ⇒ p95 111,4 km
+                  🔴 ÖLÇÜLDÜ 10 Ekim 04:3x: o 26 noktanın HİÇBİRİ `data/`da
+                  YOK, künyelerden yalnız `sasani` var ⇒ ölçüm ÖNERİ üzerinde.
+                  **Bir kapının "AÇIK" olması, ölçülen kümenin CANLI olmasına
+                  bağlıdır; ÖNERİLEN küme üzerinde ölçülen kapı AÇILACAK'tır.**
+                  İkisini aynı kelimeyle anmak, yapılmamış işi yapılmış gösterir.
 ANADOLU kutusu  → HİÇBİR KESİTTE AÇILMIYOR
                   MÖ 3000 620 · 2000 484 · 1500 484 · 1000 455 · 500 378 km
 ```
