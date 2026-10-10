@@ -175286,5 +175286,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5928",
+  "zaman": "2026-10-10 18:35",
+  "kimden": "KAMP-KUCUK-BIRIMLER",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAMP-KUCUK-BIRIMLER (K9) · dal makine/emrelic-kucuk-birimler eb068eea (main'e dokunulmadi, data/ dokunulmadi) YENI DOSYALAR: denetim/KAMP-KUCUK-BIRIMLER-POLITY.csv · denetim/KAMP-KUCUK-BIRIMLER-KRONOLOJI.csv · denetim/KAMP-KUCUK-BIRIMLER.md (git cat-file -e HEAD: 3/3) ① OLCTUM — TESPIT: 897 kunye bolge bolge okundu + 8 aile aday listesi eslestirildi (yanlis pozitifler elle ayiklandi: Baku→edo-bakufu, Avar→navarra, aiz≠Idrisi …) ⇒ 123 EKSIK aday (Kurt 14 · Anadolu 2 · Italya 17 · HRE kuzey 19 · HRE bati 18 · Balkan 11 · Kafkas 15 · Korfez 17 · Hint 10). KRONOLOJI: 8 paralel arastirma ⇒ 150 polity (27 ek aday dahil) · 545 kronoloji maddesi · f+t kaynakli 99/150 · harita_degisimi EVET 63 (Kurt 27 · Balkan 18 · Korfez 13 · Kafkas 5) · bulunamadi 161 hucre · TEREDDUT 36. Birlestirme denetimi (sema · tur · tarih bicimi · 897 kunyeye + aileler arasi id cakismasi · polity cozulmesi) 0 HATA. Iki duzeltme: lazar-sirbistani.t (atlas kunyesinden alinmisti) ve silezya-dukaliklari.t (turetilmis 1742) → bulunamadi. Kronoloji sistemi: proleptik Gregoryen hedef, hicri §4 sozlesmesiyle. ② BULAMADIM: Kurt emirliklerinin 16'sinin HICBIRININ kurulus yili kaynakta yok; bitis yalniz 6'sinda. Korfez 20'nin 11'inde kurulus yok. Taranmayan aileler ADIYLA (Afrika · GD Asya · Fransiz feodal · Iberya · Iskandinav · Rus) — 'eksik yok' degil 'olculmedi'. SEHIR.csv bu dilimde uretilmedi. ③ ISTIYORUM (md §3-4): 36 TEREDDUT siniflandirma hukmu (Baban ocaklik · Hansa ittifak · papa vikerlikleri · Danimarka kisisel birlikleri · Sih misilleri …) · 🔴 Julyen/Gregoryen: TDV Samil teslimi 6 Eylul vs 25 Agustos 1859 (12 gun) ⇒ Rus kaynakli gunler (Avar, Kaytak, Kazikumuk) +12 kaydirilsin mi · Weimarer Republik e.V. kurumsal mi (13 birimin 1918 gunu) · Vespri 30/31 Mart · kumuk-samhalligi kunyesi DAR (polity 1867'ye kadar, D205 sinif ②) · Cizre 1821-1847 ikinci aralik · kuayti Sibam/Sihr 1919 EVET adayi. Calisma dosyalari scratchpad'de kaldi (ORTAK-KURALLAR, aday.py, birlestir.py, parca/). · model: opus",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
