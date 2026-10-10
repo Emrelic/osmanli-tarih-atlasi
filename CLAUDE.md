@@ -724,6 +724,16 @@ tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.
 - **Denetim var ≠ o soruyu soruyor** — temiz rapor, sorulmayan soruda temiz değildir;
   ölçülemedi ≠ yok ≠ temiz; boş küme her öngörüyü doğrular.
+  🆕 🔴 **VE EN SİNSİSİ: ÇAĞIRANI OLMAYAN KAPI, KAPI DEĞİLDİR** (UMIT ölçtü,
+  10 Ekim 2026). Ölçüm: `_sahiplik_uygula`yı ÇAĞIRAN dosya bütün depoda **YOK**
+  — `denetle_yayin.py:1376`da yalnız METİN olarak taranıyor (`yer_yama` dizgisi
+  aranıyor), subprocess yok; öteki bütün geçişleri yorum. ⇒ O aracın çıkış kodu
+  **hiçbir kapı zincirinde okunmuyor**, yalnız elle koşturana görünüyor.
+  📌 Aradaki fark: üstteki satırda kapı KOŞAR ama soruyu sormaz; burada kapı
+  SORUYU SORAR ama HİÇ KOŞMAZ — ve dışarıdan ikisi de *"denetim mevcut"* diye
+  okunur. ⇒ Yeni bir kapı/tavan/istisna konulurken **ÜÇ soru**: ① soruyu soruyor
+  mu ② çıkış kodunu KİM okuyor ③ hiç çağrılıyor mu. Üçüncüsü sorulmazsa, sessiz
+  bir borcu 2'ye çevirip 2'yi kimseye göstermeyen bir çare yazılır.
 - **Bayatlayan belge/sayı** — sayı ölçümün fotoğrafıdır; kaynağını (log, alet) aç.
 - **Toplu düzeltme** — `replace(…, 1)` yalnız ilk eşleşmeyi değiştirir; Türkçe/kesme işaretli
   metinde `sed` kullanma; heredoc yerine `Write` + `py <yol>`.

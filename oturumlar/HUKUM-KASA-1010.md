@@ -410,3 +410,68 @@ TGN'de YOK 5 site: Pleiades'in **iki bağımsız konum kaydı** (OSM + CIGS)
 ≤1,1 km tutuyor ⇒ aynı kaynağın iki ayrı ölçümü, zayıf ama beyanlı tanık.
 🔴 Ve `Opis` ALINMADI: Pleiades ↔ TGN arası **92,7 km** ⇒ yeri belirsiz.
 **Bir noktayı yazmamak, yanlış yere yazmaktan iyidir.**
+
+---
+
+## §6.4 🔴 KAYDIN KENDİ `tur:`/`ad:` ALANI BİRİNCİ TANIKTIR — `§6.2`nin İÇ YÜZÜ
+
+`§6.2` bugüne kadar yalnız **dış** tanığa bakıyordu: *tanık hangi nesneyi
+gösteriyor?* LAB'ın Van ve Angkor ölçümleri eksik yüzü gösterdi — **kayıt da
+bir iddia taşır, ve o iddia dış tanıktan ÖNCE okunur.**
+
+> **Bir kaydın hangi nesneyi temsil ettiğinin BİRİNCİ tanığı, kaydın kendi
+> `tur:`/`ad:` alanıdır.**
+
+### TAŞIMA ↔ İKAME — ayırt edici tek soru
+```
+nesne pencere İÇİNDE değişiyor mu?
+   HAYIR → kayıt tek nesne iddia ediyor, koordinat YANLIŞ      ⇒ TAŞIMA
+   EVET  → kayıt doğru nesneyi gösteriyor, pencere İKİ nesne   ⇒ İKAME (§6.3)
+```
+
+**Aynı ölçüt, iki ters sonuç — ikisi de ölçüldü:**
+| | ölçüm | kaydın iddiası | hüküm |
+|---|---|---|---|
+| **VAN** | kale 4,60 km (Pleiades 964673805 + Ṭušpa 874771) | `tur:kale`, kale aynı kayada ⇒ baştan sona KALE | **TAŞIMA** |
+| **ANGKOR** | atlas noktası Angkor Wat'ın üstünde (0,06 km); 1281–1431 başkenti Angkor Thom 3,37 km (Pleiades 364279264 + TGN 7004075, aralarında 0,08) | kayıt 1431 SONRASI için Angkor Wat'ı **bilerek** seçmiş ⇒ post-1431 DOĞRU | **İKAME** |
+
+⚠️ **Van'ın 1920-23 TBMM dilimi bir itiraz DEĞİLDİR:** modern Van **ayrı bir
+nesnedir** ve gerekiyorsa ayrı nokta olur — o, bu kaydın sorunu değil YENİ
+NOKTA kalemidir. Doğru bir kaydı bölmek, onu iki yarım kayda çevirir.
+
+📌 **VE `§9.4`ÜN TUZAĞI KURALI YAZANA DÜŞTÜ:** Angkor öngörümü UNESCO'nun
+**dakika-yuvarlak alan noktasına** dayandırmıştım — yani tanığın çözünürlüğünü
+sorgulamayı emreden kuralı, kendi öngörümde uygulamadım. Öngörü çürüdü ve
+çürütme doğruydu. *Bir kuralı yazmak, onu uygulamaya yetmiyor.*
+
+### §6.4b YENİ SINIF — `KAPSAYAN-KAYIT` (koordinat ödünç alınmış)
+Üç vakada atlas noktası nesnenin kendisinden değil, **onu İÇEREN ada ya da
+ilçe kaydından** alınmıştı:
+```
+PANTELERYA  atlas = adanın temsil noktası (0,06) · kasaba/liman 5,8-5,9 km
+            iki tanık (Pleiades 462167 + TGN 1045872) · pencere TEK katmanlı ⇒ TAŞIMA
+AYAMAVRA    atlas = TGN/GeoNames ada merkezi (0,84, aynı enlem) ⇒ nesne seçimi gerekli
+ERCİŞ       atlas = TGN modern İLÇE kaydı (0,03) · eski Erciş için tanık YOK ⇒ ÖLÇÜLEMEDİ
+```
+⇒ Üç vaka bir **SINIF**tır, ve sınıf varsa tek tek değil **TARANIR**: kalan
+42 ADA noktası ≤1 km eşleşmeyle mekanik olarak süzülür (`LAB-KONUM-ADA-TARAMA-1010`).
+🔴 Ve tarama sırası `§6.4`ün sırasıdır: **önce kaydın kendi `tur:`/`ad:`
+alanı**, sonra koordinatın ödünç alınıp alınmadığı.
+
+### §6.4c TERS YÖN — `BALASAGUN`: konum hatası değil, TARİH YAZIMI ÇELİŞKİSİ
+```
+kaydın adı + TDV kaynağı  → Ak-Beşim ("Ak-Peşin harabelerinin bulunduğu yerde")
+koordinat                 → Burana (TGN 1,69 km) · Ak-Beşim 6,02 km
+TGN                       → Balasagun'u Burana ile ÖZDEŞLEŞTİRİYOR
+```
+**HÜKÜM: Ak-Beşim'e taşınır** (`§4`: TDV birincil, çelişirse TDV esas) **ve
+çelişki `not:` alanına YAZILIR** (`§4`: kaynak gizlenmez).
+❌ Adı *"Balasagun (Burana)"* yapmak **reddedildi:** o, çelişkiyi **ADA gömer**
+ve okunamaz kılar. ⇒ **Çelişki TAŞINMAZ, BEYAN EDİLİR.**
+
+### §6.4d EŞİĞİN DÜŞMEDİĞİ hâl — `ŞİRAZ` (ölçülmüş bir HAYIR)
+Ṯ 6,18 · GeoNames 5,54 km, birbirine 0,98. **Ama ikisi de şehir-ALANININ
+temsil noktası, ADLI NESNE değil** ⇒ `§6.1`in eşik indirimi İŞLEMEZ
+(indirim *"nesne kesin, adı verilmiş, uzun tasdikli"* için konuldu).
+📌 Bu bir *"bulamadım"* değil **ÖLÇÜLMÜŞ BİR HAYIR**dır — ve ikisini aynı
+kovaya atmak, yapılmış bir işi yapılmamış göstermekti.
