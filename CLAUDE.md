@@ -425,7 +425,20 @@ py arac/denetle_yayin.py  # yayın kapısı
 py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
 ```
 - 🔴 **KOŞU BAYRAKLARI ZORUNLU** (yoksa koşu çıkış 0 ile "biter" ama EKSİKTİR): `MOTOR_YURUYUS=1
-  MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=56 MOTOR_SUREC_ISCI=2`;
+  MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2`
+- 🔴 **ÇÖL KELEPÇESİ KALDIRILDI — `MOTOR_COL_UFUK_SAAT=0`** (Emre, 10 Ekim 2026:
+  *"sahrada artış olmuyor bir tavan mı koyduk burası için. tavanı kaldır, 5 7 veya
+  10 günde ne kadar gidiyorsa o kadar gitsin"*). Kelepçe çöl hücrelerine **banttan
+  BAĞIMSIZ sabit** bir eşik yazıyordu (`uret_petek.py:1934`
+  `_YR_ESIK[_kel_M] = _COL_UFUK_SAAT * NEHIR_KM_SAAT`) ⇒ 10 günlük bantta Sahra
+  7 günde kalıyordu; Orta Asya ise `FEATURECLA == "Desert"` olmadığı için
+  kelepçesiz büyüyordu — Emre'nin gördüğü fark TAM BUYDU. `0` yazmak kelepçeyi
+  tamamen kapatır (`_YR_KELEPCE = _COL_UFUK_SAAT > 0`) ve çöl de genel bütçeden
+  geçer. 🟢 **Kod değişikliği YOK ve bu yol SINAVLI:**
+  `denetim/ARAC-B-GORUNUM-KELEPCE-0072.py` YÖN 1'i zaten *"parametre verilmediğinde
+  tek küresel sayı, çıktı BİREBİR değişmesin"* diye garanti ediyor.
+  ⚠️ Kelepçenin bir yan kazancı vardı (`:2484` *"Sahra ve Rub'ul Hâlî'deki DOLGU
+  noktaları"*); yerine ne geldiği İLK KOŞUDA ÖLÇÜLÜR — **§3.4 ⑥.**;
   motor varsayılanları bunları kapatır, zincir koymaz. Koşucu bayrakları loga basar ve teyit
   eder — **beyan yetmez, motorun gördüğü kanıtlanır:** tuz hash'i değişir ("değişen: ORTAM") ·
   işçi düzeni KOŞU 21'le aynı · ilk aşama "▶ YÜRÜYÜŞ" değilse koşu DURDURULUR · bitince AŞAMA
