@@ -1,0 +1,164 @@
+diff --git a/arac/_yama_sinav.py b/arac/_yama_sinav.py
+index 26830a93..75d63353 100644
+--- a/arac/_yama_sinav.py
++++ b/arac/_yama_sinav.py
+@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
+ 
+ # --- veri: girdi.GIRDI_DOSYALARI uzerinden (tek otorite)
+ import girdi
++import gun  # KRONO-NEG-1010
+ try:
+     Y = girdi.yukle()
+ except Exception:
+@@ -25,11 +26,28 @@ for y in Y:
+ print("TABAN: %d nokta, %d benzersiz ad" % (len(Y), len(ADLAR)))
+ 
+ # --- kronoloji gunleri
++# 🔴 KRONO-NEG-1010: eski desen `\d{4}` negatif (MÖ) `t:`yi HİÇ okumuyordu. Desen
++#   yalnız ADAY bulur; gün olup olmadığına `gun.gun` karar verir (tek otorite).
++#   İki desen ESKİSİNİN BİREBİR bağlamıyla (yalnız yıl kısmı değişti).
++_T_GUN = (re.compile(r't:"([+-]?\d{1,6}-\d{2}-\d{2})"'),
++          re.compile(r'"t":\s*"([+-]?\d{1,6}-\d{2}-\d{2})"'))
++
++
++def _kron_gunleri(s):
++    out = set()
++    for g in [g for rx in _T_GUN for g in rx.findall(s)]:
++        try:
++            gun.gun(g)
++        except (TypeError, ValueError):
++            continue
++        out.add(g)
++    return out
++
++
+ gunler = set()
+ for f in glob.glob(os.path.join(KOK, "data", "olaylar*.js")):
+     s = io.open(f, encoding="utf-8", errors="replace").read()
+-    gunler |= set(re.findall(r't:"(\d{4}-\d{2}-\d{2})"', s))
+-    gunler |= set(re.findall(r'"t":\s*"(\d{4}-\d{2}-\d{2})"', s))
++    gunler |= _kron_gunleri(s)
+ print("KRONOLOJI: %d benzersiz gun" % len(gunler))
+ 
+ # --- yamalari node ile oku (kendi dilinde)
+diff --git a/arac/denetle_duygu.py b/arac/denetle_duygu.py
+index 4037b0b0..b2a50947 100644
+--- a/arac/denetle_duygu.py
++++ b/arac/denetle_duygu.py
+@@ -1,7 +1,9 @@
+ # -*- coding: utf-8 -*-
+ """TON DENETIMI — DUYGU-VE-SEKME-SARTNAME.md §A⑤③.
+ Kiyim maddesinde senlikli emoji var mi, ve emojisiz madde kaldi mi."""
+-import io, re, sys, glob
++import io, os, re, sys, glob
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++import gun  # noqa: E402  KRONO-NEG-1010: tarih tanıma tek otoritede
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ 
+ KIYIM = re.compile(r"kılıçtan geçir|katliam|kıyım|soykırım|tehcir|kıtlık|"
+@@ -9,9 +11,26 @@ KIYIM = re.compile(r"kılıçtan geçir|katliam|kıyım|soykırım|tehcir|kıtl
+ YASAK = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍"])
+ 
+ 
++# 🔴 KRONO-NEG-1010 — madde başı deseni NEGATİF (MÖ) `t:`yi de tanır.
++#   Eski desen `"\d{4}…"` idi: `t:"-0330-10-18"` taşıyan madde HİÇ okunmuyordu
++#   (sessiz: madde yok sanılır). Desen yalnız ADAY bulur; tarih olup olmadığına
++#   `arac/gun.py` (tek otorite) karar verir — geçersiz dizgi eskisi gibi madde değildir.
++MADDE_BAS = re.compile(r'\{\s*t:\s*"([+-]?\d{1,6}(?:-\d{2}){0,2})"')
++
++
++def _tarih_mi(s):
++    try:
++        gun.gun(s)
++        return True
++    except (TypeError, ValueError):
++        return False
++
++
+ def kayitlar(t):
+     out = []
+-    for m in re.finditer(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', t):
++    for m in MADDE_BAS.finditer(t):
++        if not _tarih_mi(m.group(1)):
++            continue
+         d, q, esc, son = 0, None, False, None
+         for j in range(m.start(), len(t)):
+             c = t[j]
+diff --git a/arac/denetle_kronoloji.py b/arac/denetle_kronoloji.py
+index 01eca68c..9861387a 100644
+--- a/arac/denetle_kronoloji.py
++++ b/arac/denetle_kronoloji.py
+@@ -45,7 +45,22 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ 
+ AYRINTI = "--ayrinti" in sys.argv
+ ZORUNLU = ("t", "b", "onem", "dunya", "kapsam", "kaynak")
+-GUN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
++# 🔴 KRONO-NEG-1010: eski `^\d{4}-…$` negatif (MÖ) `t:`yi "biçim ihlali" sayıyordu
++#   (yüksek sesle ama YANLIŞ). Biçim kuralı aynı: 4 haneli yıl + ay + gün, isteğe
++#   bağlı eksi; takvim geçerliliğine `arac/gun.py` karar verir.
++GUN = re.compile(r"^-?\d{4}-\d{2}-\d{2}$")
++
++
++def _gun_bicimi(t):
++    s = str(t or "")
++    if not GUN.match(s):
++        return False
++    import gun
++    try:
++        gun.gun(s)
++        return True
++    except (TypeError, ValueError):
++        return False
+ 
+ # ⑨ VİKİPEDİ TEK DAYANAK — `CLAUDE.md §4` KIRMIZI ÇİZGİSİ
+ # Emre'nin kuralı: *"Vikipedi HİÇBİR ZAMAN tek dayanak değildir. 'Hangi
+@@ -156,7 +171,7 @@ def main():
+                 if m.get(a) in (None, ""):
+                     eksik += 1
+                     break
+-            if not GUN.match(str(m.get("t") or "")):
++            if not _gun_bicimi(m.get("t")):
+                 bicim += 1
+             for a in ("onem", "dunya"):
+                 v = m.get(a)
+diff --git a/arac/uret_duygu.py b/arac/uret_duygu.py
+index 069dc278..7e739098 100644
+--- a/arac/uret_duygu.py
++++ b/arac/uret_duygu.py
+@@ -6,6 +6,8 @@
+    guler/kusar sinifi emoji KULLANILMAZ.
+ """
+ import io, os, re, sys, glob, collections
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++import gun  # noqa: E402  KRONO-NEG-1010: tarih tanıma tek otoritede
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ KOK = r"C:\atlas"
+ os.chdir(KOK)
+@@ -42,9 +44,26 @@ ACI = re.compile(
+ YASAK_KIYIM = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍"])
+ 
+ 
++# 🔴 KRONO-NEG-1010 — madde başı deseni NEGATİF (MÖ) `t:`yi de tanır.
++#   Eski desen `"\d{4}…"` idi: `t:"-0330-10-18"` taşıyan madde HİÇ okunmuyordu
++#   (sessiz: madde yok sanılır). Desen yalnız ADAY bulur; tarih olup olmadığına
++#   `arac/gun.py` (tek otorite) karar verir — geçersiz dizgi eskisi gibi madde değildir.
++MADDE_BAS = re.compile(r'\{\s*t:\s*"([+-]?\d{1,6}(?:-\d{2}){0,2})"')
++
++
++def _tarih_mi(s):
++    try:
++        gun.gun(s)
++        return True
++    except (TypeError, ValueError):
++        return False
++
++
+ def kayitlar(t):
+     out = []
+-    for m in re.finditer(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', t):
++    for m in MADDE_BAS.finditer(t):
++        if not _tarih_mi(m.group(1)):
++            continue
+         d, q, esc, son = 0, None, False, None
+         for j in range(m.start(), len(t)):
+             c = t[j]

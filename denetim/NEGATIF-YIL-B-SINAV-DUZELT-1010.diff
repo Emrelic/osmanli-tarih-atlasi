@@ -1,0 +1,75 @@
+diff --git a/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py b/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
+index 1c639cf5..e6ef03cb 100644
+--- a/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
++++ b/denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
+@@ -18,6 +18,14 @@ Kullanım: py denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py [KÖK]      Çıkış: 0
+ import ast, io, os, random, sys
+ from datetime import date
+ 
++# NEGATIF-YIL-B-SINAV-DUZELT-1010: stdout/stderr utf-8 — boruya/dosyaya yönlendirmede
++# cp1254 `UnicodeEncodeError` ile çöküyordu (ilk `print("\n③ …")`te). Koşulsuz
++# `reconfigure` YAZILMAZ: yakalanmış akışta (StringIO) AttributeError verir ve
++# çağıranın sayımını sessizce yutar (`DURUM-TABLOSU-SESSIZ-YUTMA-1009`).
++for _akis in (sys.stdout, sys.stderr):
++    if hasattr(_akis, "reconfigure"):
++        _akis.reconfigure(encoding="utf-8", errors="replace")
++
+ IZINLI = {   # (dosya, işlev) → gerekçe: veri tarihini NEGATİFTE okumayan YEDEK yol
+     ("arac/denetle.py", "_gun_farki"): "eski yol YEDEK (gün sayacı önce dener; gevşek biçim '1453-5' için)",
+     ("arac/denetle.py", "artir"): "eski yol YALNIZ pozitif yılda (negatif → gün sayacı)",
+@@ -159,7 +167,8 @@ sor("JSON + pickle gidiş-dönüş (önbellek/süreç)", json.dumps([Tarih("-299
+     and type(pickle.loads(pickle.dumps(Tarih("-2999-01-01")))) is Tarih
+     and pickle.loads(pickle.dumps(Tarih("-2999-01-01"))) < "-0001-01-01")
+ 
+-print("\n⓪ GERİYE UYUMLULUK — bugünkü verinin BÜTÜN tarihleri: Tarih sırası == sözlük sırası")
++print("\n⓪ GERİYE UYUMLULUK — verinin BÜTÜN tarihleri: Tarih sırası == GÜN sırası;"
++      " sözlük sırasıyla eşitlik YALNIZ negatif olmayan altkümede")
+ import girdi                                 # noqa: E402
+ Y = girdi.yukle(sessiz=True)
+ D = girdi.oku_devletler()
+@@ -176,14 +185,39 @@ for d in D:
+     tumu.update(k.get("t") for k in d.get("kronoloji") or [] if k.get("t"))
+ sarili = sum(isinstance(x, Tarih) for x in tumu)
+ sor("yükleyici bütün tarihleri SARDI", sarili == len(tumu), "%d/%d" % (sarili, len(tumu)))
+-duz = sorted(str(x) for x in tumu)
+-sor("sorted(Tarih) == sorted(düz dizgi) — %d ayrık tarih" % len(tumu),
+-    [str(x) for x in sorted(tumu)] == duz)
++# NEGATIF-YIL-B-SINAV-DUZELT-1010 — iki soru "veride negatif tarih YOK" varsayıyordu:
++#   `sorted(Tarih) == sorted(düz dizgi)` ve "200.000 çift: Tarih kıyası == sözlük kıyası".
++#   Veriye ilk MÖ tarih girdiği an (NOKTA/KÜNYE-SUMER — partinin AMACI) Tarih DOĞRU
++#   davranır ve dizgiden AYRILIR; sınav doğru davranışı kusur sayıyordu (65/67).
++#   Doğru ölçüt veriden bağımsızdır: ① Tarih sırası her zaman GÜN sırasıdır (eşit günde
++#   dizgi kırılımı — `class Tarih`in sözleşmesi) ② geriye uyumluluk (sözlük sırasıyla
++#   birebir) yalnız sözlüğün zaten DOĞRU olduğu altkümede sorulur: yılı negatif OLMAYAN
++#   tarihler. Negatif tarihin VARLIĞI kusur değildir; sayısı yalnız basılır.
++#   🔴 Ölçüt GEVŞEMEDİ: negatifsiz veride ② eski iki soruyla BİREBİR aynı soruyu sorar;
++#   negatifli veride ① sözlükten SIKIDIR (sözlük sırasını değil gün sırasını ister).
++def _gun_anahtari(x):
++    return (gun.gun(str(x)), str(x))
++
++
++NEG = {x for x in tumu if str(x).startswith("-")}
++POZ = tumu - NEG
++print("      veride negatif (MÖ) tarih: %d · negatif olmayan: %d" % (len(NEG), len(POZ)))
++_s_gun = [str(x) for x in sorted(tumu)] == [str(x) for x in sorted(tumu, key=_gun_anahtari)]
++_s_poz = [str(x) for x in sorted(POZ)] == sorted(str(x) for x in POZ)
++sor("sorted(Tarih) == GÜN sırası (%d ayrık, negatif %d) · negatif olmayanda == sorted(düz dizgi) (%d)"
++    % (len(tumu), len(NEG), len(POZ)), _s_gun and _s_poz, "gün %s · sözlük %s" % (_s_gun, _s_poz))
+ L = sorted(tumu, key=str)
++LP = sorted(POZ, key=str)
+ random.seed(42)
+-fark = sum((a < b) != (str(a) < str(b)) or (a <= b) != (str(a) <= str(b))
+-           for a, b in ((random.choice(L), random.choice(L)) for _ in range(200000)))
+-sor("200.000 rastgele çift: Tarih kıyası == sözlük kıyası (bugünkü veri)", fark == 0, "%d fark" % fark)
++fark = fark_p = 0
++for _ in range(200000):
++    a, b = random.choice(L), random.choice(L)
++    ga, gb = _gun_anahtari(a), _gun_anahtari(b)
++    fark += (a < b) != (ga < gb) or (a <= b) != (ga <= gb)
++    a, b = random.choice(LP), random.choice(LP)
++    fark_p += (a < b) != (str(a) < str(b)) or (a <= b) != (str(a) <= str(b))
++sor("200.000 rastgele çift: Tarih kıyası == GÜN kıyası (bütün veri) · == sözlük (negatif olmayan)",
++    fark == 0 and fark_p == 0, "gün %d fark · sözlük %d fark" % (fark, fark_p))
+ sor("UFUK/VERI_UFKU Tarih, değeri AYNI", isinstance(girdi.UFUK[0], Tarih)
+     and tuple(girdi.UFUK) == ("1000-01-01", "1945-09-02") and tuple(girdi.VERI_UFKU) == ("1281-01-01", "1923-10-29"))
+ 
