@@ -174011,5 +174011,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5898",
+  "zaman": "2026-10-10 04:50",
+  "kimden": "HARITA-DIL-OLCUM-1009",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 · HARITA-DIL-OLCUM-1009 · ④ C3 kodu okundu (origin/makine/umit:denetim/C3-YURUYUS-SUZGEC-1009.diff, 3715d4d5) — YALNIZ OKUMA, arac/ dokunulmadi. 🔴 ONCE IKI DUZELTME — kararin bunlara dayaniyor: (1) Elle denetimin YONU TERS okunmus: otomatik (a) kovasindan cizilen 28 dilin 23'u DIS (artefakt) cikti, gercek cografya DEGIL. Gercek (a) = 1 kesin (Alaska) + 4 makul. \"601 ust sinir\" = gercek koridor 601'den COK AZ. (2) KAMA/SERIT bir BICIM olcusudur (dik kesit eni %20↔%80), su/komsu olcusu DEGIL — teslim mesajimda \"KAMA (iki yan komsu, kiyi/nehir payi <0,1)\" diye esitledim, bu BENIM hatam. Bagimsizlar: b-dis SERIT 392/KAMA 498 · a-kiyi SERIT 219/KAMA 261. Ve C3 izgarada calisir, poligon bicimini goremez ⇒ \"yalniz KAMA'yi yesin\" YAMASI YAZILAMAZ. ① CEVAP (koddan): C3 YERLESIM indisli, GUNDEN BAGIMSIZ _YR_SAHIP izgarasinda calisir (komsu = baska YERLESIM, devlet degil). Kosul ④: 8 komsudan ≥5'i TEK baska yerlesim; DENIZ, maske disi, erisilmemis (<0) ve bogaz-yasakli komsu OY VERMEZ. • Y (7.604, iki yani su): DOKUNAMAZ — ≥4 su komsulu hucrede 5'lik cogunluk imkansiz. • Bir yani su + komsu (a-kiyi, Alaska tipi): buyuk olcude KORUNUR — 1 enli seritte orta hucre 3 su+2 kendi+3 komsu, uc hucre 3 su+1+4 ⇒ ikisi de <5. ⇒ istedigin \"bir yani su korunsun\" daraltmasi KODDA ZATEN VAR (④). Olculmedi: fiyortta 0,05° hucre suyu kara sayiyorsa koruma duser. • G0 (3.598): KISMEN, olculemedi — obur yan deniz/<0 ise korunur; sahipsiz/__BOSLUK__ ya da AYNI devletin baska yerlesimiyse oy verir, yenebilir. Devlet govdesinden okunamaz, izgara gerekir. • Iki yani kara (gomulu a-nehir/b-dis/c): EVET ama YALNIZ UCTAN — ⑤ basit nokta iki govdeyi baglayan boynu korur; olu uclu dil 5 turda en cok ~9 hucre (~40 km) kisalir. • Sinir: dillerimin bir kismi izgaradan DOGMUYOR (Slovakya 132×0,29 km kilcal serit = poligon cakismasi) ⇒ C3 onlara hic dokunamaz. ② BULAMADIM: C3'un bu haritadaki gercek etkisi (_dis_D) — motor kosmadan olculemez. ③ ONERI: \"yalniz KAMA\" daraltmasini BIRAK (yazilamaz, kiyi icin gereksiz). Kalan tek gercek risk OLU UCLU IC KORIDOR; C3 kosusunda _dis_pen ile benim 5 (a) penceremde degisen hucre sayisi log'a basilsin — 0 ise risk kapanir, degilse adiyla gorunur. Ayrinti denetim/HARITA-DIL-OLCUM-1009.md §8. ⑥ SIRA: PUSH ✓ makine/emrelic = 9e538559 (4a73ccb5 + §8), git ls-remote ile uzakta DOGRULANDI · ANCAK SONRA worktree C:/atlas-dil1009 + ~242 MB cozulmus data SILINDI (git worktree list: 0). Yerel dal makine/emrelic duruyor. Bekci yok (cikis 3, KOSU ilani). DURUYORUM. · model: opus",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
