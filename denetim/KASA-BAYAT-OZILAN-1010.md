@@ -133,3 +133,132 @@ ayıran tek şey VERİ okumak (şart ①'in birebir gerekçesi).
 - İki diff birlikte (temiz worktree, @ aa279db0): `git apply` ✓; `girdi` ek26 (14 kayıt) ve ek29 (42 kayıt) okunuyor; çıplak LF 0.
 - Tam `denetle.py` tabanla **satır satır AYNI** (yalnız not değişikliği + v1 Novi düzeltmesi).
 - `paketle.py yenile` gerekir (ek26 + ek29 paketleri).
+
+## 4. ⓒ kalemleri — ölçüm (koordinatör sırası: Sahalin → Temeşvar → Uyvar → Cizre)
+### 4.1 Kuzey Sahalin Japon işgali — 2i ölçümü: **(i)**, ama mevcut madde YANLIŞ GÜNLÜYDÜ ⇒ düzeltildi
+Okuyucu: `scratchpad/okuma_sahalin.md`. **KENDİM doğruladım (birebir):** FRUS 1921 II d656 · FRUS 1925 II d563
+(history.state.gov) · Родина 2025/8 (Kulagin raporu) · calendar.libsakh.ru/event/291.
+- **Kayıtların kendi "iki ucu günlü" iddiası (benim de tekrarladığım) YANLIŞ NEYİ tarihlediğini okumuyordu (§4 ⑧):**
+  - **1920-07-03 = DEKLARASYON günü:** FRUS 1921 II d656 *"Her position on this question is explained in the declaration
+    of the Japanese Government of July 3, 1920"*.
+  - **1925-05-15 = antlaşma SON GÜNÜ, ikinci elden:** FRUS 1925 II d563 *"The Sinclair Oil Company later claimed that
+    Japan had entered into a treaty with Russia whereby the Japanese troops were to be removed by the fifteenth of May,
+    1925"*. Okuyucu LNTS 34 No.866 Protokol A md.III'ü okudu: *"completely withdrawn from the said region by May 15, 1925"*.
+- **OLAY günleri:**
+  - **Başlangıç 1920-04-22:** Kulagin raporu 25.05.1920 (РГАСПИ Ф.71 Оп.35 Д.961 Л.4-6; *Родина* 2025/8): *«22 апреля с.г.
+    гор. Александровск на Сахалине занят высадившимся японским десантом около 2000 человек»*. Sahalin Bölge Kütüphanesi:
+    *«Оккупация Северного Сахалина Японией (1920) 22 апреля 1920 г.»*. Bölge hükmü: Shulatov, *Slavic Studies* 67 (2020)
+    s.69 「4月末に北サハリンを占領し…7月3日に…「保障占領」すると宣言した」 (okuyucu).
+  - **Bitiş 1925-05-14:** libsakh/291 *«14 мая 1925 года был спущен флаг над зданием штаба японского командования. …
+    подписание завершающего документа – Акта уполномоченных СССР и Японии о выводе оккупационных войск»*. Hara 1989 (Takeno
+    2013 aktarımı) tahliyenin tamamlanmasını 15.05.1925 verir ⇒ ⑥ 14 ↔ 15, beyan.
+- **Kapsam (ölçüldü — benim "4" sayım da EKSİKTİ):** Kuzey Sahalin'de (50°K üstü, 1905 sınırı) **6 KAYIT**:
+  - Aleksandrovsk (Kuzey Sahalin) — ek13; Rykovskoye · Onor · Poronay yukarısı (bölge) · Nabil kıyısı (bölge) · Kuzey
+    Sahalin (bölge) — a78_asya.
+  - Hiçbirinde `isg` yoktu.
+  - "(bölge)" kayıtları `tur:"bolge"` ama **YERLEŞİM katmanında** dolgu/bağlayıcı noktalar (`not:` "Dolgu/bağlayıcı
+    nokta"), BOLGELER katmanı değil ⇒ `isg:` aynı biçimle yazılır.
+- **Pencere:** taban dosyalar 1923-10-29'da bitiyor (UFUK DAMGASI) ⇒ `isg` **1920-04-22 → 1923-10-29** (Katar
+  `isg … → 1923-10-29` emsali).
+  - 1923-10-29 → 1925-05-14 kısmı **`yer_yama_1923_1945.js`**'te. Altı kaydın tamamının kopyası orada var, hepsi
+    `isg`'siz (ölçüldü). O dosya LAB'ın ⇒ **DEĞİŞİKLİK TALEBİ**: altı kayda `isg:[{f:"1920-04-22",
+    t:"1925-05-14", d:"meiji-japonya", kaynak: (aynı)}]`.
+- **2i ölçümü — A/B deneyi (benim tabanımda, @ 76aa191e):**
+  - **A (yalnız isg):** 2i 171 → **172** kırılma, açık **1 → 1** (tavan 1) ⇒ **(i)**. Tek yeni kırılma (altı kayıt aynı
+    gün); mevcut bir madde eşleşiyor.
+  - **B (isg + 2 yeni madde):** 2i aynı, AMA **mükerrer madde 95 → 96 ✗** ⇒ yeni madde MEVCUT BİR MADDENİN İKİZİ.
+  - Eşleşen madde: `kronoloji_sinir_asya.js:104` — `t:"1920-01-01"` (YIL), yer_id Aleksandrovsk, *"Japonya, …
+    Temmuz 1920'de işgal etti (gün kaynakta yok; …)"*.
+    - ⇒ Madde VARDI, ama ayı YANLIŞTI: "Temmuz" deklarasyonun ayı.
+    - 2i'yi geçiren şey, yanlış ayı taşıyan bir yıl-temsilî maddeydi. **Kapı geçiyordu, ama yanlış sebeple.**
+- **Diff — `KASA-SAHALIN-ISG-1010.diff`** (@ `main` 9805c002; 3 dosya, 12+/12−):
+  1. 6 kayda `isg:[{f:"1920-04-22", t:"1923-10-29", d:"meiji-japonya", kaynak}]`.
+     - Aleksandrovsk'un kaynağı şehir adlı (Kulagin).
+     - Diğer beşi "GÜN KOMŞUDAN (§4 şartlı): Aleksandrovsk" + Shulatov bölge hükmü.
+  2. Beş kaydın eski "⚠️ 1920-07-03 → 1925-05-15 … isg YAZILMADI/yazılmadı" ilanının YANINA "⇒ YAZILDI: …, 07-03
+     deklarasyon günü, 05-15 antlaşma son günü" (silinmedi).
+  3. `kronoloji_sinir_asya.js:104`:
+     - `t` 1920-01-01 → **1920-04-22**, `kesinlik:"gun"`;
+     - `d`'deki "Temmuz 1920'de işgal etti (gün kaynakta yok …)" → "22 Nisan 1920'de … çıkarmayla işgal etti; … 3 Temmuz
+       1920'de deklarasyonla resmîleştirdi";
+     - ESKİ metin + çürütmesi `ic_not_d`'de;
+     - `kaynak:`a Kulagin + libsakh eklendi.
+     - ⇒ Yeni madde YAZILMADI (B'nin mükerrer dersi).
+  - Sınav: aşağı.
+  - ⚠️ İlk derlemede genel bir çapa ("— isg yazılmadı") **3 Çin kaydına** (Mianning, Lijiang ve bir Pingnan kaydı)
+    Sahalin notunu yapıştırdı; `git diff` okunarak yakalandı, çapa FRUS cümlesine daraltıldı, yeniden derlendi. Son
+    diff'te not yalnız 5 Sahalin kaydında.
+- **Sınav (@ `main` 9805c002, tabanı da ayrı worktree'de koşturuldu — DELTA, koordinatör kuralı):**
+  - `git apply` ✓ · `girdi` 6 kayıtta `isg 1920-04-22 → 1923-10-29 meiji-japonya` okuyor · çıplak LF 0 (üç dosyada taban da 0).
+  - Tam `denetle.py` DELTA: **2i 171 → 172 kırılma (+1), açık 1 → 1 (tavan 1, SABİT)** · `isg:` dönemi 372 → 378 (+6) · mükerrer madde DEĞİŞMEDİ (B'deki 95→96 yok) · başka satır yok.
+  - Mutlak: kendi tabanımda; çıkış kodu taban ile aynı (2, Değişmez 8 ÖLÇÜLEMEDİ).
+  - `paketle.py yenile` gerekir (a78_asya · ek13 · kronoloji_sinir_asya paketleri).
+  - ⇒ (i)+düzeltme: diff TEK BAŞINA İNEBİLİR, tavan oynamıyor.
+
+### 4.2 Temeşvar 1551-52 — tanık OKUNDU, iki uç ölçüldü (yazan: koordinatör, `yerlesimler.js`)
+Okuyucu: `scratchpad/okuma_temesvar.md`. **KENDİM doğruladım (birebir):** Bánlaky, *A magyar nemzet hadtörténelme*
+(MEK 09477) 0013/988 · 0013/991 · 0013/1003 + Kenyeres István, *Fons* IV (1997) no.2 (REAL-J PDF).
+- **"B 0013" = Bánlaky, bölüm 0013.** Lugos'un alıntısı DOĞRU — 988: *"Temesvár, Lippa, Solymos, Karánsebes, Lugos,
+  Becse, Becskerek, Csanád … átvételére Martinuzzi Castaldo beleegyezésével július 16-ika körül Báthory Endrét küldte
+  ki"* (16 Temmuz civarında Báthory'yi teslim almaya GÖNDERDİ — gönderme günü, devralma değil).
+- **Devralma ⇒ Temmuz 1551 sonu (AY):**
+  - Kenyeres 1997: *"Temesvárt Báthori András 1551. július végén vette át"* · *"1551 nyarán Báthori András Petrovicstól
+    vette át Temesvárt … Ferdinánd király számára"*.
+  - Üst sınır Bánlaky 991: 3 Ağustos'ta Sokollu Szalánkemén'e vardığında *"Petrovics Temesvárt és a többi alvidéki
+    végvárakat is átadta Ferdinánd biztosának, Báthory Endrének"*.
+- **Düşüş ⇒ 1552-07-26 / 27 ⑥:**
+  - Bánlaky 1003: *"Ő maga július 26.-án este a várból az őrséggel a városba vonult … az elvonulást július 27.-én
+    reggelre tűzte ki"* (26 akşamı kale boşaltıldı, Türkler kaleyi tuttu; 27 sabahı çıkış).
+  - TDV timisvar (okuyucu, özetli): *"4 Şâban 959'da (26 Temmuz 1552) kale garnizonu teslim oldu"*.
+  - Veri **1552-07-27**. 26 = kalenin el değiştirmesi; 27 = tahliye. İkisi de savunulur, hüküm senin.
+- **Süreklilik:** 1551 sonbaharı kuşatması (Bánlaky 990/992), Losonczy'nin Ocak 1552 ayrılışında Aldana tuttu, kalıcı
+  atama 30 Mart 1552 (Kenyeres) ⇒ devralmadan düşüşe Ferdinand garnizonu.
+- **🔴 İKİ UÇ ÖLÇÜMÜ (§3.5 ters yön) — sorun yalnız 1551 değil:**
+  - Temeşvar `s: macaristan 1281-01-01 → 1552-07-27` ama **`macaristan` künyesi `t:1526-08-29`** ⇒ dilim künyeyi
+    **26 yıl AŞIYOR**. 1526-1551 Szapolyai/Petrovics dönemi `macaristan` (bağımsız krallık) boyasıyla gösteriliyor.
+  - Komşu **Lugos** aynı dönemi ZATEN kaynaklı zincirle taşıyor:
+    - `v 1526-08-29 → 1541-08-29` "Macaristan (Zapolya vasal krallığı)" — TDV macaristan + TDV timisvar *"Timiş bölgesi
+      Szapolyai yanlısı Petrovics'in elinde"*;
+    - `v erdel 1541-08-29 → 1551-07-01`;
+    - `s avusturya 1551-07-01 → 1552-08-06`.
+  - ⇒ **Öneri (Lugos emsali, yazan sen):**
+    ```
+    s macaristan           1281-01-01 → 1526-08-29   (künye sonu; Lugos ile aynı)
+    v (Zapolya vasal)      1526-08-29 → 1541-08-29   (Lugos v[0] dayanağı: TDV timisvar Petrovics — BÖLGE hükmü, beyan)
+    v erdel                1541-08-29 → 1551-07-01   (Lugos v[1]; TDV timisvar haraçgüzâr Erdel)
+    s avusturya            1551-07-01 → 1552-07-26|27  kesinlik:{f:"ay"}  (Kenyeres 'július végén' · Bánlaky 991 üst sınır)
+    d                      1552-07-26|27 →  (mevcut)
+    ```
+  - Bu, Lugos'un `enklav:true` adasını KAPATIR (Lugos avusturya dilimi komşusuz kalmaz).
+  - ⚠️ `avusturya` künyesi 1282 → 1918-11-11 (pencere ✓). Kimlik ve boya için Lugos'un aynı dilimi emsal.
+  - ⚠️ Açık uç: `f:1551-07-01` (AY) ↔ "július végén". Ay başına çekmek Lugos emsali ve VERI-YAPISI ay kuralı; gün
+    uydurulmadı.
+- **Ters yön riski (ölçüldü):** 988 listesindeki Lippa · Solymos · Karánsebes · Becse · Becskerek · Csanád — `girdi` taramasında atlasta HİÇBİRİ YOK (Lipova/Bečej/Zrenjanin/Cenad/Caransebeş adlarıyla da) ⇒ 1551 boşluğu yalnız Temeşvar'da; öneri tek kayıt.
+- Değişmez 2 / 2s etkisi: ölçülmedi (diff yazılmadı — dosya senin). Yazınca 1526-08-29 / 1541-08-29 / 1551-07-01 uçları
+  Lugos'ta zaten maddeli kırılmalar ⇒ yeni açık beklenmez, ama koşmadan söylemiyorum.
+
+### 4.3 Uyvar `kur:` — tanık BU NOKTANIN mı, ÖNCÜLÜN mü? (ölç; hüküm koordinatörün)
+Okuyucu: `scratchpad/okuma_uyvar.md`. **KENDİM doğruladım:** TDV (curl, birebir) + e-obce.sk ve Hunektár (WebFetch,
+alıntı istendi).
+- **TDV "UYVAR" (V. Kopčan):** *"Slovakça Nové Zámky, Almanca Neuhäusel, Latince Castelnuovo ve Türkçe'de Uyvar adıyla
+  bilinen şehrin çekirdeğini 1545'te … Estergon başpiskoposu tarafından inşa ettirilen ve Macarca Érsek Ujvár denilen
+  küçük bir kale (palanka) oluşturur."* ⇒ 1545 tanığı BU şehrin çekirdeği (Feyzâbâd'ın tersi: tanık başka yerin
+  değil).
+- **e-obce.sk (Nové Zámky, história):** *"Mesto Nové Zámky vzniklo z protitureckej pevnosti, ktorú postavili r. 1573-81 v
+  chotári obce Lék v susedstve nevyhovujúceho protitureckého hradu z r. 1545"* (şehir, 1545 kalesinin yanında Lék
+  köyünün arazisine 1573-81'de yapılan kaleden doğdu) · *"Nové Zámky dostali pozemky zničených obcí Lék, Gúg, Nyárhíd,
+  Ďorok"* (yıkılan köylerin arazileri sonradan şehre verildi).
+- **Hunektár:** *"The first castle was built around 1545 on the banks of the Nyitra River on the Lék estate of the
+  Archbishop of Esztergom."*
+- **ÖNCÜL:** **Lék** köyü. 1545 kalesi onun arazisinde; köy kaleyle YAN YANA ayrı yerleşim olarak sürdü (slovensko.sk:
+  Lék ve Nyárhíd 1663'te yıkıldı — okuyucu). Lék'in ilk anılışı 1317 yalnız Vikipedi'den (İPUCU, tanık değil). Nyárhíd
+  1183 (slovensko.sk, okuyucu) ama ~3 km kuzeyde.
+- Kaynak çelişkisi (beyan): Magyar Katolikus Lexikon Várdai *"kezdte építtetni 1543"* (inşaya 1543'te başladı) ↔
+  TDV/Hunektár 1545.
+- **Sonuç (ölçüm, hüküm değil):** `kur:"1545-01-01"` + `kesinlik:"yil"` adayının tanığı BU noktaya ait (TDV şehir
+  adıyla). 1281-1545 `macaristan` dilimi bu noktanın değil, komşu/öncül köylerin (Lék, ayrı yerleşim) dönemi ⇒
+  Feyzâbâd (a) ile AYNI sonuç yönü (kısalt), ama gerekçe farklı: orada tanık başka yerindi, burada tanık bu yerin ve
+  ÖNCESİNDE bu nokta YOKTU. ⚠️ 1543 ↔ 1545 ⑥.
+
+### 4.4 Cizre künyesi — koordinatörün (devletler.js). Kaynak kümesi isteği alındı; bu turda ÇALIŞILMADI.
+### 4.5 Süzgeç dersi (koordinatör, kalıcı): ⓒ'yi YALNIZ C süzgeci üretti (6/6); B1 ⓒ için KÖR (0/6). ⓑ arıyorsan ikisi, ⓒ arıyorsan yalnız C.
