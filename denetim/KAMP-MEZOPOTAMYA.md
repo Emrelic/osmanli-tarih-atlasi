@@ -493,8 +493,8 @@ Okuyucunun 68 EVET KAYIT'ı bölündü:
 - **🔴 BEYAN EDİLMİŞ BORÇ (koordinatör hükmü):**
   - İlke "Babil TEK künye, hanedan başına değil" der. Tablo Babil'i hanedan başına böler: babil-i, kassit-babil, isin-ii, deniz-ulkesi-ii, babil-ara, yeni-babil.
   - `babil-ara` o düzene uyarak açıldı. Birleştirme haritayı değiştirir ⇒ ayrı, ölçülmüş iniş ve Emre'nin modelleme kararı.
-  - Birleştirmenin en güçlü delili olacak cümle: Babil Kral Listesi A Babil'i TEK krallık olarak sayar ve hanedanları (BALA) onun İÇİNDE sıralar.
-  - ⚠️ Bu cümle koordinatörün ifadesi; KASA Kral Listesi A'yı bu turda AÇMADI ⇒ birleştirme turunda ÖNCE o metin açılmalı.
+  - ~~Birleştirmenin en güçlü delili olacak cümle: Babil Kral Listesi A Babil'i TEK krallık olarak sayar ve hanedanları (BALA) onun İÇİNDE sıralar.~~
+  - 🔴 **GERİ ÇEKİLDİ (koordinatör, aynı gece):** koordinatörün BEYANI, ÖLÇÜLMEDİ — metin açılmadan yazılmıştı ("atlas referans değildir" · "yorum ≠ kontrol"). Silinmedi, çürütme yanında. Birleştirme turunda Kral Listesi A AÇILACAK; açılana kadar bu delil YOKTUR.
 
 ### ② Laqe: Kabile Konfederasyonu, BOYANIR
 - `lake` tur → **"Kabile Konfederasyonu"**. ic_not AYNEN: *"The 'land of L.' was never under one ruler, and was at best a loose confederation of Aramaean sheikhs"*.
@@ -529,3 +529,36 @@ Okuyucunun 68 EVET KAYIT'ı bölündü:
 ### 25 ÖLÇÜLEMEDİ AKIN — **ŞARTLI AÇIK**
 - Yeniden sorma ŞARTI (koordinatör): şehir listesi YENİ BİR BÖLGEYE açıldığında (Zagros dağlık kuşağı, İran platosu, Yukarı Dicle). Sayı arttığında DEĞİL.
 - Sebep: o 25 yer teşhis edilmemiş küçük yerleşimler (Simurrum, Karahar, Harši, Kimaš, Hurti, Lullubum…). Aynı bölgede liste büyütmek onları getirmez.
+
+## 17. Koordinatör hükümleri (§16 sonrası): geri çekme · çifte hükümdarlık kolonu · konfederasyon ayırt edicisi
+### ① Kral Listesi A cümlesi GERİ ÇEKİLDİ
+- §16'daki cümle üstü çizili bırakıldı (silinmedi). Yanına "koordinatörün BEYANI, ÖLÇÜLMEDİ — GERİ ÇEKİLDİ" yazıldı.
+- Birleştirme turunda metin açılana kadar bu delil YOKTUR.
+
+### ④ ÇİFTE HÜKÜMDARLIK ≠ TÂBİLİK — kolon ayrımı
+- SUZEREN.csv'ye **`v_tipi`** kolonu eklendi:
+
+| v_tipi | DİLİM |
+|---|---|
+| `v:asur-cifte` | 5 (Tiglat-pileser III, Šalmaneser V, Sargon II, Sanherib 704, Esarhaddon) = 25 YIL |
+| `v:asur-tabi` | 4 (Bel-ibni, Aššur-nadin-šumi, Šamaš-šuma-ukin sadık evresi, Kandalanu) = 46 YIL |
+| `v:elam-tabi` | 1 (Nergal-ušezib) |
+| `tabi` (öteki polity'ler) | 10 |
+
+- `v:asur-cifte` satırlarının notunun başına AYNEN yazıldı: *"ÇİFTE HÜKÜMDARLIK — tâbilik DEĞİL; Asur kralı Babil krallığını kendisi üstlendi. Atlasın şemasında kişisel birlik kavramı YOK, v: en yakın yaklaşıklık olarak kullanıldı. BEYAN."*
+- `-cifte` ile `-tabi` BİRLEŞTİRİLMEDİ. Birleşirse ayrım bir daha kurulamaz.
+- **Emre'ye giden şema kalemi (4.):** "kişisel birlik / çifte hükümdarlık". Babil 732–626'nın 107 YIL'ının 25'i (≈%23).
+- Kontrol: 46 + 25 + 26 + 9 + 1 = **107 ✓**.
+
+### ② Konfederasyon ayırt edicisi (koordinatör adlandırdı)
+**Bir konfederasyonun boyanmaması iki sebepten olur:**
+- üyeleri ayrı boyalı olduğu için → KARAR. `alman-konfederasyonu`: Deutscher Bund egemen devletler birliğiydi, üyeleri ayrı boyalı ⇒ çatıyı boyamak ÇİFTE BOYA olurdu.
+- atlandığı için → EKSİK. `ranquel`: üyelerinin ayrı künyesi YOK, onu açıklayan bir mekanizma yok.
+
+**ÖLÇÜT: ÜYELERİNİN KÜNYESİ VAR MI?** İstisnanın gerekçesi yoksa istisna değil BORÇTUR ("ölü istisna" sorusunun konfederasyon hâli).
+
+⇒ Atlasta iki ayrı cevap YOK: 19 boya + 1 gerekçeli istisna + 1 atlama.
+- **BİLDİRİM:** `ranquel` (Ranquel Konfederasyonu) EKSİK. `renkler.py` koordinatörde, kalemi koordinatör aldı. KASA DOKUNMADI.
+
+### 📌 Yöntem (koordinatör adlandırdı): bir ilişkinin DÜZENLİ olup olmadığı, o ilişkiyi İNKÂR EDEN SONRAKİ bir kaynaktan okunabilir
+- 882 metni ("atalarım zamanında Suhu valisi gelmemişti") 885 haracını ⓐ'ya düşürdü. Sonraki tanık, önceki olayı tipledi.
