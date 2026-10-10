@@ -699,3 +699,83 @@ KASA, Eridu · İsin · Dēr · Nina için sahiplik tanığı bulamayınca
 bulamamanın sebebi kaynak yokluğu olmayabilir — **sahip olmamaları** olabilir.
 ⇒ `t:` yazılabilen nokta için **sahiplik borcu DÜŞER**; yalnız `t:`i de
 ölçülemeyen nokta `__BOSLUK__` (K) hak eder.
+
+---
+
+## §9.8 🔴 KAYNAK ÖLÇÜMÜNÜN BEŞ KURALI — *"kaynak var"* yetmez
+
+Gece boyunca *"kaynaksız = riskli"* varsayımıyla çalıştık ve o varsayım
+**yanlışlandı** (uzun dilimde kaynaklı/kaynaksız ayırt etmiyor). Yerine gelen
+beş kural, hepsi ölçümle:
+
+### ① KAPSAMA, DOLULUKTAN AYIRT EDİCİ — ve mekanizması ölçüldü
+```
+G (gövdesi tanıksız dilim)  %62 yanlış (13/21)
+K (gövdeli kontrol)         %33 yanlış ( 3/9)
+1.225 kaynaklı dilimin yalnız 221'i (%18) GÖVDELİ · L≥200 yılda %7,3
+🔴 MEKANİZMA: G'nin 13 yanlışının **0'ı** kaynağın TARİHLEDİĞİ uçta —
+   hepsi GÖVDEDE ya da TARİHSİZ uçta
+```
+⇒ **`kaynak:` alanının DOLU olması bir UCU belgeler, GÖVDEYİ belgelemez.**
+Risk göstergesi *"kaynaksız"* değil **"gövdesi tanıksız UZUN dilim".**
+
+### ② `_kaynak_dolu` ≠ `_kaynak_tanikli` — İKİ SORU, İKİ YÜKLEM
+```
+`_kaynak_dolu`    "BEYAN BORCU ödendi mi?"  → `bulunamadı` ÖDER   (`§4`)
+`_kaynak_tanikli` "TANIK var mı?"           → `bulunamadı` ÖDEMEZ
+```
+> **"Kaynak alanı dolu" ile "tanık var" AYRI SORULARDIR; `bulunamadı`
+> birincisini ÖDER, ikincisini ÖDEMEZ.**
+⇒ Kaynak TAVANI `_kaynak_dolu` kullanmaya devam eder (beyan borcunu ölçüyor;
+değiştirmek borcu geriye dönük açardı). Gövde ölçümleri ve `DIKIS-KAPI`
+`_kaynak_tanikli` kullanır. ⚠️ Mevcut yüklemi tek taraflı çevirmek, onun
+BÜTÜN tüketicilerini sessizce değiştirir.
+
+### ③ YAYIN YILI, KAPSAMA ÖLÇÜMÜNE GİRMEZ (C2)
+Ölçülen vaka: kilitli ölçüt kaynak metnindeki **bütün** sayıları yıl saydı ⇒
+`Vicens Vives (1952) … Merriman (1918)` yüzünden kapsama **0,99** çıktı ve
+**bilinen yanlışlar (Tortosa · Zaragoza) KONTROL kovasına düştü** — sonuç
+tersine çıkacaktı.
+⇒ **Önünde hicrî yıl OLMAYAN parantezli yıl atılır** (TDV `649'da (1251)`
+korunur).
+🔴 **VE BİR USUL KURALI:** *kilitli bir ölçüt KUSURLU çıkarsa, kilit onu
+KORUMAZ* — ama değişiklik **ADIYLA beyan edilir** ve **İKİ SAYI yan yana
+durur.** (Ölçen oturum C2'yi ölçümden SONRA ama **okumadan ÖNCE** uyguladı ve
+iki ölçütün bütün sayılarını bastı.)
+
+### ④ ÇOK CİLTLİ ESER **BİR** KAYNAKTIR
+`§4`ün bayrak kuralı *"iki AYRI KAYNAĞIN uçları birleştirilmez"* der; **aynı
+yazarın aynı eserinin farklı ciltleri BİR kaynaktır** — bölünmüş bir otorite
+değil. (Vaka: Oman'ın ciltleri; Toledo · León · Oviedo · Córdoba · Jaén'in iki
+ucu ayrı ciltlerde.)
+⚠️ Şart: her iki uç da **şehir adlı ve tarihli** olmalı, ve cilt/sayfa
+`kaynak:`a ADIYLA yazılır.
+
+### ⑤ 🔴 YENİ SINIF: **KAYNAK DOĞRU, VERİ KAYNAĞI İZLEMİYOR**
+```
+MALTA: veri `napoli 1282-1530`
+       ama kaydın KENDİ kaynak notu TDV'yi aktarıyor:
+       "1284'te … Aragonlular'ın, 1410'da Kastilyalılar'ın"
+```
+⇒ Doğru cevap **kaydın İÇİNDE** duruyor ve veri onu okumamış. **Bu,
+kaynaksızlıktan DAHA KÖTÜDÜR:** kaynaksızlık bir boşluktur, bu bir
+**çelişkidir** — ve kanıt zaten elimizde olduğu için taraması **bedava.**
+📌 `K` kovasındaki hataların türü bu; `G`dekiler *"gövdeyi KİMSE
+belgelemiyor"*. İki ayrı kusur, iki ayrı çare: biri ARAŞTIRMA, öteki
+**OKUMA** ister.
+
+---
+
+## §9.9 ÜÇ KEZ AYNI ŞART, ÜÇ HATA — `§4`in kapsam cümlesi
+> *"İslâm dünyası, Osmanlı ve komşuları: TDV birincil"* ⇒ **DIŞINDA TDV
+> BİRİNCİL DEĞİL**, ve bu şart bir gecede ÜÇ hata yakaladı:
+```
+TESALYA  TDV Sırp beyliğini 1393'e uzatıyor · Nicol (Cambridge 1984) ~1372
+         ⇒ 21 YIL fazla
+BEREZOV  `rusya f` 1592 · ЭСБЕ «основан в 1593 году» ⇒ 1 yıl
+         (TDV'nin "1592'de inşasına başladılar"ı ÇELİŞMİYOR: başlangıç ≠ kuruluş)
+SURGUT   kayıt notu BRE «Заложен летом 1594»'ü *"TDV esastır"* diye
+         UYGULAMAMIŞ ⇒ yeniden açılıyor
+```
+⇒ *"TDV esastır"* bir **kapsam içi** kuraldır; kapsam dışında onu uygulamak
+**kuralı değil, kuralın adını** uygulamaktır.
