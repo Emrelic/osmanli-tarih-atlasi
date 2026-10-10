@@ -127,3 +127,28 @@ Toplam yazılabilir isg 1 ± 1                   0 — alt sınırda
 2. Ji'an 1856-58 diliminin iki ucu bildirim günü; kampanya tarihi olay gününü veriyor (38 ve 23 gün kayma).
 
 İkisi de uçsuz işgal aranırken, **aranan dilimin KOMŞUSUNDA** çıktı.
+
+## 3. Hüküm (a) uygulaması — `KASA-FEYZABAD-KUR-1010.diff`
+Koordinatör hükmü: *"(a) — kur: 1680, 1479-1680 DİLİMLERİ DÜŞER"*.
+- **Değişiklikler** (`yerlesimler_a78_asya.js`, 1 kayıt, 4+/5−):
+  - `kur:"1680-01-01"`.
+  - `s:` = `__BOSLUK__ 1680 → 1859` (`kesinlik:"yil"`, Iranica 1091/1680 cümlesi) + `afganistan 1859 →` (aynen).
+- **Kayıt alanı sınırı (ölçüldü):** koordinatörün istediği `ic_not` kayıt düzeyinde bilinen bir alan DEĞİL.
+  - `girdi.BILINEN_ALANLAR`: kaynak, ad, lat, lon, tur, g, k, m, s, d, v, kur, bit, go, isg, kasitli_bosluk, bos,
+    neden, devir_beyani.
+  - Kayıt düzeyinde `kesinlik` de yok (veride 2 kullanım var, ikisi de "bilinmeyen alan").
+  - ⇒ Hüküm metni + ESKİ kur dayanağı + çürütmesi + düşen dilimlerin dayanakları **`neden:`e** yazıldı.
+  - "YIL hassasiyeti" metin olarak `neden:`de; `kur` için alan YOK — şema kalemi.
+- **`not:`** Eski öz-ilan silinmedi. Yanına eklendi:
+  - "⇒ ÖLÇÜLDÜ: Bâbürlü 1645-47 şehrin kuruluşundan ÖNCE — bu noktaya ait değil".
+  - "Dürrânî 1768 İLHAK DEĞİL METBÛLUK (Courant, Lee) ⇒ `__BOSLUK__` AYNEN; yabancı metbû `v:` ile çizilemez (şema),
+    burada beyan".
+- **Sınav:**
+  - temiz worktree'de `git apply` ✓; `girdi` `kur 1680-01-01`, iki dilim okuyor; satır sonu CRLF, çıplak LF 0.
+  - Tam `denetle.py` tabanla karşılaştırıldı; **yalnız AZALIŞ**:
+    - Değişmez 2s YABANCI kırılma 1738 → 1735 · KAPSAM DIŞI 792 → 790 · YIL-TEMSİLÎ BORÇ 174 → 173.
+    - Değişmez 7 sorgusuz enklav 739 → 738 (aşım 8 → 7; düşen `buhara 1584-1657` adası) · A-koridor 542 → 541.
+    - Hiçbir sayı artmadı, yeni ihlal yok.
+  - `paketle.py sina` ✗ `paket_24.js` ⇒ uygulayan `py arac/paketle.py yenile`.
+- **Komşu petek (koordinatör şartı):** nokta 1680'den önce sahnede değil ⇒ Değişmez 1 anlamında delik yok.
+  1479-1680 peteği `MOTOR-GECISLI` kapsam listesine koordinatör tarafından yazdırılacak (benim işim değil).
