@@ -233,3 +233,119 @@ Ek kalemler:
   - her kolun sınıfı: ⓐ · ⓐ1 · ⓐ2 · ⓐ4 · ⓐ3-kuralsız · ⓑ · ⓒ · ⓓ · ⓔ (PAYDA-DIŞI işaretli)
   - HEPSİ sınıfı + KUSUR/TAŞIMA + eşleşen kayıt / tanık / aile / r
 - **Scriptler** (`scratchpad\ayniad2\`): `anahtar.py` (ⓒ/ⓓ anahtarları) · `gn2.py` (döküm taraması) · `pl2.py` · `tgn_ek.py` · `sinif2.py` (tüm kollar tek koşu) · `rapor2.py` · `kor15.py`.
+
+---
+
+## §EK — 10 Ekim koordinatör kararları
+
+> **Yalnız ekleme.** §0–§7 ve oradaki ölçülmüş sayılar değiştirilmedi. `data/`a yazılmadı, commit/push yok.
+> **Taban:** tarama tabanı aynen `0a3966260`. Egina kaydı ve petek hesabı için `origin/main` @ **`d50ddbedd`** kullanıldı (ayrık worktree `C:\atlas-etki`, iş sonunda kaldırıldı). Etki kümesindeki 214 noktanın **214**'ü `d50ddbedd`'de tarama tabanıyla aynı koordinatta (CSV `main_koordinat_farkli` boş).
+> **Yeni dosya:** `denetim/LAB-AYNI-AD-TARAMA-v2-1010-etki.csv` (214 satır = 8 KUSUR-KESİN + 206 ADAY).
+
+### EK① Kimolos → ADAY
+- Koordinatör kararı: 4 metrede dönen bir sınıf KESİN değildir. Bu, §6.1'in ruhunun ölçüm kırılganlığına uygulanmasıdır.
+- **Kimolos (Argentiera): kırılgan: 4 m.** Otel 0,323 km, PL ada kaydı 0,327 km (§3.1 uyarısı, §6.4 önerisi).
+- **Güncel HEPSİ sayımı (payda 3988):** YANLIŞ 231 = **KUSUR-KESİN 8** (TAŞIMA-HAZIR 6 / TAŞIMA-PARK 2) / **ADAY 206** / ÖLÇ. 17.
+- TAŞIMA-HAZIR 6: Ulubat · Egina · Zaklise · Sanirajak · Uqsuqtuuq · Tshane. Egina'nın çaresi EK②'de İKAME'ye dönüyor; sınıfı değişmiyor.
+
+### EK② Egina (Aegina) — iki bulgu, TEK hüküm
+
+**Kaydın kendisi** (`d50ddbedd`, `data/yerlesimler.js:1668`):
+- `tur:"kale"`, `ad:"Egina (Aegina)"`: ada adı, ayrı bir kale adı yok. Koordinat 37.736, 23.493.
+- `s:` 1281-01-01→1537-10-01 venedik · 1821-03-25→1923-10-29 yunanistan.
+- `d:` 1537-10-01→1821-03-25 (Osmanlı).
+- Pencere kesintisiz **1281–1923**.
+
+**İki bulgu:**
+
+| tarama | sınıf | eşleşen kapsayan kayıt | doğru nesne | km |
+|---|---|---|---|---|
+| ADA-TARAMA-1010 | KAPSAYAN-KAYIT · ADAY · çare İKAME | PL 579844 *Aegina (island)* 0,36 · TGN 7011088 ada 0,51 · GN 8133696 *Dimos Aegina* ADM3 0,99 | **Palaiochora** PL 884693053 · Egina kasabası GN 265502 / TGN 7011087 / PL 579853 (antik) | **1,68 / 5,88** |
+| bu rapor (v2, HEPSİ) | KUSUR-KESİN · TAŞIMA-HAZIR · yanlış cins = ada | PL 579844 *Aegina (island)* 0,36 | Egina kasabası GN 265502 5,88 · PL 579853 *Aigina* 6,30 | 5,88 |
+
+⚠️ Görev metninde ADA taramasındaki Egina mesafeleri "7,4 / 1,9 km" diye verilmişti. Bu iki sayı ADA raporunda **Termiye (Kythnos)** satırına ait: Kastro tis Orias 7,42 / Chora 1,90. Egina satırında 1,68 / 5,88 yazıyor. Burada Egina satırının kendi sayıları kullanıldı.
+
+**İki bulgu farklı nesneleri gösteriyor:**
+- **ADA taraması kaleyi buluyor.** Palaiochora, adanın tahkimli ortaçağ merkezi. Pleiades zamanı `mediaeval-byzantine`. Merkez 1826 civarına dek burada.
+- **v2 kasabayı buluyor.** Modern Egina kasabası (GN PPLA3) ile antik Aigina (PL), ~1826 sonrası merkez.
+- v2 Palaiochora'yı göremez: aynı-ad taraması, ve "Palaiochora" adı "Egina" değil.
+
+**Kaydın iddia ettiği nesne:** `tur:"kale"` ve 1281'de başlayan pencere, kaydın nesnesini **ortaçağ kalesi/kale-kasabası Palaiochora** yapıyor. Modern kasaba bu pencerenin ancak son katmanının (~1826–1923) nesnesi.
+
+**§6.5 kimlik ile koordinat:**
+- *Kimlik (kusurun varlığı) kesin.* Koordinat bir kale değil, adanın temsil noktası. Bunu üç ayrı aile söylüyor (PL ada 0,36 · TGN ada 0,51 · GN ADM3 0,99) ve kaydın kendi `tur:kale`'si de bununla çelişiyor. İki tarama bu noktada ayrışmıyor.
+- *Koordinat (düzeltmenin hedefi) tek değil.* Hedef pencerenin hangi katmanına bakıldığına göre değişiyor.
+
+**§6.3 pencere:** pencere iki nesneyi kapsıyor (Palaiochora 1281–~1826 → Egina kasabası ~1826–1923) ⇒ **çok katmanlı ⇒ İKAME**, TAŞIMA değil. 1826 tarihi genel bilgidir, tanıkla teyit edilmedi (ADA raporu §Pencere ile aynı).
+
+**TEK HÜKÜM: Egina = KUSUR-KESİN (sınıf aynen kalır) · çare TAŞIMA-HAZIR → İKAME (§6.3).**
+- Tek noktayı kasabaya (5,88 km) taşımak 1281–~1826 katmanını bozar. Kaleye (1,68 km) taşımak da son katmanı bozar.
+- Düzeltme iki ayrı kayıt/katman ister:
+  - Palaiochora (tek aile: PL; ADA taramasında ADAY sayılmasının nedeni bu)
+  - Egina kasabası (GN+PL, ≥5 km ⇒ v2 KESİN eşiği bu katmanda tutuyor)
+- Sonuç: KUSUR-KESİN 8 = **TAŞIMA-HAZIR 5 + İKAME 1 + TAŞIMA-PARK 2**. EK①'deki "HAZIR 6" sayımı, EK② uygulanmadan önceki hâldir.
+- Palaiochora koordinatı Pleiades reprPoint'idir (37.75085, 23.48926), elle doğrulanmadı.
+
+### EK③ `etki:` ekseni (rapor ekseni; tanım değişikliği DEĞİL, sınıflar aynen kalır)
+
+**Yöntem:**
+- **Doğru-nesne koordinatı:** `hepsi_tanik`'teki en yakın tanık kaydı. Aynı tanık kayıt havuzu kullanıldı (`gn/out`, `pl_th2`, `tgn2`, `tgn_ek`).
+- **Mesafe:** atlas noktası → bu tanık.
+- **Petek:** basitleştirilmiş Voronoi what-if (`scratchpad\konum\voronoi.py`'nin uyarlaması).
+  - Noktanın sahipli olduğu **2 gün**: en uzun sahiplik döneminin orta günü ve ilk dönemin orta günü (aynıysa 1 gün).
+  - O gün sahipli tüm atlas noktaları (±8° pencere) alınır, hücreler kara maskesiyle (`veri-kaynak/motor_kara.geojson` @ d50ddbedd) ve **200 km tavanla** kırpılır.
+  - Ölçü: noktanın hücresinin taşıma öncesi/sonrası **simetrik farkı (km²)**. Bant için günlerin en büyüğü alındı.
+- ⚠️ **Motor kuralları modellenmedi.** Kural dışı olanlar: ağırlık/rütbe, kale/şehir ayrımı, nehir/dağ sınırları, deniz geçişi, `kasitli_bosluk` delikleri, vasal kuralları. km² değerleri yalnız göreli büyüklük göstergesidir, haritadaki gerçek alan değişimi değildir.
+- Sağlama: Zaklise 1639 için 1080 → 1433 km², simetrik fark 354. Bu, önceki `konum/voronoi.log` ile birebir aynı.
+
+**Bant eşikleri:**
+- **ÖNCELİK DÜŞÜK:** mesafe **< 2 km** VE hücre değişimi **< 500 km²**
+- **ÖNCELİK YÜKSEK:** mesafe **≥ 5 km** (kategorik olmayan KESİN mesafe eşiğiyle aynı) VEYA hücre değişimi **≥ 2000 km²** (dağılımın üst ~%7'si; p90 = 1374 km²)
+- **ÖNCELİK ORTA:** geri kalan
+- **ÖLÇÜLEMEDİ:** doğru-nesne koordinatı yok ya da nokta hiçbir günde sahipli değil
+
+Etki kümesinde (214) dağılımlar:
+- mesafe: medyan 1,99 km · p75 3,03 · p90 6,01 km
+- hücre değişimi: medyan 267 km² · p75 597 km²
+
+**Bant sayıları:**
+
+| sınıf | n | YÜKSEK | ORTA | DÜŞÜK | ÖLÇÜLEMEDİ |
+|---|---|---|---|---|---|
+| KUSUR-KESİN | 8 | 5 | 1 | 2 | 0 |
+| **ADAY** | **206** | **28** | **88** | **89** | **1** |
+
+ADAY notları:
+- **ÖLÇÜLEMEDİ 1: İfe (Ile-Ife).** Mesafe ölçüldü (1,86 km), ama kayıtta `s/d/v` boş, hiçbir günde sahipli değil ⇒ petek yok.
+- **ADAY YÜKSEK 28'in en uzakları:** Brakya 103,4 km · Elba 77,5 · Knife River 69,5 · Peşte 67,3 · Nikarya 56,0 · Fort Nez Percés 43,0 · Fort Ross 31,9.
+  - Bunlar tek-aile ve uzak tanıklar, büyük kısmı muhtemelen eş-adlı başka bir nesne.
+  - Elle bakılmadı. YÜKSEK bandı burada "önce elle doğrula" anlamına gelir, "önce taşı" anlamına gelmez.
+- **Yalnız alan ölçütüyle YÜKSEK olanlar:** Tucson (4,09 km / 3018 km²) · Port of Spain (2,27 km / 2044 km²).
+- **< 2 km olup alan yüzünden ORTA'ya çıkanlar:** 15 satır.
+
+**TAŞIMA-HAZIR sıralaması** (önce bant, bant içinde mesafe; Egina EK② gereği İKAME ama listede tutuldu):
+
+| sıra | ad | mesafe | hücre değişimi (gün) | bant | not |
+|---|---|---|---|---|---|
+| 1 | Ulubat | 12,43 km | 405 km² (1666 osmanlı · 1307 bizans) | YÜKSEK | değişim tek sahip içinde (sahip_net 0) |
+| 2 | Zaklise (Zakynthos) | 10,58 km | 354 km² (1639 venedik · 1380 napoli) | YÜKSEK | kayma sahip değiştiriyor: 1639 osmanlı −354 / venedik +354 km² |
+| 3 | Egina (Aegina) | 5,88 km (katman 2) · 1,68 km (katman 1) | 108 km² · 18 km² (1679 osmanlı · 1409 venedik) | YÜKSEK (k2) / DÜŞÜK (k1) | **İKAME** (EK②) |
+| 4 | Tshane | 3,39 km | 1649 km² (1792 tsvana) | ORTA | hücre ≈59 500 km², göreli %2,8 |
+| 5 | Sanirajak (Hall Beach) | 1,62 km | 106 km² (1580 inuit) | DÜŞÜK | pistteki nokta; gerçek köken kusuru |
+| 6 | Uqsuqtuuq (Gjoa Haven) | 1,15 km | 54 km² (1580 inuit) | DÜŞÜK | pistteki nokta; gerçek köken kusuru |
+
+PARK 2 (sıralamaya girmez):
+- **Xieng Khouang:** 26,17 km · 4457 km² · YÜKSEK. 1530'da lan-xang +853 / le-hanedanı −853 km².
+- **Hvar:** 20,80 km · 301 km² · YÜKSEK.
+
+Havalimanı köyleri:
+- Sanirajak, Uqsuqtuuq ve Tshane listenin dibinde, ama listede.
+- Koordinatör eşiğin gevşetilmesini açıkça reddetti: *"sınıflandırma ve düzeltme önceliği iki ayrı sorudur."* Bu yüzden bu satırlar KUSUR-KESİN kalıyor. Düşük olan yalnız düzeltme öncelikleri.
+- Tshane'nin ORTA çıkması mesafeden değil, Kalahari'deki büyük hücreden geliyor.
+
+**Scriptler** (`scratchpad\etki\`):
+- `dump.py`: `d50ddbedd` noktaları, `s/d/v/kur` dahil
+- `etki.py`: mesafe + petek
+- `sahip.py`: sahip_net ve Egina katmanları
+- `bant.py`: bantlar + CSV
+- Shapely `py -3.14` ile çalıştı.
