@@ -446,7 +446,8 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   bitince "dosya senin" der; devir sözle yapılır.
 - **Uzun bir işi (koşu) başlatmadan önce** tahtaya "BEN BAŞLATIYORUM · ne · ~süre" yaz ve
   60 sn bekle; çakışmada beyana değil süreç damgasına bak. [`D225`](dersler/D225-ad-alani-kaynak-sahipligi.md)
-- 🆕 🔴 **SÜREÇ ÖLDÜRME — ADLA YA DA ZAMAN PENCERESİYLE ASLA.** `Stop-Process`
+- 🆕 🔴 **SÜREÇ ÖLDÜRME — ADLA, ZAMAN PENCERESİYLE YA DA KOMUT SATIRI
+  DESENİYLE ASLA.** `Stop-Process`
   yalnız **KENDİ başlattığın PID ve onun ALT AĞACI** için kullanılır
   (`taskkill /T /PID <kendi>`). Bu makinede aynı anda birden çok oturum `git`,
   `py` ve `node` koşturuyor. ⚠️ Ölçülen vaka (UMIT, 10 Ekim 2026, öz-ihbar):
@@ -456,6 +457,17 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   satırı ve o anda koşan `SAHIPLIK-KAPSAM` ölçümleri. `§7.2`de aynı sınıfın
   eski bir vakası var (koordinatör dört kıtanın bekçisini dışarıdan öldürdü);
   o zaman zarar GÖRÜNMEMİŞTİ, bu gece GÖRÜLDÜ.
+  🔴 **VE AYNI GECE İKİNCİ VAKA — kural yazılmadan ÖNCE** (UMIT'in ikinci
+  öz-ihbarı): bir ajan eskimiş sınav süreçlerini **KOMUT SATIRI DESENİNE**
+  göre durdurdu, ve desen `_sahiplik_uygula` içeriyordu ⇒ **başka bir oturumun
+  süreci de etkilenmiş olabilir** (hangisi olduğu `ÖLÇÜLEMEDİ`). ⇒ Kuralın
+  ilk yazımı *"adla ya da zaman penceresiyle"* diyordu ve bu üçüncü biçimi
+  **kapsamıyordu.** Artık kapsıyor:
+  > **Hedefi SÜREÇ KİMLİĞİNDEN BAŞKA bir şeyle seçen her öldürme yasaktır** —
+  > ad · zaman penceresi · komut satırı deseni · başlık · çalışma dizini.
+  > Tek meşru ölçüt: **KENDİ başlattığın PID ve onun ALT AĞACI.**
+  📌 İki vaka da aynı dersi veriyor: *bir süreci "benim gibi görünüyor" diye
+  öldürmek, aynı makinede çalışan başka bir oturumun işini öldürmektir.*
   🔴 **VE ÇIKIŞ KODU TUZAĞI — bu makinede ÖLÇÜLDÜ, genel bilgi DEĞİL:**
 ```
   Stop-Process -Force (python.exe / py.exe)  →  127
