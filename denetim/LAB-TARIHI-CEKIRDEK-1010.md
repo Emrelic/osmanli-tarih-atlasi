@@ -1,5 +1,7 @@
 # LAB — TARİHÎ ÇEKİRDEK denetimi: 193 ADAY satırında DOĞRU-DÖNEM payı (1010)
 
+> ⚠️ OKUMADAN SAYI ALMA: Bu dosyanın sayıları bir HÜKÜM değil ADAY listesidir. 10 Ekim uzlaştırması: 221 = 26 KANITLI + 195 SINANAMAZ (bkz. LAB-CEKIRDEK-TANIK-1010 §EK). Kanıtlı kusur 26'dır; 195 satırda ilgili dönemin çekirdek tanığı yoktur.
+
 ## §0 ÖNGÖRÜ (ölçümden ÖNCE)
 
 Zaman damgası: 2026-10-10 06:47:57 +0300  (193 satırın noktaları ve tanık dökümleri henüz okunmadan yazıldı; bu bölüm bir daha düzenlenmeyecek)

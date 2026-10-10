@@ -164,3 +164,76 @@ Zaman damgası: 2026-10-10 07:04:17 +0300. Bu bölüm 171 satır için TGN ya da
   - `getty.py` / `tgnh.py`: TGN sorguları
   - `sinif2.py`: önceki turun `cekirdek\sinif.py` kurallarının üstüne yeni aile + Ö-Ç1
   - `yaz2.py`
+
+## §EK — Ö-T2 bölünmesi
+
+(10 Ekim koordinatör hükmü: **Ö-T2 ONAYLANDI.** Yeni kova **SINANAMAZ** = ilgili dönemin çekirdek tanığı yok. Bu ek rapor yazıldıktan sonra eklendi; §0–§7 metni ve `LAB-CEKIRDEK-TANIK-1010.csv` değiştirilmedi. Satır satır kova ataması ayrı dosyada: `denetim/LAB-KOVA-UZLASTIRMA-1010.csv`, 227 satır = 221 YANLIŞ + 6 DOĞRU-DÖNEM, sütun `kova_1010`.)
+
+**Uzlaştırma (CSV'lerden yeniden sayıldı, doğrulandı):**
+
+`221 = 26 KANITLI (9 KESİN + 17 GERÇEK) + 195 SINANAMAZ  ✔ toplam korunuyor`
+
+- Doğrulama kaynakları: KESİN 9 = `LAB-AYNI-AD-TARAMA-v2-1010-etki.csv` `sinif_ek=KUSUR-KESİN` 8 + Pantelerya. GERÇEK 17 ve ADAY-ÖLÇÜLEMEDİ 170 = `LAB-TARIHI-CEKIRDEK-1010.csv` 193 satırı; buna bu turun `hukum` sütunu ve Ö-Ç1 hükmü (Zadar, Nojpetén) uygulandı, 6 DOĞRU-DÖNEM çıkarıldı. YANLIŞ-CİNS-ÖLÇÜLEMEDİ 25 = v2 `hepsi=YANLIŞ-CİNS-ÖLÇÜLEMEDİ` 17 + 8 eşadlı.
+- Kimlik (`i`) tekrarı yok. 227 satırın 227'si tekil.
+
+**KANITLI 26'nın iç bölünmesi (§4 kırmızı çizgi):**
+
+`KANITLI 26 = KESİN 9 + GERÇEK-TANIKLI 9 (17−8) + GERÇEK-VİKİPEDİ-ANLATISI 8`
+
+- **GERÇEK-VİKİPEDİ-ANLATISI (8):** Korçula (Kurzola) · Ayamavra (Lefkada) · Nichicun (HBC iç karakolu) · Jinan · Çuha Adası (Kythira) · Pusan · Krk (Veglia) · Ûicu (Uiju).
+  - Sekizi de `LAB-ADAY-YUKSEK-28` `hukum_1010` el hükmünden taşındı. Mekanik sınıflayıcı sekizine de ÖLÇÜLEMEDİ verdi: iki noktada da gazetteer çekirdek tanığı yok.
+  - Dikkat: 6'sının `kaynak_url`'si Wikipedia. **Ayamavra** ve **Pusan**'ınki ise GN ülke dökümü. Bu ikisinin GN kaydı modern kasaba ya da şehir; kale ve liman konumu kaynak anlatısına dayanıyor (Ayamavra'da kale sayfası 404, Pusan'da kaynak fetch edilmedi). Bu yüzden ikisi de bu alt kovada. Kova adı "Vikipedi" ama doğru okuma "gazetteer tanığı yok, el anlatısı".
+- **GERÇEK-TANIKLI (9):** Mikonos · Limasol · Aden · İleryoz (Leros) · Bozcaada · Zaculeu · Fort Sill · Yamurgi (Amorgos) · Dubrovnik. Bunlarda mekanik sıkı kol, iddia edilen nesnede bir çekirdek tanığı buldu ve sonuç elle onaylandı.
+- **KESİN (9):** Ulubat · Zaklise (Zakynthos) · Egina (Aegina) · Tshane · Sanirajak (Hall Beach) · Uqsuqtuuq (Gjoa Haven) · Xieng Khouang · Hvar (Lesina) · Pantelerya.
+
+**SINANAMAZ 195 nereden geldi (kova bölünme beyanı, §3.4⑥):**
+
+| köken | sayı | not |
+|---|---|---|
+| ADAY-ÖLÇÜLEMEDİ, mekanik (tanık yok ya da ayırt etmiyor) | 160 | `LAB-TARIHI-CEKIRDEK` mekanik ÖLÇ; `LAB-CEKIRDEK-TANIK` turu değiştirmedi |
+| ADAY-ÖLÇÜLEMEDİ, 28-satır el hükmü | 7 | Kefalonya · Alonisos · Marmara Adası · Tsabong · Sennar · Kiş · İthaki |
+| ADAY-ÖLÇÜLEMEDİ, Ö-Ç1 koordinatör hükmü (DD → ÖLÇ) | 2 | Zadar · Nojpetén |
+| ADAY-ÖLÇÜLEMEDİ, el düzeltmesi | 1 | Cincinnati (tek tanık 1843 gözlemevi) |
+| *ara toplam ADAY-ÖLÇÜLEMEDİ* | *170* | §4'teki 170 |
+| YANLIŞ-CİNS-ÖLÇÜLEMEDİ, v2 | 17 | v2 `hepsi` sınıfı |
+| YANLIŞ-CİNS-ÖLÇÜLEMEDİ, eşadlı (28-satır) | 8 | Brakya · Elba · Peşte · Nikarya · Fort Nez Percés · Fort Ross · Fort Langley · Kekionga |
+| *ara toplam YANLIŞ-CİNS-ÖLÇÜLEMEDİ* | *25* | |
+| **SINANAMAZ** | **195** | |
+
+- **"195" sabit bir sayı değildir.** Üç farklı tür ÖLÇÜLEMEDİ'nin toplamıdır. Ayrıca bir kısmında tanık var ama ayırt etmiyor (§4 katı okuma: ADAY-ÖLÇ 170'in 167'sinde iki noktada da tanık yok). Yeni bir tanık ya da tanım değişikliği bu üç kökeni farklı etkiler; o yüzden sayı her zaman bu tabloyla birlikte okunmalı.
+- 221 dışında kalanlar (sayılmadı): DOĞRU-DÖNEM 6 (Fort Laramie · Hille · Częstochowa · Hirosaki · Salvador · San Francisco) · Ö-2 DOĞRU-DÖNEM 3 (Bamako · Tucson · Port of Spain) · Knife River (DOĞRU-CİNS).
+
+**Ö-T1 KOŞULLU — 0,5 km ayrım payı (iki sayı yan yana)**
+
+Koşul: d(çekirdek, modern merkez) − d(çekirdek, atlas) ≥ 0,5 km. A = çekirdek↔atlas, D = çekirdek↔iddia edilen modern merkez (`iddia_dogru_nesne`).
+- San Francisco ve Nojpetén-TGN için A/D, `LAB-CEKIRDEK-TANIK-1010.csv` `tanik_yeni_tarihi` sütunundan okundu.
+- Diğer satırlarda CSV yalnız A'yı taşıyor (`cekirdek_atlas_1.5km`). Bu satırların D'si önceki turun önbelleğinden (`scratchpad\cekirdek\sonuc.json` + gnh/Ṯ koordinatları, script `otm.py`) aynı `km()` formülüyle hesaplandı. Çekirdek olarak atlasa en yakın sıkı-kol kaydı alındı.
+
+| satır | çekirdek | A | D | D−A | paysız | 0,5 km paylı |
+|---|---|---|---|---|---|---|
+| Fort Laramie | GN NHS | 0,28 | 2,60 | 2,32 | DD | DD |
+| Hille | Ṯ al-Ǧāmiʿān | 0,22 | 2,57 | 2,36 | DD | DD |
+| Częstochowa | GN Stare Miasto | 0,46 | 1,46 | 1,00 | DD | DD |
+| Hirosaki | GN Jō Ato | 0,43 | 1,68 | 1,25 | DD | DD |
+| Salvador | GN Historic Centre | 0,95 | 1,90 | 0,95 | DD | DD |
+| San Francisco | TGN Mission | 0,52 | 1,32 | 0,80 | DD | DD |
+| Nojpetén | TGN Tayasal / GN Tayasal | 0,97 / 1,24 | 1,17 / 1,70 | **0,20 / 0,45** | mekanik DD, hüküm ÖLÇ (koordinatör) | ÖLÇ (mekanik) |
+| Zadar | GN Old Town Centre | 1,11 | 0,13 | −0,98 | ÖLÇ | ÖLÇ |
+
+| DOĞRU-DÖNEM | paysız (Ö-Ç1) | 0,5 km paylı (Ö-T1) |
+|---|---|---|
+| HÜKÜM ekseni | **6** | **6** |
+| mekanik eksen | 7 (6 + Nojpetén) | 6 |
+
+- **0,5 km payla 0 satır DOĞRU-DÖNEM'den ADAY'a düştü (HÜKÜM ekseni).**
+- Mekanik eksende 1 satır düştü: **Nojpetén.** Bu satır koordinatör hükmüyle zaten ÖLÇÜLEMEDİ'ydi. Pay, o hükmü mekanikleştiriyor ve iki tanığında da (TGN 0,20 · GN 0,45 km) eşiğin altında kalıyor.
+- En dar kalan DD satırı San Francisco (0,80 km). Pay 0,8 km'ye çıkarılırsa sınırda; ≥1,0 km'de San Francisco, Salvador (0,95) ve Częstochowa (1,00, sınırda) tehlikeye girer.
+- Ö-2 satırlarında (Bamako · Tucson · Port of Spain) bu CSV'lerde ölçülmüş bir çekirdek–merkez çifti yok. Ö-T1 bu satırlara mekanik olarak uygulanamaz, kapsam dışı.
+
+## §EK — Öngörü kalibrasyonu
+
+- Üç tur üst üste öngörü **aynı yönde** ıskaladı: tanık bulunabilirliği sistematik olarak fazla tahmin edildi.
+  - Bu dosya zincirindeki son iki tur: LAB-TARIHI-CEKIRDEK'te DOĞRU-DÖNEM %18 öngörüldü, %3,6 ölçüldü; LAB-CEKIRDEK-TANIK'ta DOĞRU-DÖNEM %5 / GERÇEK KUSUR %4 öngörüldü, %0,6 / %0 ölçüldü. İkisinde de ölçüm aralığın alt sınırının altında (bkz. §5 "üç turdur").
+- **Yeni bir tanık ailesi için ölçülmüş taban oran = 1/171 ≈ %0,6.**
+- Sonraki öngörü bu taban orandan başlamalı. Daha yüksek bir beklenti varsa gerekçesi açıkça yazılmalı.
+- **Wikidata köprüsü:** 92 satır → 127 TGN + 419 Pleiades kimliği → kabul edilen tanık 0; köprüye yeni bütçe ayrılmaz (koordinatör hükmü).
