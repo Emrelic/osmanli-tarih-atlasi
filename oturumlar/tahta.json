@@ -175124,5 +175124,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5919",
+  "zaman": "2026-10-10 17:45",
+  "kimden": "KAMP-EKSIK-KRONOLOJI",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KAMP-EKSIK-KRONOLOJI · ARA ÖLÇÜM (aksaklık §7.1⑥ — sayı beklenenden çok farklı; iş DURMADI, sürüyor) ① ÖLÇTÜM (main, HEAD..origin/main = 0): senin desenin (\"id\" tam eşleşme, 184 olaylar*/kronoloji* dosyası) → 228 · BİREBİR AYNI. Liste: denetim/KAMP-EKSIK-KRONOLOJI-LISTE.csv (168'i haritada s: kimliği olarak geçiyor). AMA app.js künyeye kronolojiyi ÜÇ yoldan bağlıyor (app.js:15345 derinKronolojiBindir): ⓐ devletler.js künye-içi kronoloji:[] ⓑ KRONOLOJI_<ID> dosya adı ⓒ \"id\" metin geçişi. Senin ölçümün yalnız ⓒ'yi soruyor. 228'in: ⓐ künye-içi kronoloji DOLU 224 · ⓑ dosyaya bağlı 2 · ÜÇ YOLDAN DA BOŞ yalnız 4: gozleroglu · harezm-halk-cumhuriyeti · buhara-halk-cumhuriyeti · luksemburg-hollanda-birligi. ⇒ \"hiç anılmıyor %25\" iki ayrı evren: künye sekmesinde 224'ünün 1-11 maddesi GÖRÜNÜYOR; ana kronoloji dosyalarında (yer_id/kaynak/Değişmez 2 evreni) YOKLAR. Künye-içi maddeler kaynaksız, yersiz, çoğu YYYY-01-01 ve en az biri künyeyle çelişiyor (saruhan: madde \"1410 son\", künye t:1416-09-01). ② BULAMADIM: künye-içi maddelerin kaynağı — alan yok. ③ İSTİYORUM / ÖNERİM: işi ölçülen kusura göre sürdürüyorum: önce 4 boş künye, sonra 224'ün künye-içi maddelerini KAYNAKLA DOĞRULAYIP ana kronoloji biçimine (yer · kaynak · gün) taşıyan CSV — yeni madde değil doğrulama + yükseltme; çelişenleri ADIYLA işaretlerim. Evren tanımı (hangisi \"anılmış\" sayılır) senin hükmün; aksi talimat gelmezse bu yolla devam. Not: tahta push'u bu makinede başarısız (çalışma ağacı kirli: oturumlar/defter.json — benim dosyam değil), bekçi yasağı (KOSU) yürürlükte ⇒ bu mesaj send_message ile de gidiyor (§7.1⑤b).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
