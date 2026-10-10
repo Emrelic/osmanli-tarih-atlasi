@@ -1,0 +1,101 @@
+--- a/arac/denetle.py	2026-10-10 07:00:35.992145700 +0300
++++ b/arac/denetle.py	2026-10-10 07:01:03.789978600 +0300
+@@ -6073,4 +6073,89 @@
+ 
+ 
++# 🆕 GÖRÜNÜRLÜK SAYAÇLARI (KASA-UZUN-DILIM-TARAMA-1010 · koordinatör hükmü ⑤c/⑤d)
++#   KAPI DEĞİL, beyanlı sayaç: tavanı AŞAN gerileme ✗ (ihlal), altına inen ⚠️ GEVŞEK.
++#   ① TAM PENCERE: dönemin kendi `kaynak:`'ı tanıksız VE dönem VERI_UFKU'nun İKİ ucuna
++#      birden dayanıyor (f = 1281-01-01 · t = 1923-10-29) ⇒ pencereyi TEK iddiayla
++#      dolduran dilim. Ⓚ kırpma (tek uç) zararsızdı; burada iki uç ve ortada hiçbir el
++#      değiştirme yok. Ölçülmüş: 110 dilim (habesistan 32 · almanya 26 · ingiltere 24 ·
++#      somali 10 · danimarka 9 …); okunan 49'unda 13 YANLIŞ (Edinburg `iskocya`
++#      1281-1707 · Köln Fransa 1794-1815 · Addis kuruluş 1886/87 …). Ayrıca TEK DİLİMLİ
++#      nokta (bütün `s:`'i bu tek dönem; kaynaktan bağımsız) sayılır: 112.
++#   ② KÜNYE İÇ BOŞLUĞU: künyenin KENDİ kronolojisi bir aralıkta devletin olmadığını
++#      söylüyor, `s:` dönemi o aralığı kesintisiz aşıyor. Tek üye `almanya` (künye
++#      kronolojisi "1806-08-06 Kutsal Roma İmparatorluğu ilga edildi" · "1871-01-18 Alman
++#      İmparatorluğu ilan edildi"); ölçülmüş 27 dönem (26'sı kaynaksız). `bavyera`,
++#      `saksonya`, `prusya` künyeleri VAR ⇒ D205 sınıf ③. Yeni üye ancak künye
++#      kronolojisi ADIYLA gösterilerek eklenir.
++#   ③ `bulunamadı` TANIK DEĞİLDİR: `_kaynak_dolu` onu DOLU sayar ve kaynak tavanında bu
++#      DOĞRUDUR (§4 beyan borcu ödenmiş). Ama "bu dönemi bir kaynak tarihliyor mu"
++#      sorusunda `bulunamadı` bir SONUÇTUR ⇒ `_kaynak_tanikli`. Ölçülmüş: 6 dönem
++#      (Benin ×2, Oyo, Elmina …). Kaynak tavanının hükmü DEĞİŞMEZ; yalnız sayılır.
++#   Tarih karşılaştırması `gun.gun()` ile (dizgi değil: eksi yıllar).
++TAM_PENCERE_TAVAN = 110
++TAM_PENCERE_TEK_TAVAN = 112
++KUNYE_IC_BOSLUK = {"almanya": ("1806-08-06", "1871-01-18")}
++KUNYE_IC_BOSLUK_TAVAN = 27
++BULUNAMADI_DEGERLER = ("bulunamadı", "bulunamadi")
++BULUNAMADI_TAVAN = 6
++
++
++def _kaynak_tanikli(v):
++    """`kaynak:` bir TANIK mı — dolu VE `bulunamadı` değil (③)."""
++    if not _kaynak_dolu(v):
++        return False
++    return not (isinstance(v, str) and v.strip().lower() in BULUNAMADI_DEGERLER)
++
++
++def gorunurluk_olc(Y, ufuk=None):
++    """Döner: {tam_pencere, tek_dilimli, ic_bosluk, bulunamadi} → sıralı liste.
++    Anahtar `dosya|ad|f|d`."""
++    import gun
++    ufuk = ufuk or VERI_UFKU
++    K = {"tam_pencere": [], "tek_dilimli": [], "ic_bosluk": [], "bulunamadi": []}
++    for y in Y:
++        S = [p for p in (y.get("s") or []) if isinstance(p, dict)
++             and p.get("d") != "__BOSLUK__"]
++        for p in S:
++            a = "%s|%s|%s|%s" % (y.get("_kaynak"), y.get("ad"), p.get("f"), p.get("d"))
++            f, t = p.get("f"), p.get("t")
++            if _kaynak_dolu(p.get("kaynak")) and not _kaynak_tanikli(p.get("kaynak")):
++                K["bulunamadi"].append(a)
++            if f == ufuk[0] and t == ufuk[1] and not _kaynak_tanikli(p.get("kaynak")):
++                K["tam_pencere"].append(a)
++            ara = KUNYE_IC_BOSLUK.get(p.get("d"))
++            if ara and f and gun.gun(f) < gun.gun(ara[0]) and \
++                    (not t or gun.gun(t) > gun.gun(ara[1])):
++                K["ic_bosluk"].append(a)
++        if len(S) == 1 and S[0].get("f") == ufuk[0] and S[0].get("t") == ufuk[1]:
++            K["tek_dilimli"].append("%s|%s" % (y.get("_kaynak"), y.get("ad")))
++    return {k: sorted(v) for k, v in K.items()}
++
++
++def gorunurluk_rapor(Y, ayrinti=False):
++    """main() için: basar, bir tavan AŞILDIYSA True döner."""
++    G = gorunurluk_olc(Y)
++    satirlar = (("tam_pencere", TAM_PENCERE_TAVAN, "TAM PENCERE kaynaksız dönem (1281→1923 tek iddia)"),
++                ("tek_dilimli", TAM_PENCERE_TEK_TAVAN, "tek dilimli tam pencere nokta"),
++                ("ic_bosluk", KUNYE_IC_BOSLUK_TAVAN, "künye iç boşluğunu aşan dönem (almanya 1806-1871)"),
++                ("bulunamadi", BULUNAMADI_TAVAN, "`bulunamadı` kaynaklı dönem (dolu ama TANIK DEĞİL)"))
++    ihlal = False
++    print("\nEk denetim  · GÖRÜNÜRLÜK (beyanlı sayaç, kapı değil — tavan aşılırsa gerileme)")
++    for alan, tavan, ad in satirlar:
++        n = len(G[alan])
++        isaret = "✗" if n > tavan else "✓"
++        ihlal = ihlal or n > tavan
++        ek = f" ⚠️ GEVŞEK {tavan}→{n} (iyileşme — tavanı indir)" if n < tavan else ""
++        print(f"            {isaret} {ad}: {n} (tavan {tavan}){ek}")
++        if n > tavan and not ayrinti:
++            # BEYANLI SINIR: SAYI tavanı, üyelik defteri yok ⇒ hangisinin YENİ olduğunu
++            # bilemez; ilk beşi basmak yanlış üyeyi gösterirdi. Tam liste --ayrinti ile.
++            print(f"              🔴 GERİLEME {tavan}→{n} — yeni üyeyi bulmak için "
++                  f"`--ayrinti` (sayı tavanı; üyelik defteri yok)")
++        for k in (G[alan] if ayrinti else []):
++            print(f"    {alan.upper():<12} {k}")
++    return ihlal
++
++
+ def kaynak_tavan_indir(Y, yol=None):
+     """Tavanı YALNIZ İNDİRİR. Sayı artmışsa ya da defterde olmayan yeni üye
+@@ -7230,4 +7315,8 @@
+         ihlal = True
+ 
++    # Ek denetim — görünürlük sayaçları (GÖRÜNÜRLÜK SAYAÇLARI bloğu)
++    if gorunurluk_rapor(Y, ayrinti=args.ayrinti):
++        ihlal = True
++
+     # Ek denetim — mükerrer kronoloji maddesi. ÜÇ kademe:
+     #   [başlık] Jaccard ≥ 0.34            → İHLAL
