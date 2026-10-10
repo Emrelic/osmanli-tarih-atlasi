@@ -1,0 +1,23 @@
+diff --git a/data/yerlesimler_nokta_ortadogu_0917.js b/data/yerlesimler_nokta_ortadogu_0917.js
+index 4029dff..2b01dcd 100644
+--- a/data/yerlesimler_nokta_ortadogu_0917.js
++++ b/data/yerlesimler_nokta_ortadogu_0917.js
+@@ -144,6 +144,17 @@ window.YERLESIMLER_NOKTA_ORTADOGU_0917 = [
+ 
+ { ad:"Tutub (Hafâce)", tur:"sehir", lat:33.35571, lon:44.55601, g:0, k:0, s:[], d:[], bit:"-1599-01-01", kesinlik:"yuzyil",
+   not:"NOKTA-SUMER-1010 · VARLIK, sahiplik DEĞİL (HUKUM-KASA §9.7): s: YAZILMADI. kur: YAZILMADI — en erken tasdik MÖ 3000'den ESKİ (KASA-SUMER-KUR §1.2, A/A'/D sınıfı). bit: MÖ 1600 ↔ -1599 = Pleiades SON TASDİK — ad 'Ḫafāǧa' old-babylonian (2000-1600); 🔴 SON TASDİK, terk tarihi DEĞİL; dönem ucu ⇒ kesinlik yuzyil (kur: onyıl kaynaklıysa da kaba olan yazıldı). Pleiades MÖ yılı tarihî sayımdır (yıl 0 yok) ⇒ astronomik -(N-1).",
+-  kaynak:"Pleiades 490043590 (Ḫafāǧa) reprPoint · 2. tanık: TGN 7032790 Khafajah 0,21 km (deserted settlements) · Pleiades yazar açıklaması/tasdik etiketleri (pleiades.stoa.org, 10 Ekim 2026) · KASA-SUMER-NOKTA-1010 · KASA-SUMER-KUR-1010" }
++  kaynak:"Pleiades 490043590 (Ḫafāǧa) reprPoint · 2. tanık: TGN 7032790 Khafajah 0,21 km (deserted settlements) · Pleiades yazar açıklaması/tasdik etiketleri (pleiades.stoa.org, 10 Ekim 2026) · KASA-SUMER-NOKTA-1010 · KASA-SUMER-KUR-1010" },
++
++// ── SÜMER — son tasdiki UFUK[0]=1000'den SONRA olan iki höyük (NOKTA-SUMER-1010 · ayrı diff) ──
++// 🔴 s: YAZILMADI ⇒ 1000→bit: arasında Değişmez 1 SAHİPSİZ sayar. İnmeden önce s: dilimleri
++//    (künye: ilhanli · safevi …) yazılmalı ya da bit: kaynakla öne çekilmeli — koordinatör kararı.
++{ ad:"Borsippa (Birs Nimrûd)", tur:"sehir", lat:32.39240, lon:44.34340, g:0, k:0, s:[], d:[], kur:"-2334-01-01", bit:"1335-01-01", kesinlik:"yuzyil",
++  not:"NOKTA-SUMER-1010 · VARLIK, sahiplik DEĞİL (HUKUM-KASA §9.7): s: YAZILMADI. kur: MÖ 2335 ↔ -2334 — KASA-SUMER-KUR §1.2: akkadian-ur-iii BAŞI (MÖ 2335); 🔴 TÜRETİLMİŞ, ÖLÇÜM DEĞİL. bit: MS 1335 ↔ 1335 = Pleiades SON TASDİK — ad 'Burs, Birs' caliphate-umayyad + ilkhanate (632-1335); 🔴 SON TASDİK, terk tarihi DEĞİL; dönem ucu ⇒ kesinlik yuzyil (kur: onyıl kaynaklıysa da kaba olan yazıldı). Pleiades MÖ yılı tarihî sayımdır (yıl 0 yok) ⇒ astronomik -(N-1).",
++  kaynak:"Pleiades 893964 (Borsippa/Burs) reprPoint · 2. tanık: TGN 7018037 Āthār an Namrūd 0,10 km (deserted settlements) · Pleiades yazar açıklaması/tasdik etiketleri (pleiades.stoa.org, 10 Ekim 2026) · KASA-SUMER-NOKTA-1010 · KASA-SUMER-KUR-1010" },
++
++{ ad:"Susa (Şûş höyüğü)", tur:"sehir", lat:32.18993, lon:48.25354, g:0, k:0, s:[], d:[], bit:"1599-01-01", kesinlik:"yuzyil",
++  not:"NOKTA-SUMER-1010 · VARLIK, sahiplik DEĞİL (HUKUM-KASA §9.7): s: YAZILMADI. kur: YAZILMADI — en erken tasdik MÖ 3000'den ESKİ (KASA-SUMER-KUR §1.2, A/A'/D sınıfı). bit: MS 1599 ↔ 1599 = Pleiades SON TASDİK — ad 'Sūs' sixteenth-ce (1500-1599); 'Šūš' ilkhanate/safavid tasdiki modern adla BİRLEŞİK kayıtta (2000'e uzanır, modern kasaba ⇒ §6.3 İKAME sorusu); 🔴 SON TASDİK, terk tarihi DEĞİL; dönem ucu ⇒ kesinlik yuzyil (kur: onyıl kaynaklıysa da kaba olan yazıldı). Pleiades MÖ yılı tarihî sayımdır (yıl 0 yok) ⇒ astronomik -(N-1).",
++  kaynak:"Pleiades 912936 (Susa/Seleucia ad Eulaeum) reprPoint · 2. tanık: TGN 7017509 Shūsh 7,59 km 'inhabited places' = MODERN KASABA ⇒ §9.4 TANIK SAYILMAZ · Pleiades iç DARE↔OSM↔CIGS 0,13-0,37 km · Pleiades yazar açıklaması/tasdik etiketleri (pleiades.stoa.org, 10 Ekim 2026) · KASA-SUMER-NOKTA-1010 · KASA-SUMER-KUR-1010" }
+ 
+ ];
