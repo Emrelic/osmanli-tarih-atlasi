@@ -1129,7 +1129,30 @@ benzersiz no 271, 10 Ekim 2026 ÖLÇÜLDÜ: `ls dersler/ | grep -cE "^D[0-9]+-"`
 sayıyor (bir fazla verir — `D267`nin tuzağının birebir aynısı). Doğrusu
 `ls dersler/ | grep -cE "^D[0-9]+-"`. Toplu okunmaz, kural
 tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
-(ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
+(ikisini buraya yazmak bu dosyayı yeniden şişirir).
+
+🆕 🔴 **VE BU KURALI KOORDİNATÖR 10 EKİM GECESİ İHLAL ETTİ — ÖLÇÜLDÜ, BEYANLI
+BORÇ:**
+```
+gece başı   686 satır ·  50.965 bayt · ~14.561 token
+09:00       1218 satır ·  87.917 bayt · ~25.119 token
+BÜYÜME      +532 satır · +36.952 bayt · ~+10.557 token   (28 commit)
+```
+`§7.1`in ölçtüğü taze oturum tabanı **82.561 token** ve içinde CLAUDE.md
+**10.773**'tü. ⇒ Bugün bu dosya **tek başına ~25.119 token = taze tabanın
+~%30'u**, ve gecenin büyümesi **her oturuma ~10.557 token EKLİYOR.** On beş
+açık oturumla ~158.000 token.
+📌 Kurallar gerekliydi (bir iniş kazasını ve koordinatörün üç hatasını
+önlediler) — **yanlış olan YER.** Vakalar buraya değil `dersler/`e yazılır;
+slogan kalır, vaka taşınır.
+🔴 **BUDAMA BORCU: iniş sonrası, `§11`in kendi kuralına göre.** 17 Eylül
+budaması 167 → 25 KB yapmıştı ve hiçbir kural silinmemişti (sınav
+`py denetim/ARAC-PROTOKOL-BUDAMA-0917.py --sina`); aynı yöntem uygulanır.
+⚠️ **Bugün budamıyorum** çünkü iniş sürüyor ve bu dosyaya atıf yapan sekiz
+hat çalışıyor; bir budama onların çapalarını kırar. **Beyan edilmiş borç,
+sessiz borçtan iyidir** (`§3.4 ⑥`) — ama beyan ödeme DEĞİLDİR.
+
+En sık aileler:
 - **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.
 - **Denetim var ≠ o soruyu soruyor** — temiz rapor, sorulmayan soruda temiz değildir;
   ölçülemedi ≠ yok ≠ temiz; boş küme her öngörüyü doğrular.
