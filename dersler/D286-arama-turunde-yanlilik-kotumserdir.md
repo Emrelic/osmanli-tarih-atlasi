@@ -1,4 +1,4 @@
-# D273 — ARAMA/SINIFLAMA TÜRÜNDE YANLILIK **KÖTÜMSERDİR**
+# D286 — ARAMA/SINIFLAMA TÜRÜNDE YANLILIK **KÖTÜMSERDİR**
 
 **Slogan:** Bir arama/sınıflama işine öngörü yazan, **engeli HAYAL EDEBİLİR
 ama engelsizliği SAYAMAZ** ⇒ sistematik olarak beklenenden ÇOK engel yazar.
@@ -66,7 +66,7 @@ kötüdür — çünkü yanlışlığı iki katına çıkarır.
 Bir arama/sınıflama işine öngörü yazan oturum, öngörünün yanına şunu yazar:
 
 > *"Bu bir ARAMA/SINIFLAMA işi ⇒ beklenen yanılma yönüm KÖTÜMSER
-> (`D273`); engelleri fazla, geçerli kalemleri az tahmin etmem bekleniyor."*
+> (`D286`); engelleri fazla, geçerli kalemleri az tahmin etmem bekleniyor."*
 
 ⚠️ Ve bu **öngörüyü düzeltmek için değil**, yanılma ÖLÇÜLÜRKEN yönün
 şaşırtıcı sayılmaması için yazılır. Öngörüyü yöne göre "ayarlamak"
