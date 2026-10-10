@@ -1,0 +1,1343 @@
+{
+ "gorev": "SUMER-SAHIP-1010",
+ "taban": "origin/main a24a4838 + NOKTA-SUMER-1010 + B10 + KUNYE-SUMER-7-v3 + NEGATIF-YIL-A2",
+ "kural": "Yalnız şehri ADIYLA anan, tarihli, akademik tanık s: olur; künye penceresi bir ZARFTIR, kaynak değil (HUKUM §9.6, CLAUDE §4). Kırmızı çizgi geçerli.",
+ "kalem_sayisi": 37,
+ "talep": [
+  {
+   "nokta": "Uruk (Warka)",
+   "lat": 31.32338,
+   "lon": 45.63905,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0529-01-01",
+   "pencere_yil": [
+    -2999,
+    -529
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0529-01-01",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: İskender/Argead yılıyla Uruk belgesi bulunamadı (KASA §1.2)",
+    "karakene (DİZİNDE YOK): Gregoratti 'seems to suggest the occupation of … Larsa, Uruk and Tello' — arkeolojik çıkarım, ALINMADI",
+    "MS 80 sonrası: Gareus tapınağı 110/111 yalnız arama özeti, doğrulanamadı (KASA §1.2)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y (ÇT MÖ 2500; Lugalzagesi 2358-2334) · akkad Ş · ur-iii Y (Ur-Namma 'Uruk’un Efendisi')",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Uruk (Warka)",
+   "lat": 31.32338,
+   "lon": 45.63905,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0405-01-01",
+   "pencere_t": "-0244-07-11",
+   "pencere_yil": [
+    -405,
+    -244
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0405-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0244-07-11",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: İskender/Argead yılıyla Uruk belgesi bulunamadı (KASA §1.2)",
+    "karakene (DİZİNDE YOK): Gregoratti 'seems to suggest the occupation of … Larsa, Uruk and Tello' — arkeolojik çıkarım, ALINMADI",
+    "MS 80 sonrası: Gareus tapınağı 110/111 yalnız arama özeti, doğrulanamadı (KASA §1.2)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Uruk (Warka)",
+   "lat": 31.32338,
+   "lon": 45.63905,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0144-01-01",
+   "pencere_t": "-0140-10-12",
+   "pencere_yil": [
+    -144,
+    -140
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "selefki",
+     "f": "-0144-01-01",
+     "t": "-0140-10-12",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "-0140-10-12",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: İskender/Argead yılıyla Uruk belgesi bulunamadı (KASA §1.2)",
+    "karakene (DİZİNDE YOK): Gregoratti 'seems to suggest the occupation of … Larsa, Uruk and Tello' — arkeolojik çıkarım, ALINMADI",
+    "MS 80 sonrası: Gareus tapınağı 110/111 yalnız arama özeti, doğrulanamadı (KASA §1.2)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Uruk (Warka)",
+   "lat": 31.32338,
+   "lon": 45.63905,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "0080-01-01",
+   "pencere_t": "0640-01-01",
+   "pencere_yil": [
+    80,
+    640
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "part",
+     "f": "0080-01-01",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "hulefa-yi-rasidin",
+     "f": "0632-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0632-01-01 → 0661-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "karakene (DİZİNDE YOK)",
+     "f": "0080-01-01",
+     "t": "0222-01-01",
+     "neden": "Olmstead 1937: Babil MÖ 127'de Karakene'de; KUNYE-SUMER-7-1010 §2.1 karakene YAZILMADI (t ucu tek kaynaklı)"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: İskender/Argead yılıyla Uruk belgesi bulunamadı (KASA §1.2)",
+    "karakene (DİZİNDE YOK): Gregoratti 'seems to suggest the occupation of … Larsa, Uruk and Tello' — arkeolojik çıkarım, ALINMADI",
+    "MS 80 sonrası: Gareus tapınağı 110/111 yalnız arama özeti, doğrulanamadı (KASA §1.2)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Ur (Tell al-Muqayyar)",
+   "lat": 30.96132,
+   "lon": 46.10542,
+   "kur": null,
+   "bit": "-0316-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0529-01-01",
+   "pencere_yil": [
+    -2999,
+    -529
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0529-01-01",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "CDLI P414699 Artaxerxes II 45 — NaBuCCo '2-25 Art ?' soru işaretli, ALINMADI",
+    "Selevkos/Part: bulunamadı — ama bit: MÖ 317 ⇒ nokta yok (VARLIK §1.1)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y (ÇT 2500; Eanatum ~2450) · akkad Ş · ur-iii Y (başkent) · I-L Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Ur (Tell al-Muqayyar)",
+   "lat": 30.96132,
+   "lon": 46.10542,
+   "kur": null,
+   "bit": "-0316-01-01",
+   "pencere_f": "-0402-01-01",
+   "pencere_t": "-0324-01-01",
+   "pencere_yil": [
+    -402,
+    -324
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0402-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0324-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "CDLI P414699 Artaxerxes II 45 — NaBuCCo '2-25 Art ?' soru işaretli, ALINMADI",
+    "Selevkos/Part: bulunamadı — ama bit: MÖ 317 ⇒ nokta yok (VARLIK §1.1)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Lagaş (Tell al-Hiba)",
+   "lat": 31.41934,
+   "lon": 46.40968,
+   "kur": null,
+   "bit": "-1599-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-1599-01-01",
+   "pencere_yil": [
+    -2999,
+    -1599
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-1599-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y · akkad Ş · lagas-ii Y (Ur-Baba, Gudea) · ur-iii Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kiş (Tell Uhaimir)",
+   "lat": 32.54609,
+   "lon": 44.59316,
+   "kur": null,
+   "bit": "-0139-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0477-01-01",
+   "pencere_yil": [
+    -2999,
+    -477
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0477-01-01",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "part: Langdon 1934 'pottery of the periods … Seleucid, Parthian, and Sassanian' — SINIF cümlesi, sahiplik değil"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y (Mesilim ~2500) · akkad Ş · ur-iii Ş (çıkarım)",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kiş (Tell Uhaimir)",
+   "lat": 32.54609,
+   "lon": 44.59316,
+   "kur": null,
+   "bit": "-0139-01-01",
+   "pencere_f": "-0429-01-01",
+   "pencere_t": "-0325-01-01",
+   "pencere_yil": [
+    -429,
+    -325
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0429-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0325-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "part: Langdon 1934 'pottery of the periods … Seleucid, Parthian, and Sassanian' — SINIF cümlesi, sahiplik değil"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kiş (Tell Uhaimir)",
+   "lat": 32.54609,
+   "lon": 44.59316,
+   "kur": null,
+   "bit": "-0139-01-01",
+   "pencere_f": "-0315-01-01",
+   "pencere_t": "-0291-01-01",
+   "pencere_yil": [
+    -315,
+    -291
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "makedon",
+     "f": "-0315-01-01",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0291-01-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "part: Langdon 1934 'pottery of the periods … Seleucid, Parthian, and Sassanian' — SINIF cümlesi, sahiplik değil"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kiş (Tell Uhaimir)",
+   "lat": 32.54609,
+   "lon": 44.59316,
+   "kur": null,
+   "bit": "-0139-01-01",
+   "pencere_f": "-0271-01-01",
+   "pencere_t": "-0139-01-01",
+   "pencere_yil": [
+    -271,
+    -139
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "selefki",
+     "f": "-0271-01-01",
+     "t": "-0139-01-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "-0139-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "part: Langdon 1934 'pottery of the periods … Seleucid, Parthian, and Sassanian' — SINIF cümlesi, sahiplik değil"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Nippur (Nuffar)",
+   "lat": 32.12676,
+   "lon": 45.23056,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0489-01-01",
+   "pencere_yil": [
+    -2999,
+    -489
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0489-01-01",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: SE 158 senedi yalnız attalus.org'da (izinli değil) ⇒ kullanılmadı",
+    "selefki: Guinan 1976 'a Seleucid text dating from approximately 200 B.C.' — Nippur adlı değil (S)",
+    "part: Penn B14557A 'Vologases II, 111-112 CE' — kayıt '?' taşıyor, ALINMADI",
+    "erişilemedi: van der Spek 1992 'Nippur, Sippar, and Larsa in the Hellenistic Period'"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y · akkad Ş · ur-iii Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Nippur (Nuffar)",
+   "lat": 32.12676,
+   "lon": 45.23056,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0367-01-01",
+   "pencere_t": "-0316-01-01",
+   "pencere_yil": [
+    -367,
+    -316
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0367-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0316-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: SE 158 senedi yalnız attalus.org'da (izinli değil) ⇒ kullanılmadı",
+    "selefki: Guinan 1976 'a Seleucid text dating from approximately 200 B.C.' — Nippur adlı değil (S)",
+    "part: Penn B14557A 'Vologases II, 111-112 CE' — kayıt '?' taşıyor, ALINMADI",
+    "erişilemedi: van der Spek 1992 'Nippur, Sippar, and Larsa in the Hellenistic Period'"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Nippur (Nuffar)",
+   "lat": 32.12676,
+   "lon": 45.23056,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0315-01-01",
+   "pencere_t": "0001-01-01",
+   "pencere_yil": [
+    -315,
+    1
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "makedon",
+     "f": "-0315-01-01",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "0001-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: SE 158 senedi yalnız attalus.org'da (izinli değil) ⇒ kullanılmadı",
+    "selefki: Guinan 1976 'a Seleucid text dating from approximately 200 B.C.' — Nippur adlı değil (S)",
+    "part: Penn B14557A 'Vologases II, 111-112 CE' — kayıt '?' taşıyor, ALINMADI",
+    "erişilemedi: van der Spek 1992 'Nippur, Sippar, and Larsa in the Hellenistic Period'"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Nippur (Nuffar)",
+   "lat": 32.12676,
+   "lon": 45.23056,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "0101-01-01",
+   "pencere_t": "0640-01-01",
+   "pencere_yil": [
+    101,
+    640
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "part",
+     "f": "0101-01-01",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "hulefa-yi-rasidin",
+     "f": "0632-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0632-01-01 → 0661-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: SE 158 senedi yalnız attalus.org'da (izinli değil) ⇒ kullanılmadı",
+    "selefki: Guinan 1976 'a Seleucid text dating from approximately 200 B.C.' — Nippur adlı değil (S)",
+    "part: Penn B14557A 'Vologases II, 111-112 CE' — kayıt '?' taşıyor, ALINMADI",
+    "erişilemedi: van der Spek 1992 'Nippur, Sippar, and Larsa in the Hellenistic Period'"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Eridu (Abu Shahrain)",
+   "lat": 30.81999,
+   "lon": 45.99564,
+   "kur": null,
+   "bit": "0499-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "0499-01-01",
+   "pencere_yil": [
+    -2999,
+    499
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0499-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "karakene (DİZİNDE YOK)",
+     "f": "-0126-06-01",
+     "t": "0222-01-01",
+     "neden": "Olmstead 1937: Babil MÖ 127'de Karakene'de; KUNYE-SUMER-7-1010 §2.1 karakene YAZILMADI (t ucu tek kaynaklı)"
+    }
+   ],
+   "bulunan_izler": [
+    "Rendu-Loisel & Quenet 2020 'vestiges des périodes achéménide et hellénistique' — VARLIK, sahiplik değil (HUKUM §9.7)",
+    "BCHP 6 'within Eridu' = Babil'in Eridu mahallesi (Pleiades 54136919), bu nokta DEĞİL"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y · akkad Ş · ur-iii Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Umma (Tell Jokha)",
+   "lat": 31.66796,
+   "lon": 45.88679,
+   "kur": null,
+   "bit": "-0999-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0999-01-01",
+   "pencere_yil": [
+    -2999,
+    -999
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0999-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y · akkad Ş · ur-iii Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Şuruppak (Tell Fara)",
+   "lat": 31.77752,
+   "lon": 45.51047,
+   "kur": "-2949-01-01",
+   "bit": "-1999-01-01",
+   "pencere_f": "-2949-01-01",
+   "pencere_t": "-1999-01-01",
+   "pencere_yil": [
+    -2949,
+    -1999
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2949-01-01",
+     "t": "-1999-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y (KİENGİ MÖ 2600-2450)",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Larsa (Tell as-Senkereh)",
+   "lat": 31.28322,
+   "lon": 45.85245,
+   "kur": null,
+   "bit": "0300-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0408-01-01",
+   "pencere_yil": [
+    -2999,
+    -408
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0408-01-01",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: Corò 2018 'dating to Alexander IV, are already published texts from Larsa' — YILSIZ (IV. Aleksandros MÖ 317-310) ⇒ dilim yerleştirilemedi",
+    "Antigonos: Boiy, JCS 52 (2000) 'BM 105211 is a rental contract from Larsa' Antigonos 9. yılı — künye YOK",
+    "selefki: CDLI P342363 SE 86 (MÖ 225) — provenans '[uncertain]', ALINMADI",
+    "karakene (DİZİNDE YOK): Gregoratti 'seems to suggest' — ALINMADI",
+    "erişilemedi: van der Spek 1992"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y (Lugalzagesi) · ur-iii Ş · larsa Y · eski-babil Y (Hammurabi 1763)",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Larsa (Tell as-Senkereh)",
+   "lat": 31.28322,
+   "lon": 45.85245,
+   "kur": null,
+   "bit": "0300-01-01",
+   "pencere_f": "-0407-01-01",
+   "pencere_t": "0300-01-01",
+   "pencere_yil": [
+    -407,
+    300
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0407-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0300-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "karakene (DİZİNDE YOK)",
+     "f": "-0126-06-01",
+     "t": "0222-01-01",
+     "neden": "Olmstead 1937: Babil MÖ 127'de Karakene'de; KUNYE-SUMER-7-1010 §2.1 karakene YAZILMADI (t ucu tek kaynaklı)"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: Corò 2018 'dating to Alexander IV, are already published texts from Larsa' — YILSIZ (IV. Aleksandros MÖ 317-310) ⇒ dilim yerleştirilemedi",
+    "Antigonos: Boiy, JCS 52 (2000) 'BM 105211 is a rental contract from Larsa' Antigonos 9. yılı — künye YOK",
+    "selefki: CDLI P342363 SE 86 (MÖ 225) — provenans '[uncertain]', ALINMADI",
+    "karakene (DİZİNDE YOK): Gregoratti 'seems to suggest' — ALINMADI",
+    "erişilemedi: van der Spek 1992"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Girsu (Tell Telloh)",
+   "lat": 31.56039,
+   "lon": 46.17764,
+   "kur": null,
+   "bit": "-0549-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0549-01-01",
+   "pencere_yil": [
+    -2999,
+    -549
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0549-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": "ED Y (Eanatum 2450) · ur-iii Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Bad-tibira (Tell al-Madinah)",
+   "lat": 31.38326,
+   "lon": 46.00412,
+   "kur": "-1999-01-01",
+   "bit": "-0539-01-01",
+   "pencere_f": "-1999-01-01",
+   "pencere_t": "-0539-01-01",
+   "pencere_yil": [
+    -1999,
+    -539
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-1999-01-01",
+     "t": "-0539-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Zabalam (Tell Ibzeikh)",
+   "lat": 31.74339,
+   "lon": 45.87693,
+   "kur": null,
+   "bit": "-0999-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0999-01-01",
+   "pencere_yil": [
+    -2999,
+    -999
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0999-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": "akkad Ş (Rimuş isyanı 'Zabala')",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Marad (Tell Wannat es-Sadum)",
+   "lat": 32.08143,
+   "lon": 44.78556,
+   "kur": "-2699-01-01",
+   "bit": "-0029-01-01",
+   "pencere_f": "-2699-01-01",
+   "pencere_t": "-0029-01-01",
+   "pencere_yil": [
+    -2699,
+    -29
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2699-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "-0029-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "ahameni: CDLI P285918 'tablet excavated in Marad' Darius I — YILSIZ (saltanat MÖ 522-486) ⇒ dilim yerleştirilemedi"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kisurra (Tell Abu Hatab)",
+   "lat": 31.83817,
+   "lon": 45.48081,
+   "kur": "-2699-01-01",
+   "bit": "-1599-01-01",
+   "pencere_f": "-2699-01-01",
+   "pencere_t": "-1599-01-01",
+   "pencere_yil": [
+    -2699,
+    -1599
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2699-01-01",
+     "t": "-1599-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Isin (Ishan al-Bahriyat)",
+   "lat": 31.88532,
+   "lon": 45.26927,
+   "kur": null,
+   "bit": "-0329-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0329-01-01",
+   "pencere_yil": [
+    -2999,
+    -329
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0329-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "NaBuCCo 70 'Isin region' — yalnız metadata, bölge (S)",
+    "Hrouda RlA 5 / Isin II: Ahamenî dönemi iskân — VARLIK tanığı, sahiplik değil"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "ur-iii Ş · isin-i Y (Pleiades ca. 2017-1924) · isin-ii Y (ca. 1157-1026)",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Nina (Tell Zurghul)",
+   "lat": 31.37742,
+   "lon": 46.49509,
+   "kur": null,
+   "bit": "-0329-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0329-01-01",
+   "pencere_yil": [
+    -2999,
+    -329
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0329-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "bulunamadı (KASA-SUMER-VARLIK §1.1)"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Dilbat (Tell ed-Duleym)",
+   "lat": 32.2958,
+   "lon": 44.46689,
+   "kur": "-2699-01-01",
+   "bit": "0750-01-01",
+   "pencere_f": "-2699-01-01",
+   "pencere_t": "0750-01-01",
+   "pencere_yil": [
+    -2699,
+    750
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2699-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0651-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "hulefa-yi-rasidin",
+     "f": "0632-01-01",
+     "t": "0661-01-01",
+     "neden": "künye penceresi 0632-01-01 → 0661-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "emevi",
+     "f": "0661-01-01",
+     "t": "0750-01-01",
+     "neden": "künye penceresi 0661-01-01 → 0750-08-05 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "abbasi",
+     "f": "0749-11-28",
+     "t": "0750-01-01",
+     "neden": "künye penceresi 0749-11-28 → 1258-02-10 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "ahameni: NaBuCCo 115 Dābibī '(2 Nbn-0 Bēl-šimânni)' — arşiv Ahamenî yıllarını kapsıyor ama Ahamenî ucunun YILI okunmuyor (son uç bir isyancının 0. yılı)",
+    "CDLI P556688 Artaxerxes II 44 — '?' taşıyor, ALINMADI",
+    "CDLI P526920 Hellenistik okul metni — TARİHSİZ"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kutha (Tell Ibrahim)",
+   "lat": 32.76071,
+   "lon": 44.61139,
+   "kur": "-1999-01-01",
+   "bit": "0640-01-01",
+   "pencere_f": "-1999-01-01",
+   "pencere_t": "-0469-01-01",
+   "pencere_yil": [
+    -1999,
+    -469
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-1999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    },
+    {
+     "kunye": "ahameni",
+     "f": "-0538-01-01",
+     "t": "-0469-01-01",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: BCHP 3 '(2 March 309), he went down to Cuthah and he plundered' — Antigonos AKINI, sahiplik değil",
+    "kur: KASA-SUMER-KUNYE-BAG §1.4 kur:'u -1999 → -2253 düzeltmeyi öneriyor (Naram-Sin döneminde Kuta) — NOKTA diff'i -1999 taşıyor"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": "akkad Ş (Naram-Sin 'Kuta’daki Nergal')",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kutha (Tell Ibrahim)",
+   "lat": 32.76071,
+   "lon": 44.61139,
+   "kur": "-1999-01-01",
+   "bit": "0640-01-01",
+   "pencere_f": "-0454-01-01",
+   "pencere_t": "-0186-01-01",
+   "pencere_yil": [
+    -454,
+    -186
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0454-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "makedon",
+     "f": "-0330-10-18",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0186-01-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: BCHP 3 '(2 March 309), he went down to Cuthah and he plundered' — Antigonos AKINI, sahiplik değil",
+    "kur: KASA-SUMER-KUNYE-BAG §1.4 kur:'u -1999 → -2253 düzeltmeyi öneriyor (Naram-Sin döneminde Kuta) — NOKTA diff'i -1999 taşıyor"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Kutha (Tell Ibrahim)",
+   "lat": 32.76071,
+   "lon": 44.61139,
+   "kur": "-1999-01-01",
+   "bit": "0640-01-01",
+   "pencere_f": "-0185-01-01",
+   "pencere_t": "0640-01-01",
+   "pencere_yil": [
+    -185,
+    640
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "selefki",
+     "f": "-0185-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "hulefa-yi-rasidin",
+     "f": "0632-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0632-01-01 → 0661-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "makedon: BCHP 3 '(2 March 309), he went down to Cuthah and he plundered' — Antigonos AKINI, sahiplik değil",
+    "kur: KASA-SUMER-KUNYE-BAG §1.4 kur:'u -1999 → -2253 düzeltmeyi öneriyor (Naram-Sin döneminde Kuta) — NOKTA diff'i -1999 taşıyor"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Sippar (Tell Abu Habbah)",
+   "lat": 33.05974,
+   "lon": 44.25424,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-0538-01-01",
+   "pencere_yil": [
+    -2999,
+    -538
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-0538-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: BCHP 11 'Seleucia on the Euphrates (= Sippar ?)' — soru işaretli, ALINMADI",
+    "part: ADART 7 no. 212 'HE.SE.328' (MS 17) — BM 'Sippar' provenansı satın alma partisi, Babil kopyası olabilir, ALINMADI",
+    "part: Butcher 2015 'Sippar belonged to the northern pool of circulation' — sikke dolaşımı, sahiplik değil",
+    "erişilemedi: van der Spek 1992"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Sippar (Tell Abu Habbah)",
+   "lat": 33.05974,
+   "lon": 44.25424,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0482-01-01",
+   "pencere_t": "-0330-10-18",
+   "pencere_yil": [
+    -482,
+    -330
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "ahameni",
+     "f": "-0482-01-01",
+     "t": "-0330-10-18",
+     "neden": "künye penceresi -0538-01-01 → -0330-10-18 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: BCHP 11 'Seleucia on the Euphrates (= Sippar ?)' — soru işaretli, ALINMADI",
+    "part: ADART 7 no. 212 'HE.SE.328' (MS 17) — BM 'Sippar' provenansı satın alma partisi, Babil kopyası olabilir, ALINMADI",
+    "part: Butcher 2015 'Sippar belonged to the northern pool of circulation' — sikke dolaşımı, sahiplik değil",
+    "erişilemedi: van der Spek 1992"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Sippar (Tell Abu Habbah)",
+   "lat": 33.05974,
+   "lon": 44.25424,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0329-01-01",
+   "pencere_t": "-0267-01-01",
+   "pencere_yil": [
+    -329,
+    -267
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "makedon",
+     "f": "-0329-01-01",
+     "t": "-0307-01-01",
+     "neden": "künye penceresi -0330-10-18 → -0307-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "selefki",
+     "f": "-0311-01-01",
+     "t": "-0267-01-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: BCHP 11 'Seleucia on the Euphrates (= Sippar ?)' — soru işaretli, ALINMADI",
+    "part: ADART 7 no. 212 'HE.SE.328' (MS 17) — BM 'Sippar' provenansı satın alma partisi, Babil kopyası olabilir, ALINMADI",
+    "part: Butcher 2015 'Sippar belonged to the northern pool of circulation' — sikke dolaşımı, sahiplik değil",
+    "erişilemedi: van der Spek 1992"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Sippar (Tell Abu Habbah)",
+   "lat": 33.05974,
+   "lon": 44.25424,
+   "kur": null,
+   "bit": "0640-01-01",
+   "pencere_f": "-0266-01-01",
+   "pencere_t": "0640-01-01",
+   "pencere_yil": [
+    -266,
+    640
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": "selefki",
+     "f": "-0266-01-01",
+     "t": "-0126-06-01",
+     "neden": "künye penceresi -0311-01-01 → -0126-06-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "part",
+     "f": "-0140-07-03",
+     "t": "0226-01-01",
+     "neden": "künye penceresi -0140-07-03 → 0226-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "sasani",
+     "f": "0224-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0224-01-01 → 0651-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    },
+    {
+     "kunye": "hulefa-yi-rasidin",
+     "f": "0632-01-01",
+     "t": "0640-01-01",
+     "neden": "künye penceresi 0632-01-01 → 0661-01-01 bu aralıkla kesişiyor — ZARF, iddia değil (§9.6); şehri ADIYLA anan tarihli tanık gerekir"
+    }
+   ],
+   "bulunan_izler": [
+    "selefki: BCHP 11 'Seleucia on the Euphrates (= Sippar ?)' — soru işaretli, ALINMADI",
+    "part: ADART 7 no. 212 'HE.SE.328' (MS 17) — BM 'Sippar' provenansı satın alma partisi, Babil kopyası olabilir, ALINMADI",
+    "part: Butcher 2015 'Sippar belonged to the northern pool of circulation' — sikke dolaşımı, sahiplik değil",
+    "erişilemedi: van der Spek 1992"
+   ],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Tell al-Ubaid",
+   "lat": 30.97225,
+   "lon": 46.03051,
+   "kur": null,
+   "bit": "-2949-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-2949-01-01",
+   "pencere_yil": [
+    -2999,
+    -2949
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-2949-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": null,
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  },
+  {
+   "nokta": "Eşnunna (Tell Asmar)",
+   "lat": 33.48448,
+   "lon": 44.72814,
+   "kur": null,
+   "bit": "-1599-01-01",
+   "pencere_f": "-2999-01-01",
+   "pencere_t": "-1599-01-01",
+   "pencere_yil": [
+    -2999,
+    -1599
+   ],
+   "aday_kunyeler": [
+    {
+     "kunye": null,
+     "f": "-2999-01-01",
+     "t": "-1599-01-01",
+     "neden": "dizinde (data/devletler.js) bu aralığı kapsayan künye YOK — önerilenler KASA-SUMER-KUNYE-BAG §1.2 (sumer-kent-devletleri · akkad · lagas-ii · ur-iii · isin-i · larsa · eski-babil · kassit-babil · isin-ii · asur · yeni-babil)"
+    }
+   ],
+   "bulunan_izler": [],
+   "mo539_oncesi_halkalar_KASA_BAG": "ur-iii Ş",
+   "soru": "bu pencerede noktanın SAHİBİ kim? (şehri adıyla anan, tarihli, akademik tanık) — ya da nokta o aralıkta VAR MIYDI (§9.7)?"
+  }
+ ]
+}

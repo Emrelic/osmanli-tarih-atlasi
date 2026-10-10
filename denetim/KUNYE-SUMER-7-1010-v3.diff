@@ -1,0 +1,31 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index 199f1060..9648e691 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -10568,21 +10568,21 @@ window.DEVLETLER = [
+   ]
+ },
+ { id:"ahameni", ad:"Ahamenî (Pers) İmparatorluğu", tur:"imparatorluk", bolge:"iran",
+-  f:"-0538-01-01", t:"-0330-10-22", baskent:"— (kaynakta adı bulunamadı)", boya_gerekli:true,
++  f:"-0538-01-01", t:"-0330-10-18", baskent:"— (kaynakta adı bulunamadı)", boya_gerekli:true,
+   kesinlik:{f:"yil", t:"gun"},
+   ic_not_f:"ZARF, iddia değil (HUKUM-KASA-1010 §9.6): atlasın nokta kümesindeki EN ERKEN tasdik — Sippar, Grayson ABC 7 (Nabonid Kroniği, livius çevirisi): 'On the fourteenth day Sippar was captured without a battle.' (Nabonid 17. yılı = MÖ 539 ⇒ astronomik -0538). Ay/Jülyen gün çeviride yok ⇒ YIL; -0538-01-01 sınır işaretidir. ⚠️ Devletin kendisi daha eski: TDV iran 'Ahamenîler devrinde (m.ö. 559-330)' — bu künye Mezopotamya zarfıdır (koordinatör hükmü).",
+-  ic_not_t:"Babil'e giriş: livius-ADART notu '22 October 331' (Gaugamela 1 Ekim 331 sonrası) ⇒ MÖ 331 = astronomik -0330 — GÜN. TDV keldaniler/babil Mezopotamya ucunu '539-332' diziyor: dizi parantezi, olay cümlesi değil (KASA ⑧).",
+-  ozet:"Kyros'un kurduğu Pers imparatorluğu; Mezopotamya'yı MÖ 539'da aldı, Büyük İskender'in Babil'e girişiyle (MÖ 331) bölgede sona erdi. (kaynak: Grayson ABC 7 · Sachs–Hunger ADART I · TDV iran)",
++  ic_not_t:"🔴 v3 (SUMER-SAHIP-1010 KALEM 0 — örtüşme düzeltmesi): ZARF UCU, nokta kümesinden (HUKUM-KASA-1010 §9.6). Nokta kümesinde Ahamenî hâkimiyetinin GÜN düzeyinde son tanığı YOK; Makedon hâkimiyetinin ilk gün tanığı Sippar'dır — astronomik günlük -330, ay VII 11. gün: Sippar'dan Babillilere İskender'in emri ('Into your houses I shall not enter'), livius notu '18 October 331' ⇒ MÖ 331 = astronomik -0330 — GÜN. Zarf bu günde KAPANIR: makedon f ile aynı gün, örtüşme 0, boşluk 0. Eski değer -0330-10-22 Babil'e GİRİŞ günüydü ve iki sebeple zarf ucu olamaz: ① Babil atlasın nokta kümesinde YOK (yerleşim kaydı 0) ② giriş Makedon KAZANIMININ günüdür, Ahamenî hâkimiyetinin TASDİKİ değildir — 18 Ekim'de İskender Babillilere Sippar'dan zaten şart koşuyordu. ⚠️ Kaynağın iç tutarsızlığı: 11. gün = 18 Ekim ise 14. gün ('Alexander, king of the world, came into Babylon') = 21 Ekim; livius notu '22' diyor. Çeviri sayfada adla imzalı değil; birincil yayın Sachs–Hunger ADART I (1988) No. -330 ERİŞİLEMEDİ. TDV keldaniler/babil '539-332' dizi parantezidir, olay cümlesi değil (KASA ⑧).",
++  ozet:"Kyros'un kurduğu Pers imparatorluğu; Mezopotamya'yı MÖ 539'da aldı, Büyük İskender'in Babil'e girişiyle (MÖ 331) bölgede sona erdi; Sippar 4 gün önce İskender'in buyruğundaydı. (kaynak: Grayson ABC 7 · Sachs–Hunger ADART I · TDV iran)",
+   kaynak:"Grayson ABC 7 (Nabonid Kroniği) · Sachs–Hunger ADART I (-330) · NaBuCCo (ÖAW/KU Leuven) · CDLI · Oracc RIBo · TDV: iran · keldaniler · babil — KASA-SUMER-SAHIPLIK-1010",
+   kronoloji:[
+     { t:"-0538-01-01", tur:"toprak-kazanc", b:"Kyros Babil'i aldı; Sippar savaşsız teslim oldu (MÖ 539)", kaynak:"Grayson ABC 7 (yıl)" },
+-    { t:"-0330-10-22", tur:"son", b:"Gaugamela'dan sonra İskender Babil'e girdi; Ahamenî hâkimiyeti Mezopotamya'da sona erdi (MÖ 331)", kaynak:"Sachs–Hunger ADART I, livius notu '22 October 331' (gün)" }
++    { t:"-0330-10-18", tur:"son", b:"Gaugamela'dan sonra İskender Sippar'dan Babillilere emir gönderdi; Ahamenî hâkimiyeti Mezopotamya'da sona erdi (MÖ 331)", kaynak:"Sachs–Hunger ADART I -330, ay VII 11. gün — livius notu '18 October 331' (gün)" }
+   ]
+ },
+ { id:"makedon", ad:"Makedon (Argead) Krallığı — Mezopotamya", tur:"imparatorluk", bolge:"mezopotamya",
+   f:"-0330-10-18", t:"-0307-01-01", baskent:"Bâbil", boya_gerekli:true,
+   kesinlik:{f:"gun", t:"yil"},
+-  ic_not_f:"ZARF (HUKUM-KASA-1010 §9.6): nokta kümesindeki en erken tasdik — Sippar, Sachs–Hunger ADART I -330 'On the eleventh, in Sippar an order of Al[exander …]' + livius notu '18 October 331' ⇒ MÖ 331 = astronomik -0330 — GÜN. Babil'e giriş 4 gün sonra ('22 October 331'). ahameni t (-0330-10-22, Babil) ile 4 günlük örtüşme BEYANLIDIR: Sippar Babil'den önce düştü. Koordinatör onayı (KUNYE-SUMER-7-1010 ⓐ).",
++  ic_not_f:"ZARF (HUKUM-KASA-1010 §9.6): nokta kümesindeki en erken tasdik — Sippar, Sachs–Hunger ADART I -330 'On the eleventh, in Sippar an order of Al[exander …]' + livius notu '18 October 331' ⇒ MÖ 331 = astronomik -0330 — GÜN. Babil'e giriş 3-4 gün sonra (livius notu '22 October 331'). v3 (SUMER-SAHIP-1010 KALEM 0): ahameni t aynı güne (-0330-10-18) çekildi ⇒ örtüşme 0, boşluk 0; v2'deki '4 günlük beyanlı örtüşme' KALKTI.",
+   ic_not_t:"ZARF: en geç tasdik Finkel–van der Spek–Pirngruber BCHP 3 Rev.iv.32'-33' '[Year 8] of Alexander, the king, son of idem, and Seleu[cus the General (309/8). Month ?, day n' … '[the satrap of A]kkad went to Borsippa' — ay okunmuyor. Babil 8. yılı Nisan 309 → Mart 308 (aynı kronikte 7. yıl 'Month XII, day 2 (2 March 309)') ⇒ -0308-01-01 yazmak yılın TAMAMINDAN önce kalırdı (hicrî yıl tuzağının Babil eşi, CLAUDE.md §4). t = yılın bittiği mîlâdî yılın başı -0307-01-01 — YIL; Ocak-Mart 308 kalan payı beyanlıdır. selefki f (-0311) ile ~4 yıllık örtüşme BEYANLIDIR: 311-308 arası Babilonya'da iki iddia yan yanaydı (Diadokhoi; tarih formülü IV. Aleksandros + Seleukos birlikte). Koordinatör onayı (ⓑ). Argead değil 'iskender': belgeler İskender'in ölümünden (323) sonra da III. Philippos / IV. Aleksandros yıllarıyla tarihli (CDLI P414739 UET 4 43 'Philip Arrh. 07' = 317 · NaBuCCo '7 Alx IV' · Corò 2018). ⚠️ Boiy 2000 (JCS 52): Larsa BM 105211 Antigonos 9. yılı ⇒ 315-311 iki sahip.",
+   ozet:"Büyük İskender ve ardılları III. Philippos Arrhidaios ile IV. Aleksandros adına yürüyen Makedon hâkimiyeti; Mezopotamya'da Sippar ve Babil'in alınmasından (MÖ 331) Diadokhoi çekişmesinin son tarihli belgesine (MÖ 309/8) kadar; MÖ 312'den sonra Selevkos iddiasıyla yan yana. (kaynak: ADART I · CDLI · NaBuCCo · TDV babil)",
+   kaynak:"Sachs–Hunger ADART I (-330) · CDLI P414739 (UET 4 43), P342411 (OECT 9 74) · NaBuCCo 2 · Corò 2018 · Boiy, JCS 52 (2000) · Finkel–van der Spek–Pirngruber BCHP 3 · TDV: babil · keldaniler — KASA-SUMER-SAHIPLIK-1010",
