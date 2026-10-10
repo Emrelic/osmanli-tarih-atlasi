@@ -141,6 +141,62 @@ daha doğru mu"* diye sormak, **seçim ölçütünü sonuç sanmaktır.**
 ⇒ *Kararı değiştiremeyecek ölçüm yapılmaz* kuralı burada **ölçüm yapmamayı**
 emretti. Kuralı koordinatör yazmıştı; işçi onu koordinatöre geri uyguladı.
 
+### §3f 🔴 **BAĞDAT — KONTROL GRUBU SONUNDA BULUNDU** (KASA, aynı gece 05:4x)
+`§3b`de kontrol grubunun BOŞ olduğu yazılıydı. Boş değilmiş — yalnız **aynı
+kutunun içinde** aranması gerekiyordu:
+```
+Sümer/Irak kutusunda, SAHİP `ilhanli`:
+  Hille · Kerbelâ · Kûfe · Dîvâniye · Kût · Semâve · Dizfûl · Şüşter
+      ilk halka →  1281-01-01
+  BAĞDAT
+      ilk halka →  1258-02-10      (= `abbasi` künye `t`si)
+```
+**AYNI SAHİP · AYNI KUTU · İKİ BAŞLANGIÇ.**
+
+**Ⓑ bunu nasıl açıklar?** *"Bağdat'ın tarihi biliniyordu, ötekilerin
+bilinmiyordu."* — ve işte burada çöküyor: **o 8 noktanın İlhanlı başlangıcı
+Bağdat'la AYNI OLAY SİLSİLESİDİR** (1258 Irak seferi). Orada *bilinmeyen* bir
+tarih yok, **BAKILMAMIŞ** bir tarih var.
+⇒ `1281-01-01` bu 8 noktada bir **hassasiyet beyanı değil, bir ATLAMA.**
+Ⓐ'nın lehine ilk ciddi kanıt.
+
+⚠️ **AMA HİPOTEZ KAPANMADI** — ve bu uyarı burada duruyor çünkü koordinatör
+aynı gece **iki kez** aşırı iddia etti ve iki kez düzeltildi:
+```
+bu kanıt KUTU İÇİ bir kontrol ve 8 (+ Anadolu'nun 14'ü) noktayı açıklıyor
+bütün 1419'u açıklamıyor · %39'luk yanlışlık hâlâ KARIŞIK SINIF
+⇒ kanıt YÜKSELDİ, hipotez KAPANMADI
+```
+📌 Ve bir incelik: her Irak kasabası tam `1258-02-10`da düşmedi (Hille Bağdat'tan
+**önce** teslim oldu) — yani doğru günler farklı ama hepsi **~1258**, 1281 değil.
+23 yıllık fark bir belirsizlik değil, bir **KAYMA.**
+
+### §3g Ve hipotez bir DÜZELTME PROGRAMINA dönüştü
+İki somut küme, aynı sınıf:
+```
+IRAK    8 nokta — ilk halka 1281-01-01 `ilhanli`, gerçek olay ~1258
+ANADOLU 14 nokta — 1281-01-01'de BİTEN dönem aynı gün BAŞKA sahiple sürüyor
+         (11'i Selçuklu→İlhanlı: Kayseri · Tokat · Sivas · Van · Kırşehir ·
+          Erzincan · Erzurum · Bitlis · Elbistan · Kemah · Bayburt)
+```
+⇒ `KASA-1281-ILK-HALKA-1010`: ilk halkası `1281-01-01` olan noktalar **bölge +
+sahip** çiftine göre gruplanır; her grup için *"o sahibin o bölgeye girişi
+TARİHLENEBİLİR bir olay mı?"* sorulur.
+```
+EVET        → gerçek gün + kaynak ADIYLA        ⇒ DÜZELTME
+HAYIR       → gerçekten bilinmiyor              ⇒ `1281-01-01` MEŞRU (`D210`),
+                                                  DOKUNULMAZ
+ÖLÇÜLEMEDİ  → ayrı kova
+```
+🔴 **"HAYIR" kolu bu işin en önemli parçası:** program `1281-01-01`i topluca
+mahkûm etmek DEĞİL. Gerçekten bilinmeyen yerde o değer **doğrudur** —
+*hipotezi kanıt sanmak*, tam da bu dosyanın iki kez düzeltilme sebebiydi.
+📌 Ve `§4`ün *"komşu günü şartlı serbest"* kuralı burada bir kaldıraç: tek bir
+tarihlenmiş olay (Bağdat 1258-02-10) **onlarca komşu noktayı** düzeltebilir —
+şartları: komşunun günü kendi kaynağına dayanır · aynı olay/süreç · yakın
+konum · kayda *"gün komşudan: <komşu> · <kaynağı>"* yazılır · **zincirleme
+devralma YASAK.**
+
 ## §4 Düzeltmenin kendisi ders
 
 Koordinatör (YILDIRIM BAYEZIT) bu dosyanın ilk sürümünü tur 1'den **bir saat
