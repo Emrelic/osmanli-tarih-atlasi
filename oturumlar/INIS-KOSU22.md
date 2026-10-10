@@ -546,9 +546,180 @@ B GRUBU — KOŞU 22c BİTENE KADAR BEKLER
    ② koşu sonrası ÖLÇÜLECEK iki tavan (TABAN 190 · D5C 2449)
    ③ üretilmiş haritayı okuyan her ölçüm (D8 · `coz-c` İKİLİSİ, `§5`)
 ```
+
+### 🔴 10.1 LAB ÖLÇTÜ VE YUKARIDAKİ ②'NİN GEREKÇESİ YANLIŞTI
+(`LAB-INIS-AB-1010`, `origin/makine/lab@e9a5ce704` · ağaç `681e2a82`)
+```
+ÖLÇÜM : BEKLENEN_TABAN_OLCULEMEDI=190  (SAHIPLIK-KAPSAM-v3.diff:1138)
+        BEKLENEN_D5C=2449              (D5-GUN-v3.diff:41 · NEG-SONRA.diff:26)
+        🔴 İKİSİ DE ÜRETİLMİŞ DOSYA OKUMUYOR
+SEBEP : B olmalarının sebebi KOŞU DEĞİL — **A grubundaki veri/yama
+        kalemleri bu kümeleri oynatıyor**
+```
+⇒ Doğru etiket **"koşu sonrası"** değil, **"A-İNİŞİ SONRASI"**. Fark bir
+ayrıntı değil bir TAKVİM: koşuya bağlamak onları 22c'nin sonuna
+erteliyordu; doğru yer **A grubu tam indikten hemen sonra**, ve
+`§3.4 ②` gereği **sabitleriyle AYNI COMMIT'TE.**
+📌 Kusur sınıfı: *bir kalemin NİÇİN beklediğini ölçmeden, beklediği şeyi
+en görünür sebebe (koşu) bağlamak.* Koşu o anda ölmüştü ve dikkatimi
+tutuyordu ⇒ **en taze olay, en kolay gerekçe oldu.** LAB kodda aradı ve
+bulamadı; ben koymuştum.
+🔴 Ve bir rahatlatıcı ölçüm: **motor çıktısına bağlı YENİ ③ tavanı YOK (0).**
+`VERILI_DELIK` (None) · KASA-GORUNURLUK'un üç yeni veri tavanı (110/112/27)
+· `2S_YALNIZ_TARAF` · `ONCE` · `ASAN` · `ODAK-TAVAN` · `KAYNAK-TAVAN` ·
+`ARDIL_BOSLUK` — hiçbiri üretilmiş dosya okumuyor; `D8A`/`D8B`'yi de
+hiçbir kalem değiştirmiyor. ⇒ Korktuğum *"A'da inip de arada kalan
+commit'te doğru çıktıyı reddedecek üçüncü bir tavan"* **yok.**
+
+### 🔴 10.2 ÜÇÜNCÜ KOVA: **A-ŞERHLİ** — iner, DOĞRULAMASI beyanla ertelenir
+LAB iki sınır kalemi getirdi ve benim ② tanımımın belirsiz olduğunu
+gösterdi (`KOSU-YAYIN-KAPI (Z1)` · `ZAMAN-Z1-ARAC`): kodları üretilmiş
+dosyaya dokunmuyor, ama **SINAVLARI** `--gercek` kipinde
+`devletler_harita.js` istiyor. ⇒ Tanımım harfiyen uygulanırsa B, ruhuyla A.
+Ayrımı netleştiriyorum:
+```
+İNİŞ sorusu     : bu commit `main`e girince DOĞRU mu?        → A/B'yi bu belirler
+DOĞRULAMA sorusu: bugün ÇALIŞTIĞINI kanıtlayabilir miyiz?    → A/B'yi belirlemez
+```
+⇒ **A-ŞERHLİ**: kod doğruluğu taze haritadan BAĞIMSIZ doğrulanabiliyorsa
+kalem **iner**, ve koşturulamayan sınav **ADIYLA + KOMUTUYLA** bir listeye
+yazılır (`INIS §9`'un duyuru listesine komşu bir kova).
+🔴 **İSTİSMAR KAPISI KAPALI — iki şart, ikisi de zorunlu:**
+```
+① kalemin kendi doğruluğu taze harita OLMADAN gösterilebilmeli
+   (birim sınavı · py_compile · node yükleme · ÖNCE/SONRA denetle kıyası)
+② ertelenen sınav ADIYLA, KİPİYLE ve KOMUTUYLA yazılmalı —
+   "sonra koşturulur" YASAK, "`py denetim/X.py --gercek` · KOŞU 22c
+   sonrası" ZORUNLU
+```
+📌 Bu, `boya_gerekli:true` deseninin SINAV yüzü (`§3.4 ⑦`): *beyanlı borç,
+sessiz borçtan iyidir* — ve `INIS-SIRA`nın zaten "sınavsız indi" diye
+işaretlediği altı kalemle (F4/F5/F6/K2/P5/P6) **aynı kova.** O altısı bu
+kovanın adsız hâliydi; artık adı var.
+⇒ HÜKÜM: `KOSU-YAYIN-KAPI (Z1)` ve `ZAMAN-Z1-ARAC` **A-ŞERHLİ.** İkiye
+bölmek (kod A / sınav B) gereksiz: sınav ayrı bir kalem değil, bir kalemin
+ertelenmiş yarısı — ve ayrı kalem yapmak envanteri şişirir.
+
+### 🔴 10.3 BİR YIĞIN, DONMA SINIRININ İKİ YAKASINA BÖLÜNEMEZ
+LAB'in çatışması: `F2 SAHIPLIK-KUR-KAPI` ve `F6 KASA-DIKIS-v3` A'da ama
+B'deki `F1`/`F3`'e bağlı ⇒ tek başlarına `main`e inemezler.
+```
+HÜKÜM — RİSK ASİMETRİSİ karar verir:
+   F2/F6 → B'ye ÇEKİLİR (varsayılan)
+   F1/F3 → A'ya ALINMAZ
+```
+Gerekçe: F2/F6'yı aşağı çekmek **hiçbir şeyin doğruluğunu** değiştirmez,
+yalnız ZAMANLAMASINI. F1/F3'ü yukarı almak **iki kalemin RİSKİNİ**
+değiştirir — ve F1/F3 ① (TUZ) yüzünden B'deyse zaten İMKÂNSIZ: koşu
+sürerken tuz donmuştur (`§9.1 ③`).
+⚠️ LAB: F1/F3'ün hangi ölçütten B'de olduğunu yaz. ① ise konu kapanır
+(F2/F6 B'de kalır). YALNIZ ② ise F1/F3+F2/F6 dördü birden **A-ŞERHLİ**
+olabilir — o zaman yeniden bakarım.
+📌 Genel kural: **bağımlılık yönü kovayı belirler, tersi değil.** Bir
+yığının en kısıtlı üyesi bütün yığının kovasını tayin eder.
+
+### ⚠️ 10.4 VE BİR YOL HATAM — `INIS-SIRA-1010.md` DEDİĞİM YERDE DEĞİL
+```
+söylediğim : oturumlar/INIS-SIRA-1010.md
+GERÇEK     : denetim/INIS-SIRA-1010.md · origin/makine/umit@371961c8e
+             blob 43cd59af · origin/main'de YOK
+```
+⇒ İşçilere *"`oturumlar/INIS-SIRA`yı oku"* dedim ve o yolda dosya yok.
+Bu gece **üçüncü** kez aynı aile (dosya henüz yazılmamıştı · alet main'de
+değildi · şimdi dosya BAŞKA YERDE). LAB doğru davrandı: yolu arayıp
+bulamayınca **evreni kendi kurdu** ve sayıları `INIS` ile kıyasladı —
+154 · 52 inmiş · 50 uygulanabilir · 52 çakışan **birebir tuttu.**
+⚠️ Ama LAB'in şerhi duruyor: sayılar tuttu, **AD AD aynı olduğu
+doğrulanamadı**; `envanter.json` hiçbir dalda yok ve takipsiz diffler
+yüzünden LAB 132, `INIS` 134 diyor. ⇒ İki fark ADIYLA bulunacak;
+`ÖLÇÜLEMEDİ` değil, **AÇIK KALEM.**
+🔴 ⇒ `INIS-SIRA-1010.md` **`main`e gelecek** (A grubu, koordinatör kalemi):
+bir inişin otoritesi tek bir makinenin dalında duramaz — `§7.2`nin
+*"dalda çalışan bir makine `main`e yazılanı HİÇ görmez"* şerhinin
+tersi: **`main`de olmayan bir otoriteyi hiçbir makine göremez.**
+
+### 📊 10.5 ÖLÇÜM SONUCU — ve öngörü İKİNCİ KEZ aynı yönde yanıldı
+```
+          ÖNGÖRÜ (LAB §0)          ÖLÇÜM
+A              95                   134
+B              45                    20   (2'si zaten inmiş ⇒ AÇIK 18)
+ÖLÇÜLEMEDİ     14                     0
+yeni ③ tavan    3                     0
+evren: 154 KALEM / 154 DİFF / 359 DOSYA · 86 kalem YALNIZ `data/*.js`
+B ölçüt dağılımı: yalnız ① 11 · yalnız ② 5 · ①+② 1 (NEG-B-v2) · yalnız ③ 3
+```
+🔴 Öngörü **KÖTÜMSER** çıktı ve LAB bunu adlandırdı: *"arama türü işte bu
+gece ikinci kez aynı yön."* ⇒ KASA'nın tahmin disiplini refinement'ının
+(**yanlılığın YÖNÜ çıkarsanamaz; SORU TÜRÜ belirler**) ikinci teyidi:
+**ARAMA/SINIFLAMA türü sorularda yanlılık KÖTÜMSER** (beklenenden az
+engel bulunur), çünkü tahmin eden kişi engeli HAYAL EDEBİLİYOR ama
+engelsizliği sayamıyor. ⇒ Bundan sonra bir arama işine öngörü yazan
+oturum bu yönü ADIYLA yazar ve ona göre pay bırakır.
+
 ⇒ `§9.1 ③`ün dördüncü şartı (*koşu bitene kadar tuz içeren hiçbir commit
 `main`e girmez*) **B grubuyla** korunuyor; A grubu `main`i ilerletirken
 HAVVA'nın worktree'si yerinde kalır ve tuz değişmez.
 📌 Ayrım kalıcı çünkü sebebi kalıcı: **bir inişin bir koşuya bağlı olması
 bir gereklilik değil, bir ALIŞKANLIKTI.** Kalemlerin çoğu motor çıktısına
 dokunmuyor; dokunanlar ADIYLA B grubundadır.
+
+### 🔴 10.6 B TEK KOVA DEĞİL — ÖLÇÜT KOVAYI BELİRLİYOR, VE 8 KALEM BUGÜNE AÇILDI
+
+LAB'in ölçüt dökümünü kendi ağacımda bağımsız saydım (`LAB-INIS-AB-1010.csv`,
+154 satır): **A 134 · B 20** · ① 11 · ② 5 · ①+② 1 · ③ 3 · açık B **18**.
+Birebir tuttu. Ama döküm `10.1`in sonucuyla birlikte okununca B'nin
+**tek kova olmadığı** görünüyor:
+
+```
+B③   3 KALEM   D5-GUN-1010-v3 · D5-GUN-1010-NEG-SONRA · SAHIPLIK-KAPSAM-1010-v3
+     ⇒ KOŞUYU BEKLEMİYOR. `10.1`de ölçüldü: bu üçü üretilmiş dosya
+       OKUMUYOR; bekledikleri şey A GRUBUNUN İNMESİ. ⇒ A tam indikten
+       HEMEN SONRA iner, ve tavan (190 · 2449) YENİDEN ÖLÇÜLÜP
+       SABİTLE AYNI COMMIT'TE yazılır (`§3.4 ⓪`+②).
+B②   5 KALEM   DENETLE-TARIH-KALAN-1008 · KOSU-YAYIN-LISTE-1010 ·
+               KOS-VE-YAYINLA-ADD-1010 · OLCUM-AGACI-1010 ·
+               YAYIN-KAPI-OLCULEMEDI-1010
+     ⇒ **A-ŞERHLİ ADAYI** (`10.2`): kodları taze harita olmadan
+       doğrulanabiliyorsa iner, `--gercek` sınavı 22c sonrasına ADIYLA
+       ve KOMUTUYLA ertelenir.
+     ⚠️ İKİ İSTİSNA, ve sebebi `§9`: `KOSU-YAYIN-LISTE` ve
+       `KOS-VE-YAYINLA-ADD` YAYIN ZİNCİRİ kalemleri. `§9` bu inişte
+       zincirin yayın kiplerini KULLANMIYOR ⇒ bu ikisi inse bile
+       bu gece hiçbir şeyi değiştirmez, ama `kosu_yayin`ın
+       "her sıfır-dışı kodu borç sayma" kusurunu KAPATIYORLAR
+       ⇒ İNMELERİ İYİDİR (kapı sıkılaşır), yalnız sınavları ertelenir.
+B①  11 KALEM   BOYA-BORC ×2 · BOYA-PARTISI ×2 · C3-YURUYUS-SUZGEC ·
+               GIRDI-TEKIL · TUZ-DORT-DOSYA-v3 · TUZ-YUKSEKLIK ·
+               ZAMAN-PAKET ×2 · ZAMAN-Z1-MOTOR
+     ⇒ **KOŞU 22c BİTENE KADAR BEKLER, İSTİSNASIZ.** Tuz donmuştur
+       (`§9.1 ③`) ve bunlar tam o dört dosyaya dokunuyor.
+B①+② 1 KALEM   NEGATIF-YIL-1010-B-v2  ⇒ ① BASKIN, bekler.
+```
+🔴 **HÜKÜM: B③ + B② (ikisi şerhli) = 8 kalem BUGÜNE açıldı.** Koşuya bağlı
+kalan gerçek sayı **12**, benim dün akşam sandığım gibi "koşu bitmeden
+hiçbir şey inmez" değil.
+📌 Ders, `§3.4 ⑤`in kardeşi: **bir kovanın ADI (B) içindekinin SINIFINI
+belirlemez** — ve bu, `D271`in (*kovanın adı sınıfını belirlemez*) birebir
+tekrarı, bu kez benim kendi kovamda. "B" adını koyarken onu *"koşuyu
+bekleyenler"* diye tanımladım; ölçüm 20 kalemin **8'inin** koşuyla
+ilgisi olmadığını gösterdi. Kovayı ÖLÇÜT yapar, AD değil.
+
+### 🔴 10.7 F YIĞINI — F2/F6 B'ye ÇEKİLMİYOR, SIRAYA giriyor
+`10.3`te varsayılan olarak *"F2/F6 → B"* demiştim. `10.6` onu geçersiz
+kıldı: F2/F6'nın bağlı olduğu F1/F3, **B③**te — yani KOŞUYU beklemiyorlar.
+```
+SIRA (hepsi BUGÜN):
+   ① A grubu (134 kalem; 5'i 11:10'da indi)
+   ② B③ — üç tavan kalemi, tavanlar YENİDEN ÖLÇÜLÜP sabitle aynı commit'te
+   ③ A-SON — SAHIPLIK-KUR-KAPI-1010 · KASA-DIKIS-KAPI-1010
+             (A'dalar ama F1/F3'e bağlı ⇒ onlardan SONRA)
+   ④ B② — şerhli, sınavları ertelenerek
+   ⑤ (22c bittikten sonra) B① 11 + B①+② 1
+```
+⇒ `10.3`ün *"bir yığın donma sınırının iki yakasına bölünemez"* kuralı
+yerinde duruyor — ama **F1/F3 donmanın İÇİNDE DEĞİLMİŞ.** Kural doğruydu,
+sınırı yanlış yere çizmiştim. ⇒ Çare kovaları değiştirmek değil
+**SIRA vermek**: bağımlılık bir kova sorunu değil, bir SIRA sorunudur —
+ve yalnız ikisi aynı kovada olamadığında kova sorunu olur.
+📌 LAB'in DIFF-CARPISMA ölçümü (8 zorunlu sıra) bu yüzden kıymetli: sıra
+zaten ölçülmüştü, ben onu kova diye okudum.
