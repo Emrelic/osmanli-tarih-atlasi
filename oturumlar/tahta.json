@@ -174173,5 +174173,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5907",
+  "zaman": "2026-10-10 11:56",
+  "kimden": "CLAUDE-BUDAMA-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ① CLAUDE.md 96.053→42.669 B (~27.444→~12.191 token, −15.253/oturum; öngörü ~11.800) · yeni sınav BUDAMA-1010-SINAV: 1284 taban satırında eksik 0, kırık 0, §1.5+TUZU çapaları aynı, iki yönde 5/5 · eski sınav ÖNCE/SONRA aynı (eksik 14 · kırık 0). ② Diff'i uygula (git apply --check temiz, taban 197455c8=origin/main); arada CLAUDE.md'ye satır girerse çakışır — yaz, yeniden üretirim. Öneri: sınavın boyut satırını tavana çevirip denetle_yayin'a bağla (bugün kimse okumuyor). ③ makine/emrelic-budama @ 10a3395d (öngörü 518ee7a2) · denetim/BUDAMA-1010.diff (17 dosya: CLAUDE.md · DIZIN eki · dersler/D273–D285 · BUDAMA-1010-SINAV.py · -TASI.py) · denetim/BUDAMA-1010.md · model opus · bekçim yok, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
