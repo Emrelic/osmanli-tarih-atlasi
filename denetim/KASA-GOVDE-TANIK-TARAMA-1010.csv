@@ -1,0 +1,61 @@
+orneklem,sira,ad,dosya,d,f,t,L,C2,U,uc,hukum,not,ara_sahip_ya_da_varlik,tanik
+G,1,Chiang Hung (Jinghong),yerlesimler_a78_asya.js,san-devletleri,1281-01-01,1913-01-01,632.0,0.0,632.0,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi; tusi/tâbiyet,,"明史 315; 清史稿 74,514"
+G,2,Mao (Kanem),yerlesimler_e9353f.js,kanem-bornu,1281-01-01,1902-01-01,621.0,0.0,621.0,HİÇBİRİ,ÖLÇÜLEMEDİ,VARLIK sorusu açık (1898?),,
+G,3,Saarbrücken,yerlesimler_avrupa.js,almanya,1281-01-01,1920-01-10,639.0,0.03,617.0,HİÇBİRİ,YANLIŞ,,Fransa 1801→1815 (+ KÜNYE-ARALIĞI 1815-1871 Prusya),EB1911 Saarbrücken
+G,4,Klagenfurt,yerlesimler_a78_avrupa.js,avusturya,1335-05-01,1918-11-12,583.5,0.0,583.5,BAŞ,ÖLÇÜLEMEDİ,kısmi; 1797 süresiz,,
+G,5,Kano,yerlesimler_e9353f.js,hausa-sehir-devletleri,1281-01-01,1807-01-01,526.0,0.0,526.0,HİÇBİRİ,TEMİZ-ZAYIF,uç 1807 ✓,,"TDV kano, hevsa"
+G,6,Zaria (Zazzau),yerlesimler_e9353f.js,hausa-sehir-devletleri,1281-01-01,1806-01-01,525.0,0.0,525.0,HİÇBİRİ,TEMİZ-ZAYIF,uç 1806 ✓,,TDV osman-b-fudi
+G,7,Limbang,yerlesimler_a78_asya.js,brunei-sultanligi,1368-01-01,1890-01-01,522.0,0.0,522.0,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi; uç 1890 ✓,,Baring-Gould & Bampfylde 1909
+G,8,Baram (bölge),yerlesimler_a78_asya.js,brunei-sultanligi,1368-01-01,1882-01-01,514.0,0.0,514.0,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi; uç ✓,,
+G,9,Niah kıyısı (bölge),yerlesimler_a78_asya.js,brunei-sultanligi,1368-01-01,1882-01-01,514.0,0.0,514.0,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi,,
+G,10,Bintulu,yerlesimler_a78_asya.js,brunei-sultanligi,1368-01-01,1861-01-01,493.0,0.0,493.0,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi; uç 1861 ✓,,
+G,11,Noemuti,yerlesimler_a78_asya.js,timor-beylikleri,1281-01-01,1769-10-10,488.8,0.0,488.8,HİÇBİRİ,YANLIŞ,SINIR (Topass timor-beylikleri'ne dahil mi),Topass (Da Costa) enklavı ~1749/57→1769,Hägerdal 2012
+G,12,Suai,yerlesimler_a78_asya.js,timor-beylikleri,1281-01-01,1769-10-10,488.8,0.0,488.8,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi,,
+G,13,Maliana,yerlesimler_a78_asya.js,timor-beylikleri,1281-01-01,1769-10-10,488.8,0.0,488.8,HİÇBİRİ,ÖLÇÜLEMEDİ,,,
+G,14,Viqueque,yerlesimler_a78_asya.js,timor-beylikleri,1281-01-01,1769-10-10,488.8,0.0,488.8,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi,,
+G,15,Baucau,yerlesimler_a78_asya.js,timor-beylikleri,1281-01-01,1769-10-10,488.8,0.0,488.8,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi,,
+G,16,Labuan (Victoria),yerlesimler_a78_asya.js,brunei-sultanligi,1368-01-01,1847-01-01,479.0,0.0,479.0,HİÇBİRİ,ÖLÇÜLEMEDİ,kısmi; uç ✓; 1846'da ıssız,,EB1911 Labuan
+G,17,Ning'er (Pu'er),yerlesimler_a78_asya.js,san-devletleri,1281-01-01,1729-01-01,448.0,0.0,448.0,HİÇBİRİ,YANLIŞ,,"Qing idaresi 1659/1664→ (atlas sonu 1729, ~65 yıl geç)",清史稿 卷74
+G,18,Madrid,yerlesimler.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa (Joseph krallığı) 1808-12-03→1812-08-12,EB1911 Peninsular War
+G,19,Sevilla,yerlesimler.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa (Joseph) 1810-01-31→1812-08-27,EB1911 PW; Oman V
+G,20,Barselona,yerlesimler.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransız himayesi 1640-1652; Fransa 1809-1814 (1812 doğrudan ilhak),EB1911 Barcelona; Oman V
+G,21,Valensiya,yerlesimler.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa 1812-01→1813-06 (ilhak/Joseph ayrımı ölçülemedi),EB1911 Valencia
+G,22,Toledo,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,YANLIŞ'a eğilimli,,
+G,23,Valladolid,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa 1808-12→1812-07-30,EB1911 PW
+G,24,León,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,YANLIŞ'a eğilimli,,
+G,25,Oviedo,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,YANLIŞ'a eğilimli (iki uç farklı ciltlerde),,Oman III-IV
+G,26,Bilbao,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa 1808→1813,EB1911 Bilbao (doğrulandı)
+G,27,Cuenca,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,,,
+G,28,Badajoz,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa 1811-03-10→1812-04-06,EB1911 Badajoz (doğrulandı)
+G,29,Kurtuba (Córdoba),yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,YANLIŞ'a eğilimli (iki uç farklı ciltlerde),,Oman III-V
+G,30,Jaén,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,YANLIŞ'a eğilimli,,"Oman III,V"
+G,31,Murcia,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,TEMİZ-ZAYIF,,,
+G,32,Cartagena,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,TEMİZ-ZAYIF,1706-07 talip; 1873-74 kanton,,
+G,33,A Coruña,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,TEMİZ-ZAYIF,Fransız 1809 <1 yıl,,
+G,34,Santiago de Compostela,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,TEMİZ-ZAYIF,Fransız 1809 <1 yıl,,
+G,35,Vigo,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,TEMİZ-ZAYIF,Fransız 1809 <1 yıl,,
+G,36,Tarragona,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa 1811-06-28→1813-08-17,EB1911 PW
+G,37,Lleida,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,"Fransa 1810-05-14→1814 (1812 doğrudan ilhak, Bouches-de-l'Èbre merkezi)",EB1911 PW; Oman V
+G,38,Girona,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,YANLIŞ,,Fransa 1694→1697 (Ryswick); 1809-14 doğrudan ilhak (Ter merkezi) ayrıca eğilimli,"EB1911 Gerona; Oman V,VII"
+G,39,Alicante,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,TEMİZ-ZAYIF,,,
+G,40,Castellón,yerlesimler_avrupa.js,ispanya,1479-01-20,1923-10-29,444.8,0.0,443.8,BAŞ,ÖLÇÜLEMEDİ,,,
+K,1,Korfu,yerlesimler.js,venedik,1386-01-01,1797-10-17,411.8,1.0,0.8,İKİ UÇ,TEMİZ,,,EB1911 Corfu
+K,2,Feyzâbâd (Bedahşan),yerlesimler_a78_asya.js,buhara,1584-01-01,1657-01-01,73.0,1.0,0.0,İKİ UÇ,ÖLÇÜLEMEDİ,,,
+K,3,Sivas,yerlesimler.js,selcuklu,1184-01-01,1281-01-01,97.0,0.61,38.0,BAŞ,TEMİZ-ZAYIF,1243 sonrası İlhanlı nüfuzu = v:,,TDV sivas
+K,4,Udbina,yerlesimler_ek29.js,macaristan-habsburg,1813-01-01,1918-11-11,105.9,0.5,52.9,SON,ÖLÇÜLEMEDİ,,,
+K,5,Gospić,yerlesimler_ek29.js,macaristan-habsburg,1813-01-01,1918-11-11,105.9,0.5,52.9,SON,ÖLÇÜLEMEDİ,kısmi,,
+K,6,Iriba,yerlesimler_afrika2.js,vaday,1635-01-01,1909-06-02,274.4,1.0,0.4,İKİ UÇ,ÖLÇÜLEMEDİ,,,
+K,7,Sintang,yerlesimler_a78_asya.js,hollanda-dogu-hint,1822-12-02,1923-10-29,100.9,0.77,22.9,BAŞ,ÖLÇÜLEMEDİ,,,
+K,8,Kayseri,yerlesimler.js,selcuklu,1169-01-01,1281-01-01,112.0,1.0,0.0,İKİ UÇ,TEMİZ-ZAYIF,,,TDV kayseri
+K,9,Malta,yerlesimler.js,napoli,1282-03-30,1530-03-24,248.0,0.99,2.0,İKİ UÇ,YANLIŞ,,"yanlış sahip: Aragon 1284→, Kastilya 1410→ (napoli değil)",TDV malta; EB1911 Malta
+K,10,Fada (Ennedi),yerlesimler_afrika2.js,vaday,1635-01-01,1909-06-02,274.4,1.0,0.4,İKİ UÇ,ÖLÇÜLEMEDİ,,,
+K,11,Bosna Dubiçası (Bosanska Dubica),yerlesimler_ek29.js,macaristan,1281-01-01,1526-08-29,245.7,0.53,116.7,SON,ÖLÇÜLEMEDİ,kısmi; Hrvoje 1398-1402 (egemen adlandırılmıyor),,HE Kozarska Dubica
+K,12,Kars,yerlesimler.js,ilhanli,1256-01-01,1340-01-01,84.0,0.95,4.0,İKİ UÇ,TEMİZ,"uç 1336↔1340, eşik altı",,TDV kars
+K,13,Niğde,yerlesimler.js,selcuklu,1214-01-01,1308-01-01,94.0,0.71,27.0,BAŞ,ÖLÇÜLEMEDİ,kısmi,,TDV nigde
+K,14,Ounianga,yerlesimler_afrika2.js,vaday,1635-01-01,1909-06-02,274.4,1.0,0.4,İKİ UÇ,ÖLÇÜLEMEDİ,,,
+K,15,Mliyet (Mljet),yerlesimler.js,macaristan,1358-02-18,1459-03-07,101.0,1.0,0.0,İKİ UÇ,YANLIŞ,,başlangıç ~52 yıl erken: Dubrovnik 1410 (1358-1410 egemen adlandırılmıyor),HE Mljet
+K,16,Karlovac,yerlesimler_ek29.js,macaristan-habsburg,1813-01-01,1918-11-11,105.9,0.5,52.9,SON,TEMİZ-ZAYIF,,,HE Karlovac
+K,17,Kostayniçe (Kostajnica),yerlesimler_ek29.js,macaristan-habsburg,1813-01-01,1918-11-11,105.9,0.5,52.9,SON,YANLIŞ,SINIR (HE resmî 1809-15 ↔ fiilî 1813),İlirya Eyaletleri 1813→1815,HE Hrvatska Kostajnica
+K,18,Kabartay (Nalçik),yerlesimler.js,kabartay,1441-01-01,1774-07-21,333.6,1.0,0.6,İKİ UÇ,ÖLÇÜLEMEDİ,kısmi; Osmanlı doğrudan idaresi tarihsiz,,TDV kabartaylar
+K,19,İstanbul,yerlesimler.js,bizans,0330-05-11,1204-04-13,873.9,0.78,195.9,BAŞ,TEMİZ,,,TDV istanbul
+K,20,Drežnik (Drežnik Grad),yerlesimler_ek29.js,macaristan-habsburg,1813-01-01,1918-11-11,105.9,0.5,52.9,SON,ÖLÇÜLEMEDİ,kısmi,,
