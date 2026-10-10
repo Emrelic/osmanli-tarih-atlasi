@@ -261,13 +261,26 @@ sentetik kanıt: 11 noktaya ahameni penceresi eklenince -0400-06-15'te
 📌 Ve bu sabah YENİ MÖ bölgeleri için şartnameye yazdığım kural tam bu:
 *"🔴 HİÇBİR NOKTAYI `s:`SİZ YAZMA."* Sümer paketi o kuraldan ÖNCE yazılmış
 ⇒ kural doğruydu, paket ona uymuyor.
-🔴 **MÖ'NÜN DÖRTLÜ ÖN KOŞULU** (hepsi bir sonraki tam inşaya):
+🔴 **MÖ'NÜN BEŞLİ ÖN KOŞULU** (hepsi bir sonraki tam inşaya):
 ```
 ① NEGATIF-YIL-A2      suzgec.js — FAZ 1'de İNİYOR ✅
 ② KUNYE-SUMER-7-v3    4 günlük örtüşme kalkar
 ③ SUMER-SAHIP-1010    21 noktaya KAYNAKLI `s:` · bilinmeyen `bos:`/`bit:`
 ④ MOTOR-GECISLI       `bit:`li noktaların peteği GEÇİŞLİ devrolur
+⑤ NEG-B-v2            MÖ KRONOLOJİ MADDESİ için — aşağıda
 ```
+⚠️ **BU SAYI 08:48'de "DÖRTLÜ"ydü ve 09:00'da BEŞ oldu** — tam uyardığım
+bayatlık, kendi belgemde. Sayıyı değiştiren ölçüm (`KRONO-NEG-1010`):
+```
+degismez2'de gun_no(o["t"]) MÖ'de ValueError ("year -33") ve çağrı :6707
+TRY'SIZ ⇒ denetle.py TRACEBACK ile ÇIKIŞ 1 ⇒ otomasyon "İHLAL" okur
+DOĞRUSU 2 (ölçülemedi). NEG-B-v2 kapatıyor.
+```
+🔴 ⇒ **NEG-B İNMEDEN MÖ KRONOLOJİ MADDESİ YAZILMAZ.** Ve bu sınıf artık
+**ÜÇ BAĞIMSIZ ÖLÇÜMDE** çıktı (LAB `OLCULEMEDI-TABAN` · PARTİ ajanı ·
+`KRONO-NEG`): **çöküş, ihlalden ayırt edilemiyor.** `§3`ün 0/1/2
+sözleşmesinin en pahalı ihlali — bir traceback, bir veri hatası gibi
+görünüyor.
 ⚠️ ③'te **künye penceresinden TÜRETİLEN sahiplik bir KAYNAK DEĞİLDİR**
 (`§4`: atlas kendi dayanağı olamaz) — ve ölçüldü ki **gövdesi tanıksız uzun
 dilim %62 yanlış.** Türetilen dilim ya KASA'nın kaynağıyla teyit edilir ya
