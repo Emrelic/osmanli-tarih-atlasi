@@ -537,3 +537,165 @@ bekleyen yama, beklediğini KENDİ söyleyen yamadır.
 §6.4  KAYDIN KENDİ İDDİASI              (`tur:`/`ad:` birinci tanıktır)
 §6.5  tanığın CEVAPLADIĞI SORU          (kimlik mi, koordinat mı)
 ```
+
+---
+
+## §9.5 🔴 ETİKET TAŞINIR, TANIM TAŞINMAZ — alt-ajandan gelen sınıf
+
+> **Bir alt-ajandan (ya da başka bir oturumdan) gelen sınıf etiketi, o ajanın
+> kullandığı EŞİKLE BİRLİKTE geri okunur.** Etiket yolculuğa çıkar, tanımı
+> çıkmaz — ve tanımsız bir etiket, kendi adının söylediği şeyi söylemez.
+
+### Vaka (LAB, `LAB-KONUM-ADA-TARAMA-1010`, 10 Ekim 2026)
+42 ada kaydı tarandı ve **7 kalem `KESİN` damgasıyla** geldi. Ama:
+```
+KONUM-KUSURU'nun KESİN tanımı  : ≥ 5 km
+alt-ajanın uyguladığı tanım    : "iki tanık ailesi uyuşuyor + ≥ 3 km"
+sonuç: 7 KESİN'in 5'i 5 km'nin ALTINDA
+       (Paros 4,7 · Mikonos 4,3 · Nio 4,2 · İpsara 3,3 · Sömbeki 3,4)
+```
+Etiket hayatta kaldı, tanım değişti — ve **sayı "KESİN" damgası taşıdığı için
+denetlenmeyecekti.** LAB kendi teslimini okurken yakaladı ve beşini
+`ADAY-GÜÇLÜ`ye indirdi; yakalanmasaydı beş kayıt ilk partiye KESİN olarak
+girecekti.
+
+**HÜKÜM: beşi `ADAY-GÜÇLÜ`, ilk partiye girmez.** Gerekçe `§6.1`: eşik indirimi
+*yalnız* "nesne kesin, adı verilmiş, uzun tasdikli" hâli için konuldu. Burada
+iki tanık ailesinin uyuşması **konumu** sabitliyor ama **nesneyi** sabitlemiyor
+(adlı kale mi, kasaba/liman mı belirsiz). **Nesne belirsizse eşik DÜŞMEZ.**
+
+### Niçin bu, `D268`in yeni yüzü
+`D268` *"bir sayıyı okumak, onu üreten toplayıcının anahtarını okumaktır"*
+diyordu ve orada tanım **koddaydı** — okunabilirdi. Burada tanım **bir
+alt-ajanın turunda** kaldı: hiçbir dosyada yazılı değil, hiçbir sınav ötmez,
+ve etiket doğru görünür. ⇒ İş dağıtırken **eşik sayıyla verilir**, ve teslim
+alınırken **eşik geri sorulur** — "KESİN kaç km'den itibaren?" sorusu bir
+güvensizlik değil, teslimin bir parçasıdır.
+
+📌 Ve aynı ölçümün ikinci dersi tersten geldi: LAB'ın **öngörüsü diske
+ölçümden ÖNCE yazılmıştı** ve ÇÜRÜDÜ — `ADA-DOĞRU` 12 beklenirken **0** çıktı,
+çünkü 42 kaydın hepsi `tur:"kale"` ve atlas ada ALANI için `bolge` kullanıyor.
+Yani `§6.4`ün iç yüzü bütün öngörüyü devirdi ve bunu **ancak öngörü yazılı
+olduğu için** görebildik. Öngörü yazılmasa *"14 bulduk"* denip geçilecekti.
+⇒ `§6.4` bir hükümken, bu ölçümle **30 vakalı bir SINIF** oldu.
+
+### §9.5b AYNI HASTALIK, BAŞKA TAŞIYICI — **KOD taşınır, TABLOSU taşınmaz**
+
+UMIT, `§9.5` yazıldıktan bir saat sonra aynı hastalığın ikinci taşıyıcısını
+buldu:
+```
+_sahiplik_uygula'nın KENDİ tablosu :  2 = BAYAT  (İHLAL)
+denetle.py'nin §3 tablosu          :  2 = ÖLÇÜLEMEDİ  (ihlal DEĞİL)
+                                      1 = İHLAL
+```
+**Aynı rakam, TERS hüküm** — ve rakam aynı olduğu için **hiçbir sınav ötmez.**
+
+> **Her aracın KENDİ çıkış tablosu olabilir. `§3`ün tablosu (0 temiz · 1 ihlal ·
+> 2 ölçülemedi) YALNIZ `denetle.py`nin tablosudur. Bir alt aracın kodunu `§3`
+> tablosuna DOĞRUDAN taşımak, iki sözlüğü karıştırmaktır.**
+
+📌 Ve bu, `§3`ün *"otomasyon cümleyi okumaz, çıkış kodunu okur"* kuralıyla
+çelişmiyor — **sınırını buluyor:** o kural **tek tablo** varsayar. İki tablo
+varsa çıkış kodunu okumak `D269`un ta kendisidir (çıktıyı, onu üreten
+SÖZLEŞMEYİ okumadan okumak).
+⇒ **`denetle.py` bir ÇEVİRİCİDİR:** alt araçların kendi sözlüklerini `§3`e O
+çevirir, ve `§3`ün tek sahibi O'dur.
+
+**HÜKÜM — hızlı kip yapılandırılmış bildirir, kod değil:**
+```
+--json kovaları : listeli_atlama · listesiz_atlama · yikici
+denetle.py       : JSON'a dayanır, çıkış koduna DEĞİL; §3'e eşlemeyi KENDİSİ yapar
+🔴 JSON YOK / BOZUK / kova EKSİK → 2 (ÖLÇÜLEMEDİ). ASLA 0.
+```
+Son satır zorunlu: yoksa araç çöküp JSON yazmaz, `denetle.py` kovaları bulamaz
+ve *"atlama yok"* diye okur — **bu gecenin kusurunu bir katman yukarıda birebir
+yeniden üretir.** Kovaların İÇERİĞİ gibi **VARLIĞI** da ölçülür.
+
+**Sınav DÖRT yönlü:** listeli → 0 · listesiz → 2 · yıkıcı → 1 ·
+**JSON kasten bozuk → 2.**
+
+### §9.5c Sessiz atlamanın kapı hükmü — ÜÇ KOL, ve boş kol da yazılır
+```
+① listede OLAN atlama              → 0   kasıtlı · dayanaklı · beyanlı
+② listede OLMAYAN atlama           → 2   ÖLÇÜLEMEDİ, adıyla kovaya
+③ YIKICI yazım (dilim SİLEN/KISALTAN) → 1   İHLAL
+```
+②'nin niçin 2 olduğu: sessizce atlanan yama, verinin **yanlış** olduğunu
+söylemiyor — **doğrulayamadığımızı** söylüyor. Hedef tutmamış olabilir çünkü
+veri kaymıştır, ya da çünkü yama ZATEN uygulanmıştır; ikisi aynı çıkışı verir.
+1 yazmak onları ihlal ilan edip yayını kilitler, 0 bırakmak bugünkü sessizliği
+sürdürür.
+🔴 **③ BUGÜN BOŞ OLSA BİLE YAZILIR** (ölçüldü: yıkıcı yazım 0). Yazılmazsa
+gelecekteki bir yıkıcı atlama **sıradan bir 2 olarak gelir** ve 2'lerin arasında
+kaybolur. Boş bir kol maliyetsizdir; eksik bir kol bir SINIFI görünmez kılar.
+⚠️ "Kapsam daraldı" (ok107 · Timbuktu) ③ DEĞİL ②'dir — orada yama
+uygulanMADI, bir şey silinmedi. Ve yıkıcı tespiti `ARALIK_RX` desenine değil
+`girdi._cevir`in çıktısına dayanır: o desen bu gece **iki yönde** yanıldı
+(ATLANAN-63'te yanlış ATLADI, Mergen'de yanlış KORUDU; 17.462 dönemin 110'u
+görünmez).
+
+---
+
+## §9.6 🔴 KÜNYE PENCERESİ BİR **ZARF**TIR, BİR İDDİA DEĞİL
+
+> **`f:` "bu devlet her yerde o gün başladı" DEMEZ — "bu devlet HİÇBİR YERDE
+> bundan önce başlamadı" der. Her nokta kendi tarihini taşır.**
+
+### Vaka — `sasani` (KASA ölçtü, 10 Ekim 2026)
+Benim ilk hükmüm *"`sasani` `f:` 0226 → 0224'e çekilsin"*di; gerekçem "künye
+penceresi toprak denetimini gösterir" idi ve **eksikti.** KASA'ya koyduğum şart
+(*224'ü Susa için değil MEZOPOTAMYA için doğrula*) hatayı yakaladı:
+```
+Kröger (EIr, Ctesiphon): "...ended with the defeat of Artabanus IV in 224 ...
+   and the coronation of the Sasanian king Ardašīr I at Ctesiphon in 226."
+   ⇒ 224 PART'IN SONU, Sâsânî'nin BAŞI DEĞİL
+Wiesehöfer (EIr, Ardašīr I): "By 224, Ardašīr had extended his sway over
+   Persis and beyond into Elymais (Ḵūzestān) and Kermān"
+   ⇒ 224 ELYMAIS için geçerli — Susa'nın 224'ü İKİ TANIKLI
+```
+⇒ **Mezopotamya 0226 · Susa/Elymais 0224.** Tek bir tarih yazmak ikisinden
+birini bozar.
+
+### İki seçenekten niçin biri KAPIYA ÇARPIYOR
+```
+(i)  künye f: 0224  +  Mezopotamya halkaları 0226'dan   ✅ SEÇİLDİ
+(ii) künye f: 0226  +  Susa'ya 0224 halkası             ❌ halka künye
+                                                          penceresinin DIŞINA
+                                                          düşer = 4c/4d ihlali
+```
+⇒ Künye `f:`i, nokta kümesindeki **EN ERKEN** tasdikli denetim olur; zarf
+hepsini kapsar, iddiayı her nokta kendi `s:` diliminde taşır.
+🔴 **VE TERS UÇ DA AYRI:** `part`ın ucu Mezopotamya'da **0226**, Susa/Elymais'te
+**0224** — orada Part 224'te bitti. Bir ucu iki yere yazmak, birini bozar.
+
+### Hassasiyet
+Hormizdagan'ın günü iki EIr maddesinde ayrışıyor (Wiesehöfer **28 Nisan** ·
+Shahbazi **28 Mayıs**) ⇒ `0224-01-01` yazılır ve `kaynak:`a ayrışma ADIYLA
+düşülür. `YYYY-01-01` bir ÖLÇÜM DEĞİL **sınır işaretidir**; Ocak iddiası
+taşımaz (`D210`).
+
+---
+
+## §9.7 🔴 SAHİPLİK BOŞLUĞU BEYAN ETMEDEN ÖNCE: **NOKTA VAR MIYDI?**
+
+> **Bir dilimde sahip bulunamadığında ilk soru "kim sahipti" değil,
+> "İSKÂN EDİLİYOR MUYDU"dur. Var olmayan bir yerin sahibi de yoktur.**
+
+KASA, Eridu · İsin · Dēr · Nina için sahiplik tanığı bulamayınca
+`__BOSLUK__` (K) beyanı önerdi. **ONAYLANMADI** — iki sebepten:
+1. `__BOSLUK__` *"hiçbir künyenin KAPSAMADIĞI dilim"* demek. Burada künyeler
+   VAR (`ahameni` · `selefki` · `part`); bilinmeyen şey **şehrin onların
+   altında olup olmadığı.** Farklı kova.
+2. Ve asıl mesele: KASA'nın kendi ölçümü cevabı söylüyordu. Eridu için bulduğu
+   şey Rendu-Loisel & Quenet'in *"vestiges … observés"* cümlesi — yani
+   **VARLIK tanığı, sahiplik tanığı değil.** *"Kalıntı gözlendi"*, yaşayan bir
+   şehir DEMEK DEĞİL.
+
+⇒ Bu, höyük katmanı için verilen hükmün aynısı (`§6.3`ün VARLIK yüzü):
+*`kur:`/`t:` dönem aralığının UÇLARINDAN alınır; höyükler TERK EDİLDİ,
+"başlangıçtan beri var" SAYILMAZ.*
+📌 **Ve bu yol daha ucuz:** terk tarihleri literatürde iyi belgeli; ıssız bir
+şehir için sahiplik tasdiki aramaktan kat kat kolay. Dört noktanın sahibini
+bulamamanın sebebi kaynak yokluğu olmayabilir — **sahip olmamaları** olabilir.
+⇒ `t:` yazılabilen nokta için **sahiplik borcu DÜŞER**; yalnız `t:`i de
+ölçülemeyen nokta `__BOSLUK__` (K) hak eder.

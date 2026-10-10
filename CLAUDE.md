@@ -735,6 +735,18 @@ tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/
   mu ② çıkış kodunu KİM okuyor ③ hiç çağrılıyor mu. Üçüncüsü sorulmazsa, sessiz
   bir borcu 2'ye çevirip 2'yi kimseye göstermeyen bir çare yazılır.
 - **Bayatlayan belge/sayı** — sayı ölçümün fotoğrafıdır; kaynağını (log, alet) aç.
+  🆕 🔴 **VE AYNA GÖRÜNTÜSÜ — ÖNERİ üzerinde ölçülen sayı da bugünkü durum
+  DEĞİLDİR.** Bir kapının *"AÇIK"* olması, ölçülen kümenin **CANLI** olmasına
+  bağlıdır; önerilen küme üzerinde ölçülen kapı **AÇILACAK**'tır, ve ikisini
+  aynı kelimeyle anmak **yapılmamış bir işi yapılmış gösterir.** Ölçülen vaka
+  (10 Ekim 2026, koordinatörün kendi hükmü): `KAMPANYA §12`ye *"① yoğunluk 🟢
+  AÇIK — 26 nokta ⇒ p95 111,4"* yazılmıştı; ölçüm — `grep -rl "Uruk|Nippur|
+  Borsippa" data/` → **0 dosya**, ve `devletler.js`te `ahameni·makedon·selefki·
+  part·akkad` → **0** (yalnız `sasani` 1). Yani p95 geçerliydi, **zemini
+  değil.** ⇒ Bir sayıyı aktarırken *ne zaman* ölçüldüğü kadar **NEREDE** —
+  `data/`da mı, `denetim/`de bir öneride mi — sorulur. Bayat sayı GEÇMİŞİ,
+  öneri sayısı **GELECEĞİ** bugün gibi gösterir; ikincisi daha sinsidir çünkü
+  tarihi yoktur, yani tazeliği sorgulanmaz.
 - **Toplu düzeltme** — `replace(…, 1)` yalnız ilk eşleşmeyi değiştirir; Türkçe/kesme işaretli
   metinde `sed` kullanma; heredoc yerine `Write` + `py <yol>`.
 - **Yakın mükerrer yerleşim** — yeni noktadan önce ad (normalleştirilmiş) + 3 km tara.
