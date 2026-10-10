@@ -89,3 +89,30 @@ Diff v2: 131 satır, `git apply --check` temiz.
 - Diff yalnız `arac/denetle.py`'ye dokunuyor (+79 satır). Veri değişmez.
 - FAZ 2'de 13 dikiş 1308 devriyle düzeltildikçe `DIKIS_DEFTER` elle küçültülür; kapı "GEVŞEK" uyarısıyla hatırlatır.
 - MÖ / Sümer paketi inmeden ÖNCE uygulanmalı. Paket `s[0]`'ın önüne halka eklerse kapı her eski kırpmayı ADIYLA yakalar.
+
+## 5. v3 — FAZ 1 yığınına yeniden tabanlandı (koordinatör, 10 Ekim sabahı)
+**Sebep (koordinatör ölçtü):** FAZ 1 kümülatif sınavında 1-5 uygulanınca v2 `arac/denetle.py:7229`da DÜŞTÜ — ilk beşin
+üçü denetle.py'yi değiştiriyor; v2'nin `main()` hunk'ı eski bağlamı arıyordu. *Tek tek temiz olmak, sırayla temiz olmak
+değildir.*
+**Zemin:** `origin/main` 14bb94b9 + sırayla `SAHIPLIK-KAPSAM-1010-v3` · `SAHIPLIK-KUR-KAPI-1010` · `D5-GUN-1010-v3` ·
+`YER-YAMA-SESSIZ-7-1010-KOORD-v2` (dördü `origin/makine/umit`ten) · `KASA-GORUNURLUK-SAYAC-1010` (v2). Ayrı worktree,
+yerel commit (itilmedi). Diff = `git diff` bu zemine göre (133 satır, LF).
+**Değişenler:**
+1. Hunk 1 (fonksiyonlar, `DIKIS_DEFTER`, `ESKI_UFUKLAR`) aynen, 281 satır kaymış yerde.
+2. `main()` çağrısı yeniden konumlandı: `kaynak_tavan_rapor` bloğundan HEMEN SONRA, GÖRÜNÜRLÜK çağrısından ÖNCE.
+3. **Yüklem:** `dikis_olc` içinde `_kaynak_dolu` → **`_kaynak_tanikli`** (koordinatör hükmü: "iki yüklem, iki soru" —
+   dikiş günü bir TANIK ister, beyan değil). ⇒ **v3 GÖRÜNÜRLÜK'e BAĞIMLIDIR** (yüklem orada tanımlı); sıra
+   `… → KASA-GORUNURLUK-SAYAC → KASA-DIKIS-KAPI` zorunlu. Çıplak `main`e artık UYGULANMAZ (beklenen).
+**Sınav — yeni zeminde ÇALIŞTIRILDI (yalnız `--check` değil):**
+- DIKIS **17/17**: eski 1-11 (defter, kaynaklı kova, s[0] kırpması, kayıt düzeyi kaynak, sırasız `s:`, negatif yıl
+  `gun()`, ESKI_UFUKLAR taşınmış ufukta, MÖ halkası, -2999 kırpması) · **12** `"bulunamadı — …"` kaynaksız sayılır ·
+  **13** cümle içi "BULUNAMADI" tanıklığı düşürmez · **14** ölü ESKI_UFUKLAR · **15-16** gerçek veri: kaynaksız 13 =
+  defter 13, kaynaklı 1, kırpma 2.442, ihlal yok · **17** GÖRÜNÜRLÜK aynı zeminde 110/112/27/7.
+- GÖRÜNÜRLÜK **13/13** aynı zeminde.
+- Tam `denetle.py` önce/sonra (yığın ↔ yığın + v3): fark YALNIZ yeni satır
+  `✓ UFUK DİKİŞİ (1281-01-01): kaynaksız geçiş 13 (defter 13) · kaynaklı geçiş 1 · kırpma (s[0]) 2442`
+  (+ bir zamanlama satırı 7 sn ↔ 9 sn). Çıkış kodu ikisinde de 2 (scratch: üretilmiş `devletler_harita.js` yok ⇒
+  Değişmez 8/R ÖLÇÜLEMEDİ — veri değil).
+- `git apply --check`: yığın üstüne ✓ · çıplak `main` 14bb94b9'a ✗ (beklenen, sıra bağımlılığı).
+- Sonraki üç FAZ 1 kalemi (OKU-DOSYA-ATLAMA · MADDE-VAR-MÖ · NEGATIF-YIL-A2) koordinatöre göre `denetle.py`ye dokunmuyor ⇒
+  bu tabanlamada sınanmadı.

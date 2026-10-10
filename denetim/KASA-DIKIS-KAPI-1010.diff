@@ -1,6 +1,8 @@
+diff --git a/arac/denetle.py b/arac/denetle.py
+index 29471b4d7..3df40e810 100644
 --- a/arac/denetle.py
 +++ b/arac/denetle.py
-@@ -6064,6 +6064,117 @@
+@@ -6345,6 +6345,117 @@ def kaynak_tavan_rapor(Y, ayrinti=False, yol=None):
      return ihlal
  
  
@@ -82,7 +84,7 @@
 +            gs = _gn(g)
 +            if not any(_gn(q.get("f")) is not None and _gn(q.get("f")) < gs for q in S if q is not p):
 +                K["kirpma"].append(a)
-+            elif _kaynak_dolu(p.get("kaynak")):
++            elif _kaynak_tanikli(p.get("kaynak")):
 +                K["kaynakli"].append(a)
 +            else:
 +                K["kaynaksiz"].append(a)
@@ -118,7 +120,7 @@
  def _kaynak_gerileme(K, T):
      """ÜYELİK ölçütü (blok yorumu): (yeni_h, yeni_d, hiçbiri tavanı, kayıt-kaynaksız tavanı)."""
      Hd, Dd = set(T["hicbiri_defter"]), set(T["donem_ici_defter"])
-@@ -7229,6 +7340,10 @@
+@@ -7770,6 +7881,10 @@ def main():
      if kaynak_tavan_rapor(Y, ayrinti=args.ayrinti):
          ihlal = True
  
@@ -126,6 +128,6 @@
 +    if dikis_rapor(Y, ayrinti=args.ayrinti):
 +        ihlal = True
 +
-     # Ek denetim — mükerrer kronoloji maddesi. ÜÇ kademe:
-     #   [başlık] Jaccard ≥ 0.34            → İHLAL
-     #   [kişi!]  aynı GÜN + ortak kişi +
+     # Ek denetim — görünürlük sayaçları (GÖRÜNÜRLÜK SAYAÇLARI bloğu)
+     if gorunurluk_rapor(Y, ayrinti=args.ayrinti):
+         ihlal = True
