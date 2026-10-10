@@ -284,6 +284,8 @@ ClaudEmre-kutu/
 # ACICI ayari — JETON ve eczanenin IC AG adresleri.  Depo HERKESE ACIK
 # (GitHub Pages kaynagi): agy/ ve parti-kasa-* ile ayni sinif.
 /oturumlar/ag.json
+# TAHTA-ISTEMCI-1010: sunucu düşüşünde yerel yazılan mesajların kuyruğu (makineye özel)
+/oturumlar/tahta_kuyruk.json*
 /oturumlar/acici.log
 
 # BEKCI NABIZ DAMGALARI — PAYLASILMAZ (gizlilik degil DOGRULUK).

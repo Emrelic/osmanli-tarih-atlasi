@@ -80,7 +80,11 @@ def sina(ayar):
     if not adres or not jeton:
         print("🔴 SINANAMADI: ag.json'da sunucu adresi ya da jeton yok.")
         return 2
-    url = "http://%s/tahta/oku?son=1" % adres
+    # `limit` — GERCEK parametre adi (LAB olctu). Onceki hali `son=1`di
+    # ve `son` TANIMSIZ: sunucu onu sessizce yok sayip TAM TAHTAYI
+    # donduruyordu (~17 MB her cagrida). Yutan bir uc nokta, reddeden
+    # bir uc noktadan tehlikelidir: reddetmek kusuru GOSTERIR, yutmak SAKLAR.
+    url = "http://%s/tahta/oku?limit=1" % adres
     # 🔴 BASLIK ADLARI SUNUCUDAN OKUNDU, UYDURULMADI (tahta_sunucu.py:748,
     #    :782). Ilk yazimda "X-Tahta-Jeton" yazmistim: sunucu o basligi
     #    HIC okumaz ⇒ jeton bos sayilir ⇒ 401 ⇒ alet "JETON YANLIS" der ve
