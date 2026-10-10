@@ -71,7 +71,20 @@ B1 ∩ C = 5 kayıt (Brod, Jasenovaç, Çaldıran, Başkale, Sambalpur) ⇒ 29 +
 | İLGİSİZ | Beyan K7.5 B62.5 · Santa Ana del Yacuma · São Paulo de Olivença · Fortín Muñoz · Cushamen | gamerika · a78_amerika ×4 | yıl, başka bir yerin kuruluşu / aday nokta notu — öz-ilan değil |
 | ⓐ SUSAN | — | — | mekanik ölçülemez (beyan); bu taramada yan bulgu da çıkmadı |
 
-**Sayım:** ⓑ **4** · ⓒ **6** (Novi + 5 yeni) · GEÇERLİ **30** · İŞLENDİ **2** · İLGİSİZ **5** · ⓐ 0 ⇒ 47.
+**Sayım (birim: İLANI TAŞIYAN KAYIT — listede satırı olan kayıt):** ⓑ **4 KAYIT** · ⓒ **6 KAYIT** · GEÇERLİ **30 KAYIT** ·
+İŞLENDİ **2 KAYIT** · İLGİSİZ **5 KAYIT** · ⓐ 0 ⇒ **47 KAYIT**.
+**ⓒ BİRİMLİ (koordinatör düzeltmesi M-? — "6" birimsizdi):**
+```
+İLANI TAŞIYAN KAYIT : 6   Novi · Uyvar · Lugos · Cizre · Rykovskoye · Onor          (yukarıdaki sayım bu)
+VAKA (ayrı sorun)   : 5   Novi 1557 · Sahalin isg · Temeşvar 1551-52 · Uyvar kur · Cizre künye
+DÜZELTİLECEK KAYIT  : 8   Novi · Temeşvar (Lugos DEĞİL — düzeltme komşuda) · Uyvar · Cizre ·
+                          Sahalin ×4 (Rykovskoye · Onor · Aleksandrovsk · Kuzey Sahalin (bölge))
+                          — son ikisi ilan TAŞIMIYOR, ölçümle eklendi
+YENİ (Novi hariç)   : 5 KAYIT / 4 VAKA   — mesajımdaki "beşi yeni" KAYIT, numaralı liste VAKA idi
+UÇ (Sahalin)        : 8   (4 kayıt × 2 uç)
+```
+**B1 duyarlılığı 2/5 (bilinen pozitiflerde) ⇒ liste GÜVENİLİR ama TAM DEĞİL**; ⓒ kovası KAPANMIŞ ilan edilmez.
+ⓐ (SUSAN) ilan taramasıyla TANIM GEREĞİ bulunamaz ⇒ ayrı yöntem (örneklem + doğrulama), ayrı kalem.
 - B1 içinde (29): ⓑ 4 · ⓒ 0 · GEÇERLİ 18 · İŞLENDİ 2 · İLGİSİZ 5.
 - C içinde (23): ⓑ 4 · ⓒ 6 · GEÇERLİ 13 · İLGİSİZ 0.
 
