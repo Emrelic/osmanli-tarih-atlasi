@@ -1,5 +1,5 @@
 diff --git a/data/yerlesimler_a78_asya.js b/data/yerlesimler_a78_asya.js
-index dbec5f345..d7c6014a9 100644
+index dbec5f345..9cdf6d614 100644
 --- a/data/yerlesimler_a78_asya.js
 +++ b/data/yerlesimler_a78_asya.js
 @@ -221,12 +221,11 @@ window.YERLESIMLER_A78_ASYA = [
@@ -10,7 +10,7 @@ index dbec5f345..d7c6014a9 100644
 -  s:[{f:"1479-01-01", t:"1584-01-01", d:"__BOSLUK__", kaynak:"Iranica 'FAYŻĀBĀD': Kokça köprüsü 884/1479 (kur = İLK TANIKLIK, üst sınır; eski adı Cevzun). TDV 'BEDAHŞAN': 1505'ten Timurlu-Bâbürlü şehzadeleri (Nâsır Mirza, Süleyman Mirza) fiilen bağımsız — babur-imparatorlugu'na itilmedi"},
 -     {f:"1584-01-01", t:"1657-01-01", d:"buhara", kesinlik:"yil", kaynak:"TDV 'BEDAHŞAN': Abdullah Han II 1584; Iranica 'FAYŻĀBĀD': Yârî mîrleri 1067/1657"},
 -     {f:"1657-01-01", t:"1859-01-01", d:"__BOSLUK__", kesinlik:"yil", kaynak:"Iranica 'FAYŻĀBĀD': Yârî mîrleri, Buhara'ya sözde bağlı; 1829 Kunduzlu Murad Bey yıktı"},
-+{ ad:"Feyzâbâd (Bedahşan)", tur:"sehir", lat:37.117, lon:70.58, g:0, k:0, kur:"1680-01-01",
++{ ad:"Feyzâbâd (Bedahşan)", tur:"sehir", lat:37.117, lon:70.58, g:0, k:0, kur:"1680-01-01", kesinlik:"yil",
 +  neden:"KASA-UCSUZ-ISGAL-2-1010 + koordinatör hükmü (a), 10 Eki 2026: kur 1479 → 1680 (YIL hassasiyeti; Iranica 1091/1680). ESKİ kur dayanağı: 'Iranica FAYŻĀBĀD: Kokça köprüsü 884/1479 (kur = İLK TANIKLIK, üst sınır; eski adı Cevzun)' — ÇÜRÜTÜLDÜ: Iranica (Balland) 'The first settlement was 5 km west of the present town, at Ḵamčān (or Kūrī) … a stone bridge over the Kōkča, now ruined, was built there in 884/1479' ⇒ 1479 tanığı ÖNCÜL yerleşime (Ḵamčān, 5 km batı) ait; bugünkü şehir 1680'de Jawzān adıyla kuruldu (Adamec, Gazetteer I 1972: 'until 1680 (1091) called Jauz Gun or Jauzun' aynı). Başka bir yerin adını taşıyan tanık modern noktaya yazılmaz (D208). DÜŞEN dilimler: __BOSLUK__ 1479-1584 (TDV BEDAHŞAN: 1505'ten Timurlu-Bâbürlü şehzadeleri fiilen bağımsız) · buhara 1584-1657 (TDV BEDAHŞAN: Abdullah Han II 1584) · __BOSLUK__ 1657-1680 kısmı.",
 +  s:[{f:"1680-01-01", t:"1859-01-01", d:"__BOSLUK__", kesinlik:"yil", kaynak:"Iranica 'FAYŻĀBĀD' (Balland): 'In 1091/1680 Mīr Yar(ī) Bēg … under the nominal suzerainty of the amir of Bukhara, shifted his capital from Ḵamčan … to a new city 5 km upstream. First known as Jawzān' — Yârî mîrleri, Buhara'ya sözde bağlı; 1829 Kunduzlu Murad Bey yıktı"},
       {f:"1859-01-01", t:"1923-10-29", d:"afganistan", kesinlik:"yil", kaynak:"TDV 'BEDAHŞAN': 1859 Dost Muhammed Han; Iloliev 2021 '1859 Afgan fethi'. Iranica: 1860'larda Afgan metbûluğunda özerk — doğrudan idare ~1873 olabilir"}],

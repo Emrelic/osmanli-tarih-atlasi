@@ -152,3 +152,16 @@ Koordinatör hükmü: *"(a) — kur: 1680, 1479-1680 DİLİMLERİ DÜŞER"*.
   - `paketle.py sina` ✗ `paket_24.js` ⇒ uygulayan `py arac/paketle.py yenile`.
 - **Komşu petek (koordinatör şartı):** nokta 1680'den önce sahnede değil ⇒ Değişmez 1 anlamında delik yok.
   1479-1680 peteği `MOTOR-GECISLI` kapsam listesine koordinatör tarafından yazdırılacak (benim işim değil).
+
+### 3.1 v2 — koordinatör şartı (M-5905): kayıt düzeyi `kesinlik:"yil"` EKLENDİ · ölçüm hatamın düzeltmesi
+- **Hatam:** §3'te "kayıt düzeyinde `kesinlik` yok" dedim. Bunu `girdi.BILINEN_ALANLAR`'ın TANIM metnine bakarak dedim,
+  veriye bakmadım. `girdi.yukle()` ile ölçünce (KENDİM, 4300 kayıt) kayıt düzeyinde `kesinlik` taşıyan **38** kayıt
+  çıktı. 38'inin 38'i `kur:` taşıyor; değerler yil 31 · ay 5 · yuzyil 1 · belirsiz 1. ⇒ Alan VAR, emsali 38.
+  - Ders (koordinatörün adlandırmasıyla): **tanım kendi kullanımını eksik beyan eder ⇒ sahte YOKLUK.** Alan sözlüğü
+    bir KAYITTIR; `girdi.yukle()` ÖLÇER.
+- **v2 diff:** `kur:"1680-01-01", kesinlik:"yil"`. `neden:` metni AYNEN kaldı (gerekçe orada, hassasiyet alanda).
+  - `girdi` okuyor: `kur 1680-01-01 · kesinlik yil`; çıplak LF 0.
+  - Tam `denetle.py` v1 ile **satır satır AYNI** (alan kapı sayılarını etkilemiyor).
+- **Şema kalemi GERİ ÇEKİLDİ** (§3'teki "Emre listene"): `neden:` 796 kaydın 489'unda `kasitli_bosluk` olmadan genel
+  gerekçe olarak kullanılıyor. `ic_not` kayıt düzeyinde gerekmiyor. Kalan iş iki tanım düzeltmesi:
+  `girdi.py:412` `kesinlik` ve `girdi.py:222` `neden`. Onlar UMIT'in (kod), benim değil.
