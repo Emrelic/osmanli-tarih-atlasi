@@ -284,6 +284,46 @@ H-0011/H-0003  piksel ÖNCE alındı (sahne.json + sor.js commitli) ⇒ SONRA bi
 C3 ön şartı     ≤2 hücre enli gömülü dil listesi (HARITA-DIL-OLCUM-1009)
 ```
 
+### §11 🔴 KAYNAKSIZ KAYIT YANLIŞ ÇIKIYOR — ölçülmüş korelasyon (10 Ekim)
+
+KASA Yemen bölgesini ölçtü (`denetim/KASA-YEMEN-RESULI-1010.md`) ve çıkan
+şey tek bir şehrin hatası değil:
+```
+Resûlî döneminde `yemen` (Zeydî) yazan 7 nokta
+  → YEDİSİ DE 1281'de başlıyor  ·  YEDİSİ DE KAYNAKSIZ
+  → kontrol edilebilen 4'ü YANLIŞ (Taiz · Hudeyde · Kemeran · Ebha)
+kaynaklı iki nokta (Zebîd · Aden)
+  → İKİSİ DE DOĞRU SAHİPTE
+Taiz tek başına: 1281-1535 arası 254 YIL yanlış sahipte, 13 dilim gerekiyor
+```
+⇒ **`kaynak:` alanının VARLIĞI doğruluğu ÖNGÖRÜYOR.**
+
+🔴 **VE BU, `kaynaksız s:` SAYACININ ANLAMINI DEĞİŞTİRİYOR.** Bugün onu
+*"beyan borcu"* diye okuyoruz (tavan **1930**, ölçüm **1841**, `§3.4` gereği
+dondurulmuş). Yemen oranı genelleşirse o sayı bir beyan borcu değil
+**bir YANLIŞLIK TAHMİNİDİR** — yani atlasın bilmediği değil, **yanlış
+bildiği** kayıtların sayısı.
+
+📌 Ve bu, `§4`ün kaynak disiplininin niçin var olduğunun **ilk sayısal
+kanıtı**: kural bugüne kadar "iyi uygulama" diye duruyordu.
+
+**AÇIK İŞ — `KAYNAKSIZ-ORNEKLEM-1010`:** 1841 kaynaksız `s:` kaydından
+**beyanlı rastgele örneklem** (tohum yazılı, n ≥ 40, bölgeye orantılı
+tabakalı) çekilip her biri TDV/akademik kaynakla karşılaştırılacak.
+```
+ÇIKTI   doğru / yanlış / ölçülemedi oranı + %95 güven aralığı
+         ve 1841'e genelleme
+SORU    "kaynaksız s: bir BEYAN BORCU mu, bir YANLIŞLIK TAHMİNİ mi?"
+ŞART    öngörü ölçümden ÖNCE · bölge dağılımı beyan edilecek
+         (Yemen'in oranı bütün atlası temsil etmeyebilir — Yemen
+          kaynaksızlığı YOĞUN bir bölge)
+```
+⚠️ Ve kapsamın sınırı şimdiden beyanlı: Yemen **7 noktalık** bir ölçüm.
+7/7 bir desen gösteriyor ama **1841'i temsil ettiği ÖLÇÜLMEDİ.** Örneklem
+tam bunu ölçecek.
+
+---
+
 ### ⑦ MÖ İÇİN SIRADAKİ KAPI — `§6`nın kuralı
 `MIMARI.md §5`e bu gece yazıldı: **AÇ = p95 ≤150 km VE azamî ≤300 km.**
 Sümer kutusu için **13-20 kaynaklı nokta** gerekiyor (KASA'nın 10 adayıyla
