@@ -1,0 +1,1413 @@
+[
+ {
+  "ad": "Uruk",
+  "tur": "sehir",
+  "lat": 31.3234,
+  "lon": 45.6391,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 14 s.447 (Englund): proto-çivi yazısı UNUG · CDLI P000821 'UNUG~a' Uruk IV https://cdli.earth/artifacts/821 · koordinat Pleiades 912986",
+  "not": "OK (Orta Kronoloji) · dönem Uruk IV ca. 3350-3200 ⇒ ÜST SINIR 3200 · ⚠️ UNUG~a kurum adı da olabilir",
+  "_ilk_kayit": {
+   "tarih": "-3199-01-01",
+   "gun": "~MÖ 3200",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Ubeyd (Legrain, Penn Bulletin X/3-4 1944)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-1859-01-01",
+    "t": "-1801-01-01",
+    "d": "uruk-sinkasid",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Uruk"
+   },
+   {
+    "f": "-2115-01-01",
+    "t": "-2109-01-01",
+    "d": "uruk-utuhegal",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Uruk"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Ur",
+  "tur": "sehir",
+  "lat": 30.9613,
+  "lon": 46.1054,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 14 s.355 (Molina): 'The earliest written occurrences of this name … URI5, are dated to the Uruk III period' · Archaic Cities list P471684 · Jemdet Nasr şehir mührü P456183 · koordinat Pleiades 912985",
+  "not": "OK (Orta Kronoloji) · Uruk III ca. 3200-3000 ⇒ üst sınır",
+  "_ilk_kayit": {
+   "tarih": "-2999-01-01",
+   "gun": "~MÖ 3000",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "~5500 (Penn Expedition)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-2111-01-01",
+    "t": "-2003-01-01",
+    "d": "ur-iii",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Ur"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Nippur",
+  "tur": "sehir",
+  "lat": 32.1268,
+  "lon": 45.2306,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Englund, CDLN 2011:6: Archaic Cities list 2 ve şehir mührü 3 (EN.KID/NUN) 'apparently representing Nibru' · nibru{ki} ED IIIa P010685 · koordinat Pleiades 912910",
+  "not": "OK (Orta Kronoloji) · Uruk III · ⑥ Englund 'apparently'",
+  "_ilk_kayit": {
+   "tarih": "-2999-01-01",
+   "gun": "~MÖ 3000",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Ubeyd ~5000 (snippet)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Larsa",
+  "tur": "sehir",
+  "lat": 31.2832,
+  "lon": 45.8525,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Archaic Cities list (A) satır 3 + şehir mührü (B) satır 2 ARARMA2 (CDLI P471684/P456183) · RlA 6 s.496 (Arnaud) 'apparaît dans les textes archaïques d'Ur' (ED I-II) · Uruk IV etiketi P000810 (Utu kültü olabilir ⑥) · koordinat Pleiades 912897",
+  "not": "OK (Orta Kronoloji) · Uruk III üst sınırı; olası Uruk IV ⑥",
+  "_ilk_kayit": {
+   "tarih": "-2999-01-01",
+   "gun": "~MÖ 3000",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "7. binyıl sonu (archeologie.culture.gouv.fr)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-2024-01-01",
+    "t": "-1762-01-01",
+    "d": "larsa",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Larsa"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Eridu",
+  "tur": "sehir",
+  "lat": 30.82,
+  "lon": 45.9956,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 14 s.357 (Molina): Ur şehir mührü baskıları (SIS 8, 5-4) ED I-II · koordinat Pleiades 912845",
+  "not": "OK (Orta Kronoloji) · ED I-II ca. 2900-2700 · ⚠️ (A) 'ABZU' = Eridu kimse tarafından önerilmiyor; CDLI'de eridu{ki} ilk ED IIIb",
+  "_ilk_kayit": {
+   "tarih": "-2699-01-01",
+   "gun": "~MÖ 2700",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "~5300 (Pleiades)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Adab",
+  "tur": "sehir",
+  "lat": 31.9509,
+  "lon": 45.6233,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 14 s.357 (Molina): aynı Ur şehir mührü baskıları ED I-II · Fara P010685 'adab{ki}' ED IIIa (R) · koordinat Pleiades 787747618",
+  "not": "OK (Orta Kronoloji) · ED I-II · 'geç 4. binyıl Uruk metinleri' iddiası kaynaksız (Vikipedi)",
+  "_ilk_kayit": {
+   "tarih": "-2699-01-01",
+   "gun": "~MÖ 2700",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "ED ortası tapınak (ISAC OIP 138)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Umma",
+  "tur": "sehir",
+  "lat": 31.668,
+  "lon": 45.8868,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 14 s.318 (Waetzoldt): Ušumgal steli (FD I-II) · Pabilga heykelciği 'König von U.' (FD II) https://publikationen.badw.de/de/rla/a/14.381.jpg · koordinat Pleiades 44626252",
+  "not": "OK (Orta Kronoloji) · ED II üst sınırı",
+  "_ilk_kayit": {
+   "tarih": "-2599-01-01",
+   "gun": "~MÖ 2600",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "bulunamadı",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kiş",
+  "tur": "sehir",
+  "lat": 32.5461,
+  "lon": 44.5932,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 5 s.609 (Edzard): Enmebaragesi kaymaktaşı vazo IM 30590 '[k]iš' 'ca. 26. Jh.' · koordinat Pleiades 894028",
+  "not": "OK (Orta Kronoloji) · 26. yy ⇒ üst sınır · en eski yazımlar KI belirleyicisiz",
+  "_ilk_kayit": {
+   "tarih": "-2499-01-01",
+   "gun": "~MÖ 2500",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Jemdet Nasr ~3100 (Pleiades)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-2699-01-01",
+    "t": "-1844-01-01",
+    "d": "kis",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Kiş"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Şuruppak",
+  "tur": "sehir",
+  "lat": 31.7775,
+  "lon": 45.5105,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 13 s.335 (Streck): 'A stone tablet, perhaps from Š. itself and probably dating to the Ǧamdat Naṣr period, mentions Š. (OIP 104, 13: 7)' · koordinat Pleiades 326150788",
+  "not": "OK (Orta Kronoloji) · Jemdet Nasr 'probably' ⑥ · kesin: Fara ED IIIa",
+  "_ilk_kayit": {
+   "tarih": "-2899-01-01",
+   "gun": "~MÖ 2900",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Jemdet Nasr ~3000 (snippet)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Lagaş",
+  "tur": "sehir",
+  "lat": 31.4193,
+  "lon": 46.4097,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 6 s.419 (Bauer): Fara tabletleri WF 94 II, WF 92 II 1 · CDLI P010685 'lagasz{ki}' (R) · koordinat Pleiades 959120263",
+  "not": "OK (Orta Kronoloji) · ED IIIa ca. 2600-2500",
+  "_ilk_kayit": {
+   "tarih": "-2499-01-01",
+   "gun": "~MÖ 2500",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "5. binyıl (Penn Lagash)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Girsu",
+  "tur": "sehir",
+  "lat": 31.5604,
+  "lon": 46.1776,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 3 s.386 (Falkenstein): Mesilim yazıtı Ningirsu tapınağı 'in G.' · ED IIIa (C) satır 60 'gir2-su' (R) · koordinat Pleiades 912855",
+  "not": "OK (Orta Kronoloji) · ED II sonu/ED IIIa · ⑥ Uruk III 'GIR2a SUa' (Q000034) Girsu kabul edilirse Uruk III",
+  "_ilk_kayit": {
+   "tarih": "-2499-01-01",
+   "gun": "~MÖ 2500",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Ubeyd 4 (snippet)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-2192-01-01",
+    "t": "-2094-01-01",
+    "d": "lagas-ii",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Girsu"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "İsin",
+  "tur": "sehir",
+  "lat": 31.8853,
+  "lon": 45.2693,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 5 s.181 (Edzard): Fara kişi adları ur-IN (TSŠ 150 III 7′), IN-ki-du10 (TSŠ 230 III 9′) · koordinat Pleiades 912868",
+  "not": "OK (Orta Kronoloji) · ED IIIa · ⑥ yalnız KİŞİ ADI içinde; şehir adı olarak ilk ED IIIb (TMH 5, 24)",
+  "_ilk_kayit": {
+   "tarih": "-2499-01-01",
+   "gun": "~MÖ 2500",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "bulunamadı",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Sippar",
+  "tur": "sehir",
+  "lat": 33.0597,
+  "lon": 44.2542,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Abu Salabikh kelime listesi OIP 99, 041 (P225920) 'zimbir{ki}' (R) · koordinat Pleiades 894089",
+  "not": "OK (Orta Kronoloji) · ED IIIa",
+  "_ilk_kayit": {
+   "tarih": "-2499-01-01",
+   "gun": "~MÖ 2500",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "bulunamadı",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Babil",
+  "tur": "sehir",
+  "lat": 32.5373,
+  "lon": 44.425,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Girsu tableti RTC 118 (P216897) Şar-kali-şarri yıl adı '… in ka2-dingir{ki} isz-ku-nu' (R) · koordinat Pleiades 893951",
+  "not": "OK (Orta Kronoloji) · ca. 2217-2193 ⇒ üst sınır · 1894 HANEDAN başıdır, ilk kayıt DEĞİL (Pleiades ifadesi yanlış) · ED II 'BAR.KI.BAR' ve ED IIIb Mari 'ka2-dingir' (ki'siz) ŞÜPHELİ",
+  "_ilk_kayit": {
+   "tarih": "-2192-01-01",
+   "gun": "~MÖ 2193",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "bulunamadı",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-0625-11-23",
+    "t": "-0538-01-01",
+    "d": "yeni-babil",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Babil"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Borsippa",
+  "tur": "sehir",
+  "lat": 32.3924,
+  "lon": 44.3434,
+  "g": 1,
+  "k": 0,
+  "kaynak": "birincil 3. binyıl tanığı bulunamadı (aday: Ur III, İbbi-Sin dönemi vali Puzur-Tutu — yalnız Vikipedi) · koordinat Pleiades 893964",
+  "not": "RlA 'Barsip' (cilt 1) okunmadı",
+  "_ilk_kayit": {
+   "tarih": "bulunamadı",
+   "gun": null,
+   "kesinlik": "belirsiz",
+   "arkeolojik_katman": "Pleiades minDate -2335",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kutha",
+  "tur": "sehir",
+  "lat": 32.7607,
+  "lon": 44.6114,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 6 s.384: 'first attested in the OAkk. period' · Maništūšu Obeliski A XIV 26 · Naram-Sin Bāṣetki II 23 · koordinat Pleiades 893977",
+  "not": "OK (Orta Kronoloji) · Maništūšu ca. 2269-2255",
+  "_ilk_kayit": {
+   "tarih": "-2254-01-01",
+   "gun": "~MÖ 2255",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "bulunamadı",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Eşnunna",
+  "tur": "sehir",
+  "lat": 33.4845,
+  "lon": 44.7281,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Nippur listesi OSP 1, 048 (P216105) + BIN 8, 068 'asz2-nun-na{ki}' (R) · koordinat Pleiades 90720956",
+  "not": "OK (Orta Kronoloji) · ED IIIb ca. 2500-2340",
+  "_ilk_kayit": {
+   "tarih": "-2339-01-01",
+   "gun": "~MÖ 2340",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Pleiades minDate -4000",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Tutub",
+  "tur": "sehir",
+  "lat": 33.3557,
+  "lon": 44.556,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Khafaje tableti Tutub 65 (P217321) 'in tu-tu{ki}', tarih Naram-Sin 19 (R) · RIME 2.01.04.54 'na-bi2-ul3-masz ensi2 tu-tu{ki}' · RlA 14 s.242 (Sommerfeld) 'zuerst in der Akkade-Zeit belegt' · koordinat Pleiades 490043590",
+  "not": "OK (Orta Kronoloji) · Naram-Sin ca. 2254-2218 ⇒ üst sınır · ED IIIb '{d}tu-tu[{ki?}]' (TMH 5, 024) belirsiz — tanrı Tutu tapınağı olabilir",
+  "_ilk_kayit": {
+   "tarih": "-2217-01-01",
+   "gun": "~MÖ 2218",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "Jemdet Nasr / olası Uruk (Delougaz, OIP 53 1940)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Mari",
+  "tur": "sehir",
+  "lat": 34.5503,
+  "lon": 40.8886,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RIME 1.09.03.05 vi 22 (Eannatum) 'ma-ri2!{ki}' · RlA 7 s.382-3 (Kupper) · Ebla metinleri · koordinat Pleiades 286681704",
+  "not": "OK (Orta Kronoloji) · ED IIIb",
+  "_ilk_kayit": {
+   "tarih": "-2449-01-01",
+   "gun": "~MÖ 2450",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "ca. 2900 (Pleiades, arkeolojik)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-1819-01-01",
+    "t": "-1760-01-01",
+    "d": "mari-lim",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Mari (Tell Hariri)"
+   },
+   {
+    "f": "-2094-01-01",
+    "t": "-2016-01-01",
+    "d": "mari-sakkanakku",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Mari (Tell Hariri)"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Terqa",
+  "tur": "sehir",
+  "lat": 34.9224,
+  "lon": 40.5682,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 13 s.599: 'citée dans les archives d'Ebla' · koordinat Pleiades 894158",
+  "not": "OK (Orta Kronoloji) · Ebla 24. yy · metin numarası YOK",
+  "_ilk_kayit": {
+   "tarih": "-2299-01-01",
+   "gun": "~MÖ 2300",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "bulunamadı",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Asur",
+  "tur": "sehir",
+  "lat": 35.4556,
+  "lon": 43.2613,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Gasur/Nuzi tableti HSS 10, 036 (P213302) 'a-szur3{ki}' (R) · koordinat Pleiades 893945",
+  "not": "OK (Orta Kronoloji) · Sargonlu ca. 2340-2200",
+  "_ilk_kayit": {
+   "tarih": "-2199-01-01",
+   "gun": "~MÖ 2200",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "geç 3. binyıl (Pleiades)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-1352-01-01",
+    "t": "-0911-01-01",
+    "d": "orta-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur; Kar-Tukulti-Ninurta"
+   },
+   {
+    "f": "-1807-01-01",
+    "t": "-1775-01-01",
+    "d": "samsi-adad-krallik",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Šubat-Enlil (DOĞRULANMADI) · Asur · Ekallatum"
+   },
+   {
+    "f": "-2024-01-01",
+    "t": "-1807-01-01",
+    "d": "eski-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Ninova",
+  "tur": "sehir",
+  "lat": 36.3608,
+  "lon": 43.1599,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Drehem tableti AnOr 7, 079 (P101374) '{d}sza-u18-sza ni-nu-a{ki}' (R) · RlA 9 s.433 (Veenhof) · koordinat Pleiades 874621",
+  "not": "OK (Orta Kronoloji) · Şulgi 46. yıl ca. 2049 · Maništūšu İştar tapınağı yalnız sonraki Şamşi-Adad metninde",
+  "_ilk_kayit": {
+   "tarih": "-2048-01-01",
+   "gun": "MÖ 2049",
+   "kesinlik": "yil",
+   "arkeolojik_katman": "3. binyıldan (Pleiades)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kalhu",
+  "tur": "sehir",
+  "lat": 36.1,
+  "lon": 43.3315,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 5 s.320: 'first encountered in written sources in the 13th century BC' · VAT 16375 · Tell al-Rimah TR 119 · koordinat Pleiades 894019",
+  "not": "OK (Orta Kronoloji) · Tukulti-Ninurta I 1243-1207 ⇒ üst sınır",
+  "_ilk_kayit": {
+   "tarih": "-1206-01-01",
+   "gun": "~MÖ 1207",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Pleiades minDate -5500",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Susa",
+  "tur": "sehir",
+  "lat": 32.1899,
+  "lon": 48.2535,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Eannatum Akbabalar Steli 'su-sin2{ki}' (ORACC/ETCSRI Q001056) · Rimuş RIME 2.01.02.06 'su-si-im{ki}' https://cdli.earth/artifacts/461952 · koordinat Pleiades 912936",
+  "not": "OK (Orta Kronoloji) · ED IIIb · proto-Elam tabletleri (~3200) yerinde ama ADI içermez",
+  "_ilk_kayit": {
+   "tarih": "-2449-01-01",
+   "gun": "~MÖ 2450",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "~4000 (Iranica ELAM 'from its foundation ca. 4000 B.C.E.')",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-1124-01-01",
+    "t": "-0645-01-01",
+    "d": "elam-yeni",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Susa; Madaktu"
+   },
+   {
+    "f": "-1359-01-01",
+    "t": "-1124-01-01",
+    "d": "elam-orta",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Susa; Anşan; Çoğa Zanbil"
+   },
+   {
+    "f": "-2003-01-01",
+    "t": "-1645-01-01",
+    "d": "elam-sukkalmah",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Susa + Anşan"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Anşan",
+  "tur": "sehir",
+  "lat": 30.0032,
+  "lon": 52.4104,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Iranica ANSHAN (Hansman): 'the earliest extant historical reference to Elamite Anshan is given in a text of Manishtusu' https://www.iranicaonline.org/articles/anshan-elamite-region/ · koordinat Pleiades 922729",
+  "not": "OK (Orta Kronoloji) · ca. 2269-2255 · Eannatum'da Anşan YOK (RIME 1.09.03.01/05 okundu) · konum Malyan tuğlaları (Reiner)",
+  "_ilk_kayit": {
+   "tarih": "-2254-01-01",
+   "gun": "~MÖ 2255",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "Neolitik Jari; kentsel Banesh 4. binyıl sonu (Iranica MALIAN)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "s": [
+   {
+    "f": "-1359-01-01",
+    "t": "-1124-01-01",
+    "d": "elam-orta",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Susa; Anşan; Çoğa Zanbil"
+   },
+   {
+    "f": "-2003-01-01",
+    "t": "-1645-01-01",
+    "d": "elam-sukkalmah",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Susa + Anşan"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Harran",
+  "tur": "sehir",
+  "lat": 36.8636,
+  "lon": 39.0307,
+  "g": 1,
+  "k": 0,
+  "kaynak": "T.C. Kültür Bak. Harran ören yeri: 'mentioned in the texts of Ebla (XXIV B.C)' · daha sağlam: Blömer, Electrum 30 (2023) Mari 18. yy · koordinat Pleiades 658427",
+  "not": "OK (Orta Kronoloji) · Ebla ARET numarası YOK ⑥",
+  "_ilk_kayit": {
+   "tarih": "-2299-01-01",
+   "gun": "~MÖ 2300",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "Kalkolitik (Bakanlık)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Arbela",
+  "tur": "sehir",
+  "lat": 36.1913,
+  "lon": 44.0094,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Ebla (~2300): Lawler, Archaeology (AIA) 2014 'The first mention of Arbela is found on clay tablets dating to about 2300 B.C. … at Ebla' + MacGinnis 2014 tanıtımı · TABLETLE DOĞRULANAN: Ur III yıl adı P100007 'mu ur-bi2-lum{ki} ba-hul' Amar-Suen 02 (≈2045) https://cdli.earth/P100007 (R) · koordinat Pleiades 874341",
+  "not": "OK (Orta Kronoloji) · Ebla ⑥ (dergi + kitap tanıtımı, ARET no YOK) ⇒ kesin alt değer Ur III ≈2045",
+  "_ilk_kayit": {
+   "tarih": "-2299-01-01",
+   "gun": "~MÖ 2300",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "~5000 yıllık çanak (Lawler)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA AÇMA — mevcut 'Erbil' (yerlesimler.js, 0.03 km) noktasına MÖ alanları EKLENİR (VERI-YAPISI: 3 km içinde ikinci nokta açma)"
+ },
+ {
+  "ad": "Arrapha",
+  "tur": "sehir",
+  "lat": 35.4694,
+  "lon": 44.3956,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Drehem tableti P125583 'erin2 ar-ra-ap-hu-um{ki}', tarih Amar-Suen 05.05.25 (R) https://cdli.earth/P125583 · Pleiades 893941 'first attested in the time of the Neo-Sumerian empire' · koordinat Pleiades 893941",
+  "not": "OK (Orta Kronoloji) · Amar-Suen 5 ≈ 2042 (ORACC/CDLI yıl değerleri)",
+  "_ilk_kayit": {
+   "tarih": "-2041-01-01",
+   "gun": "MÖ 2042",
+   "kesinlik": "yil",
+   "arkeolojik_katman": "bulunamadı (Kerkük kalesi altında)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA AÇMA — mevcut 'Kerkük' (yerlesimler.js, 0.36 km) noktasına MÖ alanları EKLENİR (VERI-YAPISI: 3 km içinde ikinci nokta açma)"
+ },
+ {
+  "ad": "Nuzi (Gasur)",
+  "tur": "sehir",
+  "lat": 35.3708,
+  "lon": 44.2548,
+  "g": 1,
+  "k": 0,
+  "kaynak": "WiBiLex 'Nuzi' (Fincke?): 'Der älteste überlieferte Name des Yorġan Tepe lautet Gasur …, wogegen Nuzi erst seit dem Anfang des 18. Jh.s v. Chr. belegt ist' · 222 Urkunden 'in die späte altakkadische Zeit datiert' https://www.die-bibel.de/ressourcen/wibilex/altes-testament/nuzi (R) · koordinat Pleiades 894054",
+  "not": "OK (Orta Kronoloji) · geç Eski Akkad ≈ 2200 ⇒ üst sınır · Ebla ga-su-lu/ga-su-ru12 = Gasur TARTIŞMALI (Biga 2014) ⇒ ~2350 olası ⑥ · 'Nuzi' adı 18. yy",
+  "_ilk_kayit": {
+   "tarih": "-2199-01-01",
+   "gun": "~MÖ 2200",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "geç Halaf / Ubeyd (WiBiLex)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Dur-Kurigalzu",
+  "tur": "sehir",
+  "lat": 33.3561,
+  "lon": 44.1974,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Met (Knott) 'Kurigalzu I could, around the end of the fifteenth or beginning of the fourteenth century B.C., build a new royal city that bore his name (Dur-Kurigalzu)' · Pleiades 'founded by Kurigalzu ca. 1400' · koordinat Pleiades 893988",
+  "not": "OK (Orta Kronoloji) · I./II. Kurigalzu ⑥",
+  "_ilk_kayit": {
+   "tarih": "-1399-01-01",
+   "gun": "~MÖ 1400",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "yeni kuruluş",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Dur-Şarrukin",
+  "tur": "sehir",
+  "lat": 36.5066,
+  "lon": 43.2314,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Pleiades 874458 (Asur Eponim Kroniği: temel 717) · ORACC AEB/ATAE · koordinat Pleiades 874458",
+  "not": "mutlak",
+  "_ilk_kayit": {
+   "tarih": "-0716-01-01",
+   "gun": "MÖ 717",
+   "kesinlik": "yil",
+   "arkeolojik_katman": "yeni kuruluş",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Şubat-Enlil (Šeḫna)",
+  "tur": "sehir",
+  "lat": 36.9567,
+  "lon": 41.5067,
+  "g": 1,
+  "k": 0,
+  "kaynak": "LMU i3.MesopOil: 'It is probably Samsī-Addu that gave the name Šubat-Enlil to Šeḫnā' https://www.i3-mesop-oil.gwi.uni-muenchen.de/archive/old-babylonian-archives-from-tell-leilan · koordinat Pleiades 223856813",
+  "not": "OK (Orta Kronoloji) · Šubat-Enlil adı ca. 1808-1776 · 3. binyıl 'Šeḫna' BULUNAMADI",
+  "_ilk_kayit": {
+   "tarih": "-1775-01-01",
+   "gun": "~MÖ 1776",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "~5000 (LMU)",
+   "tanik_sayisi": "ÖLÇÜLMEDİ (1. tur)"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kar-Tukulti-Ninurta",
+  "tur": "sehir",
+  "lat": 35.4952,
+  "lon": 43.2741,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q005858 'I built a large cult center … I called it Kār-Tukultī-Ninurta' (A.0.78.22) · koordinat: https://pleiades.stoa.org/places/430344980 — A place from the TAVO Index\"\"",
+  "not": "OK (Orta Kronoloji) · İKİ okuyucu AYNI (-1207, Tukulti-Ninurta I saltanat sonu RIAo 1243–1207); sayfa 'ca. 1233-1197' der ⇒ -1197 alternatifi",
+  "_ilk_kayit": {
+   "tarih": "-1206-01-01",
+   "gun": "~MÖ 1207",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "s": [
+   {
+    "f": "-1352-01-01",
+    "t": "-0911-01-01",
+    "d": "orta-asur",
+    "kaynak": "başkent ilişkisi: KAMP-MEZOPOTAMYA-POLITY.csv merkez=Asur; Kar-Tukulti-Ninurta"
+   }
+  ],
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Al-Untaş-Napirişa (Çoğa Zanbil)",
+  "tur": "sehir",
+  "lat": 32.0084,
+  "lon": 48.5218,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 14 Untaš-Napiriša (2. yarı 14. yy) — okuyucu A2 · collections.smvk.se MM 1977:023a 'He founded a new capital called either Al-Untash-Napirisha … Period Ca 1260-1235 BC.' · koordinat: https://pleiades.stoa.org/places/459393126 — An ancient Elamite complex founded ca\"\"",
+  "not": "OK (Orta Kronoloji) · İKİ okuyucu AYRIŞTI: -1300 (RlA 14) ↔ -1235 (müze) ↔ -1240 (Iranica eski); RlA esas, ayrım beyanlı",
+  "_ilk_kayit": {
+   "tarih": "-1299-01-01",
+   "gun": "~MÖ 1300",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kabnak (Haft Tepe)",
+  "tur": "sehir",
+  "lat": 32.0805,
+  "lon": 48.3283,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://www.staff.uni-mainz.de/mofidi/Hafttape,english/what.html 'the seal of Athibu, Governor of Kabnak … Tepti-Ahar' · koordinat: https://pleiades.stoa.org/places/379400932 — An important town of the Middle Elamite period discovered at the archaeological site of Haft Tepe in southwestern I",
+  "not": "OK (Orta Kronoloji) · İKİ okuyucu AYRIŞTI: 15. yy (Mainz proje sayfası) ↔ 14. yy (Mainz basın) ⇒ iki tanığın GEÇ sınırı -1300 · ⚠️ Iranica HAFT TEPE: ad 'remains in doubt' — kimlik ZAYIF",
+  "_ilk_kayit": {
+   "tarih": "-1299-01-01",
+   "gun": "~MÖ 1300",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Marad",
+  "tur": "sehir",
+  "lat": 32.0814,
+  "lon": 44.7856,
+  "g": 1,
+  "k": 0,
+  "kaynak": "CDLI P020449/P020481/P020529 Presargonic Nippur 'lu2 mar2-da{ki}' (okuyucu A2) · cdli.earth/inscriptions/2180744 Naram-Sin dönemi 'ensi2 mar2-da{ki}' · koordinat: https://pleiades.stoa.org/places/912901 — Marad (modern Tell Wannat es-Sadum)",
+  "not": "OK (Orta Kronoloji) · A2 Presargonic (ED IIIb sonu -2340, CDLI dönem etiketi) ↔ A-alt Naram-Sin -2218 ⇒ ERKEN tanık esas; RlA 7 Akkad'dan başlatıyordu (CDLI daha erken)",
+  "_ilk_kayit": {
+   "tarih": "-2339-01-01",
+   "gun": "~MÖ 2340",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " a city located ca\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Dilbat",
+  "tur": "sehir",
+  "lat": 32.2958,
+  "lon": 44.4669,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 13 Dilbat: Sumu-la-El (1880–1845) 3. yılında 'chased Alumbiumu from Dilbat' (okuyucu A2) · koordinat: https://pleiades.stoa.org/places/893987 — Dilbat (modern Tell ed-Duleym)",
+  "not": "OK (Orta Kronoloji) · A-alt bulunamadı (Sabium 9) ↔ A2 -1878 ⇒ erken tanık; Alumbiumu yıl adı 'mu dil-bat{ki} in-dab5' (P307215) daha erken, yılı sabit DEĞİL",
+  "_ilk_kayit": {
+   "tarih": "-1877-01-01",
+   "gun": "~MÖ 1878",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": " a small city southeast of Babylon on the eastern bank of the Euphrates River",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kisurra",
+  "tur": "sehir",
+  "lat": 31.8382,
+  "lon": 45.4808,
+  "g": 1,
+  "k": 0,
+  "kaynak": "CDLI P101958 'sza3 ki-sur-ra{ki}', yıl adı Šulgi 31 (okuyucu A2) · koordinat: https://pleiades.stoa.org/places/797093165 — Kisurra (modern Tell Abu Hatab) was established in the Early Dynastic II period (ca\"\"",
+  "not": "OK (Orta Kronoloji) · A2 ARCANE Šulgi 2092 başlangıcıyla -2062 verdi; atlasın klasik OK'si (Šulgi 2094–2047, OLAY-A ile aynı) ⇒ -2064 · tablet TARİHİ yıl adının kendi yılı (olay değil ⇒ −1 kaydırması YOK) · A-alt bulunamadı",
+  "_ilk_kayit": {
+   "tarih": "-2063-01-01",
+   "gun": "MÖ 2064",
+   "kesinlik": "yil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Der (Tell Aqar/Badra)",
+  "tur": "sehir",
+  "lat": 33.1193,
+  "lon": 45.9373,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Sallaberger & Schrakamp ARCANE III: Fara dönemi Abu Salabikh za3-me ilahileri Der'i anar (okuyucu A2) · koordinat: https://pleiades.stoa.org/places/903013 — An ancient place",
+  "not": "OK (Orta Kronoloji) · A2 Fara (-2475, ARCANE) ↔ A-alt Šulgi 11 yıl adı (-2084) ⇒ ERKEN tanık esas; RlA 2 Rimuš'tan başlatıyordu",
+  "_ilk_kayit": {
+   "tarih": "-2474-01-01",
+   "gun": "~MÖ 2475",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " cited: BAtlas 92 A3 Deru/Beth Daraya/[Badra]\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Tuttul (Tell Bi'a)",
+  "tur": "sehir",
+  "lat": 35.9581,
+  "lon": 39.0472,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://www.encyclopedia.com/…/dagan 'the BE of Tuttul … modern Tell Bīʿa' (Ebla metinleri bağlamı) · koordinat: https://pleiades.stoa.org/places/582993625 — Tuttul was a Bronze Age city that is associated with the archaeological site of Tell Bi'a located in the Raqqa Gove",
+  "not": "OK (Orta Kronoloji) · ⚠️ ZAYIF: alıntıda Ebla adı yok, bağlamdan · Sargon 'Tuttul'da Dagan'a eğildi' (2334–2279) yedek · İKİNCİ OKUYUCU (Suriye/Habur): -2350 → -2250 — CDLI ARET 09 Ebla tableti (Ebla dönemi etiketi ca. 2350-2250; Bonechi listesi) — ikinci okuyucu",
+  "_ilk_kayit": {
+   "tarih": "-2249-01-01",
+   "gun": "~MÖ 2250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Ebla",
+  "tur": "sehir",
+  "lat": 35.799,
+  "lon": 36.7983,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://cordis.europa.eu/project/id/249394/reporting 'royal archives … dating to c. 2300 BC' · Britannica (Wayback) 'Ebla's archives, dating to the 3rd millennium bce' · koordinat: https://pleiades.stoa.org/places/869702586 — An important Bronze Age city and the capital of the three Eblaite Kingdoms.\"\"",
+  "not": "OK (Orta Kronoloji) · Ebla Palace G arşivi; kaynak c.2300 der, arşiv OK sınırı 2400–2350 · İKİNCİ OKUYUCU (Suriye/Habur): -2350 → -2250 — CDLI ARET Ebla tabletleri, dönem etiketi 2350-2250",
+  "_ilk_kayit": {
+   "tarih": "-2249-01-01",
+   "gun": "~MÖ 2250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Emar",
+  "tur": "sehir",
+  "lat": 35.9873,
+  "lon": 38.1118,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://web.archive.org/web/2023id_/https://www.die-bibel.de/stichwort/17472 'Die ältesten Erwähnungen von Emar finden sich in den Keilschrifttafeln aus … Ebla … um 2400 v. Chr.' · koordinat: https://pleiades.stoa.org/places/279984092 — An important Bronze Age trading center in northern Syria\"\"",
+  "not": "OK (Orta Kronoloji) · İKİNCİ OKUYUCU (Suriye/Habur): -2350 → -2250 — CDLI ARET 09 074",
+  "_ilk_kayit": {
+   "tarih": "-2249-01-01",
+   "gun": "~MÖ 2250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Karkamış",
+  "tur": "sehir",
+  "lat": 36.8294,
+  "lon": 38.0149,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://web.archive.org/web/2023id_/https://www.die-bibel.de/stichwort/23208 'erscheint Karkemisch in den Archiven von Ebla (24. Jh. v. Chr.)' · koordinat: https://pleiades.stoa.org/places/658465 — An ancient city that was part of the Mitanni",
+  "not": "OK (Orta Kronoloji) · Britannica 'ilk Mari mektupları' der — eskimiş · İKİNCİ OKUYUCU (Suriye/Habur): -2350 → -2250 — CDLI ARET 08 03",
+  "_ilk_kayit": {
+   "tarih": "-2249-01-01",
+   "gun": "~MÖ 2250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " Hittite",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA AÇMA — mevcut 'Cerablus' (yerlesimler_ek25.js, 0.5 km) noktasına MÖ alanları EKLENİR (VERI-YAPISI: 3 km içinde ikinci nokta açma)"
+ },
+ {
+  "ad": "Qatna",
+  "tur": "sehir",
+  "lat": 34.8347,
+  "lon": 36.8663,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://web.archive.org/web/2023id_/https://www.britannica.com/place/Katna 'frequently named as Qatanum in the royal archives of Mari' · koordinat: https://pleiades.stoa.org/places/412342122 — A city in western Syria that was first settled in the Early Bronze Age III (ca\"\"",
+  "not": "OK (Orta Kronoloji) · ⚠️ Zimri-Lim sonu (1761) KAYNAKSIZ eşleme; Yasmah-Addu dönemi (~1782–1775) daha erken olabilir · İKİNCİ OKUYUCU (Suriye/Habur): -1761 → -1781 — Mari ARM 1, 23 — Šamši-Adad I mektubu (Britannica saltanat c.1813–1781) ⇒ Zimri-Lim eşlemesi gereksiz",
+  "_ilk_kayit": {
+   "tarih": "-1780-01-01",
+   "gun": "~MÖ 1781",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Halab",
+  "tur": "sehir",
+  "lat": 36.1994,
+  "lon": 37.1629,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://web.archive.org/web/2023id_/https://www.britannica.com/place/Aleppo 'It is first mentioned in the archives of the ancient city of Ebla' · koordinat: https://pleiades.stoa.org/places/658409 — The ancient city of Aleppo",
+  "not": "OK (Orta Kronoloji) · İKİNCİ OKUYUCU (Suriye/Habur): -2350 → -2250 — CDLI ARET 09 099 ha-lam{ki} (Ḫalab eşitlemesi okuyucunun; Bonechi destekli)",
+  "_ilk_kayit": {
+   "tarih": "-2249-01-01",
+   "gun": "~MÖ 2250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " located in modern Syria",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA AÇMA — mevcut 'Halep' (yerlesimler.js, 0.34 km) noktasına MÖ alanları EKLENİR (VERI-YAPISI: 3 km içinde ikinci nokta açma)"
+ },
+ {
+  "ad": "Ekalte",
+  "tur": "sehir",
+  "lat": 36.2189,
+  "lon": 38.1299,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Sallaberger 2001, archiv.ub.uni-heidelberg.de propylaeumdok 6201 'eine Datierung in das 14. Jh. wahrscheinlich' (Mayer: 'vor 1446') · koordinat: https://pleiades.stoa.org/places/703315102 — Ekalte",
+  "not": "OK (Orta Kronoloji) · ⚠️ ZAYIF: alıntı TABLETLERİ tarihliyor, adı açıkça değil",
+  "_ilk_kayit": {
+   "tarih": "-1300-01-01",
+   "gun": "~MÖ 1301",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " modern Tall Munbāqa",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Nagar (Tell Brak)",
+  "tur": "sehir",
+  "lat": 36.6672,
+  "lon": 41.0585,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://www.thebritishacademy.ac.uk/documents/2009/pba131p001.pdf 'Contemporary cuneiform tablets from Ebla tell us that in the third millennium Nagar was the dominant city' · koordinat: https://pleiades.stoa.org/places/874735 — Tell Brak",
+  "not": "OK (Orta Kronoloji) · İKİNCİ OKUYUCU (Suriye/Habur): -2350 → -2250 — CDLI ARET 09 094",
+  "_ilk_kayit": {
+   "tarih": "-2249-01-01",
+   "gun": "~MÖ 2250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " located in the Upper Khabur of northeastern Syria",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Urkeş (Tell Mozan)",
+  "tur": "sehir",
+  "lat": 37.0578,
+  "lon": 40.9978,
+  "g": 1,
+  "k": 0,
+  "kaynak": "urkesh.org Buccellati 2003 JCS 55 'our dating of king Tupkish to the Akkadian period, and specifically to early Naram-Sin' + 2007 'ruler (endan) of Urkesh … Tupkish' · koordinat: https://pleiades.stoa.org/places/260976011 — Urkesh or Urkish (the modern Tell Mozan) is a tell located in the foothills of the Taurus Mountains of northeastern",
+  "not": "OK (Orta Kronoloji) · Naram-Sin saltanat sonu",
+  "_ilk_kayit": {
+   "tarih": "-2217-01-01",
+   "gun": "~MÖ 2218",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kahat (Tell Barri)",
+  "tur": "sehir",
+  "lat": 36.7388,
+  "lon": 41.127,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Wayback cdli.ox.ac.uk/wiki/year_names_zimri-lim 'Year in which Zimri-Lim seized Kahat (ZL 01)' · koordinat: https://pleiades.stoa.org/places/874732 — Tell Barri/[Kahat] is an archaeological site located along the Wadi Jaghjagh",
+  "not": "OK (Orta Kronoloji) · ⚠️ ZL 1 = 1775 mutlak eşlemesi KAYNAKSIZ (OLAY-B'de aynı sebeple dışarıda tutuldu) ⇒ kesinlik düşük · İKİNCİ OKUYUCU (Suriye/Habur): -1775 → -1781 — Mari ARM 1, 21 — Šamši-Adad I mektubu ⇒ kaynaksız ZL eşlemesi yerine",
+  "_ilk_kayit": {
+   "tarih": "-1780-01-01",
+   "gun": "~MÖ 1781",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": " a tributary of the Khabur River",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Şadikanni",
+  "tur": "sehir",
+  "lat": 36.2082,
+  "lon": 40.7205,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q006010/html 'the mooring-pole of the city Šadikanni … At the time of Aššur-rēša-iši (II)' · koordinat: https://pleiades.stoa.org/places/874688 — An ancient place",
+  "not": "OK (Orta Kronoloji) · yalnız kraliyet yazıtı dizini tarandı; Orta Asur arşivleri kontrol edilmedi",
+  "_ilk_kayit": {
+   "tarih": "-0966-01-01",
+   "gun": "~MÖ 967",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": " cited: BAtlas 89 C4 Shadikanni/Ar(a)ban/(H)Oraba?/*Castellum Arabum\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Guzana (Tell Halaf)",
+  "tur": "sehir",
+  "lat": 36.8267,
+  "lon": 40.0397,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q006021/html 'marched to the city Guzāna, which Abi-salamu of the land Bīt-Baḫiāni … held' (eponim Šamaš-abūʾa) · koordinat: https://pleiades.stoa.org/places/874739 — An Aramaean principality and Neo-Assyrian provincial capital founded on the site of an extinct Neolithic settlement\"\"",
+  "not": "OK (Orta Kronoloji) · İKİNCİ OKUYUCU (Suriye/Habur): -894- → -891- — RIAo Q006021 Adad-nārārī II saltanat sonu ⇒ eponim→yıl eşlemesi kaynaksızdı",
+  "_ilk_kayit": {
+   "tarih": "-0890-01-01",
+   "gun": "~MÖ 891",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "⚠️ 1–3 km arası mevcut nokta var (Ceylanpınar 2.06 km; Qaţţīnah 2.47 km) — antik höyük ≠ modern kasaba olabilir; YAZICI/KOORDİNATÖR KARARI"
+ },
+ {
+  "ad": "Til-Barsip",
+  "tur": "sehir",
+  "lat": 36.6759,
+  "lon": 38.1168,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q004607/html 'I approached the city Tīl-Barsip, the fortified city of Aḫūnu' (Kurkh monoliti, tahta çıkış/1. yıl) · koordinat: https://pleiades.stoa.org/places/378114381 — In House C1 in the Lower City of Til-Barsip",
+  "not": "OK (Orta Kronoloji) · Luvi adı Masuwari ayrı ad",
+  "_ilk_kayit": {
+   "tarih": "-0857-01-01",
+   "gun": "MÖ 858",
+   "kesinlik": "yil",
+   "arkeolojik_katman": " 22 Assyrian clay tablets",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Hindanu",
+  "tur": "sehir",
+  "lat": 34.3897,
+  "lon": 41.028,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q005929/html 'as far as the city Ḫindānu (Ḫimdānu)' (Tiglat-pileser I 04) · koordinat: https://pleiades.stoa.org/places/894006 — An ancient place",
+  "not": "OK (Orta Kronoloji) · Mari OB kontrol edilmedi",
+  "_ilk_kayit": {
+   "tarih": "-1075-01-01",
+   "gun": "~MÖ 1076",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": " cited: BAtlas 91 C3 Hindanu/Eddana\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Anat (Anah)",
+  "tur": "sehir",
+  "lat": 34.4678,
+  "lon": 41.9794,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q005929/html 'Anat of the land Sūḫu' (Tiglat-pileser I 04) · koordinat: https://pleiades.stoa.org/places/893936 — An ancient place",
+  "not": "OK (Orta Kronoloji) · OB Ḫanat muhtemel, doğrulanmadı · İKİNCİ OKUYUCU (Suriye/Habur): -1076 → -1781 — Mari ARM 1, 56 (Ḫanat) — Šamši-Adad I mektubu ⇒ -1076 kraliyet yazıtından 700 yıl erken",
+  "_ilk_kayit": {
+   "tarih": "-1780-01-01",
+   "gun": "~MÖ 1781",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": " cited: BAtlas 91 C3 Anatho\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Şaduppum (Tell Harmal)",
+  "tur": "sehir",
+  "lat": 33.3098,
+  "lon": 44.4666,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 11 s.488 'ist seit Ḫammi-dušur nachzuweisen' · https://cdli.earth/artifacts/299653 'a-na sza-du-up-pe3-e{ki}' Early OB (2000-1900) · koordinat: https://pleiades.stoa.org/places/821129014 — Shaduppum was a small but heavily fortified city dating from the middle of the third millennium to the second mille",
+  "not": "OK (Orta Kronoloji) · İKİ okuyucu AYNI",
+  "_ilk_kayit": {
+   "tarih": "-1899-01-01",
+   "gun": "~MÖ 1900",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Zabalam",
+  "tur": "sehir",
+  "lat": 31.7434,
+  "lon": 45.8769,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 15 s.170 (Molina) 'first attested in a small fragment of a tablet dated to the Uruk III period (ca.3100−2900)' · CDLI P000393 'ZABALAM~a' Uruk III (3200-3000) · koordinat: https://pleiades.stoa.org/places/921099766 — This Sumerian/Babylonian city (also known as Zabalam",
+  "not": "OK (Orta Kronoloji) · D2 -2900 (RlA) ↔ D-alt -3000 (CDLI) ⇒ Ur satırıyla AYNI konvansiyon (CDLI Uruk III üst sınırı -3000) · arkaik işaretin şehir okunuşu YORUM",
+  "_ilk_kayit": {
+   "tarih": "-2999-01-01",
+   "gun": "~MÖ 3000",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " now as modern Tell Ibzeikh) was a cult centre of the goddess Inanna/Ishtar\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Bad-tibira",
+  "tur": "sehir",
+  "lat": 31.3833,
+  "lon": 46.0041,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://cdli.earth/artifacts/431120 Enmetena RIME 1.09.05.04 'e2-musz3 pa5-ti-bir5-ra{ki}-ka' ED IIIb (2500-2340) · koordinat: https://pleiades.stoa.org/places/771224406 — A town mentioned in Neo-Assyrian sources; an alternate name is Bad-tibira; the modern site is Tel Madain.\"\"",
+  "not": "OK (Orta Kronoloji) · D2 -2420 ('Enmetena vers 2420') ↔ D-alt -2340 (ED IIIb sonu) ⇒ Marad ile aynı konvansiyon (dönem sonu) · Sümer Kral Listesi KULLANILMADI",
+  "_ilk_kayit": {
+   "tarih": "-2339-01-01",
+   "gun": "~MÖ 2340",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Me-Turan",
+  "tur": "sehir",
+  "lat": 34.1929,
+  "lon": 45.0579,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 8 s.150 'Zuerst altbab. genannt (… OBTI 63: 18)' = CDLI P369493 Early OB · koordinat: https://pleiades.stoa.org/places/733857262 — Hamrin basin site named Tall al-Sīb.\"\"",
+  "not": "OK (Orta Kronoloji) · D2 -1900 ↔ D-alt -1818 (Ipiq-Adad II yıl adı, saltanat sonu kaynaksız) ⇒ RlA esas · ⚠️ Pleiades kimliği Tall al-Sīb (Tell Haddad değil) — koordinat Hamrin",
+  "_ilk_kayit": {
+   "tarih": "-1899-01-01",
+   "gun": "~MÖ 1900",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Sippar-Amnanum (Tell ed-Der)",
+  "tur": "sehir",
+  "lat": 33.0992,
+  "lon": 44.2992,
+  "g": 1,
+  "k": 0,
+  "kaynak": "RlA 12 s.528 'Tell ed-Dēr war bis Samsu-iluna Sippir-rabûm, danach Sippir-Amnānum' + CDLI P510246 Samsu-iluna 16 · koordinat: https://pleiades.stoa.org/places/392373882 — Sippar-Amnanum (modern Tell ed-Der; also referred to as Sippar-Annunītu) was a small city located 6 km northeast of",
+  "not": "OK (Orta Kronoloji) · D2 -1734 ↔ D-alt -1720 (SI 30) ⇒ erken tanık",
+  "_ilk_kayit": {
+   "tarih": "-1733-01-01",
+   "gun": "MÖ 1734",
+   "kesinlik": "yil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Dur-Katlimmu",
+  "tur": "sehir",
+  "lat": 35.6449,
+  "lon": 40.7425,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://www.schechhamad.de/ausgrabung/archive.php 'seit Salmanassar I., der den Tempel des Stadtgottes Salmānu von Dūr-Katlimmu gründete' · koordinat: https://pleiades.stoa.org/places/893991 — [Dur-Katlimmu]/Magdalu (modern Tell Schech Hamad in Syria) is a multi-period human settlement where occupation began i",
+  "not": "OK (Orta Kronoloji) · 'wahrscheinlich'; arşiv mektupları çoğunlukla Tukulti-Ninurta I ⇒ -1197 alternatifi · İKİNCİ OKUYUCU (Suriye/Habur): -1234 → -1201 — Harvard sayfası: Orta Asur \"13th cent. BC\" Bina P arşivi ⇒ \"wahrscheinlich seit Salmanassar I\" yerine sert sınır",
+  "_ilk_kayit": {
+   "tarih": "-1200-01-01",
+   "gun": "~MÖ 1201",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Imgur-Enlil (Balawat)",
+  "tur": "sehir",
+  "lat": 36.2237,
+  "lon": 43.4177,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q004504/ 'I reorganized this city (and) named it Imgur-Enlil' · koordinat: https://pleiades.stoa.org/places/673099593 — The Mamu temple of Imgur-Enlil was located on the northeastern side of the citadel\"\"",
+  "not": "OK (Orta Kronoloji) · İKİ okuyucu AYNI; ad kralın KENDİ verdiği ad",
+  "_ilk_kayit": {
+   "tarih": "-0858-01-01",
+   "gun": "~MÖ 859",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Tarbisu",
+  "tur": "sehir",
+  "lat": 36.4088,
+  "lon": 43.0774,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://oracc.museum.upenn.edu/riao/Q005737/html '[He … the cities (...)] Tarbiṣi, (and) Kudina' (Arik-dīn-ili 8) · koordinat: https://pleiades.stoa.org/places/30774368 — Tarbiṣu",
+  "not": "OK (Orta Kronoloji) · ⚠️ kimlik belirsiz; sağlam yedek Šalmaneser III Q004735 (açılmadı)",
+  "_ilk_kayit": {
+   "tarih": "-1295-01-01",
+   "gun": "~MÖ 1296",
+   "kesinlik": "onyil",
+   "arkeolojik_katman": " now modern Sherif Khan",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kilizu",
+  "tur": "sehir",
+  "lat": 36.1048,
+  "lon": 43.7518,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Wayback iranicaonline.org/articles/kilizu/kilizu-ii-excavations-since-2011 'the city was already part of the Middle-Assyrian empire in the first half of the 13th century BCE' · koordinat: https://pleiades.stoa.org/places/894027 — An ancient place",
+  "not": "OK (Orta Kronoloji) · D2 -1076 (RlA 5: Tiglat-pileser I idari metinleri) ↔ D-alt -1250 (Iranica, DOLAYLI) ⇒ erken tanık, dolaylılık beyanlı",
+  "_ilk_kayit": {
+   "tarih": "-1249-01-01",
+   "gun": "~MÖ 1250",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " cited: BAtlas 91 E1 Kilizu\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Puzriş-Dagan (Drehem)",
+  "tur": "sehir",
+  "lat": 32.0594,
+  "lon": 45.2921,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Wayback cdli.ucla.edu/tools/yearnames/HTML/T6K2.htm '39 mu … e2-puzur4-isz-{d}da-gan{ki} … mu-du3' · RlA 11 'Vor und nach der Ur III-Zeit ist P. nicht belegt' · koordinat: https://pleiades.stoa.org/places/359215729 — An ancient city of Lower Mesopotamia",
+  "not": "OK (Orta Kronoloji) · A-alt -2056 (klasik Š39) ↔ A2 -2054 (ARCANE) ⇒ klasik OK · yıl adı ADI taşıyor ⇒ ad o yıl yazılı",
+  "_ilk_kayit": {
+   "tarih": "-2055-01-01",
+   "gun": "MÖ 2056",
+   "kesinlik": "yil",
+   "arkeolojik_katman": " Puzriš-Dagan was founded in the twenty-first century B.C\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Maşkan-şapir",
+  "tur": "sehir",
+  "lat": 32.4055,
+  "lon": 45.2207,
+  "g": 1,
+  "k": 0,
+  "kaynak": "Stone & Zimansky 2004 (Steinkeller) repo.library.stonybrook.edu 11401/89161 'The earliest known mention of Mashkan-shapir comes from a Sargonic letter of Nippur provenience' · RlA 7 (SR 83) · koordinat: https://pleiades.stoa.org/places/715980704 — Mashkan-Shapir",
+  "not": "OK (Orta Kronoloji) · A2 -2142 (ARCANE Akkad sonu) ↔ A-alt -2154 ⇒ atlas klasik OK Sargonlu sonu",
+  "_ilk_kayit": {
+   "tarih": "-2153-01-01",
+   "gun": "~MÖ 2154",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " covering 56 ha",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Alalah",
+  "tur": "sehir",
+  "lat": 36.2381,
+  "lon": 36.3838,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://web.archive.org/web/2023id_/https://www.die-bibel.de/stichwort/12985 'Die Briefe aus Mari legen ein erstes Zeugnis darüber ab' · koordinat: https://pleiades.stoa.org/places/309866128 — A major Late Bronze Age city in the Amuq River Valley",
+  "not": "OK (Orta Kronoloji) · ⚠️ ZL sonu KAYNAKSIZ eşleme · KOORDİNATÖR HÜKMÜ: Zimri-Lim mutlak eşlemesi KAYNAKSIZ ⇒ kesinlik yuzyil, sert yazılmadı · ikinci okuyucu Ebla \"NI-la-la-hu{ki}\" adayını (-2250) KENDİ eşitlemesi diye zayıf işaretledi",
+  "_ilk_kayit": {
+   "tarih": "-1760-01-01",
+   "gun": "~MÖ 1761",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": " inhabited during the Second Millennium BCE until about the 12th century BCE.\"\"",
+   "tanik_sayisi": "2"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Nerebtum (Iščali)",
+  "tur": "sehir",
+  "lat": 33.3015,
+  "lon": 44.5831,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://pleiades.stoa.org/places/357565832 (JSON) 'Nērebtum is a medium-sized Bronze Age settlement located east of Baghdad on the left bank of the Diyala river' · CDLI P289695 YOS 14 075 'lu2 ne-re-eb-tum' Early OB (2000-1900)",
+  "not": "OK (Orta Kronoloji) · konum denetimi (alt-ajan E) ile eklendi; Ipiq-Adad II tuğlası P448197 daha sağlam ama saltanat sonu kaynaksız",
+  "_ilk_kayit": {
+   "tarih": "-1899-01-01",
+   "gun": "~MÖ 1900",
+   "kesinlik": "yuzyil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "1"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ },
+ {
+  "ad": "Kutalla (Tell Sifr)",
+  "tur": "sehir",
+  "lat": 31.2946,
+  "lon": 45.9672,
+  "g": 1,
+  "k": 0,
+  "kaynak": "https://cdli.earth/proveniences/167 'Kutalla (mod. Tell Sifr)' · https://cdli.earth/artifacts/270025 'ku-ta-al-la{ki}-a-ke4' (Ṣilli-Adad)",
+  "not": "OK (Orta Kronoloji) · konum denetimi (alt-ajan E) ile eklendi; yalnız bir yazım tarandı, Ur III yazımları kontrol edilmedi",
+  "_ilk_kayit": {
+   "tarih": "-1834-01-01",
+   "gun": "MÖ 1835",
+   "kesinlik": "yil",
+   "arkeolojik_katman": "",
+   "tanik_sayisi": "1"
+  },
+  "bos": "veri-yok",
+  "_yazim": "YENİ NOKTA"
+ }
+]

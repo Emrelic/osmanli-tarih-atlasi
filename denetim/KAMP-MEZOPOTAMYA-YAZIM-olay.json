@@ -1,0 +1,3240 @@
+{
+ "olay": [
+  {
+   "t": "-2333-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Uruk (Erken Hanedanlık; Lugalzagesi krallığı) — yıkılış / son",
+   "gun": "~MÖ 2334 (sınır — olay günü DEĞİL)",
+   "yer": "Uruk",
+   "d": "OK (Orta Kronoloji) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Met 'Uruk: The First City' 'Early Dynastic period (2900–2350 B.C.)' · Britannica Sargon (Dalley) 'defeat of Lugalzaggisi of Uruk'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=uruk-ed · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2115-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Uruk (Utu-hegal) — doğuş",
+   "gun": "~MÖ 2116 (sınır — olay günü DEĞİL)",
+   "yer": "Uruk",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Utu-hegal of Uruk (c. 2116–c. 2110)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=uruk-utuhegal · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2109-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Uruk (Utu-hegal) — yıkılış / son",
+   "gun": "~MÖ 2110 (sınır — olay günü DEĞİL)",
+   "yer": "Uruk",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Utu-hegal of Uruk (c. 2116–c. 2110)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=uruk-utuhegal · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1859-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Uruk (Sîn-kāšid hanedanı, Eski Babil) — doğuş",
+   "gun": "MÖ 1860",
+   "yer": "Uruk",
+   "d": "OK (Orta Kronoloji) (kaynak açıkça 'chron. moy.')",
+   "kaynak": "RlA 12 s.519 Charpin 'Sîn-kāšid' https://publikationen.badw.de/de/rla/a/12.576.jpg: 'fonda vers 1860 (chron. moy.) … jusqu'à l'annexion par Rīm-Sîn en sa 20e année (1802)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=uruk-sinkasid · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1801-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Uruk (Sîn-kāšid hanedanı, Eski Babil) — yıkılış / son",
+   "gun": "MÖ 1802",
+   "yer": "Uruk",
+   "d": "OK (Orta Kronoloji) (kaynak açıkça 'chron. moy.')",
+   "kaynak": "RlA 12 s.519 Charpin 'Sîn-kāšid' https://publikationen.badw.de/de/rla/a/12.576.jpg: 'fonda vers 1860 (chron. moy.) … jusqu'à l'annexion par Rīm-Sîn en sa 20e année (1802)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=uruk-sinkasid · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2400-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Ur I. Hanedanı — doğuş",
+   "gun": "~MÖ 2401 (sınır — olay günü DEĞİL)",
+   "yer": "Ur",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL · ARALIK UCU DÜZELTİLDİ: ÜST sınır",
+   "kaynak": "Britannica Ur (Woolley) '1st dynasty of Ur (25th century bce)' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html 'Mesanepada c. 2500'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-i · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2349-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Lagaş I. Hanedanı (Ur-Nanşe) — yıkılış / son",
+   "gun": "~MÖ 2350 (sınır — olay günü DEĞİL)",
+   "yer": "Girsu (eski başkent Lagaş/al-Hiba)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'from about 2520' · RlA 6 s.419 Bauer https://publikationen.badw.de/de/rla/a/6.454.jpg",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lagas-i · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2192-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Lagaş II. Hanedanı (Gudea) — doğuş",
+   "gun": "~MÖ 2193 (sınır — olay günü DEĞİL)",
+   "yer": "Girsu",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'a century of complete independence, between Shar-kali-sharri and the beginning of Ur III'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lagas-ii · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2094-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Lagaş II. Hanedanı (Gudea) — yıkılış / son",
+   "gun": "~MÖ 2095 (sınır — olay günü DEĞİL)",
+   "yer": "Girsu",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL · ARALIK UCU DÜZELTİLDİ: ÜST sınır",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'a century of complete independence, between Shar-kali-sharri and the beginning of Ur III'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lagas-ii · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2333-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Umma (Giša) — yıkılış / son",
+   "gun": "~MÖ 2334 (sınır — olay günü DEĞİL)",
+   "yer": "Umma (Tell Jokha)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "RlA 14 s.318 Waetzoldt https://publikationen.badw.de/de/rla/a/14.381.jpg: Pabilga heykelciği 'König von U.' (FD II)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=umma · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-2699-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Kiş — doğuş",
+   "gun": "~MÖ 2700 (sınır — olay günü DEĞİL)",
+   "yer": "Kiş",
+   "d": "OK (Orta Kronoloji) (Edzard iki dizi: 1880-1845 OK / 1816-1781 düşük) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Enmebaragesi … about 2700' · RlA 5 s.607 Edzard https://publikationen.badw.de/de/rla/a/5.644.jpg 'unter Sumu-la-El von Babylon (1880—1845/1816—1781) … einverleibt'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kis · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1844-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Kiş — yıkılış / son",
+   "gun": "~MÖ 1845 (sınır — olay günü DEĞİL)",
+   "yer": "Kiş",
+   "d": "OK (Orta Kronoloji) (Edzard iki dizi: 1880-1845 OK / 1816-1781 düşük) · SINIR (saltanattan türetilmiş), olay günü DEĞİL · ARALIK UCU DÜZELTİLDİ: ÜST sınır",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Enmebaragesi … about 2700' · RlA 5 s.607 Edzard https://publikationen.badw.de/de/rla/a/5.644.jpg 'unter Sumu-la-El von Babylon (1880—1845/1816—1781) … einverleibt'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kis · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2333-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Akkad İmparatorluğu (Sargonlu hanedan) — doğuş",
+   "gun": "~MÖ 2334 (sınır — olay günü DEĞİL)",
+   "yer": "Akkad/Agade (konumu BİLİNMİYOR)",
+   "d": "OK (Orta Kronoloji) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica Sargon (Dalley) 'c. 2334–2279' · Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Shar-kali-sharri (c. 2217–c. 2193) … the dynasty went under'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=akkad · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 30
+  },
+  {
+   "t": "-2192-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Akkad İmparatorluğu (Sargonlu hanedan) — yıkılış / son",
+   "gun": "~MÖ 2193 (sınır — olay günü DEĞİL)",
+   "yer": "Akkad/Agade (konumu BİLİNMİYOR)",
+   "d": "OK (Orta Kronoloji) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica Sargon (Dalley) 'c. 2334–2279' · Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Shar-kali-sharri (c. 2217–c. 2193) … the dynasty went under'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=akkad · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-2229-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Gut egemenliği — doğuş",
+   "gun": "~MÖ 2230",
+   "yer": "yok (kanıtlanmış başkent YOK)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "Britannica Lagash 'from about 2230 to about 2130' · RlA 3 s.708 Hallo https://publikationen.badw.de/de/rla/a/3.725.jpg (SKL Gut listesi 'negligible')",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=gutium · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2109-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Gut egemenliği — yıkılış / son",
+   "gun": "~MÖ 2110 (sınır — olay günü DEĞİL)",
+   "yer": "yok (kanıtlanmış başkent YOK)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL · ARALIK UCU DÜZELTİLDİ: ÜST sınır",
+   "kaynak": "Britannica Lagash 'from about 2230 to about 2130' · RlA 3 s.708 Hallo https://publikationen.badw.de/de/rla/a/3.725.jpg (SKL Gut listesi 'negligible')",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=gutium · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-2111-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Ur III (Ur III. Hanedanı) — doğuş",
+   "gun": "MÖ 2112",
+   "yer": "Ur",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'c. 2112–c. 2004' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html · Met Heilbrunn 'List of Rulers of Mesopotamia' https://www.metmuseum.org/toah/hd/meru/hd_meru.htm",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2003-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Ur III (Ur III. Hanedanı) — yıkılış / son",
+   "gun": "MÖ 2004",
+   "yer": "Ur",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'c. 2112–c. 2004' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html · Met Heilbrunn 'List of Rulers of Mesopotamia' https://www.metmuseum.org/toah/hd/meru/hd_meru.htm",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2016-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "İsin I. Hanedanı — doğuş",
+   "gun": "MÖ 2017",
+   "yer": "İsin",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "Britannica Isin 'about 2017 … About 1794 Isin lost its independence' · RlA 5 s.181 Edzard",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1793-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "İsin I. Hanedanı — yıkılış / son",
+   "gun": "MÖ 1794",
+   "yer": "İsin",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "Britannica Isin 'about 2017 … About 1794 Isin lost its independence' · RlA 5 s.181 Edzard",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2024-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Larsa hanedanı — doğuş",
+   "gun": "MÖ 2025 (sınır — olay günü DEĞİL)",
+   "yer": "Larsa",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Britannica Larsa 'Naplanum (c. 2025–c. 2005) … Hammurabi … defeated Rim-Sin in 1763' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1762-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Larsa hanedanı — yıkılış / son",
+   "gun": "MÖ 1763",
+   "yer": "Larsa",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "Britannica Larsa 'Naplanum (c. 2025–c. 2005) … Hammurabi … defeated Rim-Sin in 1763' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1754-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Eşnunna (bağımsız krallık) — yıkılış / son",
+   "gun": "~MÖ 1755",
+   "yer": "Eşnunna (Tell Asmar)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "Britannica Eshnunna 'After the collapse of Ur, Eshnunna became independent' · Britannica Hammurabi (Renger) 'third time (1757–1755 bce). The final destruction of Eshnunna'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=esnunna · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2094-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Mari şakkanakku hanedanı — doğuş",
+   "gun": "MÖ 2095 (sınır — olay günü DEĞİL)",
+   "yer": "Mari (Tell Hariri)",
+   "d": "başlangıç yılı kaynakta YOK · f ⑤: ÜST SINIR (en geç)",
+   "kaynak": "RlA 7 s.383 Kupper https://publikationen.badw.de/de/rla/a/7.416.jpg 'la lignée des šakkanakku se poursuivit encore pendant près d'un siècle'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mari-sakkanakku · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-2016-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Mari şakkanakku hanedanı — yıkılış",
+   "gun": "MÖ 2017 (sınır — olay günü DEĞİL)",
+   "yer": "Mari (Tell Hariri)",
+   "d": "bitiş yılı kaynakta YOK · t ⑤: ALT SINIR (en erken) · ARALIK UCU DÜZELTİLDİ: ALT sınır",
+   "kaynak": "RlA 7 s.383 Kupper https://publikationen.badw.de/de/rla/a/7.416.jpg 'la lignée des šakkanakku se poursuivit encore pendant près d'un siècle'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mari-sakkanakku · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1819-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Mari Lim hanedanı (Yahdun-Lim, Zimri-Lim) — doğuş",
+   "gun": "~MÖ 1820 (sınır — olay günü DEĞİL)",
+   "yer": "Mari (Tell Hariri)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "RlA 7 s.383 Kupper 'accession … de Jaḫdun-Lim, vers 1820' · Britannica Hammurabi (Renger) 'in 1761 bce against … Zimrilim'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mari-lim · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1760-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Mari Lim hanedanı (Yahdun-Lim, Zimri-Lim) — yıkılış / son",
+   "gun": "~MÖ 1761",
+   "yer": "Mari (Tell Hariri)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "RlA 7 s.383 Kupper 'accession … de Jaḫdun-Lim, vers 1820' · Britannica Hammurabi (Renger) 'in 1761 bce against … Zimrilim'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mari-lim · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1594-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Babil I. Hanedanı (Eski Babil) — yıkılış / son",
+   "gun": "MÖ 1595",
+   "yer": "Babil",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "Britannica Babylon (Saggs) 'established in 1894 bce by … Sumuabum … Hittite raid in 1595 bce' · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1739-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "I. Deniz Ülkesi hanedanı — doğuş",
+   "gun": "~MÖ 1740",
+   "yer": "bulunamadı",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "RlA 8 s.6 Brinkman 'Meerland' https://publikationen.badw.de/de/rla/a/8.35.jpg '§ 1. First Sealand Dynasty, c. 1740–1475'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=deniz-ulkesi-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1474-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "I. Deniz Ülkesi hanedanı — yıkılış / son",
+   "gun": "~MÖ 1475",
+   "yer": "bulunamadı",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "RlA 8 s.6 Brinkman 'Meerland' https://publikationen.badw.de/de/rla/a/8.35.jpg '§ 1. First Sealand Dynasty, c. 1740–1475'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=deniz-ulkesi-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2024-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Asur kent-devleti (Eski Asur) — doğuş",
+   "gun": "~MÖ 2025 (sınır — olay günü DEĞİL)",
+   "yer": "Asur",
+   "d": "OK (Orta Kronoloji) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Met (Highcock) 'Puzur-Ashur I (r. ca. 2025–1950 B.C.) … Shamshi-Adad I captured Ashur in 1808/1807 B.C.' https://www.metmuseum.org/toah/hd/assy_2/hd_assy_2.htm",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=eski-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1807-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Asur kent-devleti (Eski Asur) — yıkılış / son",
+   "gun": "~MÖ 1808",
+   "yer": "Asur",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "Met (Highcock) 'Puzur-Ashur I (r. ca. 2025–1950 B.C.) … Shamshi-Adad I captured Ashur in 1808/1807 B.C.' https://www.metmuseum.org/toah/hd/assy_2/hd_assy_2.htm",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=eski-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1807-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Yukarı Mezopotamya Krallığı (Şamşi-Adad I) — doğuş",
+   "gun": "MÖ 1808",
+   "yer": "Šubat-Enlil (DOĞRULANMADI) · Asur · Ekallatum",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Samsī-Addu I (ca. 1808-1776 BC)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=samsi-adad-krallik · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1775-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Yukarı Mezopotamya Krallığı (Şamşi-Adad I) — yıkılış / son",
+   "gun": "MÖ 1776 (sınır — olay günü DEĞİL)",
+   "yer": "Šubat-Enlil (DOĞRULANMADI) · Asur · Ekallatum",
+   "d": "OK (Orta Kronoloji) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Samsī-Addu I (ca. 1808-1776 BC)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=samsi-adad-krallik · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1760-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Hana Krallığı (Terqa) — doğuş",
+   "gun": "~MÖ 1761",
+   "yer": "Terqa (Tell ʿAšāra)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "RlA 13 s.600 Masetti-Rouault & Rouault https://publikationen.badw.de/de/rla/a/13.675.jpg · RlA 4 s.76 Kupper https://publikationen.badw.de/de/rla/a/4.105.jpg",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hana · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1154-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Kassit Babilonya (Orta Babil) — yıkılış / son",
+   "gun": "~MÖ 1155",
+   "yer": "Babil; Dur-Kurigalzu",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "Met (Knott) 'Middle Babylonian (1595–1155 B.C.)' https://www.metmuseum.org/toah/hd/kass/hd_kass.htm · RlA 5 s.465 Brinkman https://publikationen.badw.de/de/rla/a/5.502.jpg 'early sixteenth century … about 1475 … until about 1155'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kassit-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1156-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "İsin II. Hanedanı — doğuş",
+   "gun": "~MÖ 1157",
+   "yer": "bulunamadı (Isin ile 'ilişki' — Brinkman §1 tam okunmadı)",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "RlA 5 s.183 Brinkman https://publikationen.badw.de/de/rla/a/5.216.jpg 'ruled Babylonia ca. 1157—1026'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-ii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1025-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "İsin II. Hanedanı — yıkılış / son",
+   "gun": "~MÖ 1026",
+   "yer": "bulunamadı (Isin ile 'ilişki' — Brinkman §1 tam okunmadı)",
+   "d": "OK (Orta Kronoloji)",
+   "kaynak": "RlA 5 s.183 Brinkman https://publikationen.badw.de/de/rla/a/5.216.jpg 'ruled Babylonia ca. 1157—1026'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-ii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1024-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "II. Deniz Ülkesi hanedanı — doğuş",
+   "gun": "MÖ 1025",
+   "yer": "bulunamadı",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "RlA 8 s.6 Brinkman '§ 3. Second Sealand Dynasty, 1025–1005'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=deniz-ulkesi-ii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1004-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "II. Deniz Ülkesi hanedanı — yıkılış / son",
+   "gun": "MÖ 1005",
+   "yer": "bulunamadı",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor)",
+   "kaynak": "RlA 8 s.6 Brinkman '§ 3. Second Sealand Dynasty, 1025–1005'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=deniz-ulkesi-ii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1499-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Mitanni (Maitani) — doğuş",
+   "gun": "~MÖ 1500 (sınır — olay günü DEĞİL)",
+   "yer": "Waššukanni (KONUMU BİLİNMİYOR)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "RlA 8 s.286 Wilhelm https://publikationen.badw.de/de/rla/a/8.317.jpg 'bezeugt von ca. 1500 bis ins 13 Jh.' · s.294 https://publikationen.badw.de/de/rla/a/8.326.jpg (Šuppiluliuma I + Aššur-uballiṭ I)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mitanni · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1359-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Mitanni (Maitani) — yıkılış / son",
+   "gun": "~MÖ 1360 (sınır — olay günü DEĞİL)",
+   "yer": "Waššukanni (KONUMU BİLİNMİYOR)",
+   "d": "OK (çıkarım: sayılar OK'ye uyuyor) · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "RlA 8 s.286 Wilhelm https://publikationen.badw.de/de/rla/a/8.317.jpg 'bezeugt von ca. 1500 bis ins 13 Jh.' · s.294 https://publikationen.badw.de/de/rla/a/8.326.jpg (Šuppiluliuma I + Aššur-uballiṭ I)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mitanni · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1359-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Ḫanigalbat (Mitanni artık devleti) — doğuş",
+   "gun": "~MÖ 1360 (sınır — olay günü DEĞİL)",
+   "yer": "bulunamadı",
+   "d": "13. yy; Şalmaneser I ile Asur eyaleti (imzasız Britannica) ⇒ t bulunamadı · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "RlA 8 s.295 Wilhelm 'Für diesen Nachfolgestaat, der die Tradition von M. im 13. Jh. fortführt'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hanigalbat · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1352-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Orta Asur Krallığı — doğuş",
+   "gun": "MÖ 1353 (sınır — olay günü DEĞİL)",
+   "yer": "Asur; Kar-Tukulti-Ninurta",
+   "d": "OK çerçevesi · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Aššur-uballiṭ I (1353-1318 BC) … Aššur-dān II (934-912 BC)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=orta-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0911-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Orta Asur Krallığı — yıkılış / son",
+   "gun": "MÖ 912 (sınır — olay günü DEĞİL)",
+   "yer": "Asur; Kar-Tukulti-Ninurta",
+   "d": "OK çerçevesi · SINIR (saltanattan türetilmiş), olay günü DEĞİL",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Aššur-uballiṭ I (1353-1318 BC) … Aššur-dān II (934-912 BC)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=orta-asur · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0608-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Yeni Asur İmparatorluğu — yıkılış / son",
+   "gun": "MÖ 609",
+   "yer": "Asur → Kalhu → Dur-Şarrukin → Ninova → Harran",
+   "d": "mutlak (eponim/kronik)",
+   "kaynak": "Novotny & Morello, ORACC RIAo 'Rulers of Assyria' https://oracc.museum.upenn.edu/riao/RulersofAssyria/index.html 'Adad-nārārī II (911-891 BC) … Aššur-uballiṭ II (611–609 BC)' · RlA 9 s.14 Brinkman 'Nabopolassar' https://publikationen.badw.de/de/rla/a/9.41.jpg 'this is the last mention of Assyrian involvement in a military action' (609)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0625-11-23",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Yeni Babil İmparatorluğu — doğuş",
+   "gun": "MÖ 626",
+   "yer": "Babil",
+   "d": "mutlak (eponim/kronik)",
+   "kaynak": "RlA 9 s.12-13 Brinkman 'Nabopolassar' https://publikationen.badw.de/de/rla/a/9.39.jpg 'came to the throne in Babylon on VIII-26-626 (= Nov. 23, 626 in the Julian calendar)' · Met Babylon (Seymour) 'in 539 B.C., Cyrus II of Persia conquered the city'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0538-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Yeni Babil İmparatorluğu — yıkılış / son",
+   "gun": "MÖ 539",
+   "yer": "Babil",
+   "d": "mutlak (eponim/kronik)",
+   "kaynak": "RlA 9 s.12-13 Brinkman 'Nabopolassar' https://publikationen.badw.de/de/rla/a/9.39.jpg 'came to the throne in Babylon on VIII-26-626 (= Nov. 23, 626 in the Julian calendar)' · Met Babylon (Seymour) 'in 539 B.C., Cyrus II of Persia conquered the city'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-2111-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Avan hanedanı (Eski Elam) — yıkılış / son",
+   "gun": "~MÖ 2112 (sınır — olay günü DEĞİL)",
+   "yer": "Avan (Zagros, konum belirsiz)",
+   "d": "OK (Orta Kronoloji) · t ⑤: ALT SINIR",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Awan dynasty (ca. 2400-2100 B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-avan · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-2003-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Epartid / Sukkalmah hanedanı — doğuş",
+   "gun": "~MÖ 2004 (sınır — olay günü DEĞİL)",
+   "yer": "Susa + Anşan",
+   "d": "OK (Orta Kronoloji) · f ⑤: ALT SINIR, OLAYDAN türetilmiş",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Epartid or sukkalmah dynasty (ca. 1970-1600 B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-sukkalmah · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1645-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Epartid / Sukkalmah hanedanı — yıkılış / son",
+   "gun": "~MÖ 1646 (sınır — olay günü DEĞİL)",
+   "yer": "Susa + Anşan",
+   "d": "OK (Orta Kronoloji) · t ⑤: ALT SINIR",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Epartid or sukkalmah dynasty (ca. 1970-1600 B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-sukkalmah · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1359-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Orta Elam Krallığı ('Anşan ve Susa kralları') — doğuş",
+   "gun": "~MÖ 1360 (sınır — olay günü DEĞİL)",
+   "yer": "Susa; Anşan; Çoğa Zanbil",
+   "d": "OK (Orta Kronoloji) · f ⑤: ÜST SINIR (en geç)",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Middle Elamite period (ca. 1500-1100 B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-orta · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 30
+  },
+  {
+   "t": "-1124-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Orta Elam Krallığı ('Anşan ve Susa kralları') — yıkılış / son",
+   "gun": "~MÖ 1125 (sınır — olay günü DEĞİL)",
+   "yer": "Susa; Anşan; Çoğa Zanbil",
+   "d": "OK (Orta Kronoloji) · t ⑤: SALTANATLA SINIRLI OLAY",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Middle Elamite period (ca. 1500-1100 B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-orta · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-1124-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Yeni Elam Krallığı — doğuş",
+   "gun": "~MÖ 1125 (sınır — olay günü DEĞİL)",
+   "yer": "Susa; Madaktu",
+   "d": "OK (Orta Kronoloji) (f) / mutlak (eponim/kronik) (646) · f ⑤: ALT SINIR",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Neo-Elamite Period (1100-539 B.C.E.)' · 'Neo-Elamite III (646-539?B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-yeni · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0645-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Yeni Elam Krallığı — yıkılış / son",
+   "gun": "~MÖ 646 (sınır — olay günü DEĞİL)",
+   "yer": "Susa; Madaktu",
+   "d": "OK (Orta Kronoloji) (f) / mutlak (eponim/kronik) (646) · t ⑤: ALT SINIR, OLAYDAN",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'The Neo-Elamite Period (1100-539 B.C.E.)' · 'Neo-Elamite III (646-539?B.C.E.)'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-yeni · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0890-01-01",
+   "k": "kurulus",
+   "etiket": [],
+   "b": "Laqê (Arami ülkesi, Orta Fırat) — doğuş",
+   "gun": "~MÖ 891 (sınır — olay günü DEĞİL)",
+   "yer": "bulunamadı ('Laqû' adlı kent yok)",
+   "d": "mutlak (eponim/kronik) · SINIR (saltanattan türetilmiş), olay günü DEĞİL · ARALIK UCU DÜZELTİLDİ: ÜST sınır",
+   "kaynak": "RlA 6 s.492 Postgate https://publikationen.badw.de/de/rla/a/6.527.jpg 'first attested in the reign of Adad-nirari II (911–891) and incorporated into the Assyrian provincial system by the reign of Adad-nirari III (810–783)—and probably earlier'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lake · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0782-01-01",
+   "k": "siyaset",
+   "etiket": [
+    "toprak-kayip"
+   ],
+   "b": "Laqê (Arami ülkesi, Orta Fırat) — yıkılış / son",
+   "gun": "~MÖ 783 (sınır — olay günü DEĞİL)",
+   "yer": "bulunamadı ('Laqû' adlı kent yok)",
+   "d": "mutlak (eponim/kronik) · SINIR (saltanattan türetilmiş), olay günü DEĞİL · KASA: -810 → -783 (tanık A-n III saltanatında; -810 yön hatası; AD VAR POLITY YOK)",
+   "kaynak": "RlA 6 s.492 Postgate https://publikationen.badw.de/de/rla/a/6.527.jpg 'first attested in the reign of Adad-nirari II (911–891) and incorporated into the Assyrian provincial system by the reign of Adad-nirari III (810–783)—and probably earlier'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lake · harita_degisimi=SINIR (kırılma günü değil) · tarih_turu=SALTANAT · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2333-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sargon Lugalzagesi'yi yendi — Sümer kent-devletleri Akkad'a",
+   "gun": "~MÖ 2334",
+   "yer": "Uruk",
+   "d": "Akkad'ın Uruk, Ur, Lagaş, Umma'yı alışı",
+   "kaynak": "Britannica Sargon (Dalley) 'defeat of Lugalzaggisi of Uruk' · RlA 14 s.318 Waetzoldt",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=akkad · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 40
+  },
+  {
+   "t": "-2003-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Elamlılar Ur'u aldı, İbbi-Sin esir",
+   "gun": "MÖ 2004",
+   "yer": "Ur",
+   "d": "Ur III'ün sonu",
+   "kaynak": "Britannica 'History of Mesopotamia' (Frye/von Soden/Edzard) https://www.britannica.com/place/Mesopotamia-historical-region-Asia 'Ur was besieged, taken, and destroyed by the invading Elamites'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 30
+  },
+  {
+   "t": "-1762-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hammurabi Larsa'yı aldı (Rim-Sin)",
+   "gun": "MÖ 1763",
+   "yer": "Larsa",
+   "d": "güney Babilonya Babil'e",
+   "kaynak": "Britannica Larsa · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1760-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hammurabi Mari'ye karşı (Zimri-Lim)",
+   "gun": "MÖ 1761",
+   "yer": "Mari",
+   "d": "Mari'nin sonu",
+   "kaynak": "Britannica Hammurabi (Renger)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 30
+  },
+  {
+   "t": "-1594-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hitit akını Babil'i yağmaladı",
+   "gun": "MÖ 1595",
+   "yer": "Babil",
+   "d": "Eski Babil döneminin sonu (OLAY; Hitit polity DEĞİL)",
+   "kaynak": "Met Babylon (Seymour) · Brisch, ORACC AMGG https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1474-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kassitler güneyi (I. Deniz Ülkesi) fethetti",
+   "gun": "~MÖ 1475",
+   "yer": "Babilonya güneyi",
+   "d": "Babilonya birleşti",
+   "kaynak": "RlA 5 s.465 Brinkman · Met (Knott)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kassit-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1154-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Elam akınları Kassit hanedanını çökertti",
+   "gun": "MÖ 1155",
+   "yer": "Babil",
+   "d": "",
+   "kaynak": "Met (Knott) 'collapse of the Kassite dynasty in 1155 B.C.'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kassit-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1099-01-01",
+   "k": "diger",
+   "etiket": [],
+   "b": "I. Nebukadnezar Susa'yı yağmaladı",
+   "gun": "~MÖ 1100",
+   "yer": "Susa",
+   "d": "Orta Elam gücünün sönüşü",
+   "kaynak": "Met (Knott) 'sacked Susa in ca. 1100 B.C.'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-ii · harita_degisimi=HAYIR · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0611-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Babil ve Medler Ninova'yı yağmaladı",
+   "gun": "MÖ 612",
+   "yer": "Ninova",
+   "d": "",
+   "kaynak": "RlA 9 s.14 Brinkman",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0645-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Asurbanipal Susa'yı yağmaladı",
+   "gun": "MÖ 646",
+   "yer": "Susa",
+   "d": "Yeni Elam II'nin sonu (devletin sonu DEĞİL)",
+   "kaynak": "Vallat, Iranica 'ELAM i' https://www.iranicaonline.org/articles/elam-i 'Aššurbanipal in 646, when he sacked Susa'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-yeni · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0538-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "II. Kyros Babil'i aldı",
+   "gun": "MÖ 539",
+   "yer": "Babil",
+   "d": "Yeni Babil'in sonu",
+   "kaynak": "Met Babylon (Seymour)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-2074-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šulgi Der'i yıktı",
+   "gun": "MÖ 2075",
+   "yer": "Der",
+   "d": "Šulgi 21c: mu BAD3-ANki (= Der) ba-hul — \"Year: Der was destroyed\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"21c. mu BAD3-ANki (= Der) ba-hul / Year: Der was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2071-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šulgi Karahar'ı yıktı",
+   "gun": "MÖ 2072",
+   "yer": "Karahar",
+   "d": "Šulgi 24: mu kar2-harki ba-hul — \"Year: Karahar was destroyed\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"24. mu kar2-harki ba-hul / Year: Karahar was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2070-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šulgi Simurrum'u yıktı",
+   "gun": "MÖ 2071",
+   "yer": "Simurrum",
+   "d": "Šulgi 25b: mu si-mu-ru-umki ba-hul — \"Year: Simurrum was destroyed\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"25b. mu si-mu-ru-umki ba-hul / Year: Simurrum was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2069-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Simurrum ikinci kez yıkıldı",
+   "gun": "MÖ 2070",
+   "yer": "Simurrum",
+   "d": "Šulgi 26b: mu si-mu-ru-umki a-ra2 2-kam-ma-aš ba-hul — \"Year: Simurrum was destroyed a second time\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"26b. mu si-mu-ru-umki a-ra2 2-kam-ma-aš ba-hul / Year: Simurrum was destroyed a second time\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2068-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šulgi Harši'yi yıktı",
+   "gun": "MÖ 2069",
+   "yer": "Harši",
+   "d": "Šulgi 27b: mu ha-ar-šiki ba-hul — \"Year: Harszi was destroyed\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"27b. mu ha-ar-šiki ba-hul / Year: 'Harszi was destroyed'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2064-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Karahar ikinci kez yıkıldı",
+   "gun": "MÖ 2065",
+   "yer": "Karahar",
+   "d": "Šulgi 31b: mu kar2-harki a-ra2 2-kam-aš ba-hul — \"Year: Karhar was destroyed for the second time\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"31b. mu kar2-harki a-ra2 2-kam-aš ba-hul / Year: Karhar was destroyed for the second time\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2063-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Simurrum üçüncü kez yıkıldı",
+   "gun": "MÖ 2064",
+   "yer": "Simurrum",
+   "d": "Šulgi 32: mu si-mu-ru-umki a-ra2 3-kam-aš ba-hul — \"Year: Simurrum was destroyed for the third time\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"32. mu si-mu-ru-umki a-ra2 3-kam-aš ba-hul / Year: Simurrum was destroyed for the third time\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2062-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Karahar üçüncü kez yıkıldı",
+   "gun": "MÖ 2063",
+   "yer": "Karahar",
+   "d": "Šulgi 33b: mu kar2-harki a-ra2 3-kam-aš ba-hul — \"Year: Karhar was destroyed for the third time\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"33b. mu kar2-harki a-ra2 3-kam-aš ba-hul / Year: Karhar was destroyed for the third time\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2061-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šulgi Anšan'ı yıktı",
+   "gun": "MÖ 2062",
+   "yer": "Anšan (Tall-i Malyan)",
+   "d": "Šulgi 34c: mu an-ša-anki ba-hul — \"Year: Anshan was destroyed\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"34c. mu an-ša-anki ba-hul / Year: Anshan was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2053-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šulgi Šašrum'u yıktı",
+   "gun": "MÖ 2054",
+   "yer": "Šašrum (Šemšara)",
+   "d": "Šulgi 42b: mu lugal-e ša-aš-ru-umki mu-hul — \"Year: The king destroyed Šašrum\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"42b. mu lugal-e ša-aš-ru-umki mu-hul / Year: The king destroyed Šašrum\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2051-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Simurrum ve Lullubum dokuzuncu kez yıkıldı",
+   "gun": "MÖ 2052",
+   "yer": "Simurrum, Lullubum",
+   "d": "Šulgi 44b: mu si-mu-ru-umki u3 lu-lu-bu-um/bum2ki a-ra2 1(u) la2 1-kam-aš ba-hul — \"Year: Simurrum and Lullubum were destroyed for the ninth time\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"44b. ... Year: Simurrum and Lullubum were destroyed for the ninth time\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2050-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Urbilum, Simurrum, Lullubum, Karahar tek seferde ezildi",
+   "gun": "MÖ 2051",
+   "yer": "Urbilum (Erbil), Simurrum, Lullubum, Karahar",
+   "d": "Šulgi 45b: mu dšul-gi nita kal-ga lugal uri2ki-ma lugal an ub-da limmu2-ba-ke4 ur-bi2-lumki si-mu-ru-umki lu-lu-buki u3 kar2-harki 1-še3 sag-du-bi šu-bur2-a bi2-ra-a — \"Šulgi ... smashed the heads of Urbilum, Simurrum, Lullubum and Karhar in a single campaign\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"45b. ... Year: Šulgi, the strong man, the king of Ur, the king of the four quarters, smashed the heads of Urbilum, Simurrum, Lullubum and Karhar in a single campaign\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2049-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Kimaš ve Hurti yıkıldı",
+   "gun": "MÖ 2050",
+   "yer": "Kimaš, Hurti",
+   "d": "Šulgi 46b: mu dšul-gi ... ki-maški hu-ur5-tiki u3 ma-da-bi u4 1-a mu-hul — \"Šulgi ... destroyed Kimaš, Hurti and their territories in a single day\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"46b. ... Year: Šulgi, the strong man, the king of Ur, the king of the four quarters, destroyed Kimaš, Hurti and their territories in a single day\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2047-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Harši, Kimaš, Hurti yıkıldı",
+   "gun": "MÖ 2048",
+   "yer": "Harši, Kimaš, Hurti",
+   "d": "Šulgi 48b: mu ha-ar-šiki ki-maški hu-ur5-tiki u3 ma-da-bi u4 1-bi ba-hul — \"Harshi, Kimaš, Hurti and their territories were destroyed in a single day\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shulgi — \"48b. mu ha-ar-šiki ki-maški hu-ur5-tiki u3 ma-da-bi u4 1-bi ba-hul / Year: Harshi, Kimaš, Hurti and their territories were destroyed in a single day\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2045-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Amar-Suen Urbilum'u yıktı",
+   "gun": "MÖ 2046",
+   "yer": "Urbilum (Erbil)",
+   "d": "Amar-Suen 2a: mu damar-dsuen lugal-e ur-bi2-lumki mu-hul — \"Amar-Suen, the king, destroyed Urbilum\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=amar-suen_year-names — \"2a. mu damar-dsuen lugal-e ur-bi2-lumki mu-hul / Year: 'Amar-Suen, the king, destroyed Urbilum'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2041-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šašrum (2.) ve Šurudhum yıkıldı",
+   "gun": "MÖ 2042",
+   "yer": "Šašrum, Šurudhum",
+   "d": "Amar-Suen 6b: mu damar-dsuen lugal-e ša-aš-ru-umki a-ra2 2(diš)-kam u3 šu-ru-ud-hu-umki mu-hul — \"Amar-Suen, the king, destroyed Shashrum for the second time and Shurudhum\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=amar-suen_year-names — \"6b. ... Year: 'Amar-Suen, the king, destroyed Shashrum for the second time and Shurudhum'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2040-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Bitum-rabium, Jabru ve Huhnuri yıkıldı",
+   "gun": "MÖ 2041",
+   "yer": "Bitum-rabium, Jabru, Huhnuri",
+   "d": "Amar-Suen 7b: mu damar-dsuen lugal-e bi2-tum-ra-bi2-umki i3-ab-ruki ma-da ma-da-bi u3 hu-uh2-nu-riki mu-hul — \"Amar-Suen, the king, destroyed Bitum-rabium, Jabru, their territories and Huhnuri\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=amar-suen_year-names — \"7b. ... Year: 'Amar-Suen, the king, destroyed Bitum-rabium, Jabru, their territories and Huhnuri'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2035-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šu-Suen Simanum'u yıktı",
+   "gun": "MÖ 2036",
+   "yer": "Simanum",
+   "d": "Šu-Suen 3b: mu dšu-dsuen lugal uri2ki-ma-ke4 si-ma-num2ki mu-hul — \"Šu-Suen, the king of Ur, destroyed Simanum\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shu-suen — \"3b. mu dšu-dsuen lugal uri2ki-ma-ke4 si-ma-num2ki mu-hul / Year: 'Šu-Suen, the king of Ur, destroyed Simanum'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2031-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Šu-Suen Zabšali ülkesini yıktı",
+   "gun": "MÖ 2032",
+   "yer": "Zabšali (İran platosu)",
+   "d": "Šu-Suen 7b: mu dšu-dsuen lugal uri2ki-ma-ke4 lugal an ub-da 4-ba ma-da za-ab-ša-liki mu-hul — \"Šu-Suen, the king of Ur, king of the four quarters, destroyed the land of Zabšali\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_shu-suen — \"7b. ... Year: 'Šu-Suen, the king of Ur, king of the four quarters, destroyed the land of Zabšali'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2026-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "İbbi-Suen Simurrum'u yıktı",
+   "gun": "MÖ 2027",
+   "yer": "Simurrum",
+   "d": "Ibbi-Suen 3b: mu di-bi2-dsuen lugal uri2ki-ma-ke4 si-mu-ru-umki mu-hul — \"Ibbi-Suen, the king of Ur, destroyed Simurrum\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ibbi-suen — \"3b. mu di-bi2-dsuen lugal uri2ki-ma-ke4 si-mu-ru-umki mu-hul / Year: Ibbi-Suen, the king of Ur, destroyed Simurrum\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2020-01-01",
+   "k": "diger",
+   "etiket": [],
+   "b": "İbbi-Suen Huhnuri'ye büyük güçle yürüdü",
+   "gun": "MÖ 2021",
+   "yer": "Huhnuri",
+   "d": "Ibbi-Suen 9: mu di-bi2-dsuen lugal uri2ki-ma-ke4 hu-uh2-nu-riki sag-kul ma-da an-ša-anki-še3 … dugud ba-ši-in-gen — \"Ibbi-Suen, the king of Ur, went with massive power to Huhnuri, the bolt to the land of Anšan\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ibbi-suen — \"9. ... Year: Ibbi-Suen, the king of Ur, went with massive power to Huhnuri, the bolt to the land of Anšan and like …\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=HAYIR (yalnız sefer: 'went with massive power') · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2015-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "İbbi-Suen Susa, Adamdun ve Awan'ı ezdi",
+   "gun": "MÖ 2016",
+   "yer": "Susa, Adamdun, Awan",
+   "d": "Ibbi-Suen 14: mu di-bi2-dsuen lugal uri2ki-ma-ke4 šušanki a-dam-dunki a-wa-anki u4-gin7 ka bi-in-gi4 u4 1(diš)-a mu-un-gur2 en-bi lu2-a mi-ni-in-dab5-ba-a — \"Ibbi-Suen ... overwhelmed Susa, Adamdun and Awan like a storm, subdued them in a single day and seized the lords of their people\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ibbi-suen — \"14. ... Year: 'Ibbi-Suen, the king of Ur, overwhelmed Susa, Adamdun and Awan like a storm, subdued them in a single day and seized the lords of their people'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2012-01-01",
+   "k": "diger",
+   "etiket": [],
+   "b": "Amurrular İbbi-Suen'e boyun eğdi",
+   "gun": "MÖ 2013",
+   "yer": "Amurru (MAR.TU) bölgesi",
+   "d": "Ibbi-Suen 17: mu di-bi2-dsuen lugal uri2ki-ma-ra mar-tu a2 tu15u19-<lu> ul-ta iriki nu zu gu2 im-ma-an-ga2-ar — \"The Amorites, the powerful south wind who from the remote past have not known cities, submitted to Ibbi-Suen, the king of Ur\" (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ibbi-suen — \"17. ... Year: 'The Amorites, the powerful south wind who from the remote past have not known cities, submitted to Ibbi-Suen, the king of Ur'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=ur-iii · harita_degisimi=HAYIR (boyun eğiş; toprak/kent değil) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2014-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Išbi-Erra Girtab'ı yıktı",
+   "gun": "MÖ 2015",
+   "yer": "Girtab",
+   "d": "Išbi-Erra 4: mu gir13-tabki ba-hul — \"Year: Girtab was destroyed\" (Orta Kronoloji; yıl no. Van De Mieroop BIN 10) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ishbi-erra — \"4. mu gir13-tabki ba-hul / Year: Girtab was destroyed\"; reign: https://cdli.ox.ac.uk/wiki/doku.php?id=rulers_of_mesopotamia \"Išbi-Erra (2017-1985)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-2010-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Išbi-Erra Amurru kentini yıktı",
+   "gun": "MÖ 2011",
+   "yer": "Amurru kenti (yeri belirsiz)",
+   "d": "Išbi-Erra 8: mu iriki mar-tu ba-hul — \"Year: The Amorite city was destroyed\" (Orta Kronoloji; yıl no. Van De Mieroop BIN 10) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ishbi-erra — \"8. mu iriki mar-tu ba-hul / Year: The Amorite city was destroyed\"; reign: https://cdli.ox.ac.uk/wiki/doku.php?id=rulers_of_mesopotamia \"Išbi-Erra (2017-1985)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1992-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Išbi-Erra Elamlıları Ur'dan çıkardı",
+   "gun": "MÖ 1993",
+   "yer": "Ur",
+   "d": "Išbi-Erra 26: \"Išbi-Erra, the king, brought out of Ur, with his strong weapon, the Elamite who was dwelling in its midst\" (Išbi-Erra 2017–1985 → yıl 26 = 1992) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_ishbi-erra — \"26a. mu diš-bi-er3-ra lugal-e elam ša3 uri2ki-ma tuš-a geštukul kalag-ga-ni im-ta-e11 — Year: Išbi-Erra, the king, brought out of Ur, with his strong weapon, the Elamite who was dwelling in its midst\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=isin-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1930-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Gungunum Bašimi'yi yıktı",
+   "gun": "MÖ 1931",
+   "yer": "Bašimi",
+   "d": "Gungunum 3: \"Bašimi was destroyed\" (Gungunum 1932–1906 → yıl 3 = 1930) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_gungunum — \"3. mu ba-ši-miki ba-hul — Year: Bašimi was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1928-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Gungunum Anšan'ı yıktı",
+   "gun": "MÖ 1929",
+   "yer": "Anšan",
+   "d": "Gungunum 5: \"Anšan was destroyed\" (yıl 5 = 1928) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_gungunum — \"5. mu an-ša-anki ba-hul — Year: Anšan was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1892-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sumu-abum Elip surunu ele geçirdi",
+   "gun": "MÖ 1893",
+   "yer": "Elip (Kibalmašda)",
+   "d": "Sumu-abum 3: \"the city wall of Elip was seized\" (Sumu-abum 1894–1881 → yıl 3 = 1892) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K1.htm — \"3a mu bad3 e-li-ip{ki} ba-dab5 / isy-sya-ab-tu3 Year the city wall of Elip was seized (RlA 2 175, 3)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1891-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Sumuel Akusum'u yıktı",
+   "gun": "MÖ 1892",
+   "yer": "Akusum",
+   "d": "Sumuel 4: \"Akusum was destroyed and the army of Kazallu was smitten by weapons\" (Sumuel 1894–1866 → yıl 4 = 1891) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sumu-el — \"4. mu a-ku-uski ba-hul u3 ugnim ka-zal-luki geštukul ba-dab5 / ba-sig3 — Year: Akusum was destroyed and the army of Kazallu was smitten by weapons\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1887-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Sumuel Pi-naratim'i yıktı",
+   "gun": "MÖ 1888",
+   "yer": "Pi-naratim",
+   "d": "Sumuel 8: \"the city of 'Pi-naratim / Mouth of the rivers' was destroyed\" (yıl 8 = 1887) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sumu-el — \"8. mu iri-ka-i7-da / iri pi4-na-ra-tim ba-an-hul — Year: the city of 'Pi-naratim / Mouth of the rivers' was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1885-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sumuel Sabum'u ele geçirdi",
+   "gun": "MÖ 1886",
+   "yer": "Sabum",
+   "d": "Sumuel 10: \"the city of Sabum and the small villages on the bank of the Euphrates were seized\" (yıl 10 = 1885) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sumu-el — \"10. mu iri sa-bu-umki iri-tur-turki gu2 i7-buranun-na ba-an-dab5-dab5 — Year: the city of Sabum and the small villages on the bank of the Euphrates were seized\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1879-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sumuel Nanna-iša'yı ele geçirdi",
+   "gun": "MÖ 1880",
+   "yer": "Nanna-iša",
+   "d": "Sumuel 16: \"Sûmû-El seized the town / hamlet of 'Nanna-iša / Nanna is favorable'\" (yıl 16 = 1879) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sumu-el — \"16. mu su-mu-el3 e2-duru5 nanna-i3-ša6ki ba-an-dab5 — Year: Sûmû-El seized the town / hamlet of 'Nanna-iša / Nanna is favorable'\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1868-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Sumu-la-El Kiš'i yıktı",
+   "gun": "MÖ 1869",
+   "yer": "Kiš",
+   "d": "Sumu-la-El 13: \"Kisz was destroyed\" (Sumu-la-El 1880–1845 → yıl 13 = 1868) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K2.htm — \"13 mu kisz{ki} ba-hul Year Kisz was destroyed (RlA 2 165, 27)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1862-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Sumu-la-El Kiš surunu yıktı",
+   "gun": "MÖ 1863",
+   "yer": "Kiš",
+   "d": "Sumu-la-El 19: \"the city wall (reaching to) heaven of Kisz was destroyed\" (yıl 19 = 1862) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K2.htm — \"19 mu bad3-an-ne kisz{ki} ba-gul Year the city wall (reaching to) heaven of Kisz was destroyed (RlA 2 165, 33)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1861-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Sumu-la-El Kazallu surunu yıktı",
+   "gun": "MÖ 1862",
+   "yer": "Kazallu",
+   "d": "Sumu-la-El 20: \"the city wall of Kazallu was destroyed and his army was smitten by weapons\" (yıl 20 = 1861) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K2.htm — \"20 mu bad3 ka-zal-lu{ki} ba-gul u3 eren2-bi {gisz}tukul ba-sig3 Year the city wall of Kazallu was destroyed and his army was smitten by weapons (RlA 2 165, 34)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1845-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sin-iddinam Ibrat ve Malgium'u aldı",
+   "gun": "MÖ 1846",
+   "yer": "Ibrat; Malgium",
+   "d": "Sin-iddinam 5b: \"Ibrat the main city and Malgium and various others were seized\" (Sin-iddinam 1849–1843 → yıl 5 = 1845) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sin-iddinam — \"5b. mu ib-ra-atki iri murub4 / murgu ki iri didli ba-an-dab5 / ba-an-tuk — Year: Ibrat the main city and Malgium and various others were seized\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1844-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Sin-iddinam Ešnunna ülkesini yıktı",
+   "gun": "MÖ 1845",
+   "yer": "Ešnunna",
+   "d": "Sin-iddinam 6: \"the dwelling / the land of Ešnunna was destroyed\" (yıl 6 = 1844) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sin-iddinam — \"6. mu a2-dam / ma-da eš3-nun-naki ba-an-hul — Year: the dwelling / the land of Ešnunna was destroyed\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1839-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sin-iqišam Pi-naratim ve Nazarum'u aldı",
+   "gun": "MÖ 1840",
+   "yer": "Pi-naratim; Nazarum",
+   "d": "Sin-iqišam 2: \"the cities of Pi-naratim and Nazarum were seized\" (Sin-iqišam 1840–1836 → yıl 2 = 1839) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_sin-iqisham — \"2a. mu iri ka-id2-da na-za-rumki ba-an-dab5 — Year: the cities of Pi-naratim and Nazarum were seized\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1833-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Warad-Sin Kazallu surunu yıktı",
+   "gun": "MÖ 1834",
+   "yer": "Kazallu",
+   "d": "Warad-Sin 2: \"the city wall of Kazallu was destroyed and the army of Mutibal occupying Larsa was smitten by weapons\" (Warad-Sin 1834–1823 → yıl 2 = 1833) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_warad-sin — \"2. mu bad3 ka-zal-luki ba-an-gul u3 ugnim-bi mu-ti-ba-al ša3 larsaki geštukul ba-a-hub2 — Year: the city wall of Kazallu was destroyed and the army of Mutibal occupying Larsa was smitten by weapons\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1808-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Rim-Sin Pi-naratim ve Nazarum'u aldı",
+   "gun": "MÖ 1809",
+   "yer": "Pi-naratim; Nazarum",
+   "d": "Rim-Sin 15: \"(Rîm-Sîn) seized with his powerful weapon Pi-naratim and Nazarum\" (Rim-Sin 1822–1763 → yıl 15 = 1808) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_rim-sin — \"15. mu ka-i7-daki u3 iriki na-za-ru-umki geštukul kalag-ga-ni-ta in-dab5-ba — Year: (Rîm-Sîn) seized with his powerful weapon Pi-naratim and Nazarum\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1806-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Rim-Sin Imgur-Gibil ve Zibnatum'u aldı",
+   "gun": "MÖ 1807",
+   "yer": "Imgur-Gibil; Zibnatum",
+   "d": "Rim-Sin 17: \"(Rîm-Sîn) seized the great fortification 'Imgur-Gibil / beloved of Gibil' and the city of Zibnatum with the help of the mighty weapon entrusted to him by Enlil\" (yıl 17 = 1806) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_rim-sin — \"17. mu bad3 gal im-gur-dgibil6 u3 iriki zi-ib-na-tumki ... in-dab5-ba — Year: (Rîm-Sîn) seized the great fortification 'Imgur-Gibil / beloved of Gibil' and the city of Zibnatum\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1805-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Rim-Sin Bit-Šu-Sin ve Uzarbara'yı aldı",
+   "gun": "MÖ 1806",
+   "yer": "Bit-Šu-Sin; Uzarbara",
+   "d": "Rim-Sin 18: \"(Rîm-Sîn) seized in 1 day the cities of Bit-Šu-Sîn and Uzarbara with the help of the strong weapon entrusted to him by Enlil\" (yıl 18 = 1805) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_rim-sin — \"18. mu iriki e2-šu-dsuen-na ... u4 1-kam in-dab5-ba — Year: (Rîm-Sîn) seized in 1 day the cities of Bit-Šu-Sîn and Uzarbara\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1803-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Rim-Sin Kisurra'yı ilhak etti, Der'i yıktı",
+   "gun": "MÖ 1804",
+   "yer": "Kisurra; Der",
+   "d": "Rim-Sin 20: \"Kisurra was seized and annexed to Larsa and (Rîm-Sîn), with the help of the strong weapon entrusted to him by Enlil, destroyed Durum (Der)\" (yıl 20 = 1803) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_rim-sin — \"20. mu ki-sur-raki larsaki-ma-še3 mu-un-ku4-ra ba-an-dab5 ... bad3ki mu-un-na-hul-a — Year: Kisurra was seized and annexed to Larsa and (Rîm-Sîn) ... destroyed Durum (Der)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1798-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Rim-Sin Damiq-ilišu'nun şehrini aldı",
+   "gun": "MÖ 1799",
+   "yer": "Damiq-ilišu şehri (Isin bölgesi)",
+   "d": "Rim-Sin 25: \"the righteous shepherd Rîm-Sîn ... seized the city of Damiq-ilišu, brought its inhabitants who had helped Isin as prisoners to Larsa\" (yıl 25 = 1798) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_rim-sin — \"25. ... iriki bad3 da-mi-iq-i3-li2-šu ... in-dab5-ba — Year: the righteous shepherd Rîm-Sîn ... seized the city of Damiq-ilišu, brought its inhabitants who had helped Isin as prisoners to Larsa\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1797-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sin-muballit Isin'i ele geçirdi",
+   "gun": "MÖ 1798",
+   "yer": "Isin",
+   "d": "Sin-muballit 16: \"the city of Isin was seized\" (Sin-muballit 1812–1793 → yıl 16 = 1797) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K5.htm — \"16 mu uru{ki} i3-si-in-na{ki} ba-an-dab5 Year the city of Isin was seized (RlA 2 166, 99)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1794-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Rim-Sin Dunnum'u aldı",
+   "gun": "MÖ 1795",
+   "yer": "Dunnum",
+   "d": "Rim-Sin 29a: \"Rîm-Sîn ... seized in one day Dunnum the largest city of Isin\" (yıl 29 = 1794; Isin kentinin kendisi RS 30) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://cdli.ox.ac.uk/wiki/doku.php?id=year_names_rim-sin — \"29a. ... du-un-nu-umki iriki sag-mah i3-si-in-naki-ka ... u4-1-kam in-dab5-ba — Year: Rîm-Sîn the righteous shepherd ... seized in one day Dunnum the largest city of Isin\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=larsa · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1786-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hammurabi Uruk ve Isin'i aldı",
+   "gun": "MÖ 1787",
+   "yer": "Uruk; Isin",
+   "d": "Hammurabi 7: \"(Hammu-rabi) seized Uruk and Isin\" (Hammurabi 1792–1750 → yıl 7 = 1786) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K6.htm — \"7 mu unug{ki} u3 i3-si-in-na{ki} ba-an-dab5 Year (Hammu-rabi) seized Uruk and Isin (RlA 2 178, 109)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1783-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Hammurabi Malgium'u yıktı",
+   "gun": "MÖ 1784",
+   "yer": "Malgium",
+   "d": "Hammurabi 10: \"the troops, the city and the territory of Malgium (were defeated) / the land of Malgium was destroyed\" (yıl 10 = 1783) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K6.htm — \"10a mu eren2 uru a2-dam-bi ma3-al-gi4-a{ki} / ma-da ma-al-gi-a ba-gul Year the troops, the city and the territory of Malgium (were defeated) / the land of Malgium was destroyed (RlA 2 178 112)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1782-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hammurabi Rapiqum ve Šalibi'yi aldı",
+   "gun": "MÖ 1783",
+   "yer": "Rapiqum; Šalibi",
+   "d": "Hammurabi 11: \"(Hammu-rabi) seized the city wall / city, the land and the territory of Rapiqum and Szalibi\" (yıl 11 = 1782) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K6.htm — \"11 mu bad3 / uru ma-da a2-dam ra-pi2-qum{ki} u3 sza-li-bi{ki} in-dab5 Year (Hammu-rabi) seized the city wall / city, the land and the territory of Rapiqum and Szalibi (RlA 2 178, 113)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1761-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hammurabi Mankisum ve Dicle kıyısını fethetti",
+   "gun": "MÖ 1762",
+   "yer": "Mankisum; Dicle kıyısı",
+   "d": "Hammurabi 32: \"defeated with his mighty weapons the entire army and soldiers of Esznunna, Subartu and Gutium and conquered the land of Mankisum and the land on the banks of the Tigris up to the border of the Subartu mountains\" (yıl 32 = 1761) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K6.htm — \"32a ... ma-da ma-an-ki-sum2{ki} u3 ma-da gu2 idigna en-na zag kur su-bir{ki}-sze3 szu-ni sa2 bi2-in-du11-ga ... conquered the land of Mankisum and the land on the banks of the Tigris up to the border of the Subartu mountains (RlA 2 180, 134)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1758-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Hammurabi Mari ve Malgium surlarını yıktı",
+   "gun": "MÖ 1759",
+   "yer": "Mari; Malgium",
+   "d": "Hammurabi 35: \"Hammu-rabi the king by the orders of An and Enlil destroyed the city walls of Mari and Malgium\" (yıl 35 = 1758) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K6.htm — \"35a mu ha-am-mu-ra-bi lugal-e inim an {d}en-lil2-la2-ta bad3 ma2-ri2{ki} u3 bad3 ma3-al-gi4-a{ki} mu-un-gul-la Year in which Hammu-rabi the king by the orders of An and Enlil destroyed the city walls of Mari and Malgium (RlA 2 180, 137)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1739-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Samsu-iluna Ur ve Uruk surlarını yıktı",
+   "gun": "MÖ 1740",
+   "yer": "Ur; Uruk",
+   "d": "Samsu-iluna 11: \"Samsu-iluna the king by the order of An and Enlil destroyed the city walls of Ur and Uruk\" (Samsu-iluna 1749–1712 → yıl 11 = 1739) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K7.htm — \"11a mu sa-am-su-i-lu-na lugal-e ... bad3 ur2i{ki} u3 unug{ki}-ga mu-un-gul-la ... Year Samsu-iluna the king by the order of An and Enlil destroyed the city walls of Ur and Uruk and for the x-th time smote by weapons the troops of Akkad (RlA 2 183, 156)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-1737-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Samsu-iluna Kisurra ve Sabum'u yıktı",
+   "gun": "MÖ 1738",
+   "yer": "Kisurra; Sabum",
+   "d": "Samsu-iluna 13b: \"Samsu-iluna the king destroyed Kisurra and Sabum\" (yıl 13 = 1737) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K7.htm — \"13b mu sa-am-su-i-lu-na lugal ki-sur-ra{ki} sa-bu-um mu-un-gul-la Year in which Samsu-iluna the king destroyed Kisurra and Sabum\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1727-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Samsu-iluna Šehna/Apum'u yıktı",
+   "gun": "MÖ 1728",
+   "yer": "Šehna (Šubat-Enlil); Apum",
+   "d": "Samsu-iluna 23: \"destroyed the wall of Szahna, the capital of the land of Apum, Zarhanum, Putra, Susa ...\" (yıl 23 = 1727) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K7.htm — \"23 mu sa-am-su-i-lu-na lugal-e ... bad3 sza-ah-na-a{ki} uru{ki} sag ma-da a-pu-um-ma ... mi-ne-eb2-gul-gul-la Year in which Samsu-iluna the king by the terrible strength given to him by Enlil destroyed the wall of Szahna, the capital of the land of Apum, Zarhanum, Putra, Susa ... (RlA 2 184, 168)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-1647-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Ammi-ditana Der surunu yıktı",
+   "gun": "MÖ 1648",
+   "yer": "Der",
+   "d": "Ammi-ditana 37: \"(Ammi-ditana) destroyed the city wall of Der / Udinim built by the army of Damiq-iliszu\" (Ammi-ditana 1683–1647 → yıl 37 = 1647) (Orta Kronoloji) · TARİH = yıl adının yılı − 1 (yıl adı önceki yılın olayını anar; ±1 yıl)",
+   "kaynak": "https://web.archive.org/web/2015id_/http://cdli.ucla.edu/tools/yearnames/HTML/T12K9.htm — \"37 mu bad3-da bad3{ki}-ke4 / udinim{ki}-ke4 eren2 dam-qi2-i3-li2-szu-ke4 bi2-in-du3-a bi2-in-gul-la Year in which (Ammi-ditana) destroyed the vity wall of Der / Udinim built by the army of Damiq-iliszu (MCS 2 52, YOS 13 359)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil-i · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0740-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Arpad üç yıllık kuşatmadan sonra alındı",
+   "gun": "MÖ 741",
+   "yer": "Arpad (Bit-Agusi)",
+   "d": "During the eponomy of Bêl-Harran-bêla-usur, the palace herald, campaign against the same; the city was taken after three years.",
+   "kaynak": "https://www.livius.org/articles/concept/limmu/limmu-list-858-699-bce/ | Eponim kroniği, yıl [741/740] | 'the city was taken after three years' (743: 'massacre among the Urartians in Arpad'; 742 ve 740: 'campaign against Arpad'). Not: literatürde fetih çoğunlukla 740 olarak verilir",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ (Kuzey Suriye iç — dilim sınırı DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0738-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Ulluba seferi: Birtu alındı",
+   "gun": "MÖ 739",
+   "yer": "Ulluba / Birtu",
+   "d": "During the eponymy of Sin-taklak, the chamberlain, campaign against Ulluba; Birtu was captured",
+   "kaynak": "https://www.livius.org/articles/concept/limmu/limmu-list-858-699-bce/ | Eponim kroniği, yıl [739/738] | 'campaign against Ulluba; Birtu was captured'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0737-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kullania (Kinalua) alındı",
+   "gun": "MÖ 738",
+   "yer": "Kullania (Unqi/Pattina)",
+   "d": "During the eponomy of Adad-bêla-ka'in, the governor of Aššur, Kullania was captured.",
+   "kaynak": "https://www.livius.org/articles/concept/limmu/limmu-list-858-699-bce/ | Eponim kroniği, yıl [738/737] | 'Kullania was captured'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ (Kuzey Suriye — dilim sınırı DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0731-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Amukanlı Nabû-mukin-zeri Babil tahtını ele geçirdi",
+   "gun": "MÖ 732",
+   "yer": "Babil",
+   "d": "The second year: Nabû-nadin-zeri was killed in a rebellion. For two years Nabû-nadin-zeri ruled Babylon. Nabû-šuma-ukin, a district officer and leader of the rebellion, ascended the throne. For one month and two days, Nabû-šuma-ukin ruled Babylon. Nabû-mukin-zeri, the Amukanite, removed him from the throne and seized the throne for himself.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/ | ABC 1 i.14-18 | 'Nabû-mukin-zeri, the Amukanite, removed him from the throne and seized the throne for himself'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kaldu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0728-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "III. Tiglat-pileser Babil'i aldı ve kral oldu",
+   "gun": "MÖ 729",
+   "yer": "Babil / Bit-Amukani",
+   "d": "The third year of Nabû-mukin-zeri: Tiglath-pileser, having come down to Akkad, ravaged Bit-Amukanu and captured Nabû-mukin-zeri. For three years Nabû-mukin-zeri ruled Babylon. Tiglath-pileser ascended the throne in Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/ | ABC 1 i.19-23 | 'ravaged Bit-Amukanu and captured Nabû-mukin-zeri ... Tiglath-pileser ascended the throne in Babylon' ; eponim [729/728]: 'the king took the hand of Bêl'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0720-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Marduk-apla-iddina II Babil tahtına çıktı",
+   "gun": "MÖ 721",
+   "yer": "Babil",
+   "d": "On the twelfth day of the month Tebêtu, Sargon ascended the throne in Assyria. In the month Nisannu, Marduk-apla-iddina ascended the throne in Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/ | ABC 1 i.31-32 | 'In the month Nisannu, Marduk-apla-iddina ascended the throne in Babylon'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kaldu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0709-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "II. Sargon Babil'i aldı; Marduk-apla-iddina Elam'a kaçtı",
+   "gun": "MÖ 710",
+   "yer": "Babil",
+   "d": "The twelfth year of Marduk-apla-iddina: Sargon went down to Akkad and did battle against Marduk-apla-iddina. Marduk-apla-iddina retreated before him and fled to Elam. For twelve years Marduk-apla-iddina ruled Babylon. Sargon ascended the throne in Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.ii/ | ABC 1 ii.1-5 | 'fled to Elam ... Sargon ascended the throne in Babylon' ; eponim [710/709]: 'campaign against Bit-zeri ... the king stayed in Kiš'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0708-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sargon Dur-Yakin'i ele geçirdi",
+   "gun": "MÖ 709",
+   "yer": "Dur-Yakin (Bit-Yakin)",
+   "d": "The thirteenth year: Sargon took Bêl's hand. He also captured Dur-Yakin.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | ABC 1b ii.15-16 | 'He also captured Dur-Yakin'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0707-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Kummuhu alındı ve vali atandı (eyalet)",
+   "gun": "MÖ 708",
+   "yer": "Kummuhu (Commagene)",
+   "d": "During the eponomy of Šamaš-upahhir, the governor of Habruri, Kummuhu was captured; a governor was appointed.",
+   "kaynak": "https://www.livius.org/articles/concept/limmu/limmu-list-858-699-bce/ | Eponim kroniği, yıl [708/707] | 'Kummuhu was captured; a governor was appointed'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (Kommagene) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0706-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Dur-Yakin yıkıldı",
+   "gun": "MÖ 707",
+   "yer": "Dur-Yakin (Bit-Yakin)",
+   "d": "During the eponomy of Ša-Aššur-dubbu, the governor of Tušhan, the king returned from Babylon; the chief vizier, the nobles, the booty of Dur-Yakin was carried off; [...] Dur-Yakin was destroyed",
+   "kaynak": "https://www.livius.org/articles/concept/limmu/limmu-list-858-699-bce/ | Eponim kroniği, yıl [707/706] | 'Dur-Yakin was destroyed'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=AKIN (yıkım/sefer — kalıcı kontrol değişimi KANITLANMADI; hedefe SAYILMAZ) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0702-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Sanherib Kiš'te Marduk-apla-iddina'yı yendi; Bel-ibni Babil tahtına",
+   "gun": "MÖ 703",
+   "yer": "Babil / Kiš / Larak / Sarrabanu",
+   "d": "The second year of Sennacherib, he went down to Akkad. Before Kiš, he joined battle with Marduk-apla-iddina. Before him, Marduk-apla-iddina retreated and fled to Guzummanu. In Babylon, Sennacherib entered the palace of Marduk-apla-iddina and the royal treasury [...] he plundered ... Larak and Sarrabanu he took. When he withdrew, Sennacherib put Bêl-ibni on the throne in Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.ii/ | ABC 1 ii.12-23 | 'Sennacherib put Bêl-ibni on the throne in Babylon'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0699-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sanherib Bel-ibni'yi indirdi; Aššur-nadin-šumi Babil kralı",
+   "gun": "MÖ 700",
+   "yer": "Babil",
+   "d": "The third year of Bêl-ibni: Sennacherib, to Akkad he went down and plundered Akkad. He led away to Assyria Bêl-ibni and his officers. For three years Bêl-ibni ruled Babylon. Sennacherib, Aššur-nadin-šumi, his son, he put on the throne in Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.ii/ | ABC 1 ii.26-31 | 'Aššur-nadin-šumi, his son, he put on the throne in Babylon' ; eponim [700/699] Aššur-nadin-šumi anılır",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0693-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Elam Sippar'a girdi; Aššur-nadin-šumi esir; Nergal-ušezib tahta",
+   "gun": "MÖ 694",
+   "yer": "Sippar / Babil",
+   "d": "Afterwards, Hallušu-Inšušinak, king of Elam, marched to Akkad and entered Sippar at the end of the month Tašrîtu. He slaughtered its inhabitants. Šamaš did not go out of Ebabbar. Aššur-nadin-šumni was taken prisoner and transported to Elam. For six years, Aššur-nadin-šumni ruled Babylon. The king of Elam put Nergal-ušezib in Babylon on the throne. He effected an Assyrian retreat.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.ii/ | ABC 1 ii.36-45 (6. yıl Aššur-nadin-šumi = 694/693) | 'The king of Elam put Nergal-ušezib in Babylon on the throne'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-yeni · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0692-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Nergal-ušezib Nippur'u ele geçirdi",
+   "gun": "MÖ 693",
+   "yer": "Nippur",
+   "d": "The first year of Nergal-ušezib: On the sixteenth day of the month Du'ûzu Nergal-ušezib captured Nippur, plundered and sacked it.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.ii/ | ABC 1 ii.46-47 | 'Nergal-ušezib captured Nippur, plundered and sacked it' (polity: Elam'ın Babil'e koyduğu kral; dataset id'si nippur için hedef)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=elam-yeni · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0692-01-02",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Nergal-ušezib esir alındı; Babil'de Mušezib-Marduk",
+   "gun": "MÖ 693",
+   "yer": "Nippur bölgesi / Babil",
+   "d": "Nergal-ušezib in the district of Nippur on the seventh day of the month Tašrîtu did battle against the army of Assyria. He was taken prisoner in the battlefield and transported to Assyria. For one year - precisely: six months - Nergal-ušezib ruled Babylon. ... Mušezib-Marduk ascended the throne in Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.iii/ | ABC 1 iii.3-12 | 'He was taken prisoner in the battlefield and transported to Assyria' (gün -01-02 sadece sıralama için; kesinlik yıl)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0688-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Babil Sanherib tarafından alındı",
+   "gun": "MÖ 689",
+   "yer": "Babil",
+   "d": "The fourth year of Mušezib-Marduk: ... On the first day of the month Kislîmu the city of Babylon was captured. Mušezib-Marduk was taken prisoner and transported to Assyria. For four years, Mušezib-Marduk ruled Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1.iii/ | ABC 1 iii.19-24 | 'On the first day of the month Kislîmu the city of Babylon was captured'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0679-01-01",
+   "k": "isyan",
+   "etiket": [
+    "ayaklanma"
+   ],
+   "b": "Deniz Ülkesi: isyancı vali kaçtı; Na'id-Marduk vali atandı",
+   "gun": "MÖ 680",
+   "yer": "Deniz Ülkesi / Ur",
+   "d": "[The first year of the reign of Esarhaddon, Nabû-zer-kitti-lišir, governor of the Sealand, having come upstream, set up camp before Ur but did not take the city. He fled before the officers of Assyria and reached Elam. In Elam] the king of Elam [captured and executed him. Es]arhaddon named his brother Na'id-Marduk governor of the Sealand.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-14-esarhaddon-chronicle/ | ABC 14, 1-5 (ayrıca ABC 1 iii.39-42) | 'Esarhaddon named his brother Na'id-Marduk governor of the Sealand'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=HAYIR (Asur içi vali değişimi) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0678-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Arza alındı ve yağmalandı",
+   "gun": "MÖ 679",
+   "yer": "Arza (Mısır sınırı)",
+   "d": "The second year: the major-domo conscripted troops in Akkad. In that same year Arza was captured and sacked. The people were ransomed, the king and his son were taken prisoner.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-14-esarhaddon-chronicle/ | ABC 14, 9-11 | 'Arza was captured and sacked ... the king and his son were taken prisoner'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ / K2 MISIR (Mısır Çayı sınırı — iki aday) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0676-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sidon alındı ve yağmalandı",
+   "gun": "MÖ 677",
+   "yer": "Sidon",
+   "d": "The fourth year: Sidon was captured and sacked.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1-2/ | ABC 1 iv.3 (ABC 14, 15) | 'Sidon was captured and sacked'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0675-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Bazza ele geçirildi",
+   "gun": "MÖ 676",
+   "yer": "Bazza (Arabistan)",
+   "d": "The fifth year: On the second day of the month Tašrîtu the army of Assyria captured Baza.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1-2/ | ABC 1 iv.5-6 | 'the army of Assyria captured Baza'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=BİLİNMİYOR (Arabistan — dilim tablosunda yok) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0671-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Šubria alındı ve yağmalandı",
+   "gun": "MÖ 672",
+   "yer": "Šubria",
+   "d": "The eighth year: On the sixth day of the month Addaru the king's wife died. On the eighteenth day of the month Addaru the army of Assyria captured Šubria and sacked it.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-14-esarhaddon-chronicle/ | ABC 14, 26-28 (ABC 1 iv.19-21 ayı Tebêtu verir) | 'the army of Assyria captured Šubria and sacked it' ; 8. yıl = 673/672, Addaru/Tebêtu → 672 başı",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0670-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Memfis alındı; Taharqo kaçtı",
+   "gun": "MÖ 671",
+   "yer": "Memfis (Mısır)",
+   "d": "The tenth year: In the month Nisannu the army of Assyria marched to Egypt ... On the third, sixteenth and eighteenth days of the month Du'uzu - three times - there was a massacre in Egypt. It was sacked and its gods were abducted. On the twenty-second day Memphis, the royal city, was captured and abandoned by its king. The king's son and brother were taken prisoner.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1-2/ | ABC 1 iv.23-28 | 'On the twenty-second day Memphis, the royal city, was captured'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K2 MISIR · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0667-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kirbitu alındı ve kralı yakalandı",
+   "gun": "MÖ 668",
+   "yer": "Kirbitu",
+   "d": "The accession year of Šamaš-šuma-ukin: ... In that same year Kirbitu was taken and its king captured.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1-from-nabu-nasir-to-samas-suma-ukin/abc-1-2/ | ABC 1 iv.34-37 (ABC 14, 41) | 'Kirbitu was taken and its king captured'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0650-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Šamaš-šuma-ukin Kutha'yı aldı",
+   "gun": "MÖ 651",
+   "yer": "Kutha",
+   "d": "The seventeenth year: On the ninth day of the intercalary month Ulûlu, Šamaš-šuma-ukin mustered an army, marched to Cuthah and took the city. He defeated the army of Assyria and the Cutheans. He captured the statue of Nergal and took it to Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-15-samas-suma-ukin-chronicle/ | ABC 15, 7-10 | 'marched to Cuthah and took the city' (polity: Šamaš-šuma-ukin'in Babil'i; yeni-babil id'si 626 öncesi ise 'Babil (Šamaš-šuma-ukin)' olarak yazılmalı)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0622-01-01",
+   "k": "isyan",
+   "etiket": [
+    "ayaklanma"
+   ],
+   "b": "Der Asur'a karşı ayaklandı",
+   "gun": "MÖ 623",
+   "yer": "Der",
+   "d": "The third year: On the eight day of the month [...] Der rebelled against Assyria.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-2-early-years-of-nabopolassar/ | ABC 2, 29 | 'Der rebelled against Assyria'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=der · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0622-01-02",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Asur Der'i geri aldı; Nippur'a garnizon",
+   "gun": "MÖ 623",
+   "yer": "Der / Nippur",
+   "d": "Afterward the king of Assyria went down to Akkad with his troops and took possession of Der; he took out its treasures and had them sent to Nippur. He pursued Itti-ili, ravaged Uruk?, and set up a garrison at Nippur.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-2-early-years-of-nabopolassar/ | ABC 2, 30-32 | 'took possession of Der ... set up a garrison at Nippur'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0615-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Suhu ve Hindanu Nabopolassar'a haraç verdi (bağlılık değişimi)",
+   "gun": "MÖ 616",
+   "yer": "Suhu / Hindanu",
+   "d": "The tenth year of Nabopolassar: In the month Ajaru, Nabopolassar mustered the army of Akkad and marched along the bank of the Euphrates. The Suheans and Hindaneans did not do battle against him but placed their tribute before him.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | ABC 3, Y10 (sat. 1-2) | 'The Suheans and Hindaneans did not do battle against him but placed their tribute before him'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=suhu · harita_degisimi=AKIN (HARAÇ ⓐ tek seferlik — Nabopolassar seferi sırasında haraç; süreklilik beyanı yok) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0615-01-02",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Gablini ele geçirildi",
+   "gun": "MÖ 616",
+   "yer": "Gablini (Orta Fırat)",
+   "d": "On the twelfth of the month Âbu he did battle against the army of Assyria and the army of Assyria retreated before him. He inflicted a major defeat upon Assyria and plundered them extensively. He captured the Manneans, who had come to the Assyrians' aid, and the Assyrian officers. On the same day he captured Gablini.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | ABC 3, Y10 | 'On the same day he captured Gablini'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0613-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Medler Tarbisu'yu aldı ve Assur'u yıktı",
+   "gun": "MÖ 614",
+   "yer": "Assur / Tarbisu",
+   "d": "The twelfth year: In the month Âbu the Medes, after they had matched against Nineveh [lacuna], hastened and they captured Tarbisu, a city in the district of Nineveh. They went along the Tigris and encamped against Aššur. They did battle against the city and destroyed it. ... The city was taken.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | ABC 3, Y12 | 'They did battle against the city and destroyed it' (kaybeden: yeni-asur; fail: Medler)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0612-01-01",
+   "k": "isyan",
+   "etiket": [
+    "ayaklanma"
+   ],
+   "b": "Suhu isyanı bastırıldı: Rahilu ve Anat alındı",
+   "gun": "MÖ 613",
+   "yer": "Rahilu / Anat (Suhu)",
+   "d": "The thirteenth year: In the month Ajaru the Suheans rebelled against the king of Akkad and became belligerent. The king of Akkad mustered his army and marched to Suhu. On the fourth day of the month Simanu he did battle against Rahi-ilu, a city which is on an island in the middle of the Euphrates and at that time he captured the city. ... he encamped against Anati ... He did battle against the city and captured it.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | ABC 3, Y13 | 'he captured the city ... He did battle against the city and captured it' (fail: yeni-babil)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=suhu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0610-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Ruggulitu alındı",
+   "gun": "MÖ 611",
+   "yer": "Ruggulitu",
+   "d": "In the month Arahsamna the king of Akkad took the lead of his army personally and marched against Ruggulitu. He did battle against the city and on the twenty-eighth day of the month Arahsamnu he captured it. He did not leave a single man alive.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | ABC 3, Y15 | 'on the twenty-eighth day of the month Arahsamnu he captured it'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0609-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Harran Babilliler ve Medler tarafından alındı",
+   "gun": "MÖ 610",
+   "yer": "Harran",
+   "d": "In the month Arahsamna the Medes, who had come to the help of the king of Akkad, put their armies together and marched to Harran against Aššur-uballit, who had ascended the throne in Assyria. Fear of the enemy overcame Aššur-uballit and the army of Egypt that had come to help him, and they abandoned the city, and crossed the Euphrates. The king of Akkad reached Harran, fought a battle, and captured the city.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/ | ABC 3, Y16 | 'The king of Akkad reached Harran, fought a battle, and captured the city'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0606-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kimuhu alındı ve garnizon kondu",
+   "gun": "MÖ 607",
+   "yer": "Kimuhu (Fırat)",
+   "d": "In the month Tašrîtu the king of Akkad mustered his army and marched to Kimuhu, which is on the bank of the Euphrates. He crossed the river, did battle against the city, and in the month Kislîmu he captured the city. He sacked it and stationed a garrison of his in it.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-4-late-years-of-nabopolassar/ | ABC 4, 12-15 (19. yıl = 607/606) | 'in the month Kislîmu he captured the city ... stationed a garrison'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0605-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Mısır ordusu Kimuhu'yu geri aldı",
+   "gun": "MÖ 606",
+   "yer": "Kimuhu",
+   "d": "The twentieth year: The army of Egypt marched against the garrison of Kimuhu which the king of Akkad had stationed inside. For four months, they laid siege to the city, captured it, and defeated the garrison of the king of Akkad.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-4-late-years-of-nabopolassar/ | ABC 4, 16-18 | 'they laid siege to the city, captured it, and defeated the garrison' (kaybeden: yeni-babil; fail: Mısır)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0604-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Karkamış zaferi; Hama bölgesi fethedildi",
+   "gun": "MÖ 605",
+   "yer": "Karkamış / Hama",
+   "d": "In the twenty-first year ... Nebuchadnezzar ... marched to Karchemiš which is on the bank of the Euphrates, and crossed the river to go against the Egyptian army which lay in Karchemiš. ... the Babylonian troops overtook and defeated them so that not a single man escaped to his own country. At that time Nebuchadnezzar conquered the whole area of Hamath.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/ | ABC 5 obv.1-8 | 'At that time Nebuchadnezzar conquered the whole area of Hamath'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0603-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Aşkelon alındı ve harabeye çevrildi",
+   "gun": "MÖ 604",
+   "yer": "Aşkelon",
+   "d": "He marched to the city of Aškelon and captured it in the month of Kislîmu. He captured its king and plundered it and carried off spoil from it. He turned the city into a mound and heaps of ruins",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/ | ABC 5 obv.18-20 (1. yıl Nebukadnezar = 604/603) | 'He marched to the city of Aškelon and captured it in the month of Kislîmu'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0596-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Kudüs alındı; Babil'in seçtiği kral atandı",
+   "gun": "MÖ 597",
+   "yer": "Kudüs (Yahuda)",
+   "d": "In the seventh year, the month of Kislîmu, the king of Akkad mustered his troops, marched to the Hatti-land, and besieged the city of Judah and on the second day of the month of Addaru he seized the city and captured the king. He appointed there a king of his own choice, received its heavy tribute and sent to Babylon.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/ | ABC 5 rev.11'-13' | 'on the second day of the month of Addaru he seized the city and captured the king' (Livius notu: February/March 597; Jülyen gün verilmediği için kesinlik=yil)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ / K7 ORTACAG (Kudüs — iki aday) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0556-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Neriglissar Ura ve Kirši'yi aldı (Pirindu)",
+   "gun": "MÖ 557",
+   "yer": "Ura / Kirši / Pitusu (Kilikya)",
+   "d": "The third year: ... Neriglissar mustered his army and marched to Hume to oppose him. ... He captured him, seized Ura, and sacked it. ... he captured Kirši, the mighty city, his royal metropolis. He burnt its wall, its palace, and its people. Pitusu, a land in the midst of the ocean, and six thousand combat troops who were stationed in it he captured by means of boats.",
+   "kaynak": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-6-neriglissar-chronicle/ | ABC 6, 1-23 (3. yıl = 557/556) | 'seized Ura, and sacked it ... he captured Kirši'",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-babil · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (Kilikya) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0899-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Saraku Asur'a alındı",
+   "gun": "MÖ 900",
+   "yer": "Saraku (Hanigalbat)",
+   "d": "In the eponymy of Ilī-emūqāia I marched a second time to the land Hanigalbat. I fought with him at Nasipanu ... I entered the city Iaridu. I reaped the harvest of his land. I regarded the city Saraku as mine (and) heaped up the barley and straw therein.",
+   "kaynak": "R2 A.0.99.2 lines 42-44 (Ilī-emūqāia = 900 BC, EL) — \"I regarded the city Saraku as mine\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hanigalbat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0898-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Huzirina ele geçirildi; Kaşiyari kentleri teslim",
+   "gun": "MÖ 899",
+   "yer": "Huzirina; Kaşiyari eteği",
+   "d": "In the eponymy of Ninuaiia I marched a third time to the land Hanigalbat. I captured the city Huzirina ... The (people of) the cities at the foot of Mount Kasiiari, which Mamli the Temannu had captured, submitted to me. I regarded his palaces as mine.",
+   "kaynak": "R2 A.0.99.2 lines 45-48 (Ninuāyu = 899 BC, EL) — \"I captured the city Huzirina\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hanigalbat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0897-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Gidara/Raqammatu zorla alındı",
+   "gun": "MÖ 898",
+   "yer": "Gidara/Raqammatu",
+   "d": "In the eponymy of Likberu I marched a fourth time to the land Hanigalbat ... (I) marched to the city Gidara, which the Aramaeans call Raqammatu ... I entered with force (and) violence the city Raqammatu. That fellow I brought down from his palace ... (and) brought (them) to my city Assur.",
+   "kaynak": "R2 A.0.99.2 lines 49-60 (Likberu = 898 BC, EL) — \"I entered with force (and) violence the city Raqammatu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hanigalbat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0895-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Nasibina kuşatması; Nur-Adad rehin; kentler Asur'a",
+   "gun": "MÖ 896",
+   "yer": "Nasibina (Nusaybin)",
+   "d": "In the eponymy of Adad-dān ... I marched a sixth time to the land Hanigalbat. I confined Nur-Adad, the Temannu, in the city Nasibina ... I brought back in my presence Nur-Adad together with his extensive troops as hostages. I granted cities with people to Assyria (and) counted them.",
+   "kaynak": "R2 A.0.99.2 lines 62-79 (Adad-dān = 896 BC, EL) — \"I granted cities with people to Assyria (and) counted them\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hanigalbat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0895-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Sikkur ve Sappanu fethedildi; vergi konuldu",
+   "gun": "MÖ 896",
+   "yer": "Sikkur; Sappanu",
+   "d": "In this same eponymy ... I conquered all the cities in the district of the cities Sikkur (and) Sappanu. The remainder of their (inhabitants ...) came down (and) submitted to me. I received from them tribute (and) imposed upon them stringent taxes and dues.",
+   "kaynak": "R2 A.0.99.2 lines 80-90 (Adad-dān = 896 BC) — \"I conquered all the cities in the district of the cities Sikkur (and) Sappanu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=sikkur-sappanu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (konum/dilim DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0894-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Habhu kentlerine vergi konuldu",
+   "gun": "MÖ 895",
+   "yer": "Habhu (Kummu çevresi)",
+   "d": "In the month Sivan, the fifteenth day, eponymy of Ina-ilīia-allak, I marched to the assistance of the city Kummu ... I burnt the cities of the land Habhu, enemies of the city Kummu. I reaped the harvest of his land (and) imposed upon them stringent taxes and dues. · HARAÇ ≠ DEVİR: HARAC-c — yaktı + vergi YÜKLEDİ — tek beyan, süreklilik kanıtı yok",
+   "kaynak": "R2 A.0.99.2 lines 91-93 (Ina-iliya-allak = 895 BC, EL) — \"imposed upon them stringent taxes and dues\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=habhu · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — yaktı + vergi YÜKLEDİ — tek beyan, süreklilik kanıtı yok) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (konum/dilim DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0893-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hanigalbat bütünüyle Asur sınırına katıldı",
+   "gun": "MÖ 894",
+   "yer": "Hanigalbat",
+   "d": "in this same eponymy, I marched for a fifth time to the land Hanigalbat. I received the tribute of the land Hanigalbat above and below. (Thus) I became lord of the extensive land Hanigalbat to its entire extent (and) brought (it) into the boundaries of my land. I brought them under one authority.",
+   "kaynak": "R2 A.0.99.2 lines 97-104 (Šamaš-abuʾa = 894 BC, EL; Grayson: years 11-18 = 901-894) — \"brought (it) into the boundaries of my land\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hanigalbat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0893-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Guzana/Sikanu: Abi-salamu'ya haraç konuldu",
+   "gun": "MÖ 894",
+   "yer": "Guzana; Sikanu",
+   "d": "I crossed the River Habur (and) marched to the city Guzānu which Abi-salamu, a man of Bīt-Bahiani, held. I entered the city Sikanu which lies at the source of the River Habur ... I received from him his numerous chariots ... I imposed upon him tribute. · HARAÇ ≠ DEVİR: HARAC-c — 'imposed upon him tribute' — yükleme beyanı, ödemenin sürekliliği kanıtsız",
+   "kaynak": "R2 A.0.99.2 lines 97-104 (894 BC) — \"I imposed upon him tribute\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-bahiani · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — 'imposed upon him tribute' — yükleme beyanı, ödemenin sürekliliği kanıtsız) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0893-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Qatnu beyi Amil-Adad vasal bırakıldı",
+   "gun": "MÖ 894",
+   "yer": "Qatnu (Habur)",
+   "d": "I entered the city Qatnu. I allowed to remain (there) Amīl-Adad, a man of the city Qatnu, (my) vassal ... I imposed upon him tribute. · HARAÇ ≠ DEVİR: HARAC-b — AÇIK VASAL beyanı: 'Amīl-Adad … (my) vassal' + haraç yüklendi ⇒ v:asur DİLİMİ KANITI",
+   "kaynak": "R2 A.0.99.2 lines 105-119 (894 BC) — \"I allowed to remain (there) Amīl-Adad ... (my) vassal\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=qatnu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 30
+  },
+  {
+   "t": "-0893-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Dur-katlimmu Asur'a alındı",
+   "gun": "MÖ 894",
+   "yer": "Dur-katlimmu (Tell Şeyh Hamad)",
+   "d": "Moving on from the mountains of busu I entered the city Dur-aduklimmu. I regarded the city Dur-aduklimmu as mine.",
+   "kaynak": "R2 A.0.99.2 lines 105-119 (894 BC) — \"I regarded the city Dur-aduklimmu as mine\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=dur-katlimmu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 40
+  },
+  {
+   "t": "-0893-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Laqe (Zurih/Sirqu) haraca bağlandı",
+   "gun": "MÖ 894",
+   "yer": "Zurih; Sirqu (Terqa)",
+   "d": "I marched to the land Laqu, to the city Zurih (which) Baratara, a man of Bīt-Halupe, held. I received from him tribute and tax ... I marched to the city Sirqu ... (which) Mudadda, the Laqu, held. I received tribute, tax ... tribute and tax of the land Laqu to its entire extent above and below. · HARAÇ ≠ DEVİR: HARAC-c — Laqe haracı 894 ve 885'te iki ayrı seferde ⇒ iki olay mı süreklilik mi ayırt edilemiyor",
+   "kaynak": "R2 A.0.99.2 lines 105-119 (894 BC) — \"tribute and tax of the land Laqu to its entire extent\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lake · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Laqe haracı 894 ve 885'te iki ayrı seferde ⇒ iki olay mı süreklilik mi ayırt edilemiyor) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 50
+  },
+  {
+   "t": "-0893-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Hindanu haracı",
+   "gun": "MÖ 894",
+   "yer": "Hindanu",
+   "d": "I received the tribute of the city Hindanu. I brought (this) to my city Assur. · HARAÇ ≠ DEVİR: HARAC-c — Hindanu haracı 894/885/883 üç ayrı kralın seferlerinde ⇒ süreklilik beyan edilmiyor",
+   "kaynak": "R2 A.0.99.2 line 119 (894 BC) — \"I received the tribute of the city Hindanu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hindanu · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Hindanu haracı 894/885/883 üç ayrı kralın seferlerinde ⇒ süreklilik beyan edilmiyor) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 60
+  },
+  {
+   "t": "-0885-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Bit-Zamani beyi Amme-baʾli teslim oldu ve yemin etti",
+   "gun": "MÖ 886",
+   "yer": "Patiskun (Bit-Zamani)",
+   "d": "in the month Sivan, the first day, eponymy of Ilī-milku, I moved out from Nineveh ... To the city P[a]tiskun [belonging to Amme-baʾli], a man of Bīt-Zamani, I approached ... To save his life he submitted to me (and) I was merciful towards him ... I had him take an oath by Assur, my lord · HARAÇ ≠ DEVİR: HARAC-b — 'I had him take an oath by Assur' — yemin = vasallık ANDI (süreklilik ilişkisi) ⇒ v:asur DİLİMİ KANITI",
+   "kaynak": "R2 A.0.100.5 lines 11-29 (Il-milkī = 886 BC, EL) — \"To save his life he submitted to me\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-zamani · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0884-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Suhu valisi İlu-ibni haraç verdi",
+   "gun": "MÖ 885",
+   "yer": "Anat (Suhu)",
+   "d": "In the month Nisan, twenty-sixth day, eponymy of Naidi-ilī, I moved out from Inner City (Assur) ... I approached the city Anat of the land Suhu ... I received bountiful tribute from Ilu-ibni, governor of the land Suhu: three talents of silver, 20 minas of gold · HARAÇ ≠ DEVİR: HARAC-a — 885 sefer haracı; 882 metni 'at the time of the kings my fathers the governor of the land Suhu had not come to Assyria' ⇒ 885 düzenli ilişki DEĞİLDİ",
+   "kaynak": "R2 A.0.100.5 lines 41-51, 64b-73a (Naʾid-ilu = 885 BC, EL) — \"I received bountiful tribute from Ilu-ibni, governor of the land Suhu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=suhu · harita_degisimi=AKIN (HARAÇ ⓐ tek seferlik — 885 sefer haracı; 882 metni 'at the time of the kings my fathers the governor of the land S · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0884-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Hindanu beyi Amme-alaba haraç verdi",
+   "gun": "MÖ 885",
+   "yer": "Hindanu",
+   "d": "I approached the city Hindanu. I received tribute from Amme-alaba, a man of Hindanu · HARAÇ ≠ DEVİR: HARAC-c — Hindanu — bkz. 11",
+   "kaynak": "R2 A.0.100.5 lines 73b-85a (885 BC) — \"I received tribute from Amme-alaba, a man of Hindanu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hindanu · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Hindanu — bkz. 11) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0884-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Laqe şeyhleri haraç verdi",
+   "gun": "MÖ 885",
+   "yer": "Sirqu; Supru; Arbatu; Aqarbanu",
+   "d": "I received tribute from Mudadda, the Laqu ... from Hamataiia, (the) Laqu ... from Harami, the Laqu ... I approached the city Sirqu. I received tribute from Mudadda, a man of the city Sirqu ... I* received tribute from Haranu, the Laqu · HARAÇ ≠ DEVİR: HARAC-c — Laqe — bkz. 10",
+   "kaynak": "R2 A.0.100.5 lines 85b-95a (885 BC) — \"I received tribute from Mudadda, a man of the city Sirqu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lake · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Laqe — bkz. 10) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 30
+  },
+  {
+   "t": "-0884-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Muşki ülkesinde Pir[u] fethedildi; haraç/angarya konuldu",
+   "gun": "MÖ 885",
+   "yer": "Pir[u] (Muşki ülkesi)",
+   "d": "[...] of the land of the Musku I marched. On the fourth day the city Pīr[u ...] their booty ... [... I] conquered ... I allowed them to remain in possession of their cities (but) imposed [upon] them tribute, tax, [(and) corvee].",
+   "kaynak": "R2 A.0.100.5 lines 116-127 (885 BC) — \"imposed [upon] them tribute, tax, [(and) corvee]\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=musku · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 40
+  },
+  {
+   "t": "-0882-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Suru (Bit-Halupe): asi bey yakalandı; Azi-ili vali atandı",
+   "gun": "MÖ 883",
+   "yer": "Suru (Bit-Halupe; Habur)",
+   "d": "I approached the city Sūru, which belongs to Bīt-Halupe ... I captured Ahi-iababa, son of a nobody ... I appointed Azi-ili as my own governor over them ... (Thus) have I constantly established my victory and strength over the land Laqu. While I was in the city Sūru I imposed an exceptionally large tribute, tax, and duty upon all the kings of the land Laqu",
+   "kaynak": "R2 A.0.101.1 i 69b-99a ('In this same eponymy', 1. palû'nun devamı; kralın eponimi 882'den önce = Aššur-šēzibanni 883 BC, EL) — \"I appointed Azi-ili as my own governor over them\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=lake · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0882-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Hindanu beyi Haiianu haraç verdi",
+   "gun": "MÖ 883",
+   "yer": "Hindanu",
+   "d": "At that time I received the tribute of Haiianu, a man of the city Hindanu — silver, gold, tin, bronze · HARAÇ ≠ DEVİR: HARAC-c — Hindanu — bkz. 11",
+   "kaynak": "R2 A.0.101.1 i 94-98 (883 BC) — \"I received the tribute of Haiianu, a man of the city Hindanu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hindanu · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Hindanu — bkz. 11) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0882-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Nipur-Pasate kentleri fethedildi; angarya konuldu",
+   "gun": "MÖ 883",
+   "yer": "Atkun; Ushu; Pilazi (Nipur/Pasate dağları)",
+   "d": "In this same eponymy on the twenty-fourth day of the month Ab ... I conquered the cities Atkun, Ushu, Pilazi, (and) 20 cities in their environs ... The troops, as many as had fled from my weapons, came down (and) submitted to me. I imposed upon them corvee.",
+   "kaynak": "R2 A.0.101.1 i 69b-74 (883 BC) — \"came down (and) submitted to me. I imposed upon them corvee\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nipur-pasate · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (konum/dilim DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0881-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Suhu valisi İlu-ibni Ninova'ya haraç getirdi (ilk kez)",
+   "gun": "MÖ 882",
+   "yer": "Suhu",
+   "d": "In the eponym year of my name ... although at the time of the kings my fathers the governor of the land Suhu had not come to Assyria, Ilu-ibni, governor of the land Suhu, brought to Nineveh to my presence his tribute, silver (and) gold · HARAÇ ≠ DEVİR: HARAC-b — Suhu valisi haracı NİNOVA'YA kendisi getirdi, 'atalarım zamanında gelmemişti' ⇒ YENİ ve kurumsal ilişkinin başı ⇒ v:asur DİLİMİ KANITI",
+   "kaynak": "R2 A.0.101.1 i 99b-101a (Aššur-nāṣir-apli eponimi = 882 BC, EL) — \"the governor of the land Suhu had not come to Assyria\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=suhu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0881-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Tuşha (Tuşhan) yeniden kuruldu; Asurlular yerleştirildi; Nirbu haraca bağlandı",
+   "gun": "MÖ 882",
+   "yer": "Tuşhan (Ziyaret Tepe)",
+   "d": "Moving on from the land Nirbu I approached the city Tushha. I took Tushha in hand for renovation ... A palace for my royal residence I founded inside ... I settled them in the city Tushha. I took over this city for myself ... The rest (of the inhabitants) of the land Nirbu ... came down (and) submitted to me ... I imposed upon their cities more tribute and tax than ever before",
+   "kaynak": "R2 A.0.101.1 ii 2b-12a ('In the same eponymy' i 101b = 882 BC) — \"I took over this city for myself\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nirbu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0881-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Bit-Zamani/Şubru/Nirdun ve Nairi kralları haraç verdi; angarya konuldu",
+   "gun": "MÖ 882",
+   "yer": "Tuşhan (Nairi)",
+   "d": "While I was in the city Tushha I received tribute from Amme-baʾli, a man of Bīt-Zamani, from Ilī-hite, the Subru, from Labturu, son of Tupusu (of) the land Nirdun ... (and) from the kings of the lands Nairi ... I imposed corvee upon the lands Nairi. · HARAÇ ≠ DEVİR: HARAC-c — Nairi krallarından sefer sırasında haraç + angarya yüklendi — tek beyan",
+   "kaynak": "R2 A.0.101.1 ii 12b-15a (882 BC) — \"I imposed corvee upon the lands Nairi\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nairi · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Nairi krallarından sefer sırasında haraç + angarya yüklendi — tek beyan) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0880-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Zamua: Uze/Berutu/Lagalaga fethi; ülke tek yönetim altına alındı",
+   "gun": "MÖ 881",
+   "yer": "Zamua (Babitu geçidi)",
+   "d": "In the eponymy of Aššur-iddin ... I conquered the cities Uze, Berutu, (and) Lagalaga, their fortified cities, together with 100 cities in their environs ... all of the kings of the land Zamua (and) they submitted to me ... I put all of the land under one authority (and) imposed upon them (tribute of) horses, silver, gold, barley, straw, (and) corvee.",
+   "kaynak": "R2 A.0.101.1 ii 23b-47 (Aššur-iddin = 881 BC, EL) — \"I put all of the land under one authority\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=zamua · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0879-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Zamua kralları teslim; Atlila Dur-Aşşur adıyla yeniden kuruldu",
+   "gun": "MÖ 880",
+   "yer": "Atlila/Dur-Aşşur (Zamua)",
+   "d": "In the eponymy of Miqti-adur ... All the kings of the land Zamua took fright ... and they submitted to me. I imposed upon them more tribute and tax than ever before ... the city Atlila which Sibir king of Kardunias had captured ... Ashurnasirpal ... took (this city) in hand for renovation ... founded therein a palace ... I named it Dur-Assur.",
+   "kaynak": "R2 A.0.101.1 ii 49b-86a (Miqtu-adur = 880 BC, EL) — \"I named it Dur-Assur\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=zamua · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0878-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Matiatu fethedildi; halkı yerleştirilip haraca bağlandı",
+   "gun": "MÖ 879",
+   "yer": "Matiatu (Kaşiyari)",
+   "d": "On the first day of the month Sivan, in the eponymy of Ša-ilīma-damqa ... I conquered Matiatu together with its suburbs ... The troops ... submitted to me (and) I settled them in their cities. I imposed upon them stringent tribute, taxes, (and) labourers.",
+   "kaynak": "R2 A.0.101.1 ii 86b-91a (Ša-ilimma-damqā = 879 BC, EL) — \"I imposed upon them stringent tribute, taxes, (and) labourers\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nairi · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 10
+  },
+  {
+   "t": "-0878-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Labturu'nun Madara kenti teslim; haraç konuldu",
+   "gun": "MÖ 879",
+   "yer": "Madara (Nirdun)",
+   "d": "I approached the city Madara, the fortified city of Labturu, son of Tupusu ... I received from them property, possessions, (and) sons as hostages ... I imposed upon them tribute, taxes, (and) labourers. · HARAÇ ≠ DEVİR: HARAC-c — rehine + haraç yüklendi — vasallık işareti ama tek beyan",
+   "kaynak": "R2 A.0.101.1 ii 97b-100a (879 BC) — \"I imposed upon them tribute, taxes, (and) labourers\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nirdun · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — rehine + haraç yüklendi — vasallık işareti ama tek beyan) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0877-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Suhu: Kudurru'nun Suru kenti fethedildi",
+   "gun": "MÖ 878",
+   "yer": "Suru (Suhu)",
+   "d": "On the twenty-second day of the month Sivan, in the eponymy of Dagan-bēla-uṣur ... I besieged the city Sūru, the fortified city of Kudurru, governor of the land Suhu ... I conquered the city ... (Thus) I established my victory and strength over the land Suhu ... I erected (it) in the city Sūru.",
+   "kaynak": "R2 A.0.101.1 iii 1-26a (Dagān-bēlu-uṣur = 878 BC, EL) — \"I conquered the city\" (aynı pasajda \"I razed (and) destroyed the city\" de geçiyor)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=suhu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0865-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Habhu teslim; Asurlu vali atandı; Mallanu alındı",
+   "gun": "MÖ 866",
+   "yer": "Habhu; Mallanu",
+   "d": "In the eponymy of Šamaš-nūrī ... I took in hand for myself the land Mallanu which is within Mount Arqania ... All of the land Habhu took fright and submitted to me. I took hostages from them (and) appointed a governor of my own over them.",
+   "kaynak": "R2 A.0.101.1 iii 92b-104 (Šamaš-nūrī = 866 BC, EL) — \"appointed a governor of my own over them\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=habhu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (konum/dilim DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 10
+  },
+  {
+   "t": "-0865-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Damdammusa ve Udu kentleri ele geçirildi",
+   "gun": "MÖ 866",
+   "yer": "Damdammusa; Udu",
+   "d": "I approached the city Damdammusa, the fortified city of Ilānu, a man of Bīt-Zamani ... I took that city in hand for myself ... I approached the city Udu, the fortified city of Labturu, son of Tupusu ... I took the city in hand [for myself].",
+   "kaynak": "R2 A.0.101.1 iii 105-113a (866 BC) — \"I took that city in hand for myself\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-zamani · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0856-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Ahunu'nun altı kalesi (Dabigu dahil) ele geçirildi",
+   "gun": "MÖ 857",
+   "yer": "Dabigu; Til-Basere; Paripa",
+   "d": "On the thirteenth day of the month Iyyar, in the eponymy of my own name ... I [besieged] the cities [...]ga, Tagi[...], Surunu, Paripa, Til-Basere, (and) Dabigu, six fortified cities belonging to Ahunu, the man of Bīt-Adini, (and) captured (them).",
+   "kaynak": "R3 A.0.102.2 ii 13b-18a (kral eponimi = 857 BC, EC) — \"six fortified cities belonging to Ahunu ... (and) captured (them)\"; also A.0.102.14 lines 32-35a: \"In my second regnal year ... captured the city Dabigu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-adini · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0856-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Karkamış: Sazabu alındı; Sangara'ya yıllık haraç",
+   "gun": "MÖ 857",
+   "yer": "Sazabu; Karkamış",
+   "d": "I approached the city Sazabu, a fortified city of Sangara, the Carchemishite. I besieged the city, captured (it) ... All of the kings of the land Hatti ... submitted to me ... I received from Sangara, the Carchemishite, two talents of gold ... I imposed upon him as tribute one mina of gold, one talent of silver ... (and) I receive (it) annually.",
+   "kaynak": "R3 A.0.102.2 ii 18b-30a (857 BC) — \"I imposed upon him as tribute ... (and) I receive (it) annually\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=karkamis · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0856-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Patina (Unqi) kralı Qalparunda'ya yıllık haraç",
+   "gun": "MÖ 857",
+   "yer": "Patina/Unqi",
+   "d": "I received from Qalparunda, the Patinean, three talents of gold, 100 talents of silver ... I imposed upon him as annual tribute one talent of silver, two talents of red purple wool, (and) 100 cedar beams · HARAÇ ≠ DEVİR: HARAC-b — 'imposed upon him as ANNUAL tribute' ⇒ v:asur DİLİMİ KANITI",
+   "kaynak": "R3 A.0.102.2 ii 18b-24a (857 BC) — \"I imposed upon him as annual tribute\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=patina · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0856-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Bit-Gabbari (Samal) beyi Haiianu'ya haraç",
+   "gun": "MÖ 857",
+   "yer": "Samal (Bit-Gabbari)",
+   "d": "I received from Haiianu, the man of Bīt-Gabbari, which is at the foot of the Amanus range ... I imposed upon him as tribute ten minas of silver, 100 cedar beams ... (and) I receive (it) annually in my city, Assur. · HARAÇ ≠ DEVİR: HARAC-b — 'I receive (it) ANNUALLY in my city, Assur' ⇒ v:asur DİLİMİ KANITI",
+   "kaynak": "R3 A.0.102.2 ii 24b-27a (857 BC) — \"I imposed upon him as tribute ten minas of silver\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=samal · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 40
+  },
+  {
+   "t": "-0856-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kummuh beyi Qatazilu'ya yıllık haraç",
+   "gun": "MÖ 857",
+   "yer": "Kummuh",
+   "d": "From Qatazilu, the Kummuhite, I receive annually twenty minas of silver (and) 300 cedar beams. · HARAÇ ≠ DEVİR: HARAC-b — 'I receive ANNUALLY' ⇒ v:asur DİLİMİ KANITI",
+   "kaynak": "R3 A.0.102.2 ii 29-30a (857 BC) — \"I receive annually twenty minas of silver\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kummuh · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 50
+  },
+  {
+   "t": "-0855-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Til-Barsip alındı; Kar-Şalmaneser adı verildi; Asurlular yerleştirildi",
+   "gun": "MÖ 856",
+   "yer": "Til-Barsip (Tell Ahmar)",
+   "d": "On the thirteenth day of the month Iyyar, in the eponymy of Aššur-bēla-kaʾʾin, I moved out from Nineveh ... <approached> the city Til-Barsip, the fortified city of Ahunu, the man of Bīt-Adini, (and) captured (it) ... I seized the cities Til-Barsip, Alligu, [Nappigu], (and) Rugulitu as my royal cities. I settled therein Assyrians (and) founded inside palaces as my royal residences. I renamed Til-Barsip as Kar-Shalmaneser",
+   "kaynak": "R3 A.0.102.2 ii 30b-35a (Aššur-bēlu-kaʾʾin = 856 BC, EC) — \"I renamed Til-Barsip as Kar-Shalmaneser\"; A.0.102.14 lines 35b-44: \"In my third regnal year Ahunu ... abandoned the city Til-Barsip\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-adini · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0855-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Pitru ve Mutkinu geri alındı; Asurlular yerleştirildi",
+   "gun": "MÖ 856",
+   "yer": "Pitru; Mutkinu",
+   "d": "At that time the city (Ana)-Assur-utēr-asbat, which the people of the land Hatti call Pitru (and) which is on the River Sagura ... and the city Mutkinu ... — at the time of Assur-rabi (II), king of Assyria, the king of the Aramaeans had taken (these two cities) away by force — these cities I restored. I settled therein Assyrians.",
+   "kaynak": "R3 A.0.102.2 ii 35b-40a (856 BC) — \"these cities I restored. I settled therein Assyrians\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-adini · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0855-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Urartu: Aramu'nun kraliyet kenti Arsaşkun alındı",
+   "gun": "MÖ 856",
+   "yer": "Arsaşkun; Alzu; Suhme; Daienu",
+   "d": "On my return I entered the pass of Alzu (and) captured Alzu, the lands Suhme, Daienu, Tummu, the city Arsaskun, the royal city of Aramu, the Urartian, the land Gilzanu, (and) the city Hubuskia.",
+   "kaynak": "R3 A.0.102.14 lines 35b-44 ('In my third regnal year' = 856 BC) — \"captured ... the city Arsaskun, the royal city of Aramu, the Urartian\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=urartu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0854-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Ahunu Sitamrat'ta yakalanıp Asur'a götürüldü (Bit-Adini sonu)",
+   "gun": "MÖ 855",
+   "yer": "Sitamrat dağı (Fırat kıyısı)",
+   "d": "In a second year, the eponymy of Aššur-bunaiia-uṣur, I went after him ... they came down (and) submitted to me. I took as my own Ahunu with his troops, chariots, cavalry, (and) rich palace property beyond measure ... brought (it) to my city, Assur. I regarded them as people of my land.",
+   "kaynak": "R3 A.0.102.2 ii 66b-75a (Aššur-bunāya-uṣur = 855 BC, EC) — \"I took as my own Ahunu ... I regarded them as people of my land\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-adini · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0854-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Zamua: Nikdera ve Nikdeme kentleri alındı",
+   "gun": "MÖ 855",
+   "yer": "Zamua",
+   "d": "In this same year I crossed Mount Kullar, went down to the interior of the land Zamua, (and) captured the cities of Nikdera, the Idean, and Nikdeme.",
+   "kaynak": "R3 A.0.102.14 lines 50b-52a (Ahunu yılıyla aynı yıl; A.0.102.2 ii 75b-78a de \"In this same year\" diyor) = 855 BC — \"captured the cities of Nikdera\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=zamua · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0853-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Şubria beyi Anhitti haraca bağlandı",
+   "gun": "MÖ 854",
+   "yer": "Kaşiyari; Şubria",
+   "d": "In my fifth regnal year I ascended Mount Kasiiari (and) captured fortified cities. I confined Anhitti, the Subraean, to his city (and) received his rich tribute.",
+   "kaynak": "R3 A.0.102.14 lines 52b-54a ('fifth regnal year' = 854 BC) — \"received his rich tribute\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=subria · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0852-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Balih: Giammu öldürüldü; Sahlala ve Til-şa-turahi'ye girildi",
+   "gun": "MÖ 853",
+   "yer": "Sahlala; Til-şa-turahi (Balih)",
+   "d": "On the fourteenth day of the month Iyyar, in the eponymy of Daiian-Assur ... approached the cities of Giammu on the River Balih ... with their own weapons they killed Giammu, their master. I entered the cities Sahlala and Til-ša-turahi. I took my gods into his palaces",
+   "kaynak": "R3 A.0.102.2 ii 78b-81a (Dayyān-Aššur = 853 BC, EC) — \"I entered the cities Sahlala and Til-ša-turahi\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=balih · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0852-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Halab teslim oldu ve haraç verdi",
+   "gun": "MÖ 853",
+   "yer": "Halab (Halman)",
+   "d": "Moving on from the Euphrates I approached Aleppo (Halman). They were afraid to do battle with me (and) submitted to me. I received their tribute of silver (and) gold · HARAÇ ≠ DEVİR: HARAC-a — Halab sefer yolunda teslim + haraç, bir kez",
+   "kaynak": "R3 A.0.102.2 ii 86b-89a (853 BC) — \"(and) submitted to me. I received their tribute\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=halab · harita_degisimi=AKIN (HARAÇ ⓐ tek seferlik — Halab sefer yolunda teslim + haraç, bir kez) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0852-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hamat'ın Adennu/Parga/Argana kentleri alındı",
+   "gun": "MÖ 853",
+   "yer": "Adennu; Parga; Argana",
+   "d": "Moving on from Aleppo (Halman) I approached cities of Irhulenu, the Hamatite. I captured the cities Adennu, Parga, (and) Argana, his royal cities.",
+   "kaynak": "R3 A.0.102.2 ii 86b-89a (853 BC) — \"I captured the cities Adennu, Parga, (and) Argana\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hamat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0851-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Til-abni (Habinu) ele geçirildi",
+   "gun": "MÖ 852",
+   "yer": "Til-abni",
+   "d": "In my seventh regnal year I marched to the cities of Habinu, the Til-abnian. I captured Til-abni, his fortified city, together with the cities in its environs.",
+   "kaynak": "R3 A.0.102.14 lines 67-72 ('seventh regnal year' = 852 BC) — \"I captured Til-abni, his fortified city\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=til-abni · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0850-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Babil iç savaşına müdahale: Me-Turnat alındı",
+   "gun": "MÖ 851",
+   "yer": "Me-Turnat (Diyala)",
+   "d": "In my eighth regnal year (at the time of) Marduk-zakir-sumi (I), king of Karduniaš, Marduk-bel-usate, his younger brother, rebelled against him (and) they divided the land equally. I marched out to avenge Marduk-zakir-sumi (and) captured the city Me-turnat.",
+   "kaynak": "R3 A.0.102.14 lines 73-76 ('eighth regnal year' = 851 BC) — \"captured the city Me-turnat\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=babil (Orta Babil sonu) · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0849-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kalde kentleri alındı; Kalde kralları haraç verdi",
+   "gun": "MÖ 850",
+   "yer": "Kalde; Gannanate",
+   "d": "In my ninth regnal year, for a second time, I marched to the land Akkad. I surrounded the city Gannanate ... put to the sword Marduk-bel-usate ... I went down to Chaldaea (and) captured their cities. I received tribute from the kings of Chaldaea.",
+   "kaynak": "R3 A.0.102.14 lines 77-84 ('ninth regnal year' = 850 BC; Grayson: \"ninth regnal year (850 BC)\") — \"I went down to Chaldaea (and) captured their cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=kaldu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0848-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Karkamışlı Sangara'nın kentleri alındı",
+   "gun": "MÖ 849",
+   "yer": "Karkamış toprağı",
+   "d": "In my tenth regnal year I crossed the Euphrates for the eighth time. I captured the cities of Sangara, the Carchemishite.",
+   "kaynak": "R3 A.0.102.14 lines 85-86 ('tenth regnal year' = 849 BC) — \"I captured the cities of Sangara, the Carchemishite\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=karkamis · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0848-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Bit-Agusi'nin kraliyet kenti Arne alındı",
+   "gun": "MÖ 849",
+   "yer": "Arne",
+   "d": "I approached the cities of Aramu (and) captured Arne, his royal city, together with one hundred cities (in its environs).",
+   "kaynak": "R3 A.0.102.14 lines 85-86 (849 BC) — \"captured Arne, his royal city\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-agusi · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0847-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hamat'ın 89 kenti alındı",
+   "gun": "MÖ 848",
+   "yer": "Hamat toprağı",
+   "d": "In my eleventh regnal year I crossed the Euphrates for the ninth time. I captured cities without number (and) descended to the cities of the people of Hamat. I captured eighty-nine cities.",
+   "kaynak": "R3 A.0.102.14 lines 87-89a ('eleventh regnal year' = 848 BC) — \"I captured eighty-nine cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hamat · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0843-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Urartulu Aramu'nun kentleri Dicle/Fırat kaynağına dek alındı",
+   "gun": "MÖ 844",
+   "yer": "Dicle-Fırat kaynakları",
+   "d": "In my fifteenth regnal year I marched to the land Nairi ... I entered the pass of Mount Tunibunu (and) captured the cities of Aramu, the Urartian, as far as the source of the Tigris (and) as far as the source of the Euphrates.",
+   "kaynak": "R3 A.0.102.10 iii 26-33a ('fifteenth regnal year' = 844 BC) — \"captured the cities of Aramu, the Urartian\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=urartu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0842-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Namri: Marduk-mudammiq kaçtı; yerine Ianzu atandı",
+   "gun": "MÖ 843",
+   "yer": "Namri",
+   "d": "In my sixteenth regnal year I crossed the River Zab (and) marched to the land Namri. Marduk-mudammiq, king of the land Namri, ran away to save his life. I brought back to Assyria his property, troops, (and) gods. I appointed to the sovereignty over them Ianzu, a man of Bīt-Hanban.",
+   "kaynak": "R3 A.0.102.14 lines 93b-95 ('sixteenth regnal year' = 843 BC) — \"I appointed to the sovereignty over them Ianzu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=namri · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0840-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "İsrail kralı Yehu (Omri hanedanı) haraç verdi",
+   "gun": "MÖ 841",
+   "yer": "Baʾli-raʾsi burnu (Sur karşısı)",
+   "d": "In my eighteenth regnal year I crossed the Euphrates for the sixteenth time. Hazael of Damascus ... I received tribute from Baʾali-manzeri of Tyre (and) from Jehu (Iaú) of the house of Omri (Humri). · HARAÇ ≠ DEVİR: HARAC-a — Yehu haracı, bir kez (sefer)",
+   "kaynak": "R3 A.0.102.10 iii 45b - iv 15a ('eighteenth regnal year' = 841 BC; Grayson: \"eighteenth in 841 BC\") — \"from Jehu (Iaú) of the house of Omri (Humri)\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=israil · harita_degisimi=AKIN (HARAÇ ⓐ tek seferlik — Yehu haracı, bir kez (sefer)) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 10
+  },
+  {
+   "t": "-0840-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Sur kralı Baʾali-manzeri haraç verdi",
+   "gun": "MÖ 841",
+   "yer": "Sur",
+   "d": "I received tribute from Baʾali-manzeri of Tyre (and) from Jehu (Iaú) of the house of Omri (Humri). · HARAÇ ≠ DEVİR: HARAC-c — Sur haracı 841 VE 838'de ⇒ iki sefer mi süreklilik mi ayırt edilemiyor",
+   "kaynak": "R3 A.0.102.10 iv 10-12 (841 BC) — \"I received tribute from Baʾali-manzeri of Tyre\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=sur · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Sur haracı 841 VE 838'de ⇒ iki sefer mi süreklilik mi ayırt edilemiyor) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0838-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Que (Kilikya) kentleri alındı",
+   "gun": "MÖ 839",
+   "yer": "Que (Kilikya)",
+   "d": "In my twentieth regnal year I crossed the Euphrates for the twentieth time (and) went down to the land Que (Qaú). I captured their cities (and) plundered them.",
+   "kaynak": "R3 A.0.102.14 lines 100b-102a ('twentieth regnal year' = 839 BC; EC 839: \"[to Qu]e\") — \"I captured their cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=que · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0837-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hazael'in dört kenti alındı; Sur/Sayda/Gubla haracı",
+   "gun": "MÖ 838",
+   "yer": "Şam toprağı",
+   "d": "In my twenty-first regnal year I crossed the Euphrates for the twenty-first time (and) marched to the cities of Hazael of Damascus. I captured four cities (and) received tribute from the people of the lands Tyre, Sidon, (and) Byblos.",
+   "kaynak": "R3 A.0.102.14 lines 102b-104a ('twenty-first regnal year' = 838 BC) — \"I captured four cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=dimask · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0836-01-01",
+   "k": "vassal",
+   "etiket": [
+    "diplomasi"
+   ],
+   "b": "Tabal'ın 24 kralından armağan alındı",
+   "gun": "MÖ 837",
+   "yer": "Tabal",
+   "d": "In my twenty-second regnal year I crossed the Euphrates for the twenty-second time (and) went down to the land Tabal. At that time I received gifts from twenty-four kings of the land Tabal. · HARAÇ ≠ DEVİR: HARAC-c — Tabal armağanı 837, haracı 836 ⇒ ardışık iki yıl, süreklilik beyanı yok",
+   "kaynak": "R3 A.0.102.14 lines 104b-107a ('twenty-second regnal year' = 837 BC) — \"I received gifts from twenty-four kings of the land Tabal\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=tabal · harita_degisimi=HARAÇ-ÖLÇÜLEMEDİ (ⓒ — Tabal armağanı 837, haracı 836 ⇒ ardışık iki yıl, süreklilik beyanı yok) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0835-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Melidli Lalla'nın Uetas kenti alındı; Tabal haracı",
+   "gun": "MÖ 836",
+   "yer": "Uetas (Melid)",
+   "d": "In my twenty-third regnal year I crossed the Euphrates (and) captured Uetas, the fortified city of Lalla, the Melidite. The kings of the land Tabal came to me (and) I received their tribute.",
+   "kaynak": "R3 A.0.102.14 lines 107b-110a ('twenty-third regnal year' = 836 BC) — \"captured Uetas, the fortified city of Lalla, the Melidite\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=melid · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0834-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Namri kralı Ianzu sürüldü; kaleleri alındı",
+   "gun": "MÖ 835",
+   "yer": "Namri",
+   "d": "In my twenty-fourth regnal year ... went down to the land Namri. Ianzu, king of the land Namri ... ran away to save his life. I captured Sihisalah, Bit-Tamul, Bit-Sakki, (and) Bit-Šedi, his fortified cities ... I uprooted Ianzu, the man of Bīt-Haban, together with his rich property ... (and) brought (them) to Assyria.",
+   "kaynak": "R3 A.0.102.14 lines 110b-126a ('twenty-fourth regnal year' = 835 BC) — \"I uprooted Ianzu\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=namri · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 10
+  },
+  {
+   "t": "-0834-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Parsua'nın 27 kralı haraç verdi",
+   "gun": "MÖ 835",
+   "yer": "Parsua",
+   "d": "Moving on from the land Namri (120) I received tribute from twenty-seven kings of the land Parsua. · HARAÇ ≠ DEVİR: HARAC-a — Parsua 27 kralın haracı, sefer geçişinde bir kez (Parsua 829'da ayrıca fethedildi)",
+   "kaynak": "R3 A.0.102.14 lines 119-120 (835 BC) — \"I received tribute from twenty-seven kings of the land Parsua\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=parsua · harita_degisimi=AKIN (HARAÇ ⓐ tek seferlik — Parsua 27 kralın haracı, sefer geçişinde bir kez (Parsua 829'da ayrıca fethedildi)) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=BİLİNMİYOR (İran — dilim tablosunda yok) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0834-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Harhar ve Med kentleri alındı; Harhar'a heykel dikildi",
+   "gun": "MÖ 835",
+   "yer": "Harhar; Kuakinda",
+   "d": "Moving on from the land Parsua I went down to the lands Mesu, Media (Amadaiia), Arazias, (and) Harhar, (and) captured the cities Kuakinda, Hazzanabi, Esamul, (and) Kinablila ... (125) I erected my royal statue in the city Harhar.",
+   "kaynak": "R3 A.0.102.14 lines 121-125 (835 BC) — \"captured the cities Kuakinda, Hazzanabi, Esamul, (and) Kinablila\" (aynı pasajda kentlerin yıkılıp yakıldığı da yazıyor)",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=medya · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=BİLİNMİYOR (İran — dilim tablosunda yok) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0833-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Bit-Agusi'nin Muru kenti Asur kalesi yapıldı",
+   "gun": "MÖ 834",
+   "yer": "Muru",
+   "d": "Upon my return I took over as a fortress for myself Muru, the fortified city of Aramu, the man of Bīt-Agusi. I rebuilt its gateways (and) founded therein a palace as my royal residence.",
+   "kaynak": "R3 A.0.102.14 lines 126b-131 ('twenty-fifth regnal year' = 834 BC) — \"I took over as a fortress for myself Muru\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=bit-agusi · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 10
+  },
+  {
+   "t": "-0833-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Queli Kate'nin Timur kenti alındı",
+   "gun": "MÖ 834",
+   "yer": "Timur (Que)",
+   "d": "I crossed the Amanus range (and) went down to the cities of Kate, the Quean (Qaú). I besieged (and) captured Timur, his fortified city.",
+   "kaynak": "R3 A.0.102.14 lines 126b-131 (834 BC) — \"I besieged (and) captured Timur, his fortified city\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=que · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0832-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Tanakun teslim; Tarsus'a Kirri kral atandı",
+   "gun": "MÖ 833",
+   "yer": "Tanakun; Tarsus",
+   "d": "In my twenty-sixth regnal year ... I surrounded Tanakun, the fortified city of Tullu ... he came out (and) submitted to me ... I marched to the city Tarsus. (The people) submitted to me ... I appointed Kirri, the brother of Kate, as sovereign over them.",
+   "kaynak": "R3 A.0.102.14 lines 132-141a ('twenty-sixth regnal year' = 833 BC) — \"I appointed Kirri, the brother of Kate, as sovereign over them\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=que · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0830-01-01",
+   "k": "taht",
+   "etiket": [
+    "siyaset"
+   ],
+   "b": "Patina: gaspçı Surri öldü; yerine Sasi atandı",
+   "gun": "MÖ 831",
+   "yer": "Kinalua/Kunulua (Tell Tayinat)",
+   "d": "In my twenty-eighth regnal year ... the people of the land Patinu had killed Lubarna, their lord, (and) appointed Surri, a non-royal person ... Sasi, a man of the land Kurussa, submitted to him* (and) he* appointed (him) to sovereignty over them ... (and) erected (it) in Kinalua (Kunalua), his royal city",
+   "kaynak": "R3 A.0.102.14 lines 146b-156a ('twenty-eighth regnal year' = 831 BC) — \"he* appointed (him) to sovereignty over them\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=patina · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0828-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Masaşuru alındı; Sulusunu'ya vergi; Parsua'nın kalanı fethedildi",
+   "gun": "MÖ 829",
+   "yer": "Masaşuru; Parsua",
+   "d": "He captured Masasuru, his royal city, together with the cities in its environs. He* spared Sulusunu ... He* imposed upon him a tax (and) tribute of teams of horses ... He conquered the cities of the rest of the land Parsua, which was insubmissive to Assur",
+   "kaynak": "R3 A.0.102.14 lines 159b-174a ('thirtieth regnal year' = 829 BC) — \"He conquered the cities of the rest of the land Parsua\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=parsua · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=BİLİNMİYOR (İran — dilim tablosunda yok) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 10
+  },
+  {
+   "t": "-0827-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Musasir'in Zapparia kenti ve 46 kenti alındı",
+   "gun": "MÖ 828",
+   "yer": "Zapparia (Musasir)",
+   "d": "In my thirty-first regnal year ... He* marched to Zapparia, the fortified city of the land Musasir. He captured Zapparia, together with forty-six cities belonging to the people of Musasir.",
+   "kaynak": "R3 A.0.102.14 lines 174b-180 ('thirty-first regnal year' = 828 BC) — \"He captured Zapparia, together with forty-six cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=musasir · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 10
+  },
+  {
+   "t": "-0796-01-01",
+   "k": "fetih",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Hindanu fermanla Rasappa valisi Nergal-eriş'in eyaletine bağlandı",
+   "gun": "MÖ 797",
+   "yer": "Hindanu",
+   "d": "The king swears by god that he has entrusted the land Hin[danu ...] to Nergal-ēriš. [No one] may take (it from him) ... Month of Sivan, twenty-fourth day, [eponymy of] Bēl-tarṣi-ilumma, governor [of Calah].",
+   "kaynak": "R3 A.0.104.9 rev. 19-21a, 34-35 (Bēl-tarṣi-iluma = 797 BC, LV \"[797/796] During the eponymy of Bêl-tarsi-iluma, governor of Kalhu\"; Grayson A.0.104.6 intro: \"in that year Hindanu was added to Nergal-ereš's domain by royal decree (see A.0.104.9)\") — \"he has entrusted the land Hin[danu ...] to Nergal-ēriš\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hindanu · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0881-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Kinabu fethedilip yıkıldı (Hulaiia)",
+   "gun": "MÖ 882",
+   "yer": "Kinabu",
+   "d": "I approached the city Kinabu, the fortified city of Hulaiia ... I besieged (and) conquered the city ... I razed, destroyed, (and) burnt the city.",
+   "kaynak": "R2 A.0.101.1 i 101b-111 (882 BC) — \"I razed, destroyed, (and) burnt the city\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nirbu · harita_degisimi=AKIN (kent fethedildi ama yerle bir edildi; elde tutulduğu belirtilmiyor) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 40
+  },
+  {
+   "t": "-0881-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Tela yakılıp yıkıldı",
+   "gun": "MÖ 882",
+   "yer": "Tela (Nirbu)",
+   "d": "In strife and conflict I besieged (and) conquered the city ... I razed, destroyed, burnt, (and) consumed the city.",
+   "kaynak": "R2 A.0.101.1 i 113-ii 1 (882 BC) — \"I razed, destroyed, burnt, (and) consumed the city\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=nirbu · harita_degisimi=AKIN (yıkım; elde tutma yok) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 50
+  },
+  {
+   "t": "-0852-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Qarqar yakılıp yıkıldı; Qarqar savaşı",
+   "gun": "MÖ 853",
+   "yer": "Qarqar (Asi nehri)",
+   "d": "Moving on from the city Argana I approached the city Qarqar. I razed, destroyed, (and) burned the city Qarqar, his royal city. An alliance had been formed of ... these twelve kings ... I defeated them from the city Qarqar as far as the city Gilzau.",
+   "kaynak": "R3 A.0.102.2 ii 89b-102 (853 BC) — \"I razed, destroyed, (and) burned the city Qarqar\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=hamat · harita_degisimi=AKIN (yıkım + meydan savaşı; toprak el değiştirmedi) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 40
+  },
+  {
+   "t": "-0846-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Paqarhubunu yağmalandı",
+   "gun": "MÖ 847",
+   "yer": "Paqarhubunu",
+   "d": "In my twelfth regnal year I crossed the Euphrates for the tenth time, marched to the land Paqarahubunu, and plundered them (the people).",
+   "kaynak": "R3 A.0.102.14 lines 89b-90a (847 BC) — \"plundered them\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=paqarhubunu · harita_degisimi=AKIN (yalnızca yağma) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0845-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Matiatu yağmalandı",
+   "gun": "MÖ 846",
+   "yer": "Matiatu",
+   "d": "In my thirteenth regnal year I went up to Matietu (and) plundered it.",
+   "kaynak": "R3 A.0.102.14 lines 90b-91a (846 BC) — \"plundered it\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=matiatu · harita_degisimi=AKIN (yalnızca yağma) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim="
+  },
+  {
+   "t": "-0840-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Şam kuşatıldı; Havran kentleri yakıldı",
+   "gun": "MÖ 841",
+   "yer": "Şam; Havran",
+   "d": "I imprisoned him in Damascus, his royal city, cut down his gardens, (and) burned his shocks. I marched to Mount Hauranu (and) razed, destroyed, burned, (and) plundered cities without number.",
+   "kaynak": "R3 A.0.102.10 iii 45b-iv 7 (841 BC) — \"razed, destroyed, burned, (and) plundered cities without number\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=dimask · harita_degisimi=AKIN (kuşatma ve yıkım; Şam alınmadı) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K4 AKDENIZ · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 30
+  },
+  {
+   "t": "-0829-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Habhu kentleri yakılıp yıkıldı",
+   "gun": "MÖ 830",
+   "yer": "Habhu",
+   "d": "In my twenty-ninth regnal year I gave orders (and) sent out (my) army (and) camp. He went up to the land Habhu, razed, destroyed, (and) burned their cities",
+   "kaynak": "R3 A.0.102.14 lines 156b-159a (830 BC) — \"razed, destroyed, (and) burned their cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=habhu · harita_degisimi=AKIN (yalnızca yıkım) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU (konum/dilim DOĞRULANMADI) · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  },
+  {
+   "t": "-0828-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Mannalı Udaku Zirtu'yu terk etti; kentleri yıkıldı",
+   "gun": "MÖ 829",
+   "yer": "Zirtu (Manna)",
+   "d": "Udaku the Mannaean ... abandoned Zirtu, his royal city, (and) ran away to save his life ... He* razed, destroyed, (and) burned his cities.",
+   "kaynak": "R3 A.0.102.14 lines 164-167 (829 BC) — \"He* razed, destroyed, (and) burned his cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=mannai · harita_degisimi=AKIN (yıkım; kent tutulmadı) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=",
+   "gs": 20
+  },
+  {
+   "t": "-0827-01-01",
+   "k": "sefer",
+   "etiket": [
+    "savas"
+   ],
+   "b": "Urartu'nun 50 kenti yakılıp yıkıldı",
+   "gun": "MÖ 828",
+   "yer": "Urartu sınır kaleleri",
+   "d": "He* marched as far as the fortresses of the land of the Urartians (and) razed, destroyed, (and) burned fifty of their cities.",
+   "kaynak": "R3 A.0.102.14 lines 180-181 (828 BC) — \"razed, destroyed, (and) burned fifty of their cities\"",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=urartu · harita_degisimi=AKIN (yalnızca yıkım) · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz",
+   "gs": 20
+  },
+  {
+   "t": "-0772-01-01",
+   "k": "vassal",
+   "etiket": [
+    "toprak-kazanc"
+   ],
+   "b": "Kummuh beyi Uspilulume'ye sınır taşı verildi (Asur himayesi sürüyor)",
+   "gun": "MÖ 773",
+   "yer": "Kummuh (Pazarcık)",
+   "d": "\"On my return (from Damascus) I gave this boundary stone to Uspilulume, king of the Kummuhites.\" (Pazarcık steli arka yüzü, RIMA 3 A.0.105.1; Grayson: \"written in 773 BC\"; eponim kroniği 773 \"to Damascus\") · HARAÇ ≠ DEVİR: HARAC-b — v:asur dilimi KANITI (tanık uzatma, §18); Değişmez 2 ön denetiminde eksik çıktığı için eklendi",
+   "kaynak": "https://archive.org/download/AssyrianRulersOfTheEarlyFirstMillenniumBc858-754Bc/ (RIMA 3 OCR, A.0.105.1) · KAMP-MEZOPOTAMYA-HARAC-UZAT.md",
+   "ic_not_d": "K1 KAMP-MEZOPOTAMYA · polity=yeni-asur · harita_degisimi=EVET · tarih_turu=OLAY · sahip_dilim=K1 MEZOPOTAMYA · atif_dilim=K3 ANADOLU · KAPSAM DIŞI: öteki dilim ATIF yapar, yeniden yazmaz"
+  }
+ ],
+ "olay_disi": [
+  [
+   "uruk-gec-uruk",
+   "Uruk (Geç Uruk dönemi kent-devleti) — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "uruk-gec-uruk",
+   "Uruk (Geç Uruk dönemi kent-devleti) — yıkılış / son",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "uruk-ed",
+   "Uruk (Erken Hanedanlık; Lugalzagesi krallığı) — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "ur-i",
+   "Ur I. Hanedanı — yıkılış",
+   "bulunamadı"
+  ],
+  [
+   "lagas-i",
+   "Lagaş I. Hanedanı (Ur-Nanşe) — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "umma",
+   "Umma (Giša) — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "esnunna",
+   "Eşnunna (bağımsız krallık) — doğuş",
+   "bulunamadı"
+  ],
+  [
+   "babil-i",
+   "Babil I. Hanedanı (Eski Babil) — doğuş",
+   "TARTIŞMALI (1894 ↔ 1"
+  ],
+  [
+   "hana",
+   "Hana Krallığı (Terqa) — yıkılış",
+   "bulunamadı"
+  ],
+  [
+   "kassit-babil",
+   "Kassit Babilonya (Orta Babil) — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "hanigalbat",
+   "Ḫanigalbat (Mitanni artık devleti) — yıkılış",
+   "bulunamadı"
+  ],
+  [
+   "yeni-asur",
+   "Yeni Asur İmparatorluğu — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "elam-avan",
+   "Avan hanedanı (Eski Elam) — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "elam-simaski",
+   "Şimaşki hanedanı — doğuş",
+   "ÖLÇÜLEMEDİ"
+  ],
+  [
+   "elam-simaski",
+   "Şimaşki hanedanı — yıkılış / son",
+   "ÖLÇÜLEMEDİ"
+  ]
+ ]
+}

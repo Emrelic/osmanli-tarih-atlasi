@@ -600,3 +600,25 @@ Okuyucu RIMA 2/3 (Grayson OCR), SAAS 2 eponim listesi + kroniği, RINAP 1 (Tigla
 - `dataset_ici`: 5 POLITY dataset dışı (patina, samal, kummuh, qatnu, bit-zamani; `atif` K3/K4 notta), yalnız suhu içeride.
 - SUZEREN.csv: 20 → **29 satır** (9 yeni dilim; çürütülen 1 satır yerinde).
 - Kapsam dışı kalan: Kummuh'un 708 ilhakı (bu kaynaklarda yok; OLAY-C'de 708 "Kummuhu alındı ve vali atandı" ZATEN var ⇒ kummuh polity sonu oradan okunabilir).
+
+## 19. Araştırma turu kapandı → yazıma hazır çıktı (`KAMP-MEZOPOTAMYA-YAZIM.md`)
+### Koordinatör hükümleri (§18 sonrası)
+- "Ardışık saltanat" birleştirme kuralı **ONAYLANDI**. Şartı uygulandı: her boşluk YILLIK KORUNMUŞLUĞUNA göre etiketlendi (`-SUZEREN-BOSLUK.csv`).
+  - Sam'al'ın 115 YIL'ı = 25 YIL ALEYHTE DELİL + 88 YIL ÖLÇÜLEMEDİ.
+- **KURAL (koordinatör):** ÇÜRÜTÜLEN KAYIT SİLİNMEZ — `ÇÜRÜTÜLDÜ` damgası ve çürüten tanığıyla birlikte kalır. Silinen yanlış iddia bir sonraki turda yeniden türetilir.
+- **📌 DERS: İNKÂR TANIKLARI UCUZDUR VE ARANMAZ.**
+  - 882 metninin tek bir cümlesi ("atalarım zamanında Suhu valisi gelmemişti") İKİ ayrı pozitif iddiayı birden çürüttü: 885 tanığı ve "suhu ≥-911" satırı.
+  - Okuyucular POZİTİF tanık arar. Bir ilişkinin YOKLUĞUNU söyleyen cümle de aynı metinlerde durur ve daha az iş ister.
+
+### Yazıma hazırlık — özet (ayrıntı `-YAZIM.md`)
+- Künye 23 yazılabilir · v: 19 dilim · yerleşim 68 (4'ü mevcut noktaya ek) · olay 240.
+- Ön denetim:
+  - ⓐ kaynaksız 0;
+  - ⓑ 3 km mevcut 6 çift → 4 yerleşim yeni nokta AÇMAZ (Arbela=Erbil, Arrapha=Kerkük, Halab=Halep, Karkamış=Cerablus) + 1 karar (Guzana);
+  - ⓒ 0 (ilk koşudaki 4 kusur ÜRETİCİNİN alt-dizgi eşleyicisiydi);
+  - ⓓ 120 kırılmanın 16'sı kronolojisiz: 13 Babil resmî-yıl ↔ olay-yılı konvansiyonu, 3 tanıklı-aralık sonu YAPISAL;
+  - ⓔ hayalet 8, en ağırı `yeni-asur` (f = 911 DÖNEM ⇒ künye yazılamıyor ⇒ 18 v: dilimi ona bağlı).
+- KRONOLOJİ 254 → 255 KAYIT (MÖ 773 Kummuh, ⓓ'nin bulduğu eksik).
+- **DÖNÜŞÜM UYARISI:** CSV'ler tarihî MÖ yazımında. Yazım ASTRONOMİK yıl ister (MÖ n = −(n−1)).
+  - Dönüşüm YALNIZ üreticide yapılır, CSV'ler değişmedi.
+  - CSV'den elle yazım yapan biri bir yıl kayar ve hiçbir kapı bunu yakalamaz — `gun:` metni çapraz denetimi dışında.
