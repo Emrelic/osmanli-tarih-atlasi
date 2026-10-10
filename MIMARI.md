@@ -450,10 +450,49 @@ en kârlı 20'nin sınıfı:  A 0 · A' 0 · B 6 · C 6 · D(yalnız MS) 5 · bu
 ⇒ 20'nin 14'ü MÖ 2. binyılda YOK
 ```
 
-🔴 **KAPI CÜMLESİ (hüküm, KASA'nın ölçümüyle):**
-> **Anadolu'nun MÖ yoğunluğu, p95'i belirleyen ~70 `kur:`'suz noktanın MÖ
-> tasdik sınıfı ölçülmeden ÖLÇÜLEMEZ. Bugünkü 67-70 km, `kur:` borcunun
-> yarattığı YAPAY bir sayıdır.**
+🔴 **KAPI CÜMLESİ v2 (hüküm — 68 noktanın tamamı ölçüldükten sonra):**
+> **Anadolu MÖ kutusu KAYNAKLA HİÇBİR KESİTTE AÇILMIYOR (439-620 km).
+> Bugünkü 67-70 km yalnız `kur:` yokluğunun ürünüdür.**
+
+```
+TASDİKLİ, TAVO-hariç       MÖ 3000  620,2  ·  2000/1500/1000  483,8  ·  500  438,8
+                           ⇒ HEPSİ KAPALI
+TAVO etiketleri sayılırsa  MÖ 1500-500      207,9 / 186,6 / 170,4   ⇒ SINIR
+147 "etkisiz" nokta da     MÖ her kesit     120-136                 ⇒ AÇ
+   "var" sayılırsa
+```
+⇒ **TAVO kararı kapıyı KAPALI ↔ SINIR arasında oynatıyor, AÇ'a GETİRMİYOR.
+Kutuyu açık tutan TEK ŞEY 147 noktanın ÖLÇÜLMEMİŞ VARLIĞI.**
+
+🔴 **TAVO HÜKMÜ — `provenance: TAVO Index` etiketi `kur:` KAYNAĞI SAYILMAZ:**
+Ölçüldü (KASA): 48 noktanın bütün `A/A'/B` etiketleri Pleiades kaydının
+**ANTİK adından değil, MODERN ad girdisinden** geliyor.
+```
+"Konya"  GANE 34400 → MÖ 9000      "Mersin" GANE 39799 → MÖ 6000
+"Bolu" · "Samsun" · "Burdur" · "Manisa" · "Erzincan" → MÖ 1750
+Burdur'un Barrington adı [Praetoria] YALNIZ late-antique
+Mersin'in MÖ 6000'i büyük olasılıkla AYRI BİR HÖYÜK (Yumuktepe)
+```
+⇒ Etiket **modern ada** bağlı ve **hangi nesneyi tarihlediği belirsiz** ⇒
+`HUKUM §6.2`nin (tanık yanlış nesneyi ölçüyor) **ETİKET yüzü**, ve `§9.4`ün
+(etiket kapsamdan gelir) kardeşi.
+⚠️ **VE BU KARAR BİRİNCİ TURU DA ÇÜRÜTTÜ** (KASA kendi ölçümünü düzeltti):
+Ankara · Kayseri · Sivas · Sinop · Antalya **B → C** · Erzurum **B → D** ·
+Bitlis · Diyarbakır **C → D**.
+⇒ **68 noktanın tamamı: B 1 · C 36 · D 13 · bulunamadı 18.** TAVO dışında
+tanığı olan **TEK nokta Konya** (OSM Alaaddin Tepesi, 2nd-millennium-bce, 0,1 km).
+
+🔴 **`D` ≠ "YOKTU" — sınıf İKİYE AYRILIR** (`§3`ün üç kodunun sınıflamaya
+uygulanması: *ölçülemedi ≠ yok*):
+```
+D-yok          MÖ tasdiki yok VE var olduğunu düşündürecek sebep de yok
+               ⇒ kur: = en erken tasdik, MÖ sahnesinden ÇIKAR
+D-ölçülemedi   MÖ'de BİLİNEN yer ama Pleiades'te TAVO-dışı MÖ etiketi yok
+               ⇒ kur: YAZILMAZ, ikinci tanık aranır
+               ör. Diyarbakır (Amida/Amedi) · Van (Ṭušpa)
+```
+📌 İkisini tek kovaya atmak, bilinen bir şehri "yoktu" diye sahneden
+çıkarırdı — ve o, `kur:` borcunu ödemek değil **yeni bir hata yazmak** olurdu.
 
 Niçin: aynı kutu, aynı gün, **üç ayrı p95** veriyor —
 | varsayım | p95 | hüküm |
