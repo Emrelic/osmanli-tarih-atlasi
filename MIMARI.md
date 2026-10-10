@@ -428,6 +428,55 @@ ve cevabı **AÇ** tarafında açık.
 
 🔴 **VE BU KUTU MÖ'Yİ AÇMIYOR — yalnız kutunun YOĞUNLUK şartını açıyor.**
 
+### 5.1b 🆕 🔴 ANADOLU KUTUSU — resmî tanım, ve bugünkü p95 YAPAY
+
+```
+ANADOLU KUTUSU   TR-Asya ∩ veri-kaynak/motor_kara.geojson   (TRAKYA HARİÇ)
+                 31.090 hücre · atlas noktası 218
+```
+🔴 **Dikdörtgen tanım REDDEDİLDİ.** Bir enlem/boylam dikdörtgeni Trakya'yı
+(Edirne · İstanbul), Ege adalarını ve sınır ötesi noktaları içine alıyor —
+onlar **komşu kutulara** ait. Ölçüldü: dikdörtgen 316 nokta, TR-Asya 215;
+ortak 207 · yalnız dikdörtgen **109** · yalnız TR-Asya 8. O 109 nokta
+kaybolmuyor, **başka kutudadır** (`D220`: kapsam kademeli açılır).
+Maske `motor_kara` — Sümer kutusundaki hükmün aynısı: *ölçüm, motorun
+gördüğü karada yapılır.*
+
+**`kur:` BORCU — Sümer'den ÇOK daha büyük:**
+```
+atlas noktası 218  ·  kur: VAR 3  ·  kur: YOK 215   = %98,6
+215'in 68'i MÖ 3000'de p95'i DEĞİŞTİRİYOR
+en kârlı 20'nin sınıfı:  A 0 · A' 0 · B 6 · C 6 · D(yalnız MS) 5 · bulunamadı 3
+⇒ 20'nin 14'ü MÖ 2. binyılda YOK
+```
+
+🔴 **KAPI CÜMLESİ (hüküm, KASA'nın ölçümüyle):**
+> **Anadolu'nun MÖ yoğunluğu, p95'i belirleyen ~70 `kur:`'suz noktanın MÖ
+> tasdik sınıfı ölçülmeden ÖLÇÜLEMEZ. Bugünkü 67-70 km, `kur:` borcunun
+> yarattığı YAPAY bir sayıdır.**
+
+Niçin: aynı kutu, aynı gün, **üç ayrı p95** veriyor —
+| varsayım | p95 | hüküm |
+|---|---|---|
+| motor bugünkü hâliyle (215 `kur:`'suz sahnede) | **67 km** | AÇ |
+| yalnız KAYNAKLI noktalar | **620 km** | KAPALI |
+| kalan 195 "var" sayılırsa | **105 km** | AÇ |
+⇒ Kapı **iki tarafına da** düşüyor ve fark bir ölçüm farkı DEĞİL:
+**195 noktanın ölçülmemiş varlığı.**
+🔴 Ve YÖN BELLİ: en kârlı 20'de **hiç A sınıfı yok** ⇒ borç ödendikçe
+**p95 YUKARI gider** (kötüleşir). Yani bugünkü "AÇ" hükmü borcun
+gizlediği bir rahatlık.
+📌 **Daha KÖTÜ ama DOĞRU bir p95, daha iyi ama YAPAY olandan yeğdir** — ve
+`§5`in *"var olmayan nokta yoğunluk sayılmaz"* kuralı tam bunu emreder.
+
+⚠️ **AMA 150 km EŞİĞİNİN TÜRETİMİ BUNDAN ETKİLENMEZ** — karıştırılmasın:
+eşik, Anadolu/Balkan'ın **1281-1923 penceresindeki** p95'inden (63-70 km,
+642 yıl sabit) türetildi ve o pencerede o noktalar **gerçekten vardı**
+(ortaçağ/Osmanlı şehirleri). Bozulan şey eşik değil, **MÖ penceresindeki
+Anadolu ölçümü.**
+
+---
+
 ### 5.2 🆕 🔴 ÜÇ KAPI AYRI — `§6`nın sırası SAHİPLİĞİ saymıyordu
 
 `§6` *"dizin katmanı → yerleşim yoğunluğu → harita penceresi"* diyor. Ölçüldü
