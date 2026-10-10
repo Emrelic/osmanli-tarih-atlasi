@@ -153,6 +153,21 @@ denetim/_kaynak_denetim_*.json
 oturumlar/.bekci_son_*
 oturumlar/tahta.json.yeni.*
 
+# 🔴 TAHTA SUNUCUSUNUN CALISMA ZAMANI DOSYALARI (LAB olctu, 10 Ekim 2026).
+# Ikisi de MAKINEYE OZEL durum tasir ve commitlenirse YALAN soyler —
+# `tahta_bekci` damgasinin (yukarida) birebir ayni sinifi:
+#   tahta.json.sunucu  KILIT: hangi surec/makine tahtanin tek yazicisi.
+#                      Baska bir makinede bayat bir kilit "sunucu ayakta"
+#                      yalanini soyler ve ikinci bir yazici dogar ⇒ numara
+#                      cakismasi, yani sunucunun ONLEMEK ICIN kuruldugu kusur.
+#   tahta_sunucu.log   her istegi (kim · ne zaman · hangi IP) kaydeder.
+#                      Depoya girmesi gereksiz ve gurultulu; LAB gunlugu
+#                      zaten repo DISINDA tutuyor (C:\lab-araclar\tahta\).
+# ⚠️ Ikisi de BUGUN takipsiz; bu satirlar GELECEK bir commit'i onluyor.
+# `git add -A` kancayla yasak ama pathspec'li bir commit de onlari yakalar.
+oturumlar/tahta.json.sunucu
+oturumlar/tahta_sunucu.log
+
 # ── denetim/ ara dosyaları ───────────────────────────────────────────
 # `_commit_msg_*` · `_tahta_mesaj_*` · `_govde*` dökümleri: yazılan
 # metin zaten commit mesajında ya da tahtada duruyor, bu kopyalar onun
