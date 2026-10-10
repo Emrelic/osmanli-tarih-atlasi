@@ -1,0 +1,13 @@
+diff --git a/data/yerlesimler.js b/data/yerlesimler.js
+index 413ab7b34..78e5563a4 100644
+--- a/data/yerlesimler.js
++++ b/data/yerlesimler.js
+@@ -1693,7 +1693,7 @@ window.YERLESIMLER = [
+ { ad:"Mayorka (Palma)", tur:"liman", lat:39.570, lon:2.650, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}] },
+ { ad:"Menorka (Mahon)", tur:"liman", lat:39.890, lon:4.260, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1708-09-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."},{f:"1708-09-29",t:"1802-03-25",d:"ingiltere"},{f:"1802-03-25",t:"1923-10-29",d:"ispanya"}] },
+ { ad:"İbiza", tur:"liman", lat:38.910, lon:1.430, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}] },
+-{ ad:"Pantelerya", tur:"kale", lat:36.792, lon:11.990, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
++{ ad:"Pantelerya", tur:"kale", lat:36.8315, lon:11.9450, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
+ // HAYALET-KUNYE-1008 · Elba: EB1911 c.9 s.177-178 «In 1548 it was ceded by them to Cosimo I.» · «In 1802 the island
+ //   was given to France by the peace of Amiens.» (yıl → 01-01) · Napolyon «from the 5th of May 1814 to the 26th of
+ //   February 1815» egemen — künye YOK ⇒ __BOSLUK__ BEYANI (1815-06-09'a dek: dönüş günü kaynakta yok) · Toskana'ya
