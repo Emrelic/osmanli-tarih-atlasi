@@ -79,18 +79,67 @@ sınır işareti, ve 1419 kayıtta bir KAYNAK GİBİ yazılmış."* Ölçen otur
 Ⓑ zincirin ilk halkası ZATEN en zor halkadır (en eski dönem, en ince kaynak)
 ```
 Veri **Ⓐ ile uyumlu** ama Ⓑ'yi dışlamıyor ⇒ sebep **HİPOTEZ**tir.
-⚠️ Ve kontrol grubunun boş olmasının bir kısmı veri değil **EVREN SEÇİMİ**:
-ölçüm evreni `girdi.VERI_UFKU` (1281-01-01..1923-10-29) ve pencere 1281'den
-önceyi **zaten dışlıyor.** Ayrıştırılamazlık iki kere geçerli.
+### §3b AYIRT EDİCİ ÖLÇÜM KOŞTU — ve İKİ HÜKMÜ DÜZELTTİ
+(`KAYNAKSIZ-1281-KONTROL-1010`, yalnız sayım, kaynak okuma yok, ham `f`)
+```
+kaynaksız                      1412/1419 = %99,5
+kayıt-düzeyi kaynaklı            664/687 = %96,7
+donem_ici                        366/417 = %87,8
+ilk halkası KENDİSİ kaynaklı     134/214 = %62,6   ← BURADA kırılıyor
+bütün veride s: dönemi 14.599 · f<1281 olan 143
+```
+⇒ Kaynak **tam o halka için** eldeyse, **%37'si 1281'den önceki gerçek
+başlangıcı yazmış.** Gradyan GERÇEK: `1281-01-01`, büyük ölçüde *"ilk halkanın
+BAŞLANGICI bilinmiyor"* değeridir.
 
-**AYIRT EDİCİ ÖLÇÜM (koşuyor):** ilk halkası **KAYNAKLI** olan kayıtlarda
-(`donem_ici` 460), `f:` kaç tanesinde tam `1281-01-01`?
+🔴 **AMA BU, SEBEBİ YİNE AYIRMIYOR — ve ölçen oturum niçin olduğunu söyledi:**
+> *"Bu, bir sınır işaretinin **MEŞRU** kullanımı (`D210`) ve **SAHİP**
+> yanlışlığı hakkında bir şey söylemiyor. İki turun ölçtüğü hatalar SAHİP
+> hatasıydı (Aydın↔Menteşe, Muhâ↔Resûlî…)."*
 ```
-kaynaklılarda da ~%100 → yoğunlaşma kaynak sorunu DEĞİL, veri YAPISI (ufuk tabanı)
-kaynaklılarda DAĞINIK → kaynaksızların %100'lük yığılması GERÇEKTEN anormal ⇒ Ⓐ
+1281-01-01 yığılması → BAŞLANGIÇ TARİHİ bilinmiyor → sınır işaretinin MEŞRU kullanımı
+%39'luk yanlışlık    → SAHİP yanlış                → AYRI kusur sınıfı
 ```
-📌 Bu tek sayı bir örneklemden **önce** gelir ve bedavadır (sayım, kaynak
-okuma yok). *Kararı değiştiremeyecek ölçüm yapılmaz — bu değiştiriyor.*
+📌 **Koordinatörün hipotezinin bu ölçümle sınanabilir sanılmasının sebebi tam
+bu karışıklıktı:** bir yerin başlangıç tarihini bilmemek, **sahibini yanlış
+bilmek değildir.** ⇒ Ayrıştırılamazlık SÜRÜYOR, ama artık NİÇİN sürdüğü de
+ölçülmüş durumda.
+
+### §3c HİPOTEZİN TEK DOĞRUDAN KANITI — **14 KESİK DEVİR**
+```
+14 kayıtta 1281-01-01'de BİTEN dönem, AYNI GÜN BAŞKA SAHİPLE sürüyor:
+  11'i Selçuklu→İlhanlı — Kayseri · Tokat · Sivas · Van · Kırşehir · Erzincan
+                           Erzurum · Bitlis · Elbistan · Kemah · Bayburt
+  Sinop Selçuklu→Pervâne · Çankırı Selçuklu→Çobanoğulları · Ankara Selçuklu→Ahiler
+  (kaynaksız 7 · donem_ici 3 · kayıt-kaynaklı 4) — hepsi ANADOLU
+```
+🔴 **1 Ocak 1281'de böyle bir devir YOK.** ⇒ Sınır işaretinin bir **OLAY gibi
+yazıldığı** somut vaka. *"En güçlü ama küçük"*: 14, 1419 değil — ama o 14'ü
+**uydurma bir egemenlik devri**, ve 1419'un hiçbirinde olmayan bir şey.
+⚠️ Ve bu 14 kırılma `Değişmez 2`nin evreninde: her `d:` kırılması ±30 gün
+içinde kronoloji maddesi ister. **Maddeleri varsa, hata BELGELENMİŞ görünüyor
+demektir** — ve o, belgelenmemiş bir hatadan kötüdür. Sayım sırada.
+
+### §3d İKİ DÜZELTME — biri ölçenin, biri KOORDİNATÖRÜN
+**(a) Ölçenin kendi düzeltmesi:** *"veride hiçbir `s:` dönemi 1281'den önce
+başlamıyor"* **YANLIŞ — 143 dönem başlıyor.** Doğru dar cümle: *1419 kaydın
+pencere-içi 1281 halkalarının hepsinde `f` tam `1281-01-01`.*
+**(b) 🔴 KOORDİNATÖRÜN:** *"kontrol grubunun boşluğu kısmen EVREN SEÇİMİNİN
+artefaktı"* açıklaması **İSABETLİ DEĞİL.** Ölçüm **ham `f`** okudu; sıfırın
+sebebi pencere kırpması değil **KESİLME** — 1281 öncesi ilk halkalar tam
+`1281-01-01`de BİTİYOR ve yeni dönem o gün başlıyor.
+📌 *Kırpılmış* ile *kesilmiş* arasındaki fark küçük görünür, hüküm değiştirir:
+**kırpılma ÖLÇÜM EVRENİNİN eseridir, kesilme VERİDE YAZILIDIR** — ve ikincisi
+düzeltilebilir. Koordinatörün açıklaması kusuru ölçüm aracına atıyordu;
+ölçüm onu veriye koydu.
+
+### §3e VE ÖRNEKLEM REDDEDİLDİ — gerekçesi DÖNGÜSELLİK
+Ölçen oturum üçüncü bir örneklem **önermedi** ve sebebi sağlam: ayırmak için
+*kaynaklı ilk halkaların **sahip**-yanlışlık oranı* da ölçülmeliydi; o ayrı ve
+pahalı bir iş, **ve seçim DÖNGÜSEL** — kaynaklı olanları seçip *"kaynak varsa
+daha doğru mu"* diye sormak, **seçim ölçütünü sonuç sanmaktır.**
+⇒ *Kararı değiştiremeyecek ölçüm yapılmaz* kuralı burada **ölçüm yapmamayı**
+emretti. Kuralı koordinatör yazmıştı; işçi onu koordinatöre geri uyguladı.
 
 ## §4 Düzeltmenin kendisi ders
 
