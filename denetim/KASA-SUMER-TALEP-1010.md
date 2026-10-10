@@ -158,3 +158,24 @@ d) **Künye önerisi 12 + toplu ED kaydı** — `devletler.js` senin; ön koşul
    NEGATIF-YIL-A2) inmesi.
 e) **`bit:` adayları:** Uruk (MS 4. yy) · Şuruppak (~2000) · Umma ve Lagaş (Eski Babil sonrası) · Girsu'nun GEÇ yeniden
    yerleşimi (ters yön: atlas erken bitiriyor).
+
+## 3. EK — Hursagkalama = Kiş mi? (koordinatörün ÖLÇÜTÜ, sıra ②)
+Ölçüt (koordinatör): *"tanık, KAYNAĞIN KENDİSİ ikisini tek yerleşim sayıyorsa geçer. RlA'nın `Kiš` maddesi Hursagkalama'yı
+KAPSIYOR mu, yoksa AYRI maddesi var mı?"*
+- **İkisi birden doğru — ve ölçüt ayırıyor:**
+  - AYRI madde VAR: RlA 4 "Ḫursagkalama A. Philologisch" (Edzard, s.519-520) ve "B. Archäologisch" (Gibson, s.521).
+  - AMA `Kiš` maddesi Hursagkalama'yı **Kiş'in PARÇASI** olarak anlatıyor — Gibson, RlA 5 "Kiš B" s.619 (görüntü 5.656,
+    **KENDİM okudum, birebir**): *"Both parts of Kiš continued into the Achaemenid Period, although Ḫursagkalama was
+    clearly the dominant half. Many economic texts found at Mound W are dated by reference to Achaemenid kings."* · aynı
+    madde s.615: *"In the Neo-Bab. and Achaemenid eras, Ḫursagkalama seems to have been the major focus of occupation,
+    with Mound W as the main living area."*
+- ⇒ **Ölçüt GEÇİYOR:** kaynağın kendisi (Kiš maddesi) ikisini "Kiš'in iki yarısı" diye TEK yerleşim sayıyor. Ayrı
+  Hursagkalama maddesinin varlığı bunu bozmaz: o madde tapınak/kült adının filolojisini ve Ingarra kazısını anlatıyor.
+- ⇒ **Kiş 8 ve Kiş 9'un ahameni tanığı `kaynak:`a girer**, ama `kaynak:`ın kendisi OECT 10 tabletleri ("Written in:
+  Hursagkalama") DEĞİL, **Gibson RlA 5 s.619'un cümlesi** olmalı; OECT 10 tabletleri (Cyrus 8 · Xerxes 7 · Artaxerxes 34)
+  onun tarih desteği olarak `ic_not`a.
+- **Mesafe (geometri argümanı, tanıklıktan AYRI):** ÖLÇÜLEMEDİ — Pleiades araması Kiş/Ingharra kaydını vermedi (yerel
+  döküm başka bir alt küme); atlas Kiş noktası 32.5461 / 44.5932 (Tell Uhaimir). Ingharra koordinatı kaynakla
+  alınmadan mesafe yazılmadı.
+- **Yan bulgu (VARLIK, aynı sayfa):** *"Since, with the Islamic Period, both Uḫaimir and Inġarra were not occupied, Kiš in
+  effect ceased to exist."* ⇒ Kiş `bit:` ≈ İslâm dönemi başı (~MS 640, YÜZYIL) — atlasın Kiş penceresiyle karşılaştırılmalı.
