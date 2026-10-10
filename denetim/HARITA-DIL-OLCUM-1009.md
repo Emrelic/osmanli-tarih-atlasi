@@ -880,3 +880,73 @@ son sütun: en çok gömüldüğü gün komşuları ve kapsamları.
 | karakoyunlu | 39.206, 42.177 | Turkey | 1467-01-01 → 1469-01-01 | 3 | 21 | 1.2 | SERIT | 0.00/0.91/0.53 | akkoyunlu:0.95 |
 | safevi | 39.207, 42.177 | Turkey | 1518-01-01 → 1548-08-24 | 13 | 21 | 1.2 | SERIT | 0.00/0.92/0.53 | OSMANLI:1.00 |
 | altinorda | 48.308, 24.562 | Ukraine | 1281-01-01 → 1359-01-01 | 5 | 21 | 0.7 | KAMA | 0.00/0.66/0.37 | polonya-erken:0.89,macaristan:0.89 |
+
+---
+
+## 8. EK (10 Ekim) — C3'ün KODU okundu: `Y` ve `G0`ya dokunuyor mu?
+
+Okunan: `origin/makine/umit:denetim/C3-YURUYUS-SUZGEC-1009.diff` (commit `3715d4d5`, tur 5, UYGULANMADI).
+`arac/` donuk — YALNIZ OKUNDU, motor koşturulmadı, süzgeç bu haritaya UYGULANMADI.
+
+### 8.1 Önce bir DÜZELTME — iki ifadem yanlış okunabilirdi, biri BENİM hatam
+1. **Elle denetimin yönü:** otomatik (a) kovasından çizilen 28 dilin **23'ü DİŞ** (artefakt) çıktı,
+   gerçek coğrafya DEĞİL. Yani otomatik (a) kovası **büyük ölçüde artefakt**; gerçek (a) = 1 kesin + 4 makul.
+   "601 yalnız ÜST SINIR" bu demek: gerçek koridor sayısı 601'den ÇOK AZ.
+2. 🔴 **KAMA/ŞERİT, su/komşu ölçüsü DEĞİLDİR — teslim mesajımda ikisini eşitledim, bu BENİM hatam.**
+   KAMA/ŞERİT yalnız BİÇİMDİR (dik kesit eni %20 ↔ %80 oranı). Su payıyla bağımsız:
+   ```
+   b-dis (iki yan kara)   ŞERİT 392 · KAMA 498
+   a-kiyi (bir yan su)    ŞERİT 219 · KAMA 261
+   ```
+   ⇒ "C3 yalnız KAMA'yı yesin" ≠ "bir yanı su olan korunsun". Ve KAMA/ŞERİT çıktı poligonunda
+   ölçülen bir sonradan-ölçüdür; **C3 ızgarada çalışır, poligon biçimini GÖREMEZ** — yama bu ölçüyle yazılamaz.
+
+### 8.2 C3 ne yapıyor (koddan, satır anlamıyla)
+- Nesne: `_YR_SAHIP` — **YERLEŞİM indisi** etiketli, **GÜNDEN BAĞIMSIZ** yürüyüş ızgarası (`KV_ADIM = 0,05°`).
+  ⇒ C3'ün "komşu sahibi" **başka bir YERLEŞİM**dir, başka bir DEVLET değil. Aynı devletin iki yerleşimi
+  arasında da çalışır (o gün görünmez); farklı devletlerde sahiplik değişir. **Benim ölçtüğüm nesne
+  (o günün DEVLET gövdesi) ile C3'ün nesnesi bire bir eşleşmez.**
+- Bir hücre yalnız beşi birden tutarsa çevrilir: ① geçerli (etiket ≥ 0) ② tohum değil
+  ③ İNCE (kendi etiketinin hiçbir 3×3 tekdüze penceresinde değil ⇒ ≤ 2 hücre en)
+  ④ 8 komşudan **≥ 5'i TEK bir başka yerleşim**; **deniz, maske dışı, erişilmemiş (< 0) ve boğaz-yasaklı komşu OY VERMEZ**
+  ⑤ basit nokta (kendi komşuları halkada ≤ 1 dizi — bölgeyi bölemez). En çok 5 tur.
+
+### 8.3 CEVAP
+**`Y` (iki yanı su, 7.604) — HAYIR, yapısal olarak dokunamaz.** Oy verebilen komşu en çok
+8 − (su komşusu) tanedir. ≥ 4 su komşusu olan hücrede 5'lik çoğunluk İMKÂNSIZ; 3 su komşusu
+olan hücre ancak kalan 5 komşunun 5'i de aynı başka yerleşimse çevrilir (kıyıda tek başına
+kalmış yabancı hücre — dil değil). İki yanı su olan 1-2 hücrelik bir dilin her hücresinde
+≥ 3, çoğunda ≥ 4-6 su komşusu vardır ⇒ **korunur.**
+
+**Bir yanı su + öbür yanı komşu (`a-kiyi-seridi`, Alaska tipi) — büyük ölçüde HAYIR, aynı sebeple.**
+1 enli kıyı şeridinin orta hücresi: 3 su + 2 kendi + 3 komşu ⇒ komşu 3 < 5 ⇒ çevrilmez.
+Uç hücresi: 3 su + 1 kendi + 4 komşu ⇒ 4 < 5 ⇒ çevrilmez. ⇒ Koordinatörün "bir yanı su
+korunsun" istediği daraltma **kodda ZATEN VAR (④ "deniz oy vermez")** — yeni yama gerekmez.
+⚠️ Ölçülmedi: fiyortlu kıyıda (Alaska) ızgaranın kara maskesi suyu her hücrede görüyor mu —
+0,05°'lik hücre dar fiyordu KARA sayabilir; o zaman o hücrenin su komşusu yoktur.
+
+**`G0` (komşu gövdeye < %50 değen, 3.598) — KISMEN, ölçülemedi.** Benim G0'ım "o gün başka
+DEVLET gövdesine değmiyor" demek. Öbür yan şunlardan biri olabilir:
+- deniz/maske dışı/erişilmemiş (< 0) → oy vermez → **korunur** (`Y` gibi)
+- sahipsiz ya da `__BOSLUK__` yerleşimlerin hücresi (etiket ≥ 0) → **OY VERİR → yenebilir**
+- AYNI devletin başka yerleşimi → oy verir → yenebilir ama devlet haritasında GÖRÜNMEZ
+Hangisinin hangi G0 kaydında olduğu, devlet gövdesinden okunamaz — ızgara gerekir.
+
+**İki yanı kara (gömülü 1.693'ün `a-nehir` 121 · `b-dis` 890 · `c` 202 kısmı) — EVET, ama yalnız UÇTAN.**
+⑤ (basit nokta) iki gövdeyi bağlayan 1 enli BOYNU korur; yalnız **ölü uçlu** dil ucundan yenir,
+5 turda en çok ~9 hücre (~40 km). ⇒ Gerçek bir nehir vadisi koridoru **iki ucu da bir gövdeye
+bağlıysa yenmez**; ölü uçlu bir vadi (Timurlu-Menderes tipi) ucundan kısalır.
+
+### 8.4 Ölçümümün C3 için SINIRI
+- Benim dillerimin bir kısmı yürüyüş ızgarasından DOĞMUYOR ⇒ C3 onlara hiç dokunamaz:
+  Slovakya'daki 132 km × 0,29 km kılcal şerit (iki gövdenin çakışık kenarı — poligon katmanı),
+  kıyı maskesiyle kesilen yarımadalar, poligon onarımı (`make_valid`) bileşenleri.
+- C3'ün asıl etkisini ÖLÇMENİN tek yolu: süzgeçli ve süzgeçsiz iki `_YR_SAHIP` farkı (`_dis_D`)
+  — koşunun kendi logu bunu basıyor (`🦷 DİŞ SÜZGECİ: değişen hücre …`). Benim listem o farkın
+  **adaylarının** devlet-katmanı envanteridir, C3'ün çıktısı değil.
+
+### 8.5 Öneri (karar koordinatörde)
+① "Yalnız KAMA" daraltması **yazılamaz** (8.1-2) ve kıyı tarafı için **gerekmez** (8.3, ④ zaten koruyor).
+② Kalan gerçek risk: **ölü uçlu iç koridor** (iki yanı kara). Bunun için C3'ü değiştirmek yerine,
+C3 koşusunda `_dis_D`yi **benim 5 (a) kaydımın penceresinde** saymak yeter — sıfırsa risk kapanır,
+değilse adıyla görünür. Bu bir log satırı ister (`_dis_pen` zaten var: Sivas/Iğdır gibi 5 pencere daha).
