@@ -667,6 +667,37 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
   Koordinatörün ekranına `send_message` YAZILMAZ; satır satır mesaj atılmaz, bir teslim
   TEK mesajdır (tahta çalışmıyorsa ⑤b istisnası geçerli).
 - **KOORDİNATÖR** iş YAPMAZ, dağıtır — bağlamını uygulama işiyle doldurmaz.
+  🆕 🔴 **AMA BU KURALIN BİR BEDELİ VAR VE 10 EKİM GECESİ ÖLÇÜLDÜ: KOORDİNATÖR
+  OLGU HAKKINDA HÜKÜM VERMEZ, OLGUYU ÖLÇTÜRÜR.**
+```
+  HÜKÜM koordinatörün:   ÖNCELİK · SIRA · KAPSAM · RİSK · kaynak paylaşımı ·
+                         bir işin YAPILIP YAPILMAYACAĞI
+  ÖLÇÜM işçinin:         ALAN ADI · ŞEMA ANLAMI · KOD DAVRANIŞI · DOSYA
+                         İÇERİĞİ · SAYILAR — bunlar bir DOSYADA yaşar
+```
+  ⚠️ *"Bağlamını doldurmaz"* kuralı koordinatörü `VERI-YAPISI.md`yi okumaktan
+  alıkoyar — **ve o gece bu, YEDİ yanlış hükme yol açtı.** Ölçülen vakalar:
+```
+  v: alanını "vassal" diye okudum  → VERI-YAPISI: v = OSMANLI'YA GÖRE tâbi
+     ⇒ Madrid · Sevilla · Córdoba · Oviedo · Görice · Hama · Alaşehir ·
+       Dubrovnik hükümlerim hepsini OSMANLI TÂBİSİ çizdirecekti
+  Jülyen çevirisini ONAYLADIM          → VERI-YAPISI §TAKVİM: "ÇEVİRME YAPILMAZ"
+     ⇒ ve kendi "ters dilim" alarmım o çevirinin ARTEFAKTIydı
+  ic_not alan adı ezberden             → künyelerde `ic_not_f/_t/_b` var
+  §8'i künye penceresine uyguladım     → §8 YERLEŞİM dönemleri içindir
+  "iki zincir betiğini de koşturma"    → --yayinlama kipi KORUMALI
+  §9.1 ③ "hiçbir ağaçta"               → donan, KOŞUNUN OKUDUĞU ağaç
+  "scratchpad = kendi dizinin"         → scratchpad OTURUM başına
+```
+  🔴 **ÇÖZÜM "koordinatör her şeyi okusun" DEĞİL** (o zaman rol çöker):
+  > **Bir olgu bir DOSYADA yaşıyorsa, koordinatör onu HÜKÜM DEĞİL SORU
+  > yapar.** *"`v:` ne demek"* bir hüküm değil bir ölçümdür; cevabı şemada
+  > durur ve bir işçi onu bir satırda verir.
+  📌 Ve tersi de doğru: **işçi ÖNCELİK ve SIRA hükmü vermez** — onun ölçümü
+  *"hangisi uygulanabilir"*, kararı *"hangisi inecek"* değil.
+  ⚠️ Yedi vakanın yedisini de bir işçinin ölçümü yakaladı. Yani çember
+  ÇALIŞTI — ama her biri bir TUR maliyet, ve biri (`v:`) yayına kadar
+  gidebilirdi.
 - **OTURUM SEÇİMİ:** doğruluk > tasarruf > hız · doğruluktan hiçbir şey için taviz yok.
   Tecrübeli/emekli oturum yalnız işin doğrudan devamıysa ve doğruluk kazancı varsa.
   Alakasız dolu işçiye iş VERİLMEZ. **Maliyet ≈ bağlam × tur** — tur başına
