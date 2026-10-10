@@ -37,3 +37,24 @@
    Önce jeton güvenli kanaldan dağıtılmalı ve `tahta_sunucu` alanı dört makinede LAB'ı göstermeli.
 2. ⓒ için LAB'da yönetici yetkisiyle gelen kural kontrolü/ekleme — Emre'nin onayı gerekir (sistem ayarı).
 3. `oturumlar/tahta.json.sunucu` ve `oturumlar/tahta_sunucu.log` `.gitignore`a.
+
+## §EK — 10 Ekim 18:20: jeton döndürüldü, sunucu yeniden başladı, Taildrop (jeton bu dosyada YOK)
+- Sunucu ağacı `C:\atlas-tahta` → `origin/main` **fd56b9056**'ya ff. Sunucunun OKUDUĞU ayar: `C:\atlas-tahta\oturumlar\ag.json`
+  (`tahta_sunucu.py:115-116` `KOK/oturumlar/ag.json`, KOK = `C:\atlas-tahta`) — `ag_ayarla.py --yol` ile aynı dosya.
+- `py arac/ag_ayarla.py --uret --yol C:\atlas-tahta\oturumlar\ag.json` → çıkış 0, 43 karakter, son 4 hane `eDAY`; `makineler` (5) korundu.
+- Eski süreç KENDİ PID'iyle düşürüldü (4600 python + 5192 py başlatıcı). Kilit (pid 4600) kaldı; yeni süreç onu
+  "BAYAT SUNUCU KİLİDİ devralındı (süreç ölü)" diye devraldı — çıkış 4 VERMEDİ. Yeni sunucu pid **2108** (başlatıcı 2204), `son M-5925`.
+- Doğrudan HTTP (yeni jetonla, `X-Atlas-Jeton`): loopback **200** · LAB tailnet adresi **200**.
+- 🔴 HATA — `arac/ag_ayarla.py:83` `--sina` jetonu **`X-Tahta-Jeton`** başlığıyla gönderiyor; sunucu **`X-Atlas-Jeton`** bekliyor
+  (`tahta_sunucu.py:748`). ⇒ `--sina` DOĞRU jetonla bile **401 → "JETON YANLIŞ"** basıp **çıkış 4** veriyor (LAB'da ölçüldü),
+  üstelik "ağ ve güvenlik duvarı TAMAM" diye yorumluyor. Dört makinede `--sina` koşulursa hepsi sahte "jeton yanlış" görür.
+  Tek satırlık çare (UYGULANMADI): `headers={"X-Atlas-Jeton": jeton}`.
+- Taildrop: `tailscale file cp ag.json <makine>:` → emrelic · havva · kasa · umit dördü de **çıkış 0**.
+  ⚠️ emrelic için "is not replying; trying anyway" uyarısı — teslim kuyruğa alınmış olabilir, alındığı DOĞRULANMADI.
+  Taildrop dosyayı alıcının İndirilenler'ine bırakır; her makinede `oturumlar/ag.json`a taşınmalı ve İndirilenler'deki kopya silinmeli
+  (sır orada açıkta durur).
+- ④ `ikizler1`: **LAB'ın Windows kullanıcı adı `ikizler1`** (`$env:USERNAME`, hostname LAB). Sunucu günlüğünde bugüne kadar
+  LAB dışından TEK istek yok (kaynaklar yalnız 127.0.0.1 ve LAB'ın kendi tailnet adresi). Emre'nin `socket.create_connection`
+  testi HTTP olmadığı için günlüğe düşmez. ⇒ Test büyük olasılıkla LAB'da koştu (kendi tailnet adresine = yerel yığın) ve
+  güvenlik duvarı hakkında HİÇBİR ŞEY kanıtlamıyor. ÖLÇÜLEMEDİ kalan: öteki makinelerde de kullanıcı adı `ikizler1` mi —
+  LAB'dan bakılamaz. Güvenlik duvarı kalemi AÇIK.
