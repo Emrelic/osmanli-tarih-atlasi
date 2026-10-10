@@ -140,6 +140,32 @@ YAZICI (`_sahiplik_uygula`) soruyu HİÇ sormaz      → kusuru YAZAR
 `denetle`nin `Değişmez 5`i aynı soruyu (*dönem `kur:`'dan önce başlıyor mu*)
 ZATEN soruyordu — **sonradan.** ⇒ Yeni bir kapı tasarlarken sorulacak şey
 yalnız *"soruyu soruyor mu"* değil, **"NE ZAMAN soruyor"**dur.
+🆕 🔴 **VE ÜÇÜNCÜ/DÖRDÜNCÜ YÜZ — BİR SORUNUN TEK UYGULAMASI OLUR**
+(10 Ekim 2026, iki bağımsız ölçüm):
+```
+③ AYNI SORU, ÜÇ UYGULAMA, ÜÇ CEVAP   (TAHTA-ACIL-I-1010)
+   tahta.py:955        `.upper()` · "ACİL".upper()="ACİL" ⇒ NORMAL sayıyor,
+                       dayanak İSTEMİYOR, "KİMSEYİ UYANDIRMAZ" BASIYOR
+   tahta_bekci.py:569  `_sade` İ→I ⇒ ACIL okuyor ⇒ HERKESİ UYANDIRIYOR
+   tahta_sunucu.py:653 düz eşitlik ⇒ ÜÇÜNCÜ tespit
+   ⇒ Yazıcı "kimseyi uyandırmaz" derken bekçi HERKESİ uyandırıyor.
+   Ve `tahta.py:825`te hazır bir `_duzle` VARDI, aciliyet için
+   kullanılmamıştı — çare de eldeydi.
+④ AYNI SORU, İKİ EVREN                (KRONO-NEG-1010)
+   YAZICI `_sahiplik_uygula`  evren: `olaylar*`
+   KAPI   `Değişmez 2`         evren: `olaylar*` + `kronoloji_sinir*`
+                               (`§5`, Emre 24 Eylül: 10 dosya, 405 madde)
+   ⇒ Yazıcı "madde var/yok" hükmünü DAHA KÜÇÜK bir evrende veriyor.
+```
+> **Bir ayrımın TEK OTORİTESİ olur.** İki uygulama bir yedeklilik değil,
+> **iki ayrı davranıştır**; ve ikisi aynı soruyu AYNI EVRENDE sormuyorsa
+> hükümleri de aynı olamaz.
+⇒ Çare çoğaltmak değil **birleştirmek**: `arac/aciliyet.py` (tek işlev, üç
+çağıran) örneği. Ve evren farkı **SAYIYLA** ölçülür — 405 madde kör
+kalıyorsa yazıcı sessizce yanlış karar veriyor.
+📌 Bu dörtlü artık `§11`in kapı ailesiyle birlikte okunur: orada kapının
+VARLIĞI, burada **TEKİLLİĞİ** sorgulanıyor.
+
 🔴 **VE BİR KOORDİNATÖR KURALI:** *yeni bir kapı onaylamadan önce, o soruyu
 soran bir kapı **VAR MI** diye sorulur.* Yoksa birbiriyle anlaşmayan iki kapı
 kurulur ve hangisinin doğru olduğu **yeni bir soru** olur. (Aynı gece
