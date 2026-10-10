@@ -1,0 +1,617 @@
+diff --git a/arac/sinav_isirma.py b/arac/sinav_isirma.py
+new file mode 100644
+index 00000000..3e17cdbc
+--- /dev/null
++++ b/arac/sinav_isirma.py
+@@ -0,0 +1,319 @@
++# -*- coding: utf-8 -*-
++"""sinav_isirma.py — bir sınavın sorusu GERÇEKTEN ISIRIYOR mu? Aynı sınav, iki ağaçta.
++
++Bir sorunun GEÇMESİ üç ayrı şey olabilir: ① doğru cevap · ② tesadüf (yamasız kod da
++"doğru" sonucu yanlış sebeple verir) · ③ soru hiç sorulmuyor (yamasız kod o yola girmez,
++soru boş geçer). Üçü de ekranda ✓ yazar. Tek ayırt edici: aynı sınavı YAMASIZ ağaçta da
++koşturmak. Bu araç bunu elle yapılmaktan çıkarır.
++
++    py arac/sinav_isirma.py --taban origin/main --diff A.diff [B.diff ...] --sinav <yol>
++                            [--ek <yardımcı dosya> ...] [--ham <dizin>] [--json <yol>]
++                            [-- <sınav argümanları; {KOK} = koşulan ağacın kökü>]
++
++  A = taban (tek kullanımlık worktree, detached) · B = taban + diff'ler (her diff önce
++  `git apply --check`; ÇAKIŞIRSA `--reverse --check` ile "zaten uygulanmış mı" ayrılır).
++  Sınav İKİ ağaçta da AYNI BAYTLARLA koşar:
++    • --sinav göreli yolsa önce B'de (diff'ten sonra) aranır — diff'in getirdiği sınav;
++      bulunursa o baytlar A'ya da aynı yola konur.
++    • değilse (ağaç dışı dosya) iki ağaca da `denetim/<adı>` olarak kopyalanır — böylece
++      kökünü kendi yolundan türeten sınav (`os.path.dirname(__file__)/..`) koşulan ağacı ölçer,
++      kopyalandığı depoyu değil. `--ek` dosyaları sınavın yanına kopyalanır.
++  Soru satırı (sınavların ortak biçimi, 10 Ekim 2026'da okundu):
++      ✓ <ID> …   ·   ✗ <ID> …   ·   ✗ BAŞARISIZ <ID> …   ·   GEÇTİ <ID> …   ·   KALDI <ID> …
++  Özet satırı: `SONUÇ: g/n geçti` · `SINAV: g/n geçti` · `SONUÇ: n soru · g geçti`.
++  Özetten SONRAKİ satırlar okunmaz (kalanların tekrar listesi). SAYAN = BASAN: ayrıştırılan soru
++  sayısı ve geçen sayısı özetle, kalan varlığı sınavın çıkış koduyla (0/1) birebir tutmalı;
++  tutmazsa o taraf ÖLÇÜLEMEDİ — sessizce 0 sayılmaz.
++  Eşleştirme anahtarı: (ID, ID dahil ilk 5 sözcük, sıra) — ID'si tekrar eden sınavlarda (K1 ×7)
++  bir dalın yalnız bir tarafta basılması sonraki soruları kaydırmaz; eşi olmayan soru
++  EŞLEŞMEDİ kovasına ADIYLA düşer ve ÖLÇÜLEMEDİ sayılır.
++
++KOVALAR
++  ISIRIYOR                  yalnız yamalıda geçti — soru yamayı ölçüyor
++  TESADÜF-YA-DA-SORULMAMIŞ  ikisinde de geçti — ELLE İNCELENMELİ (② ya da ③; ya da yamanın dokunmadığı
++                            bir korumanın SÜREKLİLİK sorusu — üçünü araç AYIRAMAZ, yalnız ADLANDIRIR)
++  İKİSİNDE-KALAN            ikisinde de kaldı
++  GERİLEME                  yalnız yamasızda geçti
++  EŞLEŞMEDİ                 yalnız bir tarafta basıldı
++
++Çıkış: 0 rapor üretildi · 1 GERİLEME var · 2 kullanım hatası · 3 ÖLÇÜLEMEDİ.
++GERİLEME varsa hüküm 1'dir ama ölçülemeyenler YİNE basılır (biri ötekini gizlemez).
++Worktree'ler (`<depo>-isirma-<pid>-A/B`) her durumda kaldırılır; kaldırılamazsa basılır.
++"""
++import argparse
++import hashlib
++import io
++import json
++import os
++import re
++import shutil
++import subprocess
++import sys
++import time
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
++
++SORU = re.compile(r"^\s*(✓|✗(?:\s+BAŞARISIZ)?|GEÇTİ|KALDI)\s+(\S.*)$")
++OZET = re.compile(r"^\s*(?:SONUÇ|SINAV):\s*(?:(\d+)\s*/\s*(\d+)\s+geçti|(\d+)\s+soru\s*·\s*(\d+)\s+geçti)")
++KOVALAR = ("ISIRIYOR", "TESADÜF-YA-DA-SORULMAMIŞ", "İKİSİNDE-KALAN", "GERİLEME", "EŞLEŞMEDİ")
++
++
++class Kullanim(Exception):
++    pass
++
++
++def git(*a, cwd=None):
++    p = subprocess.run(["git"] + list(a), cwd=cwd, capture_output=True)
++    return p.returncode, p.stdout.decode("utf-8", "replace").strip(), p.stderr.decode("utf-8", "replace").strip()
++
++
++def sha(yol):
++    return hashlib.sha256(open(yol, "rb").read()).hexdigest()
++
++
++def ayristir(metin):
++    """→ (sorular [(anahtar, geçti, satır)], özet (geçen, toplam) | None)"""
++    sorular, ozet, say = [], None, {}
++    for satir in metin.splitlines():
++        m = OZET.match(satir)
++        if m:
++            ozet = (int(m.group(1)), int(m.group(2))) if m.group(1) else (int(m.group(4)), int(m.group(3)))
++            break
++        m = SORU.match(satir)
++        if not m:
++            continue
++        sozcuk = m.group(2).split()
++        etiket = " ".join(sozcuk[:5])
++        k = (sozcuk[0], etiket)
++        say[k] = say.get(k, 0) + 1
++        sorular.append(((sozcuk[0], etiket, say[k]), m.group(1) in ("✓", "GEÇTİ"), satir.strip()))
++    return sorular, ozet
++
++
++def dogrula(taraf, kod, sorular, ozet, ozetsiz):
++    """Sayan = basan. Dönüş: ölçülemedi sebepleri (boş = taraf ölçüldü)."""
++    s = []
++    if kod not in (0, 1):
++        s.append("%s: sınav çıkış kodu %s (0/1 değil — sınav çöktü ya da zaman aşımı)" % (taraf, kod))
++    if not sorular:
++        s.append("%s: hiçbir soru satırı ayrıştırılamadı (biçim tanınmadı)" % taraf)
++        return s
++    gecen = sum(1 for _, ok, _ in sorular if ok)
++    if ozet is None:
++        if not ozetsiz:
++            s.append("%s: özet satırı (SONUÇ:/SINAV:) yok — sayım doğrulanamadı (--ozetsiz ile kabul edilir)" % taraf)
++    elif ozet != (gecen, len(sorular)):
++        s.append("%s: SAYAN ≠ BASAN — özet %d/%d, ayrıştırılan %d/%d" % (taraf, ozet[0], ozet[1], gecen, len(sorular)))
++    if kod in (0, 1) and (kod == 1) != (gecen < len(sorular)):
++        s.append("%s: çıkış kodu %d ile sonuç çelişiyor (%d/%d geçti)" % (taraf, kod, gecen, len(sorular)))
++    return s
++
++
++def kovala(A, B):
++    a = {k: (ok, st) for k, ok, st in A}
++    b = {k: (ok, st) for k, ok, st in B}
++    kova = {k: [] for k in KOVALAR}
++    for k, ok, st in B:
++        if k not in a:
++            kova["EŞLEŞMEDİ"].append(("yalnız yamalıda", k, st))
++        elif ok and not a[k][0]:
++            kova["ISIRIYOR"].append(("", k, st))
++        elif ok:
++            kova["TESADÜF-YA-DA-SORULMAMIŞ"].append(("", k, st))
++        elif a[k][0]:
++            kova["GERİLEME"].append(("", k, a[k][1] + "   →   " + st))
++        else:
++            kova["İKİSİNDE-KALAN"].append(("", k, st))
++    for k, ok, st in A:
++        if k not in b:
++            kova["EŞLEŞMEDİ"].append(("yalnız yamasızda", k, st))
++    return kova
++
++
++def ad(k):
++    return k[0] if k[2] == 1 else "%s#%d" % (k[0], k[2])
++
++
++def worktree_kaldir(depo, yol):
++    if not os.path.exists(yol):
++        return True
++    git("worktree", "remove", "--force", yol, cwd=depo)
++    if os.path.exists(yol):
++        shutil.rmtree(yol, ignore_errors=True)
++    git("worktree", "prune", cwd=depo)
++    return not os.path.exists(yol)
++
++
++def kos(agac, rel, sinav_arg, zaman):
++    yol = os.path.join(agac, rel)
++    yorumlayici = ["node"] if rel.lower().endswith(".js") else [sys.executable]
++    arg = [x.replace("{KOK}", agac) for x in sinav_arg]
++    env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONDONTWRITEBYTECODE="1")
++    t0 = time.time()
++    try:
++        p = subprocess.run(yorumlayici + [yol] + arg, cwd=agac, capture_output=True, env=env, timeout=zaman)
++        kod, out, err = p.returncode, p.stdout.decode("utf-8", "replace"), p.stderr.decode("utf-8", "replace")
++    except subprocess.TimeoutExpired as e:
++        kod, out, err = "ZAMAN-AŞIMI", (e.stdout or b"").decode("utf-8", "replace"), ""
++    return kod, out.replace("\r\n", "\n"), err.replace("\r\n", "\n"), time.time() - t0
++
++
++def main(argv):
++    if "--" in argv:
++        i = argv.index("--")
++        argv, sinav_arg = argv[:i], argv[i + 1:]
++    else:
++        sinav_arg = []
++    ap = argparse.ArgumentParser(description="Sınav ısırma ölçümü: aynı sınav yamasız ve yamalı ağaçta.")
++    ap.add_argument("--taban", help="taban ref — ZORUNLU, öntanımsız YOK (örn. origin/main)")
++    ap.add_argument("--diff", nargs="+", action="extend", default=[], help="sırayla uygulanacak diff'ler")
++    ap.add_argument("--sinav", help="sınav betiği (.py / .js)")
++    ap.add_argument("--ek", nargs="+", action="extend", default=[], help="sınavın yanına kopyalanacak yardımcı dosyalar")
++    ap.add_argument("--depo", help="git deposu (varsayılan: bu aracın deposu)")
++    ap.add_argument("--zaman", type=int, default=3600, help="taraf başına zaman aşımı, sn (3600)")
++    ap.add_argument("--ozetsiz", action="store_true", help="özet satırı olmayan sınavı kabul et (sayım doğrulanmaz)")
++    ap.add_argument("--ham", help="iki tarafın ham çıktısını bu dizine yaz (A.txt, B.txt)")
++    ap.add_argument("--json", help="kovaları JSON olarak yaz")
++    ar = ap.parse_args(argv)
++    if not ar.taban:
++        raise Kullanim("--taban verilmedi — öntanımsız taban YOK; bilerek ver (örn. --taban origin/main)")
++    if not ar.diff:
++        raise Kullanim("--diff verilmedi — yamasız ve yamalı ağaç aynı olur, ölçüm anlamsız")
++    if not ar.sinav:
++        raise Kullanim("--sinav verilmedi")
++    cwd = os.getcwd()
++    diffler = [os.path.abspath(d) for d in ar.diff]
++    for d in diffler:
++        if not os.path.isfile(d):
++            raise Kullanim("diff yok: %s" % d)
++    ekler = [os.path.abspath(e) for e in ar.ek]
++    for e in ekler:
++        if not os.path.isfile(e):
++            raise Kullanim("--ek dosyası yok: %s" % e)
++
++    depo = ar.depo or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++    k, ortak, err = git("rev-parse", "--path-format=absolute", "--git-common-dir", cwd=depo)
++    if k:
++        raise Kullanim("git deposu bulunamadı (%s): %s" % (depo, err))
++    ana = os.path.dirname(os.path.normpath(ortak))
++    k, taban, err = git("rev-parse", "--verify", ar.taban + "^{commit}", cwd=ana)
++    if k:
++        raise Kullanim("taban çözülemedi: %s — %s" % (ar.taban, err))
++
++    print("SINAV-ISIRMA · depo %s" % ana)
++    print("  taban    %s → %s" % (ar.taban, taban))
++    k, geri, _ = git("rev-list", "--count", "%s..origin/main" % taban, cwd=ana)
++    if not k:
++        print("  origin/main'e göre GERİDE: %s commit%s" % (geri, "" if geri == "0" else
++              "  ⚠️ taban bayat olabilir (fetch yapıldı mı?) — ölçüm BU tabanındır"))
++    for d in diffler:
++        print("  diff     %s  sha256 %s" % (d, sha(d)[:16]))
++
++    ad_kok = "%s-isirma-%d" % (ana.rstrip("\\/"), os.getpid())
++    A, B = ad_kok + "-A", ad_kok + "-B"
++    olculemedi, kova, sonuc_kodu = [], None, 3
++    try:
++        for yol in (A, B):
++            k, _, err = git("worktree", "add", "--detach", yol, taban, cwd=ana)
++            if k:
++                olculemedi.append("worktree açılamadı: %s — %s" % (yol, err))
++                raise StopIteration
++        for d in diffler:
++            k, _, err = git("apply", "--check", d, cwd=B)
++            if k:
++                kr, _, _ = git("apply", "--reverse", "--check", d, cwd=B)
++                teshis = ("ZATEN UYGULANMIŞ görünüyor (--reverse --check temiz) — tabana inmiş olabilir"
++                          if not kr else "gerçek çakışma (ileri de geri de uygulanmıyor)")
++                olculemedi.append("diff uygulanamadı: %s — %s · %s" % (os.path.basename(d), teshis, err[:300]))
++                raise StopIteration
++            k, _, err = git("apply", d, cwd=B)
++            if k:
++                olculemedi.append("diff --check geçti ama apply başarısız: %s — %s" % (os.path.basename(d), err[:300]))
++                raise StopIteration
++
++        # Sınavı yerleştir: iki ağaçta AYNI baytlar
++        if not os.path.isabs(ar.sinav) and os.path.isfile(os.path.join(B, ar.sinav)):
++            rel = os.path.normpath(ar.sinav)
++            kaynak, nereden = os.path.join(B, rel), "B ağacından (diff sonrası)"
++        else:
++            kaynak = os.path.abspath(os.path.join(cwd, ar.sinav))
++            if not os.path.isfile(kaynak):
++                raise Kullanim("sınav yok: %s (B ağacında da yok)" % ar.sinav)
++            rel, nereden = os.path.join("denetim", os.path.basename(kaynak)), "ağaç dışından"
++        bayt = open(kaynak, "rb").read()
++        yerlestirilen = [rel]
++        for agac in (A, B):
++            hedef = os.path.join(agac, rel)
++            if os.path.isfile(hedef) and open(hedef, "rb").read() != bayt:
++                print("  ⚠️ %s ağacında %s VARDI ve FARKLIYDI — üzerine sınavın baytları yazıldı"
++                      % ("A" if agac == A else "B", rel))
++            os.makedirs(os.path.dirname(hedef), exist_ok=True)
++            if os.path.abspath(hedef) != os.path.abspath(kaynak):
++                open(hedef, "wb").write(bayt)
++            for e in ekler:
++                eh = os.path.join(os.path.dirname(hedef), os.path.basename(e))
++                shutil.copyfile(e, eh)
++        for e in ekler:
++            yerlestirilen.append(os.path.join(os.path.dirname(rel), os.path.basename(e)))
++        print("  sınav    %s  (%s) sha256 %s → iki ağaçta %s" % (kaynak, nereden, hashlib.sha256(bayt).hexdigest()[:16], rel))
++        if ekler:
++            print("  ek       %s" % ", ".join(yerlestirilen[1:]))
++        print("  argüman  %s" % (" ".join(sinav_arg) or "—"))
++
++        sonuc = {}
++        for taraf, agac in (("A (yamasız)", A), ("B (yamalı)", B)):
++            kod, out, err, sure = kos(agac, rel, sinav_arg, ar.zaman)
++            sorular, ozet = ayristir(out)
++            sebep = dogrula(taraf, kod, sorular, ozet, ar.ozetsiz)
++            olculemedi += sebep
++            g = sum(1 for _, ok, _ in sorular if ok)
++            print("  %-12s çıkış %s · %d/%d geçti · özet %s · %.0f sn%s" % (
++                taraf, kod, g, len(sorular), ("%d/%d" % ozet) if ozet else "YOK", sure,
++                "  · stderr %d satır" % len(err.splitlines()) if err.strip() else ""))
++            if sebep and err.strip():
++                print("    stderr (son 5): " + " | ".join(err.strip().splitlines()[-5:]))
++            sonuc[taraf] = sorular
++            if ar.ham:
++                os.makedirs(ar.ham, exist_ok=True)
++                io.open(os.path.join(ar.ham, taraf[0] + ".txt"), "w", encoding="utf-8").write(
++                    "çıkış %s\n--- stdout\n%s\n--- stderr\n%s" % (kod, out, err))
++
++        A_s, B_s = sonuc["A (yamasız)"], sonuc["B (yamalı)"]
++        if A_s and B_s:
++            kova = kovala(A_s, B_s)
++            if kova["EŞLEŞMEDİ"]:
++                olculemedi.append("%d soru yalnız bir tarafta basıldı (EŞLEŞMEDİ kovası)" % len(kova["EŞLEŞMEDİ"]))
++            print("\nKOVALAR  (ISIRIYOR %d · TESADÜF-YA-DA-SORULMAMIŞ %d · İKİSİNDE-KALAN %d · GERİLEME %d · EŞLEŞMEDİ %d)"
++                  % tuple(len(kova[x]) for x in KOVALAR))
++            for x in KOVALAR:
++                print("\n  %s (%d)%s" % (x, len(kova[x]), "  — ELLE İNCELENMELİ" if x == "TESADÜF-YA-DA-SORULMAMIŞ" and kova[x] else ""))
++                print("    adlar: %s" % (" ".join(ad(k) for _, k, _ in kova[x]) or "—"))
++                for not_, k, st in kova[x]:
++                    print("    %-8s %s%s" % (ad(k), ("[" + not_ + "] ") if not_ else "", st[:200]))
++        sonuc_kodu = 1 if kova and kova["GERİLEME"] else (3 if olculemedi else 0)
++    except StopIteration:
++        sonuc_kodu = 3
++    finally:
++        kalan = [y for y in (A, B) if not worktree_kaldir(ana, y)]
++        print("\nWORKTREE  %s" % ("ikisi de kaldırıldı" if not kalan else "KALDIRILAMADI: " + ", ".join(kalan)))
++
++    if olculemedi:
++        print("\nÖLÇÜLEMEDİ (%d):" % len(olculemedi))
++        for s in olculemedi:
++            print("  • " + s)
++    if ar.json:
++        io.open(ar.json, "w", encoding="utf-8").write(json.dumps({
++            "taban": taban, "diffler": diffler, "cikis": sonuc_kodu, "olculemedi": olculemedi,
++            "kovalar": {x: [ad(k) for _, k, _ in kova[x]] for x in KOVALAR} if kova else None},
++            ensure_ascii=False, indent=1))
++    print("\nÇIKIŞ: %d  (%s)" % (sonuc_kodu, {0: "rapor üretildi", 1: "GERİLEME VAR", 3: "ÖLÇÜLEMEDİ"}[sonuc_kodu]))
++    return sonuc_kodu
++
++
++if __name__ == "__main__":
++    try:
++        sys.exit(main(sys.argv[1:]))
++    except Kullanim as e:
++        print("KULLANIM HATASI: %s" % e, file=sys.stderr)
++        sys.exit(2)
+diff --git a/denetim/ARAC-SINAV-ISIRMA-SINAV-1010.py b/denetim/ARAC-SINAV-ISIRMA-SINAV-1010.py
+new file mode 100644
+index 00000000..302d4494
+--- /dev/null
++++ b/denetim/ARAC-SINAV-ISIRMA-SINAV-1010.py
+@@ -0,0 +1,286 @@
++# -*- coding: utf-8 -*-
++"""ARAC-SINAV-ISIRMA-SINAV-1010 — `arac/sinav_isirma.py`nin sınavı, İKİ YÖNDE.
++
++    py denetim/ARAC-SINAV-ISIRMA-SINAV-1010.py [--gercek-yok] [--d5-dizin <C:\\atlas-umit\\denetim>]
++
++SENTETİK: geçici `git init` deposu (taban commit'i), içinde bu ağacın `arac/sinav_isirma.py`si +
++`arac/mini.py` (4 işlev) + mini sınav + mini diff. Gerçek ağaçta HİÇBİR ŞEY yazılmaz.
++  I1  dört kova birer kez: Q1 ISIRIYOR · Q2 TESADÜF-YA-DA-SORULMAMIŞ · Q3 İKİSİNDE-KALAN · Q4 GERİLEME
++      → çıkış 1 (GERİLEME var), her kova TAM o soru, ADIYLA
++  I2  gerilemesiz diff (Q4'e dokunmuyor) → çıkış 0, GERİLEME boş, Q4 TESADÜF kovasında
++  I3  --taban YOK → çıkış 2, worktree açılmaz · --diff YOK → 2 · --sinav YOK → 2
++  I4  biçimi tanınmayan sınav (✓/✗/GEÇTİ/KALDI yok) → çıkış 3, "ayrıştırılamadı" — sessizce 0 DEĞİL
++  I5  SAYAN ≠ BASAN (özet 9/9 der, satırlar 4) → 3
++  I5b özet satırı YOK → 3 · aynısı --ozetsiz ile → 0 (ölçüldü)
++  I5c çıkış kodu sonuçla çelişiyor (kalan var, çıkış 0) → 3
++  I5d GERİLEME + ölçülemedi birlikte → 1, ÖLÇÜLEMEDİ bloğu yine basılı
++  I6  çakışan diff → 3, "gerçek çakışma" · tabana zaten inmiş diff → 3, "ZATEN UYGULANMIŞ"
++  I7  soru yalnız yamalıda basılıyor → EŞLEŞMEDİ ADIYLA, çıkış 3
++  I8  ID tekrarlı sınav (K1 ×3, yamasızda ortadaki dal YOK) → kayma yok: yalnız o dal EŞLEŞMEDİ
++  I9  sınav DİFF'İN GETİRDİĞİ dosya (göreli yol, tabanda yok) → "B ağacından", iki tarafta koşar
++  I10 GEÇTİ/KALDI ve "✗ BAŞARISIZ" biçimleri ayrıştırılır; özetten sonraki "  ✗ ad" tekrar listesi SAYILMAZ
++  I11 {KOK} argümanı koşulan ağaca çözülür (A ≠ B)
++  I12 her koşudan sonra `<depo>-isirma-*` worktree'si KALMADI, `git worktree list` yalnız ana
++GERÇEK (pozitif kontrol, --gercek-yok ile atlanır; ~90 sn):
++  G1  D5-GUN-1010-v3.diff + ARAC-D5-GUN-SINAV-1010.py, taban origin/main:
++      yamalı 23/23 · yamasız 5/23 · TESADÜF kovası TAM {S2,S4,S12,V1,V8} · ISIRIYOR 18 · çıkış 0
++Çıkış: 0 hepsi geçti · 1 en az biri kaldı.
++"""
++import glob
++import io
++import os
++import re
++import shutil
++import subprocess
++import sys
++import tempfile
++
++if hasattr(sys.stdout, "reconfigure"):
++    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
++
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++ARAC = os.path.join(KOK, "arac", "sinav_isirma.py")
++GERCEK = "--gercek-yok" not in sys.argv
++D5_DIZIN = sys.argv[sys.argv.index("--d5-dizin") + 1] if "--d5-dizin" in sys.argv else r"C:\atlas-umit\denetim"
++SONUC = []
++
++
++def sina(ad, kosul, ayrinti=""):
++    SONUC.append((ad, bool(kosul)))
++    print("%s %s %s" % ("✓" if kosul else "✗ BAŞARISIZ", ad, ayrinti))
++
++
++def git(d, *a):
++    return subprocess.run(["git", "-c", "user.name=sinav", "-c", "user.email=s@s", "-c", "core.autocrlf=false"]
++                          + list(a), cwd=d, capture_output=True)
++
++
++def yaz(d, yol, metin):
++    p = os.path.join(d, yol)
++    os.makedirs(os.path.dirname(p), exist_ok=True)
++    io.open(p, "w", encoding="utf-8", newline="\n").write(metin)
++
++
++MINI = '''def f1():
++    return %s
++def f2():
++    return 2
++def f3():
++    return 0
++def f4():
++    return %s
++'''
++
++# Mini sınav: ✓/✗ biçimi, {KOK} argümanıyla ağacı alır
++SINAV = r'''import os, sys
++sys.stdout.reconfigure(encoding="utf-8")
++kok = sys.argv[1]
++sys.path.insert(0, os.path.join(kok, "arac"))
++import mini
++S = []
++def sor(no, ad, k):
++    S.append(k); print("%s %s %s" % ("✓" if k else "✗", no, ad))
++sor("Q1", "f1 bir döndürür", mini.f1() == 1)
++sor("Q2", "f2 iki döndürür", mini.f2() == 2)
++sor("Q3", "f3 üç döndürür", mini.f3() == 3)
++sor("Q4", "f4 dört döndürür", mini.f4() == 4)
++print("KOK=" + kok)
++print("SONUÇ: %d/%d geçti" % (sum(S), len(S)))
++sys.exit(0 if all(S) else 1)
++'''
++
++
++def depo_kur(ek=None):
++    d = tempfile.mkdtemp(prefix="isirma_sinav_")
++    os.makedirs(os.path.join(d, "arac"))
++    shutil.copy(ARAC, os.path.join(d, "arac", "sinav_isirma.py"))
++    yaz(d, "arac/mini.py", MINI % ("0", "4"))
++    for yol, metin in (ek or {}).items():
++        yaz(d, yol, metin)
++    git(d, "init", "-q"); git(d, "add", "-A"); git(d, "commit", "-q", "-m", "taban")
++    return d
++
++
++def diff_yap(d, degisim, ad="mini.diff"):
++    """degisim: {yol: metin} — çalışma ağacına yazar, diff'i alır, geri alır."""
++    for yol, metin in degisim.items():
++        yaz(d, yol, metin)
++    git(d, "add", "-N", "--", *degisim.keys())
++    out = git(d, "diff", "--", *degisim.keys()).stdout
++    git(d, "reset", "-q", "--", *degisim.keys())
++    for yol in degisim:
++        r = git(d, "checkout", "--", yol)
++        if r.returncode:
++            os.remove(os.path.join(d, yol))
++    p = os.path.join(tempfile.mkdtemp(prefix="isirma_diff_"), ad)
++    open(p, "wb").write(out)
++    return p
++
++
++def kos(d, *arg):
++    p = subprocess.run([sys.executable, os.path.join(d, "arac", "sinav_isirma.py")] + list(arg), cwd=d,
++                       capture_output=True, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++    return p.returncode, (p.stdout.decode("utf-8", "replace") + p.stderr.decode("utf-8", "replace")).replace("\r\n", "\n")
++
++
++def kova(out, ad):
++    m = re.search(r"^  %s \(\d+\).*\n    adlar: (.*)$" % re.escape(ad), out, re.M)
++    return None if m is None else ([] if m.group(1).strip() == "—" else m.group(1).split())
++
++
++def artik_yok(d):
++    kalan = glob.glob(d + "-isirma-*")
++    wl = git(d, "worktree", "list").stdout.decode("utf-8", "replace").strip().splitlines()
++    return not kalan and len(wl) == 1
++
++
++def sinav_yol(d, metin, ad="mini_sinav.py"):
++    p = os.path.join(tempfile.mkdtemp(prefix="isirma_s_"), ad)
++    io.open(p, "w", encoding="utf-8").write(metin)
++    return p
++
++
++DEPOLAR = []
++try:
++    print("=== SENTETİK ===")
++    d = depo_kur(); DEPOLAR.append(d)
++    s = sinav_yol(d, SINAV)
++    diff_ger = diff_yap(d, {"arac/mini.py": MINI % ("1", "5")})      # f1 düzelir, f4 bozulur
++    diff_tem = diff_yap(d, {"arac/mini.py": MINI % ("1", "4")}, "temiz.diff")
++
++    ham = tempfile.mkdtemp(prefix="isirma_ham_")
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_ger, "--sinav", s, "--ham", ham, "--", "{KOK}")
++    sina("I1 dört kova birer kez → çıkış 1",
++         kod == 1 and kova(out, "ISIRIYOR") == ["Q1"] and kova(out, "TESADÜF-YA-DA-SORULMAMIŞ") == ["Q2"]
++         and kova(out, "İKİSİNDE-KALAN") == ["Q3"] and kova(out, "GERİLEME") == ["Q4"]
++         and kova(out, "EŞLEŞMEDİ") == [], "çıkış %d · %s" % (kod, [kova(out, x) for x in
++                                          ("ISIRIYOR", "TESADÜF-YA-DA-SORULMAMIŞ", "İKİSİNDE-KALAN", "GERİLEME")]))
++    kokler = [re.search(r"^KOK=(.*)$", io.open(os.path.join(ham, t + ".txt"), encoding="utf-8").read(), re.M)
++              for t in "AB"]
++    kokler = [m.group(1).strip() if m else None for m in kokler]
++    sina("I11 {KOK} iki ayrı ağaca çözüldü (A ve B worktree'si)",
++         kokler[0] and kokler[1] and kokler[0].endswith("-A") and kokler[1].endswith("-B"), str(kokler))
++    shutil.rmtree(ham, ignore_errors=True)
++    sina("I12 I1'den sonra worktree kalmadı", artik_yok(d) and "ikisi de kaldırıldı" in out)
++
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s, "--", "{KOK}")
++    sina("I2 gerilemesiz diff → çıkış 0, Q4 TESADÜF kovasında",
++         kod == 0 and kova(out, "GERİLEME") == [] and "Q4" in (kova(out, "TESADÜF-YA-DA-SORULMAMIŞ") or []),
++         "çıkış %d" % kod)
++
++    k1, o1 = kos(d, "--diff", diff_tem, "--sinav", s)
++    k2, _ = kos(d, "--taban", "HEAD", "--sinav", s)
++    k3, _ = kos(d, "--taban", "HEAD", "--diff", diff_tem)
++    sina("I3 --taban / --diff / --sinav eksik → 2, worktree açılmadı",
++         (k1, k2, k3) == (2, 2, 2) and "öntanımsız taban YOK" in o1 and artik_yok(d), "%s" % ((k1, k2, k3),))
++
++    s_bicimsiz = sinav_yol(d, 'print("tamam: 4 soru geçti")\nprint("SONUÇ: 4/4 geçti")\n')
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s_bicimsiz)
++    sina("I4 biçimi tanınmayan sınav → 3, 'ayrıştırılamadı'", kod == 3 and "ayrıştırılamadı" in out, "çıkış %d" % kod)
++
++    s_yalan = sinav_yol(d, SINAV.replace('print("SONUÇ: %d/%d geçti" % (sum(S), len(S)))', 'print("SONUÇ: 9/9 geçti")'))
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s_yalan, "--", "{KOK}")
++    sina("I5 SAYAN ≠ BASAN (özet 9/9) → 3", kod == 3 and "SAYAN ≠ BASAN" in out, "çıkış %d" % kod)
++
++    s_ozetsiz = sinav_yol(d, SINAV.replace('print("SONUÇ: %d/%d geçti" % (sum(S), len(S)))', ''))
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s_ozetsiz, "--", "{KOK}")
++    kod2, out2 = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s_ozetsiz, "--ozetsiz", "--", "{KOK}")
++    sina("I5b özet YOK → 3 · --ozetsiz → 0 (ölçüldü, Q1 ISIRIYOR)",
++         kod == 3 and "özet satırı" in out and kod2 == 0 and kova(out2, "ISIRIYOR") == ["Q1"], "%d / %d" % (kod, kod2))
++
++    s_cikis = sinav_yol(d, SINAV.replace("sys.exit(0 if all(S) else 1)", "sys.exit(0)"))
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s_cikis, "--", "{KOK}")
++    sina("I5c kalan var ama çıkış 0 → 3 (çelişki adıyla)", kod == 3 and "çelişiyor" in out, "çıkış %d" % kod)
++
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_ger, "--sinav", s_ozetsiz, "--", "{KOK}")
++    sina("I5d GERİLEME + ölçülemedi → 1, ama ÖLÇÜLEMEDİ bloğu YİNE basılı (biri ötekini gizlemez)",
++         kod == 1 and kova(out, "GERİLEME") == ["Q4"] and "ÖLÇÜLEMEDİ (" in out and "özet satırı" in out, "çıkış %d" % kod)
++
++    d2 = depo_kur(); DEPOLAR.append(d2)
++    cak = diff_yap(d2, {"arac/mini.py": MINI % ("7", "7")}, "cakisan.diff")
++    git(d2, "commit", "-q", "--allow-empty", "-m", "x")
++    yaz(d2, "arac/mini.py", MINI % ("8", "8")); git(d2, "commit", "-qam", "baska")
++    kod, out = kos(d2, "--taban", "HEAD", "--diff", cak, "--sinav", s, "--", "{KOK}")
++    sina("I6 çakışan diff → 3, 'gerçek çakışma'", kod == 3 and "gerçek çakışma" in out and artik_yok(d2), "çıkış %d" % kod)
++    d3 = depo_kur(); DEPOLAR.append(d3)
++    inmis = diff_yap(d3, {"arac/mini.py": MINI % ("1", "4")}, "inmis.diff")
++    yaz(d3, "arac/mini.py", MINI % ("1", "4")); git(d3, "commit", "-qam", "indi")
++    kod, out = kos(d3, "--taban", "HEAD", "--diff", inmis, "--sinav", s, "--", "{KOK}")
++    sina("I6 tabana inmiş diff → 3, 'ZATEN UYGULANMIŞ'", kod == 3 and "ZATEN UYGULANMIŞ" in out, "çıkış %d" % kod)
++
++    s_esles = sinav_yol(d, SINAV.replace('sor("Q4"', 'hasattr(mini, "f5") and sor("Q5", "f5 var", True)\nsor("Q4"'))
++    d4 = depo_kur(); DEPOLAR.append(d4)
++    diff_f5 = diff_yap(d4, {"arac/mini.py": MINI % ("1", "4") + "def f5():\n    return 5\n"}, "f5.diff")
++    kod, out = kos(d4, "--taban", "HEAD", "--diff", diff_f5, "--sinav", s_esles, "--", "{KOK}")
++    sina("I7 yalnız yamalıda basılan soru → EŞLEŞMEDİ adıyla, çıkış 3",
++         kod == 3 and kova(out, "EŞLEŞMEDİ") == ["Q5"] and "yalnız yamalıda" in out, "çıkış %d" % kod)
++
++    s_tekrar = sinav_yol(d, SINAV.replace(
++        'sor("Q1", "f1 bir döndürür", mini.f1() == 1)',
++        'sor("K1", "YENİ ilk dal", True)\n'
++        'hasattr(mini, "f5") and sor("K1", "ESKİ ara dal", True)\n'
++        'sor("K1", "YENİ son dal", mini.f1() == 1)'))
++    kod, out = kos(d4, "--taban", "HEAD", "--diff", diff_f5, "--sinav", s_tekrar, "--", "{KOK}")
++    sina("I8 ID tekrarı + tek tarafta dal → kayma yok (K1 son dal ISIRIYOR, yalnız ara dal EŞLEŞMEDİ)",
++         kova(out, "EŞLEŞMEDİ") == ["K1"] and "ESKİ ara dal" in out.split("EŞLEŞMEDİ (")[1]
++         and kova(out, "ISIRIYOR") == ["K1"] and "YENİ son dal" in out.split("  ISIRIYOR (")[1].split("TESADÜF")[0],
++         "çıkış %d · eşleşmedi %s · ısırıyor %s" % (kod, kova(out, "EŞLEŞMEDİ"), kova(out, "ISIRIYOR")))
++
++    d5 = depo_kur(); DEPOLAR.append(d5)
++    diff_sinavli = diff_yap(d5, {"arac/mini.py": MINI % ("1", "4"), "denetim/MINI-SINAV.py": SINAV}, "sinavli.diff")
++    kod, out = kos(d5, "--taban", "HEAD", "--diff", diff_sinavli, "--sinav", "denetim/MINI-SINAV.py", "--", "{KOK}")
++    sina("I9 diff'in getirdiği sınav (göreli) → B ağacından, iki tarafta koştu",
++         kod == 0 and "B ağacından" in out and kova(out, "ISIRIYOR") == ["Q1"], "çıkış %d" % kod)
++
++    s_gecti = sinav_yol(d, r'''import os, sys
++sys.stdout.reconfigure(encoding="utf-8")
++sys.path.insert(0, os.path.join(sys.argv[1], "arac")); import mini
++S = []
++def sina(ad, k):
++    S.append((ad, k)); print("  %s  %-30s bilgi" % ("GEÇTİ" if k else "KALDI", ad))
++def sina2(ad, k):
++    S.append((ad, k)); print("%s %s ayrinti" % ("✓" if k else "✗ BAŞARISIZ", ad))
++sina("P1 f1 bir", mini.f1() == 1)
++sina2("U1 f2 iki", mini.f2() == 2)
++sina2("U2 f3 üç", mini.f3() == 3)
++kal = [a for a, k in S if not k]
++print("SINAV: %d/%d geçti" % (len(S) - len(kal), len(S)))
++for a in kal:
++    print("  ✗ " + a)
++sys.exit(1 if kal else 0)
++''')
++    kod, out = kos(d, "--taban", "HEAD", "--diff", diff_tem, "--sinav", s_gecti, "--", "{KOK}")
++    sina("I10 GEÇTİ/KALDI + ✗ BAŞARISIZ ayrıştırıldı; özet sonrası '  ✗ ad' sayılmadı",
++         kod == 0 and kova(out, "ISIRIYOR") == ["P1"] and kova(out, "TESADÜF-YA-DA-SORULMAMIŞ") == ["U1"]
++         and kova(out, "İKİSİNDE-KALAN") == ["U2"] and "SAYAN" not in out, "çıkış %d" % kod)
++
++    sina("I12 bütün sentetik koşulardan sonra worktree kalmadı", all(artik_yok(x) for x in DEPOLAR))
++finally:
++    for x in DEPOLAR:
++        for w in glob.glob(x + "-isirma-*"):
++            git(x, "worktree", "remove", "--force", w)
++            shutil.rmtree(w, ignore_errors=True)
++        shutil.rmtree(x, ignore_errors=True)
++
++if GERCEK:
++    print("\n=== GERÇEK (pozitif kontrol) ===")
++    dd, ds = os.path.join(D5_DIZIN, "D5-GUN-1010-v3.diff"), os.path.join(D5_DIZIN, "ARAC-D5-GUN-SINAV-1010.py")
++    if not (os.path.isfile(dd) and os.path.isfile(ds)):
++        sina("G1 D5-GUN pozitif kontrol", False, "dosyalar bulunamadı: %s" % D5_DIZIN)
++    else:
++        p = subprocess.run([sys.executable, ARAC, "--taban", "origin/main", "--diff", dd, "--sinav", ds], cwd=KOK,
++                           capture_output=True, env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++        out = p.stdout.decode("utf-8", "replace")
++        sina("G1 D5-GUN v3: yamalı 23/23 · yamasız 5/23 · TESADÜF = {S2,S4,S12,V1,V8} · ISIRIYOR 18 · çıkış 0",
++             p.returncode == 0 and "çıkış 1 · 5/23 geçti" in out and "çıkış 0 · 23/23 geçti" in out
++             and sorted(kova(out, "TESADÜF-YA-DA-SORULMAMIŞ") or []) == sorted(["S2", "S4", "S12", "V1", "V8"])
++             and len(kova(out, "ISIRIYOR") or []) == 18 and "ikisi de kaldırıldı" in out,
++             "çıkış %d · tesadüf %s" % (p.returncode, kova(out, "TESADÜF-YA-DA-SORULMAMIŞ")))
++else:
++    print("\n(G1 atlandı: --gercek-yok)")
++
++kalan = [a for a, k in SONUC if not k]
++print("\nSINAV: %d/%d geçti" % (len(SONUC) - len(kalan), len(SONUC)))
++for a in kalan:
++    print("  ✗ " + a)
++sys.exit(1 if kalan else 0)
