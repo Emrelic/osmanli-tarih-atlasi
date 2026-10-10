@@ -1,6 +1,6 @@
 --- a/arac/denetle.py
 +++ b/arac/denetle.py
-@@ -6064,6 +6064,85 @@
+@@ -6064,6 +6064,117 @@
      return ihlal
  
  
@@ -21,6 +21,14 @@
 +#   ⚠️ BEYANLI SINIR (ölçülmüş): kapı `kaynak:` DOLU mu diye sorar, NEYİ tarihlediğini bilmez.
 +#   Elbistan'ın 1281 halkasında kaynak var ama halkanın SONUNU (1337) tarihliyor ⇒ kapıdan geçer.
 +#   Bu sınıf kapı ile değil okuma ile bulunur (D267: araç doğru sayı verdiğini sanır).
++#   🔴 ÇAPA HAREKETLİ (koordinatör, 10 Ekim 2026): ölçüt yalnız `VERI_UFKU[0]`a bakarsa MÖ paketi
++#   ufku taşıdığı an kapı 1281 dikişlerine KÖR olur — tam FAZ 2'nin ortasında. `1281-01-01` burada
++#   bir AYAR değil bir TARİHSEL ARTEFAKTTIR ("ufuk bir zamanlar buradaydı"); ufuk taşınınca artefakt
++#   yerinde kalır. ⇒ Bir sabit yapılandırmayı temsil ediyorsa değişkene bağlanır, tarihî bir olguyu
++#   temsil ediyorsa BAĞLANMAZ. ÖLÇÜT: f ∈ ESKI_UFUKLAR ∪ {VERI_UFKU[0]}.
++#   ESKI_UFUKLAR KURALI: VERI_UFKU[0] her değiştiğinde ESKİ değer dayanağıyla buraya EKLENİR (sayı
++#   değil LİSTE, §3.4 ⑤). Ölü girdi tutulmaz: hiçbir `s:` dönemi o günde başlamıyorsa girdi düşer
++#   (`dikis_rapor` ölü girdiyi "ESKİ UFUK ÖLÜ" diye basar).
 +#   DEFTER: bugünkü 13 kaynaksız dikiş BORÇTUR (koordinatör hükmü: 12'si `selcuklu` t'si 1308'e
 +#   devir, Erzurum TDV ile 1308 — FAZ 2 veri partisi). Yeni üye = GERİLEME (çıkış 1); defterden
 +#   düşen üye = iyileşme, `DIKIS_DEFTER` elle küçültülür (tavan yalnız İNER).
@@ -41,33 +49,55 @@
 +})
 +
 +
-+def dikis_olc(Y, ufuk_bas=None):
-+    """VERI_UFKU[0] günündeki geçişler. Döner: {kaynaksiz, kaynakli, kirpma} → sıralı liste.
-+    Anahtar `dosya|ad|f|d`. kirpma = önünde dönem olmayan (s[0] konumundaki) halka (BİLGİ)."""
-+    ufuk_bas = ufuk_bas or VERI_UFKU[0]
-+    K = {"kaynaksiz": [], "kaynakli": [], "kirpma": []}
++ESKI_UFUKLAR = (
++    "1281-01-01",   # 10 Ekim 2026'ya kadar VERI_UFKU[0]; Z6 dikişlerinin günü (KASA-1281-ILK-HALKA-1010)
++)
++
++
++def dikis_olc(Y, ufuk_bas=None, eski=None):
++    """ESKI_UFUKLAR ∪ {VERI_UFKU[0]} günlerindeki geçişler.
++    Döner: {kaynaksiz, kaynakli, kirpma, olu_ufuk} → sıralı liste. Anahtar `dosya|ad|f|d`.
++    kirpma = önünde dönem olmayan (s[0] konumundaki) halka (BİLGİ) · olu_ufuk = hiçbir dönemin
++    başlamadığı ESKI_UFUKLAR girdisi (listeden düşmeli)."""
++    # 🔴 Kıyas DİZGİYLE DEĞİL `gun.gun()` ile (arac/gun.py, TEK otorite): "-3100-01-01" > "-2999-01-01"
++    #   dizgi olarak — MÖ paketinin önüne eklediği halka "önce" görünmezdi (sınavda ölçüldü, vaka 8).
++    import gun as _gunmod
++
++    def _gn(s):
++        try:
++            return _gunmod.gun(s)
++        except (TypeError, ValueError):
++            return None
++    gunler = set(ESKI_UFUKLAR if eski is None else eski) | {ufuk_bas or VERI_UFKU[0]}
++    K = {"kaynaksiz": [], "kaynakli": [], "kirpma": [], "olu_ufuk": []}
++    gorulen = set()
 +    for y in Y:
 +        S = [p for p in (y.get("s") or []) if isinstance(p, dict)]
 +        for p in S:
-+            if p.get("f") != ufuk_bas:
++            g = p.get("f")
++            if g not in gunler:
 +                continue
++            gorulen.add(g)
 +            a = "%s|%s|%s|%s" % (y.get("_kaynak"), y.get("ad"), p.get("f"), p.get("d"))
-+            if not any((q.get("f") or "9999") < ufuk_bas for q in S if q is not p):
++            gs = _gn(g)
++            if not any(_gn(q.get("f")) is not None and _gn(q.get("f")) < gs for q in S if q is not p):
 +                K["kirpma"].append(a)
 +            elif _kaynak_dolu(p.get("kaynak")):
 +                K["kaynakli"].append(a)
 +            else:
 +                K["kaynaksiz"].append(a)
++    K["olu_ufuk"] = [g for g in (ESKI_UFUKLAR if eski is None else eski) if g not in gorulen]
 +    return {k: sorted(v) for k, v in K.items()}
 +
 +
-+def dikis_rapor(Y, ayrinti=False, defter=None):
++def dikis_rapor(Y, ayrinti=False, defter=None, eski=None, ufuk_bas=None):
 +    """main() için: basar, GERİLEME varsa True döner."""
 +    defter = DIKIS_DEFTER if defter is None else defter
-+    D = dikis_olc(Y)
++    D = dikis_olc(Y, ufuk_bas=ufuk_bas, eski=eski)
 +    yeni = sorted(set(D["kaynaksiz"]) - set(defter))
 +    n = len(D["kaynaksiz"])
-+    print(f"\nEk denetim  {'✗' if yeni else '✓'}  {VERI_UFKU[0]} DİKİŞİ: kaynaksız geçiş {n} "
++    gunler = sorted(set(ESKI_UFUKLAR if eski is None else eski) | {ufuk_bas or VERI_UFKU[0]})
++    print(f"\nEk denetim  {'✗' if yeni else '✓'}  UFUK DİKİŞİ ({' · '.join(gunler)}): kaynaksız geçiş {n} "
 +          f"(defter {len(defter)}) · kaynaklı geçiş {len(D['kaynakli'])} · kırpma (s[0]) "
 +          f"{len(D['kirpma'])} — kırpma DOKUNULMAZ, geçiş günü kaynak ister")
 +    for k in (yeni if ayrinti else yeni[:15]):
@@ -76,6 +106,8 @@
 +    if ayrinti:
 +        for k in D["kaynakli"]:
 +            print(f"    DİKİŞ KAYNAKLI  {k}  (kapı geçer — kaynağın O GÜNÜ tarihlediği OKUNMADI)")
++    for g in D["olu_ufuk"]:
++        print(f"            ⚠️ ESKİ UFUK ÖLÜ: {g} — hiçbir `s:` dönemi bu günde başlamıyor ⇒ ESKI_UFUKLAR'dan düşür")
 +    if yeni:
 +        print(f"            🔴 GERİLEME: {len(yeni)} yeni kaynaksız dikiş — defter BÜYÜTÜLMEZ.")
 +    elif n < len(defter):
@@ -86,7 +118,7 @@
  def _kaynak_gerileme(K, T):
      """ÜYELİK ölçütü (blok yorumu): (yeni_h, yeni_d, hiçbiri tavanı, kayıt-kaynaksız tavanı)."""
      Hd, Dd = set(T["hicbiri_defter"]), set(T["donem_ici_defter"])
-@@ -7229,6 +7308,10 @@
+@@ -7229,6 +7340,10 @@
      if kaynak_tavan_rapor(Y, ayrinti=args.ayrinti):
          ihlal = True
  

@@ -61,6 +61,30 @@ FAZ 1 koşusunda doğrulanmalı.
 - **Öz-düzeltme 2:** Bayburt (`yerlesimler_anadolu_0914.js`) benim 13'ümde yoktu; yetkili yükleyiciyle VAR ⇒ EPOK'un
   14'ü TAMAM, fark kapandı.
 
+## 3b. v2 — ÇAPA HAREKETLİ düzeltmesi (koordinatör) + ölçerken bulunan ikinci kusur
+**Kusur 1 (koordinatör):** ölçüt yalnız `VERI_UFKU[0]`a bakıyordu. MÖ paketi ufku taşıyınca kapı 1281 dikişlerine
+KÖR olurdu. `1281-01-01` burada bir ayar değil tarihsel bir artefakt.
+⇒ **Çare:** `ESKI_UFUKLAR = ("1281-01-01",)` (dayanağıyla). Ölçüt `f ∈ ESKI_UFUKLAR ∪ {VERI_UFKU[0]}`. Ölü girdi
+"ESKİ UFUK ÖLÜ" diye basılır.
+**Kusur 2 (v2 sınavında ÖLÇÜLDÜ, vaka 8):** "önünde halka var mı" kıyası DİZGİYLE yapılıyordu.
+- `"-3100-01-01" > "-2999-01-01"` (dizgi) ⇒ MÖ paketinin eklediği halka "önce" görünmüyordu.
+- Ufuk taşındığında yeni ufkun dikişleri de kaçardı.
+- ⇒ **Çare:** kıyas `arac/gun.py` `gun()` ile yapılıyor; projenin tarih sayacında TEK otorite, tam bu tuzak için
+  yazılmış ("negatif yıl: '-0499' < '-2999' TERS sıra").
+**v2 sınavı — 10/10 GEÇTİ:**
+- Eski 1-7 (5 numara defter vakası, ayrıca §2'de).
+- **8** yeni ufuk dikişi (-3100 → -2999) İHLAL · **9** eski ufuk (1281) ufuk -2999'a taşınmışken İHLAL ·
+  **10** MÖ halkası (-0538) 1281'in önünde İHLAL · **11** -2999 s[0] kırpması 0.
+**Gerçek veri:**
+```
+BUGÜN                         ✓ UFUK DİKİŞİ (1281-01-01): 13 (defter 13) · kaynaklı 1 · kırpma 2442
+UFUK -2999'A TAŞINMIŞ         ✓ UFUK DİKİŞİ (-2999-01-01 · 1281-01-01): 13 (defter 13)   ← kapı GÖRMEYE devam ediyor
+TAŞINMIŞ, ESKI_UFUKLAR YOK    ✓ … 0 (defter 13)                                          ← eski kusurun KÖRLÜĞÜ (negatif kontrol)
+TAŞINMIŞ + İnegöl'e MÖ halkası ✗ İHLAL                                                    ← paket benzetimi
+ölü girdi ("1500-02-03")      ⚠️ ESKİ UFUK ÖLÜ                                             ← liste kendini temizletir
+```
+Diff v2: 131 satır, `git apply --check` temiz.
+
 ## 4. Uygulama notu
 - Diff yalnız `arac/denetle.py`'ye dokunuyor (+79 satır). Veri değişmez.
 - FAZ 2'de 13 dikiş 1308 devriyle düzeltildikçe `DIKIS_DEFTER` elle küçültülür; kapı "GEVŞEK" uyarısıyla hatırlatır.
