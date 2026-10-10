@@ -1,0 +1,134 @@
+diff --git a/arac/kos_ve_yayinla.py b/arac/kos_ve_yayinla.py
+index 187b61dd..b98f480f 100644
+--- a/arac/kos_ve_yayinla.py
++++ b/arac/kos_ve_yayinla.py
+@@ -37,6 +37,15 @@
+    ⚠️ PID yeniden kullanımı (ölü zincirin PID'ini başka süreç almış) CANLI
+    okunur ⇒ güvenli yön: başlatmaz; kayıt basılır, insan karar verir.
+ 
++📦 COMMIT YALNIZ YAYIN LİSTESİNİ TAŞIR (KOS-VE-YAYINLA-ADD-1010):
++   Liste `arac/yayin_listesi.py`den TÜRETİLİR ve satır satır basılır.
++   `git add -- <liste>` + `git commit -F <mesaj> -- <liste>` (aynı pathspec,
++   ADIYLA; `add -A` / `add .` / `commit -a` YOK), sonra `git show --name-only`
++   ile GERİ OKUNUR — liste dışı dosya taşıyorsa push YAPILMAZ. data/ altında
++   listede olmayan değişmiş/izlenmeyen her dosya ADIYLA basılır, commite
++   GİRMEZ. Liste DURDURUCU (gitignore'lu · diskte yok · BAYAT TÜREV) ya da
++   ÖLÇÜLEMEDİ verirse commit ATILMAZ.
++
+ Çıkış: 0 tamam · 1 bir adım/kapı düştü · 2 kilit ÖLÇÜLEMEDİ · 3 kilit
+ CANLI bir zincirde.
+ 
+@@ -55,6 +64,8 @@ import sys
+ import time
+ 
+ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++import yayin_listesi                                        # noqa: E402
+ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ LOG = os.path.join(KOK, "kosu_zincir.log")
+ MESAJ = os.path.join(KOK, "denetim", "zincir-commit-mesaji.txt")
+@@ -509,6 +520,24 @@ def _zincir(yayinla=True, uretimsiz=False):
+     kos("adres nöbetçisi (adres_nobetci.py)",
+         [sys.executable, "arac/adres_nobetci.py"], olumcul=False, dk=5)
+ 
++    # 🔴 YAYIN LİSTESİ — `git add -A -- data` YERİNE (KOS-VE-YAYINLA-ADD-1010).
++    #    Eski satır data/ altındaki HER ŞEYİ alıyordu: başka oturumların yarım
++    #    dosyaları ve izlenmeyen dosyalar dahil — `CLAUDE.md §7`: "`git add -A`
++    #    YASAK", burada bir ARAÇ yapıyordu. Ve `git commit -F` pathspec'siz
++    #    olduğu için İNDEKSTE başkasının hazırladığı her şeyi de taşıyordu.
++    #    Artık: liste `arac/yayin_listesi.py`den TÜRETİLİR (kural orada),
++    #    add ve commit AYNI pathspec'le ADIYLA, commit `git show --name-only`
++    #    ile GERİ OKUNUR. Listede olmayan kirli/izlenmeyen data/ dosyası
++    #    ADIYLA basılır ve commite GİRMEZ.
++    L = yayin_listesi.turet(KOK)
++    yaz("\n" + "=" * 66)
++    yaz("ADIM: yayın listesi (arac/yayin_listesi.py)")
++    yaz("=" * 66)
++    for s in L["satirlar"]:
++        yaz("   " + s)
++    for s in _liste_disi_kirli(L["liste"]):
++        yaz("   · listede DEĞİL, commite GİRMEZ: %s" % s)
++
+     if not yayinla:
+         yaz("\n🟡 --yayinlama verildi: damga/commit/push ATLANDI.")
+         beep(9)
+@@ -516,15 +545,32 @@ def _zincir(yayinla=True, uretimsiz=False):
+ 
+     # (sürüm damgası YUKARI TAŞINDI — kapıdan önce; gerekçesi orada.)
+ 
++    if L["dur"] or L["olculemedi"]:
++        yaz("🔴 YAYIN LİSTESİ %s — commit ve push YAPILMADI."
++            % ("DURDURUCU VERDİ" if L["dur"] else "ÖLÇÜLEMEDİ"))
++        return 1
++
+     # --- commit: mesaj ÖNCEDEN dosyaya yazılmış olmalı (§11) ----------
+     if not os.path.exists(MESAJ):
+         yaz("🔴 COMMIT MESAJI YOK: %s" % MESAJ)
+         yaz("   Zincir kurulurken yazılmalıydı. Yayın YAPILMADI.")
+         return 1
+-    kos("git add", ["git", "add", "-A", "--", "data", "index.html"],
+-        olumcul=False, dk=10)
+-    if kos("git commit", ["git", "commit", "-F", MESAJ], dk=10) is None:
++    liste = L["liste"]
++    if kos("git add (liste, ADIYLA)", ["git", "add", "--"] + liste, dk=10) is None:
+         return 1
++    if kos("git commit (aynı pathspec)", ["git", "commit", "-F", MESAJ, "--"] + liste,
++           dk=10) is None:
++        return 1
++    tasinan = _commit_dosyalari()
++    fazla = sorted(set(tasinan) - set(liste)) if tasinan is not None else None
++    if fazla is None:
++        yaz("🔴 commit GERİ OKUNAMADI (git show) — push YAPILMADI.")
++        return 1
++    if fazla:
++        yaz("🔴 commit LİSTE DIŞI dosya taşıyor: %s — push YAPILMADI." % " ".join(fazla))
++        return 1
++    yaz("✓ commit geri okundu: %d dosya, hepsi listede: %s"
++        % (len(tasinan), " ".join(tasinan)))
+     kos("git pull --rebase", ["git", "pull", "--rebase"], olumcul=False, dk=10)
+     if kos("git push", ["git", "push"], dk=10) is None:
+         return 1
+@@ -535,6 +581,33 @@ def _zincir(yayinla=True, uretimsiz=False):
+     return 0
+ 
+ 
++def _liste_disi_kirli(liste):
++    """data/ altında değişmiş ya da izlenmeyen, LİSTEDE OLMAYAN dosyalar (salt okur)."""
++    r = subprocess.run(["git", "-C", KOK, "status", "--porcelain=v1",
++                        "--untracked-files=all", "--", "data"],
++                       capture_output=True, text=True, encoding="utf-8", errors="replace")
++    if r.returncode != 0:
++        return ["(git status ÖLÇÜLEMEDİ: %s)" % (r.stderr or "").strip()[:100]]
++    sec = set(liste)
++    cikti = []
++    for satir in (r.stdout or "").splitlines():
++        durum, yol = satir[:2], satir[3:].strip().strip('"')
++        if " -> " in yol:
++            yol = yol.split(" -> ")[-1]
++        if yol not in sec:
++            cikti.append("%s (%s)" % (yol, "izlenmiyor" if durum == "??" else "değişmiş " + durum.strip()))
++    return cikti
++
++
++def _commit_dosyalari():
++    """Son commit'in taşıdığı dosyalar; okunamazsa None."""
++    r = subprocess.run(["git", "-C", KOK, "show", "--name-only", "--format=", "HEAD"],
++                       capture_output=True, text=True, encoding="utf-8", errors="replace")
++    if r.returncode != 0:
++        return None
++    return [l.strip() for l in (r.stdout or "").splitlines() if l.strip()]
++
++
+ def zamanla(saat, uretimsiz=False):
+     """Windows Görev Zamanlayıcısına bağla — TOKENSİZ koşar."""
+     ad = "AtlasYayinAgi" if uretimsiz else "AtlasKosuZinciri"
+@@ -585,7 +658,8 @@ def main(argv):
+         #   yalnız BASILAN METİN — denetim akışına dokunmuyor.
+         print("PLAN: uret_petek → uret_devirler → uret_altlik →")
+         print("      uret_bekleyenler → renk_olc → denetle → surum_damgala →")
+-        print("      denetle_yayin → adres_nobetci → commit → push → 9 bip")
++        print("      denetle_yayin → adres_nobetci → yayın listesi →")
++        print("      commit (yalnız liste, pathspec) → geri okuma → push → 9 bip")
+         print("      (surum_damgala YALNIZ yayın koşusunda; --yayinlama ile")
+         print("       ATLANIR ⇒ kuru koşuda `damga_ihlali` HÂLÂ ötebilir)")
+         print("commit mesajı: %s  (%s)"
