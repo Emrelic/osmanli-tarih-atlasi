@@ -1,0 +1,585 @@
+diff --git a/arac/olcum_agaci.py b/arac/olcum_agaci.py
+new file mode 100644
+index 00000000..7cdb7d92
+--- /dev/null
++++ b/arac/olcum_agaci.py
+@@ -0,0 +1,395 @@
++# -*- coding: utf-8 -*-
++"""ÖLÇÜM AĞACI — `origin/main`den taze bir worktree kurar ve ÜRETİLMİŞ gövdeyi çözer.
++
++🔴 NİÇİN GEREKTİ (UMIT, 10 Ekim 2026 gecesi — ölçüldü, tekrar tekrar):
++    `CLAUDE.md §1` ölçümü ayrı bir `origin/main` worktree'sinde ister. Ama taze
++    ağaçta `data/devletler_harita.js` ve `data/donemler.js` YOKTUR (ikisi de
++    `.gitignore`da; depoda yalnız kodlanmış hâlleri durur). Değişmez 8 o iki
++    dosyayı okur ⇒ `py arac/denetle.py` taze ağaçta HER ZAMAN ÇIKIŞ 2 verir.
++    Bu gece en az beş ajan bunu "bilinen sebep" diye geçti ⇒ taze ağaçta D8
++    HİÇ ölçülmedi. Ve her ajan "HEAD..origin/main kaç geride"yi elle sordu.
++
++    `CLAUDE.md §5`in tarifi elle yapılıyordu:
++        git worktree add <yol> origin/main --detach
++        cd <yol> && py arac/kodla.py coz-c data data/devletler_harita.js
++    Bu araç tarifin TAMAMINI yapar ve raporun istediği üç parametreyi
++    (taban commit · boyut · sha256) BASAR ve JSON'a yazar.
++
++🔴 ÇÖZÜM YEREL BİR ÜRÜNDÜR, YAYINDAKİ HARİTA DEĞİLDİR.
++    Tarayıcı `devletler_harita.js`i HİÇ yüklemez; `index.html`in `<script>`
++    satırları kodlanmış parçaları (`devlet_parcalar.js` + `devlet_harita_ust.js`)
++    yükler. Çözülen dosyanın yayındakiyle AYNI olduğunun tek kanıtı, kodlayıcının
++    parça dosyasına yazdığı ÖZGÜN METİN sha256'sıdır (`__DP_SHA` / `__PR_SHA`,
++    `kodla.py _yaz_c`). Araç çözdüğü dosyanın sha256'sını o damgayla karşılaştırır;
++    tutmazsa ÇIKIŞ 3 — "çözdüm" demek "doğru çözdüm" demek değildir.
++    ⚠️ `kodla.py coz-c` bu karşılaştırmayı KENDİSİ YAPMAZ (`coz_c` damgayı okur
++    ve atar: `onek, havuz_b, sonek, _sha`). Kapıyı burada kuruyoruz.
++
++🔴 ÇÖZÜCÜ AĞACIN KENDİ `kodla.py`sidir — bu aracın yanındaki değil.
++    Kodlama biçimi bir gün değişirse, eski bir `kodla.py` yeni parçayı yanlış
++    çözer. Aynı commit'in kodlayıcısı, aynı commit'in parçasını çözer.
++
++KULLANIM
++    py arac/olcum_agaci.py hazirla [--yol P] [--json J] [--hedef devlet,donem]
++                                   [--kok K] [--uzak origin]
++    py arac/olcum_agaci.py coz     <yol> [--json J] [--hedef ...]   (var olan ağaçta yeniden çöz)
++    py arac/olcum_agaci.py kaldir  <yol> [--kok K]
++
++    --yol verilmezse: <tmp>/olcum_agaci/agac-<YYYYMMDD-HHMMSS>
++    --json verilmezse: <tmp>/olcum_agaci/<ağaç adı>.olcum.json (ağacın İÇİNE
++                       değil: takipsiz dosya ölçülen ağacı kirletir)
++    --hedef varsayılanı devlet,donem: Değişmez 8 İKİSİNİ de okur
++                       (`denetle.py _D8_GOVDE_DAMGA`). Yalnız biri çözülürse D8
++                       yine ölçülemez.
++
++ÇIKIŞ KODLARI — sessiz başarı yok:
++    0  hazır (her hedef çözüldü VE sha256 damgayla birebir)
++    2  kullanım hatası (yanlış argüman · yol zaten var · araç-yapımı olmayan ağaç)
++    3  ÖLÇÜLEMEDİ — fetch yok · worktree kurulamadı · ağaç geride · çözme başarısız ·
++       damga yok · sha256 tutmuyor · kaldırma başarısız
++"""
++import datetime
++import hashlib
++import json
++import os
++import re
++import subprocess
++import sys
++import tempfile
++import time
++
++# kodla.py HEDEFLER'inin ihtiyaç duyduğumuz yansıması. Kaynak gerçeği o
++# dosyadır; aşağıdaki `_hedef_dogrula` ağacın kodla.py'sine SORAR ve bu
++# tablo onunla uyuşmuyorsa çıkış 3 verir (sessiz ayrışma yok).
++HEDEFLER = {
++    "devlet": {"kaynak": "devletler_harita.js", "parca": "devlet_parcalar.js",
++               "ust": "devlet_harita_ust.js", "sha": "__DP_SHA"},
++    "donem": {"kaynak": "donemler.js", "parca": "donem_parcalar.js",
++              "ust": "donemler_ust.js", "sha": "__PR_SHA"},
++}
++VARSAYILAN_HEDEF = ("devlet", "donem")
++ISARET = "olcum_agaci"          # ağacın ÖZEL gitdir'inde — çalışma ağacında değil
++UYARI = ("⚠️ Çözülen dosyalar YEREL bir ÇÖZÜMdür, yayındaki harita DEĞİLDİR: "
++         "tarayıcı index.html'in yüklediği kodlanmış parçaları okur. Aynılığın "
++         "tek kanıtı aşağıdaki sha256 = damga eşitliğidir.")
++
++
++class Olculemedi(Exception):
++    pass
++
++
++def _git(*a, cwd=None, kontrol=True):
++    r = subprocess.run(["git"] + list(a), cwd=cwd, capture_output=True,
++                       text=True, encoding="utf-8", errors="replace")
++    if kontrol and r.returncode != 0:
++        raise Olculemedi("git %s → %d: %s" % (" ".join(a), r.returncode,
++                                              (r.stderr or r.stdout).strip()[:300]))
++    return r
++
++
++def _sha256(yol):
++    h = hashlib.sha256()
++    with open(yol, "rb") as f:
++        for blok in iter(lambda: f.read(1 << 22), b""):
++            h.update(blok)
++    return h.hexdigest()
++
++
++def _damga(yol, ad):
++    with open(yol, encoding="utf-8") as f:
++        for s in f:
++            m = re.match(r"window\.%s\s*=\s*\"([0-9a-f]{64})\"" % ad, s)
++            if m:
++                return m.group(1)
++    return None
++
++
++def _kok_bul(verilen):
++    if verilen:
++        return os.path.abspath(verilen)
++    r = _git("rev-parse", "--show-toplevel",
++             cwd=os.path.dirname(os.path.abspath(__file__)), kontrol=False)
++    if r.returncode != 0:
++        raise Olculemedi("depo kökü bulunamadı (--kok ver)")
++    return os.path.abspath(r.stdout.strip())
++
++
++def _ozel_gitdir(yol):
++    r = _git("rev-parse", "--git-dir", cwd=yol, kontrol=False)
++    if r.returncode != 0:
++        return None
++    g = r.stdout.strip()
++    return g if os.path.isabs(g) else os.path.join(yol, g)
++
++
++def _index_iliskisi(yol, h):
++    """index.html hangi gövde dosyalarını yüklüyor — ve kaynağı yüklüyor MU?"""
++    with open(os.path.join(yol, "index.html"), encoding="utf-8") as f:
++        satirlar = f.read().split("\n")
++    src = re.compile(r'<script[^>]*src="data/([^"?]+)')
++    yuklenen = {}
++    for i, s in enumerate(satirlar, 1):
++        for m in src.finditer(s):
++            yuklenen.setdefault(m.group(1), i)
++    # ⚠️ Parça her zaman <script> satırında DEĞİL: `devlet_parcalar.js`i
++    #    `js/geo_coz.js` dinamik ekliyor (`s.src = "data/devlet_parcalar.js"`).
++    #    Yalnız index.html'e bakmak "yüklenmiyor" YANLIŞINI basardı (ölçüldü).
++    def _js_yukleyen(ad):
++        jsd = os.path.join(yol, "js")
++        desen = re.compile(r'src\s*=\s*"data/%s' % re.escape(ad))
++        for fn in sorted(os.listdir(jsd)) if os.path.isdir(jsd) else []:
++            if fn.endswith(".js"):
++                with open(os.path.join(jsd, fn), encoding="utf-8", errors="replace") as f:
++                    for i, s in enumerate(f, 1):
++                        if desen.search(s):
++                            return "js/%s:%d" % (fn, i)
++        return None
++
++    def _nerede(ad):
++        if ad in yuklenen:
++            return "index.html:%d" % yuklenen[ad]
++        return _js_yukleyen(ad)
++    return {
++        "ust": h["ust"], "ust_yukleyen": _nerede(h["ust"]),
++        "parca": h["parca"], "parca_yukleyen": _nerede(h["parca"]),
++        "kaynak_yukleniyor_mu": bool(_nerede(h["kaynak"])),
++    }
++
++
++def _hedef_dogrula(yol, adlar):
++    """Bu dosyanın HEDEFLER yansıması ağacın kodla.py'siyle uyuşuyor mu?"""
++    kod = ("import sys,json;sys.path.insert(0,'arac');import kodla;"
++           "print(json.dumps({k:{'kaynak':v['kaynak'],'parca':v['parca'],"
++           "'ust':v['ust'],'sha':v['sha']} for k,v in kodla.HEDEFLER.items()}))")
++    r = subprocess.run([sys.executable, "-c", kod], cwd=yol, capture_output=True,
++                       text=True, encoding="utf-8", errors="replace")
++    if r.returncode != 0:
++        raise Olculemedi("ağacın kodla.py'si okunamadı: %s" % r.stderr.strip()[-300:])
++    gercek = json.loads(r.stdout.strip().split("\n")[-1])
++    for ad in adlar:
++        if ad not in gercek:
++            raise Olculemedi("kodla.py'de '%s' hedefi YOK (var: %s)" % (ad, list(gercek)))
++        g = dict(gercek[ad])
++        g["sha"] = g["sha"].replace("window.", "")
++        if g != HEDEFLER[ad]:
++            raise Olculemedi("HEDEF AYRIŞTI — olcum_agaci %s ↔ kodla.py %s"
++                             % (HEDEFLER[ad], g))
++
++
++def _coz(yol, adlar):
++    _hedef_dogrula(yol, adlar)
++    sonuc = []
++    for ad in adlar:
++        h = HEDEFLER[ad]
++        parca = os.path.join(yol, "data", h["parca"])
++        if not os.path.isfile(parca):
++            raise Olculemedi("%s YOK — kodlanmış gövde ağaçta değil" % h["parca"])
++        damga = _damga(parca, h["sha"])
++        if not damga:
++            raise Olculemedi("%s içinde %s damgası YOK — çözümün doğruluğu sınanamaz"
++                             % (h["parca"], h["sha"]))
++        cikti = os.path.join("data", h["kaynak"])
++        t = time.perf_counter()
++        r = subprocess.run([sys.executable, "arac/kodla.py", "coz-c", "data", cikti, ad],
++                           cwd=yol, capture_output=True, text=True,
++                           encoding="utf-8", errors="replace")
++        sure = time.perf_counter() - t
++        tam = os.path.join(yol, cikti)
++        if r.returncode != 0 or not os.path.isfile(tam):
++            raise Olculemedi("kodla.py coz-c %s → %d: %s"
++                             % (ad, r.returncode, (r.stderr or r.stdout).strip()[-300:]))
++        sha = _sha256(tam)
++        k = {"hedef": ad, "dosya": cikti.replace("\\", "/"),
++             "bayt": os.path.getsize(tam), "sha256": sha, "damga": damga,
++             "damga_esit": sha == damga, "cozme_sn": round(sure, 1),
++             "index": _index_iliskisi(yol, h)}
++        sonuc.append(k)
++        if sha != damga:
++            raise Olculemedi("SHA256 TUTMUYOR — %s çözüldü ama %s… ≠ damga %s… "
++                             "(çözüm YANLIŞ ya da parça bozuk)" % (h["kaynak"], sha[:12], damga[:12]))
++    return sonuc
++
++
++def _bas_ve_yaz(rapor, json_yol):
++    print("ÖLÇÜM AĞACI · %s" % rapor["yol"])
++    print("  taban            %s  (%s)" % (rapor["taban_sha"], rapor["taban_ozet"]))
++    print("  HEAD..%s  %d  %s" % (rapor["uzak_dal"], rapor["geride"],
++                                     "✓" if rapor["geride"] == 0 else "✗"))
++    if rapor.get("kok_geride") is not None:
++        print("  (bilgi) ana checkout %s  HEAD..%s = %d"
++              % (rapor["kok"], rapor["uzak_dal"], rapor["kok_geride"]))
++    for k in rapor["cozulen"]:
++        ix = k["index"]
++        print("  %-22s %12d bayt  %.2f MB  sha256 %s  %s damga  %.1f sn"
++              % (k["dosya"], k["bayt"], k["bayt"] / 1048576, k["sha256"],
++                 "=" if k["damga_esit"] else "≠", k["cozme_sn"]))
++        print("      site yükler: %s ← %s · %s ← %s · %s yükleniyor mu: %s"
++              % (ix["ust"], ix["ust_yukleyen"] or "YOK (!)",
++                 ix["parca"], ix["parca_yukleyen"] or "YOK (!)",
++                 os.path.basename(k["dosya"]), "EVET (!)" if ix["kaynak_yukleniyor_mu"] else "HAYIR"))
++    print("  disk (çözülenler) %.2f MB" % (rapor["disk_bayt"] / 1048576))
++    print("  " + UYARI)
++    with open(json_yol, "w", encoding="utf-8") as f:
++        json.dump(rapor, f, ensure_ascii=False, indent=2)
++    print("  json  %s" % json_yol)
++
++
++def _vars_json(yol):
++    """Varsayılan JSON: <tmp>/olcum_agaci/<ağaç adı>.olcum.json.
++    Ağacın İÇİNE değil (ölçülen ağacı kirletir) ve ağacın YANINA da değil:
++    ölçüldü — `C:/atlas-olcumB` için yan dosya `C:/` köküne düşer ve
++    yönetici olmayan kullanıcıda PermissionError verir."""
++    d = os.path.join(tempfile.gettempdir(), "olcum_agaci")
++    os.makedirs(d, exist_ok=True)
++    return os.path.join(d, os.path.basename(os.path.normpath(yol)) + ".olcum.json")
++
++
++def _hedef_ayristir(s):
++    adlar = tuple(x.strip() for x in s.split(",") if x.strip())
++    if not adlar or any(a not in HEDEFLER for a in adlar):
++        raise ValueError("--hedef: %s (geçerli: %s)" % (s, ",".join(HEDEFLER)))
++    return adlar
++
++
++def hazirla(yol=None, json_yol=None, adlar=VARSAYILAN_HEDEF, kok=None, uzak="origin"):
++    kok = _kok_bul(kok)
++    if yol is None:
++        yol = os.path.join(tempfile.gettempdir(), "olcum_agaci",
++                           "agac-" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
++    yol = os.path.abspath(yol)
++    if os.path.exists(yol):
++        print("✗ KULLANIM — yol zaten var: %s" % yol, file=sys.stderr)
++        return 2
++    os.makedirs(os.path.dirname(yol), exist_ok=True)
++    json_yol = os.path.abspath(json_yol or _vars_json(yol))
++    dal = "%s/main" % uzak
++    kuruldu = False
++    try:
++        t0 = time.perf_counter()
++        _git("fetch", uzak, "--quiet", cwd=kok)
++        uzak_sha = _git("rev-parse", dal, cwd=kok).stdout.strip()
++        _git("worktree", "add", yol, dal, "--detach", cwd=kok)
++        kuruldu = True
++        gd = _ozel_gitdir(yol)
++        with open(os.path.join(gd, ISARET), "w", encoding="utf-8") as f:
++            f.write(json.dumps({"kuran": "arac/olcum_agaci.py", "uzak_sha": uzak_sha,
++                                "zaman": datetime.datetime.now().isoformat(timespec="seconds")}))
++        taban = _git("rev-parse", "HEAD", cwd=yol).stdout.strip()
++        geride = int(_git("rev-list", "--count", "HEAD..%s" % dal, cwd=yol).stdout.strip())
++        if taban != uzak_sha or geride != 0:
++            raise Olculemedi("ağaç %s değil (HEAD %s, geride %d)" % (dal, taban[:8], geride))
++        kg = _git("rev-list", "--count", "HEAD..%s" % dal, cwd=kok, kontrol=False)
++        cozulen = _coz(yol, adlar)
++        rapor = {
++            "arac": "arac/olcum_agaci.py", "surum": 1,
++            "zaman": datetime.datetime.now().isoformat(timespec="seconds"),
++            "yol": yol, "kok": kok, "uzak_dal": dal,
++            "taban_sha": taban, "taban_ozet": _git("log", "-1", "--format=%s", cwd=yol).stdout.strip()[:90],
++            "geride": geride,
++            "kok_geride": int(kg.stdout.strip()) if kg.returncode == 0 else None,
++            "cozulen": cozulen, "disk_bayt": sum(k["bayt"] for k in cozulen),
++            "toplam_sn": round(time.perf_counter() - t0, 1),
++            "uyari": UYARI,
++        }
++        _bas_ve_yaz(rapor, json_yol)
++        print("✓ HAZIR (%.0f sn) — ölçüm bu ağaçta: cd \"%s\"" % (rapor["toplam_sn"], yol))
++        print("  kaldırmak için: py arac/olcum_agaci.py kaldir \"%s\"" % yol)
++        return 0
++    except (Olculemedi, OSError) as e:
++        print("✗ ÖLÇÜLEMEDİ — %s: %s" % (type(e).__name__, e), file=sys.stderr)
++        if kuruldu:
++            print("  (ağaç YERİNDE bırakıldı, incelemek için; kaldır: "
++                  "py arac/olcum_agaci.py kaldir \"%s\")" % yol, file=sys.stderr)
++        return 3
++
++
++def coz(yol, json_yol=None, adlar=VARSAYILAN_HEDEF):
++    yol = os.path.abspath(yol)
++    gd = _ozel_gitdir(yol) if os.path.isdir(yol) else None
++    if not gd or not os.path.isfile(os.path.join(gd, ISARET)):
++        print("✗ KULLANIM — %s bu aracın kurduğu bir ağaç değil" % yol, file=sys.stderr)
++        return 2
++    try:
++        dal = json.load(open(os.path.join(gd, ISARET), encoding="utf-8"))
++        taban = _git("rev-parse", "HEAD", cwd=yol).stdout.strip()
++        cozulen = _coz(yol, adlar)
++        rapor = {"arac": "arac/olcum_agaci.py", "surum": 1, "yol": yol, "kok": None,
++                 "uzak_dal": "origin/main", "taban_sha": taban,
++                 "taban_ozet": _git("log", "-1", "--format=%s", cwd=yol).stdout.strip()[:90],
++                 "geride": int(_git("rev-list", "--count", "HEAD..origin/main", cwd=yol).stdout.strip()),
++                 "kok_geride": None, "kurulus": dal,
++                 "cozulen": cozulen, "disk_bayt": sum(k["bayt"] for k in cozulen),
++                 "uyari": UYARI}
++        _bas_ve_yaz(rapor, os.path.abspath(json_yol or _vars_json(yol)))
++        if rapor["geride"]:
++            print("✗ ÖLÇÜLEMEDİ — ağaç origin/main'in %d gerisinde (yeniden hazirla)"
++                  % rapor["geride"], file=sys.stderr)
++            return 3
++        return 0
++    except (Olculemedi, OSError, ValueError) as e:
++        print("✗ ÖLÇÜLEMEDİ — %s: %s" % (type(e).__name__, e), file=sys.stderr)
++        return 3
++
++
++def kaldir(yol, kok=None):
++    yol = os.path.abspath(yol)
++    gd = _ozel_gitdir(yol) if os.path.isdir(yol) else None
++    # 🔴 Yalnız KENDİ kurduğumuz ağacı kaldırırız: aynı makinede başka ajanların
++    #    worktree'leri var (C:\atlas-parti, -tekil, ...). İşaret özel gitdir'de.
++    if not gd or not os.path.isfile(os.path.join(gd, ISARET)):
++        print("✗ KULLANIM — %s bu aracın kurduğu bir ağaç değil; kaldırılmadı" % yol,
++              file=sys.stderr)
++        return 2
++    try:
++        kok = _kok_bul(kok)
++        _git("worktree", "remove", "--force", yol, cwd=kok)
++        _git("worktree", "prune", cwd=kok)
++        liste = _git("worktree", "list", "--porcelain", cwd=kok).stdout
++        if os.path.exists(yol) or ("worktree " + yol.replace("\\", "/")).lower() in liste.lower():
++            raise Olculemedi("kaldırıldı dendi ama %s hâlâ duruyor" % yol)
++        j = _vars_json(yol)
++        print("✓ KALDIRILDI — %s%s" % (yol, " (json yerinde: %s)" % j if os.path.isfile(j) else ""))
++        return 0
++    except (Olculemedi, OSError) as e:
++        print("✗ ÖLÇÜLEMEDİ — kaldırma: %s: %s" % (type(e).__name__, e), file=sys.stderr)
++        return 3
++
++
++def main(argv):
++    import argparse
++    p = argparse.ArgumentParser(prog="olcum_agaci.py", add_help=True)
++    alt = p.add_subparsers(dest="komut")
++    h = alt.add_parser("hazirla")
++    h.add_argument("--yol"); h.add_argument("--json"); h.add_argument("--kok")
++    h.add_argument("--uzak", default="origin")
++    h.add_argument("--hedef", default=",".join(VARSAYILAN_HEDEF))
++    c = alt.add_parser("coz")
++    c.add_argument("yol"); c.add_argument("--json")
++    c.add_argument("--hedef", default=",".join(VARSAYILAN_HEDEF))
++    k = alt.add_parser("kaldir")
++    k.add_argument("yol"); k.add_argument("--kok")
++    try:
++        a = p.parse_args(argv)
++    except SystemExit as e:
++        return 2 if e.code else 0
++    if not a.komut:
++        print(__doc__)
++        return 2
++    try:
++        if a.komut == "hazirla":
++            return hazirla(a.yol, a.json, _hedef_ayristir(a.hedef), a.kok, a.uzak)
++        if a.komut == "coz":
++            return coz(a.yol, a.json, _hedef_ayristir(a.hedef))
++        return kaldir(a.yol, a.kok)
++    except ValueError as e:
++        print("✗ KULLANIM — %s" % e, file=sys.stderr)
++        return 2
++
++
++if __name__ == "__main__":
++    try:
++        sys.stdout.reconfigure(encoding="utf-8")
++        sys.stderr.reconfigure(encoding="utf-8")
++    except Exception:
++        pass
++    sys.exit(main(sys.argv[1:]))
+diff --git a/denetim/ARAC-OLCUM-AGACI-SINAV-1010.py b/denetim/ARAC-OLCUM-AGACI-SINAV-1010.py
+new file mode 100644
+index 00000000..332aacc9
+--- /dev/null
++++ b/denetim/ARAC-OLCUM-AGACI-SINAV-1010.py
+@@ -0,0 +1,178 @@
++# -*- coding: utf-8 -*-
++"""SINAV — arac/olcum_agaci.py (OLCUM-AGACI-1010). İKİ YÖNDE, biri GERÇEK koşulda.
++
++    py denetim/ARAC-OLCUM-AGACI-SINAV-1010.py [--tam]
++
++Soruların her biri "ötmesi gerekirken öter mi" VE "susması gerekirken susar mı"
++ikilisinin bir yüzüdür. GERÇEK koşul: gerçek fetch, gerçek worktree, gerçek
++`kodla.py coz-c`, gerçek `denetle.py` D8 kapısı (`_d8_govde_kimlik`).
++--tam: ek olarak iki ağaçta TAM `denetle.py` koşar (≈2-4 dk/ağaç) ve D8
++satırını ADIYLA basar.
++
++Sınav kendi kurduğu ağaçları kendisi kaldırır; başarısızlıkta da (finally).
++"""
++import json
++import os
++import re
++import shutil
++import subprocess
++import sys
++import tempfile
++
++BURA = os.path.dirname(os.path.abspath(__file__))
++KOK = os.path.dirname(BURA)
++ARAC = os.path.join(KOK, "arac", "olcum_agaci.py")
++PY = sys.executable
++TAM = "--tam" in sys.argv
++KAP = tempfile.mkdtemp(prefix="olcum_agaci_sinav_")
++SONUC = []
++
++
++def kos(*a, cwd=KOK):
++    r = subprocess.run([PY, ARAC] + list(a), cwd=cwd, capture_output=True,
++                       text=True, encoding="utf-8", errors="replace")
++    return r.returncode, r.stdout + r.stderr
++
++
++def git(*a, cwd=KOK):
++    return subprocess.run(["git"] + list(a), cwd=cwd, capture_output=True,
++                          text=True, encoding="utf-8", errors="replace")
++
++
++def soru(no, ad, kosul, ayrinti=""):
++    SONUC.append(bool(kosul))
++    print("  %s S%-2d %s%s" % ("✓" if kosul else "✗", no, ad,
++                               ("  — " + ayrinti) if ayrinti else ""))
++
++
++def wt_listede(yol):
++    return os.path.normcase(yol).replace("\\", "/") in \
++        os.path.normcase(git("worktree", "list", "--porcelain").stdout).replace("\\", "/")
++
++
++def d8_kapi(agac):
++    """denetle.py'nin GERÇEK D8 gövde kapısı. 0 = geçti · 1 = raise (mesaj döner)."""
++    kod = ("import sys;sys.path.insert(0,'arac');import denetle\n"
++           "try:\n denetle._d8_govde_kimlik();print('GECTI')\n"
++           "except Exception as e:\n print('RAISE',type(e).__name__,str(e)[:140])")
++    r = subprocess.run([PY, "-c", kod], cwd=agac, capture_output=True, text=True,
++                       encoding="utf-8", errors="replace")
++    return r.stdout.strip().split("\n")[-1] if r.stdout.strip() else "ÇIKTI YOK " + r.stderr[-200:]
++
++
++def tam_denetle(agac):
++    r = subprocess.run([PY, "arac/denetle.py"], cwd=agac, capture_output=True,
++                       text=True, encoding="utf-8", errors="replace")
++    d8 = [s for s in r.stdout.split("\n") if s.startswith("Değişmez 8")]
++    return r.returncode, d8
++
++
++def main():
++    print("SINAV olcum_agaci · araç %s" % ARAC)
++    A = os.path.join(KAP, "hazir")
++    C = os.path.join(KAP, "ciplak")
++    Y = os.path.join(KAP, "yok-fetch")
++    try:
++        # ── kullanım (2) ────────────────────────────────────────────────
++        k, _ = kos()
++        soru(1, "argümansız → 2", k == 2, "çıkış %d" % k)
++        k, _ = kos("hazirla", "--hedef", "devlet,uydurma", "--yol", Y)
++        soru(2, "bilinmeyen hedef → 2, ağaç KURULMAZ", k == 2 and not os.path.exists(Y), "çıkış %d" % k)
++        k, o = kos("kaldir", KOK)
++        soru(3, "araç-yapımı olmayan ağacı kaldır → 2, ağaç YERİNDE",
++             k == 2 and os.path.isdir(os.path.join(KOK, "arac")), "çıkış %d" % k)
++        os.makedirs(os.path.join(KAP, "dolu"))
++        k, _ = kos("hazirla", "--yol", os.path.join(KAP, "dolu"))
++        soru(4, "yol zaten var → 2", k == 2, "çıkış %d" % k)
++
++        # ── fetch başarısızlığı (3) ─────────────────────────────────────
++        k, o = kos("hazirla", "--yol", Y, "--uzak", "olcum-agaci-yok-uzak")
++        soru(5, "fetch başarısız → 3, ağaç KURULMAZ, listede YOK",
++             k == 3 and not os.path.exists(Y) and not wt_listede(Y),
++             "çıkış %d · %s" % (k, o.strip().split("\n")[-1][:90]))
++
++        # ── GERÇEK: hazırla (0) ─────────────────────────────────────────
++        # --json VERİLMEZ: varsayılan yol da sınanır (ilk sürüm onu ağacın
++        # yanına yazıyordu; `C:/x` için `C:/` kökü → PermissionError, ölçüldü).
++        J = os.path.join(tempfile.gettempdir(), "olcum_agaci", "hazir.olcum.json")
++        if os.path.isfile(J):
++            os.remove(J)
++        k, o = kos("hazirla", "--yol", A)
++        soru(6, "GERÇEK hazirla → 0 · varsayılan JSON <tmp>/olcum_agaci/ altında",
++             k == 0 and os.path.isfile(J), "çıkış %d" % k)
++        R = json.load(open(J, encoding="utf-8")) if os.path.isfile(J) else {}
++        om = git("rev-parse", "origin/main").stdout.strip()
++        soru(7, "taban = origin/main · HEAD..origin/main = 0",
++             R.get("taban_sha") == om and R.get("geride") == 0,
++             "%s · geride %s" % (str(R.get("taban_sha"))[:8], R.get("geride")))
++        cz = R.get("cozulen") or []
++        ok = len(cz) == 2 and all(
++            c["damga_esit"] and os.path.getsize(os.path.join(A, c["dosya"])) == c["bayt"]
++            for c in cz)
++        soru(8, "iki gövde çözüldü · boyut diskte birebir · sha256 = damga", ok,
++             " · ".join("%s %.1f MB %s… %.0fs" % (c["dosya"], c["bayt"] / 1048576,
++                                                    c["sha256"][:12], c["cozme_sn"]) for c in cz))
++        soru(9, "çıktı YEREL ÇÖZÜM uyarısını basıyor · kaynak siteye yüklenmiyor",
++             "YEREL bir ÇÖZÜM" in o and cz and not any(c["index"]["kaynak_yukleniyor_mu"] for c in cz)
++             and all(c["index"]["ust_yukleyen"] and c["index"]["parca_yukleyen"] for c in cz))
++
++        # ── D8 kapısı İKİ YÖNDE (GERÇEK denetle.py işlevi) ──────────────
++        r = git("worktree", "add", C, "origin/main", "--detach")
++        d_ciplak = d8_kapi(C) if r.returncode == 0 else "kurulamadı"
++        d_hazir = d8_kapi(A)
++        soru(10, "çıplak ağaçta D8 kapısı RAISE (ölçülemez)", d_ciplak.startswith("RAISE"), d_ciplak[:110])
++        soru(11, "hazır ağaçta D8 kapısı GEÇİYOR", d_hazir == "GECTI", d_hazir[:110])
++
++        # ── çözme başarısızlığı (3): damgayı boz, coz ötmeli ───────────
++        p = os.path.join(A, "data", "donem_parcalar.js")
++        metin = open(p, encoding="utf-8", newline="").read()
++        bozuk = re.sub(r'(window\.__PR_SHA=")[0-9a-f]{64}', r"\g<1>" + "0" * 64, metin, count=1)
++        with open(p, "w", encoding="utf-8", newline="") as f:
++            f.write(bozuk)
++        k, o = kos("coz", A, "--hedef", "donem", "--json", os.path.join(KAP, "bozuk.json"))
++        soru(12, "damga tutmuyor → coz 3", k == 3 and "TUTMUYOR" in o, "çıkış %d" % k)
++        git("checkout", "--", "data/donem_parcalar.js", cwd=A)
++        k, o = kos("coz", A, "--hedef", "donem", "--json", os.path.join(KAP, "onarik.json"))
++        # ⚠️ Ölçüldü (ilk koşu, 10 Ekim): sınav 10 dk sürdü, origin/main o arada
++        #    İLERLEDİ ve `coz` doğru olarak 3 verdi ("gerisinde"). Bu bir kusur
++        #    değil kapının kendisi — ama S13'ün sorusu ÇÖZME'dir. İkisi ayrı basılır.
++        geride = "gerisinde" in o
++        soru(13, "onarılınca çözüm = damga (ters yön)",
++             "= damga" in o and "TUTMUYOR" not in o and (k == 0 or (k == 3 and geride)),
++             "çıkış %d%s" % (k, " · origin/main sınav sırasında İLERLEDİ ⇒ 3 DOĞRU" if geride else ""))
++
++        if TAM:
++            kc, d8c = tam_denetle(C)
++            kh, d8h = tam_denetle(A)
++            soru(14, "TAM denetle çıplak: çıkış 2 + D8 ÖLÇÜLEMEDİ",
++                 kc == 2 and any("ÖLÇÜLEMEDİ" in s for s in d8c), "çıkış %d · %s" % (kc, (d8c or ["-"])[0][:100]))
++            soru(15, "TAM denetle hazır: D8 ÖLÇÜLDÜ (ÖLÇÜLEMEDİ yok)",
++                 d8h and not any("ÖLÇÜLEMEDİ" in s for s in d8h), "çıkış %d · %s" % (kh, " | ".join(d8h)[:160]))
++
++        # ── kaldır (0) ve tekrar (2) ───────────────────────────────────
++        k, _ = kos("kaldir", A)
++        soru(16, "kaldir → 0, dizin YOK, listede YOK",
++             k == 0 and not os.path.exists(A) and not wt_listede(A), "çıkış %d" % k)
++        k, _ = kos("kaldir", A)
++        soru(17, "aynı ağacı ikinci kez kaldır → 2", k == 2, "çıkış %d" % k)
++    finally:
++        for y in (A, C, Y):
++            if os.path.exists(y) or wt_listede(y):
++                git("worktree", "remove", "--force", y)
++        git("worktree", "prune")
++        shutil.rmtree(KAP, ignore_errors=True)
++        try:
++            os.remove(os.path.join(tempfile.gettempdir(), "olcum_agaci", "hazir.olcum.json"))
++        except OSError:
++            pass
++    n, g = len(SONUC), sum(SONUC)
++    print("SONUÇ %d/%d %s" % (g, n, "GEÇTİ" if g == n else "KALDI"))
++    return 0 if g == n else 1
++
++
++if __name__ == "__main__":
++    try:
++        sys.stdout.reconfigure(encoding="utf-8")
++    except Exception:
++        pass
++    sys.exit(main())
