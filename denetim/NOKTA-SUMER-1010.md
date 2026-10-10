@@ -62,7 +62,7 @@ elle koşturdum: **`OLCULEMEDI`** veriyor (uret_petek.py'de `GUN_SAYACI = True` 
   (`/vocabularies/time-periods`, 220 dönem yılıyla ayrıştırıldı).
 - TGN (B10 için yeni ölçüm): `vocab.getty.edu/sparql.json`, 20 terim, hepsi HTTP 200.
 
-### 1.2 ANA DIFF — 13 nokta (`denetim/NOKTA-SUMER-1010.diff`)
+### 1.2 ANA DIFF — 13 nokta (v1) — ⚠️ BAYAT: `bit:` değerleri ve Tutub §5'te (v2) DÜZELTİLDİ
 Koordinat = Pleiades `reprPoint` (KASA ile aynı). `bit:` kuralı ve gerekçesi §2'de.
 
 | # | ad | Pleiades | 2. tanık | `kur:` | `bit:` | kesinlik |
@@ -85,7 +85,7 @@ Koordinat = Pleiades `reprPoint` (KASA ile aynı). `bit:` kuralı ve gerekçesi 
 uzaklığı — HUKUM-KASA-1010 §9.4'ün kabul ettiği "zayıf ama beyanlı tanık".
 `kur:` değerlerinin tamamı KASA-SUMER-KUR-1010 §1.2'den; sınıf harfi o tablonun.
 
-### 1.3 B10 DIFF — 9 nokta (`denetim/NOKTA-SUMER-1010-B10.diff`) — AYRI, seçmelik
+### 1.3 B10 DIFF — 9 nokta (v1) — ⚠️ BAYAT: Uruk · Ur · Nippur · Larsa · Şuruppak §5'te (v2) DÜZELTİLDİ
 | ad | Pleiades | 2. tanık (bu turda ölçüldü) | `bit:` | kesinlik |
 |---|---|---|---|---|
 | Uruk (Warka) | 912986 | TGN 7016635 1,28 yuvarlak ✗ · iç 0,08 | MS 750 (ad 'Warka' Emevî dönemi) | yuzyil |
@@ -132,7 +132,7 @@ uygulanır** (B10 dizinin BAŞINA, ana diff SONUNA ekler) — ikisi de tek baş�
 
 ---
 
-## 2. `bit:` KURALI — ne seçtim ve niçin (koordinatör değiştirebilir)
+## 2. `bit:` KURALI (v1) — ⚠️ kural 3 §5'te GERİ ALINDI
 ⓐ hükmü: *"`kur:`/`t:` dönem aralığının UÇLARINDAN"*. Şema'da `t:` yerleşim alanı yok;
 VARLIĞIN sonu `bit:` (motor okur: `uret_petek.py:4933` · `denetle.py:1253`). Uygulanan sıra:
 1. **Siteye özgü Pleiades açıklaması** bir son veriyorsa O (Bad-tibira · Marad · Isin ·
@@ -194,5 +194,65 @@ Umma · Şuruppak · Larsa.
   (`rg` 0 eşleşme) ⇒ etiket/işaret olarak ÇİZİLMEZ. Not: `d_katman.js:593` yalnız `kur:`
   süzer, `bit:`i süzmez — bu noktalar bir gün `window.YERLESIMLER`e girerse Osmanlı
   döneminde de çizilirler.
-- 📦 Dosya `data/paket_23.js` içinde paketli (`index.html:1609-1619`) ⇒ diff indikten sonra
+- 📦 (v1 notu, v2'de de geçerli) Dosya `data/paket_23.js` içinde paketli (`index.html:1609-1619`) ⇒ diff indikten sonra
   **yeniden paketleme** gerekir, yoksa yayın kapısı paket tazeliğinden öter.
+
+---
+
+## 5. v2 — koordinatörün EK UYARISI sonrası (TAVO hükmü · Ur · Nina · Eridu)
+Taban: `origin/main` @ `9b9fafe27ac675aff264c98663028dc2455b9db9` (hedef dosya
+`1f080648`den beri DEĞİŞMEDİ — `git diff --quiet` ile ölçüldü). **Diff dosyaları v2 ile
+DEĞİŞTİRİLDİ** (aynı adlar); v1 bu dalın ilk commit'inde (`a2d0dec1`) duruyor.
+
+### 5.1 Eridu — iki kayıt
+Kullandığım kayıt **912845** (tell). `54136919` (Babil'in Eridu mahallesi) bu işte HİÇ
+kullanılmadı — indirdiğim 27 kaydın arasında yok. ✓ Değişiklik gerekmedi.
+
+### 5.2 TAVO — ölçtüm, ve KASA'nın genellemesi bu 21 noktada TUTMUYOR
+Her tasdik satırının `provenance`ını okudum (`tavo.py`, scratchpad):
+- ✅ TAVO'dan gelip benim v1 `bit:`ime GİRMİŞ olanlar: **Uruk** (MS 750 ← 'Warka' TAVO) ·
+  **Nippur** (MS 750 ← 'Niffar' TAVO) · **Larsa** (MÖ 140 ← TAVO hellenistic) ·
+  **Tutub** (tüm tarihli etiketleri TAVO) · **Şuruppak** `kur:` sınıfı (ubaid-ED II, TAVO).
+- ❌ Ama *"late-antique etiketleri yalnız TAVO satırlarındaydı"* **bu kümede yanlış:**
+  Sippar · Dilbat · Kiş · Kutha · Uruk · Nippur'un late-antique etiketleri **Barrington
+  Atlas** satırlarında (yazar M. Roaf, St J. Simpson vb.). Yalnız **Ur**'unki TAVO'da.
+⇒ Ve bu, v1'deki **kural 3'ümü** (Yunan-Roma etiketlerini hiç sayma) çürütüyor: ek uyarı
+*"geç etiket TAVO'dan geliyorsa sayılmaz"* diyor ⇒ TAVO-DIŞI geç etiket (Barrington)
+SAYILIR. Barrington'un Yunan-Roma dönemleri kendi uzmanlık alanıdır; KASA-KUR'un dışlaması
+`kur:` içindi (Barrington MÖ 750 öncesini kapsamaz ⇒ erken uçta susması kanıt değil) —
+**geç uçta aynı gerekçe işlemez.** v1'deki simetri akıl yürütmem yanlıştı.
+
+**v2 kuralı:** ① koordinatörün/KASA'nın adlı akademik hükmü (Ur · Nina) ② siteye özgü
+Pleiades açıklaması (Bad-tibira · Dilbat · Kiş) ③ son **TAVO-dışı** tasdikin sonu
+(Barrington dahil) ④ `provenance: TAVO Index` satırları SAYILMAZ (MIMARI §5.1b).
+
+### 5.3 v2 değerleri — yalnız DEĞİŞENLER
+| nokta | v1 `bit:` | v2 `bit:` | dayanak |
+|---|---|---|---|
+| Girsu | `-1599` | **`-0549`** (MÖ 550) | Barrington 'Girsu' archaic |
+| Marad | `-0538` | **`-0029`** (MÖ 30) | Barrington hellenistic-republican; açıklamanın Yeni Babil cümlesi TAPINAĞI tarihliyor (§4 ⑧) |
+| Isin | `-0538` | **`-0329`** (MÖ 330) | Barrington classical; açıklamanın "at least 539" alt sınırıyla uyumlu |
+| Kutha | `-0539` | **`0640`** | Barrington late-antique |
+| Sippar | `0640` 🟡yedek | `0640` (artık kural ③) | Barrington + DARE late-antique |
+| Nina | `-0329` 🟡yedek | `-0329` | koordinatör/KASA ile AYNI ✓ |
+| **Tutub** | `-1599` | **DİFF'TEN ÇIKTI** | tarihli bütün etiketleri TAVO ⇒ varlık penceresi ÖLÇÜLEMEDİ; `bit:`siz yazılırsa 1281-1923'te canlı+sahipsiz olur |
+| Uruk | `0750` | **`0640`** | Barrington late-antique; 'Warka' Emevî = TAVO |
+| **Ur** | `0000` | **`-0316`** (MÖ 317) `yil` | Brinkman RlA 14 (koordinatörün ilettiği KASA ölçümü) |
+| Nippur | `0750` | **`0640`** | Barrington + DARMC late-antique; 'Niffar' = TAVO |
+| Larsa | `-0139` | **`0300`** | Barrington roman; hellenistic = TAVO |
+| Şuruppak | `kur:` yok | **`kur:-2949`** (MÖ 2950) | en erken TAVO-dışı: OSM konumu early-dynastic; KASA-KUR'un A sınıfı TAVO satırındandı |
+| Kiş | `-0139` | `-0139` + ⚠️ ÇELİŞKİ notu | açıklama "abandonment under the Seleucids" ↔ Barrington 'Kish' late-antique. Açıklamayı esas aldım; **karar senin** |
+
+Değişmeyenler: Bad-tibira `-0539` · Zabalam `-0999` · Kisurra `-1599` · Dilbat `0750` ·
+Tell al-Ubaid `-2949` · Eşnunna `-1599` · Lagaş `-1599` · Eridu `0499` 🟡 · Umma `-0999`.
+⇒ **ANA 12 · B10 9 = 21 nokta.** En geç `bit:` hâlâ MS 750 (Dilbat) < 1281.
+
+### 5.4 v2 doğrulama
+```
+git apply --check (taban 9b9fafe2)   ana ✓ · B10 ✓ · B10 ana'nın üstüne ✓ · node --check ✓
+denetle.py (v2, iki diff)            çıkış 2, tabanla AYNI (yerleşim sayısı dışında satır farkı 0)
+                                     Değişmez 1: 4321 yerleşim, 309 sahipsiz (beklenen 309) ✓
+gun.capraz_kapi                      negatif tarihlerde kayma 0; ③-uyarısı 5 (Eridu · Larsa ·
+                                     Dilbat · Kutha · Sippar) — §3'teki ALAN TASARIMI sorunu,
+                                     MS bit:'li kayıt arttığı için 3'ten 5'e çıktı
+```
