@@ -322,3 +322,31 @@ Hipotez **genel haliyle TUTMADI**:
 ### Sürmekte
 - 911–746 palû yıllıkları: okuyucu ORACC JSON yolunu deniyor. Sonuç gelmeden ÖLÇÜLEMEDİ yazılmadı.
 - ⓒ şehir ilk kayıtları: 35 KAYIT koordinatlı; 3 okuyucu + 2 geç dönen alt-rapor çapraz denetlenecek.
+
+## 13. Koordinatör hükmü (Babil v:asur, Laqe -810) — uygulama
+### Laqe: şık **(b)'nin düzeltilmiş hali**
+KASA kaynağı KENDİ okudu: RlA 6 s.492–494 (Postgate), görüntüler `https://publikationen.badw.de/de/rla/a/6.527.jpg`, `.528`, `.529`.
+- **-810 OLAY DEĞİL, ② SINIR ve BÖLGE ADINI tarihliyor:**
+  - *"In the 8th century L. is mentioned as part of the provincial holdings of Palil-ēreš, between Sirqu and Ḫindānu … (Iraq 30 [1968] 142:13)"*.
+  - Bu bir valinin toprakları içinde anılan BÖLGE ⇒ **AD VAR, POLITY YOK** (D204'ün kardeşi). Senin ⓒ şüphen DOĞRULANDI.
+- **Ek bulgu, eski değerde YÖN HATASI:**
+  - Postgate *"incorporated … by the reign of Adad-nirari III (810–783)"* diyor.
+  - Tanık o saltanatın HERHANGİ bir yılı olabilir ⇒ güvenli ÜST sınır **-783**. -810 kanıtın söylediğinden 27 yıl erken bir bitiş iddia ediyordu.
+  - POLITY `lake` t: -810 → **-783 (② ÜST SINIR)**. -810 nota geçti; KRONOLOJİ yıkılış satırı da -783.
+- **Senin şıkkın "(b) → t 859'a İNER" UYGULANAMADI**, çünkü 859 de çürüdü:
+  - *"presumably therefore this was not a very successful campaign, although it did not prevent Aššur-naṣir-apli from including 'the land of L. in its entirety' among his conquests in his standard inscriptions"*.
+  - ⇒ Aššurnaṣirpal II'nin "bütün Laqe" ifadesi bir kraliyet İDDİASI, eyaletleşme değil.
+  - SUZEREN `lake` suzeren_t ≤-859 GERİ ÇEKİLDİ → ≤-783 (②).
+  - Okuyucunun ≤859'u RIAo'nun GENEL bir cümlesinden ("system of provinces") türetilmişti, Laqe'ye özgü değildi. **Kapı geçti, sebep yanlış** ailesi.
+- **Çelişki çözüldü:** iki uç da sınır ve artık aynı tanığa dayanıyor (≤-783). ① OLAY yok, t'nin gerçek değeri ÖLÇÜLEMEDİ.
+- **Açık soru, hüküm senin:**
+  - §3: *"The 'land of L.' was never under one ruler, and was at best a loose confederation of Aramaean sheikhs"*.
+  - ⇒ `lake` tek polity değil bir KONFEDERASYON. Künye mi kalsın, `kaldu` gibi "tek polity DEĞİL" etiketi mi alsın?
+
+### Babil 729–626: hüküm UYGULANAMADI biçimiyle — engel
+- Hüküm "mevcut Babil künyesine `v:asur` dilimleri yazılır" diyor.
+- Ama POLITY'de **729–626'yı kapsayan bir Babil künyesi YOK**:
+  - `isin-ii` 1157–1026 → `deniz-ulkesi-ii` 1025–1005 → (BOŞLUK) → `yeni-babil` 626–539.
+  - `deniz-ulkesi-ii` ardılı "Bazi hanedanı — araştırılmadı".
+- **Babil'in 1005–626 arası 379 yılı künyesiz.** Hükmün ② "künyeyi GENİŞLET" sınıfı uygulanacak bir künye bulamıyor.
+- Ne yapılıyor: dilim tablosu (732→626, her yıl tek bir duruma; BAGIMSIZ / v:asur-cifte / v:asur-tabi / v:elam / OLCULEMEDI; boşluk düzlenmez) ayrı okuyucuda hazırlanıyor. Hangi künyeye bağlanacağı koordinatörün hükmü.
