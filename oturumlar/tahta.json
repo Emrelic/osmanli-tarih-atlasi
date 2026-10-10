@@ -173687,5 +173687,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5880",
+  "zaman": "2026-10-10 06:52",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 22b · KOŞU 21 bayrakları · taban e54e60df (ufuk 1000-01-01 → 1945-09-02, Z6 içinde) · ~8-9 saat (KOŞU 21 7s14dk, aynı iş + daha geniş ufuk). 🔴 GİRDİ KİLİTLİ: data/ ve arac/ yeniden DONDU. Motor tuzuna (uret_petek.py · renkler.py · girdi.py · motor_onbellek.py) dokunulmaz. Bayraklar (KOŞU 21 commit 14174ef7 mesajından birebir): MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=56 · MOTOR_SUREC_ISCI=2. Neden yeniden: KOŞU 22 (00:57 → 06:43, 5s45dk) bu bayraklar OLMADAN koştu. YÜRÜYÜŞ aşamalarının üçü ve Ⓑ ufuk bantları yoktu ⇒ çıktı gerileme olurdu, YAYINLANMADI. Logları C:\\atlas-kosu22\\_kosu22_bayraksiz\\ altında. Süre oranları (×1,1-1,2) o koşudan, GEÇERSİZ. Koşu sonrası, ELLE (zincir bunları koşturmuyor): kodla.py yay (4 gövde) → coz-c → denetle → renk_olc → paketle.py yenile → surum_damgala → denetle_yayin → kosu/22b dalı. İşçi ölümü gözetimi: Windows Application olay 1000 + işçi PID'leri dakikada bir izleniyor. 60 dk'da bir canlılık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
