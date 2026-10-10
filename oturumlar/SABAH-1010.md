@@ -183,3 +183,57 @@ ilgisiz). ⇒ `ÖLÇÜLEMEDİ` beyanı, "yok" değil.
 📌 **VE BU BÖLÜM BİR DESENİN BEŞİNCİ VAKASI:** bu gece beş kez bir işçinin
 ölçümü benim hükmümü düzeltti, ve beşinde de ölçüm kabul edildi. Bir koordinatör
 olarak ürettiğim en pahalı şey hüküm değil, **ölçülmeden verilmiş hüküm.**
+
+---
+
+## §6 🔴 SENİN AÇMAN GEREKEN TEK ŞEY — EMRELIC'in yedeği kullanılamıyor
+
+Gece ilerledikçe yeni iş dağıtmak gerekti ve **ölçtüm:**
+```
+EMRELIC'te 6 "HAZIR KITA 0910.21xx" oturumu var — ve GERÇEKTEN BOŞ:
+   ad damgası 21:28:16  ↔  son etkinlik 21:30:03   ⇒  107 SANİYE yaşamış
+   (yani §7.3 ⑧'in "dolu işçi" tuzağı DEĞİL; bunlar gerçek yedek)
+```
+Üçüne görev göndermeyi denedim:
+```
+HAZIR KITA 0910.2128.16   ✅ TESLİM EDİLDİ — turu başladı (KUNYE-SUMER-7-1010)
+HAZIR KITA 0910.2127.47   ❌ undelivered — "onay penceresinde olabilir"
+HAZIR KITA 0910.2127.58   ❌ undelivered — aynı
+```
+⇒ `CLAUDE.md §7.2`nin yazdığı hâl: **`send_message` "undelivered" diyorsa oturum
+ONAY PENCERESİNDEDİR ve bunu yalnız SEN açabilirsin.** Deneme başına ~20 sn
+beklediği için daha fazla denemedim — ölçüm yeterli.
+
+**SENDEN İSTEDİĞİM (tek hareket):** o oturumların pencerelerine bir kez bakıp
+bekleyen onayı ver, ya da onlara *"izinli kipte çalış"* de. Sonrasında
+dağıtımı ben yapıyorum.
+📌 Niçin önemli: UMIT · KASA · LAB · HAVVA dört makinede sorunsuz çalışıyor
+(köprüden haberleşiyorlar). Tıkanan **yalnız EMRELIC'in kendi yedeği** — yani
+senin makinende duran altı boş işçi. Dört makine doluyken yedeğe iş
+verememek, kadro yokluğundan değil **bir onay penceresinden** kaynaklanıyor.
+⚠️ Ve EMRELIC'te **canlı bekçi 0** (7 Ekim `KOSU` darboğazı, token gerekçesi
+— kaldırmanı İSTEMİYORUM, gerekçesi hâlâ geçerli); bu yüzden buradaki
+oturumlara tek ulaşma yolu `send_message`, ve o da onay penceresinde duruyor.
+
+⚠️ **KÜÇÜK BİR RİSK, bilmen için:** `NOKTA-SUMER-1010` görevi iki kıtaya da
+kuyruklandı (ikisi de "sonra alabilir"). İkincisine **mükerrer koruması**
+koydum (başlamadan önce dosya/dal var mı diye bakıp durur), birincisine
+koyamadım. İkisi de uyanırsa aynı dal adına push edecekleri için ikinci push
+**başarısız olur ve bana rapor eder** — yani sistem kendi kendini yakalar,
+ama bir kıtanın turu boşa gidebilir. Kabul ettim; alternatifi işi hiç
+başlatmamaktı.
+
+### §6.1 BU GECE DAĞITILAN YENİ İŞLER (senin onayını beklemiyor)
+```
+KUNYE-SUMER-7-1010   7 künyenin devletler.js diff'i — ÇALIŞIYOR
+NOKTA-SUMER-1010     26 Sümer noktasının diff'i — KUYRUKTA (yukarıdaki onay)
+KASA-SUMER-VARLIK    Eridu/İsin/Dēr/Nina + Ur/Dilbat: iskân mı, terk mi
+LAB-AYNI-AD-TARAMA   koordinat yanlış CİNSTEN bir kayıttan mı alınmış
+                     (vaka: Hvar — nokta bir OTEL kaydında, kasaba 19-20,8 km uzakta)
+UMIT  FAZ 1          hüküm listesi + hızlı kip (--atlama-yalniz, ölçüldü: 12 sn)
+```
+📌 Bir karar da verildi ve not düşüyorum: Sümer noktaları **yeni bir dosyaya
+DEĞİL**, mevcut `data/yerlesimler_nokta_ortadogu_0917.js`e girecek. Sebebi
+`girdi.py`nin **motor tuzunda** olması — yeni bir dosya ona satır ister, satır
+tuzu bozar, tuz **7-8 saatlik tam inşa** demektir. Mevcut dosyaya eklemek
+noktaları FAZ 2'de indiriyor, FAZ 3'ü beklemiyor.
