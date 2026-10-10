@@ -465,7 +465,19 @@ data/devlet_harita_ust.js    3.148.869 bayt  TAKİPLİ · index.html:1759 · YAY
 ```bash
 git worktree add <yol> origin/main --detach
 cd <yol> && py arac/kodla.py coz-c data data/devletler_harita.js
+            py arac/kodla.py coz-c data data/donemler.js donem   # 🔴 ŞART
 ```
+🆕 🔴 **İKİNCİ SATIR 10 EKİM'E KADAR BURADA YAZILI DEĞİLDİ — ve eksikliği
+bu çareyi UYGULAYANI YANILTIYORDU** (LAB ölçtü, `LAB-OLCULEMEDI-TABAN-1010`):
+```
+taze main                → çıkış 2 · D8: devletler_harita.js YOK
+yalnız 1. satır (eski §5) → çıkış 2 · D8: bu kez donemler.js YOK
+iki satır birlikte        → çıkış 1 · D8 GERÇEKTEN KOŞTU
+```
+`denetle.py:5212` **iki damga çifti** ister. ⇒ Eski §5'i uygulayan *"D8'i
+ölçtüm"* sanıyor ve **ölçmüyor** — `§3`ün *"ölçülemeyen soru TEMİZ DEĞİLDİR"*
+kuralının en pahalı hâli: eksik bir ÇARE, çaresizlikten kötüdür çünkü
+insanı ölçtüğüne inandırır. Komut `.gitignore:41`de duruyordu.
 Ve ölçüm raporuna **taban commit + boyut + sha256** yazılır; yazılmayan parametre
 ölçümü tek kullanımlık yapar (ÖNCE/SONRA kıyaslanamaz).
 📌 Bu, `§7`in "ÜRETİLMİŞ — ELLE DÜZENLEME" uyarısının eksik yarısı: o satır
@@ -1007,11 +1019,25 @@ tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/
   okunur. ⇒ Yeni bir kapı/tavan/istisna konulurken **ÜÇ soru**: ① soruyu soruyor
   mu ② çıkış kodunu KİM okuyor ③ hiç çağrılıyor mu. Üçüncüsü sorulmazsa, sessiz
   bir borcu 2'ye çevirip 2'yi kimseye göstermeyen bir çare yazılır.
-  🆕 🔴 **VE ÜÇÜNCÜ ÜYE: YORUM BİR KONTROL DEĞİLDİR.** Ölçülen vaka (UMIT,
-  10 Ekim): `girdi.py:108`de *"aynı ad iki dosyada ⇒ HATA"* yorumu var ve
-  **arkasında KOD YOK** — tekillik bugün ölçülmüş bir DURUM, garanti değil
-  (ve normalleştirmeyle **37 ad çakışması** ölçüldü: `Kudüs/Kudus` ·
-  `Roma`/`Roma (Queensland)` · `Yenişehir (Bursa)`/`(Larissa)`).
+  🆕 🔴 **VE ÜÇÜNCÜ ÜYE: YORUM BİR KONTROL DEĞİLDİR.** Ölçülen vakalar
+  (LAB, 10 Ekim, `denetle.py` üzerinde):
+```
+  :10,16-17  docstring Değişmez 3 için bir ÇIKIŞ KODU iddia ediyor —
+             o sabit :852'de SİLİNMİŞ
+  :6777      ekrana "Tavan GERİLEMEYİ bloke eder" BASIYOR — kod bloke ETMİYOR
+```
+  İkincisi daha ağır: yorum değil **ÇIKTI** yalan söylüyor, yani okuyan
+  kaynağa bakmıyor bile.
+  ⚠️ 🔴 **BU PARAGRAFIN İLK VAKASI YANLIŞTI — ve düzeltmesi dersin kendisi.**
+  Buraya `girdi.py:108` yazılmıştı (*"yorum var, kod yok"*); LAB aynı tabanda
+  ölçtü: **tam ad kontrolü `girdi.py:620-624`te VAR.** ⇒ O vaka (c) değil
+  **(b) sınıfıdır** — kontrol KOŞUYOR, ama *normalleştirilmiş* çakışmayı
+  sormuyor (37 kalem: `Kudüs/Kudus` · `Roma`/`Roma (Queensland)` ·
+  `Yenişehir (Bursa)`/`(Larissa)`).
+  📌 Üç üyeyi ayırt etmek **kodu okumayı gerektirir**, ve bir işçinin
+  *"yorum var, kod yok"* raporu da — her rapor gibi — ÖLÇÜLMEDEN kabul
+  edilmez (`§11` başı: *ölçüm doğru, çıkarım yanlış*). Koordinatör bu vakayı
+  ölçmeden yazdı; ikinci işçi düzeltti.
 ```
   çağıranı olmayan kapı  → kapı VAR, hiç ÇAĞRILMIYOR
   denetim ≠ soruyu sorar → kapı KOŞUYOR, o soruyu SORMUYOR
