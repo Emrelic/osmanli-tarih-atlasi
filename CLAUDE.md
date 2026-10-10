@@ -127,6 +127,24 @@ Sınav 12 soru, iki yönde, biri GERÇEK koşulda:
 `py denetim/ARAC-OLCULEMEDI-KAPI-SINAV-1004.py`. Eski ölçütler
 [`D202`](dersler/D202-uc-degismez-tam-metin.md)de birebir duruyor, `denetle.py` hepsini
 daha geniş evrende sorar.
+🆕 🔴 **KAPININ YERİ BİR AYRINTI DEĞİL, BİR KUSUR SINIFI FARKIDIR**
+(10 Ekim 2026, UMIT ölçtü; gecenin asıl kusurunu bu ayrım önlerdi):
+```
+DENETLEYİCİ (`denetle.py`)  soruyu SONRADAN sorar  → kusuru BULUR
+YAZICI (`_sahiplik_uygula`) soruyu HİÇ sormaz      → kusuru YAZAR
+```
+> **Bir soruyu SONRADAN soran kapı, YAZMAYI ENGELLEMEZ.** Denetleyici kusuru
+> bulduğunda veri yazılmış, belki commitlenmiş, belki yayınlanmıştır. İkisi
+> **aynı soruyu sorsa bile farklı iş yapar.**
+⚠️ Ölçülen vaka: `_sahiplik_uygula` 104 yamadan **9'unu çıkış 0 ile** atlıyordu;
+`denetle`nin `Değişmez 5`i aynı soruyu (*dönem `kur:`'dan önce başlıyor mu*)
+ZATEN soruyordu — **sonradan.** ⇒ Yeni bir kapı tasarlarken sorulacak şey
+yalnız *"soruyu soruyor mu"* değil, **"NE ZAMAN soruyor"**dur.
+🔴 **VE BİR KOORDİNATÖR KURALI:** *yeni bir kapı onaylamadan önce, o soruyu
+soran bir kapı **VAR MI** diye sorulur.* Yoksa birbiriyle anlaşmayan iki kapı
+kurulur ve hangisinin doğru olduğu **yeni bir soru** olur. (Aynı gece
+koordinatör `kur:` kapısını `Değişmez 5` varken onayladı — `§11`in *"denetim
+var ≠ o soruyu soruyor"* ailesinin TERS yüzü: kapı **yok sanıldı ve VARDI.**)
 - **1 — sahipsizlik yok.** Var olduğu tarihte sahipsiz yerleşim = haritada delik. Sahipsiz
   sayısı §1.5'teki beklenenin üstüne çıkarsa yeni delik açılmıştır (beklenenler kasıtlı
   çöl/dolgu noktaları).
