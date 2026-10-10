@@ -304,3 +304,21 @@ bağımlılığı tahminden az çıktı: `git apply` bağlamın birebir tutması
 
 ## §9 TEMİZLİK
 Ölçüm worktree'si (<scratch>/agac) 09:49'de kaldırıldı. git worktree list: C:/atlas              1fe320ad0 [lab-1004] C:/atlas-d8           d829edfe9 [lab-d8-uye-1005] C:/atlas-d8m          fef9487b6 (detached HEAD) C:/atlas-lab-denetim  0b8c524cc [makine/lab] . Hiçbir checkout'un data/ veya arac/ dosyasına yazılmadı; commit/push yok. Scratch: LAB-DIFF-CARPISMA/ (diffs/, matris.py, sira.py, yigin*.py, sabit.py, geri.py).
+
+## §EK — 10 Ekim: D5-GUN-v3 × NEG-B-v2 uzlaştırması (koordinatör istedi)
+
+**Soru:** ölçülen NEG-B-v2, UMIT'in `3188` hunk'ını düşürdüğü sürüm mü?
+**Blob:** `origin/makine/umit` ve `origin/makine/emrelic-kunye`'deki `NEGATIF-YIL-1010-B-v2.diff` AYNI blob (`a957152e574d`);
+`D5-GUN-1010-v3.diff` = `cb3b2b801544`. Yani diff DOSYASI değişmedi — UMIT'in "hunk ayıklayıcıyla düşürme"si bir İNİŞ İŞLEMİ,
+yeni bir blob değil. Bu yüzden iki ölçüm yan yana:
+
+| NEG-B-v2 hâli | NEG→D5 | D5→NEG | sonuç |
+|---|---|---|---|
+| dosyadaki hâli (a957152e574d, `--exclude=denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py`) | ✗ `denetle.py:3151` | ✗ `denetle.py:3188` | HİÇBİR SIRADA birlikte uygulanmıyor (ana rapor) |
+| `arac/denetle.py` @3188 hunk'ı (−3188,13) DÜŞÜRÜLMÜŞ (denetle.py'de 11 hunk kalıyor) | ✓ | ✓ | iki yönde write-tree **a27c07ed6db5** — BİREBİR AYNI ⇒ DEĞİŞMELİ |
+
+Taban `origin/main` 5aecead18; ayrık worktree, yalnız `git apply`, araç koşulmadı, worktree kaldırıldı.
+Düşürme betiği: scratchpad `LAB-DIFF-CARPISMA/uzlas.py` (hedef satır ±10 içindeki hunk).
+⇒ **Çakışma, UMIT'in hunk düşürmesiyle ÇÖZÜLÜYOR — ölçüldü.** Şart: iniş, `--exclude` değil hunk düşürülmüş sürümle yapılmalı
+(`--exclude` dosya düzeyinde çalışır, bu hunk'ı düşürmez). En sağlamı, düşürülmüş diff'in AYRI bir blob olarak diske yazılması —
+yoksa "hangi sürüm indi" sorusu yine diskte cevapsız kalır.
