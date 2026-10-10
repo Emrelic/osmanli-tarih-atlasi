@@ -336,3 +336,74 @@ Sinop Selçuklu→Pervâne · Çankırı Selçuklu→Çobanoğulları · Ankara 
 yazıldığı tek doğrudan kanıt. ⚠️ Ve bu 14 kırılma Değişmez 2'nin evreninde:
 maddeleri varsa **hata belgelenmiş görünüyor** demektir, ve o belgelenmemiş
 bir hatadan kötüdür. Sayım sırada.
+
+---
+
+# §8 🟢 **TEK EKRAN — 06:00 İTİBARIYLA. YALNIZ BUNU OKUSAN YETER.**
+
+## Senden istediğim ÜÇ ŞEY
+```
+① TEK SATIR MESAJ — kota sıfırlansın (EMRELIC'teki yerel oturumlara
+   mesaj gönderemiyorum; köprüdeki dört makine çalışıyor). Ne yazdığın
+   önemli değil.
+② EMRELIC'teki iki hazır kıtanın ONAY PENCERESİNİ aç (§6)
+③ KARAR: Anadolu MÖ'sü için (i) KAPALI beyan + (ii) höyük katmanı
+   onaylanıyor mu? Ayrıntı §1 ②
+```
+⚠️ ①+② olmadan bu makinenin kendi iş gücü atıl; öteki dört makine tam
+otonom çalıştı.
+
+## Gece ne ÜRETTİ — üç başlık
+**① KAMPANYANIN İLK TAM ZİNCİRİ:** Kutha + Susa, **MÖ 539 → 1281 kesintisiz,
+1.820 yıl.** (MÖ 539-226 %44,1 · 226-650 %24,3 · 650-1281 %66,2)
+**② ÜÇ YENİ KAPI**, hepsi iki yönde sınandı:
+```
+dikiş kapısı      1281-01-01 halkası + önünde halka var + kaynak YOK ⇒ İHLAL
+                  (10/10 sınav; MÖ paketi BENZETİLEREK sınandı)
+hüküm listesi     sessiz atlamayı çıkış 2'ye çeviriyor (104 yamadan 9'u
+                  çıkış 0 ile sessizce atlanıyordu)
+hicrî sözleşme    `§4`te kalıcı kural; 79 uç düzeltilecek
+```
+**③ YEDİ KEZ BİR İŞÇİNİN ÖLÇÜMÜ HÜKMÜMÜ DÜZELTTİ** ve yedisi de kabul edildi.
+İki ders (`D270` · `D271`) aynı gece yazıldı ve aynı gece düzeltildi.
+
+## 🔴 BİR SIRA DEĞİŞİKLİĞİ — sana dün FAZ 2 demiştim, FAZ 3 oldu
+**Sümer noktaları FAZ 3'e kaydı.** İki bağımsız ölçüm:
+```
+① sahipsiz nokta inerse → 22/22 BOŞ petek, ~62.400 km², 900 yıl
+   ve 🔴 Değişmez 1 BUNU GÖRMEZ   (simülasyon tekrarlanabilir)
+② tek negatif dönem → `gun_no` ÇÖKÜYOR, D1b'den sonra hiçbir denetim
+   koşmuyor · `js/suzgec.js` negatif tarihte SESSİZCE yanlış
+```
+⇒ Motor yaması + NEGATİF-YIL-B + noktalar **tek tuz değişiminde** inecek.
+Künyeler FAZ 2'de kalıyor (inert — ölçüldü).
+
+## Koşu
+```
+KOŞU 22   taban e54e60df · 00:57 başladı · şu an "Dönemler" aşaması
+          uret_petek ~08:30-08:45  ·  HER ŞEY ~09:15-09:30
+⚠️ işçi 2 ÇÖKTÜ (GEOS segfault); çıktı EKSİK DEĞİL (yedek yol 175 devleti
+   ana süreçte hesapladı) ama GOVDE-CAKISMA ve EKLEYİCİ KAPI sayaçları
+   YALNIZ ana sürecin payı ⇒ `§1.5`e KOYULMAYACAK, `ölçülemedi` işaretlenecek
+```
+
+## Üç karar (§1) — kısa hâli
+```
+① MÖ penceresi   → Sümer paketi HAZIR, hiçbiri İNMEMİŞ: 21 nokta + 7 künye
+                   + zincirler. Soru "genişletelim mi" değil "İNDİRELİM Mİ"
+② Anadolu MÖ     → atlas noktalarıyla KAPALI (455-620 km) · höyük katmanıyla
+                   SINIR (149-186) · MÖ 500'de AÇ (87). ÖNERİM: (i)+(ii)
+③ kaynaksız 1841 → %39 (26-54) yanlış ilk halka ⇒ ≈554 kayıt. Sebep HÂLÂ
+                   hipotez ama artık bir KONTROL GRUBU var (Bağdat 1258-02-10
+                   ↔ komşuları 1281-01-01, aynı sahip aynı kutu)
+```
+
+## Çalışan yedi iş hattı
+```
+HAVVA  koşu 22 · canlılık saat başı (05:55 alındı, ~06:55 bekleniyor)
+KASA   SAHIP-BOLGE: Kuzey Afrika kıyısı · Tihâme · Gîlân · Ege-Tesalya
+UMIT   SAHIPLIK-KAPSAM + hüküm listesi + hızlı kip (12 sn, ölçüldü)
+LAB    AYNI-AD-TARAMA v2 — tek koşu, BEŞ sayı (ablasyon şartıyla)
+kıta   NOKTA-SUMER v2 (bitti, FAZ 3 bekliyor) · NEGATIF-YIL (bitti) ·
+       KUNYE-SUMER-7 v2 (bitti) · HARITA-DIL (C3 kararı verildi)
+```
