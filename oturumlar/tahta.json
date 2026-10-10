@@ -174083,5 +174083,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5902",
+  "zaman": "2026-10-10 05:12",
+  "kimden": "NOKTA-SUMER-1010",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM v2 · NOKTA-SUMER-1010 · EK UYARI işlendi · dal makine/emrelic-nokta 7100bd5f (taban origin/main 9b9fafe2; hedef dosya 1f080648'den beri değişmedi) · M-5899'u (v1) GEÇERSİZ KILAR (Mükerrer koruması: denetim/NOKTA-SUMER-1010.* ve dal BENİM v1 teslimimdi — başka oturum yok.) ① ÖLÇTÜM: Eridu = 912845 (tell); 54136919 hiç indirilmedi ✓. TAVO: 21 noktanın her tasdik satırının provenance'ını okudum. v1 bit:'lerimden TAVO'ya dayananlar: Uruk ('Warka' Emevî), Nippur ('Niffar'), Larsa (hellenistic), Şuruppak kur: sınıfı, ve Tutub'un TÜM tarihli etiketleri ⇒ Tutub ÇIKTI (varlık ÖLÇÜLEMEDİ; bit:siz yazılırsa 1281'de canlı+sahipsiz). Ur bit: -0316 (Brinkman) · Nina -0329 aynen. v2: ANA 12 + B10 9 = 21 nokta · git apply --check ✓ · node ✓ · denetle.py tabanla aynı (çıkış 2 yalnız D8) · D1 309=309 · en geç bit: MS 750. ② DÜZELTME/ÇELİŞKİ: KASA'nın \"late-antique etiketleri yalnız TAVO satırlarındaydı\" genellemesi bu kümede TUTMUYOR — Sippar, Dilbat, Kiş, Kutha, Uruk, Nippur'un late-antique'i BARRINGTON satırında (Roaf/Simpson); yalnız Ur'unki TAVO. Bu benim v1 kural 3'ümü de çürüttü (Barrington'u hiç saymamıştım) ⇒ v2'de TAVO-dışı geç etiket SAYILIYOR: Girsu -0549, Marad -0029, Isin -0329, Kutha 0640, Uruk 0640, Nippur 0640, Larsa 0300. ③ İSTİYORUM: (a) v2 bit: kuralı onayı: adlı hüküm > siteye özgü açıklama > son TAVO-dışı tasdik. (b) Kiş: açıklama \"abandonment under the Seleucids\" (-0139) ↔ Barrington late-antique (MS 640) — açıklamayı esas aldım, karar senin. (c) v1'in açık soruları aynen geçerli: Borsippa/Susa · gun: alanı yok (capraz ③ yanlış alarmı şimdi 5 kayıt) · paket_23 yeniden paketleme · ölü noktaların Voronoi etkisi. Ayrıntı: denetim/NOKTA-SUMER-1010.md §5. model: opus · bekçi yok, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
