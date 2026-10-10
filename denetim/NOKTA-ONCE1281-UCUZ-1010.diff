@@ -12,7 +12,7 @@ index 413ab7b..1d0d93e 100644
  { ad:"Rusçuk",isg:[{f:"1810-09-26",t:"1811-07-04",d:"rusya",kaynak:"ruscuk · ESBE «Турецкие войны России» (muharebe 22 Haz J = 4 Tem 1811 G) · t: ALT SINIR — Rusçuk muharebesi 4 Tem 1811 G; tahliye günü birincil kaynakta doğrulanamadı (27/28 Haz J = 9/10 Tem G okumaları metinden okunamadı). Eski t:1811-06-01 TDV 'Haziran' ay koduydu, muharebeden ÖNCEYE düşüyordu. KIRILMASIZ-9, 19 Eyl 2026, 1.MURAT M-4632 (B)."}], tur:"kale", lat:43.856, lon:25.971, g:0, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1388-01-01",d:"bulgaristan"},{f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1388-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}], v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi"}] },
  { ad:"Selanik",kaynak:"atina-antlasmasi",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"liman", lat:40.640, lon:22.944, g:2, k:2, s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1403-06-01",d:"suleyman-celebi"},{f:"1403-06-01",t:"1423-09-14",d:"bizans"},{f:"1423-09-14",t:"1430-03-29",d:"venedik"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1430-03-29",t:"1913-11-14"}] },
 diff --git a/data/yerlesimler_asya.js b/data/yerlesimler_asya.js
-index 2aa09b7..6a16791 100644
+index 2aa09b7..0a14fe0 100644
 --- a/data/yerlesimler_asya.js
 +++ b/data/yerlesimler_asya.js
 @@ -439,7 +439,7 @@ window.YERLESIMLER_ASYA = [
@@ -29,7 +29,7 @@ index 2aa09b7..6a16791 100644
  // on beş aylık kuşatmadan sonra aldı.
  { ad:"Bîcâpur (Bijapur)", tur:"sehir", lat:16.8270, lon:75.7100, g:1, k:2,kd:[{f:"1489-01-01",t:"1686-09-22",k:1,m:"Bîcâpur (Bijapur)"}], d:[],
 -  s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
-+  s:[{f:"1190-01-01", t:"1318-01-01", d:"yadava", kaynak:"TDV bicapur: '1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan bölge, 1294’te Alâeddin Halacî tarafından … fethedildi.' · ⚠️ cümle BÖLGEYİ tarihliyor (şehir maddesinin kendi bölgesi) · mîlâdî YIL ⇒ YYYY-01-01 · f yalnız geriye çekildi, t (1318) DOKUNULMADI — TDV 1294 diyor, AYRI KALEM · NOKTA-ONCE1281-UCUZ-1010"},
++  s:[{f:"1190-01-01", t:"1318-01-01", d:"yadava", kaynak:"TDV bicapur: '1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan bölge, 1294’te Alâeddin Halacî tarafından … fethedildi.' · ⚠️ cümle BÖLGEYİ tarihliyor (şehir maddesinin kendi bölgesi) — BÖLGE CÜMLESİ, ŞEHİR TANIĞI DEĞİL: halkaya (kaynakli_halka) ALINMAZ (D208) · mîlâdî YIL ⇒ YYYY-01-01 · f yalnız geriye çekildi, t (1318) DOKUNULMADI — TDV 1294 diyor, AYRI KALEM · NOKTA-ONCE1281-UCUZ-1010"},
       {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
       {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
       {f:"1490-01-01", t:"1686-09-12", d:"bicapur"},
