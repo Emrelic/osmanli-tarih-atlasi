@@ -986,6 +986,29 @@ okuyan yok). Yani bayatlığın çoğu **boşunaydı**.
    olarak bekletilir (`git apply --check` temiz tutulur).
 3. **Koşu SÜRERKEN dört dosyaya dokunulmaz** — koşu her aşamada motor parmak
    izini sınar ve reddeder (8 Ağustos: 83 dakika çalışıp en sonda reddedildi).
+   🆕 🔴 **KAPSAM (10 Ekim 2026, UMIT sordu): "hiçbir ağaçta" DEĞİL —
+   DONAN, KOŞUNUN OKUDUĞU AĞAÇTIR.** Bu madde tek makineli düzende
+   yazılmıştı; beş makinede koşu HAVVA'nın kendi worktree'sinde koşar
+   (`C:\atlas-kosu22`) ve UMIT'teki bir ÖLÇÜM AĞACI onun girdisi DEĞİLDİR.
+   ⇒ Ayrı bir makinede, tek kullanımlık bir ölçüm worktree'sinde tuz
+   dosyalarına dokunmak **SERBESTTİR**, dört şartla:
+```
+   ① 🔴 ÖNBELLEK İZOLASYONU UYGULAMADAN ÖNCE ÖLÇÜLÜR — `MOTOR_ONBELLEK_DIZIN`
+      ve varsayılan `<arac>/../_motor_onbellek` yolu koşucunun kullandığıyla
+      AYNI OLMAMALI (ağ yolu · OneDrive eşitlemesi · paylaşılan sürücü ⇒ İZİN
+      DÜŞER). **Ölçülür, BEYAN EDİLMEZ.**
+   ② `uret_petek.py` KOŞTURULMAZ — tuz hash'i tuz İŞLEVLERİ çağrılarak
+      hesaplanır
+   ③ o ağaç PUSH EDİLMEZ ve ölçüm sonunda KALDIRILIR
+   ④ koşu bitene kadar tuz dosyası İÇEREN hiçbir commit `main`e girmez
+```
+   ⚠️ Kural **gevşemiyor, YERİ DÜZELİYOR:** donma koşunun GİRDİSİNİ korur,
+   bir dosya adını korumaz. Ve ① olmadan izin yoktur — paylaşılan bir
+   önbellek, ayrı ağaçları **aynı ağaç** yapar.
+   📌 Ve bu kuralı bir işçi SORDU, ben yazmamıştım: *"tuza hiçbir ağaçta
+   yazılmaz"* ile *"yamalı ağaçta denetle koştur"* talimatlarımı yan yana
+   koyup **çelişkiyi bana getirdi** — belirsiz izni kendi lehine
+   yorumlamadı. `§7.1 ⑥`nın (*şartname yanlış → hemen yaz*) doğru hâli.
 ⚠️ **Ve bu kural yazılmadan tutulmadı:** 24 Eylül'de koordinatörün kendisi
 `girdi.py`ye dokunup 279 MB'lık önbelleği öldürdü — aynı sabah şartnameye
 "motorun tuzuna dokunulmaz" yazdıktan sonra. Kural yazılı olmayan kural değil,
