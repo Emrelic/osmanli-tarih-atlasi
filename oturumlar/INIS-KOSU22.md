@@ -144,3 +144,140 @@ FAZ 4  tam inşa + yayın
 ```
 🔴 Ve `§1.5` **koşu sonrası `py arac/durum_tablosu.py --yaz` ile** tazelenir
 (`D199`: elle yazılmaz) — ama ⑥'nın iki sayacı elle `ölçülemedi` işaretlenir.
+
+---
+
+## 🔴 8. TAM İNŞA PARTİSİ — ÜÇ KOL, TEK TUZ DEĞİŞİMİ (10 Ekim 08:20)
+
+**Emre'nin kararı (bu sabah): *"mö paketini indirelim."*** FAZ 3'ü FAZ 4 ile
+birleştiriyorum — tam inşa gerektiren HER ŞEY tek koşuya biniyor.
+📌 Niçin: üç kol ayrı koşarsa **21-24 saat**, tek koşuda **7-8**. Tuz bir kez
+değişir, önbellek bir kez ıskalar (`§9.1 ②`).
+
+```
+① MÖ BLOĞU   origin/makine/emrelic-nokta 7100bd5f · …-kunye-2 cd5828f8
+   NOKTA-SUMER-1010.diff              12 nokta (ANA)
+   NOKTA-SUMER-1010-B10.diff           9 nokta — 🔴 KESİŞİM ÖLÇÜLECEK
+   KUNYE-SUMER-7-1010-v2.diff          7 künye zarfı
+   NEGATIF-YIL-1010-A.diff             js/suzgec.js
+   NEGATIF-YIL-1010-B-v2.diff          🔴 uret_petek.py + girdi.py ⇒ TUZDA
+② BOYA PARTİSİ  (renkler.py ⇒ TUZDA) — origin/makine/umit c6daf618
+   teuton-devleti #6c0cf0 (ΔE 13,51) · bavyera #ea9618 (13,12) ·
+   nagpur-bhonsle #b424d8 (14,08) · renk_olc yeni ihlal 0 · ardıl
+   ÖLÇÜLEMEDİ 7 → 0
+   ➕ BOYA-BORC-1009-v2 de `renkler.py`ye dokunuyor ve İNMEMİŞ ⇒ **AYNI
+      COMMIT'te** iner (iki sırada da temiz; hunk :3356 ↔ :3119)
+   🔴 MISIR PARTİDE DEĞİL — ölçüm kalemi ÇÜRÜTTÜ (aşağıda ⓒ)
+③ TUZ/DAMGA     TUZ-YUKSEKLIK-1010 öneri (c)  ⇒ uret_petek.py TUZDA
+   yukseklik.dem_izi() {ad, boyut, sha256} → _EGIM_IZI → log + 4 URETIM_IZI
+```
+
+### 8.1 🔴 ÖLÇÜLMÜŞ İKİ TUZAK — iniş anında kontrol edilecek
+```
+ⓐ NEG-B'nin SINAV DOSYASI ÇAKIŞIYOR
+   denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py main'de ZATEN VAR
+      main  15.196 bayt · 397c00c6 · 10-10 02:04
+      diff  "new file mode 100644" · "--- /dev/null" · @@ -0,0 +1,295 @@
+   ⇒ diff o commit'ten ÖNCE üretilmiş ⇒ DİFF'İN KOPYASI ESKİ
+   ÇARE: --exclude=denetim/ARAC-NEGATIF-YIL-B-SINAV-1010.py
+   🔴 ŞART: main'in sürümü yamalı ağaçta KOŞTURULUR ve iki yönde ısırdığı
+   GÖSTERİLİR — dışlanan bir sınav, çalıştığı doğrulanmadan "var" sayılmaz.
+ⓒ 🔴 "MISIR 51 KAYIT" KALEMİ ÇÜRÜDÜ — ve hata KOORDİNATÖRÜN OKUMASINDA
+   Ölçüldü (BOYA-PARTISI-1010, c6daf618): `misir-sultanligi` ve
+   `misir-kralligi` HEM KÜNYELİ (devletler.js:7523/7530) HEM RENKLİ
+   (renkler.py:3147-3148, #4ed224 / #48d224) ve **57 yerleşim ikisini de
+   `s:`te kullanıyor.** 51 kayıttaki *"KUNYE+RENK BEKLIYOR"* notu BAYAT.
+   📌 Kusur tarayıcıda DEĞİL: o kalemleri `ENGEL-DONULMUS` (= engel kalkmış,
+   kayıt künyeyi ZATEN kullanıyor) kovasına doğru koymuştu. **Ben o kovanın
+   İÇERİĞİNİ okuyup ADINI dikkate almadım** ve bir boya borcu sandım —
+   `D271`in (*kovanın adı sınıfını belirlemez*) TERS yüzü: burada ad DOĞRUYDU,
+   okuyan yanlış okudu.
+   ⇒ Parti kalemi değil **iki ayrı iş**: ① bayat not temizliği (yerlesimler 7
+   + afrika 44) ② 🔴 EMRE KARARI: `misir-sultanligi` ↔ `misir-kralligi`
+   ardıl çakışması **ΔE 1,0** (57 geçiş) — yani Sultanlık→Krallık geçişinde
+   haritada GÖRÜNÜR DEĞİŞİKLİK YOK. `§1`in amacı (*kronoloji ile haritanın
+   birbirini doğrulaması*) gereği ÖNERİM **ayrı renk** `#9cd824` (ΔE 13,46);
+   alternatif aynı hex + `PAYLASIM` beyanı (`ONERI-MISIR-BOYA-ANAHTARI-0906 §④`).
+ⓑ B10'un 9 NOKTASI MÜKERRER OLABİLİR
+   yazan kıta: "DOLGU §91 onları SUMER-KUNYE'nin sayıyor, mükerrer riski"
+   ⇒ ANA 12 ile B10 9'un kesişimi ÖLÇÜLÜR (normalleştirilmiş ad + 3 km).
+   Mükerrer varsa B10 DÜŞER.
+```
+
+### 8.1b 🔴🔴 MÖ'NÜN İKİ ÖN KOŞULU — PARTİ BUNLAR OLMADAN İNEMEZ
+Ölçüldü (`DIZGI-TARIH-TARAMA-1010`, 227 site: 153 `arac/*.py` AST taint +
+19 js). **NEGATIF-YIL-A İNDİ ama bu ikisini KAPATMADI** — yani partiyi
+"motor yaması var" diye güvenli sanmak YANLIŞTI:
+```
+④ js/suzgec.js   sahipAnahtari :422 · isgalAnahtari :553 · aktifVAdi :614
+   `p.f <= gs < p.t` DİZGİ kıyası · MÖ penceresinde **"" dönüyor**
+   (doğrusu "s:ahameni")
+   TÜKETİCİLER: harita süzgeci · kamera `app.js:13648` ·
+                🔴 `arac/odak_cozum.js:239` = YAYIN KAPISI odak nöbetçisi
+   ⇒ KUNYE-SUMER yayınlanırsa **MÖ haritası BOŞ SAHİPLE boyanır**
+⑤ arac/_sahiplik_uygula.py  maddesi_var :181 (+ :166 regex `^\d{4}`)
+   MÖ gününü "sorma" sayıp **True** döndürüyor (= madde VAR)
+   ⇒ NOKTA-SUMER yazılırken **Değişmez 2 SUSAR.** KUR-KAPI bunu ÖRTMEZ.
+   ⚠️ Ve aynı işlevin 1281/1923 sınırları UFUK 1000-1945'e göre BAYAT.
+```
+🔴 İkisi de `CLAUDE.md §3`ün YAZICI/DENETLEYİCİ ayrımının vakası: ⑤ bir
+**YAZICI** ve değişmezi susturuyor — kusuru BULMUYOR, **YAZIYOR.**
+✅ **İkisi de TUZDA DEĞİL** ⇒ FAZ 1'e girer, tam inşa beklemez:
+```
+FAZ 1'e EKLENDİ (mevcut beşliden SONRA):
+   NEGATIF-YIL-A2   suzgec.js'in üç kıyası → GUN.gun       (MÖ YAYININDAN önce)
+   MADDE-VAR-MÖ     maddesi_var → gun.gun + sınırlar girdi.UFUK'tan
+                    (NOKTA-SUMER YAZIMINDAN önce)
+```
+📌 Öteki AÇIK-SESSİZ 27 kalem (`[:4]` yıl anahtarı — MÖ 330..339 tek `-033`e
+düşüyor · `denetle_anakronizm:316` 14 gün kayma · `app.js:15186` *"50"→1950*)
+bugün tetiklenmiyor (MÖ veri 0) ve 57'si NEG-B-v2 inince kapanıyor.
+🟢 `rotus.js` MÖ'yü **YÜKSEK SESLE** reddediyor (ÇÖKER) — bu bir kusur
+değil, **sessiz yanlışın yeğlenen alternatifi.**
+
+### 8.2 İNİŞ SIRASI — bağlayıcı
+```
+① KOŞU 22b iner (~15:45-17:00) · §0-§7 uygulanır
+② FAZ 1 beşlisi:  KAPSAM-v3 → KUR-KAPI → D5-GUN-v3 → SESSIZ-7 →
+                  KASA-GORUNURLUK-SAYAC
+   ⚠️ KASA-DIKIS-KAPI kümülatif olarak DÜŞTÜ (arac/denetle.py:7229) —
+      yeniden tabanlanmasını BEKLER (ölçüldü 07:55, taban 534633f8)
+③ iki tavan YENİDEN ÖLÇÜLÜR ve sabitle AYNI COMMIT'e girer (`§3.4 ②`):
+      BEKLENEN_TABAN_OLCULEMEDI = 190   (UMIT 07:08'de ölçtü, koşu sonrası
+                                         defterin evreni DEĞİŞEBİLİR)
+      BEKLENEN_D5C = 2449
+④ PARTİ (①+②+③) tek seferde uygulanır, tuz BİR KEZ değişir
+⑤ tam inşa (7-8 saat) + yayın zinciri:
+   kodla.py yay → coz-c (İKİ dosya!) → denetle → renk_olc →
+   paketle.py yenile → surum_damgala → denetle_yayin
+```
+
+### 8.3 🔴 ZEMİN BUGÜN İHLALDE — iniş raporunda "temiz" YAZILMAZ
+LAB ölçtü (`LAB-OLCULEMEDI-TABAN-1010`, taban 79ff492a2, 07:48):
+```
+taze main                         → çıkış 2 (D8: devletler_harita.js YOK)
+coz-c TEK dosya (eski §5)         → çıkış 2 (D8: bu kez donemler.js YOK)
+coz-c İKİ dosya                   → çıkış 1 🔴 D8a 1517 > tavan 1508 (+9)
+                                     körlük: defterde olmayan 18 (hat, gün), 11 hat
+bağımlılık/API/ağ sebebiyle ölçülemeyen: 0
+```
+⇒ **ÖNCE değerleri bunlar.** +9'un VERİDEN mi GÖVDEDEN mi geldiği
+`ÖLÇÜLEMEDİ` — gövde KOŞU 21'den (`14174ef7`, motor izi `108ec62b`).
+🔴 KOŞU 22b yeni gövde getirince **aynı üç koşu tekrarlanır** ve fark
+teşhis edilir. İniş raporu `denetle.py` çıkış kodunu **ADIYLA** basar;
+*"bütün değişmezler temiz"* cümlesi bu zeminde YAZILAMAZ.
+📌 `CLAUDE.md §5`in çaresi 10 Ekim'de düzeltildi (ikinci `coz-c` satırı
+eklendi) — eski hâliyle uygulayan *"D8'i ölçtüm"* sanıyordu.
+
+### 8.4 BEKLEYEN, PARTİYE GİRMEYENLER
+```
+_sahiplik_uygula.py:430  yukle()'yi ATLIYOR ⇒ AD ÇAKIŞMASI kontrolü YOK
+                         (OKU-DOSYA-ATLAMA-1010 ölçüyor) · TUZDA DEĞİL
+                         ⇒ FAZ 1'den SONRA inebilir, partiyi beklemez
+girdi.py:108             kalem DÜŞTÜ — kontrol :620-626'da ZATEN VAR
+MOTOR_ISCI_BETIK         BEYANLI RİSK: motor_izi betiğin ADINI özetliyor,
+                         YOLUNU değil ⇒ başka betiğe işaret ettirilirse
+                         işçiler tuzun tanımadığı kodla önbelleğe yazar.
+                         Bugün teorik (varsayılanda yol yok). Yama YOK.
+normalleştirilmiş ad      KAPI AÇILMADI (verim 1: Kordofan 80,5 km)
+```
