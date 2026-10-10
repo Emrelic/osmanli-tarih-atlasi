@@ -282,3 +282,6 @@ Koordinatörün öncülü: "`m:` 4.287 noktanın %27,4'ünde; 68 yeni nokta borc
 
 - **İniş BEKLETİLİYOR (koordinatör):** MÖ yılları astronomik NEGATİF. `gun.py:168` geçici kapısı "veride negatif yıl VAR + motor sayaçsız ⇒ ÖLÇÜLEMEZ" bugün sıfır negatif yılla temiz. İlk negatif yıl deponun TAMAMINI ÖLÇÜLEMEDİ yapardı. Tetikleyici C3 (GUN_SAYACI); C3 inince MÖ paketi (künye · 68 yerleşim · 243 olay · tabi dilimleri) TEK PAKETTE.
 - **Koordinatörün kör noktası (kendi beyanı):** Neo-Hitit / Suriye-Anadolu ailesi K1, K3, K4 dilimlerinin ARASINDA kalıyordu. Ona ancak `v:` atfı SARKTIĞINDA çarpıldı: kör noktayı başka bir şeyi (hayalet) arayan denetim buldu. K3 ailesine eklendi: Karkamış · Kummuh · Gurgum · Sam'al · Patina · Bīt-Zamani · Tabal · Melid · Que.
+
+- **Antik bölge alanı YOK, çünkü tüketicisi yok** (koordinatör hükmü). Alanı OKUYAN kimse yok; `bolgeler.js` motorun peteğinden üretiliyor. "Çağıranı olmayan kapı" ailesine üye eklenmez ⇒ bir TÜKETİCİ doğduğunda alan da doğar. (Koordinatörün `m:` hükmü D272 vakasıydı: alanın ADINDAN anlam çıkarıldı, KULLANIMI ölçülmedi — ölçüm reddetti.)
+- **K1 KAPANDI** — C3 bekleniyor. Bundan sonra K1 dosyalarına dokunulmaz.
