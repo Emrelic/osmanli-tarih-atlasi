@@ -14,8 +14,10 @@ Emre'nin elinden bu aletin argümanına girer. Alet de onu EKRANA BASMAZ —
 yalnız uzunluğunu ve son 4 hanesini basar ki "doğru olanı mı yazdım"
 sorusu cevaplanabilsin, ama ekran görüntüsü sırrı sızdırmasın.
 
-KULLANIM
-  py arac/ag_ayarla.py --jeton <JETON>            yaz (sunucu varsayılan LAB)
+KULLANIM  (🔴 jetonu TIRNAK içine al; köşeli parantez KULLANMA —
+           PowerShell'de `<` ayrılmış operatördür, komut kırılır)
+  py arac/ag_ayarla.py --uret                     YENİ jeton üret (ekrana BASMAZ)
+  py arac/ag_ayarla.py --jeton "ABC…"             yaz (sunucu varsayılan LAB)
   py arac/ag_ayarla.py --jeton <JETON> --sina     yaz + SUNUCUYA BAĞLANMAYI ÖLÇ
   py arac/ag_ayarla.py --sina                     yalnız ölç (yazmaz)
   py arac/ag_ayarla.py --goster                   ne yazılı (jeton MASKELİ)
@@ -31,6 +33,7 @@ atmak Emre'yi yanlış tarafı tamir etmeye gönderir.
 import io
 import json
 import os
+import secrets
 import sys
 
 try:
@@ -119,6 +122,35 @@ def main():
         print("jeton    :", maskele(ayar.get("jeton")))
         print("makineler:", len(ayar.get("makineler") or {}))
         return 0 if ayar.get("jeton") else 2
+
+    # --uret: jetonu BURADA uret, dosyaya yaz, EKRANA BASMA.
+    # 🔴 10 Ekim 2026 vakasi: jeton elle tasinirken sohbete dustu. Sebep
+    # arayuzdu — "--jeton <JETON>" kalibi ① PowerShell'de `<` ayrilmis
+    # operator oldugu icin KIRILIYOR ② "buraya yapistir" yerine "bunu
+    # aynen gonder" diye okunuyor. Caresi uyari degil, ADIMI KALDIRMAK:
+    # ureten makine jetonu hic gostermezse o adimda sizacak bir sey olmaz.
+    # `secrets` kullanilir, `random` DEGIL: random tahmin edilebilir.
+    if "--uret" in a:
+        jeton = secrets.token_urlsafe(32)        # 43 karakter, URL-guvenli
+        ayar["jeton"] = jeton
+        ayar.setdefault("tahta_sunucu", al("--sunucu", SUNUCU_VARSAYILAN))
+        os.makedirs(os.path.dirname(yol), exist_ok=True)
+        with io.open(yol, "w", encoding="utf-8") as f:
+            json.dump(ayar, f, ensure_ascii=False, indent=1)
+        teyit = ayar_yukle(yol)
+        if teyit.get("jeton") != jeton:
+            print("🔴 URETILDI AMA GERI OKUNAMADI — dosya izni?")
+            return 2
+        print("🟢 YENI JETON URETILDI VE YAZILDI")
+        print("   dosya :", yol)
+        print("   jeton :", maskele(jeton), " (tam hali EKRANA BASILMADI)")
+        print()
+        print("SIRADAKI UC ADIM:")
+        print("  ① Tahta sunucusunu YENIDEN BASLAT (eski jetonla kosuyor).")
+        print("  ② Jetonu dagitmak icin dosyayi notepad ile ac, tirnak")
+        print("     icindeki dizgiyi kopyala. SOHBETE YAPISTIRMA.")
+        print("  ③ Her makinede: py arac/ag_ayarla.py --jeton \"...\" --sina")
+        return 0
 
     jeton = al("--jeton")
     if jeton:
