@@ -1,0 +1,739 @@
+{
+ "taban": "origin/main 1896b8ecd38f9561f8dc49e955cf878178fee20d",
+ "uretim": "LAB 2026-10-10 (v3)",
+ "yerine_gecer": [
+  "LAB-KONUM-ONERI-1010-v2.json",
+  "LAB-KONUM-ONERI-1010-v2.diff",
+  "LAB-KONUM-ONERI-1010-v2-tasima-secenegi.diff",
+  "LAB-KONUM-ONERI-1010-v2-ikame-secenegi.diff",
+  "LAB-KONUM-ADAY-1010-pantelerya.diff"
+ ],
+ "kural": "HUKUM-KASA-1010 §6.1 · §6.2 · §6.3 · §9.4 + koordinatörün eşik-düşer kuralı · koordinatör kararları ①②③④⑥⑦⑧ (2026-10-10)",
+ "diffler": {
+  "LAB-KONUM-ONERI-1010-v3.diff": "TAŞIMA 10 kalem (11 satır, 5 dosya)",
+  "LAB-KONUM-ONERI-1010-v3-ikame.diff": "İKAME 2 kalem (yalnız data/yerlesimler_asya.js)"
+ },
+ "taban_notu": "46ebbc3c6..1896b8ecd arasında data/ değişmedi (git diff --stat boş); satır numaraları aynı",
+ "tasima_diff": [
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 2274,
+   "ad": "Merv (Mari)",
+   "grup": "KESIN",
+   "uygula": true,
+   "eski": [
+    37.5936,
+    61.8333
+   ],
+   "yeni": [
+    37.6767,
+    62.162
+   ],
+   "eski_metin": "lat:37.5936, lon:61.8333",
+   "yeni_metin": "lat:37.6767, lon:62.1620",
+   "fark_km": 30.42,
+   "secim_kurali": "Pleiades 990688484 Sultan Kala (mediaeval, precise) temsil noktası",
+   "tanik": [
+    {
+     "ad": "Pleiades 990688484 Sultan Kala",
+     "url": "https://pleiades.stoa.org/places/990688484",
+     "lat": 37.6767115,
+     "lon": 62.1620101,
+     "eski_noktaya_km": 30.42,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "TGN 7012244 Merv (deserted settlements)",
+     "url": "http://vocab.getty.edu/page/tgn/7012244",
+     "lat": 37.662,
+     "lon": 62.192,
+     "eski_noktaya_km": 32.53,
+     "yeni_noktaya_km": 3.11
+    },
+    {
+     "ad": "al-Ṯurayyā MARW_621E376N_S",
+     "url": "https://althurayya.github.io/#MARW_621E376N_S",
+     "lat": 37.67193,
+     "lon": 62.10386,
+     "eski_noktaya_km": 25.4,
+     "yeni_noktaya_km": 5.15
+    }
+   ],
+   "modern_kasaba_taniği": {
+    "ad": "GeoNames 1218667 Mary",
+    "url": "https://www.geonames.org/1218667",
+    "lat": 37.59378,
+    "lon": 61.83031
+   },
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 2274,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 2274
+  },
+  {
+   "dosya": "data/yerlesimler_asya.js",
+   "satir": 2430,
+   "ad": "Turfan",
+   "grup": "KESIN",
+   "uygula": true,
+   "eski": [
+    42.951,
+    89.19
+   ],
+   "yeni": [
+    42.855,
+    89.5286
+   ],
+   "eski_metin": "lat:42.9510, lon:89.1900",
+   "yeni_metin": "lat:42.8550, lon:89.5286",
+   "fark_km": 29.61,
+   "secim_kurali": "Pleiades 999273476 Gaochang (precise) temsil noktası; TGN 0,3 km",
+   "tanik": [
+    {
+     "ad": "Pleiades 999273476 Gaochang",
+     "url": "https://pleiades.stoa.org/places/999273476",
+     "lat": 42.8550461114,
+     "lon": 89.5285986529,
+     "eski_noktaya_km": 29.6,
+     "yeni_noktaya_km": 0.01
+    },
+    {
+     "ad": "TGN 6003062 Gaochang (deserted settlements)",
+     "url": "http://vocab.getty.edu/page/tgn/6003062",
+     "lat": 42.852,
+     "lon": 89.529,
+     "eski_noktaya_km": 29.76,
+     "yeni_noktaya_km": 0.34
+    }
+   ],
+   "modern_kasaba_taniği": {
+    "ad": "GeoNames 1529114 Turpan",
+    "url": "https://www.geonames.org/1529114",
+    "lat": 42.94769,
+    "lon": 89.17886
+   },
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 2430,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 2430
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 1042,
+   "ad": "Maskat",
+   "grup": "KESIN",
+   "uygula": true,
+   "eski": [
+    23.588,
+    58.408
+   ],
+   "yeni": [
+    23.6147,
+    58.5938
+   ],
+   "eski_metin": "lat:23.588, lon:58.408",
+   "yeni_metin": "lat:23.6147, lon:58.5938",
+   "fark_km": 19.18,
+   "secim_kurali": "TGN noktası DENİZDE (motor_kara dışı, kıyıya 1,7 km) ⇒ iki tarihî tanığın gösterdiği tarihî kentin bugün de duran çekirdeği: GeoNames 11669735 'Old Muscat' (TGN'ye 4,1 km, Ṯ'ya 8,1 km = Ṯ p90 içinde)",
+   "tanik": [
+    {
+     "ad": "TGN 7018048 Masqat",
+     "url": "http://vocab.getty.edu/page/tgn/7018048",
+     "lat": 23.6167,
+     "lon": 58.6333,
+     "eski_noktaya_km": 23.2,
+     "yeni_noktaya_km": 4.04
+    },
+    {
+     "ad": "al-Ṯurayyā MASQAT_586E235N_S",
+     "url": "https://althurayya.github.io/#MASQAT_586E235N_S",
+     "lat": 23.5437,
+     "lon": 58.63618,
+     "eski_noktaya_km": 23.8,
+     "yeni_noktaya_km": 9.01
+    },
+    {
+     "ad": "GeoNames 11669735 Old Muscat (konumlandırıcı, tarihî tanık değil)",
+     "url": "https://www.geonames.org/11669735",
+     "lat": 23.61468,
+     "lon": 58.59381,
+     "eski_noktaya_km": 19.19,
+     "yeni_noktaya_km": 0.0
+    }
+   ],
+   "modern_kasaba_taniği": {
+    "ad": "GeoNames 287286 Muscat (başkent bölgesi, Bawshar)",
+    "url": "https://www.geonames.org/287286",
+    "lat": 23.58413,
+    "lon": 58.40778
+   },
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 1042,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 1042
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 1463,
+   "ad": "Tâif",
+   "grup": "YAN-KESIN",
+   "uygula": true,
+   "eski": [
+    21.437,
+    40.513
+   ],
+   "yeni": [
+    21.27,
+    40.416
+   ],
+   "eski_metin": "lat:21.437, lon:40.513",
+   "yeni_metin": "lat:21.2700, lon:40.4160",
+   "fark_km": 21.14,
+   "secim_kurali": "Pleiades 869702585 (precise); TGN ve GeoNames ≤0,4 km — kent ile tarihî site aynı yer",
+   "tanik": [
+    {
+     "ad": "Pleiades 869702585 aṭ-Ṭāʾif",
+     "url": "https://pleiades.stoa.org/places/869702585",
+     "lat": 21.27,
+     "lon": 40.416,
+     "eski_noktaya_km": 21.14,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "TGN 1084782 Aṭ-Ṭā'if",
+     "url": "http://vocab.getty.edu/page/tgn/1084782",
+     "lat": 21.2667,
+     "lon": 40.4167,
+     "eski_noktaya_km": 21.43,
+     "yeni_noktaya_km": 0.37
+    },
+    {
+     "ad": "GeoNames 107968 Ta'if",
+     "url": "https://www.geonames.org/107968",
+     "lat": 21.27028,
+     "lon": 40.41583,
+     "eski_noktaya_km": 21.12,
+     "yeni_noktaya_km": 0.04
+    },
+    {
+     "ad": "al-Ṯurayyā TAIF_404E212N_S",
+     "url": "https://althurayya.github.io/#TAIF_404E212N_S",
+     "lat": 21.21629,
+     "lon": 40.40566,
+     "eski_noktaya_km": 26.97,
+     "yeni_noktaya_km": 6.07
+    }
+   ],
+   "modern_kasaba_taniği": null,
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 1463,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 1463
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 1712,
+   "ad": "Hürmüz Adası",
+   "grup": "YAN-KESIN",
+   "uygula": true,
+   "eski": [
+    26.861,
+    56.366
+   ],
+   "yeni": [
+    27.0673,
+    56.4603
+   ],
+   "eski_metin": "lat:26.861, lon:56.366",
+   "yeni_metin": "lat:27.0673, lon:56.4603",
+   "fark_km": 24.8,
+   "secim_kurali": "Pleiades 30251 Organa (island, precise) temsil noktası; TGN 8891531 0,5 km. Nokta bugün TGN 1007774 Lârak adasında (2,9 km)",
+   "tanik": [
+    {
+     "ad": "Pleiades 30251 Organa/Turgana (island)",
+     "url": "https://pleiades.stoa.org/places/30251",
+     "lat": 27.0672635513,
+     "lon": 56.4602754276,
+     "eski_noktaya_km": 24.79,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "TGN 8891531 Jazīreh-ye Hormoz",
+     "url": "http://vocab.getty.edu/page/tgn/8891531",
+     "lat": 27.0649,
+     "lon": 56.4644,
+     "eski_noktaya_km": 24.71,
+     "yeni_noktaya_km": 0.49
+    },
+    {
+     "ad": "TGN 7017464 Hormoz (island)",
+     "url": "http://vocab.getty.edu/page/tgn/7017464",
+     "lat": 27.0833,
+     "lon": 56.4167,
+     "eski_noktaya_km": 25.25,
+     "yeni_noktaya_km": 4.67
+    }
+   ],
+   "modern_kasaba_taniği": {
+    "ad": "TGN 1007774 Jazīreh-ye Lārak (YANLIŞ ADA)",
+    "url": "http://vocab.getty.edu/page/tgn/1007774",
+    "lat": 26.8833,
+    "lon": 56.35
+   },
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 1712,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 1712
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 215,
+   "ad": "Silifke",
+   "grup": "YAN-KESIN",
+   "uygula": true,
+   "eski": [
+    36.309,
+    33.938
+   ],
+   "yeni": [
+    36.3793,
+    33.9215
+   ],
+   "eski_metin": "lat:36.309, lon:33.938",
+   "yeni_metin": "lat:36.3793, lon:33.9215",
+   "fark_km": 7.96,
+   "secim_kurali": "Pleiades 648771 Seleucia ad Calycadnum (precise); GeoNames 300808 1,2 km",
+   "tanik": [
+    {
+     "ad": "Pleiades 648771 Seleucia ad Calycadnum/Tracheia",
+     "url": "https://pleiades.stoa.org/places/648771",
+     "lat": 36.379274,
+     "lon": 33.9214625,
+     "eski_noktaya_km": 7.96,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "GeoNames 300808 Silifke",
+     "url": "https://www.geonames.org/300808",
+     "lat": 36.37778,
+     "lon": 33.93444,
+     "eski_noktaya_km": 7.66,
+     "yeni_noktaya_km": 1.17
+    }
+   ],
+   "modern_kasaba_taniği": null,
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 215,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 215
+  },
+  {
+   "dosya": "data/yerlesimler_h2_kuzeyafrika.js",
+   "satir": 457,
+   "ad": "Tırgan (Traghan)",
+   "grup": "YAN-KESIN",
+   "uygula": true,
+   "eski": [
+    26.13,
+    14.47
+   ],
+   "yeni": [
+    25.961,
+    14.4339
+   ],
+   "eski_metin": "lat:26.130, lon:14.470",
+   "yeni_metin": "lat:25.9610, lon:14.4339",
+   "fark_km": 19.16,
+   "secim_kurali": "Pleiades 354161 Traghen (precise); GeoNames 2210242 Tarāghin 4,3 km (iki tanık da noktanın ~20 km güneyinde)",
+   "tanik": [
+    {
+     "ad": "Pleiades 354161 Traghen",
+     "url": "https://pleiades.stoa.org/places/354161",
+     "lat": 25.960959,
+     "lon": 14.433919,
+     "eski_noktaya_km": 19.16,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "GeoNames 2210242 Tarāghin",
+     "url": "https://www.geonames.org/2210242",
+     "lat": 25.92333,
+     "lon": 14.42056,
+     "eski_noktaya_km": 23.53,
+     "yeni_noktaya_km": 4.4
+    }
+   ],
+   "modern_kasaba_taniği": null,
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010",
+   "satir_46ebbc3c6": 457,
+   "karar": "v1 (7 kalem, koordinatör onaylı)",
+   "satir_1896b8ecd": 457
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 1696,
+   "ad": "Pantelerya",
+   "grup": "KESIN (ADA kaynaklı)",
+   "uygula": true,
+   "karar": "④ TAŞIMA",
+   "eski": [
+    36.792,
+    11.99
+   ],
+   "yeni": [
+    36.8315,
+    11.945
+   ],
+   "eski_metin": "lat:36.792, lon:11.990",
+   "yeni_metin": "lat:36.8315, lon:11.9450",
+   "fark_km": 5.94,
+   "secim_kurali": "Pleiades 462167 Cossyra (settlement, port, -30..2100) — atlas noktası ada alan temsil noktasıydı (Pleiades 462168, 0,06 km)",
+   "tanik": [
+    {
+     "id": "Pleiades 462167",
+     "url": "https://pleiades.stoa.org/places/462167",
+     "km": 5.94
+    },
+    {
+     "id": "TGN 1045872",
+     "url": "http://vocab.getty.edu/page/tgn/1045872",
+     "km": 5.81
+    }
+   ],
+   "kaynak_oneri": "LAB-KONUM-ADAY-1010 §1"
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 246,
+   "ek_satirlar": [
+    "data/sehirler.js:190"
+   ],
+   "ad": "Van",
+   "grup": "KESIN-ESIK-DUSER",
+   "uygula": true,
+   "karar": "① TAŞIMA (tur:kale, aynı kaya; zaman bağımlılığı değil koordinat hatası; kayıt BÖLÜNMEDİ)",
+   "eski": [
+    38.502,
+    43.393
+   ],
+   "yeni": [
+    38.5019,
+    43.3401
+   ],
+   "eski_metin": "lat:38.502, lon:43.393",
+   "yeni_metin": "lat:38.5019, lon:43.3401",
+   "fark_km": 4.6,
+   "tanik": [
+    {
+     "id": "Pleiades 964673805",
+     "url": "https://pleiades.stoa.org/places/964673805",
+     "nesne": "Van Fortress (citadel; OSM -900..-600 + CIGS)",
+     "km": 4.6
+    },
+    {
+     "id": "Pleiades 874771",
+     "url": "https://pleiades.stoa.org/places/874771",
+     "nesne": "Tušpa (aynı kaya)",
+     "km": 4.74
+    },
+    {
+     "id": "TGN 7695076 Van Kalesi",
+     "url": "http://vocab.getty.edu/page/tgn/7695076",
+     "nesne": "YANLIŞ NESNE: Rusahinili/Toprakkale (0,18 km) — tanık sayılmadı",
+     "km": 2.41
+    }
+   ],
+   "pencere": "s: 1232-01-01..1548-08-24 (selcuklu→safevi) + 1920-04-23..1923-10-29 tbmm-turkiye; d: 1548-08-24..1920-04-23 (kusatma). tur:kale. sehirler.js:190 k: 1548-08-24..1918-10-30",
+   "kaynak_oneri": "LAB-KONUM-KESIN-1010 §1"
+  },
+  {
+   "dosya": "data/yerlesimler_ortaasya3.js",
+   "satir": 131,
+   "ad": "Balasagun (Ak-Beşim)",
+   "grup": "ADAY → koordinatör kararı",
+   "uygula": true,
+   "karar": "⑥ Ak-Beşim'e TAŞIMA (TDV birincil, §4) + not: alanına çelişki beyanı; ad DEĞİŞMEDİ",
+   "eski": [
+    42.76,
+    75.24
+   ],
+   "yeni": [
+    42.805,
+    75.199
+   ],
+   "eski_metin": "lat:42.7600, lon:75.2400",
+   "yeni_metin": "lat:42.805, lon:75.199",
+   "fark_km": 6.02,
+   "ek_alan": {
+    "not": "KONUM ÇELİŞKİSİ … TDV … Ak-Peşin … TGN 8711886=Burana(8724271) … Ak-Beşim 8711887=Suyab … (tam metin diff'te)"
+   },
+   "tanik": [
+    {
+     "id": "TGN 8711887 Ak-Beshim (deserted settlements)",
+     "url": "http://vocab.getty.edu/page/tgn/8711887",
+     "lat": 42.805,
+     "lon": 75.199,
+     "eski_noktaya_km": 6.02,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "id": "TDV balasagun (metin tanığı, koordinat vermez)",
+     "alinti": "bugünkü Ak-Peşin harabelerinin bulunduğu yerde kurulmuş olduğu kabul edilmektedir"
+    }
+   ],
+   "karsi_tanik": [
+    {
+     "id": "TGN 8724271 Burana / TGN 8711886 Balasagun (aynı koordinat 42.746/75.248)",
+     "eski_noktaya_km": 1.69,
+     "yeni_noktaya_km": 7.68
+    }
+   ],
+   "uyari": "Ak-Beşim tek tanıklı (TGN, 3 hane, hata dağılımı ölçülmedi); hangi harabenin Balasagun olduğu tarih yazımı sorusu — karar §4 (TDV birincil) ile verildi",
+   "kaynak_oneri": "LAB-KONUM-ADAY-1010 §5"
+  }
+ ],
+ "ikame_diff": [
+  {
+   "ad": "Kandehar",
+   "dosya": "data/yerlesimler_asya.js",
+   "satir": 564,
+   "grup": "KESIN-ESIK-DUSER",
+   "uygula": true,
+   "eski": [
+    31.61,
+    65.71
+   ],
+   "yeni": [
+    31.6026,
+    65.6589
+   ],
+   "fark_km": 4.91,
+   "pencere": "s: 1281-01-01..1923-10-29 kesintisiz (…1709-04-21..1738-03-24 galzay · 1738-03-24..1747-06-20 afsar · 1747-06-20..1826 afgan-durrani · 1826..1923 afganistan) — dosya:satır 564-575",
+   "pencere_karari": "Pencere 1738/1747 sonrasına 185 yıl UZANIYOR ⇒ çok katmanlı ⇒ İKAME. Düz taşıma 1738-1923 arasını (pencerenin %29u) bozar; taşıma seçeneği sunulmadı.",
+   "tanik": [
+    {
+     "id": "Pleiades 630721027",
+     "url": "https://pleiades.stoa.org/places/630721027",
+     "nesne": "Old Kandahar citadel (CIGS -1000..1000 + OSM; iki konum 0,01 km)",
+     "km": 4.91
+    },
+    {
+     "id": "Pleiades 59669",
+     "url": "https://pleiades.stoa.org/places/59669",
+     "nesne": "Alexandria/Qandahār ören yeri (CIGS)",
+     "km": 4.87
+    },
+    {
+     "id": "TGN 7002248",
+     "url": "http://vocab.getty.edu/page/tgn/7002248",
+     "nesne": "modern Kandahar (inhabited place) — atlas noktası modern şehirde",
+     "km": 0.98
+    }
+   ],
+   "karar": "② İKAME (tek seçenek)",
+   "satir_1896b8ecd": 564,
+   "bolme_gunu": "1738-03-24 (kaydın kendi galzay→afsar sınırı; yıkım günü kaynakla TEYİT EDİLMEDİ)",
+   "yeni_kayit": "Kandehar (Eski Şehir) 31.6026/65.6589 bit:1738-03-24; modern Kandehar kur:1738-03-24"
+  },
+  {
+   "ad": "Angkor (Siem Reap)",
+   "dosya": "data/yerlesimler_asya.js",
+   "satir": 3288,
+   "grup": "KESIN-ESIK-DUSER",
+   "uygula": true,
+   "eski": [
+    13.412,
+    103.867
+   ],
+   "yeni": [
+    13.4413,
+    103.859
+   ],
+   "fark_km": 3.37,
+   "pencere": "kd k:1 1281-01-01..1431-01-01; s: 1281..1431 angkor-kmer · 1431..1795 kamboc-kralligi · 1795..1907-03-23 siyam-chakri · 1907..1923 fransiz-cinhindi — dosya:satır 3288-3292; kaydın kendi yorumu (3283-3285): \"Angkor Wat işleyen bir mâbet olarak kaldığı için bit: YAZILMADI\"",
+   "pencere_karari": "Atlas noktası Angkor Wat (0,06 km) = kaydın 1431 sonrası için kendi seçtiği nesne. Pencere 1431-1923 boyunca sürüyor ⇒ çok katmanlı ⇒ İKAME. \"Terk edilmiş şehir ⇒ düz taşıma\" beklentisi ölçümle TUTMADI. Taşıma seçeneği de sunuldu (karar koordinatörde).",
+   "tanik": [
+    {
+     "id": "Pleiades 364279264",
+     "url": "https://pleiades.stoa.org/places/364279264",
+     "nesne": "Angkor Thom (walled capital, 1100-1699)",
+     "km": 3.37
+    },
+    {
+     "id": "TGN 7004075",
+     "url": "http://vocab.getty.edu/page/tgn/7004075",
+     "nesne": "Prasat Angkor Thom (deserted settlement)",
+     "km": 3.3
+    },
+    {
+     "id": "Pleiades 835369289 / TGN 6000279",
+     "nesne": "Angkor Wat = MEVCUT atlas noktası",
+     "km": 0.06
+    },
+    {
+     "id": "Pleiades 531398484",
+     "nesne": "KATMAN tanığı: UNESCO temsil noktası, dakika-yuvarlak, alan ⇒ §9.4+ADA, tanık sayılmadı",
+     "km": 4.35
+    }
+   ],
+   "karar": "③ İKAME",
+   "satir_1896b8ecd": 3288,
+   "bolme_gunu": "1431-01-01 (kaydın kendi kd/angkor-kmer sınırı; Pleiades 'abandoned by 1609' — gün kaynakla TEYİT EDİLMEDİ)",
+   "yeni_kayit": "Angkor Thom (Yaşodharapura) 13.4413/103.8590 k:1 bit:1431-01-01; Angkor (Siem Reap) Angkor Wat'ta kalır, kur:1431-01-01, kd kaldırılır"
+  }
+ ],
+ "degismeyen": {
+  "Şiraz": "⑦ değişiklik yok",
+  "Erciş": "⑧ değişiklik yok",
+  "İmroz": "⑧ değişiklik yok",
+  "Ayamavra": "⑧ değişiklik yok"
+ },
+ "karar_bekleyen_v3_disi": [
+  {
+   "dosya": "data/yerlesimler_afrika.js",
+   "satir": 308,
+   "ad": "Kusayr",
+   "grup": "KUSAYR-AYRI",
+   "uygula": false,
+   "eski": [
+    26.104,
+    34.283
+   ],
+   "yeni": [
+    26.15,
+    34.25
+   ],
+   "eski_metin": "lat:26.104, lon:34.283",
+   "yeni_metin": "lat:26.1500, lon:34.2500",
+   "fark_km": 6.09,
+   "secim_kurali": "KARAR KOORDİNATÖRDE — bu değer yalnız seçenek A (TGN 6004056)",
+   "tanik": [
+    {
+     "ad": "TGN 6004056 Al Quşayr al Qadīm (deserted)",
+     "url": "http://vocab.getty.edu/page/tgn/6004056",
+     "lat": 26.15,
+     "lon": 34.25,
+     "eski_noktaya_km": 6.09,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "Pleiades 786069 Myos Hormos?",
+     "url": "https://pleiades.stoa.org/places/786069",
+     "lat": 26.156611,
+     "lon": 34.24401,
+     "eski_noktaya_km": 7.03,
+     "yeni_noktaya_km": 0.95
+    },
+    {
+     "ad": "al-Ṯurayyā QUSAYR_342E261N_S (MODERN kasabayı veriyor)",
+     "url": "https://althurayya.github.io/#QUSAYR_342E261N_S",
+     "lat": 26.10673,
+     "lon": 34.27748,
+     "eski_noktaya_km": 0.63,
+     "yeni_noktaya_km": 5.54
+    }
+   ],
+   "modern_kasaba_taniği": {
+    "ad": "TGN 7029532 Quseir",
+    "url": "http://vocab.getty.edu/page/tgn/7029532",
+    "lat": 26.1,
+    "lon": 34.283
+   },
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010 (v1, karar bekliyor; v2 diff'ine GİRMEDİ)"
+  },
+  {
+   "dosya": "data/yerlesimler.js",
+   "satir": 1348,
+   "ad": "Tahran",
+   "grup": "IKAME",
+   "uygula": false,
+   "eski": [
+    35.69,
+    51.39
+   ],
+   "yeni": [
+    35.5943,
+    51.4472
+   ],
+   "eski_metin": "lat:35.69, lon:51.39",
+   "yeni_metin": "lat:35.5943, lon:51.4472",
+   "fark_km": 11.84,
+   "secim_kurali": "KARAR KOORDİNATÖRDE — yalnız 'taşı' seçeneği için: Pleiades 903104 Rhaga/Ray (precise)",
+   "tanik": [
+    {
+     "ad": "Pleiades 903104 Rhaga(i)/Europos/Arsakia/Ray",
+     "url": "https://pleiades.stoa.org/places/903104",
+     "lat": 35.594267,
+     "lon": 51.447163,
+     "eski_noktaya_km": 11.85,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "TGN 7002140 Rayy",
+     "url": "http://vocab.getty.edu/page/tgn/7002140",
+     "lat": 35.5833,
+     "lon": 51.4167,
+     "eski_noktaya_km": 12.12,
+     "yeni_noktaya_km": 3.02
+    },
+    {
+     "ad": "al-Ṯurayyā RAYY_515E356N_S",
+     "url": "https://althurayya.github.io/#RAYY_515E356N_S",
+     "lat": 35.62754,
+     "lon": 51.50831,
+     "eski_noktaya_km": 12.76,
+     "yeni_noktaya_km": 6.65
+    },
+    {
+     "ad": "data/yer_yama.js:532 eksik_nokta 'Rey (Ray)' (Iranica)",
+     "url": "",
+     "lat": 35.5931,
+     "lon": 51.4342,
+     "eski_noktaya_km": 11.5,
+     "yeni_noktaya_km": 1.18
+    }
+   ],
+   "modern_kasaba_taniği": null,
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010 (v1, karar bekliyor; v2 diff'ine GİRMEDİ)"
+  },
+  {
+   "dosya": "data/yerlesimler_afrika.js",
+   "satir": 115,
+   "ad": "Şibînülkûm (Menûfiye)",
+   "grup": "IKAME",
+   "uygula": false,
+   "eski": [
+    30.552,
+    31.011
+   ],
+   "yeni": [
+    30.466,
+    30.932
+   ],
+   "eski_metin": "lat:30.552, lon:31.011",
+   "yeni_metin": "lat:30.4660, lon:30.9320",
+   "fark_km": 12.21,
+   "secim_kurali": "KARAR KOORDİNATÖRDE — yalnız 'taşı' seçeneği için: GeoNames 352354 Munuf (süreklilik gösteren kent; Ṯ 1,6 km)",
+   "tanik": [
+    {
+     "ad": "GeoNames 352354 Munūf",
+     "url": "https://www.geonames.org/352354",
+     "lat": 30.465974,
+     "lon": 30.931991,
+     "eski_noktaya_km": 12.21,
+     "yeni_noktaya_km": 0.0
+    },
+    {
+     "ad": "al-Ṯurayyā MANUF_309E304N_S",
+     "url": "https://althurayya.github.io/#MANUF_309E304N_S",
+     "lat": 30.45505,
+     "lon": 30.9195,
+     "eski_noktaya_km": 13.91,
+     "yeni_noktaya_km": 1.71
+    }
+   ],
+   "modern_kasaba_taniği": null,
+   "kaynak_oneri": "LAB-KONUM-ONERI-1010 (v1, karar bekliyor; v2 diff'ine GİRMEDİ)"
+  }
+ ]
+}
