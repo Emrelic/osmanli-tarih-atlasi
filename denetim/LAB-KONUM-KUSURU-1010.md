@@ -173,3 +173,24 @@ Brifte adı geçen adaylar: **Dimyat** (Pleiades Tamiathis 0,2 · Ṯ 3,1; ilk `
 - `denetim/LAB-KONUM-KUSURU-1010-noktalar.csv`: evren ∪ ölçülen (1.943 satır). Kriter bayrakları, kova, tanık adı ve km.
 - `denetim/LAB-KONUM-KUSURU-1010-etki.csv`: Voronoi ya-taşınsaydı hesabı (96 satır).
 - `denetim/LAB-KONUM-KUSURU-1010-olculemedi-oncelik.csv`: öncelikli ölçülemeyen 564 nokta.
+
+## EK — 10 Ekim: Malatya yeniden değerlendirildi (KASA bildirdi, LAB ölçtü)
+
+**İlk hüküm:** TEMİZ-ÖLÇÜLDÜ ("Melitene 4,0 km"). **Yeni hüküm: ÖLÇÜLEMEDİ** — kıyas yanlış nesneyle yapılmış.
+- Pleiades 629040 "Melitene" reprPoint 38.382217/38.361152 = Pleiades 25078867 "Arslantepe (Melid)" höyüğü
+  (38.382059/38.361202; fark 0,02 km). Yani 4,02 km'lik kıyas modern Malatya ↔ Tunç/Demir Çağı **höyüğü**dür,
+  Roma/Ortaçağ Malatya'sı (Battalgazi) değil. (Pleiades 629039 "Melitene" 38.4417/37.6847 ayrı ve uzak bir kayıt.)
+- al-Ṯurayyā MALATIN_383E383N_S ("Malaṭīn, Malaṭiya", coord_certainty "certain") 38.35806/38.35767 → atlas noktasına
+  2,1 km, yani **modern şehir merkezini** veriyor. Ortaçağ Malatya'sı Battalgazi'de olduğuna göre bu Ṯ okuması,
+  Ṯ'nin ölçülmüş hata bandı (p90 8,7 km) içinde bir kayma olabilir; tanık olarak Battalgazi'yi ayırt edemiyor.
+- KASA: atlas Malatya (38.353/38.334) TGN 1086264 modern Malatya'ya (inhabited) 1,54 km ⇒ nokta **modern şehirde**.
+  Battalgazi için TGN'de yalnız idari birim var.
+- Battalgazi için HUKUM §6'nın kabul ettiği bir tanıkta (Pleiades/Ṯ/TGN site kaydı) kaynaklı koordinat **YOK**.
+  Yaklaşık konum (~38,42K · 38,365D, kaynaksız) atlas noktasına ~8 km olurdu — bu bir ölçüm DEĞİL, yalnız büyüklük.
+- (d) "taşınmış şehir" kalıbı Malatya/Battalgazi'yi zaten işaretliyordu; atlas Malatya'nın dönemleri 1281–1845.
+  ⇒ 1281–1839 dönemleri için konum sorusu AÇIK.
+
+**Kova:** TEMİZ-ÖLÇÜLDÜ → **ÖLÇÜLEMEDİ** (ikinci tanık yok; mevcut tanıklar ya höyüğü ya modern merkezi ölçüyor).
+Sınıf dersi: bir tanığın **hangi nesneyi** ölçtüğü (höyük / antik şehir / ortaçağ şehri / modern şehir) doğrulanmadan
+"yakın" sonucu TEMİZ sayılmamalı. Aynı risk Pleiades'in tek reprPoint'i çok dönemli yerleşimleri birleştirdiği her
+kayıtta var. Kaynak: KASA `denetim/KASA-MILID-1010.md` (makine/kasa). CSV satırı tarihli ölçüm olarak bırakıldı.
