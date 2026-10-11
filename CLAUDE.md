@@ -439,6 +439,22 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   tek küresel sayı, çıktı BİREBİR değişmesin"* diye garanti ediyor.
   ⚠️ Kelepçenin bir yan kazancı vardı (`:2484` *"Sahra ve Rub'ul Hâlî'deki DOLGU
   noktaları"*); yerine ne geldiği İLK KOŞUDA ÖLÇÜLÜR — **§3.4 ⑥.**;
+  🟢 **YÜRÜRLÜK — ÖLÇÜLDÜ, BEYAN DEĞİL: `KOŞU 23`** (11 Ekim 2026 03:31:33,
+  makine HAVVA, taban `672acbc1`). Bayrağın motora ULAŞTIĞINI tuz söylüyor:
+  `810b524268d5` → `9d8751049cf5`, log *"değişen: ORTAM"*; **ÇÖL KELEPÇESİ
+  satırı çıktıda YOK**; ilk aşama ▶ YÜRÜYÜŞ 03:42:09. ⇒ KOŞU 23'ten ÖNCEKİ
+  her harita `56` ile üretilmiştir ve çöl bandı o haritalarda **banttan
+  bağımsızdır** — iki koşunun Sahra'sı kıyaslanırken bu sorulur.
+  📌 Bu şerh niçin var: *"Commit mesajında yaşayan ayar KAYITLI değildir"*
+  satırı ayarı yazıyordu ama **hangi koşudan itibaren** yazmıyordu. Belge
+  *"kaldırıldı"* der, loglar iki ayrı kelepçeyle iki ayrı harita üretir ve
+  ikisi de "doğru" görünür — belge ile koşu talimatı **tam bu boşluktan**
+  ayrışır. Ayarın ADI yetmez, YÜRÜRLÜK GÜNÜ de yazılır.
+  📌 Ve bir ölçüm kuralı, KOŞU 23'te kazanıldı: **"taban SHA farklı" tek
+  başına bir uyuşmazlık DEĞİLDİR.** Sorulacak soru *"aradaki commit'ler
+  motorun OKUDUĞU dosyalara dokundu mu"*dur; dokunmadıysa iki SHA aynı
+  koşudur (KOŞU 23 `672acbc1`de başladı, ağaç `a4a0ef62`ydi; fark yalnız
+  `denetim/` + `oturumlar/` ⇒ yeniden başlatmak 12 dakikayı yakardı).;
   motor varsayılanları bunları kapatır, zincir koymaz. Koşucu bayrakları loga basar ve teyit
   eder — **beyan yetmez, motorun gördüğü kanıtlanır:** tuz hash'i değişir ("değişen: ORTAM") ·
   işçi düzeni KOŞU 21'le aynı · ilk aşama "▶ YÜRÜYÜŞ" değilse koşu DURDURULUR · bitince AŞAMA
