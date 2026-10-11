@@ -4,9 +4,12 @@ tarih,kesinlik,polity,baslik,metin,yer,kaynak,harita_degisimi
 0439-01-01,yil,vandal-kralligi,Vandallar Kartaca’yı aldı,Kartaca’nın alınmasıyla Valentinianus III Vandal egemenliğini tanıdı.,Kartaca,Treccani `vandali` (Istituto dell’Enciclopedia Italiana),EVET
 0443-01-01,yil,burgond-kralligi,Burgondlar Sapaudia’ya yerleştirildi,Burgondların Sapaudia’da yerleşmesi.,Sapaudia (Savoie),Treccani `burgundi` (Istituto dell’Enciclopedia Italiana),EVET
 0453-01-01,yil,gepid-kralligi,Attila’nın ölümüyle Gepidler bağımsızlaştı,Gepidler Tisa havzasını tuttu.,Tisa havzası,Treccani `gepidi` (Istituto dell’Enciclopedia Italiana),EVET
+0464-01-01,yil,soissons-syagrius,Syagrius Soissons’taki özerk Roma bölgesinin yönetimini aldı,Aegidius’un kurduğu bölge (Meuse–Escaut–Seine arası).,Soissons,Treccani `siagrio` (Istituto dell’Enciclopedia Italiana),EVET
+0476-01-01,yil,odoakr-kralligi,Odoakr Romulus Augustulus’u tahttan indirdi,Batı Roma’da son imparator; Odoakr İtalya’da rex gentium.,Ravenna,Treccani `odoacre` (Istituto dell’Enciclopedia Italiana),EVET
 0480-01-01,yil,kinde,Kinde krallığı Himyerîlere tâbi olarak kuruldu,Kuzey ve Orta Arabistan’da Kinde hânedanı.,Necd,TDV `kinde-beni-kinde`,EVET
 0481-01-01,yil,frank-merovenj,Chlodvig Frank tahtına çıktı,Merovenj Frank Krallığı’nın ilk hükümdarı Chlodvig (481-511).,Tournai,TDV `franklar`,HAYIR
 0486-01-01,yil,frank-merovenj,"Chlodvig Syagrius’u yendi, Loire’a kadar Galya’yı aldı",Son Roma otoritesinin ortadan kalkması (486-87).,Soissons,Treccani `merovingi` (Istituto dell’Enciclopedia Italiana),EVET
+0493-01-01,yil,odoakr-kralligi,Odoakr Ravenna’da öldü,İtalya Ostrogot hâkimiyetine geçti.,Ravenna,Treccani `odoacre` (Istituto dell’Enciclopedia Italiana),EVET
 0498-01-01,yil,ostrogot-kralligi,Teodorik İtalya’ya indi ve Odoakr’ı yendi,⚠️ Treccani 498 yazıyor; ikinci kaynakla ölçülmedi.,İtalya,Treccani `ostrogoti` (Istituto dell’Enciclopedia Italiana),EVET
 0525-01-01,yil,himyeri,Zûnüvâs yenildi; Himyerî tebâbia dönemi sona erdi,Aksumlu kuvvetler karşısında yenilen son tübba‘ öldü.,Yemen,TDV `himyeriler`,EVET
 0533-01-01,yil,vandal-kralligi,Belisarius Gelimer’i yendi; Vandal krallığı sona erdi,Afrika Bizans’a geçti.,Kartaca,Treccani `vandali` (Istituto dell’Enciclopedia Italiana),EVET
@@ -29,11 +32,13 @@ tarih,kesinlik,polity,baslik,metin,yer,kaynak,harita_degisimi
 0718-01-01,gelenek,asturya-kralligi,Pelayo’nun Asturya krallığı (geleneğe göre),Vizigot soylularının dağlarda kurduğu krallık.,Asturias,Treccani `asturie` (Istituto dell’Enciclopedia Italiana),EVET
 0745-01-01,yil,ikinci-gokturk,II. Göktürk Devleti yıkıldı,Topraklarının doğusunda Uygur devleti kuruldu.,Ötüken,TDV `turk`,EVET
 0751-01-01,yil,frank-karoling,Pippin III son Merovenj kralını tahttan indirdi,Karoling hanedanı Frank tahtında.,Soissons,Treccani `merovingi` (Istituto dell’Enciclopedia Italiana),HAYIR
+0761-04-11,yil-hicri,dabuyi,İspehbed Hurşîd’in ölümüyle Dâbûyî hânedanı son buldu,Taberistan Abbâsîlere geçti.,Taberistan,TDV `hursid`,EVET
 0766-01-01,yil,turgis,Türgiş siyasî birliği ortadan kalktı,Batı Göktürk topraklarında Oğuz ve Karluk dönemi.,Yedisu,TDV `turk`,EVET
 0774-01-01,yil,lombard-kralligi,Karl Lombard tacını aldı; Lombard krallığı sona erdi,Desiderius’un yenilgisi.,Pavia,Treccani `longobardi` (Istituto dell’Enciclopedia Italiana),EVET
 0805-01-01,yil,avar-kaganligi,Avar Hakanlığı sona erdi,TDV hakanlığın sonunu 805 verir.,Pannonya,TDV `avarlar`,EVET
 0830-01-01,yaklasik,buyuk-moravya,Mojmír döneminde Moravya bağımsız devlet oldu,Büyük Moravya’nın başlangıcı (yaklaşık).,Moravya,Treccani `moravia` (Istituto dell’Enciclopedia Italiana),EVET
 0843-01-01,yil,frank-karoling,Verdun Antlaşması: Frank İmparatorluğu üçe bölündü,"Batı, Doğu ve Orta Frank krallıkları.",Verdun,Treccani `carolingi` (Istituto dell’Enciclopedia Italiana),EVET
+0850-01-01,yaklasik,hindusahi,Kallâr Türkşâhî tahtını ele geçirdi; Hindûşâhîler,Kâbil vadisinde yeni hânedan (yaklaşık).,Kâbil,TDV `hindusahiler`,EVET
 0855-01-01,yil,orta-frank,Lothar I’in saltanatı sona erdi,Orta Frank krallığı paylaşıldı.,Prüm,Treccani `carolingi` (Istituto dell’Enciclopedia Italiana),EVET
 0906-01-01,yil,buyuk-moravya,Macarlar Moravya’yı tâbi kıldı,II. Mojmír döneminin sonu.,Moravya,Treccani `moravia` (Istituto dell’Enciclopedia Italiana),EVET
 0910-01-01,yil,asturya-kralligi,III. Alfonso tahttan çekildi; krallık bölündü,"León, Galiçya ve Asturya krallıkları.",Oviedo,Treccani `asturie` (Istituto dell’Enciclopedia Italiana),EVET
@@ -42,6 +47,7 @@ tarih,kesinlik,polity,baslik,metin,yer,kaynak,harita_degisimi
 0962-01-01,yil,dogu-frank,I. Otto imparator: Kutsal Roma İmparatorluğu,Doğu Frank krallığı imparatorluk tacıyla birleşti.,Roma,Treccani `sacro-romano-impero` (Istituto dell’Enciclopedia Italiana),HAYIR
 0987-01-01,yil,bati-frank,Son Karoling V. Lothar/Louis öldü; Kapetler,Batı Frank tahtına Kapet hanedanı geçti.,Laon,Treccani `carolingi` (Istituto dell’Enciclopedia Italiana),HAYIR
 1014-01-01,yil,hasanveyhi,Bedr b. Hasanveyh öldürüldü,Dînever bölgesinde Annâzî ve Kâkûyî hamleleri.,Dînever,TDV `annaziler`,EVET
+1026-01-01,yil,hindusahi,Son Hindûşâhî racası Bhimpal öldü,Hânedan Gazneli baskısıyla sona erdi.,Pencab,TDV `hindusahiler`,EVET
 1077-01-01,yil,benevento-dukaligi,Benevento’da dük hâkimiyetinin sonu,Şehir Papalığın elinde kaldı.,Benevento,Treccani `benevento` (Istituto dell’Enciclopedia Italiana),EVET
 1131-01-01,yil,amalfi-dukaligi,II. Roger Amalfi’yi Sicilya Krallığı’na kattı,Amalfi dukalığının sonu.,Amalfi,Treccani `amalfi` (Istituto dell’Enciclopedia Italiana),EVET
 1151-01-01,yil,sirp-raska,Stefan Nemanja’nın küçük Sırp devleti,⚠️ Treccani 1151; standart 1166 — teyitsiz.,Ras,Treccani `serbia` (Istituto dell’Enciclopedia Italiana),EVET

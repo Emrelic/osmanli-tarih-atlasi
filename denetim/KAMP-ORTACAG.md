@@ -85,3 +85,59 @@
 ## 6. Hijyen
 Çekilen ham metinler `scratchpad/KAMP-ORTACAG/{tdv,trec}/` altında. TDV ve Treccani istekleri sıralı ve yavaş (1,3–1,5 sn). 429/503 alınmadı.
 Yeniden üretim: `scratchpad/KAMP-ORTACAG/uret.py <çıktı> <worktree>`. Tek bir betik, bütün satırlar içinde ve okunabilir.
+
+
+---
+
+## 7. İKİNCİ TUR (11 Ekim 2026) — düzeltmeler · dikiş · ÇİFT OTURUM
+**Güncel sayılar:** POLITY **45** (f yazılı 26 · t yazılı 29) · KRONOLOJİ **52** (EVET 48) · ŞEHİR **27** satır, ilk kaydı K7 evreninde olan **25**.
+
+### 7.1 🔴 DÜZELTME — iki şehirde ilk kaydı yanlış yazmıştım
+| Şehir | İlk teslim | Doğrusu | Kaynak |
+|---|---|---|---|
+| Bağdat | 762 | **evren ÖNCESİ** (yıl yok, Hammurabi saltanatı MÖ 1792-1750) | TDV `bagdat`: «Hammurabi (m.ö. 1792-1750) kanunlarında Bagdadu şehrinden bahsedilir» |
+| Sâmerrâ | 836 | **evren ÖNCESİ** (Asur «Sur-Marrati», Grek «Souma»; yıl bu maddede yok) | TDV `samerra` |
+
+762 ve 836 KURULUŞ yılları (Abbâsî şehirleri), Emre'nin kuralındaki «ilk tarihî kayıt» DEĞİL. İkisi K1'e devir. Hata, kuruluş cümlesini ilk kayıt sanmamdan doğdu.
+Yerlerine: **Hille** 1101-10-26 (TDV `kufe`: «495 (1101-1102) yılında Hille’nin yeni bir merkez olarak kurulmasıyla») · **Gdańsk** 997 (Treccani: «Ricordata la prima volta nel 997»).
+🟡 **Basra — SINIR VAKASI:** TDV Basra'yı Keldânî Teredon / Sâsânî Vehiştâbâd Erdeşîr'in «harabeleri üzerinde» kurulmuş yazıyor. Aynı yerin antik kaydı «ilk kayıt» sayılırsa evren dışı, yeni şehir sayılırsa 635. **Hüküm koordinatörün.**
+🟡 **Avar:** TDV `avarlar` DAĞISTAN Avarlarının maddesi. 558-805 yalnız parantez içinde Hakanlığı tarihliyor; rakam Hakanlığı tarihliyor (`D211⑧` ✓), ama madde Hakanlık maddesi değil. Not olarak eklendi.
+
+### 7.2 DİKİŞ — «komşularla arasında kalan ne var?» (koordinatörün sorusu) — ÖLÇÜLDÜ
+**K4 / K7 (476):** Odoakr Krallığı (476-493) · Soissons bölgesi (Syagrius, 464-486) — ikisi de dizinde YOKTU ⇒ eklendi (Treccani). Batı Roma'nın kendisi de YOK; o K4'ün kalemi.
+⚠️ Dikiş bir tutarsızlık gösterdi: Odoakr t **493** ↔ ardıl Ostrogot f **498** (Treccani). Aynı ansiklopedinin iki maddesi arasında **5 yıllık BOŞLUK** ⇒ Ostrogot 498 şüphesi güçlendi (ikinci kaynak hâlâ yok).
+**K5 / K7 (651, Sâsânî ardılları):** Dâbûyîler (son 144/761) · Türkşâhîler · Hindûşâhîler (~850-1026) · Zunbil — dördü de YOKTU ⇒ eklendi (TDV). Zunbil ve Türkşâhî'nin f/t'si bulunamadı. Karinvand, Mesmugân ve Soğd prenslikleri ARANMADI (ikinci kaynak turu).
+**1281 / ÇEKİRDEK:** künye `f` = `1281-01-01` (PENCERE UCU, kökeni ölçülmemiş) olan **121 künye** var; yalnız **4**'ü bunu `ic_not_f` ile beyan ediyor (`*`). Bunlar «1281'de sahnede duran ama nereden geldiği yazılmamış» devletler:
+- **kuzey-amerika** (47): abenaki · aleut · alutiiq · apaci-ovalar · beothuk · cherokee · choctaw · cikasav · dene · etowah · hayda · hidatsa · kalusa · karga · klamath · kri · lakota · maliseet · mandan · meskalero-apaci · miami · mikmak · mohave · moundville · natchez · navaho · nez-perce · nuu-cah-nulth · nuxalk · occaneechi · ojibwe · pavni · payut · ponka · sahaptin · sauk · savni · secwepemc · sosoni · spiro · tlingit · ute · vendat · wicita · yavapai · yupik · zuni
+- **bati-afrika** (15): adar · birom-plato · borgu · dan-guro · eve-notse · gambiya-mandinka · gurma · jukun-kvararafa · kru-grebo · mossi-vagadugu · nijer-deltasi · tiv · tuareg-adag · tuareg-ivellemmedan · zerma
+- **guneydogu-asya** (11): arakan · banda-adalari · gova-makassar · malay-sultanliklari · pagaruyung · palembang-sultanligi · samudra-pasai · san-devletleri · ternate-sultanligi* · tidore-sultanligi · timor-beylikleri
+- **dogu-afrika** (10): antandroy · betsileo · fipa-nyakyusa · kamba · kaonde-ila · kenya-kuzey-halklari · makdisu-sultanligi · nyamvezi · sidamo-kralliklari · vollayta-kralligi
+- **guney-amerika** (9): arua · charrua · chimu-krallik · colla-krallik · diaguita-calchaqui-konfederasyonu · lupaqa-krallik · mapuche-araukanya · muisca-konfederasyonu · ranquel
+- **guney-asya** (7): ahom · kalikut · ladak · manipur · sind · travankur · yafna
+- **orta-afrika** (5): banda-gbaya · kanem-tubu · matamba · tio · tubu-tibesti
+- **guney-afrika** (4): herero · manica · nama-orlam · xhosa
+- **orta-amerika-karayip** (3): nahua-sehir-devletleri · tututepec-krallik · zapotek-krallik
+- **kafkasya** (2): cerkez · kabartay
+- **kuzey-afrika** (2): tuareg-accer · tuareg-ahaggar
+- **orta-avrupa** (2): baden* · saksonya*
+- **anadolu** (1): cemisgezek-beyligi
+- **arabistan** (1): nebhani
+- **dogu-avrupa** (1): teuton-sovalyeleri*
+- **iran** (1): hurmuz-sultanligi
+
+⇒ **K7'nin sorumluluğuna düşen 12 künye** (Avrupa · İslâm · Kafkasya): cerkez · kabartay · tuareg-accer · tuareg-ahaggar · baden* · saksonya* · cemisgezek-beyligi · nebhani · teuton-sovalyeleri* · hurmuz-sultanligi · sind · makdisu-sultanligi. Bunların 1281 öncesi kökeni ÜÇÜNCÜ TUR kalemi.
+Geri kalan 109 künye başka dilimlerin ya da K9'un: Amerika 47 · Sahra altı 34 · GD Asya 11 · Güney Amerika 9 · öteki.
+
+### 7.3 🔴 ÇİFT OTURUM — aynı dilim, aynı ad, aynı dosya adları
+Tahtada İKİ «KAMP-ORTACAG» teslimi var:
+- **M-5925** (10 Ekim 18:15) BENİM: dal `kamp-ortacag-1010`, PUSH'lu.
+- **M-5927** (18:31) BAŞKA bir oturum: 41 polity · 94 madde · 29 şehir, commit `f513d2a6` YEREL, push yok.
+
+Dosya adları BİREBİR AYNI (`denetim/KAMP-ORTACAG-*.csv`) ⇒ birleştirmede biri ötekini EZER.
+- **Ortak payımız:** Merovenj · Karoling · Batı/Doğu/Orta Frank · Lombard · Vizigot · Ostrogot · Vandal · Süev · Gepid · Avar · Asturya · B.Moravya · Benevento · Amalfi.
+- **Onda olup bende olmayanlar:** Samo · Karantanya · Salerno · Napoli · Macar prensliği · Girit/Bari emirlikleri · Dülefî · Me'mûnî · Ya'furî.
+- **Bende olup onda olmayanlar:** Göktürk ailesi · Türgiş · Lahmî · Gassânî · Himyerî · Kinde · Hasanveyhî · ve 2. tur dikişleri (Odoakr · Soissons · Dâbûyî · Hindûşâhî · Türkşâhî · Zunbil).
+
+⚠️ **İki teslim bir noktada ÇELİŞİYOR:** o, `dogu-frank` t'sini **911** yazıp almanya f 962'ye **51 yıllık boşluk** raporluyor. Ben t'yi **962** yazdım: Treccani `sacro-romano-impero` «A partire da Ottone I di Sassonia (962)»; 911 Karoling HANEDANININ sonu, polity'nin değil. Bu bir hüküm sorusu: **künye polity mi anlatır, hanedan mı?**
+
+**Birleştirme kararı koordinatörün.** Önerim yok (öncelik/sıra hükmü bende değil); yalnız ölçümü veriyorum.
