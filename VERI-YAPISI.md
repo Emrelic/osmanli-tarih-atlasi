@@ -507,6 +507,50 @@ etiketiyle **5 kayıt** duruyor. Eksik olan sahiplik değil, **kademe.**
 
 ---
 
+### `tabi:` — ZAMANLI TÂBİLİK *(CANLI veri · TÜKETİCİSİ YOK)*
+
+```js
+tabi:[{ f:"1475-06-06", t:"1774-07-21", ust:"osmanli" }]
+```
+| alan | ne |
+|---|---|
+| `f` | tâbiliğin BAŞLADIĞI gün (ISO) |
+| `t` | tâbiliğin BİTTİĞİ gün — **bir SINIR, bir "yıkılış" değil** |
+| `ust` | ÜST devletin `id:`i — `data/devletler.js`te var olan bir kimlik |
+
+**ÖLÇÜLEN KULLANIM (11 Ekim 2026):** **17 kayıt / 16 künye.** Bir künye birden
+çok dilim taşıyabilir (`dulkadir` · `misir-kavalali` · `karadag` ikişer).
+`ust` değerleri: `osmanli` 15 · **`rusya` 1** (`don-kazak`) ·
+**`fransa-cumhuriyet` 1** (`tunus-beyligi-fransiz`).
+
+🔴 **TÜKETİCİSİ YOK — ve bu, "çağıranı olmayan kapı"nın VERİ YÜZÜDÜR.**
+Ölçüldü: `arac/*.py`de 0, `js/app.js`te 0 okuyucu (her iki dosyadaki "tabi"
+isabetleri Türkçe kelime ya da `v:` alanı hakkında). ⇒ 17 kayıt yazılmış,
+**hiçbir şey okumuyor.**
+📌 Ve bu, ölü bir kapıdan KÖTÜDÜR: ölü kapı hiçbir şey yapmaz, **ölü bir
+veri alanı ise bir şey YAPIYOR GİBİ GÖRÜNÜR.** Birisi 17 tâbilik kaydını
+"haritada çizilecek" inancıyla yazdı. Yazılmış ama okunmayan veri, eksik
+veriden daha tehlikelidir: eksikliği bir denetim bulur, **sahte dolgunluğu
+hiçbir denetim aramaz.**
+⚠️ Bu alan `BILINEN_ALANLAR`a eklenirken `v:` ile KARIŞTIRILMAMALI:
+`v:` HARİTA BOYASIDIR (motor okur, tâbi rengini çizer) · `tabi:` ise
+**İLİŞKİNİN KÜNYESİ** (kim kime, hangi tarihler arası). Biri boyar, öteki
+beyan eder; ikisi aynı olguyu ayrı eksende tutar.
+
+🟢 **BEKLENEN TÜKETİCİSİ ADIYLA BELLİ: Emre'nin K1 kararı** (10 Ekim 2026):
+> *"yabancı devletlere de tâbilik çizilsin ve tâbilik etiketi ile belirtilsin,
+> 'Fransa'ya tâbi' şeklinde, ve rengi bir tık açık renk olsun tâbi olunan
+> devletten."*
+⇒ K1'in veri katmanı **ZATEN VAR** ve `don-kazak → rusya` ile
+`tunus-beyligi-fransiz → fransa-cumhuriyet` tam olarak K1'in istediği
+**yabancı→yabancı** hâlidir. Eksik olan veri değil, **okuyucu**: ① motorun
+`ust`u okuyup tâbi rengini üst devletin renginden türetmesi ② ön yüzün
+etiketi basması. İkisi de ayrı iş, ikisi de yazılmadı.
+🔴 Yeni tâbilik yazarken: `t` bir **ÜST SINIR**tır ("en geç bu gün bitti"),
+ömür sonu DEĞİL — `kur:` maddesindeki yön hatasının aynısına düşülmesin.
+
+---
+
 ### 🆕 `bk:` — ZAMANLI BAŞKENT *(karar: 1.MURAT, 2 Eylül 2026)*
 
 ```js
