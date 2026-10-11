@@ -352,7 +352,21 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md) · [`D
   TAM EŞİTLİK arar). Şartname `oturumlar/<dosya>.md`; dosya sahipliği yazılı değilse tek satır
   "şu dosyalar bende". Hazır kıta açılışta TEK "HAZIRIM" yazar (`oturumlar/HAZIR-KITA.md`).
 - **③ Tahta:** `py arac/tahta.py yaz --kim "<AD>" --kime "<ALICI>" --mesaj "…"`; `send_message`
-  yalnız tahta arızasında. 🔴 **NOKTA ATIŞI** (Emre, 22 Eyl): mesaj ilgilisinin adına yazılır;
+  yalnız tahta arızasında.
+  🔴 **NUMARANIN TEK OTORİTESİ SUNUCUDUR — düşmüş mesaj `M-####` ALMAZ, `Y-` ÖNEKİ ALIR**
+  (LAB ölçtü, 11 Ekim 2026): sunucu ölüp istemci git'e düştüğünde git'teki kayıt da
+  `M-####` alıyordu ⇒ **`M-5926` İKİ AYRI MESAJ demeye başladı** (git 5926-5930 ↔
+  sunucu 5926-5927). Bu kayıp mesajdan KÖTÜDÜR: kayıp YOKTUR, **yanlış numara
+  VARDIR** ve her atıfta yanlış olmaya devam eder. ⇒ Düşmüş mesaj `Y-<yerel_kimlik>`
+  taşır, sunucuya ulaşınca gerçek `M-####`ünü alır, kayıt ikisini birlikte tutar;
+  `yerel_kimlik` ZORUNLUDUR (yoksa çıkış 2). Var olan çakışmalar YENİDEN
+  NUMARALANMAZ, BEYAN EDİLİR — geçmişi numaralamak bütün atıfları bozar.
+  📌 **Kaydın İÇİNDEKİ işaret seyahat etmez, ADIN İÇİNDEKİ işaret eder:** "geçici"
+  alanı yalnız kayıtta yaşar, biri *"M-5928'de dediğin gibi"* yazdığı an düşer.
+  (Aynı sebeple `uc_turu` kayda değil ALANA bağlandı.) **"Kaydedildi" ≠ "teslim
+  edildi":** git'e yazılıp push EDİLMEMİŞ mesaj hiç yazılmamıştan farksızdır —
+  ölçüldü, 11 cevapsız "HAZIRIM" 28 saat iki makinenin diskinde mahsur kaldı.
+  🔴 **NOKTA ATIŞI** (Emre, 22 Eyl): mesaj ilgilisinin adına yazılır;
   `HERKES` yalnız ACİL/DURDURUCU ve **`--dayanak` ZORUNLU** (yoksa çıkış 2) — bütün bekçileri
   uyandırır; değilse kimseyi uyandırmaz. **Boş uyanış, dolu turdan ucuz değildir.**
 - **④ Bekçi:** **Bash `run_in_background`** + `py arac/tahta_bekci.py --kim "<AD>" --cik`
