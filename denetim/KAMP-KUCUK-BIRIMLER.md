@@ -79,14 +79,14 @@ kümesi · `f`/`t`/`tarih` biçimi ya da `bulunamadı` · kimlik çakışması (
 ```
 AILE            polity  f+t kaynaklı  krono  EVET  bulunamadı  TEREDDUT
 KURT-ANADOLU       16       0           46    27       63          5
-ITALYA             18      16           93     0        6          5
-HRE-KUZEY          33      29 *        123     0        4 *        8
+ITALYA             18      16           93     0        6          7
+HRE-KUZEY          33      29 *        123     0        4 *        9
 HRE-BATI           22      16           77     0        6          3
-BALKAN             12       8 *         39    18       11 *        5
+BALKAN             12       9 *         39    18       10 *        8
 KAFKAS             16       8           52     5       26          3
 KORFEZ             20       9           68    13       35          5
 HINT               13      13 **        47     0       10          2
-TOPLAM            150      99          545    63      161         36
+TOPLAM            150     100          545    63      160         42
 ```
 `*` birleştirmede düzeltildi (aşağıda) · `**` 10'unun `t`'si 1923-10-29 PENCERE İŞARETİ (1923 sonrası sürüyor), ölçüm değil.
 `tur` dağılımı: prenslik 32 · dukalik 30 · emirlik 25 · beylik 13 · hanlik 13 · teokrasi 9 · sultanlik 9 · kontluk 5 ·
@@ -102,7 +102,13 @@ sehir-devleti 5 · cumhuriyet 4 · konfederasyon 3 · krallik 2. Kafkas'ın 2 ma
 (H.1284) · Kubadoğulları ~1417. Palu · Eğil · Genç · Hazzo'da yalnız bölgesel "1850'lerden itibaren" var ⇒ yazılmadı.
 Körfez: 20'nin 11'inde kuruluş `bulunamadı` (Aden hinterlandı; EI ve Qatar Digital Library açılamadı).
 
-## 3. TEREDDÜT KOVASI — 36 satır, sınıflandırma hükmü SENİN
+### 2.3 🔴 İLK TUR TESLİMİNDEKİ (M-5928) ÜÇ SAYI YANLIŞTI — düzeltildi
+Birleştirme betiğinin TEREDDÜT sayacı `not`un yalnız ilk 40 karakterine bakıyordu; başa eklenen BİRLEŞTİRME/ARAMA
+işaretleri kelimeyi dışarı itince **saymadı** (aracın deseni bir ölçüm parametresidir). İkinci turda yakalandı:
+TEREDDÜT **36 → 42** (İtalya 5→7 · HRE kuzey 8→9 · Balkan 5→8) · f+t kaynaklı **99 → 100** · bulunamadı **161 → 160**
+(Balkan'da tabloyu elle düzeltirken iki sayıyı yanlış yazmıştım; betik çıktısı 9 ve 10). CSV'ler etkilenmedi — yalnız sayım.
+
+## 3. TEREDDÜT KOVASI — 42 satır (ilk tur), sınıflandırma hükmü SENİN
 | aile | kimlik | soru |
 |---|---|---|
 | Kürt | baban-emirligi | TDV: sancak OCAKLIK, beyler Bağdat valisinin teklifiyle atanır ⇒ ölçütünle polity değil olabilir |
@@ -179,13 +185,67 @@ Körfez: 20'nin 11'inde kuruluş `bulunamadı` (Aden hinterlandı; EI ve Qatar D
 ```
                                    öngörü          ölçüm
 eksik aday                         ~125            123 (+ araştırmada açılan ek 27 ⇒ 150 polity satırı)
-f+t kaynaklı pay                   %70 ± 10        99/150 = %66 ✓ (sınırda; Kürt 0/16 çekiyor)
+f+t kaynaklı pay                   %70 ± 10        100/150 = %67 ✓ (sınırda; Kürt 0/16 çekiyor)
 f veya t bulunamadı                %25 ± 10        51/150 = %34 ✓ (üst sınır)
 kronoloji maddesi                  250-350         545 ✗ (üstünde; Alman/İtalyan aileleri zengin)
 harita_degisimi EVET               ~40 ± 15        63 ✗ (üstünde; Kürt 27 tek başına)
-TEREDDUT                           15 ± 5          36 ✗ (iki katı — sınıflandırma sorusu öngördüğümden yaygın)
+TEREDDUT                           15 ± 5          42 ✗ (iki katı — sınıflandırma sorusu öngördüğümden yaygın)
 en çok bulunamadı: Kürt + G.Arabistan   ✓ (63 + 35)
 ```
+
+## 8. İKİNCİ TUR (11 Ekim 2026) — §1.5'in taranmayan aileleri + SEHIR.csv
+Taban `origin/main` (kendi dalıma birleştirildi, `3742d4e8`), künye listesi tazelendi (897).
+
+### 8.1 Tespit — taranmayan ailelerin mevcut künyeleri
+Güneydoğu Asya (70 künye) · Batı Afrika (62) · Kuzey Afrika (26) · Doğu Afrika (47) · Orta Afrika (28) bölge bölge okundu.
+🔴 Bulgu: bu bölgeler büyük ölçüde **TOPLU künyelerle** kaplı — `malay-sultanliklari` (1281-1909) · `dogu-sumatra-sultanliklari` ·
+`bugis-kralliklari` · `bali-kralliklari` · `hausa-sehir-devletleri` (1000-1808) · `sokoto` · `nijer-deltasi` · `svahili-sehirleri`
+(1000-1698) · `somali` (1500-1927). Eksik olan, bunların İÇİNDEKİ tekil birimler ve birkaç tamamen eksik birim. Toplu künye ile
+tekil birim çakışması bir SINIFLANDIRMA sorusudur ⇒ ilgili her satır TEREDDÜT.
+
+### 8.2 Ölçüm (üç yeni aile + şehir)
+```
+AILE            polity  f+t   krono  EVET  bulunamadı  TEREDDUT
+GDASYA             20    19      54     0          3        16
+BATI-AFRIKA        32    13      47     0         45        24
+KD-AFRIKA          20     6      65     9         54        17
+TUR 2 TOPLAM       72    38     166     9        102        57
+İKİ TUR TOPLAM    222   138     711    72        262        99    (birleştirme HATA 0)
+SEHIR.csv          69 satır · ilk kayıt tarihli 38 · bulunamadı 23 · aranmadı 8 · atlasta zaten var 9 (satır yazılmadı)
+```
+
+### 8.3 Birleştirmede yapılan düzeltmeler (ikinci tur)
+- **ARAMA-ÖZETİ işareti 53 satır:** Batı Afrika'da britannica.com 403 verdi, araştırmacı Britannica cümlelerini arama motoru
+  özetinden okudu (23 polity + 29 kronoloji) + Bulungan (1731). Bu satırların `not`una/`metin`ine *"birebir DOĞRULANMADI
+  (ÖLÇÜLEMEDİ riski)"* yazıldı. İtalya/Buton/Muhammere'de arama özeti yalnız KARŞI TANIK olarak geçiyor, dayanak değil.
+- **SEHIR — `aranmadı` ≠ `bulunamadı`:** 8 şehirde (Lehic · Kişn · Mirpur Khas · Monako · Corte · Massa · Kaliakra · İlisu) tarih
+  HİÇ aranmamış, yalnız koordinat ölçülmüştü; araştırmacı `bulunamadı` yazmıştı ⇒ `aranmadı`ya ayrıldı (§4 kural 6).
+- **SEHIR — Lucca `-0180-01-01` → `-0179-01-01`:** MÖ 180 astronomik numaralamada -179 (yıl 0 VAR).
+- 5 şehirde tarih "ilk kayıt" değil **en erken tanıklık = üst sınır** (Ümmülkayveyn 1775 · Dübey 1799 · Acmân 1820 · Uşni 1189 ·
+  Male 1752) — notta beyanlı.
+
+### 8.4 Koordinatöre ek sorular (ikinci tur)
+1. 🔴 **Takvim (ikinci tanık):** KD-Afrika araştırmacısı TDV'nin 1582 öncesi tarihleri JÜLYEN verdiğini hicrî tabloyla sınadı
+   (Vattâsî f H.876 = 1471-06-20). İlk turdaki Kafkas bulgusuyla birlikte soru artık **1582 öncesi bütün TDV günleri**dir;
+   atlas proleptik Gregoryen (`gun.py`). Ölçtürülmeli: atlasın mevcut 1281-1582 TDV günleri hangi takvimde yazılmış?
+2. **Harar mükerrer:** mevcut `adal` = "Adal Sultanlığı / Harar Emirliği" (1415→1887-01-06); TDV ucu 1887-01-07. Yeni
+   `harar-emirligi` satırı büyük olasılıkla AÇILMAMALI. **Vattâsîler** `merini` (1196-1549) içinde; ayrı künye yalnız 1549-1554 için anlamlı.
+3. **Toplu künye pencereleri tekil birimlerle uyuşmuyor:** `malay-sultanliklari` 1909'da bitiyor, Kedah/Perak/Pahang/Selangor/
+   Terengganu 1923 sonrası sürüyor · `bambara` künyesi Kaarta'yı zaten içeriyor.
+4. **Zeylâ ve Berberâ** polity değil ama güçlü EVET tarihleri var (1559 Osmanlı · 1849 Hudeyde'ye bağlanış · 1875-06-01 Mısır'a
+   ferman · 1883/84 çekiliş) — aile notunda ⑤, CSV'ye yazılmadı.
+5. **Süleymaniye:** koordinatı atlasta "Şehrizor" adıyla duruyor; TDV'ye göre Süleymaniye 1784'te kuruldu ⇒ o noktanın adı/başlangıcı ölçtürülmeli.
+6. **Kaynak niteliği (GDASYA):** Malay/Endonezya kaynakların çoğu üniversite dergisi makalesi; bir kısmı konuya teğet
+   (Perlis için mutfak makalesi, Bulungan için mimarlık dergisi). Kırmızı çizgiyi ihlal etmiyor ama ZAYIF — ikinci kaynakla teyit önerilir.
+7. **Sokoto'ya bağlı emirlikler** (Kano, Zaria, Bauchi, Gombe, Ilorin, Nupe, Gwandu): Osmanlı hükümet sancağı sorusunun aynısı —
+   halifeliğe tâbi emirlik ayrı polity mi?
+
+### 8.5 Öngörü (ikinci tur için yazılmadı — BEYAN)
+İkinci turun öngörüsü ölçümden önce AYRI yazılmadı; §0'daki öngörü yalnız ilk turun evrenini kapsıyordu. Bu bir usul eksiğidir.
+
+### 8.6 Hâlâ taranmayan (sınır, ADIYLA)
+Fransız feodal birimleri · İberya senyörlükleri · İskandinav/Baltık · Rus knezlikleri (pencere içi kalıntılar) · Amerika ·
+Orta Afrika'nın tekil birimleri (Kotoko, Dar Sila …) · Güney Afrika. Ek adaylar aile notlarında (⑤).
 
 ## EK — aile notları (alt araştırmacıların NOT.md'leri, AYNEN)
 Kaynak URL'leri, ölü slug listeleri, çelişkiler ve seçimleri, ek adaylar burada; CSV satırlarının izlenebilirliği için.
@@ -725,3 +785,346 @@ mirpur-talpur'un `sind` künyesiyle örtüşme ihtimali var; satır TEREDDUT ile
 #### ⑥ Bitirilemeyen
 - Sind'in Haydarâbâd (Şahdâdpûr) Tâlpûr kolu ayrı yazılmadı, çünkü `sind` künyesinin kapsadığını varsaydım. Bu varsayım koordinatörün kararına kalıyor.
 - Sih misilleri yalnız tek konfederasyon olarak yazıldı; on iki misl ayrı ayrı çıkarılmadı.
+
+### EK · GDASYA (ikinci tur)
+
+#### GDASYA — Malay yarımadası + Endonezya sultanlık/racalıkları (1281-1923) — NOT
+
+20 polity · 54 kronoloji satırı · `harita_degisimi` hepsi HAYIR (hiçbiri Osmanlı `d:`/`v:` toprağına dokunmuyor).
+
+#### ① Kaynak URL'leri (polity başına)
+
+**TDV (birincil) — doğrulanan slug'lar (GET 200):** `malezya`, `endonezya`, `tayland`, `raca-ali-haci`, `alaeddin-tumenanga`, `sumatra`, `borneo`, `demak`, `sambasi`, `muhammed-besyuni`, `kuala-lumpur`, `cava`, `malaka`.
+**Ölü (302):** kedah, perak, pahang, selangor, trengganu, terengganu, kelantan, siak, siyak, riau, cambi, bima, buton, cirebon, sambas, bulungan, lombok, negeri-sembilan, perlis, lingga, mataram, johor, cohor, makassar, bugi(ler), sulavesi, selebes, kalimantan.
+**Canlı ama YANLIŞ madde (tuzak ②):** `patani` → "bk. TAYLAND" (gerçek bilgi TAYLAND maddesinde) · `deli` → "bk. CÜNÛN" · `bone` → "bk. BÛNE" (Cezayir).
+Arama (`/arama/?q=…&p=t`): hiçbirinin kendi maddesi yok; geçtikleri maddeler MALEZYA, ENDONEZYA, TAYLAND, SUMATRA, RACA ALİ HACI vb.
+
+| polity | kaynaklar |
+|---|---|
+| kedah-sultanligi | ejurnal.psm.org.my/index.php/Malaysia-dari-segi-Sejarah/article/download/40/37/114 · thesiamsociety.org/wp-content/uploads/1971/03/JSS_059_1g_SharomAhmat_KedahSiamRelations.pdf · journals.iium.edu.my/irkh/index.php/ijrcs/article/download/408/282/2817 |
+| perak-sultanligi | TDV malezya · PSM (yukarıda) · en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Malay_States_(British) |
+| pahang-sultanligi | journal.ump.edu.my/index.php/ijhtc/article/download/13625/4025/61866 · EB1911 Malay States (British) · TDV malezya |
+| selangor-sultanligi | ejurnal.psm.org.my/…/article/download/24/21/66 · PSM art. 40 · IIUM · TDV malezya |
+| terengganu-sultanligi | journal.unisza.edu.my/jimk/index.php/jimk/article/download/19/18/83 · IIUM |
+| kelantan-sultanligi | ajba.um.edu.my/index.php/JAT/article/download/45447/17727 · IIUM |
+| patani-sultanligi | TDV tayland · IIUM · EB1911 Malay States (Siamese) |
+| negeri-sembilan | EB1911 Malay States (British) · TDV malezya |
+| siak-sultanligi | jom.unri.ac.id/index.php/JOMFKIP/article/download/12944/12586 |
+| riau-lingga-sultanligi | TDV malezya · TDV raca-ali-haci · biblioasia.nlb.gov.sg/vol-17/issue-4/jan-to-mar-2022/pulau-lingga |
+| cambi-sultanligi | e-journal.lp2m.uinjambi.ac.id/ojp/index.php/malay/article/download/1428/705/5335 · ejournal.uin-suka.ac.id/adab/thaqafiyyat/article/download/2254/973/5188 |
+| deli-sultanligi | jurnal.uinsu.ac.id/index.php/attazakki/article/download/13491/5929 · jurnaltarbiyah.uinsu.ac.id/index.php/tazkiya/article/download/146/126 |
+| bima-sultanligi | ejournal.iainkendari.ac.id/index.php/zawiyah/article/download/1372/1096 · TDV alaeddin-tumenanga |
+| buton-sultanligi | ojs.unm.ac.id/Attoriolong/article/download/23912/… · TDV alaeddin-tumenanga |
+| bone-kralligi | journal.unhas.ac.id/index.php/jlb/article/download/3047/1599 · TDV alaeddin-tumenanga |
+| cirebon-sultanligi | ejournal.brin.go.id/panalungtik/article/download/14363/11084/41859 · syekhnurjati.ac.id/jurnal/index.php/tamaddun/article/download/938/688 |
+| sambas-sultanligi | journal.walisongo.ac.id/index.php/walisongo/article/download/161/142 · jurnaliainpontianak.or.id/…/khatulistiwa/article/download/244/198 · TDV muhammed-besyuni |
+| bulungan-sultanligi | jurnal.arsitektur.uniba-bpn.ac.id/index.php/Display/article/download/16/21/115 (**AÇILAMADI** — bkz. ⑥) |
+| lombok-mataram-kralligi | en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Lombok |
+| perlis-racaligi | spaj.ukm.my/ajehh/index.php/ajehh/article/download/263/314 · JSS (Sharom Ahmat) · EB1911 Malay States (Siamese) |
+
+Britannica online: 403 (her sayfa) → 1911 baskısı Wikisource metni kullanıldı (adıyla).
+
+#### ② bulunamadı
+- **negeri-sembilan `f`**: geleneksel 1773 (Raja Melewar) yalnız Vikipedi/basında; akademik metinde yıl bulunamadı; EB1911 yalnız "18. yüzyılın sonları".
+- Riau-Lingga: 1824 antlaşmasının GÜNÜ (17 Mart) kaynakta yok → yıl yazıldı.
+- Cirebon kurucusu Pangeran Cakrabuana'nın kuruluş yılı: akademik metinde yok.
+- Lombok'ta Bali fethinin yılı (1740 / "19. yy başı"): akademik metin açılamadı.
+- Bulungan'ın 1777 sultanlık iddiası: hiçbir kaynakta yok.
+
+#### ③ Çelişen kaynaklar ve seçim
+- **Terengganu f:** 1708 (UniSZA; Tuhfat al-Nafis) ↔ 1722/1724/1725 (Vikipedi vb.). 1708 seçildi.
+- **Kelantan f:** 1776 (Al-Tamaddun, UM) ↔ 1763/1764 (Vikipedi, royalark). 1776 seçildi.
+- **Riau-Lingga t:** TDV 1913 (sultanlık kaldırıldı) ↔ NLB 1911 (sultan tahttan indirildi). TDV esas (t=1913); 1911 ayrı kronoloji maddesi.
+- **Buton f:** 1540 (Attoriolong, okundu) ↔ 1542 = 948 H (JMB LIPI; sunucu çözümlenmedi) ↔ 1541 (J. Pengajian Melayu). 948 H = 1541-04-27→1542-04-16 (tabular). Okunabilen 1540 yazıldı.
+- **Sambas f:** 10 Zilhicce 1040 = 1631-07-10 (Salsilah, Walisongo) ↔ 1630 (Khatulistiwa) ↔ 1612/1622 ↔ 1675 (Vikipedi). Gün veren hicrî tarih esas; dönüşüm tabular, ±1-2 gün.
+- **Pahang:** aynı makale hem 1470 hem "sejak tahun 1475" diyor; tahta çıkış cümlesi (1470) esas.
+- **Jambi t:** 1901/1903/1904/1906 — resmî kaldırılış 1906 (Thaqafiyyat).
+- **Deli bağımsızlık:** 1814 (Vikipedi) ↔ 1861 (Tazkiya). Kronolojiye 1861 yazıldı.
+- **Patani f:** TDV "tahminen 1457" (hanedanın İslâm'a girişi) ↔ EB1911 "16. yy". TDV esas, kesinlik onyil.
+- **Lombok t gün:** EB "Temmuz 1894 seferi … Eylül'de ikinci sefer"; Cakranegara'nın 19 Kasım 1894 düşüşü yalnız akademik olmayan kaynakta → yıl yazıldı.
+- **Perlis:** JSS ayrılışın 1842 öncesi olduğunu söylüyor (Tengku Hüseyin idaresinde ayrı birim); racalık 1843 (SPAJ).
+
+#### ④ KUNYE_TSV'de zaten var / toplu künye çakışması
+Tekil olarak hiçbiri yok (20 `kimlik_onerisi` TSV'de çakışmıyor). Toplu künye çakışmaları (`not`ta TEREDDUT):
+`malay-sultanliklari` → kedah, perak, pahang, selangor, terengganu, patani · `dogu-sumatra-sultanliklari` → siak, cambi, deli · `bugis-kralliklari` → bone · `bali-kralliklari` → lombok-mataram · `cohor-sultanligi` (Johor-Riau) ↔ riau-lingga.
+Not: `malay-sultanliklari` künyesi 1909-07-10'da bitiyor; Kedah/Perak/Pahang/Selangor/Terengganu 1923 sonrası sürüyor — künye penceresi tekil birimlerle uyuşmuyor.
+
+#### ⑤ Listede olmayıp bulunan ek adaylar
+Kubang Pasu (Kedah'tan 1839-1864 ayrı birim, JSS) · Setul/Satun (EB1911) · Patani'nin 19. yy başında ayrılan yedi devleti (Nawng Chik, Jering, Yala, Sai, Raman, Ra-ngé; EB1911) · Sungei Ujong, Jelebu, Rembau (Negeri Sembilan luak'ları, EB1911) · Langkat, Serdang (Deli komşusu, At-Tazakki) · Indragiri, Kampar (TDV malezya) · Dompu, Sumbawa (TDV alaeddin-tumenanga) · Soppeng, Wajo (Bugis; toplu künye içinde) · Sukadana, Bancermasin (TDV borneo) · Kasepuhan/Kanoman/Kacirebonan (Cirebon'un 1677 bölünmesi) · Pagesangan, Pagutan, Karangasem-Lombok (Lombok'taki 1839 öncesi Bali devletleri).
+
+#### ⑥ Bitirilemeyen / zayıf kalan
+- **bulungan-sultanligi:** kaynağın tam metni açılamadı (502/403); alıntı arama özetinden — ölçtürülmeli.
+- **siak-sultanligi:** yalnız üniversite öğrenci makalesi (JOM UNRI); daha güçlü akademik kaynak (Lentera UNRI) sunucu hatası verdi.
+- **riau-lingga 1911 alıntısı:** NLB sayfasından WebFetch özetiyle alındı (ham metin değil).
+- Buton için JMB LIPI (jmb.lipi.go.id) alan adı çözümlenmedi.
+- Geçici dosyalar: `GDASYA-is/` (html/, pdf/, yaz.py, hicri.py, ext.py, kwic.py, bas.py).
+
+### EK · BATI-AFRIKA (ikinci tur)
+
+#### BATI-AFRIKA — NOT (KAMP-KUCUK-BIRIMLER)
+
+32 polity · 47 kronoloji satırı · `harita_degisimi` hepsi HAYIR. Betik: `BATI-AFRIKA-is/yaz.py`.
+
+#### 0. Kaynak erişimi — OKUYAN BİLSİN
+- **TDV** (GET ile doğrulandı, 200): `kano`, `sokoto`, `hevsa`, `fulaniler`, `nijerya`, `ibn-fudi`, `osman-b-fudi`,
+  `muhammed-bello`, `el-hac-omer`, `benin`, `gana`, `mali`, `bornu`, `kamerun`. `porto-novo` canlı ama yalnız
+  "bk. BENİN" yönlendirmesi (boş gövde, tuzak ③).
+- **TDV ölü slug (302)**: katsina · zazzau · zarya · zaria · gobir · kebbi · zamfara · daura · ilorin · nupe · gwandu ·
+  gandu · bauchi · gombe · kaarta · mandara · hausalar · bida · fante · akwamu · denkyira · egba · abeokuta · ijebu ·
+  allada · calabar · bonny. Arama (`?q=…&p=m/t`) bu adlar için ayrı madde vermedi; yalnız kapsayıcı maddelerde geçiyorlar.
+  "mandara" araması 0 ilgili isabet.
+- **Britannica (britannica.com)**: hem `urllib` hem WebFetch **HTTP 403**. Metin **arama motoru (WebSearch,
+  allowed_domains=britannica.com) alıntılarıyla** okundu. `kaynak` alanında `[Britannica: … arama motoru alıntısıyla
+  okundu]` damgası olan her satır budur. Alıntılar arama özetinden geldiği için **birebirliği sayfa açılarak
+  doğrulanmadı** — koordinatör isterse bu satırlar `ÖLÇÜLEMEDİ` kovasına alınabilir. Okunan maddeler:
+  Hausa-states · Katsina (historical kingdom and emirate) · Suleja · Daura · Kaura-Namoda · Birnin-Kebbi · Gwandu ·
+  Gobir · Usman-dan-Fodio · Ilorin · Bida · Tsoede · Bauchi · Gombe-emirate · Akwamu · Denkyera · Ashanti-Empire (students) ·
+  Fante-confederacy · Ghana (Contact-with-Europe) · Sodeke · Abeokuta (summary) · Ijebu-Ode · Epe · history-of-Benin ·
+  Agaja · Jubo-Jubogha · Ikot-Abasi · kingdom-of-Bonny · Calabar · Efik · Bambara-states · Kano summary.
+- **EB1911 (Wikisource, `action=render`, doğrudan okundu)**: Katsena · Kano · Zaria · Gando · Nupe · Bida · Bauchi ·
+  Sokoto · Hausa · Gold Coast · Ashanti · Fanti. URL kalıbı
+  `https://en.wikisource.org/wiki/1911_Encyclopædia_Britannica/<Madde>`.
+- **Mandara**: Barkindo, *The Sultanate of Mandara to 1902* (Steiner 1989) — yalnız katalog/başlık
+  (https://cir.nii.ac.jp/crid/1130000793934867072). mandaras.info okundu ama yazar/kurum belirsiz ⇒ dayanak yapılmadı.
+- Vikipedi hiçbir satırda dayanak değil.
+
+#### ① Polity → kaynak URL
+| polity | kaynak |
+|---|---|
+| kano-hausa-kralligi, kano-emirligi | TDV kano, hevsa · EB1911 Kano |
+| katsina-hausa-kralligi, katsina-emirligi | TDV hevsa · Britannica Katsina · EB1911 Katsena |
+| zazzau-hausa-kralligi, zazzau-emirligi, abuja-emirligi | TDV hevsa, osman-b-fudi · Britannica Suleja · EB1911 Zaria |
+| gobir-kralligi | TDV hevsa, sokoto, fulaniler · Britannica Usman dan Fodio |
+| daura-hausa-kralligi, daura-emirligi | Britannica Daura |
+| kebbi-kralligi | Britannica Birnin Kebbi / Gwandu · TDV sokoto |
+| zamfara-kralligi | Britannica Kaura Namoda |
+| gwandu-emirligi | TDV ibn-fudi · EB1911 Gando · Britannica Gwandu |
+| ilorin-emirligi | Britannica Ilorin · TDV nijerya |
+| nupe-kralligi, nupe-emirligi | Britannica Bida, Tsoede · EB1911 Nupe, Bida |
+| bauchi-emirligi | EB1911 Bauchi · Britannica Bauchi |
+| gombe-emirligi | Britannica Gombe · TDV sokoto |
+| kaarta-kralligi | TDV el-hac-omer · Britannica Bambara states |
+| mandara-sultanligi | Barkindo 1989 (başlık) |
+| fante-konfederasyonu | Britannica Fante confederacy, Ghana · EB1911 Gold Coast |
+| akwamu-kralligi, akyem-kralligi | Britannica Akwamu · TDV gana |
+| denkyira-kralligi | Britannica Denkyera, Ashanti Empire · EB1911 Ashanti |
+| egba-abeokuta | Britannica Sodeke, Abeokuta |
+| ijebu-kralligi | Britannica Ijebu-Ode, Epe |
+| porto-novo-kralligi, allada-kralligi, whydah-kralligi | TDV benin · Britannica history-of-Benin, Agaja |
+| bonny-kralligi, opobo-kralligi, eski-kalabar | Britannica kingdom-of-Bonny, Jubo-Jubogha, Ikot-Abasi, Calabar, Efik |
+
+#### ② bulunamadı (ADIYLA)
+- **f yok (yalnız yüzyıl/efsane)**: kano-hausa (TDV "X. yy" · Br. "early 12th c."), katsina-hausa ("10th or 11th c."),
+  zazzau-hausa, gobir, daura-hausa, zamfara, mandara, fante ("late 17th c."), denkyira ("17th c."), akyem, ijebu
+  ("by the 16th c."), porto-novo, allada, whydah ("by the 1680s" bağımsız), bonny ("15th c."), eski-kalabar ("17th c. ilk yarısı").
+- **t yok**: abuja-emirligi, kebbi-kralligi (Argungu, İngiliz egemenliği tarihi), gombe-emirligi, akyem, bonny.
+- **merkez yok**: akyem. **oncul yok**: çoğu yerli krallık (yazıldı).
+- **kronolojisiz**: akyem-kralligi, bonny-kralligi (tarihli olay bulunamadı).
+
+#### ③ Çelişkiler ve seçim
+- **Katsina düşüşü**: TDV HEVSÂ 1804 ↔ Britannica 1806 ↔ EB1911 "beginning of 19th c." → TDV (kural), 1804; beyanlı.
+- **Zaria düşüşü**: TDV HEVSÂ 1804 + Britannica Suleja "about 1804" ↔ TDV OSMAN b. FÛDÎ 1806 → 1804; beyanlı.
+  (İki TDV maddesi kendi arasında çelişiyor — koordinatör `ÖLÇÜLEMEDİ` sayabilir.)
+- **Gwandu kuruluşu**: TDV İBN FÛDÎ 1812 ↔ Britannica 1809 ↔ EB1911 c.1819 → TDV 1812.
+- **Bida/Nupe Fulani yönetimi**: Britannica c.1806 fetih ↔ EB1911 "Fula rule established about 1859" (Bida'nın
+  kuruluşu) → emirlik f c.1806, Bida 1859 kronolojide.
+- **Bauchi**: Britannica emirlik "1800–10", şehir 1809 ↔ EB1911 1809 → 1809 (yıl, beyanlı).
+- **Gobir zaptı**: Britannica Ekim 1808 ↔ TDV FÛLÂNÎLER "1806-1808 arasında" → Ekim 1808 (TDV SOKOTO da 1808).
+- **Opobo**: 1869 değil 1870 (Britannica).
+
+#### ④ KUNYE_TSV'de ZATEN VAR
+- **Kaarta** → `bambara` (Segu ve Kaarta, 1650-1861) içinde. Yine de `kaarta-kralligi` yazıldı, TEREDDUT ile.
+- Toplu künyelerle çakışanlar (TEREDDUT damgalı): Hausa krallıkları ↔ `hausa-sehir-devletleri`; emirlikler ↔ `sokoto`;
+  Bonny / Opobo / Eski Kalabar ↔ `nijer-deltasi`.
+- Ardıl olarak kullanılan mevcut id'ler: `sokoto`, `ingiliz-nijerya`, `ingiliz-altin-kiyisi`, `fransiz-bati-afrika`,
+  `dahomey`, `asanti`, `tekrur`, `oyo-imparatorlugu`. Alman Kamerunu künyesi YOK.
+
+#### ⑤ Listede olmayan EK aday
+- `abuja-emirligi` (yazıldı; 1828, Zazzau Habe ardılı, Sokoto'ya bağlı DEĞİL).
+- **Maradi (Katsina Habe ardılı)** — Britannica yalnız "proclaimed a Hausa Katsina chiefdom" der, yıl yok → yazılmadı.
+- **Gobir-Tsibiri** (Gobir hanedanının devamı) — kaynakla doğrulanamadı → yazılmadı.
+- **Daura-Zango / Daura-Baure** (Habe rakip krallıkları) — yıl yok → yazılmadı.
+- **Kontagora Emirliği** (TDV SOKOTO: Ömer Nagvamatse kurdu, 1876'ya dek) · **Keffi** (c.1800, Zaria'ya bağlı) · **Lapai** (1825) ·
+  **Jemaa** (c.1810) · **Hadejia** · **Katagum** · **Muri** — Sokoto'ya bağlı başka emirlikler; yazılmadı.
+- **Akwapim**, **Assin**, **Wassaw** (Akan devletleri) — kaynak okunmadı.
+
+#### ⑥ Bitiremediğim
+- Britannica satırlarının birebir alıntı doğrulaması (403 yüzünden).
+- Mandara için gerçek metinli akademik kaynak (Barkindo'nun yalnız başlığı).
+- Akyem ve Bonny'nin f/t'si; Kebbi (Argungu), Gombe, Abuja'nın İngiliz egemenliğine geçiş tarihi.
+- Hiçbir satırda hicrî tarih kullanılmadı (hesap gerekmedi).
+
+### EK · KD-AFRIKA (ikinci tur)
+
+#### KD-AFRIKA — Kuzey Afrika (Mağrib) + Doğu Afrika / Afrika Boynuzu eksik birimler — NOT
+
+20 polity · 65 kronoloji satırı (9'u `harita_degisimi=EVET`) · 17 TEREDDUT · f ve t'si ikisi de kaynaklı: 6.
+Tarama 11 Ekim 2026. TDV slug'ları `GET` ile, yönlendirme izlenmeden doğrulandı (302 = ölü).
+
+#### ① Kaynak URL'leri (polity başına)
+| polity | kaynak |
+|---|---|
+| vattasiler | https://islamansiklopedisi.org.tr/vattasiler · https://islamansiklopedisi.org.tr/fas (1554 Osmanlı dönemi) |
+| tuggurt-emirligi | https://islamansiklopedisi.org.tr/mizab (1552) · https://www.treccani.it/enciclopedia/touggourt_(Enciclopedia-Italiana)/ (1854) · EB 1911 "Tuggurt" (Wikisource; tarih yok) |
+| kuko-emirligi · beni-abbas-emirligi | https://islamansiklopedisi.org.tr/kabiliye · https://islamansiklopedisi.org.tr/cezayir · https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa |
+| harar-emirligi | https://islamansiklopedisi.org.tr/harar · EB 1911 "Harrar" (Wikisource) |
+| aussa-sultanligi | https://islamansiklopedisi.org.tr/harar · https://islamansiklopedisi.org.tr/etiyopya · EB 1911 "Abyssinia" · https://www.treccani.it/enciclopedia/dancalia_(Enciclopedia-Italiana)/ |
+| geledi · hobyo · mecertin · ecuran | https://islamansiklopedisi.org.tr/somali · https://www.treccani.it/enciclopedia/somalia_(Enciclopedia-Italiana)/ · .../obbia_(Enciclopedia-Italiana)/ · .../migiurtinia_(Enciclopedia-Italiana)/ · EB 1911 "Somaliland" |
+| pate-sultanligi | https://islamansiklopedisi.org.tr/afrika · .../zengibar · .../kilve · EB 1911 "Witu" |
+| mombasa-mezrui | https://islamansiklopedisi.org.tr/mombasa · .../kenya · EB 1911 "Mombasa", "Zanzibar" |
+| kilve-sultanligi | https://islamansiklopedisi.org.tr/kilve · EB 1911 "Kilwa" |
+| lamu-sultanligi | https://islamansiklopedisi.org.tr/kenya · .../mombasa |
+| witu-sultanligi | EB 1911 "Witu", "British East Africa" |
+| anjuan · ngazidja | https://islamansiklopedisi.org.tr/komor-adalari · EB 1911 "Comoro Islands" |
+| soa-kralligi | EB 1911 "Shoa" · https://www.treccani.it/enciclopedia/scioa_(Enciclopedia-Italiana)/ |
+| gojjam-kralligi | https://www.treccani.it/enciclopedia/goggiam_(Enciclopedia-Italiana)/ · EB 1911 "Abyssinia" |
+| tigray-rasligi | EB 1911 "Abyssinia" · https://www.treccani.it/enciclopedia/tigre_(Enciclopedia-Italiana)/ |
+
+EB 1911 metinleri `https://en.wikisource.org/wiki/1911_Encyclopædia_Britannica/<Madde>` (API ile). britannica.com bütün
+sayfalarda **403** verdi → kullanılamadı. Vikipedi hiçbir satırda dayanak değil.
+
+**TDV ölü slug'lar (302):** tuggurt · benicellab · beni-cellab · tugurt · kuko · kuku · beni-abbas · ait-abbas · aussa · avsa ·
+afar · geledi · hobyo · hobya · obbia · mecertin · mecertayn · ecuran · acuran · pate · pata · lamu · witu · vitu · komor ·
+ferhat · tigre · gojam · amhara · adal · mekdisu · berbere · salih-reis · vergile. Arama (`/arama/?q=`, `p=m`/`p=t`) bu adlar
+için madde ADAYI üretmedi (yalnız `somali`, `mezrui`, `sevahili`, `kenya`). **Not:** `mezrui` canlı ama **yanlış madde**
+(Ali el-Mezrûî, 1933 doğumlu siyaset bilimci — TDV tuzağı ②); Mezrûî hanedanı `mombasa` maddesinden okundu.
+`habesistan` canlı ama 2.317 karakterlik yönlendirme gövdesi (tuzak ③), asıl metin `etiyopya`.
+
+#### ② `bulunamadı` listesi (adıyla)
+- **f bulunamadı:** tuggurt-emirligi (Benî Cellâb kuruluşu) · kuko-emirligi · beni-abbas-emirligi · aussa-sultanligi (taşınma yılı,
+  çelişkili) · geledi-sultanligi · mecertin-sultanligi (yalnız "XIX. yüzyıl") · ecuran-sultanligi (yalnız "XV. yy civarı") ·
+  pate-sultanligi (XII/XIII. yy çelişik) · lamu-sultanligi · anjuan-sultanligi · ngazidja-sultanliklari (yalnız 1530-1550 aralığı) ·
+  gojjam-kralligi · tigray-rasligi.
+- **t bulunamadı:** kuko-emirligi · beni-abbas-emirligi · ecuran-sultanligi · witu-sultanligi (EB 1911'de hâlâ var) · gojjam-kralligi.
+- **oncul/ardil bulunamadı:** çeşitli (CSV'de hücre hücre). Künyesi olmayan ardıllar: İtalyan Somalisi, Alman Doğu Afrikası,
+  İngiliz Doğu Afrika himayesi (künye var ama 1895: `ingiliz-kenya-kolonisi`), Fransız Komorları — **künye yok**, bu yüzden
+  "bulunamadı" yazıldı (ad yazmak yerine).
+- Kronolojide `tarih=bulunamadı` olan 13 doğuş/yıkılış satırı var (metinde yüzyıl bilgisi varsa yazıldı).
+
+#### ③ Çelişen kaynaklar ve seçim
+- **Vattâsî sonu:** TDV "Vattâsîler" 24 Şevval 961 / **22 Eylül 1554**; TDV "Fas" **23 Eylül 1554** → dar kapsamlı polity maddesi
+  (22 Eylül). Tablolu takvim: 961-10-24 = 1554-09-22 Jülyen ✓. Osmanlı himayesinin süresi: "Vattâsîler" **dört ay**, "Fas"
+  **dokuz ay kadar** — süre yazılmadı, iki uç gün (8 Ocak · 22 Eylül 1554) yazıldı.
+- **Vattâsî başlangıcı hicrî:** H.876 = 1471-06-20 → 1472-06-07 (Jülyen); kaynak 1471 ⇒ kesişim ilk günü **1471-06-20**.
+  TDV pre-1582 tarihleri Jülyen veriyor (2 Muharrem 956 = 31 Ocak 1549 Jülyen'le tutuyor); atlasın Jülyen/Gregoryen sözleşmesi
+  bu işte ölçülmedi — **koordinatöre soru.**
+- **Tuggurt 1552:** H.959 = 1551-12-29 → 1552-12-17 (Jülyen); kaynak 1552 ⇒ **1552-01-01**.
+- **Harar → Mısır çekilişi:** TDV **20 Mayıs 1885**, EB 1911 garnizon çekilişi "25th of April 1885" → TDV esas.
+- **Harar sonu:** adal künyesi 1887-01-06, TDV Şeleneko **7 Ocak 1887** — 1 gün fark, künyenin dayanağı bu işte ölçülmedi.
+- **Aussa'ya taşınma:** TDV "Etiyopya" (1577, Galla yıkışıyla birlikte) ↔ TDV "Harar" (1577 Webi yenilgisi ve Ahmed b. İsmâil'den
+  SONRA) → OLGU çelişkisi, `bulunamadı` + beyan.
+- **Hobyo başlangıcı:** Treccani "Obbia" 1878 (şehrin kuruluşu) ↔ Treccani "Migiurtinia" (Cerulli) "intorno al 1887" (ele geçiriş)
+  → 1878 seçildi. **Hobyo/Mecertin sonu:** TDV 1927 ↔ Treccani 1925 (Migiurtinia) / 1926 (Obbia) / işgal 1 Ekim 1925 başlar →
+  TDV esas (tarih çelişkisi). Mecertin himayesi: Treccani 7 Nisan 1889 ↔ Treccani "Somalia" keşif bölümü "nel 1888 con la
+  dichiarazione dei protettorati" → antlaşma günü (1889) esas.
+- **Mezrûî başlangıcı:** TDV "Mombasa" 1698 (Nâsır b. Abdullah valiliği) ↔ TDV "Kenya" 1730 → 1730 (hanedan yönetimi);
+  bağımsızlık ilânı Muhammed b. Osman'ın 1734-1746 valiliği içinde (yıl yok).
+- **Kilve/Zimba:** TDV "Kilve" Zimba çıkarmasını **1588**, TDV "Mombasa" Kilve işgalini 1589 bağlamında verir → satır yazılmadı.
+- **Pate'nin Nebhânî başlangıcı:** TDV "Afrika" XII. yy başı ↔ TDV "Zengibar" XIII. yy başı → yıl yazılmadı.
+- **Ngazidja sonu:** TDV 1893 (sürgün; 1899-09-12 feragat) ↔ EB 1911 "In 1910 ... ceded his sovereign rights" → TDV.
+
+#### ④ KUNYE_TSV'de ZATEN VAR olan / büyük ölçüde örtüşen
+- **Harar** → `adal` ("Adal Sultanlığı / Harar Emirliği", 1415-01-01 → 1887-01-06). harar-emirligi satırı yalnız 1647 sonrası
+  şehir-emirliğini ayırmak için, TEREDDUT'lu — **muhtemelen yazılmamalı**, karar koordinatörün.
+- **Vattâsîler** → `merini` ("Merînî ve Vattâsî Fas Krallığı", 1196 → 1549). Ayrı künye ancak 1549-1554 Ebû Hassûn/Osmanlı
+  dönemi için anlam taşır.
+- **Kilve · Pate · Lamu** → toplu `svahili-sehirleri` (1000 → 1698-12-13). **Geledi · Hobyo · Mecertin · Ecuran** → toplu
+  `somali` (1500 → 1927). **Mombasa Mezrûî** → `umman-zengibar` (1698-) ile çakışabilir. **Şoa · Gojjam · Tigray** → `habesistan`
+  iç birimleri. **Aussa** → `adal` son dönemiyle çakışabilir.
+- Harar'ın 1875 Mısır işgalinin taşıyıcısı `misir-kavalali` (1805-1914) künyesi VAR.
+
+#### ⑤ Listede olmayıp bulunan EK adaylar / EVET adayları
+- **Zeyla‘ (polity değil, Osmanlı toprağı — EVET adayları):** TDV "Zeyla‘": iskele **966 (1559)** Osmanlı'ya bağlandı, Habeş
+  beylerbeyiliğinin sancak merkezi; XVII. yy Muhâ'ya; **1849** Kıbrıslı Tevfik Paşa seferiyle Hudeyde sancağına bağlı nahiye;
+  **1 Haziran 1875** fermanıyla Mısır valiliğine devredildi (Hidivlik, tâbi); EB 1911 "Somaliland": Zaila için "Turkey was given
+  the option of resuming possession, but advantage was not taken". TDV "Somali": 1883 Mısır çekilişi sonrası Zeyla‘, Berberâ,
+  Tâcûre İngiliz. **Berberâ:** TDV "Berberâ": XVII. yy Zeyla‘ ile Moha şeriflerine bağlı; EB 1911: "occupation of Berbera by the
+  Egyptians in 1875". Bunlar `misir-eyaleti`/`misir-kavalali`/Yemen kırılması olarak koordinatörün kalemi.
+- **Mombasa Şîrâzî Sultanlığı (pre-1592/1698):** TDV "Mombasa" — 1585'te Osmanlı'ya bağlandı (Lamu satırında anıldı),
+  5 Mart 1589 Portekiz Osmanlı filosunu Mombasa'da yaktı → EVET adayı; svahili-sehirleri içinde.
+- **Makdişu / Berâve / Pemba 1585 bağlılığı** (aynı TDV cümlesi) → `makdisu-sultanligi` 1500'de bitiyor, 1585 olayı künyesiz kalır.
+- **Moheli (Mwali) Sultanlığı:** TDV "Komor Adaları": "Moheli adasının 1842-1878 yılları arasındaki hâkimi olan Cumbe Fatma".
+- **Benî Câbir** (Kabîliye'nin üçüncü emirliği, TDV "Kabîliye") — tarihsiz.
+- **Raheita · Tagiura · Gobad sultanlıkları** (Afar, Fransız himayesi 1884 — Treccani "Somalia").
+- **Biru (Afar) sultanlığı** (Treccani "Dancalia": Danakil depresyonunun kuzeyi).
+
+#### ⑥ Bitiremediğim yerler (ADIYLA)
+- **Encyclopaedia of Islam / Encyclopaedia Aethiopica** erişilemedi (paywall) — Tuggurt (Benî Cellâb kuruluşu, ~XV. yy), Kuko ve
+  Benî Abbas (kuruluş/son), Ecuran, Geledi kuruluşu, Aussa'nın Mudaito sultanlığına geçişi bu yüzden `bulunamadı`.
+- **Witu'nun kaldırılış yılı** · **Gojjam krallığı (Tekle Haymanot 1881)** · **Mecertin'in XIX. yy bağımsızlık yılı** ölçülmedi.
+- britannica.com 403. EB 1911 "Gojam", "Danakil", "Aussa", "Patta", "Lamu", "Johanna", "Kabylia" Wikisource'ta YOK
+  (missingtitle); "Tigré" ve "Zaila" alındı ama tarih vermiyor (Zaila: "Egyptian occupation (1875-1884)" — TDV'nin 1 Haziran 1875
+  fermanıyla uyumlu, Zeyla‘ EVET adayına ek dayanak).
+
+### EK · SEHIR (ikinci tur)
+
+#### SEHIR — yeni küçük polity merkezleri için şehir noktaları (NOT)
+
+Dosya: `SEHIR-SEHIR.csv` — **69 satır**: 38'i tarihli (`ILK_KAYIT_TARIHI` kaynaklı), 31'i `bulunamadı`.
+Betikler ve ham çekimler: `SEHIR-is/` (`geo3.py` koordinat, `yaz.py` CSV üretimi, `web/` `pdf/` `tdv/` ham metin).
+
+#### Yöntem
+- **Mevcudiyet:** `yerlesimler.tsv` (4300) üzerinde ad araması (normalleştirilmiş) + GeoNames koordinatına
+  haversine ile en yakın atlas noktası. CSV'deki her satırda en yakın atlas noktası ve uzaklığı `kaynak`ın
+  KOORD kısmında yazılı; yazılan hiçbir satır 3 km içinde değil (`yaz.py` assert ediyor).
+- **Koordinat:** GeoNames sayfasının kendisinden (geonames.org/<id>; ad + fcode doğrulandı). Wikidata YALNIZ kimlik
+  köprüsü olarak kullanıldı (QID → GeoNames/TGN kimliği), koordinat kaynağı değil. İkinci gazetteer Getty TGN
+  (vocab.getty.edu/tgn/<id>.json); TGN değerleri dakika-yuvarlak ⇒ kurala göre ikinci tanık SAYILMADI, yalnız
+  fark km olarak yazıldı (Lucca'da 23 km — TGN boylamı hatalı). TGN'si olmayan satırda "ikinci gazetteer: bulunamadı".
+- **ILK_KAYIT_TARIHI:** yalnız kaynakta tarihli YAZILI kayıt. Arkeolojik/dendro tarihleri `arkeolojik_katman`a.
+  "Kuruldu" (founded) cümleleri yalnız kuruluşun kendisi belgeli tarihî olaysa alındı (Neustrelitz, Nabha).
+  **TANIKLIK** işaretli satırlar (Ümmülkayveyn, Dübey, Acmân, Uşni, Male) "ilk kez anılır" beyanı DEĞİL,
+  kaynaktaki en erken tarihli anılış ⇒ **ÜST SINIR**; şehir daha önce de var olabilir.
+
+#### ① Kaynaklar (URL)
+- HBI = *Höfe und Residenzen im spätmittelalterlichen Reich* (Residenzenforschung 15.I, 2003), Göttingen Akad.
+  ResiKom PDF'leri: `https://adw-goe.de/fileadmin/forschungsprojekte/resikom/dokumente/pdfs/HBI/C_<n>_<Ad>.pdf`
+  — Gotha, Weimar, Celle, Altenburg, Braunschweig (C_1_C_7), Wolfenbüttel, Schwerin, Ratzeburg, Dessau, Coburg,
+  Bonn, Kleve, Bar-le-Duc, Den_Haag, Darmstadt, Rudolstadt (C_1), Salzburg (C_3).
+- Residenzstädte Teil 2, Düsseldorf: `https://adw-goe.de/fileadmin/forschungsprojekte/residenzstaedte/dokumente/pdfs/HB1/HB1-BD2/RESIST-HB1-BD2-ART041.pdf`
+- EB1911 (Wikisource): Rudolstadt, Detmold, Oldenburg_(town), Dessau, Schwerin_(Mecklenburg-Schwerin), Neu-Strelitz,
+  Nabha, Salzburg_(city), Coburg, Celle, Wolfenbüttel, Brunswick_(German_city), Cleves, Bar-le-Duc, Hague,_The, Louvain…
+- Britannica (online): Gotha, Wiesbaden, Meiningen, Celle, Kleve, Casale-Monferrato (çoğu sayfa 403 verdi).
+- LAGIS Hessen Historisches Ortslexikon: Darmstadt id 13607, Arolsen id 1480.
+- Historisches Lexikon des Fürstentums Liechtenstein: Vaduz_(Gemeinde).
+- F. Krüger 1906, Stadt Lüneburg (UB Paderborn PDF 8180826).
+- Treccani: Enciclopedia Italiana `guastalla_(Enciclopedia-Italiana)`; on line `mirandola`, `saluzzo`, `urbino`, `lucca`.
+- TDV: `pirlepe`, `ummulkayveyn`, `dubey`, `acman`, `urmiye`, `maldivler` (+ okunup tarih vermeyen: `suleymaniye--irak`,
+  `fuceyre`, `hayrpur`, `rampur`, `lekler`, `avarlar`, `dagistan`, `seyh-samil`, `cizan`, `bingol`).
+
+#### ② bulunamadı (31, ADIYLA) — satır var, tarih yok
+Kalaçolan · Eğil · Genç · Pertek · Casale Monferrato · San Marino · Cividale · Gera · Greiz · Sondershausen ·
+Bückeburg · Hayrpur · Rampur · Tonk · Patiala · Kapurthala · Kalat · Hunzah · Gunib · Kazi-Kumuh · Füceyre · Sabyâ ·
+Lehic · Kişn · Mirpur Khas · Monako · Corte · Massa · Leuven · Kaliakra · İlisu.
+Bunlardan **ARANMADI** (yalnız koordinat ölçüldü): Lehic, Kişn, Mirpur Khas, Monako, Corte, Massa, Kaliakra, İlisu —
+"bulunamadı" burada "araştırılmadı" demektir, ayrımı satırın `not`unda yazılı.
+Kaliakra GeoNames kaydı burun (PT), Kalaçolan eşleşmesi ad benzerliğine dayanıyor (TEREDDUT).
+
+#### ③ Çelişen kaynaklar ve seçim
+- Celle: EB1911/Britannica "founded 1292" ↔ HBI "Kellu (993)" ⇒ 993 (daha erken yazılı kayıt).
+- Coburg: EB1911 "first mentioned 1207" ↔ HBI "1056 Coburg" ⇒ 1056. (HBI PDF'indeki "Ersterwähnung 1046" Colditz'e ait.)
+- Rudolstadt: EB1911 "800" ↔ HBI "zu Beginn des 9. Jh." ⇒ 800 (uyumlu; yıl EB1911'den).
+- Wiesbaden / Urbino / Lucca / Salzburg: Roma dönemi yazılı anılış kaynaklarda YILSIZ ⇒ yazılan tarih ÜST SINIR (TEREDDUT notu).
+- Darmstadt (1050-1100) ve Vaduz (1175/1200): kaynak ARALIK veriyor, alt uç yazıldı, kesinlik `belirsiz`.
+- Bonn: "68/69" ⇒ 68.
+- Neustrelitz: EB1911 1726; yaygın 1733 bilgisi ikinci kaynakla doğrulanmadı.
+
+#### ④ Zaten var (satır YAZILMADI, 9)
+- Revandiz → zaten var: **Rewândiz** (GeoNames 92002'ye 1,0 km)
+- Süleymaniye → zaten var (KOORDİNATLA): **Şehrizor** (GeoNames 98463'e 0,6 km). ⚠ Atlas Süleymaniye konumunu
+  "Şehrizor" adıyla tutuyor — ad farklı; TDV Süleymaniye'nin 1784'te kurulduğunu söylüyor ("Süleymaniye adını vererek
+  sancağın merkezi yaptı (1784)"). Bu noktanın adı/başlangıcı ayrıca incelenmeli (koordinatör kararı).
+- Hoşap → zaten var: **Hoşap (Mahmudi)** (ad eşleşmesi; GeoNames Güzelsu 10,9 km)
+- Kassel → zaten var: **Kassel**
+- Şemâhî → zaten var: **Şamahı** (0,1 km)
+- Ebûzabî → zaten var: **Abu Dabi** (0,3 km)
+- Şârika → zaten var: **Şârika** (ad eşleşmesi; GeoNames 292672'ye 3,3 km)
+- Re'sülhayme → zaten var: **Ras el-Hayme (Cülfâr)** (0,2 km)
+- Bhuj → zaten var: **Bhuc (Kutch)** (1,4 km)
+
+#### ⑤ Ek aday
+Yok (listede olmayan şehir eklenmedi).
+
+#### ⑥ Bitirilemeyen
+Tarihi ARANMAYAN 8 aday (② listesinde adıyla). Britannica online çoğu istekte 403 verdi (Weimar, Bonn, Leuven,
+Corte, Massa… için ikinci kaynak alınamadı).
