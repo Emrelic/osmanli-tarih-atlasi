@@ -1,0 +1,432 @@
+diff --git a/.gitignore b/.gitignore
+index c63aded3a..7d4ed0c3e 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -284,6 +284,8 @@ ClaudEmre-kutu/
+ # ACICI ayari — JETON ve eczanenin IC AG adresleri.  Depo HERKESE ACIK
+ # (GitHub Pages kaynagi): agy/ ve parti-kasa-* ile ayni sinif.
+ /oturumlar/ag.json
++# TAHTA-ISTEMCI-1010: sunucu düşüşünde yerel yazılan mesajların kuyruğu (makineye özel)
++/oturumlar/tahta_kuyruk.json*
+ /oturumlar/acici.log
+ 
+ # BEKCI NABIZ DAMGALARI — PAYLASILMAZ (gizlilik degil DOGRULUK).
+diff --git a/arac/tahta.py b/arac/tahta.py
+index 7873c1971..eaa25861d 100644
+--- a/arac/tahta.py
++++ b/arac/tahta.py
+@@ -63,6 +63,13 @@ Kullanım:
+     1  ULAŞMADI    mesaj tahta.json'da var ama uzakta YOK — TEKRAR YAZMA, elle push
+     2  YAZILMADI (yarım git işlemi · eksik/yanlış argüman · --yanit yok)
+        ya da ÖLÇÜLEMEDİ (detached · upstream yok · fetch düştü) — ULAŞTI SAYMA
++    (3  YEREL tahta.json yazılamadı — `_kaydet`; değişmedi)
++    4  SUNUCU ÇATIŞMASI (yalnız sunucu yolunda, HTTP 503 kod 4) — yerele DÜŞÜLMEDİ
++
++SUNUCU YOLU (TAHTA-ISTEMCI-1010): `oturumlar/ag.json` `jeton` + `tahta_sunucu`
++taşıyorsa yaz/oku/teyit/tamam/kapat (ve okuma komutları) tahta SUNUCUSUNA gider;
++sunucuda "ULAŞTI" = sunucu kaydına yazıldı (0). ag.json YOKSA araç BİREBİR eskisidir.
++Ulaşılamazsa git yoluna ADIYLA düşer; ayrıntı `_sunucu_ayar` başlığında.
+ """
+ import datetime
+ import io
+@@ -117,6 +124,8 @@ def _yukle_oku():
+     basar. Varsayılan DEĞİŞMEDİ (yerel) — yazma yolu (`yaz`→push, `teyit`,
+     `kapat`) hiç değişmedi; o karar koordinatörün.
+     """
++    if _OKU_KAYNAK.get("mod") == "sunucu":
++        return _sunucu_kayit()
+     if _OKU_KAYNAK.get("mod") != "origin":
+         return _yukle()
+     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+@@ -1089,6 +1098,10 @@ def yaz(a):
+         #    saatlerce fark edilmedi ve BÜTÜN denetim/üretim hattı durdu.
+         "aciliyet": (_t(a.get("aciliyet")) or "NORMAL").upper(),  # DURDURUCU·ACIL·NORMAL·DUSUK
+     }
++    # Sunucu yolundan DÜŞEN mesaj kimliğini taşır — sunucu dönünce AYNI kimlikle
++    # kuyruktan gider ve `ey_yaz` onu ikinci kez yazmaz (TAHTA-ISTEMCI-1010).
++    if _t(a.get("yerel_kimlik")):
++        m["yerel_kimlik"] = _t(a["yerel_kimlik"])
+     # 🔴🔴 KRİTİK BÖLGE — KİLİT ALTINDA. Yukarıdaki `kayit`/`no` artık BAYAT
+     # olabilir: mesaj hazırlanırken başka bir oturum yazmış olabilir. O yüzden
+     # burada TAZE okunuyor ve numara YENİDEN hesaplanıyor.
+@@ -1123,7 +1136,12 @@ def yaz(a):
+ 
+ def oku(a):
+     kayit = _yukle_oku()
+-    if not kayit:
++    # Sunucu `kim` ile SÜZÜLMÜŞ liste döndüyse (takma adlar sunucuda çözüldü)
++    # toplam ve adlar sunucunun cevabından gelir — alt kümede yeniden süzmek
++    # takma ad bağını (kimin YAZDIĞI mesajlar) göremez.
++    suz = _OKU_KAYNAK.get("suzgec")
++    toplam = suz["toplam"] if suz else len(kayit)
++    if not toplam:
+         print("tahta BOŞ — henüz kimse yazmadı.")
+         return 0
+     kim = (a.get("kim") or "").strip()
+@@ -1132,9 +1150,12 @@ def oku(a):
+         # Eskiden `m["kime"] == kim.upper()` diye bakılıyordu ve bir oturum
+         # iki adla göründüğünde mesaj YANLIŞ KUTUDA kalıyordu (ölçüldü:
+         # 6,5 saat). Artık UUID üzerinden bağlanan her ad aynı kutuya düşer.
+-        adlar = _takma_adlar(kayit, kim, a.get("kimlik"))
+-        secili = [m for m in kayit
+-                  if _sade_ad(m["kime"]) in adlar or m["kime"] == "HERKES"]
++        if suz:
++            adlar, secili = set(suz["adlar"]), kayit
++        else:
++            adlar = _takma_adlar(kayit, kim, a.get("kimlik"))
++            secili = [m for m in kayit
++                      if _sade_ad(m["kime"]) in adlar or m["kime"] == "HERKES"]
+         baslik = "SANA GELENLER (%s) + HERKES" % kim
+         if len(adlar) > 1:
+             print("ℹ️ takma adların: %s" % " · ".join(sorted(adlar)))
+@@ -1153,7 +1174,7 @@ def oku(a):
+         baslik += " · YALNIZ YENİ (%d/%d)" % (len(secili), _once)
+ 
+     print("=" * 76)
+-    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), len(kayit)))
++    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), toplam))
+     print("=" * 76)
+     for m in secili:
+         bayrak = ""
+@@ -1202,6 +1223,9 @@ def oku(a):
+     #   commit'lenmemiş kayıtları ezebilir). Okundu damgası yerel `oku` işidir.
+     if kim and _OKU_KAYNAK.get("mod") == "origin":
+         print("(--kaynak origin: 'okundu' damgası YAZILMADI — salt okuma)")
++    elif kim and _OKU_KAYNAK.get("mod") == "sunucu":
++        _sunucu_isaretle(kim, [m["no"] for m in secili
++                               if kim not in (m.get("okuyan") or {})])
+     elif kim:
+         yeni = 0
+         for m in secili:
+@@ -1366,20 +1390,300 @@ def kapat(a):
+     return 0
+ 
+ 
++# ═══════════════════════════════════════════════════════════════════════════
++# 🔴 SUNUCU İSTEMCİSİ (TAHTA-ISTEMCI-1010)
++#   `oturumlar/ag.json` `jeton` + `tahta_sunucu` taşıyorsa komut satırı tahta
++#   SUNUCUSUNA gider (numarayı sunucu verir — `tahta_sunucu.py` başlığı):
++#     yaz → POST /tahta/yaz · oku/bekleyen/teyitsiz/kimler → GET /tahta/oku
++#     okundu → POST /tahta/isaretle · teyit/tamam/kapat → POST /tahta/islem
++#   ⚠️ YALNIZ `main` yönlendirir: `tahta_sunucu.py` bu modülü içe aktarıp
++#     `yaz(a)`yı DOĞRUDAN çağırır; yönlendirme `yaz`ın içinde olsaydı sunucu
++#     KILIT altında kendine istek atardı (kilitlenme).
++#   ag.json YOKSA tek satır basılmaz, tek istek atılmaz — araç BİREBİR eskisi.
++#   Var ama eksikse / sunucu ulaşılamazsa / zaman aşımı ⇒ bugünkü git yoluna
++#   düşülür, SESSİZ DEĞİL: "sunucu … , yerele düştüm" sebebiyle basılır.
++#   401 ⇒ "JETON YANLIŞ" diye bağırılır VE yerele düşülür: jetonu düzeltmek
++#     insan işidir, o arada mesaj KAYBOLMAMALI (kuyruğa da girer).
++#   400 (sunucu reddetti: HERKES kapısı, --yanit yok) ⇒ düşülmez, kod döner.
++#   503 kod 4 (sunucu çatışması) ⇒ düşülmez, 4 döner (sunucu sözleşmesi).
++#   MÜKERRER KORUMASI: her yazım bir `yerel_kimlik` taşır — İLK denemede de
++#   (zaman aşımında sunucu yazmış olabilir). Düşüşte yerel yazılan mesaj aynı
++#   kimlikle `tahta_kuyruk.json`a (gitignore) girer; sunucu dönünce bir sonraki
++#   sunucu komutu kuyruğu ÖNCE boşaltır, `ey_yaz` aynı kimliği ikinci kez
++#   yazmaz. Kuyruk kaydı yalnız sunucu 200 dediğinde silinir.
++# ═══════════════════════════════════════════════════════════════════════════
++AG = os.path.join(DIZIN, "ag.json")
++KUYRUK = os.path.join(DIZIN, "tahta_kuyruk.json")
++SUNUCU_SN = 10                     # bağlantı + cevap zaman aşımı (sn)
++
++
++class _SunucuYok(Exception):
++    """Sunucuya ULAŞILAMADI (bağlantı · zaman aşımı) — sebep metni taşır."""
++
++
++def _sunucu_ayar():
++    """None ⇒ ag.json YOK (sessiz, eski yol) · {} ⇒ var ama kullanılamaz (basılır)."""
++    if not os.path.exists(AG):
++        return None
++    try:
++        with io.open(AG, encoding="utf-8") as f:
++            a = json.load(f)
++    except (ValueError, OSError) as e:
++        print("⚪ sunucu yok (ag.json okunamadı: %s), yerele düştüm" % type(e).__name__)
++        return {}
++    if not (isinstance(a, dict) and a.get("jeton") and a.get("tahta_sunucu")):
++        print("⚪ sunucu yok (ag.json'da `jeton`/`tahta_sunucu` eksik), yerele düştüm")
++        return {}
++    return a
++
++
++def _istek(ayar, yontem, yol, sorgu=None, govde=None):
++    """(HTTP kodu, gövde sözlüğü) döner; ulaşılamazsa `_SunucuYok` atar.
++    🔴 Jeton YALNIZ başlığa girer — hiçbir çıktıya, sebep metnine basılmaz.
++    Vekil (proxy) BİLEREK kapalı: jeton özel ağ dışına çıkmaz."""
++    import gzip
++    import platform
++    import urllib.error
++    import urllib.parse
++    import urllib.request
++    adres = str(ayar["tahta_sunucu"])
++    url = "http://%s%s" % (adres if ":" in adres else adres + ":8788", yol)
++    if sorgu:
++        url += "?" + urllib.parse.urlencode(sorgu)
++    veri = None if govde is None else json.dumps(govde, ensure_ascii=False).encode("utf-8")
++    r = urllib.request.Request(url, data=veri, method=yontem, headers={
++        "X-Atlas-Jeton": ayar["jeton"],
++        # beyandır, doğrulanmaz — sunucunun makine defterine düşer (ag_ayarla ile aynı)
++        "X-Atlas-Makine": platform.node() or "bilinmeyen",
++        "Accept-Encoding": "gzip", "Content-Type": "application/json"})
++    acici = urllib.request.build_opener(urllib.request.ProxyHandler({}))
++
++    def coz(c):
++        ham = c.read()
++        if (c.headers.get("Content-Encoding") or "") == "gzip":
++            ham = gzip.decompress(ham)
++        try:
++            d = json.loads(ham.decode("utf-8"))
++            return d if isinstance(d, dict) else {}
++        except ValueError:
++            return {}
++    try:
++        with acici.open(r, timeout=SUNUCU_SN) as c:
++            return c.status, coz(c)
++    except urllib.error.HTTPError as e:
++        return e.code, coz(e)
++    except Exception as e:                                  # noqa: BLE001
++        raise _SunucuYok("ulaşılamadı (%s: %s)"
++                         % (type(e).__name__, getattr(e, "reason", None) or e))
++
++
++def _jeton_bagir(ayar):
++    j = str(ayar.get("jeton") or "")
++    print("🔴 JETON YANLIŞ (HTTP 401) — sunucu %s CEVAP VERDİ ama jetonu reddetti."
++          % ayar.get("tahta_sunucu"))
++    print("   ag.json `jeton`: %d karakter · …%s — ağ TAMAM, sorun jetonda."
++          % (len(j), j[-4:]))
++    print("   ⇒ py arac/ag_ayarla.py --sina   (KULLANICIYA söyle)")
++
++
++def _kuyruk_oku():
++    if not os.path.exists(KUYRUK):
++        return []
++    try:
++        with io.open(KUYRUK, encoding="utf-8") as f:
++            k = json.load(f)
++        return k if isinstance(k, list) else []
++    except (OSError, ValueError) as e:
++        print("⚠️ düşüş kuyruğu OKUNAMADI (%s) — dokunmadım: %s" % (e, KUYRUK))
++        return None
++
++
++def _kuyruk_yaz(k):
++    gec = KUYRUK + ".yeni.%d" % os.getpid()
++    with io.open(gec, "w", encoding="utf-8", newline="\n") as f:
++        json.dump(k, f, ensure_ascii=False, indent=1)
++    os.replace(gec, KUYRUK)
++
++
++def _kuyruk_bosalt(ayar):
++    """Düşüşte yerel yazılmış mesajları AYNI `yerel_kimlik` ile sunucuya taşır.
++    Dönüş: None (sunucu cevap veriyor) ya da düşüş sebebi (metin)."""
++    if not os.path.exists(KUYRUK):
++        return None
++    with _Kilit(KUYRUK):
++        kuyruk = _kuyruk_oku()
++        if not kuyruk:
++            return None
++        kalan, sebep = [], None
++        for g in kuyruk:
++            if sebep is not None:
++                kalan.append(g)
++                continue
++            try:
++                kod, c = _istek(ayar, "POST", "/tahta/yaz", govde=g["govde"])
++            except _SunucuYok as e:
++                sebep = str(e)
++                kalan.append(g)
++                continue
++            if kod == 200 and c.get("tamam"):
++                print("↻ kuyruk: yerel %s → sunucu %s%s (yerel_kimlik %s)"
++                      % (g.get("yerel_no") or "?", c.get("no"),
++                         " — ZATEN vardı, ikinci kez YAZILMADI" if c.get("mukerrer")
++                         else "", g["govde"]["yerel_kimlik"]))
++            elif kod == 400:
++                # Yeniden denemek hep aynı reddi alır (ör. --yanit yerel numara).
++                print("🔴 kuyruk: yerel %s sunucuca REDDEDİLDİ (%s) — kuyruktan "
++                      "çıkarıldı, YEREL tahtada duruyor."
++                      % (g.get("yerel_no") or "?", c.get("sebep") or c.get("cikti")))
++            else:
++                if kod == 401:
++                    _jeton_bagir(ayar)
++                sebep = "jeton yanlış" if kod == 401 else "HTTP %s (%s)" % (
++                    kod, c.get("sebep") or "?")
++                kalan.append(g)
++        _kuyruk_yaz(kalan)
++        if kalan:
++            print("⚠️ kuyrukta %d düşüş mesajı BEKLİYOR — sunucu dönünce gider." % len(kalan))
++        return sebep
++
++
++def _sunucu_yaz(a, ayar):
++    import platform
++    import uuid
++    yk = "%s-%s" % (re.sub(r"\W", "", platform.node())[:16] or "makine", uuid.uuid4().hex[:12])
++    govde = dict(a, yerel_kimlik=yk)
++    kod, c = None, {}
++    sebep = _kuyruk_bosalt(ayar)
++    if sebep is None:
++        try:
++            kod, c = _istek(ayar, "POST", "/tahta/yaz", govde=govde)
++        except _SunucuYok as e:
++            sebep = str(e)
++    if kod == 200 and c.get("tamam"):
++        for s in c.get("cikti") or []:
++            print(s)
++        if c.get("mukerrer"):
++            print("ℹ️ aynı yerel_kimlik sunucuda ZATEN vardı — ikinci kez yazılmadı.")
++        print("sunucu: ✓ %s SUNUCU KAYDINDA (%s) — ULAŞTI" % (c.get("no"), ayar["tahta_sunucu"]))
++        return 0
++    if kod == 400 or (kod == 503 and c.get("kod") == 4):
++        for s in c.get("cikti") or []:
++            print(s)
++        print("sunucu: 🔴 REDDETTİ (HTTP %d) %s" % (kod, c.get("sebep") or ""))
++        if kod == 503:
++            print("   yerele DÜŞMÜYORUM — düşmek bölünmeyi derinleştirir (tahta_sunucu.py, kod 4).")
++        return c.get("kod") if isinstance(c.get("kod"), int) and c.get("kod") else 2
++    if kod == 401:
++        _jeton_bagir(ayar)
++        sebep = "jeton yanlış"
++    elif kod is not None:
++        sebep = "HTTP %d (%s)" % (kod, c.get("sebep") or "?")
++    print("⚠️ sunucu %s, yerele düştüm — mesaj GİT yoluyla yazılıyor ve kuyruğa giriyor." % sebep)
++    kod_y = yaz(dict(a, yerel_kimlik=yk))
++    yerel = next((m for m in _yukle() if m.get("yerel_kimlik") == yk), None)
++    if yerel is not None:
++        with _Kilit(KUYRUK):
++            k = _kuyruk_oku()
++            if k is not None:
++                k.append({"yerel_kimlik": yk, "yerel_no": yerel["no"],
++                          "zaman": _simdi(), "govde": govde})
++                _kuyruk_yaz(k)
++                print("↻ kuyrukta (%s): sunucu dönünce AYNI kimlikle gider, "
++                      "mükerrer YAZILMAZ." % yk)
++    return kod_y
++
++
++def _sunucu_kayit():
++    """`_yukle_oku`nun sunucu kolu: GET /tahta/oku; olmazsa YEREL (adıyla)."""
++    ayar = _OKU_KAYNAK["ayar"]
++    sorgu = _OKU_KAYNAK.get("sorgu") or {"hepsi": "1"}
++    sebep = _kuyruk_bosalt(ayar)
++    if sebep is None:
++        try:
++            kod, c = _istek(ayar, "GET", "/tahta/oku", sorgu=sorgu)
++        except _SunucuYok as e:
++            kod, c, sebep = None, {}, str(e)
++        if kod == 200 and isinstance(c.get("mesajlar"), list):
++            print("kaynak: SUNUCU (%s) — %d mesaj geldi, tahtada toplam %s"
++                  % (ayar["tahta_sunucu"], len(c["mesajlar"]), c.get("toplam")))
++            if not sorgu.get("hepsi"):
++                _OKU_KAYNAK["suzgec"] = {"toplam": int(c.get("toplam") or 0),
++                                         "adlar": c.get("adlar") or []}
++            return c["mesajlar"]
++        if kod == 401:
++            _jeton_bagir(ayar)
++            sebep = "jeton yanlış"
++        elif kod is not None:
++            sebep = "HTTP %d (%s)" % (kod, c.get("sebep") or "?")
++    print("⚠️ sunucu %s, yerele düştüm — YEREL tahta.json okunuyor (bayat olabilir)." % sebep)
++    _OKU_KAYNAK["mod"] = "yerel"          # okundu damgası da eski (yerel) yoldan
++    return _yukle()
++
++
++def _sunucu_isaretle(kim, nolar):
++    if not nolar:
++        return
++    try:
++        kod, c = _istek(_OKU_KAYNAK["ayar"], "POST", "/tahta/isaretle",
++                        govde={"kim": kim, "nolar": nolar})
++    except _SunucuYok as e:
++        kod, c = None, {"sebep": str(e)}
++    if kod == 200:
++        print("→ %s mesaj '%s tarafından OKUNDU' diye işaretlendi (sunucuda)."
++              % (c.get("yeni"), kim))
++    else:
++        print("⚠️ 'okundu' damgası sunucuya YAZILAMADI (%s) — mesajları okudun, "
++              "damga eksik." % ("HTTP %s" % kod if kod else c.get("sebep")))
++
++
++def _sunucu_islem(k, a, ayar):
++    kod, c = None, {}
++    sebep = _kuyruk_bosalt(ayar)
++    if sebep is None:
++        try:
++            kod, c = _istek(ayar, "POST", "/tahta/islem", govde={
++                "eylem": k, "no": a.get("no") or "", "kim": a.get("kim") or "",
++                "soz": a.get("soz") or "", "kimlik": a.get("kimlik") or ""})
++        except _SunucuYok as e:
++            sebep = str(e)
++    if kod in (200, 400) and isinstance(c.get("kod"), int) or (
++            kod == 503 and c.get("kod") == 4):
++        for s in c.get("cikti") or []:
++            print(s)
++        print("sunucu: %s (%s, HTTP %d)" % ("✓" if kod == 200 else "🔴", k, kod))
++        return c["kod"]
++    if kod == 401:
++        _jeton_bagir(ayar)
++        sebep = "jeton yanlış"
++    elif kod is not None:
++        sebep = "HTTP %d (%s)" % (kod, c.get("sebep") or "?")
++    print("⚠️ sunucu %s, yerele düştüm — %s YEREL tahtaya yazılıyor (kuyruğa ALINMAZ)."
++          % (sebep, k))
++    return {"teyit": teyit, "tamam": tamam, "kapat": kapat}[k](a)
++
++
+ def main(argv):
+     if not argv:
+-        return oku({"hepsi": True})
++        argv = ["oku", "--hepsi"]          # = oku({"hepsi": True}), sunucu yoluyla
+ 
+     def al(ad):
+         return argv[argv.index(ad) + 1] if (ad in argv and argv.index(ad) + 1 < len(argv)) else None
+ 
+     k = argv[0]
+-    _OKU_KAYNAK["mod"] = "yerel"          # her çağrıda sıfırla — süreç içi tekrar kullanımda sızmasın
++    _OKU_KAYNAK.clear()                   # her çağrıda sıfırla — süreç içi tekrar kullanımda sızmasın
++    _OKU_KAYNAK["mod"] = "yerel"
+     if al("--kaynak"):
+         if al("--kaynak") not in ("origin", "yerel") or k not in ("oku", "bekleyen", "teyitsiz", "kimler"):
+             print("--kaynak yalnız oku/bekleyen/teyitsiz/kimler ile, 'origin' ya da 'yerel'")
+             return 2
+         _OKU_KAYNAK["mod"] = al("--kaynak")
++    elif k in ("oku", "bekleyen", "teyitsiz", "kimler"):
++        # açık `--kaynak` yoksa ve ag.json sunucu veriyorsa okuma SUNUCUDAN
++        _ayar = _sunucu_ayar()
++        if _ayar:
++            _OKU_KAYNAK.update(mod="sunucu", ayar=_ayar)
++            if k == "oku" and al("--kim") and "--hepsi" not in argv:
++                _OKU_KAYNAK["sorgu"] = {"kim": al("--kim"), "kimlik": al("--kimlik") or ""}
+     ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
+              "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv,
+              "gun": al("--gun"),
+@@ -1425,11 +1729,13 @@ def main(argv):
+             print("          [--aciliyet ACIL --dayanak '<niçin durdurucu>']   (HERKES için ŞART)")
+             print("          [--yanit M-0007]")
+             return 2
+-        return yaz({"kim": al("--kim"), "kime": al("--kime"), "mesaj": al("--mesaj"),
+-                    "cevap_bekle": "--cevap-bekle" in argv,
+-                    "vade": al("--vade"), "yanit": al("--yanit"),
+-                    "kimlik": al("--kimlik"), "cins": al("--cins"),
+-                    "dayanak": al("--dayanak"), "aciliyet": al("--aciliyet")})
++        _a = {"kim": al("--kim"), "kime": al("--kime"), "mesaj": al("--mesaj"),
++              "cevap_bekle": "--cevap-bekle" in argv,
++              "vade": al("--vade"), "yanit": al("--yanit"),
++              "kimlik": al("--kimlik"), "cins": al("--cins"),
++              "dayanak": al("--dayanak"), "aciliyet": al("--aciliyet")}
++        _ayar = _sunucu_ayar()
++        return _sunucu_yaz(_a, _ayar) if _ayar else yaz(_a)
+     if k == "oku":
+         return oku(ortak)
+     if k == "kimler":
+@@ -1445,6 +1751,9 @@ def main(argv):
+         if not ortak["no"]:
+             print("kullanim: tahta.py %s M-0007 --kim <AD> [--soz \"...\"]" % k)
+             return 2
++        _ayar = _sunucu_ayar()
++        if _ayar:
++            return _sunucu_islem(k, ortak, _ayar)
+         return {"teyit": teyit, "tamam": tamam, "kapat": kapat}[k](ortak)
+     print(__doc__)
+     return 2

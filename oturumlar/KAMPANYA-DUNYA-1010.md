@@ -53,13 +53,23 @@ dokunmaz.** Bu yüzden on oturum birbirini beklemeden çalışır.
 | **K0** | `KAMP-EKSIK-KRONOLOJI` | 🔴 **228 anılmayan künye** (pencere içi) | zaten dizinde, kronolojisi SIFIR — **beyan edilmiş borç** |
 | K1 | `KAMP-MEZOPOTAMYA` | MÖ 3500 – MÖ 539 | Uruk · Ur · Lagaş · Umma · Kiş · Nippur · Akkad · Ur III · İsin · Larsa · Eşnunna · Mari · Eski Babil · Kassit · Mitanni · Asur (3 devir) · Yeni Babil · Elam |
 | K2 | `KAMP-MISIR` | MÖ 3100 – MÖ 30 | Erken/Eski/Orta/Yeni Krallık · Ara Dönemler · Kuş/Napata/Meroe · Ptolemaios |
-| K3 | `KAMP-ANADOLU-ANTIK` | MÖ 2000 – MÖ 330 | Hitit · Arzawa · Kizzuwatna · Urartu · Frigya · Lidya · Karya · Likya · Kilikya · Troya · İyonya kentleri |
+| K3 | `KAMP-ANADOLU-ANTIK` | MÖ 2000 – MÖ 330 | Hitit · Arzawa · Kizzuwatna · Urartu · Frigya · Lidya · Karya · Likya · Kilikya · Troya · İyonya kentleri · 🔴 **NEO-HİTİT / SURİYE-ANADOLU ailesi:** Karkamış · Kummuh · Gurgum · Sam'al · Patina (Unqi) · Bīt-Zamani · Tabal · Melid · Que |
 | K4 | `KAMP-AKDENIZ` | MÖ 800 – MS 476 | Atina · Sparta · Korint · Thebai · Makedonya · Epir · Siraküza · Kartaca · Etrüsk · Roma (Cumhuriyet/İmparatorluk) · Numidya · Mauretanya |
 | K5 | `KAMP-IRAN` | MÖ 700 – MS 651 | Med · Ahameniş · Selevkos · Part · Greko-Baktria · Sasani · Hurri/Kafkas |
 | K6 | `KAMP-DOGU` | MÖ 2500 – MS 1000 | Harappa · Maurya · Gupta · Çola · Şang · Zhou · Qin · Han · Tang · Göktürk · Hun · Kuşan |
 | K7 | `KAMP-ORTACAG` | MS 476 – 1281 | 🔴 **çekirdeğin HEMEN ÖNÜ** — Frank · Kutsal Roma · Papalık · Lombard · Vizigot · Emevî · Abbâsî · Fâtımî · Selçuklu · Gazneli · Kiev Rus · Bulgar · Sırp · Gürcü · Ermeni |
 | K8 | `KAMP-20YY` | 1923 – 2000 | ulus devletler · sömürge çözülmesi · SSCB · Yugoslavya · iki Almanya |
 | K9 | `KAMP-KUCUK-BIRIMLER` | 1281 – 1923 | 🔴 Emre'nin adıyla istediği: **emirlik · krallık · dükalık · prenslik · sultanlık · beylik · kontluk · hanlık · cumhuriyet** — pencere İÇİNDE eksik olanlar |
+
+🔴 **10 Ekim, K1'in ölçümüyle çıkan BİR KÖR NOKTA — kayda geçsin:**
+Neo-Hitit/Suriye-Anadolu ailesi (Karkamış · Kummuh · Sam'al · Patina ·
+Bīt-Zamani · Gurgum · Tabal · Melid · Que) ilk yazımda **hiçbir dilime
+verilmemişti.** K1 Mezopotamya'yı, K3 Anadolu'yu, K4 Akdeniz klasik
+dünyasını kapsıyordu; bu aile **üçünün de arasında** kalıyordu. K1 onlara
+ancak Asur haraç kayıtlarından gelen bir `v:` atfı **SARKTIĞINDA** çarptı.
+⇒ Bir kalemi atlamak eksiklik, bir **AİLEYİ** atlamak **KÖR NOKTADIR** —
+ve kör nokta "liste tam değil" şerhiyle kapanmaz. Yeni bir dilim açarken
+sorulacak soru: *"bu dilimin KOMŞULARIYLA ARASINDA kalan ne var?"*
 
 ⚠️ Beklenen aileler **BİRER BAŞLANGIÇTIR, TAM DEĞİLDİR.** Bulduğunu ekle;
 **bulamadığını `bulunamadı` diye ADIYLA yaz** — boş bırakma.

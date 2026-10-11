@@ -417,7 +417,28 @@ uydurmak** cazip görünür. **Yasak.** Ayrımı bir örnek çifti veriyor:
 🟢 MEŞRU — ŞIRNAK   kur:"1891-01-01" · kesinlik:"belirsiz"
    Kaynak ŞIRNAK HAKKINDA konuşuyor: "XIX. yüzyılın sonlarına doğru bir
    KÖY ADI olarak geçmektedir (Cuinet)."
-   ⇒ 1891 bir ALT SINIRDIR ve alt sınırın DAYANAĞI o cümledir.
+   ⇒ 🔴 1891'İN NEYİN SINIRI OLDUĞU YAZILMALIDIR — iki ayrı nicelik var:
+     · **KURULUŞ için 1891 ÜST SINIRDIR:** "en geç 1891'de vardı".
+       Daha ÖNCE kurulmuş olabilir ve kaynak bunu DIŞLAMIYOR.
+     · **HARİTADA GÖRÜNME günü için 1891 ALT SINIRDIR:** daha erken
+       gösteremeyiz, çünkü tanık yok.
+     Dayanağı o cümledir — ama hangi niceliğin sınırı olduğu da yazılır.
+
+🔴 BURADAN ÇIKAN KURAL — İLK ANILIŞTAN `kur:` TÜRETİLMEZ
+   *(10 Ekim 2026, KASA ölçtü — K1 Mezopotamya yazım turu)*
+   `kur:` bir KURULUŞ iddiasıdır ve örtük olarak **"öncesi yok"** der.
+   İlk anılış ise yalnız **"bu tarihte vardı"** der. İkisi aynı şey değil:
+   ilk anılış kuruluşun ÜST sınırıdır, kuruluşun KENDİSİ değildir.
+   ⇒ Elinde yalnız ilk anılış varsa: `f:` o tarihtir (harita o gün
+     başlar), `kur:` YAZILMAZ; "en geç" beyanı `ic_not`a girer.
+   ⚠️ MÖ evreninde HER şehrin bir ilk anılışı var. Bu kural yazılmadan,
+     ilk anılışları `kur:`a çeviren bir yazım binlerce yanlış kuruluş
+     tarihi üretir — ve hepsi birbiriyle TUTARLI olacağı için hiçbir
+     kapı yakalamaz.
+   📌 Aynı ailenin veri yüzü aynı gün ölçüldü: *"by the reign of
+     Adad-nīrārī III (810–783)"* tanığından **-810** alınmıştı; güvenli
+     sınır **-783**'tü. Orada aralığın yanlış UCU, burada sınırın yanlış
+     YÖNÜ. **Bir sayı, niceliği ve yönü yazılmadan anlamsızdır.**
 
 🔴 YASAK — bir başkentin `f`/`t`sini HÜKÜMDARIN saltanatından türetmek
    Kaynak hükümdarın saltanatı hakkında konuşuyor, BAŞKENT hakkında
@@ -483,6 +504,50 @@ boole eklemek 155 kaydın hiçbirini bozmuyor.
 
 📌 Ve veri **zaten hazır**: `"Macaristan (Zapolya vasal krallığı)"`
 etiketiyle **5 kayıt** duruyor. Eksik olan sahiplik değil, **kademe.**
+
+---
+
+### `tabi:` — ZAMANLI TÂBİLİK *(CANLI veri · TÜKETİCİSİ YOK)*
+
+```js
+tabi:[{ f:"1475-06-06", t:"1774-07-21", ust:"osmanli" }]
+```
+| alan | ne |
+|---|---|
+| `f` | tâbiliğin BAŞLADIĞI gün (ISO) |
+| `t` | tâbiliğin BİTTİĞİ gün — **bir SINIR, bir "yıkılış" değil** |
+| `ust` | ÜST devletin `id:`i — `data/devletler.js`te var olan bir kimlik |
+
+**ÖLÇÜLEN KULLANIM (11 Ekim 2026):** **17 kayıt / 16 künye.** Bir künye birden
+çok dilim taşıyabilir (`dulkadir` · `misir-kavalali` · `karadag` ikişer).
+`ust` değerleri: `osmanli` 15 · **`rusya` 1** (`don-kazak`) ·
+**`fransa-cumhuriyet` 1** (`tunus-beyligi-fransiz`).
+
+🔴 **TÜKETİCİSİ YOK — ve bu, "çağıranı olmayan kapı"nın VERİ YÜZÜDÜR.**
+Ölçüldü: `arac/*.py`de 0, `js/app.js`te 0 okuyucu (her iki dosyadaki "tabi"
+isabetleri Türkçe kelime ya da `v:` alanı hakkında). ⇒ 17 kayıt yazılmış,
+**hiçbir şey okumuyor.**
+📌 Ve bu, ölü bir kapıdan KÖTÜDÜR: ölü kapı hiçbir şey yapmaz, **ölü bir
+veri alanı ise bir şey YAPIYOR GİBİ GÖRÜNÜR.** Birisi 17 tâbilik kaydını
+"haritada çizilecek" inancıyla yazdı. Yazılmış ama okunmayan veri, eksik
+veriden daha tehlikelidir: eksikliği bir denetim bulur, **sahte dolgunluğu
+hiçbir denetim aramaz.**
+⚠️ Bu alan `BILINEN_ALANLAR`a eklenirken `v:` ile KARIŞTIRILMAMALI:
+`v:` HARİTA BOYASIDIR (motor okur, tâbi rengini çizer) · `tabi:` ise
+**İLİŞKİNİN KÜNYESİ** (kim kime, hangi tarihler arası). Biri boyar, öteki
+beyan eder; ikisi aynı olguyu ayrı eksende tutar.
+
+🟢 **BEKLENEN TÜKETİCİSİ ADIYLA BELLİ: Emre'nin K1 kararı** (10 Ekim 2026):
+> *"yabancı devletlere de tâbilik çizilsin ve tâbilik etiketi ile belirtilsin,
+> 'Fransa'ya tâbi' şeklinde, ve rengi bir tık açık renk olsun tâbi olunan
+> devletten."*
+⇒ K1'in veri katmanı **ZATEN VAR** ve `don-kazak → rusya` ile
+`tunus-beyligi-fransiz → fransa-cumhuriyet` tam olarak K1'in istediği
+**yabancı→yabancı** hâlidir. Eksik olan veri değil, **okuyucu**: ① motorun
+`ust`u okuyup tâbi rengini üst devletin renginden türetmesi ② ön yüzün
+etiketi basması. İkisi de ayrı iş, ikisi de yazılmadı.
+🔴 Yeni tâbilik yazarken: `t` bir **ÜST SINIR**tır ("en geç bu gün bitti"),
+ömür sonu DEĞİL — `kur:` maddesindeki yön hatasının aynısına düşülmesin.
 
 ---
 

@@ -1,0 +1,95 @@
+tarih,kesinlik,polity,baslik,metin,yer,kaynak,harita_degisimi
+0482-01-01,yil,merovenj-frank,Klodvig Frank tahtına çıktı,"Merovenj hanedanının kurucusu Klodvig Frank hükümdarı oldu; Galya'nın büyük kısmına yayıldı, Vizigotları Galya'dan itti.",Galya,HE 'Franci',EVET
+0507-01-01,yil,vizigot-kralligi,Vouillé: Vizigotlar Galya'yı kaybetti,"Vouillé yenilgisiyle Toulouse Vizigot Krallığı (418–507) sona erdi; Akitanya Klodvig'in devletine katıldı, Vizigot ağırlığı İspanya'ya kaydı.",Vouillé / Toulouse,"HE 'Goti' · HE 'Akvitanija'",EVET
+0751-01-01,yil,karolenj-frank,Pipin Frank kralı seçildi — Merovenjlerin sonu,"Pipin (Kısa) son Merovenj Hilderik III'ü tahttan indirdi ve kral seçildi; 754'te Papa II. (III.) Stefan tarafından kutsandı.",Frank Krallığı,HE 'Karolinzi',HAYIR
+0794-01-01,yil,karolenj-frank,Aachen yönetim merkezi oldu,"Frank devletinin yönetim merkezi 794'ten itibaren Aachen'dır.",Aachen,HE 'Karolinzi',HAYIR
+0800-01-01,yil,karolenj-frank,Şarlman Roma'da imparator taç giydi,"Karl I (Şarlman) Roma'da Batı (Roma) İmparatorluğu tacını giydi.",Roma,HE 'Karolinzi',HAYIR
+0843-01-01,yil,karolenj-frank,Verdun Antlaşması — Frank İmparatorluğu üçe bölündü,"Lotar I orta kısmı (İtalya · Burgonya · Provans · Maas-Schelde-Ren arası · Frizya), Ludvig Alman Doğu Frank'ı, Karl Kel Batı Frank'ı aldı.",Verdun,HE 'Karolinzi',EVET
+0843-01-01,yil,bati-frank,Batı Frank Krallığı kuruldu (Verdun),"Verdun paylaşımıyla Karl II (Kel) Batı Frank Krallığı'nın hükümdarı oldu.",Batı Frank,HE 'Karolinzi',EVET
+0843-01-01,yil,dogu-frank,Doğu Frank Krallığı kuruldu (Verdun),"Verdun paylaşımıyla Ludvig (Alman) Doğu Frank Krallığı'nın hükümdarı oldu.",Doğu Frank,HE 'Karolinzi',EVET
+0843-01-01,yil,orta-frank,Orta Frank Krallığı kuruldu (Verdun),"Verdun paylaşımıyla Lotar I orta krallığı aldı.",Orta Frank,HE 'Karolinzi',EVET
+0869-01-01,yil,orta-frank,Lotaringiya'da Karolenj yönetimi sona erdi,"Karolenjler Lotaringiya'yı Lotar II'nin ölümüne (869) dek yönettiler.",Lotaringiya,HE 'Karolinzi',EVET
+0875-01-01,yil,orta-frank,İtalya'da Karolenj yönetimi sona erdi,"Karolenjler İtalya'yı Ludvig II'nin ölümüne (875) dek yönettiler.",İtalya,HE 'Karolinzi',EVET
+0911-01-01,yil,dogu-frank,Doğu Frank'ta Karolenj soyu sona erdi,"Doğu Frank'ta son Karolenj Ludvig IV (Çocuk) ile hanedan sona erdi. ⚠️ 911–962 arası bu turda OKUNMADI.",Doğu Frank,HE 'Karolinzi',EVET
+0987-01-01,yil,bati-frank,Batı Frank'ta Karolenj soyu sona erdi,"Son Batı Frank Karolenj'i Luj V (Tembel) ile hanedan sona erdi; krallık Kapetlere geçti.",Batı Frank,HE 'Karolinzi',EVET
+0568-01-01,yil,lombard-kralligi,Lombardlar İtalya'ya geçti,"Kral Alboin önderliğinde Lombardlar Ostrogot savaşlarıyla harap İtalya'ya girip birçok kuzey şehrini aldılar.",Kuzey İtalya,HE 'Langobardi',EVET
+0569-01-01,yil,lombard-kralligi,Lombardlar Milano'yu aldı,"Lombardlar 569'da Milano'yu ele geçirdi.",Milano,HE 'Langobardi',EVET
+0572-01-01,yil,lombard-kralligi,Lombardlar Pavia'yı aldı — gelecekteki başkent,"Lombardlar 572'de Pavia'yı aldı; aynı yıl Alboin bir suikastte öldürüldü.",Pavia,HE 'Langobardi',EVET
+0774-01-01,yil,lombard-kralligi,Şarlman Lombard Krallığı'nı ilhak etti,"Desiderius döneminde (757–774) Karl I Lombardları yendi, devletlerini Frank devletine kattı ve 'Frankların ve Lombardların kralı' unvanını aldı.",Pavia,HE 'Langobardi',EVET
+0418-01-01,yil,vizigot-kralligi,Toulouse Vizigot Krallığı kuruldu,"Vizigotlar Galya'da Toulouse merkezli devletlerini kurdular (Tolosa Krallığı 418–507).",Toulouse,HE 'Goti' · HE 'Akvitanija',EVET
+0587-01-01,yil,vizigot-kralligi,Vizigotlar Katolikliğe geçti,"Ariusçu Vizigotlar 587'de Katolikliğe geçti.",Toledo,HE 'Goti',HAYIR
+0711-01-01,yil,vizigot-kralligi,Araplar Vizigot Krallığı'nı yıktı,"Toledo Vizigot Krallığı 711'de Araplar tarafından yıkıldı; Araplar hızlı bir akınla yarımadanın neredeyse tamamını aldı.",Toledo,"HE 'Goti' · HE 'Asturija'",EVET
+0493-01-01,yil,ostrogot-kralligi,Teodorik İtalya'da Ostrogot devletini kurdu,"Ostrogotlar Teodorik önderliğinde İtalya'ya geçip Ravenna başkentli devletlerini kurdular.",Ravenna,HE 'Goti',EVET
+0526-01-01,yil,ostrogot-kralligi,Teodorik öldü,"Teodorik'in ölümünden sonra İtalya Ostrogot devleti zayıflamaya başladı.",Ravenna,HE 'Goti',HAYIR
+0553-01-01,yil,ostrogot-kralligi,Justinyanus Ostrogot devletini yıktı,"İtalya Ostrogot devletini nihayet Justinyanus I 553'te yıktı.",İtalya,HE 'Goti',EVET
+0453-01-01,yil,gepid-kralligi,Atilla'nın ölümüyle Gepidler Hun hâkimiyetinden kurtuldu,"Yaklaşık 400'den beri Hunlara bağlı Gepidler Atilla'nın ölümünden (453) sonra bu hâkimiyetten kurtuldular; 493'te Ostrogotların İtalya'ya gidişiyle Panonya'da Sava'ya dek yayıldılar.",Panonya,HE 'Gepidi',EVET
+0504-01-01,yil,gepid-kralligi,Ostrogotlar Gepidleri yendi — Srem kaybedildi,"Ostrogot ordusu 504'te Gepidleri yendi ve Srem'i ellerinden aldı.",Srem,HE 'Gepidi',EVET
+0567-01-01,yil,gepid-kralligi,Lombard-Avar ittifakı Gepid devletine son verdi,"Lombard kralı Alboin Avarlarla ittifakla Gepidleri yendi; Kral Kunimund öldü, Gepid devleti ortadan kalktı.",Panonya,"HE 'Gepidi' · HE 'Langobardi'",EVET
+0429-01-01,yil,vandal-kralligi,Vandallar Cebelitarık'ı geçip Afrika'ya girdi,"Geiserik önderliğinde Vandallar 429'da Cebelitarık'ı geçip Kuzey Afrika'nın büyük kısmını aldılar.",Kuzey Afrika,HE 'Vandali',EVET
+0439-01-01,yil,vandal-kralligi,Vandallar Kartaca'yı aldı,"Vandallar Kartaca'yı 439'da aldılar.",Kartaca,HE 'Vandali',EVET
+0476-01-01,yil,vandal-kralligi,Vandallar Sicilya'nın çoğunu Odoakr'a bıraktı,"Vandallar Sicilya'nın büyük kısmını 476'da vergi karşılığı Odoakr'a bıraktılar (kalanı 491'de Ostrogot Teodorik'e verildi).",Sicilya,HE 'Vandali',EVET
+0534-01-01,yil,vandal-kralligi,Belizar Vandal Krallığı'nı yıktı,"Hilderik'in tahttan indirilmesi (530) ve ölümü (533) Justinyanus'a bahane oldu; komutan Belizar 533–534'te Vandal devletini yıktı.",Kartaca,HE 'Vandali',EVET
+0411-01-01,yil,suev-kralligi,Süevler Galiçya'da krallık kurdu,"İspanya'ya geçen Süevler Roma'nın Gallaecia eyaletinde (bugünkü Galiçya ve kuzey Portekiz) krallık kurdular.",Galiçya,HE 'Svevi',EVET
+0585-01-01,yil,suev-kralligi,Vizigotlar Süev Krallığı'nı yıktı,"Galiçya Süev Krallığı (411–585) Vizigotlar tarafından yıkıldı.",Galiçya,HE 'Svevi',EVET
+0568-01-01,yil,avar-kaganligi,Avarlar Panonya ovasının efendisi oldu,"Lombardların İtalya'ya gidişinden sonra Avarlar bütün Panonya ovasına hâkim oldular.",Panonya,HE 'Avari',EVET
+0582-01-01,yil,avar-kaganligi,Avarlar Srem'i (Sirmium) aldı,"Avarlar 582'de Srem'i (Sirmium) aldılar.",Sirmium,HE 'Avari',EVET
+0626-01-01,yil,avar-kaganligi,Avarlar İstanbul önünde yenildi,"Avarların İstanbul önündeki yenilgisinden (626) sonra Karantanlılar ve Balkan Slavları Avar hâkimiyetinden çıktı; 635'te Bulgarlar da çıktı.",İstanbul,HE 'Avari',HAYIR
+0802-01-01,yil,avar-kaganligi,Şarlman Avar Kağanlığı'nı yok etti,"Bavyeralılar ve Franklar Avarlarla 12 yıl savaştı; Karl I sonunda onları tamamen yok etti (802). ⚠️ yaygın anlatı 796/803 — ikinci kaynakla sınanmalı.",Panonya,HE 'Avari',EVET
+0623-01-01,yil,samo-birligi,Samo önderliğinde Slavlar Avarlardan kurtuldu,"Sudet Slavları 623'te Samo önderliğinde Avar hâkimiyetinden ilk kurtulanlar oldu.",Bohemya-Moravya,HE 'Avari',EVET
+0658-01-01,yil,samo-birligi,Samo'nun birliği dağıldı — Karantanya bağımsız knezlik,"Karantanya 626–658 arası Samo'nun Slav birliğinin parçasıydı; birliğin dağılmasıyla bağımsız knezlik oldu.",Karantanya,HE 'Karantanija',EVET
+0745-01-01,yaklasik,karantanya,Karantanya Frank tâbiliğine girdi,"Son bağımsız knez Borut döneminde Karantanya yaklaşık 745'te iç özerklikli Frank tâbisi oldu.",Krnski grad,HE 'Karantanija',EVET
+0718-01-01,yil,asturias-kralligi,Covadonga: Pelayo Araplara karşı kazandı,"Kral Pelayo 718'de Covadonga yakınında Arapları yendi — Reconquista'nın simgesel başlangıcı.",Covadonga,HE 'Asturija',HAYIR
+0722-01-01,yil,asturias-kralligi,Asturias Krallığı'nın temelleri atıldı,"722'de Asturias Krallığı'nın (Regnum Asturorum) temelleri atıldı.",Asturias,HE 'Asturija',EVET
+0910-01-01,yil,asturias-kralligi,Alfonso III devleti üçe böldü,"Alfonso III (866–910) 910'da tahttan çekilince devleti oğulları arasında üçe böldü: Asturias · León · Galiçya.",Asturias,HE 'Asturija',EVET
+0924-01-01,yil,asturias-kralligi,León Krallığı adıyla yeniden birleşme,"Ülke 924'te León Krallığı adıyla yeniden birleşti.",León,HE 'Asturija',EVET
+0571-01-01,yil,benevento,Benevento Lombard dükalığı oldu,"Lombardların İtalya'yı fethinden sonra Benevento 571'de güneydeki dükalıklarından birinin merkezi oldu.",Benevento,HE 'Benevento',EVET
+0787-01-01,yil,benevento,Benevento bağımsız prenslik oldu,"Franklar kuzeydeki Lombard devletini ilhak edince dükalık 787'de Benevento Prensliği olarak bağımsızlaştı.",Benevento,HE 'Benevento',HAYIR
+0849-01-01,yil,benevento,Benevento bölündü — Salerno ayrıldı,"Benevento prensliği 849'da bölündü; Salerno ayrı prensliğin merkezi oldu.",Benevento · Salerno,"HE 'Benevento' · HE 'Salerno'",EVET
+0849-01-01,yil,salerno-prensligi,Salerno Prensliği kuruldu,"Benevento'nun 849 bölünmesiyle Salerno ayrı prensliğin merkezi oldu.",Salerno,HE 'Salerno',EVET
+1053-01-01,yil,benevento,Normanlar Benevento'yu aldı,"Benevento 1053'te Normanlarca fethedildi; Normanlar şehri ve çevresini Papalık devletine bıraktı.",Benevento,HE 'Benevento',EVET
+1076-01-01,yil,salerno-prensligi,Normanlar Salerno'yu aldı,"Salerno prensliği ve şehri 1076'da Normanlarca fethedildi; şehir Norman Apulya-Kalabriya dükalığının başkenti oldu.",Salerno,HE 'Salerno',EVET
+0856-01-01,yil,kapua-prensligi,Capua Lombard prensliğinin başkenti olarak yeniden kuruldu,"Yaklaşık 840'ta Sarazenlerin yıktığı Capua 856'dan itibaren bir Lombard prensliğinin başkenti olarak yeniden kuruldu.",Capua,HE 'Capua',EVET
+0661-01-01,aralik 660-661,napoli-dukaligi,Napoli seçimli dükalık oldu,"Bizans'a bağlı Napoli Dukatus'undan 660–661'de şehir aristokrasisinden seçilen dükler yönetimi doğdu.",Napoli,HE 'Napulj',EVET
+0763-01-01,yil,napoli-dukaligi,Napoli papalık tâbiliğine geçti,"Önce Bizans tâbisi olan dükalık 763'ten itibaren papaya tâbi oldu; IX. yy başından fiilen bağımsız.",Napoli,HE 'Napulj',EVET
+1137-01-01,yil,napoli-dukaligi,Normanlar Napoli'yi aldı,"Normanlar dükalığı 1137'de fethedip Sicilya Krallığı'na kattı.",Napoli,HE 'Napulj',EVET
+0839-01-01,yil,amalfi,Amalfi cumhuriyet ilan edildi,"Amalfi 839'da kendini cumhuriyet ilan etti; Bizans'ın formel üstünlüğü altında fiilen bağımsız.",Amalfi,HE 'Amalfi',EVET
+1039-01-01,yil,amalfi,Amalfi Salerno'ya bağlandı,"Amalfi 1039–1052 arası Salerno Prensliği'nin yönetimine girdi.",Amalfi,HE 'Amalfi',EVET
+1073-01-01,yil,amalfi,Amalfi Norman egemenliğine girdi,"Amalfi 1073'te Normanların egemenliğine girdi (resmî ilhak 1131).",Amalfi,HE 'Amalfi',EVET
+1135-01-01,yil,amalfi,Pisa donanması Amalfi'yi yağmaladı,"Papalık-Norman savaşı sırasında Pisa donanması 1135'te Amalfi'yi yağmalayıp filosunun çoğunu yok etti.",Amalfi,HE 'Amalfi',HAYIR
+0640-01-01,yil,wessex-kralligi,Wessex kralı vaftiz edildi — ilk kesin tarihli olay,"Kral Cynegils'in 640'ta Piskopos Birinus tarafından vaftizi Batı Sakson tarihinin belli bir kesinlikle tarihlenebilen ilk olayıdır.",Dorchester-on-Thames,HE 'Wessex',HAYIR
+0825-01-01,yil,wessex-kralligi,Egbert Mercia'yı yendi,"Kral Egbert 825'te Mercia'yı yendi ve Anglosakson krallıklarını kendi yönetiminde birleştirdi.",Mercia,HE 'Wessex',EVET
+1016-01-01,yil,wessex-kralligi,Knut İngiltere'yi fethetti — Wessex kontluk oldu,"Danimarka kralı Knut İngiltere'yi 1016'da fethedince Wessex bir kontluk (earldom) oldu.",Wessex,HE 'Wessex',EVET
+0685-01-01,yil,pikt-kralligi,Piktler Northumbrialıları kesin olarak yendi,"Piktler 685'te Northumbrialıları kesin bir yenilgiye uğrattı.",Kuzey İskoçya,HE 'Pikti',HAYIR
+0843-01-01,aralik 843-850,pikt-kralligi,Kenneth MacAlpin Pikt ülkesini aldı,"İskoç kralı Kenneth I MacAlpin 843–850 arasında Pikt ülkesini fethedip 'Piktlerin kralı' unvanını aldı.",İskoçya,HE 'Pikti',EVET
+0839-01-01,yil,buyuk-moravya,Büyük Moravya'nın çekirdeği oluştu,"Moravya 839–906 arası knezler Mojmir · Rastislav · Svatopluk · Mojmir II yönetiminde Büyük Moravya'nın çekirdeği oldu. ⚠️ yaygın anlatı 833.",Moravya,HE 'Moravska',EVET
+0907-01-01,yil,buyuk-moravya,Macarlar Büyük Moravya'yı yıktı,"Büyük Moravya devletini 907'de Macarlar yıktı.",Moravya,HE 'Moravska',EVET
+0924-01-01,yil,sirp-knezligi,Bulgar Simeon Sırbistan'ı aldı,"X. yy başında Bulgar çarı Simeon Sırbistan'ı fethetti (924).",Raška,HE 'Srbija',EVET
+0928-01-01,yaklasik,sirp-knezligi,Časlav Sırp knezliğini yeniden kurdu,"Simeon'un ölümünden sonra knez Časlav Klonimirović (yaklaşık 928–950) Bizans'a dayanarak Sırp knezliğini yeniden kurdu; Travunija da katıldı.",Raška,HE 'Srbija',EVET
+0895-01-01,aralik 895-896,macar-prensligi,Árpád önderliğinde Macarlar Karpatları aştı,"Peçenek baskısıyla batıya göç eden Macarlar 895–896'da Árpád önderliğinde Karpatları aşıp Transilvanya'yı ve Büyük Ova'yı yurt edindiler.",Alföld,TDV 'macaristan',EVET
+0900-01-01,yaklasik,macar-prensligi,Macarlar Tuna ötesini yurt edindi,"900 yılı civarında Macarlar Tuna ötesini (Transdanubia) de yurt edindiler.",Transdanubia,TDV 'macaristan',EVET
+1000-01-01,aralik 1000-1001,macar-prensligi,István I taç giydi — Macar Krallığı,"997'de babasının yerine geçen István I 1000–1001'de taç giyen ilk kral olarak Macar Devleti'nin kurucusu oldu.",Esztergom (okunmadı),TDV 'macaristan',HAYIR
+0985-01-01,yil,abhazya-kralligi,Abhazya Krallığı Gürcistan'la birleşti,"VIII. yy'da bağımsızlaşan Abhazya Krallığı 985'te Gürcistan'la birleşti. ⚠️ MEVCUT gurcistan künyesi 1008'de başlıyor.",Abhazya,HE 'Abhazija',EVET
+0889-05-06,hicri-sozlesme,pecenek,Peçenekler İdil'in batısına itildi,"Hazarlar Oğuzlarla ittifak edip Peçeneklere saldırdı (276/889) ve onları İdil'in batısına geçmeye mecbur bıraktı; Peçenekler de Macarları Levedya'dan sürdü.",İdil–Dinyeper arası,TDV 'pecenekler',EVET
+1037-01-01,yil,pecenek,Yaroslav Peçenekleri yendi,"Kiev büyük knezi Yaroslav (Bilge) 1037'de Peçenekleri yenince onlar Eflak yönüne çekildiler.",Kiev,HE 'Pečenezi',EVET
+1091-04-29,gun,pecenek,Levunion: Peçenekler ezildi,"Bizans, müttefiki Kıpçaklarla birlikte Peçenekleri ağır bir yenilgiye uğrattı (29 Nisan 1091); Anna Komnena'ya göre yalnız küçük bir topluluk kurtuldu.",Trakya,TDV 'pecenekler',EVET
+0766-01-01,yil,karluk-yabguluk,Karluklar Tokmok ve Talas'ı alıp devlet kurdu,"Karluklar dağılan Kara Türgiş Kağanlığı'nın iki merkezi Tokmok ve Talas'ı alarak 766'da başşehri Balasagun yakınındaki Kara-ordu olan bir devlet kurdular.",Kara-ordu,TDV 'karluklar',EVET
+0635-01-01,yil,buyuk-bulgar,Büyük Bulgar Devleti kuruldu,"Karadeniz'in kuzeyinde Hazarlardan başka Büyük Bulgar (Magna Bulgaria) Türk Devleti de kuruldu (635).",Don–Kuban arası,TDV 'hazarlar',EVET
+0827-04-02,hicri-sozlesme,girit-emirligi,Endülüslü sürgünler Girit'e çıktı,"Rabaz vakasından sonra Endülüs'ten sürülüp İskenderiye'ye yerleşen topluluk 212 (827)'de Ebû Hafs Ömer el-Bellûtî kumandasında kırk gemiyle Girit'e gelip adayı kademe kademe zaptetmeye başladı ve Rabazulhandak'ı (Kandiye) kurdu.",Kandiye,TDV 'girit',EVET
+0961-03-06,gun,girit-emirligi,Nikephoros Phokas Kandiye'yi aldı — Girit Emirliği'nin sonu,"Bizans bir yıl süren kuşatmadan sonra 6 Mart 961'de Kandiye'yi ele geçirdi; 827'den 961'e kadar Ebû Hafs ailesi hüküm sürmüştü. Son emîr Abdülazîz b. Şuayb.",Kandiye,TDV 'girit',EVET
+0847-01-01,yil,bari-emirligi,Bari müslümanların eline geçti,"Bari'nin 847'de müslümanların eline geçtiği kesindir; ilk emîr Rebîa kabilesinden Halfûn (847–852).",Bari,TDV 'bari--italya',EVET
+0871-02-03,gun,bari-emirligi,Bari Bizans'a düştü — Emîr Sûdân esir,"Bari 3 Şubat 871'de Bizanslıların eline geçti ve Emîr Sûdân (857–871) esir edildi.",Bari,TDV 'bari--italya',EVET
+0825-01-01,yil,dulefi,Dülefîler Cibâl'de hüküm sürmeye başladı,"Dülefîler 825'ten itibaren Merkezî İran'da (Cibâl) Hemedan · Nihâvend · İsfahan ve çevresinde hüküm sürdü.",Cibâl,TDV 'dulefiler',EVET
+0897-02-08,hicri-sozlesme,dulefi,Dülefîlerin sonu — Cibâl Abbâsî valilerine,"Emîr Ebû Leylâ Hâris b. Abdülazîz'in 284 (897)'de ölümüyle topraklar merkezî hükümete geçti ve Abbâsî valilerince yönetilmeye başlandı.",Cibâl,TDV 'dulefiler',EVET
+0995-01-01,yil,memuni,Me'mûnîler Hârizm'de iktidara geldi,"Sâmânîlerin Gürgenç valisi Ebü'l-Abbas Me'mûn b. Muhammed'in kurduğu hânedan 995'ten itibaren Hârizm'de hüküm sürdü; Amuderya'nın sağ yakasındaki Kâs'a yöneldi.",Gürgenç,TDV 'memuniler',EVET
+1017-01-01,yil,memuni,Me'mûnîlerin sonu,"Me'mûnî hânedanı 1017'de sona erdi.",Gürgenç,TDV 'memuniler',EVET
+0850-01-01,yaklasik,hindusahi,Kallâr Kâbil'de Hindûşâhî hânedanını kurdu,"Son Türkşâhî hükümdarı Lagatûrman'ın veziri Brahman Kallâr tahtı ele geçirip yaklaşık 850'de Hindûşâhî hânedanını kurdu.",Kâbil,TDV 'hindusahiler',EVET
+1026-01-01,yil,hindusahi,Hindûşâhîlerin sonu,"Hindûşâhî hâkimiyeti 1026'da sona erdi.",Pencap,TDV 'hindusahiler',EVET
+0847-01-01,hicri-sozlesme,yufiri,Ya'fur b. Abdurrahman San'a'yı aldı,"San'a ve çevresi 232 (847)'ye kadar Bağdat valilerince yönetildi; Emîr Ya'fur b. Abdurrahman el-Hivâlî bu tarihte bölgeyi alıp kuzeyde Sa'de, güneyde Cened arasında San'a başkentli Ya'furîler'i kurdu.",San'a,TDV 'yemen',EVET
+0602-01-01,yil,lahmi,Son Lahmî hükümdarı III. Nu'mân'ın saltanatı sona erdi,"Hakkında en çok bilgi bulunan son Lahmî hükümdarı III. Nu'mân b. Münzir (580–602). ⚠️ 'devletin sonu' kaynakta açıkça yazılmıyor — ÇIKARIM.",Hîre,TDV 'lahmiler',EVET
+0636-01-01,yil,gassani,Gassânî hâkimiyetinin sonu,"Gassânîler 200–636 arasında Suriye'de hüküm sürdü.",Suriye,TDV 'gassaniler',EVET
+0525-01-01,yil,himyeri,Himyerî hâkimiyetinin sonu,"Himyerîlerin 'tebâbia devri' denilen ikinci dönemi IV. yy başından 525'e kadar sürdü.",Yemen,TDV 'himyeriler',EVET
+0845-01-01,yil,bretanya-kralligi,Nominoë Bretanya'yı Frank yönetiminden kurtardı,"Bretanya 845'te Nominoë önderliğinde Frank yönetiminden kurtuldu; ertesi yıl bağımsızlık ilan etti.",Bretanya,HE 'Bretanja',EVET
+0851-01-01,yil,bretanya-kralligi,Bretanya krallık ilan edildi,"Bretanya 851'de krallık ilan edildi.",Bretanya,HE 'Bretanja',HAYIR
+0671-01-01,yil,akitanya-dukaligi,Akitanya bağımsız dükalık ilan edildi,"Frank hükümdarlarının yönetimi tam pekişmediğinden 671'de bağımsız Akitanya dükalığı ilan edildi.",Akitanya,HE 'Akvitanija',EVET
+0781-01-01,yil,karolenj-frank,Şarlman oğlu Ludvig'i Akitanya kralı yaptı,"Franklar Akitanya'yı 732–768 arasında yeniden aldı; Karl I 781'de oğlu Ludvig'i (Dindar) Akitanya kralı atadı.",Akitanya,HE 'Akvitanija',HAYIR
+0969-07-01,hicri-sozlesme,fatimi,Cevher es-Sıkıllî Fustat'a girdi — Kahire'nin kuruluşu,"Fâtımî halifesi Muiz-Lidînillâh döneminde İhşîdî hâkimiyetine son veren komutan Cevher Şâban 358 (Temmuz 969)'de Fustat'a girdi ve Katâi'nin kuzeyinde yeni idare merkezini kurmaya başladı.",Kahire,TDV 'kahire',EVET

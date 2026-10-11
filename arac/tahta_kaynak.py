@@ -39,6 +39,18 @@ ya da makine DALINA giden bir mesaj origin/main'de yoktur ama yerel ağaçta var
 bekçi onu görüyordu. Yalnız origin okumak bu sınıfı KAYBEDERDİ (bir kusuru kapatıp
 başkasını açmak). ⇒ okunan küme = origin ∪ yerel, kimlik (no, kimden, zaman) üzerinden;
 yerelde olup origin'de olmayanların SAYISI `durum["yerel_ek"]`e yazılır (gizlenmez).
+
+🔴 SUNUCU KOLU (TAHTA-BEKCI-1010): `sunucu=<ag.json ayarı>` verilirse okuma tahta
+SUNUCUSUNDAN yapılır (git'e hiç gidilmez): ilk okumada `GET /tahta/oku?hepsi=1`
+(tam görüntü — origin kolunun ilk okumasıyla AYNI kapsam, `--cik` boşluğu dahil),
+sonra her turda yalnız `son_no=<en büyük numara>` ile YENİLER. Kaynak "sunucu".
+⚠️ `/tahta/oku` `son` parametresi TANIMAZ (o `GET /tahta` HTML'inin) — `son=20`
+   TAHTANIN TAMAMINI döndürür (ölçüldü, TAHTA-ISTEMCI-1010.md); doğrusu `son_no`/`limit`.
+Sunucu ulaşılamaz / 401 / bozuk cevap ⇒ o tur BUGÜNKÜ git koluna düşülür ve bu
+SESSİZ geçmez: `bildir` (ilk hata · metin değişince · her 10. ardışık hatada) +
+kaynak "git" (git kolu da düştüyse "yerel") + kaynak_not "sunucu düştü (N tur): …".
+Sonraki tur sunucu YENİDEN denenir. Hiçbir ağ hatası bekçiye istisna olarak ÇIKMAZ.
+⚠️ Okundu damgası (`POST /tahta/isaretle`) bekçiden ATILMAZ: bekçi okumaz, uyandırır.
 """
 import io
 import json
@@ -78,6 +90,57 @@ def anahtar(m):
     return (m.get("no"), m.get("kimden"), m.get("zaman"))
 
 
+SUNUCU_ZAMAN_ASIMI = 10  # sn — asılı sunucu bir turu en çok bu kadar geciktirir
+
+
+def ag_ayar(yol):
+    """ag.json'dan sunucu ayarı — `jeton` + `tahta_sunucu` yoksa None (git kolu)."""
+    try:
+        with io.open(yol, encoding="utf-8") as f:
+            a = json.load(f)
+    except (OSError, ValueError):
+        return None
+    return a if isinstance(a, dict) and a.get("jeton") and a.get("tahta_sunucu") else None
+
+
+def sunucu_istek(ayar, sorgu, zaman=None):
+    """GET /tahta/oku → (HTTP kodu, gövde, telden gelen bayt). Ulaşılamazsa istisna.
+    🔴 Jeton YALNIZ başlığa girer; vekil (proxy) BİLEREK kapalı."""
+    import gzip
+    import platform
+    import urllib.error
+    import urllib.parse
+    import urllib.request
+    adres = str(ayar["tahta_sunucu"])
+    url = "http://%s/tahta/oku?%s" % (adres if ":" in adres else adres + ":8788",
+                                      urllib.parse.urlencode(sorgu))
+    r = urllib.request.Request(url, headers={
+        "X-Atlas-Jeton": ayar["jeton"], "Accept-Encoding": "gzip",
+        "X-Atlas-Makine": platform.node() or "bilinmeyen"})
+    acici = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    try:
+        c = acici.open(r, timeout=zaman or SUNUCU_ZAMAN_ASIMI)
+    except urllib.error.HTTPError as e:
+        c = e
+    with c:
+        ham = c.read()
+        bayt = len(ham)
+        if (c.headers.get("Content-Encoding") or "") == "gzip":
+            ham = gzip.decompress(ham)
+        try:
+            d = json.loads(ham.decode("utf-8"))
+        except ValueError:
+            d = {}
+        return c.code, (d if isinstance(d, dict) else {}), bayt
+
+
+def _no_sayi(no):
+    try:
+        return int(str(no or "M-0").split("-")[-1])
+    except ValueError:
+        return 0
+
+
 def _liste(d):
     return d if isinstance(d, list) else ((d or {}).get("mesajlar") or [])
 
@@ -91,7 +154,7 @@ class Okuyucu(object):
     """
 
     def __init__(self, tahta, uzak="origin", dal="main", ref=None, fetch_ara=0.0,
-                 mod="origin", bildir=None):
+                 mod="origin", bildir=None, sunucu=None, sunucu_ara=0.0):
         self.tahta = os.path.abspath(tahta)
         self.uzak, self.dal = uzak, dal
         self.ref = ref or "refs/bekci/_genel"
@@ -111,6 +174,16 @@ class Okuyucu(object):
                       "fetch_son_basari": None, "yerel_ek": 0,
                       "origin_sayi": None, "yerel_sayi": None}
         self.kok, self.yol_ic = None, None
+        # SUNUCU KOLU — yalnız `sunucu` verilirse; yoksa durum sözlüğü BİREBİR eskisi
+        self.sunucu = sunucu if mod == "origin" else None
+        self.sunucu_ara = float(sunucu_ara or 0)
+        self._s_liste, self._s_anahtar, self._s_son_no = None, set(), 0
+        self._s_son_t, self._s_ard, self._s_hata = 0.0, 0, None
+        if self.sunucu:
+            self.durum.update(kaynak_not="henüz okunmadı (sunucu)",
+                              sunucu=str(self.sunucu.get("tahta_sunucu")), sunucu_ok=None,
+                              sunucu_hata="", sunucu_ms=None, sunucu_ard=0,
+                              sunucu_son_basari=None)
         if mod == "origin":
             self._depo_bul()
 
@@ -201,7 +274,75 @@ class Okuyucu(object):
         self._yerel_imza, self._yerel_liste = imza, liste
         return liste
 
+    # ------------------------------------------------------------ sunucu
+    def _sunucu_oku(self):
+        """Ayna (ilk okuma tam, sonra yalnız yeniler) ∪ yerel; düşerse None."""
+        if self._s_liste is not None and time.time() - self._s_son_t < self.sunucu_ara:
+            return self._sunucu_birlesim()
+        t0 = time.time()
+        sorgu = {"hepsi": "1"} if self._s_liste is None else {"son_no": str(self._s_son_no)}
+        hata, c = "", {}
+        try:
+            kod, c, _b = sunucu_istek(self.sunucu, sorgu)
+            if kod == 401:
+                hata = "JETON YANLIŞ (HTTP 401)"
+            elif kod != 200 or not isinstance(c.get("mesajlar"), list):
+                hata = "HTTP %s (%s)" % (kod, c.get("sebep") or "geçersiz cevap")
+        except Exception as e:                       # ağ hatası bekçiyi DÜŞÜRMEZ
+            hata = "ulaşılamadı (%s: %s)" % (type(e).__name__, getattr(e, "reason", None) or e)
+        self._s_son_t = time.time()
+        self.durum["sunucu_ms"] = int((time.time() - t0) * 1000)
+        self.durum["sunucu_ok"] = not hata
+        self.durum["sunucu_hata"] = hata
+        if hata:
+            self._s_ard += 1
+            self.durum["sunucu_ard"] = self._s_ard
+            if self._s_ard == 1 or hata != self._s_hata or self._s_ard % 10 == 0:
+                self.bildir("[BEKCI-KAYNAK] 🔴 SUNUCU DÜŞTÜ (%d. ardışık tur) — %s · kaynak "
+                            "GIT'e düştü (origin fetch), sunucu her tur yeniden denenir"
+                            % (self._s_ard, hata))
+            self._s_hata = hata
+            return None
+        if self._s_liste is None:
+            self._s_liste = []
+        for m in c["mesajlar"]:
+            a = anahtar(m)
+            if a not in self._s_anahtar:
+                self._s_anahtar.add(a)
+                self._s_liste.append(m)
+        self._s_son_no = max([self._s_son_no, _no_sayi(c.get("son_no"))]
+                             + [_no_sayi(m.get("no")) for m in c["mesajlar"]])
+        if self._s_ard:
+            self.bildir("[BEKCI-KAYNAK] ✓ SUNUCU YENİDEN ÇALIŞIYOR (%d ardışık hatadan sonra)"
+                        " — kaynak: sunucu (%s)" % (self._s_ard, self.durum["sunucu"]))
+        self._s_ard, self._s_hata = 0, None
+        self.durum.update(kaynak="sunucu", kaynak_not="", sunucu_ard=0,
+                          sunucu_son_basari=int(time.time()), origin_sayi=None)
+        return self._sunucu_birlesim()
+
+    def _sunucu_birlesim(self):
+        yerel = self._yerel_oku()
+        ek = [m for m in yerel if anahtar(m) not in self._s_anahtar]
+        self.durum.update(yerel_sayi=len(yerel), yerel_ek=len(ek),
+                          sunucu_sayi=len(self._s_liste))
+        return list(self._s_liste) + ek
+
     def oku(self, fetch_zorla=False):
+        if not self.sunucu:
+            return self._git_oku(fetch_zorla)
+        liste = self._sunucu_oku()
+        if liste is not None:
+            return liste
+        liste = self._git_oku(fetch_zorla)
+        # 🔴 DÜŞÜŞ ADIYLA: git kolu origin'i okuduysa "git", o da düştüyse "yerel"
+        not_ = "sunucu düştü (%d tur): %s" % (self._s_ard, self.durum.get("sunucu_hata"))
+        if self.durum.get("kaynak") == "origin":
+            self.durum.update(kaynak="git", kaynak_not=not_)
+        else:
+            self.durum["kaynak_not"] = not_ + " · " + (self.durum.get("kaynak_not") or "")
+        return liste
+
+    def _git_oku(self, fetch_zorla=False):
         yerel = self._yerel_oku()
         self.durum["yerel_sayi"] = len(yerel)
         if self.mod != "origin":

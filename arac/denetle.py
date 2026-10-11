@@ -45,6 +45,7 @@ DATA = os.path.join(KOK, "data")
 #   Gerekçe girdi.py'de. Eskiden bu dosyada "1281-01-01"/"1923-10-29" beş
 #   yerde düz yazılıydı ve motor ufkuna BAĞLI DEĞİLDİ (ONCE1281-MOTOR-UFUK-1004 §④).
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import gun as _gun                 # negatif yil sayaci (gun_no devreder)
 from girdi import UFUK, VERI_UFKU, UFUK_DAMGASI, ufuk_devirleri
 
 
@@ -1224,10 +1225,19 @@ def pad(s):
 
 
 def gun_no(s):
-    s = tam(pad(s))
-    y, a = int(s[0:4]), int(s[5:7])
-    g = int(s[8:10]) if len(s) >= 10 else 1
-    return date(y, a, g).toordinal()
+    """ISO tarih -> ordinal gun. 🔴 NEGATIF YIL icin gun.py'ye DEVREDER.
+
+    Eski hali `int(s[0:4])` ile yil kesiyordu ve "-2333-01-01" uzerinde
+    "-233" okuyordu: 2.100 YILLIK hata. `date()` yil < 1'i reddettigi
+    icin cokuyordu — ve cokme bir ARMAGANDI, kusuru gosteriyordu.
+    🔴 TEHLIKE C3'TE: motordan `datetime` kaldirilir da dizgi kesimi
+    kalirsa COKME GIDER, SESSIZCE YANLIS YIL KALIR ve her kapiyi gecer.
+    (KASA olctu, 10 Ekim 2026, K1 devir sinavi.)
+    ⇒ `arac/gun.py` bu isi dogru yapiyor ve bu dosya onu HIC import
+      etmiyordu — "cagirani olmayan kapi"nin bir ornegi daha.
+    DENKLIK: gun.py 1970-01-01 = 0 · toordinal 719163 ⇒ + 719163.
+    """
+    return _gun.gun(tam(pad(s))) + 719163
 
 
 # ---------------- Değişmez 1 — sahipsizlik yok ----------------
