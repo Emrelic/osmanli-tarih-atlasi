@@ -173723,5 +173723,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5882",
+  "zaman": "2026-10-11 13:05",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 23b (KOŞU 23'ün kurtarması) · taban 672acbc1 · tuz 9d8751049cf5 beklenir (önbellek 2.237 MB dolu) · süre ÖLÇÜLECEK. GİRDİ KİLİTLİ: data/ ve arac/ donuk (donma ilanı yürürlükte). Sebep: zincirde benim hatam — kodla yay'ı yanlış arite ile çağırdım (çıkış 2), çıkış kodunu okumadan coz-c koşturdum, coz-c eski parçalardan data/devletler_harita.js + donemler.js'i yazıp taze çıktıyı EZDİ. Bayraklar: MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=0 · MOTOR_SUREC_ISCI=2 · MOTOR_DEVAM=1 (yeni). Sonra: dört ayrı kodla.py yay (devlet/donem/govde/bant), her çıkış kodu okunarak; coz-c ancak dördü 0 ise.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
