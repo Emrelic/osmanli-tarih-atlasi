@@ -698,6 +698,17 @@ function acikTon(hex, kat) {
     return (x < 16 ? "0" : "") + x.toString(16);
   }).join("");
 }
+// 🎨 OSMANLI TÂBİ RENGİ — `acikTon`a BAĞLI (Emre onayı, 11 Ekim 2026: *"tabi
+// rengi açıktona bağlansın"*). Eski elle seçilmiş sabit #b2384a KALDIRILDI;
+// app.js'te tâbi tonu artık YALNIZ bu satırdan okunur (`vassal-serit-dis`,
+// himaye yedeği, yerleşim kartı, `_sahipRengi`, iki lejant).
+// ÖLÇÜLDÜ (CIE76): #8e0b22 → #a53c4e ΔE 18,0 (eski #b2384a: 14,9) ⇒ tâbi ile
+// doğrudan ARTIK DAHA AYRIK, karışma yok.
+// ⚠️ İKİNCİ KOPYA app.js DIŞINDA — benim dosyam değil, adıyla bildirildi:
+//    `arac/uret_devirler.py` `TABI_TON = "#b2384a"` → `data/devirler.js` (52
+//    yer) · `arac/renk_olc.py` "OSMANLI tâbi". Devir/işgal desenlerindeki tâbi
+//    tonu o yoldan gelir ve motor tarafı hizalanana kadar ESKİ tonda kalır.
+var TABI_RENK = acikTon("#8e0b22");
 var dolgular = (window.DOLGU || []);
 dolgular.forEach(function (r) {
   r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
@@ -2496,7 +2507,7 @@ harita.on("load", function () {
   // idareden de) ayırt eden İKİNCİ, daha ince bir kuşaktır.
   harita.addLayer({ id: "vassal-serit-dis", type: "line", source: "vassal",
     layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#b2384a", "line-opacity": 1,
+    paint: { "line-color": TABI_RENK, "line-opacity": 1,
       "line-width": ["interpolate", ["linear"], ["zoom"], 3, 4, 5, 6, 8, 8] } });
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
     paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });
@@ -2581,7 +2592,7 @@ harita.on("load", function () {
     layout: { "line-join": "round" },
     paint: { "line-color": "#8e0b22", "line-width": himayeGenislik(6), "line-opacity": 1 } });
   harita.addLayer({ id: "himaye-dolgu", type: "fill", source: "himaye",
-    paint: { "fill-color": ["coalesce", ["get", "renk"], "#b2384a"], "fill-opacity": 1 } });
+    paint: { "fill-color": ["coalesce", ["get", "renk"], TABI_RENK], "fill-opacity": 1 } });
 
   harita.addSource("osmanli", agirKaynak());
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
@@ -3268,7 +3279,7 @@ harita.on("load", function () {
     '<span><i style="background:#8e0b22"></i> Doğrudan idare</span>' +
     // 🆕 16 Eylül 2026 — H-0084: iç dolgu artık Osmanlı kırmızısıyla AYNI;
     // ayrım dıştaki tâbi-renkli şeride taşındı (`vassal-serit-dis`).
-    '<span><i style="background:#8e0b22;border:3px solid #b2384a;' +
+    '<span><i style="background:#8e0b22;border:3px solid ' + TABI_RENK + ';' +
     'box-sizing:border-box"></i> Bağlı / tâbi topraklar (kırmızı iç, açık kırmızı şerit)</span>' +
     // 🆕 14 Eylül 2026 — ÜÇÜNCÜ TON (Emre 0043/H-0003 seçenek D): "Osmanlı
     // kırmızısı · vassal kırmızısı · daha açık tonda kırmızı ile himaye edilen
@@ -5437,7 +5448,7 @@ function isyanLejanti(fs) {
   el.style.display = "";
   el.innerHTML = "<b>İsyan</b>" + sira.map(function (tur) {
     return '<span><i style="background:repeating-linear-gradient(45deg,' + _isyanRenk(tur) +
-           ' 0 2px,transparent 2px 6px),#b2384a"></i> ' + (LJ[tur] || tur) + " · " +
+           ' 0 2px,transparent 2px 6px),' + TABI_RENK + '"></i> ' + (LJ[tur] || tur) + " · " +
            Object.keys(grup[tur]).join(", ") + "</span>";
   }).join("");
   // 🔴 21 Eylül 2026 — DALGA-0074/H-0012'nin ikinci turu (1.MURAT sevki M-4897).
@@ -9562,7 +9573,7 @@ function _yerlesimSerit(y) {
           return { ad: devletAdi(p.kid),
                     cins: "tâbi (" + devletAdi(_KID_YABANCI_UST[p.kid]) + ")",
                     renk: _DEVLET_RENK[p.kid] || "#9a9a9a" };
-        return { ad: "Osmanlı", cins: "tâbi", renk: "#b2384a" };
+        return { ad: "Osmanlı", cins: "tâbi", renk: TABI_RENK };
       }
     for (i = 0; i < (y.s || []).length; i++)
       if ((p = y.s[i]).f <= gun && gun < p.t)
@@ -11333,7 +11344,7 @@ function _sahipRengi(key) {
   if (key === "osmanli") return "#8e0b22";
   if (key.indexOf("tabi:") === 0) {
     var kid = key.slice(5);
-    return (kid && _KID_YABANCI_UST[kid]) ? (_DEVLET_RENK[kid] || "#9a9a9a") : "#b2384a";
+    return (kid && _KID_YABANCI_UST[kid]) ? (_DEVLET_RENK[kid] || "#9a9a9a") : TABI_RENK;
   }
   // 🆕 DALGA-0074 H-0013 — FİİLÎ işgal. ⚠️ Bu katmanda TARAMA YOK (kuruluşunda
   // "TARALI DEĞİL" yazıyor, `fill-pattern` dalı hiç açılmadı), elimizde yalnız

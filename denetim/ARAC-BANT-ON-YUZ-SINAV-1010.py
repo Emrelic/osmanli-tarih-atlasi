@@ -52,27 +52,86 @@ for ad, desen, yeni, beklenen in BOZ:
     dusen = sorted(k for k, v in R.items() if not v['ok'])
     yaz(all(k in dusen for k in beklenen), 'TERS [%s] düşen: %s (beklenen %s)' % (ad, dusen, beklenen))
 
-# ③ GERİLEME — A yolu: değişen satırlar yalnız izinli bloklarda mı?
-d = subprocess.run(['git', '-C', KOK, 'diff', '-U0', 'HEAD', '--', 'js/app.js'],
-                   capture_output=True, text=True, encoding='utf-8').stdout
-eski = subprocess.run(['git', '-C', KOK, 'show', 'HEAD:js/app.js'], capture_output=True, text=True,
+# ②b TÂBİ RENGİ TEK OTORİTE (Emre onayı, 11 Ekim 2026: "tabi rengi açıktona bağlansın")
+def kod_satirlari(metin):
+    return [l for l in metin.splitlines() if not l.lstrip().startswith('//')]
+def tabi_tek_otorite(metin):
+    kod = kod_satirlari(metin)
+    sabit = [l.strip()[:70] for l in kod if '#b2384a' in l.lower()]
+    tanim = any(re.match(r'\s*var TABI_RENK = acikTon\("#8e0b22"\);', l) for l in kod)
+    kullanim = sum(l.count('TABI_RENK') for l in kod) - (1 if tanim else 0)
+    return (not sabit and tanim and kullanim >= 6), sabit, tanim, kullanim
+ok, sabit, tanim, kul = tabi_tek_otorite(src)
+yaz(ok, 'İLERİ T7_tabi_tek_otorite {"sabit #b2384a kod satırı": %d, "TABI_RENK=acikTon tanımı": %s, "kullanım": %d}'
+    % (len(sabit), tanim, kul))
+bozuk = src.replace('renk: TABI_RENK };', 'renk: "#b2384a" };', 1)
+ok2, sabit2, _, _ = tabi_tek_otorite(bozuk)
+yaz(bozuk != src and not ok2, 'TERS [tâbi sabiti bir yerde geri geldi] T7 düştü (sabit %d satır)' % len(sabit2))
+
+# ③ GERİLEME — A yolu, SABİT TABANA göre: 5c45d2c0 = bant işinden ÖNCEKİ son app.js.
+#    HEAD'e göre ölçmek commit'ten sonra BOŞ diff verir ve her şeyi geçirir — bu yüzden taban sabit.
+#    Satır SATIR değil KATMAN BLOĞU sorulur: ilk sürüm yalnız katman kimliğini taşıyan satıra
+#    bakıyordu, `paint:` bir alt satırda olduğu için `osmanli-dolgu`nun RENGİ değişse görmezdi
+#    (aşağıdaki TERS sınavı tam bunu sınar).
+import difflib
+TABAN = '5c45d2c0'
+eski = subprocess.run(['git', '-C', KOK, 'show', TABAN + ':js/app.js'], capture_output=True, text=True,
                       encoding='utf-8').stdout
+# 🔴 BEYANLI MUAFİYET — tâbi dolgu/şerit rengi HARİÇ (Emre onayı 11 Ekim 2026). A BİLEREK
+#    değişiyor: #b2384a → TABI_RENK (#a53c4e). Muaf satır = #b2384a ya da TABI_RENK taşıyan
+#    satır; SAYILIR ve basılır (sessiz muafiyet perdedir, §3.4 ⑥).
+def tabi_muaf(l):
+    return '#b2384a' in l.lower() or 'TABI_RENK' in l
 def blok(metin, bas_desen, son_desen):
     i = metin.find(bas_desen); j = metin.find(son_desen, i + 1)
     return metin[i:j] if i >= 0 and j > i else ''
-# İzinli bölge (HEAD'de): ufukGuncelle gövdesi + ufuk-bant-alan katmanının boyası
+# İzinli bölge (tabanda): ufukGuncelle gövdesi + ufuk-bant-alan katmanının boyası
 IZINLI = blok(eski, 'function ufukGuncelle(', 'function ufukSecimEsitle(') + \
          blok(eski, 'harita.addSource("ufuk-bant"', 'harita.addLayer({ id: "devlet-cizgi"')
-govde = [l[1:] for l in d.splitlines() if l[:1] in '+-' and not l.startswith(('+++', '---'))]
-# A'yı çizen katmanların boyası DEĞİŞMEMİŞ olmalı
-A_KATMAN = ['"devlet-dolgu", type', '"osmanli-dolgu"', '"vassal-dolgu"', '"himaye-dolgu"', '"devlet-cizgi"']
-dokunan = [l for l in govde if any(k in l for k in A_KATMAN)]
-yaz(not dokunan, 'GERİLEME A katman boyası dokunulmamış (%d satır)' % len(dokunan))
-silinen = [l for l in d.splitlines() if l.startswith('-') and not l.startswith('---')]
-yabanci = [l for l in silinen if not IZINLI or l[1:].strip() not in IZINLI]
-yaz(not yabanci, 'GERİLEME silinen satırların hepsi bant/renk bloğunda (%d silinen, yabancı %d)%s'
-    % (len(silinen), len(yabanci), (' — ' + ' | '.join(x.strip()[:60] for x in yabanci[:3])) if yabanci else ''))
+A_KATMAN = ['devlet-dolgu', 'osmanli-dolgu', 'vassal-dolgu', 'vassal-serit-dis', 'himaye-dolgu', 'devlet-cizgi',
+            'osmanli-cizgi']
+def katman_araliklari(satirlar):
+    # her A katmanı için `harita.addLayer({ id: "<ad>"` satırından `});` ile biten satıra kadar
+    ar = {}
+    for i, l in enumerate(satirlar):
+        m = re.search(r'addLayer\(\{ id: "([a-z-]+)"', l)
+        if m and m.group(1) in A_KATMAN:
+            j = i
+            while j < len(satirlar) and '});' not in satirlar[j]:
+                j += 1
+            ar[m.group(1)] = (i, j)
+    return ar
+def gerileme(yeni):
+    a, b = eski.splitlines(), yeni.splitlines()
+    ar = katman_araliklari(a)
+    degisen_eski = []   # (eski satır no, metin) — silinen/değişen
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op in ('replace', 'delete'):
+            degisen_eski += [(k, a[k]) for k in range(i1, i2)]
+    katmanda = [(k, t) for k, t in degisen_eski if any(s <= k <= e for s, e in ar.values())]
+    muaf_k = [x for x in katmanda if tabi_muaf(x[1])]
+    ihlal_k = [x for x in katmanda if not tabi_muaf(x[1])]
+    muaf_s = [x for x in degisen_eski if tabi_muaf(x[1])]
+    yabanci = [x for x in degisen_eski if not tabi_muaf(x[1]) and x[1].strip() not in IZINLI]
+    return ar, ihlal_k, muaf_k, degisen_eski, muaf_s, yabanci
+ar, ihlal_k, muaf_k, degisen, muaf_s, yabanci = gerileme(src)
+yaz(len(ar) == len(A_KATMAN), 'GERİLEME A katman blokları tabanda bulundu: %d/%d %s' % (len(ar), len(A_KATMAN), sorted(ar)))
+yaz(not ihlal_k, 'GERİLEME A katman bloklarında değişen satır %d · tâbi rengi HARİÇ — Emre onayı 11 Ekim 2026: muaf %d satır%s'
+    % (len(ihlal_k), len(muaf_k), (' — ' + ' | '.join(t.strip()[:60] for _, t in ihlal_k[:3])) if ihlal_k else ''))
+sonuc.append('ℹ MUAF (tâbi rengi, beyanlı) tabana göre değişen %d satır: %s'
+             % (len(muaf_s), ' | '.join(t.strip()[:48] for _, t in muaf_s)))
+yaz(not yabanci, 'GERİLEME tabana göre değişen %d satırın hepsi bant/renk bloğunda ya da tâbi muafiyetinde (yabancı %d)%s'
+    % (len(degisen), len(yabanci), (' — ' + ' | '.join(t.strip()[:60] for _, t in yabanci[:3])) if yabanci else ''))
+# TERS — muafiyet ÖTEKİ A değişikliklerini yutmamalı
+b1 = src.replace('paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });\n  // Petek modunda',
+                 'paint: { "fill-color": "#8e0b23", "fill-opacity": 1 } });\n  // Petek modunda', 1)
+_, ih1, _, _, _, _ = gerileme(b1)
+yaz(b1 != src and len(ih1) > 0, 'TERS [osmanli-dolgu rengi değişti] A katman maddesi düştü (%d satır)' % len(ih1))
+b2 = src.replace('function aktifAralik(', 'function aktifAralik_(', 1)
+_, _, _, _, _, yb2 = gerileme(b2)
+yaz(b2 != src and len(yb2) > 0, 'TERS [bant dışı bir satır değişti] "yabancı satır" maddesi düştü (%d satır)' % len(yb2))
 
+sinav = [s for s in sonuc if s[:1] in '✓✗']
 print('\n'.join(sonuc))
-print('SONUÇ: %s · %d sınav, %d kusur' % ('GEÇTİ' if not kotu else 'KALDI', len(sonuc), kotu))
+print('SONUÇ: %s · %d sınav, %d kusur' % ('GEÇTİ' if not kotu else 'KALDI', len(sinav), kotu))
 sys.exit(1 if kotu else 0)
