@@ -463,7 +463,17 @@ py arac/denetle_yayin.py  # yayın kapısı
 py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
 ```
 - 🔴 **KOŞU BAYRAKLARI ZORUNLU** (yoksa koşu çıkış 0 ile "biter" ama EKSİKTİR): `MOTOR_YURUYUS=1
-  MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2`
+  MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2
+  MOTOR_DEVAM=1`
+  🔴 **`MOTOR_DEVAM=1` 11 Ekim 2026'da EKLENDİ ve niçin eksik olduğu bir derstir:**
+  `uret_petek.py:511`de duruyor ve gerekçesi Emre'nin kendi cümlesi — *"hiçbir koşu
+  bir daha çöpe gitmeyecek"* (M-4535, 18 Eylül). Gövde aşamasının devlet başına FAZ 1
+  sonucunu `_petek_devam/<ön aşama izi>/` altında KALICI tutar; ölen koşu aynı
+  girdi+kodla yeniden başlayınca hazır devletleri DİSKTEN okur. Gövde koşunun
+  **%81'i** (KOŞU 23: 4s17dk43 / 9s15dk42). ⇒ Emre'nin o kuralını UYGULAYAN bayrak,
+  kuralı taşıyan belgenin zorunlu listesinde YOKTU. **Bir kuralı yazmak, onu
+  uygulayan bayrağı zorunlu kılmak değildir.** (Dizin koşu başarıyla bitince silinir;
+  ön aşamalar ~1,5-3 saat yine koşar.)
 - 🔴 **ÇÖL KELEPÇESİ KALDIRILDI — `MOTOR_COL_UFUK_SAAT=0`** (Emre, 10 Ekim 2026:
   *"sahrada artış olmuyor bir tavan mı koyduk burası için. tavanı kaldır, 5 7 veya
   10 günde ne kadar gidiyorsa o kadar gitsin"*). Kelepçe çöl hücrelerine **banttan
@@ -500,8 +510,30 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   demek değildir; kısa süre YAPILMAYAN İŞ işaretidir. **Commit mesajında yaşayan ayar KAYITLI değildir.**
 - 🔴 **Zincir yayınlanan haritayı üretmez** (yayın `kodla` + `paketle` ürünü) ⇒ zincirin
   **"BAYAT TÜREV" ile durması DOĞRUDUR**; türev adımları ELLE (gözetimsiz yayın bir ürün kararı,
-  Emre'de). İniş adım adım, HER ÇIKIŞ KODU okunarak: `kodla.py yay` → `coz-c` (İKİ dosya, §5)
-  → `denetle` → `renk_olc` → `paketle.py yenile` → `surum_damgala` → `denetle_yayin`.
+  Emre'de). İniş adım adım, HER ÇIKIŞ KODU okunarak:
+  **`kodla.py yay <girdi.js> <dizin> <hedef>`** (DÖRT argüman, DÖRT hedef) → `coz-c`
+  (İKİ dosya, §5) → `denetle` → `renk_olc` → `paketle.py yenile` → `surum_damgala`
+  → `denetle_yayin`. Hedefler (`py arac/kodla.py hedefler`): `devlet`
+  (`devletler_harita.js`) · `donem` (`donemler.js`) · `govde` (`petek_govde.js`) ·
+  `bant` (`ufuk_bantlari.js`). `yay` yazdıktan sonra **DİSKTEN** gidiş-dönüş sınavı
+  yapar, geçmezse yazdıklarını SİLER.
+  🔴 **ARİTE HATASI KENDİNİ "KOMUT YOK" DİYE TANITIYOR** (11 Ekim 2026): `kodla.py`nin
+  sevk tablosu `if a[0] == "yay" and len(a) == 4` biçiminde; eşleşmeyen her hâl düşme
+  dalına gidip `__doc__` basıyor ve **çıkış 2** veriyor — ve `__doc__`un KULLANIM
+  bloğu `yay`ı hiç saymıyor. ⇒ *"argüman sayısı yanlış"* ile *"böyle bir komut yok"*
+  **AYNI ÇIKTIYI** veriyor, oysa **çareleri ters**: biri argümanı düzeltir, öteki
+  başka alet arar. Koşucu doğru okudu, **alet yanlış söyledi.**
+  🔴 **VE ZİNCİRİN EN PAHALI TUZAĞI — `coz-c` BİR DİRİLTİCİDİR:** `coz` tanım gereği
+  parçadan `.js` üretir. `yay`/`kodla` BAŞARISIZ olup `coz-c` koşarsa ESKİ parçadan
+  ESKİ `.js` yazılır ve **koşunun TAZE çıktısı ÜZERİNE YAZILIR**
+  (`devletler_harita.js` · `donemler.js` gitignore'lu HAM çıktıdır, yedeği YOKTUR).
+  11 Ekim 2026: `kodla` ve iki `coz-c` TEK KOMUT SATIRINDA koşturuldu, ilkinin kodu
+  okunmadı ⇒ **9s15dk'lık bir koşunun iki çıktısı ezildi, kopyası çıkmadı.**
+  ⇒ `yay` çıkış **0** VERMEDEN `coz-c` yazılmaz; **tek satırda zincirlenmez.**
+  🟢 Kaybın büyüklüğünü ham `.js` değil **PARÇANIN DAMGASI** söyler: `yay` gidiş-dönüş
+  sınavını geçmeden yazmaz ⇒ parça TAZEyse taze veri parçanın içindedir ve `coz-c` ile
+  birebir geri gelir; parça ESKİyse kayıp gerçektir. **İlk ölçüm parça mtime'ıdır**,
+  yeniden koşu kararı ondan sonra verilir.
   **Doğru olgu, küçük yazılmış ağırlık** da bir kusurdur.
 - 🔴 **Yasak betiğe değil KİPE:** `kos_ve_yayinla.py --yayinlama` KOŞTURULUR; `kosu_yayin.py`
   ve `kos_ve_yayinla.py`nin YAYIN KİPLERİ KULLANILMAZ (çıkış 1'de bile yayınlarlar). Zincir
