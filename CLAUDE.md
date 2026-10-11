@@ -254,7 +254,31 @@ açılmaz** (kenar petekleri dünyaya yayılır). [`D220`](dersler/D220-kapsam-g
 ---
 
 ## 7. Oturum düzeni ve dosya sahipliği — EN ÖNEMLİ KURAL
-Bölme ölçütü **dosyadır**; her dosyanın tek sahibi var. Oturum 0 (koordinatör, YILDIRIM BAYEZIT):
+Bölme ölçütü **dosyadır**; her dosyanın tek sahibi var.
+🔴 **DOSYA KİLİDİ — kural artık BİR ALET** (Emre, 11 Ekim 2026: *"bir dosyada
+sadece bir oturum işlem yapabilir … diğer oturum bu oturumun işlemi bitene kadar
+beklemeli … o dosya o oturuma rezerve olacak ve o oturumu sıraya sokacak"*).
+`py arac/kilit.py al <dosya> --kim "<AD>"` → **0** kilit sende · **1** başkasında,
+SIRADASIN · **2** ÖLÇÜLEMEDİ (yazma) · **3** yanlış kullanım. Bitince
+`birak` ya da `birak-hepsi`; bırakma SIRADAKİNE devreder ve devri **tahtaya
+yazar**. Sınav `py denetim/ARAC-KILIT-SINAV-1011.py` (37 madde, iki yönde).
+📌 §7 dosya sahipliğini yıllardır söylüyordu ve çakışmalar yine oldu: kural
+**BELGEDEYDİ, ÇAĞRI YOLUNDA DEĞİLDİ.** *"Bir uyarı bir denetim değil bir
+dilektir"* (jeton sızıntısı uyarıya RAĞMEN oldu). Kapıya çeviren parça
+`arac/kilit_kanca.py`dır (Write/Edit önüne takılır, serbest dosyayı
+KENDİLİĞİNDEN alır, başkasınınkini çıkış 2 ile ENGELLER) — **kurulumu YALNIZ
+Emre yapar**, `settings` onun alanı. Kanca kurulmadan kilit unutkanlığı
+önler, kötü niyeti önlemez; farkı bilerek kullan.
+🔴 Üç yön kasıtlı: ① **ölçülemedi ⇒ MEŞGUL**, serbest değil (ters yön iki
+oturumu aynı dosyaya sokar; bu yön yalnız bekletir) ② **otomatik devralma
+YOK** — `kosu_kilit.py` bunu 16 saatlik bir koşuyla öğrendi, yaş bir VEKİLDİR;
+bayat kilidi insan düşürür (`zorla-birak --gerekce`, gerekçe ZORUNLU ve kayıtlı)
+③ kancanın KENDİ arızası GEÇİRİR, kilit DURUMUNUN arızası ENGELLER — *korunacak
+dosyayı adlandıramayan bir kapı, her şeyi engelleyerek hiçbir şeyi korumaz.*
+⚠️ **BEYANLI SINIR:** kilit **BU MAKİNEYE** aittir; başka makinedeki kilit
+burada GÖRÜNMEZ ve `durum` bunu her çıktıda yazar. Makineler arası kilit tahta
+sunucusunun bir uç noktasını ister. *"Kilit yok"* ile *"ölçülemedi"* ayrı
+şeylerdir — eksiği ADIYLA söylüyoruz. Oturum 0 (koordinatör, YILDIRIM BAYEZIT):
 `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, kök `*.md`. Öteki oturumlar
 şartnamelerinin verdiği dosyalara yazar; **emin değilsen sor**; rapor/denetim oturumları
 düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md) · [`D279`](dersler/D279-oturum-duzeni-surec-oldurme-1010.md)

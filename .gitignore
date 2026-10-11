@@ -311,3 +311,12 @@ ClaudEmre-kutu/
 #    Olcum kaybolmadi, yalniz depodan cikti.
 /oturumlar/GOREV-DURUM-1001.md
 /oturumlar/donanim/
+
+# DOSYA KILIDI — makineye ait CALISMA ZAMANI durumu, git'e GIRMEZ.
+# Nicin: kilit "bu makinede su an kim yaziyor" sorusunu cevaplar; commit'lenirse
+# bir makinenin anlik hali baska makinede GECMIS bir hakikat olarak gorunur
+# ve bayat bir kilit gercek bir isi bloke eder (tahta nabziyla ayni sinif).
+/oturumlar/kilit.json
+/oturumlar/kilit.json.*
+/oturumlar/kilit_adlar.json
+/oturumlar/tahta_bayrak.log
