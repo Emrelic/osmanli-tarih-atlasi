@@ -392,3 +392,635 @@ Hicrî → mîlâdî çevrimi tablo usulü; 1582 öncesi **Jülyen** verildi (at
 ## Özet
 - Doğuş bulunamadı: **1** (kuba-hanligi). Yıkılış bulunamadı: **1** (dukagin) + kumuk-samhalligi'nin Osmanlı tâbiiyet sonu (künye t 1607) bulunamadı; kumukta yıkılış olarak 1725 yazıldı.
 - Künye-kaynak fark sayısı: **9** — fetret-isa f · fetret-isa t (üst sınır) · garbi-trakya bağımsızlık ilanının günü · kibris Hirokitia günü · kumuk f günü · buhara f · buhara özetteki 2 Eylül · buhara t günü · dukagin Leş 1/2 Mart.
+
+
+---
+---
+
+# TUR 2 — N–Z YARISI (11 Ekim 2026, koordinatörün iş bölümü)
+
+Koordinatör (send_message, 11 Ekim): 228'in **alfabetik ikinci yarısı (N–Z)** bende, ilk yarı
+`KAMP-EKSIK-KRONOLOJI`de. Taban: `main` dd86575c (geride 0); liste yeniden ölçüldü — **yine 228**, id kümesi aynı.
+
+## T2.1 Dikiş — HARF bölümü
+Sıralama ölçütü künye `id`si (ASCII; Türkçe harf id'de yok — "Şavni" id=`savni` ⇒ N–Z). İlk harfe göre:
+**a–m 132 · n–z 96.** Dikiş: `…mikmak · mohave · mutahharten | nahua-sehir-devletleri · nama-orlam · natchez…`
+⚠️ "Yarı" SAYIYLA (114/114) okunursa sınır `kutai | liptako` olur ⇒ `liptako`→`mutahharten` arasındaki
+**18 künye** iki okumanın arasında kalır. HARF bölümü uygulandı; teyit istendi (tahta M-5933 · M-5934).
+
+## T2.2 N–Z evreni
+| | künye |
+|---|---|
+| N–Z toplam | 96 |
+| öteki oturumun (A) KRONOLOJI.csv'sinde zaten var | 21 |
+| benim TUR 1'imde zaten var | 21 |
+| **TUR 2 yeni iş** | **72** |
+
+## T2.3 Sonuç — 218 madde · 69 künye
+6 alt-grup (H1 K.Amerika-A 14 · H2 K.Amerika-B + Mezoamerika + Ranquel 13 · H3 Güney/Doğu Afrika 13 ·
+H4 Batı/Orta/K. Afrika + Madagaskar 14 · H5 Habeşistan + Endonezya + Sri Lanka + Okinawa 9 ·
+H6 Çin + Tuva + Okyanusya + Avrupa 9). Toplanan **225** madde; biçim denetimi (`birlestir2.py`) **kusur 0**.
+**7 satır ŞERHLİ kovaya alındı** (aşağıda) ⇒ teslim **218 madde · 69 künye**.
+**Madde 0 olan künye (3):** toltek · zerma · tui-tonga-imparatorlugu (tek maddesi şerhli kovaya gitti — aşağıda) ⇒ 72 − 3 = 69.
+Dağılım (225 üzerinden): kesinlik gün 126 · yıl 81 · ay 18 · hicrî 0 · `harita_degisimi` EVET 138 / HAYIR 87.
+Kaynak: TDV 30 satır (İslâm dünyasına girenlerde birincil); kalanlar antlaşma metinleri (Kappler/OSU,
+GPO 1912 Executive Orders, Bloemfontein/Vereeniging metinleri), eyalet/kurumsal ansiklopediler (Oklahoma,
+Virginia, NCpedia, MNopedia, Mississippi, 64 Parishes), NPS idari tarihleri, Library of Congress, Dictionary of
+Canadian Biography, UVic Colonial Despatches, INAH/UNAM, Encyclopédie berbère/Journal des africanistes
+(OpenEdition), Treccani, Store norske leksikon/Stortinget, NDB/ADB, SAHO, hakemli dergiler.
+**Vikipedi ve Britannica hiçbir satırda dayanak değil** (Britannica ve Canadian Encyclopedia bu makineden 403 — okunamayan
+kaynak yazılmadı). Elle örneklem: Encyclopedia Virginia "March 22, 1622" ✓ · LoC In Custodia Legis "August 10, 1680" ✓.
+
+### ŞERHLİ — ana CSV'den ÇIKARILAN 7 satır (kaynakları yalnız derleme site / hobi aktarımı / 3. el özet)
+| polity | tarih | olay | sebep |
+|---|---|---|---|
+| oranj | 1854-04-10 | anayasa kabulü | yalnız Archontology.org (derleme; dayandığı Volksraad Notulen okunmadı) — SAHO 7 Nisan der: ÇELİŞKİ açık |
+| oranj | 1900-05-28 | Oranj Irmağı Kolonisi ilhakı | yalnız Archontology.org |
+| transvaal | 1880-12-16 | Paardenkraal'da cumhuriyetin yeniden ilanı | yalnız Archontology.org |
+| transvaal | 1884-02-27 | Londra Konvansiyonu | Archontology + angloboerwar.com (hobi sitesi aktarımı) |
+| transvaal | 1900-06-05 | Pretoria'nın işgali | yalnız Archontology.org |
+| transvaal | 1900-09-01 | ilhak | yalnız Archontology.org (dayanağı Gazette No.15 okunmadı) |
+| tui-tonga-imparatorlugu | 1865-01-01 | son Tuʻi Tonga'nın ölümü | Yale eHRAF'ın Collocott 1924 ÖZETİ (HRAF metni, Collocott'un kendisi okunmadı) |
+⇒ Hüküm koordinatörde: Archontology kabul edilirse 6 satır geri girer; dayandığı gazeteler okunursa kesinleşir.
+Satırlar scratchpad'de `TUR2_SERH.csv` (istenirse denetim/'e alınır).
+Tutulan satırlarda bilinçli kabul: Wikisource'taki ANTLAŞMA METNİ aktarımları (MacFadyen 1898 derlemesi —
+birincil metin) ve `npshistory.com` (NPS idari tarihlerinin arşiv kopyası; resmî belge) — ikisi de şerhli değil.
+
+### Uçlar (tur alanına göre, tutulan 218 satırda)
+- **Kuruluş maddesi YOK — 48 künye:** nahua-sehir-devletleri nama-orlam natchez ngoni ojibwe ovimbundu pavni payut
+  pedi ponka powhatan purepecha-imparatorlugu ranquel rapa-nui sahaptin sakalava-boina sanzan sauk savni secwepemc
+  sidamo-kralliklari solima-yalunka svazi tidore-sultanligi tiv tlingit toltek tsvana tuareg-accer tuareg-adag
+  tuareg-ahaggar tubu-tibesti tui-tonga-imparatorlugu tungning tututepec-krallik ute venda vendat vollayta-kralligi
+  xhosa yafna yao yavapai yeke yupik zapotek-krallik zende zerma.
+  📌 Bu bir kusur değil ÇOĞUNLUKLA BİR SINIFTIR: künyelerin büyük kısmında `f:1281-01-01` pencere başıdır,
+  kuruluş değil; bir halkın kaynaklı "kuruluş günü" yoktur ve uydurulmadı (`§4` ①). İlk yazılı anılış / ilk temas
+  bulunanlarda `diger` ya da `kurulus` dışı tur olarak yazıldı.
+- **Yıkılış maddesi YOK — 13 künye:** nuu-cah-nulth (künyenin olayı YANLIŞ: 1858 BC Yasası Vancouver Adası'nı
+  dışlar) · piombino (künyenin 1548'i yanlış; Appiani 1634'e dek) · pontianak · rozvi (Beach: hânedan 1873'e dek) ·
+  solima-yalunka (kimlik doğrulanmadı) · tidore-sultanligi · toltek · tonga-kralligi (devlet sürüyor — uygulanamaz) ·
+  tsvana · tui-tonga-imparatorlugu (tek yıkılış adayı şerhli) · yogyakarta · zapotek-krallik · zerma.
+  ⚠️ Alt-grup raporlarının "yıkılış bulunamadı" sayıları (toplam 8) bu listeden küçük: bazı künyelerde son madde
+  `tabiiyet`/`diger` turuyla yazılmış (ör. tsvana 1885 himaye). Fark ADIYLA burada; hangisinin "yıkılış" sayılacağı
+  yazıcının/koordinatörün sınıflandırmasıdır.
+
+### En ağır künye bulguları (künye düzeltme sevki için — ayrıntı alt-grup raporlarında)
+- **piombino** `t:1548` yanlış (geçici Medici işgali; iade 1557, Appiani 1634'e dek) · `f` 13 Şubat 1399 (künye 19 Şubat).
+- **nuu-cah-nulth** `t:1858-08-02` yanlış olaya bağlı (BC Yasası VI. bölüm Vancouver Adası'nı dışlar; doğru olay 1849).
+- **rozvi** `t:1834` — Beach (JAH 1974) Changamire hânedanını 1873'e dek gösterir.
+- **nama-orlam** `t:1904-10-03` "Witbooi'nin ölümü" diye geçiyor — o gün savaş ilânıdır; ölüm 29 Ekim 1905.
+- **ranquel** `t:1883` — iki hakemli makale 1879.
+- **yao** `t:1899` — TDV: direniş 1912'de biter. **toro** `f:1830` — TDV 1822.
+- **tannu-tuva** künyesi "TDV kapsam dışı" diyor — TDV `tuva` maddesi VAR (200) ve günleri veriyor.
+- **nahua-sehir-devletleri** künye-içi 1428 maddesi **History.com**'a dayanıyor — kırmızı çizgi ihlali, düşürülmeli.
+- **transvaal** künyesi 1877-1881 İngiliz ilhakı aralığını göstermiyor.
+- Kaynak çelişkileri (iki taraf yazılı): Angola bağımsızlığı TDV 11.09.1975 ↔ akademik 11 Kasım · tuareg-accer
+  TDV 1911 ↔ 1918-10-28 · natchez 1730/1731 · navaho ilk anılış 1626/1629 · yavapai 1871 ↔ 1873 ·
+  pontianak 23 Ekim ↔ 23 Kasım 1771 · oranj anayasa 7 ↔ 10 Nisan 1854.
+
+## T2.4 Alt-grup raporları (olduğu gibi)
+
+
+---
+### H1
+
+H1 — Kuzey Amerika yerli halkları (TUR 2) · 14 künye · 51 madde
+
+Ölçüm: 11 Ekim 2026, bu makine. TDV evreni dışında, hiçbiri İslâm dünyasına girmiyor ⇒ TDV aranmadı.
+Erişim: treaties.okstate.edu (Kappler) 200 · okhistory.org 200 · biographi.ca (DCB) 200 · bcgenesis.uvic.ca 200 ·
+ncpedia.org 200 · encyclopediavirginia.org 200 · mississippiencyclopedia.org 200 · mnopedia.org 200 ·
+rcaanc-cirnac.gc.ca 200 · presidency.ucsb.edu 200 · npshistory.com 200 · nps.gov/manz 200 ·
+nps.gov/parkhistory/online_books → bugün genel sayfaya yönleniyor; aynı sayfaların web.archive.org (2019) kopyası okundu.
+❌ OKUNAMAYAN (kaynak gösterilmedi): oregonencyclopedia.org 403 (Cloudflare) · loc.gov katalog kaydı 403 ·
+newmexicohistory.org DNS hatası · ubcic PDF 403 · Vikipedi hiçbir satırda dayanak değil.
+
+## natchez
+- Kaynak: Mississippi Encyclopedia 'Natchez Indians' (James F. Barnett Jr.) 200 · 64 Parishes 'Natchez Revolt of 1729' (Kelby Ouchley) WebFetch ok · OHS 'Natchez (tribe)' (Sheldon Yeakley) 200.
+- Künye t:1731-01-01 — 64 Parishes "in the fall of 1731" esir alınma/köle satışı ⇒ YIL tutuyor (ay yok).
+- 🔴 ÇELİŞKİ: OHS esir alınmayı **1730, Natchitoches yakını** diye verir; 64 Parishes **1731 sonbahar**. Künye kaynak alanı da "1730" diyor. Tercih yapılmadı, CSV satırında iki taraf yazılı. (LOC harita kaydının "20-25 Ocak 1731" bilgisi yalnız arama özetinde görüldü, sayfa 403 ⇒ KULLANILMADI.)
+- Doğuş **bulunamadı**: Mississippi Ency. La Salle seferini YILSIZ anar ("less than 150 years later"); ilk Avrupa temasının yılı okunan kaynakta yok. 1716 Fort Rosalie `diger` olarak yazıldı.
+- 1729-11-28 künye kronolojisindeki günle birebir; 1730-02 (Choctaw kuvveti) künyedeki 1730-02-01 ile ay düzeyinde örtüşür.
+
+## navaho
+- Kappler 1849 (200) ve 1868 (200) · NPS Canyon de Chelly Adm. History Ek 5 (npshistory 200) · Luomala (npshistory 200).
+- Künye t:1868-06-01 ✓ Kappler "on the first day of June, 1868" (Fort Sumner).
+- Doğuş 1626 ("Apaches de Nabaju", Zárate Salmerón). 🔴 ÇELİŞKİ: Luomala aynı anılışı **1629**'a koyar. NPS kronolojisi esas alındı, iki taraf satırda.
+- Ek: 1849-09-09 antlaşmasıyla Navaho ABD yargı yetkisini TANIDI (tabiiyet) — künyede yok. 1864-01 Carson Canyon de Chelly harekâtı (ay); künyedeki "1864-01-01 Uzun Yürüyüş" yıl kodlu, kaynak ay veriyor.
+
+## nez-perce
+- NPS L&C Survey site5 (web.archive 200) · Kappler 1855 & 1863 (200) · OHS 'Nez Perce' (Westmoreland) 200 · NPS NEPE Adm. History prologue 200.
+- Doğuş 1805-09-20 Weippe Prairie (ilk belgeli temas).
+- 🟡 FARK: künye t:**1877-10-05** — okunan iki kaynak (OHS, NPS) yalnız **Ekim 1877** diyor ⇒ CSV'de 1877-10-01 `ay`. 5 Ekim günü bu turda DOĞRULANAMADI (künye günü kaynak değildir).
+- 1855-06-11 ✓ künye kronolojisiyle birebir. Ek: 1863-06-09 daraltma antlaşması, 1878 Oklahoma sürgünü.
+
+## nuu-cah-nulth
+- DCB 'Pérez Hernández' (Warren L. Cook) 200 · DCB 'Muquinna' (Robin A. Fisher) 200 · bcgenesis Nootka Sound / Friendly Cove / Muquinna 200.
+- Doğuş 1774-08-09: Pérez Nootka Sound'u 8 Ağustos'ta görür, ertesi gün Nootka'larla ticaret (ilk belgeli temas).
+- 🔴 KÜNYE HATASI (ölçüldü): künye t:1858-08-02 "Britanya Kolumbiyası Kolonisi" — 1858 Yasası **§VI açıkça "No Part of the Colony of Vancouver's Island … shall be comprised within British Columbia"** der (primarydocuments.ca metni). Nuu-chah-nulth Vancouver Adası batı kıyısındadır ⇒ o tarih bu halkın egemenlik kaybı DEĞİLDİR. Doğru olay Vancouver Adası Kolonisi'nin kuruluşu (HBC'ye Kraliyet bağışı, 1849) olmalı; ama bağışın GÜNÜNÜ veren metni okuyamadım (bcgenesis'te yalnız 6 Şubat 1849 Avam Kamarası talebi var ⇒ bağış o günden önce) ⇒ **yıkılış bulunamadı**.
+- Künyedeki "1789-05-05 İspanyollar Yuquot'a yerleşti" ve "1790-10-28 Nootka Sözleşmesi" bu turda doğrulanmadı; DCB yalnız 1795 İspanyol çekilişini veriyor (eklendi).
+
+## nuxalk
+- DCB 'Mackenzie, Sir Alexander' 200 (yazar adı sayfada okunmadı) · bcgenesis Bella Coola / British Columbia 200 · primarydocuments.ca 1858 Yasası metni.
+- Doğuş 1793-07-17 Friendly Village (künyedeki 1793-07-22 Dean Channel yazıtının günüdür — o Nuxalk teması değil, kayaya yazılan yazıt; DCB ikisini de verir).
+- Künye t:1858-08-02 ✓ Yasanın başlığı "[2d August 1858]"; Bella Coola ana karada ⇒ kapsamda. Not: koloni Fort Langley'de **19 Kasım 1858**'de ilan edildi (bcgenesis) — hangisinin "son" sayılacağı koordinatör hükmüdür; ikisi de CSV'de.
+
+## occaneechi
+- NCpedia 'Occaneechi Indians' (R. P. Stephen Davis Jr.) 200 · Encyclopedia Virginia 'Bacon's Rebellion' 200 (ncpedia/occaneechi ve ev/occaneechi-indians 404).
+- Doğuş 1650 (Edward Bland'a anlatılan ilk kayıt). Künye t:1676 ✓ yıl (gün yok).
+- 🟡 FARK: künye `baskent:"Occaneechi (Hillsborough)"` — kaynak Hillsborough/Eno köyünü **1676 SONRASI** göç yeri olarak verir; 1676 öncesi merkez Roanoke adasıdır (Clarksville, Va.). Ayrıca halk 1712'ye dek Eno'da, 1728'e dek kayıtta yaşar ⇒ t:1676 "dağıtıldılar" değil "adayı kaybettiler"dir. Künye kronolojisindeki "1670 aracı konum" maddesi kaynağın "1660s and 1670s" ifadesine dayanıyor — YIL değil.
+
+## ojibwe
+- Kappler 1837 & 1854 (200) · MNopedia 'Treaty of La Pointe, 1854' 200 · CIRNAC Robinson-Superior metni 200 · DCB 'Daumont de Saint-Lusson' (Léopold Lamontagne) 200.
+- Künye t:1850-09-07 ✓ ("seventh day of September … 1850, at Sault Ste. Marie").
+- Doğuş **bulunamadı**: ilk Avrupa temasının yılı okunan kaynakta yok. 1671-06-04 Sault Ste. Marie egemenlik töreni `diger` olarak yazıldı (Ojibwe'nin merkezi; DCB katılan 14 ulusu adıyla saymaz).
+
+## pavni
+- Kappler 1833 & 1857 (200) · OHS 'Pawnee (tribe)' (Douglas R. Parks) 200.
+- Künye t:1857-09-24 ✓ (Table Creek). Künye kronolojisindeki "1833-01-01" → kaynakta GÜN var: **1833-10-09** (Grand Pawnee köyü).
+- Doğuş **bulunamadı** (OHS ilk temas yılı vermiyor; 1831 misyoner gelişi var, doğuş sayılmadı).
+
+## payut
+- NPS Manzanar 'Owens Valley Paiute' 200 · American Presidency Project (Kappler c.1 s.888 kaynaklı) 200. Oregon Encyclopedia 403.
+- 🟡 FARK: künye t:**1872-01-01** → kararname günü **1872-09-12** (Malheur Rezervasyonu, "Snake or Piute Indians").
+- 1863 Fort Tejon sürgünü ✓ yıl (künyeyle aynı). Doğuş **bulunamadı**.
+
+## ponka
+- Kappler 1817 & 1858 (200) · OHS 'Ponca' (Mark van de Logt) 200.
+- 🟡 FARK: künye t:**1858-01-01** → antlaşma günü **1858-03-12** (Washington).
+- Doğuş **bulunamadı**: OHS "In the 1700s … separated from the Omaha" — YIL değil. 1877 sürgünü ✓ yıl. Künyedeki 1879-05-12 Standing Bear davası bu turda doğrulanmadı (OHS yalnız "(1879)").
+
+## powhatan
+- Encyclopedia Virginia 'Tsenacomoco (Powhatan Paramount Chiefdom)' 200 (yazar adı sayfadan çıkarılamadı).
+- Künye t:1646-10-01 ✓ — kaynak "In October 1646 … Necotowance concluded a peace treaty" ⇒ AY düzeyinde DOĞRULANDI (künyenin "doğrulayamadım" itirafı kapanabilir; gün yine yok). Ayrıca "With Opechancanough's death in 1646 came the end of Tsenacomoco".
+- Doğuş **bulunamadı**: "mid- to late 1500s" — yıl değil; künye f:1501 `yuzyil` kaynakla uyumlu ama madde yazılmaz.
+- Künyedeki "1607-01-01 Jamestown" → kaynakta gün: 1607-04-26 körfeze giriş. 1614-04-05 Pocahontas evliliği: kaynak yalnız "April 1614" diyor.
+
+## pueblo-bagimsizligi
+- LOC In Custodia Legis (Margaret Wood) WebFetch ok · NPS/BLM Land of Contrast böl.2 + A Forgotten Kingdom böl.2 (web.archive 200).
+- Künye f:1680-08-10 ✓.
+- 🟡 FARK: künye t:**1692-08-01** dayanaksız → Vargas El Paso'dan **21 Ağustos**'ta çıktı, Santa Fe'ye **12 Eylül**'de vardı, başkenti **14 Eylül 1692**'de geri aldı. Künye kronolojisindeki "1692-09-12 resmen ilan etti" — kaynak 12 Eylül'ü VARIŞ, 14 Eylül'ü GERİ ALIŞ diye verir.
+- Yazılmayan: Santa Fe'nin terki — LOC "held out until September 21, 1680" diyor, başka bir kaynak (arama özeti, okunmadı) 21 Ağustos; çelişki çözülemedi ⇒ madde yazılmadı.
+
+## sahaptin
+- Kappler Yakima 1855, Wallawalla-Cayuse-Umatilla 1855, Middle Oregon 1855 (üçü 200) · NPS NEPE prologue.
+- 🟡 FARK: künye t:**1855-01-01** → Wayám = "Wyam or Lower De Chutes band of Walla-Wallas" Orta Oregon Antlaşması'nın imzacısı ⇒ **1855-06-25** (Wasco, The Dalles yakını). Kuzey yakası (Wish-ham) 1855-06-09 Yakama antlaşmasında.
+- Doğuş **bulunamadı** (Lewis-Clark'ın Celilo geçişini veren kurumsal sayfa okunamadı; NPS site sayfalarında "Celilo" geçmiyor). Künyedeki 1847-11-29 Whitman: NPS yalnız yıl veriyor.
+
+## sauk
+- Kappler 1804 & 1832 (200) · OHS 'Sac and Fox' (Timothy James McCollum) 200.
+- Künye t:1832-09-21 ✓ ("Done at Fort Armstrong, Rock Island … twenty-first day of September … 1832").
+- Doğuş **bulunamadı**. 1764 Illinois'e yerleşme (OHS "Illinois (1764 to 1830)") ve 1804-11-03 ABD koruması (tabiiyet) eklendi. Künyedeki 1832-08-02 Bad Axe bu turda doğrulanmadı.
+
+## Özet sayılar
+- 14 künye · 51 madde (gun 29 · ay 6 · yil 16; hicri-yil 0).
+- Doğuş bulunamadı: 8 (natchez, ojibwe, pavni, payut, ponka, powhatan, sahaptin, sauk) · yıkılış bulunamadı: 1 (nuu-cah-nulth — künye t'si yanlış olay).
+- Künye f/t ↔ kaynak farkı: 7 (nez-perce gün, nuu-cah-nulth olay, occaneechi başkent/son, payut gün, ponka gün, pueblo-bagimsizligi gün, sahaptin gün). Ayrıca künye İÇİ kronoloji gün düzeltmeleri: pavni 1833, powhatan 1607, nuxalk 1793 (bilgi).
+- Kaynak çelişkisi (iki taraf yazılı): natchez 1730↔1731 · navaho 1626↔1629 · pueblo Santa Fe terki (madde yazılmadı).
+
+
+---
+### H2
+
+H2 — TUR 2 · Kuzey Amerika yerlileri + Mezoamerika + Ranquel (13 künye, 29 madde)
+
+Çıktı: `H2.csv` (üretici `h2_yaz.py`; ham indirmeler `h2c/`). TDV kapsamı dışı (13'ü de İslâm dünyası değil) → TDV aranmadı.
+Britannica / Canadian Encyclopedia KULLANILMADI (403). Vikipedi ve arama özeti hiçbir satırda dayanak değil; her kaynak sayfası/PDF'i indirilip ilgili cümle okundu.
+Kaynak aileleri: Kappler/OSU Tribal Treaties Database (antlaşma metni, birincil) · GPO 1912 *Executive Orders Relating to Indian Reservations* (birincil, archive.org sayfa görüntüsü) · NPS · ABD Dışişleri Office of the Historian · Arizona State Parks · ITCA · Dictionary of Canadian Biography (Toronto/Laval) · UVic Colonial Despatches + 1858 BK Kanunu metni · Univ. of Alaska Anthropological Papers · INAH (lugares, Boletín, Cuicuilco) · INPI · Arqueología Mexicana (Joyce & Levine) · Wiley Encyclopedia of Empire (Joyce 2016) · UNAM Noticonquista · História Unisinos / Quinto Sol (hakemli).
+
+## savni — 3 madde
+- Kaynak: treaties.okstate.edu (HTTP 200) — 1786 Fort Finney, 1795 Greenville, 1831 Wapaghkonnetta antlaşma metinleri.
+- **Künye t `1795-08-03` = Greenville imza günü — KAYNAKLA ÖRTÜŞÜYOR** (metin: "third day of August, 1795"; ilân 2 Aralık 1795).
+- Doğuş **bulunamadı**: f 1281-01-01 atlas ufku; ilk Avrupa teması/belgeli kayıt için okunabilir kaynak bulunmadı.
+- Not: 1795 madde metni kaynağın sınır maddesine (III) dayanır; "Ohio'nun büyük kısmı" ifadesi kaynakta okunmadığından YAZILMADI. 1831 maddesi künye penceresi dışında (harita HAYIR); OSU sayfasının "original signatories" listesinde Shawnee/Wyandot görünmüyor ama metin ve imza listesi Şavni imzacılarını ("Shawanees: … Red Pole … Black Hoof") içeriyor — veri tabanı etiket kusuru.
+
+## secwepemc — 1 madde
+- Kaynak: 21 & 22 Vict. c.99 metni (primarydocuments.ca, 200) "[2d August 1858.]" + UVic Colonial Despatches V587207 (Lytton→Douglas, 14 Ağu 1858: kanun "had received Her Majesty's assent").
+- **Künye t `1858-08-02` KANUNUN BAŞLIK TARİHİYLE ÖRTÜŞÜYOR.** ⚠️ Kraliyet onayının günü ayrıca okunmadı (yalnız "14 Ağustos'tan önce"); kolonide ilânı Douglas'ın 19 Kasım 1858 Fort Langley bildirisidir (arama özetinde görüldü, sayfa açılamadı ⇒ yazılmadı).
+- ⚠️ Kanun Secwépemc'i ADIYLA anmaz; Fraser-Thompson havzasının sınırlar içinde kaldığı kanunun coğrafî tarifinden çıkarımdır.
+- Doğuş **bulunamadı**. "Fraser altına hücumu" için okunmuş kaynak yok.
+
+## tlingit — 3 madde
+- NPS Sitka NHP "The Battle of 1804" (200; dayanak Dauenhauer et al. 2008, Black 2004) · history.state.gov Alaska Purchase (200).
+- **Künye t `1867-10-18` KAYNAKLA ÖRTÜŞÜYOR** (state.gov "formally transferred … October 18, 1867"); kaynak Tlingit'i anmaz, idarî devir.
+- **Künye kronolojisiyle fark:** künye `1802-06-01` diyor, NPS yalnız YIL (1802) veriyor → CSV `1802-01-01 yil`; künye `1804-10-01` NPS ile örtüşüyor (çıkarma günü). Novoarkhangelsk'in kuruluş günü kaynakta yok ("over the next few days") → 1804-10-01 maddesine metin olarak eklendi.
+- Doğuş **bulunamadı**.
+
+## ute — 5 madde
+- Kappler/OSU: 1863 Tabeguache (Conejos), 1868 Ute, 1873 Brunot, 1880 Ute anlaşma+kanun (hepsi 200).
+- **FARK:** künye t `1880-01-01` (yıl, "gün doğrulanmadı") → kaynak: anlaşma imzası **1880-03-06**, kanun onayı **1880-06-15** (21 Stat. 199). Öneri: t = 1880-06-15.
+- **FARK (künye kronolojisi):** künyedeki Conejos maddesi `1863-10-01` (ay) → antlaşma metni **7 Ekim 1863** gününü veriyor.
+- Doğuş **bulunamadı**.
+
+## vendat — 5 madde
+- Dictionary of Canadian Biography: Champlain, Daniel, Brébeuf, Ragueneau (hepsi 200).
+- **Künye t `1649-03-16` KAYNAKLA ÖRTÜŞÜYOR** (Brébeuf: "On 16 March … 1649 more than 1,000 Iroquois attacked Saint-Ignace").
+- **FARK (künye kronolojisi):** künye Champlain'i `1615-08-01` (ay gibi) yazmış; DCB 1 Ağustos 1615'i GÜN olarak veriyor (Otouacha). Künyedeki `1642-01-01` abluka maddesinin kaynağı ("Beaver Wars", çevrimiçi ikincil) bu turda doğrulanmadı.
+- 1650 maddesi: DCB "A year later" (14 Haziran 1649'dan) + 1650 Relation'ı → yıl düzeyi.
+- Doğuş **bulunamadı**.
+
+## yavapai — 5 madde
+- GPO 1912 *Executive Orders Relating to Indian Reservations* (archive.org cu31924097621753; djvu OCR + sayfa görüntüleri n15/n16/n19 OKUNDU): Colyer ilânı **3 Ekim 1871**, Grant onayı **9 Kasım 1871**, ilga **23 Nisan 1875** (OCR "28" yanlış, görüntü "23"). Arizona State Parks (200): Prescott 1864, rezervasyon "1873", Şubat sonu 1875 sürgünü. ITCA (200): rezervasyon 1871, 1875'te ilga.
+- 🔴 **ÇELİŞKİ + FARK:** künye t `1873-01-01` (Rio Verde kuruluşu). GPO birincil metni ve ITCA **1871** diyor; yalnız Arizona State Parks 1873 diyor. Birincil belge esas → öneri: tasarrufun bitişi **1871-10-03** (ya da Grant onayı 1871-11-09); 1873 muhtemelen fiilî yerleştirmenin başladığı yıl (AZSP: "Between 1873 and 1875 … placed").
+- ⚠️ GPO metni halkı "Apache Mohave" diye anar (dönemin ABD adlandırması); Yavapai+Tonto Apaçi eşleşmesi ITCA'dan.
+- Doğuş **bulunamadı**.
+
+## yupik — 2 madde
+- Sarafian & VanStone 1972 (UAF PDF, 200): Aleksandrovski Redut "Constructed in 1818" — künyedeki 1818 ile ÖRTÜŞÜYOR. state.gov: 1867-10-18 devir — künye t ile ÖRTÜŞÜYOR (Yupik adıyla anılmıyor).
+- Doğuş **bulunamadı**. Künyedeki 1885 Bethel maddesinin kaynağı bu turda doğrulanmadı.
+
+## nahua-sehir-devletleri — 1 madde
+- INPI kitapçığı (gob.mx PDF, 200): "la caída definitiva de Tenochtitlan que se culminó un 13 de agosto de 1521" · INAH Boletín 391 (200): Tlatelolco 1521'de 93 günlük kuşatmadan sonra düştü.
+- **Künye t `1521-08-13` ÖRTÜŞÜYOR.** ⚠️ INPI metni halka yönelik (çocuk/genel okur) bir kurumsal kitapçık; gün için daha akademik bir kaynak bulunmadı (INAH yalnız yıl veriyor).
+- Doğuş **bulunamadı** (toplu künye; tek kuruluş günü olamaz). Künyedeki 1428 maddesinin kaynağı **History.com = KIRMIZI ÇİZGİ** (popüler tarih sitesi) — düşürülmeli; bu turda yerine kaynak bulunamadı.
+
+## purepecha-imparatorlugu — 2 madde
+- INAH lugares, Zona Arqueológica de Tzintzuntzan (es/en, 200): Tzitzispandácuare (1454-1479); Tzintzicha Tangánxoan II (1510-1530) Olid ile teslimi pazarlık etti, Nuño de Guzmán'ın elinde öldü. Martínez Baracs (UNAM Noticonquista, 200) Tariácuri'yi tarihsiz anlatıyor.
+- **FARK:** künye f `1300-01-01` — hiçbir okunan kaynak 1300'ü vermiyor; Tariácuri birleşmesi tarihsiz ⇒ doğuş **bulunamadı**. Künye t `1530-02-14` GÜNÜ bulunamadı (INAH yalnız yıl; künyenin kendi notu da aynı).
+- Olid'in Michoacán'a gelişi (1522) için okunabilir akademik kaynak bulunamadı (SEP ders metni ve Vikipedi dışı yok) ⇒ yazılmadı.
+
+## tututepec-krallik — 1 madde
+- Joyce & Levine 2008 (Arqueología Mexicana dosyası, colorado.edu PDF, 200): "A principios de marzo [1522], Tututepec fue conquistada y su gobernante fue apresado" → `1522-03-01 ay`. Joyce 2016 (Wiley Encyclopedia of Empire): Geç Postklasik "1100-1522 CE"; kuruluş "about 1100 CE" (YAKLAŞIK ⇒ yazılmadı).
+- **Künye t `1522-01-01` (yıl) → kaynak AY veriyor: Mart 1522.** Öneri: t = 1522-03-01 (kesinlik ay). Hükümdarın 22 Mart 1522 ölüm günü yalnız Vikipedi/popüler sitede ⇒ yazılmadı.
+- Doğuş **bulunamadı** (11. yy sonu, 8 Geyik — yaklaşık).
+
+## zapotek-krallik — 1 madde
+- Cuicuilco 88 (2023, INAH, Ramón Celis et al., Oudijk'e dayanarak; PDF 200): "Una segunda ola migratoria sucedió en 1450, cuando la hegemonía de Zaachila en los Valles Centrales desapareció" → Tehuantepec başkent. "alrededor del año 1350" (Cocijoeza seferleri) YAKLAŞIK ⇒ yazılmadı.
+- 🔴 **ÇELİŞKİ:** künye kronolojisindeki Cambridge/Ancient Mesoamerica maddesi aynı taşınmayı "in the 1440s" diye veriyor (künyede `1440-01-01`); Cuicuilco **1450**. İki taraf da Guiengola araştırma grubundan (Ramón Celis). Hüküm koordinatörde.
+- Yıkılış **bulunamadı**: Cosijopí'nin Cortés'e boyun eğişi Martín Gabaldón'da (UNAM) TARİHSİZ; künye t `1523-01-01` ve künye kronolojisindeki `1521-01-01` (Encyclopedia.com) için yıl veren akademik kaynak okunamadı. Doğuş **bulunamadı**.
+
+## toltek — 0 madde
+- Talimat gereği: f/t (900/1150) INAH'ın Tollan **evre** sınırlarıdır, olay değil; "yaklaşık" arkeolojik faz ⇒ doğuş/yıkılış **bulunamadı**. Ek kaynak aranmadı (Britannica 403).
+
+## ranquel — 1 madde
+- Tamagnini 2017 (História Unisinos 21/3, redalyc PDF 200): Ranqueller "hasta 1879" Mamil Mapú'da; beş kacikazgo "hasta el fin de la frontera con los indígenas en 1879". Tamagnini 2019 (Quinto Sol 23/3, PDF 200): "derrota militar … Campaña al desierto … Roca en 1878-1879".
+- **FARK:** künye t `1883-01-01` (Cooper/HSAI, seferlerin bitişi 1879-83) ↔ okunan iki hakemli kaynak **1879**. Künyenin kendi kronoloji notu da 1879 diyor. Öneri: t = 1879-01-01 (yıl).
+- 1872 barış antlaşması (künyede `1872-01-01`): Ratto 2011 (Memoria Americana) PDF'i indirilemedi (dialnet zaman aşımı) — gün **bulunamadı**. Not: künyedeki kaynak satırı makaleyi "Quinto Sol" diye anıyor; arama sonucu makalenin **Memoria Americana 19(1), 2011** (Silvia Ratto) olduğunu gösteriyor — atıf düzeltilmeli (sayfa okunmadı).
+- Doğuş **bulunamadı**.
+
+## Özet sayılar
+- 13 künye · 29 madde (gün 21 · ay 2 · yıl 6).
+- Doğuş bulunamadı: 13/13 (hepsinde f atlas ufku ya da yaklaşık/faz). Yıkılış bulunamadı: 2 (zapotek-krallik, toltek).
+- Künye t ↔ kaynak farkı (ADIYLA): ute (1880-01-01→06-15) · yavapai (1873→1871) · tututepec (1522 yıl→Mart 1522) · ranquel (1883→1879) · purepecha (f 1300 dayanaksız; t günü 02-14 doğrulanmadı) = **5 künye**. Örtüşen: savni, secwepemc, tlingit, vendat, yupik, nahua.
+- Künye-içi kronoloji kusurları (bilgi): ute Conejos ay→gün (07) · vendat Champlain ay→gün · tlingit 1802 gün dayanaksız · nahua 1428 History.com (kırmızı çizgi) · zapotek 1440s↔1450 çelişkisi · ranquel Ratto atfı yanlış dergi.
+
+
+---
+### H3
+
+H3 — Güney ve Doğu Afrika (TUR 2) · 13 künye · 44 madde
+
+Ölçüm: 11 Ekim 2026, bu makine. Hiçbir C:/atlas dosyasına yazılmadı. Britannica (403) kullanılmadı.
+Arama özeti kaynak gösterilmedi; her satırdaki kaynağın sayfası/metni AÇILIP okundu (WebFetch, curl+pypdf
+ya da sayfa görüntüsü). Hicrî tarih yok (hiçbir kaynak hicrî yıl vermedi).
+
+## nama-orlam (4 madde)
+- Kaynak: SAHO, Herero-Nama savaşı kronolojisi (200) · T. E. Sole, Military History Journal 1/3, 1968 (200).
+- 🔴 **Künye farkı:** `t:1904-10-03` künyede "Vitbooi'nin ölümü" diye anılıyor; o gün Witbooi'nin **savaş ilânıdır**.
+  Witbooi **29 Ekim 1905**'te Vaalgras'ta ölümcül yaralandı. Egemenlik kaybı adayı: **8 Mayıs 1907** fermanı (Berseba ve
+  Bondelswarts hariç Nama toprakları Alman toprağı) — yıkılış maddesi o güne yazıldı. Savaşın resmî sonu 31 Mart 1907.
+- Doğuş **bulunamadı** (künye `f:1281` pencere başı; Orlam göçü için yıl veren okunabilir kaynak yok).
+- Not: Sole Witbooi'nin antlaşmasını "15th September 1884" diye verir; bu tarih kullanılmadı (ikinci kaynakla doğrulanmadı,
+  yaygın tarih 1894'tür — ölçülemedi).
+
+## oranj (4 madde)
+- Kaynak: Bloemfontein Konvansiyonu metni (Wikisource; MacFadyen 1898 resmî derlemesi) — imza 23 Şubat 1854 ·
+  Vereeniging metni (Wikisource; 3 Haziran 1902 Transvaal idaresi bildirisi) — Pretoria, 31 Mayıs 1902 · Archontology
+  (Volksraad Notulen ve Orange River Colony Proclamations'a atıfla).
+- 🔴 **ÇELİŞKİ — anayasa günü:** künye ve SAHO **7 Nisan 1854**; Archontology (Volksraad Notulen 1854-55 s. 47, 194-201'e
+  dayanarak) **10 Nisan 1854**. Satır 10 Nisan ile yazıldı, ÇELİŞKİ metinde beyanlı; hükmü koordinatör verir.
+- Fark: fiilî/hukukî ilhak **28 Mayıs 1900** (bildiri 24 Mayıs, yayımla yürürlük) — künye `t:1902-05-31` (Vereeniging)
+  ile 2 yıl fark; ikisi de satır olarak var.
+
+## pedi (4 madde)
+- Kaynak: SAHO 'King Sekhukhune' biyografisi (200) + SAHO dated-event (200).
+- `t:1879-12-02` (Sekhukhune'nin esir alınışı) kaynakla **BİREBİR**. Merkez 28 Kasım 1879'da düştü.
+- Doğuş **bulunamadı**: künye `f:1650` için yıl veren kaynak okunamadı (Maroteng/Thulare için yalnız yaklaşık ifade).
+- Tahta çıkış günü (21 Eylül 1861) kaynakta Mampuru'nun iddiası bağlamında geçiyor; Sekwati'nin ölüm günü olarak yazıldı.
+
+## rozvi (1 madde)
+- Kaynak: Mudenge, JAH 15 (1974) dipnot 3: "Dombo's wars" **1684-95** → 1684 yıl maddesi. Parsons (Botsvana
+  Üniv.) Butua'nın Rozvi'ye geçişini "about 1685" verir (yaklaşık → kullanılmadı). TDV zimbabve (İbrahim Güner/Rıza
+  Kurtuluş): Rozvi yükselişi "XVII. yüzyılın sonları", Ngoni göçü "1830'lar" — yıl değil.
+- Yıkılış **bulunamadı**: Ndebele fethi Parsons'ta "1838-40" aralığı. 🔴 **Künye farkı (sorulmalı):** Beach, JAH 15/4
+  (1974) özeti Changamire Rozvi hânedanının 1873'e kadar Ndebele'ye karşı bir tehdit olarak sürdüğünü söyler — künye
+  `t:1834` bir "son" değil olabilir. Mudenge tezi (SOAS 1972, 121 MB PDF) indirilmedi.
+
+## svazi (3 madde)
+- Kaynak: F. J. Mashasha, "The Swazi and land partition (1902-1910)", SAS-Space PDF (okundu, pypdf).
+- 🔴 **Künye farkı:** `t:1903-01-01` → kaynakta **25 Haziran 1903** Order in Council. Uygulama bildirisi 1 Ekim 1904.
+- SAHO 'eSwatini' sayfası okundu ama KULLANILMADI: "1877'de İngilizler krallığı ilhak etti" ve "1894'te Transvaal
+  Kolonisi'nin himayesi" gibi açık hatalar taşıyor.
+- Doğuş **bulunamadı** (`f:1815` Sobhuza I için yıl veren okunabilir kaynak yok).
+
+## transvaal (8 madde)
+- Kaynak: Sand River ve Londra Konvansiyonu metinleri (Reitz, A Century of Wrong 1900, Ek E — angloboerwar.com aktarımı;
+  site hobi sitesidir, ama metin antlaşmanın kendisidir ve SAHO dated-event 17 Ocak 1852'yi bağımsız doğruluyor) ·
+  Vereeniging metni (Wikisource) · Archontology (Transvaal Government Gazette atıflı).
+- 🔴 **Künye farkı:** `f:1852-01-01` (yıl beyanı) → antlaşma metninde gün VAR: **17 Ocak 1852** ("done and signed at Sand
+  River ... this 17th day of January, 1852"; toplantı tutanağı 16 Ocak). Künyedeki "gün kaynakta yok" notu düzeltilebilir.
+- **Kesinti dönemi:** 12 Nisan 1877 İngiliz ilhakı → 16 Aralık 1880 Paardenkraal'da yeniden ilân → 3 Ağustos 1881 Pretoria
+  (metbuluk) → 27 Şubat 1884 Londra. Künye bunu tek pencere sayıyor; haritada 1877-1880 arası İngiliz olmalı mı sorusu
+  koordinatörün.
+- İlhak bildirisi **1 Eylül 1900**; Vereeniging `t:1902-05-31` BİREBİR.
+
+## tsvana (2 madde)
+- Kaynak: Neil Parsons, Botswana History Pages 1 (thuto.org, Botsvana Üniv.) — 1885 ve 1890 yalnız YIL.
+- 🔴 **Künye farkı (hassasiyet):** `t:1885-03-31` gün düzeyinde; okunan kaynak yalnız yıl verir. Aramada 27 Ocak 1885
+  (Order in Council), Mart 1885 (Warren ilânı), 30 Eylül 1885 (resmî himaye) adayları çıktı ama hiçbirinin sayfası
+  akademik kaynakta okunamadı → yazılmadı.
+- Doğuş **bulunamadı**: Parsons "Ngwaketse ... by 1700" der (yıl değil, "-e kadar"); künye `f:1700` bunun yuvarlanmışı olabilir.
+
+## venda (2 madde)
+- Kaynak: Nemudzivhadi, Unisa M.A. tezi 1977 — depo özeti (200). Luatame 16 Kasım 1898 yakıldı, Mphephu 21 Aralık 1898
+  Rodezya'ya geçti.
+- 🔴 **Künye farkı:** `t:1898-01-01` → **21 Aralık 1898**. (Aramada çıkan "31 Aralık 1898 teslim" müzayede sitesindendir, kullanılmadı.)
+- Doğuş **bulunamadı** (tez özeti yalnız "XIII. yüzyıl sonu" yerleşimi der).
+
+## xhosa (5 madde)
+- Kaynak: Philip Gon, "The Last Frontier War", Military History Journal 5/6 (1982).
+- 🔴 **Künye farkı:** `t:1878-01-01` → savaş 1878'de sürüyordu (Centane 7 Şubat 1878); Gcalekaland **Ağustos 1878**'de
+  yatıştırıldı (ay). Transkei'nin Kap'a ilhak günü kaynakta YOK (aramada çıkan 1885 doğrulanmadı).
+- Doğuş **bulunamadı** (`f:1281` pencere başı). Sandile'nin ölüm günü kaynakta yok.
+
+## ngoni (3 madde) — yalnız Mpeseni kolu
+- Kaynak: T. W. Baxter, "The Angoni Rebellion and Mpeseni", Northern Rhodesia Journal I/2 (1950) — nrzam.org.uk sayfa
+  görüntüleri (s. 14, 16, 19-21, 23) OKUNDU. TDV zambiya (Meral Avcı/Ahmet Kavas): Ngoni "1850-1870 arasında" doğuya yerleşti (aralık, yıl değil).
+- 🔴 **Künye farkı:** `t:1898-01-01` → Mpeseni **9 Şubat 1898**'de teslim oldu (Singu 5 Şubat'ta kurşuna dizildi; merkez 24
+  Ocak'ta yakıldı). Bu yalnız Mpeseni krallığıdır; künye "Ngoni Devletleri" çoğul — Maseko/Mbelwa kolları için gün yok.
+- Doğuş **bulunamadı**: Zambezi geçişi (19/20 Kasım 1835, güneş tutulması) için birincil makale Lane Poole, JRAS 29/115
+  (1930); JSTOR açılamadı, yalnız bir blog aktarımı var (kırmızı çizgi) → yazılmadı.
+
+## yao (3 madde) — TDV birincil
+- Kaynak: TDV `malavi` (Ahmet Kavas, 200) · TDV `mozambik` 2. bölüm (Ahmet Kavas, 200). TDV `yao` → 302 (ölü slug).
+- 🔴 **Künye farkı:** `t:1899-01-01` → TDV: Yao reislerinin (V. Mataka Cisonga) sömürgeciliğe karşı mücadelesi **1912**'ye
+  kadar sürdü ve "ülke tamamen sömürgeleşti". Nyasaland nüfuz bölgesi ilânı 1891.
+- Doğuş **bulunamadı** (`f:1800` için TDV yıl vermez). 1870 Makanjila maddesi künyenin kendi kronolojisinde de var.
+- Not: TDV'deki 1840 "jumbe" (Sâlim b. Abdullah, Nkhotakota) ve 1895 Mwingi Kheiri sürgünü Yao değil, Zengibarlı jumbe
+  idaresine ait → yao polity'sine yazılmadı.
+
+## yeke (2 madde)
+- Kaynak: Biographie Coloniale Belge II (ARSOM, kaowarsom.be) — Msiri, Moloney, Stairs maddeleri (PDF, okundu; Fransızca).
+- `t:1891-12-20` → Moloney maddesi "le 20 décembre" BİREBİR; Stairs maddesi "19 Aralık bayrak olayı, ertesi gün" ile tutarlı.
+  ⚠️ Kaynak kendiyle çelişir: Msiri maddesinin başlığı ölümü "Bunkeya, 19.12.1892" verir (yıl açıkça hatalı — Stairs 9
+  Haziran 1892'de ölmüştü). Gövde esas alındı.
+- 18 Nisan 1891 Le Marinel antlaşması (himaye) eklendi. Doğuş **bulunamadı** (Msiri "vers 1835" doğumlu; kuruluş yılı yok).
+
+## toro (3 madde)
+- Kaynak: TDV `uganda` 2. bölüm (Ahmet Kavas, 200) · Mugambwa, J. Legal Pluralism 1987 özeti (Murdoch Üniv. deposu).
+- 🔴 **Künye farkı:** `f:1830-01-01` → TDV: Kaboyo Toro'yu **1822**'de kurdu. `t:1900-06-26` → okunan kaynak yalnız YIL
+  (1900 Toro Antlaşması); gün doğrulanamadı.
+- 1891 Lugard/Kasagama restorasyonu için okunabilir kaynak **bulunamadı** — 1876-1900 arası Toro'nun sahibi açık soru.
+
+## Özet sayılar
+- 13 künye · 44 madde (gün 32 · ay 3 · yıl 9 · hicri-yıl 0).
+- Doğuşu bulunamayan: 9 (nama-orlam, pedi, svazi, tsvana, venda, xhosa, ngoni, yao, yeke) · yıkılışı bulunamayan: 1 (rozvi)
+  ⇒ en az birinden yoksun 10 künye.
+- Künye-kaynak farkı: 11 (nama-orlam, oranj, rozvi, svazi, transvaal, tsvana, venda, xhosa, ngoni, yao, toro);
+  BİREBİR tutan uçlar: pedi `t`, transvaal `t`, oranj `t`, yeke `t`, rozvi `f`.
+
+
+---
+### H4
+
+H4 — KAMP-EKSIK-KRONOLOJI TUR 2 (Batı/Orta/Kuzey Afrika + Madagaskar)
+
+14 künye · 45 madde (13 künyede; zerma 0) · ölçüm 11 Ekim 2026, bu makine.
+TDV metni `tdv.py` ile çekildi (HTTP kodu yanında). OpenEdition/Cambridge/Persée sayfaları WebFetch ile AÇILIP OKUNDU;
+yalnız arama özetinde görülen hiçbir şey kaynak yazılmadı.
+⚠️ Persée: makale sayfası WebFetch'le yalnız İLK SAYFAYI veriyor; PDF `altcha` bot korumasıyla 403 (aşılmadı — CAPTCHA kuralı).
+Bu yüzden Persée'den yalnız ilk sayfası okunabilen makaleler kullanıldı (Zimmermann 1916, Randles 1969).
+
+TDV slug durumu: 200 → tevarik · nijer · mali · gane · tinbuktu · madagaskar · gine-bissau · samori-ture · futa-calon ·
+nijerya · fizan · cezayir · portekiz · sierra-leone · gine · afrika · orta-afrika-cumhuriyeti · kongo-demokratik-cumhuriyeti · cad.
+302 (ölü) → tuaregler · tibesti · tubu · tebu · sosso · susu · angola · hoggar · ahaggar · gat · canet · zande · azande · zerma ·
+cerma · samori · kidal · menaka · luanda · bie · benguela · agades · kavar · bilma · dosso · zinder · menabe · majunga ·
+mahajanga · boina · sakalava · kankan · falaba · bangassu. (`say` 200 ama "sa'y" fıkıh maddesi — yanlış madde, TDV tuzağı ②.)
+
+## ovimbundu
+- Kaynak: Neto, Ler História 59 (2010), openedition lerhistoria/1391 (okundu): 1902 Bailundo isyanı. TDV `angola`/`bie` 302.
+- Künye t `1902-01-01` ↔ kaynak 1902 (yıl) — UYUŞUYOR. f `1700-01-01` — **doğuş bulunamadı** (kaynakta yıl yok).
+- Künyedeki 1890 Bié işgali (DÜŞÜK GÜVEN) bu turda akademik kaynakta BULUNAMADI.
+
+## portekiz-angola
+- Randles, Annales ESC 1969 s.289 (Persée, ilk sayfa okundu): 1575 Paulo Dias de Novais'e fetih bağışı (Luanda'nın kuruluşu o sayfada yok).
+- Mabeko-Tali, Socialismes en Afrique (MSH 2021, okundu): 11 Kasım 1975 MPLA bağımsızlık ilânı.
+- Künye f 1575 / t 1975-11-11 — UYUŞUYOR. ⚠️ ÇELİŞKİ: TDV `afrika` bağımsız devletler tablosu Angola için "11.09.1975" yazıyor
+  (gövde metni yalnız "1975"); akademik kaynak 11 Kasım ⇒ tablo büyük olasılıkla dizgi hatası; künye korunmalı.
+
+## portekiz-gine
+- TDV `gine-bissau` (200): 1879 · 1886 · 20 Ocak 1973 · 24 Eylül 1973 · 10 Eylül 1974. Künye f/t UYUŞUYOR.
+- ⚠️ TDV `afrika` gövdesi Gine Bissau'nun bağımsızlığını Angola ile "aynı tarihte" (1975) gösteriyor; daha dar kapsamlı madde
+  (`gine-bissau`, 1974) esas alındı.
+
+## solima-yalunka
+- TDV `futa-calon` (200): Solima'nın hükümran olduğu Calonke (Dialonke) krallığı; Kral Jan Iero 1727'de başa geçti.
+  🔴 KİMLİK ŞÜPHELİ: TDV'deki "Solima" bir kişi adı gibi geçiyor; Falaba merkezli Solimana (Solima Yalunka) ile aynı yapı olduğu
+  DOĞRULANMADI — madde HAYIR/diger, koordinatör kararı.
+- TDV `sierra-leone` (200): 1884 Samori Sierra Leone'nin büyük kısmını zaptetti — Falaba'yı ADIYLA ANMIYOR (bölgeden şehre taşıma riski beyan).
+- TDV `samori-ture` (200) Falaba/Solima geçmiyor. Persée'de Person'un makaleleri (Samori et la Sierra Leone 1967) yalnız künye; okunamadı.
+- **Doğuş bulunamadı** (künye f 1720 kaynaksız). Künye t 1884 ↔ TDV 1884 — uyuşuyor (dolaylı).
+
+## susu-kralligi
+- TDV `gane` (200): 1076 bağımsızlık; "XIII. yüzyıl başlarında Gāne başşehrini ele geçirdi" (yıl yok → madde yazılmadı).
+- TDV `mali` (200): 1235 Kirina; 1240 Gāne topraklarının tamamı Mali'ye geçti. Künye f/t UYUŞUYOR.
+
+## tiv
+- Fardon, Africa 85/4 (2015) (Cambridge core-reader, okundu): Ocak 1900 Birinci Munshi Seferi; 1904 "unsettled district";
+  1905 Katsina Ala; 1906 Abinsi + Hasler seferi; 1907-1910 tedrici yayılma.
+- Bergsma, Africa 2015 "Prologue" (okundu): yalnız 1909 Katsina Ala asistan resident — madde yazılmadı.
+- Künye t 1900 ↔ kaynak Ocak 1900 (sefer) — uyuşuyor; ancak fiilî idare 1905-1910'a yayılır (not). **Doğuş bulunamadı** (f 1281 = pencere).
+
+## tuareg-accer
+- TDV `tevarik` (200, Ahmet Kavas): Nahnûhen 1875-1886 Canet müdürü/kaymakamı · 1905 Osmanlı Canet'i toprağı ilân etti ·
+  1906 Temmuz Abdülkadir Câmi müfrezesi · 1909 bayrak · 1910 ortası boşaltma · "3 Mayıs 1911'de Canet Osmanlı nahiyesi olarak kayıtlıydı" ·
+  "1911 yılında Fransızlar'ın burayı işgal etmesi" · "Fransızlar 28 Ekim 1918'de bölgeye yerleştiler".
+- EB 'Ghât' (okundu): 1875 Gât'a Türk garnizonu; Bardaï ve Djanet kazaları; Ağustos–Ekim 1914 İtalyan Gât işgali.
+- Künye t `1911-01-01` ↔ TDV 1911 (yıl) — uyuşuyor. ⚠️ TDV İKİ uç veriyor: 1911 işgal ve 28 Ekim 1918 kalıcı yerleşme
+  (arada 1916 Senûsî/Ajjer isyanı). Hangisinin yıkılış sayılacağı koordinatörde. Charlet'nin 27 Kasım 1911 günü yalnız
+  arama özetinde görüldü (Persée PDF'leri altcha korumalı) — GÜN YAZILMADI. **Doğuş bulunamadı.**
+
+## tuareg-adag
+- EB 'Adrar des Iforas' (Camps & Claudot-Hawad 1985, okundu): 1903 İwellemmeden ve Ifoghas silah bıraktı · 1907 Ifoghas bağımsız ilân ·
+  1905 Cezayir–AOF sınırı · Temmuz 1916 isyancıların teslimi. Ifoghas'ın gelişi için yıl yok ("1655 olaylarından sonra").
+- Boilley, Les Touaregs Kel Adagh (Karthala) Cairn'de 403 — okunamadı (arama özetindeki 1904/1908 kullanılmadı).
+- 🔴 FARK: künye t `1899-01-01` ↔ kaynak 1903. **Doğuş bulunamadı.**
+
+## tuareg-ahaggar
+- JdA 77-1 (2007), M. Gast (okundu): Tit 7 Mayıs 1902 · Musa ag Amestane Ocak 1904 In Salah'ta kabul; Dinaux'nun amenûkal
+  burnusu tevcihi YILSIZ (madde yazılmadı).
+- EB 'Ahitarel' (Gast 1986, okundu): amenûkal 1877-1900 · 1878 barış · Flatters 16 Şubat 1881 · Ekim 1900 ölüm.
+- TDV `tevarik`: "XVIII. yüzyılın ortalarında Haggarlar müstakil bir yönetim kurdular" — yıl değil ⇒ **doğuş bulunamadı**.
+- Künye t `1902-05-07` ↔ kaynak 7 Mayıs 1902 — UYUŞUYOR.
+
+## tuareg-ivellemmedan
+- EB 'Iwellemmeden Kel Ataram' (Claudot-Hawad 2003, okundu): 1647 Tinbüktü'ye saldırı (ilk tarihli kayıt) · "vers 1653" (yazılmadı) ·
+  1800 başkaldırı · 1894 Tinbüktü Fransız işgali · 1896 Hourst–Madidou · 1898 nehir işgali başladı · 1902 Gao görüşmeleri ·
+  23 Ocak 1903 Firhun teslimiyeti · 1908 doğrudan idare · Kasım 1914 Firhun tutuklandı · 9 Mayıs 1916 Anderamboukan · 1 Eylül 1916 Akorakor.
+- Kel Ataram–Kel Denneg ayrılığı "XVIII. yy ya da XIX. yy başı" — yıl değil.
+- 🔴 FARK: künye t `1899-01-01` ↔ kaynak 23 Ocak 1903 (teslimiyet). Künyedeki 1893 Shurkin maddesi bu turda doğrulanmadı.
+- Doğuş: 1647 ilk yazılı kayıt (Fark 3 kapsamında), kuruluş değil.
+
+## tubu-tibesti
+- Zimmermann, Annales de Géographie 1916 s.235 (Persée, okundu): Aralık 1913 Zouar (gün OCR'de düşmüş → ay) · 11 Haziran 1914 su bölümü ·
+  23 Haziran 1914 "principale localité" (adı verilmiyor; Bardaî denmedi) · 1 Eylül 1914 fethin sonu · Zouar ve Bardaî karakolları.
+- TDV `tevarik`: merkezi Barday olan Tîbû Reşâde kazası "1900'lü yılların başında" — yıl değil. TDV `cad`: 1913 Senûsîler Borku-Ennedi'den çıkarıldı (Tibesti değil).
+- 🔴 FARK: künye t `1914-01-01` ↔ kaynak 1 Eylül 1914 (gün mevcut). **Doğuş bulunamadı.**
+- Lanne 1993 (Persée outre) yalnız arama özetinde görüldü — kullanılmadı.
+
+## zende
+- Durosay, 'L'énigme de Zémio' (PU Lyon 1994, okundu): Zémio 1872-1912, Rafaï 1875-1900, Bangassou 1878-1907; Zémio 1909'da Fransız tarafına geçti.
+  ⚠️ Kaynak edebiyat incelemesi (Gide), akademik yayınevi; tarihçi teyidi istenebilir. Bangassou (Nzakara/Bandia) Zande değil
+  (Dampierre başlığı, Persée) — künyenin "Bangassu" sayımı tartışmalı.
+- TDV `orta-afrika-cumhuriyeti`: Fransa 1891-1895 arası Ubangi kuzeyindeki küçük devletleri himayeye aldı (aralık, madde yazılmadı).
+- Künye t 1912 ↔ Zémio saltanatının sonu 1912 — uyuşuyor. **Doğuş bulunamadı** (f 1750 kaynaksız).
+- Künyedeki 1894 maddesi Britannica + WebSearch özetine dayanıyor — TUR 2 kuralına göre geçersiz kaynak.
+
+## zerma
+- **Doğuş ve yıkılış BULUNAMADI.** Okunan: Bornand, JdA 'Entre ciel et terre' (Mounkaïla'ya atfen "vers 1400", "XVIe siècle" — yıl değil);
+  'Histoire et mémoire au Niger' bölüm V (PUMI, iki parça okundu: Aouta adı geçiyor, yıl yok). TDV `nijer`: Zarmalar anılıyor, tarih yok.
+  Rothiot'nun Zarmakoy Aouta tezi (1898-1913) çevrimiçi okunamadı. Künye t 1898 ve 1700 "birleşme" maddesi DESTEKSİZ.
+
+## sakalava-boina
+- Ballarin, J. des anthropologues 2006 (okundu): 1822 Merina Majunga'yı aldı · 1824 Andriantsoly Mayotte'a kaçtı · 1883 ilk Fransız seferi ·
+  1895 bombardıman · 1896 Fransız kolonizasyonu · 1902'ye kadar emanetler.
+- Ballarin, PU Rennes 2006 (okundu): 15 Ocak 1895 Majunga işgali · 21 Şubat 1902 emanet iadesi.
+- TDV `madagaskar` (200): "Aynı yıl" (1883 bağlamı) Majunga işgali · 27 Ocak 1897 III. Ranavalona'nın yönetimden uzaklaştırılması (MERİNA).
+- 🔴 FARK: künye t `1897-02-28` Merina monarşisinin sonuna bağlı; Boina kaynakta 1822/1824'te Merina'ya düşmüş, Fransız işgali 15 Ocak 1895.
+  Ayrıca TDV Ranavalona için 27 Ocak 1897 diyor (künye 28 Şubat). **Doğuş bulunamadı** (EB/JdA yalnız "XVII-XVIII. yy").
+
+## Özet
+- Doğuşu bulunamayan: 10 (ovimbundu, solima-yalunka, tiv, tuareg-accer, tuareg-adag, tuareg-ahaggar, tubu-tibesti, zende, zerma, sakalava-boina).
+- Yıkılışı bulunamayan: 1 (zerma).
+- Künye–kaynak farkı (t): 4 (tuareg-adag, tuareg-ivellemmedan, tubu-tibesti, sakalava-boina) + çelişki beyanı: accer 1911/1918, Angola TDV tablosu.
+
+
+---
+### H5
+
+H5 — KAMP-EKSIK-KRONOLOJI TUR 2 (9 künye · 19 madde)
+
+Ölçüm: 11 Ekim 2026, bu makine. TDV metni `tdv.py` ile çekildi (HTTP kodu yanında). Dış kaynakların
+hepsi AÇILIP OKUNDU (PDF'ler indirildi, metni çıkarıldı); arama özeti kaynak gösterilmedi.
+Ham metinler: `tur2/h5/*.txt`, PDF'ler `tur2/h5/dl/`.
+
+TDV slug durumu: `etiyopya` 200 · `habesistan` 200 (yalnız yönlendirme sayfası, 2.317 bayt) · `cava` 200 ·
+`endonezya` 200 · `borneo` 200 · `sri-lanka` 200 · `seylan` 200 (yönlendirme) · `hollanda-dogu-hindistan-sirketi` 200 ·
+ÖLÜ (302): `zagve` `pontianak` `surakarta` `yogyakarta` `mataram` `tidore` `moluk-adalari` `maluku` `ternate`
+`caffna` `yafna` `ryukyu` `okinava`. TDV araması (`?q=mataram`) `hollanda-dogu-hindistan-sirketi`ni aday verdi, GET doğruladı.
+
+## sidamo-kralliklari
+- Kaynak: Mebrete Gergiso Demie, AAU *Journal of Indigenous Knowledge and Development Studies* 1/2 (2019), PDF 200. TDV `etiyopya`da Sidâme yalnız etnik grup olarak geçiyor, fetih yılı YOK.
+- Künye farkı: **t:1897-01-01 ↔ kaynak 1890** ("Sidama in 1890"). Kaynak 31 Temmuz 1897'de Habte Giyorgis'in "Sidamo ülkesinden geçerek" Borana'ya vardığını da yazıyor — künyenin 1897'si büyük olasılıkla bu Borana seferidir, Sidama'nın fethi değil. Öneri: t 1890'a çekilmeli (kesinlik yıl). Addis Standard "1891" diyor (gazete, kullanılmadı) ⇒ ikinci akademik kaynakla teyit iyi olur.
+- `bulunamadı`: DOĞUŞ — gevşek klan konfederasyonu, okunan hiçbir kaynakta kuruluş yılı yok (f:1281 pencere başıdır).
+- Lindahl NAI "She–Snoch" cildinde Sidamo maddeleri yer adları, fetih tarihi yok.
+
+## vollayta-kralligi
+- Kaynak: B. Lindahl, *Local History of Ethiopia* (Nordic Africa Institute, 2008), "Wel–White" cildi, PDF 200: "Welayita was incorporated into imperial Ethiopia in November 1894" + "finally conquered by Menilek in 1894". Yıl teyidi AAU 2019 ("Wolaita in 1894").
+- Künye farkı: **t:1894-01-17 ↔ kaynak KASIM 1894** (ay). 17 Ocak gününün dayanağı bulunamadı; öneri t → 1894-11-01 (kesinlik ay). Künyedeki eski kronoloji maddesi "1894/1896" ikilemini de taşıyor; okunan iki kaynak da 1894 diyor.
+- `bulunamadı`: DOĞUŞ — Lindahl "Founded as a state c.1250; Tigray dynasty c.1600" diyor: "c." = YIL DEĞİL ⇒ madde yazılmadı. (Künye kronolojisindeki 1252 Motolomi maddesi bu kaynakla doğrulanamaz.)
+
+## zagve
+- Kaynak: TDV `etiyopya` (200), II. TARİH bölümü, müellif Levent Öztürk: "1137'den 1270'e kadar Zague, bu tarihten XVI. yüzyıla kadar da Şüve'de hüküm süren Süleyman sülâlesi" — iki uç da YIL.
+- Künye f:1137-01-01 / t:1270-01-01 kaynakla UYUMLU; fark yok. `zagve`, `lalibela` slug'ları ölü (künyenin ic_not'u da aynı şeyi söylüyor).
+
+## pontianak
+- Kaynaklar: TDV `borneo` (200, M. Abdul Jabbar Beg): "1772'de ... Pontianak Sultanlığı'nı kurdu" (YIL) · Hasanuddin & Kristanto, *Humaniora* (UGM) XIII/1 2001, PDF 200 — Veth 1854 ve ANRI Borneo-West 16/26 dayanaklı.
+- Doğuş GÜNÜ: "7 Januari 1772" yerleşim açılışı (Veth'ten). Künye f:1772-01-01 ⇒ gün 1772-01-07'ye inceltilebilir (TDV yılıyla çelişmez).
+- 🔴 ÇELİŞKİ (künye kronolojisi): künyedeki "1771-10-23" maddesi (Kapuas-Landak'a varış) — UGM makalesi Mempawah'tan ÇIKIŞI "23 November 1771" diye veriyor. İki gün (23 Ekim/23 Kasım) aynı olayı mı anlatıyor, okunan kaynaklar karar vermiyor ⇒ `ÖLÇÜLEMEDİ`, künye maddesi kaynağıyla yeniden doğrulanmalı.
+- Tâbiiyet: 5 Temmuz 1779 VOC sözleşmesi (gün, ANRI arşiv numarasıyla). harita_degisimi HAYIR yazdım (sultanlık sürdü); VOC'ye toprak tahsisi (Duizen Vierkanten Paal) okunmadığı için yazılmadı — koordinatör tâbi boyası kararını verir.
+- Künye farkı: **t:1855-01-01 "Lange Contract" dayanağı BULUNAMADI.** Okunan kaynakta 1855 için tek olgu: 12 Nisan 1855 Sultan Şerif Osman'ın ölümü / Şerif Hâmid'in cülusu (madde olarak yazıldı, HAYIR). `bulunamadı`: YIKILIŞ (sultanlık 1855'ten sonra da sürüyor; egemenlik kaybının günü okunan kaynaklarda yok).
+
+## surakarta
+- Kaynaklar: Sutarwinarmo-Supriyono-Puguh, *Indonesian Historical Studies* (Undip) 1/2 2017, PDF 200 — "Giyanti Agreement on 13 February 1755 ... dividing the territory of Mataram into two" (ANRI Arsip Keresidenan Surakarta No. 48) · TDV `hollanda-dogu-hindistan-sirketi` (İ. H. Göksoy): "Mataram Devleti'ni 1755'te biri Surakarta, diğeri Yogyakarta olmak üzere iki prensliğe ayırarak" (YIL — gün UNDIP'ten) · Ni'matul Huda, *IUS QUIA IUSTUM* (UII) 20/3 2013, PDF 200.
+- Künye f:1755-02-13 UYUMLU.
+- Künye farkı: **t:1945-09-02 ↔ kaynakta 1 Eylül 1945 maklumat (Cumhuriyet'e bağlılık) ve 15 Temmuz 1946 PP 16/SD (Kasunanan siyasî gücünü yitirdi, residenlik oldu).** 2 Eylül için dayanak yok. Öneri: egemenlik kaybı = 1946-07-15 (yıkılış), 1945-09-01 tâbiiyet. (Her ikisi de 1923 penceresinin dışında.)
+- TDV `endonezya`/`cava`: Cava Savaşı 1825-1830, "Hollanda bu savaş bahanesiyle Yogyakarta ve Surakarta'ya bağlı kenar bölgeleri de ... ilhak" — rakamı taşıyan cümle SAVAŞIN süresini tarihliyor, ilhakın kendi yılı yok ⇒ ilhak maddesi YAZILMADI (künyedeki 1830-03-28 maddesi bu TDV cümlesiyle günlenemez).
+
+## yogyakarta
+- Kaynaklar: UNDIP 2017 (13 Şubat 1755, Mangkubumi = Hamengku Buwana I) · TDV hollanda-dogu-hindistan-sirketi (1755 yıl) · TDV `cava` (Mustafa L. Bilge): Diponegoro "1825 yılında ... baş kaldırdı", savaş 1825-1830 · Huda 2013: 5 Eylül 1945 Amanat (HB IX + Paku Alam VIII).
+- Künye f:1755-02-13 UYUMLU. t:1923-10-29 pencere ucudur (sınır işareti), fark sayılmadı.
+- `bulunamadı`: YIKILIŞ — sultanlık sona ermedi; 1945 amanatı Cumhuriyet'e katılım (tâbiiyet) olarak yazıldı, yıkılış değil.
+- Not: TDV `endonezya` Diponegoro'yu "II. Hamengkubuvana'nın büyük oğlu" diyor; künye kronolojisi (Carey) onu III. Hamengkubuwono'nun büyük oğlu olarak anıyor — maddeye yazılmadı, iki tarafı bildiriyorum.
+
+## tidore-sultanligi
+- Kaynaklar: TDV `hollanda-dogu-hindistan-sirketi` (Göksoy): "İspanyollar'ın 1663'te Tidore'yi boşaltmalarından sonra bu adaların tamamını hâkimiyeti altına aldı" · Atlas of Mutual Heritage (Nationaal Archief + RCE + Rijksmuseum + KB) "Tidore" (200): "In 1605 the VOC conquered the island of Tidore" ve İspanyolların 1663'e kadar kaldığı · AMH "Tahula, fort": İspanyollar Tidore'yi 1606-1607'de aldı (ARALIK ⇒ madde yazılmadı).
+- 1605 "fetih" maddesi harita HAYIR yazıldı: kaynak "adayı fethetti" diyor ama sultanlığın sona erdiğini söylemiyor; hemen ardından İspanyollar adaya yerleşiyor. Haritaya yansıtılmadan önce ikinci kaynak gerekir.
+- `bulunamadı`: DOĞUŞ (TDV `endonezya`: Tidor prensi "XV. yüzyılın son çeyreğinde" müslüman oldu — yıl değil) · YIKILIŞ (t:1923-10-29 pencere ucu; okunan kaynaklarda egemenlik kaybı günü yok). Künye f/t pencere uçları ⇒ fark sayılmadı. Tidore, Ternate, Moluk slug'ları TDV'de ölü.
+
+## yafna
+- Kaynaklar: Z. Biedermann, "Ceylon", *Portuguese Empire / EVE* (CHAM, NOVA FCSH), sayfa 200: 1560 Dom Constantino de Bragança seferi; Filipe de Oliveira "managed to seize the kingdom of Jaffna for the Portuguese India in 1619" · TDV `sri-lanka` (İ. H. Göksoy): Jaffna'daki Hindu Tamil krallığı "XIII. yüzyılda" — yıl değil.
+- Künye farkı: **t:1619-02-01 ↔ kaynak yalnız YIL 1619.** 1 Şubat gününün dayanağı bulunamadı; öneri 1619-01-01 (kesinlik yıl) ya da günü veren kaynak bulunana kadar beyan.
+- `bulunamadı`: DOĞUŞ (TDV "XIII. yüzyıl"; künye kronolojisindeki 1215 Kalinga Magha maddesi okunan kaynaklarda yok). Biedermann'ın "throne of Jaffa, Ethirimanna Cinkam (1591-1616)" ibaresi yazım bakımından belirsiz, kullanılmadı.
+
+## sanzan
+- Kaynak: 文化庁 文化遺産オンライン "佐敷城跡" (200), 『中山世譜』『球陽』 dayanaklı: "1416年に北山を滅ぼし、さらに南山を平定して、1429年に琉球で最初の統一王朝を樹立した".
+- Künye t:1429-01-01 UYUMLU (yıl). 1416 künye kronolojisiyle uyumlu.
+- Künye farkı: **f:1322-01-01 dayanaksız** — okunan kaynakların hiçbiri Sanzan bölünmesine yıl vermiyor; 1322 yalnız ansiklopedi aynası sitelerde (kullanılmadı) görüldü ⇒ `bulunamadı` (DOĞUŞ).
+- ÇELİŞKİ (okunmadı, yalnız işaret): arama sonuçlarında Hokuzan'ın düşüşü için 1419 ve 1422 (Mypedia) de geçiyor; resmî kurum 1416 diyor — okunan kaynak bu.
+
+## Özet sayılar
+- 9 künye · 19 madde (kuruluş 4 · yıkılış 6 · fetih 2 · tâbiiyet 4 · diğer 3 — `tur` sütunu).
+- Doğuşu bulunamayan: sidamo, vollayta, tidore, yafna, sanzan (5) · yıkılışı bulunamayan: pontianak, yogyakarta, tidore (3) ⇒ en az birinde eksik: 7 künye.
+- Künye-kaynak farkı: 6 künye (sidamo t · vollayta t · pontianak f-gün + t · surakarta t · yafna t-gün · sanzan f) + 1 künye-içi kronoloji çelişkisi (pontianak 23 Ekim/23 Kasım 1771).
+
+
+---
+### H6
+
+H6 — TUR 2 kronoloji önerisi (9 künye · 37 madde)
+
+Ölçüm: 11 Ekim 2026, EMRELIC. Her kaynak sayfası curl/WebFetch ile AÇILIP okundu (HTTP kodu yanında); arama özeti kaynak gösterilmedi.
+Okunamayan (yazılmadı): UNESCO whc.unesco.org 403 · api.parliament.uk 500 · Britannica (talimat: 403).
+
+## taiping
+- Kaynak: Hong Kong SAR Hükümeti basın bülteni 19.05.2011 (Tarih Müzesi sergisi) **200** · EB1911 «Nanking» (Wikisource) **200**. TDV `taiping` **302** (ölü).
+- Doğuş 1851-01-11 GÜN ✓ künyeyle aynı. Yıkılış 1864-07-19 GÜN ✓ künyeyle aynı (EB1911 yıl teyidi).
+- **FARK:** künye maddesi Nanjing 1853-03-19 GÜN; okunan kaynak yalnız **Mart 1853** (ay) diyor → `1853-03-01 ay` önerildi; 19 Mart günü bulunamadı.
+- Eklenen: 1861 Anqing (yıl), Aralık 1863 Suzhou (ay), 1864-06-01 Hong'un ölümü (gün).
+
+## tungning
+- Kaynak: USC US-China Institute — 1662 Koxinga-Hollanda antlaşmasının metni (BİRİNCİL) **200** · World Historical Gazetteer essay **200** · W. Campbell 1896 (Utrecht Üniv. Kütüphanesi tam metin) **200** · Berkshire Encyclopedia of China «Qing Government Unifying Taiwan» **200** (anlatı var, mîlâdî YIL vermiyor; kullanılmadı).
+- **Doğuş BULUNAMADI:** künye f 1650-01-01 (Amoy üssü) okunan hiçbir kaynakta yıl olarak yok; WHG yalnız "1646'dan sonra Xiamen'e çekildi" diyor. Yazılmadı.
+- **FARK 1:** künye 1661-04-30 (sefer başlangıcı) ↔ antlaşma metni kuşatmayı "since 1st May 1661" ile başlatıyor (Hollanda/Gregoryen tarih). İki farklı olay olabilir (çıkarma ↔ kuşatma); `1661-05-01` önerildi.
+- 1662-02-01 GÜN ✓ künyeyle aynı (antlaşma metni).
+- **FARK 2:** künye t 1683-10-05 GÜN ↔ okunan kaynak yalnız **1683 yıl**. Gün için dolaşan değerler (5 Eylül teklif / 3 Ekim / 8 Ekim) yalnız Vikipedi'de; hiçbiri 5 Ekim değil → künye günü kaynaksız.
+
+## tannu-tuva
+- Kaynak: **TDV `tuva` (Ahmet Taşağıl, 2019) 200** — künyenin "TDV kapsam dışı" beyanı YANLIŞ; madde var ve gün veriyor. Künyenin dayandığı Britannica bu makineden okunamıyor (403) → künye kaynağı TDV ile değiştirilmeli.
+- Doğuş 1921-08-14 GÜN ✓ künyeyle aynı. Yıkılış: TDV «11 Ekim 1944 tarihinde alınan bir kararla ... Sovyetler Birliği Muhtar Bölgesi» (künye t 1923-10-29 pencere ucu, fark değil).
+- Öncül olgular (künye f'sinden ÖNCE, CSV'ye konmadı): 1911 bağımsızlık teşebbüsü, "üç yıl sonra" (1914) Rus himayesi, 18 Temmuz 1918 ilk kurultay — hepsi TDV'de.
+
+## rapa-nui
+- Kaynak: Armada de Chile «Policarpo Toro Hurtado» **200** · EB1911 «Easter Island» **200**.
+- **Doğuş BULUNAMADI (kural gereği):** künye f 1200 = Hunt & Lipo "about 1200" — radyokarbon YAKLAŞIK; talimat "yaklaşık yıl değildir" der → yazılmadı. **FARK:** künye f'si yaklaşık bir değerdir.
+- 1722-04-05: EB1911 "Easter day 1722" der; gün Gregoryen Paskalya hesabıdır (5 Nisan 1722), türetilmiş — istenirse `1722-01-01 yil`e indirilebilir.
+- Yıkılış 1888-09-09 GÜN ✓ künyeyle aynı. Eklenen: 1863 nüfus kaçırılması (yıl), 1887-10-19 Toro'nun gelişi (gün).
+
+## tonga-kralligi
+- Kaynak: ABD Dışişleri Office of the Historian «Tonga» **200** · EB1911 «Tonga» **200** · Tonga Anayasası 1875 önsözü (constituteproject.org PDF) **200** + WIPO Lex **200** · Yeni Zelanda MFAT antlaşma veritabanı **200**.
+- **FARK:** künye f 1845-12-04 GÜN ↔ okunan kaynaklar yalnız **1845 yıl**. 4 Aralık günü yalnız Vikipedi/haber/soy sitelerinde (Matangi Tonga sayfası tatili yılsız anıyor) → gün kaynaksız.
+- 1875-11-04 ✓ (önsöz: "fourth day of November ... 1875"; Refworld 1 Kasım diyor — okunmadı, çelişki not). 1900-05-18 ✓ (MFAT: "Treaty of Friendship of 18 May 1900").
+- **Yıkılış: YOK (uygulanamaz)** — devlet sürüyor; t 1945-09-02 pencere ucu. Himayenin sonu 4 Haziran 1970 (State Dept) pencere dışı.
+
+## tui-tonga-imparatorlugu
+- Kaynak: Yale eHRAF — Collocott 1924 (JPS 33) belge özeti **200** (yalnız HRAF özeti okundu, makale tam metni değil). UNESCO tentative list **403 → künye kaynağı bu makineden DOĞRULANAMADI**; 1220 Muʻa maddesi teyitsiz.
+- **Doğuş BULUNAMADI:** kaynak "ca. 950 AD" (yaklaşık) → yazılmadı (talimat: MS 1000 yıl vermiyorsa YAZMA). **FARK:** künye f 1000 kaynaksız.
+- **FARK (büyük):** künye t 1845-12-04 = tonga-kralligi ile HİZALAMA; kaynak son Tuʻi Tonga Laufilitonga'nın **1865**'te öldüğünü söylüyor → hükümdar çizgisi 1865'e kadar sürüyor. Öneri: t'yi 1865'e çekmek ya da 1845'i "siyasî üstünlüğün devri" olarak ayrı beyan etmek (koordinatör kararı). 9 Aralık 1865 günü yalnız Vikipedi/worldstatesmen'de → yazılmadı.
+
+## norvec-isvec-birligi
+- Kaynak: Store norske leksikon (novembergrunnloven/Gisle, Mossekonvensjonen/Sejersted, Riksakten/Mardal-Giørtz, Unionsoppløsningen i 1905/Sejersted-Dørum) hepsi **200** · Stortinget Undervisning PDF **200**. (`Mosskonvensjonen`, `4._november-grunnloven` slug'ları 404.)
+- Doğuş 1814-11-04 ✓ ve yıkılış 1905-06-07 ✓ künyeyle aynı; fark yok. Künyenin "BULUNAMADI" dediği Moss Konvansiyonu günü bulundu: **14 Ağustos 1814** (SNL; imza Fredrikstad 15 Ağustos) — künye f'sinden önce, CSV'ye konmadı. İsveç'in tanıması: 16 Ekim Riksdag kararı, 26 Ekim feragat (SNL) — künye notundaki "26 Ekim" teyit.
+- Küçük kaynak çelişkisi: evet oyu Stortinget 368 208 ↔ SNL 368 392 (sayı metne yazılmadı).
+
+## piombino
+- Kaynak: Treccani DBI «APPIANI, Gherardo Leonardo» (O. Banti, 1961) **200** · Enciclopedia Italiana «PIOMBINO» (Mori/Scaramella, 1935) **200**.
+- **FARK 1:** künye f 1399-02-19 ↔ DBI: anlaşma **13 Şubat 1399**; Pisa'nın Visconti temsilcisine resmî teslimi "il iq successivo" (OCR; büyük olasılıkla 19'u). Senyörlüğün ayrılması 13 Şubat anlaşmasıdır; 19 Şubat Pisa teslimidir. 13 Şubat önerildi.
+- **FARK 2 (künye bitişi ve metni yanlış):** EI: 1548'de Cosimo I Piombino'yu GEÇİCİ işgal etti, **1557**'de Iacopo VI'ya iade etti; 1594 prenslik; Appiani hâkimiyeti **1634**'te Ludovisi'ye geçişle bitti. Künyenin 1548 maddesi ("V. Karl iade etti") iade ile işgali karıştırıyor. Öneri: t 1634'e uzatılsın, 1548-1557 Medici işgali ayrı dilim olsun (koordinatör kararı). 1557/1594/1634 maddeleri bu yüzden künye t'sinden sonra olsa da CSV'de.
+
+## prusya-dukaligi
+- Kaynak: NDB «Albrecht der Ältere» (W. Hubatsch, 1953) **200** · ADB «Friedrich Wilhelm» (Erdmannsdörffer, 1878, Wikisource) **200** · ZfO kitap tanıtımı (Wehlau 1657 yıl teyidi) **200** · TDV `prusya` (Kemal Beydilli) **200**.
+- Doğuş 1525-04-08 ✓ (NDB «am 8.4.1525 ... Frieden zu Krakau»), yıkılış 1701-01-18 ✓ (TDV) — künyeyle aynı, fark yok.
+- Künyenin "1618 şahsî birlik ÖLÇÜLMEDİ" notu: NDB — Albrecht Friedrich (ö. 18.8.1618) ölünce Prusya veraset antlaşmasıyla kurfürst koluna geçti (madde eklendi). Labiau 20.11.1656 (ADB) eklendi.
+
+## Özet
+- 9 künye · 37 madde. Doğuşu bulunamayan: 3 (tungning, rapa-nui, tui-tonga). Yıkılışı bulunamayan: 0 (tonga-kralligi uygulanamaz: devlet sürüyor).
+- Künye-kaynak tarih farkı: 10 (taiping 1853 · tungning f, 1661, t · rapa-nui f · tonga f · tui-tonga f, t · piombino f, t). Ek kaynak kusuru: tannu-tuva "TDV kapsam dışı" beyanı yanlış.
