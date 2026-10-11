@@ -675,6 +675,29 @@ var DOLGU_PARCALAR = window.DOLGU_PARCALAR || [];
 var DOLGU_PARCA_HALKA = window.DOLGU_PARCA_HALKA || [];
 var DOLGU_RENK = { OSMANLI: "#8e0b22" };
 devletler2.forEach(function (s) { if (s.renk) DOLGU_RENK[s.id] = s.renk; });
+
+// 🎨 AÇIK TON — "bir tık açık"ın TEK OTORİTESİ (HARITA-ON-YUZ-1010, 10 Ekim 2026)
+// Emre: bant (5/7/10 ufku) devletin rengiyle ama "daha uzak, daha zayıf
+// hâkimiyet" olarak AÇIK çizilmeli; aynı akşam "tâbilik rengi tâbi olunan
+// devletten BİR TIK açık olsun" dedi. İki istek AYNI dili kullanıyor ⇒ formül
+// TEK YERDE durur, iki çağıran da bunu çağırır (§3: iki uygulama yedeklilik
+// değil iki ayrı davranıştır).
+// Formül: sRGB'de beyaza doğru doğrusal karışım, c' = c + (255 − c) × kat.
+// Opak kalır (alfa YOK): yarı saydam dolgu alttaki katmanla harmanlanıp
+// rengi yere göre değiştirirdi (§11 alfa-harman ailesi).
+// ÖLÇÜLDÜ (CIE76 ΔE, `devlet_harita_ust.js`teki 556 rengin hepsi):
+//   kat 0,20 ⇒ ΔE en az 3,7 · ortanca 14,0 · en çok 25,9 · Osmanlı #8e0b22→#a53c4e 18,0
+//   bugünkü elle seçilmiş tâbi adımı #8e0b22→#b2384a = 14,9 ⇒ "bir tık" ile aynı mertebe
+//   gözle ayırt edilemeyen eşik ΔE 1,0 (Mısır vakası) — en küçük değer bile 3,7 kat üstünde.
+var ACIK_TON_KAT = 0.20;
+function acikTon(hex, kat) {
+  var k = (kat == null) ? ACIK_TON_KAT : kat;
+  var c = renkAyir(hex || "#8e0b22");
+  return "#" + c.map(function (v) {
+    var x = Math.round(v + (255 - v) * k);
+    return (x < 16 ? "0" : "") + x.toString(16);
+  }).join("");
+}
 var dolgular = (window.DOLGU || []);
 dolgular.forEach(function (r) {
   r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
@@ -1144,20 +1167,33 @@ function ufukGuncelle(t) {
   // ki açıldığında kesit yeniden yazılsın (`dolguGuncelle` deseni).
   if (!ufukAcik() || ufukGun <= 5) { ufukImza = null; return; }
   var fs = [], imza = ufukGun + "|";
+  // 🔴 HARITA-ON-YUZ-1010 — bantlar BİRİKİMLİDİR, artış halkası DEĞİL.
+  //    Ölçüldü (4.902 kayıt × 3 bant, alan): adlar "<=5" "<=7" "<=10" ve
+  //    <=7 alanı <=5'in ortanca 1,052 katı (yüzdelik 10: 1,000 · 90: 1,227);
+  //    halka olsaydı <=7, <=5'ten çok KÜÇÜK olurdu. Eski yorum ("bantlar
+  //    örtüşmez, yalnız ARTIŞ") yanlıştı ve 10 seçilince <=7 ile <=10 İKİSİ
+  //    BİRDEN, üst üste çiziliyordu. Artık YALNIZ seçili ufkun kendi bandı
+  //    çizilir; A'nın üstünde kalan kısmı zaten `devlet-dolgu` örter (katman
+  //    "devlet-dolgu"nun ALTINDA), yani görünen = bant − A = ARTIŞ.
+  var secili = -1;
+  for (var q = 0; q < ufukVeri.length; q++) {
+    var gq = ufukVeri[q].gun;
+    if (gq > 5 && gq <= ufukGun && (secili < 0 || gq > ufukVeri[secili].gun)) secili = q;
+  }
   for (var k = 0; k < ufukVeri.length; k++) {
     var b = ufukVeri[k];
-    // 🔴 SEÇİLEN UFKA KADARKİLER BİRLEŞTİRİLEREK çizilir. Taban bandı
-    //    (<=5) A'nın kendisidir, onu ÇİZMEYİZ — zaten haritada. Yalnız
-    //    ARTIŞ bantları eklenir. Tekdüzelik ölçüldü (0 ihlal), yani
-    //    bantlar örtüşmez ve üst üste binme olmaz.
-    if (b.gun <= 5 || b.gun > ufukGun) continue;
+    // Taban bandı (<=5) A'nın kendisidir, onu ÇİZMEYİZ — zaten haritada.
+    if (k !== secili) continue;
     var dnm = b.dnm || [];
     for (var i = 0; i < dnm.length; i++) {
       var r = dnm[i];
       if (!aktifAralik(r.fi, r.ti, t)) continue;
       if (!r.ft) {
         r.ft = { type: "Feature",
-                 properties: { renk: DOLGU_RENK[r.d] || "#8e0b22", kim: r.d },
+                 // 🎨 Devletin rengi BİR TIK AÇIK (`acikTon` — tek otorite).
+                 //    Eski hâl: DOLGU_RENK'in kendisi + opaklık 1 ⇒ bant A'dan
+                 //    AYIRT EDİLEMİYORDU, Emre'nin "koyu renk opak görünüm"ü.
+                 properties: { renk: acikTon(DOLGU_RENK[r.d] || "#8e0b22"), kim: r.d },
                  geometry: parcaCoz(r.g, ufukHavuz, ufukParca) };
       }
       if (!r.ft.geometry || !r.ft.geometry.coordinates.length) continue;
@@ -2400,7 +2436,7 @@ harita.on("load", function () {
   harita.addSource("ufuk-bant", agirKaynak());
   harita.addLayer({ id: "ufuk-bant-alan", type: "fill", source: "ufuk-bant",
     layout: { visibility: "none" },
-    paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
+    paint: { "fill-color": ["coalesce", ["get", "renk"], acikTon("#8e0b22")],
              "fill-opacity": 1 } }, "devlet-dolgu");
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
