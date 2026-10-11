@@ -110,7 +110,13 @@ BASAMAK = 3
 #   ingiltere 1882-09-14→1914-12-18   55 kayıt   tabanı TAMAMI `v:` (tâbi)
 #   avusturya 1878-07-29→1908-10-05    3 kayıt   tabanı TAMAMI `d:` (doğrudan)
 # İki bölüm de kendi içinde türdeş — bölme gerekmiyor.
-TABI_TON = "#b2384a"        # v: dolgusunun tonu (app.js vassal-dolgu ile aynı)
+TABI_TON = "#a53c4e"        # v: dolgusunun tonu = acikTon("#8e0b22")
+# 🔴 BU DEĞER DÖRT YERDE YAŞIYOR ve eşitliği bir YORUMLA değil bir
+#    KAPIYLA korunuyor: `py denetim/TABI-TON-TEK-OTORITE-SINAV-1011.py`.
+#    Eski hâli "#b2384a" idi ve yorumu *"app.js vassal-dolgu ile aynı"*
+#    diyordu — o değişmezi hiçbir şey ölçmüyordu, app.js `acikTon`a
+#    geçince yorum SESSİZCE YALAN oldu (11 Ekim 2026, Emre onayı).
+#    Değiştirirsen DÖRDÜNÜ birlikte değiştir, sınavı koştur.
 DOGRUDAN_TON = "#8e0b22"    # d: dolgusu — app.js'in varsayılanıyla aynı
 
 # İşgalci kimliğin adı ve rengi. `renkler.py`den okunur, KOPYALANMAZ.

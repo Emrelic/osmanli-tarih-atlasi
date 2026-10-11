@@ -209,7 +209,7 @@ def gorunen(kimlik):
 
 
 OSM = {"OSMANLI doğrudan": lab(bind(h2r("#8e0b22"), OPAKLIK["dogrudan"])),
-       "OSMANLI tâbi":     lab(bind(h2r("#b2384a"), OPAKLIK["tabi"]))}
+       "OSMANLI tâbi":     lab(bind(h2r("#a53c4e"), OPAKLIK["tabi"]))}
 ALT = lab(ALTLIK)
 
 # ═══════════════ DENİZ — RENK DENİZ oturumu, 2026-08-12 ═══════════════

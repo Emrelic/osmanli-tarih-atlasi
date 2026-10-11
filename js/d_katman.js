@@ -611,7 +611,7 @@ function _dTabiTaraf(tarafId, gun) {
   if (!d || !d.v) return null;
   var poli = [];
   (tekVeri(d.v).features || []).forEach(function (f) { _dPoliEkle(poli, f.geometry); });
-  return poli.length ? { renk: "#b2384a", poli: poli, anahtar: "vassal:" + aktifDonem, hk: "vassal", tabiKid: tarafId } : null;
+  return poli.length ? { renk: "#a53c4e", poli: poli, anahtar: "vassal:" + aktifDonem, hk: "vassal", tabiKid: tarafId } : null;
 }
 // Hattın _D_YASLA_KM şeridinde o gün kaç AYRI tâbi kid'inin noktası var (kaba: hat
 // köşelerine kuş uçuşu). >1 ise birleşik `v` gövdesi şeritte tek bir tâbiyi temsil ETMEZ.
