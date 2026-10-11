@@ -173705,5 +173705,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5881",
+  "zaman": "2026-10-11 03:30",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · KOŞU 23 · tam inşa · taban 672acbc1 · ~7-8 saat. GİRDİ KİLİTLİ: data/ ve arac/ DONDU, motor tuzuna dokunulmaz. Bayraklar: MOTOR_YURUYUS=1 · MOTOR_YURUYUS_SAAT=40 · MOTOR_UFUK_BANT=40,56,80 · MOTOR_COL_UFUK_SAAT=0 · MOTOR_SUREC_ISCI=2. UFUK (\"1000-01-01\",\"1945-09-02\") değişmedi. Tuz değişecek (COL_UFUK 56→0) ⇒ tam ıska. Ağaç C:\\atlas-kosu22 · kaynak_durum kapat --kod KOSU çıkış 0 (kapı GEÇTİ). Doğrudan uret_petek.py, ayrık süreç; kos_ve_yayinla YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
