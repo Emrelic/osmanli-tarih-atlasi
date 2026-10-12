@@ -314,3 +314,6 @@
 - **Komutlar: KOŞU BAYRAKLARI · zincir yayın yapamaz · kabul ölçütü (10 Ekim hâli)** — [`D283`](D283-komutlar-kosu-bayraklari-1010.md)
 - **Motor kodu dondurma ve kapsamı (10 Ekim hâli)** — [`D284`](D284-motor-dondurma-kapsam-1010.md)
 - **§11 ailesi: kapının beş üyesi · öneri sayısı · desen (10 Ekim hâli)** — [`D285`](D285-tekrarlanmamasi-gereken-1010.md)
+
+## 12 Ekim 2026 — BUDAMA-1012: koordinatör/tahta/bekçi düzeni bırakıldı
+- **CLAUDE.md'nin koordinatör dönemi TAM METNİ (arşiv, yürürlükte DEĞİL)** — [`D287`](D287-claude-md-koordinator-donemi-tam-metin-1012.md)
