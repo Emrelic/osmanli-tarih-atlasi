@@ -219,6 +219,14 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Semendire maddesine göre 1717'de Pasarofça'yla Avusturya'ya bırakılan kale, 1737'de başlayan Osmanlı-Avusturya Savaşı'nın Tuna-Sava cephesindeki Osmanlı ilerleyişiyle geri alındı; Avusturya kuvvetleri bölgede Ağustos 1738'e kadar tutunabildi, bu tarihten sonra Semendire yeniden Osmanlı idaresine girdi. Bir yıl sonra imzalanan Belgrad Antlaşması (1739-09-18) bu kazancı — Belgrad ve kuzey Sırbistan ile birlikte — tescil edecekti.", ic_not_d:"⚠️ Aynı gün Kırım'da gerçekleşen 'Özi'nin geri alınışı' maddesiyle KARIŞTIRILMASIN — 1000 km uzakta, ayrı cephe, ayrı olay; yalnızca tarih rastlantısal olarak örtüşüyor.",
   kaynak:"semendire", duygu:["🎉"] },
 
+{ t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+  b:"Morava vadisinin Osmanlı idaresine dönüşü — Yagodina, Kragujevac ve Çaçak",
+  gun:"Ağustos 1738", ic_not_gun:"gün komşudan: Semendire (TDV semendire ay verir, gün vermez); bu üç yer için ayrı kaynak kaydı BULUNAMADI — SIRADA-A-1012",
+  yer:"Yagodina, Kragujevac, Çaçak (Morava vadisi)", yer_id:"Kragujevac", odak_yer:["Yagodina (Jagodina)","Kragujevac","Çaçak"],
+  kisiler:"",
+  d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
+  kaynak:"semendire", duygu:["🎉"] },
+
 { t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
   gun:"5 Kasım 1815",

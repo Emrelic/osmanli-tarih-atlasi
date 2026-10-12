@@ -231,7 +231,7 @@ window.OLAYLAR_EK8 = [
   "gun": "1779",
   "yer": "Basra, Şattülarab",
   "kisiler": "Kerim Han Zend, Süleyman Ağa (Büyük Süleyman Paşa)",
-  "d": "Kerim Han Zend'in 1776'da ele geçirdiği Basra, hanın 1779 başında ölümü üzerine İran'da başlayan taht kavgası yüzünden boşaltıldı. Üç yıllık işgal sırasında şehri savunan ve esir düşen Süleyman Ağa geri dönerek Basra mütesellimi, ardından Bağdat valisi oldu. Körfez ticareti Osmanlı denetimine döndü; işgal boyunca İngiliz Doğu Hindistan Şirketi acentesi Basra'dan Kuveyt'e taşınmış ve Kuveyt'in liman olarak yükselişi böyle başlamıştı.",
+  "d": "Kerim Han Zend'in kardeşi Sâdık Han'ın 1776'da ele geçirdiği Basra, Kerim Han'ın 2 Mart 1779'daki ölümünden sonra İran'da taht kavgası başlayınca boşaltıldı; Sâdık Han saltanat iddiasıyla İran'a döndü. Şehir kısa bir süre Müntefik aşiretinin elinde kaldıktan sonra yeniden Osmanlı idaresine girdi. Şiraz'dan dönen eski mütesellim Süleyman Ağa, Basra valiliğini istedi ve Büyük Süleyman Paşa adıyla Basra, Bağdat ve Şehrizor'un valisi oldu. Körfez ticareti Osmanlı denetimine döndü; işgal yıllarında ticaretin bir bölümü Kuveyt'e kaymış ve 1778'den itibaren çöl postası da Kuveyt'ten çıkarılmıştı.",
   "kaynak": "basra",
   "duygu": [
    "🎉"

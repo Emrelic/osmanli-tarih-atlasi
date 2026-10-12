@@ -162,24 +162,48 @@ window.ANTLASMA_HARITALARI = [
   antlasma_ad: "BİRİNCİ TAKSİM",
   tarih: "1772-08-05",
   bolgeler: [
-    { taraf: "habsburg", etiket: "Avusturya'ya bırakılan (Galiçya)", kutu: [18.8, 48.8, 24.5, 49.7],
-      not: "d1606-lh-ah/d1742-lh-ah (js/d_katman.js D_SINIRLAR) — dayanak: Britannica \"Partitions of Poland\" " +
-           "(1772-08-05 sözleşme, Sejm onayı 1773-09-30) + Britannica \"Silesian Wars\". Kutunun kendi notu: " +
-           "\"1772 Galiçya\" — üçünün en dar/isabetlisi." },
-    { taraf: "rusya", etiket: "Rusya'ya bırakılan", kutu: [23, 49.5, 36.5, 56.5],
-      not: "d1686-lh-ru (js/d_katman.js D_SINIRLAR) — dayanak: Encyclopedia of Ukraine (CIUS). ⚠️ Bu kutu " +
-           "kaydın KENDİ notuna göre \"1772-1795 paylaşmaları\"nın TOPLAMI, yalnız 1772 payı DEĞİL — " +
-           "1772'de gerçekte alınan pay bu kutunun bir ALT kümesidir, tam sınırı bu turda ölçülmedi." },
-    { taraf: "prusya", etiket: "Prusya'ya bırakılan (Kraliyet Prusyası)", kutu: [14.5, 51.5, 22.9, 55],
-      not: "d1606-lh-alm-pr (js/d_katman.js D_SINIRLAR) — dayanak: Britannica \"Treaty of Wehlau/Oliva\" + " +
-           "\"Partitions of Poland\". ⚠️ Bu kutu da Prusya-Lehistan'ın 1701'den beri TÜM sınır bölgesi, " +
-           "yalnız 1772 payı DEĞİL — aynı sınırlama Rusya'nınkiyle aynı." }
+    { taraf: "habsburg", etiket: "Avusturya'ya bırakılan (Galiçya)", zarf: true, noktalar: [
+        { ad: "Lwów (Lviv)", lat: 49.8397, lon: 24.0297,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': 'Austria zajęła całą południową Polskę po Zbrucz ze Lwowem, ale bez Krakowa' · EB1911 'Poland' (Wikisource, 1772 paylaşımı): 'the greater part of Galicia, minus Cracow'" },
+        { ad: "Nowy Targ", lat: 49.4805, lon: 20.0328,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': Nowy Targ, Nowy Sącz ve Czorsztyn bölgeleri (Spisz ile birlikte Avusturya 1769-1770'te zaten almıştı; 1772 payına dahil sayıldı)" },
+        { ad: "Nowy Sącz", lat: 49.6218, lon: 20.6971,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': Nowy Sącz bölgesi (aynı cümle)" },
+        { ad: "Czorsztyn", lat: 49.4396, lon: 20.3236,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': Czorsztyn bölgesi (aynı cümle)" },
+        { ad: "Husiatyn (Zbruç kıyısı)", lat: 49.0667, lon: 25.9833,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': payın doğu sınırı Zbruç (Zbrucz) ırmağı · konum Zbruç üzerinde bir nokta, YAKLAŞIK (±10 km)" },
+        { ad: "Pidwołoczyska (Zbruç kıyısı)", lat: 49.5333, lon: 26.15,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': payın doğu sınırı Zbruç ırmağı · konum Zbruç üzerinde bir nokta, YAKLAŞIK (±10 km)" },
+        { ad: "Zbruç'un Dinyester'e kavuştuğu yer", lat: 48.6333, lon: 26.5167,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': payın doğu sınırı Zbruç ırmağının ağzı · YAKLAŞIK (±10 km)" }
+      ],
+      not: "ZARF: kaynakta adıyla anılan yerler ve Zbruç hattının dış zarfı (dışbükey kabuk). Gerçek pay KUZEYE (San-Vistula hattı, Przemyśl-Tarnów-Brody) doğru daha geniştir; kabuk bilinçli muhafazakârdır. Kraków kabuğun dışında kalır (kaynak: Kraków hariç)." },
+    { taraf: "rusya", etiket: "Rusya'ya bırakılan", zarf: true, noktalar: [
+        { ad: "Połock (Polotsk)", lat: 55.4879, lon: 28.7856,
+          kaynak: "pl.wikipedia 'I rozbiór Polski': 'Rosja zagarnęła … wschodnie, peryferyjne krańce … za Dnieprem, Drucią i Dźwiną' (Witebsk, Połock, Mścisław voyvodalıkları) · pl.wikipedia 'Województwo połockie': 'Północna część wraz z Połockiem przypadła Rosji' · EB1911 'Poland' (Wikisource, 1772 paylaşımı): 'Russia obtained the palatinates of Vitebsk, Polotsk, Mscislaw'" },
+        { ad: "Witebsk (Vitebsk)", lat: 55.1904, lon: 30.2025,
+          kaynak: "pl.wikipedia 'Województwo witebskie': voyvodalık 1772'de Rusya'ya katıldı (voyvoda merkezi Witebsk) · EB1911 'Poland' (Wikisource, 1772 paylaşımı): " },
+        { ad: "Orsza (Orsha)", lat: 54.5081, lon: 30.4172,
+          kaynak: "pl.wikipedia 'Województwo witebskie': Orsza powiatı voyvodalığa dahil, 1772'de Rusya'ya katıldı (Orsza topraklarının küçük bir kısmı 1793'e kadar Lehistan'da kaldı)" },
+        { ad: "Mścisław (Mstislavl)", lat: 54.0192, lon: 31.7219,
+          kaynak: "pl.wikipedia 'Województwo mścisławskie': voyvodalık merkezi Mścisław, 1772'de Rusya'ya katıldı ('Mohylew gubernia') · EB1911 'Poland' (Wikisource, 1772 paylaşımı): " },
+        { ad: "Krzyczew (Krichev)", lat: 53.7167, lon: 31.7167,
+          kaynak: "pl.wikipedia 'Województwo mścisławskie': voyvodalığın ikinci büyük kenti Krzyczew; voyvodalık 1772'de Rusya'ya katıldı" }
+      ],
+      not: "ZARF: 1772'de Rusya'ya geçen üç voyvodalığın (Witebsk, Połock-kuzey, Mścisław) kaynakta adıyla anılan merkezlerinin dış zarfı. 1793/1795 paylaşmaları KAPSANMAZ. Eksikler: Polonya Livonyası (Inflanty) ve Mińsk voyvodalığının doğu parçası kaynakta ADIYLA yer vermediği için zarfa girmedi; Mohylew/Dyneburg/Lepel için voyvodalık üyeliği ve 1772 tarafı doğrulanamadı (Lepel 1772'den sonra Lehistan tarafındaydı) — zarfta YOK." },
+    { taraf: "prusya", etiket: "Prusya'ya bırakılan (Kraliyet Prusyası, Warmia, Netze)", zarf: true, noktalar: [
+        { ad: "Lidzbark Warmiński (Heilsberg)", lat: 54.1262, lon: 20.5801,
+          kaynak: "EB1911 'Poland' (Wikisource, 1772 paylaşımı): 'the palatinates of Marienburg and Ermeland (Warmia)' · pl.wikipedia 'I rozbiór Polski': 'Prusy anektowały Warmię' (Lidzbark, Warmia piskoposluğunun merkezi)" },
+        { ad: "Malbork (Marienburg)", lat: 54.036, lon: 19.0283,
+          kaynak: "EB1911 'Poland' (Wikisource, 1772 paylaşımı): 'the palatinates of Marienburg …' (voyvodalık merkezi Malbork)" },
+        { ad: "Chełmno (Kulm)", lat: 53.35, lon: 18.425,
+          kaynak: "EB1911 'Poland' (Wikisource, 1772 paylaşımı): 'the palatinate of Kulm minus Thorn' (Chełmno voyvodalık merkezi; Toruń hariç)" },
+        { ad: "Ujście (Notec/Netze kıyısı)", lat: 53.055, lon: 16.727,
+          kaynak: "EB1911 'Poland' (Wikisource, 1772 paylaşımı): 'Great Poland as far as the Nitza' (Netze/Noteć'e kadar) · konum Noteć üzerinde bir nokta, YAKLAŞIK" }
+      ],
+      not: "ZARF: kaynakta adıyla anılan voyvodalık merkezleri (Malbork, Chełmno, Warmia) ve Noteć hattının dış zarfı. Gdańsk ve Toruń kaynağa göre HARİÇ ve kabuğun dışında kalır. Gerçek pay deniz kıyısına (Pomorze) ve Warmia içlerine doğru biraz daha geniştir." }
   ],
-  not: "Üç `kutu` da D-KATMAN'ın G6-G7 dalgasında (GERİYE-SARMA-0916.md) araştırılmış ama KASITLI D-YOK " +
-       "işaretli bölge ipuçlarından türetildi — o oturumların kendi kesinlik notu \"kutu TAHMİNİ (±10-20 km); " +
-       "hat 1923 haritasından okunmadı\". 1772'ye ÖZGÜ isabetli sınır (özellikle Rusya/Prusya için, ki " +
-       "kutuları sonraki paylaşmaları da kapsıyor) İSTENİRSE ayrı bir araştırma turu gerekir — bu kayıt o " +
-       "turu BEKLEMEDEN, mevcut kaynaklı-ama-kaba veriyle, H-0005'in ASIL şikâyetini (üç payın da AYIRT " +
-       "EDİLEBİLİR olması) şimdi çözüyor."
+  not: "SIRADA-A-1012 (Emre kararı 13 Ekim 2026): üç pay artık 1772'ye ÖZGÜ — eski kaba kutular 1793/1795 topraklarını da kapsıyordu. Geometri sınır DEĞİL, kaynakta ADIYLA o devlete geçtiği yazılı yerlerin dış zarfıdır (muhafazakâr, gerçek paydan küçük). Kaynaklar: Encyclopaedia Britannica 1911 'Poland' (Wikisource) · pl.wikipedia 'I rozbiór Polski' ve ilgili voyvodalık maddeleri. Vektör bir 1772 sınır çizgisi BULUNAMADI; ikincil kaynakta kesin sınır koordinatı yok."
 }
 ];

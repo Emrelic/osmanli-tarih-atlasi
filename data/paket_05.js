@@ -7776,11 +7776,13 @@ window.DEVLETLER = [
     { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV: kuveyt — «Hindistan genel valisi Lord Curzon yüzbaşı Mead’i Küveyt’e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899).»" },
     { t:"1914-11-22", tur:"son", b:"I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
   ] },
-{ id:"kumuk-samhalligi", ad:"Kumuk Şamhallığı (Tarki)", bolge:"kafkasya", f:"1578-11-01", t:"1607-01-01",
-  ozet:"Dağıstan'da Tarki merkezli Kumuk şamhallığı. Osmanlı-Safevî mücadelesi sırasında Osmanlı tâbiiyetini tanıdı; sonraki yüzyıllarda Rus baskısı altında bağımsızlığını yitirdi.",
+{ id:"kumuk-samhalligi", ad:"Kumuk Şamhallığı (Tarki)", bolge:"kafkasya", f:"1578-11-01", t:"1726-01-01",
+  ozet:"Dağıstan'da Tarki merkezli Kumuk şamhallığı. Osmanlı-Safevî mücadelesi sırasında Osmanlı tâbiiyetini tanıdı; 1722'de Rus tâbiiyetine girdi, 1726'da şamhallık kaldırılarak Rus idaresine bağlandı.",
   kaynak:"TDV `kumuklar` — şamhallık ADIYLA anlatılıyor: «Ruslar şemhallerin bağımsız yönetimlerine son verdiler (1725)» ve «Kumuklar, 1586 yılından itibaren başlayan Rus saldırılarına…». 🔴 Osmanlı tâbiiyeti penceresi (1578-1607) için GÜN YOK; `f:`/`t:` VERİDEN DEVRALINDI, kaynaksız.",
   kronoloji:[
-    { t:"1607-01-01", tur:"son", b:"Künyenin t: alanı burada kapanıyor; TDV bu günü doğrudan vermiyor, veriden devralındı — DOĞRULANMADI", kaynak:"künyenin kendi ozet alanı, kaynaksız" }
+    { t:"1607-01-01", tur:"vassal", b:"Osmanlı tâbiiyeti penceresinin sonu (Şirvan'ın kaybı)", kaynak:"veriden devralındı (Şirvan'ın Safevîlere dönüşü, 1607-01-01) — TDV bu günü doğrudan vermiyor" },
+    { t:"1722-08-24", tur:"vassal", b:"Şamhal Adil-Girey, Petro'yu Tarku'da ağırlayıp Rus tâbiiyetine girdi", kaynak:"Bukanova & Abdusalamov (Butkov: 13 Ağustos 1722 Jülyen = 24 Ağustos Gregoryen)" },
+    { t:"1726-01-01", tur:"son", b:"Şamhallık kaldırıldı, Tarku Rus idaresine geçti", kaynak:"Abdusalamov, Vestnik AGU 2011 (Mayıs 1726 tutuklama) · TDV kumuklar (1725) — YIL düzeyi" }
   ] },
 { id:"kaheti-kralligi", ad:"Kaheti Krallığı", bolge:"kafkasya", f:"1492-01-01", t:"1762-01-01",
   ozet:"Doğu Gürcistan'da Bagratoğulları'nın üç krallığından biri. 1578 Osmanlı seferinden sonra ocaklık olarak eski hâkimine bırakıldı ve haraca bağlandı.",

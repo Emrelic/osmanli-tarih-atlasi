@@ -119,6 +119,32 @@ function _ahBolgeleriUret(kayit) {
     // kayıt YOKSA, örn. Pasarofça). `sinir_id` yolunun AYNI özellikleriyle (renk/etiket/kayit_id)
     // üretir, yalnız `kayit_id` burada `null` (hukuki_sinirlar'da bir karşılığı yok — tıklanınca
     // popup yalnız kendi `ad`/`kaynak`ını gösterir, C kaydına referans vermez).
+    // 🆕 SIRADA-A-1012 (0066/H-0005, Emre 13 Ekim) — `bolge.zarf:true`: noktalar'ın DIŞ ZARFI
+    // (dışbükey kabuk) dolgu olarak da çizilir. Zarf sınır DEĞİL, KAYNAKTA ADIYLA o devlete
+    // geçtiği yazılı yerleşimlerin kapladığı çekirdek alandır (muhafazakâr: gerçek pay daha
+    // geniş olabilir); kaba kutudan farkı, sonraki paylaşmaların (1793/1795) topraklarını
+    // KAPSAMAMASIDIR.
+    if (bolge.zarf && Array.isArray(bolge.noktalar)) {
+      var _zp = bolge.noktalar.filter(function (n) { return n.lat != null && n.lon != null; })
+        .map(function (n) { return [n.lon, n.lat]; }).sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
+      var _cz = function (o, a, b) { return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]); };
+      var _alt = [], _ust = [];
+      _zp.forEach(function (p) {
+        while (_alt.length >= 2 && _cz(_alt[_alt.length - 2], _alt[_alt.length - 1], p) <= 0) _alt.pop();
+        _alt.push(p);
+      });
+      _zp.slice().reverse().forEach(function (p) {
+        while (_ust.length >= 2 && _cz(_ust[_ust.length - 2], _ust[_ust.length - 1], p) <= 0) _ust.pop();
+        _ust.push(p);
+      });
+      var _halka = _alt.slice(0, -1).concat(_ust.slice(0, -1));
+      if (_halka.length >= 3) {
+        _halka.push(_halka[0]);
+        var _zpoly = { type: "Polygon", coordinates: [_halka] };
+        dolguFeat.push({ type: "Feature", properties: { renk: renk, kayit_id: null, etiket: bolge.etiket }, geometry: _zpoly });
+        if (!etiketAnkraj) etiketAnkraj = _ahPoligonCentroid(_zpoly);
+      }
+    }
     if (Array.isArray(bolge.noktalar)) {
       bolge.noktalar.forEach(function (n) {
         if (n.lat == null || n.lon == null) { console.warn("ANTLAŞMA HARİTASI: '" + (n.ad || "?") + "' koordinatsız — atlandı."); return; }
