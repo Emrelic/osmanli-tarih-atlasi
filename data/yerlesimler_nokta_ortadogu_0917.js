@@ -47,7 +47,7 @@ window.YERLESIMLER_NOKTA_ORTADOGU_0917 = [
 // ── Hadramut içi (küme 16.71°K 48.51°D · ~22.500 km²) ──
 { ad:"Seyûn (Sayvan)", tur:"sehir", lat:15.9433, lon:48.7933, g:0, k:3,
   s:[{f:"1281-01-01",t:"1450-01-01",d:"yemen-zeydi"},{f:"1450-01-01",t:"1538-01-01",d:"kesiri-sultanligi"},{f:"1635-10-22",t:"1659-01-01",d:"kesiri-sultanligi"},{f:"1659-01-01",t:"1700-01-01",d:"yemen-zeydi"},{f:"1700-01-01",t:"1923-10-29",d:"kesiri-sultanligi"}], d:[],
-  v:[{f:"1538-01-01",t:"1635-10-22",k:"Kesîrî reisleri (tâbi)",statu:"vassal"}],
+  v:[{f:"1538-01-01",t:"1635-10-22",k:"Kesîrî reisleri (tâbi)",statu:"vassal",kid:"kesiri-sultanligi"}],
   neden:"🔴 1281-1450: kaynakta RESÛLÎ hâkimiyeti (1229-1454; 1280'de Hadramut alındı), sonra Tâhirî — ikisinin de künyesi YOK; atlasın Yemen konvansiyonuyla `yemen-zeydi` (harita yemen) yazıldı — bu bir YANLIŞ ATIF YAKLAŞIKLAMASIDIR, Resûlî/Tâhirî künyesi gelince düzeltilmeli. 1450: kesiri-sultanligi künye yılı (TDV 'XV. yy ikinci yarısı'). 1538-01-01: TDV yıl (Hadım Süleyman Paşa seferi); Osmanlı sancağı ama idare Kesîrî reislerinde → v:. 1635-10-22: TDV yemen, Osmanlı'nın Yemen'den son çekilişi (Muhâ) — Hadramut'a özgü bitiş cümlesi YOK. 1659-01-01: TDV 1069 (1658-59) Zeydî istilâsı. 🟡 1700-01-01: TDV 'XVIII. yy ilk yarısında' Zeydî ve Kesîrî nüfuzu zayıfladı — YARIM YÜZYIL KABALIĞI, gerçek yıl bulunamadı. 19. yy: TDV 'Sayvan Kesîrîler'in'; 1881 sonrası 'Şibâm, Sayvan ve Terîm Kesîrîler'de kaldı'.",
   kaynak:"TDV hadramut ('Hadramut içinde idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'; '1069'da (1658-59) Zeydî imamı … Hadramut'u istilâ etti') · TDV yemen ('10 Cemâziyelevvel 1045'te (22 Ekim 1635) … Muhâ'dan ayrıldı') · TDV resuliler · GeoNames 70981" }
 

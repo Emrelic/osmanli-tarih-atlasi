@@ -14,7 +14,7 @@ import sys, os
 sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UYGULA = "--uygula" in sys.argv
-BOLUMLER = {"A"}
+BOLUMLER = set()  # 12 Eki 2026: A (Sehrizor maddesi) ZATEN VAR olaylar_ek5.js:498 - varsayilandan cikarildi
 if "--don" in sys.argv: BOLUMLER.add("B")
 if "--guryel" in sys.argv: BOLUMLER.add("C")
 

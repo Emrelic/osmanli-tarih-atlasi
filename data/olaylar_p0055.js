@@ -87,6 +87,15 @@ window.OLAYLAR_P0055 = [
 //    maddeler bu dosyaya yazıldı (başka madde dosyası yetkisi yok).
 //    Kaynak yama: denetim/YAMA-ARAP-0914.json ARAP-N1 (M4 · M4b).
 // ═════════════════════════════════════════════════════════════════════
+{ t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+  b:"Desaix'nin Yukarı Mısır seferi — Fransız tümeni Minye, Asyut ve Girga'ya ulaştı",
+  gun:"21 Aralık (Minye) · 25 Aralık (Asyut) · 29 Aralık 1798 (Girga)",
+  yer:"Minye, Asyut, Girga", yer_id:"Asyut",
+  kisiler:"Desaix, Napolyon Bonapart",
+  d:"Napolyon Kahire'de otururken General Desaix'nin tümeni Memlük kuvvetlerini kovalayarak Nil vadisinde güneye ilerledi: 21 Aralık 1798'de Minye'ye, Noel günü Asyut'a, 29 Aralık'ta Girga'ya vardı. Şubat 1799'da Asvan'a ulaşan bu yürüyüşle Kahire ile Asvan arasındaki vadi Fransız denetimine girdi.",
+  ic_not_d:"SIRADA-C / AKDENIZ-ARAP-0082 H-0058: Asyut'un işgali haritada 1798-07-01 görünüyordu (kaynaksız); kaynaklı gün Noel 1798. Bu madde Minye (12-21) · Asyut (12-25) · Girga (12-29) isg: kırılmalarının Değişmez 2i bağıdır.",
+  kaynak:"Jacques Juillet, Revue du Souvenir Napoléonien 363, s. 2-13 (napoleon.org, Desaix): «Le jour de Noël 1798, la division arrive à Siout» · «Desaix parvient le 29 décembre à Girgeh» · Hourtoulle, napoleon.org «La campagne d'Égypte»: «Le 21 décembre, il atteint Minieh»", duygu:["😔"] },
+
 { t:"1799-02-18", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
   b:"Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı",
   gun:"18 Şubat 1799",

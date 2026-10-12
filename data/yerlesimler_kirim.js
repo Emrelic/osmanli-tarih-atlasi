@@ -161,30 +161,30 @@ window.YERLESIMLER_KIRIM = [
 // ── B) KEFE SANCAĞI SAHİLİ — Kefe zincirinin birebir aynısı ──────────
 // TDV `kefe`: Suğdak sancağın beş kazasından biri.
 { ad:"Sudak (Suğdak)", tur:"liman", lat:44.8494, lon:34.9747, g:0, k:3, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[{f:"1475-06-06",t:"1783-04-19"}],
-  isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  d:[{f:"1475-06-06",t:"1774-07-21"}],
+  isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
 // TDV `kefe`: Balıklava idarî olarak Mangub kazasına bağlıydı. Mangub bu
 // partide YOK (renk engeli, yukarıda), o yüzden m: sancak merkezini
 // gösteriyor — zincir Kefe ile aynı olduğu için Değişmez 3 çelişkisi yok.
 { ad:"Balaklava (Cembalo)", tur:"liman", lat:44.5000, lon:33.5997, g:0, k:4, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[{f:"1475-06-06",t:"1783-04-19"}],
-  isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  d:[{f:"1475-06-06",t:"1774-07-21"}],
+  isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
 // Yalta ve Aluşta: TDV `kirim`in sahil şehirleri listesinde adları geçiyor
 // ve ikisi de "Kerç'ten Balıklava'ya kadar" şeridin İÇİNDE. Bu ikisi
 // olmadan güney sahili Bahçesaray ile Sudak'ın orta dikmesine kalıyordu —
 // yani han toprağı denize iniyor, sancak şeridi kopuk görünüyordu.
 { ad:"Yalta", tur:"liman", lat:44.4952, lon:34.1663, g:0, k:4, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[{f:"1475-06-06",t:"1783-04-19"}],
-  isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  d:[{f:"1475-06-06",t:"1774-07-21"}],
+  isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
 { ad:"Aluşta", tur:"kale", lat:44.6764, lon:34.4103, g:0, k:4, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[{f:"1475-06-06",t:"1783-04-19"}],
-  isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  d:[{f:"1475-06-06",t:"1774-07-21"}],
+  isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
 ];

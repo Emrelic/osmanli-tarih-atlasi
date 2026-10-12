@@ -308,11 +308,11 @@ window.OLAYLAR_EK16 = [
 
 { t:"1509-05-17", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:4, b:"Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika seferi",
-  gun:"17-18 Mayıs 1509 (filo 16'sında Cartagena'dan kalktı, şehir 18'inde alındı, Cisneros 20'sinde girdi)",
+  gun:"17 Mayıs 1509",
   yer:"Oran",
   yer_id:"Oran", kisiler:"Kardinal Francisco Jiménez de Cisneros, Pedro Navarro",
-  d:"TDV'nin Cezayir/Mağrib maddeleri bu olayı doğrulamıyor; standart akademik kaynağa göre Kastilya Kralı Fernando adına hareket eden Kardinal Cisneros'un finanse ettiği donanma (80 gemi, ~10-12 bin piyade) 16 Mayıs 1509'da Cartagena'dan (zaten 1505'ten beri İspanyol elinde olan) Mersa'l-Kebîr'e doğru yola çıktı, Pedro Navarro komutasındaki kuvvetler 18 Mayıs'ta Zeyyânî hâkimiyetindeki Oran'ı fırtına gibi ele geçirdi (savunmacı ~12.000 kayıp verdi, saldıranlar 30'dan az), Cisneros şehre 20 Mayıs'ta girdi. Oran, 1708'e kadar İspanyol enklavı olarak kaldı.",
-  kaynak:"bulunamadı — TDV bu olayı yeterli ayrıntıda doğrulamıyor, dayanak: standart akademik kaynak (Spanish conquest of Oran, 1509 tarihyazımı)", duygu:["😔"] },
+  d:"Batı Akdeniz deniz yolunu denetleyen ve Tilimsân'ın limanı olan Vehrân (Oran), 1492'de Gırnata'dan kaçan Endülüslü müslüman ve yahudilerin sığınmasıyla büyümüştü. XVI. yüzyıl başında Mağrib kıyısındaki liman şehirlerini birer birer alan Kastilya Krallığı 17 Mayıs 1509'da Vehrân'ı işgal etti; halkın büyük kısmı katledildi, kalanlar esir alındı ve şehirde müslüman ile yahudi nüfus kalmadı. İspanyollar sur ve kaleleri genişletti; Vehrân 1708'e kadar İspanya'nın elinde kaldı.", ic_not_d:"DUNYA-KRONO-0081 / H-0006: eski d 'TDV bu olayı doğrulamıyor' diyordu — TDV vehran gün vererek doğruluyor. Eski d'deki sefer ayrıntıları (Cartagena kalkışı 16 Mayıs, 18 Mayıs düşüş, Cisneros'un 20 Mayıs girişi, gemi/asker/kayıp sayıları) kaynak adı taşımadığı için çıkarıldı; Batı tarihyazımı düşüşü 18 Mayıs'a koyar, TDV 17 Mayıs der — TDV esastır (§4). Emre'nin istediği ek okuma ZATEN VAR: data/ekokuma_akdeniz.js tartisma-akdeniz-vehran-onemi, olay:'1509-05-17|Oran'.",
+  kaynak:"vehran — TDV AYNEN: 'Kastilya Krallığı 17 Mayıs 1509'da Vehrân'ı işgal edip halkının büyük kısmını katletti, geri kalanları da esir aldı.' · hassasiyet: GÜN", duygu:["😔"] },
 
 { t:"1611-06-13", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Smolensk'in Lehistan-Litvanya'ya düşüşü — 20 aylık kuşatmanın sonu",

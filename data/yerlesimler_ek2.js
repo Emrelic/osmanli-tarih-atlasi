@@ -132,18 +132,18 @@ window.YERLESIMLER_EK2 = [
 //      merkezi (Biga) zinciri aynıydı. Mankup'ta öyle bir merkez YOK —
 //      Kefe'nin 1475 öncesi sahibi farklı. Aynı kusur, iki farklı çare.
 { ad:"Mankup", kd:[{f:"1281-01-01",t:"1475-06-06",k:0,m:null},{f:"1475-06-06",t:"1923-10-29",k:3,m:"Kefe"}],neden:"k:3, m:— idi. İLK TASLAĞIM Bahçesaray'dı (Kırım Hanlığı başkenti) — TDV okununca YANLIŞ çıktı: Mankup'un kendi verisi zaten d: (doğrudan Osmanlı) diyor, v: (tâbi/Hanlık) değil. TDV bunu doğruluyor: Mankup Kefe sancağının kazasıydı, Kırım Hanlığı'nın değil. Bu düzeltme AYRICA İnkirman'ı da kapatıyor: veride zaten m:'Mankup' yazılıydı ve TDV bunu da doğruluyor ('Balıklagu ve İnkerman da Mangub'a bağlı şehirlerdi').",m:"Kefe", tur:"kale", lat:44.5942, lon:33.8044, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[{f:"1475-06-06",t:"1783-04-19"}],
-  isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
+  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  d:[{f:"1475-06-06",t:"1774-07-21"}],
+  isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
 // Kalamita — Theodoro'nun limanı. Balaklava'ya 11,94 km (3 km kuralı ✓);
 // ikisi de artık haritada ve ikisi AYRI devlete ait: Balaklava Ceneviz,
 // İnkirman Theodoro. Kırım'ın güneybatısındaki üç ayrı sahiplik
 // (Ceneviz sahili · Theodoro dağı · han toprağı) ilk defa temsil ediliyor.
 { ad:"İnkirman (Kalamita)", tur:"kale", lat:44.6072, lon:33.6061, g:0, k:4, m:"Mankup",
-  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[{f:"1475-06-06",t:"1783-04-19"}],
-  isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
+  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  d:[{f:"1475-06-06",t:"1774-07-21"}],
+  isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
 ];
 

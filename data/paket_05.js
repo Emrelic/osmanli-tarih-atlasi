@@ -678,7 +678,7 @@ window.DEVLETLER = [
 // ===================== TIER 3 — AVRUPA'NIN ORTA ÖLÇEK DEVLETLERİ =====================
 
 { id:"macaristan", ad:"Macaristan Krallığı (bağımsız dönem)", tur:"krallik", bolge:"orta-avrupa",
-  f:"1000-01-01", t:"1526-08-29", baskent:"Buda", harita:"macaristan",
+  f:"1000-01-01", t:"1527-01-01", baskent:"Buda", harita:"macaristan",
   ozet:"Bağımsız Macar krallığı (hanedan ömrü, Árpádlardan başlayıp çeşitli hanedanlarla sürdü); Mohaç bozgunuyla (29 Ağustos 1526) bağımsızlığını kaybetti, toprakları Osmanlı, Habsburg ve Erdel arasında bölündü.",
   kaynak:"macaristan",
   kronoloji:[
@@ -692,11 +692,13 @@ window.DEVLETLER = [
     { t:"1490-04-06", tur:"hukumdar", b:"Mátyás'ın ölümüyle Jagiellon hanedanı tahta geçti, merkezi otorite zayıfladı" },
     { t:"1514-07-15", tur:"isyan", b:"Dózsa György köylü isyanı bastırıldı, feodal baskı ve askerî zaaf arttı" },
     { t:"1521-08-29", tur:"toprak-kayip", b:"Kanunî, Belgrad'ı fethetti — güney savunma hattı çöktü" },
-    { t:"1526-08-29", tur:"son", b:"Mohaç'ta II. Layoş öldü, krallık bağımsızlığını kaybetti" }
+    { t:"1526-08-29", tur:"savas", b:"Mohaç'ta II. Layoş öldü, taht boşaldı" },
+    { t:"1526-11-10", tur:"hukumdar", b:"Soylular János Szapolyai'yi kral seçti; Osmanlı onun krallığını tâbi olması kaydıyla tanıdı", kaynak:"TDV suleyman-i (BALKAN-MACAR-0081)" },
+    { t:"1527-01-01", tur:"son", b:"I. Ferdinand'ın da kral seçilmesiyle (17 Aralık 1526; Hırvatlar 1527) tek krallık ikiye bölündü", kaynak:"TDV suleyman-i · budin · hirvatistan (1527 YIL) — BALKAN-MACAR-0081: künye Mohaç GÜNÜ bitiyordu, devlet bir savaşın gününe bağlanmıştı (habsburg künyesinin 464f91fd'deki eşi)" }
   ]
 },
 { id:"macaristan-habsburg", ad:"Macaristan Krallığı (Habsburg Tacı)", tur:"krallik", bolge:"orta-avrupa",
-  f:"1526-08-29", t:"1918-11-16", baskent:"Pozsony (Bratislava) → Buda",
+  f:"1526-12-17", t:"1918-11-16", baskent:"Pozsony (Bratislava) → Buda",
   ozet:"Mohaç sonrası Habsburg hanedanının seçilmiş/kalıtsal kralı olarak sürdürdüğü, üç parçaya bölünmüş dönemin (bkz. [[erdel]]) Kraliyet Macaristanı; Osmanlı'nın 1699'da kesin çekilişinden sonra tüm ülkeyi kapsayacak şekilde genişledi, 1867'de Avusturya-Macaristan ikili monarşisinin eşit ortağı oldu. Devam: bkz. [[macaristan-naiplik]].",
   harita:"macaristan",
   kaynak:"macaristan",
@@ -7630,6 +7632,7 @@ window.DEVLETLER = [
     { t:"1591-01-01", tur:"toprak-kazanc", b:"Songhay İmparatorluğu'nun (Fas istilasıyla) yıkılmasının ardından Agadez Sultanlığı yeniden bağımsızlığına kavuştu.", kaynak:"Minahan (2016), a.g.e. — WebSearch özetinden" }
   ] },
 { id:"kesiri-sultanligi", ad:"Kesîrî Sultanlığı (Hadramut iç kesimi)", bolge:"arabistan", f:"1450-01-01", t:"1967-11-30",
+  tabi:[{f:"1538-01-01", t:"1635-10-22", ust:"osmanli", kaynak:"BALKAN-MACAR-0081 H-0037: TDV hadramut 'Hadım Süleyman Paşa’nın Hindistan seferi sırasında (1538) Osmanlı Devleti’nin idaresine giren Hadramut Yemen’e bağlı bir sancak olarak teşkilâtlandırıldı. Ancak Hadramut içinde idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi' · Mayıs 1566 hükmü Sultan Bedr'i 'Hadramut sancağının hâkimi' der · t: TDV yemen 22 Ekim 1635 (Hadramut'a özgü bitiş cümlesi YOK — Seyûn kaydıyla aynı)"}],
   ozet:"Hadramut vadisinin iç kesimine (Sayvan, zaman zaman Terîm/Şibâm) hâkim olan Kesîrî kabilesi; 1538'de nominal Osmanlı sancağı ilan edilen dönemde bile 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'; 1888 İngiliz-Yâfiî/Kuaytî himaye antlaşmasından sonra da İngilizler 'iç bölgeleri Kesîrîler'e bıraktı', yani kıyı gibi doğrudan himayeye girmedi.",
   kaynak:"TDV, madde: hadramut (CANLI, raw HTML doğrulandı, 2 Eylül taraması + 5 Eylül yeniden okuma) — \"XV. yüzyılın ikinci yarısında da Kesîrîler ülkenin bir bölümüne hâkim oldular.\" 🟡 HASSASİYET: kaynak yalnız 'yüzyılın ikinci yarısı' diyor, gün/yıl YOK — f: bu yüzden 1450-01-01 olarak YÜZYIL-YARISI kabaligindadir, sahte kesinlik DEĞİL.",
   kronoloji:[
