@@ -17,6 +17,9 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
 
 ## Çalışma düzeni
 
+- 🔴 **İşe başlamadan önce kendi worktree'ne geç:** dosya değiştirecek her oturum ilk iş
+  `EnterWorktree` aracını işin kısa adıyla çağırır (`.claude/worktrees/<ad>/`, `origin/main`den
+  yeni dal). Yalnız okuyan/soru cevaplayan oturum geçmez. Ayrıntı: "Worktree" bölümü.
 - Kullanıcı (Emre) işi doğrudan oturuma verir. Koordinatör, işçi oturum, hazır kıta, tahta,
   bekçi **kullanılmaz.** Paket maddelerinin tek kaydı **kutu** uygulamasıdır.
 - Paralel iş gerekirse **alt ajan** (Agent aracı) kullan; aynı dosyaya yazacak paralel ajanları
@@ -31,8 +34,10 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
 - Bitince / soru sorarken 3 beep, beklenmedik uzun iş bitince 9 beep:
   `powershell -c "[Console]::Beep(800,300); [Console]::Beep(800,300); [Console]::Beep(800,300)"`
   `powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Milliseconds 120 }"`
-- **İş bitti sayılmaz** ta ki: push kapısından geçti · `py arac/kilit.py birak-hepsi --kim "<AD>"`
-  · arka planda süreç kalmadı. Sonra oturum olduğu gibi bırakılır.
+- **İş bitti sayılmaz** ta ki: push kapısından geçti · kilitler bırakıldı
+  (`py arac/kilit.py birak-hepsi --kim "<kancanın verdiği ad>"`) · worktree kaldırıldı
+  (`ExitWorktree` `remove`) · arka planda süreç kalmadı. Sonra oturum olduğu gibi bırakılır.
+- Eski koordinatör/işçi/tahta düzeni yalnız Emre `/koordinator-modu ac` derse o oturum için açılır.
 
 ## Komutlar
 
@@ -123,13 +128,32 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
   cümlenin neyi tarihlediğini oku. Bulunamadıysa `bulunamadı` yaz, kaynak gizlenmez.
 - Küçük model (Haiku) kaynak araştırmasında kullanılmaz.
 
+## Worktree
+
+Worktree, deponun **ayrı bir klasördeki ikinci çalışma kopyasıdır**: aynı git geçmişi, kendi
+dosyaları, kendi dalı. Aynı klasörde iki oturum aynı dosyayı yazınca biri ötekini sessizce
+ezer; her oturum kendi worktree'sinde yazınca bu fiziksel olarak imkânsızdır — iki iş ancak
+push kapısındaki rebase'de buluşur: farklı satırlar kendiliğinden birleşir, aynı satırlar
+**çatışma** verir ve kapı durur (iş kaybolmaz, oturum çözer).
+- Açılış: `EnterWorktree` (ad = işin kısa adı). Bedel ~640 MB disk + yarım dakika.
+- Üretilmiş ham dosyalar (`devletler_harita.js`, `donemler.js`) worktree'de YOKTUR; `denetle`
+  gerekiyorsa önce `py arac/kodla.py coz-c data data/devletler_harita.js` ve
+  `py arac/kodla.py coz-c data data/donemler.js donem`.
+- Push worktree'nin içinden: `py arac/push_kapisi.py --kim "<AD>"` (dalı `origin/main`e rebase
+  edip `main`e iter). Sonra `ExitWorktree` `remove`.
+- Paralel alt ajanlar da aynı dosyaya yazacaksa `isolation: "worktree"` ile açılır.
+
 ## Git, kilit, push
 
 - **Ağaç gerideyse ölçme:** `git fetch origin --quiet && git rev-list --count HEAD..origin/main`
   0 değilse önce güncelle. Ölçüm ayrı worktree'de `origin/main`den yapılır.
-- **Dosya kilidi:** yazmadan önce `py arac/kilit.py al <dosya> --kim "<AD>"` → 0 sende · 1
-  başkasında (sıradasın; boşta başka iş varsa onu al) · 2 ölçülemedi (yazma). Kilit yalnız bu
-  makineyi görür.
+- **Dosya kilidi — ikinci katman, KANCAYLA kendiliğinden:** `arac/kilit_kanca.py` her
+  Write/Edit'in önünde çalışır; dosyayı ilk yazmada senin adına (`oturum-xxxxxx`) alır, her
+  yazmada süreyi tazeler. Dosya başkasındaysa yazmayı ENGELLER ve seni sıraya sokar — boşta
+  başka iş varsa onu al, yoksa Emre'ye söyle. **60 dk o dosyaya yazılmazsa kilit düşer** ve
+  sıradakine geçer. Kilit bütün worktree'ler için ortaktır, ama yalnız bu makineyi görür ve
+  betikle (`py arac/...`) yazmayı görmez — asıl koruma worktree'dir. Elle:
+  `py arac/kilit.py durum|al|birak|birak-hepsi` (çıkış 0 sende · 1 başkasında · 2 ölçülemedi).
 - **Commit:** dosyaları **adıyla** ekle; `git add -A` ve dizin pathspec'i yasak. Aynı klasördeki
   oturumlar aynı index'i paylaşır: `git add -- <adlar>` + `git commit -F <mesaj-dosyası> -- <aynı adlar>`,
   sonra `git show --name-only` ile doğrula.

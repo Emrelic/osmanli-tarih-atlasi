@@ -168,6 +168,62 @@ madde("14a", "nöbet dosyası işlemden sonra KALMAZ",
       0 if not os.path.exists(DURUM + ".nobet") else 9, 0)
 
 print()
+print("K. SÜRE AŞIMI (12 Ekim 2026) — ölçüt SON YAZMA, iki yönde")
+T = "data/sure.js"
+
+
+def kos_sure(dk, *argv):
+    orт = dict(os.environ, KILIT_DURUM=DURUM, KILIT_TAHTA="0", KILIT_SURE_DK=str(dk))
+    r = subprocess.run([sys.executable, ALET] + list(argv), capture_output=True, env=orт)
+    return r.returncode, (r.stdout + r.stderr).decode("utf-8", "replace")
+
+
+kos_sure(60, "al", T, "--kim", "ESKI")
+k, m = kos_sure(60, "al", T, "--kim", "YENI")
+madde("15a", "süre DOLMADAN başkası alamaz (sıraya girer)", k, 1, m, "KULLANIMDA",
+      olmamali="SÜRE AŞIMI")
+k, m = kos_sure(0.00001, "al", T, "--kim", "UCUNCU")
+madde("15b", "süre DOLUNCA kilit düşer ve SIRADAKİNE geçer", k, 1, m, "SÜRE AŞIMI")
+k, m = kos_sure(60, "kimde", T)
+madde("15c", "🔴 yeni sahip SIRADAKİ (YENI), son gelen değil", k, 1, m, "YENI",
+      olmamali="UCUNCU (")
+with io.open(DURUM, encoding="utf-8") as f:
+    d = json.load(f)
+madde("15d", "düşüş sure_asimi_gecmis'e KAYDOLUR",
+      0 if any(x.get("eski_sahip") == "ESKI" for x in d.get("sure_asimi_gecmis", [])) else 9, 0)
+k, m = kos_sure(0.00001, "al", T, "--kim", "YENI")
+madde("15e", "🔴 sahibi kendi kilidini süre aşımıyla KAYBETMEZ", k, 0, m, "ZATEN SENDE",
+      olmamali="SÜRE AŞIMI")
+kos_sure(60, "birak-hepsi", "--kim", "YENI")
+kos_sure(60, "birak-hepsi", "--kim", "UCUNCU")
+k, m = kos_sure(60, "kimde", T)
+madde("15f", "sıra boşaldıktan sonra SERBEST", k, 0, m, "SERBEST")
+
+print()
+print("L. WORKTREE — ortak kök ve aynı anahtar")
+wt = os.path.join(tmp, "ana", ".claude", "worktrees", "x")
+os.makedirs(os.path.join(wt, "data"))
+os.makedirs(os.path.join(tmp, "ana", ".git"))
+with io.open(os.path.join(wt, ".git"), "w", encoding="utf-8") as f:
+    f.write("gitdir: %s/.git/worktrees/x\n" % os.path.join(tmp, "ana").replace("\\", "/"))
+kod = ("import sys;sys.path.insert(0,%r);import kilit;"
+       "print(kilit.ortak_kok(%r)==%r, kilit.yol_anahtar(%r), kilit.yol_anahtar(%r))"
+       % (os.path.join(KOK, "arac"), wt, os.path.normpath(os.path.join(tmp, "ana")),
+          os.path.join(wt, "data", "a.js"), os.path.join(tmp, "ana", "data", "a.js")))
+r = subprocess.run([sys.executable, "-c", kod], capture_output=True,
+                   env=dict(os.environ, KILIT_DURUM=DURUM))
+cikti = r.stdout.decode("utf-8", "replace").split()
+madde("16a", "worktree'nin .git dosyası ANA kökü gösterir", 0 if cikti[:1] == ["True"] else 9, 0)
+madde("16b", "worktree dosyası ile ana dosya AYNI anahtar",
+      0 if len(cikti) == 3 and cikti[1] == cikti[2] == "data/a.js" else 9, 0, " ".join(cikti))
+madde("16c", "🔴 ana kök kendisi için kendini döndürür (worktree değilse)",
+      0 if subprocess.run([sys.executable, "-c",
+                           "import sys;sys.path.insert(0,%r);import kilit;"
+                           "sys.exit(0 if kilit.ortak_kok(%r)==%r else 9)"
+                           % (os.path.join(KOK, "arac"), os.path.join(tmp, "ana"),
+                              os.path.join(tmp, "ana"))]).returncode == 0 else 9, 0)
+
+print()
 print("=" * 62)
 print("GEÇTİ %d · KIRIK %d" % (gecti, kirik))
 if satir:

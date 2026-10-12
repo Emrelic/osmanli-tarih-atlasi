@@ -1,8 +1,12 @@
 __pycache__/
 *.pyc
-.claude/
+.claude/*
 !.claude/commands/
 !.claude/commands/*.md
+# 12 Ekim 2026: proje kancaları (kabuk_nobetci, kilit_kanca) depoda izlenir ⇒ her
+# makineye ve her worktree'ye gider. .claude/worktrees/ ve settings.local.json YEREL kalır.
+!.claude/settings.json
+!.claude/skills/
 
 # Koşu damgası — her üretimde değişir, TAKİPÇİ yerelde okur
 .uretim-basladi
@@ -318,5 +322,7 @@ ClaudEmre-kutu/
 # ve bayat bir kilit gercek bir isi bloke eder (tahta nabziyla ayni sinif).
 /oturumlar/kilit.json
 /oturumlar/kilit.json.*
+# koordinatör modu işareti (.claude/skills/koordinator-modu) — makineye yerel
+/oturumlar/MOD.json
 /oturumlar/kilit_adlar.json
 /oturumlar/tahta_bayrak.log

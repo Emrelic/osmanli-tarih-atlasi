@@ -32,12 +32,25 @@ UNUTKANLIĞI önler. Farkı bilerek kullan.
 🔴 `2`nin yönü kasıtlı: ölçemediğimizde SERBEST değil MEŞGUL sayıyoruz.
   Ters yön iki oturumu aynı dosyaya sokar; bu yön yalnız bekletir.
 
-🔴 OTOMATİK DEVRALMA YOK. `kosu_kilit.py` bunu bedelini ödeyerek öğrendi:
-  "en uzun makul koşu 4 saat" diye bir TAVAN konmuştu, koşu 16 saat 09 dakika
-  sürdü ve kilit devralınabilir hâle geldi. Yaş bir VEKİLDİR. Burada bir
-  oturumun "canlı"lığını ölçecek süreç kimliği de yok (her araç çağrısı ayrı
-  süreç) ⇒ bayat kilit OTOMATİK düşmez; `durum` onu YAŞIYLA gösterir ve
-  düşürmeyi insan yapar (`zorla-birak --gerekce`).
+🔴 SÜRE AŞIMI (Emre, 12 Ekim 2026): *"o dosyanın kancadan düşmesi için belli bir
+  süre o dosyaya hiçbir şey yazılmamış olması kuralı olmalı."* Oturumlar iş
+  bitince OLDUĞU GİBİ bırakılıyor (koordinatörsüz düzen) ⇒ `birak` unutulur ve
+  "otomatik devralma yok" kuralı her unutulan kilidi kalıcı bir tıkaca
+  çeviriyordu. Ölçüt ALINIŞ değil SON YAZMA zamanıdır (`son_yazma`, kanca her
+  yazmada tazeler): `SURE_DK` dakika boyunca o dosyaya yazılmamış kilit düşer;
+  sırada biri varsa ONA geçer, yoksa serbest kalır; her düşüş
+  `sure_asimi_gecmis`e kaydolur. Erken düşen kilidin sahibi yeniden yazmaya
+  kalkarsa kanca onu sıraya sokar ve Edit aracı "dosya okunduktan sonra
+  değişti" diye zaten reddeder — sessiz ezme yoktur.
+  📌 Eski ders hâlâ geçerli: yaş bir VEKİLDİR (`kosu_kilit.py`, 16 saatlik koşu).
+  Bu yüzden ölçüt "süreç ne kadar yaşadı" değil "dosyaya en son ne zaman
+  yazıldı"dır — ve koşu kilidi (`kosu_kilit.py`) bu kurala TABİ DEĞİLDİR.
+
+🟢 WORKTREE (12 Ekim 2026): her oturum kendi worktree'sinde çalışır. Kilit
+  durumu ANA deponun `oturumlar/kilit.json`ında tutulur (worktree'nin `.git`
+  dosyası ana depoyu gösterir) ve anahtar dosyanın KENDİ worktree köküne
+  göreli yoludur ⇒ `C:/atlas/data/a.js` ile `.claude/worktrees/x/data/a.js`
+  AYNI kilittir.
 
 ⚠️ BEYAN EDİLEN SINIR — SESSİZ DEĞİL: kilit BU MAKİNEYE AİTTİR.
   Başka makinedeki bir oturumun kilidi burada GÖRÜNMEZ. `durum` bunu her
@@ -52,8 +65,11 @@ import os
 import sys
 import time
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+# `reconfigure`, YENİ sarıcı değil: kanca bu modülü içe aktarınca ikinci bir
+# TextIOWrapper ilkini kapatıyor ve kanca "I/O operation on closed file" ile
+# çöküyordu (12 Ekim 2026'da kanca ilk kez koşunca ölçüldü).
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -66,11 +82,44 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #   "yalnız arıza için" denmesine rağmen üretimde kullanılma riski taşıyor.
 #   ⇒ Bu yüzden ikisi de KULLANILDIĞINDA EKRANA BASAR. Sessiz bir kaçış
 #     kapısı, kapı olmayan bir kapıdır.
-DURUM = os.environ.get("KILIT_DURUM") or os.path.join(KOK, "oturumlar", "kilit.json")
-TAHTA_ACIK = os.environ.get("KILIT_TAHTA", "1") != "0"
+def ortak_kok(kok):
+    """Worktree'de `.git` bir DOSYADIR: `gitdir: <ana>/.git/worktrees/<ad>`.
+    ⇒ kilit durumu ANA deponun köküne yazılır; yoksa her worktree yalnız
+    kendi kilidini görür ve kilit hiçbir şeyi korumaz."""
+    g = os.path.join(kok, ".git")
+    if os.path.isfile(g):
+        try:
+            with io.open(g, encoding="utf-8") as f:
+                satir = f.read().strip()
+            if satir.startswith("gitdir:"):
+                parca = satir[7:].strip().replace("\\", "/").split("/.git/worktrees/")
+                if len(parca) == 2:
+                    return os.path.normpath(parca[0])
+        except OSError:
+            pass
+    return kok
+
+
+def depo_koku(yol):
+    """Dosyanın KENDİ çalışma ağacının kökü (`.git` dosya ya da dizin); yoksa None."""
+    d = os.path.dirname(os.path.normpath(os.path.abspath(yol)))
+    while True:
+        if os.path.exists(os.path.join(d, ".git")):
+            return d
+        u = os.path.dirname(d)
+        if u == d:
+            return None
+        d = u
+
+
+ORTAK = ortak_kok(KOK)
+DURUM = os.environ.get("KILIT_DURUM") or os.path.join(ORTAK, "oturumlar", "kilit.json")
+# Tahta 12 Ekim 2026'da kullanımdan kalktı ⇒ devir bildirimi YALNIZ açıkça istenirse.
+TAHTA_ACIK = os.environ.get("KILIT_TAHTA") == "1"
 NOBET = DURUM + ".nobet"          # O_EXCL mutex — oku-değiştir-yaz bölünmesin
 SURUM = 1
-BAYAT_SAAT = 6.0                  # yalnız RAPORLAMA eşiği; düşürme ölçütü DEĞİL
+BAYAT_SAAT = 6.0                  # yalnız RAPORLAMA eşiği
+SURE_DK = float(os.environ.get("KILIT_SURE_DK") or 60)   # son yazmadan bu kadar sonra düşer
 
 KOMUTLAR = ("al", "birak", "durum", "kimde", "birak-hepsi", "zorla-birak")
 BAYRAKLAR = ("--kim", "--gerekce", "--sessiz")
@@ -122,7 +171,7 @@ def yol_anahtar(y):
     Türkçe adlı bir dosya eklenirse bu satır ölçülmelidir. Sınır BEYANLI."""
     y = os.path.normpath(os.path.abspath(y))
     try:
-        y = os.path.relpath(y, KOK)
+        y = os.path.relpath(y, depo_koku(y) or KOK)
     except ValueError:
         pass                       # başka sürücü — mutlak yol anahtar olur
     return os.path.normcase(y).replace("\\", "/")
@@ -203,6 +252,34 @@ def yas_saat(damga):
     return (time.time() - t) / 3600.0
 
 
+def son_yazma(k):
+    return k.get("son_yazma") or k.get("alindi")
+
+
+def zaman_asti(k):
+    """Son yazmadan beri SURE_DK geçti mi. Yaş ölçülemiyorsa DÜŞMEZ (ölçülemedi ≠ serbest)."""
+    y = yas_saat(son_yazma(k))
+    return y is not None and y * 60.0 >= SURE_DK
+
+
+def bayat_dusur(d, anah):
+    """Süresi aşmış kilidi düşürür: sırada biri varsa ona geçer, yoksa siler.
+    Kayıt `sure_asimi_gecmis`e. → düşen sahibin adı ya da None. Nöbet ÇAĞIRANDA."""
+    k = d["kilitler"].get(anah)
+    if not k or not zaman_asti(k):
+        return None
+    d.setdefault("sure_asimi_gecmis", []).append(
+        {"dosya": anah, "eski_sahip": k.get("sahip"), "son_yazma": son_yazma(k),
+         "sure_dk": SURE_DK, "ne_zaman": simdi()})
+    sira = k.get("sira") or []
+    if sira:
+        yeni, t = sira.pop(0), simdi()
+        d["kilitler"][anah] = {"sahip": yeni["kim"], "alindi": t, "son_yazma": t, "sira": sira}
+    else:
+        del d["kilitler"][anah]
+    return k.get("sahip")
+
+
 def yas_yazi(damga):
     y = yas_saat(damga)
     if y is None:
@@ -219,8 +296,16 @@ def k_al(yol, kim, sessiz=False):
     with Nobet():
         d = yukle()
         k = d["kilitler"].get(anah)
+        if k is not None and k["sahip"] != kim:
+            dusen = bayat_dusur(d, anah)
+            if dusen:
+                print("⏱  SÜRE AŞIMI — %s: %s %.0f dk yazmadı, kilidi düştü"
+                      % (anah, dusen, SURE_DK))
+                kaydet(d)
+                k = d["kilitler"].get(anah)
         if k is None:
-            d["kilitler"][anah] = {"sahip": kim, "alindi": simdi(), "sira": []}
+            t = simdi()
+            d["kilitler"][anah] = {"sahip": kim, "alindi": t, "son_yazma": t, "sira": []}
             kaydet(d)
             if not sessiz:
                 print("🟢 KİLİT SENDE — %s" % anah)
@@ -228,8 +313,10 @@ def k_al(yol, kim, sessiz=False):
                 print("   bitince: py arac/kilit.py birak %s --kim \"%s\"" % (yol, kim))
             return 0
         if k["sahip"] == kim:
+            k["son_yazma"] = simdi()
+            kaydet(d)
             if not sessiz:
-                print("🟢 KİLİT ZATEN SENDE — %s (%s önce aldın)"
+                print("🟢 KİLİT ZATEN SENDE — %s (%s önce aldın; süre tazelendi)"
                       % (anah, yas_yazi(k.get("alindi"))))
             return 0
         # başkasında ⇒ sıraya gir (mükerrer girme)
@@ -245,10 +332,8 @@ def k_al(yol, kim, sessiz=False):
         print("   dosya  : %s" % anah)
         print("   kullanan: %s  (%s önce aldı)" % (k["sahip"], yas_yazi(k.get("alindi"))))
         print("   sıradaki yerim: %d / %d" % (yer, len(sira)))
-        if yas_saat(k.get("alindi")) is not None and yas_saat(k.get("alindi")) >= BAYAT_SAAT:
-            print("   🟡 kilit %s — sahibi durmuş OLABİLİR. Otomatik düşmez;"
-                  % yas_yazi(k.get("alindi")))
-            print("      koordinatör ölçer (§7.2 'takıldı demeden önce')")
+        print("   son yazma %s önce · %.0f dk yazılmazsa kilit düşer ve sıradakine geçer"
+              % (yas_yazi(son_yazma(k)), SURE_DK))
         return 1
 
 
@@ -277,7 +362,8 @@ def k_birak(yol, kim, sessiz=False):
         sira = k.get("sira") or []
         if sira:
             yeni = sira.pop(0)
-            d["kilitler"][anah] = {"sahip": yeni["kim"], "alindi": simdi(), "sira": sira}
+            t = simdi()
+            d["kilitler"][anah] = {"sahip": yeni["kim"], "alindi": t, "son_yazma": t, "sira": sira}
             kaydet(d)
             print("🟢 BIRAKTIN — %s" % anah)
             print("   ⇒ SIRADAKİ ALDI: %s  (%s beri bekliyordu)"
@@ -301,9 +387,7 @@ def _tahtaya_bildir(anah, eski, yeni, kalan):
     kilitlerdi — bir aracı başka bir aracın sağlığına bağlamak yeni bir
     arıza yüzü açar."""
     if not TAHTA_ACIK:
-        print("   ⚪ KILIT_TAHTA=0 — tahta bildirimi ATLANDI (sınav kipi)."
-              " Devir GERÇEKLEŞTİ, yalnız duyuru yapılmadı.")
-        return
+        return                     # tahta kullanımdan kalktı; devir ekrana basıldı
     try:
         import subprocess
         mesaj = ("DOSYA KİLİDİ DEVREDİLDİ — %s\n  bırakan: %s\n  alan: %s\n"
@@ -324,7 +408,8 @@ def k_durum(hedef, kim=None):
     if hedef:
         anah = yol_anahtar(hedef[0])
         kl = {anah: kl[anah]} if anah in kl else {}
-    print("DOSYA KİLİTLERİ — makine %s · %d kilit" % (makine(), len(kl)))
+    print("DOSYA KİLİTLERİ — makine %s · %d kilit · süre aşımı %.0f dk (son yazmadan)"
+          % (makine(), len(kl), SURE_DK))
     print("⚠️ KAPSAM: YALNIZ BU MAKİNE. Başka makinedeki kilit burada GÖRÜNMEZ")
     print("   (beyanlı sınır — 'kilit yok' ile 'ölçülemedi' ayrı şeylerdir).")
     if not kl:
@@ -333,8 +418,9 @@ def k_durum(hedef, kim=None):
     for anah in sorted(kl):
         k = kl[anah]
         print()
-        print("  %s" % anah)
-        print("    sahip : %s  (%s)" % (k.get("sahip"), yas_yazi(k.get("alindi"))))
+        print("  %s%s" % (anah, "  ⏱ SÜRESİ AŞTI — bir sonraki `al`da düşer" if zaman_asti(k) else ""))
+        print("    sahip : %s  (alındı %s · son yazma %s önce)"
+              % (k.get("sahip"), yas_yazi(k.get("alindi")), yas_yazi(son_yazma(k))))
         for n, s in enumerate(k.get("sira") or [], 1):
             print("    sıra %d: %s  (%s bekliyor)" % (n, s.get("kim"),
                                                       yas_yazi(s.get("girdi"))))
@@ -361,7 +447,7 @@ def k_birak_hepsi(kim):
         return 0
     print("%s oturumunun %d kilidi bırakılıyor:" % (kim, len(benim)))
     for a in benim:
-        k_birak(os.path.join(KOK, a), kim)
+        k_birak(os.path.join(ORTAK, a), kim)
     return 0
 
 
@@ -400,7 +486,7 @@ def main(argv):
     # 🔴 Kaçış kapıları SESSİZ KALMAZ — kullanıldıklarını kendileri söyler.
     if os.environ.get("KILIT_DURUM"):
         print("⚪ KILIT_DURUM=%s — GERÇEK kilit dosyası DEĞİL (sınav kipi)" % DURUM)
-    if not TAHTA_ACIK:
+    if os.environ.get("KILIT_TAHTA") == "0":
         print("⚪ KILIT_TAHTA=0 — devir bildirimleri tahtaya YAZILMAYACAK")
     komut, g, hata = ayristir(argv)
     if hata:
