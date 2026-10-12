@@ -242,8 +242,9 @@ window.YERLESIMLER_SEYREK = [
 //       (yerlesimler_kirim.js). ①'in çürümesi oraları da ilgilendirir; o
 //       dosya bu oturumun yetkisinde DEĞİL, dokunulmadı.
 { ad:"Kırcaali", tur:"sehir", lat:41.650, lon:25.370, g:0, k:4, m:"Edirne", kur:"1482-01-01",
-  s:[{f:"1913-07-14",t:"1923-10-29",d:"bulgaristan-kralligi"}],
-  d:[{f:"1482-01-01",t:"1913-07-14"}] },
+  s:[{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi",kaynak:"de jure devir: İstanbul Antlaşması 29 Eylül 1913 (SINIR-BERLIN-0076 B3; TDV bulgaristan: 'Bulgaristan Batı Trakyası olarak adlandırılan Kırcaali … ilçeleri de Bulgaristan topraklarına dahil edildi'; TDV sayfası bu oturumda yeniden çekilmedi)"}],
+  isg:[{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan-kralligi",kaynak:"de facto Bulgar işgali: f gün aralığı atlasın önceki s: kaydından devralındı (1913-07-14 hiçbir antlaşmaya denk gelmiyor), YENİ GÜN İDDİA EDİLMEDİ · SIRADA-B-1012"}],
+  d:[{f:"1482-01-01",t:"1913-09-29"}] },
 
 // ── p3/H-0016 "Dubrovnik enklavı" ───────────────────────────────────
 // ÖLÇÜM: Dubrovnik'in kendi noktası VAR; enklav görüntüsü ARDINDAKİ

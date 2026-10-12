@@ -34,7 +34,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   f:"1828-10-01", t:"1828-10-05",
   tarih_hassasiyet:"AY — atlas kronolojisi 'Ekim 1828' (data/olaylar_ek4.js:156, madde günü 1828-10-05); TDV mora: 'sonbaharında' — gün kaynakta YOK",
   kaynak:"TDV ibrahim-pasa-kavalali: \"İbrâhim Paşa'ya Mora'nın tahliyesi için emir gönderdi\" (6 Ağustos 1828'den sonra) · TDV mora: \"1828'in sonbaharında İbrâhim Paşa Mora'dan çekildi\"",
-  kesinlik:"İSTASYON yalnız iki uç: Mora (Modon — atlasın 'Mora çıkarması (1825)' kaydındaki çıkış limanı) ve Girit (Kandiye — Emre'nin tarifi 'moradan dışarı girite doğru'). TDV ne limanı ne varış yerini söylüyor (bulunamadı); ok çekilişin YÖNÜNÜ temsil eder. `rota` kıyıyı dolanan ÇİZİM ara noktalarıdır (Tenaron/Matapan burnunun ve Kithira'nın güneyi), iddia değil.",
+  kesinlik:"İSTASYON yalnız iki uç: Mora (Modon — atlasın 'Mora çıkarması (1825)' kaydındaki çıkış limanı) ve Girit (Kandiye — Mora'dan Girit'e doğru çekiliş). TDV ne limanı ne varış yerini söylüyor (bulunamadı); ok çekilişin YÖNÜNÜ temsil eder. `rota` kıyıyı dolanan ÇİZİM ara noktalarıdır (Tenaron/Matapan burnunun ve Kithira'nın güneyi), iddia değil.",
   yol:[[21.7,36.82],[25.13,35.34]],
   rota:[[21.7,36.82],[22.945,36.045],[25.135,35.415],[25.13,35.34]] },
 
@@ -44,7 +44,7 @@ window.SEFERLER_SEFER_OK_0075 = [
   f:"1836-01-01", t:"1836-01-01",
   tarih_hassasiyet:"YIL — TDV silistre yalnız yıl verir ('1836'ya kadar'); gün bulunamadı, §4 gereği 1836-01-01 (atlas kronolojisi de aynı: data/olaylar_p0056.js:150)",
   kaynak:"TDV silistre: \"Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular\" · \"Rus askerlerinin şehri boşaltmasının ardından Vali Selim Paşa\"",
-  kesinlik:"YALNIZ ÇIKIŞ NOKTASI kaynaklı (Silistre). TDV çekilişin nereye yapıldığını, hangi yolla ve hangi günlerde olduğunu söylemiyor (bulunamadı). Ok Tuna'nın karşı yakasına (kuzeye) ~20 km uzanan ŞEMATİK bir yön işaretidir; varış noktası bir İDDİA DEĞİLDİR. Emre H-0023: 'tahliye oku ile boşaltmayı temsil edelim'.",
+  kesinlik:"YALNIZ ÇIKIŞ NOKTASI kaynaklı (Silistre). TDV çekilişin nereye yapıldığını, hangi yolla ve hangi günlerde olduğunu söylemiyor (bulunamadı). Ok Tuna'nın karşı yakasına (kuzeye) ~20 km uzanan ŞEMATİK bir yön işaretidir; varış noktası bir İDDİA DEĞİLDİR. Ok, boşaltmayı temsil eden şematik bir tahliye okudur.",
   yol:[[27.26,44.117],[27.37,44.30]] },
 
 { id:"p0075-misir-suriye-cukurova-tahliye-1841",
