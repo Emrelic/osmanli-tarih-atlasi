@@ -709,8 +709,8 @@
     },
     {
      "yol": "data/yerlesimler_h2_afrika.js",
-     "sha": "57ccbc2449796341",
-     "bayt": 87708
+     "sha": "d0750d4f769cd868",
+     "bayt": 87703
     },
     {
      "yol": "data/yerlesimler_h2_rusya.js",
@@ -778,7 +778,7 @@
      "bayt": 99624
     }
    ],
-   "bayt": 655485
+   "bayt": 655480
   },
   {
    "paket": "data/paket_15.js",
