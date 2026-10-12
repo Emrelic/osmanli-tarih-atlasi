@@ -176,13 +176,13 @@ window.EKOKUMA_RIVAYET = [
 
 // ── 16 · 0050/H-0008 — 'şişman kadın' anlatısı: BULUNAMADI ──────────────────
 { id:"tartisma-ibrahim-sisman-kadin-arastirmasi", tur:"tartisma",
-  baslik:"'Şişman kadın merakı' — akademik/TDV kaynak bulunamadı",
+  baslik:"'Şişman kadın merakı' — doğrulanamayan bir anlatı",
   kisa:"Popüler sitelerde çok anlatılan bir hikâye; TDV'de ve akademik yazında izi bulunamadı.",
   metin:"Halk arasında 'Şivekâr' adıyla bilinen bir haseki hikâyesi, İbrahim'in 'şişman kadın düşkünlüğü'ne dair bir anlatı taşır. TDV `ibrahim--padisah` maddesi böyle bir haseki adı ya da fiziksel özellik tarifi vermiyor, ve anlatı güvenilir bir kaynakla doğrulanamadı; bu yüzden burada anlatılmıyor.\n\nİlgili konu: İbrahim'in çok sayıda haseki edinmesi ve onlara sağladığı gelirler ayrı kartlarda TDV kaynaklı olarak anlatılıyor — 'şişman kadın' anlatısı bu genel temanın popülerleşmiş bir dalı olabilir ama kendi başına doğrulanamadı.",
-  not:"Bu kart bir 'sonuç' değil bir 'arama raporu'dur — 'bulunamadı' damgası.",
+  not:"Anlatı, güvenilir bir kaynakla doğrulanamadığı için olgu olarak değil yalnızca rivayet olarak anılır.",
   kesinlik:"tartismali",
   olay:["1644-01-01|Deli İbrahim"],
-  kaynak:"aranmadı — yalnız forum/wiki/blog türü sonuçlar bulundu, TDV ve akademik kaynakta YOK" },
+  kaynak:"TDV: ibrahim--padisah (anlatı bu maddede yer almıyor); akademik yazında doğrulanamadı" },
 
 // ── 17 · DALGA-0053 H-0001 — Bahçesaray Antlaşması 1681 ─────────────────────
 { id:"sebep-sonuc-bahcesaray-1681", tur:"sebep-sonuc",
