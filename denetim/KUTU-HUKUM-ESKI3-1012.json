@@ -1,0 +1,196 @@
+{
+ "parti-emrelic-0014": {
+  "H-0004": {
+   "hukum": "motor-bekler",
+   "not": "Renk/motor dosyası (renkler.py/uret_petek.py = motor tuzu, CLAUDE.md §9.1) — tam inşa koşusunu bekler; bu turda dokunulmadı, kaynak araştırması konusu değil."
+  }
+ },
+ "parti-emrelic-0020": {
+  "H-0005": {
+   "hukum": "motor-bekler",
+   "not": "Renk/motor dosyası (renkler.py/uret_petek.py = motor tuzu, CLAUDE.md §9.1) — tam inşa koşusunu bekler; bu turda dokunulmadı, kaynak araştırması konusu değil."
+  }
+ },
+ "parti-emrelic-0019": {
+  "H-0007": {
+   "hukum": "motor-bekler",
+   "not": "Renk/motor dosyası (renkler.py/uret_petek.py = motor tuzu, CLAUDE.md §9.1) — tam inşa koşusunu bekler; bu turda dokunulmadı, kaynak araştırması konusu değil. karakoyunlu #e018e0 / gurcistan #e020b0 ayrıştırması renkler.py + renk_olc.py ister."
+  }
+ },
+ "parti-emrelic-0032": {
+  "H-0002": {
+   "hukum": "motor-bekler",
+   "not": "Renk/motor dosyası (renkler.py/uret_petek.py = motor tuzu, CLAUDE.md §9.1) — tam inşa koşusunu bekler; bu turda dokunulmadı, kaynak araştırması konusu değil. karakoyunlu #e018e0 / gurcistan #e020b0 ayrıştırması renkler.py + renk_olc.py ister."
+  },
+  "H-0003": {
+   "hukum": "kismen-cozuldu",
+   "not": "TDV uzun-hasan GET: Cihan Şah 12 Rebîülâhir 872 / 10 Kasım 1467 Bingöl-Sancak'ta yenilip öldürüldü; oğlu Hasan Ali Merend'de Eylül 1468 yenildi, Nisan-Mayıs 1469'da öldürüldü. olaylar_ek7.js:207 gun+d metni bu kaynakla düzeltildi (t:1468-04-01 DEĞİŞMEDİ: yüzlerce harita kırılması buna bağlı, Değişmez 2). Not: TDV'ye göre devletin sonu 1469; haritadaki 1468-04-01 şematik, ayrı karar (koordinatör)."
+  },
+  "H-0010": {
+   "hukum": "bulunamadi",
+   "not": "Sikke görseli (kamu malı + lisans) araştırması yapılmadı; kaynak: yok."
+  },
+  "H-0016": {
+   "hukum": "bulunamadi",
+   "not": "1493 Yedisan–Dinyeper kutusu için kaynaklı yerleşim aranmadı."
+  }
+ },
+ "parti-emrelic-0042": {
+  "H-0038": {
+   "hukum": "motor-bekler",
+   "not": "Renk/motor dosyası (renkler.py/uret_petek.py = motor tuzu, CLAUDE.md §9.1) — tam inşa koşusunu bekler; bu turda dokunulmadı, kaynak araştırması konusu değil. karakoyunlu #e018e0 / gurcistan #e020b0 ayrıştırması renkler.py + renk_olc.py ister."
+  },
+  "H-0014": {
+   "hukum": "motor-bekler",
+   "not": "renk_olc.py şerit-rezerv kapısı = araç/kapı işi, kaynak değil; motor-dışı ama ayrı kod görevi."
+  },
+  "H-0022": {
+   "hukum": "motor-bekler",
+   "not": "Bizans haraçgüzârlık v: penceresi + açık ton gövde rengi: motor+renk işi; v: pencereleri için TDV (Bizans/Manuel II) taraması ayrı büyük görev, bu turda yapılmadı."
+  },
+  "H-0019": {
+   "hukum": "kaynak-celisik-degisiklik-yok",
+   "not": "TDV gumulcine GET: fetih Gazi Evrenos; 'Yunan kaynakları 1361, bazı kaynaklar 1363, yeni araştırmalar 1371 Meriç savaşından biraz ÖNCE'. Yani 1363 TDV'de anılan yıllardan biri ama kesin değil ve Lala Şahin madde gövdesinde YOK. d:1363-01-01 (yıl düzeyi, gün uydurma değil) bırakıldı; kaynak: alanı eklenmesi koordinatör kararı (1361/1363/~1370 aralığı beyanı)."
+  }
+ },
+ "parti-emrelic-0023": {
+  "H-0003": {
+   "hukum": "ui-isi",
+   "not": "Kaynak değil UI/tasarım işi — kaynak araştırmasıyla çözülmez; ayrı UI görevi."
+  }
+ },
+ "parti-emrelic-0027": {
+  "H-0006": {
+   "hukum": "ui-isi",
+   "not": "Kaynak değil UI/tasarım işi — kaynak araştırmasıyla çözülmez; ayrı UI görevi."
+  }
+ },
+ "parti-emrelic-0052": {
+  "H-0114": {
+   "hukum": "ui-isi",
+   "not": "Kaynak değil UI/tasarım işi — kaynak araştırmasıyla çözülmez; ayrı UI görevi."
+  },
+  "H-0033": {
+   "hukum": "kaynak-islenmedi",
+   "not": "Avrupa karşılaştırma kartı akademik kaynak ister; yazılmadı."
+  },
+  "H-0039": {
+   "hukum": "kaynak-islenmedi",
+   "not": "İdam edilen şair/bilim adamı kartı yazılmadı."
+  },
+  "H-0099": {
+   "hukum": "cozuldu-diff-bekletildi",
+   "not": "Edinburgh 1281→1707-05-01 iskocya, sonra ingiltere (Glasgow/Aberdeen ile aynı; Birlik Yasaları 1707-05-01 kronoloji_ingiltere.js:727). Ama uygulanınca denetle.py Değişmez 2s AÇIK 193→194 (tavan 193) ⇒ gerileme kapısı bloke; tavan+sabit aynı commit kuralı (§3.4) ile koordinatör tavanı yazmalı. Yama denetim/KUTU-ESKI3-EDINBURG-1707.diff (main'e SOKULMADI). Liège/Tournai ölçülmedi."
+  },
+  "H-0108": {
+   "hukum": "bulunamadi",
+   "not": "Hainan ek nokta kaynağı aranmadı."
+  },
+  "H-0113": {
+   "hukum": "bulunamadi",
+   "not": "Luwu/Buton künye+nokta kaynağı aranmadı."
+  },
+  "H-0123": {
+   "hukum": "kismen-kaynak",
+   "not": "TDV cehrin GET 200: 1678 (H.1089) Kara Mustafa Paşa Çehrin Seferi, kale alındı; 1676 Rus/Doroşenko ve gün bilgisi TDV gövdesinde YOK. Veri değişmedi; 1676 için akademik kaynak (Ukrayna tarihi) gerek."
+  },
+  "H-0125": {
+   "hukum": "motor-bekler",
+   "not": "Kabartay (Nalçik) yeniden adlandırma: 14 dosyada anahtar, toplu ad değişimi görevi; kaynak sorunu değil."
+  }
+ },
+ "parti-emrelic-0024": {
+  "H-0008": {
+   "hukum": "bulunamadi",
+   "not": "Nyen/Koporye/İvangorod için TDV adayı aranmadı; Rus-İsveç coğrafyası TDV kapsamı dışı, akademik kaynak (ör. Frost, The Northern Wars) gerek; yazılmadı."
+  }
+ },
+ "parti-emrelic-0025": {
+  "H-0004": {
+   "hukum": "kaynak-bulundu-motor-bekler",
+   "not": "Königsberg/Tartu zaten çözülü. Klaipėda 1281-1701 ve Riga 1281-1561 için veride künyeler VAR: teuton-devleti (1230-1525) ve livonya-tarikati (1202-1561-01-01) — ama ikisi boya_gerekli:true, renkleri yok. s:'ye bağlanırsa harita DELİĞİ doğar (Königsberg satırının notu aynı gerekçeyle dokunmadı diyor). TDV klaipeda: madde yok (arama 0). Çözüm renk+künye penceresi (Riga 1561-11-28 ↔ livonya t:1561-01-01 uyuşmuyor; Riga 1581'e dek özgür şehir) ile birlikte tam inşa koşusunda yapılmalı. Veri yazılmadı."
+  }
+ },
+ "parti-emrelic-0033": {
+  "H-0009": {
+   "hukum": "bulunamadi",
+   "not": "Üstyurt batı/doğu kasıtlı boşluk kaynağı bulunamadı (TDV bölgeyi kapsamıyor)."
+  },
+  "H-0010": {
+   "hukum": "bulunamadi",
+   "not": "Kandehar çevresi tarihî yerleşim listesi bu turda aranmadı; TDV kandehar/gazne aday."
+  },
+  "H-0017": {
+   "hukum": "motor-bekler",
+   "not": "Kartli/Kaheti/Samtshe bölmesi renkler.py ister (kartli boyası yok) — motor tuzu."
+  }
+ },
+ "parti-emrelic-0043": {
+  "H-0010": {
+   "hukum": "motor-bekler",
+   "not": "kartli-kralligi s:'ye bağlanamaz: boyası yok (renkler.py) — motor tuzu, tam inşa."
+  }
+ },
+ "parti-emrelic-0034": {
+  "H-0036": {
+   "hukum": "bulunamadi",
+   "not": "Temryuk/Acu/Ace koordinat+1637 sahibi için TDV/akademik kaynak aranmadı."
+  }
+ },
+ "parti-emrelic-0035": {
+  "H-0053": {
+   "hukum": "bulunamadi",
+   "not": "TDV el-aris/arîş araması: madde YOK (arama sonuçları alakasız). Akademik kaynak (Selim'in Sina geçişi, Şubat 1517) bulunamadı; El-Aris d:1517-05-19 değişmedi."
+  },
+  "H-0065": {
+   "hukum": "bulunamadi",
+   "not": "Özdemir Paşa Nube seferi yılı için Orhonlu kaynağı erişilemedi; Ibrim d değişmedi."
+  },
+  "H-0068": {
+   "hukum": "bulunamadi",
+   "not": "Szatmar/Tokeli (1682-85) için TDV tokeli-imre taraması yapılmadı; 0/7 nokta bağı yok."
+  },
+  "H-0076": {
+   "hukum": "bulunamadi",
+   "not": "TDV hoy GET 200: gövde yalnız genel (Osmanlı-Safevi çekişmesi, yıl yok); ordubad MADDESİ YOK (başlık 0). Hoy 1724-09-28→1730-08-12 ve Ordubad için kaynak bulunamadı; değişmedi."
+  },
+  "H-0077": {
+   "hukum": "kaynak-islenmedi",
+   "not": "Özi seferi oku = savaşlar.js yeni geometri/ok işi; kaynak (Aksan) taraması yapılmadı."
+  },
+  "H-0090": {
+   "hukum": "kaynak-islenmedi",
+   "not": "Rus okları 1737/1790/1828/1853 için Aksan/Badem kaynaklı ok eklemesi yapılmadı."
+  },
+  "H-0092": {
+   "hukum": "bulunamadi",
+   "not": "1799 Mısır işgal listesi için kaynak taraması yapılmadı."
+  }
+ },
+ "parti-emrelic-0039": {
+  "H-0003": {
+   "hukum": "kaynak-islenmedi",
+   "not": "Sakarya safhaları + Afyon işgali: TDV sakarya-meydan-muharebesi GET edilmedi; yapılmadı."
+  },
+  "H-0004": {
+   "hukum": "kaynak-islenmedi",
+   "not": "Gümrü alınışı/Pozantı maddeleri kaynakla yazılmadı."
+  },
+  "H-0005": {
+   "hukum": "kaynak-islenmedi",
+   "not": "Yunan işgali isg: eklemesi (Afyon vb.) kaynaklı değil, yapılmadı."
+  }
+ },
+ "parti-emrelic-0044": {
+  "H-0002": {
+   "hukum": "bulunamadi",
+   "not": "TDV zapolya-janos/arama: madde başlığı bulunamadı (arama 0); 1526 vs 1529 tabilik teyit edilemedi."
+  }
+ },
+ "parti-emrelic-0047": {
+  "H-0001": {
+   "hukum": "bulunamadi",
+   "not": "Merîvan/Sakkız/Serdeşt/Bâne v: penceresi için TDV ferhad-pasa/serdar teyidi yapılmadı."
+  }
+ }
+}
