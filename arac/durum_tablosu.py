@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""CLAUDE.md §1.5 "Bugün nerede duruyoruz" tablosunu ÜRETİR.
+"""DURUM-TABLOSU.md'deki "Bugün nerede duruyoruz" tablosunu ÜRETİR (12 Ekim 2026'ya
+kadar CLAUDE.md §1.5'teydi).
 
 🔴 NİÇİN VAR — elle tutulan durum tablosu İKİ KEZ bayatladı ve iki kez yanılttı:
    1 Ağustos  NOKTA EKLEME oturumu tabloyu ölçüm tabanı olarak kullanmayı REDDETTİ
@@ -10,7 +11,7 @@
   durum satırı, yazıldığı andan itibaren çürümeye başlar.
 
     py arac/durum_tablosu.py            # tabloyu ekrana bas
-    py arac/durum_tablosu.py --yaz      # CLAUDE.md §1.5'i YERİNDE güncelle
+    py arac/durum_tablosu.py --yaz      # DURUM-TABLOSU.md'yi YERİNDE güncelle
 
 ⚠️ `--yaz` yalnız §1.5'in TABLO satırlarını değiştirir; altındaki ders metnine
    ve başlığa dokunmaz.
@@ -801,7 +802,9 @@ if __name__ == "__main__":
         print("🟡 KAYNAK_ZAYIF İŞARETLİ (kaynak var ama dayanılamıyor, beyanlı): %s"
               % ", ".join(o["kaynak_zayif"]["adlar"]))
     if "--yaz" in sys.argv:
-        y = "CLAUDE.md"
+        # 12 Ekim 2026: tablo CLAUDE.md'den DURUM-TABLOSU.md'ye taşındı (her oturumun
+        # açılış bedelinden çıksın diye). Başlık deseni aynı kaldı.
+        y = "DURUM-TABLOSU.md"
         h = _oku(y)
         nl = "\r\n" if "\r\n" in h else "\n"
         # §1.5 basligindan sonraki ILK tabloyu degistir
@@ -810,4 +813,4 @@ if __name__ == "__main__":
             raise SystemExit("!! §1.5 tablosu bulunamadi — elle bakilmali")
         yeni = m.group(1) + t.replace("\n", nl) + nl
         io.open(y, "w", encoding="utf-8", newline="").write(h[:m.start()] + yeni + h[m.end():])
-        print("\nCLAUDE.md §1.5 guncellendi.")
+        print("\nDURUM-TABLOSU.md guncellendi.")

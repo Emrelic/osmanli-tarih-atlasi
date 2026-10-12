@@ -1,11 +1,13 @@
-# D287 — CLAUDE.md'nin koordinatör dönemi TAM METNİ (12 Ekim 2026 budamasından önce)
+# ESKİ PRENSİPLER — CLAUDE.md'nin 12 Ekim 2026 öncesi TAM METNİ
 
-**Neden:** Emre 12 Ekim 2026 koordinatör / işçi oturum / hazır kıta / tahta / bekçi düzeninden
-VAZGEÇTİ (*"tahta mahta bekçi işçi koordinatör hiçbirşey kullanmayacağım. bir işe yaramıyor"*).
-CLAUDE.md o düzenin kurallarından arındırıldı. Silinen hiçbir kural KAYBOLMADI: tam metin
-aşağıda, `c949e91a:CLAUDE.md` ile birebir. Koşu/yayın ayrıntısı çalışan belge olarak
-`KOSU-YAYIN.md`ye taşındı. Aday listesi: `denetim/CLAUDE-BUDAMA-1012-ADAY.md`.
-**Bu dosya bir ARŞİVDİR — buradaki koordinatör/tahta kuralları YÜRÜRLÜKTE DEĞİLDİR.**
+**Bu dosya bir ARŞİVDİR, YÜRÜRLÜKTE DEĞİLDİR.** Oturumlar açılışta okumaz; yalnız "eskiden ne
+vardı" sorusunda ya da bir kurala geri dönmek gerekirse açılır.
+
+Emre 12 Ekim 2026: koordinatör / işçi oturum / hazır kıta / tahta / bekçi düzeni BIRAKILDI
+(*"tahta mahta bekçi işçi koordinatör hiçbirşey kullanmayacağım. bir işe yaramıyor"*) ve
+CLAUDE.md Claude Code'un olağan biçiminde yeniden yazıldı. Aşağıdaki metin `c949e91a:CLAUDE.md`
+ile birebirdir (52.032 bayt). Kuralların vakaları `dersler/`dedir; koşu/yayın ayrıntısı
+`KOSU-YAYIN.md`de çalışan belge olarak sürer. Budama gerekçeleri: `denetim/CLAUDE-BUDAMA-1012-ADAY.md`.
 
 ---
 

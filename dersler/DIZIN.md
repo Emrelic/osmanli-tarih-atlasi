@@ -316,4 +316,4 @@
 - **§11 ailesi: kapının beş üyesi · öneri sayısı · desen (10 Ekim hâli)** — [`D285`](D285-tekrarlanmamasi-gereken-1010.md)
 
 ## 12 Ekim 2026 — BUDAMA-1012: koordinatör/tahta/bekçi düzeni bırakıldı
-- **CLAUDE.md'nin koordinatör dönemi TAM METNİ (arşiv, yürürlükte DEĞİL)** — [`D287`](D287-claude-md-koordinator-donemi-tam-metin-1012.md)
+- **CLAUDE.md'nin koordinatör dönemi TAM METNİ (arşiv, yürürlükte DEĞİL)** — [`arsiv/ESKI-PRENSIPLER-1012.md`](../arsiv/ESKI-PRENSIPLER-1012.md)
