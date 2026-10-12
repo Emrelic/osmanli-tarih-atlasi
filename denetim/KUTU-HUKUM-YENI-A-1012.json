@@ -1,0 +1,295 @@
+{
+ "parti-emrelic-0070": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "Ek okuma satırı artık: satır başında kategori SİMGESİ (üstüne gelince kategori adı), yanında madde BAŞLIĞI. Campo Formio kartlarının kategori uyuşmazlığı düzeltilmişti (EKOKUMA-SIMGE-0070).",
+   "delil": "js/app.js `_ekEtiketiBol` (satır ~12665) + `_EK_UST_KISA` kısaltmaları (~12693) · css/style.css:2066 `EKOKUMA-SIMGE-0070` · denetim/EKOKUMA-SIMGE-0070.md"
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "Napolyon'un Mısır işgali: haritadaki işgal YANLIŞTI (Sina güneyi dahil); kaynaklı günlere çekildi, Sina güneyi işgal kaydı kaldırıldı. Yama r12206 (KOŞU 23) girdisindedir.",
+   "delil": "data/yerlesimler.js `Sina güneyi` kaydı notu 'FRANSIZ İŞGAL KAYDI KALDIRILDI (NAPOLYON-MISIR-0070…M-4731)' · denetim/NAPOLYON-MISIR-0070.md §5.1 UYGULANDI · KOŞU 23 df0a2b28"
+  },
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "Sınır boyundaki ışınsal dişlerin kökü ölçüldü: kalın serbest-hale hattı kısa segmentlerde lob üretiyordu. Çare A (Douglas-Peucker sadeleştirme) uygulandı; tarayıcıda gerçek veriyle iki yönde sınandı (dişler kayboldu, hâle yerinde kaldı). Motor kusuru DEĞİL, çizim ölçeği uyuşmazlığı — koşu istemez.",
+   "delil": "js/app.js `dpSadelestir` (~423) + `serbestHat` (~452) · denetim/SINIR-DIS-0070.md §8.3 SINAMA (1083→122 köşe) · TESHIS-SEFER-OK-0070.png"
+  },
+  "H-0004": {
+   "hukum": "tekrar",
+   "not": "H-0003 ile aynı kusur (aynı kök, aynı çare).",
+   "delil": "js/app.js `dpSadelestir` + `serbestHat` (SINIR-DIS-0070 çare A) — H-0003 ikizi"
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "Ebukır deniz muharebesi maddesi deniz-savaşı sembolüyle işaretleniyor: başlıktaki 'deniz muharebesi' kalıbı `deniz` türüne bağlanıyor ve madde `yer_id` taşıyor.",
+   "delil": "data/olaylar_ebukir_0919.js:23-27 `t:\"1798-08-01\" … yer_id:\"Ebûkîr\"` · js/app.js:4128 `DENIZ_KALIP = /(deniz muharebesi|…)/i` → tür `deniz`"
+  },
+  "H-0006": {
+   "hukum": "cozulemedi",
+   "not": "Mekanizma KURULDU: seferlerde ince, ağırlıklı devlet rengi koyu tonlu ok + kalın kaynak noktası + varışta iki kez yanıp sönen taramalı bölge (js/sefer_ok.js + js/anim_dili.js; ok gövdesi tarama çizgisinin ≥3 katı). ANCAK 'bütün savaş/harekâtlara' kapsamı tamamlanamadı: güzergâh verisi olmayan seferlerde ok UYDURULMAZ (şartname) — SEFER-OK-0070 ölçümü 2209 harekât maddesinin %85'inde (1877) güzergâh YOK. Kalan iş kaynaklı güzergâh araştırmasıdır (koşu değil, veri).",
+   "delil": "js/sefer_ok.js (index.html:2037) · js/anim_dili.js · denetim/SEFER-OK-0070.md ('Güzergâh yok kovası 1877 (%85)') · denetim/OLCUM-SEFER-OK-ATIF-0070.json"
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "Olay alanı yanıp sönen emoji/glif halkasıyla gösteriliyor (glif `olayMuharebeTuru`dan).",
+   "delil": "js/app.js `isaretYanipSon(hedef, glif)` (~14533) — yorum 'DALGA-0070 H-0007'"
+  },
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "Standart ele geçirme dili: odaklan → koyu renkle iki kez yan-söne → üçüncüde ele geçiren devletin rengi; tek sıralayıcıdan tüm devletlere/zamanlara uygulanıyor (pasif kipte odak adımı atlanır).",
+   "delil": "js/app.js `var ELE_GECIRME_DILI` (~11501, hâl sırası once→koyu→once→koyu→once→sonra) · js/anim_dili.js (index.html:2036) · denetim/ELE-GECIRME-ANIM-0070.md"
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "13 Mayıs 1805 Kahire ulemâsının Mehmed Ali'yi vali ilan etmesinin Mısır tarih yazımındaki yeri için ek okuma kartı yazıldı (karşı anlatı türü).",
+   "delil": "data/ekokuma_misir1805.js:43 `id:\"misir1805-tarih-anlatisi\", tur:\"karsi-anlati\"` · js/app.js yükleyici listesinde `ekokuma_misir1805` (~12218)"
+  },
+  "H-0010": {
+   "hukum": "senin-kararin",
+   "not": "Karmaşa ÖLÇÜLDÜ: üç ayrı sözlük (liste rengi `k:` · veri `tur:` · başlık metni) birbirini tutmuyor ('ilhak' 115 madde listede fetih yeşili, 'işgal' 176 madde kayıp grisi; `k:\"isgal\"` CSS'te yok). Ayrıca Emre'nin 'süre ayracı' önerisi kaynakla ve veriyle ÇELİŞİYOR (işgal hukuken süreyle değil fiilî otoriteyle tanımlanır; atlasın isg: pencere medyanı 8,9 yıl). SORU: A/B/C seçenek. ÖNERİM A: sınıf adlarını/renklerini düzelt (k-isgal CSS'i ekle, ilhak≠fetih ayrımı), veri şemasına dokunma. Süre eşiği (C) önerilmez.",
+   "delil": "denetim/TERIM-STANDART-0070.md §0 ve §4 (A önerilen · B tur alanını doldur · C süre eşiği) · denetim/OLCUM-TERIM-0070.json · css/style.css'te `k-isgal` hâlâ yok"
+  }
+ },
+ "parti-emrelic-0071": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "1806-12 savaşının sebebi ve Rusya'nın amacı/bahanesi iki ek okuma kartı olarak yazıldı (Memleketeyn voyvodalarının azli, Tilsit, Boğazlar).",
+   "delil": "data/ekokuma_1806.js:82 `1806-savasin-sebebi-voyvoda-azli` + :92 `1806-rusyanin-amaci-bahane-mi` · olay bağı `1806-11-23|Dinyester` · yükleyici js/app.js `ekokuma_1806` (~12221)"
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "Eflak-Boğdan Rus işgali: kopukluk kaynaklı gün düzeltmeleriyle kapatıldı. Ölçüm (zincirler bugün): Hotin isg 1806-11-30→1812-05-28; Yaş/Roman/Bârlad/Kalas aynı; Bükreş/Slatina/Krayova/Turnu Severin 1806-12-25→1812-05-28.",
+   "delil": "data/yerlesimler.js (Hotin :1400, Bükreş :449, Slatina/Krayova/Turnu Severin isg 1806-12-25→1812-05-28) — `girdi.yukle` ile bu oturumda okundu · denetim/ISGAL-1806-0920.md"
+  },
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "İngiliz donanmasının (Duckworth) güzergâhı sefer kaydı olarak eklendi, `tur:\"deniz\"` ⇒ kesikli çizgi dalı.",
+   "delil": "data/seferler_p0071.js `p0071-duckworth-1807` (tur:\"deniz\") · index.html:1732 yükleyici · js/app.js `s.tur === \"deniz\"` dalı · denetim/SINAV-OK-0071-duckworth-1807.png"
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "Reşid (Rosetta) bozgunu olay yeri koordinatlı; iki kez yanıp sönme standardı.",
+   "delil": "data/olaylar_ek4.js:41 `yer_kon:[31.4044,30.4177]` · js/app.js `isaretYanipSon` · css/style.css `odakParla … 3` animasyonu"
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "Yenileşme karşıtı ayaklanmalar tek tartışma kartında (Genç Osman 1622 · Patrona 1730 · Kabakçı 1807 · Kuleli 1859 · 31 Mart 1909) + Kabakçı kartı; 'gerici' niteleme kaynağın söylediği kadar aktarıldı.",
+   "delil": "data/ekokuma_1806.js:112 `yenilesme-karsiti-ayaklanmalar-etiket` (tur:\"tartisma\") + :102 `kabakci-isyani-niye-cikti`"
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "IV. Mustafa: 'kimdir' künyesi + tarihçilerin hükmü/TDV itirazı karşıt görüşleriyle tartışma kartı.",
+   "delil": "data/ekokuma_1806.js:122 `kimdir-dorduncu-mustafa` + :130 `dorduncu-mustafa-sevilen-mi`"
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "Alemdar'ın Rusçuk→Edirne→İstanbul yürüyüşü ok olarak eklendi; yurt içi hareketler için aynı standart (Hareket Ordusu 1909 · Edirne Vakası 1703) seferler_p0071.js'te.",
+   "delil": "data/savaslar.js:995 `a4-alemdar-istanbul-1808` (tur:\"sefer\") · data/seferler_p0071.js `p0071-hareket-ordusu-1909` · denetim/SINAV-OK-0071-*.png"
+  },
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "28 Temmuz 1808 kargaşası (III. Selim'in katli, II. Mahmud'un kurtarılışı) sebep-sonuç kartı.",
+   "delil": "data/ekokuma_alemdar.js:48 `alemdar-28-temmuz-1808-kargasa` · yükleyici `ekokuma_alemdar` (js/app.js ~12220)"
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "Alemdar Mustafa Paşa'nın şahsiyeti 'kimdir' kartı.",
+   "delil": "data/ekokuma_alemdar.js `alemdar-mustafa-pasa-sahsiyet`"
+  },
+  "H-0010": {
+   "hukum": "cozuldu",
+   "not": "Âyanlar: hangi âyan nereyi tutuyordu (kaynaklı liste) + âyanlık isyan mı/özerklik mi/yozlaşmış valilik mi, göreve kim getiriyordu — iki kart; Sened-i İttifak bağlı.",
+   "delil": "data/ekokuma_alemdar.js `ayan-hangi-aile-nereyi-tutuyordu` + `ayanlik-isyan-mi-ozerklik-mi` (olay 1808-10-07|Sened-i İttifak)"
+  },
+  "H-0011": {
+   "hukum": "cozuldu",
+   "not": "Alemdar'ın ölümü ve II. Mahmud'un tavrı tartışma kartı; ölüm günü 4 kaynaktan 16 Kasım 1808'e düzeltildi (kronoloji 15'ti).",
+   "delil": "data/ekokuma_alemdar.js `alemdar-vakasi-mahmudun-tavri` (olay 1808-11-16|Alemdar) · data/olaylar_ek2.js:90 t:\"1808-11-16\""
+  },
+  "H-0012": {
+   "hukum": "zaten-dogru",
+   "not": "Soru cevaplandı: HAYIR — İmereti'nin ilhakı (20 Şubat 1810) Osmanlı'nın Soçi–Anapa–Çerkezistan kara bağlantısını kesmedi; zinciri kesen olay Sohum'un kaybıdır (11 Temmuz 1810).",
+   "delil": "denetim/ISGAL-1806-0920.md:164-176 · data/olaylar_ek6.js:97 `t:\"1810-07-11\"` Sohum kaybı · data/yerlesimler.js:603 Sohum d: →1810-07-11"
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "not": "Sohum animasyonunun oynamama sebebi bulundu ve kapatıldı: kırılma günü 1810-07-01 idi, TDV günü 11 Temmuz 1810; madde ile kırılma aynı güne (1810-07-11) hizalandı, animasyon bağı çalışıyor.",
+   "delil": "data/olaylar_ek6.js:97 `{t:\"1810-07-11\", k:\"kayip\" …}` = data/yerlesimler.js:603 Sohum `d:` bitişi 1810-07-11 · denetim/ISGAL-1806-0920.md:183-215"
+  },
+  "H-0014": {
+   "hukum": "cozuldu",
+   "not": "Osmanlı Ruslara niçin direnemedi: ordu, teknik, teçhizat, lojistik, iç karışıklık — tek sebebe indirgemeyen tartışma kartı.",
+   "delil": "data/ekokuma_alemdar.js `ruslara-niye-direnilemedi-1806-1812` (olay 1810-07-11|Sohum, 1810-09-26|Rusçuk — ikisi canlı: olaylar_ek6.js:97, olaylar_ek7.js:142)"
+  }
+ },
+ "parti-emrelic-0083": {
+  "H-0001": {
+   "hukum": "senin-kararin",
+   "not": "İki parça: (1) 'imparatorluk görünümüne geçiyor / odak' — ÇÖZÜLDÜ: maddeye odak_yer [Bender, Bükreş, Rusçuk] yazıldı ve devlet sekmesindeki üçüncü kamera dalı (maddeAc) maddeOdakKutusu'nu çağıracak şekilde bağlandı; sefer oku zaten VAR (SEFERLER Kişinev→Zimniça 1877-04-24). (2) 'Eflak-Boğdan işgal taramasıyla gösterilsin' — SORU Emre'de: TDV Romanya'yı 1877'de MÜTTEFİK sayıyor ('prensliği kendi tarafına çeken Ruslar'; 9 Mayıs 1877 bağımsızlık) ve veride Emre'nin kendi kararı yazılı: 'taralı desen yalnız işgal'. ÖNERİM: tarama YAZILMASIN, ok yeterli, kalem kapansın. (Ayrı bulgu: Rusların Kuzey Dobruca ilerleyişi — Osmanlı toprağı — haritada yok, gün kaynakta yok; kaynak işi.)",
+   "delil": "denetim/PAKET-0083-D-ODAK-ISGAL.md §1-§3 · data/kronoloji_rusya.js:630 `odak_yer:[\"Bender\",\"Bükreş\",\"Rusçuk\"]` · js/app.js maddeAc→maddeOdakKutusu (~16304) · SEFERLER[67] kaynağı 'Emre kararı: taralı desen yalnız işgal' · oturumlar/SABAH-1004.md:575-587"
+  },
+  "H-0002": {
+   "hukum": "senin-kararin",
+   "not": "Cevap: devletsiz DEĞİL; güney Arnavutluk (Berat) 1281→1417 bilerek `__BOSLUK__` (kasıtlı, beyanlı): atlasın dizininde Berat/Muzaka için künye yok. Bu bugün de aynen duruyor. Çare künye + kaynaklı dönem + nokta (kapsam genişlemesi). SORU: Berat (Muzaka) künyesi açılsın mı? Önerim: evet, TDV+Arnavut akademik kaynakla; açılana kadar bölge sahibi + beyan (CLAUDE.md `__BOSLUK__` kuralı).",
+   "delil": "denetim/PAKET-0083-A-BOS-BOLGE.md H-0002 · girdi.yukle (bu oturum): Berat s: 1281-01-01→1417-01-01 __BOSLUK__ · oturumlar/SABAH-1004.md:595"
+  },
+  "H-0003": {
+   "hukum": "senin-kararin",
+   "not": "Sohum KD'sindeki boş şerit: Kafkas ana sırtı, 50 km içinde 0 yerleşim noktası (en yakın ~95-110 km); motor doğru çalışıyor, VERİ yok; iki yaka aynı devlete geçince (1815) şerit kapanıyor. SORU: kaynaklı nokta eklensin mi (Svaneti/Mestia, Avar/Hunzah — ikisi şu an kaynaksız aday) yoksa bilerek boş + arayüzde 'sırt — yerleşim yok' beyanı mı? Önerim: beyan (ucuz, dürüst); nokta kapsam genişlemesi.",
+   "delil": "denetim/PAKET-0083-A-BOS-BOLGE.md H-0003 · bu oturumda `Mestia` aramasında yerleşim kaydı 0"
+  },
+  "H-0004": {
+   "hukum": "senin-kararin",
+   "not": "H-0003 ile aynı sınıf (Kaheti–Dağıstan arası sırt, 0 nokta). Yan bulgu ('iran' kimliği 14. yy Dağıstan'ında) ARTIK KAPALI: Tarki/Ağraham 1281→1501 `altinorda`, Derbend `sirvansah`. Karar H-0003 ile birlikte.",
+   "delil": "denetim/PAKET-0083-A-BOS-BOLGE.md H-0004 · girdi.yukle (bu oturum) Tarki/Ağraham burnu/Derbend zincirleri"
+  },
+  "H-0005": {
+   "hukum": "zaten-dogru",
+   "not": "Soru: 'bu bölge İbrail'in mi' — görseldeki bölge Tuna kolları arası (Balta Brăila). Cevap: 1695–1829 için EVET, TDV adanın İbrail kazasına katıldığını yazıyor; 1695 öncesi ve 1281-1330 Macaristan dönemi için kaynakta hüküm bulunamadı (görsel tarihsiz). Atlas İbrail peteğini sahibiyle (1281-1330 macaristan · eflak) boyuyor. Ana karaya bağlanması ayrı kalem: bkz. 0084/H-0018.",
+   "delil": "denetim/PAKET-0083-C-OKSUZ-HAT.md §3 (TDV ibrail) · yayındaki geometri r12206: İbrail ve Balta (28.05/45.1) 1401/1405/1417 = eflak (tarayıcıda ölçüldü)"
+  },
+  "H-0006": {
+   "hukum": "zaten-dogru",
+   "not": "Soru cevaplandı: HAYIR — Hotin Boğdan'ın başkenti hiç olmadı (merkez Suceava, 1564'ten Yaş; Hotin sınır kalesi, 1711'de Osmanlı sancağı). Atlas künyesi `baskent:\"Suceava → Iaşi\"` TDV ile uyumlu. Küçük kusur: 'BOĞDAN VOYVODALIĞI' etiketi Hotin yanına düşüyor ve başkent izlenimi veriyor — etiket konumlama ölçülmedi.",
+   "delil": "denetim/PAKET-0083-C-OKSUZ-HAT.md §2 (TDV hotin, yas--romanya, bogdan) · data/devletler.js bogdan baskent"
+  },
+  "H-0007": {
+   "hukum": "senin-kararin",
+   "not": "Cevap: devletsiz DEĞİL; Po ovası (Bergamo, Brescia, Verona, Padova, Parma) 1281→1395-05-11 bilerek `__BOSLUK__` (kasıtlı, beyanlı); 1396'dan Milano/Venedik. Bu bugün de aynen duruyor. Çare künye (Della Scala/Verona · Carrara/Padova; Bergamo-Brescia-Parma için `milanoduka` künyesi var, geçiş tarihleri kaynak bekliyor). SORU: bu senyörlük künyeleri açılsın mı? Önerim: evet, kaynaklı; o zamana kadar bölge sahibi + beyan.",
+   "delil": "denetim/PAKET-0083-A-BOS-BOLGE.md H-0007 · girdi.yukle (bu oturum): Verona/Padova/Brescia s: 1281-01-01→1395-05-11 __BOSLUK__"
+  },
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "Osmanlı gövdesinin Bizans adasını yutması (kapat() morfolojik kapama, B1 yasağından önce koşuyordu) motorda kapatıldı (kapat_engel). YAYINDAKİ geometri tarayıcıda ölçüldü: Harmankaya 1300/1305/1310 noktasında YALNIZ bizans, Osmanlı gövdesi yok (çakışma 0).",
+   "delil": "arac/uret_petek.py kapat_engel (PAKET-0083-B diff uygulandı: git apply -R --check temiz) · commit 413867a5 (tam inşa yamaları) · KOŞU 23 df0a2b28 (yayın r12206) · tarayıcı ölçümü: __sahip(29.98,40.1,…) → yalnız Y:bizans"
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "H-0008 ile aynı kök ve aynı çare. Yayındaki geometri: Bursa 1305/1314/1322/1325 ve İznik 1325 noktalarında yalnız bizans (Osmanlı gövdesi yok).",
+   "delil": "PAKET-0083-B-KATMAN-BINME (motor yaması uygulandı) · KOŞU 23 · tarayıcı ölçümü Bursa (29.061,40.188) 1305-1325 → yalnız Y:bizans"
+  },
+  "H-0010": {
+   "hukum": "senin-kararin",
+   "not": "'Öksüz hat' = d1859-ru-rp-prut-kuzey (Rusya/Birleşik Prenslikler Prut hattı; Bükreş 1812 md. 4, Paris 1856 md. 20 değiştirmedi). Hat öksüz değil YETİM: yeri/sol_taraf doğru; motor D hatlarını OKUMUYOR ve Prut iki yakasında yeterli yerleşim yok (medyan sınır Prut'a 0,485° > yaslama eşiği 0,30°), sınır Voronoi orta dikmesine düşüyor. (Dayanak alanı hattı değil Cuza'nın seçimini/Çekoslovak sınırını alıntılıyor — ayrı düzeltme.) ÇARE nokta ekleme = veri genişlemesi, kaynak ister. SORU: Kişinev, Bălți (doğu yaka) + Botoşani, Dorohoi, Huşi (batı yaka) kaynaklı noktaları eklensin mi? Önerim: evet, TDV'si olanlardan başla; Kişinev aynı zamanda 93 Harbi odak kusurunu kalıcı kapatır.",
+   "delil": "denetim/PAKET-0083-C-OKSUZ-HAT.md §1 HÜKÜM · bu oturumda Kişinev/Botoşani/Dorohoi/Huşi/Bălți için yerleşim kaydı 0"
+  },
+  "H-0011": {
+   "hukum": "cozuldu",
+   "not": "93 Harbi maddesinin odak noktası yoktu: iki devlet-kronolojisi maddesi `kapsam_genis:true` + odak yok ⇒ kamera Osmanlı kutusuna/devletin tüm gövdesine uçuyordu. odak_yer eklendi; devlet sekmesi yolu (maddeAc) da odak kutusunu çağırıyor.",
+   "delil": "data/kronoloji_rusya.js:630 + data/kronoloji_balkan.js `odak_yer:[\"Bender\",\"Bükreş\",\"Rusçuk\"]` (PAKET-0083-D diff uygulandı) · js/app.js:16304 `maddeOdakKutusu(m)` · `py arac/odak_olc.py` → ÇÖZÜLMEYEN ODAK ATFI 0"
+  },
+  "H-0012": {
+   "hukum": "senin-kararin",
+   "not": "Eflak-Boğdan işgal edilmiş şekilde gösterilsin: Emre'nin şartı 'işgal edildi İSE' — TDV'ye göre 1877'de Romanya müttefikti, işgal DEĞİL; veride `isg:` 1877 yoktur ve Emre'nin 'taralı desen yalnız işgal' kararıyla tutarlı. Görseldeki 'Birleşik Prenslikler (tâbi)' tonu İbrail ve Yergöğü'nün v:romanya kayıtlarının 1878-07-13'te bitmesinden gelebilir (öteki 15 Romanya noktası 1877-05-09'da s:romanya); bu iki nokta için 1878 gününün gerekçesi bulunamadı. SORU (H-0001 ile TEK karar): taralı desen istemiyorsanız kapanır; ayrıca İbrail/Yergöğü bağımsızlık günü 1877-05-09'a hizalansın mı (önerim: evet, TDV romanya).",
+   "delil": "denetim/PAKET-0083-D-ODAK-ISGAL.md §3 §5 · girdi.yukle (bu oturum): İbrail ve Yergöğü v:romanya →1878-07-13, s:romanya 1878-07-13'ten; Bükreş/Kalas s:romanya 1877-05-09'dan"
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "not": "5/7/10 günlük yürüyüş bölgeleri: üç sebep ölçülmüştü (bant ile taban ayrı koşulardan · bant 'artış' idi · bant opaklığı/renk geri düşüşü). Motor yamaları tam inşaya girdi, bant verisi KOŞU 21 ve KOŞU 23 ile yayında; arayüz bandı seçili ufka göre çiziyor. (Çöl 5=7=10 sabit kalması Emre kararıdır; lejanda beyan eklendi.)",
+   "delil": "data/ufuk_bantlari_ust.js (9,6 MB) + data/ufuk_bant_parcalar.js (96 MB), son commit df0a2b28 KOŞU 23 · KOŞU 23 mesajı 'Ⓑ ufuk bantları VAR · ufuk 1000-1945' · commit b9dd5fe7/219aec05 (bant katmanı yalnız seçili bant, acikTon) · tarayıcıda dosya HEAD 200 (içerik 9675850 bayt)"
+  }
+ },
+ "parti-emrelic-0084": {
+  "H-0001": {
+   "hukum": "zaten-dogru",
+   "not": "(b) Timur/Memlûk sorusu: atlas DOĞRU. Timur o bölgeyi Memlûklere VERMEDİ; Divriği'yi Osmanlı, 'yaklaşan Timur tehlikesinden dolayı' 1401'de Memlûklere geri verdi (TDV divrigi), aynı yıl Osmanlı Kemah+Erzincan'ı Mutahharten'den aldı (TDV kemah 803/1401) ⇒ Sivas ile Kemah arasında Memlûk ileri karakolu gerçekten vardı. Yayındaki geometri tarayıcıda ölçüldü: Divriği/Zara/Sivas-doğusu 1401-01-15→1402-07-28 memluk, Kemah-Erzincan 1401-02-01'den Osmanlı. (Memlûk alanının Zara'ya taşması Divriği'nin noktasız petek payıdır, kaynak çelişkisi değil.) (a) ufuk kısmı H-0020 ile aynı kalem.",
+   "delil": "denetim/P84-TIMUR-SAHIPLIK-1006.md §1 (TDV divrigi, kemah, timur) · tarayıcı ölçümü __sahip(37.5,39.6,'1401-06-01') → Y:memluk [1401-01-01→1402-07-28]; Kemah (39.03,39.6) 1401-06-01 → OSM"
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "① bant rengi çok koyu: bant opak çiziliyordu — HARITA-ON-YUZ-1010 bandı bir tık açık tona (acikTon, tek otorite) bağladı ve yalnız seçili bandı çiziyor (birikimli binme bitti). ② bant ile taban arası boşluk: motor yaması M2 (puan kapısı banda) tam inşada. ③ 'bazı bölümlerde yok': çöl 5=7=10 sabit (Emre kararı) ve seyrek yerleşimde fark yok — lejanda BEYAN eklendi. Kalan kusur (K4 ölü-petek/epok deliği, ⑤a/⑤b) H-0020'de.",
+   "delil": "commit b9dd5fe7 (acikTon + yalnız seçili bant, ARAC-BANT-ON-YUZ-SINAV-1010 13/13) · arac/uret_petek.py M1+M2 (P84-UFUK-BANT-KOD-MOTOR.diff uygulandı) · KOŞU 23 df0a2b28 · js/app.js ufukDurum başlığı (bu commit)"
+  },
+  "H-0003": {
+   "hukum": "zaten-dogru",
+   "not": "Harita verinin söylediğini doğru çiziyor (1281-1330 aralığı): İbrail macaristan, Kalas altinorda, İshakçı bulgaristan. Dayanak sertliği üç noktada farklı: Kalas sağlam (beyanlı çıkarım), İbrail ZAYIF (TDV cümleleri bölge düzeyinde ve 1241 öncesini anlatıyor), İshakçı kaynaksız/borçlu (PAKET-0076 halka ①). 13 Eflak noktasının 'macaristan 1281→1330' kaynak metni TDV'nin Posada cümlesiyle düzeltildi ve D208 şerhi eklendi (değer değişmedi, motor etkisi yok).",
+   "delil": "denetim/P84-DOBRUCA-TUNA-1006.md §2 · data/yerlesimler.js (13 kayıt kaynak metni) · İshakçı data/yerlesimler_ek29.js:479"
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "Asıl kusur madde etiketi değil EK OKUMA kartının türüydü: Kırkpınar kartı `teknik-bilimsel` altında 'TEKNİK BİLİMSEL' yazıyordu. Yeni ek okuma türleri açıldı: spor, kültür-sanat, mimari; Kırkpınar/güreş kartı SPOR, kıyafet-statü KÜLTÜR SANAT, 22 mimari kart MİMARİ. Kronoloji maddesi zaten k:spor / konu-spor taşıyordu. (Tarama: 460 kültür-sanat aday → gerçek eksik 0.)",
+   "delil": "js/app.js:12470-12472 `\"spor\"`, `\"kultur-sanat\"`, `\"mimari\"` EKOKUMA_TUR + :12693 'MİMARİ' · data/ekokuma_tamamla.js:68 `teknik-osmanli-spor-gelenekleri` tur:\"spor\" · commit dca7d994 (P84-ETIKET-MIMARI) · denetim/P84-ETIKET-SPOR-1006.md"
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "Rezve/Ahtapolu/İğneada 1361'den Osmanlı görünüyordu (kaynaksız atlas-içi değer, kendi dayanağı Kırklareli/Vize 1369 ile çelişiyordu; TDV kıyıya ilk harekâtı 1366-67 ve başarısız veriyor). Üç kayıt 1369-01-01'e çekildi (1369 fetih yılı değil kaynaklı ALT SINIR, kayda yazıldı; gerçek fetih yılı bulunamadı). Yayındaki geometri ölçüldü: Ahtapolu/Rezve 1365-06-01 → bizans, 1370-06-01 → Osmanlı.",
+   "delil": "denetim/P84-TRAKYA-MACARISTAN-1006.md §1 · P84-TRAKYA-MACARISTAN-1006-H0005-KOORD.diff uygulanmış (git apply -R --check temiz) · tarayıcı ölçümü __sahip(27.93,42.1,'1365-06-01') → Y:bizans [1363-01-01→1366-08-01]"
+  },
+  "H-0006": {
+   "hukum": "kosu-bekliyor",
+   "not": "Timur Batı Azerbaycan'a Mâzenderan üzerinden geçti (TDV timur); aradaki beyliklerin çoğu yıkılmamış TÂBİYDİ (Serbedârî 1381, Mar'aşî 1385, Muzafferî itaatleri) — atlasta yabancı tâbilik kademesi yok, bu bir MODEL sınırı (aşağıda senin-kararin). Kaynakla düzelen VERİ kusuru bu oturumda DÜZELTİLDİ: Serbedârî hayaleti (Simnân/Dâmgan/Bistâm `serbedariler` 1387-11-01'e kadar sürüyordu, künye ve TDV 1386 diyor) → 1386-01-01, ardıl timurlu. Harita bu düzeltmeyi bir sonraki tam koşudan sonra gösterir. AÇIK KALAN (Emre kararı): Mâzenderan'ın 1392-10-26 Timur fethi veride yok (Sârî, Âmül, Bârfurûş, Eşref) — başlangıç kaynaklı, BİTİŞ kaynakta yok; öneri B: timurlu 1392-10-26→bitiş ölçülene dek açık; ve yabancı tâbilik kademesi modeli.",
+   "delil": "data/yerlesimler.js Simnân/Dâmgan/Bistâm `{f:\"1337-09-09\",t:\"1386-01-01\",d:\"serbedariler\"},{f:\"1386-01-01\",…timurlu}` (bu commit) · data/devletler.js:577 serbedariler t:1386-01-01 · denetim/P84-TIMUR-SAHIPLIK-1006.md §2 · kronoloji_iran_ardillari.js:1038 t:1386-01-01"
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "'1387 — Timur'un İran'ı hâkimiyeti altına alması' maddesinin odağı Osmanlı kutusuna gidiyordu (kapsam_genis + odak yok). `odak_kimlik:[\"timurlu\"]` yazıldı: kamera o günün Timurlu topraklarına (110 yerleşim, Erzurum/Kars→Taşkent/Kâbil) gider. Kırık atıf 0.",
+   "delil": "data/olaylar_ek7.js (1387-11-01 maddesi) `odak_kimlik:[\"timurlu\"]` (bu commit) · `py arac/odak_olc.py` → ÇÖZÜLMEYEN ODAK ATFI: 0 kayıt · denetim/P84-ODAK-HAREKAT-1006.md İŞ 1"
+  },
+  "H-0008": {
+   "hukum": "zaten-dogru",
+   "not": "Braşov (Brassó) ~1400'de Erdel'e bağlı, Erdel de Macar Krallığı içinde — Eflak'a dâhil DEĞİL (TDV Erdel + Eflak). Atlas doğru: 1281→1526 macaristan. Yayındaki geometri ölçüldü: Braşov (25.6,45.65) 1400-06-01 → macaristan, Kımpulung → eflak. (Eflak voyvodalarının Macar tımarı olarak tuttuğu Fogaras/Amlaş modelde yok; yer adı/yıl TDV'de olmadığından öneri yazılmadı.)",
+   "delil": "denetim/P84-BRASSO-TEMESVAR-1006.md İŞ 1 · data/yerlesimler_ek29.js:91 · tarayıcı ölçümü __sahip(25.6,45.65,'1400-06-01') → Y:macaristan [1371-01-01→1409-01-01]"
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "Timur'un 1402 yürüyüş oku Sivas'tan değil Tebriz'den başlıyor; TDV'de geçen Kemah durağı eklendi. Tebriz çıkış yeri iki TDV cümlesinin birlikte okunmasından çıkarımdır (tek cümle yok) — kayıtta açıkça yazıldı; ara durak uydurulmadı.",
+   "delil": "data/savaslar.js SEFERLER 'Timur'un yürüyüşü (1402)' yol[0]=[46.29,38.08] Tebriz (P84-ODAK-HAREKAT-1006-H0009.diff uygulandı) · TDV timur + ankara-savasi · öneri B (f 1402-05-10) UYGULANMADI"
+  },
+  "H-0010": {
+   "hukum": "cozuldu",
+   "not": "Kronoloji 'Mircea Dobruca'yı yeniden aldı' diyor, harita yansıtmıyordu: veri HATASI DEĞİL, BAYAT GEOMETRİYDİ (Koşu 19 girdisi). Veri 4/4 doğru (Silistre, Köstence, Babadağı, İshakçı 1402-07-28→1416/1419 eflak). Yayındaki geometri ölçüldü ve DOĞRU: dördü de 1405-06-01'de eflak, Babadağı 1417'de tek başına Osmanlı adası (kaynaklı, TDV babadagi 1416).",
+   "delil": "denetim/P84-DOBRUCA-TUNA-1006.md §1 · tarayıcı ölçümü: Silistre (27.26,44.12) 1405-06-01 → Y:eflak [1402-07-28→1416-01-01]; Köstence, Babadağı, İshakçı aynı; Babadağı 1417-06-01 → OSM · KOŞU 23 df0a2b28"
+  },
+  "H-0011": {
+   "hukum": "zaten-dogru",
+   "not": "'Komple Karamanoğlu görünüyor' TDV ile DOĞRU: Timur Karamanoğlu'na kendi ülkesinin üstüne Kayseri, Kırşehir, Sivrihisar ve Beyşehir'i verdi; Hamîd-ili ihya edilmedi, Karaman'a geçti (TDV isparta 'muhtemelen'). Germiyan, Aydın, Menteşe, Saruhan, Candar ayrı kimliklerle veride var. Yayında Kayseri/Isparta 1403-03-01 = karaman. Ters yönde iki ayrı kusur kayıtlı (Elmalı 1402-1415 TDV'ye göre Karaman, atlasta teke; Antalya Osmanlı subaşılığı, atlasta teke) — Fetret'te şehzadesiz Osmanlı subaşılığı için kodlama kuralı gerekir (Emre).",
+   "delil": "denetim/P84-TIMUR-SAHIPLIK-1006.md §3 (TDV karamanogullari, isparta, tekeogullari) · tarayıcı ölçümü Kayseri/Isparta 1403-03-01 → Y:karaman"
+  },
+  "H-0012": {
+   "hukum": "senin-kararin",
+   "not": "Bursa/Ankara 1411-02-17'de Süleyman'dan Çelebi Mehmed'e geçiyor (60 yerleşim) ve bu geçişin kronoloji maddesi YOK (2s AÇIK). Sebep: kırılma tarihi KAYNAKSIZ vekil (Süleyman'ın ölüm günü). TDV hiçbir maddede gün/ay vermiyor; sınırlar: Süleyman'ın Rumeli'ye geçişi 13 Şubat 1410 SONRASI, üst sınır hicrî 813 sikkesi (6 Mayıs 1410–24 Nisan 1411). Koordinatör raporunun önerdiği 1410-01-01 bu alt sınırın ALTINDA kalıyor (Yanbolu 13 Şubat 1410). Veri ⑤'e göre kesişimin ilk günü 1410-05-06 olur. SORU: tarih ne olsun — A) 1410-05-06 (hicrî 813 başı, alt sınırla uyumlu) kırılma + yeni madde, B) kırılmayı 1411-02-17'de bırakıp maddeyi oraya yazmak (kaynaksız atlas günü, ÖNERMİYORUM). Önerim A. Kabul edilirse 59 kayıt + 1 yeni madde tek commit'te, 2s/2sk tavanı aynı commit'te.",
+   "delil": "denetim/P84-DEGISMEZ2-ADAY-1006.md §2.2/§4/§6 · diff'ler (P84-DEGISMEZ2-ADAY-1006(-KOORD).diff) bu oturumda UYGULANMADI · girdi: data/yerlesimler.js 55 kayıtta `t:\"1411-02-17\",d:\"suleyman-celebi\"` (bu oturumda sayıldı) · tarayıcı: Bursa 1410-06-01 suleyman-celebi, 1411-03-01 mehmed-celebi"
+  },
+  "H-0013": {
+   "hukum": "senin-kararin",
+   "not": "Şehirköy (Pirot) enklavı 1443-01-01→1444-08-01 penceresinde (yayın geometrisinde Pirot AYRI bileşen 6.017 km²): sebep, TDV'nin yıl hassasiyetli 'Haçlı ordusu 1443'te Şehirköy'ü zaptetti' tanıklığının YYYY-01-01'e yazılması (Pirot s:sirp-despotlugu 1443-01-01, oysa Niş/Kruševac 1444-08'e dek Osmanlı). Rötuş değil VERİ meselesi. 1412-1413 enklavı ise TDV tarafından DESTEKLENİYOR (Stefan Lazareviç 1412) — kaldırılırsa belge çiğnenir. SORU: A) Pirot s: başlangıcı 1444-08-01 (Segedin'in ardından iade) ⇒ enklav tamamen kalkar, ama 'zapt 1443' tanıklığı yalnız isg:'de kalır, 2t tavanı +1 olabilir; B) olduğu gibi bırak, 'kaynak yıl diyor' beyanı. Önerim A (isg: günü ile madde günü birlikte seçilerek).",
+   "delil": "denetim/P84-ROTUS-TASARIM-1006.md §2.1 · data/yerlesimler_serhat.js:140 Şehirköy (Pirot) s: sirp-despotlugu 1443-01-01→1456-01-01, d: 1428→1443"
+  },
+  "H-0014": {
+   "hukum": "cozuldu",
+   "not": "8-9 Mart 1403 maddesinde Bizans'a geçen Karadeniz kıyısının (İğneada, Ahtapolu, Rezve) kırılması 1403-02-01'di ve maddesi yoktu; Gelibolu Antlaşması maddesi o güne (ay hassasiyetli, 'gün bilinmiyor') yazılmış durumda; Selanik'in teslimi ayrı madde (1403-06-15).",
+   "delil": "data/olaylar_ek3.js:11 `{t:\"1403-02-01\", kesinlik:\"ay\", … b:\"Gelibolu Antlaşması: Misivri'ye kadar Karadeniz kıyısı Bizans'a bırakıldı\"` · :12 1403-06-15 Gelibolu Antlaşması—Bizans'a tavizler (Selanik) · `py arac/denetle.py` Değişmez 2 ✓ 0 açık"
+  },
+  "H-0015": {
+   "hukum": "kosu-bekliyor",
+   "not": "Macaristan'a uzanan toprak DOĞAL DEĞİL, HATAYDI (iki kusur): ① Drava–Mura arası noktasız (Maribor peteği ~16,75°D'ye uzanıp Muraköz'ü yutuyordu; Ptuj Macar gövdesine düşüyordu) ② Maribor 1281-1526 `almanya` (Steiermark 1276'dan Habsburg; 1526 Macar Mohaç günü) — yanlış renk. DÜZELTİLDİ (kaynak: Hrvatska enciklopedija, AEIOU): Maribor 1281→1918 avusturya; yeni nokta Čakovec (Macar tacı → 1920 Yugoslavya); yeni nokta Ptuj (almanya→1555 avusturya→1918). Yayındaki geometri hâlâ eski: Maribor/Muraköz 1450-01-01 → almanya, Ptuj → macaristan (tarayıcıda ölçüldü). BEKLENEN: koşudan sonra doğu uç Čakovec–Murska Sobota–Varaždin bisektörlerine (~16,1-16,2°D) çekilir. Not: Ormož (Ptuj'a ~22 km, Čakovec'e ~21 km) sınırda; kaynak bulunamadı. Bilinen borç: 2sk 'yalnız taraf' sayısı 2246→2253 (+7, yeni kırılmalar yalnız TARAF ile kapanıyor); tavan YÜKSELTİLMEDİ.",
+   "delil": "data/yerlesimler_p77_avrupa.js (Maribor s:, + Čakovec, + Ptuj; P84-TRAKYA-MACARISTAN-1006-H0015-KOORD.diff) · denetim/P84-TRAKYA-MACARISTAN-1006.md §2 · tarayıcı ölçümü __sahip(16.43,46.38,'1450-01-01') → Y:almanya (eski geometri) · denetle: D1 309/309 ✓, D2 628/0 ✓, 2sk ⚠️ 2253>2246"
+  },
+  "H-0016": {
+   "hukum": "senin-kararin",
+   "not": "Üst üste binme (Tırhala/Pindus: Osmanlı gövdesi ∩ bizans ≈1.245–1.343 km²) 0083-B ile AYNI mekanizma (kapat()) ama 0083-B yaması ölçütü NOKTA ile sınırlı; Pindus'ta yabancı nokta yok ⇒ yama burada hiçbir şey yapmıyor. YAYINDA hâlâ var (tarayıcıda ölçüldü: (21.71,39.06) ve (21.46,39.46) 1396/1414/1420/1428 hepsinde hem Y:bizans hem OSM). Çare MOTOR TUZU: 0083-B ölçütünü nokta yerine PETEK ALANINA genişletmek ya da `_komsu_toprak_cikar`ı Osmanlı/tâbi gövdeye de uygulamak; binmenin ≥%84'ü düşer. SORU: bu motor yaması bir sonraki tam inşa (7-8 saat) için yazılsın mı? Önerim: evet, diff olarak yazılıp bekletilsin.",
+   "delil": "denetim/P84-ROTUS-TASARIM-1006.md §3 · tarayıcı ölçümü (canlı site) __sahip(21.71,39.06,'1414-06-01') → 'Y:bizans [1403-06-01→1417-01-01] | OSM-o'"
+  },
+  "H-0017": {
+   "hukum": "senin-kararin",
+   "not": "H-0013 ile AYNI yer ve aynı karar (Şehirköy enklavı / batıdaki ince Osmanlı kıymığı). Emre'nin önerisi (kıymığı Sırbistan'a vermek) VERİ düzeltmesi olarak (A seçeneği: Pirot 1444-08-01) enklavı tümden kaldırır; rötuş mekanizması (data/rotus.js) KURULDU ama kayıt yok ve bu vaka rötuş sınıfında DEĞİL (kaynak hüküm veriyor: Emre'nin 'belge ile çürütülemez ise' şartı).",
+   "delil": "denetim/P84-ROTUS-TASARIM-1006.md §2.1 · data/rotus.js `window.ROTUS = []`"
+  },
+  "H-0018": {
+   "hukum": "kosu-bekliyor",
+   "not": "İbrail yayında Eflak ana gövdesinden AYRI bileşen (2.201 km²); sebep noktasızlık: Bărăgan'da (İbrail–Buzău–Rîmnic arası) 0 Eflak noktası ⇒ Kalas peteği (Boğdan) güneye kama gibi giriyor (Siret nehri motor verisinde de yok). Yayında kama doğrulandı: (27.816,44.816) ve (27.9,45.0) 1400-06-01 → bogdan, (27.5,45.0) ve (27.97,45.27) → eflak. DÜZELTME GİRDİ (rötuş değil veri): Floci (Târgu de Floci, 44.689K 27.831D, ilk atestasyon 1431, Eflak tarafı; kaynak DJC Ialomița + RAN 93655.02). Harita bunu bir sonraki tam koşudan sonra gösterir; kama kapanması ÖNGÖRÜDÜR, ölçülmedi.",
+   "delil": "data/yerlesimler_ek29.js (Floci kaydı, P84-DOBRUCA-TUNA-1006-KOORD.diff) · denetim/P84-ROTUS-TASARIM-1006.md §2.2 · tarayıcı ölçümü __sahip(27.87,44.81,'1400-06-01') → Y:bogdan [1359-01-01→1448-01-01] · denetle D1 309/309 ✓"
+  },
+  "H-0019": {
+   "hukum": "cozuldu",
+   "not": "'Harita rötuşu' kavramı sisteme tanıtıldı: data/rotus.js (şemalı, yalnız onaylı kayıt), js/rotus.js tek uygulayıcı, arayüzde '✏️ Rötuş teklif et' çizim kipi ve ⑤b anahtarı, denetle.py Değişmez R (R1-R9, her koşuda yeniden sorar). Sıra Emre'nin şartıyla: önce kaynak araştır → kaynak hüküm veriyorsa VERİYİ düzelt → kaynak sessizse ANCAK o zaman rötuş. Bugün 0 kayıt (Şehirköy ve İbrail vakaları veri sınıfına düştü).",
+   "delil": "data/rotus.js (index.html'de yüklü) · js/rotus.js · arac/rotus_coz.js · arac/denetle.py `degismez_r` — `py arac/denetle.py` çıktısı 'Değişmez R ✓ harita rötuşu: 0 kayıt' · commit 38db6af4, fa046560, 2fe8ada7 · denetim/P84-ROTUS-MEKANIZMA-1006.md"
+  },
+  "H-0020": {
+   "hukum": "olculecek",
+   "not": "Beş kusurun durumu: ①② (boşluklu halka / yapışma) — tek mekanizma: halka puan kapısından geçmiyordu; motor yaması M2 tam inşada (KOŞU 21 ve 23). ③④ (5-7-10 arası fark yok) — çoğu KUSUR DEĞİL: çölde 7 gün sabit (Emre kararı) ve seyrek yerleşimde fark olmaz; lejanda beyan eklendi. ⑤ (katman binmesi) — bant–gövde binmesi (⑤a/⑤b: gövdenin kapat()/köprü payı halkanın üstüne biner; ⑤c ada kuralı) M1+M2 ile KAPANMADI ve 0083-B'den farklı katman. K4 (ölü/kurulmamış petek komşuluğunda 7/10 artışı yok) de açık. ÖLÇÜLECEK: KOŞU 23 bant verisinde (data/ufuk_bant_parcalar.js) halka∩gövde alanı ve K4 deliği km² olarak; bant boru hattına gövde aşamalarının eklenmesi ayrı motor işidir (tam inşa). Yerel sunucuda bant radyolarını yükleme/ölçme denemesi bu oturumda tamamlanamadı.",
+   "delil": "denetim/P84-UFUK-BANT-KOD-1006.md §2-§5 · arac/uret_petek.py M1+M2 uygulanmış (git apply -R --check temiz) · KOŞU 23 mesajı 'Ⓑ ufuk bantları VAR' · P84-ROTUS-TASARIM-1006 §3 'H-0020 ⑤ ÇÖZÜLMEDİ'"
+  }
+ }
+}

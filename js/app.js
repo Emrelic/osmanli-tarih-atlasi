@@ -1303,7 +1303,13 @@ function bVeriKapisi() {
       try { harita.setLayoutProperty("ufuk-bant-alan", "visibility", "none"); } catch (e) {}
       ufukSecimEsitle();
     }
-    sec.title = varMi ? "Yürüyüş ufku — 5 gün bugünkü harita (A); 7 ve 10 gün ek bantları gösterir"
+    // 🆕 12 Ekim 2026 — paket 0084 / H-0020 ③④ (P84-UFUK-BANT-KOD-1006 §3 BEYAN önerisi):
+    //   5/7/10 arasında fark görünmemesi çoğu yerde KUSUR DEĞİL, kuralın sonucu; beyan
+    //   edilmezse aynı soru her seferinde sorulur.
+    sec.title = varMi ? "Yürüyüş ufku — 5 gün bugünkü harita (A); 7 ve 10 gün ek bantları gösterir. " +
+                        "Çölde yürüyüş ufku 7 günde sabittir (Emre kararı), orada 5/7/10 fark etmez; " +
+                        "yoğun yerleşimde bölgeler 5 günde zaten komşuya dayanır; tek yerleşimin " +
+                        "beslediği, yerleşimden 200 km'den uzak toprak hiçbir ufukta boyanmaz."
                       : "Yürüyüş ufku — yalnız 5 gün (A) var; 7/10 gün bantları " + NOT;
     if (lb2) lb2.classList.toggle("b-pasif", !varMi);
     if (!varMi) ufukRozet(NOT);
