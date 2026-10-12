@@ -35,6 +35,29 @@ def tablo(md):
     return m.group(2).replace("\r\n", "\n") if m else None
 
 
+def _tablo_satirlari(metin):
+    """§1.5 tablosunun VERİ satırları (`| kalem | ölçüm |`) ve KALEM ADLARI.
+
+    🔴 Bu satırlar KURAL DEĞİL, ÖLÇÜM: `CLAUDE.md` onlar için *"Elle yazılmaz,
+    ÜRETİLİR (`py arac/durum_tablosu.py --yaz`)"* diyor. Satır-varlığı
+    kontrolünden ÇIKARILIRLAR — ama KALEM ADI ayrıca sınanır (⑥): bir kalem
+    artık ölçülmüyorsa bir DENETİM kaybedilmiştir ve o bir kural kaybıdır.
+    """
+    t = tablo(metin)
+    if not t:
+        return set(), set()
+    satir, kalem = set(), set()
+    for s in t.split("\n"):
+        if not s.strip().startswith("|"):
+            continue
+        p = [x.strip() for x in s.strip().strip("|").split("|")]
+        if len(p) < 2 or set(p[0]) <= set("-: "):      # başlık ayıracı
+            continue
+        satir.add(norm(s))
+        kalem.add(norm(p[0]))
+    return satir, kalem
+
+
 def main():
     eski = subprocess.run(["git", "show", TABAN + ":CLAUDE.md"], cwd=KOK, capture_output=True,
                           check=True).stdout.decode("utf-8").replace("\r\n", "\n")
@@ -46,9 +69,20 @@ def main():
         if f.endswith(".md"):
             havuz |= {norm(x) for x in io.open(os.path.join(dd, f), encoding="utf-8").read().replace("\r\n", "\n").split("\n")}
     sat = eski.split("\n")
-    eksik = [(i + 1, x) for i, x in enumerate(sat) if x.strip() and norm(x) not in havuz]
+    # §1.5 VERİ satırları ① kapsamından ÇIKAR — ölçüm, kural değil (bkz.
+    # `_tablo_satirlari` gerekçesi). Kalem adları ⑥'da sınanıyor.
+    _e_sat, _e_kalem = _tablo_satirlari(eski)
+    _y_sat, _y_kalem = _tablo_satirlari(yeni)
+    eksik = [(i + 1, x) for i, x in enumerate(sat)
+             if x.strip() and norm(x) not in havuz and norm(x) not in _e_sat]
     kirik = [l for l in re.findall(r"\]\((dersler/[^)]+)\)", yeni) if not os.path.exists(os.path.join(KOK, l))]
-    t_ok = tablo(yeni) is not None and tablo(yeni) == tablo(eski)
+    # ③ ARTIK "tablo BİREBİR AYNI" DEĞİL: asıl soru `durum_tablosu.py --yaz`ın
+    #   tabloyu BULABİLMESİ. Birebir eşitlik istemek, aletin kendi işini
+    #   (tabloyu TAZELEMEK) ihlal sayardı.
+    t_ok = tablo(yeni) is not None
+    # ⑥ YENİ KAPI: taban kalemlerinin HEPSİ yeni tabloda OLMALI. Sayı değişebilir,
+    #   KALEM KAYBOLAMAZ — kaybolan kalem, susturulmuş bir denetimdir.
+    kayip_kalem = sorted(_e_kalem - _y_kalem)
     try:
         z_ok = tuz(yeni) == tuz(eski) and len(tuz(eski)) > 0
     except ValueError:
@@ -59,11 +93,12 @@ def main():
     for i, x in eksik[:40]:
         print(f"     ✗ {i}: {x[:110]}")
     print(f"② KIRIK    {len(kirik)} {kirik[:10]}")
-    print(f"③ §1.5     {'✓ durum_tablosu regex eşleşiyor, tablo AYNI' if t_ok else '✗'}")
+    print(f"③ §1.5     {'✓ durum_tablosu regex EŞLEŞİYOR (birebir eşitlik ARANMIYOR — tablo ÜRETİLİR)' if t_ok else '✗ regex eşleşmedi — --yaz tabloyu BULAMAZ'}")
+    print(f"⑥ KALEM    {'✓ taban kalemlerinin hepsi duruyor (%d kalem)' % len(_y_kalem) if not kayip_kalem else '✗ KAYBOLAN KALEM: ' + str(kayip_kalem)}")
     print(f"④ TUZU     {'✓ ' + str(sorted(tuz(yeni))) if z_ok else '✗'}")
     print(f"⑤ BOYUT    taban {b_e} B (~{b_e/3.5:,.0f} tok) → yeni {b_y} B (~{b_y/3.5:,.0f} tok) · "
           f"satır {len(sat)} → {len(yeni.split(chr(10)))}")
-    if eksik or kirik or not t_ok or not z_ok:
+    if eksik or kirik or not t_ok or not z_ok or kayip_kalem:
         print("🔴 SINAV DÜŞTÜ"); sys.exit(2)
     print("🟢 SINAV GEÇTİ")
 
