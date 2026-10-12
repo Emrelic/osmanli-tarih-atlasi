@@ -5388,6 +5388,19 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
     harita = _d8_node([os.path.join(kok, "data", "devletler.js")],
                       "Object.fromEntries((window.DEVLETLER||[]).filter(d=>d&&d.id)"
                       ".map(d=>[d.id,d.harita||d.id]))")
+    # 🔴 TÂBİ YAKA (13 Ekim 2026, KAPI-0): gövde Osmanlı'ya TÂBİ bütün kimlikleri TEK `OSM-TABI`
+    #    gid'inde boyar (`v:`); hattın bir yakası böyle bir tâbi ise (ör. Bulgaristan Prensliği
+    #    1878-07-13..1908-10-05) `esit(gid, taraf)` o yakayı HİÇ BULAMAZDI ⇒ hat KÖR sayılırdı
+    #    (g3-bg-ro-tuna-p1..p3: 6 (hat,gün)). Körlük veriden değil ÖLÇÜTÜN kimlik sözlüğündendi.
+    #    Yaka o gün `devletler.js` `tabi:[{ust:"osmanli"}]` penceresindeyse `OSM-TABI` O YAKAYA
+    #    yazılır; iki yaka da tâbiyse belirsizdir ⇒ hiçbirine yazılmaz (kör kalır, UYDURULMAZ).
+    tabi_pen = _d8_node([os.path.join(kok, "data", "devletler.js")],
+                        "Object.fromEntries((window.DEVLETLER||[]).filter(d=>d&&d.id&&Array.isArray(d.tabi))"
+                        ".map(d=>[d.id,d.tabi.filter(p=>p.ust==='osmanli').map(p=>[p.f||'0000',p.t||'9999'])]))")
+
+    def tabi_mi(taraf, gun):
+        return any(f <= gun < t for f, t in tabi_pen.get(taraf, ()))
+
     iki_tarafsiz = 0
     if hatlar is None:
         tum = _d8_node(_d8_d_dosyalari(),
@@ -5487,6 +5500,11 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
             govde = {"sol": [], "sag": []}
             for gid, g in gv.kesit(gun, kutu):
                 if gid == "__BOSLUK__":
+                    continue
+                if gid == "OSM-TABI" and not esit(gid, sol) and not esit(gid, sag):
+                    ts, tg = tabi_mi(sol, gun), tabi_mi(sag, gun)
+                    if ts != tg:                 # tam bir yaka tâbi ⇒ OSM-TABI o yakanındır
+                        govde["sol" if ts else "sag"].append(g)
                     continue
                 if esit(gid, sol):
                     govde["sol"].append(g)

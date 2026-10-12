@@ -376,7 +376,8 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgar-carligi"], t:"1277-01-01", b:"İvaylo Ayaklanması — köylü çar", tur:"isyan",
   onem:3, dunya:2, kapsam:"ic", etiket:["sosyal","isyan","konu-isyan","konu-sosyal"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tırnova"],
+  ic_not:"odak_yer YALNIZ kamera içindir, olayın yeri değildir: kaynak (TDV bulgaristan) ayaklanmanın başladığı yeri vermez ('bütün ülke'); Tırnova Bulgar başkenti ve İvaylo'nun 1278'de çar olduğu şehirdir. Atlasın gövdesi 1246-1281 arası Bulgar çarlığını boyamadığı için (ufuk 1000'e açılınca) künye sekmesi bu madde için gövdeye uçamıyordu.",
   d:"Domuz çobanı İvaylo önderliğindeki bir köylü ayaklanması, Moğol (Altın Orda) akınları ve saray zaafı karşısında bozguna uğrayan merkezi otoriteye karşı patlak verdi; İvaylo kısa süreliğine tahtı ele geçirip çar oldu (1278-1280). Ortaçağ Balkanları'nda nadir görülen bir köylü isyanı olarak Bulgar tarih yazımında özel bir yer tutar.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu olaydan bahsetmiyor; dayanak: akademik (Fine, The Late Medieval Balkans, 1994)." },
 

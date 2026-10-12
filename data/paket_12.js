@@ -2850,7 +2850,8 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgar-carligi"], t:"1277-01-01", b:"İvaylo Ayaklanması — köylü çar", tur:"isyan",
   onem:3, dunya:2, kapsam:"ic", etiket:["sosyal","isyan","konu-isyan","konu-sosyal"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tırnova"],
+  ic_not:"odak_yer YALNIZ kamera içindir, olayın yeri değildir: kaynak (TDV bulgaristan) ayaklanmanın başladığı yeri vermez ('bütün ülke'); Tırnova Bulgar başkenti ve İvaylo'nun 1278'de çar olduğu şehirdir. Atlasın gövdesi 1246-1281 arası Bulgar çarlığını boyamadığı için (ufuk 1000'e açılınca) künye sekmesi bu madde için gövdeye uçamıyordu.",
   d:"Domuz çobanı İvaylo önderliğindeki bir köylü ayaklanması, Moğol (Altın Orda) akınları ve saray zaafı karşısında bozguna uğrayan merkezi otoriteye karşı patlak verdi; İvaylo kısa süreliğine tahtı ele geçirip çar oldu (1278-1280). Ortaçağ Balkanları'nda nadir görülen bir köylü isyanı olarak Bulgar tarih yazımında özel bir yer tutar.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu olaydan bahsetmiyor; dayanak: akademik (Fine, The Late Medieval Balkans, 1994)." },
 
@@ -5853,7 +5854,8 @@ window.KRONOLOJI_GURCISTAN = [
 
 { t:"1724-06-24", b:"İstanbul Mukâsemenâmesi — Gürcistan'ın Osmanlı-Rusya arasında paylaşılması", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tiflis"],
+  ic_not:"odak_yer YALNIZ kamera içindir: antlaşma İstanbul'da imzalandı, konusu Gürcistan'ın paylaşımıdır; Tiflis Osmanlı'nın 1723'te aldığı Gürcü başkentidir. Künyenin 1723-06-15..1735-08-12 arası gövdesi olmadığı için sekme gövdeye uçamıyordu.",
   d:"Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için imzalanan taksim antlaşmasıyla Gürcistan, Şirvan ve Azerbaycan Osmanlı'ya, Hazar'ın batı-güney kıyıları Rusya'ya bırakıldı. Gürcistan'ın kendi rızası olmaksızın iki büyük gücün masasında paylaşılması, ülkenin 18. yüzyıldaki konumunu özetleyen bir andır.",
   kaynak:"ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)" },
 

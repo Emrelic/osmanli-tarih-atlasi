@@ -201,8 +201,8 @@
     },
     {
      "yol": "data/kronoloji_iran.js",
-     "sha": "823a06262566f70d",
-     "bayt": 77594
+     "sha": "c9bffd1c46fa8db9",
+     "bayt": 77916
     },
     {
      "yol": "data/kronoloji_bizans.js",
@@ -210,7 +210,7 @@
      "bayt": 55557
     }
    ],
-   "bayt": 427597
+   "bayt": 427919
   },
   {
    "paket": "data/paket_07.js",
@@ -427,8 +427,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "622da0a51db9601b",
-     "bayt": 136751
+     "sha": "8a7608026bdb75f5",
+     "bayt": 137156
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -442,8 +442,8 @@
     },
     {
      "yol": "data/kronoloji_gurcistan.js",
-     "sha": "b3263f676461dc10",
-     "bayt": 32140
+     "sha": "143a3abcdf99d011",
+     "bayt": 32438
     },
     {
      "yol": "data/kronoloji_iran_ardillari.js",
@@ -551,7 +551,7 @@
      "bayt": 158404
     }
    ],
-   "bayt": 1859393
+   "bayt": 1860096
   },
   {
    "paket": "data/paket_13.js",

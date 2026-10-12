@@ -236,7 +236,8 @@ window.KRONOLOJI_GURCISTAN = [
 
 { t:"1724-06-24", b:"İstanbul Mukâsemenâmesi — Gürcistan'ın Osmanlı-Rusya arasında paylaşılması", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tiflis"],
+  ic_not:"odak_yer YALNIZ kamera içindir: antlaşma İstanbul'da imzalandı, konusu Gürcistan'ın paylaşımıdır; Tiflis Osmanlı'nın 1723'te aldığı Gürcü başkentidir. Künyenin 1723-06-15..1735-08-12 arası gövdesi olmadığı için sekme gövdeye uçamıyordu.",
   d:"Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için imzalanan taksim antlaşmasıyla Gürcistan, Şirvan ve Azerbaycan Osmanlı'ya, Hazar'ın batı-güney kıyıları Rusya'ya bırakıldı. Gürcistan'ın kendi rızası olmaksızın iki büyük gücün masasında paylaşılması, ülkenin 18. yüzyıldaki konumunu özetleyen bir andır.",
   kaynak:"ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)" },
 
