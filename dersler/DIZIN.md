@@ -317,3 +317,7 @@
 
 ## 12 Ekim 2026 — BUDAMA-1012: koordinatör/tahta/bekçi düzeni bırakıldı
 - **CLAUDE.md'nin koordinatör dönemi TAM METNİ (arşiv, yürürlükte DEĞİL)** — [`arsiv/ESKI-PRENSIPLER-1012.md`](../arsiv/ESKI-PRENSIPLER-1012.md)
+
+## 12 Ekim 2026 — SIRADA-A kutu maddeleri
+- **Eksklav görünümü: önce ÖLÇ (ARAC-EKSKLAV), sonra A/B1-B4 karar ağacı; B4'te tarih uydurulmaz** — [`D287`](D287-eksklav-karar-agaci.md)
+- **Savaş anlatısı beş aşamada kurulur (süreç · başlangıç · olaylar · son · barış); eksik halka ayrı kusurdur** — [`D288`](D288-savas-anlati-bes-asama.md)

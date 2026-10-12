@@ -11122,6 +11122,16 @@ function kisiKartSatirlari(o) {
   o.kisiler.split(/[,;]/).slice(0, 4).forEach(function (ad) {
     if (padisahEslesmesi(ad, o.gi)) return;
     var k = kisiBul(ad);
+    // 🔴 ZAMAN KORUMASI (0053/H-0015, KUTU-HUKUM-SIRADA-A-1012): bulanık eşleşme
+    // ("İsmail Paşa" 1686 → Şah İsmail 1487-1524) kişinin ömrü dışındaki madde
+    // gününe tutmasın. Yalnız BİREBİR olmayan eşleşmeye uygulanır (kayıtlı ad
+    // aynen yazıldıysa ölümünden sonra anılması meşrudur); f/t sayı değilse
+    // koruma devreye girmez.
+    if (k && o.gi != null && k.ad.toLowerCase() !== ad.trim().toLowerCase() &&
+        /^\d{3,4}$/.test(String(k.f || "")) && /^\d{3,4}$/.test(String(k.t || ""))) {
+      if (o.gi < gunIdx(("0000" + k.f).slice(-4) + "-01-01") - PADISAH_SONRA_GUN ||
+          o.gi > gunIdx(("0000" + k.t).slice(-4) + "-12-31") + PADISAH_SONRA_GUN) k = null;
+    }
     if (k && !yazilan[k.ad]) {
       yazilan[k.ad] = 1;
       sat.push(_kvSatir("kisi", k.ad, '<div class="ek-kart"><h4>' + ekEsc(k.ad) + "</h4><p>" +
@@ -12612,7 +12622,8 @@ function _maddeliMetniHtmle(metin) {
   // içinde daire rakamı varsa (eski H-0089 davranışı) AYRICA böl. Ne `\n\n`
   // ne daire varsa davranış eskisiyle birebir (tek `<p>`).
   var h = "";
-  metin.split(/\n{2,}/).forEach(function (blok) {
+  // 0068/H-0018: tek `\n` + "•" ile ayrılmış madde imli listeler de paragraf sayılır.
+  metin.split(/\n{2,}|\n(?=•)/).forEach(function (blok) {
     blok = blok.trim();
     if (!blok) return;
     if (!_DAIRE_RAKAM_VAR.test(blok)) { h += "<p>" + ekEsc(blok) + "</p>"; return; }
@@ -12829,7 +12840,12 @@ function ekKartHtml(k) {
   var h = '<div class="ek-kart' + (rivayet ? " rivayet" : "") + '">';
   h += kesinlikRozeti(k.kesinlik);
   if (k.tur === "sebep-sonuc") {
-    h += "<h4>" + ekEsc(k.sebep && k.sebep.b) + " → " + ekEsc(k.sonuc && k.sonuc.b) + "</h4>";
+    // 0064/H-0004: sebep/sonuç alanı olmayan sebep-sonuç kartı (213'ün 52'si) gövdede
+    // yalnız " → " basıyordu; kartın kendi başlığı varsa o basılır.
+    if ((k.sebep && k.sebep.b) || (k.sonuc && k.sonuc.b))
+      h += "<h4>" + ekEsc(k.sebep && k.sebep.b) + " → " + ekEsc(k.sonuc && k.sonuc.b) + "</h4>";
+    else if (k.baslik || k.ad || k.soru)
+      h += "<h4>" + ekEsc(k.baslik || k.ad || k.soru) + "</h4>";
     if (k.bag) h += '<p class="ek-alt">' + ekEsc(k.bag) + "</p>";
     // 🔴 EKLENDİ (DALGA-0068 H-0018, ISGAL-TARAMA, 18 Eylül 2026): `surec`
     // alanı (EKOKUMA_ANTLASMA4'ün 56 kaydının HEPSİNDE dolu, genelde `metin`den
@@ -13321,7 +13337,7 @@ function tamEkranSor() {
 }
 
 document.addEventListener("fullscreenchange", function () {
-  document.getElementById("btn-tamekran").textContent = document.fullscreenElement ? "⤢" : "⛶";
+  document.getElementById("btn-tamekran").textContent = document.fullscreenElement ? "⤢ Küçült" : "⛶ Tam ekran";
   setTimeout(function () { harita.resize(); }, 120);
 });
 
