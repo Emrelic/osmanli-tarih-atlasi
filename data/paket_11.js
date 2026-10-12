@@ -676,7 +676,7 @@ window.KRONOLOJI_ISVEC = [
 // === A) KALMAR BİRLİĞİ'NDEN VASA'NIN YÜKSELİŞİNE (1397-1523) ================
 
 // === B) VASA HANEDANI VE REFORM (1523-1611) ==================================
-{ t:"1523-06-06", b:"Gustav Vasa, Strängnäs'te kral seçildi ⭐", tur:"kurulus", onem:5, dunya:4, kapsam:"dis",
+{ t:"1523-06-06", b:"Gustav Vasa, Strängnäs'te kral seçildi", tur:"kurulus", onem:5, dunya:4, kapsam:"dis",
   etiket:["kurulus","siyaset","konu-siyasi"],
   yer_id:"",
   d:"Riksdag, Gustav Eriksson'u kral seçti ve İsveç, Kalmar Birliği'nden fiilen ayrıldı. Tarih bugün İsveç'in millî günüdür ve bu dosyada devletin başlangıç tarihi olarak alınmıştır.", ic_not_d:"(data/devletler.js:824 ile birebir)",
@@ -809,7 +809,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"Yeni kral X. Karl Gustav, zayıflamış Polonya-Litvanya Cumhuriyeti'ni istila ederek kısa sürede Varşova ve Krakov'u ele geçirdi. Polonya tarihyazımında \"Potop\" (Tufan) olarak anılan bu istila, ülkede yıkıcı bir işgal dönemi başlattı ama İsveç için kalıcı toprak kazancı getirmedi.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_id:"Varşova" },
-{ t:"1658-02-26", b:"Roskilde Antlaşması — Skåne, Blekinge, Halland, Bohuslän kazanıldı ⭐", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Malmö",
+{ t:"1658-02-26", b:"Roskilde Antlaşması — Skåne, Blekinge, Halland, Bohuslän kazanıldı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Malmö",
   etiket:["toprak","antlasma","konu-askeri","konu-diplomasi"],
   d:"Danimarka'ya karşı kazanılan savaş sonunda imzalanan Roskilde Antlaşması, İsveç'e güney yarımadasının tamamını (Skåne, Blekinge, Halland, Bohuslän) kazandırdı ve bugünkü İsveç sınırlarının çekirdeğini oluşturdu.", ic_not_d:"Malmö'nün aynı gün İsveç idaresine geçtiği data/yerlesimler_avrupa.js:312 kaydıyla birebir doğrulanır.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718 — data/yerlesimler_avrupa.js:312 ile tarih birebir doğrulandı" },
@@ -1063,7 +1063,7 @@ window.KRONOLOJI_ISVEC = [
   yer_id:"",
   d:"IV. Gustav Adolf'un devrilmesinin ardından kabul edilen yeni anayasa, kraliyet yetkisini Riksdag ile paylaşılan bir güçler ayrılığı sistemine bağladı. Bu anayasa, 1974'e dek — bazı değişikliklerle — yürürlükte kalacak kadar uzun ömürlü oldu.",
   kaynak:"Byron J. Nordstrom, Scandinavia since 1500", yer_kon:[59.3293,18.0686] },
-{ t:"1809-09-17", b:"Hamina (Fredrikshamn) Antlaşması — Finlandiya kaybedildi ⭐", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Helsinki",
+{ t:"1809-09-17", b:"Hamina (Fredrikshamn) Antlaşması — Finlandiya kaybedildi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Helsinki",
   etiket:["toprak","antlasma","konu-askeri","konu-diplomasi"],
   d:"Fin Savaşı'nı bitiren Hamina Antlaşması'yla İsveç, altı asırlık Fin topraklarının tamamını Rusya'ya bıraktı; Finlandiya bir Rus özerk büyük dükalığı hâline geldi.", ic_not_d:"Tarih, data/yerlesimler.js:907'deki Helsinki kaydının devir tarihiyle birebir örtüşür ve İsveç tarihinin en büyük tek toprak kaybıdır.",
   kaynak:"Byron J. Nordstrom, Scandinavia since 1500 — data/yerlesimler.js:907 ile tarih birebir doğrulandı" },
@@ -1681,7 +1681,8 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-eyaleti"], t:"1803-01-01", b:"Arnavut askerlerinin valiyi devirmesi — üçlü iktidar mücadelesi", gun:"1803 — yıl hassasiyeti · eski t 1803-05-01'in AYI kaynakta YOK (d ve TDV yalnız yıl veriyor; TDV `husrev-pasa-koca`, `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali` …) → yıla indirildi (KRONO-DOGU-ISLAM-0929)", tur:"isyan", onem:3, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"], yer_id:"Kahire", d:"Ulûfeleri ödenmeyen Arnavut birlikleri ayaklanıp vali Hüsrev Paşa'yı kaleden kaçmaya zorladı. Fransızların çekilmesiyle doğan boşlukta Kölemen beyleri, Arnavut ocağı ve Bâbıâli'nin atadığı valiler üç köşeli bir mücadeleye girdi; Mehmed Ali bu üçgende dengeleri kurarak öne çıkmaya başladı — Mısır'ın modern tarihindeki en kritik iktidar boşluğu bu yıllarda dolduruluyordu.", kaynak:"husrev-pasa-koca (TDV) — data/olaylar_ek4.js:24'te zaten doğrulanmış, Mısır perspektifine uyarlandı", kunye:["misir-eyaleti"] },
 
-{ taraflar:["misir-eyaleti"], t:"1805-05-01", b:"Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi", gun:"Mayıs 1805 — ay hassasiyeti (TDV `hursid-ahmed-pasa`, Özkoç 2013, Ertuğrul 2018 gün vermiyor — bkz. d)", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", etiket:["isyan","konu-siyasi","konu-isyan","konu-din"], yer_id:"Kahire", d:"Vergi baskısından bunalan Kahire esnafı ve ulemâsı, nakîbüleşraf Ömer Mekrem'in önderliğinde ayaklanıp vali Hurşid Paşa'yı tanımadıklarını bildirdi ve Mehmed Ali'yi valilik makamına oturttu. Osmanlı tarihinde bir valinin halk tarafından fiilen seçilmesi eşine az rastlanan bir olaydır ve Mısır'ın kendi kaderini kısmen kendi eliyle belirlediği bir dönüm noktasıdır — hanedanın gerçek başlangıcı burasıdır. ⚠️ GÜN KAYNAKSIZ (EKOKUMA-SIMGE-0070, 20 Eylül 2026): bu kayıt önce 13 Mayıs 1805 diyordu ve günü TDV `kavalali-mehmed-ali-pasa`ya dayandırıyordu; o gövdede 13 Mayıs YOK. Okunan üç kaynağın üçü de AY veriyor: TDV `hursid-ahmed-pasa` (Mayıs 1805 olayları, verdiği tek gün 10 Mayıs 1805 — Mehmed Ali'ye Cidde valiliği hil'atinin giydirilmesi), Özkoç 2013 (\"1805 yılının Mayıs ayına gelindiğinde\"), Ertuğrul 2018 (\"Mayıs 1805'te Kahire'ye bir atama fermanı gönderildi. Aynı ay, ulema ve Kahire'nin ileri gelenleri … talepte bulundular\"). ⇒ Hassasiyet AYA düşürüldü. Ayrıca kaynaklar olayı 'ulemânın ilanı' diye değil, ulemâ-eşraf-halkın Hurşid Paşa'nın azlini İSTEMESİ ve Mehmed Ali'nin kendini vali ilan etmesi diye anlatıyor; Bâbıâli oldubittiyi 3 Temmuz 1805'te tanıdı (ayrı madde).", kaynak:"TDV hursid-ahmed-pasa (gövde okundu — 10 Mayıs 1805 hil'at, ardından \"Mısır ulemâsı ve şeyhleri Hurşid Paşa'dan görevini terketmesini istediler\"; GÜN vermiyor) · Özge Özkoç, \"İmparatorluk İktidarının Sınırında Osmanlı Mısırı: Mehmet Ali Paşa Döneminden Hıdivliğe\", doktora tezi, Ankara Üniv. SBE, 2013, s. 66 (tam metin okundu) · Arzu Ertuğrul, \"Kavalalı Mehmet Ali Paşa Dönemi'nde Mısır'da Edebi ve Kültürel Hayat (1805-1848)\", yüksek lisans tezi, İstanbul Üniv. SBE, 2018, s. 52 (tam metin okundu) — ÜÇÜNDE DE gün yok, '13 Mayıs' bulunamadı", kunye:["misir-eyaleti"] },
+{ taraflar:["misir-eyaleti"], t:"1805-05-01", b:"Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi", gun:"Mayıs 1805 — ay hassasiyeti (TDV `hursid-ahmed-pasa`, Özkoç 2013, Ertuğrul 2018 gün vermiyor — bkz. d)", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", etiket:["isyan","konu-siyasi","konu-isyan","konu-din"], yer_id:"Kahire", d:"Vergi baskısından bunalan Kahire esnafı ve ulemâsı, nakîbüleşraf Ömer Mekrem'in önderliğinde ayaklanıp vali Hurşid Paşa'yı tanımadıklarını bildirdi ve Mehmed Ali'yi valilik makamına oturttu. Osmanlı tarihinde bir valinin halk tarafından fiilen seçilmesi eşine az rastlanan bir olaydır ve Mısır'ın kendi kaderini kısmen kendi eliyle belirlediği bir dönüm noktasıdır — hanedanın gerçek başlangıcı burasıdır.",
+  ic_not_d:"⚠️ GÜN KAYNAKSIZ (EKOKUMA-SIMGE-0070, 20 Eylül 2026): bu kayıt önce 13 Mayıs 1805 diyordu ve günü TDV `kavalali-mehmed-ali-pasa`ya dayandırıyordu; o gövdede 13 Mayıs YOK. Okunan üç kaynağın üçü de AY veriyor: TDV `hursid-ahmed-pasa` (Mayıs 1805 olayları, verdiği tek gün 10 Mayıs 1805 — Mehmed Ali'ye Cidde valiliği hil'atinin giydirilmesi), Özkoç 2013 (\"1805 yılının Mayıs ayına gelindiğinde\"), Ertuğrul 2018 (\"Mayıs 1805'te Kahire'ye bir atama fermanı gönderildi. Aynı ay, ulema ve Kahire'nin ileri gelenleri … talepte bulundular\"). ⇒ Hassasiyet AYA düşürüldü. Ayrıca kaynaklar olayı 'ulemânın ilanı' diye değil, ulemâ-eşraf-halkın Hurşid Paşa'nın azlini İSTEMESİ ve Mehmed Ali'nin kendini vali ilan etmesi diye anlatıyor; Bâbıâli oldubittiyi 3 Temmuz 1805'te tanıdı (ayrı madde).", kaynak:"TDV hursid-ahmed-pasa (gövde okundu — 10 Mayıs 1805 hil'at, ardından \"Mısır ulemâsı ve şeyhleri Hurşid Paşa'dan görevini terketmesini istediler\"; GÜN vermiyor) · Özge Özkoç, \"İmparatorluk İktidarının Sınırında Osmanlı Mısırı: Mehmet Ali Paşa Döneminden Hıdivliğe\", doktora tezi, Ankara Üniv. SBE, 2013, s. 66 (tam metin okundu) · Arzu Ertuğrul, \"Kavalalı Mehmet Ali Paşa Dönemi'nde Mısır'da Edebi ve Kültürel Hayat (1805-1848)\", yüksek lisans tezi, İstanbul Üniv. SBE, 2018, s. 52 (tam metin okundu) — ÜÇÜNDE DE gün yok, '13 Mayıs' bulunamadı", kunye:["misir-eyaleti"] },
 
 { t:"1805-07-03", b:"Bâbıâli'nin Mehmed Ali'ye vezirlik rütbesiyle valilik fermanı", tur:"idari", onem:4, dunya:2, kapsam:"dis", etiket:["idari","konu-idari"], yer_id:"Kahire", d:"Mısır'da kendi adayını tutacak gücü olmayan Bâbıâli, oldubittiyi kabul edip Mehmed Ali'ye resmî valilik fermanı gönderdi. Bu tarihten itibaren Mısır hukuken Osmanlı toprağı, fiilen Kavalalı hanedanının ülkesi olacaktı — resmî meşruiyetle fiilî bağımsızlık arasındaki bu ikilik, sonraki otuz beş yılın bütün krizlerinin (1831, 1839) kökeninde duracaktı.", kaynak:"kavalali-mehmed-ali-pasa (TDV) — data/olaylar_ek4.js:32'de zaten doğrulanmış, Mısır perspektifine uyarlandı" },
 
@@ -1911,7 +1912,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"TDV, madde: seybaniler" },
 
 { taraflar:["buhara"], t:"1510-12-02",
-  b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi ⭐ (dunya paylaşılan olay)",
+  b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","hukumdar","buhara","konu-askeri","konu-kisiler","konu-hanedan"],
   yer_id:"Merv (Mari)",
@@ -2147,7 +2148,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["buhara"], t:"1868-06-02",
-  b:"Buhara Emirliği Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+  b:"Buhara Emirliği Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","buhara","konu-askeri","konu-siyasi"],
   yer_id:"Buhara",
@@ -2309,7 +2310,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["hive"], t:"1873-08-12",
-  b:"Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+  b:"Hîve Hanlığı Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
   yer_id:"", odak_kimlik:["hive"],
@@ -2431,7 +2432,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["hokand"], t:"1865-06-29",
-  b:"Taşkent'in fethi ⭐ (dunya paylaşılan olay)",
+  b:"Taşkent'in fethi",
   tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hokand","konu-askeri"],
   yer_id:"Taşkent",
@@ -2455,7 +2456,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { t:"1876-02-19",
-  b:"Hokand Hanlığı ilhak edildi ⭐ (dunya paylaşılan olay)",
+  b:"Hokand Hanlığı ilhak edildi",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","son","toprak-kayip","hokand","konu-askeri","konu-siyasi"],
   yer_id:"Hokand",
@@ -2465,7 +2466,7 @@ window.KRONOLOJI_OZBEK = [
 // ══════════════ OSMANLI İLE TEMAS — ERKEN DÖNEM ══════════════
 
 { t:"1569-01-01",
-  b:"Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+  b:"Osmanlı'nın Astrahan/Don-Volga seferi",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli-temasi","buhara","konu-askeri","konu-diplomasi"],
   yer_id:"Astrahan",

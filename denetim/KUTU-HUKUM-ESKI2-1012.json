@@ -1,0 +1,470 @@
+{
+ "parti-emrelic-0008": {
+  "H-0005": {
+   "hukum": "zaten-dogru",
+   "not": "1352-06-01..1354-03-01: Osmanli alani Saros kuzeyi + Sarkoy (lat>=40.58, lon 26.0-27.6) = 0,0 km2; Gelibolu yarimadasi Osmanli 254,6 km2 (Cimpe). Saros kuzey kiyisi ve Enez/Kesan/Sarkoy bizans. Taşma yok. (Ayri bulgu: bizans∩OSMANLI 98,9 km2 yarimadada.)",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0011": {
+  "H-0001": {
+   "hukum": "senin-kararin",
+   "not": "Atlas Kutsal Roma mozaigini gostermiyor (olcum 21 Agu: 12 kimlik, almanya tek kimlik). Mozaik+semsiye vasal gosterimi Osmanli vasal cizgisi gibi mi yapilsin? Tasarim/kapsam karari; veri hatasi degil.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0012": {
+  "H-0001": {
+   "hukum": "kosu-bekliyor",
+   "not": "Cöl girinti yumusatma kurali motorda yok (B2/B3 enklav birlestirme var, kademeli yumusatma yok). Olcum 1611 Libya: Osmanli govdesi 1.275.338 km2, 200 km tavanin ustunde 27.896 km2 (%2,2) => mekanizma tavana uyuyor; sorun gorsel girinti. Cozum motor yamasi = tuz degisir, tam insa koşusu (HAVVA) ile girer.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0002": {
+   "hukum": "kosu-bekliyor",
+   "not": "H-0001 ile ayni motor yamasi (cok yonlu takviye/girinti yumusatma); tam insa koşusu gerekir.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0014": {
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "Renk: almanya #78d028 (renkler.py:617) denizden ayri. Polesya ucgeni: 1281-01-02 kutusu (18.37-30.58E, 50.99-59.07N) litvanya govdesi duzgun organik sekil, sivri kose (<25 derece, kenar>=15 km) 0; ince parca yok; cizim gozle dogrulandi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0016": {
+  "H-0003": {
+   "hukum": "tekrar",
+   "not": "= 0014/H-0004 (cozulemedi: GOLLER simplify 0.01 tek tip, motor yamasi + tam insa).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0004": {
+   "hukum": "kosu-bekliyor",
+   "not": "YENI BULGU r12206: 1346-06-01 ve 1352-06-01'de Dardanel ASYA yakasi (25.9-26.37E, 39.95-40.35N) 500 km2 BIZANS boyali, Osmanli 0; Canakkale (OSMANLI noktasi, d 1345+) ve Lapseki gövdede bizans. 1354-04-01'de Osmanli (445,9 km2 Asya, 1821,9 km2 Avrupa) duzeliyor. Yani soru tersine: Avrupa yakasi Osmanli'ya erken gecmiyor, Asya yakasi gec geciyor. Kok neden motorda (Karesi 1345 katilimi 'Balikesir, Canakkale, Bergama' DONEMLER'de var, govdede yok); koşu/motor incelemesi gerek.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0017": {
+  "H-0001": {
+   "hukum": "zaten-dogru",
+   "not": "1337-09-09 kutu 35.29-37.56E/37.78-39.23N: govde cakismasi 0, bosluk 0,3 km2, sivri kose 0 (r12206 yeniden olculdu; koşu 18 sonucuyla ayni).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0019": {
+  "H-0018": {
+   "hukum": "zaten-dogru",
+   "not": "Veri istenen sirada (Anadolu Hisari 1400/1452-08, Rumeli yakasi bizans 1452-09..1453-05-29). 1452-08-15..1453-05-01: Bebek, Sariyer, Besiktas bizans, Istanbul bizans; Rumeli yakasi Osmanli ~2,6 km2 dar serit (lon 29.05-29.056, 1413'ten beri, Rumeli Hisari petegi) disinda yok; 1453-06-01 Bebek Osmanli. Buyuk tasma yok; 2,6 km2 kalinti beyanli.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0019": {
+   "hukum": "zaten-dogru",
+   "not": "Rumeli yakasi boyamasi 1453-05-29'a dek 0 (2,6 km2 serit disinda); 1453-06-07'de 182 km2 => kademe veriye uygun.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0027": {
+   "hukum": "bayat",
+   "not": "Proje kusuru degil: token/limit ekran goruntusu (gerek-yok).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0062": {
+   "hukum": "tekrar",
+   "not": "= H-0041 tasarim; kod var: js/app.js planlanan hal #c98a00 (koyu sari kesikli).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0020": {
+  "H-0014": {
+   "hukum": "tekrar",
+   "not": "= 0020/H-0012 (senin-kararin: Ferhat Pasa sinir/vasal karari).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0021": {
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "1594-06-01 Uman noktasi (30.22E 48.75N) lehistan govdesi icinde; kutu 28.5-32.5E/46-50N bosluk 26 km2/124.223 km2. Iki bosluk kapali. (lehistan∩OSMANLI 107,7 km2 ayri binme.)",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0028": {
+   "hukum": "tekrar",
+   "not": "= 0020/H-0012 (senin-kararin).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0024": {
+  "H-0003": {
+   "hukum": "bayat",
+   "not": "Mesaj koordinatoru istegi: koordinator/tahta duzeni 12 Ekim'de kaldirildi (CLAUDE.md); gerek-yok.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0025": {
+  "H-0005": {
+   "hukum": "zaten-dogru",
+   "not": "1566-09-07 kutu 15.85-21.2E/45.39-48.8N: macaristan govdesi 70.360 km2 (Habsburg Krallik Macaristani), avusturya 8.248 km2, OSMANLI 73.792 km2, tabi 1.393 km2; Budin/Estergon OSMANLI. Koşu 18'deki 'macaristan yok' bayat; acik yesil = macaristan kimligi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0009": {
+   "hukum": "tekrar",
+   "not": "= 0030/H-0009 (cozuldu: Trakya fetih sirasi duzeltildi).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0028": {
+  "H-0007": {
+   "hukum": "zaten-dogru",
+   "not": "1721-11-24: Osmanli govdesi 92.117 km2, 200 km ustu 0; tabi 1.487.885 km2, 200 km ustu 9.931 km2 (%0,7). Kirmizi=Osmanli dogrudan, pembe=tabi (Cezayir/Tunus/Trablus), 'bos kirmizi' = 200 km tavan icinde noktasiz dolgu; eski noktasizlik yok (185 nokta).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0029": {
+  "H-0007": {
+   "hukum": "kosu-bekliyor",
+   "not": "1323-09-01 Armutlu/Yalova kutusu (28.8-29.7E,40.3-40.9N): Osmanli govde-kara tasmasi 17,8 -> 1,8 km2 (NE 10m kiyi; motor_kara'ya gore 0,6); kalinti: bizans 98,8 km2 denize tasma. 6 nolu kiyi kalitesi genel motor isi, koşu gerekir.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0030": {
+  "H-0002": {
+   "hukum": "kosu-bekliyor",
+   "not": "1329-06-15: (1) Osmanli Bogaz'i gecmiyor: Bebek/Istanbul bizans, Sariyer govde disi (cozuldu). (2) Karamursel Osmanli. (3) Iznik koyu kirmizi SURUYOR: bizans∩OSMANLI 229,7 km2 (Iznik 29.4-29.75E,40.35-40.55N bizans enklavi uzerine Osmanli govdesi ortuyor; ayrica 29.85-30.05E). Cizimle dogrulandi. Kok neden: Osmanli govdesi enklav deligini dolduruyor; motor yamasi + tam insa.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "1340-06-15 kutu 36.8-39.4E/39.8-41.3N: trabzon-rum govdesi duzgun, sivri kose (<25 derece) 0, ince parca 208/13.720 km2; cizim gozle dogrulandi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0018": {
+   "hukum": "cozuldu",
+   "not": "1392-01-01 kutu 36-38E/37.4-38.9N: dulkadir solidity 0,919, sivri 0,001, sivri kose 0, ortusme 0, bosluk 0 km2.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0031": {
+  "H-0002": {
+   "hukum": "tekrar",
+   "not": "= 0029/H-0007. Epir 1386 olcumu: napoli 85,4 + venedik 75,9 km2 NE kiyi disi; bosluk 4.202 km2 (%12,6 kara boyasiz).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0019": {
+   "hukum": "kosu-bekliyor",
+   "not": "germiyan∩OSMANLI 1415-06-01 743 km2, 1425-06-01 760 km2 (11 parca; en buyukleri 221 km2 @28.58E 39.33N, 164 km2 @28.06E 38.58N, 145 km2 @29.30E 39.79N). germiyan solidity 0,828, sivri yok. Gercek binme, motor/ortusme sinifi; koşu gerek.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0022": {
+   "hukum": "zaten-dogru",
+   "not": "Veri dogru (Rumeli Hisari 1452-09-01'e dek sahipsiz, Bogazici Rumeli yakasi bizans). Rumeli yakasi Osmanli sizintisi yalniz ~2,6 km2 serit (koşu 18: 10,5 km2).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0033": {
+  "H-0006": {
+   "hukum": "senin-kararin",
+   "not": "1509-09-14 mogulistan govdesi 1.155.333 km2, 4 parca, solidity 0,751; yuvarlaklik petek yogunlugundan (22-23 nokta). Yeni nokta kaynak ister; nokta eklemek mi, kabul mu karar.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0007": {
+   "hukum": "senin-kararin",
+   "not": "kazak-hanligi 1509: 908.423 km2, 3 parca, solidity 0,777, 9 nokta. Gerçekçilik icin nokta kaynak ister.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0013": {
+   "hukum": "cozulemedi",
+   "not": "1513-09-01 songhay govdesi tek parca 219.440 km2 (bounds -5.54..1.3E); gorseldeki SW kucuk yesil parca songhay ya da Vahiguya (Yatenga) civari; hangi kimlik oldugu govdede tek parcali songhay'dan ayirt edilemedi (kutu ids: songhay, mossi-vagadugu, tuareg-adag, tuareg-ivellemmedan, zerma). Gorsel acik ekran gerek.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0014": {
+   "hukum": "senin-kararin",
+   "not": "kanem-bornu 1513-09-01: 2 govde parcasi (246.714 + 81.894 km2); noktalar Mao, Birni N'gazargamu, Dikva, Bilma, Zinder; arada baglayici nokta yok. Birlestirmek icin kaynakli nokta gerek.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0034": {
+  "H-0028": {
+   "hukum": "senin-kararin",
+   "not": "1611-03-25: Osmanli govdesi Libya kutusu 1.275.338 km2, 200 km ustu 27.896 km2 (%2,2). Cöl boyamayi engelleme = tavan/dolgu yapisini iptal karari (Emre). Mekanizma tasarima uygun.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0035": {
+  "H-0001": {
+   "hukum": "tekrar",
+   "not": "= 0035/H-0047 (senin-kararin). 1686-06-01 Siva kutusu: Osmanli 93.618 km2, tek nokta (Siwa), 200 km ustu 2.981 km2 (%3,2).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0041": {
+   "hukum": "bayat",
+   "not": "'Sebes savasi' anekdotu: TDV'de yok, tarihselligi tartismali; gerek-yok.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0047": {
+   "hukum": "senin-kararin",
+   "not": "1821-01-04 Dongola kutusu: tabi 37.305 km2, 200 km ustu 0; 1611 Libya %2,2 ustte. Bos arazi dolgusunu iptal + girinti yumusatma = Emre karari (+motor yamasi, tam insa).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0051": {
+   "hukum": "bayat",
+   "not": "Ekran goruntuleri 'Pasif kip': kamera alakasiz yerde, veri/motor hatasi degil (gerek-yok).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0057": {
+   "hukum": "tekrar",
+   "not": "Alt iddialar olculdu: Dogubeyazit 1517-06-01 safevi (Osmanli enklavi yok; 1535'te Osmanli), akkoyunlu govdesi 1514-01-02'den itibaren 0 km2 (iddia 3 cozuldu); Erzurum safevi 1517-09-10, Osmanli 1520-01-01. Kalan Ferhat Pasa/sinir = 0020/H-0012 (senin-kararin).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0064": {
+   "hukum": "cozuldu",
+   "not": "1554-01-01 Necef GB kutusu (40.73-44.06E, 29.66-32.28N): Osmanli govdesi 15.687 km2, 200 km ustu 0; Widyan ve Nuhayb sahipsiz (kasitli bosluk) => noktasiz Osmanli emilimi kapandi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0072": {
+   "hukum": "cozuldu",
+   "not": "1721-08-30 Memel kutusu (21.48-22.99E,54.73-57.65N): ortusme yalniz lehistan∩prusya 4,9 km2, bosluk 32 km2/29.583 km2, sivri kose 0, ince parca 0. Ucgen binme kalmadi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0100": {
+   "hukum": "cozuldu",
+   "not": "1812-05-27..1813-06-01 kutu 24.8-27E/43.4-44.6N: rusya govdesi alani 0; yalniz OSMANLI 14.036 + OSM-TABI 9.497 km2. Yesil Rus parcasi yok.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0101": {
+   "hukum": "cozuldu",
+   "not": "1820-01-08 Buraymi kutusu (54.01-55.15E,22.63-24.81N): ortusme 0, sivri kose 0; bosluk 434 km2/18.406 km2 (%2,4 kiyi seridi). Ucgen binme kalmadi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0102": {
+   "hukum": "tekrar",
+   "not": "= 0035/H-0047 (senin-kararin).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0036": {
+  "H-0005": {
+   "hukum": "kosu-bekliyor",
+   "not": "1829-09-14/1830-06-01 Ahiska civari: beyaz kama (bosluk) kapali (bosluk 1,5 km2) ama yerine rusya∩OSMANLI 158-166 km2 binme (43.2E 41.25N ve 43.45E 40.85N iki kucuk parca). Kafkas hatti noktalari var; binme motor sinifi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0039": {
+  "H-0002": {
+   "hukum": "senin-kararin",
+   "not": "Guney (SYR/IRQ) ve kuzey (GEO/ARM) sinir ciftleri inmis (<=5 km %90-93); Iran kolu KAPSAM DISI (TR1923-SINIR-0914.md). 1913 statukosu icin kaynakli Iran hatti = yeni arastirma isi; kapsami acmak Emre'nin karari.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0040": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "1281-01-01, 9 gorsel kutusu yeniden olculdu: ortusme toplami 0..6,8 km2 (en buyuk almanya∩litvanya 6,8), bosluk %0..0,5 (tek istisna #2 Ohri/Arnavutluk kiyisi 4.804/20.465 km2 = %23,5 boyasiz kara). Kalan Arnavutluk boslugu veri (nokta/beyan) isi. Kuresel: Osmanli-yabanci ortusme 26..8.213 km2 / Osmanli alani >=3.609..5,9 milyon km2 (14 tarih, %0,1-3).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0003": {
+   "hukum": "tekrar",
+   "not": "= 0040/H-0001 (cozuldu; bosluk kolu).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0042": {
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "1299-01-01, 10 gorsel kutusu: ortusme toplami 0..27 km2 (en buyuk isvec-birlik-oncesi∩novgorod 22,9), bosluk %0..0,7. Binme/bosluk kalmadi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0008": {
+   "hukum": "kosu-bekliyor",
+   "not": "1323-01-01 bizans∩OSMANLI 1996 -> 515 km2 (-%74; 386 km2 @30.01E 40.68N, 76 @30.34E, 45 @28.81E 40.21N). Hedef ~0 degil; kok neden Iznik/Izmit enklavi dolgusu (bkz 0030/H-0002). Motor yamasi + koşu.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0009": {
+   "hukum": "zaten-dogru",
+   "not": "1329-06-15 Osmanli Bogaz'i gecmiyor: Bebek, Istanbul bizans, Sariyer govde disi, Uskudar Osmanli (r12206'da dogrulandi).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "not": "1346-06-01 kutu 43.83-45.67E/40.70-41.49N: ortusme 0, bosluk 0,0 km2 (koşu 18: ~69 km2 dar bosluk kapandi).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0015": {
+   "hukum": "zaten-dogru",
+   "not": "1353-06-01: Osmanli Saros'u/Sarkoy'u gecmiyor (kutu 26-27.6E, 40.58-41.2N Osmanli 0 km2). bizans∩OSMANLI 182 -> 98,9 km2 (yarimada, 0042/H-0008 sinifi).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0016": {
+   "hukum": "kosu-bekliyor",
+   "not": "1450-06-01 Ege (NE 10m kara): deniz tasmasi venedik 752 km2 (%4,3), ceneviz 218, atinadukaligi 180, sovalye 136, bizans 126, OSMANLI 52, naksa 43 km2; ortusme sovalye∩OSMANLI 174 km2. Adalar icin yuksek kalite = motor kiyi yamasi + koşu.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0032": {
+   "hukum": "tekrar",
+   "not": "= 0042/H-0030 (cozuldu).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0039": {
+   "hukum": "cozuldu",
+   "not": "1408-06-01 kutu 35.64-38.56N/39.32-43.30E: ortusme en fazla memluk∩artuklu 3,2 km2; 1409-01-02 memluk∩karakoyunlu 3,2 km2; bosluk 9 km2; binme/kivrilma yok.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0043": {
+  "H-0017": {
+   "hukum": "cozuldu",
+   "not": "1517-09-10 uc kutu: sivri kose (<30 derece) 0, ince parca OSMANLI 482/150.714 km2 (%0,3); funj∩OSMANLI 78,9 km2. Isinsal cikintilar kalmadi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0044": {
+  "H-0011": {
+   "hukum": "cozuldu",
+   "not": "1546-12-01 Basra kutusu: safevi∩OSMANLI 11,1 km2, kiyi disi OSMANLI 7,4 km2, bosluk 7,8 km2; cizim temiz (delta kiyisi beyaz). Bozulma yok.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0045": {
+  "H-0009": {
+   "hukum": "senin-kararin",
+   "not": "Olculdu: Osmanli-taraflı tur=antlasma 64 madde, hukum karti (tur antlasma) olmayan 55; genel: antlasma/baris/mutareke maddesi 765, kartli 228, kartsiz 537 (kron 10.068 madde, kart 789). 'Tum antlasmalar' kapsami (yalniz Osmanli mi, sinir antlasmalari dahil mi) ve TDV kaynakli uretim karari Emre'de.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0010": {
+   "hukum": "senin-kararin",
+   "not": "Kart envanteri 789; 'kisi' alani dolu 41 kart; padisah/kisi bazli magazin-rivayet-menkibe karti 19 kimlikte (ibrahim 13, suleyman1 4 ...). 36 padisahin kapsamasi icin once kisi alani siniflamasi + yeni kart uretimi karari gerek; kapsam Emre'nin.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0012": {
+   "hukum": "cozuldu",
+   "not": "1600-01-01 Fizan kutusu (10.5-16.5E,27.3-29.7N): bosluk 7,4 km2/108.543 km2 (kapali); Osmanli 108.570 km2, 200 km ustu 857 km2 (%0,8).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0048": {
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "1602-06-01 Katar: yarimada OSM-TABI, safevi yalniz Bahreyn civari (50.4-50.7E,25.8-26.2N); Katar'da safevi serit/ortusme 0.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0010": {
+   "hukum": "cozuldu",
+   "not": "1602-01-01 Katar kutusu: ortusme 0, bosluk 35,8 km2/10.415 km2; kiyi tasmasi safevi 21 km2; cizimde uzun duz parca yok.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0015": {
+   "hukum": "tekrar",
+   "not": "= 0045/H-0009 (senin-kararin).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0050": {
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "ic_not alanlari okura sizmiyor (app.js:12580). Okura cikan alanlarda ELLE bulunan gelistirici izleri duzeltildi: kronoloji basliklarinda ⭐ ve '(dunya paylasilan olay)'/'(duzeltildi, bkz. dosya basi)' 24 baslik (kronoloji_isvec 3, _ozbek 6, _rusya 15); d:'de 'GUN KAYNAKSIZ (EKOKUMA-SIMGE-0070...)' notu 2 madde (kronoloji_misir 1805-05-01, olaylar_ek4 1805-05) ic_not_d'ye; ekokuma_1806 'HASSASIYET NOTU (CLAUDE.md §4)' paragrafi ic_not'a; ekokuma_toplum 2 kartin bag: alani (tamami dev notu) ic_not_bag'a. Kalan: kart metinlerinde TDV `slug` geri tirnaklari 237 yerde (kaynak atfi) ve 🔴/⚠️/📌 editoryal vurgu isaretleri ~40 yerde kasitli birakildi (karar Emre'nin).",
+   "delil": "data/kronoloji_isvec.js · kronoloji_ozbek.js · kronoloji_rusya.js · kronoloji_misir.js · olaylar_ek4.js · ekokuma_1806.js · ekokuma_toplum.js"
+  }
+ },
+ "parti-emrelic-0051": {
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "1670-01-01 kutu 47.08-53.34E/22.82-28.47N: ortusme 0; Doha/Katar ici hicbir govdede degil (safevi serit yok); Bahreyn safevi (TDV bahreyn: 1602'de Iran'a bagli kuvvetler Portekiz'i atti; 'Safevi' adi gecmiyor).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ },
+ "parti-emrelic-0052": {
+  "H-0002": {
+   "hukum": "senin-kararin",
+   "not": "1700: Yedisan/Camboyluk/Yedickul/Kuban Nogay bozkiri/Bozkir tabi:kirim TDV giray+nogaylar kaynakli; Anapa/Soci/Tuapse/Maykop/Stavropol-Kuma ise 'Emre karari D (13 Eyl 2026)' gevsek himaye, bagimsiz kaynak degil. Akademik teyit mi, karar yeterli mi Emre'de.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0012": {
+   "hukum": "cozuldu",
+   "not": "1605-10-03 Nalcik kutusu: sivri kose 0, ucgen kalmadi (cizim). safevi∩OSMANLI 1.017 km2 ayri binme. Vladikavkaz kaydi bos:'hata' (cins etiketi) - bkz H-0124.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0014": {
+   "hukum": "zaten-dogru",
+   "not": "1607-01-01 Samahi/Baku/Derbend/Kuba hepsi OSMANLI->safevi ayni cift; somut vaka yok. Genel 'Osmanli ≡ tabi' kurali yok (tabi->safevi vakalari ayri bakilabilir).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0043": {
+   "hukum": "tekrar",
+   "not": "= 0052/H-0021 (senin-kararin, Erbil adacigi); renk ikiligi H-0019 cozuldu.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0069": {
+   "hukum": "cozuldu",
+   "not": "1642-02-26 Azak: ucgen kalmadi (cizim); don-kazak∩OSMANLI 44,6 + ∩OSM-TABI 36,8 km2 (15.000 km2 bolge icinde), sivri kose 0.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0075": {
+   "hukum": "cozuldu",
+   "not": "Iltizam karti var: ekokuma_kurum.js teknik-iltizam-sistemi; kiyas karti ekokuma_padisah.js tartisma-malikane-avrupa-kiyaslama (kart id'leri yuklu kartlarda dogrulandi).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0092": {
+   "hukum": "cozuldu",
+   "not": "1650-01-01 Katar kutusu: ortusme 0, bosluk 110 km2/30.462 km2, cetvel cizgisi/ortusme yok. Bahreyn safevi: TDV bahreyn 1602'de Iran'a bagli kuvvetler (Safevi adi gecmiyor, 1717 yok) - kismen teyit.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0093": {
+   "hukum": "cozuldu",
+   "not": "Dayilik karti ekokuma_kurum.js teknik-cezayir-dayilik; Tunus/Libya/Misir/Dogu Afrika kiyasi ekokuma_rivayet.js kartlari (id'ler dosyada mevcut).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0097": {
+   "hukum": "cozuldu",
+   "not": "1672-10-18, 5 gorsel kutusu: ortusme toplami 0..24,1 km2 (rusya∩OSM-TABI 22,1 km2 kutu 5), bosluk %0..0,1. Serit ortusmesi kalmadi.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0100": {
+   "hukum": "kosu-bekliyor",
+   "not": "B dolgu motoru hazir ama MOTOR_B_DOLGU varsayilan kapali, data/dolgu.js yok; acmak HAVVA koşusu.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0101": {
+   "hukum": "tekrar",
+   "not": "= 0052/H-0100.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0102": {
+   "hukum": "cozuldu",
+   "not": "1672-08-27 Kazak bozkiri kutusu: sivri kose 0, ince parca 475/224.464 km2 (%0,2), ortusme 0.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0104": {
+   "hukum": "tekrar",
+   "not": "= 0052/H-0100.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0106": {
+   "hukum": "zaten-dogru",
+   "not": "1700-01-01 Gauhati (91.75E,26.18N) ve Sibsagar (94.64E,26.98N) ahom govdesi icinde; ahom 97.440 km2 (Assam kutusu). Nufuz payi mevcut.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0107": {
+   "hukum": "cozuldu",
+   "not": "1672-08-27 Chiang Mai kutusu: ortusme 0, bosluk 185 km2/116.975 km2 (%0,2).",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0109": {
+   "hukum": "cozuldu",
+   "not": "1672-08-27 Vietnam kutusu: ortusme 0, bosluk 47 km2, qing sinirinda ince parca 456/25.436 km2 (%1,8), sivri kose 0; cizim temiz.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0110": {
+   "hukum": "cozuldu",
+   "not": "1672-08-27 Hong Kong kutusu: ortusme portekiz∩qing 2,5 km2, bosluk 367/18.210 km2 (%2). Makao payi yok; HK qing.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0112": {
+   "hukum": "kosu-bekliyor",
+   "not": "1672-08-27 Sibirya: rusya 67 parca (en kucukleri 1 km2); 0,5 derece kapamayla 16 parca. B dolgusu kapali; B2 zincirlemesi B acilinca bayrakli koşuda olculur.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  },
+  "H-0124": {
+   "hukum": "zaten-dogru",
+   "not": "1679-01-01 Vladikavkaz kutusu: kama/ucgen kalmadi; guney boslugu Vladikavkaz kasitli boslugu (kur 1784, yerlesimler.js:1147). Borc: cins etiketi bos:'hata' (bos_alanlar.js:167, aciklama 'duzeltme bekliyor') kaynakli cins (devletsiz/kabile) ile degistirilmeli.",
+   "delil": "taban origin/main f60bda61 (harita parcalari df0a2b28 KOSU 23, r12206); devletler_harita.js 183769787 bayt sha256 7ba97d2c...ecf7; donemler.js 64401839 bayt sha256 12138aaf...e807; olcum: arac/denetle._D8Govde.kesit + shapely, 13 Eki 2026"
+  }
+ }
+}

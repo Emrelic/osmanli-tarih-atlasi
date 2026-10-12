@@ -72,7 +72,7 @@ window.KRONOLOJI_ISVEC = [
 // === A) KALMAR BİRLİĞİ'NDEN VASA'NIN YÜKSELİŞİNE (1397-1523) ================
 
 // === B) VASA HANEDANI VE REFORM (1523-1611) ==================================
-{ t:"1523-06-06", b:"Gustav Vasa, Strängnäs'te kral seçildi ⭐", tur:"kurulus", onem:5, dunya:4, kapsam:"dis",
+{ t:"1523-06-06", b:"Gustav Vasa, Strängnäs'te kral seçildi", tur:"kurulus", onem:5, dunya:4, kapsam:"dis",
   etiket:["kurulus","siyaset","konu-siyasi"],
   yer_id:"",
   d:"Riksdag, Gustav Eriksson'u kral seçti ve İsveç, Kalmar Birliği'nden fiilen ayrıldı. Tarih bugün İsveç'in millî günüdür ve bu dosyada devletin başlangıç tarihi olarak alınmıştır.", ic_not_d:"(data/devletler.js:824 ile birebir)",
@@ -205,7 +205,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"Yeni kral X. Karl Gustav, zayıflamış Polonya-Litvanya Cumhuriyeti'ni istila ederek kısa sürede Varşova ve Krakov'u ele geçirdi. Polonya tarihyazımında \"Potop\" (Tufan) olarak anılan bu istila, ülkede yıkıcı bir işgal dönemi başlattı ama İsveç için kalıcı toprak kazancı getirmedi.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_id:"Varşova" },
-{ t:"1658-02-26", b:"Roskilde Antlaşması — Skåne, Blekinge, Halland, Bohuslän kazanıldı ⭐", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Malmö",
+{ t:"1658-02-26", b:"Roskilde Antlaşması — Skåne, Blekinge, Halland, Bohuslän kazanıldı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Malmö",
   etiket:["toprak","antlasma","konu-askeri","konu-diplomasi"],
   d:"Danimarka'ya karşı kazanılan savaş sonunda imzalanan Roskilde Antlaşması, İsveç'e güney yarımadasının tamamını (Skåne, Blekinge, Halland, Bohuslän) kazandırdı ve bugünkü İsveç sınırlarının çekirdeğini oluşturdu.", ic_not_d:"Malmö'nün aynı gün İsveç idaresine geçtiği data/yerlesimler_avrupa.js:312 kaydıyla birebir doğrulanır.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718 — data/yerlesimler_avrupa.js:312 ile tarih birebir doğrulandı" },
@@ -459,7 +459,7 @@ window.KRONOLOJI_ISVEC = [
   yer_id:"",
   d:"IV. Gustav Adolf'un devrilmesinin ardından kabul edilen yeni anayasa, kraliyet yetkisini Riksdag ile paylaşılan bir güçler ayrılığı sistemine bağladı. Bu anayasa, 1974'e dek — bazı değişikliklerle — yürürlükte kalacak kadar uzun ömürlü oldu.",
   kaynak:"Byron J. Nordstrom, Scandinavia since 1500", yer_kon:[59.3293,18.0686] },
-{ t:"1809-09-17", b:"Hamina (Fredrikshamn) Antlaşması — Finlandiya kaybedildi ⭐", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Helsinki",
+{ t:"1809-09-17", b:"Hamina (Fredrikshamn) Antlaşması — Finlandiya kaybedildi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Helsinki",
   etiket:["toprak","antlasma","konu-askeri","konu-diplomasi"],
   d:"Fin Savaşı'nı bitiren Hamina Antlaşması'yla İsveç, altı asırlık Fin topraklarının tamamını Rusya'ya bıraktı; Finlandiya bir Rus özerk büyük dükalığı hâline geldi.", ic_not_d:"Tarih, data/yerlesimler.js:907'deki Helsinki kaydının devir tarihiyle birebir örtüşür ve İsveç tarihinin en büyük tek toprak kaybıdır.",
   kaynak:"Byron J. Nordstrom, Scandinavia since 1500 — data/yerlesimler.js:907 ile tarih birebir doğrulandı" },

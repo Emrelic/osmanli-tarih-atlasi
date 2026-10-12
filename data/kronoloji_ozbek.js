@@ -46,7 +46,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"TDV, madde: seybaniler" },
 
 { taraflar:["buhara"], t:"1510-12-02",
-  b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi ⭐ (dunya paylaşılan olay)",
+  b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","hukumdar","buhara","konu-askeri","konu-kisiler","konu-hanedan"],
   yer_id:"Merv (Mari)",
@@ -282,7 +282,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["buhara"], t:"1868-06-02",
-  b:"Buhara Emirliği Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+  b:"Buhara Emirliği Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","buhara","konu-askeri","konu-siyasi"],
   yer_id:"Buhara",
@@ -444,7 +444,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["hive"], t:"1873-08-12",
-  b:"Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+  b:"Hîve Hanlığı Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
   yer_id:"", odak_kimlik:["hive"],
@@ -566,7 +566,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["hokand"], t:"1865-06-29",
-  b:"Taşkent'in fethi ⭐ (dunya paylaşılan olay)",
+  b:"Taşkent'in fethi",
   tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hokand","konu-askeri"],
   yer_id:"Taşkent",
@@ -590,7 +590,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { t:"1876-02-19",
-  b:"Hokand Hanlığı ilhak edildi ⭐ (dunya paylaşılan olay)",
+  b:"Hokand Hanlığı ilhak edildi",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","son","toprak-kayip","hokand","konu-askeri","konu-siyasi"],
   yer_id:"Hokand",
@@ -600,7 +600,7 @@ window.KRONOLOJI_OZBEK = [
 // ══════════════ OSMANLI İLE TEMAS — ERKEN DÖNEM ══════════════
 
 { t:"1569-01-01",
-  b:"Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+  b:"Osmanlı'nın Astrahan/Don-Volga seferi",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli-temasi","buhara","konu-askeri","konu-diplomasi"],
   yer_id:"Astrahan",
