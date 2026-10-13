@@ -7,7 +7,11 @@
 """
 import io, os, re, sys, glob, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-KOK = r"C:\atlas"
+# Kok: betigin bulundugu checkout (worktree'de calisan ana checkout'a yazmasin);
+# `--kok <dizin>` sinama kopyasi icin.
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if "--kok" in sys.argv:
+    KOK = sys.argv[sys.argv.index("--kok") + 1]
 os.chdir(KOK)
 KURU = "--kuru" in sys.argv
 
@@ -44,7 +48,10 @@ YASAK_KIYIM = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍
 
 def kayitlar(t):
     out = []
-    for m in re.finditer(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', t):
+    # Anahtar tirnaksiz (`t:`, JS) ya da tirnakli (`"t":`, JSON) — 14 Ekim 2026:
+    # yalniz JS bicimi araniyordu, JSON olay dosyalari (olaylar_ek8 · kamerika)
+    # hic gorulmuyordu (denetle_duygu 478741065 ile ayni kor nokta).
+    for m in re.finditer(r'\{\s*(?:t|"t")\s*:\s*"\d{4}(?:-\d{2}){0,2}"', t):
         d, q, esc, son = 0, None, False, None
         for j in range(m.start(), len(t)):
             c = t[j]
@@ -73,12 +80,15 @@ for f in sorted(glob.glob("data/olaylar*.js")):
     t = io.open(f, encoding="utf-8", newline="").read()
     yama = []
     for bas, son, g in kayitlar(t):
-        if "duygu:" in g:
+        # 🔴 JSON kayitta `"duygu":` — eski `"duygu:" in g` onu gormez ve
+        # duygulu kayda IKINCI alan yazardi.
+        if re.search(r'(?:\bduygu|"duygu")\s*:', g):
             atlanan += 1
             continue
-        k = re.search(r'\bk:\s*"([^"]*)"', g)
-        b = re.search(r'\bb:\s*"([^"]*)"', g)
-        d = re.search(r'\bd:\s*"((?:[^"\\]|\\.)*)"', g)
+        jsn = bool(re.match(r'\{\s*"t"', g))
+        k = re.search(r'(?:\bk|"k")\s*:\s*"([^"]*)"', g)
+        b = re.search(r'(?:\bb|"b")\s*:\s*"([^"]*)"', g)
+        d = re.search(r'(?:\bd|"d")\s*:\s*"((?:[^"\\]|\\.)*)"', g)
         kat = k.group(1) if k else "diger"
         baslik = b.group(1) if b else ""
         metin = (d.group(1) if d else "")
@@ -112,7 +122,16 @@ for f in sorted(glob.glob("data/olaylar*.js")):
             ornek.append((baslik[:52], kat, "KIYIM" if kiyim else "acı",
                           "".join(duygu)))
         sayac[kat] += 1
-        alan = ', duygu:[%s] ' % ",".join('"%s"' % e for e in duygu)
+        if jsn:
+            # JSON kayit JSON alan alir; cok satirli kayitta anahtar girintisi
+            # korunur, `}` oncesindeki bosluk yerinde kalir.
+            gm = re.search(r'\n([ \t]*)"t"', g)
+            ayr = (",\n" + gm.group(1)) if gm else ", "
+            ws = g[len(g[:-1].rstrip()):-1]
+            alan = '%s"duygu": [%s]%s' % (
+                ayr, ", ".join('"%s"' % e for e in duygu), ws)
+        else:
+            alan = ', duygu:[%s] ' % ",".join('"%s"' % e for e in duygu)
         yama.append((son, alan))
         yazilan += 1
 
