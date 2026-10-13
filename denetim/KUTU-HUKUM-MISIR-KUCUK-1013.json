@@ -1,0 +1,78 @@
+{
+ "parti-emrelic-0075": {
+  "H-0010": {
+   "hukum": "kosu-bekliyor",
+   "not": "statu:'asi' için motor yaması HAZIR ama main'e GİRMEZ (girdi.py + uret_petek.py = motor tuzu; app.js): denetim/MISIR-ASI-MOTOR-1013.diff (git apply --check temiz). Veri dönüşümü denetim/ARAC-ASI-DONEM-1013.py (kuru: 23 v: dönemi 1833-05-06'da asi→vassal'a bölünür; --yaz yazar, idempotent). Renk tonu: 'gevsek' ile AYNI (#e8a2aa) varsayıldı; ayrı ton istenirse yalnız uret_petek.py'deki tek satır. Mısır eyaletinin kendisi (Kahire vb. 1805-07-03→1914) BÖLÜNMEDİ — Emre cevabı bekleniyor. Sıra: diff → script --yaz → denetle/renk_olc/paketle → HAVVA koşusu.",
+   "delil": "denetim/MISIR-ASI-MOTOR-1013.diff · denetim/ARAC-ASI-DONEM-1013.py · denetim/MISIR-SEFER-0075.json h0010_sema"
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "not": "Karar A uygulandı. Maraş v: 1832-07-29→1841-02-25 (kaynaksız 8,5 yıl) → 1833-01-01→1834-08-01. f YIL (TDV kahramanmaras '1833'te işgal'), t TÜRETİLMİŞ (f+~19 ay, TDV 'on dokuz aya yakın'; kesinlik t:belirsiz, kaynakta beyan). Antep KORU (iki akademik kaynak 1832'den Mısır der; TDV çelişkisi kaynak alanı düzeltmesi hâlâ yapılmadı — yalnız bildirim). Belen maddesindeki 'Maraş Mısır'a geçti' cümlesi düzeltildi; iki yeni olaylar_ek4 maddesi (1833-01-01 işgal, 1834-08-01 sonu).",
+   "delil": "data/yerlesimler.js (Maraş v:) · data/olaylar_ek4.js (Belen sonrası 3 madde) · TDV kahramanmaras (GET 200) · Kutluoğlu 1997"
+  },
+  "H-0014": {
+   "hukum": "cozuldu",
+   "not": "Urfa v: (misir-kavalali 1832-08-15→1841-02-25) KALDIRILDI; üst kaynak alanına gerekçe yazıldı (TDV sanliurfa [147] yalnız 1839'da 'kısa süre'; Kutluoğlu: Kütahya kapsamı dışı; Gencer: elçi gelişi). 1839 kısa süre için ay/gün bulunamadı — pencere yazılmadı.",
+   "delil": "data/yerlesimler.js Urfa kaydı"
+  },
+  "H-0015": {
+   "hukum": "cozuldu",
+   "not": "Mersin ve Silifke için kısa Mısır dönemi eklendi: 1832-09-13 (alt sınır, Gülek günü) → 1833-06-15 (Haziran ortası), kid misir-kavalali, kesinlik ay/ay, DOLAYLI tanıklık kaynak alanında beyanlı (Gencer 2016 [172]-[178] İçil mütesellimi; Kütahya kararında yalnız Adana). İki yeni olaylar_ek4 maddesi (Gülek 13 Eylül 1832, tahliye Haziran 1833). ULUKIŞLA YAZILMADI: kaynak 'yöneldi, mütesellimler kaçtı' — bayrak kuralına yetmez; Emre'nin 'ekle (kısa)' onayı Mersin/Silifke'yi kapsıyordu. Karapınar/Erzin/Dörtyol/Yumurtalık/Azez kaynaksız → eklenmedi.",
+   "delil": "data/yerlesimler.js Silifke · data/yerlesimler_ek27.js Mersin · data/olaylar_ek4.js"
+  },
+  "H-0018": {
+   "hukum": "cozuldu",
+   "not": "lubnan-emirligi tabi: Osmanlı→Mısır→Osmanlı olarak bölündü: 1516-10-01→1832-01-01 osmanli · 1832-01-01→1840-09-01 misir-kavalali · 1840-09-01→1842-01-01 osmanli. TDV lubnan GET: '1832-1840 yılları arasında Mısır idaresinde kalan Lübnan', 'Eylül 1840'ta III. Beşîr … tayin', 'Ekim 1840'ta Lübnan'ı terkederek'. f yıl, t ay hassasiyeti. Künye kronolojisine iki madde. Haritaya yansımaz (tabi: okuyucusuz; v: kid lubnan-emirligi değişmedi) — koşu gerekmez.",
+   "delil": "data/devletler.js lubnan-emirligi · TDV lubnan"
+  },
+  "H-0019": {
+   "hukum": "cozuldu",
+   "not": "Han Yûnus'a Gazze'nin Mısır penceresi verildi (v: 1831-10-31→1841-02-25, kid misir-kavalali, kesinlik f:ay) — SIRA TUTARLILIĞI, özel tanıklık bulunamadı, kayıtta 'gün komşudan: Gazze' ile beyanlı. Gazze'nin kendi başlangıcı AY hassasiyetli (TDV 'Kasım 1831'); zincirleme devralma riski kayıtta not edildi.",
+   "delil": "data/yerlesimler.js Han Yûnus"
+  },
+  "H-0021": {
+   "hukum": "senin-kararin",
+   "not": "Olaylar çekirdeğinde ölçüm (13 Eki, odak_olc): odaksız 18 madde kaldı (0075 raporundaki 94'ün 76'sı önceki turlarda indi). Kalan 18'in 14'ü atlasta OLMAYAN yer (Ziştovi ×5, Fokşani, Rimnik/Boze, Eski Hırsova, Kalafat, Maçin, Yılan Adası, Adakale, Refah) — koordinat kaynağı yok, nokta/yama kararı sürüyor (Emre onayı 'öneri yok' idi); 4'ü yer atfı olmayan (Arvanid defteri, Nâdir karargâhı, Koca Yûsuf azli 'ordugâh', Tunus–Trablusgarp sınırı ×2). Uydurma odak yazılmadı. Devlet kronolojilerine (şık 2) kural genişletmesi app.js işi — bu turda yapılmadı.",
+   "delil": "py arac/odak_olc.py --ayrinti (olaylar_p0057b/p0063/p0068b/p0917taraf)"
+  },
+  "H-0023": {
+   "hukum": "zaten-dogru",
+   "not": "Karar 'tut': Silistre 1836 tahliye oku kalıyor; kayıtta kesinlik alanı oku ŞEMATİK ilan ediyor (varış iddia değil), tarih yıl hassasiyetli. Değişiklik gerekmedi.",
+   "delil": "data/seferler_sefer_ok_0075.js:41-48"
+  },
+  "H-0025": {
+   "hukum": "zaten-dogru",
+   "not": "Halep v:/olaylar_ek4 maddesi zaten 1832-07-15 (SIRADA-C 0082/H-0092). Bu turda kalan bayat kopya data/kronoloji_misir.js Halep maddesi 1832-06-25→1832-07-15'e çekildi (sıra Humus'tan sonra).",
+   "delil": "data/yerlesimler.js Halep v: · data/olaylar_ek4.js:189 · data/kronoloji_misir.js"
+  },
+  "H-0048": {
+   "hukum": "kosu-bekliyor",
+   "not": "KISMEN BAYAT: samos-prensligi künyesi VAR (f 1834-01-01), Sisam v: bitişi zaten 1912-11-11 (TDV). Eksik olan kid + harita anahtarı + renk (renkler.py BOYALAR = motor tuzu → main'e girmez): denetim/SISAM-KUNYE-1013.diff (künye f→1832-12-10 TDV, tabi, harita:, BOYALAR girişi, Sisam v: kid).",
+   "delil": "denetim/SISAM-KUNYE-1013.diff · TDV sisam (GET 200)"
+  }
+ },
+ "parti-emrelic-0082": {
+  "H-0059": {
+   "hukum": "cozuldu",
+   "not": "Seçenek 🅐: iç Delta 14 noktaya isg fransa-cumhuriyet 1798-07-22→1801-06-27 eklendi (Dessûk, Kafrüşşeyh, Tanta, Mahalletülkübrâ, Mansûre, Mît Gamr, Şibînülkûm, Benhâ, Fâkûs, Menzile, Katye, Bürüllüs, Demenhûr, Ebûkîr), 'gün komşudan: Kahire 1798-07-22 · NAPO-2' ve bitiş 'komşudan Kahire 1801-06-27 · NAPO-3' beyanıyla; noktaların kendi günü bulunamadı. Bilbîs/Sâlihiyye zaten kendi kaynaklı günleriyle SIRADA-C'de yazılıydı. Not: Kahire 1798-07-22 'kapitülasyon' günüdür; Ebûkîr kıyı kalesi için Delta ile aynı süreç varsayımı beyanda.",
+   "delil": "data/yerlesimler_afrika.js (14 satır) · denetim/AKDENIZ-ARAP-0082-CEVAP.md H-0059"
+  }
+ },
+ "parti-emrelic-0085": {
+  "H-0003": {"hukum": "senin-kararin", "not": "Motor (C3 yaması + Timurlu rengi) — bu tur kapsam dışı (renk/motor).", "delil": ""},
+  "H-0008": {"hukum": "senin-kararin", "not": "js/app.js cherry-pick (origin/makine/havva-h0008 e0b51b88) — veri kalemi değil, bu tur dokunulmadı.", "delil": ""},
+  "H-0011": {"hukum": "senin-kararin", "not": "Motor yaması + kaynaklı nokta — bu tur kapsam dışı.", "delil": ""},
+  "H-0012": {
+   "hukum": "cozulemedi",
+   "not": "Turnu (Halovnik/Turnu Mugurele) noktası yazılamadı: TDV nigbolu GET — Halovnik kalesi Bayezid'in 1396 sonrası onardığı Osmanlı köprübaşı, ama ne başlangıç ne bitiş tarihi (ne yıl) veriyor; tarih uydurulmaz. Eflak noktası (Turnu–Slatina arası) için kaynak yok. Başka kaynak (akademik) gerekir.",
+   "delil": "TDV nigbolu (GET 200, 'Halovnik' cümlesi tarihsiz)"
+  }
+ },
+ "parti-emrelic-0086": {
+  "H-0004": {"hukum": "senin-kararin", "not": "Hazaracat boşluğu: ajan önerisi 'kaynaklı 1-2 nokta (Gur/Bamiyan) ya da __BOSLUK__ beyanı' — iki seçenek arasında karar yok; kaynak okunmadan nokta yazılmadı. DUR.", "delil": ""},
+  "H-0005": {"hukum": "senin-kararin", "not": "Belucistan/Mekran: H-0004 ile aynı ikilem. DUR.", "delil": ""},
+  "H-0006": {"hukum": "senin-kararin", "not": "Tibet platosu: kasıtlı boşluk beyanı + 2-3 kaynaklı nokta ikilemi. DUR.", "delil": ""},
+  "H-0013": {"hukum": "kosu-bekliyor", "not": "Argunlu künyesi + renk (renkler.py = motor) — main'e sokulmadı; akademik kaynak da henüz okunmadı.", "delil": ""},
+  "H-0014": {"hukum": "senin-kararin", "not": "Zerenc 1507-05-24 sonrası sahip: kaynaklı sahip (TDV sistan) ya da BOSLUK beyanı ikilemi. DUR.", "delil": ""}
+ }
+}

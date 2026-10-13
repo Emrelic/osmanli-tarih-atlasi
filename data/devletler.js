@@ -8076,12 +8076,16 @@ window.DEVLETLER = [
 // ============================================================================
 { id:"lubnan-emirligi", ad:"Lübnan Emirliği (Ma'noğulları · Şihaboğulları)", tur:"emirlik", bolge:"arabistan",
   f:"1516-10-01", t:"1842-01-01", baskent:"Dayr al-Kamer (Deyrülkamer) → Beyteddin", harita:"lubnan-emirligi",
-  tabi:[{f:"1516-10-01", t:"1842-01-01", ust:"osmanli"}],
+  tabi:[{f:"1516-10-01", t:"1832-01-01", ust:"osmanli", kesinlik:{f:"ay",t:"yil"}},
+        {f:"1832-01-01", t:"1840-09-01", ust:"misir-kavalali", kesinlik:{f:"yil",t:"ay"}, kaynak:"TDV `lubnan`: «1832-1840 yılları arasında Mısır idaresinde kalan Lübnan» · «Emîr Beşîr Ekim 1840’ta Lübnan’ı terkederek Malta’ya sürgüne gitti, aynı yılın son aylarında da İbrâhim Paşa Lübnan’ı tamamen boşaltmak zorunda kaldı. Eylül 1840’ta III. Beşîr Şihâbî Lübnan’ın yeni emîri olarak tayin edildi.» — f: YIL (gün/ay kaynakta YOK); t: Osmanlı tarafından III. Beşîr'in tayin ayı (Eylül 1840), ay hassasiyeti; Mısır ordusunun tam boşaltması «aynı yılın son ayları». Mısır kendisi Osmanlı'ya tâbi (üst: misir-kavalali.tabi). MISIR-SEFER-0075 H-0018 · karar: böl (Emre 13 Eki 2026)"},
+        {f:"1840-09-01", t:"1842-01-01", ust:"osmanli", kesinlik:{f:"ay",t:"ay"}}],
   ozet:"1516'da Osmanlı fethinden sonra bölgenin idaresi Dürzî beylere bırakıldı; önce Ma'noğulları (1516-1697), sonra Şihaboğulları (1697-1842) hanedanları Osmanlı'ya tâbi yarı-özerk Lübnan Emirliği'ni yönettiler. Ahmed Ma'n'ın 1697'de çocuksuz ölümüyle Dürzî ileri gelenleri Beşîr Şihâbî'yi seçti; emirlik 1842'de doğrudan Osmanlı yönetimine döndü. ⚠️ Cebel-i Lübnan'ın kendi toprağında (Deyrülkamer/Beyteddin/Şûf) yerlesimler.js'te HİÇ nokta yok — künye yazıldı ama yeni yerleşim noktası eklenmeden haritada görünmeyecek (ayrı bir iş, PAKET-KUNYE-0911.json ⑤'te işaretli).",
   kaynak:"TDV `lubnan` — HTTP 200, gövde okundu. 🟡 f: GÜN BİLİNMİYOR (TDV yalnız \"Ekim 1516\" veriyor) · t: GÜN BİLİNMİYOR (yalnız \"Ocak 1842\"). Baskent (Deyrülkamer/Beyteddin) TDV alıntısında geçmiyor, standart kaynaktan — bulunamadı damgası: TDV'de doğrulanmadı.",
   kronoloji:[
     { t:"1516-10-01", tur:"kurulus", b:"Osmanlı fethi sonrası bölge idaresi Ma'noğulları'na verildi", kaynak:"TDV: lubnan — \"Ekim 1516'da Osmanlı yönetimine giren bölgenin idaresiyle ilgili yapılan yeni düzenleme sonunda Lübnan'ın yönetimi ... Ma'noğulları'na verildi\"" },
     { t:"1697-01-01", tur:"hanedanlik", b:"Ma'n hanedanının son emiri Ahmed çocuksuz öldü, Dürzî ileri gelenleri Beşîr Şihâbî'yi emir seçti", kaynak:"TDV: lubnan — \"Halefi olan oğlu Ahmed'in 1697'de geride çocuk bırakmadan ölmesiyle Lübnan'daki Ma'noğulları dönemi sona erdi\"" },
+    { t:"1832-01-01", tur:"siyaset", b:"Lübnan Emirliği Kavalalı Mısır'ın idaresine girdi (II. Beşîr, İbrâhim Paşa ile birlikte hareket etti)", kaynak:"TDV: lubnan — \"1832-1840 yılları arasında Mısır idaresinde kalan Lübnan\" · gün/ay YOK (yıl yer tutucusu)" },
+    { t:"1840-09-01", tur:"siyaset", b:"III. Beşîr Şihâbî Osmanlı tarafından emir tayin edildi, Mısır idaresi sona erdi (II. Beşîr Ekim 1840'ta Malta'ya sürüldü)", kaynak:"TDV: lubnan — \"Eylül 1840’ta III. Beşîr Şihâbî Lübnan’ın yeni emîri olarak tayin edildi\" · gün YOK (ay hassasiyeti)" },
     { t:"1842-01-01", tur:"son", b:"Şihaboğulları'nın yönetimi sona erdi, bölge doğrudan Osmanlı yönetimine döndü", kaynak:"TDV: lubnan — \"Böylece Lübnan'daki Şihâbî ailesinin yönetimi sona erdi\"" }
   ] },
 { id:"cebel-i-lubnan-mutasarrifligi", ad:"Cebel-i Lübnan Mutasarrıflığı", tur:"mutasarriflik", bolge:"arabistan",

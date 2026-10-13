@@ -80,7 +80,7 @@ window.YERLESIMLER_EK27 = [
   //    "(a) 1671 — Evliya Çelebi. Daha erken, tek kaynaklı."
   // Karar VERİLMİŞTİ ama veriye HİÇ İNMEMİŞTİ — sekiz gün boyunca
   // `CEVAP.json` onu "cozuldu" diye taşıdı.
-  kur:"1671-01-01", v:[] },
+  kur:"1671-01-01", v:[{f:"1832-09-13",t:"1833-06-15",k:"Mısır (İbrâhim Paşa — İçil mütesellimi)",statu:"vassal",kid:"misir-kavalali",kesinlik:{f:"ay",t:"ay"},kaynak:"Gencer 2016 (Uluslararası Sosyal Araştırmalar 9/42) [172]-[178]: Gülek Boğazı 13 Eylül 1832'de ele geçirildi, İbrâhim Paşa bu başarıdan sonra Abdülhalimoğlu Mehmed'i İçil Sancağı'na mütesellim atadı, sahildeki bütün iskeleler Mısır denetimine girdi — f: ALT SINIR (Gülek günü; mütesellim atama günü kaynakta YOK). t: Anadolu tahliyesi, «Haziran ayının ortalarına doğru Mısır kuvvetlerinin tamamı Gülek Boğazı'nı geçmiş» (Gencer [656]-[659]) — Haziran ortası ay hassasiyeti. 1841'e uzatma kaynakla DESTEKLENMEZ: Kütahya kararında yalnız Adana muhassıllığı vardır, İçel/Alaiye talep edilmişti ama kararda anılmaz (Kutluoğlu 1997 [403],[432],[481]). Mersin için tanıklık: Gencer'in «sahildeki bütün iskeleler Mısırlıların denetimine girmişti» cümlesi İçil sahilini kapsar (Mersin iskele kenti); doğrudan «Mersin alındı» cümlesi YOK; İçil sancağı mütesellimliği (TDV icel) üzerinden. MISIR-SEFER-0075 H-0015 · karar: ekle-kısa (Emre 13 Eki 2026)"}] },
 
 // ───────── İSKENDERUN KÖRFEZİ · 1923'te FRANSIZ mandası ─────────
 // 🔴 HATAY — Emre'nin uyarısı: 1923'te Türkiye DEĞİL. Türkiye'ye katılışı
