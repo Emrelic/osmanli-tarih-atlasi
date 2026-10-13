@@ -584,7 +584,7 @@ window.YERLESIMLER_AFRIKA = [
 // Abdülkādir el-Cezâirî'nin ilk merkezi. Gerçek düşüş 1841-05 — 1844-03-04'e
 // yuvarlandı.
 { ad:"Muaskar", tur:"sehir", lat:35.396, lon:0.140, g:0, k:4, m:"Cezayir",
-  s:[{"f":"1281-01-01","t":"1552-01-01","d":"zeyyani"},{"f":"1832-11-22","t":"1841-05-30","d":"abdulkadir"},{"f":"1841-05-30","t":"1923-10-29","d":"fransa-cumhuriyet"}],
+  s:[{"f":"1281-01-01","t":"1552-01-01","d":"zeyyani"},{"f":"1832-11-22","t":"1841-05-30","d":"abdulkadir"},{"f":"1841-05-30","t":"1962-07-05","d":"fransa-cumhuriyet"},{"f":"1962-07-05","t":"2000-12-31","d":"cezayir","kaynak":"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[{"f":"1552-01-01","t":"1671-01-01"}], v:[{"f":"1671-01-01","t":"1830-07-05","k":"Cezayir Ocaklığı (dayı idaresi)","statu":"vassal","kid":"cezayir-ocagi"},{"f":"1830-07-05","t":"1832-11-22","k":"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)","statu":"vassal"}] },
 
 { ad:"Sîdî Bel Abbès", tur:"sehir", lat:35.194, lon:-0.641, g:0, k:4, m:"Cezayir",
@@ -631,7 +631,7 @@ window.YERLESIMLER_AFRIKA = [
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Batna", tur:"sehir", lat:35.556, lon:6.178, g:0, k:4, m:"Cezayir",
-  s:[{"f":"1281-01-01","t":"1519-09-01","d":"zeyyani"},{"f":"1844-02-12","t":"1923-10-29","d":"fransa-cumhuriyet"}],
+  s:[{"f":"1281-01-01","t":"1519-09-01","d":"zeyyani"},{"f":"1844-02-12","t":"1962-07-05","d":"fransa-cumhuriyet"},{"f":"1962-07-05","t":"2000-12-31","d":"cezayir","kaynak":"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[{"f":"1519-09-01","t":"1671-01-01"}], v:[{"f":"1671-01-01","t":"1830-07-05","k":"Cezayir Ocaklığı (dayı idaresi)","statu":"vassal","kid":"cezayir-ocagi"},{"f":"1830-07-05","t":"1844-02-12","k":"Ahmed Bey'in Konstantin beyliği","kid":"konstantin-beyligi","statu":"vassal"}] },
 
 { ad:"Berc Bû Areric", tur:"sehir", lat:36.073, lon:4.761, g:0, k:4, m:"Cezayir",

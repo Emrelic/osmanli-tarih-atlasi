@@ -558,13 +558,13 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "c9ded2dc19be07a4",
-     "bayt": 905972
+     "sha": "ee4faa560641a44a",
+     "bayt": 920487
     },
     {
      "yol": "data/yerlesimler_afrika.js",
-     "sha": "cd349f08e85b2aa5",
-     "bayt": 185666
+     "sha": "f8c5b2073c995ea7",
+     "bayt": 185934
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
@@ -603,8 +603,8 @@
     },
     {
      "yol": "data/yerlesimler_ek3.js",
-     "sha": "834569f456dcc123",
-     "bayt": 16085
+     "sha": "73662f9f99365c01",
+     "bayt": 16677
     },
     {
      "yol": "data/yerlesimler_ek4.js",
@@ -622,7 +622,7 @@
      "bayt": 9947
     }
    ],
-   "bayt": 1657986
+   "bayt": 1673361
   },
   {
    "paket": "data/paket_14.js",
@@ -649,13 +649,13 @@
     },
     {
      "yol": "data/yerlesimler_ek14.js",
-     "sha": "c3dc7654d85dbe60",
-     "bayt": 13090
+     "sha": "458db28bc0c87543",
+     "bayt": 14371
     },
     {
      "yol": "data/yerlesimler_ek15.js",
-     "sha": "6d8a1d515052b904",
-     "bayt": 11920
+     "sha": "8b2cf5cfa75182a4",
+     "bayt": 12836
     },
     {
      "yol": "data/yerlesimler_ek17.js",
@@ -719,8 +719,8 @@
     },
     {
      "yol": "data/yerlesimler_h2_kuzeyafrika.js",
-     "sha": "90ba8ecc6c5b8a00",
-     "bayt": 49162
+     "sha": "678bcfbe7835f405",
+     "bayt": 49391
     },
     {
      "yol": "data/yerlesimler_gdasya.js",
@@ -764,21 +764,21 @@
     },
     {
      "yol": "data/yerlesimler_ek27.js",
-     "sha": "d63e250be3148438",
-     "bayt": 10727
+     "sha": "50d95442df9fd38d",
+     "bayt": 10867
     },
     {
      "yol": "data/yerlesimler_ek28.js",
-     "sha": "ef070e233a83de30",
-     "bayt": 15166
+     "sha": "d43f58af898c5c2c",
+     "bayt": 15306
     },
     {
      "yol": "data/yerlesimler_ek29.js",
-     "sha": "867cac086390fa21",
-     "bayt": 113045
+     "sha": "3c8dd73cf8ece730",
+     "bayt": 113964
     }
    ],
-   "bayt": 815933
+   "bayt": 819558
   },
   {
    "paket": "data/paket_15.js",
@@ -886,7 +886,7 @@
     },
     {
      "yol": "data/yerlesimler_amerika.js",
-     "sha": "f4111e6fa689ad8a",
+     "sha": "9d1273250de91fb0",
      "bayt": 87285
     }
    ],
@@ -980,13 +980,13 @@
     },
     {
      "yol": "data/yerlesimler_sinir_guney.js",
-     "sha": "23d65818e37435c7",
-     "bayt": 18490
+     "sha": "1573c30f68389b1f",
+     "bayt": 21780
     },
     {
      "yol": "data/yerlesimler_sinir_kuzey.js",
-     "sha": "38e4b2380c57be2d",
-     "bayt": 26572
+     "sha": "39dde9a3a120cd95",
+     "bayt": 29342
     },
     {
      "yol": "data/yerlesimler_8beb2b.js",
@@ -995,8 +995,8 @@
     },
     {
      "yol": "data/yerlesimler_4ff22b.js",
-     "sha": "02785cb9c4b395fc",
-     "bayt": 6747
+     "sha": "694cb7c7619616b9",
+     "bayt": 6876
     },
     {
      "yol": "data/yerlesimler_amerika2.js",
@@ -1009,7 +1009,7 @@
      "bayt": 7098
     }
    ],
-   "bayt": 119242
+   "bayt": 125431
   },
   {
    "paket": "data/paket_21.js",
@@ -1031,8 +1031,8 @@
     },
     {
      "yol": "data/yerlesimler_ok109.js",
-     "sha": "2515c43de5dec820",
-     "bayt": 15056
+     "sha": "e48fbae040b5f58c",
+     "bayt": 15157
     },
     {
      "yol": "data/yerlesimler_ok110.js",
@@ -1040,7 +1040,7 @@
      "bayt": 7751
     }
    ],
-   "bayt": 84368
+   "bayt": 84469
   },
   {
    "paket": "data/paket_22.js",
@@ -1077,7 +1077,7 @@
     },
     {
      "yol": "data/yerlesimler_kamerika.js",
-     "sha": "f406808b82e33825",
+     "sha": "8b9377e634bb9d71",
      "bayt": 188184
     },
     {
@@ -1159,13 +1159,13 @@
     },
     {
      "yol": "data/yerlesimler_a78_asya.js",
-     "sha": "93916a49e7bbaa5e",
-     "bayt": 75095
+     "sha": "61faba4a6757f899",
+     "bayt": 75473
     },
     {
      "yol": "data/yerlesimler_a78_avrupa.js",
-     "sha": "aa542da7c6ad96bb",
-     "bayt": 34660
+     "sha": "95d93e97bd1d2a67",
+     "bayt": 35830
     },
     {
      "yol": "data/yerlesimler_a78_okyanusya.js",
@@ -1178,7 +1178,7 @@
      "bayt": 9128
     }
    ],
-   "bayt": 322251
+   "bayt": 323799
   },
   {
    "paket": "data/paket_25.js",

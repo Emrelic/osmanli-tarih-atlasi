@@ -94,7 +94,7 @@ window.YERLESIMLER_EK28 = [
   // ⚠️ 1878 sınırı Hopa'nın DOĞUSUNDAN geçti (Kopmuş Burnu), Arhavi hep
   // Osmanlı kaldı — bu yüzden s: rusya dönemi YOK, Rize ile aynı desen.
   // kaynak: sınır tarifi (bkz. yukarı) + Rize kaydıyla aynı fetih tarihi (Trabzon 1461)
-  s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1461-08-15",t:"1920-04-23"}], v:[] },
 
 { ad:"Borçka", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.339, lon:41.677, g:0, k:4, m:"Erzurum",

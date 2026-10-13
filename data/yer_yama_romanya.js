@@ -47,7 +47,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -56,7 +56,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1456-06-01", d: "bogdan" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -65,7 +65,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1456-06-01", d: "bogdan" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -74,7 +74,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1456-06-01", d: "bogdan" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -83,7 +83,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1456-06-01", d: "bogdan" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -93,7 +93,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1829-09-14", t: "1859-01-24", d: "eflak" },
       { f: "1859-01-24", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -106,7 +106,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -115,7 +115,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -124,7 +124,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -133,7 +133,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -142,7 +142,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -151,7 +151,7 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -161,7 +161,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1718-07-21", t: "1739-09-18", d: "avusturya" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -171,7 +171,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1718-07-21", t: "1739-09-18", d: "avusturya" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -181,7 +181,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1718-07-21", t: "1739-09-18", d: "avusturya" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -191,7 +191,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1718-07-21", t: "1739-09-18", d: "avusturya" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -200,13 +200,13 @@ window.YER_YAMA_ROMANYA = [
     s: [
       { f: "1281-01-01", t: "1462-06-01", d: "eflak" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
   {
     ad: "Yergöğü (Giurgiu)",
-    s: [{f:"1281-01-01",t:"1420-01-01",d:"eflak"},{f:"1427-01-01",t:"1450-01-01",d:"eflak",kaynak:"TDV yergogu: '1427'de Eflaklılar Giurgiu Kalesi'ni geri aldı'"},{f:"1829-09-14",t:"1859-01-24",d:"eflak"},{f:"1859-01-24",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}]
+    s: [{f:"1281-01-01",t:"1420-01-01",d:"eflak"},{f:"1427-01-01",t:"1450-01-01",d:"eflak",kaynak:"TDV yergogu: '1427'de Eflaklılar Giurgiu Kalesi'ni geri aldı'"},{f:"1829-09-14",t:"1859-01-24",d:"eflak"},{f:"1859-01-24",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1947-12-30",d:"romanya-kralligi"},{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}]
   },
 
   {
@@ -218,7 +218,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   },
 
@@ -231,7 +231,7 @@ window.YER_YAMA_ROMANYA = [
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
       { f: "1878-07-13", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
+      { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}
     ]
   }
 

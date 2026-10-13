@@ -74,7 +74,7 @@ window.YERLESIMLER_EK27 = [
   //   YOKKEN doğruydu. `kur:` inince aynı kusurun çaresi değişti.
   // Toprak 1671'den önce komşunun (Tarsus/Adana) peteğine düşer —
   // `§2` emilme kuralı, ve burada DOĞRU: Mersin YOKTU.
-  s:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1671-01-01",t:"1918-10-30"}],
   // 🟢 EMRE'NİN KENDİ KARARI, 2 Eylül 2026 (soru ⑧, paket 0019/H-0008):
   //    "(a) 1671 — Evliya Çelebi. Daha erken, tek kaynaklı."

@@ -56,7 +56,7 @@ window.YERLESIMLER_4FF22B = [
     //   bu AYRISMA BILINCLI, kayitli, ve tek satirlik bir kararla kapanir.
     s: [
       { f: "1787-01-01", t: "1897-01-27", d: "merina" },
-      { f: "1897-01-27", t: "1923-10-29", d: "fransa-cumhuriyet" }
+      { f: "1897-01-27", t: "1960-06-26", d: "fransa-cumhuriyet" },{f:"1960-06-26",t:"2000-12-31",d:"madagaskar",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}
     ],
     kaynak: "madagaskar (TDV, gövde okundu) + devletler.js `merina` künyesi",
     neden: "TDV madagaskar: 'basshehri Antananarivo (Tananarive)' — cumle MODERN (2003 nufusu); krallik donemi icin TDV'de cumle YOK ve merina/antananarivo sluglari 302 OLU. Donem baslangici kunyeden (merina f:1787), BITISI TDV'den: '27 Ocak 1897'de de yonetime el koyup kendisini yurt disina surduler'. Kunye t:1897-02-28 diyor — 32 gun AYRISMA, §4 geregi TDV esas alindi. PENCERE DISI (lat -18,93 < -11) — pencere guneye acilinca canlanir",
@@ -93,7 +93,7 @@ window.YERLESIMLER_4FF22B = [
     lat: 21.3069, lon: -157.8583,
     tur: "sehir",
     s: [{ f: "1795-01-01", t: "1898-08-12", d: "hawaii-kralligi" },
-        { f: "1898-08-12", t: "1923-10-29", d: "abd" }],
+        { f: "1898-08-12", t: "2000-12-31", d: "abd" }],
     kaynak: "bulunamadı — TDV'de ARANDI (hawaii · honolulu · havai, ücü de 302 OLU); dayanak: devletler.js `hawaii-kralligi` künyesi ve onun akademik kaynağı",
     neden: "Kunye baskent alani 'Honolulu' ve donem 1795-01-01 -> 1898-08-12 (Kamehameha I'in birlestirmesinden ABD ilhakina). Veride bulunan 'Hawaii Adalari (Birlesme Oncesi)' kaydi tur:bolge + kasitli_bosluk ve 1795 ONCESINI isaretliyor; bu nokta onu TAMAMLIYOR, cakismiyor (310,8 km, ayri ada). PENCERE DISI (lon -157,86) — pencere Pasifik'e acilinca canlanir",
     pencere_disi: true

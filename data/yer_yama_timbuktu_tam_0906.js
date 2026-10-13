@@ -75,7 +75,7 @@ window.YER_YAMA_TIMBUKTU_TAM_0906 = [
        {f:"1833-01-01",t:"1862-01-01",d:"massina"},
        {f:"1862-01-01",t:"1893-01-01",d:"tekrur"},
        // ⟨1893-01-01 → 1894-01-01 AÇIK — kaynak YOK, uydurulmadı⟩
-       {f:"1894-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1894-01-01",t:"1960-06-20",d:"fransa-cumhuriyet"},{f:"1960-06-20",t:"1960-08-20",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-08-20",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     bos:"kabile",
     neden:"1430-1468 arası: Mali İmparatorluğu'nun zayıflamasıyla bölge Tuareg (Tevârik) boy konfederasyonunun eline geçti, 1468'de Songhay tarafından fethedilene dek merkezî bir devlet YOKTU. Kaynak: TDV `tinbuktu`. ⚠️ AYRICA 1893-01-01 → 1894-01-01 arası BİR YIL açıktır ve bu BEYAN DEĞİL EKSİKTİR: `tekrur` künyesi 1893'te bitiyor, TDV Fransız ilhakını 1894 diyor, aradaki yıl için kaynak bulunamadı.",
     kaynak:"tinbuktu — TDV gövdesi okundu. Zincirin 1750 (arma yönetimi ele geçirdi), 1760 (Tevârikler zaptetti), 1770 (on yıl sonra Segu Bambaraları), 1792 (Tevârikler tekrar) ve 1894 (Fransız ilhakı) günleri BU MADDEDEN. `fas` bitişi 1700'den 1750'ye ÇEKİLDİ: eski gün yuvarlak ve kaynaksızdı, yeni gün TDV'nin verdiği arma devriyle hizalı."

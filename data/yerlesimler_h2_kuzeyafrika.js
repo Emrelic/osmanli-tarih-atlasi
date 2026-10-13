@@ -59,7 +59,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
-    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
+    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"},{"f":"1923-10-29","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
