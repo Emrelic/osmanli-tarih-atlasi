@@ -547,19 +547,19 @@
     },
     {
      "yol": "data/savaslar.js",
-     "sha": "9d765f539cb26a8d",
-     "bayt": 158970
+     "sha": "2ffa4128da2c3e81",
+     "bayt": 158956
     }
    ],
-   "bayt": 1860662
+   "bayt": 1860648
   },
   {
    "paket": "data/paket_13.js",
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "bdefee3e2c49e96b",
-     "bayt": 781424
+     "sha": "65fee5ff60863ba3",
+     "bayt": 782587
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -593,8 +593,8 @@
     },
     {
      "yol": "data/yerlesimler_seyrek.js",
-     "sha": "79777e55c795f435",
-     "bayt": 26027
+     "sha": "f24dceda3195d590",
+     "bayt": 26550
     },
     {
      "yol": "data/yerlesimler_ek2.js",
@@ -622,7 +622,7 @@
      "bayt": 9411
     }
    ],
-   "bayt": 1413950
+   "bayt": 1415636
   },
   {
    "paket": "data/paket_14.js",
@@ -749,8 +749,8 @@
     },
     {
      "yol": "data/yerlesimler_ek24.js",
-     "sha": "10bac2a2f92ddbea",
-     "bayt": 18434
+     "sha": "321df51d1e0f00ab",
+     "bayt": 21618
     },
     {
      "yol": "data/yerlesimler_ek25.js",
@@ -774,11 +774,11 @@
     },
     {
      "yol": "data/yerlesimler_ek29.js",
-     "sha": "228969bb402d9f02",
-     "bayt": 109388
+     "sha": "cb345fb0f35bd02d",
+     "bayt": 109786
     }
    ],
-   "bayt": 665244
+   "bayt": 668826
   },
   {
    "paket": "data/paket_15.js",
@@ -985,8 +985,8 @@
     },
     {
      "yol": "data/yerlesimler_sinir_kuzey.js",
-     "sha": "7f460e1b965ed9ed",
-     "bayt": 28436
+     "sha": "13dcc2eb62b2d3b0",
+     "bayt": 29232
     },
     {
      "yol": "data/yerlesimler_8beb2b.js",
@@ -1009,7 +1009,7 @@
      "bayt": 6822
     }
    ],
-   "bayt": 119297
+   "bayt": 120093
   },
   {
    "paket": "data/paket_21.js",
@@ -1321,8 +1321,8 @@
     },
     {
      "yol": "data/seferler_sefer_ok_0075.js",
-     "sha": "546f2f0cb2ac73cf",
-     "bayt": 5225
+     "sha": "c244ddb8a3bb9304",
+     "bayt": 5208
     },
     {
      "yol": "data/seferler_p0074.js",
@@ -1335,7 +1335,7 @@
      "bayt": 17708
     }
    ],
-   "bayt": 256057
+   "bayt": 256040
   },
   {
    "paket": "data/paket_27.js",
