@@ -915,6 +915,8 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
   sahibi de yoktur). `kaynak` + `ic_not` zorunlu; terk/iskân geçişi için `olay` ARANMAZ (günü olmayan
   süreç — zorlamak uydurma olay üretir). Aktarımda motorun `kur`/`bit` penceresine çevrilir.
   *(Parti 10, Rusçuk: saha VII–XIV. yy terk edilmişti, zincir bölgenin sahibini taşıyordu.)*
+  Aynı yerde (≤ 3 km) antik şehir terk edilip modern şehir sonra doğduysa ve kesinti KAYNAKLA gösteriliyorsa
+  (Zekâzîk–Bubastis) ara dönem `__YOK__`tur: süreklilik varsayılmaz. Kaynak susuyorsa süreklilik de kesinti de yazılmaz — beyan edilir.
 - **`d:"osmanli"`** ayrılmış kimliktir: atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır
   (`devletler.js`te ve `BOYALAR`da `osmanli` YOK — ölçüldü, kasıtlı). Burada yazılan `osmanli` dönemi
   aktarımda `d:` dönemine dönüşür; `kunye_yok` İŞARETLENMEZ. *(Parti 04 buldu.)*
