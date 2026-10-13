@@ -736,8 +736,8 @@ GECIT_DOSYASI = "gecitler.js"
 #   4.094 sınır işareti birden "sessiz toprak kaybı" olur (Değişmez 2s).
 # ⚠️ Tarihler DİZGİ karşılaştırılır: yıl 4 hane olmalı (1000 güvenli; <1000
 #   için sıfır doldurma, MÖ için motor yaması — ONCE1281-MOTOR-UFUK-1004 §1.2).
-UFUK = ("1000-01-01", "1945-09-02")
-VERI_UFKU = ("1281-01-01", "1923-10-29")
+UFUK = ("1000-01-01", "2000-12-31")
+VERI_UFKU = ("1281-01-01", "2000-12-31")
 # 🔴 UFUK DAMGASI (ZAMAN-GENİŞ-1008, koordinatör hükmü) — TEK TANIM, buradan okunur.
 #   UFUK ve VERI_UFKU'nun uç günleri (bugün 1000-01-01 · 1281-01-01 ·
 #   1923-10-29 · 1945-09-02): bu günlere yazılmış tarih bir el değiştirme

@@ -2793,7 +2793,7 @@ ATLAS_SONU = UFUK[1]   # ZAMAN-Z1-1008: motor ufkunun sonu
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 112   # 13 EKIM (SUMER-2000 nokta/yama dalgasi): 115 -> 112 · IYILESME, olculdu · # 13 EKIM (UFUK-KESIGI): 118 -> 115 ·13 EKIM (UFUK-KESIGI uzatmalari: yunanistan/italya/romanya... kunye t'si gercek bitise cekildi) 118 -> 115 · ONCESI: 9 EKIM (dalga 1): 124 -> 118· HAYALET-KUNYE-1008 (KOORD+EK+K) + DOGU-SAFEVI (Kars/Ardahan/Sarikamis akkoyunlu hayaleti, Kandehar timurlu) + MISIR-SENKRON + sirvansah kunyesi t 1538-01-01 -> 1538-10-01 — IYILESME, §3.4-3 · ONCESI: 126 -> 124 HARPUT-DULKADIR-1009 + EEK-BALKAN-1009 (iki ayri kalem, birlikte olculdu)
+BEKLENEN_ASAN = 113   # 13 EKIM (SUMER-2000, ufuk 1945->2000-12-31): 112 -> 113 · YENI KAPSAM, GERILEME DEGIL: Agadez noktasinin fransiz-bati-afrika donemi 1960-08-03'e (Nijer bagimsizligi) uzuyor, kunye t=1959-01-01; ufuk 1923-10-29'u damga olmaktan cikarinca gorunur oldu. Kapanis: kunyenin (ve agadez-sultanligi t=1923-10-29 ufuk-kesigi) gercek bitisini kaynakla duzeltmek. # 13 EKIM (SUMER-2000 nokta/yama dalgasi): 115 -> 112 ·13 EKIM (SUMER-2000 nokta/yama dalgasi): 115 -> 112 · IYILESME, olculdu · # 13 EKIM (UFUK-KESIGI): 118 -> 115 ·13 EKIM (UFUK-KESIGI uzatmalari: yunanistan/italya/romanya... kunye t'si gercek bitise cekildi) 118 -> 115 · ONCESI: 9 EKIM (dalga 1): 124 -> 118· HAYALET-KUNYE-1008 (KOORD+EK+K) + DOGU-SAFEVI (Kars/Ardahan/Sarikamis akkoyunlu hayaleti, Kandehar timurlu) + MISIR-SENKRON + sirvansah kunyesi t 1538-01-01 -> 1538-10-01 — IYILESME, §3.4-3 · ONCESI: 126 -> 124 HARPUT-DULKADIR-1009 + EEK-BALKAN-1009 (iki ayri kalem, birlikte olculdu)
 # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
 # 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
 #   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).
@@ -3868,6 +3868,18 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ SUMER-2000 / KURULUŞ-BİTİŞ-DEVİR MADDELERİ (dalga 2) — 13 Ekim 2026.
+    # data/kronoloji_sinir_halef_1923_2000.js 257 madde getirdi, tavan 95 → 145 oldu. Her çift TEK TEK okundu:
+    # ortak olan yalnız şablon fiil ("…bağımsız oldu", "…Yüksek Sovyeti…ilan etti") ve bazen gün; ülkeler/bölgeler/
+    # antlaşma yönleri AYRI (Kırgızistan↔Özbekistan, Kenya↔Malta, Lozan Yunan sınırı↔Bulgar sınırı, Aden↔Mahra sultanlığı…).
+    # Başlık değiştirilmedi (ölçütü atlatmak sayacı kör eder); aynı olayın parçaları AYRI satırda kaldığı yerde burada beyan.
+    ("Italya Baris Antlasmasi yururlukte: Cres (Cherso) ve Zadar (Zara) Yugoslavya'ya birakildi",
+     "İtalya barış antlaşması yürürlüğe girdi, Triyeste Serbest Toprağı kuruldu; B bölgesi Yugoslav idaresinde (Koper, Umag)"),
+    ("Solomon Adaları Britanya'dan bağımsız oldu",
+     "Dominika Britanya'dan bağımsız oldu (Portsmouth)"),
+    # ⭐ BAE 1971-12-02 kuruluş ↔ Ras el-Hayme 1972-02-10 katılım — 13 Ekim 2026 (SUMER-2000): iki AYRI olay, 70 gün ara.
+    ("Birlesik Arap Emirlikleri kuruldu (Abu Dabi, Sarika; Ras el-Hayme sonradan)",
+     "Ras el-Hayme (Cülfâr) Birleşik Arap Emirlikleri'ne katıldı"),
     # ⭐ SUMER-2000 / HALEF DEVİR MADDELERİ — 13 Ekim 2026.
     # data/kronoloji_sinir_halef_1923_2000.js 257 madde getirdi, tavan 95 → 145 oldu. Her çift TEK TEK okundu:
     # ortak olan yalnız şablon fiil ("…bağımsız oldu", "…Yüksek Sovyeti…ilan etti") ve bazen gün; ülkeler/bölgeler/

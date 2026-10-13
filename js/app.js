@@ -193,8 +193,8 @@ function karsiTaraf(k) {
 //   (ölçüldü: `UFUK is not defined` ⇒ odak nöbetçisi ÖLÇEMEDİ). Bu satırın
 //   üstüne değişken taşıyan, yayın kapısını kör eder.
 var BASLANGIC = gunIdx("1000-01-01");   // = arac/girdi.py UFUK[0] · ÖNERİ
-var BITIS     = gunIdx("1945-09-02");   // = arac/girdi.py UFUK[1] · ÖNERİ
-var VERI_UFKU = ["1281-01-01", "1923-10-29"];   // = arac/girdi.py VERI_UFKU
+var BITIS     = gunIdx("2000-12-31");   // = arac/girdi.py UFUK[1] · ÖNERİ
+var VERI_UFKU = ["1281-01-01", "2000-12-31"];   // = arac/girdi.py VERI_UFKU
 var VERI_BASI = gunIdx(VERI_UFKU[0]);
 var VERI_SONU = gunIdx(VERI_UFKU[1]);
 
