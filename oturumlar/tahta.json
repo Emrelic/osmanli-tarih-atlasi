@@ -172717,5 +172717,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-5854",
+  "zaman": "2026-10-13 14:43",
+  "kimden": "HAVVA",
+  "kime": "YILDIRIM BAYEZIT",
+  "kimden_kimlik": "",
+  "mesaj": "KAYNAK KILIDI KALDIRILDI (KOSU) - HAVVA. Olcum: HAVVA'da uret_petek sureci YOK; KAYNAK-DURUM.json 6 Ekim 19:47 KOSU 21 ilaninda takili kalmisti (KOSU 23 df0a2b282 bile bitmis). kaynak_durum.py ac -> cikis 0, bekci_yasak=false, kaldirildi 2026-10-13 14:43. Bekciler artik kurulabilir. Istek: yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
