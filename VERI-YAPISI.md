@@ -851,3 +851,66 @@ ayar     katman seçicide "⑧ Kaynakla kesinleşmiş sahiplik halkaları" · va
 ```
 Sınav aleti: `denetim/ARAC-HALKA-SINA-0913.js` (şema · ad çözümü · künye · renk · pencere).
 
+---
+
+## 🆕 `data/sehir_tarihce_*.js` — ŞEHİR TARİHÇESİ (ARAŞTIRMA BİRİKİMİ) *(13 Ekim 2026, Emre kararı)*
+
+**Ne için:** 1900'de kategori 1–3 olan şehirleri (`denetim/SEHIR-1900-LISTE-1013`) tarih sahnesine ilk
+çıktıkları güne geri götürmek ve her şehrin sahiplik zincirini + kronolojisini kaynaklı biriktirmek.
+**Motor OKUMAZ, denetle OKUMAZ, site YÜKLEMEZ** (`index.html`de satır yok, hiçbir glob'a girmez).
+Niçin ayrı: MÖ tarih motorda henüz yazılamıyor (`C4`) ve yeni nokta sahiplik zinciri olmadan
+eklenemez (Değişmez 1) — araştırma bunları BEKLEMEDEN birikir, aktarım sonra yapılır.
+
+Ad alanı: `data/sehir_tarihce_<bolge>.js` → `window.SEHIR_TARIHCE_<BOLGE>` (ör. `_OSM`).
+Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <json> <dosya.js> <BOLGE>`.
+
+```js
+{ id:"konya", ad:"Konya", atlas_ad:"Konya",          // atlas_ad: 3 km içindeki atlas noktası, yoksa null
+  lat:37.872, lon:32.492, kat1900:2,                 // kat1900: 1 başkent · 2 eyalet · 3 sancak boyu
+  adlar:["Kawania","İkonion","Iconium","Konya"],     // tarih sırasıyla; aynı koordinat = aynı şehir
+  ilk:{ t:"-0400-01-01", gun:"MÖ 401", nicelik:"ilk_anilis", kesinlik:"yil",
+        kaynak:"Ksenophon, Anabasis 1.2.19 (Perseus)", tanik:"to Iconium, the last city of Phrygia" },
+  kur:null,                                          // yalnız KURULUŞA tanıklık varsa {t,gun,kesinlik,kaynak,tanik}
+  ark:{ t:"-1999-01-01", gun:"MÖ 2000", kesinlik:"belirsiz", kaynak:"Akok, Belleten 39/154 (1975)" },
+  bit:null,                                          // terk edildiyse {t,gun,kesinlik,kaynak}
+  sahip:[ { f:"-0400-01-01", t:"-0332-…", d:"ahamenis", kesinlik:"yil", kaynak:"…" }, … ],
+  olay:[ { t:"-0332-…", gun:"MÖ 333", k:"fetih", b:"…", kaynak:"…" }, … ],
+  ic_not:"…" }
+```
+
+**Kurallar** (`arac/sehir_tarihce.py denetle` hepsini sınar; çıkış 0 temiz · 1 ihlal · 2 ölçülemedi):
+- `ilk.nicelik`: `kurulus` | `ilk_anilis` | `arkeolojik`. Haritanın başlangıcı `ilk.t`dir ve
+  `sahip[0].f == ilk.t`. Öncelik: yazılı tanık (kuruluş ya da ilk anılış) varsa o; `arkeolojik` yalnız
+  yazılı tanık HİÇ yoksa. İlk anılıştan `kur` TÜRETİLMEZ (yukarıda `kesinlik` sınırı).
+- Aralık veren kaynakta **güvenli uç** alınır (ilk anılış için aralığın SON ucu) ve `ic_not`a yazılır.
+- MÖ yazımı astronomik (`-0400` = MÖ 401); `gun` metni ZORUNLU ve sayıyla çapraz denetlenir.
+- **Yeri kesin olmayan ad eşitlemesi** (Adana = Adaniya "kabul edilir, aynı yer mi bilinmez") başlangıç
+  sayılmaz; yeri kesin daha geç tanık alınır, eşitleme `ic_not`a. *(Emre, 13 Ekim 2026)*
+- **Antik yerleşim modern noktadan > 3 km** ise (İzmir–Bayraklı, Van–Tuşpa) BURADA yazılmaz: modern
+  nokta kendi kuruluşundan başlar; antik yer ayrı kayıt olarak `ic_not`ta önerilir. *(Emre, 13 Ekim 2026)*
+- `sahip` zinciri **kesintisiz**: her dönemin `t`si sonrakinin `f`si; sıfır uzunluk yok; ters yok.
+  Son dönemin `t`si = atlas noktasının bugünkü İLK sahiplik gününe (atlasta varsa) — ve o günden
+  sonrasına bu dosya KARIŞMAZ (atlas zinciri esastır). Atlasta yoksa zincir `1900-01-01`e kadar.
+  **Dikiş:** zincirin son sahibi atlasın ilk sahibi OLMAK ZORUNDA DEĞİL — el değiştirme tam atlas
+  başlangıcındaysa (Antalya 1207-03-05 Selçuklu) son dönem önceki sahiptir ve o gün için `olay` gerekir.
+  *(Parti 01 ölçtü: kural ilk yazıldığında bunu yasaklıyordu, yanlıştı.)*
+- **Süresi bilinmeyen kısa ele geçirme** (kaynak "geçici" der, bitiş vermez): dönem AÇILMAZ — uydurma bitiş
+  yazılmaz, boşluk da açılmaz. `olay` olarak yazılır, zincir eski sahiple sürer, `ic_not`ta beyan edilir.
+- **Dönem başlangıcı "en geç" tanıktan** (yeni sahip en geç X'te şehri tutuyor, el değiştirme günü yok):
+  `f = X` yazılabilir; önceki sahibin dönemi X'e uzar ve bu `ic_not`ta "f en geç tanıktan: …" diye BEYAN
+  edilir. Önceki sahibin son tanığı ile X arası uzunsa (> 1 kuşak) `__BOSLUK__` tercih edilir.
+- **Künye geçişi** (toprak el değiştirmez, künye değişir: Roma Cumhuriyeti → İmparatorluk, Roma → Bizans,
+  Emevî → Abbâsî): yine dönem sınırıdır ve `olay` ister — `k:"diger"`, `b:"künye geçişi: …"`.
+- **Takvim:** yukarıdaki TAKVİM kuralı aynen — Jülyen, ÇEVİRME YAPILMAZ. Hicrî tarihin mîlâdî karşılığını
+  kaynak veriyorsa o; vermiyorsa CLAUDE.md hicrî kuralı (kesişimin ilk günü) ve çevirinin kendisi `kaynak`ta
+  YAZILIR ("hicrî 488, çeviri: tablo takvimi, Jülyen").
+- `d` = `devletler.js` gerçek `id`. Sahibi bilinmiyorsa `__BOSLUK__` + `ic_not` (beyansız yaklaşıklık yok).
+  Sahip BİLİNİYOR ama künyesi yoksa: önerilen id + `kunye_yok:true` + `ic_not` (ad, ömür, kaynak) —
+  `__BOSLUK__` YAZILMAZ ("kimsenin değil" ≠ "künyesi açılmamış"). Denetim bunu uyarı sayar; künye açılınca işaret kalkar.
+  Dönem künyenin `f`/`t` ömrünü aşarsa denetim UYARIR (hayalet devlet) — sınıflandırma kuralı aynen geçerli.
+- Her sahiplik değişiminin (`sahip[i].t`) ±30 gün içinde bir `olay` maddesi olmalı (Değişmez 2'nin bu
+  dosyadaki eşi). `olay.k` `olaylar*.js` sözlüğünden (`fetih`, `kayip`, `kurulus`, `antlasma`, `isyan` …).
+- `kaynak` her `ilk`/`kur`/`ark`/`sahip`/`olay` öğesinde ZORUNLU; TDV birincil, Vikipedi tek dayanak olamaz,
+  bulunamadıysa `"bulunamadı"` yazılır. `tanik` ≤ 15 kelime alıntı.
+
+
