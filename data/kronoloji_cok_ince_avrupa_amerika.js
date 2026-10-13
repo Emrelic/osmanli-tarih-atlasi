@@ -252,7 +252,7 @@ window.KRONOLOJI_COK_INCE_AVRUPA_AMERIKA = [
   // ── ingiliz-guyanasi · İngiliz Guyanası ──
   // Kaynak: Tim Merrill (ed.), Guyana: A Country Study, Washington: Federal Research Division,
   // Library of Congress, 1992 (countrystudies.us/guyana/7-10.htm)
-  { t:"1838-01-01", k:"toplumsal", b:"Köleliğin tamamen kaldırılmasıyla eski köleler plantasyonları terk etmeye başladı",
+  { t:"1838-01-01", k:"toplumsal", tur:"sosyal", b:"Köleliğin tamamen kaldırılmasıyla eski köleler plantasyonları terk etmeye başladı",
     gun:"1838 (kaynak yıl verir)", yer:"İngiliz Guyanası",
     d:"Köle ticareti İngiliz İmparatorluğu'nda 1807'de kaldırılmış ama kölelik sürmüştü; 1838'de tam özgürlük gerçekleşti. Eski kölelerin çoğu hızla plantasyonları bırakıp kasabalara ve köylere yerleşti; iş gücü açığı Portekiz, Çin ve özellikle Hindistan'dan sözleşmeli işçi getirilmesine yol açtı.",
     kaynak:"LoC Country Study Guyana (1992), 'The Shortage of Labor' — «by 1838 total emancipation had been effected. The end of slavery had several ramifications. Most significantly, many former slaves rapidly departed the plantations.»",
@@ -273,7 +273,7 @@ window.KRONOLOJI_COK_INCE_AVRUPA_AMERIKA = [
     ic_not_t:"Kaynak yıl verir.",
     odak_kimlik:"ingiliz-guyanasi",
     taraflar:["ingiliz-guyanasi","venezuela-cumhuriyeti"], etiket:["konu-siyasi"] },
-  { t:"1905-12-01", k:"toplumsal", b:"Ruimveldt ayaklanması ('Kara Cuma') İngiliz Guyanası'nı sarstı",
+  { t:"1905-12-01", k:"toplumsal", tur:"sosyal", b:"Ruimveldt ayaklanması ('Kara Cuma') İngiliz Guyanası'nı sarstı",
     gun:"1 Aralık 1905", yer:"Georgetown",
     d:"Kasım 1905 sonunda ücret artışı isteyen Georgetown hamallarının grevi, öteki işçilerin dayanışma grevleriyle ülkenin ilk kent-kır işçi ittifakına dönüştü. 30 Kasım'da kalabalıklar sokaklara döküldü; 'Kara Cuma' diye anılan 1 Aralık'ta durum denetimden çıktı; Georgetown yakınındaki Ruimveldt plantasyonunda büyük bir hamal kalabalığı polis devriyesi ve topçu müfrezesinin dağılma emrine uymadı.",
     kaynak:"LoC Country Study Guyana (1992), 'Political and Social Changes in the 1900s' — «On November 30, crowds of people took to the streets of Georgetown, and by December 1, 1905, now referred to as Black Friday, the situation had spun out of control.»",

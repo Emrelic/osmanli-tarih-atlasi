@@ -30,13 +30,13 @@ window.KRONOLOJI_COK_500_1000 = [
     ic_not_t:"Hicrî 32 iki milâdî yıla düşer (652-53); ilk yıl yazıldı.",
     taraflar:["hulefa-yi-rasidin","hazar-kaganligi"], etiket:["konu-askeri"] },
 
-  { t:"0656-01-01", k:"catisma", b:"Cemel Vak'ası: Hz. Ali Basra önünde üstün geldi",
+  { t:"0656-01-01", k:"catisma", tur:"askeri", b:"Cemel Vak'ası: Hz. Ali Basra önünde üstün geldi",
     gun:"36 H. / 656 (TDV yıl verir)", yer:"Basra", yer_id:"Basra", kisiler:"Hz. Ali · Hz. Âişe",
     d:"Hz. Âişe'nin liderliğinde Basra'ya giden muhaliflerle Hz. Ali arasındaki çarpışmada birçok müslüman öldü, Hz. Ali galip geldi.",
     kaynak:"TDV: hulefa-yi-rasidin — 'Cemel Vak‘ası vuku buldu (36/656)'",
     taraflar:["hulefa-yi-rasidin"], etiket:["konu-askeri"] },
 
-  { t:"0680-10-10", k:"catisma", b:"Kerbelâ: Hz. Hüseyin ve beraberindekiler katledildi",
+  { t:"0680-10-10", k:"catisma", tur:"askeri", b:"Kerbelâ: Hz. Hüseyin ve beraberindekiler katledildi",
     gun:"10 Muharrem 61 / 10 Ekim 680", yer:"Kerbelâ", yer_id:"Kerbelâ", kisiler:"Hz. Hüseyin · Ubeydullah b. Ziyâd",
     d:"Kûfe'ye gelmekte olan Hz. Hüseyin'in yolu Ubeydullah b. Ziyâd'ın kuvvetlerince kesildi; Kerbelâ'daki çarpışmada Hz. Hüseyin ve beraberindekilerin tamamına yakını öldürüldü.",
     kaynak:"TDV: emeviler — '10 Muharrem 61 (10 Ekim 680) Cuma günü Kerbelâ’da'",
@@ -79,7 +79,7 @@ window.KRONOLOJI_COK_500_1000 = [
     kaynak:"TDV: tolunogullari — 'Dımaşk’ta bulunduğu sırada hizmetçileri tarafından geceleyin uyurken öldürüldü (282/896)'",
     taraflar:["tolunogullari"], etiket:["konu-siyasi"] },
 
-  { t:"0911-01-01", k:"toprak-kayip", b:"Sâmânîler Zerenc'i aldı; Saffârîler'in Leysî kolu sona erdi",
+  { t:"0911-01-01", k:"toprak-kayip", tur:"siyasi", b:"Sâmânîler Zerenc'i aldı; Saffârîler'in Leysî kolu sona erdi",
     gun:"Receb 298 / Mart 911 (gün bilinmiyor)", yer:"Zerenc", yer_id:"Zerenc (Sîstan)",
     d:"Emîr Ahmed'in gönderdiği Sâmânî ordusu Zerenc'i ele geçirdi; Muhammed ve Muaddel tutuklanıp Bağdat'a gönderildi, Sîstan Sâmânî idaresine girdi.",
     kaynak:"TDV: saffariler — 'Böylece Saffârîler’in Leysîler denilen kolu sona erdi (Receb 298 / Mart 911)'",
@@ -91,7 +91,7 @@ window.KRONOLOJI_COK_500_1000 = [
     kaynak:"TDV: ihsidiler — 'Muhammed b. Tuğç Dımaşk’a gitti ve orada öldü (Zilhicce 334 / Temmuz 946)'",
     taraflar:["ihsidi","hamdani-halep"], etiket:["konu-siyasi"] },
 
-  { t:"0958-01-01", k:"toprak-kayip", b:"Büveyhî Muizzüddevle Musul'u aldı; Nâsırüddevle Halep'e sığındı",
+  { t:"0958-01-01", k:"toprak-kayip", tur:"siyasi", b:"Büveyhî Muizzüddevle Musul'u aldı; Nâsırüddevle Halep'e sığındı",
     gun:"347 H. / 958 (TDV yıl verir)", yer:"Musul", yer_id:"Musul", kisiler:"Nâsırüddevle · Muizzüddevle · Seyfüddevle",
     d:"Yıllık vergi konusunda anlaşılamayınca Muizzüddevle Musul ve Nusaybin'i ele geçirdi; Nâsırüddevle kardeşi Seyfüddevle'ye sığındı, vergi taahhüdüyle Musul'a döndü.",
     kaynak:"TDV: hamdaniler — 'Nâsırüddevle Halep emîri olan kardeşi Seyfüddevle’ye sığındı (347/958)'",

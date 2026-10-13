@@ -26,7 +26,7 @@
 window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
 
 // ── İNUİT (23.586 yerleşim-yıl · künye içi 4: 1281 · 1721 · 1867 · 1880) ──
-{ t:"1576-01-01", k:"temas", b:"Frobisher'in seferi Baffin kıyısında İnuit ile karşılaştı — ilk kayıtlı İngiliz-İnuit teması",
+{ t:"1576-01-01", k:"temas", tur:"diplomasi", b:"Frobisher'in seferi Baffin kıyısında İnuit ile karşılaştı — ilk kayıtlı İngiliz-İnuit teması",
   gun:"Ağustos 1576 sonu (kaynak gün vermez)",
   ic_not_t:"DCB: kıyı 28 Temmuz 1576'da görüldü; İnuit ile ticaret 'late August'. Gün yok → yıl.",
   yer:"Frobisher Körfezi (Baffin Adası)", yer_kon:[63.75,-68.5], kisiler:"Martin Frobisher",
@@ -42,7 +42,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   kaynak:"The Canadian Encyclopedia (Historica Canada), 'Nain': \"chosen by the MORAVIANS in 1771 as their first mission\"",
   taraflar:["inuit"], etiket:["konu-din","konu-ekonomi"] },
 
-{ t:"1771-07-17", k:"catisma", b:"Bloody Falls katliamı — Hearne'ün Dene kılavuzları Coppermine ağzında İnuit'e saldırdı",
+{ t:"1771-07-17", k:"catisma", tur:"askeri", b:"Bloody Falls katliamı — Hearne'ün Dene kılavuzları Coppermine ağzında İnuit'e saldırdı",
   gun:"17 Temmuz 1771 (DCB)",
   yer:"Bloody Falls (Coppermine Irmağı)", yer_kon:[67.745,-115.37], kisiler:"Samuel Hearne, Matonabbee",
   d:"Hudson's Bay Company adına Coppermine Irmağı'na ulaşan Samuel Hearne'e Matonabbee önderliğinde Chipewyan (Dene) kılavuzlar eşlik ediyordu. Irmağın denize yakın bir çağlayanında kamp kurmuş bir İnuit topluluğu, Dene savaşçılarının baskınında katledildi. Hearne olaya seyirci kaldığını yazar. Olay, Dene ile İnuit arasındaki eski düşmanlığın belgelenmiş en ağır örneğidir.",
@@ -66,7 +66,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["kri"], etiket:["konu-diplomasi","konu-toprak"] },
 
 // ── ŞOŞONİ (2.350 · künye içi 3: 1281 · 1863-07-02 · 1868) ──
-{ t:"1805-08-13", k:"temas", b:"Lewis ve Clark seferi Şoşoni ile karşılaştı — Sacagawea kardeşi Cameahwait'i buldu",
+{ t:"1805-08-13", k:"temas", tur:"diplomasi", b:"Lewis ve Clark seferi Şoşoni ile karşılaştı — Sacagawea kardeşi Cameahwait'i buldu",
   gun:"13 Ağustos 1805 ilk temas · 17 Ağustos Camp Fortunate'te buluşma (seferin günlükleri)",
   yer:"Lemhi Geçidi / Beaverhead", yer_kon:[45.0,-113.3], kisiler:"Meriwether Lewis, Cameahwait, Sacagawea",
   d:"Kıta Bölünme Hattı'nı geçmek için ata ihtiyaç duyan sefer, Lewis'in 13 Ağustos'ta Lemhi Şoşonileriyle kurduğu temasla bunu sağladı. 17 Ağustos'ta Camp Fortunate'te seferin tercümanı Sacagawea, Şoşoni şefi Cameahwait'in kız kardeşi olduğunu anladı. Şoşoniler seferi atlar ve Bitterroot dağlarını aşacak bir kılavuzla donattı.",
@@ -74,7 +74,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   ic_not_d:"Günlük sayfaları arama özeti üzerinden okundu, tam metin açılmadı.",
   taraflar:["sosoni"], etiket:["konu-kesif","konu-diplomasi"] },
 
-{ t:"1863-01-29", k:"catisma", b:"Bear River katliamı — Connor'un birlikleri Şoşoni kampını yok etti",
+{ t:"1863-01-29", k:"catisma", tur:"askeri", b:"Bear River katliamı — Connor'un birlikleri Şoşoni kampını yok etti",
   gun:"29 Ocak 1863 (NPS)",
   yer:"Bear River (Preston yakını, Idaho)", yer_kon:[42.10,-111.91], kisiler:"Albay Patrick E. Connor, Bear Hunter",
   d:"1862-63 kışında göçmen yollarına yapılan baskınlara karşılık olarak Albay Patrick Connor komutasındaki Kaliforniya gönüllüleri, Fort Douglas'tan karda yola çıktı ve Şef Bear Hunter'ın Bear River kıyısındaki kışlık kampına şafakta saldırdı. Kuzeybatı Şoşonilerinden kadın ve çocuklar dahil yaklaşık 250 kişi öldürüldü. Batıdaki yerli halklara karşı en kanlı tek günlük saldırılardan biridir; ardından gelen Fort Bridger Antlaşması'nın (Temmuz 1863) zeminini hazırladı.",
@@ -99,7 +99,7 @@ window.KRONOLOJI_COK_INCE_KUZEY_AMERIKA = [
   taraflar:["creek-konfederasyonu"], etiket:["konu-toprak","konu-siyasi"] },
 
 // ── HAYDA (1.155 · künye içi 3: 1281 · 1858 · 1862) ──
-{ t:"1774-01-01", k:"temas", b:"Juan Pérez'in seferi Haida Gwaii açıklarında Hayda ile karşılaştı — ilk Avrupa teması",
+{ t:"1774-01-01", k:"temas", tur:"diplomasi", b:"Juan Pérez'in seferi Haida Gwaii açıklarında Hayda ile karşılaştı — ilk Avrupa teması",
   gun:"Temmuz 1774 (DCB: kara 15 Temmuz'da görüldü, Hayda ile karşılaşma ertesi gün)",
   ic_not_t:"Karşılaşmanın günü DCB'de göreli ('the next day') verilir; kesin gün yazılmadı.",
   yer:"Haida Gwaii (Queen Charlotte Adaları) kuzeyi", yer_kon:[54.2,-133.0], kisiler:"Juan Josef Pérez Hernández",
