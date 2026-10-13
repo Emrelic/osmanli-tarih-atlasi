@@ -54,8 +54,8 @@
  "parti-emrelic-0082": {
   "H-0059": {
    "hukum": "cozuldu",
-   "not": "Seçenek 🅐: iç Delta 14 noktaya isg fransa-cumhuriyet 1798-07-22→1801-06-27 eklendi (Dessûk, Kafrüşşeyh, Tanta, Mahalletülkübrâ, Mansûre, Mît Gamr, Şibînülkûm, Benhâ, Fâkûs, Menzile, Katye, Bürüllüs, Demenhûr, Ebûkîr), 'gün komşudan: Kahire 1798-07-22 · NAPO-2' ve bitiş 'komşudan Kahire 1801-06-27 · NAPO-3' beyanıyla; noktaların kendi günü bulunamadı. Bilbîs/Sâlihiyye zaten kendi kaynaklı günleriyle SIRADA-C'de yazılıydı. Not: Kahire 1798-07-22 'kapitülasyon' günüdür; Ebûkîr kıyı kalesi için Delta ile aynı süreç varsayımı beyanda.",
-   "delil": "data/yerlesimler_afrika.js (14 satır) · denetim/AKDENIZ-ARAP-0082-CEVAP.md H-0059"
+   "not": "Seçenek 🅐 (Kahire komşu günü). Rebase sırasında NAPOLYON-NOKTA (73c487997/9c13cda59) aynı Delta noktalarının 12'sine ZATEN isg fransa-cumhuriyet yazmıştı (komşu: Rahmaniye 1798-07-10, bitiş 1801-05-09, Emre onayı 13 Eki) — çift pencere yazmamak için o 12 origin tarafında BIRAKILDI (Dessûk, Kafrüşşeyh, Tanta, Mahalletülkübrâ, Mansûre, Mît Gamr, Şibînülkûm, Benhâ, Fâkûs, Menzile, Bürüllüs, Demenhûr). Benim yazdığım yalnız KATYE ve EBÛKÎR (NAPOLYON bu ikisini 'günü yok, senin-kararin' diye bırakmıştı): isg 1798-07-22→1801-06-27, 'gün komşudan: Kahire · NAPO-2/NAPO-3'. UYARI: Katye (Sina kenarı, Şubat 1799 Suriye seferi güzergâhı) ve Ebûkîr (kıyı kalesi, Temmuz 1799 muharebesi) için Kahire'nin günü çok erken olabilir — kendi giriş günleri bulunamadı. İki Delta komşu seçimi (Rahmaniye 07-10 / Kahire 07-22) tutarsız: Emre bir kez karar versin.",
+   "delil": "data/yerlesimler_afrika.js (Katye, Ebûkîr) · denetim/KUTU-HUKUM-NAPOLYON-NOKTA-1013.json · denetim/AKDENIZ-ARAP-0082-CEVAP.md H-0059"
   }
  },
  "parti-emrelic-0085": {
