@@ -914,12 +914,12 @@ window.OLAYLAR_P0055 = [
   d:"Mısır'ı işgal eden Fransız ordusu Suriye'ye yürürken Sina kıyısındaki Arîş'i ele geçirdi.",
   kaynak:"aris", duygu:["😔"] },
 
-{ t:"1799-11-17", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
+{ t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
   b:"Arîş'in Fransızlardan geri alınması",
-  gun:"17 Kasım 1799",
+  gun:"28 Aralık 1799",
   yer:"El-Arîş, Sina", yer_id:"El-Arîş",
-  d:"Napolyon'un Şubat 1799'da işgal ettiği Arîş, aynı yılın Kasımında Osmanlı kuvvetlerince geri alındı.",
-  kaynak:"aris", duygu:["🎉"] },
+  d:"Napolyon'un Şubat 1799'da işgal ettiği Arîş, aynı yılın Aralık sonunda Sadrazam Yûsuf Ziyâ Paşa'nın ordusunca geri alındı.",
+  kaynak:"yusuf-ziya-pasa (TDV): sadrazam 28 Aralık 1799'da Arîş'in muhasarasını zaferle sonuçlandırdı · Fondation Napoléon, Chronologie de la Correspondance générale de Napoléon Bonaparte t.2 (napoleon.org): 29-30 DÉCEMBRE « Les Turcs prennent le fort d'El-Arich » · ÇELİŞKİ: aris (TDV) 17 Kasım 1799 diyor (TDV kendi içinde çelişiyor; Aralık sonunu iki kaynak veriyor, 17 Kasım bu maddeden çıkarıldı) · denetim/YAMA-SEFER-NAPOLYON-0918.json", duygu:["🎉"] },
 
 ];
 
