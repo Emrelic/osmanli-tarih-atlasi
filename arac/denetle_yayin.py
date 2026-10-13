@@ -106,18 +106,30 @@ def _damga_no(metin):
     return int(m.group(1)) if m else None
 
 
-def damga_denetimi(gecmis=30):
-    """(gecmis_ihlaller, calisma_agaci_ihlali) — ikisi de listedir."""
+def damga_denetimi(gecmis=30, taban="origin/main"):
+    """(gecmis_ihlaller, calisma_agaci_ihlali) — ikisi de listedir.
+
+    DOSYA BAŞINA DAMGA (13 Ekim 2026): ① kapsam `js/ css/` + `data/*.js`e genişledi — `index.html`de
+    ETİKETİ olmayan tembel yüklenen veri dosyaları (kaynaklı halka, ek okuma, petek gövde…)
+    yalnız GENEL damgayla (window.SURUM) önbellek kırar; değişince o da artmalı.
+    ② `taban..HEAD` arasındaki commit'ler henüz yayında değil — genel damgayı push kapısı
+    SONRADAN yazar ⇒ bunlar atlanır (yoksa her oturumda yanlış alarm). ③ Eski "çalışma ağacında
+    js/css değişmiş, damga aynı" uyarısı KALKTI: etiket damgası artık içerikten türediği için
+    aynı hata (kod değişti, damga eski) ana denetimde diskteki dosyayla DOĞRUDAN yakalanır."""
     log = _git("log", "--format=%H", "-n", str(gecmis + 1))
     if log is None:
         print("UYARI: git log çalıştırılamadı — damga denetimi ATLANDI")
         return None, None
     commitler = log.split()
+    bekleyen = set((_git("rev-list", taban + "..HEAD") or "").split())
     ihlal = []
     for i in range(len(commitler) - 1):
         c, p = commitler[i], commitler[i + 1]
+        if c in bekleyen:
+            continue
         dokunan = [l.strip() for l in (_git("show", "--name-only", "--format=", c) or "").splitlines()
-                   if l.strip().startswith(("js/", "css/"))]
+                   if l.strip().startswith(("js/", "css/")) or
+                   (l.strip().startswith("data/") and l.strip().endswith(".js"))]
         if not dokunan:
             continue
         yeni = _damga_no(_git("show", c + ":index.html"))
@@ -135,17 +147,7 @@ def damga_denetimi(gecmis=30):
                 bekleme = -1        # hiç artmadı
             ihlal.append((c[:7], eski, dokunan, bekleme))
 
-    # --- şu anki çalışma ağacı: commit'ten ÖNCE yakalar --------------------
-    simdi = []
-    durum = _git("status", "--porcelain") or ""
-    kod = [l[3:].strip().strip('"') for l in durum.splitlines()
-           if l[3:].strip().strip('"').startswith(("js/", "css/"))]
-    if kod:
-        d_simdi = _damga_no(io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read())
-        d_head = _damga_no(_git("show", "HEAD:index.html"))
-        if d_simdi is not None and d_head is not None and d_simdi <= d_head:
-            simdi = [(d_head, kod)]
-    return ihlal, simdi
+    return ihlal, []
 
 
 # ============================================================================
@@ -1597,13 +1599,13 @@ def main():
         print("     %s damgası içerikle uyuşmuyor → py arac/surum_damgala.py" % _y)
 
     # --- sürüm damgası ARTTI MI (r83 vakası) ---------------------------------
-    gecmis_ihlal, simdi_ihlal = damga_denetimi(args.gecmis)
+    gecmis_ihlal, _ = damga_denetimi(args.gecmis)
     damga_ihlali = False
     if gecmis_ihlal is not None:
         takili = [x for x in gecmis_ihlal if x[3] == -1]
-        durum5 = "✓" if not simdi_ihlal and not takili else "✗"
-        print("%s  damga artışı: son %d commit'te js/css değiştiren %d commit damgayı "
-              "arttırmamış" % (durum5, args.gecmis, len(gecmis_ihlal)))
+        durum5 = "✓" if not takili else "✗"
+        print("%s  damga artışı: son %d commit'te (yayında olan) js/css/data-js değiştiren %d commit "
+              "genel damgayı arttırmamış" % (durum5, args.gecmis, len(gecmis_ihlal)))
         for c, eski, dokunan, bekleme in gecmis_ihlal:
             nasil = ("HÂLÂ TAKILI" if bekleme == -1 else
                      "%d commit sonra düzeldi" % bekleme)
@@ -1611,15 +1613,8 @@ def main():
                 sorted({d.split("/")[0] for d in dokunan})), nasil))
         if takili:
             damga_ihlali = True
-            print("     → HEAD'de hâlâ eski damga: py arac/surum_damgala.py")
-        if simdi_ihlal:
-            damga_ihlali = True
-            for eski, kod in simdi_ihlal:
-                print("✗  ÇALIŞMA AĞACI: %d kod dosyası değişmiş, damga hâlâ r%d"
-                      % (len(kod), eski))
-                for k in kod[:8]:
-                    print("     %s" % k)
-                print("     → COMMIT ETMEDEN ÖNCE: py arac/surum_damgala.py")
+            print("     → yayında genel damga hâlâ eski: push kapısı `surum_damgala.py --yayin` yazar "
+                  "(kapıyı atlayıp itildiyse: py arac/surum_damgala.py --yayin)")
 
     if args.ayrinti:
         print("\nizlenen varlıklar:")
