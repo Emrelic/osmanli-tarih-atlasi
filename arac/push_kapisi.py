@@ -163,6 +163,28 @@ def olc(dosyalar, kabul=None):
         shutil.rmtree(yer, ignore_errors=True)
 
 
+def damga_yaz():
+    """GENEL sürüm damgasını (window.SURUM) kapıda, rebase'ten SONRA yazar ve commit eder.
+
+    Oturumlar yalnız dosya-başı damgayı (içerikten türeyen, çatışmasız) koşar; her yayında
+    değişen tek satırı yalnız bu kapı yazar — kapı kilitle sıralı olduğundan iki yazıcı olmaz.
+    True = damga commit'i eklendi."""
+    if git("diff", "--quiet", "--", "index.html", kontrol=False).returncode != 0 or \
+       git("diff", "--cached", "--quiet", "--", "index.html", kontrol=False).returncode != 0:
+        raise Red("index.html'de yazılmamış değişiklik var — kapı damgayı üstüne yazamaz; "
+                  "önce commit et ya da geri al")
+    r = subprocess.run([PY, "arac/surum_damgala.py", "--yayin"], cwd=KOK, capture_output=True,
+                       text=True, encoding="utf-8", errors="replace")
+    print("   damga: " + (r.stdout.strip().splitlines() or ["(çıktı yok)"])[-1])
+    if r.returncode != 0:
+        raise Olculemedi("surum_damgala.py --yayin çıkış %d: %s" % (r.returncode, r.stdout.strip()[-300:]))
+    if git("diff", "--quiet", "--", "index.html", kontrol=False).returncode == 0:
+        return False
+    git("add", "--", "index.html")
+    git("commit", "-q", "-m", "damga: dosya-basi + genel sürüm damgası (push kapısı)", "--", "index.html")
+    return True
+
+
 def tur(ar):
     print("② fetch")
     git("fetch", "origin", "--quiet")
@@ -183,6 +205,9 @@ def tur(ar):
         print("itilecek commit yok.")
         return True
     dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
+    if any(f.startswith(SITE_ONEK) for f in dosyalar):
+        if damga_yaz():
+            dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
     print("③ %s commit · %d dosya" % (ileri, len(dosyalar)))
     for f in dosyalar[:20]:
         print("      " + f)
