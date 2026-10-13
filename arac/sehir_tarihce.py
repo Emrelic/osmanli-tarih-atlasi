@@ -154,7 +154,11 @@ def denetle_kayitlar(K, sessiz=False):
             if j + 1 < len(S) and p["t"] != S[j + 1].get("f"):
                 ihlal.append(f"{yer}: kopukluk {p['t']} → {S[j + 1].get('f')}")
             d = p.get("d")
-            if d == "osmanli":
+            if d == "__YOK__":
+                # yerleşim bu dönemde YOK (terk/yıkım → yeniden iskân); __BOSLUK__ ("sahibi bilinmiyor") DEĞİL
+                if not (p.get("ic_not") or "").strip():
+                    ihlal.append(f"{yer}: __YOK__ beyansız (ic_not yok)")
+            elif d == "osmanli":
                 # atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır — devletler.js'te kaydı YOK, kasıtlı.
                 # Bu dosyada `osmanli` = atlasın `d:` dönemi (aktarımda `d:`ye dönüşür).
                 if p.get("kunye_yok"):
@@ -198,6 +202,8 @@ def denetle_kayitlar(K, sessiz=False):
         if S and son and atlas_ad and S[-1].get("t") == son and not ayni_sahip:
             gecisler.append((son, S[-1].get("d"), f"{atlas_sahip} (atlas)"))
         for t, a, b in gecisler:
+            if "__YOK__" in (a, b):
+                continue   # terk/yeniden iskân çoğu zaman günü olmayan süreçtir: olay ZORLANMAZ (uydurma olur)
             g = gun_no(t)
             if g is not None and not any(abs(g - x) <= OLAY_PENCERE_GUN for x in og):
                 if b.endswith("(atlas)") and (k.get("dikis_beyan") or "").strip():

@@ -910,6 +910,11 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
 - `d` = `devletler.js` gerçek `id`. Sahibi bilinmiyorsa `__BOSLUK__` + `ic_not` (beyansız yaklaşıklık yok).
   Sahip BİLİNİYOR ama künyesi yoksa: önerilen id + `kunye_yok:true` + `ic_not` (ad, ömür, kaynak) —
   `__BOSLUK__` YAZILMAZ ("kimsenin değil" ≠ "künyesi açılmamış"). Denetim bunu uyarı sayar; künye açılınca işaret kalkar.
+- **`d:"__YOK__"`** — yerleşim o dönemde YOK (terk, yıkım; sonra yeniden iskân). `__BOSLUK__`tan farklıdır:
+  boşluk "şehir var, sahibi bilinmiyor", `__YOK__` "şehir yok". Bölgenin sahibi YAZILMAZ (şehir yokken
+  sahibi de yoktur). `kaynak` + `ic_not` zorunlu; terk/iskân geçişi için `olay` ARANMAZ (günü olmayan
+  süreç — zorlamak uydurma olay üretir). Aktarımda motorun `kur`/`bit` penceresine çevrilir.
+  *(Parti 10, Rusçuk: saha VII–XIV. yy terk edilmişti, zincir bölgenin sahibini taşıyordu.)*
 - **`d:"osmanli"`** ayrılmış kimliktir: atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır
   (`devletler.js`te ve `BOYALAR`da `osmanli` YOK — ölçüldü, kasıtlı). Burada yazılan `osmanli` dönemi
   aktarımda `d:` dönemine dönüşür; `kunye_yok` İŞARETLENMEZ. *(Parti 04 buldu.)*
