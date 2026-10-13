@@ -12586,8 +12586,9 @@ var EKOKUMA_TUR = {
   // `savas_t` ile kronoloji maddesinin t'sine bağlanır; `tur` alanı ("meydan"…) başka anlamda
   // olduğundan burada sarmalanıp tur:"savas-kunye" verilir. `uyari`/`bag_ekokuma` iç alandır, basılmaz.
   "savas-kunye":       { etiket: "⚔️ Savaş künyesi", kaynak: function () {
-                           return (window.SAVAS_KUNYE_1 || []).map(function (k) {
-                             return Object.assign({}, k, { tur: "savas-kunye", olay: [k.savas_t], kesinlik: "kesin" });
+                           // 13 Ekim 2026 — SAVAS-2: 2. parti (data/savas_kunye_2.js, SAVAS_KUNYE_2) birlikte okunur.
+                           return (window.SAVAS_KUNYE_1 || []).concat(window.SAVAS_KUNYE_2 || []).map(function (k) {
+                             return Object.assign({}, k, { tur: "savas-kunye", olay: [k.savas_t].concat(k.savas_t_ek || []), kesinlik: "kesin" });
                            });
                          } }
 };
@@ -12966,10 +12967,13 @@ function ekKartHtml(k) {
     // "yok" = o silâh/ayrım o savaşta anlamsız → basılmaz; "bilinmiyor" kaynakta yok → açıkça yazılır.
     h += "<h4>" + ekEsc(k.baslik) + "</h4>";
     if (k.tarih_metin) h += '<p class="ek-alt">' + ekEsc(k.tarih_metin) + "</p>";
+    // 13 Ekim 2026 — SAVAS-2: `celiski` = kaynakların (TDV maddeleri arası / TDV ↔ atlas) AÇIKÇA beyan edilen
+    // çelişkisi; okura gösterilir. `uyari` iç not olarak kalır (basılmaz).
+    if (k.celiski) h += '<p class="ek-alt"><b>Kaynak çelişkisi:</b> ' + ekEsc(k.celiski) + "</p>";
     (k.taraflar || []).forEach(function (t) {
       h += "<p><b>" + ekEsc(t.ad) + "</b></p>";
       if (t.komutan) h += "<p>Komutan: " + ekEsc(t.komutan) + "</p>";
-      var kv = [["mevcut_toplam", "Toplam"], ["piyade", "Piyade"], ["suvari", "Süvari"], ["top", "Top"], ["tufek", "Tüfek"], ["gemi", "Gemi"]]
+      var kv = [["mevcut_toplam", "Toplam"], ["piyade", "Piyade"], ["suvari", "Süvari"], ["top", "Top"], ["tufek", "Tüfek"], ["makineli_tufek", "Makineli tüfek"], ["tank", "Tank"], ["ucak", "Uçak"], ["gemi", "Gemi"]]
         .filter(function (a) { return t[a[0]] != null && t[a[0]] !== "yok"; })
         .map(function (a) { return a[1] + ": " + (t[a[0]] === "bilinmiyor" ? "bilinmiyor" : String(t[a[0]])); });
       if (kv.length) h += '<p class="ek-alt">' + ekEsc(kv.join(" · ")) + "</p>";

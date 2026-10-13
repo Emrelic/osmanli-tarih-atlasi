@@ -547,11 +547,11 @@
     },
     {
      "yol": "data/savaslar.js",
-     "sha": "2ffa4128da2c3e81",
-     "bayt": 158956
+     "sha": "19e4c92134e4fb3f",
+     "bayt": 158879
     }
    ],
-   "bayt": 1900594
+   "bayt": 1900517
   },
   {
    "paket": "data/paket_13.js",
@@ -1291,8 +1291,8 @@
     },
     {
      "yol": "data/savas_kunye_1.js",
-     "sha": "05ad7d5546d018d5",
-     "bayt": 39016
+     "sha": "b5b51e85916841f3",
+     "bayt": 42748
     },
     {
      "yol": "data/seferler_p0037.js",
@@ -1335,7 +1335,7 @@
      "bayt": 17708
     }
    ],
-   "bayt": 264408
+   "bayt": 268140
   },
   {
    "paket": "data/paket_27.js",

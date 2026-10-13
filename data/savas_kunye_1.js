@@ -103,7 +103,7 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: osman-i (DİA)", bag_ekokuma:"savas-koyunhisar-bapheus-1302" },
 
-{ id:"kunye-pelekanon-1329", savas_ad:"Pelekanon (Maltepe)", savas_t:"1329-06-10", tur:"meydan",
+{ id:"kunye-pelekanon-1329", savas_ad:"Pelekanon (Maltepe)", savas_t:"1329-06-10", savas_t_ek:["1329-06-01"], tur:"meydan",
   baslik:"Pelekanon Savaşı (1329)",
   tarih_metin:"1 Haziran 1329 ve ertesi gün (Kantakuzenos'un hatıratına göre)",
   uyari:"savaslar.js kaydı t:1329-06-10 taşıyor; EKOKUMA_SAVAS3 kartı '1 Haziran ve ertesi gün' diyor — 9 günlük fark bu oturumda çözülmedi, bkz. dosya başı ③(d).",
@@ -127,6 +127,7 @@ window.SAVAS_KUNYE_1 = [
   baslik:"Rovine (Argeş) Savaşı (17 Mayıs 1395)",
   tarih_metin:"17 Mayıs 1395 (TDV I. Bayezid maddesi) · TDV Eflak maddesi 1394 der",
   uyari:"iki TDV maddesi (bayezid-i · eflak) savaşın yılında ayrılıyor (1395/1394); taraf seçilmedi (EKOKUMA_SAVAS3'ün kendi notu).",
+  celiski:"TDV'nin iki maddesi savaşın yılında ayrışıyor: bayezid-i 17 Mayıs 1395, eflak 1394. Biri seçilmedi.",
   taraflar:[
     { ad:"Osmanlı Devleti", devlet_id:"osmanli", komutan:"Yıldırım Bayezid", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
     { ad:"Eflak Voyvodalığı", devlet_id:"eflak", komutan:"Voyvoda Mircea ('Koca Mircea'; Osmanlı kaynaklarında 'Mirci', 1386-1418)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
@@ -187,7 +188,7 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: gedik-ahmed-pasa · TDV: ii-bayezid · TDV: otranto-seferi", bag_ekokuma:"savas-otranto-1480-1481" },
 
-{ id:"kunye-caldiran-1514", savas_ad:"Çaldıran", savas_t:"1514-08-23", tur:"meydan",
+{ id:"kunye-caldiran-1514", savas_ad:"Çaldıran", savas_t:"1514-08-23", savas_t_ek:["1514-08"], tur:"meydan",
   baslik:"Çaldıran Savaşı (23 Ağustos 1514)",
   tarih_metin:"23 Ağustos 1514",
   taraflar:[
@@ -199,7 +200,7 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-mercidabik-1516", savas_ad:"Mercidâbık", savas_t:"1516-08-24", tur:"meydan",
   baslik:"Mercidâbık Muharebesi (24 Ağustos 1516)",
   tarih_metin:"24 Ağustos 1516, pazar · 25 Receb 922",
-  uyari:"savaslar.js'te aynı t için 'Mercidabık' (aksansız) adıyla ikinci bir kayıt daha var, bkz. dosya başı ③(b).",
+  uyari:"13 Ekim 2026: savaslar.js'teki aksansız 'Mercidabık' mükerrer kaydı silindi (seri:memluk aksanlı kayda taşındı); künye kalan 'Mercidâbık' kaydına bağlı.",
   taraflar:[
     { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Yavuz Sultan Selim · Vezîriâzam Hadım Sinan Paşa · Anadolu beylerbeyi Zeynel Paşa · Rumeli beylerbeyi Yûsuf (Küçük Sinan) Paşa · Şehsuvaroğlu Ali Bey", mevcut_toplam:"80.000 dolayında", piyade:"bilinmiyor", suvari:"bilinmiyor", top:300, tufek:12000, gemi:"yok", notlar:"300 top arabası; 12.000 tüfekli yeniçeri. Bazı kaynaklar 120.000'e varan rakam verir, TDV 80.000 civarını daha olası bulur." },
     { ad:"Memlük ordusu", komutan:"Sultan Kansu Gavri · Şam nâibi Sıbay · Halep nâibi Hayır Bey", mevcut_toplam:"70.000-80.000 dolayında", piyade:"bilinmiyor", suvari:"ağırlıklı (oran bilinmiyor)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"yaklaşık 2000 asker öldürüldü", notlar:"TDV: ateşli silahlarını savaş düzeninin parçası saymayıp etkili kullanmadılar." }
@@ -209,7 +210,7 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-ridaniye-1517", savas_ad:"Ridâniye", savas_t:"1517-01-22", tur:"meydan",
   baslik:"Ridâniye Savaşı (22 Ocak 1517)",
   tarih_metin:"22 Ocak 1517 · 28 Zilhicce 922",
-  uyari:"savaslar.js'te aynı t için 'Ridaniye' (aksansız) adıyla ikinci bir kayıt daha var, bkz. dosya başı ③(b).",
+  uyari:"13 Ekim 2026: savaslar.js'teki aksansız 'Ridaniye' mükerrer kaydı silindi (seri:memluk aksanlı kayda taşındı); künye kalan 'Ridâniye' kaydına bağlı.",
   taraflar:[
     { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Yavuz Sultan Selim · Vezîriâzam Hadım Sinan Paşa · Mustafa Paşa · Küçük Sinan Paşa · yeniçeri ağası Ayas Ağa", mevcut_toplam:"son yoklamada 20.000", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Topçu ve tüfekçi ateşinin Memlük sol kanadını dağıttığı yazılır, sayı verilmiyor." },
     { ad:"Memlük ordusu", komutan:"Sultan Tomanbay · Canbirdi Gazâlî", mevcut_toplam:"yaklaşık 20.000", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"yok", gemi:"yok", kayip:"yaklaşık 4000", notlar:"Toplarının bir kısmı kuma gömülmüştü, hattın dışına çıkınca kullanılamadı." }
@@ -225,12 +226,13 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: mohac-muharebesi (DİA 30, 2020, s. 232-235)", bag_ekokuma:"savas-mohac-1526" },
 
-{ id:"kunye-preveze-1538", savas_ad:"Preveze", savas_t:"1538-09-28", tur:"deniz",
+{ id:"kunye-preveze-1538", savas_ad:"Preveze", savas_t:"1538-09-28", savas_t_ek:["1538-09"], tur:"deniz",
   baslik:"Preveze Deniz Muharebesi (27-28 Eylül 1538)",
   tarih_metin:"27-28 Eylül 1538 · asıl çarpışma 4 Cemâziyelevvel 945 (28 Eylül)",
+  celiski:"TDV preveze-deniz-muharebesi ile barbaros-hayreddin-pasa maddeleri ittifak donanmasının büyüklüğünde ayrışır: 140 kalyon + 168 kadırga + 55.000 asker (konu maddesi) ↔ '208 veya 246 gemi' (biyografi maddesi). Osmanlı filosunun 122 gemisinde ikisi hemfikir. Ayrıntılı ve kaynaklı konu maddesi esas alındı; öteki rakam kayıtta açıkça duruyor.",
   taraflar:[
-    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Barbaros Hayreddin Paşa · Turgut Reis · Sâlih Reis · Seydi Ali Reis", mevcut_toplam:"yaklaşık 20.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:122, notlar:"122 kadırga." },
-    { ad:"Haçlı ittifakı donanması (İspanya · Papalık · Venedik · Portekiz · Malta · Ceneviz)", komutan:"Andrea Doria · Vincenzo Cappello (Venedik) · Marco Grimani (Papalık)", mevcut_toplam:"yaklaşık 55.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yaklaşık 140 kalyon + 168 kadırga", kayip:"kaynaklara göre 128 kalyon", notlar:"Gemi/asker sayıları kaynaklara göre değişir (TDV'nin yaklaşık değerleri)." }
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Barbaros Hayreddin Paşa · Turgut Reis · Sâlih Reis · Seydi Ali Reis", mevcut_toplam:"yaklaşık 20.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:122, kayip:"TDV barbaros-hayreddin-pasa: 'Türk donanmasının kayıpları oldukça azdı' (sayı yok)", notlar:"122 kadırga (iki TDV maddesi de 122 der; 20.000 asker yalnız preveze-deniz-muharebesi maddesinde). Barbaros 40 kadırgalık donanmayla İstanbul'dan çıkmış, sonradan 90 gemilik ek donanma ve Sâlih Reis'in 20 gemilik Mısır filosu katılmıştı. Kanat düzeni iki maddede ayrışır: preveze-deniz-muharebesi: Barbaros merkez, Sâlih Reis sağ kanat, Seydi Ali Reis sol kanat, Turgut Reis gönüllü reislerin filosuyla arkada; barbaros-hayreddin-pasa: sağ kanat Turgut Reis, sol kanat Sâlih Reis." },
+    { ad:"Haçlı ittifakı donanması (İspanya · Papalık · Venedik · Portekiz · Malta · Ceneviz)", komutan:"Andrea Doria · Vincenzo Cappello (Venedik) · Marco Grimani (Papalık)", mevcut_toplam:"yaklaşık 55.000 asker", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yaklaşık 140 kalyon + 168 kadırga (+ pek çok nakliye gemisi) — preveze-deniz-muharebesi maddesi", kayip:"kalyon türü 128 gemi (preveze-deniz-muharebesi). Aynı savaş için barbaros-hayreddin-pasa: 36 tekne ele geçirildi, 2175 esir", notlar:"ÇELİŞKİ (TDV iki maddesi): ittifak donanmasının büyüklüğü preveze-deniz-muharebesi (DİA 34) maddesinde 140 kalyon (80 İspanya-Portekiz, 10 Venedik, 1 Ceneviz, 49 diğer) + 168 kadırga (70 Venedik, 36 papalık, 10 Malta, 52 Ceneviz) ve 55.000 asker; barbaros-hayreddin-pasa maddesinde '208 veya 246 gemi'. İkisi bağdaşmaz. Rakamları bölük bölük döken, kaynak gösteren (Celâlzâde, Kâtib Çelebi, Bradford) konu maddesi esas alındı; 208/246 yalnız biyografi maddesinin özet cümlesidir. Kayıp rakamları da ayrışır (128 kalyon ↔ 36 tekne ele geçirildi + 2175 esir): ikisi yazıldı, biri seçilmedi." }
   ],
   kaynak:"TDV: preveze-deniz-muharebesi (DİA 34, 2007, s. 343-345)", bag_ekokuma:"savas-preveze-1538" },
 
@@ -246,9 +248,10 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-inebahti-1571", savas_ad:"İnebahtı (Lepanto)", savas_t:"1571-10-07", tur:"deniz",
   baslik:"İnebahtı Deniz Savaşı (7 Ekim 1571)",
   tarih_metin:"7 Ekim 1571 · 17 Cemâziyelevvel 979",
+  celiski:"TDV'nin iki maddesi Osmanlı gemi kaybında ayrışır: inebahti-deniz-savasi 190 gemi (batmış ya da ele geçirilmiş), inebahti (yer maddesi) '200-250 gemi'. Konu maddesindeki 190 esas alındı (aynı madde 230 gemilik filodan 30'unun kurtulduğunu yazar); 200-250 aralığı kayıtta açıkça duruyor.",
   taraflar:[
-    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Müezzinzâde Ali Paşa · donanma serdarı Pertev Paşa · Cezayir beylerbeyi Uluç Ali Paşa", mevcut_toplam:25000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:230, kayip:"yaklaşık 20.000 ölü, ~190 gemi battı ya da ele geçti" },
-    { ad:"Kutsal İttifak donanması (Papalık · Venedik · İspanya)", komutan:"Don Juan (İspanya) · Sebastiano Veniero (Venedik) · Marcantonio Colonna (Papalık)", mevcut_toplam:37000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:243, notlar:"İki donanmanın gemi/asker sayıları kaynaklarda oldukça farklı verilir; buradaki TDV'nin yaklaşık değerleridir." }
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Müezzinzâde Ali Paşa · donanma serdarı Pertev Paşa · Cezayir beylerbeyi Uluç Ali Paşa", mevcut_toplam:25000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:230, kayip:"yaklaşık 20.000 ölü, 3000 esir; 190 gemi batmış ya da ele geçirilmiş, gemilerdeki 15.000 forsa serbest kalmış (inebahti-deniz-savasi). Yer maddesi inebahti ise '200-250 gemi kaybedildi' der", notlar:"ÇELİŞKİ (TDV iki maddesi): konu maddesi inebahti-deniz-savasi (DİA 22, 2000) Osmanlı gemi kaybını 190, yer maddesi inebahti 200-250 yazıyor. Konu maddesi esas alındı: aynı madde Osmanlı donanmasını 'yaklaşık 230 gemi' sayar ve Uluç Ali Paşa'nın 30 gemilik filoyu kurtardığını yazar (230 - 30 ≈ 200); 250'ye varan bir kayıp 230 gemilik filodan fazla olurdu. Yer maddesinin aralığı kayıtta duruyor, seçilmedi. Kaptanıderyâ Müezzinzâde Ali Paşa ve on bir sancak beyi öldü; serdar Pertev Paşa'nın gemisi battı, yaralı kurtuldu." },
+    { ad:"Kutsal İttifak donanması (Papalık · Venedik · İspanya)", komutan:"Don Juan (İspanya) · Sebastiano Veniero (Venedik) · Marcantonio Colonna (Papalık)", mevcut_toplam:37000, piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:243, kayip:"8000 ölü, 21.000 yaralı, 15 kadırga battı ve pek çoğu tahrip oldu; Don Juan yaralandı, Cervantes sol kolunu kaybetti (inebahti-deniz-savasi)", notlar:"İki donanmanın gemi/asker sayıları kaynaklarda oldukça farklı verilir (TDV: 'bilgiler oldukça farklıdır'); buradaki 230 gemi/25.000 savaşçı (Osmanlı) ve 243 gemi/37.000 savaşçı (müttefik) TDV'nin yaklaşık değerleridir." }
   ],
   kaynak:"TDV: inebahti-deniz-savasi (DİA 22, 2000, s. 287-289)", bag_ekokuma:"savas-inebahti-1571" },
 
@@ -272,12 +275,12 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: kamanice (Dariusz Kolodziejczyk)", bag_ekokuma:"savas-kamanice-1672" },
 
-{ id:"kunye-ii-viyana-1683", savas_ad:"II. Viyana Kuşatması", savas_t:"1683-09-12", tur:"meydan",
+{ id:"kunye-ii-viyana-1683", savas_ad:"II. Viyana kuşatması", savas_t:"1683-09-12", savas_t_ek:["1683-07-14"], tur:"kusatma",
   baslik:"İkinci Viyana Kuşatması ve Kahlenberg Bozgunu (14 Temmuz - 12 Eylül 1683)",
   tarih_metin:"Kuşatma 14 Temmuz 1683'te başladı, karar savaşı 12 Eylül 1683",
-  uyari:"ÖLÇÜLDÜ: savaslar.js'te bu savaş İKİ AYRI kayıtla geçiyor ve adlar yalnız BÜYÜK/KÜÇÜK HARFLE ayrılıyor — t:1683-07-14 ad:'II. Viyana kuşatması' (küçük k, tur:kusatma, yalnız Habsburg tarafı) ve t:1683-09-12 ad:'II. Viyana Kuşatması' (büyük K, tur:meydan, taraf:[osmanli,habsburg,lehistan], galip:habsburg). Bu künye ikincisine (kararı veren muharebe) bağlandı; ad alanındaki büyük/küçük harf farkı kod açısından İKİ FARKLI STRING'dir (bkz. D054/D064 ailesi — büyük/küçük harf duyarlı arama aynı savaşı ayrı ayrı kaydedebilir).",
+  uyari:"13 Ekim 2026 (SAVAS-2): savaslar.js'te bu savaş İKİ AYRI kayıtla geçiyordu (t:1683-07-14 'II. Viyana kuşatması' kuşatma başı ve t:1683-09-12 'II. Viyana Kuşatması' kararı veren muharebe; adlar yalnız k/K harfiyle ayrılıyordu). Tek kayıtta birleştirildi: t:1683-07-14, bitis:1683-09-12, taraf [osmanli,habsburg,lehistan], galip habsburg. Künye kronolojide hem karar gününe (savas_t) hem kuşatmanın başladığı güne (savas_t_ek) bağlı.",
   taraflar:[
-    { ad:"Osmanlı ordusu (kuşatma + Kahlenberg savunması)", devlet_id:"osmanli", komutan:"Sadrazam Merzifonlu Kara Mustafa Paşa", mevcut_toplam:"TDV'nin verdiği rakam 500.000 (350.000 muharip + 150.000 geri hizmet) — TDV bunun ABARTILI olduğunu belirtir, güvenilir bir alt sınır verilmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"19 kolunburna + yaklaşık 120 şâhî darbzen (kuşatma topçusu)", tufek:"bilinmiyor", gemi:"yok", kayip:"geri çekilirken yaklaşık 300 top ve 15.000'e yakın çadır terk edildi", notlar:"Terk edilen 300 top RAKAMI, savaş öncesi kullanılan topçu mevcuduyla AYNI SAYI DEĞİL — TDV ikisini ayrı verir." },
+    { ad:"Osmanlı ordusu (kuşatma + Kahlenberg savunması)", devlet_id:"osmanli", komutan:"Sadrazam Merzifonlu Kara Mustafa Paşa", mevcut_toplam:"500.000 NAKLEDİLİR (350.000 muharip + 150.000 geri hizmet erbabı) — TDV: 'bunun abartılı olduğu söylenebilir'; güvenilir bir alt sınır verilmez, gerçek mevcut bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"19 kolunburna + yaklaşık 120 şâhî darbzen (kuşatma topçusu)", tufek:"bilinmiyor", gemi:"yok", kayip:"geri çekilirken yaklaşık 300 top ve 15.000'e yakın çadır terk edildi", notlar:"500.000 rakamı TDV'de 'nakledilir' kipiyle geçer ve TDV tarafından abartılı bulunur; yardımcı kuvvetler ve ganimet ümidiyle ordunun peşine takılan manav, bakkal gibi esnaf da bu toplamın içindedir (Silâhdar). Terk edilen 300 top RAKAMI, savaş öncesi kullanılan topçu mevcuduyla AYNI SAYI DEĞİL — TDV ikisini ayrı verir. Kuşatma ağır toplar götürülmeden, planlanmadan başlamıştı." },
     { ad:"Kutsal İttifak kurtarma ordusu (Leh · Avusturya · Alman)", komutan:"Leh Kralı Jan (III.) Sobieski · Dük Charles von Lothringen", mevcut_toplam:"Leh kuvveti 100.000; Avusturya/Alman takviyesiyle birlikte 100.000'i aştı", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"Leh ordusunda yaklaşık 200 (irili ufaklı)", tufek:"bilinmiyor", gemi:"yok" }
   ],
   kaynak:"TDV: merzifonlu-kara-mustafa-pasa", bag_ekokuma:null },
@@ -286,10 +289,10 @@ window.SAVAS_KUNYE_1 = [
 // ANT-KART'ın 20'sinde olmayan muharebeler. Her rakam TDV metninden tek tek
 // doğrulandı (scratchpad tdvk). Kaynakta olmayan alan "bilinmiyor"/hiç yazılmadı.
 
-{ id:"kunye-istanbul-1453", savas_ad:"İstanbul kuşatması", savas_t:"1453-05-29", tur:"kusatma",
+{ id:"kunye-istanbul-1453", savas_ad:"İstanbul kuşatması", savas_t:"1453-05-29", savas_t_ek:["1453-04-06"], tur:"kusatma",
   baslik:"İstanbul'un fethi (kuşatma 6 Nisan - 29 Mayıs 1453)",
   tarih_metin:"29 Mayıs 1453 (genel saldırı ve fetih)",
-  uyari:"savaslar.js'te aynı kuşatma iki kayıtla (t:1453-04-06 ve 1453-05-29) geçiyor; bu künye fetih gününe bağlandı.",
+  uyari:"13 Ekim 2026: savaslar.js'teki iki kayıt (t:1453-04-06 ve t:1453-05-29) tek kayıtta birleştirildi (t:1453-04-06, bitis:1453-05-29). Künye kronolojide hem fetih gününe (savas_t) hem kuşatmanın başladığı güne (savas_t_ek) bağlı.",
   taraflar:[
     { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"II. Mehmed (Fâtih) · Zağanos Paşa (genel saldırı gününü belirleme yetkisi)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
     { ad:"Bizans (savunma)", devlet_id:"bizans", komutan:"İmparator XI. Konstantinos · Giovanni Giustiniani Longo (savunma başkumandanı)", mevcut_toplam:"8-9.000 (tam kadro)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"3.000'i asıl faal kısım olan Latinlerdi." }
@@ -305,7 +308,7 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: otlukbeli-savasi", bag_ekokuma:null },
 
-{ id:"kunye-i-viyana-1529", savas_ad:"I. Viyana kuşatması", savas_t:"1529-09-27", tur:"kusatma",
+{ id:"kunye-i-viyana-1529", savas_ad:"I. Viyana kuşatması", savas_t:"1529-09-27", savas_t_ek:["1529-09"], tur:"kusatma",
   baslik:"I. Viyana kuşatması (1529)",
   tarih_metin:"27 Eylül 1529 (kuşatmanın başlangıcı)",
   taraflar:[
@@ -323,7 +326,7 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: malta", bag_ekokuma:null },
 
-{ id:"kunye-hotin-1621", savas_ad:"Hotin kuşatması", savas_t:"1621-09-02", tur:"kusatma",
+{ id:"kunye-hotin-1621", savas_ad:"Hotin kuşatması", savas_t:"1621-09-02", savas_t_ek:["1621-10-09"], tur:"kusatma",
   baslik:"Hotin kuşatması (1621)",
   tarih_metin:"2 Eylül 1621",
   taraflar:[
@@ -353,7 +356,7 @@ window.SAVAS_KUNYE_1 = [
 { id:"kunye-cesme-1770", savas_ad:"Çeşme (deniz)", savas_t:"1770-07-06", tur:"deniz",
   baslik:"Çeşme Deniz Muharebesi ve baskını (5-7 Temmuz 1770)",
   tarih_metin:"6 Temmuz 1770 (Çeşme limanında Osmanlı donanmasının yakılması)",
-  uyari:"savaslar.js'te aynı gün iki kayıt var: 'Çeşme (deniz)' ve 'Çeşme baskını'; künye 'Çeşme (deniz)'e bağlandı.",
+  uyari:"13 Ekim 2026: savaslar.js'teki mükerrer 'Çeşme baskını' kaydı silindi; künye kalan 'Çeşme (deniz)' kaydına bağlı.",
   taraflar:[
     { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Hüsâmeddin Paşa · Cezayirli Hasan Bey (Paşa; sağ kanat) · Rodos beyi Câfer Bey", mevcut_toplam:"bilinmiyor", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"limanda otuz kadar gemi ateşe verildi; 5.000 civarı asker kaybedildi" },
     { ad:"Rus donanması", komutan:"Amiral Spiridov · Aleksey Orlov · İngiliz amirali Elphinston", mevcut_toplam:"bilinmiyor", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }

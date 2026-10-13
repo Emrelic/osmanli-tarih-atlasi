@@ -190,7 +190,6 @@ window.SAVASLAR = [
 { t:"1443-11-01", tur:"meydan", ad:"İzladi",                    taraf_metin:"Macar-Haçlı ordusu",sonuc:"yenilgi", seri:"hacli",   lat:42.75, lon:23.90, taraf:["osmanli","macaristan"], galip:"macaristan" },
 { t:"1444-11-10", tur:"meydan", ad:"Varna",                     taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.22, lon:27.90, taraf:["osmanli","macaristan"], galip:"osmanli" },
 { t:"1448-10-17", tur:"meydan", ad:"II. Kosova",                taraf_metin:"Macar-Haçlı ordusu",sonuc:"zafer",   seri:"hacli",   lat:42.63, lon:21.12, taraf:["osmanli","macaristan"], galip:"osmanli" },
-{ t:"1453-05-29", tur:"kusatma", ad:"İstanbul kuşatması",        taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:41.01, lon:28.95, taraf:["osmanli","bizans"], galip:"osmanli" },
 { t:"1473-08-11", tur:"meydan", ad:"Otlukbeli",                 taraf_metin:"Akkoyunlu",         sonuc:"zafer",   seri:"",        lat:39.97, lon:40.00, taraf:["osmanli","akkoyunlu"], galip:"osmanli" },
 { t:"1480-08-11", tur:"meydan", ad:"Otranto çıkarması",         taraf_metin:"Napoli",            sonuc:"belirsiz",seri:"venedik", lat:40.15, lon:18.49, taraf:["osmanli","napoli"] },
 { t:"1514-08-23", tur:"meydan", ad:"Çaldıran",                  taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:39.065, lon:44.384, taraf:["osmanli","safevi"], galip:"osmanli",
@@ -208,11 +207,13 @@ window.SAVASLAR = [
 // yazıldı, `yerlesimler.js`e değil. Kronolojideki `yer_id` alanları BOŞ
 // bırakılmıştı ve bu DOĞRU davranıştı: muharebe Halep'te ya da Kahire'de
 // DEĞİL, onların dışında geçti; en yakın şehri yazmak yeri kaydırırdı.
-{ t:"1516-08-24", tur:"meydan", ad:"Mercidâbık",                taraf_metin:"Memlük",            sonuc:"zafer",   lat:36.553, lon:37.152, taraf:["osmanli","memluk"], galip:"osmanli" },
-{ t:"1517-01-22", tur:"meydan", ad:"Ridâniye",                  taraf_metin:"Memlük",            sonuc:"zafer",   lat:30.089, lon:31.283, taraf:["osmanli","memluk"], galip:"osmanli" },
+// 13 Ekim 2026 — SAVAS-2: iki çift mükerrer BİRLEŞTİRİLDİ (aynı gün, aynı savaş, yalnız aksan farkı):
+//   "Mercidâbık"/"Mercidabık" (1516-08-24) ve "Ridâniye"/"Ridaniye" (1517-01-22). Aksanlı ad ve bu
+//   satırın koordinatı korundu; aksansız kopyadaki tek ek bilgi (seri:"memluk") buraya taşındı,
+//   kopya silindi. Künye (savas_kunye_1.js) aksanlı ada bağlıdır.
+{ t:"1516-08-24", tur:"meydan", ad:"Mercidâbık",                taraf_metin:"Memlük",            sonuc:"zafer",   seri:"memluk",  lat:36.553, lon:37.152, taraf:["osmanli","memluk"], galip:"osmanli" },
+{ t:"1517-01-22", tur:"meydan", ad:"Ridâniye",                  taraf_metin:"Memlük",            sonuc:"zafer",   seri:"memluk",  lat:30.089, lon:31.283, taraf:["osmanli","memluk"], galip:"osmanli" },
 { t:"1515-06-13", tur:"meydan", ad:"Turnadağ",                  taraf_metin:"Dulkadiroğulları",  sonuc:"zafer",   seri:"",        lat:38.20, lon:37.20, taraf:["osmanli","dulkadir"], galip:"osmanli" },
-{ t:"1516-08-24", tur:"meydan", ad:"Mercidabık",                taraf_metin:"Memlûk",            sonuc:"zafer",   seri:"memluk",  lat:36.60, lon:37.00, taraf:["osmanli","memluk"], galip:"osmanli" },
-{ t:"1517-01-22", tur:"meydan", ad:"Ridaniye",                  taraf_metin:"Memlûk",            sonuc:"zafer",   seri:"memluk",  lat:30.06, lon:31.28, taraf:["osmanli","memluk"], galip:"osmanli" },
 { t:"1526-08-29", tur:"meydan", ad:"Mohaç",                     taraf_metin:"Macaristan",        sonuc:"zafer",   seri:"habsburg",lat:45.94, lon:18.64, taraf:["osmanli","macaristan"], galip:"osmanli" },
 // Mükerrer kayıt bulundu ve kaldırıldı (Koordinatör turu, kendi denetimim):
 // bu satır aşağıdaki (~263. satır) "I. Viyana kuşatması" ile aynı t/lat/lon —
@@ -273,7 +274,6 @@ window.SAVASLAR = [
 // zaman çubuğu hızlı akarken bir anda geçiyordu. Diğer büyük muharebeler gibi
 // açık sure: verildi.
 { t:"1664-08-01", tur:"meydan", ad:"Sen Gotar (St. Gotthard)", sure:365,  taraf_metin:"Habsburg",          sonuc:"yenilgi", seri:"habsburg",lat:46.94, lon:16.27, taraf:["osmanli","habsburg"], galip:"habsburg" },
-{ t:"1683-09-12", tur:"meydan", ad:"II. Viyana Kuşatması",      taraf_metin:"Habsburg-Lehistan", sonuc:"yenilgi", seri:"habsburg",lat:48.21, lon:16.37, taraf:["osmanli","habsburg","lehistan"], galip:"habsburg" },
 { t:"1697-09-11", tur:"meydan", ad:"Zenta",                     taraf_metin:"Habsburg",          sonuc:"yenilgi", seri:"habsburg",lat:45.93, lon:20.09, taraf:["osmanli","habsburg"], galip:"habsburg" },
 { t:"1711-07-21", tur:"meydan", ad:"Prut",                      taraf_metin:"Rusya",             sonuc:"zafer",   seri:"rus",     lat:46.48, lon:28.10, taraf:["osmanli","rusya"], galip:"osmanli" },
 { t:"1716-08-05", tur:"meydan", ad:"Varadin (Petrovaradin)",    taraf_metin:"Habsburg",          sonuc:"yenilgi", seri:"habsburg",lat:45.25, lon:19.86, taraf:["osmanli","habsburg"], galip:"habsburg" },
@@ -344,7 +344,10 @@ window.SAVASLAR = [
 // Hotin: kesin sonuca ulaşmadı — Osmanlı kaleyi alamadı, Lehistan da savaşı sürdüremeyip
 // masaya oturdu (1621 Hotin Antlaşması, statüko). "Belirsiz" sayıldı, galip yazılmadı.
 { t:"1621-09-02", tur:"kusatma", ad:"Hotin kuşatması",      taraf_metin:"Lehistan",  sonuc:"belirsiz",seri:"lehistan", lat:48.51, lon:26.49, sure:200, bitis:"1621-10-09", taraf:["osmanli","lehistan"] },
-{ t:"1683-07-14", tur:"kusatma", ad:"II. Viyana kuşatması", taraf_metin:"Habsburg",  sonuc:"yenilgi", seri:"habsburg", lat:48.21, lon:16.37, sure:300, taraf:["osmanli","habsburg"] },
+// 13 Ekim 2026 — SAVAS-2: "II. Viyana kuşatması" (07-14, kuşatma başı) ile "II. Viyana Kuşatması" (09-12, meydan) AYNI savaşın
+//   iki kaydıydı (adlar yalnız k/K harfiyle ayrılıyordu). Tek kayıtta birleşti: başlangıç günü t, karar günü bitis, üç taraf, galip.
+//   Künye (savas_kunye_1.js) her iki güne de bağlıdır (savas_t + savas_t_ek).
+{ t:"1683-07-14", tur:"kusatma", ad:"II. Viyana kuşatması", taraf_metin:"Habsburg-Lehistan",  sonuc:"yenilgi", seri:"habsburg", lat:48.21, lon:16.37, sure:300, bitis:"1683-09-12", taraf:["osmanli","habsburg","lehistan"], galip:"habsburg" },
 { t:"1516-08-02", tur:"kusatma", ad:"Aden kuşatması",       taraf_metin:"Yemen",     sonuc:"yenilgi", seri:"memluk",   lat:12.79, lon:45.02, sure:200, taraf:["osmanli","yemen-zeydi"] },
 { t:"1537-08-25", tur:"kusatma", ad:"Korfu kuşatması",      taraf_metin:"Venedik",   sonuc:"yenilgi", seri:"venedik",  lat:39.62, lon:19.92, sure:200, taraf:["osmanli","venedik"] },
 { t:"1601-09-10", tur:"kusatma", ad:"Kanije savunması",     taraf_metin:"Habsburg",  sonuc:"zafer",   seri:"habsburg", lat:46.46, lon:16.99, sure:200, taraf:["osmanli","habsburg"] },
@@ -354,7 +357,9 @@ window.SAVASLAR = [
 { t:"1790-12-22", tur:"kusatma", ad:"İsmail kuşatması",     taraf_metin:"Rusya",     sonuc:"yenilgi", seri:"rus",      lat:45.35, lon:28.83, sure:200, taraf:["osmanli","rusya"] },
 
 // --- Başarılı büyük kuşatmalar ---
-{ t:"1453-04-06", tur:"kusatma", ad:"İstanbul kuşatması",   taraf_metin:"Bizans",    sonuc:"zafer",   seri:"bizans",   lat:41.01, lon:28.95, sure:120, taraf:["osmanli","bizans"] },
+// 13 Ekim 2026 — SAVAS-2: "İstanbul kuşatması" 1453-05-29 (sonuç günü) ve 1453-04-06 (kuşatma başı) AYNI kuşatmanın iki kaydıydı;
+//   tek kayıtta birleşti (başlangıç t, sonuç bitis, galip osmanli). Künye her iki güne de bağlıdır (savas_t + savas_t_ek).
+{ t:"1453-04-06", tur:"kusatma", ad:"İstanbul kuşatması",   taraf_metin:"Bizans",    sonuc:"zafer",   seri:"bizans",   lat:41.01, lon:28.95, sure:120, bitis:"1453-05-29", taraf:["osmanli","bizans"], galip:"osmanli" },
 { t:"1521-06-25", tur:"kusatma", ad:"Belgrad kuşatması",    taraf_metin:"Macaristan",sonuc:"zafer",   seri:"habsburg", lat:44.82, lon:20.46, sure:200, taraf:["osmanli","macaristan"] },
 { t:"1522-06-26", tur:"kusatma", ad:"Rodos kuşatması",      taraf_metin:"St. Jean",  sonuc:"zafer",   seri:"venedik",  lat:36.44, lon:28.22, sure:300, bitis:"1522-12-21", taraf:["osmanli","rodos-sovalyeleri"] },
 { t:"1570-07-25", tur:"kusatma", ad:"Lefkoşa kuşatması",    taraf_metin:"Venedik",   sonuc:"zafer",   seri:"venedik",  lat:35.19, lon:33.36, sure:200, taraf:["osmanli","venedik"] },
@@ -431,8 +436,6 @@ window.SAVASLAR = [
 { t:"1571-10-07", tur:"deniz", ad:"İnebahtı (Lepanto)",     taraf_metin:"Haçlı donanması", sonuc:"yenilgi", seri:"venedik", lat:38.20, lon:21.30, sure:400, taraf:["osmanli","ispanya","venedik","papalik","cenova","rodos-sovalyeleri"], galip:"ispanya" },
 { t:"1656-06-26", tur:"deniz", ad:"Çanakkale bozgunu",      taraf_metin:"Venedik",  sonuc:"yenilgi", seri:"venedik", lat:40.05, lon:26.05, sure:300, taraf:["osmanli","venedik"], galip:"venedik" },
 { t:"1657-07-19", tur:"deniz", ad:"Çanakkale zaferi",       taraf_metin:"Venedik",  sonuc:"zafer",   seri:"venedik", lat:40.05, lon:26.05, sure:300, bitis:"1657-08-25", taraf:["osmanli","venedik"], galip:"osmanli" },
-{ t:"1770-07-06", tur:"deniz", ad:"Çeşme baskını",          taraf_metin:"Rusya",    sonuc:"yenilgi", seri:"rus",     lat:38.32, lon:26.31, sure:400, taraf:["osmanli","rusya"], galip:"rusya" },
-{ t:"1827-10-20", tur:"deniz", ad:"Navarin baskını",        taraf_metin:"İngiltere-Fransa-Rusya", sonuc:"yenilgi", seri:"yunan", lat:36.92, lon:21.69, sure:400, taraf:["osmanli","misir-kavalali","ingiltere","rusya"], galip:"ingiltere" },
 { t:"1853-11-30", tur:"deniz", ad:"Sinop baskını",          taraf_metin:"Rusya",    sonuc:"yenilgi", seri:"rus",     lat:42.03, lon:35.15, sure:300, taraf:["osmanli","rusya"], galip:"rusya" }
 ];
 
