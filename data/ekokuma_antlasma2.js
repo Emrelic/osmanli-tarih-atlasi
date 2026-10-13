@@ -36,7 +36,7 @@ window.EKOKUMA_ANTLASMA2 = [
 {
   id: "antlasma-amasya-1555",
   tur: "antlasma",
-  olay: ["1555-05-29"],
+  olay: ["1555-05-29","1554-09-26|Osmanlı–Safevî mütarekesi"],
   metin: "TDV'ye göre Amasya barışı madde madde imzalanmış bir metinden çok, Kanûnî'nin Şah Tahmasb'a gönderdiği cevap mektubuna dayanır; antlaşmanın esaslarını belirleyen bu mektup Safevî elçisine divanda 1 Haziran 1555'te verildi. Üç temel hüküm: ① Safevî elçisi, İran'da ilk üç halifeye, sahabeye ve Hz. Âişe'ye lanet okuma törenlerinin (teberrâîlik) yasaklanacağına dair teminat verdi. ② Karşı taraftan bir saldırı gelmedikçe Osmanlı sınır beyleri İran'a karşı harekete geçmeyecekti. ③ Kutsal yerleri ziyarete gidecek İranlı hacıların Osmanlı topraklarından geçmesine izin verildi. Metin sınırları tek tek saymasa da antlaşma; Basra, Bağdat, Şehrizor, Van, Bitlis, Erzurum, Kars ve Atabegler yurdu üzerindeki Osmanlı hâkimiyetinin Safevîlerce tanınması anlamına geliyordu. Barış, Tahmasb'ın ölümünden sonra II. İsmâil tahta çıkana kadar yaklaşık yirmi beş yıl yürürlükte kaldı.",
   kesinlik: "kesin",
   kaynak: "TDV: amasya-antlasmasi", ic_not_kaynak:"eski kaynak: TDV: amasya-antlasmasi (gövde okundu)"
@@ -152,7 +152,7 @@ window.EKOKUMA_ANTLASMA2 = [
 {
   id: "antlasma-yas-1792",
   tur: "antlasma",
-  olay: ["1792-01-10"],
+  olay: ["1792-01-10","1792-01-09|Yaş","1792-01-18|Yaş"],
   metin: "On üç madde, bir giriş ve bir kapanıştan oluşan antlaşma 10 Ocak 1792'de Yaş'ta Rusça ve Türkçe metinler hâlinde mühürlenip değiştirildi. Temeli, Kalas'ta kabul edilen beş maddelik ön barıştı (mukaddime-i sulhiyye). Başlıca hükümler (TDV): ① 1774 Küçük Kaynarca Antlaşması geçerli sayıldı. ② Turla (Dinyester) nehri sınır oldu: sol kıyısı Rusya'ya, sağ kıyısı Osmanlı'ya ait olacaktı. ③ Rusya'nın işgal ettiği Eflak ve Boğdan, önceki antlaşmalarla tanınan imtiyazları teyit edilerek iade edildi; halk savaşın yıkımı yüzünden iki yıl vergiden muaf tutulacak, göç eden aileler dönebilecek, Bucak dâhil bölgedeki kaleler Osmanlı'ya bırakılacaktı. ④ Öteki bölgelerde sınırlar savaş öncesine döndü. ⑤ Kuban bölgesinden Rus topraklarına saldırı olursa gasp edilen mallar ve esirler bulunup iade edilecek, sorumlular cezalandırılacak, zarar ödenecekti; Rusya bölge için istediği 'serbestî' ve askerî müdahale hakkından vazgeçti. ⑥ Tiflis hanının topraklarına saldırılmayacaktı. ⑦ Garp Ocakları korsanlarının Rus gemilerine verdiği zarar, başvurudan sonra en geç iki ay içinde ödenecekti. ⑧ Esirler serbest bırakıldı; işgal altındaki yerler 15 Mayıs'a kadar boşaltılacak ve karşılıklı büyükelçilik heyetleri gönderilecekti. Bir talep ise düştü: Rusya 12 milyon kuruşluk (24.000 kese) savaş tazminatı istiyordu; İstanbul'daki meclis taksitle ödemeyi kabul etmeye karar vermişti, fakat Kuban maddesinde uzlaşılınca Bezborodko çariçenin tazminattan tamamen vazgeçtiğini ilan etti.", ic_not_metin:"eski: 🔴 Ve bir talep düştü:",
   kesinlik: "kesin",
   kaynak: "TDV: yas-antlasmasi", ic_not_kaynak:"eski kaynak: TDV: yas-antlasmasi (gövde okundu)"
@@ -273,6 +273,7 @@ window.EKOKUMA_ANTLASMA2 = [
   "id": "antlasma-istanbul-1700",
   "tur": "antlasma",
   "olay": [
+    "1700-07-03|İstanbul Antlaşması",
     "1700-07-14"
   ],
   "metin": "Karlofça'da Rusya ile kalıcı barış yapılamamış, yalnız iki yıllık, beş maddelik bir mütareke imzalanabilmişti (24 Ocak 1699): Râmi Mehmed Efendi Azak'ı bırakmaya razıydı ama Dinyeper ağzındaki kalelerin boşaltılmasını istiyordu, Rus elçisi ise tam yetkili olmadığını söylüyordu. Görüşmeler birkaç ay sonra İstanbul'da aynı Osmanlı heyeti ile Rus elçisi Ukrayntsev arasında sürdü; TDV karlofca maddesine göre on dört maddelik antlaşma 27 Muharrem 1112 / 14 Temmuz 1700'de imzalandı. TDV maddeleri tek tek saymaz; bildirdiği esaslar: ① Azak Kalesi Rusya'ya bırakıldı. ② Toprak meselelerinde genellikle Osmanlı istekleri kabul edildi. ③ Kırımlıların Rusya'ya akın yapmaması ve vergi talepleri konusunda Rus istekleri kabul edildi. ④ Rusya İstanbul'da elçi seviyesinde bir sefir bulundurma hakkı elde etti. ⑤ Rus elçisinin, ticaret gemilerinin Karadeniz'de serbestçe dolaşması talebi reddedildi. Osmanlı hükümeti antlaşmadan sonra, Rusya'ya bırakılan Azak'a karşı Karadeniz'in güvenliği için Kerç Boğazı'nda Yenikale'yi inşa ettirdi; bu bir antlaşma hükmü değil, sonrasında alınmış bir tedbirdir. TDV rusya maddesi imza gününü 13 Temmuz 1700 olarak verir; karlofca maddesinin hicrî tarihli kaydı 14 Temmuz'dur.",

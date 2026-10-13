@@ -12334,6 +12334,10 @@ var _EKOKUMA_DOSYA_ADLARI = [
                          //   (tahrir defterleri · Arvanid Sancağı Defteri)
   "ekokuma_p77b",        // window.EKOKUMA_P77B — EKOKUMA-0077-B (15 kart)
   "ekokuma_p77c",        // window.EKOKUMA_P77C — EKOKUMA-0077-C (8 kart, Ermeni meselesi)
+  // 🆕 13 Ekim 2026 — ANT-KART
+  "ekokuma_antlasma7",   // window.EKOKUMA_ANTLASMA7 — hüküm kartı olmayan Osmanlı-taraflı antlaşmalar (ANT-KART)
+  "ekokuma_tabi",        // window.EKOKUMA_TABI — tâbi devletler tutumu (0054/H-0006) + Küçük Kaynarca skandal mı (0066/H-0009)
+  "ekokuma_fetihkitapcik", // window.EKOKUMA_FETIHKITAPCIK — İstanbul fethi kitapçığı (0080/H-0027); tek alt çizgi, _ekHavuz regex'i için
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -12572,7 +12576,19 @@ var EKOKUMA_TUR = {
   // eksik olduğunu fark etmez. Aynı sınıf `karsi-anlati` ile bir kez yaşandı
   // (D099): on kart bağlıydı, buton hiç çıkmadı. Ölçen: EKOKUMA-0076-A,
   // denetim/EKOKUMA-0076-A-SINA.py ④ → uygulanmadan önce "TANIMSIZ 1 · 4 kart".
-  "bu-ulke-neden-var": { etiket: "🌍 Bu ülke neden var?", kaynak: function () { return _ekHavuz(); } }
+  "bu-ulke-neden-var": { etiket: "🌍 Bu ülke neden var?", kaynak: function () { return _ekHavuz(); } },
+  // 13 Ekim 2026 — 0080/H-0027: İstanbul fethi KİTAPÇIĞI. Kartlar bolumler[{baslik,gun,metin,kaynak}]
+  // taşır; çizim ekKartHtml'deki "kitapcik" dalındadır (iki yer: bu satır + o dal).
+  "kitapcik":          { etiket: "📘 Kitapçık", kaynak: function () { return _ekHavuz(); } },
+  // 13 Ekim 2026 — 0065/H-0016: SAVAŞ KÜNYESİ. data/savas_kunye_1.js (window.SAVAS_KUNYE_1, 20 muharebe, TDV)
+  // bugüne dek HİÇBİR yerde okunmuyordu (index.html'e yükleniyor, görüntüleyici yoktu). Künye kaydı
+  // `savas_t` ile kronoloji maddesinin t'sine bağlanır; `tur` alanı ("meydan"…) başka anlamda
+  // olduğundan burada sarmalanıp tur:"savas-kunye" verilir. `uyari`/`bag_ekokuma` iç alandır, basılmaz.
+  "savas-kunye":       { etiket: "⚔️ Savaş künyesi", kaynak: function () {
+                           return (window.SAVAS_KUNYE_1 || []).map(function (k) {
+                             return Object.assign({}, k, { tur: "savas-kunye", olay: [k.savas_t], kesinlik: "kesin" });
+                           });
+                         } }
 };
 
 function ekOkumaButonlariGuncelle(o) {
@@ -12944,6 +12960,30 @@ function ekKartHtml(k) {
       h += '<p class="ek-alt">' + ekEsc(k.alinti.metin) + "</p>";
     }
     if (k.gorsel) h += '<img src="' + ekEsc(k.gorsel) + '" alt="" style="max-width:100%">';
+  } else if (k.tur === "savas-kunye") {
+    // 0065/H-0016 — taraflar[{ad,komutan,mevcut_toplam,piyade,suvari,top,tufek,gemi,kayip,notlar}].
+    // "yok" = o silâh/ayrım o savaşta anlamsız → basılmaz; "bilinmiyor" kaynakta yok → açıkça yazılır.
+    h += "<h4>" + ekEsc(k.baslik) + "</h4>";
+    if (k.tarih_metin) h += '<p class="ek-alt">' + ekEsc(k.tarih_metin) + "</p>";
+    (k.taraflar || []).forEach(function (t) {
+      h += "<p><b>" + ekEsc(t.ad) + "</b></p>";
+      if (t.komutan) h += "<p>Komutan: " + ekEsc(t.komutan) + "</p>";
+      var kv = [["mevcut_toplam", "Toplam"], ["piyade", "Piyade"], ["suvari", "Süvari"], ["top", "Top"], ["tufek", "Tüfek"], ["gemi", "Gemi"]]
+        .filter(function (a) { return t[a[0]] != null && t[a[0]] !== "yok"; })
+        .map(function (a) { return a[1] + ": " + (t[a[0]] === "bilinmiyor" ? "bilinmiyor" : String(t[a[0]])); });
+      if (kv.length) h += '<p class="ek-alt">' + ekEsc(kv.join(" · ")) + "</p>";
+      if (t.kayip) h += '<p class="ek-alt">Kayıp: ' + ekEsc(t.kayip) + "</p>";
+      if (t.notlar) h += '<p class="ek-alt">' + ekEsc(t.notlar) + "</p>";
+    });
+  } else if (k.tur === "kitapcik") {
+    // 0080/H-0027 — kitapçık: baslik + kisa + bolumler[{baslik,gun,metin,kaynak}].
+    h += "<h4>" + ekEsc(k.baslik) + "</h4>";
+    if (k.kisa) h += '<p class="ek-alt">' + ekEsc(k.kisa) + "</p>";
+    (k.bolumler || []).forEach(function (b) {
+      h += "<h5>" + ekEsc(b.baslik) + (b.gun ? ' <span class="ek-alt">(' + ekEsc(b.gun) + ")</span>" : "") + "</h5>";
+      if (b.metin) h += "<p>" + ekEsc(b.metin) + "</p>";
+      if (b.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(b.kaynak) + "</p>";
+    });
   } else if (k.tur === "savas-hikayesi") {
     // KITA 20 (denetim/TUR-KITA20-SAVAS-0913.md §④) — dört bölümlü anlatı:
     // öncesi · taraflar · akış · sonuç (+ kaynakların ayrıştığı tartışma).

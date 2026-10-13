@@ -1,0 +1,631 @@
+{
+ "hazirlayan": "ANT-KART 13 Ekim 2026",
+ "olcum": "node scratchpad/ak_olc2.js: OLAYLAR* + KRONOLOJI_* maddeleri, antlaşma-kalıplı (k:antlasma ya da başlıkta antlaşma/muahede/sulh/barış/protokol/konvansiyon/mütareke/sözleşme/senedi), 1280-1923; kart = ekokuma havuzunda olay bağlı tur:antlasma kartı, hukumler[] taşıyan kart ya da ANTLASMALAR kaydı",
+ "kapatilan": {
+  "mevcut_karta_bag_eklenen_madde": 24,
+  "yeni_kartla_kapatilan_madde": 20,
+  "toplam_madde": 44,
+  "yeni_kart": 15,
+  "yeni_dosya": "data/ekokuma_antlasma7.js"
+ },
+ "kalan_osmanli_taraflı_madde": 88,
+ "kalan_neden": "TDV'de müstakil madde ölü (302/arama sayfası) ve yer/kişi/ülke maddeleri bu turda okunduğunda hükmü bulunmadı ya da madde Osmanlı taraf değil; ilgili sluglar sıradaki oturumda aranmalı (Kalas mütarekesi, Galata dışı ahidnâmeler, Yemen-Zeydî antlaşmaları, Tunus-Trablusgarp sınır düzenlemeleri, 1913 Türk-İran İstanbul Protokolü, 1909 Türk-Bulgar/Osmanlı-Avusturya protokolleri, 1911 Da'an, 1915 Sofya, 1489/1533 Osmanlı-Lehistan, 1444 Karaman).",
+ "kalan": [
+  {
+   "t": "1806-01-01",
+   "b": "Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın Rus idaresine geçişi",
+   "kova": "OLAYLAR_ILIRYA0072",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1735-03-21",
+   "b": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+   "kova": "OLAYLAR_EK7",
+   "mevcut_kart_sayisi": 2,
+   "not": ""
+  },
+  {
+   "t": "1828-02-22",
+   "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+   "kova": "OLAYLAR_EK7",
+   "mevcut_kart_sayisi": 2,
+   "not": ""
+  },
+  {
+   "t": "1797-10-17",
+   "b": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 2,
+   "not": ""
+  },
+  {
+   "t": "1809-09-17",
+   "b": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1772-08-05",
+   "b": "Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1793-01-23",
+   "b": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 2,
+   "not": ""
+  },
+  {
+   "t": "1561-11-28",
+   "b": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1714-03-07",
+   "b": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1721-08-30",
+   "b": "Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1617-02-27",
+   "b": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1618-12-11",
+   "b": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1654-01-08",
+   "b": "Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 5,
+   "not": ""
+  },
+  {
+   "t": "1667-02-09",
+   "b": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1466-10-19",
+   "b": "İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
+   "kova": "OLAYLAR_EK16",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1768-05-15",
+   "b": "Korsika Ceneviz'den Fransa'ya satıldı — Versailles Antlaşması",
+   "kova": "OLAYLAR_EK20",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1648-10-24",
+   "b": "Vestfalya Barışı — imparatorluk üzerindeki Habsburg üstünlüğünün sınırlanması",
+   "kova": "KRONOLOJI_HABSBURG",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1866-10-03",
+   "b": "Viyana Barışı — Venedik'in kaybı",
+   "kova": "KRONOLOJI_HABSBURG",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1877-04-24",
+   "b": "93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş",
+   "kova": "KRONOLOJI_RUSYA",
+   "mevcut_kart_sayisi": 4,
+   "not": ""
+  },
+  {
+   "t": "1381-08-08",
+   "b": "Torino Barışı — Ceneviz rekabetinin kırılması ve otuz ailenin konseye alınması",
+   "kova": "KRONOLOJI_VENEDIK",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1797-10-17",
+   "b": "Campoformio Antlaşması — Venedik'in Avusturya'ya verilmesi",
+   "kova": "KRONOLOJI_VENEDIK",
+   "mevcut_kart_sayisi": 2,
+   "not": ""
+  },
+  {
+   "t": "1828-02-10",
+   "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+   "kova": "KRONOLOJI_IRAN",
+   "mevcut_kart_sayisi": 3,
+   "not": ""
+  },
+  {
+   "t": "1907-08-31",
+   "b": "1907 İngiliz-Rus Antlaşması — İran nüfuz bölgelerine bölündü",
+   "kova": "KRONOLOJI_IRAN",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1919-08-09",
+   "b": "1919 İngiliz-İran Antlaşması — fiilî himaye girişimi",
+   "kova": "KRONOLOJI_IRAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1370-01-01",
+   "b": "Memlük-Kıbrıs barış antlaşması",
+   "kova": "KRONOLOJI_MEMLUK",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1386-01-01",
+   "b": "Ceneviz ile barış antlaşması",
+   "kova": "KRONOLOJI_MEMLUK",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1416-01-01",
+   "b": "Memlük-Osmanlı dostluk ve ticaret antlaşması",
+   "kova": "KRONOLOJI_MEMLUK",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1594-04-01",
+   "b": "II. Gazi Giray, Rusya ile bir barış antlaşması imzaladı",
+   "kova": "KRONOLOJI_KIRIM",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1792-01-01",
+   "b": "Yaş Antlaşması sonrası Osmanlı, Kırım Hanlığı'nı yeniden canlandırma fikrinden vazgeçti",
+   "kova": "KRONOLOJI_KIRIM",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1580-01-01",
+   "b": "İlk İngiliz-Osmanlı ahidnamesi imzalandı",
+   "kova": "KRONOLOJI_INGILTERE",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1881-05-12",
+   "b": "Bardo Antlaşması — Tunus'un Fransız himayesine girmesi",
+   "kova": "KRONOLOJI_FRANSA",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1742-07-28",
+   "b": "Berlin Antlaşması — Birinci Silezya Savaşı'nın sonu",
+   "kova": "KRONOLOJI_ALMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1840-01-01",
+   "b": "Osmanlı-Alman ticaret antlaşmasının yenilenmesi",
+   "kova": "KRONOLOJI_ALMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": "TDV prusya gövdesinde Alman ticaret antlaşması yenilemesi yok: bulunamadı."
+  },
+  {
+   "t": "1862-03-20",
+   "b": "Zollverein-Osmanlı gümrük muahedesi",
+   "kova": "KRONOLOJI_ALMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": "TDV prusya gövdesinde Zollverein muahedesi yok: bulunamadı."
+  },
+  {
+   "t": "1866-08-23",
+   "b": "Prag Barışı — Avusturya'nın Alman meselesinden çekilmesi",
+   "kova": "KRONOLOJI_ALMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1885-02-26",
+   "b": "Berlin Genel Senedi — Afrika sömürgeciliğinin kuralları",
+   "kova": "KRONOLOJI_ALMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1909-04-19",
+   "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+   "kova": "KRONOLOJI_SINIR_TURKIYE",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1913-11-17",
+   "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+   "kova": "KRONOLOJI_SINIR_TURKIYE",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1920-01-01",
+   "b": "Neuilly Antlaşması'nın Bulgaristan–SHS sınırı: Çariçin, Bosilegrad ve Ustrumca SHS'ye",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1913-11-17",
+   "b": "İstanbul Protokolü: Osmanlı–İran sınırı ayrıntılı olarak çizildi (Irak kesimi)",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1813-10-24",
+   "b": "Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1828-02-22",
+   "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 2,
+   "not": ""
+  },
+  {
+   "t": "1869-12-13",
+   "b": "Rus-İran anlaşması: aşağı Atrek nehri Hazar doğusunda sınır sayıldı",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1723-09-23",
+   "b": "Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın güney kıyıları Rusya'ya bırakıldı",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1732-01-01",
+   "b": "Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların bir kısmını İran'a iade etti",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1735-01-01",
+   "b": "Gence Antlaşması: Rusya Hazar kıyısından çekildi",
+   "kova": "KRONOLOJI_SINIR_KOMSU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1918-06-04",
+   "b": "Batum Antlaşması — Osmanlı Devleti ile Kafkasya cumhuriyetleri arasında barış",
+   "kova": "KRONOLOJI_COK_1DUNYA_B",
+   "mevcut_kart_sayisi": 0,
+   "not": "TDV batum gövdesi Brest-Litovsk/Mondros'u anar, 4 Haziran 1918 Batum Antlaşması'nı vermez: bulunamadı."
+  },
+  {
+   "t": "1921-02-26",
+   "b": "İran-Sovyet Rusya Antlaşması",
+   "kova": "KRONOLOJI_COK_1DUNYA_B",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1613-01-01",
+   "b": "1453 tarihli Osmanlı-Ceneviz antlaşması yenilendi (sonraki yenilemeler 1617, 1624, 1652)",
+   "kova": "KRONOLOJI_COK_CENEVIZ",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1601-01-01",
+   "b": "Barton ahidnâmeyi yenilettirdi — Felemenk gemileri İngiliz bayrağı altında",
+   "kova": "KRONOLOJI_COK_INGILTERE",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1489-03-22",
+   "b": "İlk Osmanlı-Lehistan barış antlaşması",
+   "kova": "KRONOLOJI_COK_LEHISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1533-01-01",
+   "b": "Osmanlı ile 'ebedî barış'",
+   "kova": "KRONOLOJI_COK_LEHISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1373-01-01",
+   "b": "Vlaicu I. Murad ile antlaşma imzaladı",
+   "kova": "KRONOLOJI_COK_ROMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1595-01-28",
+   "b": "Prag antlaşması — Erdel Habsburg ittifakına girdi",
+   "kova": "KRONOLOJI_COK_ROMANYA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1877-02-28",
+   "b": "İstanbul'da Osmanlı-Sırp barışı — savaş öncesi durum",
+   "kova": "KRONOLOJI_COK_SIRBISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": "TDV sirbistan gövdesi barış hükmünü vermiyor: bulunamadı."
+  },
+  {
+   "t": "1448-10-04",
+   "b": "İskender Bey ile Venedik arasında Dagno barışı",
+   "kova": "KRONOLOJI_COK_ARNAVUT",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1451-03-26",
+   "b": "Gaeta anlaşması — İskender Bey Napoli Kralı Alfonso'nun tâbii oldu",
+   "kova": "KRONOLOJI_COK_ARNAVUT",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1909-02-26",
+   "b": "Osmanlı-Avusturya protokolü — ilhak tazminat karşılığı tanındı",
+   "kova": "KRONOLOJI_COK_BOSNA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1588-01-01",
+   "b": "Ferhad Paşa ile Kartli hâkimi Simon arasında antlaşma — Kartli Osmanlı vasalı",
+   "kova": "KRONOLOJI_COK_GURCISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1918-02-09",
+   "b": "Brest-Litovsk 'Ekmek Barışı' — Merkezî Devletler ve Osmanlı Ukrayna'yı tanıdı",
+   "kova": "KRONOLOJI_COK_UKRAYNA",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1431-01-01",
+   "b": "Memlükler'e tâbi kalma şartıyla barış yapıldı",
+   "kova": "KRONOLOJI_AKKOYUNLU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1617-02-27",
+   "b": "Stolbova Antlaşması — Rusya'nın Baltık'a çıkışı kesildi",
+   "kova": "KRONOLOJI_ISVEC",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1435-01-01",
+   "b": "Antlaşmayla Hamîd toprakları Osmanlı sancağı sayıldı; Dulkadirlilardan Kayseri alındı",
+   "kova": "KRONOLOJI_ANADOLU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1444-08-01",
+   "b": "İbrâhim Bey ile II. Murad arasında antlaşma; Osmanlı üstünlüğü kabul edildi",
+   "kova": "KRONOLOJI_ANADOLU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1353-04-01",
+   "b": "Venedik ile ticaret antlaşmasının kesinleşmesi",
+   "kova": "KRONOLOJI_ANADOLU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1371-01-01",
+   "b": "İsa Bey'in Venedik antlaşmasını yenilemesi",
+   "kova": "KRONOLOJI_ANADOLU",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1608-01-01",
+   "b": "İmam Kāsım b. Muhammed ile on yıllık antlaşma",
+   "kova": "KRONOLOJI_ARABISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1619-01-01",
+   "b": "Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma",
+   "kova": "KRONOLOJI_ARABISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1626-01-01",
+   "b": "İmam Müeyyed barışı bozdu, San'a kuşatıldı",
+   "kova": "KRONOLOJI_ARABISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1630-08-01",
+   "b": "Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma",
+   "kova": "KRONOLOJI_ARABISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1886-03-03",
+   "b": "Bükreş Barışı — Sırp-Bulgar Savaşı sona erdi",
+   "kova": "KRONOLOJI_BALKAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1912-03-13",
+   "b": "Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'nın çekirdeği kuruldu",
+   "kova": "KRONOLOJI_BALKAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1918-09-29",
+   "b": "Selanik Mütarekesi — Bulgaristan savaştan çekildi",
+   "kova": "KRONOLOJI_BALKAN",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  },
+  {
+   "t": "1736-09-01",
+   "b": "İstanbul Antlaşması — Osmanlı'nın on üç yıllık işgalin ardından Gürcistan'dan çekilmesi",
+   "kova": "KRONOLOJI_GURCISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1783-07-24",
+   "b": "Georgievsk Antlaşması — Kartli-Kaheti Rusya himayesine girdi",
+   "kova": "KRONOLOJI_GURCISTAN",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1323-01-01",
+   "b": "Memlüklerle barış antlaşması — altmış yıllık savaş bitti",
+   "kova": "KRONOLOJI_IRAN_ARDILLARI",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1299-05-25",
+   "b": "Milano Barışı — Venedik ile ilk büyük savaşın sonu",
+   "kova": "KRONOLOJI_ITALYA_SEHIR",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1484-08-07",
+   "b": "Bagnolo Barışı — Polesine'nin Venedik'e bırakılması",
+   "kova": "KRONOLOJI_ITALYA_SEHIR",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1358-02-18",
+   "b": "Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti",
+   "kova": "OLAYLAR_2S_0918",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1918-11-03",
+   "b": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti",
+   "kova": "OLAYLAR_OK109",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1723-09-23",
+   "b": "Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Rusya'ya bıraktı",
+   "kova": "OLAYLAR_P0060",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1732-01-01",
+   "b": "Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a iade etti",
+   "kova": "OLAYLAR_P0060",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1915-09-06",
+   "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+   "kova": "OLAYLAR_P0917TARAF",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1886-01-01",
+   "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+   "kova": "OLAYLAR_P0917TARAF",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1892-01-01",
+   "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
+   "kova": "OLAYLAR_P0917TARAF",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1910-05-19",
+   "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+   "kova": "OLAYLAR_P0917TARAF",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1788-01-25",
+   "b": "Melek Mehmed Paşa'nın vezirlikten azli — barış yanlılarının tasfiyesi",
+   "kova": "OLAYLAR_P0068B",
+   "mevcut_kart_sayisi": 0,
+   "not": ""
+  },
+  {
+   "t": "1791-08-11",
+   "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+   "kova": "OLAYLAR_P0068B",
+   "mevcut_kart_sayisi": 1,
+   "not": ""
+  }
+ ]
+}

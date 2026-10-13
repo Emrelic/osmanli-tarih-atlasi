@@ -113,7 +113,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Venedik-Katalan donanması İstanbul'dan çekilince yalnız kalan Bizans, 6 Mayıs 1352'de Orhan ve Cenevizlilerle barış imzalamak zorunda kaldı. TDV'ye göre Ceneviz-Venedik savaşının yarattığı şartlar olmasaydı Osmanlıların Rumeli yakasında yerleşmesi kolay olmazdı; Gelibolu yarımadasındaki ilk fetihler de bu tarihlere denk gelir. Papa, Cenevizlileri Haçlı ittifakına çekmek için 1355'te Orhan'a verdikleri taahhütlerin hükümsüz olduğunu bildirdi. İmtiyaz geleneği sonraki iki yüzyılda Venedik, Fransa, İngiltere ve Hollanda'ya genişleyecekti.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1352-01-01|Ceneviz"],
+  olay:["1352-01-01|Ceneviz","1352-05-01|Orhan Gazi"],
   kaynak:"TDV: orhan (Boğaz savaşı, ittifak, 'ilk kapitülasyon 1352 başları', 6 Mayıs 1352 barışı) · TDV: imtiyazat (1352 kapitülasyonu, metnin kaybı)",
   ic_not:"TDV imtiyazın tarihini '1352 başları' diye veriyor; madde t:1352-01-01 yıl hassasiyetinde." },
 
@@ -133,7 +133,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Anlaşmadan birkaç ay sonra Cenevizliler, Sakız'daki Maona, Rodos şövalyeleri ve Midilli'deki Gattilusiler Osmanlılara karşı bir ittifak içine girdi; yani ahidnâme Ceneviz dünyasının bütününü bağlamadı. TDV, Türklerle Cenevizliler arasında 1385'te gizli bir anlaşma yapıldığı tezini metin bulunmadığı için kabul edilmesi güç sayar ve ilk dostluk-ticaret anlaşması olarak 1387 ahidnâmesini esas alır.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1387-06-08|Ceneviz"],
+  olay:["1387-06-08|Ceneviz","1387-06-08|Murad"],
   kaynak:"TDV: ceneviz (8 Haziran 1387, hükümler, 1385 tezinin reddi) · TDV: imtiyazat (19 Cemâziyelevvel 789) · TDV: murad-i (Yenişehir düğünü sırasında yenilenmesi)",
   ic_not:"🔴 GÜN ÇELİŞKİSİ, hüküm verilmedi: TDV ceneviz '8 Haziran 1387', TDV imtiyazat '19 Cemâziyelevvel 789 (7 Haziran 1387)'. Madde t:1387-06-08. Bir günlük fark muhtemelen hicrî-milâdî çevrimidir; kaynak ayırmıyor." },
 
@@ -155,7 +155,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Selanik Ankara bozgunundan hemen sonra fiilen Bizans'ın eline geçmişti; antlaşma bunu resmîleştirdi. Osmanlılar antlaşmayı Bizans'ın Boğazlar üzerinden şehzadelerin geçişini denetlemesi olarak yorumladı: Süleyman'ın bıraktığı rehineler ve Orhan Çelebi gibi şehzadeler, Bizans'ın elinde bir koz oldu. II. Murad tahta geçince Selanik'i abluka altına aldı; koruyamadığı şehri Bizans 1423'te Venedik'e sattı ve şehir 1430'da Osmanlılara geçti.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1403-06-01|Selanik","1403-06-15|Gelibolu"],
+  olay:["1403-06-01|Selanik","1403-06-15|Gelibolu","1403-02-01|Gelibolu","1403-02-01|Süleyman Çelebi"],
   kaynak:"TDV: fetret-devri (Gelibolu Antlaşması Şubat 1403, hükümler, Haziran 1403 Venedik-Ceneviz anlaşması) · TDV: selanik (Selanik'in 1403'te resmen Bizans'a geçişi) · TDV: imtiyazat (806/1403 antlaşmasında ittifak üyelerine imtiyaz) · TDV: mehmed-i (antlaşmanın Osmanlılarca yorumu)",
   ic_not:"🔴 TARİH FARKI — madde dosyası UYGULA'nın değil, dokunulmadı: TDV fetret-devri Gelibolu Antlaşması'nı ŞUBAT 1403'e koyuyor; Haziran 1403 Venedik ve Cenevizlilerle yapılan ticaret anlaşmasıdır. Çekirdekte İKİ madde var ve ikisi de Haziran'da: olaylar_ek.js 1403-06-01 'Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi' ve olaylar_ek3.js 1403-06-15 'Gelibolu Antlaşması — Bizans'a tavizler'. Kart ikisine de bağlandı; iki maddenin tek olay olduğu ve gününün Şubat olması gerektiği ayrıca koordinatöre bildirildi. TDV emir-suleyman gövdesi alınamadı (0 karakter)." },
 
@@ -193,7 +193,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Antlaşma 21 Rebîülevvel 827 / 22 Şubat 1424 tarihlidir. Barış Osmanlılara Anadolu'da İzmir Beyi Cüneyd'e karşı ellerini serbest bıraktı. Venedik'le çekişme ise 1430'da Selanik'in Osmanlılarca alınmasıyla bitti; 1430 antlaşmasıyla Selanik'teki Osmanlı hâkimiyeti tanındı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1424-02-22|Bizans"],
+  olay:["1424-02-22|Bizans","1424-02-22|tâbiyet"],
   kaynak:"TDV: murad-ii (Selanik bunalımı, Ceneviz aracılığı, 21 Rebîülevvel 827 / 22 Şubat 1424, 300.000 akçe, iade edilen yerler)" },
 
 // ── 1444 EDİRNE-SEGEDİN ANTLAŞMASI ─────────────────────────────────────────
@@ -213,7 +213,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"II. Murad despota topraklarını iade etti ve antlaşma maddelerini yerine getirdi. Ancak TDV'ye göre Bizans imparatoru, Venedik, papalık ve Yanko kesin darbeyi vurmanın zamanı geldiğini düşünerek Macar kralına Segedin'de verdiği yemini bozdurdu; kral 4 Ağustos 1444'te Haçlı seferine çıkacağını teyit etti. Bu haber Edirne'de telaşa yol açtı. Sefer 10 Kasım 1444'te Varna'da Osmanlı zaferiyle sona erdi. Semendire'nin Sırbistan'a fiilî iadesi 1444 yazına düşer.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1444-06-12|Edirne-Segedin","1444-08-01|Semendire","1444-11-10|Varna Zaferi"],
+  olay:["1444-06-12|Edirne-Segedin","1444-08-01|Semendire","1444-11-10|Varna Zaferi","1444-08-15|Segedin"],
   kaynak:"TDV: murad-ii (Uzun Sefer, ateşkes temasları, 24 Safer 848 / 12 Haziran 1444 Edirne anlaşması ve hükümleri, yeminin bozdurulması, 4 Ağustos 1444) · TDV: segedin (Temmuz 1444 sonlarında Segedin'de antlaşma/tasdik)",
   ic_not:"Edirne (12 Haziran) ile Segedin (Temmuz sonu) iki ayrı aşamadır: biri elçilerin imzası, öteki kralın tasdiki/yemini. 'Edirne-Segedin' adı ikisini birleştirir." },
 
@@ -254,7 +254,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Barış 896 (1491) yılında imzalandı. Dulkadırlı Alâüddevle bundan sonra iki tarafla da dostane ilişki kurmaya çalıştı. TDV'ye göre Mısır'la savaş, Osmanlıların Karaman ve Dulkadıroğulları üzerindeki politikasının bir parçasıydı; Adana-Tarsus düzenlemesi Memlüklere Çukurova'da bir dayanak bıraktı. Kayıtbay ertesi yıl Endülüs'teki son İslâm devleti Nasrîlerin yardım talepleriyle uğraşıyordu.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1491-05-01|Memlük"],
+  olay:["1491-05-01|Memlük","1491-01-01|On beş yıllık"],
   kaynak:"TDV: bayezid-ii (savaşın sebepleri, Tunus aracılığı, Adana-Tarsus'un Haremeyn vakfı gerekçesiyle bırakılışı) · TDV: kayitbay (1484 barış teklifi, 1485-1490 savaşları, on beş yıllık barış 896/1491)",
   ic_not:"TDV yalnız YIL veriyor (896/1491); madde t:1491-05-01 gün/ay kaynaksız." },
 
@@ -312,7 +312,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"TDV anabolu maddesi antlaşmanın gününü 3 Ekim 1540 verir. Anabolu'nun teslimiyle halkına dokunulmadı, hatta bazı vergilerden muafiyet tanındı; kaçanların malları satıldı, kalanların emlâkı korundu, kaledeki kilise camiye çevrildi (Fethiye / Sultan Süleyman Camii) ve bir tophane kuruldu. Şehir 1686'da Venedik'e geçti ve 1715'te yeniden Osmanlı idaresine alındı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1540-11-01|Anabolu"],
+  olay:["1540-11-01|Anabolu","1540-10-02|Osmanlı-Venedik"],
   kaynak:"TDV: anabolu (3 Ekim 1540 antlaşması, Güzelce Kasım Paşa'nın muhasarası, teslim şartları) · TDV: suleyman-i (Preveze sonrası antlaşma, Ege adalarının statüsü) · TDV: kibris (1540 barışı ve Venedik'in korsanlara kayıtsızlığı)",
   ic_not:"OKUR METNİNDEN TAŞINDI: Batı kaynaklarına göre Menekşe/Monemvasia da bırakıldı ve Venedik savaş tazminatı ödedi — TDV'de okunmadı.. Madde t:1540-11-01 'Anabolu'nun antlaşmayla devralınması' — antlaşmanın kendisi 3 Ekim 1540 (TDV anabolu); teslim günü kaynakta yok. Monemvasia ve tazminat bilgisi TDV'de OKUNMADI, parantez içinde kaynaksız olduğu belirtildi — istenirse kaldırılsın." },
 
@@ -331,7 +331,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Batıda sağlanan sükûnet sırasında Kanûnî doğuya yöneldi (1548 İran seferi). Barış Erdel'deki gelişmelerle sarsıldı: János Zsigmond'un vasisi Martinuzzi'nin (Frater György) entrikaları sonucu ilişkiler bozuldu; Osmanlı kuvvetleri Becs, Beçkerek, Çanad ve Lipva'yı alarak sınır boyunda yeni bir harekâta girişti. Avusturya maddesine göre Habsburglar bu ödemeyi uzun süre yapmak zorunda kaldı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1547-06-18|Habsburg"],
+  olay:["1547-06-18|Habsburg","1547-01-01|İstanbul Mütarekesi"],
   kaynak:"TDV: suleyman-i (Veltwyck ve Sicco, Kasım 1545 mütarekesi, 18 Haziran 1547 divan kabulü, beş yıllık antlaşma, haraç hükmü, antlaşmanın önemi, Martinuzzi) · TDV: avusturya ('haraç' / 'munus honoriarium')",
   ic_not:"TDV haraç MİKTARINI vermiyor (literatürdeki yıllık 30.000 duka OKUNMADI, yazılmadı). Madde t:1547-06-18 elçilerin divana kabul günüdür; imza günü TDV'de 'Haziran 1547'." },
 
@@ -443,7 +443,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"TDV'ye göre Serav Muahedesi adı verilen antlaşma 29 Eylül 1618'de II. Osman tarafından tasdik edildi ve 1624'e kadar yürürlükte kaldı. II. Osman'ın batıya, Lehistan'a yönelmesi (1621 Hotin seferi) doğu cephesindeki bu barış sayesinde mümkün oldu.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1618-09-26|Serav"],
+  olay:["1618-09-26|Serav","1618-09-10|Serav"],
   kaynak:"TDV: halil-pasa-kayserili (Erdebil yenilgisi 10 Eylül 1618, antlaşmanın hükmü, 29 Eylül 1618 tasdiki, 1624'e kadar yürürlük, azli) · TDV: osman-ii (Safevîlerin sulh istemesi, İstanbul'da tasdik, 18 Ocak 1619 azil) · TDV: abbas-i",
   ic_not:"TDV imza gününü vermiyor; tasdik 29 Eylül 1618. Madde t:1618-09-26 (imza günü olabilir, kaynağı bu oturumda OKUNMADI)." },
 
@@ -676,7 +676,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Antlaşma 4 Zilhicce 1205 / 4 Ağustos 1791'de imzalandı, 12 Ağustos'ta onaylandı ve 23 Ağustos'ta Ziştovi'de törenle değiş tokuş edildi. TDV'ye göre bütün savaş esirlerinin serbest bırakılması o güne kadar pek görülmemiş bir uygulamaydı. Barışın faturası ağırdı: görüşmelerin masrafı 600.000 kuruşa ulaştı ve aracı elçilere verilecek ikramiye nakit ödenemediğinden hazine tezkiresiyle karşılandı. Osmanlı-Rus savaşı ise Yaş Antlaşması'na (10 Ocak 1792) kadar sürdü. TDV, barışın Prusya'nın askerî baskısının eseri olduğunu, ama Avusturya'yı barışa yanaştıran en önemli etkenin Fransa'daki gelişmeler olduğunu da vurgular.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1791-08-04|Ziştovi"],
+  olay:["1791-08-04|Ziştovi","1790-12-30|Ziştovi","1791-07-18|Ziştovi","1791-08-12|Ziştovi"],
   kaynak:"TDV: zistovi-antlasmasi (Kemal Beydilli — savaşın seyri, Reichenbach, Yergöğü mütarekesi, yer seçimi, heyetler, status quo tartışması, Herbert'in çekilmesi, 4 Ağustos 1791, esas metin ve ayrı senet, onay ve teati, masraf, önem) · TDV: prusya (Reichenbach, Ziştovi)",
   ic_not:"TDV 'Eski Hırsova' yazıyor; bu Tuna'daki Orsova'dır (Hırsova Dobruca'daki ayrı yer). Kartta kaynak ifadesi korunup parantez içinde 'Orsova' eklendi — bu parantez bir yorumdur." },
 
@@ -887,7 +887,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"TDV boğdan maddesine göre bu dönemde Memleketeyn'de millî uyanış gün geçtikçe güçleniyor ve iki prensliğin birleşmesini hedefliyordu; Boğdan'da birçok aydın bunun için çalışıyordu. Birkaç yıl sonra Kudüs'teki kutsal yerler meselesi Osmanlı ile Rusya'yı karşı karşıya getirdi; Rusya'nın isteklerini Osmanlı reddedince Rusya Eflak-Boğdan'ı işgal etti ve 4 Ekim 1853'te savaş ilân edildi.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1849-05-01|Baltalimanı"],
+  olay:["1849-05-01|Baltalimanı","1849-01-01|Baltalimanı"],
   kaynak:"TDV: abdulmecid (Macar mülteciler, 1 Mayıs 1849 Baltalimanı Antlaşması'yla geçici sonuç, sonraki kriz) · TDV: eflak (1848 hareketi, regulamentul organik, Rus müdahalesi) · TDV: bogdan (Yaş ayaklanması, iki metbû devlet, mebusan meclisinin lağvı, Grigore Ghica, birleşme arzusu)",
   ic_not:"OKUR METNİNDEN TAŞINDI: Sözleşmenin süre, işgal kuvvetleri ve beylerin tayin usulüne dair maddeleri TDV'de okunmadı.. Hüküm listesi bilerek kısa — sözleşme metni okunmadı. 'Bălcescu' TDV'de 'Balçesku'." },
 

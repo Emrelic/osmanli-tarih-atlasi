@@ -134,7 +134,7 @@ window.EKOKUMA = [
   kesinlik:"kesin",
   kaynak:"TDV: pasarofca-antlasmasi", ic_not_kaynak:"eski kaynak: TDV: pasarofca-antlasmasi (gövde okundu)" },
 
-{ id:"antlasma-kucuk-kaynarca-1774", tur:"antlasma", olay:["1774-07-21"],
+{ id:"antlasma-kucuk-kaynarca-1774", tur:"antlasma", olay:["1774-07-21","1774-07-26|Küçük Kaynarca"],
   metin:"Görüşmelerin düğümlendiği üç konu vardı: Kırım'a serbestiyet verilmesi (şeriata aykırı görülüyordu), askerî bakımdan hayatî sayılan kalelerin terki ve tazminat. Varılan hükümler: Kırım'a istiklâl tanındı. Kerç, Yenikale ve Kılburun Rusya'nın elinde kaldı; Özü Rusya'ya bırakılırken karşısındaki Bender Osmanlı'ya teslim edildi. Rusya'nın savaş sırasında ele geçirdiği Memleketeyn (Eflak-Boğdan), Besarabya, Akkirman, Kili, İsmâil ve Bender kaleleri dâhil bütün yerler iade edilecekti; Akdeniz'de ele geçirdiği yerler de iade edilmekteydi (md. 7). Beyoğlu'nda ana yol üzerinde Rus itikadınca bir Ortodoks kilisesi inşasına izin verilecek ve Rusya bu kilisenin himayesini üstlenecekti. Rus hacıları kutsal yerleri serbestçe ziyaret edebilecekti. Rus ticaret gemileri Karadeniz ve Akdeniz'de serbestçe dolaşacak, diğer devletlere verilmiş imtiyazlardan istifade edecek ve gerekli yerlerde konsolosluk açabileceklerdi — Karlofça'da reddedilen talep. Osmanlı Devleti üç taksit hâlinde 15.000 kese (4,5 milyon ruble) tazminat ödeyecekti (ek münferit madde).",
   kesinlik:"kesin",
   kaynak:"TDV: kucuk-kaynarca-antlasmasi", ic_not_kaynak:"eski kaynak: TDV: kucuk-kaynarca-antlasmasi (gövde okundu)" },
