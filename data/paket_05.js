@@ -6638,6 +6638,23 @@ window.DEVLETLER = [
     { t:"1405-11-17", tur:"son", b:"Venedik birlikleri Padova'ya girdi, Carrara senyörlüğü sona erdi (Senato dedizione'yi 22 Kasım'da kabul etti)", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Novello» — 16-17 Kasım gecesi" }
   ]
 },
+// AVRUPA-2 13 Ekim 2026 (Emre kararı: Bergamo/Brescia/Parma için kaynaklı Visconti künyesi) — Milano Visconti senyörlüğü,
+// dükalıktan ÖNCEKİ dönem (1311-1395); 1395-05-11'den sonrası `milano-dukaligi`dir. `harita:`sız künye (della-scala/bonacolsi emsali):
+// BOYALAR'a girene kadar Bergamo/Brescia/Parma `s:` dönemleri `__BOSLUK__` kalır; boya + dönem geçişi
+// denetim/AVRUPA-2-VISCONTI-RENK-1013.diff (renkler.py motor dosyası olduğu için BEKLİYOR).
+{ id:"visconti", ad:"Visconti Senyörlüğü (Milano)", tur:"devlet", bolge:"italya",
+  f:"1311-07-13", t:"1395-05-11", baskent:"Milano", kesinlik:{ f:"gun", t:"yil" },
+  ozet:"Milano'da Visconti ailesinin dükalık öncesi senyörlüğü: Matteo I 1311'de imperial vikar sıfatıyla fiilen şehrin efendisi oldu; Azzone Bergamo'yu (1333), Cremona'yı (1334) ve Brescia'yı (1337), Luchino Parma'yı (1346) kattı; Gian Galeazzo 1385'te tek hükümdar oldu ve 1395'te dük unvanı alarak devleti Milano Dükalığı'na dönüştürdü. TDV'de ayrı maddesi yok.",
+  kaynak:"Dizionario Biografico (Treccani) «Visconti, Matteo»: 13 Temmuz 1311 imperial vikar (VII. Henri), sonra fiilî sürekli vikar; 1287 capitano del popolo (1310 «definitif» ayrımı: Enciclopedia dell'Arte Medievale «Visconti» — YIL) · «Visconti, Azzone»: Bergamo 20 Eylül 1333, Cremona 15 Temmuz 1334, Brescia şehri 10 Ekim 1337 (kale bir ay sonra) · «Visconti, Luchino»: Parma 1346'da Obizzo d'Este'den 70.000 florinle (GÜN YOK) · Enciclopedia Italiana (Treccani) «Visconti»: Gian Galeazzo 1378'de Galeazzo II'ye halef, 1385'te Bernabò'nun yakalanmasıyla tek hükümdar, 1395'te Wenzel tarafından Milano dükü (YIL) · ⚠️ BİTİŞ GÜNÜ 1395-05-11 `milano-dukaligi` künyesinden ALINDI (gün atlastan, Treccani yalnız 1395 yılını verir; iki künyenin bitişik kalması için) · 1277 Desio galibiyeti DBI Ottone'de «signoria kuruluşu» olarak okunmaz (yeni çalışmalar teleolojik bulur) ⇒ künye 1277'den başlatılmadı · TDV'de yok (bulunamadı)",
+  kronoloji:[
+    { t:"1311-07-13", tur:"kurulus", b:"Matteo I Visconti, VII. Henri'nin Brescia kuşatmasındaki sıkışıklığından yararlanıp 50.000 florin karşılığında Milano imperial vikarı oldu (görev süresiz; fiilî senyörlük)", kaynak:"Dizionario Biografico (Treccani) «Visconti, Matteo»" },
+    { t:"1333-09-20", tur:"toprak-kazanc", b:"Azzone Visconti'nin birlikleri Bergamo'yu ele geçirdi", kaynak:"Dizionario Biografico (Treccani) «Visconti, Azzone»" },
+    { t:"1337-10-10", tur:"toprak-kazanc", b:"Brescia şehri Visconti birliklerine teslim oldu (Scaligeri'den; kale bir ay sonra)", kaynak:"Dizionario Biografico (Treccani) «Visconti, Azzone»" },
+    { t:"1346-01-01", kesinlik:"yil", tur:"toprak-kazanc", b:"Obizzo d'Este Parma'yı 70.000 florine Visconti'ye devretti (Luchino)", kaynak:"Dizionario Biografico (Treccani) «Visconti, Luchino» — YIL" },
+    { t:"1385-01-01", kesinlik:"yil", tur:"hukumdar", b:"Gian Galeazzo, amcası Bernabò'yu yakalayıp devletin tek hükümdarı oldu", kaynak:"Enciclopedia Italiana (Treccani) «Visconti» — YIL" },
+    { t:"1395-05-11", tur:"son", b:"Gian Galeazzo Visconti'ye Wenzel'den dük unvanı verildi, senyörlük Milano Dükalığı'na dönüştü", kaynak:"Enciclopedia Italiana (Treccani) «Visconti» (1395 — YIL); gün `milano-dukaligi` künyesinden" }
+  ]
+},
 { id:"mantua", ad:"Mantua Dukalığı (Gonzaga)", tur:"dukalik", bolge:"italya",
   f:"1328-01-01", t:"1708-01-01", baskent:"Mantua", harita:"mantua",
   ozet:"Gonzaga hanedanının kurduğu, Rönesans sanatına (Mantegna) büyük destek veren küçük ama zengin dükalık; hanedanın soyu tükenince İspanya Veraset Savaşı sırasında Avusturya Habsburglarına geçti.",

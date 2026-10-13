@@ -1,0 +1,14 @@
+{
+  "parti-emrelic-0083": {
+    "H-0010": {
+      "hukum": "senin-kararin",
+      "not": "Huşi + doğu yaka noktası denendi, Değişmez 8a tavanı (1505) AŞILDI; tavan yazılmadı. Ölçüm (denetle.py, gövde uret_petek 2ce682d3): taban 1505 ✓ · Huşi + Leova (Prut doğu yakası, Wikidata Q2199004 + OSM relation/19314570, 46.4798 K · 28.2558 D) 1514 ✗ · Huşi yalnız 1514 ✗ · Leova yalnız 1506 ✗. NEDEN: 8a taşan gövde parçasını gövdenin sahibi devletin EN YAKIN noktasına atfeder (denetle.py d8 agac(karsi_ad, gun)); Huşi Romen yakasında olduğundan donmuş gövdedeki taşan parçalar ona yeniden atfedilir (8 yeni (hat,gün,yaka,yer) birimi: d1859-ru-rp-prut-kuzey 1878-08-02, d1878-ru-ro-prut-* 1881/1917/1918 günleri). Doğu yakaya (Rus/Moldova) nokta eklemek bu atfı değiştirmez, kendi taşmasını da getirir (Leova +1) — yani 'doğu yaka noktasıyla dengeleme' bu ölçütte mümkün değil; çare ya GÖVDE değişimidir (HAVVA tam inşa: Huşi+Leova petekleri doğu yakada kesilir, taşma kapanır) ya da Emre'nin tavan kararı. Huşi ve Leova kayıtları hazır: denetim/AVRUPA-YER-HUSI-1013.js (Huşi + Leova, kaynaklı, koordinat doğrulanmış). Kullanım: tam inşa koşusundan SONRA yerlesimler_ek29.js sonuna ekle, 8a ölç.",
+      "delil": "denetim/AVRUPA-YER-HUSI-1013.js · denetle çıktıları av2_t1 (Huşi+Leova 1514), av2_t2 (Leova 1506), av2_base (1505) · arac/denetle.py d8 (satır ~5640-5670)"
+    },
+    "H-0007": {
+      "hukum": "kosu-bekliyor",
+      "not": "Visconti künyesi AÇILDI: data/devletler.js `visconti` (1311-07-13 → 1395-05-11; Treccani DBI Visconti Matteo/Azzone/Luchino + Enciclopedia Italiana Visconti). Dönemler: Bergamo 1333-09-20, Brescia 1337-10-10 (şehir teslimi), Parma 1346 (yıl; gün yok) → 1395-05-11 visconti; Verona 1387-10-18 ve Padova 1388-11-21 → 1390-09-08 da visconti (DBI). Boya (BOYALAR 'visconti' #b8483f, renk_olc: 0 görünmez · 10 çakışma · 16 yakın-ama-değmeyen = Visconti'siz taban; #7f95d6 milanoduka ile ΔE 8,9, #d65f8a napoli, #2fb5b0 piza ile çakıştı) motor dosyası renkler.py'de olduğu için BEKLİYOR: denetim/AVRUPA-2-VISCONTI-RENK-1013.diff (main'e karşı, git apply --check temiz; uygulanmış hâlde denetle çıkış 0, 8a 1505) ve PO-BOYA diff'i ÜSTÜNE: denetim/AVRUPA-2-VISCONTI-RENK-PO-USTU-1013.diff (check temiz; Verona/Padova visconti dönemleri bu varyantta). İkisi birbirine alternatiftir; PO-BOYA uygulanacaksa PO-USTU kullan. Padova 1395-05-11 → 1405-11-22 milanoduka dönemi YAZILMADI (Carrara 17 Kasım 1405'e dek Padova'da — ayrı düzeltme). Gün sınırı: visconti künyesi bitişi 1395-05-11 `milano-dukaligi` künyesinden (Treccani yalnız 1395 yılı); künye kaynak alanında beyanlı. Milano şehrinin kendi dönemi (1281-1535 milanoduka) 1311 öncesi/sonrası değiştirilmedi: tam inşa paketine not.",
+      "delil": "data/devletler.js visconti · denetim/AVRUPA-2-VISCONTI-RENK-1013.diff · denetim/AVRUPA-2-VISCONTI-RENK-PO-USTU-1013.diff · denetle çıkış 0 (av2_t3, av2_t4)"
+    }
+  }
+}
