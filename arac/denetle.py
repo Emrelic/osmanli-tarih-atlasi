@@ -2793,7 +2793,7 @@ ATLAS_SONU = UFUK[1]   # ZAMAN-Z1-1008: motor ufkunun sonu
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 115   # 13 EKIM (UFUK-KESIGI uzatmalari: yunanistan/italya/romanya... kunye t'si gercek bitise cekildi) 118 -> 115 · ONCESI: 9 EKIM (dalga 1): 124 -> 118· HAYALET-KUNYE-1008 (KOORD+EK+K) + DOGU-SAFEVI (Kars/Ardahan/Sarikamis akkoyunlu hayaleti, Kandehar timurlu) + MISIR-SENKRON + sirvansah kunyesi t 1538-01-01 -> 1538-10-01 — IYILESME, §3.4-3 · ONCESI: 126 -> 124 HARPUT-DULKADIR-1009 + EEK-BALKAN-1009 (iki ayri kalem, birlikte olculdu)
+BEKLENEN_ASAN = 112   # 13 EKIM (SUMER-2000 nokta/yama dalgasi): 115 -> 112 · IYILESME, olculdu · # 13 EKIM (UFUK-KESIGI): 118 -> 115 ·13 EKIM (UFUK-KESIGI uzatmalari: yunanistan/italya/romanya... kunye t'si gercek bitise cekildi) 118 -> 115 · ONCESI: 9 EKIM (dalga 1): 124 -> 118· HAYALET-KUNYE-1008 (KOORD+EK+K) + DOGU-SAFEVI (Kars/Ardahan/Sarikamis akkoyunlu hayaleti, Kandehar timurlu) + MISIR-SENKRON + sirvansah kunyesi t 1538-01-01 -> 1538-10-01 — IYILESME, §3.4-3 · ONCESI: 126 -> 124 HARPUT-DULKADIR-1009 + EEK-BALKAN-1009 (iki ayri kalem, birlikte olculdu)
 # 1 EKIM 2026 (gece): 124 -> 127 · KAPSAM GENISLEMESI, AF DEGIL
 # 🔴 +3'un sebebi YENI KUSUR DEGIL, denetimin GORMEYE BASLADIGI donemler:
 #   `degismez4` artik kimligi `id:` ∪ `harita:` ile cozuyor (KASA olcumu).
