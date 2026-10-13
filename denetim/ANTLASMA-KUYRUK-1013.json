@@ -8,7 +8,7 @@
   "yeni_kart": 15,
   "yeni_dosya": "data/ekokuma_antlasma7.js"
  },
- "kalan_osmanli_taraflı_madde": 88,
+ "kalan_osmanli_taraflı_madde": 75,
  "kalan_neden": "TDV'de müstakil madde ölü (302/arama sayfası) ve yer/kişi/ülke maddeleri bu turda okunduğunda hükmü bulunmadı ya da madde Osmanlı taraf değil; ilgili sluglar sıradaki oturumda aranmalı (Kalas mütarekesi, Galata dışı ahidnâmeler, Yemen-Zeydî antlaşmaları, Tunus-Trablusgarp sınır düzenlemeleri, 1913 Türk-İran İstanbul Protokolü, 1909 Türk-Bulgar/Osmanlı-Avusturya protokolleri, 1911 Da'an, 1915 Sofya, 1489/1533 Osmanlı-Lehistan, 1444 Karaman).",
  "kalan": [
   {
@@ -16,13 +16,6 @@
    "b": "Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın Rus idaresine geçişi",
    "kova": "OLAYLAR_ILIRYA0072",
    "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1735-03-21",
-   "b": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
-   "kova": "OLAYLAR_EK7",
-   "mevcut_kart_sayisi": 2,
    "not": ""
   },
   {
@@ -138,13 +131,6 @@
    "not": ""
   },
   {
-   "t": "1877-04-24",
-   "b": "93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş",
-   "kova": "KRONOLOJI_RUSYA",
-   "mevcut_kart_sayisi": 4,
-   "not": ""
-  },
-  {
    "t": "1381-08-08",
    "b": "Torino Barışı — Ceneviz rekabetinin kırılması ve otuz ailenin konseye alınması",
    "kova": "KRONOLOJI_VENEDIK",
@@ -218,13 +204,6 @@
    "t": "1580-01-01",
    "b": "İlk İngiliz-Osmanlı ahidnamesi imzalandı",
    "kova": "KRONOLOJI_INGILTERE",
-   "mevcut_kart_sayisi": 1,
-   "not": ""
-  },
-  {
-   "t": "1881-05-12",
-   "b": "Bardo Antlaşması — Tunus'un Fransız himayesine girmesi",
-   "kova": "KRONOLOJI_FRANSA",
    "mevcut_kart_sayisi": 1,
    "not": ""
   },
@@ -327,13 +306,6 @@
    "not": ""
   },
   {
-   "t": "1735-01-01",
-   "b": "Gence Antlaşması: Rusya Hazar kıyısından çekildi",
-   "kova": "KRONOLOJI_SINIR_KOMSU",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
    "t": "1918-06-04",
    "b": "Batum Antlaşması — Osmanlı Devleti ile Kafkasya cumhuriyetleri arasında barış",
    "kova": "KRONOLOJI_COK_1DUNYA_B",
@@ -376,13 +348,6 @@
    "not": ""
   },
   {
-   "t": "1373-01-01",
-   "b": "Vlaicu I. Murad ile antlaşma imzaladı",
-   "kova": "KRONOLOJI_COK_ROMANYA",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
    "t": "1595-01-28",
    "b": "Prag antlaşması — Erdel Habsburg ittifakına girdi",
    "kova": "KRONOLOJI_COK_ROMANYA",
@@ -397,30 +362,9 @@
    "not": "TDV sirbistan gövdesi barış hükmünü vermiyor: bulunamadı."
   },
   {
-   "t": "1448-10-04",
-   "b": "İskender Bey ile Venedik arasında Dagno barışı",
-   "kova": "KRONOLOJI_COK_ARNAVUT",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1451-03-26",
-   "b": "Gaeta anlaşması — İskender Bey Napoli Kralı Alfonso'nun tâbii oldu",
-   "kova": "KRONOLOJI_COK_ARNAVUT",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
    "t": "1909-02-26",
    "b": "Osmanlı-Avusturya protokolü — ilhak tazminat karşılığı tanındı",
    "kova": "KRONOLOJI_COK_BOSNA",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1588-01-01",
-   "b": "Ferhad Paşa ile Kartli hâkimi Simon arasında antlaşma — Kartli Osmanlı vasalı",
-   "kova": "KRONOLOJI_COK_GURCISTAN",
    "mevcut_kart_sayisi": 0,
    "not": ""
   },
@@ -474,34 +418,6 @@
    "not": ""
   },
   {
-   "t": "1608-01-01",
-   "b": "İmam Kāsım b. Muhammed ile on yıllık antlaşma",
-   "kova": "KRONOLOJI_ARABISTAN",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1619-01-01",
-   "b": "Mehmed Paşa - Zeydîler arasında ikinci on yıllık antlaşma",
-   "kova": "KRONOLOJI_ARABISTAN",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1626-01-01",
-   "b": "İmam Müeyyed barışı bozdu, San'a kuşatıldı",
-   "kova": "KRONOLOJI_ARABISTAN",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1630-08-01",
-   "b": "Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma",
-   "kova": "KRONOLOJI_ARABISTAN",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
    "t": "1886-03-03",
    "b": "Bükreş Barışı — Sırp-Bulgar Savaşı sona erdi",
    "kova": "KRONOLOJI_BALKAN",
@@ -525,13 +441,6 @@
   {
    "t": "1736-09-01",
    "b": "İstanbul Antlaşması — Osmanlı'nın on üç yıllık işgalin ardından Gürcistan'dan çekilmesi",
-   "kova": "KRONOLOJI_GURCISTAN",
-   "mevcut_kart_sayisi": 0,
-   "not": ""
-  },
-  {
-   "t": "1783-07-24",
-   "b": "Georgievsk Antlaşması — Kartli-Kaheti Rusya himayesine girdi",
    "kova": "KRONOLOJI_GURCISTAN",
    "mevcut_kart_sayisi": 0,
    "not": ""
@@ -597,21 +506,21 @@
    "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
    "kova": "OLAYLAR_P0917TARAF",
    "mevcut_kart_sayisi": 0,
-   "not": ""
+   "not": "ANT-2 13 Ekim: bulunamadı — TDV tunus ve libya gövdelerinde bu sınır düzenlemesi ve Ras Ecdir-Gadames çizgisi yok."
   },
   {
    "t": "1892-01-01",
    "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
    "kova": "OLAYLAR_P0917TARAF",
    "mevcut_kart_sayisi": 0,
-   "not": ""
+   "not": "ANT-2 13 Ekim: bulunamadı — TDV tunus ve libya gövdelerinde bu sınır düzenlemesi ve Ras Ecdir-Gadames çizgisi yok."
   },
   {
    "t": "1910-05-19",
    "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
    "kova": "OLAYLAR_P0917TARAF",
    "mevcut_kart_sayisi": 0,
-   "not": ""
+   "not": "ANT-2 13 Ekim: bulunamadı — TDV tunus ve libya gövdelerinde bu sınır düzenlemesi ve Ras Ecdir-Gadames çizgisi yok."
   },
   {
    "t": "1788-01-25",
@@ -627,5 +536,10 @@
    "mevcut_kart_sayisi": 1,
    "not": ""
   }
- ]
+ ],
+ "ant2_kapatilan": {
+  "madde": 13,
+  "yeni_kart": 12,
+  "yeni_dosya": "data/ekokuma_antlasma8.js"
+ }
 }
