@@ -542,8 +542,8 @@
     },
     {
      "yol": "data/kisiler.js",
-     "sha": "3ccbfd565cffb0d1",
-     "bayt": 193278
+     "sha": "a6603963d2d83866",
+     "bayt": 216961
     },
     {
      "yol": "data/savaslar.js",
@@ -551,7 +551,7 @@
      "bayt": 158956
     }
    ],
-   "bayt": 1876911
+   "bayt": 1900594
   },
   {
    "paket": "data/paket_13.js",

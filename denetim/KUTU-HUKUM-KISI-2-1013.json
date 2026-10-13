@@ -1,0 +1,154 @@
+{
+ "KISI-2": {
+  "1:yedisekiz-hasan-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 601 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js yedisekiz-hasan-pasa; TDV: ali-suavi (müstakil madde yok)"
+  },
+  "2:mircea": {
+   "hukum": "cozuldu",
+   "not": "not alani 803 karakter, TDV govdesinden | Rovine TDV 1394 / atlas 1395-05-17: tartisma alani yazildi, kronolojiye dokunulmadi",
+   "delil": "data/kisiler.js mircea; TDV: eflak (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  "3:patrona-halil": {
+   "hukum": "cozuldu",
+   "not": "not alani 962 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js patrona-halil; TDV: patrona-isyani (müstakil madde yok; ölüm yılı kaynakta "
+  },
+  "4:ferdinand1": {
+   "hukum": "cozuldu",
+   "not": "not alani 779 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js ferdinand1; TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı ka"
+  },
+  "5:tosun-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 786 karakter, TDV govdesinden | atlas f:1794 TDV dogum yili vermiyor; Medine/Mekke bilgisi TDV Medine ve Mekke maddelerinden",
+   "delil": "data/kisiler.js tosun-pasa; TDV: ibrahim-pasa-kavalali (müstakil madde yok; doğum yılı v"
+  },
+  "6:pachacuti": {
+   "hukum": "cozulemedi",
+   "not": "TDV taramasinda ad yok; akademik kaynak (Britannica) 403; not uzatilmadi",
+   "delil": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantla"
+  },
+  "7:george-tupou1": {
+   "hukum": "cozulemedi",
+   "not": "TDV taramasinda ad yok; akademik kaynak (Britannica) 403; not uzatilmadi",
+   "delil": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantla"
+  },
+  "8:leopold1": {
+   "hukum": "cozuldu",
+   "not": "not alani 719 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js leopold1; TDV: viyana (müstakil madde yok; doğum yılı ve ölüm yılı kay"
+  },
+  "9:aleksandr1": {
+   "hukum": "cozuldu",
+   "not": "not alani 676 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js aleksandr1; TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kayn"
+  },
+  "10:kara-yorgi": {
+   "hukum": "cozuldu",
+   "not": "not alani 662 karakter, TDV govdesinden | TDV adi Djordje Petkovic yazar; atlas Petrovic; ad dokunulmadi",
+   "delil": "data/kisiler.js kara-yorgi; TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı "
+  },
+  "11:evrenos-bey": {
+   "hukum": "cozuldu",
+   "not": "not alani 1024 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js evrenos-bey; TDV: evrenosogullari (müstakil madde yok — `gazi-evrenos-bey"
+  },
+  "12:andrea-doria": {
+   "hukum": "cozuldu",
+   "not": "not alani 871 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js andrea-doria; TDV: preveze-deniz-muharebesi (müstakil madde yok; doğum yıl"
+  },
+  "13:ivan4": {
+   "hukum": "cozuldu",
+   "not": "not alani 832 karakter, TDV govdesinden | TDV hukumdarlik 1533, atlas donem 1547 (carlik): tartisma yazildi",
+   "delil": "data/kisiler.js ivan4; TDV: rusya (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  "14:haci-giray": {
+   "hukum": "cozuldu",
+   "not": "not alani 1192 karakter, TDV govdesinden | TDV hanlik baslangici kesin degil; atlas donem 1441: tartisma yazildi",
+   "delil": "data/kisiler.js haci-giray; TDV: haci-giray-i"
+  },
+  "15:halil-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 765 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js halil-pasa; TDV: kutulamare (müstakil madde yok; doğum 1882 ve ölüm 1957"
+  },
+  "16:yakub-bey-kasgar": {
+   "hukum": "cozuldu",
+   "not": "not alani 1090 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js yakub-bey-kasgar; TDV: yakub-beg (`yakub-bey` slug'ı aynı adlı BAŞKA kişidir)"
+  },
+  "17:sunni-ali": {
+   "hukum": "cozuldu",
+   "not": "not alani 718 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js sunni-ali; TDV: mali (müstakil madde yok)"
+  },
+  "18:seydi-ali-reis": {
+   "hukum": "cozuldu",
+   "not": "not alani 1013 karakter, TDV govdesinden | atlas f:1498 TDV dogum yili vermiyor: tartisma yazildi; f dokunulmadi",
+   "delil": "data/kisiler.js seydi-ali-reis; TDV: seydi-ali-reis (doğum yılı kaynakta yok)"
+  },
+  "19:gazi-osman-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 887 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js gazi-osman-pasa; TDV: gazi-osman-pasa"
+  },
+  "20:fahreddin-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 1234 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js fahreddin-pasa; TDV: fahreddin-pasa"
+  },
+  "21:ismet-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 1044 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js ismet-pasa; TDV: inonu-mustafa-ismet"
+  },
+  "22:abdulmecid-efendi": {
+   "hukum": "cozuldu",
+   "not": "not alani 777 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js abdulmecid-efendi; TDV: abdulmecid-efendi"
+  },
+  "23:don-juan": {
+   "hukum": "cozuldu",
+   "not": "not alani 795 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js don-juan; TDV: inebahti-deniz-savasi (müstakil madde yok; doğum yılı v"
+  },
+  "24:eugen": {
+   "hukum": "cozuldu",
+   "not": "not alani 604 karakter, TDV govdesinden | atlas 1717 Belgrad gunu TDV Avusturya maddesinde yok (yalniz 1716, 1718)",
+   "delil": "data/kisiler.js eugen; TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı "
+  },
+  "25:milos-obrenovic": {
+   "hukum": "cozuldu",
+   "not": "not alani 591 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js milos-obrenovic; TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı "
+  },
+  "26:urabi-pasa": {
+   "hukum": "cozuldu",
+   "not": "not alani 922 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js urabi-pasa; TDV: urabi-pasa"
+  },
+  "27:elvend-bey": {
+   "hukum": "cozuldu",
+   "not": "not alani 836 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js elvend-bey; TDV: akkoyunlular (Elvend'in müstakil maddesi TDV'de bulunam"
+  },
+  "28:nikolay1": {
+   "hukum": "cozuldu",
+   "not": "not alani 648 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js nikolay1; TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kayn"
+  },
+  "29:devlet-giray": {
+   "hukum": "cozuldu",
+   "not": "not alani 838 karakter, TDV govdesinden",
+   "delil": "data/kisiler.js devlet-giray; TDV: devlet-giray"
+  },
+  "30:joao1": {
+   "hukum": "cozulemedi",
+   "not": "TDV taramasinda ad yok; akademik kaynak (Britannica) 403; not uzatilmadi",
+   "delil": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantla"
+  }
+ }
+}

@@ -156,276 +156,6 @@
  ],
  "kalan_kisa_kartlar_sirali": [
   {
-   "sira": 1,
-   "id": "yedisekiz-hasan-pasa",
-   "tur": "komutan",
-   "ad": "Hasan Paşa (Yedi Sekiz)",
-   "not_uzunluk": 156,
-   "kronoloji_anma": 45,
-   "kaynak": "TDV: ali-suavi (müstakil madde yok)"
-  },
-  {
-   "sira": 2,
-   "id": "mircea",
-   "tur": "yabanci-hukumdar",
-   "ad": "Mircea (cel Bătrân)",
-   "not_uzunluk": 105,
-   "kronoloji_anma": 20,
-   "kaynak": "TDV: eflak (müstakil madde yok; ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 3,
-   "id": "patrona-halil",
-   "tur": "siyasi",
-   "ad": "Patrona Halil",
-   "not_uzunluk": 26,
-   "kronoloji_anma": 17,
-   "kaynak": "TDV: patrona-isyani (müstakil madde yok; ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 4,
-   "id": "ferdinand1",
-   "tur": "yabanci-hukumdar",
-   "ad": "I. Ferdinand (Habsburg)",
-   "not_uzunluk": 139,
-   "kronoloji_anma": 13,
-   "kaynak": "TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 5,
-   "id": "tosun-pasa",
-   "tur": "komutan",
-   "ad": "Tosun Paşa",
-   "not_uzunluk": 60,
-   "kronoloji_anma": 10,
-   "kaynak": "TDV: ibrahim-pasa-kavalali (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 6,
-   "id": "pachacuti",
-   "tur": "yabanci-hukumdar",
-   "ad": "Pachacuti",
-   "not_uzunluk": 93,
-   "kronoloji_anma": 9,
-   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `peru` maddesi yok; okunan `amerika` — İnkalar anılır, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
-  },
-  {
-   "sira": 7,
-   "id": "george-tupou1",
-   "tur": "yabanci-hukumdar",
-   "ad": "I. George Tupou",
-   "not_uzunluk": 32,
-   "kronoloji_anma": 9,
-   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: Tonga maddesi yok (başlıkta yalnız adaş `tonga-alp-er`); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
-  },
-  {
-   "sira": 8,
-   "id": "leopold1",
-   "tur": "yabanci-hukumdar",
-   "ad": "I. Leopold",
-   "not_uzunluk": 119,
-   "kronoloji_anma": 8,
-   "kaynak": "TDV: viyana (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 9,
-   "id": "aleksandr1",
-   "tur": "yabanci-hukumdar",
-   "ad": "I. Aleksandr",
-   "not_uzunluk": 78,
-   "kronoloji_anma": 8,
-   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 10,
-   "id": "kara-yorgi",
-   "tur": "yabanci-hukumdar",
-   "ad": "Kara Yorgi (Đorđe Petrović)",
-   "not_uzunluk": 35,
-   "kronoloji_anma": 8,
-   "kaynak": "TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 11,
-   "id": "evrenos-bey",
-   "tur": "komutan",
-   "ad": "Evrenos Bey",
-   "not_uzunluk": 33,
-   "kronoloji_anma": 7,
-   "kaynak": "TDV: evrenosogullari (müstakil madde yok — `gazi-evrenos-bey` yalnız gönderme; ölüm 820/1417 kaynakta var, doğum yılı kaynakta yok)"
-  },
-  {
-   "sira": 12,
-   "id": "andrea-doria",
-   "tur": "yabanci-komutan",
-   "ad": "Andrea Doria",
-   "not_uzunluk": 25,
-   "kronoloji_anma": 7,
-   "kaynak": "TDV: preveze-deniz-muharebesi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 13,
-   "id": "ivan4",
-   "tur": "yabanci-hukumdar",
-   "ad": "IV. İvan (Korkunç)",
-   "not_uzunluk": 131,
-   "kronoloji_anma": 7,
-   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı kaynakta yok)"
-  },
-  {
-   "sira": 14,
-   "id": "haci-giray",
-   "tur": "yabanci-hukumdar",
-   "ad": "Hacı Giray",
-   "not_uzunluk": 67,
-   "kronoloji_anma": 7,
-   "kaynak": "TDV: haci-giray-i"
-  },
-  {
-   "sira": 15,
-   "id": "halil-pasa",
-   "tur": "komutan",
-   "ad": "Halil Paşa (Kut)",
-   "not_uzunluk": 17,
-   "kronoloji_anma": 6,
-   "kaynak": "TDV: kutulamare (müstakil madde yok; doğum 1882 ve ölüm 1957 yılları kaynakta yok)"
-  },
-  {
-   "sira": 16,
-   "id": "yakub-bey-kasgar",
-   "tur": "yabanci-hukumdar",
-   "ad": "Yâkub Bey (Kaşgar)",
-   "not_uzunluk": 97,
-   "kronoloji_anma": 6,
-   "kaynak": "TDV: yakub-beg (`yakub-bey` slug'ı aynı adlı BAŞKA kişidir)"
-  },
-  {
-   "sira": 17,
-   "id": "sunni-ali",
-   "tur": "yabanci-hukumdar",
-   "ad": "Sünnî Ali",
-   "not_uzunluk": 64,
-   "kronoloji_anma": 6,
-   "kaynak": "TDV: mali (müstakil madde yok)"
-  },
-  {
-   "sira": 18,
-   "id": "seydi-ali-reis",
-   "tur": "denizci",
-   "ad": "Seydi Ali Reis",
-   "not_uzunluk": 109,
-   "kronoloji_anma": 6,
-   "kaynak": "TDV: seydi-ali-reis (doğum yılı kaynakta yok)"
-  },
-  {
-   "sira": 19,
-   "id": "gazi-osman-pasa",
-   "tur": "komutan",
-   "ad": "Gazi Osman Paşa",
-   "not_uzunluk": 16,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: gazi-osman-pasa"
-  },
-  {
-   "sira": 20,
-   "id": "fahreddin-pasa",
-   "tur": "komutan",
-   "ad": "Fahreddin Paşa (Çöl Kaplanı)",
-   "not_uzunluk": 16,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: fahreddin-pasa"
-  },
-  {
-   "sira": 21,
-   "id": "ismet-pasa",
-   "tur": "komutan",
-   "ad": "İsmet Paşa (İnönü)",
-   "not_uzunluk": 41,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: inonu-mustafa-ismet"
-  },
-  {
-   "sira": 22,
-   "id": "abdulmecid-efendi",
-   "tur": "hanedan",
-   "ad": "Abdülmecid Efendi",
-   "not_uzunluk": 22,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: abdulmecid-efendi"
-  },
-  {
-   "sira": 23,
-   "id": "don-juan",
-   "tur": "yabanci-komutan",
-   "ad": "Don Juan",
-   "not_uzunluk": 26,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: inebahti-deniz-savasi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 24,
-   "id": "eugen",
-   "tur": "yabanci-komutan",
-   "ad": "Prens Eugen",
-   "not_uzunluk": 22,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 25,
-   "id": "milos-obrenovic",
-   "tur": "siyasi",
-   "ad": "Miloš Obrenović",
-   "not_uzunluk": 29,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 26,
-   "id": "urabi-pasa",
-   "tur": "siyasi",
-   "ad": "Urâbî Paşa",
-   "not_uzunluk": 30,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: urabi-pasa"
-  },
-  {
-   "sira": 27,
-   "id": "elvend-bey",
-   "tur": "yabanci-hukumdar",
-   "ad": "Elvend Bey (Akkoyunlu)",
-   "not_uzunluk": 135,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: akkoyunlular (Elvend'in müstakil maddesi TDV'de bulunamadı — `elvend-bey` ve `elvend` sluglarının ikisi de 302)"
-  },
-  {
-   "sira": 28,
-   "id": "nikolay1",
-   "tur": "yabanci-hukumdar",
-   "ad": "I. Nikolay",
-   "not_uzunluk": 56,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
-  },
-  {
-   "sira": 29,
-   "id": "devlet-giray",
-   "tur": "yabanci-hukumdar",
-   "ad": "Devlet Giray",
-   "not_uzunluk": 35,
-   "kronoloji_anma": 5,
-   "kaynak": "TDV: devlet-giray"
-  },
-  {
-   "sira": 30,
-   "id": "joao1",
-   "tur": "yabanci-hukumdar",
-   "ad": "I. João (Nzinga a Nkuwu)",
-   "not_uzunluk": 62,
-   "kronoloji_anma": 5,
-   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan joão, afonso, 'Kongo Krallığı'; okunan `kongo-demokratik-cumhuriyeti` — 1482 Portekiz teması var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
-  },
-  {
    "sira": 31,
    "id": "jozef-pilsudski",
    "tur": "siyasi",
@@ -1929,5 +1659,160 @@
    "kaynak": "TDV: hayrullah-efendi-imam-i-sultani (`hayrullah-efendi` slug'ı aynı adlı BAŞKA kişidir — reîsületıbbâ)"
   }
  ],
- "not": "Kaynaksiz (TDV'de mustakil madde yok) kartlar: kaynak alani 'mustakil madde yok' diyorsa akademik kaynak adi ile ya da 'bulunamadi' ile uzat; uydurma yok. TDV gövdeleri WebFetch ile okunur; ozet araci sayi vermeyebilir, soru acik sorulmali."
+ "not": "Kaynaksiz (TDV'de mustakil madde yok) kartlar: kaynak alani 'mustakil madde yok' diyorsa akademik kaynak adi ile ya da 'bulunamadi' ile uzat; uydurma yok. TDV gövdeleri WebFetch ile okunur; ozet araci sayi vermeyebilir, soru acik sorulmali.",
+ "yapilan_parti_2": [
+  {
+   "id": "yedisekiz-hasan-pasa",
+   "ad": "Hasan Paşa (Yedi Sekiz)",
+   "yeni_not_uzunluk": 601
+  },
+  {
+   "id": "mircea",
+   "ad": "Mircea (cel Bătrân)",
+   "yeni_not_uzunluk": 803
+  },
+  {
+   "id": "patrona-halil",
+   "ad": "Patrona Halil",
+   "yeni_not_uzunluk": 962
+  },
+  {
+   "id": "ferdinand1",
+   "ad": "I. Ferdinand (Habsburg)",
+   "yeni_not_uzunluk": 779
+  },
+  {
+   "id": "tosun-pasa",
+   "ad": "Tosun Paşa",
+   "yeni_not_uzunluk": 786
+  },
+  {
+   "id": "leopold1",
+   "ad": "I. Leopold",
+   "yeni_not_uzunluk": 719
+  },
+  {
+   "id": "aleksandr1",
+   "ad": "I. Aleksandr",
+   "yeni_not_uzunluk": 676
+  },
+  {
+   "id": "kara-yorgi",
+   "ad": "Kara Yorgi (Đorđe Petrović)",
+   "yeni_not_uzunluk": 662
+  },
+  {
+   "id": "evrenos-bey",
+   "ad": "Evrenos Bey",
+   "yeni_not_uzunluk": 1024
+  },
+  {
+   "id": "andrea-doria",
+   "ad": "Andrea Doria",
+   "yeni_not_uzunluk": 871
+  },
+  {
+   "id": "ivan4",
+   "ad": "IV. İvan (Korkunç)",
+   "yeni_not_uzunluk": 832
+  },
+  {
+   "id": "haci-giray",
+   "ad": "Hacı Giray",
+   "yeni_not_uzunluk": 1192
+  },
+  {
+   "id": "halil-pasa",
+   "ad": "Halil Paşa (Kut)",
+   "yeni_not_uzunluk": 765
+  },
+  {
+   "id": "yakub-bey-kasgar",
+   "ad": "Yâkub Bey (Kaşgar)",
+   "yeni_not_uzunluk": 1090
+  },
+  {
+   "id": "sunni-ali",
+   "ad": "Sünnî Ali",
+   "yeni_not_uzunluk": 718
+  },
+  {
+   "id": "seydi-ali-reis",
+   "ad": "Seydi Ali Reis",
+   "yeni_not_uzunluk": 1013
+  },
+  {
+   "id": "gazi-osman-pasa",
+   "ad": "Gazi Osman Paşa",
+   "yeni_not_uzunluk": 887
+  },
+  {
+   "id": "fahreddin-pasa",
+   "ad": "Fahreddin Paşa (Çöl Kaplanı)",
+   "yeni_not_uzunluk": 1234
+  },
+  {
+   "id": "ismet-pasa",
+   "ad": "İsmet Paşa (İnönü)",
+   "yeni_not_uzunluk": 1044
+  },
+  {
+   "id": "abdulmecid-efendi",
+   "ad": "Abdülmecid Efendi",
+   "yeni_not_uzunluk": 777
+  },
+  {
+   "id": "don-juan",
+   "ad": "Don Juan",
+   "yeni_not_uzunluk": 795
+  },
+  {
+   "id": "eugen",
+   "ad": "Prens Eugen",
+   "yeni_not_uzunluk": 604
+  },
+  {
+   "id": "milos-obrenovic",
+   "ad": "Miloš Obrenović",
+   "yeni_not_uzunluk": 591
+  },
+  {
+   "id": "urabi-pasa",
+   "ad": "Urâbî Paşa",
+   "yeni_not_uzunluk": 922
+  },
+  {
+   "id": "elvend-bey",
+   "ad": "Elvend Bey (Akkoyunlu)",
+   "yeni_not_uzunluk": 836
+  },
+  {
+   "id": "nikolay1",
+   "ad": "I. Nikolay",
+   "yeni_not_uzunluk": 648
+  },
+  {
+   "id": "devlet-giray",
+   "ad": "Devlet Giray",
+   "yeni_not_uzunluk": 838
+  }
+ ],
+ "parti_2_atlanan_tdv_yok": [
+  {
+   "id": "pachacuti",
+   "ad": "Pachacuti",
+   "neden": "TDV taramasinda ad gecmiyor (onceki bulunamadi kaydi gecerli); akademik kaynak denemesi (Britannica) 403 verdi; not uzatilmadi, uydurma yok"
+  },
+  {
+   "id": "george-tupou1",
+   "ad": "I. George Tupou",
+   "neden": "TDV taramasinda ad gecmiyor (onceki bulunamadi kaydi gecerli); akademik kaynak denemesi (Britannica) 403 verdi; not uzatilmadi, uydurma yok"
+  },
+  {
+   "id": "joao1",
+   "ad": "I. João (Nzinga a Nkuwu)",
+   "neden": "TDV taramasinda ad gecmiyor (onceki bulunamadi kaydi gecerli); akademik kaynak denemesi (Britannica) 403 verdi; not uzatilmadi, uydurma yok"
+  }
+ ],
+ "kalan_sayisi": 167
 }
