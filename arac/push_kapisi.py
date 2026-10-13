@@ -16,6 +16,8 @@ YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
        · ÜRETİLEN çıktı (`data/*parca*.js`, `*_ust.js`, …) ⇒ `--uretilen-onay`
          şart: üretilen dosyayı yalnız koşucu (HAVVA) iter
        · tek dosya > 95 MiB ⇒ RED (GitHub 100 MiB sert sınırı)
+       · çözülmemiş git çatışma işareti (satır başı 7×'<' ya da 7×'>') ⇒ RED
+         (arsiv/ denetim/ dersler/ hariç; 13 Ekim'de index.html'i bozan hata)
   ④ ÖLÇÜM AYRI WORKTREE'DE, İTİLECEK COMMIT'TEN: ana checkout ölçüm zemini
      DEĞİLDİR (başka oturumların yazmadığı değişiklikleri + bayat yerel
      `devletler_harita.js` — 12 Ekim'de ana checkout'ta denetle 2 verdi).
@@ -30,7 +32,7 @@ YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
 ÇIKIŞ: 0 itildi / itilecek yok · 1 REDDEDİLDİ (kural) · 2 ÖLÇÜLEMEDİ / arıza ·
        3 yanlış kullanım. 2 TEMİZ DEĞİLDİR (CLAUDE.md §3).
 """
-import glob, os, shutil, subprocess, sys, tempfile, time
+import glob, os, re, shutil, subprocess, sys, tempfile, time
 
 sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -43,6 +45,8 @@ TUZ = {"arac/uret_petek.py", "arac/renkler.py", "arac/girdi.py", "arac/motor_onb
 URETILEN_DESEN = ("data/*parca*.js", "data/*_ust.js", "data/bolgeler.js",
                   "data/devirler.js")
 SITE_ONEK = ("index.html", "js/", "css/", "data/", "assets/")
+CAKISMA_DESEN = re.compile(rb"^(?:<{7}|>{7})(?: |\r?$)", re.M)
+CAKISMA_ATLA = ("arsiv/", "denetim/", "dersler/")
 SINIR_RED = 95 * 1024 * 1024
 SINIR_UYARI = 90 * 1024 * 1024
 
@@ -81,7 +85,31 @@ def uretilen_mi(yol):
     return any(fnmatch.fnmatch(yol, d) for d in URETILEN_DESEN)
 
 
+def cakisma_isareti_tara(dosyalar):
+    """İtilecek commit'teki dosyalarda çözülmemiş git çatışma işareti var mı?
+
+    13 Ekim 2026: index.html'e 300 işaret satırı commit edildi (rebase'te `?v=` damga satırları
+    çatıştı), yayında kronolojinin altında düz yazı olarak göründü; denetle ve denetle_yayin
+    ikisi de 0 verdi. Yalnız `<<<<<<< ` ve `>>>>>>> ` satır başları aranır: tek başına
+    `=======` Markdown/RST'de meşrudur. Belgelerin alıntı yaptığı dizinler hariç."""
+    bulunan = []
+    for f in dosyalar:
+        if f.startswith(CAKISMA_ATLA):
+            continue
+        r = subprocess.run(["git", "show", "HEAD:" + f], cwd=KOK, capture_output=True)
+        if r.returncode != 0 or b"\0" in r.stdout[:8192]:
+            continue  # silinen ya da ikili dosya
+        n = len(CAKISMA_DESEN.findall(r.stdout))
+        if n:
+            ilk = next(i for i, s in enumerate(r.stdout.split(b"\n"), 1) if CAKISMA_DESEN.match(s))
+            bulunan.append("%s (%d işaret satırı, ilki satır %d)" % (f, n, ilk))
+    if bulunan:
+        raise Red("ÇÖZÜLMEMİŞ ÇATIŞMA İŞARETİ itiliyor — yayında düz yazı olarak görünür:\n      "
+                  + "\n      ".join(bulunan))
+
+
 def dosya_denetimi(dosyalar, ar):
+    cakisma_isareti_tara(dosyalar)
     tuz = sorted(set(dosyalar) & TUZ)
     if tuz and not ar["--tuz-onay"]:
         raise Red("TUZ dosyası itiliyor: %s — koşu HAVVA'da sürüyor olabilir ve bu makine "
