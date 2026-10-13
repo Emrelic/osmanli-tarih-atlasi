@@ -130,7 +130,7 @@ def denetle_kayitlar(K, sessiz=False):
         atlas_ad = k.get("atlas_ad")
         if atlas_ad and atlas_ad not in atlas:
             ihlal.append(f"{i}: atlas_ad '{atlas_ad}' atlasta yok")
-            son = None
+            son, atlas_sahip = None, None   # parti 20: atlas_sahip atanmadan okunuyordu (UnboundLocalError)
         else:
             son, atlas_sahip = atlas[atlas_ad] if atlas_ad else (ZINCIR_SONU_ATLASSIZ, None)
         if ilk.get("t") and son and TARIH.match(ilk["t"]) and gun_no(ilk["t"]) >= gun_no(son):
