@@ -117,7 +117,7 @@ window.YERLESIMLER_OK104 = [
 //    ondan ayrı modellemek için bir dayanağım yok.
 { ad:"Mat (Mati)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:4,m:"İşkodra"}], tur:"sehir", lat:41.610, lon:20.009, g:0, k:4, m:"İşkodra",
   s:[{f:"1281-01-01",t:"1478-06-15",d:"arnavutluk"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV iskender-bey · TDV debre" },
 
@@ -151,7 +151,7 @@ window.YERLESIMLER_OK104 = [
 // ⚠️ `1393-05-01` külliyatta YOKTU (±30 günde 0 madde) — maddesi aynı turda
 //    `data/olaylar_ok104.js`e yazıldı. Nokta maddesiz inseydi `2s` açılırdı.
 { ad:"Leş (Alessio)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:3,m:"İşkodra"}], tur:"liman", lat:41.783, lon:19.644, g:0, k:3, m:"İşkodra",
-  s:[{f:"1281-01-01",t:"1356-01-01",d:"sirbistan-nemanjic"},{f:"1356-01-01",t:"1387-01-01",d:"zeta"},{f:"1387-01-01",t:"1393-05-01",d:"dukagin"},{f:"1393-05-01",t:"1478-06-15",d:"venedik"},{f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+  s:[{f:"1281-01-01",t:"1356-01-01",d:"sirbistan-nemanjic"},{f:"1356-01-01",t:"1387-01-01",d:"zeta"},{f:"1387-01-01",t:"1393-05-01",d:"dukagin"},{f:"1393-05-01",t:"1478-06-15",d:"venedik"},{f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV les · TDV iskender-bey" },
 
@@ -179,7 +179,7 @@ window.YERLESIMLER_OK104 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-11-29",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1395-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1912-11-29"}],
   kaynak:"TDV debre" },
 
@@ -213,7 +213,7 @@ window.YERLESIMLER_OK104 = [
 // 14 kez anıyor; imamlığın çekirdek şehridir.
 { ad:"Sa'de", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:3,m:"Sana"}], tur:"sehir", lat:16.940, lon:43.764, g:0, k:3, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
+     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"TDV zeydiyye" },
 
@@ -227,7 +227,7 @@ window.YERLESIMLER_OK104 = [
 //      çekilsin? Ben yazdım ve ETİKETLEDİM; silme kararı senin.
 { ad:"Şehâre", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:16.183, lon:43.723, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
+     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok, zeydiyye maddesinde de adı geçmiyor; dayanak standart akademik kaynak" },
 
@@ -236,7 +236,7 @@ window.YERLESIMLER_OK104 = [
 //    `zeydiyye` maddesinde adı geçmiyor. Aynı şart, aynı etiket.
 { ad:"Kevkebân", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:15.503, lon:43.899, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
+     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok; dayanak standart akademik kaynak" },
 

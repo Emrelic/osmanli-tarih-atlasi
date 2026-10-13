@@ -229,7 +229,7 @@ window.YERLESIMLER_ASYA = [
 //     hükümdarı tahtta kaldı ama şehir Maratha'nındı. 11 Eylül 1803 Delhi
 //     Muharebesi'nden sonra saray İngiliz himayesine girdi.
 { ad:"Delhi", tur:"sehir", lat:28.6440, lon:77.2160, g:2, k:1,kd:[{f:"1281-01-01",t:"1857-09-21",k:1,m:"Delhi"}], d:[],
-  s:[{f:"1192-01-01",d:"gurlu",kaynak:"TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1398-12-17",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1398-12-17",t:"1399-01-01",d:"timurlu",enklav:true},{f:"1399-01-01",t:"1526-04-21",d:"delhi-sultanligi"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1788-01-01",d:"babur-imparatorlugu"},{f:"1788-01-01",t:"1803-09-11",d:"maratha"},{f:"1803-09-11",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1192-01-01",d:"gurlu",kaynak:"TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1398-12-17",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1398-12-17",t:"1399-01-01",d:"timurlu",enklav:true},{f:"1399-01-01",t:"1526-04-21",d:"delhi-sultanligi"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1788-01-01",d:"babur-imparatorlugu"},{f:"1788-01-01",t:"1803-09-11",d:"maratha"},{f:"1803-09-11",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Agra — Sikender Lodî 1504'te kurdu ve başkent yaptı; Bâbürlü başkenti
 // 1526-1648. kur: bu yüzden yazıldı, 1504 öncesi boşluk KASITLIDIR.
@@ -242,7 +242,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1761-01-14", d:"babur-imparatorlugu"},
      {f:"1761-01-14", t:"1803-10-17", d:"maratha"},
-     {f:"1803-10-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-10-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Mathura — Yamuna'nın kutsal şehri; siyasî olarak hep Delhi/Agra ile aynı
 // eldedir. 1670 Evrengzîb'in mâbed yıkımı sahiplik değiştirmedi.
@@ -252,7 +252,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1770-01-01", d:"babur-imparatorlugu"},
      {f:"1770-01-01", t:"1803-10-17", d:"maratha"},
-     {f:"1803-10-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-10-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Mîrat (Meerut) — Delhi'nin kuzeydoğu kapısı. 1857 ayaklanması burada
 // başladı (10 Mayıs); sahiplik değişmediği için pencere açılmadı.
@@ -262,7 +262,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1788-01-01", d:"babur-imparatorlugu"},
      {f:"1788-01-01", t:"1803-09-11", d:"maratha"},
-     {f:"1803-09-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Pânipat — Hint tarihinin üç dönüm noktasının sahnesi: 21 Nisan 1526
 // (Bâbür–İbrâhîm Lodî), 5 Kasım 1556 (Ekber–Hemû), 14 Ocak 1761
@@ -273,7 +273,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1556-11-05", d:"sur-hanedani"},
      {f:"1556-11-05", t:"1788-01-01", d:"babur-imparatorlugu"},
      {f:"1788-01-01", t:"1803-09-11", d:"maratha"},
-     {f:"1803-09-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Hisâr-ı Fîrûze — Fîrûz Şah Tuğluk'un 1354'te kurduğu şehir; kur: yazıldı.
 { ad:"Hisâr-ı Fîrûze", tur:"kale", lat:29.1530, lon:75.7220, g:0, k:4, d:[],
@@ -282,12 +282,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1803-09-11", d:"babur-imparatorlugu"},
-     {f:"1803-09-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Koil (Aligarh) — Doâb'ın ortası. 1757-1803 arası Rohilla, Câtlar ve
 // Maratha arasında elden ele geçti; 4 Eylül 1803'te İngiliz'e düştü.
 { ad:"Koil (Aligarh)", tur:"kale", lat:27.8970, lon:78.0880, g:0, k:4, d:[],
-  s:[{f:"1194-01-01",d:"gurlu",kaynak:"TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · 'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · ardıl yapı; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1784-01-01",d:"babur-imparatorlugu"},{f:"1784-01-01",t:"1803-09-04",d:"maratha"},{f:"1803-09-04",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1194-01-01",d:"gurlu",kaynak:"TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · 'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · ardıl yapı; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1784-01-01",d:"babur-imparatorlugu"},{f:"1784-01-01",t:"1803-09-04",d:"maratha"},{f:"1803-09-04",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Etâve (Etawah) — Yamuna-Ganj arası. 1801'de Avad nevâbı tarafından
 // İngilizlere devredilen "Ceded Districts" içindedir.
@@ -297,7 +297,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kannauc — 17 Mayıs 1540'ta Şîr Şah Sûr'un Hümâyûn'u yendiği yer; Sûr
 // hanedanının kuruluş sahnesi. Cavnpur Sultanlığı 1394-1479 arasında
@@ -310,7 +310,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kanpûr — 1778'de İngiliz karargâhı kurulana kadar Ganj kıyısında bir
 // köydür; şehir sonradan büyümüştür. Görev tanımının örnek merkezlerinden
@@ -324,7 +324,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 1b. Avad ve doğu Ganj =====
 //
@@ -343,7 +343,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1856-02-07", d:"avad"},
-     {f:"1856-02-07", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1856-02-07", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Feyzâbâd — Avad'ın 1722-1775 arası ilk başkenti; Ayodhya'nın yanı başında.
 { ad:"Feyzâbâd (Ayodhya)", tur:"sehir", lat:26.7750, lon:82.1450, g:0, k:2,kd:[{f:"1722-01-01",t:"1856-02-07",k:1,m:"Feyzâbâd (Ayodhya)"}], d:[],
@@ -354,7 +354,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1856-02-07", d:"avad"},
-     {f:"1856-02-07", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1856-02-07", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cavnpur — 1359'da Fîrûz Şah Tuğluk kurdu (kur:); 1394-1479 arasında Şarkî
 // hanedanının başkenti olarak Delhi'den bağımsız bir sultanlıktır. Bu
@@ -368,7 +368,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1775-01-01", d:"avad"},
-     {f:"1775-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1775-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Benâres (Vârânasî) — 1775'te Avad'dan İngilizlere devredildi.
 { ad:"Benâres (Vârânasî)", tur:"sehir", lat:25.3170, lon:83.0060, g:1, k:2,kd:[{f:"1911-01-01",t:"1923-10-29",k:1,m:"Benâres (Vârânasî)"}], d:[],
@@ -379,7 +379,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1775-01-01", d:"avad"},
-     {f:"1775-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1775-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Ilâhâbâd (Prayag) — Ekber 1583'te kaleyi kurdu ve şehre bu adı verdi;
 // yerleşim daha eskidir, bu yüzden kur: YAZILMADI.
@@ -391,7 +391,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1765-08-12", d:"babur-imparatorlugu"},
      {f:"1765-08-12", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Gorakhpûr — Ganj ovasının Nepal eteğindeki kuzey ucu.
 { ad:"Gorakhpûr", tur:"sehir", lat:26.7600, lon:83.3730, g:0, k:3, d:[],
@@ -402,7 +402,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Katmandu — Nepal. Görev tanımının tablosunda yok; Himalaya'nın güney
 // yamacında 500 km'lik bir boşluk kalmasın diye TEK nokta olarak konuldu
@@ -410,7 +410,7 @@ window.YERLESIMLER_ASYA = [
 // krallıkları 1482'de üçe bölündü, 25 Eylül 1768'de Gorkha'lı Prithvi
 // Narayan Şah Katmandu'yu aldı ve bugünkü Nepal kuruldu.
 { ad:"Katmandu", tur:"sehir", lat:27.7170, lon:85.3240, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Katmandu"}], d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"nepal"}] },
+  s:[{f:"1281-01-01", t:"2000-12-31", d:"nepal"}] },
 
 // ===== 1c. Pencap, kuzeybatı ve Sind =====
 //
@@ -433,7 +433,7 @@ window.YERLESIMLER_ASYA = [
 // erken evresi). Ranjit Singh Lahor'a 7 Temmuz 1799'da girdi.
 
 { ad:"Lahor", tur:"sehir", lat:31.5490, lon:74.3430, g:2, k:2,kd:[{f:"1801-04-12",t:"1849-03-29",k:1,m:"Lahor"}], d:[],
-  s:[{f:"1013-01-01",d:"gazneli",kaynak:"TDV lahor: 'Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.' · kaynak '1013-1014' ARALIĞI; başı yazıldı · ZAMAN-Z6-1008",t:"1186-01-01",kesinlik:"yil"},{f:"1186-01-01",d:"gurlu",kaynak:"TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1752-04-01",d:"babur-imparatorlugu"},{f:"1752-04-01",t:"1765-04-16",d:"afgan-durrani"},{f:"1765-04-16",t:"1849-03-29",d:"sih-imparatorlugu"},{f:"1849-03-29",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1013-01-01",d:"gazneli",kaynak:"TDV lahor: 'Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.' · kaynak '1013-1014' ARALIĞI; başı yazıldı · ZAMAN-Z6-1008",t:"1186-01-01",kesinlik:"yil"},{f:"1186-01-01",d:"gurlu",kaynak:"TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV lahor: '582’de (1186) Gur Sultanı Muizzüddin Muhammed Lahor’a hâkim oldu.' · ardıl yapı; künye günü devralındı — kaynaksız gün. 1241 Moğol yağması bu maddede yok · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1752-04-01",d:"babur-imparatorlugu"},{f:"1752-04-01",t:"1765-04-16",d:"afgan-durrani"},{f:"1765-04-16",t:"1849-03-29",d:"sih-imparatorlugu"},{f:"1849-03-29",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Multan — 1445-1528 arası Langah hânedanının bağımsız sultanlığıdır
 // (TDV MULTAN). 1528'de Şah Hüseyin Erguni aldı, 1557'de Bâbürlü'ye geçti.
@@ -445,7 +445,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1557-01-01", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1818-06-02", d:"afgan-durrani"},
      {f:"1818-06-02", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Amritsar — Sih dininin merkezi; Ram Das 1577'de havuzu kazdırdı, şehir o
 // tarihten itibaren vardır (kur:). 1802'de Ranjit Singh'in eline geçti.
@@ -454,7 +454,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1577-01-01", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Sirhind — Delhi ile Lahor arasındaki menzil şehri; 14 Ocak 1764'te Sih
 // misllerince yıkıldı, o tarihten sonra bir daha toparlanamadı.
@@ -465,7 +465,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1764-01-14", d:"afgan-durrani"},
      {f:"1764-01-14", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Câlandhar (Jalandhar)", tur:"sehir", lat:31.3260, lon:75.5760, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -474,7 +474,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1846-03-09", d:"sih-imparatorlugu"},
-     {f:"1846-03-09", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1846-03-09", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Ludhiyana", tur:"sehir", lat:30.9010, lon:75.8570, g:0, k:3, d:[],
   kur:"1480-01-01",
@@ -484,7 +484,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1809-04-25", d:"sih-imparatorlugu"},
-     {f:"1809-04-25", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1809-04-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Siyâlkot", tur:"sehir", lat:32.4940, lon:74.5310, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -493,7 +493,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Attock — Ekber 1581'de İndus geçidini tutmak için kurdu (kur:).
 { ad:"Attock", tur:"kale", lat:33.7660, lon:72.3600, g:0, k:4, d:[],
@@ -502,7 +502,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
      {f:"1747-06-20", t:"1813-07-13", d:"afgan-durrani"},
      {f:"1813-07-13", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 { ad:"Râvalpindi", tur:"sehir", lat:33.5980, lon:73.0480, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -512,7 +512,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
      {f:"1747-06-20", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Peşâver — Hayber geçidinin doğu ağzı. Nâdir Şah 1738'de, Dürrânî 1747'de,
 // Sihler 6 Mayıs 1834'te, İngilizler 1849'da aldı.
@@ -522,7 +522,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
      {f:"1747-06-20", t:"1834-05-06", d:"afgan-durrani"},
      {f:"1834-05-06", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // ⚠️ KÖPRÜ NOKTALARI — Kâbil, Gazne, Kandehar görev tanımının tablosunda
 // (68-97°D) yok; üçü de 65-69°D arasındadır. Yine de konuldular çünkü Delhi
@@ -544,7 +544,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1839-08-07", t:"1842-01-06", d:"ingiltere"},
      {f:"1842-01-06", t:"1879-10-12", d:"afganistan"},
      {f:"1879-10-12", t:"1880-08-11", d:"ingiltere"},
-     {f:"1880-08-11", t:"1923-10-29", d:"afganistan"}] },
+     {f:"1880-08-11", t:"2000-12-31", d:"afganistan"}] },
 
 { ad:"Gazne", tur:"sehir", lat:33.5510, lon:68.4230, g:1, k:2, d:[],
   s:[{f:"1281-01-01", t:"1370-01-01", d:"cagatay"},
@@ -554,7 +554,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
      {f:"1826-01-01", t:"1839-07-23", d:"afganistan"},
      {f:"1839-07-23", t:"1842-09-06", d:"ingiltere"},
-     {f:"1842-09-06", t:"1923-10-29", d:"afganistan"}] },
+     {f:"1842-09-06", t:"2000-12-31", d:"afganistan"}] },
 
 // Kandehar — Bâbürlü ile Safevî arasında altı kez el değiştirdi: 1522 Bâbür,
 // 1537 Safevî, 1595 Bâbürlü, 1622 Safevî, 1638 Bâbürlü, 1649 Safevî.
@@ -572,7 +572,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1649-02-22", t:"1709-04-21", d:"safevi"},
      {f:"1709-04-21",t:"1738-03-24",d:"galzay"}, {f:"1738-03-24",t:"1747-06-20",d:"afsar"},
      {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
-     {f:"1826-01-01", t:"1923-10-29", d:"afganistan"}] },
+     {f:"1826-01-01", t:"2000-12-31", d:"afganistan"}] },
 
 // Keşmir — "kesmir" kimliği 1281-1586 arasının TAMAMINI kapsar: 1320'ye
 // kadar Lohara hânedanı, 1339'dan itibaren Şah Mîr sultanlığı (TDV KEŞMİR).
@@ -585,14 +585,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1586-10-01", t:"1752-01-01", d:"babur-imparatorlugu"},
      {f:"1752-01-01", t:"1819-07-05", d:"afgan-durrani"},
      {f:"1819-07-05", t:"1846-03-16", d:"sih-imparatorlugu"},
-     {f:"1846-03-16", t:"1923-10-29", d:"cammu-kesmir"}] },
+     {f:"1846-03-16", t:"1947-10-26", d:"cammu-kesmir"},{f:"1947-10-26",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Instrument of Accession, Hari Singh 1947-10-26 (SATP metni; Britannica); Hindistan-idaresindeki kesim"}] },
 
 { ad:"Cammû (Jammu)", tur:"sehir", lat:32.7340, lon:74.8690, g:0, k:2,kd:[{f:"1846-03-16",t:"1923-10-29",k:1,m:"Cammû (Jammu)"}], d:[],
   s:[{f:"1281-01-01", t:"1586-10-01", d:"kesmir"},
      {f:"1586-10-01", t:"1752-01-01", d:"babur-imparatorlugu"},
      {f:"1752-01-01", t:"1808-01-01", d:"afgan-durrani"},
      {f:"1808-01-01", t:"1846-03-16", d:"sih-imparatorlugu"},
-     {f:"1846-03-16", t:"1923-10-29", d:"cammu-kesmir"}] },
+     {f:"1846-03-16", t:"1947-10-26", d:"cammu-kesmir"},{f:"1947-10-26",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Instrument of Accession, Hari Singh 1947-10-26 (SATP metni; Britannica); Hindistan-idaresindeki kesim"}] },
 
 // Leh (Ladakh) — Namgyal hânedanı; Tibet-Bhutan savaşı sonrası 1684 Tingmosgang
 // antlaşmasıyla Tibet'e vergi verir hâle geldi ama krallık sürdü. 1834-1842
@@ -602,7 +602,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Leh (Ladakh)", tur:"sehir", lat:34.1640, lon:77.5850, g:0, k:1,kd:[{f:"1281-01-01",t:"1834-01-01",k:1,m:"Leh (Ladakh)"}], d:[],
   s:[{f:"1281-01-01", t:"1834-01-01", d:"ladak"},
      {f:"1834-01-01", t:"1846-03-16", d:"sih-imparatorlugu"},
-     {f:"1846-03-16", t:"1923-10-29", d:"cammu-kesmir"}] },
+     {f:"1846-03-16", t:"1947-10-26", d:"cammu-kesmir"},{f:"1947-10-26",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Instrument of Accession, Hari Singh 1947-10-26 (SATP metni; Britannica); Hindistan-idaresindeki kesim"}] },
 
 // SİND — "sind" kimliği Sûmra, Samma (1351-1524), Erguni-Tarhan (1524-1591),
 // Kalhora (1701-1783) ve Talpur (1783-1843) hânedanlarının tamamını kapsar
@@ -613,34 +613,34 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1592-01-01", d:"sind"},
      {f:"1592-01-01", t:"1701-01-01", d:"babur-imparatorlugu"},
      {f:"1701-01-01", t:"1843-02-17", d:"sind"},
-     {f:"1843-02-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1843-02-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Haydarâbâd (Sind) — Gulâm Şah Kalhora 1768'de kurdu (kur:). Dekken'deki
 // Haydarâbâd ile karışmasın diye ad parantezlidir.
 { ad:"Haydarâbâd (Sind)", tur:"sehir", lat:25.3960, lon:68.3770, g:0, k:1,kd:[{f:"1768-01-01",t:"1843-02-17",k:1,m:"Haydarâbâd (Sind)"}], d:[],
   kur:"1768-01-01",
   s:[{f:"1768-01-01", t:"1843-02-17", d:"sind"},
-     {f:"1843-02-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1843-02-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Karaçi — Kalhora idaresinde 1729'da balıkçı limanı olarak kuruldu (kur:);
 // İngilizler 3 Şubat 1839'da işgal etti, Sind'in ilhakından dört yıl önce.
 { ad:"Karaçi", tur:"liman", lat:24.8610, lon:67.0100, g:1, k:3, d:[],
   kur:"1729-01-01",
   s:[{f:"1729-01-01", t:"1839-02-03", d:"sind"},
-     {f:"1839-02-03", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1839-02-03", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 { ad:"Şikârpûr", tur:"sehir", lat:27.9550, lon:68.6380, g:0, k:3, d:[],
   kur:"1617-01-01",
   s:[{f:"1617-01-01", t:"1701-01-01", d:"babur-imparatorlugu"},
      {f:"1701-01-01", t:"1843-02-17", d:"sind"},
-     {f:"1843-02-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1843-02-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 // Bahâvelpûr — 1748'de Abbâsî nevâblarının kurduğu prens devleti (kur:);
 // 1833'ten itibaren İngiliz himayesinde ama tahtı 1955'e kadar sürdü, bu
 // yüzden "sind" değil kendi kimliğiyle bırakıldı.
 { ad:"Bahâvelpûr", tur:"sehir", lat:29.3950, lon:71.6840, g:0, k:2,kd:[{f:"1748-01-01",t:"1923-10-29",k:1,m:"Bahâvelpûr"}], d:[],
   kur:"1748-01-01",
-  s:[{f:"1748-01-01", t:"1923-10-29", d:"bahavelpur"}] },
+  s:[{f:"1748-01-01", t:"1955-10-14", d:"bahavelpur"},{f:"1955-10-14",t:"2000-12-31",d:"pakistan",kaynak:"Britannica Pakistan"}] },
 
 // ===== 1d. Racputâne =====
 //
@@ -655,26 +655,20 @@ window.YERLESIMLER_ASYA = [
 // 1559'da aldı, 1818'de Maratha'dan İngilizlere geçti ve prens devleti
 // olmadı. Bu yüzden zinciri komşularından ayrılır.
 { ad:"Ecmîr (Ajmer)", tur:"sehir", lat:26.4500, lon:74.6390, g:1, k:3, d:[],
-  s:[{f:"1192-01-01",d:"gurlu",kaynak:"TDV ecmir: 'Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.' · fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi) · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1365-01-01",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV ecmir: 'Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.' · Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil · ZAMAN-Z6-1008"},{f:"1365-01-01",t:"1559-01-01",d:"racput"},{f:"1559-01-01",t:"1756-01-01",d:"babur-imparatorlugu"},{f:"1756-01-01",t:"1818-06-25",d:"maratha"},{f:"1818-06-25",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1192-01-01",d:"gurlu",kaynak:"TDV ecmir: 'Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.' · fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi) · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1365-01-01",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV ecmir: 'Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.' · Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil · ZAMAN-Z6-1008"},{f:"1365-01-01",t:"1559-01-01",d:"racput"},{f:"1559-01-01",t:"1756-01-01",d:"babur-imparatorlugu"},{f:"1756-01-01",t:"1818-06-25",d:"maratha"},{f:"1818-06-25",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çitor (Chittorgarh) — Mevar'ın kalesi ve Hint tarihinin üç büyük
 // kuşatmasının sahnesi: Alâeddin Halacî 26 Ağustos 1303, Gucerât sultanı
 // Bahadır Şah 8 Mart 1535, Ekber 23 Şubat 1568. 1615 Şubat'ında Cihângîr
 // ile Rana Amar Singh anlaştı ve Mevar toprakları iade edildi.
 { ad:"Çitor (Chittorgarh)", tur:"kale", lat:24.8790, lon:74.6290, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Çitor (Chittorgarh)"}], d:[],
-  s:[{f:"1281-01-01", t:"1303-08-26", d:"racput"},
-     {f:"1303-08-26", t:"1311-01-01", d:"delhi-sultanligi"},
-     {f:"1311-01-01", t:"1535-03-08", d:"racput"},
-     {f:"1535-03-08", t:"1537-01-01", d:"gucerat-sultanligi"},
-     {f:"1537-01-01", t:"1568-02-23", d:"racput"},
-     {f:"1568-02-23", t:"1615-02-05", d:"babur-imparatorlugu"},
-     {f:"1615-02-05", t:"1923-10-29", d:"racput"}] },
+  s:[{f:"1281-01-01", t:"1303-08-26", d:"racput"},{f:"1303-08-26", t:"1311-01-01", d:"delhi-sultanligi"},{f:"1311-01-01", t:"1535-03-08", d:"racput"},{f:"1535-03-08", t:"1537-01-01", d:"gucerat-sultanligi"},{f:"1537-01-01", t:"1568-02-23", d:"racput"},{f:"1568-02-23", t:"1615-02-05", d:"babur-imparatorlugu"},{f:"1615-02-05", t:"1948-04-18", d:"racput"},{f:"1948-04-18",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 // Udeypûr — Rana Udai Singh 1559'da Çitor'un yerine kurdu (kur:). Mevar
 // Bâbürlü'ye 1615'te bağlandı ama başkent hiç Bâbürlü eline geçmedi.
 { ad:"Udeypûr (Udaipur)", tur:"sehir", lat:24.5850, lon:73.7120, g:1, k:1,kd:[{f:"1559-01-01",t:"1923-10-29",k:1,m:"Udeypûr (Udaipur)"}], d:[],
   kur:"1559-01-01",
-  s:[{f:"1559-01-01", t:"1923-10-29", d:"racput"}] },
+  s:[{f:"1559-01-01", t:"1948-04-18", d:"racput"},{f:"1948-04-18",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 // Codhpûr — Rao Codha 1459'da kurdu (kur:). 1679-1707 arası Evrengzîb'in
 // doğrudan idaresi altında kaldı (Mârvâr veraset savaşı).
@@ -682,28 +676,28 @@ window.YERLESIMLER_ASYA = [
   kur:"1459-01-01",
   s:[{f:"1459-01-01", t:"1679-01-01", d:"racput"},
      {f:"1679-01-01", t:"1707-03-03", d:"babur-imparatorlugu"},
-     {f:"1707-03-03", t:"1923-10-29", d:"racput"}] },
+     {f:"1707-03-03", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 // Caypûr — Sevâî Cay Singh 1727'de kurdu (kur:). Öncesinde hânedanın
 // merkezi 9 km kuzeydoğudaki Amber'dir; Amber ayrı nokta olarak EKLENMEDİ
 // (3 km kuralını geçiyor ama aynı peteği paylaşıyorlar).
 { ad:"Caypûr (Jaipur)", tur:"sehir", lat:26.9120, lon:75.7870, g:1, k:1,kd:[{f:"1727-01-01",t:"1923-10-29",k:1,m:"Caypûr (Jaipur)"}], d:[],
   kur:"1727-01-01",
-  s:[{f:"1727-01-01", t:"1923-10-29", d:"racput"}] },
+  s:[{f:"1727-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 { ad:"Caysalmer", tur:"kale", lat:26.9150, lon:70.9120, g:0, k:4, d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"racput"}] },
+  s:[{f:"1281-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 // Bikaner — Rao Bika 1488'de kurdu (kur:).
 { ad:"Bikaner", tur:"sehir", lat:28.0220, lon:73.3120, g:0, k:3, d:[],
   kur:"1488-01-01",
-  s:[{f:"1488-01-01", t:"1923-10-29", d:"racput"}] },
+  s:[{f:"1488-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 // Bharatpûr — Câtların devleti; Sûrac Mal 1733'te kaleyi kurdu (kur:).
 // Racput değildir, ayrı kimlik: 1761-1774 arasında Agra kalesini de tuttu.
 { ad:"Bharatpûr", tur:"kale", lat:27.2170, lon:77.4900, g:0, k:2,kd:[{f:"1733-01-01",t:"1923-10-29",k:1,m:"Bharatpûr"}], d:[],
   kur:"1733-01-01",
-  s:[{f:"1733-01-01", t:"1923-10-29", d:"bharatpur-cat"}] },
+  s:[{f:"1733-01-01", t:"1948-03-18", d:"bharatpur-cat"},{f:"1948-03-18",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India"}] },
 
 // ===== 1e. Gucerât, Mâlvâ ve Orta Hindistan =====
 //
@@ -719,7 +713,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1411-02-26", t:"1572-11-18", d:"gucerat-sultanligi"},
      {f:"1572-11-18", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Sûrat — Hint Okyanusu'nun en büyük Müslüman limanı ve Mekke yolunun
 // çıkış kapısı; Osmanlı ile temasın olduğu tek Hint şehridir (1538 Diu
@@ -731,7 +725,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1759-03-04", d:"babur-imparatorlugu"},
-     {f:"1759-03-04", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1759-03-04", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kanbâyet (Cambay/Khambhat) — Gucerât'ın ortaçağdaki asıl limanı; körfezin
 // dolmasıyla yerini Sûrat'a bıraktı. 1780'den sonra Bâbürlü nevâbının
@@ -742,7 +736,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1803-12-30", d:"maratha"},
-     {f:"1803-12-30", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-12-30", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Diu — 1509 Diu deniz savaşı ve 1538 Osmanlı-Gucerât kuşatmasının sahnesi.
 // Portekiz 1535'te kaleyi kurdu ve 1961'e kadar elinde tuttu; bu dosyadaki
@@ -751,7 +745,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1535-10-25", d:"gucerat-sultanligi"},
-     {f:"1535-10-25", t:"1923-10-29", d:"portekiz"}] },
+     {f:"1535-10-25", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1961-12-19",d:"portekiz-hindistani-goa",kaynak:"Hindistan'in Goa/Daman/Diu ilhaki 19 Aralik 1961 (Britannica Goa)"},{f:"1961-12-19",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Goa"}] },
 
 // Cûnâgadh — Girnar eteğindeki racput kalesi; 1472'de Gucerât sultanı
 // Mahmud Begada aldı, 1748'de Bâbürlü nevâbı bağımsızlaşarak prens devleti
@@ -760,13 +754,13 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1472-01-01", d:"racput"},
      {f:"1472-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1748-01-01", d:"babur-imparatorlugu"},
-     {f:"1748-01-01", t:"1923-10-29", d:"cunagadh"}] },
+     {f:"1748-01-01", t:"1947-11-09", d:"cunagadh"},{f:"1947-11-09",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Junagadh"}] },
 
 // Bhuc (Kutch) — Câdeja racput hânedanı; 1549'da kuruldu, 1819'da İngiliz
 // himayesine girdi ama taht sürdü.
 { ad:"Bhuc (Kutch)", tur:"sehir", lat:23.2420, lon:69.6670, g:0, k:3, d:[],
   kur:"1510-01-01",
-  s:[{f:"1510-01-01", t:"1923-10-29", d:"racput"}] },
+  s:[{f:"1510-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
 
 // Patan (Anhilvâda) — Vâghela başkenti; 1304'te Delhi'ye, 1411'de
 // Ahmedâbâd'ın kurulmasıyla ikinci sıraya düştü.
@@ -776,7 +770,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1407-01-01", t:"1572-11-18", d:"gucerat-sultanligi"},
      {f:"1572-11-18", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çampâner — Gucerât sultanı Mahmud Begada 1484'te aldı ve 1535'e kadar
 // başkent yaptı; Hümâyûn'un 1535 seferinden sonra terk edildi ve bir daha
@@ -787,14 +781,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1484-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Broaç (Bharuch)", tur:"liman", lat:21.7153, lon:72.9950, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1772-11-18", d:"babur-imparatorlugu"},
-     {f:"1772-11-18", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1772-11-18", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // MÂLVÂ: Delhi 1305'te aldı; Dilâver Han 1392'de bağımsızlığını ilân etti
 // (TDV MÂLVÂ). Gucerât 1531-1535 arasında işgal etti. Bâz Bahadır'ın
@@ -808,7 +802,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1531-01-01", t:"1535-01-01", d:"gucerat-sultanligi"},
      {f:"1535-01-01", t:"1561-03-29", d:"malva-sultanligi"},
      {f:"1561-03-29", t:"1732-01-01", d:"babur-imparatorlugu"},
-     {f:"1732-01-01", t:"1923-10-29", d:"maratha"}] },
+     {f:"1732-01-01", t:"1923-10-29", d:"maratha"},{f:"1923-10-29",t:"1947-08-15",d:"ingiliz-hindistani",kaynak:"Britannica Dhar"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India"}] },
 
 { ad:"Uccayn (Ujjain)", tur:"sehir", lat:23.1790, lon:75.7850, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1305-01-01", d:"racput"},
@@ -818,7 +812,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1732-01-01", t:"1818-06-03", d:"maratha"},
      // HAYALET-KUNYE-1008 · EB1911 c.27 s.583 «in the state of Gwalior» · «the headquarters of Sindhia».
      // 1818-06-03 = `maratha` künye sonu (kaynak günü DEĞİL, künye sınırı — İndor/Gvalyar emsali).
-     {f:"1818-06-03", t:"1923-10-29", d:"gvalyar"}] },
+     {f:"1818-06-03", t:"1948-05-28", d:"gvalyar"},{f:"1948-05-28",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Gvalyar 1948 Madhya Bharat'a katildi (Britannica Gwalior)"}] },
 
 // İndor — Holkar hânedanının merkezi; Malhar Rao Holkar 1733'ten itibaren
 // buradan yönetti, şehir 1715 civarında pazar yeri olarak kuruldu.
@@ -826,7 +820,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"İndor (Indore)", tur:"sehir", lat:22.7200, lon:75.8580, g:0, k:3, d:[],
   kur:"1715-01-01",
   s:[{f:"1715-01-01", t:"1732-07-29", d:"babur-imparatorlugu"},
-     {f:"1732-07-29", t:"1923-10-29", d:"indor"}] },
+     {f:"1732-07-29", t:"1948-05-28", d:"indor"},{f:"1948-05-28",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India"}] },
   // 🔴 KITA 5 (12 Eylül) — "maratha" → "indor" (Holkar Hanedanı). Künyenin
   // KENDİ f:'i (1732-07-29) zaten İNDOR'un kendisiyle ilgili: 1720'de pargana
   // merkezi Kampel'den Indore'ye taşındı, 29 Temmuz 1732'de Malhar Rao Holkar
@@ -847,7 +841,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1783-07-21", d:"babur-imparatorlugu"},
-     {f:"1783-07-21", t:"1923-10-29", d:"gvalyar"}] },
+     {f:"1783-07-21", t:"1948-05-28", d:"gvalyar"},{f:"1948-05-28",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Gvalyar 1948 Madhya Bharat'a katildi (Britannica Gwalior)"}] },
   // 🔴 KITA 5 (12 Eylül) — "maratha" → "gvalyar" (Sindiya Hanedanı), ve
   // KITA 8'in ÜÇ ADAY (künye 1731 · veri 1784 · TDV 1761) sorusuna CEVAP:
   // ÜÇÜ DE FARKLI SORUYU cevaplıyordu. 1731 Ranoji Sindiya'nın hânedanı
@@ -866,7 +860,7 @@ window.YERLESIMLER_ASYA = [
 // İngiliz himayesine giren prens devleti, hânedan 1949'a kadar sürdü.
 { ad:"Bhopâl", tur:"sehir", lat:23.2590, lon:77.4130, g:0, k:1,kd:[{f:"1708-01-01",t:"1923-10-29",k:1,m:"Bhopâl"}], d:[],
   kur:"1707-01-01",
-  s:[{f:"1707-01-01", t:"1923-10-29", d:"bhopal"}] },
+  s:[{f:"1707-01-01", t:"1949-06-01", d:"bhopal"},{f:"1949-06-01",t:"1956-11-01",d:"bhopal-eyaleti-1949",kaynak:"tsv künye bhopal-eyaleti-1949"},{f:"1956-11-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // Nagpûr — Bhonsle Maratha hânedanının merkezi; Gond krallığından 1743'te
 // alındı, 1853'te "lapse" doktriniyle ilhak edildi.
@@ -874,7 +868,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1702-01-01",
   s:[{f:"1702-01-01", t:"1743-01-01", d:"gond-kralliklari"},
      {f:"1743-01-01", t:"1853-12-11", d:"maratha"},
-     {f:"1853-12-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1853-12-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cabalpûr — Gond Garha-Mandla krallığı; Ekber 1564'te vergiye bağladı ama
 // hânedan sürdü. 1781'de Maratha, 1818'de İngiliz.
@@ -884,7 +878,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1301-01-01", d:"__BOSLUK__"},
      {f:"1301-01-01", t:"1781-01-01", d:"gond-kralliklari"},
      {f:"1781-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 1f. Bihâr, Bengal ve Orissa =====
 //
@@ -913,7 +907,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1574-08-03", d:"bengal-sultanligi"},
      {f:"1574-08-03", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
-     {f:"1764-10-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Gayâ", tur:"sehir", lat:24.7960, lon:85.0010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1497-01-01", d:"delhi-sultanligi"},
@@ -922,7 +916,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1574-08-03", d:"bengal-sultanligi"},
      {f:"1574-08-03", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
-     {f:"1764-10-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Mungîr (Monghyr)", tur:"kale", lat:25.3750, lon:86.4740, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
@@ -931,7 +925,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
-     {f:"1764-10-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Bhâgalpûr", tur:"sehir", lat:25.2440, lon:86.9820, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
@@ -940,7 +934,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Gaur (Lakhnautî) — Bengal Sultanlığı'nın başkenti. 1575 vebasından sonra
 // terk edildi; bit: bu yüzden yazıldı. Sahiplik zinciri Oturum 4'ün Köhne
@@ -954,7 +948,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Pandua (Hazret Pandua) — Bengal'in 1342-1453 arası başkenti; Gaur'a
 // 30 km, 3 km kuralını rahatça geçiyor.
@@ -965,7 +959,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Râcmahal — Man Singh 1592'de Bâbürlü Bengal'inin başkenti yaptı (kur:).
 // 12 Temmuz 1576'daki Râcmahal Muharebesi Bengal Sultanlığı'nı bitirdi.
@@ -973,7 +967,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1592-01-01",
   s:[{f:"1592-01-01", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Murşidâbâd — Murşid Kulı Han 1704'te kurdu ve nevâblığın başkenti yaptı
 // (kur:). Palaşi'den sonra da nevâb sarayı burada kaldı ama toprak
@@ -982,7 +976,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1704-01-01",
   s:[{f:"1704-01-01", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Dakka (Cihângîrnagar) — İslâm Han 1610'da Bâbürlü Bengal'inin başkenti
 // yaptı; şehir daha eskidir, bu yüzden kur: YAZILMADI.
@@ -993,7 +987,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"1971-12-16",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"},{f:"1971-12-16",t:"2000-12-31",d:"banglades",kaynak:"https://history.state.gov/countries/bangladesh (tanima 1972-04-04); 1971-12-16 fiili teslim gunu: bulunamadi, ikincil bilgi"}] },
 
 // Sonârgâon — 1338'de Fahreddin Mübârek Şah'ın bağımsızlık ilân ettiği yer,
 // yani Bengal Sultanlığı'nın doğduğu şehir. Dakka'ya 34 km.
@@ -1004,7 +998,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"1971-12-16",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"},{f:"1971-12-16",t:"2000-12-31",d:"banglades",kaynak:"https://history.state.gov/countries/bangladesh (tanima 1972-04-04); 1971-12-16 fiili teslim gunu: bulunamadi, ikincil bilgi"}] },
 
 // Çatgam (Chittagong) — Bengal ile Arakan arasında yüzyıllarca el değiştirdi.
 // Mrauk U 1459'da aldı; Bâbürlü vali Şâyeste Han 27 Ocak 1666'da geri aldı
@@ -1015,7 +1009,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1459-01-01", t:"1666-01-27", d:"arakan"},
      {f:"1666-01-27", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1760-10-11", d:"bengal-nevabligi"},
-     {f:"1760-10-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1760-10-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"1971-12-16",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"},{f:"1971-12-16",t:"2000-12-31",d:"banglades",kaynak:"https://history.state.gov/countries/bangladesh (tanima 1972-04-04); 1971-12-16 fiili teslim gunu: bulunamadi, ikincil bilgi"}] },
 
 // Kalküta — Job Charnock'un 24 Ağustos 1690'da kurduğu ticaret merkezi
 // (kur:). 1690 öncesi boşluk KASITLIDIR. 1756 Haziran'ında Sirâceddevle
@@ -1025,7 +1019,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1690-08-24",
   s:[{f:"1690-08-24", t:"1756-06-20", d:"ingiltere"},
      {f:"1756-06-20", t:"1757-01-02", d:"bengal-nevabligi"},
-     {f:"1757-01-02", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-01-02", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Hûglî — Portekiz 1580'de kurdu, Şah Cihan 1632'de zaptetti; Bengal'in
 // ilk Avrupa yerleşimidir.
@@ -1038,7 +1032,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1580-01-01", t:"1632-06-24", d:"portekiz",enklav:true},
      {f:"1632-06-24", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çandernagor — Fransız Bengal'i, 1688'de kuruldu (kur:). Hûglî'ye 5.1 km;
 // 3 km kuralını geçiyor ve iki ayrı devletin toprağı olduğu için ikisi de
@@ -1046,11 +1040,7 @@ window.YERLESIMLER_ASYA = [
 // tekrar İngiliz işgalinde kaldı, sonra 1950'ye kadar Fransız.
 { ad:"Çandernagor", tur:"liman", lat:22.8620, lon:88.3570, g:0, k:3, d:[],
   kur:"1688-01-01",
-  s:[{f:"1688-01-01", t:"1757-03-23", d:"fransa",enklav:true},
-     {f:"1757-03-23", t:"1763-02-10", d:"ingiltere",enklav:true},
-     {f:"1763-02-10", t:"1793-06-10", d:"fransa",enklav:true},
-     {f:"1793-06-10", t:"1816-12-04", d:"ingiltere",enklav:true},
-     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet", enklav: true }] },
+  s:[{f:"1688-01-01", t:"1757-03-23", d:"fransa",enklav:true},{f:"1757-03-23", t:"1763-02-10", d:"ingiltere",enklav:true},{f:"1763-02-10", t:"1793-06-10", d:"fransa",enklav:true},{f:"1793-06-10", t:"1816-12-04", d:"ingiltere",enklav:true},{f:"1816-12-04",t:"1950-05-02",d:"fransa-cumhuriyet", enklav: true },{f:"1950-05-02",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // ORISSA: Doğu Ganga (1281-1434) ve Gacapati (1434-1568) hânedanları tek
 // "orissa" kimliğinde; ikisi de aynı krallığın hânedanlarıdır. 1568'de
@@ -1062,14 +1052,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
-     {f:"1803-10-14", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Puri", tur:"sehir", lat:19.8130, lon:85.8310, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1568-01-01", d:"orissa"},
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
-     {f:"1803-10-14", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bâlâsor — İngiliz Doğu Hindistan Şirketi'nin Bengal'deki İLK fabrikası
 // (1633); Kalküta'dan 57 yıl önce.
@@ -1078,7 +1068,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
-     {f:"1803-10-14", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ASSAM — Ahom krallığı 1228'de kuruldu ve altı yüzyıl boyunca hem
 // Bâbürlü hem Bengal saldırılarını püskürttü (1671 Saraighat). Birmanya
@@ -1087,13 +1077,13 @@ window.YERLESIMLER_ASYA = [
 { ad:"Gauhâtî (Guwahati)", tur:"sehir", lat:26.1450, lon:91.7360, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1817-01-01", d:"ahom"},
      {f:"1817-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1826-02-24", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Rangpûr (Sibsâgar) — Ahom krallığının 1699'dan sonraki başkenti.
 { ad:"Sibsâgar (Rangpûr)", tur:"sehir", lat:26.9850, lon:94.6380, g:0, k:1,kd:[{f:"1281-01-01",t:"1826-01-01",k:1,m:"Sibsâgar (Rangpûr)"}], d:[],
   s:[{f:"1281-01-01", t:"1817-01-01", d:"ahom"},
      {f:"1817-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1826-02-24", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Manipûr — Ahom ile Birmanya arasındaki dağ krallığı; 1819-1826 Birman
 // işgali, 1826'dan sonra İngiliz himayesinde prens devleti, 1891'de
@@ -1101,7 +1091,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"İmphâl (Manipûr)", tur:"sehir", lat:24.8170, lon:93.9370, g:0, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"İmphâl (Manipûr)"}], d:[],
   s:[{f:"1281-01-01", t:"1819-01-01", d:"manipur"},
      {f:"1819-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"manipur"}] },
+     {f:"1826-02-24", t:"1949-10-15", d:"manipur"},{f:"1949-10-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // ###########################################################################
 // BÖLÜM 2 — DEKKEN ve GÜNEY HİNDİSTAN
@@ -1129,7 +1119,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1347-08-03", t:"1499-01-01", d:"behmeni"},
      {f:"1499-01-01", t:"1633-06-28", d:"ahmednagar"},
      {f:"1633-06-28", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Evrengâbâd — Melik Anber 1610'da Hadkî adıyla kurdu (kur:); Evrengzîb
 // 1681-1707 arasında Dekken seferlerinin karargâhı yaptı. Devagiri'ye
@@ -1138,7 +1128,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1610-01-01",
   s:[{f:"1610-01-01", t:"1633-06-28", d:"ahmednagar"},
      {f:"1633-06-28", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Ahmednagar — Ahmed Nizâm Şah 1490'da kurdu (kur:) ve Nizâmşâhî
 // hânedanına adını verdi. Ekber'in ordusu 1600'de aldı ama devlet Melik
@@ -1149,7 +1139,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1490-01-01", t:"1600-08-28", d:"ahmednagar"},
      {f:"1600-08-28", t:"1759-01-01", d:"babur-imparatorlugu"},
      {f:"1759-01-01", t:"1803-08-12", d:"maratha"},
-     {f:"1803-08-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1803-08-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Elicpûr (Achalpur) — Berâr'ın İmâdşâhî başkenti; 1574'te Ahmednagar
 // ilhak etti. 1853'te Berâr, Nizam'ın borcuna karşılık İngiliz idaresine
@@ -1163,7 +1153,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1574-01-01", t:"1596-01-01", d:"ahmednagar"},
      {f:"1596-01-01", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1853-05-21", d:"haydarabad-nizam"},
-     {f:"1853-05-21", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1853-05-21", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bîdar — Behmenî başkenti 1432'den itibaren; 1489'da Barîdşâhî hânedanı
 // bağımsızlaştı, 1619'da Bîcâpur ilhak etti, 1657'de Evrengzîb aldı.
@@ -1174,7 +1164,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1489-01-01", t:"1619-01-01", d:"bidar"},
      {f:"1619-01-01", t:"1657-03-29", d:"bicapur"},
      {f:"1657-03-29", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Gülberge (Gulbarga) — Behmenî'nin İLK başkenti (1347-1432); devletin
 // kurulduğu şehirdir.
@@ -1185,7 +1175,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1489-01-01", t:"1619-01-01", d:"bidar"},
      {f:"1619-01-01", t:"1686-09-12", d:"bicapur"},
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Bîcâpur — Âdilşâhî hânedanının başkenti; Evrengzîb 12 Eylül 1686'da
 // on beş aylık kuşatmadan sonra aldı.
@@ -1197,7 +1187,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1760-01-01", d:"haydarabad-nizam"},
      {f:"1760-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Golkonda — Kutubşâhî kalesi; Evrengzîb 21 Eylül 1687'de sekiz aylık
 // kuşatmadan sonra aldı ve Dekken'in son bağımsız sultanlığı bitti.
@@ -1209,7 +1199,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1347-08-03", t:"1512-01-01", d:"behmeni"},
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Haydarâbâd (Dekken) — Muhammed Kulı Kutub Şah 1591'de kurdu (kur:);
 // 1724'ten sonra Nizamlığın başkenti ve Hindistan'ın en büyük prens
@@ -1219,7 +1209,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1591-01-01",
   s:[{f:"1591-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Varangal — Kâkatiya başkenti; Uluğ Han (sonradan Muhammed b. Tuğluk)
 // 1323'te aldı. 1336-1361 arasında Musunuri nâyakları Delhi idaresini
@@ -1233,7 +1223,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1361-01-01", t:"1512-01-01", d:"behmeni"},
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // ===== 2b. Maratha yurdu ve batı kıyısı =====
 //
@@ -1249,7 +1239,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1490-01-01", t:"1636-01-01", d:"ahmednagar"},
      {f:"1636-01-01", t:"1674-06-06", d:"bicapur"},
      {f:"1674-06-06", t:"1817-11-17", d:"maratha"},
-     {f:"1817-11-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1817-11-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Raygad — Şivâcî'nin başkenti. Evrengzîb 3 Kasım 1689'da aldı, Marathalar
 // 1733'te geri aldı, İngilizler 9 Mayıs 1818'de.
@@ -1262,7 +1252,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1674-06-06", t:"1689-11-03", d:"maratha"},
      {f:"1689-11-03", t:"1733-01-01", d:"babur-imparatorlugu"},
      {f:"1733-01-01", t:"1818-05-09", d:"maratha"},
-     {f:"1818-05-09", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-05-09", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Satâra — 1708-1818 arası Maratha çhatrapatilerinin makamı; 1818'de
 // prens devleti oldu, 1848'de "lapse" doktriniyle ilhak edildi.
@@ -1272,7 +1262,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1674-06-06", d:"bicapur"},
      {f:"1674-06-06", t:"1848-04-05", d:"maratha"},
-     {f:"1848-04-05", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1848-04-05", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kolhapûr — Şivâcî soyunun ikinci kolu; 1949'a kadar prens devleti kaldı,
 // bu yüzden 1923'e kadar "maratha".
@@ -1282,7 +1272,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1659-01-01", d:"bicapur"},
      {f:"1659-01-01", t:"1710-01-01", d:"maratha"},
-     {f:"1710-01-01", t:"1923-10-29", d:"kolhapur"}] },
+     {f:"1710-01-01", t:"1949-03-01", d:"kolhapur"},{f:"1949-03-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
   // 🔴 KITA 5 (12 Eylül) — Gvalyar/İndor'dan FARKLI: burada GERÇEK bir
   // "maratha" ara dönemi VAR (1659-1710), çünkü Kolhapur BAŞTA (I. Şivâcî
   // döneminde) genel Maratha devletinin bir parçasıydı; "kolhapur" kimliği
@@ -1299,7 +1289,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1490-01-01", t:"1636-01-01", d:"ahmednagar"},
      {f:"1636-01-01", t:"1760-01-01", d:"babur-imparatorlugu"},
      {f:"1760-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bombay — yedi adanın Portekiz'e geçişi 23 Aralık 1534 Bassein
 // Antlaşması'yladır. 1661 evlilik antlaşmasıyla İngiltere'ye verildi,
@@ -1310,7 +1300,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1407-01-01", t:"1534-12-23", d:"gucerat-sultanligi"},
      {f:"1534-12-23", t:"1665-02-18", d:"portekiz"},
      {f:"1665-02-18", t:"1757-06-23", d:"ingiltere",enklav:true},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani",enklav:true}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani",enklav:true},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çaul — Portekiz'in Bombay'dan eski limanı (1521); Marathalar 1740'ta
 // aldı. Bombay'a 43 km.
@@ -1321,7 +1311,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1490-01-01", t:"1521-01-01", d:"ahmednagar"},
      {f:"1521-01-01", t:"1740-01-01", d:"portekiz"},
      {f:"1740-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Goa — Albuquerque 25 Kasım 1510'da Bîcâpur'dan aldı; Portekiz Hindistanı'nın
 // başkenti ve 1961'e kadar Portekiz toprağı. Bu dosyadaki en uzun ikinci
@@ -1331,14 +1321,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1510-11-25", d:"bicapur"},
-     {f:"1510-11-25", t:"1923-10-29", d:"portekiz"}] },
+     {f:"1510-11-25", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1961-12-19",d:"portekiz-hindistani-goa",kaynak:"Hindistan'in Goa/Daman/Diu ilhaki 19 Aralik 1961 (Britannica Goa)"},{f:"1961-12-19",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Goa"}] },
 
 { ad:"Mangalor", tur:"liman", lat:12.9140, lon:74.8560, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1763-01-01", d:"nayak-devletleri"},
      {f:"1763-01-01", t:"1799-05-04", d:"meysur"},
-     {f:"1799-05-04", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 2c. Vijayanagara ve Karnataka =====
 
@@ -1352,7 +1342,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1686-09-12", d:"bicapur"},
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1800-10-12", d:"haydarabad-nizam"},
-     {f:"1800-10-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1800-10-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Raycur (Raichur) — Krişna ile Tungabhadra arasındaki "Raycur doâbı",
 // Vijayanagara ile Bîcâpur'un yüz yıllık kavga konusu. Krişnadevarâya
@@ -1365,7 +1355,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1520-05-19", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1686-09-12", d:"bicapur"},
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
-     {f:"1724-10-11", t:"1923-10-29", d:"haydarabad-nizam"}] },
+     {f:"1724-10-11", t:"1948-09-17", d:"haydarabad-nizam"},{f:"1948-09-17",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Hyderabad: Hindistan Polo Harekati, 17 Eylul 1948"}] },
 
 // Kurnûl — 1751-1839 arası Kurnûl nevâblığı; Nizam'ın tâbii sayıldığı için
 // ayrı kimlik açılmadı. 12 Ekim 1800'de "devredilen bölgeler" ile İngiliz.
@@ -1377,7 +1367,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1686-09-12", d:"bicapur"},
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1800-10-12", d:"haydarabad-nizam"},
-     {f:"1800-10-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1800-10-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bangalor — Kempe Gowda 1537'de kurdu (kur:); 1687'de Bîcâpur'dan
 // Meysûr'a satıldı. Cornwallis 21 Mart 1791'de aldı ama 1792 Seringapatam
@@ -1388,7 +1378,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1687-01-01", d:"bicapur"},
      {f:"1687-01-01", t:"1799-05-04", d:"meysur"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
-     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
 // MEYSÛR — Vodeyar hânedanı 1399'dan beri Vijayanagara'nın tâbiidir;
 // Talikota'dan sonra bağımsızlaştı. Haydar Ali 1761'de, Tipu Sultan
@@ -1401,7 +1391,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
-     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
 // Meysûr — Seringapatam'a 13 km; 1799'dan sonra krallığın başkenti oldu.
 { ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:3, d:[],
@@ -1409,7 +1399,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1799-05-04", d:"meysur"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
-     {f:"1799-05-04", t:"1923-10-29", d:"meysur-racaligi"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
 // ===== 2d. Koromandel ve Tamil ülkesi =====
 
@@ -1421,7 +1411,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1639-08-22", t:"1746-09-21", d:"ingiltere",enklav:true},
      {f:"1746-09-21", t:"1749-08-21", d:"fransa",enklav:true},
      {f:"1749-08-21", t:"1757-06-23", d:"ingiltere",enklav:true},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani",enklav:true}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani",enklav:true},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Pondişeri — Fransız Hindistanı'nın başkenti, 1674'te kuruldu (kur:).
 // Beş kez el değiştirdi: 1693 Hollanda, 1699 iade; 1761 İngiliz, 1765
@@ -1437,7 +1427,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1778-10-18", t:"1785-01-01", d:"ingiltere",enklav:true},
      {f:"1785-01-01", t:"1793-08-23", d:"fransa",enklav:true},
      {f:"1793-08-23", t:"1816-12-04", d:"ingiltere",enklav:true},
-     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet", enklav: true }] },
+     {f:"1816-12-04",t:"1954-11-01",d:"fransa-cumhuriyet", enklav: true },{f:"1954-11-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // Nagapatnam — Portekiz 1554, Hollanda 1658 (Hollanda Koromandel'inin
 // başkenti), İngiliz 12 Kasım 1781.
@@ -1448,7 +1438,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1554-01-01", d:"vijayanagara"},
      {f:"1554-01-01", t:"1658-01-01", d:"portekiz"},
      {f:"1658-01-01", t:"1781-11-12", d:"hollanda"},
-     {f:"1781-11-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1781-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Tranquebar — Danimarka Doğu Hindistan Şirketi 19 Kasım 1620'de Tanjur
 // nâyabından kiraladı; 1845'te İngiltere'ye satıldı. Bu coğrafyadaki tek
@@ -1460,7 +1450,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
      {f:"1532-01-01", t:"1620-11-19", d:"nayak-devletleri"},
      {f:"1620-11-19", t:"1845-02-22", d:"danimarka",enklav:true},
-     {f:"1845-02-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1845-02-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Tancûr (Thanjavur) — 1674'te Şivâcî'nin üvey kardeşi Venkocî burada
 // Maratha hânedanı kurdu ve 1855'e kadar sürdü; 1799'da toprak idaresi
@@ -1472,7 +1462,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
      {f:"1532-01-01", t:"1674-01-01", d:"nayak-devletleri"},
      {f:"1674-01-01", t:"1799-10-25", d:"maratha"},
-     {f:"1799-10-25", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1799-10-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Madurai — Pândya başkenti; Malik Kâfûr 1311'de yağmaladı, 1335'te
 // Ma'ber (Madurai) Sultanlığı kuruldu ve 1378'de Vijayanagara yıktı.
@@ -1483,7 +1473,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1529-01-01", d:"vijayanagara"},
      {f:"1529-01-01", t:"1736-01-01", d:"nayak-devletleri"},
      {f:"1736-01-01", t:"1801-07-31", d:"karnatik"},
-     {f:"1801-07-31", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Trichinopoly (Tiruchirappalli)", tur:"kale", lat:10.7900, lon:78.7040, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1311-01-01", d:"pandya"},
@@ -1492,7 +1482,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1529-01-01", d:"vijayanagara"},
      {f:"1529-01-01", t:"1736-01-01", d:"nayak-devletleri"},
      {f:"1736-01-01", t:"1801-07-31", d:"karnatik"},
-     {f:"1801-07-31", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cinci (Gingee) — Hindistan'ın en sarp kalelerinden; Bîcâpur 1649,
 // Maratha 1677, Bâbürlü 1698 (sekiz yıllık kuşatma), Fransız 1750,
@@ -1506,7 +1496,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1677-05-01", t:"1698-01-08", d:"maratha"},
      {f:"1698-01-08", t:"1750-09-11", d:"babur-imparatorlugu"},
      {f:"1750-09-11", t:"1761-04-05", d:"fransa",enklav:true},
-     {f:"1761-04-05", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1761-04-05", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Vellor — Vijayanagara'nın Talikota sonrası başkenti (1606-1646).
 { ad:"Vellor (Vellore)", tur:"kale", lat:12.9160, lon:79.1320, g:0, k:4, d:[],
@@ -1516,7 +1506,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1656-01-01", t:"1687-09-21", d:"bicapur"},
      {f:"1687-09-21", t:"1714-01-01", d:"babur-imparatorlugu"},
      {f:"1714-01-01", t:"1760-01-01", d:"karnatik"},
-     {f:"1760-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1760-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // KARNÂTİK (Arkot) nevâblığı 1690'da Haydarâbâd Nizamlığı'na bağlı olarak
 // kuruldu, 1710'lardan sonra fiilen bağımsızlaştı; 31 Temmuz 1801'de
@@ -1528,7 +1518,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1656-01-01", t:"1687-09-21", d:"bicapur"},
      {f:"1687-09-21", t:"1714-01-01", d:"babur-imparatorlugu"},
      {f:"1714-01-01", t:"1801-07-31", d:"karnatik"},
-     {f:"1801-07-31", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 2e. Malabar ve güneybatı kıyısı =====
 
@@ -1538,7 +1528,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kalikut (Kozhikode)", tur:"liman", lat:11.2590, lon:75.7800, g:1, k:1,kd:[{f:"1281-01-01",t:"1766-01-01",k:1,m:"Kalikut (Kozhikode)"}], d:[],
   s:[{f:"1281-01-01", t:"1766-01-01", d:"kalikut"},
      {f:"1766-01-01", t:"1792-03-18", d:"meysur"},
-     {f:"1792-03-18", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1792-03-18", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Koçin — Portekiz'in Hindistan'daki İLK kalesi (1503); Hollanda 7 Ocak
 // 1663'te aldı, İngiliz 20 Ekim 1795'te. Koçin krallığı iç kesimde prens
@@ -1548,7 +1538,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1503-09-01", d:"kocin"},
      {f:"1503-09-01", t:"1663-01-07", d:"portekiz"},
      {f:"1663-01-07", t:"1795-10-20", d:"hollanda"},
-     {f:"1795-10-20", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1795-10-20", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kannûr — Kolathiri racasının limanı; Portekiz 1505'te Sant'Angelo
 // kalesini kurdu, Hollanda 1663'te aldı, 1771'de Arakkal beylerine sattı,
@@ -1558,19 +1548,19 @@ window.YERLESIMLER_ASYA = [
      {f:"1505-01-01", t:"1663-02-15", d:"portekiz"},
      {f:"1663-02-15", t:"1771-01-01", d:"hollanda"},
      {f:"1771-01-01", t:"1790-12-15", d:"meysur"},
-     {f:"1790-12-15", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1790-12-15", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Kolam (Quilon)", tur:"liman", lat:8.8930, lon:76.6140, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1502-01-01", d:"travankur"},
      {f:"1502-01-01", t:"1661-12-08", d:"portekiz"},
      {f:"1661-12-08", t:"1795-01-01", d:"hollanda"},
-     {f:"1795-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1795-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Travankur — Marthanda Varma 1729'da Venâd'ı genişleterek kurdu; 1741
 // Kolaçel'de Hollanda'yı yenen tek Hint devletidir. 1795'ten sonra İngiliz
 // himayesinde prens devleti; dosya kuralı gereği kimlik korunur.
 { ad:"Trivandrum (Thiruvananthapuram)", tur:"sehir", lat:8.5240, lon:76.9360, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Trivandrum (Thiruvananthapuram)"}], d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"travankur"}] },
+  s:[{f:"1281-01-01", t:"1949-07-01", d:"travankur"},{f:"1949-07-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // ===== 2f. Kuzey Sirkarlar =====
 // 1765'te Bâbürlü hükümdarından beratla alındı, fiilî devir 12 Kasım 1766.
@@ -1582,7 +1572,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1759-04-08", d:"haydarabad-nizam"},
-     {f:"1759-04-08", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1759-04-08", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Râcahmundry", tur:"sehir", lat:17.0050, lon:81.7770, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
@@ -1591,7 +1581,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1766-11-12", d:"haydarabad-nizam"},
-     {f:"1766-11-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1766-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Vişâkapatnam", tur:"liman", lat:17.6870, lon:83.2190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
@@ -1600,7 +1590,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1766-11-12", d:"haydarabad-nizam"},
-     {f:"1766-11-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1766-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 2g. Seylan (üç nokta) =====
 // Görev tanımının tablosunda YOK. Üç nokta konuldu çünkü ada, kutu
@@ -1614,20 +1604,20 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1518-09-01", d:"seylan-sinhala"},
      {f:"1518-09-01", t:"1656-05-12", d:"portekiz"},
      {f:"1656-05-12", t:"1796-02-16", d:"hollanda"},
-     {f:"1796-02-16", t:"1923-10-29", d:"ingiltere"}] },
+     {f:"1796-02-16", t:"1948-02-04", d:"ingiltere"},{f:"1948-02-04",t:"2000-12-31",d:"sri-lanka",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // Kandy — adanın hiç sömürgeleşmeyen iç krallığı; 2 Mart 1815 Kandy
 // Sözleşmesi'yle İngiliz tacına geçti.
 { ad:"Kandy", tur:"sehir", lat:7.2910, lon:80.6360, g:1, k:1,kd:[{f:"1469-01-01",t:"1815-03-02",k:1,m:"Kandy"}], d:[],
   s:[{f:"1281-01-01", t:"1469-01-01", d:"seylan-sinhala"},
      {f:"1469-01-01", t:"1815-03-02", d:"kandy"},
-     {f:"1815-03-02", t:"1923-10-29", d:"ingiltere"}] },
+     {f:"1815-03-02", t:"1948-02-04", d:"ingiltere"},{f:"1948-02-04",t:"2000-12-31",d:"sri-lanka",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 { ad:"Yafna (Jaffna)", tur:"sehir", lat:9.6610, lon:80.0260, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1619-02-01", d:"yafna"},
      {f:"1619-02-01", t:"1658-06-21", d:"portekiz"},
      {f:"1658-06-21", t:"1796-02-16", d:"hollanda"},
-     {f:"1796-02-16", t:"1923-10-29", d:"ingiltere"}] },
+     {f:"1796-02-16", t:"1948-02-04", d:"ingiltere"},{f:"1948-02-04",t:"2000-12-31",d:"sri-lanka",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // ###########################################################################
 // BÖLÜM 3 — ÇİN: KUZEY ve ORTA
@@ -1685,7 +1675,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-09-14", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1644-06-06", d:"dashun"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Tiencin — Yongle imparatoru 1404'te kaleyi kurdu ve şehre bu adı verdi
 // (kur:); Pekin'in deniz kapısıdır.
@@ -1693,19 +1683,19 @@ window.YERLESIMLER_ASYA = [
   kur:"1404-01-01",
   s:[{f:"1404-01-01", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Baoding", tur:"sehir", lat:38.8740, lon:115.4640, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Zhengding", tur:"sehir", lat:38.1440, lon:114.5730, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Kalgan (Zhangjiakou) — Çin Seddi'nin kuzey kapısı ve Moğolistan
 // kervan yolunun başlangıcı.
@@ -1713,14 +1703,14 @@ window.YERLESIMLER_ASYA = [
   kur:"1429-01-01",
   s:[{f:"1429-01-01", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Cehol (Chengde) — Kangxi 1703'te yazlık sarayı kurdurdu (kur:); Qing'in
 // Moğol ve Tibet siyasetinin yürütüldüğü ikinci merkezdir.
 { ad:"Cehol (Chengde)", tur:"sehir", lat:40.9760, lon:117.9390, g:0, k:3, d:[],
   kur:"1703-01-01",
   s:[{f:"1703-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 3b. Şansi ve Şensi =====
 
@@ -1730,21 +1720,21 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-05-31", d:"ming-hanedani"},
      {f:"1644-05-31", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Taiyuan", tur:"sehir", lat:37.8700, lon:112.5480, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-03-16", d:"ming-hanedani"},
      {f:"1644-03-16", t:"1644-10-01", d:"dashun"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Pingyao", tur:"sehir", lat:37.2010, lon:112.1750, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-03-16", d:"ming-hanedani"},
      {f:"1644-03-16", t:"1644-10-01", d:"dashun"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Xi'an (Chang'an) — Li Zicheng 11 Ekim 1643'te aldı ve 8 Şubat 1644'te
 // Şun hanedanını burada ilân etti; yani Şun devleti PEKİN'DEN ÖNCE
@@ -1754,7 +1744,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1643-10-11", d:"ming-hanedani"},
      {f:"1643-10-11", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 3c. Orta ova (Henan, Şantung) =====
 
@@ -1763,7 +1753,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1641-03-08", d:"ming-hanedani"},
      {f:"1641-03-08", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Kaifeng — Song'un eski başkenti. 1642'de Sarı Irmak setlerinin
 // yarılmasıyla sular altında kaldı ve nüfusunun büyük kısmını kaybetti;
@@ -1773,32 +1763,32 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Zhengzhou", tur:"sehir", lat:34.7460, lon:113.6250, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Anyang", tur:"sehir", lat:36.0970, lon:114.3930, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Jinan", tur:"sehir", lat:36.6510, lon:117.1200, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Qufu", tur:"sehir", lat:35.5970, lon:116.9910, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Qingdao — Almanya 6 Mart 1898'de 99 yıllığına kiraladı ve şehri kurdu
 // (kur:). Japonya 7 Kasım 1914'te aldı, 10 Aralık 1922'de Çin'e iade etti.
@@ -1807,20 +1797,20 @@ window.YERLESIMLER_ASYA = [
   kur:"1898-03-06",
   s:[{f:"1898-03-06", t:"1914-11-07", d:"almanya"},
      {f:"1914-11-07", t:"1922-12-10", d:"meiji-japonya"},
-     {f:"1922-12-10", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1922-12-10", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Yantai (Chefoo)", tur:"liman", lat:37.4640, lon:121.4480, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Xuzhou", tur:"kale", lat:34.2050, lon:117.2840, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 3d. Yangtze havzası =====
 
@@ -1835,7 +1825,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-06-08", t:"1853-03-19", d:"qing-hanedani"},
      {f:"1853-03-19", t:"1864-07-19", d:"taiping"},
      {f:"1864-07-19", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Yangzhou — Büyük Kanal ile Yangtze'nin kesiştiği tuz ticareti şehri;
 // Qing ordusunun 1645 Mayıs'ındaki katliamı Çin tarihinin en ağır
@@ -1847,7 +1837,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-05-20", t:"1853-03-19", d:"qing-hanedani"},
      {f:"1853-03-19", t:"1864-07-19", d:"taiping"},
      {f:"1864-07-19", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Suzhou", tur:"sehir", lat:31.2990, lon:120.5850, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
@@ -1856,7 +1846,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-06-08", t:"1860-06-02", d:"qing-hanedani"},
      {f:"1860-06-02", t:"1863-12-04", d:"taiping"},
      {f:"1863-12-04", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Hangzhou — Song'un son başkenti Lin'an; Marco Polo'nun "Kinsay"ı.
 { ad:"Hangzhou", tur:"sehir", lat:30.2740, lon:120.1550, g:2, k:3, d:[],
@@ -1866,14 +1856,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-07-06", t:"1861-12-29", d:"qing-hanedani"},
      {f:"1861-12-29", t:"1864-03-31", d:"taiping"},
      {f:"1864-03-31", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Shaoxing", tur:"sehir", lat:30.0300, lon:120.5800, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-07-06", d:"guney-ming"},
      {f:"1646-07-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Şanghay — 1842 Nanking Antlaşması'yla açılan beş limandan biri;
 // imtiyaz bölgeleri (1845 İngiliz, 1849 Fransız, 1863 Ortak) EGEMENLİK
@@ -1885,28 +1875,28 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Ningbo", tur:"liman", lat:29.8680, lon:121.5440, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-07-06", d:"guney-ming"},
      {f:"1646-07-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Wenzhou", tur:"liman", lat:27.9940, lon:120.6990, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-10-06", d:"guney-ming"},
      {f:"1646-10-06", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Hefei", tur:"sehir", lat:31.8210, lon:117.2270, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Anqing", tur:"kale", lat:30.5090, lon:117.0430, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
@@ -1915,7 +1905,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-06-08", t:"1853-02-24", d:"qing-hanedani"},
      {f:"1853-02-24", t:"1861-09-05", d:"taiping"},
      {f:"1861-09-05", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Wuchang (Wuhan) — Yangtze'nin orta havzasının kilidi; Taiping isyanı
 // burada başladı (1852) ve 10 Ekim 1911 Wuchang ayaklanması Qing'i yıktı.
@@ -1924,14 +1914,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1911-10-10", d:"qing-hanedani"},
-     {f:"1911-10-10", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1911-10-10", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Jingzhou", tur:"kale", lat:30.3500, lon:112.1900, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Xiangyang — Moğolların 1268-1273 arasında beş yıl kuşattığı kale;
 // düşüşü Güney Song'un sonunu getirdi. Bu dosyanın başlangıcında
@@ -1941,7 +1931,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-01-23", t:"1643-01-01", d:"ming-hanedani"},
      {f:"1643-01-01", t:"1645-06-08", d:"dashun"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Changsha", tur:"sehir", lat:28.2280, lon:112.9390, g:0, k:2,kd:[{f:"1673-12-28",t:"1681-12-07",k:1,m:"Changsha"}], d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
@@ -1950,14 +1940,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1647-01-01", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1679-01-01", d:"san-fan"},
      {f:"1679-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Nanchang", tur:"sehir", lat:28.6820, lon:115.8580, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Jiujiang", tur:"liman", lat:29.7050, lon:116.0010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
@@ -1966,7 +1956,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-06-08", t:"1853-02-18", d:"qing-hanedani"},
      {f:"1853-02-18", t:"1858-05-19", d:"taiping"},
      {f:"1858-05-19", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 3e. Sichuan ve güneybatı =====
 
@@ -1982,7 +1972,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1647-01-01", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1680-02-01", d:"san-fan"},
      {f:"1680-02-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Çongqing (Chongqing)", tur:"liman", lat:29.5630, lon:106.5520, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
@@ -1991,7 +1981,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1647-01-01", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1680-02-01", d:"san-fan"},
      {f:"1680-02-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Kunming — Güney Ming'in son sarayı (Yongli) 1656-1659 arasında
 // buradaydı. Wu Sangui 1673'te isyanı burada başlattı; Kunming 7 Aralık
@@ -2003,7 +1993,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1681-12-07", d:"san-fan"},
      {f:"1681-12-07", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Dali — Nanzhao ve Dali krallıklarının başkenti; 1253'te Kubilay aldı,
 // yani 1281'de Yuan'dır. Ming Yünnan'ı 6 Ocak 1382'de zaptetti.
@@ -2016,7 +2006,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1681-12-07", t:"1856-01-01", d:"qing-hanedani"},
      {f:"1856-01-01", t:"1873-01-15", d:"pingnan"},
      {f:"1873-01-15", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Guiyang", tur:"sehir", lat:26.6470, lon:106.6300, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1382-01-06", d:"yuan-hanedani"},
@@ -2025,7 +2015,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1658-01-01", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1681-12-07", d:"san-fan"},
      {f:"1681-12-07", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 3f. Gansu koridoru ve Qinghai =====
 
@@ -2033,13 +2023,13 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Zhangye (Ganzhou)", tur:"kale", lat:38.9260, lon:100.4500, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Ciyayuguan — Ming Seddi'nin BATI UCU; 1372'de kuruldu (kur:) ve
 // 1759'a kadar Çin'in fiilî batı sınırıdır. Bu noktanın batısındaki
@@ -2048,7 +2038,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1372-01-01",
   s:[{f:"1372-01-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Dunhuang — İpek Yolu'nun kavşağı; Ming 1524'te Ciyayuguan'ın batısını
 // boşalttı ve şehir 1720'de Qing yeniden iskân edene kadar Moğol-Oyrat
@@ -2059,7 +2049,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1524-01-01", d:"ming-hanedani"},
      {f:"1524-01-01", t:"1720-01-01", d:"kuzey-yuan"},
      {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Xining — Tibet platosunun kuzey kapısı; Kokonor Moğolları (Khoshut)
 // 1636-1724 arasında burayı denetledi, Qing 1724'te Lobzang Danjin
@@ -2069,7 +2059,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1636-01-01", d:"ming-hanedani"},
      {f:"1636-01-01", t:"1724-01-01", d:"hosut"},
      {f:"1724-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Yinchuan (Ningxia) — Tangut Xia'nın eski başkenti; 1227'de Moğollar
 // yıktı, Ming yeniden kurdu.
@@ -2077,7 +2067,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ###########################################################################
 // BÖLÜM 4 — ÇİN: GÜNEY, KIYI ve TAYVAN
@@ -2104,7 +2094,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1650-11-24", t:"1676-03-01", d:"qing-hanedani"},
      {f:"1676-03-01", t:"1677-01-01", d:"san-fan"},
      {f:"1677-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Makao — Portekiz 1557'de yerleşti; egemenlik 1887 Pekin Antlaşması'yla
 // resmen tanındı ama fiilî idare 1557'den itibaren Portekiz'dedir, bu
@@ -2112,13 +2102,13 @@ window.YERLESIMLER_ASYA = [
 { ad:"Makao (Macau)", tur:"liman", lat:22.1990, lon:113.5440, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1557-01-01", d:"ming-hanedani"},
-     {f:"1557-01-01", t:"1923-10-29", d:"portekiz"}] },
+     {f:"1557-01-01", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1999-12-20",d:"makao-portekiz",kaynak:"Sino-Portuguese Joint Declaration 1987; devir 1999-12-20 (Britannica Macau)"},{f:"1999-12-20",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Britannica Macau"}] },
 
 // Hong Kong — 26 Ocak 1841'de İngiliz çıkarması, 29 Ağustos 1842 Nanking
 // Antlaşması'yla resmen devredildi. Makao'ya 39 km.
 { ad:"Hong Kong", tur:"liman", lat:22.3200, lon:114.1700, g:1, k:3, d:[],
   kur:"1841-01-26",
-  s:[{f:"1841-01-26", t:"1923-10-29", d:"ingiltere"}] },
+  s:[{f:"1841-01-26", t:"1997-07-01", d:"ingiltere"},{f:"1997-07-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // Zeytun (Quanzhou) — İbn Battûta'nın ve Marco Polo'nun dünyanın en büyük
 // limanı dediği şehir; Yuan döneminde zirvesindedir. Ming'in deniz yasağı
@@ -2130,7 +2120,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1646-10-06", t:"1674-03-15", d:"qing-hanedani"},
      {f:"1674-03-15", t:"1676-10-01", d:"san-fan"},
      {f:"1676-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Fuzhou — Longwu imparatoru 1645 Ağustos'unda burada tahta çıktı; Qing
 // 6 Ekim 1646'da girdi. Geng Jingzhong'un feodal beyliğinin merkezi.
@@ -2141,7 +2131,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1646-10-06", t:"1674-03-15", d:"qing-hanedani"},
      {f:"1674-03-15", t:"1676-10-01", d:"san-fan"},
      {f:"1676-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Amoy (Xiamen) — Zheng Chenggong'un otuz yıllık üssü; Tayvan'ı almadan
 // önce buradan direndi. Qing 1680'de aldı ve Zheng devleti Tayvan'a çekildi.
@@ -2151,7 +2141,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1644-04-25", t:"1650-01-01", d:"guney-ming"},
      {f:"1650-01-01", t:"1680-03-01", d:"tungning"},
      {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Zhangzhou", tur:"sehir", lat:24.5130, lon:117.6470, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
@@ -2160,7 +2150,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1646-10-06", t:"1674-03-15", d:"qing-hanedani"},
      {f:"1674-03-15", t:"1676-10-01", d:"san-fan"},
      {f:"1676-10-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Chaozhou", tur:"sehir", lat:23.6570, lon:116.6220, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
@@ -2169,7 +2159,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1650-11-24", t:"1676-03-01", d:"qing-hanedani"},
      {f:"1676-03-01", t:"1677-01-01", d:"san-fan"},
      {f:"1677-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Swatow (Shantou) — 1860'ta açılan antlaşma limanı; Chaozhou'ya 34 km.
 { ad:"Swatow (Shantou)", tur:"liman", lat:23.3630, lon:116.6798, g:0, k:3, d:[],
@@ -2177,7 +2167,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Guilin", tur:"sehir", lat:25.2740, lon:110.2900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
@@ -2186,7 +2176,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1652-01-01", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1680-01-01", d:"san-fan"},
      {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Nanning", tur:"sehir", lat:22.8170, lon:108.3670, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
@@ -2195,14 +2185,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1652-01-01", t:"1673-12-28", d:"qing-hanedani"},
      {f:"1673-12-28", t:"1680-01-01", d:"san-fan"},
      {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Beihai (Pakhoi)", tur:"liman", lat:21.4810, lon:109.1200, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1652-01-01", d:"guney-ming"},
      {f:"1652-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Qiongzhou (Haikou) — Hainan adası. Ada, kutu açıldığında kendi noktası
 // olmazsa Kanton ya da Kuzey Vietnam peteğine emilirdi.
@@ -2211,14 +2201,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Wuzhou", tur:"liman", lat:23.4770, lon:111.2790, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1652-01-01", d:"guney-ming"},
      {f:"1652-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 4b. Tayvan ve Penghu =====
 
@@ -2231,14 +2221,14 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1624-08-26", t:"1662-02-01", d:"hollanda-dogu-hint"},
      {f:"1662-02-01", t:"1683-10-05", d:"tungning"},
      {f:"1683-10-05", t:"1895-04-17", d:"qing-hanedani"},
-     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-10-25",d:"japon-tayvani",kaynak:"Tayvan'in Cin'e devri 1945-10-25 (Office of the Historian)"},{f:"1945-10-25",t:"2000-12-31",d:"cin-cumhuriyeti",kaynak:"Britannica Taiwan"}] },
 
 // Taipei — Danshui havzasının Han iskânı 1709 arazi beratıyla başladı
 // (kur:); şehir 1875'te vilâyet merkezi oldu.
 { ad:"Taipei", tur:"sehir", lat:25.0330, lon:121.5650, g:1, k:3, d:[],
   kur:"1709-01-01",
   s:[{f:"1709-01-01", t:"1895-04-17", d:"qing-hanedani"},
-     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-10-25",d:"japon-tayvani",kaynak:"Tayvan'in Cin'e devri 1945-10-25 (Office of the Historian)"},{f:"1945-10-25",t:"2000-12-31",d:"cin-cumhuriyeti",kaynak:"Britannica Taiwan"}] },
 
 // Penghu (Pescadores) — Yuan 1281'de burada bir teftiş dairesi kurdu,
 // yani bu dosyanın başlangıç yılında adalar zaten Çin idaresindedir.
@@ -2252,7 +2242,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1624-08-26", t:"1661-04-30", d:"ming-hanedani"},
      {f:"1661-04-30", t:"1683-07-16", d:"tungning"},
      {f:"1683-07-16", t:"1895-04-17", d:"qing-hanedani"},
-     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-10-25",d:"japon-tayvani",kaynak:"Tayvan'in Cin'e devri 1945-10-25 (Office of the Historian)"},{f:"1945-10-25",t:"2000-12-31",d:"cin-cumhuriyeti",kaynak:"Britannica Taiwan"}] },
 
 // ###########################################################################
 // BÖLÜM 5 — MANÇURYA, MOĞOLİSTAN, DOĞU TÜRKİSTAN ve TİBET
@@ -2272,26 +2262,26 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1621-01-01", d:"ming-hanedani"},
      {f:"1621-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Liaoyang", tur:"kale", lat:41.2670, lon:123.1740, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1621-01-01", d:"ming-hanedani"},
      {f:"1621-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Cilin (Jilin) — Qing 1673'te Sungari kıyısında tersane şehri olarak
 // kurdu (kur:).
 { ad:"Cilin (Jilin)", tur:"sehir", lat:43.8370, lon:126.5500, g:0, k:3, d:[],
   kur:"1673-01-01",
   s:[{f:"1673-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Ningguta — Qing'in Mançurya'daki askerî valiliği ve sürgün yeri.
 { ad:"Ningguta", tur:"kale", lat:44.3500, lon:129.4700, g:0, k:4, d:[],
   kur:"1653-01-01",
   s:[{f:"1653-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Aigun — 1689 Nerçinsk ve 28 Mayıs 1858 Aigun antlaşmalarının imzalandığı
 // yer. 1858'de Amur'un KUZEY yakası Rusya'ya geçti; şehrin kendisi güney
@@ -2299,7 +2289,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Aigun", tur:"kale", lat:50.2430, lon:127.4630, g:0, k:4, d:[],
   kur:"1683-01-01",
   s:[{f:"1683-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Harbin — 1898'de Çin Doğu Demiryolu'nun merkezi olarak kuruldu (kur:).
 // Demiryolu bölgesi 1898-1920 arasında fiilen Rus idaresindeydi ama
@@ -2308,7 +2298,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Harbin", tur:"sehir", lat:45.8030, lon:126.5340, g:1, k:3, d:[],
   kur:"1898-01-01",
   s:[{f:"1898-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Lüşun (Port Arthur) — Japonya 1894'te aldı ama Üçlü Müdahale ile geri
 // verdi (pencere açılmadı, bir yıldan kısa). 27 Mart 1898'de Rusya
@@ -2319,7 +2309,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-09-14", t:"1621-01-01", d:"ming-hanedani"},
      {f:"1621-01-01", t:"1898-03-27", d:"qing-hanedani"},
      {f:"1898-03-27", t:"1905-09-05", d:"rusya"},
-     {f:"1905-09-05", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1905-09-05", t:"1945-09-02", d:"meiji-japonya"},{f:"1945-09-02",t:"1949-10-01",d:"cin-cumhuriyeti",kaynak:"Cin-Sovyet Dostluk Antlasmasi 1945-08-14; Port Arthur ortak deniz ussu 1955'e kadar"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Britannica Lüshun"}] },
 
 // ===== 5b. Moğolistan =====
 //
@@ -2341,7 +2331,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1635-01-01", t:"1911-12-29", d:"qing-hanedani"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
-     {f:"1921-07-11", t:"1923-10-29", d:"mogolistan"}] },
+     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Urga (Ulan Batur) — 1639'da gezici manastır olarak kuruldu (kur:),
 // bugünkü yerine 1778'de yerleşti; Halha Moğollarının dinî ve siyasî
@@ -2352,7 +2342,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1691-05-30", t:"1911-12-29", d:"qing-hanedani"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
-     {f:"1921-07-11", t:"1923-10-29", d:"mogolistan"}] },
+     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Uliastay — Qing 1733'te askerî valilik merkezi olarak kurdu (kur:).
 { ad:"Uliastay", tur:"kale", lat:47.7420, lon:96.8440, g:0, k:4, d:[],
@@ -2360,7 +2350,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1733-01-01", t:"1911-12-29", d:"qing-hanedani"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
-     {f:"1921-07-11", t:"1923-10-29", d:"mogolistan"}] },
+     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Kobdo (Hovd) — batı Moğolistan'ın Qing garnizonu; Moğol kuvvetleri
 // 20 Ağustos 1912'de aldı ve bu, bağımsızlığın fiilen tamamlandığı andır.
@@ -2369,7 +2359,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-09-14", t:"1635-01-01", d:"kuzey-yuan"},
      {f:"1635-01-01", t:"1755-01-01", d:"cungar"},
      {f:"1755-01-01", t:"1912-08-20", d:"qing-hanedani"},
-     {f:"1912-08-20", t:"1923-10-29", d:"mogolistan"}] },
+     {f:"1912-08-20", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Hohhot (Kuku-hoto) — Altan Han 1581'de kurdu (kur:); Tümed Moğollarının
 // merkezi, 1636'da Qing'e bağlandı. İç Moğolistan 1911'den sonra Çin'de
@@ -2378,7 +2368,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1581-01-01",
   s:[{f:"1581-01-01", t:"1636-01-01", d:"kuzey-yuan"},
      {f:"1636-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 5c. Doğu Türkistan =====
 //
@@ -2393,7 +2383,7 @@ window.YERLESIMLER_ASYA = [
 // gerekçesi budur.
 
 { ad:"Kaşgar", tur:"sehir", lat:39.4700, lon:75.9900, g:1, k:2,kd:[{f:"1865-01-01",t:"1878-03-16",k:1,m:"Kaşgar"}], d:[],
-  s:[{f:"1218-01-01",d:"mogol-imparatorlugu",kaynak:"TDV kasgar: 'Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.' · 1130 Karahıtay zaptı ('iki yıl sonra' — türetilmiş yıl) ile 1218 arası Küçlüg dönemi tarihsiz · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1347-01-01",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV kasgar: 'Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1347-01-01",t:"1514-01-01",d:"mogulistan"},{f:"1514-01-01",t:"1705-01-01",d:"yarkent-hanligi"},{f:"1705-01-01",t:"1759-01-01",d:"cungar"},{f:"1759-01-01",t:"1864-06-04",d:"qing-hanedani"},{f:"1864-06-04",t:"1877-12-17",d:"yakub-beg"},{f:"1877-12-17",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1218-01-01",d:"mogol-imparatorlugu",kaynak:"TDV kasgar: 'Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.' · 1130 Karahıtay zaptı ('iki yıl sonra' — türetilmiş yıl) ile 1218 arası Küçlüg dönemi tarihsiz · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1347-01-01",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV kasgar: 'Cengiz Han’ın Cebe Noyan kumandasında gönderdiği kuvvetlerin şehri ele geçirmesiyle (1218) birlikte ibadetler serbest bırakıldı.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1347-01-01",t:"1514-01-01",d:"mogulistan"},{f:"1514-01-01",t:"1705-01-01",d:"yarkent-hanligi"},{f:"1705-01-01",t:"1759-01-01",d:"cungar"},{f:"1759-01-01",t:"1864-06-04",d:"qing-hanedani"},{f:"1864-06-04",t:"1877-12-17",d:"yakub-beg"},{f:"1877-12-17",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Yarkent (Şaçe)", tur:"sehir", lat:38.4160, lon:77.2430, g:1, k:2,kd:[{f:"1514-01-01",t:"1705-01-01",k:1,m:"Yarkent (Şaçe)"}], d:[],
   s:[{f:"1281-01-01", t:"1347-01-01", d:"cagatay"},
@@ -2403,7 +2393,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1759-01-01", t:"1864-06-04", d:"qing-hanedani"},
      {f:"1864-06-04", t:"1877-12-17", d:"yakub-beg"},
      {f:"1877-12-17", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Hotan", tur:"sehir", lat:37.1170, lon:79.9280, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1347-01-01", d:"cagatay"},
@@ -2413,7 +2403,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1759-01-01", t:"1864-06-04", d:"qing-hanedani"},
      {f:"1864-06-04", t:"1877-12-17", d:"yakub-beg"},
      {f:"1877-12-17", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Kuça — 4 Haziran 1864'teki ayaklanma bütün Doğu Türkistan'ı ateşe verdi.
 { ad:"Kuça (Kuqa)", tur:"sehir", lat:41.7170, lon:82.9620, g:0, k:3, d:[],
@@ -2424,7 +2414,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1759-01-01", t:"1864-06-04", d:"qing-hanedani"},
      {f:"1864-06-04", t:"1877-10-18", d:"yakub-beg"},
      {f:"1877-10-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Turfan — Moğulistan'ın doğu ucu; Qing 1755-1759 seferleriyle bağladı.
 { ad:"Turfan", tur:"sehir", lat:42.9510, lon:89.1900, g:0, k:1,kd:[{f:"1347-01-01",t:"1680-01-01",k:1,m:"Turfan"}], d:[],
@@ -2434,7 +2424,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1755-01-01", t:"1864-06-04", d:"qing-hanedani"},
      {f:"1864-06-04", t:"1876-08-18", d:"yakub-beg"},
      {f:"1876-08-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Hâmi (Kumul) — Ming 1404-1513 arasında burada garnizon tuttu; Doğu
 // Türkistan'ın Qing'e İLK bağlanan noktasıdır (1697).
@@ -2445,7 +2435,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1513-01-01", t:"1680-01-01", d:"mogulistan"},
      {f:"1680-01-01", t:"1697-01-01", d:"cungar"},
      {f:"1697-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Ürümçi (Dihua) — Qing 1763'te garnizon şehri olarak kurdu (kur:).
 // 1864-1876 arası Dungan isyancılarının ve ardından Yâkub Bey'in elinde
@@ -2455,7 +2445,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1763-01-01", t:"1864-06-04", d:"qing-hanedani"},
      {f:"1864-06-04", t:"1876-08-18", d:"yakub-beg"},
      {f:"1876-08-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Gulca (Yining) — Cungar Hanlığı'nın merkezi. Rusya 4 Temmuz 1871'de
 // İli vadisini işgal etti ve 24 Şubat 1881 Petersburg Antlaşması'yla
@@ -2467,7 +2457,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1755-01-01", t:"1871-07-04", d:"qing-hanedani"},
      {f:"1871-07-04", t:"1882-03-22", d:"rusya"},
      {f:"1882-03-22", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ===== 5d. Tibet =====
 //
@@ -2486,7 +2476,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
      {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
      {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1912-02-12", t:"1951-05-23", d:"tibet-ganden-phodrang"},{f:"1951-05-23",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Onyedi Madde Antlaşması 1951-05-23 (Origins/Ohio State; Columbia Univ. Tibet-Potomac); PLA Lhasa'ya 1951-09-09"}] },
 
 // Şigatse — Tsangpa hânedanının başkenti (1565-1642) ve Pançen Lama'nın
 // makamı Taşilhunpo'nun şehri.
@@ -2495,7 +2485,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
      {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
      {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1912-02-12", t:"1951-05-23", d:"tibet-ganden-phodrang"},{f:"1951-05-23",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Onyedi Madde Antlaşması 1951-05-23 (Origins/Ohio State; Columbia Univ. Tibet-Potomac); PLA Lhasa'ya 1951-09-09"}] },
 
 // Gyantse — 1904 İngiliz seferinin en kanlı çarpışmasının yeri; Şigatse'ye
 // 70 km.
@@ -2504,7 +2494,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
      {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
      {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1912-02-12", t:"1951-05-23", d:"tibet-ganden-phodrang"},{f:"1951-05-23",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Onyedi Madde Antlaşması 1951-05-23 (Origins/Ohio State; Columbia Univ. Tibet-Potomac); PLA Lhasa'ya 1951-09-09"}] },
 
 // Çamdo — doğu Tibet (Kham); 1910'da Qing ordusu Zhao Erfeng ile bölgeyi
 // doğrudan idareye almaya çalıştı, 1912'den sonra Tibet geri aldı.
@@ -2514,7 +2504,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1642-01-01", t:"1910-02-12", d:"tibet-ganden-phodrang"},
      {f:"1910-02-12", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1918-08-19", d:"cin-cumhuriyeti"},
-     {f:"1918-08-19", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1918-08-19", t:"1951-05-23", d:"tibet-ganden-phodrang"},{f:"1951-05-23",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Onyedi Madde Antlaşması 1951-05-23 (Origins/Ohio State; Columbia Univ. Tibet-Potomac); PLA Lhasa'ya 1951-09-09"}] },
 
 // ===== 5e. Çin: yoğunluk noktaları =====
 // Bölüm 3-5'teki nokta ağı MIMARI.md §5'in "seyrek bölge 300 km" ölçütünü
@@ -2528,7 +2518,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1381-01-01",
   s:[{f:"1381-01-01", t:"1644-05-27", d:"ming-hanedani"},
      {f:"1644-05-27", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Tongguan — Sarı Irmak ile Wei'nin kavşağındaki geçit; Xi'an ovasının
 // kilidi. Qing 1645 Ocak'ında burayı aşarak Şun devletini bitirdi.
@@ -2537,14 +2527,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-04-01", t:"1643-10-11", d:"ming-hanedani"},
      {f:"1643-10-11", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Yan'an", tur:"sehir", lat:36.5850, lon:109.4900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1643-10-11", d:"ming-hanedani"},
      {f:"1643-10-11", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Wuhu", tur:"liman", lat:31.3260, lon:118.3760, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
@@ -2553,34 +2543,34 @@ window.YERLESIMLER_ASYA = [
      {f:"1645-06-08", t:"1853-03-19", d:"qing-hanedani"},
      {f:"1853-03-19", t:"1864-07-19", d:"taiping"},
      {f:"1864-07-19", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Şaoguan", tur:"sehir", lat:24.8010, lon:113.5910, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Leizhou", tur:"liman", lat:20.9140, lon:110.0960, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Baotou — Sarı Irmak'ın kuzey dirseği; İç Moğolistan'ın batı ucu.
 { ad:"Baotou", tur:"sehir", lat:40.6570, lon:109.8400, g:0, k:3, d:[],
   kur:"1809-01-01",
   s:[{f:"1809-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Qiqihar — kuzey Mançurya'nın Qing askerî valiliği (1691'den itibaren);
 // bu nokta olmadan Harbin ile Aigun arası 400 km açık kalıyordu.
 { ad:"Qiqihar", tur:"kale", lat:47.3540, lon:123.9180, g:0, k:4, d:[],
   kur:"1691-01-01",
   s:[{f:"1691-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ###########################################################################
 // BÖLÜM 6 — JAPONYA
@@ -2624,7 +2614,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Edo (Tokyo) — Tokugawa Ieyasu 1590'da Kantō'ya nakledildiğinde küçük bir
 // kaleydi; 1603'te şogunluk merkezi oldu ve dünyanın en büyük şehirlerinden
@@ -2635,7 +2625,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1457-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Osaka — Toyotomi Hideyoshi 1583'te kaleyi kurdu; Tokugawa 4 Haziran
 // 1615'te Osaka kuşatmasıyla Toyotomi soyunu bitirdi. Bu yüzden Osaka'nın
@@ -2646,7 +2636,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1615-06-04", d:"azuchi-momoyama"},
      {f:"1615-06-04", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Nara", tur:"sehir", lat:34.6850, lon:135.8050, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -2654,7 +2644,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Sakai — Muromachi ve Sengoku çağının en zengin liman şehri; tüccar
 // meclisiyle yönetilen fiilî bir serbest şehirdi, Nobunaga 1569'da
@@ -2665,7 +2655,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ===== 6b. Kantō ve Tōkai =====
 
@@ -2677,7 +2667,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Odawara — Sengoku çağının en güçlü kalelerinden; Hideyoshi'nin 1590
 // kuşatması Japonya'nın birleşmesini tamamladı.
@@ -2687,7 +2677,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Sunpu (Şizuoka) — Ieyasu'nun çocukluğunun ve emekliliğinin şehri;
 // 1605-1616 arasında fiilî iktidar merkezi (ōgosho).
@@ -2697,14 +2687,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Nagoya — Tokugawa Ieyasu 1610'da kaleyi kurdurdu (kur:); üç Tokugawa
 // yan hânedanından Owari kolunun merkezi.
 { ad:"Nagoya", tur:"sehir", lat:35.1810, lon:136.9070, g:1, k:3, d:[],
   kur:"1610-01-01",
   s:[{f:"1610-01-01", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Gifu — Nobunaga'nın 1567'de aldığı ve "tenka fubu" mührünü kullanmaya
 // başladığı şehir; birleşme hareketinin çıkış noktasıdır. Nagoya'ya 30 km.
@@ -2714,7 +2704,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1567-09-01", d:"muromachi"},
      {f:"1567-09-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ===== 6c. Japon Denizi kıyısı ve Hokuriku =====
 
@@ -2723,13 +2713,13 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1546-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Fukui", tur:"sehir", lat:36.0640, lon:136.2200, g:0, k:3, d:[],
   kur:"1575-01-01",
   s:[{f:"1575-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Niigata", tur:"liman", lat:37.9160, lon:139.0360, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -2737,12 +2727,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Matsue", tur:"sehir", lat:35.4680, lon:133.0490, g:0, k:3, d:[],
   kur:"1607-01-01",
   s:[{f:"1607-01-01", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ===== 6d. Batı Honshu ve Şikoku =====
 
@@ -2752,7 +2742,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Okayama", tur:"sehir", lat:34.6550, lon:133.9190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -2760,14 +2750,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Hiroşima — Mōri Terumoto 1589'da kaleyi kurdu (kur:).
 { ad:"Hiroşima", tur:"liman", lat:34.3850, lon:132.4550, g:1, k:3, d:[],
   kur:"1589-01-01",
   s:[{f:"1589-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Yamaguchi — Ōuchi hânedanının merkezi; XV-XVI. yüzyılda Çin ve Kore
 // ticaretini elinde tutan "batının Kyoto"su. Francis Xavier 1551'de
@@ -2777,19 +2767,19 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1360-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Matsuyama", tur:"sehir", lat:33.8390, lon:132.7660, g:0, k:3, d:[],
   kur:"1602-01-01",
   s:[{f:"1602-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Kōchi", tur:"liman", lat:33.5600, lon:133.5310, g:0, k:1, d:[],
   kur:"1601-01-01",
   s:[{f:"1601-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ===== 6e. Kyūşū =====
 
@@ -2802,7 +2792,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Nagazaki — 1571'de Portekiz ticareti için liman olarak açıldı (kur:);
 // 1580-1587 arasında fiilen Cizvitlere devredildi, Hideyoshi 1587'de geri
@@ -2816,7 +2806,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1580-06-09", t:"1587-07-24", d:"portekiz", enklav:true},
      {f:"1587-07-24", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Kumamoto", tur:"kale", lat:32.8030, lon:130.7080, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -2824,7 +2814,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Funai (Ōita) — Ōtomo Sōrin'in Hristiyan daimyō merkezi; Portekiz
 // ticaretinin Kyūşū'daki ilk büyük limanı.
@@ -2834,7 +2824,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Kagoşima — Satsuma'nın Shimazu hânedanı; 1609'da Ryukyu'yu tâbi kıldı,
 // 1868 Meiji restorasyonunun iki motorundan biridir.
@@ -2844,7 +2834,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Tsuşima (İzuhara) — Japonya ile Kore arasındaki tek geçit; Sō hânedanı
 // iki devletin de tanıdığı aracıydı ve Kore ticareti tekelini elinde
@@ -2855,7 +2845,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ===== 6f. Kuzey Honshu ve Ezo (Hokkaido) =====
 
@@ -2864,7 +2854,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1600-01-01",
   s:[{f:"1600-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Aizu-Wakamatsu", tur:"kale", lat:37.4950, lon:139.9300, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -2872,18 +2862,18 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Morioka", tur:"sehir", lat:39.7020, lon:141.1550, g:0, k:3, d:[],
   kur:"1597-01-01",
   s:[{f:"1597-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 { ad:"Hirosaki", tur:"kale", lat:40.6030, lon:140.4640, g:0, k:4, d:[],
   kur:"1611-01-01",
   s:[{f:"1611-01-01", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ⚠️ EZO (HOKKAİDO) — bu dosyanın en dikkatli yerlerinden biri.
 // Hokkaido 1869'a kadar Japonya'nın parçası DEĞİLDİR; Ainu halkının
@@ -2903,7 +2893,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Hakodate — 1854 Kanagawa Antlaşması'yla yabancı gemilere açılan iki
 // limandan biri; Matsumae'ye 55 km.
@@ -2912,14 +2902,14 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // Sapporo — Kaitakushi 1869'da kurdu (kur:); Hokkaido'nun iç kesiminin
 // ilk Japon şehridir. 1869 öncesi boşluk KASITLIDIR ve komşu Ainu
 // coğrafyasını Matsumae noktası taşır.
 { ad:"Sapporo", tur:"sehir", lat:43.0620, lon:141.3540, g:1, k:3, d:[],
   kur:"1869-01-01",
-  s:[{f:"1869-01-01", t:"1923-10-29", d:"meiji-japonya"}] },
+  s:[{f:"1869-01-01", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ===== 6g. Ryukyu =====
 //
@@ -2929,7 +2919,7 @@ window.YERLESIMLER_ASYA = [
 // 1879'da krallığı kaldırıp Okinawa vilâyetini kurdu.
 { ad:"Şuri (Naha)", tur:"sehir", lat:26.2170, lon:127.7190, g:1, k:1,kd:[{f:"1429-01-01",t:"1879-03-27",k:1,m:"Şuri (Naha)"}], d:[],
   s:[{f:"1281-01-01", t:"1879-04-04", d:"ryukyu"},
-     {f:"1879-04-04", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1879-04-04", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
 
 // ###########################################################################
 // BÖLÜM 7 — KORE
@@ -2960,19 +2950,19 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kaesong", tur:"sehir", lat:37.9720, lon:126.5540, g:1, k:2,kd:[{f:"1281-01-01",t:"1392-07-17",k:1,m:"Kaesong"}], d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Seul (Hanyang) — 1394'te Joseon'un başkenti oldu; şehir daha eskidir
 // (Goryeo'nun "güney başkenti"), bu yüzden kur: YAZILMADI.
 { ad:"Seul (Hanyang)", tur:"sehir", lat:37.5660, lon:126.9780, g:2, k:1,kd:[{f:"1392-07-17",t:"1910-08-29",k:1,m:"Seul (Hanyang)"}], d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Pyongyang", tur:"sehir", lat:39.0190, lon:125.7380, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Pusan — İmcin Savaşı'nın çıkarma noktası ve savaş boyunca Japon
 // ordusunun ana üssü; 1876 Ganghwa Antlaşması'yla açılan ilk limandır.
@@ -2981,12 +2971,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1392-07-17", t:"1592-05-23", d:"joseon"},
      {f:"1592-05-23", t:"1598-11-24", d:"azuchi-momoyama"},
      {f:"1598-11-24", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"İnçon (Incheon)", tur:"liman", lat:37.4560, lon:126.7050, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 // Ganghwa — Moğol istilâları sırasında Goryeo sarayının 1232-1270 arası
 // sığınağı; 1866 Fransız, 1871 Amerikan ve 1875 Japon çıkarmalarının
@@ -2994,39 +2984,39 @@ window.YERLESIMLER_ASYA = [
 { ad:"Ganghwa", tur:"kale", lat:37.7470, lon:126.4880, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Kyongcu (Gyeongju)", tur:"sehir", lat:35.8560, lon:129.2250, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Taegu (Daegu)", tur:"sehir", lat:35.8720, lon:128.6010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Concu (Jeonju)", tur:"sehir", lat:35.8240, lon:127.1480, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Kongcu (Gongju)", tur:"sehir", lat:36.4550, lon:127.1190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Çungcu (Chungju)", tur:"sehir", lat:36.9910, lon:127.9260, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 // Ûicu (Uiju) — Yalu üzerindeki Çin kapısı; Kore elçilerinin Pekin yolu
 // buradan geçerdi. 1592'de kral Seonjo buraya kaçtı.
 { ad:"Ûicu (Uiju)", tur:"kale", lat:40.1520, lon:124.5230, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Hamhung — Ssangseong komutanlığı: 1258-1356 arasında YUAN'IN DOĞRUDAN
 // idaresindeydi, yani 1281'de Goryeo değildir. Kral Gongmin 1356'da geri
@@ -3035,20 +3025,20 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 { ad:"Wonsan", tur:"liman", lat:39.1470, lon:127.4440, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Kyongsong — Joseon'un XV. yüzyılda Tumen'e kadar genişlettiği kuzeydoğu
 // sınırının kalesi ("altı garnizon", 1434-1449).
 { ad:"Kyongsong (Gyeongseong)", tur:"kale", lat:41.5750, lon:129.5980, g:0, k:4, d:[],
   kur:"1434-01-01",
   s:[{f:"1434-01-01", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Britannica Korea"},{f:"1945-09-09",t:"1948-09-09",d:"kuzey-kore-sovyet-idaresi",kaynak:"Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)"},{f:"1948-09-09",t:"2000-12-31",d:"kuzey-kore",kaynak:"KDHC ilani 1948-09-09 (Britannica North Korea)"}] },
 
 // Ceccu (Jeju) — Tamna: 1273-1356 arasında Yuan'ın doğrudan idaresinde bir
 // at yetiştirme bölgesiydi. Ada, kendi noktası olmazsa kutu açıldığında
@@ -3057,7 +3047,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 // ###########################################################################
 // BÖLÜM 8 — GÜNEYDOĞU ASYA
@@ -3099,7 +3089,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1313-01-01", t:"1555-01-01", d:"ava"},
      {f:"1555-01-01", t:"1752-04-23", d:"toungoo"},
      {f:"1752-04-23", t:"1885-11-28", d:"konbaung"},
-     {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Ava (İnwa) — 1364'te kuruldu (kur:) ve dört yüzyıl boyunca Yukarı
 // Birmanya'nın başkenti oldu.
@@ -3108,14 +3098,14 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1364-01-01", t:"1555-01-01", d:"ava"},
      {f:"1555-01-01", t:"1752-04-23", d:"toungoo"},
      {f:"1752-04-23", t:"1885-11-28", d:"konbaung"},
-     {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Mandalay — Kral Mindon 1857'de kurdu (kur:); Birmanya'nın son başkenti.
 // 28 Kasım 1885'te İngilizler girdi ve krallık sona erdi. Ava'ya 15.6 km.
 { ad:"Mandalay", tur:"sehir", lat:21.9750, lon:96.0840, g:1, k:2,kd:[{f:"1857-01-01",t:"1885-11-29",k:1,m:"Mandalay"}], d:[],
   kur:"1857-01-01",
   s:[{f:"1857-01-01", t:"1885-11-28", d:"konbaung"},
-     {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Pegu (Bago) — Mon Hanthawaddy krallığının başkenti; 1539'da Toungoo
 // aldı, 1740'ta Monlar yeniden bağımsızlaştı, 6 Mayıs 1757'de Alaungpaya
@@ -3126,7 +3116,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1539-01-01", t:"1740-01-01", d:"toungoo"},
      {f:"1740-01-01", t:"1757-05-06", d:"hanthawaddy"},
      {f:"1757-05-06", t:"1852-12-20", d:"konbaung"},
-     {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Rangun (Yangon) — Alaungpaya 1755'te Dagon köyünü şehir yapıp "Yangon"
 // adını verdi; yerleşim daha eski (Shwedagon pagodası) olduğu için kur:
@@ -3138,7 +3128,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1539-01-01", t:"1740-01-01", d:"toungoo"},
      {f:"1740-01-01", t:"1755-05-03", d:"hanthawaddy"},
      {f:"1755-05-03", t:"1852-04-14", d:"konbaung"},
-     {f:"1852-04-14", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1852-04-14", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Toungoo — 1510'da bağımsızlığını ilân eden ve yüz yıl içinde Güneydoğu
 // Asya'nın en büyük imparatorluğunu kuran hânedanın çıkış şehri.
@@ -3147,14 +3137,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1313-01-01", t:"1510-10-16", d:"ava"},
      {f:"1510-10-16", t:"1752-04-23", d:"toungoo"},
      {f:"1752-04-23", t:"1852-12-20", d:"konbaung"},
-     {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 { ad:"Prome (Pyay)", tur:"kale", lat:18.8170, lon:95.2130, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1313-01-01", d:"pagan"},
      {f:"1313-01-01", t:"1542-05-19", d:"ava"},
      {f:"1542-05-19", t:"1752-04-23", d:"toungoo"},
      {f:"1752-04-23", t:"1852-12-20", d:"konbaung"},
-     {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Mrauk U — Arakan krallığının başkenti (1430'dan itibaren); Bengal
 // körfezinin en güçlü deniz devletlerinden ve 1459-1666 arasında
@@ -3162,7 +3152,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Mrauk U (Arakan)", tur:"sehir", lat:20.5880, lon:93.1910, g:1, k:1,kd:[{f:"1281-01-01",t:"1785-01-02",k:1,m:"Mrauk U (Arakan)"}], d:[],
   s:[{f:"1281-01-01", t:"1785-01-02", d:"arakan"},
      {f:"1785-01-02", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 { ad:"Moulmein (Mawlamyine)", tur:"liman", lat:16.4821, lon:97.6462, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1287-01-01", d:"pagan"},
@@ -3170,7 +3160,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1539-01-01", t:"1740-01-01", d:"toungoo"},
      {f:"1740-01-01", t:"1757-05-06", d:"hanthawaddy"},
      {f:"1757-05-06", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Tavoy ve Mergui — Tenasserim kıyısı. XIV. yüzyıldan XVIII. yüzyıla
 // kadar Siyam'ın Hint Okyanusu kapısıydı: Mergui, Ayutthaya'nın batı
@@ -3181,19 +3171,19 @@ window.YERLESIMLER_ASYA = [
      {f:"1287-01-01", t:"1373-01-01", d:"hanthawaddy"},
      {f:"1373-01-01", t:"1760-01-01", d:"ayutthaya"},
      {f:"1760-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 { ad:"Mergui (Myeik)", tur:"liman", lat:12.4361, lon:98.6130, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1287-01-01", d:"pagan"},
      {f:"1287-01-01", t:"1373-01-01", d:"hanthawaddy"},
      {f:"1373-01-01", t:"1760-01-01", d:"ayutthaya"},
      {f:"1760-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // Kengtung — Şan platosunun doğu ucu; sawbwa'ları hem Birmanya'ya hem
 // Çin'e vergi öderdi. İngiliz döneminde de kendi beyleri yönetti.
 { ad:"Kengtung", tur:"sehir", lat:21.2900, lon:99.6050, g:0, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Kengtung"}], d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"san-devletleri"}] },
+  s:[{f:"1281-01-01", t:"1923-10-29", d:"san-devletleri"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"tsv: ingiliz-burma t=1948-01-04; Britannica 'Shan States' (Federated Shan States, Burma Frontier Areas)"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"Britannica 'Myanmar' / Panglong Anlaşması 1947; Library of Congress Country Studies: Burma"}] },
 
 // ===== 8b. Siyam =====
 //
@@ -3206,7 +3196,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
      {f:"1438-01-01", t:"1767-04-07", d:"ayutthaya"},
      {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
-     {f:"1782-04-06", t:"1923-10-29", d:"siyam-chakri"}] },
+     {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Ayutthaya — 4 Mart 1351'de kuruldu (kur:), 7 Nisan 1767'de yakıldı ve
 // terk edildi (bit:). Sahiplik zinciri 1923'e kadar TAM bırakıldı.
@@ -3216,7 +3206,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1569-08-08", t:"1584-05-03", d:"toungoo"},
      {f:"1584-05-03", t:"1767-04-07", d:"ayutthaya"},
      {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
-     {f:"1782-04-06", t:"1923-10-29", d:"siyam-chakri"}] },
+     {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Bangkok — Taksin 1767 sonunda Tonburi'yi (nehrin batı yakası) başkent
 // yaptı, I. Rama 6 Nisan 1782'de doğu yakaya geçip Bangkok'u kurdu (kur:).
@@ -3224,7 +3214,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Bangkok (Tonburi)", tur:"sehir", lat:13.7540, lon:100.5010, g:2, k:2,kd:[{f:"1782-04-06",t:"1923-10-29",k:1,m:"Bangkok (Tonburi)"}], d:[],
   kur:"1767-12-28",
   s:[{f:"1767-12-28", t:"1782-04-06", d:"tonburi"},
-     {f:"1782-04-06", t:"1923-10-29", d:"siyam-chakri"}] },
+     {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Chiang Mai — Lan Na krallığının başkenti, 12 Nisan 1296'da kuruldu
 // (kur:). Bayinnaung 2 Nisan 1558'de aldı ve Lan Na iki yüz yıl Birmanya
@@ -3234,7 +3224,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1296-04-12", t:"1558-04-02", d:"lan-na"},
      {f:"1558-04-02", t:"1752-04-23", d:"toungoo"},
      {f:"1752-04-23", t:"1774-01-15", d:"konbaung"},
-     {f:"1774-01-15", t:"1923-10-29", d:"siyam-chakri"}] },
+     {f:"1774-01-15", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Nakhon Si Thammarat — Malay yarımadasının Siyam tarafındaki kilit
 // şehri; Kedah, Patani ve Trengganu üzerindeki Siyam nüfuzu buradan
@@ -3243,7 +3233,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
      {f:"1438-01-01", t:"1767-04-07", d:"ayutthaya"},
      {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
-     {f:"1782-04-06", t:"1923-10-29", d:"siyam-chakri"}] },
+     {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // ===== 8c. Laos ve Kamboçya =====
 //
@@ -3261,7 +3251,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1353-01-01", d:"__BOSLUK__"},
      {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
      {f:"1707-01-01", t:"1893-10-03", d:"laos-kralliklari"},
-     {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 // Vientiane — 1560'ta Lan Xang'ın başkenti oldu; Siyam 1828'de şehri
 // yıktı ve krallığı kaldırdı, 1893'te Fransa aldı.
@@ -3272,13 +3262,13 @@ window.YERLESIMLER_ASYA = [
      {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
      {f:"1707-01-01", t:"1828-11-01", d:"laos-kralliklari"},
      {f:"1828-11-01", t:"1893-10-03", d:"siyam-chakri"},
-     {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 { ad:"Champasak", tur:"sehir", lat:14.8920, lon:105.8760, g:0, k:2,kd:[{f:"1713-01-01",t:"1893-10-03",k:1,m:"Champasak"}], d:[],
   kur:"1713-01-01",
   s:[{f:"1713-01-01", t:"1778-01-01", d:"laos-kralliklari"},
      {f:"1778-01-01", t:"1893-10-03", d:"siyam-chakri"},
-     {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 // Angkor — Kmer imparatorluğunun başkenti; 1431'de Ayutthaya aldı ve
 // merkez güneye, Phnom Penh'e taşındı. Şehir tamamen boşalmadığı (Angkor
@@ -3289,26 +3279,26 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1431-01-01", d:"angkor-kmer"},
      {f:"1431-01-01", t:"1795-01-01", d:"kamboc-kralligi"},
      {f:"1795-01-01", t:"1907-03-23", d:"siyam-chakri"},
-     {f:"1907-03-23", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1907-03-23", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 { ad:"Battambang", tur:"sehir", lat:13.0960, lon:103.2030, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1431-01-01", d:"angkor-kmer"},
      {f:"1431-01-01", t:"1795-01-01", d:"kamboc-kralligi"},
      {f:"1795-01-01", t:"1907-03-23", d:"siyam-chakri"},
-     {f:"1907-03-23", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1907-03-23", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 // Phnom Penh — 1434'te Kmer başkenti oldu (kur:). Kral Norodom 11 Ağustos
 // 1863'te Fransız himayesini kabul etti.
 { ad:"Phnom Penh", tur:"sehir", lat:11.5620, lon:104.8880, g:1, k:1,kd:[{f:"1434-01-01",t:"1923-10-29",k:1,m:"Phnom Penh"}], d:[],
   kur:"1434-01-01",
   s:[{f:"1434-01-01", t:"1863-08-11", d:"kamboc-kralligi"},
-     {f:"1863-08-11", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1863-08-11", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 // Oudong — 1618-1866 arası Kamboçya'nın başkenti; Phnom Penh'e 31 km.
 { ad:"Oudong", tur:"sehir", lat:11.8080, lon:104.7440, g:0, k:3, d:[],
   kur:"1618-01-01",
   s:[{f:"1618-01-01", t:"1863-08-11", d:"kamboc-kralligi"},
-     {f:"1863-08-11", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1863-08-11", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 // ===== 8d. Vietnam ve Champa =====
 //
@@ -3335,7 +3325,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1592-01-01", t:"1786-07-21", d:"le-hanedani"},
      {f:"1786-07-21", t:"1802-06-20", d:"tay-son"},
      {f:"1802-06-20", t:"1883-08-25", d:"nguyen-hanedani"},
-     {f:"1883-08-25", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1883-08-25", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Cao Bằng — Mạc hânedanı Thăng Long'u kaybettikten sonra 1592-1677
 // arasında burada, Çin sınırında tutundu. Vietnam'ın seksen beş yıl
@@ -3349,7 +3339,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1677-01-01", t:"1786-07-21", d:"le-hanedani"},
      {f:"1786-07-21", t:"1802-06-20", d:"tay-son"},
      {f:"1802-06-20", t:"1883-08-25", d:"nguyen-hanedani"},
-     {f:"1883-08-25", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1883-08-25", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 { ad:"Lạng Sơn", tur:"kale", lat:21.8530, lon:106.7610, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1400-03-01", d:"tran-hanedani"},
@@ -3360,7 +3350,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1592-01-01", t:"1786-07-21", d:"le-hanedani"},
      {f:"1786-07-21", t:"1802-06-20", d:"tay-son"},
      {f:"1802-06-20", t:"1883-08-25", d:"nguyen-hanedani"},
-     {f:"1883-08-25", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1883-08-25", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Huế (Phú Xuân) — 1306'da Champa'dan Đại Việt'e çeyiz olarak geçen iki
 // vilâyetin içindedir. Nguyễn beyleri 1687'de burayı merkez yaptı;
@@ -3376,7 +3366,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1775-02-01", t:"1786-06-01", d:"le-hanedani"},
      {f:"1786-06-01", t:"1801-06-15", d:"tay-son"},
      {f:"1801-06-15", t:"1884-06-06", d:"nguyen-hanedani"},
-     {f:"1884-06-06", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1884-06-06", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Hội An (Faifo) — XVI-XVIII. yüzyılın en canlı uluslararası limanı;
 // Japon, Çinli, Portekizli ve Hollandalı tüccarların mahalleleri vardı.
@@ -3387,7 +3377,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1775-02-01", t:"1786-06-01", d:"le-hanedani"},
      {f:"1786-06-01", t:"1802-06-01", d:"tay-son"},
      {f:"1802-06-01", t:"1884-06-06", d:"nguyen-hanedani"},
-     {f:"1884-06-06", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1884-06-06", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Đà Nẵng (Tourane) — Fransız müdahalesi 1 Eylül 1858'de burada başladı;
 // 1888'de doğrudan Fransız toprağı (concession) oldu. Hội An'a 22 km.
@@ -3398,7 +3388,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1775-02-01", t:"1786-06-01", d:"le-hanedani"},
      {f:"1786-06-01", t:"1802-06-01", d:"tay-son"},
      {f:"1802-06-01", t:"1884-06-06", d:"nguyen-hanedani"},
-     {f:"1884-06-06", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1884-06-06", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Vijaya (Chà Bàn / Quy Nhơn) — Champa'nın başkenti; Lê Thánh Tông
 // 2 Mart 1471'de aldı ve Champa bir daha toparlanamadı. Üç yüz yıl sonra
@@ -3409,14 +3399,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1558-01-01", t:"1773-01-01", d:"nguyen-beyligi"},
      {f:"1773-01-01", t:"1802-06-01", d:"tay-son"},
      {f:"1802-06-01", t:"1884-06-06", d:"nguyen-hanedani"},
-     {f:"1884-06-06", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1884-06-06", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Phan Rang (Panduranga) — Champa'nın son kalıntısı; Minh Mạng 1832'de
 // kaldırdı. Bu, 1500 yıllık Çam devletinin haritadan silindiği tarihtir.
 { ad:"Phan Rang (Panduranga)", tur:"sehir", lat:11.5640, lon:108.9880, g:1, k:1,kd:[{f:"1281-01-01",t:"1832-01-01",k:1,m:"Phan Rang (Panduranga)"}], d:[],
   s:[{f:"1281-01-01", t:"1832-01-01", d:"campa"},
      {f:"1832-01-01", t:"1884-06-06", d:"nguyen-hanedani"},
-     {f:"1884-06-06", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1884-06-06", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // Saygon (Gia Định) — Mekong deltası 1698'e kadar Kmer toprağıdır;
 // Nguyễn beyleri o yıl Gia Định'i kurdu. Fransız donanması 17 Şubat
@@ -3427,7 +3417,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1777-01-01", t:"1788-09-07", d:"tay-son"},
      {f:"1788-09-07", t:"1802-06-01", d:"nguyen-beyligi"},
      {f:"1802-06-01", t:"1859-02-17", d:"nguyen-hanedani"},
-     {f:"1859-02-17", t:"1923-10-29", d:"fransiz-cinhindi"}] },
+     {f:"1859-02-17", t:"1954-07-21", d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // ===== 8e. Malay yarımadası =====
 //
@@ -3445,7 +3435,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1400-01-01", t:"1511-08-10", d:"malaka-sultanligi"},
      {f:"1511-08-10", t:"1641-01-14", d:"portekiz",enklav:true},
      {f:"1641-01-14", t:"1825-03-01", d:"hollanda-dogu-hint",enklav:true},
-     {f:"1825-03-01", t:"1923-10-29", d:"ingiliz-malaya"}] },
+     {f:"1825-03-01", t:"1946-04-01", d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Singapur — Raffles 29 Ocak 1819'da karaya çıktı ve Johor'dan aldığı
 // izinle ticaret istasyonunu kurdu (kur:). 1819 öncesi boşluk KASITLIDIR:
@@ -3454,7 +3444,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Singapur", tur:"liman", lat:1.2900, lon:103.8520, g:2, k:2,kd:[{f:"1826-01-01",t:"1923-10-29",k:1,m:"Singapur"}], d:[],
   kur:"1819-01-29",
   s:[{f:"1819-01-29", t:"1826-11-27", d:"ingiltere"},
-     {f:"1826-11-27", t:"1923-10-29", d:"ingiliz-malaya"}] },
+     {f:"1826-11-27", t:"1946-04-01", d:"ingiliz-malaya"},{f:"1946-04-01",t:"1959-06-03",d:"singapur-kolonisi",kaynak:"Britannica Singapore"},{f:"1959-06-03",t:"2000-12-31",d:"singapur",kaynak:"Britannica Singapore: 1959 ozyonetim, 1963-65 Malezya ici, 1965 cumhuriyet"}] },
 
 // Johor — Malaka'nın son sultanının oğlu 1528'de kurdu; Portekiz, Açe ve
 // Hollanda arasındaki üçlü mücadelenin dördüncü tarafıdır. 1914'te
@@ -3462,14 +3452,14 @@ window.YERLESIMLER_ASYA = [
 { ad:"Johor", tur:"sehir", lat:1.4930, lon:103.7410, g:1, k:1, d:[],
   s:[{f:"1281-01-01", t:"1400-01-01", d:"malay-sultanliklari"},
      {f:"1400-01-01", t:"1528-01-01", d:"malaka-sultanligi"},
-     {f:"1528-01-01", t:"1923-10-29", d:"cohor-sultanligi"}] },
+     {f:"1528-01-01", t:"1923-10-29", d:"cohor-sultanligi"},{f:"1923-10-29",t:"1946-04-01",d:"federe-olmayan-malay-devletleri",kaynak:"tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Malayan Union 1946-04-01..1948 (UK National Archives; Britannica Onn Jaafar)"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Federation of Malaya Agreement 1948-02-01, Britannica"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Malaya bagimsizligi 1957-08-31; Malezya 1963-09-16 ayni kimlik"}] },
 
 // Penang — Francis Light 11 Ağustos 1786'da Kedah sultanından aldı (kur:);
 // İngiltere'nin yarımadadaki ilk toprağıdır.
 { ad:"Penang (George Town)", tur:"liman", lat:5.4140, lon:100.3290, g:1, k:3, d:[],
   kur:"1786-08-11",
   s:[{f:"1786-08-11", t:"1826-11-27", d:"ingiltere"},
-     {f:"1826-11-27", t:"1923-10-29", d:"ingiliz-malaya"}] },
+     {f:"1826-11-27", t:"1946-04-01", d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Kedah — 1821'de Siyam işgal etti, 1842'de sultan tahta iade edildi;
 // 10 Temmuz 1909 İngiliz-Siyam antlaşmasıyla İngiliz nüfuz alanına geçti.
@@ -3477,26 +3467,26 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1821-11-12", d:"malay-sultanliklari"},
      {f:"1821-11-12", t:"1842-01-01", d:"siyam-chakri"},
      {f:"1842-01-01", t:"1909-07-10", d:"malay-sultanliklari"},
-     {f:"1909-07-10", t:"1923-10-29", d:"ingiliz-malaya"}] },
+     {f:"1909-07-10", t:"1946-04-01", d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Patani — Malay sultanlıklarının kuzeydeki ucu; Siyam 1786'da ilhak etti
 // ve Bangkok'ta kaldı (1909 antlaşmasında da Siyam'da bırakıldı).
 { ad:"Patani", tur:"liman", lat:6.8690, lon:101.2500, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1786-01-01", d:"malay-sultanliklari"},
-     {f:"1786-01-01", t:"1923-10-29", d:"siyam-chakri"}] },
+     {f:"1786-01-01", t:"2000-12-31", d:"siyam-chakri"}] },
 
 // Perak — 20 Ocak 1874 Pangkor Antlaşması, İngiltere'nin yarımadadaki
 // "danışman" düzeninin başlangıcıdır.
 { ad:"Perak (Kuala Kangsar)", tur:"sehir", lat:4.7670, lon:100.9370, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1874-01-20", d:"malay-sultanliklari"},
-     {f:"1874-01-20", t:"1923-10-29", d:"ingiliz-malaya"}] },
+     {f:"1874-01-20", t:"1946-04-01", d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Kuala Lumpur — 1857'de kalay madencilerinin kurduğu kasaba (kur:);
 // 1896'da Federe Malay Devletleri'nin başkenti oldu.
 { ad:"Kuala Lumpur", tur:"sehir", lat:3.1390, lon:101.6870, g:1, k:3, d:[],
   kur:"1857-01-01",
   s:[{f:"1857-01-01", t:"1874-01-20", d:"malay-sultanliklari"},
-     {f:"1874-01-20", t:"1923-10-29", d:"ingiliz-malaya"}] },
+     {f:"1874-01-20", t:"1946-04-01", d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // ===== 8f. Sumatra =====
 
@@ -3507,7 +3497,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1521-01-01", d:"samudra-pasai"},
      {f:"1521-01-01", t:"1524-01-01", d:"portekiz"},
      {f:"1524-01-01", t:"1903-01-10", d:"ace-sultanligi"},
-     {f:"1903-01-10", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1903-01-10", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Banda Açe — Açe Sultanlığı 1496'da kuruldu (kur:) ve XVI. yüzyılda
 // Osmanlı Devleti'nden top ve topçu yardımı istedi (1566 elçiliği);
@@ -3516,7 +3506,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Banda Açe", tur:"liman", lat:5.5480, lon:95.3240, g:2, k:1,kd:[{f:"1496-01-01",t:"1903-01-01",k:1,m:"Banda Açe"}], d:[],
   kur:"1496-01-01",
   s:[{f:"1496-01-01", t:"1903-01-10", d:"ace-sultanligi"},
-     {f:"1903-01-10", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1903-01-10", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Padang — Minangkabau'nun (Pagaruyung) limanı; VOC 1663'te yerleşti,
 // İngiltere Napolyon savaşlarında iki kez aldı (1781-1784 ve 1795-1819).
@@ -3524,7 +3514,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1663-01-01", d:"pagaruyung"},
      {f:"1663-01-01", t:"1795-08-18", d:"hollanda-dogu-hint"},
      {f:"1795-08-18", t:"1819-05-01", d:"ingiltere"},
-     {f:"1819-05-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1819-05-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Palembang — Srivijaya'nın merkeziydi; 1281'de imparatorluk çökmüş,
 // şehir Cava'nın (önce Singhasari, sonra Majapahit) nüfuzundaydı.
@@ -3533,7 +3523,7 @@ window.YERLESIMLER_ASYA = [
 // ağzının devletidir ve ayrı ayrı boyanmaları haritaya bilgi katmaz.
 { ad:"Palembang", tur:"liman", lat:-2.9760, lon:104.7750, g:1, k:1,kd:[{f:"1281-01-01",t:"1825-01-01",k:1,m:"Palembang"}], d:[],
   s:[{f:"1281-01-01", t:"1825-01-01", d:"palembang-sultanligi"},
-     {f:"1825-01-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1825-01-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Bengkulu (Bencoolen) — İngiltere'nin Sumatra'daki 139 yıllık üssü
 // (1685-1824); 1824 Londra Antlaşması'yla Singapur karşılığında
@@ -3541,7 +3531,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Bengkulu (Bencoolen)", tur:"liman", lat:-3.7961, lon:102.2722, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1685-01-01", d:"pagaruyung"},
      {f:"1685-01-01", t:"1824-03-17", d:"ingiltere"},
-     {f:"1824-03-17", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1824-03-17", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ===== 8g. Cava ve Bali =====
 
@@ -3555,7 +3545,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1587-01-01", t:"1743-11-11", d:"mataram-sultanligi"},
      {f:"1743-11-11", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1816-08-19", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Demak — Cava'nın ilk İslâm sultanlığı; Majapahit'i 1527'de yıktı.
 { ad:"Demak", tur:"sehir", lat:-6.8900, lon:110.6390, g:1, k:2,kd:[{f:"1478-01-01",t:"1587-01-01",k:1,m:"Demak"}], d:[],
@@ -3565,7 +3555,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1587-01-01", t:"1743-11-11", d:"mataram-sultanligi"},
      {f:"1743-11-11", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1816-08-19", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Semarang", tur:"liman", lat:-6.9660, lon:110.4170, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
@@ -3574,7 +3564,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1587-01-01", t:"1705-01-01", d:"mataram-sultanligi"},
      {f:"1705-01-01", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1816-08-19", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Surabaya", tur:"liman", lat:-7.2570, lon:112.7520, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
@@ -3583,7 +3573,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1625-01-01", t:"1743-11-11", d:"mataram-sultanligi"},
      {f:"1743-11-11", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1816-08-19", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Batavia — Jan Pieterszoon Coen, Cayakarta'yı 30 Mayıs 1619'da yıkıp
 // yerine Batavia'yı kurdu (kur:) ve VOC'un Asya merkezi yaptı.
@@ -3591,7 +3581,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1619-05-30",
   s:[{f:"1619-05-30", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1816-08-19", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Banten — Sunda Kalapa'yı 1527'de alarak Cava'nın batısında sultanlık
 // kurdu; XVII. yüzyılda dünyanın en büyük biber limanıydı. Hollanda
@@ -3600,7 +3590,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1527-06-22", d:"sunda-pajajaran"},
      {f:"1527-06-22", t:"1811-08-18", d:"banten-sultanligi"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1816-08-19", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ⚠️ 13 Şubat 1755 Giyanti Antlaşması Mataram'ı İKİYE böldü: Yogyakarta
 // sultanlığı ve Surakarta susuhunanlığı. İkisi de 1945'e kadar kendi
@@ -3612,13 +3602,13 @@ window.YERLESIMLER_ASYA = [
   kur:"1755-10-07",
   s:[{f:"1755-10-07", t:"1811-08-18", d:"yogyakarta"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"yogyakarta"}] },
+     {f:"1816-08-19", t:"1923-10-29", d:"yogyakarta"},{f:"1923-10-29",t:"1945-09-05",d:"hollanda-dogu-hint",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1945-09-05",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 { ad:"Surakarta (Solo)", tur:"sehir", lat:-7.5750, lon:110.8240, g:1, k:1,kd:[{f:"1745-02-17",t:"1923-10-29",k:1,m:"Surakarta (Solo)"}], d:[],
   kur:"1745-02-17",
   s:[{f:"1745-02-17", t:"1811-08-18", d:"mataram-sultanligi"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
-     {f:"1816-08-19", t:"1923-10-29", d:"surakarta"}] },
+     {f:"1816-08-19", t:"1946-06-16", d:"surakarta"},{f:"1946-06-16",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // Bali — Majapahit 1343'te aldı; Cava İslâmlaşınca ada Hindu kaldı ve
 // Gelgel/Klungkung krallıkları sürdü. Hollanda 28 Nisan 1908'deki
@@ -3627,7 +3617,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1343-01-01", d:"singhasari"},
      {f:"1343-01-01", t:"1478-01-01", d:"majapahit"},
      {f:"1478-01-01", t:"1908-04-28", d:"bali-kralliklari"},
-     {f:"1908-04-28", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1908-04-28", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Mataram (Lombok) — XVIII. yüzyıldan itibaren Balili Karangasem
 // hânedanı yönetti; Hollanda 22 Kasım 1894'te aldı. Cava'daki Mataram
@@ -3636,39 +3626,39 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1343-01-01", d:"singhasari"},
      {f:"1343-01-01", t:"1478-01-01", d:"majapahit"},
      {f:"1478-01-01", t:"1894-11-22", d:"bali-kralliklari"},
-     {f:"1894-11-22", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1894-11-22", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ===== 8h. Borneo, Sulawesi, Maluku ve Küçük Sunda =====
 
 // Brunei — Borneo'nun kuzeyini yüzyıllarca elinde tuttu; 1888'de İngiliz
 // himayesine girdi ama sultanlık sürdü (bugün de sürüyor).
 { ad:"Brunei", tur:"liman", lat:4.9030, lon:114.9390, g:1, k:3, d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"brunei-sultanligi"}] },
+  s:[{f:"1281-01-01", t:"2000-12-31", d:"brunei-sultanligi"}] },
 
 // Kuching — James Brooke 24 Eylül 1841'de Brunei sultanından Sarawak'ı
 // aldı ve "beyaz racalar" hânedanını kurdu; 1946'ya kadar sürdü.
 { ad:"Kuching (Sarawak)", tur:"liman", lat:1.5530, lon:110.3590, g:1, k:2,kd:[{f:"1841-09-24",t:"1923-10-29",k:1,m:"Kuching (Sarawak)"}], d:[],
   kur:"1827-01-01",
   s:[{f:"1827-01-01", t:"1841-09-24", d:"brunei-sultanligi"},
-     {f:"1841-09-24", t:"1923-10-29", d:"sarawak-brooke"}] },
+     {f:"1841-09-24", t:"1946-07-01", d:"sarawak-brooke"},{f:"1946-07-01",t:"1963-09-16",d:"sarawak-tac-kolonisi",kaynak:"Britannica Sarawak"},{f:"1963-09-16",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: 16 Eylul 1963"}] },
 
 // Bancarmasin — 1526'da kurulan sultanlık; Hollanda 11 Haziran 1860'ta
 // kaldırdı ve Banjar savaşı başladı.
 { ad:"Bancarmasin", tur:"liman", lat:-3.3200, lon:114.5910, g:0, k:1,kd:[{f:"1526-01-01",t:"1860-06-11",k:1,m:"Bancarmasin"}], d:[],
   kur:"1526-01-01",
   s:[{f:"1526-01-01", t:"1860-06-11", d:"banjar-sultanligi"},
-     {f:"1860-06-11", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1860-06-11", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Makassar — Gowa sultanlığı; Doğu Endonezya'nın en güçlü devletiydi ve
 // baharat ticaretini VOC tekelinin dışında tutmaya çalıştı. 18 Kasım
 // 1667 Bongaya Antlaşması'yla teslim oldu.
 { ad:"Makassar", tur:"liman", lat:-5.1470, lon:119.4320, g:1, k:1,kd:[{f:"1281-01-01",t:"1667-11-18",k:1,m:"Makassar"}], d:[],
   s:[{f:"1281-01-01", t:"1667-11-18", d:"gova-makassar"},
-     {f:"1667-11-18", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1667-11-18", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 { ad:"Manado", tur:"liman", lat:1.4740, lon:124.8420, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1657-01-01", d:"ternate-sultanligi"},
-     {f:"1657-01-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1657-01-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Ternate — karanfilin dünyadaki iki kaynağından biri; bu yüzden
 // Portekiz (1522), İspanya (1606) ve Hollanda (1663) sırayla adaya
@@ -3679,14 +3669,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1522-01-01", t:"1575-12-28", d:"portekiz"},
      {f:"1575-12-28", t:"1606-04-01", d:"ternate-sultanligi"},
      {f:"1606-04-01", t:"1663-05-01", d:"ispanya"},
-     {f:"1663-05-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1663-05-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Tidore — Ternate'nin rakibi ve İspanya'nın müttefiki; sultanlık
 // Hollanda himayesinde 1900'lere kadar sürdüğü için kimlik korundu.
 // Ternate'ye 11.2 km — bu dosyadaki EN YAKIN İKİ NOKTA, 3 km kuralının
 // üstünde ve iki ayrı devletin başkenti olduğu için ikisi de tutuldu.
 { ad:"Tidore", tur:"liman", lat:0.6880, lon:127.4000, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Tidore"}], d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"tidore-sultanligi"}] },
+  s:[{f:"1281-01-01", t:"1923-10-29", d:"tidore-sultanligi"},{f:"1923-10-29",t:"1949-12-27",d:"hollanda-dogu-hint",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // Ambon — Portekiz 1512'de geldi, VOC 23 Şubat 1605'te aldı ve burası
 // şirketin İLK doğu merkezi oldu. İngiltere 1810-1817 arasında tuttu.
@@ -3695,7 +3685,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1605-02-23", d:"portekiz"},
      {f:"1605-02-23", t:"1810-02-19", d:"hollanda-dogu-hint"},
      {f:"1810-02-19", t:"1817-03-25", d:"ingiltere"},
-     {f:"1817-03-25", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1817-03-25", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Banda Neira — dünyada küçük hindistancevizinin (muskat) yetiştiği TEK
 // yer; Coen 1621'de ada halkını katlederek VOC tekelini kurdu. Run adası
@@ -3705,20 +3695,20 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1621-03-08", d:"banda-adalari"},
      {f:"1621-03-08", t:"1810-08-09", d:"hollanda-dogu-hint"},
      {f:"1810-08-09", t:"1817-03-25", d:"ingiltere"},
-     {f:"1817-03-25", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1817-03-25", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Kupang — Hollanda 1653'te kaleyi kurdu; Timor adası 1859 ve 1904
 // antlaşmalarıyla Hollanda ile Portekiz arasında bölündü ve bu bölünme
 // bugünkü Doğu Timor'un sebebidir.
 { ad:"Kupang", tur:"liman", lat:-10.1780, lon:123.5970, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1653-01-01", d:"timor-beylikleri"},
-     {f:"1653-01-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
+     {f:"1653-01-01", t:"1949-12-27", d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // Dili — Portekiz 1769'da idare merkezini buraya taşıdı; Doğu Timor
 // 1975'e kadar Portekiz toprağı kaldı.
 { ad:"Dili", tur:"liman", lat:-8.5560, lon:125.5600, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri"},
-     {f:"1769-10-10", t:"1923-10-29", d:"portekiz"}] },
+     {f:"1769-10-10", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
 
 // ===== 8i. Filipinler =====
 //
@@ -3739,21 +3729,21 @@ window.YERLESIMLER_ASYA = [
      {f:"1571-06-24", t:"1762-10-06", d:"ispanya"},
      {f:"1762-10-06", t:"1764-05-31", d:"ingiltere"},
      {f:"1764-05-31", t:"1898-08-13", d:"ispanya"},
-     {f:"1898-08-13", t:"1923-10-29", d:"abd"}] },
+     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // Cebu — Magellan 1521'de burada öldürüldü; Legazpi 27 Nisan 1565'te
 // ilk kalıcı İspanyol yerleşimini kurdu.
 { ad:"Cebu", tur:"liman", lat:10.3170, lon:123.8910, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1565-04-27", d:"filipin-racaliklari"},
      {f:"1565-04-27", t:"1898-08-13", d:"ispanya"},
-     {f:"1898-08-13", t:"1923-10-29", d:"abd"}] },
+     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // Colo (Jolo) — Sulu Sultanlığı; İspanya üç yüz yıl boyunca ilhak
 // edemedi, sultan 22 Mart 1915 Carpenter Antlaşması'yla dünyevî
 // egemenliğini Amerika'ya devretti.
 { ad:"Colo (Jolo)", tur:"liman", lat:6.0530, lon:121.0020, g:1, k:1,kd:[{f:"1457-01-01",t:"1915-03-22",k:1,m:"Colo (Jolo)"}], d:[],
   s:[{f:"1281-01-01", t:"1915-03-22", d:"sulu-sultanligi"},
-     {f:"1915-03-22", t:"1923-10-29", d:"abd"}] },
+     {f:"1915-03-22", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // Kotabato — Magindanao Sultanlığı; Sultan Kudarat XVII. yüzyılda
 // İspanyol seferlerini püskürttü. İspanya 1888'de nihayet bağladı,
@@ -3764,6 +3754,6 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1515-01-01", d:"filipin-racaliklari"},
      {f:"1515-01-01", t:"1888-01-01", d:"magindanao-sultanligi"},
      {f:"1888-01-01", t:"1898-08-13", d:"ispanya"},
-     {f:"1898-08-13", t:"1923-10-29", d:"abd"}] },
+     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 ];

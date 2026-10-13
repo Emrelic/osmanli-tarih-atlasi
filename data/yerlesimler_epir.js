@@ -70,7 +70,7 @@
 window.YERLESIMLER_EPIR = [
 
 { ad:"Aydonat (Paramythia)",kaynak:"atina-antlasmasi",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan",kaynak:"yanya"}], tur:"sehir", lat:39.4667, lon:20.5167, g:0, k:3, m:"Yanya",
-  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // kaynak: TDV "aydonat" md. — gövde okundu, 22 Ağu 2026.
 //   "Burası Yanya'nın 1430'da ele geçirilmesinin ardından Osmanlı
@@ -89,7 +89,7 @@ window.YERLESIMLER_EPIR = [
 //   aynı. Delvine kaydı bu yüzden YAZILMADI.
 
 { ad:"Margiliç (Margariti)",kaynak:"atina-antlasmasi",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan",kaynak:"yanya"}], tur:"sehir", lat:39.5500, lon:20.4167, g:0, k:4, m:"Yanya",
-  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // kaynak: TDV "aydonat" md. — gövde okundu. Margariti'nin MÜSTAKİL maddesi
 //   YOK (slug `margariti` ve `margilic` ikisi de 302 = ölü); ama `aydonat`
@@ -174,7 +174,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Delvine", tur:"sehir", lat:39.9500, lon:20.0972, g:0, k:3, m:"Yanya",
   kaynak:"delvine",
   s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   v:[{f:"1430-10-01",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok",kid:"arvanid-sancagi",statu:"vassal"}],
   d:[{f:"1537-08-25", t:"1912-11-28"}] },
 // kaynak: TDV "delvine" md. — GÖVDE OKUNDU, 22 Ağu 2026.
@@ -217,7 +217,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Ergiri (Ergirikasrı)", tur:"sehir", lat:40.0758, lon:20.1389, g:0, k:3, m:"Yanya",
   kaynak:"arnavutluk",
   s:[{f:"1281-01-01", t:"1417-01-01", d:"bizans"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1417-01-01", t:"1912-11-28"}] },
 // kaynak: TDV "arnavutluk" md. — GÖVDE OKUNDU.
 //   "Arvanid sancak beyi, sancak merkezi olan Ergirikasrı'nda yaşardı;
@@ -245,7 +245,7 @@ window.YERLESIMLER_EPIR = [
   s:[{f:"1281-01-01", t:"1386-01-01", d:"bizans"},
      {f:"1386-01-01", t:"1797-10-17", d:"venedik"},
      {f:"1797-10-17", t:"1798-10-23", d:"fransa-cumhuriyet"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1798-10-23", t:"1912-11-28"}] },
 // kaynak: TDV "tepedelenli-ali-pasa" md. — GÖVDE OKUNDU. Butrint'in
 //   müstakil maddesi YOK (slug `butrint` 302 = ölü), ama Ali Paşa maddesi
@@ -277,7 +277,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Hımara (Himarë)", tur:"kale", lat:40.1017, lon:19.7444, g:0, k:4, m:"Avlonya",
   kaynak:"avlonya",
   s:[{f:"1281-01-01", t:"1417-01-01", d:"napoli"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1417-01-01", t:"1912-11-28"}] },
 // kaynak: TDV "avlonya" md. — GÖVDE OKUNDU. Hımara'nın müstakil maddesi
 //   YOK (`himara` ve `himare` ikisi de 302), ama Avlonya maddesi onu ADIYLA
@@ -299,7 +299,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Ayasaranda (Sarandë)", tur:"sehir", lat:39.8750, lon:20.0053, g:0, k:4, m:"Delvine",
   kaynak:"bulunamadı — TDV'de müstakil madde YOK, Delvine md. yalnız konum veriyor",
   s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   v:[{f:"1430-10-01",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet",kid:"arvanid-sancagi",statu:"vassal"}],
   d:[{f:"1537-08-25", t:"1912-11-28"}] },
 // 🔴 BU KAYIT BİR ÇIKARIMDIR — TDV'DE SARANDË MADDESİ YOKTUR.
@@ -319,7 +319,7 @@ window.YERLESIMLER_EPIR = [
 
 { ad:"Souli (Sûli)",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan",kaynak:"yanya"}], tur:"kale", lat:39.4167, lon:20.6167, g:0, k:4, m:"Yanya",
   kaynak:"aydonat",
-  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // 🔴 ŞARTNAMENİN HİPOTEZİ ÖLÇÜLDÜ VE **ÇÜRÜDÜ** — `devletsiz` YAZILMADI.
 //   Şartname: "Souli'de kaynak konuşuyor — o hâlde `devletsiz` olmalı,
@@ -352,7 +352,7 @@ window.YERLESIMLER_EPIR = [
 
 { ad:"İgumenitsa (Gomenice)",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan",kaynak:"yanya"}], tur:"sehir", lat:39.5042, lon:20.2650, g:0, k:4, m:"Yanya",
   kaynak:"bulunamadı — TDV'de müstakil madde YOK (`igumenitsa` 302); Çamlık bölgesi Aydonat md.nden çıkarım",
-  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // 🔴 ÇIKARIM — DAMGALANIYOR. TDV'de İgumenitsa maddesi yok.
 //   Dayanak: TDV "aydonat" md. bölgeyi bir bütün olarak anlatıyor —
@@ -369,7 +369,7 @@ window.YERLESIMLER_EPIR = [
 
 { ad:"Filat (Filiates)",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan",kaynak:"yanya"}], tur:"sehir", lat:39.6053, lon:20.3175, g:0, k:4, m:"Yanya",
   kaynak:"bulunamadı — TDV'de müstakil madde YOK (`filat` ve `filates` 302); Çamlık bölgesi Aydonat md.nden çıkarım",
-  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // 🔴 ÇIKARIM — İgumenitsa ile aynı gerekçe ve aynı damga.
 //   Filat, Margiliç'in 10,5 km kuzeyinde, Çamlık'ın iç kesimindeki kaza

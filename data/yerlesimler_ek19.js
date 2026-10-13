@@ -133,13 +133,13 @@ window.YERLESIMLER_EK19 = [
 
 // ── ① HALHA'NIN DOĞUSU — Nerçinsk'in 612 km'lik menzilini kesen üç ──
 { ad:"Kerulen (Çoybalsan)", tur:"sehir", lat:48.0700, lon:114.5400, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Halhın Gol (Buir Nur)", tur:"bolge", lat:47.8000, lon:118.2000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Öndörhaan (Hentiy)", tur:"sehir", lat:47.3200, lon:110.6600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ── ② GOBİ'NİN DOĞUSU — Kalgan'ın 508 km'lik menzilini kesen nokta ──
 // ⚠️ `ming-hanedani` YAZILMADI. Kalgan (Zhangjiakou) 1429-1644 arası Ming
@@ -147,16 +147,16 @@ window.YERLESIMLER_EK19 = [
 //    Halha/Sünid otlağıydı. Kalgan'ın zincirini kopyalamak Ming'i
 //    500 km kuzeye, bozkırın ortasına taşırdı.
 { ad:"Dariganga", tur:"bolge", lat:45.3200, lon:113.9000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ── ③ KUZEY HALHA — Selenginsk'in 232 km'lik güney taşmasını kesen iki ──
 // 🔴 Bu iki nokta BENİM KENDİ HATAMI düzeltiyor: `Selenginsk` (`_ek13`)
 //    Kyahta hattını kuzeyden yerine oturtturken güneye 178-232 km taşmış
 //    ve 24.144 km² Moğol toprağını Rus boyuyordu.
 { ad:"Bulgan", tur:"sehir", lat:48.8100, lon:103.5300, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Mörön (Hövsgöl)", tur:"sehir", lat:49.6300, lon:100.1600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 ];

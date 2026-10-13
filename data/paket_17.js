@@ -23,12 +23,12 @@ window.YERLESIMLER_EK30 = [
 { ad:"Sydney", tur:"sehir", lat:-33.8688, lon:151.2093, g:1, k:1,
   kur:"1788-01-26",
   kaynak:"Australian Dictionary of Biography, 'Arthur Phillip: 1788. The Foundation Year' (adb.anu.edu.au/essay/21) · State Library of NSW, First Fleet kayıtları — Vali Arthur Phillip'in Sydney Cove/Port Jackson'da koloniyi kurduğu gün, 26 Ocak 1788.",
-  s:[{f:"1788-01-26",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1788-01-26",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Auckland", tur:"sehir", lat:-36.8485, lon:174.7633, g:1, k:1,
   kur:"1840-09-18",
   kaynak:"Te Ara Encyclopedia of New Zealand, 'The founding of Auckland: 1840–1869' (teara.govt.nz/en/auckland-region/page-7) — Vali William Hobson, 18 Eylül 1840'ta Tāmaki (Auckland) yarımadasını başkent olarak kurdu; 1865'e kadar Yeni Zelanda'nın başkentiydi.",
-  s:[{f:"1840-09-18",t:"1923-10-29",d:"yeni-zelanda"}] },
+  s:[{f:"1840-09-18",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 // ── 1281 ÖNCESİ / SONRASI DOLGU — "kabile" kovası ─────────────────────
 // Şartname §2 sınavı: kaynak "teşkilatlı ama merkezî devlet değil" diyor
@@ -60,7 +60,7 @@ window.YERLESIMLER_EK30 = [
   kur:"1220-01-01",
   kaynak:"UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — Muʻa/Lapaha, Tuʻi Tonga hanedanının üçüncü ve kalıcı başkenti oldu (1220-1851 dolaylarında bölgenin coğrafi merkezi); 22 kraliyet mezarı (langi) bu döneme tarihleniyor. Hanedan çizgisi geleneksel olarak ~950 CE'ye dayanır, imparatorluk gücünün zirvesi 1200-1500 arasıdır (UNESCO; Ancient Capitals dosyası).",
   s:[{f:"1220-01-01",t:"1845-12-04",d:"tui-tonga-imparatorlugu"},
-     {f:"1845-12-04",t:"1923-10-29",d:"tonga-kralligi"}] },
+     {f:"1845-12-04",t:"2000-12-31",d:"tonga-kralligi"}] },
 
 { ad:"Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)", tur:"bolge", lat:19.60, lon:-155.50, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
@@ -79,7 +79,7 @@ window.YERLESIMLER_EK30 = [
   kur:"1849-01-01", kasitli_bosluk:true, bos:"kabile",
   neden:"ANU Press, 'The Making of a Capital: A Social History of Suva, 1870–1882' (press-files.anu.edu.au/downloads/press/n10434/pdf/ch03.pdf) — Suva köyü 1843 Bau-Rewa Savaşı'ndan sonra Bau şefi Cakobau'nun (Kubuna konfederasyonu) koruması altına girdi; 1868'de Polynesian Company'ye arazi verildi, 1870'te Avustralyalı yerleşimciler geldi — ama bu bir EGEMENLİK değil ticarî/himaye ilişkisiydi, resmî devlet 1874 Cession'a kadar yoktu.",
   kaynak:"ANU Press, 'Suva Stories: A History of the Capital of Fiji' (JSTOR j.ctv2xc67p4) — Deed of Cession, 10 Ekim 1874, Fiji'yi resmen İngiliz egemenliğine soktu.",
-  s:[{f:"1874-10-10",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1874-10-10",t:"1970-10-10",d:"ingiltere"},{f:"1970-10-10",t:"2000-12-31",d:"fiji",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // ── ALTINCI PARTİ — M-0213 usulüyle genişletme ──────────────────────────
 // Ölçüt sayı değil: "petek gerçekte olmayan toprağı yutuyor mu?" Avustralya
@@ -111,31 +111,31 @@ window.YERLESIMLER_EK30 = [
 { ad:"Hobart", tur:"sehir", lat:-42.8821, lon:147.3272, g:1, k:1,
   kur:"1804-01-01",
   kaynak:"Australian Dictionary of Biography — Vali David Collins, ceza kolonisini Risdon'dan Sullivan's Cove'a (bugünkü Hobart) taşıyıp 1804'te kurdu.",
-  s:[{f:"1804-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1804-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Melbourne", tur:"sehir", lat:-37.8136, lon:144.9631, g:1, k:1,
   kur:"1835-08-30",
   kaynak:"EBSCO Research Starters, 'Melbourne, Australia, Is Founded'; State Library of Victoria — John Pascoe Fawkner, Yarra Nehri şelalelerinin hemen altında 30 Ağustos 1835'te yerleşim kurdu (John Batman'ın yerli topluluklarla arazi anlaşması da aynı yıl, Haziran 1835).",
-  s:[{f:"1835-08-30",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1835-08-30",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Adelaide", tur:"sehir", lat:-34.9285, lon:138.6007, g:1, k:1,
   kur:"1836-12-28",
   kaynak:"National Today / kurumsal kaynak — Güney Avustralya Eyaleti'nin İngiliz mülkü olduğu, Vali John Hindmarsh tarafından Holdfast Bay'de (bugünkü Glenelg) 28 Aralık 1836'da ilan edildi ('Proclamation Day').",
-  s:[{f:"1836-12-28",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1836-12-28",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Perth", tur:"sehir", lat:-31.9505, lon:115.8605, g:1, k:1,
   kur:"1829-08-12",
   kaynak:"Kurumsal kaynak (Western Australia Day / eski adıyla 'Foundation Day') — Swan River Kolonisi'nin kuruluşu, 12 Ağustos 1829'daki resmî törenle anıldı.",
-  s:[{f:"1829-08-12",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1829-08-12",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Brisbane", tur:"sehir", lat:-27.4698, lon:153.0251, g:1, k:1,
   kur:"1824-01-01",
   kaynak:"State Library of Victoria kaynaklı akademik özet — Moreton Bay Ceza Kolonisi Eylül 1824'te Redcliffe Yarımadası'nda kuruldu, 1825'te Brisbane Nehri kıyısına taşındı; tam gün TDV/akademik kaynakta bulunamadı, YYYY-01-01 kullanıldı.",
-  s:[{f:"1824-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1824-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Wellington", tur:"sehir", lat:-41.2865, lon:174.7762, g:1, k:1,
   kur:"1840-01-22",
   kaynak:"Te Ara Encyclopedia of New Zealand, 'The struggle to survive: 1840–1865' (teara.govt.nz/en/wellington-region/page-7) — New Zealand Company'nin ilk göçmen gemisi (Aurora), 22 Ocak 1840'ta Petone'ye ulaştı; bu tarih 'Wellington Anniversary Day' olarak anılır.",
-  s:[{f:"1840-01-22",t:"1923-10-29",d:"yeni-zelanda"}] },
+  s:[{f:"1840-01-22",t:"2000-12-31",d:"yeni-zelanda"}] },
 { ad:"Christchurch", tur:"sehir", lat:-43.5321, lon:172.6362, g:1, k:1,
   kur:"1850-12-16",
   kaynak:"Te Ara Encyclopedia of New Zealand, 'Canterbury region' (teara.govt.nz/en/canterbury-region/page-6) — Canterbury Association'ın ilk dört gemisinden Charlotte Jane, 16 Aralık 1850'de geldi; bu tarih 'Canterbury Anniversary Day' olarak anılır.",
-  s:[{f:"1850-12-16",t:"1923-10-29",d:"yeni-zelanda"}] },
+  s:[{f:"1850-12-16",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 ];
 
@@ -229,7 +229,7 @@ window.YERLESIMLER_EK31 = [
      {f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},
      {f:"1598-08-20",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[], v:[] },
 
 // KIZIL-TURA — TDV'nin saydığı ikinci şehir.
@@ -244,7 +244,7 @@ window.YERLESIMLER_EK31 = [
      {f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},
      {f:"1598-08-20",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[], v:[] },
 
 // ═════════ 1281 KESİTİ — YAKUTİSTAN ve KAMÇATKA ═════════
@@ -444,7 +444,7 @@ window.YERLESIMLER_0EE15E = [
 
 { ad:"Buenos Aires", tur:"sehir", lat:-34.6037, lon:-58.3816, g:2, k:1, kur:"1580-01-01",
   s:[{f:"1580-01-01",t:"1810-05-25",d:"ispanya"},
-     {f:"1810-05-25",t:"1923-10-29",d:"arjantin-cumhuriyeti"}] },
+     {f:"1810-05-25",t:"2000-12-31",d:"arjantin-cumhuriyeti"}] },
 // kaynak: TDV İslâm Ansiklopedisi "arjantin" md., II. TARİH (Rıza Kurtuluş) —
 //         1536 Pedro de Mendoza kuruluşu yerli direnciyle terk edildi, 1580'de
 //         yeniden inşa (kur: bu yüzden 1580). 1810-05-25 Mayıs Devrimi —
@@ -458,7 +458,7 @@ window.YERLESIMLER_0EE15E = [
   s:[{f:"1519-08-15",t:"1821-11-28",d:"ispanyol-peru"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
-     {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
+     {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
 // kaynak: İKİ BAĞIMSIZ KAYNAK AYNI TARİHTE BİRLEŞİYOR (M-0423 gereği,
 //         Britannica TEK BAŞINA yeterli değildi, ikinci kaynak arandı):
 //         ① Encyclopaedia Britannica "Panama City" md. — "The old city
@@ -496,7 +496,7 @@ window.YERLESIMLER_0EE15E = [
 { ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1919, lon:-79.9009, g:1, k:1, kur:"1538-01-01",
   s:[{f:"1538-01-01",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
-     {f:"1830-05-13",t:"1923-10-29",d:"ekvador-cumhuriyeti"}] },
+     {f:"1830-05-13",t:"2000-12-31",d:"ekvador-cumhuriyeti"}] },
 // 🔴 KAYNAKLAR ÇELİŞİYOR — M-0423 gereği ikinci kaynak arandı, DOĞRULAMADI,
 //         ÇÜRÜTTÜ. Tek başına kullanılmadı, tahtaya AYRICA bildirildi.
 // kaynak: ① Encyclopaedia Britannica "Guayaquil" md. — "founded in the
@@ -535,7 +535,7 @@ window.YERLESIMLER_0EE15E = [
   s:[{f:"1597-01-01",t:"1821-11-28",d:"ispanyol-peru"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
-     {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
+     {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
 // Panama City araştırmasında rastlanan İKİNCİ boşluk (Emre'nin isteğinin
 // doğrudan devamı değil ama aynı kaynak taramasında bulundu, kaydedildi).
 // kaynak: ① Encyclopaedia Britannica "Portobelo" md. — "the village was
@@ -714,10 +714,7 @@ window.YERLESIMLER_E9353F = [
 //   değeri o, ve TDV 1473'ü "sınırların genişletilmesi" diye anlatıyor —
 //   Gao zaten Songay'ın merkeziydi. Künyeyle çelişmemeyi tercih ettim.
 { ad:"Gao", tur:"sehir", lat:16.272, lon:-0.040, g:1, k:1,
-  s:[{f:"1324-01-01", t:"1464-01-01", d:"mali-imparatorlugu", kaynak:"gao"},
-     {f:"1464-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kaynak:"gao"},
-     {f:"1591-04-13", t:"1700-01-01", d:"fas", kaynak:"gao"},
-     {f:"1898-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"mali"}],
+  s:[{f:"1324-01-01", t:"1464-01-01", d:"mali-imparatorlugu", kaynak:"gao"},{f:"1464-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kaynak:"gao"},{f:"1591-04-13", t:"1700-01-01", d:"fas", kaynak:"gao"},{f:"1898-01-01", t:"1960-06-20", d:"fransa-cumhuriyet", kaynak:"mali"},{f:"1960-06-20",t:"1960-09-22",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-09-22",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   kasitli_bosluk:true,
   bos:"veri-yok",
@@ -746,11 +743,7 @@ window.YERLESIMLER_E9353F = [
 // 📌 Yani 193 yillik bosluk bir EKSIK degil, bir SIRA meselesiydi: dizin
 //   katmani gelmeden yerlesim katmani yazilamiyordu (CLAUDE.md §6).
 { ad:"Cenne (Djenné)", tur:"sehir", lat:13.906, lon:-4.555, g:1, k:1,
-  s:[{f:"1473-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kaynak:"cenne"},
-     {f:"1596-01-01", t:"1700-01-01", d:"fas", kaynak:"cenne"},
-     {f:"1818-01-01", t:"1861-01-01", d:"massina", kaynak:"mali"},
-     {f:"1861-01-01", t:"1893-01-01", d:"tekrur", kaynak:"TDV cenne: 'Cenne 1861’de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi' — YIL · ÇELİŞKİ: TDV mali Mâsînâ'nın sonunu 16 Mayıs 1862 verir · KRONO-2S-3 19 Eyl 2026"},
-     {f:"1893-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"cenne"}],
+  s:[{f:"1473-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kaynak:"cenne"},{f:"1596-01-01", t:"1700-01-01", d:"fas", kaynak:"cenne"},{f:"1818-01-01", t:"1861-01-01", d:"massina", kaynak:"mali"},{f:"1861-01-01", t:"1893-01-01", d:"tekrur", kaynak:"TDV cenne: 'Cenne 1861’de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi' — YIL · ÇELİŞKİ: TDV mali Mâsînâ'nın sonunu 16 Mayıs 1862 verir · KRONO-2S-3 19 Eyl 2026"},{f:"1893-01-01", t:"1960-06-20", d:"fransa-cumhuriyet", kaynak:"cenne"},{f:"1960-06-20",t:"1960-09-22",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-09-22",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   kasitli_bosluk:true,
   bos:"veri-yok",
@@ -769,7 +762,7 @@ window.YERLESIMLER_E9353F = [
 // ⚠️ 1712-1898 arası sahipsiz: Bambara da Toucouleur da künyesiz.
 { ad:"Segu (Ségou)", tur:"sehir", lat:13.432, lon:-6.216, g:0, k:1,
   kur:"1712-01-01",
-  s:[{f:"1898-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"mali"}],
+  s:[{f:"1898-01-01", t:"1960-06-20", d:"fransa-cumhuriyet", kaynak:"mali"},{f:"1960-06-20",t:"1960-09-22",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-09-22",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — 1712-1898 arasi sahipsiz. Kaynak KONUSUYOR ve iki ayri devlet adiyla saydiyor: Bambara Kralligi (TDV el-hac-omer: '1861 baslarinda bir baska Bambara Kralligi olan Segu'ya girilerek Segu'nun animist kralligi ortadan kaldirildi') ve Toucouleur/Tekrur (el-Hac Omer, 1852 cihad, olumu 1864-02-14, devleti 1893-94'te Fransizlarca isgal). IKISININ DE devletler.js'te kunyesi YOK. Ayrica kur:1712 sehrin degil Bambara Kralliginin kurulusudur; sehrin 1281'de var olup olmadigi OLCULEMEDI." },
@@ -799,7 +792,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Kano", tur:"sehir", lat:12.000, lon:8.517, g:1, k:1,
   s:[{f:"1281-01-01", t:"1807-01-01", d:"hausa-sehir-devletleri", kaynak:"kano"},
      {f:"1807-01-01", t:"1903-01-01", d:"sokoto", kaynak:"kano"},
-     {f:"1903-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"kano"}],
+     {f:"1903-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"kano"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // KATSİNA — Hausa'nın kuzey ticaret şehri, Sokoto emirliği.
@@ -811,7 +804,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Katsina", tur:"sehir", lat:12.986, lon:7.617, g:0, k:2, m:"Kano",
   s:[{f:"1281-01-01", t:"1808-01-01", d:"hausa-sehir-devletleri", kaynak:"sokoto"},
      {f:"1808-01-01", t:"1903-01-01", d:"sokoto", kaynak:"sokoto"},
-     {f:"1903-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"sokoto"}],
+     {f:"1903-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ZARİA (Zazzau) — Hausa'nın güney ucu, Sokoto emirliği.
@@ -819,7 +812,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Zaria (Zazzau)", tur:"sehir", lat:11.086, lon:7.720, g:0, k:2, m:"Kano",
   s:[{f:"1281-01-01", t:"1806-01-01", d:"hausa-sehir-devletleri", kaynak:"sokoto"},
      {f:"1806-01-01", t:"1903-01-01", d:"sokoto", kaynak:"TDV osman-b-fudi: '1806’da Zaria ele geçirildi' — YIL · KRONO-2S-3 19 Eyl 2026"},
-     {f:"1903-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"sokoto"}],
+     {f:"1903-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // SOKOTO — Fûlânî Halifeliği'nin başşehri.
@@ -837,7 +830,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Sokoto", tur:"sehir", lat:13.062, lon:5.234, g:1, k:1,
   kur:"1812-01-01",
   s:[{f:"1812-01-01", t:"1903-01-15", d:"sokoto", kaynak:"sokoto"},
-     {f:"1903-01-15", t:"1923-10-29", d:"ingiltere", kaynak:"sokoto"}],
+     {f:"1903-01-15", t:"1960-10-01", d:"ingiltere", kaynak:"sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ═════════════════ KANEM-BORNU — ÇAD GÖLÜ KUŞAĞI ═════════════════
@@ -858,7 +851,7 @@ window.YERLESIMLER_E9353F = [
 // 📌 Mao bugünkü Çad'dadır ⇒ 1902 paylaşımında Fransa'ya düşen taraf.
 { ad:"Mao (Kanem)", tur:"sehir", lat:13.996, lon:15.313, g:0, k:1,
   s:[{f:"1281-01-01", t:"1902-01-01", d:"kanem-bornu", kaynak:"bornu"},
-     {f:"1902-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"bornu"}],
+     {f:"1902-01-01", t:"1960-08-11", d:"fransa-cumhuriyet", kaynak:"bornu"},{f:"1960-08-11",t:"2000-12-31",d:"cad",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // BİRNİ N'GAZARGAMU — Bornu'nun başşehri, 1465'ten itibaren.
@@ -874,7 +867,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Birni N'gazargamu", tur:"sehir", lat:12.350, lon:10.683, g:0, k:1,
   kur:"1465-01-01",
   s:[{f:"1465-01-01", t:"1902-01-01", d:"kanem-bornu", kaynak:"bornu"},
-     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"bornu"}],
+     {f:"1902-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"bornu"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ═════════════════ ORMAN KUŞAĞI — YORUBA · BENİN · AŞANTİ · DAHOMEY ═════════════════
@@ -893,7 +886,7 @@ window.YERLESIMLER_E9353F = [
 //     yazdım. Kaynağı olmayan bilgiyi kaynaklı gibi göstermemek için.
 { ad:"Benin Şehri (Edo)", tur:"sehir", lat:6.335, lon:5.604, g:1, k:1,
   s:[{f:"1281-01-01", t:"1897-02-18", d:"benin-kralligi", kaynak:"bulunamadi"},
-     {f:"1897-02-18", t:"1923-10-29", d:"ingiltere", kaynak:"bulunamadi"}],
+     {f:"1897-02-18", t:"1960-10-01", d:"ingiltere", kaynak:"bulunamadi"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"veri-yok — donem sinirlari KAYNAKTAN DEGIL devletler.js kunyesinden (benin-kralligi f:1180 t:1897-02-18) alindi. TDV'de Nijerya'daki Benin Kralligi'nin mustakil maddesi BULUNAMADI: `benin` slug'i canli ama modern Benin Cumhuriyeti'ni anlatiyor (CLAUDE.md §4 ikinci tuzak). Sahipsiz aralik YOK; bu bayrak sahipsizligi degil KAYNAK eksigini isaretliyor." },
@@ -947,7 +940,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Kumasi", tur:"sehir", lat:6.689, lon:-1.624, g:1, k:1,
   kur:"1701-01-01",
   s:[{f:"1701-01-01", t:"1901-01-01", d:"asanti", kaynak:"gana"},
-     {f:"1901-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"gana"}],
+     {f:"1901-01-01", t:"1957-03-06", d:"ingiltere", kaynak:"gana"},{f:"1957-03-06",t:"2000-12-31",d:"gana",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ABOMEY — Dahomey Krallığı'nın başşehri.
@@ -962,7 +955,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Abomey", tur:"sehir", lat:7.186, lon:1.991, g:1, k:1,
   kur:"1625-01-01",
   s:[{f:"1625-01-01", t:"1893-01-01", d:"dahomey", kaynak:"benin"},
-     {f:"1893-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"benin"}],
+     {f:"1893-01-01", t:"1960-08-01", d:"fransa-cumhuriyet", kaynak:"benin"},{f:"1960-08-01",t:"2000-12-31",d:"dahomey-benin",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ELMİNA (São Jorge da Mina) — Avrupa'nın Sahra altı Afrika'daki en eski kalesi.
@@ -997,7 +990,7 @@ window.YERLESIMLER_E9353F = [
   kur:"1482-01-01",
   s:[{f:"1482-01-01", t:"1637-01-01", d:"portekiz",  kaynak:"gana"},
      {f:"1637-01-01", t:"1872-01-01", d:"hollanda",  kaynak:"bulunamadi"},
-     {f:"1872-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"bulunamadi"}],
+     {f:"1872-01-01", t:"1957-03-06", d:"ingiltere", kaynak:"bulunamadi"},{f:"1957-03-06",t:"2000-12-31",d:"gana",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"veri-yok — sahipsiz araligi YOK; bayrak KAYNAK ALANININ YETERSIZLIGINI isaretliyor. 1637 Hollanda ve 1872 Ingiltere tarihleri TDV'den DEGIL, Nationaal Archief'ten (Hollanda Ulusal Arsivi) geliyor ve govdesi okundu: 'In 1637 komt het fort in bezit van de Hollanders' / 'tot Nederland het fort in 1872 aan Engeland verkoopt'. kaynak: alani yalniz TDV slug'i tasidigi icin oraya bulunamadi yazdim, gercek dayanak bu satirdadir. 1482 kurulusu IKI BAGIMSIZ KAYNAKTA birden var (TDV gana + Nationaal Archief)." },
@@ -1072,7 +1065,7 @@ window.YERLESIMLER_E9353F = [
 // 🟢 VE MADDE BİR TARİH VERDİ, boşluk 86 yıl kısaldı:
 //   "Fransız himaye idaresi 1837'de başladı" · Fransız Ekvator Afrikası 1910
 { ad:"Ogooué havzası", tur:"bolge", lat:-0.700, lon:12.000, g:0, k:0,
-  s:[{f:"1837-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"gabon"}],
+  s:[{f:"1837-01-01", t:"1960-08-17", d:"fransa-cumhuriyet", kaynak:"gabon"},{f:"1960-08-17",t:"2000-12-31",d:"gabon",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"veri-yok — 1281-1837 arasi sahipsiz ve gerekcesi OLCULDU: TDV gabon maddesinin govdesi okundu ve somurge oncesi siyasi orgutlenme icin ACIKCA SUSUYOR (Ogooue havzasinda krallik/seflik anmiyor, Orungu'yu hic kurmuyor). Devletsiz OLDUGU soylenmiyor, bilinmedigi soyleniyor. loango kunyesi f:1550, 1281 icin karsiliksiz. DOLGU NOKTASIDIR, sehir degil." },
@@ -1114,7 +1107,7 @@ window.YERLESIMLER_E9353F = [
 //   için bu bir ÖZDEŞLEŞTİRMEDİR — Buganda'nın çekirdek bölgesidir.
 { ad:"Mengo (Buganda)",isg:[{f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:0.348, lon:32.583, g:0, k:1,
   kur:"1300-01-01",
-  s:[{f:"1300-01-01",t:"1923-10-29",d:"buganda",kaynak:"uganda"}],
+  s:[{f:"1300-01-01",t:"1923-10-29",d:"buganda",kaynak:"uganda"},{f:"1923-10-29",t:"1962-10-09",d:"ingiliz-uganda-himayesi",kaynak:"Britannica Uganda; 1900 Buganda Agreement; Uganda bagimsizligi 9 Ekim 1962"},{f:"1962-10-09",t:"2000-12-31",d:"uganda",kaynak:"Britannica Uganda; Library of Congress Country Studies Uganda"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — sahipsiz araligi YOK, bu bayrak bir KUNYE CELISKISINI isaretliyor: TDV uganda maddesi Buganda'nin ilk krali Kato Kimera'nin XIII. yuzyil BASINDA tahta ciktigini soyluyor, yani 1281'de kralik VARDI; ama buganda kunyesi f:1300-01-01. §3.5 geregi kunyeye uydum (kur:1300), boylece TDV'nin 1281'i kapsayan ifadesi veriye INMEDI. Kunye duzeltilirse kur: 1281 oncesine cekilmeli. Ingiliz donemi KAYNAKLI: 1900 antlasmasi." },
@@ -1158,7 +1151,7 @@ window.YERLESIMLER_E9353F = [
   s:[{f:"1652-01-01", t:"1795-01-01", d:"hollanda",  kaynak:"guney-afrika-cumhuriyeti"},
      {f:"1795-01-01", t:"1802-01-01", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},
      {f:"1802-01-01", t:"1806-01-01", d:"hollanda",  kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1806-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"}],
+     {f:"1806-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // BÜYÜK ZİMBABVE — 1281'de AYAKTA, ve şartnamemin §③.1'inin adıyla istediği yer.
@@ -1204,7 +1197,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Ulundi (Zululand)", tur:"sehir", lat:-28.313, lon:31.416, g:0, k:1,
   kur:"1816-01-01",
   s:[{f:"1816-01-01", t:"1879-07-04", d:"zulu-kralligi", kaynak:"bulunamadi"},
-     {f:"1879-07-04", t:"1923-10-29", d:"ingiltere",     kaynak:"guney-afrika-cumhuriyeti"}],
+     {f:"1879-07-04", t:"1923-10-29", d:"ingiltere",     kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"veri-yok — sahipsiz araligi YOK; bayrak KAYNAK eksigini isaretliyor. TDV guney-afrika-cumhuriyeti maddesi Zulu direnisini aniyor ama Shaka'yi da Ulundi Muharebesi'ni de TARTISMIYOR (govdesi okundu, olctum). Zulu donemi bu yuzden kaynak:bulunamadi; sinirlari zulu-kralligi kunyesinden (f:1816 t:1879-07-04) alindi. kur:1816 SEHRIN degil KRALLIGIN kurulusudur. UYARI: PENCERE DISINDA (lat -28,313)." },
@@ -1226,7 +1219,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Transvaal (Bur cumhuriyeti)", tur:"bolge", lat:-25.746, lon:28.188, g:0, k:0,
   kur:"1830-01-01",
   s:[{f:"1830-01-01", t:"1902-01-01", d:"transvaal", kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"}],
+     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — transvaal kunyesi devletler.js'te YOK (koordinator M-0218'de yazacagini soyledi). Sahipsiz araligi yok. kur:1830 Buyuk Goc'un baslangicidir, CUMHURIYETIN kurulus yili DEGIL - TDV cumhuriyetlerin kurulus yillarini vermiyor. tur:bolge cunku Pretoria'nin kurulus yili da yok. UYARI: PENCERE DISINDA (lat -25,746)." },
@@ -1234,7 +1227,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Oranj (Bur cumhuriyeti)", tur:"bolge", lat:-29.120, lon:26.214, g:0, k:0,
   kur:"1830-01-01",
   s:[{f:"1830-01-01", t:"1902-01-01", d:"oranj",     kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"}],
+     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — oranj kunyesi devletler.js'te YOK. Transvaal kaydiyla ayni gerekce: kur:1830 Buyuk Goc'un yili ve tur alani bolge, cunku Bloemfontein'in kurulus yili TDV'de yok. UYARI: PENCERE DISINDA (lat -29,120)." },
