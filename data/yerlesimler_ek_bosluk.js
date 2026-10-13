@@ -37,7 +37,7 @@ window.YERLESIMLER_EK_BOSLUK = [
 //    (ölçüldü: 1 madde) ⇒ Değişmez 2 açılmıyor, yeni gün yaratılmadı.
 {ad:"Birecik", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Urfa"}], tur:"sehir", lat:37.025, lon:37.977, g:1, k:3,
  m:"Urfa",
- s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+ s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
  d:[{f:"1516-08-24",t:"1920-04-23"}],
  kaynak:"TDV `birecik` — gövdesi okundu, 2026-08-28"},
 
@@ -61,7 +61,7 @@ window.YERLESIMLER_EK_BOSLUK = [
  m:"Üsküb",
  s:[{f:"1281-01-01", t:"1455-06-20", d:"sirbistan"},
     {f:"1912-11-03", t:"1918-12-01", d:"sirbistan-kralligi"},
-    {f:"1918-12-01", t:"1923-10-29", d:"yugoslavya"}],
+    {f:"1918-12-01", t:"1945-11-29", d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"1999-06-10",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1999-06-10",t:"2000-12-31",d:"unmik-kosova",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
  d:[{f:"1455-06-20", t:"1912-11-03"}],
  kaynak:"TDV `prizren` — gövdesi okundu, 2026-08-28"},
 

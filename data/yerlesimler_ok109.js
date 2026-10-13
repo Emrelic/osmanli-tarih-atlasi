@@ -164,7 +164,7 @@ window.YERLESIMLER_OK109 = [
   // ═══════════════════════════════════════════════════════════════════════
 
   {
-    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
+    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
     tur: "sehir",
     lat: 37.5139, lon: 42.4543,
     g: 0, k: 4, m: "Bitlis",

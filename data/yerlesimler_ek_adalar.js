@@ -104,7 +104,7 @@ window.YERLESIMLER_EK_ADALAR = [
   s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},
      {f:"1797-10-17",t:"1815-11-05",d:"fransa-cumhuriyet"},
      {f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},
-     {f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}],
+     {f:"1864-05-21",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[] },
 
 // ── ② ELAFONİSOS (Cervi) ───────────────────────────────────────────────────
@@ -140,7 +140,7 @@ window.YERLESIMLER_EK_ADALAR = [
   kaynak:"mora — Elafonisos'un müstakil TDV maddesi YOK (slug 302); ada Mora'nın 400 m açığında ve Pasarofça'nın Venedik mülk listesinde geçmiyor. HÜKÜM ÇIKARIMDIR, ölçüm değildir; üç ayağı dosya başında açıkça yazılıdır.",
   s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},
      {f:"1687-08-01",t:"1715-07-01",d:"venedik"},
-     {f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}],
+     {f:"1821-03-25",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1460-05-29",t:"1687-08-01"},
      {f:"1715-07-01",t:"1821-03-25"}] },
 

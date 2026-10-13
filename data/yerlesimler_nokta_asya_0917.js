@@ -31,21 +31,21 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   not:"Kuruluş öncesi Nonni vadisi Dagur/Solon kabile yurdu (Lee s.15); `kur` verildi, önceki zincir yazılmadı. Lee ile Reardon-Anderson uyumlu (1685 sonrası / 1686 / 1688 kanıtı). 🔴 KODLANMAYAN: 1690'larda Heilongjiang askerî valiliği merkezi Mergen'e taşındı (Lee s.65 'headquarters ... were moved south to Mergen'), 1699'da Tsitsihar'a — yıl snippet'te okunamadı; sahiplik değişimi değil, kodlanmaz | 1900-1905 Rus işgali (Boxer sonrası Mançurya) — Mergen'e özgü kaynak okunmadı; egemenlik değil işgal, `isg:` konusu",
   kaynak:"TDV mancurya 302 ÖLÜ · mancular 302 ÖLÜ · cin--ulke 200 (Mergen taneciği için okunmadı). Google Books içi arama (SearchWithinVolume): Lee 1970 (id 6HFuAAAAMAAJ) s.50/65/72 okundu (snippet); Reardon-Anderson 2005 (id CiqQIPESpR8C) s.24/41 okundu (snippet). Tam metin OKUNMADI. · KURULUŞ: Reardon-Anderson, Reluctant Pioneers (Stanford UP 2005) s.24: \"Mergen (or Nenjiang, 1686)\"; s.41 garnizon tablosu \"D 1686 Mergen\". Destek: R.H.G. Lee, The Manchurian Frontier in Ch'ing History (Harvard UP 1970) s.72 \"probably created sometime after 1685\"; s.50 \"In 1688, 480 of them served in the Mergen garrison\". hassasiyet: yıl · DÖNEM DAYANAKLARI: 1686-01-01→1912-02-12 qing-hanedani (yıl): Reardon-Anderson 2005 s.24: \"Mergen (or Nenjiang, 1686)\" — Qing askerî garnizonu olarak kuruldu ‖ 1912-02-12→1923-10-29 cin-cumhuriyeti (pencere): geçiş günü künye sınırı (qing t / Qing tahttan feragat 1912-02-12); Mergen'e özgü kaynak cümlesi ARANMADI. 1923-10-29 pencere sonu",
   s:[{f:"1686-01-01",t:"1912-02-12",d:"qing-hanedani"},
-     {f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Sanxing (Yilan)", tur:"kale", lat:46.32, lon:129.57, g:0, k:0, kur:"1714-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 k25 kümesi 45,98K/130,25D (17.395 km², komşu Ningguta) — Sungari aşağı havzasının Qing garnizonu noktasızdı. En yakın mevcut nokta: Ningguta 219 km.",
   not:"🟡 ÇELİŞKİ (hafif): Reardon-Anderson s.41 tablosu Sanxing garnizonunu \"c. 1700\" veriyor, Lee s.34 açıkça \"1714\". 'c.' yaklaşık olduğu için Lee'nin açık yılı seçildi — koordinatör hükmüne açık. Lee s.15: Ilan Hala Heje klanının yurdu; kuruluş öncesi zincir yazılmadı. 🔴 KODLANMAYAN: 1732 garnizon komutanlığına fudutong atanması (Lee s.45 'probably in 1732') — idarî, sahiplik değişimi değil | Yuan dönemi bu bölgede mıntıka/myriarchy iddiası — kaynak OKUNMADI (bulunamadı); yer 1281'de şehir olarak belgelenmedi, zincir yazılmadı | 1900-1905 Rus işgali — Sanxing'e özgü kaynak okunmadı",
   kaynak:"TDV: ilgili slug yok (mancurya 302). Lee 1970 s.15/34/45 snippet okundu; Reardon-Anderson 2005 s.24/41/141/176 snippet okundu. · KURULUŞ: Lee 1970 s.34: \"In 1714 the San-hsing garrison post was established\". hassasiyet: yıl · DÖNEM DAYANAKLARI: 1714-01-01→1912-02-12 qing-hanedani (yıl): Lee 1970 s.34: \"In 1714 the San-hsing garrison post was established\" ‖ 1912-02-12→1923-10-29 cin-cumhuriyeti (pencere): künye sınırı 1912-02-12; Sanxing'e özgü kaynak cümlesi ARANMADI",
   s:[{f:"1714-01-01",t:"1912-02-12",d:"qing-hanedani"},
-     {f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Barkol (Balikun / Zhenxi)", tur:"kale", lat:43.6, lon:93.02, g:0, k:0, kur:"1715-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 'Kumul-Turfan' kümesi 43,83K/92,24D (90.439 km², komşular Hâmi · Turfan · Ürümçi) — Hami ile Turfan arasındaki Qing garnizon şehri noktasızdı. En yakın mevcut nokta: Hâmi (Kumul) 95 km.",
   not:"Kuruluş öncesi Barkol çayırı Hami bölgesinin göçebe otlağı; 1715 öncesi zincir yazılmadı (brif). Perdue s.199: Hami 1697 civarı Qing'e bağlandı — Barkol ayrı yerleşim olarak anılmıyor. Qing sürekliliği 1715-1912: Cungar savaşları ve Dungan/Yakub Bey döneminde Barkol'un düştüğüne dair kaynak bulunamadı; tersine Kim iki yerde Qing elinde olduğunu söylüyor. Mevcut komşu Hâmi kaydı 1864-1876 arası `yakub-beg` taşımıyor — tutarlı. 🔴 KODLANMAYAN: 1864-10-19 Barkul Müslümanlarının ayaklanması (Kim s.58 'Barkul on October 19, 1864') — şehri ALAMADILAR, sahiplik değişmedi | 1731 Cungar karşı saldırısı / Qing geri çekilmesi (Perdue s.254 'military reverses of 1731', 'withdraw troops back to ... Chahan Sor') — Barkol'un el değiştirdiğine dair kaynak YOK; Chahan Sor kuzey (Moğolistan) hattı | 1731 Yue Zhongqi'nin sur inşası — yalnız ölçüt dışı turistik/Çin basını kaynaklarında görüldü (reddedildi); akademik dayanak bulunamadı | 1759-60 zhiliting, 1773 Zhenxi fu (Perdue s.339) — idarî, sahiplik değişimi değil | 1931-33 Kumul isyanında Ma Zhongying Barkol'a akın (Millward s.193) — pencere dışı",
   kaynak:"TDV: barkul 302 ÖLÜ · barkol 302 ÖLÜ · kumul 302 ÖLÜ · turfan 200 okundu (Barkol GEÇMİYOR) · yakub-bey 200 okundu (Barkol GEÇMİYOR) · kalmuklar 200 okundu (Barkol GEÇMİYOR) · dogu-turkistan 200 ama gövde yalnız 'bk. TÜRKİSTAN' (yönlendirme kütüğü) · sincan 200 aynı kütük · turkistan 200 okundu (Barkol GEÇMİYOR) ⇒ TDV bu taneciği kapsamıyor (§4 taneciklik). Perdue 2005 (id J4L-_cjmSqoC) s.230/231/241/254/339/343/351 snippet; Kim, Holy War in China (Stanford UP 2004; id AtduqAtBzegC) s.43/58/59 snippet; Millward, Eurasian Crossroads (Columbia UP; id 8FVsWq31MtMC) s.101/128/168/193 snippet. Tam metin OKUNMADI. · KURULUŞ: Perdue, China Marches West (Harvard UP 2005) s.343: \"1715 he began active efforts to establish colonies at Turfan, Hami, Anxi, and Barköl\"; s.230: Balikun Hami'nin kuzeyinde ileri harekât üssü. hassasiyet: yıl · DÖNEM DAYANAKLARI: 1715-01-01→1912-02-12 qing-hanedani (yıl): Perdue 2005 s.343: \"1715 ... establish colonies at Turfan, Hami, Anxi, and Barköl\" · Dungan isyanında elde tutuldu: Kim 2004 s.43 \"all of the Eastern Circuit except for Hami, Turfan, and Barkul\"; s.58-59 \"Qing army came down from Barkul\" ‖ 1912-02-12→1923-10-29 cin-cumhuriyeti (pencere): künye sınırı 1912-02-12; Sincan'ın Cumhuriyet'e geçişi 1912 içinde (Millward s.168 1912 başı çatışmalar) — Barkol'a özgü gün yok",
   s:[{f:"1715-01-01",t:"1912-02-12",d:"qing-hanedani"},
-     {f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Qitai (Gucheng)", tur:"sehir", lat:44.01, lon:89.56, g:0, k:0, kur:"1771-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 'Kumul-Turfan' boşluğunun batı ucu (Turfan 121 km · Ürümçi 157 km) — Doğu Sincan'ın Gucheng garnizonu noktasızdı. En yakın mevcut nokta: Turfan 121 km.",
@@ -54,14 +54,14 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   s:[{f:"1771-01-01",t:"1865-01-01",d:"qing-hanedani"},
      {f:"1865-01-01",t:"1876-01-01",d:"__BOSLUK__"},
      {f:"1876-01-01",t:"1912-02-12",d:"qing-hanedani"},
-     {f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Chifeng (Ulanhad)", tur:"sehir", lat:42.27, lon:118.96, g:0, k:0, kur:"1738-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 k24 kümesi 42,51K/118,26D (20.783 km², komşu Cehol) — İç Moğolistan'ın Qing idarî merkezi noktasızdı. En yakın mevcut nokta: Cehol (Chengde) 167 km.",
   not:"🔴 ÇELİŞKİ: alt-valilik kuruluşu Britannica 1729 · Reardon-Anderson 1738. Akademik (Stanford UP, Çince literatüre dayanan tablo) olan seçildi; brif Britannica için 'imzalı madde' şartı koyuyordu, bu madde imzasız. Koordinatör hükmüne açık. Britannica 'Çinli yerleşimciler çoğaldıktan SONRA' diyor ⇒ yerleşme alt-valilikten önce başlamış; kasabanın gerçek doğum yılı ölçülemedi. 🔴 KODLANMAYAN: 1778 county-level town (Chifeng), 1907 prefecture (Britannica) — idarî | Ming döneminde 'Duoyan Wei' denetimi, 17. yy'da Öngüt (Ongniud) Moğol sancakları (Britannica) — kasaba yok; `kur` öncesi, yazılmadı. Duoyan Wei (Uriankhai Üç Muhafız) için kimlik de YOK",
   kaynak:"TDV: Chifeng için slug denenmedi (İslâm coğrafyası dışı). Britannica 'Chifeng' HTTP 200 (curl; WebFetch 403) gövde okundu — imza 'Written and fact-checked by Britannica Editors' (İMZALI UZMAN MADDESİ DEĞİL; sayfada 'Britannica AI' arayüz öğesi var ama madde gövdesi editoryal). Reardon-Anderson 2005 s.43/175 snippet okundu. · KURULUŞ: Reardon-Anderson 2005 s.43 tablo: \"10 1738 Wulanhada Chifeng Subprefecture\". ⚠️ Britannica 'Chifeng' (imzasız, 'Britannica Editors'): \"In 1729 ... the subprefecture of Ulaan Hada was set up\" — ÇELİŞKİ. hassasiyet: yıl · DÖNEM DAYANAKLARI: 1738-01-01→1912-02-12 qing-hanedani (yıl): Reardon-Anderson 2005 s.43: \"1738 Wulanhada Chifeng Subprefecture\" (Qing idarî birimi) ‖ 1912-02-12→1923-10-29 cin-cumhuriyeti (pencere): künye sınırı; Britannica: \"became a county seat in 1913\" (Cumhuriyet idarî birimi)",
   s:[{f:"1738-01-01",t:"1912-02-12",d:"qing-hanedani"},
-     {f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Raipur", tur:"sehir", lat:21.25, lon:81.63, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 'Dekken kuzeyi' kümesi 20,85K/81,42D (68.815 km², komşular Cabalpûr · Vişâkapatnam · Varangal) — Chhattisgarh ovasının merkezi noktasızdı. En yakın mevcut nokta: Nagpûr 264 km.",
@@ -70,7 +70,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   s:[{f:"1281-01-01",t:"1750-01-01",d:"__BOSLUK__"},
      {f:"1750-01-01",t:"1818-01-01",d:"maratha"},
      {f:"1818-01-01",t:"1853-01-01",d:"__BOSLUK__"},
-     {f:"1853-01-01",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+     {f:"1853-01-01",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Ratanpur", tur:"sehir", lat:22.29, lon:82.17, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 'Dekken kuzeyi' kümesinin kuzeyi — Haihaya (Kalachuri) krallığının başkenti noktasızdı. En yakın mevcut nokta: Cabalpûr (Jabalpur) 245 km.",
@@ -79,7 +79,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   s:[{f:"1281-01-01",t:"1741-01-01",d:"__BOSLUK__"},
      {f:"1741-01-01",t:"1818-01-01",d:"maratha"},
      {f:"1818-01-01",t:"1853-01-01",d:"__BOSLUK__"},
-     {f:"1853-01-01",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+     {f:"1853-01-01",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Sambalpur", tur:"sehir", lat:21.47, lon:83.97, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 k14 kümesi 21,26K/84,8D (18.473 km², komşular Kattak · Puri · Bâlâsor) — Mahanadi yukarı havzası noktasızdı; bölge Orissa kıyısının peteklerine emiliyordu. En yakın mevcut nokta: Kattak (Cuttack) 228 km.",
@@ -88,7 +88,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   s:[{f:"1281-01-01",t:"1797-01-01",d:"__BOSLUK__"},
      {f:"1797-01-01",t:"1817-01-01",d:"maratha"},
      {f:"1817-01-01",t:"1849-01-01",d:"__BOSLUK__"},
-     {f:"1849-01-01",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+     {f:"1849-01-01",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Dera Gazi Han", tur:"sehir", lat:30.05, lon:70.63, g:0, k:0, kur:"1500-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 k14 kümesi 30,72K/70,23D (28.361 km², komşular Multan · Bahâvelpûr) — İndus'un batı yakası (Derajat güneyi) noktasızdı. En yakın mevcut nokta: Multan 83 km.",
@@ -99,7 +99,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1739-01-01",t:"1747-10-01",d:"afsar"},
      {f:"1747-10-01",t:"1819-01-01",d:"afgan-durrani"},
      {f:"1819-01-01",t:"1849-03-29",d:"sih-imparatorlugu"},
-     {f:"1849-03-29",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 { ad:"Dera İsmail Han", tur:"sehir", lat:31.83, lon:70.9, g:0, k:0, kur:"1739-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 k14 kümesi 32,34K/69,34D (33.892 km², komşular Gazne · Peşâver · Kâbil) — Derajat noktasızdı. En yakın mevcut nokta: Multan 190 km.",
@@ -108,14 +108,14 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   s:[{f:"1739-01-01",t:"1747-10-01",d:"afsar"},
      {f:"1747-10-01",t:"1821-01-01",d:"afgan-durrani"},
      {f:"1821-01-01",t:"1849-03-29",d:"sih-imparatorlugu"},
-     {f:"1849-03-29",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 { ad:"Bannu (Edwardesabad)", tur:"sehir", lat:32.99, lon:70.6, g:0, k:0, kur:"1848-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 k14 kümesi 32,34K/69,34D (Gazne–Peşâver–Kâbil boşluğu) — Bannu vadisi noktasızdı. En yakın mevcut nokta: Peşâver 145 km.",
   not:"Şehir 1848 kuruluşlu olduğu için zincir kısa ve temiz. Ama nokta vadinin 1848 öncesini TEMSİL ETMEZ: o dönemde vadi Peşaver/Gazne peteklerine emilir ve oralar babur/afsar/durrani/afganistan boyar — oysa IGI vadinin fiilen bağımsız olduğunu söylüyor (§2 emilme). Gerekirse 'Bazar Ahmad Khan' ayrı noktası + kabile/devlet_yok kararı. 🔴 KODLANMAYAN: Kur ÖNCESİ vadi (nokta kapsamaz, bilgi için): IGI v6 s.394 — Ekber'den itibaren iki asır 'nominal allegiance to the Delhi emperors'; 1738 Nadir; Dürrânî haraç akınları ama 'neither conqueror made any attempt to establish a permanent government'; 1823'ten 1836'ya Sih ve Navab akınları; 1838 Sih'e terk. Edwardes 1847'de 'a large portion of the District practically independent' buldu ⇒ vadi 1838 öncesi fiilen DEVLET YOK / kabile (Bannuçi, Mervet). Vadiyi temsil edecek eski merkez: IGI v6 s.402 'the commercial centre of the Bannu valley prior to annexation' — ayrı nokta gerekirse. | Sih'e geçiş yılı ÇELİŞKİLİ: IGI v6 s.394 '1838 ... cession to the Sikhs'; DİK Gaz. 1883 s.39 Nao Nihal Singh'in 1836 Bannu seferi. Kur 1848 olduğu için noktayı etkilemiyor.",
   kaynak:"TDV bennu (302 ÖLÜ) · TDV bannu (302 ÖLÜ) · TDV vezirler / vezir-kabilesi / pestunlar / afganlar (302 ÖLÜ) · Imperial Gazetteer of India v6 s.394, 395, 401, 402 (DSAL sayfa görüntüleri OKUNDU) · Punjab District Gazetteer DIK 1883 s.39 (okundu) · Punjab District Gazetteer Bannu 1883 (archive.org gaz-bannu-district-1883, indirildi, OKUNMADI) · Journal of Indian Studies 10/1 (okundu). · KURULUŞ: IGI v6 s.402 (Bannu Town): 'It was founded in 1848 by Lieutenant (afterwards Sir Herbert) Edwardes' · kale 'Dhulipgarh ... in honour of the Maharaja of Lahore' · DÖNEM DAYANAKLARI: 1848-01-01→1849-03-29 sih-imparatorlugu (yıl): IGI v6 s.394: 'In 1838 the valley passed by cession to the Sikhs'; Edwardes 'representative of the Lahore Darbar' olarak geldi · IGI v6 s.402: kale Lahor mihracesi adına 'Dhulipgarh' ‖ 1849-03-29→1923-10-29 ingiliz-hindistani (gün (bitiş: pencere sonu)): IGI v6 s.395: 'the following year the Punjab was annexed, and the District passed without a blow under British administration' · Journal of Indian Studies 10/1: 'annexed ... on March 29, 1849'",
   s:[{f:"1848-01-01",t:"1849-03-29",d:"sih-imparatorlugu"},
-     {f:"1849-03-29",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+     {f:"1849-03-29",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"pakistan",kaynak:"https://history.state.gov/countries/pakistan"}] },
 
 { ad:"Vitim (Vitimskoye zimov'e / Vitimskiy ostrog)", tur:"kale", lat:59.45, lon:112.56, g:0, k:0, kur:"1661-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 'Vitim-Lena' kümesi 57,36K/111,99D (118.578 km², komşular Bodaybo · Kirensk · Bauntovsk) — Lena–Vitim kavşağı noktasızdı. En yakın mevcut nokta: Bodaybo 202 km.",
@@ -123,7 +123,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   kaynak:"ESBE 'Витим, слобода' (ru.wikisource, okundu) · CyberLeninka 'Витим в поисках будущего' (okundu) · CyberLeninka 'Начало русского освоения Забайкалья' (okundu — başka yer) · Britannica 'Russian Revolution' (403, OKUNAMADI). · KURULUŞ: ÜST SINIR — ilk kayıt yılı, kuruluş değil. Kuruluş yılı BULUNAMADI. ESBE 'Витим, слобода': 'Селение существовало уже в 1661 г. под названием Витимского зимовья'. Hakemli makale 'Витим в поисках будущего' (CyberLeninka): kuruluş tarihi bir 'белое пятно' — ansiklopedilerin 1621'i belgeye dayanmıyor, Rusların Lena'ya çıkışı en erken 1623/1626; 1685'te 'четырнадцать крестьянских дворов'. ⚠ Perfilyev'in 1639 zimov'esi ('Начало русского освоения Забайкалья', CyberLeninka) BU YER DEĞİL: 'в устье реки Котомары (Кутомалы)', Vitim'in yukarısında — karıştırılmamalı. ⇒ kur için 1661 ilk-kayıt önerildi; koordinatör reddederse nokta 'bulunamadi' kalır. · DÖNEM DAYANAKLARI: 1661-01-01→1917-03-15 rusya (yıl (başlangıç = ilk kayıt)): ESBE 'Витим, слобода': 'существовало уже в 1661 г. под названием Витимского зимовья' (Rus yasak zimov'esi) · makale: 1751 'прибыли в Витимский острог'; Tatişçev 1744-46 'Витимский острог в Якутской провинции' ‖ 1917-03-15→1917-11-07 rusya-gecici-hukumet (gün — künye kalıbı (bu partide 1917 kaynağı OKUNAMADI: Britannica 403)): künye rusya-gecici-hukumet f/t (brif gereği kalıp korundu) ‖ 1917-11-07→1923-10-29 sovyet-rusya (gün — künye kalıbı; bitiş pencere sonu): künye sovyet-rusya f (brif gereği kalıp korundu)",
   s:[{f:"1661-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"İlimsk (Ilimskiy ostrog)", tur:"kale", lat:56.77, lon:103.87, g:0, k:0, kur:"1630-01-01",
   neden:"NOKTASIZLIK-ADAY-0917 k24 kümesi 57,93K/102,01D (24.230 km², komşu Bratsk ostrogu) — Lena taşıma yolunun (Ленский волок) başı noktasızdı. En yakın mevcut nokta: Bratsk ostrogu 139 km.",
@@ -131,7 +131,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
   kaynak:"academic.ru east_sibir_toponyms 'Ленский Волок' (okundu; Melheev 1969 + SİE 'Илимск' alıntısı) · radischev.ru 'Илимск' (okundu; müze sitesi — dayanak olarak KULLANILMADI, yalnız 1630'u teyit) · irkipedia.ru IES 2009 (404/ECONNREFUSED) · bsk.nios.ru (503) · CyberLeninka 'Русский острог в Сибири...' (okundu; İlimsk kazısına atıf, kuruluş yılı yok). · KURULUŞ: Sovetskaya istoriçeskaya ensiklopediya (academic.ru üzerinden alıntı, okundu): 'ИЛИМСК — ... Осн. в 1630 как поселение Ленский волок, переим. в Илимский острог' · Melheev, Географические названия Восточной Сибири (Irkutsk 1969) 'Ленский волок': 'Путь был открыт в 1630 г. ... Начинался он с Илимского острога'. Kurucu (Yenisey atamanı İvan Galkin), 1640 küçük ostrog, 1647 Demyanov ostrogu, 1666 yangın / 1667 yeniden kuruluş bilgileri yalnız arama özetlerinden (Историческая энциклопедия Сибири 2009 — irkipedia/bsk.nios.ru sayfaları 404/503/ECONNREFUSED, OKUNAMADI). · DÖNEM DAYANAKLARI: 1630-01-01→1917-03-15 rusya (yıl): SİE 'Илимск': 'Осн. в 1630 как поселение Ленский волок, переим. в Илимский острог' · Radişçev sürgünü 1792-97 (aynı madde) ⇒ Rus idaresi sürekli ‖ 1917-03-15→1917-11-07 rusya-gecici-hukumet (gün — künye kalıbı (kaynak okunamadı)): künye rusya-gecici-hukumet f/t ‖ 1917-11-07→1923-10-29 sovyet-rusya (gün — künye kalıbı; bitiş pencere sonu): künye sovyet-rusya f",
   s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Hengyang (Hengzhou)", tur:"sehir", lat:26.89, lon:112.57, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 DAĞ kümesi 'Guilin-Şaoguan' 26,78K/114,35D (145.083 km²) — Xiang ırmağı orta havzası noktasızdı (Changsha 153 km). En yakın mevcut nokta: Changsha 153 km.",
@@ -144,7 +144,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1647-05-16",t:"1674-03-26",d:"qing-hanedani"},
      {f:"1674-03-26",t:"1679-03-24",d:"san-fan"},
      {f:"1679-03-24",t:"1911-10-22",d:"qing-hanedani"},
-     {f:"1911-10-22",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1911-10-22",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Ji'an (Jizhou)", tur:"sehir", lat:27.11, lon:114.98, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 k14 kümesi 27,25K/116,25D (11.815 km², komşu Nanchang) — Gan ırmağı orta havzası noktasızdı (Nanchang 195 km). En yakın mevcut nokta: Nanchang 195 km.",
@@ -159,7 +159,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1677-04-30",t:"1856-03-02",d:"qing-hanedani"},
      {f:"1856-03-02",t:"1858-09-22",d:"taiping"},
      {f:"1858-09-22",t:"1911-10-31",d:"qing-hanedani"},
-     {f:"1911-10-31",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1911-10-31",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Ganzhou", tur:"sehir", lat:25.85, lon:114.93, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 DAĞ kümesi 'Guilin-Şaoguan' 26,78K/114,35D — Gan ırmağı yukarı havzası noktasızdı (Şaoguan 178 km). En yakın mevcut nokta: Şaoguan 178 km.",
@@ -170,7 +170,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1368-01-23",t:"1644-04-25",d:"ming-hanedani"},
      {f:"1644-04-25",t:"1646-11-10",d:"guney-ming"},
      {f:"1646-11-10",t:"1911-10-31",d:"qing-hanedani"},
-     {f:"1911-10-31",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1911-10-31",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Chenzhou (Hunan)", tur:"sehir", lat:25.77, lon:113.01, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 DAĞ kümesi 'Guilin-Şaoguan' — Hunan–Guangdong geçidi (Nanling kuzeyi) noktasızdı (Şaoguan 123 km). En yakın mevcut nokta: Şaoguan 123 km.",
@@ -182,7 +182,7 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1648-01-14",t:"1674-03-26",d:"qing-hanedani"},
      {f:"1674-03-26",t:"1679-03-24",d:"san-fan"},
      {f:"1679-03-24",t:"1911-10-22",d:"qing-hanedani"},
-     {f:"1911-10-22",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+     {f:"1911-10-22",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Xinyang", tur:"sehir", lat:32.13, lon:114.07, g:0, k:0,
   neden:"NOKTASIZLIK-ADAY-0917 k14 kümesi 31,87K/114,75D (17.048 km², komşular Wuchang · Jiujiang) — Huai yukarı havzası noktasızdı (Wuchang 176 km). En yakın mevcut nokta: Wuchang (Wuhan) 176 km.",
@@ -193,6 +193,6 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1368-11-11",t:"1644-04-25",d:"ming-hanedani"},
      {f:"1644-04-25",t:"1645-06-21",d:"__BOSLUK__"},
      {f:"1645-06-21",t:"1912-02-12",d:"qing-hanedani"},
-     {f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] }
+     {f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] }
 
 ];
