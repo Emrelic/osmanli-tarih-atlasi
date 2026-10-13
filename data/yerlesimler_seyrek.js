@@ -99,7 +99,7 @@ window.YERLESIMLER_SEYREK = [
 // 📌 `d:`/`v:` HİÇ YOK ⇒ bu kayıt tek bir kırılma bile üretmiyor.
 { ad:"Dûmetülcendel (Cevf)", tur:"sehir", lat:29.812, lon:39.868, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: bölgede merkezî devlet yok, aşiret idaresi; 1836 öncesi sahipsizlik KASITLI",
-  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1932-09-18",d:"suud-ucuncu"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
+  s:[{f:"1836-01-01",t:"1921-11-02",d:"__BOSLUK__",kaynak:"TDV dumetulcendel: geç Osmanlı devrinde hâkimiyet Vehhâbîler'in eline geçti, Şammar emîri Talâl ve Ruvale'den Nûri b. Şa'lân dönem dönem elinde tuttu — TDV 19. yy. hâkimini tek devlet olarak VERMİYOR, yalnız 1921 Suûdî ilhakını tarihliyor; eski s:sammar 1836-1921 Hâil zincirinden çıkarımdı ve kaldırıldı, devlet künyesi yazılmadı (kaynak yetersiz; Teymâ ile aynı beyan) · Emre kararı 13 Ekim 2026"},{f:"1921-11-02",t:"1932-09-18",d:"suud-ucuncu"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU — ve yıldızı asıl kesen nokta budur (merkeze 87 km).
 // Vâdî Sirhân, TDV `dumetulcendel`de "Vâdissirhân-Suriye kervan yolları"

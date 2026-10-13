@@ -221,7 +221,7 @@ window.OLAYLAR_EK4 = [
 { t:"1832-11-21", k:"savas", etiket:["savas","toprak-kazanc","ekonomi","konu-askeri","konu-ekonomi"], b:"Mısır ordusu Konya'ya girdi", gun:"Kasım 1832", yer:"Konya", yer_id:"Konya",
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Toroslar'ı aşan ordu Orta Anadolu'ya ulaştı. Bir Osmanlı valisinin kuvvetleri ilk defa imparatorluğun çekirdek topraklarında ilerliyordu. Aynı tarihte katılan öteki yerler: Karaman.", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:",
-  kaynak:"konya", duygu:["⚔️"] },
+  kaynak:"konya", ic_not_gun:"13 Ekim 2026 DUZELTME-1 — DOĞRULANAMADI: gün 1832-11-21 TDV'de YOK. TDV konya: «Mısır kuvvetleri Konya'yı işgal etti (21 Aralık 1832)»; TDV resid-mehmed-pasa: sadrazam 4 Kasım'da yola çıkıp 20 Kasım'da Konya'ya ulaştı; TDV ibrahim-pasa-kavalali: Konya'ya kadar mukavemetsiz geldi, 21 Aralık 1832 meydan savaşı. 18 Kasım (Gencer) TDV'de geçmiyor; Gencer kaynağına ulaşılamadı. Gün değiştirilmedi, ay hassasiyetli kalır; kaynaklı gün gelirse düzeltilir.", duygu:["⚔️"] },
 { t:"1832-12-21", k:"savas", etiket:["savas","konu-askeri","konu-burokrasi"], b:"Konya Meydan Muharebesi: sadrazam esir düştü", gun:"21 Aralık 1832", yer:"Konya", yer_id:"Konya",
   kisiler:"İbrâhim Paşa (Kavalalı), Reşid Mehmed Paşa",
   d:"Sisli havada dağılan Osmanlı ordusu ağır yenilgi aldı ve sadrazam Reşid Mehmed Paşa esir alındı. Devletin merkez ordusu artık yoktu; İstanbul ile Mısır kuvvetleri arasında duracak bir güç kalmamıştı.",

@@ -52,11 +52,11 @@ window.EKOKUMA_ANTLASMA7 = [
 {
   id: "antlasma7-bahcesaray-1681",
   tur: "antlasma",
-  olay: ["1681-01-11|Bahçesaray", "1681-01-01|Bahçesaray"],
+  olay: ["1681-02-13|Bahçesaray", "1681-01-01|Bahçesaray"],
   metin: "TDV'ye göre Çehrin seferlerinden (1677-1678) sonra barış görüşmeleri, Rusya'nın doğrudan İstanbul'u muhatap alma imtiyazına henüz erişmemesi yüzünden Kırım Hanlığı aracılığıyla sürdü ve iki yıl uzadı; 1680'de Ukrayna'ya yeni sefer hazırlığı başlayınca iki devlet arasındaki ilk resmî barış, Bahçesaray'da yirmi yıl süreli bir mütareke olarak akdedildi (TDV IV. Mehmed maddesi: 13 Şubat 1681; TDV Kara Mustafa Paşa maddesine göre Bahçesaray'da belirlenen şartları IV. Mehmed 11 Şubat 1681'de onayladı). Rusya, Özü (Dinyeper) nehrinin sınır kabul edilmesini Kırım hanı aracılığıyla önermişti. TDV 'Ukrayna' maddesine göre antlaşma Osmanlı hükümetince onaylandı ve Kiev dahil Sol Yaka Ukraynası Moskova'ya bırakıldı. Önemi: iki devlet arasındaki ilk resmî barıştır; TDV 'Kırım' maddesi hanlığın 1681 yılına kadar Osmanlı ile Rusya arasında aracı olma iddiasında bulunduğunu söyler. TDV 'Rusya' maddesine göre Rusya sonraki Büyük Türk savaşlarında (1683-1699) Osmanlı aleyhine kurulan ittifaka katıldı ve 6 Ağustos 1696'da Azak'ı aldı. Madde madde hükümler TDV'de verilmiyor: bulunamadı.",
   kesinlik: "kesin",
   kaynak: "TDV: mehmed-iv (Bahçesaray'da yirmi yıllık antlaşma, 13 Şubat 1681) · TDV: merzifonlu-kara-mustafa-pasa (şartların 11 Şubat 1681'de onayı; Özü sınırı önerisi) · TDV: rusya (ilk resmî barış antlaşması, yirmi yıllık mütareke, kanal olarak Kırım Hanlığı) · TDV: ukrayna (Sol Yaka Ukraynası Moskova'ya) · TDV: kirim (1681'e kadar aracılık)",
-  ic_not: "Kronoloji maddesi 1681-01-11 (olaylar_ek5) ve 1681-01-01 (KRONOLOJI_KIRIM, KRONOLOJI_COK_UKRAYNA) yazıyor; TDV'nin günleri 11/13 Şubat 1681. Madde tarihleri bu kartla düzeltilmedi, çelişki raporlandı."
+  ic_not: "olaylar_ek5 maddesi 13 Ekim 2026'da 1681-02-13'e düzeltildi (TDV mehmed-iv); 1681-01-01 (KRONOLOJI_KIRIM, KRONOLOJI_COK_UKRAYNA) hâlâ yazıyor, düzeltilmedi. 11 Şubat TDV Kara Mustafa maddesinde şartların onay günüdür."
 },
 
 // ── 1784 İSTANBUL: KIRIM'IN İLHAKININ TANINMASI ──────────────────────────
@@ -73,11 +73,11 @@ window.EKOKUMA_ANTLASMA7 = [
 {
   id: "antlasma7-erzurum-1823",
   tur: "antlasma",
-  olay: ["1823-01-01|Erzurum"],
+  olay: ["1823-07-28|Erzurum"],
   metin: "TDV'ye göre Veliaht Abbas Mirza 1821 sonbaharında büyük bir askerî kuvvetle sınırı geçip Kars ve Bayazıt'ı aldı, Erzurum'u kuşattı; aynı sırada İranlılar Kuzey Irak'a ve Bağdat eyaletine saldırarak Süleymaniye ve Bağdat'ı işgal etti, Kerkük'ü kuşattı. Osmanlı direnişi ve Azerbaycan'ı saran kolera/salgın İranlılar'ı geri çekilmeye zorladı. 28 Temmuz 1823'te imzalanan Erzurum Antlaşması'yla savaş bitti: İran kuvvetleri işgal ettikleri topraklardan altmış gün içinde çekilecekti ve aldığı yerleri geri verdi. TDV 'İran' maddesine göre 1833-1842 sınır çatışmaları 1847'de Erzurum'da yeni bir Osmanlı-İran antlaşmasıyla sonuçlandı. TDV Erzurum maddesi bu savaşta şehri savunacak yeterli asker bulunmadığını, yeniçerilerin askerliği unutup çiftçilikle uğraştığını ekler.",
   kesinlik: "kesin",
   kaynak: "TDV: erzurum (30.000 kişilik İran ordusu, kolera, 28 Temmuz 1823 Erzurum Antlaşması, işgal edilen yerlerin geri verilişi) · TDV: iran (1821 sonbaharı Abbas Mirza; Kars-Bayazıt; Bağdat-Süleymaniye; altmış gün hükmü; 1847 Erzurum antlaşması)",
-  ic_not: "Kronoloji maddesi 1823-01-01 (olaylar_0073_iran_yanya) yazıyor; TDV'nin günü 28 Temmuz 1823. Madde tarihi düzeltilmedi, raporlandı."
+  ic_not: "Kronoloji maddesi 13 Ekim 2026'da 1823-07-28'e düzeltildi (TDV erzurum)."
 },
 
 // ── 1916 SYKES-PICOT ─────────────────────────────────────────────────────

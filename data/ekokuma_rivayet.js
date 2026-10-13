@@ -188,12 +188,12 @@ window.EKOKUMA_RIVAYET = [
 { id:"sebep-sonuc-bahcesaray-1681", tur:"sebep-sonuc",
   kisa:"Sekiz yıl ve binlerce can pahasına alınan bir kale — antlaşma masaya oturduğunda çoktan değersizleşmişti.",
   sebep:{ b:"Ukrayna'yı Osmanlı himayesinde yöneten Kazak hetmanı Petro Doroşenko'nun Rusya'dan gördüğü askerî ve malî destekle taraf değiştirmesi; bunun üzerine Kara Mustafa Paşa'nın Doroşenko'nun merkezi Çehrin'i kuşatıp 21 Ağustos 1678'de otuz üç günlük muhasaradan sonra alması", t:"1678-08-21" },
-  sonuc:{ b:"Bahçesaray (Çehrin) Antlaşması: Özi/Dinyeper nehrinin Osmanlı ile Rusya arasında sınır kabul edilmesi, Kiev'in Rusya'da kalması, yirmi yıllık barış — Osmanlı-Rus ilişkilerinde ilk resmî antlaşma", t:"1681-01-11" },
+  sonuc:{ b:"Bahçesaray (Çehrin) Antlaşması: Özi/Dinyeper nehrinin Osmanlı ile Rusya arasında sınır kabul edilmesi, Kiev'in Rusya'da kalması, yirmi yıllık barış — Osmanlı-Rus ilişkilerinde ilk resmî antlaşma", t:"1681-02-13" },
   bag:"Önemi çift yönlü: ① Bu, iki devlet arasında imzalanan İLK RESMÎ antlaşmadır — 1700 İstanbul ve 1774 Küçük Kaynarca'ya uzanan uzun bir antlaşmalar zincirinin ilk halkası. ② Ama TDV'nin kendi değerlendirmesi acı bir ironi taşıyor: Osmanlı sekiz yıl önce büyük bedelle (binlerce asker, uzun bir kuşatma) aldığı Çehrin'i sekiz yıl elinde tutabildi, sonra Rusya geri aldı — yani bütün seferin nihai toprak kazancı KALICI OLMADI. Sefer, dönemin en pahalı ama en 'sonuçsuz' harekâtlarından biri sayılabilir.",
   metin:"Ukrayna'nın sağ yakasını (Dinyeper'in batısını) Osmanlı himayesinde yöneten Kazak hetmanı Petro Doroşenko, Rusya'dan askerî ve malî destek görünce taraf değiştirdi; bu, Osmanlı hükümetini askerî müdahaleye zorladı. Sadrazam Kara Mustafa Paşa'nın yönettiği kuşatma 21 Temmuz 1678'de başladı; yaklaşık 6000 Rus, Kazak ve Alman askerinin savunduğu Çehrin kalesi otuz üç günlük şiddetli muharebelerden sonra 21 Ağustos 1678'de düştü. Ama zafer kalıcı bir barışa dönüşmedi: görüşmeler ancak 1681'de Bahçesaray'da sonuçlandı. Antlaşmayla Özi (Dinyeper) nehri iki devlet arasında sınır kabul edildi, nehir ile Güney Bug arasına yeni yerleşim kurulmayacağı garanti edildi, Kırım hanlarına yıllık haraç ödenmesi ve bölgede tahkimat yapılmaması kararlaştırıldı, Kiev Rusya'da kalmaya devam etti ve yirmi yıllık bir mütareke/barış ilan edildi. Sonuçta Osmanlı sekiz yıl önce aldığı Çehrin'i uzun süre elinde tutamadı; TDV bu seferin toprak kazancı açısından 'inconsequential' (sonuçsuz) kaldığını vurgular.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1678-08-21","1681-01-11"],
+  olay:["1678-08-21","1681-02-13"],
   kaynak:"TDV: cehrin-seferi · bahcesaray" },
 
 // ── 18 · DALGA-0053 H-0012 — Macaristan'ın fethi ve kaybı: kaç yıl? ─────────
