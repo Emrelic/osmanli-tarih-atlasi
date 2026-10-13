@@ -32,6 +32,9 @@
 #    ufuk_bantlari_ust · devlet_parca_on · donemler_on
 # ─────────────────────────────────────────────────────────────────────────────
 data/*_parcalar.js  -text
+# 14 Ekim 2026: bölünmüş havuzun ek dilimleri (`kodla.py` `bol_mib`) —
+# ufuk_bant_parcalar_2.js … ; ana dosyayla aynı sınıf, aynı koruma.
+data/*_parcalar_*.js -text
 data/*_parca.js     -text
 data/*_ust.js       -text
 data/*_on.js        -text

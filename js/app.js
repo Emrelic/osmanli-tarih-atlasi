@@ -1106,19 +1106,45 @@ function ufukYukle(bitti) {
   }
   // SIRA ZORUNLU: ust → parcalar (petek_govde_ust/parca deseni). Klasik
   // <script> ile — dosyalar `window.… = …` yazan betikler.
+  // 🔴 BÖLÜNMÜŞ HAVUZ (14 Ekim 2026, `arac/kodla.py` `bol_mib`): ana parça
+  //    dosyası `__UB_B64_PARCA = N` yazmışsa ek dilimler
+  //    (`ufuk_bant_parcalar_2.js` … `_N.js`) aynı sırayla ARDINDAN yüklenir.
+  //    Satır yoksa havuz tek dosyadır (bölme öncesi biçim, aynen okunur).
+  var dosyalar = UFUK_DOSYALAR.slice();
+  var ekEklendi = false;
   function sonraki(i) {
-    if (i >= UFUK_DOSYALAR.length) { cozVeKur(); return; }
+    if (i >= dosyalar.length) { cozVeKur(); return; }
     var s = document.createElement("script");
-    s.src = UFUK_DOSYALAR[i] + ufukSurum();
-    s.onload = function () { sonraki(i + 1); };
+    s.src = dosyalar[i] + ufukSurum();
+    s.onload = function () {
+      var n = window.__UB_B64_PARCA;
+      if (!ekEklendi && i === dosyalar.length - 1 && n > 1) {
+        ekEklendi = true;
+        for (var k = 2; k <= n; k++)
+          dosyalar.push("data/ufuk_bant_parcalar_" + k + ".js");
+      }
+      sonraki(i + 1);
+    };
     s.onerror = function () {
       ufukHata = "yok";
-      console.debug("Ⓑ ufuk: " + UFUK_DOSYALAR[i] + " YOK — A'da kalınıyor");
+      console.debug("Ⓑ ufuk: " + dosyalar[i] + " YOK — A'da kalınıyor");
       bildir(false);
     };
     document.head.appendChild(s);
   }
   sonraki(0);
+  // Dilimler 3 baytın katında kesildiği için base64 dizgileri UÇ UCA eklenir;
+  // bir dilim eksikse HATA (eksik havuz yanlış çizer — çizmemek ondan iyidir).
+  function ufukB64() {
+    var n = window.__UB_B64_PARCA || 1, p = [window.__UB_B64];
+    for (var k = 2; k <= n; k++) {
+      var d = window["__UB_B64_" + k];
+      if (typeof d !== "string") throw new Error("ek dilim " + k + "/" + n + " YOK");
+      p.push(d);
+      window["__UB_B64_" + k] = null;
+    }
+    return p.join("");
+  }
   function cozVeKur() {
     var IZ = window.UFUK_BANT_IZI || {};
     var bicim = IZ.bicim || (window.__UB_B64 ? "kodlu" :
@@ -1127,7 +1153,7 @@ function ufukYukle(bitti) {
     if (UFUK_BICIMLER[bicim] && bicim === "kodlu") {
       try {
         window.UFUK_BANT_PARCALAR =
-          window.geoCoz.havuzCoz(window.geoCoz.b64Coz(window.__UB_B64));
+          window.geoCoz.havuzCoz(window.geoCoz.b64Coz(ufukB64()));
         window.__UB_B64 = null;          // 45 MB'lık dizgiyi bırak
       } catch (e) {
         ufukHata = "çözülemedi";

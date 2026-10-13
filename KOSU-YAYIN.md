@@ -128,6 +128,18 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   KARARI**, koordinatör tek başına seçmez.
   ⚠️ Ve her koşu bu dosyayı yeniden yazıyor ⇒ depo boyutu koşu başına ~91 MB büyüyor;
   bu ayrı bir borç ve ayrı ölçülür.
+  🟢 **ÇARE KURULDU — PARÇA BÖLME (14 Ekim 2026, Emre: *"bant bölme işini başlat"*):**
+  `kodla.py` `bant` hedefi `bol_mib: 45` taşır ⇒ `yay` base64 havuzunu ≤45 MiB'lık
+  dosyalara böler: `ufuk_bant_parcalar.js` (+ `__UB_B64_PARCA=N`) · `_2.js` … `_N.js`.
+  Kesim 3 baytın katında ⇒ dilimler uç uca eklenince bütünün base64'ü BİREBİR.
+  `app.js` `ufukYukle` ek dilimleri sırayla yükler. Sınırın altındaki havuz bölünmez
+  (çıktı bölme öncesiyle bayt bayt aynı). **İniş komutu DEĞİŞMEDİ.** Sınandı (UMIT,
+  KOŞU 23 bant verisi, sha `1bae2bb476f8`): 3 dilim 45 + 45 + 1,48 MiB · DİSKTEN
+  gidiş-dönüş BİREBİR · birleşik base64 == yayındaki · eksik dilim ⇒ kapı 1 · bozuk
+  dilim ⇒ kapı 1 · tarayıcı 79.582 halka, yayınla aynı örnek özeti.
+  🔴 **İnişte:** `ufuk_bant_parcalar_*.js` dosyaları da commit'e **adıyla** eklenir
+  (`git add -- data/ufuk_bant_parcalar.js data/ufuk_bant_parcalar_2.js …`); biri
+  unutulursa yayın kapısı `kodla kapi` ile durur (ek dilim YOK ⇒ ölçemedi = ihlal).
 - 🔴 **Yasak betiğe değil KİPE:** `kos_ve_yayinla.py --yayinlama` KOŞTURULUR; `kosu_yayin.py`
   ve `kos_ve_yayinla.py`nin YAYIN KİPLERİ KULLANILMAZ (çıkış 1'de bile yayınlarlar). Zincir
   içindeki `denetle` `coz-c`siz koşar ⇒ kabul ölçümü sayılmaz, elle yeniden koşturulur. Yasak
