@@ -40,12 +40,18 @@ def dosya_damgasi(yol, kok=KOK):
     return "r%d" % int(hashlib.sha1(b.replace(b"\r\n", b"\n")).hexdigest()[:7], 16)
 
 
+DAMGA_KONU = "damga: dosya-basi"        # push kapısının damga commit'inin başlığı
+
+
 def surum_no():
+    """Genel damga = bu damgayı TAŞIYAN commit'in sıra numarası. HEAD zaten kapının damga
+    commit'iyse o commit --amend ile güncellenir (sayaç artmaz) ⇒ +1 EKLENMEZ."""
     try:
-        n = subprocess.check_output(["git", "rev-list", "--count", "HEAD"], cwd=KOK).decode().strip()
+        n = int(subprocess.check_output(["git", "rev-list", "--count", "HEAD"], cwd=KOK).decode().strip())
+        konu = subprocess.check_output(["git", "log", "-1", "--format=%s"], cwd=KOK).decode("utf-8", "replace")
     except Exception:
-        n = "0"
-    return "r" + str(int(n) + 1)
+        return "r1"
+    return "r" + str(n if konu.startswith(DAMGA_KONU) else n + 1)
 
 
 def damgala(metin, kok=KOK):
