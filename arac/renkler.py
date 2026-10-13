@@ -3498,6 +3498,20 @@ BOYALAR = {
     "kuzey-kore-sovyet-idaresi": ("Kuzey Kore Sovyet Sivil Idaresi", "#8424cc"),
     "kktc": ("Kuzey Kıbrıs Türk Cumhuriyeti", "#7824cc"),
     "burundi-cumhuriyeti": ("Burundi Cumhuriyeti", "#24c6a2"),
+    # 13 Ekim 2026 — HARİTA DELİĞİ kapatıldı: `s:`te kullanılan ama boyası olmayan 11 kimlik
+    # (durum_tablosu "Renksiz künye — HARİTA DELİĞİ"); renk_olc --oner tek partide
+    # (denetim/oneri-20261013-223500.txt).
+    "abbasi": ("Abbâsî Hilâfeti", "#7ecc24"),
+    "antakya-prinkipsligi": ("Antakya Prinkepsliği", "#9624cc"),
+    "eyyubi": ("Eyyûbî Sultanlığı", "#cc2472"),
+    "eyyubi-hama": ("Hama Eyyûbîleri", "#e42442"),
+    "gozleroglu": ("Gözleroğlu (Şebinkarahisar)", "#c66c24"),
+    "kudus-kralligi": ("Kudüs Haçlı Krallığı", "#2a78de"),
+    "mogol-imparatorlugu": ("Moğol İmparatorluğu (bölünmemiş)", "#24c0c6"),
+    "resuli": ("Resûlîler", "#3ccc24"),
+    "sicilya-kralligi": ("Sicilya Krallığı (Norman Sicilya Kontluğu dahil)", "#1eb42a"),
+    "tahiri": ("Tâhirîler (Yemen)", "#42cc24"),
+    "trablus-kontlugu": ("Trablus Haçlı Kontluğu", "#d8601e"),
 }
 
 
