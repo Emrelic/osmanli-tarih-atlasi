@@ -153,7 +153,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","ozerklik","konu-idari"],
   yer_id:"", odak_yer:"Kragujevac", devlet:"sirbistan-prensligi", gun:"1833 (hatt-ı şerifin günü bu turda doğrulanmadı)",
   d:"1830 fermanının öngördüğü sınır düzenlemesiyle, Birinci İsyan sırasında Sırpların elinde bulunan ama 1813'te geri alınan altı nahiye özerk prensliğe bağlandı. Prensliğin toprağı böylece aşağı yukarı iki katına çıktı ve güneyde Timok ile Drina arasına yayıldı.",
-  kaynak:"M. B. Petrovich, A History of Modern Serbia (1976). TDV `sirbistan` bu ilhaka ayrıca değinmiyor. ⚠️ Gün doğrulanmadı — YYYY-01-01." },
+  kaynak:"M. B. Petrovich, A History of Modern Serbia (1976). TDV `sirbistan` bu ilhaka ayrıca değinmiyor. Dikkat: Gün doğrulanmadı — YYYY-01-01." },
 
 { t:"1835-02-15", b:"Sretenje Anayasası ilan edildi ve birkaç hafta içinde askıya alındı", tur:"anayasa",
   onem:3, dunya:1, kapsam:"ic", etiket:["anayasa","reform","konu-siyasi","konu-hukuk"],

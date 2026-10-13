@@ -391,7 +391,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","bolunme","konu-siyasi","konu-kisiler"],
   yer_id:"Tırnova",
   d:"İvan Aleksandır'ın (1331-1371) ölümüyle çarlık, oğulları arasında Tırnova (İvan Şişman) ve Vidin (İvan Sratsimir) çarlıkları olarak ikiye bölündü; bu bölünme Osmanlı ilerleyişine karşı ortak bir cephe kurulmasını imkânsızlaştırdı ve fethi hızlandırdı.", ic_not_d:"Tarih devletler.js `bulgar-carligi` künyesiyle birebir eşleşiyor.",
-  kaynak:"devletler.js `bulgar-carligi` künyesi: 'İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü.' ⚠️ WebFetch ile çekilen TDV `bulgaristan` özeti bu olayı '1365' olarak veriyordu; İvan Aleksandır'ın ölüm yılının tarihyazımında 1371 olduğu akademik literatürle (Fine) doğrulandığı için 1365 KULLANILMADI, çelişki not edildi." },
+  kaynak:"devletler.js `bulgar-carligi` künyesi: 'İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü.' Dikkat: WebFetch ile çekilen TDV `bulgaristan` özeti bu olayı '1365' olarak veriyordu; İvan Aleksandır'ın ölüm yılının tarihyazımında 1371 olduğu akademik literatürle (Fine) doğrulandığı için 1365 KULLANILMADI, çelişki not edildi." },
 
 { taraflar:["bulgar-carligi"], t:"1375-01-01", b:"Evtimiy Tırnova Patrikliği'ne getirildi — Tırnova Edebiyat Okulu zirvede", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","din","konu-din","konu-kultur","konu-egitim"],

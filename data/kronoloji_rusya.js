@@ -635,7 +635,7 @@ window.KRONOLOJI_RUSYA = [
   etiket:["antlasma","toprak","konu-askeri","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Rusya'nın dayattığı ağır barış, büyük bir Bulgaristan yaratıp Sırbistan, Karadağ ve Romanya'nın bağımsızlığını tanıdı; Rus tarihyazımında Pan-Slavist hedeflerin doruğu sayılsa da Avrupa güçlerinin tepkisiyle birkaç ay içinde Berlin Kongresi'nde büyük ölçüde geri alındı.",
-  kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — Kars/Ardahan/Batum/Doğubayazıt cümlesi TDV gövdesinden okundu · başlık/gövde düzeltmesi KRONO-KUZEY-0929" },
+  kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — Kars/Ardahan/Batum/Doğubayazıt cümlesi TDV gövdesinden okundu · başlık/gövde düzeltmesi" },
 { t:"1878-07-13", b:"Berlin Antlaşması — San Stefano kazanımları geriletildi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Berlin",

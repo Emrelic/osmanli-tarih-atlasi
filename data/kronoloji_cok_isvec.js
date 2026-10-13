@@ -26,7 +26,7 @@ window.KRONOLOJI_COK_ISVEC = [
 // ── ① TAŞINAN (6) — kronoloji_isvec.js ──────────────────────────────
 { t:"1397-06-17", b:"Kalmar Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis",
   etiket:["kurulus","siyaset","konu-siyasi"],
-  d:"Danimarka Kraliçesi I. Margrethe'nin öncülüğünde Danimarka, Norveç ve İsveç, Kalmar'da tek bir hanedan altında birleşti. İsveç bu birlik içinde 1521'e dek — aralıklı isyanlarla — kaldı; birliğin kendisi bu dosyanın devleti değildir ama İsveç Krallığı'nın doğrudan öncülü olduğu için başlangıç maddesi olarak eklendi.",
+  d:"Danimarka Kraliçesi I. Margrethe'nin öncülüğünde Danimarka, Norveç ve İsveç, Kalmar'da tek bir hanedan altında birleşti. İsveç bu birlik içinde 1521'e dek — aralıklı isyanlarla — kaldı; birliğin kendisi ayrı bir devlet değildir ama İsveç Krallığı'nın doğrudan öncülü olduğu için başlangıç maddesi olarak eklendi.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_id:"Kalmar",
   devletler:["isvec-birlik-oncesi", "danimarka", "norvec-kralligi"], tasindi:"kronoloji_isvec.js → KRONO-KUZEY-0929 (künye penceresi dışı; M-5416)" },
 { t:"1434-01-01", b:"Engelbrekt İsyanı başladı", tur:"isyan", onem:4, dunya:2, kapsam:"dis",

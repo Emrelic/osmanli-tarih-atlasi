@@ -4179,6 +4179,13 @@ function olayYeriKur() {
 //    kural değil O KAYIT tartışılır.
 var MUHAREBE_K = { savas: "meydan", kusatma: "kusatma", isyan: "isyan", ayaklanma: "isyan",
                    deniz: "deniz", "deniz-savasi": "deniz", donanma: "deniz" };
+// Kronoloji `k:` anahtarının okur dilindeki adı (rozet metni). Veri şeması
+// değişmez; yalnız gösterim. Terim standardı (TERIM-STANDART-0070, seçenek A):
+// işgal / fetih / sefer üç ayrı sınıftır ve üçü de ayrı renkle çizilir.
+var KATEGORI_AD = { isgal: "işgal", fetih: "fetih", sefer: "sefer / harekât", savas: "savaş",
+                    antlasma: "antlaşma", kusatma: "kuşatma", kurulus: "kuruluş", kesif: "keşif",
+                    kultur: "kültür", idari: "idarî", ayaklanma: "ayaklanma", ittifak: "ittifak",
+                    kayip: "toprak kaybı", siyaset: "siyaset", vassal: "tâbiiyet", diger: "diğer" };
 var DENIZ_KALIP = /(deniz muharebesi|deniz savaş|donanma|filo|amiral|korsan)/i;
 function olayMuharebeTuru(o) {
   var tur = MUHAREBE_K[o.k];
@@ -11233,7 +11240,10 @@ function obGoster(o) {
   meta.innerHTML = "";
   if (o.yer) { var y = document.createElement("span"); y.textContent = "📍 " + o.yer; meta.appendChild(y); }
   var kat = document.createElement("span"); kat.className = "ob-kat k-" + o.k;
-  kat.textContent = o.k; meta.appendChild(kat);
+  // Terim standardı (H-0010, seçenek A): rozet veri anahtarını değil okurun
+  // dilindeki sınıf adını yazar. `isgal` = fiilî denetim (egemenlik devri
+  // YOK); `fetih` = egemenlik devri; `sefer` = ordunun hareketi.
+  kat.textContent = KATEGORI_AD[o.k] || o.k; meta.appendChild(kat);
   // §A④ — panelde de "okuyanın tepkisi" diye adlandırılır, satırdakiyle
   // aynı span/etiket üretimi (`duyguSpanUret`) yeniden kullanılıyor.
   var duyguSpanPanel = duyguSpanUret(o);

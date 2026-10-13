@@ -151,7 +151,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1590-07-12", b:"Saratov kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Saratov",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Saratov, Volga yolunu ve devletin doğu sınırlarını göçebe akınlarına karşı korumak için Prens Zasekin tarafından kale-karakol olarak kuruldu.",
-  kaynak:"Энциклопедия «Немцы России», 'Саратов', https://enc.rusdeutsch.ru/articles/77 — AYNEN: \"Город Саратов был основан 12 июля 1590 г. князем О. Засекиным как крепость-форпост для охраны Волжского пути и восточных границ государства от набегов кочевников.\" · hassasiyet: GÜN (Miladî) · NOT: veri Tsaritsyn'i Jülyen, Saratov'u Miladî günle yazmış — takvim ekseni koordinatöre" },
+  kaynak:"Энциклопедия «Немцы России», 'Саратов', https://enc.rusdeutsch.ru/articles/77 — AYNEN: \"Город Саратов был основан 12 июля 1590 г. князем О. Засекиным как крепость-форпост для охраны Волжского пути и восточных границ государства от набегов кочевников.\" · hassasiyet: GÜN (Miladî) · NOT: veri Tsaritsyn'i Jülyen, Saratov'u Miladî günle yazmış — takvim ekseni belirsiz" },
 
 // ── 1593 ─────────────────────────────────────────────────────────────
 { t:"1593-01-01", b:"Pelım kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Pelım ostrogu",
@@ -269,7 +269,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1818-01-01", b:"Beaufort (Beaufort West) kasabası kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Beaufort West",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İngiliz Ümit Burnu Kolonisi'nde, Karoo'daki Hooyvlakte çiftliği üzerinde Beaufort kasabası kuruldu.",
-  kaynak:"South African History Online (SAHO), 'Beaufort West', https://sahistory.org.za/place/beaufort-west-cape-town — AYNEN: \"A Town 573 km from Cape Town, established in 1818 on the Farm: ''Hooyvlakte''.\" · hassasiyet: YIL · SAHO kâr amacı gütmeyen eğitim/arşiv kurumu (akademik yayın değil; koordinatör kabulü)" },
+  kaynak:"South African History Online (SAHO), 'Beaufort West', https://sahistory.org.za/place/beaufort-west-cape-town — AYNEN: \"A Town 573 km from Cape Town, established in 1818 on the Farm: ''Hooyvlakte''.\" · hassasiyet: YIL · SAHO kâr amacı gütmeyen eğitim/arşiv kurumu (akademik yayın değil)" },
 
 // ── 1826 ─────────────────────────────────────────────────────────────
 { t:"1826-01-01", b:"Belh Buhara emîrinin işgaline uğradı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
@@ -293,13 +293,13 @@ window.OLAYLAR_2S_0919 = [
 { t:"1852-01-01", b:"Kıyı tüccarları Kazeh'e (Tabora) yerleşti", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Tabora (Kazeh)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bir yerel hükümdarla çatışmanın ardından Doğu Afrika kıyısından gelen tüccarlar güneye göç etti; Unyanyembe reisi Fundikira onlara merkezi Itetemia yakınında yerleşme yeri verdi. Bu yerleşim Tabora kervan merkezinin çekirdeği oldu.",
-  kaynak:"K. Pallaver, 'A triangle: Spatial processes of urbanization and political power in 19th-century Tabora, Tanzania', Afriques 11 (2020), https://journals.openedition.org/afriques/2871 — AYNEN: \"In 1852, however, after a conflict with a local ruler, the coastal traders moved to the south where the mtemi Fundikira offered them a place to settle close to the capital of his chiefdom, Itetemia.\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma) · NOT (D204): aynı makaleye göre Zengibar valisi ancak 1860'ların başında atandı — verideki `umman-zengibar` sahipliği 1852 için desteklenmiyor" },
+  kaynak:"K. Pallaver, 'A triangle: Spatial processes of urbanization and political power in 19th-century Tabora, Tanzania', Afriques 11 (2020), https://journals.openedition.org/afriques/2871 — AYNEN: \"In 1852, however, after a conflict with a local ruler, the coastal traders moved to the south where the mtemi Fundikira offered them a place to settle close to the capital of his chiefdom, Itetemia.\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma) · NOT: aynı makaleye göre Zengibar valisi ancak 1860'ların başında atandı — verideki `umman-zengibar` sahipliği 1852 için desteklenmiyor" },
 
 // ── 1880-06 ──────────────────────────────────────────────────────────
 { t:"1880-06-13", b:"Brazza Franceville'i kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Fransvil (Franceville)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Pierre Savorgnan de Brazza, Mpassa ırmağına bakan kayalık bir çıkıntı üzerinde Fransa adına Franceville karakolunu kurdu.",
-  kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi (M-4591)" },
+  kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi" },
 
 // ── 1888 ─────────────────────────────────────────────────────────────
 { t:"1888-01-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",

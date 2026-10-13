@@ -23,7 +23,7 @@ window.EKOKUMA_CAMITARZ = [
       "Osmanlı barok (18. yüzyıl ortası) o açılımın cami mimarisindeki karşılığıdır: Nuruosmaniye Camii'nin (temeli 1749) kavisli cepheleri, oval avlusu ve yoğun bezemesi, klasik dönemin sade geometrisinden kesin bir kopuştur; Fatih Camii'nin 1766 depreminden sonra 1767-71'de barok üslupla yeniden inşası aynı geçişin ikinci büyük örneğidir.\n\n" +
       "Ampir/eklektik dönem (19. yüzyıl, özellikle II. Mahmud sonrası) Balyan ailesi mimarlarının elinde Avrupa'nın barok ve empire (ampir) üsluplarını harmanladı — Nusretiye Camii bu dönemin doğrudan örneğidir; aynı üslup sarayda Dolmabahçe'de de görülür.\n\n" +
       "Beş dönem art arda gelse de birbirini tümüyle silmedi: klasik dönem kompozisyon ilkeleri (merkezî kubbe, çift minare) sonraki dönemlerde de korunurken, yalnız cephe bezemesi ve süsleme dili değişti.",
-    not: "Bu kart bir sentezdir; her dönemin somut örnek yapısı ayrı kartlarda anlatılır: klasik dönem için Üç Şerefeli Camii, Şehzade Camii, Süleymaniye, Selimiye; Osmanlı barok için Nuruosmaniye, Fatih Camii; Lâle Devri bağlamı için Sadâbad; erken Osmanlı ve ampir/eklektik için bu dosyadaki Bursa Ulucami ve Nusretiye Camii kartları.",
+    not: "Bu kart bir sentezdir; her dönemin somut örnek yapısı ayrı kartlarda anlatılır: klasik dönem için Üç Şerefeli Camii, Şehzade Camii, Süleymaniye, Selimiye; Osmanlı barok için Nuruosmaniye, Fatih Camii; Lâle Devri bağlamı için Sadâbad; erken Osmanlı ve ampir/eklektik için Bursa Ulucami ve Nusretiye Camii kartları.",
     kesinlik: "kesin",
     // UYGULA-KART-0930 (0064/H-0020): olay:[] ile hiçbir maddede görünmüyordu;
     // soru 1749-01-19 Nuruosmaniye maddesinde (olaylar_ek14.js:52) soruldu.

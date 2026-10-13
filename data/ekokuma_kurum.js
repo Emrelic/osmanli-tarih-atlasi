@@ -261,7 +261,7 @@ window.EKOKUMA_KURUM = [
     +"■ VERGİ DEĞİL, KORSANLIK GELİRİ\n"
     +"Gelirin esas kaynağı İstanbul'a ödenen haraç değil, korsanlık faaliyetiydi — klasik tâbi devlet ilişkisinin (bkz. Eflak/Boğdan/Erdel/Kırım) tam tersine dönmüş bir mali modeldi.\n\n"
     +"■ DAYI UNVANI — TDV'DE AYRI BİR TUZAK\n"
-    +"TDV'nin `dayi` maddesi bu idari unvanı DEĞİL, fıkıhtaki 'anne tarafından akraba (dayı)' terimini anlatır — canlı slug, ilgisiz madde (CLAUDE.md §4②). Bu kartın dayılık bilgisi tamamen `cezayir` maddesinin kendisinden alındı.\n\n"
+    +"TDV'nin `dayi` maddesi bu idari unvanı DEĞİL, fıkıhtaki 'anne tarafından akraba (dayı)' terimini anlatır — bağlantı canlı olsa da madde konuyla ilgisizdir. Bu kartın dayılık bilgisi tamamen `cezayir` maddesinin kendisinden alındı.\n\n"
     +"■ TUNUS, LİBYA, MISIR, SUDAN, SOMALİ, ETİYOPYA — ARAŞTIRILMADI\n"
     +"Bu bölgeler için aynı analiz henüz YAPILAMADI — `bulunamadı`, sonraki bir tura bırakılmalı.",
   kesinlik:"kesin",

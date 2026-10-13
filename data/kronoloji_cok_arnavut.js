@@ -38,7 +38,7 @@ window.KRONOLOJI_COK_ARNAVUT = [
 { t:"1444-03-01", b:"Leş toplantısı — Arnavut beyleri İskender Bey etrafında birleşti", tur:"ittifak",
   onem:5, dunya:2, kapsam:"dis", etiket:["ittifak","isyan","konu-siyasi","konu-askeri"],
   yer_id:"Leş (Alessio)", devlet:"arnavutluk-iskenderbey",
-  gun:"1 Mart 1444 (TDV `iskender-bey`) — dukagin künyesi 2 Mart diyor, bkz. DUZELTME",
+  gun:"1 Mart 1444 (TDV `iskender-bey`) — dukagin künyesi 2 Mart diyor",
   d:"Venedik himayesindeki Leş'te toplanan Arnavut reisleri İskender Bey'in önderliğinde Osmanlı'ya karşı birleşme kararı aldı. Bu birlik, çeyrek yüzyıl sürecek direnişin siyasî ve askerî çatısını oluşturdu; ancak Venedik ile ilişkiler kısa sürede Dagno meselesi yüzünden gerilecektir.",
   kaynak:"TDV `iskender-bey`: 'Venedik'in himayesi altında, diğer Arnavut reisleriyle 1 Mart 1444'te Leş'te (Alessio) düzenlenen bir toplantıda anlaştı.'" },
 
@@ -100,7 +100,7 @@ window.KRONOLOJI_COK_ARNAVUT = [
 { t:"1478-06-16", b:"Kruya (Akçahisar) teslim oldu — direnişin kalesi düştü", tur:"son",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","son","kusatma","konu-askeri"],
   yer_id:"Akçahisar (Kruja)", devletler:["arnavutluk-iskenderbey","venedik"],
-  gun:"16 Haziran 1478 (15 Rebîülevvel 883, TDV `kruya`) — çekirdek 15 Haziran diyor, bkz. DUZELTME",
+  gun:"16 Haziran 1478 (15 Rebîülevvel 883, TDV `kruya`) — çekirdek 15 Haziran diyor",
   d:"İskender Bey'in ölümünden sonra Venedik garnizonuna kalan Kruya, uzun abluka sonucu açlıkla teslim oldu. Aynı yıl Drivasto ve Leş, bir yıl sonra İşkodra'nın da düşmesiyle Arnavut direnişi fiilen sona erdi.",
   ic_not_d:"Olay çekirdekte olaylar_ek5.js 1478-06-15 olarak da var (Osmanlı gözü). TDV hicrî tarihi 16 Haziran'a denk getiriyor.",
   kaynak:"TDV `kruya`: 'İskender Bey'in 872'de (1468) ölümünden çok sonra 15 Rebîülevvel 883'te (16 Haziran 1478) fethedildi.' · TDV `arnavutluk`: 1478'de Akçahisar, Drivasto, Leş." },
@@ -209,7 +209,7 @@ window.KRONOLOJI_COK_ARNAVUT = [
 { t:"1878-06-10", b:"Prizren Arnavut Cemiyeti kuruldu", tur:"siyaset",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","ittifak","konu-siyasi"],
   yer_id:"Prizren", devlet:"arnavutluk-osmanli",
-  gun:"10 Haziran 1878 (TDV `prizren`) — TDV `arnavutluk` 13 Haziran diyor, bkz. DUZELTME",
+  gun:"10 Haziran 1878 (TDV `prizren`) — TDV `arnavutluk` 13 Haziran diyor",
   d:"Berlin Kongresi'nde Arnavut topraklarının Karadağ ve Yunanistan'a verilmesine karşı çıkan Arnavut önde gelenleri, Babıâli'nin desteğiyle Prizren'de 'Arnavut Milletinin Haklarını Müdafaa Cemiyeti'ni kurdu. Cemiyet başta Osmanlı toprak bütünlüğünü savundu; zamanla özerk bir Arnavutluk fikrine yöneldi.",
   kaynak:"TDV `prizren`: '10 Haziran 1878'de Prizren Arnavut Cemiyeti kuruldu.' · TDV `arnavutluk`: cemiyetin Berlin kararlarına karşı Bâbıâli'nin desteğiyle kurulduğu (13 Haziran 1878)." },
 

@@ -289,7 +289,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   etiket:["savas","deniz-savasi","konu-askeri"], yer_id:"Hakata (Fukuoka)", yer:"Tsushima · Iki · Hakata körfezi", taraflar:["yuan-hanedani","goryeo"],
   d:"Kubilay'ın elçilerine cevap vermeyen Japonya'ya karşı, gemileri Goryeo'da inşa edilen ortak bir donanma Tsushima ve Iki'yi alıp Hakata körfezine çıktı. Bir günlük çarpışmadan sonra gemilerine dönen kuvvetler fırtınaya yakalanıp ağır kayıpla geri döndü.",
   kaynak:"TDV: kubilay-kagan (KUBİLAY KAĞAN) — 'Kasım 1274’te yaklaşık 900 gemi ve 15.000 askerle başlatılan Japonya’yı istilâ teşebbüsü' · TDV: japonya (JAPONYA) — 'Moğollar 1274 ve 1281 yıllarında Japonya’yı istilâ etmeye çalıştılarsa da bu teşebbüsleri başarısızlıkla sonuçlandı'", ic_not_kaynak:"① TDV'de VAR — alıntılar gövdeden birebir doğrulandı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Açılmayan eski akademik atıf (dayanak DEĞİL): Rossabi 1988.",
-  gun:"Kasım 1274 (TDV kubilay-kagan AY verir; gün yok → YYYY-01-01, ay yazılmadı — CLAUDE.md §8)",
+  gun:"Kasım 1274 (TDV kubilay-kagan ay verir; gün yok, kayıt yıl başına konuldu)",
   ic_not_t:"kamakura künye iskeletinde 1274 maddesi var → burada kamakura'ya BAĞLANMADI." },
 
 // ─── JAPONYA: Heian · Ōshū Fujiwara · Kamakura ─────────────────────────

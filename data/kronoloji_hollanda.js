@@ -63,19 +63,19 @@ window.KRONOLOJI_HOLLANDA = [
 { t:"1568-01-01", b:"Seksen Yıl Savaşları'nın başlaması — İspanya'ya karşı isyan", tur:"isyan", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","askeri","din","konu-askeri","konu-isyan","konu-din"], yer_id:"", kapsam_genis:true,
   odak_yer:["Amsterdam","Anvers (Antwerpen)","Gent","Utrecht"],
   d:"Habsburg Hollandası'nın on yedi vilâyeti, İspanyol merkezîleşmesine ve engizisyona karşı ayaklandı. Seksen yıl sürecek savaş, Avrupa'nın ilk başarılı bağımsızlık mücadelesi ve ilk büyük cumhuriyetçi devlet kuruluşudur.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): İspanya'ya karşı bağımsızlık mücadelesi anlatısı · ⚠️ GÜN DOĞRULANMADI (yıl damgası)" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): İspanya'ya karşı bağımsızlık mücadelesi anlatısı · Dikkat: GÜN DOĞRULANMADI (yıl damgası)" },
 
 { t:"1575-02-08", b:"Leiden Üniversitesi'nin kurulması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", etiket:["bilim","kultur","konu-bilim","konu-kultur","konu-egitim"], yer_id:"", odak_yer:["Rotterdam","Amsterdam"],
   d:"İsyanın en ağır günlerinde, kuşatmaya direnen Leiden'e ödül olarak bir üniversite kuruldu. Şarkiyat ve İslâm araştırmaları da dâhil, kurum kısa sürede Avrupa'nın ilk sıradaki ilim merkezlerinden biri hâline geldi; Grotius bu üniversitenin öğrencisidir.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda'da İslâm ve şarkiyat araştırmaları XVI. yüzyılın sonlarına doğru, Leiden Üniversitesi'nin kurulması (1575…)\" · Leiden Üniversitesi, 'Timeline: 450 years of Leiden Law School' · ⚠️ GÜN DOĞRULANMADI · ⚠️ yer_id BOŞ: Leiden yerleşim listesinde YOK (ölçüldü)" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda'da İslâm ve şarkiyat araştırmaları XVI. yüzyılın sonlarına doğru, Leiden Üniversitesi'nin kurulması (1575…)\" · Leiden Üniversitesi, 'Timeline: 450 years of Leiden Law School' · Dikkat: GÜN DOĞRULANMADI · Dikkat: yer_id BOŞ: Leiden yerleşim listesinde YOK (ölçüldü)" },
 
 { t:"1579-01-23", b:"Utrecht Birliği — kuzey vilâyetlerinin birleşmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", etiket:["anayasa","ittifak","konu-siyasi","konu-idari","konu-diplomasi","konu-islahat","konu-hukuk"], yer_id:"Utrecht",
   d:"Kuzeydeki vilâyetler ortak savunma ve iç işlerde egemenlik esasına dayanan bir birlik kurdu. Bu metin Birleşik Provinsler'in fiilî anayasası oldu ve 1795'e kadar yürürlükte kaldı; TDV bağımsızlığın kazanıldığı tarih olarak 1579'u verir.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda, 1579 yılında İspanya'dan bağımsızlığını kazandıktan hemen sonra deniz aşırı ülkelere açılmak için büyük çaba harcadı\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda, 1579 yılında İspanya'dan bağımsızlığını kazandıktan hemen sonra deniz aşırı ülkelere açılmak için büyük çaba harcadı\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan","darbe-siyasi","konu-isyan","konu-darbe","konu-islahat","konu-hukuk"], yer_id:"",
   d:"Genel Meclis, II. Felipe'yi hükümdarlıktan azlettiğini ilan etti: bir hükümdar tebaasına karşı yükümlülüklerini çiğnerse tebaanın onu görevden alma hakkı vardır. Bir halkın kralını hukukî gerekçeyle azlettiği bu metin, Avrupa siyasî düşüncesinde bir ilktir.",
-  kaynak:"bulunamadı — okunan kaynaklarda GÜN doğrulanmadı · ⚠️ yer_id BOŞ: Lahey (Den Haag) yerleşim listesinde YOK, oysa Genel Meclis'in merkezidir (ölçüldü, koordinatöre bildirildi)" },
+  kaynak:"bulunamadı — okunan kaynaklarda GÜN doğrulanmadı · Dikkat: yer_id BOŞ: Lahey (Den Haag) yerleşim listesinde YOK, oysa Genel Meclis'in merkezidir (ölçüldü)" },
 
 { t:"1585-08-17", b:"Anvers'in düşüşü ve kuzeye göç", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["askeri","ekonomi","sosyal","konu-askeri","konu-ekonomi","konu-sosyal","konu-demografi"], yer_id:"Anvers (Antwerpen)",
   gun:"17 Ağustos 1585 Gregoryen",
@@ -90,41 +90,41 @@ window.KRONOLOJI_HOLLANDA = [
 { t:"1602-03-20", b:"VOC'nin kurulması — dünyanın ilk anonim şirketi", tur:"ekonomi", onem:5, dunya:5, kapsam:"dis", etiket:["ekonomi","teknoloji","konu-bilim","konu-ekonomi"], yer_id:"Amsterdam",
   gun:"20 Mart 1602 Gregoryen",
   d:"Birleşik Doğu Hindistan Şirketi, rakip Hollanda şirketlerinin birleştirilmesiyle kuruldu ve devletten savaş açma, antlaşma yapma, kale inşa etme yetkisi aldı. Hisseleri halka açık satıldı; 1602'de açılan abonelik büyük ilgi gördü ve binlerce yatırımcı sermayesini şirketin odalarına yatırdı. VOC 1602-1800 arasında dünyanın en büyük ticaret ve denizcilik şirketiydi.",
-  kaynak:"UvA-DARE, L. Petram, 'The world's first stock exchange: how the Amsterdam market for Dutch East India Company shares became a modern securities market, 1602-1700': \"When subscriptions in the VOC opened in 1602 they proved immensely popular, with thousands of investors placing their capital in the company's chambers\" · Rijksmuseum: \"the world's largest trading and shipping company from 1602 to 1800\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"UvA-DARE, L. Petram, 'The world's first stock exchange: how the Amsterdam market for Dutch East India Company shares became a modern securities market, 1602-1700': \"When subscriptions in the VOC opened in 1602 they proved immensely popular, with thousands of investors placing their capital in the company's chambers\" · Rijksmuseum: \"the world's largest trading and shipping company from 1602 to 1800\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1602-01-01", b:"Amsterdam Borsası — hisse senedinin doğuşu", tur:"ekonomi", onem:4, dunya:5, kapsam:"ic", etiket:["ekonomi","konu-ekonomi"], yer_id:"Amsterdam",
   gun:"1602 (kaynak yıl verir; önceki 21 Mart günü kaynaksızdı)",
   d:"VOC hisseleri dünya tarihinde ilk kez büyük ölçekte alınıp satılmaya başlandı. Amsterdam piyasası 1630-1650 arasında vadeli işlem, açığa satış ve türev sözleşmeleriyle modern bir menkul kıymet piyasasına dönüştü; bugünkü borsanın atası budur.",
-  kaynak:"UvA-DARE, Petram: \"In seventeenth-century Amsterdam, shares were traded on a large scale for the first time in world history\" · \"The Amsterdam stock market developed into a modern securities market during the period 1630-1650\" · ⚠️ GÜN DOĞRULANMADI (VOC ile aynı yıl; ayrı madde, çünkü şirket ile piyasa ayrı kurumlardır)" },
+  kaynak:"UvA-DARE, Petram: \"In seventeenth-century Amsterdam, shares were traded on a large scale for the first time in world history\" · \"The Amsterdam stock market developed into a modern securities market during the period 1630-1650\" · Dikkat: GÜN DOĞRULANMADI (VOC ile aynı yıl; ayrı madde, çünkü şirket ile piyasa ayrı kurumlardır)" },
 
 { t:"1604-01-01", b:"Osmanlı'ya ilk başvuru — esirlerin serbest bırakılması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"İstanbul",
   d:"Hollandalılar ele geçirdikleri bir İspanyol kadırgasındaki müslüman esirleri serbest bırakıp padişaha bir mektupla gönderdiler; Cezayirli ve Tunuslu korsanların elindeki Hollandalılar için yardım ve kendi bayraklarıyla ticaret hakkı istediler. Başvuruya cevap verilemedi.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollandalılar, Osmanlı Devleti ile doğrudan ilişki kurmak için 1604 yılında bir girişimde bulundular… Fakat çeşitli gaileler yüzünden Hollanda'nın bu ilk başvurusuna cevap verilemedi\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollandalılar, Osmanlı Devleti ile doğrudan ilişki kurmak için 1604 yılında bir girişimde bulundular… Fakat çeşitli gaileler yüzünden Hollanda'nın bu ilk başvurusuna cevap verilemedi\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1609-01-31", b:"Amsterdam Wisselbank — Avrupa'nın ilk kamu takas bankası", tur:"ekonomi", onem:4, dunya:4, kapsam:"ic", etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"], yer_id:"Amsterdam",
   gun:"31 Ocak 1609 Gregoryen",
   d:"Amsterdam Şehir Meclisi, dolaşımdaki sikke kargaşasına düzen getirmek için Wisselbank'ı kurdu. Banka mevduata dayalı sabit değerli bir hesap parası yarattı; Amsterdam gulden'i iki yüzyıl boyunca Avrupa ticaretinin ölçü birimi oldu ve modern merkez bankacılığının öncüsü sayıldı.",
-  kaynak:"Huygens Instituut / KNAW, 'Exchange Banks in Amsterdam, Middelburg, Delft and Rotterdam 1603-1820' kaynak neşri: \"The Exchange Bank (Wisselbank) in Amsterdam was founded in 1609 by the Municipal Council of Amsterdam in order to bring order to the chaos that surrounded ready cash at the time\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Huygens Instituut / KNAW, 'Exchange Banks in Amsterdam, Middelburg, Delft and Rotterdam 1603-1820' kaynak neşri: \"The Exchange Bank (Wisselbank) in Amsterdam was founded in 1609 by the Municipal Council of Amsterdam in order to bring order to the chaos that surrounded ready cash at the time\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1609-04-09", b:"On İki Yıllık Ateşkes — fiilî bağımsızlığın tanınması", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"Anvers (Antwerpen)",
   gun:"9 Nisan 1609 Gregoryen",
   d:"İspanya, isyancılarla ateşkes imzalayarak Birleşik Provinsler'i fiilen muhatap kabul etti. Bu on iki yıl, cumhuriyetin ticaretini, donanmasını ve kurumlarını savaşsız kurduğu dönemdir — Altın Çağ'ın kuluçkası.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"İspanya'nın Hollandalı isyancılarla mütareke imzalamasından (1609) sonra Osmanlılar Felemenk Cumhuriyeti ile ittifak yapmanın gerekliliğini anladılar\" · `dunya:3` ateşkesin SONU ile aynı (`ispanya.js:414`) · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"İspanya'nın Hollandalı isyancılarla mütareke imzalamasından (1609) sonra Osmanlılar Felemenk Cumhuriyeti ile ittifak yapmanın gerekliliğini anladılar\" · `dunya:3` ateşkesin SONU ile aynı (`ispanya.js:414`) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1609-01-01", b:"Grotius'un Mare Liberum'u — denizlerin serbestliği", tur:"kultur", onem:4, dunya:5, kapsam:"ic", etiket:["bilim","kultur","ekonomi","konu-bilim","konu-ekonomi","konu-kultur"], yer_id:"", odak_yer:["Rotterdam","Amsterdam"],
   gun:"1609 (Leiden, Elzevier; kaynak ay/gün vermez — önceki 1 Kasım kaynaksızdı)",
   d:"Leiden'in yayıncısı Elzevier, VOC'nin ısmarladığı Mare Liberum'u bastı; Hugo Grotius denizlerin bütün milletlere açık olduğunu, kimsenin okyanusu mülk edinemeyeceğini savundu. Metin, De jure praedae adlı büyük eserin bir parçasıydı ve bugün hâlâ deniz hukukunun kurucu ilkesidir — modern devletler hukuku bu risaleyle başlar.",
-  kaynak:"Leiden Üniversitesi, 'Hugo Grotius: from Leiden student to founding father of international law' ve Grotius web sergisi: \"In 1609, the university's publisher Elzevier published Mare Liberum (The Freedom of the Seas), commissioned by the Dutch East India Company\"; De jure praedae'nin parçası olduğu; ilkenin bugün de deniz hukukunun temeli sayıldığı · ⚠️ GÜN DOĞRULANMADI · ⚠️ yer_id BOŞ: Leiden yok" },
+  kaynak:"Leiden Üniversitesi, 'Hugo Grotius: from Leiden student to founding father of international law' ve Grotius web sergisi: \"In 1609, the university's publisher Elzevier published Mare Liberum (The Freedom of the Seas), commissioned by the Dutch East India Company\"; De jure praedae'nin parçası olduğu; ilkenin bugün de deniz hukukunun temeli sayıldığı · Dikkat: GÜN DOĞRULANMADI · Dikkat: yer_id BOŞ: Leiden yok" },
 
 // II. OSMANLI İLE İLİŞKİ VE ALTIN ÇAĞ (1610-1660)
 
 { t:"1610-01-01", b:"Kaptanıderyâ Halil Paşa'nın daveti", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"İstanbul",
   d:"Akdeniz'de İspanyol donanmasına karşı mücadele eden Kaptanıderyâ Kayserili Halil Paşa, Venedik'teki Hollandalı tüccarlar eliyle Hollanda'ya bir mektup gönderdi. Mektupta padişahın serbest ticaret hakkı tanımaya karar verdiği belirtiliyor ve İstanbul'a bir temsilci gönderilmesi isteniyordu; ilişkiyi başlatan davet Osmanlı tarafından geldi.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): Halil Paşa'nın 1610'da gönderdiği mektup ve temsilci daveti (Erdbrink'e atıfla) · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): Halil Paşa'nın 1610'da gönderdiği mektup ve temsilci daveti (Erdbrink'e atıfla) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1611-09-07", b:"Cornelis Haga'nın İstanbul'a yola çıkması", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
   d:"Genel Meclis, Halil Paşa'nın teklifini görüşüp Cornelis Haga başkanlığında bir heyet göndermeye karar verdi. Haga'nın tâlimatnâmesi iki maddeydi: esirlerin serbest bırakılması ve Hollanda bayrağı altında ticaret hakkı.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"7 Eylül 1611'de yola çıkan Haga\" · ⚠️ yer_id BOŞ: Lahey yok" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"7 Eylül 1611'de yola çıkan Haga\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
 { t:"1612-03-17", b:"Haga'nın İstanbul'a varışı", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"İstanbul",
   d:"Bazı Avrupa ülkelerini dolaştıktan sonra Haga İstanbul'a ulaştı. Fransız ve İngiliz elçileri, İspanya'ya isyan hâlindeki bir topluluğun temsilcisinin kabulünün padişahın itibarını sarsacağını ileri sürerek huzura çıkmasını engellemeye çalıştılar.",
@@ -140,14 +140,14 @@ window.KRONOLOJI_HOLLANDA = [
 
 { t:"1613-01-01", b:"Ömer Ağa'nın Hollanda'ya gönderilmesi ve Haga'nın daimî elçi olması", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"",
   d:"Osmanlı hükûmeti yeni müttefikini tanımak için Halil Paşa'nın adamlarından Ömer Ağa'yı gönderdi; korsanların elinden kurtarılan esirlerle birlikte gelen elçi büyük merasimle karşılandı, genel meclisi ve şehirleri gezip müsbet intibalarla döndü. Padişahın isteği üzerine Genel Meclis Haga'nın İstanbul'da daimî elçi olarak kalmasına karar verdi.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): Ömer Ağa'nın görevi, karşılanışı ve dönüşü (1613); \"Padişahın isteği üzerine Hollanda Genel Meclisi Haga'nın dâimî elçi olarak İstanbul'da kalmasına karar verdi\" · ⚠️ yer_id BOŞ: Lahey yok" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): Ömer Ağa'nın görevi, karşılanışı ve dönüşü (1613); \"Padişahın isteği üzerine Hollanda Genel Meclisi Haga'nın dâimî elçi olarak İstanbul'da kalmasına karar verdi\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
 // V. SÖMÜRGE İMPARATORLUĞU VE TARAFSIZLIK (1600-1923)
 
 { t:"1619-05-30", b:"Batavia'nın kurulması — Doğu'daki başkent", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", etiket:["toprak-kazanc","ekonomi","konu-askeri","konu-siyasi","konu-ekonomi"], yer_id:"Batavia (Cakarta)",
   gun:"30 Mayıs 1619 Gregoryen",
   d:"VOC, Java'da Jayakarta'nın yerine Batavia'yı kurdu ve Asya ticaret ağının merkezi yaptı. Şehir üç yüz yılı aşkın süre Hollanda Doğu Hint İmparatorluğu'nun başkenti olarak kaldı.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): Hollanda sömürgeciliği bölümü — bağımsızlıktan hemen sonra denizaşırı açılım · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): Hollanda sömürgeciliği bölümü — bağımsızlıktan hemen sonra denizaşırı açılım · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1621-04-09", b:"On İki Yıllık Ateşkesin sona ermesi — savaşın yeniden başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"Amsterdam",
   gun:"9 Nisan 1621 Gregoryen",
@@ -157,22 +157,22 @@ window.KRONOLOJI_HOLLANDA = [
 { t:"1625-06-05", b:"Breda'nın kaybı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", etiket:["askeri","kusatma","konu-askeri"], yer_id:"", odak_yer:["Rotterdam","Anvers","Utrecht"],
   gun:"5 Haziran 1625 Gregoryen",
   d:"Spínola'nın uzun kuşatması Breda'yı düşürdü; Velázquez'in tablosu teslim sahnesini İspanyol zaferinin simgesi yaptı. Kale 1637'de geri alındı.",
-  kaynak:"depo `data/kronoloji_ispanya.js:419` — `dunya:2` oradan devralındı · ⚠️ yer_id BOŞ: Breda yok" },
+  kaynak:"depo `data/kronoloji_ispanya.js:419` — `dunya:2` oradan devralındı · Dikkat: yer_id BOŞ: Breda yok" },
 
 { t:"1629-04-14", b:"Christiaan Huygens'in doğumu", tur:"kultur", onem:3, dunya:4, kapsam:"ic", etiket:["bilim","konu-kisiler","konu-bilim","konu-kultur"], yer_id:"", odak_yer:"Rotterdam",
   gun:"14 Nisan 1629 Gregoryen",
   d:"Diplomat ve şair Constantijn Huygens'in oğlu Lahey'de doğdu. Satürn'ün halkasını tanımlayan, sarkaçlı saati icat eden ve ışığın dalga kuramını kuran Christiaan Huygens, cumhuriyetin dünya ilmine en büyük katkısıdır.",
-  kaynak:"Huygens Instituut / KNAW ve akademik kaynaklar: \"Christiaan Huygens was born on April 14, 1629, in Den Haag (The Hague), in the Dutch Republic. He was the son of Constantijn Huygens, a diplomat with a strong background in philosophy and the natural sciences\" · ⚠️ yer_id BOŞ: Lahey yok" },
+  kaynak:"Huygens Instituut / KNAW ve akademik kaynaklar: \"Christiaan Huygens was born on April 14, 1629, in Den Haag (The Hague), in the Dutch Republic. He was the son of Constantijn Huygens, a diplomat with a strong background in philosophy and the natural sciences\" · Dikkat: yer_id BOŞ: Lahey yok" },
 
 { t:"1632-11-24", b:"Spinoza'nın doğumu", tur:"kultur", onem:4, dunya:5, kapsam:"ic", etiket:["kultur","din","bilim","konu-kisiler","konu-bilim","konu-din","konu-kultur"], yer_id:"Amsterdam",
   gun:"24 Kasım 1632 Gregoryen",
   d:"Baruch Spinoza, Amsterdam'ın Portekiz kökenli yahudi cemaatinin tanınmış bir ailesinde doğdu ve on yedi yaşında okulu bırakıp ailenin ithalat işine girdi. Aydınlanma'nın en radikal filozofu, cumhuriyetin görece hür yayın ikliminde yetişti — ama sansürlenen az sayıdaki yazardan biri olarak o iklimin sınırını da gösterdi.",
-  kaynak:"UvA, 'Dutch Culture and Society in European Context' — Spinoza: \"born into a prominent family in Amsterdam's Portuguese-Jewish immigrant community in 1632, left school at seventeen to help run the family's importing business\"; \"Spinoza remains one of the anomalies as one of the few authors to be censored in what was an otherwise liberal publishing climate compared to other European states\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"UvA, 'Dutch Culture and Society in European Context' — Spinoza: \"born into a prominent family in Amsterdam's Portuguese-Jewish immigrant community in 1632, left school at seventeen to help run the family's importing business\"; \"Spinoza remains one of the anomalies as one of the few authors to be censored in what was an otherwise liberal publishing climate compared to other European states\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1637-02-03", b:"Lâle çılgınlığı — tarihin ilk spekülatif balonu", tur:"ekonomi", onem:4, dunya:4, kapsam:"ic", etiket:["ekonomi","sosyal","konu-ekonomi","konu-sosyal"], yer_id:"Amsterdam",
   gun:"3 Şubat 1637 Gregoryen",
   d:"1636-37 kışında lâle soğanı fiyatları olağanüstü yükseldi ve aniden çöktü. Arka planda VOC'nin devasa kârlarının beslediği eşi görülmemiş bir refah vardı; tüccar sınıfının serveti bahçelere ve lâleye akıyordu. Vaka, spekülatif balonun bilinen ilk örneği olarak iktisat tarihine geçti.",
-  kaynak:"Oxford, Faculty of History — 'Tulipmania: A Garden Historian's Perspective': \"Tulip madness (Tulpenwoerde), which became known as Tulipomania, took place in the Dutch United Provinces in 1636 and 1637\"; 1630'ların eşi görülmemiş refahı ve VOC kârlarının rolü · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Oxford, Faculty of History — 'Tulipmania: A Garden Historian's Perspective': \"Tulip madness (Tulpenwoerde), which became known as Tulipomania, took place in the Dutch United Provinces in 1636 and 1637\"; 1630'ların eşi görülmemiş refahı ve VOC kârlarının rolü · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1639-10-21", b:"Downs Deniz Savaşı — İspanyol donanmasının imhası", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", odak_yer:"Dover",
   gun:"21 Ekim 1639 Gregoryen",
@@ -187,7 +187,7 @@ window.KRONOLOJI_HOLLANDA = [
 { t:"1648-10-24", b:"Vestfalya Barışı — Avrupa düzeninde cumhuriyetin yeri", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], yer_id:"Münster",
   gun:"24 Ekim 1648 Gregoryen",
   d:"Genel barışla Birleşik Provinsler, İmparatorluk'tan ayrılmış egemen bir devlet olarak Avrupa sistemine girdi. Bir tüccar cumhuriyeti, kral hanedanlarının kurduğu düzende eşit taraf sayıldı.",
-  kaynak:"depo `data/kronoloji_habsburg.js` (aynı oturum) — `dunya:5`, M-0880'de ilan edilen değerle birebir" },
+  kaynak:"depo `data/kronoloji_habsburg.js` (aynı çalışma) — `dunya:5`, daha önce ilan edilen değerle birebir" },
 
 { t:"1652-04-06", b:"Kap kolonisinin kurulması", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", etiket:["toprak-kazanc","ekonomi","konu-askeri","konu-siyasi","konu-ekonomi"], yer_id:"Kap (Cape Town)",
   gun:"6 Nisan 1652 Gregoryen",
@@ -213,12 +213,12 @@ window.KRONOLOJI_HOLLANDA = [
 
 { t:"1676-01-01", b:"Leeuwenhoek ve mikroskobik canlıların keşfi", tur:"kultur", onem:4, dunya:5, kapsam:"ic", etiket:["bilim","teknoloji","konu-bilim","konu-kultur","konu-kesif"], yer_id:"", odak_yer:"Rotterdam",
   d:"Delft'li bez tüccarı Antoni van Leeuwenhoek, kendi yaptığı tek mercekli aletlerle serbest yaşayan mikroorganizmaları, mantar hiflerini, alyuvarları, kılcal dolaşımı, ağız bakterilerini ve spermatozoayı ilk kez belgeledi. Bulgularını Londra'daki Royal Society'ye iki yüzden fazla mektupla bildirdi; mikrobiyoloji Delft'in optik ve zanaat kültüründen doğdu.",
-  kaynak:"Huygens Instituut / KNAW, 'Antoni van Leeuwenhoek — The Collected Letters' projesi ve akademik derleme: \"Using single-lens instruments, he documented the first observations of free-living microorganisms, fungal hyphae, red blood cells, capillary flow, oral bacteria, and spermatozoa in more than two hundred letters to the Royal Society of London\" · ⚠️ GÜN ve YIL DOĞRULANMADI (mektuplar 1670'lerden itibaren) · ⚠️ yer_id BOŞ: Delft yok" },
+  kaynak:"Huygens Instituut / KNAW, 'Antoni van Leeuwenhoek — The Collected Letters' projesi ve akademik derleme: \"Using single-lens instruments, he documented the first observations of free-living microorganisms, fungal hyphae, red blood cells, capillary flow, oral bacteria, and spermatozoa in more than two hundred letters to the Royal Society of London\" · Dikkat: GÜN ve YIL DOĞRULANMADI (mektuplar 1670'lerden itibaren) · Dikkat: yer_id BOŞ: Delft yok" },
 
 { t:"1677-02-21", b:"Spinoza'nın ölümü ve Etika'nın yayımlanması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", etiket:["kultur","din","konu-kisiler","konu-din","konu-kultur"], yer_id:"",
   gun:"21 Şubat 1677 Gregoryen",
   d:"Spinoza öldüğü yıl başyapıtı Etika ölümünden sonra basıldı. Cumhuriyetin yayın iklimi Avrupa'nın en hürüydü; yine de Spinoza'nın eserleri yasaklandı — Lodewijk Meyer, Adriaen Koerbagh ve Balthasar Bekker'in yazılarıyla birlikte Avrupa çapında tartışma yarattı.",
-  kaynak:"UvA, 'Dutch Culture and Society in European Context': Spinoza'nın sansürlenmesi ve radikal düşünce akımının Altın Çağ'ın son on yıllarında Avrupa'da yarattığı tartışma · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"UvA, 'Dutch Culture and Society in European Context': Spinoza'nın sansürlenmesi ve radikal düşünce akımının Altın Çağ'ın son on yıllarında Avrupa'da yarattığı tartışma · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
   gun:"5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
@@ -238,27 +238,27 @@ window.KRONOLOJI_HOLLANDA = [
 
 { t:"1799-12-31", b:"VOC'nin tasfiyesi", tur:"son", onem:4, dunya:3, kapsam:"dis", etiket:["ekonomi","konu-siyasi","konu-ekonomi"], yer_id:"Amsterdam",
   d:"Borç batağındaki şirketin imtiyazı yenilenmedi ve varlıkları devlete geçti. İki yüz yıl dünyanın en büyük ticaret şirketi olan VOC böylece sona erdi; sömürgeler doğrudan devlet idaresine girdi.",
-  kaynak:"Rijksmuseum: VOC'nin \"1602 to 1800\" arasında dünyanın en büyük ticaret ve denizcilik şirketi olduğu · ⚠️ GÜN DOĞRULANMADI (kaynak 1800 diyor, tasfiye kararı 1799)" },
+  kaynak:"Rijksmuseum: VOC'nin \"1602 to 1800\" arasında dünyanın en büyük ticaret ve denizcilik şirketi olduğu · Dikkat: GÜN DOĞRULANMADI (kaynak 1800 diyor, tasfiye kararı 1799)" },
 
 { t:"1815-03-16", b:"Hollanda Krallığı'nın kurulması", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", etiket:["anayasa","hanedan","konu-siyasi","konu-hanedan","konu-islahat","konu-hukuk"], yer_id:"Amsterdam",
   d:"Viyana Kongresi düzeninde, kuzey ile güney Hollanda birleştirilerek Orange hanedanı altında bir krallık kuruldu. Amaç Fransa'nın kuzey sınırında güçlü bir tampon devletti; iki yüz yıllık cumhuriyet geleneği monarşiyle yer değiştirdi.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda Krallığı, ticarete dayanan Protestan kuzey bölgesiyle sanayiin hâkim olduğu Katolik güney bölgesini bir arada tutmak için büyük çaba harcadı\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda Krallığı, ticarete dayanan Protestan kuzey bölgesiyle sanayiin hâkim olduğu Katolik güney bölgesini bir arada tutmak için büyük çaba harcadı\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1830-08-25", b:"Belçika'nın ayrılması", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", etiket:["isyan","toprak-kayip","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"], yer_id:"Brüksel",
   d:"Güney bölgesinde çıkan ayaklanma sonucunda Belçika bağımsızlığını ilan etti. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı 1839'da tanımak zorunda kaldı; Protestan-ticarî kuzey ile Katolik-sınaî güneyi bir arada tutma denemesi on beş yılda çöktü.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"1830 yılında çıkan bir ayaklanma sonucunda güney bölgesi Belçika adıyla bağımsızlığını ilân ederek Hollanda Krallığı'ndan ayrıldı. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı tanımak zorunda kaldı (1839)\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"1830 yılında çıkan bir ayaklanma sonucunda güney bölgesi Belçika adıyla bağımsızlığını ilân ederek Hollanda Krallığı'ndan ayrıldı. Uzun mücadelelerden sonra Hollanda bu bağımsızlığı tanımak zorunda kaldı (1839)\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1839-04-19", b:"Belçika bağımsızlığının tanınması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"Londra",
   d:"Londra Antlaşması'yla Hollanda Belçika'yı tanıdı ve sınır kesinleşti. Aynı antlaşma Belçika'nın tarafsızlığını büyük güçlerin güvencesine bağladı — 1914'te Almanya'nın ihlal edeceği belge budur.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): bağımsızlığın 1839'da tanınması · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): bağımsızlığın 1839'da tanınması · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1890-11-23", b:"Lüksemburg'un ayrılması", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", etiket:["hanedan","toprak-kayip","konu-askeri","konu-hanedan"], yer_id:"", odak_yer:"Lüksemburg",
   d:"Kişisel birlikle Hollanda kralına bağlı olan Lüksemburg, veraset kuralları gereği ayrıldı. Krallığın Avrupa'daki toprakları bugünkü sınırlarına indi.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"XIX. yüzyıl sonlarında Lüksemburg da Hollanda'dan ayrıldı (1890)\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"XIX. yüzyıl sonlarında Lüksemburg da Hollanda'dan ayrıldı (1890)\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1914-08-01", b:"I. Dünya Savaşı'nda tarafsızlık", tur:"diplomasi", onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
   odak_yer:["Amsterdam","Rotterdam","Groningen","Maastricht"],
   d:"Hollanda savaşın dışında kalmayı başardı ve dört yıl boyunca tarafsızlığını korudu. Ülke hem Belçikalı mültecilerin sığınağı hem de abluka altındaki Almanya ile ticaretin kapısı oldu; tarafsızlık, 1830'dan beri sürdürülen çizginin en zorlu sınavıydı.",
-  kaynak:"TDV `hollanda` (gövdesi okundu): \"I. Dünya Savaşı'nda tarafsız kalmayı başaran Hollanda Krallığı\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `hollanda` (gövdesi okundu): \"I. Dünya Savaşı'nda tarafsız kalmayı başaran Hollanda Krallığı\" · Dikkat: GÜN DOĞRULANMADI" },
 
 ];

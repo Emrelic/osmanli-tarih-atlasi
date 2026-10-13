@@ -92,7 +92,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1297-02-28", b:"Serrata — Büyük Konsey'in kapanması", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
   d:"Büyük Konsey üyeliği, belirlenmiş patrisyen ailelerin yirmi beş yaşını dolduran erkeklerine bağlandı. Yaygın kanaat bunu halkı dışlayan bir darbe sayar; ölçülen etki ise yönetici sınıfın genişletilmesi ve hizip kavgalarının yatıştırılmasıydı. Venedik'in beş yüz yıl sürecek anayasal düzeni bu kararla kuruldu.",
-  kaynak:"Treccani, 'Serrata del maggior consiglio': \"un ampliamento della classe dirigente, attuato per moderare le lotte di fazione\"; üyelik 25 yaşını dolduran patrisyenlere ayrıldı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Serrata del maggior consiglio': \"un ampliamento della classe dirigente, attuato per moderare le lotte di fazione\"; üyelik 25 yaşını dolduran patrisyenlere ayrıldı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1298-09-08", b:"Curzola deniz bozgunu — Ceneviz rekabetinin zirvesi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -107,7 +107,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1339-01-24", b:"Treviso'nun alınması — ilk Terraferma tecrübesi", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["toprak-kazanc","konu-askeri"],
   d:"Mastino della Scala'ya karşı Floransa ile ittifak hâlinde yürütülen savaş, Treviso'nun işgaliyle sonuçlandı ve şehir Venedik'in doğal art bölgesi sayıldı. 1339-1381 arasındaki Treviso hâkimiyeti, cumhuriyetin ilk mütevazı toprak devleti tecrübesidir.",
-  kaynak:"Treccani, 'La conquista della terraferma': 1336-1339 savaşı Treviso'nun işgaliyle sonuçlandı, şehir Venedik'in doğal \"contado\"su sayıldı; \"La dominazione veneziana di Treviso tra il 1339 e il 1381 rappresenta la prima modesta esperienza di dominio territoriale\" · ⚠️ GÜN DOĞRULANMADI", yer_kon:[45.6669,12.2431] },
+  kaynak:"Treccani, 'La conquista della terraferma': 1336-1339 savaşı Treviso'nun işgaliyle sonuçlandı, şehir Venedik'in doğal \"contado\"su sayıldı; \"La dominazione veneziana di Treviso tra il 1339 e il 1381 rappresenta la prima modesta esperienza di dominio territoriale\" · Dikkat: GÜN DOĞRULANMADI", yer_kon:[45.6669,12.2431] },
 
 { t:"1348-01-25", b:"Kara Ölüm", tur:"kriz", onem:4, dunya:3, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","ekonomi","konu-siyasi","konu-ekonomi","afet","afet-salgin"],
@@ -147,12 +147,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1381-08-08", b:"Torino Barışı — Ceneviz rekabetinin kırılması ve otuz ailenin konseye alınması", tur:"antlasma", onem:5, dunya:2, kapsam:"dis", yer_id:"Torino",
   etiket:["antlasma","anayasa","konu-diplomasi","konu-islahat","konu-hukuk"],
   d:"Ceneviz'in Doğu Akdeniz'deki üstünlük iddiası kırıldı ve Venedik rakipsiz deniz gücü hâline geldi. İçeride savaşta öne çıkan otuz aile istisnaî olarak Büyük Konsey'e alındı; bu, 1360-61 vebası ve savaşla yitirilen kırk dört ailenin yerini doldurmak içindi. Bir dış zaferin anayasal düzeni gevşetmesi Serrata'dan sonraki tek örnektir.",
-  kaynak:"Treccani, 'Andamento demografico della nobiltà veneziana': \"Dopo la vittoriosa guerra di Chioggia (1381) l'accesso al Maggior Consiglio fu eccezionalmente aperto a trenta famiglie\"; 1360-61 vebası ve 44 aile kaybı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Andamento demografico della nobiltà veneziana': \"Dopo la vittoriosa guerra di Chioggia (1381) l'accesso al Maggior Consiglio fu eccezionalmente aperto a trenta famiglie\"; 1360-61 vebası ve 44 aile kaybı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1390-01-01", b:"Osmanlı ile ilk ticaret imtiyazları", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Venedik, yükselen Osmanlı Devleti'yle ilk ticarî imtiyaz anlaşmasını yaptı; ardından çok sayıda anlaşma geldi. Cumhuriyetin Osmanlı siyaseti baştan beri iki yönlüdür: kalelerini savunmak ve ticaretini sürdürmek. Bu ikilik dört asır boyunca hiç çözülmedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): ticarî imtiyazlar ilk olarak 1390'da kuruldu, ardından çok sayıda anlaşma yapıldı · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `venedik` (gövdesi okundu): ticarî imtiyazlar ilk olarak 1390'da kuruldu, ardından çok sayıda anlaşma yapıldı · Dikkat: gün DOĞRULANMADI" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. TERRAFERMA'YA DÖNÜŞ VE İLK OSMANLI ÇATIŞMALARI (1400-1454)
@@ -161,7 +161,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1405-01-01", b:"Padova, Verona ve Vicenza'nın alınması — Terraferma siyaseti", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Padova",
   etiket:["toprak-kazanc","askeri","konu-askeri"],
   d:"Carrara hâkimiyetine son verilerek Padova, Verona ve Vicenza cumhuriyete katıldı. Yüzyıllardır denize dönük olan Venedik ilk kez ciddi bir kara devleti oldu; bu tercih üç yüz yıl boyunca kaynakları deniz ile kara arasında bölecek ve her Osmanlı savaşında ikilem üretecekti.",
-  kaynak:"Treccani, 'La conquista della terraferma' (Terraferma genişlemesi) · ⚠️ şehirlerin ALINIŞ GÜNLERİ doğrulanmadı" },
+  kaynak:"Treccani, 'La conquista della terraferma' (Terraferma genişlemesi) · Dikkat: şehirlerin ALINIŞ GÜNLERİ doğrulanmadı" },
 
 { t:"1409-07-09", b:"Dalmaçya'nın satın alınması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Zadar (Zara)",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
@@ -176,12 +176,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1420-10-01", b:"Friuli'nin fethi — Aquileia patrikliğinin sonu", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Udine",
   etiket:["toprak-kazanc","askeri","konu-askeri","konu-din"],
   d:"Venedik kuvvetleri Sacile, Feltre, Belluno, Cadore, Udine, Aquileia ve Monfalcone'yi işgal etti. İki yıllık harekâtla Aquileia patriği Friuli'deki hâkimiyetinden edildi ve Macaristan kralının yukarı Adriyatik'i denetleme umudu boşa çıktı.",
-  kaynak:"Treccani, 'La conquista della terraferma': \"Entro l'autunno del 1420 Arcelli aveva occupato Sacile, Feltre, Belluno, Cadore, Udine, Aquileia e Monfalcone\"; patriğin Friuli hâkimiyetinden edilmesi ve Macar kralının umudunun boşa çıkması · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'La conquista della terraferma': \"Entro l'autunno del 1420 Arcelli aveva occupato Sacile, Feltre, Belluno, Cadore, Udine, Aquileia e Monfalcone\"; patriğin Friuli hâkimiyetinden edilmesi ve Macar kralının umudunun boşa çıkması · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1423-01-01", b:"Selânik'in Bizans'tan devralınması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Selanik",
   etiket:["toprak-kazanc","askeri","konu-askeri"],
   d:"Bizans savunamadığı Selânik'i Venedik'e devretti ve cumhuriyet Osmanlı ilerleyişinin tam önüne yerleşti. Şehir yedi yıl elde tutulabildi; Venedik'in Balkan anakarasında tuttuğu tek büyük şehirdir.",
-  kaynak:"TDV `venedik` (gövdesi okundu): 1423-1430 çatışma dönemi, Selânik'in ele geçirilmesi sırasında · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `venedik` (gövdesi okundu): 1423-1430 çatışma dönemi, Selânik'in ele geçirilmesi sırasında · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1428-01-01", b:"Brescia ve Bergamo'nun alınması — Terraferma'nın en geniş hâli", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Brescia",
   etiket:["toprak-kazanc","konu-askeri"],
@@ -191,7 +191,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1430-03-29", b:"Selânik'in kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Selanik",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"II. Murad Selânik'i aldı ve Venedik'in Ege'deki en büyük kara mevzii düştü. Cumhuriyet Osmanlı ile doğrudan savaşın maliyetini ilk kez böyle ölçtü; bundan sonra bir asır boyunca çatışmadan kaçınmayı tercih etti.",
-  kaynak:"TDV `venedik`: 1423-1430 dönemi ve Selânik'in ele geçirilmesi · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `venedik`: 1423-1430 dönemi ve Selânik'in ele geçirilmesi · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1441-11-20", b:"Cremona Barışı — Milano ile sınırın çizilmesi", tur:"antlasma", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
@@ -201,12 +201,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1453-05-29", b:"İstanbul'un fethi — Levant düzeninin çöküşü", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"],
   d:"Bizans'ın sonu, Venedik'in iki buçuk asırdır üzerine kurulu olduğu Doğu Akdeniz düzenini ortadan kaldırdı; şehirdeki Venedik kolonisi ağır kayıp verdi ve balyos idam edildi. Cumhuriyet bundan sonra ticaretini imparatorluğun mirasçısıyla anlaşarak sürdürmek zorunda kalacaktı.",
-  kaynak:"⚠️ Okunan TDV `venedik` maddesi 1453'ü Venedik açısından İŞLEMİYOR; tarih ve `dunya:5` M-0873'ün çapa listesinden alındı. Venedik'e ETKİSİ için ayrı kaynak açılamadı — `bulunamadı`" },
+  kaynak:"Dikkat: Okunan TDV `venedik` maddesi 1453'ü Venedik açısından İŞLEMİYOR; tarih ve `dunya:5` ortak çapa listesinden alındı. Venedik'e ETKİSİ için ayrı kaynak açılamadı — `bulunamadı`" },
 
 { t:"1454-04-09", b:"Lodi Barışı — İtalya'da güçler dengesi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Milano ve Venedik delegeleri arasında iki taraflı görüşülen barış Lombardiya'da statükoyu kurdu: Venedik Polesine'i Ferrara'ya bıraktı, Milano'dan Crema'yı aldı ve Francesco Sforza'nın dukalık unvanını tanıdı. Bu barış İtalya'da kırk yıl sürecek beş devletli denge sisteminin temeli sayılır.",
-  kaynak:"Treccani, 'Venezia e la politica italiana: 1454-1530': \"La pace di Lodi fu negoziata bilateralmente tra delegati milanesi e veneziani nell'aprile 1454\"; Polesine Ferrara'ya, Crema Milano'dan, Sforza'nın unvanı tanındı · ⚠️ ayın GÜNÜ doğrulanmadı", yer_kon:[45.3142,9.5034] },
+  kaynak:"Treccani, 'Venezia e la politica italiana: 1454-1530': \"La pace di Lodi fu negoziata bilateralmente tra delegati milanesi e veneziani nell'aprile 1454\"; Polesine Ferrara'ya, Crema Milano'dan, Sforza'nın unvanı tanındı · Dikkat: ayın GÜNÜ doğrulanmadı", yer_kon:[45.3142,9.5034] },
 
 // ══════════════════════════════════════════════════════════════════
 // III. OSMANLI İLE İLK BÜYÜK SAVAŞ VE OKYANUS DARBESİ (1463-1503)
@@ -215,12 +215,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"On altı yıl sürecek savaş, Mora'daki Venedik kalelerinin Osmanlı baskısı altına girmesiyle başladı. Cumhuriyet ilk kez bütün gücüyle Osmanlı'ya karşı savaşa girdi ve sonunda ağır bir fatura ödedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1470-07-12", b:"Eğriboz'un (Negroponte) kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Ege'deki en değerli Venedik üssü olan Eğriboz Osmanlı eline geçti. Kaybın Venedik'te yarattığı şok, bir deniz imparatorluğunun artık savunmada olduğunun ilk açık kabulüdür.",
-  kaynak:"TDV `egriboz` slug CANLI (gövdesi OKUNMADI) · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `egriboz` slug CANLI (gövdesi OKUNMADI) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1477-10-30", b:"Osmanlı akıncılarının Friuli'ye ulaşması", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Udine",
   etiket:["askeri","konu-askeri"],
@@ -255,7 +255,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1498-05-20", b:"Ümit Burnu yolunun açılması — baharat tekelinin kırılması", tur:"kriz", onem:5, dunya:5, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","kriz","konu-siyasi","konu-ekonomi"],
   d:"Portekiz gemilerinin Ümit Burnu üzerinden Hindistan'a varması, Venedik'in üzerine kurulu olduğu Levant baharat ticaretinin tekelini kırdı. Cumhuriyetin zenginliği bir savaşla değil bir deniz yolunun keşfiyle sarsıldı; Venedik tarihyazımında düşüşün başlangıcı çoğu zaman buraya konur.",
-  kaynak:"bulunamadı — okunan kaynaklarda tarih DOĞRULANMADI ⚠️ `dunya:5`, M-0873'ün '1492' çapasıyla aynı sınıfta değerlendirildi; koordinatör başka değer derse uyarlanır" },
+  kaynak:"bulunamadı — okunan kaynaklarda tarih DOĞRULANMADI Dikkat: `dunya:5`, '1492' çapasıyla aynı sınıfta değerlendirildi" },
 
 { t:"1499-08-12", b:"Sapienza (Zonchio) deniz bozgunu", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","konu-askeri"],
@@ -265,12 +265,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1500-08-10", b:"Modon ve Koron'un kaybı — \"cumhuriyetin iki gözü\"", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Mora'nın güneyindeki iki liman düştü. Venedikliler bu iki kaleye \"cumhuriyetin iki gözü\" derdi, çünkü Doğu'ya giden bütün gemiler oradan su alırdı; kayıpları Levant seferlerinin güvenliğini kalıcı olarak zayıflattı.",
-  kaynak:"TDV `modon` ve `koron` slugları CANLI (gövdeleri OKUNMADI) · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `modon` ve `koron` slugları CANLI (gövdeleri OKUNMADI) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1503-01-01", b:"İkinci savaşın sonu", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Barış Mora'daki kayıpları tescil etti ve Venedik'in Osmanlı karşısındaki geri çekilişinin ikinci halkası oldu. Ticaret imtiyazları yine korundu.",
-  kaynak:"TDV `venedik`: 1499-1502 savaş dönemi · ⚠️ hem GÜN hem YIL kesinliği DOĞRULANMADI (TDV 1502, yaygın adlandırma 1503)", yer_id:"İstanbul" },
+  kaynak:"TDV `venedik`: 1499-1502 savaş dönemi · Dikkat: hem GÜN hem YIL kesinliği DOĞRULANMADI (TDV 1502, yaygın adlandırma 1503)", yer_id:"İstanbul" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. CAMBRAI LİGİ VE AKDENİZ'İN BÖLÜŞÜMÜ (1508-1573)
@@ -289,7 +289,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1509-07-17", b:"Padova'nın geri alınması — çöküşün durdurulması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Padova",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Agnadello'dan iki ay sonra Padova geri alındı ve imparator Trentino'da püskürtüldü. Cumhuriyetin yıkılmayıp ligi diplomasiyle dağıtması, Venedik anlatısında devletin dayanıklılığının kanıtı sayılır.",
-  kaynak:"Treccani, 'Cambrai, lega di': \"Nel luglio 1509 Padova tornò in mano veneziana e Massimiliano fu respinto nel Trentino (ottobre)\" · ⚠️ ayın GÜNÜ doğrulanmadı" },
+  kaynak:"Treccani, 'Cambrai, lega di': \"Nel luglio 1509 Padova tornò in mano veneziana e Massimiliano fu respinto nel Trentino (ottobre)\" · Dikkat: ayın GÜNÜ doğrulanmadı" },
 
 { t:"1516-03-29", b:"Ghetto'nun kurulması", tur:"reform", onem:3, dunya:2, kapsam:"ic", yer_id:"Venedik",
   etiket:["din","reform","konu-din","konu-islahat"],
@@ -299,7 +299,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1516-10-01", b:"Brescia'nın geri alınması — Terraferma'nın toparlanması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Brescia",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
   d:"Marignano zaferinin ardından Venedik Brescia'yı geri aldı ve kara toprakları büyük ölçüde yeniden kuruldu. Cumhuriyet bundan sonra İtalya'da yayılmacı değil, elindekini koruyan bir güç olarak davranacaktı.",
-  kaynak:"Treccani, 'Cambrai, lega di': \"nel 1516 Venezia riprese Brescia\"; Marignano zaferi Eylül 1515 · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Cambrai, lega di': \"nel 1516 Venezia riprese Brescia\"; Marignano zaferi Eylül 1515 · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1523-05-20", b:"Andrea Gritti'nin doge seçilmesi ve \"renovatio urbis\"", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","kultur","konu-hanedan","konu-kultur","konu-islahat","konu-hukuk"],
@@ -319,12 +319,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1538-09-28", b:"Preveze deniz savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Preveze",
   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
   d:"Andrea Doria komutasındaki Haçlı donanması Preveze'de Barbaros Hayreddin Paşa karşısında bozguna uğradı. Yenilgi, Akdeniz'in doğu yarısında üstünlüğün Osmanlı'ya geçtiği an olarak okunur ve Venedik'i iki yıl içinde tek başına barışa zorladı.",
-  kaynak:"depo `data/savaslar.js` (1538-09-28) · ⚠️ TDV `preveze` slug'ı ÖLÜ (302) — bu oturumda ölçüldü, CLAUDE.md §4'te de kayıtlı" },
+  kaynak:"depo `data/savaslar.js` (1538-09-28) · Dikkat: TDV `preveze` slug'ı ÖLÜ (302) — ölçüldü, CLAUDE.md §4'te de kayıtlı" },
 
 { t:"1540-10-02", b:"Üçüncü savaşın sonu — Ege mevzilerinin bırakılması", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Venedik tek başına barış yaparak Nauplia ve Malvasia ile Ege'deki son mevzilerinden bazılarını bıraktı ve tazminat ödedi. Müttefiklerinden ayrı barış yapması, ticaret çıkarını ittifak dayanışmasının önünde tutmasının açık örneğidir.",
-  kaynak:"TDV `venedik`: 1537-1540 çatışma dönemi · ⚠️ GÜN DOĞRULANMADI", yer_id:"İstanbul" },
+  kaynak:"TDV `venedik`: 1537-1540 çatışma dönemi · Dikkat: GÜN DOĞRULANMADI", yer_id:"İstanbul" },
 
 { t:"1570-09-09", b:"Lefkoşa'nın düşüşü", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Lefkoşa",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri"],
@@ -363,7 +363,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1582-01-01", b:"1582 Correzione — Onlar Konseyi'nin yetkilerinin kısılması", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
   d:"Anayasal düzeltme, Onlar Konseyi'nin yanındaki \"zonta\"yı kaldırdı, konseyin dış siyasete müdahale imkânını elinden aldı ve onu asıl işlevine — ceza yargısına — geri döndürdü. Yetki Senato'ya kaydı; buna karşılık Devlet Engizisyoncuları güçlendi. Venedik anayasal tarihinde Serrata'dan sonraki en önemli ayardır.",
-  kaynak:"Treccani, 'Le riforme' / 'Il corpo aristocratico': \"La correzione soppresse la 'zonta', tolse al Consiglio dei Dieci la possibilità di intervenire nella politica estera, e lo riportò alle sue funzioni originarie di organo della giustizia penale\"; Devlet Engizisyoncularının güç kazanması · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Le riforme' / 'Il corpo aristocratico': \"La correzione soppresse la 'zonta', tolse al Consiglio dei Dieci la possibilità di intervenire nella politica estera, e lo riportò alle sue funzioni originarie di organo della giustizia penale\"; Devlet Engizisyoncularının güç kazanması · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1587-04-01", b:"Banco della Piazza di Rialto — devlet bankası", tur:"reform", onem:3, dunya:2, kapsam:"ic", yer_id:"Venedik",
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
@@ -388,7 +388,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1618-05-18", b:"\"İspanya tertibi\" — gerçekliği tartışmalı bir komplo", tur:"kriz", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","diplomasi","konu-siyasi","konu-diplomasi"],
   d:"Onlar Konseyi, İspanyol elçiliğinin cumhuriyeti devirmeyi planladığı gerekçesiyle toplu infazlar yaptırdı. Tertibin gerçekten var olup olmadığı bugün de tartışmalıdır; vaka, Venedik'in gizli yargı düzeninin hem gücünü hem gölgesini gösterir.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI ⚠️ olayın GERÇEKLİĞİ literatürde tartışmalıdır ve bu, metinde açıkça yazıldı" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI Dikkat: olayın GERÇEKLİĞİ literatürde tartışmalıdır ve bu, metinde açıkça yazıldı" },
 
 { t:"1630-01-01", b:"Büyük veba", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","ekonomi","konu-siyasi","konu-ekonomi","afet","afet-salgin"],
@@ -399,20 +399,20 @@ window.KRONOLOJI_VENEDIK = [
 // VI. GİRİT SAVAŞI VE MORA (1645-1699)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1645-06-23", b:"Girit Savaşı başladı — Osmanlı donanması Aya Todori önüne geldi", gun:"23 Haziran 1645 — donanmanın Aya Todori adası önüne gelişi (Menekşe 2021); adadaki iki kale iki günde alındı, karaya çıkış ertesi gün · bu madde eski 1645-08-22 maddesinin BÖLÜNMESİYLE doğdu (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+{ t:"1645-06-23", b:"Girit Savaşı başladı — Osmanlı donanması Aya Todori önüne geldi", gun:"23 Haziran 1645 — donanmanın Aya Todori adası önüne gelişi (Menekşe 2021); adadaki iki kale iki günde alındı, karaya çıkış ertesi gün · bu madde eski 1645-08-22 maddesinin BÖLÜNMESİYLE doğdu", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
   etiket:["askeri","konu-askeri"],
   d:"Malta seferi diye İstanbul'dan çıkan Osmanlı donanması Navarin'den ayrıldıktan sonra asıl hedefin Girit olduğunu açıkladı ve Hanya'nın kuzeybatısındaki Aya Todori adası önüne geldi; adadaki iki Venedik kalesi iki günde alındı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
-  kaynak:"Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"Bundan sonra donanma, 23 Haziran günü, Hanya’nın kuzeybatısındaki Aya Todori Adası önüne gelmiş ve Girit sahiline çok yakın olan bu adadaki iki kale iki günde zapt edilmiştir\" — cümle donanmanın ada önüne gelişini tarihliyor · aynı makalede Kâtib Çelebi aktarımı: \"Rebî‘ülâhırın yirmi sekizinde (23 Haziran 1645) muhâsara etdiklerinde\" · künyedeki \"Girit (Kandiye) Savaşı başladı\" maddesinin (1645-01-01, mükerrer silmede kaldırıldı) olayı BUDUR (KRONO-AKADEMIK-1006)" },
+  kaynak:"Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"Bundan sonra donanma, 23 Haziran günü, Hanya’nın kuzeybatısındaki Aya Todori Adası önüne gelmiş ve Girit sahiline çok yakın olan bu adadaki iki kale iki günde zapt edilmiştir\" — cümle donanmanın ada önüne gelişini tarihliyor · aynı makalede Kâtib Çelebi aktarımı: \"Rebî‘ülâhırın yirmi sekizinde (23 Haziran 1645) muhâsara etdiklerinde\" · künyedeki \"Girit (Kandiye) Savaşı başladı\" maddesinin (1645-01-01, mükerrer silmede kaldırıldı) olayı BUDUR" },
 
-{ t:"1645-08-22", b:"Hanya'nın fethi — elli dört günlük kuşatmanın sonu", gun:"22 Ağustos 1645 — Hanya Kalesi'nin fethi (Menekşe 2021) · ⚠️ aynı makalede 19 Ağustos 1645 Venedik'in TESLİM TEKLİFİ günüdür (Adıyeke 2002 aktarımı) ve makalenin İngilizce özeti fethi yanlışlıkla \"August 19, 1645\" diye veriyor — makale kendi içinde uyumsuz, BEYAN (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+{ t:"1645-08-22", b:"Hanya'nın fethi — elli dört günlük kuşatmanın sonu", gun:"22 Ağustos 1645 — Hanya Kalesi'nin fethi (Menekşe 2021) · Dikkat: aynı makalede 19 Ağustos 1645 Venedik'in TESLİM TEKLİFİ günüdür (Adıyeke 2002 aktarımı) ve makalenin İngilizce özeti fethi yanlışlıkla \"August 19, 1645\" diye veriyor — makale kendi içinde uyumsuz, BEYAN", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Osmanlı ordusu elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı; Yusuf Paşa \"Hanya Fâtihi\" unvanını kazandı.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2) · gün: Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"22 Ağustos 1645 tarihinde Hanya Kalesi’ni fethederek “Hanya Fâtihi” unvanını almıştır.\" — cümle kalenin fethini tarihliyor · madde 1006'da BÖLÜNDÜ: \"savaşın başlaması\" kısmı 1645-06-23 maddesine geçti (KRONO-AKADEMIK-1006)" },
+  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · Dikkat: GÜN DOĞRULANMADI · Dikkat: TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı · gün: Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"22 Ağustos 1645 tarihinde Hanya Kalesi’ni fethederek “Hanya Fâtihi” unvanını almıştır.\" — cümle kalenin fethini tarihliyor · madde 1006'da BÖLÜNDÜ: \"savaşın başlaması\" kısmı 1645-06-23 maddesine geçti" },
 
 { t:"1646-03-01", b:"Patrisyenliğin satışa çıkarılması — savaşın anayasal bedeli", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","ekonomi","konu-ekonomi","konu-islahat","konu-hukuk"],
   d:"Girit savaşının malî yükü altında cumhuriyet, Büyük Konsey'e kabul edilme hakkını 100.000 duka karşılığında satışa çıkardı. 1646 ile 1718 arasında yüz yirmiden fazla aile bu imkândan yararlandı; Altın Kitap toptan değil, vaka vaka açıldı. Serrata'nın üç buçuk asırlık kapalılığı bir savaş masrafı yüzünden delindi.",
-  kaynak:"Treccani, 'Il corpo aristocratico' / 'La società veneziana': \"la Repubblica mise in vendita per 100.000 ducati il diritto di essere accolti in Maggior Consiglio, e fra il 1646 e il 1718 più di centoventi famiglie approfittarono\"; Şubat-Mart 1646 kararnamesi Senato'da kabul, Büyük Konsey'de reddedildi, Libro d'oro vaka vaka açıldı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Il corpo aristocratico' / 'La società veneziana': \"la Repubblica mise in vendita per 100.000 ducati il diritto di essere accolti in Maggior Consiglio, e fra il 1646 e il 1718 più di centoventi famiglie approfittarono\"; Şubat-Mart 1646 kararnamesi Senato'da kabul, Büyük Konsey'de reddedildi, Libro d'oro vaka vaka açıldı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1648-05-01", b:"Kandiye kuşatmasının başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Kandiye (Girit)",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -437,17 +437,17 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1684-03-05", b:"Kutsal İttifak'a katılma", tur:"ittifak", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"Viyana bozgunundan sonra kurulan ittifaka Venedik de girdi ve on beş yıl sürecek son büyük taarruzuna başladı. Girit'i kaybetmiş bir cumhuriyet için bu, kayıpları telafi etmenin son fırsatıydı.",
-  kaynak:"⚠️ GÜN DOĞRULANMADI · 🔴 `dunya:3` — Habsburg dosyasındaki aynı olayla BİREBİR AYNI (M-0880'de ilan edildi)", yer_kon:[48.3069,14.2858] },
+  kaynak:"Dikkat: GÜN DOĞRULANMADI · `dunya:3` — Habsburg kronolojisindeki aynı olayla birebir aynı", yer_kon:[48.3069,14.2858] },
 
 { t:"1685-06-01", b:"Mora seferinin başlaması — Morosini'nin taarruzu", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Koron",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Francesco Morosini kumandasındaki büyük donanma Mora'ya çıkarma yaptı ve iki yıl içinde bütün yarımadayı ele geçirdi. Venedik iki yüz yıl sonra ilk kez Osmanlı'dan toprak alıyordu; Morosini'ye \"Peloponnesiacus\" unvanı verildi.",
-  kaynak:"TDV `mora` (gövdesi okundu): \"1095 (1684) ile 1097 (1686) yılları arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir donanma Mora'ya çıkarma yaparak bütün yarımadayı ele geçirdi\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `mora` (gövdesi okundu): \"1095 (1684) ile 1097 (1686) yılları arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir donanma Mora'ya çıkarma yaparak bütün yarımadayı ele geçirdi\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1687-09-26", b:"Atina'nın alınması ve Parthenon'un patlaması", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","kultur","konu-askeri","konu-kultur"],
   d:"Morosini'nin ordusu Atina'yı kuşattı; Akropolis'te cephanelik olarak kullanılan Parthenon bir Venedik humbarasıyla infilak etti. Askerî olarak küçük, kültürel olarak kalıcı bir olaydır ve Mora seferinin en çok anılan sahnesidir.",
-  kaynak:"bulunamadı — bu oturumda kaynaktan DOĞRULANMADI, gün de doğrulanmadı" },
+  kaynak:"bulunamadı — kaynaktan DOĞRULANMADI, gün de doğrulanmadı" },
 
 { t:"1688-10-20", b:"Eğriboz kuşatmasının başarısızlığı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -457,7 +457,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1692-01-01", b:"Granbosa Kalesi'nin kaybı", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Girit'in kuzeybatısındaki Granbosa Kalesi Osmanlılar tarafından alındı ve adada kalan üç Venedik mevziinden biri düştü.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"Granbosa Kalesi ise 1692 yılında ele geçirilmişti\" · depo `savaslar.js` (1692-01-01) · ⚠️ gün DOĞRULANMADI", yer_kon:[35.6119,23.5814] },
+  kaynak:"TDV `girit` (gövdesi okundu): \"Granbosa Kalesi ise 1692 yılında ele geçirilmişti\" · depo `savaslar.js` (1692-01-01) · Dikkat: gün DOĞRULANMADI", yer_kon:[35.6119,23.5814] },
 
 { t:"1694-09-21", b:"Sakız'ın alınması", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis", yer_id:"Sakız",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -472,7 +472,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1699-01-26", b:"Karlofça Antlaşması — Mora'nın Venedik'e bırakılması", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Antlaşmayla Mora yarımadası Venedik'te kaldı; cumhuriyet iki yüz yıl sonra ilk kez Osmanlı'dan toprak kazanarak bir savaştan çıktı. Bu kazanç Venedik'te büyük gurur kaynağı oldu ama yalnız on altı yıl sürdü.",
-  kaynak:"depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · 🔴 `dunya:4` — Habsburg dosyasıyla BİREBİR AYNI, M-0873 çapa listesinde de 4", yer_kon:[45.2019,19.9339] },
+  kaynak:"depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · `dunya:4` — Habsburg kronolojisiyle birebir aynı", yer_kon:[45.2019,19.9339] },
 
 // ══════════════════════════════════════════════════════════════════
 // VII. SON SAVAŞ VE CUMHURİYETİN SONU (1700-1797)
@@ -483,10 +483,10 @@ window.KRONOLOJI_VENEDIK = [
   d:"Osmanlı Devleti Mora'yı geri almak için savaş ilan etti. Venedik bu savaşa yalnız girdi; Karlofça'nın kazancını koruyacak ne donanması ne müttefiki vardı.",
   kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi", yer_id:"İstanbul" },
 
-{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3) · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
+{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Damad Ali Paşa'nın harekâtıyla Osmanlılar bir yaz mevsiminde bütün yarımadayı geri aldı; aynı sefer sırasında Girit'te kalan Suda ve Spinalonga kaleleri de düştü. Karlofça'nın kazancı on altı yılda geri verilmiş oldu.",
-  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 (KRONO-AKADEMIK-1006)" },
+  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · Dikkat: GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193" },
 
 { t:"1716-08-20", b:"Korfu savunması — son zafer", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Korfu",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -496,7 +496,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1718-07-21", b:"Pasarofça Antlaşması — Mora'nın kesin kaybı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"21 Temmuz 1718'de imzalanan yirmi altı maddelik antlaşmayla Osmanlı, savaşta zaptettiği Çuha Adası'nı (Çuka/Kythira, Cerigo) Venedik'e iade etti; Ayamavra (Lefkada) da 1715'te geçtiği Osmanlı elinden Venedik'e terk edildi ve 1797'ye dek Venedik'te kaldı. Venedik ayrıca Korfu karşısındaki Butrinto sahil şehrini, İfrindos, Preveze ve Voniçe'yi aldı; karşılığında Bosna-Ragusa arasında serbest yol bırakılıp üç palanka Osmanlı sınırlarına katıldı. Mora antlaşma metninde anılmadı — 1715'te Osmanlı'ya geçmişti. Cumhuriyetin Osmanlı ile savaşları burada sona erdi.",
-  kaynak:"TDV `pasarofca-antlasmasi` (gövdesi okundu): imza 22 Şâban 1130 / 21 Temmuz 1718; Çuka iadesi; Butrinto, İfrindos, Preveze, Voniçe · TDV `ayamavra`: \"1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi\" · 🔴 `dunya:3` — Habsburg dosyasıyla BİREBİR AYNI (M-0880) · d KRONO-ITALYA-0929'da düzeltildi (eski metin 'Korfu bırakıldı' diyordu; TDV Korfu'dan söz etmiyor)", yer_kon:[44.62,21.19] },
+  kaynak:"TDV `pasarofca-antlasmasi` (gövdesi okundu): imza 22 Şâban 1130 / 21 Temmuz 1718; Çuka iadesi; Butrinto, İfrindos, Preveze, Voniçe · TDV `ayamavra`: \"1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi\" · `dunya:3` — Habsburg kronolojisiyle birebir aynı · d düzeltildi (eski metin 'Korfu bırakıldı' diyordu; TDV Korfu'dan söz etmiyor)", yer_kon:[44.62,21.19] },
 
 { t:"1720-01-01", b:"Silahlı tarafsızlık siyasetine geçiş", tur:"diplomasi", onem:4, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["diplomasi","konu-diplomasi"],
@@ -516,7 +516,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1789-03-09", b:"Ludovico Manin'in doge seçilmesi — son doge", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Cumhuriyetin yüz yirminci ve son dogesi seçildi. Sekiz yıl sonra cumhuriyetin feshine başkanlık edecekti.",
-  kaynak:"Treccani, 'Manìn, Ludovico': cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) doge olduğu · ⚠️ SEÇİM GÜNÜ doğrulanmadı" },
+  kaynak:"Treccani, 'Manìn, Ludovico': cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) doge olduğu · Dikkat: SEÇİM GÜNÜ doğrulanmadı" },
 
 { t:"1797-04-20", b:"Lido olayı — Fransız gemisine ateş açılması", tur:"kriz", onem:4, dunya:1, kapsam:"dis", yer_id:"Venedik",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],
@@ -526,11 +526,11 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1797-05-12", b:"Büyük Konsey'in kendini feshi — cumhuriyetin sonu", tur:"son", onem:5, dunya:3, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","askeri","konu-askeri","konu-siyasi","konu-islahat","konu-hukuk"],
   d:"Napolyon'un tehdidi altında Büyük Konsey son kez toplandı ve cumhuriyeti feshetme kararı aldı; son doge Ludovico Manin görevi bıraktı. Bin yıllık cumhuriyet bir muharebe verilmeden sona erdi — Venedik belleğinde bu en ağır utanç anıdır.",
-  kaynak:"Treccani, 'Manìn, Ludovico': Manin, cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) dogeydi; \"Il doge abbandonò il potere con dignitosa fermezza\" · ⚠️ GÜN DOĞRULANMADI (kaynak 'Mayıs 1797' diyor)" },
+  kaynak:"Treccani, 'Manìn, Ludovico': Manin, cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) dogeydi; \"Il doge abbandonò il potere con dignitosa fermezza\" · Dikkat: GÜN DOĞRULANMADI (kaynak 'Mayıs 1797' diyor)" },
 
 { t:"1797-10-17", b:"Campoformio Antlaşması — Venedik'in Avusturya'ya verilmesi", tur:"son", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Napolyon, Venedik'i ve topraklarını Avusturya'ya bıraktı; bağımsızlık kesin olarak sona erdi ve şehir sonradan Lombardo-Veneto'nun parçası oldu. Venedik'in bir pazarlık kozu olarak devredilmesi, İtalyan tarihyazımında bağımsızlık kaybının simgesi sayılır.",
-  kaynak:"Treccani, 'Manìn, Ludovico': \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria e, perduta l'indipendenza, entrò a far parte del Lombardo-Veneto\" · 🔴 `dunya:4` — Habsburg dosyasında bu gün YOK; değer ötekiler için REFERANSTIR", yer_kon:[46.0167,13.1667] },
+  kaynak:"Treccani, 'Manìn, Ludovico': \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria e, perduta l'indipendenza, entrò a far parte del Lombardo-Veneto\" · `dunya:4` — Habsburg dosyasında bu gün YOK; değer ötekiler için REFERANSTIR", yer_kon:[46.0167,13.1667] },
 
 ];

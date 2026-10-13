@@ -495,7 +495,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1581-09-11", b:"Levant Company kuruldu", tur:"ekonomi",
   onem:4, dunya:2, kapsam:"dis", etiket:["ekonomi","diplomasi","ingiltere","konu-diplomasi","konu-ekonomi"],
   yer_id:"Londra",
-  gun:"11 Eylül 1581 (Jülyen) — ⚠️ TDV yalnız \"1581’de\" der; günün kaynağı bu oturumda bulunamadı",
+  gun:"11 Eylül 1581 (Jülyen) — Dikkat: TDV yalnız \"1581’de\" der; günün kaynağı bulunamadı",
   d:"Elizabeth'in fermanıyla kurulan Levant Company, Osmanlı topraklarıyla ticareti tekelinde toplayan bir kraliyet şirketiydi; şirket 1825'e kadar bölgedeki İngiliz ticaretini bu çerçevede yürütecekti. Kuruluşu, İngiliz-Osmanlı ilişkilerinin kurumsal bir ticaret ve diplomasi ağına dönüşmesini sağladı.",
   kaynak:"ingiltere (TDV)" },
 
@@ -521,7 +521,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1588-08-08", b:"İspanyol Armadası yenilgiye uğratıldı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
-  gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) — ⚠️ dosyanın öteki 1582-1752 günleri Jülyen",
+  gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
   d:"II. Felipe'nin İngiltere'yi istila etmek üzere gönderdiği 130 gemilik büyük donanma, İngiliz filosunun taktikleri ve ardından gelen fırtınalarla ağır kayıplar vererek dağıldı; Gravelines açıklarındaki çarpışma dönüm noktası oldu. Zafer, İngiltere'nin bağımsızlığını pekiştirdi ve deniz gücü olarak yükselişinin sembolü hâline geldi.",
   kaynak:"el-kitabi", yer_kon:[51.009,2.098] },
 
@@ -720,7 +720,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1704-08-13", b:"Blenheim Savaşı — Marlborough'nun zaferi", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
-  gun:"13 Ağustos 1704 GREGORYEN (İngiliz takviminde 2 Ağustos) — ⚠️ dosyanın öteki 1582-1752 günleri Jülyen",
+  gun:"13 Ağustos 1704 GREGORYEN (İngiliz takviminde 2 Ağustos) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
   d:"Marlborough Dükü John Churchill komutasındaki İngiliz-müttefik ordusu, Fransız-Bavyera kuvvetlerini Blenheim'da ağır bir yenilgiye uğrattı; zafer, Fransa'nın Avrupa'yı domine etme ihtimalini fiilen sona erdirdi. Zafer İngiltere'de büyük bir ulusal gurur kaynağı oldu, Marlborough'ya Blenheim Sarayı hediye edildi.",
   kaynak:"el-kitabi", yer_kon:[48.6167,10.6167] },
 
@@ -1075,7 +1075,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1853-10-04", b:"Kırım Savaşı başladı — Britanya Osmanlı'yı diplomatik olarak destekledi", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","birlesik-krallik","konu-askeri"],
   yer_id:"İstanbul",
-  gun:"4 Ekim 1853 — Osmanlı'nın Rusya'ya savaş ilânı; Britanya'nın savaşa girişi 28 Mart 1854 (kronoloji_cok_ingiltere.js)",
+  gun:"4 Ekim 1853 — Osmanlı'nın Rusya'ya savaş ilânı; Britanya'nın savaşa girişi 28 Mart 1854 (İngiltere kronolojisi)",
   d:"Rusya'nın Osmanlı topraklarındaki Ortodoks Hıristiyanlar üzerinde koruyuculuk iddiasıyla başlattığı kriz, Britanya ve Fransa'nın 28 Mart 1854'te Osmanlı yanında savaşa girmesiyle büyük bir Avrupa savaşına dönüştü. Britanya için savaş, Rusya'nın Akdeniz ve Hindistan yolu üzerindeki genişlemesini durdurma stratejisinin parçasıydı.",
   kaynak:"ingiltere (TDV) — dunya değeri kronoloji_rusya.js ile BİREBİR eşleştirildi" },
 

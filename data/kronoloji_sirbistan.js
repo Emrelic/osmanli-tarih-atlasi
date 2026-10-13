@@ -233,7 +233,7 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:2, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Akkirman",
   d:"Osmanlı-Rus Akkerman Sözleşmesi'nin bir maddesi, 1812 Bükreş Antlaşması'nda Sırplara tanınan hakların genişletilerek uygulanmasını Osmanlı Devleti'ne taahhüt ettirdi; Rusya böylece Sırp özerklik davasının resmî hâmisi konumunu pekiştirdi.",
-  kaynak:"akademik: B. Jelavich, History of the Balkans (1983) — TDV `sirbistan` maddesi bu antlaşmadan ayrıca bahsetmiyor, akademik kaynağa dayanıldı (`CLAUDE.md §4` taneciklik kuralı)." },
+  kaynak:"akademik: B. Jelavich, History of the Balkans (1983) — TDV `sirbistan` maddesi bu antlaşmadan ayrıca bahsetmiyor, akademik kaynağa dayanıldı." },
 
 { taraflar:["sirbistan-prensligi"], t:"1829-09-14", b:"Edirne Antlaşması — Osmanlı-Rus savaşının sonu, Sırp özerkliğinin yolu açıldı", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
@@ -295,7 +295,7 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["kriz","diplomasi","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Avusturya-Macaristan'ın otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmesi Sırbistan'da büyük öfkeyle karşılandı; Sırbistan (Rusya'nın desteğiyle) seferberlik ilan edip savaş tehdidinde bulundu, ancak Rusya'nın 1905 sonrası zayıflığı nedeniyle geri adım atmak zorunda kaldı.", ic_not_d:"Kriz, 1914'e giden Sırp-Avusturya geriliminin başlangıç noktalarından biridir. dunya puanı kronoloji_habsburg.js'teki aynı olayla eşleştirildi; o dosya günü 'GÜN DOĞRULANMADI' diye işaretlemiş, aynı çekince burada da geçerli.",
-  kaynak:"kronoloji_habsburg.js (1908-10-06, dunya:4) — TDV `avusturya`: 'otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)' · ⚠️ GÜN DOĞRULANMADI (habsburg dosyasından devralındı)." },
+  kaynak:"kronoloji_habsburg.js (1908-10-06, dunya:4) — TDV `avusturya`: 'otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)' · Dikkat: GÜN DOĞRULANMADI (habsburg dosyasından devralındı)." },
 
 { t:"1912-10-08", b:"Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","toprak-kazanc","konu-askeri"],

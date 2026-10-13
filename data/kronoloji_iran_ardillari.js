@@ -791,7 +791,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { t:"1358-01-01", b:"Mübârizüddin Tebriz'i istilâ etti ama elinde tutamadı", gun:"1358 — yıl hassasiyeti · TDV `muzafferiler`, `ilhanlilar`, `celayirliler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","toprak-kayip","konu-askeri"],
   yer_id:"Tebriz",
-  d:"Azerbaycan'ı da hâkimiyeti altına almak amacıyla Tebriz'i istilâ eden Mübârizüddin şehri elinde tutmaya muvaffak olamadı ve bölge Celâyirli Şeyh Üveys'in eline geçti. 🔴 TDV `tebriz` maddesinin verdiği el değiştirme sırasının (Çobanlı → Altın Orda → Muzafferî → Celâyirli) üçüncü halkası budur ve süresi bir mevsimden kısadır.",
+  d:"Azerbaycan'ı da hâkimiyeti altına almak amacıyla Tebriz'i istilâ eden Mübârizüddin şehri elinde tutmaya muvaffak olamadı ve bölge Celâyirli Şeyh Üveys'in eline geçti. TDV `tebriz` maddesinin verdiği el değiştirme sırasının (Çobanlı → Altın Orda → Muzafferî → Celâyirli) üçüncü halkası budur ve süresi bir mevsimden kısadır.",
   kaynak:"muzafferiler" },
 
 { t:"1358-01-01", b:"Şah Şücâ' babasını hal'edip gözlerine mil çektirdi", gun:"H. 759 / 1358 — yıl hassasiyeti · eski t 1358-06-01'in AYI kaynakta YOK (d ve TDV yalnız yıl veriyor; TDV `muzafferiler`, `ilhanlilar`, `celayirliler`, `serbedariler` …) → yıla indirildi (KRONO-DOGU-ISLAM-0929)", tur:"hukumdar",

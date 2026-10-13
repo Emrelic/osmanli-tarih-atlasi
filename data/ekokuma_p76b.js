@@ -94,7 +94,7 @@ window.EKOKUMA_P76B = [
     +"Lübnan'ın ayrı bir siyasî varlık olarak var olmasının kökü, bir milletin ayrı olduğu iddiası değil, bir iç savaşın ardından kurulan ve altmış yıl kesintisiz işleyen AYRI BİR İDARÎ ÇERÇEVEdir. O çerçeve, sınırları, nüfus sayımına dayalı mezhep kotası ve kendi meclisiyle, daha sonraki Lübnan devletinin hazır kalıbı oldu. Bugün hâlâ tartışılan mezhep kotası sisteminin atası budur.",
   kesinlik:"kesin",
   olay:["1861-06-09","1860-05-30"],
-  kaynak:"TDV: abdulaziz (Cevdet Küçük) · islahat-fermani (Ufuk Gülsoy) · sark-meselesi (Kemal Beydilli). ⚠️ Mutasarrıflığın iç işleyişi (kota, meclis) TDV'nin bu maddelerinde ayrıntısız; nizamnâmenin madde metni okunamadı — o ayrıntı `bulunamadı` sayılmalı" },
+  kaynak:"TDV: abdulaziz (Cevdet Küçük) · islahat-fermani (Ufuk Gülsoy) · sark-meselesi (Kemal Beydilli). Dikkat: Mutasarrıflığın iç işleyişi (kota, meclis) TDV'nin bu maddelerinde ayrıntısız; nizamnâmenin madde metni okunamadı — o ayrıntı `bulunamadı` sayılmalı" },
 
 { id:"bunv-bulgaristan-1878", tur:"bu-ulke-neden-var",
   kisa:"Bulgaristan'ın kuruluşu iki adımlıdır ve ilk adım kiliseydi: ayrı bir kilise ayrı bir millet tanımı üretti, devlet sekiz yıl sonra geldi.",
@@ -126,7 +126,7 @@ window.EKOKUMA_P76B = [
     +"İki ayrı devlet olmalarının sebebi iki ayrı millet olmaları değil, imparatorluk içinde iki ayrı şekilde var olmalarıdır: biri pazarlıkla kurumsallaşmış bir özerklik, öteki hiçbir zaman tam bastırılamamış bir dağ bölgesi. Aynı antlaşma ikisini birden tanıyınca iki ayrı hânedan, iki ayrı başşehir ve iki ayrı devlet geleneği kalıcılaştı — 20. yüzyılda birleşip 21. yüzyılda yeniden ayrılmalarının zemini de budur.",
   kesinlik:"kesin",
   olay:["1878-07-13"],
-  kaynak:"TDV: berlin-antlasmasi (Ali İhsan Gencer) · abdulaziz (Cevdet Küçük) · doksanuc-harbi (Mahir Aydın) · sark-meselesi (Kemal Beydilli). ⚠️ Karadağ'ın iç yönetimi (vladika düzeni) okunan TDV maddelerinde ayrıntılı değil" },
+  kaynak:"TDV: berlin-antlasmasi (Ali İhsan Gencer) · abdulaziz (Cevdet Küçük) · doksanuc-harbi (Mahir Aydın) · sark-meselesi (Kemal Beydilli). Dikkat: Karadağ'ın iç yönetimi (vladika düzeni) okunan TDV maddelerinde ayrıntılı değil" },
 
 // ══════════════════════════════════════════════════════════════════════════
 // H-0011 · Osmanlı'da bankacılık — klasik dönemdeki işlev ve ilk bankalar
@@ -168,7 +168,7 @@ window.EKOKUMA_P76B = [
     +"Bankanın kendi künyesi (kuruluş sermayesi, ortaklık yapısı, şube ağı) için başvurulan ansiklopedi maddesi bulunamadı; yukarıdaki bilgiler kāime, sarraflık ve dış borç maddelerinin içinden derlendi.",
   kesinlik:"kesin",
   olay:["1863-06-01","1881-12-20"],
-  kaynak:"TDV: kaime (Ali Akyıldız) · sarraflik (Ali Akyıldız, Nebi Bozkurt) · duyun-i-umumiyye (Cevdet Küçük, Tevfik Ertüzün) · esham (Mehmet Genç). ⚠️ TDV'de müstakil \"Osmanlı Bankası\" maddesi `bulunamadı` (aranan sluglar ölü çıktı)" },
+  kaynak:"TDV: kaime (Ali Akyıldız) · sarraflik (Ali Akyıldız, Nebi Bozkurt) · duyun-i-umumiyye (Cevdet Küçük, Tevfik Ertüzün) · esham (Mehmet Genç). Dikkat: TDV'de müstakil \"Osmanlı Bankası\" maddesi `bulunamadı` (aranan sluglar ölü çıktı)" },
 
 // ══════════════════════════════════════════════════════════════════════════
 // H-0015 · Abdülaziz'in 1867 Avrupa seyahati — güzergâh, İngiltere, yankılar
@@ -398,7 +398,7 @@ window.EKOKUMA_P76B = [
     +"Döneme yöneltilen en yaygın eleştirilerden biri, selefinin kurduğu donanmanın Haliç'te bağlı tutularak çürümeye terkedildiğidir. Başvurulan ansiklopedi maddesi bu konuda bir şey söylememektedir; iddia burada NE DOĞRULANMIŞ NE ÇÜRÜTÜLMÜŞTÜR — `bulunamadı` olarak kaydedilmiştir. Yalnız şu bağlam verilebilir: 1877-1878 savaşında Karadeniz'deki donanmanın hiçbir varlık gösterememesi, savaşın kaybedilme sebepleri arasında sayılır ve bu, padişahın tahta çıkışından yalnız bir yıl sonrasıdır.",
   kesinlik:"tartismali",
   olay:["1876-08-31","1878-02-13"],
-  kaynak:"TDV: abdulhamid-ii (Cevdet Küçük) · meclis-i-mebusan (Ali Akyıldız) · mesrutiyet (Şükrü Hanioğlu) · doksanuc-harbi (Mahir Aydın). ⚠️ \"Donanmanın Haliç'te çürütülmesi\" iddiası okunan maddelerde `bulunamadı`" },
+  kaynak:"TDV: abdulhamid-ii (Cevdet Küçük) · meclis-i-mebusan (Ali Akyıldız) · mesrutiyet (Şükrü Hanioğlu) · doksanuc-harbi (Mahir Aydın). Dikkat: \"Donanmanın Haliç'te çürütülmesi\" iddiası okunan maddelerde `bulunamadı`" },
 
 { id:"abdulhamid-donemi-toprak-kayiplari", tur:"tartisma",
   kisa:"Otuz üç yılda kaybedilen toprağın tek bir km² rakamı yok — ama kaybın nasıl olduğu bellidir: dördü savaşla değil, oldubittiyle gitti.",
@@ -416,7 +416,7 @@ window.EKOKUMA_P76B = [
     +"Toprak yüzölçümü ölçülemedi; ama kaybın BİÇİMİ ölçülebilir. Yukarıda sayılan altı büyük kalemden (Berlin düzenlemesi · Kıbrıs · Bosna-Hersek · Tunus · Mısır · Doğu Rumeli) yalnız BİRİ, yani Berlin'e götüren 1877-1878 savaşı, muharebe sonucudur. Kalan beşi antlaşma, işgal ve oldubittiyle gitti ve hiçbirinde Osmanlı ordusu çarpışmadı. Bu, imparatorluğun artık askerî değil diplomatik bir zeminde eridiğini gösterir.",
   kesinlik:"tartismali",
   olay:["1878-07-13","1878-06-04","1885-09-18","1882-09-13","1881-05-12"],
-  kaynak:"TDV: abdulhamid-ii (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer) · doksanuc-harbi (Mahir Aydın) · kibris (Kemal Çiçek vd.). ⚠️ Toplam km² kaybı hiçbir kaynakta `bulunamadı`; atlasın kendi yüzölçümü dayanak yapılmadı" },
+  kaynak:"TDV: abdulhamid-ii (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer) · doksanuc-harbi (Mahir Aydın) · kibris (Kemal Çiçek vd.). Dikkat: Toplam km² kaybı hiçbir kaynakta `bulunamadı`; atlasın kendi yüzölçümü dayanak yapılmadı" },
 
 { id:"abdulhamid-donemi-yenilikler", tur:"teknik-bilimsel",
   kisa:"Aynı otuz üç yıl, Osmanlı'nın en yoğun okul, demiryolu ve telgraf yapımı dönemidir — bugün adı bilinen yüksek okulların çoğu bu dönemde açıldı.",
@@ -557,7 +557,7 @@ window.EKOKUMA_P76B = [
     +"Haritada bir sınır çizgisi değişir ve gözle görülür. Nüfusun yer değiştirmesi haritada görünmez ama etkisi daha uzun sürer: sonraki elli yılın siyasî kadroları, göç etmiş ailelerin çocuklarıdır.",
   kesinlik:"kesin",
   olay:["1878-08-01","1878-03-03"],
-  kaynak:"TDV: doksanuc-harbi (Mahir Aydın) · kars (Tufan Gündüz) · abdulhamid-ii (Cevdet Küçük) · bulgaristan (Mehmet İpşirli vd.). ⚠️ Toplam muhacir sayısı için rakam verilmemiş; \"yüz binlerle ifade edilir\" ifadesi aynen aktarıldı, sayı UYDURULMADI" },
+  kaynak:"TDV: doksanuc-harbi (Mahir Aydın) · kars (Tufan Gündüz) · abdulhamid-ii (Cevdet Küçük) · bulgaristan (Mehmet İpşirli vd.). Dikkat: Toplam muhacir sayısı için rakam verilmemiş; \"yüz binlerle ifade edilir\" ifadesi aynen aktarıldı, sayı UYDURULMADI" },
 
 { id:"harp93-kibris-ve-ingiltereye-yaslanma", tur:"sebep-sonuc",
   kisa:"Ayastefanos'tan kurtulmanın bedeli bir ada oldu: Kıbrıs'ın idaresi, Berlin'de alınacak destek karşılığında kongreden bir ay önce İngiltere'ye devredildi.",
@@ -593,7 +593,7 @@ window.EKOKUMA_P76B = [
     +"Tabirin gücü, bir devletin çöküşünü kaçınılmaz ve tabii bir süreç gibi göstermesindedir. Hasta bir insan için yapılacak şey bellidir: beklemek ve mirası düzenlemek. Böyle bir çerçevede müdahale etmek saldırganlık değil, tedbir sayılır. Bu yüzden ifade, bir gözlem olmaktan çok bir SİYASET ARACIDIR — ve tam olarak paylaşımın hızlandırılması amacına hizmet etmiştir.",
   kesinlik:"tartismali",
   olay:["1856-03-30"],
-  kaynak:"TDV: sark-meselesi (Kemal Beydilli) · Tekin Önal, “İşgalden İhtilale Millî Mücadele Hareketinin Diplomatik Boyutu”, Türkiyat Mecmuası 29 (2019), s. 89-125, DOI 10.26650/iuturkiyat.652128. ⚠️ Görüşmenin tarafları ve tam cümlesi TDV'de `bulunamadı`; ay bilgisi (Ocak 1853) akademik makaleden alınmış, gün verilmemiştir — gün UYDURULMADI" },
+  kaynak:"TDV: sark-meselesi (Kemal Beydilli) · Tekin Önal, “İşgalden İhtilale Millî Mücadele Hareketinin Diplomatik Boyutu”, Türkiyat Mecmuası 29 (2019), s. 89-125, DOI 10.26650/iuturkiyat.652128. Dikkat: Görüşmenin tarafları ve tam cümlesi TDV'de `bulunamadı`; ay bilgisi (Ocak 1853) akademik makaleden alınmış, gün verilmemiştir — gün UYDURULMADI" },
 
 // ══════════════════════════════════════════════════════════════════════════
 // H-0077 (Mehdî yarısı) ve H-0079 · Sudan'da Mehdî hareketi ve Mehdî devleti
@@ -664,7 +664,7 @@ window.EKOKUMA_P76B = [
     +"Bu kartın dayandığı literatür Türk akademik geleneğine aittir ve bu örgütleri ağırlıkla terör ve ihtilal yöntemleriyle tanımlar. Ermeni tarih yazımı aynı örgütleri millî kurtuluş ve öz savunma çerçevesinde anlatır. İki çerçeveyi karşılaştırmadan hüküm kurmak eksik kalır; karşı anlatı ayrı bir kartta verilmiştir.",
   kesinlik:"tartismali",
   olay:["1896-08-26"],
-  kaynak:"Orhan Doğan, “Ermeni Komiteleri Hınçak ve Taşnaksütun (Rus Adalet Bakanı Y. Muravyev'in Ermeni Komitelerine İlişkin Raporu)”, Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi (Uras, Gürün, Süslü, Koçar ve Oganesyan'a atıflarla). ⚠️ TDV'de bu konuda madde `bulunamadı`: ermeniler · ermeni-mes-elesi · tasnaksutyun · hincak sluglarının hepsi ölü" },
+  kaynak:"Orhan Doğan, “Ermeni Komiteleri Hınçak ve Taşnaksütun (Rus Adalet Bakanı Y. Muravyev'in Ermeni Komitelerine İlişkin Raporu)”, Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi (Uras, Gürün, Süslü, Koçar ve Oganesyan'a atıflarla). Dikkat: TDV'de bu konuda madde `bulunamadı`: ermeniler · ermeni-mes-elesi · tasnaksutyun · hincak sluglarının hepsi ölü" },
 
 { id:"ermeni-orgutleri-ne-yaptilar", tur:"tartisma",
   kisa:"Örgütlerin yöntemi, kalabalık bir ayaklanma değil dikkat çeken eylemdi — hedef Osmanlı yönetimini devirmek değil, Avrupa'yı müdahaleye çağırmaktı.",
@@ -684,6 +684,6 @@ window.EKOKUMA_P76B = [
     +"Bu kart, olayların sırasını ve iki anlatının ayrıldığı noktayı gösterir; hangisinin haklı olduğuna dair bir hüküm vermez. Böyle bir hüküm tek bir kaynak ailesine dayanarak verilemez.",
   kesinlik:"tartismali",
   olay:["1896-08-26"],
-  kaynak:"“Rus Arşiv Belgeleri Işığında 1896 Osmanlı Bankası Baskını”, SUTAD — Selçuk Üniversitesi Türkiyat Araştırmaları Dergisi 50 (Aralık 2020), s. 341-355 (Rus deniz ataşesi Teğmen Stepanov'un 28/16 Ağustos 1896 tarihli raporu ve Oganesyan'a dayanarak; aynı makale Edhem Eldem'in 2007 tarihli “26 Ağustos 1896 Banka Vakası ve 1896 Ermeni Olayları” çalışmasına da atıf yapar) · Orhan Doğan, “Ermeni Komiteleri Hınçak ve Taşnaksütun”, Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi · TDV: abdulhamid-ii (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer). ⚠️ 1894-1896 şiddet olaylarının kapsamı ve sayıları için kaynaklar keskin biçimde ayrışır; bu kartta SAYI VERİLMEMİŞTİR" },
+  kaynak:"“Rus Arşiv Belgeleri Işığında 1896 Osmanlı Bankası Baskını”, SUTAD — Selçuk Üniversitesi Türkiyat Araştırmaları Dergisi 50 (Aralık 2020), s. 341-355 (Rus deniz ataşesi Teğmen Stepanov'un 28/16 Ağustos 1896 tarihli raporu ve Oganesyan'a dayanarak; aynı makale Edhem Eldem'in 2007 tarihli “26 Ağustos 1896 Banka Vakası ve 1896 Ermeni Olayları” çalışmasına da atıf yapar) · Orhan Doğan, “Ermeni Komiteleri Hınçak ve Taşnaksütun”, Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi · TDV: abdulhamid-ii (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer). Dikkat: 1894-1896 şiddet olaylarının kapsamı ve sayıları için kaynaklar keskin biçimde ayrışır; bu kartta SAYI VERİLMEMİŞTİR" },
 
 ];

@@ -49,7 +49,7 @@ window.KRONOLOJI_COK_OKYANUSYA = [
 { t:"1863-07-12", b:"Yeni Zelanda ordusu Mangatawhiri'yi geçip Waikato'yu işgal etti", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["savas","isgal","toprak-kazanc","konu-askeri","konu-siyasi","yeni-zelanda"], yer_id:"", taraflar:["yeni-zelanda"],
   d:"Vali George Grey'in emriyle Korgeneral Cameron komutasındaki İngiliz ve koloni birlikleri Temmuz 1863'te Mangatawhiri Deresi'ni geçerek Maori Kīngitanga (Kral Hareketi) toprağı olan Waikato havzasını işgal etti. Sonraki aylarda savaş kuzeyden Waikato boyunca ilerledi, Aralık 1863'te çıkan Yeni Zelanda Yerleşim Yasası ile isyan eden kabilelerin toprakları müsadereye açıldı. Bu savaş, Kuzey Ada'nın iç kesimlerinin Yeni Zelanda hükümetinin denetimine girmesinin başlangıcıdır.",
-  kaynak:"James Belich, The New Zealand Wars and the Victorian Interpretation of Racial Conflict (Auckland UP, 1986) · Te Ara, «Waikato War». Sayfa verilmedi (bu oturumda açılmadı).",
+  kaynak:"James Belich, The New Zealand Wars and the Victorian Interpretation of Racial Conflict (Auckland UP, 1986) · Te Ara, «Waikato War». Sayfa verilmedi (açılmadı).",
   gun:"12 Temmuz 1863 (Belich/Te Ara'da bilinen işgal başlangıcı; sayfa doğrulanmadı — hafızadan yazıldı, web'de ayrıca sınanmadı)",
   ic_not_d:"Kīngitanga/Waikato Maori devleti için künye YOK (KUNYE.md). Haritadaki Hamilton 1864-08-24 kırılması bu savaşın SONUCU olan bir askerî yerleşimdir (sonraki madde); Taupō 1868 · Gisborne 1870 · Rotorua 1881 yerleşim kuruluşlarıdır, ayrı savaş olayları (Te Kooti 1868-72) bu oturumda araştırılmadı — ölçülemedi." },
 
@@ -63,21 +63,21 @@ window.KRONOLOJI_COK_OKYANUSYA = [
 { t:"1898-12-01", b:"Hollanda Batı Yeni Gine'de Fakfak'ta resmî idareyi kurdu", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","konu-siyasi","yeni-gine","hollanda"], yer_id:"Fakfak", taraflar:["hollanda-dogu-hint"],
   d:"Hollanda Doğu Hint Adaları hükümeti 1898'in Aralık ayında Fakfak'ta Resident'in yönetiminde bir idare bölümü kurup Hollanda bayrağını çekti. Merauke'deki karakol 1902'de bunu izledi.",
-  kaynak:"J. Kroesen, «Fakfak, 9 Januari 1899» raporu, yayın: A. Overweel, Irian Jaya Source Materials No. 13 (Leiden, 1995) — «Bestuur dezer Afdeeling op den 1sten December te Fakfak geïnstalleerd en de Nederlandsche vlag geheschen» (birincil belge; metin, atlasın yerleşim kaydındaki alıntıdan alındı, bu oturumda ayrıca açılmadı).",
+  kaynak:"J. Kroesen, «Fakfak, 9 Januari 1899» raporu, yayın: A. Overweel, Irian Jaya Source Materials No. 13 (Leiden, 1995) — «Bestuur dezer Afdeeling op den 1sten December te Fakfak geïnstalleerd en de Nederlandsche vlag geheschen» (birincil belge; metin, atlasın yerleşim kaydındaki alıntıdan alındı, ayrıca açılmadı).",
   gun:"1 Aralık 1898 (Kroesen raporu)",
   ic_not_d:"Manokwari'nin kuruluş günü bu oturumda araştırılmadı (ölçülemedi). Haritadaki Fakfak 1898-12-01 kırılmasını kapatır." },
 
 { t:"1902-02-12", b:"Hollanda Güney Yeni Gine'de Merauke karakolunu kurdu", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","konu-siyasi","yeni-gine","hollanda"], yer_id:"Merauke", taraflar:["hollanda-dogu-hint"],
   d:"Hollanda kuvvetleri Şubat 1902'de Merauke Nehri ağzına çıkıp nehir kıyısında karakolu ve kışlaları kurdu; bu, Hollanda Yeni Ginesi'nin güney kıyısındaki ilk sürekli Hollanda üssüdür.",
-  kaynak:"J. Kroesen, «Merauke, den 25sten Februari 1902» raporu, yayın: A. Overweel, Irian Jaya Source Materials No. 13 (Leiden, 1995) (birincil belge; içerik, atlasın yerleşim kaydındaki özetten alındı, bu oturumda ayrıca açılmadı).",
-  gun:"12 Şubat 1902 = kuruluş seferinin yere VARDIĞI gün; rapor ayrı bir resmî kuruluş günü vermiyor (atlas kaydındaki uyarı)",
+  kaynak:"J. Kroesen, «Merauke, den 25sten Februari 1902» raporu, yayın: A. Overweel, Irian Jaya Source Materials No. 13 (Leiden, 1995) (birincil belge; içerik, atlasın yerleşim kaydındaki özetten alındı, ayrıca açılmadı).",
+  gun:"12 Şubat 1902 = kuruluş seferinin yere VARDIĞI gün; rapor ayrı bir resmî kuruluş günü vermiyor",
   ic_not_d:"Haritadaki Merauke 1902-02-12 kırılmasını kapatır." },
 
 { t:"1901-01-01", b:"Avustralya Milletler Topluluğu (federasyon) ilan edildi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","birlesme","anayasa","konu-siyasi","avustralya"], yer_id:"Sydney", taraflar:["avustralya"],
   d:"Altı İngiliz kolonisi (Yeni Güney Galler, Viktorya, Queensland, Güney Avustralya, Batı Avustralya, Tazmanya) 1900 tarihli Commonwealth Anayasası uyarınca 1 Ocak 1901'de tek federal devlet olarak birleşti; ilk Genel Vali Sydney'de yemin etti. Federasyon, Avustralya kıtasının siyasî haritada tek devletin adı altına girdiği andır.",
-  kaynak:"Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c. 12) · National Archives of Australia / Museum of Australian Democracy, «Federation» sayfaları. Sayfa verilmedi (bu oturumda açılmadı).",
+  kaynak:"Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c. 12) · National Archives of Australia / Museum of Australian Democracy, «Federation» sayfaları. Sayfa verilmedi (açılmadı).",
   gun:"1 Ocak 1901 (Anayasa'nın yürürlüğe girdiği gün; hafızadan, kurumsal sayfa açılmadı)",
   ic_not_d:"Kolonilerin 1901 ÖNCESİ siyasî varlığı için künye YOK — haritadaki 21 Okyanusya kırılmasının çoğu Avustralya iç kesimindeki «—» → avustralya geçişleridir; kolonilerin künyesi olmadan bu «—»nın Avustralya kolonileri mi yerli halk mı olduğu haritada ayırt edilemiyor (KUNYE.md)." }
 

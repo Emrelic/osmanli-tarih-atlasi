@@ -127,7 +127,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1492-01-02", b:"Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Granada",
   etiket:["askeri","toprak-kazanc","din","konu-askeri","konu-din"],
   d:"On yıllık kuşatma savaşının ardından son Nasrî emiri Ebû Abdullah (Boabdil), Gırnata'yı Katolik krallara teslim etti.", ic_not_d:"TDV `endulus` maddesi bunu \\\"İslâm hâkimiyetinin Endülüs'teki en son kalesi de düşmüş oldu\\\" diye özetler; Osmanlı donanması (Kemal Reis) sonraki yıllarda kaçan müslümanları Kuzey Afrika'ya taşıdı.",
-  kaynak:"TDV `endulus`: \"1492'de teslim olmak zorunda kaldılar\" (gövdesi bu oturumda OKUNDU) · `data/devletler.js` `granada` künyesi" },
+  kaynak:"TDV `endulus`: \"1492'de teslim olmak zorunda kaldılar\" (gövdesi OKUNDU) · `data/devletler.js` `granada` künyesi" },
 
 { t:"1492-03-31", b:"Alhambra Fermanı — Yahudilerin sürgünü", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","sosyal","kriz","konu-siyasi","konu-din","konu-sosyal","konu-demografi"],
@@ -343,7 +343,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1571-10-07", b:"İnebahtı Deniz Savaşı — Kutsal İttifak donanmasının zaferi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"İnebahtı",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"İspanya, Venedik ve Papalık'ın oluşturduğu Kutsal İttifak donanması, Don Juan de Austria komutasında Osmanlı filosunu İnebahtı'da imha etti; İspanyol gemileri filonun en büyük tek unsuruydu. TDV'nin kaydına göre savaş 7 Ekim 1571'de İnebahtı körfezinde gerçekleşti; zafer sembolik önemine rağmen Kıbrıs'ı geri kazandırmadı ve Osmanlı donanması bir yıl içinde yeniden inşa edildi.",
-  kaynak:"TDV `inebahti-deniz-savasi` (eski slug `inebahti-savasi` ölü, HTTP 302; canlı karşılık başlık aramasıyla bulundu — UMIT-W49 6 Ekim 2026): 1571 yılının 7 Ekim günü İnebahtı körfezinde Osmanlı donanması ile müttefik Hıristiyan filoları arasında gerçekleşen deniz savaşı — ⚠️ TIRNAK KALDIRILDI (koordinatör hükmü: tırnak = iddia, yalnız TDV gövdesinden birebir): bu ifade canlı gövdede BİREBİR YOK. Gövdenin tarih cümlesi: 'İki donanma 17 Cemâziyelevvel 979’da (7 Ekim 1571) İnebahtı körfezinde karşı karşıya geldi'. Eski 'gövdesi OKUNDU' ibaresi ölü slug için geçersizdi, kaldırıldı · `data/kronoloji_venedik.js` ile BİREBİR hizalı (t ve dunya aynı)" },
+  kaynak:"TDV `inebahti-deniz-savasi` (eski slug `inebahti-savasi` ölü, HTTP 302; canlı karşılık başlık aramasıyla bulundu — UMIT-W49 6 Ekim 2026): 1571 yılının 7 Ekim günü İnebahtı körfezinde Osmanlı donanması ile müttefik Hıristiyan filoları arasında gerçekleşen deniz savaşı — Dikkat: TIRNAK KALDIRILDI (tırnak yalnız TDV gövdesinden birebir alıntıyı gösterir): bu ifade canlı gövdede BİREBİR YOK. Gövdenin tarih cümlesi: 'İki donanma 17 Cemâziyelevvel 979’da (7 Ekim 1571) İnebahtı körfezinde karşı karşıya geldi'. Eski 'gövdesi OKUNDU' ibaresi ölü slug için geçersizdi, kaldırıldı · `data/kronoloji_venedik.js` ile BİREBİR hizalı (t ve dunya aynı)" },
 
 { t:"1573-10-10", b:"İspanya Tunus'u yeniden ele geçirdi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -353,7 +353,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1574-09-12", gun:"12 Eylül 1574 Tunus (TDV); Halkulvâdî 24 Ağustos 1574", b:"Osmanlı Tunus'u kesin olarak geri aldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Koca Sinan Paşa ile Kaptanıderyâ Kılıç Ali Paşa kumandasındaki Osmanlı donanması önce Halkulvâdî kalesini (24 Ağustos), altı günlük muhasaradan sonra da Tunus'u aldı; kısa süreli İspanyol hâkimiyeti sona erdi. Şehir bundan sonra üç asır boyunca Osmanlı'ya bağlı bir ocaklık olarak kaldı ve bu tarih İspanya'nın Kuzey Afrika'daki genişleme hırsının fiilen sonu sayılır.",
-  kaynak:"TDV `tunus`: Halkulvâdî 6 Cemâziyelevvel 982 (24 Ağustos 1574); \"12 Eylül 1574'te Tunus'u geri aldı\" · (eski dayanak atlas kaydıydı — CLAUDE.md §4, kaldırıldı)" },
+  kaynak:"TDV `tunus`: Halkulvâdî 6 Cemâziyelevvel 982 (24 Ağustos 1574); \"12 Eylül 1574'te Tunus'u geri aldı\" · (eski dayanak atlas kaydıydı, kaldırıldı)" },
 
 { t:"1577-01-01", b:"El Greco Toledo'ya yerleşti", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"Toledo",
   etiket:["kultur","kultur","konu-kultur"],

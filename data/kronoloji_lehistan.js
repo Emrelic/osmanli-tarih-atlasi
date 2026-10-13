@@ -290,11 +290,11 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
-{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil) (KRONO-AKADEMIK-1006 §1 #1)", tur:"isgal",
+{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
-  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · ⚠️ yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ (KRONO-AKADEMIK-1006)", yer_kon:[52.9886,16.7211] },
+  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · Dikkat: yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ", yer_kon:[52.9886,16.7211] },
 
 { t:"1655-11-18", b:"Jasna Góra savunması — direnişin dönüm noktası", tur:"savas",
   onem:5, dunya:1, kapsam:"ic", etiket:["savas","isyan","konu-askeri","konu-isyan"],
@@ -389,7 +389,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"On bir maddelik antlaşmayla Osmanlı Devleti Podolya'yı boşalttı, Kamaniçe Kalesi'ni tahliye edip yıktırdı ve Ukrayna'daki Kazak hatmanlığını lağvetti (Braslav, Vinnitsa ve Uman'ın bulunduğu Sağ Yaka Ukrayna böylece Lehistan'a kaldı); karşılığında Boğdan'daki Suçeva, Roman, Nemçe, Soroka ve Kampulek kaleleri Osmanlı'ya döndü (24 Receb 1110). Polonya için Karlofça, 1672'de kaybedilenin geri alınmasıdır — ama zaferi kazanan artık cumhuriyet değil, ittifakın büyük ortaklarıydı.",
-  kaynak:"karlofca — Hatmanlık cümlesi: TDV karlofca (A. Özcan), gövdeden okundu · başlık/gövde düzeltmesi KRONO-KUZEY-0929", yer_kon:[45.2019,19.9308] },
+  kaynak:"karlofca — Hatmanlık cümlesi: TDV karlofca (A. Özcan), gövdeden okundu · başlık/gövde düzeltmesi", yer_kon:[45.2019,19.9308] },
 
 // ═════════════ IV. SAKSON DÖNEMİ, ÇÖZÜLME ve TAKSİMLER (1697-1795) ═════════════
 { t:"1697-09-15", b:"Sakson elektörü II. August (Güçlü) taç giydi", tur:"hukumdar",

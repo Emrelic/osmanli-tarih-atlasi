@@ -199,7 +199,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1509-02-03", b:"Diu Deniz Savaşı — Hint Okyanusu'nda Portekiz üstünlüğü kesinleşti", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Diu",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Vali Francisco de Almeida, oğlunun Chaul'daki ölümünün intikamını almak için Memlük-Gücerat-Kalikut birleşik donanmasını Diu açıklarında kesin bir yenilgiye uğrattı. Zafer, Kızıldeniz-Akdeniz baharat güzergâhının Memlük tekelini kalıcı olarak kırdı ve Portekiz'e bir asır sürecek Hint Okyanusu deniz üstünlüğünü kazandırdı.",
-  kaynak:"Cameron Winter (2024), 'Giving the Devil His Diu…', SAGE Journals (hakemli akademik makale) — `data/kronoloji_memluk.js:326` ile `t:` ve `dunya:` birebir hizalı. ⚠️ `data/kronoloji_hindistan.js:513` aynı olaya `dunya:3` vermiş, ÇELİŞKİ koordinatöre bildirildi" },
+  kaynak:"Cameron Winter (2024), 'Giving the Devil His Diu…', SAGE Journals (hakemli akademik makale) — `data/kronoloji_memluk.js:326` ile `t:` ve `dunya:` birebir hizalı. Dikkat: `data/kronoloji_hindistan.js:513` aynı olaya `dunya:3` vermiş, ÇELİŞKİ var" },
 
 { t:"1510-11-25", b:"Goa'nın fethi — Estado da Índia'nın başkenti", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Goa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -234,7 +234,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1517-01-01", b:"Seylan'a ulaşıldı — tarçın adası", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"", odak_yer:"Kolombo",
   etiket:["ticaret","toprak-kazanc","konu-askeri","konu-ekonomi"],
   d:"Portekiz gemileri Seylan adasına ulaşıp Kotte Krallığı ile ticaret ayrıcalıkları içeren bir anlaşma yaptı; tarçın tekelini denetlemek için kısa süre sonra Colombo'da bir kale inşa edildi. Ada, Portekiz'in Hint Okyanusu ağının en doğu ucundaki kalıcı üssü oldu.",
-  kaynak:"TDV `portekiz`: \"Goa (1510), Malay/Malezya (1511), Hürmüz, Diû (1515) ve Seylan (1517) gibi önemli ticaret merkezleri ve dolayısıyla büyük gelir getiren baharat ticareti ele geçirildi.\" — ⚠️ yerleşim kaydı yok, `yer_id` boş bırakıldı" },
+  kaynak:"TDV `portekiz`: \"Goa (1510), Malay/Malezya (1511), Hürmüz, Diû (1515) ve Seylan (1517) gibi önemli ticaret merkezleri ve dolayısıyla büyük gelir getiren baharat ticareti ele geçirildi.\" — Dikkat: yerleşim kaydı yok, `yer_id` boş bırakıldı" },
 
 { t:"1521-12-13", gun:"13 Aralık 1521 I. Manuel'in ölümü; III. João'nun aklamasyonu 19 Aralık", b:"I. Manuel öldü, III. João tahta çıktı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
@@ -283,7 +283,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1541-04-10", b:"Cristóvão da Gama, Habeşistan'a yardım kuvveti çıkardı", tur:"askeri", onem:4, dunya:2, kapsam:"dis", yer_id:"Mozambik Adası",
   etiket:["askeri","din","ittifak","konu-askeri","konu-diplomasi","konu-din"],
   d:"Vasco da Gama'nın oğlu Cristóvão da Gama, Osmanlı destekli Adal Sultanlığı hükümdarı Ahmed Gran'ın istilası altındaki Hıristiyan Habeş Krallığı'na dört yüz tüfekli askerle yardıma gitti. Sefer, Portekiz-Osmanlı rekabetinin Kızıldeniz'in dışına, Doğu Afrika'nın içlerine kadar taştığı ender doğrudan çarpışma alanlarından biridir.",
-  kaynak:"TDV `habes-eyaleti` (Ahmed el-Mücâhid'in Habeş seferleri bağlamı); standart akademik kronoloji ile çapraz doğrulama — ⚠️ Cristóvão da Gama'nın 1542'de esir düşüp idam edilişi TDV'de doğrudan geçmiyor" },
+  kaynak:"TDV `habes-eyaleti` (Ahmed el-Mücâhid'in Habeş seferleri bağlamı); standart akademik kronoloji ile çapraz doğrulama — Dikkat: Cristóvão da Gama'nın 1542'de esir düşüp idam edilişi TDV'de doğrudan geçmiyor" },
 
 { t:"1543-02-21", b:"Ahmed Gran'ın ölümü — Habeşistan'da Osmanlı-Portekiz vekâlet savaşı sona erdi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","din","konu-askeri","konu-kisiler","konu-din"],
@@ -328,7 +328,7 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1578-08-04", b:"Vâdisseyl (Alcácer Quibir) Savaşı — Kral Sebastião öldü, hanedan çöktü", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"", odak_yer:"Kasrülkebîr",
   etiket:["askeri","hanedan","toprak-kayip","konu-askeri","konu-kisiler","konu-hanedan"],
   d:"Genç Kral Sebastião, Fas'a bir haçlı seferi düzenleyip tahttan indirilmiş Sa'dî sultanı Muhammed el-Mütevekkil'i geri getirmeye kalkıştı; Osmanlı destekli Sultan Abdülmelik'in ordusu Portekiz ordusunu Vâdisseyl'de imha etti. Sebastião savaş alanında öldü, vâris bırakmadı ve Abdülmelik de aynı gün öldü — üç kral bir günde kaybedildiği için savaş 'Üç Kral Savaşı' olarak da anılır.",
-  kaynak:"TDV `portekiz`: 1578 (4 Ağustos): Vâdisseyl Savaşında Portekiz ordusu yenildi, Kral Sebastian öldürüldü · TDV `sadiler`: Sultan Abdülmelik çarpışma sırasında öldü (4 Ağustos 1578) — ⚠️ TDV'de savaşın müstakil maddesi yok, iki kaynaktan birleştirildi" },
+  kaynak:"TDV `portekiz`: 1578 (4 Ağustos): Vâdisseyl Savaşında Portekiz ordusu yenildi, Kral Sebastian öldürüldü · TDV `sadiler`: Sultan Abdülmelik çarpışma sırasında öldü (4 Ağustos 1578) — Dikkat: TDV'de savaşın müstakil maddesi yok, iki kaynaktan birleştirildi" },
 
 { t:"1580-08-25", b:"Alcântara Savaşı — İspanya birliğinin askerî kesinleşmesi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Lizbon",
   etiket:["askeri","hanedan","konu-askeri","konu-hanedan"],

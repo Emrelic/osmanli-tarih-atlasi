@@ -1056,6 +1056,15 @@ body {
    üyesi ve ayrı bir renk açmak paleti bölmekten başka bir şey söylemezdi
    (aynı desen: `ayaklanma`=`isyan`, `antlasma`=`diplomasi`=`ittifak`). */
 .olay.k-mimari   { border-left-color: #ad1457; }
+/* 🆕 13 Ekim 2026 — TERİM STANDARDI (TERIM-STANDART-0070, seçenek A, Emre onayı).
+   Üç sınıf, tek soru: toprağın EGEMENİ mi değişti, yalnız DENETLEYENİ mi?
+   `k-fetih` (yeşil) = egemenlik devri · `k-isgal` (turuncu-kiremit) = fiilî
+   denetim, egemenlik devri YOK · `k-sefer` (koyu yeşil) = ordunun hareketi.
+   `k:"isgal"` veride vardı ama CSS karşılığı yoktu (nötr bej kenara düşüyordu);
+   "işgal" başlıklı maddeler de toprak kaybı grisiyle (`k-kayip`) çiziliyordu —
+   iki ayrı olay tipi aynı renkteydi. Süre ölçüt DEĞİL (işgal pencerelerinin
+   medyanı 8,9 yıl): ayrım egemenliktedir. */
+.olay.k-isgal    { border-left-color: #d84315; }
 /* ⚠️ `diger` (45) BİLEREK renksiz: gerçek bir kategori değil, karışık torba
    (Millî Mücadele · Germiyan çeyizi · şehzade kaçırılması aynı kovada).
    Nötr kenar onun için DOĞRU gösterim — eksik değil, kasıt. */
@@ -1738,6 +1747,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 .ob-kat.k-sefer   { background: #33691e; }
 .ob-kat.k-vassal  { background: #7986cb; }
 .ob-kat.k-evlilik { background: #ec407a; }
+.ob-kat.k-isgal   { background: #d84315; }   /* terim standardı: fiilî denetim, egemenlik devri yok */
 /* ARAYÜZ 4 ④ — "yer_id/yer_kon ikisi de yoksa kart SESSİZCE ATLAMAZ."
    Boşken hiç yer kaplamaz (`:empty`), doluyken belirgin bir uyarı satırı. */
 #ob-yer-yok {

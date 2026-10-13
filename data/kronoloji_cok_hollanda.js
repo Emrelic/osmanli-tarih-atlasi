@@ -66,7 +66,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
 { t:"1576-01-01", b:"Gent Uzlaşması — Felemenk eyaletleri İspanyol askerine karşı birleşti", tur:"antlasma",
   onem:4, dunya:2, kapsam:"ic", etiket:["antlasma","din","konu-siyasi","konu-diplomasi"],
   devlet:"habsburg-hollandasi", devletler:["habsburg-hollandasi","ispanya"], yer_id:"Gent",
-  gun:"1576 (TDV yıl verir; imza günü bu oturumda kaynaktan doğrulanamadı)",
+  gun:"1576 (TDV yıl verir; imza günü kaynaktan doğrulanamadı)",
   d:"Katolik ve Protestan eyaletler, İspanyol birliklerinin yağmasına karşı ortak davranmak ve din çatışmasını yatıştırmak için Gent'te uzlaştı. Birlik kalıcı olmadı: üç yıl içinde güney Arras, kuzey Utrecht birlikleriyle ikiye ayrıldı.",
   kaynak:"TDV `hollanda`: Katolik-Protestan çatışmalarının \"1576’da yapılan Gent uzlaşmasıyla\" giderilmeye çalışıldığı ve bölünmenin önlenemediği" },
 

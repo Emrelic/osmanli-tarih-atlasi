@@ -120,7 +120,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Kanûnî'nin ikinci Viyana harekâtı Güns kalesinin direnişiyle yavaşladı ve ordu Viyana'ya varmadan geri döndü. Habsburg tarafı bunu, başkenti kurtaran bir savunma başarısı olarak anar.",
   kaynak:"depo savaslar.js (1532-08-05)", yer_kon:[47.39,16.54] },
 
-{ t:"1538-02-24", gun:"24 Şubat 1538 — gün komşudan (kronoloji_macaristan.js · Engel)", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1538-02-24", gun:"24 Şubat 1538 — gün komşudan (Macaristan kronolojisi · Engel)", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Ferdinand ile Zápolya János arasında yapılan anlaşma, Macaristan'ı iki kral arasında paylaştırdı ve Zápolya'nın ölümünden sonra tacın Habsburglara geçmesini öngördü. Anlaşma tutmadı; Zápolya'nın oğlunun doğması Budin'in Osmanlı eline geçmesine giden krizi başlattı.",
   kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Engel (2001), s. 364-365 (Nagyvárad Antlaşması, 24 Şubat 1538) — TDV bu anlaşmayı müstakil maddede işlemiyor; önceki yıl damgası (1538-01-01) KRONO-ORTA-AVRUPA-0929 ile komşu günüyle değiştirildi", yer_id:"Varad (Oradea)" },
@@ -144,17 +144,17 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1555-01-01", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","diplomasi","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Ferdinand'ın imparatorluk meclisiyle müzakere ettiği barış, Protestanlara mülklerini ve serbest ibadeti güvence altına aldı. Ağabeyi Şarlken'in uzlaşmaz çizgisinin aksine Ferdinand pragmatik davrandı; bu tercih Habsburg topraklarında mezhep savaşını yarım yüzyıl erteledi.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · ⚠️ gün DOĞRULANMADI", yer_id:"Augsburg" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · Dikkat: gün DOĞRULANMADI", yer_id:"Augsburg" },
 
 { t:"1556-01-01", b:"Hofkriegsrat'ın kurulması — sürekli ordunun idarî omurgası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["reform","askeri","konu-askeri","konu-siyasi","konu-islahat"],
   d:"Askerî idarenin en üst organı olarak Hofkriegsrat kuruldu ve Ferdinand'ın idarî reformlarını tamamladı. Osmanlı serhaddine karşı sürekli bir savunma örgütü kurma zorunluluğu, Habsburg devletinin merkezî kurumlarını doğuran başlıca etkendi.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': \"Die Einrichtung des Hofkriegsrates 1556 als oberstes Organ der Militärverwaltung\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': \"Die Einrichtung des Hofkriegsrates 1556 als oberstes Organ der Militärverwaltung\" · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1558-01-01", b:"I. Ferdinand'ın imparator olması", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","konu-hanedan"],
   d:"Şarlken'in 1556'da tacı bırakmasının ardından Ferdinand 1558'de imparator oldu. Böylece Habsburg hanedanı İspanyol ve Avusturya kolları olarak kalıcı biçimde ikiye ayrıldı.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': 1556'da imparator görevini bıraktı, 1558'de Ferdinand'ın yükselişi · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': 1556'da imparator görevini bıraktı, 1558'de Ferdinand'ın yükselişi · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1564-07-25", gun:"25 Temmuz 1564, Viyana", b:"Ferdinand'ın ölümü ve Avusturya mirasının üçe bölünmesi", tur:"bolunme", onem:4, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","bolunme","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -169,11 +169,11 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1571-01-01", b:"Religionsassekuration — Aşağı Avusturya soylularına mezhep güvencesi", tur:"antlasma", onem:2, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["din","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"II. Maximilian, Aşağı Avusturya'nın Protestan soylularına ibadet güvencesi verdi. Habsburg çekirdek topraklarında Protestanlığın en geniş yayıldığı an budur; sonraki kuşak bunu tersine çevirecektir.",
-  kaynak:"Wien Geschichte Wiki, 'Religionsassekuration (1571)' · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Wien Geschichte Wiki, 'Religionsassekuration (1571)' · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1583-01-01", b:"Sarayın Prag'a taşınması — Rudolf'un Altın Şehri", tur:"reform", onem:3, dunya:2, kapsam:"ic", etiket:["kultur","hanedan","konu-hanedan","konu-kultur","konu-imar","konu-islahat"], yer_id:"Prag",
   d:"II. Rudolf, imparatorluk ikametgâhını Viyana'dan Prag'a taşıdı ve şehri siyasî olduğu kadar kültürel bir merkeze dönüştürdü. Büyük sanat koleksiyonları kurdu, bilim adamlarını himaye etti; Prag bir kuşak boyunca Orta Avrupa'nın entelektüel başkenti oldu.",
-  kaynak:"Die Welt der Habsburger, 'Rudolf II. und die Goldene Stadt': \"Soon after the beginning of his reign as Emperor, Rudolf II transferred the Residence from Vienna to Prague, which he made into a political and cultural centre, and built up important art collections while patronizing scientists such as the astronomer Johannes Kepler\" · ⚠️ YIL bu oturumda doğrulanmadı (kaynak 'saltanatının başından kısa süre sonra' diyor)" },
+  kaynak:"Die Welt der Habsburger, 'Rudolf II. und die Goldene Stadt': \"Soon after the beginning of his reign as Emperor, Rudolf II transferred the Residence from Vienna to Prague, which he made into a political and cultural centre, and built up important art collections while patronizing scientists such as the astronomer Johannes Kepler\" · Dikkat: YIL doğrulanmadı (kaynak 'saltanatının başından kısa süre sonra' diyor)" },
 
 { t:"1593-07-01", b:"Uzun Türk Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
@@ -187,14 +187,14 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1600-01-01", b:"Tycho Brahe ve Kepler'in Prag sarayında buluşması", tur:"kultur", onem:3, dunya:4, kapsam:"ic", etiket:["bilim","kultur","konu-bilim","konu-kultur","konu-imar","konu-kesif"], yer_id:"Prag",
   d:"II. Rudolf'un Prag sarayında astronomlar Tycho Brahe ile Johannes Kepler aynı anda görevliydi. Brahe'nin gözlem verileri Kepler'in eline geçti ve gezegen hareketleri yasalarının yolunu açtı; modern astronominin doğduğu masa bir Habsburg sarayındaydı.",
-  kaynak:"Die Welt der Habsburger, 'Ein Roboter in Prag und Lebenselixier für Rudolf II.': Rudolf'un Prag sarayında astronomlar Tycho Brahe ve Johannes Kepler görevliydi; Prag 1600 civarında 'sihir şehri' imgesini bu saraya borçludur · ⚠️ GÜN DOĞRULANMADI (kaynak 'in the years around 1600' diyor)" },
+  kaynak:"Die Welt der Habsburger, 'Ein Roboter in Prag und Lebenselixier für Rudolf II.': Rudolf'un Prag sarayında astronomlar Tycho Brahe ve Johannes Kepler görevliydi; Prag 1600 civarında 'sihir şehri' imgesini bu saraya borçludur · Dikkat: GÜN DOĞRULANMADI (kaynak 'in the years around 1600' diyor)" },
 
 { t:"1600-10-20", gun:"20 Ekim 1600 (11 Rebîülâhir 1009)", b:"Kanije'nin kaybı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Kanije",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Kanije kalesi Osmanlı eline geçti ve Habsburg savunma hattında güneybatıya açılan bir gedik oluştu. Ertesi yıl kaleyi geri alma girişimi de başarısız oldu.", ic_not_d:"eski kaynak: depo savaslar.js (1600-10-22)",
   kaynak:"TDV `kanije` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"anlaşma yoluyla 11 Rebîülâhir 1009'da (20 Ekim 1600) Osmanlılar'a teslim edildi\" · yerin kendi maddesi esas alındı; önceki gün (22 Ekim, TDV tiryaki-hasan-pasa · mehmed-iii'ye dayandırılmıştı) çekirdekteki olaylar_ek.js 1600-10-20 kaydıyla da çelişiyordu" },
 
-{ t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (kronoloji_macaristan.js · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (Macaristan kronolojisi · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","din","milliyetcilik","konu-siyasi","konu-isyan","konu-din"],
   d:"Habsburg'un Macaristan'da yürüttüğü karşı-reform ve merkezîleştirme siyaseti, Bocskai István önderliğinde bir soylu ayaklanmasını tetikledi. İsyan, Viyana'yı hem Osmanlı hem de kendi Macar tebaası karşısında iki cepheli bir mücadeleye zorladı.",
   kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Kontler (2002), s. 154-155 (ayaklanmanın başlangıcı 15 Ekim 1604) — önceki yıl damgası (1604-01-01) KRONO-ORTA-AVRUPA-0929 ile değiştirildi", kapsam_genis:true },
@@ -231,7 +231,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1619-01-01", b:"II. Ferdinand'ın tahta çıkışı ve Bohemya tacının reddi", tur:"hanedan", onem:3, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","din","konu-hanedan","konu-din"],
   d:"Katolik restorasyonun sert temsilcisi II. Ferdinand imparator seçildi; Bohemya meclisi ise onu tanımayıp Kalvinist Pfalz Kontu Friedrich'i kral seçti. Hanedan, çekirdek topraklarından birini fiilen kaybetmiş durumdaydı.",
-  kaynak:"Die Welt der Habsburger, 'Von Graz nach Wien: Der Aufstieg Ferdinands II.' · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Von Graz nach Wien: Der Aufstieg Ferdinands II.' · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1620-11-08", b:"Beyaz Dağ Muharebesi — Bohemya meclislerinin tasfiyesi", tur:"savas", onem:5, dunya:4, kapsam:"ic", yer_id:"Prag",
   etiket:["askeri","din","anayasa","konu-askeri","konu-din","konu-islahat","konu-hukuk"],
@@ -251,7 +251,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1648-10-24", b:"Vestfalya Barışı — imparatorluk üzerindeki Habsburg üstünlüğünün sınırlanması", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"Münster",
   etiket:["antlasma","diplomasi","din","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Otuz Yıl Savaşları'nı bitiren barış, imparatorluk prenslerine fiilî egemenlik tanıdı ve Habsburg'un Almanya üzerindeki merkezîleştirme umudunu sona erdirdi. Buna karşılık hanedan kendi kalıtsal topraklarında mutlak ve Katolik bir devlet kurmuş oldu. Avusturya tarihyazımı bu barışı, imparatorluk siyasetinden Tuna havzasına dönüşün başlangıcı sayar.",
-  kaynak:"Die Welt der Habsburger, 'Endlich Friede' ve 'Dreißigjähriger Krieg 1618-1648': ayaklanmanın başlattığı savaşlar dizisi otuz yıl sonra Vestfalya Barışı ile sona erdi · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Endlich Friede' ve 'Dreißigjähriger Krieg 1618-1648': ayaklanmanın başlattığı savaşlar dizisi otuz yıl sonra Vestfalya Barışı ile sona erdi · Dikkat: gün DOĞRULANMADI" },
 
 // ══════════════════════════════════════════════════════════════════
 // III. TÜRK SAVAŞLARININ DÖNÜŞÜ VE MACARİSTAN'IN GERİ ALINIŞI (1648-1700)
@@ -310,7 +310,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1687-12-09", b:"Pressburg Diyeti — Macar tacının Habsburg'da pekişmesi", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"Bratislava",
   etiket:["anayasa","hanedan","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Budin'in geri alınmasının hemen ardından toplanan Macar meclisinde Leopold'ün dokuz yaşındaki oğlu Joseph Macar kralı olarak taç giydi. Habsburg hanedanının Macaristan'daki hâkimiyeti, Türk savaşındaki başarıya dayanarak Macar meclisleri gözünde pekişti. Askerî zaferin anayasal karşılığı budur.",
-  kaynak:"Die Welt der Habsburger, 'Joseph I: repository of the dynasty's hopes': 1687'de dokuz yaşındaki Joseph Macar kralı olarak taç giydi; Leopold Türk savaşındaki başarıları kullanıyordu, 1686'da Budin'in fethi Macar meclisleri gözünde Habsburg hâkimiyetini teyit etmişti · ⚠️ GÜN DOĞRULANMADI ⚠️ ÖNEM DÜŞÜRÜLDÜ (5 → 4): ilk yazımda tacın \"kalıtsal kabulü\" ve direnme hakkının kaldırılışı 1687'ye bağlanmıştı; okunan kaynak kalıtsallığın Macar meclislerince teyidini 1699 Karlofça SONRASINA yerleştiriyor. Kaynağın söylemediğini iddia etmemek için hem ifade hem önem geri çekildi — 5 vermek için 'dönüm noktası' hükmünü taşıyan bir kaynak gerekiyordu, bulunamadı" },
+  kaynak:"Die Welt der Habsburger, 'Joseph I: repository of the dynasty's hopes': 1687'de dokuz yaşındaki Joseph Macar kralı olarak taç giydi; Leopold Türk savaşındaki başarıları kullanıyordu, 1686'da Budin'in fethi Macar meclisleri gözünde Habsburg hâkimiyetini teyit etmişti · Dikkat: GÜN DOĞRULANMADI Dikkat: ÖNEM DÜŞÜRÜLDÜ (5 → 4): ilk yazımda tacın \"kalıtsal kabulü\" ve direnme hakkının kaldırılışı 1687'ye bağlanmıştı; okunan kaynak kalıtsallığın Macar meclislerince teyidini 1699 Karlofça SONRASINA yerleştiriyor. Kaynağın söylemediğini iddia etmemek için hem ifade hem önem geri çekildi — 5 vermek için 'dönüm noktası' hükmünü taşıyan bir kaynak gerekiyordu, bulunamadı" },
 
 { t:"1691-08-19", b:"Salankamen zaferi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -339,12 +339,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1703-01-01", b:"II. Rákóczi Ferenc ayaklanmasının başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","milliyetcilik","konu-siyasi","konu-isyan"],
   d:"Türk hâkimiyetinden yeni kurtulmuş Macaristan'ı Viyana'ya sıkı sıkıya bağlamak isteyen mutlakiyetçi yeniden düzenlemeye karşı, Rákóczi önderliğinde bir bağımsızlık savaşı patlak verdi. Ayaklanma 1704'te Viyana'yı doğrudan tehdit etti ve şehirde Linienwall savunma duvarının yapımına yol açtı.",
-  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1711-04-29", gun:"29 Nisan 1711 (Nagykároly'da imza); onay 26 Mayıs 1711, Viyana", b:"Szatmár Barışı — Macaristan'la uzlaşma", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","isyan","anayasa","konu-diplomasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"VI. Karl, ödünler vererek Rákóczi ayaklanmasını sona erdirdi ve Macaristan'ı hanedana daha sıkı bağladı. Habsburg, Macaristan'ı bastırarak değil uzlaşarak tuttuğu ilk büyük denemeyi burada yaptı; 1867'nin uzlaşma modeli bu geleneğe dayanır.",
-  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (A hét dokumentuma; sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · 🔴 DÜZELTME: önceki gün 29 Kasım 1711 Wien Geschichte Wiki'den alınmıştı; o sayfa gerçekten '29. November 1711' diyor ama Mayıs'ta onaylanmış bir barışla bağdaşmaz, ulusal arşivin günü esas alındı", yer_id:"Szatmár (Satu Mare)" },
+  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (A hét dokumentuma; sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · Düzeltme: önceki gün 29 Kasım 1711 Wien Geschichte Wiki'den alınmıştı; o sayfa gerçekten '29. November 1711' diyor ama Mayıs'ta onaylanmış bir barışla bağdaşmaz, ulusal arşivin günü esas alındı", yer_id:"Szatmár (Satu Mare)" },
 
 { t:"1713-04-19", b:"Pragmatik Yaptırım — monarşinin ilk temel yasası", tur:"reform", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","hanedan","konu-hanedan","konu-islahat","konu-hukuk"],
@@ -353,7 +353,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1714-01-01", b:"Karlskirche'nin temelinin atılması — Habsburg barokunun beyannamesi", tur:"kultur", onem:3, dunya:1, kapsam:"ic", etiket:["kultur","din","konu-din","konu-kultur"], yer_id:"Viyana",
   d:"VI. Karl'ın veba adağı olarak yaptırdığı Karlskirche'nin inşasına Johann Bernhard Fischer von Erlach'ın planlarıyla başlandı. Roma sütunlarını Bizans kubbesiyle ve barok cepheyle birleştiren yapı, imparatorluğun evrensellik iddiasının taştan ifadesi sayılır.",
-  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"The construction of the Karlskirche in Vienna began in 1714 according to plans by Johann Bernhard Fischer von Erlach\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"The construction of the Karlskirche in Vienna began in 1714 according to plans by Johann Bernhard Fischer von Erlach\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1716-08-05", b:"Varadin (Petrovaradin) zaferi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Varadin (Petrovaradin)",
   etiket:["askeri","konu-askeri"],
@@ -382,7 +382,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1739-01-01", b:"Karlskirche'nin tamamlanması", tur:"kultur", onem:2, dunya:1, kapsam:"ic", etiket:["kultur","din","konu-din","konu-kultur"], yer_id:"Viyana",
   d:"Fischer von Erlach'ın ölümünden sonra yapıyı oğlu Joseph Emanuel tamamladı. Yirmi beş yıl süren inşaat, Viyana barokunun en görünür anıtını bıraktı.",
-  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"after his death, his son Joseph Emanuel completed the building in 1739\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"after his death, his son Joseph Emanuel completed the building in 1739\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1739-07-22", b:"Hisarcık (Grocka) bozgunu", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -401,12 +401,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1740-10-20", b:"VI. Karl'ın ölümü ve Maria Theresia'nın veraseti", tur:"hanedan", onem:5, dunya:4, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Erkek vârissiz ölen VI. Karl'ın ardından Pragmatik Yaptırım işledi ve yirmi üç yaşındaki Maria Theresia bütün Habsburg ülkelerinin hükümdarı oldu. Ama birkaç hükümdar onun haklarını tanımadı ve Avusturya Veraset Savaşı patladı; hanedanın varlık mücadelesi Avusturya anlatısının kurucu sahnelerinden biridir.",
-  kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (doğrudan okundu): \"Nach dem Tod Karls VI. 1740 trat dieser Fall ein, jedoch wiesen einige Herrscher die Ansprüche seiner Tochter Maria Theresia zurück – es kam zum Österreichischen Erbfolgekrieg\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (doğrudan okundu): \"Nach dem Tod Karls VI. 1740 trat dieser Fall ein, jedoch wiesen einige Herrscher die Ansprüche seiner Tochter Maria Theresia zurück – es kam zum Österreichischen Erbfolgekrieg\" · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1740-12-16", b:"Prusya'nın Silezya'yı işgali", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Prusya Kralı II. Friedrich Silezya'ya girdi; bu, Avusturya Veraset Savaşı'nın başlangıç işareti oldu. Silezya monarşinin en zengin ve en sanayileşmiş eyaletiydi ve kaybı, Avusturya'nın bir asır sürecek Prusya rekabetinin başlangıcıdır.",
-  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1745-09-13", b:"Franz Stephan'ın imparator seçilmesi — Habsburg-Lothringen hanedanı", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-hanedan"],
@@ -416,12 +416,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1748-10-01", b:"Aachen Barışı — Maria Theresia'nın tanınması, Silezya'nın kaybı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Aachen",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Barış, Maria Theresia'yı monarşinin hükümdarı olarak uluslararası düzeyde tanıdı ve Pragmatik Yaptırım genel kabul gördü. Bedeli ağırdı: Silezya ile Parma ve Piacenza kaybedildi.",
-  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"Die internationale Bestätigung Maria Theresias… erfolgt im Oktober 1748 im Frieden von Aachen\"; kayıplar Silezya, Parma, Piacenza · ⚠️ ayın günü DOĞRULANMADI (kaynak yalnız 'Ekim 1748' diyor)" },
+  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"Die internationale Bestätigung Maria Theresias… erfolgt im Oktober 1748 im Frieden von Aachen\"; kayıplar Silezya, Parma, Piacenza · Dikkat: ayın günü DOĞRULANMADI (kaynak yalnız 'Ekim 1748' diyor)" },
 
 { t:"1749-01-01", b:"Haugwitz reformları — merkezî idarenin kurulması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","ekonomi","askeri","konu-askeri","konu-ekonomi","konu-islahat"],
   d:"Silezya'nın kaybı, devletin yeniden kurulması gerektiğini gösterdi: maliye ve idare eyalet meclislerinden alınıp merkezî dairelerde birleştirildi, sürekli ordu için düzenli vergi bağlandı. Maria Theresia dönemi reformları modern Avusturya devletinin doğduğu an sayılır.",
-  kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · ⚠️ gün DOĞRULANMADI, reform dizisi yıllara yayılıdır", yer_id:"Viyana" },
+  kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · Dikkat: gün DOĞRULANMADI, reform dizisi yıllara yayılıdır", yer_id:"Viyana" },
 
 { t:"1756-01-01", b:"Renversement des alliances — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ittifak","diplomasi","konu-diplomasi"],
@@ -431,7 +431,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1756-08-29", b:"Yedi Yıl Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
   d:"Savaş, Maria Theresia'nın Silezya'yı geri alma isteği üzerine yürüdü ve Avrupa dışına taşarak bir dünya savaşına dönüştü. Avusturya yedi yıl boyunca büyük insan ve para kaybetti.",
-  kaynak:"Die Welt der Habsburger, 'Der Siebenjährige Krieg: Ein Weltkrieg' ve 'Siebenjähriger Krieg 1756-1763': savaş Silezya için yürütüldü · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Der Siebenjährige Krieg: Ein Weltkrieg' ve 'Siebenjähriger Krieg 1756-1763': savaş Silezya için yürütüldü · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1763-02-15", b:"Hubertusburg Barışı — Silezya'dan kesin vazgeçiş", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -441,7 +441,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1772-01-01", b:"Lehistan'ın birinci paylaşımı — Galiçya'nın ilhakı", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Lvov",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
   d:"Galiçya ve Lodomerya, Lehistan'ın birinci paylaşımıyla Habsburg monarşisine katıldı. Yapay biçimde kurulmuş bu krallık, imparatorluğun en kalabalık ve en yoksul eyaletlerinden biri olacak ve 1918'e kadar Leh-Rutenya meselesinin merkezinde duracaktı.",
-  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Am Rande des Reiches: Galizien und Bukowina': \"Nach der 'Ersten Polnischen Teilung' kamen Galizien und Lodomerien 1772 zur Habsburgermonarchie\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Am Rande des Reiches: Galizien und Bukowina': \"Nach der 'Ersten Polnischen Teilung' kamen Galizien und Lodomerien 1772 zur Habsburgermonarchie\" · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1774-01-01", b:"Allgemeine Schulordnung — zorunlu ilköğretim", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","kultur","konu-kultur","konu-islahat"],
@@ -461,7 +461,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1781-11-01", b:"Serfliğin (Leibeigenschaft) kaldırılması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","ekonomi","konu-ekonomi","konu-islahat"],
   d:"Kişisel bağımlılığı kaldıran ferman, köylülerin çiftliği terk edip başka yerde çalışabilmesinin önünü açtı. Toprak yükümlülükleri sürdü, ama hukukî statü değişti; Avusturya sosyal tarihinde 1848'e kadarki en büyük adımdır.",
-  kaynak:"Wien Geschichte Wiki, 'Josephinismus' ve Die Welt der Habsburger, 'Patent zur Aufhebung der Leibeigenschaft 1781': kişisel özgürlük kaldırıldı, köylüler çiftlikten ayrılabildi · ⚠️ ayın günü DOĞRULANMADI (kaynaklar yalnız 1781 diyor)", yer_id:"Viyana" },
+  kaynak:"Wien Geschichte Wiki, 'Josephinismus' ve Die Welt der Habsburger, 'Patent zur Aufhebung der Leibeigenschaft 1781': kişisel özgürlük kaldırıldı, köylüler çiftlikten ayrılabildi · Dikkat: ayın günü DOĞRULANMADI (kaynaklar yalnız 1781 diyor)", yer_id:"Viyana" },
 
 { t:"1782-01-12", b:"Manastırların kapatılması", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","din","konu-din","konu-islahat"],
@@ -475,7 +475,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1784-08-16", b:"Allgemeines Krankenhaus — tıbbî bakımın yoksul bakımından ayrılması", tur:"reform", onem:4, dunya:2, kapsam:"ic", etiket:["reform","bilim","sosyal","konu-bilim","konu-islahat","konu-sosyal"], yer_id:"Viyana",
   d:"II. Joseph'in kurduğu Genel Hastane ile tıbbî bakım, yoksul bakımından kurumsal olarak ayrıldı. Hastane Avrupa'nın en büyük tıp kurumlarından biri oldu ve Viyana Tıp Okulu'nun yükselişinin altyapısını kurdu; devletin sağlığı bir kamu görevi sayması bu tarihten başlar.",
-  kaynak:"Wien Geschichte Wiki, 'Spital': \"Unter Kaiser Joseph II. bedeutete 1784 die Gründung des Allgemeinen Krankenhauses eine Trennung von medizinischer und Armenfürsorge\" · ⚠️ GÜN DOĞRULANMADI (kaynak yalnız 1784 diyor; açılış günü yaygın literatürde 16 Ağustos)" },
+  kaynak:"Wien Geschichte Wiki, 'Spital': \"Unter Kaiser Joseph II. bedeutete 1784 die Gründung des Allgemeinen Krankenhauses eine Trennung von medizinischer und Armenfürsorge\" · Dikkat: GÜN DOĞRULANMADI (kaynak yalnız 1784 diyor; açılış günü yaygın literatürde 16 Ağustos)" },
 
 { t:"1788-02-09", b:"Son Osmanlı-Habsburg savaşının başlaması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -539,7 +539,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1814-09-18", b:"Viyana Kongresi'nin toplanması", tur:"diplomasi", onem:5, dunya:4, kapsam:"dis", yer_id:"Viyana",
   etiket:["diplomasi","ittifak","konu-diplomasi"],
   d:"Napolyon'un yenilgisinden sonra Avrupa'nın yeni düzenini kurmak üzere büyük güçler Viyana'da toplandı. Metternich kendisini \"Avrupa'nın arabacısı\" olarak görüyordu; kongre, Avusturya'nın kıta siyasetinin merkezine oturduğu andır ve Avusturya ulusal belleğinde imparatorluğun en parlak sahnesi sayılır.",
-  kaynak:"Die Welt der Habsburger, 'Franz I. und das Kaisertum Österreich': Metternich kendini Viyana Kongresi'nde \"Kutscher Europas\" olarak görüyordu; kongre Napolyon sonrası yeni siyasî düzeni kurma çabasıydı · ⚠️ açılış GÜNÜ doğrulanmadı" },
+  kaynak:"Die Welt der Habsburger, 'Franz I. und das Kaisertum Österreich': Metternich kendini Viyana Kongresi'nde \"Kutscher Europas\" olarak görüyordu; kongre Napolyon sonrası yeni siyasî düzeni kurma çabasıydı · Dikkat: açılış GÜNÜ doğrulanmadı" },
 
 { t:"1815-06-09", b:"Viyana Kongresi Nihaî Senedi", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"Viyana",
   etiket:["antlasma","toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
@@ -598,7 +598,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1854-01-01", b:"Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"],
   d:"Avusturya savaşa girmedi ama Tuna prensliklerine asker yığarak Rusya'yı çekilmeye mecbur bıraktı. 1849'da kendisini kurtaran Rusya'yı bu şekilde karşısına alması, imparatorluğu Avrupa'da yalnızlaştırdı.",
-  kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1854-07-17", b:"Semmering demiryolu — Avrupa'nın ilk dağ demiryolu", tur:"reform", onem:4, dunya:3, kapsam:"ic", etiket:["teknoloji","ekonomi","imar","islahat","konu-bilim","konu-ekonomi","konu-imar","konu-islahat","konu-ulastirma"], yer_id:"", kapsam_genis:true,
   d:"Carl Ritter von Ghega'nın inşa ettiği Semmering geçişi tamamlandı ve Gloggnitz-Mürzzuschlag bağlantısı açıldı. Bir dağ silsilesini normal açıklıklı rayla aşan ilk demiryoluydu; Viyana'yı Trieste limanına bağlayan hattın kilit halkasıydı ve imparatorluğun iç pazarını birleştirdi.",
@@ -607,7 +607,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1856-03-30", b:"Paris Antlaşması — Osmanlı'nın toprak bütünlüğünün garanti edilmesi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"Paris",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Avusturya, öteki büyük güçlerle birlikte Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti etti. Üç asır savaştığı devletin koruyucuları arasına girmesi, Viyana dış siyasetindeki dönüşün en açık belgesidir.",
-  kaynak:"TDV `avusturya`: Avusturya \"Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti\" eder (1856 Paris) · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: Avusturya \"Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti\" eder (1856 Paris) · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1857-12-20", b:"Ringstrasse kararı — surların yıkılması", tur:"reform", onem:4, dunya:2, kapsam:"ic", etiket:["kultur","sosyal","ekonomi","konu-ekonomi","konu-kultur","konu-islahat","konu-sosyal"], yer_id:"Viyana",
   d:"İmparator Franz Joseph, şehir surlarının kaldırılmasını ve iç şehrin çevresine temsilî yapılar ile parkların sıralanacağı bir bulvar yapılmasını emretti. Ringstrasse çağı (1857-1914) imparatorluk başkentinin kendini yeniden kurduğu dönemdir; Parlamento, Belediye, Üniversite, Opera ve müzeler bu hat üzerinde yükseldi.",
@@ -620,7 +620,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1866-01-01", b:"Mendel'in kalıtım yasalarını yayımlaması", tur:"kultur", onem:2, dunya:4, kapsam:"ic", etiket:["bilim","konu-bilim","konu-kultur"], yer_id:"",
   d:"Brünn'de öğretmenlik yapan rahip Gregor Mendel, bezelye melezleri üzerindeki deneylerinin sonuçlarını Brünn Doğa Tarihi Cemiyeti'nin bildirilerinde yayımladı. Çalışmanın önemi ancak ölümünden sonra, 1900 civarında anlaşıldı; genetik biliminin kurucu metnidir ve bir Habsburg taşra şehrinde yazılmıştır.",
-  kaynak:"Wien Geschichte Wiki, 'Gregor Mendel': bulgular 1866'da Brünn Doğa Tarihi Cemiyeti bildirilerinde yayımlandı; 1854'ten itibaren Brünn'de öğretmenlik, 1856'dan itibaren bezelye deneyleri; öneminin 1900 civarında ölümünden sonra anlaşıldığı · ⚠️ GÜN DOĞRULANMADI · ⚠️ yer_id BOŞ: Brünn/Brno yerleşim listesinde YOK (ölçüldü)", yer_kon:[49.1951,16.6068] },
+  kaynak:"Wien Geschichte Wiki, 'Gregor Mendel': bulgular 1866'da Brünn Doğa Tarihi Cemiyeti bildirilerinde yayımlandı; 1854'ten itibaren Brünn'de öğretmenlik, 1856'dan itibaren bezelye deneyleri; öneminin 1900 civarında ölümünden sonra anlaşıldığı · Dikkat: GÜN DOĞRULANMADI · Dikkat: yer_id BOŞ: Brünn/Brno yerleşim listesinde YOK (ölçüldü)", yer_kon:[49.1951,16.6068] },
 
 { t:"1866-07-03", b:"Königgrätz — Almanya'daki üstünlüğün kaybı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -639,7 +639,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1867-03-30", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","milliyetcilik","konu-siyasi","konu-islahat","konu-hukuk"],
   d:"Uzlaşma, Habsburg monarşisini iki egemen devletin birliğine dönüştürdü: her iki yarı kendi anayasası, hükûmeti ve meclisiyle donatıldı; ortak kalan yalnız hükümdar, ordu ve dış siyasetti. Königgrätz'in iç siyasî faturası budur ve 1918'e kadar imparatorluğun anayasal çerçevesi olarak kaldı.",
-  kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },
+  kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },
 
 { t:"1867-12-21", b:"Aralık Anayasası — temel haklar ve hukuk devleti", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
@@ -663,7 +663,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1878-07-13", b:"Berlin Kongresi — Bosna-Hersek'in işgal ve idare yetkisi", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Berlin",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek üzere Bosna-Hersek'i işgal ve idare etme hakkını aldı. Toprak hukuken Osmanlı'da kaldı; bu ikili durum otuz yıl sürecek ve 1908 krizini doğuracaktı.",
-  kaynak:"Die Welt der Habsburger, 'Okkupation Bosniens 1878': Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek için Bosna-Hersek'i işgal ve idare hakkını aldı · TDV `bosna-hersek` slug CANLI · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
+  kaynak:"Die Welt der Habsburger, 'Okkupation Bosniens 1878': Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek için Bosna-Hersek'i işgal ve idare hakkını aldı · TDV `bosna-hersek` slug CANLI · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
 
 { t:"1879-10-07", b:"Zweibund — Almanya ile ittifak", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"Viyana",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
@@ -682,22 +682,22 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1900-01-01", b:"Freud'un Rüyaların Yorumu'nu yayımlaması", tur:"kultur", onem:3, dunya:4, kapsam:"ic", etiket:["bilim","kultur","sosyal","konu-bilim","konu-kultur","konu-sosyal"], yer_id:"Viyana",
   d:"Paris'teki araştırma döneminden sonra Viyana'ya yerleşen Sigmund Freud, en önemli eseri sayılan Rüyaların Yorumu'nu yayımladı. Psikanaliz, imparatorluğun son yıllarındaki Viyana'nın dünyaya bıraktığı en kalıcı fikir oldu.",
-  kaynak:"Universität Wien, '650 plus' — Sigmund Freud sayfası: \"Die Traumdeutung (1900/01)\" Freud'un en önemli eserlerinden; Paris'teki araştırma döneminden sonra Viyana'ya hekim olarak yerleşti · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Universität Wien, '650 plus' — Sigmund Freud sayfası: \"Die Traumdeutung (1900/01)\" Freud'un en önemli eserlerinden; Paris'teki araştırma döneminden sonra Viyana'ya hekim olarak yerleşti · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1908-10-06", b:"Bosna-Hersek'in ilhakı ve ilhak krizi", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Saraybosna",
   etiket:["toprak-kazanc","kriz","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Otuz yıldır fiilen idare edilen Bosna-Hersek resmen ilhak edildi. İlhak uluslararası düzeyde, devletlerarası anlaşmaları çiğneyen saldırgan bir işlem olarak algılandı; Sırbistan ve Rusya bunu bir tahrik saydı ve savaş tehdidinde bulundu. Saraybosna suikastının arkasındaki örgüt de bu krizin doğurduğu radikalleşmenin ürünüdür.",
-  kaynak:"TDV `avusturya`: \"otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)\" · Der Erste Weltkrieg, 'Die Annexionskrise 1908': uluslararası algı, Sırbistan ve Rusya'nın savaş tehdidi, 1911'de kurulan örgütün radikalleşmeyle bağı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: \"otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)\" · Der Erste Weltkrieg, 'Die Annexionskrise 1908': uluslararası algı, Sırbistan ve Rusya'nın savaş tehdidi, 1911'de kurulan örgütün radikalleşmeyle bağı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1914-06-28", b:"Saraybosna suikastı — Veliaht Franz Ferdinand'ın öldürülmesi", tur:"olum", onem:5, dunya:4, kapsam:"dis", yer_id:"Saraybosna",
   etiket:["hanedan","kriz","suikast","konu-siyasi","konu-kisiler","konu-hanedan","konu-imar"],
   d:"Veliaht Franz Ferdinand ve eşi Saraybosna'da bir Sırp suikastçı tarafından öldürüldü. Suikast, otuz gün içinde Avrupa'yı savaşa sürükleyen krizi başlattı.",
-  kaynak:"TDV `avusturya`: \"1914 yılında Avusturya-Macaristan veliahdının Saraybosna'da bir Sırp suikastçı tarafından öldürülmesi\" · Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: \"1914 yılında Avusturya-Macaristan veliahdının Saraybosna'da bir Sırp suikastçı tarafından öldürülmesi\" · Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1914-07-28", b:"Sırbistan'a savaş ilanı — I. Dünya Savaşı'nın başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Viyana",
   etiket:["savas-ilani","askeri","konu-askeri"],
   d:"İmparator Franz Joseph Sırbistan'a savaş ilanını imzaladı ve bu, I. Dünya Savaşı'nı başlattı. TDV, suikastın savaş ilanını kaçınılmaz kıldığını yazar; Avusturya tarihyazımında ise kararın kaçınılmaz olup olmadığı hâlâ tartışmalıdır — ww1 portalı bu tartışmayı \"o gün yönetenlerin akılsızlığı\" başlığı altında işler.",
-  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' ve 'Die Torheit der damals Regierenden': Franz Joseph 1914'te Sırbistan'a savaş ilanını imzaladı, bu I. Dünya Savaşı'nı tetikledi · TDV `avusturya` · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
+  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' ve 'Die Torheit der damals Regierenden': Franz Joseph 1914'te Sırbistan'a savaş ilanını imzaladı, bu I. Dünya Savaşı'nı tetikledi · TDV `avusturya` · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
 
 { t:"1916-11-21", b:"Franz Joseph'in ölümü", tur:"hanedan", onem:4, dunya:3, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
@@ -707,7 +707,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1918-11-11", b:"I. Karl'ın devlet işlerinden çekilmesi ve monarşinin sonu", tur:"son", onem:5, dunya:5, kapsam:"ic", yer_id:"Viyana",
   etiket:["anayasa","hanedan","konu-siyasi","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Savaşın kaybedilmesiyle imparatorluk halklarına ayrıldı ve I. Karl devlet işlerine katılmaktan çekildiğini açıkladı; ertesi gün Avusturya cumhuriyet ilan etti. Habsburg monarşisi Kasım 1918'de sona erdi — 1526'da Mohaç'ta kurulan miras dört yüz doksan iki yıl sonra dağıldı.",
-  kaynak:"Der Erste Weltkrieg / Die Welt der Habsburger: \"In November 1918, the Habsburg monarchy came to an end\" · TDV `avusturya`: \"Savaş her iki imparatorluğun da yıkılması ile sonuçlanmış\" · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
+  kaynak:"Der Erste Weltkrieg / Die Welt der Habsburger: \"In November 1918, the Habsburg monarchy came to an end\" · TDV `avusturya`: \"Savaş her iki imparatorluğun da yıkılması ile sonuçlanmış\" · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
 
 ];
 
@@ -1350,7 +1350,7 @@ window.KRONOLOJI_RUSYA = [
   etiket:["antlasma","toprak","konu-askeri","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Rusya'nın dayattığı ağır barış, büyük bir Bulgaristan yaratıp Sırbistan, Karadağ ve Romanya'nın bağımsızlığını tanıdı; Rus tarihyazımında Pan-Slavist hedeflerin doruğu sayılsa da Avrupa güçlerinin tepkisiyle birkaç ay içinde Berlin Kongresi'nde büyük ölçüde geri alındı.",
-  kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — Kars/Ardahan/Batum/Doğubayazıt cümlesi TDV gövdesinden okundu · başlık/gövde düzeltmesi KRONO-KUZEY-0929" },
+  kaynak:"ayastefanos-antlasmasi (TDV, doğrulanmış) — Kars/Ardahan/Batum/Doğubayazıt cümlesi TDV gövdesinden okundu · başlık/gövde düzeltmesi" },
 { t:"1878-07-13", b:"Berlin Antlaşması — San Stefano kazanımları geriletildi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   yer_id:"Berlin",
@@ -1928,11 +1928,11 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
-{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil) (KRONO-AKADEMIK-1006 §1 #1)", tur:"isgal",
+{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
-  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · ⚠️ yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ (KRONO-AKADEMIK-1006)", yer_kon:[52.9886,16.7211] },
+  kaynak:"Muzeum Historii Polski, kalendarium \"Początek potopu szwedzkiego\" (muzhp.pl): \"21 lipca 1655 r. na ziemie Rzeczypospolitej wkroczyła z Pomorza Szczecińskiego armia szwedzka\" — cümle İsveç ordusunun Rzeczpospolita topraklarına GİRİŞİNİ tarihliyor · önceki dayanak yalnız \"el-kitabi\" idi (kaynak adı değil) · Dikkat: yer_kon Ujście'yi gösteriyor; 21 Temmuz'daki giriş Pomeranya sınırındadır — konum bu turda DEĞİŞTİRİLMEDİ", yer_kon:[52.9886,16.7211] },
 
 { t:"1655-11-18", b:"Jasna Góra savunması — direnişin dönüm noktası", tur:"savas",
   onem:5, dunya:1, kapsam:"ic", etiket:["savas","isyan","konu-askeri","konu-isyan"],
@@ -2027,7 +2027,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"On bir maddelik antlaşmayla Osmanlı Devleti Podolya'yı boşalttı, Kamaniçe Kalesi'ni tahliye edip yıktırdı ve Ukrayna'daki Kazak hatmanlığını lağvetti (Braslav, Vinnitsa ve Uman'ın bulunduğu Sağ Yaka Ukrayna böylece Lehistan'a kaldı); karşılığında Boğdan'daki Suçeva, Roman, Nemçe, Soroka ve Kampulek kaleleri Osmanlı'ya döndü (24 Receb 1110). Polonya için Karlofça, 1672'de kaybedilenin geri alınmasıdır — ama zaferi kazanan artık cumhuriyet değil, ittifakın büyük ortaklarıydı.",
-  kaynak:"karlofca — Hatmanlık cümlesi: TDV karlofca (A. Özcan), gövdeden okundu · başlık/gövde düzeltmesi KRONO-KUZEY-0929", yer_kon:[45.2019,19.9308] },
+  kaynak:"karlofca — Hatmanlık cümlesi: TDV karlofca (A. Özcan), gövdeden okundu · başlık/gövde düzeltmesi", yer_kon:[45.2019,19.9308] },
 
 // ═════════════ IV. SAKSON DÖNEMİ, ÇÖZÜLME ve TAKSİMLER (1697-1795) ═════════════
 { t:"1697-09-15", b:"Sakson elektörü II. August (Güçlü) taç giydi", tur:"hukumdar",
@@ -2379,7 +2379,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1297-02-28", b:"Serrata — Büyük Konsey'in kapanması", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
   d:"Büyük Konsey üyeliği, belirlenmiş patrisyen ailelerin yirmi beş yaşını dolduran erkeklerine bağlandı. Yaygın kanaat bunu halkı dışlayan bir darbe sayar; ölçülen etki ise yönetici sınıfın genişletilmesi ve hizip kavgalarının yatıştırılmasıydı. Venedik'in beş yüz yıl sürecek anayasal düzeni bu kararla kuruldu.",
-  kaynak:"Treccani, 'Serrata del maggior consiglio': \"un ampliamento della classe dirigente, attuato per moderare le lotte di fazione\"; üyelik 25 yaşını dolduran patrisyenlere ayrıldı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Serrata del maggior consiglio': \"un ampliamento della classe dirigente, attuato per moderare le lotte di fazione\"; üyelik 25 yaşını dolduran patrisyenlere ayrıldı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1298-09-08", b:"Curzola deniz bozgunu — Ceneviz rekabetinin zirvesi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -2394,7 +2394,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1339-01-24", b:"Treviso'nun alınması — ilk Terraferma tecrübesi", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["toprak-kazanc","konu-askeri"],
   d:"Mastino della Scala'ya karşı Floransa ile ittifak hâlinde yürütülen savaş, Treviso'nun işgaliyle sonuçlandı ve şehir Venedik'in doğal art bölgesi sayıldı. 1339-1381 arasındaki Treviso hâkimiyeti, cumhuriyetin ilk mütevazı toprak devleti tecrübesidir.",
-  kaynak:"Treccani, 'La conquista della terraferma': 1336-1339 savaşı Treviso'nun işgaliyle sonuçlandı, şehir Venedik'in doğal \"contado\"su sayıldı; \"La dominazione veneziana di Treviso tra il 1339 e il 1381 rappresenta la prima modesta esperienza di dominio territoriale\" · ⚠️ GÜN DOĞRULANMADI", yer_kon:[45.6669,12.2431] },
+  kaynak:"Treccani, 'La conquista della terraferma': 1336-1339 savaşı Treviso'nun işgaliyle sonuçlandı, şehir Venedik'in doğal \"contado\"su sayıldı; \"La dominazione veneziana di Treviso tra il 1339 e il 1381 rappresenta la prima modesta esperienza di dominio territoriale\" · Dikkat: GÜN DOĞRULANMADI", yer_kon:[45.6669,12.2431] },
 
 { t:"1348-01-25", b:"Kara Ölüm", tur:"kriz", onem:4, dunya:3, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","ekonomi","konu-siyasi","konu-ekonomi","afet","afet-salgin"],
@@ -2434,12 +2434,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1381-08-08", b:"Torino Barışı — Ceneviz rekabetinin kırılması ve otuz ailenin konseye alınması", tur:"antlasma", onem:5, dunya:2, kapsam:"dis", yer_id:"Torino",
   etiket:["antlasma","anayasa","konu-diplomasi","konu-islahat","konu-hukuk"],
   d:"Ceneviz'in Doğu Akdeniz'deki üstünlük iddiası kırıldı ve Venedik rakipsiz deniz gücü hâline geldi. İçeride savaşta öne çıkan otuz aile istisnaî olarak Büyük Konsey'e alındı; bu, 1360-61 vebası ve savaşla yitirilen kırk dört ailenin yerini doldurmak içindi. Bir dış zaferin anayasal düzeni gevşetmesi Serrata'dan sonraki tek örnektir.",
-  kaynak:"Treccani, 'Andamento demografico della nobiltà veneziana': \"Dopo la vittoriosa guerra di Chioggia (1381) l'accesso al Maggior Consiglio fu eccezionalmente aperto a trenta famiglie\"; 1360-61 vebası ve 44 aile kaybı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Andamento demografico della nobiltà veneziana': \"Dopo la vittoriosa guerra di Chioggia (1381) l'accesso al Maggior Consiglio fu eccezionalmente aperto a trenta famiglie\"; 1360-61 vebası ve 44 aile kaybı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1390-01-01", b:"Osmanlı ile ilk ticaret imtiyazları", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Venedik, yükselen Osmanlı Devleti'yle ilk ticarî imtiyaz anlaşmasını yaptı; ardından çok sayıda anlaşma geldi. Cumhuriyetin Osmanlı siyaseti baştan beri iki yönlüdür: kalelerini savunmak ve ticaretini sürdürmek. Bu ikilik dört asır boyunca hiç çözülmedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): ticarî imtiyazlar ilk olarak 1390'da kuruldu, ardından çok sayıda anlaşma yapıldı · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `venedik` (gövdesi okundu): ticarî imtiyazlar ilk olarak 1390'da kuruldu, ardından çok sayıda anlaşma yapıldı · Dikkat: gün DOĞRULANMADI" },
 
 // ══════════════════════════════════════════════════════════════════
 // II. TERRAFERMA'YA DÖNÜŞ VE İLK OSMANLI ÇATIŞMALARI (1400-1454)
@@ -2448,7 +2448,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1405-01-01", b:"Padova, Verona ve Vicenza'nın alınması — Terraferma siyaseti", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Padova",
   etiket:["toprak-kazanc","askeri","konu-askeri"],
   d:"Carrara hâkimiyetine son verilerek Padova, Verona ve Vicenza cumhuriyete katıldı. Yüzyıllardır denize dönük olan Venedik ilk kez ciddi bir kara devleti oldu; bu tercih üç yüz yıl boyunca kaynakları deniz ile kara arasında bölecek ve her Osmanlı savaşında ikilem üretecekti.",
-  kaynak:"Treccani, 'La conquista della terraferma' (Terraferma genişlemesi) · ⚠️ şehirlerin ALINIŞ GÜNLERİ doğrulanmadı" },
+  kaynak:"Treccani, 'La conquista della terraferma' (Terraferma genişlemesi) · Dikkat: şehirlerin ALINIŞ GÜNLERİ doğrulanmadı" },
 
 { t:"1409-07-09", b:"Dalmaçya'nın satın alınması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Zadar (Zara)",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
@@ -2463,12 +2463,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1420-10-01", b:"Friuli'nin fethi — Aquileia patrikliğinin sonu", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Udine",
   etiket:["toprak-kazanc","askeri","konu-askeri","konu-din"],
   d:"Venedik kuvvetleri Sacile, Feltre, Belluno, Cadore, Udine, Aquileia ve Monfalcone'yi işgal etti. İki yıllık harekâtla Aquileia patriği Friuli'deki hâkimiyetinden edildi ve Macaristan kralının yukarı Adriyatik'i denetleme umudu boşa çıktı.",
-  kaynak:"Treccani, 'La conquista della terraferma': \"Entro l'autunno del 1420 Arcelli aveva occupato Sacile, Feltre, Belluno, Cadore, Udine, Aquileia e Monfalcone\"; patriğin Friuli hâkimiyetinden edilmesi ve Macar kralının umudunun boşa çıkması · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'La conquista della terraferma': \"Entro l'autunno del 1420 Arcelli aveva occupato Sacile, Feltre, Belluno, Cadore, Udine, Aquileia e Monfalcone\"; patriğin Friuli hâkimiyetinden edilmesi ve Macar kralının umudunun boşa çıkması · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1423-01-01", b:"Selânik'in Bizans'tan devralınması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Selanik",
   etiket:["toprak-kazanc","askeri","konu-askeri"],
   d:"Bizans savunamadığı Selânik'i Venedik'e devretti ve cumhuriyet Osmanlı ilerleyişinin tam önüne yerleşti. Şehir yedi yıl elde tutulabildi; Venedik'in Balkan anakarasında tuttuğu tek büyük şehirdir.",
-  kaynak:"TDV `venedik` (gövdesi okundu): 1423-1430 çatışma dönemi, Selânik'in ele geçirilmesi sırasında · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `venedik` (gövdesi okundu): 1423-1430 çatışma dönemi, Selânik'in ele geçirilmesi sırasında · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1428-01-01", b:"Brescia ve Bergamo'nun alınması — Terraferma'nın en geniş hâli", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Brescia",
   etiket:["toprak-kazanc","konu-askeri"],
@@ -2478,7 +2478,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1430-03-29", b:"Selânik'in kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Selanik",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"II. Murad Selânik'i aldı ve Venedik'in Ege'deki en büyük kara mevzii düştü. Cumhuriyet Osmanlı ile doğrudan savaşın maliyetini ilk kez böyle ölçtü; bundan sonra bir asır boyunca çatışmadan kaçınmayı tercih etti.",
-  kaynak:"TDV `venedik`: 1423-1430 dönemi ve Selânik'in ele geçirilmesi · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `venedik`: 1423-1430 dönemi ve Selânik'in ele geçirilmesi · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1441-11-20", b:"Cremona Barışı — Milano ile sınırın çizilmesi", tur:"antlasma", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
@@ -2488,12 +2488,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1453-05-29", b:"İstanbul'un fethi — Levant düzeninin çöküşü", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"],
   d:"Bizans'ın sonu, Venedik'in iki buçuk asırdır üzerine kurulu olduğu Doğu Akdeniz düzenini ortadan kaldırdı; şehirdeki Venedik kolonisi ağır kayıp verdi ve balyos idam edildi. Cumhuriyet bundan sonra ticaretini imparatorluğun mirasçısıyla anlaşarak sürdürmek zorunda kalacaktı.",
-  kaynak:"⚠️ Okunan TDV `venedik` maddesi 1453'ü Venedik açısından İŞLEMİYOR; tarih ve `dunya:5` M-0873'ün çapa listesinden alındı. Venedik'e ETKİSİ için ayrı kaynak açılamadı — `bulunamadı`" },
+  kaynak:"Dikkat: Okunan TDV `venedik` maddesi 1453'ü Venedik açısından İŞLEMİYOR; tarih ve `dunya:5` ortak çapa listesinden alındı. Venedik'e ETKİSİ için ayrı kaynak açılamadı — `bulunamadı`" },
 
 { t:"1454-04-09", b:"Lodi Barışı — İtalya'da güçler dengesi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Milano ve Venedik delegeleri arasında iki taraflı görüşülen barış Lombardiya'da statükoyu kurdu: Venedik Polesine'i Ferrara'ya bıraktı, Milano'dan Crema'yı aldı ve Francesco Sforza'nın dukalık unvanını tanıdı. Bu barış İtalya'da kırk yıl sürecek beş devletli denge sisteminin temeli sayılır.",
-  kaynak:"Treccani, 'Venezia e la politica italiana: 1454-1530': \"La pace di Lodi fu negoziata bilateralmente tra delegati milanesi e veneziani nell'aprile 1454\"; Polesine Ferrara'ya, Crema Milano'dan, Sforza'nın unvanı tanındı · ⚠️ ayın GÜNÜ doğrulanmadı", yer_kon:[45.3142,9.5034] },
+  kaynak:"Treccani, 'Venezia e la politica italiana: 1454-1530': \"La pace di Lodi fu negoziata bilateralmente tra delegati milanesi e veneziani nell'aprile 1454\"; Polesine Ferrara'ya, Crema Milano'dan, Sforza'nın unvanı tanındı · Dikkat: ayın GÜNÜ doğrulanmadı", yer_kon:[45.3142,9.5034] },
 
 // ══════════════════════════════════════════════════════════════════
 // III. OSMANLI İLE İLK BÜYÜK SAVAŞ VE OKYANUS DARBESİ (1463-1503)
@@ -2502,12 +2502,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"On altı yıl sürecek savaş, Mora'daki Venedik kalelerinin Osmanlı baskısı altına girmesiyle başladı. Cumhuriyet ilk kez bütün gücüyle Osmanlı'ya karşı savaşa girdi ve sonunda ağır bir fatura ödedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"TDV `venedik` (gövdesi okundu): \"Osmanlı-Venedik savaşı esnasında (1463-1479) Venedikliler, Karaman ve Akkoyunlu idarecileriyle ittifak yaptı.\" · depo `savaslar.js` (savas_basi 1463-01-01) · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1470-07-12", b:"Eğriboz'un (Negroponte) kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Ege'deki en değerli Venedik üssü olan Eğriboz Osmanlı eline geçti. Kaybın Venedik'te yarattığı şok, bir deniz imparatorluğunun artık savunmada olduğunun ilk açık kabulüdür.",
-  kaynak:"TDV `egriboz` slug CANLI (gövdesi OKUNMADI) · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `egriboz` slug CANLI (gövdesi OKUNMADI) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1477-10-30", b:"Osmanlı akıncılarının Friuli'ye ulaşması", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Udine",
   etiket:["askeri","konu-askeri"],
@@ -2542,7 +2542,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1498-05-20", b:"Ümit Burnu yolunun açılması — baharat tekelinin kırılması", tur:"kriz", onem:5, dunya:5, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","kriz","konu-siyasi","konu-ekonomi"],
   d:"Portekiz gemilerinin Ümit Burnu üzerinden Hindistan'a varması, Venedik'in üzerine kurulu olduğu Levant baharat ticaretinin tekelini kırdı. Cumhuriyetin zenginliği bir savaşla değil bir deniz yolunun keşfiyle sarsıldı; Venedik tarihyazımında düşüşün başlangıcı çoğu zaman buraya konur.",
-  kaynak:"bulunamadı — okunan kaynaklarda tarih DOĞRULANMADI ⚠️ `dunya:5`, M-0873'ün '1492' çapasıyla aynı sınıfta değerlendirildi; koordinatör başka değer derse uyarlanır" },
+  kaynak:"bulunamadı — okunan kaynaklarda tarih DOĞRULANMADI Dikkat: `dunya:5`, '1492' çapasıyla aynı sınıfta değerlendirildi" },
 
 { t:"1499-08-12", b:"Sapienza (Zonchio) deniz bozgunu", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","konu-askeri"],
@@ -2552,12 +2552,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1500-08-10", b:"Modon ve Koron'un kaybı — \"cumhuriyetin iki gözü\"", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Modon",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Mora'nın güneyindeki iki liman düştü. Venedikliler bu iki kaleye \"cumhuriyetin iki gözü\" derdi, çünkü Doğu'ya giden bütün gemiler oradan su alırdı; kayıpları Levant seferlerinin güvenliğini kalıcı olarak zayıflattı.",
-  kaynak:"TDV `modon` ve `koron` slugları CANLI (gövdeleri OKUNMADI) · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `modon` ve `koron` slugları CANLI (gövdeleri OKUNMADI) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1503-01-01", b:"İkinci savaşın sonu", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Barış Mora'daki kayıpları tescil etti ve Venedik'in Osmanlı karşısındaki geri çekilişinin ikinci halkası oldu. Ticaret imtiyazları yine korundu.",
-  kaynak:"TDV `venedik`: 1499-1502 savaş dönemi · ⚠️ hem GÜN hem YIL kesinliği DOĞRULANMADI (TDV 1502, yaygın adlandırma 1503)", yer_id:"İstanbul" },
+  kaynak:"TDV `venedik`: 1499-1502 savaş dönemi · Dikkat: hem GÜN hem YIL kesinliği DOĞRULANMADI (TDV 1502, yaygın adlandırma 1503)", yer_id:"İstanbul" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. CAMBRAI LİGİ VE AKDENİZ'İN BÖLÜŞÜMÜ (1508-1573)
@@ -2576,7 +2576,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1509-07-17", b:"Padova'nın geri alınması — çöküşün durdurulması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Padova",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Agnadello'dan iki ay sonra Padova geri alındı ve imparator Trentino'da püskürtüldü. Cumhuriyetin yıkılmayıp ligi diplomasiyle dağıtması, Venedik anlatısında devletin dayanıklılığının kanıtı sayılır.",
-  kaynak:"Treccani, 'Cambrai, lega di': \"Nel luglio 1509 Padova tornò in mano veneziana e Massimiliano fu respinto nel Trentino (ottobre)\" · ⚠️ ayın GÜNÜ doğrulanmadı" },
+  kaynak:"Treccani, 'Cambrai, lega di': \"Nel luglio 1509 Padova tornò in mano veneziana e Massimiliano fu respinto nel Trentino (ottobre)\" · Dikkat: ayın GÜNÜ doğrulanmadı" },
 
 { t:"1516-03-29", b:"Ghetto'nun kurulması", tur:"reform", onem:3, dunya:2, kapsam:"ic", yer_id:"Venedik",
   etiket:["din","reform","konu-din","konu-islahat"],
@@ -2586,7 +2586,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1516-10-01", b:"Brescia'nın geri alınması — Terraferma'nın toparlanması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Brescia",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
   d:"Marignano zaferinin ardından Venedik Brescia'yı geri aldı ve kara toprakları büyük ölçüde yeniden kuruldu. Cumhuriyet bundan sonra İtalya'da yayılmacı değil, elindekini koruyan bir güç olarak davranacaktı.",
-  kaynak:"Treccani, 'Cambrai, lega di': \"nel 1516 Venezia riprese Brescia\"; Marignano zaferi Eylül 1515 · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Cambrai, lega di': \"nel 1516 Venezia riprese Brescia\"; Marignano zaferi Eylül 1515 · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1523-05-20", b:"Andrea Gritti'nin doge seçilmesi ve \"renovatio urbis\"", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","kultur","konu-hanedan","konu-kultur","konu-islahat","konu-hukuk"],
@@ -2606,12 +2606,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1538-09-28", b:"Preveze deniz savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Preveze",
   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
   d:"Andrea Doria komutasındaki Haçlı donanması Preveze'de Barbaros Hayreddin Paşa karşısında bozguna uğradı. Yenilgi, Akdeniz'in doğu yarısında üstünlüğün Osmanlı'ya geçtiği an olarak okunur ve Venedik'i iki yıl içinde tek başına barışa zorladı.",
-  kaynak:"depo `data/savaslar.js` (1538-09-28) · ⚠️ TDV `preveze` slug'ı ÖLÜ (302) — bu oturumda ölçüldü, CLAUDE.md §4'te de kayıtlı" },
+  kaynak:"depo `data/savaslar.js` (1538-09-28) · Dikkat: TDV `preveze` slug'ı ÖLÜ (302) — ölçüldü, CLAUDE.md §4'te de kayıtlı" },
 
 { t:"1540-10-02", b:"Üçüncü savaşın sonu — Ege mevzilerinin bırakılması", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Venedik tek başına barış yaparak Nauplia ve Malvasia ile Ege'deki son mevzilerinden bazılarını bıraktı ve tazminat ödedi. Müttefiklerinden ayrı barış yapması, ticaret çıkarını ittifak dayanışmasının önünde tutmasının açık örneğidir.",
-  kaynak:"TDV `venedik`: 1537-1540 çatışma dönemi · ⚠️ GÜN DOĞRULANMADI", yer_id:"İstanbul" },
+  kaynak:"TDV `venedik`: 1537-1540 çatışma dönemi · Dikkat: GÜN DOĞRULANMADI", yer_id:"İstanbul" },
 
 { t:"1570-09-09", b:"Lefkoşa'nın düşüşü", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Lefkoşa",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri"],
@@ -2650,7 +2650,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1582-01-01", b:"1582 Correzione — Onlar Konseyi'nin yetkilerinin kısılması", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
   d:"Anayasal düzeltme, Onlar Konseyi'nin yanındaki \"zonta\"yı kaldırdı, konseyin dış siyasete müdahale imkânını elinden aldı ve onu asıl işlevine — ceza yargısına — geri döndürdü. Yetki Senato'ya kaydı; buna karşılık Devlet Engizisyoncuları güçlendi. Venedik anayasal tarihinde Serrata'dan sonraki en önemli ayardır.",
-  kaynak:"Treccani, 'Le riforme' / 'Il corpo aristocratico': \"La correzione soppresse la 'zonta', tolse al Consiglio dei Dieci la possibilità di intervenire nella politica estera, e lo riportò alle sue funzioni originarie di organo della giustizia penale\"; Devlet Engizisyoncularının güç kazanması · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Le riforme' / 'Il corpo aristocratico': \"La correzione soppresse la 'zonta', tolse al Consiglio dei Dieci la possibilità di intervenire nella politica estera, e lo riportò alle sue funzioni originarie di organo della giustizia penale\"; Devlet Engizisyoncularının güç kazanması · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1587-04-01", b:"Banco della Piazza di Rialto — devlet bankası", tur:"reform", onem:3, dunya:2, kapsam:"ic", yer_id:"Venedik",
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
@@ -2675,7 +2675,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1618-05-18", b:"\"İspanya tertibi\" — gerçekliği tartışmalı bir komplo", tur:"kriz", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","diplomasi","konu-siyasi","konu-diplomasi"],
   d:"Onlar Konseyi, İspanyol elçiliğinin cumhuriyeti devirmeyi planladığı gerekçesiyle toplu infazlar yaptırdı. Tertibin gerçekten var olup olmadığı bugün de tartışmalıdır; vaka, Venedik'in gizli yargı düzeninin hem gücünü hem gölgesini gösterir.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI ⚠️ olayın GERÇEKLİĞİ literatürde tartışmalıdır ve bu, metinde açıkça yazıldı" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI Dikkat: olayın GERÇEKLİĞİ literatürde tartışmalıdır ve bu, metinde açıkça yazıldı" },
 
 { t:"1630-01-01", b:"Büyük veba", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","ekonomi","konu-siyasi","konu-ekonomi","afet","afet-salgin"],
@@ -2686,20 +2686,20 @@ window.KRONOLOJI_VENEDIK = [
 // VI. GİRİT SAVAŞI VE MORA (1645-1699)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1645-06-23", b:"Girit Savaşı başladı — Osmanlı donanması Aya Todori önüne geldi", gun:"23 Haziran 1645 — donanmanın Aya Todori adası önüne gelişi (Menekşe 2021); adadaki iki kale iki günde alındı, karaya çıkış ertesi gün · bu madde eski 1645-08-22 maddesinin BÖLÜNMESİYLE doğdu (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+{ t:"1645-06-23", b:"Girit Savaşı başladı — Osmanlı donanması Aya Todori önüne geldi", gun:"23 Haziran 1645 — donanmanın Aya Todori adası önüne gelişi (Menekşe 2021); adadaki iki kale iki günde alındı, karaya çıkış ertesi gün · bu madde eski 1645-08-22 maddesinin BÖLÜNMESİYLE doğdu", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
   etiket:["askeri","konu-askeri"],
   d:"Malta seferi diye İstanbul'dan çıkan Osmanlı donanması Navarin'den ayrıldıktan sonra asıl hedefin Girit olduğunu açıkladı ve Hanya'nın kuzeybatısındaki Aya Todori adası önüne geldi; adadaki iki Venedik kalesi iki günde alındı. Yirmi dört yıl sürecek savaş, Venedik tarihinin en uzun ve en pahalı mücadelesi oldu.",
-  kaynak:"Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"Bundan sonra donanma, 23 Haziran günü, Hanya’nın kuzeybatısındaki Aya Todori Adası önüne gelmiş ve Girit sahiline çok yakın olan bu adadaki iki kale iki günde zapt edilmiştir\" — cümle donanmanın ada önüne gelişini tarihliyor · aynı makalede Kâtib Çelebi aktarımı: \"Rebî‘ülâhırın yirmi sekizinde (23 Haziran 1645) muhâsara etdiklerinde\" · künyedeki \"Girit (Kandiye) Savaşı başladı\" maddesinin (1645-01-01, mükerrer silmede kaldırıldı) olayı BUDUR (KRONO-AKADEMIK-1006)" },
+  kaynak:"Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"Bundan sonra donanma, 23 Haziran günü, Hanya’nın kuzeybatısındaki Aya Todori Adası önüne gelmiş ve Girit sahiline çok yakın olan bu adadaki iki kale iki günde zapt edilmiştir\" — cümle donanmanın ada önüne gelişini tarihliyor · aynı makalede Kâtib Çelebi aktarımı: \"Rebî‘ülâhırın yirmi sekizinde (23 Haziran 1645) muhâsara etdiklerinde\" · künyedeki \"Girit (Kandiye) Savaşı başladı\" maddesinin (1645-01-01, mükerrer silmede kaldırıldı) olayı BUDUR" },
 
-{ t:"1645-08-22", b:"Hanya'nın fethi — elli dört günlük kuşatmanın sonu", gun:"22 Ağustos 1645 — Hanya Kalesi'nin fethi (Menekşe 2021) · ⚠️ aynı makalede 19 Ağustos 1645 Venedik'in TESLİM TEKLİFİ günüdür (Adıyeke 2002 aktarımı) ve makalenin İngilizce özeti fethi yanlışlıkla \"August 19, 1645\" diye veriyor — makale kendi içinde uyumsuz, BEYAN (KRONO-AKADEMIK-1006 §1 #2)", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
+{ t:"1645-08-22", b:"Hanya'nın fethi — elli dört günlük kuşatmanın sonu", gun:"22 Ağustos 1645 — Hanya Kalesi'nin fethi (Menekşe 2021) · Dikkat: aynı makalede 19 Ağustos 1645 Venedik'in TESLİM TEKLİFİ günüdür (Adıyeke 2002 aktarımı) ve makalenin İngilizce özeti fethi yanlışlıkla \"August 19, 1645\" diye veriyor — makale kendi içinde uyumsuz, BEYAN", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Hanya",
   etiket:["askeri","kusatma","konu-askeri"],
   d:"Osmanlı ordusu elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı; Yusuf Paşa \"Hanya Fâtihi\" unvanını kazandı.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · ⚠️ GÜN DOĞRULANMADI · ⚠️ TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede (devletler.js) 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #2) · gün: Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"22 Ağustos 1645 tarihinde Hanya Kalesi’ni fethederek “Hanya Fâtihi” unvanını almıştır.\" — cümle kalenin fethini tarihliyor · madde 1006'da BÖLÜNDÜ: \"savaşın başlaması\" kısmı 1645-06-23 maddesine geçti (KRONO-AKADEMIK-1006)" },
+  kaynak:"TDV `girit` (gövdesi okundu): \"elli dört gün süren bir kuşatmadan sonra Hanya Kalesi'ni aldı\" (1055/1645) · TDV `venedik`: 1645-1669 dönemi · Dikkat: GÜN DOĞRULANMADI · Dikkat: TDV `hanya` slug'ı ÖLÜ (302, ölçüldü) · daha önce künyede 1645-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı · gün: Metin Menekşe, \"17. Yüzyılda Osmanlı Devleti’nde Makbul iken Maktul Olan Bir Devlet Adamı: Kaptan-ı Derya Silahdâr Yusuf Paşa (1604-1646)\", Stratejik ve Sosyal Araştırmalar Dergisi 5/3 (2021), DOI 10.30692/sisad.987261: \"22 Ağustos 1645 tarihinde Hanya Kalesi’ni fethederek “Hanya Fâtihi” unvanını almıştır.\" — cümle kalenin fethini tarihliyor · madde 1006'da BÖLÜNDÜ: \"savaşın başlaması\" kısmı 1645-06-23 maddesine geçti" },
 
 { t:"1646-03-01", b:"Patrisyenliğin satışa çıkarılması — savaşın anayasal bedeli", tur:"reform", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","ekonomi","konu-ekonomi","konu-islahat","konu-hukuk"],
   d:"Girit savaşının malî yükü altında cumhuriyet, Büyük Konsey'e kabul edilme hakkını 100.000 duka karşılığında satışa çıkardı. 1646 ile 1718 arasında yüz yirmiden fazla aile bu imkândan yararlandı; Altın Kitap toptan değil, vaka vaka açıldı. Serrata'nın üç buçuk asırlık kapalılığı bir savaş masrafı yüzünden delindi.",
-  kaynak:"Treccani, 'Il corpo aristocratico' / 'La società veneziana': \"la Repubblica mise in vendita per 100.000 ducati il diritto di essere accolti in Maggior Consiglio, e fra il 1646 e il 1718 più di centoventi famiglie approfittarono\"; Şubat-Mart 1646 kararnamesi Senato'da kabul, Büyük Konsey'de reddedildi, Libro d'oro vaka vaka açıldı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'Il corpo aristocratico' / 'La società veneziana': \"la Repubblica mise in vendita per 100.000 ducati il diritto di essere accolti in Maggior Consiglio, e fra il 1646 e il 1718 più di centoventi famiglie approfittarono\"; Şubat-Mart 1646 kararnamesi Senato'da kabul, Büyük Konsey'de reddedildi, Libro d'oro vaka vaka açıldı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1648-05-01", b:"Kandiye kuşatmasının başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Kandiye (Girit)",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -2724,17 +2724,17 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1684-03-05", b:"Kutsal İttifak'a katılma", tur:"ittifak", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"Viyana bozgunundan sonra kurulan ittifaka Venedik de girdi ve on beş yıl sürecek son büyük taarruzuna başladı. Girit'i kaybetmiş bir cumhuriyet için bu, kayıpları telafi etmenin son fırsatıydı.",
-  kaynak:"⚠️ GÜN DOĞRULANMADI · 🔴 `dunya:3` — Habsburg dosyasındaki aynı olayla BİREBİR AYNI (M-0880'de ilan edildi)", yer_kon:[48.3069,14.2858] },
+  kaynak:"Dikkat: GÜN DOĞRULANMADI · `dunya:3` — Habsburg kronolojisindeki aynı olayla birebir aynı", yer_kon:[48.3069,14.2858] },
 
 { t:"1685-06-01", b:"Mora seferinin başlaması — Morosini'nin taarruzu", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Koron",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Francesco Morosini kumandasındaki büyük donanma Mora'ya çıkarma yaptı ve iki yıl içinde bütün yarımadayı ele geçirdi. Venedik iki yüz yıl sonra ilk kez Osmanlı'dan toprak alıyordu; Morosini'ye \"Peloponnesiacus\" unvanı verildi.",
-  kaynak:"TDV `mora` (gövdesi okundu): \"1095 (1684) ile 1097 (1686) yılları arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir donanma Mora'ya çıkarma yaparak bütün yarımadayı ele geçirdi\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `mora` (gövdesi okundu): \"1095 (1684) ile 1097 (1686) yılları arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir donanma Mora'ya çıkarma yaparak bütün yarımadayı ele geçirdi\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1687-09-26", b:"Atina'nın alınması ve Parthenon'un patlaması", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","kultur","konu-askeri","konu-kultur"],
   d:"Morosini'nin ordusu Atina'yı kuşattı; Akropolis'te cephanelik olarak kullanılan Parthenon bir Venedik humbarasıyla infilak etti. Askerî olarak küçük, kültürel olarak kalıcı bir olaydır ve Mora seferinin en çok anılan sahnesidir.",
-  kaynak:"bulunamadı — bu oturumda kaynaktan DOĞRULANMADI, gün de doğrulanmadı" },
+  kaynak:"bulunamadı — kaynaktan DOĞRULANMADI, gün de doğrulanmadı" },
 
 { t:"1688-10-20", b:"Eğriboz kuşatmasının başarısızlığı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -2744,7 +2744,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1692-01-01", b:"Granbosa Kalesi'nin kaybı", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Girit'in kuzeybatısındaki Granbosa Kalesi Osmanlılar tarafından alındı ve adada kalan üç Venedik mevziinden biri düştü.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"Granbosa Kalesi ise 1692 yılında ele geçirilmişti\" · depo `savaslar.js` (1692-01-01) · ⚠️ gün DOĞRULANMADI", yer_kon:[35.6119,23.5814] },
+  kaynak:"TDV `girit` (gövdesi okundu): \"Granbosa Kalesi ise 1692 yılında ele geçirilmişti\" · depo `savaslar.js` (1692-01-01) · Dikkat: gün DOĞRULANMADI", yer_kon:[35.6119,23.5814] },
 
 { t:"1694-09-21", b:"Sakız'ın alınması", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis", yer_id:"Sakız",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -2759,7 +2759,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1699-01-26", b:"Karlofça Antlaşması — Mora'nın Venedik'e bırakılması", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Antlaşmayla Mora yarımadası Venedik'te kaldı; cumhuriyet iki yüz yıl sonra ilk kez Osmanlı'dan toprak kazanarak bir savaştan çıktı. Bu kazanç Venedik'te büyük gurur kaynağı oldu ama yalnız on altı yıl sürdü.",
-  kaynak:"depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · 🔴 `dunya:4` — Habsburg dosyasıyla BİREBİR AYNI, M-0873 çapa listesinde de 4", yer_kon:[45.2019,19.9339] },
+  kaynak:"depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · `dunya:4` — Habsburg kronolojisiyle birebir aynı", yer_kon:[45.2019,19.9339] },
 
 // ══════════════════════════════════════════════════════════════════
 // VII. SON SAVAŞ VE CUMHURİYETİN SONU (1700-1797)
@@ -2770,10 +2770,10 @@ window.KRONOLOJI_VENEDIK = [
   d:"Osmanlı Devleti Mora'yı geri almak için savaş ilan etti. Venedik bu savaşa yalnız girdi; Karlofça'nın kazancını koruyacak ne donanması ne müttefiki vardı.",
   kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi", yer_id:"İstanbul" },
 
-{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3) · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
+{ t:"1715-09-07", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür · eski t 1715-07-01 kaynaksızdı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Damad Ali Paşa'nın harekâtıyla Osmanlılar bir yaz mevsiminde bütün yarımadayı geri aldı; aynı sefer sırasında Girit'te kalan Suda ve Spinalonga kaleleri de düştü. Karlofça'nın kazancı on altı yılda geri verilmiş oldu.",
-  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · ⚠️ GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 (KRONO-AKADEMIK-1006)" },
+  kaynak:"TDV `mora` (gövdesi okundu): \"Damad Ali Paşa'nın askerî harekâtı sonucu (1127/1715 yazı) Mora'ya geri geldiklerinde\" · TDV `girit`: \"Spinalonga ile Suda kaleleri ... 1127 (1715) yılında ... Mora seferi sırasında fethedildi\" · Dikkat: GÜN DOĞRULANMADI (kaynak '1715 yazı' diyor) · gün: Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193" },
 
 { t:"1716-08-20", b:"Korfu savunması — son zafer", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Korfu",
   etiket:["askeri","kusatma","konu-askeri"],
@@ -2783,7 +2783,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1718-07-21", b:"Pasarofça Antlaşması — Mora'nın kesin kaybı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"21 Temmuz 1718'de imzalanan yirmi altı maddelik antlaşmayla Osmanlı, savaşta zaptettiği Çuha Adası'nı (Çuka/Kythira, Cerigo) Venedik'e iade etti; Ayamavra (Lefkada) da 1715'te geçtiği Osmanlı elinden Venedik'e terk edildi ve 1797'ye dek Venedik'te kaldı. Venedik ayrıca Korfu karşısındaki Butrinto sahil şehrini, İfrindos, Preveze ve Voniçe'yi aldı; karşılığında Bosna-Ragusa arasında serbest yol bırakılıp üç palanka Osmanlı sınırlarına katıldı. Mora antlaşma metninde anılmadı — 1715'te Osmanlı'ya geçmişti. Cumhuriyetin Osmanlı ile savaşları burada sona erdi.",
-  kaynak:"TDV `pasarofca-antlasmasi` (gövdesi okundu): imza 22 Şâban 1130 / 21 Temmuz 1718; Çuka iadesi; Butrinto, İfrindos, Preveze, Voniçe · TDV `ayamavra`: \"1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi\" · 🔴 `dunya:3` — Habsburg dosyasıyla BİREBİR AYNI (M-0880) · d KRONO-ITALYA-0929'da düzeltildi (eski metin 'Korfu bırakıldı' diyordu; TDV Korfu'dan söz etmiyor)", yer_kon:[44.62,21.19] },
+  kaynak:"TDV `pasarofca-antlasmasi` (gövdesi okundu): imza 22 Şâban 1130 / 21 Temmuz 1718; Çuka iadesi; Butrinto, İfrindos, Preveze, Voniçe · TDV `ayamavra`: \"1718'de Pasarofça Antlaşması ile ada Venedik'e terkedildi\" · `dunya:3` — Habsburg kronolojisiyle birebir aynı · d düzeltildi (eski metin 'Korfu bırakıldı' diyordu; TDV Korfu'dan söz etmiyor)", yer_kon:[44.62,21.19] },
 
 { t:"1720-01-01", b:"Silahlı tarafsızlık siyasetine geçiş", tur:"diplomasi", onem:4, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["diplomasi","konu-diplomasi"],
@@ -2803,7 +2803,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1789-03-09", b:"Ludovico Manin'in doge seçilmesi — son doge", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Cumhuriyetin yüz yirminci ve son dogesi seçildi. Sekiz yıl sonra cumhuriyetin feshine başkanlık edecekti.",
-  kaynak:"Treccani, 'Manìn, Ludovico': cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) doge olduğu · ⚠️ SEÇİM GÜNÜ doğrulanmadı" },
+  kaynak:"Treccani, 'Manìn, Ludovico': cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) doge olduğu · Dikkat: SEÇİM GÜNÜ doğrulanmadı" },
 
 { t:"1797-04-20", b:"Lido olayı — Fransız gemisine ateş açılması", tur:"kriz", onem:4, dunya:1, kapsam:"dis", yer_id:"Venedik",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],
@@ -2813,12 +2813,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1797-05-12", b:"Büyük Konsey'in kendini feshi — cumhuriyetin sonu", tur:"son", onem:5, dunya:3, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","askeri","konu-askeri","konu-siyasi","konu-islahat","konu-hukuk"],
   d:"Napolyon'un tehdidi altında Büyük Konsey son kez toplandı ve cumhuriyeti feshetme kararı aldı; son doge Ludovico Manin görevi bıraktı. Bin yıllık cumhuriyet bir muharebe verilmeden sona erdi — Venedik belleğinde bu en ağır utanç anıdır.",
-  kaynak:"Treccani, 'Manìn, Ludovico': Manin, cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) dogeydi; \"Il doge abbandonò il potere con dignitosa fermezza\" · ⚠️ GÜN DOĞRULANMADI (kaynak 'Mayıs 1797' diyor)" },
+  kaynak:"Treccani, 'Manìn, Ludovico': Manin, cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) dogeydi; \"Il doge abbandonò il potere con dignitosa fermezza\" · Dikkat: GÜN DOĞRULANMADI (kaynak 'Mayıs 1797' diyor)" },
 
 { t:"1797-10-17", b:"Campoformio Antlaşması — Venedik'in Avusturya'ya verilmesi", tur:"son", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Napolyon, Venedik'i ve topraklarını Avusturya'ya bıraktı; bağımsızlık kesin olarak sona erdi ve şehir sonradan Lombardo-Veneto'nun parçası oldu. Venedik'in bir pazarlık kozu olarak devredilmesi, İtalyan tarihyazımında bağımsızlık kaybının simgesi sayılır.",
-  kaynak:"Treccani, 'Manìn, Ludovico': \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria e, perduta l'indipendenza, entrò a far parte del Lombardo-Veneto\" · 🔴 `dunya:4` — Habsburg dosyasında bu gün YOK; değer ötekiler için REFERANSTIR", yer_kon:[46.0167,13.1667] },
+  kaynak:"Treccani, 'Manìn, Ludovico': \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria e, perduta l'indipendenza, entrò a far parte del Lombardo-Veneto\" · `dunya:4` — Habsburg dosyasında bu gün YOK; değer ötekiler için REFERANSTIR", yer_kon:[46.0167,13.1667] },
 
 ];
 
@@ -2939,7 +2939,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: AQ QOYUNLU", yer_id:"Tebriz" },
 
 // === C) SAFEVÎ KURULUŞU VE YÜKSELİŞİ — ŞAH İSMAİL (1501-1524) ===============
-{ t:"1501-07-01", b:"Şah İsmail Tebriz'de tahta çıktı — Safevî Devleti kuruldu", gun:"907 / 1501 — TDV `safeviler` yalnız yıl veriyor; t = `safevi` künyesinin f günü (KAYNAK DEĞİL — D213 künye günü devralma, yıla indirmek künye penceresinin önüne düşürürdü)", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ t:"1501-07-01", b:"Şah İsmail Tebriz'de tahta çıktı — Safevî Devleti kuruldu", gun:"907 / 1501 — TDV `safeviler` yalnız yıl veriyor; t = `safevi` künyesinin f günü (kaynak değil; devlet künyesinin başlangıç günü devralındı)", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","din","konu-siyasi","konu-hanedan","konu-din"],
   d:"[Safevî] Erdebil tarikatının genç şeyhi İsmail, Kızılbaş Türkmen boylarının desteğiyle Akkoyunlu artıklarını yenip Tebriz'i ele geçirdi ve kendini şah ilan etti; aynı anda Şiî On İki İmam mezhebini devletin resmî mezhebi ilan etti. İran tarihyazımında bu, ülkenin 900 yıl sonra yeniden BİRLEŞİK ve BAĞIMSIZ bir İran devletine kavuşmasının ve bugüne kadar süren Şiî kimliğinin kuruluş anıdır — Kulikovo/1613 düzeyinde bir dönüm noktası.",
   kaynak:"safeviler (TDV, doğrulanmış — data/olaylar*.js kullanıyor)", yer_id:"Tebriz" },
@@ -2990,7 +2990,7 @@ window.KRONOLOJI_IRAN = [
 { t:"1578-01-01", b:"Osmanlı-Safevî Savaşı başladı (1590'a dek)", gun:"1578 — yıl hassasiyeti · TDV `safeviler`, `ilhanlilar`, `kacarlar`, `zendler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"savas", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] Safevî'deki veraset krizinden yararlanan III. Murad, Kafkasya ve Azerbaycan'a sefer düzenledi; on iki yıl süren savaş Safevî için ağır toprak kayıplarıyla, Ferhad Paşa Antlaşması'yla sonuçlandı.",
-  kaynak:"ferhad-pasa-antlasmasi (TDV — MÜSTAKİL MADDESİ YOK, hükümleri luristan maddesinden derlendi, CLAUDE.md §4'te belgeli)", kapsam_genis:true },
+  kaynak:"ferhad-pasa-antlasmasi (TDV — MÜSTAKİL MADDESİ YOK, hükümleri luristan maddesinden derlendi)", kapsam_genis:true },
 { t:"1590-03-21", b:"Ferhad Paşa (İstanbul) Antlaşması — büyük toprak kaybı", gun:"998 (1590)", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis",
   etiket:["antlasma","kayip","konu-askeri","konu-diplomasi"],
   d:"[Safevî] Şah Muhammed Hüdâbende'nin oğlu I. Abbas, iç kargaşayı bastırmak için Osmanlı'nın ağır şartlarını kabul etti: Azerbaycan, Şirvan, Karabağ, Gürcistan'ın büyük kısmı ve Luristan'ın bir bölümü Osmanlı'ya bırakıldı. İran tarihyazımında bu, Safevî devletinin en dip noktalarından biri ve Şah Abbas'ın sonraki 20 yıllık toparlanma-intikam siyasetinin doğrudan tetikleyicisi sayılır.", ic_not_d:"eski kaynak: ferhad-pasa-antlasmasi (TDV — müstakil maddesi yok) + luristan (TDV, doğrulanmış)",
@@ -2998,7 +2998,7 @@ window.KRONOLOJI_IRAN = [
 { t:"1587-10-01", b:"I. Şah Abbas tahta çıktı", gun:"Ekim 1587 — ay hassasiyeti (TDV `abbas-i`: \"Safevî tahtına oturttu (Ekim 1587)\"; `safeviler` hükümdar listesi: Abbas I 995 (1587))", tur:"hukumdar", onem:4, dunya:3, kapsam:"ic",
   etiket:["siyaset","reform","konu-siyasi","konu-hanedan","konu-islahat"],
   d:"[Safevî] On yedi yaşındaki Abbas, babası Muhammed Hüdâbende'nin yerine Kızılbaş emîrlerince tahta çıkarıldı; 42 yıllık saltanatı Safevî devletinin askerî, idari ve kültürel zirvesi olacaktı. İran tarihyazımında Şah Abbas dönemi, Rusya'nın Petro'su veya Osmanlı'nın Kanûnî'si düzeyinde bir \"altın çağ\" referans noktasıdır.",
-  kaynak:"safeviler (TDV, doğrulanmış) · abbas-i (TDV: Ekim 1587 — eski kayıt 1588 diyordu; CLAUDE.md §4 çelişkide TDV esas)", yer_id:"Kazvin" },
+  kaynak:"safeviler (TDV, doğrulanmış) · abbas-i (TDV: Ekim 1587 — eski kayıt 1588 diyordu; çelişkide TDV esas alındı)", yer_id:"Kazvin" },
 { t:"1598-01-01", b:"Başkent İsfahan'a taşındı", gun:"1598 — yıl hassasiyeti · TDV `safeviler`, `ilhanlilar`, `kacarlar`, `zendler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","kultur","konu-idari","konu-kultur"],
   d:"[Safevî] Şah Abbas, başkenti ülkenin daha güvenli iç kesimindeki İsfahan'a taşıdı ve şehri Nakş-ı Cihan Meydanı, Şah Camii ve Çihil Sütun sarayı gibi anıtsal yapılarla \"dünyanın yarısı\" (Nısf-ı Cihân) denilecek bir başkente dönüştürdü.",
@@ -3011,7 +3011,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] Şah Abbas, yeni ordusuyla 1590'da kaybedilen toprakları geri almak için sefere çıktı; Tebriz, Erivan ve Şirvan'ı geri aldı. Osmanlı ile aralıklarla 36 yıl süren bu uzun savaş dizisi, İran tarihyazımında Şah Abbas'ın \"intikam ve restorasyon\" döneminin omurgasıdır ve nihayetinde Kasr-ı Şirin ile bugünkü Türkiye-İran sınırının temelini kurdu.",
   kaynak:"kasrisirin-antlasmasi (TDV, HTTP 200 + başlık «KASRIŞÎRİN ANTLAŞMASI», 14 Eylül 2026 sınandı; eski kasr-i-sirin-antlasmasi 302 ÖLÜ)", yer_id:"Tebriz" },
-{ t:"1622-05-01", b:"Hürmüz'ün Portekiz'den geri alınması", gun:"Mayıs 1622? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `safeviler`, `ilhanlilar`, `kacarlar`, `zendler` … ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
+{ t:"1622-05-01", b:"Hürmüz'ün Portekiz'den geri alınması", gun:"Mayıs 1622? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `safeviler`, `ilhanlilar`, `kacarlar`, `zendler` … ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri"],
   d:"[Safevî] Şah Abbas, İngiliz Doğu Hindistan Şirketi donanmasının desteğiyle Hürmüz Boğazı'ndaki Portekiz kalesini ele geçirdi; Basra Körfezi ticaret yolları üzerindeki Avrupalı tekel bu şekilde kırıldı ve İran'ın deniz ticaretindeki konumu güçlendi.",
   kaynak:"Encyclopaedia Iranica, madde: HORMUZ ii. Islamic period", yer_id:"Hürmüz Adası" },
@@ -3141,7 +3141,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["siyaset","konu-siyasi","konu-kisiler"],
   d:"[Kaçar] Nâsırüddin Şah'ın annesi ve saray çevresinin entrikalarıyla görevden alınan Emîr Kebîr, Kâşan yakınlarındaki Fîn Hamamı'nda öldürüldü; ölümü, 19. yüzyıl İran'ında reformcu-gerici çatışmasının en trajik ve sembolik örneği olarak hatırlanır.",
   kaynak:"Encyclopaedia Iranica, madde: AMIR KABIR", yer_kon:[33.902,51.4192] },
-{ t:"1856-10-01", b:"Herat Savaşı — İngiltere ile çatışma", gun:"Ekim 1856? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+{ t:"1856-10-01", b:"Herat Savaşı — İngiltere ile çatışma", gun:"Ekim 1856? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Kaçar] İran'ın Afgan şehri Herat'ı ele geçirme girişimi, İngiltere'nin savaş ilanına ve Basra Körfezi'ndeki askerî müdahalesine yol açtı; Paris Antlaşması'yla (1857) İran, Herat üzerindeki iddialarından vazgeçmek zorunda kaldı — İngiliz-Rus \"Büyük Oyun\"un İran topraklarındaki en somut çatışmalarından biri.",
   kaynak:"Encyclopaedia Iranica, madde: HERAT vi. THE HERAT QUESTION", yer_id:"Herat" },
@@ -3153,11 +3153,11 @@ window.KRONOLOJI_IRAN = [
   etiket:["ekonomi","konu-ekonomi"],
   d:"[Kaçar] Nâsırüddin Şah, İran'ın tütün üretimi, işlenmesi ve satışı üzerinde 50 yıllık tam tekeli bir İngiliz şirketine (Major Talbot) verdi; bu, halkın günlük hayatına doğrudan dokunan en tepki çekici imtiyaz oldu.",
   kaynak:"Encyclopaedia Iranica, madde: TOBACCO PROTEST", yer_id:"Tahran" },
-{ t:"1891-12-01", b:"Tütün İsyanı — büyük fetva ve kitlesel boykot", gun:"Aralık 1891? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"isyan", onem:5, dunya:3, kapsam:"ic",
+{ t:"1891-12-01", b:"Tütün İsyanı — büyük fetva ve kitlesel boykot", gun:"Aralık 1891? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"isyan", onem:5, dunya:3, kapsam:"ic",
   etiket:["isyan","din","konu-isyan","konu-din"],
   d:"[Kaçar] Büyük müctehid Mirza Hasan Şirazi'nin tütün kullanımını yasaklayan fetvası, sarayın kendi hareminden en yoksul köylere kadar bütün ülkede kitlesel bir boykota dönüştü; şah imtiyazı iptal etmek zorunda kaldı. İran tarihyazımında bu, ulemâ-tüccar-halk ittifakının yabancı ekonomik nüfuza karşı ilk BAŞARILI kitlesel direnişi ve 1906 Meşrutiyet Devrimi'ne giden yolun ilk büyük adımı sayılır — Rusya'daki 1905'in İran'daki 1917 düzeyinde bir öncü provası.",
   kaynak:"Encyclopaedia Iranica, madde: TOBACCO PROTEST", kapsam_genis:true },
-{ t:"1896-05-01", b:"Nâsırüddin Şah suikastla öldürüldü", gun:"1 Mayıs 1896? — ay/gün Encyclopaedia Iranica'ya dayanıyor (bu oturum Iranica'ya erişemedi) · ⚠️ ÇELİŞKİ: TDV `kacarlar` \"3 Zilkade 1313 / 16 Nisan 1896\" diyor — CLAUDE.md §4'e göre TDV esastır; hüküm koordinatörde (bkz. DUZELTME)", tur:"diger", onem:4, dunya:1, kapsam:"ic",
+{ t:"1896-05-01", b:"Nâsırüddin Şah suikastla öldürüldü", gun:"1 Mayıs 1896? — ay/gün Encyclopaedia Iranica'ya dayanıyor (Iranica'ya erişilemedi) · Dikkat: ÇELİŞKİ: TDV `kacarlar` \"3 Zilkade 1313 / 16 Nisan 1896\" diyor — TDV esas alınır; hüküm bekliyor", tur:"diger", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
   d:"[Kaçar] Pan-İslamist Cemâleddin Efgânî'nin bir müridi olan Mirza Rıza Kirmânî, saltanatının 50. yıl kutlamaları arifesinde şahı bir hac türbesinde silahla vurarak öldürdü; suikast, imtiyazlara ve otokratik yönetime duyulan derin öfkenin bir başka somut göstergesiydi.",
   kaynak:"Encyclopaedia Iranica, madde: NĀṢER-AL-DIN SHAH QAJAR", yer_kon:[35.5636,51.4331] },
@@ -3191,7 +3191,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["diplomasi","kayip","konu-askeri","konu-diplomasi"],
   d:"[Kaçar] Amerikalı mali danışman Morgan Shuster'ın reform çabalarından rahatsız olan Rusya, askerî müdahale tehdidiyle Meclis'in kapatılmasını dayattı; Rus birlikleri kuzey İran'ı fiilen işgal etti. Bu, 1907 Antlaşması'nın öngördüğü nüfuz bölgelerinin artık örtülü değil AÇIK biçimde uygulandığı bir dönemeçtir.",
   kaynak:"Encyclopaedia Iranica, madde: SHUSTER, W. MORGAN", yer_id:"Tahran" },
-{ t:"1914-11-01", b:"I. Dünya Savaşı'nda tarafsızlık ilan edildi (fiilen işgal edildi)", gun:"Kasım 1914? — ay TDV-dışı kaynağa dayanıyor ve bu oturumda DOĞRULANAMADI (Iranica bu oturumdan Cloudflare engeliyle okunamadı) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"savas", onem:4, dunya:5, kapsam:"dis",
+{ t:"1914-11-01", b:"I. Dünya Savaşı'nda tarafsızlık ilan edildi (fiilen işgal edildi)", gun:"Kasım 1914? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `kacarlar`, `ilhanlilar`, `safeviler`, `zendler` … ay/gün vermiyor", tur:"savas", onem:4, dunya:5, kapsam:"dis",
   etiket:["askeri","diplomasi","konu-askeri","konu-diplomasi"],
   d:"[Kaçar] İran resmen tarafsızlığını ilan etmesine rağmen toprakları Osmanlı, Rus ve İngiliz kuvvetlerinin çarpıştığı bir cephe hâline geldi (Kafkas-İran cephesi); merkezî hükûmet fiilen hiçbir tarafı kontrol edemedi. İran tarihyazımında bu dönem \"unutulmuş soykırım\" olarak da anılan 1917-1919 kıtlığıyla (savaşın dolaylı sonucu) birlikte ülke tarihinin en acı dönemlerinden biridir — dünya savaşının doğrudan bir parçası olduğu için dunya ekseninde 1914 seferberliğiyle aynı düzeyde işaretlendi.",
   kaynak:"Encyclopaedia Iranica, madde: WORLD WAR I", yer_id:"Tahran" },

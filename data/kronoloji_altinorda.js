@@ -84,7 +84,7 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["siyaset","hukumdar","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Saray (Selitrennoye)",
   d:"Tokta Han'ın ölümü üzerine, yaklaşık yirmi üç yaşındaki Özbek Han tahta çıktı. Saltanatı Altın Orda'nın en kudretli devri olacak, devletin hem sınırları hem de kurumsal düzeni bu dönemde oturacaktır.", ic_not_d:"⚠️ TDV kendi içinde çelişiyor: ana madde saltanatı '1315-1341' verir, Özbek Han'ın kendi maddesi 1313 cülûsunu ve 740 (1340) vefatını yazar — bu dosya daha ince tanecikli olan monografi maddesini esas aldı.",
-  kaynak:"TDV, madde: ozbek-han — 'Tokta Han'ın ölümü üzerine han oldu'; saltanat 1313-1340. ⚠️ ana madde altin-orda-hanligi '1315-1341' diyor, ÇELİŞKİ kayda geçirildi" },
+  kaynak:"TDV, madde: ozbek-han — 'Tokta Han'ın ölümü üzerine han oldu'; saltanat 1313-1340. Dikkat: ana madde altin-orda-hanligi '1315-1341' diyor, ÇELİŞKİ kayda geçirildi" },
 
 { t:"1314-05-11", b:"Özbek Han İlhanlı hükümdarı Olcaytu'ya elçi gönderdi", tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
@@ -132,7 +132,7 @@ window.KRONOLOJI_ALTINORDA = [
   etiket:["kultur","sosyal","ekonomi","konu-kisiler","konu-ekonomi","konu-kultur","konu-imar","konu-sosyal"],
   yer_id:"Saray (Selitrennoye)",
   d:"Faslı seyyah İbn Battûta 1330'lu yıllarda Altın Orda topraklarını dolaştı. Saray'ı 'atlı bir yolcunun sabahtan akşama ancak kat edebileceği' genişlikte, on üç cuma camili, çarşıları dolup taşan bir şehir olarak anlattı; Türk, Moğol, Alan, Çerkez, Rum ve Rus cemaatleri ayrı mahallelerde oturuyordu. Kefe'de ise nüfusun çoğunluğunun Cenevizli olduğunu, yanı başında Müslüman mescidleri bulunduğunu kaydetti.", ic_not_d:"⚠️ Seyahatin bu bölümünün TAM GÜNÜ kaynakta yok; 1333 kabaca ortalanmış bir yıldır, kesin değildir.",
-  kaynak:"TDV, madde: saray--sehir (İbn Battûta tasviri, on üç cuma camii, ~10 km²) + TDV, madde: kefe (1330'larda ... çoğunluğu Cenevizli). ⚠️ yıl yaklaşıktır" },
+  kaynak:"TDV, madde: saray--sehir (İbn Battûta tasviri, on üç cuma camii, ~10 km²) + TDV, madde: kefe (1330'larda ... çoğunluğu Cenevizli). Dikkat: yıl yaklaşıktır" },
 
 { t:"1340-01-01", b:"Özbek Han vefat etti — hanlığın en kudretli devri kapandı", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","hukumdar","konu-siyasi","konu-hanedan"],
@@ -179,7 +179,7 @@ window.KRONOLOJI_ALTINORDA = [
 { t:"1380-01-01", b:"Toktamış, Kalka boyunda Mamay'ı yendi — yirmi yıllık kargaşa sona erdi, devlet yeniden birleşti", tur:"savas", onem:5, dunya:3, kapsam:"ic",
   etiket:["askeri","siyaset","ic-savas","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"",
-  d:"Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. 🔴 Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır.", ic_not_d:"⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil.",
+  d:"Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır.", ic_not_d:"⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil.",
   kaynak:"TDV, madde: toktamis-han — 'Don nehrine dökülen Kalka ırmağı boyunda mağlûp etti' (GÜN VERİLMİYOR)" },
 
 { t:"1382-08-26", b:"Toktamış Moskova'yı hile ile alıp yaktı — haraç yeniden dayatıldı", tur:"savas", onem:5, dunya:2, kapsam:"dis",

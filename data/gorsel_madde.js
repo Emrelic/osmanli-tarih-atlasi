@@ -52,6 +52,23 @@
 
 window.GORSEL_MADDE = [
   {
+    id:            "1654-12-01-katib-celebi-cihannuma-1732-arabistan",
+    tur:           "madde",
+    // 13 Ekim 2026 (OKUR-DILI, Emre onayı): Kâtib Çelebi'nin hayattan çizilmiş
+    // bir portresi YOK (Commons'ta bulunamadı; 19. yy hayalî tasvirleri
+    // alınmadı). Yerine KENDİ ESERİ: Cihannümâ'nın 1732 Müteferrika baskısı.
+    olay:          ["1654-12-01"],
+    url:           "assets/gorseller/1654-12-01-katib-celebi-cihannuma-1732-arabistan.jpg",
+    baslik:        "Cihannümâ'dan Arabistan haritası (1732 baskısı)",
+    gorsel_alt:    "Kâtib Çelebi'nin Cihannümâ adlı coğrafya eserinin 1732'de İbrahim Müteferrika matbaasında basılan nüshasından Arabistan haritası",
+    eser:          "Kitâb-ı Cihannümâ (İstanbul, 1732), Houghton Library, Harvard, Typ 794.34.475",
+    sanatci:       "Kâtib Çelebi (1609-1657); baskı: İbrahim Müteferrika",
+    yil:           "1732 (eser: 1648-1657)",
+    lisans:        "PD-old-100",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Houghton_Typ_794.34.475_-_K%C3%A2tip_%C3%87elebi,_Kitab-%C4%B1_cihann%C3%BCma.jpg",
+    kesinlik:      "donem-sonrasi-tasvir"
+  },
+  {
     id:            "1566-09-07-sokullu-mehmed-pasa-portresi",
     tur:           "portre",
     // PAKET-A2 13 Eyl (0027/H-0005 "görsel maddeyle ilgili olsun"): "1566-09-07" ÇIKARILDI.

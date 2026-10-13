@@ -54,7 +54,7 @@ window.OLAYLAR_ILIRYA0072 = [
   kisiler:"Napolyon Bonapart, Vicenzo Dandolo",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
   d:"26 Aralık 1805 Pojun (Bratislava/Pressburg) Antlaşması Avusturya'yı İstriya, Dalmaçya ve bütün Adriyatik adalarından vazgeçmeye zorladı. Fransa idareyi Şubat 1806'da fiilen devraldı; Zadar genel proveditör merkezi olarak kaldı ve 1806-1810 arasında bu görevi Venedikli Vicenzo Dandolo yürüttü. Dalmaçya 1809 Schönbrunn Antlaşması'ndan sonra İlirya Eyaletleri'ne katıldı. 1797'den beri süren ilk Avusturya idaresi böylece sona erdi — atlasta bu dönem bugüne kadar kesintisiz Avusturya görünüyordu.",
-  kaynak:"Hrvatska enciklopedija (LZMK) `dalmacija` — AYNEN: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji.\" ve Pojun için \"26. XII. 1805\" · LZMK `zadar` — AYNEN: \"Uspostavom francuske uprave 1806-13. Zadar je ostao sjedištem generalnoga providura.\" · hassasiyet: AY (Şubat 1806) · TDV bu coğrafyayı bu tanecikte KAPSAMIYOR (CLAUDE.md §4)",
+  kaynak:"Hrvatska enciklopedija (LZMK) `dalmacija` — AYNEN: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji.\" ve Pojun için \"26. XII. 1805\" · LZMK `zadar` — AYNEN: \"Uspostavom francuske uprave 1806-13. Zadar je ostao sjedištem generalnoga providura.\" · hassasiyet: AY (Şubat 1806) · TDV bu coğrafyayı bu tanecikte KAPSAMIYOR",
   ic_not_d:"15 Dalmaçya kaydının tamamı BÖLGE hükmüyle sınıflandı: kaynağın kendi birimi burada şehir değil bölgedir (\"Dalmacija\", \"svih jadranskih otoka\"). Şehir taneciğinde ayrı tanıklık YALNIZ Zadar'da var." },
 
 // ── 1806 · Kvarner adaları İtalya Krallığı'na, Boka Rus idaresine ────

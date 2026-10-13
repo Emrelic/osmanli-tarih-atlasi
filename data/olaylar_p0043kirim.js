@@ -47,7 +47,7 @@ window.OLAYLAR_P0043KIRIM = [
   yer:"Anapa, Kuban kıyısı", yer_id:"Anapa",
   kisiler:"",
   d:"1781'de Ferah Ali Paşa yönetiminde inşa edilen Anapa kalesi, savaş süresince Ruslar tarafından üç defa kuşatıldı; üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi. İşgal geçiciydi — Yaş Antlaşması'yla (1792) Kafkasya'da eski sınırlar kabul edildiğinden kale Osmanlı Devleti'ne geri verildi.",
-  kaynak:"TDV `anapa` (200, gövdesi okundu): \"Savaş süresince Ruslar tarafından üç defa kuşatılan Anapa üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi\" · \"[Yaş Antlaşması ile] Kafkasya'da eski sınırlar kabul edildiğinden Osmanlı Devleti'ne geri verildi.\" (alıntı denetim/ARASTIRMA-KIRIM-0912.md'den AYNEN taşındı, D104)",
+  kaynak:"TDV `anapa` (200, gövdesi okundu): \"Savaş süresince Ruslar tarafından üç defa kuşatılan Anapa üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi\" · \"[Yaş Antlaşması ile] Kafkasya'da eski sınırlar kabul edildiğinden Osmanlı Devleti'ne geri verildi.\" (alıntı aynen alındı)",
   duygu:["😔"] },
 
 { t:"1828-06-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
@@ -56,7 +56,7 @@ window.OLAYLAR_P0043KIRIM = [
   yer:"Anapa, Kuban kıyısı", yer_id:"Anapa",
   kisiler:"Osman Paşa",
   d:"1828-29 Osmanlı-Rus Savaşı'nın açılış safhasında Anapa kuşatıldı ve kaledeki Osmanlı kuvvetleri Osman Paşa kumandasında 24 Haziran 1828'de Ruslara teslim oldu. Bu kez teslim kalıcı oldu: ertesi yıl imzalanan Edirne Antlaşması'yla (14 Eylül 1829) Anapa ve Kafkasya resmen Osmanlı hâkimiyetinden çıktı.",
-  kaynak:"TDV `anapa` (200, gövdesi okundu): \"Osman Paşa 24 Haziran 1828'de Ruslar'a teslim oldu\" · \"1829 Edirne Antlaşması ile de Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı.\" (alıntı denetim/ARASTIRMA-KIRIM-0912.md'den AYNEN taşındı, D104)",
+  kaynak:"TDV `anapa` (200, gövdesi okundu): \"Osman Paşa 24 Haziran 1828'de Ruslar'a teslim oldu\" · \"1829 Edirne Antlaşması ile de Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı.\" (alıntı aynen alındı)",
   duygu:["😔"] }
 
 ];

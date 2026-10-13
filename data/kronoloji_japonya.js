@@ -391,7 +391,7 @@ window.KRONOLOJI_JAPONYA = [
   etiket:["askeri","donanma","konu-askeri"],
   yer_id:"",
   d:"[Meiji dönemi] Mançurya ve Kore üzerindeki nüfuz çekişmesi, Japon donanmasının Port Arthur'daki Rus filosuna savaş ilanı olmadan baskın saldırısıyla açık savaşa dönüştü; kara savaşındaki Mukden zaferi ve deniz savaşındaki Tsushima zaferiyle (bkz. altta) Japonya, tarihte bir Asya devletinin bir Avrupa büyük gücünü yendiği ilk modern savaşı kazandı.", ic_not_d:"(bkz. `data/kronoloji_rusya.js`)",
-  kaynak:"japonya (TDV) — dunya puanı kronoloji_rusya.js'ten alındı (brifingdeki dunya:5 önerisiyle ÇELİŞİYOR, koordinatöre bildirildi)", yer_id:"Lüşun (Port Arthur)" },
+  kaynak:"japonya (TDV) — dunya puanı Rusya kronolojisinden alındı", yer_id:"Lüşun (Port Arthur)" },
 { taraflar:["meiji-japonya"], t:"1905-05-27", b:"Tsushima Deniz Muharebesi: Rus Baltık Filosu yok edildi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","donanma","konu-askeri"],
   yer_id:"Tsuşima (İzuhara)",

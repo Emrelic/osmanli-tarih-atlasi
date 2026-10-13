@@ -440,7 +440,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son vererek bedevi Benî Hâlid emirliğini kurdu.", ic_not_d:"bu, devletler.js'teki `benihalid` künyesinin f: alanıdır. TDV'nin `lahsa` maddesinde bu kuruluş olayı doğrudan anlatılmıyor — devletler.js'in kendi araştırdığı bilgiye güvenilerek DEVRALINDI.",
-  kaynak:"devletler.js `benihalid` künyesi (TDV `lahsa` + akademik kaynak karışımı, künyenin kendi notunda belirtilmiş); TDV `lahsa` maddesi bu spesifik olayı doğrudan içermiyor (taneciklik boşluğu, CLAUDE.md §4).", yer_id:"Lahsa" },
+  kaynak:"devletler.js `benihalid` künyesi (TDV `lahsa` + akademik kaynak karışımı, künyenin kendi notunda belirtilmiş); TDV `lahsa` maddesi bu spesifik olayı doğrudan içermiyor (taneciklik boşluğu).", yer_id:"Lahsa" },
 
 { t:"1691-01-01", b:"Muhammed b. Berrâk, Necid'e akınlarını sürdürdü", tur:"toprak-kazanc",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri"],

@@ -115,7 +115,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Kanûnî'nin ikinci Viyana harekâtı Güns kalesinin direnişiyle yavaşladı ve ordu Viyana'ya varmadan geri döndü. Habsburg tarafı bunu, başkenti kurtaran bir savunma başarısı olarak anar.",
   kaynak:"depo savaslar.js (1532-08-05)", yer_kon:[47.39,16.54] },
 
-{ t:"1538-02-24", gun:"24 Şubat 1538 — gün komşudan (kronoloji_macaristan.js · Engel)", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1538-02-24", gun:"24 Şubat 1538 — gün komşudan (Macaristan kronolojisi · Engel)", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Ferdinand ile Zápolya János arasında yapılan anlaşma, Macaristan'ı iki kral arasında paylaştırdı ve Zápolya'nın ölümünden sonra tacın Habsburglara geçmesini öngördü. Anlaşma tutmadı; Zápolya'nın oğlunun doğması Budin'in Osmanlı eline geçmesine giden krizi başlattı.",
   kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Engel (2001), s. 364-365 (Nagyvárad Antlaşması, 24 Şubat 1538) — TDV bu anlaşmayı müstakil maddede işlemiyor; önceki yıl damgası (1538-01-01) KRONO-ORTA-AVRUPA-0929 ile komşu günüyle değiştirildi", yer_id:"Varad (Oradea)" },
@@ -139,17 +139,17 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1555-01-01", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","diplomasi","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Ferdinand'ın imparatorluk meclisiyle müzakere ettiği barış, Protestanlara mülklerini ve serbest ibadeti güvence altına aldı. Ağabeyi Şarlken'in uzlaşmaz çizgisinin aksine Ferdinand pragmatik davrandı; bu tercih Habsburg topraklarında mezhep savaşını yarım yüzyıl erteledi.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · ⚠️ gün DOĞRULANMADI", yer_id:"Augsburg" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · Dikkat: gün DOĞRULANMADI", yer_id:"Augsburg" },
 
 { t:"1556-01-01", b:"Hofkriegsrat'ın kurulması — sürekli ordunun idarî omurgası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["reform","askeri","konu-askeri","konu-siyasi","konu-islahat"],
   d:"Askerî idarenin en üst organı olarak Hofkriegsrat kuruldu ve Ferdinand'ın idarî reformlarını tamamladı. Osmanlı serhaddine karşı sürekli bir savunma örgütü kurma zorunluluğu, Habsburg devletinin merkezî kurumlarını doğuran başlıca etkendi.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': \"Die Einrichtung des Hofkriegsrates 1556 als oberstes Organ der Militärverwaltung\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': \"Die Einrichtung des Hofkriegsrates 1556 als oberstes Organ der Militärverwaltung\" · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1558-01-01", b:"I. Ferdinand'ın imparator olması", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","konu-hanedan"],
   d:"Şarlken'in 1556'da tacı bırakmasının ardından Ferdinand 1558'de imparator oldu. Böylece Habsburg hanedanı İspanyol ve Avusturya kolları olarak kalıcı biçimde ikiye ayrıldı.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': 1556'da imparator görevini bıraktı, 1558'de Ferdinand'ın yükselişi · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer…': 1556'da imparator görevini bıraktı, 1558'de Ferdinand'ın yükselişi · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1564-07-25", gun:"25 Temmuz 1564, Viyana", b:"Ferdinand'ın ölümü ve Avusturya mirasının üçe bölünmesi", tur:"bolunme", onem:4, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","bolunme","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -164,11 +164,11 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1571-01-01", b:"Religionsassekuration — Aşağı Avusturya soylularına mezhep güvencesi", tur:"antlasma", onem:2, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["din","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"II. Maximilian, Aşağı Avusturya'nın Protestan soylularına ibadet güvencesi verdi. Habsburg çekirdek topraklarında Protestanlığın en geniş yayıldığı an budur; sonraki kuşak bunu tersine çevirecektir.",
-  kaynak:"Wien Geschichte Wiki, 'Religionsassekuration (1571)' · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Wien Geschichte Wiki, 'Religionsassekuration (1571)' · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1583-01-01", b:"Sarayın Prag'a taşınması — Rudolf'un Altın Şehri", tur:"reform", onem:3, dunya:2, kapsam:"ic", etiket:["kultur","hanedan","konu-hanedan","konu-kultur","konu-imar","konu-islahat"], yer_id:"Prag",
   d:"II. Rudolf, imparatorluk ikametgâhını Viyana'dan Prag'a taşıdı ve şehri siyasî olduğu kadar kültürel bir merkeze dönüştürdü. Büyük sanat koleksiyonları kurdu, bilim adamlarını himaye etti; Prag bir kuşak boyunca Orta Avrupa'nın entelektüel başkenti oldu.",
-  kaynak:"Die Welt der Habsburger, 'Rudolf II. und die Goldene Stadt': \"Soon after the beginning of his reign as Emperor, Rudolf II transferred the Residence from Vienna to Prague, which he made into a political and cultural centre, and built up important art collections while patronizing scientists such as the astronomer Johannes Kepler\" · ⚠️ YIL bu oturumda doğrulanmadı (kaynak 'saltanatının başından kısa süre sonra' diyor)" },
+  kaynak:"Die Welt der Habsburger, 'Rudolf II. und die Goldene Stadt': \"Soon after the beginning of his reign as Emperor, Rudolf II transferred the Residence from Vienna to Prague, which he made into a political and cultural centre, and built up important art collections while patronizing scientists such as the astronomer Johannes Kepler\" · Dikkat: YIL doğrulanmadı (kaynak 'saltanatının başından kısa süre sonra' diyor)" },
 
 { t:"1593-07-01", b:"Uzun Türk Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
@@ -182,14 +182,14 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1600-01-01", b:"Tycho Brahe ve Kepler'in Prag sarayında buluşması", tur:"kultur", onem:3, dunya:4, kapsam:"ic", etiket:["bilim","kultur","konu-bilim","konu-kultur","konu-imar","konu-kesif"], yer_id:"Prag",
   d:"II. Rudolf'un Prag sarayında astronomlar Tycho Brahe ile Johannes Kepler aynı anda görevliydi. Brahe'nin gözlem verileri Kepler'in eline geçti ve gezegen hareketleri yasalarının yolunu açtı; modern astronominin doğduğu masa bir Habsburg sarayındaydı.",
-  kaynak:"Die Welt der Habsburger, 'Ein Roboter in Prag und Lebenselixier für Rudolf II.': Rudolf'un Prag sarayında astronomlar Tycho Brahe ve Johannes Kepler görevliydi; Prag 1600 civarında 'sihir şehri' imgesini bu saraya borçludur · ⚠️ GÜN DOĞRULANMADI (kaynak 'in the years around 1600' diyor)" },
+  kaynak:"Die Welt der Habsburger, 'Ein Roboter in Prag und Lebenselixier für Rudolf II.': Rudolf'un Prag sarayında astronomlar Tycho Brahe ve Johannes Kepler görevliydi; Prag 1600 civarında 'sihir şehri' imgesini bu saraya borçludur · Dikkat: GÜN DOĞRULANMADI (kaynak 'in the years around 1600' diyor)" },
 
 { t:"1600-10-20", gun:"20 Ekim 1600 (11 Rebîülâhir 1009)", b:"Kanije'nin kaybı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Kanije",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Kanije kalesi Osmanlı eline geçti ve Habsburg savunma hattında güneybatıya açılan bir gedik oluştu. Ertesi yıl kaleyi geri alma girişimi de başarısız oldu.", ic_not_d:"eski kaynak: depo savaslar.js (1600-10-22)",
   kaynak:"TDV `kanije` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"anlaşma yoluyla 11 Rebîülâhir 1009'da (20 Ekim 1600) Osmanlılar'a teslim edildi\" · yerin kendi maddesi esas alındı; önceki gün (22 Ekim, TDV tiryaki-hasan-pasa · mehmed-iii'ye dayandırılmıştı) çekirdekteki olaylar_ek.js 1600-10-20 kaydıyla da çelişiyordu" },
 
-{ t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (kronoloji_macaristan.js · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ t:"1604-10-15", gun:"15 Ekim 1604 (Álmosd çatışması) — gün komşudan (Macaristan kronolojisi · Kontler)", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","din","milliyetcilik","konu-siyasi","konu-isyan","konu-din"],
   d:"Habsburg'un Macaristan'da yürüttüğü karşı-reform ve merkezîleştirme siyaseti, Bocskai István önderliğinde bir soylu ayaklanmasını tetikledi. İsyan, Viyana'yı hem Osmanlı hem de kendi Macar tebaası karşısında iki cepheli bir mücadeleye zorladı.",
   kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Kontler (2002), s. 154-155 (ayaklanmanın başlangıcı 15 Ekim 1604) — önceki yıl damgası (1604-01-01) KRONO-ORTA-AVRUPA-0929 ile değiştirildi", kapsam_genis:true },
@@ -226,7 +226,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1619-01-01", b:"II. Ferdinand'ın tahta çıkışı ve Bohemya tacının reddi", tur:"hanedan", onem:3, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","din","konu-hanedan","konu-din"],
   d:"Katolik restorasyonun sert temsilcisi II. Ferdinand imparator seçildi; Bohemya meclisi ise onu tanımayıp Kalvinist Pfalz Kontu Friedrich'i kral seçti. Hanedan, çekirdek topraklarından birini fiilen kaybetmiş durumdaydı.",
-  kaynak:"Die Welt der Habsburger, 'Von Graz nach Wien: Der Aufstieg Ferdinands II.' · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Von Graz nach Wien: Der Aufstieg Ferdinands II.' · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1620-11-08", b:"Beyaz Dağ Muharebesi — Bohemya meclislerinin tasfiyesi", tur:"savas", onem:5, dunya:4, kapsam:"ic", yer_id:"Prag",
   etiket:["askeri","din","anayasa","konu-askeri","konu-din","konu-islahat","konu-hukuk"],
@@ -246,7 +246,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1648-10-24", b:"Vestfalya Barışı — imparatorluk üzerindeki Habsburg üstünlüğünün sınırlanması", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"Münster",
   etiket:["antlasma","diplomasi","din","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Otuz Yıl Savaşları'nı bitiren barış, imparatorluk prenslerine fiilî egemenlik tanıdı ve Habsburg'un Almanya üzerindeki merkezîleştirme umudunu sona erdirdi. Buna karşılık hanedan kendi kalıtsal topraklarında mutlak ve Katolik bir devlet kurmuş oldu. Avusturya tarihyazımı bu barışı, imparatorluk siyasetinden Tuna havzasına dönüşün başlangıcı sayar.",
-  kaynak:"Die Welt der Habsburger, 'Endlich Friede' ve 'Dreißigjähriger Krieg 1618-1648': ayaklanmanın başlattığı savaşlar dizisi otuz yıl sonra Vestfalya Barışı ile sona erdi · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Endlich Friede' ve 'Dreißigjähriger Krieg 1618-1648': ayaklanmanın başlattığı savaşlar dizisi otuz yıl sonra Vestfalya Barışı ile sona erdi · Dikkat: gün DOĞRULANMADI" },
 
 // ══════════════════════════════════════════════════════════════════
 // III. TÜRK SAVAŞLARININ DÖNÜŞÜ VE MACARİSTAN'IN GERİ ALINIŞI (1648-1700)
@@ -305,7 +305,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1687-12-09", b:"Pressburg Diyeti — Macar tacının Habsburg'da pekişmesi", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"Bratislava",
   etiket:["anayasa","hanedan","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Budin'in geri alınmasının hemen ardından toplanan Macar meclisinde Leopold'ün dokuz yaşındaki oğlu Joseph Macar kralı olarak taç giydi. Habsburg hanedanının Macaristan'daki hâkimiyeti, Türk savaşındaki başarıya dayanarak Macar meclisleri gözünde pekişti. Askerî zaferin anayasal karşılığı budur.",
-  kaynak:"Die Welt der Habsburger, 'Joseph I: repository of the dynasty's hopes': 1687'de dokuz yaşındaki Joseph Macar kralı olarak taç giydi; Leopold Türk savaşındaki başarıları kullanıyordu, 1686'da Budin'in fethi Macar meclisleri gözünde Habsburg hâkimiyetini teyit etmişti · ⚠️ GÜN DOĞRULANMADI ⚠️ ÖNEM DÜŞÜRÜLDÜ (5 → 4): ilk yazımda tacın \"kalıtsal kabulü\" ve direnme hakkının kaldırılışı 1687'ye bağlanmıştı; okunan kaynak kalıtsallığın Macar meclislerince teyidini 1699 Karlofça SONRASINA yerleştiriyor. Kaynağın söylemediğini iddia etmemek için hem ifade hem önem geri çekildi — 5 vermek için 'dönüm noktası' hükmünü taşıyan bir kaynak gerekiyordu, bulunamadı" },
+  kaynak:"Die Welt der Habsburger, 'Joseph I: repository of the dynasty's hopes': 1687'de dokuz yaşındaki Joseph Macar kralı olarak taç giydi; Leopold Türk savaşındaki başarıları kullanıyordu, 1686'da Budin'in fethi Macar meclisleri gözünde Habsburg hâkimiyetini teyit etmişti · Dikkat: GÜN DOĞRULANMADI Dikkat: ÖNEM DÜŞÜRÜLDÜ (5 → 4): ilk yazımda tacın \"kalıtsal kabulü\" ve direnme hakkının kaldırılışı 1687'ye bağlanmıştı; okunan kaynak kalıtsallığın Macar meclislerince teyidini 1699 Karlofça SONRASINA yerleştiriyor. Kaynağın söylemediğini iddia etmemek için hem ifade hem önem geri çekildi — 5 vermek için 'dönüm noktası' hükmünü taşıyan bir kaynak gerekiyordu, bulunamadı" },
 
 { t:"1691-08-19", b:"Salankamen zaferi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -334,12 +334,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1703-01-01", b:"II. Rákóczi Ferenc ayaklanmasının başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","milliyetcilik","konu-siyasi","konu-isyan"],
   d:"Türk hâkimiyetinden yeni kurtulmuş Macaristan'ı Viyana'ya sıkı sıkıya bağlamak isteyen mutlakiyetçi yeniden düzenlemeye karşı, Rákóczi önderliğinde bir bağımsızlık savaşı patlak verdi. Ayaklanma 1704'te Viyana'yı doğrudan tehdit etti ve şehirde Linienwall savunma duvarının yapımına yol açtı.",
-  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1711-04-29", gun:"29 Nisan 1711 (Nagykároly'da imza); onay 26 Mayıs 1711, Viyana", b:"Szatmár Barışı — Macaristan'la uzlaşma", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","isyan","anayasa","konu-diplomasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"VI. Karl, ödünler vererek Rákóczi ayaklanmasını sona erdirdi ve Macaristan'ı hanedana daha sıkı bağladı. Habsburg, Macaristan'ı bastırarak değil uzlaşarak tuttuğu ilk büyük denemeyi burada yaptı; 1867'nin uzlaşma modeli bu geleneğe dayanır.",
-  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (A hét dokumentuma; sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · 🔴 DÜZELTME: önceki gün 29 Kasım 1711 Wien Geschichte Wiki'den alınmıştı; o sayfa gerçekten '29. November 1711' diyor ama Mayıs'ta onaylanmış bir barışla bağdaşmaz, ulusal arşivin günü esas alındı", yer_id:"Szatmár (Satu Mare)" },
+  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (A hét dokumentuma; sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · Düzeltme: önceki gün 29 Kasım 1711 Wien Geschichte Wiki'den alınmıştı; o sayfa gerçekten '29. November 1711' diyor ama Mayıs'ta onaylanmış bir barışla bağdaşmaz, ulusal arşivin günü esas alındı", yer_id:"Szatmár (Satu Mare)" },
 
 { t:"1713-04-19", b:"Pragmatik Yaptırım — monarşinin ilk temel yasası", tur:"reform", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","hanedan","konu-hanedan","konu-islahat","konu-hukuk"],
@@ -348,7 +348,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1714-01-01", b:"Karlskirche'nin temelinin atılması — Habsburg barokunun beyannamesi", tur:"kultur", onem:3, dunya:1, kapsam:"ic", etiket:["kultur","din","konu-din","konu-kultur"], yer_id:"Viyana",
   d:"VI. Karl'ın veba adağı olarak yaptırdığı Karlskirche'nin inşasına Johann Bernhard Fischer von Erlach'ın planlarıyla başlandı. Roma sütunlarını Bizans kubbesiyle ve barok cepheyle birleştiren yapı, imparatorluğun evrensellik iddiasının taştan ifadesi sayılır.",
-  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"The construction of the Karlskirche in Vienna began in 1714 according to plans by Johann Bernhard Fischer von Erlach\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"The construction of the Karlskirche in Vienna began in 1714 according to plans by Johann Bernhard Fischer von Erlach\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1716-08-05", b:"Varadin (Petrovaradin) zaferi", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Varadin (Petrovaradin)",
   etiket:["askeri","konu-askeri"],
@@ -377,7 +377,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1739-01-01", b:"Karlskirche'nin tamamlanması", tur:"kultur", onem:2, dunya:1, kapsam:"ic", etiket:["kultur","din","konu-din","konu-kultur"], yer_id:"Viyana",
   d:"Fischer von Erlach'ın ölümünden sonra yapıyı oğlu Joseph Emanuel tamamladı. Yirmi beş yıl süren inşaat, Viyana barokunun en görünür anıtını bıraktı.",
-  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"after his death, his son Joseph Emanuel completed the building in 1739\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki, 'Karlskirche': \"after his death, his son Joseph Emanuel completed the building in 1739\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1739-07-22", b:"Hisarcık (Grocka) bozgunu", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -396,12 +396,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1740-10-20", b:"VI. Karl'ın ölümü ve Maria Theresia'nın veraseti", tur:"hanedan", onem:5, dunya:4, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","kriz","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Erkek vârissiz ölen VI. Karl'ın ardından Pragmatik Yaptırım işledi ve yirmi üç yaşındaki Maria Theresia bütün Habsburg ülkelerinin hükümdarı oldu. Ama birkaç hükümdar onun haklarını tanımadı ve Avusturya Veraset Savaşı patladı; hanedanın varlık mücadelesi Avusturya anlatısının kurucu sahnelerinden biridir.",
-  kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (doğrudan okundu): \"Nach dem Tod Karls VI. 1740 trat dieser Fall ein, jedoch wiesen einige Herrscher die Ansprüche seiner Tochter Maria Theresia zurück – es kam zum Österreichischen Erbfolgekrieg\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (doğrudan okundu): \"Nach dem Tod Karls VI. 1740 trat dieser Fall ein, jedoch wiesen einige Herrscher die Ansprüche seiner Tochter Maria Theresia zurück – es kam zum Österreichischen Erbfolgekrieg\" · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1740-12-16", b:"Prusya'nın Silezya'yı işgali", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Prusya Kralı II. Friedrich Silezya'ya girdi; bu, Avusturya Veraset Savaşı'nın başlangıç işareti oldu. Silezya monarşinin en zengin ve en sanayileşmiş eyaletiydi ve kaybı, Avusturya'nın bir asır sürecek Prusya rekabetinin başlangıcıdır.",
-  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1745-09-13", b:"Franz Stephan'ın imparator seçilmesi — Habsburg-Lothringen hanedanı", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","konu-hanedan"],
@@ -411,12 +411,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1748-10-01", b:"Aachen Barışı — Maria Theresia'nın tanınması, Silezya'nın kaybı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Aachen",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Barış, Maria Theresia'yı monarşinin hükümdarı olarak uluslararası düzeyde tanıdı ve Pragmatik Yaptırım genel kabul gördü. Bedeli ağırdı: Silezya ile Parma ve Piacenza kaybedildi.",
-  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"Die internationale Bestätigung Maria Theresias… erfolgt im Oktober 1748 im Frieden von Aachen\"; kayıplar Silezya, Parma, Piacenza · ⚠️ ayın günü DOĞRULANMADI (kaynak yalnız 'Ekim 1748' diyor)" },
+  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"Die internationale Bestätigung Maria Theresias… erfolgt im Oktober 1748 im Frieden von Aachen\"; kayıplar Silezya, Parma, Piacenza · Dikkat: ayın günü DOĞRULANMADI (kaynak yalnız 'Ekim 1748' diyor)" },
 
 { t:"1749-01-01", b:"Haugwitz reformları — merkezî idarenin kurulması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","ekonomi","askeri","konu-askeri","konu-ekonomi","konu-islahat"],
   d:"Silezya'nın kaybı, devletin yeniden kurulması gerektiğini gösterdi: maliye ve idare eyalet meclislerinden alınıp merkezî dairelerde birleştirildi, sürekli ordu için düzenli vergi bağlandı. Maria Theresia dönemi reformları modern Avusturya devletinin doğduğu an sayılır.",
-  kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · ⚠️ gün DOĞRULANMADI, reform dizisi yıllara yayılıdır", yer_id:"Viyana" },
+  kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · Dikkat: gün DOĞRULANMADI, reform dizisi yıllara yayılıdır", yer_id:"Viyana" },
 
 { t:"1756-01-01", b:"Renversement des alliances — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ittifak","diplomasi","konu-diplomasi"],
@@ -426,7 +426,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1756-08-29", b:"Yedi Yıl Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
   d:"Savaş, Maria Theresia'nın Silezya'yı geri alma isteği üzerine yürüdü ve Avrupa dışına taşarak bir dünya savaşına dönüştü. Avusturya yedi yıl boyunca büyük insan ve para kaybetti.",
-  kaynak:"Die Welt der Habsburger, 'Der Siebenjährige Krieg: Ein Weltkrieg' ve 'Siebenjähriger Krieg 1756-1763': savaş Silezya için yürütüldü · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Der Siebenjährige Krieg: Ein Weltkrieg' ve 'Siebenjähriger Krieg 1756-1763': savaş Silezya için yürütüldü · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1763-02-15", b:"Hubertusburg Barışı — Silezya'dan kesin vazgeçiş", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -436,7 +436,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1772-01-01", b:"Lehistan'ın birinci paylaşımı — Galiçya'nın ilhakı", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Lvov",
   etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
   d:"Galiçya ve Lodomerya, Lehistan'ın birinci paylaşımıyla Habsburg monarşisine katıldı. Yapay biçimde kurulmuş bu krallık, imparatorluğun en kalabalık ve en yoksul eyaletlerinden biri olacak ve 1918'e kadar Leh-Rutenya meselesinin merkezinde duracaktı.",
-  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Am Rande des Reiches: Galizien und Bukowina': \"Nach der 'Ersten Polnischen Teilung' kamen Galizien und Lodomerien 1772 zur Habsburgermonarchie\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Am Rande des Reiches: Galizien und Bukowina': \"Nach der 'Ersten Polnischen Teilung' kamen Galizien und Lodomerien 1772 zur Habsburgermonarchie\" · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1774-01-01", b:"Allgemeine Schulordnung — zorunlu ilköğretim", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","kultur","konu-kultur","konu-islahat"],
@@ -456,7 +456,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1781-11-01", b:"Serfliğin (Leibeigenschaft) kaldırılması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","ekonomi","konu-ekonomi","konu-islahat"],
   d:"Kişisel bağımlılığı kaldıran ferman, köylülerin çiftliği terk edip başka yerde çalışabilmesinin önünü açtı. Toprak yükümlülükleri sürdü, ama hukukî statü değişti; Avusturya sosyal tarihinde 1848'e kadarki en büyük adımdır.",
-  kaynak:"Wien Geschichte Wiki, 'Josephinismus' ve Die Welt der Habsburger, 'Patent zur Aufhebung der Leibeigenschaft 1781': kişisel özgürlük kaldırıldı, köylüler çiftlikten ayrılabildi · ⚠️ ayın günü DOĞRULANMADI (kaynaklar yalnız 1781 diyor)", yer_id:"Viyana" },
+  kaynak:"Wien Geschichte Wiki, 'Josephinismus' ve Die Welt der Habsburger, 'Patent zur Aufhebung der Leibeigenschaft 1781': kişisel özgürlük kaldırıldı, köylüler çiftlikten ayrılabildi · Dikkat: ayın günü DOĞRULANMADI (kaynaklar yalnız 1781 diyor)", yer_id:"Viyana" },
 
 { t:"1782-01-12", b:"Manastırların kapatılması", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","din","konu-din","konu-islahat"],
@@ -470,7 +470,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1784-08-16", b:"Allgemeines Krankenhaus — tıbbî bakımın yoksul bakımından ayrılması", tur:"reform", onem:4, dunya:2, kapsam:"ic", etiket:["reform","bilim","sosyal","konu-bilim","konu-islahat","konu-sosyal"], yer_id:"Viyana",
   d:"II. Joseph'in kurduğu Genel Hastane ile tıbbî bakım, yoksul bakımından kurumsal olarak ayrıldı. Hastane Avrupa'nın en büyük tıp kurumlarından biri oldu ve Viyana Tıp Okulu'nun yükselişinin altyapısını kurdu; devletin sağlığı bir kamu görevi sayması bu tarihten başlar.",
-  kaynak:"Wien Geschichte Wiki, 'Spital': \"Unter Kaiser Joseph II. bedeutete 1784 die Gründung des Allgemeinen Krankenhauses eine Trennung von medizinischer und Armenfürsorge\" · ⚠️ GÜN DOĞRULANMADI (kaynak yalnız 1784 diyor; açılış günü yaygın literatürde 16 Ağustos)" },
+  kaynak:"Wien Geschichte Wiki, 'Spital': \"Unter Kaiser Joseph II. bedeutete 1784 die Gründung des Allgemeinen Krankenhauses eine Trennung von medizinischer und Armenfürsorge\" · Dikkat: GÜN DOĞRULANMADI (kaynak yalnız 1784 diyor; açılış günü yaygın literatürde 16 Ağustos)" },
 
 { t:"1788-02-09", b:"Son Osmanlı-Habsburg savaşının başlaması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
@@ -534,7 +534,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1814-09-18", b:"Viyana Kongresi'nin toplanması", tur:"diplomasi", onem:5, dunya:4, kapsam:"dis", yer_id:"Viyana",
   etiket:["diplomasi","ittifak","konu-diplomasi"],
   d:"Napolyon'un yenilgisinden sonra Avrupa'nın yeni düzenini kurmak üzere büyük güçler Viyana'da toplandı. Metternich kendisini \"Avrupa'nın arabacısı\" olarak görüyordu; kongre, Avusturya'nın kıta siyasetinin merkezine oturduğu andır ve Avusturya ulusal belleğinde imparatorluğun en parlak sahnesi sayılır.",
-  kaynak:"Die Welt der Habsburger, 'Franz I. und das Kaisertum Österreich': Metternich kendini Viyana Kongresi'nde \"Kutscher Europas\" olarak görüyordu; kongre Napolyon sonrası yeni siyasî düzeni kurma çabasıydı · ⚠️ açılış GÜNÜ doğrulanmadı" },
+  kaynak:"Die Welt der Habsburger, 'Franz I. und das Kaisertum Österreich': Metternich kendini Viyana Kongresi'nde \"Kutscher Europas\" olarak görüyordu; kongre Napolyon sonrası yeni siyasî düzeni kurma çabasıydı · Dikkat: açılış GÜNÜ doğrulanmadı" },
 
 { t:"1815-06-09", b:"Viyana Kongresi Nihaî Senedi", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"Viyana",
   etiket:["antlasma","toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"],
@@ -593,7 +593,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1854-01-01", b:"Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","askeri","konu-askeri","konu-diplomasi"],
   d:"Avusturya savaşa girmedi ama Tuna prensliklerine asker yığarak Rusya'yı çekilmeye mecbur bıraktı. 1849'da kendisini kurtaran Rusya'yı bu şekilde karşısına alması, imparatorluğu Avrupa'da yalnızlaştırdı.",
-  kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
+  kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · Dikkat: gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1854-07-17", b:"Semmering demiryolu — Avrupa'nın ilk dağ demiryolu", tur:"reform", onem:4, dunya:3, kapsam:"ic", etiket:["teknoloji","ekonomi","imar","islahat","konu-bilim","konu-ekonomi","konu-imar","konu-islahat","konu-ulastirma"], yer_id:"", kapsam_genis:true,
   d:"Carl Ritter von Ghega'nın inşa ettiği Semmering geçişi tamamlandı ve Gloggnitz-Mürzzuschlag bağlantısı açıldı. Bir dağ silsilesini normal açıklıklı rayla aşan ilk demiryoluydu; Viyana'yı Trieste limanına bağlayan hattın kilit halkasıydı ve imparatorluğun iç pazarını birleştirdi.",
@@ -602,7 +602,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1856-03-30", b:"Paris Antlaşması — Osmanlı'nın toprak bütünlüğünün garanti edilmesi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"Paris",
   etiket:["antlasma","diplomasi","konu-diplomasi"],
   d:"Avusturya, öteki büyük güçlerle birlikte Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti etti. Üç asır savaştığı devletin koruyucuları arasına girmesi, Viyana dış siyasetindeki dönüşün en açık belgesidir.",
-  kaynak:"TDV `avusturya`: Avusturya \"Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti\" eder (1856 Paris) · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: Avusturya \"Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti\" eder (1856 Paris) · Dikkat: gün DOĞRULANMADI" },
 
 { t:"1857-12-20", b:"Ringstrasse kararı — surların yıkılması", tur:"reform", onem:4, dunya:2, kapsam:"ic", etiket:["kultur","sosyal","ekonomi","konu-ekonomi","konu-kultur","konu-islahat","konu-sosyal"], yer_id:"Viyana",
   d:"İmparator Franz Joseph, şehir surlarının kaldırılmasını ve iç şehrin çevresine temsilî yapılar ile parkların sıralanacağı bir bulvar yapılmasını emretti. Ringstrasse çağı (1857-1914) imparatorluk başkentinin kendini yeniden kurduğu dönemdir; Parlamento, Belediye, Üniversite, Opera ve müzeler bu hat üzerinde yükseldi.",
@@ -615,7 +615,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1866-01-01", b:"Mendel'in kalıtım yasalarını yayımlaması", tur:"kultur", onem:2, dunya:4, kapsam:"ic", etiket:["bilim","konu-bilim","konu-kultur"], yer_id:"",
   d:"Brünn'de öğretmenlik yapan rahip Gregor Mendel, bezelye melezleri üzerindeki deneylerinin sonuçlarını Brünn Doğa Tarihi Cemiyeti'nin bildirilerinde yayımladı. Çalışmanın önemi ancak ölümünden sonra, 1900 civarında anlaşıldı; genetik biliminin kurucu metnidir ve bir Habsburg taşra şehrinde yazılmıştır.",
-  kaynak:"Wien Geschichte Wiki, 'Gregor Mendel': bulgular 1866'da Brünn Doğa Tarihi Cemiyeti bildirilerinde yayımlandı; 1854'ten itibaren Brünn'de öğretmenlik, 1856'dan itibaren bezelye deneyleri; öneminin 1900 civarında ölümünden sonra anlaşıldığı · ⚠️ GÜN DOĞRULANMADI · ⚠️ yer_id BOŞ: Brünn/Brno yerleşim listesinde YOK (ölçüldü)", yer_kon:[49.1951,16.6068] },
+  kaynak:"Wien Geschichte Wiki, 'Gregor Mendel': bulgular 1866'da Brünn Doğa Tarihi Cemiyeti bildirilerinde yayımlandı; 1854'ten itibaren Brünn'de öğretmenlik, 1856'dan itibaren bezelye deneyleri; öneminin 1900 civarında ölümünden sonra anlaşıldığı · Dikkat: GÜN DOĞRULANMADI · Dikkat: yer_id BOŞ: Brünn/Brno yerleşim listesinde YOK (ölçüldü)", yer_kon:[49.1951,16.6068] },
 
 { t:"1866-07-03", b:"Königgrätz — Almanya'daki üstünlüğün kaybı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -634,7 +634,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1867-03-30", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","milliyetcilik","konu-siyasi","konu-islahat","konu-hukuk"],
   d:"Uzlaşma, Habsburg monarşisini iki egemen devletin birliğine dönüştürdü: her iki yarı kendi anayasası, hükûmeti ve meclisiyle donatıldı; ortak kalan yalnız hükümdar, ordu ve dış siyasetti. Königgrätz'in iç siyasî faturası budur ve 1918'e kadar imparatorluğun anayasal çerçevesi olarak kaldı.",
-  kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },
+  kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },
 
 { t:"1867-12-21", b:"Aralık Anayasası — temel haklar ve hukuk devleti", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform","konu-islahat","konu-hukuk"],
@@ -658,7 +658,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1878-07-13", b:"Berlin Kongresi — Bosna-Hersek'in işgal ve idare yetkisi", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Berlin",
   etiket:["diplomasi","toprak-kazanc","konu-askeri","konu-diplomasi"],
   d:"Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek üzere Bosna-Hersek'i işgal ve idare etme hakkını aldı. Toprak hukuken Osmanlı'da kaldı; bu ikili durum otuz yıl sürecek ve 1908 krizini doğuracaktı.",
-  kaynak:"Die Welt der Habsburger, 'Okkupation Bosniens 1878': Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek için Bosna-Hersek'i işgal ve idare hakkını aldı · TDV `bosna-hersek` slug CANLI · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
+  kaynak:"Die Welt der Habsburger, 'Okkupation Bosniens 1878': Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek için Bosna-Hersek'i işgal ve idare hakkını aldı · TDV `bosna-hersek` slug CANLI · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
 
 { t:"1879-10-07", b:"Zweibund — Almanya ile ittifak", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"Viyana",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
@@ -677,22 +677,22 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1900-01-01", b:"Freud'un Rüyaların Yorumu'nu yayımlaması", tur:"kultur", onem:3, dunya:4, kapsam:"ic", etiket:["bilim","kultur","sosyal","konu-bilim","konu-kultur","konu-sosyal"], yer_id:"Viyana",
   d:"Paris'teki araştırma döneminden sonra Viyana'ya yerleşen Sigmund Freud, en önemli eseri sayılan Rüyaların Yorumu'nu yayımladı. Psikanaliz, imparatorluğun son yıllarındaki Viyana'nın dünyaya bıraktığı en kalıcı fikir oldu.",
-  kaynak:"Universität Wien, '650 plus' — Sigmund Freud sayfası: \"Die Traumdeutung (1900/01)\" Freud'un en önemli eserlerinden; Paris'teki araştırma döneminden sonra Viyana'ya hekim olarak yerleşti · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Universität Wien, '650 plus' — Sigmund Freud sayfası: \"Die Traumdeutung (1900/01)\" Freud'un en önemli eserlerinden; Paris'teki araştırma döneminden sonra Viyana'ya hekim olarak yerleşti · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1908-10-06", b:"Bosna-Hersek'in ilhakı ve ilhak krizi", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Saraybosna",
   etiket:["toprak-kazanc","kriz","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Otuz yıldır fiilen idare edilen Bosna-Hersek resmen ilhak edildi. İlhak uluslararası düzeyde, devletlerarası anlaşmaları çiğneyen saldırgan bir işlem olarak algılandı; Sırbistan ve Rusya bunu bir tahrik saydı ve savaş tehdidinde bulundu. Saraybosna suikastının arkasındaki örgüt de bu krizin doğurduğu radikalleşmenin ürünüdür.",
-  kaynak:"TDV `avusturya`: \"otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)\" · Der Erste Weltkrieg, 'Die Annexionskrise 1908': uluslararası algı, Sırbistan ve Rusya'nın savaş tehdidi, 1911'de kurulan örgütün radikalleşmeyle bağı · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: \"otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)\" · Der Erste Weltkrieg, 'Die Annexionskrise 1908': uluslararası algı, Sırbistan ve Rusya'nın savaş tehdidi, 1911'de kurulan örgütün radikalleşmeyle bağı · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1914-06-28", b:"Saraybosna suikastı — Veliaht Franz Ferdinand'ın öldürülmesi", tur:"olum", onem:5, dunya:4, kapsam:"dis", yer_id:"Saraybosna",
   etiket:["hanedan","kriz","suikast","konu-siyasi","konu-kisiler","konu-hanedan","konu-imar"],
   d:"Veliaht Franz Ferdinand ve eşi Saraybosna'da bir Sırp suikastçı tarafından öldürüldü. Suikast, otuz gün içinde Avrupa'yı savaşa sürükleyen krizi başlattı.",
-  kaynak:"TDV `avusturya`: \"1914 yılında Avusturya-Macaristan veliahdının Saraybosna'da bir Sırp suikastçı tarafından öldürülmesi\" · Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: \"1914 yılında Avusturya-Macaristan veliahdının Saraybosna'da bir Sırp suikastçı tarafından öldürülmesi\" · Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1914-07-28", b:"Sırbistan'a savaş ilanı — I. Dünya Savaşı'nın başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Viyana",
   etiket:["savas-ilani","askeri","konu-askeri"],
   d:"İmparator Franz Joseph Sırbistan'a savaş ilanını imzaladı ve bu, I. Dünya Savaşı'nı başlattı. TDV, suikastın savaş ilanını kaçınılmaz kıldığını yazar; Avusturya tarihyazımında ise kararın kaçınılmaz olup olmadığı hâlâ tartışmalıdır — ww1 portalı bu tartışmayı \"o gün yönetenlerin akılsızlığı\" başlığı altında işler.",
-  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' ve 'Die Torheit der damals Regierenden': Franz Joseph 1914'te Sırbistan'a savaş ilanını imzaladı, bu I. Dünya Savaşı'nı tetikledi · TDV `avusturya` · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
+  kaynak:"Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' ve 'Die Torheit der damals Regierenden': Franz Joseph 1914'te Sırbistan'a savaş ilanını imzaladı, bu I. Dünya Savaşı'nı tetikledi · TDV `avusturya` · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
 
 { t:"1916-11-21", b:"Franz Joseph'in ölümü", tur:"hanedan", onem:4, dunya:3, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
@@ -702,6 +702,6 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1918-11-11", b:"I. Karl'ın devlet işlerinden çekilmesi ve monarşinin sonu", tur:"son", onem:5, dunya:5, kapsam:"ic", yer_id:"Viyana",
   etiket:["anayasa","hanedan","konu-siyasi","konu-hanedan","konu-islahat","konu-hukuk"],
   d:"Savaşın kaybedilmesiyle imparatorluk halklarına ayrıldı ve I. Karl devlet işlerine katılmaktan çekildiğini açıkladı; ertesi gün Avusturya cumhuriyet ilan etti. Habsburg monarşisi Kasım 1918'de sona erdi — 1526'da Mohaç'ta kurulan miras dört yüz doksan iki yıl sonra dağıldı.",
-  kaynak:"Der Erste Weltkrieg / Die Welt der Habsburger: \"In November 1918, the Habsburg monarchy came to an end\" · TDV `avusturya`: \"Savaş her iki imparatorluğun da yıkılması ile sonuçlanmış\" · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
+  kaynak:"Der Erste Weltkrieg / Die Welt der Habsburger: \"In November 1918, the Habsburg monarchy came to an end\" · TDV `avusturya`: \"Savaş her iki imparatorluğun da yıkılması ile sonuçlanmış\" · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)" },
 
 ];
