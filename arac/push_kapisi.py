@@ -332,8 +332,13 @@ def damga_yaz():
         raise Olculemedi("surum_damgala.py --yayin çıkış %d: %s" % (r.returncode, r.stdout.strip()[-300:]))
     if git("diff", "--quiet", "--", "index.html", kontrol=False).returncode == 0:
         return False
+    from surum_damgala import DAMGA_KONU
+    onceki = git("log", "-1", "--format=%s").stdout.startswith(DAMGA_KONU)
     git("add", "--", "index.html")
-    git("commit", "-q", "-m", "damga: dosya-basi + genel sürüm damgası (push kapısı)", "--", "index.html")
+    if onceki:      # kapı daha önce koştu (ölçüm düştü, yeniden deneniyor) ⇒ commit çoğalmasın
+        git("commit", "-q", "--amend", "--no-edit", "--", "index.html")
+    else:
+        git("commit", "-q", "-m", DAMGA_KONU + " + genel sürüm damgası (push kapısı)", "--", "index.html")
     return True
 
 
