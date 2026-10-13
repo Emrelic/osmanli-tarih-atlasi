@@ -115,8 +115,8 @@ window.YERLESIMLER_SEYREK = [
 // emîrinin 1950'de ölümüne kadar yerel emîrler elinde. XIX. yy'da Şammar
 // nüfuzundadır ⇒ Hâil/Dûmetülcendel zincirinin aynısı.
 { ad:"Teymâ", tur:"sehir", lat:27.632, lon:38.545, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"kabile", neden:"TDV `teyma`: son bağımsız emîr 1950'de öldü — yerel emîrlik, devlet idaresi yok",
-  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1932-09-18",d:"suud-ucuncu"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
+  kasitli_bosluk:true,bos:"kabile", neden:"TDV `teyma`: 1830'dan itibaren yarı bağımsız Rummân emîrleri; son bağımsız emîr 1950'de öldü — yerel emîrlik, devlet idaresi yok; 1836-1921 beyanlı boşluk",
+  s:[{f:"1836-01-01",t:"1921-11-02",d:"__BOSLUK__",kaynak:"TDV teyma: 'Teymâ, 1830 yılından itibaren yarı bağımsız halde Rummân ailesine mensup emîrler arasında sık sık el değiştirdi' — Şammar hâkimiyetine dair TDV'de ifade YOK; eski s:sammar 1836-1921 Hâil zincirinden çıkarımdı ve kaldırıldı, devlet künyesi yazılmadı (kaynak yetersiz) · SIRADA-C 0082/H-0098, Emre kararı 13 Ekim 2026"},{f:"1921-11-02",t:"1932-09-18",d:"suud-ucuncu"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ── ④ HİCAZ-NECİD ARASI — p5/H-0009 KAMASININ İLACI ─────────────────
 // 🔴 KASTEN COĞRAFÎ DOLGU (`Necid içi`, `Nefud çölü`, `Rub'ul Hâlî kuzeyi`

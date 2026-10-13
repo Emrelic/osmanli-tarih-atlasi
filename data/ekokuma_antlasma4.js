@@ -1028,7 +1028,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"İadeye en çok Ermeniler tepki gösterdi; Türk ordusunun duruma hâkim olmasıyla bölgede halkın serbest oyuna başvurulmasına karar verildi ve 1918 Haziranı'ndaki oylamayla katılım kesinleşti. Mondros Mütarekesi'yle (30 Ekim 1918) Osmanlı ordusu 1914 sınırlarına çekilmek ve sancakları 25 Ocak 1919'a kadar boşaltmak zorunda kaldı. Halk 5-6 Kasım 1918'de Kars İslâm Şûrası'nı kurdu, bu 1919'da Cenûb-i Garbî Kafkas Hükümeti adını aldı; İngilizler 12 Nisan 1919'da Kars'ı basıp hükümeti dağıttı ve bölgeyi Ermenilere bıraktı, Ardahan Gürcü işgaline uğradı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1918-03-03|Brest","1918-05-25|Elviye"],
+  olay:["1918-03-03|Brest","1918-04-25|Elviye"],
   kaynak:"TDV: elviye-i-selase (1878 terki ve maddeleri, göç, 3 Mart 1918 iadesi, Ermeni tepkisi, Haziran 1918 plebisiti, Mondros, Kars İslâm Şûrası, 12 Nisan 1919) · TDV: kazim-karabekir (25 Nisan 1918 Kars, 15 Mayıs Gümrü) · TDV: kars (23 Nisan 1918 harekât, 5 Kasım 1918 şûra)",
   ic_not:"OKUR METNİNDEN TAŞINDI: Antlaşmanın Osmanlı'yı ilgilendiren öteki maddeleri ve halk oylaması hükmünün metni TDV'de okunmadı; TDV oylamanın sonradan 'kararlaştırıldığını' yazıyor.. TDV içinde gün farkları: Kars'ın alınışı kazim-karabekir'de 25 Nisan, kars maddesinde 'ileri harekâta geçerek 23 Nisan'; Kars İslâm Şûrası elviye'de 6 Kasım, kars'ta 5 Kasım 1918. Kartta ikisi de verildi. 1918-05-25 maddesinin günü TDV'de OKUNMADI." },
 

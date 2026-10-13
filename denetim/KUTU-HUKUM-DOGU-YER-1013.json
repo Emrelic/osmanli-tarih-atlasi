@@ -1,0 +1,53 @@
+{
+  "_meta": "DOGU-YER grubu · 13 Ekim 2026 · Emre kararlari uygulandi. Anahtar: dosya-kisaltma/parti/madde. hukum degerleri: cozuldu | zaten-dogru | kosu-bekliyor | senin-kararin | cozulemedi",
+  "YENI-A/parti-emrelic-0084": {
+    "H-0006": {"hukum": "kosu-bekliyor", "not": "Sari, Amul, Barfurus, Esref: mazenderan-marasi 1359-01-01 -> 1392-10-26, timurlu 1392-10-26 -> 1507-05-01 (devlet sonu; Esterabad ile ayni model), sonra mazenderan-marasi 1507-05-01 -> 1596. Bitis KAYNAKTA YOK (TDV marasiler: Timur olunce bazilari Sahruh izniyle dondu, guclu hakimiyet kuramadi): 1507-05-01 bu yuzden devlet sonu vekili, uydurma gun degil. 1392-10-26 TDV marasiler 8 Zilhicce 794.", "delil": "data/yerlesimler.js (Sari, Amul, Barfurus, Esref) · TDV marasiler"}
+  },
+  "SIRADA-B/parti-emrelic-0077": {
+    "H-0041": {"hukum": "kosu-bekliyor", "not": "Elviye-i Selase zinciri tek commit'te indi. Kars grubu (Kars, Sarikamis, Digor, Arpacay, Kucukperveli): transkafkasya/sovyet-rusya -> 1918-04-25, d: Osmanli 1918-04-25 -> 1919-04-30 (CGK/Ingiliz donemi kunyesiz, d: ile, Emre karari), ermenistan-dc 1919-04-30 -> 1920-10-30, tbmm. Ardahan grubu (Ardahan, Posof, Hanak, Saylica): d 1918-04-03 (Sari-ES, TDV'de yok) -> 1919-04-20, GDC 1919-04-20 -> 1921-02-23, tbmm. Artvin grubu (Artvin, Savsat, Borcka): d 1918-03-28 (Sari-ES) -> 1918-12-17, ingiltere -> 1920-04 (ay), GDC -> 1921-02-23. Batum grubu (Batum, Murvaneti, Sarp, Hulo, Makhalak'auri): d 1918-04-14 -> 1918-12-24, ingiltere -> 1920-07-07, GDC -> 1921-03-16. Iguir/Beri: d 1918-05-20 -> 1918-12-04 (Sari-Igdir), ermenistan-dc 1918-12-04 -> 1920-12-03 (UST SINIR beyaniyla; Karabekir'in Igdir'i alis gunu bulunamadi). Madde 1918-05-25 -> 1918-04-25 (Kars) + yeni 10 madde; yer_yama/ekokuma anahtarlari guncellendi.", "delil": "data/yerlesimler*.js, data/olaylar_ek5.js, data/olaylar_p0049.js · Sari (TUBA 2022, doi 10.53478/TUBA.978-625-8352-71-9.ch04 ve ch11) · TDV artvin, batum, ardahan, kars"},
+    "H-0057": {"hukum": "kosu-bekliyor", "not": "H-0041 ile ayni commit; Batum eksklavi Artvin/Borcka/Sarp zinciriyle baglandi.", "delil": "H-0041"},
+    "H-0058": {"hukum": "kosu-bekliyor", "not": "H-0041 ile ayni commit; Artvin 1918-03-28 (Sari-ES, TDV yalniz Mart 1918), Savsat/Borcka Artvin'le, Digor Kars'la, Igdir 1918-05-20.", "delil": "H-0041"}
+  },
+  "SIRADA-C/parti-emrelic-0081": {
+    "H-0038": {"hukum": "kosu-bekliyor", "not": "Batum + Murvaneti v: Guryel (tabi) 1555-05-29 -> 1578-08-09, KAFKAS-KORFEZ-0081-uygula.py --guryel (beyan: Batum'un Guryel'e aidiyeti bolge duzeyinde, TDV gurcistan).", "delil": "data/yerlesimler.js Batum, data/yerlesimler_sinir_kuzey.js Murvaneti"}
+  },
+  "SIRADA-C/parti-emrelic-0082": {
+    "H-0012": {"hukum": "kosu-bekliyor", "not": "Urmiye d 1731-01-01 (kesinlik yil) -> 1732-01-08 (gun komsudan: Tebriz); gun uydurulmadi. TDV hekimoglu-ali-pasa: once Rumiye, sonra 15 Kasim 1731 Tebriz. Yeni madde 1731-01-01.", "delil": "data/yerlesimler.js Urmiye, data/olaylar_ek5.js"},
+    "H-0098": {"hukum": "kosu-bekliyor", "not": "Teyma: s:sammar 1836-1921 kaldirildi, yerine __BOSLUK__ beyani (TDV teyma: 1830'dan yari bagimsiz Rumman emirleri, Sammar ifadesi yok); yeni kunye acilmadi. Dumetulcendel DOKUNULMADI: TDV dumetulcendel 19. yy hakimini vermiyor (yalniz 1921 Suudi ilhaki); 1836-1921 sammar kaydi cikarimdir, Emre'ye soru.", "delil": "data/yerlesimler_seyrek.js · TDV teyma, dumetulcendel"},
+    "H-0027": {"hukum": "zaten-dogru", "not": "Zaporojye Sec statusu: atlasta kayit/kimlik acilmadi (oneri). Ek okuma karti statu-ukrayna-kazak-hatmanligi'na Sec ve Cehrin paragrafi eklendi. Kaynak sinirli: TDV'de zaporog-kazaklari olu slug; TDV hatman statuyu tarihli vermiyor; 1734 Rus himayesi yalniz Manstein (yazar emin degil).", "delil": "data/ekokuma_statu.js"},
+    "H-0089": {"hukum": "cozulemedi", "not": "Cezayir sehirleri (Tilimsan, Medea, Miliana, Blida, Sersel) akademik tarama yapildi, YAZILMADI: TDV tilimsan yalniz yil verir (1833 Emir, 1836 kismen Fransiz, Mayis 1837 Tafna, 1842 ikinci isgal; 'Osmanli idaresi 1833'e kadar' ocaklik kunyesi 1830'da bittigi icin 4c/4d tavanini bozar). Medea (17/27 Mayis 1840), Miliana (6/8 Haziran 1840), Blida (1838/1839), Sersel (15 Mart 1840) icin yalniz turizm/ansiklopedi-disi kaynaklar var ve birbiriyle celisiyor; dergipark/EB akademik kaynak bulunamadi. Tilimsan 1842-01-30 yalniz Fransiz arsiv/ikincil kaynakta. Beyanli borc kaldi.", "delil": "TDV tilimsan, abdulkadir-el-cezairi; web taramasi 13 Ekim"}
+  },
+  "ESKI/parti-emrelic-0043": {
+    "H-0015": {"hukum": "kosu-bekliyor", "not": "Cizre 1508-01-01 (yil) -> 1515-09-19 cizre-botan: BOYALAR'da cizre-botan yok, renk motor tuzu => denetim/CIZRE-BOTAN-1013.diff (renkler.py + yerlesimler_ok107.js, git apply --check temiz). Main'e GIRMEDI.", "delil": "denetim/CIZRE-BOTAN-1013.diff · TDV cizre"}
+  },
+  "ESKI/parti-emrelic-0040": {
+    "H-0009": {"hukum": "cozuldu", "not": "Secenek B: Cehrin Lehistan kaldi; kayda 'not' beyani + ek okuma karti paragrafi (TDV hatman: Cehrin Dorosenko karargahi, 1676 Ruslara teslim).", "delil": "data/yerlesimler.js Cehrin · data/ekokuma_statu.js"}
+  },
+  "ESKI/parti-emrelic-0052": {
+    "H-0103": {"hukum": "cozulemedi", "not": "Aral kiyisi kaynakli nokta bulunamadi: TDV cend 1370 sonrasini vermiyor (Altin Orda/Ozbek/Hive/Kazak/Rus donemi yok); TDV'de Aral kiyisi yerlesimi yok. Uydurma nokta yazilmadi. Oneri: akademik (Hive hanligi/Aral Kazak kisimlari) kaynak gelirse.", "delil": "TDV cend; _yer_ara.py --kutu 43 57.5 47.5 62.5 (4 nokta)"},
+    "H-0098": {"hukum": "cozulemedi", "not": "Colmar 1673: akademik gun bulunamadi (Colmar turizm ofisi 28 vs 30 Agustos celiskili, hakemli/Persee madde cikmadi). Zayif gun yazilmadi; Colmar fransa 1648-10-24'te kaldi.", "delil": "web taramasi 13 Ekim"},
+    "H-0124": {"hukum": "cozuldu", "not": "Vladikavkaz bos:'hata' -> bos:'kabile' + neden (TDV vladikafkas/osetler: 1784 oncesi Oset vadileri cevresi, devlet idaresi kaynakta yok).", "delil": "data/yerlesimler.js, data/bos_alanlar.js"},
+    "H-0012": {"hukum": "cozuldu", "not": "H-0124 ile ayni cins etiketi duzeltmesi.", "delil": "H-0124"}
+  },
+  "ESKI/parti-emrelic-0019": {
+    "H-0061": {"hukum": "zaten-dogru", "not": "Mohac sonrasi Budin tabi kaldi (degisiklik yok).", "delil": "oneri A"}
+  },
+  "ESKI/parti-emrelic-0020": {
+    "H-0012": {"hukum": "zaten-dogru", "not": "Sakkiz, Serdest, Merivan, Bane safevi kaldi. TDV aramasi (sakkiz): 0 sonuc; Munseat'a erisilemedi => tabi yazilmadi.", "delil": "TDV arama"}
+  },
+  "ESKI/parti-emrelic-0034": {
+    "H-0023": {"hukum": "zaten-dogru", "not": "Tiflis 1606-1801 gurcistan kaldi (oneri A, kaynaksiz Kartli+Safevi yazilmadi).", "delil": "oneri A"}
+  },
+  "ESKI2/parti-emrelic-0052": {
+    "H-0002": {"hukum": "senin-kararin", "not": "Soci/Tuapse/Maykop v:kirim: TDV cerkezler 'hukuken Kirim Hanligi'na tabi, 18. yy'a kadar gercekte serbest' ile TEYIT (bozkir Don Kazak karariyla cakismaz). ANAPA: TDV cerkezler 'Anapa kolonisi 1475 ve 1479'da Osmanli idaresine gecti' diyor, atlas Anapa v:kirim 1475-1774 => CELISKI, DOKUNULMADI; Emre/koordinator karari gerek.", "delil": "TDV cerkezler"}
+  },
+  "SIRADA-A/parti-emrelic-0064": {
+    "H-0021": {"hukum": "cozuldu", "not": "Kabartay 1774 KALDI. Ozi isg bitisi 1738-08-01 -> 1739-12-12: TDV ozu '1739 antlasmasiyla ... teslim' (gun yok), antlasma gunu TDV mahmud-i--osmanli 12 Aralik 1739. Fiili teslim gunu bulunamadi (beyanli). Madde 1738-08-01 -> 1739-12-12.", "delil": "data/yerlesimler.js Ozi, data/olaylar_ek5.js"}
+  },
+  "SIRADA-A/parti-emrelic-0066": {
+    "H-0012": {"hukum": "cozuldu", "not": "0064/H-0021 ile ayni: Kabartay 1774, Ozi TDV gunu.", "delil": "0064/H-0021"}
+  },
+  "ESKI3/parti-emrelic-0032": {
+    "H-0003": {"hukum": "kosu-bekliyor", "not": "Karakoyunlu: kunye t 1469-12-19 zaten TDV ile uyumluydu; haritadaki 1468-04-01 kirilmasi (29 yerlesim, karakoyunlu->akkoyunlu) ve olaylar_ek7.js madde 1469-04-01'e (ay, Hasan Ali'nin oldurulusu, TDV karakoyunlular/uzun-hasan) cekildi. yer_yama.js anahtari guncellendi.", "delil": "data/yerlesimler.js (24), yerlesimler_kalite4.js (2), yerlesimler_sinir_dogu.js (3), data/olaylar_ek7.js"}
+  }
+}

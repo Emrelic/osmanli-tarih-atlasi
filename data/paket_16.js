@@ -910,7 +910,7 @@ window.BOS_ALANLAR = [
 {ad:"Korsakov (Güney Sahalin)", lat:46.6330, lon:142.7860, cins:"hata", yaricap_km:null, neden:"Aleksandrovsk ile aynı gerekçe ve aynı Shimoda sınırı. 1905-09-05 Portsmouth 50. paraleli sınır yaptı. 🔴 TDV'ye basmıyor."},
 {ad:"Kuveyt", lat:29.3760, lon:47.9770, cins:"hata", yaricap_km:null, neden:""},
 {ad:"Meşra er-Rek", lat:8.4170, lon:29.2830, cins:"kabile", yaricap_km:null, neden:"Bahrülgazâl iskelesi — Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için yazılamadı"},
-{ad:"Vladikavkaz", lat:43.0240, lon:44.6820, cins:"hata", yaricap_km:null, neden:""},
+{ad:"Vladikavkaz", lat:43.0240, lon:44.6820, cins:"kabile", yaricap_km:null, neden:"1784 öncesi Oset vadileri çevresi, devlet idaresi kaynakta yok (TDV vladikafkas, osetler); şehir 1784'te kuruldu"},
 {ad:"Doğu Grönland", lat:70.4833, lon:-21.9667, cins:"insansiz", yaricap_km:null, neden:"Norse yerleşimleri güneybatı kıyısındaydı ve XV. yy'da söndü; Danimarka-Norveç'in yeniden sömürgeleştirmesi 1721'de BATI kıyısında başladı, doğu kıyısında ilk yerleşim 1894 (Ammassalik, −37°D, kutu dışı). 1281-1923 penceresinde kutuya giren şerit hiçbir devletin idaresinde değil."},
 {ad:"Franz Josef Toprağı", lat:80.3300, lon:52.8000, cins:"insansiz", yaricap_km:null, neden:"1873'te keşfedildi; 1281-1923 penceresinde hiçbir devletin idaresi altında değil."},
 {ad:"Kuzeydoğu Grönland", lat:76.7700, lon:-18.6600, cins:"insansiz", yaricap_km:null, neden:"Doğu Grönland ile aynı hüküm; 700 km'lik kıyı tek noktayla temsil edilemezdi."},
