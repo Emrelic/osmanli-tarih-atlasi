@@ -1,0 +1,24 @@
+{
+  "UMIT-ISLEM": {
+    "K22-DOGRULAMA": {
+      "hukum": "zaten-dogru",
+      "not": "85dee38cb (origin/makine/umit-k22) = main e54e60dff Z6 ile data/ altinda ayni +/- satir kumesi (206=206, fark 0). Girdi bazinda 172 eklenen donemin 168'i main'de aynen, 4'u (Semerkant, Hucend, Taşkent sovyet-rusya t; Belh afganistan t) main'de daha yeni uc tarihle; silinen 66'nin 66'si main'de de yok. Eksik 0.",
+      "delil": "denetim/UMIT-K22-DOGRULAMA-1013.md"
+    },
+    "KRONO-TUR-TASIMA": {
+      "hukum": "cozuldu",
+      "not": "f5050c519 mekanik tur: guncel main'e script ile yeniden uygulandi (patch bayat); yalniz tur: YOKSA ve k: TUR_GRUP'ta ise; k degistirilmedi; 8 dosyada 380 madde (278 eski + 102 yeni TUR_GRUP degerleri, 80'i k:siyasi); 29 madde TUR_GRUP disi k yuzunden bos (beyanli).",
+      "delil": "data/kronoloji_cok_*.js, js/suzgec.js"
+    },
+    "SUZGEC-TUR-GRUP": {
+      "hukum": "cozuldu",
+      "not": "8ddd1e865 git apply --3way temiz uygulandi (TUR_GRUP +6 deger, bilinmeyenler() k/tur).",
+      "delil": "js/suzgec.js"
+    },
+    "SAHIPLIK-DOSYA-DOKUMU": {
+      "hukum": "cozuldu",
+      "not": "a3e98b03c arac/_sahiplik_uygula.py --dosya-dokumu/--json: tek catismada (KAPI olcemedi blogu) main'in cikis-2/3 mantigi korunup dokum cagrilari eklendi; kuru kosu cikis 2 (oncekiyle ayni), data degismedi.",
+      "delil": "arac/_sahiplik_uygula.py"
+    }
+  }
+}
