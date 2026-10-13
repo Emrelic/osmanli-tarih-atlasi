@@ -683,6 +683,7 @@ GIRDI_DOSYALARI = [
                                       # aradı; veri PARANTEZLİ ÇİFT AD yazıyor
                                       # ve `Kolhapûr` şapkalı. ⇒ Dördü de
                                       # yazılsaydı ÜÇ MÜKERRER nokta doğardı.
+    "yerlesimler_nokta3.js",         # 28 nokta · bekletilen noktalar 3. tur (SUMER-2000, 14 Ekim 2026)
     "yerlesimler_nokta2.js",         # 218 nokta · noktasız künyeler 2. tur (SUMER-2000, 14 Ekim 2026)
     "yerlesimler_halef_1946.js",      # 143 nokta · 1946-2000 noktasız devletler (SUMER-2000, 13 Ekim 2026)
     "yerlesimler_ukrayna_0916.js",    # 5 nokta · Vinnitsa · Braslav · Kostantinov · Jitomir · Berdiçev
