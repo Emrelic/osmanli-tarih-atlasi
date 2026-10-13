@@ -1,0 +1,97 @@
+{
+  "parti-emrelic-0083": {
+    "H-0001": {
+      "hukum": "cozuldu",
+      "not": "Emre kararı (13 Ekim 2026): Romanya Rusya ile ittifak yaptığından Osmanlı tâbi tonunda kalmamalı, Rus ilerleyişi işgal gibi TARALI gösterilir. 18 Romanya noktasına (Bükreş, Yaş, Roman, Bârlad, Kalas, Tırgovişte, Piteşti, Slatina, Buzău, Râmnicu Sărat, Krayova, Tırgu Jiu, Râmnicu Vâlcea, Turnu Severin, Câmpulung, Floci, İbrail, Yergöğü) isg:rusya 1877-04-24 → 1878-01-31 yazıldı. Başlangıç: TDV doksanuc-harbi (Rusya 24 Nisan 1877'de savaş ilân etti; «Savaşın başlaması ile birlikte Romanya topraklarına giren ve bu prensliği kendi tarafına çeken Ruslar»). BİTİŞ 31 Ocak 1878 = Edirne ateşkesi (TDV doksanuc-harbi): Rus birliklerinin Romanya'dan fiilî çekiliş günü kaynakta BULUNAMADI — bitiş bir kaynak günü değil, savaşın TDV'li bitiş günüdür. Kronoloji senkronu: 1877-04-24 maddesi (olaylar_ek10.js) taramayı anlatacak biçimde güncellendi; 1878-01-31 Edirne Mütarekesi maddesi (olaylar_ek5.js) var; Değişmez 2i yeni açık YOK. Önceki 'taralı desen yalnız işgal' kararı (SEFERLER[67] kaynağı) bu kararla ezildi - ok ve tarama birlikte.",
+      "delil": "data/yerlesimler.js (17 kayıt) + data/yerlesimler_ek29.js (Floci) isg alanı · data/olaylar_ek10.js 1877-04-24 · denetle.py çıkış 0"
+    },
+    "H-0012": {
+      "hukum": "cozuldu",
+      "not": "İbrail ve Yergöğü: v:romanya 1878-07-13 → 1877-05-09, s:romanya f 1878-07-13 → 1877-05-09 (TDV romanya 9 Mayıs 1877); 18 Romanya noktası artık aynı günde bağımsız. H-0001 ile tek karar.",
+      "delil": "data/yerlesimler.js İbrail (satır 462), Yergöğü (2336)"
+    },
+    "H-0002": {
+      "hukum": "cozulemedi",
+      "not": "Berat/Muzaka künyesi AÇILMADI: TDV berat--arnavutluk Berat'ın orta çağ sahiplerini sırayla Bizans, Epir Despotluğu, Anjou, Bizans, Sırbistan ve küçük bir Arnavut prensliği olarak sayar, hiçbirinin yılını vermez, Muzaka adını anmaz; Osmanlı fethi 1417 (TDV, Avlonya ile birlikte). Muzaka dönemi için bağımsız akademik kaynağa ulaşılamadı (aramalarda yalnız Vikipedi çıktı, tek dayanak olamaz; Britannica 403). Berat'ın __BOSLUK__ döneminin kaynağına bu bulgu BEYAN olarak yazıldı. Muzaka künyesi kaynak (Fine, Elsie Historical Dictionary of Albania, Jurlaro vb.) bulununca yazılır.",
+      "delil": "data/yerlesimler.js Berat (satır 439) kaynak: · TDV berat--arnavutluk"
+    },
+    "H-0007": {
+      "hukum": "kosu-bekliyor",
+      "not": "Künyeler yazıldı: devletler.js della-scala (1277-01-01 yıl → 1387-10-18; Treccani Enciclopedia Italiana + DBI Antonio della Scala, teslim 17-18 Ekim 1387, 1931 maddesi 19 Ekim - varyant notlu) ve carrara (1345 yıl → 1405-11-17; Treccani DBI il Vecchio/il Novello: 1345 Giacomo II, 19 Aralık 1350, 21 Kasım 1388 Visconti'ye devir, 8 Eylül 1390 geri dönüş, 16-17 Kasım 1405 Venedik girişi). 1318 ve 1328-1337 Scaligeri iddiaları doğrulanamadı, yazılmadı. Verona/Padova __BOSLUK__ dönemleri künye atıflı beyanla duruyor; boyaya geçirme (BOYALAR + s: dönemleri) motor dosyası renkler.py'ye dokunduğu için denetim/AVRUPA-YER-PO-BOYA-1013.diff'te BEKLİYOR (git apply --check temiz; uygulanmış hâlde denetle çıkış 0). Yan bulgu: Padova milanoduka dönemi 1395-05-11 → 1405-11-22 yanlış (Carrara 17 Kasım 1405'e dek); diff 1395'e kadar olanı düzeltir, sonrası ayrı. Bergamo/Brescia/Parma Visconti künyesi hâlâ Emre kararı bekliyor.",
+      "delil": "data/devletler.js della-scala, carrara · data/yerlesimler_avrupa.js Verona/Padova · denetim/AVRUPA-YER-PO-BOYA-1013.diff"
+    },
+    "H-0010": {
+      "hukum": "cozuldu",
+      "not": "Prut öksüz hattı: Kişinev (Chișinău), Bălți (doğu yaka), Botoşani, Dorohoi (batı yaka) yazıldı - koordinat GeoNames/OSM/Wikidata, TDV'de bu yerlerin MADDESİ YOK (arama: Kişinev → oguzca/turk alakasız, Botoşani → iorga-nicolae, Dorohoi 0, Huşi → prut-antlasmasi alakasız); sahiplik zinciri komşu Orhei/Roman kayıtlarının BÖLGE düzeyindeki dönemlerinden alındı ve kayıtta beyan edildi. Huşi (5. nokta) data'ya GİRMEDİ: eklenince Değişmez 8a 1506 → 1514 (tavan 1508) - Huşi'nin peteği Prut hattının doğusuna 20-25 km taşıyor; kayıt denetim/AVRUPA-YER-HUSI-1013.js'te bekliyor, tavan yazmak yetkim dışı. Kişinev artık Bender-Orhei arasında olduğundan 93 Harbi odak kusurunu kalıcı kapatır.",
+      "delil": "data/yerlesimler_ek29.js (Prut bloğu) · denetim/AVRUPA-YER-HUSI-1013.js · denetle çıktısı 8a: taban 1daef2a98 üzerinde 1514 (Huşi'li) / 1506 (Huşi'siz); origin/main 2708f416a üzerinde Huşi'siz 1508 = tavan (Huşi eklenirse tavan aşılır)"
+    },
+    "H-0003": {
+      "hukum": "cozuldu",
+      "not": "Emre kararı: 'sırt - yerleşim yok' beyanı yazıldı, uydurma nokta eklenmedi. Beyan data/yerlesimler_ek29.js sonundaki yorum bloğunda (şerit koordinatları, 50 km içinde 0 nokta, 1815'te kapanma, Mestia/Avar adaylarının kaynaksız oluşu). ⚠️ Arayüzde beyanı gösteren yüzey yok (bos_alanlar 'insansiz' cinsi çizilmez) - bu borç açık.",
+      "delil": "data/yerlesimler_ek29.js 'KAFKAS ANA SIRTI' bloğu · denetim/PAKET-0083-A-BOS-BOLGE.md"
+    },
+    "H-0004": {
+      "hukum": "cozuldu",
+      "not": "H-0003 ile aynı beyan (Kaheti-Dağıstan şeridi dahil).",
+      "delil": "data/yerlesimler_ek29.js 'KAFKAS ANA SIRTI' bloğu"
+    }
+  },
+  "parti-emrelic-0084": {
+    "H-0012": {
+      "hukum": "cozuldu",
+      "not": "A seçeneği uygulandı: Çelebi Mehmed'in Bursa/Ankara'ya geçişi 1411-02-17 → 1410-05-06 (hicrî 813 başı: 6 Mayıs 1410 - 24 Nisan 1411 ∩ Yanbolu 13 Şubat 1410 sonrası; kesişimin ilk günü, kesinlik yıl) - 60 kayıtta (Süleyman döneminin t'si + Mehmed döneminin f'si; Ankara'da kaynak metni de güncellendi). Yeni madde: olaylar_ek3.js 1410-05-06 'Çelebi Mehmed Bursa ve Ankara'yı yeniden aldı' (ic_not_gun'da hicrî seçim beyanı). 1404-03-01 maddesinin 'Haritada ... 1411'e kadar' cümlesi 1410'a çekildi. Rumeli'deki Süleyman → Musa 1411-02-17 kırılmalarına dokunulmadı (TDV günü). 2sk yalnız-taraf sayacı bu yüzden yükseldi (tavan aşımı borcu, ihlal değil): taban zaten 2259 > 2246 idi.",
+      "delil": "data/yerlesimler*.js (60 kayıt, py avr_bursa) · data/olaylar_ek3.js · data/olaylar_ek5.js · denetim/P84-DEGISMEZ2-ADAY-1006.md"
+    },
+    "H-0013": {
+      "hukum": "cozuldu",
+      "not": "A seçeneği: Şehirköy (Pirot) s:sirp-despotlugu başlangıcı 1443-01-01 → 1444-08-01 (TDV sehirkoy «Segedin'in ardından tekrar Sırplar'a verildi» + Niş/Kruševac/Semendire 1444-08-01 iadesi), d: 1428 → 1444-08-01; Haçlı zaptı isg:macaristan 1443-01-01 → 1444-08-01 (YIL, kesinlik yil; TDV «1443'te Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu Şehirköy'ü zaptetti»). 1412-1413 enklavına dokunulmadı (TDV Stefan Lazareviç 1412 destekliyor). Değişmez 2/2i temiz (1443-01-01 maddesi mevcut).",
+      "delil": "data/yerlesimler_serhat.js:140-147"
+    },
+    "H-0017": {
+      "hukum": "cozuldu",
+      "not": "H-0013 ile aynı karar ve aynı değişiklik.",
+      "delil": "data/yerlesimler_serhat.js:140-147"
+    }
+  },
+  "parti-emrelic-0075": {
+    "H-0005": {
+      "hukum": "cozuldu",
+      "not": "Yalnız TDV'li 1830 grubu yazıldı: Pasarofça (Požarevac), Valjevo, Ćuprija, Rudnik (koordinat GeoNames/OSM/Wikidata, 2 km altı ayrışma). Zincir: sirbistan → 1439-08-27 d (TDV semendire) → sirp-despotlugu 1444-08-15 (TDV semendire; komşular 1444-08-01 taşıyor - 14 günlük çelişki, TDV esas) → d 1459-06-20 → avusturya 1717-08-18 (gün komşudan) → d 1738-08-01 (TDV semendire 'Ağustos 1738'e kadar', Kragujevac/Çaçak ile aynı) → v:sirbistan-prensligi 1830-10-17 (TDV sirbistan) → 1878-07-13. 1833 (Negotin, Zaječar, Paraćin, Loznica, Aleksinac, Ražanj) ve 1862 (Öziçe, Sokol) grupları kaynak bulunana dek YAZILMADI. Belgrad kale/şehir: 'Belgrad' (şehir) v:sirbistan-prensligi 1830-10-17'den; yeni 'Belgrad Kalesi (Kalemegdan)' (Wikidata Q1409017, 44.8236 K 20.4503 D, 0,82 km) d: Osmanlı 1867-04-18'e dek; ikiz: beyanı karşılıklı ve kaynaklı. 1830 maddesinin statu_vasal listesi genişletildi.",
+      "delil": "data/yerlesimler.js Belgrad/Belgrad Kalesi/Semendire · data/yerlesimler_ek29.js (4 yeni nokta) · data/olaylar_ek.js:83 · TDV sirbistan, belgrad"
+    },
+    "H-0022": {
+      "hukum": "cozuldu",
+      "not": "Belgrad ve Semendire 1830 penceresi H-0005 ile birlikte uygulandı (Semendire v:sirbistan-prensligi 1830-10-17'den; kalesi için kale/şehir ikizi YAZILMADI - Semendire Kalesi borcu kayıtta beyanlı). Tâbi gövde çift kaydı sorunu (sirbistan ↔ sirbistan-prensligi) bu işin kapsamı dışında, ölçülmedi: etkisi koşudan sonra görülecek.",
+      "delil": "data/yerlesimler.js Semendire"
+    }
+  },
+  "parti-emrelic-0082": {
+    "H-0090": {
+      "hukum": "cozuldu",
+      "not": "Emre onayı: Belgrad/Semendire 1830-10-17'den Sırbistan Prensliği v: (kale Osmanlı garnizonu), Belgrad için şehir/kale ikizi. Ayrıntı 0075/H-0005.",
+      "delil": "data/yerlesimler.js"
+    },
+    "H-0062": {
+      "hukum": "cozuldu",
+      "not": "Dalmaçya kimliği: 14 nokta (Pag, Dugi Otok, Brač, Hvar, Korčula, Vis, Zadar, Šibenik, Split, Knin, Sinj, Klis, Vrana, Nadin) s:fransa-cumhuriyet 1806-02-01 → 1813-01-01 yerine italya-napolyon 1806-02-01 → 1809-10-14, sonra fransa-cumhuriyet 1809-10-14 → 1813-01-01 (LZMK dalmacija: Schönbrunn 14.X.1809'da Dalmaçya İlirya Eyaletleri'ne dahil). italya-napolyon BOYALAR'da var (renkler.py:933) - .diff gerekmedi. ⚠️ LZMK dalmacija Dalmaçya'yı 'francuske pokrajine Dalmacije (1806–10)' diye anar, İtalya Krallığı'nı adıyla geçirmez; Krallık atfı Emre kararı + LZMK krk-otok (Požunski mir) - Krk/Cres/Rab'daki mevcut kimlikle tutarlı. Dubrovnik/Mljet (TDV Fransız işgali 27 Mayıs 1806) ve Kotor/Herceg Novi (1807) bu işe girmedi.",
+      "delil": "data/yerlesimler.js (6) + yerlesimler_ek.js (8) + ok107/ok104/ek_bosluk satırlar"
+    }
+  },
+  "parti-emrelic-0076": {
+    "H-0145": {
+      "hukum": "cozuldu",
+      "not": "B2 uygulandı: Üsküp, Manastır, Ohri, Priştine, Yenipazar, Prizren, Debre, Köprülü, İştip, Ustrumca, Doyran, Gevgili - isg:sirbistan-kralligi (giriş günü atlasın önceki s: kaydından, yeni gün iddia edilmedi → 1913-05-30), d: Osmanlı 1913-05-30'a dek, s:sirbistan-kralligi 1913-05-30 → 1918-12-01. Bitiş Londra Antlaşması 30 Mayıs 1913 (Emre kararı; atlasın Dimetoka/Gümülcine'de kullandığı gün). TDV londra-antlasmasi günü bu oturumda çekilemedi (bulunamadı).",
+      "delil": "data/yerlesimler*.js (12 kayıt, py avr_b2)"
+    },
+    "H-0136": {
+      "hukum": "cozuldu",
+      "not": "Tekirdağ Bulgar işgali TDV tekirdag ile TEYİT EDİLDİ: «1912’de Bulgarlar Tekirdağ’a girdi ve şehir ancak sekiz ay sonra geri alınabildi». TDV gün vermiyor; isg 1912-11-01 → 1913-07-21 atlasın önceki günleri, 'sekiz ay' ile tutarlı. isg KALDIRILMADI.",
+      "delil": "data/yerlesimler.js:332 kaynak: alanı"
+    },
+    "BERLIN-BITIR": {
+      "hukum": "cozuldu",
+      "not": "PAKET-0076-BITIR B sınıfı 9 kayıttan 8'i yazıldı: İvranye, Leskofça, Kurşunlu, Ürküp, Bar, Lofça, İslimye, Ziştovi (Hacıoğlupazarcığı zaten vardı - mükerrer taraması, yazılmadı). A sınıfı 0, C sınıfı 14 kayıt Değişmez 1 deliği açacağından YAZILMADI (eksik halkalar: Nikşiç, Ülgün, Kolaşin, Tulça, Hırsova, Mangalya, Burgaz, Hasköy, Golos, Alasonya, Kalabaka, Kardiçe, Balçık, Tutrakan). Değişmez 2 için iki yeni madde: Lofça 1877-08-23 (TDV lofca) ve Toplice 1433 (TDV leskofca 'muhtemel'). Taslaktaki _taslak alanı atıldı, // yorumları ayrı satıra alındı, her kayda kayıt düzeyinde kaynak: yazıldı (kayıt-kaynaksız tavanı 2301'de).",
+      "delil": "data/yerlesimler_ek29.js · data/olaylar_ek10.js · denetim/PAKET-0076-BITIR-berlin-noktalar.md"
+    }
+  }
+}
