@@ -114,7 +114,7 @@ def kisi_kaynak_satiri(kk):
 KASITLI_BOSLUK = {"__BOSLUK__"}
 
 
-def kimlik_evreni():
+def kimlik_evreni(Y=None):
     """(kul, diz) — kullanım sayacı ve dizin kümesi. `denetle.py` KOŞMAZ.
 
     🔴 NİÇİN AYRI FONKSİYON — 2 Eylül 2026, yayın kapısı bağlanırken.
@@ -127,20 +127,37 @@ def kimlik_evreni():
       genişledi (`s:` → `s:`+`isg:`); kopya kalsaydı kapı ESKİ kapsamla
       ölçmeye devam ederdi ve kimse fark etmezdi.
     ⇒ Tek otorite burası. `olc()` de kapı da BURAYI çağırır.
-    """
+
+    🔴 14 EKİM 2026 — REGEX BIRAKILDI, `girdi.yukle()` okunuyor (RENK-DELIK-1014).
+      Eski sayaç `\\bs:` · `\\bisg:` · `\\bd:\\s*"…"` arıyordu; JSON biçimli girdi
+      (`"s": [{"d": "andorra"}]`) ona GÖRÜNMÜYORDU. Ölçüldü: 4 dosya JSON
+      (nokta2 · halef_1946 · sinir_guney · sinir_kuzey) ⇒ sayaç 0 delik derken
+      `yukle()` 114 delik buldu; yayın kapısı da aynı körlüğü taşıyordu ve
+      `renksiz_sessiz` o kimlikleri "hiç kullanılmıyor" diye gösteriyordu.
+      Ayrıca `\\[(.*?)\\]` metindeki `]`de diziyi erken kesiyordu (celayirli
+      regex 79 · gerçek 86). Ayrıştırılmış veri ikisinden de bağımsız ve daha
+      hızlı (ölçüldü: regex 0,97 sn · `yukle()` 0,65 sn).
+    `Y` verilirse yeniden yüklenmez (`olc()` zaten yüklemiş)."""
     d = _oku("data/devletler.js")
     diz = (set(re.findall(r'\bid:\s*"([^"]+)"', d))
            | set(re.findall(r'\bharita:\s*"([^"]+)"', d)))
-    yer = [f for f in girdi.GIRDI_DOSYALARI if f.startswith("yerlesimler")]
+    if Y is None:
+        Y = girdi.yukle(sessiz=True)
+    return kimlik_sayaci(Y), diz
+
+
+def kimlik_sayaci(Y):
+    """{kimlik: dönem} — `s:`/`isg:` dönemlerinin `d` alanı, `yerlesimler*`
+    kaynaklı kayıtlardan. 🔴 SAF FONKSİYON — C13 sahte evrenle çağırabilsin."""
     kul = collections.Counter()
-    for f in yer:
-        t = _oku(os.path.join("data", f))
-        t = "\n".join(l for l in t.split("\n") if not l.lstrip().startswith("//"))
-        for kat in (r"\bs:", r"\bisg:"):
-            for sm in re.finditer(kat + r"\s*\[(.*?)\]\s*[,}]", t, re.S):
-                for m in re.finditer(r'\bd:\s*"([^"]+)"', sm.group(1)):
-                    kul[m.group(1)] += 1
-    return kul, diz
+    for y in Y:
+        if not str(y.get("_kaynak", "yerlesimler")).startswith("yerlesimler"):
+            continue
+        for kat in ("s", "isg"):
+            for p in (y.get(kat) or []):
+                if isinstance(p, dict) and p.get("d"):
+                    kul[p["d"]] += 1
+    return kul
 
 
 # 🔴 KATMAN EVRENİ — 20 Eylül 2026 (SAYAC-EVREN-0920 · ölçüm: KUNYE-BORC-0920 B.0).
@@ -458,6 +475,21 @@ def _sina():
     #    Desenle (`__.*__`) süzseydim bu yazım hatası "kasıtlı" diye
     #    etiketlenip GÖRÜNMEZ olurdu; tanınan KÜME kullanmanın sebebi bu.
     bdal("8 TIPO (__BOSLK__ -> KIRMIZI kalir)", {"__BOSLK__": 1}, set(), 1, 0)
+
+    print("C13 SINAMASI — kimlik_sayaci()")
+    # ⑨ s+isg sayılır; d/v DÖNEMİ sayılmaz (`d:` {f,t,y}, `v:` kid ayrı sayaç);
+    #    yerlesimler dışı kaynak sayılmaz. Gelen kayıt dosya biçiminden (JS/JSON)
+    #    bağımsızdır — biçim körlüğü bu yüzden yukle()'den sonra imkânsız.
+    _k = kimlik_sayaci([
+        {"_kaynak": "yerlesimler_x.js", "s": [{"d": "a"}, {"d": "b"}],
+         "isg": [{"d": "a"}], "d": [{"y": "z"}], "v": [{"kid": "c"}]},
+        {"_kaynak": "yer_yama_x.js", "s": [{"d": "yabanci"}]},
+    ])
+    t += 1
+    ok = dict(_k) == {"a": 2, "b": 1}
+    gecti += 1 if ok else 0
+    print("  %s %-42s %s" % ("OK " if ok else "!!!", "9 SAYAC (s+isg, yalniz yerlesimler)",
+                              dict(_k)))
     print("SINAMA: %d/%d dal beklendigi gibi" % (gecti, t))
     # 🔴 19 Eylül 2026: `renksiz_kovalari` dalları (`_t`) bu toplama hiç
     #   girmiyordu — hepsi 🔴 olsa da çıkış kodu 0 dönüyordu. Artık girer.
@@ -586,7 +618,7 @@ def olc():
     # 🔴 Evren kurulumu `kimlik_evreni()`ye TAŞINDI — yayın kapısı da onu
     #   çağırıyor. İkisi aynı yerden okuyor, yani kapsam bir daha genişlerse
     #   ikisi BİRLİKTE genişler. (Gerekçe: fonksiyonun kendi başlığında.)
-    kul, _diz2 = kimlik_evreni()
+    kul, _diz2 = kimlik_evreni(Y)
     assert _diz2 == diz, "kimlik_evreni() ile olc() AYRIŞTI — dizin kümesi farklı"
     eksik, kasitli = bosluk_kovalari(kul, diz)
     o["kimlik_eksik"] = len(eksik)
