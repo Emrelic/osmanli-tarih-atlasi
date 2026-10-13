@@ -345,6 +345,29 @@ def renksiz_kovalari(boyalar, kunye_ids, harita_map, kul, kul_v=None):
     return delik, sessiz, tabi
 
 
+def harita_delikleri(Y=None):
+    """{kimlik: pencere} — `renksiz_kovalari()`nın `delik` kovası. `denetle.py` KOŞMAZ.
+
+    🔴 14 EKİM 2026 (SAYAC-BICIM-1014 devamı) — yayın kapısı bunu çağırır.
+      Kapı yalnız `bosluk_kovalari()`yı (DİZİNSİZ kimlik) soruyordu; RENKSİZ
+      kimliği (`BOYALAR`da yok → boyanmaz → harita deliği) HİÇ sormuyordu.
+      114 deliğin künyesi vardı, yani dizinsiz değildi: sayaç JSON'u görseydi
+      bile kapı 0 derdi. `§11`: *denetim var ≠ o soruyu soruyor.*
+    `olc()` ile aynı parçalar (`kimlik_sayaci` · `v_kid_sayaci` ·
+    `oku_devletler` · `renksiz_kovalari`) — hüküm tek yerde kalır.
+    `Y` verilirse yeniden yüklenmez."""
+    import contextlib
+    with contextlib.redirect_stdout(io.StringIO()):
+        import renkler
+    if Y is None:
+        Y = girdi.yukle(sessiz=True)
+    kul = kimlik_sayaci(Y)
+    kn = {k["id"]: (k.get("harita") or "") for k in girdi.oku_devletler()}
+    delik, _, _ = renksiz_kovalari(set(renkler.BOYALAR), set(kn), kn, kul,
+                                   v_kid_sayaci(Y))
+    return {k: kul[k] for k in delik}
+
+
 def v_kid_sayaci(Y):
     """{kimlik: dönem} — `v:[{kid:…}]` kullanımı. `girdi.yukle()` çıktısından
     (ayrıştırılmış veri; regex değil — `kaynak:` metnindeki `]` diziyi

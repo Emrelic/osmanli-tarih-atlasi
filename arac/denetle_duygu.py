@@ -11,7 +11,10 @@ YASAK = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍"])
 
 def kayitlar(t):
     out = []
-    for m in re.finditer(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', t):
+    # Anahtar tırnaksız (`t:`, JS) ya da tırnaklı (`"t":`, JSON) — 14 Ekim 2026:
+    # yalnız JS biçimi aranıyordu, JSON olay dosyaları (olaylar_ek8 · kamerika)
+    # denetimde hiç görünmüyordu (SAYAC-BICIM-1014 ile aynı kör nokta).
+    for m in re.finditer(r'\{\s*(?:t|"t")\s*:\s*"\d{4}(?:-\d{2}){0,2}"', t):
         d, q, esc, son = 0, None, False, None
         for j in range(m.start(), len(t)):
             c = t[j]
@@ -35,7 +38,7 @@ def kayitlar(t):
 n = i1 = i2 = bos = 0
 for f in sorted(glob.glob("data/olaylar*.js")):
     for g in kayitlar(io.open(f, encoding="utf-8", newline="").read()):
-        dm = re.search(r"duygu:\[([^\]]*)\]", g)
+        dm = re.search(r'(?:\bduygu|"duygu")\s*:\s*\[([^\]]*)\]', g)
         if not dm:
             bos += 1
             continue
@@ -44,8 +47,8 @@ for f in sorted(glob.glob("data/olaylar*.js")):
             bos += 1
             continue
         n += 1
-        b = re.search(r'\bb:\s*"([^"]*)"', g)
-        d = re.search(r'\bd:\s*"((?:[^"\\]|\\.)*)"', g)
+        b = re.search(r'(?:\bb|"b")\s*:\s*"([^"]*)"', g)
+        d = re.search(r'(?:\bd|"d")\s*:\s*"((?:[^"\\]|\\.)*)"', g)
         baslik = b.group(1) if b else ""
         metin = d.group(1) if d else ""
         if KIYIM.search(baslik) and (em & YASAK):

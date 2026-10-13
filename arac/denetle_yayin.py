@@ -1808,7 +1808,8 @@ def main():
                 except Exception:
                     pass
                 sys.stdout = _eski_stdout
-        _kul, _diz = _dt.kimlik_evreni()
+        _Y = girdi.yukle(sessiz=True)
+        _kul, _diz = _dt.kimlik_evreni(_Y)
         _eksik, _kasitli = _dt.bosluk_kovalari(_kul, _diz)
         _dizinsiz = len(_eksik)
         if _dizinsiz:
@@ -1825,6 +1826,31 @@ def main():
         # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz — `_bagli` ile aynı desen.
         _dizinsiz = 1
         print("\n✗  dizinsiz kimlik nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
+
+    # -----------------------------------------------------------------------
+    # 🆕 HARİTA DELİĞİ NÖBETÇİSİ — RENKSİZ kimlik (14 Ekim 2026, SAYAC-BICIM-1014)
+    # -----------------------------------------------------------------------
+    # Üstteki nöbetçi DİZİNSİZ kimliği sorar (künye yok). Bu RENKSİZİ sorar:
+    # `s:`/`isg:`te kullanılan ama boya anahtarı `BOYALAR`da olmayan kimlik
+    # boyanmaz = toprak var, renk yok = HARİTA DELİĞİ (`CLAUDE.md` Veri kuralları).
+    # Ölçülen kayıp: 14 Ekim'de `girdi.yukle()` 114 delik bulurken kapı 0 dedi —
+    # iki körlük üst üste: sayaç JSON girdiyi görmüyordu (`kimlik_evreni` regex'i)
+    # VE kapı renksizliği hiç sormuyordu (114'ünün künyesi vardı, dizinsiz değildi).
+    # Tavan 0: bugünkü ölçüm (`DURUM-TABLOSU` "harita deliği 0").
+    try:
+        _delik = _dt.harita_delikleri(_Y)
+        _renksiz = len(_delik)
+        if _renksiz:
+            print("\n✗  HARİTA DELİĞİ (renksiz kimlik): %d kimlik / %d pencere — "
+                  "veride kullanılıyor ama renkler.py BOYALAR'da YOK"
+                  % (_renksiz, sum(_delik.values())))
+            for _k, _n in sorted(_delik.items())[:10]:
+                print("     %-28s %d pencere" % (_k, _n))
+        else:
+            print("✓  harita deliği (renksiz kimlik): 0")
+    except Exception as _e:
+        _renksiz = 1
+        print("\n✗  harita deliği nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
 
     # -----------------------------------------------------------------------
     # 🆕 ODAK NÖBETÇİSİ — kronoloji maddesinin KAMERA ODAĞI (27 Eylül 2026)
@@ -1958,7 +1984,7 @@ def main():
             # 🆕 5 Ekim 2026: `bayat` DEĞİL `bayat_durdurucu` — iki günden taze
             #   bayatlık Emre'nin hükmüyle yayını DURDURMAZ (yukarı bak).
             or damga_ihlali or bayat_durdurucu or izsiz or iz_bayat or _sz
-            or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
+            or _bagli or _dizinsiz or _renksiz or _odak_ihlali or _kod_ihlali
             or _paket_ihlali or _dom_ihlali or _ufuk_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
