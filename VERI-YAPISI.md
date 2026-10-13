@@ -894,6 +894,9 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
   **Dikiş:** zincirin son sahibi atlasın ilk sahibi OLMAK ZORUNDA DEĞİL — el değiştirme tam atlas
   başlangıcındaysa (Antalya 1207-03-05 Selçuklu) son dönem önceki sahiptir ve o gün için `olay` gerekir.
   *(Parti 01 ölçtü: kural ilk yazıldığında bunu yasaklıyordu, yanlıştı.)*
+- **Atlasın başlangıç iddiası kaynaksızsa** (Cezayir: atlas 1281 `zeyyani`, tanık yok): dikiş için
+  YER TUTUCU OLAY YAZILMAZ — `kaynak:"bulunamadı"` olan olay ihlaldir. Şehre `dikis_beyan:"…"` yazılır
+  (ne aranıp bulunamadı); denetim borcu uyarı olarak taşır. *(Parti 03: ölçütü olay uydurarak geçmişti.)*
 - **Süresi bilinmeyen kısa ele geçirme** (kaynak "geçici" der, bitiş vermez): dönem AÇILMAZ — uydurma bitiş
   yazılmaz, boşluk da açılmaz. `olay` olarak yazılır, zincir eski sahiple sürer, `ic_not`ta beyan edilir.
 - **Dönem başlangıcı "en geç" tanıktan** (yeni sahip en geç X'te şehri tutuyor, el değiştirme günü yok):
@@ -907,6 +910,9 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
 - `d` = `devletler.js` gerçek `id`. Sahibi bilinmiyorsa `__BOSLUK__` + `ic_not` (beyansız yaklaşıklık yok).
   Sahip BİLİNİYOR ama künyesi yoksa: önerilen id + `kunye_yok:true` + `ic_not` (ad, ömür, kaynak) —
   `__BOSLUK__` YAZILMAZ ("kimsenin değil" ≠ "künyesi açılmamış"). Denetim bunu uyarı sayar; künye açılınca işaret kalkar.
+- **`d:"osmanli"`** ayrılmış kimliktir: atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır
+  (`devletler.js`te ve `BOYALAR`da `osmanli` YOK — ölçüldü, kasıtlı). Burada yazılan `osmanli` dönemi
+  aktarımda `d:` dönemine dönüşür; `kunye_yok` İŞARETLENMEZ. *(Parti 04 buldu.)*
   Dönem künyenin `f`/`t` ömrünü aşarsa denetim UYARIR (hayalet devlet) — sınıflandırma kuralı aynen geçerli.
 - Her sahiplik değişiminin (`sahip[i].t`) ±30 gün içinde bir `olay` maddesi olmalı (Değişmez 2'nin bu
   dosyadaki eşi). `olay.k` `olaylar*.js` sözlüğünden (`fetih`, `kayip`, `kurulus`, `antlasma`, `isyan` …).

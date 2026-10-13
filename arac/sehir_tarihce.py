@@ -81,7 +81,7 @@ def devlet_omurleri():
         os.chdir(cwd)
     if isinstance(D, dict):
         D = list(D.values())
-    return {d["id"]: (d.get("f"), d.get("t")) for d in D}
+    return {d["id"]: (d.get("f"), d.get("t"), d.get("harita") or d["id"]) for d in D}
 
 
 def denetle_kayitlar(K, sessiz=False):
@@ -154,7 +154,12 @@ def denetle_kayitlar(K, sessiz=False):
             if j + 1 < len(S) and p["t"] != S[j + 1].get("f"):
                 ihlal.append(f"{yer}: kopukluk {p['t']} → {S[j + 1].get('f')}")
             d = p.get("d")
-            if p.get("kunye_yok"):
+            if d == "osmanli":
+                # atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır — devletler.js'te kaydı YOK, kasıtlı.
+                # Bu dosyada `osmanli` = atlasın `d:` dönemi (aktarımda `d:`ye dönüşür).
+                if p.get("kunye_yok"):
+                    uyari.append(f"{yer}: 'osmanli' için kunye_yok gereksiz (atlas d: alanı)")
+            elif p.get("kunye_yok"):
                 # devletler.js'te künyesi olmayan yapı: önerilen id + beyan; künye açılınca işaret kalkar
                 if d in omur:
                     ihlal.append(f"{yer}: '{d}' künyesi VAR ama kunye_yok işaretli")
@@ -166,7 +171,7 @@ def denetle_kayitlar(K, sessiz=False):
                 if d not in omur:
                     ihlal.append(f"{yer}: devlet '{d}' devletler.js'te yok")
                 else:
-                    df, dt = omur[d]
+                    df, dt, _ = omur[d]
                     if df and TARIH.match(df) and gun_no(p["f"]) < gun_no(df) - OLAY_PENCERE_GUN:
                         uyari.append(f"{yer}: '{d}' {p['f']}'de, künye {df}'de başlıyor (hayalet)")
                     if dt and TARIH.match(dt) and gun_no(p["t"]) > gun_no(dt) + OLAY_PENCERE_GUN:
@@ -187,12 +192,23 @@ def denetle_kayitlar(K, sessiz=False):
         og = [gun_no(o.get("t")) for o in O if gun_no(o.get("t")) is not None]
         gecisler = [(p.get("t"), p.get("d"), S[j + 1].get("d")) for j, p in enumerate(S[:-1])]
         # dikiş: zincirin son sahibi atlasın ilk sahibinden farklıysa geçiş TAM atlas başlangıcındadır
-        if S and son and atlas_ad and S[-1].get("t") == son and S[-1].get("d") != atlas_sahip:
+        # atlas `s:` dönemleri künye id'si DEĞİL harita anahtarı da taşıyabilir (kibris-krallik ↔ lusignan)
+        son_d = S[-1].get("d") if S else None
+        ayni_sahip = son_d == atlas_sahip or (son_d in omur and omur[son_d][2] == atlas_sahip)
+        if S and son and atlas_ad and S[-1].get("t") == son and not ayni_sahip:
             gecisler.append((son, S[-1].get("d"), f"{atlas_sahip} (atlas)"))
         for t, a, b in gecisler:
             g = gun_no(t)
             if g is not None and not any(abs(g - x) <= OLAY_PENCERE_GUN for x in og):
-                ihlal.append(f"{i}: sahiplik {a} → {b} ({t}) için ±30 gün olay yok")
+                if b.endswith("(atlas)") and (k.get("dikis_beyan") or "").strip():
+                    # atlasın kendi başlangıç iddiası kaynaksız: yer tutucu olay UYDURULMAZ, borç beyan edilir
+                    uyari.append(f"{i}: dikiş beyanlı borç {a} → {b} ({t}): {k['dikis_beyan'][:80]}")
+                else:
+                    ihlal.append(f"{i}: sahiplik {a} → {b} ({t}) için ±30 gün olay yok")
+        for j, o in enumerate(O):
+            if (o.get("kaynak") or "").strip().lower().startswith("bulunamad"):
+                ihlal.append(f"{i}.olay[{j}]: kaynağı 'bulunamadı' olan olay — olay uydurulmaz; "
+                             "tanık yoksa madde yazılmaz (dikişse `dikis_beyan`)")
 
     if not sessiz:
         for u in uyari:
