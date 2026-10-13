@@ -178,9 +178,9 @@ window.YERLESIMLER_OK104 = [
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1912-11-29",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1913-05-30",t:"1918-12-01",d:"sirbistan-kralligi"},
      {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
-  d:[{f:"1395-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1912-11-29"}],
+  d:[{f:"1395-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], isg:[{f:"1912-11-29",t:"1913-05-30",d:"sirbistan-kralligi",kaynak:"Sırp işgali (de facto): giriş günü atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ (kaynaklı gün bulunamadı) · bitiş 1913-05-30: Londra Antlaşması — Osmanlı Devleti Midye-Enez hattının batısındaki toprakları terk etti (Emre kararı 13 Ekim 2026; atlas Dimetoka/Çirmen/Gümülcine için bu günü zaten kullanıyor) · hüküm SINIR-BERLIN-0076 B2, SIRADA-B-1012 0076/H-0145; TDV londra-antlasmasi günü bu oturumda çekilemedi (bulunamadı) · de jure Osmanlı toprağı Londra'ya dek d: ile kesintisizdir"}],
   kaynak:"TDV debre" },
 
 // ═══════════════════════════════════════════════════════════════════════════

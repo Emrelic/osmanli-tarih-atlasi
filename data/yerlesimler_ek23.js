@@ -124,7 +124,7 @@ window.YERLESIMLER_EK23 = [
 // ilhakında (1345) Edremit ve Çanakkale Osmanlı olurken arada kalıyordu.
 // Tek başına ölçüldü: 1350-1440 arası **851 km²** (ceneviz→OSM 489 · bizans→OSM 362).
 { ad:"Behramkale (Assos)", kd:[{f:"1281-01-01",t:"1345-01-01",k:0,m:null},{f:"1345-01-01",t:"1923-10-29",k:4,m:"Bursa"}], tur:"kale", lat:39.4897, lon:26.3376, g:0, k:4, m:"Bursa",
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1410-05-06",d:"suleyman-celebi"},{f:"1410-05-06",t:"1413-07-05",d:"mehmed-celebi",kesinlik:{f:"yil"}},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
@@ -135,7 +135,7 @@ window.YERLESIMLER_EK23 = [
 // Tek başına ölçüldü: 1400-1440 **+216 km²** Osmanlı · 1350-1355 **−97 km²**
 // (iki yönlü — Aydos/Samandıra'nın kuzeye taşan payı geri alınıyor).
 { ad:"Beykoz", kd:[{f:"1281-01-01",t:"1395-08-01",k:0,m:null},{f:"1453-05-29",t:"1923-10-29",k:4,m:"İstanbul"}], tur:"sehir", lat:41.1275, lon:29.0925, g:0, k:4, m:"İstanbul",
-  s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1410-05-06",d:"suleyman-celebi"},{f:"1410-05-06",t:"1413-07-05",d:"mehmed-celebi",kesinlik:{f:"yil"}},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1395-08-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 

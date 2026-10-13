@@ -5699,6 +5699,33 @@ window.DEVLETLER = [
     { t:"1328-08-16", tur:"son", b:"Ludovico Gonzaga önderliğindeki darbeyle Rinaldo (Passerino) Bonacolsi devrilip öldürüldü" }
   ]
 },
+// AVRUPA-YER 13 Ekim 2026 (0083/H-0007, Emre onayı): Po ovası künyesiz senyörlükleri. `harita:` BİLEREK YOK —
+// renkler.py BOYALAR'a girene kadar Verona/Padova `s:` dönemleri `__BOSLUK__` kalır (boyası ve dönem geçişi:
+// denetim/AVRUPA-YER-PO-BOYA-1013.diff, motor dosyası olduğu için BEKLİYOR). Bonacolsi emsali (harita:'sız künye).
+{ id:"della-scala", ad:"Della Scala (Scaligeri) Senyörlüğü (Verona)", tur:"devlet", bolge:"italya",
+  f:"1277-01-01", t:"1387-10-18", baskent:"Verona", kesinlik:{ f:"yil", t:"gun" },
+  ozet:"Verona'da 1277'den 1387'ye kadar hüküm süren Scaligeri (Della Scala) senyörlüğü; Cangrande I döneminde Vicenza ve çevresini de kapsayan kuzey İtalya devletine dönüştü. Son senyör Antonio'nun Gian Galeazzo Visconti'ye yenilmesiyle sona erdi. TDV'de ayrı maddesi yok; tarihler İtalyan akademik referansa göredir.",
+  kaynak:"Enciclopedia Italiana (Treccani, 1931) «Della Scala» (L. Simeoni): senyörlük «ufficialmente dal 1277 al 1387» (yıl düzeyi; kuruluş 1262 «capitano del popolo» sürecinden ayrıdır) · Dizionario Biografico (Treccani, 1989) «Della Scala, Antonio» (G. Soldi Rondinini): Brentelle 25 Haziran 1386, Castagnaro 11 Mart 1387, Verona'nın teslimi 17-18 Ekim 1387 gecesi (GÜN VARYANTI: 1931 maddesi Visconti'nin şehre 19 Ekim 1387'de girdiğini yazar; DBI'ye uyuldu) · TDV'de yok (bulunamadı)",
+  kronoloji:[
+    { t:"1277-01-01", kesinlik:"yil", tur:"kurulus", b:"Scaligeri senyörlüğü Verona'da resmen kuruldu (Enciclopedia Italiana: «ufficialmente dal 1277»)", kaynak:"Enciclopedia Italiana (Treccani, 1931) «Della Scala» — YIL" },
+    { t:"1386-06-25", tur:"savas", b:"Scaligeri Brentelle'de yenildi", kaynak:"Dizionario Biografico (Treccani) «Della Scala, Antonio»" },
+    { t:"1387-03-11", tur:"savas", b:"Scaligeri Castagnaro'da yenildi", kaynak:"Dizionario Biografico (Treccani) «Della Scala, Antonio»" },
+    { t:"1387-10-18", tur:"son", b:"Antonio della Scala Verona'yı Gian Galeazzo Visconti'ye teslim etti, senyörlük sona erdi", kaynak:"Dizionario Biografico (Treccani) «Della Scala, Antonio» — 17-18 Ekim gecesi (1931 Enciclopedia Italiana: 19 Ekim)" }
+  ]
+},
+{ id:"carrara", ad:"Carrara Senyörlüğü (Padova)", tur:"devlet", bolge:"italya",
+  f:"1345-01-01", t:"1405-11-17", baskent:"Padova", kesinlik:{ f:"yil", t:"gun" },
+  ozet:"Padova'da da Carrara ailesinin senyörlüğü: Giacomo II 1345'te, oğlu Francesco il Vecchio 1350'de iktidara geldi; 1388'de Visconti'ye teslim edilen Padova 1390'da Francesco Novello'yla geri alındı, Novello 1404'te Verona'yı da ele geçirdi; senyörlük Venedik'in 1405'te Padova'yı almasıyla bitti. 1345 öncesi Carrara iktidarı (1318 ve 1337 iddiaları) bu künyede YAZILMADI — kaynak bulunamadı. TDV'de ayrı maddesi yok.",
+  kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Vecchio»: Giacomo (II) di Nicolò 1345'te senyörlüğe geçti (YIL), Francesco il Vecchio 19 Aralık 1350'de senyör seçildi · «Carrara, Francesco da, il Novello»: 21 Kasım 1388 Visconti'ye devir, 21 Haziran 1390 şehre girişi, 8 Eylül 1390 Anziani'nin senyörlüğü yeniden vermesi, 25 Mayıs 1404 Verona'nın alınışı, 16-17 Kasım 1405 gecesi Venedik birliklerinin girişi, 22 Kasım 1405 Venedik Senatosu'nun dedizione'yi kabulü · TDV'de yok (bulunamadı) · ⚠️ 1318 (Giacomo I) ve 1328-1337 Scaligeri işgali bu oturumda DOĞRULANAMADI",
+  kronoloji:[
+    { t:"1345-01-01", kesinlik:"yil", tur:"kurulus", b:"Giacomo (II) da Carrara senyörlüğe geçti (kaynakla tanıklanan en erken yıl)", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Vecchio» — YIL" },
+    { t:"1350-12-19", tur:"hukumdar", b:"Francesco il Vecchio halk tarafından Padova senyörü seçildi", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Vecchio»" },
+    { t:"1388-11-21", tur:"toprak-kayip", b:"Francesco Novello Padova'yı Gian Galeazzo Visconti'ye devretmeyi kabul etti", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Novello»" },
+    { t:"1390-09-08", tur:"toprak-kazanc", b:"Anziani, Francesco Novello'nun senyörlüğünü yeniden tanıdı (21 Haziran'da şehre girmişti)", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Novello»" },
+    { t:"1404-05-25", tur:"toprak-kazanc", b:"Francesco Novello Verona'yı ele geçirdi", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Novello»" },
+    { t:"1405-11-17", tur:"son", b:"Venedik birlikleri Padova'ya girdi, Carrara senyörlüğü sona erdi (Senato dedizione'yi 22 Kasım'da kabul etti)", kaynak:"Dizionario Biografico (Treccani) «Carrara, Francesco da, il Novello» — 16-17 Kasım gecesi" }
+  ]
+},
 { id:"mantua", ad:"Mantua Dukalığı (Gonzaga)", tur:"dukalik", bolge:"italya",
   f:"1328-01-01", t:"1708-01-01", baskent:"Mantua", harita:"mantua",
   ozet:"Gonzaga hanedanının kurduğu, Rönesans sanatına (Mantegna) büyük destek veren küçük ama zengin dükalık; hanedanın soyu tükenince İspanya Veraset Savaşı sırasında Avusturya Habsburglarına geçti.",

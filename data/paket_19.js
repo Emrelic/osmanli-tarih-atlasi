@@ -142,9 +142,9 @@ window.YERLESIMLER_EK_BOSLUK = [
 {ad:"Prizren", tur:"sehir", lat:42.214, lon:20.741, g:1, k:2,
  m:"Üsküb",
  s:[{f:"1281-01-01", t:"1455-06-20", d:"sirbistan"},
-    {f:"1912-11-03", t:"1918-12-01", d:"sirbistan-kralligi"},
+    {f:"1913-05-30",t:"1918-12-01",d:"sirbistan-kralligi"},
     {f:"1918-12-01", t:"1945-11-29", d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"1999-06-10",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1999-06-10",t:"2000-12-31",d:"unmik-kosova",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
- d:[{f:"1455-06-20", t:"1912-11-03"}],
+ d:[{f:"1455-06-20", t:"1913-05-30"}], isg:[{f:"1912-11-03",t:"1913-05-30",d:"sirbistan-kralligi",kaynak:"Sırp işgali (de facto): giriş günü atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ (kaynaklı gün bulunamadı) · bitiş 1913-05-30: Londra Antlaşması — Osmanlı Devleti Midye-Enez hattının batısındaki toprakları terk etti (Emre kararı 13 Ekim 2026; atlas Dimetoka/Çirmen/Gümülcine için bu günü zaten kullanıyor) · hüküm SINIR-BERLIN-0076 B2, SIRADA-B-1012 0076/H-0145; TDV londra-antlasmasi günü bu oturumda çekilemedi (bulunamadı) · de jure Osmanlı toprağı Londra'ya dek d: ile kesintisizdir"}],
  kaynak:"TDV `prizren` — gövdesi okundu, 2026-08-28"},
 
 ];
