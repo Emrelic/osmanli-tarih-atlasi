@@ -22,7 +22,7 @@ window.YERLESIMLER_AMERIKA2 = [
 
 { ad:"Huamanga (Ayacucho)", tur:"sehir", lat:-13.1588, lon:-74.2239, g:1, k:1, kur:"1539-01-09",
   s:[{f:"1539-01-09",t:"1824-12-09",d:"ispanyol-peru"},
-     {f:"1824-12-09",t:"1923-10-29",d:"peru-cumhuriyeti"}] },
+     {f:"1824-12-09",t:"2000-12-31",d:"peru-cumhuriyeti"}] },
 // kaynak: ① Encyclopaedia Britannica "Ayacucho" md. — "In 1539 the
 //         conquistador Francisco Pizarro conquered the area ... and named
 //         the city Huamanga."
@@ -50,7 +50,7 @@ window.YERLESIMLER_AMERIKA2 = [
 { ad:"Comanchería (Güney Büyük Ovalar)", tur:"konfederasyon", lat:34.9700, lon:-101.6800, g:0, k:2,
   s:[{f:"1281-01-01",t:"1750-01-01",d:"apaci-ovalar"},
      {f:"1750-01-01",t:"1875-01-01",d:"komanci"},
-     {f:"1875-01-01",t:"1923-10-29",d:"abd"}] },
+     {f:"1875-01-01",t:"2000-12-31",d:"abd"}] },
 // kaynak: ① Encyclopaedia Britannica "Apache" md. — "The ancestral Apache
 //         probably did not reach the Southwest until at least 1100 CE...
 //         semisedentary Plains Apache farmers were living along the Dismal

@@ -53,7 +53,7 @@
 window.YER_YAMA_SUTTER_0906 = [
   { ad:"Sutter's Fort (Sacramento)",
     s:[{f:"1839-01-01",t:"1848-02-02",d:"meksika"},
-       {f:"1848-02-02",t:"1923-10-29",d:"abd"}],
+       {f:"1848-02-02",t:"2000-12-31",d:"abd"}],
     kaynak:"ABD Millî Arşivi (archives.gov), Guadalupe Hidalgo Antlaşması — birincil belge: imza 2 Şubat 1848; Meksika'nın devrettiği topraklar arasında Kaliforniya adıyla sayılıyor. TDV `amerika` maddesi gövdesi okundu, Meksika-ABD savaşını ve bu antlaşmayı KAPSAMIYOR (§4 coğrafî kapsam boşluğu ⇒ akademik/birincil kaynak meşru).",
     not:"1839 tarihi DOĞRU ve değişmiyor: Sutter kaleyi o yıl kurdu — ama Meksika hükümetinden aldığı arazi imtiyazıyla (Nueva Helvetia) ve Meksika vatandaşı olarak. Kusur kuruluş tarihinde değil SAHİPTE: kayıt `abd`yi 1839'dan başlatıyordu, ~9 yıl erken. Gün seçimi atlasın kendi meksika→abd konvansiyonuyla birebir aynı (beş komşu, San Diego dâhil)."
   }

@@ -797,7 +797,7 @@ window.DEVLETLER = [
 // (Napolyon→Restorasyon→Cumhuriyetler), `almanya` kaydının HRE→Alman
 // İmparatorluğu emsali gibi. Kaynak: TDV `fransa` (canlı, genel madde).
 { id:"fransa-cumhuriyet", ad:"Fransa (1792 Sonrası — Cumhuriyet/İmparatorluk/Restorasyon)", tur:"cumhuriyet", bolge:"bati-avrupa",
-  f:"1792-09-22", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Paris",
+  f:"1792-09-22", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Paris",
   ozet:"I. Cumhuriyet'in ilanından III. Cumhuriyet'e uzanan, rejim rejim değişen ama devlet kimliği süren dönem (bkz. [[fransa]] Krallık dönemi için) — Napolyon'un İmparatorluğu, Restorasyon, Temmuz Monarşisi, II. Cumhuriyet ve II. İmparatorluk hepsi TEK kayıtta. Cezayir (bkz. [[cezayir-fransiz]]) ve Tunus'un 1881 sonrası fiilî Fransız idaresi de bu kaydın harita kimliğine dahil. (kaynak: TDV, madde: fransa) (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"fransa",
   kronoloji:[
@@ -810,11 +810,19 @@ window.DEVLETLER = [
     { t:"1870-09-04", tur:"kurulus", b:"III. Cumhuriyet ilan edildi" },
     { t:"1881-05-12", tur:"toprak-kazanc", b:"Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu", ic_not_b:"eski b: Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu (bkz. [[tunus-ocagi]])" },
     { t:"1940-07-10", tur:"siyaset", b:"Vichy'de toplanan Parlamento Mareşal Pétain'e olağanüstü tam yetki verdi (III. Cumhuriyet fiilen sona erdi)", kaynak:"OH france: 'On July 10, 1940, the French Parliament met in Vichy and granted full and extraordinary powers to Marshal Pétain'" },
-    { t:"1944-08-25", tur:"toprak-kazanc", b:"Özgür Fransız kuvvetleri Paris'e girdi", kaynak:"USHMM-KD (25 Ağustos 1944)" }
+    { t:"1944-08-25", tur:"toprak-kazanc", b:"Özgür Fransız kuvvetleri Paris'e girdi", kaynak:"USHMM-KD (25 Ağustos 1944)" },
+    { t:"1946-10-13", tur:"siyaset", b:"IV. Cumhuriyet anayasası referandumla kabul edildi (27 Ekim 1946'da yürürlüğe girdi)", kaynak:"https://www.conseil-constitutionnel.fr/en/constitution-of-4-october-1958 (Fransız Anayasa Konseyi anayasal tarihçe; gün için bulunamadı: doğrudan sayfa doğrulanmadı)" },
+    { t:"1954-11-01", tur:"isyan", b:"Cezayir'de FLN'nin silahlı ayaklanması Cezayir Savaşı'nı başlattı", kaynak:"https://history.state.gov/milestones/1953-1960 (Office of the Historian; doğrudan sayfa doğrulanmadı)" },
+    { t:"1956-03-20", tur:"toprak-kayip", b:"Fransa Tunus'un bağımsızlığını tanıdı (protektora sona erdi)", kaynak:"Office of the Historian / TDV Tunus maddesi" },
+    { t:"1957-03-25", tur:"ittifak", b:"Roma Antlaşması'yla Avrupa Ekonomik Topluluğu'nun kurucu üyesi oldu", kaynak:"https://european-union.europa.eu/principles-countries-history/history-eu_en" },
+    { t:"1958-10-04", tur:"siyaset", b:"V. Cumhuriyet anayasası yürürlüğe girdi (De Gaulle dönemi)", kaynak:"https://www.conseil-constitutionnel.fr/en/constitution-of-4-october-1958" },
+    { t:"1960-01-01", tur:"toprak-kayip", b:"Fransız Batı ve Ekvator Afrikası'nın büyük bölümü 1960'ta bağımsız oldu (gün belirtilmedi)", kaynak:"Office of the Historian, Milestones: Decolonization of Africa" },
+    { t:"1962-03-18", tur:"antlasma", b:"Evian Anlaşmaları Cezayir Savaşı'nı bitirdi; Cezayir 5 Temmuz 1962'de bağımsız oldu", kaynak:"Office of the Historian, Milestones 1961-1968 / TDV Cezayir maddesi" },
+    { t:"1992-02-07", tur:"antlasma", b:"Maastricht Antlaşması imzalandı, Avrupa Birliği kuruldu", kaynak:"https://european-union.europa.eu/principles-countries-history/history-eu_en" }
   ]
 },
 { id:"ingiltere", ad:"İngiltere / Büyük Britanya", tur:"krallik", bolge:"bati-avrupa",
-  f:"0927-01-01", t:"1945-09-02", ic_not_f:"Kaynak yalnız yıl verir (927). Aynı madde taç giyme için 'Crowned king of the whole country at Kingston on Sept. 4, 925' der; krallığın 'bütün İngiltere' kapsamı York ilhakıyla (927) tamamlanır. Atlas kuşağı 1000'den başladığı için koordinatör f'yi 1000-01-01 pencere işaretine de çekebilir; 927 kaynaklı alt sınırdır.", ic_not_t:"t'ye dokunulmadı.", baskent:"Londra", harita:"ingiltere",
+  f:"0927-01-01", ic_not_f:"Kaynak yalnız yıl verir (927). Aynı madde taç giyme için 'Crowned king of the whole country at Kingston on Sept. 4, 925' der; krallığın 'bütün İngiltere' kapsamı York ilhakıyla (927) tamamlanır. Atlas kuşağı 1000'den başladığı için koordinatör f'yi 1000-01-01 pencere işaretine de çekebilir; 927 kaynaklı alt sınırdır.", ic_not_t:"t'ye dokunulmadı.", baskent:"Londra", harita:"ingiltere",
   ozet:"1581 Levant Company ile başlayan ticari ilişki, 19. yüzyılda Boğazlar ve Mısır siyasetinde belirleyici güce dönüştü. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"ingiltere",
   kronoloji:[
@@ -823,7 +831,14 @@ window.DEVLETLER = [
     { t:"1827-10-20", tur:"savas", b:"Navarin'de Osmanlı-Mısır donanmasını batırdı" },
     { t:"1840-07-15", tur:"ittifak", b:"Londra Konvansiyonu ile Kavalalı'ya karşı Osmanlı'yı destekledi" },
     { t:"1878-06-04", tur:"toprak-kazanc", b:"Kıbrıs'ın idaresini devraldı" },
-    { t:"1914-11-05", tur:"savas", b:"I. Dünya Savaşı'nda Osmanlı'ya karşı cephe açtı" }
+    { t:"1914-11-05", tur:"savas", b:"I. Dünya Savaşı'nda Osmanlı'ya karşı cephe açtı" },
+    { t:"1947-08-15", tur:"toprak-kayip", b:"Hindistan ve Pakistan bağımsız oldu, Britanya Hindistanı sona erdi", kaynak:"https://www.parliament.uk/about/living-heritage/ (Indian Independence Act 1947)" },
+    { t:"1949-04-04", tur:"ittifak", b:"Kuzey Atlantik Antlaşması (NATO) kurucu üyesi olarak imzalandı", kaynak:"https://www.nato.int/cps/en/natohq/topics_67656.htm" },
+    { t:"1952-02-06", tur:"hukumdar", b:"II. Elizabeth tahta çıktı", kaynak:"https://www.royal.uk/" },
+    { t:"1956-11-05", tur:"savas", b:"Süveyş Krizi: Britanya ve Fransa Port Said'e çıkarma yaptı", kaynak:"https://history.state.gov/milestones/1953-1960/suez" },
+    { t:"1973-01-01", tur:"ittifak", b:"Avrupa Ekonomik Topluluğu'na katıldı", kaynak:"https://european-union.europa.eu/principles-countries-history/history-eu_en" },
+    { t:"1982-04-02", tur:"savas", b:"Arjantin'in Falkland Adaları'nı işgaliyle Falkland Savaşı başladı", kaynak:"https://www.gov.uk/ (bulunamadı: kesin sayfa)" },
+    { t:"1998-04-10", tur:"antlasma", b:"Hayırlı Cuma Anlaşması Kuzey İrlanda'da barış sürecini başlattı", kaynak:"https://www.gov.uk/ (bulunamadı: kesin sayfa)" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `isvec` harita kimliği künyenin
@@ -842,13 +857,18 @@ window.DEVLETLER = [
   ]
 },
 { id:"isvec", ad:"İsveç Krallığı", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"1523-06-06", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Stockholm", harita:"isvec",
+  f:"1523-06-06", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Stockholm", harita:"isvec",
   ozet:"XII. Karl'ın (Demirbaş Şarl) Poltava bozgunu sonrası 1709-1714 Osmanlı topraklarında (Bender) sığınmacılığı ile hatırlanır. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"isvec",
   kronoloji:[
     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
     { t:"1709-08-01", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
-    { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" }
+    { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" },
+    { t:"1946-11-19", tur:"siyaset", b:"İsveç Birleşmiş Milletler'e üye oldu", kaynak:"https://www.un.org/en/about-us/member-states/sweden" },
+    { t:"1973-09-15", tur:"hukumdar", b:"XVI. Carl Gustaf tahta çıktı", kaynak:"https://www.kungahuset.se/" },
+    { t:"1975-01-01", tur:"siyaset", b:"Yeni Hükûmet Biçimi (anayasa) yürürlüğe girdi, kralın yetkileri törensel hale geldi", kaynak:"https://www.riksdagen.se/en/ (Instrument of Government 1974)" },
+    { t:"1986-02-28", tur:"felaket", b:"Başbakan Olof Palme Stockholm'de suikastla öldürüldü", kaynak:"https://sweden.se/" },
+    { t:"1995-01-01", tur:"ittifak", b:"İsveç Avrupa Birliği'ne üye oldu", kaynak:"https://european-union.europa.eu/principles-countries-history/country-profiles/sweden_en" }
   ]
 },
 
@@ -1184,7 +1204,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"fas", ad:"Fas (Sâdî / Alevî Şerifleri)", tur:"krallik", bolge:"kuzey-afrika",
-  f:"1549-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Fas / Marakeş", harita:"fas",
+  f:"1549-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Fas / Marakeş", harita:"fas",
   ozet:"Osmanlı'ya hiçbir dönemde bağlanmayan tek Kuzey Afrika devleti; komşu ama daima bağımsız. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: kronolojideki \"1666 bölünme\" satırı 1664'e çekildi ve olay adı değiştirildi — TDV'de üç AYRI tarih var, karıştırılmasın: **1659** = Sâdî hanedanının kendi içten çöküşü (bkz. [[sadi]], harita sınırı bu tarihte kalıyor, dokunulmadı), **1664** = TDV `fas` maddesinin verdiği \"başa geçen Mevlây Reşîd\" tarihi (BU satır), **1666** TDV'nin hiçbir maddesinde geçmiyordu, kaynağı belirsizdi. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"fas",
   kronoloji:[
@@ -1194,7 +1214,11 @@ window.DEVLETLER = [
     { t:"1664-08-02", tur:"hukumdar", kaynak:"TDV: mevlay-resid: '(9 Muharrem 1075 / 2 Ağustos 1664)'", b:"Mevlây Reşîd başa geçti; Alevî (Filalî) hanedanı fiilen iktidara geldi (şehirlerin tam ele geçirilişi onun döneminde, sonraki 20 yıl içinde tamamlandı)" },
     { t:"1672-04-13", tur:"hukumdar", b:"Mevlây İsmâil tahta çıktı, merkezi otoriteyi güçlendirdi (1727'ye dek)", kaynak:"TDV: mevlay-ismail: '15 Zilhicce 1082 (13 Nisan 1672) tarihinde tamamlanan merasimde' (biat)" },
     { t:"1844-08-14", tur:"savas", b:"Isly Savaşı'nda Fransa'ya yenildi" },
-    { t:"1912-03-30", tur:"antlasma", b:"Fes Antlaşması ile Fransız himayesine girdi" }
+    { t:"1912-03-30", tur:"antlasma", b:"Fes Antlaşması ile Fransız himayesine girdi" },
+    { t:"1956-03-02", tur:"kurulus", b:"Fransa Fas'ın bağımsızlığını resmen tanıdı", kaynak:"https://www.maroc.ma/en/history-of-morocco/important-dates" },
+    { t:"1961-03-03", tur:"hukumdar", b:"II. Hasan tahta çıktı", kaynak:"https://jfk.artifacts.archives.gov/people/298/hassan-ii" },
+    { t:"1975-11-06", tur:"toprak-kazanc", b:"Yeşil Yürüyüş: 350 bin gönüllü Batı Sahra'ya yürüdü; ardından İspanya çekildi", kaynak:"https://www.maroc.ma/en/history-of-morocco/important-dates" },
+    { t:"1999-07-23", tur:"hukumdar", b:"II. Hasan öldü, VI. Muhammed tahta geçti", kaynak:"https://www.britannica.com/biography/Hassan-II (gün doğrulanmadı)" }
   ]
 },
 { id:"yemen-zeydi", ad:"Yemen Zeydî İmamlığı", tur:"devlet", bolge:"arabistan",
@@ -1244,7 +1268,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"yunanistan", ad:"Yunanistan Krallığı", tur:"krallik", bolge:"balkanlar",
-  f:"1821-03-25", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nafplion → Atina", harita:"yunanistan",
+  f:"1821-03-25", t:"1973-06-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nafplion → Atina", harita:"yunanistan",
   ozet:"Mora isyanıyla başlayıp Londra Protokolü'yle bağımsızlığa ulaşan, sonraki yüzyılda Osmanlı'dan toprak almaya devam eden devlet. (1945 ufkundan sonra da sürdü — t: pencere ucu. Künye ÜLKE sürekliliğidir: 25 Mart 1924 cumhuriyet, 1935 krallığın iadesi — TDV yunanistan.)",
   kaynak:"yunanistan",
   kronoloji:[
@@ -1255,7 +1279,13 @@ window.DEVLETLER = [
     { t:"1912-10-08", tur:"savas", b:"Balkan Savaşları'nda Selanik ve Girit'i aldı" },
     { t:"1919-05-15", tur:"isgal", b:"İzmir'i işgal etti (Millî Mücadele'nin başlangıç noktalarından)" },
     { t:"1924-03-25", tur:"siyaset", b:"Cumhuriyet ilan edildi (II. Yunan Cumhuriyeti)", kaynak:"TDV: yunanistan (özet, alıntı değil): 25 Mart 1924" },
-    { t:"1935-01-01", tur:"siyaset", b:"Kral II. Georg Atina'ya çağrıldı, krallık rejimine dönüldü", kaynak:"TDV: yunanistan (özet) — YIL verir, gün yok" }
+    { t:"1935-01-01", tur:"siyaset", b:"Kral II. Georg Atina'ya çağrıldı, krallık rejimine dönüldü", kaynak:"TDV: yunanistan (özet) — YIL verir, gün yok" },
+    { t:"1946-09-01", tur:"siyaset", b:"Plebisit sonucu krallığın iadesine karar verildi; II. Georg 27 Eylül'de döndü", kaynak:"TDV Yunanistan maddesi (gün doğrulanmadı)" },
+    { t:"1947-03-12", tur:"ittifak", b:"Truman Doktrini: ABD, Yunanistan ve Türkiye'ye yardımı ilan etti", kaynak:"https://history.state.gov/milestones/1945-1952/truman-doctrine" },
+    { t:"1947-09-15", tur:"toprak-kazanc", b:"Paris Barış Antlaşması yürürlüğe girdi, Oniki Ada Yunanistan'a bırakıldı (birleşme 7 Mart 1948)", kaynak:"https://api.parliament.uk/uk-treaties/treaties/496" },
+    { t:"1949-08-30", tur:"ic-savas", b:"Yunan İç Savaşı hükûmet zaferiyle sona erdi", kaynak:"https://history.state.gov/milestones/1945-1952 (gün doğrulanmadı)" },
+    { t:"1952-02-18", tur:"ittifak", b:"Türkiye ile birlikte NATO'ya katıldı", kaynak:"https://www.nato.int/cps/en/natohq/topics_67656.htm" },
+    { t:"1967-04-21", tur:"siyaset", b:"Albaylar darbesi: askerî cunta yönetime el koydu", kaynak:"https://en.wikipedia.org/wiki/Metapolitefsi (ikincil; birincil bulunamadı)" }
   ]
 },
 { id:"karadag", ad:"Karadağ (Montenegro)", tur:"prenslik", bolge:"balkanlar",
@@ -1336,14 +1366,17 @@ window.DEVLETLER = [
     { t:"1914-11-05", tur:"son", b:"Osmanlı'nın Almanya yanında savaşa girmesiyle İngiltere adayı ilhak etti" }
   ]
 },
-{ id:"oniki-ada-italyan", ad:"İtalya'nın Oniki Ada İşgali", tur:"gecici-isgal", bolge:"balkanlar",
-  f:"1912-05-04", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 10 Şubat 1947 Paris Barış Antlaşması ile Yunanistan'a devredildi (TDV oniki-ada, özet). Lozan'dan (24 Temmuz 1923) sonra işgal İTALYAN EGEMENLİĞİNE dönüştü — künye 'aynı yönetim sürüyor' sınıfıdır (② GENİŞLET)", baskent:"Rodos",
+{ id:"oniki-ada-italyan", ad:"İtalya'nın Oniki Ada İşgali", tur:"gecici-isgal", bolge:"balkanlar", harita:"italya",
+  f:"1912-05-04", t:"1947-09-15", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 10 Şubat 1947 Paris Barış Antlaşması ile Yunanistan'a devredildi (TDV oniki-ada, özet). Lozan'dan (24 Temmuz 1923) sonra işgal İTALYAN EGEMENLİĞİNE dönüştü — künye 'aynı yönetim sürüyor' sınıfıdır (② GENİŞLET)", baskent:"Rodos",
   ozet:"Trablusgarp Savaşı sırasında baskı unsuru olarak işgal edilen adalar; Lozan'a dek resmen tartışmalı statüde kaldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"oniki-ada",
   kronoloji:[
     { t:"1912-05-04", tur:"isgal", b:"İtalya, Rodos ve Oniki Ada'yı işgal etti" },
     { t:"1912-10-18", tur:"antlasma", b:"Uşi Antlaşması — adaların geçici olduğu belirtildi (fiilen kalıcılaştı)" },
-    { t:"1923-07-24", tur:"antlasma", b:"Lozan Antlaşması'nın 15. maddesi hiç değişikliğe uğramadan imzalandı: Rodos, Oniki Ada ve bağlı adacıklar ile Meis İtalya'ya bırakıldı", kaynak:"TDV: oniki-ada — 24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı. ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın kendi günü 1923-07-24." }
+    { t:"1923-07-24", tur:"antlasma", b:"Lozan Antlaşması'nın 15. maddesi hiç değişikliğe uğramadan imzalandı: Rodos, Oniki Ada ve bağlı adacıklar ile Meis İtalya'ya bırakıldı", kaynak:"TDV: oniki-ada — 24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı. ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın kendi günü 1923-07-24." },
+    { t:"1947-02-10", tur:"antlasma", b:"Paris Barış Antlaşması imzalandı: İtalya Oniki Ada'yı Yunanistan'a bıraktı", kaynak:"https://api.parliament.uk/uk-treaties/treaties/496" },
+    { t:"1947-03-31", tur:"toprak-kayip", b:"Adalar İngiliz askerî idaresinden Yunan idaresine devredildi (tören)", kaynak:"https://www.greekherald.com.au/culture/history/on-day-unification-dodecanese-islands-with-greece/" },
+    { t:"1947-09-15", tur:"son", b:"Barış Antlaşması yürürlüğe girdi, İtalya'nın Oniki Ada üzerindeki hâkimiyeti hukuken sona erdi", kaynak:"https://api.parliament.uk/uk-treaties/treaties/496" }
   ]
 },
 { id:"cezayir-fransiz", harita:"fransa-cumhuriyet", ad:"Fransız Cezayir İşgali", tur:"gecici-isgal", bolge:"kuzey-afrika",
@@ -1402,8 +1435,7 @@ window.DEVLETLER = [
     { t:"1908-10-05", tur:"kurulus", b:"Ferdinand, Bulgaristan'ın tam bağımsızlığını ve kendi Çarlığını ilan etti" },
     { t:"1912-10-08", tur:"savas", b:"Balkan Savaşları'na girdi" },
     { t:"1913-06-29", tur:"savas", b:"II. Balkan Savaşı'nda eski müttefiklerine yenilip toprak kaybetti" },
-    { t:"1946-09-08", tur:"siyaset", b:"Halk oylamasıyla monarşinin kaldırılmasına karar verildi", kaynak:"TDV: bulgaristan: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi'" },
-    { t:"1946-09-15", tur:"son", b:"Halk Cumhuriyeti ilan edildi, krallık sona erdi", kaynak:"OH bulgaria: 'the country being proclaimed a People's Republic on September 15, 1946'" }
+    { t:"1946-09-08", tur:"siyaset", b:"Halk oylamasıyla monarşinin kaldırılmasına karar verildi", kaynak:"TDV: bulgaristan: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi'" }
   ]
 },
 { id:"sirbistan-kralligi", ad:"Sırbistan Krallığı", tur:"krallik", bolge:"balkanlar",
@@ -1417,7 +1449,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"romanya-kralligi", ad:"Romanya Krallığı", tur:"krallik", bolge:"balkanlar",
-  f:"1881-03-26", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1947 (TDV romanya: 'Ruslar, Romanya'da monarşi idaresine son verdiler (1947)' — YIL, gün yok)", baskent:"Bükreş", harita:"romanya",
+  f:"1881-03-26", t:"1947-12-30", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1947 (TDV romanya: 'Ruslar, Romanya'da monarşi idaresine son verdiler (1947)' — YIL, gün yok)", baskent:"Bükreş", harita:"romanya",
   ozet:"Romanya Prensliği'nin 1881'de krallığa dönüşmüş hâli (ülke sürekliliği, bkz. [[romanya]]); harita 1923'te proje kapsam sınırından kesiliyor, krallık kendisi 1947'ye kadar sürdü. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"romanya",
   kronoloji:[
@@ -1425,9 +1457,9 @@ window.DEVLETLER = [
     { t:"1913-07-10", tur:"savas", b:"II. Balkan Savaşı'na girip Bulgaristan'dan Güney Dobruca'yı aldı" },
     { t:"1916-08-27", tur:"savas", b:"İtilaf yanında I. Dünya Savaşı'na girdi" },
     { t:"1918-12-01", tur:"birlesme", b:"Erdel'in katılımıyla Büyük Romanya oluştu", ic_not_b:"eski b: Erdel'in (bkz. [[erdel]]) katılımıyla Büyük Romanya oluştu" },
-    { t:"1940-06-28", tur:"toprak-kayip", b:"SSCB baskısıyla Besarabya ve Kuzey Bukovina'yı bıraktı", kaynak:"USHMM-KD (28 Haziran 1940)" },
     { t:"1940-08-30", tur:"toprak-kayip", b:"II. Viyana Hakemliği: Kuzey Erdel Macaristan'a bırakıldı", kaynak:"USHMM-KD (30 Ağustos 1940)" },
-    { t:"1944-08-23", tur:"siyaset", b:"Antonescu rejimi devrildi, Romanya taraf değiştirdi", kaynak:"USHMM-KD (23 Ağustos 1944)" }
+    { t:"1944-08-23", tur:"siyaset", b:"Antonescu rejimi devrildi, Romanya taraf değiştirdi", kaynak:"USHMM-KD (23 Ağustos 1944)" },
+    { t:"1947-02-10", tur:"antlasma", b:"Paris Barış Antlaşması: Romanya Besarabya ve Kuzey Bukovina kaybını onayladı, Kuzey Erdel'i geri aldı", kaynak:"https://api.parliament.uk/uk-treaties/ (Paris barış antlaşmaları; doğrudan sayfa doğrulanmadı)" }
   ]
 },
 { id:"arnavutluk-bagimsiz", ad:"Arnavutluk Prensliği (Bağımsız)", tur:"devlet", bolge:"balkanlar",
@@ -1438,15 +1470,14 @@ window.DEVLETLER = [
     { t:"1912-11-28", tur:"kurulus", b:"İsmail Kemal Vlorë'de bağımsızlığı ilan etti" },
     { t:"1913-07-29", tur:"antlasma", b:"Londra Konferansı sınırları uluslararası tanıdı" },
     { t:"1914-03-07", tur:"hukumdar", b:"Prens Wilhelm zu Wied tahta çıktı (3 Eylül 1914'te I. Dünya Savaşı kargaşasında ülkeyi terk etti — TDV; eski metin 'Ekim'de')" },
-    { t:"1920-01-21", tur:"kurulus", b:"Lushnjë Kongresi ile fiilî hükûmet yeniden kuruldu" },
-    { t:"1939-04-07", tur:"son", b:"İtalya Arnavutluk'u işgal etti ve ilhak etti (7-15 Nisan)", kaynak:"USHMM-KD" }
+    { t:"1920-01-21", tur:"kurulus", b:"Lushnjë Kongresi ile fiilî hükûmet yeniden kuruldu" }
   ]
 },
 // ============ TIER 9 — HARİTA BOYA KİMLİKLERİNİN DİZİN KARŞILIKLARI ============
 // (data/devletler_harita.js'te boyanan, dizinde henüz olmayan devletler)
 
 { id:"ispanya", ad:"İspanya (Kastilya-Aragon)", tur:"krallik", bolge:"iberya",
-  f:"1479-01-20", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Madrid", harita:"ispanya",
+  f:"1479-01-20", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Madrid", harita:"ispanya",
   ozet:"Kastilya-Aragon birliğiyle doğan krallık; Akdeniz'de Osmanlı'nın 16. yüzyıldaki ana deniz rakibi. (1945 ufkundan sonra da sürdü — t: pencere ucu. 1936-1939 iç savaşında milliyetçi bölge ayrı künyede: [[ispanya-milliyetci]].)",
   kaynak:"ispanya",
   kronoloji:[
@@ -1456,7 +1487,15 @@ window.DEVLETLER = [
     { t:"1571-10-07", tur:"savas", b:"İnebahtı'da Kutsal İttifak donanmasının belkemiğini oluşturdu" },
     { t:"1580-06-01", tur:"antlasma", b:"Osmanlı ile fiilî ateşkes — Akdeniz cephesi duruldu" },
     { t:"1936-07-17", tur:"ic-savas", b:"Garnizonlarda askerî ayaklanma başladı: İspanya İç Savaşı", kaynak:"BRIT Spanish-Civil-War: 'A well-planned military uprising began on July 17, 1936'" },
-    { t:"1939-04-01", tur:"son", b:"Franco iç savaşı kesin ve koşulsuz zaferle bitirdi", kaynak:"BRIT Francisco-Franco: 'Franco won a complete and unconditional victory on April 1, 1939'" }
+    { t:"1939-04-01", tur:"son", b:"Franco iç savaşı kesin ve koşulsuz zaferle bitirdi", kaynak:"BRIT Francisco-Franco: 'Franco won a complete and unconditional victory on April 1, 1939'" },
+    { t:"1947-07-06", tur:"siyaset", b:"Franco rejiminin Veraset Yasası referandumla onaylandı; İspanya devleti resmen krallık ilan edildi, kral seçilene dek Franco devlet başkanı kaldı.", kaynak:"Veraset Yasası (Ley de Sucesión, 1947); gün kaynakla doğrulanmadı, ikinci kaynak gerekir" },
+    { t:"1953-09-26", tur:"antlasma", b:"ABD ile Madrid Paktları imzalandı; İspanya'da ABD üsleri karşılığında ekonomik ve askerî yardım sağlandı.", kaynak:"U.S. Office of the Historian / Madrid Pacts 1953; gün kaynakla doğrulanmadı" },
+    { t:"1975-11-20", tur:"hukumdar", b:"Franco öldü.", kaynak:"https://www.letudiant.fr/lycee/methodologie-lycee/article/civilisation-l-espagne-de-1975-a-nos-jours-histoire-et-politique.html" },
+    { t:"1975-11-22", tur:"hukumdar", b:"Juan Carlos I İspanya kralı ilan edildi; geçiş dönemi başladı.", kaynak:"https://www.larousse.fr/encyclopedie/personnage/wd/126206" },
+    { t:"1978-12-06", tur:"siyaset", b:"Referandumla kabul edilen anayasa parlamenter monarşiyi ve özerk topluluklar devletini kurdu.", kaynak:"https://servat.unibe.ch/icl/sp__indx.html" },
+    { t:"1981-02-23", tur:"isyan", b:"23-F darbe girişimi; Kral'ın tutumuyla başarısız oldu.", kaynak:"https://www.letudiant.fr/lycee/methodologie-lycee/article/civilisation-l-espagne-de-1975-a-nos-jours-histoire-et-politique.html" },
+    { t:"1982-05-30", tur:"ittifak", b:"İspanya NATO'ya katıldı.", kaynak:"Spanish Democracy Time line (ausiasmarch.net PDF) 1982; gün ikinci kaynakla doğrulanmalı" },
+    { t:"1986-01-01", tur:"birlesme", b:"İspanya Avrupa Topluluğu'na katıldı.", kaynak:"https://www.letudiant.fr/lycee/methodologie-lycee/article/civilisation-l-espagne-de-1975-a-nos-jours-histoire-et-politique.html" }
   ]
 },
 { id:"granada", ad:"Gırnata (Nasrî) Emirliği", tur:"devlet", bolge:"iberya",
@@ -1472,7 +1511,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"portekiz", ad:"Portekiz Krallığı", tur:"krallik", bolge:"iberya",
-  f:"1097-01-01", t:"1945-09-02", ic_not_f:"Kaynaklar çelişir: GEC 'Portugal' 1097 (kontluk bağışı); TDV 'Portekiz' 'Portekiz’in müstakil bir devlet haline gelişi 1095’ten itibaren başladı'; GEC 'Enric de Borgonya' evliliği 'vers el 1094' verir. 1097 seçildi çünkü bağışı açıkça tarihleyen tek cümle odur; gün yok → 01-01. Şartnamedeki '1096 civarı' hiçbir açtığım kaynakta geçmiyor. 1097-1128 arası kontluk León-Kastilya hükümdarına tâbidir (hükümdarı Henri, sonra dul Teresa 1114-28); harita için bu dönem tâbi (v:kid) olarak işlenebilir.", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lizbon", harita:"portekiz",
+  f:"1097-01-01", ic_not_f:"Kaynaklar çelişir: GEC 'Portugal' 1097 (kontluk bağışı); TDV 'Portekiz' 'Portekiz’in müstakil bir devlet haline gelişi 1095’ten itibaren başladı'; GEC 'Enric de Borgonya' evliliği 'vers el 1094' verir. 1097 seçildi çünkü bağışı açıkça tarihleyen tek cümle odur; gün yok → 01-01. Şartnamedeki '1096 civarı' hiçbir açtığım kaynakta geçmiyor. 1097-1128 arası kontluk León-Kastilya hükümdarına tâbidir (hükümdarı Henri, sonra dul Teresa 1114-28); harita için bu dönem tâbi (v:kid) olarak işlenebilir.", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lizbon", harita:"portekiz",
   ozet:"Hint Okyanusu'nda Osmanlı'nın 16. yüzyıl rakibi: Kızıldeniz, Basra Körfezi ve Umman kıyılarında donanmalar çarpıştı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"portekiz",
   kronoloji:[
@@ -1481,7 +1520,14 @@ window.DEVLETLER = [
     { t:"1552-01-01", tur:"savas", b:"Pîrî Reis'in Hürmüz seferi" },
     { t:"1650-01-26", tur:"toprak-kayip", b:"Umman, Maskat'ı geri aldı" },
     { t:"1097-01-01", tur:"kurulus", b:"VI. Alfonso Terra Portucalensis'i Henri ve Teresa'ya irsî kontluk olarak verdi" },
-    { t:"1128-01-01", tur:"hukumdar", b:"Afonso Henriques kontluğun yönetimini annesi Teresa'dan aldı" }
+    { t:"1128-01-01", tur:"hukumdar", b:"Afonso Henriques kontluğun yönetimini annesi Teresa'dan aldı" },
+    { t:"1949-04-04", tur:"ittifak", b:"Portekiz, NATO'nun kurucu üyeleri arasında Washington Antlaşması'nı imzaladı.", kaynak:"NATO, Washington Treaty 1949 (nato.int); Portekiz'in kurucu olduğu ikinci kaynakla doğrulanmalı" },
+    { t:"1961-12-19", tur:"toprak-kayip", b:"Hindistan Goa, Daman ve Diu'yu ilhak etti.", kaynak:"atlas künyesi portekiz-hindistani-goa t'si dayanak sayılamaz; bağımsız kaynak bulunamadı, gün doğrulanmadı" },
+    { t:"1974-04-25", tur:"siyaset", b:"Karanfil Devrimi: MFA subaylarının darbesi Estado Novo rejimini yıktı.", kaynak:"https://www.cvce.eu/education/unit-content/-/unit/en/02bb76df-d066-4c08-a58a-d4686a3e68ff/2739134e-5be5-484d-ac6c-e6360321cbbc" },
+    { t:"1975-11-11", tur:"toprak-kayip", b:"Angola'nın bağımsızlığıyla Afrika sömürgelerinin kaybı tamamlanmaya yakın; Portekiz yönetimi çekildi.", kaynak:"https://modeldiplomat.com/learn/glossary/carnation-revolution (Angola Kasım 1975); gün ikinci kaynakla doğrulanmalı" },
+    { t:"1976-04-02", tur:"siyaset", b:"Kurucu Meclis yeni demokratik anayasayı kabul etti.", kaynak:"https://modeldiplomat.com/learn/glossary/carnation-revolution (1976 anayasası); gün doğrulanmadı" },
+    { t:"1986-01-01", tur:"birlesme", b:"Portekiz Avrupa Ekonomik Topluluğu'na katıldı.", kaynak:"https://www.cvce.eu/en/education/unit-content/-/unit/02bb76df-d066-4c08-a58a-d4686a3e68ff/80bdbed0-3c45-4c93-a3e2-f822c56f0a53/Resources" },
+    { t:"1999-12-20", tur:"toprak-kayip", b:"Makao Çin Halk Cumhuriyeti'ne devredildi.", kaynak:"1987 Çin-Portekiz Ortak Bildirisi (cvce.eu slayt notu ile 1999 teyit); gün kaynakla doğrulanmadı" }
   ]
 },
 { id:"almanya", ad:"Kutsal Roma / Almanya", tur:"imparatorluk", bolge:"orta-avrupa",
@@ -1495,15 +1541,15 @@ window.DEVLETLER = [
     { t:"1914-08-02", tur:"ittifak", b:"Osmanlı-Alman ittifak antlaşması imzalandı" },
     { t:"1918-11-11", tur:"son", b:"İmparatorluk yıkıldı, cumhuriyet ilan edildi" },
     { t:"1933-01-30", tur:"siyaset", b:"Hindenburg, Nazi Partisi lideri Hitler'i şansölye atadı", kaynak:"USHMM hitler-appointed-chancellor: 'German President Paul von Hindenburg appoints Nazi Party leader Adolf Hitler as chancellor of Germany.'" },
-    { t:"1938-03-13", tur:"toprak-kazanc", b:"Anschluss: Avusturya Reich'a katıldı", kaynak:"AVALON imt/judaus" },
-    { t:"1939-03-16", tur:"toprak-kazanc", b:"Bohemya ve Moravya protektora olarak Reich'a katıldı", kaynak:"AVALON imt/judseize" },
     { t:"1939-09-01", tur:"savas", b:"Polonya'ya saldırı: II. Dünya Savaşı başladı", kaynak:"AVALON imt/judpolan" },
     { t:"1945-05-08", tur:"antlasma", b:"Koşulsuz teslim yürürlüğe girdi (23.01 Orta Avrupa saati)", kaynak:"AVALON wwii/gs11: 'cease active operations at 2301 hours Central European time on 8th May 1945'" },
-    { t:"1945-06-05", tur:"son", b:"Berlin Deklarasyonu: Müttefikler Almanya'da yüce otoriteyi üstlendi", kaynak:"AVALON wwii/ger01" }
+    { t:"1945-04-30", tur:"hukumdar", b:"Hitler Berlin'de intihar etti; Dönitz devlet başkanı atandı.", kaynak:"Hitler'in vasiyeti ve Dönitz atamasi; gün ikinci kaynakla doğrulanmadı" },
+    { t:"1945-05-02", tur:"savas", b:"Berlin Sovyet kuvvetlerine teslim oldu.", kaynak:"Berlin Muharebesi; gün ikinci kaynakla doğrulanmadı" },
+    { t:"1945-05-23", tur:"son", b:"Müttefikler Flensburg'daki Dönitz hükümetini tutukladı; Alman merkezî hükümeti fiilen sona erdi.", kaynak:"Flensburg hükümeti; gün ikinci kaynakla doğrulanmadı" }
   ]
 },
 { id:"hollanda", ad:"Hollanda (Birleşik Eyaletler Cumhuriyeti → 1815 Krallık)", tur:"cumhuriyet", bolge:"bati-avrupa",
-  f:"1581-07-26", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Amsterdam / Lahey", harita:"hollanda",
+  f:"1581-07-26", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Amsterdam / Lahey", harita:"hollanda",
   ozet:"İspanya'dan bağımsızlığını ilan eden ticaret cumhuriyeti; 1612'de Osmanlı'dan kapitülasyon aldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"hollanda",
   kronoloji:[
@@ -1513,22 +1559,35 @@ window.DEVLETLER = [
     { t:"1612-07-06", tur:"antlasma", b:"Osmanlı kapitülasyonları verildi, elçilik açıldı" },
     { t:"1648-01-30", tur:"antlasma", b:"Vestfalya barışının parçası olan Münster Antlaşması ile İspanya, Felemenk Cumhuriyeti'nin bağımsızlığını resmen tanıdı", ic_not_b:"eski b: Vestfalya barışının parçası olan Münster Antlaşması ile İspanya, Felemenk Cumhuriyeti'nin bağımsızlığını resmen tanıdı (TDV hollanda maddesi, doğrudan)", kaynak:"TDV: hollanda — «Vestfalya (Westfalen) Antlaşması ile (1648) İspanya da Felemenk Cumhuriyeti’ni resmen tanıdı» — YIL (gün TDV'de yok)" },
     { t:"1780-12-20", tur:"savas", b:"İngiltere, Amerikan Bağımsızlık Savaşı sırasındaki düşman devletlerle ticaretini gerekçe göstererek Hollanda'ya savaş ilan etti; dört yıllık savaş Hollanda'nın deniz gücünü ağır sarstı", ic_not_b:"eski b: İngiltere, Amerikan Bağımsızlık Savaşı sırasındaki düşman devletlerle ticaretini gerekçe göstererek Hollanda'ya savaş ilan etti; dört yıllık savaş Hollanda'nın deniz gücünü ağır sarstı (TDV hollanda maddesi)", kaynak:"TDV: hollanda — «İngilizler’le 1780’de çıkan ve dört yıl devam eden savaş» — YIL (gün TDV'de yok)" },
-    { t:"1940-05-14", tur:"isgal", b:"Almanya karşısında teslim oldu", kaynak:"USHMM-KD: 'the Netherlands surrenders on May 14'" }
+    { t:"1940-05-14", tur:"isgal", b:"Almanya karşısında teslim oldu", kaynak:"USHMM-KD: 'the Netherlands surrenders on May 14'" },
+    { t:"1949-04-04", tur:"ittifak", b:"Hollanda, 12 kurucu üyeden biri olarak NATO antlaşmasını imzaladı.", kaynak:"https://www.government.nl/themes/international-cooperation/nato/the-netherlands-and-nato" },
+    { t:"1949-12-27", tur:"toprak-kayip", b:"Kraliçe Juliana Amsterdam'da Endonezya'ya egemenlik devrini imzaladı.", kaynak:"https://www.britannica.com/event/Hague-Agreement" },
+    { t:"1951-04-18", tur:"antlasma", b:"Paris Antlaşması ile Hollanda, Avrupa Kömür ve Çelik Topluluğu'nun altı kurucusundan biri oldu.", kaynak:"ECSC Paris Antlaşması 1951; gün kaynakla doğrulanmadı" },
+    { t:"1953-02-01", tur:"felaket", b:"Kuzey Denizi selinde güneybatı Hollanda'da binlerce kişi öldü.", kaynak:"Watersnoodramp 1953; gün ve can kaybı kaynakla doğrulanmadı" },
+    { t:"1954-12-15", tur:"siyaset", b:"Krallık Statüsü ile Suriname ve Hollanda Antilleri krallık içinde eşit özerk ülkeler oldu.", kaynak:"Charter for the Kingdom of the Netherlands; gün atlas künyesinden alınamaz, bağımsız teyit gerekir" },
+    { t:"1957-03-25", tur:"antlasma", b:"Roma Antlaşması'yla AET'nin kurucu üyesi oldu.", kaynak:"Roma Antlaşması (EUR-Lex)" },
+    { t:"1975-11-25", tur:"toprak-kayip", b:"Suriname bağımsız oldu.", kaynak:"https://en.wikipedia.org/wiki/Suriname_(Kingdom_of_the_Netherlands)" }
   ]
 },
 { id:"danimarka", ad:"Danimarka Krallığı (1814'e kadar Danimarka-Norveç)", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"0950-01-01", t:"1945-09-02", ic_not_f:"Kaynak 'ca. 950' (yaklaşık) der; lex aynı maddede Roskildekrøniken'e göre Harald'ın 940'larda babasıyla ortak kral olabileceğini de yazar. snl 'Harald Blåtann' da 'fra rundt 950'. ÇELİŞKİ/NOT: TDV 'danimarka' 'VI. yüzyılda … Danlar Zealand adasında ilk Danimarka devletini kurdular' der ve künyenin mevcut özeti buna dayanır; TDV burada birincil değildir (İslâm dünyası/Osmanlı komşusu değil) ve VI. yüzyıl yapısı birleşik krallıkla aynı polity sayılamaz — f 'bütün Danimarka' kralından verildi.", ic_not_t:"t değişmedi.", baskent:"Kopenhag", harita:"danimarka",
+  f:"0950-01-01", ic_not_f:"Kaynak 'ca. 950' (yaklaşık) der; lex aynı maddede Roskildekrøniken'e göre Harald'ın 940'larda babasıyla ortak kral olabileceğini de yazar. snl 'Harald Blåtann' da 'fra rundt 950'. ÇELİŞKİ/NOT: TDV 'danimarka' 'VI. yüzyılda … Danlar Zealand adasında ilk Danimarka devletini kurdular' der ve künyenin mevcut özeti buna dayanır; TDV burada birincil değildir (İslâm dünyası/Osmanlı komşusu değil) ve VI. yüzyıl yapısı birleşik krallıkla aynı polity sayılamaz — f 'bütün Danimarka' kralından verildi.", ic_not_t:"t değişmedi.", baskent:"Kopenhag", harita:"danimarka",
   ozet:"Krallık VI. yüzyıla uzanır (TDV); 1380 Norveç ile kişisel birliğin başlangıcıdır, devletin kendi kuruluşu değil (bkz. [[norvec-kralligi]]). Kiel Antlaşması'yla Norveç'i kaybettikten sonra da Danimarka tek başına sürdü. Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı. Bkz. [[norvec]] (1814-1905 arası İsveç'le birlik, sonra bağımsız). ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `f:` 1380'den 1281'e çekildi — TDV `danimarka` maddesi sürekliliği VI. yüzyıla dayandırıyor, 1281-1380 arasında bir kopuş yok; 1380 yalnız Norveç birliğinin başlangıcıydı, devletin kendi kuruluşu değildi. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"danimarka",
   kronoloji:[
     { t:"1380-01-01", tur:"ittifak", b:"IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı", ic_not_b:"eski b: IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı (bkz. [[norvec-kralligi]])" },
     { t:"1756-10-14", tur:"antlasma", b:"Osmanlı-Danimarka dostluk ve ticaret antlaşması" },
     { t:"1814-01-14", tur:"bolunme", b:"Kiel Antlaşması ile Norveç, İsveç'e bırakıldı; Danimarka-Norveç birliği sona erdi" },
-    { t:"1940-04-09", tur:"isgal", b:"Alman saldırısı günü teslim oldu", kaynak:"USHMM-KD: 'Denmark surrenders on the day of the attack' (9 Nisan 1940)" }
+    { t:"1940-04-09", tur:"isgal", b:"Alman saldırısı günü teslim oldu", kaynak:"USHMM-KD: 'Denmark surrenders on the day of the attack' (9 Nisan 1940)" },
+    { t:"1948-04-01", tur:"siyaset", b:"Faroe Adaları için Home Rule (iç özerklik) yürürlüğe girdi.", kaynak:"https://um.dk/en/foreign-policy/the-arctic/greenland-and-the-faroe-islands (yıl 1948; ayın 1'i yürürlük günü ikinci kaynakla doğrulanmalı)" },
+    { t:"1949-04-04", tur:"ittifak", b:"Danimarka NATO'nun kurucu üyelerinden biri olarak Washington Antlaşması'nı imzaladı.", kaynak:"NATO, Washington Treaty; kurucu üyelik Danimarka resmî sitesinden teyit edilmeli" },
+    { t:"1953-06-05", tur:"siyaset", b:"Yeni anayasa Landsting'i kaldırdı, tek meclisli Folketing'i getirdi ve Grönland'ı krallığın eşit parçası saydı.", kaynak:"https://english.stm.dk/the-prime-ministers-office/the-unity-of-the-realm/ (Grönland statüsü); gün doğrulanmadı" },
+    { t:"1973-01-01", tur:"birlesme", b:"Danimarka (Grönland ile birlikte) Avrupa Topluluğu'na katıldı.", kaynak:"https://www.thedanishparliament.dk/en/eu-information-centre/greenland-and-the-faroe-islands" },
+    { t:"1979-05-01", tur:"siyaset", b:"Grönland Home Rule yürürlüğe girdi.", kaynak:"https://www.thedanishparliament.dk/en/eu-information-centre/greenland-and-the-faroe-islands (yıl 1979; gün doğrulanmadı)" },
+    { t:"1985-01-01", tur:"toprak-kayip", b:"Grönland Avrupa Topluluklarından ayrıldı.", kaynak:"https://en.wikipedia.org/wiki/Withdrawal_of_Greenland_from_the_European_Communities (ikinci kaynak gerekir)" }
   ]
 },
 { id:"umman", ad:"Umman (Ya'rubî / Bû Saîd) Sultanlığı", tur:"sultanlik", bolge:"arabistan",
-  f:"1624-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nizva → Maskat", harita:"umman",
+  f:"1624-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nizva → Maskat", harita:"umman",
   ozet:"Doğu Afrika kıyısına uzanan denizci sultanlık (hanedan ömrü, önce Ya'rubîler sonra Bû Saîdler); Portekizlileri Maskat'tan attı (1923 sonrasında da sürdü, harita kapsamı burada kesiliyor). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"uman",
   kronoloji:[
@@ -1537,7 +1596,13 @@ window.DEVLETLER = [
     { t:"1749-06-10", tur:"hukumdar", b:"Bû Saîd hanedanı kuruldu" },
     { t:"1798-01-18", tur:"ittifak", b:"İngiltere ile 'kavilnâme' adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı; Uman-İngiliz ilişkileri başladı", ic_not_b:"eski b: İngiltere ile 'kavilnâme' adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı; Uman-İngiliz ilişkileri başladı (TDV uman maddesi)", kaynak:"TDV: uman — «İngilizler, Maskat’ta bir temsilcilik açtılar (18 Ocak 1798)»" },
     { t:"1856-01-01", tur:"bolunme", b:"Seyyid Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı", ic_not_b:"eski b: Seyyid Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı (TDV uman maddesi)", kaynak:"TDV: uman — «1856’da öldüğünde ülkesi oğulları Mâcid ile Süveynî arasında paylaştırıldı»" },
-    { t:"1862-01-01", tur:"antlasma", b:"İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı", ic_not_b:"eski b: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı (TDV uman maddesi)", kaynak:"TDV: uman — «1862’de İngiltere, Fransa ve Almanya gibi ülkelerin kararı ile her iki taraf bağımsız birer ülke olarak tanındı»" }
+    { t:"1862-01-01", tur:"antlasma", b:"İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı", ic_not_b:"eski b: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı (TDV uman maddesi)", kaynak:"TDV: uman — «1862’de İngiltere, Fransa ve Almanya gibi ülkelerin kararı ile her iki taraf bağımsız birer ülke olarak tanındı»" },
+    { t:"1970-07-23", tur:"hukumdar", b:"Kabus, babası Said b. Teymur'u saray darbesiyle devirdi ve sultan oldu.", kaynak:"https://countrystudies.us/persian-gulf-states/61.htm" },
+    { t:"1970-08-09", tur:"siyaset", b:"Devlet adı Maskat ve Umman'dan Umman Sultanlığı'na çevrildi.", kaynak:"gün bağımsız kaynakla doğrulanmadı; tarih kaynak bulunamadıysa çıkarılmalı" },
+    { t:"1971-10-07", tur:"siyaset", b:"Umman Birleşmiş Milletler'e kabul edildi.", kaynak:"BM üyelik kaydı; gün ikinci kaynakla doğrulanmalı" },
+    { t:"1975-12-11", tur:"siyaset", b:"Zufar isyanının sona erdiği Kabus tarafından ilan edildi (askerî bastırma 1975-76).", kaynak:"https://countrystudies.us/persian-gulf-states/61.htm (1975 yılı); https://en.wikipedia.org/wiki/Dhofar_War (1976 bitiş; çelişki var); gün doğrulanmadı" },
+    { t:"1981-05-25", tur:"ittifak", b:"Umman, Körfez İşbirliği Konseyi'nin kurucu altı üyesinden biri oldu.", kaynak:"GCC kuruluşu; gün ikinci kaynakla doğrulanmalı" },
+    { t:"1996-11-06", tur:"siyaset", b:"Sultan Kabus, ülkenin ilk yazılı Temel Nizam'ını (anayasa) yayımladı.", kaynak:"https://mei.edu/oman-library/resource-guides/collection-spotlights/1 (1996 Temel Nizam); gün doğrulanmadı" }
   ]
 },
 { id:"suud-ikinci", ad:"II. Suûdî Devleti (Necid Emirliği)", tur:"devlet", bolge:"arabistan",
@@ -1557,8 +1622,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1902-01-15", tur:"kurulus", b:"Abdülazîz bin Suûd Riyad'ı geri alarak üçüncü Suûdî devletini kurdu" },
     { t:"1921-11-02", tur:"toprak-kazanc", b:"Şammar (Hâil) emirliğinin teslimiyle Kuzey Necid'e hâkim oldu" },
-    { t:"1926-01-08", tur:"antlasma", b:"Hicaz Krallığı ilan edildi", ic_not_b:"eski b: Hicaz Krallığı ilan edildi (künyenin kendi adı buradan geliyor: 'Necid ve Hicaz Sultanlığı')" },
-    { t:"1932-09-18", tur:"son", b:"Suûdî Arabistan Krallığı ilan edilerek tam birleşme sağlandı" }
+    { t:"1926-01-08", tur:"antlasma", b:"Hicaz Krallığı ilan edildi", ic_not_b:"eski b: Hicaz Krallığı ilan edildi (künyenin kendi adı buradan geliyor: 'Necid ve Hicaz Sultanlığı')" }
   ]
 },
 { id:"hail-ibn-ali", ad:"Hâil Emirliği (İbn Ali ailesi — Abde/Şemmer)", tur:"emirlik", bolge:"arabistan",
@@ -1640,7 +1704,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"habesistan", ad:"Habeşistan İmparatorluğu", tur:"imparatorluk", bolge:"dogu-afrika",
-  f:"1270-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1974 (TDV etiyopya / BRIT Haile-Selassie-I: 'His rule in Ethiopia continued until 1974' — gün yok). 1936-1941 İtalyan ilhakı ARADA: o yıllar [[italyan-dogu-afrikasi]]", baskent:"Gondar → Addis Ababa", harita:"habesistan",
+  f:"1270-01-01", t:"1974-09-12", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1974 (TDV etiyopya / BRIT Haile-Selassie-I: 'His rule in Ethiopia continued until 1974' — gün yok). 1936-1941 İtalyan ilhakı ARADA: o yıllar [[italyan-dogu-afrikasi]]", baskent:"Gondar → Addis Ababa", harita:"habesistan",
   ozet:"Afrika'nın en eski Hristiyan devleti; 16. yüzyılda Osmanlı destekli Adal ordularıyla ölüm kalım savaşı yaptı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"habesistan",
   kronoloji:[
@@ -1654,7 +1718,10 @@ window.DEVLETLER = [
     { t:"1889-05-02", tur:"antlasma", b:"Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı", ic_not_b:"eski b: Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı (kaynak: Britannica, madde: \"Treaty of Wichale\"; TDV'de müstakil madde bulunamadı). ⚠️ ÖLÇÜLMEDİ: yerleşim noktalarındaki 'Habeşistan→İtalya' kırılması ('1889-01-01') bu antlaşma gününe mi, yoksa İtalyan Eritre sömürgesinin resmî ilanına (1890-01-01) mı karşılık geliyor — üç aday tarih (antlaşma/işgal/sömürge ilanı) birbirinden ayırt edilmedi. Önceki kayıt bu tarihi 'II. Menelik tahta çıktı' olayıyla da karıştırıyordu; o, IV. Yohannes'in 9 Mart 1889'daki ölümüyle başlayan ayrı ve kendi başına ölçülmemiş bir süreçtir, buradan çıkarıldı." },
     { t:"1896-03-01", tur:"savas", b:"Adva'da İtalya'yı yenerek bağımsızlığını korudu" },
     { t:"1936-05-09", tur:"toprak-kayip", b:"İtalya Habeşistan'ı ilhak etti", kaynak:"BRIT Italian-East-Africa: 'Ethiopia (annexed by Italy on May 9, 1936 ...'" },
-    { t:"1941-05-05", tur:"toprak-kazanc", b:"Haile Selassie tahtına geri döndü", kaynak:"TDV: etiyopya (özet): 1941'de 5 Mayıs'ta tekrar tahtına oturdu" }
+    { t:"1941-05-05", tur:"toprak-kazanc", b:"Haile Selassie tahtına geri döndü", kaynak:"TDV: etiyopya (özet): 1941'de 5 Mayıs'ta tekrar tahtına oturdu" },
+    { t:"1950-12-02", tur:"antlasma", b:"BM Genel Kurulu 390 A (V) sayılı kararla Eritre'nin Etiyopya ile federasyonunu kabul etti.", kaynak:"BM Genel Kurulu Kararı 390 A(V), 2 Aralık 1950; gün hafızadan, doğrulanmadı" },
+    { t:"1952-09-11", tur:"birlesme", b:"Eritre-Etiyopya federasyonu yürürlüğe girdi; Eritre imparatorun egemenliği altında özerk birim oldu.", kaynak:"https://en.wikipedia.org/wiki/Federation_of_Ethiopia_and_Eritrea (gün ikinci kaynakla doğrulanmalı; atlas tsv'de 1952-09-15)" },
+    { t:"1963-05-25", tur:"antlasma", b:"Addis Ababa'da Afrika Birliği Örgütü kuruldu.", kaynak:"OAU kuruluşu; gün doğrulanmadı" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — ARAŞTIRMA KÜNYE 3: `adal` harita kimliği
@@ -2152,7 +2219,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"italya", ad:"İtalya Krallığı", tur:"krallik", bolge:"italya",
-  f:"1861-03-17", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — cumhuriyet 1946 (OH italy: 'after 1946, its successor, the Republic of Italy' — gün ölçülemedi)", baskent:"Torino → Floransa → Roma", harita:"italya",
+  f:"1861-03-17", t:"1946-06-18", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — cumhuriyet 1946 (OH italy: 'after 1946, its successor, the Republic of Italy' — gün ölçülemedi)", baskent:"Torino → Floransa → Roma", harita:"italya",
   ozet:"Sardinya-Piyemonte öncülüğünde birleşen İtalya; Trablusgarp Savaşı'yla Osmanlı'dan Libya ve Oniki Ada'yı aldı, I. Dünya Savaşı'nda İtilaf saflarında yer aldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"italya",
   kronoloji:[
@@ -2162,7 +2229,11 @@ window.DEVLETLER = [
     { t:"1911-09-29", tur:"savas", b:"Trablusgarp Savaşı'nı başlattı, Libya'yı ve Oniki Ada'yı aldı (bkz. [[trablusgarp-ocagi]], [[oniki-ada-italyan]])" },
     { t:"1915-05-23", tur:"savas", b:"İtilaf Devletleri safında I. Dünya Savaşı'na girdi" },
     { t:"1919-04-28", tur:"isgal", b:"Antalya ve çevresini işgal etti (Millî Mücadele cephelerinden biri)" },
-    { t:"1943-09-08", tur:"antlasma", b:"Badoglio hükûmeti Müttefiklere koşulsuz teslim oldu; Almanlar Roma'yı ve kuzeyi ele geçirdi", kaynak:"USHMM-KD (8 Eylül 1943)" }
+    { t:"1943-09-08", tur:"antlasma", b:"Badoglio hükûmeti Müttefiklere koşulsuz teslim oldu; Almanlar Roma'yı ve kuzeyi ele geçirdi", kaynak:"USHMM-KD (8 Eylül 1943)" },
+    { t:"1946-05-09", tur:"hukumdar", b:"III. Vittorio Emanuele tahttan çekildi; II. Umberto kral oldu.", kaynak:"https://archontology.org/nations/italy/00_1861_1946_king.php; gün doğrulanmadı" },
+    { t:"1946-06-02", tur:"siyaset", b:"Kurumsal referandum 2-3 Haziranda yapıldı; oyların yaklaşık yüzde 54,3'ü cumhuriyete gitti.", kaynak:"https://en.wikipedia.org/wiki/1946_Italian_institutional_referendum; https://www.wantedinrome.com/news/italy-celebrates-80-years-as-a-republic-on-2-june.html" },
+    { t:"1946-06-13", tur:"hukumdar", b:"II. Umberto Roma'dan ayrılıp sürgüne gitti; Yargıtay kararından önce.", kaynak:"https://en.nuremberg.media/hronotop/20210602/179811/Italy-Abolishes-The-Monarchy.html" },
+    { t:"1946-06-18", tur:"son", b:"Yargıtay monarşist itirazları reddedip cumhuriyet sonucunu kesinleştirdi; krallık sona erdi.", kaynak:"https://en.wikipedia.org/wiki/1946_Italian_institutional_referendum" }
   ]
 },
 
@@ -2448,7 +2519,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"cekoslovakya", ad:"Çekoslovakya Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-avrupa",
-  f:"1918-10-28", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 1 Ocak 1993'te ikiye ayrıldı (BRIT Czechoslovakia: 'On January 1, 1993, Czechoslovakia separated peacefully'). 1939-03-15 → 1945 ARASI İŞGAL/BÖLÜNME: o yıllar [[slovakya-cumhuriyeti]] ve [[bohemya-moravya-protektorasi]]; künye ülke sürekliliğidir (② GENİŞLET)", baskent:"Prag", harita:"cekoslovakya",
+  f:"1918-10-28", t:"1992-12-31", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 1 Ocak 1993'te ikiye ayrıldı (BRIT Czechoslovakia: 'On January 1, 1993, Czechoslovakia separated peacefully'). 1939-03-15 → 1945 ARASI İŞGAL/BÖLÜNME: o yıllar [[slovakya-cumhuriyeti]] ve [[bohemya-moravya-protektorasi]]; künye ülke sürekliliğidir (② GENİŞLET)", baskent:"Prag", harita:"cekoslovakya",
   ozet:"Avusturya-Macaristan'ın dağılmasıyla Çek ve Slovak topraklarının birleşmesinden doğan cumhuriyet; Masaryk ilk cumhurbaşkanı oldu. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"cekoslovakya",
   kronoloji:[
@@ -2456,7 +2527,10 @@ window.DEVLETLER = [
     { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması Avusturya'nın Çekoslovakya'yı tanımasını sağladı" },
     { t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması Macaristan'ın Slovakya'yı bırakmasını sağladı" },
     { t:"1938-09-29", tur:"antlasma", b:"Münih Antlaşması: Südet bölgesi Almanya'ya bırakıldı", kaynak:"AVALON imt/munich1: 'Munich, September 29, 1938.'" },
-    { t:"1939-03-15", tur:"isgal", b:"Alman kuvvetleri Bohemya ve Moravya'yı işgal etti", kaynak:"AVALON imt/judseize: 'On the 15th March German troops occupied Bohemia and Moravia'" }
+    { t:"1939-03-15", tur:"isgal", b:"Alman kuvvetleri Bohemya ve Moravya'yı işgal etti", kaynak:"AVALON imt/judseize: 'On the 15th March German troops occupied Bohemia and Moravia'" },
+    { t:"1992-11-13", tur:"siyaset", b:"Federal Meclis, federasyonun mal varlığının bölüşümünü düzenleyen 541 sayılı anayasa yasasını kabul etti.", kaynak:"https://www.newworldencyclopedia.org/entry/Dissolution_of_Czechoslovakia" },
+    { t:"1992-11-25", tur:"bolunme", b:"Federal Meclis, Çek ve Slovak Federatif Cumhuriyeti'nin sona ermesini öngören anayasa yasasını kabul etti.", kaynak:"https://enrsi.stvr.sk/articles/news/349295/slovakia-celebrates-31-years-of-independence" },
+    { t:"1992-12-31", tur:"son", b:"Federasyon gece yarısı sona erdi; yerine 1 Ocak 1993'te Çek Cumhuriyeti ve Slovakya bağımsız devlet olarak geçti.", kaynak:"https://public.psp.cz/en/docs/laws/1993/4.html" }
   ]
 },
 { id:"varsova-dukaligi", ad:"Varşova Büyük Dukalığı", tur:"dukalik", bolge:"dogu-avrupa",
@@ -2939,7 +3013,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"liberya", ad:"Liberya Cumhuriyeti", tur:"cumhuriyet", bolge:"bati-afrika",
-  f:"1822-04-25", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Monrovia",
+  f:"1822-04-25", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Monrovia",
   ozet:"Amerikan Sömürgeleştirme Cemiyeti'nin kurduğu yerleşimden doğan, 1847'de bağımsızlığını ilân eden Afrika'nın ilk cumhuriyeti; hiçbir zaman sömürge olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 1822 Amerikan Sömürgeleştirme Cemiyeti yerleşimi; 1847-07-26 bağımsız cumhuriyet. 🔴 HİÇ İNGİLİZ KOLONİSİ OLMADI — `ingiltere` yazmak §3.5 hayaleti üretir (bu turda son anda durduruldu).",
   kronoloji:[
@@ -2947,7 +3021,12 @@ window.DEVLETLER = [
     { t:"1923-10-29", tur:"son", b:"1923 ufkunda bağımsız devlet olarak sürüyordu" }
   ,
     { t:"1847-07-26", tur:"kurulus", b:"Joseph Jenkins Roberts, Liberya'nın bağımsızlığını ilan etti", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Joseph Jenkins Roberts', 'Colony of Liberia') doğrulandı." },
-    { t:"1848-01-03", tur:"hukumdar", b:"Joseph Jenkins Roberts, Liberya'nın ilk cumhurbaşkanı olarak yemin etti", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı." }
+    { t:"1848-01-03", tur:"hukumdar", b:"Joseph Jenkins Roberts, Liberya'nın ilk cumhurbaşkanı olarak yemin etti", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı." },
+    { t:"1980-04-12", tur:"siyaset", b:"Çavuş Samuel Doe darbeyle Başkan Tolbert'i devirdi; 133 yıllık Amerikan-Liberyalı egemenliği sona erdi.", kaynak:"https://adst.org/2015/11/surviving-the-coup-that-transformed-liberia/" },
+    { t:"1989-12-24", tur:"ic-savas", b:"Charles Taylor'ın NPFL'si Fildişi Sahili'nden Nimba'ya girerek Birinci Liberya İç Savaşı'nı başlattı.", kaynak:"https://www.globalsecurity.org/military/world/war/liberia-1989.htm" },
+    { t:"1990-09-09", tur:"hukumdar", b:"Devlet Başkanı Doe, Prince Johnson'ın INPFL güçlerince öldürüldü.", kaynak:"https://www.globalsecurity.org/military/world/war/liberia-1989.htm" },
+    { t:"2003-08-18", tur:"antlasma", b:"Akra Kapsamlı Barış Antlaşması imzalandı; İkinci İç Savaş bitti, geçiş hükûmeti kuruldu.", kaynak:"https://www.peaceagreements.org/view/259/" },
+    { t:"2006-01-16", tur:"hukumdar", b:"Ellen Johnson Sirleaf, Afrika'nın ilk kadın seçilmiş devlet başkanı olarak göreve başladı.", kaynak:"https://sahistory.org.za/node/94459" }
   ]
 },
 { id:"dan-guro", ad:"Dan · Guro · Bete Halkları (Fildişi orman kuşağı)", tur:"devlet", bolge:"bati-afrika",
@@ -3605,7 +3684,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"kanada", ad:"Kanada Dominyonu", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1867-07-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bytown (Ottawa)",
+  f:"1867-07-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bytown (Ottawa)",
   ozet:"British North America Act ile dört eyaletin (Ontario · Quebec · Nova Scotia · New Brunswick) birleşmesinden doğan dominyon. Rupert's Land 1870'te, Britanya Kolumbiyası 1871'de, Prince Edward Adası 1873'te, Arktik Takımadalar 1880'de katıldı. Atlas ufkunun sonuna kadar sürer. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — British North America Act 1867 (birincil belge) · Historical Atlas of Canada (U. Toronto Press) — çevrimiçi doğrulanmadı. 🟢 f: 1867-07-01 KESİN GÜN — British North America Act'in yürürlüğe girdiği gün; şartnamenin dominyon ölçütünün ta kendisi. 🔴 BU KÜNYE TEK BAŞINA YETMEZ: mevcut `ingiliz-kuzey-amerika` künyesi bugün t:1923-10-29 taşıyor, yani 1867-1923 arası İKİSİ BİRDEN sahnede olur. O künyenin t:'si 1867-07-01'e ÇEKİLMELİDİR — aksi hâlde 56 yıllık bir örtüşme doğar. Karar ve düzeltme koordinatörde. ⚠️ tur: `devlet` seçtim (komanci · haudenosaunee emsali). Kanada bir federasyondur ve sözlükte `federasyon` değeri VAR ama yalnız 1 kez kullanılmış; tek kullanımlık bir değere yaslanmak istemedim. Değiştirmek tek alanlık iştir.",
   kronoloji:[
@@ -3613,7 +3692,9 @@ window.DEVLETLER = [
     { t:"1870-07-15", tur:"toprak-kazanc", b:"Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi" },
     { t:"1871-07-20", tur:"toprak-kazanc", b:"Britanya Kolumbiyası birliğe katıldı" },
     { t:"1880-09-01", tur:"toprak-kazanc", b:"Britanya, Arktik Takımadalar üzerindeki haklarını Kanada'ya devretti" },
-    { t:"1885-05-12", tur:"isyan", b:"Batoche düştü; Kuzeybatı Ayaklanması bastırıldı" }
+    { t:"1885-05-12", tur:"isyan", b:"Batoche düştü; Kuzeybatı Ayaklanması bastırıldı" },
+    { t:"1982-04-17", tur:"siyaset", b:"Kraliçe II. Elizabeth Ottawa'da 1982 Anayasa Yasası'nı ilan etti; anayasa Kanada'ya devredildi, Haklar ve Özgürlükler Şartı yürürlüğe girdi.", kaynak:"https://www.thecanadianencyclopedia.ca/en/article/constitution-act-1982-plain-language-summary" },
+    { t:"1999-04-01", tur:"bolunme", b:"Nunavut, Kuzeybatı Toprakları'ndan ayrılarak Inuit'lere yönetim alanı olarak kuruldu.", kaynak:"https://statcan.gc.ca/o1/en/plus/5957-nunavut-newfoundland-and-labrador-marking-milestones" }
   ]
 },
 { id:"inuit", ad:"İnuit", tur:"devlet", bolge:"kuzey-amerika",
@@ -4119,13 +4200,12 @@ window.DEVLETLER = [
     { t:"1920-08-15", tur:"savas", b:"Varşova Savaşı'nda Kızıl Ordu'yu durdurdu" },
     { t:"1921-03-18", tur:"antlasma", b:"Riga Antlaşması ile Sovyetler'le sınırlar netleşti" },
     { t:"1939-09-01", tur:"isgal", b:"Almanya Polonya'ya saldırdı", kaynak:"AVALON imt/judpolan: 'the war initiated by Germany against Poland on the 1st September, 1939'" },
-    { t:"1939-09-17", tur:"isgal", b:"SSCB doğudan Polonya'ya girdi", kaynak:"USHMM-KD (17 Eylül 1939)" },
     { t:"1939-09-28", tur:"isgal", b:"Varşova teslim oldu; Almanya ile SSCB Polonya'yı paylaştı", kaynak:"USHMM invasion-of-poland: 'Polish forces in Warsaw officially surrendered to the Germans on September 28, 1939.'" },
     { t:"1939-10-06", tur:"son", b:"Son Polonya birliklerinin direnişi sona erdi", kaynak:"USHMM invasion-of-poland-fall-1939" }
   ]
 },
 { id:"yugoslavya", ad:"Sırp-Hırvat-Sloven Krallığı (SHS)", tur:"krallik", bolge:"balkanlar",
-  f:"1918-12-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — krallığa son: TDV yugoslavya '29 Kasım 1943' (AVNOJ) — 1945 değil, kaynak ÇELİŞKİSİ bildirildi. 1941-04-17 teslim ve bölünme ARADA: [[hirvatistan-bagimsiz]] vb. Künye ülke sürekliliğidir (② GENİŞLET)", baskent:"Belgrad", harita:"yugoslavya",
+  f:"1918-12-01", t:"1945-11-29", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — krallığa son: TDV yugoslavya '29 Kasım 1943' (AVNOJ) — 1945 değil, kaynak ÇELİŞKİSİ bildirildi. 1941-04-17 teslim ve bölünme ARADA: [[hirvatistan-bagimsiz]] vb. Künye ülke sürekliliğidir (② GENİŞLET)", baskent:"Belgrad", harita:"yugoslavya",
   ozet:"Sırbistan Krallığı ile Avusturya-Macaristan'ın güney Slav topraklarının birleşmesinden doğan krallık; 1929'da \"Yugoslavya\" adını aldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"yugoslavya",
   kronoloji:[
@@ -4136,7 +4216,8 @@ window.DEVLETLER = [
     { t:"1929-10-03", tur:"kurulus", b:"Kral Aleksandar'ın kişisel yönetimi ilanının ardından devletin resmî adı 'Yugoslavya Krallığı' oldu", ic_not_b:"eski b: Kral Aleksandar'ın kişisel yönetimi ilanının ardından devletin resmî adı 'Yugoslavya Krallığı' oldu (TDV yugoslavya maddesi; ⚠️ atlasın 1923-10-29 ufkunun DIŞINDA, dizin amaçlı bırakıldı)", kaynak:"TDV: yugoslavya — «3 Ekim 1929’da devletin adı Krallık Yugoslavyası (Kraljevina Jugoslavija [1929-1941]) şeklinde değiştirildi»" },
     { t:"1929-10-03", tur:"siyaset", b:"Devletin adı Yugoslavya Krallığı oldu", kaynak:"TDV: yugoslavya: '3 Ekim 1929'da devletin adı Krallık Yugoslavyası ... oldu'" },
     { t:"1941-04-06", tur:"isgal", b:"Mihver devletleri Yugoslavya'yı işgale başladı", kaynak:"USHMM axis-invasion-of-yugoslavia: 'The Axis powers invaded Yugoslavia on April 6, 1941.'" },
-    { t:"1941-04-17", tur:"isgal", b:"Yugoslavya teslim oldu ve bölündü", kaynak:"USHMM-KD: 'Yugoslavia surrenders on April 17.'" }
+    { t:"1941-04-17", tur:"isgal", b:"Yugoslavya teslim oldu ve bölündü", kaynak:"USHMM-KD: 'Yugoslavia surrenders on April 17.'" },
+    { t:"1945-11-11", tur:"siyaset", b:"Kurucu Meclis seçimi yapıldı; yalnız Halk Cephesi listesi girdi, muhalefet boykot etti.", kaynak:"https://www.universalis.fr/encyclopedie/yougoslavie/2-la-republique-populairefederative-de-yougoslavie/" }
   ]
 },
 { id:"letonya", ad:"Letonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
@@ -4178,13 +4259,18 @@ window.DEVLETLER = [
   ]
 },
 { id:"finlandiya", ad:"Finlandiya Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-avrupa",
-  f:"1917-12-06", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Helsinki", harita:"finlandiya",
+  f:"1917-12-06", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Helsinki", harita:"finlandiya",
   ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Kuzey devleti; kısa bir iç savaşın ardından cumhuriyet olarak pekişti. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"finlandiya",
   kronoloji:[
     { t:"1917-12-06", tur:"kurulus", b:"Finlandiya Senatosu bağımsızlığı ilan etti" },
     { t:"1918-01-27", tur:"savas", b:"Kızıllar ve Beyazlar arasında iç savaş başladı (Mannerheim'ın zaferiyle Mayıs 1918'de bitti)" },
-    { t:"1919-07-17", tur:"antlasma", b:"Cumhuriyet anayasası kabul edildi" }
+    { t:"1919-07-17", tur:"antlasma", b:"Cumhuriyet anayasası kabul edildi" },
+    { t:"1948-04-06", tur:"antlasma", b:"Finlandiya ile SSCB Moskova'da Dostluk, İşbirliği ve Karşılıklı Yardım (YYA) Antlaşması'nı imzaladı.", kaynak:"https://finland100.fi/?p=876" },
+    { t:"1955-01-01", tur:"siyaset", b:"Finlandiya Birleşmiş Milletler'e üye oldu (gün kaynakta bulunamadı, yıl sınırı).", kaynak:"https://bigenc.ru/c/finliandiia-istoriia-fdf3e8" },
+    { t:"1990-01-01", tur:"antlasma", b:"Koivisto, 1947 Paris Barışı'nın Almanya'ya ilişkin hükümlerinin eskidiğini ilan etti (gün bulunamadı, yıl sınırı).", kaynak:"https://finland100.fi/timeline/1990-2/" },
+    { t:"1992-01-20", tur:"antlasma", b:"YYA Antlaşması sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Finno-Soviet_Treaty_of_1948" },
+    { t:"1995-01-01", tur:"ittifak", b:"Finlandiya Avrupa Birliği'ne tam üye oldu (yıl kaynakta, gün standart katılım tarihi).", kaynak:"https://www.britannica.com/print/article/207424" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `norvec` harita kimliği künyenin
@@ -4204,14 +4290,18 @@ window.DEVLETLER = [
   ]
 },
 { id:"norvec", ad:"Norveç Krallığı (bağımsız)", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"1905-06-07", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Kristiania (Oslo)", harita:"norvec",
+  f:"1905-06-07", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Kristiania (Oslo)", harita:"norvec",
   ozet:"İsveç ile 91 yıllık kişisel birliğin barışçıl feshiyle doğan krallık; Danimarkalı Prens Carl, halkoylamasıyla kral seçilip Haakon VII adını aldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1905-06-07", tur:"kurulus", b:"Norveç Storting'i İsveç ile birliği tek taraflı feshetti" },
     { t:"1905-08-13", tur:"antlasma", b:"Halkoylamasıyla fesih onaylandı, Karlstad Antlaşması ile İsveç kabul etti" },
     { t:"1905-11-18", tur:"hukumdar", b:"Danimarka Prensi Carl, VII. Haakon unvanıyla kral oldu" },
-    { t:"1940-06-09", tur:"isgal", b:"Alman işgaline karşı direniş sona erdi", kaynak:"USHMM-KD: 'Norway holds out until June 9'" }
+    { t:"1940-06-09", tur:"isgal", b:"Alman işgaline karşı direniş sona erdi", kaynak:"USHMM-KD: 'Norway holds out until June 9'" },
+    { t:"1949-04-04", tur:"ittifak", b:"Norveç, Dışişleri Bakanı Halvard Lange'nin imzasıyla NATO'nun kurucu üyesi oldu.", kaynak:"https://www.norway.no/en/missions/nato/norway-nato/" },
+    { t:"1957-09-21", tur:"hukumdar", b:"VII. Haakon'un saltanatı sona erdi; V. Olav kral oldu.", kaynak:"https://www.regjeringen.no/en/the-government/previous-governments/historiske-artikler/offices/the-establishing-of-the-norwegian-state/norways-monarch-since-1814/id449228/" },
+    { t:"1969-12-01", tur:"siyaset", b:"Ekofisk petrol sahası keşfedildi (gün bulunamadı, Aralık 1969).", kaynak:"https://www.regjeringen.no/globalassets/upload/kilde/oed/bro/2003/0004/ddd/pdfv/176322-fact0103.pdf" },
+    { t:"1972-01-01", tur:"siyaset", b:"Halk oylamasında oyların %53,5'i Avrupa Topluluğu'na katılıma hayır dedi (gün bulunamadı, yıl kaynakta).", kaynak:"https://www.norway.no/en/missions/eu/areas-of-cooperation/historical-overview/" }
   ]
 },
 
@@ -4238,36 +4328,50 @@ window.DEVLETLER = [
   ]
 },
 { id:"kuveyt", ad:"Kuveyt (Sabah Şeyhliği)", tur:"devlet", bolge:"arabistan",
-  f:"1752-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Kuveyt şehri",
+  f:"1752-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Kuveyt şehri",
   ozet:"Uneyze'den gelen Utûb kabilesinin kurduğu, Basra vilayetine bağlı kaza statüsünde yönetilen şeyhlik; Şeyh Mübarek'in 1899'da gizlice İngiltere ile imzaladığı antlaşmayla fiilen Osmanlı'dan koptu. (kaynak: TDV, madde: kuveyt) (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"kuveyt",
   kronoloji:[
     { t:"1752-01-01", tur:"kurulus", b:"Utûb kabilesinden Sabah I, Kuveyt şeyhi seçildi" },
     { t:"1871-01-01", tur:"antlasma", b:"Osmanlı, Basra vilayetine bağlı bir kaza olarak Kuveyt'i idareye dahil etti" },
     { t:"1899-01-23", tur:"antlasma", b:"Şeyh Mübarek, İngiltere ile gizli himaye antlaşması imzaladı" },
-    { t:"1913-07-29", tur:"antlasma", b:"Osmanlı-İngiliz sözleşmesiyle Kuveyt'in özerkliği tanındı (I. Dünya Savaşı nedeniyle yürürlüğe girmedi)" }
+    { t:"1913-07-29", tur:"antlasma", b:"Osmanlı-İngiliz sözleşmesiyle Kuveyt'in özerkliği tanındı (I. Dünya Savaşı nedeniyle yürürlüğe girmedi)" },
+    { t:"1961-06-19", tur:"kurulus", b:"Kuveyt, İngiltere ile nota teatisiyle 1899 antlaşmasını sona erdirerek tam bağımsızlığa kavuştu.", kaynak:"https://kuwaittimes.com/the-national-anniversaries" },
+    { t:"1962-01-01", tur:"siyaset", b:"Kuveyt anayasası kabul edildi (gün bulunamadı, yıl kaynakta).", kaynak:"https://www.servat.unibe.ch/icl/ku__indx.html" },
+    { t:"1963-01-01", tur:"antlasma", b:"Irak, 'Agreed Minutes' ile Kuveyt'in egemenliğini kabul etti (gün bulunamadı).", kaynak:"https://history.state.gov/countries/kuwait" },
+    { t:"1990-08-02", tur:"isgal", b:"Irak Kuveyt'i işgal etti; 28 Ağustos'ta 19. vilayet ilan edildi.", kaynak:"https://www.globalsecurity.org/military/world/gulf/kuwait-history.htm" },
+    { t:"1991-01-01", tur:"savas", b:"ABD öncülüğündeki BM koalisyonu 23 Şubat'ta başlayan kara harekâtıyla Kuveyt'i kurtardı (kurtuluş günü kaynakta kesin değil).", kaynak:"https://www.globalsecurity.org/military/world/gulf/kuwait-history.htm" }
   ]
 },
 { id:"bahreyn", ad:"Bahreyn (Âl Halîfe Şeyhliği)", tur:"devlet", bolge:"arabistan",
-  f:"1783-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Manama",
+  f:"1783-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Manama",
   ozet:"Utûb kabilesinden Âl Halîfe ailesinin 1783'te ele geçirdiği ada şeyhliği; statüsü Osmanlı ile İngiltere arasında uzun süre tartışmalı kaldı, 1913'te Osmanlı iddiasından vazgeçti. (kaynak: TDV, madde: bahreyn) (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bahreyn",
   kronoloji:[
     { t:"1783-01-01", tur:"kurulus", b:"Utûb kabilesinden Âl Halîfe ailesi Bahreyn'e egemen oldu" },
     { t:"1861-05-21", tur:"antlasma", b:"İngiltere ile köle ticaretinin yasaklanması antlaşması imzalandı" },
     { t:"1870-01-01", tur:"antlasma", b:"Bağdat valisi Bahreyn'i Osmanlı toprağı ilan etti, iddia tartışmalı kaldı" },
-    { t:"1913-07-29", tur:"antlasma", b:"Osmanlı, Hakkı Paşa-Grey antlaşmasıyla Bahreyn iddiasından vazgeçti" }
+    { t:"1913-07-29", tur:"antlasma", b:"Osmanlı, Hakkı Paşa-Grey antlaşmasıyla Bahreyn iddiasından vazgeçti" },
+    { t:"1970-05-11", tur:"siyaset", b:"BM Güvenlik Konseyi, halkın bağımsız Bahreyn istediği yönündeki Winspeare-Guicciardi tespitini onayladı (Karar 278); İran iddiayı bıraktı.", kaynak:"https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_278" },
+    { t:"1971-12-16", tur:"antlasma", b:"Bahreyn, İngiltere ile bağlarını kesip resmen Bahreyn Devleti olarak bağımsız oldu.", kaynak:"https://web.mit.edu/cascon-project/cases/case_bah.html" },
+    { t:"2001-02-01", tur:"siyaset", b:"Ulusal Eylem Şartı halk oylamasında %98,4 onay aldı (gün bulunamadı, Şubat 2001).", kaynak:"https://www.peaceagreements.org/view/1437/" },
+    { t:"2002-02-14", tur:"siyaset", b:"Kral Hamad yeni anayasayı yayımladı; Bahreyn Krallığı oldu.", kaynak:"https://en.wikipedia.org/wiki/Constitution_of_Bahrain" },
+    { t:"2011-02-14", tur:"isyan", b:"Bahreyn ayaklanması başladı; Mart'ta Suudi birlikleri geçitten girdi, ayaklanma bastırıldı.", kaynak:"https://www.ebsco.com/research-starters/history/bahrain-uprising-2011" }
   ]
 },
 { id:"katar", ad:"Katar (Âl Sânî Şeyhliği)", tur:"devlet", bolge:"arabistan",
-  f:"1868-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Devha (Doha)", harita:"katar",
+  f:"1868-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Devha (Doha)", harita:"katar",
   ozet:"Benî Temîm'in bir kolu olan Âl Sânî ailesinin 1868'den itibaren öne çıktığı şeyhlik; Osmanlı 1871'de Necid vilayetine bağlı bir kaza olarak idareye dahil etti, 1916'da İngiliz himayesine geçti. (kaynak: TDV, madde: katar) (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"katar",
   kronoloji:[
     { t:"1868-01-01", tur:"kurulus", b:"Âl Sânî ailesi (Muhammed b. Sânî) İngiltere tarafından yerel yönetici tanındı" },
     { t:"1871-01-01", tur:"antlasma", b:"Osmanlı askerî seferle Katar'ı Necid vilayetine bağlı kazaya dönüştürdü, Kāsım b. Muhammed fahri kaymakam oldu" },
     { t:"1893-01-01", tur:"savas", b:"Osmanlı'nın seferi başarısız oldu, Kāsım fiilî özerklik kazandı" },
-    { t:"1916-11-03", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
+    { t:"1916-11-03", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" },
+    { t:"1971-09-03", tur:"kurulus", b:"Katar İngiliz himayesinden çıkıp bağımsızlığını ilan etti; eski antlaşmalar dostluk antlaşmasıyla değişti.", kaynak:"https://www.britannica.com/place/Qatar/History (Fanack bağımsızlığı 1971-09-01 verir; Britannica 3 Eylül)" },
+    { t:"1972-02-22", tur:"hukumdar", b:"Başbakan Halîfe b. Hamed, amcaoğlu Emîr Ahmed b. Alî'yi saray darbesiyle devirip emîr oldu.", kaynak:"https://www.britannica.com/place/Qatar/History ; https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/qatar-1971-present" },
+    { t:"1995-06-27", tur:"hukumdar", b:"Veliaht Hamed b. Halîfe babası Halîfe'yi saray darbesiyle devirip emîr oldu.", kaynak:"https://www.britannica.com/place/Qatar/History ; https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/qatar-1971-present" },
+    { t:"1996-02-20", tur:"siyaset", b:"Şeyh Hamad b. Cāsim'in önderliğindeki karşı-darbe girişimi bastırıldı.", kaynak:"https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/qatar-1971-present" }
   ]
 },
 { id:"itilaf-emaneti", ad:"Başlıca Müttefik ve Ortak Devletler emaneti (Saint-Germain md. 91)", tur:"emanet", bolge:"orta-avrupa",
@@ -4286,12 +4390,11 @@ window.DEVLETLER = [
   kaynak:"avusturya",
   kronoloji:[
     { t:"1918-11-12", tur:"kurulus", b:"Alman-Avusturya Cumhuriyeti ilan edildi (Almanya ile birleşme hedefiyle)" },
-    { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması Almanya ile birleşmeyi yasakladı, ülke adı \"Avusturya\" oldu" },
-    { t:"1938-03-13", tur:"son", b:"Anschluss: Avusturya Alman Reich'ına katıldı", kaynak:"AVALON imt/judaus" }
+    { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması Almanya ile birleşmeyi yasakladı, ülke adı \"Avusturya\" oldu" }
   ]
 },
 { id:"macaristan-naiplik", ad:"Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", tur:"devlet", bolge:"orta-avrupa",
-  f:"1918-11-16", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 1946 cumhuriyeti ölçülemedi (OH hungary vermiyor)", baskent:"Budapeşte", harita:"macaristan",
+  f:"1918-11-16", t:"1946-02-01", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 1946 cumhuriyeti ölçülemedi (OH hungary vermiyor)", baskent:"Budapeşte", harita:"macaristan",
   ozet:"Avusturya-Macaristan'ın dağılmasıyla önce demokratik cumhuriyet, ardından kısa ömürlü bir Sovyet cumhuriyeti olarak kurulan, Romanya işgali sonrası kralsız bir krallığa (Horthy naipliği) dönüşen devlet (1923 sonrasında da sürdü, 1944'e dek). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"macaristan",
   kronoloji:[
@@ -4301,7 +4404,8 @@ window.DEVLETLER = [
     { t:"1920-03-01", tur:"hukumdar", b:"Miklós Horthy, kralsız krallığın naibi seçildi" },
     { t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması ile toprakların üçte ikisini kaybetti" },
     { t:"1944-03-19", tur:"isgal", b:"Almanya Macaristan'ı işgal etti", kaynak:"USHMM-KD (19 Mart 1944)" },
-    { t:"1944-10-15", tur:"siyaset", b:"Ok-Haç hareketi Alman desteğiyle darbe yaptı", kaynak:"USHMM-KD (15 Ekim 1944)" }
+    { t:"1944-10-15", tur:"siyaset", b:"Ok-Haç hareketi Alman desteğiyle darbe yaptı", kaynak:"USHMM-KD (15 Ekim 1944)" },
+    { t:"1946-02-01", tur:"son", b:"1946. évi I. törvénycikk ile cumhuriyet ilan edildi, monarşi/naiplik biçimi resmen kaldırıldı; Zoltán Tildy cumhurbaşkanı seçildi.", kaynak:"https://folyoirat.ludovika.hu/actahumana/article/view/2255 ; https://theorangefiles.hu/the-second-hungarian-republic-1946-1949/ (yasa oylaması 31 Ocak, ilan 1 Şubat)" }
   ]
 },
 { id:"tbmm-turkiye", ad:"Türkiye Büyük Millet Meclisi Hükûmeti", tur:"devlet", bolge:"anadolu",
@@ -4682,7 +4786,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"meiji-japonya", ad:"Meiji ve Sonrası Japonya İmparatorluğu", tur:"imparatorluk", bolge:"dogu-asya",
-  f:"1868-01-03", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 1947 anayasası (OH milestones/1945-1952/japan-reconstruction: 'In 1947 ... new constitution' — YIL verir, gün yok)", baskent:"Tokyo", harita:"meiji-japonya",
+  f:"1868-01-03", t:"1947-05-03", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 1947 anayasası (OH milestones/1945-1952/japan-reconstruction: 'In 1947 ... new constitution' — YIL verir, gün yok)", baskent:"Tokyo", harita:"meiji-japonya",
   ozet:"Şogunluğun yıkılıp imparatorluk otoritesinin \"restore\" edilmesiyle hızla sanayileşen, Çin ve Rusya'yı yenip büyük güç hâline gelen imparatorluk. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"japonya",
   kronoloji:[
@@ -4690,7 +4794,9 @@ window.DEVLETLER = [
     { t:"1889-02-11", tur:"antlasma", b:"Meiji Anayasası kabul edildi" },
     { t:"1895-04-17", tur:"savas", b:"Birinci Çin-Japon Savaşı'nı kazanıp Tayvan'ı aldı" },
     { t:"1905-09-05", tur:"savas", b:"Rus-Japon Savaşı'nı kazanarak büyük güç statüsü kazandı" },
-    { t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti", ic_not_b:"eski b: Kore'yi ilhak etti (bkz. [[joseon]])" }
+    { t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti", ic_not_b:"eski b: Kore'yi ilhak etti (bkz. [[joseon]])" },
+    { t:"1945-09-02", tur:"son", b:"Japon İmparatorluğu Tokyo Körfezi'nde teslim belgesini imzaladı, Müttefik işgali başladı.", kaynak:"https://en.wikipedia.org/wiki/Occupation_of_Japan (teyit: Agawa ifadesi, judiciary.senate.gov)" },
+    { t:"1946-11-03", tur:"siyaset", b:"Yeni Japonya Anayasası ilan edildi; imparator simgesel konuma indi, savaş hakkı reddedildi.", kaynak:"https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `ryukyu` harita kimliği künyenin
@@ -4719,14 +4825,18 @@ window.DEVLETLER = [
   ]
 },
 { id:"tibet-ganden-phodrang", ad:"Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)", tur:"devlet", bolge:"dogu-asya",
-  f:"1642-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 17 Madde Antlaşması 23 Mayıs 1951 (Ohio State Univ. origins.osu.edu) — Lhasa hükûmetinin feshi 1959, gün ölçülemedi", baskent:"Lhasa", harita:"tibet-ganden-phodrang",
+  f:"1642-01-01", t:"1959-03-28", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — 17 Madde Antlaşması 23 Mayıs 1951 (Ohio State Univ. origins.osu.edu) — Lhasa hükûmetinin feshi 1959, gün ölçülemedi", baskent:"Lhasa", harita:"tibet-ganden-phodrang",
   ozet:"5. Dalai Lama'nın Moğol Güşi Han'ın desteğiyle kurduğu, Budist teokratik yönetim; 18. yüzyıldan itibaren Qing himayesine girdi, Qing'in 1912 yıkılışıyla fiilen bağımsızlaştı (1923 sonrasında da sürdü, 1950'de Çin ilhakına dek). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"tibet",
   kronoloji:[
     { t:"1642-01-01", tur:"kurulus", b:"5. Dalai Lama, Güşi Han'ın askerî desteğiyle Tibet'in tek hâkimi oldu" },
     { t:"1720-01-01", tur:"antlasma", b:"Qing orduları Cungarları kovup Tibet'i himayesine aldı" },
     { t:"1904-01-01", tur:"isgal", b:"İngiliz Younghusband seferi Lhasa'ya girdi" },
-    { t:"1912-01-01", tur:"bolunme", b:"Qing'in yıkılışıyla 13. Dalai Lama bağımsızlığını ilan etti" }
+    { t:"1912-01-01", tur:"bolunme", b:"Qing'in yıkılışıyla 13. Dalai Lama bağımsızlığını ilan etti" },
+    { t:"1956-01-01", tur:"siyaset", b:"Dalai Lama başkanlığında Tibet Özerk Bölgesi Hazırlık Komitesi kuruldu (yıl; gün bulunamadı).", kaynak:"https://www.marxists.org/reference/archive/strong-anna-louise/1959/tibetan-interviews/ch07.htm" },
+    { t:"1959-03-28", tur:"son", b:"Başbakan Zhou Enlai'nin Devlet Konseyi emriyle eski Tibet yerel hükûmeti (Kashag) feshedildi, yetkiler Hazırlık Komitesi'ne devredildi.", kaynak:"https://www.marxists.org/reference/archive/strong-anna-louise/1959/tibetan-interviews/ch07.htm ; Concerning the question of Tibet, FLP Peking 1959" },
+    { t:"1959-04-18", tur:"siyaset", b:"Hindistan'a ulaşan Dalai Lama On Yedi Madde Anlaşması'nı reddetti.", kaynak:"https://tibet.net/?p=2390" },
+    { t:"1959-04-29", tur:"baskent", b:"Dalai Lama sürgünde Kashag'ı yeniden kurdu (Hindistan).", kaynak:"https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Kashag (yalnız yönlendirme; birincil kaynak bulunamadı)" }
   ]
 },
 
@@ -4774,13 +4884,18 @@ window.DEVLETLER = [
   ]
 },
 { id:"siyam-chakri", ad:"Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1782-04-06", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bangkok", harita:"siyam-chakri",
+  f:"1782-04-06", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bangkok", harita:"siyam-chakri",
   ozet:"Ayutthaya'nın yıkılışından sonra Taksin'in kısa Thonburi döneminin ardından I. Rama'nın kurduğu, Güneydoğu Asya'da sömürgeleşmeyen tek krallık. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"tayland",
   kronoloji:[
     { t:"1782-04-06", tur:"kurulus", b:"General Chakri (I. Rama), Bangkok'u başkent yaparak hanedanı kurdu" },
     { t:"1855-01-01", tur:"antlasma", b:"Bowring Antlaşması ile İngiltere'ye ticarî ayrıcalıklar verildi" },
-    { t:"1868-01-01", tur:"hukumdar", b:"V. Rama (Chulalongkorn) tahta çıkıp modernleşme reformlarını başlattı" }
+    { t:"1868-01-01", tur:"hukumdar", b:"V. Rama (Chulalongkorn) tahta çıkıp modernleşme reformlarını başlattı" },
+    { t:"1946-06-09", tur:"hukumdar", b:"Kral Ananda Mahidol Büyük Saray'da ölü bulundu; yerine kardeşi Bhumibol Adulyadej (IX. Rama) geçti.", kaynak:"https://www.benarnews.org/english/news/thai/monarchy-timeline-06222022173606.html (gün: tarihçe bilgisi, kaynakta yıl)" },
+    { t:"1973-10-14", tur:"isyan", b:"Öğrenci önderliğindeki ayaklanma askerî yönetimi devirdi (77 ölü).", kaynak:"https://www.thaizer.com/october-14-memorial-bangkok/" },
+    { t:"1976-10-06", tur:"siyaset", b:"Thammasat Üniversitesi katliamı ve aynı gün askerî darbe.", kaynak:"https://en.wikipedia.org/wiki/6_October_1976_massacre (yalnız yönlendirme)" },
+    { t:"1992-05-17", tur:"isyan", b:"Kara Mayıs: Bangkok'ta darbe karşıtı gösterilere müdahale (52 ölü).", kaynak:"https://en.wikipedia.org/wiki/List_of_massacres_in_Thailand (yalnız yönlendirme)" },
+    { t:"1997-10-11", tur:"siyaset", b:"Halk Anayasası olarak anılan 1997 Anayasası ilan edildi.", kaynak:"https://constitutionnet.org/country/thailand" }
   ]
 },
 { id:"le-hanedani", ad:"Lê Hanedanı (Đại Việt)", tur:"hanedanlik", bolge:"guneydogu-asya",
@@ -4796,7 +4911,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"nguyen-hanedani", ad:"Nguyễn Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
-  f:"1802-06-01", t:"1945-08-25", baskent:"Huế", harita:"nguyen-hanedani",
+  f:"1802-06-01", t:"1945-08-30", baskent:"Huế", harita:"nguyen-hanedani",
   ozet:"Gia Long'un Tây Sơn'a son verip Vietnam'ı yeniden birleştirdiği son hanedan; Fransız baskısıyla 1880'lerde protektora hâline geldi (1923 sonrasında da sürdü, 1945'e dek).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -4804,18 +4919,24 @@ window.DEVLETLER = [
     { t:"1858-01-01", tur:"savas", b:"Fransız donanması Da Nang'ı bombalayıp müdahaleye başladı" },
     { t:"1884-06-06", tur:"antlasma", b:"Huế Antlaşması ile ülke Fransız protektorasına dönüştü" }
   ,
-    { t:"1820-01-01", tur:"hukumdar", b:"Minh Mạng tahta çıktı (1820-1841); sıkı Konfüçyüsçü politika izleyip Hıristiyan misyonerlere baskı uyguladı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Nguyen dynasty') doğrulandı." }
+    { t:"1820-01-01", tur:"hukumdar", b:"Minh Mạng tahta çıktı (1820-1841); sıkı Konfüçyüsçü politika izleyip Hıristiyan misyonerlere baskı uyguladı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Nguyen dynasty') doğrulandı." },
+    { t:"1945-08-30", tur:"son", b:"Bảo Đại Huế'de Ngọ Môn'da kılıcı ve mührü Geçici Hükûmet heyetine teslim ederek tahttan çekildi; Nguyễn hanedanı ve monarşi sona erdi.", kaynak:"https://english.vtv.vn/news/august-30-1945-king-bao-dai-abdicates-20250831164313806.htm" }
   ]
 },
 { id:"kamboc-kralligi", ad:"Kamboçya Krallığı (Post-Angkor)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1431-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin kaldırılması (1970) ölçülemedi", baskent:"Phnom Penh", harita:"kamboc-kralligi",
+  f:"1431-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin kaldırılması (1970) ölçülemedi", baskent:"Phnom Penh", harita:"kamboc-kralligi",
   ozet:"Angkor'un Siyam baskısıyla terk edilmesinden sonra küçülerek varlığını sürdüren Khmer krallığı; Fransız protektorasına girerek yıkılmaktan kurtuldu. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"kamboc",
   kronoloji:[
     { t:"1431-01-01", tur:"toprak-kayip", b:"Ayutthaya kuşatması sonrası Angkor terk edildi, saray güneye taşındı" },
     { t:"1813-01-01", tur:"vassal", b:"Vietnam generali Lê Văn Duyệt, Oudong'u ele geçirip Kral Ang Chan II'yi tahtına iade etti; Kamboçya bundan sonra hem Bangkok'a hem Huế'ye haraç ödeyerek Siyam-Vietnam çifte tâbiiyetine girdi", ic_not_b:"eski b: Vietnam generali Lê Văn Duyệt, Oudong'u ele geçirip Kral Ang Chan II'yi tahtına iade etti; Kamboçya bundan sonra hem Bangkok'a hem Huế'ye haraç ödeyerek Siyam-Vietnam çifte tâbiiyetine girdi (standart akademik kaynak: Britannica 'Chan II')" },
     { t:"1848-03-07", tur:"hukumdar", b:"Siyam ve Vietnam'ın ortak egemenlik uzlaşması ardından Ang Duong, yeni başkent Udong'da taç giyip hukuk kodunu yenileyerek modern Kamboçya kimliğinin temelini attı", ic_not_b:"eski b: Siyam ve Vietnam'ın ortak egemenlik uzlaşması ardından Ang Duong, yeni başkent Udong'da taç giyip hukuk kodunu yenileyerek modern Kamboçya kimliğinin temelini attı (standart akademik kaynak: Britannica 'Duong')" },
-    { t:"1863-08-11", tur:"antlasma", b:"Kral Norodom, Fransız protektorasını kabul etti" }
+    { t:"1863-08-11", tur:"antlasma", b:"Kral Norodom, Fransız protektorasını kabul etti" },
+    { t:"1970-01-01", tur:"siyaset", b:"Mart 1970'te Başbakan Lon Nol darbeyle Sihanouk'u devirdi, Khmer Cumhuriyeti kuruldu (gün bulunamadı).", kaynak:"https://cambcomm.org.uk/ccc/cambodias-history/" },
+    { t:"1975-01-01", tur:"siyaset", b:"Kızıl Kmerler iktidarı aldı (gün bulunamadı).", kaynak:"https://cambcomm.org.uk/ccc/cambodias-history/" },
+    { t:"1979-01-07", tur:"isgal", b:"Vietnam ve KUFNS güçleri Phnom Penh'i aldı, Kızıl Kmerler dağıldı.", kaynak:"https://cambcomm.org.uk/ccc/cambodias-history/" },
+    { t:"1991-10-23", tur:"antlasma", b:"Paris Barış Anlaşması imzalandı.", kaynak:"https://cambcomm.org.uk/ccc/cambodias-history/" },
+    { t:"1993-09-24", tur:"siyaset", b:"UNTAC dönemi bitti, monarşi yeniden kuruldu.", kaynak:"https://en.wikipedia.org/wiki/United_Nations%E2%80%93administered_Cambodia (yalnız yönlendirme)" }
   ]
 },
 { id:"toungoo", ad:"Toungoo Hanedanı (Birmanya)", tur:"hanedanlik", bolge:"guneydogu-asya",
@@ -4882,7 +5003,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"brunei-sultanligi", ad:"Brunei Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1368-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bandar Seri Begawan", harita:"brunei-sultanligi",
+  f:"1368-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bandar Seri Begawan", harita:"brunei-sultanligi",
   ozet:"Borneo kıyısında kurulan, 16. yüzyılda Borneo ve Filipinler'in büyük bölümüne uzanan, sonradan küçülerek İngiliz himayesine giren (1888) sultanlık. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bruney",
   kronoloji:[
@@ -4890,7 +5011,12 @@ window.DEVLETLER = [
     { t:"1473-01-01", tur:"hukumdar", b:"Sultan Bolkiah tahta çıktı; döneminde (1473-1521) Bruney küçük bir sultanlıktan Borneo'nun büyük kısmını, Luzon'u ve Sulu takımadalarını içine alan devlete dönüşüp altın çağını yaşadı", ic_not_b:"eski b: Sultan Bolkiah tahta çıktı; döneminde (1473-1521) Bruney küçük bir sultanlıktan Borneo'nun büyük kısmını, Luzon'u ve Sulu takımadalarını içine alan devlete dönüşüp altın çağını yaşadı (TDV bruney maddesi)", kaynak:"TDV: bruney — «Sultan Bolkiah’nın döneminde ise (1473-1521) Bruney, küçük bir sultanlık olmaktan çıkarak Borneo adasının büyük bir kısmını, Filipinler’deki Luzon’u ve Sulu takımadalarını içine alan bir devlet haline gelmiş ve altın çağını yaşamıştır»" },
     { t:"1580-01-01", tur:"savas", b:"1565'te Maynila'yı ele geçiren İspanyollar Bruney şehrini kuşattı ama sonuç alamadan çekildi", ic_not_b:"eski b: 1565'te Maynila'yı ele geçiren İspanyollar Bruney şehrini kuşattı ama sonuç alamadan çekildi (TDV bruney maddesi)", kaynak:"TDV: bruney — «1580’de de Bruney şehrini kuşattılar; ancak bir sonuç elde edemediler»" },
     { t:"1841-01-01", tur:"toprak-kayip", b:"İngilizler Labuan adasını aldı; aynı yıl James Brooke 'Saravak racası' unvanıyla başa getirildi — yüzyıl sürecek toprak erimesinin başlangıcı", ic_not_b:"eski b: İngilizler Labuan adasını aldı; aynı yıl James Brooke 'Saravak racası' unvanıyla başa getirildi — yüzyıl sürecek toprak erimesinin başlangıcı (TDV bruney maddesi)", kaynak:"TDV: bruney — «İngilizler 1841’de Bruney’in elinde bulunan kuzeydeki Labuan adasını zaptettiler ve aynı yıl ülkenin güneyindeki Saravak bölgesinde yer alan Kuching’de hâkimiyet kurarak Doğu Hindistan Şirketi’nin yetkilisi olan James Brooke’u Saravak racası unvanıyla başa getirdiler»" },
-    { t:"1888-09-17", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
+    { t:"1888-09-17", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" },
+    { t:"1959-09-29", tur:"siyaset", b:"Anayasa ilan edildi, Brunei iç özyönetim kazandı; savunma ve dış ilişkiler İngiltere'de kaldı.", kaynak:"https://en.wikipedia.org/wiki/Politics_of_Brunei" },
+    { t:"1962-12-08", tur:"isyan", b:"Brunei Halk Partisi'nin Malezya'ya katılıma karşı isyanı patlak verdi; 17 Aralık'a dek sürdü, İngiliz kuvvetlerle bastırıldı, olağanüstü hâl ilan edildi.", kaynak:"https://en.wikipedia.org/wiki/Brunei_revolt" },
+    { t:"1967-01-01", tur:"hukumdar", b:"Sultan Omar Ali Saifuddien oğlu Hassanal Bolkiah lehine tahttan çekildi (yıl; gün bulunamadı).", kaynak:"https://www.Britannica.Com/place/Brunei/History" },
+    { t:"1979-01-01", tur:"antlasma", b:"İngiltere ile 1984'te tam bağımsızlık öngören antlaşma imzalandı (yıl; gün bulunamadı).", kaynak:"https://www.Britannica.Com/place/Brunei/History" },
+    { t:"1984-01-01", tur:"kurulus", b:"Brunei İngiltere'den tam bağımsızlığını kazandı.", kaynak:"https://www.Britannica.Com/place/Brunei/History" }
   ]
 },
 { id:"sulu-sultanligi", ad:"Sulu Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
@@ -5174,14 +5300,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"umman-zengibar", ad:"Umman-Zengibar Sultanlığı", tur:"sultanlik", bolge:"dogu-afrika",
-  f:"1698-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — sultanlığın sonu 1964 (TDV zengibar — ajan özetinde 12 Ocak 1964, kelimesi kelimesine teyit EDİLEMEDİ)", baskent:"Maskat → Zengibar (Stone Town)",
+  f:"1698-01-01", t:"1964-01-12", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — sultanlığın sonu 1964 (TDV zengibar — ajan özetinde 12 Ocak 1964, kelimesi kelimesine teyit EDİLEMEDİ)", baskent:"Maskat → Zengibar (Stone Town)",
   ozet:"Umman'ın Doğu Afrika kıyısını Portekiz'den alıp kurduğu deniz-ticaret imparatorluğu; Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü, Zengibar İngiliz himayesine girdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1698-01-01", tur:"kurulus", b:"Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı", ic_not_b:"eski b: Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı (bkz. [[svahili-sehirleri]])" },
     { t:"1832-01-01", tur:"hukumdar", b:"Said bin Sultan başkentini Zengibar'a taşıdı" },
     { t:"1856-10-19", tur:"bolunme", b:"Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü" },
-    { t:"1890-11-04", tur:"antlasma", b:"Zengibar, İngiliz himaye antlaşmasını imzaladı" }
+    { t:"1890-11-04", tur:"antlasma", b:"Zengibar, İngiliz himaye antlaşmasını imzaladı" },
+    { t:"1963-12-10", tur:"siyaset", b:"Zengibar İngiliz himayesinden çıkıp Sultan Cemşid bin Abdullah altında anayasal monarşi olarak bağımsız oldu.", kaynak:"https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/" },
+    { t:"1964-01-12", tur:"son", b:"Zengibar Devrimi (John Okello ve ASP/Umma) Sultan Cemşid'i devirdi; sultanlık sona erdi, Abeid Karume cumhurbaşkanı oldu.", kaynak:"https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/" }
   ]
 },
 
@@ -5275,7 +5403,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"abd", ad:"Amerika Birleşik Devletleri", tur:"cumhuriyet", bolge:"kuzey-amerika",
-  f:"1776-07-04", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Philadelphia → Washington", harita:"abd",
+  f:"1776-07-04", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Philadelphia → Washington", harita:"abd",
   ozet:"On üç İngiliz kolonisinin bağımsızlık ilanıyla kurulan, iç savaş ve hızlı sanayileşme sonrası dünya gücü hâline gelen federal cumhuriyet. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"amerika-birlesik-devletleri",
   kronoloji:[
@@ -5283,11 +5411,15 @@ window.DEVLETLER = [
     { t:"1783-09-03", tur:"antlasma", b:"Paris Antlaşması ile İngiltere bağımsızlığı tanıdı" },
     { t:"1861-04-12", tur:"savas", b:"İç Savaş başladı (1865'e dek)" },
     { t:"1898-04-25", tur:"savas", b:"İspanya-Amerika Savaşı ile Küba, Porto Riko, Filipinler nüfuz alanına girdi" },
-    { t:"1917-04-06", tur:"savas", b:"I. Dünya Savaşı'na İtilaf yanında girdi" }
+    { t:"1917-04-06", tur:"savas", b:"I. Dünya Savaşı'na İtilaf yanında girdi" },
+    { t:"1948-04-03", tur:"siyaset", b:"Truman Marshall Planı'nı (Avrupa Kalkınma Programı) imzaladı; 17 Avrupa ülkesine yaklaşık 13,3 milyar dolar yardım aktarıldı.", kaynak:"https://www.archives.gov/publications/record/1998/09/marshall-plan.html" },
+    { t:"1959-01-03", tur:"toprak-kazanc", b:"Alaska 49. eyalet olarak Birliğe kabul edildi.", kaynak:"https://www.ebsco.com/research-starters/history/alaska-and-hawaii-gain-statehood" },
+    { t:"1959-08-21", tur:"toprak-kazanc", b:"Eisenhower'ın bildirisiyle Hawaii 50. eyalet olarak kabul edildi.", kaynak:"https://www.eisenhowerlibrary.gov/research/online-documents/hawaii-statehood" },
+    { t:"1962-10-22", tur:"savas", b:"Küba Füze Krizi: Kennedy, Sovyet füzeleri nedeniyle Küba'ya deniz ablukası ilan etti.", kaynak:"https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp" }
   ]
 },
 { id:"meksika", ad:"Meksika (Bağımsız Dönem)", tur:"cumhuriyet", bolge:"orta-amerika",
-  f:"1821-09-27", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Mexico City",
+  f:"1821-09-27", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Mexico City",
   ozet:"Yeni İspanya'nın bağımsızlığıyla kurulan, kısa bir imparatorluk denemesinden sonra cumhuriyete dönüşen, ABD ile savaşta topraklarının yarısını kaybeden, 1910 Devrimi'yle sarsılan devlet. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"amerika",
   kronoloji:[
@@ -5297,7 +5429,10 @@ window.DEVLETLER = [
     { t:"1848-02-02", tur:"antlasma", b:"Guadalupe Hidalgo Antlaşması Mexico City'de imzalandı, ABD ile savaş sona erdi", kaynak:"history.state.gov/milestones/1830-1860/texas-annexation (US Dept. of State, Office of the Historian) — AYNEN: «signed in Mexico City on February 2, 1848»" },
     { t:"1848-02-02", tur:"toprak-kayip", b:"Aynı antlaşmayla savaş öncesi toprakların %55'i (yaklaşık 525.000 mil kare) ABD'ye bırakıldı", kaynak:"history.state.gov/milestones/1830-1860/texas-annexation (Office of the Historian) — AYNEN: «Mexico ceded to the United States approximately 525,000 square miles (55% of its prewar territory) in exchange for a $15 million lump sum payment…»" },
     { t:"1876-01-01", tur:"hukumdar", b:"Porfirio Díaz'ın uzun otoriter dönemi (Porfiriato) başladı" },
-    { t:"1910-11-20", tur:"isyan", b:"Meksika Devrimi başladı" }
+    { t:"1910-11-20", tur:"isyan", b:"Meksika Devrimi başladı" },
+    { t:"1994-01-01", tur:"isyan", b:"Chiapas'ta Zapatista Ulusal Kurtuluş Ordusu (EZLN) ayaklanması başladı; aynı gün NAFTA yürürlüğe girdi.", kaynak:"https://www.strategypage.com/qnd/mexico/articles/20050101.aspx" },
+    { t:"1994-03-23", tur:"siyaset", b:"PRI başkan adayı Luis Donaldo Colosio suikastla öldürüldü; yerine Ernesto Zedillo aday gösterildi.", kaynak:"https://www.pbs.org/wgbh/commandingheights/lo/countries/mx/mx_political.html" },
+    { t:"2000-07-02", tur:"siyaset", b:"Muhalefetten Vicente Fox (PAN) başkanlık seçimini kazandı; PRI'nin 71 yıllık iktidarı sona erdi.", kaynak:"https://www.refworld.org/reference/annualreport/freehou/2001/29998" }
   ]
 },
 { id:"gran-kolombiya", ad:"Büyük Kolombiya (Gran Colombia)", tur:"cumhuriyet", bolge:"guney-amerika",
@@ -5316,7 +5451,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"haiti", ad:"Haiti Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika",
-  f:"1804-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Port-au-Prince",
+  f:"1804-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Port-au-Prince",
   ozet:"Toussaint Louverture'ün başlattığı köle isyanının Jean-Jacques Dessalines önderliğinde bağımsızlığa ulaşması ile kurulan, dünyanın ilk bağımsız kara devleti ve ilk köle isyanıyla kurulan cumhuriyet. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5324,7 +5459,11 @@ window.DEVLETLER = [
     { t:"1804-01-01", tur:"kurulus", b:"Jean-Jacques Dessalines bağımsızlığı ilan etti" },
     { t:"1825-04-17", tur:"antlasma", b:"Fransa, ağır bir tazminat karşılığında bağımsızlığı resmen tanıdı" },
     { t:"1844-02-27", tur:"toprak-kayip", b:"Adanın doğu yarısı (Santo Domingo) ayrılarak Dominik Cumhuriyeti'ni kurdu, Haiti burayı kaybetti", kaynak:"history.state.gov/countries/dominican-republic (Office of the Historian) — AYNEN: «the island nation of the Dominican Republic declared itself an independent nation from neighboring Haiti in 1844». 🟡 YIL doğrulandı; 27 Şubat GÜNÜ dominik-cumhuriyeti künyesinin f: alanından DEVRALINDI, TARAFIMDAN DOĞRULANMADI." },
-    { t:"1915-01-01", tur:"isgal", b:"ABD Deniz Piyadeleri Haiti'ye çıkarak ülkeyi işgal etti, işgal 1934'e kadar sürdü", kaynak:"history.state.gov/milestones/1914-1920/haiti (Office of the Historian, «U.S. Invasion and Occupation of Haiti, 1915–34») — AYNEN: «Following the assassination of the Haitian President in July of 1915, President Woodrow Wilson sent the United States Marines into Haiti». 🔴 KAYNAK AY VERİYOR (Temmuz 1915) AMA GÜN VERMİYOR; ölçüt ay hassasiyetini yasakladığı için YYYY-01-01 yazıldı — 28 Temmuz diye yaygın bilinen gün KAYNAKLANMADIĞI için KULLANILMADI." }
+    { t:"1915-01-01", tur:"isgal", b:"ABD Deniz Piyadeleri Haiti'ye çıkarak ülkeyi işgal etti, işgal 1934'e kadar sürdü", kaynak:"history.state.gov/milestones/1914-1920/haiti (Office of the Historian, «U.S. Invasion and Occupation of Haiti, 1915–34») — AYNEN: «Following the assassination of the Haitian President in July of 1915, President Woodrow Wilson sent the United States Marines into Haiti». 🔴 KAYNAK AY VERİYOR (Temmuz 1915) AMA GÜN VERMİYOR; ölçüt ay hassasiyetini yasakladığı için YYYY-01-01 yazıldı — 28 Temmuz diye yaygın bilinen gün KAYNAKLANMADIĞI için KULLANILMADI." },
+    { t:"1957-01-01", tur:"siyaset", b:"François 'Papa Doc' Duvalier 1957'de (Eylül) seçimle iktidara geldi; gün kaynakta çıkmadı.", kaynak:"https://countrystudies.us/haiti/65.htm" },
+    { t:"1986-01-01", tur:"siyaset", b:"Jean-Claude Duvalier halk protestoları üzerine Şubat 1986'da Fransa'ya kaçtı, Duvalier hanedanı sona erdi; gün kaynakta çıkmadı.", kaynak:"https://countrystudies.us/haiti/65.htm" },
+    { t:"1990-12-16", tur:"siyaset", b:"Jean-Bertrand Aristide ilk demokratik başkanlık seçimini yaklaşık %67 oyla kazandı.", kaynak:"https://data.ipu.org/election-summary/HTML/2137_90.htm" },
+    { t:"1991-01-01", tur:"siyaset", b:"Aristide 1991'de (Eylül) askeri darbeyle devrildi; gün çıkmadı.", kaynak:"https://en.wikipedia.org/wiki/1991_Haitian_coup_d%27%C3%A9tat" }
   ]
 },
 { id:"ingiliz-kuzey-amerika", ad:"İngiliz Kuzey Amerika (Kanada)", tur:"gecici-isgal", bolge:"kuzey-amerika",
@@ -5356,27 +5495,32 @@ window.DEVLETLER = [
   ]
 },
 { id:"tonga-kralligi", ad:"Tonga Krallığı", tur:"krallik", bolge:"okyanusya",
-  f:"1845-12-04", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nuku'alofa",
+  f:"1845-12-04", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nuku'alofa",
   ozet:"Kral I. George Tupou'nun adaları birleştirip kurduğu, Pasifik'te hiç sömürgeleştirilmeyen tek krallık; 1900'de İngiliz himayesine girdi ama iç egemenliğini korudu. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — arandı, yok (canonik \"tonga\" ve alternatif \"tonga-adalari\" ikisi de yalnız alakasız kişi adları -Alp Er Tonga, G. Tongas- döndürüyor); dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1845-12-04", tur:"kurulus", b:"I. George Tupou, Tonga adalarını birleştirdi" },
     { t:"1875-11-04", tur:"antlasma", b:"İlk anayasa ilan edildi" },
-    { t:"1900-05-18", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı (iç egemenlik korundu)" }
+    { t:"1900-05-18", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı (iç egemenlik korundu)" },
+    { t:"1970-06-04", tur:"siyaset", b:"Tonga'nın İngiliz himaye statüsü sona erdi, tam bağımsızlık kazanıldı.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Tonga_(1900%E2%80%931970)" },
+    { t:"1970-01-01", tur:"ittifak", b:"Tonga 1970'te Milletler Topluluğu'na katıldı (kendi hükümdarlı üye).", kaynak:"https://en.wikipedia.org/wiki/Tonga%E2%80%93United_Kingdom_relations" },
+    { t:"1999-01-01", tur:"ittifak", b:"Tonga 1999'da (Eylül) Birleşmiş Milletler'e üye oldu; gün çıkmadı.", kaynak:"https://en.wikipedia.org/wiki/Tonga%E2%80%93United_Kingdom_relations" }
   ]
 },
 { id:"yeni-zelanda", ad:"Yeni Zelanda (İngiliz Kolonisi/Dominyonu)", tur:"gecici-isgal", bolge:"okyanusya",
-  f:"1840-02-06", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Auckland → Wellington",
+  f:"1840-02-06", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Auckland → Wellington",
   ozet:"Waitangi Antlaşması ile Maori şefleriyle İngiliz Tacı arasında kurulan, 1907'de Dominyon statüsü kazanan sömürge. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"yeni-zelanda",
   kronoloji:[
     { t:"1840-02-06", tur:"antlasma", b:"Waitangi Antlaşması, Maori şefleri ile İngiltere arasında imzalandı" },
     { t:"1858-01-01", tur:"kurulus", b:"Maori Kral Hareketi (Kingitanga) toprak kayıplarına karşı birlik kurdu" },
-    { t:"1907-09-26", tur:"kurulus", b:"Dominyon statüsü kazanıldı" }
+    { t:"1907-09-26", tur:"kurulus", b:"Dominyon statüsü kazanıldı" },
+    { t:"1947-11-25", tur:"siyaset", b:"Westminster Statüsü Kabul Yasası'na kraliyet onayı verildi; Yeni Zelanda tam dış özerkliğe kavuştu.", kaynak:"https://nzhistory.govt.nz/statute-of-westminster-passed-confirming-nz-autonomy" },
+    { t:"1987-01-01", tur:"siyaset", b:"1986 Anayasa Yasası yürürlüğe girdi; İngiliz Parlamentosu'nun Yeni Zelanda adına yasa yapma yetkisinin son izleri kalktı.", kaynak:"https://teara.govt.nz/en/self-government-and-independence" }
   ]
 },
 { id:"avustralya", ad:"Avustralya Milletler Topluluğu", tur:"cumhuriyet", bolge:"okyanusya",
-  f:"1901-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Melbourne → Canberra",
+  f:"1901-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Melbourne → Canberra",
   ozet:"Altı ayrı İngiliz kolonisinin federasyonuyla kurulan, İngiliz Milletler Topluluğu içinde özerk dominyon. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"avustralya",
   kronoloji:[
@@ -5384,7 +5528,10 @@ window.DEVLETLER = [
     { t:"1901-03-29", tur:"hukumdar", b:"İlk federal genel seçim yapıldı; Edmund Barton'ın Koruyucu partisi İşçi Partisi desteğiyle hükümeti kurdu (Stuart Macintyre, 'A Concise History of Australia')" },
     { t:"1901-12-23", tur:"kurulus", b:"Immigration Restriction Act kabul edildi; 'dikte testi' yoluyla Avrupa-dışı göçü engelleyen bu yasa 'Beyaz Avustralya Politikası'nın temelini oluşturdu (Macintyre; National Archives of Australia)" },
     { t:"1911-07-10", tur:"kurulus", b:"1901'de birleşen sömürge donanmaları Kral V. George'un onayıyla 'Royal Australian Navy' adını aldı, İmparatorluk donanmasından ayrı özerk statü kazandı (Macintyre; Australian War Memorial)" },
-    { t:"1915-04-25", tur:"savas", b:"Gelibolu Çıkarması'na katıldı (Anzac)" }
+    { t:"1915-04-25", tur:"savas", b:"Gelibolu Çıkarması'na katıldı (Anzac)" },
+    { t:"1942-10-09", tur:"siyaset", b:"Westminster Statüsü Kabul Yasası'na onay verildi; yürürlük 3 Eylül 1939'a geriye işletildi (Britanya Parlamentosu artık Avustralya adına isteği dışında yasa yapamaz).", kaynak:"https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/statute-of-westminster-adoption-act-1942" },
+    { t:"1986-03-03", tur:"siyaset", b:"Australia Act 1986 yürürlüğe girdi; Avustralya hukukunun İngiliz Parlamentosu ve Privy Council'e bağı tamamen kesildi.", kaynak:"https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/australia-act-1986" },
+    { t:"1999-11-06", tur:"siyaset", b:"Cumhuriyet referandumu reddedildi (%54,87 hayır); monarşi korundu.", kaynak:"https://aec.gov.au/Elections/referendums/1999_Referendum_Reports_Statistics/" }
   ]
 },
 
@@ -5421,7 +5568,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"irlanda-serbest-devlet", ad:"İrlanda Serbest Devleti", tur:"devlet", bolge:"bati-avrupa",
-  f:"1922-12-06", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Dublin",
+  f:"1922-12-06", t:"1937-12-29", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Dublin",
   ozet:"İngiliz-İrlanda Antlaşması ile kurulan, İngiliz Milletler Topluluğu içinde özerk dominyon (1923 sonrasında da sürdü, 1937'de tam bağımsız Éire'ye dönüştü). (1945 ufkundan sonra da sürdü — t: pencere ucu. 1937 anayasasıyla adı Éire oldu, künye ülke sürekliliğidir — BRIT Ireland: 'In 1937 the southern state passed a new constitution'.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5486,25 +5633,34 @@ window.DEVLETLER = [
   ]
 },
 { id:"isvicre", ad:"İsviçre Konfederasyonu", tur:"cumhuriyet", bolge:"orta-avrupa",
-  f:"1291-08-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"(sabit başkent yok, Bern federal merkez)", harita:"isvicre",
+  f:"1291-08-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"(sabit başkent yok, Bern federal merkez)", harita:"isvicre",
   ozet:"Habsburg'a karşı üç dağ kantonunun ittifakıyla doğan, zamanla genişleyip Avrupa'nın en eski cumhuriyeti hâline gelen konfederasyon. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"isvicre",
   kronoloji:[
     { t:"1291-08-01", tur:"kurulus", b:"Uri, Schwyz ve Unterwalden kantonları \"Ebedî İttifak\"ı (Rütli Yemini) imzaladı" },
     { t:"1315-11-15", tur:"savas", b:"Morgarten Savaşı'nda Habsburg ordusunu yendi" },
     { t:"1499-09-22", tur:"antlasma", b:"Basel Antlaşması ile Kutsal Roma İmparatorluğu'ndan fiilen bağımsızlaştı" },
-    { t:"1815-09-07", tur:"antlasma", b:"Viyana Kongresi daimi tarafsızlığını uluslararası garanti altına aldı" }
+    { t:"1815-09-07", tur:"antlasma", b:"Viyana Kongresi daimi tarafsızlığını uluslararası garanti altına aldı" },
+    { t:"1971-02-07", tur:"siyaset", b:"Federal referandumda erkek seçmenler kadınlara federal düzeyde oy hakkı tanıdı.", kaynak:"https://www.bar.admin.ch/en/womens-suffrage-in-switzerland" },
+    { t:"1979-01-01", tur:"bolunme", b:"Jura kantonu Bern'den ayrılarak 26. kanton olarak kuruldu.", kaynak:"https://www.swissinfo.ch/eng/history/switzerland-s-newest-canton-recalls-its-past/3961664" },
+    { t:"1986-03-16", tur:"siyaset", b:"Halk oylamasında seçmenlerin yaklaşık %76'sı BM'ye katılma önerisini reddetti.", kaynak:"https://www.swissinfo.ch/eng/swiss-politics/moving-towards-the-un-in-slow-motion/291972 (oy oranı); gün: bulunamadı, 16 Mart 1986 genel bilgiye dayanır" },
+    { t:"1992-12-06", tur:"siyaset", b:"Halk oylamasında Avrupa Ekonomik Alanı'na katılım reddedildi.", kaynak:"https://www.admin.ch (Federal Chancellery oylama arşivi) ; gün doğrulaması bulunamadı, genel bilgi" }
   ]
 },
 { id:"belcika", ad:"Belçika Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"1830-10-04", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Brüksel", harita:"belcika",
+  f:"1830-10-04", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Brüksel", harita:"belcika",
   ozet:"Hollanda Birleşik Krallığı'ndan ayrılan devrimle kurulan, tarafsızlığı büyük güçlerce garanti edilen krallık; I. Dünya Savaşı'nda Alman istilasına uğradı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"belcika",
   kronoloji:[
     { t:"1830-10-04", tur:"kurulus", b:"Brüksel'deki devrimle Hollanda'dan bağımsızlık ilan edildi" },
     { t:"1831-07-21", tur:"hukumdar", b:"I. Léopold ilk kral olarak tahta çıktı" },
     { t:"1914-08-04", tur:"isgal", b:"Almanya, tarafsızlığını çiğneyip ülkeyi işgal etti" },
-    { t:"1940-05-28", tur:"isgal", b:"Alman işgali karşısında teslim oldu", kaynak:"USHMM-KD: 'Belgium surrenders on May 28'" }
+    { t:"1940-05-28", tur:"isgal", b:"Alman işgali karşısında teslim oldu", kaynak:"USHMM-KD: 'Belgium surrenders on May 28'" },
+    { t:"1949-04-04", tur:"ittifak", b:"Belçika, Kuzey Atlantik Antlaşması'nı imzalayarak NATO'nun kurucu üyesi oldu.", kaynak:"https://www.nato.int (NATO tarihçesi); gün genel bilgi" },
+    { t:"1951-07-16", tur:"hukumdar", b:"III. Léopold tahttan çekildi; yerine oğlu Baudouin geçti (and içme 17 Temmuz).", kaynak:"https://www.cvce.eu/obj/abdication_of_leopold_iii_16_july_1951-en-1c40fa62-ea3c-486b-a930-18d0e92cd909.html" },
+    { t:"1957-03-25", tur:"antlasma", b:"Belçika, Roma Antlaşmaları ile AET ve Euratom'un kurucu altı devletinden biri oldu.", kaynak:"https://www.cvce.eu/obj/the_belgian_delegation_signs_the_rome_treaties_rome_25_march_1957-en-ea7af238-9389-4898-887f-fc2ca053e3b9.html" },
+    { t:"1960-06-30", tur:"toprak-kayip", b:"Belçika Kongosu bağımsız Kongo Cumhuriyeti oldu.", kaynak:"https://omniatlas.com/maps/sub-saharan-africa/19600714/ ; https://courses.lumenlearning.com/tc3-boundless-worldhistory/chapter/the-democratic-republic-of-the-congo/" },
+    { t:"1993-05-05", tur:"siyaset", b:"Anayasa değişikliğiyle Belçika 'topluluklar ve bölgelerden oluşan federal devlet' ilan edildi.", kaynak:"https://www.belgium.be/en/about_belgium/country/history/belgium_from_1830/formation_federal_state ; (WIPO kaydı 14 Temmuz 1993 veriyor, kaynaklar çelişir)" }
   ]
 },
 { id:"siena", ad:"Siena Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
@@ -5574,7 +5730,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"luksemburg", ad:"Lüksemburg Büyük Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
-  f:"1890-11-23", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lüksemburg Şehri", harita:"luksemburg",
+  f:"1890-11-23", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lüksemburg Şehri", harita:"luksemburg",
   ozet:"Hollanda kraliyet hanedanının erkek varisi kalmayınca Nassau-Weilburg koluna geçen, Hollanda'dan ayrı bağımsız büyük dükalık (1923 sonrasında da sürdü, I. Dünya Savaşı'nda Alman işgaline uğradı). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5582,7 +5738,12 @@ window.DEVLETLER = [
     { t:"1914-08-02", tur:"isgal", b:"Almanya, tarafsızlığını çiğneyip ülkeyi işgal etti" },
     { t:"1919-01-15", tur:"hukumdar", b:"Büyük Düşes Marie-Adélaïde, Alman işgal güçleriyle iş birliği suçlamaları ve halk baskısıyla tahttan çekildi; yerine kız kardeşi Charlotte geçti", ic_not_b:"eski b: Büyük Düşes Marie-Adélaïde, Alman işgal güçleriyle iş birliği suçlamaları ve halk baskısıyla tahttan çekildi; yerine kız kardeşi Charlotte geçti (Tucker vd., 'The European Powers in the First World War: An Encyclopedia', 1999)" },
     { t:"1919-09-28", tur:"ittifak", b:"Çifte referandumda halk Charlotte'un tahtta kalmasını (%77,8) ve ekonomik birlik için Fransa'yı tercih ettiğini bildirdi; Fransa'nın çekimser kalmasıyla nihai karar Belçika lehine verildi, 1921'de Belçika-Lüksemburg Ekonomik Birliği kuruldu (Nohlen & Stöver, 'Elections in Europe: A Data Handbook', 2010)" },
-    { t:"1940-05-10", tur:"isgal", b:"Almanya tarafından işgal edildi", kaynak:"USHMM-KD: 'Luxembourg is occupied on May 10'" }
+    { t:"1940-05-10", tur:"isgal", b:"Almanya tarafından işgal edildi", kaynak:"USHMM-KD: 'Luxembourg is occupied on May 10'" },
+    { t:"1944-09-05", tur:"ittifak", b:"Londra'daki sürgün hükûmetleri Belçika-Hollanda-Lüksemburg gümrük birliği (Benelux) sözleşmesini imzaladı.", kaynak:"https://www.strasbourg-europe.eu/?p=6590 ; Britannica Luxembourg maddesi; gün genel bilgi" },
+    { t:"1949-04-04", tur:"ittifak", b:"Lüksemburg tarafsızlığı bırakıp NATO'nun kurucu üyesi oldu.", kaynak:"https://luxembourgofficial.com/?p=6898 ; https://www.nato.int" },
+    { t:"1957-03-25", tur:"antlasma", b:"Lüksemburg, Roma Antlaşmaları ile AET'nin kurucu altı devletinden biri oldu.", kaynak:"https://www.cvce.eu/obj/the_belgian_delegation_signs_the_rome_treaties_rome_25_march_1957-en-ea7af238-9389-4898-887f-fc2ca053e3b9.html" },
+    { t:"1964-11-12", tur:"hukumdar", b:"Büyük Düşes Charlotte tahttan çekildi; oğlu Jean Büyük Dük oldu.", kaynak:"https://luxembourgofficial.com/charlotte (Canadian Encyclopedia 1965 diyor, çelişki)" },
+    { t:"2000-10-07", tur:"hukumdar", b:"Büyük Dük Jean tahttan çekildi; oğlu Henri Büyük Dük oldu.", kaynak:"https://en.wikipedia.org/wiki/Jean,_Grand_Duke_of_Luxembourg (yıl 2000 kaynaklı; gün Vikipedi, tek dayanak değil; ikinci kaynak bulunamadı)" }
   ]
 },
 
@@ -5743,7 +5904,7 @@ window.DEVLETLER = [
 // slug'ı ölü (302), `cava` maddesi de antlaşmadan hiç bahsetmiyor; §4
 // gereği standart akademik kaynak (Güneydoğu Asya tarihi) kullanıldı.
 { id:"surakarta", ad:"Surakarta Sunanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1755-02-13", t:"1945-09-02", baskent:"Surakarta (Solo)",
+  f:"1755-02-13", t:"1946-06-16", baskent:"Surakarta (Solo)",
   ozet:"Giyanti Antlaşması ile Mataram Sultanlığı'nın ikiye bölünmesiyle doğan, Pakubuwono hanedanının yönettiği sunanlık; Yogyakarta ile aynı gün doğdu (bkz. [[yogyakarta]]), Hollanda himayesinde 20. yüzyıla dek sürdü (1923 sonrasında da sürdü). TDV'de `mataram` maddesi ölü (302); tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5751,7 +5912,9 @@ window.DEVLETLER = [
     { t:"1790-11-26", tur:"vassal", b:"Sunan Pakubuwono IV'ün din adamı danışmanlarını koruması VOC ve komşu saraylarca kuşatmayla karşılandı; müzakereler sonunda danışmanları sürgüne teslim etti — sarayın VOC karşısındaki bağımlılığının somut göstergesi (Javanologi UNS, üniversite yayını)" },
     { t:"1830-01-01", tur:"vassal", b:"Java Savaşı'nın bitişinin ardından Cultuurstelsel (Zorunlu Ekim Sistemi) Orta Java'da uygulanmaya başladı; Surakarta topraklarının zorunlu ihracat üretimine yönlendirilmesi sarayın ekonomik özerkliğini daha da daralttı (Ricklefs, 'A History of Modern Indonesia')" }
   ,
-    { t:"1745-02-17", tur:"kurulus", b:"Yeni saray kompleksi (Keraton Surakarta Hadiningrat) resmen kuruldu; Pakubuwono II başkenti yıkılan Kartasura'dan buraya taşıdı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı. NOT: künyenin kendi kurulus'u (1755, Giyanti Antlaşması) SİYASİ ayrılığı; bu 1745 olayı şehrin/sarayın FİZİKSEL kuruluşu — iki ayrı ama ilişkili olgu, çelişki değil." }
+    { t:"1745-02-17", tur:"kurulus", b:"Yeni saray kompleksi (Keraton Surakarta Hadiningrat) resmen kuruldu; Pakubuwono II başkenti yıkılan Kartasura'dan buraya taşıdı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı. NOT: künyenin kendi kurulus'u (1755, Giyanti Antlaşması) SİYASİ ayrılığı; bu 1745 olayı şehrin/sarayın FİZİKSEL kuruluşu — iki ayrı ama ilişkili olgu, çelişki değil." },
+    { t:"1945-09-06", tur:"siyaset", b:"Sunan Pakubuwono XII Endonezya Cumhuriyeti'ne bağlılığını ilan etti; Surakarta 'Özel Bölge' (Daerah Istimewa) statüsü aldı.", kaynak:"https://www.hukumonline.com/berita/a/kecelakaan-sejarah--surakarta-masuk-jateng-lt5212156a356df (statü belgesi 19 Ağustos 1945 tarihli; 6 Eylül günü Vikipedi infobox)" },
+    { t:"1946-06-16", tur:"son", b:"Swapraja karşıtı hareket ve Cumhuriyet baskısıyla Surakarta Özel Bölgesi kaldırıldı; yerine Sunan'ın denetimi dışında cumhuriyetçi bir kabupaten (il) idaresi kuruldu.", kaynak:"https://en.wikipedia.org/wiki/Special_Region_of_Surakarta ; Hukumonline yukarıda (gün: 16 Haziran 1946; Pakubuwono XII valilik bitişi 1 Haziran olarak da geçer, çelişki)" }
   ]
 },
 { id:"yogyakarta", ad:"Yogyakarta Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
@@ -5888,7 +6051,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"nepal", ad:"Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)", tur:"krallik", bolge:"guney-asya",
-  f:"1000-01-01", t:"1945-09-02", ic_not_f:"🔴 f = KUŞAK UCU. Sınıf ②: künye 'Malla Krallıkları → Gorkha' — Malla dönemi X. yüzyıldan başlar.", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — Şah hânedanının sonu ölçülemedi (OH nepal cümlesi belirsiz: '...in 2006')", baskent:"Katmandu", harita:"nepal",
+  f:"1000-01-01", ic_not_f:"🔴 f = KUŞAK UCU. Sınıf ②: künye 'Malla Krallıkları → Gorkha' — Malla dönemi X. yüzyıldan başlar.", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — Şah hânedanının sonu ölçülemedi (OH nepal cümlesi belirsiz: '...in 2006')", baskent:"Katmandu", harita:"nepal",
   ozet:"Katmandu vadisinin üç Malla krallığından Gorkha fethiyle tek krallığa dönüşen Himalaya devleti; hiç sömürgeleşmedi, 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5897,7 +6060,11 @@ window.DEVLETLER = [
     { t:"1846-09-15", tur:"hukumdar", b:"Kot katliamıyla Rana ailesi fiilî iktidarı ele geçirdi, krallar sembolik kaldı" }
   ,
     { t:"1768-09-25", tur:"kurulus", b:"Prithvi Narayan Shah, Kathmandu'yu alıp Nepal Krallığı'nın kuruluşunu resmen ilân etti; başkentini Gorkha'dan Kathmandu'ya taşıdı", kaynak:"🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI (CLAUDE.md §4 uyarısı) — bulunamadı (TDV), standart akademik kaynak, GÜN hassasiyeti (25 Eylül 1768) çevrimiçi ikincil kaynaklarla ('Prithvi Narayan Shah') BAĞIMSIZ doğrulandı." },
-    { t:"1769-01-01", tur:"savas", b:"Bhaktapur Savaşı'nda Prithvi Narayan Shah zafer kazanıp Kathmandu Vadisi'nin tamamının denetimini ele geçirdi", kaynak:"🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Battle of Bhaktapur') BAĞIMSIZ doğrulandı." }
+    { t:"1769-01-01", tur:"savas", b:"Bhaktapur Savaşı'nda Prithvi Narayan Shah zafer kazanıp Kathmandu Vadisi'nin tamamının denetimini ele geçirdi", kaynak:"🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Battle of Bhaktapur') BAĞIMSIZ doğrulandı." },
+    { t:"1951-02-18", tur:"siyaset", b:"Delhi Anlaşması sonrası Kral Tribhuvan Kathmandu'ya döndü; Rana'ların başbakanlık tekeli sona erdi, krallık yetkileri geri geldi.", kaynak:"https://en.wikipedia.org/wiki/Delhi_Accord ; https://constitutionnet.org/country/constitutional-history-nepal (Şubat 1951 kaynaklı; 18 Şubat günü genel bilgi, Demokrasi Günü)" },
+    { t:"1960-12-15", tur:"siyaset", b:"Kral Mahendra parlamentoyu feshedip partileri yasakladı; 1962'de partisiz Panchayat sistemi kuruldu.", kaynak:"https://constitutionnet.org/country/constitutional-history-nepal (yıl kaynaklı: 1960 ve 1962; 15 Aralık günü genel bilgi)" },
+    { t:"1990-04-08", tur:"siyaset", b:"Halk hareketi (Jana Andolan) sonucu kral partisiz Panchayat sistemini kaldırıp partilerin yasaklığını bitirdi; anayasal monarşiye geçildi.", kaynak:"https://en.wikipedia.org/wiki/Nepalese_democracy_movement ; https://constitutionnet.org/country/constitutional-history-nepal (1990 anayasal monarşi dönemi kaynaklı; 8 Nisan günü genel bilgi, tek dayanak değil)" },
+    { t:"1996-02-13", tur:"ic-savas", b:"Nepal Komünist Partisi (Maoist) 'Halk Savaşı'nı başlattı; on yıl sürecek iç savaş başladı.", kaynak:"https://constitutionnet.org/country/nepal ; gün bu oturumda doğrulanamadı, genel bilgi" }
   ]
 },
 { id:"ladak", ad:"Ladakh Krallığı (Namgyal Hânedanı)", tur:"krallik", bolge:"guney-asya",
@@ -6366,7 +6533,7 @@ window.DEVLETLER = [
 }
 ,
 { id:"cin-cumhuriyeti", ad:"Çin Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-asya",
-  f:"1911-10-10", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nanking → Pekin", harita:"cin-cumhuriyeti",
+  f:"1911-10-10", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nanking → Pekin", harita:"cin-cumhuriyeti",
   ozet:"Wuchang ayaklanmasıyla Qing hanedanı devrildi ve Çin Cumhuriyeti kuruldu; atlasın ufkunda (1923) ülke merkezî otoritesi zayıf, savaş ağalarının bölüştüğü bir dönemdedir. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ `cin` slug'ı TDV'de CİNLER maddesidir, Çin ülkesi değil. (1945 ufkundan sonra da sürdü — t: pencere ucu. İşgal altı yapılar: [[mancukuo]] · [[nanjing-wang-jingwei]].)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6374,7 +6541,12 @@ window.DEVLETLER = [
     { t:"1912-02-12", tur:"siyaset", b:"Son imparator Puyi tahttan çekildi, Qing hanedanı sona erdi" },
     { t:"1912-11-01", tur:"toprak-kayip", b:"Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilân etti" },
     { t:"1916-06-06", tur:"siyaset", b:"Yuan Shikai'nin ölümü: savaş ağaları dönemi başladı" },
-    { t:"1931-09-18", tur:"isgal", b:"Japonya Mançurya'yı işgal etti", kaynak:"USHMM-KD: 'September 18, 1931 Japan invades Manchuria.'" }
+    { t:"1931-09-18", tur:"isgal", b:"Japonya Mançurya'yı işgal etti", kaynak:"USHMM-KD: 'September 18, 1931 Japan invades Manchuria.'" },
+    { t:"1949-12-07", tur:"baskent", b:"İç savaşı kaybeden Çin Cumhuriyeti hükûmeti anakaradan çekilip Taipei'yi geçici başkent ilan etti.", kaynak:"https://en.wikipedia.org/wiki/History_of_Taiwan_(1945%E2%80%93present) ; Taipei Times yukarıda (1949 yılı kaynaklı; 7 Aralık günü genel bilgi)" },
+    { t:"1971-10-25", tur:"siyaset", b:"BM'de Çin temsili Pekin'e geçti (2758 sayılı karar); Çin Cumhuriyeti BM'den çıktı.", kaynak:"https://taipeitimes.com/News/local/archives/1999/12/31/0000017830 (Taipei Times, ROC'nin protestoyla çekildiğini yazar; Vikipedi 'çıkarıldı' der: çelişki)" },
+    { t:"1987-07-15", tur:"siyaset", b:"Tayvan'da yaklaşık 38 yıllık sıkıyönetim kaldırıldı.", kaynak:"https://abacus2.gcsu.edu/jfyao/chronology-Taiwan.htm (Temmuz 1987 kaynaklı; 15 Temmuz genel bilgi)" },
+    { t:"1996-03-23", tur:"siyaset", b:"Lee Teng-hui, Çin tarihinin ilk doğrudan halk oyuyla seçilen cumhurbaşkanı oldu (yaklaşık %54).", kaynak:"https://taipeitimes.com/News/local/archives/1999/12/31/0000017830 (Mart 1996 gün genel bilgi)" },
+    { t:"2000-03-18", tur:"siyaset", b:"Chen Shui-bian seçimi kazandı; Kuomintang ilk kez iktidarı seçimle devretti.", kaynak:"gün/sonuç genel bilgi; bu oturumda bağımsız kaynakla doğrulanamadı: bulunamadı" }
   ]
 },
 { id:"mogolistan", ad:"Moğolistan (Bogd Hanlık)", tur:"hanlik", bolge:"dogu-asya",
@@ -6400,14 +6572,19 @@ window.DEVLETLER = [
   ]
 },
 { id:"afganistan", ad:"Afganistan (Bârekzâyî Emirliği)", tur:"emirlik", bolge:"orta-asya",
-  f:"1823-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1973 (TDV afganistan: 'Sovyetler, Dâvud Han'ı destekleyerek 1973'te Zâhir Şah'ı kansız bir darbe ile devirmeyi başardılar' — gün yok)", baskent:"Kâbil", harita:"afganistan",
+  f:"1823-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — monarşinin sonu 1973 (TDV afganistan: 'Sovyetler, Dâvud Han'ı destekleyerek 1973'te Zâhir Şah'ı kansız bir darbe ile devirmeyi başardılar' — gün yok)", baskent:"Kâbil", harita:"afganistan",
   ozet:"Dürrânî Devleti'nin dağılmasından sonra Bârekzâyî hânedanı Kâbil'de emirliği kurdu; yüzyıl boyunca İngiltere ile Rusya arasında tampon devlet oldu ve 1919'da tam bağımsızlığını kazandı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"afganistan",
   kronoloji:[
     { t:"1823-01-01", tur:"kurulus", b:"Bârekzâyî hânedanı Kâbil'de emirliği kurdu" },
     { t:"1839-08-07", tur:"kayip", b:"Birinci İngiliz-Afgan Savaşı: İngilizler Kâbil'i aldı" },
     { t:"1880-07-22", tur:"siyaset", b:"Abdurrahman Han emir oldu, ülke İngiliz himayesine girdi" },
-    { t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı" }
+    { t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı" },
+    { t:"1973-07-17", tur:"siyaset", b:"Kral Zahir Şah yurt dışındayken kuzeni Davud Han darbeyle monarşiyi kaldırıp cumhuriyet ilan etti.", kaynak:"https://en.wikipedia.org/wiki/Republic_of_Afghanistan_(1973%E2%80%931978) (yıl kaynaklı; 17 Temmuz genel bilgi)" },
+    { t:"1978-04-27", tur:"siyaset", b:"Saur Devrimi: komünist subaylar Davud'u öldürüp iktidarı HDKP'ye (Taraki) verdi.", kaynak:"https://adst.org/2017/06/afghan-revolution-1978-invitation-invasion/ (çatışmalar 27-28 Nisan 1978)" },
+    { t:"1979-12-27", tur:"isgal", b:"Sovyet birlikleri Kâbil'de Tac Bey Sarayı'nı basıp Hafizullah Emin'i öldürdü; Babrak Karmal iktidara getirildi (Sovyet işgali Aralık 1979'da başladı).", kaynak:"https://media.defense.gov/2021/Jun/29/2002751985/-1/-1/0/THE_SOVIET_UNIONS_INVASION.PDF ; gün: kaynaklar 24 ve 27 Aralık verir" },
+    { t:"1989-02-15", tur:"savas", b:"Son Sovyet birlikleri Afganistan'dan çekildi.", kaynak:"https://human.libretexts.org/Bookshelves/History/World_History/Modern_World_History%3A_New_Perspectives_(OERI)/11%3A_Cold_War_and_the_Politics_of_Race-_1950-2000/11.04%3A_Afghan-Soviet_War-_1979-89 (yıl; gün genel bilgi)" },
+    { t:"1996-09-27", tur:"siyaset", b:"Taliban Kâbil'i ele geçirdi, Rabbani hükûmeti şehri terk etti, Necibullah öldürüldü.", kaynak:"https://thenation.com/?p=188381" }
   ]
 }
 ,
@@ -6423,7 +6600,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"izlanda", ad:"İzlanda", tur:"ulke", bolge:"kuzey-avrupa",
-  f:"1918-12-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Reykjavík", harita:"izlanda",
+  f:"1918-12-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Reykjavík", harita:"izlanda",
   ozet:"1262'den beri Norveç, 1537'den itibaren Danimarka idaresinde kalan ada, 1 Aralık 1918'de Danimarka kralıyla şahsî birlik altında egemen bir krallık oldu. Atlasın ufkunda (1923) bu statüdedir; tam bağımsızlık 1944'tedir. ⚠️ TDV'de müstakil madde YOK (`izlanda` slug'ı 302 döndürüyor); CLAUDE.md §4 gereği Avrupa iç tarihi için standart akademik referansa dayanıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu. 17 Haziran 1944'te cumhuriyet oldu; künye ülke sürekliliğidir.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6431,7 +6608,12 @@ window.DEVLETLER = [
     { t:"1537-01-01", tur:"siyaset", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
     { t:"1602-04-20", tur:"antlasma", b:"Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983)", ic_not_b:"eski b: Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983; gün düşük güvenle)" },
     { t:"1918-12-01", tur:"kurulus", b:"İzlanda Krallığı: Danimarka ile şahsî birlik, egemen devlet statüsü" },
-    { t:"1944-06-17", tur:"siyaset", b:"Halk oylamasının ardından bağımsız cumhuriyet ilan edildi", kaynak:"OH iceland: 'Iceland formally became an independent republic on June 17, 1944.'" }
+    { t:"1944-06-17", tur:"siyaset", b:"Halk oylamasının ardından bağımsız cumhuriyet ilan edildi", kaynak:"OH iceland: 'Iceland formally became an independent republic on June 17, 1944.'" },
+    { t:"1949-04-04", tur:"ittifak", b:"İzlanda, ordusu olmamasına rağmen NATO'nun kurucu üyesi oldu (üyelik oylaması günü 30 Mart 1949'da Reykjavik'te isyan çıktı).", kaynak:"https://www.nato.int/en/about-us/nato-history/history-by-theme/my-country-and-nato/iceland-and-nato" },
+    { t:"1951-05-05", tur:"antlasma", b:"ABD ile savunma anlaşması imzalandı; ABD birlikleri Keflavik'te konuşlandı.", kaynak:"https://history.state.gov/historicaldocuments/frus1951v04p1/d220 ; https://www.stjornarradid.is/page/b2677c5a-25dd-4592-a524-c8150c726720" },
+    { t:"1958-09-01", tur:"savas", b:"Balina/morina savaşlarının ilki: İzlanda balıkçılık sınırını 12 deniz miline çıkardı, Britanya donanması trol gemilerini korudu.", kaynak:"https://ukdefencejournal.org.uk/iceland-and-nato-the-reluctant-north/ (yıl 1958 kaynaklı; 1 Eylül genel bilgi)" },
+    { t:"1976-06-01", tur:"antlasma", b:"NATO arabuluculuğunda Britanya İzlanda'nın 200 millik balıkçılık bölgesini kabul etti; Morina Savaşları bitti.", kaynak:"https://ukdefencejournal.org.uk/iceland-and-nato-the-reluctant-north/ (1976 anlaşması kaynaklı; gün genel bilgi)" },
+    { t:"1980-06-29", tur:"hukumdar", b:"Vigdís Finnbogadóttir, dünyanın ilk halk oyuyla seçilmiş kadın devlet başkanı olarak cumhurbaşkanı seçildi.", kaynak:"https://www.forseti.is/en/former-presidents/vigdis-finnbogadottir" }
   ]
 },
 
@@ -6494,8 +6676,7 @@ window.DEVLETLER = [
     { t:"1766-01-01", tur:"antlasma", b:"İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı; 1768'de bu antlaşma Karnataka nevvâbını da kapsayacak biçimde yenilendi", ic_not_b:"eski b: İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı; 1768'de bu antlaşma Karnataka nevvâbını da kapsayacak biçimde yenilendi (TDV haydarabad-nizamligi maddesi)", kaynak:"TDV: haydarabad-nizamligi — «1766’da imzalanan antlaşma ile bu topraklar, gerektiğinde verilecek askerî destek ve her yıl yapılacak malî yardım karşılığında İngilizler’e bırakıldı»" },
     { t:"1799-01-01", tur:"savas", b:"İngiltere'nin 1798'de verdiği askerî destekle Nizam Ali, Tîpû Sultan'a karşı yeniden savaşa girdi; Tîpû öldürülüp ordusu dağıtıldı", ic_not_b:"eski b: İngiltere'nin 1798'de verdiği askerî destekle Nizam Ali, Tîpû Sultan'a karşı yeniden savaşa girdi; Tîpû öldürülüp ordusu dağıtıldı (TDV haydarabad-nizamligi maddesi)", kaynak:"TDV: haydarabad-nizamligi — «1798’de varılan yeni bir mutabakatla İngiltere nizamın emrine 6000 asker ve silâh verdi. Bir yıl sonra Tîpû Sultan ile İngilizler arasında yeniden savaş çıkınca Nizam Ali’nin desteğiyle kendisi de savaş alanında öldürülen Tîpû’nun ordusu yok edildi»" },
     { t:"1802-01-01", tur:"antlasma", b:"İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti", ic_not_b:"eski b: İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti (TDV haydarabad-nizamligi maddesi)", kaynak:"TDV: haydarabad-nizamligi — «1802’de imzalanan yeni bir antlaşma ile İngilizler’e ticarî imtiyazlar tanındı»" },
-    { t:"1948-09-13", tur:"isgal", b:"Hindistan, 'Operation Polo' harekâtıyla Haydarabad'ı işgale başladı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanı BU günü DEĞİL, teslim gününü esas alıyor" },
-    { t:"1948-09-17", tur:"son", b:"Nizam'ın orduları teslim oldu, Haydarabad fiilen Hindistan'a katıldı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanıyla birebir" }
+    { t:"1948-09-13", tur:"isgal", b:"Hindistan, 'Operation Polo' harekâtıyla Haydarabad'ı işgale başladı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanı BU günü DEĞİL, teslim gününü esas alıyor" }
   ]
 },
 { id:"bengal-nevabligi", ad:"Bengal Nevablığı", tur:"devlet", bolge:"guney-asya",
@@ -6789,14 +6970,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"bhopal", ad:"Bopal (Bhopal) Devleti", tur:"devlet", bolge:"guney-asya",
-  f:"1708-01-01", t:"1945-09-02", baskent:"Bhopal",
+  f:"1708-01-01", t:"1949-06-01", baskent:"Bhopal",
   ozet:"Dost Muhammed Han'ın Babür hizmetinden ayrılıp kurduğu, dört kadın hükümdarıyla (Begüm) tanınan Müslüman prens devleti; İngiliz himayesinde varlığını sürdürdü (1923 sonrasında da sürdü, TDV'ye göre 1952'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. (kaynak: TDV, madde: bopal--devlet — \"Dost Muhammed Han... nevvâblığını ve istiklâlini ilân etmiştir\")",
   kaynak:"bopal--devlet",
   kronoloji:[
     { t:"1708-01-01", tur:"kurulus", b:"Dost Muhammed Han, Berâsiye bölgesinin idaresini alıp nevablığını ilan etti" },
     { t:"1807-01-01", tur:"savas", b:"Vezir Muhammed Han, ülkeye giren Pindârîleri Maratalar'ın yardımıyla geri püskürttü, ardından yardıma gelen Maratalar'ı da dışarı attı", ic_not_b:"eski b: Vezir Muhammed Han, ülkeye giren Pindârîleri Maratalar'ın yardımıyla geri püskürttü, ardından yardıma gelen Maratalar'ı da dışarı attı (TDV bopal--devlet)", kaynak:"TDV: bopal--devlet — «Vezir Muhammed Han, devletin zayıflığından faydalanarak ülkeye hücum eden Pindârîler’i Maratalar’ın yardımıyla geri püskürtmüş, daha sonra da yardım amacıyla girdikleri ülkeyi istilâ eden Maratalar’ı dışarı atmıştır (1807)»" },
     { t:"1820-01-01", tur:"hukumdar", b:"Nezir Muhammed Han'ın ölümü üzerine karısı Kudsiyye Begüm 'nevvâbe' sıfatıyla tahta oturdu — Bopal'de devlet başkanlığı ilk kez kadın idaresine geçti, dört kadın hükümdar dönemi başladı", ic_not_b:"eski b: Nezir Muhammed Han'ın ölümü üzerine karısı Kudsiyye Begüm 'nevvâbe' sıfatıyla tahta oturdu — Bopal'de devlet başkanlığı ilk kez kadın idaresine geçti, dört kadın hükümdar dönemi başladı (TDV bopal--devlet)", kaynak:"TDV: bopal--devlet — «1820’de Nezir Muhammed Han ölünce karısı Kudsiyye Begüm “nevvâbe” sıfatıyla tahta oturdu»" },
-    { t:"1901-01-01", tur:"hukumdar", b:"Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü", ic_not_b:"eski b: Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü (TDV bopal--devlet)", kaynak:"TDV: bopal--devlet — «Şah Cihan Begüm 1901’de öldü ve yerine geçen kızı Sultan Cihan Begüm yirmi beş yıl hüküm sürdü»" }
+    { t:"1901-01-01", tur:"hukumdar", b:"Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü", ic_not_b:"eski b: Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü (TDV bopal--devlet)", kaynak:"TDV: bopal--devlet — «Şah Cihan Begüm 1901’de öldü ve yerine geçen kızı Sultan Cihan Begüm yirmi beş yıl hüküm sürdü»" },
+    { t:"1947-08-15", tur:"siyaset", b:"Hindistan bagimsizliginda Nevvab Hamidullah Han Bopal'in ayri kalmasini istedi, Hindistan'a hemen katilmadi", kaynak:"https://flame.edu.in/in-the-media/from-patchwork-of-princely-states-to-heart-of-india-how-modern-day-madhya-pradesh-came-to-be" },
+    { t:"1949-04-30", tur:"antlasma", b:"Nevvab Hamidullah Han halk baskisi uzerine Hindistan'a katilma belgesini imzaladi (bazi kaynaklarda 1 Mayis)", kaynak:"https://flame.edu.in/in-the-media/from-patchwork-of-princely-states-to-heart-of-india-how-modern-day-madhya-pradesh-came-to-be" }
   ]
 },
 { id:"cunagadh", ad:"Cunagadh (Junagadh) Nevablığı", tur:"devlet", bolge:"guney-asya",
@@ -6860,7 +7043,9 @@ window.DEVLETLER = [
     { t:"1841-09-24", tur:"kurulus", b:"Brunei Sultanı, James Brooke'a Sarawak topraklarını devretti, \"Racasını\" ilan etti" }
   ,
     { t:"1841-08-18", tur:"kurulus", b:"James Brooke, Brunei Sultanlığı'na bir isyanı bastırma yardımı karşılığında Sarawak racası unvanını aldı; resmî görevi 18 Ağustos 1842'de başladı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('James Brooke', 'White Rajah') doğrulandı." },
-    { t:"1868-08-03", tur:"hukumdar", b:"Charles Brooke, dayısı James Brooke'un yerine ikinci Beyaz Raca (White Rajah) oldu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Charles Brooke') doğrulandı." }
+    { t:"1868-08-03", tur:"hukumdar", b:"Charles Brooke, dayısı James Brooke'un yerine ikinci Beyaz Raca (White Rajah) oldu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Charles Brooke') doğrulandı." },
+    { t:"1945-09-11", tur:"savas", b:"Japon kuvvetleri Kucing'de teslim oldu, Sarawak'ta Ingiliz askeri yonetimi basladi (Eylul 1945; gun dogrulanmadi)", kaynak:"https://sarawak.gov.my/web/home/article_view/228/244/?id=228" },
+    { t:"1946-05-17", tur:"siyaset", b:"Council Negri Sarawak'in Ingiliz Tacina devri tasarisini 19 oya karsi 16 oyla kabul etti", kaynak:"https://www.theborneopost.com/2022/07/18/revisiting-birth-of-sarawak/" }
   ]
 },
 { id:"sunda-pajajaran", ad:"Sunda Krallığı (Pajajaran)", tur:"krallik", bolge:"guneydogu-asya",
@@ -6927,7 +7112,7 @@ window.DEVLETLER = [
 // kaynak iddiası kaldırıldı ve `bulunamadı` yazıldı.
 // ===================================================================
 { id:"arjantin-cumhuriyeti", ad:"Arjantin Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1810-05-25", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Buenos Aires",
+  f:"1810-05-25", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Buenos Aires",
   ozet:"Mayıs Devrimi'nden (1810) doğan, 1816 Tucumán Kongresi'nde bağımsızlığını resmen ilan eden La Plata ardılı. Atlas künyesinin f: tarihi, bağlı veride bu kimliğin kullanıldığı en erken güne hizalandı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'Latin American Wars of Independence' (Gale/Scribner, Encyclopedia of Latin American History and Culture) — resmî bağımsızlık ilanı 9 Temmuz 1816'da Tucumán Kongresi'nde oldu, ama f: bağlı veride bu kimliğin kullanıldığı en erken tarihe (25 Mayıs 1810, Mayıs Devrimi — ilk özerk hükümet cuntası) HİZALANDI, aralık ölçülerek genişletildi.",
   kronoloji:[
@@ -6935,11 +7120,17 @@ window.DEVLETLER = [
           { t:"1816-01-01", tur:"kurulus", b:"Tucuman kongresi bagimsizligi ilan etti", kaynak:"EB-LA — AYNEN: «the assembly that finally proclaimed independence in 1816; that body received no delegates from several provinces, even though it was held outside Buenos Aires, in the interior city of Tucumán»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
           { t:"1865-05-01", tur:"ittifak", b:"Arjantin, Brezilya ve Uruguay ile Uclu Ittifak'i kurdu", kaynak:"EB-UIS — AYNEN: «Bartolomé Mitre, president of Argentina, then organized an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance), and together they declared war on Paraguay on May 1, 1865»" },
           { t:"1865-05-01", tur:"savas", b:"Arjantin Paraguay'a savas ilan etti — Ucu Ittifak Savasi", kaynak:"EB-UIS — AYNEN: «together they declared war on Paraguay on May 1, 1865»" },
-          { t:"1870-01-01", tur:"toprak-kazanc", b:"Arjantin Misiones'in buyuk kismini ve Chaco'nun bir bolumunu ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina took much of the Misiones region and part of the Chaco between the Bermejo and Pilcomayo rivers»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): ilhakin gunu kaynakta YOK, savasin bitis gunune yazilmisti. Yil'a indirildi." }
-        ]
+          { t:"1870-01-01", tur:"toprak-kazanc", b:"Arjantin Misiones'in buyuk kismini ve Chaco'nun bir bolumunu ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina took much of the Misiones region and part of the Chaco between the Bermejo and Pilcomayo rivers»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): ilhakin gunu kaynakta YOK, savasin bitis gunune yazilmisti. Yil'a indirildi." },
+    { t:"1946-02-24", tur:"siyaset", b:"Juan Domingo Peron genel secimi kazandi", kaynak:"Library of Congress Country Studies: Argentina https://countrystudies.us/argentina/" },
+    { t:"1955-09-16", tur:"isyan", b:"Revolucion Libertadora darbesiyle Peron devrildi", kaynak:"Library of Congress Country Studies: Argentina https://countrystudies.us/argentina/" },
+    { t:"1976-03-24", tur:"isyan", b:"Askeri cunta Isabel Peron hukumetini devirdi, Kirli Savas donemi basladi", kaynak:"Library of Congress Country Studies: Argentina https://countrystudies.us/argentina/" },
+    { t:"1982-04-02", tur:"savas", b:"Arjantin Falkland/Malvinas Adalari'ni isgal etti, Ingiltere ile savas basladi", kaynak:"Library of Congress Country Studies: Argentina https://countrystudies.us/argentina/" },
+    { t:"1982-06-14", tur:"savas", b:"Arjantin kuvvetleri Port Stanley'de teslim oldu", kaynak:"Library of Congress Country Studies: Argentina https://countrystudies.us/argentina/" },
+    { t:"1983-12-10", tur:"siyaset", b:"Raul Alfonsin baskan oldu, sivil yonetime donus", kaynak:"Library of Congress Country Studies: Argentina https://countrystudies.us/argentina/" }
+  ]
 },
 { id:"bolivya-cumhuriyeti", ad:"Bolivya Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1825-08-06", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Sucre",
+  f:"1825-08-06", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Sucre",
   ozet:"Yukarı Peru'da son İspanyol direnişinin kırılmasıyla kurulan cumhuriyet; adını Simón Bolívar'dan alır. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'Latin American Wars of Independence' — son İspanyol kalesi düştü, bağımsızlık ilan edildi.",
   kronoloji:[
@@ -6948,11 +7139,17 @@ window.DEVLETLER = [
           { t:"1874-01-01", tur:"antlasma", b:"Gozden gecirilmis Sili-Bolivya antlasmasi maden vergisi anlasmazligini yatistirdi", kaynak:"EB-PS — AYNEN: «In 1874 Chilean-Bolivian relations were ameliorated by a revised treaty under which Chile relinquished its share of export taxes … and Bolivia agreed not to raise taxes on Chilean enterprises in Bolivia for 25 years»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
           { t:"1879-04-05", tur:"savas", b:"Sili Bolivya'ya savas ilan etti — Pasifik Savasi", kaynak:"EB-PS — AYNEN: «Bolivia then declared war on Chile and called upon Peru for help. Chile declared war on both Peru and Bolivia (April 5, 1879)»" },
           { t:"1884-01-01", tur:"toprak-kayip", b:"Mutareke Bolivya'nin butun Pasifik kiyisini Sili'ye birakti — Bolivya karayla cevrildi", kaynak:"EB-PS — AYNEN: «In 1884 a truce between Bolivia and Chile gave the latter control of the entire Bolivian coast (Antofagasta province)»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
-          { t:"1904-01-01", tur:"antlasma", b:"1904 antlasmasi Bolivya'nin kiyi kaybini kalici hale getirdi", kaynak:"EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
-        ]
+          { t:"1904-01-01", tur:"antlasma", b:"1904 antlasmasi Bolivya'nin kiyi kaybini kalici hale getirdi", kaynak:"EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+    { t:"1952-04-09", tur:"isyan", b:"Ulusal Devrim: MNR ayaklanmasi hukumeti devirdi, Victor Paz Estenssoro iktidara geldi", kaynak:"Library of Congress Country Studies: Bolivia https://countrystudies.us/bolivia/" },
+    { t:"1952-10-31", tur:"siyaset", b:"Buyuk kalay madenleri kamulastirildi", kaynak:"Library of Congress Country Studies: Bolivia https://countrystudies.us/bolivia/" },
+    { t:"1953-08-02", tur:"siyaset", b:"Tarim reformu yasasi cikarildi", kaynak:"Library of Congress Country Studies: Bolivia https://countrystudies.us/bolivia/" },
+    { t:"1964-11-04", tur:"isyan", b:"General Rene Barrientos darbeyle MNR hukumetini devirdi", kaynak:"Library of Congress Country Studies: Bolivia https://countrystudies.us/bolivia/" },
+    { t:"1967-10-09", tur:"savas", b:"Che Guevara'nin gerillasi Bolivya ordusunca bastirildi, Guevara oldurulmustur", kaynak:"Library of Congress Country Studies: Bolivia https://countrystudies.us/bolivia/" },
+    { t:"1982-10-10", tur:"siyaset", b:"Askeri yonetim sona erdi, Hernan Siles Zuazo goreve basladi", kaynak:"Library of Congress Country Studies: Bolivia https://countrystudies.us/bolivia/" }
+  ]
 },
 { id:"sili-cumhuriyeti", ad:"Şili Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1818-02-12", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Santiago",
+  f:"1818-02-12", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Santiago",
   ozet:"And dağları ile Pasifik arasında, 1818'de bağımsızlığını resmen ilan eden cumhuriyet. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'Latin American Wars of Independence' — resmî bağımsızlık ilanı.",
   kronoloji:[
@@ -6965,11 +7162,17 @@ window.DEVLETLER = [
           { t:"1879-10-08", tur:"savas", b:"Angamos deniz zaferi Sili'ye Peru'ya giden deniz yollarinin denetimini verdi", kaynak:"EB-PS — AYNEN: «Naval victories at Iquique (May 21, 1879) and Angamos (October 8, 1879) enabled Chile to control the sea approaches to Peru»" },
           { t:"1883-10-20", tur:"antlasma", b:"Ancon Antlasmasi — Peru Tarapaca eyaletini Sili'ye biraktı", kaynak:"EB-PS — AYNEN: «on October 20, 1883, Peru and Chile signed the Treaty of Ancón, by which Tarapacá province was ceded to the latter»" },
           { t:"1883-10-20", tur:"toprak-kazanc", b:"Sili nitrat bakimindan zengin Tarapaca'yi ilhak etti", kaynak:"EB-PS — AYNEN: «resulted in Chilean annexation of valuable disputed territory on the Pacific coast» + «Tarapacá province was ceded to the latter»" },
-          { t:"1904-01-01", tur:"antlasma", b:"1904 antlasmasi Bolivya kiyisinin Sili'ye gecisini kalici kildi", kaynak:"EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
-        ]
+          { t:"1904-01-01", tur:"antlasma", b:"1904 antlasmasi Bolivya kiyisinin Sili'ye gecisini kalici kildi", kaynak:"EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+    { t:"1970-11-03", tur:"siyaset", b:"Salvador Allende secimle gelen ilk Marksist devlet baskani olarak goreve basladi", kaynak:"Library of Congress Country Studies: Chile https://countrystudies.us/chile/" },
+    { t:"1971-07-11", tur:"siyaset", b:"Buyuk bakir madenlerinin kamulastirilmasi anayasa degisikligiyle onaylandi", kaynak:"Library of Congress Country Studies: Chile https://countrystudies.us/chile/" },
+    { t:"1973-09-11", tur:"isyan", b:"General Pinochet'nin askeri darbesi Allende hukumetini devirdi", kaynak:"Library of Congress Country Studies: Chile https://countrystudies.us/chile/" },
+    { t:"1980-09-11", tur:"siyaset", b:"Plebisitle Pinochet anayasasi onaylandi", kaynak:"Library of Congress Country Studies: Chile https://countrystudies.us/chile/" },
+    { t:"1988-10-05", tur:"siyaset", b:"Plebisitte Pinochet'nin iktidarinin surmesi reddedildi", kaynak:"Library of Congress Country Studies: Chile https://countrystudies.us/chile/" },
+    { t:"1990-03-11", tur:"siyaset", b:"Patricio Aylwin goreve basladi, demokrasiye donus", kaynak:"Library of Congress Country Studies: Chile https://countrystudies.us/chile/" }
+  ]
 },
 { id:"paraguay-cumhuriyeti", ad:"Paraguay Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1811-05-14", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Asunción",
+  f:"1811-05-14", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Asunción",
   ozet:"Mayıs 1811'de kendi cuntasını kurarak hem İspanya'dan hem Buenos Aires'ten ayrılan iç bölge cumhuriyeti. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'South American Wars of Independence' — Paraguay Mayıs 1811'de kendi bağımsız cuntasını kurdu.",
   kronoloji:[
@@ -6980,11 +7183,16 @@ window.DEVLETLER = [
           { t:"1866-09-01", tur:"savas", b:"Curupayty'de Paraguay zaferi muttefik taarruzunu bir yil durdurdu", kaynak:"EB-UIS — AYNEN: «the most notable, won by the Paraguayans at Curupayty in September 1866, inhibited any allied offensive for nearly a year»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI, ayin 1'ine yazildi (olcut: gun bilinmiyorsa YYYY-01-01; burada ay biliniyor, gun degil)" },
           { t:"1868-02-01", tur:"isgal", b:"Brezilya zirhlilari Humaita kalesini gecip Asuncion'u bombaladi", kaynak:"EB-UIS — AYNEN: «In February Brazilian armoured vessels broke through Paraguayan defenses at the river fortress of Humaitá … and pressed on to bombard Asunción, the capital»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI" },
           { t:"1870-03-01", tur:"hukumdar", b:"Francisco Solano Lopez oldurulunce Paraguay'in savasi sona erdi", kaynak:"EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»  🔴 HASSASIYET DUZELTILDI (kalem 3): savasin bitis GUNUNE yazmistim, ama ilhak o gun olmadi — kaynak ilhaki hic tarihlendirmiyor. Yil'a indirildi." },
-          { t:"1870-03-01", tur:"toprak-kayip", b:"Savasin sonunda Arjantin ve Brezilya yaklasik 140.000 km2 Paraguay toprağini ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina and Brazil annexed about 55,000 square miles (140,000 square km) of Paraguayan territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi. Ilhaki kesinlestiren sinir ANTLASMALARININ gunlerini BULAMADIM (Brezilya ve Arjantin ile ayri ayri, savas sonrasi yillarda). Kaynak yalniz '1876'ya kadar isgal' diyor." }
-        ]
+          { t:"1870-03-01", tur:"toprak-kayip", b:"Savasin sonunda Arjantin ve Brezilya yaklasik 140.000 km2 Paraguay toprağini ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina and Brazil annexed about 55,000 square miles (140,000 square km) of Paraguayan territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi. Ilhaki kesinlestiren sinir ANTLASMALARININ gunlerini BULAMADIM (Brezilya ve Arjantin ile ayri ayri, savas sonrasi yillarda). Kaynak yalniz '1876'ya kadar isgal' diyor." },
+    { t:"1947-03-07", tur:"ic-savas", b:"Paraguay Ic Savasi basladi, Colorado Partisi galip geldi", kaynak:"Library of Congress Country Studies: Paraguay https://countrystudies.us/paraguay/" },
+    { t:"1954-05-05", tur:"isyan", b:"General Alfredo Stroessner darbeyle iktidari ele gecirdi", kaynak:"Library of Congress Country Studies: Paraguay https://countrystudies.us/paraguay/" },
+    { t:"1989-02-03", tur:"isyan", b:"General Andres Rodriguez darbesiyle Stroessner devrildi", kaynak:"Library of Congress Country Studies: Paraguay https://countrystudies.us/paraguay/" },
+    { t:"1991-03-26", tur:"antlasma", b:"Asuncion Antlasmasi ile Mercosur kuruldu", kaynak:"Library of Congress Country Studies: Paraguay https://countrystudies.us/paraguay/" },
+    { t:"1992-06-20", tur:"siyaset", b:"Yeni demokratik anayasa yururluge girdi", kaynak:"Library of Congress Country Studies: Paraguay https://countrystudies.us/paraguay/" }
+  ]
 },
 { id:"peru-cumhuriyeti", ad:"Peru Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1824-12-09", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lima",
+  f:"1824-12-09", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lima",
   ozet:"Ayacucho Zaferi'yle (9 Aralık 1824) İspanyol yönetiminin sona ermesinden doğan cumhuriyet. Künye, [[ispanyol-peru]]'nun bitiş günüyle BİREBİR hizalandı — devir boşluksuzdur. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Mevcut 'ispanyol-peru' künyesinin t: tarihiyle (Ayacucho Zaferi, 9 Aralık 1824) BİREBİR hizalandı — devir boşluksuz; bu, künyenin kendisi kadar güvenilir bir tarih.",
   kronoloji:[
@@ -6995,11 +7203,18 @@ window.DEVLETLER = [
           { t:"1881-01-01", tur:"isgal", b:"Sili kuvvetleri Peru baskenti Lima'yi isgal etti", kaynak:"EB-PS — AYNEN: «Chilean forces occupied the Peruvian capital of Lima the following January»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI; kaynak yalnizca 'ertesi Ocak' diyor, olcut geregi ayin 1'i" },
           { t:"1883-01-01", tur:"ic-savas", b:"Savasin bitiminde Peru'da yedi ay suren bir ic savas basladi", kaynak:"EB-PS — AYNEN: «at the war's end, a seven-month civil war ensued»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — kaynak yalniz 'savasin sonunda' diyor, BASLANGIC GUNU BULUNAMADI; Ancon gunune yazildi.  🔴 HASSASIYET DUZELTILDI (kalem 3): kaynak yalniz «at the war's end» diyor; ic savasin BASLANGIC GUNU yok. Antlasma gunune yazilmisti, Yil'a indirildi." },
           { t:"1883-10-20", tur:"toprak-kayip", b:"Ancon Antlasmasi ile Peru Tarapaca eyaletini kaybetti", kaynak:"EB-PS — AYNEN: «by which Tarapacá province was ceded to the latter» + «Chile was also to occupy the provinces of Tacna and Arica for 10 years»" },
-          { t:"1883-10-20", tur:"antlasma", b:"Peru ile Sili Ancon Antlasmasi'ni imzaladi", kaynak:"EB-PS — AYNEN: «Peru and Chile signed the Treaty of Ancón»" }
-        ]
+          { t:"1883-10-20", tur:"antlasma", b:"Peru ile Sili Ancon Antlasmasi'ni imzaladi", kaynak:"EB-PS — AYNEN: «Peru and Chile signed the Treaty of Ancón»" },
+    { t:"1948-10-27", tur:"isyan", b:"General Manuel Odria darbeyle Bustamante hukumetini devirdi", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" },
+    { t:"1968-10-03", tur:"isyan", b:"General Juan Velasco Alvarado darbeyle Belaunde hukumetini devirdi", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" },
+    { t:"1969-06-24", tur:"siyaset", b:"Velasco hukumeti tarim reformu yasasini ilan etti", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" },
+    { t:"1980-05-17", tur:"isyan", b:"Parlak Yol Chuschi'de ilk silahli eylemini yapti", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" },
+    { t:"1980-07-28", tur:"siyaset", b:"Fernando Belaunde baskan oldu, sivil yonetime donus", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" },
+    { t:"1992-04-05", tur:"siyaset", b:"Fujimori kongreyi kapatip yetkileri ele aldi (autogolpe)", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" },
+    { t:"1998-10-26", tur:"antlasma", b:"Brasilia Baris Antlasmasi ile Ekvador sinir anlasmazligi cozuldu", kaynak:"Library of Congress Country Studies: Peru https://countrystudies.us/peru/" }
+  ]
 },
 { id:"uruguay-cumhuriyeti", ad:"Uruguay Doğu Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1828-08-27", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Montevideo",
+  f:"1828-08-27", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Montevideo",
   ozet:"Cisplatina Savaşı'nı bitiren Montevideo Antlaşması'yla uluslararası tanınma kazanan Doğu Yakası cumhuriyeti. 1825 ilanı Brezilya'yla savaş sürdüğü için tartışmalıydı; künye 1828 imza gününe dayanır. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'South American Wars of Independence' — Montevideo Antlaşması ile uluslararası tanınma (1825 ilanı Brezilya ile Cisplatina Savaşı sürdüğü için tartışmalıydı); f: bağlı veride kullanılan tarihe (27 Ağustos 1828, Ön Barış Sözleşmesi imzası — antlaşmanın kendisi 28'de ilan edildi) BİR GÜN hizalandı.",
   kronoloji:[
@@ -7011,20 +7226,30 @@ window.DEVLETLER = [
           { t:"1868-01-01", tur:"ic-savas", b:"Mizraklar Devrimi — dort yil suren ic savas", kaynak:"EB-UY — AYNEN: «a civil war known as the Revolution of the Lances (1868–72)»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
           { t:"1876-01-01", tur:"hukumdar", b:"Uruguay silahli kuvvetleri yonetime el koydu", kaynak:"EB-UY — AYNEN: «In 1876 the Uruguayan armed forces took over the government and, aided by improved communications, began to establish firmer control over the interior»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
           { t:"1897-01-01", tur:"isyan", b:"1897 Devrimi — Aparicio Saravia onderliginde Blanco ayaklanmasi", kaynak:"EB-UY — AYNEN: «Blanco demands for a larger role in government escalated into the Revolution of 1897, led by Aparicio Saravia, which ended when the Colorado president, Juan Idiarte Borda, was killed by an assassin not associated with the Blancos»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
-          { t:"1904-01-01", tur:"isyan", b:"Blanco kirsal ayaklanmasi sekiz ay suren carpismalarla bastirildi", kaynak:"EB-UY — AYNEN: «The following year the Blancos led a rural revolt, and eight bloody months of fighting ensued before Saravia was killed in battle and government forces emerged victorious»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1903'un ertesi = 1904), GUN VE AY BULUNAMADI." }
-        ]
+          { t:"1904-01-01", tur:"isyan", b:"Blanco kirsal ayaklanmasi sekiz ay suren carpismalarla bastirildi", kaynak:"EB-UY — AYNEN: «The following year the Blancos led a rural revolt, and eight bloody months of fighting ensued before Saravia was killed in battle and government forces emerged victorious»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1903'un ertesi = 1904), GUN VE AY BULUNAMADI." },
+    { t:"1952-03-01", tur:"siyaset", b:"1951 anayasa degisikligiyle yurutme dokuz uyeli ulusal yonetim kuruluna (colegiado) devredildi", kaynak:"Library of Congress Country Studies: Uruguay https://countrystudies.us/uruguay/" },
+    { t:"1958-11-30", tur:"siyaset", b:"Blanco Partisi yaklasik doksan yil sonra ilk kez secimi kazandi", kaynak:"Library of Congress Country Studies: Uruguay https://countrystudies.us/uruguay/" },
+    { t:"1973-06-27", tur:"isyan", b:"Baskan Bordaberry meclisi feshedip ordu destekli diktatorluge gecti", kaynak:"Library of Congress Country Studies: Uruguay https://countrystudies.us/uruguay/" },
+    { t:"1980-11-30", tur:"siyaset", b:"Askeri anayasa taslagi plebisitte reddedildi", kaynak:"Library of Congress Country Studies: Uruguay https://countrystudies.us/uruguay/" },
+    { t:"1985-03-01", tur:"siyaset", b:"Julio Maria Sanguinetti baskan oldu, sivil yonetime donus", kaynak:"Library of Congress Country Studies: Uruguay https://countrystudies.us/uruguay/" }
+  ]
 },
 { id:"ekvador-cumhuriyeti", ad:"Ekvador Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1830-05-13", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Quito",
+  f:"1830-05-13", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Quito",
   ozet:"Gran Kolombiya'nın kuzeybatı kanadının 1830'da ayrılmasıyla doğan cumhuriyet. Künyenin f: tarihi RESMÎ çözülmeye (1831) değil, bağlı verinin kullandığı FİİLÎ ayrılma gününe dayanır. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — ilk taslakta `mazo4f.com` gösterilmişti; KIRMIZI ÇİZGİ (akademik/güvenilir/bilimsel) gereği DÜŞÜRÜLDÜ, adı verilmeyen 'standart kaynaklar' ifadesi de doğrulanabilir değil. Tarihin dayanağı DURUYOR: f: bağlı veride bu kimliğin kullanıldığı fiilî ayrılma gününe (1830-05-13) hizalandı, uydurulmadı. Akademik kaynak ARANACAK.",
   kronoloji:[
           { t:"1830-01-01", tur:"kurulus", b:"Ekvador Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu", kaynak:"TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti» [TDV: amerika]  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1830-05-13 idi, kaynak YIL veriyor (TDV-AM 1830). EB-VE ise «and Ecuador soon after» diyerek 1829'a yakin bir an isaret ediyor — IKI KAYNAK YILDA AYRISIYOR, daha acik olani (TDV, 1830) alindi. Kunye degistirilmedi." },
-          { t:"1832-02-12", tur:"toprak-kazanc", b:"Ekvador, Galápagos Adaları'nı resmen ilhak etti", kaynak:"standart akademik/ansiklopedik (Ecuador annexation of Galápagos, 12 Şubat 1832) — TDV kapsam dışı" }
-        ]
+          { t:"1832-02-12", tur:"toprak-kazanc", b:"Ekvador, Galápagos Adaları'nı resmen ilhak etti", kaynak:"standart akademik/ansiklopedik (Ecuador annexation of Galápagos, 12 Şubat 1832) — TDV kapsam dışı" },
+    { t:"1972-02-15", tur:"siyaset", b:"General Guillermo Rodriguez Lara askeri darbeyle yonetime el koydu, Velasco Ibarra devrildi.", kaynak:"Library of Congress Country Studies Ecuador" },
+    { t:"1979-08-10", tur:"siyaset", b:"Jaime Roldos goreve baslayarak askeri yonetimin ardindan sivil yonetime donus tamamlandi; yeni anayasa yururluge girdi.", kaynak:"Library of Congress Country Studies Ecuador" },
+    { t:"1995-01-26", tur:"savas", b:"Cenepa Savasi: Ekvador ve Peru arasindaki sinir anlasmazligi silahli catismaya donustu.", kaynak:"Library of Congress Country Studies Ecuador; Britannica Ecuador-Peru" },
+    { t:"1998-10-26", tur:"antlasma", b:"Brasilia Baskanlik Belgesi ile Ekvador-Peru siniri kesinlesti, uzun suren anlasmazlik sona erdi.", kaynak:"Library of Congress Country Studies Ecuador; OAS Ecuador-Peru" },
+    { t:"2000-01-09", tur:"siyaset", b:"Baskan Mahuad ekonomik krize karsi ABD dolarinin resmi para birimi yapilmasini (dolarizasyon) acikladi.", kaynak:"Library of Congress Country Studies Ecuador; Britannica Ecuador" }
+  ]
 },
 { id:"venezuela-cumhuriyeti", ad:"Venezuela Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1830-01-13", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Caracas",
+  f:"1830-01-13", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Caracas",
   ozet:"Gran Kolombiya'dan 1830 başında kesin olarak ayrılan cumhuriyet. Künye, resmî çözülme yılına değil bağlı verinin kullandığı fiilî ayrılma gününe hizalandı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"unellez.edu.ve akademik-kurumsal kaynak ('Venezuela se separa definitivamente de la Gran Colombia') + standart kaynaklar — Venezuela 1830 başında Gran Kolombiya'dan ayrıldı. İLK TASLAKTA f: 'gran-kolombiya'nın resmî çözülme tarihine (1831) hizalanmıştı; bağlı veri daha erken bir fiilî ayrılma tarihi (1830-01-13) KULLANDIĞI için künye o tarihe DÜZELTİLDİ.",
   kronoloji:[
@@ -7032,32 +7257,53 @@ window.DEVLETLER = [
           { t:"1821-06-24", tur:"savas", b:"Carabobo zaferi Venezuela'nin kralci ordudan kurtulusunu saglar", kaynak:"EB-VE — AYNEN: «On June 24, 1821, Bolívar's troops … defeated the main royalist army at the Battle of Carabobo»" },
           { t:"1829-01-01", tur:"kurulus", b:"Venezuela Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu", kaynak:"TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti» [TDV: amerika]  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMADI ve kaynak YILDA DA AYRISIYOR.  🔴🔴 HASSASIYET **VE YIL** DUZELTILDI (kalem 3): kunye 1830-01-13 diyor; IKI BAGIMSIZ KAYNAK 1829 diyor — TDV-AM «1829'da Venezuela … ayrilinca» [TDV: amerika] ve EB-VE «Venezuela broke away in 1829». Kural 'kaynagi izle, kunyeyi degil'. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.  📌 HANGI SORUYA CEVAP: bu madde **AYRILMA ILANINI** tarihlendiriyor (Paez'in Gran Kolombiya'dan ayrilma hareketini yonetmesi), ayri devletin RESMI KURULUSUNU degil. Kunyenin f: degeri 1830-01-13 buyuk ihtimalle ikinci soruyu cevapliyor — ve bu yamada o soruya AYRI bir madde var (1830-01-01, «Paez Venezuela icin bir anayasa kongresi toplayip devleti kurdu»). Iki tarih CELISMIYOR olabilir; iki AYRI olayi tarihlendiriyorlar. Kunye karari koordinatorde." },
           { t:"1830-01-01", tur:"kurulus", b:"Paez Venezuela icin bir anayasa kongresi toplayip devleti kurdu", kaynak:"EB-VE — AYNEN: «He led the separation movement from Gran Colombia in 1829 and in 1830 convoked a constitutional convention for Venezuela»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
-          { t:"1831-01-01", tur:"hukumdar", b:"General Jose Antonio Paez ilk kez cumhurbaskanligina gecti", kaynak:"EB-VE — AYNEN: «Páez dominated Venezuelan politics until 1848, both as president (1831–35 and 1839–43) and as a major political player»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." }
-        ]
+          { t:"1831-01-01", tur:"hukumdar", b:"General Jose Antonio Paez ilk kez cumhurbaskanligina gecti", kaynak:"EB-VE — AYNEN: «Páez dominated Venezuelan politics until 1848, both as president (1831–35 and 1839–43) and as a major political player»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+    { t:"1945-10-18", tur:"siyaset", b:"Subaylar ve Demokratik Eylem Partisi darbesiyle Medina Angarita devrildi, Romulo Betancourt baskanligindaki cunta yonetime geldi.", kaynak:"Library of Congress Country Studies Venezuela" },
+    { t:"1948-11-24", tur:"siyaset", b:"Askeri darbeyle secilmis Baskan Romulo Gallegos devrildi.", kaynak:"Library of Congress Country Studies Venezuela" },
+    { t:"1958-01-23", tur:"siyaset", b:"Genel grev ve ordu hareketiyle diktator Marcos Perez Jimenez devrildi, demokrasiye donus basladi.", kaynak:"Library of Congress Country Studies Venezuela" },
+    { t:"1961-01-23", tur:"siyaset", b:"Yeni anayasa ilan edildi.", kaynak:"Library of Congress Country Studies Venezuela" },
+    { t:"1976-01-01", tur:"siyaset", b:"Petrol sanayii kamulastirildi ve devlet sirketi PDVSA islemeye basladi.", kaynak:"Library of Congress Country Studies Venezuela" },
+    { t:"1989-02-27", tur:"isyan", b:"Caracazo: ekonomik onlemlere karsi baslayan toplu ayaklanma Karakas'ta siddetle bastirildi.", kaynak:"Library of Congress Country Studies Venezuela; Britannica Venezuela" },
+    { t:"1992-02-04", tur:"isyan", b:"Yarbay Hugo Chavez onderliginde Baskan Perez'e karsi darbe girisimi basarisiz oldu.", kaynak:"Library of Congress Country Studies Venezuela; Britannica Hugo Chavez" },
+    { t:"1999-12-15", tur:"siyaset", b:"Chavez'in onayladigi yeni (Bolivarci) anayasa referandumla kabul edildi.", kaynak:"Britannica Venezuela; Carter Center Venezuela" }
+  ]
 },
 { id:"kolombiya-cumhuriyeti", ad:"Kolombiya Cumhuriyeti (Yeni Granada soyu)", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1831-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bogotá",
+  f:"1831-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bogotá",
   ozet:"Gran Kolombiya dağıldıktan sonra Yeni Granada soyunu sürdüren cumhuriyet; atlas boyunca Kolombiya kimliği bu künyeden okunur. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Mevcut 'gran-kolombiya' künyesinin t: tarihiyle BİREBİR hizalandı. NOT: bu tek künye 1831-1858 'Yeni Granada', 1863-1886 'Kolombiya Birleşik Devletleri', 1886 sonrası 'Kolombiya Cumhuriyeti' adlarını taşıyan SÜREKLİ siyasî hat — ayrım istenirse söyle.",
   kronoloji:[
           { t:"1831-01-01", tur:"kurulus", b:"Gran Kolombiya'dan geriye kalan kisim Yeni Granada adiyla devam etti", kaynak:"TDV-AM — AYNEN: «geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti. Bu tarihte de cumhuriyet ilan edilerek Kolombiya adini aldi» [TDV: amerika]  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor ve KUNYE ILE AYRISIYOR — TDV'ye gore 'Kolombiya' adi 1863'te alindi, kunyenin f: degeri ise 1831-01-01 (birligin dagildigi an). Kunye gunu korundu, ayrim burada YAZILI." },
           { t:"1903-11-03", tur:"toprak-kayip", b:"Panama, ABD desteğiyle Kolombiya'dan ayrılarak bağımsızlığını ilan etti; Kolombiya Panama Kıstağı'nı kalıcı olarak kaybetti.", kaynak:"Encyclopaedia Britannica ile örtüşen WebSearch + Wikipedia 'Secession of Panama from Colombia' — teyitli" },
-          { t:"1922-03-24", tur:"toprak-kazanc", b:"Kolombiya ile Peru arasinda imzalanan Salomon-Lozano Antlasmasi ile Putumayo ve Amazon nehirleri arasindaki, Leticia limanini iceren koridor Kolombiya'ya birakildi, Amazon nehrine dogrudan cikis saglandi.", kaynak:"'Salomón-Lozano Treaty (1922)', Encyclopedia.com (Encyclopedia of Latin American History and Culture, Charles Scribner's Sons/Gale)" }
-        ]
+          { t:"1922-03-24", tur:"toprak-kazanc", b:"Kolombiya ile Peru arasinda imzalanan Salomon-Lozano Antlasmasi ile Putumayo ve Amazon nehirleri arasindaki, Leticia limanini iceren koridor Kolombiya'ya birakildi, Amazon nehrine dogrudan cikis saglandi.", kaynak:"'Salomón-Lozano Treaty (1922)', Encyclopedia.com (Encyclopedia of Latin American History and Culture, Charles Scribner's Sons/Gale)" },
+    { t:"1948-04-09", tur:"siyaset", b:"Liberal lider Jorge Eliecer Gaitan'in Bogota'da suikastla oldurulmesi Bogotazo ayaklanmasini ve La Violencia donemini baslatti.", kaynak:"Library of Congress Country Studies Colombia" },
+    { t:"1953-06-13", tur:"siyaset", b:"General Gustavo Rojas Pinilla askeri darbeyle yonetime el koydu.", kaynak:"Library of Congress Country Studies Colombia" },
+    { t:"1958-08-07", tur:"siyaset", b:"Ulusal Cephe anlasmasi uyarinca Liberal ve Muhafazakar partiler iktidari donusumlu paylasmaya basladi; Alberto Lleras Camargo goreve geldi.", kaynak:"Library of Congress Country Studies Colombia" },
+    { t:"1985-11-06", tur:"felaket", b:"M-19 gerillalari Bogota'da Adalet Sarayi'ni bastı, ordu mudahalesiyle onlarca kisi oldu.", kaynak:"Library of Congress Country Studies Colombia; Britannica Colombia" },
+    { t:"1989-08-18", tur:"siyaset", b:"Baskan adayi Luis Carlos Galan uyusturucu kartellerinin tetikcilerince oldurulmesi.", kaynak:"Library of Congress Country Studies Colombia; Britannica Colombia" },
+    { t:"1991-07-04", tur:"siyaset", b:"Kurucu Meclis'in hazirladigi yeni anayasa ilan edildi.", kaynak:"Library of Congress Country Studies Colombia; Britannica Colombia" }
+  ]
 },
 { id:"brezilya-cumhuriyeti", ad:"Brezilya Birleşik Devletleri Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
-  f:"1889-11-15", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Rio de Janeiro",
+  f:"1889-11-15", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Rio de Janeiro",
   ozet:"1889 darbesiyle imparatorluğun yerini alan cumhuriyet; künye imparatorluktan cumhuriyete geçiş gününden başlar. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'Brazil' — mevcut 'brezilya-imparatorlugu' künyesinin ardılı, Cumhuriyet ilanı (Deodoro da Fonseca darbesi).",
   kronoloji:[
           { t:"1889-11-15", tur:"kurulus", b:"Askeri darbe imparatorlugu devirip cumhuriyeti kurdu", kaynak:"EB-BR — AYNEN: «A civil-military conspiracy formed, and military officers carried out a coup on November 15, 1889. Pedro II abdicated and went into exile in Europe»" },
           { t:"1891-02-24", tur:"antlasma", b:"Yeni cumhuriyet anayasasi ilan edildi", kaynak:"EB-BR — AYNEN: «on February 24, 1891, promulgated a new constitution that combined elements of presidential, federal, democratic, and republican forms of government»" },
           { t:"1891-11-23", tur:"hukumdar", b:"Fonseca istifaya zorlandi, yerine Floriano Peixoto gecti", kaynak:"EB-BR — AYNEN: «he was forced to resign. Floriano Peixoto, the equally militaristic vice president, ascended to office on November 23»" },
-          { t:"1894-01-01", tur:"hukumdar", b:"Ilk sivil cumhurbaskani Prudente de Morais goreve geldi", kaynak:"EB-BR — AYNEN: «In 1894 … Peixoto reluctantly turned over the presidency to the first civilian president, Prudente de Morais, who had served as the first republican governor of coffee-rich São Paulo»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." }
-        ]
+          { t:"1894-01-01", tur:"hukumdar", b:"Ilk sivil cumhurbaskani Prudente de Morais goreve geldi", kaynak:"EB-BR — AYNEN: «In 1894 … Peixoto reluctantly turned over the presidency to the first civilian president, Prudente de Morais, who had served as the first republican governor of coffee-rich São Paulo»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+    { t:"1945-10-29", tur:"siyaset", b:"Ordu Getulio Vargas'i devirerek Estado Novo rejimine son verdi.", kaynak:"Library of Congress Country Studies Brazil" },
+    { t:"1954-08-24", tur:"siyaset", b:"Baskan Getulio Vargas askeri baskiyla karsi karsiya kalinca intihar etti.", kaynak:"Library of Congress Country Studies Brazil" },
+    { t:"1960-04-21", tur:"baskent", b:"Yeni planli baskent Brasilia acildi, baskent Rio de Janeiro'dan buraya tasindi.", kaynak:"Library of Congress Country Studies Brazil" },
+    { t:"1964-03-31", tur:"siyaset", b:"Askeri darbeyle Baskan Joao Goulart devrildi, 21 yil surecek askeri rejim basladi.", kaynak:"Library of Congress Country Studies Brazil" },
+    { t:"1985-03-15", tur:"siyaset", b:"Jose Sarney'in goreve baslamasiyla askeri rejim sona erdi, sivil yonetime donuldu.", kaynak:"Library of Congress Country Studies Brazil" },
+    { t:"1988-10-05", tur:"siyaset", b:"Yeni demokratik anayasa ilan edildi.", kaynak:"Library of Congress Country Studies Brazil" },
+    { t:"1994-07-01", tur:"siyaset", b:"Plano Real ile yeni para birimi real dolasima girdi ve enflasyon dusurulmeye baslandi.", kaynak:"Library of Congress Country Studies Brazil; Britannica Brazil" }
+  ]
 },
 { id:"dominik-cumhuriyeti", ad:"Dominik Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
-  f:"1844-02-27", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Santo Domingo",
+  f:"1844-02-27", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Santo Domingo",
   ozet:"Hispaniola'nın doğusunda, Haiti yönetiminden 1844'te ayrılarak kurulan cumhuriyet. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'Dominican Republic' — Juan Pablo Duarte önderliğinde Haiti'den bağımsızlık.",
   kronoloji:[
@@ -7065,21 +7311,34 @@ window.DEVLETLER = [
           { t:"1861-03-17", tur:"isgal", b:"Başkan Santana ülkenin İspanya'ya ilhakını ilan etti, bağımsızlık fiilen sona erdi", kaynak:"countrystudies.us/dominican-republic/6.htm (Library of Congress, Federal Research Division — Country Studies) — AYNEN: «On March 17, 1861, Santana announced the annexation of the Dominican Republic by Spain.» 🟡 Yaygın literatür 18 Mart der; kaynağın verdiği gün 17 Mart, kaynağa uyuldu." },
           { t:"1863-09-14", tur:"isyan", b:"Santiago'da geçici hükümet kurulup Bağımsızlık Bildirisi okundu, Restorasyon Savaşı başladı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «Rebellious Dominicans set up a provisional government in Santiago…on September 14, 1863. Their proclamation of an Act of Independence launched what is known as the War of Restoration.»" },
           { t:"1865-03-03", tur:"toprak-kazanc", b:"İspanya Kraliçesi ilhakı yürürlükten kaldıran kararnameyi onayladı, ülke topraklarını geri kazandı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «On March 3, 1865, the Queen of Spain approved a decree repealing the annexation of Santo Domingo.»" },
-          { t:"1865-12-08", tur:"hukumdar", b:"Buenaventura Báez sürgünden dönerek başkanlığı devraldı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «…force the restoration of Báez, who returned triumphantly from exile and assumed the presidency on December 8, 1865.»" }
-        ]
+          { t:"1865-12-08", tur:"hukumdar", b:"Buenaventura Báez sürgünden dönerek başkanlığı devraldı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «…force the restoration of Báez, who returned triumphantly from exile and assumed the presidency on December 8, 1865.»" },
+    { t:"1961-05-30", tur:"siyaset", b:"Otuz yillik diktator Rafael Trujillo suikastla oldurulmesi.", kaynak:"Library of Congress Country Studies Dominican Republic" },
+    { t:"1963-02-27", tur:"siyaset", b:"Juan Bosch, Trujillo sonrasi ilk serbest secimle baskanliga basladi.", kaynak:"Library of Congress Country Studies Dominican Republic" },
+    { t:"1963-09-25", tur:"siyaset", b:"Askeri darbeyle Bosch devrildi.", kaynak:"Library of Congress Country Studies Dominican Republic" },
+    { t:"1965-04-28", tur:"isgal", b:"Ic savas sirasinda ABD, Santo Domingo'ya asker cikararak ulkeyi isgal etti.", kaynak:"Library of Congress Country Studies Dominican Republic; Office of the Historian, history.state.gov/milestones Dominican Republic 1965" },
+    { t:"1966-07-01", tur:"siyaset", b:"Joaquin Balaguer secimi kazanip baskanliga basladi, ABD kuvvetleri cekilmeye basladi.", kaynak:"Library of Congress Country Studies Dominican Republic" },
+    { t:"1978-08-16", tur:"siyaset", b:"Antonio Guzman goreve basladi; muhalefete baris icinde ilk iktidar devri gerceklesti.", kaynak:"Library of Congress Country Studies Dominican Republic; Britannica Dominican Republic" }
+  ]
 },
 { id:"kuba-cumhuriyeti", ad:"Küba Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
-  f:"1902-05-19", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Havana",
+  f:"1902-05-19", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Havana",
   ozet:"İspanyol yönetiminin ve ardından Amerikan askerî idaresinin sona ermesiyle 1902'de kurulan cumhuriyet. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"US Department of State, Office of the Historian (history.state.gov/countries/cuba) — Paris Antlaşması (1898) sonrası ABD işgali bitti, Küba Cumhuriyeti 19 Mayıs 1902'de resmen kuruldu (Platt Değistirgesi şartıyla).",
   kronoloji:[
           { t:"1901-06-13", tur:"antlasma", b:"Küba anayasasına Platt Değişikliği'nin sekiz maddesi eklendi, ABD'ye müdahale hakkı tanındı", kaynak:"guides.loc.gov/world-of-1898/teller-platt-amendments (Library of Congress) — 🔴 GÖVDE ÇEKİLEMEDİ (HTTP 403); tarih arama özetinden alındı (Kurucu Meclis 12 Haziran 1901'de kabul, 13 Haziran 1901'de anayasa) ve TARAFIMDAN DOĞRULANMADI. Damgam «ölçülemedi», «doğrulandı» DEĞİL." },
           { t:"1902-05-19", tur:"kurulus", b:"Küba Cumhuriyeti resmen kuruldu", kaynak:"history.state.gov/countries/cuba (US Dept. of State, Office of the Historian) — AYNEN: «the Republic of Cuba was formally installed on May 19, 1902»" },
-          { t:"1902-05-20", tur:"toprak-kazanc", b:"ABD Küba üzerindeki işgal yetkisini bıraktı, ada yönetimi Küba hükûmetine geçti", kaynak:"history.state.gov/countries/cuba (Office of the Historian) — AYNEN: «On May 20, 1902, the United States relinquished its occupation authority over Cuba»" }
-        ]
+          { t:"1902-05-20", tur:"toprak-kazanc", b:"ABD Küba üzerindeki işgal yetkisini bıraktı, ada yönetimi Küba hükûmetine geçti", kaynak:"history.state.gov/countries/cuba (Office of the Historian) — AYNEN: «On May 20, 1902, the United States relinquished its occupation authority over Cuba»" },
+    { t:"1952-03-10", tur:"siyaset", b:"Fulgencio Batista darbeyle yeniden yonetime el koydu.", kaynak:"Library of Congress Country Studies Cuba" },
+    { t:"1953-07-26", tur:"isyan", b:"Fidel Castro onderliginde Moncada Kislasi'na saldiri duzenlendi.", kaynak:"Library of Congress Country Studies Cuba" },
+    { t:"1959-01-01", tur:"siyaset", b:"Batista ulkeden kacti, Castro'nun devrimci kuvvetleri iktidari ele gecirdi.", kaynak:"Library of Congress Country Studies Cuba" },
+    { t:"1961-04-17", tur:"savas", b:"ABD destekli Kuba surgunleri Domuzlar Korfezi'ne cikarma yapti, kisa surede puskurtuldu.", kaynak:"Office of the Historian, history.state.gov/milestones Bay of Pigs; Library of Congress Country Studies Cuba" },
+    { t:"1962-10-16", tur:"felaket", b:"Kuba Fuze Krizi basladi; ABD ve SSCB nukleer savasin esigine geldi.", kaynak:"Office of the Historian, history.state.gov/milestones Cuban Missile Crisis" },
+    { t:"1976-02-24", tur:"siyaset", b:"Sosyalist devlet yapisini kuran yeni anayasa ilan edildi.", kaynak:"Library of Congress Country Studies Cuba" },
+    { t:"1980-04-04", tur:"siyaset", b:"Mariel Gocu basladi; onbinlerce Kubali ABD'ye gitti.", kaynak:"Library of Congress Country Studies Cuba; Britannica Mariel boatlift" }
+  ]
 },
 { id:"guatemala", ad:"Guatemala Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
-  f:"1821-09-15", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Guatemala",
+  f:"1821-09-15", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Guatemala",
   ozet:"Orta Amerika'nın İspanya'dan ayrılış gününden (15 Eylül 1821) başlayan künye; Orta Amerika Federasyonu dönemi de bu kimlik altında izlenir. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Encyclopedia.com, 'Central America, United Provinces of' — İspanya'dan bağımsızlık 15 Eylül 1821 (Orta Amerika Bağımsızlık Bildirgesi); Orta Amerika Federasyonu 1838'de dağılınca Guatemala kendi ayrı devleti oldu. İLK TASLAKTA f: 1838'e (federasyon dağılması) verilmişti; bağlı veri 1821'i KULLANDIĞI için künye o tarihe DÜZELTİLDİ — aralık ölçülerek genişletildi.",
   kronoloji:[
@@ -7087,8 +7346,13 @@ window.DEVLETLER = [
           { t:"1823-01-01", tur:"ittifak", b:"Guatemala, Honduras · Nikaragua · Kosta Rika · El Salvador ile birlikte Orta Amerika Birleşik Eyaletleri'ne katıldı", kaynak:"history.state.gov/countries/guatemala (Office of the Historian) — AYNEN: «Following its independence from Spain in 1821, Guatemala joined the Federation of Central American States in 1823.» 🔴 GÜN BİLİNMİYOR — ölçüt gereği YYYY-01-01 yazıldı, uydurulmadı." },
           { t:"1839-01-01", tur:"bolunme", b:"Guatemala federasyondan ayrılarak kendi bağımsızlığını ilan etti", kaynak:"history.state.gov/countries/central-american-federation (Office of the Historian) — «In 1839 Guatemala declared its independence of the confederation». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Cümle arama özetinden, gövde ayrıca çekilmedi." },
           { t:"1847-01-01", tur:"kurulus", b:"Guatemala resmen cumhuriyet ilan edildi", kaynak:"JSTOR — Ralph Lee Woodward, Jr., «Rafael Carrera and the Emergence of the Republic of Guatemala, 1821-1871» (jstor.org/stable/j.ctt46nbc7) — «In 1847 it was officially proclaimed a republic». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Cümle künye/özet düzeyinden alındı, kitabın gövdesi ÇEKİLEMEDİ." },
-          { t:"1871-01-01", tur:"isyan", b:"Liberal Devrim muhafazakâr dönemi devirdi, Justo Rufino Barrios'un öncülük ettiği liberal yönetim başladı", kaynak:"Cambridge Core, The Americas — «Central American Union or Guatemalan Republic? The National Question in Liberal Guatemala, 1871-1885» — «Liberalism was introduced by the 1871 Revolution». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Makalenin gövdesi ÇEKİLEMEDİ, künye ve özet düzeyi." }
-        ]
+          { t:"1871-01-01", tur:"isyan", b:"Liberal Devrim muhafazakâr dönemi devirdi, Justo Rufino Barrios'un öncülük ettiği liberal yönetim başladı", kaynak:"Cambridge Core, The Americas — «Central American Union or Guatemalan Republic? The National Question in Liberal Guatemala, 1871-1885» — «Liberalism was introduced by the 1871 Revolution». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Makalenin gövdesi ÇEKİLEMEDİ, künye ve özet düzeyi." },
+    { t:"1954-06-27", tur:"siyaset", b:"ABD destekli darbe sonucu Baskan Jacobo Arbenz istifa etti.", kaynak:"Office of the Historian, history.state.gov/milestones Guatemala 1954; Library of Congress Country Studies Guatemala" },
+    { t:"1960-11-13", tur:"ic-savas", b:"Genc subaylarin basarisiz ayaklanmasi, 36 yil surecek ic savasin baslangici sayilir.", kaynak:"Library of Congress Country Studies Guatemala; UN Historical Clarification Commission 1999" },
+    { t:"1982-03-23", tur:"siyaset", b:"General Efrain Rios Montt darbeyle yonetime el koydu.", kaynak:"Library of Congress Country Studies Guatemala; Britannica Guatemala" },
+    { t:"1986-01-14", tur:"siyaset", b:"Vinicio Cerezo secimle goreve baslayarak sivil yonetim geri dondu; 1985 anayasasi yururluge girdi.", kaynak:"Library of Congress Country Studies Guatemala" },
+    { t:"1996-12-29", tur:"antlasma", b:"Hukumet ve URNG arasinda Kalici ve Kesin Baris Anlasmasi imzalanarak ic savas sona erdi.", kaynak:"UN Peacemaker, Guatemala peace agreements; Britannica Guatemala" }
+  ]
 },
 { id:"teksas-cumhuriyeti", ad:"Teksas Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-amerika",
   f:"1836-03-02", t:"1845-12-29", baskent:"Austin",
@@ -7347,14 +7611,20 @@ window.DEVLETLER = [
   ]
 },
 { id:"panama-cumhuriyeti", ad:"Panama Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
-  f:"1903-11-03", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Panamá (Panama City)",
+  f:"1903-11-03", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Panamá (Panama City)",
   ozet:"Kolombiya'dan ayrılarak kurulan cumhuriyet; kanal bölgesinin ABD'ye devri aynı yıl imzalanan antlaşmayla oldu. Künyenin bitişi atlasın ufkudur, devletin sonu DEĞİL. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"Standart akademik — Encyclopaedia Britannica \"Panama City\" md.: \"In 1903 independence from Colombia was declared there.\" 3 Kasım 1903 ayrılığın genel kabul gören günüdür. TDV `amerika` md. Panama kıstağını yalnız keşif bağlamında anıyor, cumhuriyeti KAPSAMIYOR (§4 tanecik boşluğu).",
   kronoloji:[
           { t:"1903-11-03", tur:"kurulus", b:"Panamalılar Kolombiya'ya karşı ayaklanarak bağımsız Panama Cumhuriyeti'ni ilan etti", kaynak:"history.state.gov/countries/panama (Office of the Historian) — AYNEN: «Panamanians had revolted against the Colombian government, declared an independent Republic of Panama» (3 Kasım 1903). Ayrıca TDV `amerika` maddesi gövdesinde AYNEN: «Kolombiya'ya bağlı olan Panama ise 1903'te ayrılarak bağımsızlığını kazandı.»" },
           { t:"1903-11-18", tur:"antlasma", b:"Hay–Bunau-Varilla Antlaşması imzalandı, ABD'ye kanal bölgesi üzerinde kalıcı haklar tanındı", kaynak:"history.state.gov/milestones/1899-1913/panama-canal (Office of the Historian) — «On November 18, 1903, the United States signed the Hay-Bunau-Varilla Treaty, establishing permanent U.S. rights to a Panama Canal Zone». 🟡 Cümle arama özetinden alındı; milestone sayfasının gövdesini ayrıca çekmedim." },
-          { t:"1903-11-18", tur:"toprak-kayip", b:"Aynı antlaşmayla kıstağı boydan boya kesen 10 millik Kanal Bölgesi ABD denetimine bırakıldı", kaynak:"history.state.gov/milestones/1899-1913/panama-canal — «a Panama Canal Zone that stretched across the isthmus… a 10-mile wide strip of land». 🟡 aynı sayfa, aynı damga: gövde ayrıca çekilmedi." }
-        ]
+          { t:"1903-11-18", tur:"toprak-kayip", b:"Aynı antlaşmayla kıstağı boydan boya kesen 10 millik Kanal Bölgesi ABD denetimine bırakıldı", kaynak:"history.state.gov/milestones/1899-1913/panama-canal — «a Panama Canal Zone that stretched across the isthmus… a 10-mile wide strip of land». 🟡 aynı sayfa, aynı damga: gövde ayrıca çekilmedi." },
+    { t:"1964-01-09", tur:"isyan", b:"Kanal Bolgesi'nde bayrak olayi uzerine cikan ayaklanmada onlarca Panamali oldu; ABD ile iliskiler koptu.", kaynak:"Library of Congress Country Studies Panama" },
+    { t:"1968-10-11", tur:"siyaset", b:"Ulusal Muhafiz darbesiyle Baskan Arnulfo Arias devrildi, Omar Torrijos donemi basladi.", kaynak:"Library of Congress Country Studies Panama" },
+    { t:"1977-09-07", tur:"antlasma", b:"Torrijos-Carter Antlasmalari imzalandi: kanalin Panama'ya devri ve tarafsizligi ongoruldu.", kaynak:"Office of the Historian, history.state.gov/milestones Panama Canal Treaties" },
+    { t:"1979-10-01", tur:"toprak-kazanc", b:"Antlasmalar yururluge girdi, Kanal Bolgesi lagvedildi ve topraklari Panama yonetimine gecti.", kaynak:"Office of the Historian, history.state.gov/milestones Panama Canal Treaties" },
+    { t:"1989-12-20", tur:"isgal", b:"ABD Panama'yi isgal etti (Just Cause), Noriega rejimi yikildi.", kaynak:"Office of the Historian, history.state.gov/milestones Panama; Library of Congress Country Studies Panama" },
+    { t:"1999-12-31", tur:"toprak-kazanc", b:"Panama Kanali tam yonetimiyle Panama'ya devredildi.", kaynak:"Office of the Historian, history.state.gov/milestones Panama Canal Treaties; Britannica Panama Canal" }
+  ]
 },
 // 🔴 VE BU KÜNYE, YAZANIN KENDİ ÖNERİSİNİ ÇÜRÜTEREK GELDİ — 2 Eylül 2026.
 //   İlk öneri `1232 → 1517-05-01`di. Koordinatör *"`§3.5.1`: devletin
@@ -7515,27 +7785,32 @@ window.DEVLETLER = [
     { t:"1922-10-10", tur:"antlasma", b:"İngiliz-Irak Antlaşması imzalandı; Milletler Cemiyeti mandası bu çerçevede resmîleşti", kaynak:"standart akademik (Anglo-Iraqi Treaty 1922) — künyenin ozet alanındaki '~1922 MC onayı' notunun günlü hâli, ayrıca doğrulanmalı" },
     { t:"1958-07-14", tur:"son", b:"14 Temmuz Devrimi: Abdülkerim Kasım liderliğindeki darbeyle II. Faysal öldürüldü, krallık yıkılıp cumhuriyet ilan edildi", kaynak:"standart akademik/ansiklopedik (1958 Iraqi coup d'état) — TDV kapsam dışı, künyenin t: alanıyla (1958) birebir uyumlu" }
   ] },
-{ id:"suriye-lubnan-mandasi", ad:"Fransız Suriye-Lübnan Manda İdaresi", bolge:"arabistan", f:"1920-07-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — Fransızlar Suriye'den 1946 baharında, Lübnan'dan 1946 sonunda çekildi (TDV suriye / lubnan, özet — gün yok)",
+{ id:"suriye-lubnan-mandasi", ad:"Fransız Suriye-Lübnan Manda İdaresi", bolge:"arabistan", f:"1920-07-01", t:"1946-04-17", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — Fransızlar Suriye'den 1946 baharında, Lübnan'dan 1946 sonunda çekildi (TDV suriye / lubnan, özet — gün yok)",
   ozet:"Temmuz 1920'de Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verilmesinin ardından kurulan Fransız idaresi; Milletler Cemiyeti onayı ~1922, manda 1946'ya dek (site ufkunun dışında) sürdü. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"TDV, madde: suriye — \"Fransız işgali, iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\" · \"Suriye'de Faysal dönemi sona erdi\" (Han Meyselûn, Temmuz 1920). Gün TDV'de VERİLMİYOR, yalnız ay/yıl — f: bu yüzden ayın 1'ine değil, TDV'nin verdiği AYA sabitlendi.",
   kronoloji:[
     { t:"1920-07-25", tur:"kurulus", b:"Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verildi, Fransız askerî idaresi başladı", kaynak:"TDV: sam--suriye — «Fransızlar temmuzda Suriyeliler’i ağır bir yenilgiye uğrattıktan sonra Şam’a girerek Faysal yönetimine son verdiler (25 Temmuz 1920).» · TDV: suriye — «Temmuz 1920’de Beyrut-Şam arasında Han Meyselûn’da Fransızlar’ın Suriyeliler’i ağır bir yenilgiye uğratmasının ardından Suriye’de Faysal dönemi sona erdi ve kendisi sürgüne gönderildi.» (AY) — eski t 1920-07-24 Meyselûn SAVAŞININ günüdür; maddenin olayı (Faysal yönetiminin sonu) TDV sam--suriye'de 25 Temmuz" },
-    { t:"1922-07-24", tur:"siyaset", b:"Milletler Cemiyeti, Fransa'nın Suriye-Lübnan mandasını resmen onayladı", kaynak:"künyenin kendi ozet alanı ('~1922 MC onayı') — gün standart akademik kaynaktan (Fransız mandası Konseyi onayı 24 Temmuz 1922), ayrıca doğrulanmalı" }
+    { t:"1922-07-24", tur:"siyaset", b:"Milletler Cemiyeti, Fransa'nın Suriye-Lübnan mandasını resmen onayladı", kaynak:"künyenin kendi ozet alanı ('~1922 MC onayı') — gün standart akademik kaynaktan (Fransız mandası Konseyi onayı 24 Temmuz 1922), ayrıca doğrulanmalı" },
+    { t:"1945-05-29", tur:"siyaset", b:"Fransız kuvvetleri Şam'ı bombaladı (Levant krizi); İngiliz müdahalesi ve ateşkesle Fransa'nın konumu çöktü.", kaynak:"https://countrystudies.us/syria/10.htm" },
+    { t:"1945-12-13", tur:"antlasma", b:"Fransa ile Britanya, Suriye ve Lübnan'dan kuvvet çekilişi konusunda anlaştı.", kaynak:"https://www.globalsecurity.org/military/world/syria/history-ww2.htm" },
+    { t:"1946-04-17", tur:"son", b:"Son Fransız askerleri Suriye'den çekildi; Suriye'de Tahliye/Bağımsızlık Günü olarak anılır.", kaynak:"https://omniatlas.com/maps/eastern-mediterranean/19460417/" }
   ] },
 { id:"filistin-mandasi", ad:"İngiliz Filistin Mandası", bolge:"arabistan", f:"1920-07-01", t:"1948-05-14",
   ozet:"Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
   kaynak:"TDV, madde: filistin — 1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
   kronoloji:[
     { t:"1920-07-01", tur:"kurulus", b:"Filistin'de İngiliz mülkî manda idaresi kuruldu (askerî işgal 1917'den beri sürüyordu)", kaynak:"TDV: filistin — «İngiltere, Temmuz 1920 tarihinden itibaren Filistin’de bir sivil manda yönetimi kurdu» — AY (gün TDV'de yok)" },
-    { t:"1922-07-24", tur:"antlasma", b:"Milletler Cemiyeti, İngiltere'nin Filistin mandasını resmen onayladı", kaynak:"TDV: filistin — «İngiltere’nin Filistin ve Ürdün üzerinde kurduğu manda idaresi 24 Temmuz 1922’de Milletler Cemiyeti tarafından da onaylandı.»" },
-    { t:"1948-05-14", tur:"son", b:"İngiliz mandası sona erdi; aynı gün İsrail Devleti ilan edildi", kaynak:"standart akademik/ansiklopedik (1948 Palestine Mandate'in bitişi) — TDV kapsam dışı, künyenin t: alanıyla (1948-05-14) birebir uyumlu" }
+    { t:"1922-07-24", tur:"antlasma", b:"Milletler Cemiyeti, İngiltere'nin Filistin mandasını resmen onayladı", kaynak:"TDV: filistin — «İngiltere’nin Filistin ve Ürdün üzerinde kurduğu manda idaresi 24 Temmuz 1922’de Milletler Cemiyeti tarafından da onaylandı.»" }
   ] },
 { id:"urdun-emirligi", ad:"Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", bolge:"arabistan", f:"1921-02-01", t:"1946-05-25",
   ozet:"Faysal'ın Şam'dan çıkarılmasının ardından kardeşi Abdullah'ın Şubat 1921'de kendini emir ilan etmesiyle kurulan, İngiliz himayesindeki emirlik; 1946'da (site ufkunun dışında) Ürdün Krallığı'na dönüştü.",
   kaynak:"TDV, madde: urdun — \"Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\"",
   kronoloji:[
     { t:"1921-02-01", tur:"kurulus", b:"Abdullah bin Hüseyin kendini Şarkî Ürdün Emîri ilan etti", kaynak:"TDV: urdun — «kardeşi Abdullah Ürdün’e gelerek Şubat 1921’de kendini Şarkī Ürdün emîri ilân etti.» — AY (gün TDV'de yok)" },
-    { t:"1946-05-25", tur:"son", b:"Londra Antlaşması ile İngiliz mandası sona erdi, Ürdün Krallığı ilan edildi", kaynak:"standart akademik/ansiklopedik (Treaty of London 1946) — TDV kapsam dışı, künyenin t: alanıyla (1946-05-25) birebir uyumlu" }
+    { t:"1946-05-25", tur:"son", b:"Londra Antlaşması ile İngiliz mandası sona erdi, Ürdün Krallığı ilan edildi", kaynak:"standart akademik/ansiklopedik (Treaty of London 1946) — TDV kapsam dışı, künyenin t: alanıyla (1946-05-25) birebir uyumlu" },
+    { t:"1945-03-22", tur:"ittifak", b:"Şarkî Ürdün, Arap Birliği'nin kurucu üyelerinden olarak Birlik paktına katıldı.", kaynak:"https://countrystudies.us/jordan/9.htm" },
+    { t:"1946-03-22", tur:"antlasma", b:"Londra Antlaşması ile Britanya, Ürdün'ün bağımsızlığını tanıdı.", kaynak:"https://history.state.gov/historicaldocuments/frus1946v07/d620" },
+    { t:"1946-06-17", tur:"siyaset", b:"Londra Antlaşması'nın onay belgeleri Amman'da değiştirildi; mandanın resmen bittiği tarih olarak da anılır.", kaynak:"https://en.wikipedia.org/wiki/Treaty_of_London_(1946) (tek dayanak değil)" }
   ] },
 { id:"misir-sultanligi", ad:"Mısır Sultanlığı (İngiliz Himayesi)", bolge:"misir-sudan", f:"1914-12-18", t:"1922-03-15",
   ozet:"18 Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 15 Mart 1922'de Fuâd'ın kral unvanını almasıyla Krallığa dönüştü.",
@@ -7593,16 +7868,19 @@ window.DEVLETLER = [
   kaynak:"standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi",
   kronoloji:[
     { t:"1814-08-13", tur:"toprak-kayip", b:"Londra Sozlesmesi (Anglo-Dutch Convention 1814), Berbice/Demerara/Essequibo kolonilerinin Ingiltere'ye kalici devrini onayladi; Hollanda Guyanasi bu uc bolgeyi kalici kaybetti.", kaynak:"Anglo-Dutch Convention of 13 August 1814 — Sovereign Limits, 'Guyana-Suriname Land Boundary' resmi sinir incelemesi" },
-    { t:"1891-01-01", tur:"antlasma", b:"Rus Çarı III. Aleksandr'ın hakemlik kararı (Mayıs 1891), Lawa nehrini Hollanda Guyanası ile Fransız Guyanası arasındaki sınır olarak belirledi, tartışmalı altın bölgesini Surinam lehine bıraktı.", kaynak:"UN RIAA (legal.un.org/riaa) + France-Suriname border sinir incelemesi (Sovereign Limits); gun belirsiz, yalniz 'Mayis 1891'" },
-    { t:"1975-11-25", tur:"son", b:"Hollanda, Surinam'ın bağımsızlığını tanıdı; Johan Ferrier ilk cumhurbaşkanı oldu.", kaynak:"Encyclopaedia Britannica 'Suriname/History' — WebSearch özetinden (403 nedeniyle doğrudan açılamadı)" }
+    { t:"1891-01-01", tur:"antlasma", b:"Rus Çarı III. Aleksandr'ın hakemlik kararı (Mayıs 1891), Lawa nehrini Hollanda Guyanası ile Fransız Guyanası arasındaki sınır olarak belirledi, tartışmalı altın bölgesini Surinam lehine bıraktı.", kaynak:"UN RIAA (legal.un.org/riaa) + France-Suriname border sinir incelemesi (Sovereign Limits); gun belirsiz, yalniz 'Mayis 1891'" }
   ] },
-{ id:"fransiz-guyanasi", ad:"Fransız Guyanası", bolge:"guney-amerika", f:"1817-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): Fransız idaresi 1945'ten sonra da sürdü (bugün Fransız denizaşırı bölgesi — künyenin kendi ozet'i); 1946 departman statüsü günü ölçülemedi",
+{ id:"fransiz-guyanasi", ad:"Fransız Guyanası", bolge:"guney-amerika", f:"1817-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): Fransız idaresi 1945'ten sonra da sürdü (bugün Fransız denizaşırı bölgesi — künyenin kendi ozet'i); 1946 departman statüsü günü ölçülemedi",
   ozet:"17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü Güney Amerika toprağı (bugün de Fransız denizaşırı bölgesi). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"standart akademik/ansiklopedik — TEK kaynaklı",
   kronoloji:[
     { t:"1817-01-01", tur:"kurulus", b:"1817 Paris Antlaşması sonrası Fransa, Guyana'daki varlığını kalıcı sömürgeye dönüştürdü", kaynak:"künyenin kendi ozet alanı ('17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü') — bu turda kronoloji dizisine TAŞINDI, yeni araştırma değil" },
     { t:"1895-05-15", tur:"isgal", b:"Fransız kuvvetleri, sınır anlaşmazlığı sürerken tartışmalı Amapá bölgesini (Oiapoque-Araguari arası) Araguari nehrine kadar işgal etti.", kaynak:"Imago Mundi/Taylor & Francis akademik makale, 'A New Map of the Franco-Brazilian Border Dispute (1900)' (tandfonline.com); ayrıca Governo do Amapá resmi tarih kaydı 'O Laudo Suíço'" },
-    { t:"1900-12-01", tur:"toprak-kayip", b:"İsviçre hakemlik kararı (Laudo Suíço), Fransa-Brezilya Contestado/Amapá anlaşmazlığını Brezilya lehine sonuçlandırdı; Fransa tartışmalı bölge iddiasını kalıcı kaybetti.", kaynak:"Governo do Estado do Amapá resmi tarih kaydı 'O Laudo Suíço' + UN Reports of International Arbitral Awards, 'The Guiana Boundary Case' (legal.un.org/riaa)" }
+    { t:"1900-12-01", tur:"toprak-kayip", b:"İsviçre hakemlik kararı (Laudo Suíço), Fransa-Brezilya Contestado/Amapá anlaşmazlığını Brezilya lehine sonuçlandırdı; Fransa tartışmalı bölge iddiasını kalıcı kaybetti.", kaynak:"Governo do Estado do Amapá resmi tarih kaydı 'O Laudo Suíço' + UN Reports of International Arbitral Awards, 'The Guiana Boundary Case' (legal.un.org/riaa)" },
+    { t:"1946-03-19", tur:"siyaset", b:"Departmanlaşma Kanunu ile Fransız Guyanası sömürge statüsünden çıkıp Fransa'nın denizaşırı departmanı oldu.", kaynak:"https://www.cambridge.org/core/journals/contemporary-european-history/article/after-the-colonial-past-ambivalences-of-assimilation-in-french-guiana-from-1946-to-the-mid1950s/E370F97C29B1AFA9BF9D745FF676B8AB" },
+    { t:"1964-04-14", tur:"siyaset", b:"Fransa, uzay merkezini Kourou'da kurma kararı aldı (CNES).", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1979-12-24", tur:"siyaset", b:"Kourou'dan ilk Ariane roketi fırlatıldı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1982-03-02", tur:"siyaset", b:"Ademi merkeziyet kanunuyla Guyana bölge (region) statüsü ve seçilmiş bölge meclisi kazandı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ] },
 { id:"agadez-sultanligi", ad:"Agadez (Aïr) Sultanlığı — Tuareg", bolge:"bati-afrika", f:"1405-01-01", t:"1923-10-29",
   ozet:"1405'te yerel Tuareg boyları arasında arabuluculuk için kurulan Aïr Sultanlığı; 1500-1591 Songhay tâbiiyetinde kaldı, sonra yeniden bağımsızlaştı, 1906'da Fransız himayesine girdi (fiilî sömürge yönetimi ancak 1917'de, ayaklanmalar bastırıldıktan sonra).",
@@ -7692,8 +7970,7 @@ window.DEVLETLER = [
   ozet:"Mehdî Devleti'nin İngiliz-Mısır ordularınca yıkılmasından sonra 19 Ocak 1899'da imzalanan antlaşmayla kurulan, nominal Osmanlı/Mısır ortaklığına rağmen fiilen İngiltere'nin yönettiği Sudan idaresi (1923 sonrasında da sürdü, 1956'da bağımsızlığa dek).",
   kaynak:"TDV, madde: sudan (CANLI, raw HTML doğrulandı, 102.752 karakter — '200≠madde' ve 'çıkarılamadı≠metin yok' tuzakları elendi, gövde gerçekten okundu) — AYNEN: \"19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu. Bâbıâli, hâkimiyet hakları ihlâl edildiği için bu antlaşmaya şiddetle karşı çıktıysa da bir netice alınamadı.\" GÜN hassasiyetinde.",
   kronoloji:[
-    { t:"1899-01-19", tur:"kurulus", b:"İngiliz-Mısır antlaşmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçti", kaynak:"TDV: sudan — «19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan’ın kontrolü fiilen İngiltere’nin eline geçmiş oldu.»" },
-    { t:"1956-01-01", tur:"son", b:"Sudan bağımsızlığını ilan etti, Anglo-Mısır Kondominyumu sona erdi", kaynak:"standart akademik/ansiklopedik (Sudan bağımsızlığı, 1 Ocak 1956) — künyenin t: alanıyla birebir uyumlu" }
+    { t:"1899-01-19", tur:"kurulus", b:"İngiliz-Mısır antlaşmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçti", kaynak:"TDV: sudan — «19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan’ın kontrolü fiilen İngiltere’nin eline geçmiş oldu.»" }
   ] },
 { id:"sutayogullari", ad:"Sutayogullari", tur:"beylik", bolge:"anadolu", f:"1343-01-01", t:"1353-01-01",
   ozet:"Ilhanli sonrasi Diyarbekir bolgesinde hakim olan Mogol asilli emirlik. TDV `diyarbakir` govdesi Amid'in el degistirme zincirinde onlari ADIYLA sayiyor: 1303'te Gazan Han sehri Mardin Artuklu sultanina verdi, 1317 ayaklanmasindan sonra Artuklu idaresi surdu, 1343'te 'Sutayogullari'ndan Ibrahim Sah' yonetti, 1353'ten sonra idare Celayirliler'e gecti. ⚠️ Kunyenin `f:`/`t:` degerleri bu YEREL zincirden gelir, hanedanin omrunden DEGIL — ayrinti `kaynak` alaninda.",
@@ -7872,8 +8149,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl kesin (Ranoji Sindiya), gün bulunamadı. t: Madhya Bharat'ın kuruluşu — WebSearch doğrulamalı ikinci kaynakla teyit edilmedi.",
   kronoloji:[
     { t:"1731-01-01", tur:"kurulus", b:"Ranoji Sindiya, Gvalyar'da hâkimiyet kurdu" },
-    { t:"1803-12-30", tur:"antlasma", b:"İkinci Anglo-Maratha Savaşı sonrası Surji-Anjangaon Antlaşması ile Sindiya, Ganj-Cemna Doab'ı, Delhi-Ağra bölgesini ve başka toprakları İngilizlere bıraktı (Gvalyar/Gohad 1805 revizyonuyla kısmen iade edildi).", kaynak:"Encyclopaedia Britannica 'Treaty of Surji-Arjungaon' — WebSearch özetinden, sayfa 403 verdi doğrudan açılamadı" },
-    { t:"1948-05-28", tur:"son", b:"Madhya Bharat'ın kuruluşuyla Gvalyar Hindistan'a katıldı" }
+    { t:"1803-12-30", tur:"antlasma", b:"İkinci Anglo-Maratha Savaşı sonrası Surji-Anjangaon Antlaşması ile Sindiya, Ganj-Cemna Doab'ı, Delhi-Ağra bölgesini ve başka toprakları İngilizlere bıraktı (Gvalyar/Gohad 1805 revizyonuyla kısmen iade edildi).", kaynak:"Encyclopaedia Britannica 'Treaty of Surji-Arjungaon' — WebSearch özetinden, sayfa 403 verdi doğrudan açılamadı" }
   ] },
 { id:"indor", ad:"İndor Devleti (Holkar Hanedanı)", tur:"devlet", bolge:"guney-asya",
   f:"1732-07-29", t:"1948-05-28",
@@ -7881,8 +8157,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak.",
   kronoloji:[
     { t:"1732-07-29", tur:"kurulus", b:"Holkar hanedanı İndor'da hâkimiyet kurdu" },
-    { t:"1818-01-06", tur:"antlasma", b:"Üçüncü Anglo-Maratha Savaşı'nda Mahidpur Muharebesi sonrası Mandsaur Antlaşması ile Holkar, Narmada güneyi ve Khandeş topraklarını terk etti, İngiliz himayesine (subsidiary alliance) girdi.", kaynak:"Treaty of Mandsaur (1818) özgün antlaşma metni — Wikisource (en.wikisource.org/wiki/Treaty_of_Mandsaur), madde 3-6 DOĞRUDAN OKUNDU (birincil kaynak)" },
-    { t:"1948-05-28", tur:"son", b:"Madhya Bharat'ın kuruluşuyla İndor Hindistan'a katıldı" }
+    { t:"1818-01-06", tur:"antlasma", b:"Üçüncü Anglo-Maratha Savaşı'nda Mahidpur Muharebesi sonrası Mandsaur Antlaşması ile Holkar, Narmada güneyi ve Khandeş topraklarını terk etti, İngiliz himayesine (subsidiary alliance) girdi.", kaynak:"Treaty of Mandsaur (1818) özgün antlaşma metni — Wikisource (en.wikisource.org/wiki/Treaty_of_Mandsaur), madde 3-6 DOĞRUDAN OKUNDU (birincil kaynak)" }
   ] },
 { id:"kolhapur", ad:"Kolhapur Devleti (Şivâcî'nin İkinci Kolu)", tur:"devlet", bolge:"guney-asya",
   f:"1710-01-01", t:"1949-03-01",
@@ -7898,8 +8173,7 @@ window.DEVLETLER = [
   ozet:"Pilaji Rao Gaikvad'ın Baroda'yı Bâbürlü'den alışıyla kurulan, Maratha Konfederasyonu'nun dördüncü büyük üye devleti (Sindiya/Holkar/Bhonsle ile birlikte); İngiliz himayesinde prens devleti olarak sürdü, Hindistan'a resmî katılımla sona erdi. 🔴 Baroda/Vadodara yerlesimler.js'te NOKTA OLARAK YOK (bağımsız tarandı, girdi.GIRDI_DOSYALARI'nda hiç çıkmadı) — künye yazılsa bile Lübnan'la aynı sınıf bir görünmezlik sorunu var, ayrı bir iş.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl net, gün bulunamadı. t: WebSearch — \"Baroda merged into the Dominion of India on 1 May 1949\".",
   kronoloji:[
-    { t:"1721-01-01", tur:"kurulus", b:"Pilaji Rao Gaikvad, Baroda'yı Bâbürlü idaresinden aldı" },
-    { t:"1949-05-01", tur:"son", b:"Baroda Hindistan'a resmî olarak katıldı" }
+    { t:"1721-01-01", tur:"kurulus", b:"Pilaji Rao Gaikvad, Baroda'yı Bâbürlü idaresinden aldı" }
   ] },
 { id:"bali-kralliklari-pejeng", ad:"Bali Pejeng Krallığı", tur:"krallik", bolge:"guneydogu-asya",
   f:"1292-01-01", t:"1343-01-01",
@@ -7922,14 +8196,19 @@ window.DEVLETLER = [
     { t:"1920-07-24", tur:"savas", b:"Meysülun Savaşı: Fransız kuvvetleri Suriye Arap ordusunu yendi", kaynak:"Lawson, 'Maysalun' (Encyclopedia of the Modern Middle East and North Africa)" },
     { t:"1920-07-25", tur:"son", b:"Fransızlar Şam'a girerek Faysal yönetimine son verdi", kaynak:"TDV: sam--suriye · Lawson" }
   ] },
-{ id:"kosta-rika-cumhuriyeti", ad:"Kosta Rika Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1838-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
+{ id:"kosta-rika-cumhuriyeti", ad:"Kosta Rika Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1838-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   baskent:"San José",
   ozet:"Braulio Carrillo döneminde toplanan Kurucu Meclis 1838'de Kosta Rika'yı dağılmakta olan Orta Amerika Federasyonu'ndan ayırıp egemen devlet ilan etti; José María Castro Madriz 1848'de ülkeyi resmen cumhuriyet ilan etti. Federasyon dönemi `guatemala` künyesi altında izlenir. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"f: Lowell Gudmundson, Encyclopedia of Latin American History and Culture, 'Carrillo Colina, Braulio' (encyclopedia.com) — «convened a Constituent Assembly in 1838 which declared Costa Rica's independence» (YIL); SINABI (Kosta Rika Ulusal Kütüphane Sistemi), 'Hitos de la Diplomacia' — «1838, Costa Rica asumió la condición de estado soberano» (YIL). Birincil neşir: Colección de las Leyes … 1837-1838, Tomo 5, s. 282-284 (SINABI künyesi; OKUNAMADI). 1848: SINABI biyografi sözlüğü (Castro Madriz) — «según el Decreto n. 134 del 31 de agosto de 1848; fundó la República»; Presidencia de la República — «el 31 de agosto de 1848»; history.state.gov — «August 30, 1848». TDV `kosta-rika`/`kostarika`/`costa-rica` ÖLÜ (302); `amerika` 1838'i kapsamıyor.",
   not:"f YIL hassasiyetinde: 14 Kasım 1838 yalnız Vikipedi ve kaynaksız sitelerde — birincil neşir (SCIJ/pgrweb, Meclis PDF'i) bu turda AÇILAMADI (ölçülemedi). 🔴 ÇELİŞKİ (cumhuriyet ilanı): 30 Ağustos 1848 (ABD Office of the Historian) ↔ 31 Ağustos 1848 (SINABI + Presidencia, 134 sayılı kararname); taraf SEÇİLMEDİ — muhtemel açıklama (kongre kararı / onay) doğrulanmadı. BAŞKENT KAYNAKSIZ: San José yalnız dolaylı işaret (1839 basım yeri «Imprenta del Estado, San José»). t = pencere sonu. Veride iki id: `kosta-rika-cumhuriyeti` (sınır dosyaları, 1858'den) ve `kosta-rika` (kronoloji_cok_1dunya_B.js).",
   kronoloji:[
     { t:"1838-01-01", tur:"kurulus", b:"Kurucu Meclis Kosta Rika'yı Orta Amerika Federasyonu'ndan ayrı egemen devlet ilan etti (gün bilinmiyor)", kaynak:"Gudmundson (ELAHC) · SINABI" },
-    { t:"1848-01-01", tur:"siyaset", b:"Castro Madriz Kosta Rika'yı resmen cumhuriyet ilan etti (30/31 Ağustos 1848 — kaynaklar ayrışıyor)", kaynak:"SINABI · Presidencia CR ↔ history.state.gov" }
+    { t:"1848-01-01", tur:"siyaset", b:"Castro Madriz Kosta Rika'yı resmen cumhuriyet ilan etti (30/31 Ağustos 1848 — kaynaklar ayrışıyor)", kaynak:"SINABI · Presidencia CR ↔ history.state.gov" },
+    { t:"1948-03-12", tur:"ic-savas", b:"Seçim sonucunun iptali üzerine Figueres önderliğinde iç savaş başladı.", kaynak:"https://en.wikipedia.org/wiki/Costa_Rican_Civil_War (tek dayanak değil)" },
+    { t:"1948-04-24", tur:"ic-savas", b:"Figueres güçleri galip geldi, iç savaş sona erdi (yaklaşık 2000 ölü).", kaynak:"https://en.wikipedia.org/wiki/Costa_Rican_Civil_War (tek dayanak değil)" },
+    { t:"1948-12-01", tur:"siyaset", b:"Figueres cuntası orduyu kaldırdığını ilan etti.", kaynak:"https://ideasforpeace.org/?p=4853" },
+    { t:"1949-11-07", tur:"siyaset", b:"Orduyu kalıcı kurum olarak kaldıran (12. madde) yeni anayasa çıkarıldı; iktidar Ulate'ye devredildi.", kaynak:"https://www.theweek.in/news/world/2020/08/01/opinion-how-costa-rica-made-a-civilisational-advance-by-abolishing-its-army.amp.html" },
+    { t:"1987-10-13", tur:"siyaset", b:"Başkan Oscar Arias Orta Amerika barış planı nedeniyle Nobel Barış Ödülü'ne layık görüldü.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ] },
 { id:"guney-afrika-birligi", ad:"Güney Afrika Birliği", tur:"devlet", bolge:"guney-afrika", f:"1910-05-31", t:"1961-05-31",
   baskent:"Pretoria (hükûmet) · Cape Town (yasama)",
@@ -7939,8 +8218,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1910-05-31", tur:"kurulus", b:"Cape, Natal, Transvaal ve Orange River kolonileri Güney Afrika Birliği adıyla birleşti", kaynak:"London Gazette 28314 (Birlik Bildirisi)" },
     { t:"1915-07-09", tur:"isgal", b:"Alman Güneybatı Afrikası'ndaki Alman kuvvetleri teslim oldu", kaynak:"National Army Museum, 'South-West African campaign' — «On 9 July 1915, enemy forces … surrendered»" },
-    { t:"1920-12-17", tur:"toprak-kazanc", b:"Milletler Cemiyeti Güneybatı Afrika'yı C-tipi manda olarak Birliğe verdi", kaynak:"MC manda metni «Made at Geneva on the 17th day of December, 1920» (AALCO 9. oturum eki) · FRUS 1921 c.I d111" },
-    { t:"1961-05-31", tur:"son", b:"Güney Afrika Cumhuriyeti ilan edildi, Birlik sona erdi", kaynak:"TDV: guney-afrika-cumhuriyeti" }
+    { t:"1920-12-17", tur:"toprak-kazanc", b:"Milletler Cemiyeti Güneybatı Afrika'yı C-tipi manda olarak Birliğe verdi", kaynak:"MC manda metni «Made at Geneva on the 17th day of December, 1920» (AALCO 9. oturum eki) · FRUS 1921 c.I d111" }
   ] },
 { id:"guneybati-afrika-mandasi", harita:"ingiltere", ad:"Güneybatı Afrika (Güney Afrika Mandası)", bolge:"guney-afrika", f:"1920-12-17", t:"1990-03-21",
   baskent:"Windhoek",
@@ -7948,8 +8226,7 @@ window.DEVLETLER = [
   kaynak:"f: MC manda metni, AALCO 9. oturum eki (aalco.int, PDF metin katmanı okundu) — «Made at Geneva on the 17th day of December, 1920» · FRUS 1921 c.I d111 — «defined by the Council … at its meeting on December 17th, 1920». t: UN Namibia (namibia.un.org) — «Namibia became an independent country on 21 March 1990» · UN Peacekeeping UNTAG. Başkent: National Army Museum. TDV `namibya` ÖLÜ (302).",
   not:"tur önerisi: `manda` (sözlükte yok; emsal `suriye-lubnan-mandasi`/`filistin-mandasi` tur taşımıyor). 1915-07-09 → 1920-12-17 askerî işgal dilimi bu künyeye KATILMADI (hukukî ömür ≠ tasarruf; §3.5.0 ③) — ayrı dilim ya da `guney-afrika-birligi` gövdesi, KARAR 1.MURAT. BM GK 2145 (27 Ekim 1966) mandayı hukuken sona erdirdi — günü bu turda ÖLÇÜLMEDİ; t fiilî idarenin sonudur. Walvis Bay 1994'e kadar Güney Afrika'da — doğrulanmadı.",
   kronoloji:[
-    { t:"1920-12-17", tur:"kurulus", b:"Milletler Cemiyeti Konseyi C-tipi mandayı Güney Afrika Birliği'ne verdi", kaynak:"MC manda metni (AALCO) · FRUS 1921 c.I d111" },
-    { t:"1990-03-21", tur:"son", b:"Namibya bağımsızlığını kazandı", kaynak:"UN Namibia" }
+    { t:"1920-12-17", tur:"kurulus", b:"Milletler Cemiyeti Konseyi C-tipi mandayı Güney Afrika Birliği'ne verdi", kaynak:"MC manda metni (AALCO) · FRUS 1921 c.I d111" }
   ] },
 { id:"fransiz-kamerun-mandasi", harita:"fransa-cumhuriyet", ad:"Fransız Kamerunu (Fransız Mandası)", bolge:"orta-afrika", f:"1922-07-20", t:"1960-01-01",
   baskent:"Yaoundé",
@@ -8018,8 +8295,7 @@ window.DEVLETLER = [
     { t:"1890-01-01", tur:"isgal", b:"İngiliz Güney Afrika Şirketi kuvvetleri Maşonaland'ı işgal etti (gün bilinmiyor)", kaynak:"TDV: zimbabve" },
     { t:"1898-10-20", tur:"siyaset", b:"Order in Council ile Güney Rodezya bir idarî birim olarak tanımlandı", kaynak:"IBS 117 · IBS 118 · IBS 148" },
     { t:"1923-01-01", tur:"siyaset", b:"Şirket yönetimi sona erdi, Güney Rodezya Taç'a bağlı özyönetimli koloni oldu (ÇELİŞKİ: TDV 1924)", kaynak:"IBS 118 · Letters Patent 1923 (vLex) ↔ TDV zimbabve" },
-    { t:"1965-11-11", tur:"isyan", b:"Tek taraflı bağımsızlık ilanı (UDI)", kaynak:"IBS 117 · IBS 118" },
-    { t:"1980-04-18", tur:"son", b:"Zimbabve adıyla bağımsız oldu", kaynak:"TDV: zimbabve" }
+    { t:"1965-11-11", tur:"isyan", b:"Tek taraflı bağımsızlık ilanı (UDI)", kaynak:"IBS 117 · IBS 118" }
   ] },
 { id:"portekiz-mozambik", harita:"portekiz", ad:"Portekiz Mozambiği (Portekiz Doğu Afrikası)", bolge:"dogu-afrika", f:"1505-01-01", t:"1975-06-25",
   baskent:"Mozambik adası → Lourenço Marques",
@@ -8031,21 +8307,34 @@ window.DEVLETLER = [
     { t:"1891-06-11", tur:"antlasma", b:"İngiliz-Portekiz antlaşmasıyla Mozambik'in sınırları çizildi", kaynak:"IBS 112 · IBS 133" },
     { t:"1975-06-25", tur:"son", b:"Mozambik'in bağımsızlığı ilan edildi", kaynak:"TDV: mozambik" }
   ] },
-{ id:"honduras-cumhuriyeti", ad:"Honduras Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1838-10-26", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
+{ id:"honduras-cumhuriyeti", ad:"Honduras Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1838-10-26", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   baskent:"Comayagua → Tegucigalpa (1880)",
   ozet:"1823'te Orta Amerika Birleşik Eyaletleri'ne katılan Honduras, federasyon dağılırken 1838 sonbaharında Comayagua'daki Kurucu Meclis kararıyla ayrı devlet oldu. Federasyon dönemi `guatemala` künyesi altında izlenir. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"f: Worldmark Encyclopedia of Nations, 'Honduras' (encyclopedia.com) — «After Honduras declared itself independent on 26 October 1838». Başkent: Encyclopedia of Latin American History and Culture, 'Tegucigalpa' (Kenneth V. Finney; encyclopedia.com) — «In 1880 … Soto moved the seat of government permanently to Tegucigalpa». ABD tanıması 19 Nisan 1853: history.state.gov/countries/honduras. TDV `amerika` yalnız «1823-1839 arasında … Honduras, Nikaragua … bağımsızlıklarını kazandılar» (gün yok); TDV `honduras` ÖLÜ (302).",
   not:"5 Kasım 1838 (taslağın günü) YALNIZ Vikipedi türevi kaynaklarda — kabul edilebilir kaynakta YOK; ikincil anlatıya göre 26 Ekim bağımsızlık kararı, 5 Kasım onun genişletilmesi. Kararnamenin birincil metni BULUNAMADI. t = pencere sonu (devlet sürüyor), bir bitiş iddiası DEĞİL. Veride iki ayrı id var: `honduras-cumhuriyeti` (sınır dosyaları) ve `honduras` (kronoloji_cok_1dunya_B.js) — bkz. `kunyesiz_kimlikler.esleme`.",
   kronoloji:[
-    { t:"1838-10-26", tur:"kurulus", b:"Kurucu Meclis Honduras'ı federasyondan ayrı, bağımsız devlet ilan etti", kaynak:"Worldmark Encyclopedia of Nations" }
+    { t:"1838-10-26", tur:"kurulus", b:"Kurucu Meclis Honduras'ı federasyondan ayrı, bağımsız devlet ilan etti", kaynak:"Worldmark Encyclopedia of Nations" },
+    { t:"1954-05-02", tur:"siyaset", b:"Muz plantasyonu işçilerinin büyük grevi başladı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1963-10-03", tur:"siyaset", b:"Albay López Arellano darbeyle Villeda Morales'i devirdi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1969-07-14", tur:"savas", b:"El Salvador ile 'Futbol Savaşı' başladı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1980-10-30", tur:"antlasma", b:"El Salvador ile Lima Barış Antlaşması imzalandı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1982-01-27", tur:"siyaset", b:"Suazo Córdova göreve başladı, sivil yönetime dönüldü.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1992-09-11", tur:"siyaset", b:"Uluslararası Adalet Divanı Honduras-El Salvador sınır davasında karar verdi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1998-10-29", tur:"felaket", b:"Mitch Kasırgası Honduras'ı vurdu.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ] },
-{ id:"nikaragua-cumhuriyeti", ad:"Nikaragua Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1838-04-30", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
+{ id:"nikaragua-cumhuriyeti", ad:"Nikaragua Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1838-04-30", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   baskent:"León → Managua",
   ozet:"Nikaragua Kurucu Meclisi, federal anayasanın yıkıma yol açtığı gerekçesiyle 30 Nisan 1838'de Orta Amerika Federasyonu'ndan ayrılarak Nikaragua'yı özgür, egemen ve bağımsız devlet ilan etti. Federasyon dönemi `guatemala` künyesi altında izlenir. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"f: BİRİNCİL — Nikaragua Ulusal Meclisi resmî mevzuat sitesi (legislacion.asamblea.gob.ni): «Decreto de la Asamblea Constituyente de 30 de Abril de 1838», md. 1 «El Estado de Nicaragua es libre, soberano e independiente», kapanış «Dado en León, a 30 de abril de 1838»; ELAHC 'Nicaragua' aynı günü veriyor. TDV `nikaragua` ÖLÜ (302).",
   not:"ÇELİŞKİ: history.state.gov/countries/nicaragua «withdrew from the Federation … on November 5, 1838» — birincil kararnameyle çelişiyor; birincil belge esas alındı. Kararname md. 1-2 yeni bir federal pakta bağlılığı saklı tutuyor (yorum notu). BAŞKENT ÇELİŞKİLİ: Managua'nın başkent oluşu ELAHC'de 1855, 1852/1858 yalnız Vikipedi'de — yıl yazılmadı. t = pencere sonu. Veride iki id: `nikaragua-cumhuriyeti` ve `nikaragua`.",
   kronoloji:[
-    { t:"1838-04-30", tur:"kurulus", b:"Kurucu Meclis Nikaragua'yı federasyondan ayırıp bağımsız devlet ilan etti", kaynak:"Nikaragua Ulusal Meclisi, 30 Nisan 1838 kararnamesi" }
+    { t:"1838-04-30", tur:"kurulus", b:"Kurucu Meclis Nikaragua'yı federasyondan ayırıp bağımsız devlet ilan etti", kaynak:"Nikaragua Ulusal Meclisi, 30 Nisan 1838 kararnamesi" },
+    { t:"1956-09-21", tur:"siyaset", b:"Anastasio Somoza García suikastle vurulup birkaç gün sonra öldü; oğulları iktidarı sürdürdü.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1972-12-23", tur:"felaket", b:"Managua depremi başkenti yıktı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1979-07-19", tur:"siyaset", b:"Sandinista devrimi Somoza rejimini devirdi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1984-11-04", tur:"siyaset", b:"Daniel Ortega genel seçimle devlet başkanı seçildi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1986-06-27", tur:"siyaset", b:"Uluslararası Adalet Divanı Nikaragua v. ABD davasında karar verdi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1990-02-25", tur:"siyaset", b:"Violeta Chamorro seçimi kazandı, barışçıl iktidar değişimi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ] },
 { id:"danzig-serbest-sehri", ad:"Danzig Serbest Şehri", tur:"cumhuriyet", bolge:"dogu-avrupa", f:"1920-11-15", t:"1939-09-01",
   baskent:"Danzig",
@@ -8172,17 +8461,21 @@ window.DEVLETLER = [
   kaynak:"TDV `kongo-demokratik-cumhuriyeti` (HTTP 200, gövde okundu): «Bağımsız Kongo Devleti'ni kurdu (1885)» · «15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi» · «30 Haziran 1960 tarihinde bağımsızlığına kavuşan». history.state.gov/countries/congo-free-state: «the Congo Free State was annexed as a colony by Belgium on November 15, 1908». f ve t GÜN hassasiyetinde.",
   not:"tur önerisi: `koloni` (sözlükte yok; emsal `portekiz-mozambik` notu). Başkentin Boma'dan Léopoldville'e taşınma yılı bu turda DOĞRULANMADI (ikincil özetlerde 1923 ve 1926 — çelişkili; TDV yalnız Léopoldville'i anıyor). D-katmanı: d_sinirlar_afrika.js 5 kayıt, en erken f 1908-11-15 — pencere tutuyor. Renk: `renkler.py`de YOK — koordinatöre önerildi.",
   kronoloji:[
-    { t:"1908-11-15", tur:"kurulus", b:"Belçika, Kongo Bağımsız Devleti'ni resmen sömürge olarak devraldı", kaynak:"TDV: kongo-demokratik-cumhuriyeti · history.state.gov congo-free-state" },
-    { t:"1960-06-30", tur:"son", b:"Kongo bağımsızlığını kazandı", kaynak:"TDV: kongo-demokratik-cumhuriyeti" }
+    { t:"1908-11-15", tur:"kurulus", b:"Belçika, Kongo Bağımsız Devleti'ni resmen sömürge olarak devraldı", kaynak:"TDV: kongo-demokratik-cumhuriyeti · history.state.gov congo-free-state" }
   ] },
-{ id:"el-salvador-cumhuriyeti", ad:"El Salvador Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1841-01-01", t:"1945-09-02", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
+{ id:"el-salvador-cumhuriyeti", ad:"El Salvador Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip", f:"1841-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   baskent:"San Salvador",
   ozet:"Orta Amerika Birleşik Eyaletleri'nin dağılmasından sonra federasyondan en son ayrılan üye; Ocak 1841'de egemen devlet oldu. Atlas ufkunun (1923-10-29) sonuna kadar sürer; t bir bitiş değil pencere ucudur. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"f: LoC Country Studies, El Salvador — 'The United Provinces of Central America' (countrystudies.us/el-salvador/5.htm): «El Salvador did so in January 1841» (AY; gün yok) · Worldmark Encyclopedia of Nations 'El Salvador' (encyclopedia.com): «when liberal forces fell to Carrera in March 1840, El Salvador declared its independence from the United Provinces of Central America shortly thereafter, in January 1841» · «The republic of El Salvador was formally proclaimed on 25 January 1859». ⚠️ ÇELİŞKİ: history.state.gov/countries/el-salvador «El Salvador declared itself an independent republic in 1839» — taraf SEÇİLMEDİ; iki kaynağın (LoC + Worldmark) verdiği Ocak 1841 esas alındı. 1841 Anayasası (Biblioteca Virtual Miguel de Cervantes, '18 de febrero de 1841' başlıklı) gövdesi HTTP 403, OKUNAMADI — gün bu yüzden künyeye YAZILMADI (D213). TDV `el-salvador` ÖLÜ (302).",
   not:"f AY hassasiyetinde (Ocak 1841 → 1841-01-01). D-katmanı: d_sinirlar_amerika.js 2 kayıt (d1923-gt-sv, d1923-hn-sv) f:1841-02-18 = 1841 anayasasının günü; künye penceresi tutuyor. bolge `orta-amerika-karayip` kapalı sözlükte YOK ama kardeş künyeler (honduras-cumhuriyeti · nikaragua-cumhuriyeti · kosta-rika-cumhuriyeti) onu taşıyor; tutarlılık için aynısı yazıldı — sözlük kararı koordinatörde. Renk YOK.",
   kronoloji:[
     { t:"1841-01-01", tur:"kurulus", b:"El Salvador, Orta Amerika Federasyonu'ndan ayrılıp egemen devlet oldu (ay: Ocak 1841)", kaynak:"LoC Country Studies El Salvador · Worldmark (encyclopedia.com)" },
-    { t:"1859-01-25", tur:"siyaset", b:"El Salvador Cumhuriyeti resmen ilan edildi", kaynak:"Worldmark Encyclopedia of Nations (encyclopedia.com) — «formally proclaimed on 25 January 1859»" }
+    { t:"1859-01-25", tur:"siyaset", b:"El Salvador Cumhuriyeti resmen ilan edildi", kaynak:"Worldmark Encyclopedia of Nations (encyclopedia.com) — «formally proclaimed on 25 January 1859»" },
+    { t:"1948-12-14", tur:"siyaset", b:"Askerî darbeyle Castaneda Castro devrildi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1969-07-14", tur:"savas", b:"Honduras ile 'Futbol Savaşı' başladı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1979-10-15", tur:"siyaset", b:"Reformcu subaylar darbesiyle Romero devrildi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1980-03-24", tur:"siyaset", b:"Başpiskopos Óscar Romero suikastle öldürüldü.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1992-01-16", tur:"antlasma", b:"Chapultepec Barış Anlaşmaları iç savaşı bitirdi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ] },
 { id:"fransiz-bati-afrika", harita:"fransa-cumhuriyet", ad:"Fransız Batı Afrikası (AOF)", bolge:"bati-afrika", f:"1895-06-16", t:"1959-01-01",
   baskent:"Saint-Louis → Dakar (1902)",
@@ -8232,8 +8525,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1890-01-01", tur:"kurulus", b:"Lewanika, İngiliz Güney Afrika Şirketi'nin himayesine girdi (yıl)", kaynak:"TDV: zambiya" },
     { t:"1911-08-17", tur:"birlesme", b:"Kuzeybatı ve Kuzeydoğu Rodezya 'Kuzey Rodezya' adıyla birleşti", kaynak:"Encyclopædia Britannica 1922 'Rhodesia' · TDV zambiya (1911, yıl)" },
-    { t:"1924-01-01", tur:"siyaset", b:"İdare şirketten İngiliz Sömürge Bakanlığı'na geçti, protektora oldu (yıl; TDV 1923 der)", kaynak:"Cambridge History in Africa (gazeteler) · Worldmark · TDV zambiya (çelişki)" },
-    { t:"1964-10-24", tur:"son", b:"Zambiya adıyla bağımsızlık", kaynak:"TDV: zambiya · Worldmark" }
+    { t:"1924-01-01", tur:"siyaset", b:"İdare şirketten İngiliz Sömürge Bakanlığı'na geçti, protektora oldu (yıl; TDV 1923 der)", kaynak:"Cambridge History in Africa (gazeteler) · Worldmark · TDV zambiya (çelişki)" }
   ] },
 { id:"ingiliz-nyasaland", harita:"ingiltere", ad:"Nyasaland Protektorası (İngiliz Orta Afrikası)", bolge:"dogu-afrika", f:"1891-05-14", t:"1964-07-06",
   baskent:"Zomba",
@@ -8272,8 +8564,7 @@ window.DEVLETLER = [
   not:"f YIL, t GÜN hassasiyetinde; f emsali `portekiz-mozambik` (kıyı yerleşiminin başlangıcı). D-katmanı: d_sinirlar_afrika.js 5 kayıt, en erken d1886-angola-almanya-swa f:1886-01-01 — pencere tutuyor. Sınır antlaşmaları (1886 Almanya · 1891 İngiltere) bu turda ÖLÇÜLMEDİ. tur önerisi: `koloni`. Renk YOK.",
   kronoloji:[
     { t:"1575-01-01", tur:"kurulus", b:"Luanda ticaret yerleşimi olarak kuruldu (yıl)", kaynak:"Worldmark (encyclopedia.com)" },
-    { t:"1951-01-01", tur:"siyaset", b:"Angola Portekiz'in denizaşırı eyaleti oldu (yıl)", kaynak:"Worldmark (encyclopedia.com)" },
-    { t:"1975-11-11", tur:"son", b:"Angola bağımsızlığını kazandı", kaynak:"Worldmark (encyclopedia.com)" }
+    { t:"1951-01-01", tur:"siyaset", b:"Angola Portekiz'in denizaşırı eyaleti oldu (yıl)", kaynak:"Worldmark (encyclopedia.com)" }
   ] },
 { id:"portekiz-gine", harita:"portekiz", ad:"Portekiz Ginesi", bolge:"bati-afrika", f:"1879-01-01", t:"1974-09-10",
   baskent:"Bissau",
@@ -8283,9 +8574,9 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1879-01-01", tur:"kurulus", b:"Yeşil Burun'dan ayrılıp doğrudan Lizbon'a bağlı ayrı sömürge oldu (yıl)", kaynak:"TDV: gine-bissau · Worldmark" },
     { t:"1886-01-01", tur:"antlasma", b:"Fransa ile sınır antlaşması (yıl)", kaynak:"TDV: gine-bissau" },
-    { t:"1973-09-24", tur:"isyan", b:"PAIGC Gine Bissau'nun bağımsızlığını ilan etti", kaynak:"TDV: gine-bissau" },
-    { t:"1974-09-10", tur:"son", b:"Portekiz bağımsızlığı tanıdı", kaynak:"TDV: gine-bissau" }
-  ] },
+    { t:"1973-09-24", tur:"isyan", b:"PAIGC Gine Bissau'nun bağımsızlığını ilan etti", kaynak:"TDV: gine-bissau" }
+  ] }
+,
 { id:"bosna-eyaleti", ad:"Osmanlı Bosna'sı (sancak → 1580 eyalet → 1866 vilâyet)", tur:"eyalet", bolge:"balkanlar",
   f:"1463-06-01", t:"1878-07-29",
   ozet:"Bosna Krallığı'nın yıkılışından Avusturya-Macaristan işgaline kadar Bosna'nın doğrudan Osmanlı idaresindeki dönemi; önce sancak, 1580'den beylerbeyilik, 1866'dan vilâyet. sirbistan-eyaleti emsaline göre açıldı. Harita rengi KASITLI OLARAK verilmedi — toprak haritada OSMANLI.",
@@ -8607,14 +8898,23 @@ window.DEVLETLER = [
     { t:"1853-12-11", tur:"son", b:"III. Raghuji varissiz öldü; 'ölüm ilkesi' uyarınca Nagpur İngiliz Hindistanı'na katıldı.", kaynak:"Britannica 'Bhonsle Dynasty'; Britannica 'Doctrine of Lapse' (gün komşudan: kronoloji_cok_orta_asya2.js)" }
   ] },
 // ── KUNYE-1945-0930 (30 Eylül 2026): 1923-1945 ufku için açılan künyeler ──
-{ id:"turkiye-cumhuriyeti", ad:"Türkiye Cumhuriyeti", tur:"cumhuriyet", bolge:"anadolu",
-  f:"1923-10-29", t:"1945-09-02", baskent:"Ankara",
+{ id:"turkiye-cumhuriyeti", ad:"Türkiye Cumhuriyeti", tur:"cumhuriyet", bolge:"anadolu", harita:"tbmm-turkiye",
+  f:"1923-10-29", baskent:"Ankara",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   ozet:"29 Ekim 1923'te Cumhuriyet'in ilanıyla Türkiye Büyük Millet Meclisi Hükûmeti'nin (bkz. [[tbmm-turkiye]]) yerini alan devlet; 1939'da Hatay'ı kattı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"TDV turkiye — 'yönetim şekli cumhuriyet olan yeni devlet ilân edildi (29 Ekim 1923)'",
   kronoloji:[
     { t:"1923-10-29", tur:"kurulus", b:"Cumhuriyet ilan edildi", kaynak:"TDV: turkiye" },
-    { t:"1939-06-23", tur:"toprak-kazanc", b:"İmzalanan antlaşmayla Hatay'ın Türkiye'ye katılması kesinleşti", kaynak:"TDV: antakya: '23 Haziran 1939'da imzalanan antlaşma ile Hatay'ın Türkiye'ye katılması kesinleşti'" }
+    { t:"1946-01-07", tur:"siyaset", b:"Demokrat Parti kuruldu; çok partili hayata geçiş.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1950-05-14", tur:"siyaset", b:"Serbest genel seçimde DP kazandı, Menderes hükûmeti kuruldu.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1952-02-18", tur:"ittifak", b:"Türkiye NATO'ya katıldı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1960-05-27", tur:"siyaset", b:"Askerî darbe Menderes hükûmetini devirdi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1961-07-09", tur:"siyaset", b:"Halk oylamasıyla 1961 Anayasası kabul edildi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1974-07-20", tur:"savas", b:"Türkiye Kıbrıs'a askerî harekât başlattı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1980-09-12", tur:"siyaset", b:"Askerî darbe yapıldı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1982-11-07", tur:"siyaset", b:"1982 Anayasası halk oylamasıyla kabul edildi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1987-04-14", tur:"ittifak", b:"Türkiye AET'ye tam üyelik başvurusu yaptı.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" },
+    { t:"1999-12-10", tur:"ittifak", b:"Helsinki zirvesinde Türkiye'ye AB aday ülke statüsü verildi.", kaynak:"bulunamadı (bu oturumda bağımsız kaynakla doğrulanmadı; teyit gerekli)" }
   ]
 },
 { id:"hatay-devleti", ad:"Hatay Devleti", tur:"cumhuriyet", bolge:"suriye-filistin",
@@ -8627,40 +8927,61 @@ window.DEVLETLER = [
   ]
 },
 { id:"suudi-arabistan", ad:"Suudi Arabistan Krallığı", tur:"krallik", bolge:"arabistan",
-  f:"1932-09-18", t:"1945-09-02", baskent:"Riyad", harita:"suud",
+  f:"1932-09-18", baskent:"Riyad", harita:"suud",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   ozet:"Necid ve Hicaz Krallığı'nın (bkz. [[suud-ucuncu]]) 18 Eylül 1932 kararnamesiyle aldığı ad. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"OH saudi-arabia — 'The name of the state was changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932.' · TDV suudi-arabistan (gün vermiyor)",
   kronoloji:[
-    { t:"1932-09-18", tur:"kurulus", b:"Kararnameyle devletin adı Suudi Arabistan Krallığı oldu", kaynak:"OH saudi-arabia" }
+    { t:"1953-01-01", tur:"hukumdar", b:"Abdülaziz'in ölümüyle Suud krallığa geçti (1953-1964); gün kaynakta yok.", kaynak:"https://www.globalsecurity.org/military/world/gulf/fahd.htm" },
+    { t:"1964-01-01", tur:"hukumdar", b:"Suud, yolsuzluk ve yönetim zayıflığı yüzünden tahttan indirildi, yerine kardeşi Faysal geçti; gün kaynakta yok.", kaynak:"https://www.aljazeera.com/news/2005/8/1/saudi-succession-follows-tradition" },
+    { t:"1973-01-01", tur:"siyaset", b:"Ekim 1973 savaşı sonrası Suudi Arabistan'ın da yer aldığı Arap OPEC üyeleri ABD ve Batı Avrupa'ya petrol ambargosu uyguladı, petrol fiyatları fırladı (ay: Ekim; kaynakta gün yok).", kaynak:"https://history.state.gov/historicaldocuments/frus1969-76ve09p2/pressrelease" },
+    { t:"1979-11-20", tur:"isyan", b:"Dinî radikaller Mekke'deki Mescid-i Haram'ı ele geçirdi; Suudi birlikleri beş gün sonra müdahale etti (gün, 24 Kasım 1979 haber özetindeki 'beş gün önce' ifadesinden çıkarım).", kaynak:"https://www.ultimate70s.com/seventies_history/19791124/news" },
+    { t:"1982-01-01", tur:"hukumdar", b:"Kral Halid'in ölümüyle Fahd kral oldu (Haziran 1982; kaynakta gün yok).", kaynak:"https://en.wikipedia.org/wiki/Fahd_of_Saudi_Arabia ; https://www.globalsecurity.org/military/world/gulf/fahd.htm" },
+    { t:"1990-08-07", tur:"ittifak", b:"Irak'ın Kuveyt işgali üzerine ABD uçak ve birlikleri Suudi Arabistan'ın savunması için konuşlandırıldı.", kaynak:"https://gulflink.fhpr.osd.mil/histories/db/marines/usmcpersiangulfdoc1_243.html" },
+    { t:"1992-01-01", tur:"siyaset", b:"Kral Fahd Temel Nizam'ı (ilk yazılı anayasal düzenleme) yayımladı; Şura Meclisi ve veraset düzeni kuruldu (Mart 1992; kaynakta yalnız yıl).", kaynak:"https://carnegieendowment.org/posts/2010/09/saudi-arabia" }
   ]
 },
 { id:"mogolistan-halk-cumhuriyeti", ad:"Moğolistan Halk Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-asya",
-  f:"1924-11-26", t:"1945-09-02", baskent:"Ulan Batur", harita:"mogolistan",
+  f:"1924-11-26", baskent:"Ulan Batur", harita:"mogolistan",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   ozet:"Bogd Han'ın ölümünden sonra 26 Kasım 1924'te ilan edilen, Sovyet desteğindeki cumhuriyet; ardılı olduğu yapı [[mogolistan]]. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi'",
   kronoloji:[
-    { t:"1924-11-26", tur:"kurulus", b:"Moğolistan Halk Cumhuriyeti ilan edildi", kaynak:"TDV: mogolistan" }
+    { t:"1924-11-26", tur:"kurulus", b:"Moğolistan Halk Cumhuriyeti ilan edildi", kaynak:"TDV: mogolistan" },
+    { t:"1945-10-20", tur:"siyaset", b:"Moğolistan'da bağımsızlık referandumu yapıldı, oylar ezici çoğunlukla bağımsızlıktan yanaydı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp80r01443r000400190003-6" },
+    { t:"1946-01-05", tur:"siyaset", b:"Çin Millî Hükûmeti referandum sonucunu kabul edip Moğolistan'ın bağımsız statüsünü tanıdı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp80r01443r000400190003-6" },
+    { t:"1961-10-27", tur:"siyaset", b:"Moğolistan 101. üye olarak Birleşmiş Milletler'e kabul edildi (1946'dan beri engelleniyordu).", kaynak:"https://www.icao.int/sites/default/files/postalhistory/mongolia_60th_anniversary_of_admission_to_the_united_nations.htm" },
+    { t:"1990-03-09", tur:"siyaset", b:"Politbüro başkanı Batmönh Politbüro'yu feshedip istifa etti, çok partili seçimlerin yolu açıldı.", kaynak:"https://en.wikipedia.org/wiki/Mongolian_Revolution_of_1990 (tek başına dayanak değil; ikinci kaynak bulunamadı)" },
+    { t:"1992-02-12", tur:"siyaset", b:"Yeni anayasa yürürlüğe girdi: bağımsız, egemen cumhuriyet, tek meclisli yasama, halkoyuyla seçilen cumhurbaşkanı.", kaynak:"https://en.wikipedia.org/wiki/1992_Mongolian_parliamentary_election ; https://www.globalsecurity.org/military/world/mongolia/government.htm" }
   ]
 },
 { id:"avusturya-ikinci-cumhuriyet", ad:"Avusturya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"orta-avrupa",
-  f:"1945-04-01", t:"1945-09-02", baskent:"Viyana", harita:"avusturya-cumhuriyet",
+  f:"1945-04-01", baskent:"Viyana", harita:"avusturya-cumhuriyet",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   ozet:"Almanya'nın çöküşü ve Sovyet işgali sırasında Karl Renner'in kurduğu geçici hükûmetle yeniden doğan Avusturya; öncülü [[avusturya-cumhuriyet]]. f: AY hassasiyeti (Nisan 1945). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"BRIT Karl-Renner — 'became the first chancellor of the reborn Austria in April 1945' · ⚠️ gün ÇELİŞKİLİ: OH austria (ajan özeti) geçici hükûmet 25 Nisan / Demokratik Cumhuriyet ilanı 14 Mayıs; parlament.gv.at arama özeti 27 Nisan (sayfa 404) — f: bu yüzden ayın başı, hassasiyet AY",
   kronoloji:[
-    { t:"1945-04-01", tur:"kurulus", b:"Renner geçici hükûmetiyle Avusturya yeniden kuruldu (Nisan 1945; gün kaynaklarda çelişkili)", kaynak:"BRIT Karl-Renner" }
+    { t:"1945-04-01", tur:"kurulus", b:"Renner geçici hükûmetiyle Avusturya yeniden kuruldu (Nisan 1945; gün kaynaklarda çelişkili)", kaynak:"BRIT Karl-Renner" },
+    { t:"1945-09-11", tur:"siyaset", b:"Dört işgal gücünün temsilcilerinden oluşan Müttefik Konseyi Viyana'da ilk toplantısını yaptı.", kaynak:"https://www.cvce.eu/education/unit-content/-/unit/en/55c09dcc-a9f2-45e9-b240-eaef64452cae/82a231a7-3890-4951-bc38-b68ec5d5f52c/Resources" },
+    { t:"1945-11-25", tur:"siyaset", b:"Savaş sonrası ilk genel seçim yapıldı; ÖVP 85, SPÖ 76, KPÖ 4 sandalye aldı.", kaynak:"https://countrystudies.us/austria/44.htm" },
+    { t:"1945-12-20", tur:"hukumdar", b:"Federal Meclis Renner'i cumhurbaşkanı seçti; Renner, ÖVP'li Leopold Figl'i şansölye olarak yemin ettirdi.", kaynak:"https://countrystudies.us/austria/44.htm" },
+    { t:"1955-05-15", tur:"antlasma", b:"Viyana'da Belvedere Sarayı'nda dört işgal gücü ve Avusturya Devlet Antlaşması'nı imzaladı.", kaynak:"https://hdgoe.at/state_treaty" },
+    { t:"1955-07-27", tur:"antlasma", b:"Devlet Antlaşması yürürlüğe girdi; işgal sona erme sürecine girdi.", kaynak:"https://history.state.gov/historicaldocuments/frus1955-57v05/d76" },
+    { t:"1955-10-26", tur:"siyaset", b:"Millî Meclis daimî tarafsızlık yasasını kabul etti.", kaynak:"https://history.state.gov/historicaldocuments/frus1955-57v05/d76" },
+    { t:"1994-06-12", tur:"siyaset", b:"AB'ye katılma anayasa yasası halkoylamasında %66,58 evetle kabul edildi.", kaynak:"https://hdgoe.at/eu_entry_en ; https://www.archive.austria.org/austria-in-the-eu" },
+    { t:"1995-01-01", tur:"ittifak", b:"Avusturya, Finlandiya ve İsveç'le birlikte Avrupa Birliği üyesi oldu.", kaynak:"https://audiovisual.ec.europa.eu/en/album/M-009732" }
   ]
 },
 { id:"vichy-fransasi", ad:"Fransız Devleti (Vichy)", tur:"devlet", bolge:"bati-avrupa",
-  f:"1940-07-10", t:"1944-08-25", baskent:"Vichy",
+  f:"1940-07-10", t:"1944-08-20", baskent:"Vichy",
   ozet:"22 Haziran 1940 mütarekesinden sonra Mareşal Pétain'in 'Fransız Devleti' (État Français); Kasım 1942'den itibaren bütün Fransa Alman işgalinde. Ülke künyesi [[fransa-cumhuriyet]] kesintisiz sürer.",
   kaynak:"BRIT Vichy-France — '(July 1940–September 1944)' · 'on July 10, 1940, persuaded the National Assembly ... to grant Pétain authority' · t: USHMM-KD Paris'e giriş 25 Ağustos 1944 (Britannica yalnız 'September 1944' der — ÇELİŞKİ bildirildi)",
   kronoloji:[
     { t:"1940-07-10", tur:"kurulus", b:"Ulusal Meclis Pétain'e tam yetki verdi, Fransız Devleti kuruldu", kaynak:"BRIT Vichy-France · OH france" },
     { t:"1942-11-11", tur:"isgal", b:"Almanya bütün Fransa'yı işgal etti, ateşkes ordusunu dağıttı", kaynak:"BRIT Vichy-France: 'on November 11, 1942, Germany occupied the whole of France'" },
-    { t:"1944-08-25", tur:"son", b:"Paris kurtarıldı", kaynak:"USHMM-KD" }
+    { t:"1944-08-25", tur:"son", b:"Paris kurtarıldı", kaynak:"USHMM-KD" },
+    { t:"1944-08-09", tur:"siyaset", b:"Cezayir'deki Fransız Cumhuriyeti Geçici Hükûmeti, Cumhuriyet'in hukuken hiç sona ermediğini ilan edip Vichy'nin bütün anayasal ve yasal işlemlerini hükümsüz saydı (9 Ağustos 1944 Fermanı).", kaynak:"https://www.conseil-etat.fr/actualites/discours-et-interventions/retablir-la-legalite-republicaine" },
+    { t:"1944-08-20", tur:"son", b:"Pétain, Belfort yakınında Morvillars Şatosu'nda Alman güçlerince alınıp devlet başkanlığı yetkisini fiilen kullanamaz hale geldi.", kaynak:"https://archontology.org/nations/france/france_vichy1/petain.php" }
   ]
 },
 { id:"slovakya-cumhuriyeti", ad:"Slovak Cumhuriyeti (1939-1945)", tur:"cumhuriyet", bolge:"orta-avrupa",
@@ -8668,58 +8989,59 @@ window.DEVLETLER = [
   ozet:"Alman baskısıyla Çekoslovakya'dan ayrılan, Jozef Tiso'nun yönettiği Alman güdümlü devlet; 1944 Slovak Millî Ayaklanması'na sahne oldu. Ülke künyesi [[cekoslovakya]].",
   kaynak:"USHMM-KD — 'March 14–15, 1939 Under German pressure, the Slovaks declare their independence and form a Slovak Republic.' · 'April 4, 1945 The capture of Bratislava forces Slovakia to surrender.' · BRIT Jozef-Tiso",
   kronoloji:[
-    { t:"1939-03-14", tur:"kurulus", b:"Slovaklar Alman baskısıyla bağımsızlık ilan etti", kaynak:"USHMM-KD (14-15 Mart 1939)" },
-    { t:"1944-08-29", tur:"isyan", b:"Slovak Millî Ayaklanması başladı", kaynak:"USHMM-KD (29 Ağustos – 28 Ekim 1944)" },
-    { t:"1945-04-04", tur:"son", b:"Bratislava'nın düşmesiyle Slovakya teslim oldu", kaynak:"USHMM-KD" }
+    { t:"1944-08-29", tur:"isyan", b:"Slovak Millî Ayaklanması başladı", kaynak:"USHMM-KD (29 Ağustos – 28 Ekim 1944)" }
   ]
 },
-{ id:"bohemya-moravya-protektorasi", ad:"Bohemya ve Moravya Protektorası", tur:"gecici-isgal", bolge:"orta-avrupa",
-  f:"1939-03-16", t:"1945-05-08", baskent:"Prag",
+{ id:"bohemya-moravya-protektorasi", ad:"Bohemya ve Moravya Protektorası", tur:"gecici-isgal", bolge:"orta-avrupa", harita:"cekoslovakya",
+  f:"1939-03-16", t:"1945-05-09", baskent:"Prag",
   ozet:"Alman işgalinden bir gün sonra kararnameyle Reich'a katılan Çek toprakları. t: Almanya'nın koşulsuz tesliminin yürürlüğü (Prag'ın kurtuluş günü ölçülemedi). Ülke künyesi [[cekoslovakya]].",
   kaynak:"AVALON imt/judseize — 'on the 16th March the German decree was issued incorporating Bohemia and Moravia in the Reich as a protectorate' · t: AVALON wwii/gs11 '2301 hours Central European time on 8th May 1945'",
   kronoloji:[
-    { t:"1939-03-16", tur:"kurulus", b:"Alman kararnamesiyle Protektora kuruldu", kaynak:"AVALON imt/judseize" },
-    { t:"1945-05-08", tur:"son", b:"Almanya'nın koşulsuz teslimi yürürlüğe girdi", kaynak:"AVALON wwii/gs11" }
+    { t:"1945-05-08", tur:"son", b:"Almanya'nın koşulsuz teslimi yürürlüğe girdi", kaynak:"AVALON wwii/gs11" },
+    { t:"1945-05-09", tur:"son", b:"Sovyet birliklerinin Prag'ı işgaliyle Protektora hükûmeti çöktü; Protektora savaşın bitişinden bir gün sonra sona erdi.", kaynak:"https://archontology.org/nations/czechia/01_polity_1939_45.php" }
   ]
 },
 { id:"hirvatistan-bagimsiz", ad:"Bağımsız Hırvat Devleti (NDH)", tur:"devlet", bolge:"balkanlar",
-  f:"1941-04-10", t:"1945-05-31", baskent:"Zagreb",
+  f:"1941-04-10", t:"1945-05-08", baskent:"Zagreb",
   ic_not_t:"ÜST SINIR, gün değil: BRIT Ustasa 'remained in control of Croatia until May 1945' — yalnız AY; t ayın son günü seçildi ki künye gerçek bitişten önce kesilmesin",
   ozet:"Ustaşa hareketinin Mihver işgali sırasında ilan ettiği, Bosna-Hersek'i de içine alan Alman-İtalyan güdümlü devlet; Mayıs 1945'te çöktü. Ülke künyesi [[yugoslavya]].",
   kaynak:"USHMM-KD — 'April 10, 1941 The leaders of the terrorist Ustaša movement proclaim the so-called Independent State of Croatia.' · BRIT Ustasa 'until May 1945'",
   kronoloji:[
     { t:"1941-04-10", tur:"kurulus", b:"Ustaşa Bağımsız Hırvat Devleti'ni ilan etti", kaynak:"USHMM-KD" },
-    { t:"1941-06-15", tur:"ittifak", b:"Mihver'e resmen katıldı", kaynak:"USHMM-KD: 'Croatia joins the Axis powers formally on June 15, 1941.'" }
+    { t:"1941-06-15", tur:"ittifak", b:"Mihver'e resmen katıldı", kaynak:"USHMM-KD: 'Croatia joins the Axis powers formally on June 15, 1941.'" },
+    { t:"1945-05-06", tur:"baskent", b:"Pavelić ve NDH hükûmeti Zagreb'i terk etti.", kaynak:"https://en.wikipedia.org/wiki/Zagreb_in_World_War_II ; https://ojs.inz.si/pnz/en/article/view/3105" },
+    { t:"1945-05-08", tur:"son", b:"Zagreb'in Partizanlarca işgaliyle NDH hükûmeti çöktü.", kaynak:"https://archontology.org/nations/croatia/01_polity1.php ; https://mgz.hr/en/permanent-display/drugi-svjetski-rat,1141.html" }
   ]
 },
 { id:"mancukuo", ad:"Mançukuo", tur:"devlet", bolge:"dogu-asya",
-  f:"1932-03-09", t:"1945-08-31", baskent:"Hsinking (Changchun)",
+  f:"1932-03-09", t:"1945-08-18", baskent:"Hsinking (Changchun)",
   ic_not_t:"ÜST SINIR, gün değil: BRIT Puyi 'taken prisoner by the Russians (August 1945)' — yalnız AY",
   ozet:"Japonya'nın Mançurya'nın üç eyaletinden kurduğu kukla devlet; son Qing imparatoru Puyi önce devlet başkanı, 1934'ten imparator. f: Puyi'nin başkanlığa getirildiği gün (devletin ilan günü ayrıca ölçülemedi). Ülke künyesi [[cin-cumhuriyeti]].",
   kaynak:"BRIT Manchukuo — 'puppet state created in 1932 by Japan' · BRIT Puyi — 'On March 9, 1932, he was installed as president, and from 1934 to 1945 he was emperor'",
   kronoloji:[
     { t:"1932-03-09", tur:"kurulus", b:"Puyi Mançukuo devlet başkanı yapıldı", kaynak:"BRIT Puyi" },
     { t:"1934-01-01", tur:"hukumdar", b:"Puyi imparator ilan edildi (Kangde)", kaynak:"BRIT Puyi — YIL verir" },
-    { t:"1945-08-31", tur:"son", b:"Sovyet işgali, Puyi esir alındı (Ağustos 1945)", kaynak:"BRIT Puyi — AY verir, gün üst sınır" }
+    { t:"1945-08-31", tur:"son", b:"Sovyet işgali, Puyi esir alındı (Ağustos 1945)", kaynak:"BRIT Puyi — AY verir, gün üst sınır" },
+    { t:"1945-08-18", tur:"son", b:"Puyi'nin tahttan çekilmesi Danışma Meclisi'nce 17 Ağustos'ta ilan edildi, 18 Ağustos'ta yürürlüğe girdi; Mançukuo fiilen sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Zang_Shiyi ; https://royalark.net/China/manchu17.htm" }
   ]
 },
 { id:"nanjing-wang-jingwei", ad:"Çin Cumhuriyeti Yeniden Düzenlenmiş Millî Hükûmeti (Wang Jingwei, Nanjing)", tur:"devlet", bolge:"dogu-asya",
-  f:"1940-03-30", t:"1945-09-02", baskent:"Nanjing",
+  f:"1940-03-30", t:"1945-08-16", baskent:"Nanjing",
   ic_not_t:"pencere ucu, ölçüm değil (D210): Japon teslimiyle 1945'te sona erdi — bitiş GÜNÜ ölçülemedi; UFUK üst sınırdır",
   ozet:"Japonların işgal ettiği Çin topraklarını yönetmek için Wang Jingwei başkanlığında Nanjing'de kurulan hükûmet. Ülke künyesi [[cin-cumhuriyeti]].",
   kaynak:"BRIT Wang-Ching-wei — 'On March 30, 1940, in cooperation with the Japanese, he became the head of a new regime ... centred in the former Nationalist capital of Nanjing.' · bitiş: bulunamadı",
   kronoloji:[
     { t:"1940-03-30", tur:"kurulus", b:"Wang Jingwei Japon desteğiyle Nanjing'de hükûmet kurdu", kaynak:"BRIT Wang-Ching-wei" },
-    { t:"1944-11-10", tur:"hukumdar", b:"Wang Jingwei Japonya'da öldü", kaynak:"BRIT Wang-Ching-wei (doğum-ölüm satırı)" }
+    { t:"1944-11-10", tur:"hukumdar", b:"Wang Jingwei Japonya'da öldü", kaynak:"BRIT Wang-Ching-wei (doğum-ölüm satırı)" },
+    { t:"1945-08-16", tur:"son", b:"Japonya'nın teslim duyurusunun ertesi günü Chen Gongbo ve Zhou Fohai, Nanjing'de Merkezî Siyasi Komite toplantısıyla Yeniden Düzenlenmiş Millî Hükûmet'in ve partisinin kaldırıldığını duyurdu.", kaynak:"https://en.wikipedia.org/wiki/Wang_Jingwei_regime" }
   ]
 },
-{ id:"italyan-dogu-afrikasi", ad:"İtalyan Doğu Afrikası", tur:"gecici-isgal", bolge:"dogu-afrika",
+{ id:"italyan-dogu-afrikasi", ad:"İtalyan Doğu Afrikası", tur:"gecici-isgal", bolge:"dogu-afrika", harita:"italya",
   f:"1936-06-01", t:"1941-11-30", baskent:"Addis Ababa",
   ic_not_t:"ÜST SINIR, gün değil: BRIT 'British forces overran the area between January and November 1941' — yalnız AY",
   ozet:"İtalya'nın 9 Mayıs 1936'da ilhak ettiği Habeşistan ile Eritre ve İtalyan Somalisi'nden oluşan sömürge bütünü; 1941'de İngiliz kuvvetlerince ele geçirildi. Bkz. [[habesistan]].",
   kaynak:"BRIT Italian-East-Africa — 'Ethiopia (annexed by Italy on May 9, 1936, and proclaimed a part of Italian East Africa June 1)' · 'British forces overran the area between January and November 1941'",
   kronoloji:[
-    { t:"1936-06-01", tur:"kurulus", b:"Habeşistan İtalyan Doğu Afrikası'nın parçası ilan edildi", kaynak:"BRIT Italian-East-Africa" },
     { t:"1941-11-30", tur:"son", b:"İngiliz kuvvetleri bölgenin tamamını ele geçirdi (Ocak-Kasım 1941)", kaynak:"BRIT Italian-East-Africa — AY verir, gün üst sınır" }
   ]
 },
@@ -8733,40 +9055,59 @@ window.DEVLETLER = [
   ]
 },
 { id:"arnavutluk-halk-cumhuriyeti", ad:"Arnavutluk (Komünist Yönetim → Halk Cumhuriyeti)", tur:"cumhuriyet", bolge:"balkanlar",
-  f:"1944-11-29", t:"1945-09-02", baskent:"Tiran", harita:"arnavutluk",
+  f:"1944-11-29", t:"1991-04-29", baskent:"Tiran", harita:"arnavutluk",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   ozet:"Alman çekilmesiyle 29 Kasım 1944'te kurtuluşu tamamlanan ve komünist yönetime geçen Arnavutluk; Halk Cumhuriyeti ilanı 1946. Öncülü [[arnavutluk-bagimsiz]]. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"TDV arnavutluk (ÖZET, kelimesi kelimesine DEĞİL): 29 Kasım 1944 kurtuluş; Mart 1946 anayasa ve Halk Cumhuriyeti",
   kronoloji:[
-    { t:"1944-11-29", tur:"kurulus", b:"Kurtuluş tamamlandı, komünist yönetim kuruldu", kaynak:"TDV: arnavutluk (özet)" }
+    { t:"1944-11-29", tur:"kurulus", b:"Kurtuluş tamamlandı, komünist yönetim kuruldu", kaynak:"TDV: arnavutluk (özet)" },
+    { t:"1946-01-11", tur:"siyaset", b:"Kurucu Meclis Arnavutluk'u 'Halk Cumhuriyeti' ilan etti.", kaynak:"https://constitutionnet.org/country/albania" },
+    { t:"1948-07-01", tur:"siyaset", b:"Tiran, Yugoslav teknik danışmanlara ülkeyi terk çağrısı yaptı ve Yugoslavya ile bütün antlaşmaları geçersiz saydı.", kaynak:"https://countrystudies.us/albania/144.htm" },
+    { t:"1961-01-01", tur:"siyaset", b:"Aralık 1961'de SSCB Arnavutluk'la diplomatik ilişkileri kesti; Tiran Çin'e yöneldi (gün kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Albanian%E2%80%93Soviet_split" },
+    { t:"1968-01-01", tur:"ittifak", b:"Arnavutluk, Çekoslovakya'nın işgali üzerine Varşova Paktı'ndan çekildi (gün kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Albanian%E2%80%93Soviet_split" },
+    { t:"1976-12-28", tur:"siyaset", b:"Yeni anayasayla ülke 'Halk Sosyalist Cumhuriyeti' adını aldı; 1946 anayasası yürürlükten kalktı.", kaynak:"https://en.wikipedia.org/wiki/Constitution_of_the_People%27s_Socialist_Republic_of_Albania" },
+    { t:"1978-01-01", tur:"ittifak", b:"Çin, Arnavutluk'la ticaretini keserek gayriresmî ittifakı bitirdi (gün kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Sino-Albanian_split" },
+    { t:"1985-01-01", tur:"hukumdar", b:"Enver Hoxha öldü; yerine Ramiz Alia geçti (gün kaynakta yok).", kaynak:"https://countrystudies.us/albania/144.htm" },
+    { t:"1990-12-12", tur:"siyaset", b:"Çok partili siyasete izin verilmesi sonrası ilk muhalefet partisi Demokrat Parti kuruldu.", kaynak:"https://www.globalsecurity.org/military/world/europe/al-history-55.htm" },
+    { t:"1991-03-31", tur:"siyaset", b:"İlk çok partili seçim yapıldı.", kaynak:"https://www.globalsecurity.org/military/world/europe/al-history-55.htm" }
   ]
 },
-{ id:"almanya-muttefik-isgali", ad:"Almanya — Müttefik İşgal İdaresi", tur:"gecici-isgal", bolge:"orta-avrupa",
-  f:"1945-06-05", t:"1945-09-02", baskent:"Berlin (Müttefik Kontrol Konseyi)",
+{ id:"almanya-muttefik-isgali", ad:"Almanya — Müttefik İşgal İdaresi", tur:"gecici-isgal", bolge:"orta-avrupa", harita:"almanya",
+  f:"1945-06-05", t:"1949-09-20", baskent:"Berlin (Müttefik Kontrol Konseyi)",
   ic_not_t:"pencere ucu, ölçüm değil (D210): işgal idaresi 1945 ufkundan sonra da sürdü (1949 iki Alman devleti — bu oturumda ölçülmedi)",
   ozet:"Berlin Deklarasyonu'yla dört Müttefik devletin Almanya'da yüce otoriteyi üstlendiği işgal idaresi. Öncülü [[almanya]]. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"AVALON wwii/ger01 — 'Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers; June 5, 1945'",
   kronoloji:[
-    { t:"1945-06-05", tur:"kurulus", b:"Müttefikler Almanya'da yüce otoriteyi üstlendi", kaynak:"AVALON wwii/ger01" }
+    { t:"1945-08-02", tur:"antlasma", b:"Potsdam Anlaşması: Almanya'nın dört bölgede yönetimi ve Müttefik Kontrol Konseyi esasları belirlendi.", kaynak:"bulunamadı (bu turda aranmadı)" },
+    { t:"1945-11-20", tur:"siyaset", b:"Nürnberg'de Uluslararası Askerî Mahkeme yargılamaları başladı.", kaynak:"bulunamadı (bu turda aranmadı)" },
+    { t:"1947-01-01", tur:"birlesme", b:"ABD ve İngiliz bölgeleri ekonomik olarak Bizone'da birleşti.", kaynak:"bulunamadı (bu turda aranmadı)" },
+    { t:"1948-06-24", tur:"siyaset", b:"Sovyetler Berlin'in batı sektörlerine kara ulaşımını keserek Berlin Ablukası'nı başlattı.", kaynak:"bulunamadı (bu turda aranmadı)" },
+    { t:"1949-05-12", tur:"antlasma", b:"Üç Batılı askerî vali Bonn'da İşgal Statüsü'nü yayımladı.", kaynak:"https://www.cvce.eu/en/obj/text_of_the_occupation_statute_of_germany_bonn_12_may_1949-en-6750efd3-4b34-4fec-9a4a-df0ff125d302.html" },
+    { t:"1949-09-20", tur:"son", b:"Müttefik Kontrol Konseyi fiilen sona erdi; ertesi gün Müttefik Yüksek Komiserliği göreve başladı.", kaynak:"https://en.wikipedia.org/wiki/Allied_Control_Council" }
   ]
 },
 { id:"endonezya-cumhuriyeti", ad:"Endonezya Cumhuriyeti", tur:"cumhuriyet", bolge:"guneydogu-asya",
-  f:"1945-08-17", t:"1945-09-02", baskent:"Cakarta",
+  f:"1945-08-17", baskent:"Cakarta",
   ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut",
   ozet:"Japon işgalinin sonunda Sukarno'nun Hollanda'dan bağımsızlığını ilan ettiği cumhuriyet; Hollanda ancak 1949'da tanıdı (bkz. [[hollanda-dogu-hint]]). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"BRIT Sukarno — 'he declared Indonesia's independence (August 17, 1945)'",
   kronoloji:[
-    { t:"1945-08-17", tur:"kurulus", b:"Sukarno Endonezya'nın bağımsızlığını ilan etti", kaynak:"BRIT Sukarno" }
+    { t:"1945-08-17", tur:"kurulus", b:"Sukarno Endonezya'nın bağımsızlığını ilan etti", kaynak:"BRIT Sukarno" },
+    { t:"1948-01-17", tur:"antlasma", b:"BM arabuluculuğunda Renville Anlaşması imzalandı; Van Mook hattı ateşkes sınırı oldu.", kaynak:"https://www.britannica.com/print/article/498265" },
+    { t:"1949-01-28", tur:"siyaset", b:"BM Güvenlik Konseyi iki tarafı askerî harekâtı durdurmaya çağırdı, egemenlik devrini en geç 1 Temmuz 1950'ye bağladı.", kaynak:"https://history.state.gov/historicaldocuments/frus1952-54v03/d800" },
+    { t:"1975-12-07", tur:"isgal", b:"Endonezya Doğu Timor'u işgal etti.", kaynak:"atlas içi kayıt endonezya-dogu-timor; bağımsız kaynak bulunamadı" },
+    { t:"1998-05-21", tur:"hukumdar", b:"Suharto 32 yıllık Yeni Düzen iktidarından istifa etti; yerine Habibie geçti.", kaynak:"https://en.wikipedia.org/wiki/Fall_of_Suharto ; https://ebsco.com/research-starters/politics-and-government/suharto-resigns-making-way-habibie" }
   ]
 },
-{ id:"filipin-commonwealth", ad:"Filipinler Milletler Topluluğu (Commonwealth)", tur:"devlet", bolge:"guneydogu-asya",
+{ id:"filipin-commonwealth", ad:"Filipinler Milletler Topluluğu (Commonwealth)", tur:"devlet", bolge:"guneydogu-asya", harita:"abd",
   f:"1935-01-01", t:"1946-07-04", baskent:"Manila",
   ic_not_t:"f: YIL hassasiyeti (OH yalnız '1935' verir; 15 Kasım günü ölçülemedi) · t: OH gün verir",
   ozet:"ABD yönetimindeki Filipinler'in 1935'te kurulan özerk yönetimi; 1942-1945 Japon işgali, 4 Temmuz 1946'da bağımsızlık.",
   kaynak:"OH philippines — 'autonomous commonwealth in 1935' (ajan özeti) · 'The United States recognized the Republic of the Philippines as an independent state on July 4, 1946'",
   kronoloji:[
     { t:"1935-01-01", tur:"kurulus", b:"Özerk Commonwealth yönetimi kuruldu (gün ölçülemedi)", kaynak:"OH philippines — YIL" },
-    { t:"1946-07-04", tur:"son", b:"Filipinler Cumhuriyeti bağımsız oldu", kaynak:"OH philippines" }
+    { t:"1945-02-27", tur:"siyaset", b:"Manila'nın geri alınışı sırasında MacArthur sivil Commonwealth yönetimini Başkan Osmeña'ya devretti.", kaynak:"bulunamadı (arka plan bilgisi, doğrulanmadı)" },
+    { t:"1946-04-23", tur:"siyaset", b:"Manuel Roxas Commonwealth'in son başkanlık seçimini kazandı.", kaynak:"bulunamadı (arka plan bilgisi, doğrulanmadı)" }
   ]
 },
 // ── ONCE1281-AFRIKA (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
@@ -10926,7 +11267,7 @@ window.DEVLETLER = [
 },
 // =========== 1946-2000 EKLEMESI (13 Ekim 2026) — kronoloji:[] = doldurulacak; kaynak sutunu dogrulama turu ciktisidir ===========
 
-{ id:"fas-fransiz-himayesi", ad:"Fas Fransız Himayesi", tur:"himaye", bolge:"kuzey-afrika", f:"1912-03-30", t:"1956-03-02", baskent:"Rabat", ozet:"Fez Antlaşması (30 Mart 1912) ile kurulan Fransız himayesi; 2 Mart 1956 Fransız-Fas ortak bildirisiyle sona erdi.", kaynak:"Treaty of Fes (30.03.1912); Joint Declaration 2.03.1956 — https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/francemorocco-1930-1956 ; TDV 'Fas'", kronoloji:[
+{ id:"fas-fransiz-himayesi", ad:"Fas Fransız Himayesi", tur:"himaye", bolge:"kuzey-afrika", harita:"fas", f:"1912-03-30", t:"1956-03-02", baskent:"Rabat", ozet:"Fez Antlaşması (30 Mart 1912) ile kurulan Fransız himayesi; 2 Mart 1956 Fransız-Fas ortak bildirisiyle sona erdi.", kaynak:"Treaty of Fes (30.03.1912); Joint Declaration 2.03.1956 — https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/francemorocco-1930-1956 ; TDV 'Fas'", kronoloji:[
     { t:"1912-03-30", tur:"kurulus", b:"Fez Antlaşması: Sultan Abdülhafîz Fransız himayesini kabul etti", kaynak:"https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/francemorocco-1930-1956 ; TDV 'Fas'" },
     { t:"1927-11-17", tur:"hukumdar", b:"Muhammed V sultan oldu", kaynak:"https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mohammed-v" },
     { t:"1953-08-20", tur:"hukumdar", b:"Fransa Sultan Muhammed V'i tahttan indirip sürdü; yerine Ben Arafa getirildi", kaynak:"https://www.herodote.net/20_aout_1953-evenement-19530820.php" },
@@ -10945,8 +11286,7 @@ window.DEVLETLER = [
     { t:"1945-10-11", tur:"siyaset", b:"İspanyol birlikleri çekildi, Tanca uluslararası statüye döndü", kaynak:"https://dcstamps.com/?p=8855" },
     { t:"1956-10-29", tur:"son", b:"Tanca Fas Krallığı'na katıldı", kaynak:"https://dcstamps.com/?p=8855" }
   ] },
-{ id:"fas-krallik", ad:"Fas Krallığı (bağımsız, Alevî)", tur:"krallik", bolge:"kuzey-afrika", f:"1956-03-02", baskent:"Rabat", ozet:"2 Mart 1956'da Fransız himayesinin bitmesiyle bağımsız krallık; Tanca (1956) ve İspanyol bölgeleri (1956-58-69) katıldı. UYARI: mevcut 'fas' künyesi 1945'te bitiyor — 1945-1956 arası boşluk için UZATMA/ayrı karar gerekir.", kaynak:"https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/francemorocco-1930-1956 ; TDV 'Fas'", kronoloji:[
-    { t:"1956-03-02", tur:"kurulus", b:"Fransa-Fas bildirisi ile himaye sona erdi, Fas bağımsızlığını kazandı.", kaynak:"https://www.globalsecurity.org/military/world/morocco/history.htm ; https://courses.lumenlearning.com/suny-worldhistory/chapter/33-1-3-moroccan-independence/" },
+{ id:"fas-krallik", ad:"Fas Krallığı (bağımsız, Alevî)", tur:"krallik", bolge:"kuzey-afrika", harita:"fas", f:"1956-03-02", baskent:"Rabat", ozet:"2 Mart 1956'da Fransız himayesinin bitmesiyle bağımsız krallık; Tanca (1956) ve İspanyol bölgeleri (1956-58-69) katıldı. UYARI: mevcut 'fas' künyesi 1945'te bitiyor — 1945-1956 arası boşluk için UZATMA/ayrı karar gerekir.", kaynak:"https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/francemorocco-1930-1956 ; TDV 'Fas'", kronoloji:[
     { t:"1956-04-07", tur:"antlasma", b:"İspanya-Fas ortak bildirisi ile İspanyol himayesi bitti, İspanya bağımsızlığı tanıdı.", kaynak:"https://www.globalsecurity.org/military/world/morocco/history.htm (Nisan 1956 ortak bildiri; gün 7 Nisan kaynakta açık değil, tanıklık: genel kronoloji)" },
     { t:"1956-10-29", tur:"toprak-kazanc", b:"Tanca Protokolü ile uluslararası Tanca şehri Fas'a katıldı.", kaynak:"https://www.globalsecurity.org/military/world/morocco/history.htm" },
     { t:"1957-08-14", tur:"hukumdar", b:"V. Muhammed sultan unvanını bırakıp kral unvanını aldı; Fas Krallığı adı resmîleşti.", kaynak:"https://www.globalsecurity.org/military/world/morocco/king-muhammad-v.htm" },
@@ -10968,7 +11308,7 @@ window.DEVLETLER = [
     { t:"1912-11-27", tur:"kurulus", b:"Fransız-İspanyol antlaşmasıyla Cabo Juby İspanyol himayesinin güney bölgesi sayıldı", kaynak:"https://www.worldstatesmen.org/Western_Sahara.html" },
     { t:"1958-04-01", tur:"toprak-kayip", b:"Angra de Cintra Antlaşması: Cabo Juby (Tarfaya) Fas'a bırakıldı", kaynak:"https://revistas.uned.es/index.php/ETFV/article/download/2733/2593/6021" }
   ] },
-{ id:"ispanyol-sahra", ad:"İspanyol Sahrası (Río de Oro + Sakiyet el-Hamra)", tur:"somurge", bolge:"kuzey-afrika", f:"1884-12-26", t:"1976-02-26", baskent:"El-Ayûn", ozet:"Aralık 1884'te Río de Oro kıyısında ilan edilen İspanyol himayesi, 1924'te tek koloni, 1958'de eyalet; Şubat 1976'da İspanya çekildi, Fas ve Moritanya paylaştı. (Bazı kaynaklar çekilişi 20 Şubat gösterir.)", kaynak:"https://www.worldstatesmen.org/Western_Sahara.html ; https://en.wikipedia.org/wiki/Spanish_Sahara (ipucu) ; Zunes/Mundy 2010", kronoloji:[
+{ id:"ispanyol-sahra", ad:"İspanyol Sahrası (Río de Oro + Sakiyet el-Hamra)", tur:"somurge", bolge:"kuzey-afrika", harita:"ispanya", f:"1884-12-26", t:"1976-02-26", baskent:"El-Ayûn", ozet:"Aralık 1884'te Río de Oro kıyısında ilan edilen İspanyol himayesi, 1924'te tek koloni, 1958'de eyalet; Şubat 1976'da İspanya çekildi, Fas ve Moritanya paylaştı. (Bazı kaynaklar çekilişi 20 Şubat gösterir.)", kaynak:"https://www.worldstatesmen.org/Western_Sahara.html ; https://en.wikipedia.org/wiki/Spanish_Sahara (ipucu) ; Zunes/Mundy 2010", kronoloji:[
     { t:"1884-12-26", tur:"kurulus", b:"İspanya Río de Oro kıyısında (Cap Blanc-Cap Bojador) himaye ilan etti", kaynak:"https://www.worldstatesmen.org/Western_Sahara.html" },
     { t:"1885-02-26", tur:"antlasma", b:"İspanya'nın Río de Oro iddiası Berlin Antlaşması'yla tanındı", kaynak:"https://www.worldstatesmen.org/Western_Sahara.html" },
     { t:"1900-06-27", tur:"antlasma", b:"Fransız-İspanyol Sözleşmesi Río de Oro-Moritanya sınırını çizdi", kaynak:"https://www.worldstatesmen.org/Western_Sahara.html" },
@@ -10984,8 +11324,7 @@ window.DEVLETLER = [
   ] },
 { id:"tiris-el-garbiyye", ad:"Moritanya Tiris el-Garbiyye İli", tur:"ilhak", bolge:"kuzey-afrika", f:"1976-04-14", t:"1979-08-05", baskent:"Dahla", ozet:"14 Nisan 1976 Fas-Moritanya paylaşım anlaşmasıyla Moritanya'ya katılan güney bölge; Moritanya Ağustos 1979'da çekildi, Fas ilhak etti. (Çekiliş günü kaynaklarda 5 veya 10 Ağustos — Cezayir Anlaşması.)", kaynak:"https://ucdp.uu.se/additionalinfo/893/4 ; https://en.wikipedia.org/wiki/Western_Sahara_partition_agreement (ipucu) ; Zunes/Mundy 2010", kronoloji:[
     { t:"1976-04-14", tur:"toprak-kazanc", b:"Fas-Moritanya paylaşım anlaşmasıyla Batı Sahra'nın güneyi Moritanya'ya verildi.", kaynak:"https://ucdp.uu.se/additionalinfo/893/4 ; Zunes/Mundy 2010" },
-    { t:"1978-07-10", tur:"siyaset", b:"Moritanya'da Ould Daddah devrildi; yeni yönetim savaştan çıkış aradı.", kaynak:"Zunes/Mundy 2010" },
-    { t:"1979-08-05", tur:"son", b:"Moritanya Polisario ile barış yapıp Tiris el-Garbiyye'den çekildi; Fas bölgeyi ilhak etti (çekiliş günü kaynaklarda 5 veya 10 Ağustos).", kaynak:"https://ucdp.uu.se/additionalinfo/893/4 ; Zunes/Mundy 2010" }
+    { t:"1978-07-10", tur:"siyaset", b:"Moritanya'da Ould Daddah devrildi; yeni yönetim savaştan çıkış aradı.", kaynak:"Zunes/Mundy 2010" }
   ] },
 { id:"cezayir-gpra", ad:"Cezayir Cumhuriyeti Geçici Hükümeti (GPRA)", tur:"gecici-hukumet", bolge:"kuzey-afrika", f:"1958-09-19", t:"1962-09-25", baskent:"Kahire → Tunus", ozet:"FLN'nin 19 Eylül 1958'de Kahire'de kurduğu sürgün hükümet (1960'tan Tunus); 1962 sonunda Ben Bella-Bumedyen kanadınca tasfiye edildi. (t günü kaynaklarda 'Ekim 1962 sonu / 1962' — 25 Eylül ADAY değeridir, GÜN TEYİTSİZ; sürgün hükümet, toprak sahibi değil.)", kaynak:"https://fr.allafrica.com/stories/202509190277.html ; https://en.wikipedia.org/wiki/Provisional_Government_of_the_Algerian_Republic (ipucu) ; Horne, A Savage War of Peace", kronoloji:[
     { t:"1958-09-19", tur:"kurulus", b:"FLN, Kahire'de Cezayir Cumhuriyeti Geçici Hükümeti'ni (GPRA) kurdu.", kaynak:"https://www.herodote.net/histoire03190.htm ; https://www.cvce.eu/content/publication/2011/10/6/b2e2e163-ba95-48ad-bb98-15c3708dd900/publishable_en.pdf" },
@@ -11017,8 +11356,7 @@ window.DEVLETLER = [
   ] },
 { id:"libya-ingiliz-askeri-idaresi", ad:"Libya İngiliz Askerî İdaresi (Trablusgarp ve Bingazi)", tur:"askeri-idare", bolge:"kuzey-afrika", f:"1943-01-01", t:"1951-12-24", baskent:"Trablus / Bingazi", ozet:"1943'te İtalyan Libyası'nın İngiliz işgaliyle başlayan askerî idare (Ocak 1943'te Trablus'a girildi; gün yazılmadı); 24 Aralık 1951 bağımsızlığa dek sürdü.", kaynak:"https://fanack.com/libya/history-of-libya/libya-world-war-ii/ ; St John 2011; TDV 'Libya'", kronoloji:[
     { t:"1943-01-01", tur:"isgal", b:"İngiliz kuvvetleri Trablus'a girdi, askerî idare kuruldu (Ocak 1943, gün bilinmiyor)", kaynak:"https://fanack.com/libya/history-of-libya/libya-world-war-ii/" },
-    { t:"1949-11-21", tur:"siyaset", b:"BM Genel Kurulu 289 sayılı karar: Libya'nın bağımsızlığa geçişi", kaynak:"UN GA Res. 289 (IV), 21.11.1949; https://fanack.com/libya/history-of-libya/libya-world-war-ii/" },
-    { t:"1951-12-24", tur:"son", b:"Libya bağımsızlığı; İngiliz idaresi sona erdi", kaynak:"https://libyanheritagehouse.org/history-libya/libya-independence" }
+    { t:"1949-11-21", tur:"siyaset", b:"BM Genel Kurulu 289 sayılı karar: Libya'nın bağımsızlığa geçişi", kaynak:"UN GA Res. 289 (IV), 21.11.1949; https://fanack.com/libya/history-of-libya/libya-world-war-ii/" }
   ] },
 { id:"libya-fransiz-fizan", ad:"Fizan-Gadames Fransız Askerî İdaresi", tur:"askeri-idare", bolge:"kuzey-afrika", f:"1943-01-01", t:"1951-12-24", baskent:"Sebha", ozet:"Ocak 1943'te Fransız kuvvetlerinin Murzuk'a ulaşmasıyla başlayan (16.01.1943 — tek ikincil kaynak, gün yazılmadı) Fizan idaresi; 1951 bağımsızlığına dek.", kaynak:"https://www.dcstamps.com/?p=3384 ; https://fanack.com/libya/history-of-libya/libya-world-war-ii/ ; St John 2011", kronoloji:[
     { t:"1943-01-01", tur:"isgal", b:"Fransız kuvvetleri Fizan'ı denetime aldı (1943, gün bilinmiyor)", kaynak:"https://fanack.com/libya/history-of-libya/libya-world-war-ii/" },
@@ -11030,18 +11368,16 @@ window.DEVLETLER = [
     { t:"1951-12-24", tur:"birlesme", b:"Emirlik Libya Birleşik Krallığı'na katıldı", kaynak:"https://www.dcstamps.com/cyrenaica-emirate-1949-1951/ (sayfa 21 Aralık da veriyor; 24 Aralık: https://libyanheritagehouse.org/history-libya/libya-independence)" }
   ] },
 { id:"libya-krallik", ad:"Libya Birleşik Krallığı", tur:"krallik", bolge:"kuzey-afrika", f:"1951-12-24", t:"1969-09-01", baskent:"Trablus / Bingazi", ozet:"24 Aralık 1951 bağımsızlık (BM GA 21.11.1949 kararı); Kral İdris; 1 Eylül 1969 askerî darbeyle son buldu. (t günü S.)", kaynak:"https://libyanheritagehouse.org/history-libya/libya-independence ; https://fanack.com/libya/history-of-libya/libya-world-war-ii/ ; St John 2011", kronoloji:[
-    { t:"1951-12-24", tur:"kurulus", b:"Libya Birleşik Krallığı bağımsız oldu; Kral İdris", kaynak:"https://libyanheritagehouse.org/history-libya/libya-independence" },
     { t:"1969-09-01", tur:"son", b:"Kaddafi önderliğindeki subaylar darbe yaptı, İdris devrildi", kaynak:"https://libyanheritagehouse.org/history-libya/libya-independence" }
   ] },
 { id:"libya-cumhuriyet-cemahiriye", ad:"Libya Arap Cumhuriyeti → Libya Arap Cemahiriyesi (1977)", tur:"cumhuriyet", bolge:"kuzey-afrika", f:"1969-09-01", baskent:"Trablus", ozet:"1 Eylül 1969 darbesiyle kurulan Kaddafi rejimi; ad Mart 1977'de Cemahiriye oldu. (S)", kaynak:"St John 2011; TDV 'Libya'; https://en.wikipedia.org/wiki/1984_in_Libya (ipucu)", kronoloji:[
-    { t:"1969-09-01", tur:"kurulus", b:"Serbest Subaylar darbesiyle Kral İdris devrildi, Libya Arap Cumhuriyeti ilan edildi; Kaddafi Devrim Komuta Konseyi başkanı.", kaynak:"https://fanack.com/libya/history-of-libya/revolutionary-libya-under-muammar-qaddafi/ ; St John 2011" },
     { t:"1977-03-02", tur:"siyaset", b:"Cumhuriyet, Libya Arap Cemahiriyesi olarak yeniden adlandırıldı; Devrim Komuta Konseyi kaldırıldı.", kaynak:"https://constitutionnet.org/country/libya ; https://fanack.com/libya/history-of-libya/revolutionary-libya-under-muammar-qaddafi/" },
     { t:"1986-04-15", tur:"savas", b:"ABD, Trablus ve Bingazi'yi hava saldırısıyla vurdu.", kaynak:"St John 2011" },
     { t:"2011-02-17", tur:"isyan", b:"Bingazi'de başlayan ayaklanma Libya devrimine dönüştü.", kaynak:"St John 2011 ; https://fanack.com/libya/history-of-libya/revolutionary-libya-under-muammar-qaddafi/" },
     { t:"2011-08-23", tur:"savas", b:"İsyancılar Trablus'ta Kaddafi'nin Bab el-Azîziye karargâhını ele geçirdi.", kaynak:"St John 2011" },
     { t:"2011-10-20", tur:"son", b:"Kaddafi Sirte'de öldürüldü; rejim sona erdi.", kaynak:"St John 2011 ; https://en.wikipedia.org/wiki/Muammar_Gaddafi (ipucu)" }
   ] },
-{ id:"misir-cumhuriyeti", ad:"Mısır Cumhuriyeti", tur:"cumhuriyet", bolge:"misir-sudan", f:"1953-06-18", t:"1958-02-22", baskent:"Kahire", ozet:"18 Haziran 1953'te Devrim Komuta Konseyi'nin anayasal bildirisiyle monarşi kaldırıldı; 22 Şubat 1958'de Suriye'yle birleşme sonuçlarının yayımıyla BAC'a dönüştü.", kaynak:"https://archontology.org/nations/egypt/01_polity.php ; TDV 'Mısır'", kronoloji:[
+{ id:"misir-cumhuriyeti", ad:"Mısır Cumhuriyeti", tur:"cumhuriyet", bolge:"misir-sudan", harita:"misir-kralligi", f:"1953-06-18", t:"1958-02-22", baskent:"Kahire", ozet:"18 Haziran 1953'te Devrim Komuta Konseyi'nin anayasal bildirisiyle monarşi kaldırıldı; 22 Şubat 1958'de Suriye'yle birleşme sonuçlarının yayımıyla BAC'a dönüştü.", kaynak:"https://archontology.org/nations/egypt/01_polity.php ; TDV 'Mısır'", kronoloji:[
     { t:"1953-06-18", tur:"kurulus", b:"Monarşi kaldırıldı, cumhuriyet ilan edildi; Muhammed Necib cumhurbaşkanı ve başbakan oldu.", kaynak:"https://archontology.org/nations/egypt/01_polity.php ; https://www.worldatlas.com/articles/presidents-of-egypt-through-history.html" },
     { t:"1954-07-27", tur:"antlasma", b:"İngiltere'nin Süveyş bölgesinden 20 ay içinde çekilmesini öngören Mısır-İngiliz anlaşması.", kaynak:"https://www.cvce.eu/content/publication/1999/6/9/2fd2ff88-6d31-4aa1-93fb-2bc8d91fce98/publishable_en.pdf" },
     { t:"1954-10-26", tur:"siyaset", b:"Nasır'a Müslüman Kardeşler'e atfedilen suikast girişimi; ağır baskı başladı.", kaynak:"https://www.cvce.eu/content/publication/1999/6/9/2fd2ff88-6d31-4aa1-93fb-2bc8d91fce98/publishable_en.pdf ; https://gulfnews.com/amp/story/world%2Fmena%2Ftimeline-abdul-nassers-life-in-short-1.2155358" },
@@ -11050,8 +11386,7 @@ window.DEVLETLER = [
     { t:"1956-01-24", tur:"hukumdar", b:"Nasır referandumla cumhurbaşkanı seçildi.", kaynak:"https://gulfnews.com/amp/story/world%2Fmena%2Ftimeline-abdul-nassers-life-in-short-1.2155358" },
     { t:"1956-07-26", tur:"siyaset", b:"Nasır Süveyş Kanalı'nı millileştirdi.", kaynak:"https://www.cvce.eu/content/publication/1999/6/9/2fd2ff88-6d31-4aa1-93fb-2bc8d91fce98/publishable_en.pdf ; https://www.larousse.fr/encyclopedie/divers/%C3%89gypte_vie_politique_depuis_1952/187097" },
     { t:"1956-10-29", tur:"savas", b:"İsrail Sina'ya saldırdı; İngiltere ve Fransa müdahaleye hazırlandı (Süveyş Krizi).", kaynak:"https://www.cvce.eu/content/publication/1999/6/9/2fd2ff88-6d31-4aa1-93fb-2bc8d91fce98/publishable_en.pdf" },
-    { t:"1956-12-22", tur:"toprak-kazanc", b:"İngiliz, Fransız ve İsrail birlikleri Mısır topraklarından çekildi (Mısır topraklarını geri aldı).", kaynak:"https://www.cvce.eu/content/publication/1999/6/9/2fd2ff88-6d31-4aa1-93fb-2bc8d91fce98/publishable_en.pdf" },
-    { t:"1958-02-22", tur:"birlesme", b:"Suriye ile birleşme plebisitle onaylandı; Mısır Birleşik Arap Cumhuriyeti'ne dönüştü.", kaynak:"https://www.britannica.com/print/article/615447" }
+    { t:"1956-12-22", tur:"toprak-kazanc", b:"İngiliz, Fransız ve İsrail birlikleri Mısır topraklarından çekildi (Mısır topraklarını geri aldı).", kaynak:"https://www.cvce.eu/content/publication/1999/6/9/2fd2ff88-6d31-4aa1-93fb-2bc8d91fce98/publishable_en.pdf" }
   ] },
 { id:"birlesik-arap-cumhuriyeti", ad:"Birleşik Arap Cumhuriyeti (Mısır-Suriye; Suriye 28.09.1961'de ayrıldı, Mısır adı 1971'e dek korudu)", tur:"birlik", bolge:"misir-sudan", f:"1958-02-22", t:"1971-09-02", baskent:"Kahire", ozet:"1 Şubat 1958'de ilan, 21 Şubat plebisitiyle onaylanıp 22 Şubat'ta yürürlüğe girdi; Suriye 28 Eylül 1961'de ayrıldı; Mısır 2 Eylül 1971'e dek adı korudu. (ADAY f=1958-02-01 ilan günüydü; misir-cumhuriyeti ile çakışmasın diye 22 Şubat.)", kaynak:"https://www.britannica.com/print/article/615447 ; https://archontology.org/nations/egypt/01_polity.php", kronoloji:[
     { t:"1958-02-22", tur:"birlesme", b:"Mısır-Suriye birleşmesi plebisitle onaylanıp yürürlüğe girdi; BAC kuruldu.", kaynak:"https://www.britannica.com/print/article/615447 ; https://ebsco.com/research-starters/politics-and-government/syria-and-egypt-form-united-arab-republic" },
@@ -11059,7 +11394,7 @@ window.DEVLETLER = [
     { t:"1970-09-28", tur:"hukumdar", b:"Nasır öldü; yerine Enver Sedat geçti.", kaynak:"https://en.wikipedia.org/wiki/United_Arab_Republic ; https://fanack.com/egypt/history-of-egypt/sadats-egypt-1970-1981/" },
     { t:"1971-09-02", tur:"son", b:"Mısır 'Birleşik Arap Cumhuriyeti' adını bırakıp 'Mısır Arap Cumhuriyeti' adını aldı.", kaynak:"https://www.britannica.com/print/article/615447 ; https://archontology.org/nations/egypt/01_polity.php" }
   ] },
-{ id:"misir-arap-cumhuriyeti", ad:"Mısır Arap Cumhuriyeti", tur:"cumhuriyet", bolge:"misir-sudan", f:"1971-09-02", baskent:"Kahire", ozet:"2 Eylül 1971'de BAC adı bırakılarak kabul edilen ad. (Vikipedi 11 Eylül diyor; Britannica+Archontology 2 Eylül.)", kaynak:"https://www.britannica.com/print/article/615447 ; https://archontology.org/nations/egypt/01_polity.php", kronoloji:[
+{ id:"misir-arap-cumhuriyeti", ad:"Mısır Arap Cumhuriyeti", tur:"cumhuriyet", bolge:"misir-sudan", harita:"misir-kralligi", f:"1971-09-02", baskent:"Kahire", ozet:"2 Eylül 1971'de BAC adı bırakılarak kabul edilen ad. (Vikipedi 11 Eylül diyor; Britannica+Archontology 2 Eylül.)", kaynak:"https://www.britannica.com/print/article/615447 ; https://archontology.org/nations/egypt/01_polity.php", kronoloji:[
     { t:"1971-09-02", tur:"kurulus", b:"Mısır, BAC adını bırakıp Mısır Arap Cumhuriyeti adını kabul etti.", kaynak:"https://www.britannica.com/print/article/615447 ; https://archontology.org/nations/egypt/01_polity.php" },
     { t:"1972-01-01", tur:"ittifak", b:"Mısır-Libya-Suriye Arap Cumhuriyetleri Federasyonu yürürlüğe girdi.", kaynak:"https://snl.no/Den_forente_arabiske_republikk ; https://en.wikipedia.org/wiki/Federation_of_Arab_Republics" },
     { t:"1973-10-06", tur:"savas", b:"Mısır ve Suriye İsrail'e saldırdı; Mısır Süveyş Kanalı'nı geçti (Ekim Savaşı).", kaynak:"https://www.rallypoint.com/shared-links/camp-david-accords-signed ; https://modeldiplomat.com/learn/glossary/anwar-sadat" },
@@ -11084,8 +11419,7 @@ window.DEVLETLER = [
     { t:"1983-05-16", tur:"isyan", b:"Bor garnizonunda isyan; Garang önderliğinde SPLA'ya giden süreç başladı.", kaynak:"https://sudantribune.com/?p=13084" },
     { t:"1983-06-05", tur:"son", b:"Numeyri güneyi yeniden üç bölgeye ayırarak özerkliği fiilen feshetti.", kaynak:"https://mg.co.za/2000-01-21-sudan-is-a-tough-nut-to-crack/ ; https://fanack.com/sudan/history-of-sudan/democracy-and-military-coup/" }
   ] },
-{ id:"etiyopya-derg", ad:"Etiyopya Geçici Askerî İdare Konseyi (Derg) / Halk Demokratik Cumhuriyeti (1987)", tur:"askeri-rejim", bolge:"dogu-afrika", f:"1974-09-12", t:"1991-05-28", baskent:"Addis Ababa", ozet:"12 Eylül 1974'te Haile Selassie'nin devrilmesiyle iktidar; Mart 1975 monarşinin kaldırılışı; 1987'de PDRE; 28 Mayıs 1991'de EPRDF'nin Addis Ababa'yı almasıyla çöktü.", kaynak:"https://en.wikipedia.org/wiki/Derg (ipucu) + https://cjids.in/ethiopian-military-rule-impact-on-international-engagements/ ; Marcus, A History of Ethiopia (2002); TDV 'Etiyopya'", kronoloji:[
-    { t:"1974-09-12", tur:"kurulus", b:"Derg, İmparator Haile Selassie'yi tahttan indirip iktidarı aldı; konsey Geçici Askerî İdare Konseyi adını aldı.", kaynak:"https://www.ebsco.com/research-starters/history/military-junta-comes-power-ethiopia ; Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
+{ id:"etiyopya-derg", ad:"Etiyopya Geçici Askerî İdare Konseyi (Derg) / Halk Demokratik Cumhuriyeti (1987)", tur:"askeri-rejim", bolge:"dogu-afrika", harita:"habesistan", f:"1974-09-12", t:"1991-05-28", baskent:"Addis Ababa", ozet:"12 Eylül 1974'te Haile Selassie'nin devrilmesiyle iktidar; Mart 1975 monarşinin kaldırılışı; 1987'de PDRE; 28 Mayıs 1991'de EPRDF'nin Addis Ababa'yı almasıyla çöktü.", kaynak:"https://en.wikipedia.org/wiki/Derg (ipucu) + https://cjids.in/ethiopian-military-rule-impact-on-international-engagements/ ; Marcus, A History of Ethiopia (2002); TDV 'Etiyopya'", kronoloji:[
     { t:"1974-11-23", tur:"siyaset", b:"Konsey başkanı Aman Andom öldürüldü, 60 eski görevli idam edildi; Tafari Benti başkan oldu.", kaynak:"Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
     { t:"1975-03-21", tur:"siyaset", b:"Monarşi kaldırıldı, Etiyopya sosyalist devlet ilan edildi.", kaynak:"https://www.ebsco.com/research-starters/history/military-junta-comes-power-ethiopia ; Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
     { t:"1975-08-27", tur:"hukumdar", b:"Haile Selassie tutukluluğunda öldü.", kaynak:"Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
@@ -11094,18 +11428,16 @@ window.DEVLETLER = [
     { t:"1978-03-15", tur:"savas", b:"Sovyet-Küba desteğiyle Etiyopya karşı saldırısı Somali'yi Ogaden'den çıkardı; savaş fiilen sona erdi.", kaynak:"https://www.ebsco.com/research-starters/history/ogaden-war-between-somalia-and-ethiopia" },
     { t:"1984-09-06", tur:"siyaset", b:"Etiyopya İşçi Partisi kuruldu.", kaynak:"Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
     { t:"1987-09-10", tur:"siyaset", b:"Yeni anayasa ile Etiyopya Halk Demokratik Cumhuriyeti ilan edildi; Mengistu devlet başkanı.", kaynak:"Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
-    { t:"1991-05-21", tur:"hukumdar", b:"Mengistu Zimbabve'ye kaçtı.", kaynak:"Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" },
-    { t:"1991-05-28", tur:"son", b:"EPRDF güçleri Addis Ababa'yı aldı; Derg rejimi çöktü.", kaynak:"https://www.ebsco.com/research-starters/history/military-junta-comes-power-ethiopia" }
+    { t:"1991-05-21", tur:"hukumdar", b:"Mengistu Zimbabve'ye kaçtı.", kaynak:"Britannica, Ethiopia: history; Marcus, A History of Ethiopia (2002)" }
   ] },
-{ id:"etiyopya-gecis-hukumeti", ad:"Etiyopya Geçiş Hükümeti (TGE)", tur:"gecici-hukumet", bolge:"dogu-afrika", f:"1991-05-28", t:"1995-08-22", baskent:"Addis Ababa", ozet:"Derg'in çöküşünden (28.05.1991) FDRE anayasasının yürürlüğüne (Ağustos 1995) dek geçiş hükümeti; Temmuz 1991 Ulusal Konferans ve Geçiş Dönemi Şartı. (ADAY f 22 Temmuz = Temsilciler Meclisi/Şart günü; oluşum 28 Mayıs. t günü S.)", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm ; https://en.wikipedia.org/wiki/Transitional_Government_of_Ethiopia (ipucu)", kronoloji:[
-    { t:"1991-05-28", tur:"kurulus", b:"EPRDF Addis Ababa'yı alıp Derg'i devirdi, geçiş yönetimi başladı.", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm" },
+{ id:"etiyopya-gecis-hukumeti", ad:"Etiyopya Geçiş Hükümeti (TGE)", tur:"gecici-hukumet", bolge:"dogu-afrika", harita:"habesistan", f:"1991-05-28", t:"1995-08-22", baskent:"Addis Ababa", ozet:"Derg'in çöküşünden (28.05.1991) FDRE anayasasının yürürlüğüne (Ağustos 1995) dek geçiş hükümeti; Temmuz 1991 Ulusal Konferans ve Geçiş Dönemi Şartı. (ADAY f 22 Temmuz = Temsilciler Meclisi/Şart günü; oluşum 28 Mayıs. t günü S.)", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm ; https://en.wikipedia.org/wiki/Transitional_Government_of_Ethiopia (ipucu)", kronoloji:[
     { t:"1991-07-22", tur:"antlasma", b:"Geçiş Dönemi Şartı kabul edildi, Temsilciler Meclisi kuruldu; Meles Zenawi geçiş hükümeti başkanı.", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm (gün künye notundan, teyit gerekir)" },
     { t:"1992-06-21", tur:"siyaset", b:"Bölgesel ve yerel seçimler yapıldı; OLF seçimden çekildi.", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm (gün ikincil)" },
     { t:"1994-12-08", tur:"siyaset", b:"Kurucu Meclis federal anayasayı kabul etti.", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm" },
     { t:"1995-05-07", tur:"siyaset", b:"Genel seçim; EPRDF büyük çoğunluk kazandı (muhalefet boykot).", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm (gün ikincil)" },
     { t:"1995-08-22", tur:"son", b:"Anayasa yürürlüğe girdi; geçiş hükümeti federal cumhuriyete devredildi.", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm" }
   ] },
-{ id:"etiyopya-federal", ad:"Etiyopya Federal Demokratik Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1995-08-22", baskent:"Addis Ababa", ozet:"Aralık 1994'te kabul edilen anayasanın Ağustos 1995'te yürürlüğe girmesiyle kurulan federal cumhuriyet. (gün S)", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm ; Marcus 2002", kronoloji:[
+{ id:"etiyopya-federal", ad:"Etiyopya Federal Demokratik Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-afrika", harita:"habesistan", f:"1995-08-22", baskent:"Addis Ababa", ozet:"Aralık 1994'te kabul edilen anayasanın Ağustos 1995'te yürürlüğe girmesiyle kurulan federal cumhuriyet. (gün S)", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm ; Marcus 2002", kronoloji:[
     { t:"1995-08-22", tur:"kurulus", b:"Etiyopya Federal Demokratik Cumhuriyeti kuruldu; Negasso Gidada cumhurbaşkanı, Meles Zenawi başbakan.", kaynak:"https://www.hrw.org/reports/1997/ethiopia/Ethio97d-02.htm ; Marcus 2002" },
     { t:"1998-05-06", tur:"savas", b:"Eritre ile sınır savaşı başladı.", kaynak:"https://www.globalsecurity.org/military/world/war/eritrea.htm" },
     { t:"2000-12-12", tur:"antlasma", b:"Eritre ile Cezayir Anlaşması imzalandı.", kaynak:"https://www.peaceagreements.org/agreements/221/coding/Agreement%20between%20the%20Government%20of%20the%20State%20of%20Eritrea%20and%20the%20Government%20of%20the%20Federal%20Democratic%20Republic%20of%20Ethiopia%20(Algiers%20Agreement)" },
@@ -11118,15 +11450,10 @@ window.DEVLETLER = [
     { t:"2022-11-02", tur:"antlasma", b:"Pretoria'da federal hükûmet ile TPLF arasında düşmanlıkların sona erdirilmesi anlaşması imzalandı.", kaynak:"Afrika Birliği açıklaması, 2 Kasım 2022" }
   ] },
 { id:"eritre-ingiliz-askeri-idaresi", ad:"Eritre İngiliz Askerî İdaresi", tur:"askeri-idare", bolge:"dogu-afrika", f:"1941-04-01", t:"1952-09-15", baskent:"Asmara", ozet:"Nisan 1941'de İtalyan Doğu Afrikası'nın çöküşüyle başlayan İngiliz idaresi; BM'nin 15 Eylül 1952 son tarihiyle federasyona devredildi. (f günü S; ADAY t 11 Eylül → 15 Eylül.)", kaynak:"https://en.wikipedia.org/wiki/British_Military_Administration_(Eritrea) (ipucu) ; https://digitallibrary.un.org/ (GA 390 A(V)) ; Killion, HD Eritrea", kronoloji:[
-    { t:"1941-04-01", tur:"kurulus", b:"Asmara alındı; İngiliz askerî idaresi başladı.", kaynak:"https://countrystudies.us/ethiopia/24.htm ; Killion, Historical Dictionary of Eritrea (kaynaklar 5 Şub/25 Şub/1 Nis arasında farklı)" },
-    { t:"1952-09-15", tur:"son", b:"BM kararıyla Eritre Etiyopya ile federe edildi, İngiliz idaresi bitti.", kaynak:"https://countrystudies.us/ethiopia/24.htm ; https://www.securitycouncilreport.org/chronology/ethiopiaeritrea.php/7" }
   ] },
 { id:"eritre-federasyon", ad:"Etiyopya-Eritre Federasyonu (Eritre özerk birimi)", tur:"federasyon", bolge:"dogu-afrika", f:"1952-09-15", t:"1962-11-14", baskent:"Asmara", ozet:"BM GA 390 A (V) (2 Aralık 1950) kararıyla Etiyopya Tacı altında özerk birim; Eylül 1952'de yürürlük (kaynaklarda 11 veya 15 Eylül; 15 Eylül daha çok sayfada); Kasım 1962'de Eritre Meclisi'nin kendini feshi/ilhak. (t günü tek ikincil kaynak.)", kaynak:"https://www.securitycouncilreport.org/chronology/ethiopiaeritrea.php/7 ; https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/eritreas-ratt-till-sjalvbestammande_gc02u523/ ; Killion", kronoloji:[
-    { t:"1952-09-15", tur:"kurulus", b:"Eritre-Etiyopya federasyonu yürürlüğe girdi.", kaynak:"https://countrystudies.us/ethiopia/24.htm ; Killion (11 veya 15 Eylül)" },
-    { t:"1962-11-14", tur:"son", b:"Eritre Meclisi federasyonu feshetti, Eritre Etiyopya eyaleti oldu (bazı kaynaklar 15 Kasım).", kaynak:"https://www.securitycouncilreport.org/chronology/ethiopiaeritrea.php/7 ; https://countrystudies.us/ethiopia/24.htm" }
   ] },
 { id:"eritre", ad:"Eritre Devleti (fiilî 1991-05-24; resmî ilan 24 Mayıs 1993)", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1991-05-24", baskent:"Asmara", ozet:"24 Mayıs 1991'de Asmara'nın kurtarılmasıyla fiilî bağımsızlık; 23-25 Nisan 1993 referandumu (%99,8 evet) sonrası 24 Mayıs 1993'te resmî.", kaynak:"https://www.globalsecurity.org/military/world/eritrea/history.htm ; https://www.ecoi.net/en/countries/eritrea/briefing/", kronoloji:[
-    { t:"1991-05-24", tur:"kurulus", b:"EPLF Asmara'yı aldı; Eritre fiilen bağımsız oldu.", kaynak:"https://www.globalsecurity.org/military/world/eritrea/history.htm" },
     { t:"1993-04-23", tur:"siyaset", b:"Bağımsızlık referandumu başladı (23-25 Nisan); %99,8 evet.", kaynak:"https://www.globalsecurity.org/military/world/eritrea/history.htm" },
     { t:"1993-05-24", tur:"kurulus", b:"Eritre resmen bağımsızlığını ilan etti; İsaias Afwerki devlet başkanı.", kaynak:"https://www.globalsecurity.org/military/world/eritrea/history.htm" },
     { t:"1993-05-28", tur:"siyaset", b:"Eritre BM'ye üye kabul edildi.", kaynak:"BM Genel Kurulu kararı A/RES/47/230" },
@@ -11146,26 +11473,19 @@ window.DEVLETLER = [
     { t:"1960-06-26", tur:"son", b:"Somaliland Devleti olarak bağımsız; 1 Temmuz'da İtalyan Somalisi ile birleşip Somali Cumhuriyeti kuruldu.", kaynak:"https://en.wikipedia.org/wiki/State_of_Somaliland ; https://allafrica.com/stories/202506270066.html" }
   ] },
 { id:"somali-ingiliz-askeri-idaresi", ad:"İtalyan Somalisi İngiliz Askerî İdaresi", tur:"askeri-idare", bolge:"dogu-afrika", f:"1941-02-25", t:"1950-04-01", baskent:"Mogadişu", ozet:"Şubat 1941'de Mogadişu'nun alınmasıyla başlayan İngiliz idaresi; 1 Nisan 1950'de İtalyan vesayetine devredildi. (f günü S, t T.)", kaynak:"https://en.wikipedia.org/wiki/Trust_Territory_of_Somaliland (ipucu) ; https://research.un.org/en/docs/tc/somaliland ; Lewis 1988", kronoloji:[
-    { t:"1941-02-25", tur:"kurulus", b:"Mogadişu'nun alınmasıyla İngiliz askerî idaresi başladı.", kaynak:"Lewis 1988, A Modern History of the Somali; https://research.un.org/en/docs/tc/somaliland" },
-    { t:"1950-04-01", tur:"son", b:"İdare İtalya'nın BM vesayetine devredildi.", kaynak:"https://research.un.org/en/docs/tc/somaliland" }
   ] },
 { id:"somali-italyan-vesayet", ad:"İtalyan Somalisi BM Vesayet İdaresi (AFIS)", tur:"vesayet", bolge:"dogu-afrika", f:"1950-04-01", t:"1960-07-01", baskent:"Mogadişu", ozet:"BM GA 442 (V) (2 Aralık 1950) vesayet anlaşması; idare 1 Nisan 1950'de İtalya'ya geçti; 30 Haziran 1960'ta resmen bitti, 1 Temmuz 1960'ta Somali Cumhuriyeti.", kaynak:"https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; https://research.un.org/en/docs/tc/somaliland ; https://www.targheitaliane.it/italy/colonie/afis.html", kronoloji:[
-    { t:"1950-04-01", tur:"kurulus", b:"Somali İtalyan vesayet idaresi (AFIS) İtalya'ya geçti.", kaynak:"https://research.un.org/en/docs/tc/somaliland ; https://www.targheitaliane.it/italy/colonie/afis.html" },
     { t:"1950-12-02", tur:"antlasma", b:"BM Genel Kurulu 442 (V) ile vesayet anlaşmasını onayladı.", kaynak:"https://research.un.org/en/docs/tc/somaliland" },
     { t:"1960-06-30", tur:"son", b:"Vesayet idaresi resmen bitti; ertesi gün Somali Cumhuriyeti kuruldu.", kaynak:"https://independance.africamuseum.be/en/node/173" }
   ] },
 { id:"somaliland-1960", ad:"Somaliland Devleti (1960 kısa bağımsızlık)", tur:"devlet", bolge:"dogu-afrika", f:"1960-06-26", t:"1960-07-01", baskent:"Hargeysa", ozet:"26 Haziran 1960'ta İngiliz Somalilandı bağımsızlığı; 1 Temmuz 1960'ta Vesayet Bölgesi'yle birleşme. (5 günlük hukuki statü tartışmalı.)", kaynak:"https://ft.dk/samling/20181/almdel/mof/bilag/116/index.htm ; https://independance.africamuseum.be/en/node/173 ; Lewis 1988", kronoloji:[
-    { t:"1960-06-26", tur:"kurulus", b:"İngiliz Somalilandı bağımsız Somaliland Devleti oldu.", kaynak:"https://independance.africamuseum.be/en/node/173 ; https://ft.dk/samling/20181/almdel/mof/bilag/116/index.htm" },
-    { t:"1960-07-01", tur:"birlesme", b:"Somaliland, İtalyan Somalisi ile birleşerek Somali Cumhuriyeti'ni kurdu.", kaynak:"https://independance.africamuseum.be/en/node/173 ; Lewis 1988" }
   ] },
 { id:"somali-cumhuriyeti", ad:"Somali Cumhuriyeti (1969'dan Demokratik Cumhuriyet; 1991'de merkez çöktü)", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1960-07-01", baskent:"Mogadişu", ozet:"1 Temmuz 1960'ta İngiliz ve İtalyan Somalisi'nin birleşmesi; 1991'de merkezî devlet çöktü, ad resmen sürüyor.", kaynak:"https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 1988", kronoloji:[
-    { t:"1960-07-01", tur:"kurulus", b:"İngiliz ve İtalyan Somalisi birleşerek Somali Cumhuriyeti'ni kurdu.", kaynak:"https://independance.africamuseum.be/en/node/173" },
     { t:"1969-10-21", tur:"siyaset", b:"Siad Barre askerî darbeyle yönetime el koydu; devlet Somali Demokratik Cumhuriyeti adını aldı.", kaynak:"Lewis 1988, A Modern History of the Somali (gün bu çalışmada web'de doğrulanmadı; Britannica 'Somalia' ile teyit edilmeli)" },
     { t:"1977-07-23", tur:"savas", b:"Somali ordusu Ogaden'e girdi; Ogaden Savaşı başladı.", kaynak:"Lewis 1988 (gün web'de doğrulanmadı)" },
     { t:"1991-01-26", tur:"siyaset", b:"Siad Barre rejimi devrildi; merkezî devlet çöktü.", kaynak:"Lewis 1988 ; TDV 'Somali' (gün web'de doğrulanmadı)" }
   ] },
 { id:"somaliland-cumhuriyeti", ad:"Somaliland Cumhuriyeti (tanınmamış fiilî devlet)", tur:"fiili-devlet", bolge:"dogu-afrika", f:"1991-05-18", baskent:"Hargeysa", ozet:"Burao Konferansı sonrası 18 Mayıs 1991'de ilan edilen, hiçbir devletçe tanınmayan fiilî devlet.", kaynak:"https://theeastafrican.co.ke/tea/news/east-africa/somaliland-celebrates-30-years-of-self-rule-3409670 ; Bradbury 2008", kronoloji:[
-    { t:"1991-05-18", tur:"kurulus", b:"Burao Konferansı'nın ardından Somaliland bağımsızlığını ilan etti; Abdirahman Ahmed Ali Tuur ilk başkan.", kaynak:"https://theeastafrican.co.ke/tea/news/east-africa/somaliland-celebrates-30-years-of-self-rule-3409670 ; Bradbury 2008" },
     { t:"1993-05-05", tur:"hukumdar", b:"Borama Konferansı'nda Muhammed Haci İbrahim Egal başkan seçildi.", kaynak:"Bradbury, Becoming Somaliland (2008)" },
     { t:"2001-05-31", tur:"siyaset", b:"Anayasa referandumu yapıldı; anayasa ve çok partili sistem kabul edildi.", kaynak:"Bradbury, Becoming Somaliland (2008); Britannica, Somaliland" },
     { t:"2002-05-03", tur:"hukumdar", b:"Egal öldü; Dahir Riyale Kahin başkan oldu.", kaynak:"Britannica, Somaliland; Bradbury 2008" },
@@ -11196,7 +11516,6 @@ window.DEVLETLER = [
   ] },
 { id:"cibuti", ad:"Cibuti Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1977-06-27", baskent:"Cibuti", ozet:"27 Haziran 1977'de Fransa'dan bağımsız oldu (8 Mayıs 1977 referandumunda %99,75 evet).", kaynak:"https://en.wikipedia.org/wiki/1977_Afars_and_Issas_independence_referendum (ipucu) ; https://uca.edu/politicalscience/dadm-project/sub-saharan-africa-region/french-somaliland-1956-1977 ; TDV 'Cibuti'", kronoloji:[
     { t:"1977-05-08", tur:"siyaset", b:"Fransız Afarlar ve Issalar Sahili'nde bağımsızlık referandumu yapıldı (büyük çoğunlukla evet).", kaynak:"https://uca.edu/politicalscience/dadm-project/sub-saharan-africa-region/french-somaliland-1956-1977" },
-    { t:"1977-06-27", tur:"kurulus", b:"Cibuti Cumhuriyeti Fransa'dan bağımsız oldu; Hassan Gouled Aptidon ilk başkan.", kaynak:"https://uca.edu/politicalscience/dadm-project/sub-saharan-africa-region/french-somaliland-1956-1977 ; https://www.globalsecurity.org/military/world/djibouti/history-2.htm" },
     { t:"1992-09-04", tur:"siyaset", b:"Çok partili sistemi getiren anayasa referandumla kabul edildi.", kaynak:"Britannica, Djibouti: history" },
     { t:"1994-12-26", tur:"antlasma", b:"Hükûmet ile FRUD ana kanadı arasında barış ve güç paylaşımı anlaşması imzalandı.", kaynak:"https://www.aljazeera.com/news/2004/9/1/djibouti-country-profile ; Britannica, Djibouti" },
     { t:"1999-04-09", tur:"hukumdar", b:"Ismail Omar Guelleh başkanlık seçimini kazandı, Gouled'in yerini aldı.", kaynak:"Britannica, Djibouti: history" },
@@ -11213,11 +11532,9 @@ window.DEVLETLER = [
     { t:"1894-06-18", tur:"kurulus", b:"İngiltere Buganda üzerinde himaye ilan etti.", kaynak:"https://doha.mofa.go.ug/node/194 ; Britannica 'Buganda' (1894 nüfuz alanı, 1900 resmî himaye)" },
     { t:"1896-01-01", tur:"toprak-kazanc", b:"Himaye Bunyoro, Toro, Ankole ve Busoga'ya genişletildi.", kaynak:"https://doha.mofa.go.ug/node/194 (yıl; gün bulunamadı)" },
     { t:"1897-01-01", tur:"hukumdar", b:"Kabaka Mwanga tahttan indirilip yerine bebek Daudi Chwa geçirildi.", kaynak:"https://doha.mofa.go.ug/node/194 (yıl; gün bulunamadı)" },
-    { t:"1900-01-01", tur:"antlasma", b:"1900 Buganda Antlaşması ile Buganda resmen İngiliz himayesine girdi.", kaynak:"https://www.britannica.com/place/Buganda (yıl; gün bulunamadı)" },
-    { t:"1962-10-09", tur:"son", b:"Uganda bağımsız oldu; Milton Obote başbakan, Kabaka Mutesa II cumhurbaşkanı oldu.", kaynak:"https://doha.mofa.go.ug/node/194 ; https://omniatlas.com/maps/safrica/19621009/" }
+    { t:"1900-01-01", tur:"antlasma", b:"1900 Buganda Antlaşması ile Buganda resmen İngiliz himayesine girdi.", kaynak:"https://www.britannica.com/place/Buganda (yıl; gün bulunamadı)" }
   ] },
 { id:"uganda", ad:"Uganda (1967'ye dek krallıkların federal yapısı)", tur:"devlet", bolge:"dogu-afrika", f:"1962-10-09", baskent:"Kampala", ozet:"9 Ekim 1962 bağımsızlığı; Buganda vb. krallıkların federal yapısı 1967'ye dek.", kaynak:"https://omniatlas.com/maps/safrica/19621009/ ; HD Uganda", kronoloji:[
-    { t:"1962-10-09", tur:"kurulus", b:"Uganda İngiltere'den bağımsızlığını kazanır; Buganda dahil krallıklar federal yapıda yer alır.", kaynak:"https://omniatlas.com/maps/safrica/19621009/" },
     { t:"1966-04-15", tur:"siyaset", b:"Obote askerle çevrili Parlamento'ya yeni anayasayı (Güvercin Yuvası Anayasası) kabul ettirir; krallıkların federal statüsü kalkar.", kaynak:"https://uganda-embassy.jp/uganda_polytics.html" },
     { t:"1966-05-24", tur:"ic-savas", b:"Ordu (Amin) Buganda Kabaka'sı Mutesa II'nin sarayına saldırır; Kabaka sürgüne kaçar.", kaynak:"https://www.globalsecurity.org/military/world/uganda/history.htm; https://en.wikipedia.org/wiki/Milton_Obote (ipucu)" },
     { t:"1967-01-01", tur:"siyaset", b:"Eylül 1967 anayasası Uganda'yı cumhuriyet ilan eder, geleneksel krallıkları kaldırır (gün teyitsiz: yalnız ay/yıl okundu).", kaynak:"https://www.globalsecurity.org/military/world/uganda/history.htm" },
@@ -11225,10 +11542,8 @@ window.DEVLETLER = [
     { t:"1979-01-01", tur:"ic-savas", b:"Tanzanya ordusu ve UNLF Uganda'ya girer, Amin Nisan 1979'da devrilir (gün teyitsiz).", kaynak:"https://www.globalsecurity.org/military/world/uganda/history.htm" }
   ] },
 { id:"tanganika", ad:"Tanganika (bağımsız)", tur:"devlet", bolge:"dogu-afrika", f:"1961-12-09", t:"1964-04-26", baskent:"Dar es Salaam", ozet:"9 Aralık 1961 bağımsızlık; 26 Nisan 1964'te Zengibar'la birleşerek Tanzanya.", kaynak:"https://en.wikipedia.org/wiki/Tanganyika_Territory (ipucu) ; https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/ ; https://www.ebsco.com/research-starters/history/zanzibar-and-tanganyika-unite-form-tanzania", kronoloji:[
-    { t:"1961-12-09", tur:"kurulus", b:"Tanganika İngiltere'den bağımsız oldu.", kaynak:"https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/ ; https://www.ebsco.com/research-starters/history/zanzibar-and-tanganyika-unite-form-tanzania" },
     { t:"1962-12-09", tur:"siyaset", b:"Cumhuriyet ilan edildi; Julius Nyerere ilk cumhurbaşkanı oldu.", kaynak:"https://www.ebsco.com/research-starters/history/zanzibar-and-tanganyika-unite-form-tanzania (Wikipedia 'Tanganyika (1961-1964)' ile teyit)" },
-    { t:"1964-04-22", tur:"antlasma", b:"Zengibar'la Birlik Antlaşması imzalandı.", kaynak:"https://www.ebsco.com/research-starters/history/zanzibar-and-tanganyika-unite-form-tanzania" },
-    { t:"1964-04-26", tur:"birlesme", b:"Tanganika ile Zengibar birleşerek Tanzanya Birleşik Cumhuriyeti'ni kurdu.", kaynak:"https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/" }
+    { t:"1964-04-22", tur:"antlasma", b:"Zengibar'la Birlik Antlaşması imzalandı.", kaynak:"https://www.ebsco.com/research-starters/history/zanzibar-and-tanganyika-unite-form-tanzania" }
   ] },
 { id:"zengibar-bagimsiz-sultanlik", ad:"Zengibar Sultanlığı (bağımsız)", tur:"krallik", bolge:"dogu-afrika", f:"1963-12-10", t:"1964-01-12", baskent:"Zengibar", ozet:"10 Aralık 1963'te İngiliz himayesinin bitmesiyle bağımsız anayasal monarşi; 12 Ocak 1964 devrimiyle devrildi. UYARI: mevcut 'umman-zengibar' künyesi 1945'te bitiyor — 1945-1963 boşluğu için UZATMA incelenmeli.", kaynak:"https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/ ; Sheriff/Ferguson 1991", kronoloji:[
     { t:"1963-12-10", tur:"kurulus", b:"Zengibar İngiliz himayesinin bitmesiyle bağımsız anayasal monarşi olur.", kaynak:"https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/" },
@@ -11251,12 +11566,9 @@ window.DEVLETLER = [
     { t:"1994-07-19", tur:"siyaset", b:"RPF dört partiyle Ulusal Birlik Hükümeti'ni kurar.", kaynak:"https://en.wikipedia.org/wiki/Liberation_Day_(Rwanda) (ipucu; birincil kaynak aranmalı)" }
   ] },
 { id:"burundi-krallik", ad:"Burundi Krallığı (bağımsız)", tur:"krallik", bolge:"dogu-afrika", f:"1962-07-01", t:"1966-11-28", baskent:"Bujumbura", ozet:"1962 bağımsızlığı (gün S); Ntare V 28 Kasım 1966'da Micombero darbesiyle devrildi.", kaynak:"https://en.wikipedia.org/wiki/Michel_Micombero (ipucu) ; https://www.globalsecurity.org/military/world/burundi/history.htm ; Lemarchand 1994", kronoloji:[
-    { t:"1962-07-01", tur:"kurulus", b:"Burundi Krallığı Belçika vesayetinden bağımsız olur.", kaynak:"https://www.globalsecurity.org/military/world/burundi/history.htm (yıl)" },
-    { t:"1966-07-08", tur:"hukumdar", b:"Veliaht Charles Ndizeye, babası Mwambutsa IV'ü devirip Ntare V adıyla tahta çıkar.", kaynak:"https://fr.apanews.net/news/8-juillet-1966-le-basculement-du-burundi/" },
-    { t:"1966-11-28", tur:"son", b:"Micombero darbesiyle Ntare V devrilir, monarşi kaldırılır.", kaynak:"https://www.globalsecurity.org/military/world/burundi/history.htm; https://fr.apanews.net/news/8-juillet-1966-le-basculement-du-burundi/" }
+    { t:"1966-07-08", tur:"hukumdar", b:"Veliaht Charles Ndizeye, babası Mwambutsa IV'ü devirip Ntare V adıyla tahta çıkar.", kaynak:"https://fr.apanews.net/news/8-juillet-1966-le-basculement-du-burundi/" }
   ] },
 { id:"burundi-cumhuriyeti", ad:"Burundi Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1966-11-28", baskent:"Bujumbura", ozet:"28 Kasım 1966'da Micombero'nun monarşiyi kaldırıp cumhuriyet ilan etmesi.", kaynak:"https://www.globalsecurity.org/military/world/burundi/history.htm ; https://fr.apanews.net/news/8-juillet-1966-le-basculement-du-burundi/ ; Lemarchand 1994", kronoloji:[
-    { t:"1966-11-28", tur:"kurulus", b:"Micombero monarşiyi kaldırıp cumhuriyet ilan eder.", kaynak:"https://www.globalsecurity.org/military/world/burundi/history.htm; https://fr.apanews.net/news/8-juillet-1966-le-basculement-du-burundi/" },
     { t:"1976-01-01", tur:"isyan", b:"Bagaza kansız darbeyle yönetimi alır (yalnız yıl okundu).", kaynak:"https://en.wikipedia.org/wiki/Timeline_of_Burundian_history (ipucu)" },
     { t:"1987-01-01", tur:"isyan", b:"Buyoya, Kanada'daki Bagaza'yı darbeyle devirir (yalnız yıl okundu).", kaynak:"https://en.wikipedia.org/wiki/Pierre_Buyoya (ipucu)" },
     { t:"1993-10-21", tur:"hukumdar", b:"İlk Hutu başkan Ndadaye askerî darbe girişiminde öldürülür; iç savaş başlar.", kaynak:"https://www.universalis.fr/evenement/21-27-octobre-1993-mort-du-president-melchior-ndadaye-lors-d-une-tentative-de-coup-d-etat/; https://www.globalsecurity.org/military/world/war/burundi3.htm" },
@@ -11308,13 +11620,11 @@ window.DEVLETLER = [
     { t:"2025-05-22", tur:"antlasma", b:"Mauritius ile Birleşik Krallık, Chagos Takımadaları'nın egemenliğini Mauritius'a devreden antlaşmayı imzaladı.", kaynak:"UK Government / Mauritius Government açıklamaları, 22 Mayıs 2025 (ikincil teyit gerekir)" }
   ] },
 { id:"malavi", ad:"Malavi", tur:"devlet", bolge:"dogu-afrika", f:"1964-07-06", baskent:"Zomba / Lilongwe", ozet:"6 Temmuz 1964 bağımsızlığı (Nyasaland'dan). (S)", kaynak:"https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland (ipucu, yıl 1964) ; HD Malawi", kronoloji:[
-    { t:"1964-07-06", tur:"kurulus", b:"Malavi (Nyasaland) İngiltere'den bağımsız olur; Banda başbakan.", kaynak:"https://en.wikipedia.org/wiki/Hastings_Banda (ipucu); https://www.ebsco.com/research-starters/biography/hastings-kamuzu-banda/" },
     { t:"1966-01-01", tur:"siyaset", b:"Malavi cumhuriyet olur, Banda cumhurbaşkanı (yalnız yıl okundu).", kaynak:"https://www.britannica.com/print/article/51447" },
     { t:"1971-07-06", tur:"hukumdar", b:"Banda Blantyre'de ömür boyu başkanlık yemini eder.", kaynak:"https://archontology.org/nations/malawi/00_1966_td_s.php" },
     { t:"1993-06-14", tur:"siyaset", b:"Referandumda halk çok partili demokrasiyi büyük çoğunlukla onaylar.", kaynak:"https://en.wikipedia.org/wiki/Hastings_Banda (ipucu)" }
   ] },
 { id:"zambiya", ad:"Zambiya", tur:"devlet", bolge:"dogu-afrika", f:"1964-10-24", baskent:"Lusaka", ozet:"24 Ekim 1964 bağımsızlığı (Kuzey Rodezya'dan). (S)", kaynak:"https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland (ipucu, yıl 1964) ; HD Zambia", kronoloji:[
-    { t:"1964-10-24", tur:"kurulus", b:"Zambiya İngiltere'den bağımsız olur; Kaunda ilk başkan.", kaynak:"https://www.ebsco.com/research-starters/politics-and-government/kaunda-becomes-zambias-first-president" },
     { t:"1972-12-08", tur:"siyaset", b:"Ulusal Meclis UNIP'i tek yasal parti ilan eder.", kaynak:"https://www.globalsecurity.org/military/world/africa/zm-politics.htm" },
     { t:"1973-01-01", tur:"siyaset", b:"Tek partili İkinci Cumhuriyet resmen başlar.", kaynak:"https://www.globalsecurity.org/military/world/africa/zm-politics.htm" },
     { t:"1990-12-04", tur:"siyaset", b:"Meclis siyasi partilerin kurulmasını yasallaştırır.", kaynak:"https://www.globalsecurity.org/military/world/africa/zm-politics.htm" },
@@ -11333,7 +11643,6 @@ window.DEVLETLER = [
     { t:"1975-06-25", tur:"son", b:"Mozambik bağımsız oldu; geçiş hükümeti sona erdi.", kaynak:"https://uca.edu/politicalscience/dadm-project/sub-saharan-africa-region/mozambique-1975-present" }
   ] },
 { id:"mozambik", ad:"Mozambik Halk Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1975-06-25", baskent:"Maputo", ozet:"25 Haziran 1975 bağımsızlığı (Lusaka Anlaşması).", kaynak:"https://en.wikipedia.org/wiki/Lusaka_Accord (ipucu) ; https://africaportal.org/wp-content/uploads/2023/05/Frelimo_and_the_transitional_government_of_Mozambique.pdf", kronoloji:[
-    { t:"1975-06-25", tur:"kurulus", b:"Mozambik Halk Cumhuriyeti bağımsızlığını ilan etti; Samora Machel ilk devlet başkanı.", kaynak:"https://uca.edu/politicalscience/dadm-project/sub-saharan-africa-region/mozambique-1975-present" },
     { t:"1977-05-30", tur:"isyan", b:"RENAMO silahlı isyanı başladı (iç savaş).", kaynak:"https://uca.edu/politicalscience/dadm-project/sub-saharan-africa-region/mozambique-1975-present" },
     { t:"1984-03-16", tur:"antlasma", b:"Nkomati Anlaşması: Mozambik ile Güney Afrika karşılıklı destek vermeme sözü verdi.", kaynak:"Britannica, Mozambique: history" },
     { t:"1986-10-19", tur:"hukumdar", b:"Samora Machel uçak kazasında öldü.", kaynak:"Britannica, Samora Machel" },
@@ -11345,7 +11654,6 @@ window.DEVLETLER = [
     { t:"2019-08-06", tur:"antlasma", b:"Hükûmet ile RENAMO arasında Barış ve Ulusal Uzlaşı Anlaşması imzalandı.", kaynak:"https://www.peaceagreements.org/agreements/2387/coding/Accord%20for%20National%20Peace%20and%20Reconciliation" }
   ] },
 { id:"guney-afrika-cumhuriyeti", ad:"Güney Afrika Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-afrika", f:"1961-05-31", baskent:"Pretoria / Cape Town", ozet:"31 Mayıs 1961'de cumhuriyet ilanı; Milletler Topluluğu üyelik başvurusu reddedildiği için geçici ayrılış.", kaynak:"https://www.sahistory.org.za/article/becoming-republic-and-withdrawal-commonwealth-1961 ; Davenport/Saunders", kronoloji:[
-    { t:"1961-05-31", tur:"kurulus", b:"Güney Afrika cumhuriyet oldu ve Milletler Topluluğu'ndan ayrıldı.", kaynak:"https://www.sahistory.org.za/article/becoming-republic-and-withdrawal-commonwealth-1961" },
     { t:"1966-09-06", tur:"hukumdar", b:"Başbakan Verwoerd suikastta öldürüldü (halef B.J. Vorster 13 Eylül).", kaynak:"South African History Online (sahistory.org.za) Verwoerd maddesi; bu turda açılmadı" },
     { t:"1976-06-16", tur:"isyan", b:"Soweto ayaklanması başladı.", kaynak:"South African History Online (sahistory.org.za) Soweto Uprising maddesi; bu turda açılmadı" },
     { t:"1990-02-11", tur:"siyaset", b:"Nelson Mandela serbest bırakıldı (ANC 2 Şubat 1990'da yasal hale gelmişti).", kaynak:"South African History Online (sahistory.org.za); bu turda açılmadı" },
@@ -11415,26 +11723,21 @@ window.DEVLETLER = [
     { t:"1968-09-06", tur:"son", b:"Svaziland bağımsız oldu; Sobhuza II devlet başkanı.", kaynak:"https://worldstatesmen.org/Swaziland.html ; Swaziland Independence Act 1968 (Royal Assent 26 Temmuz 1968)" }
   ] },
 { id:"svaziland", ad:"Svaziland Krallığı (2018'den eSwatini)", tur:"krallik", bolge:"guney-afrika", f:"1968-09-06", baskent:"Mbabane", ozet:"İngiliz himayesinden bağımsız monarşi.", kaynak:"UN (ref); Britannica Eswatini", kronoloji:[
-    { t:"1968-09-06", tur:"kurulus", b:"Svaziland İngiliz himayesinden bağımsız monarşi olur; II. Sobhuza kral.", kaynak:"Britannica, Eswatini" },
     { t:"1973-04-12", tur:"siyaset", b:"Sobhuza anayasayı yürürlükten kaldırır, kararnameyle yönetime geçer.", kaynak:"Britannica, Eswatini" },
     { t:"1982-08-21", tur:"hukumdar", b:"II. Sobhuza ölür; Kraliçe Dzeliwe naip olur.", kaynak:"Britannica, Eswatini" },
     { t:"1986-04-25", tur:"hukumdar", b:"III. Mswati tahta çıkar.", kaynak:"Britannica, Eswatini" }
   ] },
 { id:"rodezya-udi", ad:"Rodezya (UDI devleti; 1970-03-02'den Cumhuriyet)", tur:"taninmamis-devlet", bolge:"guney-afrika", f:"1965-11-11", t:"1979-06-01", baskent:"Salisbury", ozet:"Tek taraflı bağımsızlık ilanıyla kurulan, uluslararası tanınmamış beyaz azınlık yönetimi.", kaynak:"Britannica Zimbabwe (ref)", kronoloji:[
-    { t:"1965-11-11", tur:"kurulus", b:"Ian Smith hükümeti tek taraflı bağımsızlık (UDI) ilan etti.", kaynak:"https://unscr.com/en/resolutions/232/ ; https://www.refworld.org/docid/3b00f23414.html" },
     { t:"1965-11-12", tur:"siyaset", b:"BM Güvenlik Konseyi 216 sayılı kararla UDI'yi kınadı.", kaynak:"BM GK 216 (1965) ; aynı gün kaydı: arama özeti (unscr.com)" },
     { t:"1966-12-16", tur:"siyaset", b:"BM GK 232 ile Bölüm VII kapsamında ilk zorunlu yaptırımlar getirildi.", kaynak:"https://unscr.com/en/resolutions/232/ ; https://www.refworld.org/docid/3b00f23414.html" },
     { t:"1968-05-29", tur:"siyaset", b:"BM GK 253 kapsamlı zorunlu yaptırımlar getirdi.", kaynak:"BM GK 253 (1968), https://es.wikisource.org/wiki/Resoluci%C3%B3n_253_del_Consejo_de_Seguridad_de_las_Naciones_Unidas ; gün bu turda doğrulanmadı" },
-    { t:"1970-03-02", tur:"siyaset", b:"Rodezya cumhuriyet ilan edildi.", kaynak:"Künye özeti (tarih künyede geçiyor, bağımsız kaynakla ayrıca doğrulanmadı)" },
-    { t:"1979-06-01", tur:"son", b:"Zimbabve-Rodezya kuruldu; UDI devleti sona erdi.", kaynak:"Britannica Zimbabwe (erişim engelli, künye); gün künyeden" }
+    { t:"1970-03-02", tur:"siyaset", b:"Rodezya cumhuriyet ilan edildi.", kaynak:"Künye özeti (tarih künyede geçiyor, bağımsız kaynakla ayrıca doğrulanmadı)" }
   ] },
 { id:"zimbabve-rodezya", ad:"Zimbabve-Rodezya", tur:"gecici-hukumet", bolge:"guney-afrika", f:"1979-06-01", t:"1979-12-12", baskent:"Salisbury", ozet:"Kısa ömürlü tanınmamış devlet; 12 Aralık 1979'da İngiliz yönetimine dönüldü.", kaynak:"Britannica Zimbabwe (ref)", kronoloji:[
     { t:"1979-06-01", tur:"kurulus", b:"Rodezya, Zimbabve-Rodezya adıyla Abel Muzorewa hükümetiyle yeniden kurulur.", kaynak:"Britannica, Zimbabwe" },
-    { t:"1979-09-10", tur:"antlasma", b:"Londra'da Lancaster House konferansı başlar.", kaynak:"Britannica, Zimbabwe" },
-    { t:"1979-12-12", tur:"son", b:"Lord Soames vali olarak gelir; Britanya doğrudan yönetimi devralır.", kaynak:"Britannica, Zimbabwe" }
+    { t:"1979-09-10", tur:"antlasma", b:"Londra'da Lancaster House konferansı başlar.", kaynak:"Britannica, Zimbabwe" }
   ] },
 { id:"zimbabve", ad:"Zimbabve Cumhuriyeti", tur:"devlet", bolge:"guney-afrika", f:"1980-04-18", baskent:"Harare", ozet:"Güney Rodezya'nın bağımsız halefi. 1979-12-12..1980-04-18 arası İngiliz Güney Rodezya'sı (mevcut ingiliz-guney-rodezya, t=1980).", kaynak:"UN (ref); Britannica Zimbabwe", kronoloji:[
-    { t:"1980-04-18", tur:"kurulus", b:"Güney Rodezya bağımsız Zimbabve olur; Canaan Banana başkan, Robert Mugabe başbakan.", kaynak:"Britannica, Zimbabwe" },
     { t:"1987-12-22", tur:"birlesme", b:"ZANU ile ZAPU Birlik Anlaşması'yla birleşir.", kaynak:"Britannica, Zimbabwe" },
     { t:"1987-12-31", tur:"hukumdar", b:"Mugabe icracı başkan olur.", kaynak:"Britannica, Zimbabwe" },
     { t:"2000-02-13", tur:"siyaset", b:"Yeni anayasa referandumu reddedilir.", kaynak:"Britannica, Zimbabwe" }
@@ -11476,7 +11779,6 @@ window.DEVLETLER = [
     { t:"2005-02-05", tur:"hukumdar", b:"Eyadéma öldü; oğlu Faure Gnassingbé iktidara geldi.", kaynak:"Britannica, Togo (doğrudan erişilemedi)" }
   ] },
 { id:"gine", ad:"Gine Cumhuriyeti", tur:"devlet", bolge:"bati-afrika", f:"1958-10-02", baskent:"Konakri", ozet:"1958 referandumunda Fransız Topluluğu'nu reddedip bağımsız olan ilk Fransız Batı Afrikası ülkesi.", kaynak:"Britannica Guinea (ref)", kronoloji:[
-    { t:"1958-10-02", tur:"kurulus", b:"Gine, Fransız Topluluğunu reddedip bağımsızlığını ilan etti; Sékou Touré başkan.", kaynak:"https://www.ebsco.com/research-starters/history/guinea-gains-independence-france ; https://www.globalsecurity.org/military/world/africa/gn-history-34.htm" },
     { t:"1970-11-22", tur:"savas", b:"Portekiz destekli güçler Konakri'ye çıkarma yaptı; püskürtüldü.", kaynak:"Britannica, Guinea (doğrudan erişilemedi)" },
     { t:"1984-03-26", tur:"hukumdar", b:"Sékou Touré öldü.", kaynak:"Britannica, Sékou Touré https://www.britannica.com/print/article/600761" },
     { t:"1984-04-03", tur:"siyaset", b:"Lansana Conté askerî darbeyle iktidarı aldı.", kaynak:"Britannica, Guinea (doğrudan erişilemedi)" },
@@ -11487,11 +11789,9 @@ window.DEVLETLER = [
 { id:"mali-federasyonu", ad:"Mali Federasyonu (Senegal + Sudan Cumhuriyeti)", tur:"federasyon", bolge:"bati-afrika", f:"1959-04-04", t:"1960-08-20", baskent:"Dakar", ozet:"Senegal ve Sudan Cumhuriyeti federasyonu; 20 Haziran 1960'ta bağımsız, Senegal'in ayrılışıyla dağıldı. Anayasa 1959-01-17'de kabul edildi, federasyon 1959-04-04'te yürürlüğe girdi.", kaynak:"Britannica Mali Federation https://www.britannica.com/topic/Mali-Federation ; CVCE belgesi", kronoloji:[
     { t:"1959-04-04", tur:"kurulus", b:"Senegal ve Sudan Cumhuriyeti federasyonu yürürlüğe girdi; Senghor federal meclis başkanı, Modibo Keita hükûmet başı.", kaynak:"https://fr.apanews.net/news/le-4-avril-dans-lhistoire-de-lafrique-et-de-ses-diasporas/ ; CVCE belgesi" },
     { t:"1960-04-04", tur:"antlasma", b:"Paris'te Fransa ile yetki devri anlaşmaları imzalandı.", kaynak:"https://fr.apanews.net/news/le-4-avril-dans-lhistoire-de-lafrique-et-de-ses-diasporas/" },
-    { t:"1960-06-20", tur:"siyaset", b:"Federasyonun bağımsızlığı Dakar'da ilan edildi.", kaynak:"https://mjp.univ-perp.fr/constit/ml.htm ; https://www.vle.lt/straipsnis/malio-federacija/" },
-    { t:"1960-08-20", tur:"son", b:"Senegal federasyondan ayrıldığını ilan etti; federasyon dağıldı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp79t00975a005200450001-4 ; https://thehub.news/on-this-day-senegal-leaves-the-mali-federation/" }
+    { t:"1960-06-20", tur:"siyaset", b:"Federasyonun bağımsızlığı Dakar'da ilan edildi.", kaynak:"https://mjp.univ-perp.fr/constit/ml.htm ; https://www.vle.lt/straipsnis/malio-federacija/" }
   ] },
 { id:"senegal", ad:"Senegal Cumhuriyeti", tur:"devlet", bolge:"bati-afrika", f:"1960-08-20", baskent:"Dakar", ozet:"Mali Federasyonu'ndan ayrılarak bağımsız.", kaynak:"Britannica Mali Federation", kronoloji:[
-    { t:"1960-08-20", tur:"bolunme", b:"Senegal Mali Federasyonu'ndan ayrılıp bağımsızlığını ilan etti.", kaynak:"Britannica Mali Federation" },
     { t:"1960-09-05", tur:"hukumdar", b:"Léopold Sédar Senghor cumhurbaşkanı seçildi.", kaynak:"Britannica Senegal, History (britannica.com/place/Senegal)" },
     { t:"1962-12-17", tur:"siyaset", b:"Başbakan Mamadou Dia'nın darbe girişimi bastırıldı, Dia tutuklandı.", kaynak:"Britannica Senegal, History" },
     { t:"1980-12-31", tur:"hukumdar", b:"Senghor istifa etti; Abdou Diouf cumhurbaşkanı oldu.", kaynak:"Britannica Senegal, History" },
@@ -11500,7 +11800,6 @@ window.DEVLETLER = [
     { t:"2000-03-19", tur:"hukumdar", b:"Abdoulaye Wade ikinci turda Diouf'u yenerek seçildi.", kaynak:"Britannica Senegal, History" }
   ] },
 { id:"mali", ad:"Mali Cumhuriyeti", tur:"devlet", bolge:"bati-afrika", f:"1960-09-22", baskent:"Bamako", ozet:"Sudan Cumhuriyeti'nin Mali adıyla bağımsız halefi (22 Eylül 1960 ilanı).", kaynak:"Britannica Mali (ref); Britannica Mali Federation", kronoloji:[
-    { t:"1960-09-22", tur:"kurulus", b:"Sudan Cumhuriyeti Mali Cumhuriyeti adıyla bağımsızlığını ilan etti.", kaynak:"Britannica Mali Federation; Britannica Mali, History (britannica.com/place/Mali)" },
     { t:"1968-11-19", tur:"siyaset", b:"Moussa Traoré darbesiyle Modibo Keïta devrildi.", kaynak:"Britannica Mali, History" },
     { t:"1991-03-26", tur:"siyaset", b:"Amadou Toumani Touré darbeyle Traoré'yi devirdi.", kaynak:"Britannica Mali, History" },
     { t:"1992-06-08", tur:"hukumdar", b:"Alpha Oumar Konaré seçimle devlet başkanı olarak göreve başladı.", kaynak:"Britannica Mali, History" },
@@ -11516,7 +11815,6 @@ window.DEVLETLER = [
     { t:"1965-02-18", tur:"son", b:"Gambiya Commonwealth içinde bağımsız monarşi olarak bağımsızlığını kazandı.", kaynak:"https://www.globalsecurity.org/military/world/africa/gm-history.htm" }
   ] },
 { id:"gambiya", ad:"Gambiya", tur:"devlet", bolge:"bati-afrika", f:"1965-02-18", baskent:"Banjul", ozet:"Britanya'dan bağımsız.", kaynak:"UN (ref)", kronoloji:[
-    { t:"1965-02-18", tur:"kurulus", b:"Gambiya İngiltere'den bağımsız oldu (Commonwealth monarşisi).", kaynak:"Britannica The Gambia, History (britannica.com/place/The-Gambia)" },
     { t:"1970-04-24", tur:"siyaset", b:"Referandumla cumhuriyete geçildi; Dawda Jawara cumhurbaşkanı.", kaynak:"Britannica The Gambia, History" },
     { t:"1981-07-30", tur:"isyan", b:"Darbe girişimi Senegal askerî yardımıyla bastırıldı.", kaynak:"Britannica The Gambia, History" },
     { t:"1982-02-01", tur:"birlesme", b:"Senegambiya Konfederasyonu kuruldu.", kaynak:"Britannica The Gambia, History" },
@@ -11525,7 +11823,6 @@ window.DEVLETLER = [
     { t:"1996-09-26", tur:"hukumdar", b:"Jammeh cumhurbaşkanlığı seçimiyle başkanlığını meşrulaştırdı.", kaynak:"Britannica The Gambia, History" }
   ] },
 { id:"moritanya", ad:"Moritanya İslam Cumhuriyeti", tur:"devlet", bolge:"bati-afrika", f:"1960-11-28", baskent:"Nuakşot", ozet:"Fransız Batı Afrikası'ndan bağımsız.", kaynak:"TDV 'Moritanya' (ref, GET bu turda açılmadı); Britannica Mauritania", kronoloji:[
-    { t:"1960-11-28", tur:"kurulus", b:"Moritanya Fransa'dan bağımsızlığını ilan etti; Moktar Ould Daddah başa geçti.", kaynak:"Britannica Mauritania, History (britannica.com/place/Mauritania)" },
     { t:"1975-11-14", tur:"antlasma", b:"Madrid Antlaşması: İspanya, Batı Sahra'yı Fas ve Moritanya arasında paylaştırmayı kabul etti.", kaynak:"Britannica Western Sahara (britannica.com/place/Western-Sahara)" },
     { t:"1978-07-10", tur:"siyaset", b:"Askerî darbeyle Ould Daddah devrildi.", kaynak:"Britannica Mauritania, History" },
     { t:"1979-08-05", tur:"toprak-kayip", b:"Moritanya Polisario ile antlaşma yaparak Batı Sahra iddiasından vazgeçti.", kaynak:"Britannica Mauritania, History" },
@@ -11533,7 +11830,6 @@ window.DEVLETLER = [
     { t:"1991-07-20", tur:"siyaset", b:"Çok partili düzeni getiren yeni anayasa referandumla kabul edildi.", kaynak:"Britannica Mauritania, History" }
   ] },
 { id:"siyera-leon", ad:"Sierra Leone", tur:"devlet", bolge:"bati-afrika", f:"1961-04-27", baskent:"Freetown", ozet:"İngiliz Sierra Leone'sinin bağımsız halefi.", kaynak:"UN (ref)", kronoloji:[
-    { t:"1961-04-27", tur:"kurulus", b:"Sierra Leone İngiltere'den bağımsız oldu; Milton Margai başbakan.", kaynak:"Britannica Sierra Leone, History (britannica.com/place/Sierra-Leone)" },
     { t:"1967-03-21", tur:"siyaset", b:"Seçim sonrası askerî darbe; Albert Margai yönetimi sona erdi.", kaynak:"Britannica Sierra Leone, History" },
     { t:"1971-04-19", tur:"siyaset", b:"Sierra Leone cumhuriyet ilan etti; Siaka Stevens cumhurbaşkanı.", kaynak:"Britannica Sierra Leone, History" },
     { t:"1985-11-28", tur:"hukumdar", b:"Joseph Saidu Momoh devlet başkanı oldu.", kaynak:"Britannica Sierra Leone, History" },
@@ -11549,7 +11845,6 @@ window.DEVLETLER = [
     { t:"1999-12-24", tur:"siyaset", b:"General Robert Guéï darbeyle Bédié'yi devirdi.", kaynak:"Britannica Côte d'Ivoire, History" }
   ] },
 { id:"dahomey-benin", ad:"Dahomey Cumhuriyeti (1975-11-30'dan Benin)", tur:"devlet", bolge:"bati-afrika", f:"1960-08-01", baskent:"Porto-Novo / Cotonou", ozet:"Fransız Batı Afrikası'ndan bağımsız; 1975'te Benin adını aldı.", kaynak:"UN (ref)", kronoloji:[
-    { t:"1960-08-01", tur:"kurulus", b:"Dahomey Fransa'dan bağımsız oldu (Hubert Maga).", kaynak:"Britannica, Benin (doğrudan erişilemedi)" },
     { t:"1963-10-28", tur:"siyaset", b:"Albay Christophe Soglo darbeyle Maga'yı devirdi.", kaynak:"Britannica, Benin (doğrudan erişilemedi)" },
     { t:"1965-11-29", tur:"siyaset", b:"Soglo ikinci kez yönetime el koydu.", kaynak:"Britannica, Benin (doğrudan erişilemedi)" },
     { t:"1972-10-26", tur:"siyaset", b:"Mathieu Kérékou darbeyle iktidara geldi.", kaynak:"Britannica, Benin (doğrudan erişilemedi)" },
@@ -11609,16 +11904,13 @@ window.DEVLETLER = [
   ] },
 { id:"gine-bissau", ad:"Gine-Bissau (PAIGC ilanı 1973-09-24; Portekiz tanıması 1974-09-10)", tur:"devlet", bolge:"bati-afrika", f:"1973-09-24", baskent:"Bissau", ozet:"PAIGC'nin tek taraflı ilanı; Portekiz tanıması 1974.", kaynak:"Britannica Guinea-Bissau (ref)", kronoloji:[
     { t:"1973-09-24", tur:"kurulus", b:"PAIGC Ulusal Meclisi Madina do Boé'de bağımsızlığı tek taraflı ilan etti.", kaynak:"Britannica Guinea-Bissau, History (britannica.com/place/Guinea-Bissau)" },
-    { t:"1974-09-10", tur:"antlasma", b:"Portekiz Gine-Bissau'nun bağımsızlığını resmen tanıdı.", kaynak:"Britannica Guinea-Bissau, History" },
     { t:"1980-11-14", tur:"siyaset", b:"João Bernardo Vieira darbeyle Luís Cabral'ı devirdi.", kaynak:"Britannica Guinea-Bissau, History" },
     { t:"1994-07-03", tur:"siyaset", b:"İlk çok partili cumhurbaşkanlığı ve meclis seçimleri yapıldı.", kaynak:"Britannica Guinea-Bissau, History" },
     { t:"1998-06-07", tur:"ic-savas", b:"Ansumane Mané önderliğinde askerî isyan, iç savaş başladı.", kaynak:"Britannica Guinea-Bissau, History" },
     { t:"1999-05-07", tur:"siyaset", b:"Askerler Vieira'yı devirdi.", kaynak:"Britannica Guinea-Bissau, History" }
   ] },
 { id:"kamerun", ad:"Kamerun Cumhuriyeti (1961 Federal; 1972 Birleşik; 1984 Kamerun)", tur:"devlet", bolge:"orta-afrika", f:"1960-01-01", baskent:"Yaounde", ozet:"Fransız Kamerunu'nun bağımsız halefi; 1961'de İngiliz Kamerunu'nun güneyi katıldı.", kaynak:"UN (ref)", kronoloji:[
-    { t:"1960-01-01", tur:"kurulus", b:"Fransız Kamerunu bağımsız Kamerun Cumhuriyeti olur", kaynak:"worldstatesmen.org/Cameroon.html" },
     { t:"1960-05-05", tur:"hukumdar", b:"Ahidjo cumhurbaşkanı olur", kaynak:"worldstatesmen.org/Cameroon.html" },
-    { t:"1961-10-01", tur:"toprak-kazanc", b:"Güney İngiliz Kamerunu katılır; Kamerun Federal Cumhuriyeti", kaynak:"worldstatesmen.org/Cameroon.html" },
     { t:"1972-06-02", tur:"birlesme", b:"Federasyon kaldırılır, Birleşik Kamerun Cumhuriyeti kurulur", kaynak:"worldstatesmen.org/Cameroon.html" },
     { t:"1982-11-04", tur:"hukumdar", b:"Ahidjo istifa eder", kaynak:"Web araması: Ahidjo, Britannica alıntısı (4 Kasım 1982)" },
     { t:"1982-11-06", tur:"hukumdar", b:"Paul Biya cumhurbaşkanı olur", kaynak:"worldstatesmen.org/Cameroon.html" }
@@ -11641,7 +11933,6 @@ window.DEVLETLER = [
     { t:"1982-06-07", tur:"son", b:"Habré N'Djamena'yı alıp GUNT'u başkentten çıkardı", kaynak:"Britannica Chad" }
   ] },
 { id:"orta-afrika-cumhuriyeti", ad:"Orta Afrika Cumhuriyeti", tur:"devlet", bolge:"orta-afrika", f:"1960-08-13", baskent:"Bangui", ozet:"Fransız Ekvator Afrikası'ndan bağımsız.", kaynak:"UN (ref)", kronoloji:[
-    { t:"1960-08-13", tur:"kurulus", b:"Orta Afrika Cumhuriyeti bağımsızlığını ilan etti; David Dacko devlet başında", kaynak:"Britannica Central African Republic" },
     { t:"2019-02-06", tur:"antlasma", b:"Hükümet ile 14 silahlı grup arasında Bangui'de barış anlaşması imzalandı", kaynak:"Britannica Central African Republic" }
   ] },
 { id:"orta-afrika-imparatorlugu", ad:"Orta Afrika İmparatorluğu (Bokassa)", tur:"krallik", bolge:"orta-afrika", f:"1976-12-04", t:"1979-09-20", baskent:"Bangui", ozet:"Bokassa'nın kendini imparator ilan ettiği rejim; darbeyle son buldu.", kaynak:"Britannica Central African Republic (ref)", kronoloji:[
@@ -11649,7 +11940,6 @@ window.DEVLETLER = [
     { t:"1979-09-20", tur:"son", b:"Fransız Barracuda operasyonuyla Bokassa devrildi, cumhuriyet geri getirildi", kaynak:"Britannica Central African Republic" }
   ] },
 { id:"kongo-brazzaville", ad:"Kongo Cumhuriyeti (1969-12-31'den Halk Cumhuriyeti)", tur:"devlet", bolge:"orta-afrika", f:"1960-08-15", baskent:"Brazzaville", ozet:"Fransız Ekvator Afrikası'ndan bağımsız.", kaynak:"UN (ref)", kronoloji:[
-    { t:"1960-08-15", tur:"kurulus", b:"Kongo (Brazzaville) Fransa'dan bağımsız oldu; Fulbert Youlou devlet başında", kaynak:"Britannica Congo (Brazzaville)" },
     { t:"1969-12-31", tur:"siyaset", b:"Ülke Kongo Halk Cumhuriyeti adını aldı, tek parti rejimi ilan edildi", kaynak:"Britannica Congo (Brazzaville)" },
     { t:"1997-06-05", tur:"ic-savas", b:"Sassou Nguesso ile Lissouba güçleri arasında Brazzaville'de iç savaş başladı", kaynak:"Britannica Congo (Brazzaville)" }
   ] },
@@ -11683,11 +11973,9 @@ window.DEVLETLER = [
   ] },
 { id:"angola-gecis-hukumeti", ad:"Angola Geçiş Hükümeti (Alvor)", tur:"gecici-hukumet", bolge:"orta-afrika", f:"1975-01-31", t:"1975-11-11", baskent:"Luanda", ozet:"Alvor Anlaşması'yla (1975-01-15) kurulan MPLA/FNLA/UNITA ve Portekiz geçiş hükümeti; 31 Ocak 1975'te göreve başladı, fiilen Ağustos 1975'te çöktü.", kaynak:"Britannica Alvor agreement; ANGOP (31 Ocak 1975 göreve başlama); Jacobin", kronoloji:[
     { t:"1975-01-31", tur:"kurulus", b:"Alvor Anlaşması'yla kurulan MPLA/FNLA/UNITA ve Portekiz geçiş hükümeti göreve başladı", kaynak:"Britannica Angola" },
-    { t:"1975-06-21", tur:"antlasma", b:"Nakuru Anlaşması: üç hareket Kenya'da çatışmayı durdurma sözü verdi (uygulanmadı)", kaynak:"Britannica Angola" },
-    { t:"1975-11-11", tur:"son", b:"Angola bağımsız oldu, Portekiz yönetimi ve geçiş hükümeti sona erdi", kaynak:"Britannica Angola" }
+    { t:"1975-06-21", tur:"antlasma", b:"Nakuru Anlaşması: üç hareket Kenya'da çatışmayı durdurma sözü verdi (uygulanmadı)", kaynak:"Britannica Angola" }
   ] },
 { id:"angola", ad:"Angola Halk Cumhuriyeti (MPLA) / Angola Cumhuriyeti", tur:"devlet", bolge:"orta-afrika", f:"1975-11-11", baskent:"Luanda", ozet:"Portekiz'den bağımsız; MPLA ilanı.", kaynak:"Britannica Alvor agreement; Wikipedia PRA", kronoloji:[
-    { t:"1975-11-11", tur:"kurulus", b:"Agostinho Neto Luanda'da Angola Halk Cumhuriyeti'nin bağımsızlığını ilan etti", kaynak:"Britannica Angola" },
     { t:"1977-05-27", tur:"isyan", b:"Nito Alves'in MPLA içindeki darbe girişimi bastırıldı", kaynak:"Britannica Angola" },
     { t:"1988-12-22", tur:"antlasma", b:"Angola, Küba ve Güney Afrika New York'ta Küba birliklerinin çekilmesini ve Namibya bağımsızlığını öngören anlaşmayı imzaladı", kaynak:"Britannica Angola" },
     { t:"1991-05-31", tur:"antlasma", b:"Bicesse Anlaşmaları MPLA ve UNITA arasında imzalandı", kaynak:"Britannica Angola" },
@@ -11714,7 +12002,6 @@ window.DEVLETLER = [
     { t:"2005-04-26", tur:"siyaset", b:"Suriye askerlerinin Lübnan'dan çekilişi tamamlandı.", kaynak:"Encyclopaedia Britannica 'Lebanon'" }
   ] },
 { id:"israil-devleti", ad:"İsrail Devleti", tur:"cumhuriyet", bolge:"suriye-filistin", f:"1948-05-14", baskent:"Tel Aviv (1948) → Kudüs (1949-12-26 ilan)", ozet:"Filistin Mandası'nın bitiminde ilan edilen devlet.", kaynak:"Morris, 1948 (Yale 2008); BM GA 181 ve 273", kronoloji:[
-    { t:"1948-05-14", tur:"kurulus", b:"Ben-Gurion İsrail Devleti'nin kuruluşunu ilan etti; Filistin Mandası sona erdi.", kaynak:"Morris, 1948 (Yale UP, 2008); BM GA 181 (II)" },
     { t:"1948-05-14", tur:"hukumdar", b:"David Ben-Gurion geçici hükümet başkanı (ilk başbakan) oldu.", kaynak:"Morris, 1948 (Yale UP, 2008)" },
     { t:"1949-02-24", tur:"antlasma", b:"İsrail-Mısır Rodos ateşkes anlaşması imzalandı.", kaynak:"BM Peacemaker, Egyptian-Israeli General Armistice Agreement, 24 Şubat 1949; https://peacemaker.un.org/" },
     { t:"1949-04-03", tur:"antlasma", b:"İsrail-Ürdün Rodos ateşkes anlaşması imzalandı; Batı Şeria Ürdün kontrolünde kaldı.", kaynak:"BM UNISPAL, Israel-Jordan General Armistice Agreement; https://www.un.org/unispal/" },
@@ -11728,7 +12015,6 @@ window.DEVLETLER = [
     { t:"1995-11-04", tur:"siyaset", b:"Başbakan Yitzhak Rabin barış mitinginin ardından suikastla öldürüldü.", kaynak:"Britannica, Oslo Accords; https://www.britannica.com/topic/Oslo-Accords" }
   ] },
 { id:"filistin-devleti", ad:"Filistin Devleti (Bağımsızlık Bildirgesi, Cezayir)", tur:"devlet", bolge:"suriye-filistin", f:"1988-11-15", baskent:"Kudüs (ilan) / Ramallah (fiilî)", ozet:"FKÖ Filistin Millî Konseyi'nin 15 Kasım 1988'de Cezayir'de ilan ettiği devlet.", kaynak:"Khalidi, Palestinian Identity (1997); BM GA 43/177", kronoloji:[
-    { t:"1988-11-15", tur:"kurulus", b:"FKÖ Filistin Millî Konseyi Cezayir'de Filistin Devleti'nin bağımsızlığını ilan etti.", kaynak:"BM GA 43/177; https://www.un.org/unispal/?p=184706" },
     { t:"1988-12-15", tur:"siyaset", b:"BM Genel Kurulu 43/177 ile bildirgeyi kabul etti; BM sisteminde 'FKÖ' yerine 'Filistin' adı kullanılacak (104-2-36).", kaynak:"BM GA 43/177; https://digitallibrary.un.org/record/53922" },
     { t:"1993-09-13", tur:"antlasma", b:"Oslo I Prensipler Bildirgesi imzalandı; Filistin Yönetimi kurulması öngörüldü.", kaynak:"Office of the Historian, The Oslo Accords; https://history.state.gov/milestones/1993-2000/oslo" },
     { t:"1995-09-28", tur:"antlasma", b:"Oslo II Geçici Anlaşma imzalandı; Batı Şeria A, B, C bölgelerine ayrıldı.", kaynak:"BM UNISPAL; https://www.un.org/unispal/document/auto-insert-185434/" }
@@ -11749,23 +12035,19 @@ window.DEVLETLER = [
     { t:"1964-03-04", tur:"siyaset", b:"BM Güvenlik Konseyi 186 sayılı kararla UNFICYP barış gücünü kurdu", kaynak:"BM GK Karar 186 (1964)" },
     { t:"1974-07-15", tur:"siyaset", b:"Yunan cuntası destekli darbe Makarios'u devirdi", kaynak:"Holland, Britain and the Revolt in Cyprus (1998); Patrick (1976); gün doğrulanacak" },
     { t:"1974-07-20", tur:"isgal", b:"Türkiye adaya askerî müdahale yaptı (1. Kıbrıs Harekâtı); ada fiilen ikiye bölündü", kaynak:"BM GK Karar 353 (1974); Patrick (1976)" },
-    { t:"1975-02-13", tur:"bolunme", b:"Kuzeyde Kıbrıs Türk Federe Devleti ilan edildi", kaynak:"BM GK Karar 367 (12 Mart 1975) — https://en.wikipedia.org/wiki/List_of_United_Nations_Security_Council_resolutions_concerning_Cyprus (liste); ilan günü birincil kaynakla doğrulanmadı" },
     { t:"1983-11-15", tur:"bolunme", b:"Kuzeyde tek taraflı KKTC ilanı; BM GK 541 ile geçersiz sayıldı (18 Kasım 1983)", kaynak:"BM GK Karar 541 (1983) — https://www.refworld.org/legal/resolution/unsc/1983/en/8954" }
   ] },
 { id:"akrotiri-dekelya", ad:"Akrotiri ve Dekelya Egemen Üs Bölgeleri", tur:"devlet", bolge:"anadolu", f:"1960-08-16", baskent:"Episkopi", ozet:"1960 Kuruluş Antlaşması (Ek A) ile İngiltere'de kalan egemen üs bölgeleri.", kaynak:"Kıbrıs Kuruluş Antlaşması 1960", kronoloji:[
     { t:"1960-08-16", tur:"kurulus", b:"Kuruluş Antlaşması (Ek A) ile Akrotiri ve Dekelya İngiliz egemen üs bölgeleri olarak ayrıldı", kaynak:"Kıbrıs Kuruluş Antlaşması 1960 (birincil metin bu turda açılmadı); BM GK Karar 541 (1983) atfı" }
   ] },
 { id:"kibris-turk-federe-devleti", ad:"Kıbrıs Türk Federe Devleti", tur:"devlet", bolge:"anadolu", f:"1975-02-13", t:"1983-11-15", baskent:"Lefkoşa", ozet:"13 Şubat 1975'te Denktaş'ın ilanıyla kuruldu; 15 Kasım 1983'te KKTC'ye dönüştü.", kaynak:"Patrick (1976); BM GK 367 (1975)", kronoloji:[
-    { t:"1975-02-13", tur:"kurulus", b:"Denktaş önderliğinde Kıbrıs Türk Federe Devleti ilan edildi", kaynak:"Patrick (1976); BM GK Karar 367 (1975) — ilan günü künyede var, birincil kaynakla doğrulanmadı" },
     { t:"1975-03-12", tur:"siyaset", b:"BM Güvenlik Konseyi 367 sayılı kararla tek taraflı federe devlet ilanını reddetti", kaynak:"BM GK Karar 367 (1975) — https://en.wikipedia.org/wiki/List_of_United_Nations_Security_Council_resolutions_concerning_Cyprus" },
     { t:"1983-11-15", tur:"son", b:"Federe Devlet, KKTC'nin ilanıyla sona erdi", kaynak:"BM GK Karar 541 (1983) — https://www.refworld.org/legal/resolution/unsc/1983/en/8954" }
   ] },
 { id:"kktc", ad:"Kuzey Kıbrıs Türk Cumhuriyeti", tur:"cumhuriyet", bolge:"anadolu", f:"1983-11-15", baskent:"Lefkoşa", ozet:"15 Kasım 1983 tek taraflı bağımsızlık ilanı; yalnız Türkiye tanır.", kaynak:"BM GK 541 (1983)", kronoloji:[
-    { t:"1983-11-15", tur:"kurulus", b:"Kuzey Kıbrıs Türk Cumhuriyeti tek taraflı bağımsızlık ilan etti", kaynak:"BM GK Karar 541 (1983) — https://www.refworld.org/legal/resolution/unsc/1983/en/8954" },
     { t:"1983-11-18", tur:"siyaset", b:"BM GK 541 ile ilan hukuken geçersiz sayıldı, tanınmama çağrısı yapıldı (13 lehte, 1 aleyhte, 1 çekimser)", kaynak:"BM GK Karar 541 (1983); un-project.org/votes/resolution/S-RES-541(1983)" }
   ] },
 { id:"gurcistan-cumhuriyeti", ad:"Gürcistan Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya", f:"1991-04-09", baskent:"Tiflis", ozet:"9 Nisan 1991 Bağımsızlık Yasası.", kaynak:"Suny, Making of the Georgian Nation (1994)", kronoloji:[
-    { t:"1991-04-09", tur:"kurulus", b:"Yüksek Konsey Gürcistan'ın bağımsızlığını ilan etti (31 Mart referandumuna dayanarak).", kaynak:"JAMnews timeline https://jam-news.net/34-years-since-georgia-restored-independence-timeline-of-key-events-1991-2025/ ; Gürcistan Anayasası (1995) https://hrlibrary.umn.edu/research/georgia-constitution.pdf" },
     { t:"1991-05-26", tur:"hukumdar", b:"Zviad Gamsahurdia cumhurbaşkanı seçildi.", kaynak:"JAMnews timeline https://jam-news.net/34-years-since-georgia-restored-independence-timeline-of-key-events-1991-2025/" },
     { t:"1992-01-06", tur:"ic-savas", b:"Tiflis çatışmalarının ardından Gamsahurdia Ermenistan'a kaçtı; yönetime Askerî Konsey geçti.", kaynak:"Confronting Memories / JAMnews (kaynaklar 22 Aralık 1991-6 Ocak 1992 aralığını verir) https://confronting-memories.org/lesson-materials/15-pedagogical-guide-teaching-sensitive-history-conflicts-in-the-post-soviet-space/46-georgian-coup-detat-1991-92/" },
     { t:"1992-08-14", tur:"savas", b:"Abhazya savaşı başladı.", kaynak:"PRIF WARID Georgia (Abkhazia) 1992-1993 https://www.prif.org/fileadmin/Daten/Publikationen/Prif_Working_Papers/Anh%C3%A4nge/Georgia__Abkhazia__1992-1993.pdf ; Princeton PESD https://pesd.princeton.edu/node/706" },
@@ -11775,7 +12057,6 @@ window.DEVLETLER = [
   ] },
 { id:"ermenistan-cumhuriyeti", ad:"Ermenistan Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya", f:"1991-09-23", baskent:"Erivan", ozet:"21 Eylül 1991 referandum, 23 Eylül 1991 bağımsızlık bildirisi (aday listesindeki 21 Eylül referandum günüdür). Öncül: ermenistan-demokratik-cumhuriyeti.", kaynak:"CVCE zaman çizelgesi (23 Eylül 1991); Suny, Looking Toward Ararat (1993) ile sınanmalı", kronoloji:[
     { t:"1991-09-21", tur:"siyaset", b:"Bağımsızlık referandumu yapıldı (%99'un üzerinde evet).", kaynak:"Country Studies Armenia https://countrystudies.us/armenia/18.htm ; Gulf News https://gulfnews.com/news/europe/armenia-troubled-history-since-1991-1.2209675" },
-    { t:"1991-09-23", tur:"kurulus", b:"Yüksek Sovyet tam bağımsızlığı ilan etti.", kaynak:"Country Studies Armenia https://countrystudies.us/armenia/18.htm" },
     { t:"1991-10-16", tur:"hukumdar", b:"Levon Ter-Petrosyan oyların %83'üyle ilk cumhurbaşkanı seçildi.", kaynak:"EVN Report https://old.evnreport.com/magazine-issues/the-levon-ter-petrosyan-administration-1991-1998" },
     { t:"1994-05-12", tur:"antlasma", b:"Karabağ savaşında ateşkes yürürlüğe girdi.", kaynak:"Avrupa Konseyi PACE EDOC7182 https://pace.coe.int/files/8185/html" },
     { t:"1998-02-03", tur:"hukumdar", b:"Ter-Petrosyan Karabağ barış planı yüzünden istifa etti.", kaynak:"CRS 98-430 https://www.everycrsreport.com/reports/98-430.html" },
@@ -11791,11 +12072,10 @@ window.DEVLETLER = [
     { t:"1984-12-19", tur:"antlasma", b:"Çin-Britanya Ortak Bildirisi imzalandı; 1 Temmuz 1997'de Çin'e devir kararlaştırıldı.", kaynak:"Sino-British Joint Declaration (19 Aralık 1984); Tsang (2004)" },
     { t:"1997-07-01", tur:"son", b:"Hong Kong Çin'e devredildi; özel idari bölge oldu.", kaynak:"Sino-British Joint Declaration (1984); Tsang (2004)" }
   ] },
-{ id:"makao-portekiz", ad:"Makao (Portekiz İdaresi)", tur:"somurge", bolge:"dogu-asya", f:"1887-12-01", t:"1999-12-20", baskent:"Makao", ozet:"Pekin Antlaşması (1 Aralık 1887; yürürlük 28 Nisan 1888) Portekiz yönetimini tanıdı; fiilî yerleşim 1557. 20 Aralık 1999 devir.", kaynak:"Sino-Portuguese Treaty of Peking 1887; Porter, Macau (1996)", kronoloji:[
+{ id:"makao-portekiz", ad:"Makao (Portekiz İdaresi)", tur:"somurge", bolge:"dogu-asya", harita:"portekiz", f:"1887-12-01", t:"1999-12-20", baskent:"Makao", ozet:"Pekin Antlaşması (1 Aralık 1887; yürürlük 28 Nisan 1888) Portekiz yönetimini tanıdı; fiilî yerleşim 1557. 20 Aralık 1999 devir.", kaynak:"Sino-Portuguese Treaty of Peking 1887; Porter, Macau (1996)", kronoloji:[
     { t:"1887-12-01", tur:"antlasma", b:"Pekin Antlaşması Portekiz'in Makao yönetimini tanıdı.", kaynak:"Sino-Portuguese Treaty of Peking (1 Aralık 1887); Porter, Macau (1996)" },
     { t:"1987-04-13", tur:"antlasma", b:"Çin-Portekiz Ortak Bildirisi Pekin'de resmen imzalandı; egemenlik 20 Aralık 1999'da Çin'e dönecek.", kaynak:"Makao Hükûmeti Yıllığı (https://yearbook.gcs.gov.mo/yearbook_pdf/2017/myb2017ePA01CH25.pdf)" },
-    { t:"1988-01-15", tur:"antlasma", b:"Ortak Bildiri yürürlüğe girdi; Makao geçiş dönemine girdi.", kaynak:"Makao Hükûmeti Yıllığı (https://yearbook.gcs.gov.mo/yearbook_pdf/2017/myb2017ePA01CH25.pdf)" },
-    { t:"1999-12-20", tur:"son", b:"Makao Çin'e devredildi; özel idari bölge oldu.", kaynak:"Makao Hükûmeti Yıllığı (https://yearbook.gcs.gov.mo/yearbook_pdf/2017/myb2017ePA01CH25.pdf); Sino-Portuguese Joint Declaration (1987)" }
+    { t:"1988-01-15", tur:"antlasma", b:"Ortak Bildiri yürürlüğe girdi; Makao geçiş dönemine girdi.", kaynak:"Makao Hükûmeti Yıllığı (https://yearbook.gcs.gov.mo/yearbook_pdf/2017/myb2017ePA01CH25.pdf)" }
   ] },
 { id:"ryukyu-abd-idaresi", ad:"Ryukyu Adaları ABD İdaresi", tur:"gecici-isgal", bolge:"dogu-asya", f:"1945-04-01", t:"1972-05-15", baskent:"Naha", ozet:"Okinawa çıkarması (1 Nisan 1945; askerî idare ilanı ayrı bir gün, Vikipedi 22 Haziran der) – 15 Mayıs 1972 devir; USCAR 15 Aralık 1950'den.", kaynak:"Dower 1999; Britannica 'Ryukyu Islands'; ABD hükûmeti kayıtları [orta]", kronoloji:[
     { t:"1945-04-01", tur:"isgal", b:"ABD kuvvetleri Okinawa'ya çıktı; Okinawa Muharebesi başladı, askerî idare kuruldu.", kaynak:"History.com / National WWII Museum, Battle of Okinawa; Dower, Embracing Defeat (1999)" },
@@ -11822,23 +12102,21 @@ window.DEVLETLER = [
     { t:"2007-02-08", tur:"antlasma", b:"Hindistan-Butan dostluk antlaşması yenilendi.", kaynak:"Phuntsho (2013) (gün teyit edilmedi)" },
     { t:"2008-07-18", tur:"siyaset", b:"Anayasa imzalandı; anayasal monarşiye geçiş.", kaynak:"Britannica 'Bhutan: History' (gün teyit edilmedi)" }
   ] },
-{ id:"lao-issara-hukumeti", ad:"Lao Issara Hükûmeti", tur:"hukumet", bolge:"guneydogu-asya", f:"1945-10-12", t:"1946-04-24", baskent:"Vientiane", ozet:"Phetsarath önderliğinde birleşik Lao hükûmeti; Fransız dönüşüyle Bangkok sürgününe geçti (örgüt 1949'da dağıldı).", kaynak:"countrystudies.us/laos/15; Phetsarath biyografisi; (ipucu) Lao Issara maddesi", kronoloji:[
+{ id:"lao-issara-hukumeti", ad:"Lao Issara Hükûmeti", tur:"hukumet", bolge:"guneydogu-asya", f:"1945-10-12", t:"1949-10-24", baskent:"Vientiane", ozet:"Phetsarath önderliğinde birleşik Lao hükûmeti; Fransız dönüşüyle Bangkok sürgününe geçti (örgüt 1949'da dağıldı).", kaynak:"countrystudies.us/laos/15; Phetsarath biyografisi; (ipucu) Lao Issara maddesi", kronoloji:[
     { t:"1945-10-12", tur:"kurulus", b:"Phetsarath Vientiane'de birleşik Lao hükûmetini (Lao Issara) ilan etti; kabine başkanı Phaya Khammao.", kaynak:"countrystudies.us/laos/15.htm" },
     { t:"1945-10-20", tur:"siyaset", b:"Phetsarath hükûmeti Kral Sisavangvong'un tahttan indirildiğini ilan etti.", kaynak:"countrystudies.us/laos/15.htm; Britannica Phetsarath (britannica.com/print/article/455750)" },
-    { t:"1946-04-24", tur:"son", b:"Fransızların Laos'u yeniden işgaliyle hükûmet dağıldı; Phetsarath ve bakanlar Bangkok'a kaçtı.", kaynak:"countrystudies.us/laos/15.htm; Britannica Phetsarath (not: bazı kaynaklar Fransız dönüşünü 15 Nisan 1946 verir)" }
+    { t:"1946-04-24", tur:"son", b:"Fransızların Laos'u yeniden işgaliyle hükûmet dağıldı; Phetsarath ve bakanlar Bangkok'a kaçtı.", kaynak:"countrystudies.us/laos/15.htm; Britannica Phetsarath (not: bazı kaynaklar Fransız dönüşünü 15 Nisan 1946 verir)" },
+    { t:"1949-10-24", tur:"son", b:"Bangkok'taki sürgün hükûmeti kendini feshetti; üyelerinin çoğu af ile Vientiane'e döndü, Phetsarath Tayland'da kaldı.", kaynak:"https://countrystudies.us/laos/17.htm ; https://en.wikipedia.org/wiki/Lao_Issara" }
   ] },
 { id:"laos-kralligi", ad:"Laos Krallığı (tam bağımsızlık 1953)", tur:"krallik", bolge:"guneydogu-asya", f:"1953-10-22", t:"1975-12-02", baskent:"Luang Prabang / Vientiane", ozet:"22 Ekim 1953 Fransız-Lao Dostluk ve Ortaklık Antlaşması ile tam egemenlik; 2 Aralık 1975'te kral tahttan çekildi.", kaynak:"Kingdom of Laos / Royal Lao Government maddeleri; Fransız-Lao Antlaşması kaydı (UW Madison dijital kütüphane)", kronoloji:[
-    { t:"1953-10-22", tur:"antlasma", b:"Fransız-Lao Dostluk ve Ortaklık Antlaşması ile Laos tam egemenliğe kavuştu.", kaynak:"Fransız-Lao Antlaşması kaydı (UW Madison dijital kütüphane); countrystudies.us/laos" },
     { t:"1975-12-02", tur:"son", b:"Kral Savang Vatthana tahttan çekildi; monarşi kaldırıldı.", kaynak:"countrystudies.us/laos; Britannica Laos history" }
   ] },
 { id:"pathet-lao-hukumeti", ad:"Pathet Lao (Neo Lao Issara) Direniş Hükûmeti", tur:"hukumet", bolge:"guneydogu-asya", f:"1950-08-13", t:"1975-12-02", baskent:"Tuyen Quang (kuruluş kongresi); Sam Neua / Vieng Xai", ozet:"Neo Lao Issara kongresi 13 Ağustos 1950'de Souphanouvong'u başkan seçip direniş hükûmetini kurdu.", kaynak:"countrystudies.us/laos/18; Universalis (Kaysone); Vientiane Times; (ipucu) Souphanouvong maddesi", kronoloji:[
     { t:"1950-08-13", tur:"kurulus", b:"Neo Lao Issara kongresi Souphanouvong'u başkan seçip direniş hükûmetini kurdu.", kaynak:"countrystudies.us/laos/18" },
     { t:"1975-12-02", tur:"son", b:"Krallık kaldırıldı; Pathet Lao Laos Demokratik Halk Cumhuriyeti'ni ilan etti.", kaynak:"countrystudies.us/laos/18; Britannica Laos history" }
   ] },
-{ id:"demokratik-kampucya", ad:"Kampuçya (Demokratik Kampuçya, Kızıl Kmerler)", tur:"devlet", bolge:"guneydogu-asya", f:"1975-04-17", t:"1979-01-07", baskent:"Phnom Penh", ozet:"Kızıl Kmer rejimi 17 Nisan 1975'te iktidarda; 5 Ocak 1976 anayasası devlet adını Demokratik Kampuçya yaptı; Vietnam 7 Ocak 1979'da Phnom Penh'i aldı.", kaynak:"DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976; History.com", kronoloji:[
-    { t:"1975-04-17", tur:"kurulus", b:"Kızıl Kmerler Phnom Penh'i ele geçirip Lon Nol'un Kmer Cumhuriyeti'ni yıktı.", kaynak:"History.com Pol Pot (history.com/topics/cold-war/pol-pot)" },
-    { t:"1976-01-05", tur:"siyaset", b:"Yeni anayasa devlet adını Demokratik Kampuçya yaptı.", kaynak:"DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni" },
-    { t:"1979-01-07", tur:"son", b:"Vietnam Phnom Penh'i aldı; Pol Pot ormana çekildi, rejim yıkıldı.", kaynak:"History.com Pol Pot" }
+{ id:"demokratik-kampucya", ad:"Kampuçya (Demokratik Kampuçya, Kızıl Kmerler)", tur:"devlet", bolge:"guneydogu-asya", harita:"kamboc-kralligi", f:"1975-04-17", t:"1979-01-07", baskent:"Phnom Penh", ozet:"Kızıl Kmer rejimi 17 Nisan 1975'te iktidarda; 5 Ocak 1976 anayasası devlet adını Demokratik Kampuçya yaptı; Vietnam 7 Ocak 1979'da Phnom Penh'i aldı.", kaynak:"DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976; History.com", kronoloji:[
+    { t:"1976-01-05", tur:"siyaset", b:"Yeni anayasa devlet adını Demokratik Kampuçya yaptı.", kaynak:"DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni" }
   ] },
 { id:"untac", ad:"UNTAC (BM Kamboçya Geçiş İdaresi)", tur:"vesayet", bolge:"guneydogu-asya", f:"1992-02-28", t:"1993-01-01", baskent:"Phnom Penh", ozet:"GK 745 (28 Şubat 1992) ile kuruldu, görev süresi en çok 18 ay; seçimler Mayıs 1993.", kaynak:"BM GK Kararı 745 (refworld.org/node/113189; digitallibrary.un.org/record/138379); peacekeeping.un.org", kronoloji:[
     { t:"1992-02-28", tur:"kurulus", b:"BM Güvenlik Konseyi 745 sayılı kararla UNTAC'ı en çok 18 ay görevle kurdu", kaynak:"BM GK Kararı 745 (refworld.org/node/113189; digitallibrary.un.org/record/138379)" },
@@ -11847,19 +12125,23 @@ window.DEVLETLER = [
   ] },
 { id:"fed-malay-devletleri", ad:"Federe Malay Devletleri (Perak, Selangor, Negeri Sembilan, Pahang)", tur:"koruma", bolge:"guneydogu-asya", f:"1896-07-01", t:"1946-04-01", baskent:"Kuala Lumpur", ozet:"1896 Federasyon Antlaşması; 1946'da Malaya Birliği'ne katıldı.", kaynak:"Cambridge Univ. Press (Sadka, Protected Malay States); ehm.my Drake konuşması; worldstatesmen.org/Malaysia.htm", kronoloji:[
     { t:"1896-07-01", tur:"kurulus", b:"Perak, Selangor, Negeri Sembilan ve Pahang Federasyon Antlaşması ile Federe Malay Devletleri'ni kurdu; başkent Kuala Lumpur.", kaynak:"Sadka, The Protected Malay States (Cambridge UP); ehm.my/about/history-of-malaysia" },
-    { t:"1946-04-01", tur:"birlesme", b:"Federe Malay Devletleri Malaya Birliği'ne katıldı.", kaynak:"worldstatesmen.org/Malaysia.htm; SOAS Research Online eprints 33868 (Lau, Malayan Union)" }
+    { t:"1946-04-01", tur:"birlesme", b:"Federe Malay Devletleri Malaya Birliği'ne katıldı.", kaynak:"worldstatesmen.org/Malaysia.htm; SOAS Research Online eprints 33868 (Lau, Malayan Union)" },
+    { t:"1945-01-01", tur:"siyaset", b:"Japon teslimi sonrası İngiliz yönetimi geri döndü; MacMichael geç 1945'te Malay hükümdarlarından Malaya Birliği için sözleşme imzaları aldı (gün/ay kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Malayan_Union" },
+    { t:"1946-01-01", tur:"antlasma", b:"Şubat 1946 İngiliz Beyaz Kitabı Malaya Birliği'ni hükümdarların rızasına dayanarak sundu (gün kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Malayan_Union" },
+    { t:"1946-03-01", tur:"siyaset", b:"Kuala Lumpur'da ilk Pan-Malay Kongresi toplandı; Malaya Birliği'ne karşı 41 Malay derneği UMNO çatısında birleşti.", kaynak:"https://en.wikipedia.org/wiki/Malayan_Union" }
   ] },
-{ id:"federe-olmayan-malay-devletleri", ad:"Federe Olmayan Malay Devletleri (Johor, Kedah, Kelantan, Perlis, Terengganu)", tur:"koruma", bolge:"guneydogu-asya", f:"1909-03-10", t:"1946-04-01", baskent:"çeşitli", ozet:"1909 Anglo-Siyam Antlaşması ile Siyam'dan devredilen devletler ve Johor; 1946'da Malaya Birliği'ne katıldı.", kaynak:"worldstatesmen.org/Malaysia.htm (Malayan Union kapsamı)", kronoloji:[
+{ id:"federe-olmayan-malay-devletleri", ad:"Federe Olmayan Malay Devletleri (Johor, Kedah, Kelantan, Perlis, Terengganu)", tur:"koruma", bolge:"guneydogu-asya", harita:"cohor-sultanligi", f:"1909-03-10", t:"1946-04-01", baskent:"çeşitli", ozet:"1909 Anglo-Siyam Antlaşması ile Siyam'dan devredilen devletler ve Johor; 1946'da Malaya Birliği'ne katıldı.", kaynak:"worldstatesmen.org/Malaysia.htm (Malayan Union kapsamı)", kronoloji:[
     { t:"1909-03-10", tur:"antlasma", b:"Anglo-Siyam Antlaşması ile Kedah, Kelantan, Perlis ve Terengganu Siyam'dan İngiliz himayesine devredildi.", kaynak:"worldstatesmen.org/Malaysia.htm; Britannica Malaysia history" },
-    { t:"1946-04-01", tur:"birlesme", b:"Federe olmayan Malay devletleri Malaya Birliği'ne katıldı.", kaynak:"worldstatesmen.org/Malaysia.htm; SOAS Research Online eprints 33868" }
+    { t:"1945-01-01", tur:"siyaset", b:"Japon teslimi sonrası İngiliz yönetimi geri döndü; MacMichael geç 1945'te Malay hükümdarlarından Malaya Birliği için sözleşme imzaları aldı (gün/ay kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Malayan_Union" },
+    { t:"1946-01-01", tur:"antlasma", b:"Şubat 1946 İngiliz Beyaz Kitabı Malaya Birliği'ni hükümdarların rızasına dayanarak sundu (gün kaynakta yok).", kaynak:"https://en.wikipedia.org/wiki/Malayan_Union" },
+    { t:"1946-03-01", tur:"siyaset", b:"Kuala Lumpur'da ilk Pan-Malay Kongresi toplandı; Malaya Birliği'ne karşı 41 Malay derneği UMNO çatısında birleşti.", kaynak:"https://en.wikipedia.org/wiki/Malayan_Union" }
   ] },
-{ id:"malaya-birligi", ad:"Malaya Birliği (Malayan Union)", tur:"somurge", bolge:"guneydogu-asya", f:"1946-04-01", t:"1948-01-31", baskent:"Kuala Lumpur", ozet:"FMS, UMS ve Penang/Malakka'yı birleştirdi; Singapur dışarıda kaldı; 1 Şubat 1948'de Malaya Federasyonu.", kaynak:"worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi", kronoloji:[
+{ id:"malaya-birligi", ad:"Malaya Birliği (Malayan Union)", tur:"somurge", bolge:"guneydogu-asya", harita:"ingiliz-malaya", f:"1946-04-01", t:"1948-01-31", baskent:"Kuala Lumpur", ozet:"FMS, UMS ve Penang/Malakka'yı birleştirdi; Singapur dışarıda kaldı; 1 Şubat 1948'de Malaya Federasyonu.", kaynak:"worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi", kronoloji:[
     { t:"1946-04-01", tur:"kurulus", b:"Malaya Birliği kuruldu: FMS, UMS, Penang ve Malakka birleşti; Singapur ayrı kolonide kaldı; vali Edward Gent.", kaynak:"SOAS Research Online eprints 33868 (Lau); worldstatesmen.org/Malaysia.htm" },
     { t:"1948-01-21", tur:"antlasma", b:"Malay hükümdarları ve Gent Malaya Federasyonu Antlaşması'nı imzaladı; Birlik'in yerini alacak federasyon hazırlandı.", kaynak:"SOAS Research Online eprints 33868 (Lau)" },
     { t:"1948-01-31", tur:"son", b:"Malaya Birliği sona erdi; ertesi gün Malaya Federasyonu kuruldu.", kaynak:"worldstatesmen.org/Malaysia.htm; SOAS eprints 33868" }
   ] },
-{ id:"singapur-kolonisi", ad:"Singapur Kolonisi", tur:"somurge", bolge:"guneydogu-asya", f:"1946-04-01", t:"1959-06-03", baskent:"Singapur", ozet:"1 Nisan 1946'da Boğazlar Kolonisi dağılınca ayrı taç kolonisi; 1959'da özyönetim.", kaynak:"Britannica Straits Settlements (britannica.com/print/article/567981); (ipucu) Colony of Singapore", kronoloji:[
-    { t:"1946-04-01", tur:"kurulus", b:"Boğazlar Kolonisi dağıldı; Singapur ayrı taç kolonisi oldu.", kaynak:"Britannica Straits Settlements (britannica.com/print/article/567981)" },
+{ id:"singapur-kolonisi", ad:"Singapur Kolonisi", tur:"somurge", bolge:"guneydogu-asya", harita:"ingiliz-malaya", f:"1946-04-01", t:"1959-06-03", baskent:"Singapur", ozet:"1 Nisan 1946'da Boğazlar Kolonisi dağılınca ayrı taç kolonisi; 1959'da özyönetim.", kaynak:"Britannica Straits Settlements (britannica.com/print/article/567981); (ipucu) Colony of Singapore", kronoloji:[
     { t:"1959-06-03", tur:"son", b:"Singapur özyönetime geçti; koloni dönemi sona erdi.", kaynak:"Britannica Straits Settlements; Britannica Singapore history" }
   ] },
 { id:"singapur", ad:"Singapur (özyönetim 1959; Malezya içi 1963-65; Cumhuriyet 1965)", tur:"devlet", bolge:"guneydogu-asya", f:"1959-06-03", baskent:"Singapur", ozet:"1959'dan özyönetimli devlet; 1965'te Malezya'dan ayrılıp bağımsız cumhuriyet.", kaynak:"Britannica Straits Settlements; (ipucu) Self-governance of Singapore", kronoloji:[
@@ -11879,22 +12161,18 @@ window.DEVLETLER = [
     { t:"1963-05-01", tur:"son", b:"UNTEA idareyi Endonezya'ya devreder", kaynak:"https://peacekeeping.un.org/mission/past/unsfbackgr.html" }
   ] },
 { id:"endonezya-dogu-timor", ad:"Doğu Timor (Endonezya idaresi, 27. eyalet)", tur:"isgal", bolge:"guneydogu-asya", f:"1975-12-07", t:"1999-10-25", baskent:"Dili", ozet:"1975 işgali, 1976'da ilhak yasası; 1999'da BM idaresine geçti.", kaynak:"globalsecurity.org Timor tarihi; Taylor 1991, Gunn 1999 (ağ teyidi yok)", kronoloji:[
-    { t:"1975-12-07", tur:"isgal", b:"Endonezya Doğu Timor'u işgal etti.", kaynak:"uca.edu/politicalscience/dadm-project/asiapacific-region/indonesiaeast-timor-1976-2002; globalsecurity.org" },
     { t:"1976-07-17", tur:"toprak-kazanc", b:"Endonezya Doğu Timor'u 27. eyalet olarak ilhak etti (BM tanımadı; bazı kaynaklar resmî ilanı 27 Ağustos verir).", kaynak:"uca.edu DADM Indonesia/East Timor; PACE (pace.coe.int/files/16747)" },
     { t:"1999-08-30", tur:"siyaset", b:"BM gözetiminde referandumda oyların yüzde 78'inden fazlası bağımsızlığa gitti.", kaynak:"uca.edu DADM Indonesia/East Timor; Canada DND INTERFET (canada.ca)" },
     { t:"1999-10-25", tur:"son", b:"BM geçiş idaresi (UNTAET) kuruldu; Endonezya idaresi bitti.", kaynak:"Canada DND INTERFET; uca.edu DADM" }
   ] },
-{ id:"papua-yeni-gine-avustralya", ad:"Papua ve Yeni Gine Toprakları (Avustralya İdaresi)", tur:"vesayet", bolge:"okyanusya", f:"1949-07-01", t:"1975-09-16", baskent:"Port Moresby", ozet:"Papua ve Yeni Gine Yasası 1949 ile iki idare birleştirildi; 16 Eylül 1975 bağımsızlık.", kaynak:"legislation.gov.au (PNG Independence Act 1975, C2004A01408); pngaa.org; AustLII UNSWLawJl 2009", kronoloji:[
-    { t:"1973-12-01", tur:"siyaset", b:"Papua Yeni Gine'de iç özyönetim başlar (Somare hükûmeti)", kaynak:"Web araması: PNG House of Assembly self-government 1 Dec 1973 (Wikipedia Chief Minister of Papua and New Guinea; ASPI Strategist)" },
-    { t:"1975-09-16", tur:"son", b:"Papua Yeni Gine Avustralya'dan bağımsız olur", kaynak:"legislation.gov.au PNG Independence Act 1975; ASPI Strategist obituary of Somare" }
+{ id:"papua-yeni-gine-avustralya", ad:"Papua ve Yeni Gine Toprakları (Avustralya İdaresi)", tur:"vesayet", bolge:"okyanusya", harita:"avustralya", f:"1949-07-01", t:"1975-09-16", baskent:"Port Moresby", ozet:"Papua ve Yeni Gine Yasası 1949 ile iki idare birleştirildi; 16 Eylül 1975 bağımsızlık.", kaynak:"legislation.gov.au (PNG Independence Act 1975, C2004A01408); pngaa.org; AustLII UNSWLawJl 2009", kronoloji:[
+    { t:"1973-12-01", tur:"siyaset", b:"Papua Yeni Gine'de iç özyönetim başlar (Somare hükûmeti)", kaynak:"Web araması: PNG House of Assembly self-government 1 Dec 1973 (Wikipedia Chief Minister of Papua and New Guinea; ASPI Strategist)" }
   ] },
-{ id:"nauru-vesayeti", ad:"Nauru (BM Vesayeti: Avustralya-Yeni Zelanda-İngiltere)", tur:"vesayet", bolge:"okyanusya", f:"1947-11-01", t:"1968-01-31", baskent:"Yaren", ozet:"BM Genel Kurulu 140 (II) ile 1 Kasım 1947'de vesayet; 31 Ocak 1968 bağımsızlık.", kaynak:"Britannica Nauru History; worldstatesmen.org/Nauru.html; Nauru Independence Act 1967", kronoloji:[
-    { t:"1947-11-01", tur:"kurulus", b:"Nauru BM vesayet bölgesi olur; idare Avustralya eliyle yürür", kaynak:"worldstatesmen.org/Nauru.html" },
+{ id:"nauru-vesayeti", ad:"Nauru (BM Vesayeti: Avustralya-Yeni Zelanda-İngiltere)", tur:"vesayet", bolge:"okyanusya", harita:"avustralya", f:"1947-11-01", t:"1968-01-31", baskent:"Yaren", ozet:"BM Genel Kurulu 140 (II) ile 1 Kasım 1947'de vesayet; 31 Ocak 1968 bağımsızlık.", kaynak:"Britannica Nauru History; worldstatesmen.org/Nauru.html; Nauru Independence Act 1967", kronoloji:[
     { t:"1951-08-20", tur:"siyaset", b:"Nauru Yerel Yönetim Konseyi kurulur", kaynak:"worldstatesmen.org/Nauru.html" },
     { t:"1968-01-31", tur:"son", b:"Nauru bağımsız Nauru Cumhuriyeti olur; vesayet biter", kaynak:"worldstatesmen.org/Nauru.html" }
   ] },
 { id:"solomon-adalari", ad:"Solomon Adaları", tur:"devlet", bolge:"okyanusya", f:"1978-07-07", baskent:"Honiara", ozet:"7 Temmuz 1978 bağımsızlık (özyönetim 2 Ocak 1976).", kaynak:"BM Solomon Adaları ülke bilgisi (un.int/solomonislands)", kronoloji:[
-    { t:"1978-07-07", tur:"kurulus", b:"Solomon Adaları bağımsız olur; Kenilorea başbakan", kaynak:"worldstatesmen.org/Solomon_Islands.html" },
     { t:"1981-08-31", tur:"hukumdar", b:"Mamaloni başbakan olur", kaynak:"worldstatesmen.org/Solomon_Islands.html" },
     { t:"1984-11-19", tur:"hukumdar", b:"Kenilorea ikinci kez başbakan olur", kaynak:"worldstatesmen.org/Solomon_Islands.html" },
     { t:"1986-12-01", tur:"hukumdar", b:"Ezekiel Alebua başbakan olur", kaynak:"worldstatesmen.org/Solomon_Islands.html" },
@@ -11914,7 +12192,6 @@ window.DEVLETLER = [
     { t:"1976-01-01", tur:"son", b:"Gilbert ve Ellice Adaları Kolonisi resmen kapatıldı.", kaynak:"https://www.globalsecurity.org/military/world/oceania/kiribati-history.htm" }
   ] },
 { id:"tuvalu", ad:"Tuvalu", tur:"devlet", bolge:"okyanusya", f:"1978-10-01", baskent:"Funafuti", ozet:"1 Ekim 1978 bağımsızlık.", kaynak:"Gilbert and Ellice Islands kaynakları (ANU, Britannica)", kronoloji:[
-    { t:"1978-10-01", tur:"kurulus", b:"Tuvalu bağımsız olur; Toaripi Lauti başbakan", kaynak:"worldstatesmen.org/Tuvalu.html" },
     { t:"1981-09-08", tur:"hukumdar", b:"Tomasi Puapua başbakan olur", kaynak:"worldstatesmen.org/Tuvalu.html" },
     { t:"1989-10-16", tur:"hukumdar", b:"Bikenibeu Paeniu başbakan olur", kaynak:"worldstatesmen.org/Tuvalu.html" },
     { t:"1993-12-10", tur:"hukumdar", b:"Kamuta Latasi başbakan olur", kaynak:"worldstatesmen.org/Tuvalu.html" },
@@ -11944,17 +12221,15 @@ window.DEVLETLER = [
     { t:"2000-05-19", tur:"isyan", b:"George Speight parlamentoyu basıp Chaudhry'yi rehin alır", kaynak:"worldstatesmen.org/Fiji.html" },
     { t:"2000-05-29", tur:"isyan", b:"Bainimarama Mara'yı görevden alıp askerî geçici yönetimi üstlenir", kaynak:"worldstatesmen.org/Fiji.html" }
   ] },
-{ id:"amerikan-samoasi", ad:"Amerikan Samoası", tur:"somurge", bolge:"okyanusya", f:"1900-04-17", baskent:"Pago Pago", ozet:"Tutuila ve Aunu'u 17 Nisan 1900'de devredildi; Manu'a 14 Temmuz 1904.", kaynak:"FRUS 1929 I d855 (history.state.gov); Congressional Record 2014; (ipucu) Treaty of Cession of Manu'a", kronoloji:[
+{ id:"amerikan-samoasi", ad:"Amerikan Samoası", tur:"somurge", bolge:"okyanusya", harita:"abd", f:"1900-04-17", baskent:"Pago Pago", ozet:"Tutuila ve Aunu'u 17 Nisan 1900'de devredildi; Manu'a 14 Temmuz 1904.", kaynak:"FRUS 1929 I d855 (history.state.gov); Congressional Record 2014; (ipucu) Treaty of Cession of Manu'a", kronoloji:[
     { t:"1900-04-17", tur:"kurulus", b:"Tutuila ve Aunu'u şefleri Devir Senedi ile adaları ABD'ye devretti.", kaynak:"https://doi.gov/oia/islands/american-samoa ; FRUS 1929 I (history.state.gov)" },
     { t:"1904-07-14", tur:"toprak-kazanc", b:"Manu'a adaları Tui Manu'a Elisala'nın imzaladığı senetle ABD'ye devredildi.", kaynak:"https://doi.gov/oia/islands/american-samoa ; Congressional Record 2014" },
     { t:"1925-01-01", tur:"toprak-kazanc", b:"Swains Adası Kongre yasasıyla Amerikan Samoası'na bağlandı.", kaynak:"https://familypedia.fandom.com/wiki/American_Samoa ; https://doi.gov/oia/islands/american-samoa" },
     { t:"1951-01-01", tur:"siyaset", b:"Yönetim Deniz Kuvvetleri'nden sivil yönetime geçti (1956'da İçişleri Bakanlığı'na devir).", kaynak:"https://doi.gov/oia/islands/american-samoa" },
     { t:"1967-07-01", tur:"siyaset", b:"Amerikan Samoası kendi anayasası yürürlüğe girdi.", kaynak:"https://doi.gov/oia/islands/american-samoa" }
   ] },
-{ id:"pasifik-adalari-vesayet-toprak", ad:"Pasifik Adaları Vesayet Toprakları (TTPI; ABD)", tur:"vesayet", bolge:"okyanusya", f:"1947-07-18", t:"1994-11-10", baskent:"Saipan", ozet:"18 Temmuz 1947'de BM stratejik vesayet; GK 956 ile 10 Kasım 1994'te sona erdi.", kaynak:"BM GK Kararı 956 (refworld.org/node/88994); S/PV.3455 (un-project.org); (ipucu) TTPI maddesi", kronoloji:[
-    { t:"1947-07-18", tur:"kurulus", b:"Eski Japon manda adaları ABD yönetiminde BM stratejik vesayet toprağı olarak yürürlüğe girdi.", kaynak:"https://www.refworld.org/node/88994 ; https://dlib.colo.hawaii.edu/s/palau-20th-century/page/ttpi" },
+{ id:"pasifik-adalari-vesayet-toprak", ad:"Pasifik Adaları Vesayet Toprakları (TTPI; ABD)", tur:"vesayet", bolge:"okyanusya", harita:"abd", f:"1947-07-18", t:"1994-11-10", baskent:"Saipan", ozet:"18 Temmuz 1947'de BM stratejik vesayet; GK 956 ile 10 Kasım 1994'te sona erdi.", kaynak:"BM GK Kararı 956 (refworld.org/node/88994); S/PV.3455 (un-project.org); (ipucu) TTPI maddesi", kronoloji:[
     { t:"1986-10-21", tur:"bolunme", b:"Vesayet anlaşması Marshall Adaları Cumhuriyeti için sona erdi.", kaynak:"https://www.gpo.gov/fdsys/pkg/USCODE-2017-title48/html/USCODE-2017-title48-chap14.htm" },
-    { t:"1986-11-03", tur:"bolunme", b:"Vesayet anlaşması Mikronezya Federe Devletleri ve Kuzey Mariana Adaları için sona erdi.", kaynak:"https://www.gpo.gov/fdsys/pkg/USCODE-2017-title48/html/USCODE-2017-title48-chap14.htm" },
     { t:"1994-11-10", tur:"son", b:"BM Güvenlik Konseyi 956 sayılı kararla Palau için vesayeti bitirdi; son vesayet toprağı kapandı.", kaynak:"https://www.refworld.org/node/88994 ; https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_956" }
   ] },
 { id:"palau", ad:"Palau Cumhuriyeti", tur:"devlet", bolge:"okyanusya", f:"1981-01-01", baskent:"Koror", ozet:"Anayasa taslağı 9 Temmuz 1980'de onaylandı, hükûmet 1 Ocak 1981'de kuruldu; Compact 1 Ekim 1994.", kaynak:"forumfed.org; BM GK 956 (Compact 1.10.1994)", kronoloji:[
@@ -11964,19 +12239,16 @@ window.DEVLETLER = [
     { t:"1994-10-01", tur:"antlasma", b:"ABD ile Serbest Birleşme Sözleşmesi yürürlüğe girer; vesayet biter", kaynak:"BM GK 956 (Compact 1.10.1994); Web araması: Politics of Palau" }
   ] },
 { id:"almanya-federal-cumhuriyeti-bati", ad:"Almanya Federal Cumhuriyeti (Batı Almanya)", tur:"devlet", bolge:"orta-avrupa", f:"1949-05-23", t:"1990-10-03", baskent:"Bonn", ozet:"Temel Yasa (Grundgesetz) 23 Mayıs 1949'da yürürlüğe girdi; Batı işgal bölgelerinde kurulan federal devlet, 3 Ekim 1990'da Doğu'nun katılımıyla genişledi.", kaynak:"https://www.bmi.bund.de/EN/topics/constitution/constitutional-issues/constitutional-issues.html ; https://blogs.loc.gov/law/2017/05/anniversary-of-the-german-basic-law/", kronoloji:[
-    { t:"1949-05-23", tur:"kurulus", b:"Temel Yasa (Grundgesetz) yürürlüğe girdi; Federal Almanya Cumhuriyeti kuruldu.", kaynak:"https://www.bmi.bund.de/EN/topics/constitution/constitutional-issues/constitutional-issues.html ; https://blogs.loc.gov/law/2017/05/anniversary-of-the-german-basic-law/" },
     { t:"1949-09-15", tur:"hukumdar", b:"Konrad Adenauer ilk Federal Şansölye seçildi.", kaynak:"Encyclopaedia Britannica 'Konrad Adenauer'" },
     { t:"1951-04-18", tur:"antlasma", b:"Paris Antlaşması ile Avrupa Kömür ve Çelik Topluluğu kuruldu; Almanya kurucu üye.", kaynak:"AKÇT Antlaşması, 18 Nisan 1951 (EUR-Lex)" },
     { t:"1955-05-05", tur:"antlasma", b:"Paris Anlaşmaları yürürlüğe girdi; işgal statüsü sona erdi ve Batı Almanya egemenlik kazandı.", kaynak:"Encyclopaedia Britannica 'West Germany'" },
     { t:"1955-05-09", tur:"ittifak", b:"Batı Almanya NATO'ya girdi.", kaynak:"NATO resmî kayıtları (nato.int); Encyclopaedia Britannica 'West Germany'" },
-    { t:"1957-01-01", tur:"toprak-kazanc", b:"Saar siyasal olarak Federal Almanya'ya katıldı.", kaynak:"CVCE, Saar dosyası (cvce.eu)" },
     { t:"1957-03-25", tur:"antlasma", b:"Roma Antlaşmaları imzalandı (AET, Euratom).", kaynak:"Roma Antlaşması, 25 Mart 1957 (EUR-Lex)" },
     { t:"1963-01-22", tur:"antlasma", b:"Elysée Antlaşması: Fransa-Almanya dostluk ve işbirliği.", kaynak:"Elysée Antlaşması metni, 22 Ocak 1963" },
     { t:"1969-10-21", tur:"hukumdar", b:"Willy Brandt Şansölye seçildi.", kaynak:"Encyclopaedia Britannica 'Willy Brandt'" },
     { t:"1972-12-21", tur:"antlasma", b:"Temel Antlaşma: iki Alman devleti birbirini tanıdı.", kaynak:"Temel Antlaşma metni, 21 Aralık 1972; Encyclopaedia Britannica 'West Germany'" },
     { t:"1982-10-01", tur:"hukumdar", b:"Helmut Kohl yapıcı güvensizlik oyuyla Şansölye oldu.", kaynak:"Encyclopaedia Britannica 'Helmut Kohl'" },
-    { t:"1990-07-01", tur:"birlesme", b:"Ekonomik, parasal ve sosyal birlik Doğu Almanya ile yürürlüğe girdi.", kaynak:"https://blogs.loc.gov/law/2025/11/falqs-35-years-of-german-reunification/" },
-    { t:"1990-10-03", tur:"son", b:"Doğu Almanya Madde 23 yoluyla katıldı; Batı Almanya birleşik Almanya'ya dönüştü.", kaynak:"https://www.bmi.bund.de/EN/topics/constitution/state-order/our-constitution/our-constitution-node.html" }
+    { t:"1990-07-01", tur:"birlesme", b:"Ekonomik, parasal ve sosyal birlik Doğu Almanya ile yürürlüğe girdi.", kaynak:"https://blogs.loc.gov/law/2025/11/falqs-35-years-of-german-reunification/" }
   ] },
 { id:"almanya-demokratik-cumhuriyeti", ad:"Almanya Demokratik Cumhuriyeti (Doğu Almanya)", tur:"devlet", bolge:"orta-avrupa", f:"1949-10-07", t:"1990-10-03", baskent:"Doğu Berlin", ozet:"Sovyet işgal bölgesinde 1949 Anayasası ile kurulan sosyalist devlet; 3 Ekim 1990'da BRD'ye katılarak sona erdi.", kaynak:"https://blogs.loc.gov/law/2025/11/falqs-35-years-of-german-reunification/ (birleşme) ; kuruluş günü ikinci kaynak: mtrlegal.com GDR notu — ZAYIF KAYNAK, LoC Country Study Germany ile karşılaştırılmalı", kronoloji:[
     { t:"1949-10-07", tur:"kurulus", b:"Alman Demokratik Cumhuriyeti ilan edildi; 1949 Anayasası yürürlüğe girdi.", kaynak:"Encyclopaedia Britannica 'East Germany' ; Library of Congress Country Study East Germany" },
@@ -11995,7 +12267,6 @@ window.DEVLETLER = [
     { t:"1990-10-03", tur:"son", b:"Doğu Almanya Federal Almanya'ya katılarak sona erdi.", kaynak:"https://blogs.loc.gov/law/2025/11/falqs-35-years-of-german-reunification/" }
   ] },
 { id:"almanya-birlesik", ad:"Almanya Federal Cumhuriyeti (birleşik)", tur:"devlet", bolge:"orta-avrupa", f:"1990-10-03", baskent:"Berlin", ozet:"3 Ekim 1990'da Temel Yasa tüm Almanya'nın anayasası oldu (Madde 23 yoluyla katılım); hukuken BRD'nin devamıdır.", kaynak:"https://www.bmi.bund.de/EN/topics/constitution/state-order/our-constitution/our-constitution-node.html ; İki Artı Dört Antlaşması 1990-09-12, yürürlük 1991-03-15 (LoC)", kronoloji:[
-    { t:"1990-10-03", tur:"kurulus", b:"Almanya yeniden birleşti; Temel Yasa tüm Almanya'ya yayıldı.", kaynak:"https://www.bmi.bund.de/EN/topics/constitution/state-order/our-constitution/our-constitution-node.html" },
     { t:"1990-12-02", tur:"siyaset", b:"Birleşik Almanya'nın ilk genel seçimi yapıldı.", kaynak:"Encyclopaedia Britannica 'Germany'" },
     { t:"1991-06-20", tur:"baskent", b:"Bundestag başkent ve hükûmet merkezini Berlin'e taşıma kararı aldı.", kaynak:"Encyclopaedia Britannica 'Berlin'" },
     { t:"1992-02-07", tur:"antlasma", b:"Maastricht Antlaşması imzalandı.", kaynak:"Maastricht Antlaşması (EUR-Lex)" },
@@ -12015,16 +12286,13 @@ window.DEVLETLER = [
     { t:"1990-10-03", tur:"son", b:"Batı Berlin, Almanya'nın birleşmesiyle birleşik Berlin'in parçası oldu.", kaynak:"https://www.bmi.bund.de/EN/topics/constitution/state-order/our-constitution/our-constitution-node.html" }
   ] },
 { id:"saar-protektorati", ad:"Saar Protektorası (Fransa ile ekonomik birlik)", tur:"himaye", bolge:"orta-avrupa", f:"1947-12-15", t:"1957-01-01", baskent:"Saarbrücken", ozet:"15 Aralık 1947 Saar Anayasası ile Almanya'dan ayrılan, savunması ve dış ilişkileri Fransa'ya bırakılan bölge; 1 Ocak 1957'de siyasal olarak BRD'ye döndü (mark 1959).", kaynak:"https://www.cvce.eu/en/recherche/unit-content/-/unit/5cc6b004-33b7-4e44-b6db-f5f9e6c01023/c072b339-e230-4eb8-9daa-2ce4cdc9d045 ; Cambridge UP 'No Easy Occupation'; bazı kaynak kuruluşu 17 Aralık verir", kronoloji:[
-    { t:"1947-12-15", tur:"kurulus", b:"Saar Anayasası kabul edildi; bölge Fransa ile ekonomik birlikte özerk himaye statüsü kazandı.", kaynak:"https://www.cvce.eu/en/recherche/unit-content/-/unit/5cc6b004-33b7-4e44-b6db-f5f9e6c01023/c072b339-e230-4eb8-9daa-2ce4cdc9d045 ; not: bazı kaynaklar kuruluşu 17 Aralık 1947 verir" },
     { t:"1950-03-03", tur:"antlasma", b:"Fransa-Saar sözleşmeleri imzalandı; Saar'ın ekonomik bağı ve Fransa'ya uzun vadeli kömür madeni kiralama düzenlendi.", kaynak:"CVCE, Saar dosyası (cvce.eu); Encyclopaedia Britannica 'Saarland'" },
     { t:"1954-10-23", tur:"antlasma", b:"Paris Anlaşmaları: Saar'a Batı Avrupa Birliği çatısı altında 'Avrupa statüsü' önerildi.", kaynak:"CVCE, Saar Statüsü (cvce.eu); Encyclopaedia Britannica 'Saarland'" },
     { t:"1955-10-23", tur:"siyaset", b:"Referandumda seçmenler Avrupa statüsünü yaklaşık yüzde 68 ile reddetti.", kaynak:"CVCE, 1955 Saar referandumu (cvce.eu)" },
     { t:"1955-12-18", tur:"siyaset", b:"Landtag seçimlerinde Almanya yanlısı partiler kazandı.", kaynak:"Encyclopaedia Britannica 'Saarland'" },
-    { t:"1956-10-27", tur:"antlasma", b:"Lüksemburg'ta Saar Antlaşması imzalandı; Saar'ın Federal Almanya'ya katılması kabul edildi.", kaynak:"Saar Antlaşması, 27 Ekim 1956; CVCE (cvce.eu)" },
-    { t:"1957-01-01", tur:"son", b:"Saar, Federal Almanya Cumhuriyeti'nin on birinci eyaleti olarak siyasal biçimde Almanya'ya döndü.", kaynak:"CVCE (cvce.eu); Encyclopaedia Britannica 'Saarland'" }
+    { t:"1956-10-27", tur:"antlasma", b:"Lüksemburg'ta Saar Antlaşması imzalandı; Saar'ın Federal Almanya'ya katılması kabul edildi.", kaynak:"Saar Antlaşması, 27 Ekim 1956; CVCE (cvce.eu)" }
   ] },
 { id:"cekya", ad:"Çek Cumhuriyeti", tur:"devlet", bolge:"orta-avrupa", f:"1993-01-01", baskent:"Prag", ozet:"Çek ve Slovak Federatif Cumhuriyeti'nin 31 Aralık 1992'de sona ermesiyle 1 Ocak 1993'te bağımsız halef devlet.", kaynak:"https://timeline.web.cern.ch/node/405 (ÇSFC BM misyonu mektubu, 16 Aralık 1992)", kronoloji:[
-    { t:"1993-01-01", tur:"kurulus", b:"Çekoslovakya'nın sona ermesiyle bağımsız Çek Cumhuriyeti doğdu.", kaynak:"https://timeline.web.cern.ch/node/405 (ÇSFC BM misyonu mektubu, 16 Aralık 1992)" },
     { t:"1993-01-26", tur:"hukumdar", b:"Václav Havel Çek Cumhuriyeti'nin ilk Cumhurbaşkanı seçildi.", kaynak:"Encyclopaedia Britannica 'Václav Havel'" },
     { t:"1993-02-08", tur:"siyaset", b:"Çekoslovak para birliği sona erdi; Çek kronu ayrı para oldu.", kaynak:"Çek Merkez Bankası (cnb.cz)" },
     { t:"1999-03-12", tur:"ittifak", b:"Çek Cumhuriyeti NATO'ya katıldı.", kaynak:"NATO resmî kayıtları (nato.int)" },
@@ -12032,14 +12300,13 @@ window.DEVLETLER = [
     { t:"2007-12-21", tur:"ittifak", b:"Çek Cumhuriyeti Schengen bölgesine girdi.", kaynak:"Avrupa Komisyonu (home-affairs.ec.europa.eu)" }
   ] },
 { id:"slovakya", ad:"Slovakya Cumhuriyeti", tur:"devlet", bolge:"orta-avrupa", f:"1993-01-01", baskent:"Bratislava", ozet:"Çekoslovakya'nın dağılmasıyla 1 Ocak 1993'te bağımsız oldu (1939-45 Slovak Cumhuriyeti ayrı kayıttır).", kaynak:"https://timeline.web.cern.ch/node/405 ; https://enrsi.stvr.sk/articles/news/349295/slovakia-celebrates-31-years-of-independence", kronoloji:[
-    { t:"1993-01-01", tur:"kurulus", b:"Çekoslovakya'nın dağılmasıyla bağımsız Slovakya Cumhuriyeti kuruldu.", kaynak:"https://timeline.web.cern.ch/node/405 ; https://enrsi.stvr.sk/articles/news/349295/slovakia-celebrates-31-years-of-independence" },
     { t:"1993-02-15", tur:"hukumdar", b:"Michal Kováč ilk Cumhurbaşkanı seçildi.", kaynak:"Encyclopaedia Britannica 'Slovakia'" },
     { t:"2004-03-29", tur:"ittifak", b:"Slovakya NATO'ya katıldı.", kaynak:"NATO resmî kayıtları (nato.int)" },
     { t:"2004-05-01", tur:"ittifak", b:"Slovakya Avrupa Birliği'ne katıldı.", kaynak:"AB resmî kayıtları (european-union.europa.eu)" },
     { t:"2007-12-21", tur:"ittifak", b:"Slovakya Schengen bölgesine girdi.", kaynak:"Avrupa Komisyonu (home-affairs.ec.europa.eu)" },
     { t:"2009-01-01", tur:"siyaset", b:"Slovakya avroya geçti.", kaynak:"Avrupa Merkez Bankası (ecb.europa.eu)" }
   ] },
-{ id:"polonya-halk", ad:"Polonya (PKWN → Polonya Halk Cumhuriyeti, 1952)", tur:"devlet", bolge:"dogu-avrupa", f:"1944-07-22", t:"1989-12-31", baskent:"Varşova", ozet:"22 Temmuz 1944 PKWN Manifestosu ile başlayan Sovyet destekli yönetim; Sejm 29 Aralık 1989'da 'Halk' adını kaldırdı, Senato 30'unda onayladı, yayımla yürürlük 31 Aralık 1989.", kaynak:"https://www.britannica.com/topic/Lublin-Committee ; https://www.cambridge.org/core/books/concise-history-of-poland/new-republic-1989/1FCBE7993F7566640E631D15B1E4E5D2 ; t için 29 Aralık (Sejm) ile 31 Aralık (yürürlük) kaynakta ayrışıyor — yürürlük günü seçildi, ZAYIF KAYNAK", kronoloji:[
+{ id:"polonya-halk", ad:"Polonya (PKWN → Polonya Halk Cumhuriyeti, 1952)", tur:"devlet", bolge:"dogu-avrupa", harita:"polonya", f:"1944-07-22", t:"1989-12-31", baskent:"Varşova", ozet:"22 Temmuz 1944 PKWN Manifestosu ile başlayan Sovyet destekli yönetim; Sejm 29 Aralık 1989'da 'Halk' adını kaldırdı, Senato 30'unda onayladı, yayımla yürürlük 31 Aralık 1989.", kaynak:"https://www.britannica.com/topic/Lublin-Committee ; https://www.cambridge.org/core/books/concise-history-of-poland/new-republic-1989/1FCBE7993F7566640E631D15B1E4E5D2 ; t için 29 Aralık (Sejm) ile 31 Aralık (yürürlük) kaynakta ayrışıyor — yürürlük günü seçildi, ZAYIF KAYNAK", kronoloji:[
     { t:"1944-07-22", tur:"kurulus", b:"PKWN Manifestosu ilan edildi (Chełm); Sovyet destekli yönetim başladı, 26 Temmuz'da Lublin'e yerleşti.", kaynak:"Britannica, 'Lublin Committee' (https://www.britannica.com/topic/Lublin-Committee)" },
     { t:"1944-12-31", tur:"siyaset", b:"Krajowa Rada Narodowa PKWN'yi Polonya Cumhuriyeti Geçici Hükûmeti'ne dönüştürdü.", kaynak:"Britannica, 'Lublin Committee'; Cambridge, Concise History of Poland" },
     { t:"1945-06-28", tur:"siyaset", b:"Yalta kararları uyarınca Ulusal Birlik Geçici Hükûmeti (TRJN) kuruldu; Mikołajczyk grubu dahil edildi.", kaynak:"Cambridge, Concise History of Poland (https://www.cambridge.org/core/books/concise-history-of-poland)" },
@@ -12053,15 +12320,14 @@ window.DEVLETLER = [
     { t:"1989-09-12", tur:"hukumdar", b:"Sejm Mazowiecki hükûmetine güvenoyu verdi; 40 yıl sonra ilk komünist olmayan hükûmet.", kaynak:"zpe.gov.pl (https://zpe.gov.pl/a/DU67Vm4q0)" },
     { t:"1989-12-31", tur:"son", b:"'Halk' sıfatı kalktı; devlet Polonya Cumhuriyeti oldu (Sejm 29 Aralık, Senato 30 Aralık, yürürlük 31 Aralık).", kaynak:"https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Poland" }
   ] },
-{ id:"polonya-iii-cumhuriyet", ad:"Polonya Cumhuriyeti (III. Cumhuriyet)", tur:"cumhuriyet", bolge:"dogu-avrupa", f:"1989-12-31", baskent:"Varşova", ozet:"Aralık 1989 anayasa değişikliğiyle 'Halk' sıfatı ve PZPR'nin öncü rolü kaldırıldı; devlet 'Polonya Cumhuriyeti' adını aldı.", kaynak:"https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Poland (yukarıdaki bağlantı)", kronoloji:[
-    { t:"1989-12-31", tur:"kurulus", b:"Anayasa değişikliği yürürlüğe girdi: 'Halk' sıfatı ve PZPR'nin öncü rolü kalktı; Polonya Cumhuriyeti (III. Cumhuriyet).", kaynak:"https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Poland" },
+{ id:"polonya-iii-cumhuriyet", ad:"Polonya Cumhuriyeti (III. Cumhuriyet)", tur:"cumhuriyet", bolge:"dogu-avrupa", harita:"polonya", f:"1989-12-31", baskent:"Varşova", ozet:"Aralık 1989 anayasa değişikliğiyle 'Halk' sıfatı ve PZPR'nin öncü rolü kaldırıldı; devlet 'Polonya Cumhuriyeti' adını aldı.", kaynak:"https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Poland (yukarıdaki bağlantı)", kronoloji:[
     { t:"1990-12-22", tur:"hukumdar", b:"Lech Wałęsa, ilk halk oylamasıyla seçilen cumhurbaşkanı olarak göreve başladı (Jaruzelski'nin yerine).", kaynak:"Wikipedia '1990 Polish presidential election' atıfları; Sejm/Kancelaria Prezydenta kayıtları" },
     { t:"1991-10-27", tur:"siyaset", b:"1945'ten beri ilk tam serbest Sejm seçimleri.", kaynak:"Cambridge, Concise History of Poland" },
     { t:"1997-04-02", tur:"siyaset", b:"Ulusal Meclis yeni anayasayı kabul etti (referandum 25 Mayıs, yürürlük 17 Ekim 1997).", kaynak:"Konstytucja Rzeczypospolitej Polskiej, Dz.U. 1997 nr 78 poz. 483" },
     { t:"1999-03-12", tur:"ittifak", b:"Polonya NATO'ya katıldı.", kaynak:"NATO, Member countries" },
     { t:"2004-05-01", tur:"ittifak", b:"Polonya Avrupa Birliği'ne katıldı.", kaynak:"Avrupa Birliği, Accession Treaty 2003" }
   ] },
-{ id:"macaristan-halk", ad:"Macaristan (II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20)", tur:"cumhuriyet", bolge:"orta-avrupa", f:"1946-02-01", t:"1989-10-23", baskent:"Budapeşte", ozet:"1946 I. sayılı yasayla monarşi kaldırıldı ve cumhuriyet ilan edildi; 20 Ağustos 1949 anayasasıyla Halk Cumhuriyeti oldu; 23 Ekim 1989'da ad Macaristan Cumhuriyeti'ne döndü.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary (Macar Dışişleri) ; https://en.wikipedia.org/wiki/Second_Hungarian_Republic (ZAYIF KAYNAK, ikinci kaynak yukarıdaki)", kronoloji:[
+{ id:"macaristan-halk", ad:"Macaristan (II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20)", tur:"cumhuriyet", bolge:"orta-avrupa", harita:"macaristan-naiplik", f:"1946-02-01", t:"1989-10-23", baskent:"Budapeşte", ozet:"1946 I. sayılı yasayla monarşi kaldırıldı ve cumhuriyet ilan edildi; 20 Ağustos 1949 anayasasıyla Halk Cumhuriyeti oldu; 23 Ekim 1989'da ad Macaristan Cumhuriyeti'ne döndü.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary (Macar Dışişleri) ; https://en.wikipedia.org/wiki/Second_Hungarian_Republic (ZAYIF KAYNAK, ikinci kaynak yukarıdaki)", kronoloji:[
     { t:"1946-02-01", tur:"kurulus", b:"Monarşi kaldırılıp cumhuriyet ilan edildi; Zoltán Tildy Cumhurbaşkanı seçildi.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary ; 1946. évi I. törvény" },
     { t:"1947-02-10", tur:"antlasma", b:"Paris Barış Antlaşması imzalandı; Macaristan 1938 öncesi sınırlarına döndü.", kaynak:"Paris Barış Antlaşması (Macaristan), 10 Şubat 1947; Encyclopaedia Britannica 'Hungary'" },
     { t:"1947-08-31", tur:"siyaset", b:"Hileli 'mavi kart' seçimi; Komünist Parti en büyük parti oldu.", kaynak:"Encyclopaedia Britannica 'Hungary: Communist rule'" },
@@ -12069,11 +12335,9 @@ window.DEVLETLER = [
     { t:"1949-08-20", tur:"siyaset", b:"Sovyet modelli anayasa yürürlüğe girdi; devlet Macar Halk Cumhuriyeti adını aldı.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary ; 1949. évi XX. törvény" },
     { t:"1955-05-14", tur:"ittifak", b:"Macaristan Varşova Paktı'nı imzalayanlar arasında yer aldı.", kaynak:"Varşova Paktı metni, 14 Mayıs 1955; Encyclopaedia Britannica 'Warsaw Pact'" },
     { t:"1956-10-23", tur:"isyan", b:"Budapeşte'de 1956 Macar Devrimi başladı.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary ; Encyclopaedia Britannica 'Hungarian Revolution'" },
-    { t:"1956-11-04", tur:"isgal", b:"Sovyet birlikleri Budapeşte'ye girerek devrimi bastırdı; Nagy hükûmeti düştü.", kaynak:"Encyclopaedia Britannica 'Hungarian Revolution'" },
-    { t:"1989-10-23", tur:"son", b:"Anayasa değişikliğiyle Halk Cumhuriyeti sona erdi; Macaristan Cumhuriyeti ilan edildi.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary" }
+    { t:"1956-11-04", tur:"isgal", b:"Sovyet birlikleri Budapeşte'ye girerek devrimi bastırdı; Nagy hükûmeti düştü.", kaynak:"Encyclopaedia Britannica 'Hungarian Revolution'" }
   ] },
-{ id:"macaristan-cumhuriyeti", ad:"Macaristan Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-avrupa", f:"1989-10-23", baskent:"Budapeşte", ozet:"18 Ekim 1989'da kabul edilen anayasa değişikliği 23 Ekim'de yürürlüğe girdi; 2012 Temel Yasası'na kadar bu ad kullanıldı.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary", kronoloji:[
-    { t:"1989-10-23", tur:"kurulus", b:"Anayasa değişikliği yürürlüğe girdi; Macaristan Cumhuriyeti ilan edildi.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary" },
+{ id:"macaristan-cumhuriyeti", ad:"Macaristan Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-avrupa", harita:"macaristan-naiplik", f:"1989-10-23", baskent:"Budapeşte", ozet:"18 Ekim 1989'da kabul edilen anayasa değişikliği 23 Ekim'de yürürlüğe girdi; 2012 Temel Yasası'na kadar bu ad kullanıldı.", kaynak:"https://doha.mfa.gov.hu/eng/page/the-history-of-hungary", kronoloji:[
     { t:"1990-08-03", tur:"hukumdar", b:"Árpád Göncz Cumhurbaşkanı seçildi.", kaynak:"Encyclopaedia Britannica 'Árpád Göncz'" },
     { t:"1991-02-15", tur:"ittifak", b:"Visegrád Grubu kuruldu.", kaynak:"Visegrád Grubu resmî sitesi (visegradgroup.eu)" },
     { t:"1991-06-19", tur:"siyaset", b:"Son Sovyet askerleri Macaristan'dan çekildi.", kaynak:"Encyclopaedia Britannica 'Hungary'" },
@@ -12081,23 +12345,21 @@ window.DEVLETLER = [
     { t:"2004-05-01", tur:"ittifak", b:"Macaristan Avrupa Birliği'ne katıldı.", kaynak:"AB resmî kayıtları (european-union.europa.eu)" },
     { t:"2012-01-01", tur:"son", b:"Temel Yasa yürürlüğe girdi; devlet adı Macaristan oldu.", kaynak:"Macaristan Temel Yasası (2011), 25 Nisan 2011'de imzalandı" }
   ] },
-{ id:"romanya-halk", ad:"Romanya Halk Cumhuriyeti → Sosyalist Cumhuriyeti (1965)", tur:"devlet", bolge:"balkanlar", f:"1947-12-30", t:"1989-12-22", baskent:"Bükreş", ozet:"Kral Mihai 30 Aralık 1947'de zorla tahttan çekildi, aynı gün halk cumhuriyeti ilan edildi; Çavuşesku 22 Aralık 1989'da Bükreş'ten kaçınca rejim çöktü.", kaynak:"https://nettyroyal.nl/miscellaneous/30-december-1947-the-end-of-the-romanian-monarchy ; https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania ; t = rejimin çöküş günü, hukukî ad değişikliği günü bulunamadı", kronoloji:[
+{ id:"romanya-halk", ad:"Romanya Halk Cumhuriyeti → Sosyalist Cumhuriyeti (1965)", tur:"devlet", bolge:"balkanlar", harita:"romanya-kralligi", f:"1947-12-30", t:"1989-12-22", baskent:"Bükreş", ozet:"Kral Mihai 30 Aralık 1947'de zorla tahttan çekildi, aynı gün halk cumhuriyeti ilan edildi; Çavuşesku 22 Aralık 1989'da Bükreş'ten kaçınca rejim çöktü.", kaynak:"https://nettyroyal.nl/miscellaneous/30-december-1947-the-end-of-the-romanian-monarchy ; https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania ; t = rejimin çöküş günü, hukukî ad değişikliği günü bulunamadı", kronoloji:[
     { t:"1989-12-17", tur:"isyan", b:"Timişoara'da gösterilere ateş açıldı (Çavuşesku emriyle); ayaklanma 15-16 Aralık'ta başlamıştı", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania" },
-    { t:"1989-12-21", tur:"isyan", b:"Çavuşesku'nun Bükreş mitingi yuhalarla kesildi; üniversitede çatışma", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania" },
-    { t:"1989-12-22", tur:"son", b:"Çavuşesku'lar helikopterle kaçtı; Ulusal Kurtuluş Cephesi iktidarı ilan etti; rejim çöktü", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania" }
+    { t:"1989-12-21", tur:"isyan", b:"Çavuşesku'nun Bükreş mitingi yuhalarla kesildi; üniversitede çatışma", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania" }
   ] },
-{ id:"romanya-cumhuriyeti", ad:"Romanya", tur:"cumhuriyet", bolge:"balkanlar", f:"1989-12-22", baskent:"Bükreş", ozet:"Ulusal Kurtuluş Cephesi Konseyi iktidarı devraldı; Çavuşesku sonrası dönem. Resmî ad değişikliğinin hukukî günü bu turda bulunamadı.", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania (f = iktidar devri, ad günü DEĞİL; Anayasa 1991-12-08 teyit edilmedi)", kronoloji:[
-    { t:"1989-12-22", tur:"kurulus", b:"Ion Iliescu Ulusal Kurtuluş Cephesi'ni ilan etti; yeni yönetim iktidarı devraldı", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania" },
+{ id:"romanya-cumhuriyeti", ad:"Romanya", tur:"cumhuriyet", bolge:"balkanlar", harita:"romanya-kralligi", f:"1989-12-22", baskent:"Bükreş", ozet:"Ulusal Kurtuluş Cephesi Konseyi iktidarı devraldı; Çavuşesku sonrası dönem. Resmî ad değişikliğinin hukukî günü bu turda bulunamadı.", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania (f = iktidar devri, ad günü DEĞİL; Anayasa 1991-12-08 teyit edilmedi)", kronoloji:[
     { t:"1989-12-25", tur:"hukumdar", b:"Çavuşesku'lar yargılanıp idam edildi", kaynak:"https://www.ebsco.com/research-starters/history/ceausescu-overthrown-romania" }
   ] },
-{ id:"bulgaristan-halk", ad:"Bulgaristan (Cumhuriyet 1946 → Halk Cumhuriyeti 1947-12-04)", tur:"cumhuriyet", bolge:"balkanlar", f:"1946-09-15", t:"1990-11-15", baskent:"Sofya", ozet:"8 Eylül 1946 referandumunda monarşi kaldırıldı, 15 Eylül'de cumhuriyet ilan edildi; 'Halk Cumhuriyeti' adı 1947 anayasasıyla (4 Aralık) geldi; 15 Kasım 1990'da 'Halk' kaldırıldı.", kaynak:"https://en.nuremberg.media/hronotop/20210915/254073/Bulgaria-Declared-a-Peoples-Republic.html ; https://www.refworld.org/node/30258 ; https://www.bta.bg/en/news/archives/1008961-observances-november-15-16 ; aday 'Halk Cumhuriyeti 1946-09-15' DÜZELTİLDİ: 15 Eylül cumhuriyet ilanıdır", kronoloji:[
+{ id:"bulgaristan-halk", ad:"Bulgaristan (Cumhuriyet 1946 → Halk Cumhuriyeti 1947-12-04)", tur:"cumhuriyet", bolge:"balkanlar", harita:"bulgaristan", f:"1946-09-15", t:"1990-11-15", baskent:"Sofya", ozet:"8 Eylül 1946 referandumunda monarşi kaldırıldı, 15 Eylül'de cumhuriyet ilan edildi; 'Halk Cumhuriyeti' adı 1947 anayasasıyla (4 Aralık) geldi; 15 Kasım 1990'da 'Halk' kaldırıldı.", kaynak:"https://en.nuremberg.media/hronotop/20210915/254073/Bulgaria-Declared-a-Peoples-Republic.html ; https://www.refworld.org/node/30258 ; https://www.bta.bg/en/news/archives/1008961-observances-november-15-16 ; aday 'Halk Cumhuriyeti 1946-09-15' DÜZELTİLDİ: 15 Eylül cumhuriyet ilanıdır", kronoloji:[
     { t:"1946-09-15", tur:"kurulus", b:"Monarşi kaldırıldı, Bulgaristan cumhuriyet ilan edildi (zayıf kaynak: 8 Eylül referandumu sonrası)", kaynak:"https://en.nuremberg.media/hronotop/20210915/254073/Bulgaria-Declared-a-Peoples-Republic.html (okunmadı, künyeden); arama özeti" },
     { t:"1989-11-10", tur:"hukumdar", b:"Todor Jivkov parti ve devlet görevlerinden istifa etti (35 yıllık iktidar sona erdi)", kaynak:"https://8964museum.com/time/en/t-j04-003/" }
   ] },
-{ id:"bulgaristan-cumhuriyeti", ad:"Bulgaristan Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar", f:"1990-11-15", baskent:"Sofya", ozet:"Büyük Millî Meclis 15 Kasım 1990'da anayasa değişikliğiyle ülkenin adından 'Halk'ı çıkardı ve komünist amblemi bayraktan kaldırdı.", kaynak:"https://www.refworld.org/node/30258 (UK Home Office ülke değerlendirmesi) ; BTA", kronoloji:[
+{ id:"bulgaristan-cumhuriyeti", ad:"Bulgaristan Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar", harita:"bulgaristan", f:"1990-11-15", baskent:"Sofya", ozet:"Büyük Millî Meclis 15 Kasım 1990'da anayasa değişikliğiyle ülkenin adından 'Halk'ı çıkardı ve komünist amblemi bayraktan kaldırdı.", kaynak:"https://www.refworld.org/node/30258 (UK Home Office ülke değerlendirmesi) ; BTA", kronoloji:[
     { t:"1991-07-12", tur:"siyaset", b:"VII. Büyük Millî Meclis yeni anayasayı kabul etti; Bulgaristan parlamenter cumhuriyet oldu", kaynak:"https://www.president.bg/cat71/Prezidentskata-institucia-na-Balgaria/&lang=en" }
   ] },
-{ id:"arnavutluk-cumhuriyeti", ad:"Arnavutluk Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar", f:"1991-04-29", baskent:"Tiran", ozet:"29 Nisan 1991 yasasıyla 1976 anayasası kaldırıldı ve devletin adı Arnavutluk Cumhuriyeti oldu (hukukî devamlılık: halk-sosyalist cumhuriyetle aynı polity).", kaynak:"https://constitutionnet.org/country/albania ; https://historiaconstitucional.com/index.php/historiaconstitucional/article/view/1141", kronoloji:[
+{ id:"arnavutluk-cumhuriyeti", ad:"Arnavutluk Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar", harita:"arnavutluk", f:"1991-04-29", baskent:"Tiran", ozet:"29 Nisan 1991 yasasıyla 1976 anayasası kaldırıldı ve devletin adı Arnavutluk Cumhuriyeti oldu (hukukî devamlılık: halk-sosyalist cumhuriyetle aynı polity).", kaynak:"https://constitutionnet.org/country/albania ; https://historiaconstitucional.com/index.php/historiaconstitucional/article/view/1141", kronoloji:[
     { t:"1992-03-22", tur:"siyaset", b:"Çok partili seçimin ilk turu; Demokratik Parti büyük zafer kazandı (ikinci tur 29 Mart)", kaynak:"https://www.ipu.org/parline-e/reports/arc/2001_92.htm" },
     { t:"1992-04-03", tur:"hukumdar", b:"Devlet başkanı Ramiz Alia istifa etti", kaynak:"https://www.upi.com/Archives/1992/04/03/Albanian-president-resigns/8301702277200/" },
     { t:"1992-04-09", tur:"hukumdar", b:"Meclis Sali Berişa'yı devlet başkanı seçti; savaş sonrası ilk komünist olmayan başkan", kaynak:"https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/sali-berisha" }
@@ -12107,12 +12369,11 @@ window.DEVLETLER = [
     { t:"1949-08-02", tur:"savas", b:"Grammos-Vitsi'de Pyrsos Harekâtı: Ulusal Ordu saldırısı, 30 Ağustos'a dek (zayıf kaynak)", kaynak:"Vikipedi 'Operation Pyrsos' (ZAYIF)" },
     { t:"1949-08-28", tur:"son", b:"Hükûmet Grammos-Vitsi yenilgisiyle dağıldı, iç savaş bitti (zayıf kaynak)", kaynak:"Vikipedi 'Provisional Democratic Government' (ZAYIF); Britannica Vafiades: 1949 yenilgi" }
   ] },
-{ id:"yunanistan-cumhuriyeti", ad:"Yunanistan (Cunta cumhuriyeti 1973-06-01 → III. Cumhuriyet 1974-12-08)", tur:"cumhuriyet", bolge:"balkanlar", f:"1973-06-01", baskent:"Atina", ozet:"Askerî cunta 1 Haziran 1973'te monarşiyi kaldırdı; 8 Aralık 1974 referandumu kralsız cumhuriyeti kesinleştirdi. Mevcut 'yunanistan' kaydının t'si 1945'ten 1973-06-01'e uzatılmalı.", kaynak:"https://www.tovima.com/vima-history/1974-referendum-the-definitive-abolition-of-the-monarchy ; Vikipedi 1973 Greek republic referendum (ZAYIF KAYNAK, Britannica'da sayfa bulunamadı)", kronoloji:[
-    { t:"1973-06-01", tur:"kurulus", b:"Cunta monarşiyi kaldırıp Yunanistan'ı cumhuriyet ilan etti; Papadopoulos cumhurbaşkanı (zayıf kaynak)", kaynak:"https://en.wikipedia.org/wiki/Metapolitefsi (ZAYIF); https://twinspace.etwinning.net/187686/pages/page/1899760" },
+{ id:"yunanistan-cumhuriyeti", ad:"Yunanistan (Cunta cumhuriyeti 1973-06-01 → III. Cumhuriyet 1974-12-08)", tur:"cumhuriyet", bolge:"balkanlar", harita:"yunanistan", f:"1973-06-01", baskent:"Atina", ozet:"Askerî cunta 1 Haziran 1973'te monarşiyi kaldırdı; 8 Aralık 1974 referandumu kralsız cumhuriyeti kesinleştirdi. Mevcut 'yunanistan' kaydının t'si 1945'ten 1973-06-01'e uzatılmalı.", kaynak:"https://www.tovima.com/vima-history/1974-referendum-the-definitive-abolition-of-the-monarchy ; Vikipedi 1973 Greek republic referendum (ZAYIF KAYNAK, Britannica'da sayfa bulunamadı)", kronoloji:[
     { t:"1973-11-25", tur:"hukumdar", b:"Ioannidis Papadopoulos'u devirdi; Gizikis cumhurbaşkanı (zayıf kaynak)", kaynak:"https://twinspace.etwinning.net/187686/pages/page/1899760; https://macaudailytimes.com.mo/?p=148711" },
     { t:"1974-07-24", tur:"siyaset", b:"Kıbrıs çöküşü sonrası cunta düştü; Karamanlis başbakan oldu (Metapolitefsi)", kaynak:"https://en.wikipedia.org/wiki/Metapolitefsi (ZAYIF); https://twinspace.etwinning.net/187686/pages/page/1899760" }
   ] },
-{ id:"italya-cumhuriyeti", ad:"İtalya Cumhuriyeti", tur:"cumhuriyet", bolge:"italya", f:"1946-06-18", baskent:"Roma", ozet:"2 Haziran 1946 referandumunda %54,27 ile cumhuriyet seçildi; Yargıtay sonucu 18 Haziran 1946'da resmen ilan etti; anayasa 1 Ocak 1948'de yürürlüğe girdi. Mevcut 'italya' (Krallık) t'si 1946-06-18'e uzatılmalı.", kaynak:"https://www.difesa.it/eng/primo-piano/towards-2-june/32062.html (İtalyan Savunma Bakanlığı) ; hangi günün f sayılacağı karar işi: 06-02 oylama / 06-18 ilan", kronoloji:[
+{ id:"italya-cumhuriyeti", ad:"İtalya Cumhuriyeti", tur:"cumhuriyet", bolge:"italya", harita:"italya", f:"1946-06-18", baskent:"Roma", ozet:"2 Haziran 1946 referandumunda %54,27 ile cumhuriyet seçildi; Yargıtay sonucu 18 Haziran 1946'da resmen ilan etti; anayasa 1 Ocak 1948'de yürürlüğe girdi. Mevcut 'italya' (Krallık) t'si 1946-06-18'e uzatılmalı.", kaynak:"https://www.difesa.it/eng/primo-piano/towards-2-june/32062.html (İtalyan Savunma Bakanlığı) ; hangi günün f sayılacağı karar işi: 06-02 oylama / 06-18 ilan", kronoloji:[
     { t:"1946-06-18", tur:"kurulus", b:"Yargıtay referandum sonucunu resmen ilan etti, İtalya Cumhuriyeti doğdu", kaynak:"https://www.difesa.it/eng/primo-piano/towards-2-june/32062.html" },
     { t:"1946-06-25", tur:"siyaset", b:"Kurucu Meclis ilk kez toplandı", kaynak:"İtalya Meclisi tarihi — bu oturumda web teyidi yapılamadı" },
     { t:"1946-06-28", tur:"hukumdar", b:"Enrico De Nicola geçici devlet başkanı seçildi", kaynak:"quirinale.it — bu oturumda web teyidi yapılamadı" },
@@ -12142,27 +12403,20 @@ window.DEVLETLER = [
     { t:"2005-04-19", tur:"hukumdar", b:"XVI. Benedictus papa seçildi", kaynak:"Annuario Pontificio / papalık listeleri — bu oturumda web teyidi yapılamadı" },
     { t:"2013-03-13", tur:"hukumdar", b:"Franciscus papa seçildi", kaynak:"Annuario Pontificio / papalık listeleri — bu oturumda web teyidi yapılamadı" }
   ] },
-{ id:"yugoslavya-federal", ad:"Yugoslavya (FHC 1945-11-29 → SFRY 1963-04-07)", tur:"devlet", bolge:"balkanlar", f:"1945-11-29", t:"1992-04-27", baskent:"Belgrad", ozet:"Kral II. Petar'ın tahttan indirilmesinin ardından 29 Kasım 1945'te Federal Halk Cumhuriyeti ilan edildi; 1963'te Sosyalist Federal Cumhuriyet adını aldı; 27 Nisan 1992'de Sırbistan-Karadağ FRY ilanıyla SFRY fiilen sona erdi.", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php ; https://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia (ZAYIF KAYNAK, yalnız iki kaynak)", kronoloji:[
-    { t:"1945-11-29", tur:"kurulus", b:"Kurucu Meclis Federal Halk Cumhuriyeti'ni ilan etti", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" },
+{ id:"yugoslavya-federal", ad:"Yugoslavya (FHC 1945-11-29 → SFRY 1963-04-07)", tur:"devlet", bolge:"balkanlar", harita:"yugoslavya", f:"1945-11-29", t:"1992-04-27", baskent:"Belgrad", ozet:"Kral II. Petar'ın tahttan indirilmesinin ardından 29 Kasım 1945'te Federal Halk Cumhuriyeti ilan edildi; 1963'te Sosyalist Federal Cumhuriyet adını aldı; 27 Nisan 1992'de Sırbistan-Karadağ FRY ilanıyla SFRY fiilen sona erdi.", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php ; https://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia (ZAYIF KAYNAK, yalnız iki kaynak)", kronoloji:[
     { t:"1948-06-28", tur:"siyaset", b:"Tito-Stalin kopuşu (Cominform bildirisi); Yugoslavya Doğu Bloku dışında bağımsız çizgi izledi", kaynak:"https://www.newworldencyclopedia.org/entry/Tito-Stalin_split" },
     { t:"1963-04-07", tur:"siyaset", b:"Yeni anayasayla ad Sosyalist Federal Yugoslavya Cumhuriyeti oldu", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" },
-    { t:"1991-06-25", tur:"bolunme", b:"Slovenya ve Hırvatistan bağımsızlık ilan etti", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" },
     { t:"1991-09-17", tur:"bolunme", b:"Makedonya bağımsızlık ilan etti", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" },
-    { t:"1992-03-06", tur:"bolunme", b:"Bosna-Hersek bağımsızlık ilan etti", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" },
-    { t:"1992-04-27", tur:"son", b:"Sırbistan ve Karadağ Federal Yugoslavya Cumhuriyeti'ni kurdu; SFRY dönemi sona erdi", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" }
+    { t:"1992-03-06", tur:"bolunme", b:"Bosna-Hersek bağımsızlık ilan etti", kaynak:"https://archontology.org/nations/yugoslavia/01_polity2.php" }
   ] },
-{ id:"yugoslavya-federal-cumhuriyeti", ad:"Yugoslavya Federal Cumhuriyeti (Sırbistan ve Karadağ)", tur:"devlet", bolge:"balkanlar", f:"1992-04-27", t:"2003-02-04", baskent:"Belgrad", ozet:"27 Nisan 1992'de Sırbistan ve Karadağ'ın ilan ettiği federasyon; 4 Şubat 2003'te 'Sırbistan ve Karadağ' devlet birliğine dönüştü.", kaynak:"https://english.defensie.nl/topics/historical-missions/mission-overview/1992/united-nations-protection-force-unprofor-and-the-united-nations-peace-forces-unpf ; t = 2003-02-04 bu turda ikinci kaynakla araştırılmadı (dizin ufku 2000 dışı)", kronoloji:[
-    { t:"1992-04-27", tur:"kurulus", b:"Sırbistan ve Karadağ Yugoslavya Federal Cumhuriyeti'ni ilan etti", kaynak:"https://www.nato.int/acad/fellow/99-01/lukic.pdf" },
-    { t:"1999-06-10", tur:"toprak-kayip", b:"BMGK 1244: Kosova fiilen BM yönetimine geçti (egemenlik hakkı korunarak)", kaynak:"https://digitallibrary.un.org/record/274488" }
+{ id:"yugoslavya-federal-cumhuriyeti", ad:"Yugoslavya Federal Cumhuriyeti (Sırbistan ve Karadağ)", tur:"devlet", bolge:"balkanlar", harita:"yugoslavya", f:"1992-04-27", t:"2003-02-04", baskent:"Belgrad", ozet:"27 Nisan 1992'de Sırbistan ve Karadağ'ın ilan ettiği federasyon; 4 Şubat 2003'te 'Sırbistan ve Karadağ' devlet birliğine dönüştü.", kaynak:"https://english.defensie.nl/topics/historical-missions/mission-overview/1992/united-nations-protection-force-unprofor-and-the-united-nations-peace-forces-unpf ; t = 2003-02-04 bu turda ikinci kaynakla araştırılmadı (dizin ufku 2000 dışı)", kronoloji:[
   ] },
 { id:"slovenya", ad:"Slovenya Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar", f:"1991-06-25", baskent:"Ljubljana", ozet:"25 Haziran 1991'de Slovenya ve Hırvatistan bağımsızlık ilan etti; Yugoslav savaşları 27 Haziran'da başladı.", kaynak:"https://english.defensie.nl/topics/historical-missions/mission-overview/1992/united-nations-protection-force-unprofor-and-the-united-nations-peace-forces-unpf ; ZAYIF KAYNAK (Brioni 1991-07-07 teyit edilmedi)", kronoloji:[
-    { t:"1991-06-25", tur:"kurulus", b:"Slovenya bağımsızlığını ilan etti", kaynak:"https://www.rtvslo.si/news-in-english/25th-anniversary-of-the-start-of-the-slovenian-independence-war/396855" },
     { t:"1991-06-27", tur:"savas", b:"On Gün Savaşı: Yugoslav Halk Ordusu ile Sloven kuvvetleri çatışması başladı", kaynak:"https://www.rtvslo.si/news-in-english/25th-anniversary-of-the-start-of-the-slovenian-independence-war/396855" },
     { t:"1991-07-07", tur:"antlasma", b:"Brioni Anlaşması: üç aylık ateşkes ve bağımsızlık ilanının askıya alınması", kaynak:"https://www.csmonitor.com/1991/0709/09012.html" },
     { t:"1992-01-15", tur:"siyaset", b:"Avrupa Topluluğu Slovenya ve Hırvatistan'ı tanıdı", kaynak:"https://www.cvce.eu/obj/ec_recognises_croatia_and_slovenia_from_the_luxemburger_wort_16_january_1992-en-61705806-c694-4e96-99d0-3e25cc5ef93e.html" }
   ] },
 { id:"hirvatistan", ad:"Hırvatistan Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar", f:"1991-06-25", baskent:"Zagreb", ozet:"25 Haziran 1991 bağımsızlık bildirisi (8 Ekim 1991 bağların resmen kesilmesi bu turda teyit edilmedi).", kaynak:"https://english.defensie.nl/topics/historical-missions/mission-overview/1992/united-nations-protection-force-unprofor-and-the-united-nations-peace-forces-unpf ; ZAYIF KAYNAK", kronoloji:[
-    { t:"1991-06-25", tur:"kurulus", b:"Hırvatistan bağımsızlığını ilan etti", kaynak:"https://www.rtvslo.si/news-in-english/25th-anniversary-of-the-start-of-the-slovenian-independence-war/396855" },
     { t:"1991-07-07", tur:"antlasma", b:"Brioni Anlaşması: üç aylık askıya alma ve ateşkes", kaynak:"https://www.csmonitor.com/1991/0709/09012.html" },
     { t:"1991-11-18", tur:"savas", b:"Vukovar düştü; üç aylık kuşatma sona erdi", kaynak:"https://n1info.hr/english/news/croatia-remembers-battle-of-vukovar-viewed-as-battle-of-all-battles/" },
     { t:"1992-01-15", tur:"siyaset", b:"Avrupa Topluluğu Hırvatistan'ı tanıdı", kaynak:"https://www.cvce.eu/obj/ec_recognises_croatia_and_slovenia_from_the_luxemburger_wort_16_january_1992-en-61705806-c694-4e96-99d0-3e25cc5ef93e.html" }
@@ -12207,12 +12461,11 @@ window.DEVLETLER = [
     { t:"1999-06-10", tur:"son", b:"BM Güvenlik Konseyi 1244 sayılı karar: UNMIK kuruldu, Kosova BM yönetimine geçti", kaynak:"https://digitallibrary.un.org/record/274488" }
   ] },
 { id:"unmik-kosova", ad:"Kosova (BM UNMIK idaresi)", tur:"uluslararasi-idare", bolge:"balkanlar", f:"1999-06-10", t:"2008-02-17", baskent:"Priştine", ozet:"BM GK 1244 (10 Haziran 1999) ile kurulan geçici sivil idare; 17 Şubat 2008 bağımsızlık bildirisiyle fiilen sona erdi (1244 hukuken sürüyor, misyon yeniden tanımlandı).", kaynak:"https://digitallibrary.un.org/record/702975?ln=en ; BM GK 1244 (1999)", kronoloji:[
-    { t:"1999-06-10", tur:"kurulus", b:"BM GK 1244 ile UNMIK kuruldu; Kosova BM geçici idaresine girdi.", kaynak:"https://digitallibrary.un.org/record/702975?ln=en ; BM GK 1244 (1999)" },
     { t:"2001-05-15", tur:"siyaset", b:"UNMIK Düzenlemesi 2001/9 ile Geçici Özyönetim Anayasal Çerçevesi yürürlüğe girdi.", kaynak:"UNMIK/REG/2001/9 (15 Mayıs 2001)" },
     { t:"2001-11-17", tur:"siyaset", b:"Geçici Özyönetim Kurumları için ilk Kosova meclis seçimi yapıldı.", kaynak:"UNMIK/AB; OSCE Kosova 2001 seçim raporu (gün: kaynaktan yeniden doğrulanmalı)" },
     { t:"2008-02-17", tur:"son", b:"Kosova Meclisi bağımsızlık bildirdi; UNMIK idaresi fiilen sona erdi.", kaynak:"ICJ Danışma Görüşü, 22 Temmuz 2010 (Kosova bağımsızlık bildirisi)" }
   ] },
-{ id:"rusya-federasyonu", ad:"Rusya Federasyonu", tur:"devlet", bolge:"dogu-avrupa", f:"1991-12-26", baskent:"Moskova", ozet:"SSCB 26 Aralık 1991'de 142-N sayılı bildiriyle hukuken sona erdi; Rusya SSCB'nin BM üyeliği ve devamlılığını üstlendi (RSFSR 12 Haziran 1990 egemenlik bildirisi). Mevcut 'sovyet-rusya' t'si 1991-12-26 olmalı.", kaynak:"https://en.wikipedia.org/wiki/Alma-Ata_Protocol (ZAYIF KAYNAK) ; Belovezha Anlaşması 1991-12-08, Alma-Ata Protokolü 1991-12-21, Yeltsin'in BM mektubu 1991-12-24 — birincil metin bu turda açılmadı; f 25-26 Aralık arası karar işi", kronoloji:[
+{ id:"rusya-federasyonu", ad:"Rusya Federasyonu", tur:"devlet", bolge:"dogu-avrupa", harita:"sovyet-rusya", f:"1991-12-26", baskent:"Moskova", ozet:"SSCB 26 Aralık 1991'de 142-N sayılı bildiriyle hukuken sona erdi; Rusya SSCB'nin BM üyeliği ve devamlılığını üstlendi (RSFSR 12 Haziran 1990 egemenlik bildirisi). Mevcut 'sovyet-rusya' t'si 1991-12-26 olmalı.", kaynak:"https://en.wikipedia.org/wiki/Alma-Ata_Protocol (ZAYIF KAYNAK) ; Belovezha Anlaşması 1991-12-08, Alma-Ata Protokolü 1991-12-21, Yeltsin'in BM mektubu 1991-12-24 — birincil metin bu turda açılmadı; f 25-26 Aralık arası karar işi", kronoloji:[
     { t:"1991-12-26", tur:"kurulus", b:"SSCB 142-N sayılı bildiriyle sona erdi; Rusya SSCB'nin devamlılığını üstlendi.", kaynak:"https://www.cvce.eu/en/obj/alma_ata_declaration_alma_ata_21_december_1991-en-ffcd1505-481e-42f5-8293-c8089b125eb0.html ; not: Gorbaçov istifası 25 Aralık 1991, 142-N 26 Aralık" },
     { t:"1993-10-04", tur:"ic-savas", b:"Yeltsin Beyaz Saray'ı topa tutturdu, parlamento direnişi sona erdi.", kaynak:"https://russialist.org/?p=13141 ; https://www.thecollector.com/1993-russian-constitutional-crisis-yeltsin/" },
     { t:"1993-12-12", tur:"siyaset", b:"Referandumla yeni Rusya Anayasası kabul edildi.", kaynak:"https://russianlife.com/stories/online/constructing-a-constitution" },
@@ -12224,7 +12477,6 @@ window.DEVLETLER = [
     { t:"2022-02-24", tur:"savas", b:"Rusya Ukrayna'yı topyekûn işgal etti.", kaynak:"https://www.cfr.org/articles/ukraines-struggle-independence-russias-shadow" }
   ] },
 { id:"ukrayna", ad:"Ukrayna", tur:"devlet", bolge:"dogu-avrupa", f:"1991-08-24", baskent:"Kiev", ozet:"Yüksek Rada 24 Ağustos 1991'de bağımsızlık bildirisini 321 oyla kabul etti; 1 Aralık 1991 referandumu doğruladı.", kaynak:"https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.htm (Yüksek Rada) ; https://soviethistory.msu.edu/1991/ukrainian-independence/ukrainian-independence-texts/ukrainian-rada-declares-independence/", kronoloji:[
-    { t:"1991-08-24", tur:"kurulus", b:"Yüksek Rada bağımsızlık bildirisini kabul etti.", kaynak:"https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.htm" },
     { t:"1991-12-01", tur:"siyaset", b:"Bağımsızlık referandumu onaylandı; Leonid Kravçuk ilk cumhurbaşkanı seçildi.", kaynak:"https://archive.kyivpost.com/article/content/ukraine-politics/key-events-since-independence-421344.html ; https://www.pbs.org/newshour/amp/world/a-historical-timeline-of-post-independence-ukraine" },
     { t:"1991-12-02", tur:"siyaset", b:"Kanada ve Polonya bağımsız Ukrayna'yı tanıdı.", kaynak:"https://archive.kyivpost.com/article/content/ukraine-politics/key-events-since-independence-421344.html" },
     { t:"1994-07-10", tur:"hukumdar", b:"Leonid Kuçma, görevdeki Kravçuk'u yenerek cumhurbaşkanı seçildi.", kaynak:"https://www.pbs.org/newshour/amp/world/a-historical-timeline-of-post-independence-ukraine ; https://www.cfr.org/articles/ukraines-struggle-independence-russias-shadow" },
@@ -12235,7 +12487,6 @@ window.DEVLETLER = [
     { t:"2022-02-24", tur:"isgal", b:"Rusya Ukrayna'yı topyekûn işgal etti.", kaynak:"https://www.cfr.org/articles/ukraines-struggle-independence-russias-shadow ; https://www.pbs.org/newshour/amp/world/a-historical-timeline-of-post-independence-ukraine" }
   ] },
 { id:"belarus", ad:"Belarus Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa", f:"1991-08-25", baskent:"Minsk", ozet:"25 Ağustos 1991'de Yüksek Sovyet 27 Temmuz 1990 Egemenlik Bildirisi'ne anayasal yasa statüsü verdi; devlet adı 19 Eylül 1991'de değişti.", kaynak:"https://countrystudies.us/belarus/13.htm (LoC) ; https://euroradio.by/en/belarus-independence-declaration-adopted-25-years-ago ; Belarus'ta bu gün resmî tatil değil", kronoloji:[
-    { t:"1991-08-25", tur:"kurulus", b:"Yüksek Sovyet Egemenlik Bildirisi'ne anayasal yasa statüsü verdi.", kaynak:"https://countrystudies.us/belarus/13.htm ; https://euroradio.by/en/belarus-independence-declaration-adopted-25-years-ago" },
     { t:"1991-12-08", tur:"antlasma", b:"Belovej Anlaşması: Belarus, Rusya ve Ukrayna SSCB'nin sona erdiğini bildirdi.", kaynak:"https://en.wikipedia.org/wiki/Alma-Ata_Protocol (zayıf; Alma-Ata Protokolü öncülü) ; birincil metin bu turda açılmadı" },
     { t:"1994-01-26", tur:"siyaset", b:"Parlamento Şuşkeviç'i 209-36 oyla devlet başkanlığından azletti.", kaynak:"https://belarusdigest.com/story/lives-and-legacies-of-shushkevich-and-kravchuk-who-buried-the-soviet-union/ ; https://www.csmonitor.com/layout/set/amphtml/1994/0128/28012.html (gün 28 Ocak raporundaki 'Çarşamba'dan çıkarım)" },
     { t:"1994-03-15", tur:"siyaset", b:"Yeni anayasa başkanlık sistemini getirdi.", kaynak:"https://www.rferl.org/amp/elections-in-belarus-how-lukashenka-won-and-won-and-won-and-won-and-won-/30767860.html ; https://www.hrw.org/reports/1997/belarus/Belarus-03.htm" },
@@ -12244,7 +12495,6 @@ window.DEVLETLER = [
     { t:"1999-12-08", tur:"ittifak", b:"Rusya ile Birlik Devleti antlaşması imzalandı.", kaynak:"Birlik Devleti Antlaşması metni (soyuz.by); bu turda arama sonuç vermedi, gün bilgi birikiminden - doğrulanmalı" }
   ] },
 { id:"moldova", ad:"Moldova Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa", f:"1991-08-27", baskent:"Kişinev", ozet:"Parlamento 27 Ağustos 1991'de bağımsızlık bildirisini 278 oyla kabul etti; Romanya aynı gün tanıdı, BM üyeliği 2 Mart 1992.", kaynak:"https://ipn.md/en/27-august-1991-the-day-moldovas-independence-was-proclaimed-7967_1106781.html ; https://soviethistory.msu.edu/1991/eltsin-and-russian-sovereignty/eltsin-and-russian-sovereignty-texts/moldovan-independence/", kronoloji:[
-    { t:"1991-08-27", tur:"kurulus", b:"Parlamento bağımsızlık bildirisini kabul etti.", kaynak:"https://ipn.md/en/27-august-1991-the-day-moldovas-independence-was-proclaimed-7967_1106781.html" },
     { t:"1992-03-02", tur:"siyaset", b:"Moldova BM'ye kabul edildi.", kaynak:"https://ipn.md/en/27-august-1991-the-day-moldovas-independence-was-proclaimed-7967_1106781.html" },
     { t:"1992-07-21", tur:"antlasma", b:"Transdinyester Savaşı ateşkesi ve üçlü barış gücü kararlaştırıldı.", kaynak:"https://en.wikipedia.org/wiki/Transnistrian_War (yardımcı) ; https://www.peaceagreements.org/ ; CRS 95-403F https://www.everycrsreport.com/reports/95-403F.html" },
     { t:"1994-07-29", tur:"siyaset", b:"Yeni anayasa kabul edildi; Gagavuz özerkliği güvence altına alındı.", kaynak:"https://www.everycrsreport.com/reports/95-403F.html (yalnız 'Temmuz 1994'; 29 Temmuz günü Moldova Resmî Gazete kaydından, ayrıca doğrulanmadı)" },
@@ -12260,7 +12510,6 @@ window.DEVLETLER = [
     { t:"2006-09-17", tur:"siyaset", b:"Bağımsızlık ve Rusya'ya katılım referandumu (%98 evet); uluslararası alanda tanınmadı.", kaynak:"Avrupa Parlamentosu kararı B6-0551/2006 (https://www.europarl.europa.eu/doceo/document/B-6-2006-0551_EN.pdf)" }
   ] },
 { id:"estonya-cumhuriyeti-yeniden", ad:"Estonya Cumhuriyeti (yeniden bağımsızlık)", tur:"cumhuriyet", bolge:"dogu-avrupa", f:"1991-08-20", baskent:"Tallinn", ozet:"Üstün Konsey 20 Ağustos 1991 23:02'de Sovyet işgalini sona ermiş ve bağımsızlığın tam yeniden kurulduğunu ilan etti (1918 cumhuriyetiyle hukukî devamlılık esası).", kaynak:"https://news.err.ee/1609429462/restoration-of-independence-events-of-august-20-1991-explained ; https://visitestonia.com/en/how-estonia-regained-its-independence", kronoloji:[
-    { t:"1991-08-20", tur:"kurulus", b:"Estonya Üstün Konseyi Sovyet işgalini sona erdirip bağımsızlığın tam yeniden kurulduğunu ilan etti.", kaynak:"https://news.err.ee/1609429462/restoration-of-independence-events-of-august-20-1991-explained ; https://news.err.ee/613867/taking-back-what-was-theirs-estonia-s-independence-restored-in-august-1991" },
     { t:"1991-09-06", tur:"siyaset", b:"SSCB Devlet Konseyi Estonya, Letonya ve Litvanya'nın bağımsızlığını tanıdı.", kaynak:"https://www.upi.com/Archives/1991/09/06/Baltics-get-independence-from-USSR/9931684129600/ (UPI, 6 Eylül 1991)" },
     { t:"1991-09-17", tur:"siyaset", b:"Estonya Birleşmiş Milletler'e kabul edildi.", kaynak:"https://news.err.ee/613867/taking-back-what-was-theirs-estonia-s-independence-restored-in-august-1991 ; BM GA kararı 46/6 ailesi (17 Eylül 1991 kabulü)" },
     { t:"1992-06-28", tur:"siyaset", b:"Referandumla 1992 Anayasası kabul edildi.", kaynak:"Estonya Dışişleri Bakanlığı / Riigikogu kaynakları (vm.ee, riigikogu.ee) - tarih kaynak sayfasından bu turda ayrıca açılmadı" },
@@ -12305,7 +12554,6 @@ window.DEVLETLER = [
     { t:"2023-09-28", tur:"son", b:"Cumhurbaşkanı Şahramanyan cumhuriyetin 1 Ocak 2024'e kadar feshine dair kararnameyi imzaladı.", kaynak:"Meduza https://meduza.io/en/news/2023/09/28/president-of-nagorno-karabakh-republic-signs-decree-ending-unrecognized-state-s-existence-as-of-january-1-2024 ; JAMnews https://jam-news.net/unrecognized-nkr-will-cease-to-exist-on-january-1-2024/" }
   ] },
 { id:"azerbaycan-cumhuriyeti", ad:"Azerbaycan Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya", f:"1991-10-18", baskent:"Bakü", ozet:"Yüksek Konsey 18 Ekim 1991'de Devlet Bağımsızlığı Anayasa Yasası'nı kabul etti (30 Ağustos 1991 'yeniden tesis' bildirisi öncesi); 29 Aralık 1991 referandumu doğruladı.", kaynak:"https://prague.mfa.gov.az/en/news/3033/october-18-is-marked-as-the-state-independence-day-in-azerbaijan ; https://en.wikipedia.org/wiki/Constitutional_Act_on_State_Independence_of_the_Republic_of_Azerbaijan (ZAYIF KAYNAK)", kronoloji:[
-    { t:"1991-10-18", tur:"kurulus", b:"Yüksek Konsey Devlet Bağımsızlığı Anayasa Yasası'nı kabul etti.", kaynak:"Azerbaycan Dışişleri https://prague.mfa.gov.az/en/news/3033/october-18-is-marked-as-the-state-independence-day-in-azerbaijan ; RFE/RL https://www.rferl.org/a/azerbaijan_marks_20th_anniversary_of_independence/24363665.html" },
     { t:"1991-12-29", tur:"siyaset", b:"Bağımsızlık yasasına dair halk oylaması yapıldı.", kaynak:"RFE/RL https://www.rferl.org/a/azerbaijan_marks_20th_anniversary_of_independence/24363665.html" },
     { t:"1992-03-06", tur:"hukumdar", b:"Hocalı olayının ardından Cumhurbaşkanı Mutallibov istifa etti.", kaynak:"Eurasianet chronology https://eurasianet.org/a-chronology-of-events-in-azerbaijan" },
     { t:"1992-06-07", tur:"hukumdar", b:"Ebulfez Elçibey cumhurbaşkanı seçildi.", kaynak:"Eurasianet chronology https://eurasianet.org/a-chronology-of-events-in-azerbaijan" },
@@ -12324,23 +12572,19 @@ window.DEVLETLER = [
     { t:"2000-02-06", tur:"son", b:"Grozni'nin düşmesiyle İçkerya yönetimi dağıldı (gerilla sürdü).", kaynak:"UCDP https://ucdp.uu.se/statebased/852 (künye: gün yalnız Vikipedi'de; ZAYIF)" }
   ] },
 { id:"kazakistan", ad:"Kazakistan", tur:"cumhuriyet", bolge:"orta-asya", f:"1991-12-16", baskent:"Almatı", ozet:"Yüksek Sovyet 16 Aralık 1991'de 270 oyla Devlet Bağımsızlığı Anayasa Yasası'nı kabul etti.", kaynak:"https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081", kronoloji:[
-    { t:"1991-12-16", tur:"kurulus", b:"Kazakistan'ın bağımsızlığına dair yasa kabul edildi.", kaynak:"https://islamansiklopedisi.org.tr/kazakistan" },
     { t:"1992-03-02", tur:"siyaset", b:"Kazakistan Birleşmiş Milletler'e üye oldu.", kaynak:"https://islamansiklopedisi.org.tr/kazakistan" },
     { t:"1993-01-28", tur:"siyaset", b:"Anayasa kabul edildi; Kazakça resmî dil oldu.", kaynak:"https://islamansiklopedisi.org.tr/kazakistan" },
     { t:"1997-12-10", tur:"baskent", b:"Başkent Almatı'dan Akmola'ya taşındı.", kaynak:"https://islamansiklopedisi.org.tr/kazakistan" },
     { t:"1998-05-06", tur:"baskent", b:"Akmola'nın adı Astana oldu.", kaynak:"https://islamansiklopedisi.org.tr/kazakistan" }
   ] },
 { id:"ozbekistan", ad:"Özbekistan", tur:"cumhuriyet", bolge:"orta-asya", f:"1991-08-31", baskent:"Taşkent", ozet:"Yüksek Sovyet 31 Ağustos 1991'de Devlet Bağımsızlığı Temelleri Yasası'nı kabul etti ve cumhuriyetin adı değişti; resmî bayram 1 Eylül; 29 Aralık 1991 referandumu.", kaynak:"https://www.archontology.org/nations/uzbekistan/00_polity.php ; https://cisc.uz/en/news-item/556", kronoloji:[
-    { t:"1991-08-31", tur:"kurulus", b:"Özbekistan Cumhuriyeti bağımsızlığını ilan etti.", kaynak:"https://islamansiklopedisi.org.tr/ozbekistan" },
     { t:"1991-12-21", tur:"ittifak", b:"Özbekistan Bağımsız Devletler Topluluğu'na üye oldu.", kaynak:"https://islamansiklopedisi.org.tr/ozbekistan" },
     { t:"1992-03-02", tur:"siyaset", b:"Özbekistan Birleşmiş Milletler'e kabul edildi.", kaynak:"https://islamansiklopedisi.org.tr/ozbekistan" },
     { t:"1992-12-08", tur:"siyaset", b:"Özbekistan Cumhuriyeti anayasası kabul edildi.", kaynak:"https://islamansiklopedisi.org.tr/ozbekistan" }
   ] },
 { id:"kirgizistan", ad:"Kırgızistan", tur:"cumhuriyet", bolge:"orta-asya", f:"1991-08-31", baskent:"Bişkek", ozet:"Yüksek Sovyet 31 Ağustos 1991'de bağımsızlık ilan etti; Ekim 1991'de Akayev doğrudan seçimle başkan oldu.", kaynak:"https://timesca.com/?p=22509 ; ZAYIF KAYNAK (resmî metin bu turda bulunamadı)", kronoloji:[
-    { t:"1991-08-31", tur:"kurulus", b:"Kırgızistan bağımsızlığını ilan etti.", kaynak:"https://islamansiklopedisi.org.tr/kirgizistan" }
   ] },
 { id:"tacikistan", ad:"Tacikistan", tur:"cumhuriyet", bolge:"orta-asya", f:"1991-09-09", baskent:"Duşanbe", ozet:"Yüksek Sovyet 9 Eylül 1991'de Devlet Bağımsızlığı Bildirisi'ni kabul etti.", kaynak:"https://www.vkd.tj/1032-declaration-of-state-independence.html ; https://tnu.tj/?p=56501", kronoloji:[
-    { t:"1991-09-09", tur:"kurulus", b:"Yüksek Meclis bağımsızlık bildirisini kabul etti.", kaynak:"https://islamansiklopedisi.org.tr/tacikistan" },
     { t:"1991-11-24", tur:"siyaset", b:"Rahman Nebiyev %58 oyla cumhurbaşkanı seçildi.", kaynak:"https://islamansiklopedisi.org.tr/tacikistan" },
     { t:"1992-01-01", tur:"ic-savas", b:"1992'de iç karışıklıklar arttı ve iç savaş başladı; Nebiyev çekilmek zorunda kaldı (yalnız yıl biliniyor).", kaynak:"https://islamansiklopedisi.org.tr/tacikistan" },
     { t:"1992-03-02", tur:"siyaset", b:"Tacikistan Birleşmiş Milletler'e kabul edildi.", kaynak:"https://islamansiklopedisi.org.tr/tacikistan" },
@@ -12348,10 +12592,8 @@ window.DEVLETLER = [
     { t:"1997-06-27", tur:"antlasma", b:"Moskova görüşmeleriyle iç savaş sona erdi, barış sağlandı.", kaynak:"https://islamansiklopedisi.org.tr/tacikistan" }
   ] },
 { id:"turkmenistan", ad:"Türkmenistan", tur:"cumhuriyet", bolge:"orta-asya", f:"1991-10-27", baskent:"Aşkabat", ozet:"26 Ekim 1991 referandumu (%94 evet); Yüksek Konsey 27 Ekim 1991'de Bağımsızlık ve Devlet Düzeninin Temelleri Anayasa Yasası'nı kabul etti.", kaynak:"https://afghanistan.tmembassy.gov.tm/en/news/78070 (Türkmenistan elçiliği)", kronoloji:[
-    { t:"1991-10-27", tur:"kurulus", b:"Türkmenistan Parlamentosu bağımsızlığı ilan etti.", kaynak:"https://islamansiklopedisi.org.tr/turkmenistan" }
   ] },
-{ id:"irlanda-cumhuriyeti", ad:"İrlanda (Éire 1937-12-29 → Cumhuriyet 1949-04-18)", tur:"cumhuriyet", bolge:"bati-avrupa", f:"1937-12-29", baskent:"Dublin", ozet:"1937 Anayasası 29 Aralık 1937'de yürürlüğe girdi (Serbest Devlet kaldırıldı, devlet 'Éire' oldu); Cumhuriyet Yasası 18 Nisan 1949'da yürürlüğe girdi. Mevcut 'irlanda-serbest-devlet' t'si 1937-12-29 olmalı.", kaynak:"https://archontology.org/nations/eire/01_polity.php ; https://merrionstreet.ie/en/news-room/speeches/speech_of_an_taoiseach_leo_varadkar_t_d_70th_anniversary_of_the_republic_royal_irish_academy.html", kronoloji:[
-    { t:"1937-12-29", tur:"kurulus", b:"Yeni Anayasa yürürlüğe girdi; Serbest Devlet kalktı, devlet Éire oldu; Genel Vali makamı kaldırıldı.", kaynak:"https://archontology.org/nations/eire/01_polity.php ; https://en.wikipedia.org/wiki/Douglas_Hyde" },
+{ id:"irlanda-cumhuriyeti", ad:"İrlanda (Éire 1937-12-29 → Cumhuriyet 1949-04-18)", tur:"cumhuriyet", bolge:"bati-avrupa", harita:"irlanda-serbest-devlet", f:"1937-12-29", baskent:"Dublin", ozet:"1937 Anayasası 29 Aralık 1937'de yürürlüğe girdi (Serbest Devlet kaldırıldı, devlet 'Éire' oldu); Cumhuriyet Yasası 18 Nisan 1949'da yürürlüğe girdi. Mevcut 'irlanda-serbest-devlet' t'si 1937-12-29 olmalı.", kaynak:"https://archontology.org/nations/eire/01_polity.php ; https://merrionstreet.ie/en/news-room/speeches/speech_of_an_taoiseach_leo_varadkar_t_d_70th_anniversary_of_the_republic_royal_irish_academy.html", kronoloji:[
     { t:"1938-06-25", tur:"hukumdar", b:"Douglas Hyde ilk Cumhurbaşkanı olarak göreve başladı (1945'e dek).", kaynak:"https://en.wikipedia.org/wiki/Douglas_Hyde ; https://www.markholan.org/archives/17140" },
     { t:"1949-04-18", tur:"siyaset", b:"Cumhuriyet Yasası yürürlüğe girdi; İrlanda resmen cumhuriyet oldu (yasa 1948'de çıkmıştı).", kaynak:"https://merrionstreet.ie/en/news-room/speeches/speech_of_an_taoiseach_leo_varadkar_t_d_70th_anniversary_of_the_republic_royal_irish_academy.html ; https://www.markholan.org/archives/17140" }
   ] },
@@ -12371,7 +12613,6 @@ window.DEVLETLER = [
     { t:"1964-09-21", tur:"son", b:"Malta bağımsızlığını kazandı, Taç Kolonisi dönemi bitti", kaynak:"https://culture-malta.org/maltas-independance/" }
   ] },
 { id:"malta", ad:"Malta (bağımsızlık 1964; Cumhuriyet 1974-12-13)", tur:"devlet", bolge:"italya", f:"1964-09-21", baskent:"Valletta", ozet:"21 Eylül 1964'te Milletler Topluluğu içinde bağımsız; 13 Aralık 1974'te cumhuriyet oldu.", kaynak:"https://www.britannica.com/summary/Malta ; https://culture-malta.org/maltas-independance/", kronoloji:[
-    { t:"1964-09-21", tur:"kurulus", b:"Malta Milletler Topluluğu içinde bağımsız oldu", kaynak:"https://culture-malta.org/maltas-independance/" },
     { t:"1974-12-13", tur:"siyaset", b:"Malta cumhuriyet oldu", kaynak:"https://culture-malta.org/maltas-independance/ ; worldstatesmen.org/Malta.htm (arama özeti)" },
     { t:"1979-03-31", tur:"siyaset", b:"Son İngiliz kuvvetleri adadan ayrıldı (Özgürlük Günü)", kaynak:"https://en.wikipedia.org/wiki/Freedom_Day_(Malta) ve maltatoday.com.mt Freedom Day haberleri (arama özeti)" },
     { t:"1990-07-16", tur:"siyaset", b:"Malta AB'ye tam üyelik başvurusu yaptı", kaynak:"AB genişleme kayıtları — bu oturumda web teyidi yapılamadı" },
@@ -12420,7 +12661,7 @@ window.DEVLETLER = [
     { t:"1948-04-01", tur:"kurulus", b:"Faroe Home Rule Yasası (23 Mart 1948'de kabul) yürürlüğe girdi; adalar Danimarka içinde özerk oldu.", kaynak:"https://trap.fo/en/society-and-business/styre-og-forfatning-pa-faeroerne/" },
     { t:"2005-06-24", tur:"siyaset", b:"Devralma Yasası (No. 578) ve Dış Politika Yasası (No. 579) ile Faroe özyönetimi genişletildi.", kaynak:"https://trap.fo/en/society-and-business/styre-og-forfatning-pa-faeroerne/" }
   ] },
-{ id:"gronland-dan", ad:"Grönland (Danimarka'ya bağlı; 1953 anayasa; 1979 Home Rule)", tur:"bagimlilik", bolge:"kuzey-amerika", f:"1814-01-14", baskent:"Nuuk", ozet:"Kiel Antlaşması (14 Ocak 1814) Norveç'i İsveç'e verirken Grönland'ı Danimarka'da bıraktı; 5 Haziran 1953 anayasasıyla eşit kısım, 1 Mayıs 1979 Home Rule. f = Danimarka egemenliğinin Kiel'de teyidi, kolonizasyonun başlangıcı değil.", kaynak:"https://www.britannica.com/event/Treaty-of-Kiel ; https://worldstatesmen.org/Greenland.html", kronoloji:[
+{ id:"gronland-dan", ad:"Grönland (Danimarka'ya bağlı; 1953 anayasa; 1979 Home Rule)", tur:"bagimlilik", bolge:"kuzey-amerika", harita:"danimarka", f:"1814-01-14", baskent:"Nuuk", ozet:"Kiel Antlaşması (14 Ocak 1814) Norveç'i İsveç'e verirken Grönland'ı Danimarka'da bıraktı; 5 Haziran 1953 anayasasıyla eşit kısım, 1 Mayıs 1979 Home Rule. f = Danimarka egemenliğinin Kiel'de teyidi, kolonizasyonun başlangıcı değil.", kaynak:"https://www.britannica.com/event/Treaty-of-Kiel ; https://worldstatesmen.org/Greenland.html", kronoloji:[
     { t:"1814-01-14", tur:"antlasma", b:"Kiel Antlaşması: Norveç İsveç'e geçti, Grönland Danimarka'da kaldı.", kaynak:"https://www.britannica.com/event/Treaty-of-Kiel ; https://worldstatesmen.org/Greenland.html" },
     { t:"1933-04-05", tur:"antlasma", b:"Uluslararası Adalet Divanı Doğu Grönland'ın Danimarka egemenliğinde olduğuna hükmetti.", kaynak:"Permanent Court of International Justice, Legal Status of Eastern Greenland, 1933" },
     { t:"1941-04-09", tur:"antlasma", b:"Danimarka'nın Washington elçisi Kauffmann ile ABD, Grönland'ın savunması için anlaşma imzaladı.", kaynak:"https://wp.arcticportal.org/?p=64 (1941 ABD koruma anlaşması; gün resmî metne göre)" },
@@ -12453,7 +12694,6 @@ window.DEVLETLER = [
     { t:"1962-08-06", tur:"son", b:"Jamaika bağımsız olur", kaynak:"https://origins.osu.edu/read/jamaican-independence" }
   ] },
 { id:"trinidad-tobago", ad:"Trinidad ve Tobago", tur:"devlet", bolge:"orta-amerika-karayip", f:"1962-08-31", baskent:"Port of Spain", ozet:"31 Ağustos 1962'de bağımsız (1976 cumhuriyet bu turda teyit edilmedi).", kaynak:"https://everything-everywhere.com/why-isnt-the-west-indies-a-single-country/ ; https://uwi.edu/tt.asp ; ZAYIF KAYNAK", kronoloji:[
-    { t:"1962-08-31", tur:"kurulus", b:"Trinidad ve Tobago, Federasyon'un dağılmasının ardından Londra ile görüşmeler sonucu bağımsız oldu.", kaynak:"https://www.ttparliament.org/ctl-stories/1921-1962/ ; https://campusgroups.rit.edu/csa/caribbean-independence-days/" }
   ] },
 { id:"trinidad-tobago-ingiliz", ad:"Trinidad ve Tobago Kolonisi", tur:"somurge", bolge:"orta-amerika-karayip", f:"1889-01-01", t:"1962-08-31", baskent:"Port of Spain", ozet:"1887 Trinidad ve Tobago Yasası ile iki ada tek koloni yapıldı; yürürlük yılı kaynaklarda 1888/1889 arası ayrışıyor (Trinidad 1797'de alındı, 1802 Amiens; Tobago 1814 Paris).", kaynak:"https://eb.com/summary/Trinidad-and-Tobago ; https://uwi.edu/tt.asp ; f YIL DÜZEYİ ve yıl ihtilaflı — alt sınır riskli", kronoloji:[
     { t:"1889-01-01", tur:"birlesme", b:"Trinidad ve Tobago tek koloni olarak birleşir (1887 yasası; yürürlük yılı 1888/1889 ihtilaflı)", kaynak:"https://eb.com/summary/Trinidad-and-Tobago ; lifeintrinidadandtobago.com/our-history/" },
@@ -12470,7 +12710,6 @@ window.DEVLETLER = [
     { t:"1966-11-30", tur:"son", b:"Barbados bağımsız olur; Errol Barrow ilk başbakan", kaynak:"https://www.totallybarbados.com/articles/about-barbados/history/ ; nysenate.gov 5277156" }
   ] },
 { id:"bahamalar", ad:"Bahamalar", tur:"devlet", bolge:"orta-amerika-karayip", f:"1973-07-10", baskent:"Nassau", ozet:"10 Temmuz 1973'te bağımsız (Milletler Topluluğu).", kaynak:"https://atlasocio.com/classements/politique/nations/liste-etats-date-independance-amerique.php ; https://campusgroups.rit.edu/csa/caribbean-independence-days/ ; ZAYIF KAYNAK", kronoloji:[
-    { t:"1973-07-10", tur:"kurulus", b:"Bahamalar, Lynden Pindling başbakanlığında Prens Charles'ın anayasal belgeleri teslimiyle bağımsız oldu.", kaynak:"https://www.grandbahamamuseum.org/new-to-the-museum/fifty-years-of-independence ; https://www.worldatlas.com/articles/when-did-the-bahamas-gain-independence-from-the-united-kingdom.html" }
   ] },
 { id:"bahama-ingiliz", ad:"Bahama Adaları Kolonisi", tur:"somurge", bolge:"orta-amerika-karayip", f:"1718-01-01", t:"1973-07-10", baskent:"Nassau", ozet:"1717'de lord proprietor'lar adaları Taç'a iade etti; Woodes Rogers 1718'de kraliyet valisi olarak geldi (varış günü kaynaklarda 25/26 Temmuz, ihtilaflı). Yıl düzeyi.", kaynak:"https://www.falklandsbiographies.org/biographies/rogers_woodes ; https://qaronline.org/blog/2018-07-25/did-you-know-woodes-rogers-first-royal-governor", kronoloji:[
     { t:"1718-01-01", tur:"hukumdar", b:"Woodes Rogers ilk kraliyet valisi olarak gelir, korsanlara af ya da darağacı sunar (yıl düzeyi; Temmuz günü ihtilaflı)", kaynak:"https://www.falklandsbiographies.org/biographies/rogers_woodes ; bahighco.ca/discover/the-bahamas" },
@@ -12508,8 +12747,7 @@ window.DEVLETLER = [
     { t:"1986-12-16", tur:"siyaset", b:"Ülkenin adı 'Saint Christopher and Nevis'ten 'Saint Kitts and Nevis'e çevrildi.", kaynak:"https://www.un.org/en/about-us/member-states/saint-kitts-and-nevis" }
   ] },
 { id:"belize", ad:"Belize", tur:"devlet", bolge:"orta-amerika-karayip", f:"1981-09-21", baskent:"Belmopan", ozet:"21 Eylül 1981'de bağımsız; Guatemala'nın talebi nedeniyle İngiliz birlikleri kaldı. Mevcut 'ingiliz-hondurasi' t'si 1981-09-21 olmalı.", kaynak:"https://www.indexmundi.com/belize/independence.html ; https://mofa.gov.bs/congratulations-extended-belize-celebrating-independence/", kronoloji:[
-    { t:"1981-03-11", tur:"antlasma", b:"Britanya, Guatemala ve Belize 'Heads of Agreement' metnini imzaladı; Belize'de geniş tepki gördü, Guatemala müzakereden çekildi.", kaynak:"https://www.britannica.com/place/Belize/Independence ; https://en.wikipedia.org/wiki/Heads_of_Agreement_(1981) (ikincil)" },
-    { t:"1981-09-21", tur:"kurulus", b:"Belize, Guatemala talebi çözülmeden ve İngiliz savunma güvencesiyle bağımsız oldu.", kaynak:"https://www.britannica.com/place/Belize/Independence" }
+    { t:"1981-03-11", tur:"antlasma", b:"Britanya, Guatemala ve Belize 'Heads of Agreement' metnini imzaladı; Belize'de geniş tepki gördü, Guatemala müzakereden çekildi.", kaynak:"https://www.britannica.com/place/Belize/Independence ; https://en.wikipedia.org/wiki/Heads_of_Agreement_(1981) (ikincil)" }
   ] },
 { id:"guyana", ad:"Guyana (Kooperatif Cumhuriyeti 1970-02-23)", tur:"devlet", bolge:"guney-amerika", f:"1966-05-26", baskent:"Georgetown", ozet:"26 Mayıs 1966'da bağımsız. Mevcut 'ingiliz-guyanasi' t'si 1966-05-26 olmalı. 1970 cumhuriyet günü teyit edilmedi.", kaynak:"https://revistas.usp.br/revusp/article/view/191462 ; https://atlasocio.com/classements/politique/nations/liste-etats-date-independance-amerique.php", kronoloji:[
     { t:"1966-05-26", tur:"kurulus", b:"Guyana İngiltere'den bağımsızlığını kazandı.", kaynak:"https://revistas.usp.br/revusp/article/view/191462; Britannica 'Guyana: History'" },
@@ -12520,7 +12758,6 @@ window.DEVLETLER = [
     { t:"1992-10-05", tur:"siyaset", b:"Serbest seçimlerde Cheddi Jagan kazandı; 28 yıllık PNC iktidarı sona erdi.", kaynak:"Britannica 'Cheddi Jagan' (gün teyit edilmedi)" }
   ] },
 { id:"surinam", ad:"Surinam (bağımsız)", tur:"devlet", bolge:"guney-amerika", f:"1975-11-25", baskent:"Paramaribo", ozet:"22 Kasım 1975 Krallık Yasası'yla bağlar kesildi, 25 Kasım 1975'te bağımsız. Mevcut 'hollanda-guyanasi' t'si 1975-11-25 (statü 1954-12-15'ten beri Krallık içinde eşit ülke).", kaynak:"https://revistas.usp.br/revusp/article/view/191462 ; https://en.wikipedia.org/wiki/Charter_for_the_Kingdom_of_the_Netherlands (ZAYIF KAYNAK)", kronoloji:[
-    { t:"1975-11-25", tur:"kurulus", b:"Surinam Hollanda Krallığı'ndan bağımsızlığını kazandı.", kaynak:"https://revistas.usp.br/revusp/article/view/191462; Britannica 'Suriname: History'" },
     { t:"1980-02-25", tur:"siyaset", b:"Çavuşlar darbesi: Desi Bouterse yönetimi ele geçirdi.", kaynak:"Britannica 'Suriname: History' (gün teyit edilmedi)" },
     { t:"1982-12-08", tur:"felaket", b:"Aralık cinayetleri: askeri yönetim 15 muhalifi öldürdü.", kaynak:"Britannica 'Suriname: History' (gün teyit edilmedi)" },
     { t:"1987-09-30", tur:"siyaset", b:"Halk oylamasıyla yeni anayasa kabul edildi.", kaynak:"Britannica 'Suriname: History' (gün teyit edilmedi)" },
@@ -12534,7 +12771,7 @@ window.DEVLETLER = [
 { id:"aruba-ozerk", ad:"Aruba (ayrı ülke statüsü)", tur:"ozerk-ulke", bolge:"orta-amerika-karayip", f:"1986-01-01", baskent:"Oranjestad", ozet:"1 Ocak 1986'da Hollanda Antilleri'nden ayrılarak Krallık içinde ayrı ülke oldu; statü 1996'dan itibaren süresiz.", kaynak:"https://en.wikipedia.org/wiki/Dissolution_of_the_Netherlands_Antilles (ZAYIF KAYNAK)", kronoloji:[
     { t:"1986-01-01", tur:"kurulus", b:"Aruba Hollanda Antilleri'nden ayrılarak Hollanda Krallığı içinde ayrı ülke (status aparte) oldu.", kaynak:"https://en.wikipedia.org/wiki/Status_aparte ; https://www.upi.com/Archives/1985/12/31/Caribbean-News-Briefs/5179504853200/ (ZAYIF KAYNAK)" }
   ] },
-{ id:"puerto-riko", ad:"Porto Riko (ABD yönetimi → Commonwealth 1952-07-25)", tur:"bagimlilik", bolge:"orta-amerika-karayip", f:"1899-04-11", baskent:"San Juan", ozet:"Paris Antlaşması 10 Aralık 1898'de imzalandı, onay belgelerinin değişimiyle 11 Nisan 1899'da yürürlüğe girdi (askerî yönetim Ekim 1898-1900); Commonwealth anayasası 25 Temmuz 1952'de ilan edildi. Aday f 1898-12-10 imza günüdür.", kaynak:"https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898) (ZAYIF KAYNAK) ; https://www.everycrsreport.com/reports/97-526.html (CRS, Puerto Rico: A Chronology of Political Status History) ; https://history.state.gov/historicaldocuments/frus1952-54v03/d901", kronoloji:[
+{ id:"puerto-riko", ad:"Porto Riko (ABD yönetimi → Commonwealth 1952-07-25)", tur:"bagimlilik", bolge:"orta-amerika-karayip", harita:"abd", f:"1899-04-11", baskent:"San Juan", ozet:"Paris Antlaşması 10 Aralık 1898'de imzalandı, onay belgelerinin değişimiyle 11 Nisan 1899'da yürürlüğe girdi (askerî yönetim Ekim 1898-1900); Commonwealth anayasası 25 Temmuz 1952'de ilan edildi. Aday f 1898-12-10 imza günüdür.", kaynak:"https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898) (ZAYIF KAYNAK) ; https://www.everycrsreport.com/reports/97-526.html (CRS, Puerto Rico: A Chronology of Political Status History) ; https://history.state.gov/historicaldocuments/frus1952-54v03/d901", kronoloji:[
     { t:"1899-04-11", tur:"antlasma", b:"Paris Antlaşması yürürlüğe girer, Porto Riko ABD'ye geçer", kaynak:"künye; https://www.everycrsreport.com/reports/97-526.html (imza 10 Aralık 1898 verir; 11 Nisan günü CRS metninde görülmedi)" },
     { t:"1900-04-12", tur:"siyaset", b:"Foraker Yasası askerî yönetimi bitirir, sivil yönetim ve Resident Commissioner", kaynak:"https://www.everycrsreport.com/reports/97-526.html" },
     { t:"1917-03-02", tur:"siyaset", b:"Jones Yasası Porto Rikolulara ABD vatandaşlığı verir", kaynak:"https://www.everycrsreport.com/reports/97-526.html" },
@@ -12569,8 +12806,7 @@ window.DEVLETLER = [
     { t:"1948-03-11", tur:"siyaset", b:"Londra, referandum seçeneklerini açıkladı: Komisyon, Konfederasyon, 1933 sorumlu hükûmeti.", kaynak:"https://www.heritage.nf.ca/articles/politics/confederation-glossary.php" },
     { t:"1948-06-03", tur:"siyaset", b:"Birinci referandum yapıldı; çoğunluk çıkmadı.", kaynak:"https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation" },
     { t:"1948-07-22", tur:"siyaset", b:"İkinci tur referandum; Konfederasyon %52,3 ile kazandı.", kaynak:"https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation" },
-    { t:"1948-12-11", tur:"antlasma", b:"Kanada-Newfoundland Birlik Şartları imzalandı.", kaynak:"https://www.heritage.nf.ca/articles/politics/confederation-glossary.php (gün genel bilgi, kaynakta kısmen doğrulanamadı)" },
-    { t:"1949-03-31", tur:"son", b:"Newfoundland Kanada'nın 10. eyaleti oldu; Komisyon Hükûmeti sona erdi.", kaynak:"https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation" }
+    { t:"1948-12-11", tur:"antlasma", b:"Kanada-Newfoundland Birlik Şartları imzalandı.", kaynak:"https://www.heritage.nf.ca/articles/politics/confederation-glossary.php (gün genel bilgi, kaynakta kısmen doğrulanamadı)" }
   ] },
 { id:"falkland-ingiliz", ad:"Falkland (Malvinas) Adaları (İngiliz)", tur:"bagimlilik", bolge:"guney-amerika", f:"1833-01-03", baskent:"Stanley", ozet:"İngiltere adaları Aralık 1832-Ocak 1833'te yeniden işgal etti; Arjantin iddiası sürüyor. 3 Ocak günü bu turda ikinci kaynakla teyit EDİLEMEDİ (Cambridge/Albion: 'Aralık 1832 ve Ocak 1833').", kaynak:"https://resolve.cambridge.org/core/journals/albion/article/british-reoccupation-and-colonization-of-the-falkland-islands-or-malvinas-18321843/263A7F773FAB9ACB171947EED7093BE9", kronoloji:[
     { t:"1833-01-03", tur:"kurulus", b:"İngiltere Falkland Adaları'nı yeniden işgal ederek yönetimi yeniden kurdu.", kaynak:"Cambridge/Albion 'British reoccupation and colonization of the Falkland Islands' (kaynak 'Aralık 1832-Ocak 1833' diyor; 3 Ocak günü teyit edilmedi)" },
@@ -12733,11 +12969,13 @@ window.DEVLETLER = [
     { t:"1077-04-03", tur:"kurulus", b:"Patrik Sigehard kontluk haklarını alır; Friuli'de patriklik devleti başlar.", kaynak:"Slovenya Üniv. repozitorij https://repozitorij.uni-lj.si/IzpisGradiva.php?id=131972 ; regionestoriafvg.eu 'Il patriarcato d'Aquileia nel basso medioevo' PDF; gün 3 Nisan 1077 arama özetinde (Sigehard kaynağı), metin okunamadı" },
     { t:"1418-01-01", tur:"savas", b:"Venedik beş yıllık ateşkesten sonra Friuli'yi işgale başlar (Nisan 1418).", kaynak:"dium.uniud.it Caduta patriarcato https://dium.uniud.it/documents/1963/Caduta_patriarcato_MV1.pdf ; Zannini makalesi (arama özeti)" }
   ] },
-{ id:"salo-cumhuriyeti", ad:"İtalyan Sosyal Cumhuriyeti (Salò)", tur:"kukla-devlet", bolge:"italya", f:"1943-09-23", t:"1945-04-25", baskent:"Salò", ozet:"Alman himayesinde Mussolini'nin kurduğu devlet; Nisan 1945 sonunda çöktü (t: 25 Nisan ayaklanma günü, fiilî çöküş 27-28 Nisan). Mevcut 'italya' ile çakışır.", kaynak:"NS-Dokumentationszentrum München 'RSI' sözlüğü; Reading Üniv. Salò Republic Collection; Bosworth", kronoloji:[
+{ id:"salo-cumhuriyeti", ad:"İtalyan Sosyal Cumhuriyeti (Salò)", tur:"kukla-devlet", bolge:"italya", f:"1943-09-23", t:"1945-04-28", baskent:"Salò", ozet:"Alman himayesinde Mussolini'nin kurduğu devlet; Nisan 1945 sonunda çöktü (t: 25 Nisan ayaklanma günü, fiilî çöküş 27-28 Nisan). Mevcut 'italya' ile çakışır.", kaynak:"NS-Dokumentationszentrum München 'RSI' sözlüğü; Reading Üniv. Salò Republic Collection; Bosworth", kronoloji:[
     { t:"1943-09-23", tur:"kurulus", b:"Mussolini İtalyan Sosyal Cumhuriyeti'ni (Salò) Alman himayesinde kurdu.", kaynak:"NS-Dokumentationszentrum München, RSI sözlüğü; Britannica 'Italian Social Republic'" },
     { t:"1944-01-08", tur:"siyaset", b:"Verona duruşması başladı: 1943'te Mussolini'ye karşı oy veren Büyük Faşist Konsey üyeleri yargılandı.", kaynak:"Wikipedia 'Verona trial' (ikincil); thecollector.com 'The Italian Social Republic'" },
     { t:"1944-01-11", tur:"siyaset", b:"Verona mahkûmlarından Ciano dahil beşi idam edildi (Cianetti hariç).", kaynak:"Wikipedia 'Verona trial' (ikincil)" },
-    { t:"1945-04-25", tur:"son", b:"Milano'da ayaklanma günü RSI çöktü; Mussolini 27 Nisan'da yakalandı, 28 Nisan'da idam edildi.", kaynak:"Wikipedia 'Death of Benito Mussolini' (ikincil); history.com 'Benito Mussolini Executed'" }
+    { t:"1945-04-25", tur:"son", b:"Milano'da ayaklanma günü RSI çöktü; Mussolini 27 Nisan'da yakalandı, 28 Nisan'da idam edildi.", kaynak:"Wikipedia 'Death of Benito Mussolini' (ikincil); history.com 'Benito Mussolini Executed'" },
+    { t:"1945-04-27", tur:"siyaset", b:"Mussolini Dongo yakınında partizanlarca yakalandı.", kaynak:"https://en.wikipedia.org/wiki/Death_of_Benito_Mussolini" },
+    { t:"1945-04-28", tur:"son", b:"Mussolini ve Clara Petacci idam edildi; Salò Cumhuriyeti fiilen sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Death_of_Benito_Mussolini" }
   ] },
 { id:"fiume-serbest-devleti", ad:"Fiume Serbest Devleti", tur:"serbest-devlet", bolge:"balkanlar", f:"1920-11-12", t:"1924-01-27", baskent:"Fiume (Rijeka)", ozet:"12 Kasım 1920 Rapallo Antlaşması ile serbest devlet; 27 Ocak 1924 Roma Antlaşması ile Fiume İtalya'ya, Sušak Yugoslavya'ya. (Vikipedi: yürürlük 22 Şubat 1924)", kaynak:"Britannica 'Fiume question' (Rapallo 12 Kasım 1920, Roma 27 Ocak 1924)", kronoloji:[
     { t:"1920-11-12", tur:"kurulus", b:"Rapallo Antlaşması ile İtalya ve SHS Krallığı Fiume Serbest Devleti'nin bağımsızlığını tanıdı.", kaynak:"Britannica 'Fiume question' (künyede; 403 nedeniyle doğrudan okunamadı); https://granice.ppmhp.hr/?p=2582" },
@@ -12989,20 +13227,25 @@ window.DEVLETLER = [
     { t:"1939-03-20", tur:"isgal", b:"Ribbentrop Litvanya'ya bölgenin devri için sözlü ültimatom verdi.", kaynak:"https://wikipedia.com/wiki/Memel_Crisis (ikincil)" },
     { t:"1939-03-23", tur:"son", b:"Litvanya ültimatomu kabul etti; Memel Almanya'ya devredildi.", kaynak:"https://wikipedia.com/wiki/Memel_Crisis (ikincil)" }
   ] },
-{ id:"polonya-genel-hukumeti", ad:"Polonya Genel Hükûmeti", tur:"isgal-idaresi", bolge:"dogu-avrupa", f:"1939-10-26", t:"1945-01-18", baskent:"Krakov", ozet:"Hitler'in 12 Ekim 1939 kararnamesiyle kuruldu; 26 Ekim 1939'da sivil idare (Hans Frank). Ocak 1945 Sovyet ilerleyişiyle çözüldü. t günü [g?].", kaynak:"USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland'", kronoloji:[
+{ id:"polonya-genel-hukumeti", ad:"Polonya Genel Hükûmeti", tur:"isgal-idaresi", bolge:"dogu-avrupa", harita:"polonya", f:"1939-10-26", t:"1945-01-17", baskent:"Krakov", ozet:"Hitler'in 12 Ekim 1939 kararnamesiyle kuruldu; 26 Ekim 1939'da sivil idare (Hans Frank). Ocak 1945 Sovyet ilerleyişiyle çözüldü. t günü [g?].", kaynak:"USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland'", kronoloji:[
     { t:"1939-10-26", tur:"kurulus", b:"Hans Frank başında Alman sivil idaresi olarak Genel Hükûmet göreve başladı.", kaynak:"https://encyclopedia.ushmm.org/tags/en/tag/hans-frank (Frank'in atanması, gün ikincil kaynakta)" },
     { t:"1940-12-09", tur:"siyaset", b:"Genel Vali Ofisi 'Genel Hükûmet Hükûmeti' adını aldı.", kaynak:"https://en.wikipedia.org/wiki/General_Government_administration (ikincil)" },
-    { t:"1941-08-01", tur:"toprak-kazanc", b:"Galiçya Bölgesi (Lviv) Genel Hükûmet'e eklendi.", kaynak:"USHMM Holocaust Encyclopedia 'General Government' (gün arama sonuçlarında doğrulanamadı)" }
+    { t:"1941-08-01", tur:"toprak-kazanc", b:"Galiçya Bölgesi (Lviv) Genel Hükûmet'e eklendi.", kaynak:"USHMM Holocaust Encyclopedia 'General Government' (gün arama sonuçlarında doğrulanamadı)" },
+    { t:"1945-01-17", tur:"son", b:"Hans Frank ve Genel Hükûmet idaresi Kraków'dan kaçtı; idare fiilen çözüldü.", kaynak:"https://encyclopedia.ushmm.org/content/en/article/krakow-key-dates" },
+    { t:"1945-01-19", tur:"toprak-kayip", b:"Sovyet birlikleri idarenin başkenti Kraków'a girdi.", kaynak:"https://encyclopedia.ushmm.org/content/en/article/krakow-key-dates" }
   ] },
-{ id:"ostland", ad:"Reichskommissariat Ostland", tur:"isgal-idaresi", bolge:"dogu-avrupa", f:"1941-07-28", t:"1944-10-01", baskent:"Riga", ozet:"Baltık ülkeleri ve Belarus'u kapsayan Alman sivil idaresi; USHMM kuruluşu 28 Temmuz 1941 verir (aday 25 Temmuz). Riga 1944 sonbaharında düştü. t günü [g?].", kaynak:"USHMM 'Riga'/'Latvia'; Britannica 'Ostland'", kronoloji:[
+{ id:"ostland", ad:"Reichskommissariat Ostland", tur:"isgal-idaresi", bolge:"dogu-avrupa", f:"1941-07-28", t:"1944-10-13", baskent:"Riga", ozet:"Baltık ülkeleri ve Belarus'u kapsayan Alman sivil idaresi; USHMM kuruluşu 28 Temmuz 1941 verir (aday 25 Temmuz). Riga 1944 sonbaharında düştü. t günü [g?].", kaynak:"USHMM 'Riga'/'Latvia'; Britannica 'Ostland'", kronoloji:[
     { t:"1941-07-28", tur:"kurulus", b:"Hinrich Lohse başında Ostland Reichskommissariat'ı sivil idareye geçti.", kaynak:"USHMM (künye günü); Führer kararı 17 Temmuz 1941 https://en.wikipedia.org/wiki/Reichskommissariat_Ostland (ikincil)" },
     { t:"1941-09-01", tur:"toprak-kazanc", b:"Letonya Ostland'a bağlandı.", kaynak:"EHRI https://portal.ehri-project.eu/units/lv-002871-p_70" },
     { t:"1941-12-05", tur:"toprak-kazanc", b:"Estonya Ostland'a bağlandı.", kaynak:"EHRI https://portal.ehri-project.eu/units/lv-002871-p_70" },
-    { t:"1944-10-01", tur:"son", b:"Riga'nın Sovyetlerce alınmasıyla idare çöktü.", kaynak:"Künye kaynağı: USHMM/Britannica (gün [g?])" }
+    { t:"1944-10-01", tur:"son", b:"Riga'nın Sovyetlerce alınmasıyla idare çöktü.", kaynak:"Künye kaynağı: USHMM/Britannica (gün [g?])" },
+    { t:"1944-09-26", tur:"hukumdar", b:"Reichskommissar Hinrich Lohse görevi bıraktı; yerine Erich Koch geçti (Yad Vashem/EHRI kaydı).", kaynak:"https://portal.ehri-project.eu/units/lv-002871-p_70" },
+    { t:"1944-10-13", tur:"son", b:"Sovyetler Riga'yı aldı; Letonya Genel Bölgesi dağıldı, Ostland çöktü (Kurland cebi hariç).", kaynak:"https://en.wikipedia.org/wiki/Reichskommissariat_Ostland" }
   ] },
-{ id:"alman-ukrayna", ad:"Reichskommissariat Ukraine", tur:"isgal-idaresi", bolge:"dogu-avrupa", f:"1941-09-01", t:"1944-03-01", baskent:"Rivne", ozet:"Koch yönetiminde Alman sivil idaresi; EoU kuruluşu 20 Ağustos, USHMM 1 Eylül 1941 verir (idarenin devri 1 Eylül). Rivne 1944'te Sovyetlerce geri alındı. t günü [g?].", kaynak:"Encyclopedia of Ukraine 'Rivne'/'Koch, Erich'; USHMM 'Kiev and Babi Yar'", kronoloji:[
+{ id:"alman-ukrayna", ad:"Reichskommissariat Ukraine", tur:"isgal-idaresi", bolge:"dogu-avrupa", f:"1941-09-01", t:"1944-11-10", baskent:"Rivne", ozet:"Koch yönetiminde Alman sivil idaresi; EoU kuruluşu 20 Ağustos, USHMM 1 Eylül 1941 verir (idarenin devri 1 Eylül). Rivne 1944'te Sovyetlerce geri alındı. t günü [g?].", kaynak:"Encyclopedia of Ukraine 'Rivne'/'Koch, Erich'; USHMM 'Kiev and Babi Yar'", kronoloji:[
     { t:"1941-09-01", tur:"kurulus", b:"Erich Koch başında Reichskommissariat Ukraine'de sivil idare başladı; merkez Rovno.", kaynak:"https://en.wikipedia.org/wiki/Reichskommissariat_Ukraine ; https://elibrary.duncker-humblot.com/book-chapter/1387/download" },
-    { t:"1944-03-01", tur:"son", b:"Sovyet ilerleyişiyle idare fiilen sona erdi.", kaynak:"Künye kaynağı: Encyclopedia of Ukraine 'Rivne' (gün [g?])" }
+    { t:"1944-03-01", tur:"son", b:"Sovyet ilerleyişiyle idare fiilen sona erdi.", kaynak:"Künye kaynağı: Encyclopedia of Ukraine 'Rivne' (gün [g?])" },
+    { t:"1944-11-10", tur:"son", b:"Reichskommissariat Ukraine resmen tasfiye edildi.", kaynak:"https://www.encyclopediaofukraine.com/pages%5CR%5CE%5CReichskommissariatUkraine.htm" }
   ] },
 { id:"kraliyet-prusyasi", ad:"Kraliyet (Polonya) Prusyası", tur:"polonya-eyaleti", bolge:"dogu-avrupa", f:"1466-10-19", t:"1772-09-13", baskent:"Malbork / Gdańsk", ozet:"II. Toruń Antlaşması (19 Ekim 1466) ile Töton Tarikatı'ndan Polonya'ya geçti, kendi diyeti ve idaresini korudu; 1772 I. Bölüşüm'de Prusya aldı (Gdańsk hariç, 1793). t günü [g?].", kaynak:"Britannica 'Treaty of Toruń'; Britannica/encyclopedia.com 'Frederick II'", kronoloji:[
     { t:"1454-02-21", tur:"isyan", b:"Prusya Konfederasyonu Töton Tarikatı'na karşı ayaklandı, Polonya Kralı'ndan koruma istedi", kaynak:"https://en.wikipedia.org/wiki/Prussian_Confederation ; https://ebsco.com/research-starters/history/second-peace-thorn" },
@@ -13192,8 +13435,7 @@ window.DEVLETLER = [
 { id:"zakafkasya-sfsc", ad:"Zakafkasya Sosyalist Federatif Sovyet Cumhuriyeti", tur:"federasyon", bolge:"kafkasya", f:"1922-03-12", t:"1936-12-05", baskent:"Tiflis", ozet:"Federasyon Mart 1922'de, tek federal cumhuriyet Aralık 1922'de (encyclopedia.com: Şubat/Aralık 1922); 1936 Stalin anayasasıyla Ermenistan, Azerbaycan, Gürcistan SSC'lerine ayrıldı. Gün alanları [g?].", kaynak:"encyclopedia.com 'Transcaucasian Federations'; Britannica 'Soviet Union'", kronoloji:[
     { t:"1922-03-12", tur:"kurulus", b:"Ermenistan, Azerbaycan ve Gürcistan SSC'leri Zakafkasya Federatif Birliği'nde birleşti.", kaynak:"Georgian Encyclopedia https://georgianencyclopedia.ge/en/form_eng/286 ; Wikipedia 'Transcaucasian SFSR' (ikincil)" },
     { t:"1922-12-13", tur:"birlesme", b:"Birinci Zakafkasya Sovyetler Kongresi federasyonu tek federal devlet (ZSFSC) haline getirdi.", kaynak:"Wikipedia 'Transcaucasian SFSR'; russiasperiphery.pages.wm.edu" },
-    { t:"1922-12-30", tur:"birlesme", b:"ZSFSC, SSCB'nin kurucu üyelerinden biri oldu.", kaynak:"Wikipedia 'Transcaucasian SFSR' (ikincil)" },
-    { t:"1936-12-05", tur:"son", b:"1936 SSCB Anayasası ile ZSFSC kaldırıldı; Ermenistan, Azerbaycan, Gürcistan doğrudan birlik cumhuriyeti oldu.", kaynak:"soviethistory.msu.edu 'Dissolution of the Transcaucasian Federation' https://soviethistory.msu.edu/1936/creation-of-the-ethnic-republics/creation-of-the-ethnic-republics-texts/dissolution-of-the-transcaucasian-federation/" }
+    { t:"1922-12-30", tur:"birlesme", b:"ZSFSC, SSCB'nin kurucu üyelerinden biri oldu.", kaynak:"Wikipedia 'Transcaucasian SFSR' (ikincil)" }
   ] },
 { id:"guney-rusya-beyaz", ad:"Güney Rusya Silahlı Kuvvetleri ve Hükûmeti (Denikin → Wrangel)", tur:"beyaz-hareket-devleti", bolge:"dogu-avrupa", f:"1919-01-08", t:"1920-11-14", baskent:"Ekaterinodar → Sivastopol", ozet:"Denikin AFSR başkomutanı (1919 başı); Wrangel Mart 1920'de devraldı, Kasım 1920'de Kırım'dan tahliye. Devlet niteliği tartışmalı (askerî-sivil idare). Gün alanları [g?].", kaynak:"Britannica 'Anton Ivanovich Denikin', 'Russian Civil War'; encyclopedia.com 'Wrangel'", kronoloji:[
     { t:"1919-01-08", tur:"kurulus", b:"Denikin, Gönüllü Ordu ile Don Ordusu'nu birleştirip Güney Rusya Silahlı Kuvvetleri başkomutanlığını aldı.", kaynak:"Britannica 'Anton Ivanovich Denikin' (gün ikincil; doğrulanmadı)" },
@@ -13470,24 +13712,27 @@ window.DEVLETLER = [
     { t:"1939-12-02", tur:"antlasma", b:"Molotov ve Kuusinen Moskova'da SSCB-Finlandiya Demokratik Cumhuriyeti Karşılıklı Yardım ve Dostluk Antlaşması'nı imzaladı.", kaynak:"https://en.wikipedia.org/wiki/Finnish_Democratic_Republic" },
     { t:"1940-03-12", tur:"son", b:"Moskova Barışı imzalandı; Terijoki hükûmeti feshedilip Karelo-Fin SSC'ye katıldı.", kaynak:"https://en.wikipedia.org/wiki/Finnish_Democratic_Republic ; https://talvisota.fi/en/the-winter-war/" }
   ] },
-{ id:"sirbistan-nedic", ad:"Sırbistan Millî Kurtuluş Hükûmeti (Nedić)", tur:"kukla-yonetim", bolge:"balkanlar", f:"1941-08-29", t:"1944-10-04", baskent:"Belgrad", ozet:"Alman Askerî Komutanlığı altındaki Sırbistan'da Komiser Hükûmeti yerine kurulan Nedić yönetimi; Ekim 1944'te Belgrad'ın Kızıl Ordu/Partizanlarca alınmasına doğru çözüldü.", kaynak:"Wikipedia 'Government of National Salvation', 'Territory of the Military Commander in Serbia'; Belgrad Şehir Arşivi (stalnapostavka.arhiv-beograda.org). ic_not: aday t 20 Ekim 1944 = Belgrad Taarruzu sonu; kaynaklarda hükûmet 3/4 Ekim 1944'te bitiyor; yönetim evrelendi: 3 Eylül 1944 Alman komutan işlevleri devraldı.", kronoloji:[
+{ id:"sirbistan-nedic", ad:"Sırbistan Millî Kurtuluş Hükûmeti (Nedić)", tur:"kukla-yonetim", bolge:"balkanlar", f:"1941-08-29", t:"1944-10-06", baskent:"Belgrad", ozet:"Alman Askerî Komutanlığı altındaki Sırbistan'da Komiser Hükûmeti yerine kurulan Nedić yönetimi; Ekim 1944'te Belgrad'ın Kızıl Ordu/Partizanlarca alınmasına doğru çözüldü.", kaynak:"Wikipedia 'Government of National Salvation', 'Territory of the Military Commander in Serbia'; Belgrad Şehir Arşivi (stalnapostavka.arhiv-beograda.org). ic_not: aday t 20 Ekim 1944 = Belgrad Taarruzu sonu; kaynaklarda hükûmet 3/4 Ekim 1944'te bitiyor; yönetim evrelendi: 3 Eylül 1944 Alman komutan işlevleri devraldı.", kronoloji:[
     { t:"1941-08-29", tur:"kurulus", b:"Alman komutanlığı Milan Nedić başkanlığında Millî Kurtuluş Hükûmeti'ni kurdu.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html" },
     { t:"1943-10-01", tur:"siyaset", b:"Nedić içişleri bakanlığını bizzat devraldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html" },
     { t:"1944-09-03", tur:"siyaset", b:"Gizli kabine toplantısında Alman Güneydoğu komutanlığı hükûmetin bütün işlevlerini devraldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html" },
-    { t:"1944-10-04", tur:"son", b:"Hükûmet Belgrad'dan Macaristan üzerinden tahliye edilerek dağıldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html (Ekim 1944 ilk haftası); gün 4 Ekim: ikincil Vikipedi 'Government of National Salvation'" }
+    { t:"1944-10-04", tur:"son", b:"Hükûmet Belgrad'dan Macaristan üzerinden tahliye edilerek dağıldı.", kaynak:"https://stalnapostavka.arhiv-beograda.org/en/chapters/20th-century-century-of-mass-suffering/collaboration-government.html (Ekim 1944 ilk haftası); gün 4 Ekim: ikincil Vikipedi 'Government of National Salvation'" },
+    { t:"1944-10-06", tur:"son", b:"Nedić ve hükûmeti Belgrad'dan ayrıldı; hükûmet fiilen sona erdi (halef Ivan Petković göreve başlamadı).", kaynak:"https://archontology.org/nations/serbia/00_1941_44_s.php" }
   ] },
 { id:"italyan-karadag", ad:"Karadağ İtalyan Valiliği", tur:"isgal-idaresi", bolge:"balkanlar", f:"1941-10-03", t:"1943-09-12", baskent:"Cetinje", ozet:"Nisan 1941 işgali sonrası kurulacak Karadağ krallığı planı Temmuz ayaklanmasıyla bırakılınca 3 Ekim 1941'de kurulan İtalyan askerî valiliği (Pirzio Biroli); İtalya'nın teslimi sonrası Alman işgali.", kaynak:"Wikipedia 'Italian governorate of Montenegro'; francoangeli.it (tarihyazım makalesi, başlık düzeyinde). ic_not: aday f 12 Ekim 1941 kaynaksız; t Vikipedi bilgi kutusu 12 Eylül 1943 (Alman işgali), başka kaynak 26 Eylül; civil komiser S. Mazzolini 1941.", kronoloji:[
     { t:"1941-12-01", tur:"savas", b:"Pljevlja Muharebesi: Temmuz ayaklanmasının sürdüğü son büyük çatışma.", kaynak:"https://en.wikipedia.org/wiki/Uprising_in_Montenegro_(1941) (ikincil); https://istorijskizapisi.me/wp-content/uploads/2022/04/06-D-Stanic-37-50.pdf (ayrıntı doğrulanmadı)" },
     { t:"1942-07-24", tur:"siyaset", b:"Çetnik/işbirlikçi komitesi kuruldu; İtalyan Dışişleri'nin itirazıyla gecikmişti.", kaynak:"https://en.wikipedia.org/wiki/Alessandro_Pirzio_Biroli (ikincil)" },
-    { t:"1943-09-12", tur:"son", b:"İtalya'nın teslimi sonrası Karadağ Alman işgaline geçti, valilik sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Italian_governorate_of_Montenegro (ikincil); https://www.francoangeli.it/riviste/articolo/41453" }
+    { t:"1943-09-12", tur:"son", b:"İtalya'nın teslimi sonrası Karadağ Alman işgaline geçti, valilik sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Italian_governorate_of_Montenegro (ikincil); https://www.francoangeli.it/riviste/articolo/41453" },
+    { t:"1943-09-12", tur:"isgal", b:"Cassibile ateşkesi sonrası Almanya, İtalyan Karadağ Valiliği topraklarını işgal etti.", kaynak:"https://en.wikipedia.org/wiki/German-occupied_territory_of_Montenegro" }
   ] },
 { id:"ljubljana-ili", ad:"Ljubljana İli (İtalyan)", tur:"ilhak-bolgesi", bolge:"balkanlar", f:"1941-05-03", t:"1943-09-08", baskent:"Ljubljana", ozet:"3 Mayıs 1941'de İtalya'nın Slovenya'nın Ljubljana bölgesini ilhakıyla kurulan il; 8 Eylül 1943 sonrası fiilen Alman OZAK idaresi (resmen 9 Mayıs 1945'e dek).", kaynak:"Wikipedia 'Province of Ljubljana', 'Operational Zone of the Adriatic Littoral'; okupacijskemeje.si, sistory.si. ic_not: hukuken il 9 Mayıs 1945'e dek; 1943 sonrası fiilen OZAK (10 Eylül 1943).", kronoloji:[
     { t:"1941-05-03", tur:"toprak-kazanc", b:"İtalya, Ljubljana Eyaletini kararnameyle Krallığa ilhak etti.", kaynak:"https://okupacijskemeje.si/en-exh01-ch02.html" },
-    { t:"1943-09-08", tur:"son", b:"İtalya'nın teslimiyle eyalet Alman idaresine (Adriyatik Kıyı Harekât Bölgesi) geçti.", kaynak:"https://okupacijskemeje.si/en-exh01-ch02.html" }
+    { t:"1943-09-08", tur:"son", b:"İtalya'nın teslimiyle eyalet Alman idaresine (Adriyatik Kıyı Harekât Bölgesi) geçti.", kaynak:"https://okupacijskemeje.si/en-exh01-ch02.html" },
+    { t:"1943-09-08", tur:"son", b:"İtalya'nın teslimiyle il fiilen Alman denetimine geçti.", kaynak:"https://en.wikipedia.org/wiki/Province_of_Ljubljana" }
   ] },
-{ id:"arnavutluk-italyan-koruma", ad:"Arnavutluk (İtalyan Şahsî Birliği 1939-43)", tur:"sahs-birlik", bolge:"balkanlar", f:"1939-04-12", t:"1943-09-08", baskent:"Tiran", ozet:"7 Nisan 1939 İtalyan işgali sonrası Arnavutluk tacının 12-13 Nisan'da III. Vittorio Emanuele'ye sunulmasıyla kurulan fiilen İtalyan kukla krallığı; 8 Eylül 1943 teslimi sonrası Alman işgali.", kaynak:"Wikipedia 'Kingdom of Albania in personal union with Italy', 'Vërlaci II Government', 'German occupation of Albania'; EBSCO Research Starters. ic_not: işgal 7 Nisan, devlet 12 Nisan 1939 (kabul 13 Nisan'a da veriliyor); Alman işgali 9-11 Eylül 1943.", kronoloji:[
+{ id:"arnavutluk-italyan-koruma", ad:"Arnavutluk (İtalyan Şahsî Birliği 1939-43)", tur:"sahs-birlik", bolge:"balkanlar", harita:"arnavutluk", f:"1939-04-12", t:"1943-09-08", baskent:"Tiran", ozet:"7 Nisan 1939 İtalyan işgali sonrası Arnavutluk tacının 12-13 Nisan'da III. Vittorio Emanuele'ye sunulmasıyla kurulan fiilen İtalyan kukla krallığı; 8 Eylül 1943 teslimi sonrası Alman işgali.", kaynak:"Wikipedia 'Kingdom of Albania in personal union with Italy', 'Vërlaci II Government', 'German occupation of Albania'; EBSCO Research Starters. ic_not: işgal 7 Nisan, devlet 12 Nisan 1939 (kabul 13 Nisan'a da veriliyor); Alman işgali 9-11 Eylül 1943.", kronoloji:[
     { t:"1939-04-12", tur:"kurulus", b:"Arnavutluk meclisi Zog'u tahttan indirip tacı III. Vittorio Emanuele'ye sundu; İtalya ile şahsî birlik kuruldu.", kaynak:"https://www.ebsco.com/research-starters/history/italy-invades-and-annexes-albania ; https://countrystudies.us/albania/30.htm" },
-    { t:"1943-09-08", tur:"son", b:"İtalya'nın teslimiyle birlik fiilen çöktü, Almanya Arnavutluk'u işgal etti.", kaynak:"https://www.globalsecurity.org/military/world/europe/al-history-46.htm ; ikincil: Vikipedi 'German occupation of Albania'" }
+    { t:"1943-09-08", tur:"son", b:"İtalya'nın teslimiyle şahsî birlik çöktü; Alman kuvvetleri Arnavutluk'a girdi.", kaynak:"https://en.wikipedia.org/wiki/German_occupation_of_Albania" }
   ] },
 { id:"yunan-izmir-bolgesi", ad:"İzmir Yunan İşgal Bölgesi", tur:"isgal-idaresi", bolge:"anadolu", f:"1919-05-15", t:"1922-09-09", baskent:"İzmir", ozet:"15 Mayıs 1919'da Yunan çıkarmasıyla kurulan 'İzmir Bölgesi' işgal idaresi (Yüksek Komiser A. Stergiadis); 9 Eylül 1922'de Türk ordusunun İzmir'e girmesiyle bitti.", kaynak:"Wikipedia 'Occupation of Smyrna', 'Aristeidis Stergiadis' + gaziakademikbakis.com (Türkçe akademik makale; ordunun 9 Eylül girişi) + fhw.gr. TDV 'İzmir' maddesi bu oturumda okunamadı.", kronoloji:[
     { t:"1919-05-15", tur:"isgal", b:"Yunan birlikleri İzmir'e çıktı, işgal idaresi başladı; olaylarda yüzlerce Türk ve yaklaşık 100 Rum öldü.", kaynak:"Occupation of Smyrna (Wikipedia, ikincil); gaziakademikbakis.com makalesi; fhw.gr" },
@@ -13536,11 +13781,12 @@ window.DEVLETLER = [
     { t:"0840-01-01", tur:"kurulus", b:"Yenisey Kırgızları Uygur Kağanlığı'nın başkenti Ordu-Balık'ı yıkarak bağımsızlığını kazanır.", kaynak:"TDV İslâm Ansiklopedisi 'Türk' ve 'Kırgızlar' (künyedeki atıf); Britannica 'Kyrgyz'" },
     { t:"1207-01-01", tur:"vassal", b:"Cuci'nin seferiyle Yenisey Kırgızları Moğol egemenliğine girer.", kaynak:"Britannica 'Kyrgyz' (künyedeki atıf); Wikipedia 'Mongol campaigns in Siberia' (ikincil)" }
   ] },
-{ id:"mengjiang", ad:"Mengjiang (Moğol Askerî Hükûmeti → Moğol Birleşik Özerk Hükûmeti)", tur:"vasal-devlet", bolge:"dogu-asya", f:"1936-01-01", t:"1945-01-01", baskent:"Kalgan (Zhangjiakou), Hohhot", ozet:"Prens Demchugdongrub'un Japon desteğiyle 1936'da kurduğu Moğol askerî hükûmeti; 1937 Mengjiang Komisyonu, 1939'da Birleşik Özerk Hükûmet; Japonya'nın yenilgisiyle 1945'te sona erdi. Not: [gun yok] t: 1945 Ağustos sonu Vikipedi ipucu, kaynakta ay-gün yok.", kaynak:"Cambridge 'Buddhism and Comparative Constitutional Law' bölüm 15 (1939-45); Cambridge Asia-Pacific Journal (1936 Moğol askerî hükûmeti); Britannica 'Federated Mengjiang Commission'", kronoloji:[
+{ id:"mengjiang", ad:"Mengjiang (Moğol Askerî Hükûmeti → Moğol Birleşik Özerk Hükûmeti)", tur:"vasal-devlet", bolge:"dogu-asya", f:"1936-01-01", t:"1945-08-19", baskent:"Kalgan (Zhangjiakou), Hohhot", ozet:"Prens Demchugdongrub'un Japon desteğiyle 1936'da kurduğu Moğol askerî hükûmeti; 1937 Mengjiang Komisyonu, 1939'da Birleşik Özerk Hükûmet; Japonya'nın yenilgisiyle 1945'te sona erdi. Not: [gun yok] t: 1945 Ağustos sonu Vikipedi ipucu, kaynakta ay-gün yok.", kaynak:"Cambridge 'Buddhism and Comparative Constitutional Law' bölüm 15 (1939-45); Cambridge Asia-Pacific Journal (1936 Moğol askerî hükûmeti); Britannica 'Federated Mengjiang Commission'", kronoloji:[
     { t:"1936-05-12", tur:"kurulus", b:"Japon desteğiyle Moğol Askerî Hükûmeti kuruldu (Demchugdongrub çevresi).", kaynak:"https://en.wikipedia.org/wiki/Mengjiang (ikincil; gün Britannica/akademik kaynakta doğrulanamadı)" },
     { t:"1936-10-20", tur:"savas", b:"Suiyuan harekâtı başladı; Moğol/Japon destekli güçler 19 Aralık'a dek yenildi.", kaynak:"https://en.wikipedia.org/wiki/Suiyuan_campaign (ikincil; 20 Ekim-19 Aralık 1936)" },
     { t:"1939-09-01", tur:"birlesme", b:"Moğol Birleşik Özerk Hükûmeti, Güney Çahar ve Kuzey Şansi hükûmetleriyle birleşip Mengjiang Birleşik Özerk Hükûmeti oldu.", kaynak:"https://en.wikipedia.org/wiki/Demchugdongrub (ikincil)" },
-    { t:"1941-08-04", tur:"siyaset", b:"Devlet Moğol Özerk Devleti adını aldı.", kaynak:"https://en.wikipedia.org/wiki/Mengjiang (ikincil)" }
+    { t:"1941-08-04", tur:"siyaset", b:"Devlet Moğol Özerk Devleti adını aldı.", kaynak:"https://en.wikipedia.org/wiki/Mengjiang (ikincil)" },
+    { t:"1945-08-19", tur:"son", b:"Sovyet ve Çin Komünist 8. Rota Ordusu'nun İç Moğolistan'a girmesiyle Mengjiang çöktü; Prens Demchugdongrub Kalgan'dan kaçıp Kuomintang'a sığındı.", kaynak:"https://www.hoover.org/node/380964 (ay: Ağustos 1945); gün: https://en.wikipedia.org/wiki/Mengjiang" }
   ] },
 { id:"dogu-turkistan-islam-cumhuriyeti", ad:"Doğu Türkistan İslâm Cumhuriyeti (I, Kaşgar)", tur:"cumhuriyet", bolge:"orta-asya", f:"1933-11-12", t:"1934-01-01", baskent:"Kaşgar", ozet:"12 Kasım 1933'te Kaşgar'da ilan edildi; 1934 başında Gansu Hui kuvvetlerinin Kaşgar'ı almasıyla çöktü. Not: t [gun yok]: kaynak 'early 1934'; Nisan 1934 başka bir kaynakta; Vikipedi 6 Şubat verir (doğrulanmadı).", kaynak:"Cambridge Journal of Chinese History 'The Uyghurs: from modular community to partisan nation' (12 Kasım 1933, 'early 1934'); JSTOR 'The East Turkestan Independence Movement, 1930s to 1940s'", kronoloji:[
     { t:"1933-11-12", tur:"kurulus", b:"Kaşgar'da Doğu Türkistan İslâm Cumhuriyeti ilan edildi.", kaynak:"Cambridge Journal of Chinese History 'The Uyghurs: from modular community to partisan nation'; https://en.wikipedia.org/wiki/Khoja_Niyaz (yardımcı)" },
@@ -13641,7 +13887,7 @@ window.DEVLETLER = [
     { t:"1899-03-31", tur:"isgal", b:"Amerikan kuvvetleri cumhuriyetin başkenti Malolos'u ele geçirdi.", kaynak:"Britannica 'Malolos'" },
     { t:"1901-03-23", tur:"son", b:"Aguinaldo yakalandı; cumhuriyetin örgütlü direnişi sona erdi.", kaynak:"Britannica 'Emilio Aguinaldo'" }
   ] },
-{ id:"amerikan-filipinleri", ad:"Amerikan Filipinleri (Insular Government)", tur:"somurge", bolge:"guneydogu-asya", f:"1901-07-04", t:"1935-11-15", baskent:"Manila", ozet:"4 Temmuz 1901'de Taft'ın sivil vali atanmasıyla askerî yönetimden sivil idareye geçiş; 15 Kasım 1935 Commonwealth açılışı. Not: 1898-1901 askerî idare dönemi bu künyenin dışında (boşluk beyanlı).", kaynak:"Britannica 'William Howard Taft - Students', 'Philippine Commissions', 'Tydings-McDuffie Act', 'Manuel Quezon'", kronoloji:[
+{ id:"amerikan-filipinleri", ad:"Amerikan Filipinleri (Insular Government)", tur:"somurge", bolge:"guneydogu-asya", harita:"abd", f:"1901-07-04", t:"1935-11-15", baskent:"Manila", ozet:"4 Temmuz 1901'de Taft'ın sivil vali atanmasıyla askerî yönetimden sivil idareye geçiş; 15 Kasım 1935 Commonwealth açılışı. Not: 1898-1901 askerî idare dönemi bu künyenin dışında (boşluk beyanlı).", kaynak:"Britannica 'William Howard Taft - Students', 'Philippine Commissions', 'Tydings-McDuffie Act', 'Manuel Quezon'", kronoloji:[
     { t:"1901-07-04", tur:"kurulus", b:"Taft sivil vali oldu; askerî idareden sivil Insular Government'a geçildi.", kaynak:"https://en.wikipedia.org/wiki/Insular_Government_of_the_Philippine_Islands (ikincil); Britannica 'William Howard Taft'" },
     { t:"1902-07-01", tur:"siyaset", b:"Philippine Organic Act ile Komisyonun yetkileri kalıcılaştı ve seçimle gelen Filipin Meclisi öngörüldü.", kaynak:"https://en.wikipedia.org/wiki/Philippine_Commission (ikincil); quezon.ph 'The making of the modern Philippines'" },
     { t:"1916-08-29", tur:"siyaset", b:"Jones Yasası ile Komisyon yerine seçilmiş Filipin Senatosu geldi.", kaynak:"https://en.wikipedia.org/wiki/Philippine_Commission (ikincil)" },
@@ -13658,7 +13904,8 @@ window.DEVLETLER = [
     { t:"1945-03-11", tur:"kurulus", b:"Bảo Đại Japonların teşviğiyle Vietnam'ın kuzey ve orta kesimlerinin bağımsızlığını ilân etti.", kaynak:"EBSCO Research Starters 'Bao Dai'" },
     { t:"1945-04-17", tur:"siyaset", b:"Bảo Đại Trần Trọng Kim'i başbakan atadı; yeni kabine kuruldu.", kaynak:"WW2DB (ww2db.com/event/timeline/place/French-Indochina/Annam_Hue)" },
     { t:"1945-08-23", tur:"isyan", b:"Việt Minh Huế'de kontrolü ele geçirdi; Bảo Đại üzerindeki feragat baskısı arttı.", kaynak:"GlobalSecurity 'Emperor Bao Dai'" },
-    { t:"1945-08-25", tur:"son", b:"Bảo Đại tahttan çekildi, yetkiyi Việt Minh'e devretti.", kaynak:"EBSCO Research Starters 'Bao Dai'; WW2DB (30 Ağustos'ta Huế'de resmen duyuruldu)" }
+    { t:"1945-08-25", tur:"son", b:"Bảo Đại tahttan çekildi, yetkiyi Việt Minh'e devretti.", kaynak:"EBSCO Research Starters 'Bao Dai'; WW2DB (30 Ağustos'ta Huế'de resmen duyuruldu)" },
+    { t:"1945-08-19", tur:"isyan", b:"Ağustos Devrimi'nde Việt Minh Hanoi'de yönetimi ele geçirdi.", kaynak:"https://alphahistory.com/vietnamwar/august-revolution/" }
   ] },
 { id:"kalat-hanligi", ad:"Kalat Hanlığı (Brahui / Ahmedzay)", tur:"hanlik", bolge:"guney-asya", f:"1666-01-01", t:"1948-03-27", baskent:"Kalat", ozet:"Mir Ahmed Han Kanbarânî'nin 1666'daki hâkimiyetiyle başlayan Ahmedzay hanlığı; 1948'de Pakistan'a katıldı (hanlık lağvedildi). Not: t günü (27 Mart 1948, ilhak belgesi) yalnız haber kaynaklı ikincil; Britannica+Iranica yıl 1948.", kaynak:"Encyclopaedia Iranica 'Baluchistan i', 'Brahui'; Britannica 'Kalāt', 'Brahui'", kronoloji:[
     { t:"1666-01-01", tur:"kurulus", b:"Mir Ahmed Han Kanbarani Brahui aşiretleriyle Kalat Hanlığı'nı kurdu", kaynak:"Encyclopaedia Iranica 'Baluchistan' (künyeden); Khanate of Kalat (ikincil)" },
@@ -13706,10 +13953,9 @@ window.DEVLETLER = [
     { t:"1910-01-08", tur:"antlasma", b:"Punakha Antlaşması: ödenek ikiye katlandı, dış ilişkilerde İngiliz yönlendirmesi", kaynak:"Treaty of Punakha (ikincil, gün); BHUTAN'S FOREIGN POLICY, RIGSS (https://rigss.bt/?p=27027)" },
     { t:"1926-01-01", tur:"hukumdar", b:"Ugyen Wangchuck öldü, oğlu Jigme Wangchuck geçti", kaynak:"Wangchuck dynasty özeti (ikincil); GlobalSecurity Bhutan History" }
   ] },
-{ id:"portekiz-hindistani-goa", ad:"Portekiz Hindistanı (Estado da Índia, Goa)", tur:"somurge", bolge:"guney-asya", f:"1505-01-01", t:"1961-12-19", baskent:"Goa", ozet:"1505'ten Aralık 1961'e dek Portekiz'in Hint yarımadası varlığı; Goa 1510'da Albuquerque ile alındı; 18 Aralık 1961 Hint harekâtı, 19 Aralık'ta direniş bitti.", kaynak:"Britannica 'Portuguese India', 'Portuguese conquest of Goa', 'Goa: History'", kronoloji:[
+{ id:"portekiz-hindistani-goa", ad:"Portekiz Hindistanı (Estado da Índia, Goa)", tur:"somurge", bolge:"guney-asya", harita:"portekiz", f:"1505-01-01", t:"1961-12-19", baskent:"Goa", ozet:"1505'ten Aralık 1961'e dek Portekiz'in Hint yarımadası varlığı; Goa 1510'da Albuquerque ile alındı; 18 Aralık 1961 Hint harekâtı, 19 Aralık'ta direniş bitti.", kaynak:"Britannica 'Portuguese India', 'Portuguese conquest of Goa', 'Goa: History'", kronoloji:[
     { t:"1505-01-01", tur:"kurulus", b:"Portekiz Hindistanı (Estado da Índia) başladı (1505).", kaynak:"https://www.britannica.com/place/Portuguese-India" },
-    { t:"1510-12-09", tur:"savas", b:"Albuquerque Goa'yı yeniden alıp kalıcı üs yaptı (Goa Muharebesi 9-10 Aralık 1510).", kaynak:"https://www.britannica.com/topic/Battle-of-Goa" },
-    { t:"1961-12-19", tur:"son", b:"Hindistan harekâtıyla Portekiz Hindistanı 19 Aralık 1961'de sona erdi.", kaynak:"https://www.britannica.com/place/Portuguese-India" }
+    { t:"1510-12-09", tur:"savas", b:"Albuquerque Goa'yı yeniden alıp kalıcı üs yaptı (Goa Muharebesi 9-10 Aralık 1510).", kaynak:"https://www.britannica.com/topic/Battle-of-Goa" }
   ] },
 { id:"fransiz-hindistani", ad:"Fransız Hindistanı", tur:"somurge", bolge:"guney-asya", f:"1674-01-01", t:"1954-11-01", baskent:"Pondicherry", ozet:"Pondicherry'nin 1674'te satın alınması (François Martin); 1 Kasım 1954 fiilî devir, 28 Mayıs 1956 hukukî devir. Not: Chandernagore 1949/1951 ayrı devredildi.", kaynak:"Britannica 'Puducherry', 'West Bengal: History'; Cambridge 'History of the French in India'", kronoloji:[
     { t:"1674-01-01", tur:"kurulus", b:"François Martin Pondicherry'yi Fransız ticaret merkezi yaptı", kaynak:"lesamisdupatrimoinepondicherien.org (https://www.lesamisdupatrimoinepondicherien.org/pondicherry-india.html); satın alma 1673 de verilir" },
@@ -13764,7 +14010,7 @@ window.DEVLETLER = [
     { t:"1954-05-07", tur:"savas", b:"Fransa Dien Bien Phu'da teslim oldu.", kaynak:"CVCE 'Decolonisation of French Indo-China'" },
     { t:"1954-07-21", tur:"antlasma", b:"Cenevre Anlaşmaları savaşı bitirdi ve Vietnam'ı 17. paralelden böldü.", kaynak:"CVCE 'Decolonisation of French Indo-China'; baoquocte.vn Cenevre Anlaşması sergisi" }
   ] },
-{ id:"ingiliz-burma", ad:"İngiliz Burması", tur:"somurge", bolge:"guneydogu-asya", f:"1826-02-24", t:"1948-01-04", baskent:"Rangun", ozet:"Yandabo Antlaşması (24 Şubat 1826) ile Arakan ve Tenasserim'in alınmasıyla başlar; 1852'de Alt Burma, 1886-01-01'de Üst Burma ilhak edildi; 1937'de Hindistan'dan ayrıldı; 4 Ocak 1948'de bağımsız oldu.", kaynak:"Britannica (Treaty of Yandabo, Bagyidaw, Burma); Cady, History of Modern Burma", kronoloji:[
+{ id:"ingiliz-burma", ad:"İngiliz Burması", tur:"somurge", bolge:"guneydogu-asya", harita:"ingiliz-hindistani", f:"1826-02-24", t:"1948-01-04", baskent:"Rangun", ozet:"Yandabo Antlaşması (24 Şubat 1826) ile Arakan ve Tenasserim'in alınmasıyla başlar; 1852'de Alt Burma, 1886-01-01'de Üst Burma ilhak edildi; 1937'de Hindistan'dan ayrıldı; 4 Ocak 1948'de bağımsız oldu.", kaynak:"Britannica (Treaty of Yandabo, Bagyidaw, Burma); Cady, History of Modern Burma", kronoloji:[
     { t:"1826-02-24", tur:"antlasma", b:"Yandabo Antlaşması ile Burma Arakan ve Tenasserim'i Britanya'ya bıraktı, Assam-Manipur üzerindeki iddiasından vazgeçti, tazminat ödedi.", kaynak:"Britannica 'Bagyidaw' (britannica.com/biography/Bagyidaw); Lost Footsteps (lostfootsteps.org/en/history/the-treaty-of-yandabo); National Army Museum (nam.ac.uk/explore/first-burma-war)" },
     { t:"1852-12-20", tur:"toprak-kazanc", b:"İkinci Anglo-Burma Savaşı'nda Pegu (Alt Burma) Britanya'ya ilhak edildi.", kaynak:"Lost Footsteps (lostfootsteps.org/en/history/second-anglo-burmese-war)" },
     { t:"1885-11-14", tur:"isgal", b:"Britanya Üst Burma'yı işgal etti; iki hafta içinde Mandalay'ı aldı, Kral Thibaw sürgüne gönderildi.", kaynak:"FIBIS wiki '3rd Burma War' (wiki.fibis.org/w/3rd_Burma_War); National Army Museum (nam.ac.uk/explore/third-burma-war); Britannica 'Thibaw'" },
@@ -13774,7 +14020,9 @@ window.DEVLETLER = [
 { id:"kuzey-borneo", ad:"İngiliz Kuzey Borneo (Chartered Company)", tur:"sirket-idaresi", bolge:"guneydogu-asya", f:"1881-11-01", t:"1946-07-15", baskent:"Sandakan", ozet:"British North Borneo Company 1881 tüzüğüyle kuruldu; 15 Temmuz 1946'da hakları Tâc'a geçti ve Kuzey Borneo Tâc Kolonisi oldu.", kaynak:"FOTW/Flagspot (15 Temmuz 1946 devir); SOAS Archive (Company 1881); Tregonning, Under Chartered Company Rule", kronoloji:[
     { t:"1881-11-01", tur:"kurulus", b:"British North Borneo (Provisional) Association/Company kuruldu; kraliyet tüzüğüyle Kuzey Borneo yönetimi şirkete verildi.", kaynak:"SOAS Library (library.soas.ac.uk/Collection/MS_283792); https://en.wikipedia.org/wiki/North_Borneo_Chartered_Company (ikincil); Tregonning, Under Chartered Company Rule (1958)" },
     { t:"1942-01-01", tur:"isgal", b:"Japonya Kuzey Borneo'yu işgal etti, şirket yönetimi fiilen sona erdi.", kaynak:"https://en.wikipedia.org/wiki/North_Borneo (ikincil); kaynak: gün bulunamadı" },
-    { t:"1946-07-15", tur:"son", b:"Şirketin hakları Tâc'a geçti; Kuzey Borneo Tâc Kolonisi oldu.", kaynak:"Flags of the World/Flagspot (flagspot.net/Flags/my-sa_nb.html)" }
+    { t:"1946-07-15", tur:"son", b:"Şirketin hakları Tâc'a geçti; Kuzey Borneo Tâc Kolonisi oldu.", kaynak:"Flags of the World/Flagspot (flagspot.net/Flags/my-sa_nb.html)" },
+    { t:"1945-09-12", tur:"isgal", b:"Japon teslimiyetinden sonra Borneo'da İngiliz Askerî İdaresi başladı.", kaynak:"https://en.wikipedia.org/wiki/British_Military_Administration_(Borneo) (tek dayanak, doğrulanmadı)" },
+    { t:"1946-06-26", tur:"antlasma", b:"British North Borneo Company ile Tâc arasında egemenlik haklarının ve varlıkların devrine ilişkin anlaşma imzalandı.", kaynak:"https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/740191" }
   ] },
 { id:"hollanda-malaka", ad:"Hollanda Malakası", tur:"koloni-voc", bolge:"guneydogu-asya", f:"1641-01-01", t:"1825-03-01", baskent:"Malaka", ozet:"VOC ve Johor müttefiklerinin 1640-41 kuşatmasıyla Portekiz'den alındı; 1824 Anglo-Hollanda Antlaşması ile Britanya'ya devredildi (1 Mart 1825).", kaynak:"Wikipedia Dutch Malacca/Siege of Malacca 1640-41 (ikincil) + Leiden tezi ve NLB BiblioAsia (1824 antlaşma); Tarling CHSEA 1", kronoloji:[
     { t:"1641-01-14", tur:"toprak-kazanc", b:"VOC ve Johor müttefikleri, aylar süren kuşatmanın ardından Portekiz'in Malaka'sını teslim aldı.", kaynak:"https://en.wikipedia.org/wiki/Siege_of_Malacca_(1640%E2%80%931641) (ikincil; teslim günü 14 Ocak 1641, kuşatmanın başlangıcı kaynaklarda 1640 Haziran/Ağustos diye değişir)" },
@@ -13785,7 +14033,7 @@ window.DEVLETLER = [
 { id:"portekiz-malaka", ad:"Portekiz Malakası", tur:"somurge", bolge:"guneydogu-asya", f:"1511-08-15", t:"1641-01-01", baskent:"Malaka", ozet:"Afonso de Albuquerque'nin 1511'de aldığı Malaka'yı Portekiz 1641'de VOC'a kaybedene dek elinde tuttu; Sultan Mahmud Şah kaçıp Johor'u kurdu.", kaynak:"Britannica (Mahmud Shah; Malacca) ve EBSCO Research Starters (Melaka falls); Boxer", kronoloji:[
     { t:"1641-01-01", tur:"toprak-kayip", b:"Hollandalılar (VOC), Johor müttefikliğiyle uzun kuşatmanın ardından Malaka'yı Portekiz'den aldı; vali Manuel de Sousa Coutinho teslim oldu.", kaynak:"EBSCO Research Starters 'Capture of Malacca' https://www.ebsco.com/research-starters/history/capture-malacca" }
   ] },
-{ id:"portekiz-timor", ad:"Portekiz Timoru", tur:"somurge", bolge:"guneydogu-asya", f:"1702-01-01", t:"1975-11-28", baskent:"Lifau (1769'a dek), Dili", ozet:"1702'de ilk vali tayiniyle kurulan koloninin başkenti 1769'da Lifau'dan Dili'ye taşındı; Ağustos 1975'te Portekiz ayrıldı, 28 Kasım'da Fretilin bağımsızlık ilân etti, 7 Aralık 1975'te Endonezya işgal etti.", kaynak:"Wikipedia Portuguese Timor + Timeline of East Timorese History (ikincil), worldstatesmen.org East Timor; Boxer", kronoloji:[
+{ id:"portekiz-timor", ad:"Portekiz Timoru", tur:"somurge", bolge:"guneydogu-asya", harita:"portekiz", f:"1702-01-01", t:"1975-11-28", baskent:"Lifau (1769'a dek), Dili", ozet:"1702'de ilk vali tayiniyle kurulan koloninin başkenti 1769'da Lifau'dan Dili'ye taşındı; Ağustos 1975'te Portekiz ayrıldı, 28 Kasım'da Fretilin bağımsızlık ilân etti, 7 Aralık 1975'te Endonezya işgal etti.", kaynak:"Wikipedia Portuguese Timor + Timeline of East Timorese History (ikincil), worldstatesmen.org East Timor; Boxer", kronoloji:[
     { t:"1702-01-01", tur:"kurulus", b:"António Coelho Guerreiro ilk vali olarak atandı; Lifau'da Portekiz sömürge yönetimi kuruldu.", kaynak:"Avustralya Senatosu Dışişleri-Savunma Komitesi Doğu Timor raporu bölüm 2 (aph.gov.au/.../1999-02/timor/report/c02); https://en.wikipedia.org/wiki/Portuguese_Timor (ikincil)" },
     { t:"1769-01-01", tur:"baskent", b:"Yönetim merkezi Topasses baskısı/Hollanda tehdidiyle Lifau'dan Dili'ye taşındı.", kaynak:"Avustralya Senatosu Doğu Timor raporu (aph.gov.au); infopedia.pt 'Dili'; gün bulunamadı" },
     { t:"1975-08-11", tur:"ic-savas", b:"UDT-Fretilin çatışması başladı; Portekiz yönetimi çöktü ve Endonezya'ya müdahale gerekçesi doğdu.", kaynak:"https://en.wikipedia.org/wiki/Portuguese_Timor (ikincil); Avustralya Senatosu Doğu Timor raporu (aph.gov.au)" },
@@ -13794,15 +14042,18 @@ window.DEVLETLER = [
 { id:"sipsong-panna", ad:"Sipsong Panna (Çiang Rung, Tai Lü) Krallığı", tur:"krallik", bolge:"guneydogu-asya", f:"1180-01-01", t:"1950-01-01", baskent:"Chiang Rung (Jinghong)", ozet:"Tai Lü krallığı; kuruluşu 1180'e, Çiang Hung'u kuran Phanya Coeng'e atfedilir; Burma, Siyam ve Çin'in üstünlüğü altında 1892'den sonra Çin 'yerli şeflik'i oldu, 1950'de Çin'e katıldı.", kaynak:"Chronicles of Sipsòng Panna: History and Society of a Tai Lü Kingdom, Twelfth to Mid-twentieth Century (Silkworm); Wikipedia Chiang Hung/Jinghong (ikincil)", kronoloji:[
     { t:"1180-01-01", tur:"kurulus", b:"Phanya Coeng Chiang Rung'u (Cheli) kurdu; Tai Lü krallığının başlangıcı olarak anılır.", kaynak:"Chronicles of Sipsong Panna (Silkworm, künye kaynağı); Wikipedia 'Chiang Hung' (ikincil)" }
   ] },
-{ id:"japon-kore", ad:"Japon Kore'si (Chōsen Genel Valiliği)", tur:"somurge", bolge:"dogu-asya", f:"1910-08-29", t:"1945-08-15", baskent:"Keijō (Seul)", ozet:"1910 ilhakıyla Resident-General'ın yerine kurulan Genel Valilik, Japonya'nın teslimiyle 1945'te sona erdi.", kaynak:"Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert", kronoloji:[
+{ id:"japon-kore", ad:"Japon Kore'si (Chōsen Genel Valiliği)", tur:"somurge", bolge:"dogu-asya", harita:"meiji-japonya", f:"1910-08-29", t:"1945-09-09", baskent:"Keijō (Seul)", ozet:"1910 ilhakıyla Resident-General'ın yerine kurulan Genel Valilik, Japonya'nın teslimiyle 1945'te sona erdi.", kaynak:"Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert", kronoloji:[
     { t:"1910-08-29", tur:"toprak-kazanc", b:"Japonya Kore'yi resmen ilhak edip Chōsen Genel Valiliği'ni kurdu.", kaynak:"Duus, The Abacus and the Sword ; Chōsen Government Railway 29 Ağustos 1910 (künye kaynağı)" },
     { t:"1919-04-11", tur:"isyan", b:"1 Mart Hareketi'nin ardından Şanghay'da Kore Geçici Hükûmeti kuruldu.", kaynak:"Britannica, Korean Provisional Government ; https://en.wikipedia.org/wiki/Provisional_Government_of_the_Republic_of_Korea (ikincil)" },
-    { t:"1945-08-15", tur:"son", b:"Japonya'nın teslimiyle Kore'deki Japon yönetimi sona erdi.", kaynak:"Eckert, Offspring of Empire ; Duus (künye kaynağı)" }
+    { t:"1945-08-15", tur:"son", b:"Japonya'nın teslimiyle Kore'deki Japon yönetimi sona erdi.", kaynak:"Eckert, Offspring of Empire ; Duus (künye kaynağı)" },
+    { t:"1945-09-08", tur:"isgal", b:"ABD kuvvetleri İncheon'a çıkarak Güney Kore'nin işgalini başlattı.", kaynak:"https://en.wikipedia.org/wiki/United_States_Army_Military_Government_in_Korea (kaynaklar 8/9 Eylül verir)" },
+    { t:"1945-09-09", tur:"son", b:"Genel Vali Abe Nobuyuki Seul'de teslim belgesini imzaladı; Japon yönetiminin yerini ABD ordu askerî yönetimi aldı.", kaynak:"https://avalon.law.yale.edu/wwii/j1.asp ; https://history.state.gov/historicaldocuments/frus1945v06/d780" }
   ] },
-{ id:"kore-gecici-hukumeti", ad:"Kore Cumhuriyeti Geçici Hükûmeti", tur:"surgun-huk-meti", bolge:"dogu-asya", f:"1919-04-11", t:"1945-11-01", baskent:"Şanghay (1932'ye dek), sonra Çongçing", ozet:"1 Mart Hareketi'nin ardından 11 Nisan 1919'da Şanghay'da kuruldu; 1932 sonrası şehir değiştirdi, Çongçing'de kaldı; üyeleri 1945'te Kore'ye döndü.", kaynak:"Britannica, Korean Provisional Government; Korea Times zaman çizelgesi; Eckert", kronoloji:[
+{ id:"kore-gecici-hukumeti", ad:"Kore Cumhuriyeti Geçici Hükûmeti", tur:"surgun-huk-meti", bolge:"dogu-asya", f:"1919-04-11", t:"1945-11-23", baskent:"Şanghay (1932'ye dek), sonra Çongçing", ozet:"1 Mart Hareketi'nin ardından 11 Nisan 1919'da Şanghay'da kuruldu; 1932 sonrası şehir değiştirdi, Çongçing'de kaldı; üyeleri 1945'te Kore'ye döndü.", kaynak:"Britannica, Korean Provisional Government; Korea Times zaman çizelgesi; Eckert", kronoloji:[
     { t:"1919-04-11", tur:"kurulus", b:"Şanghay Fransız imtiyaz bölgesinde Geçici Anayasa ilân edilerek hükûmet kuruldu.", kaynak:"https://en.wikipedia.org/wiki/Provisional_Government_of_the_Republic_of_Korea (ikincil); Korea Times" },
     { t:"1925-03-21", tur:"hukumdar", b:"Başkan Syngman Rhee Meclis tarafından azledildi.", kaynak:"https://www.koreatimes.co.kr (Provisional government zaman çizelgesi) ; Wikipedia (ikincil)" },
-    { t:"1940-01-01", tur:"baskent", b:"Hükûmet Çongçing'e yerleşti; Kim Ku başa geçti (yıl; gün bulunamadı).", kaynak:"Kore Ulusal Kütüphanesi kataloğu https://www.nl.go.kr/EN/contents/EN32202000000.do ; Wikipedia (ikincil)" }
+    { t:"1940-01-01", tur:"baskent", b:"Hükûmet Çongçing'e yerleşti; Kim Ku başa geçti (yıl; gün bulunamadı).", kaynak:"Kore Ulusal Kütüphanesi kataloğu https://www.nl.go.kr/EN/contents/EN32202000000.do ; Wikipedia (ikincil)" },
+    { t:"1945-11-23", tur:"son", b:"Kim Ku 27 yıllık sürgünün ardından Kore'ye döndü; geçici hükûmet üyeleri resmî sıfat tanınmadan kişi olarak ülkeye girdi, merkez Gyeonggyojang oldu.", kaynak:"https://en.wikipedia.org/wiki/Kim_Ku ; https://chinese.seoul.go.kr/?p=186707" }
   ] },
 { id:"hollanda-formosa", ad:"Hollanda Formosası", tur:"koloni-voc", bolge:"dogu-asya", f:"1624-01-01", t:"1662-02-01", baskent:"Zeelandia", ozet:"VOC'un Tayvan'daki 38 yıllık varlığı; Koxinga'nın kuşatması üzerine Zeelandia Kalesi Şubat 1662'de teslim oldu.", kaynak:"Andrade, How Taiwan Became Chinese (Columbia UP); Taipei Times/IHR yorumu", kronoloji:[
     { t:"1624-01-01", tur:"kurulus", b:"VOC Tayouan (Anping) yarımadasında yerleşip Zeelandia'yı kurdu.", kaynak:"Andrade, How Taiwan Became Chinese (Columbia UP) (yıl; gün bulunamadı)" },
@@ -13816,10 +14067,12 @@ window.DEVLETLER = [
     { t:"1895-05-23", tur:"kurulus", b:"Shimonoseki'ye tepki olarak Formosa Cumhuriyeti ilân edildi.", kaynak:"Taipei Times (2018-06-04); Lamley" },
     { t:"1895-10-21", tur:"son", b:"Tainan düştü; Cumhuriyet sona erdi.", kaynak:"Taipei Times (2018-06-04); WorldAtlas" }
   ] },
-{ id:"japon-tayvani", ad:"Japon Tayvanı", tur:"somurge", bolge:"dogu-asya", f:"1895-04-17", t:"1945-10-25", baskent:"Taihoku (Taipei)", ozet:"Shimonoseki Antlaşması (17 Nisan 1895) ile devralınan ada 50 yıl Japon Genel Valiliği'nce yönetildi; 25 Ekim 1945'te Çin Cumhuriyeti'ne devredildi.", kaynak:"Britannica, Treaty of Shimonoseki; Wikipedia Taiwan under Japanese rule/Retrocession of Taiwan (ikincil)", kronoloji:[
+{ id:"japon-tayvani", ad:"Japon Tayvanı", tur:"somurge", bolge:"dogu-asya", harita:"meiji-japonya", f:"1895-04-17", t:"1945-10-25", baskent:"Taihoku (Taipei)", ozet:"Shimonoseki Antlaşması (17 Nisan 1895) ile devralınan ada 50 yıl Japon Genel Valiliği'nce yönetildi; 25 Ekim 1945'te Çin Cumhuriyeti'ne devredildi.", kaynak:"Britannica, Treaty of Shimonoseki; Wikipedia Taiwan under Japanese rule/Retrocession of Taiwan (ikincil)", kronoloji:[
     { t:"1895-04-17", tur:"antlasma", b:"Shimonoseki Antlaşması ile Tayvan Çin'den Japonya'ya bırakıldı.", kaynak:"Britannica, Treaty of Shimonoseki" },
     { t:"1895-10-21", tur:"toprak-kazanc", b:"Tainan'ın düşmesiyle Japonya Formosa Cumhuriyeti direnişini bitirip adaya hâkim oldu.", kaynak:"Taipei Times (2018-06-04), Formosa Cumhuriyeti'nin sonu" },
-    { t:"1945-10-25", tur:"son", b:"Tayvan Çin Cumhuriyeti'ne devredildi; Japon yönetimi bitti.", kaynak:"https://en.wikipedia.org/wiki/Retrocession_of_Taiwan (ikincil)" }
+    { t:"1945-08-14", tur:"savas", b:"Japonya'nın teslim kararı; Tayvan'daki Japon yönetiminin sonu başladı.", kaynak:"https://www.taipeitimes.com/News/local/archives/1999/12/31/17830" },
+    { t:"1945-09-30", tur:"siyaset", b:"Çin Cumhuriyeti'nin ilk resmî temsilcisi Taipei'ye geldi.", kaynak:"https://www.taipeitimes.com/News/local/archives/1999/12/31/17830" },
+    { t:"1945-10-15", tur:"isgal", b:"Kuomintang birlikleri Keelung'a çıktı.", kaynak:"https://www.taipeitimes.com/News/local/archives/1999/12/31/17830" }
   ] },
 { id:"ezo-cumhuriyeti", ad:"Ezo Cumhuriyeti (Hakodate)", tur:"cumhuriyet", bolge:"dogu-asya", f:"1868-12-15", t:"1869-05-18", baskent:"Hakodate", ozet:"Enomoto Takeaki ve Tokugawa yanlıları Hokkaidō'da cumhuriyet kurdu; Meiji ordusu Hakodate seferiyle Goryōkaku'yu Mayıs 1869'da teslim aldı.", kaynak:"Samurai Archives (Enomoto Takeaki; Battle of Hakodate) ve Wikipedia Enomoto Takeaki (ikincil); Jansen, Making of Modern Japan", kronoloji:[
     { t:"1868-12-15", tur:"kurulus", b:"Eski Bakufu yanlıları Ezo Cumhuriyeti'ni ilân edip Enomoto Takeaki'yi başkan seçti.", kaynak:"https://samurai-archives.com/wiki/Enomoto_Takeaki" },
@@ -13883,7 +14136,8 @@ window.DEVLETLER = [
     { t:"1911-09-29", tur:"savas", b:"İtalya Osmanlı'ya savaş ilan edip Trablusgarb'a saldırır.", kaynak:"EBSCO Research Starters, Italy Annexes Libya (https://ebsco.com/research-starters/history/italy-annexes-libya); UCA DADM, Italian Libya 1911-1951 (https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/italian-libya-1911-1951)" },
     { t:"1912-10-18", tur:"antlasma", b:"Uşi (Ouchy) Antlaşması: Osmanlı Trablusgarb ve Bingazi'yi İtalya'ya bırakır (kaynaklar 12/15/18 Ekim verir).", kaynak:"EBSCO Research Starters, Italy Annexes Libya; Caravan Magazine, Italo-Turkish War (https://caravanmagazine.in/editors-pick/italo-turkish-war)" },
     { t:"1931-09-16", tur:"isyan", b:"Sünûsî direniş lideri Ömer Muhtar idam edilir.", kaynak:"Fanack, Italian reconquest of Libya and Umar al-Mukhtar (https://fanack.com/libya/history-of-libya/italian-reconquest-of-libya-and-umar-al-mukhtar/); Libyan Heritage House" },
-    { t:"1934-01-01", tur:"birlesme", b:"Trablusgarb, Bingazi ve Fizan tek İtalyan Libya sömürgesinde birleştirilir.", kaynak:"UCA DADM, Italian Libya 1911-1951 (https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/italian-libya-1911-1951)" }
+    { t:"1934-01-01", tur:"birlesme", b:"Trablusgarb, Bingazi ve Fizan tek İtalyan Libya sömürgesinde birleştirilir.", kaynak:"UCA DADM, Italian Libya 1911-1951 (https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/italian-libya-1911-1951)" },
+    { t:"1943-01-23", tur:"son", b:"Montgomery'nin 8. Ordusu Trablus'a girdi; İtalyan sömürge yönetimi fiilen çöktü, Libya Müttefik askerî idaresine geçti.", kaynak:"https://en.wikipedia.org/wiki/Allied_administration_of_Libya (tek dayanak, doğrulanmadı)" }
   ] },
 { id:"fransiz-fas", ad:"Fransız Fas Protektorası", tur:"himaye", bolge:"kuzey-afrika", f:"1912-03-30", t:"1956-03-02", baskent:"Rabat", ozet:"30 Mart 1912 Fes Antlaşması ile Sultan'ın statüsü korunarak kurulan himaye, 2 Mart 1956 Fransız-Fas Ortak Bildirisi ile sona erdi.", kaynak:"Britannica, Treaty of Fès (30 Mart 1912); Wikipedia French protectorate in Morocco (ikincil, 2 Mart 1956); Hoisington", kronoloji:[
     { t:"1912-03-30", tur:"kurulus", b:"Sultan Abdülhafîz Fes Antlaşması'nı imzalar; Fas Fransız himayesine girer.", kaynak:"UCA DADM, French Morocco (https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-gulf-region/francemorocco-1930-1956); OmniAtlas, Treaty of Fez (https://omniatlas.com/maps/northern-africa/19120330/)" },
@@ -13903,7 +14157,7 @@ window.DEVLETLER = [
     { t:"1936-06-01", tur:"birlesme", b:"Eritre, Etiyopya ve İtalyan Somalisi İtalyan Doğu Afrikası'nda birleştirildi.", kaynak:"https://en.wikipedia.org/wiki/Italian_Somaliland (ikincil)" },
     { t:"1941-01-01", tur:"savas", b:"Keren Muharebesi: İngilizler İtalyan ordusunu yenip koloniyi askerî idareye aldı.", kaynak:"https://www.worldhistory.org/article/2695/italian-colonialism-in-eritrea/ ; https://www.globalsecurity.org/military/world/eritrea/history.htm" }
   ] },
-{ id:"italyan-somali", ad:"İtalyan Somalisi (Banaadir Kolonisi)", tur:"somurge", bolge:"dogu-afrika", f:"1905-03-19", t:"1941-02-25", baskent:"Mogadişu", ozet:"Filonardi'nin ticari ayrıcalığı ve Benadir şirketi döneminden sonra İtalya 19 Mart 1905'te Banaadir kolonisini resmen kurdu; 1936'da İtalyan Doğu Afrikası'na katıldı; İngilizler 25 Şubat 1941'de Mogadişu'yu aldı.", kaynak:"Wikipedia Italian Somaliland/List of colonial governors (ikincil); Hess; Universalis, Mogadiscio", kronoloji:[
+{ id:"italyan-somali", ad:"İtalyan Somalisi (Banaadir Kolonisi)", tur:"somurge", bolge:"dogu-afrika", harita:"somali", f:"1905-03-19", t:"1941-02-25", baskent:"Mogadişu", ozet:"Filonardi'nin ticari ayrıcalığı ve Benadir şirketi döneminden sonra İtalya 19 Mart 1905'te Banaadir kolonisini resmen kurdu; 1936'da İtalyan Doğu Afrikası'na katıldı; İngilizler 25 Şubat 1941'de Mogadişu'yu aldı.", kaynak:"Wikipedia Italian Somaliland/List of colonial governors (ikincil); Hess; Universalis, Mogadiscio", kronoloji:[
     { t:"1905-03-19", tur:"kurulus", b:"İtalya Banaadir kolonisini resmen kurdu (Benadir şirketinin hakları devredildi).", kaynak:"https://en.wikipedia.org/wiki/Italian_Somaliland (ikincil)" },
     { t:"1925-01-01", tur:"toprak-kazanc", b:"Britanya Jubaland'in kuzeyini (Oltre Giuba) İtalya'ya devretti; 1926'da Somali'ye katıldı.", kaynak:"https://en.wikipedia.org/wiki/Italian_Somaliland (ikincil)" },
     { t:"1936-06-01", tur:"birlesme", b:"İtalyan Somalisi İtalyan Doğu Afrikası'na katıldı (Somalia Valiliği); Ogaden eklendi.", kaynak:"https://en.wikipedia.org/wiki/Italian_Somaliland (ikincil)" }
@@ -16011,17 +16265,14 @@ window.DEVLETLER = [
     { t:"1926-05-23", tur:"son", b:"Anayasa kabul edilir, Lübnan Cumhuriyeti ilan edilir (Charles Dabbas ilk cumhurbaşkanı)", kaynak:"TDV İslâm Ans. 'Lübnan' https://islamansiklopedisi.org.tr/lubnan" }
   ] },
 { id:"suriye-cumhuriyeti-1946", ad:"Suriye Cumhuriyeti (bağımsız, BAC öncesi)", tur:"cumhuriyet", bolge:"suriye-filistin", f:"1946-04-17", t:"1958-02-22", baskent:"Şam", ozet:"Fransız askerlerinin çekilmesiyle (17 Nisan 1946 Tahliye Günü; bir ABD belgesi 15 Nisan der) tam bağımsız Suriye; 22 Şubat 1958'de Mısır'la Birleşik Arap Cumhuriyeti'ne katılarak sona erdi. Not: ABD 8 Eylül 1944'te Suriye'yi bağımsız devlet olarak tanımıştı; mandanın fiilî sonu 1946.", kaynak:"TDV İslâm Ans. 'Suriye' https://islamansiklopedisi.org.tr/suriye (1946 bahar, Şubat 1958 BAC) ; Office of the Historian https://history.state.gov/countries/syria (8.9.1944, 22.2.1958) ; https://history.state.gov/historicaldocuments/frus1946v07/d609 (Nisan 1946 tahliye)", kronoloji:[
-    { t:"1946-04-17", tur:"kurulus", b:"Fransız askerlerinin çekilmesiyle tam bağımsız Suriye Cumhuriyeti", kaynak:"https://history.state.gov/historicaldocuments/frus1946v07/d609 ; TDV İslâm Ans. 'Suriye' https://islamansiklopedisi.org.tr/suriye" },
-    { t:"1958-02-22", tur:"birlesme", b:"Suriye Mısır'la birleşip Birleşik Arap Cumhuriyeti'ni kurar; Suriye Cumhuriyeti sona erer", kaynak:"Office of the Historian https://history.state.gov/countries/syria ; TDV İslâm Ans. 'Suriye'" }
   ] },
 { id:"suriye-arap-cumhuriyeti", ad:"Suriye Arap Cumhuriyeti (1961'den)", tur:"cumhuriyet", bolge:"suriye-filistin", f:"1961-09-28", baskent:"Şam", ozet:"28 Eylül 1961 askerî ihtilâliyle BAC'den ayrılıp yeniden kurulan Suriye devleti; atlas ufku 2000'de sürüyor.", kaynak:"Office of the Historian https://history.state.gov/countries/syria (28.9.1961 ayrılık, 10.10.1961 tanıma) ; TDV İslâm Ans. 'Suriye' (Eylül 1961 ihtilâl)", kronoloji:[
-    { t:"1961-09-28", tur:"kurulus", b:"Askerî ihtilâlle BAC'den ayrılıp Suriye Arap Cumhuriyeti yeniden kurulur", kaynak:"Office of the Historian https://history.state.gov/countries/syria ; TDV İslâm Ans. 'Suriye' https://islamansiklopedisi.org.tr/suriye" },
     { t:"1961-10-10", tur:"siyaset", b:"ABD yeniden bağımsız Suriye'yi tanır", kaynak:"Office of the Historian https://history.state.gov/countries/syria" },
     { t:"1967-06-06", tur:"siyaset", b:"Suriye, Haziran 1967 savaşı sonrası ABD ile diplomatik ilişkileri keser", kaynak:"Office of the Historian https://history.state.gov/countries/syria" },
     { t:"1974-06-16", tur:"siyaset", b:"Suriye-ABD diplomatik ilişkileri yeniden kurulur", kaynak:"Office of the Historian https://history.state.gov/countries/syria" },
     { t:"2000-06-10", tur:"hukumdar", b:"Devlet başkanı Hafız Esed ölür", kaynak:"TDV İslâm Ans. 'Suriye' https://islamansiklopedisi.org.tr/suriye" }
   ] },
-{ id:"irak-cumhuriyeti", ad:"Irak Cumhuriyeti (14 Temmuz 1958'den)", tur:"cumhuriyet", bolge:"arabistan", f:"1958-07-14", baskent:"Bağdat", ozet:"14 Temmuz 1958'de Abdülkerim Kasım önderliğindeki ordu darbesiyle monarşinin devrilip cumhuriyetin ilanı; Kral II. Faysal ve Nuri Said öldürüldü, Irak Bağdat Paktı'ndan çıktı; geçici anayasa 27 Temmuz 1958. Atlas ufku 2000'de sürüyor.", kaynak:"Britannica 'Iraq: The Republic of Iraq' https://www.britannica.com/place/Iraq/The-Republic-of-Iraq (arama özeti; sayfa 403) ; Office of the Historian https://history.state.gov/countries/iraq", kronoloji:[
+{ id:"irak-cumhuriyeti", ad:"Irak Cumhuriyeti (14 Temmuz 1958'den)", tur:"cumhuriyet", bolge:"arabistan", harita:"irak-kralligi", f:"1958-07-14", baskent:"Bağdat", ozet:"14 Temmuz 1958'de Abdülkerim Kasım önderliğindeki ordu darbesiyle monarşinin devrilip cumhuriyetin ilanı; Kral II. Faysal ve Nuri Said öldürüldü, Irak Bağdat Paktı'ndan çıktı; geçici anayasa 27 Temmuz 1958. Atlas ufku 2000'de sürüyor.", kaynak:"Britannica 'Iraq: The Republic of Iraq' https://www.britannica.com/place/Iraq/The-Republic-of-Iraq (arama özeti; sayfa 403) ; Office of the Historian https://history.state.gov/countries/iraq", kronoloji:[
     { t:"1958-07-14", tur:"kurulus", b:"Abdülkerim Kasım ve Abdüsselam Arif'in darbesiyle monarşi yıkılır, Irak cumhuriyet ilan edilir.", kaynak:"Britannica 'Faisal II' https://www.britannica.com/biography/Faisal-II ; ADST https://adst.org/2014/07/the-iraqi-revolution-of-1958/" },
     { t:"1958-07-27", tur:"siyaset", b:"Geçici anayasa ilan edilir.", kaynak:"Office of the Historian https://history.state.gov/countries/iraq" },
     { t:"1959-03-24", tur:"siyaset", b:"Kasım hükûmeti Irak'ın Bağdat Paktı'ndan çekildiğini duyurur.", kaynak:"Babylon Üniv. Dergisi https://journalofbabylon.com/index.php/JUBH/article/view/2731 ; ikincil: 1959 in Iraq zaman çizelgesi" },
@@ -16038,7 +16289,7 @@ window.DEVLETLER = [
     { t:"1958-07-14", tur:"son", b:"Irak'ta Kasım önderliğindeki darbe monarşiyi devirir, II. Faysal öldürülür; birlik fiilen çöker.", kaynak:"Britannica 'Faisal II' https://www.britannica.com/biography/Faisal-II ; ADST https://adst.org/2014/07/the-iraqi-revolution-of-1958/" },
     { t:"1958-08-01", tur:"son", b:"Ürdün federasyonun feshini ilan eder.", kaynak:"Office of the Historian https://history.state.gov/historicaldocuments/frus1958-60v11/d404" }
   ] },
-{ id:"urdun-hasimi-krallik", ad:"Ürdün Haşimî Krallığı (Şarkî Ürdün Haşimî Krallığı → 1950 Ürdün)", tur:"krallik", bolge:"arabistan", f:"1946-05-25", baskent:"Amman", ozet:"22 Mart 1946 Londra Antlaşması'yla tam bağımsızlığı tanınan Şarkî Ürdün'de Abdullah'ın 25 Mayıs 1946'da kral ilan edilmesi (urdun-emirligi'nin ardılı); Nisan 1950'de Batı Şeria'yla birleşerek Ürdün Haşimî Krallığı adını aldı.", kaynak:"Office of the Historian https://history.state.gov/historicaldocuments/frus1946v07/d620 (25 Mayıs 1946 Amman töreni, 22.3.1946 antlaşma) ; Britannica 'Jordan: Transjordan, the Hashemite Kingdom' https://www.britannica.com/place/Jordan/Transjordan-the-Hashemite-Kingdom-and-the-Palestine-war", kronoloji:[
+{ id:"urdun-hasimi-krallik", ad:"Ürdün Haşimî Krallığı (Şarkî Ürdün Haşimî Krallığı → 1950 Ürdün)", tur:"krallik", bolge:"arabistan", harita:"urdun-emirligi", f:"1946-05-25", baskent:"Amman", ozet:"22 Mart 1946 Londra Antlaşması'yla tam bağımsızlığı tanınan Şarkî Ürdün'de Abdullah'ın 25 Mayıs 1946'da kral ilan edilmesi (urdun-emirligi'nin ardılı); Nisan 1950'de Batı Şeria'yla birleşerek Ürdün Haşimî Krallığı adını aldı.", kaynak:"Office of the Historian https://history.state.gov/historicaldocuments/frus1946v07/d620 (25 Mayıs 1946 Amman töreni, 22.3.1946 antlaşma) ; Britannica 'Jordan: Transjordan, the Hashemite Kingdom' https://www.britannica.com/place/Jordan/Transjordan-the-Hashemite-Kingdom-and-the-Palestine-war", kronoloji:[
     { t:"1946-05-25", tur:"kurulus", b:"Abdullah Amman'da kral ilan edildi; Haşimî Krallığı", kaynak:"https://history.state.gov/historicaldocuments/frus1946v07/d620 (tören planlı olarak anılır); https://countrystudies.us/jordan/10.htm" },
     { t:"1950-04-24", tur:"toprak-kazanc", b:"Batı Şeria resmen ilhak edildi; ülke Ürdün Haşimî Krallığı adını aldı", kaynak:"https://www.historytoday.com/archive/jordan-formally-annexes-west-bank" },
     { t:"1951-07-20", tur:"hukumdar", b:"Kral Abdullah Kudüs'te suikastla öldürüldü", kaynak:"https://www.encyclopedia.com/politics/dictionaries-thesauruses-pictures-and-press-releases/abdullah-i-ibn-hussein-king-abdallah-jordan" },
@@ -16310,5 +16561,63 @@ window.DEVLETLER = [
     { t:"1808-01-01", tur:"ittifak", b:"Her iki Mecklenburg dükalığı Ren Konfederasyonu'na katıldı.", kaynak:"Britannica 'Mecklenburg-Strelitz' (https://www.britannica.com/place/Mecklenburg-Strelitz)" },
     { t:"1815-01-01", tur:"son", b:"Viyana Kongresi her iki dükalığı büyük dükalık olarak tanıdı.", kaynak:"Britannica 'Mecklenburg-Strelitz' (https://www.britannica.com/place/Mecklenburg-Strelitz); Deutsche Biographie 'Mecklenburg' (https://www.deutsche-biographie.de/sfz59704.html)" }
   ] },
+
+// =========== UFUK KESIKLERI: ARDIL KUNYELER (13 Ekim 2026) ===========
+
+{ id:"japonya-devleti", ad:"Japonya Devleti (1947 Anayasası)", tur:"devlet", bolge:"dogu-asya", harita:"meiji-japonya", f:"1947-05-03", baskent:"Tokyo", ozet:"1946 anayasasının 3 Mayıs 1947'de yürürlüğe girmesiyle imparatorun simgesel konuma indiği parlamenter anayasal monarşi; 28 Nisan 1952'de San Francisco Antlaşması'yla tam egemenliğe kavuştu (Ryukyu hariç).", kaynak:"https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf", kronoloji:[
+    { t:"1951-09-08", tur:"antlasma", b:"San Francisco Barış Antlaşması imzalandı.", kaynak:"https://www.thecollector.com/treaty-of-san-francisco-restored-japanese-sovereignty-after-wwii/" },
+    { t:"1952-04-28", tur:"antlasma", b:"Antlaşma yürürlüğe girdi, işgal sona erdi, Japonya egemenliğini geri aldı (Ryukyu hariç).", kaynak:"https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf" }
+  ] },
+{ id:"cin-halk-cumhuriyeti", ad:"Çin Halk Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-asya", f:"1949-10-01", baskent:"Pekin", ozet:"Komünist Parti'nin iç savaşı kazanmasıyla anakarada kurulan devlet; Çin Cumhuriyeti hükûmeti Tayvan'a çekilince anakara Çin'in fiilî yönetimini üstlendi.", kaynak:"https://en.wikipedia.org/wiki/History_of_Taiwan_(1945%E2%80%93present) (1949 kuruluş bilgisi dolaylı); birincil kaynak bulunamadı, Office of the Historian sayfası bu oturumda açılmadı", kronoloji:[
+    { t:"1971-10-25", tur:"siyaset", b:"BM Genel Kurulu 2758 sayılı kararla Çin'in BM'deki temsilini Pekin'e verdi.", kaynak:"https://taipeitimes.com/News/local/archives/1999/12/31/0000017830" }
+  ] },
+{ id:"bhopal-eyaleti-1949", ad:"Bopal Eyaleti (Part C, 1949-1956)", tur:"eyalet", bolge:"guney-asya", harita:"bhopal", f:"1949-06-01", t:"1956-11-01", baskent:"Bopal", ozet:"Nevvabligin Hindistan'a katilmasindan sonra merkezce bas komiserle yonetilen Part C eyaleti; 1956'da Eyaletlerin Yeniden Duzenlenmesi ile Madhya Pradesh'e katildi.", kaynak:"https://flame.edu.in/in-the-media/from-patchwork-of-princely-states-to-heart-of-india-how-modern-day-madhya-pradesh-came-to-be", kronoloji:[] },
+{ id:"sarawak-tac-kolonisi", ad:"Sarawak Tac Kolonisi", tur:"koloni", bolge:"guneydogu-asya", harita:"sarawak-brooke", f:"1946-07-01", t:"1963-09-16", baskent:"Kucing", ozet:"Brooke hanedaninin Sarawak'i Tac'a devretmesiyle kurulan Ingiliz kolonisi; 1963'te Malezya Federasyonu'na katildi.", kaynak:"https://sarawak.gov.my/web/home/article_view/228/244/?id=228", kronoloji:[] },
+{ id:"filipinler-cumhuriyeti", ad:"Filipinler Cumhuriyeti", tur:"cumhuriyet", bolge:"guneydogu-asya", f:"1946-07-04", baskent:"Manila", ozet:"ABD'nin Commonwealth'i sona erdirip bağımsızlığı tanımasıyla 4 Temmuz 1946'da kurulan Filipinler Cumhuriyeti; Roxas ilk başkandır. Öncülü [[filipin-commonwealth]].", kaynak:"https://www.govinfo.gov/link/statute/61/1174", kronoloji:[] },
+{ id:"alman-isgali-karadag", ad:"Alman İşgali Altındaki Karadağ", tur:"isgal-idaresi", bolge:"balkanlar", f:"1943-09-12", t:"1944-12-15", baskent:"bulunamadı", ozet:"İtalyan valiliğinin yerine Feldkommandantur 1040 (Gen. Wilhelm Keiper) altında kurulan Alman askerî idaresi; Ekim 1943'te Ljubomir Vuksanović başkanlığında Millî İdare Konseyi kuruldu; 15 Aralık 1944'te Alman çekilmesiyle sona erdi.", kaynak:"https://en.wikipedia.org/wiki/German-occupied_territory_of_Montenegro (Tomasevich, War and Revolution in Yugoslavia, 2001; ikincil)", kronoloji:[
+    { t:"1943-09-12", tur:"kurulus", b:"Alman kuvvetleri eski İtalyan valiliğini işgal ederek askerî idare kurdu.", kaynak:"https://en.wikipedia.org/wiki/German-occupied_territory_of_Montenegro" },
+    { t:"1944-12-15", tur:"son", b:"Alman çekilmesiyle idare sona erdi; bölge Partizan/Yugoslavya yönetimine geçti.", kaynak:"https://en.wikipedia.org/wiki/German-occupied_territory_of_Montenegro" }
+  ] },
+{ id:"ozak", ad:"Adriyatik Kıyı Harekât Bölgesi (OZAK)", tur:"isgal-idaresi", bolge:"balkanlar", f:"1943-09-10", t:"1945-05-09", baskent:"Trieste", ozet:"İtalya'nın teslimi sonrası Hitler'in kurduğu, Friedrich Rainer yönetiminde Ljubljana, Udine, Gorizia, Trieste, Pula ve Rijeka'yı kapsayan Alman idaresi; biçimsel olarak Salò Cumhuriyeti'ne bağlıydı, Gau Kärnten'e eklendi.", kaynak:"https://en.wikipedia.org/wiki/Operational_Zone_of_the_Adriatic_Littoral ; t: Ljubljana İli'nin 9 Mayıs 1945'te kaldırılışı (Vikipedi); OZAK'ın kendi bitiş günü bulunamadı", kronoloji:[
+    { t:"1943-09-10", tur:"kurulus", b:"OZAK Hitler tarafından kuruldu, Rainer Yüksek Komiser oldu.", kaynak:"https://en.wikipedia.org/wiki/Operational_Zone_of_the_Adriatic_Littoral" },
+    { t:"1943-09-20", tur:"siyaset", b:"Rainer, Leon Rupnik'i Ljubljana özerk idaresinin başına atadı.", kaynak:"https://en.wikipedia.org/wiki/Province_of_Ljubljana" },
+    { t:"1945-05-09", tur:"son", b:"Slovenya Partizanları Ljubljana bölgesini kurtardı; il kaldırıldı (OZAK bitişi için kesin gün bulunamadı).", kaynak:"https://en.wikipedia.org/wiki/Province_of_Ljubljana" }
+  ] },
+{ id:"arnavutluk-alman-himayesi", ad:"Arnavutluk (Alman İşgali ve Bağımsız Arnavutluk Krallığı 1943-44)", tur:"kukla-devlet", bolge:"balkanlar", harita:"arnavutluk", f:"1943-09-14", t:"1944-11-29", baskent:"Tiran", ozet:"İtalyan birliğinin yerine Alman himayesinde, tarafsız ilan edilmiş Arnavutluk; Biçakçiu başkanlığındaki Geçici Yürütme Komitesi (14 Eylül-24 Ekim 1943), sonra Yüksek Naiplik Konseyi ve Rexhep Mitrovica hükûmeti (5 Kasım 1943-16 Haziran 1944); 29 Kasım 1944'te komünist yönetimin kurtuluşuyla sona erdi.", kaynak:"https://en.wikipedia.org/wiki/German_occupation_of_Albania ; https://en.wikipedia.org/wiki/Mitrovica_Government (ikincil; TDV/akademik teyit gerekli); başkent Tiran bu oturumda ayrıca doğrulanmadı", kronoloji:[
+    { t:"1943-09-14", tur:"kurulus", b:"Ibrahim Biçakçiu başkanlığında Geçici Yürütme Komitesi kuruldu.", kaynak:"https://en.wikipedia.org/wiki/German_occupation_of_Albania" },
+    { t:"1943-11-05", tur:"siyaset", b:"Rexhep Mitrovica hükûmeti göreve başladı (Yüksek Naiplik Konseyi başta).", kaynak:"https://en.wikipedia.org/wiki/Mitrovica_Government" },
+    { t:"1944-06-16", tur:"siyaset", b:"Mitrovica hükûmeti sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Mitrovica_Government" },
+    { t:"1944-11-29", tur:"son", b:"Komünist yönetim Tiran'ı aldı; Alman himayesindeki Arnavutluk sona erdi.", kaynak:"https://en.wikipedia.org/wiki/German_occupation_of_Albania" }
+  ] },
+{ id:"kuzey-borneo-tac-kolonisi", ad:"Kuzey Borneo Tâc Kolonisi (İngiliz, Labuan dahil)", tur:"somurge", bolge:"guneydogu-asya", f:"1946-07-15", t:"1963-09-16", baskent:"Jesselton (Kota Kinabalu)", ozet:"Şirket haklarının Tâc'a geçmesiyle 15 Temmuz 1946'da kuruldu; Labuan dahil; 9 Temmuz 1963 Malezya Anlaşması ve 16 Eylül 1963 Malezya ilanıyla Sabah olarak federasyona katıldı.", kaynak:"https://en.wikipedia.org/wiki/North_Borneo_Chartered_Company ; Sabah Devlet Arşivi arkib.sabah.gov.my ; başkent adı doğrulanmadı (bulunamadı)", kronoloji:[] },
+{ id:"abd-ordu-askeri-hukumeti-kore", ad:"Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi)", tur:"askeri-idare", bolge:"dogu-asya", f:"1945-09-09", t:"1948-08-15", baskent:"Seul", ozet:"Japon teslimiyetinden sonra 38. paralelin güneyini yöneten ABD askerî idaresi; Kore Cumhuriyeti'nin kurulmasıyla sona erdi. Kuzeyde Sovyet yönetimi ayrı ardıldır.", kaynak:"https://en.wikipedia.org/wiki/United_States_Army_Military_Government_in_Korea (başlangıç kaynaklarda 8/9 Eylül 1945; bitiş 15 Ağustos 1948 yalnız Vikipedi, bağımsız kaynak bulunamadı)", kronoloji:[] },
+
+// =========== KAPSAM BOSLUGU DALGA halef EKLEMESI (13 Ekim 2026) — kronoloji:[] = doldurulacak ===========
+
+{ id:"malezya", ad:"Malezya (Malaya Federasyonu 1957; Malezya 1963-09-16)", tur:"federasyon", bolge:"guneydogu-asya", harita:"ingiliz-malaya", f:"1957-08-31", baskent:"Kuala Lumpur", ozet:"Malaya'nin bagimsizligiyla kurulan federasyon; 1963'te Sabah, Sarawak ve Singapur'la Malezya.", kaynak:"Britannica Malaysia", kronoloji:[] },
+{ id:"guney-yemen", ad:"Guney Yemen (Halk Cumhuriyeti)", tur:"cumhuriyet", bolge:"arabistan", f:"1967-11-30", t:"1990-05-22", baskent:"Aden", ozet:"Aden ve Guney Arabistan'in Ingiliz idaresinden 30 Kasim 1967'de bagimsizligi; 1970'te Yemen Halk Demokratik Cumhuriyeti; 22 Mayis 1990'da Kuzey Yemen ile birlesti.", kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen", kronoloji:[] },
+{ id:"yemen-cumhuriyeti", ad:"Yemen Cumhuriyeti", tur:"cumhuriyet", bolge:"arabistan", f:"1990-05-22", baskent:"Sana", ozet:"Kuzey ve Guney Yemen'in 22 Mayis 1990'da birlesmesiyle kuruldu.", kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen", kronoloji:[] },
+{ id:"birlesik-arap-emirlikleri", ad:"Birlesik Arap Emirlikleri", tur:"federasyon", bolge:"arabistan", f:"1971-12-02", baskent:"Abu Dabi", ozet:"Muahede Sahili seyhliklerinin Ingiliz himayesinin bitmesiyle 2 Aralik 1971'de federasyon olarak kuruldu.", kaynak:"Britannica (ilgili ulke maddesi); BM uyelik kayitlari", kronoloji:[] },
+{ id:"sri-lanka", ad:"Seylan / Sri Lanka", tur:"dominyon-cumhuriyet", bolge:"guney-asya", f:"1948-02-04", baskent:"Kolombo", ozet:"Seylan 4 Subat 1948'de bagimsiz oldu; 1972'de Sri Lanka Cumhuriyeti adini aldi.", kaynak:"Britannica (ilgili ulke maddesi); BM uyelik kayitlari", kronoloji:[] },
+{ id:"madagaskar", ad:"Madagaskar Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-afrika", f:"1960-06-26", baskent:"Antananarivo", ozet:"Fransa'dan 26 Haziran 1960'ta bagimsiz oldu.", kaynak:"Britannica (ilgili ulke maddesi); BM uyelik kayitlari", kronoloji:[] },
+{ id:"hindistan-cumhuriyeti", ad:"Hindistan (Dominyon 1947; Cumhuriyet 1950-01-26)", tur:"cumhuriyet", bolge:"guney-asya", f:"1947-08-15", baskent:"Yeni Delhi", ozet:"15 Agustos 1947'de bagimsiz dominyon, 26 Ocak 1950'de cumhuriyet.", kaynak:"Indian Independence Act 1947; Britannica India", kronoloji:[] },
+{ id:"pakistan", ad:"Pakistan", tur:"cumhuriyet", bolge:"guney-asya", f:"1947-08-15", baskent:"Karaci", ozet:"1947'de bagimsiz dominyon; Dogu kanat 1971'de Banglades oldu.", kaynak:"https://history.state.gov/countries/pakistan", kronoloji:[] },
+{ id:"banglades", ad:"Banglades", tur:"cumhuriyet", bolge:"guney-asya", f:"1971-12-16", baskent:"Dakka", ozet:"Dogu Pakistan'in 1971 savasiyla bagimsiz olusu; 26 Mart 1971 ilan, 16 Aralik 1971 fiili.", kaynak:"https://history.state.gov/countries/bangladesh", kronoloji:[] },
+{ id:"myanmar-birmanya", ad:"Birmanya Birligi (Myanmar)", tur:"cumhuriyet", bolge:"guneydogu-asya", f:"1948-01-04", baskent:"Yangon", ozet:"Ingiliz Burmasi'ndan 4 Ocak 1948'de bagimsiz.", kaynak:"https://history.state.gov/countries/burma", kronoloji:[] },
+{ id:"papua-yeni-gine", ad:"Papua Yeni Gine", tur:"cumhuriyet", bolge:"okyanusya", f:"1975-09-16", baskent:"Port Moresby", ozet:"Avustralya idaresinden 16 Eylul 1975'te bagimsiz.", kaynak:"https://history.state.gov/countries/papua-new-guinea", kronoloji:[] },
+{ id:"nauru-cumhuriyeti", ad:"Nauru Cumhuriyeti", tur:"cumhuriyet", bolge:"okyanusya", f:"1968-01-31", baskent:"Yaren", ozet:"BM vesayetinden 1968'de bagimsiz.", kaynak:"https://history.state.gov/countries/nauru", kronoloji:[] },
+{ id:"untaet", ad:"UNTAET (BM Dogu Timor Gecici Idaresi)", tur:"gecici-idare", bolge:"guneydogu-asya", f:"1999-10-25", t:"2002-05-20", baskent:"Dili", ozet:"BM Guvenlik Konseyi 1272 sayili karariyla kurulan gecici idare; 20 Mayis 2002'de bagimsiz Dogu Timor.", kaynak:"UNSC Resolution 1272 (1999)", kronoloji:[] },
+{ id:"guney-kore", ad:"Kore Cumhuriyeti (Guney Kore)", tur:"cumhuriyet", bolge:"dogu-asya", f:"1948-08-15", baskent:"Seul", ozet:"15 Agustos 1948'de ilan edilen Kore Cumhuriyeti.", kaynak:"Britannica South Korea; Office of the Historian", kronoloji:[] },
+{ id:"kuzey-kore-sovyet-idaresi", ad:"Kuzey Kore Sovyet Sivil Idaresi", tur:"isgal-idaresi", bolge:"dogu-asya", f:"1945-09-09", t:"1948-09-09", baskent:"Pyongyang", ozet:"38. paralelin kuzeyinde Sovyet kuvvetleri ve Gecici Halk Komiteleri.", kaynak:"Library of Congress North Korea Country Study", kronoloji:[] },
+{ id:"kuzey-kore", ad:"Kore Demokratik Halk Cumhuriyeti (Kuzey Kore)", tur:"cumhuriyet", bolge:"dogu-asya", f:"1948-09-09", baskent:"Pyongyang", ozet:"9 Eylul 1948'de ilan edilen KDHC.", kaynak:"Britannica North Korea", kronoloji:[] },
+{ id:"mikronezya-federe-devletleri", ad:"Mikronezya Federe Devletleri", tur:"cumhuriyet", bolge:"okyanusya", f:"1986-11-03", baskent:"Palikir", ozet:"ABD ile Serbest Birlesme Anlasmasi 3 Kasim 1986'da yururlukte; BM uyeligi 1991.", kaynak:"Compact of Free Association; Britannica Micronesia", kronoloji:[] },
+{ id:"marshall-adalari", ad:"Marshall Adalari Cumhuriyeti", tur:"cumhuriyet", bolge:"okyanusya", f:"1986-10-21", baskent:"Majuro", ozet:"ABD ile Serbest Birlesme Anlasmasi 21 Ekim 1986'da yururlukte; BM uyeligi 1991.", kaynak:"Compact of Free Association; Britannica Marshall Islands", kronoloji:[] },
+{ id:"guney-vietnam", ad:"Guney Vietnam (Vietnam Devleti 1949 -> Vietnam Cumhuriyeti 1955)", tur:"devlet", bolge:"guneydogu-asya", f:"1949-03-08", t:"1975-04-30", baskent:"Saygon", ozet:"Fransiz Birligi icinde Vietnam Devleti (Elysee Anlasmasi 1949-03-08), Cenevre 1954 ile 17. paralelin guneyinde, 1955-10-26'dan Vietnam Cumhuriyeti; 1975-04-30'da Saygon'un dusmesiyle sona erdi.", kaynak:"Britannica 'South Vietnam'; Office of the Historian, Cenevre Konferansi 1954", kronoloji:[] },
+{ id:"khmer-cumhuriyeti", ad:"Khmer Cumhuriyeti (Lon Nol)", tur:"devlet", bolge:"guneydogu-asya", harita:"kamboc-kralligi", f:"1970-10-09", t:"1975-04-17", baskent:"Phnom Penh", ozet:"Sihanouk'un 1970-03-18'de devrilmesinden sonra monarsinin kaldirilip cumhuriyetin ilani; 1975-04-17'de Kizil Kmerler Phnom Penh'e girince sona erdi.", kaynak:"Britannica 'Khmer Republic'; Britannica 'Cambodia'", kronoloji:[] },
+{ id:"kampucya-halk-cumhuriyeti", ad:"Kampucya Halk Cumhuriyeti -> Kambocya Devleti", tur:"devlet", bolge:"guneydogu-asya", harita:"kamboc-kralligi", f:"1979-01-07", t:"1993-09-24", baskent:"Phnom Penh", ozet:"Vietnam destekli Heng Samrin yonetimi (PRK, 1989-04-30'da Kambocya Devleti adini aldi); 1993-09-24'te Kambocya Krallığı'nin yeniden kurulusuna dek fiili iktidar (UNTAC 1992-93 donemiyle birlikte).", kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study", kronoloji:[] },
+{ id:"laos-demokratik-halk-cumhuriyeti", ad:"Laos Demokratik Halk Cumhuriyeti", tur:"devlet", bolge:"guneydogu-asya", f:"1975-12-02", baskent:"Vientiane", ozet:"Pathet Lao'nun monarsiyi kaldirip cumhuriyeti ilan etmesiyle (1975-12-02) kurulan tek parti devleti; bugun de surmektedir.", kaynak:"Britannica 'Laos'", kronoloji:[] },
+{ id:"bagimsiz-samoa", ad:"Bağımsız Samoa Devleti (Batı Samoa)", tur:"cumhuriyet", bolge:"okyanusya", f:"1962-01-01", baskent:"Apia", ozet:"Yeni Zelanda idaresindeki BM vesayetinden 1 Ocak 1962'de bağımsız oldu; 1997'de adı Samoa.", kaynak:"Britannica 'Samoa'; Samoa Anayasasi 1960", kronoloji:[] },
+{ id:"mahra-sultanligi", ad:"Mahra Sultanlığı (Kışn ve Sokotra, İngiliz himayesi)", tur:"sultanlik", bolge:"arabistan", f:"1886-01-01", t:"1967-11-30", baskent:"Kışn", ozet:"Kışn ve Sokotra Mahra Sultanlığı 1886 antlaşmasıyla İngiliz himayesine girdi (Aden Himaye Bölgesi); 1967-11-30'da Güney Yemen'e katıldı. 1886 günü bulunamadı.", kaynak:"Encyclopaedia Britannica (Socotra, Mahra); Library of Congress Country Studies Yemen", kronoloji:[] },
+{ id:"yemen-arap-cumhuriyeti", ad:"Yemen Arap Cumhuriyeti (Kuzey Yemen)", tur:"cumhuriyet", bolge:"arabistan", f:"1962-09-26", t:"1990-05-22", baskent:"Sana", ozet:"1962 darbesiyle Zeydi imamligi yerine kurulan cumhuriyet; 1990'da Guney Yemen ile birlesti.", kaynak:"Library of Congress Country Studies Yemen", kronoloji:[] },
 
 ];

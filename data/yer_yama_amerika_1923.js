@@ -42,14 +42,14 @@ window.YER_YAMA_AMERIKA_1923 = [
 { ad:"Quebec",
   s:[{f:"1608-07-03",t:"1763-02-10",d:"fransa"},
      {f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},
-     {f:"1867-07-01",t:"1923-10-29",d:"kanada"}] },
+     {f:"1867-07-01",t:"2000-12-31",d:"kanada"}] },
 
 // ── Montreal (Ville-Marie) ──  (kaynak kayıt: data/yerlesimler_amerika.js)
 // eski: fransa 1642-05-17→1763-02-10 · ingiliz-kuzey-amerika 1763-02-10→1923-10-29
 { ad:"Montreal (Ville-Marie)",
   s:[{f:"1642-05-17",t:"1763-02-10",d:"fransa"},
      {f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},
-     {f:"1867-07-01",t:"1923-10-29",d:"kanada"}] },
+     {f:"1867-07-01",t:"2000-12-31",d:"kanada"}] },
 
 // ── Port Royal (Acadia) ──  (kaynak kayıt: data/yerlesimler_amerika.js)
 // eski: fransa 1605-01-01→1713-04-11 · ingiltere 1713-04-11→1763-02-10 · ingiliz-kuzey-amerika 1763-02-10→1923-10-29
@@ -57,6 +57,6 @@ window.YER_YAMA_AMERIKA_1923 = [
   s:[{f:"1605-01-01",t:"1713-04-11",d:"fransa"},
      {f:"1713-04-11",t:"1763-02-10",d:"ingiltere"},
      {f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},
-     {f:"1867-07-01",t:"1923-10-29",d:"kanada"}] },
+     {f:"1867-07-01",t:"2000-12-31",d:"kanada"}] },
 
 ];

@@ -84,7 +84,7 @@ window.YERLESIMLER_SEYREK = [
 //    söylüyor; bu İDARÎ bir kademe değişimi, SAHİPLİK değişimi değil —
 //    m: alanı bu yüzden "Şam"da bırakıldı, dönem açılmadı.
 { ad:"Tedmür (Palmyra)",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"sehir", lat:34.550, lon:38.270, g:0, k:4, m:"Şam",
-  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1946-04-17",d:"suriye-lubnan-mandasi"},{f:"1946-04-17",t:"1958-02-22",d:"suriye-cumhuriyeti-1946",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"},{f:"1958-02-22",t:"1961-09-28",d:"birlesik-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon' (BAC 22 Subat 1958; Suriye ayrilisi 28 Eylul 1961)"},{f:"1961-09-28",t:"2000-12-31",d:"suriye-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"}],
   d:[{f:"1516-09-27",t:"1918-10-01"}],
   v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
@@ -99,7 +99,7 @@ window.YERLESIMLER_SEYREK = [
 // 📌 `d:`/`v:` HİÇ YOK ⇒ bu kayıt tek bir kırılma bile üretmiyor.
 { ad:"Dûmetülcendel (Cevf)", tur:"sehir", lat:29.812, lon:39.868, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: bölgede merkezî devlet yok, aşiret idaresi; 1836 öncesi sahipsizlik KASITLI",
-  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud-ucuncu"}] },
+  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1932-09-18",d:"suud-ucuncu"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU — ve yıldızı asıl kesen nokta budur (merkeze 87 km).
 // Vâdî Sirhân, TDV `dumetulcendel`de "Vâdissirhân-Suriye kervan yolları"
@@ -116,7 +116,7 @@ window.YERLESIMLER_SEYREK = [
 // nüfuzundadır ⇒ Hâil/Dûmetülcendel zincirinin aynısı.
 { ad:"Teymâ", tur:"sehir", lat:27.632, lon:38.545, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"kabile", neden:"TDV `teyma`: son bağımsız emîr 1950'de öldü — yerel emîrlik, devlet idaresi yok",
-  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud-ucuncu"}] },
+  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1932-09-18",d:"suud-ucuncu"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ── ④ HİCAZ-NECİD ARASI — p5/H-0009 KAMASININ İLACI ─────────────────
 // 🔴 KASTEN COĞRAFÎ DOLGU (`Necid içi`, `Nefud çölü`, `Rub'ul Hâlî kuzeyi`
@@ -157,7 +157,7 @@ window.YERLESIMLER_SEYREK = [
 // 📌 `d:`/`v:` yok ⇒ kırılma üretmiyor. Etki: 49K/47D'de en yakın nokta
 //    185 km → 37 km (5,1× yakın).
 { ad:"Rın kumulları (Volga-Yayık arası)", tur:"bolge", lat:49.000, lon:47.500, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // =====================================================================
 // PARTİ 2b — RUMELİ / ANADOLU · kullanıcı maddelerinin coğrafyası
@@ -195,7 +195,7 @@ window.YERLESIMLER_SEYREK = [
 // açıldı ama bu iki tarih hiçbir olaylar*.js'de yok — Değişmez 2 borcu
 // doğurmamak için 2 aylık dilim BİLEREK EKLENMEDİ, bkz. yerlesimler.js:1268.
 { ad:"İskeçe",neden:"Gumulcine ile AYNI kusur ve ayni care. Garbi Trakya notu ayni.",kaynak:"TDV `iskece` (200) + `gumulcine` govdesi. Gunler Gumulcine kaydiyla AYNI: 1913-05-30 Londra · 1920-05-27 kulliyattaki 'Gumulcine'nin isgali' maddesi. Iskece Gumulcine ile ayni idari ve askeri kaderi paylasti (27 km ara).", tur:"sehir", lat:41.140, lon:24.890, g:0, k:4, m:"Selanik",
-  s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},{f:"1920-05-27",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1373-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}] },
 
 // Rodop'un kuzey yarısı Gümülcine ile Filibe arasında 120 km boştu.
@@ -242,7 +242,7 @@ window.YERLESIMLER_SEYREK = [
 //       (yerlesimler_kirim.js). ①'in çürümesi oraları da ilgilendirir; o
 //       dosya bu oturumun yetkisinde DEĞİL, dokunulmadı.
 { ad:"Kırcaali", tur:"sehir", lat:41.650, lon:25.370, g:0, k:4, m:"Edirne", kur:"1482-01-01",
-  s:[{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi",kaynak:"de jure devir: İstanbul Antlaşması 29 Eylül 1913 (SINIR-BERLIN-0076 B3; TDV bulgaristan: 'Bulgaristan Batı Trakyası olarak adlandırılan Kırcaali … ilçeleri de Bulgaristan topraklarına dahil edildi'; TDV sayfası bu oturumda yeniden çekilmedi)"}],
+  s:[{f:"1913-09-29",t:"1946-09-15",d:"bulgaristan-kralligi",kaynak:"de jure devir: İstanbul Antlaşması 29 Eylül 1913 (SINIR-BERLIN-0076 B3; TDV bulgaristan: 'Bulgaristan Batı Trakyası olarak adlandırılan Kırcaali … ilçeleri de Bulgaristan topraklarına dahil edildi'; TDV sayfası bu oturumda yeniden çekilmedi)"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   isg:[{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan-kralligi",kaynak:"de facto Bulgar işgali: f gün aralığı atlasın önceki s: kaydından devralındı (1913-07-14 hiçbir antlaşmaya denk gelmiyor), YENİ GÜN İDDİA EDİLMEDİ · SIRADA-B-1012"}],
   d:[{f:"1482-01-01",t:"1913-09-29"}] },
 
@@ -267,7 +267,7 @@ window.YERLESIMLER_SEYREK = [
 // Zincir Foça'nın birebir aynısı — `isg:` 1878 Berlin işgali örtüsü dahil:
 // taban renk 1908 ilhakına kadar Osmanlı kalır (girdi.py isg: gerekçesi).
 { ad:"Trebinye", tur:"sehir", lat:42.711, lon:18.344, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1448-01-01",t:"1466-01-01",d:"hersek",kaynak:"TDV trebinye: 'yüzyılın ortalarında Dük/Hersek Stjepan Vukčić-Kosača, Bosna’dan bağımsız bir idare kurdu (Hersek kesimi) ve Trebinye’nin bulunduğu Župa buraya dahil edildi.' · '1466’da Trebinye hemen hemen bütün Hersek bölgesiyle birlikte Osmanlılar tarafından ele geçirildi.' · f: EB1911 'Bosnia and Herzegovina': Vukčić 'had united Tribunia [başkenti Trebinje] and Hlum into a single principality' · 'Duke of St Sava' unvanı 1448 — YIL"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1448-01-01",t:"1466-01-01",d:"hersek",kaynak:"TDV trebinye: 'yüzyılın ortalarında Dük/Hersek Stjepan Vukčić-Kosača, Bosna’dan bağımsız bir idare kurdu (Hersek kesimi) ve Trebinye’nin bulunduğu Župa buraya dahil edildi.' · '1466’da Trebinye hemen hemen bütün Hersek bölgesiyle birlikte Osmanlılar tarafından ele geçirildi.' · f: EB1911 'Bosnia and Herzegovina': Vukčić 'had united Tribunia [başkenti Trebinje] and Hlum into a single principality' · 'Duke of St Sava' unvanı 1448 — YIL"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1466-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -280,7 +280,7 @@ window.YERLESIMLER_SEYREK = [
 // ⇒ Fetih günü olarak 1463-06-01 (Travnik'in günü) seçildi: Bosna
 //   Krallığı'nın yıkıldığı yıl ve mevcut kırılma günü.
 { ad:"Vişegrad", tur:"sehir", lat:43.783, lon:19.288, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1463-06-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -290,7 +290,7 @@ window.YERLESIMLER_SEYREK = [
 // Zincir İzvornik'in birebir aynısı: aynı Drina havzası, aynı sancak,
 // 1460-01-01 mevcut kırılma günü.
 { ad:"Tuzla (Bosna)", tur:"sehir", lat:44.538, lon:18.676, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1460-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -314,7 +314,7 @@ window.YERLESIMLER_SEYREK = [
 //    kaynağa uygun hem de sahte bir çelişki üretmiyor. Var olan kusuru
 //    kopyalamak yerine kopyalamamak seçildi.
 { ad:"Karabiga", tur:"liman", lat:40.410, lon:27.300, g:0, k:4, m:"Biga",
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1920-04-23"}] },
 
 ];

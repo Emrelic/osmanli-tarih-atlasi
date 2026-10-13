@@ -40,7 +40,7 @@ window.YER_YAMA_1923_DUZELTME = [
 // gününe BİREBİR UYUYOR. Yalnız etiket düzeltildi, gün zaten doğruydu.
 { ad:"Doha (Katar)",
   v:[{f:"1871-09-20",t:"1913-07-29",k:"Sânî emirliği (Osmanlı kazâsı)"}],
-  s:[{f:"1913-07-29",t:"1923-10-29",d:"katar"}],
+  s:[{f:"1913-07-29",t:"2000-12-31",d:"katar"}],
   isg:[{f:"1916-11-03",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: katar — \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\" (ilhak değil himaye, tarih BİREBİR eşleşti). Mevcut sahiplik (katar) korundu, İngiltere isg: olarak eklendi.",
   neden:"" },
@@ -51,7 +51,7 @@ window.YER_YAMA_1923_DUZELTME = [
 // noktanın f:1914-11-22'si TDV'nin gününe BİREBİR UYUYOR.
 { ad:"Kuveyt",
   s:[{f:"1716-01-01",t:"1795-04-01",d:"benihalid"},
-     {f:"1914-11-22",t:"1923-10-29",d:"kuveyt"}],
+     {f:"1914-11-22",t:"2000-12-31",d:"kuveyt"}],
   v:[{f:"1795-04-01",t:"1871-01-01",k:"Sabah emirliği (Osmanlı himayesinde)"},
      {f:"1871-01-01",t:"1914-11-22",k:"Sabah emirliği (Osmanlı kazâsı)"}],
   isg:[{f:"1914-11-22",t:"1923-10-29",d:"ingiltere"}],
@@ -65,7 +65,7 @@ window.YER_YAMA_1923_DUZELTME = [
 // Mevcut noktanın t:1900-01-01'i muhtemelen 1900 Buganda Antlaşması'na
 // (iyi bilinen tarihî olay) işaret ediyor — GÜNE dokunmadım.
 { ad:"Mengo (Buganda)",
-  s:[{f:"1300-01-01",t:"1923-10-29",d:"buganda",kaynak:"uganda"}],
+  s:[{f:"1300-01-01",t:"1923-10-29",d:"buganda",kaynak:"uganda"},{f:"1923-10-29",t:"1962-10-09",d:"ingiliz-uganda-himayesi",kaynak:"Britannica Uganda; 1900 Buganda Agreement; Uganda bagimsizligi 9 Ekim 1962"},{f:"1962-10-09",t:"2000-12-31",d:"uganda",kaynak:"Britannica Uganda; Library of Congress Country Studies Uganda"}],
   isg:[{f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: uganda — Buganda kralı Mwanga ile \"himaye antlaşması\" imzalandı (ilhak değil), 1922'de Buganda Müslümanlarının kendi okulları açması iç idarenin sürdüğünü gösteriyor. İngiltere isg: olarak eklendi.",
   neden:"" }

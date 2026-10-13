@@ -115,15 +115,15 @@ window.YERLESIMLER_EK21 = [
 // ═══ A ═══ DIŞ MOĞOLİSTAN (HALHA) — `_ek19` zinciri ═══ 3 nokta ═══
 
 { ad:"Gobi-Altay (Yösönbulag)", tur:"sehir", lat:46.3700, lon:96.2600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Bayanhongor", tur:"sehir", lat:46.1900, lon:100.7200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Güney Gobi — sınırın DIŞ tarafındaki en güney nokta. Bunun ve
 // `Gaşun Gobi`nin orta dikmesi Moğolistan-Çin sınırının üstüne düşüyor.
 { ad:"Ömnögovi (Dalanzadgad)", tur:"sehir", lat:43.5700, lon:104.4200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ═══ B ═══ İÇ MOĞOLİSTAN / ALAŞA — Qing 1636, Çin 1912 ═══ 3 nokta ═══
 // ⚠️ Bu üçü `mogolistan` TAŞIMIYOR ve bu kasıtlı: İç Moğolistan 1911'de
@@ -135,15 +135,15 @@ window.YERLESIMLER_EK21 = [
 //    sürdü ve 1698'de Torgut bayrağı kuruldu. Nokta vahayı temsil ediyor,
 //    harabeyi değil — o yüzden `kur:`/`bit:` YAZILMADI.
 { ad:"Ejin (Hara-Hoto)", tur:"sehir", lat:41.9500, lon:101.0700, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Coğrafî dolgu — ölçümün en aç hücrelerinden ikisi (474 ve 434 km)
 // tam burada. `Bozkır (Deşt-i Kıpçak)` · `Karakum` · `Cungarya havzası`
 // ile aynı sınıf: pencerede kurulmuş yerleşim yok, UYDURULMADI.
 { ad:"Gaşun Gobi", tur:"bolge", lat:42.5000, lon:103.0000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"},{f:"1923-10-29",t:"1924-11-26",d:"mogolistan",kaynak:"tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"tsv kunye f=1924-11-26"}] },
 
 { ad:"Alaşa kuzeyi", tur:"bolge", lat:42.4000, lon:105.5000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"},{f:"1923-10-29",t:"1924-11-26",d:"mogolistan",kaynak:"tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"tsv kunye f=1924-11-26"}] },
 
 ];

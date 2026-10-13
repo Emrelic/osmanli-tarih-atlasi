@@ -29,7 +29,7 @@ window.YER_YAMA_EGEADALARI = [
     s: [
       { f: "1281-01-01", t: "1479-01-25", d: "bizans" },
       { f: "1656-08-21", t: "1657-11-15", d: "venedik" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-10-08", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -43,7 +43,7 @@ window.YER_YAMA_EGEADALARI = [
     ],
     s: [
       { f: "1281-01-01", t: "1479-01-25", d: "bizans" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-10-08", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -57,7 +57,7 @@ window.YER_YAMA_EGEADALARI = [
     ],
     s: [
       { f: "1281-01-01", t: "1455-01-01", d: "ceneviz" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-10-18", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -73,7 +73,7 @@ window.YER_YAMA_EGEADALARI = [
     s: [
       { f: "1281-01-01", t: "1456-01-24", d: "ceneviz" },
       { f: "1656-07-13", t: "1657-11-15", d: "venedik" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-10-19", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -89,7 +89,7 @@ window.YER_YAMA_EGEADALARI = [
     s: [
       { f: "1281-01-01", t: "1566-04-14", d: "ceneviz" },
       { f: "1694-09-21", t: "1695-02-22", d: "venedik" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-11", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -103,7 +103,7 @@ window.YER_YAMA_EGEADALARI = [
     ],
     s: [
       { f: "1281-01-01", t: "1566-04-14", d: "ceneviz" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-11", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -117,7 +117,7 @@ window.YER_YAMA_EGEADALARI = [
     ],
     s: [
       { f: "1281-01-01", t: "1462-09-17", d: "ceneviz" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-21", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -131,7 +131,7 @@ window.YER_YAMA_EGEADALARI = [
     ],
     s: [
       { f: "1281-01-01", t: "1462-09-17", d: "ceneviz" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-21", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -145,7 +145,7 @@ window.YER_YAMA_EGEADALARI = [
     ],
     s: [
       { f: "1281-01-01", t: "1521-01-01", d: "ceneviz" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-07-17", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"
@@ -160,7 +160,7 @@ window.YER_YAMA_EGEADALARI = [
     s: [
       { f: "1281-01-01", t: "1362-01-01", d: "bizans" },
       { f: "1362-01-01", t: "1521-01-01", d: "ceneviz" },
-      { f: "1923-07-24", t: "1923-10-29", d: "yunanistan" }
+      { f: "1923-07-24", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-07-17", t: "1923-07-24", d: "yunanistan" } ],
     kaynak: "limni"

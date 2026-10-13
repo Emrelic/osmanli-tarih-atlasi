@@ -54,7 +54,7 @@ window.YER_YAMA_TIMBUKTU = [
       { f: "1792-01-01", t: "1833-01-01", d: "tuareg-ivellemmedan" },
       { f: "1833-01-01", t: "1862-01-01", d: "massina" },
       { f: "1862-01-01", t: "1893-01-01", d: "tekrur" },
-      { f: "1894-01-01", t: "1923-10-29", d: "fransa-cumhuriyet" }
+      { f: "1894-01-01", t: "1960-06-20", d: "fransa-cumhuriyet" },{f:"1960-06-20",t:"1960-08-20",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-08-20",t:"2000-12-31",d:"mali",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}
     ],
     kaynak: "tinbuktu — TDV, gövde açıldı; alıntılar dosya başlığında AYNEN. 1770 TÜRETİLMİŞ («on yıl sonra», metinde o rakam geçmiyor). 1862-1893 dilimi DOĞRULANDI (TDV: «1860'lı yıllarda üçüncü Tekrûr Devleti'nin … Ahmed Tâl'in egemenliğine geçti»); dönem uçları kardeş künyelerden (massina 1862 · tekrur 1893). 1893-1894 arası BOŞ — gerekçe dosya sonunda."
   }

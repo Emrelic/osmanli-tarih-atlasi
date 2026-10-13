@@ -83,6 +83,6 @@ window.YERLESIMLER_HINT0912 = [
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1721-01-01", d:"babur-imparatorlugu"},
-     {f:"1721-01-01", t:"1923-10-29", d:"baroda"}] },
+     {f:"1721-01-01", t:"1949-05-01", d:"baroda"},{f:"1949-05-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India; Baroda 1 Mayis 1949'da Bombay Eyaleti'ne katildi"}] },
 
 ];

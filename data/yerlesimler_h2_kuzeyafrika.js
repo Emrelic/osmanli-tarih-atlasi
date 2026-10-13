@@ -51,7 +51,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   // Alevî (Filâlî) hanedanının payitahtı — TDV `miknas`, `filaliler`.
   { ad:"Miknâs (Meknes)", tur:"sehir", lat:33.895, lon:-5.555, g:1, k:1, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `titvan`: 1435'te yıkılan şehir Endülüs muhacirlerince 888-889
   // (1483-1484) boş bulunup yeniden kuruldu ⇒ `kur`.
@@ -59,41 +59,41 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
-    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
+    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"},{"f":"1923-10-29","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
   { ad:"el-Arâiş (Larache)", tur:"liman", lat:35.193, lon:-6.156, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1610-01-01",d:"sadi"},
        {f:"1610-01-01",t:"1689-01-01",d:"ispanya",enklav:true},
-       {f:"1689-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+       {f:"1689-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Vâdilmehâzin (Üç Padişah) Savaşı 1578 bu şehrin kuzeyinde oldu.
   { ad:"Kasrülkebîr", tur:"sehir", lat:35.001, lon:-5.906, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Tâze geçidi — Fas ile Rif/Şark arasındaki tek doğal koridor.
   { ad:"Tâze (Taza)", tur:"sehir", lat:34.210, lon:-4.010, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // 🔴 SINIR NOKTASI. Vecde yokken Fas'ın kuzeydoğusu Tilimsan'ın peteğine
   // düşüyordu; Tilimsan 1552'den Osmanlı olduğu için Melviye'nin batısı
   // dört asır boyunca yanlış tarafta boyanıyordu.
   { ad:"Vecde (Oujda)", tur:"sehir", lat:34.681, lon:-1.900, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `sicilmase` — Tâfilelt'in kervan başkenti, Alevî hanedanının ocağı.
   { ad:"Sicilmâse (Tâfilelt)", tur:"sehir", lat:31.281, lon:-4.283, g:0, k:3, m:null,
-    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Sa'dî hanedanının ilk merkezi (Sûs) — TDV `sus`.
   { ad:"Tarûdant", tur:"sehir", lat:30.471, lon:-8.877, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Sîdî Muhammed b. Abdullah 1764'te kurdurdu ⇒ `kur`.
   { ad:"Sûvayra (Mogador)", tur:"liman", lat:31.513, lon:-9.770, g:0, k:3, m:null,
     kur:"1764-01-01",
-    s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Şefşâven",neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
     kur:"1471-01-01",
@@ -103,7 +103,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı
   // hiç yazma. Eksik alan yanlış alandan iyidir.").
   { ad:"Vezzân (Ouezzane)", tur:"sehir", lat:34.796, lon:-5.583, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Peñón de Vélez de la Gomera: 1508 alındı, 1522 kaybedildi, 1564'te
   // (Ağustos-Eylül) geri alındı ve bir daha çıkılmadı. Gün doğrulanamadı.
@@ -129,61 +129,60 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //     ±1,3 km'de 19.435 geçerli nokta buldu; bu, en yakın olanı.
   { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1727, lon:-4.3007, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1564-01-01",d:"sadi"},
-       {f:"1564-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
+       {f:"1564-01-01",t:"2000-12-31",d:"ispanya",enklav:true}], d:[], v:[] },
 
   { ad:"el-Hüseyme (Alhucemas)", tur:"kale", lat:35.246, lon:-3.931, g:0, k:4, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1673-01-01",d:"fas"},
-       {f:"1673-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1673-01-01",d:"fas"},{f:"1673-01-01",t:"2000-12-31",d:"ispanya",enklav:true}], d:[], v:[] },
 
   // La Mâmûra / Mehdiye. ⚠️ `ad` ÇAKIŞMASI: Tunus'ta zaten "Mehdiye" var
   // (35,505 / 11,062) — bu yüzden ad "Mamûra" ile açıldı.
   { ad:"Mamûra (Mehdiye)", tur:"kale", lat:34.256, lon:-6.678, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1614-01-01",d:"sadi"},
        {f:"1614-01-01",t:"1681-01-01",d:"ispanya",enklav:true},
-       {f:"1681-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+       {f:"1681-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Debdû", tur:"sehir", lat:34.098, lon:-3.032, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Fas-Cezayir çöl hududundaki vaha — Vecde ile birlikte Melviye/Zûsfâne
   // hattını tutar.
   { ad:"Fîgîg (Figuig)", tur:"sehir", lat:32.109, lon:-1.227, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `darulbeyza` — eski Anfa; 1770'te Sîdî Muhammed yeniden imar etti.
   { ad:"Dârülbeyzâ (Anfa)", tur:"liman", lat:33.573, lon:-7.590, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Zâgûre (Dr'a)", tur:"sehir", lat:30.332, lon:-5.838, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Verzâzât", tur:"sehir", lat:30.920, lon:-6.910, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tinğîr", tur:"sehir", lat:31.515, lon:-5.533, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Benî Mellâl", tur:"sehir", lat:32.337, lon:-6.360, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Hunayfire (Khenifra)", tur:"sehir", lat:32.936, lon:-5.668, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Sefrû", tur:"sehir", lat:33.830, lon:-4.836, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Îfnî (Sîdî İfnî)", tur:"liman", lat:29.379, lon:-10.173, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tîznît", tur:"sehir", lat:29.699, lon:-9.732, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Vâdî Nûn — Tekne kabilelerinin kervan kapısı, Sahra'ya açılan uç.
   { ad:"Ğulmîm (Vâdî Nûn)", tur:"sehir", lat:28.987, lon:-10.057, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tâtâ", tur:"sehir", lat:29.744, lon:-7.972, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------
@@ -203,14 +202,14 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // seferiyle girdi (Lalla Fatma N'Sûmer'in esir alınışı, Temmuz 1857).
   { ad:"Tîzî Vezzû (Kabiliye)", tur:"sehir", lat:36.712, lon:4.047, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
   // Kal'a-i Benî Abbâs'ın (Ait Abbas) bölgesi.
   { ad:"Akbû (Benî Abbâs)", tur:"kale", lat:36.457, lon:4.531, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
@@ -220,7 +219,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   { ad:"Tâhert (Tiaret)", tur:"sehir", lat:35.371, lon:1.322, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
        {f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},
-       {f:"1841-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1841-01-01",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
@@ -229,7 +228,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // güzergâhındadır; o yüzden Ağvât/Gardâye'nin tarihini paylaşır.
   { ad:"Cilfe (Djelfa)", tur:"sehir", lat:34.673, lon:3.263, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1852-12-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
@@ -239,7 +238,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    Tuggurt'un kayıtlı 1854-12-02 tarihi de aynı seferdendir.
   { ad:"Vargla (Ouargla)", tur:"sehir", lat:31.949, lon:5.325, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-11-23",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1854-11-23",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-11-23",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
@@ -247,20 +246,20 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // eğdi, o yüzden Tuggurt'un kayıtlı tarihini paylaşır: YENİ TARİH YOK.
   { ad:"el-Vâdî (Sûf)", tur:"sehir", lat:33.368, lon:6.867, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-12-02",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1854-12-02",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
   // Evrâs (Aurès) dağları — Batna ile Tebesse'nin 1844-03-04 kümesinde.
   { ad:"Hanşele (Khenchela)", tur:"sehir", lat:35.436, lon:7.144, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
   { ad:"Aynı Beydâ", tur:"sehir", lat:35.796, lon:7.393, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
@@ -273,25 +272,25 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // protestosuyla karşılandı. ⇒ `fas`, sonra `fransa`.
   { ad:"Advâr (Tuvât)", tur:"sehir", lat:27.874, lon:-0.294, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   { ad:"Tîmîmûn (Gûrâre)", tur:"sehir", lat:29.256, lon:0.231, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   // Tîdîkelt'in merkezi. Fransızlar 29 Aralık 1899'da işgal etti —
   // kümenin geri kalanından 14 ay önce, o yüzden AYRI tarih.
   { ad:"Aynı Sâlih (Tîdîkelt)", tur:"sehir", lat:27.194, lon:2.480, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1899-12-29",d:"fas"},
-       {f:"1899-12-29",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1899-12-29",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   { ad:"Reggân", tur:"sehir", lat:26.719, lon:0.170, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   { ad:"Benî Abbâs (Sâvre)", tur:"sehir", lat:30.130, lon:-2.170, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   // Zûsfâne-Sâvre havzası. Lyautey'in Cebel-i Beşşâr'ın batısına kurdurduğu
   // karakol **11 Kasım 1903**'te tesis edildi ve "Colomb-Béchar" adını aldı.
@@ -301,7 +300,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    (±30 gün penceresi aynı), ama YAZILAN TARİH DOĞRU OLMAK ZORUNDA.
   { ad:"Beşşâr (Béchar)", tur:"sehir", lat:31.617, lon:-2.216, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1903-11-11",d:"fas"},
-       {f:"1903-11-11",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1903-11-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------
@@ -369,43 +368,43 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   { ad:"Terhûne", tur:"sehir", lat:32.435, lon:13.633, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cebelinefûse'nin batı ucu — TDV `nefuse`.
   { ad:"Kabâv (Nefûse)", tur:"sehir", lat:31.941, lon:12.036, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Sinâvin", tur:"sehir", lat:31.007, lon:10.616, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Derc (Derj)", tur:"sehir", lat:30.155, lon:10.442, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Tâverğa", tur:"sehir", lat:32.005, lon:15.055, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cufre vahaları — Sokna'nın (29,070/15,792) doğu komşusu.
   { ad:"Vaddân (Cufre)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Zilla (Zella)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -413,12 +412,12 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // arasında 350 km nokta yoktu.
   { ad:"Nûfiliye", tur:"sehir", lat:30.784, lon:17.983, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Merâde",kaynak:"fizan", tur:"bolge", lat:29.230, lon:19.213, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -430,7 +429,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //   kalmış ikizi. Osmanlı günü kardeş noktalarla (Bingazi · Merc · Beyzâ ·
   //   Ecdâbiye) aynı: 1551-08-15.
   { ad:"Tulmeyse", tur:"liman", lat:32.712, lon:20.951, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -442,7 +441,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // 🔴 BERKA-0087 — Tulmeyse ile aynı (yukarı bak): memluk 1281→1517-05-19 + d 1517
   //   kaynaksızdı. Osmanlı günü Derne ile aynı: 1551-08-15 (Tobruk 1556'da kalıyor).
   { ad:"Ayn el-Ğazâle (Bomba)", tur:"liman", lat:32.495, lon:23.120, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -455,20 +454,20 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   // Murzuk'tan önceki Fizan başkenti.
   { ad:"Tırgan (Traghan)",kaynak:"fizan", tur:"sehir", lat:26.130, lon:14.470, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Benî Hattâb'ın eski merkezi; TDV `fizan` maddesinde Evlâd-ı
   // Muhammed'in ilk yerleştiği yer olarak geçer.
   { ad:"Zevîle (Zawila)",kaynak:"fizan", tur:"sehir", lat:26.170, lon:15.113, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Fizan'ın güney kapısı — Bornu kervan yolunun ilk menzili.
   { ad:"el-Katrûn",kaynak:"fizan", tur:"sehir", lat:24.919, lon:14.647, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 

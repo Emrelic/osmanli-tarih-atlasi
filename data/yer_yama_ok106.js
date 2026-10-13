@@ -150,7 +150,7 @@ window.YER_YAMA_OK106 = [
       { f: "1739-09-18", t: "1774-07-21", d: "__BOSLUK__" },
       { f: "1774-07-21", t: "1917-03-15", d: "rusya" },
       { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
-      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+      { f: "1917-11-07", t: "1991-12-26", d: "sovyet-rusya" },{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}
     ],
     kaynak: "kabartaylar",
     neden: "TDV `kabartaylar` (gövde okundu): \"Belgrad Antlaşması (1739) … " +

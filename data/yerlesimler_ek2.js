@@ -35,7 +35,7 @@ window.YERLESIMLER_EK2 = [
 //   vermiyor — gün UYDURULMADI, mevcut kırılmaya oturtuldu.
 // Zincir Travnik'in birebir aynısı (isg: 1878 Berlin işgali örtüsü dahil).
 { ad:"Koniçe (Konjic)", tur:"sehir", lat:43.652, lon:17.962, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1463-06-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -49,7 +49,7 @@ window.YERLESIMLER_EK2 = [
 //    geçişinden alındı ve ikisi ayrı ayrı yazıldı ki karıştırılmasın.
 // ⇒ Zincir Saraybosna'nın birebir aynısı, 1448-01-01 (mevcut kırılma).
 { ad:"Visoko", tur:"sehir", lat:43.989, lon:18.179, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1448-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -78,7 +78,7 @@ window.YERLESIMLER_EK2 = [
 //   bir nokta konamaz (3 km kuralı). Tam çözüm `kur:`/`bit:` yerine
 //   petek epokunda bir değişiklik ister; bu oturumun yetkisi dışında.
 { ad:"Boğaziçi (Rumeli yakası)", tur:"bolge", lat:41.150, lon:29.050, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1453-05-29",t:"1920-04-23"}] },
 
 // ── THEODORO PRENSLİĞİ — renk engeli kalktı, iki nokta açıldı ────────
@@ -132,7 +132,7 @@ window.YERLESIMLER_EK2 = [
 //      merkezi (Biga) zinciri aynıydı. Mankup'ta öyle bir merkez YOK —
 //      Kefe'nin 1475 öncesi sahibi farklı. Aynı kusur, iki farklı çare.
 { ad:"Mankup", kd:[{f:"1281-01-01",t:"1475-06-06",k:0,m:null},{f:"1475-06-06",t:"1923-10-29",k:3,m:"Kefe"}],neden:"k:3, m:— idi. İLK TASLAĞIM Bahçesaray'dı (Kırım Hanlığı başkenti) — TDV okununca YANLIŞ çıktı: Mankup'un kendi verisi zaten d: (doğrudan Osmanlı) diyor, v: (tâbi/Hanlık) değil. TDV bunu doğruluyor: Mankup Kefe sancağının kazasıydı, Kırım Hanlığı'nın değil. Bu düzeltme AYRICA İnkirman'ı da kapatıyor: veride zaten m:'Mankup' yazılıydı ve TDV bunu da doğruluyor ('Balıklagu ve İnkerman da Mangub'a bağlı şehirlerdi').",m:"Kefe", tur:"kale", lat:44.5942, lon:33.8044, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[{f:"1475-06-06",t:"1774-07-21"}],
   isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 
@@ -141,7 +141,7 @@ window.YERLESIMLER_EK2 = [
 // İnkirman Theodoro. Kırım'ın güneybatısındaki üç ayrı sahiplik
 // (Ceneviz sahili · Theodoro dağı · han toprağı) ilk defa temsil ediliyor.
 { ad:"İnkirman (Kalamita)", tur:"kale", lat:44.6072, lon:33.6061, g:0, k:4, m:"Mankup",
-  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1774-07-21",t:"1783-04-19",d:"kirim",kaynak:"TDV kirim: Kaynarca m.3 'Kırım, Bucak, Kuban… tam mânasıyla müstakil'; Rusya'ya yalnız Kerç, Yenikale ve Kılburun · TDV kefe: 'İkinci Rus saldırısı ve işgali 1777'de gerçekleşti' (1777 gün kaynağı BULUNAMADI, eklenmedi) · SIRADA-C 0082/H-0029 (KARADENIZ-0082)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[{f:"1475-06-06",t:"1774-07-21"}],
   isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"kirim"}] },
 

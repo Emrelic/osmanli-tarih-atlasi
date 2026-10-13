@@ -17,7 +17,7 @@ window.YER_YAMA_BELGESIZ4 = [
 // bunu `data/yerlesimler_*.js`teki Ndjamena kaydına ELLE eklemeli.
 { ad:"Ndjamena",
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1900-01-01",t:"1960-08-11",d:"fransa-cumhuriyet"},{f:"1960-08-11",t:"2000-12-31",d:"cad",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — TDV kapsam dışı. Britannica/BlackPast 'N'Djamena' — Fransızlarca 1900'de, Rabih az-Zubayr'ı yendikleri savaş alanında Fort-Lamy adıyla kuruldu; öncesi küçük bir Kotoko yerleşimiydi (bağımsız bir devlet DEĞİL, bu yüzden 1900 öncesi için kur: ile sorgu KAPATILDI, boşluk beyanı gerekmiyor).",
   neden:"" },
 
@@ -26,7 +26,7 @@ window.YER_YAMA_BELGESIZ4 = [
 { ad:"Darfur",
   s:[{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},
      {f:"1695-01-01",t:"1916-11-06",d:"darfur"},
-     {f:"1916-11-06",t:"1923-10-29",d:"ingiliz-sudani"}],
+     {f:"1916-11-06",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   kaynak:"devletler.js'teki MEVCUT `tunciler` ve `darfur` künyelerinin kendi f/t pencereleri + M-2908/M-2919'da ONAYLANAN `ingiliz-sudani` künyesi (f:1899-01-19,t:1923-10-29) — TDV 'sudan' gövdesi: '6 Kasım 1916'da öldürülüp Dârfûr toprakları bir eyalet halinde İngiliz Sudanı'na bağlandı', darfur künyesinin kendi t:1916-11-06 değeriyle BİREBİR.",
   not:"🟢 M-2937 sınavı: ingiliz-sudani'nin f:1899-01-19'u darfur'un t:1916-11-06'sından ÖNCE — üçüncü dönemin f: değeri (1916-11-06) darfur'un bitişiyle BİREBİR eşleşiyor, ARADA BOŞLUK YOK. 🔴 RENK BEKLİYOR (ingiliz-sudani henüz renksiz) — bu üçüncü dönem künye+renk inmeden UYGULANAMAZ, sıra: 1) ingiliz-sudani künyesi iner 2) renk üretilir 3) bu güncelleme iner." }
 

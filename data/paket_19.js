@@ -71,7 +71,7 @@ window.YERLESIMLER_EK_KORFEZ = [
 { ad:"Katar Yarımadası (iç, dolgu)", tur:"bolge", lat:25.40, lon:50.95, g:0, k:0,
   bos:"devletsiz",
   neden:"Katar yarımadasının bu iç kesiminde nokta yoktu ve komşu Ukayr (Uceyr) peteğine emiliyordu (H-0021, py arac/nicin_bos.py --lat 25.3 --lon 51.2 --gun 1602-01-01: 106.6 km, OSMANLI, tavan YETİŞİR). Bu nokta peteğin nerede biteceğini belirleyen bir DOLGUDUR. 1559-1670 arası Osmanlı'ya tâbi: TDV katar — Lahsâ beylerbeyiliği ve ardından Katar sancağı (1559); doğrudan idare yarım kaldı, hâkimiyet Benî Müsellem mahallî idarecileri üzerinden. 1559 öncesi ve 1670 sonrası (1868/1871 Osmanlı-Katar kazâsına kadar, Doha kaydı) sahipsizlik KASITLI HÜKÜM DEĞİL: bağlılık bulunamadı (TDV katar 1559'dan 1776'ya atlıyor). 1670 bitişi Lahsa/Ukayr benihalid geçişiyle hizalı; TDV riyad bu değişimi yalnız 'XVII. yüzyılın ikinci yarısı' diye veriyor, yılın kendi kaynağı bulunamadı.",
-  d:[], s:[{f:"1868-01-01",t:"1871-09-20",d:"katar",kaynak:"TDV katar: '1868 sonbaharında Katar’a gemi göndererek Muhammed b. Sânî’yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar' ⇒ 1868’de Âl Sânî Katar’ın yöneticisi (terminus ante quem; kuruluş yılı BULUNAMADI, gün yok ⇒ 1868-01-01) · bitiş: '1871 sonbaharında Katar’da da Osmanlı kontrolü sağlandı' (mevcut v: 1871-09-20) · ⚠️ 1871-04-20 maddesi (olaylar_ek5.js) LAHSÂ seferidir, Katar değil · UYGULA-YERLESIM-0930 (0076/H-0023)"},{f:"1913-07-29",t:"1923-10-29",d:"katar",kaynak:"Doha kaydıyla aynı: 29 Temmuz 1913 Osmanlı-İngiliz mukavelesi (Osmanlı çekilir) · UYGULA-YERLESIM-0930"}],
+  d:[], s:[{f:"1868-01-01",t:"1871-09-20",d:"katar",kaynak:"TDV katar: '1868 sonbaharında Katar’a gemi göndererek Muhammed b. Sânî’yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar' ⇒ 1868’de Âl Sânî Katar’ın yöneticisi (terminus ante quem; kuruluş yılı BULUNAMADI, gün yok ⇒ 1868-01-01) · bitiş: '1871 sonbaharında Katar’da da Osmanlı kontrolü sağlandı' (mevcut v: 1871-09-20) · ⚠️ 1871-04-20 maddesi (olaylar_ek5.js) LAHSÂ seferidir, Katar değil · UYGULA-YERLESIM-0930 (0076/H-0023)"},{f:"1913-07-29",t:"2000-12-31",d:"katar",kaynak:"Doha kaydıyla aynı: 29 Temmuz 1913 Osmanlı-İngiliz mukavelesi (Osmanlı çekilir) · UYGULA-YERLESIM-0930"}],
   isg:[{f:"1916-11-03",t:"1923-10-29",d:"ingiltere",kaynak:"TDV katar: '3 Kasım 1916’da … himaye antlaşması' (Doha kaydıyla aynı) · UYGULA-YERLESIM-0930"}],
   v:[{ f:"1559-01-01", t:"1670-01-01", k:"Katar (Benî Müsellem) — Lahsâ beylerbeyiliğine bağlı", statu:"vassal",
        kaynak:"TDV katar: 'Katar sancağını kurarak buraya idareciler tayin etti (1559)' · 'tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar içinde' — bitiş: TDV riyad 'XVII. yüzyılın ikinci yarısı', yıl Lahsa kaydına hizalı (kaynağı bulunamadı)" },
@@ -119,7 +119,7 @@ window.YERLESIMLER_EK_BOSLUK = [
 //    (ölçüldü: 1 madde) ⇒ Değişmez 2 açılmıyor, yeni gün yaratılmadı.
 {ad:"Birecik", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Urfa"}], tur:"sehir", lat:37.025, lon:37.977, g:1, k:3,
  m:"Urfa",
- s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+ s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
  d:[{f:"1516-08-24",t:"1920-04-23"}],
  kaynak:"TDV `birecik` — gövdesi okundu, 2026-08-28"},
 
@@ -143,7 +143,7 @@ window.YERLESIMLER_EK_BOSLUK = [
  m:"Üsküb",
  s:[{f:"1281-01-01", t:"1455-06-20", d:"sirbistan"},
     {f:"1912-11-03", t:"1918-12-01", d:"sirbistan-kralligi"},
-    {f:"1918-12-01", t:"1923-10-29", d:"yugoslavya"}],
+    {f:"1918-12-01", t:"1945-11-29", d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"1999-06-10",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1999-06-10",t:"2000-12-31",d:"unmik-kosova",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
  d:[{f:"1455-06-20", t:"1912-11-03"}],
  kaynak:"TDV `prizren` — gövdesi okundu, 2026-08-28"},
 

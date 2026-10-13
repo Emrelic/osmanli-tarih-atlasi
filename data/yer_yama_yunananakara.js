@@ -41,7 +41,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1281-01-01", t: "1449-01-01", d: "bizans" },
       { f: "1684-09-29", t: "1797-10-17", d: "venedik" },
       { f: "1797-10-17", t: "1798-10-23", d: "fransa-cumhuriyet" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-10-21", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -58,7 +58,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1281-01-01", t: "1449-01-01", d: "bizans" },
       { f: "1684-09-29", t: "1797-10-17", d: "venedik" },
       { f: "1797-10-17", t: "1798-10-23", d: "fransa-cumhuriyet" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-10-21", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -72,7 +72,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1424-01-01", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-02", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -86,7 +86,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-03-29", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-02", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -106,7 +106,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -126,7 +126,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -145,7 +145,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -163,7 +163,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1402-07-28", t: "1403-06-01", d: "suleyman-celebi" },
       { f: "1403-06-01", t: "1423-09-14", d: "bizans" },
       { f: "1423-09-14", t: "1430-03-29", d: "venedik" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -173,7 +173,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ad: "Vodina (Edessa)",
     // işgal/teslim: 1912-11-08 (veriden) → Atina 1913-11-14
     d: [{f:"1387-01-01",t:"1402-07-28",kaynak:"vodina — 1386-1387 kışı (TDV: kuvvetli ihtimal; KPZ 1391, APZ Üsküp sonrası), YIL"},{f:"1413-07-05",t:"1913-11-14"}],
-    s: [{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+    s: [{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
   },
@@ -190,7 +190,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -204,7 +204,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -218,7 +218,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -232,7 +232,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -249,7 +249,7 @@ window.YER_YAMA_YUNANANAKARA = [
       { f: "1401-01-01", t: "1797-10-17", d: "venedik" },
       { f: "1797-10-17", t: "1815-11-05", d: "fransa-cumhuriyet" },
       { f: "1815-11-05", t: "1819-05-10", d: "ingiltere" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -263,7 +263,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -277,7 +277,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-10-09", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
@@ -291,7 +291,7 @@ window.YER_YAMA_YUNANANAKARA = [
     ],
     s: [
       { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"

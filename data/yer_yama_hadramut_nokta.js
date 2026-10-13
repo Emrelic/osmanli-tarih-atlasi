@@ -25,7 +25,7 @@ window.YER_YAMA_HADRAMUT_NOKTA = [
   lat:15.9260, lon:48.6285,
   kasitli_bosluk:true, bos:"veri-yok",
   neden:"1450 ÖNCESİ ARAŞTIRILMADI — TDV genel Hadramut anlatısı Râşidî (1009-1300) · Eyyûbî (1180-1224) · Resûlî (1229-1454) · Tâhirî (15. yy) hânedanlarını sayıyor ama hiçbiri Şibâm'a ÖZGÜ net bir tarih vermiyor (yalnız 'Şibâm'da Benî Deggâr' ve 'Âl-i Nu'mân Şibâm'a hâkim oldu' gibi isimler var, GÜNSÜZ). Bu yüzden 1450 öncesi 'bulunamadı' değil 'ölçülmedi' — ayrı bir araştırma turu gerektirir.",
-  s:[{f:"1450-01-01",t:"1923-10-29",d:"kesiri-sultanligi"}],
+  s:[{f:"1450-01-01",t:"1967-11-30",d:"kesiri-sultanligi"},{f:"1967-11-30",t:"1990-05-22",d:"guney-yemen",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"}],
   kaynak:"TDV, madde: hadramut (CANLI, raw HTML) — bkz. denetim/YAMA-KUNYE-AIR-HADRAMUT-0905.json kesiri-sultanligi künyesi. 3km sınavı: en yakın nokta mevcut genel 'Hadramut' noktası (49,3 km) — MÜKERRER DEĞİL." },
 
 // ── Şihr — Kuaytî kıyısı, 1915-1919 Osmanlı örtülü — YENİ NOKTA · ELLE ──
@@ -39,7 +39,7 @@ window.YER_YAMA_HADRAMUT_NOKTA = [
   lat:14.7415, lon:49.6041,
   kasitli_bosluk:true, bos:"kabile",
   neden:"1881 ÖNCESİ Yâfiî kabilesine bağlı Ehlü'l-Bereyk yönetimindeydi (TDV: '19. yüzyıla gelindiğinde Yâfiî kabilesine bağlı Ehlü'l-Bereyk Şihr ... yönetmekteydi'; '1658-59'dan itibaren Yâfiîler ... Şihr'de hüküm sürmeye devam ettiler'). Kaynak KONUŞUYOR (klan/kabile yapısı tarif ediyor) ama Yâfiî'nin kendi künyesi projede YOK — bu yüzden 'devletsiz' değil 'kabile'.",
-  s:[{f:"1881-01-01",t:"1923-10-29",d:"kuayti-sultanligi"}],
+  s:[{f:"1881-01-01",t:"1967-11-30",d:"kuayti-sultanligi"},{f:"1967-11-30",t:"1990-05-22",d:"guney-yemen",kaynak:"Library of Congress Country Studies Yemen"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen"}],
   isg:[{f:"1888-01-01",t:"1923-10-29",d:"ingiltere"}],
   v:[{f:"1915-01-01",t:"1919-01-01",k:"Osmanlı hâkimiyeti (NOMİNAL — TDV: '1915'te Hadramut şeyhleriyle ... Ali Said Paşa arasında imzalanan mukavelenâmede ... Kuaytîler'in idaresinde bulunan Şibâm ile Şihr 1919 yılına kadar Osmanlı hâkimiyetinde kaldı')"}],
   kaynak:"TDV, madde: hadramut (CANLI, raw HTML) — bkz. denetim/YAMA-KUNYE-AIR-HADRAMUT-0905.json kuayti-sultanligi künyesi. 3km sınavı: en yakın nokta mevcut 'Mukalla' (56,5 km) — MÜKERRER DEĞİL." }

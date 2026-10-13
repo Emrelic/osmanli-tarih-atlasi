@@ -69,20 +69,20 @@ window.YERLESIMLER_EK_FERHADPASA = [
 { ad:"Çölemerik (Hakkâri)", tur:"sehir", lat:37.5744, lon:43.7408, g:0, k:3, m:"Van",
   // kaynak: hakkari — Van eyaletine bağlı OCAKLIK sancak; zincir Van
   // kaydıyla birebir aynı (aynı fetih, aynı eyalet).
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın DOĞUSU · Mahmudi sancağının kale merkezi ─────────
 { ad:"Hoşap (Mahmudi)", tur:"kale", lat:38.2222, lon:43.7439, g:0, k:3, m:"Van",
   // kaynak: van — "Mahmudi" TDV'nin Van eyaleti birim listesinde ADIYLA
   // geçiyor. Hoşap Kalesi o sancağın merkezidir.
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın KUZEYDOĞUSU · Erciş ile Çaldıran arasındaki boşluk ─────────
 { ad:"Bargiri (Muradiye)", tur:"kale", lat:38.9931, lon:43.7669, g:0, k:3, m:"Van",
   // kaynak: van — "Bargiri" TDV'nin Van eyaleti birim listesinde geçiyor.
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── HATTIN EN DOĞUSU · Kotur geçidi ─────────
@@ -92,7 +92,7 @@ window.YERLESIMLER_EK_FERHADPASA = [
 //    Kotur Kalesi'ni tam o antlaşma çerçevesinde anıyor. 1639 SONRASI
 //    için ayrı bir Osmanlı dayanağı BULUNAMADI — o yüzden uzatılmadı.
 { ad:"Kotur", tur:"kale", lat:38.4750, lon:44.3958, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1639-05-17",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1639-05-17",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}],
   d:[{f:"1548-08-24",t:"1639-05-17"}], v:[] },
 
 ];

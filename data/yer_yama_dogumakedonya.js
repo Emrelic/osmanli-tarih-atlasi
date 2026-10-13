@@ -55,12 +55,11 @@ window.YER_YAMA_DOGUMAKEDONYA = [
     s: [
       { f: "1281-01-01", t: "1387-04-09", d: "bizans" },
       { f: "1913-05-30", t: "1913-08-10", d: "bulgaristan-kralligi" },
-      { f: "1913-08-10", t: "1923-10-29", d: "yunanistan" },
+      { f: "1913-08-10", t: "1973-06-01", d: "yunanistan" },
       { f: "1402-07-28", t: "1410-02-13", d: "suleyman-celebi" },
       { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
-      { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" }
-    ],
+      { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     kaynak: "kavala"
   },
 
@@ -79,7 +78,7 @@ window.YER_YAMA_DOGUMAKEDONYA = [
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
       { f: "1913-05-30", t: "1913-08-10", d: "bulgaristan-kralligi" },
-      { f: "1913-08-10", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-08-10", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     kaynak: "kavala"
   },
@@ -94,12 +93,11 @@ window.YER_YAMA_DOGUMAKEDONYA = [
       { f: "1281-01-01", t: "1345-01-01", d: "bizans" },
       { f: "1345-01-01", t: "1383-09-19", d: "sirbistan" },
       { f: "1913-05-30", t: "1913-08-10", d: "bulgaristan-kralligi" },
-      { f: "1913-08-10", t: "1923-10-29", d: "yunanistan" },
+      { f: "1913-08-10", t: "1973-06-01", d: "yunanistan" },
       { f: "1402-07-28", t: "1410-02-13", d: "suleyman-celebi" },
       { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
-      { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" }
-    ],
+      { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     kaynak: "kavala"
   },
 
@@ -116,7 +114,7 @@ window.YER_YAMA_DOGUMAKEDONYA = [
       { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
       { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
       { f: "1913-05-30", t: "1913-08-10", d: "bulgaristan-kralligi" },
-      { f: "1913-08-10", t: "1923-10-29", d: "yunanistan" }
+      { f: "1913-08-10", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     kaynak: "kavala"
   }

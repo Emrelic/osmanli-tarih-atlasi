@@ -57,7 +57,7 @@
 window.YER_YAMA_AGADEZ_0906 = [
   { ad:"Agadez",
     s:[{f:"1405-01-01",t:"1906-01-01",d:"agadez-sultanligi"},
-       {f:"1906-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1906-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     kaynak:"TDV `nijer` (ülke maddesi, gövde okundu): \"Fransızlar, Agâdes'i işgal edip halkın Osmanlı Devleti ile irtibata geçmesini engelledi (1906).\" — `agadez` slug'ı ÖLÜ (302); kapsayıcı madde `§4` gereği denendi ve TUTTU. Gün YIL hassasiyetinde (`1906-01-01`), TDV gün vermiyor.",
     not:"Önceki hâl TEK BLOK idi (agadez-sultanligi 1405→1923, 518 yıl) ve kendi `kaynak:` alanı \"kapsayıcı bir madde ARANMADI\" diyordu. Arandı. Sultanlık 1906'da fiilen bitti ⇒ 17 yıllık hayalet kapandı. 1917 Kaocen isyanı BİLEREK yazılmadı: TDV Tuaregler'in \"yenildiler\" dediği başarısız bir ayaklanma, ve başarısız isyan tasarrufu değiştirmez. 1515 Songhay bağlılığı TDV'de VAR ama BİTİŞİ YOK ⇒ yazılmadı, açık kalem."
   }

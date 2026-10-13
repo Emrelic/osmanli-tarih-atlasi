@@ -13,7 +13,7 @@ window.YER_YAMA_GECE_V1 = [
    {f:"1717-01-01", t:"1753-01-01", d:"umman"},
    {f:"1753-01-01", t:"1783-01-01", d:"zend"},
    {f:"1783-01-01", t:"1861-05-31", d:"bahreyn"},
-   {f:"1861-05-31", t:"1923-10-29", d:"ingiltere"}
+   {f:"1861-05-31", t:"1971-08-15", d:"ingiltere"},{f:"1971-08-15",t:"2000-12-31",d:"bahreyn",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}
  ],
  kaynak:"data/olaylar_ek13.js:237-335 (A-12…A-19, önceki bir oturumun TDV `bahreyn` gövdesinden çıkardığı tam kronoloji zinciri) — TDV metni doğrudan alıntılanmış: 1417 Cebrîler, 1521 Portekiz (\"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\"), 1602 Safevî (\"1602'de İran'a bağlı kuvvetler tarafından\"), 1717 Umman istilâsı, 1753 Âl-i Mezkûr (Zend adına), 1783 Âl-i Halîfe (\"Utûb kabilesinden... hâkimiyetine girdi\"). `cebri`/`portekiz`/`safevi`/`umman`/`zend`/`bahreyn`/`ingiltere` — yedisi de data/devletler.js'te tanımlı, künye ömürleriyle çakışma yok (cebri 1417-1524 içinde 1417-1521 kullanıldı).",
  neden:"p0006/H-0001'in bıraktığı 'İran ÇEKİRDEĞİ'/Bahreyn zinciri kalemi — PAKET SIRADA (20 Ağustos) bu altı kırılmanın altısının da kronoloji maddesinin ZATEN yazılı olduğunu bulmuştu ('data/olaylar_ek13.js:270-330 — eksik olan tek şey data/yerlesimler.js:993 Manama kaydının s: dizisi, 1281→1861 arası boş'). Bugün ölçtüm: hâlâ boştu (yalnız 1861-05-31→1923-10-29 ingiltere vardı). Altı kırılma günü de (1417/1521/1602/1717/1753/1783) çekirdekte 0 gün farkla ZATEN maddeli — bu kayıt yalnız var olan kronolojiyi haritaya BAĞLIYOR, yeni madde gerektirmiyor.",

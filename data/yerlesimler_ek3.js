@@ -30,7 +30,7 @@ window.YERLESIMLER_EK3 = [
 // 📌 Gün yok, yıl var ⇒ `YYYY-01-01` (ev kuralı). Zaten üçü de s:→s:
 //    geçişi olduğu için KIRILMA ÜRETMİYOR — Değişmez 2 borcu sıfır.
 { ad:"Sebte (Ceuta)", tur:"liman", lat:35.889, lon:-5.318, g:0, k:3, d:[],
-  s:[{f:"1273-01-01",t:"1415-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sebte: 'Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.' · 1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk · ZAMAN-Z6-1008"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz",enklav:true},{f:"1581-04-16",t:"1923-10-29",d:"ispanya",enklav:true}] },
+  s:[{f:"1273-01-01",t:"1415-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sebte: 'Bu sırada Mağrib’in liman ve tersane şehirleri Tanca ile Sebte’yi almaya karar veren Merînî Sultanı Ebû Yûsuf Ya‘kūb, 672’de (1273-74) Sebte’yi ele geçirdi.' · 1084 Murâbıt · 1148 Muvahhid · 1232 İbn Hûd · 1234 Yâneştî · 1242 Hafsî nüfuzu — 1232 sonrası künyesiz yerel yönetim ⇒ kopuk · ZAMAN-Z6-1008"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz",enklav:true},{f:"1581-04-16",t:"2000-12-31",d:"ispanya",enklav:true}] },
 
 // 🔴 BU PARTİNİN EN ZAYIF KAYDI — ve zayıflığı burada yazılı.
 // TDV'de `melile` slug'ı ÖLÜ, müstakil madde YOK. Arama içeriklerinde
@@ -46,7 +46,7 @@ window.YERLESIMLER_EK3 = [
 // ⚠️ Kamengrad'dan farkı bu: orada hiç tarih yoktu ve komşusunu kopyalamak
 //    100 yıl yanlış olurdu; burada tarih var, yalnız TDV'siz.
 { ad:"Melîle (Melilla)", tur:"liman", lat:35.292, lon:-2.938, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1497-01-01",d:"merini"},{f:"1497-01-01",t:"1923-10-29",d:"ispanya",enklav:true}] },
+  s:[{f:"1281-01-01",t:"1497-01-01",d:"merini"},{f:"1497-01-01",t:"2000-12-31",d:"ispanya",enklav:true}] },
 
 // Oran'ın limanı, ona 7,51 km. TDV `vehran`: "Kastilya Krallığı 17 Mayıs
 // 1509'da Vehrân'ı işgal edip"; Mersa'l-Kebîr için AYRI tarih VERMİYOR.
@@ -61,7 +61,7 @@ window.YERLESIMLER_EK3 = [
 //    (Oran) ve Mersalkebîr'in İspanyollardan alınışı"` maddesi VAR ama
 //    haritada karşılığı olan bir yer YOKTU. Madde artık bir yere basıyor.
 { ad:"Mersa'l-Kebîr", tur:"liman", lat:35.728, lon:-0.709, g:0, k:4, m:"Oran",
-  s:[{"f":"1281-01-01","t":"1509-05-17","d":"zeyyani"},{"f":"1509-05-17","t":"1708-04-04","d":"ispanya","enklav":true},{"f":"1732-07-01","t":"1792-09-12","d":"ispanya","enklav":true},{"f":"1831-01-04","t":"1923-10-29","d":"fransa-cumhuriyet"}],
+  s:[{"f":"1281-01-01","t":"1509-05-17","d":"zeyyani"},{"f":"1509-05-17","t":"1708-04-04","d":"ispanya","enklav":true},{"f":"1732-07-01","t":"1792-09-12","d":"ispanya","enklav":true},{"f":"1831-01-04","t":"1962-07-05","d":"fransa-cumhuriyet"},{"f":"1962-07-05","t":"2000-12-31","d":"cezayir","kaynak":"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[{"f":"1708-04-04","t":"1732-07-01","y":"kusatma"},{"f":"1792-09-12","t":"1831-01-04","y":"antlasma"}] },
 
 // ── ② SEYREKLİK LİSTESİ 6-15 — ÜÇ SINIF UYGULANDI ───────────────────
@@ -96,10 +96,10 @@ window.YERLESIMLER_EK3 = [
 //   Zincir "Bozkır (Deşt-i Kıpçak)"ın birebir aynısı; üçü de s:→s:,
 //   kırılma üretmiyor.
 { ad:"Yediçkul bozkırı", v:[{f:"1502-03-01",t:"1774-07-21",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"bolge", lat:46.90, lon:34.60, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Camboyluk bozkırı", v:[{f:"1502-03-01",t:"1774-07-21",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"bolge", lat:47.10, lon:36.80, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ③ PORTEKİZ FASI (Oturum 0, ÇAPRAZ İBERYA D3) ──────────────────────
 // =====================================================================
@@ -117,19 +117,19 @@ window.YERLESIMLER_EK3 = [
 //    Portekiz'in Fas'ta en son bıraktığı yer (1769). En yakın nokta
 //    Rabat'tı, 176 km — yani orası da düz Fas boyanıyordu.
 { ad:"Mazagan (El Jadida)", tur:"kale", lat:33.256, lon:-8.506, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1514-01-01",d:"merini"},{f:"1514-01-01",t:"1769-01-01",d:"portekiz",enklav:true},{f:"1769-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{f:"1281-01-01",t:"1514-01-01",d:"merini"},{f:"1514-01-01",t:"1769-01-01",d:"portekiz",enklav:true},{f:"1769-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}] },
 
 { ad:"Safi (Asfi)", tur:"liman", lat:32.299, lon:-9.237, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1488-01-01","d":"merini"},{"f":"1488-01-01","t":"1541-01-01","d":"portekiz","enklav":true},{"f":"1541-01-01","t":"1549-01-01","d":"sadi"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}] },
+  s:[{"f":"1281-01-01","t":"1488-01-01","d":"merini"},{"f":"1488-01-01","t":"1541-01-01","d":"portekiz","enklav":true},{"f":"1541-01-01","t":"1549-01-01","d":"sadi"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"},{"f":"1923-10-29","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}] },
 
 // Azemmûr alınış günü 1513-01-01 (yıl kodu) → 1513-09-03 — KIRILMASIZ-9, 19 Eyl 2026, 1.MURAT M-4632 (A).
 // Kaynak: Jorge Correia & Ana Lopes, "Azemmour, Morocco: Early Sixteenth-century Portuguese Defences"
 // (EAUM Univ. of Minho / CHAM): "…only to succeed five years later in 1513, on September 3rd."
 { ad:"Azemmûr", tur:"liman", lat:33.289, lon:-8.342, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1513-09-03","d":"merini"},{"f":"1513-09-03","t":"1541-01-01","d":"portekiz","enklav":true,"kaynak":"Correia & Lopes (UMinho/CHAM): 1513, on September 3rd"},{"f":"1541-01-01","t":"1549-01-01","d":"sadi"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}] },
+  s:[{"f":"1281-01-01","t":"1513-09-03","d":"merini"},{"f":"1513-09-03","t":"1541-01-01","d":"portekiz","enklav":true,"kaynak":"Correia & Lopes (UMinho/CHAM): 1513, on September 3rd"},{"f":"1541-01-01","t":"1549-01-01","d":"sadi"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"},{"f":"1923-10-29","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}] },
 
 { ad:"Arzila (Asilah)", tur:"liman", lat:35.466, lon:-6.036, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1471-01-01",d:"merini"},{f:"1471-01-01",t:"1549-01-01",d:"portekiz",enklav:true},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{f:"1281-01-01",t:"1471-01-01",d:"merini"},{f:"1471-01-01",t:"1549-01-01",d:"portekiz",enklav:true},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}] },
 
 
 ];

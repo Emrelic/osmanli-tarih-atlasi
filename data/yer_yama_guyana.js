@@ -51,7 +51,7 @@ window.YER_YAMA_GUYANA = [
      {f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},
      {f:"1802-03-27",t:"1803-09-01",d:"hollanda"},
      {f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},
-     {f:"1831-01-01",t:"1923-10-29",d:"ingiliz-guyanasi"}] },
+     {f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
 
 // ── New Amsterdam (Berbice) ──  [yerlesimler_amerika.js]  1 dönem → ingiliz-guyanasi
 // eski: hollanda 1627-01-01→1796-04-22 · ingiltere 1796-04-22→1802-03-27 · hollanda 1802-03-27→1803-09-01 · ingiltere 1803-09-01→1923-10-29
@@ -60,14 +60,14 @@ window.YER_YAMA_GUYANA = [
      {f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},
      {f:"1802-03-27",t:"1803-09-01",d:"hollanda"},
      {f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},
-     {f:"1831-01-01",t:"1923-10-29",d:"ingiliz-guyanasi"}] },
+     {f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
 
 // ── Kyk-over-al (Essequibo) ──  [yerlesimler_gamerika.js]  1 dönem → ingiliz-guyanasi
 // eski: hollanda 1616-01-01→1803-09-01 · ingiltere 1803-09-01→1923-10-29
 { ad:"Kyk-over-al (Essequibo)",
   s:[{f:"1616-01-01",t:"1803-09-01",d:"hollanda"},
      {f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},
-     {f:"1831-01-01",t:"1923-10-29",d:"ingiliz-guyanasi"}] },
+     {f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
 
 // ── Paramaribo ──  [yerlesimler_amerika.js]  3 dönem → hollanda-guyanasi
 // eski: ingiltere 1630-01-01→1667-07-31 · hollanda 1667-07-31→1799-01-01 · ingiltere 1799-01-01→1802-03-27 · hollanda 1802-03-27→1804-01-01 · ingiltere 1804-01-01→1816-01-01 · hollanda 1816-01-01→1923-10-29
@@ -77,7 +77,7 @@ window.YER_YAMA_GUYANA = [
      {f:"1799-01-01",t:"1802-03-27",d:"ingiltere"},
      {f:"1802-03-27",t:"1804-01-01",d:"hollanda-guyanasi"},
      {f:"1804-01-01",t:"1816-01-01",d:"ingiltere"},
-     {f:"1816-01-01",t:"1923-10-29",d:"hollanda-guyanasi"}] },
+     {f:"1816-01-01",t:"1975-11-25",d:"hollanda-guyanasi"},{f:"1975-11-25",t:"2000-12-31",d:"surinam",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
 
 // ── Cayenne ──  [yerlesimler_amerika.js]  1 dönem → fransiz-guyanasi
 // eski: fransa 1643-01-01→1792-09-22 · fransa-cumhuriyet 1792-09-22→1809-01-14 · portekiz 1809-01-14→1817-01-01 · fransa-cumhuriyet 1817-01-01→1923-10-29
@@ -85,6 +85,6 @@ window.YER_YAMA_GUYANA = [
   s:[{f:"1643-01-01",t:"1792-09-22",d:"fransa"},
      {f:"1792-09-22",t:"1809-01-14",d:"fransa-cumhuriyet"},
      {f:"1809-01-14",t:"1817-01-01",d:"portekiz"},
-     {f:"1817-01-01",t:"1923-10-29",d:"fransiz-guyanasi"}] },
+     {f:"1817-01-01",t:"2000-12-31",d:"fransiz-guyanasi"}] },
 
 ];

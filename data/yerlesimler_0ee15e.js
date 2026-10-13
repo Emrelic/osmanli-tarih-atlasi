@@ -75,7 +75,7 @@ window.YERLESIMLER_0EE15E = [
 
 { ad:"Buenos Aires", tur:"sehir", lat:-34.6037, lon:-58.3816, g:2, k:1, kur:"1580-01-01",
   s:[{f:"1580-01-01",t:"1810-05-25",d:"ispanya"},
-     {f:"1810-05-25",t:"1923-10-29",d:"arjantin-cumhuriyeti"}] },
+     {f:"1810-05-25",t:"2000-12-31",d:"arjantin-cumhuriyeti"}] },
 // kaynak: TDV İslâm Ansiklopedisi "arjantin" md., II. TARİH (Rıza Kurtuluş) —
 //         1536 Pedro de Mendoza kuruluşu yerli direnciyle terk edildi, 1580'de
 //         yeniden inşa (kur: bu yüzden 1580). 1810-05-25 Mayıs Devrimi —
@@ -89,7 +89,7 @@ window.YERLESIMLER_0EE15E = [
   s:[{f:"1519-08-15",t:"1821-11-28",d:"ispanyol-peru"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
-     {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
+     {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
 // kaynak: İKİ BAĞIMSIZ KAYNAK AYNI TARİHTE BİRLEŞİYOR (M-0423 gereği,
 //         Britannica TEK BAŞINA yeterli değildi, ikinci kaynak arandı):
 //         ① Encyclopaedia Britannica "Panama City" md. — "The old city
@@ -127,7 +127,7 @@ window.YERLESIMLER_0EE15E = [
 { ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1919, lon:-79.9009, g:1, k:1, kur:"1538-01-01",
   s:[{f:"1538-01-01",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
-     {f:"1830-05-13",t:"1923-10-29",d:"ekvador-cumhuriyeti"}] },
+     {f:"1830-05-13",t:"2000-12-31",d:"ekvador-cumhuriyeti"}] },
 // 🔴 KAYNAKLAR ÇELİŞİYOR — M-0423 gereği ikinci kaynak arandı, DOĞRULAMADI,
 //         ÇÜRÜTTÜ. Tek başına kullanılmadı, tahtaya AYRICA bildirildi.
 // kaynak: ① Encyclopaedia Britannica "Guayaquil" md. — "founded in the
@@ -166,7 +166,7 @@ window.YERLESIMLER_0EE15E = [
   s:[{f:"1597-01-01",t:"1821-11-28",d:"ispanyol-peru"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
-     {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
+     {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
 // Panama City araştırmasında rastlanan İKİNCİ boşluk (Emre'nin isteğinin
 // doğrudan devamı değil ama aynı kaynak taramasında bulundu, kaydedildi).
 // kaynak: ① Encyclopaedia Britannica "Portobelo" md. — "the village was

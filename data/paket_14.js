@@ -65,33 +65,33 @@ window.YERLESIMLER_EK7 = [
 // ⚠️ Ålesund ve Kristiansund maske dışı çıktı (takımada); **fiyort
 //    kovalamadım**, iç tarafa kaydırdım — brief'in kuralı bu.
 { ad:"Ålesund", tur:"liman", lat:62.470, lon:6.400, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Molde", tur:"liman", lat:62.737, lon:7.159, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Kristiansund", tur:"liman", lat:63.000, lon:8.200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Røros", tur:"sehir", lat:62.575, lon:11.385, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Sogndal", tur:"sehir", lat:61.230, lon:7.100, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Lillehammer", tur:"sehir", lat:61.115, lon:10.466, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Hamar", tur:"sehir", lat:60.795, lon:11.068, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Skien", tur:"sehir", lat:59.209, lon:9.609, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 { ad:"Haugesund", tur:"liman", lat:59.413, lon:5.268, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ── İSVEÇ — çekirdek (kesintisiz) ───────────────────────────────────
-{ ad:"Umeå",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:63.826, lon:20.263, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Härnösand",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:62.632, lon:17.941, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Mora",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:61.006, lon:14.542, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Västerås",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:59.6132, lon:16.5450, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Norrköping",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:58.588, lon:16.186, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Nyköping",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:58.753, lon:17.009, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Borås",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:57.721, lon:12.940, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Växjö",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:56.878, lon:14.809, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Umeå",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:63.826, lon:20.263, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Härnösand",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:62.632, lon:17.941, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Mora",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:61.006, lon:14.542, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Västerås",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:59.6132, lon:16.5450, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Norrköping",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:58.588, lon:16.186, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Nyköping",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"liman", lat:58.753, lon:17.009, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Borås",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:57.721, lon:12.940, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
+{ ad:"Växjö",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:56.878, lon:14.809, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
 
 // ── İSVEÇ — 1645/1658'de DANİMARKA'DAN alınan iller ─────────────────
 // ⚠️ Bunlar `isvec 1281-1923` YAZILAMAZ; Skåne · Blekinge 1658 Roskilde'ye,
@@ -99,70 +99,70 @@ window.YERLESIMLER_EK7 = [
 //    körü körüne kopyalamak burada 300-400 yıl yanlış olurdu.
 //    Halmstad (1645) ve Malmö/Helsingborg (1658) kayıtlarıyla hizalı.
 { ad:"Kristianstad", tur:"sehir", lat:56.031, lon:14.152, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
+  s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"2000-12-31",d:"isvec"}] },
 { ad:"Karlskrona", tur:"liman", lat:56.250, lon:15.600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
+  s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"2000-12-31",d:"isvec"}] },
 // Jämtland: 1537 öncesi Norveç, sonra Danimarka-Norveç, 1645'te İsveç.
 { ad:"Östersund (Jämtland)", tur:"sehir", lat:63.250, lon:14.900, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"1923-10-29",d:"isvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"2000-12-31",d:"isvec"}] },
 
 // ── FİNLANDİYA ──────────────────────────────────────────────────────
 // Zincir Turku/Helsinki/Hämeenlinna'nın aynısı:
 // isvec →1809-09-17 (Fredrikshamn) · rusya →1917-12-06 · finlandiya
 { ad:"Vaasa", tur:"liman", lat:63.096, lon:21.616, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Kokkola", tur:"liman", lat:63.838, lon:23.132, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Pori", tur:"liman", lat:61.487, lon:21.797, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Tampere", tur:"sehir", lat:61.498, lon:23.761, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Jyväskylä", tur:"sehir", lat:62.242, lon:25.747, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Kuopio", tur:"sehir", lat:62.893, lon:27.678, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Iisalmi", tur:"sehir", lat:63.558, lon:27.188, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Nurmes", tur:"sehir", lat:63.600, lon:29.400, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Joensuu", tur:"sehir", lat:62.601, lon:29.763, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Savonlinna", tur:"kale", lat:62.000, lon:28.900, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 { ad:"Mikkeli", tur:"sehir", lat:61.688, lon:27.273, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 // ⚠️ Lappeenranta ESKİ FİNLANDİYA'dadır: Viipuri ile birlikte 1721
 //    Nystad'da Rusya'ya geçti, 1809'da DEĞİL. Viipuri'nin zinciri kullanıldı.
 //    Komşusu 48 km ötede ve farklı tarih taşısaydı harita orada yarılırdı.
 { ad:"Lappeenranta", tur:"kale", lat:61.058, lon:28.187, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 // ── LETONYA ─────────────────────────────────────────────────────────
 // Riga'nın zinciri: almanya →1561-11-28 (Livonya Nişanı'nın dağılışı)
 // · lehistan →1621-09-15 · isvec →1721-08-30 (Nystad) · rusya →1918-11-11
 { ad:"Cēsis (Wenden)", tur:"kale", lat:57.312, lon:25.274, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"letonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1940-08-06",d:"letonya"},{f:"1940-08-06",t:"1991-08-21",d:"sovyet-rusya",kaynak:"Britannica 'Latvia' (SSCB'ye ilhak 1940-08; tsv sınırı 08-06)"},{f:"1991-08-21",t:"2000-12-31",d:"letonya-cumhuriyeti-yeniden",kaynak:"tsv: letonya-cumhuriyeti-yeniden f=1991-08-21"}] },
 // ⚠️ Dünaburg LEH LİVONYASI'ndadır (Inflanty): İsveç'e HİÇ geçmedi,
 //    Lehistan'da kaldı ve BİRİNCİ TAKSİM'de (1772) Rusya'ya geçti.
 //    Cēsis'in zincirini kopyalamak onu yüz yıl yanlış gösterirdi.
 { ad:"Daugavpils (Dünaburg)", tur:"kale", lat:55.875, lon:26.536, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"letonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1940-08-06",d:"letonya"},{f:"1940-08-06",t:"1991-08-21",d:"sovyet-rusya",kaynak:"Britannica 'Latvia' (SSCB'ye ilhak 1940-08; tsv sınırı 08-06)"},{f:"1991-08-21",t:"2000-12-31",d:"letonya-cumhuriyeti-yeniden",kaynak:"tsv: letonya-cumhuriyeti-yeniden f=1991-08-21"}] },
 
 // ── LİTVANYA — Vilnius'un zinciri ───────────────────────────────────
 { ad:"Kaunas",kaynak:"polonya", tur:"sehir", lat:54.897, lon:23.886, g:0, k:1,kd:[{f:"1918-02-16",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1940-08-06",d:"litvanya"},{f:"1940-08-06",t:"1990-03-11",d:"sovyet-rusya",kaynak:"Britannica 'Lithuania' (SSCB'ye ilhak 1940-08)"},{f:"1990-03-11",t:"2000-12-31",d:"litvanya-cumhuriyeti-yeniden",kaynak:"tsv: litvanya-cumhuriyeti-yeniden f=1990-03-11"}] },
 { ad:"Šiauliai",kaynak:"polonya", tur:"sehir", lat:55.934, lon:23.315, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1940-08-06",d:"litvanya"},{f:"1940-08-06",t:"1990-03-11",d:"sovyet-rusya",kaynak:"Britannica 'Lithuania' (SSCB'ye ilhak 1940-08)"},{f:"1990-03-11",t:"2000-12-31",d:"litvanya-cumhuriyeti-yeniden",kaynak:"tsv: litvanya-cumhuriyeti-yeniden f=1990-03-11"}] },
 // ⚠️ Memel Litvanya DEĞİL: Töton/Prusya toprağıdır ve 1923 Ocak'a kadar
 //    Almanya'dadır. Königsberg'in zinciri kullanıldı.
 { ad:"Klaipėda (Memel)", tur:"liman", lat:55.703, lon:21.144, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1920-01-10",d:"almanya"},{f:"1920-01-10",t:"1923-02-16",d:"itilaf-emaneti",kaynak:"F8 + D205 ③ (Lvov/Gdansk emsali): Versay md. 99 (avalon.law.yale.edu/imt/partiii.asp): 'Germany renounces in favour of the Principal Allied and Associated Powers all rights and title over the territories included between the Baltic, the north-eastern frontier of East Prussia as defined in Article 28 of Part II (Boundaries of Germany) of the present Treaty and the former frontier between Germany and Russia.' · FRUS 1919 c. XIII (history.state.gov frus1919Parisv13): Versay 10 Ocak 1920'de yürürlüğe girdi · atama: FRUS c. XIII not III-99 (ch12subch10): 'The Conference of Ambassadors on February 16, 1923 assigned the territory of Memel to Lithuania' (UMIT-W54b 1006)"},{f:"1923-02-16",t:"1923-10-29",d:"litvanya",kaynak:"F8: de jure devir atama gününde — FRUS c. XIII not III-99: 'The Conference of Ambassadors on February 16, 1923 assigned the territory of Memel to Lithuania'"}] },
+  s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1920-01-10",d:"almanya"},{f:"1920-01-10",t:"1923-02-16",d:"itilaf-emaneti",kaynak:"F8 + D205 ③ (Lvov/Gdansk emsali): Versay md. 99 (avalon.law.yale.edu/imt/partiii.asp): 'Germany renounces in favour of the Principal Allied and Associated Powers all rights and title over the territories included between the Baltic, the north-eastern frontier of East Prussia as defined in Article 28 of Part II (Boundaries of Germany) of the present Treaty and the former frontier between Germany and Russia.' · FRUS 1919 c. XIII (history.state.gov frus1919Parisv13): Versay 10 Ocak 1920'de yürürlüğe girdi · atama: FRUS c. XIII not III-99 (ch12subch10): 'The Conference of Ambassadors on February 16, 1923 assigned the territory of Memel to Lithuania' (UMIT-W54b 1006)"},{f:"1923-02-16",t:"1940-08-06",d:"litvanya",kaynak:"F8: de jure devir atama gününde — FRUS c. XIII not III-99: 'The Conference of Ambassadors on February 16, 1923 assigned the territory of Memel to Lithuania'"},{f:"1940-08-06",t:"1990-03-11",d:"sovyet-rusya",kaynak:"Britannica 'Lithuania' (SSCB'ye ilhak 1940-08)"},{f:"1990-03-11",t:"2000-12-31",d:"litvanya-cumhuriyeti-yeniden",kaynak:"tsv: litvanya-cumhuriyeti-yeniden f=1990-03-11"}] },
 
 // ── LİTVANYA BÜYÜK DUKALIĞI'NIN DOĞUSU — birinci taksim ─────────────
 { ad:"Polotsk",kaynak:"polonya", tur:"sehir", lat:55.485, lon:28.786, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-25",d:"sovyet-rusya"},{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Vitebsk",kaynak:"polonya", tur:"sehir", lat:55.191, lon:30.206, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-25",d:"sovyet-rusya"},{f:"1991-08-25",t:"2000-12-31",d:"belarus",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -243,27 +243,27 @@ window.YERLESIMLER_EK8 = [
 // Bugün Trondheim (63,43) atlasın en kuzey Norveç noktası; ondan Nordkapp'a
 // 1.100 km boyunca hiç nokta yok. Beş nokta o hattı kuruyor.
 { ad:"Mosjøen", tur:"sehir", lat:65.8370, lon:13.1920, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ⚠️ Maske: 67,2804/14,4049 (şehir merkezi) yarımadanın ucunda ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km doğuya (Bodø'nün kendi kıstağı)
 //    çekildi. Aynı düzeltme Tromsø · Luleå · Svalbard · Vaygaç'ta da var.
 { ad:"Bodø", tur:"sehir", lat:67.2933, lon:14.4446, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ⚠️ Maske: Tromsø ADA şehridir (Tromsøya); 2,2 km doğuya, karşı kıyıya alındı.
 { ad:"Tromsø", tur:"sehir", lat:69.6527, lon:19.0119, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 { ad:"Alta", tur:"sehir", lat:69.9689, lon:23.2717, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // 🔴 BU PARTİNİN EN GEREKLİ TEK NOKTASI. Vardøhus kalesi ~1306'dan beri
 // Norveç'in kuzeydoğu çıpasıdır ve o çıpa olmadan Kola'nın Rus noktası
 // bütün Finnmark'ı emer — yani Rusya, Norveç kıyısında Nordkapp'a kadar
 // boyanır. `§3.5.1`in "noktasızlık İKİ YÖNE de hata üretir" vakası.
 { ad:"Vardø", tur:"kale", lat:70.3705, lon:31.1107, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"2000-12-31",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ── ② İSVEÇ LAPLAND'İ — Norrbotten ve Torne Lappmark ────────────────
 // ⚠️ 1809 SINIRI BURADA GEÇİYOR ve üç nokta da BATI yakasında kaldı:
@@ -272,10 +272,10 @@ window.YERLESIMLER_EK8 = [
 //    noktanın zinciri 1809'dan sonra AYRILIYOR ve ayrılık kasıtlıdır.
 // ⚠️ maske: şehir merkezi (65,5842) 10m maskesinde deniz; 2,2 km kuzeye alındı.
 { ad:"Luleå",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:65.6042, lon:22.1547, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
 
 { ad:"Jokkmokk",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:66.6069, lon:19.8265, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
 
 // 🔴 GÖL DÜZELTMESİ (MOTOR buldu, göl-farkındalı tarama genişletti — 4 Ağustos,
 //    uygulaması 6 Ağustos'a kaldı çünkü 4'ünde dosya koşu 9'un BAĞLI girdisiydi
@@ -292,22 +292,22 @@ window.YERLESIMLER_EK8 = [
 //    📌 Benim ilk ifadem "sıfır mesafede" idi ve fazla sertti — gerçek 36 m.
 //       Karar aynı kalıyor, gerekçenin rakamı düzeltildi.
 { ad:"Jukkasjärvi",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"2000-12-31",d:"isvec"}] },
 
 // ── ③ FİNLANDİYA LAPLAND'İ ──────────────────────────────────────────
 // Oulu (1605) atlasın kaçırdığı en büyük Fin şehriydi: 64°K'nin 1,2 km
 // kuzeyinde kaldığı için kutunun dışındaydı.
 { ad:"Tornio", tur:"sehir", lat:65.8482, lon:24.1436, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."},{f:"1923-10-29",t:"2000-12-31",d:"isvec",kaynak:"Britannica 'Haparanda/Tornio' (1809 Fredrikshamn Antlasmasi sinir hatti)"}] },
 
 { ad:"Oulu", tur:"sehir", lat:65.0121, lon:25.4651, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 { ad:"Rovaniemi", tur:"sehir", lat:66.5039, lon:25.7294, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 { ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 // GÖL DÜZELTMESİ — nokta suyun üstündeydi, taşındı.
 //    İlk yazılan 68,9058/27,0289 **Inarijärvi'nin İÇİNDE** (NE 10m poligonu
@@ -337,7 +337,7 @@ window.YERLESIMLER_EK8 = [
 //    (ihlal saymıyor, yalnız bağırıyor) ve yazıldığı gün Eğirdir ile
 //    Västerås'ı yakaladı.
 { ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"2000-12-31",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 // 🔴 PETSAMO — pencerenin İÇİNDE kalan tek Fin toprak kazancı.
 // Kola yarımadasının batı ucu, Peçenga manastırının (1533) çevresi;
@@ -348,7 +348,7 @@ window.YERLESIMLER_EK8 = [
 //    İkisi ters yönde ilerliyor; kopyalasaydım Petsamo 1809'dan önce İsveç
 //    görünecekti ve bu YANLIŞ olurdu.
 { ad:"Petsamo (Peçenga)", tur:"sehir", lat:69.5500, lon:31.2200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1920-10-14",d:"sovyet-rusya"},{f:"1920-10-14",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1920-10-14",d:"sovyet-rusya"},{f:"1920-10-14",t:"1944-09-19",d:"finlandiya"},{f:"1944-09-19",t:"1991-12-25",d:"sovyet-rusya",kaynak:"Paris Antlasmasi 1947; Britannica 'Vyborg'"},{f:"1991-12-25",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Britannica 'Russia'"}] },
 
 // ── ④ KOLA ve RUS KUZEYİ — Novgorod'un kuzey mirası ─────────────────
 // ⚠️ Bu altı nokta DÜZ `rusya 1281→1923` taşıyor ve bu bir seçimdir:
@@ -360,28 +360,28 @@ window.YERLESIMLER_EK8 = [
 //    düzeltilir (bir yerde `novgorod` yazıp öbüründe yazmamak, iki ayrı
 //    kural gibi görünürdü).
 { ad:"Kola", tur:"kale", lat:68.8815, lon:33.0186, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Kandalakşa", tur:"sehir", lat:67.1550, lon:32.4117, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Ponoy", tur:"sehir", lat:67.0833, lon:41.1500, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Arhangelsk", tur:"liman", lat:64.5401, lon:40.5433, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Mezen", tur:"sehir", lat:65.8447, lon:44.2394, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Peçora'nın çıpası. 1499'da kurulan Pustozersk Ural'ın batısındaki ilk
 // Rus Arktik kasabasıdır; XX. yy'da terk edildi ama pencerenin tamamında
 // yaşıyor, o yüzden `bit:` yazılmadı.
 { ad:"Pustozersk", kur:"1499-01-01", kaynak:"Kanyukova V.P., Forum molodyh uchenyh 2019 (CyberLeninka) — \"osnovan ... osen'yu 1499 goda\"; TDV bu tanecigi kapsamiyor", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:4, d:[],
-  s:[{f:"1499-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1499-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Ust-Tsilma", tur:"sehir", lat:65.4392, lon:52.1508, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑤ YAMAL · OB' KUZEYİ — "sahipsiz, SONRA devlet" sınıfı ──────────
 // 🔴 BURADAN İTİBAREN ZİNCİR KISALIYOR ve kısalması KASITLI.
@@ -398,11 +398,11 @@ window.YERLESIMLER_EK8 = [
 //    ILERLEME.md'de tek tek yazılı ve hepsi kasıtlıdır.
 { ad:"Obdorsk (Salehard)", tur:"kale", lat:66.5300, lon:66.6019, g:0, k:0, d:[], kur:"1595-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1595 öncesi Yugra/Nenets toprağı — TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, Ob' ağzı bu sınırın DIŞINDA. Devletsiz dönem uydurma devletle doldurulmadı.",
-  s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Yamal ucu", tur:"bolge", lat:70.1667, lon:72.5167, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Obdorsk ile aynı gerekçe; yarımadanın kuzey ucu için dolgu noktası — noktasız kalırsa Perm'in peteği 2.100 km uzaktan buraya uzanır.",
-  s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Mangazeya, Taz nehrindeki kürk ticaret şehri — 1601'de kuruldu, 1670'lerde
 // terk edildi. `bit:` YAZILMADI: yerini Yeni Mangazeya (Turuhansk) aldı ve
@@ -410,43 +410,43 @@ window.YERLESIMLER_EK8 = [
 // aynı toprak iki kez sahiplendirilirdi.
 { ad:"Mangazeya", tur:"kale", lat:66.6900, lon:82.3300, g:0, k:0, d:[], kur:"1601-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1601 öncesi Nenets/Selkup toprağı, devletsiz.",
-  s:[{f:"1601-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1601-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑥ YENİSEY · TAYMIR ──────────────────────────────────────────────
 { ad:"Turuhansk", tur:"kale", lat:65.7972, lon:87.9553, g:0, k:0, d:[], kur:"1607-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1607 öncesi Evenk/Ket toprağı, devletsiz.",
-  s:[{f:"1607-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1607-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Dudinka", tur:"sehir", lat:69.4058, lon:86.1778, g:0, k:0, d:[], kur:"1667-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1667 öncesi Nganasan/Enets toprağı, devletsiz.",
-  s:[{f:"1667-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1667-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Taymır'ın çıpası. Bu nokta olmadan yarımada (1,8 milyon km²) Perm'e
 // 2.973 km uzaktan bağlanıyordu — atlasın ölçülmüş EN UZAK emilmesi.
 { ad:"Hatanga", tur:"kale", lat:71.9769, lon:102.4675, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1626 öncesi Nganasan toprağı, devletsiz.",
-  s:[{f:"1626-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1626-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑦ LENA · YANA · İNDİGİRKA ───────────────────────────────────────
 { ad:"Jigansk", tur:"kale", lat:66.7697, lon:123.3708, g:0, k:0, d:[], kur:"1632-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1632 öncesi Evenk/Yakut toprağı, devletsiz.",
-  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Bulun", tur:"sehir", lat:70.6667, lon:127.4000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Lena deltası; 1632 öncesi devletsiz. Tarih Jigansk'la aynı çünkü ikisi de Lena havzasının aynı yılki Rus ilerlemesiyle bağlandı.",
-  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Verhoyansk", tur:"kale", lat:67.5500, lon:133.3833, g:0, k:0, d:[], kur:"1638-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1638 öncesi Yakut/Even toprağı, devletsiz.",
-  s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Ust-Yansk", tur:"sehir", lat:70.9000, lon:136.5500, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Yana ağzı; Verhoyansk ile aynı 1638 ilerlemesi.",
-  s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Zaşiversk", tur:"kale", lat:67.2500, lon:142.8500, g:0, k:0, d:[], kur:"1639-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"İndigirka; 1639 öncesi Yukagir/Even toprağı, devletsiz.",
-  s:[{f:"1639-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1639-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑧ YÜKSEK ARKTİK ADALARI — pencerenin TAMAMINDA sahipsiz ─────────
 // 🔴 KOORDİNATÖR "ONAYLA, VARSAYMA" DEDİ. Dördü tek tek bakıldı:
@@ -485,15 +485,15 @@ window.YERLESIMLER_EK8 = [
 
 { ad:"Novaya Zemlya kuzeyi", tur:"bolge", lat:74.5000, lon:57.0000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"insansiz", neden:"1877 öncesi kalıcı yerleşim ve fiilî idare yok (Pomor avcılığı idare değildir). 🔴 1877-01-01 TDV'ye BASMIYOR.",
-  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Novaya Zemlya güneyi", tur:"bolge", lat:71.5000, lon:53.0000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"insansiz", neden:"Novaya Zemlya kuzeyi ile aynı hüküm; 900 km'lik ada tek noktayla temsil edilemezdi.",
-  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Vaygaç", tur:"bolge", lat:69.9000, lon:59.3000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"insansiz", neden:"Novaya Zemlya ile aynı hüküm. ⚠️ maske: ada merkezi 10m maskesinde deniz görünüyordu, 11 km kuzeye çekildi — dosyadaki EN BÜYÜK kaydırma.",
-  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -563,40 +563,40 @@ window.YERLESIMLER_EK9 = [
 // Berezov ve Surgut gibi yeni şehirlerin inşasına başladılar."
 { ad:"Berezov", tur:"kale", lat:63.9364, lon:65.0489, g:0, k:0, d:[], kur:"1593-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1592 öncesi Hantı (Yugra) toprağı; TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, aşağı Ob' bu sınırın dışında.",
-  s:[{f:"1592-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1592-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Surgut", tur:"kale", lat:61.2540, lon:73.3962, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1592 öncesi Hantı (Yugra) toprağı, Berezov ile aynı gerekçe (TDV kucum-han). 🟡 kur:1594-01-01 (BRE 'Сургут', old.bigenc.ru/geography/text/4174172 — AYNEN: «Заложен летом 1594 под рук. жильца В. В. Аничкова») ÖNERİLDİ ama UYGULANMADI (M-4443 döngüsü, 17 Eylül 2026): dönemin 1592 başlangıcı KAYNAKSIZ DEĞİL — bu dosyanın kendi üst notu (satır 44-46) TDV `kucum-han` maddesinin AYNEN Surgut'u adıyla anarak «Ruslar 1592'de Pilim, Berezov ve Surgut gibi yeni şehirlerin inşasına başladılar» dediğini kaydediyor. CLAUDE.md §4: TDV maddesi varsa başkasına dayanılmaz, çelişirse TDV esastır — iki tarih muhtemelen AYNI çok yıllı inşa sürecinin iki ucu (1592 başladı, 1594 tamamlandı) ama isim geçen kaynak TDV, kur onun yerine geçemez.",
-  s:[{f:"1592-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1592-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Tomsk", tur:"kale", lat:56.4884, lon:84.9480, g:0, k:0, d:[], kur:"1604-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1604 öncesi Teleüt/Selkup toprağı, devletsiz. 🔴 1604 TDV'ye basmıyor.",
-  s:[{f:"1604-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1604-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② YENİSEY HAVZASI ───────────────────────────────────────────────
 { ad:"Yeniseysk", tur:"kale", lat:58.4494, lon:92.1683, g:0, k:0, d:[], kur:"1619-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1619 öncesi Ket/Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1619-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1619-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Krasnoyarsk", tur:"kale", lat:56.0106, lon:92.8526, g:0, k:0, d:[], kur:"1628-01-01",
   kasitli_bosluk:true,bos:"kabile", neden:"1628 öncesi Yenisey Kırgızları'nın otlağı; atlasta karşılığı olan bir kimlik yok ve UYDURULMADI. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1628-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1628-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ③ LENA HAVZASI ve OHOTSK ────────────────────────────────────────
 // 🔴 BU NOKTA OLMADAN Yakutistan'ın tamamı `qing-hanedani` boyanıyordu —
 // Aigun'a 1.500 km, oysa Qing hiçbir zaman Lena'ya çıkmadı.
 { ad:"Yakutsk", tur:"kale", lat:62.0281, lon:129.7325, g:0, k:0, d:[], kur:"1632-10-05",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1632 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Olyokminsk", tur:"kale", lat:60.3742, lon:120.4064, g:0, k:0, d:[], kur:"1635-07-27",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Pasifik kıyısı — kutunun doğu kenarına (146°D) 155 km kala.
 { ad:"Ohotsk", tur:"liman", lat:59.3631, lon:143.2431, g:0, k:0, d:[], kur:"1647-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1647 öncesi Even/Lamut toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1647-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1647-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ④ BAYKAL ve AMUR — RUS-QING SINIRININ ÇİZİLDİĞİ YER ─────────────
 // Bu üç nokta yalnız boşluk doldurmuyor; haritada BUGÜN OLMAYAN bir sınırı
@@ -605,11 +605,11 @@ window.YERLESIMLER_EK9 = [
 // antlaşmanın haritada karşılığı YOKTU.
 { ad:"İrkutsk", tur:"kale", lat:52.2870, lon:104.2810, g:0, k:0, d:[], kur:"1661-01-01",
   kasitli_bosluk:true,bos:"veri-yok", neden:"1661 öncesi Buryat toprağı. ⚠️ Halha/Altan Han nüfuzu tartışılabilir; `kuzey-yuan` YAZILMADI çünkü kaynakla ayıramadım — bilgisizliği kasıt gibi göstermemek için boş bırakıldı (girdi.py'nin `kasitli_bosluk` notu).",
-  s:[{f:"1661-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1661-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Nerçinsk", tur:"kale", lat:51.9494, lon:116.5772, g:0, k:0, d:[], kur:"1653-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Evenk/Daur toprağı. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1653-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1653-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // 🔴 DOSYANIN EN İDDİALI KAYDI — ve niçin göze alındığı burada yazılı.
 // Albazin 1651'de Rus kalesi oldu, **1689-09-06 Nerçinsk antlaşmasıyla
@@ -623,7 +623,7 @@ window.YERLESIMLER_EK9 = [
 //   Rus dönemi o boşlukla ÇELİŞMİYOR, onu tamamlıyor.
 { ad:"Albazin", tur:"kale", lat:53.3800, lon:124.0930, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1651 öncesi Daur toprağı, devletsiz. 🔴 1651 · 1689-09-06 · 1858-05-28 TDV'ye basmıyor.",
-  s:[{f:"1651-01-01",t:"1689-09-06",d:"rusya"},{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1651-01-01",t:"1689-09-06",d:"rusya"},{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑤ KAZAK BOZKIRI — Kobdo'nun kuzeye sızmasını kesen tek nokta ────
 // ⚠️ Zincir UYDURULMADI: canlı `Aral kuzeyi` (47,20/61,50) kaydından
@@ -633,7 +633,7 @@ window.YERLESIMLER_EK9 = [
 // 📌 Tek başına 623.537 km² alıyor ve o alanın bugünkü sahibi Kobdo —
 //    yani `cungar`/`kuzey-yuan` rengi Kuzey Kazakistan'a çıkıyordu.
 { ad:"Kazak bozkırı (İşim)", tur:"bolge", lat:52.5000, lon:68.0000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -779,7 +779,7 @@ window.YERLESIMLER_EK13 = [
 // o yüzden tek kesintisiz `rusya` dönemi taşıyor.
 { ad:"Udskoy ostrogu", tur:"kale", lat:54.5500, lon:134.4500, g:0, k:0, d:[], kur:"1679-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1679 öncesi Evenk/Negidal toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1679-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1679-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ TARİH 1844 DEĞİL 1679 — ve sebebi ÖLÇÜLDÜ, tercih değil.
 // Ayan limanı Rus-Amerikan Şirketi tarafından 1844'te kuruldu; ilk yazdığım
@@ -792,7 +792,7 @@ window.YERLESIMLER_EK13 = [
 //    çıkıyordu. Bir düzeltmenin öbür uçta hata doğurması tam bu.
 { ad:"Ayan", tur:"liman", lat:56.4500, lon:138.1700, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1679 öncesi Even/Lamut kıyısı, devletsiz. Liman 1844'te kuruldu ama kıyı Uda (1679) ve Ohotsk (1647) ostroglarının yasak çevresindeydi; 1844 yazılsaydı Ohotsk'un doğru boyadığı kıyıda 165 yıllık delik açılırdı. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1679-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1679-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② AMUR AĞZI ve SOL YAKA — Aygun antlaşmasının haritadaki karşılığı ──
 // 🔴 Nikolayevsk 1850-08-13'te Nevelskoy tarafından kuruldu ama `kur:`
@@ -802,7 +802,7 @@ window.YERLESIMLER_EK13 = [
 //    Kayıt bir KASABAYI değil, ağzın hukukî sahibini modelliyor.
 { ad:"Nikolayevsk (Amur ağzı)", tur:"liman", lat:53.1400, lon:140.7300, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1689-09-06 öncesi Nivh (Gilyak) toprağı; Qing idaresi Amur ağzına inmedi, Rusya da Nerçinsk'e kadar iddia etmedi. 🔴 TDV'ye basmıyor. 🟡 kur:1850-08-13 (Başkanlık Kütüphanesi, Nikolayevski post) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1689 qing-hanedani) Nerçinsk Antlaşması'nın Amur havzasını Qing sınırına bıraktığı ve Ningguta askerî-idarî merkezinin (1653, resmî yetkisi Heilongjiang/Amur havzasını kapsıyor) tarihî temeline dayanıyor — kaynaksız DEĞİL, nokta zaten belgeli bölgesel egemenliği taşıyor.",
-  s:[{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ AIGUN'A 6,6 km — VE BU KASITLI.
 // §11 "yakın mükerrer yerleşim" uyarısı 3 km ölçütünü koyuyor; 6,6 km onu
@@ -818,25 +818,25 @@ window.YERLESIMLER_EK13 = [
 // 38 yıllık delik açıyordu. Aynı voyvodalık, aynı zincir.
 { ad:"Blagoveşçensk", tur:"sehir", lat:50.2800, lon:127.5350, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1651 öncesi Daur toprağı, devletsiz. Zincir Albazin'den birebir: aynı Amur voyvodalığı, aynı üç gün. 🔴 TDV'ye basmıyor. 🟡 kur:1856-06-02 (Blagoveşçensk şehir idaresi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1651 rusya — Albazin/Amur voyvodalığı, belgeli Kazak seferi; 1689 qing — Nerçinsk Antlaşması) gerçek tarihî olaylara dayanıyor, kaynaksız DEĞİL.",
-  s:[{f:"1651-01-01",t:"1689-09-06",d:"rusya"},{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1651-01-01",t:"1689-09-06",d:"rusya"},{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ③ USSURİ'NİN DOĞUSU — Pekin antlaşması (1860-11-14) ──────────────
 // Üçü de 1858 DEĞİL 1860 taşıyor. Aygun Ussuri-deniz arasını "ortak"
 // bıraktı, Pekin bölüştürdü. Aradaki iki buçuk yıl kasten Qing yazıldı.
 { ad:"Habarovka", tur:"kale", lat:48.4800, lon:135.0800, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Nanay/Daur toprağı; 1653 Ningguta kaydının Qing başlangıcı, aynı idarî çevre. 🔴 TDV'ye basmıyor. 🟡 kur:1858-01-01 (Büyük Sovyet Ansiklopedisi, Habarovka askerî postu) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1653 qing-hanedani) Ningguta askerî-idarî merkezinin (Haziran 1653 kuruldu, resmî yetkisi Heilongjiang/Amur ve Ussuri havzalarını kapsıyor) belgeli tarihine dayanıyor, kaynaksız DEĞİL.",
-  s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"İmperator limanı", tur:"liman", lat:49.0300, lon:140.2300, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Orok/Udege kıyısı, devletsiz. ⚠️ Kasaba noktası maskede 0,5 km denizde kaldığı için 8,4 km kuzeybatıya kaydırıldı. 🔴 TDV'ye basmıyor. 🟡 kur:1853-05-23 (Rus Coğrafya Kurumu, Nevelskoy seferi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1653 qing-hanedani) Habarovka ile AYNI Ningguta askerî-idarî merkezi temeline dayanıyor (Heilongjiang/Amur havzası resmî Qing yetkisi), kaynaksız DEĞİL.",
-  s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // 🔴 KUTUNUN BU KÖŞESİNDEKİ TEK RUS NOKTASI OLACAK.
 // Bugün Primorye'yi Ningguta (238 km) boyuyor ve Ningguta 1912'ye kadar
 // Qing. Yani Vladivostok'un kurulduğu kıyı, haritada 1912'ye kadar Çin.
 { ad:"Vladivostok", tur:"liman", lat:43.1150, lon:131.8850, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Udege/Jurchen toprağı; Ningguta ile aynı idarî çevre ve aynı başlangıç günü. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ④ SAHALİN — adanın tamamı bugün Sapporo'nun peteğinde ────────────
 // İki nokta, ve zincirleri 1905'te AYRILIYOR. Portsmouth 50. paraleli
@@ -844,11 +844,11 @@ window.YERLESIMLER_EK13 = [
 // (46,6°K) güneyde kaldı → Japon. Ada haritada ilk kez ikiye bölünecek.
 { ad:"Aleksandrovsk (Kuzey Sahalin)", tur:"sehir", lat:50.9000, lon:142.1600, g:0, k:0, d:[], kur:"1862-01-01",
   kasitli_bosluk:true,bos:"hata", neden:"1875-05-07 öncesi Nivh/Ainu toprağı. Shimoda antlaşması (1855-02-07) adayı BÖLMEDİ, 'ortak mülkiyet, sınır yok' dedi ve `s:` bir dönemde iki sahip yazamıyor — boşluk ŞEMA sınırından, bilgisizlikten değil. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1875-05-07",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1875-05-07",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Korsakov (Güney Sahalin)", tur:"liman", lat:46.6330, lon:142.7860, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"hata", neden:"Aleksandrovsk ile aynı gerekçe ve aynı Shimoda sınırı. 1905-09-05 Portsmouth 50. paraleli sınır yaptı. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1875-05-07",t:"1905-09-05",d:"rusya"},{f:"1905-09-05",t:"1923-10-29",d:"meiji-japonya"}] },
+  s:[{f:"1875-05-07",t:"1905-09-05",d:"rusya"},{f:"1905-09-05",t:"1945-09-02",d:"meiji-japonya"},{f:"1945-09-02",t:"1991-12-26",d:"sovyet-rusya",kaynak:"SSCB ilhak fermani 1946-02-02 (Britannica Sakhalin)"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"SSCB dagilma 1991-12-26"}] },
 
 // ═══ B ═══ ORTA SİBİRYA PLATOSU ═══ 7 nokta ═══
 // ⚠️ BURADA RENK ZATEN DOĞRU. Bu yedi nokta bir hatayı düzeltmiyor, bir
@@ -859,7 +859,7 @@ window.YERLESIMLER_EK13 = [
 // ── ⑤ LENA YUKARISI ve ANGARA — 1630-1631 ostrog kuşağı ─────────────
 { ad:"Kirensk", tur:"kale", lat:57.7800, lon:108.1100, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ Bratsk baraj gölü (1961) tarihî ostrogun yerini bastı. Motorun
 //    maskesi baraj göllerini KARA sayıyor (`uret_petek.py` baraj süzgeci),
@@ -867,12 +867,12 @@ window.YERLESIMLER_EK13 = [
 //    "göl içinde" diye eler — ölçüldü, motorun ölçütü kullanıldı.
 { ad:"Bratsk ostrogu", tur:"kale", lat:56.2800, lon:101.7900, g:0, k:0, d:[], kur:"1631-01-01",
   kasitli_bosluk:true,bos:"veri-yok", neden:"1631 öncesi Buryat toprağı. ⚠️ İrkutsk kaydındaki Halha/Altan Han nüfuzu çekincesi burada da geçerli; `kuzey-yuan` YAZILMADI, aynı sebeple. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1631-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1631-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑥ AŞAĞI TUNGUSKA ve VİLYUY — ölçümün EN AÇ hücreleri ────────────
 { ad:"Yerbogaçen", tur:"kale", lat:61.2800, lon:108.0100, g:0, k:0, d:[], kur:"1786-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1786 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor. 🔴 DÜZELTİLDİ (M-4443 döngüsü, 17 Eylül 2026): dönem başı 1668→1786'ya çekildi. Kaynak RAS Dilbilim Enstitüsü 'Siberian Lang' projesi (siberian-lang.iling-ran.ru/naselennyy-punkt/erbogachyon) — AYNEN: «По разным источникам, основано то ли в 1786, то ли в 1860 году русскими охотниками-промысловиками» (değişik kaynaklara göre 1786 ya da 1860'ta Rus avcı-tuzakçılar tarafından kuruldu), VE sayfa 1860'ı AYRIYETEN «yerleşim olarak resmî kayda geçtiği tarih» diye açıklığa kavuşturuyor — yani 1860 KURULUŞ değil İDARÎ TESCİL, 1786 fiilî kuruluş. 1668'in bu noktaya özgü hiçbir dayanağı yok (YAMA-KUR-0917'nin kendi ölçümü de aynı sonuca varmıştı).",
-  s:[{f:"1786-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1786-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // 🔴 BU KAYIT BİR YERLEŞİM DEĞİL, COĞRAFÎ DOLGUDUR — ve öyle işaretli.
 // 63,5°K/105,5°D ölçümün en aç hücresiydi (855 km, Olyokminsk boyuyordu).
@@ -891,15 +891,15 @@ window.YERLESIMLER_EK13 = [
 //    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
 // { ad:"Aşağı Tunguska platosu (Evenki)", tur:"bolge", lat:63.5000, lon:104.0000, g:0, k:0, d:[],
 //   kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk toprağı, devletsiz. ⚠️ Bu bir COĞRAFÎ DOLGUDUR, kasaba değil: pencerede kurulmuş yerleşim yok (Tura 1924 · Vanavara 1932 · Baykit 1927 — üçü de 1923 sonrası), o yüzden yerleşim UYDURULMADI. 🔴 TDV'ye basmıyor.",
-//   s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+//   s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Vilyuysk", tur:"kale", lat:63.7500, lon:121.6300, g:0, k:0, d:[], kur:"1634-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1634 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1634-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1634-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Essey", tur:"bolge", lat:68.4800, lon:102.1800, g:0, k:0, d:[], kur:"1628-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk/Saha toprağı, devletsiz. Aşağı Tunguska platosu ile aynı sınıf: yasak zimovyesi, kasaba değil. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑦ SELENGİNSK — B'DEKİ TEK RENK DÜZELTMESİ ───────────────────────
 // 🔴 Ölçüldü: 50,5°K/107,5-110,5°D hücreleri bugün `qing-hanedani`, çünkü
@@ -922,7 +922,7 @@ window.YERLESIMLER_EK13 = [
 //    ayrı bir parti — `qing-hanedani` ile yazılabilir ama ölçmeden yazmam.
 { ad:"Selenginsk", tur:"kale", lat:51.1000, lon:106.6000, g:0, k:0, d:[], kur:"1665-09-27",
   kasitli_bosluk:true,bos:"veri-yok", neden:"1665 öncesi Buryat/Halha sınır bozkırı; hangi tarafta olduğu tanımsızdı ve tanımsızlık uydurulmadı. Sınır 1727-10-21 Kyahta antlaşmasıyla çizildi ama Rus ostrogu 1665'ten beri orada. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1665-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1665-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -1043,22 +1043,22 @@ window.YERLESIMLER_EK14 = [
 // 🔴 DOSYANIN EN ÖNEMLİ İKİ KAYDI. Semerkant 1370-1500 arası Timurlu
 //    başkenti, 1500-1868 arası Özbek hanlarının; ikisi de haritada YOKTU.
 { ad:"Semerkant", tur:"sehir", lat:39.6542, lon:66.9758, g:0, k:2, d:[],
-  s:[{f:"1220-01-01",d:"mogol-imparatorlugu",kaynak:"TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · 1074/1089 Melikşah hâkimiyeti (Karahanlı tâbiiyeti) kopuk · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · Moğol İmparatorluğu → Çağatay ardıl yapı; cagatay künye günü (1227-01-01) devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1220-01-01",d:"mogol-imparatorlugu",kaynak:"TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · 1074/1089 Melikşah hâkimiyeti (Karahanlı tâbiiyeti) kopuk · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV semerkant: 'Cengiz Han’ın 617’de (1220) Semerkant’ı tahrip etmesinden sonra daha güneyde bugünkü modern Semerkant’ın bulunduğu bölgede yeni bir şehir kurulmuştur.' · Moğol İmparatorluğu → Çağatay ardıl yapı; cagatay künye günü (1227-01-01) devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-31",d:"sovyet-rusya"},{f:"1991-08-31",t:"2000-12-31",d:"ozbekistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Buhara Emirliği 1868'de Rus himayesine girdi ama ILGA EDİLMEDİ —
 // hanlık 1920'ye kadar ayrı bir devlet olarak durdu. Semerkant'ın 1868'de
 // Rus, Buhara'nın 1920'ye kadar Buhara olması bu yüzden ÇELİŞKİ DEĞİL:
 // biri ilhak edildi, öteki himaye altına alındı.
 { ad:"Buhara", tur:"sehir", lat:39.7681, lon:64.4210, g:0, k:1, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Karşi (Nahşeb)", tur:"sehir", lat:38.8600, lon:65.7950, g:0, k:1, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Timur'un doğduğu yer (Kiş). Bir dönem yarı bağımsız beklik oldu ama
 // Buhara'nın dışına hiç çıkmadı — ayrı kimlik YAZILMADI.
 { ad:"Şehrisebz (Kiş)", tur:"sehir", lat:39.0580, lon:66.8330, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ TDV'de MÜSTAKİL MADDE YOK — `termiz` slug'ı "Arama" sayfası döndürüyor
 //    (`<title>` ile sınandı). Zinciri komşusu Hisar'dan alındı; Ceyhun'un
@@ -1066,21 +1066,21 @@ window.YERLESIMLER_EK14 = [
 //    Kayıt bir HÜKÜM taşımıyor, yalnız kuzey yakayı Kâbil'in 345 km'lik
 //    peteğinden kurtarıyor.
 { ad:"Termez", tur:"sehir", lat:37.2240, lon:67.2780, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② DOĞU BUHARA — emirliğin 1920'ye kadar tuttuğu dağlık kesim ────
 { ad:"Hisar", tur:"kale", lat:38.5200, lon:68.5500, g:0, k:4, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1991-09-09","d":"sovyet-rusya"},{"f":"1991-09-09","t":"2000-12-31","d":"tacikistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Külâb (Kulob)", tur:"sehir", lat:37.9100, lon:69.7800, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1920-09-02","d":"buhara"},{"f":"1920-09-02","t":"1991-09-09","d":"sovyet-rusya"},{"f":"1991-09-09","t":"2000-12-31","d":"tacikistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ③ AÇLI SINIR — Buhara ile Rus Türkistanı'nın ayrıldığı yer ──────
 // 🔴 Cizzah bu dosyada Semerkant'tan AYRI bir gün taşıyor: Ruslar burayı
 //    Semerkant'tan iki yıl ÖNCE, 18 Ekim 1866'da aldı. Kopyala-yapıştır
 //    yapılsaydı iki yıl geç boyanacaktı.
 { ad:"Cizzah", tur:"kale", lat:40.1150, lon:67.8420, g:0, k:4, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1866-10-18","d":"buhara"},{"f":"1866-10-18","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1866-10-18","d":"buhara"},{"f":"1866-10-18","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ④ YEDİSU — zinciri Mâverâünnehir'inkinden BAŞKA ─────────────────
 // ⚠️ Bu kayıt öbür sekizin zincirini KOPYALAMIYOR ve sebebi coğrafî:
@@ -1091,7 +1091,7 @@ window.YERLESIMLER_EK14 = [
 //    `kazak-hanligi` t=1847-01-01 diyor. Kaleyi başlangıç yapsaydım hanlığı
 //    yedi yıl fazla yaşatırdım — Batnoz'un (Patmos) aynısı.
 { ad:"Almatı (Vernıy)", tur:"kale", lat:43.2380, lon:76.8890, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1758-01-01",d:"cungar"},{f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1758-01-01",d:"cungar"},{f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -1162,24 +1162,24 @@ window.YERLESIMLER_EK15 = [
 // 🔴 Bugün Taşkent'i boyayan nokta KAŞGAR: 604,7 km doğuda ve 1912'ye
 //    kadar Qing. Yani Orta Asya'nın en büyük şehri haritada Çin renginde.
 { ad:"Taşkent", tur:"sehir", lat:41.3110, lon:69.2800, g:0, k:1,kd:[{f:"1867-01-01",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1220-01-01",d:"mogol-imparatorlugu",kaynak:"TDV taskent: '(XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.' · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV taskent: '(XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1485-01-01",d:"timurlu"},{f:"1485-01-01",t:"1503-01-01",d:"mogulistan",kaynak:"TDV taskent, BİREBİR: \"Timurlular arasında başlayan taht mücadelesi neticesinde Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485).\" · \"Yûnus Han iki yıl sonra vefat edince yerine oğlu Mahmud Han geçti.\" · \"908’de (1503) Taşkent’i Özbek Şeybânî Han aldı\" · DOGU-SAFEVI-0086 H-0002"},{f:"1503-01-01",t:"1809-01-01",d:"buhara"},{f:"1809-01-01",t:"1865-06-17",d:"hokand"},{f:"1865-06-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1220-01-01",d:"mogol-imparatorlugu",kaynak:"TDV taskent: '(XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.' · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV taskent: '(XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1485-01-01",d:"timurlu"},{f:"1485-01-01",t:"1503-01-01",d:"mogulistan",kaynak:"TDV taskent, BİREBİR: \"Timurlular arasında başlayan taht mücadelesi neticesinde Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485).\" · \"Yûnus Han iki yıl sonra vefat edince yerine oğlu Mahmud Han geçti.\" · \"908’de (1503) Taşkent’i Özbek Şeybânî Han aldı\" · DOGU-SAFEVI-0086 H-0002"},{f:"1503-01-01",t:"1809-01-01",d:"buhara"},{f:"1809-01-01",t:"1865-06-17",d:"hokand"},{f:"1865-06-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-31",d:"sovyet-rusya"},{f:"1991-08-31",t:"2000-12-31",d:"ozbekistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② FERGANA HAVZASI — hanlığın çekirdeği ──────────────────────────
 { ad:"Hokand", tur:"sehir", lat:40.5290, lon:70.9430, g:0, k:2,kd:[{f:"1710-01-01",t:"1876-02-19",k:1,m:"Hokand"}], d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1504-01-01","d":"timurlu","kaynak":"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{"f":"1504-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1504-01-01","d":"timurlu","kaynak":"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{"f":"1504-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Andican", tur:"sehir", lat:40.7830, lon:72.3500, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1504-01-01","d":"timurlu","kaynak":"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{"f":"1504-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1504-01-01","d":"timurlu","kaynak":"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{"f":"1504-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"ozbekistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Oş", tur:"sehir", lat:40.5140, lon:72.8040, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1504-01-01","d":"timurlu","kaynak":"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{"f":"1504-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1504-01-01","d":"timurlu","kaynak":"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{"f":"1504-01-01","t":"1710-01-01","d":"buhara"},{"f":"1710-01-01","t":"1876-02-19","d":"hokand"},{"f":"1876-02-19","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1991-08-31","d":"sovyet-rusya"},{"f":"1991-08-31","t":"2000-12-31","d":"kirgizistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // 🔴 HUCEND ÜÇ NOKTADAN DA FARKLI GÜN TAŞIYOR — kopyalanmadı.
 //    Hokand'a 1802'de girdi (Fergana'nın üçünden sekiz yıl önce),
 //    Ruslara 24 Mayıs 1866'da düştü (hanlığın ilgasından on yıl önce).
 //    Zinciri kopyalasaydım şehir on yıl fazla Hokand görünecekti.
 { ad:"Hucend", tur:"sehir", lat:40.2840, lon:69.6220, g:0, k:3, d:[],
-  s:[{f:"1219-01-01",d:"mogol-imparatorlugu",kaynak:"TDV hucend: 'Moğol saldırıları esnasında Cengiz Han’ın yolladığı 75.000 kişilik ordu karşısında tutunamayan Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219).' · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV hucend: 'Moğol saldırıları esnasında Cengiz Han’ın yolladığı 75.000 kişilik ordu karşısında tutunamayan Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219).' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1504-01-01",d:"timurlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{f:"1504-01-01",t:"1802-01-01",d:"buhara"},{f:"1802-01-01",t:"1866-05-24",d:"hokand"},{f:"1866-05-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1219-01-01",d:"mogol-imparatorlugu",kaynak:"TDV hucend: 'Moğol saldırıları esnasında Cengiz Han’ın yolladığı 75.000 kişilik ordu karşısında tutunamayan Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219).' · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV hucend: 'Moğol saldırıları esnasında Cengiz Han’ın yolladığı 75.000 kişilik ordu karşısında tutunamayan Hucend Emîri Timur Melik’in kaçması üzerine şehir Moğollar’ın eline geçti (1219).' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1504-01-01",d:"timurlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV fergana, BİREBİR: \"Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.\" · TDV babur: \"Fergana hâkimiyeti (1494-1504)\" · 1500-01-01 Buhara açılışı kaynaksızdı (Semerkant/Buhara şablonu) · DOGU-SAFEVI-0086 H-0002"},{f:"1504-01-01",t:"1802-01-01",d:"buhara"},{f:"1802-01-01",t:"1866-05-24",d:"hokand"},{f:"1866-05-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-09-09",d:"sovyet-rusya"},{f:"1991-09-09",t:"2000-12-31",d:"tacikistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ③ SIRDERYA HATTI — Kazak hanlarından Hokand'a, oradan Rusya'ya ──
 // ⚠️ Bu ikisinin ortasında `buhara` DEĞİL `kazak-hanligi` var ve bu
@@ -1187,10 +1187,10 @@ window.YERLESIMLER_EK15 = [
 //    hanlarının makamıydı, Buhara'nın değil. Fergana zincirini buraya
 //    kopyalamak şehri iki yüzyıl yanlış hanlıkta gösterirdi.
 { ad:"Türkistan (Yesi)", tur:"sehir", lat:43.3020, lon:68.2530, g:0, k:3, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-06-12","d":"hokand"},{"f":"1864-06-12","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-06-12","d":"hokand"},{"f":"1864-06-12","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1991-12-16","d":"sovyet-rusya"},{"f":"1991-12-16","t":"2000-12-31","d":"kazakistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Çimkent", tur:"kale", lat:42.3170, lon:69.5960, g:0, k:4, d:[],
-  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}] },
+  s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1991-12-16","d":"sovyet-rusya"},{"f":"1991-12-16","t":"2000-12-31","d":"kazakistan","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -1318,29 +1318,29 @@ window.YERLESIMLER_EK17 = [
 //    1654 Pereyaslav ile tekrar Rusya'ya geçti. Haritada bugün bu üç
 //    devrin HİÇBİRİ görünmüyor — kuşakta nokta yok.
 { ad:"Çernigov", tur:"sehir", lat:51.4982, lon:31.2893, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Novgorod-Seversk", tur:"sehir", lat:51.9874, lon:33.2620, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ PUTİVL ÖTEKİ İKİSİNİN ZİNCİRİNİ TAŞIMIYOR — kopyalanmadı.
 //    Deulino (1618) Çernigov ve Novgorod-Seversk'i Polonya'ya verdi ama
 //    Putivl **Moskova'da kaldı** ve sınır kalesi oldu. Kopyalasaydım
 //    şehir 36 yıl yanlış devlette görünecekti.
 { ad:"Putivl", tur:"kale", lat:51.3364, lon:33.8703, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② YUKARI OKA — Litvanya'nın doğu ucu ────────────────────────────
 // Bryansk 1503'te değil **1500'de** Moskova'ya geçti (Vedroşa savaşı).
 // 🟢 Ve bu günün kronolojide maddesi VAR (8 gün) — üç kırılmadan biri.
 { ad:"Bryansk", tur:"sehir", lat:53.2436, lon:34.3639, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1356-01-01",d:"altinorda"},{f:"1356-01-01",t:"1500-08-01",d:"litvanya-buyuk-dukalik"},{f:"1500-08-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1356-01-01",d:"altinorda"},{f:"1356-01-01",t:"1500-08-01",d:"litvanya-buyuk-dukalik"},{f:"1500-08-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Kursk", tur:"sehir", lat:51.7304, lon:36.1926, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Orel", tur:"sehir", lat:52.9700, lon:36.0700, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ③ RYAZAN — dosyanın en tartışmalı kaydı, ve işaretli ────────────
 // ⚠️ Ryazan 1521'e kadar **ayrı bir büyük knezlikti**, Moskova'nın değil.
@@ -1352,17 +1352,17 @@ window.YERLESIMLER_EK17 = [
 //    arası yanlış rengi, Voronej'in bugün 300 km kuzeye taşıdığı
 //    `kirim` yanlışından KÜÇÜK.
 { ad:"Ryazan", tur:"sehir", lat:54.6250, lon:39.7360, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1521-01-01",d:"ryazan"},{f:"1521-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1521-01-01",d:"ryazan"},{f:"1521-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ④ YABANİ OVA'NIN KUZEY KENARI — Kırım taşmasını kesen üç nokta ──
 // Üçü de Voronej'in desenini taşıyor (`altinorda → kirim → rusya`) ama
 // KENDİ kale kuruluş günleriyle. Voronej'in kaydı DEĞİŞMİYOR; değişen,
 // onun peteğinin nereye kadar uzandığı.
 { ad:"Belgorod", neden:"VERI-KIRIM 14 Eyl 2026 (YAMA-KIRIM2-0913, Emre kararı D öncesi adım ①): kirim 1441→1596 kaldırıldı, __BOSLUK__ (kuzey vahşi bozkır).", tur:"kale", lat:50.5950, lon:36.5870, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1596-01-01",d:"__BOSLUK__",kaynak:"IEU (CIUS) 'Slobidska Ukraine' · 'Kharkiv oblast': 16. yy başına dek ıssız vahşi bozkır, Tatar akın yolları; Moskova'ya yalnız 'nominally' bağlı. Hiçbir kaynak Kırım TASARRUFU yazmıyor (akın tasarruf değil D030; nominal iddia D076) ⇒ __BOSLUK__. Kırılma günü DEĞİŞMEDİ. denetim/ARASTIRMA-KIRIM2-0913.md ① Belgorod: IEU 'Belgorod' 1596'dan kale kasabası, Belgorod Hattı merkezi (yalnız yıl)."},{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1596-01-01",d:"__BOSLUK__",kaynak:"IEU (CIUS) 'Slobidska Ukraine' · 'Kharkiv oblast': 16. yy başına dek ıssız vahşi bozkır, Tatar akın yolları; Moskova'ya yalnız 'nominally' bağlı. Hiçbir kaynak Kırım TASARRUFU yazmıyor (akın tasarruf değil D030; nominal iddia D076) ⇒ __BOSLUK__. Kırılma günü DEĞİŞMEDİ. denetim/ARASTIRMA-KIRIM2-0913.md ① Belgorod: IEU 'Belgorod' 1596'dan kale kasabası, Belgorod Hattı merkezi (yalnız yıl)."},{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Tambov", neden:"VERI-KIRIM 14 Eyl 2026 (adım ②): kirim 1441→1636 kaldırıldı, __BOSLUK__ — Voronej/Belgorod üzerine tek başına Kırım adası kalmasın; kaynak ESBE.", tur:"kale", lat:52.7210, lon:41.4520, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1636-04-17",d:"__BOSLUK__",kaynak:"ESBE (Brockhaus-Efron) 'Tambov' (imza N. Romanov): Tambov 1636'da Kırım, Nogay ve Azak Tatarlarının sık akınlarına karşı tahkimat olarak kuruldu · ESBE 'Tambovskaya guberniya' (N. Romanov), tarih bölümü: bugünkü guberniyanın güney şeridi uzun süre sürekli nüfuzsuz bir vahşi bozkırdı, orada Kumanlar, sonra Kalmuklar, Azak ve Kırım Tatarları göçebe dolaştı; 'Nogay tarafı' denen güney kesim Tambov ve Kozlov'un kuruluşundan (1636) önce kalıcı iskân görmedi. Göçebe dolaşma/akın hanlık TASARRUFU değildir (D030). Kırım TASARRUFU yazan kaynak yok ⇒ kuzey dört kayıtla aynı hüküm, __BOSLUK__. Kırılma günü (1636-04-17) değişmedi; gün kaynağı bu turda ölçülmedi. ⚠️ ESBE batıdaki Meşçera kesiminde Rus iskânı/idaresinin ÖNCE (Ryazan uzantısı) yerleştiğini yazıyor, tarih vermiyor — Tambov noktasına taşınamadı."},{f:"1636-04-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1636-04-17",d:"__BOSLUK__",kaynak:"ESBE (Brockhaus-Efron) 'Tambov' (imza N. Romanov): Tambov 1636'da Kırım, Nogay ve Azak Tatarlarının sık akınlarına karşı tahkimat olarak kuruldu · ESBE 'Tambovskaya guberniya' (N. Romanov), tarih bölümü: bugünkü guberniyanın güney şeridi uzun süre sürekli nüfuzsuz bir vahşi bozkırdı, orada Kumanlar, sonra Kalmuklar, Azak ve Kırım Tatarları göçebe dolaştı; 'Nogay tarafı' denen güney kesim Tambov ve Kozlov'un kuruluşundan (1636) önce kalıcı iskân görmedi. Göçebe dolaşma/akın hanlık TASARRUFU değildir (D030). Kırım TASARRUFU yazan kaynak yok ⇒ kuzey dört kayıtla aynı hüküm, __BOSLUK__. Kırılma günü (1636-04-17) değişmedi; gün kaynağı bu turda ölçülmedi. ⚠️ ESBE batıdaki Meşçera kesiminde Rus iskânı/idaresinin ÖNCE (Ryazan uzantısı) yerleştiğini yazıyor, tarih vermiyor — Tambov noktasına taşınamadı."},{f:"1636-04-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ PENZA'NIN ORTASI `kirim` DEĞİL `nogay` — ve bu kasıtlı.
 //    Sura-Volga arası Nogay Ordası'nın otlağıydı, Kırım'ın değil.
@@ -1373,13 +1373,13 @@ window.YERLESIMLER_EK17 = [
 //    ise (Kırım'ın kuruluşu) ZATEN VAR. Bir yıllık kaydırma bilgi
 //    kaybetmiyor — Altın Orda'nın parçalanması zaten o aralığa yazılı.
 { ad:"Penza", tur:"kale", lat:53.2000, lon:45.0000, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1663-01-01",d:"nogay"},{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1663-01-01",d:"nogay"},{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ⑤ ORTA VOLGA — Kazan Hanlığı'nın güney kanadı ───────────────────
 // Zincir canlı `Kazan` kaydından birebir; ikisi de aynı hanlığın
 // toprağıydı ve aynı gün düştü.
 { ad:"Simbirsk", tur:"kale", lat:54.3180, lon:48.4000, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"altinorda"},{f:"1438-01-01",t:"1552-10-02",d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"altinorda"},{f:"1438-01-01",t:"1552-10-02",d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -1498,19 +1498,19 @@ window.YERLESIMLER_EK18 = [
 // `_ek9`in Tomsk deseni birebir: fetihten önce kasten sahipsiz, sonra Rus.
 { ad:"Tara", tur:"kale", lat:56.9021, lon:74.3714, g:0, k:0, d:[], kur:"1594-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1594 öncesi Sibir Hanlığı'nın çevresi; hanlığın çekirdeği Tura-Tobol-İşim'di ve Tara İrtiş'in aşağısında, sınırın dışında. 🔴 1594 TDV'ye basmıyor.",
-  s:[{f:"1594-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1594-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Omsk", tur:"kale", lat:54.9885, lon:73.3242, g:0, k:0, d:[], kur:"1716-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1716 öncesi Baraba/İrtiş bozkırı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1716-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1716-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Kainsk (Baraba)", tur:"kale", lat:55.3600, lon:78.3600, g:0, k:0, d:[], kur:"1722-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1722 öncesi Baraba bozkırı. ⚠️ `cungar` YAZILMADI: Baraba Cungar'ın değil Sibir Hanlığı'nın çevresiydi (`_ek9` gerekçesi) ve Cungar'ı buraya yazmak onu 600 km kuzeye taşırdı. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1722-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1722-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Kuznetsk", tur:"kale", lat:53.7570, lon:87.1360, g:0, k:0, d:[], kur:"1618-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1618 öncesi Şor/Teleüt toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1618-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1618-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② YUKARI IRTIŞ ve ALTAY ETEĞİ — Cungar sınırının çizildiği yer ──
 // 🔴 BU ALTI KAYIT PARTİNİN ASIL İŞİ. Bugün Kobdo'nun peteği buraya
@@ -1520,11 +1520,11 @@ window.YERLESIMLER_EK18 = [
 //    ve zaten çekirdek kırılma günü (kronolojide 0 gün ötede maddesi var).
 { ad:"Biysk", tur:"kale", lat:52.5390, lon:85.2140, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Teleüt toprağı, devletsiz. 🔴 1709 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1709-01-01",d:"cungar"},{f:"1709-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1709-01-01",d:"cungar"},{f:"1709-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Barnaul", tur:"sehir", lat:53.3480, lon:83.7780, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Teleüt toprağı, devletsiz. 🔴 1730 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1730-01-01",d:"cungar"},{f:"1730-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1730-01-01",d:"cungar"},{f:"1730-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ ZMEİNOGORSK ATILABİLİRDİ ve `2s`yi 6'dan 5'e indirirdi — atılmadı.
 //    Kolıvan-Voskresensk maden bölgesi, Rusya'nın Altay'ı tutma
@@ -1533,20 +1533,20 @@ window.YERLESIMLER_EK18 = [
 //    `PARTİ 22`de reddettiğim davranışın aynısı olurdu.
 { ad:"Zmeinogorsk", tur:"sehir", lat:51.1580, lon:82.1880, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Altay eteği, devletsiz. 🔴 1736 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1736-01-01",d:"cungar"},{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1736-01-01",d:"cungar"},{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Pavlodar (Koryakov)", tur:"kale", lat:52.2850, lon:76.9670, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi yukarı İrtiş bozkırı. 🔴 1720 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Semipalatinsk", tur:"kale", lat:50.4110, lon:80.2270, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi yukarı İrtiş bozkırı. 🔴 1718 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1718-01-01",d:"cungar"},{f:"1718-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1718-01-01",d:"cungar"},{f:"1718-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Kutunun güney ucu — Kobdo'nun kuzeybatı menzilini kesen nokta.
 { ad:"Ust-Kamenogorsk", tur:"kale", lat:49.9480, lon:82.6280, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Altay eteği, devletsiz. 🔴 1720 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -1630,7 +1630,7 @@ window.YERLESIMLER_EK16 = [
 //    (1833, 1837) BAŞARISIZ oldu — yani hiçbir zaman İran'a geçmedi.
 //    O yüzden ara dönem için `kacar` YAZILMADI.
 { ad:"Herat", tur:"sehir", lat:34.3420, lon:62.2030, g:0, k:2, d:[],
-  s:[{f:"1175-01-01",d:"gurlu",kaynak:"TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · ZAMAN-Z6-1008",t:"1208-01-01",kesinlik:"yil"},{f:"1208-01-01",d:"harizmsah",kaynak:"TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · ZAMAN-Z6-1008",t:"1221-01-01",kesinlik:"yil"},{f:"1221-01-01",d:"mogol-imparatorlugu",kaynak:"TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · 1244 Kert tayini / 1255 Hülâgû onayı — Kert Moğol'a TÂBİ, sahip değişmez (`v:` önerilmedi) · ZAMAN-Z6-1008",t:"1256-01-01",kesinlik:"yil"},{f:"1256-01-01",t:"1335-12-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV herat: 'Moğollar’ın 642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri ve bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu.' · ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1335-12-01",t:"1381-04-01",d:"kert"},{f:"1381-04-01",t:"1507-01-01",d:"timurlu"},{f:"1507-01-01",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1923-10-29",d:"afganistan"}] },
+  s:[{f:"1175-01-01",d:"gurlu",kaynak:"TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · ZAMAN-Z6-1008",t:"1208-01-01",kesinlik:"yil"},{f:"1208-01-01",d:"harizmsah",kaynak:"TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · ZAMAN-Z6-1008",t:"1221-01-01",kesinlik:"yil"},{f:"1221-01-01",d:"mogol-imparatorlugu",kaynak:"TDV herat: 'Herat 571’de (1175-76) Gurlular’ın, 605’te (1208-1209) on üç aylık bir kuşatmadan sonra Hârizmşahlar’ın, 618’de de (1221) Cengiz Han’ın oğlu Tuluy’un eline geçti.' · 1244 Kert tayini / 1255 Hülâgû onayı — Kert Moğol'a TÂBİ, sahip değişmez (`v:` önerilmedi) · ZAMAN-Z6-1008",t:"1256-01-01",kesinlik:"yil"},{f:"1256-01-01",t:"1335-12-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV herat: 'Moğollar’ın 642’de (1244) Gur asıllı Şemseddin Kert’i Herat hâkimi olarak tayin etmeleri ve bu durumun 653’te (1255) Hülâgû tarafından da onaylanması üzerine şehirde Kert hânedanı kurulmuş oldu.' · ardıl yapı; ilhanli künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1335-12-01",t:"1381-04-01",d:"kert"},{f:"1381-04-01",t:"1507-01-01",d:"timurlu"},{f:"1507-01-01",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"2000-12-31",d:"afganistan"}] },
 
 // ── ② BELH — Ceyhun'un güney yakası ─────────────────────────────────
 // ⚠️ ZİNCİRİ HERAT'INKİNDEN AYRI ve bu kasıtlı: Belh Horasan değil
@@ -1641,7 +1641,7 @@ window.YERLESIMLER_EK16 = [
 //    bu pencereyi atlamak kolaydı; atlanmadı çünkü Ceyhun'un iki yakası
 //    arasındaki gerçek çekişme tam orada.
 { ad:"Belh", tur:"sehir", lat:36.7580, lon:66.8970, g:0, k:2, d:[],
-  s:[{f:"1198-01-01",d:"gurlu",kaynak:"TDV belh: 'Muhammed, Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198) ve Gurlu Devleti topraklarına kattı.' · 1043 Selçuklu · 1152 Gurlu tanıklıkları kopuk (1152-1198 Karahıtay'a bağlı vali, tarihsiz) · ZAMAN-Z6-1008",t:"1205-01-01",kesinlik:"yil"},{f:"1205-01-01",d:"harizmsah",kaynak:"TDV belh: 'Daha sonra Belh’i Gurlular’ın düşmanı Hârizmşah Alâeddin aldı (1205) ve vali olarak Türk kumandanı Çağrı’yı (veya Câfer) tayin etti.' · ZAMAN-Z6-1008",t:"1221-01-01",kesinlik:"yil"},{f:"1221-01-01",d:"mogol-imparatorlugu",kaynak:"TDV belh: '1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.' · 'yaklaşık 100 yıl harabe halinde kaldı' — sahip Moğol, nokta harabe · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV belh: '1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1506-01-01",d:"timurlu"},{f:"1506-01-01",t:"1509-01-01",d:"buhara"},{f:"1509-01-01",t:"1514-08-23",d:"safevi"},{f:"1514-08-23",t:"1751-01-01",d:"buhara"},{f:"1751-01-01",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1841-01-01",d:"buhara"},{f:"1841-01-01",t:"1923-10-29",d:"afganistan"}] },
+  s:[{f:"1198-01-01",d:"gurlu",kaynak:"TDV belh: 'Muhammed, Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198) ve Gurlu Devleti topraklarına kattı.' · 1043 Selçuklu · 1152 Gurlu tanıklıkları kopuk (1152-1198 Karahıtay'a bağlı vali, tarihsiz) · ZAMAN-Z6-1008",t:"1205-01-01",kesinlik:"yil"},{f:"1205-01-01",d:"harizmsah",kaynak:"TDV belh: 'Daha sonra Belh’i Gurlular’ın düşmanı Hârizmşah Alâeddin aldı (1205) ve vali olarak Türk kumandanı Çağrı’yı (veya Câfer) tayin etti.' · ZAMAN-Z6-1008",t:"1221-01-01",kesinlik:"yil"},{f:"1221-01-01",d:"mogol-imparatorlugu",kaynak:"TDV belh: '1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.' · 'yaklaşık 100 yıl harabe halinde kaldı' — sahip Moğol, nokta harabe · ZAMAN-Z6-1008",t:"1227-01-01",kesinlik:"yil"},{f:"1227-01-01",t:"1370-04-09",d:"cagatay",kaynak:"f 1281-01-01'den geri çekildi — TDV belh: '1221’de Cengiz Han’ın yönettiği bir ordu tarafından yerle bir edilip halkı kılıçtan geçirildi ve yaklaşık 100 yıl harabe halinde kaldı.' · ardıl yapı; cagatay künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1370-04-09",t:"1506-01-01",d:"timurlu"},{f:"1506-01-01",t:"1509-01-01",d:"buhara"},{f:"1509-01-01",t:"1514-08-23",d:"safevi"},{f:"1514-08-23",t:"1751-01-01",d:"buhara"},{f:"1751-01-01",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1841-01-01",d:"buhara"},{f:"1841-01-01",t:"2000-12-31",d:"afganistan"}] },
 
 ];
 
@@ -1749,11 +1749,11 @@ window.YERLESIMLER_EK20 = [
 //    Çuguçak protokolü 1864'te BURADA imzalandı — yani haritada
 //    sınırın çizildiği şehir, sınırın yanlış tarafında duruyor.
 { ad:"Çöçek (Tarbagatay)", tur:"sehir", lat:46.7500, lon:82.9800, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ── ② ÇİN ALTAYI — Kobdo ile Ust-Kamenogorsk arasındaki 640 km ──────
 { ad:"Altay (Şara Sume)", tur:"sehir", lat:47.8700, lon:88.1200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // ── ③ ZAYSAN — sınırın RUS tarafına düşen tek nokta ─────────────────
 // ⚠️ Rus karakolu 1868'de kuruldu ama TOPRAK 1864-10-07'de devrolundu.
@@ -1761,14 +1761,14 @@ window.YERLESIMLER_EK20 = [
 //    `PARTİ 20`de Ayan · Blagoveşçensk · Selenginsk'te üç kez öğrendiğim
 //    ders: kasabanın kuruluşu ile toprağın idaresi ayrı sorulardır.
 { ad:"Zaysan", tur:"kale", lat:47.4667, lon:84.8667, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1864-10-07",d:"qing-hanedani"},{f:"1864-10-07",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1864-10-07",d:"qing-hanedani"},{f:"1864-10-07",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ④ CUNGARYA HAVZASI — coğrafî dolgu, kasaba DEĞİL ────────────────
 // Ürümçi (286 km) ile Gulca arasındaki susuz havza. `Bozkır (Deşt-i
 // Kıpçak)` · `Karakum` · `Aşağı Tunguska platosu` ile aynı sınıf:
 // pencerede kurulmuş yerleşim yok, o yüzden UYDURULMADI.
 { ad:"Cungarya havzası", tur:"bolge", lat:45.6000, lon:85.0000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 ];
 
@@ -1825,7 +1825,7 @@ window.YERLESIMLER_EK11 = [
 
 // ── KUZEY ESTONYA — Lehistan safhası YOK ────────────────────────────
 { ad:"Tallinn (Reval)", tur:"liman", lat:59.4370, lon:24.7540, g:0, k:1,kd:[{f:"1918-02-24",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1940-08-06",d:"estonya"},{f:"1940-08-06",t:"1991-08-20",d:"sovyet-rusya",kaynak:"Britannica 'Estonia' (SSCB'ye ilhak 1940-08-06)"},{f:"1991-08-20",t:"2000-12-31",d:"estonya-cumhuriyeti-yeniden",kaynak:"tsv: estonya-cumhuriyeti-yeniden f=1991-08-20"}] },
 
 // ⚠️ Narva 1558-1581 arasında RUS elindeydi (Livonya Savaşı) ve bu dönem
 //    YAZILMADI: 23 yıllık bir Rus safhası, aynı noktanın 1561 ve 1581'de
@@ -1833,14 +1833,14 @@ window.YERLESIMLER_EK11 = [
 //    haritada 40 km'lik bir noktada görünmeyecek bir ayrıntı için iki
 //    fazladan geçiş yazmadım — ama atlandığı burada YAZILI.
 { ad:"Narva", tur:"kale", lat:59.3770, lon:28.1900, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1940-08-06",d:"estonya"},{f:"1940-08-06",t:"1991-12-26",d:"sovyet-rusya",kaynak:"Petseri ilçesinin çoğu 1944'te Estonya SSC'den RSFSC'ye devredildi (Setomaa hariç); egemenlik SSCB'de"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"tsv: rusya-federasyonu f=1991-12-26; Estonya 1995-11'de Tartu sınır talebini bıraktı"}] },
 
 // ── GÜNEY ESTONYA — Livonya Dukalığı, Lehistan safhası VAR ──────────
 { ad:"Tartu (Dorpat)", tur:"sehir", lat:58.3780, lon:26.7290, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1558-01-01",d:"almanya",kesinlik:{t:"yil"}},{f:"1558-01-01",t:"1582-01-01",d:"rusya",kesinlik:{f:"yil",t:"yil"},kaynak:"Britannica «Livonian War» (Britannica Editors): 1558 Dorpat zaptı · 1582 Yam Zapolski — §4 ara bölge, ikinci kaynak aranacak"},{f:"1582-01-01",t:"1621-09-15",d:"lehistan",kesinlik:{f:"yil"}},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1558-01-01",d:"almanya",kesinlik:{t:"yil"}},{f:"1558-01-01",t:"1582-01-01",d:"rusya",kesinlik:{f:"yil",t:"yil"},kaynak:"Britannica «Livonian War» (Britannica Editors): 1558 Dorpat zaptı · 1582 Yam Zapolski — §4 ara bölge, ikinci kaynak aranacak"},{f:"1582-01-01",t:"1621-09-15",d:"lehistan",kesinlik:{f:"yil"}},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1940-08-06",d:"estonya"},{f:"1940-08-06",t:"1991-08-20",d:"sovyet-rusya",kaynak:"Britannica 'Estonia' (SSCB'ye ilhak 1940-08-06)"},{f:"1991-08-20",t:"2000-12-31",d:"estonya-cumhuriyeti-yeniden",kaynak:"tsv: estonya-cumhuriyeti-yeniden f=1991-08-20"}] },
 
 { ad:"Pärnu", tur:"liman", lat:58.3860, lon:24.4970, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1940-08-06",d:"estonya"},{f:"1940-08-06",t:"1991-08-20",d:"sovyet-rusya",kaynak:"Britannica 'Estonia' (SSCB'ye ilhak 1940-08-06)"},{f:"1991-08-20",t:"2000-12-31",d:"estonya-cumhuriyeti-yeniden",kaynak:"tsv: estonya-cumhuriyeti-yeniden f=1991-08-20"}] },
 
 ];
 
@@ -1914,13 +1914,13 @@ window.YERLESIMLER_EK10 = [
 // TDV `kucum-han`: "Merkezi Tura (bugün Tümen) şehri olan Sibir Hanlığı".
 // Ruslar 1586'da bugünkü Tümen'i kurdu (TDV, yıl).
 { ad:"Tümen (Çimgi-Tura)", tur:"sehir", lat:57.1530, lon:65.5343, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // İsker/Sibir — hanlığa adını veren başkent, bugünkü Tobolsk'un yakını.
 // TDV: "Muhammed Tayboğa'nın başşehrini Sibir (Tatarcası İsker 'eski kale')
 // şehrine taşıması ile hanlık Sibir Hanlığı olarak anılmaya başlandı."
 { ad:"Tobolsk (İsker)", tur:"sehir", lat:58.1990, lon:68.2560, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // İrtiş yukarısı. TDV `kucum-han`: "İlk olarak İrtiş'in yukarısında, yani
 // Küçüm'e daha yakın bir yerde Tara şehrini kurdular" (1594).
@@ -1941,7 +1941,7 @@ window.YERLESIMLER_EK10 = [
 //    kasıtlı — bölgesel işgal tarihlerini ayrı ayrı yazsaydım hanlık parça
 //    parça erirdi ve her parça ayrı bir kırılma isterdi.
 { ad:"Baraba bozkırı", tur:"bolge", lat:55.2000, lon:78.5000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -2023,13 +2023,13 @@ window.YERLESIMLER_EK10 = [
 window.YERLESIMLER_EK12 = [
 
 { ad:"Reykjavík", tur:"sehir", lat:64.1466, lon:-21.9426, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
 
 // ⚠️ maske: Akureyri (65,6835/−18,0878) Eyjafjörður'un dibinde ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km kuzeydoğuya çekildi. Aynı sınıf
 //    düzeltme `_ek8`de beş kayıtta daha var.
 { ad:"Akureyri", tur:"sehir", lat:65.7008, lon:-18.0635, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"2000-12-31",d:"izlanda"}] },
 
 // ── DOĞU GRÖNLAND — pencerenin tamamında sahipsiz ───────────────────
 // ONAYLANDI, VARSAYILMADI: Norse yerleşimleri adanın GÜNEYBATI kıyısındaydı
@@ -2183,13 +2183,13 @@ window.YERLESIMLER_EK19 = [
 
 // ── ① HALHA'NIN DOĞUSU — Nerçinsk'in 612 km'lik menzilini kesen üç ──
 { ad:"Kerulen (Çoybalsan)", tur:"sehir", lat:48.0700, lon:114.5400, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Halhın Gol (Buir Nur)", tur:"bolge", lat:47.8000, lon:118.2000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Öndörhaan (Hentiy)", tur:"sehir", lat:47.3200, lon:110.6600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ── ② GOBİ'NİN DOĞUSU — Kalgan'ın 508 km'lik menzilini kesen nokta ──
 // ⚠️ `ming-hanedani` YAZILMADI. Kalgan (Zhangjiakou) 1429-1644 arası Ming
@@ -2197,17 +2197,17 @@ window.YERLESIMLER_EK19 = [
 //    Halha/Sünid otlağıydı. Kalgan'ın zincirini kopyalamak Ming'i
 //    500 km kuzeye, bozkırın ortasına taşırdı.
 { ad:"Dariganga", tur:"bolge", lat:45.3200, lon:113.9000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ── ③ KUZEY HALHA — Selenginsk'in 232 km'lik güney taşmasını kesen iki ──
 // 🔴 Bu iki nokta BENİM KENDİ HATAMI düzeltiyor: `Selenginsk` (`_ek13`)
 //    Kyahta hattını kuzeyden yerine oturtturken güneye 178-232 km taşmış
 //    ve 24.144 km² Moğol toprağını Rus boyuyordu.
 { ad:"Bulgan", tur:"sehir", lat:48.8100, lon:103.5300, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Mörön (Hövsgöl)", tur:"sehir", lat:49.6300, lon:100.1600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 ];
 
@@ -2330,15 +2330,15 @@ window.YERLESIMLER_EK21 = [
 // ═══ A ═══ DIŞ MOĞOLİSTAN (HALHA) — `_ek19` zinciri ═══ 3 nokta ═══
 
 { ad:"Gobi-Altay (Yösönbulag)", tur:"sehir", lat:46.3700, lon:96.2600, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 { ad:"Bayanhongor", tur:"sehir", lat:46.1900, lon:100.7200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Güney Gobi — sınırın DIŞ tarafındaki en güney nokta. Bunun ve
 // `Gaşun Gobi`nin orta dikmesi Moğolistan-Çin sınırının üstüne düşüyor.
 { ad:"Ömnögovi (Dalanzadgad)", tur:"sehir", lat:43.5700, lon:104.4200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1923-10-29",d:"mogolistan"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1691-05-30",d:"kuzey-yuan"},{f:"1691-05-30",t:"1911-12-29",d:"qing-hanedani"},{f:"1911-12-29",t:"1919-11-22",d:"mogolistan"},{f:"1919-11-22",t:"1921-07-11",d:"cin-cumhuriyeti"},{f:"1921-07-11",t:"1924-11-26",d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // ═══ B ═══ İÇ MOĞOLİSTAN / ALAŞA — Qing 1636, Çin 1912 ═══ 3 nokta ═══
 // ⚠️ Bu üçü `mogolistan` TAŞIMIYOR ve bu kasıtlı: İç Moğolistan 1911'de
@@ -2350,16 +2350,16 @@ window.YERLESIMLER_EK21 = [
 //    sürdü ve 1698'de Torgut bayrağı kuruldu. Nokta vahayı temsil ediyor,
 //    harabeyi değil — o yüzden `kur:`/`bit:` YAZILMADI.
 { ad:"Ejin (Hara-Hoto)", tur:"sehir", lat:41.9500, lon:101.0700, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1949-10-01",d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 // Coğrafî dolgu — ölçümün en aç hücrelerinden ikisi (474 ve 434 km)
 // tam burada. `Bozkır (Deşt-i Kıpçak)` · `Karakum` · `Cungarya havzası`
 // ile aynı sınıf: pencerede kurulmuş yerleşim yok, UYDURULMADI.
 { ad:"Gaşun Gobi", tur:"bolge", lat:42.5000, lon:103.0000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"},{f:"1923-10-29",t:"1924-11-26",d:"mogolistan",kaynak:"tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"tsv kunye f=1924-11-26"}] },
 
 { ad:"Alaşa kuzeyi", tur:"bolge", lat:42.4000, lon:105.5000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"}] },
+  s:[{f:"1281-01-01",t:"1368-09-14",d:"yuan-hanedani"},{f:"1368-09-14",t:"1636-05-15",d:"kuzey-yuan"},{f:"1636-05-15",t:"1912-02-12",d:"qing-hanedani"},{f:"1912-02-12",t:"1923-10-29",d:"cin-cumhuriyeti"},{f:"1923-10-29",t:"1924-11-26",d:"mogolistan",kaynak:"tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"tsv kunye f=1924-11-26"}] },
 
 ];
 
@@ -2470,19 +2470,19 @@ window.YERLESIMLER_EK22 = [
 // ── ① HOPER HAVZASI — Volga koridorunun DIŞI ───────────────────────
 // Zinciri `Penza`dan (`_ek17`): aynı otlak kuşağı, aynı üç gün.
 { ad:"Borisoglebsk", tur:"kale", lat:51.3667, lon:42.0833, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1663-01-01",d:"nogay"},{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1663-01-01",d:"nogay"},{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ② VOLGA KORİDORU — dördü de Saratov/Tsaritsyn sözleşmesinde ────
 // 🔴 Ölçümün en aç hücresi (226 km, 50,5°K/42,5°D) ile ikinci en aç
 //    kuşağı (48,5-49,5°D) bu dört noktayla kapanıyor.
 { ad:"Kamışin", tur:"kale", lat:50.0833, lon:45.4000, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Petrovsk (Saratov)", tur:"kale", lat:52.3167, lon:45.3833, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"astarhan"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"astarhan"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Syzran", tur:"kale", lat:53.1500, lon:48.4667, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ⚠️ Samara'nın komşusu Simbirsk `kazan 1438→1552-10-02` taşıyor —
 //    KOPYALANMADI. Simbirsk Kazan Hanlığı'nın güney kanadıydı; Samara
@@ -2490,7 +2490,7 @@ window.YERLESIMLER_EK22 = [
 //    Kazan'a bağlı olmadı. Kopyalasaydım şehri 114 yıl yanlış hanlıkta
 //    gösterirdim.
 { ad:"Samara", tur:"kale", lat:53.2000, lon:50.1500, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -2606,27 +2606,27 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Sükkût bölgesi — İkinci ile Üçüncü Şelâle arasındaki Nil kolu. Kerma ile
 // Vâdî Halfâ arasında 245 km boyunca tek nokta yoktu.
 { ad:"Delgo (Sükkût)", tur:"sehir", lat:20.126, lon:30.548, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mahas bölgesi; Nûbe'nin İkinci Şelâle'ye bakan kuzey ucu.
 { ad:"Abrî (Mahas)", tur:"sehir", lat:20.803, lon:30.352, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil'in büyük kıvrımının batı ucu — Debbe ile Merevî arasındaki eyer.
 { ad:"Kortî", tur:"sehir", lat:18.100, lon:31.567, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Atbara ile Nil'in birleştiği yer; Mecâzîb şeyhliğinin merkeziydi.
 { ad:"Ed-Dâmer", tur:"sehir", lat:17.598, lon:33.966, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Eski Meroe (Begravviye) piramitleri; Şendî ile Ed-Dâmer arasındaki halka.
 { ad:"Kabûşiyye", tur:"sehir", lat:16.883, lon:33.750, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // 🔴 MEHDÎ DEVLETİ'NİN BAŞKENTİ — ve atlasta HİÇ YOKTU.
@@ -2637,7 +2637,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // takılmıyor ve ayrı bir şehirdir.
 // 📌 `ek6`daki Çerkask vakasının aynısı: künyede yazılı BAŞKENT, haritada yok.
 { ad:"Ümmü Dermân", tur:"sehir", lat:15.645, lon:32.477, g:1, k:3, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -2650,31 +2650,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Mavi Nil boyunda Sennâr ile Vad Medenî arasındaki eyer.
 { ad:"Sincâ", tur:"sehir", lat:13.145, lon:33.932, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde adı geçen Müsellemiyye.
 { ad:"Müsellemiyye", tur:"sehir", lat:14.400, lon:33.325, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Rufâa", tur:"sehir", lat:14.767, lon:33.367, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Beyaz Nil'in sol yakası — Ed-Düveym ile Kosti arasındaki eski Kavâ.
 { ad:"El-Kavâ", tur:"sehir", lat:13.740, lon:32.500, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Beyaz Nil'in Kosti'den güneye uzanan kolu; Func'un güney sınır kuşağı.
 { ad:"Cebeleyn", tur:"sehir", lat:12.598, lon:32.816, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mavi Nil'in Habeşistan sınırındaki güney ucu; Fâzûğlî'nin devamı.
 { ad:"Kurmuk", tur:"sehir", lat:10.830, lon:34.283, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -2690,48 +2690,48 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Er-Rahad", tur:"sehir", lat:12.712, lon:30.648, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ümmü Rüvâbe", tur:"sehir", lat:12.903, lon:31.217, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kuzey Kordofan'ın çöle bakan ucu; Bâra ile Dârfûr arasındaki 300 km'lik
 // boşluğun ortası.
 { ad:"Sodirî", tur:"sehir", lat:14.423, lon:29.100, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nûbe dağları — TDV `muhammed-ahmed-el-mehdi` maddesinde "Nûbe dağları" ve
 // "Kadır bölgesi" olarak geçer; Mehdî'nin ilk sığındığı dağlık kuşak.
 { ad:"Dilling", tur:"sehir", lat:12.050, lon:29.650, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kâdûglî", tur:"sehir", lat:11.010, lon:29.717, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Talodi", tur:"sehir", lat:10.633, lon:30.383, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ebû Zabed", tur:"sehir", lat:12.350, lon:29.250, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Bâbanûsa ve Muglad: Batı Kordofan'ın Bahrülgazâl'e bakan güney ucu.
 { ad:"Muglad", tur:"sehir", lat:11.033, lon:27.733, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Bâbanûsa", tur:"sehir", lat:11.333, lon:27.817, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ğubeyş", tur:"sehir", lat:12.150, lon:27.383, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -2784,33 +2784,33 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kutum",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe (Nyala'ya bkz.)",m:"El-Fâşir", tur:"sehir", lat:14.200, lon:24.660, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Kebkâbiye",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:13.650, lon:24.083, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // TDV `darfur`: Cebel Merre, 3.071 m ile bölgenin en yüksek noktası ve
 // Keyra hânedanının çekirdek yurdu.
 { ad:"Cebel Merre", tur:"bolge", lat:12.950, lon:24.270, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Zâlincî",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.905, lon:23.483, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Ed-Da'în",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:11.462, lon:26.128, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Burâm",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:10.833, lon:25.167, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Ümmü Keddâde",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:13.600, lon:26.690, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // Dârfûr'un kuzeybatı ucu; Vaday Sultanlığı ile sınır.
@@ -2825,7 +2825,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   Dârfûr zinciri taşıyan bir noktanın Çad'da durması §3.5.1'in ta
 //   kendisidir (yanlış devletin toprağını boyamak) ve tahminle kapatılamaz.
 { ad:"Tîne (Dârfûr)",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:15.060, lon:23.000, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ===========================================================================
@@ -2843,7 +2843,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Nil-Kızıldeniz kervan yolunun Beca düğümü; Sevâkin ile Berber arasında
 // 300 km boyunca tek nokta yoktu.
 { ad:"Hayyâ", tur:"sehir", lat:18.317, lon:36.383, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde adı geçen Trinkitat; Tokar'ın
@@ -2851,12 +2851,12 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ⚠️ lon 37,750 → 37,700: ham koordinat kara maskesinin içindeydi ama
 // ülke poligonlarının HİÇBİRİNE düşmüyordu (kıyı çizgisi uyuşmazlığı).
 { ad:"Trinkitât", tur:"liman", lat:18.683, lon:37.700, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // Sevâkin ile Halâib arasındaki 350 km'lik kıyıda tek nokta yoktu.
 { ad:"Muhammed Kol", tur:"liman", lat:20.833, lon:37.150, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // Bûr Sûdân 1909'da Sevâkin'in yerine liman olarak kuruldu; öncesinde
@@ -2864,7 +2864,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // tarihinden başlar — YENİ GÜN İCAT EDİLMEDİ (bkz. dosya başı ilkesi;
 // Kesela kaydının 1840 çözümüyle aynı desen).
 { ad:"Bûr Sûdân", tur:"liman", lat:19.617, lon:37.216, g:0, k:3, m:"Sevâkin", kur:"1909-01-01",
-  s:[{f:"1909-01-01",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}], d:[], v:[] },
+  s:[{f:"1909-01-01",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ===========================================================================
 // 6) ERİTRE
@@ -2881,26 +2881,26 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Ağordat", tur:"sehir", lat:15.549, lon:37.889, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Barentu", tur:"sehir", lat:15.106, lon:37.590, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Nakfa", tur:"sehir", lat:16.667, lon:38.475, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Tesseney", tur:"sehir", lat:15.110, lon:36.660, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Adi Kayh", tur:"sehir", lat:14.845, lon:39.377, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Ğındâ", tur:"sehir", lat:15.500, lon:39.000, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 // ⚠️ Osmanlı dönemi yazılamadı — yukarıdaki bölüm notuna bakınız.
 { ad:"Debârve", tur:"sehir", lat:15.100, lon:38.833, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 // ===========================================================================
 // 7) CİBUTİ
@@ -2912,19 +2912,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Cibûtî", tur:"liman", lat:11.588, lon:43.145, g:1, k:3, kur:"1888-01-01",
-  s:[{f:"1888-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1888-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ⚠️ lat/lon 11,967/43,283'ten 11,993/43,278'e alındı (2,9 km kuzey): ham
 // koordinat Natural Earth 10m kara maskesinin DIŞINDA kalıyordu ve maske
 // dışı nokta HİÇ toprak sahibi olamaz (denetle.py konum denetimi).
 { ad:"Obok", tur:"liman", lat:11.993, lon:43.278, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Alî Sabîh", tur:"sehir", lat:11.156, lon:42.712, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Dikhil", tur:"sehir", lat:11.104, lon:42.370, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ===========================================================================
 // 8) HABEŞİSTAN — kuzey ve orta yayla (Tigre · Begemder · Gocam · Vollo · Şoa)
@@ -2936,42 +2936,42 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Semien dağlarının kapısı; Gondar ile Aksum arasındaki 200 km'lik boşluk.
 { ad:"Debârek", tur:"sehir", lat:13.157, lon:37.900, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // Gocam'ın merkezi; Nil kavsi içindeki bütün yayla noktasızdı.
 { ad:"Debre Markos", tur:"sehir", lat:10.350, lon:37.717, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Mota", tur:"sehir", lat:11.083, lon:37.867, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Bure (Gocam)", tur:"sehir", lat:10.700, lon:37.067, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Völdiya", tur:"sehir", lat:11.830, lon:39.600, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // II. Tewodros'un kalesi ve 1868 İngiliz seferinin hedefi.
 { ad:"Mekdelâ", tur:"kale", lat:11.410, lon:39.360, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ambo", tur:"sehir", lat:8.983, lon:37.850, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Fiçe", tur:"sehir", lat:9.800, lon:38.733, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Avaş", tur:"sehir", lat:8.983, lon:40.167, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Bâtî", tur:"sehir", lat:11.192, lon:40.017, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Hosaena", tur:"sehir", lat:7.550, lon:37.850, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Arba Minç", tur:"sehir", lat:6.033, lon:37.550, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 9) HABEŞİSTAN — ADAL/HARAR kuşağı (1887-01-06)
@@ -2983,10 +2983,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Dire Dava", tur:"sehir", lat:9.593, lon:41.866, g:0, k:3, kur:"1902-01-01",
-  s:[{f:"1902-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1902-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dagahbûr", tur:"sehir", lat:8.217, lon:43.567, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // 🔴 AVSA SULTANLIĞI — `avsa` kimliği ne renkli ne künyeli, ve UYDURULMADI.
 // TDV `etiyopya` açıkça yazıyor: Adal'ın merkezi 1577'de Denâkil bölgesindeki
@@ -2994,7 +2994,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // bir tahmin değil, kaynağın kendi cümlesidir. Sultanlık 1923'ten sonra da
 // sürdüğü için tek dönem hâlinde 1923-10-29'a kadar uzatıldı.
 { ad:"Asâyita (Avsa)", tur:"sehir", lat:11.567, lon:41.440, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"adal"}], d:[] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"adal"},{f:"1923-10-29",t:"1974-09-12",d:"habesistan",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}], d:[] },
 
 // ===========================================================================
 // 10) HABEŞİSTAN — BATI ve GÜNEY (Menelik'in ilhakları)
@@ -3017,51 +3017,51 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 { ad:"Nekemte", tur:"sehir", lat:9.088, lon:36.550, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Leka Nekemte Oromo krallığı — kimliği yok; habesistan yazmak §3.5.1 ters yönü olurdu",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Gimbî", tur:"sehir", lat:9.170, lon:35.833, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Vollega Oromo krallıkları — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dembîdollo", tur:"sehir", lat:8.533, lon:34.800, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Sayo/Vollega Oromo krallığı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Gore", tur:"sehir", lat:8.150, lon:35.533, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"İllûbâbor Oromo krallıkları — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Asella", tur:"sehir", lat:7.950, lon:39.133, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Arsi Oromo — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Goba", tur:"sehir", lat:7.010, lon:39.983, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ginir", tur:"sehir", lat:7.140, lon:40.708, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ağere Maryam", tur:"sehir", lat:5.633, lon:38.233, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Guci/Sidamo kuşağı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Yabelo", tur:"sehir", lat:4.883, lon:38.208, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Mega", tur:"sehir", lat:4.050, lon:38.300, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Moyale", tur:"sehir", lat:3.533, lon:39.050, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — kimlik yok; güneyi HALKA 6-7 (Kenya), kasten noktasız",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // Gambela 1907'de Mavi Nil ticaretinin iskelesi olarak kuruldu.
 { ad:"Gambela", tur:"liman", lat:8.250, lon:34.588, g:0, k:3, kur:"1907-01-01",
-  s:[{f:"1907-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1907-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 11) OGADEN — §3.5.1'in İKİ UÇLU ölçümü
@@ -3081,19 +3081,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kebrî Dehar", tur:"sehir", lat:6.733, lon:44.267, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Verder", tur:"sehir", lat:6.960, lon:45.350, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Gode", tur:"sehir", lat:5.950, lon:43.550, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Kelâfo", tur:"sehir", lat:5.600, lon:44.200, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dolo Odo", tur:"sehir", lat:4.167, lon:42.050, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 12) SOMALİLAND — İngiliz himayesi (1884-07-18)
@@ -3110,20 +3110,20 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Şeyh (Somaliland)", tur:"sehir", lat:9.933, lon:45.183, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Odveyne", tur:"sehir", lat:9.410, lon:45.062, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Borama", tur:"sehir", lat:9.936, lon:43.183, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Buhodle", tur:"sehir", lat:8.240, lon:46.320, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ⚠️ Derviş Devleti'nin merkezi (1913-1920) — bkz. bölüm notu.
 { ad:"Taleh", tur:"kale", lat:9.150, lon:48.417, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ===========================================================================
 // 13) SOMALİ — kuzeydoğu (Mecerteyn) ve orta (Hobyo)
@@ -3137,13 +3137,13 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kandala", tur:"liman", lat:11.470, lon:49.868, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"İskuşubân", tur:"sehir", lat:10.283, lon:50.233, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"Bender Beyla", tur:"liman", lat:9.494, lon:50.812, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ===========================================================================
 // 14) SOMALİ — BENÂDİR ve CÛBÂ (1905-01-01)
@@ -3162,29 +3162,29 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Benâdir'in üç şehrinden üçüncüsü; TDV `somali` maddesinde adı geçer.
 { ad:"Berâve",kaynak:"makdisu", tur:"liman", lat:1.106, lon:44.031, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Afgoye",kaynak:"makdisu", tur:"sehir", lat:2.138, lon:45.120, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Bulo Burte", tur:"sehir", lat:3.848, lon:45.567, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Bardere", tur:"sehir", lat:2.348, lon:42.278, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Luuk", tur:"sehir", lat:3.802, lon:42.545, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Garbahârey", tur:"sehir", lat:3.328, lon:42.220, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Cilib", tur:"sehir", lat:0.489, lon:42.797, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 // ⚠️ Cûbâland dönemi yazılamadı — bkz. bölüm notu.
 { ad:"Kısmâyû", tur:"liman", lat:-0.358, lon:42.545, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ===========================================================================
 // 15) UMMAN — ZUFÂR ve VÜSTÂ kıyısı
@@ -3201,31 +3201,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Mirbât", tur:"liman", lat:16.993, lon:54.700, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // ⚠️ 17,037/54,400 → 17,057/54,404 (2,2 km iç): maske dışındaydı.
 { ad:"Tâka (Zufâr)", tur:"liman", lat:17.057, lon:54.404, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Hâsik", tur:"liman", lat:17.383, lon:55.283, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // ⚠️ 17,900/55,983 → 17,946/55,969 (5,3 km iç): maske dışındaydı.
 { ad:"Şüveymiye", tur:"liman", lat:17.946, lon:55.969, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Dukm", tur:"liman", lat:19.660, lon:57.707, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Muhût", tur:"sehir", lat:20.700, lon:58.100, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Tumreyt", tur:"sehir", lat:17.667, lon:54.024, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // Zufâr'ın çöle bakan iç ucu; eski kervan yolu üzerindeki Şisr/Ubâr.
 { ad:"Şisr", tur:"sehir", lat:18.257, lon:53.647, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU. Rub'ul Hâlî'nin güneybatı köşesi hiçbir devletin
 // fiilî idaresinde değildi; mevcut "Rub'ul Hâlî doğusu" ve "Hadramut"
@@ -3278,83 +3278,83 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ── Nil koridoru: Şilluk kuşağı, Mehdî hâkimiyeti VARDI ────────────────
 { ad:"Er-Renk", tur:"sehir", lat:11.750, lon:32.783, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı — `silluk` kimliği yok; Mısır Ekvatorya dönemi Değişmez 2 borcu doğuracağı için yazılamadı",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // Şilluk Krallığı'nın başkenti; 1898 Fâşoda buhranının yeri.
 { ad:"Fâşoda", tur:"sehir", lat:9.892, lon:32.117, g:1, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı'nın başkenti — `silluk` kimliği yok",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Malakal", tur:"sehir", lat:9.533, lon:31.661, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk kuşağı — `silluk` kimliği yok",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ── Yukarı Nil, Bahrülgazâl ve Ekvatorya: Mehdî hâkimiyeti YOKTU ───────
 { ad:"Nâsir", tur:"sehir", lat:8.608, lon:33.067, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı yok; Mısır ve Mehdî idaresi buraya ulaşmadı",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Akobo", tur:"sehir", lat:7.788, lon:33.033, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Anuak/Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Bentiu", tur:"sehir", lat:9.242, lon:29.803, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Meşra er-Rek", tur:"liman", lat:8.417, lon:29.283, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Bahrülgazâl iskelesi — Nuer/Dinka ülkesi, devlet teşkilâtı yok. ⚠️ Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için DÖNEM YAZILAMADI — bu not korunmalı. 🔴 27 Ağu 2026: cins `hata` idi ve `hata`, motorun DOLDURABİLDİĞİ TEK kova (uret_petek.py:3564 DOLDURULABILIR_BOS). Kayıt bir hata değil, bir PARK YERİ olarak `hata`ya konmuştu ve petek komşusuna katılıp 21.111 km² DOĞRUDAN OSMANLI boyanıyordu (0036/H-0001, G1). Komşuları Bentiu ve Vav zaten `devletsiz` olduğu için korunuyordu; bu kayıt korunmuyordu.",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Vav", tur:"sehir", lat:7.702, lon:27.990, g:1, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bahrülgazâl merkezi — Dinka/Cur ülkesi, kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Deym Zübeyr", tur:"kale", lat:7.700, lon:26.217, g:0, k:0,
   kasitli_bosluk:true,bos:"hata", neden:"Zübeyr Paşa'nın Bahrülgazâl karargâhı — Mısır dönemi yazılamadı (bkz. bölüm notu)",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Rumbek", tur:"sehir", lat:6.800, lon:29.678, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Tonc", tur:"sehir", lat:6.950, lon:28.683, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Şembe", tur:"liman", lat:7.156, lon:30.553, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nil iskelesi — Dinka ülkesi, kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Bor", tur:"sehir", lat:6.208, lon:31.558, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // Mısır Ekvatorya eyaletinin karargâhı; Cûbâ (1922) daha sonra bunun
 // 6 km güneyinde kuruldu, o yüzden Cûbâ AYRI nokta olarak yazılmadı.
 { ad:"Gondokoro", tur:"sehir", lat:4.900, lon:31.650, g:1, k:0,
   kasitli_bosluk:true,bos:"hata", neden:"Ekvatorya karargâhı — Mısır dönemi (1870-1885) Değişmez 2 borcu doğuracağı için yazılamadı",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Nimule", tur:"sehir", lat:3.600, lon:32.058, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya güney ucu — kimlik yok; güneyi HALKA 6-7 (Uganda), kasten noktasız",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Torit", tur:"sehir", lat:4.412, lon:32.570, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Latuka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Kapoeta", tur:"sehir", lat:4.767, lon:33.591, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Toposa ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Yambio", tur:"sehir", lat:4.572, lon:28.395, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok; en yakın komşuyla boyamak §3.5.1 ihlali olurdu",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Tembura", tur:"sehir", lat:5.610, lon:27.470, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ###########################################################################
 // ###  PARTİ 2 — birinci partiden SONRA yeniden ölçülen boşluklar         ###
@@ -3429,50 +3429,50 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Nil'in Ebû Hamed kavsi; A zinciri (1821-01-04).
 { ad:"Şereyk", tur:"sehir", lat:18.750, lon:33.600, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde "Kerari" olarak geçer; Halife
 // Abdullah'ın 2 Eylül 1898'de yenildiği yer.
 { ad:"Kerreri", tur:"sehir", lat:15.830, lon:32.480, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Cezîre'nin ortası — Mavi Nil ile Beyaz Nil arası (B zinciri).
 { ad:"El-Menâkıl", tur:"sehir", lat:14.200, lon:32.980, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mavi Nil'in Habeş sınırına bakan eyalet merkezi (B zinciri).
 { ad:"Ed-Damazîn", tur:"sehir", lat:11.789, lon:34.359, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kordofan kuzeyi (C zinciri).
 { ad:"Tendelti", tur:"sehir", lat:13.020, lon:31.870, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ümmü Bedr", tur:"sehir", lat:14.200, lon:27.900, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kızıldeniz tepeleri, Beca ülkesi (E zinciri).
 { ad:"Derûdeb", tur:"sehir", lat:17.550, lon:36.100, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // ── Dârfûr (D zinciri) ─────────────────────────────────────────────────
 { ad:"Mellît",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:14.130, lon:25.570, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Şa'riyye",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.900, lon:25.420, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Radom",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe. UYARI: bu Radom POLONYA'DAKİ şehir DEĞİL — koordinat 9,95°K/24,95°D, Güney Sudan/Darfur bölgesi (Radom Millî Parkı). ORHANGAZİ'nin şartnamesindeki 'Radom → Krakov' önerisi bu kaydı Polonya sanıyordu, YANLIŞ olurdu — s:/v: dizisi ötekilerle birebir aynı, Darfur kümesinin 11.'si.",m:"El-Fâşir", tur:"sehir", lat:9.950, lon:24.950, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ===========================================================================
@@ -3481,31 +3481,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 { ad:"Aveyl", tur:"sehir", lat:8.767, lon:27.400, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Rağa", tur:"sehir", lat:8.460, lon:25.680, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Feroge/Kresh kuşağı — kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Fangak", tur:"sehir", lat:9.070, lon:30.883, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Ler", tur:"sehir", lat:8.300, lon:30.140, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Pibor", tur:"sehir", lat:6.800, lon:33.133, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Murle ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Maridi", tur:"sehir", lat:4.917, lon:29.467, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande/Moru kuşağı — `zende` kimliği yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Yei", tur:"sehir", lat:4.090, lon:30.679, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya batı ucu — kimlik yok; batısı Lado kordonu",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ===========================================================================
 // 20) HABEŞİSTAN — parti 2
@@ -3515,37 +3515,37 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Vukro", tur:"sehir", lat:13.790, lon:39.600, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Alamata", tur:"sehir", lat:12.420, lon:39.550, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Nazret", tur:"sehir", lat:8.540, lon:39.270, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Cinka", tur:"sehir", lat:6.783, lon:36.667, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ── §10 zinciri: 1897-01-01 İŞARETLİ yer tutucu ────────────────────────
 { ad:"Şeşemene", tur:"sehir", lat:7.200, lon:38.600, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Arsi/Sidamo kuşağı — Oromo krallıklarının kimliği yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dilla", tur:"sehir", lat:6.410, lon:38.310, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Guci/Sidamo kuşağı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Negele Borana", tur:"sehir", lat:5.330, lon:39.580, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Bedele", tur:"sehir", lat:8.450, lon:36.350, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"İllûbâbor Oromo krallıkları — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Mizan Teferi", tur:"sehir", lat:6.990, lon:35.580, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bench/Kaffa güneybatısı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ⚠️ Beni Şengûl şeyhlikleri XIX. yy'da Sudan (Func/Mısır) yörüngesindeydi;
 // Habeş-Sudan sınırı ancak 1902 Gwynn hattıyla çizildi ve bölgeyi
@@ -3553,14 +3553,14 @@ window.YERLESIMLER_H2_AFRIKA = [
 // 1897-01-01 yer tutucusu kullanıldı. YER TUTUCUDUR, hüküm değildir.
 { ad:"Asosa", tur:"sehir", lat:10.070, lon:34.530, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Beni Şengûl şeyhlikleri — kimlik yok; sınır 1902'de çizildi, 1897 YER TUTUCU",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ── Ogaden zinciri (§11 ile birebir) ───────────────────────────────────
 { ad:"İmi", tur:"sehir", lat:6.470, lon:42.170, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Filtu", tur:"sehir", lat:5.130, lon:40.750, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 21) ERİTRE — parti 2
@@ -3568,10 +3568,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Antik Adulis limanı; Masavva körfezinin güney ucu.
 { ad:"Zula", tur:"liman", lat:15.283, lon:39.700, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Adi Kuala", tur:"sehir", lat:14.680, lon:38.830, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 // ===========================================================================
 // 22) SOMALİ ve SOMALİLAND — parti 2
@@ -3579,46 +3579,46 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // ── Somaliland kıyısı (H zinciri) ──────────────────────────────────────
 { ad:"Lâs Hore", tur:"liman", lat:11.158, lon:48.198, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Mayd", tur:"liman", lat:11.000, lon:47.100, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Hîs", tur:"liman", lat:10.900, lon:46.900, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ── Orta Somali: Hobyo yörüngesi, tek dönem `somali` (§13 gerekçesi) ────
 { ad:"Dusa Mareb", tur:"sehir", lat:5.536, lon:46.386, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"Ceel Buur", tur:"sehir", lat:4.687, lon:46.618, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"Ceel Dheere", tur:"liman", lat:3.845, lon:47.163, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ── Benâdir ve iç bölgesi (J zinciri, 1905-01-01) ──────────────────────
 { ad:"Cadale",kaynak:"makdisu", tur:"liman", lat:2.752, lon:46.310, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Vanlaveyn", tur:"sehir", lat:2.620, lon:44.890, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Diinsoor", tur:"sehir", lat:2.406, lon:42.972, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Hudur", tur:"sehir", lat:4.120, lon:43.890, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Ceel Barde", tur:"sehir", lat:4.570, lon:43.490, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 // ⚠️ Kısmâyû ile aynı sınıf: batısı İngiliz Cûbâland'ıydı (1895-1925) ve
 // o dönem canlı kırılma olmadığı için YAZILAMADI — bkz. §14 notu.
 // ⚠️ lon 40,930 → 41,150: Ceel Vaak sınır üstü bir kasabadır ve ham
 // koordinat KENYA'ya düşüyordu — Kenya halka 6-7, dokunmam sıra ihlali.
 { ad:"Ceel Vaak", tur:"sehir", lat:2.800, lon:41.150, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ===========================================================================
 // 23) UMMAN — parti 2
@@ -3627,14 +3627,14 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ⚠️ Üçü de kıyı noktası ve ham koordinatları maskenin DIŞINDA kalıyordu;
 // en yakın kara noktasına çekildi (7,3 · 3,7 · 2,4 km).
 { ad:"Cezîr (Sevkıra)", tur:"liman", lat:18.161, lon:56.537, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Râs Medreke", tur:"liman", lat:19.002, lon:57.792, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // Zufâr'ın batı ucu; Mehre/Hadramut sınırı.
 { ad:"Rahbût", tur:"liman", lat:16.762, lon:53.418, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // 🔴 KASTEN SAHİPSİZ — Umman'ın iç çölü; §15'teki güneybatı dolgusunun eşi.
 { ad:"Umman iç çölü", tur:"bolge", lat:20.100, lon:55.300, g:0, k:0,
@@ -3663,10 +3663,10 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[], d:[], v:[] },
 
 { ad:"İncibara", tur:"sehir", lat:10.950, lon:36.930, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ceel Afveyn", tur:"sehir", lat:9.830, lon:47.200, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 ];
 
@@ -3785,15 +3785,15 @@ window.YERLESIMLER_H2_RUSYA = [
   s:[{f:"1281-01-01", t:"1348-01-01", d:"novgorod"},
      {f:"1348-01-01", t:"1510-01-13", d:"pskov"},
      {f:"1510-01-13", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Staraya Russa", tur:"sehir", lat:57.990, lon:31.362, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Eski Ladoga", tur:"kale", lat:59.997, lon:32.298, g:2, k:4,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Oreşek (Nöteborg/Şlisselburg) — Stolbovo ile İsveç'e, 1702'de geri alındı.
 // 🔴 1702-10-22 bu partinin TEK yeni kırılma günü. Bilerek yazıldı: kalenin
 // düşüşü Neva ağzını açan olaydır ve St. Petersburg'un 1703 kuruluşunun ön
@@ -3803,195 +3803,195 @@ window.YERLESIMLER_H2_RUSYA = [
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
      {f:"1547-01-16", t:"1617-02-27", d:"rusya"},
      {f:"1617-02-27", t:"1702-10-22", d:"isvec"},
-     {f:"1702-10-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1702-10-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Tihvin", tur:"sehir", lat:59.645, lon:33.518, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Belozersk", tur:"sehir", lat:60.031, lon:37.783, g:1, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kirillov", tur:"kale", lat:59.858, lon:38.376, g:2, k:4, kur:"1397-01-01",
-  s:[{f:"1397-01-01", t:"1478-01-15", d:"novgorod"},{f:"1478-01-15", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1397-01-01", t:"1478-01-15", d:"novgorod"},{f:"1478-01-15", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kargopol", tur:"sehir", lat:61.507, lon:38.945, g:1, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Olonets", tur:"kale", lat:60.977, lon:32.972, g:2, k:4, kur:"1649-01-01",
-  s:[{f:"1649-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1649-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Petrozavodsk", tur:"sehir", lat:61.789, lon:34.351, g:1, k:3, kur:"1703-09-11",
-  s:[{f:"1703-09-11",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1703-09-11",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Solovki — Beyaz Deniz'de manastır-kale; kuzey kıyısının tek tahkim noktası.
 { ad:"Solovki (Solovetsky)", tur:"kale", lat:65.030, lon:35.712, g:1, k:4, kur:"1436-01-01",
-  s:[{f:"1436-01-01", t:"1478-01-15", d:"novgorod"},{f:"1478-01-15", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1436-01-01", t:"1478-01-15", d:"novgorod"},{f:"1478-01-15", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kem", tur:"sehir", lat:64.951, lon:34.594, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Onega", tur:"liman", lat:63.907, lon:38.099, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Holmogorı", tur:"sehir", lat:64.223, lon:41.653, g:1, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Pinega", tur:"sehir", lat:64.700, lon:43.392, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Şenkursk", tur:"sehir", lat:62.106, lon:42.897, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Velsk", tur:"sehir", lat:61.066, lon:42.104, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Veliki Ustyug", tur:"sehir", lat:60.762, lon:46.310, g:1, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Solvıçegodsk", tur:"sehir", lat:61.339, lon:46.917, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Yarensk", tur:"sehir", lat:62.166, lon:49.098, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Ust-Sısolsk (Sıktıvkar)", tur:"sehir", lat:61.668, lon:50.836, g:2, k:3, kur:"1586-01-01",
-  s:[{f:"1586-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1586-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Totma", tur:"sehir", lat:59.973, lon:42.759, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Hlınov (Vyatka)", tur:"sehir", lat:58.604, lon:49.668, g:1, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kotelniç", tur:"sehir", lat:58.302, lon:48.343, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Slobodskoy", tur:"sehir", lat:58.733, lon:50.180, g:2, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Çerdın", tur:"sehir", lat:60.400, lon:56.480, g:1, k:3,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Solikamsk", tur:"sehir", lat:59.649, lon:56.771, g:1, k:3, kur:"1430-01-01",
-  s:[{f:"1430-01-01", t:"1478-01-15", d:"novgorod"},{f:"1478-01-15", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1430-01-01", t:"1478-01-15", d:"novgorod"},{f:"1478-01-15", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kungur", tur:"kale", lat:57.433, lon:56.937, g:2, k:4, kur:"1648-01-01",
-  s:[{f:"1648-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1648-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ─── B · YUKARI VOLGA — Rostov-Suzdal ve Tver çekirdeği ────────────────────
 { ad:"Kostroma", tur:"sehir", lat:57.758, lon:40.905, g:1, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Yaroslavl", tur:"sehir", lat:57.626, lon:39.894, g:0, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Rostov Veliki", tur:"sehir", lat:57.185, lon:39.414, g:1, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Uglich", tur:"sehir", lat:57.526, lon:38.320, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Galiç (Kostroma)", tur:"sehir", lat:58.383, lon:42.350, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kineşma", tur:"sehir", lat:57.443, lon:42.168, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Şuya", tur:"sehir", lat:56.856, lon:41.383, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Vetluga", tur:"sehir", lat:57.851, lon:45.782, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Tver", tur:"sehir", lat:56.859, lon:35.912, g:0, k:1,
   s:[{f:"1281-01-01", t:"1485-09-12", d:"tver"},
      {f:"1485-09-12", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Torjok", tur:"sehir", lat:57.041, lon:34.960, g:2, k:3,
   s:[{f:"1281-01-01", t:"1485-09-12", d:"tver"},
      {f:"1485-09-12", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Velikiye Luki", tur:"kale", lat:56.336, lon:30.518, g:2, k:4,
   s:[{f:"1281-01-01", t:"1478-01-15", d:"novgorod"},
      {f:"1478-01-15", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Vladimir", tur:"sehir", lat:56.129, lon:40.407, g:0, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Suzdal", tur:"sehir", lat:56.419, lon:40.449, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Glazov", tur:"sehir", lat:58.139, lon:52.660, g:2, k:3, kur:"1678-01-01",
-  s:[{f:"1678-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1678-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Murom", tur:"sehir", lat:55.575, lon:42.052, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Arzamas", tur:"sehir", lat:55.394, lon:43.840, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Kasimov — Kāsım Hanlığı'nın (1452-1681) merkezi. TDV `kasim-hanligi` (200).
 // 🔴 `kasim` kimliği RENKSİZ ve KÜNYESİZ olduğu için `rusya` yazıldı; renk
 // gelirse 1452-1681 penceresi buraya girer. Koordinatöre bildirildi.
 { ad:"Kasimov", tur:"sehir", lat:54.945, lon:41.393, g:1, k:1,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Temnikov", tur:"sehir", lat:54.633, lon:43.223, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kaluga", tur:"sehir", lat:54.513, lon:36.261, g:1, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kolomna", tur:"kale", lat:55.079, lon:38.778, g:1, k:4,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kaşira", tur:"kale", lat:54.837, lon:38.167, g:2, k:4,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Serpuhov", tur:"kale", lat:54.915, lon:37.411, g:2, k:4,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Mojaysk", tur:"kale", lat:55.505, lon:36.020, g:2, k:4,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Volokolamsk", tur:"kale", lat:56.037, lon:35.958, g:2, k:4,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Dmitrov", tur:"sehir", lat:56.344, lon:37.521, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Sergiyev Posad", tur:"kale", lat:56.315, lon:38.136, g:2, k:4, kur:"1337-01-01",
-  s:[{f:"1337-01-01", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1337-01-01", t:"1547-01-16", d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ─── C · VOLGA-KAMA — İdil Bulgar mirası, Kazan Hanlığı ────────────────────
 // Model çekirdeğin Kazan/Simbirsk/Ufa kaydıyla birebir aynı:
@@ -4000,46 +4000,46 @@ window.YERLESIMLER_H2_RUSYA = [
 { ad:"Bulgar (Bolgar)", tur:"sehir", lat:54.976, lon:49.030, g:0, k:3,
   s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
-     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Sviyajsk — Korkunç İvan'ın Kazan seferi için 1551'de kurduğu ileri üs.
 { ad:"Sviyajsk", tur:"kale", lat:55.771, lon:48.660, g:1, k:4, kur:"1551-05-24",
-  s:[{f:"1551-05-24", t:"1552-10-02", d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1551-05-24", t:"1552-10-02", d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Tetyuşi", tur:"kale", lat:54.940, lon:48.833, g:2, k:4, kur:"1578-01-01",
-  s:[{f:"1578-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1578-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Buinsk", tur:"sehir", lat:54.966, lon:48.288, g:2, k:3,
   s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
-     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Çistopol", tur:"sehir", lat:55.362, lon:50.635, g:2, k:3,
   s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
-     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Çeboksarı", tur:"sehir", lat:56.146, lon:47.251, g:1, k:3,
   s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
-     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kozmodemyansk", tur:"kale", lat:56.336, lon:46.559, g:2, k:4, kur:"1583-01-01",
-  s:[{f:"1583-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1583-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Tsarevokokşaysk (Yoşkar-Ola)", tur:"kale", lat:56.639, lon:47.891, g:2, k:4, kur:"1584-01-01",
-  s:[{f:"1584-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1584-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Malmıj", tur:"sehir", lat:56.526, lon:50.678, g:2, k:3,
   s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
-     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Yelabuga", tur:"sehir", lat:55.763, lon:52.061, g:2, k:3,
   s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
-     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Menzelinsk", tur:"kale", lat:55.727, lon:53.100, g:2, k:4, kur:"1584-01-01",
-  s:[{f:"1584-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1584-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Sarapul", tur:"sehir", lat:56.470, lon:53.804, g:2, k:3, kur:"1596-01-01",
-  s:[{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Alatır", tur:"kale", lat:54.840, lon:46.578, g:2, k:4, kur:"1552-01-01",
-  s:[{f:"1552-01-01", t:"1552-10-02", d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1552-01-01", t:"1552-10-02", d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Birsk", tur:"kale", lat:55.415, lon:55.542, g:2, k:4, kur:"1663-01-01",
-  s:[{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Buğulma", tur:"sehir", lat:54.536, lon:52.797, g:2, k:3, kur:"1736-01-01",
-  s:[{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ─── D · AŞAĞI VOLGA — Altın Orda şehir ağı ────────────────────────────────
 // Model çekirdeğin Astrahan/Saratov/Tsaritsyn kaydıyla aynı:
@@ -4051,31 +4051,31 @@ window.YERLESIMLER_H2_RUSYA = [
 { ad:"Saray (Selitrennoye)", tur:"sehir", lat:47.183, lon:47.700, g:0, k:1,
   s:[{f:"1281-01-01", t:"1466-01-01", d:"altinorda"},
      {f:"1466-01-01", t:"1556-01-01", d:"astarhan"},
-     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Yeni Saray (Tsarev)", tur:"sehir", lat:48.688, lon:45.383, g:1, k:1,
   s:[{f:"1281-01-01", t:"1466-01-01", d:"altinorda"},
      {f:"1466-01-01", t:"1556-01-01", d:"astarhan"},
-     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Ukek (Uvek)", tur:"sehir", lat:51.470, lon:45.950, g:2, k:3,
   s:[{f:"1281-01-01", t:"1466-01-01", d:"altinorda"},
      {f:"1466-01-01", t:"1556-01-01", d:"astarhan"},
-     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Beldjamen", tur:"sehir", lat:49.020, lon:44.750, g:2, k:3,
   s:[{f:"1281-01-01", t:"1466-01-01", d:"altinorda"},
      {f:"1466-01-01", t:"1556-01-01", d:"astarhan"},
-     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Çernıy Yar", tur:"kale", lat:48.070, lon:46.110, g:2, k:4, kur:"1627-01-01",
-  s:[{f:"1627-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1627-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Yenotayevsk", tur:"kale", lat:47.245, lon:47.017, g:2, k:4, kur:"1741-01-01",
-  s:[{f:"1741-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1741-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Krasnıy Yar", tur:"kale", lat:46.535, lon:48.343, g:2, k:4, kur:"1667-01-01",
-  s:[{f:"1667-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1667-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Hvalınsk", tur:"sehir", lat:52.497, lon:48.101, g:2, k:3, kur:"1556-01-01",
-  s:[{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Volsk", tur:"sehir", lat:52.045, lon:47.387, g:2, k:3, kur:"1690-01-01",
-  s:[{f:"1690-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1690-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Stavropol (Volga)", tur:"kale", lat:53.507, lon:49.420, g:2, k:4, kur:"1737-01-01",
-  s:[{f:"1737-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1737-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ─── E · YAYIK-URAL BOZKIRI — Nogay Ordası ve Başkurt yurdu ────────────────
 // Model çekirdeğin Penza/Borisoglebsk kaydıyla aynı (altinorda→nogay 1500 ya da
@@ -4084,35 +4084,35 @@ window.YERLESIMLER_H2_RUSYA = [
 { ad:"Uralsk (Yayık)", tur:"kale", lat:51.227, lon:51.386, g:1, k:4,
   s:[{f:"1281-01-01", t:"1441-01-01", d:"altinorda"},
      {f:"1441-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1644-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"İlek", tur:"kale", lat:51.523, lon:53.383, g:2, k:4, kur:"1737-01-01",
-  s:[{f:"1737-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1737-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Orenburg", tur:"kale", lat:51.768, lon:55.097, g:0, k:4, kur:"1743-04-30",
-  s:[{f:"1743-04-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1743-04-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Orsk", tur:"kale", lat:51.229, lon:58.556, g:2, k:4, kur:"1735-08-31",
-  s:[{f:"1735-08-31",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1735-08-31",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Buzuluk", tur:"kale", lat:52.786, lon:52.261, g:2, k:4, kur:"1736-01-01",
-  s:[{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Güney Başkurdistan Nogay yurdunun kuzey ucudur; Ufa'nın (1574 ileri kale)
 // aksine Rus idaresine geç girer — Penza/Borisoglebsk'in 1663'ü kullanıldı.
 { ad:"Sterlitamak", tur:"sehir", lat:53.630, lon:55.950, g:2, k:3, kur:"1766-01-01",
-  s:[{f:"1766-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1766-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ─── F · DNYEPER-DON — Hetmanlık merkezleri ve Azak kuşağı ─────────────────
 // (Bu çeyrek zaten doygun; yalnız SINIR KARARI taşıyan üç nokta eklendi.)
 // Baturin ve Hluhiv — Hetmanlığın başkentleri; Poltava/Putivl modeliyle aynı.
 { ad:"Baturin",kaynak:"polonya", tur:"kale", lat:51.343, lon:32.879, g:1, k:4,
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Hluhiv", tur:"sehir", lat:51.678, lon:33.917, g:2, k:3,
   s:[{f:"1281-01-01", t:"1362-01-01", d:"altinorda"},
      {f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},
      {f:"1503-04-02", t:"1547-01-16", d:"moskova"},
-     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+     {f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Taganrog — Azak'ın karşı kıyısı. Dönemleri BİREBİR Azak'ın kırılma
 // günlerinden alındı (1696-07-19 fetih · 1711-07-21 Prut · 1739-09-18 Belgrad),
 // çünkü şehrin dört el değiştirmesi Azak'ınkiyle aynı olayların sonucudur.
 { ad:"Taganrog", neden:"VERI-KIRIM 14 Eyl 2026 (1.MURAT M-3901 hükmü b): 1711-07-21 → 1739-09-18 dilimi s:kirim idi ve KAYNAKSIZDI (kayıt başlığı yalnız günleri Azak'tan aldığını söylüyor, kimlik gerekçesi yok). Kaynak yıkımı ve iki tarafça kale yapılmayacak tampon hükmünü yazıyor, tasarruf yazmıyor ⇒ yıkık tampon kıyı, __BOSLUK__ (kuzey vahşi bozkır hükmüyle aynı sınıf). Günler DEĞİŞMEDİ. ⚠️ BORÇ: akademik kaynak (B. Davies, Warfare, State and Society on the Black Sea Steppe 1500-1700) OKUNMADI.", tur:"liman", lat:47.237, lon:38.897, g:1, k:3, kur:"1698-09-12",
-  s:[{f:"1698-09-12", t:"1711-07-21", d:"rusya"},{f:"1711-07-21", t:"1739-09-18", d:"__BOSLUK__", kaynak:"TDV prut-antlasmasi (200, gövde okundu): 'Azak Kalesi arazi ve mühimmatıyla iade edilecek, Taygan, Kamenka ve Samara suyu kenarındaki Yenikale yıkılacak … buralarda her iki tarafça başka bir kale yapılmayacak' · TDV azak (200): Prut sonrası Azak geri alındı, 1713 Edirne ile Osmanlı'ya bırakıldı, Belgrad (1739) ile Rusya'ya terk. taganrog/taygan slugları 302 ÖLÜ."},{f:"1739-09-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1698-09-12", t:"1711-07-21", d:"rusya"},{f:"1711-07-21", t:"1739-09-18", d:"__BOSLUK__", kaynak:"TDV prut-antlasmasi (200, gövde okundu): 'Azak Kalesi arazi ve mühimmatıyla iade edilecek, Taygan, Kamenka ve Samara suyu kenarındaki Yenikale yıkılacak … buralarda her iki tarafça başka bir kale yapılmayacak' · TDV azak (200): Prut sonrası Azak geri alındı, 1713 Edirne ile Osmanlı'ya bırakıldı, Belgrad (1739) ile Rusya'ya terk. taganrog/taygan slugları 302 ÖLÜ."},{f:"1739-09-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -4171,7 +4171,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   // Alevî (Filâlî) hanedanının payitahtı — TDV `miknas`, `filaliler`.
   { ad:"Miknâs (Meknes)", tur:"sehir", lat:33.895, lon:-5.555, g:1, k:1, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `titvan`: 1435'te yıkılan şehir Endülüs muhacirlerince 888-889
   // (1483-1484) boş bulunup yeniden kuruldu ⇒ `kur`.
@@ -4179,41 +4179,41 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
-    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
+    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"},{"f":"1923-10-29","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
   { ad:"el-Arâiş (Larache)", tur:"liman", lat:35.193, lon:-6.156, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1610-01-01",d:"sadi"},
        {f:"1610-01-01",t:"1689-01-01",d:"ispanya",enklav:true},
-       {f:"1689-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+       {f:"1689-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Vâdilmehâzin (Üç Padişah) Savaşı 1578 bu şehrin kuzeyinde oldu.
   { ad:"Kasrülkebîr", tur:"sehir", lat:35.001, lon:-5.906, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Tâze geçidi — Fas ile Rif/Şark arasındaki tek doğal koridor.
   { ad:"Tâze (Taza)", tur:"sehir", lat:34.210, lon:-4.010, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // 🔴 SINIR NOKTASI. Vecde yokken Fas'ın kuzeydoğusu Tilimsan'ın peteğine
   // düşüyordu; Tilimsan 1552'den Osmanlı olduğu için Melviye'nin batısı
   // dört asır boyunca yanlış tarafta boyanıyordu.
   { ad:"Vecde (Oujda)", tur:"sehir", lat:34.681, lon:-1.900, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `sicilmase` — Tâfilelt'in kervan başkenti, Alevî hanedanının ocağı.
   { ad:"Sicilmâse (Tâfilelt)", tur:"sehir", lat:31.281, lon:-4.283, g:0, k:3, m:null,
-    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Sa'dî hanedanının ilk merkezi (Sûs) — TDV `sus`.
   { ad:"Tarûdant", tur:"sehir", lat:30.471, lon:-8.877, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Sîdî Muhammed b. Abdullah 1764'te kurdurdu ⇒ `kur`.
   { ad:"Sûvayra (Mogador)", tur:"liman", lat:31.513, lon:-9.770, g:0, k:3, m:null,
     kur:"1764-01-01",
-    s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Şefşâven",neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
     kur:"1471-01-01",
@@ -4223,7 +4223,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı
   // hiç yazma. Eksik alan yanlış alandan iyidir.").
   { ad:"Vezzân (Ouezzane)", tur:"sehir", lat:34.796, lon:-5.583, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Peñón de Vélez de la Gomera: 1508 alındı, 1522 kaybedildi, 1564'te
   // (Ağustos-Eylül) geri alındı ve bir daha çıkılmadı. Gün doğrulanamadı.
@@ -4249,61 +4249,60 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //     ±1,3 km'de 19.435 geçerli nokta buldu; bu, en yakın olanı.
   { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1727, lon:-4.3007, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1564-01-01",d:"sadi"},
-       {f:"1564-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
+       {f:"1564-01-01",t:"2000-12-31",d:"ispanya",enklav:true}], d:[], v:[] },
 
   { ad:"el-Hüseyme (Alhucemas)", tur:"kale", lat:35.246, lon:-3.931, g:0, k:4, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1673-01-01",d:"fas"},
-       {f:"1673-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1673-01-01",d:"fas"},{f:"1673-01-01",t:"2000-12-31",d:"ispanya",enklav:true}], d:[], v:[] },
 
   // La Mâmûra / Mehdiye. ⚠️ `ad` ÇAKIŞMASI: Tunus'ta zaten "Mehdiye" var
   // (35,505 / 11,062) — bu yüzden ad "Mamûra" ile açıldı.
   { ad:"Mamûra (Mehdiye)", tur:"kale", lat:34.256, lon:-6.678, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1614-01-01",d:"sadi"},
        {f:"1614-01-01",t:"1681-01-01",d:"ispanya",enklav:true},
-       {f:"1681-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+       {f:"1681-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Debdû", tur:"sehir", lat:34.098, lon:-3.032, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Fas-Cezayir çöl hududundaki vaha — Vecde ile birlikte Melviye/Zûsfâne
   // hattını tutar.
   { ad:"Fîgîg (Figuig)", tur:"sehir", lat:32.109, lon:-1.227, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `darulbeyza` — eski Anfa; 1770'te Sîdî Muhammed yeniden imar etti.
   { ad:"Dârülbeyzâ (Anfa)", tur:"liman", lat:33.573, lon:-7.590, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Zâgûre (Dr'a)", tur:"sehir", lat:30.332, lon:-5.838, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Verzâzât", tur:"sehir", lat:30.920, lon:-6.910, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tinğîr", tur:"sehir", lat:31.515, lon:-5.533, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Benî Mellâl", tur:"sehir", lat:32.337, lon:-6.360, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Hunayfire (Khenifra)", tur:"sehir", lat:32.936, lon:-5.668, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Sefrû", tur:"sehir", lat:33.830, lon:-4.836, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Îfnî (Sîdî İfnî)", tur:"liman", lat:29.379, lon:-10.173, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tîznît", tur:"sehir", lat:29.699, lon:-9.732, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Vâdî Nûn — Tekne kabilelerinin kervan kapısı, Sahra'ya açılan uç.
   { ad:"Ğulmîm (Vâdî Nûn)", tur:"sehir", lat:28.987, lon:-10.057, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tâtâ", tur:"sehir", lat:29.744, lon:-7.972, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------
@@ -4323,14 +4322,14 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // seferiyle girdi (Lalla Fatma N'Sûmer'in esir alınışı, Temmuz 1857).
   { ad:"Tîzî Vezzû (Kabiliye)", tur:"sehir", lat:36.712, lon:4.047, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
   // Kal'a-i Benî Abbâs'ın (Ait Abbas) bölgesi.
   { ad:"Akbû (Benî Abbâs)", tur:"kale", lat:36.457, lon:4.531, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
@@ -4340,7 +4339,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   { ad:"Tâhert (Tiaret)", tur:"sehir", lat:35.371, lon:1.322, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
        {f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},
-       {f:"1841-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1841-01-01",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
@@ -4349,7 +4348,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // güzergâhındadır; o yüzden Ağvât/Gardâye'nin tarihini paylaşır.
   { ad:"Cilfe (Djelfa)", tur:"sehir", lat:34.673, lon:3.263, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1852-12-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
@@ -4359,7 +4358,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    Tuggurt'un kayıtlı 1854-12-02 tarihi de aynı seferdendir.
   { ad:"Vargla (Ouargla)", tur:"sehir", lat:31.949, lon:5.325, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-11-23",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1854-11-23",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-11-23",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
@@ -4367,20 +4366,20 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // eğdi, o yüzden Tuggurt'un kayıtlı tarihini paylaşır: YENİ TARİH YOK.
   { ad:"el-Vâdî (Sûf)", tur:"sehir", lat:33.368, lon:6.867, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-12-02",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1854-12-02",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
   // Evrâs (Aurès) dağları — Batna ile Tebesse'nin 1844-03-04 kümesinde.
   { ad:"Hanşele (Khenchela)", tur:"sehir", lat:35.436, lon:7.144, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
   { ad:"Aynı Beydâ", tur:"sehir", lat:35.796, lon:7.393, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
@@ -4393,25 +4392,25 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // protestosuyla karşılandı. ⇒ `fas`, sonra `fransa`.
   { ad:"Advâr (Tuvât)", tur:"sehir", lat:27.874, lon:-0.294, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   { ad:"Tîmîmûn (Gûrâre)", tur:"sehir", lat:29.256, lon:0.231, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   // Tîdîkelt'in merkezi. Fransızlar 29 Aralık 1899'da işgal etti —
   // kümenin geri kalanından 14 ay önce, o yüzden AYRI tarih.
   { ad:"Aynı Sâlih (Tîdîkelt)", tur:"sehir", lat:27.194, lon:2.480, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1899-12-29",d:"fas"},
-       {f:"1899-12-29",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1899-12-29",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   { ad:"Reggân", tur:"sehir", lat:26.719, lon:0.170, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   { ad:"Benî Abbâs (Sâvre)", tur:"sehir", lat:30.130, lon:-2.170, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
   // Zûsfâne-Sâvre havzası. Lyautey'in Cebel-i Beşşâr'ın batısına kurdurduğu
   // karakol **11 Kasım 1903**'te tesis edildi ve "Colomb-Béchar" adını aldı.
@@ -4421,7 +4420,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    (±30 gün penceresi aynı), ama YAZILAN TARİH DOĞRU OLMAK ZORUNDA.
   { ad:"Beşşâr (Béchar)", tur:"sehir", lat:31.617, lon:-2.216, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1903-11-11",d:"fas"},
-       {f:"1903-11-11",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
+       {f:"1903-11-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------
@@ -4489,43 +4488,43 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   { ad:"Terhûne", tur:"sehir", lat:32.435, lon:13.633, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cebelinefûse'nin batı ucu — TDV `nefuse`.
   { ad:"Kabâv (Nefûse)", tur:"sehir", lat:31.941, lon:12.036, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Sinâvin", tur:"sehir", lat:31.007, lon:10.616, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Derc (Derj)", tur:"sehir", lat:30.155, lon:10.442, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Tâverğa", tur:"sehir", lat:32.005, lon:15.055, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cufre vahaları — Sokna'nın (29,070/15,792) doğu komşusu.
   { ad:"Vaddân (Cufre)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Zilla (Zella)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4533,12 +4532,12 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // arasında 350 km nokta yoktu.
   { ad:"Nûfiliye", tur:"sehir", lat:30.784, lon:17.983, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Merâde",kaynak:"fizan", tur:"bolge", lat:29.230, lon:19.213, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4550,7 +4549,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //   kalmış ikizi. Osmanlı günü kardeş noktalarla (Bingazi · Merc · Beyzâ ·
   //   Ecdâbiye) aynı: 1551-08-15.
   { ad:"Tulmeyse", tur:"liman", lat:32.712, lon:20.951, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4562,7 +4561,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // 🔴 BERKA-0087 — Tulmeyse ile aynı (yukarı bak): memluk 1281→1517-05-19 + d 1517
   //   kaynaksızdı. Osmanlı günü Derne ile aynı: 1551-08-15 (Tobruk 1556'da kalıyor).
   { ad:"Ayn el-Ğazâle (Bomba)", tur:"liman", lat:32.495, lon:23.120, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4575,20 +4574,20 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   // Murzuk'tan önceki Fizan başkenti.
   { ad:"Tırgan (Traghan)",kaynak:"fizan", tur:"sehir", lat:26.130, lon:14.470, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Benî Hattâb'ın eski merkezi; TDV `fizan` maddesinde Evlâd-ı
   // Muhammed'in ilk yerleştiği yer olarak geçer.
   { ad:"Zevîle (Zawila)",kaynak:"fizan", tur:"sehir", lat:26.170, lon:15.113, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Fizan'ın güney kapısı — Bornu kervan yolunun ilk menzili.
   { ad:"el-Katrûn",kaynak:"fizan", tur:"sehir", lat:24.919, lon:14.647, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4636,60 +4635,60 @@ window.YERLESIMLER_GDASYA = [
 
 // ---------- BİRMANYA (Irrawaddy koridoru) ----------
 { ad:"Pathein (Bassein)", tur:"liman", lat:16.78, lon:94.73, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1287-01-01",d:"pagan"},{f:"1287-01-01",t:"1539-01-01",d:"hanthawaddy"},{f:"1539-01-01",t:"1740-01-01",d:"toungoo"},{f:"1740-01-01",t:"1755-05-03",d:"hanthawaddy"},{f:"1755-05-03",t:"1852-04-14",d:"konbaung"},{f:"1852-04-14",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1287-01-01",d:"pagan"},{f:"1287-01-01",t:"1539-01-01",d:"hanthawaddy"},{f:"1539-01-01",t:"1740-01-01",d:"toungoo"},{f:"1740-01-01",t:"1755-05-03",d:"hanthawaddy"},{f:"1755-05-03",t:"1852-04-14",d:"konbaung"},{f:"1852-04-14",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Thaton", tur:"sehir", lat:16.92, lon:97.37, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1287-01-01",d:"pagan"},{f:"1287-01-01",t:"1539-01-01",d:"hanthawaddy"},{f:"1539-01-01",t:"1740-01-01",d:"toungoo"},{f:"1740-01-01",t:"1757-05-06",d:"hanthawaddy"},{f:"1757-05-06",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1287-01-01",d:"pagan"},{f:"1287-01-01",t:"1539-01-01",d:"hanthawaddy"},{f:"1539-01-01",t:"1740-01-01",d:"toungoo"},{f:"1740-01-01",t:"1757-05-06",d:"hanthawaddy"},{f:"1757-05-06",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Bhamo", tur:"sehir", lat:24.27, lon:97.23, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Shwebo", tur:"sehir", lat:22.57, lon:95.70, g:1, k:3,
   kur:"1313-01-01",
-  s:[{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Taungdwingyi", tur:"sehir", lat:20.01, lon:95.40, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1542-05-19",d:"ava"},{f:"1542-05-19",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1542-05-19",d:"ava"},{f:"1542-05-19",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Myingyan", tur:"sehir", lat:21.46, lon:95.38, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Yenangyaung", tur:"sehir", lat:20.47, lon:94.87, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Katha", tur:"sehir", lat:24.19, lon:96.33, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Meiktila", tur:"sehir", lat:20.87, lon:95.86, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 
 // ---------- SİYAM (Chao Phraya koridoru) ----------
 { ad:"Lopburi", tur:"sehir", lat:14.80, lon:100.62, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1351-03-04",d:"sukhothai"},{f:"1351-03-04",t:"1569-08-08",d:"ayutthaya"},{f:"1569-08-08",t:"1584-05-03",d:"toungoo"},{f:"1584-05-03",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1351-03-04",d:"sukhothai"},{f:"1351-03-04",t:"1569-08-08",d:"ayutthaya"},{f:"1569-08-08",t:"1584-05-03",d:"toungoo"},{f:"1584-05-03",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Phitsanulok", tur:"sehir", lat:16.82, lon:100.26, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1569-08-08",d:"ayutthaya"},{f:"1569-08-08",t:"1584-05-03",d:"toungoo"},{f:"1584-05-03",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1569-08-08",d:"ayutthaya"},{f:"1569-08-08",t:"1584-05-03",d:"toungoo"},{f:"1584-05-03",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Nakhon Ratchasima", tur:"sehir", lat:14.97, lon:102.10, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Songkhla", tur:"liman", lat:7.2079, lon:100.597, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Phuket (Thalang)", tur:"liman", lat:7.89, lon:98.40, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Chiang Rai", tur:"sehir", lat:19.91, lon:99.83, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1558-04-02",d:"lan-na"},{f:"1558-04-02",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1774-01-15",d:"konbaung"},{f:"1774-01-15",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1558-04-02",d:"lan-na"},{f:"1558-04-02",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1774-01-15",d:"konbaung"},{f:"1774-01-15",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Chanthaburi", tur:"liman", lat:12.61, lon:102.10, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Nan", tur:"sehir", lat:18.78, lon:100.77, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1558-04-02",d:"lan-na"},{f:"1558-04-02",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1774-01-15",d:"konbaung"},{f:"1774-01-15",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1558-04-02",d:"lan-na"},{f:"1558-04-02",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1774-01-15",d:"konbaung"},{f:"1774-01-15",t:"2000-12-31",d:"siyam-chakri"}] },
 
 // ---------- KAMBOÇYA-LAOS (Mekong koridoru) ----------
 { ad:"Kratie", tur:"liman", lat:12.49, lon:106.02, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Kampot", tur:"liman", lat:10.61, lon:104.18, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Pursat", tur:"sehir", lat:12.53, lon:103.92, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1795-01-01",d:"kamboc-kralligi"},{f:"1795-01-01",t:"1907-03-23",d:"siyam-chakri"},{f:"1907-03-23",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1795-01-01",d:"kamboc-kralligi"},{f:"1795-01-01",t:"1907-03-23",d:"siyam-chakri"},{f:"1907-03-23",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Kompong Cham", tur:"liman", lat:12.00, lon:105.46, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 // HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
 //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Xieng Khouang", tur:"sehir", lat:19.45, lon:103.15, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1953-10-22",d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 // HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
 //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Savannakhet", tur:"liman", lat:16.56, lon:104.75, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1953-10-22",d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 // ---------- VİETNAM (Kızıl Nehir + orta/güney kıyı) ----------
 // Kuzey zinciri (tran→ho→ming işgali→le→...) yerlesimler_asya.js'teki
@@ -4697,271 +4696,271 @@ window.YERLESIMLER_GDASYA = [
 // 1281-1428 arası le-hanedani DEĞİL, tran-hanedani+ho-hanedani+ming-hanedani
 // (Dördüncü Kuzey Egemenliği, 1407-1428) — bu şablon o düzeltmeyi uyguluyor.
 { ad:"Hai Phong", tur:"liman", lat:20.86, lon:106.68, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Nam Dinh", tur:"sehir", lat:20.42, lon:106.17, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 // Thanh Hoa/Vinh: Lê hanedanının çekirdek bölgesi — Mạc gasbı sırasında
 // (1527-1592) BU BÖLGE Lê'ye sadık kaldı (Lê Trung Hưng direnişinin üssü),
 // bu yüzden zincirde Mạc dönemi YOK, le-hanedani kesintisiz.
 { ad:"Thanh Hoa", tur:"sehir", lat:19.81, lon:105.78, g:1, k:2,kd:[{f:"1400-03-01",t:"1407-06-17",k:1,m:"Thanh Hoa"}],
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Vinh", tur:"sehir", lat:18.67, lon:105.69, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 // Nha Trang (Kauthara, Champa'nın güney vilayeti) — 1653'te Nguyễn beylerine
 // düştü (Po Nraup'un yenilgisi); gün TDV/akademik kaynakta net değil, YIL
 // BEYANI (§4). Sonrası Hội An/Đà Nẵng'ın güney zinciriyle aynı.
 { ad:"Nha Trang (Kauthara)", tur:"liman", lat:12.24, lon:109.19, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1653-01-01",d:"campa"},{f:"1653-01-01",t:"1775-02-01",d:"nguyen-beyligi"},{f:"1775-02-01",t:"1786-06-01",d:"le-hanedani"},{f:"1786-06-01",t:"1802-06-01",d:"tay-son"},{f:"1802-06-01",t:"1884-06-06",d:"nguyen-hanedani"},{f:"1884-06-06",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1653-01-01",d:"campa"},{f:"1653-01-01",t:"1775-02-01",d:"nguyen-beyligi"},{f:"1775-02-01",t:"1786-06-01",d:"le-hanedani"},{f:"1786-06-01",t:"1802-06-01",d:"tay-son"},{f:"1802-06-01",t:"1884-06-06",d:"nguyen-hanedani"},{f:"1884-06-06",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 
 // ---------- MALAYA (Malaka Boğazı) ----------
 { ad:"Pahang (Pekan)", tur:"sehir", lat:3.50, lon:103.40, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1888-01-01",d:"malay-sultanliklari"},{f:"1888-01-01",t:"1923-10-29",d:"ingiliz-malaya"}] },
+  s:[{f:"1281-01-01",t:"1888-01-01",d:"malay-sultanliklari"},{f:"1888-01-01",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 { ad:"Kelantan (Kota Bharu)", tur:"sehir", lat:6.13, lon:102.24, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1909-07-10",d:"malay-sultanliklari"},{f:"1909-07-10",t:"1923-10-29",d:"ingiliz-malaya"}] },
+  s:[{f:"1281-01-01",t:"1909-07-10",d:"malay-sultanliklari"},{f:"1909-07-10",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 { ad:"Terengganu (Kuala Terengganu)", tur:"liman", lat:5.33, lon:103.14, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1909-07-10",d:"malay-sultanliklari"},{f:"1909-07-10",t:"1923-10-29",d:"ingiliz-malaya"}] },
+  s:[{f:"1281-01-01",t:"1909-07-10",d:"malay-sultanliklari"},{f:"1909-07-10",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 { ad:"Negeri Sembilan (Seremban)", tur:"sehir", lat:2.72, lon:101.94, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"malay-sultanliklari"},{f:"1889-01-01",t:"1923-10-29",d:"ingiliz-malaya"}] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"malay-sultanliklari"},{f:"1889-01-01",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // ---------- SUMATRA (doğu kıyısı) ----------
 { ad:"Lampung", tur:"liman", lat:-5.4489, lon:105.269, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1527-06-22",d:"palembang-sultanligi"},{f:"1527-06-22",t:"1808-01-01",d:"banten-sultanligi"},{f:"1808-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1527-06-22",d:"palembang-sultanligi"},{f:"1527-06-22",t:"1808-01-01",d:"banten-sultanligi"},{f:"1808-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Bintan (Riau)", tur:"liman", lat:0.92, lon:104.45, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1923-10-29",d:"cohor-sultanligi"}] },
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1923-10-29",d:"cohor-sultanligi"},{f:"1923-10-29",t:"1949-12-27",d:"hollanda-dogu-hint",kaynak:"Britannica Dutch East Indies; Riau-Lingga 1911'de kaldirildi"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Hollanda egemenlik devri 1949-12-27 (Britannica Indonesia)"}] },
 { ad:"Barus", tur:"liman", lat:2.06, lon:98.39, g:0, k:3,
   kur:"1496-01-01",
-  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- JAVA (kuzey kıyısı + iç kesim) ----------
 { ad:"Cirebon", tur:"liman", lat:-6.71, lon:108.55, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1526-01-01",d:"sunda-pajajaran"},{f:"1526-01-01",t:"1677-01-01",d:"banten-sultanligi"},{f:"1677-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1526-01-01",d:"sunda-pajajaran"},{f:"1526-01-01",t:"1677-01-01",d:"banten-sultanligi"},{f:"1677-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Malang", tur:"sehir", lat:-7.98, lon:112.63, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Madiun", tur:"sehir", lat:-7.63, lon:111.52, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Pasuruan", tur:"liman", lat:-7.65, lon:112.90, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Blitar", tur:"sehir", lat:-8.10, lon:112.17, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- BORNEO ----------
 { ad:"Sambas", tur:"liman", lat:1.37, lon:109.30, g:0, k:3,
   kur:"1631-01-01",
-  s:[{f:"1631-01-01",t:"1819-01-01",d:"brunei-sultanligi"},{f:"1819-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1631-01-01",t:"1819-01-01",d:"brunei-sultanligi"},{f:"1819-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Kotawaringin", tur:"sehir", lat:-2.85, lon:111.67, g:0, k:3,
   kur:"1526-01-01",
-  s:[{f:"1526-01-01",t:"1830-01-01",d:"banjar-sultanligi"},{f:"1830-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1526-01-01",t:"1830-01-01",d:"banjar-sultanligi"},{f:"1830-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- SULAWESİ ----------
 { ad:"Gorontalo", tur:"liman", lat:0.54, lon:123.06, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1663-01-01",d:"ternate-sultanligi"},{f:"1663-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1663-01-01",d:"ternate-sultanligi"},{f:"1663-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- FİLİPİNLER ----------
 { ad:"Iloilo", tur:"liman", lat:10.72, lon:122.56, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1569-01-01",d:"filipin-racaliklari"},{f:"1569-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1569-01-01",d:"filipin-racaliklari"},{f:"1569-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Vigan", tur:"sehir", lat:17.57, lon:120.39, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1572-01-01",d:"filipin-racaliklari"},{f:"1572-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1572-01-01",d:"filipin-racaliklari"},{f:"1572-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Zamboanga", tur:"liman", lat:6.91, lon:122.08, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1635-01-01",d:"filipin-racaliklari"},{f:"1635-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1635-01-01",d:"filipin-racaliklari"},{f:"1635-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Butuan", tur:"liman", lat:8.95, lon:125.54, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1622-01-01",d:"filipin-racaliklari"},{f:"1622-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1622-01-01",d:"filipin-racaliklari"},{f:"1622-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // ---------- MOLUK - KÜÇÜK SUNDA ----------
 { ad:"Larantuka", tur:"liman", lat:-8.3411, lon:122.99, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1613-01-01",d:"timor-beylikleri"},{f:"1613-01-01",t:"1859-04-20",d:"portekiz"},{f:"1859-04-20",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1613-01-01",d:"timor-beylikleri"},{f:"1613-01-01",t:"1859-04-20",d:"portekiz"},{f:"1859-04-20",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Sumbawa", tur:"sehir", lat:-8.49, lon:117.42, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1343-01-01",d:"singhasari"},{f:"1343-01-01",t:"1478-01-01",d:"majapahit"},{f:"1478-01-01",t:"1905-01-01",d:"bali-kralliklari"},{f:"1905-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1343-01-01",d:"singhasari"},{f:"1343-01-01",t:"1478-01-01",d:"majapahit"},{f:"1478-01-01",t:"1905-01-01",d:"bali-kralliklari"},{f:"1905-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Seram (Ceram)", tur:"liman", lat:-3.10, lon:129.50, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1656-01-01",d:"ternate-sultanligi"},{f:"1656-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1656-01-01",d:"ternate-sultanligi"},{f:"1656-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- İKİNCİ TUR — mevcut alt bölgelere ek ----------
 // Birmanya (iç kesim zinciri devamı)
 { ad:"Minbu", tur:"sehir", lat:20.18, lon:94.88, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Pakokku", tur:"sehir", lat:21.33, lon:95.08, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Myitkyina", tur:"sehir", lat:25.38, lon:97.40, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 // Siyam
 { ad:"Kanchanaburi", tur:"sehir", lat:14.02, lon:99.53, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Phetchaburi", tur:"liman", lat:13.11, lon:99.94, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Trang", tur:"liman", lat:7.56, lon:99.61, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 // Vietnam (Kızıl Nehir deltası)
 { ad:"Son Tay", tur:"sehir", lat:21.14, lon:105.50, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Ninh Binh", tur:"sehir", lat:20.25, lon:105.97, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Bac Giang", tur:"sehir", lat:21.27, lon:106.19, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1527-06-15",d:"le-hanedani"},{f:"1527-06-15",t:"1592-01-01",d:"mac-hanedani"},{f:"1592-01-01",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 // Java (kuzey kıyısı devamı)
 { ad:"Tegal", tur:"liman", lat:-6.87, lon:109.14, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Pekalongan", tur:"liman", lat:-6.89, lon:109.68, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Rembang", tur:"liman", lat:-6.713, lon:111.34, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- ÜÇÜNCÜ TUR ----------
 { ad:"Stung Treng", tur:"liman", lat:13.53, lon:105.97, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Sisophon", tur:"sehir", lat:13.59, lon:102.98, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1795-01-01",d:"kamboc-kralligi"},{f:"1795-01-01",t:"1907-03-23",d:"siyam-chakri"},{f:"1907-03-23",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1795-01-01",d:"kamboc-kralligi"},{f:"1795-01-01",t:"1907-03-23",d:"siyam-chakri"},{f:"1907-03-23",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Klang", tur:"liman", lat:3.04, lon:101.45, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1874-01-20",d:"malay-sultanliklari"},{f:"1874-01-20",t:"1923-10-29",d:"ingiliz-malaya"}] },
+  s:[{f:"1281-01-01",t:"1874-01-20",d:"malay-sultanliklari"},{f:"1874-01-20",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 { ad:"Meulaboh", tur:"liman", lat:4.14, lon:96.13, g:0, k:3,
   kur:"1496-01-01",
-  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Berau", tur:"liman", lat:2.13, lon:117.43, g:0, k:3,
   kur:"1400-01-01",
-  s:[{f:"1400-01-01",t:"1850-01-01",d:"brunei-sultanligi"},{f:"1850-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1400-01-01",t:"1850-01-01",d:"brunei-sultanligi"},{f:"1850-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Naga (Camarines)", tur:"sehir", lat:13.62, lon:123.18, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1573-01-01",d:"filipin-racaliklari"},{f:"1573-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1573-01-01",d:"filipin-racaliklari"},{f:"1573-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Alor", tur:"liman", lat:-8.22, lon:124.58, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1653-01-01",d:"timor-beylikleri"},{f:"1653-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1653-01-01",d:"timor-beylikleri"},{f:"1653-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- DÖRDÜNCÜ TUR ----------
 { ad:"Sandoway (Thandwe)", tur:"liman", lat:18.48, lon:94.35, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1785-01-02",d:"arakan"},{f:"1785-01-02",t:"1826-02-24",d:"konbaung"},{f:"1826-02-24",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1785-01-02",d:"arakan"},{f:"1785-01-02",t:"1826-02-24",d:"konbaung"},{f:"1826-02-24",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Kamphaeng Phet", tur:"sehir", lat:16.48, lon:99.52, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Uthai Thani", tur:"sehir", lat:15.38, lon:100.02, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Preah Vihear", tur:"sehir", lat:14.39, lon:104.68, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 // HAYALET-KUNYE-1008-K · `lan-xang` künyesi 1353-01-01'de başlıyor (kesinlik yil); 1281→1353-01-01 dilimi → `__BOSLUK__`.
 //   __BOSLUK__ = künyesi olmayan yerel yapı (Raipur emsali), 'kimsenin değil' DEĞİL; komşuya İTİLMEDİ.
 { ad:"Muang Sing", tur:"sehir", lat:21.18, lon:101.15, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"__BOSLUK__"},{f:"1353-01-01",t:"1707-01-01",d:"lan-xang"},{f:"1707-01-01",t:"1893-10-03",d:"laos-kralliklari"},{f:"1893-10-03",t:"1953-10-22",d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 { ad:"Vinh Long", tur:"liman", lat:10.25, lon:105.97, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Can Tho", tur:"liman", lat:10.03, lon:105.79, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Muar", tur:"liman", lat:2.05, lon:102.57, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1923-10-29",d:"cohor-sultanligi"}] },
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1923-10-29",d:"cohor-sultanligi"},{f:"1923-10-29",t:"1946-04-01",d:"federe-olmayan-malay-devletleri",kaynak:"tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Malayan Union 1946-04-01..1948 (UK National Archives; Britannica Onn Jaafar)"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Federation of Malaya Agreement 1948-02-01, Britannica"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Malaya bagimsizligi 1957-08-31; Malezya 1963-09-16 ayni kimlik"}] },
 { ad:"Sibolga", tur:"liman", lat:1.74, lon:98.78, g:0, k:3,
   kur:"1496-01-01",
-  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Jepara", tur:"liman", lat:-6.59, lon:110.67, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Tarakan", tur:"liman", lat:3.30, lon:117.63, g:0, k:3,
   kur:"1400-01-01",
-  s:[{f:"1400-01-01",t:"1850-01-01",d:"brunei-sultanligi"},{f:"1850-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1400-01-01",t:"1850-01-01",d:"brunei-sultanligi"},{f:"1850-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Bantaeng", tur:"liman", lat:-5.53, lon:119.96, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1667-11-18",d:"gova-makassar"},{f:"1667-11-18",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1667-11-18",d:"gova-makassar"},{f:"1667-11-18",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Batangas", tur:"liman", lat:13.76, lon:121.06, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1571-06-24",d:"filipin-racaliklari"},{f:"1571-06-24",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1571-06-24",d:"filipin-racaliklari"},{f:"1571-06-24",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Ende (Flores)", tur:"liman", lat:-8.84, lon:121.66, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1613-01-01",d:"timor-beylikleri"},{f:"1613-01-01",t:"1859-04-20",d:"portekiz"},{f:"1859-04-20",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1613-01-01",d:"timor-beylikleri"},{f:"1613-01-01",t:"1859-04-20",d:"portekiz"},{f:"1859-04-20",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- BEŞİNCİ TUR ----------
 { ad:"Pyinmana", tur:"sehir", lat:19.73, lon:96.22, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1852-12-20",d:"konbaung"},{f:"1852-12-20",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Henzada (Hinthada)", tur:"sehir", lat:17.64, lon:95.46, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1287-01-01",d:"pagan"},{f:"1287-01-01",t:"1539-01-01",d:"hanthawaddy"},{f:"1539-01-01",t:"1740-01-01",d:"toungoo"},{f:"1740-01-01",t:"1755-05-03",d:"hanthawaddy"},{f:"1755-05-03",t:"1852-04-14",d:"konbaung"},{f:"1852-04-14",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1287-01-01",d:"pagan"},{f:"1287-01-01",t:"1539-01-01",d:"hanthawaddy"},{f:"1539-01-01",t:"1740-01-01",d:"toungoo"},{f:"1740-01-01",t:"1755-05-03",d:"hanthawaddy"},{f:"1755-05-03",t:"1852-04-14",d:"konbaung"},{f:"1852-04-14",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Chumphon", tur:"liman", lat:10.49, lon:99.18, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Surat Thani", tur:"liman", lat:9.14, lon:99.32, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Attapeu", tur:"sehir", lat:14.81, lon:106.83, g:0, k:3,
   kur:"1713-01-01",
-  s:[{f:"1713-01-01",t:"1778-01-01",d:"laos-kralliklari"},{f:"1778-01-01",t:"1893-10-03",d:"siyam-chakri"},{f:"1893-10-03",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1713-01-01",t:"1778-01-01",d:"laos-kralliklari"},{f:"1778-01-01",t:"1893-10-03",d:"siyam-chakri"},{f:"1893-10-03",t:"1953-10-22",d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 { ad:"Quang Tri", tur:"sehir", lat:16.75, lon:107.19, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1306-01-01",d:"campa"},{f:"1306-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1558-01-01",d:"le-hanedani"},{f:"1558-01-01",t:"1775-02-01",d:"nguyen-beyligi"},{f:"1775-02-01",t:"1786-06-01",d:"le-hanedani"},{f:"1786-06-01",t:"1801-06-15",d:"tay-son"},{f:"1801-06-15",t:"1884-06-06",d:"nguyen-hanedani"},{f:"1884-06-06",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1306-01-01",d:"campa"},{f:"1306-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1558-01-01",d:"le-hanedani"},{f:"1558-01-01",t:"1775-02-01",d:"nguyen-beyligi"},{f:"1775-02-01",t:"1786-06-01",d:"le-hanedani"},{f:"1786-06-01",t:"1801-06-15",d:"tay-son"},{f:"1801-06-15",t:"1884-06-06",d:"nguyen-hanedani"},{f:"1884-06-06",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Quang Ngai", tur:"sehir", lat:15.12, lon:108.80, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1471-03-02",d:"campa"},{f:"1471-03-02",t:"1558-01-01",d:"le-hanedani"},{f:"1558-01-01",t:"1775-02-01",d:"nguyen-beyligi"},{f:"1775-02-01",t:"1786-06-01",d:"le-hanedani"},{f:"1786-06-01",t:"1802-06-01",d:"tay-son"},{f:"1802-06-01",t:"1884-06-06",d:"nguyen-hanedani"},{f:"1884-06-06",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1471-03-02",d:"campa"},{f:"1471-03-02",t:"1558-01-01",d:"le-hanedani"},{f:"1558-01-01",t:"1775-02-01",d:"nguyen-beyligi"},{f:"1775-02-01",t:"1786-06-01",d:"le-hanedani"},{f:"1786-06-01",t:"1802-06-01",d:"tay-son"},{f:"1802-06-01",t:"1884-06-06",d:"nguyen-hanedani"},{f:"1884-06-06",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Indrapura", tur:"liman", lat:-2.20, lon:101.11, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1663-01-01",d:"pagaruyung"},{f:"1663-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1663-01-01",d:"pagaruyung"},{f:"1663-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Sumenep (Madura)", tur:"sehir", lat:-7.02, lon:113.87, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Sukadana", tur:"liman", lat:-1.25, lon:109.95, g:0, k:3,
   kur:"1400-01-01",
-  s:[{f:"1400-01-01",t:"1786-01-01",d:"brunei-sultanligi"},{f:"1786-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1400-01-01",t:"1786-01-01",d:"brunei-sultanligi"},{f:"1786-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Legazpi", tur:"liman", lat:13.14, lon:123.74, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1573-01-01",d:"filipin-racaliklari"},{f:"1573-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1573-01-01",d:"filipin-racaliklari"},{f:"1573-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Waingapu (Sumba)", tur:"liman", lat:-9.66, lon:120.26, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1674-01-01",d:"timor-beylikleri"},{f:"1674-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1674-01-01",d:"timor-beylikleri"},{f:"1674-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- ALTINCI TUR ----------
 { ad:"Loikaw", tur:"sehir", lat:19.67, lon:97.21, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"san-devletleri"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"san-devletleri"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"tsv: ingiliz-burma t=1948-01-04; Britannica 'Shan States' (Federated Shan States, Burma Frontier Areas)"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"Britannica 'Myanmar' / Panglong Anlaşması 1947; Library of Congress Country Studies: Burma"}] },
 { ad:"Suphan Buri", tur:"sehir", lat:14.47, lon:100.12, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Takeo", tur:"sehir", lat:10.99, lon:104.79, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Tra Vinh", tur:"liman", lat:9.93, lon:106.35, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Ben Tre", tur:"liman", lat:10.24, lon:106.38, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Kuala Simpang", tur:"liman", lat:4.31, lon:98.00, g:0, k:3,
   kur:"1496-01-01",
-  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1496-01-01",t:"1903-01-10",d:"ace-sultanligi"},{f:"1903-01-10",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Kudus", tur:"sehir", lat:-6.81, lon:110.84, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Purwokerto", tur:"sehir", lat:-7.42, lon:109.23, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1526-01-01",d:"sunda-pajajaran"},{f:"1526-01-01",t:"1677-01-01",d:"banten-sultanligi"},{f:"1677-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1526-01-01",d:"sunda-pajajaran"},{f:"1526-01-01",t:"1677-01-01",d:"banten-sultanligi"},{f:"1677-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Tuguegarao", tur:"sehir", lat:17.61, lon:121.73, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1581-01-01",d:"filipin-racaliklari"},{f:"1581-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1581-01-01",d:"filipin-racaliklari"},{f:"1581-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Maumere (Flores)", tur:"liman", lat:-8.62, lon:122.21, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1613-01-01",d:"timor-beylikleri"},{f:"1613-01-01",t:"1859-04-20",d:"portekiz"},{f:"1859-04-20",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1613-01-01",d:"timor-beylikleri"},{f:"1613-01-01",t:"1859-04-20",d:"portekiz"},{f:"1859-04-20",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- YEDİNCİ TUR ----------
 { ad:"Mogok", tur:"sehir", lat:22.92, lon:96.50, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"}] },
+  s:[{f:"1281-01-01",t:"1313-01-01",d:"pagan"},{f:"1313-01-01",t:"1555-01-01",d:"ava"},{f:"1555-01-01",t:"1752-04-23",d:"toungoo"},{f:"1752-04-23",t:"1885-11-28",d:"konbaung"},{f:"1885-11-28",t:"1923-10-29",d:"ingiliz-hindistani"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"https://history.state.gov/countries/burma"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"https://history.state.gov/countries/burma (1948-01-04)"}] },
 { ad:"Loei", tur:"sehir", lat:17.49, lon:101.72, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Kompong Thom", tur:"sehir", lat:12.71, lon:104.89, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Tay Ninh", tur:"sehir", lat:11.31, lon:106.10, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Painan", tur:"liman", lat:-1.33, lon:100.60, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1663-01-01",d:"pagaruyung"},{f:"1663-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1663-01-01",d:"pagaruyung"},{f:"1663-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Ponorogo", tur:"sehir", lat:-7.87, lon:111.46, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Dagupan", tur:"liman", lat:16.04, lon:120.33, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1571-06-24",d:"filipin-racaliklari"},{f:"1571-06-24",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1571-06-24",d:"filipin-racaliklari"},{f:"1571-06-24",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Bima (Sumbawa)", tur:"liman", lat:-8.47, lon:118.72, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1343-01-01",d:"singhasari"},{f:"1343-01-01",t:"1478-01-01",d:"majapahit"},{f:"1478-01-01",t:"1905-01-01",d:"bali-kralliklari"},{f:"1905-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1343-01-01",d:"singhasari"},{f:"1343-01-01",t:"1478-01-01",d:"majapahit"},{f:"1478-01-01",t:"1905-01-01",d:"bali-kralliklari"},{f:"1905-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- SEKİZİNCİ TUR ----------
 { ad:"Kalaw", tur:"sehir", lat:20.63, lon:96.57, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"san-devletleri"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"san-devletleri"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"tsv: ingiliz-burma t=1948-01-04; Britannica 'Shan States' (Federated Shan States, Burma Frontier Areas)"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"Britannica 'Myanmar' / Panglong Anlaşması 1947; Library of Congress Country Studies: Burma"}] },
 { ad:"Roi Et", tur:"sehir", lat:16.05, lon:103.65, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1923-10-29",d:"siyam-chakri"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"sukhothai"},{f:"1438-01-01",t:"1767-04-07",d:"ayutthaya"},{f:"1767-04-07",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"2000-12-31",d:"siyam-chakri"}] },
 { ad:"Svay Rieng", tur:"sehir", lat:11.09, lon:105.80, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1863-08-11",d:"kamboc-kralligi"},{f:"1863-08-11",t:"1953-11-09",d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 { ad:"Rach Gia", tur:"liman", lat:10.01, lon:105.08, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1923-10-29",d:"fransiz-cinhindi"}] },
+  s:[{f:"1281-01-01",t:"1431-01-01",d:"angkor-kmer"},{f:"1431-01-01",t:"1698-01-01",d:"kamboc-kralligi"},{f:"1698-01-01",t:"1777-01-01",d:"nguyen-beyligi"},{f:"1777-01-01",t:"1788-09-07",d:"tay-son"},{f:"1788-09-07",t:"1802-06-01",d:"nguyen-beyligi"},{f:"1802-06-01",t:"1859-02-17",d:"nguyen-hanedani"},{f:"1859-02-17",t:"1954-07-21",d:"fransiz-cinhindi"},{f:"1954-07-21",t:"1975-04-30",d:"guney-vietnam",kaynak:"Britannica 'South Vietnam'; Office of the Historian"},{f:"1975-04-30",t:"2000-12-31",d:"vietnam-dc",kaynak:"Britannica 'Fall of Saigon' 1975-04-30"}] },
 { ad:"Bojonegoro", tur:"sehir", lat:-7.15, lon:111.88, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1292-01-01",d:"singhasari"},{f:"1292-01-01",t:"1527-01-01",d:"majapahit"},{f:"1527-01-01",t:"1587-01-01",d:"demak"},{f:"1587-01-01",t:"1743-11-11",d:"mataram-sultanligi"},{f:"1743-11-11",t:"1811-08-18",d:"hollanda-dogu-hint"},{f:"1811-08-18",t:"1816-08-19",d:"ingiltere"},{f:"1816-08-19",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Puerto Princesa (Palawan)", tur:"liman", lat:9.74, lon:118.74, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1622-01-01",d:"filipin-racaliklari"},{f:"1622-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"}] },
+  s:[{f:"1281-01-01",t:"1622-01-01",d:"filipin-racaliklari"},{f:"1622-01-01",t:"1898-08-13",d:"ispanya"},{f:"1898-08-13",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 { ad:"Rote", tur:"liman", lat:-10.71, lon:123.13, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1653-01-01",d:"timor-beylikleri"},{f:"1653-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1653-01-01",d:"timor-beylikleri"},{f:"1653-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 // ---------- KİLİT AÇILDI — bekleyen 7 nokta + Kutai (renk geldi) ----------
 { ad:"Jambi", tur:"liman", lat:-1.61, lon:103.61, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1615-01-01",d:"cohor-sultanligi"},{f:"1615-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1615-01-01",d:"cohor-sultanligi"},{f:"1615-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Siak Sri Indrapura", tur:"liman", lat:0.82, lon:102.03, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1723-01-01",d:"cohor-sultanligi"},{f:"1723-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1723-01-01",d:"cohor-sultanligi"},{f:"1723-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Medan (Deli)", tur:"liman", lat:3.595, lon:98.672, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1632-01-01",d:"cohor-sultanligi"},{f:"1632-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1632-01-01",d:"cohor-sultanligi"},{f:"1632-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Rengat (Indragiri)", tur:"sehir", lat:-0.35, lon:102.55, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1590-01-01",d:"cohor-sultanligi"},{f:"1590-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1590-01-01",d:"cohor-sultanligi"},{f:"1590-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Pontianak", tur:"liman", lat:-0.02, lon:109.33, g:1, k:2,kd:[{f:"1772-01-01",t:"1855-01-01",k:1,m:"Pontianak"}],
   kur:"1772-01-01",
-  s:[{f:"1772-01-01",t:"1855-01-01",d:"pontianak"},{f:"1855-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1772-01-01",t:"1855-01-01",d:"pontianak"},{f:"1855-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Tenggarong (Kutai)", tur:"sehir", lat:0.40, lon:117.01, g:0, k:1,kd:[{f:"1575-01-01",t:"1908-01-01",k:1,m:"Tenggarong (Kutai)"}],
   kur:"1575-01-01",
-  s:[{f:"1575-01-01",t:"1908-01-01",d:"kutai"},{f:"1908-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1575-01-01",t:"1908-01-01",d:"kutai"},{f:"1908-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Watampone (Bone)", tur:"sehir", lat:-4.54, lon:120.33, g:1, k:3,
   kur:"1330-01-01",
-  s:[{f:"1330-01-01",t:"1905-08-06",d:"bugis-kralliklari"},{f:"1905-08-06",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1330-01-01",t:"1905-08-06",d:"bugis-kralliklari"},{f:"1905-08-06",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Sengkang (Wajo)", tur:"sehir", lat:-4.13, lon:120.02, g:0, k:3,
   kur:"1330-01-01",
-  s:[{f:"1330-01-01",t:"1905-08-06",d:"bugis-kralliklari"},{f:"1905-08-06",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1330-01-01",t:"1905-08-06",d:"bugis-kralliklari"},{f:"1905-08-06",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 
 ];
 
@@ -5000,27 +4999,27 @@ window.YERLESIMLER_KALITE4 = [
   // Sasani dönemine (MS 337) kadar giden yerleşim, Azerbaycan Atabegleri
   // sikkeleriyle doğrulanmış — komşu Erdebil/Sarâb ile AYNI tam zincir.
   // kaynak: standart akademik (Encyclopaedia Iranica/Wikipedia, TDV müstakil maddesi yok)
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu"},{f:"1408-04-13",t:"1468-04-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu"},{f:"1408-04-13",t:"1468-04-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}] },
 
 { ad:"Mahabad (Sâvücbulak)",v:[{f:"1585-09-25",t:"1603-10-21",kaynak:"Mukrî beyliği Osmanlı tâbiliği — Iranica MOKRI (Oberling): bağlılık Osmanlıların Azerbaycan'ı alışına ve Şah Abbas'ın 1603'te geri alışına bağlı · gün komşudan: Tebriz · TDV tebriz (25 Eylül 1585 · 21 Ekim 1603) · Emre kararı 13 Eyl 2026 karar 5 (tâbi, künye yok)"}], d:[{f:"1725-07-28",t:"1730-08-12",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.119 (TD 909 Sovukbulak) · TDV tebriz · Özcoşar-Açar 2024 · gün komşudan: Merâga · Emre 17 Eyl: Kürt beylikleri d:"}], tur:"sehir", lat:36.77, lon:45.72, g:0, k:3,
   kur:"1501-07-01",
   // kaynak: standart akademik — "ilk kez 16. yy'da (Safevî dönemi)
   // kaydediliyor, 17. yy'da Mükrî beyliğinin merkezi oldu" (Budak Sultan
   // Mükrî). TDV müstakil maddesi yok (`mehabad`/`savucbulak` ölü).
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}] },
 
 { ad:"Bâne",d:[{f:"1723-11-10",t:"1732-01-10",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) dn.88 (TD 1066 Pâne livası) · gün komşudan: Senendec"}], tur:"sehir", lat:35.99, lon:45.88, g:0, k:3,
   kur:"1501-07-01",
   // kaynak: standart akademik — Erdelan/Baban/Mükriyân Kürt beyliklerinden
   // birinin toprağı, yerel Ehtiyârüddin ailesi Safevî döneminde "sultan"
   // unvanıyla anılıyor. TDV müstakil maddesi yok.
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}] },
 
 { ad:"Serdeşt (Sardasht)", tur:"sehir", lat:36.16, lon:45.48, g:0, k:3,
   kur:"1501-07-01",
   // kaynak: standart akademik — Bâne ile aynı Kürt beylik kuşağı
   // (Mükriyân), Safevî-Osmanlı sınır bölgesi. TDV müstakil maddesi yok.
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}] },
 
 { ad:"Şerur (Sharur)",d:[{f:"1586-01-01",t:"1603-10-21",kaynak:"BOA TD 633 (Kasım 1590) 'Şerür' kazası — Bilgili 2016 · gün komşudan: Nahçıvan — Emre kararı 14 Eylül 2026 (bölge birlikte; Nahçıvan 1586 Bilge, Vakanüvis 2) · bitiş Nahçıvan ile aynı (TDV nahcivan: 1012/1603 Şah Abbas geri aldı)"},{f:"1724-10-03",t:"1735-10-03",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (TD 901 Şerür nahiyesi) · gün komşudan: Revan"}], tur:"sehir", lat:39.55, lon:44.95, g:0, k:3,
   // kaynak: standart akademik — "Nahçıvan'ın en eski ve en büyük
@@ -5029,7 +5028,7 @@ window.YERLESIMLER_KALITE4 = [
   // yy Osmanlı-Safevî savaşlarında sık sık el değiştirdi. TDV müstakil
   // maddesi yok. Komşu Nahçıvan ile AYNI zincir (aynı hanlık/idari birim,
   // 1828 Türkmençay Antlaşması'yla Rusya'ya geçiyor).
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu"},{f:"1408-04-13",t:"1468-04-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu"},{f:"1408-04-13",t:"1468-04-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-10-18",d:"sovyet-rusya"},{f:"1991-10-18",t:"2000-12-31",d:"azerbaycan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];
 
@@ -5061,15 +5060,15 @@ window.YERLESIMLER_SIBIRYA = [
 // notuyla). Mükerrer isim olurdu, sessizce çıkarıldı (koordinatör onayı: ①).
 { ad:"Ket Ostrogu (Ketsk)", tur:"kale", lat:58.70, lon:81.40, g:0, k:4,
   kur:"1602-01-01",
-  s:[{f:"1602-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1602-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kazak bozkırı (Turgay)", tur:"bolge", lat:49.60, lon:63.50, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Kazak bozkırı (Sarısu)", tur:"bolge", lat:47.00, lon:67.00, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ---------- ② ORTA SİBİRYA — Buryat (kuzey-yuan) · Yakut/Koryak (veri-yok) ----------
 { ad:"Buryat toprakları (Selenge havzası)", tur:"bolge", lat:53.00, lon:110.00, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1631-01-01",d:"kuzey-yuan"},{f:"1631-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1631-01-01",d:"kuzey-yuan"},{f:"1631-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Yakut toprakları (Orta Lena)", tur:"bolge", lat:65.00, lon:123.00, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"kabile — TDV yakutlar maddesi 1620 öncesini AÇIKÇA tartışıyor: Yakutlar 'hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu', her uruğun 'kendi beyleri (toyon)' var, hepsinin başındaki idareciye 'ulu toyon' deniyor, en kuvvetli uruğ Namaslar. Kuzeye göç XIII. yüzyılda Moğol baskısıyla yoğunlaştı; Ruslar 25 Eylül 1632'de Lena Kalesi'ni kurdu. Kaynak SUSMUYOR ⇒ önceki 'veri-yok' hükmü ÇÜRÜDÜ (VERİ ZAMAN 2 ve ek31 oturumu BAĞIMSIZ olarak aynı sonuca vardı).", kaynak:"TDV yakutlar — islamansiklopedisi.org.tr/yakutlar, HTTP 200, gövde okundu; `yakut` slug 302 ÖLÜ",
   s:[] },
@@ -5080,7 +5079,7 @@ window.YERLESIMLER_SIBIRYA = [
 // ---------- ③ UZAK DOĞU — Kamçatka (fetih) · Çukotka (devletsiz) ----------
 { ad:"Petropavlovsk-Kamçatskiy", tur:"liman", lat:53.0113, lon:158.6514, g:1, k:3,
   kur:"1740-01-01",
-  s:[{f:"1740-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1740-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Anadır (Anadyrsk)", tur:"kale", lat:64.75, lon:177.48, g:0, k:0,
   kur:"1649-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"devletsiz — kale 1649'da kuruldu ama Çukçiler hiç boyun eğmedi, haraç hiç ödenmedi (kaynağın kendi ifadesiyle \"salt biçimsel bile değil\"), 1764'te kale TERK edildi; resmî ilhak ancak Sovyet döneminde (1923 ufkunun dışında)",
   s:[] },
@@ -5114,68 +5113,68 @@ window.YERLESIMLER_EMILME = [
 
 // ---------- ① DOĞU AFRİKA — svahili kıyısı, `somali`nin 628.526 km²'si ----------
 { ad:"Kilwa Kisiwani (Kilve)", tur:"sehir", lat:-8.9795, lon:39.4862, g:2, k:1,
-  s:[{f:"1281-01-01",t:"1505-01-01",d:"svahili-sehirleri"},{f:"1505-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1505-01-01",d:"svahili-sehirleri"},{f:"1505-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"},{f:"1923-10-29",t:"1961-12-09",d:"ingiliz-tanganika-mandasi",kaynak:"Britannica Tanzania/Tanganyika"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica Tanganyika"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica Tanzania: birlesme 26 Nisan 1964"}] },
 { ad:"Zanzibar (Zengibar)", tur:"sehir", lat:-6.1659, lon:39.1917, g:2, k:1,
-  s:[{f:"1281-01-01",t:"1503-01-01",d:"svahili-sehirleri"},{f:"1503-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1503-01-01",d:"svahili-sehirleri"},{f:"1503-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"},{f:"1923-10-29",t:"1961-12-09",d:"ingiliz-tanganika-mandasi",kaynak:"Britannica Tanzania/Tanganyika"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica Tanganyika"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica Tanzania: birlesme 26 Nisan 1964"}] },
 { ad:"Mombasa", tur:"liman", lat:-4.0402, lon:39.6794, g:1, k:1,
-  s:[{f:"1281-01-01",t:"1593-01-01",d:"svahili-sehirleri"},{f:"1593-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1593-01-01",d:"svahili-sehirleri"},{f:"1593-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1963-12-12",d:"umman-zengibar"},{f:"1963-12-12",t:"2000-12-31",d:"kenya",kaynak:"Britannica Kenya: 12 Aralik 1963"}] },
 { ad:"Malindi", tur:"liman", lat:-3.2192, lon:40.1169, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"svahili-sehirleri"},{f:"1500-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"svahili-sehirleri"},{f:"1500-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1963-12-12",d:"umman-zengibar"},{f:"1963-12-12",t:"2000-12-31",d:"kenya",kaynak:"Britannica Kenya: 12 Aralik 1963"}] },
 { ad:"Sofala", tur:"liman", lat:-20.1667, lon:34.7500, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1505-01-01",d:"svahili-sehirleri"},{f:"1505-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1281-01-01",t:"1505-01-01",d:"svahili-sehirleri"},{f:"1505-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}] },
 { ad:"Mozambik Adası", tur:"liman", lat:-15.0601, lon:40.7016, g:2, k:3,
   kur:"1507-01-01",
-  s:[{f:"1507-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1507-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}] },
 { ad:"Angoche", tur:"liman", lat:-16.2325, lon:39.9086, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1600-01-01",d:"svahili-sehirleri"},{f:"1600-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1281-01-01",t:"1600-01-01",d:"svahili-sehirleri"},{f:"1600-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}] },
 { ad:"Pate", tur:"liman", lat:-2.1010, lon:41.0500, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1600-01-01",d:"svahili-sehirleri"},{f:"1600-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1600-01-01",d:"svahili-sehirleri"},{f:"1600-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1963-12-12",d:"umman-zengibar"},{f:"1963-12-12",t:"2000-12-31",d:"kenya",kaynak:"Britannica Kenya: 12 Aralik 1963"}] },
 { ad:"Lamu", tur:"liman", lat:-2.2613, lon:40.9129, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1600-01-01",d:"svahili-sehirleri"},{f:"1600-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1600-01-01",d:"svahili-sehirleri"},{f:"1600-01-01",t:"1698-12-13",d:"portekiz"},{f:"1698-12-13",t:"1963-12-12",d:"umman-zengibar"},{f:"1963-12-12",t:"2000-12-31",d:"kenya",kaynak:"Britannica Kenya: 12 Aralik 1963"}] },
 { ad:"Quelimane", tur:"liman", lat:-17.8786, lon:36.8883, g:0, k:3,
   kur:"1544-01-01",
-  s:[{f:"1544-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1544-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}] },
 { ad:"Bagamoyo", tur:"liman", lat:-6.4431, lon:38.9006, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"},{f:"1923-10-29",t:"1961-12-09",d:"ingiliz-tanganika-mandasi",kaynak:"Britannica Tanzania/Tanganyika"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica Tanganyika"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica Tanzania: birlesme 26 Nisan 1964"}] },
 { ad:"Tanga", tur:"liman", lat:-5.0689, lon:39.0988, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"}] },
+  s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},{f:"1698-12-13",t:"1923-10-29",d:"umman-zengibar"},{f:"1923-10-29",t:"1961-12-09",d:"ingiliz-tanganika-mandasi",kaynak:"Britannica Tanzania/Tanganyika"},{f:"1961-12-09",t:"1964-04-26",d:"tanganika",kaynak:"Britannica Tanganyika"},{f:"1964-04-26",t:"2000-12-31",d:"tanzanya",kaynak:"Britannica Tanzania: birlesme 26 Nisan 1964"}] },
 
 // ---------- ② KONGO HAVZASI — `ingiltere` 1900'ün 3.150.758 km²'si ----------
 // Mevcut kimliklerle yazılabilenler. Loango/Luba/Kuba künye önerisi
 // koordinatörde — onaylanınca bu bölüme eklenecek.
 { ad:"Mbanza-Kongo (São Salvador)", tur:"sehir", lat:-6.27, lon:14.24, g:2, k:1,
   kur:"1390-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"kongo-kralligi künyesi 1390'da başlıyor; öncesinde bu noktada merkezi bir devlet kaydı yok",
-  s:[{f:"1390-01-01",t:"1914-01-01",d:"kongo-kralligi"},{f:"1914-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1390-01-01",t:"1914-01-01",d:"kongo-kralligi"},{f:"1914-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}] },
 { ad:"Soyo", tur:"liman", lat:-6.135, lon:12.369, g:1, k:0,
   kur:"1390-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"kongo-kralligi künyesi 1390'da başlıyor; öncesinde bu noktada merkezi bir devlet kaydı yok",
-  s:[{f:"1390-01-01",t:"1885-01-01",d:"kongo-kralligi"},{f:"1885-01-01",t:"1923-10-29",d:"belcika"}] },
+  s:[{f:"1390-01-01",t:"1885-01-01",d:"kongo-kralligi"},{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Britannica 'Angola'"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica 'Angola' 1975-11-11"}] },
 { ad:"Matadi", tur:"liman", lat:-5.818, lon:13.460, g:0, k:0,
   kur:"1390-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"kongo-kralligi künyesi 1390'da başlıyor; öncesinde bu noktada merkezi bir devlet kaydı yok",
-  s:[{f:"1390-01-01",t:"1885-01-01",d:"kongo-kralligi"},{f:"1885-01-01",t:"1923-10-29",d:"belcika",enklav:true}] },
+  s:[{f:"1390-01-01",t:"1885-01-01",d:"kongo-kralligi"},{f:"1885-01-01",t:"1923-10-29",d:"belcika",enklav:true},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}] },
 { ad:"Kabasa", tur:"sehir", lat:-9.30, lon:15.15, g:1, k:1,
   kur:"1500-01-01", kasitli_bosluk:true,bos:"veri-yok", neden:"ndongo künyesi 1500'de başlıyor (ÖLÇÜLDÜ: 1500/1518 muhtemelen Portekiz'in ilk BELGELENMİŞ teması, krallığın kendisi muhtemelen daha erken Kongo'ya bağlı bir eyalet olarak vardı — net bir alternatif tarih kaynaklarda YOK, künyeye dokunmadım)",
-  s:[{f:"1500-01-01",t:"1671-01-01",d:"ndongo"},{f:"1671-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1500-01-01",t:"1671-01-01",d:"ndongo"},{f:"1671-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}] },
 { ad:"Luanda", tur:"liman", lat:-8.84, lon:13.23, g:2, k:3,
   kur:"1575-01-01",
-  s:[{f:"1575-01-01",t:"1923-10-29",d:"portekiz"}] },
+  s:[{f:"1575-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}] },
 { ad:"Musumba", tur:"sehir", lat:-8.30, lon:22.42, g:1, k:1,
   kur:"1665-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"lunda-imparatorlugu künyesi 1665'te başlıyor; öncesinde bu noktada merkezi bir devlet kaydı yok",
-  s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},{f:"1887-01-01",t:"1923-10-29",d:"belcika"}] },
+  s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},{f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}] },
 { ad:"Boma", tur:"liman", lat:-5.85, lon:13.05, g:0, k:0,
   kur:"1885-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"kolonyal dönem öncesi bu spesifik nehir ağzı noktasında merkezi bir devlet kaydı yok",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika",enklav:true}] },
+  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika",enklav:true},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}] },
 { ad:"Kisangani (Stanleyville)", tur:"sehir", lat:0.515, lon:25.191, g:0, k:0,
   kur:"1885-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"kolonyal dönem öncesi bu spesifik iç-nehir noktasında merkezi bir devlet kaydı yok",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"}] },
+  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}] },
 { ad:"Loango (Buali)", tur:"sehir", lat:-4.6546, lon:11.8050, g:1, k:1,
   kur:"1550-01-01",
-  s:[{f:"1550-01-01",t:"1883-01-01",d:"loango"},{f:"1883-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+  s:[{f:"1550-01-01",t:"1883-01-01",d:"loango"},{f:"1883-01-01",t:"1960-08-15",d:"fransa-cumhuriyet"},{f:"1960-08-15",t:"2000-12-31",d:"kongo-brazzaville",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 { ad:"Mushenge (Kuba)", tur:"sehir", lat:-5.42, lon:20.85, g:1, k:3,
   kur:"1625-01-01",
-  s:[{f:"1625-01-01",t:"1900-01-01",d:"kuba"},{f:"1900-01-01",t:"1923-10-29",d:"belcika"}] },
+  s:[{f:"1625-01-01",t:"1900-01-01",d:"kuba"},{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}] },
 { ad:"Kabongo (Luba)", tur:"sehir", lat:-6.5, lon:25.5, g:1, k:3,
   kur:"1585-01-01",
-  s:[{f:"1585-01-01",t:"1889-01-01",d:"luba"},{f:"1889-01-01",t:"1923-10-29",d:"belcika"}] },
+  s:[{f:"1585-01-01",t:"1889-01-01",d:"luba"},{f:"1889-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}] },
 
 // ---------- ③ YENİ GİNE — `banda-adalari`nin 573.188 km²'si ----------
 // okyanusya bölgesinde Yeni Gine'ye özgü hiç künye yoktu; ihtiyaç YOKTU —
@@ -5197,19 +5196,19 @@ window.YERLESIMLER_EMILME = [
 // değil, 1923'e kadar gerçekten böyleydi.
 { ad:"Jayapura (Hollandia)", tur:"liman", lat:-2.53, lon:140.72, g:1, k:3,
   kur:"1898-01-01",
-  s:[{f:"1898-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1898-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Manokwari", tur:"liman", lat:-0.86, lon:134.06, g:0, k:3,
   kur:"1898-01-01",
-  s:[{f:"1898-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
+  s:[{f:"1898-01-01",t:"1949-12-27",d:"hollanda-dogu-hint"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}] },
 { ad:"Port Moresby", tur:"liman", lat:-9.44, lon:147.18, g:1, k:0,
   kur:"1884-11-06", kasitli_bosluk:true,bos:"devletsiz", neden:"yerli Motu köyleri çok daha önce vardı (balıkçı/çömlekçi köyleri, Hiri ticaret ağının bir ucu) ama merkezi/kayıtlı bir DEVLET hiç olmadı; 1884'te İngiliz himayesi ilan edilene kadar bu nokta hiçbir egemenliğe bağlanmıyor — boşluk veri eksikliği değil, gerçek siyasi boşluk",
-  s:[{f:"1884-11-06",t:"1906-09-01",d:"ingiltere"},{f:"1906-09-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1884-11-06",t:"1906-09-01",d:"ingiltere"},{f:"1906-09-01",t:"1949-07-01",d:"avustralya"},{f:"1949-07-01",t:"1975-09-16",d:"papua-yeni-gine-avustralya",kaynak:"https://history.state.gov/countries/papua-new-guinea"},{f:"1975-09-16",t:"2000-12-31",d:"papua-yeni-gine",kaynak:"https://history.state.gov/countries/papua-new-guinea"}] },
 { ad:"Madang", tur:"liman", lat:-5.22, lon:145.79, g:0, k:0,
   kur:"1884-11-03", kasitli_bosluk:true,bos:"devletsiz", neden:"1884 Alman ilhakından önce bu kıyı şeridinde yerli köyler dışında merkezi bir devlet yoktu — boşluk veri eksikliği değil, gerçek siyasi boşluk",
-  s:[{f:"1884-11-03",t:"1914-09-17",d:"almanya"},{f:"1914-09-17",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1884-11-03",t:"1914-09-17",d:"almanya"},{f:"1914-09-17",t:"1949-07-01",d:"avustralya"},{f:"1949-07-01",t:"1975-09-16",d:"papua-yeni-gine-avustralya",kaynak:"https://history.state.gov/countries/papua-new-guinea"},{f:"1975-09-16",t:"2000-12-31",d:"papua-yeni-gine",kaynak:"https://history.state.gov/countries/papua-new-guinea"}] },
 { ad:"Finschhafen", tur:"liman", lat:-6.6013, lon:147.8406, g:0, k:0,
   kur:"1884-11-03", kasitli_bosluk:true,bos:"devletsiz", neden:"1884 Alman ilhakından önce bu kıyı şeridinde yerli köyler dışında merkezi bir devlet yoktu — boşluk veri eksikliği değil, gerçek siyasi boşluk",
-  s:[{f:"1884-11-03",t:"1914-09-17",d:"almanya"},{f:"1914-09-17",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1884-11-03",t:"1914-09-17",d:"almanya"},{f:"1914-09-17",t:"1949-07-01",d:"avustralya"},{f:"1949-07-01",t:"1975-09-16",d:"papua-yeni-gine-avustralya",kaynak:"https://history.state.gov/countries/papua-new-guinea"},{f:"1975-09-16",t:"2000-12-31",d:"papua-yeni-gine",kaynak:"https://history.state.gov/countries/papua-new-guinea"}] },
 // İÇ KESİM — DÖRT dolgu noktası (Rub'ul Hâlî/Sahra kalıbı: boş `d:[]`,
 // `kasitli_bosluk` alanı YOK çünkü bu alan `kur:`e eşlenir ve buradaki
 // noktalar zaten hep "vardı", yalnız hiç merkezi devlete bağlanmadı).
@@ -5349,7 +5348,7 @@ window.YERLESIMLER_EK23 = [
 // ilhakında (1345) Edremit ve Çanakkale Osmanlı olurken arada kalıyordu.
 // Tek başına ölçüldü: 1350-1440 arası **851 km²** (ceneviz→OSM 489 · bizans→OSM 362).
 { ad:"Behramkale (Assos)", kd:[{f:"1281-01-01",t:"1345-01-01",k:0,m:null},{f:"1345-01-01",t:"1923-10-29",k:4,m:"Bursa"}], tur:"kale", lat:39.4897, lon:26.3376, g:0, k:4, m:"Bursa",
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
@@ -5360,7 +5359,7 @@ window.YERLESIMLER_EK23 = [
 // Tek başına ölçüldü: 1400-1440 **+216 km²** Osmanlı · 1350-1355 **−97 km²**
 // (iki yönlü — Aydos/Samandıra'nın kuzeye taşan payı geri alınıyor).
 { ad:"Beykoz", kd:[{f:"1281-01-01",t:"1395-08-01",k:0,m:null},{f:"1453-05-29",t:"1923-10-29",k:4,m:"İstanbul"}], tur:"sehir", lat:41.1275, lon:29.0925, g:0, k:4, m:"İstanbul",
-  s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1395-08-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
@@ -5374,7 +5373,7 @@ window.YERLESIMLER_EK23 = [
 // ⚠️ Koordinat 0,38 km denizdeydi; `denetle.konum_denetimi`in SINANMIŞ önerisi
 //    uygulandı (40.6103,27.1147 → 40.6142,27.1146).
 { ad:"Şarköy", tur:"liman", lat:40.6142, lon:27.1146, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1357-01-01",t:"1402-07-28",y:"kusatma"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
@@ -5388,7 +5387,7 @@ window.YERLESIMLER_EK23 = [
 // ⚠️ Koordinat 1,77 km denizdeydi; SINANMIŞ öneri uygulandı
 //    (40.63,26.70 → 40.6456,26.6950).
 { ad:"Saroz kuzey kıyısı", tur:"bolge", lat:40.6456, lon:26.6950, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1357-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
@@ -5442,54 +5441,54 @@ window.YERLESIMLER_EK24 = [
 
 // ───────── MERİÇ HATTI · TÜRKİYE YAKASI (doğu) ─────────
 { ad:"Uzunköprü", tur:"sehir", lat:41.267, lon:26.688, g:0, k:3, m:"Edirne", kur:"1443-01-01", devir_beyani:"TDV murad-ii: Ergene Köprüsü 1443’te tamamlanmıştır; bir ucunda mescid, imaret, hamam ve pazarlar yaptırıldı — kasaba köprüyle doğdu, 1281-1443 dönemleri BÖLGE vekilidir · KORIDOR-0081 H-0008",
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1371-09-26",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 { ad:"Havsa", tur:"kasaba", lat:41.552, lon:26.821, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1361-05-05",t:"1402-07-28",kaynak:"gün komşudan: Edirne · TDV murad-i 5 Mayıs 1361 — aynı teslim, 15-25 km"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 { ad:"Meriç (İpsala kuzeyi)", tur:"kasaba", lat:41.191, lon:26.421, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1361-01-01",t:"1402-07-28",kaynak:"gün komşudan: Dimetoka · TDV dimetoka — Orta Meriç bölgesinin tamamı"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 // ───────── MERİÇ HATTI · YUNANİSTAN YAKASI (batı) ─────────
 { ad:"Orestiada (Kumçiftliği)", tur:"sehir", lat:41.503, lon:26.531, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1361-05-05",t:"1402-07-28",kaynak:"gün komşudan: Edirne · TDV murad-i 5 Mayıs 1361 — aynı teslim, 15-25 km"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 { ad:"Sofulu (Soufli)", tur:"kasaba", lat:41.193, lon:26.298, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1361-01-01",t:"1402-07-28",kaynak:"gün komşudan: Dimetoka · TDV dimetoka — Orta Meriç bölgesinin tamamı"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 { ad:"Dedeağaç (Alexandroupoli)", tur:"liman", lat:40.8490, lon:25.8740, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1371-09-26",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 // ───────── MUTLUDERE HATTI · TÜRKİYE YAKASI (güney) ─────────
 { ad:"Lalapaşa", tur:"kasaba", lat:41.836, lon:26.741, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1361-05-05",t:"1402-07-28",kaynak:"gün komşudan: Edirne · TDV murad-i 5 Mayıs 1361 — aynı teslim, 15-25 km"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 { ad:"Kofçaz", tur:"kasaba", lat:41.936, lon:27.176, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i 1369 Istıranca seferi — aynı sefer"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 { ad:"Dereköy (Kırklareli)", tur:"kasaba", lat:41.943, lon:27.401, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i 1369 Istıranca seferi — aynı sefer"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 { ad:"Demirköy", tur:"kasaba", lat:41.822, lon:27.762, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i 1369 Istıranca seferi — aynı sefer"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 { ad:"İğneada",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"liman", lat:41.8890, lon:28.0258, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize — kıyıya iç Istıranca yolundan önce varılamaz ⇒ 1369 ALT SINIRDIR, fetih yılı değil; kıyı üçlüsünün kendi fethi: bulunamadı (TDV arama 6 Eki 2026: Ahtapolu/Ahtabolu/Ahtebolu/İğneada/İneada/Rezve/Agathopolis 0 isabet) · eski 1361 atlas-içi idi (kendi dayanağı Kırklareli/Dereköy/Vize = 1369) · P84-TRAKYA-MACARISTAN-1006"},{f:"1424-02-22",t:"1920-04-23"}], v:[] },
 
 // ───────── MUTLUDERE HATTI · BULGARİSTAN YAKASI (kuzey) ─────────
 { ad:"Mustafapaşa (Svilengrad)", tur:"kasaba", lat:41.766, lon:26.207, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  s:[{f:"1281-01-01",t:"1361-05-05",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1946-09-15",d:"bulgaristan-kralligi"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   d:[{f:"1361-05-05",t:"1402-07-28",kaynak:"TDV cisr-i-mustafa-pasa--kasaba: 'Kasabanın bulunduğu bölge, 1362 yılında Edirne’nin fethi sırasında Osmanlı idaresine girmiş olmalıdır.' — YIL, ve 'olmalıdır' maddenin kendi çekincesi · GÜN KOMŞUDAN: Edirne · TDV murad-i (İnalcık): 'Edirne halkı şehri teslim etti (28 Cemâziyelâhir 762 / 5 Mayıs 1361)' — aynı olay (madde bölgeyi Edirne'nin fethine bağlıyor), 30 km · ⚠️ TDV KENDİYLE ÇELİŞİYOR: cisr-i-mustafa-pasa Edirne fethini 1362'ye, murad-i 1361'e koyuyor; atlasın Edirne kaydı murad-i'yi izliyor, ona uyuldu, taraf seçilmedi · nokta BÖLGE vekilidir: kasaba sonradan kuruldu (aynı madde: 'Buranın Cisr-i Mustafa Paşa adıyla bir kasaba haline gelmesi ise muhtemelen III. Murad devrinden (1574-1595) itibaren olmuştur.') · eski f:1361-01-01 veri-içi değerdi, kaynak yoktu (LUGOS-KLAGENFURT-1006)"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
 // 🔴 13 Ağustos 2026 · VERİ FETRET — 1371-01-01 → 1371-09-26 (Çirmen Savaşı)
@@ -5521,19 +5520,19 @@ window.YERLESIMLER_EK24 = [
 //    "1368 KULLANILMADI: maddesi yok… kronolojide karşılığı olan güne çekildi,
 //    uydurulmadı". kaynak: bulunamadı — TDV bu taneciği kapsamıyor
 { ad:"Elhova (Elhovo)", kd:[{f:"1281-01-01",t:"1369-01-01",k:0,m:null},{f:"1369-01-01",t:"1923-10-29",k:3,m:"Edirne"}], tur:"kasaba", lat:42.170, lon:26.573, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1946-09-15",d:"bulgaristan-kralligi"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize · Timurtaş Kızılcaağaç Yenicesi — YIL 1369, gün yok (§4)"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 { ad:"Malko Tırnova", tur:"kasaba", lat:41.983, lon:27.525, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1946-09-15",d:"bulgaristan-kralligi"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i 1369 Istıranca seferi — aynı sefer"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
 { ad:"Ahtapolu (Ahtopol)",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"liman", lat:42.099, lon:27.937, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-09-29",t:"1946-09-15",d:"bulgaristan-kralligi"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize — kıyıya iç Istıranca yolundan önce varılamaz ⇒ 1369 ALT SINIRDIR, fetih yılı değil; kıyı üçlüsünün kendi fethi: bulunamadı (TDV arama 6 Eki 2026: Ahtapolu/Ahtabolu/Ahtebolu/İğneada/İneada/Rezve/Agathopolis 0 isabet) · eski 1361 atlas-içi idi (kendi dayanağı Kırklareli/Dereköy/Vize = 1369) · P84-TRAKYA-MACARISTAN-1006"},{f:"1424-02-22",t:"1913-09-29"}], v:[] },
 
 { ad:"Rezve (Rezovo)",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"koy", lat:41.9935, lon:28.0192, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-02-01",d:"suleyman-celebi"},{f:"1403-02-01",t:"1424-02-22",d:"bizans",kaynak:"TDV fetret-devri: Gelibolu Antlaşması (Şubat 1403 — AY) 'Misivri’ye kadar Karadeniz sahillerini … Bizanslılar’a terkediyordu' · TDV suleyman-celebi-emir aynı hüküm · TDV murad-ii: 22 Şubat 1424 antlaşmasıyla 'Silivri ve Terkos hisarları hariç … Karadeniz kıyılarında 1402’den sonra aldığı yerleri geri vermeyi kabul etti' · Musa 1411-13 ara dönemi kasaba düzeyinde ÖLÇÜLEMEDİ · KORIDOR-0081"},{f:"1913-09-29",t:"1946-09-15",d:"bulgaristan-kralligi"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"gün komşudan: Kırklareli · TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize — kıyıya iç Istıranca yolundan önce varılamaz ⇒ 1369 ALT SINIRDIR, fetih yılı değil; kıyı üçlüsünün kendi fethi: bulunamadı (TDV arama 6 Eki 2026: Ahtapolu/Ahtabolu/Ahtebolu/İğneada/İneada/Rezve/Agathopolis 0 isabet) · eski 1361 atlas-içi idi (kendi dayanağı Kırklareli/Dereköy/Vize = 1369) · P84-TRAKYA-MACARISTAN-1006"},{f:"1424-02-22",t:"1913-09-29"}], v:[] },
 
 ];
@@ -5574,27 +5573,27 @@ window.YERLESIMLER_EK25 = [
 
 // ───────── TÜRKİYE YAKASI (kuzey) ─────────
 { ad:"Kilis",isg:[{f:"1918-12-06",t:"1919-10-29",d:"ingiltere",kaynak:"TDV `kilis` — kaynaklı"},{f:"1919-10-29",t:"1921-12-23",d:"fransa-cumhuriyet",kaynak:"TDV `kilis` — kaynaklı"}],kaynak:"TDV `kilis` (gövdesi okundu): Halep eyaletine bağlı livâ merkezi; Mısır dönemi cümlesi YOK. Halep'in düşüşü 15 Temmuz 1832, Belen 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`). Bitiş külliyatın Halep günü.", tur:"kasaba", lat:36.716, lon:37.115, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Suruç",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}], tur:"kasaba", lat:36.976, lon:38.427, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Akçakale",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}], tur:"kasaba", lat:36.710, lon:38.947, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk",kaynak:"bulunamadı — Akçakale için MÜSTAKİL kaynak YOK (TDV'de müstakil madde yok, 302). Dönem a71d6c86 (11 Ağu 2026, koordinatör) ile GOOGLE HARİTALAR GÖRSELİNDEN yazıldı; dosya başlığı 'TEK TEK DOĞRULANMADI' diyor ve görsel akademik kaynak DEĞİLDİR (§4 kırmızı çizgi). Bölge hükmü: TDV `harran` Aynicâlût (1260) sonrası 'daha çok Memlükler, kısa aralıklarla İlhanlılar' der ama YIL VERMEZ; Iranica `harran` Memlük dönüşünü '8./14. yy başı' verir ⇒ İKİ KAYNAK ÇELİŞİR, §4 gereği TDV esas. 1281-01-01 bir ÖLÇÜM DEĞİL, UFUK penceresinin başlangıç işaretidir (D210). ⚠️ Jadlā' bu kayıttan GÜN devraldı; §4'ün birinci şartı (komşunun günü kendi kaynağına dayanacak) BURADAN DÜŞER — bkz. denetim/HUKUM-DEVRALMA-1004.md"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk",kaynak:"bulunamadı — Akçakale için MÜSTAKİL kaynak YOK (TDV'de müstakil madde yok, 302). Dönem a71d6c86 (11 Ağu 2026, koordinatör) ile GOOGLE HARİTALAR GÖRSELİNDEN yazıldı; dosya başlığı 'TEK TEK DOĞRULANMADI' diyor ve görsel akademik kaynak DEĞİLDİR (§4 kırmızı çizgi). Bölge hükmü: TDV `harran` Aynicâlût (1260) sonrası 'daha çok Memlükler, kısa aralıklarla İlhanlılar' der ama YIL VERMEZ; Iranica `harran` Memlük dönüşünü '8./14. yy başı' verir ⇒ İKİ KAYNAK ÇELİŞİR, §4 gereği TDV esas. 1281-01-01 bir ÖLÇÜM DEĞİL, UFUK penceresinin başlangıç işaretidir (D210). ⚠️ Jadlā' bu kayıttan GÜN devraldı; §4'ün birinci şartı (komşunun günü kendi kaynağına dayanacak) BURADAN DÜŞER — bkz. denetim/HUKUM-DEVRALMA-1004.md"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Ceylanpınar", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Diyarbakır"}],isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],neden:"Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ.",kaynak:"ankraj Mardin (75 km) — külliyattaki zincir", tur:"kasaba", lat:36.845, lon:40.043, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1516-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1516-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Nusaybin", kd:[{f:"1281-01-01",t:"1515-09-19",k:0,m:null},{f:"1515-09-19",t:"1923-10-29",k:3,m:"Diyarbakır"}],isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"TDV `nusaybin` — veriden devralındı — kaynaksız"}],not:"BİRLEŞİM (1.MURAT, hüküm M-2116): yer_yama_ok110.js'in artuklu/karakoyunlu erken katmanı + yer_yama_ok107.js'in 1515-01-01 → 1515-09-19 gün düzeltmesi. İkisi de TDV kaynaklı, farklı kısımlar için; ayrı ayrı uygulansalar biri ötekini yerdi.",kaynak:"nusaybin", tur:"kasaba", lat:37.077, lon:41.215, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1515-09-19",t:"1920-04-23"}], v:[] },
 
 { ad:"Silopi", kd:[{f:"1281-01-01",t:"1515-09-19",k:0,m:null},{f:"1515-09-19",t:"1923-10-29",k:3,m:"Diyarbakır"}],not:"BİRLEŞİM (1.MURAT, hüküm M-2116): ok110'un erken katmanı + ok107'nin gün düzeltmesi. ⚠️ TDV `silopi` slug'ı ÖLÜ (302); dayanak TDV `cizre` — Cizre ve çevresi aynı Doğu Anadolu harekâtında alındı, Diyarbekir eyaletine bağlandı.",kaynak:"cizre", tur:"kasaba", lat:37.246, lon:42.470, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"ingiltere"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"ingiltere"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1515-09-19",t:"1918-10-30"}], v:[] },
 
 // 🔴 UC IKIZ SEHIR CIKARILDI (3 km kurali, olculdu):
@@ -5609,23 +5608,23 @@ window.YERLESIMLER_EK25 = [
 //    Turkiye yakasi tutuldu; Suriye yakasi Halep/Cerablus/Munbic ile temsil.
 // ───────── SURİYE YAKASI (güney) · Fransız mandası ─────────
 { ad:"Azez (A'zâz)",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.586, lon:37.045, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1946-04-17",d:"suriye-lubnan-mandasi"},{f:"1946-04-17",t:"1958-02-22",d:"suriye-cumhuriyeti-1946",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"},{f:"1958-02-22",t:"1961-09-28",d:"birlesik-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon' (BAC 22 Subat 1958; Suriye ayrilisi 28 Eylul 1961)"},{f:"1961-09-28",t:"2000-12-31",d:"suriye-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Münbiç",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.528, lon:37.955, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1946-04-17",d:"suriye-lubnan-mandasi"},{f:"1946-04-17",t:"1958-02-22",d:"suriye-cumhuriyeti-1946",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"},{f:"1958-02-22",t:"1961-09-28",d:"birlesik-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon' (BAC 22 Subat 1958; Suriye ayrilisi 28 Eylul 1961)"},{f:"1961-09-28",t:"2000-12-31",d:"suriye-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Cerablus",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.825, lon:38.014, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1946-04-17",d:"suriye-lubnan-mandasi"},{f:"1946-04-17",t:"1958-02-22",d:"suriye-cumhuriyeti-1946",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"},{f:"1958-02-22",t:"1961-09-28",d:"birlesik-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon' (BAC 22 Subat 1958; Suriye ayrilisi 28 Eylul 1961)"},{f:"1961-09-28",t:"2000-12-31",d:"suriye-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Ayn el-Arab (Kobani)",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.891, lon:38.353, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1938-09-02",d:"suriye-lubnan-mandasi"},{f:"1938-09-02",t:"1939-06-23",d:"hatay-devleti",kaynak:"Britannica 'Hatay' (Hatay Meclisi'nin Turkiye'ye katilma karari)"},{f:"1939-06-23",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"Britannica 'Hatay'"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Malikiye (Derik)", kd:[{f:"1281-01-01",t:"1515-09-19",k:0,m:null},{f:"1515-09-19",t:"1923-10-29",k:3,m:"Diyarbakır"}],not:"BİRLEŞİM (1.MURAT, hüküm M-2116): ok110'un erken katmanı + ok107'nin gün düzeltmesi. ⚠️ TDV `derik` slug'ı ÖLÜ (302); dayanak TDV `nusaybin` — Mardin ovasının aynı kolu, aynı harekât. 1918 sonrası döneme dokunulmadı (ok107'nin kendi notu).",kaynak:"nusaybin", tur:"kasaba", lat:37.176, lon:42.145, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1946-04-17",d:"suriye-lubnan-mandasi"},{f:"1946-04-17",t:"1958-02-22",d:"suriye-cumhuriyeti-1946",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"},{f:"1958-02-22",t:"1961-09-28",d:"birlesik-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon' (BAC 22 Subat 1958; Suriye ayrilisi 28 Eylul 1961)"},{f:"1961-09-28",t:"2000-12-31",d:"suriye-arap-cumhuriyeti",kaynak:"Library of Congress Syria/Lebanon Country Studies; Britannica 'Syria', 'Lebanon'"}],
   d:[{f:"1515-09-19",t:"1918-10-30"}], v:[] },
 
 ];
@@ -5662,33 +5661,33 @@ window.YERLESIMLER_EK26 = [
 
 // ───────── GÜRCİSTAN HATTI ─────────
 { ad:"Şavşat", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.245, lon:42.360, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 { ad:"Posof", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.510, lon:42.720, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 { ad:"Hanak", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.230, lon:42.855, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 
 { ad:"Hulo (Acara)", kd:[{f:"1281-01-01",t:"1578-08-09",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.645, lon:42.310, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-04-09",d:"sovyet-rusya"},{f:"1991-04-09",t:"2000-12-31",d:"gurcistan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[{f:"1578-08-09",t:"1878-03-03"}], v:[] },
 
 // ───────── ERMENİSTAN HATTI · Arpaçay (Ahuryan) ─────────
 { ad:"Arpaçay (Akyaka)",neden:"akkoyunlu 1281-01-01'de açılıyordu — devletin kuruluşundan 59 yıl önce. Zincir bölgenin ankrajına açıldı; `d:` günlerine DOKUNULMADI.",kaynak:"ankraj Revan (67 km) — külliyattaki zincirin birebir aynısı; TDV `akkoyunlular` (kuruluş 1340, Elvend'in yenilgisi 1501)", tur:"kasaba", lat:40.845, lon:43.325, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-06-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-06-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1534-06-01",t:"1878-03-03",kesinlik:"ay",kaynak:"TDV irakeyn-seferi, BİREBİR: \"1533 yılı Aralık ayında Halep’e varan ve kışı burada geçiren İbrâhim Paşa daha önce kararlaştırıldığı üzere Bağdat’a yürümek istedi; fakat Mayıs 1534’te Diyarbekir’e gelerek buradan Ulama Han’ın tesiriyle ve Şah Tahmasb’ın Horasan’da olmasından da faydalanarak Tebriz’e yöneldi.\" · \"Bu arada Üsküdar’dan hareket eden (14 Haziran 1534) padişah da Erzurum’a ulaşmış bulunuyordu.\" · yer: TDV kars, BİREBİR: \"Kanûnî Sultan Süleyman’ın Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel, Oltu gibi kalelerin Osmanlılar tarafından ele geçirildiği esnada Kars Kalesi’nin de Osmanlılar’a bağlanmış olması kuvvetle muhtemeldir.\" · gün = ayın 1'i, AY hassasiyeti (DOGU-1533-0087)"}], v:[] },
 
 { ad:"Digor",neden:"akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı.",kaynak:"ankraj Revan — aynı zincir", tur:"kasaba", lat:40.375, lon:43.410, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-06-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-06-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1534-06-01",t:"1878-03-03",kesinlik:"ay",kaynak:"TDV irakeyn-seferi, BİREBİR: \"1533 yılı Aralık ayında Halep’e varan ve kışı burada geçiren İbrâhim Paşa daha önce kararlaştırıldığı üzere Bağdat’a yürümek istedi; fakat Mayıs 1534’te Diyarbekir’e gelerek buradan Ulama Han’ın tesiriyle ve Şah Tahmasb’ın Horasan’da olmasından da faydalanarak Tebriz’e yöneldi.\" · \"Bu arada Üsküdar’dan hareket eden (14 Haziran 1534) padişah da Erzurum’a ulaşmış bulunuyordu.\" · yer: TDV kars, BİREBİR: \"Kanûnî Sultan Süleyman’ın Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel, Oltu gibi kalelerin Osmanlılar tarafından ele geçirildiği esnada Kars Kalesi’nin de Osmanlılar’a bağlanmış olması kuvvetle muhtemeldir.\" · gün = ayın 1'i, AY hassasiyeti (DOGU-1533-0087)"}], v:[] },
 
 { ad:"Iğdır",neden:"CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi.",kaynak:"ankraj Revan (46 km) — aynı zincir", tur:"kasaba", lat:39.920, lon:44.045, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya",kaynak:"gün komşudan: Revan (TDV revan) · TDV igdir--sehir, BİREBİR: \"Nihayet III. Murad’ın Revan’ın fethiyle sonuçlanan seferi esnasında Iğdır Kalesi ve önündeki Sürmeli Çukur 1583 yılında kesin olarak Osmanlı hâkimiyetine girmiş oldu.\" · \"1827 yılında Ruslar’ın bu toprakları işgali neticesinde Iğdır Rusya yönetimindeki Surmalu (Sürmeli) sancağı içinde yer aldı.\" · 1534-01-01 Osmanlı / 1878-03-03 Rusya kaynaksızdı (DOGU-1533-0087)"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya",kaynak:"gün komşudan: Revan (TDV revan) · TDV igdir--sehir, BİREBİR: \"Nihayet III. Murad’ın Revan’ın fethiyle sonuçlanan seferi esnasında Iğdır Kalesi ve önündeki Sürmeli Çukur 1583 yılında kesin olarak Osmanlı hâkimiyetine girmiş oldu.\" · \"1827 yılında Ruslar’ın bu toprakları işgali neticesinde Iğdır Rusya yönetimindeki Surmalu (Sürmeli) sancağı içinde yer aldı.\" · 1534-01-01 Osmanlı / 1878-03-03 Rusya kaynaksızdı (DOGU-1533-0087)"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1583-09-13",t:"1604-06-08",kaynak:"gün komşudan: Revan · TDV revan (Eylül 1583) · TDV igdir--sehir (1583)"},{f:"1635-08-08",t:"1636-04-01",kaynak:"gün komşudan: Revan · TDV revan"},{f:"1724-10-03",t:"1735-10-03",kaynak:"gün komşudan: Revan · Bilgili 2016 · TDV nadir-sah--iran"}], isg:[{f:"1827-10-13",t:"1828-02-22",d:"rusya",kaynak:"gün komşudan: Revan · TDV revan (13 Ekim 1827) · TDV igdir--sehir (1827 Rus işgali)"}], v:[] },
 
 // 🔴 `iran` HAYALETİ TEMİZLENDİ — 20 Ağustos 2026, 7 kayıt.
@@ -5719,11 +5718,11 @@ window.YERLESIMLER_EK26 = [
 // yazılmadı, `Değişmez 2` açık kırılma üretmesin diye.
 // Ermenistan yakası
 { ad:"Gümrü (Aleksandropol)",kaynak:"ankraj Revan (86 km) — aynı zincir", tur:"sehir", lat:40.789, lon:43.847, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-09-23",d:"sovyet-rusya"},{f:"1991-09-23",t:"2000-12-31",d:"ermenistan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[{f:"1583-09-13",t:"1604-06-08",kaynak:"örtülü — Emre 13 Eylül (karar 11) ve 17 Eylül kararı · dayanak: Revan · BOA A.DVNSMHM.d 51-322 (13 Eylül 1583, Adlığ 2026) / TDV revan (991 Ramazanı başları = Eylül 1583 ortaları; 1013/1604) · batıda Kars kesintisiz Osmanlı · ⚠️ Şüregel 1590 Revan tahririnde (BOA TD 633) YOK — 1583-1604 sahibi için kaynak bulunamadı"},{f:"1724-10-03",t:"1735-10-03",kaynak:"örtülü — Emre 17 Eylül karari · dayanak: Revan · Bilgili 2016 (Ermeni Araştırmaları 53) (3 Ekim 1724) / TDV nadir-sah--iran (3 Ekim 1735) · batıda Kars kesintisiz Osmanlı · Alandağlı 2024 (Arpaçay doğusu Revan eyaleti)"}], v:[] },
 
 { ad:"Eçmiyadzin",kaynak:"ankraj Revan (19 km) — Revan zinciri: köy Karbi nahiyesinde (Köse 2024 Türkiyat Mecmuası 34/1: 'Revan kazâsına tâbi Karbi nâhiyesinde', 1725 arzuhali); Karbi nahiyesi Kasım 1590 Osmanlı tahririnde (BOA TD 633, Bilgili 2016) ve 1727 TD 901'de", tur:"sehir", lat:40.162, lon:44.293, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars/Revan · TDV kars (788/1386 Timur) · 1406-10-21 çekirdek madde (Kara Yûsuf, TDV karakoyunlular) — TDV Kars için gün vermiyor (YAMA-0052B-RENK) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1469-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-09-23",d:"sovyet-rusya"},{f:"1991-09-23",t:"2000-12-31",d:"ermenistan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[{f:"1583-09-13",t:"1604-06-08",kaynak:"gün komşudan: Revan (13 Eylül 1583 emir günü, Adlığ 2026 · TDV revan; 1604-06-08 Revan'ın kaybı) · Karbi nahiyesi TD 633 (Kasım 1590)"},{f:"1724-10-03",t:"1735-10-03",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (TD 901 Karpi nahiyesi) · gün komşudan: Revan"}], v:[] },
 
 // ───────── İRAN HATTI · Kasr-ı Şirin (1639) çizgisi ─────────
@@ -5745,7 +5744,7 @@ window.YERLESIMLER_EK26 = [
 //    ÖNCEYE düşerdi, yani daha kaba bir tarih DAHA YANLIŞ olurdu.
 // 📌 Bu düzeltme TARİHE DOKUNMAZ, yalnız DAYANAĞI doğru gösterir.
 { ad:"Doğubayazıt", kd:[{f:"1281-01-01",t:"1534-06-23",k:0,m:null},{f:"1534-06-23",t:"1923-10-29",k:3,m:"Erzurum"}],neden:"0087/H-0023 (DOGUBEYAZIT-0087, *eek): 1514-09-06'dan 1920'ye KESİNTİSİZ Osmanlı yazılıydı; 1514-1534 arası çevredeki bütün noktalar (Iğdır · Mâku · Çaldıran · Bargiri · Erciş · Van · Kars) Safevî iken bu nokta TEK BAŞINA Osmanlı kalıyor ve noktasız Ağrı ovasını da peteğine emerek (Eleşkirt · Diyadin · Patnos · Karakilise'de NOKTA YOK) uzak bir eksklav çiziyordu. Sınıf: D206 TERS YÖN — Osmanlı FAZLA; eksklav tarihî değil VERİ ürünü. 1514 ilhakı GEÇİCİDİR ve YAZILMADI: Kaya 2017 'Safevîler kısa bir süre sonra Bayezid'de kontrolü sağlamıştır' der, geri alış GÜNÜ ve YILI kaynakta YOK (yıl bilinmiyorsa yıl yazılmaz, D210). Komşu Erciş ve Van'ın 1514 ilhakı da veride aynı sebeple yazılmamıştır (Karataş 2025: 'Osmanlıların geri çekilmesi ile tekrar Safevilerin eline geçmiştir'). TDV `dogubayazit` ('1514'te … Osmanlı topraklarına katıldı') ile çelişki YOK: o cümle ilk katılışı söyler, kalıcılığı söylemez; aynı madde 'önceleri Van eyaletine bağlı bir sancak merkezi' der ve Van eyaleti 1548'de kuruldu. ⚠️ TDV `agri` ('nihayet 1548 İran seferi sonunda Osmanlı hâkimiyetine geçerek … Bayazıt sancağını') bölge cümlesidir ve şehir tanıklığı değildir (D208); 1548 Van vilâyeti ilk tevcih listesinde Bayezid YOK (Karataş 2025: 'Van, Adilcevaz, Albak, Bitlis, Erciş, Kisâni, Bargiri') — Kaya 2017'nin 1547-1553 Safevî dilimiyle uyumlu.",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612, Giriş: 'İlk olarak Yavuz Sultan Selim döneminde (1512-1520) Osmanlı Devleti’ne katılmış ancak Safevîler kısa bir süre sonra Bayezid’de kontrolü sağlamıştır … Bayezid Sancağı, Irakeyn Seferi (1533-34) sonucunda tekrar Osmanlı hâkimiyetine alınmıştır. Bayezid, 1547’de Van ve Erciş ile birlikte İran’ın hâkimiyetine girmiş … Osmanlı Devleti, Ağustos 1553’te Nahçıvan Seferi sırasında sancağa tekrar hâkim olmuşlardır. … Bayezid Sancağı, 1578 yılında kesin olarak Osmanlı egemenliğine girmiştir.' · TDV `dogubayazit` (1514 · 1554 Nahcıvan seferinde üs) · TDV `agri` · Talat Karataş, 'Erciş Sancağı’nın Osmanlı İdari Taksimatındaki Yeri (1555-1722)', Hacettepe Üniv. Türkiyat Araştırmaları Dergisi 43 (2025), s. 151-163", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1534-06-23",d:"safevi",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612, dn. 2: 'Irakeyn Seferi’nde 23 Haziran 1534’de Veziri-i azam İbrahim Paşa’nın Bingöl civarına geldiğinde bölgedeki pek çok Kürt aşireti ile birlikte Van, Toprak-kale, Avnik ve Bayezid Kalesi Osmanlı İmparatorluğu’nun hâkimiyetine girmeye razı olmuştur' (dayanağı Dündar Aydın, Erzurum Beylerbeyliği ve Teşkilatı, TTK 1998, s. 52, 248, 252) — GÜN kaynaklı (razı olma günü, fiilî teslim değil)"},{f:"1547-01-01",t:"1553-08-01",d:"safevi",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612: 'Bayezid, 1547’de Van ve Erciş ile birlikte İran’ın hâkimiyetine girmiş' — YIL (gün/ay yok ⇒ 1547-01-01 yıl işaretidir). ⚠️ Karataş 2025 Van/Erciş'in Safevîye dönüşünü 22 Eylül 1535 verir; Kaya Bayezid'i 1547'de Van ile birlikte anar — iki kaynak Van için çelişir, Bayezid için tek tanık Kaya'dır"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1534-06-23",d:"safevi",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612, dn. 2: 'Irakeyn Seferi’nde 23 Haziran 1534’de Veziri-i azam İbrahim Paşa’nın Bingöl civarına geldiğinde bölgedeki pek çok Kürt aşireti ile birlikte Van, Toprak-kale, Avnik ve Bayezid Kalesi Osmanlı İmparatorluğu’nun hâkimiyetine girmeye razı olmuştur' (dayanağı Dündar Aydın, Erzurum Beylerbeyliği ve Teşkilatı, TTK 1998, s. 52, 248, 252) — GÜN kaynaklı (razı olma günü, fiilî teslim değil)"},{f:"1547-01-01",t:"1553-08-01",d:"safevi",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612: 'Bayezid, 1547’de Van ve Erciş ile birlikte İran’ın hâkimiyetine girmiş' — YIL (gün/ay yok ⇒ 1547-01-01 yıl işaretidir). ⚠️ Karataş 2025 Van/Erciş'in Safevîye dönüşünü 22 Eylül 1535 verir; Kaya Bayezid'i 1547'de Van ile birlikte anar — iki kaynak Van için çelişir, Bayezid için tek tanık Kaya'dır"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1534-06-23",t:"1547-01-01",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612, dn. 2: 'Irakeyn Seferi’nde 23 Haziran 1534’de Veziri-i azam İbrahim Paşa’nın Bingöl civarına geldiğinde bölgedeki pek çok Kürt aşireti ile birlikte Van, Toprak-kale, Avnik ve Bayezid Kalesi Osmanlı İmparatorluğu’nun hâkimiyetine girmeye razı olmuştur' (dayanağı Dündar Aydın, Erzurum Beylerbeyliği ve Teşkilatı, TTK 1998, s. 52, 248, 252) — GÜN kaynaklı (razı olma günü, fiilî teslim değil)"},{f:"1553-08-01",t:"1920-04-23",kaynak:"Hakan Kaya, '19. Yüzyılın Birinci Yarısında Aşiretler ve Demografik Yapı: Bayezid Sancağı', İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (2017), s. 2594-2612: 'Osmanlı Devleti, Ağustos 1553’te Nahçıvan Seferi sırasında sancağa tekrar hâkim olmuşlardır' (dayanağı Mehmet İnbaşı, 'Çıldır Beyleri: I. İshak Paşa ve II. İshak Paşa', Doğubayazıt Sempozyumu 2003, s. 191-192) — AY (1553-08-01 = AĞUSTOS, gün kaynaksız). TDV `dogubayazit`: '1554 yılında yapılan Nahcıvan seferinde Bayazıt önemli bir üs hizmetini gördü' ile uyumlu. 1553-1578 arası yeni bir el değiştirme KAYNAKTA YOK; Kaya'nın '1578 kesin' ifadesi tahrir/idare dahliyesidir, yazılmadı"}], v:[] },
 
 // 🔴 ÇALDIRAN + BAŞKALE — ARAS-CALDIRAN, 13 Eylül 2026 (parti-emrelic-0049 / H-0001)
@@ -5762,19 +5761,19 @@ window.YERLESIMLER_EK26 = [
 // ⚠️ 1914-1918 Rus işgali YAZILMADI: bölgede (Van · Hakkâri · Erzurum) hiçbir
 //    kayıt `isg:` taşımıyor; tek başına yazmak TERS ADA açar. Öneri raporda.
 { ad:"Çaldıran",neden:"H-0001 · 1548-1639 safevi ADACIĞI kaldırıldı. Bu kasabanın KENDİ dönem kaydı BULUNAMADI; hüküm İŞARETLERE dayanır (kanıt değil): Bargiri sancağı 1550-51 ilk Van tevcih defterinden 1684'e kadar Van eyaletinde; daha DOĞUDAKİ Mâkû 1574-1639 Osmanlı'nın Mahmûdî beyleri elinde ve 1605'te Şah Abbas kaleyi alamadı; Van 1548'den sonra el değiştirmedi. Safevî lehine 1548-1639 arası işaret BULUNAMADI. 1639 sonrası Kotur ve Mâkû İran'a döndü; Çaldıran onların batısında, Bargiri tarafında kaldı (işaret). GÜN komşudan (§4 şartlı): Van · TDV `van` 24 Ağustos 1548 — atlas Van kaydı 25 yazıyor, fark raporda ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): Van kaydı artık 1548-08-24 (s safevi t / d f) — fark kapanmış. 1920-04-23 → tbmm-turkiye: proje kararı (M-3066), komşularla aynı.",kaynak:"İŞARET (doğrudan kanıt değil) — Talat Karataş, 'Erciş Sancağı'nın Osmanlı İdari Taksimatındaki Yeri (1555-1722)', Hacettepe Ü. Türkiyat Araştırmaları Dergisi 43 (2025), 151-163: 1550-51 tevcih defterinde Van vilayeti 'Van, Adilcevaz, Albak, Bitlis, Erciş, Kisani, Bargiri'; 1585 hükmünde 'Bargiri ma'a Kotur dere Beyi'; MD 180/154 (1684) Livâ-i Bargiri · TDV `maku` (R. Kurtuluş): 1574 İvaz Bey Mâkû'yu almakla görevli, 1605 Abbas kaleyi alamadı, 1639 Kasrışîrin çerçevesinde yıkıldı, IV. Murad'ın ölümünden sonra İran tekrar işgal etti · TDV `van`: Van Kalesi 24 Ağustos 1548'de fethedildi, bir daha el değiştirmedi · GÜN komşudan: Van · TDV `van`. ⚠️ Şen-Tekin (Van YYÜ SBE Dergisi 50, 2020) uyarısı: 1514 savaş alanı Hoy yakınındaki ovadır, bugünkü Çaldıran kasabası DEĞİL.", tur:"kasaba", lat:39.145, lon:43.910, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Özalp (Saray)",neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-24'te başlamaya devam ediyor.",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-24 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Başkale",neden:"H-0001 · 1548-1639 safevi ADACIĞI kaldırıldı. Başkale = tarihî ALBAK (Elbak) ve Osmanlı SANCAĞI olduğu DOĞRUDAN belgeli: 1550-51 ilk Van tevcih defteri · Celâlzâde 963/1556 listesi · 17 Kasım 1568 ve 1585 hükümlerinde 'Albak Beyi Zahid Bey' · 1565 hükmü 'Hakkâri ve Albak kadılarına' · 1613 Van beylerbeyi kuvvetleri Albak kalesindeki asi sancakbeyini teslim aldı (Safevî değil, Osmanlı içi isyan) · 1631-32 ve 1673-1740 yurtluk-ocaklık · 1684 Livâ-i Albak · 1854-58 Hakkâri sancağının Albak kazası · 1914 Hakkâri sancağının merkez kazası. 1548 ÖNCESİ: Mahmûdî İvaz Bey Şah Tahmasb himayesinde Elbak ve Hoşab'ı idare etti; Mahmûdî Hasan Bey 1548 II. İran Seferi'nde Osmanlı'ya tâbi oldu ⇒ safevi→1548 korundu. 1603-1612 ve 1623-1639 arası Safevî tasarrufu BULUNAMADI. GÜN komşudan (§4 şartlı): Van · TDV `van` 24 Ağustos 1548 (Albak, Van eyaletinin ilk tevcih defterinde) — atlas Van kaydı 25 yazıyor, fark raporda ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): Van kaydı artık 1548-08-24 (s safevi t / d f) — fark kapanmış. 1920-04-23 → tbmm-turkiye: proje kararı (M-3066).",kaynak:"KANIT — Talat Karataş, 'Erciş Sancağı'nın Osmanlı İdari Taksimatındaki Yeri (1555-1722)', Hacettepe Ü. Türkiyat Araştırmaları Dergisi 43 (2025), 151-163 (1550-51 defter · Celâlzâde 1556 · 1585 hükmü · MD 180/154) · Zeki Tekin, 'Zeynel Bey ve Oğullarının Hakkâri Hâkimliği Mücâdelesi ve İsyânları', Atatürk Ü. SBE Dergisi 10/2 (2010), 119-132 (1565 · 1568 · 1613) · TDV `kurtler` (1631-32 ve 1673-1740 Van eyaleti ocaklık sancakları: Albak) · Yağmur Şen - Rahmi Tekin, 'Osmanlı Devrinde Mahmudî (Hoşab) Beyliği', Van YYÜ SBE Dergisi 50 (2020), 141-162 (İvaz Bey · Hasan Bey 1548) · Murat Alandağlı, Külliyat 2021, DOI 10.51592/kulliyat.1027274 (BOA NFS.d.3868: Albak kazası 1854) · Haluk Selvi, 'Millî Mücadele Döneminde Hakkâri', TÜBA, DOI 10.53478/TUBA.978-625-8352-71-9.ch10 (1914 merkez kaza Başkale) · GÜN komşudan: Van · TDV `van` '24 Ağustos 1548'.", tur:"kale", lat:38.045, lon:44.010, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Yüksekova (Gever)",neden:"Özalp ile aynı desen.",kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 
@@ -5820,16 +5819,16 @@ window.YERLESIMLER_EK27 = [
 
 // ───────── DOĞU KARADENİZ · Gürcistan sınırı ─────────
 { ad:"Artvin", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1551-01-01",t:"1579-01-01",k:2,m:"Erzurum"},{f:"1579-01-01",t:"1829-09-14",k:2,m:"Ahıska"},{f:"1829-09-14",t:"1878-03-03",k:3,m:"Batum"},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"sehir", lat:41.183, lon:41.822, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 { ad:"Hopa", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1915-02-23",t:"1918-03-14",k:0,m:null},{f:"1920-04-23",t:"1923-10-29",k:0,m:null}], tur:"liman", lat:41.390, lon:41.427, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1915-02-23",t:"1917-03-15",d:"rusya",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): Rus işgali 23 Şubat 1915; Çaykıran: Rusların 'Batum'dan Arhavi istikametinde' ilerleyişi · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-03-14",d:"transkafkasya",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): geri alınış 14 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1915-02-23",t:"1917-03-15",d:"rusya",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): Rus işgali 23 Şubat 1915; Çaykıran: Rusların 'Batum'dan Arhavi istikametinde' ilerleyişi · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-03-14",d:"transkafkasya",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): geri alınış 14 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1551-01-01",t:"1915-02-23",kaynak:"1878-1915 rusya penceresi SİLİNDİ: Yücetürk 2020 (Karadeniz Araştırmaları XVII/65, 73-95): 'Arhavi, Hopa ve Yusufeli ise Osmanlı Devleti'nde kalmıştır' · TDV lazlar: XX. yy başında 'Pazar ve Hopa kazaları' Lazistan sancağında · Hopa Kaymakamlığı: 1878 sınırı Kemalpaşa bucağı (Hopa'nın DOĞUSU) · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1918-03-14",t:"1920-04-23",kaynak:"T.C. Hopa Kaymakamlığı tarihçe (KURUMSAL): geri alınış 14 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"}], v:[] },
 
 // Sarp — sınırın Karadeniz'e kavuştuğu nokta (Türkiye yakası)
 { ad:"Sarp", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"koy", lat:41.520, lon:41.545, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"1936-12-05",d:"zakafkasya-sfsc",kaynak:"Britannica 'Transcaucasian SFSR' (1922-1936)"},{f:"1936-12-05",t:"1991-04-09",d:"sovyet-rusya",kaynak:"Britannica 'Georgian SSR'; Kars Antlasmasi 1921"},{f:"1991-04-09",t:"2000-12-31",d:"gurcistan-cumhuriyeti",kaynak:"Britannica 'Georgia': independence declared 1991-04-09"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 // ───────── ÇUKUROVA · Akdeniz kıyısı ─────────
@@ -5859,7 +5858,7 @@ window.YERLESIMLER_EK27 = [
   //   YOKKEN doğruydu. `kur:` inince aynı kusurun çaresi değişti.
   // Toprak 1671'den önce komşunun (Tarsus/Adana) peteğine düşer —
   // `§2` emilme kuralı, ve burada DOĞRU: Mersin YOKTU.
-  s:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1671-01-01",t:"1918-10-30"}],
   // 🟢 EMRE'NİN KENDİ KARARI, 2 Eylül 2026 (soru ⑧, paket 0019/H-0008):
   //    "(a) 1671 — Evliya Çelebi. Daha erken, tek kaynaklı."
@@ -5872,7 +5871,7 @@ window.YERLESIMLER_EK27 = [
 //    1939. Nokta ekleniyor ki körfezin GÜNEY yakası temsil edilsin ve
 //    petek Çukurova'dan sarkmasın.
 { ad:"İskenderun",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"liman", lat:36.587, lon:36.173, g:0, k:3, m:"Halep",
-  s:[{f:"1098-06-03",d:"antakya-prinkipsligi",kaynak:"TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · Tankred zaptı 1097; prinkepslik künyesi 1098-06-03'te başladığından künye günü DEVRALINDI (1097-1098 Haçlı ordusu, künyesiz) — kaynaksız gün · ZAMAN-Z6-1008",t:"1268-01-01",kesinlik:{f:"gun",t:"yil"}},{f:"1268-01-01",t:"1516-08-24",d:"memluk",kaynak:"f 1281-01-01'den geri çekildi — TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · kaynak YIL verir (Antakya'nın düşüşü 18 Mayıs 1268 — TDV antakya; gün komşudan devralınMADI, yıl bırakıldı) · ZAMAN-Z6-1008"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1098-06-03",d:"antakya-prinkipsligi",kaynak:"TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · Tankred zaptı 1097; prinkepslik künyesi 1098-06-03'te başladığından künye günü DEVRALINDI (1097-1098 Haçlı ordusu, künyesiz) — kaynaksız gün · ZAMAN-Z6-1008",t:"1268-01-01",kesinlik:{f:"gun",t:"yil"}},{f:"1268-01-01",t:"1516-08-24",d:"memluk",kaynak:"f 1281-01-01'den geri çekildi — TDV iskenderun: 'Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun, 1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır.' · kaynak YIL verir (Antakya'nın düşüşü 18 Mayıs 1268 — TDV antakya; gün komşudan devralınMADI, yıl bırakıldı) · ZAMAN-Z6-1008"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1938-09-02",d:"suriye-lubnan-mandasi"},{f:"1938-09-02",t:"1939-06-23",d:"hatay-devleti",kaynak:"Britannica 'Hatay' (Hatay Meclisi'nin Turkiye'ye katilma karari)"},{f:"1939-06-23",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"Britannica 'Hatay'"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 // 🔴 PAYAS BURADAN DUSURULDU (12 Agustos 2026, koordinator).
@@ -5938,7 +5937,7 @@ window.YERLESIMLER_EK28 = [
 // ───────── ① PAYAS DÜZELTMESİ (ek27.js:63-65'in YERİNE geçecek) ─────────
 { ad:"Payas",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"Belen muharebesi 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`) Payas'ın hemen kuzeyindeki geçitte; Adana bölgesi 1833-1840 İbrâhim Paşa'da (TDV `adana`, gövdesi okundu: '1833-1840 yıllarında ... İbrâhim Paşa'nın eline geçmiş, Londra Antlaşması ile de 1841'de tekrar Osmanlı Devleti'ne bağlanmıştır'). Bitiş külliyatın Adana günü.", tur:"kale", lat:36.755, lon:36.213, g:0, k:3, m:"Halep",
   // kaynak: UK Cmd.1556 / LNTS Vol.54 pp.178-193, Ankara İtilâfnâmesi Md.8 (doğrulandı, bkz. yukarı)
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ───────── ③ ÇUKUROVA · İskenderun körfezinin KUZEY kıyısı ─────────
@@ -5952,7 +5951,7 @@ window.YERLESIMLER_EK28 = [
   // GEREKÇE k:3: 1909'da padişah iradesiyle Adana vilayeti Cebel-i Bereket
   // sancağına bağlı KAZA MERKEZİ oldu (öncesi Payas/Erzin'e bağlı nahiye).
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"; TÜBA (işgal/tahliye)
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Erzin", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1920-04-23",t:"1923-10-29",k:0,m:null}],isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"bkz. H-0007 (Dörtyol)", tur:"kasaba", lat:36.955, lon:36.201, g:0, k:4, m:"Adana",
@@ -5960,7 +5959,7 @@ window.YERLESIMLER_EK28 = [
   // sancak merkeziydi, ama 1909 reorganizasyonuyla Dörtyol kazasına bağlı
   // NAHİYE statüsüne düştü — 1923 itibariyle müstakil kaza değil.
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Yumurtalık", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1920-04-23",t:"1923-10-29",k:0,m:null}],isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"bkz. H-0007 (Dörtyol)", tur:"liman", lat:36.7721, lon:35.7870, g:0, k:4, m:"Adana",
@@ -5969,7 +5968,7 @@ window.YERLESIMLER_EK28 = [
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"
   // ⚠️ İşgal/tahliye için Yumurtalık'a ÖZEL tarih bulunamadı — bölgesel
   // Çukurova çerçevesi (Mersin/Payas ile aynı) kullanıldı, bkz. yukarı not.
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── ⑥ DOĞU SINIRI · Gürcistan hattının BATI (Karadeniz kıyısı) ucu ─────────
@@ -5984,7 +5983,7 @@ window.YERLESIMLER_EK28 = [
   // ⚠️ 1878 sınırı Hopa'nın DOĞUSUNDAN geçti (Kopmuş Burnu), Arhavi hep
   // Osmanlı kaldı — bu yüzden s: rusya dönemi YOK, Rize ile aynı desen.
   // kaynak: sınır tarifi (bkz. yukarı) + Rize kaydıyla aynı fetih tarihi (Trabzon 1461)
-  s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1461-08-15",t:"1920-04-23"}], v:[] },
 
 { ad:"Borçka", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.339, lon:41.677, g:0, k:4, m:"Erzurum",
@@ -5994,7 +5993,7 @@ window.YERLESIMLER_EK28 = [
   // kaynak: borcka.bel.tr resmi tarihçe ("Şehrin Nüfusu ve Tarihi") +
   //   Artvin/Şavşat kaydıyla aynı bölgesel desen (İskender Paşa 1551,
   //   San Stefano 1878-03-03, Kars Antlaşması 1921-10-13)
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 // ───────── ⑦ DOĞU SINIRI · Kars sanjağı (Sarıkamış) ─────────
@@ -6008,7 +6007,7 @@ window.YERLESIMLER_EK28 = [
   //   TDV sarikamis-harekati (canlı, HTTP 200)
   // Tarihler Kars kaydıyla (data/yerlesimler.js:232) BİREBİR aynı —
   // aynı sanjak, aynı kader.
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1467-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1467-01-01",t:"1501-07-01",d:"akkoyunlu",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1501-07-01",t:"1534-06-01",d:"safevi",kaynak:"gün komşudan: Kars · TDV kars (907/1501, Sevündük Han) — TDV sarikamis (302, ölü slug) bu yıllar için tarih VERMİYOR (bulunamadı) · aynı süreç, 47 km · DOGU-SAFEVI-0086 H-0009 · önceki not: gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-25",d:"sovyet-rusya"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1386-01-01",t:"1408-04-13",d:"timurlu",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3) · BİTİŞ 1406-10-21→1408-04-13 (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1408-04-13",t:"1467-01-01",d:"karakoyunlu",kaynak:"BÖLGE CÜMLESİ, ŞEHİR TANIKLIĞI DEĞİL (D208): TDV `karakoyunlular` Serdrûd 13 Nisan 1408 — \"Serdrûd zaferi Kara Yûsuf’a Azerbaycan’ı kazandırdı.\" Bu noktayı adıyla tarihleyen kaynak bulunamadı; adım Tebriz zinciriyle tutarlılık için · eski 1406-10-21 kaynaksızdı (TEBRIZ-1388-KARAKOYUNLU-1006)"},{f:"1467-01-01",t:"1501-07-01",d:"akkoyunlu",kaynak:"gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1501-07-01",t:"1534-06-01",d:"safevi",kaynak:"gün komşudan: Kars · TDV kars (907/1501, Sevündük Han) — TDV sarikamis (302, ölü slug) bu yıllar için tarih VERMİYOR (bulunamadı) · aynı süreç, 47 km · DOGU-SAFEVI-0086 H-0009 · önceki not: gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-25",d:"sovyet-rusya"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1534-06-01",t:"1878-07-13"},{f:"1918-05-25",t:"1920-04-23"}], v:[] },
 
 // ───────── ⑧ DOĞU SINIRI · Ahılkelek (Gürcistan tarafı — Ahıska'nın komşusu) ─────────
@@ -6028,7 +6027,7 @@ window.YERLESIMLER_EK28 = [
   //   yüzden Ahıska'nın (yerlesimler.js:757) ORİJİNAL kaydı gibi 1829'dan
   //   1923'e kadar KESİNTİSİZ rusya; ek26'daki 1921 kırılmalı ikinci
   //   Ahıska kaydını (muhtemel mükerrer/tutarsızlık) TEKRARLAMADIM.
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1829-09-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1829-09-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-04-09",d:"sovyet-rusya"},{f:"1991-04-09",t:"2000-12-31",d:"gurcistan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   d:[{f:"1551-01-01",t:"1829-09-14"}], v:[] },
 
 ];
@@ -6110,7 +6109,7 @@ window.YERLESIMLER_EK29 = [
 //   ve Erdel bir Osmanlı EYALETİ değil, haraçgüzâr voyvodalık/prenslik
 //   (TDV: "Osmanlı idaresinde muhtar bir voyvodalık"). k:1 yanlış olurdu.
 { ad:"Erdel Belgradı (Gyulafehérvár)", tur:"sehir", lat:46.0678, lon:23.5800, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1526-11-10","d":"macaristan",kaynak:"BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1920-06-04","d":"macaristan-naiplik","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},{"f":"1920-06-04","t":"1923-10-29","d":"romanya-kralligi","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
+  s:[{f:"1281-01-01",t:"1526-11-10","d":"macaristan",kaynak:"BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1920-06-04","d":"macaristan-naiplik","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},{"f":"1920-06-04","t":"1947-12-30","d":"romanya-kralligi","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"},{"f":"1947-12-30","t":"1989-12-22","d":"romanya-halk","kaynak":"LoC Romania Country Study"},{"f":"1989-12-22","t":"2000-12-31","d":"romanya-cumhuriyeti","kaynak":"LoC Romania Country Study"}],
   d:[],
   v:[{f:"1526-11-10",t:"1541-08-29","statu":"vassal",kaynak:"BALKAN-MACAR-0081 H-0026: tâbilik Szapolyai'nin krallığıyla başlar — TDV suleyman-i 'Macar soyluları … János Szapolyai’yi kral seçmişlerdi (10 Kasım 1526). Budin’i boşaltan Osmanlılar da … Szapolyai’nin krallığını kendilerine tâbi olması kaydıyla tanımıştı' — tanınmanın GÜNÜ yok, seçim günü ALT SINIRDIR; eski başlangıç seçimden 70 gün önceydi"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
@@ -6126,13 +6125,13 @@ window.YERLESIMLER_EK29 = [
 //   RENK 3 rengi yazdıktan sonra `v:` dönemleri çevrilebilir.
 
 { ad:"Brassó (Braşov)", tur:"sehir", lat:45.6427, lon:25.5887, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1526-11-10","d":"macaristan",kaynak:"BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1920-06-04","d":"macaristan-naiplik","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},{"f":"1920-06-04","t":"1923-10-29","d":"romanya-kralligi","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
+  s:[{f:"1281-01-01",t:"1526-11-10","d":"macaristan",kaynak:"BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1920-06-04","d":"macaristan-naiplik","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},{"f":"1920-06-04","t":"1947-12-30","d":"romanya-kralligi","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"},{"f":"1947-12-30","t":"1989-12-22","d":"romanya-halk","kaynak":"LoC Romania Country Study"},{"f":"1989-12-22","t":"2000-12-31","d":"romanya-cumhuriyeti","kaynak":"LoC Romania Country Study"}],
   "isg":[{"f":"1918-12-01","t":"1920-06-04","d":"romanya-kralligi","kesinlik":{"f":"ay"},"kaynak":"AY DÜZEYİ (D213, P84-BRASSO-TEMESVAR-1006): kaynak aynı olaya iki gün veriyor (7 / 10 Aralık 1918), ikisinin ortak en kaba güvenli düzeyi Aralık 1918 — eski f:1918-12-07 (A) cümlesinin seçimiydi · bağımsız kurumsal tanık, BÖLGE düzeyi (şehir günü vermez): Muzeul Național de Istorie a României — Muzeul Virtual al Unirii (mvu.ro, 'How Transilvania, Banatul, Crisana and Maramuresul got togheter') — 'The Romanian army entered South East Transylvania at the beginning of December 1918' · F8 fiilî devir: Adevărul (gazete, S. Dan, 01.12.2015, Şchei kilisesi arşivine dayanarak) — https://adevarul.ro/stiri-locale/brasov/brasovul-la-1-decembrie-1918-1670631.html — 'avea să conducă ceremonialul primirii armatei române în Braşov, avându-l în frunte pe generalul Berthelot în 24 noiembrie - 7 decembrie 1918. ... manifestările prilejuite de intrarea triumfală a Armatei Române în Braşov pe 10 decembrie 1918.'"}],
   d:[],
   v:[{f:"1526-11-10",t:"1541-08-29","statu":"vassal",kaynak:"BALKAN-MACAR-0081 H-0026: tâbilik Szapolyai'nin krallığıyla başlar — TDV suleyman-i 'Macar soyluları … János Szapolyai’yi kral seçmişlerdi (10 Kasım 1526). Budin’i boşaltan Osmanlılar da … Szapolyai’nin krallığını kendilerine tâbi olması kaydıyla tanımıştı' — tanınmanın GÜNÜ yok, seçim günü ALT SINIRDIR; eski başlangıç seçimden 70 gün önceydi"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
 { ad:"Segesvár (Sighişoara)", tur:"sehir", lat:46.2197, lon:24.7925, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1526-11-10","d":"macaristan",kaynak:"BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1920-06-04","d":"macaristan-naiplik","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},{"f":"1920-06-04","t":"1923-10-29","d":"romanya-kralligi","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"}],
+  s:[{f:"1281-01-01",t:"1526-11-10","d":"macaristan",kaynak:"BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık"},{"f":"1687-08-12","t":"1918-11-11","d":"macaristan-habsburg","kaynak":"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{"f":"1918-11-11","t":"1920-06-04","d":"macaristan-naiplik","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},{"f":"1920-06-04","t":"1947-12-30","d":"romanya-kralligi","kaynak":"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{"f":"1551-07-26","t":"1556-03-12","d":"macaristan-habsburg","kaynak":"History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"},{"f":"1947-12-30","t":"1989-12-22","d":"romanya-halk","kaynak":"LoC Romania Country Study"},{"f":"1989-12-22","t":"2000-12-31","d":"romanya-cumhuriyeti","kaynak":"LoC Romania Country Study"}],
   d:[],
   v:[{f:"1526-11-10",t:"1541-08-29","statu":"vassal",kaynak:"BALKAN-MACAR-0081 H-0026: tâbilik Szapolyai'nin krallığıyla başlar — TDV suleyman-i 'Macar soyluları … János Szapolyai’yi kral seçmişlerdi (10 Kasım 1526). Budin’i boşaltan Osmanlılar da … Szapolyai’nin krallığını kendilerine tâbi olması kaydıyla tanımıştı' — tanınmanın GÜNÜ yok, seçim günü ALT SINIRDIR; eski başlangıç seçimden 70 gün önceydi"},{"f":"1541-08-29","t":"1551-07-26","statu":"vassal"},{"f":"1556-03-12","t":"1687-08-12","statu":"vassal"}] },
 
@@ -6156,7 +6155,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1526-12-17",d:"macaristan",kaynak:"BALKAN-MACAR-0081: tek krallık ikinci kralın seçimine dek sürer (TDV suleyman-i 17 Aralık 1526) · ÖNCEKİ: macaristan künyesi 1526-08-29’de bitiyor; Nitra habsburg künyesinden 245 yıl önce avusturya boyanıyordu · ⚠️ kasaba-tanecik kaynak OKUNMADI (TDV nitra slug’ı yok); aynı dosyadaki Komárom kaydıyla aynı desen · KUNYE-ANADOLU-0081 H-0003"},{f:"1526-12-17",t:"1663-09-24",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: Habsburg dönemi Mohaç GÜNÜNDEN değil I. Ferdinand'ın Macar kralı ilânından başlar — TDV suleyman-i 'Macar kralı ilân edilmesi: 17 Aralık 1526' · TDV budin 'Ferdinand’ı (17 Aralık 1526) seçmişti'. Fiilî denetimin kale kale günü bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı)"},
      {f:"1685-08-19",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1939-03-14",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1939-03-14",t:"1945-04-04",d:"slovakya-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-04",t:"1993-01-01",d:"cekoslovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1993-01-01",t:"2000-12-31",d:"slovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1663-09-24",t:"1685-08-19"}], v:[] },
 
 // 🔴 KOMÁROM — `d:` YAZILMADI, ve bu bir HÜKÜM, ihmal değil.
@@ -6177,7 +6176,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1526-12-17",d:"macaristan",kaynak:"BALKAN-MACAR-0081: tek krallık ikinci kralın seçimine dek sürer (TDV suleyman-i 17 Aralık 1526)"},
      {f:"1526-12-17",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: Habsburg dönemi Mohaç GÜNÜNDEN değil I. Ferdinand'ın Macar kralı ilânından başlar — TDV suleyman-i 'Macar kralı ilân edilmesi: 17 Aralık 1526' · TDV budin 'Ferdinand’ı (17 Aralık 1526) seçmişti'. Fiilî denetimin kale kale günü bulunamadı · ÖNCEKİ: TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1939-03-14",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1939-03-14",t:"1945-04-04",d:"slovakya-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-04",t:"1993-01-01",d:"cekoslovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1993-01-01",t:"2000-12-31",d:"slovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[], v:[] },
 
 // 🔴 LÉVA (Levice) — Osmanlı dönemi YAZILMADI, sebebi KAYNAK YOKLUĞU.
@@ -6193,7 +6192,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1526-12-17",d:"macaristan",kaynak:"BALKAN-MACAR-0081: tek krallık ikinci kralın seçimine dek sürer (TDV suleyman-i 17 Aralık 1526)"},
      {f:"1526-12-17",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: Habsburg dönemi Mohaç GÜNÜNDEN değil I. Ferdinand'ın Macar kralı ilânından başlar — TDV suleyman-i 'Macar kralı ilân edilmesi: 17 Aralık 1526' · TDV budin 'Ferdinand’ı (17 Aralık 1526) seçmişti'. Fiilî denetimin kale kale günü bulunamadı · ÖNCEKİ: TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1939-03-14",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1939-03-14",t:"1945-04-04",d:"slovakya-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-04",t:"1993-01-01",d:"cekoslovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1993-01-01",t:"2000-12-31",d:"slovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[], v:[] },
 
 // TRENCSÉN — Vág vadisinin kuzeyi, Osmanlı hattının HİÇ ulaşmadığı derinlik.
@@ -6205,7 +6204,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1526-12-17",d:"macaristan",kaynak:"BALKAN-MACAR-0081: tek krallık ikinci kralın seçimine dek sürer (TDV suleyman-i 17 Aralık 1526)"},
      {f:"1526-12-17",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: Habsburg dönemi Mohaç GÜNÜNDEN değil I. Ferdinand'ın Macar kralı ilânından başlar — TDV suleyman-i 'Macar kralı ilân edilmesi: 17 Aralık 1526' · TDV budin 'Ferdinand’ı (17 Aralık 1526) seçmişti'. Fiilî denetimin kale kale günü bulunamadı · ÖNCEKİ: TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1939-03-14",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1939-03-14",t:"1945-04-04",d:"slovakya-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-04",t:"1993-01-01",d:"cekoslovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1993-01-01",t:"2000-12-31",d:"slovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[], v:[] },
 
 // ═════════ ④ HIRVAT SINIR BOYU — Osmanlı'nın DURDUĞU hat ═════════
@@ -6220,7 +6219,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL)"},
      {f:"1527-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[], v:[] },
 
 // 🔴 SISAK — 1593 Sisak Muharebesi'nin yeri, Uzun Savaş'ı başlatan olay.
@@ -6237,7 +6236,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL)"},
      {f:"1527-01-01",t:"1809-10-14",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[], v:[] },
 
 // 🔴 KARLOVAC — `kur:` ALANI KULLANILDI, ve sebebi ölçülmüş bir gerçek:
@@ -6253,7 +6252,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Karlovac", tur:"kale", lat:45.4870, lon:15.5478, g:0, k:3, kur:"1579-07-13",
   s:[{f:"1579-07-13",t:"1809-10-14",d:"avusturya",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026 · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[], v:[] },
 
 // ═══════════════════ KÜME 3 — KARLOFÇA/BOSNA HATTI (KITA 2, 12 Eylül 2026) ═══════════════════
@@ -6302,21 +6301,21 @@ window.YERLESIMLER_EK29 = [
   d:[{f:"1556-07-16",t:"1699-01-26"}],
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Hrvatska Kostajnica': 1258 Kral IV. Béla bağışı; 1395-1528 on beş kez sahip değiştirdi (Frankapan, Vuk Branković…); 1528-1566 Zrinski; 1556 Malkoç Bey — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1556-07-16",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Hrvatska Kostajnica': 1258 Kral IV. Béla bağışı; 1395-1528 on beş kez sahip değiştirdi (Frankapan, Vuk Branković…); 1528-1566 Zrinski; 1556 Malkoç Bey · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1699-01-26",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"Castanoviz... are and remain in the Power of the Emperor of the Romans\". Fetih: N. Ostojčić, 'Kostajnica', Bulwark of Europe (Zagreb Üniv. Felsefe Fak., 2019, vojnakrajina.ffzg.unizg.hr/en/kostajnica): 'utvrda je predana 16. srpnja, samo dan nakon početka opsade' (kaynakçası: M. Kruhek, Povijesni prilozi 21, 2001, 71-97) — 16 Temmuz 1556. TDV hirvatistan/bosna-hersek/malkocogullari/bihac anmıyor (tanecik boşluğu)." },
 
 { ad:"Bosna Dubiçası (Bosanska Dubica)",isg:[{f:"1788-08-26",t:"1791-08-04",d:"avusturya",kaynak:"Korić 2016, Prilozi za orijentalnu filologiju 65 (26 avgusta 1788 teslim) · Srpska enciklopedija 'Austro-turski ratovi' (Svištov 4. VIII 1791) · HE Kozarska Dubica"},{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"TDV bosna-hersek: '29 Temmuz'da başlayan işgal 20 Ekim 1878'de tamamlandı' · f: Bosna kayıtlarının baskın günü (14 kayıt), tek tek düşüş günü bulunamadı · bitiş ilhak 1908-10-05 · PAKET-0076-BITIR-1004 A3 (0076/H-0043·H-0057)"}], tur:"kale", lat:45.174, lon:16.810, g:0, k:3,
   neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı. ⇒ GÜNCEL DEĞİL (KASA-BOSNA-EK29-1010, 10 Eki 2026): Osmanlı öncesi dilimler SONRADAN HE (enciklopedija.hr) ile araştırıldı — s[0] kaynak: KORIDOR-0081 H-0030 · s[1] BOSNA-MACAR-0087; bu neden: o güncellemeden kalma.",
   d:[{f:"1538-01-01",t:"1718-07-21",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1"},{f:"1739-09-28",t:"1908-10-05",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1 · 1908-10-05 Bosna kayıtlarının ortak günü (Novi ile aynı)"}],
-  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Kozarska Dubica': 1256 castrum; 1269 ivanovci (Hospitalier) mülkü; 1398-1402 Hrvoje Vukčić; Osmanlı 1538 — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1538-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Kozarska Dubica': 1256 castrum; 1269 ivanovci (Hospitalier) mülkü; 1398-1402 Hrvoje Vukčić; Osmanlı 1538 · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1718-07-21",t:"1739-09-28",d:"avusturya",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Kozarska Dubica': 1256 castrum; 1269 ivanovci (Hospitalier) mülkü; 1398-1402 Hrvoje Vukčić; Osmanlı 1538 — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1538-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Kozarska Dubica': 1256 castrum; 1269 ivanovci (Hospitalier) mülkü; 1398-1402 Hrvoje Vukčić; Osmanlı 1538 · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1718-07-21",t:"1739-09-28",d:"avusturya",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Dubizza...shall be drawn out...left entirely free\". Fetih: Wikipedia 'Battle of Dubica' — 1538." },
 
 { ad:"Bosna Novi'si (Bosanski Novi)",isg:[{f:"1788-10-03",t:"1791-08-04",d:"avusturya",kaynak:"Korić 2016 (3. oktobra 1788) · Srpska enciklopedija (Svištov 4. VIII 1791) · HE Novi Grad (fiilî 1788–95)"},{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"TDV bosna-hersek: '29 Temmuz'da başlayan işgal 20 Ekim 1878'de tamamlandı' · f: Bosna kayıtlarının baskın günü (14 kayıt), tek tek düşüş günü bulunamadı · bitiş ilhak 1908-10-05 · PAKET-0076-BITIR-1004 A3 (0076/H-0043·H-0057)"}], tur:"kale", lat:45.048, lon:16.377, g:0, k:3,
   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı. ⇒ GÜNCEL DEĞİL (KASA-BOSNA-EK29-1010, 10 Eki 2026): Osmanlı öncesi dilimler SONRADAN HE (enciklopedija.hr) ile araştırıldı — s[0] kaynak: KORIDOR-0081 H-0030 · s[1] BOSNA-MACAR-0087; bu neden: o güncellemeden kalma.",
   d:[{f:"1557-01-01",t:"1908-10-05",kesinlik:{f:"yil"},kaynak:"HE 'Bosanski Novi': 'Osmanlije su ga zauzeli 1557.' (YIL; KASA-BOSNA-EK29-1010 — eski 1556 Kostajnica ile birlikte yazılmıştı, Novi'nin KENDİ kaynağı 1557) · Karlofça metni ('Novi … on the part of Bosnia') · TDV karlofca · TDV bosna-hersek (Novi kadısı Ömer Efendi · 1872 demiryolu) · 1908 günü K8'e bağlı"}],
-  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Novi Grad': 1280 Castrum Novum; XVI. yy başına dek Babonić knezleri, sonra Nikola Zrinski; Osmanlı 1557 (atlas 1556 — çelişki raporda) — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1557-01-01",d:"macaristan-habsburg",kesinlik:{t:"yil"},kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Novi Grad': 1280 Castrum Novum; XVI. yy başına dek Babonić knezleri, sonra Nikola Zrinski; Osmanlı 1557 (atlas 1556 — çelişki raporda) · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Novi Grad': 1280 Castrum Novum; XVI. yy başına dek Babonić knezleri, sonra Nikola Zrinski; Osmanlı 1557 (atlas 1556 — çelişki raporda) — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1557-01-01",d:"macaristan-habsburg",kesinlik:{t:"yil"},kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Novi Grad': 1280 Castrum Novum; XVI. yy başına dek Babonić knezleri, sonra Nikola Zrinski; Osmanlı 1557 (atlas 1556 — çelişki raporda) · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Novi...shall be drawn out...left entirely free\". Fetih: aynı kaynak (Kostajnica ile birlikte), 1556 ⇒ DÜZELTİLDİ 1557 (HE 'Bosanski Novi', KASA-BOSNA-EK29-1010) — Herseknovi (Herceg Novi) ile KARIŞTIRILMASIN, ayrı yer." },
 
@@ -6325,14 +6324,14 @@ window.YERLESIMLER_EK29 = [
   d:[{f:"1536-01-01",kaynak:"BOSNA-MACAR-0087 (0087/H-0016): HE (enciklopedija.hr) 'Jasenovac': 'Bosanski sandžak-beg Husrev-beg osvojio ga je 1536.' (YIL) — eski 1538 Dubiça'dan KOMŞU EMSALİYDİ",t:"1699-01-26"}],
   s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Jasenovac': XIV. yy'da yerleşim ve kale; Husrev Bey 1536 (atlas 1538 — çelişki raporda) ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): veri artık 1536 (BOSNA-MACAR-0087), çelişki kapanmış — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1536-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Jasenovac': XIV. yy'da yerleşim ve kale; Husrev Bey 1536 (atlas 1538 — çelişki raporda) ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): veri artık 1536 (BOSNA-MACAR-0087), çelişki kapanmış · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1699-01-26",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Sessenovizza...shall be drawn out...left entirely free\". Fetih tarihi bulunamadı — komşu emsali (Bosna Dubiçası, 1538) kullanıldı, dogrulanmadi. ⇒ ÇÜRÜTÜLDÜ (KASA-BOSNA-EK29-1010): HE 'Jasenovac' 1536 — veri zaten 1536 (BOSNA-MACAR-0087)." },
 
 { ad:"Bosna Brod'u (Bosanski Brod)",isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"TDV bosna-hersek: '29 Temmuz'da başlayan işgal 20 Ekim 1878'de tamamlandı' · f: Bosna kayıtlarının baskın günü (14 kayıt), tek tek düşüş günü bulunamadı · bitiş ilhak 1908-10-05 · PAKET-0076-BITIR-1004 A3 (0076/H-0043·H-0057)"}], tur:"kale", lat:45.138, lon:17.988, g:0, k:3,
   neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı; 1538 tarihi de komşu emsali (Dubiça) olup KENDİ kaynağı yok. ⇒ GÜNCEL DEĞİL (KASA-BOSNA-EK29-1010, 10 Eki 2026): Osmanlı öncesi dilimler SONRADAN HE (enciklopedija.hr) ile araştırıldı — s[0] kaynak: KORIDOR-0081 H-0030 · s[1] BOSNA-MACAR-0087; bu neden: o güncellemeden kalma. '1538 komşu emsali' iddiası da ÇÜRÜTÜLDÜ: HE kendi şehir maddesinde 1536 veriyor (d[0] kaynak:).",
   d:[{f:"1536-01-01",kaynak:"BOSNA-MACAR-0087 (0087/H-0016): HE (enciklopedija.hr) 'Bosanski Brod': 'Osmanlije su ga zauzeli 1536.' (YIL) — eski 1538 Dubiça'dan KOMŞU EMSALİYDİ, kendi kaynağı yoktu",t:"1718-07-21"},{f:"1739-09-28",t:"1908-10-05",kaynak:"Karlofça metni ('Bred on the part of Bosnia … shall be drawn out') · TDV karlofca · TDV bosna-hersek (1718 Sava şeridi · 1739 iade) · TDV mahmud-i--osmanli (28 Eylül 1739) · 1908 günü mevcut Bosna kayıtlarıyla aynı (K8 ayrı kalem)"}],
-  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Brod': Ortaçağda Boričević/Berislavić soylu mülkü; Osmanlı 1536 (atlas 1538 — çelişki raporda) ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): veri artık 1536 (BOSNA-MACAR-0087), çelişki kapanmış — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1536-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Brod': Ortaçağda Boričević/Berislavić soylu mülkü; Osmanlı 1536 (atlas 1538 — çelişki raporda) ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): veri artık 1536 (BOSNA-MACAR-0087), çelişki kapanmış · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1718-07-21",t:"1739-09-28",d:"avusturya"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Brod': Ortaçağda Boričević/Berislavić soylu mülkü; Osmanlı 1536 (atlas 1538 — çelişki raporda) ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): veri artık 1536 (BOSNA-MACAR-0087), çelişki kapanmış — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1536-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Brod': Ortaçağda Boričević/Berislavić soylu mülkü; Osmanlı 1536 (atlas 1538 — çelişki raporda) ⇒ GÜNCEL DEĞİL (KASA-BAYAT-OZILAN-1010): veri artık 1536 (BOSNA-MACAR-0087), çelişki kapanmış · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1718-07-21",t:"1739-09-28",d:"avusturya"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Bred...shall be drawn out...left entirely free\" — bu, SEMA-C-0911.md §3.1'deki Sava HAT segmentinin bitiş noktasıyla (TDV 'Brot Kalesi') aynı yer olabilir. Fetih tarihi bulunamadı — komşu emsali (Bosna Dubiçası, 1538) kullanıldı, dogrulanmadi. ⇒ ÇÜRÜTÜLDÜ (KASA-BOSNA-EK29-1010): HE 'Bosanski Brod' 1536 — veri zaten 1536 (BOSNA-MACAR-0087). Slavonski Brod (Sava'nın karşı/Hırvat yakası) ile KARIŞTIRILMASIN." },
 
@@ -6380,7 +6379,7 @@ window.YERLESIMLER_EK29 = [
 // kaynak: TDV `uskudar` (HTTP 200, gövdesi okundu)
 
 { ad:"Üsküdar", tur:"sehir", lat:41.0227, lon:29.0153, g:0, k:3, m:"İzmit",
-  s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1329-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 // ───────── ANADOLU KOLU ─────────
@@ -6390,7 +6389,7 @@ window.YERLESIMLER_EK29 = [
 // Karaman → 1414 kesin Osmanlı.
 // kaynak: bulunamadı (TDV bu taneciği kapsamıyor) — çizgi kardeş kayıt Akşehir'den
 { ad:"İshaklı", tur:"kasaba", lat:38.5439, lon:31.2447, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1415-03-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1415-03-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1415-03-01",t:"1920-04-23"}], v:[] },
 
 // ILGIN — Karaman beyliği toprağı, Konya (68 km) çizgisiyle aynı.
@@ -6399,25 +6398,25 @@ window.YERLESIMLER_EK29 = [
 //   ölçmedim diye yazıyorum; karşı kanıt çıkarsa eklenir.
 // kaynak: bulunamadı — çizgi kardeş kayıt Konya'dan
 { ad:"Ilgın",kaynak:"bulunamadı — çizgi kardeş kayıt Konya'dan (yerlesimler_ek29.js:288-290 yorumu)",m:"Konya", tur:"kasaba", lat:38.2792, lon:31.9139, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-07-28",t:"1402-09-15",d:"timurlu"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-07-28",t:"1402-09-15",d:"timurlu"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1920-04-23"}], v:[] },
 
 // KARAPINAR — Konya-Adana yolunun ortası, Karaman (66,5 km) çizgisiyle aynı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Karaman'dan
 { ad:"Karapınar",kaynak:"bulunamadı — çizgi kardeş kayıt Karaman'dan (yerlesimler_ek29.js:299-300 yorumu)",m:"Karaman", tur:"kasaba", lat:37.7156, lon:33.5514, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-07-28",t:"1402-09-15",d:"timurlu"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-07-28",t:"1402-09-15",d:"timurlu"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1920-04-23"}], v:[] },
 
 // ULUKIŞLA — Gülek Boğazı'nın kuzey ağzı, Niğde (49,7 km) çizgisiyle aynı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Niğde'den
 { ad:"Ulukışla",kaynak:"bulunamadı — çizgi kardeş kayıt Niğde'den (yerlesimler_ek29.js:307-308 yorumu)",m:"Niğde", tur:"kasaba", lat:37.5461, lon:34.4869, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1468-01-01",t:"1920-04-23"}], v:[] },
 
 // TOSYA — Kastamonu (45,8 km) çizgisiyle aynı: Candaroğlu, 1461'de kesin Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kastamonu'dan
 { ad:"Tosya",kaynak:"bulunamadı — çizgi kardeş kayıt Kastamonu'dan (yerlesimler_ek29.js:315-316 yorumu)",m:"Kastamonu", tur:"kasaba", lat:41.0161, lon:34.0397, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1309-01-01",d:"cobanogullari"},{f:"1309-01-01",t:"1392-11-01",d:"candar"},{f:"1402-07-28",t:"1461-06-01",d:"candar"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1309-01-01",d:"cobanogullari"},{f:"1309-01-01",t:"1392-11-01",d:"candar"},{f:"1402-07-28",t:"1461-06-01",d:"candar"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1392-11-01",t:"1402-07-28"},{f:"1461-06-01",t:"1920-04-23"}], v:[] },
 
 // 🟢 KARAHİSÂR-I ŞARKÎ — TEK TDV KAYNAKLI KÜME-2 NOKTASI
@@ -6436,20 +6435,20 @@ window.YERLESIMLER_EK29 = [
 //   burhaneddin 1381-1398 (ÇIKARIM) · 1398-1408 __BOSLUK__ (açık kalem, KASA) · gozleroglu 1408-1418
 //   (bitiş türetilmiş) · akkoyunlu 1418-1473 (TDV iç çelişkisi notta).
 { ad:"Karahisâr-ı Şarkî (Şebinkarahisar)", tur:"kale", lat:40.2886, lon:38.4247, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1381-01-01",d:"eretna"},{f:"1381-01-01",t:"1398-01-01",d:"burhaneddin",kaynak:"ÇIKARIMDIR — DOGU-ANADOLU-0085 (koordinatör hükmü Ⓐ, 9 Eki 2026). Gerekçe zinciri: TDV sebinkarahisar Eretna→1408 arasını boş bırakıyor; eretna künyesi 1381'de bitiyor; Eretna devletinin Sivas-Karahisar bölgesindeki ardılı Kadı Burhâneddin. Hiçbir kaynak Şebinkarahisar'ı adıyla Burhâneddin'e bağlamıyor. ⚠️ KASA çelişen bir kaynak bulursa bu hüküm DÜŞER. Bitiş 1398 = burhaneddin künyesinin t'si (Burhâneddin'in ölümü, YIL)"},{f:"1398-01-01",t:"1408-01-01",d:"__BOSLUK__",kaynak:"DOGU-ANADOLU-0085 · AÇIK KALEM (araştırma KASA'da): Osmanlı 1398 mi, Timur 1400 mü BİLİNMİYOR. TDV sebinkarahisar: 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun' — 1398-1408 için sahip VERMİYOR. Eski akkoyunlu bu dilimde TDV ile ÇELİŞİYORDU (0085 H-0004/H-0016 eksklavı); en yakın kimliğe İTİLMEDİ"},{f:"1408-01-01",t:"1418-01-01",d:"gozleroglu",kaynak:"TDV sebinkarahisar (gövde okundu 9 Eki 2026): 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun, on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti.' — f YIL. BİTİŞ 1418 TÜRETİLMİŞTİR, ölçüm DEĞİL: 'on yıl sonra' (811+10 = 821 h. ≈ 1418) — DOGU-ANADOLU-0085"},{f:"1418-01-01",t:"1473-08-11",d:"akkoyunlu",kaynak:"DOGU-ANADOLU-0085 · 1418-1459 akkoyunlu KORUNDU (koordinatör hükmü, D206). ⚠️ TDV İÇ ÇELİŞKİSİ (tuzak ⑥): TDV sebinkarahisar 'on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti' der; TDV akkoyunlular Karayülük'ün 1421 sonrası 'Karahisar’ı da oğlu Kemah hâkimi Yâkub Bey’e verdi[ğini]' ve 'Kemah-Erzincan-Karahisar hâkimi … Yâkub' der. Karakoyunlu yazılırsa Kemah/Erzincan/Kelkit akkoyunlu iken 1430-1459 arasında yeni bir Karakoyunlu eksklavı doğar. 1459-1473 iki madde de Akkoyunlu (akkoyunlular: 1464-65 'Şebinkarahisar’dan Siirt’e kadar … Akkoyunlu ülkesi')"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1381-01-01",d:"eretna"},{f:"1381-01-01",t:"1398-01-01",d:"burhaneddin",kaynak:"ÇIKARIMDIR — DOGU-ANADOLU-0085 (koordinatör hükmü Ⓐ, 9 Eki 2026). Gerekçe zinciri: TDV sebinkarahisar Eretna→1408 arasını boş bırakıyor; eretna künyesi 1381'de bitiyor; Eretna devletinin Sivas-Karahisar bölgesindeki ardılı Kadı Burhâneddin. Hiçbir kaynak Şebinkarahisar'ı adıyla Burhâneddin'e bağlamıyor. ⚠️ KASA çelişen bir kaynak bulursa bu hüküm DÜŞER. Bitiş 1398 = burhaneddin künyesinin t'si (Burhâneddin'in ölümü, YIL)"},{f:"1398-01-01",t:"1408-01-01",d:"__BOSLUK__",kaynak:"DOGU-ANADOLU-0085 · AÇIK KALEM (araştırma KASA'da): Osmanlı 1398 mi, Timur 1400 mü BİLİNMİYOR. TDV sebinkarahisar: 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun' — 1398-1408 için sahip VERMİYOR. Eski akkoyunlu bu dilimde TDV ile ÇELİŞİYORDU (0085 H-0004/H-0016 eksklavı); en yakın kimliğe İTİLMEDİ"},{f:"1408-01-01",t:"1418-01-01",d:"gozleroglu",kaynak:"TDV sebinkarahisar (gövde okundu 9 Eki 2026): 'Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun, on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti.' — f YIL. BİTİŞ 1418 TÜRETİLMİŞTİR, ölçüm DEĞİL: 'on yıl sonra' (811+10 = 821 h. ≈ 1418) — DOGU-ANADOLU-0085"},{f:"1418-01-01",t:"1473-08-11",d:"akkoyunlu",kaynak:"DOGU-ANADOLU-0085 · 1418-1459 akkoyunlu KORUNDU (koordinatör hükmü, D206). ⚠️ TDV İÇ ÇELİŞKİSİ (tuzak ⑥): TDV sebinkarahisar 'on yıl sonra Karakoyunlu Türkmenleri’nin, 864’te (1459-60) ise Akkoyunlular’ın eline geçti' der; TDV akkoyunlular Karayülük'ün 1421 sonrası 'Karahisar’ı da oğlu Kemah hâkimi Yâkub Bey’e verdi[ğini]' ve 'Kemah-Erzincan-Karahisar hâkimi … Yâkub' der. Karakoyunlu yazılırsa Kemah/Erzincan/Kelkit akkoyunlu iken 1430-1459 arasında yeni bir Karakoyunlu eksklavı doğar. 1459-1473 iki madde de Akkoyunlu (akkoyunlular: 1464-65 'Şebinkarahisar’dan Siirt’e kadar … Akkoyunlu ülkesi')"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1473-08-11",t:"1920-04-23"}], v:[] },
 
 // KELKİT — Erzincan (42,3 km) çizgisiyle aynı: Mutahharten sonrası Akkoyunlu,
 // 1473 Otlukbeli'yle Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzincan'dan
 { ad:"Kelkit",kaynak:"bulunamadı — çizgi kardeş kayıt Erzincan'dan (yerlesimler_ek29.js:341-343 yorumu)",m:"Erzincan", tur:"kasaba", lat:40.1281, lon:39.4381, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},{f:"1402-07-28",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"},{f:"1916-07-22",t:"1917-03-15",d:"rusya",kaynak:"T.C. Kelkit Kaymakamlığı tarihçe (KURUMSAL, akademik değil): Rus işgali 22 Temmuz 1916 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-17",d:"transkafkasya",kaynak:"T.C. Kelkit Kaymakamlığı tarihçe (KURUMSAL): geri alınış 17 Şubat 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},{f:"1402-07-28",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"},{f:"1916-07-22",t:"1917-03-15",d:"rusya",kaynak:"T.C. Kelkit Kaymakamlığı tarihçe (KURUMSAL, akademik değil): Rus işgali 22 Temmuz 1916 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-17",d:"transkafkasya",kaynak:"T.C. Kelkit Kaymakamlığı tarihçe (KURUMSAL): geri alınış 17 Şubat 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1401-02-01",t:"1402-07-28"},{f:"1473-08-11",t:"1916-07-22"},{f:"1918-02-17",t:"1920-04-23"}], v:[] },
 
 // AŞKALE — Erzurum (48,9 km) çizgisiyle aynı: Akkoyunlu → Safevî → 1518 Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzurum'dan
 { ad:"Aşkale", tur:"kasaba", lat:39.9214, lon:40.6939, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1360-01-01",d:"ilhanli",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1360-01-01",t:"1385-01-01",d:"eretna",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1385-01-01",t:"1387-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1387-01-01",t:"1403-01-01",d:"timurlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1403-01-01",t:"1408-01-01",d:"mutahharten",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1408-01-01",t:"1467-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1502-01-01",t:"1518-01-01",d:"safevi"},{f:"1916-02-24",t:"1917-03-15",d:"rusya",kaynak:"Sarı (TÜBA c.9 böl.7 Bayburt): Aşkale'nin Rus işgali 24 Şubat 1916; Aşkale Kaymakamlığı '16 Şubat' der (Erzurum'un günü, çelişki) — akademik esas · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-03-03",d:"transkafkasya",kaynak:"T.C. Aşkale Kaymakamlığı tarihçe (KURUMSAL): geri alınış 3 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1360-01-01",d:"ilhanli",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1360-01-01",t:"1385-01-01",d:"eretna",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1385-01-01",t:"1387-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1387-01-01",t:"1403-01-01",d:"timurlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1403-01-01",t:"1408-01-01",d:"mutahharten",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1408-01-01",t:"1467-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1502-01-01",t:"1518-01-01",d:"safevi"},{f:"1916-02-24",t:"1917-03-15",d:"rusya",kaynak:"Sarı (TÜBA c.9 böl.7 Bayburt): Aşkale'nin Rus işgali 24 Şubat 1916; Aşkale Kaymakamlığı '16 Şubat' der (Erzurum'un günü, çelişki) — akademik esas · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-03-03",d:"transkafkasya",kaynak:"T.C. Aşkale Kaymakamlığı tarihçe (KURUMSAL): geri alınış 3 Mart 1918 · NOKTA-KAFKAS-0077 §6 · UYGULA-YERLESIM-0930"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1518-01-01",t:"1916-02-24"},{f:"1918-03-03",t:"1920-04-23"}], v:[] },
 
 // ───────── RUMELİ KOLU ─────────
@@ -6460,13 +6459,13 @@ window.YERLESIMLER_EK29 = [
 //   Bugünkü çizgi 1453'ü esas alıyor — eksik ama YANLIŞ değil.
 // kaynak: bulunamadı — çizgi kardeş kayıt İstanbul'dan
 { ad:"Silivri", tur:"kale", lat:41.0791, lon:28.2493, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1453-05-29",t:"1920-04-23"}], v:[] },
 
 // VİZE — Demirköy (27,9 km) çizgisiyle aynı, Balkan Savaşı Bulgar işgali dâhil.
 // kaynak: bulunamadı — çizgi kardeş kayıt Demirköy'den
 { ad:"Vize", tur:"kale", lat:41.5714, lon:27.7658, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   isg:[{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi",kaynak:"Bulgar işgali (de facto): gün aralığı atlasın önceki s: kaydından devralındı, YENİ GÜN İDDİA EDİLMEDİ · de jure Osmanlı: İstanbul Antlaşması (29 Eylül 1913) Edirne ve Kırklareli'ni Osmanlı'da bıraktı (hüküm SINIR-BERLIN-0076 raporundan; TDV sayfası bu oturumda yeniden çekilmedi) · Emre H-0138/H-0143/H-0146 (işgal olarak gösterilsin) · SIRADA-B-1012; tarif: SINIR-BERLIN-0076 B1"}], d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize · Timurtaş Kızılcaağaç Yenicesi — YIL 1369, gün yok (§4)"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 // PREVADİ (Provadia) — Şumnu (41,6 km) çizgisiyle aynı: 1878 Berlin'den sonra
@@ -6478,7 +6477,7 @@ window.YERLESIMLER_EK29 = [
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"}],
+     {f:"1908-10-05",t:"1946-09-15",d:"bulgaristan-kralligi"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}],
   d:[{f:"1388-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}],
   v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi"}] },
 
@@ -6499,7 +6498,7 @@ window.YERLESIMLER_EK29 = [
 //   1878-07-13 Berlin (Romanya'ya devir) günlerine yaslandı
 
 { ad:"Babadağı (Babadag)", kd:[{f:"1281-01-01",t:"1393-09-01",k:0,m:null},{f:"1593-01-01",t:"1788-12-17",k:3,m:"Özi"}], tur:"kasaba", lat:44.8917, lon:28.7169, g:0, k:3, m:"Özi",
-  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1416-01-01",d:"eflak",kaynak:"TDV babadagi: 'Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)' · TDV dobruca: 'Mircea Ankara Savaşı'ndan sonraki karışıklıklar sırasında tekrar Dobruca'ya girmiş' · f = Ankara günü (giriş günü BULUNAMADI) · t = YIL · PAKET-0076-DOBRUCA-1004 (A)"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1416-01-01",d:"eflak",kaynak:"TDV babadagi: 'Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)' · TDV dobruca: 'Mircea Ankara Savaşı'ndan sonraki karışıklıklar sırasında tekrar Dobruca'ya girmiş' · f = Ankara günü (giriş günü BULUNAMADI) · t = YIL · PAKET-0076-DOBRUCA-1004 (A)"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1947-12-30",d:"romanya-kralligi"},{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}],
   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1416-01-01",t:"1878-07-13"}], v:[] },
 
 // PAKET-0076-DOBRUCA-1004 B (5 Ekim 2026) — Güney Dobruca'nın İÇİNDE nokta 0'dı (8a g3-bg-ro-dobruca-p4 kökü:
@@ -6513,11 +6512,11 @@ window.YERLESIMLER_EK29 = [
   d:[{f:"1518-01-01",t:"1878-07-13",kaynak:"TDV hacioglupazarcigi: 924 (1518) tahriri, Silistre sancağı / Varna kazası · bitiş Berlin (Prenslik noktalarının ortak günü)"}],
   v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi",kaynak:"TDV hacioglupazarcigi: '1877-1878 savaşından sonra Hacıoğlu ve bölgesi yeni kurulan Bulgaristan’ın bir parçası oldu' · Berlin 1878-07-13"}],
   s:[{f:"1908-10-05",t:"1913-08-10",d:"bulgaristan-kralligi",kaynak:"TDV bulgaristan: bağımsızlık 5 Ekim 1908"},
-     {f:"1913-08-10",t:"1923-10-29",d:"romanya-kralligi",kaynak:"TDV dobruca: 'Bükreş Antlaşması ile (1913) Bulgaristan Dobruca’nın güneyini de Romanya’ya terketmiş' · gün TDV balkan-savasi '10 Ağustos 1913’te … Bükreş Antlaşması' · Silistre kaydıyla aynı gün (A8)"}] },
+     {f:"1913-08-10",t:"1940-09-25",d:"romanya-kralligi",kaynak:"TDV dobruca: 'Bükreş Antlaşması ile (1913) Bulgaristan Dobruca’nın güneyini de Romanya’ya terketmiş' · gün TDV balkan-savasi '10 Ağustos 1913’te … Bükreş Antlaşması' · Silistre kaydıyla aynı gün (A8)"},{f:"1940-09-25",t:"1946-09-15",d:"bulgaristan-kralligi",kaynak:"Britannica 'Bulgaria'; Paris Barisi 1947"},{f:"1946-09-15",t:"1990-11-15",d:"bulgaristan-halk",kaynak:"LoC Bulgaria Country Study"},{f:"1990-11-15",t:"2000-12-31",d:"bulgaristan-cumhuriyeti",kaynak:"LoC Bulgaria Country Study"}] },
   // isg YAZILMADI: 1877-78 Rus işgali ve 1916-18 Bulgar geri alışı — TDV gün vermiyor.
 
 { ad:"İshakçı (Isaccea)", tur:"kale", lat:45.2736, lon:28.4600, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1419-01-01",d:"eflak",kaynak:"Stănică, A.-D., 'The Missing Fortresses in Dobrogea. Case Study: Turkish Fortifications', Dobrogea. Coordonate istorice și arheologice (2016), s. 4 dn. 3: 'Anca Ghiaţă has decided for an uninterrupted affiliation of Dobrogea to Wallachia from 1388 to the battles of 1419-1420' · s. 4: 'it’s only during the reign of Mihail, the successor of Mircea cel Bătrân in 1419 or the spring of 1420 that the Ottomans manage to extend their effective dominance over Dobrogea, the empire frontier being established on the line formed by the fortresses Enisala (Yeni-Sal) and Isaccea (Isakci) which become serhat (edge fortresses)' · f = Ankara günü (giriş günü bulunamadı) · t = YIL (1419 ya da 1420 ilkbaharı, D210) · ⚠️ 1402-1419 Eflak okuması BÖLGE düzeyindedir (Ghiaţă 'Dobrogea'); 1419/20 serhat cümlesi İsakçı'yı ADIYLA anar · Silistre/Köstence ile aynı zincir · PAKET-0076-ISHAKCI-1004"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1419-01-01",d:"eflak",kaynak:"Stănică, A.-D., 'The Missing Fortresses in Dobrogea. Case Study: Turkish Fortifications', Dobrogea. Coordonate istorice și arheologice (2016), s. 4 dn. 3: 'Anca Ghiaţă has decided for an uninterrupted affiliation of Dobrogea to Wallachia from 1388 to the battles of 1419-1420' · s. 4: 'it’s only during the reign of Mihail, the successor of Mircea cel Bătrân in 1419 or the spring of 1420 that the Ottomans manage to extend their effective dominance over Dobrogea, the empire frontier being established on the line formed by the fortresses Enisala (Yeni-Sal) and Isaccea (Isakci) which become serhat (edge fortresses)' · f = Ankara günü (giriş günü bulunamadı) · t = YIL (1419 ya da 1420 ilkbaharı, D210) · ⚠️ 1402-1419 Eflak okuması BÖLGE düzeyindedir (Ghiaţă 'Dobrogea'); 1419/20 serhat cümlesi İsakçı'yı ADIYLA anar · Silistre/Köstence ile aynı zincir · PAKET-0076-ISHAKCI-1004"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1947-12-30",d:"romanya-kralligi"},{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}],
   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1419-01-01",t:"1878-07-13"}], v:[],
   not:"Dobruca'nın Osmanlı'ya geçişinde ÜÇ OKUMA var (Stănică 2016, s. 4-5, dn. 3 ve 5): N. Iorga 1416 · C.C. Giurescu, Ştefănescu, Gh. I. Brătianu 1417 · A. Ghiaţă 1388'den 1419-1420 savaşlarına kadar KESİNTİSİZ Eflak. Yazar: 'The chronology of all these Ottoman conquests is not elucidated in detail.' Atlas Ghiaţă okumasını izler (yazarın kendi çerçevesi 'after the years 1419 to 1420'; Silistre · Köstence ile aynı); 1416 okuması Babadağı'nda TDV babadagi ile ayrıca yaşar (1416-1419 Babadağı adası kaynaklı). ⚠️ D208 çekincesi: 1402-1419 Eflak okuması Ghiaţă'nın 'Dobrogea' için verdiği BÖLGE hükmüdür (yalnız 1419/20 serhat cümlesi İsakçı'yı adıyla anar); İshakçı'ya ÖZEL bir kaynak çıkarsa bu hükmü geçersiz kılar (koordinatör, M-5818 cevabı)." },
 
@@ -6527,7 +6526,7 @@ window.YERLESIMLER_EK29 = [
   kur:"1431-01-01",
   kaynak:"koordinat: RAN (Repertoriul Arheologic Național, INP/cIMeC) cod 93655.02 / LMI IL-I-s-A-14051 — site poligonunun merkezi (eism.geo-spatial.ro PatrimoniuWM katman 6: 44,6886 K · 27,8311 D; öznitelik 'Lat' 44° 41' 38.182\" N) · RAN 'Reper': 'Oraşul se află la km. 104 de pe şoseaua Bucureşti - Constanţa (DN2), lângă fostul sat Piua Petrii, la vest de braţul Borcea.' · 'Forma de relief: câmpia Bărăganului' · P84-DOBRUCA-TUNA-1006",
   neden:"DJC Ialomița (Direcția Județeană pentru Cultură Ialomița), 'Situl arheologic medieval „Orașul de Floci” Giurgeni' (9 august 2016, djcialomita.ro): 'Prima atestare documentară se găsește din anul 1431, într-un document cu privilegii pentru negustorii braşoveni al Voievodului Dan al II-lea.' · 'Oraşul a fost ars în anul 1470 de către Domnul Ştefan cel Mare Voievod, în timpul conflictelor sale cu Voievodul Radu cel Frumos.' ⇒ kur = İLK ATESTASYON yılı (terminus ante quem; kuruluş yılı kaynakta YOK) — YIL (D210). Ştefan cel Mare'nin (Boğdan) 1470 saldırısı şehrin EFLAK tarafında olduğunu ayrıca gösterir." ,
-  s:[{f:"1431-01-01",t:"1462-06-01",d:"eflak",kaynak:"DJC Ialomița (Direcția Județeană pentru Cultură Ialomița), 'Situl arheologic medieval „Orașul de Floci” Giurgeni' (9 august 2016, djcialomita.ro): 'Prima atestare documentară se găsește din anul 1431, într-un document cu privilegii pentru negustorii braşoveni al Voievodului Dan al II-lea.' · 'Oraşul a fost ars în anul 1470 de către Domnul Ştefan cel Mare Voievod, în timpul conflictelor sale cu Voievodul Radu cel Frumos.' · bitiş = künye eflak 'tabi' f (1462-06-01) — KÜNYE PENCERESİDİR, kaynak değil (Eflak'ın bütün noktalarıyla ortak)"},{f:"1877-05-09",t:"1881-03-26",d:"romanya",kaynak:"TDV romanya: '9 Mayıs 1877 tarihinde bağımsızlığını ilân etti' (devlet düzeyi)"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
+  s:[{f:"1431-01-01",t:"1462-06-01",d:"eflak",kaynak:"DJC Ialomița (Direcția Județeană pentru Cultură Ialomița), 'Situl arheologic medieval „Orașul de Floci” Giurgeni' (9 august 2016, djcialomita.ro): 'Prima atestare documentară se găsește din anul 1431, într-un document cu privilegii pentru negustorii braşoveni al Voievodului Dan al II-lea.' · 'Oraşul a fost ars în anul 1470 de către Domnul Ştefan cel Mare Voievod, în timpul conflictelor sale cu Voievodul Radu cel Frumos.' · bitiş = künye eflak 'tabi' f (1462-06-01) — KÜNYE PENCERESİDİR, kaynak değil (Eflak'ın bütün noktalarıyla ortak)"},{f:"1877-05-09",t:"1881-03-26",d:"romanya",kaynak:"TDV romanya: '9 Mayıs 1877 tarihinde bağımsızlığını ilân etti' (devlet düzeyi)"},{f:"1881-03-26",t:"1947-12-30",d:"romanya-kralligi"},{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}],
   d:[], v:[{f:"1462-06-01",t:"1859-01-24",k:"Eflak Voyvodalığı",statu:"vassal",kid:"eflak"},{f:"1859-01-24",t:"1877-05-09",k:"Birleşik Prenslikler (Romanya)",statu:"vassal",kid:"romanya"}],
   not:"Süreklilik (DJC Ialomița): 'Oraşul s-a refăcut ajungând la o maximă dezvoltare a sa în sec. XVI – XVII.' · 'Secolele XVIII și XIX au fost martorele decăderii oraşului … Astfel la sfârşitul secolului al XIX-lea pe locul oraşului s-a format satul Piua Petrii, dispărut și el în urma inundaţiilor din anul 1970.' ⇒ 1923'e kadar yerleşim (şehir → gerileme → Piua Petrii köyü); 'bit' YAZILMADI. ⚠️ BEYANLI BORÇ: Rus işgal örtüleri (isg 1806-1812 · 1828-1834) YAZILMADI — Buzău'nun günü 'komşudan: Bükreş', İbrail'inki 1809/1828 (kale kuşatması): zincirleme devralma yasak ve Tuna kıyısında gün farklı ⇒ kaynak bulununca eklenir." },
 
@@ -6535,7 +6534,7 @@ window.YERLESIMLER_EK29 = [
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
-{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{"f":"1281-01-01","t":"1439-08-27","d":"sirbistan"},{"f":"1444-08-01","t":"1459-06-20","d":"sirp-despotlugu"},{"f":"1689-09-24","t":"1690-09-09","d":"avusturya"},{"f":"1717-08-18","t":"1738-08-01","d":"avusturya","kaynak":"gün komşudan: Semendire (1738-08-01, TDV semendire: 'Avusturyalılar bu bölgede Ağustos 1738'e kadar kaldılar'; ay verir, gün vermez) — bu yer için ayrı kayıt BULUNAMADI (TDV'de müstakil madde yok; Britannica/Wikipedia/Hrvatska-Srpska enciklopedija taramasında yer düzeyinde kayıt çıkmadı; Semendire'ye uzaklık Jagodina ~60 km, Kragujevac ~70 km, Çaçak ~100 km — son ikisi komşu günü kuralının en uç kullanımı) · SIRADA-A-1012 (Emre kararı 13 Ekim 2026)"},{"f":"1878-07-13","t":"1882-03-06","d":"sirbistan-prensligi"},{"f":"1882-03-06","t":"1918-12-01","d":"sirbistan-kralligi"},{"f":"1918-12-01","t":"1923-10-29","d":"yugoslavya"}],d:[{"f":"1439-08-27","t":"1444-08-01"},{"f":"1459-06-20","t":"1689-09-24"},{"f":"1690-09-09","t":"1717-08-18"},{"f":"1738-08-01","t":"1830-10-17"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
+{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{"f":"1281-01-01","t":"1439-08-27","d":"sirbistan"},{"f":"1444-08-01","t":"1459-06-20","d":"sirp-despotlugu"},{"f":"1689-09-24","t":"1690-09-09","d":"avusturya"},{"f":"1717-08-18","t":"1738-08-01","d":"avusturya","kaynak":"gün komşudan: Semendire (1738-08-01, TDV semendire: 'Avusturyalılar bu bölgede Ağustos 1738'e kadar kaldılar'; ay verir, gün vermez) — bu yer için ayrı kayıt BULUNAMADI (TDV'de müstakil madde yok; Britannica/Wikipedia/Hrvatska-Srpska enciklopedija taramasında yer düzeyinde kayıt çıkmadı; Semendire'ye uzaklık Jagodina ~60 km, Kragujevac ~70 km, Çaçak ~100 km — son ikisi komşu günü kuralının en uç kullanımı) · SIRADA-A-1012 (Emre kararı 13 Ekim 2026)"},{"f":"1878-07-13","t":"1882-03-06","d":"sirbistan-prensligi"},{"f":"1882-03-06","t":"1918-12-01","d":"sirbistan-kralligi"},{"f":"1918-12-01","t":"1945-11-29","d":"yugoslavya"},{"f":"1945-11-29","t":"1992-04-27","d":"yugoslavya-federal","kaynak":"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{"f":"1992-04-27","t":"2000-12-31","d":"yugoslavya-federal-cumhuriyeti","kaynak":"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],d:[{"f":"1439-08-27","t":"1444-08-01"},{"f":"1459-06-20","t":"1689-09-24"},{"f":"1690-09-09","t":"1717-08-18"},{"f":"1738-08-01","t":"1830-10-17"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
   v:[{"f":"1830-10-17","t":"1878-07-13"}] },
 
 // PRAVİŞTE (Eleftheroupoli) — Kavala (13,8 km) çizgisiyle aynı.
@@ -6543,7 +6542,7 @@ window.YERLESIMLER_EK29 = [
 //   Ayrı bir menzil konağıdır, Kavala'nın mahallesi değil.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kavala'dan
 { ad:"Praviște (Eleftheroupoli)",kaynak:"kavala", tur:"kasaba", lat:40.9167, lon:24.2500, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1913-08-10",d:"bulgaristan-kralligi"},{f:"1913-08-10",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1913-08-10",d:"bulgaristan-kralligi"},{f:"1913-08-10",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 // LANZAKA (Lagkadas) — Selanik (16 km) çizgisine yaslandı.
@@ -6555,7 +6554,7 @@ window.YERLESIMLER_EK29 = [
 // kaynak: bulunamadı — çizgi Selanik (fetih ve 1912 devir) ile Serez
 //   (Fetret deseni) kayıtlarından
 { ad:"Lanzaka (Lagkadas)",kaynak:"atina-antlasmasi",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"kasaba", lat:40.7500, lon:23.0667, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}], v:[] },
 
 // ═══════════════════ KÜME 4 — LÜBNAN EMİRLİĞİ / HARFÛŞOĞULLARI ÇAPASI (KITA 2, 12 Eylül 2026) ═══════════════════
@@ -6622,7 +6621,7 @@ window.YERLESIMLER_EK29 = [
   neden:"'Ma'noğulları/Şihaboğulları'nın BAŞKENTİYDİ' iddiası yalnız Wikipedia'da var, TDV/Britannica'da DOĞRULANAMADI (hazırlık dosyası ②). Nokta ve v: bağı, künyenin kendi f/t penceresi ile TAM örtüştüğü ve TDV'nin doğruladığı 'Şûf bölgesi nüfuzu' gerekçesiyle sağlam; yalnız 'başkent' sıfatı doğrulanmamış kaldı.",
   s:[{f:"1281-01-01",t:"1516-10-01",d:"memluk"},
      {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
-     {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+     {f:"1920-07-24",t:"1943-11-22",d:"suriye-lubnan-mandasi"},{f:"1943-11-22",t:"2000-12-31",d:"lubnan-cumhuriyeti",kaynak:"Britannica 'Lebanon' (bagimsizlik 22 Kasim 1943)"}],
   v:[{f:"1516-10-01",t:"1842-01-01",statu:"özerk",kid:"lubnan-emirligi"},
      {f:"1861-06-09",t:"1915-07-11",statu:"özerk",kid:"cebel-i-lubnan-mutasarrifligi"}],
   d:[{f:"1842-01-01",t:"1861-06-09"},{f:"1915-07-11",t:"1918-10-08"}],
@@ -6637,7 +6636,7 @@ window.YERLESIMLER_EK29 = [
 // eklendi (1516-09-27→1521-01-01, Harfûş ailesinin fiilen yerleşmesine
 // kadar). Harfûşoğulları künyesinin kendi f:'i (1521-01-01) DEĞİŞMEDİ.
 { ad:"Ba'lebek (Baalbek)", tur:"kasaba", lat:34.0059, lon:36.2181, g:0, k:3, m:"Şam",
-  s:[{f:"1260-01-01",d:"ilhanli",kaynak:"TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · Moğol = Hülâgû'nun Suriye seferi (İlhanlı). 1174 Selâhaddin · 1182-1230 Behram Şah · 1230 el-Eşref tanıklıkları Eyyûbî kol eşlemesi tarihsiz olduğundan YAZILMADI · ZAMAN-Z6-1008",t:"1260-09-03",kesinlik:{f:"yil",t:"gun"}},{f:"1260-09-03",t:"1516-09-27",d:"memluk",kaynak:"f 1281-01-01'den geri çekildi — TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR) · ZAMAN-Z6-1008"},{f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  s:[{f:"1260-01-01",d:"ilhanli",kaynak:"TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · Moğol = Hülâgû'nun Suriye seferi (İlhanlı). 1174 Selâhaddin · 1182-1230 Behram Şah · 1230 el-Eşref tanıklıkları Eyyûbî kol eşlemesi tarihsiz olduğundan YAZILMADI · ZAMAN-Z6-1008",t:"1260-09-03",kesinlik:{f:"yil",t:"gun"}},{f:"1260-09-03",t:"1516-09-27",d:"memluk",kaynak:"f 1281-01-01'den geri çekildi — TDV balebek: 'Eyyûbîler’in idaresinde de birçok defa el değiştirdi ve 1260’ta Moğollar’ın eline geçti; ancak Memlük Sultanı Kutuz’un Aynicâlût’ta kazandığı zafer üzerine Memlükler’in idaresine girdi.' · gün komşudan: TDV aynicalut-savasi '3 Eylül 1260' (ALT SINIR) · ZAMAN-Z6-1008"},{f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1943-11-22",d:"suriye-lubnan-mandasi"},{f:"1943-11-22",t:"2000-12-31",d:"lubnan-cumhuriyeti",kaynak:"Britannica 'Lebanon' (bagimsizlik 22 Kasim 1943)"}],
   v:[{f:"1521-01-01",t:"1850-01-01",statu:"özerk",kid:"harfusogullari"}],
   d:[{f:"1516-09-27",t:"1521-01-01"},{f:"1850-01-01",t:"1918-10-08"}],
   kaynak:"TDV `balebek` (gövdesi okundu, `baalbek` slug'ı ona yönlendiriyor — §4② tuzağı): '1516'da Yavuz Sultan Selim'in Suriye seferi sırasında Osmanlı hâkimiyetine geçti... küçük beylerin, özellikle Harfûş ailesinin elinde kaldı' · '1850'de Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı'. Fetih günü Şam/Mercidabık (1516-09-27, komşu emsali) ile hizalandı; Harfûş hâkimiyeti künyenin kendi f:'i (1521-01-01, Canbirdi Gazâlî isyanı sonrası) ile başlıyor." },
@@ -6645,7 +6644,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Sûr (Tyre) — Lübnan", tur:"liman", lat:33.2704, lon:35.2038, g:0, k:3, m:"Sayda",
   s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},
      {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
-     {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+     {f:"1920-07-24",t:"1943-11-22",d:"suriye-lubnan-mandasi"},{f:"1943-11-22",t:"2000-12-31",d:"lubnan-cumhuriyeti",kaynak:"Britannica 'Lebanon' (bagimsizlik 22 Kasim 1943)"}],
   d:[{f:"1516-09-27",t:"1918-10-08"}], v:[],
   neden:"Emirlik/Mutasarrıflık'a v: BAĞLANMADI — TDV `sur--lubnan` idarî zincirini sancak-içi anlatıyor (Şam→Sayda→1865 Beyrut sancağı), Ma'noğlu Fahreddin'in müdahalesi biçimsel egemenlik değil başarısız bir onarım girişimi olarak geçiyor. Osmanlı doğrudanlığı hiç kesilmiyor.",
   kaynak:"TDV `sur--lubnan` (ilk sınav `sur` yanlış madde/kavram karışıklığı riski taşıyordu, doğru slug içerik okunarak doğrulandı — §4② tuzağı): 'Yavuz Sultan Selim'in 1516 Mercidâbık zaferinden sonra Sûr şehri de Osmanlı ülkesine katıldı.' Gün Şam kaydıyla (yerlesimler.js:665) hizalandı — aynı Mercidâbık seferi, komşu emsali (D084)." },
@@ -6654,7 +6653,7 @@ window.YERLESIMLER_EK29 = [
   neden:"DALGA-0064 · YAMA-0064-BALKAN #4 (KOSU13-YAMA, 17 Eyl 2026): Bihaç (24 km) ile Novi (25 km) arasında Una sağ yakasındaki Osmanlı sınır kalesi; Bihaç eksklavının ikinci bağı. 1565 öncesi (Hırvat-Macar dönemi) bağlılığı bu pakette araştırılmadı — nokta 1565'ten önce sahipsiz (kasıtlı).",
   kaynak:"HE Bosanska Krupa: 'Osmanlije su zaposjeli Krupu 1565'; Avusturya 1581, 1690, 1692, 1716'da kuşattı (alındığı yazılmıyor) · Korić 2016: 1787-88'de Una üzerinden malzeme gönderilen Osmanlı sınır kalesi · koordinat OSM düğüm 841364318 · 1908 günü Bosna kayıtlarının ortak günü (1878 işgali atlasta ayrı modellenmiyor)",
   d:[{f:"1565-01-01",t:"1908-10-05",kaynak:"HE Bosanska Krupa (YIL)"}],
-  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Bosanska Krupa': XIII. yy sonu hrvatska županija Pset; 1361 Kral I. Lajos, 1396 Kral Sigismund bağışı; 1531 Zrinski; Osmanlı 1565 — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1565-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Bosanska Krupa': XIII. yy sonu hrvatska županija Pset; 1361 Kral I. Lajos, 1396 Kral Sigismund bağışı; 1531 Zrinski; Osmanlı 1565 · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], v:[] },
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"BALKAN-MACAR-0081: TDV hirvatistan 1527 (YIL) · ÖNCEKİ: HE (enciklopedija.hr) 'Bosanska Krupa': XIII. yy sonu hrvatska županija Pset; 1361 Kral I. Lajos, 1396 Kral Sigismund bağışı; 1531 Zrinski; Osmanlı 1565 — Osmanlı fethinden önce hrvatsko-ugarsko krallığı içindeki beylik/soylu mülkü · krallık aidiyeti mülk sahiplerinden ÇIKARIM · 1526-08-29 = `macaristan` künye t: sınır işareti (Cetin seçimi 1527-01-01 alternatif) · KORIDOR-0081 H-0030"},{f:"1527-01-01",t:"1565-01-01",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: TDV hirvatistan 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … I. Ferdinand’ı kral olarak seçtiler' — YIL (Cetin maddesi 1527-01-01). Slavonya'nın ayrı tutumu bulunamadı · ÖNCEKİ: BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · HE 'Bosanska Krupa': XIII. yy sonu hrvatska županija Pset; 1361 Kral I. Lajos, 1396 Kral Sigismund bağışı; 1531 Zrinski; Osmanlı 1565 · Mohaç sonrası Hırvatistan Habsburg tacına geçti (Zagreb/Sisak ile aynı uç; atlas kaydı DAYANAK DEĞİL, künye sınırı) · KORIDOR-0081 H-0030"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}], v:[] },
 
 // ─────────────────────────────────────────────────────────────────────
 // BIHAC-NOKTA-0069 (19 Eyl 2026 · yama denetim/YAMA-BIHAC-NOKTA-0919.json ·
@@ -6673,7 +6672,7 @@ window.YERLESIMLER_EK29 = [
   s:[{f:"1281-01-01",t:"1523-01-01",d:"macaristan",kaynak:"USK: Frankopan/Mikulčić/Keglević — Hırvat-Macar krallığı soyluları"},
      {f:"1908-10-05",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1523-01-01",t:"1908-10-05",y:"kusatma",kesinlik:"yil",kaynak:"USK Ostrovica (1523, YIL) · 1908 günü Bosna kayıtlarının ortak günü"}],
   isg:[{f:"1878-09-18",t:"1908-10-05",d:"avusturya",kaynak:"USK: Osmanlı garnizonu 1878'e dek (YIL) · gün komşudan: Bihaç (Bihać) · TDV bihac (18 Eylül 1878, aynı 1878 Una harekâtı)"}],
   v:[] },
@@ -6685,7 +6684,7 @@ window.YERLESIMLER_EK29 = [
      {f:"1527-01-01",t:"1527-05-01",d:"macaristan-habsburg",kaynak:"BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · Cetin seçimi 1 Ocak 1527 (olaylar_p0050) · HE: Nisan 1527'de hâlâ Karlović'in"},
      {f:"1689-01-01",t:"1809-10-14",d:"avusturya",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1527-05-01",t:"1689-01-01",y:"kusatma",kesinlik:"ay",kaynak:"HE Udbina: 'potkraj svibnja' 1527 (AY; gün yok) → 1689 (YIL)"}],
   v:[] },
 
@@ -6696,7 +6695,7 @@ window.YERLESIMLER_EK29 = [
      {f:"1527-01-01",t:"1527-05-01",d:"avusturya",kaynak:"BALKAN-MACAR-0081 H-0027: Cetin seçimi 1527 (TDV hirvatistan YIL · olaylar_p0050) — Udbina kaydıyla aynı zincir; Lika Mayıs 1527 sonuna dek Karlović'in"},
      {f:"1689-01-01",t:"1809-10-14",d:"avusturya",kaynak:"HE Gospić (1689, YIL)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"HE Gospić (1689, YIL) · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1527-05-01",t:"1689-01-01",kesinlik:{f:"ay",t:"yil"},kaynak:"HE Gospić: 1527 (YIL) → 1689 (YIL) · BALKAN-MACAR-0081 H-0027: yıl damgası 1527-01-01 Cetin günüyle çakışıp Gospić'i Hırvatların Ferdinand'ı seçtiği gün Osmanlı gösteriyordu. Gün komşudan: Udbina · HE Udbina 'potkraj svibnja 1527' (AY) — aynı süreç (Lika-Krbava'nın 1527 düşüşü; olaylar_p0069 'Aynı yıl Gospić yöresi Senković ağalarına verildi'), ~31 km"}],
   v:[] },
 
@@ -6708,7 +6707,7 @@ window.YERLESIMLER_EK29 = [
      {f:"1638-01-01",t:"1670-01-01",d:"avusturya"},
      {f:"1791-08-04",t:"1809-10-14",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1636-01-01",t:"1638-01-01",kesinlik:"yil",kaynak:"HE Cetingrad 1636–38 (YIL)"},
      {f:"1670-01-01",t:"1791-08-04",kesinlik:"yil",kaynak:"HE Cetingrad 1670 (YIL) → Ziştovi"}],
   isg:[{f:"1790-01-01",t:"1791-08-04",d:"avusturya",kesinlik:"yil",kaynak:"HE Cetingrad 'zauzima ga 1790.' · Korić 2016 (Bašeskija) — YIL; Ziştovi'ye dek fiilî işgal"}],
@@ -6721,7 +6720,7 @@ window.YERLESIMLER_EK29 = [
      {f:"1527-01-01",t:"1592-01-01",d:"macaristan-habsburg",kaynak:"BOSNA-MACAR-0087 (0087/H-0024): kimlik avusturya → macaristan-habsburg — Habsburg'un bu topraktaki sıfatı Macar/Hırvat KRALIDIR, Avusturya arşidükü değil. TDV budin: 'diğer kısmı ise Macar tahtında hak iddia eden Habsburg hânedanına mensup … Ferdinand’ı (17 Aralık 1526) seçmişti' · TDV hirvatistan: 'Mohaç Muharebesi’nden bir yıl sonra (1527) … Hırvatlar … Habsburg hânedanına mensup I. Ferdinand’ı kral olarak seçtiler' · TDV macaristan: 'Macaristan’da Habsburglar’ın elindeki kısım'. Gün DEĞİŞMEDİ (künye macaristan-habsburg f ile hizalı) · Cetin Meclisi 1 Ocak 1527 · 1578 geçici Osmanlı işgali ('privremeno') modellenmedi"},
      {f:"1791-08-04",t:"1809-10-14",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde)"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `vojna-krajina`: \"Mirom u Schönbrunnu 1809. habsburški posjedi juzno od rijeke Save ušli su u sastav Ilirskih pokrajina ... Potkraj 1813. habsburške su trupe osvojile to područje\" — Sava'nın GÜNEYİ ölçütü · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde) · TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},
      {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
-     {f:"1920-06-04",t:"1923-10-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"}],
+     {f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1945-11-29",t:"1991-06-25",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-06-25",t:"2000-12-31",d:"hirvatistan",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1592-01-01",t:"1791-08-04",kesinlik:"yil",kaynak:"HE Drežnik Grad 1592 (YIL). 1683 ('kratak prekid') ve 1697–99 Habsburg aralıkları gün/ay yok — modellenmedi, rapor §5"}],
   isg:[{f:"1788-01-01",t:"1791-08-04",d:"avusturya",kesinlik:"yil",kaynak:"HE Drežnik Grad 'do 1788.' (YIL) · Korić 2016 1790 der — çelişki"}],
   v:[] }

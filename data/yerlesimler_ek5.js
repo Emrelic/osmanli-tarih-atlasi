@@ -78,7 +78,7 @@
 window.YERLESIMLER_EK5 = [
 
 { ad:"Gyula (Göle)", tur:"kale", lat:46.650, lon:21.277, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1566-09-02",d:"macaristan"},{f:"1699-01-26",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}],
+  s:[{f:"1281-01-01",t:"1566-09-02",d:"macaristan"},{f:"1699-01-26",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"TDV macaristan (Géza Dávid): '1867'de iki ülke arasında bir uzlaşma meydana geldi. Avusturya-Macaristan monarşisi ortaya çıktı'; Trianon (4 Haziran 1920) Macaristan'ın kaybı, arazi 'Hırvatistan hariç' sayılır. Nokta Macar tacı (Transleithania) toprağı — iç taksimat için akademik alıntı: bulunamadı (denetim/ONCE1281-MACAR-TAC-1004.md). Önceki yazım `avusturya` (Habsburg Avusturya) idi."},{f:"1918-11-11",t:"1946-02-01",d:"macaristan-naiplik"},{f:"1946-02-01",t:"1989-10-23",d:"macaristan-halk",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1989-10-23",t:"2000-12-31",d:"macaristan-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1566-09-02",t:"1699-01-26",y:"kusatma"}] },
 
 ];

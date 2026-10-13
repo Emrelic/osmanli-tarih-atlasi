@@ -75,7 +75,7 @@ window.YER_YAMA_OK110 = [
      {f:"1717-08-18",t:"1739-09-18",d:"avusturya"},
      {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},
      {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"2000-12-31",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1439-08-27",t:"1444-08-01"},
      {f:"1459-06-20",t:"1689-09-24"},
      {f:"1690-09-09",t:"1717-08-18"},

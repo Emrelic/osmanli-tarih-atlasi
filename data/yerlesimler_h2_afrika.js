@@ -108,27 +108,27 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Sükkût bölgesi — İkinci ile Üçüncü Şelâle arasındaki Nil kolu. Kerma ile
 // Vâdî Halfâ arasında 245 km boyunca tek nokta yoktu.
 { ad:"Delgo (Sükkût)", tur:"sehir", lat:20.126, lon:30.548, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mahas bölgesi; Nûbe'nin İkinci Şelâle'ye bakan kuzey ucu.
 { ad:"Abrî (Mahas)", tur:"sehir", lat:20.803, lon:30.352, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil'in büyük kıvrımının batı ucu — Debbe ile Merevî arasındaki eyer.
 { ad:"Kortî", tur:"sehir", lat:18.100, lon:31.567, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Atbara ile Nil'in birleştiği yer; Mecâzîb şeyhliğinin merkeziydi.
 { ad:"Ed-Dâmer", tur:"sehir", lat:17.598, lon:33.966, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Eski Meroe (Begravviye) piramitleri; Şendî ile Ed-Dâmer arasındaki halka.
 { ad:"Kabûşiyye", tur:"sehir", lat:16.883, lon:33.750, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // 🔴 MEHDÎ DEVLETİ'NİN BAŞKENTİ — ve atlasta HİÇ YOKTU.
@@ -139,7 +139,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // takılmıyor ve ayrı bir şehirdir.
 // 📌 `ek6`daki Çerkask vakasının aynısı: künyede yazılı BAŞKENT, haritada yok.
 { ad:"Ümmü Dermân", tur:"sehir", lat:15.645, lon:32.477, g:1, k:3, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -152,31 +152,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Mavi Nil boyunda Sennâr ile Vad Medenî arasındaki eyer.
 { ad:"Sincâ", tur:"sehir", lat:13.145, lon:33.932, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde adı geçen Müsellemiyye.
 { ad:"Müsellemiyye", tur:"sehir", lat:14.400, lon:33.325, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Rufâa", tur:"sehir", lat:14.767, lon:33.367, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Beyaz Nil'in sol yakası — Ed-Düveym ile Kosti arasındaki eski Kavâ.
 { ad:"El-Kavâ", tur:"sehir", lat:13.740, lon:32.500, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Beyaz Nil'in Kosti'den güneye uzanan kolu; Func'un güney sınır kuşağı.
 { ad:"Cebeleyn", tur:"sehir", lat:12.598, lon:32.816, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mavi Nil'in Habeşistan sınırındaki güney ucu; Fâzûğlî'nin devamı.
 { ad:"Kurmuk", tur:"sehir", lat:10.830, lon:34.283, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -192,48 +192,48 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Er-Rahad", tur:"sehir", lat:12.712, lon:30.648, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ümmü Rüvâbe", tur:"sehir", lat:12.903, lon:31.217, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kuzey Kordofan'ın çöle bakan ucu; Bâra ile Dârfûr arasındaki 300 km'lik
 // boşluğun ortası.
 { ad:"Sodirî", tur:"sehir", lat:14.423, lon:29.100, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nûbe dağları — TDV `muhammed-ahmed-el-mehdi` maddesinde "Nûbe dağları" ve
 // "Kadır bölgesi" olarak geçer; Mehdî'nin ilk sığındığı dağlık kuşak.
 { ad:"Dilling", tur:"sehir", lat:12.050, lon:29.650, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kâdûglî", tur:"sehir", lat:11.010, lon:29.717, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Talodi", tur:"sehir", lat:10.633, lon:30.383, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ebû Zabed", tur:"sehir", lat:12.350, lon:29.250, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Bâbanûsa ve Muglad: Batı Kordofan'ın Bahrülgazâl'e bakan güney ucu.
 { ad:"Muglad", tur:"sehir", lat:11.033, lon:27.733, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Bâbanûsa", tur:"sehir", lat:11.333, lon:27.817, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ğubeyş", tur:"sehir", lat:12.150, lon:27.383, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -286,33 +286,33 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kutum",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe (Nyala'ya bkz.)",m:"El-Fâşir", tur:"sehir", lat:14.200, lon:24.660, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Kebkâbiye",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:13.650, lon:24.083, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // TDV `darfur`: Cebel Merre, 3.071 m ile bölgenin en yüksek noktası ve
 // Keyra hânedanının çekirdek yurdu.
 { ad:"Cebel Merre", tur:"bolge", lat:12.950, lon:24.270, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Zâlincî",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.905, lon:23.483, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Ed-Da'în",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:11.462, lon:26.128, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Burâm",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:10.833, lon:25.167, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Ümmü Keddâde",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:13.600, lon:26.690, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // Dârfûr'un kuzeybatı ucu; Vaday Sultanlığı ile sınır.
@@ -327,7 +327,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   Dârfûr zinciri taşıyan bir noktanın Çad'da durması §3.5.1'in ta
 //   kendisidir (yanlış devletin toprağını boyamak) ve tahminle kapatılamaz.
 { ad:"Tîne (Dârfûr)",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:15.060, lon:23.000, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ===========================================================================
@@ -345,7 +345,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Nil-Kızıldeniz kervan yolunun Beca düğümü; Sevâkin ile Berber arasında
 // 300 km boyunca tek nokta yoktu.
 { ad:"Hayyâ", tur:"sehir", lat:18.317, lon:36.383, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde adı geçen Trinkitat; Tokar'ın
@@ -353,12 +353,12 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ⚠️ lon 37,750 → 37,700: ham koordinat kara maskesinin içindeydi ama
 // ülke poligonlarının HİÇBİRİNE düşmüyordu (kıyı çizgisi uyuşmazlığı).
 { ad:"Trinkitât", tur:"liman", lat:18.683, lon:37.700, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // Sevâkin ile Halâib arasındaki 350 km'lik kıyıda tek nokta yoktu.
 { ad:"Muhammed Kol", tur:"liman", lat:20.833, lon:37.150, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // Bûr Sûdân 1909'da Sevâkin'in yerine liman olarak kuruldu; öncesinde
@@ -366,7 +366,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // tarihinden başlar — YENİ GÜN İCAT EDİLMEDİ (bkz. dosya başı ilkesi;
 // Kesela kaydının 1840 çözümüyle aynı desen).
 { ad:"Bûr Sûdân", tur:"liman", lat:19.617, lon:37.216, g:0, k:3, m:"Sevâkin", kur:"1909-01-01",
-  s:[{f:"1909-01-01",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}], d:[], v:[] },
+  s:[{f:"1909-01-01",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ===========================================================================
 // 6) ERİTRE
@@ -383,26 +383,26 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Ağordat", tur:"sehir", lat:15.549, lon:37.889, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Barentu", tur:"sehir", lat:15.106, lon:37.590, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Nakfa", tur:"sehir", lat:16.667, lon:38.475, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Tesseney", tur:"sehir", lat:15.110, lon:36.660, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Adi Kayh", tur:"sehir", lat:14.845, lon:39.377, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Ğındâ", tur:"sehir", lat:15.500, lon:39.000, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 // ⚠️ Osmanlı dönemi yazılamadı — yukarıdaki bölüm notuna bakınız.
 { ad:"Debârve", tur:"sehir", lat:15.100, lon:38.833, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 // ===========================================================================
 // 7) CİBUTİ
@@ -414,19 +414,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Cibûtî", tur:"liman", lat:11.588, lon:43.145, g:1, k:3, kur:"1888-01-01",
-  s:[{f:"1888-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1888-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ⚠️ lat/lon 11,967/43,283'ten 11,993/43,278'e alındı (2,9 km kuzey): ham
 // koordinat Natural Earth 10m kara maskesinin DIŞINDA kalıyordu ve maske
 // dışı nokta HİÇ toprak sahibi olamaz (denetle.py konum denetimi).
 { ad:"Obok", tur:"liman", lat:11.993, lon:43.278, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Alî Sabîh", tur:"sehir", lat:11.156, lon:42.712, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Dikhil", tur:"sehir", lat:11.104, lon:42.370, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ===========================================================================
 // 8) HABEŞİSTAN — kuzey ve orta yayla (Tigre · Begemder · Gocam · Vollo · Şoa)
@@ -438,42 +438,42 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Semien dağlarının kapısı; Gondar ile Aksum arasındaki 200 km'lik boşluk.
 { ad:"Debârek", tur:"sehir", lat:13.157, lon:37.900, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // Gocam'ın merkezi; Nil kavsi içindeki bütün yayla noktasızdı.
 { ad:"Debre Markos", tur:"sehir", lat:10.350, lon:37.717, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Mota", tur:"sehir", lat:11.083, lon:37.867, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Bure (Gocam)", tur:"sehir", lat:10.700, lon:37.067, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Völdiya", tur:"sehir", lat:11.830, lon:39.600, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // II. Tewodros'un kalesi ve 1868 İngiliz seferinin hedefi.
 { ad:"Mekdelâ", tur:"kale", lat:11.410, lon:39.360, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ambo", tur:"sehir", lat:8.983, lon:37.850, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Fiçe", tur:"sehir", lat:9.800, lon:38.733, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Avaş", tur:"sehir", lat:8.983, lon:40.167, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Bâtî", tur:"sehir", lat:11.192, lon:40.017, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Hosaena", tur:"sehir", lat:7.550, lon:37.850, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Arba Minç", tur:"sehir", lat:6.033, lon:37.550, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 9) HABEŞİSTAN — ADAL/HARAR kuşağı (1887-01-06)
@@ -485,10 +485,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Dire Dava", tur:"sehir", lat:9.593, lon:41.866, g:0, k:3, kur:"1902-01-01",
-  s:[{f:"1902-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1902-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dagahbûr", tur:"sehir", lat:8.217, lon:43.567, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // 🔴 AVSA SULTANLIĞI — `avsa` kimliği ne renkli ne künyeli, ve UYDURULMADI.
 // TDV `etiyopya` açıkça yazıyor: Adal'ın merkezi 1577'de Denâkil bölgesindeki
@@ -496,7 +496,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // bir tahmin değil, kaynağın kendi cümlesidir. Sultanlık 1923'ten sonra da
 // sürdüğü için tek dönem hâlinde 1923-10-29'a kadar uzatıldı.
 { ad:"Asâyita (Avsa)", tur:"sehir", lat:11.567, lon:41.440, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"adal"}], d:[] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"adal"},{f:"1923-10-29",t:"1974-09-12",d:"habesistan",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"Britannica (ilgili devlet/ülke maddesi)"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}], d:[] },
 
 // ===========================================================================
 // 10) HABEŞİSTAN — BATI ve GÜNEY (Menelik'in ilhakları)
@@ -519,51 +519,51 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 { ad:"Nekemte", tur:"sehir", lat:9.088, lon:36.550, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Leka Nekemte Oromo krallığı — kimliği yok; habesistan yazmak §3.5.1 ters yönü olurdu",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Gimbî", tur:"sehir", lat:9.170, lon:35.833, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Vollega Oromo krallıkları — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dembîdollo", tur:"sehir", lat:8.533, lon:34.800, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Sayo/Vollega Oromo krallığı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Gore", tur:"sehir", lat:8.150, lon:35.533, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"İllûbâbor Oromo krallıkları — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Asella", tur:"sehir", lat:7.950, lon:39.133, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Arsi Oromo — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Goba", tur:"sehir", lat:7.010, lon:39.983, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ginir", tur:"sehir", lat:7.140, lon:40.708, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ağere Maryam", tur:"sehir", lat:5.633, lon:38.233, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Guci/Sidamo kuşağı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Yabelo", tur:"sehir", lat:4.883, lon:38.208, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Mega", tur:"sehir", lat:4.050, lon:38.300, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Moyale", tur:"sehir", lat:3.533, lon:39.050, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — kimlik yok; güneyi HALKA 6-7 (Kenya), kasten noktasız",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // Gambela 1907'de Mavi Nil ticaretinin iskelesi olarak kuruldu.
 { ad:"Gambela", tur:"liman", lat:8.250, lon:34.588, g:0, k:3, kur:"1907-01-01",
-  s:[{f:"1907-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1907-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 11) OGADEN — §3.5.1'in İKİ UÇLU ölçümü
@@ -583,19 +583,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kebrî Dehar", tur:"sehir", lat:6.733, lon:44.267, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Verder", tur:"sehir", lat:6.960, lon:45.350, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Gode", tur:"sehir", lat:5.950, lon:43.550, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Kelâfo", tur:"sehir", lat:5.600, lon:44.200, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dolo Odo", tur:"sehir", lat:4.167, lon:42.050, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 12) SOMALİLAND — İngiliz himayesi (1884-07-18)
@@ -612,20 +612,20 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Şeyh (Somaliland)", tur:"sehir", lat:9.933, lon:45.183, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Odveyne", tur:"sehir", lat:9.410, lon:45.062, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Borama", tur:"sehir", lat:9.936, lon:43.183, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Buhodle", tur:"sehir", lat:8.240, lon:46.320, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ⚠️ Derviş Devleti'nin merkezi (1913-1920) — bkz. bölüm notu.
 { ad:"Taleh", tur:"kale", lat:9.150, lon:48.417, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ===========================================================================
 // 13) SOMALİ — kuzeydoğu (Mecerteyn) ve orta (Hobyo)
@@ -639,13 +639,13 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Kandala", tur:"liman", lat:11.470, lon:49.868, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"İskuşubân", tur:"sehir", lat:10.283, lon:50.233, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"Bender Beyla", tur:"liman", lat:9.494, lon:50.812, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ===========================================================================
 // 14) SOMALİ — BENÂDİR ve CÛBÂ (1905-01-01)
@@ -664,29 +664,29 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Benâdir'in üç şehrinden üçüncüsü; TDV `somali` maddesinde adı geçer.
 { ad:"Berâve",kaynak:"makdisu", tur:"liman", lat:1.106, lon:44.031, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Afgoye",kaynak:"makdisu", tur:"sehir", lat:2.138, lon:45.120, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Bulo Burte", tur:"sehir", lat:3.848, lon:45.567, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Bardere", tur:"sehir", lat:2.348, lon:42.278, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Luuk", tur:"sehir", lat:3.802, lon:42.545, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Garbahârey", tur:"sehir", lat:3.328, lon:42.220, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Cilib", tur:"sehir", lat:0.489, lon:42.797, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 // ⚠️ Cûbâland dönemi yazılamadı — bkz. bölüm notu.
 { ad:"Kısmâyû", tur:"liman", lat:-0.358, lon:42.545, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ===========================================================================
 // 15) UMMAN — ZUFÂR ve VÜSTÂ kıyısı
@@ -703,31 +703,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Mirbât", tur:"liman", lat:16.993, lon:54.700, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // ⚠️ 17,037/54,400 → 17,057/54,404 (2,2 km iç): maske dışındaydı.
 { ad:"Tâka (Zufâr)", tur:"liman", lat:17.057, lon:54.404, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Hâsik", tur:"liman", lat:17.383, lon:55.283, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // ⚠️ 17,900/55,983 → 17,946/55,969 (5,3 km iç): maske dışındaydı.
 { ad:"Şüveymiye", tur:"liman", lat:17.946, lon:55.969, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Dukm", tur:"liman", lat:19.660, lon:57.707, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Muhût", tur:"sehir", lat:20.700, lon:58.100, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Tumreyt", tur:"sehir", lat:17.667, lon:54.024, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // Zufâr'ın çöle bakan iç ucu; eski kervan yolu üzerindeki Şisr/Ubâr.
 { ad:"Şisr", tur:"sehir", lat:18.257, lon:53.647, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU. Rub'ul Hâlî'nin güneybatı köşesi hiçbir devletin
 // fiilî idaresinde değildi; mevcut "Rub'ul Hâlî doğusu" ve "Hadramut"
@@ -780,83 +780,83 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ── Nil koridoru: Şilluk kuşağı, Mehdî hâkimiyeti VARDI ────────────────
 { ad:"Er-Renk", tur:"sehir", lat:11.750, lon:32.783, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı — `silluk` kimliği yok; Mısır Ekvatorya dönemi Değişmez 2 borcu doğuracağı için yazılamadı",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // Şilluk Krallığı'nın başkenti; 1898 Fâşoda buhranının yeri.
 { ad:"Fâşoda", tur:"sehir", lat:9.892, lon:32.117, g:1, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı'nın başkenti — `silluk` kimliği yok",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Malakal", tur:"sehir", lat:9.533, lon:31.661, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk kuşağı — `silluk` kimliği yok",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ── Yukarı Nil, Bahrülgazâl ve Ekvatorya: Mehdî hâkimiyeti YOKTU ───────
 { ad:"Nâsir", tur:"sehir", lat:8.608, lon:33.067, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı yok; Mısır ve Mehdî idaresi buraya ulaşmadı",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Akobo", tur:"sehir", lat:7.788, lon:33.033, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Anuak/Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Bentiu", tur:"sehir", lat:9.242, lon:29.803, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Meşra er-Rek", tur:"liman", lat:8.417, lon:29.283, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Bahrülgazâl iskelesi — Nuer/Dinka ülkesi, devlet teşkilâtı yok. ⚠️ Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için DÖNEM YAZILAMADI — bu not korunmalı. 🔴 27 Ağu 2026: cins `hata` idi ve `hata`, motorun DOLDURABİLDİĞİ TEK kova (uret_petek.py:3564 DOLDURULABILIR_BOS). Kayıt bir hata değil, bir PARK YERİ olarak `hata`ya konmuştu ve petek komşusuna katılıp 21.111 km² DOĞRUDAN OSMANLI boyanıyordu (0036/H-0001, G1). Komşuları Bentiu ve Vav zaten `devletsiz` olduğu için korunuyordu; bu kayıt korunmuyordu.",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Vav", tur:"sehir", lat:7.702, lon:27.990, g:1, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bahrülgazâl merkezi — Dinka/Cur ülkesi, kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Deym Zübeyr", tur:"kale", lat:7.700, lon:26.217, g:0, k:0,
   kasitli_bosluk:true,bos:"hata", neden:"Zübeyr Paşa'nın Bahrülgazâl karargâhı — Mısır dönemi yazılamadı (bkz. bölüm notu)",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Rumbek", tur:"sehir", lat:6.800, lon:29.678, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Tonc", tur:"sehir", lat:6.950, lon:28.683, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Şembe", tur:"liman", lat:7.156, lon:30.553, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nil iskelesi — Dinka ülkesi, kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Bor", tur:"sehir", lat:6.208, lon:31.558, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // Mısır Ekvatorya eyaletinin karargâhı; Cûbâ (1922) daha sonra bunun
 // 6 km güneyinde kuruldu, o yüzden Cûbâ AYRI nokta olarak yazılmadı.
 { ad:"Gondokoro", tur:"sehir", lat:4.900, lon:31.650, g:1, k:0,
   kasitli_bosluk:true,bos:"hata", neden:"Ekvatorya karargâhı — Mısır dönemi (1870-1885) Değişmez 2 borcu doğuracağı için yazılamadı",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Nimule", tur:"sehir", lat:3.600, lon:32.058, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya güney ucu — kimlik yok; güneyi HALKA 6-7 (Uganda), kasten noktasız",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Torit", tur:"sehir", lat:4.412, lon:32.570, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Latuka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Kapoeta", tur:"sehir", lat:4.767, lon:33.591, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Toposa ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Yambio", tur:"sehir", lat:4.572, lon:28.395, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok; en yakın komşuyla boyamak §3.5.1 ihlali olurdu",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Tembura", tur:"sehir", lat:5.610, lon:27.470, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ###########################################################################
 // ###  PARTİ 2 — birinci partiden SONRA yeniden ölçülen boşluklar         ###
@@ -931,50 +931,50 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Nil'in Ebû Hamed kavsi; A zinciri (1821-01-04).
 { ad:"Şereyk", tur:"sehir", lat:18.750, lon:33.600, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde "Kerari" olarak geçer; Halife
 // Abdullah'ın 2 Eylül 1898'de yenildiği yer.
 { ad:"Kerreri", tur:"sehir", lat:15.830, lon:32.480, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Cezîre'nin ortası — Mavi Nil ile Beyaz Nil arası (B zinciri).
 { ad:"El-Menâkıl", tur:"sehir", lat:14.200, lon:32.980, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mavi Nil'in Habeş sınırına bakan eyalet merkezi (B zinciri).
 { ad:"Ed-Damazîn", tur:"sehir", lat:11.789, lon:34.359, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kordofan kuzeyi (C zinciri).
 { ad:"Tendelti", tur:"sehir", lat:13.020, lon:31.870, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ümmü Bedr", tur:"sehir", lat:14.200, lon:27.900, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kızıldeniz tepeleri, Beca ülkesi (E zinciri).
 { ad:"Derûdeb", tur:"sehir", lat:17.550, lon:36.100, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // ── Dârfûr (D zinciri) ─────────────────────────────────────────────────
 { ad:"Mellît",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:14.130, lon:25.570, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Şa'riyye",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.900, lon:25.420, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Radom",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe. UYARI: bu Radom POLONYA'DAKİ şehir DEĞİL — koordinat 9,95°K/24,95°D, Güney Sudan/Darfur bölgesi (Radom Millî Parkı). ORHANGAZİ'nin şartnamesindeki 'Radom → Krakov' önerisi bu kaydı Polonya sanıyordu, YANLIŞ olurdu — s:/v: dizisi ötekilerle birebir aynı, Darfur kümesinin 11.'si.",m:"El-Fâşir", tur:"sehir", lat:9.950, lon:24.950, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ===========================================================================
@@ -983,31 +983,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 { ad:"Aveyl", tur:"sehir", lat:8.767, lon:27.400, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Rağa", tur:"sehir", lat:8.460, lon:25.680, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Feroge/Kresh kuşağı — kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Fangak", tur:"sehir", lat:9.070, lon:30.883, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Ler", tur:"sehir", lat:8.300, lon:30.140, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Pibor", tur:"sehir", lat:6.800, lon:33.133, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Murle ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Maridi", tur:"sehir", lat:4.917, lon:29.467, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande/Moru kuşağı — `zende` kimliği yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 { ad:"Yei", tur:"sehir", lat:4.090, lon:30.679, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya batı ucu — kimlik yok; batısı Lado kordonu",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}], d:[], v:[] },
 
 // ===========================================================================
 // 20) HABEŞİSTAN — parti 2
@@ -1017,37 +1017,37 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Vukro", tur:"sehir", lat:13.790, lon:39.600, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Alamata", tur:"sehir", lat:12.420, lon:39.550, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Nazret", tur:"sehir", lat:8.540, lon:39.270, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Cinka", tur:"sehir", lat:6.783, lon:36.667, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ── §10 zinciri: 1897-01-01 İŞARETLİ yer tutucu ────────────────────────
 { ad:"Şeşemene", tur:"sehir", lat:7.200, lon:38.600, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Arsi/Sidamo kuşağı — Oromo krallıklarının kimliği yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Dilla", tur:"sehir", lat:6.410, lon:38.310, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Guci/Sidamo kuşağı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Negele Borana", tur:"sehir", lat:5.330, lon:39.580, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Bedele", tur:"sehir", lat:8.450, lon:36.350, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"İllûbâbor Oromo krallıkları — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Mizan Teferi", tur:"sehir", lat:6.990, lon:35.580, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bench/Kaffa güneybatısı — kimlik yok",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ⚠️ Beni Şengûl şeyhlikleri XIX. yy'da Sudan (Func/Mısır) yörüngesindeydi;
 // Habeş-Sudan sınırı ancak 1902 Gwynn hattıyla çizildi ve bölgeyi
@@ -1055,14 +1055,14 @@ window.YERLESIMLER_H2_AFRIKA = [
 // 1897-01-01 yer tutucusu kullanıldı. YER TUTUCUDUR, hüküm değildir.
 { ad:"Asosa", tur:"sehir", lat:10.070, lon:34.530, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Beni Şengûl şeyhlikleri — kimlik yok; sınır 1902'de çizildi, 1897 YER TUTUCU",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ── Ogaden zinciri (§11 ile birebir) ───────────────────────────────────
 { ad:"İmi", tur:"sehir", lat:6.470, lon:42.170, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Filtu", tur:"sehir", lat:5.130, lon:40.750, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 // ===========================================================================
 // 21) ERİTRE — parti 2
@@ -1070,10 +1070,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Antik Adulis limanı; Masavva körfezinin güney ucu.
 { ad:"Zula", tur:"liman", lat:15.283, lon:39.700, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 { ad:"Adi Kuala", tur:"sehir", lat:14.680, lon:38.830, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}], d:[] },
 
 // ===========================================================================
 // 22) SOMALİ ve SOMALİLAND — parti 2
@@ -1081,46 +1081,46 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // ── Somaliland kıyısı (H zinciri) ──────────────────────────────────────
 { ad:"Lâs Hore", tur:"liman", lat:11.158, lon:48.198, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Mayd", tur:"liman", lat:11.000, lon:47.100, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Hîs", tur:"liman", lat:10.900, lon:46.900, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ── Orta Somali: Hobyo yörüngesi, tek dönem `somali` (§13 gerekçesi) ────
 { ad:"Dusa Mareb", tur:"sehir", lat:5.536, lon:46.386, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"Ceel Buur", tur:"sehir", lat:4.687, lon:46.618, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 { ad:"Ceel Dheere", tur:"liman", lat:3.845, lon:47.163, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ── Benâdir ve iç bölgesi (J zinciri, 1905-01-01) ──────────────────────
 { ad:"Cadale",kaynak:"makdisu", tur:"liman", lat:2.752, lon:46.310, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Vanlaveyn", tur:"sehir", lat:2.620, lon:44.890, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Diinsoor", tur:"sehir", lat:2.406, lon:42.972, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Hudur", tur:"sehir", lat:4.120, lon:43.890, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 { ad:"Ceel Barde", tur:"sehir", lat:4.570, lon:43.490, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}], d:[] },
 
 // ⚠️ Kısmâyû ile aynı sınıf: batısı İngiliz Cûbâland'ıydı (1895-1925) ve
 // o dönem canlı kırılma olmadığı için YAZILAMADI — bkz. §14 notu.
 // ⚠️ lon 40,930 → 41,150: Ceel Vaak sınır üstü bir kasabadır ve ham
 // koordinat KENYA'ya düşüyordu — Kenya halka 6-7, dokunmam sıra ihlali.
 { ad:"Ceel Vaak", tur:"sehir", lat:2.800, lon:41.150, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
+  s:[{f:"1281-01-01",t:"1927-01-01",d:"somali"},{f:"1927-01-01",t:"1941-02-25",d:"italyan-somali",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}], d:[] },
 
 // ===========================================================================
 // 23) UMMAN — parti 2
@@ -1129,14 +1129,14 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ⚠️ Üçü de kıyı noktası ve ham koordinatları maskenin DIŞINDA kalıyordu;
 // en yakın kara noktasına çekildi (7,3 · 3,7 · 2,4 km).
 { ad:"Cezîr (Sevkıra)", tur:"liman", lat:18.161, lon:56.537, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 { ad:"Râs Medreke", tur:"liman", lat:19.002, lon:57.792, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // Zufâr'ın batı ucu; Mehre/Hadramut sınırı.
 { ad:"Rahbût", tur:"liman", lat:16.762, lon:53.418, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
+  s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"2000-12-31",d:"umman"}], d:[] },
 
 // 🔴 KASTEN SAHİPSİZ — Umman'ın iç çölü; §15'teki güneybatı dolgusunun eşi.
 { ad:"Umman iç çölü", tur:"bolge", lat:20.100, lon:55.300, g:0, k:0,
@@ -1165,9 +1165,9 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[], d:[], v:[] },
 
 { ad:"İncibara", tur:"sehir", lat:10.950, lon:36.930, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1936-06-01",d:"habesistan"},{f:"1936-06-01",t:"1941-11-30",d:"italyan-dogu-afrikasi",kaynak:"Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)"},{f:"1941-11-30",t:"1974-09-12",d:"habesistan",kaynak:"Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi"},{f:"1974-09-12",t:"1991-05-28",d:"etiyopya-derg",kaynak:"Derg 1974-09-12"},{f:"1991-05-28",t:"1995-08-22",d:"etiyopya-gecis-hukumeti",kaynak:"TGE"},{f:"1995-08-22",t:"2000-12-31",d:"etiyopya-federal",kaynak:"1995 Anayasasi"}], d:[] },
 
 { ad:"Ceel Afveyn", tur:"sehir", lat:9.830, lon:47.200, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1960-06-26",d:"ingiltere"},{f:"1960-06-26",t:"1960-07-01",d:"somaliland-1960",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-07-01",t:"1991-05-18",d:"somali-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1991-05-18",t:"2000-12-31",d:"somaliland-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 ];

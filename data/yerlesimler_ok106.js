@@ -72,7 +72,7 @@ window.YERLESIMLER_OK106 = [
     d:[{f:"1703-01-01",t:"1774-07-21"}],
     s:[{f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"kerc" },
 
   // ── UMAN — TDV'nin GÖREMEDİĞİ yerin AKADEMİK kaynakla kapanması ─────
@@ -123,7 +123,7 @@ window.YERLESIMLER_OK106 = [
        {f:"1699-01-26",t:"1793-01-23",d:"lehistan"},
        {f:"1793-01-23",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     // d: 1674 — TDV `merzifonlu-kara-mustafa-pasa`: "Cemâziyelevvel 1085 (Ağustos 1674) …
     //   Human'ı (Uman) teslim aldı". AY hassasiyeti: §4 gereği YYYY-01-01 (YAMA-0052-UKRAYNA 10).
     d:[{f:"1674-01-01",t:"1699-01-26",y:"fetih",kaynak:"TDV merzifonlu-kara-mustafa-pasa: Lehistan'a ait kalelerden Human'ı (Uman) teslim aldı — Ağustos 1674, gün yok (§4)"}],
@@ -174,7 +174,7 @@ window.YERLESIMLER_OK106 = [
     s:[{f:"1441-01-01",t:"1475-06-06",d:"kirim",kesinlik:"yuzyil"},
        {f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV'de müstakil madde YOK (`kizikermen`·`gazikerman`·`gazi-kerman` 302; kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\". ⚠️ BAŞLANGIÇ 1441-01-01 bir ALT SINIRDIR, kuruluş günü DEĞİLDİR: kaynak \"15. yüzyıl ortası\" diyor, 1441 Kırım Hanlığı'nın kuruluşudur ve kalenin Tatar dönemi ondan önce başlayamaz. `kesinlik:\"yuzyil\"` bu belirsizliği taşır. Bu günün külliyatta karşılığı olması bir YAN FAYDADIR, GEREKÇE DEĞİL — tarih o yüzden seçilmedi" },
 
   // ── KREMENÇUK ──────────────────────────────────────────────────────
@@ -192,7 +192,7 @@ window.YERLESIMLER_OK106 = [
     s:[{f:"1571-01-01",t:"1654-01-18",d:"lehistan"},
        {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\"" },
 
   // ── LUBNI — atlas ufkundan ESKİ, o yüzden `kur:` YOK ────────────────
@@ -207,7 +207,7 @@ window.YERLESIMLER_OK106 = [
   //    55 km kuzeybatısında, aynı alayda ve aynı siyasî çemberde.
   // 🟢 Yeni gün doğurmaz: iki gün de Poltava'da ZATEN kullanılıyor.
   { ad:"Lubnı", tur:"sehir", lat:50.0200, lon:33.0000, g:0, k:3,
-    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Lubny\"; 1281-1654 zinciri komşu Poltava kaydının kalıbıdır (tutarlılık seçimi, kaynak günü değil)" },
 
   // ── SUMI ───────────────────────────────────────────────────────────
@@ -221,7 +221,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1652-01-01",
     s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Sumy\"" },
 
   // ── ÇUGUYEV ────────────────────────────────────────────────────────
@@ -233,7 +233,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1638-01-01",
     s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Chuhuiv\"" },
 
   // ── İZYUM ──────────────────────────────────────────────────────────
@@ -250,7 +250,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1681-01-01",
     s:[{f:"1681-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Izium\"" },
 
   // ── BAHMUT ─────────────────────────────────────────────────────────
@@ -266,7 +266,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1703-01-01",
     s:[{f:"1703-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Bakhmut\"" },
 
   // ── YELİSAVETGRAD (Aziz Yelizaveta Kalesi) ─────────────────────────
@@ -283,7 +283,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1754-01-01",
     s:[{f:"1754-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" },
 
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
@@ -302,7 +302,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1652-01-01",
     s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Ostrohozke\"" }
 
 ];

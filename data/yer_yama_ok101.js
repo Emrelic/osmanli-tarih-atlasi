@@ -87,37 +87,37 @@ window.YER_YAMA_OK101 = [
 
  {ad:"Azak",
   d:[{f:"1475-06-06",t:"1637-06-18",y:"kusatma"}, {f:"1642-02-26",t:"1696-07-19",y:"kusatma"}, {f:"1711-07-21",t:"1739-09-18",y:"antlasma"}],
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"}, {f:"1637-06-18",t:"1642-02-26",d:"don-kazak"}, {f:"1696-07-19",t:"1711-07-21",d:"rusya"}, {f:"1739-09-18",t:"1917-03-15",d:"rusya"}, {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"}, {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"}, {f:"1637-06-18",t:"1642-02-26",d:"don-kazak"}, {f:"1696-07-19",t:"1711-07-21",d:"rusya"}, {f:"1739-09-18",t:"1917-03-15",d:"rusya"}, {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"}, {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
   kaynak:"islamansiklopedisi.org.tr/azak — \"Belgrad Antlaşması'na (1739) göre istihkâmları yıkılmak şartıyla Rusya'ya terkedildi\" (HTTP 200, gövde okundu)",
   neden:"H-0013 — Osmanlı doğrudan dönemi 1774-07-21'e kadar uzuyordu, TDV 1739'da Rusya'ya bırakıldığını söylüyor: 35 yıllık hayalet. Kırılma günü 1739-09-18 külliyatta zaten var (Belgrad Antlaşması, olaylar.js:116). Komşu Taganrog kaydı zaten 1739-09-18'de rusya'ya geçiyordu — iki kayıt ayrışmıştı."},
 
  {ad:"Süveyş",
   d:[{f:"1517-02-15",t:"1805-07-03"}],
-  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1953-06-18",d:"misir-kralligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1953-06-18",t:"1958-02-22",d:"misir-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1958-02-22",t:"1971-09-02",d:"birlesik-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1971-09-02",t:"2000-12-31",d:"misir-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — TDV `suveys` maddesi 1517 fethine gün vermiyor (en erken idarî tarih 1560, sancak/kaptanlık); gün, külliyatta var olan 1517-02-15 (Yavuz'un Kahire'ye merasimle girişi) kırılmasına HİZALANDI. Bu bir ÇIKARIMDIR, TDV alıntısı değildir.",
   neden:"H-0053 — 1517-01-22 (Ridaniye MEYDAN SAVAŞI günü) Kahire'den 24 gün ÖNCE; Osmanlı ordusu o gün Kahire önündeydi, Süveyş 130 km ötede ve `m:\"Kahire\"`ye bağlı."},
 
  {ad:"Tûr (Sînâ)",
   d:[{f:"1517-02-15",t:"1805-07-03"}],
-  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1953-06-18",d:"misir-kralligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1953-06-18",t:"1958-02-22",d:"misir-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1958-02-22",t:"1971-09-02",d:"birlesik-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1971-09-02",t:"2000-12-31",d:"misir-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — TDV'de Tûr'un 1517'de el değiştirme günü yok; gün, külliyattaki 1517-02-15 kırılmasına hizalandı (ÇIKARIM).",
   neden:"H-0053 — aynı sebep: 1517-01-22 Kahire'den önceydi."},
 
  {ad:"Sina güneyi",
   d:[{f:"1517-02-15",t:"1805-07-03"}],
-  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1953-06-18",d:"misir-kralligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1953-06-18",t:"1958-02-22",d:"misir-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1958-02-22",t:"1971-09-02",d:"birlesik-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1971-09-02",t:"2000-12-31",d:"misir-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — bölge kaydı, TDV'de güne bağlı bir teslim yok; 1517-02-15'e hizalandı (ÇIKARIM).",
   neden:"H-0053 — aynı sebep: 1517-01-22 Kahire'den önceydi."},
 
  {ad:"Kusayr",
   d:[{f:"1517-04-13",t:"1805-07-03"}],
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1953-06-18",d:"misir-kralligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1953-06-18",t:"1958-02-22",d:"misir-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1958-02-22",t:"1971-09-02",d:"birlesik-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1971-09-02",t:"2000-12-31",d:"misir-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — TDV `kusayr` slug'ı ÖLÜ (HTTP 302); gün, Yukarı Mısır dalgasının külliyatta var olan 1517-04-13 kırılmasına (Tomanbay'ın idamı, Memlük Devleti'nin sonu) hizalandı. ÇIKARIMDIR.",
   neden:"H-0053 — Emre'nin gördüğü kusur birebir buydu: Kusayr 22 Ocak'ta Osmanlı boyanırken 60 km batısındaki Uksur/Esna/Kına 13 Nisan'a kadar Memlük kalıyor, kıyı bir 'Osmanlı adası' gibi duruyordu."},
 
  {ad:"Sefâce",
   d:[{f:"1517-04-13",t:"1805-07-03"}],
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"}, {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1953-06-18",d:"misir-kralligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1953-06-18",t:"1958-02-22",d:"misir-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1958-02-22",t:"1971-09-02",d:"birlesik-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1971-09-02",t:"2000-12-31",d:"misir-arap-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — TDV'de Sefâce'ye (Safaga) özel gün yok; Kusayr ile aynı gerekçeyle 1517-04-13'e hizalandı. ÇIKARIMDIR.",
   neden:"H-0053 — Kusayr'ın 80 km kuzeyindeki ikiz liman, aynı 'Osmanlı adası' kümesinin parçası."},
 

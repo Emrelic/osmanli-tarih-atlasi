@@ -18,12 +18,12 @@ window.YERLESIMLER_EK30 = [
 { ad:"Sydney", tur:"sehir", lat:-33.8688, lon:151.2093, g:1, k:1,
   kur:"1788-01-26",
   kaynak:"Australian Dictionary of Biography, 'Arthur Phillip: 1788. The Foundation Year' (adb.anu.edu.au/essay/21) · State Library of NSW, First Fleet kayıtları — Vali Arthur Phillip'in Sydney Cove/Port Jackson'da koloniyi kurduğu gün, 26 Ocak 1788.",
-  s:[{f:"1788-01-26",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1788-01-26",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 
 { ad:"Auckland", tur:"sehir", lat:-36.8485, lon:174.7633, g:1, k:1,
   kur:"1840-09-18",
   kaynak:"Te Ara Encyclopedia of New Zealand, 'The founding of Auckland: 1840–1869' (teara.govt.nz/en/auckland-region/page-7) — Vali William Hobson, 18 Eylül 1840'ta Tāmaki (Auckland) yarımadasını başkent olarak kurdu; 1865'e kadar Yeni Zelanda'nın başkentiydi.",
-  s:[{f:"1840-09-18",t:"1923-10-29",d:"yeni-zelanda"}] },
+  s:[{f:"1840-09-18",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 // ── 1281 ÖNCESİ / SONRASI DOLGU — "kabile" kovası ─────────────────────
 // Şartname §2 sınavı: kaynak "teşkilatlı ama merkezî devlet değil" diyor
@@ -55,7 +55,7 @@ window.YERLESIMLER_EK30 = [
   kur:"1220-01-01",
   kaynak:"UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — Muʻa/Lapaha, Tuʻi Tonga hanedanının üçüncü ve kalıcı başkenti oldu (1220-1851 dolaylarında bölgenin coğrafi merkezi); 22 kraliyet mezarı (langi) bu döneme tarihleniyor. Hanedan çizgisi geleneksel olarak ~950 CE'ye dayanır, imparatorluk gücünün zirvesi 1200-1500 arasıdır (UNESCO; Ancient Capitals dosyası).",
   s:[{f:"1220-01-01",t:"1845-12-04",d:"tui-tonga-imparatorlugu"},
-     {f:"1845-12-04",t:"1923-10-29",d:"tonga-kralligi"}] },
+     {f:"1845-12-04",t:"2000-12-31",d:"tonga-kralligi"}] },
 
 { ad:"Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)", tur:"bolge", lat:19.60, lon:-155.50, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
@@ -74,7 +74,7 @@ window.YERLESIMLER_EK30 = [
   kur:"1849-01-01", kasitli_bosluk:true, bos:"kabile",
   neden:"ANU Press, 'The Making of a Capital: A Social History of Suva, 1870–1882' (press-files.anu.edu.au/downloads/press/n10434/pdf/ch03.pdf) — Suva köyü 1843 Bau-Rewa Savaşı'ndan sonra Bau şefi Cakobau'nun (Kubuna konfederasyonu) koruması altına girdi; 1868'de Polynesian Company'ye arazi verildi, 1870'te Avustralyalı yerleşimciler geldi — ama bu bir EGEMENLİK değil ticarî/himaye ilişkisiydi, resmî devlet 1874 Cession'a kadar yoktu.",
   kaynak:"ANU Press, 'Suva Stories: A History of the Capital of Fiji' (JSTOR j.ctv2xc67p4) — Deed of Cession, 10 Ekim 1874, Fiji'yi resmen İngiliz egemenliğine soktu.",
-  s:[{f:"1874-10-10",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1874-10-10",t:"1970-10-10",d:"ingiltere"},{f:"1970-10-10",t:"2000-12-31",d:"fiji",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // ── ALTINCI PARTİ — M-0213 usulüyle genişletme ──────────────────────────
 // Ölçüt sayı değil: "petek gerçekte olmayan toprağı yutuyor mu?" Avustralya
@@ -106,30 +106,30 @@ window.YERLESIMLER_EK30 = [
 { ad:"Hobart", tur:"sehir", lat:-42.8821, lon:147.3272, g:1, k:1,
   kur:"1804-01-01",
   kaynak:"Australian Dictionary of Biography — Vali David Collins, ceza kolonisini Risdon'dan Sullivan's Cove'a (bugünkü Hobart) taşıyıp 1804'te kurdu.",
-  s:[{f:"1804-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1804-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Melbourne", tur:"sehir", lat:-37.8136, lon:144.9631, g:1, k:1,
   kur:"1835-08-30",
   kaynak:"EBSCO Research Starters, 'Melbourne, Australia, Is Founded'; State Library of Victoria — John Pascoe Fawkner, Yarra Nehri şelalelerinin hemen altında 30 Ağustos 1835'te yerleşim kurdu (John Batman'ın yerli topluluklarla arazi anlaşması da aynı yıl, Haziran 1835).",
-  s:[{f:"1835-08-30",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1835-08-30",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Adelaide", tur:"sehir", lat:-34.9285, lon:138.6007, g:1, k:1,
   kur:"1836-12-28",
   kaynak:"National Today / kurumsal kaynak — Güney Avustralya Eyaleti'nin İngiliz mülkü olduğu, Vali John Hindmarsh tarafından Holdfast Bay'de (bugünkü Glenelg) 28 Aralık 1836'da ilan edildi ('Proclamation Day').",
-  s:[{f:"1836-12-28",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1836-12-28",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Perth", tur:"sehir", lat:-31.9505, lon:115.8605, g:1, k:1,
   kur:"1829-08-12",
   kaynak:"Kurumsal kaynak (Western Australia Day / eski adıyla 'Foundation Day') — Swan River Kolonisi'nin kuruluşu, 12 Ağustos 1829'daki resmî törenle anıldı.",
-  s:[{f:"1829-08-12",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1829-08-12",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Brisbane", tur:"sehir", lat:-27.4698, lon:153.0251, g:1, k:1,
   kur:"1824-01-01",
   kaynak:"State Library of Victoria kaynaklı akademik özet — Moreton Bay Ceza Kolonisi Eylül 1824'te Redcliffe Yarımadası'nda kuruldu, 1825'te Brisbane Nehri kıyısına taşındı; tam gün TDV/akademik kaynakta bulunamadı, YYYY-01-01 kullanıldı.",
-  s:[{f:"1824-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1824-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"2000-12-31",d:"avustralya"}] },
 { ad:"Wellington", tur:"sehir", lat:-41.2865, lon:174.7762, g:1, k:1,
   kur:"1840-01-22",
   kaynak:"Te Ara Encyclopedia of New Zealand, 'The struggle to survive: 1840–1865' (teara.govt.nz/en/wellington-region/page-7) — New Zealand Company'nin ilk göçmen gemisi (Aurora), 22 Ocak 1840'ta Petone'ye ulaştı; bu tarih 'Wellington Anniversary Day' olarak anılır.",
-  s:[{f:"1840-01-22",t:"1923-10-29",d:"yeni-zelanda"}] },
+  s:[{f:"1840-01-22",t:"2000-12-31",d:"yeni-zelanda"}] },
 { ad:"Christchurch", tur:"sehir", lat:-43.5321, lon:172.6362, g:1, k:1,
   kur:"1850-12-16",
   kaynak:"Te Ara Encyclopedia of New Zealand, 'Canterbury region' (teara.govt.nz/en/canterbury-region/page-6) — Canterbury Association'ın ilk dört gemisinden Charlotte Jane, 16 Aralık 1850'de geldi; bu tarih 'Canterbury Anniversary Day' olarak anılır.",
-  s:[{f:"1850-12-16",t:"1923-10-29",d:"yeni-zelanda"}] },
+  s:[{f:"1850-12-16",t:"2000-12-31",d:"yeni-zelanda"}] },
 
 ];

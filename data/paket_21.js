@@ -84,14 +84,14 @@ window.YERLESIMLER_OK101 = [
 // ── Şam hac yolu menzilleri (UNESCO 6027'nin adıyla saydığı iki durak) ──
 { ad:"el-Ulâ", tur:"sehir", lat:26.6167, lon:37.9167, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"}],
+     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1918-01-01"}],
   kaynak:"UNESCO Dünya Mirası Geçici Listesi No. 6027 'Syrian Hajj Road' — güzergâhın menzilleri arasında Al-Ula adıyla sayılıyor. TDV'de müstakil maddesi YOK (`ula`/`el-ula` slugları 302, ÖLÜ; `surre` maddesi menzil adı vermiyor) — CLAUDE.md §4'ün TANECİKLİK boşluğu.",
   neden:"H-0054/H-0055 — Tebük ile Medine arasında 430 km boyunca hac yolu üzerinde tek nokta yoktu; el-Ulâ o hattın en büyük yerleşik vahası. Dönem zinciri Tebük'ten alındı (ÇIKARIM, kaynakta gün yok)."},
 
 { ad:"Medâin-i Sâlih (el-Hicr)", tur:"kale", lat:26.7917, lon:37.9542, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"}],
+     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1918-01-01"}],
   kaynak:"UNESCO No. 6027 'Syrian Hajj Road' — menziller arasında Al-Hijr adıyla; ayrıca UNESCO Dünya Mirası 'Al-Hijr Archaeological Site (Madâin Sâlih)' dosyası. TDV `medain-i-salih` ve `hicr` sluglarının ikisi de 302 (ÖLÜ).",
   neden:"H-0054/H-0055 — el-Ulâ'nın 20 km kuzeyindeki hac yolu kalesi; menzil hattının kuzey ucunu tutuyor. Dönem zinciri Tebük'ten (ÇIKARIM)."},
@@ -99,7 +99,7 @@ window.YERLESIMLER_OK101 = [
 // ── Mısır hac yolunun Kızıldeniz kıyı kolu ──────────────────────────────
 { ad:"el-Vech", tur:"liman", lat:26.2333, lon:36.4667, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"}],
+     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1918-01-01"}],
   kaynak:"UNESCO Dünya Mirası Geçici Listesi No. 6028 'Egyptian Hajj Road' — Kızıldeniz kıyı kolunun limanlarından. TDV `vech`/`el-vech` slugları 302 (ÖLÜ).",
   neden:"H-0054 — görselin batı kıyısı (Tebük ile Yenbu arası ~450 km kıyı şeridi) tamamen noktasızdı; el-Vech bu kolun tek büyük limanı. Dönem zinciri Tebük'ten (ÇIKARIM)."},
@@ -108,7 +108,7 @@ window.YERLESIMLER_OK101 = [
 { ad:"Hayber", tur:"sehir", lat:25.6981, lon:39.2920, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
      {f:"1805-06-01",t:"1812-12-03",d:"suud"},
-     {f:"1919-01-10",t:"1923-10-29",d:"hicaz"}],
+     {f:"1919-01-10",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[],
   v:[{f:"1517-07-06",t:"1805-06-01",k:"Mekke Şerifliği",kid:"mekke-serifligi",statu:"vassal"},{f:"1812-12-03",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"},{f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği",kid:"mekke-serifligi",statu:"vassal"}],
   kaynak:"TDV `hayber` (HTTP 200, gövde okundu): \"Medine'nin yaklaşık 180 km. kadar kuzeyinden başlayan ve denizden 850-1000 m. yükseklikte yer alan etrafı volkanik topraklarla çevrili geniş bir vadinin adıdır.\" ⚠️ TDV maddesi Osmanlı dönemine dair idarî bilgi VERMİYOR (19. yy'da Burckhardt'ın gözlemi dışında) — dönem zinciri Medine'nin kaydından alındı, ÇIKARIMDIR.",
@@ -237,7 +237,7 @@ window.YERLESIMLER_OK104 = [
 //    ondan ayrı modellemek için bir dayanağım yok.
 { ad:"Mat (Mati)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:4,m:"İşkodra"}], tur:"sehir", lat:41.610, lon:20.009, g:0, k:4, m:"İşkodra",
   s:[{f:"1281-01-01",t:"1478-06-15",d:"arnavutluk"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+     {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV iskender-bey · TDV debre" },
 
@@ -271,7 +271,7 @@ window.YERLESIMLER_OK104 = [
 // ⚠️ `1393-05-01` külliyatta YOKTU (±30 günde 0 madde) — maddesi aynı turda
 //    `data/olaylar_ok104.js`e yazıldı. Nokta maddesiz inseydi `2s` açılırdı.
 { ad:"Leş (Alessio)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:3,m:"İşkodra"}], tur:"liman", lat:41.783, lon:19.644, g:0, k:3, m:"İşkodra",
-  s:[{f:"1281-01-01",t:"1356-01-01",d:"sirbistan-nemanjic"},{f:"1356-01-01",t:"1387-01-01",d:"zeta"},{f:"1387-01-01",t:"1393-05-01",d:"dukagin"},{f:"1393-05-01",t:"1478-06-15",d:"venedik"},{f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+  s:[{f:"1281-01-01",t:"1356-01-01",d:"sirbistan-nemanjic"},{f:"1356-01-01",t:"1387-01-01",d:"zeta"},{f:"1387-01-01",t:"1393-05-01",d:"dukagin"},{f:"1393-05-01",t:"1478-06-15",d:"venedik"},{f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV les · TDV iskender-bey" },
 
@@ -299,7 +299,7 @@ window.YERLESIMLER_OK104 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-11-29",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1395-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1912-11-29"}],
   kaynak:"TDV debre" },
 
@@ -333,7 +333,7 @@ window.YERLESIMLER_OK104 = [
 // 14 kez anıyor; imamlığın çekirdek şehridir.
 { ad:"Sa'de", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:3,m:"Sana"}], tur:"sehir", lat:16.940, lon:43.764, g:0, k:3, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
+     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"TDV zeydiyye" },
 
@@ -347,7 +347,7 @@ window.YERLESIMLER_OK104 = [
 //      çekilsin? Ben yazdım ve ETİKETLEDİM; silme kararı senin.
 { ad:"Şehâre", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:16.183, lon:43.723, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
+     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok, zeydiyye maddesinde de adı geçmiyor; dayanak standart akademik kaynak" },
 
@@ -356,7 +356,7 @@ window.YERLESIMLER_OK104 = [
 //    `zeydiyye` maddesinde adı geçmiyor. Aynı şart, aynı etiket.
 { ad:"Kevkebân", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:15.503, lon:43.899, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"}],
+     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok; dayanak standart akademik kaynak" },
 
@@ -438,7 +438,7 @@ window.YERLESIMLER_OK106 = [
     d:[{f:"1703-01-01",t:"1774-07-21"}],
     s:[{f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"kerc" },
 
   // ── UMAN — TDV'nin GÖREMEDİĞİ yerin AKADEMİK kaynakla kapanması ─────
@@ -489,7 +489,7 @@ window.YERLESIMLER_OK106 = [
        {f:"1699-01-26",t:"1793-01-23",d:"lehistan"},
        {f:"1793-01-23",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     // d: 1674 — TDV `merzifonlu-kara-mustafa-pasa`: "Cemâziyelevvel 1085 (Ağustos 1674) …
     //   Human'ı (Uman) teslim aldı". AY hassasiyeti: §4 gereği YYYY-01-01 (YAMA-0052-UKRAYNA 10).
     d:[{f:"1674-01-01",t:"1699-01-26",y:"fetih",kaynak:"TDV merzifonlu-kara-mustafa-pasa: Lehistan'a ait kalelerden Human'ı (Uman) teslim aldı — Ağustos 1674, gün yok (§4)"}],
@@ -540,7 +540,7 @@ window.YERLESIMLER_OK106 = [
     s:[{f:"1441-01-01",t:"1475-06-06",d:"kirim",kesinlik:"yuzyil"},
        {f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV'de müstakil madde YOK (`kizikermen`·`gazikerman`·`gazi-kerman` 302; kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\". ⚠️ BAŞLANGIÇ 1441-01-01 bir ALT SINIRDIR, kuruluş günü DEĞİLDİR: kaynak \"15. yüzyıl ortası\" diyor, 1441 Kırım Hanlığı'nın kuruluşudur ve kalenin Tatar dönemi ondan önce başlayamaz. `kesinlik:\"yuzyil\"` bu belirsizliği taşır. Bu günün külliyatta karşılığı olması bir YAN FAYDADIR, GEREKÇE DEĞİL — tarih o yüzden seçilmedi" },
 
   // ── KREMENÇUK ──────────────────────────────────────────────────────
@@ -558,7 +558,7 @@ window.YERLESIMLER_OK106 = [
     s:[{f:"1571-01-01",t:"1654-01-18",d:"lehistan"},
        {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\"" },
 
   // ── LUBNI — atlas ufkundan ESKİ, o yüzden `kur:` YOK ────────────────
@@ -573,7 +573,7 @@ window.YERLESIMLER_OK106 = [
   //    55 km kuzeybatısında, aynı alayda ve aynı siyasî çemberde.
   // 🟢 Yeni gün doğurmaz: iki gün de Poltava'da ZATEN kullanılıyor.
   { ad:"Lubnı", tur:"sehir", lat:50.0200, lon:33.0000, g:0, k:3,
-    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Lubny\"; 1281-1654 zinciri komşu Poltava kaydının kalıbıdır (tutarlılık seçimi, kaynak günü değil)" },
 
   // ── SUMI ───────────────────────────────────────────────────────────
@@ -587,7 +587,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1652-01-01",
     s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Sumy\"" },
 
   // ── ÇUGUYEV ────────────────────────────────────────────────────────
@@ -599,7 +599,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1638-01-01",
     s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Chuhuiv\"" },
 
   // ── İZYUM ──────────────────────────────────────────────────────────
@@ -616,7 +616,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1681-01-01",
     s:[{f:"1681-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Izium\"" },
 
   // ── BAHMUT ─────────────────────────────────────────────────────────
@@ -632,7 +632,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1703-01-01",
     s:[{f:"1703-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Bakhmut\"" },
 
   // ── YELİSAVETGRAD (Aziz Yelizaveta Kalesi) ─────────────────────────
@@ -649,7 +649,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1754-01-01",
     s:[{f:"1754-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" },
 
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
@@ -668,7 +668,7 @@ window.YERLESIMLER_OK106 = [
     kur:"1652-01-01",
     s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Ostrohozke\"" }
 
 ];
@@ -826,7 +826,7 @@ window.YERLESIMLER_OK109 = [
       //   `irak-kralligi` `f:` ile AYNI GÜN. Bu dönem mükerrer anahtar
       //   yüzünden sekiz gün boyunca motora hiç girmedi (bkz. yukarıdaki
       //   not). Bölgenin 31 kardeş kaydı aynı günü taşıyor (`D084`).
-      { f: "1921-08-23", t: "1923-10-29", d: "irak-kralligi" }
+      { f: "1921-08-23", t: "1958-07-14", d: "irak-kralligi" },{f:"1958-07-14",t:"2000-12-31",d:"irak-cumhuriyeti",kaynak:"Library of Congress Iraq Country Study"}
     ],
     v: [],
     kaynak: "TDV `musul--irak` (HTTP 200, gövde okundu): \"1892-1910 yılları arasında Musul vilâyeti Musul, Kerkük ve Süleymaniye sancaklarından oluşmaktaydı. Musul sancağının kazaları Akra, Zibar, Dıhok, Zaho, Sincar ve İmâdiye'dir.\" — kaza merkezi olduğu ve 1923'te var olduğu buradan. Devir günü aynı maddeden: \"İngilizler … 8 (veya 10) Kasım 1918'de Musul'a girdi.\" KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 99611, 37.09214/43.48769, PPLA2 — tahmin DEĞİL, rehberden. ⚠️ Müstakil TDV maddesi YOK: `imadiye` · `amadiye` · `imadiyye` · `amediye` sluglarının dördü de 302 (ÖLÜ); kapsayıcı madde kullanıldı (`CLAUDE.md §4`: dar slug tutmazsa kapsayıcı maddeyi dene). 🔴 SON DÖNEMİN GÜNÜ AYRI DAYANAK: Faysal'ın Irak kralı ilân edilmesi, 23 Ağustos 1921; künye `irak-kralligi` `f:` ile aynı gün, ve künyenin kendi `kaynak` alanı TDV `irak--ulke` gövdesinin ÇEKİLEMEDİĞİNİ beyan ediyor ⇒ dayanak akademik. Bu cümle mükerrer bir `kaynak:` alanında duruyordu ve JS onu düşürüyordu (10 Eylül 2026'da buraya taşındı).",
@@ -881,7 +881,7 @@ window.YERLESIMLER_OK109 = [
   // ═══════════════════════════════════════════════════════════════════════
 
   {
-    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
+    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
     tur: "sehir",
     lat: 37.5139, lon: 42.4543,
     g: 0, k: 4, m: "Bitlis",
@@ -955,7 +955,7 @@ window.YERLESIMLER_OK110 = [
 //    1515'te girdi; komşusundan AYRI bir gün yazmak `Değişmez 2`ye YENİ
 //    bir kırılma ekler ve dayanağı yoktur.
 { ad:"Darende", kd:[{f:"1281-01-01",t:"1515-06-13",k:0,m:null},{f:"1515-06-13",t:"1923-10-29",k:4,m:"Maraş"}], tur:"sehir", lat:38.550, lon:37.500, g:0, k:4, m:"Maraş",
-  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1338-01-01",d:"eretna"},{f:"1338-01-01",t:"1398-01-01",d:"dulkadir"},{f:"1400-01-01",t:"1414-01-01",d:"dulkadir",kaynak:"DIVRIGI-MEMLUK-1008-EK · 1414'te Darende Dulkadırlılar'ın elinde: TDV dulkadirogullari (gövde okundu 9 Eki 2026): 'Sultan Şeyh 1414 yılında sefere çıkarak daha önce kendi rızası ile verdiği Antep şehriyle Dârende'yi Dulkadırlılar'dan geri aldı.' ⚠️ 1400'deki geçişin GÜNÜ ve SAHİBİ Darende için BULUNAMADI — gün komşudan: Malatya (TDV malatya '1400', YIL; 'Timur’un Malatya’dan ayrılmasının ardından Dulkadıroğulları buraya tekrar hâkim oldu')"},{f:"1414-01-01",t:"1418-01-01",d:"memluk",kaynak:"TDV dulkadirogullari (gövde okundu 9 Eki 2026): 'Sultan Şeyh 1414 yılında … Dârende'yi Dulkadırlılar'dan geri aldı.' · 'Fakat Mehmed Bey 1418’de Dârende’yi tekrar aldığı gibi Besni’yi de ülkesine kattı.' — YIL"},{f:"1418-01-01",t:"1522-01-01",d:"dulkadir",kaynak:"TDV dulkadirogullari (gövde okundu 9 Eki 2026): 'Fakat Mehmed Bey 1418’de Dârende’yi tekrar aldı' — YIL"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1338-01-01",d:"eretna"},{f:"1338-01-01",t:"1398-01-01",d:"dulkadir"},{f:"1400-01-01",t:"1414-01-01",d:"dulkadir",kaynak:"DIVRIGI-MEMLUK-1008-EK · 1414'te Darende Dulkadırlılar'ın elinde: TDV dulkadirogullari (gövde okundu 9 Eki 2026): 'Sultan Şeyh 1414 yılında sefere çıkarak daha önce kendi rızası ile verdiği Antep şehriyle Dârende'yi Dulkadırlılar'dan geri aldı.' ⚠️ 1400'deki geçişin GÜNÜ ve SAHİBİ Darende için BULUNAMADI — gün komşudan: Malatya (TDV malatya '1400', YIL; 'Timur’un Malatya’dan ayrılmasının ardından Dulkadıroğulları buraya tekrar hâkim oldu')"},{f:"1414-01-01",t:"1418-01-01",d:"memluk",kaynak:"TDV dulkadirogullari (gövde okundu 9 Eki 2026): 'Sultan Şeyh 1414 yılında … Dârende'yi Dulkadırlılar'dan geri aldı.' · 'Fakat Mehmed Bey 1418’de Dârende’yi tekrar aldığı gibi Besni’yi de ülkesine kattı.' — YIL"},{f:"1418-01-01",t:"1522-01-01",d:"dulkadir",kaynak:"TDV dulkadirogullari (gövde okundu 9 Eki 2026): 'Fakat Mehmed Bey 1418’de Dârende’yi tekrar aldı' — YIL"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1398-01-01",t:"1400-01-01",y:"savas",kesinlik:{f:"yil",t:"yil"},kaynak:"DIVRIGI-MEMLUK-1008-EK · TDV divrigi: 'Yıldırım Bayezid 1398'de Sivas, Malatya, Besni (Behisni), Darende ve Divriği'yi … Osmanlı topraklarına kattı.' · TDV besni: '1398’de Sivas, Dârende ve Malatya ile birlikte Osmanlı topraklarına katıldıysa da' — YIL. BİTİŞ Darende için BULUNAMADI; gün komşudan: Malatya (TDV malatya 1400, YIL)"},{f:"1522-01-01",t:"1920-04-23",y:"ilhak",kesinlik:{f:"yil"},kaynak:"TDV dulkadirogullari (200, gövde okundu): 'Ferhad Paşa İran'a sefer bahanesiyle onu Tokat'a davet etti ve Artukova'da çocuklarıyla birlikte katlettirdi (1522). Ali Bey'in öldürülmesinden sonra Dulkadırlı ülkesi Osmanlı topraklarına katılarak Maraş merkez olmak üzere bir eyalet haline getirildi.' 1515-06-13 Turnadağ sonrası İLHAK DEĞİL TÂBİYETTİR: 'Alâüddevle Bey'den sonra Dulkadıroğulları Beyliği'nin başına Yavuz Sultan Selim tarafından Şehsuvaroğlu Ali Bey getirildi.' ⚠️ ÇELİŞKİ: TDV dulkadir-eyaleti aynı olaya 1521 der ve beylerbeyiliğin hangi tarihte teşkil edildiğinin 'kesin olarak bilinmediğini' yazar ⇒ GÜN YOK, yıl hassasiyeti (D210). — TARIH-SUPHE-0920"}], v:[{f:"1515-06-13",t:"1522-01-01",k:"Osmanlı'ya tâbi Dulkadır beyliği — Şehsuvaroğlu Ali Bey (TDV dulkadirogullari)"}],
   kaynak:"TDV `dulkadirogullari` — Dârende: 1338'de işgal edildi ve beyliğin sahası \"doğuda Harput'tan batıda Kırşehir'e, kuzeyde Bozok (Yozgat) ile Sivas'ın güneyinde Gemerek ve Gürün'den Hatay'a bağlı Hassa'ya kadar\". ⚠️ TDV'de `darende` diye MÜSTAKİL madde YOKTUR (slug arama sayfasına düşüyor); tarih beyliğin kendi maddesinden alındı. 1281-1338 arası zincir komşu ankrajlardan (Malatya: ilhanli→1335, eretna 1335→1338) türetildi, ayrıca ARAŞTIRILMADI.",
   neden:"0017/H-0001 · Voronoi kaması. Şikâyet kutusunda (37,78-39,23K/35,29-37,56D) yalnız 2 nokta vardı (Elbistan · Kayseri) ve Elbistan'ın peteği 100 km öteye kama gibi uzanıyordu. Darende doğu kolunu bağlıyor. ⚠️ Kutunun 98 km'lik ASIL boşluğu (37,88/35,89) BU NOKTAYLA KAPANMAZ — kaynak bulunamadığı için açık bırakıldı." },

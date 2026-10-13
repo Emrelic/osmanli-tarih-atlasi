@@ -86,7 +86,7 @@ window.YERLESIMLER_P0043LIBYA = [
     neden:"Batı Çölü'nün en kalabalık vahası ve TDV'nin saydığı altı vahadan atlasta bulunmayan TEK vaha (beşi zaten var). En yakın mevcut nokta Cağbûb 114,3 km ⇒ 3 km sınavı geçti, gerçek boşluk. ⚠️ Sîva altı vahanın en özerkiydi; Mısır'ın fiilî denetimi 1820 Kavalalı seferiyle kuruldu, yani `v:1805-07-03` fiilî denetimden ~15 yıl önce başlıyor — AMA bu dört kardeşte de böyle, atlasın konvansiyonu. Sîva'ya özel tarih YAZILMADI çünkü TDV'de dayanağı yok.",
     s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},
        {f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},
-       {f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
+       {f:"1922-03-15",t:"1953-06-18",d:"misir-kralligi"},{f:"1953-06-18",t:"1958-02-22",d:"misir-cumhuriyeti",kaynak:"Britannica 'Egypt'"},{f:"1958-02-22",t:"1971-09-02",d:"birlesik-arap-cumhuriyeti",kaynak:"Britannica 'United Arab Republic'"},{f:"1971-09-02",t:"2000-12-31",d:"misir-arap-cumhuriyeti",kaynak:"Britannica 'Egypt'"}],
     d:[{f:"1517-04-13",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı",statu:"vassal",kid:"misir-kavalali",kaynak:"kid/statu kardeş vahalarla aynı (Dâhile · Hârice · Ferâfire · Bahriye); tarih DEĞİŞMEDİ · UYGULA-YERLESIM-0930 (0076/H-0064)"}],
     isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere"},

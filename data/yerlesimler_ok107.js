@@ -52,7 +52,7 @@ window.YERLESIMLER_OK107 = [
   //   pencerelerine oturtuldu; ara halkalar (celayirli · karakoyunlu)
   //   TDV'de Cizre için ADIYLA geçmiyor, bölgesel (Bitlis · Mardin
   //   kayıtlarının aynı halkaları). Bu bir HİZALAMADIR, kaynak değil.
-  s:[{f:"1261-01-01",t:"1353-01-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV cizre: 'Böylece Eyyûbîler ile Bedreddin Lü’lü’ün nüfuzu altına giren şehir 660’ta (1261-62) Moğol istilâsına uğradı.' · 'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI · ZAMAN-Z6-1008"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1261-01-01",t:"1353-01-01",d:"ilhanli",kaynak:"f 1281-01-01'den geri çekildi — TDV cizre: 'Böylece Eyyûbîler ile Bedreddin Lü’lü’ün nüfuzu altına giren şehir 660’ta (1261-62) Moğol istilâsına uğradı.' · 'istilâya uğradı' — İlhanlı sahipliğinin başlangıcı olarak okundu (mevcut 1281 verisi ilhanli). Öncesi (1085 Selçuklu · 1108 · 1158 Musul atabegi · 1251 Eyyûbî+Lü'lü') künye kimliği/bitişikliği tutmadığı için YAZILMADI · ZAMAN-Z6-1008"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1515-09-19",t:"1920-04-23"}],
   v:[], kaynak:"cizre",
   bos:"veri-yok",
@@ -75,7 +75,7 @@ window.YERLESIMLER_OK107 = [
   //   bitiyor ⇒ 31 yıllık hayalet. Kapı yakaladı, zincire karakoyunlu
   //   halkası eklendi (Bitlis'in kendi halkası; TDV Siirt için ADIYLA
   //   söylemiyor — bölgesel HİZALAMA, kaynak değil).
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1462-01-01",d:"karakoyunlu"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1462-01-01",d:"karakoyunlu"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1514-09-06",t:"1920-04-23"}],
   v:[], kaynak:"siirt"
 },
@@ -104,7 +104,7 @@ window.YERLESIMLER_OK107 = [
   //   🔴 VE BU, İLK TURDA ÇIKARIM OLAN 1462'Yİ KAYNAĞA BAĞLADI: o günü
   //     Siirt'in Akkoyunlu yılından TÜRETMİŞTİM ("iki şehir 60 km"), şimdi
   //     TDV onu Hasankeyf için ADIYLA söylüyor. Çıkarım → kaynak.
-  s:[{f:"1085-01-01",d:"buyuk-selcuklu",kaynak:"TDV hasankeyf: 'Nihayet Sultan Melikşah zamanında Selçuklular Mervânî hâkimiyetine son verip bölgedeki diğer şehirlerle birlikte burayı da aldılar (1085).' · ZAMAN-Z6-1008",t:"1102-01-01",kesinlik:"yil"},{f:"1102-01-01",d:"artuklu",kaynak:"TDV hasankeyf: 'Sökmen’in desteğiyle Çökürmüş’ü bozguna uğratan Mûsâ kısa bir süre sonra öldürülünce Sökmen Hasankeyf’e gidip şehri teslim aldı; böylece burada Artuklular’ın Hısnıkeyfâ kolu kurulmuş oldu (495/1102).' · ZAMAN-Z6-1008",t:"1232-01-01",kesinlik:"yil"},{f:"1232-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa",kaynak:"f 1281-01-01'den geri çekildi — TDV hasankeyf: 'Hasankeyf Artukluları’nın son emîri Mesud zamanında, Eyyûbî Hükümdarı el-Melikü’l-Kâmil Nâsırüddin Muhammed önce Âmid’i, daha sonra Hasankeyf’i zaptederek Artuklular’ın buradaki hâkimiyetine son verdi ve şehri oğlu el-Melikü’s Sâlih’in idaresine bıraktı (629/1232).' · ZAMAN-Z6-1008"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1085-01-01",d:"buyuk-selcuklu",kaynak:"TDV hasankeyf: 'Nihayet Sultan Melikşah zamanında Selçuklular Mervânî hâkimiyetine son verip bölgedeki diğer şehirlerle birlikte burayı da aldılar (1085).' · ZAMAN-Z6-1008",t:"1102-01-01",kesinlik:"yil"},{f:"1102-01-01",d:"artuklu",kaynak:"TDV hasankeyf: 'Sökmen’in desteğiyle Çökürmüş’ü bozguna uğratan Mûsâ kısa bir süre sonra öldürülünce Sökmen Hasankeyf’e gidip şehri teslim aldı; böylece burada Artuklular’ın Hısnıkeyfâ kolu kurulmuş oldu (495/1102).' · ZAMAN-Z6-1008",t:"1232-01-01",kesinlik:"yil"},{f:"1232-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa",kaynak:"f 1281-01-01'den geri çekildi — TDV hasankeyf: 'Hasankeyf Artukluları’nın son emîri Mesud zamanında, Eyyûbî Hükümdarı el-Melikü’l-Kâmil Nâsırüddin Muhammed önce Âmid’i, daha sonra Hasankeyf’i zaptederek Artuklular’ın buradaki hâkimiyetine son verdi ve şehri oğlu el-Melikü’s Sâlih’in idaresine bıraktı (629/1232).' · ZAMAN-Z6-1008"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1517-05-01",t:"1920-04-23"}],
   v:[], kaynak:"hasankeyf",
   // ⚠️ 1517-05-01 BİR TABANDIR, ÖLÇÜLMÜŞ GÜN DEĞİL — açıkça yazıyorum.
@@ -124,7 +124,7 @@ window.YERLESIMLER_OK107 = [
   // Aradım, yok. Tur Abdin'in merkezi ve Osmanlı'da Mardin sancağının
   // nahiye/kaza merkezi. Dönem günleri MARDİN'in kendi kaydından alındı
   // (40,4 km) — uydurulmuş gün yok, hepsi atlasta ZATEN kullanılan günler.
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1517-05-01",t:"1920-04-23"}],
   v:[], kaynak:"bulunamadı — TDV'de `midyat` maddesi YOK (slug 302 ölçüldü). Dönem günleri Mardin kaydından (40 km) BÖLGESEL HİZALAMA ile alındı; Midyat Osmanlı'da Mardin sancağının nahiyesiydi."
 },
@@ -175,7 +175,7 @@ window.YERLESIMLER_OK107 = [
   // günler YENBU'dan (81,6 km, aynı sahil yolu, aynı kaza dairesi) alındı.
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
      {f:"1805-07-20",t:"1811-11-01",d:"suud"},
-     {f:"1916-07-27",t:"1923-10-29",d:"hicaz"}],
+     {f:"1916-07-27",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1805-07-20"},
      {f:"1841-05-24",t:"1916-07-27"}],
   v:[{f:"1811-11-01",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
@@ -187,7 +187,7 @@ window.YERLESIMLER_OK107 = [
   // Mekke-Medine sahil yolunun mîkat durağı ve limanı.
   // günler CİDDE'den (140,5 km, aynı sahil kolu) alındı.
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1916-06-16",t:"1923-10-29",d:"hicaz"}],
+     {f:"1916-06-16",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1813-01-23"},
      {f:"1841-05-24",t:"1916-06-16"}],
   v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
@@ -211,14 +211,7 @@ window.YERLESIMLER_OK107 = [
   // 🟢 Rus fethi günü ÇİMKENT'inkinden AYRI olmalıydı ve bunu uydurmadım:
   //   Evliya-Ata 1864'te alındı, Çimkent 1864-09-22'de. Aynı seferin iki
   //   ayrı günü; kendi günümü bulamadığım için Çimkent'inkini kullandım.
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},
-     {f:"1370-01-01",t:"1500-01-01",d:"timurlu"},
-     {f:"1500-01-01",t:"1598-01-01",d:"buhara"},
-     {f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},
-     {f:"1815-01-01",t:"1864-09-22",d:"hokand"},
-     {f:"1864-09-22",t:"1917-03-15",d:"rusya"},
-     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-09-22",d:"hokand"},{f:"1864-09-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-25",d:"sovyet-rusya"},{f:"1991-12-25",t:"2000-12-31",d:"kazakistan",kaynak:"Kazakistan bağımsız 1991-12-16 (künye)"}],
   d:[], v:[],
   kaynak:"bulunamadı — TDV'de `taraz`/`talas`/`evliya-ata` maddesi YOK (üç slug da 302 ölçüldü); `turkistan` genel maddesi de kasabayı kapsamıyor (§4 tanecik boşluğu). Dönem günleri Çimkent kaydından (159 km) bölgesel hizalama ile alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
 
@@ -227,14 +220,7 @@ window.YERLESIMLER_OK107 = [
   // Çimkent'e 15,7 km — 3 km kuralını GEÇİYOR ama yakın; ayrı kayıt olmasının
   // sebebi İsficâb'ın ayrı ve daha eski bir yerleşim olması. Dönem günleri
   // Çimkent'ten alındı; bu mesafede zaten aynı olmaları beklenir.
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},
-     {f:"1370-01-01",t:"1500-01-01",d:"timurlu"},
-     {f:"1500-01-01",t:"1598-01-01",d:"buhara"},
-     {f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},
-     {f:"1815-01-01",t:"1864-09-22",d:"hokand"},
-     {f:"1864-09-22",t:"1917-03-15",d:"rusya"},
-     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-09-22",d:"hokand"},{f:"1864-09-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-25",d:"sovyet-rusya"},{f:"1991-12-25",t:"2000-12-31",d:"kazakistan",kaynak:"Kazakistan bağımsız 1991-12-16 (künye)"}],
   d:[], v:[],
   kaynak:"bulunamadı — TDV'de `sayram`/`isficab` maddesi YOK (slug 302 ölçüldü). Dönem günleri Çimkent kaydından (16 km) alındı.", s:[{"f":"1281-01-01","t":"1370-04-09","d":"cagatay"},{"f":"1370-04-09","t":"1500-01-01","d":"timurlu"},{"f":"1500-01-01","t":"1598-01-01","d":"buhara"},{"f":"1598-01-01","t":"1815-01-01","d":"kazak-hanligi"},{"f":"1815-01-01","t":"1864-09-22","d":"hokand"},{"f":"1864-09-22","t":"1917-03-15","d":"rusya"},{"f":"1917-03-15","t":"1917-11-07","d":"rusya-gecici-hukumet"},{"f":"1917-11-07","t":"1923-10-29","d":"sovyet-rusya"}]},
 
@@ -262,7 +248,7 @@ window.YERLESIMLER_OK107 = [
   s:[{f:"1814-01-01",t:"1893-01-01",d:"kanem-bornu"},
      {f:"1893-01-01",t:"1900-01-01",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce' — YIL düzeyi (GEMINI-DOGRULA 0919)"},
      {f:"1900-01-01",t:"1902-01-01",d:"kanem-bornu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"ingiltere"}],
+     {f:"1902-01-01",t:"1960-10-01",d:"ingiltere"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
 },
 
@@ -278,7 +264,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1893-01-01",t:"1900-01-01",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Dikeo'yu merkez edinen Râbih 1900'de … öldürülünce' — iki uç da YIL düzeyi (GEMINI-DOGRULA 0919)"},
      {f:"1900-01-01",t:"1902-01-01",d:"kanem-bornu"},
      {f:"1902-01-01",t:"1919-06-28",d:"almanya"},
-     {f:"1919-06-28",t:"1923-10-29",d:"ingiltere"}],
+     {f:"1919-06-28",t:"1960-10-01",d:"ingiltere"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
 },
 
@@ -288,7 +274,7 @@ window.YERLESIMLER_OK107 = [
   //   "Kânim ile Damergu FRANSIZ … idaresine bağlandı" (1902).
   // Bilma bu kuzey kolunda; günler Mao (Kanem) kaydıyla BİREBİR aynı.
   s:[{f:"1281-01-01",t:"1902-01-01",d:"kanem-bornu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+     {f:"1902-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
 },
 
@@ -299,7 +285,7 @@ window.YERLESIMLER_OK107 = [
   //   Bornu'dan fiilen ayrılmıştı; DAMAGARAM KÜNYESİ YOK, o yüzden komşu
   //   kayıtlarla (Mao · Bilma) hizaladım. KÜNYE ÖNERİSİ raporda.
   s:[{f:"1281-01-01",t:"1902-01-01",d:"kanem-bornu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+     {f:"1902-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
 },
 
@@ -400,7 +386,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",kid:"dejanovic-prensligi",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
@@ -413,7 +399,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",kid:"dejanovic-prensligi",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
@@ -426,7 +412,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",kid:"dejanovic-prensligi",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
@@ -439,7 +425,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",kid:"dejanovic-prensligi",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
@@ -453,33 +439,33 @@ window.YERLESIMLER_OK107 = [
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
-     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+     {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1991-09-08",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1991-09-08",t:"2000-12-31",d:"makedonya",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   v:[],
   d:[{f:"1383-09-19",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"gevgili" },
 
 { ad:"Kılkış (Avrathisar)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"kasaba", lat:40.994, lon:22.874, k:4, m:null,
-  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1383-09-19",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1383-09-19",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   v:[],
   d:[{f:"1383-09-19",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"bulunamadı — TDV'de `kilkis` ve `avrathisar` maddesi YOK (iki slug da 302 ölçüldü). Dayanak TDV `gevgili` maddesi: \"1383'te Serez ile 1387'de Selânik'in fethi arasında Gynaikokastro (Avrathisar) ve çevresi Osmanlılar'ın eline geçmiş olmalıdır.\"" },
 
 { ad:"Vodina (Edessa)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.803, lon:22.047, k:3, m:null,
-  s:[{f:"1246-01-01",d:"epir-despotlugu",kaynak:"TDV vodina: 'İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı.' · ZAMAN-Z6-1008",t:"1251-01-01",kesinlik:"yil"},{f:"1251-01-01",d:"iznik-imparatorlugu",kaynak:"TDV vodina: 'İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti.' · kaynak '1251-1252' ARALIĞI verir; aralığın başı yazıldı (beyan) · ZAMAN-Z6-1008",t:"1261-07-25",kesinlik:{f:"yil",t:"gun"}},{f:"1261-07-25",t:"1345-01-01",d:"bizans",kaynak:"f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1246-01-01",d:"epir-despotlugu",kaynak:"TDV vodina: 'İvan Asen’in Epiros despotunu yenmesi üzerine Vodina tekrar canlanan Bulgar İmparatorluğu’na katıldı ve Epiros Despotu Michael Komnenos’un 1246’da şehri geri almasına kadar onların hâkimiyetinde kaldı.' · ZAMAN-Z6-1008",t:"1251-01-01",kesinlik:"yil"},{f:"1251-01-01",d:"iznik-imparatorlugu",kaynak:"TDV vodina: 'İznik İmparatoru İoannis Vatatzis 1251-1252’de Vodina’yı zaptetti.' · kaynak '1251-1252' ARALIĞI verir; aralığın başı yazıldı (beyan) · ZAMAN-Z6-1008",t:"1261-07-25",kesinlik:{f:"yil",t:"gun"}},{f:"1261-07-25",t:"1345-01-01",d:"bizans",kaynak:"f 1281-01-01'den geri çekildi — TDV istanbul: 'Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.' · ZAMAN-Z6-1008"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   v:[],
   d:[{f:"1387-01-01",t:"1402-07-28",kaynak:"vodina — 1386-1387 kışı (TDV: kuvvetli ihtimal; KPZ 1391, APZ Üsküp sonrası), YIL"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"vodina" },
 
 { ad:"Karaferye (Veria)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.524, lon:22.203, k:3, m:null,
-  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-05-08",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-05-08",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   v:[],
   d:[{f:"1387-05-08",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"karaferye" },
 
 { ad:"Yenice-i Vardar",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.790, lon:22.407, k:3, m:null,
   kur:"1390-01-01",
-  s:[{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   v:[],
   d:[{f:"1390-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"yenice-i-vardar" }

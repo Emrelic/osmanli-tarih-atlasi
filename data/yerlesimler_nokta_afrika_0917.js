@@ -22,6 +22,6 @@ window.YERLESIMLER_NOKTA_AFRIKA_0917 = [
   kaynak:"TDV el-hac-omer (200, gövde okundu): '…Futa Calon'un doğusunda Tamba kralının kontrolündeki Dingiray'a yerleşti (1848)' · 'Hâkim olduğu devletin sınırları güneydeki Dingiray'dan…' · J. Suret-Canale, 'Guinea in the Colonial System' (Essays on African History), webguine.site: 'after the fall of Nioro, in 1891, he saw himself transferred from the authority of Dinguiraye' · koordinat OSM place=city 11.2964,-10.7149",
   s:[{f:"1848-01-01",t:"1852-09-01",d:"__BOSLUK__"},
      {f:"1852-09-01",t:"1891-01-01",d:"tekrur"},
-     {f:"1891-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+     {f:"1891-01-01",t:"1958-10-02",d:"fransa-cumhuriyet"},{f:"1958-10-02",t:"2000-12-31",d:"gine",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 ];

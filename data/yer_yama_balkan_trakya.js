@@ -65,7 +65,7 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
         {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
-        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+        {f:"1920-05-27",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     kaynak: "TDV `gumulcine` govdesi: 'I. Balkan Savasi sirasinda Bulgaristan " +
             "tarafindan isgal edildi ... I. Dunya Savasi'nda YENIDEN " +
             "BULGARLAR'IN eline gecti.' GUNLER: 1913-05-30 Londra Antlasmasi " +
@@ -89,7 +89,7 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
         {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
-        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+        {f:"1920-05-27",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     kaynak: "TDV `iskece` (200) + `gumulcine` govdesi. Gunler Gumulcine kaydiyla " +
             "AYNI: 1913-05-30 Londra · 1920-05-27 kulliyattaki " +
             "'Gumulcine'nin isgali' maddesi. Iskece Gumulcine ile ayni " +
@@ -106,7 +106,7 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
         {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
-        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+        {f:"1920-05-27",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     kaynak: "1913-05-30 komsu SOFULU ve DEDEAGAC kayitlarindan (Ferecik ikisinin " +
             "arasinda, Meric'in BATI yakasi); 1920-05-27 CEKIRDEK " +
             "KULLIYATTAKI 'Gumulcine'nin isgali — Bati Trakya'nin kaybi' " +
@@ -123,7 +123,7 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
         {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
-        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+        {f:"1920-05-27",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
     kaynak: "1913-05-30 komsu SOFULU kaydindan (12 km); 1920-05-27 CEKIRDEK " +
             "KULLIYATTAKI 'Gumulcine'nin isgali — Bati Trakya'nin kaybi' " +
             "maddesinden. Dimetoka Meric'in BATI yakasinda ve Sofulu ile " +

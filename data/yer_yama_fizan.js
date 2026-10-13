@@ -46,7 +46,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Murzuk (Fizan)",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -55,7 +55,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Gât",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -64,7 +64,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Sokna",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -73,7 +73,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Sebha",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -82,7 +82,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Ubârî",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -91,7 +91,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Vaddân (Cufre)",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -100,7 +100,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Zilla (Zella)",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -109,7 +109,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Câlû",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -118,7 +118,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Merâde",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -127,7 +127,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Tırgan (Traghan)",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -136,7 +136,7 @@ window.YER_YAMA_FIZAN = [
     ad: "Zevîle (Zawila)",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   },
@@ -145,7 +145,7 @@ window.YER_YAMA_FIZAN = [
     ad: "el-Katrûn",
     s: [
       { f: "1281-01-01", t: "1577-01-01", d: "kanem-bornu" },
-      { f: "1912-10-18", t: "1923-10-29", d: "italya" }
+      { f: "1912-10-18", t: "1943-01-23", d: "italya" },{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}
     ],
     kaynak: "fizan"
   }
