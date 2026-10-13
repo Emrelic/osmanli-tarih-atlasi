@@ -66,3 +66,6 @@ data/*_on.js        -text
 #   Yamanın satır sonu konumuna göre değişmemeli — desen yola bağlı olmasın.
 *.diff              -text
 *.patch             -text
+
+# git kancaları: sh betiği CRLF olursa kanca çalışmaz (shebang bozulur)
+arac/git-kancalar/pre-push text eol=lf

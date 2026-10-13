@@ -85,18 +85,19 @@ def uretilen_mi(yol):
     return any(fnmatch.fnmatch(yol, d) for d in URETILEN_DESEN)
 
 
-def cakisma_isareti_tara(dosyalar):
+def cakisma_isareti_tara(dosyalar, rev="HEAD", cwd=KOK):
     """İtilecek commit'teki dosyalarda çözülmemiş git çatışma işareti var mı?
 
     13 Ekim 2026: index.html'e 300 işaret satırı commit edildi (rebase'te `?v=` damga satırları
     çatıştı), yayında kronolojinin altında düz yazı olarak göründü; denetle ve denetle_yayin
     ikisi de 0 verdi. Yalnız `<<<<<<< ` ve `>>>>>>> ` satır başları aranır: tek başına
-    `=======` Markdown/RST'de meşrudur. Belgelerin alıntı yaptığı dizinler hariç."""
+    `=======` Markdown/RST'de meşrudur. Belgelerin alıntı yaptığı dizinler hariç.
+    `arac/git-kancalar/pre_push.py` aynı fonksiyonu `git push`un kendisinde de çağırır."""
     bulunan = []
     for f in dosyalar:
         if f.startswith(CAKISMA_ATLA):
             continue
-        r = subprocess.run(["git", "show", "HEAD:" + f], cwd=KOK, capture_output=True)
+        r = subprocess.run(["git", "show", rev + ":" + f], cwd=cwd, capture_output=True)
         if r.returncode != 0 or b"\0" in r.stdout[:8192]:
             continue  # silinen ya da ikili dosya
         n = len(CAKISMA_DESEN.findall(r.stdout))
