@@ -62,6 +62,9 @@ SITE_ONEK = ("index.html", "js/", "css/", "data/", "assets/")
 CAKISMA_DESEN = re.compile(rb"^(?:<{7}|>{7})(?: |\r?$)", re.M)
 CAKISMA_ATLA = ("arsiv/", "denetim/", "dersler/")
 DAMGA_DESEN = re.compile(rb"\?v=[^\"'\s>]*")
+# window.SURUM (genel damga, yalniz kapi yazar) da rebase birlestirmesinde damga sayilir;
+# silinmez, sabit yer tutucuya cevrilir ki satir korunsun (damga_yaz yeniden yazar).
+SURUM_DESEN = re.compile(rb'window\.SURUM="r\d+"')
 SINIR_RED = 95 * 1024 * 1024
 SINIR_UYARI = 90 * 1024 * 1024
 BEKLE_DK_VARSAYILAN = 120.0
@@ -216,7 +219,7 @@ def _index_birlestir():
                 b = b""
             yollar[ad] = os.path.join(yer, ad)
             with open(yollar[ad], "wb") as f:
-                f.write(DAMGA_DESEN.sub(b"", b))
+                f.write(SURUM_DESEN.sub(b'window.SURUM="r0"', DAMGA_DESEN.sub(b"", b)))
         r = subprocess.run(["git", "merge-file", "-p", yollar["bizim"], yollar["taban"], yollar["onlarin"]],
                            cwd=KOK, capture_output=True)
         if r.returncode != 0:
@@ -312,6 +315,28 @@ def uretilmisleri_yenile():
     return len(degisen)
 
 
+def damga_yaz():
+    """GENEL sürüm damgasını (window.SURUM) kapıda, rebase'ten SONRA yazar ve commit eder.
+
+    Oturumlar yalnız dosya-başı damgayı (içerikten türeyen, çatışmasız) koşar; her yayında
+    değişen tek satırı yalnız bu kapı yazar — kapı kilitle sıralı olduğundan iki yazıcı olmaz.
+    True = damga commit'i eklendi."""
+    if git("diff", "--quiet", "--", "index.html", kontrol=False).returncode != 0 or \
+       git("diff", "--cached", "--quiet", "--", "index.html", kontrol=False).returncode != 0:
+        raise Red("index.html'de yazılmamış değişiklik var — kapı damgayı üstüne yazamaz; "
+                  "önce commit et ya da geri al")
+    r = subprocess.run([PY, "arac/surum_damgala.py", "--yayin"], cwd=KOK, capture_output=True,
+                       text=True, encoding="utf-8", errors="replace")
+    print("   damga: " + (r.stdout.strip().splitlines() or ["(çıktı yok)"])[-1])
+    if r.returncode != 0:
+        raise Olculemedi("surum_damgala.py --yayin çıkış %d: %s" % (r.returncode, r.stdout.strip()[-300:]))
+    if git("diff", "--quiet", "--", "index.html", kontrol=False).returncode == 0:
+        return False
+    git("add", "--", "index.html")
+    git("commit", "-q", "-m", "damga: dosya-basi + genel sürüm damgası (push kapısı)", "--", "index.html")
+    return True
+
+
 def tur(ar):
     print("② fetch")
     git("fetch", "origin", "--quiet")
@@ -336,6 +361,9 @@ def tur(ar):
         # damga commit sayısına bağlı: rebase sonrası yeniden artırılır; paketler yeni tabandan türer
         print("   rebase sonrası üretilmiş dosyalar yenileniyor (paketle + sürüm damgası)")
         if uretilmisleri_yenile():
+            dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
+    if any(f.startswith(SITE_ONEK) for f in dosyalar):
+        if damga_yaz():
             dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
     print("③ %s commit · %d dosya" % (ileri, len(dosyalar)))
     for f in dosyalar[:20]:

@@ -870,14 +870,13 @@ function rotusTeklifKur(n) {
   var dk = document.querySelector('#katman-grup input[data-katman="dolgu"]');
   var not = "";
   try { not = window.prompt("Rötuş notu — ne neye bağlansın? (ör. \"İbrail'i Eflak'a bağla\")", "") || ""; } catch (e) {}
-  var sv = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
   return {
     tur: "rotus-teklif", surum: 1, gun: gun, gun_yazi: idxYazi(suanki),
     gorunum: dk && dk.checked ? "B" : "A",
     rotus_acikti: ROTUS_ACIK,
     geo: n.concat([n[0]]),
     kime_adaylari: kime, kimden_adaylari: kimden, not: not,
-    sayfa: (sv.match(/v=(r\d+)/) || [])[1] || "?",
+    sayfa: window.SURUM || "?",
     olusturuldu: new Date().toISOString(),
     uyari: "kime/kimden ADAYDIR (ekrandan okundu). Kesin kime/kimden/f/t'yi kontrol K1-K3 ÖLÇER."
   };
@@ -1086,11 +1085,10 @@ function ufukRozet(metin) {
 }
 
 function ufukSurum() {
-  // Sürüm damgasını kendi <script> etiketinden okur — elle sayı YAZILMAZ,
-  // surum_damgala.py her yayında app.js'in ?v=rNNNN'ini güncelliyor.
-  var k = document.querySelector('script[src*="app.js"]');
-  var m = (k && k.src || "").match(/[?&]v=(r\d+)/);
-  return m ? ("?v=" + m[1]) : "";
+  // GENEL sürüm damgası (index.html'deki tek satır `window.SURUM`) — elle sayı YAZILMAZ,
+  // surum_damgala.py --yayin push kapısında günceller. (Eskiden app.js'in KENDİ etiketinin
+  // ?v='sinden okunurdu; etiket damgası artık dosya içeriğinden türüyor.)
+  return window.SURUM ? ("?v=" + window.SURUM) : "";
 }
 
 function ufukYukle(bitti) {
@@ -9312,8 +9310,7 @@ function kaynakliHalkaYukle(biterse) {
   if (biterse) KHALKA.bekleyen.push(biterse);
   if (KHALKA.deneniyor) return;         // D029: erken/sahte "bitti" YOK — kuyruğa
   KHALKA.deneniyor = true;
-  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
-  var v = (damga.match(/v=(r\d+)/) || [])[1];
+  var v = window.SURUM;
   var kalan = _KAYNAKLI_HALKA_DOSYA_ADLARI.length, bulunan = 0;
   function biri(varMi) {
     if (varMi) bulunan++;
@@ -10495,18 +10492,16 @@ var hizSec = document.getElementById("hiz");
 var ustbarTarih = document.getElementById("ustbar-tarih");
 var ustbarYil = document.getElementById("ustbar-yil");
 
-// 🆕 SÜRÜM DAMGASI (kuyruk ⑤/②, Emre — 2 Eylül 2026) — kendi `<script>`
-// etiketinin `?v=rNNNN`ini okuyup yazıyor; elle bir sayı YAZILMADI ki her
-// yayında (surum_damgala.py) kendiliğinden güncel kalsın. Etiket bulunamazsa
-// (yerel test, ?v= yoksa) span BOŞ kalır — sessiz TypeError yok, uydurma yok.
+// 🆕 SÜRÜM DAMGASI (kuyruk ⑤/②, Emre — 2 Eylül 2026) — index.html'deki GENEL
+// `window.SURUM`u yazıyor; elle bir sayı YAZILMADI ki her yayında
+// (surum_damgala.py --yayin) kendiliğinden güncel kalsın. Değişken yoksa
+// (yerel test) span BOŞ kalır — sessiz TypeError yok, uydurma yok.
+// (Eskiden app.js'in kendi etiketinin ?v=sinden okunurdu; etiket damgası artık
+// dosya içeriğinden türediği için sürüm numarası olmaktan çıktı.)
 (function () {
   var el = document.getElementById("surum-etiketi");
   if (!el) return;
-  var kendi = document.currentScript ||
-    document.querySelector('script[src*="app.js"]');
-  var src = kendi && kendi.src || "";
-  var m = src.match(/[?&]v=(r\d+)/);
-  if (m) el.textContent = m[1];
+  if (window.SURUM) el.textContent = window.SURUM;
 })();
 
 // 🏷️ KOŞU DAMGASI (Emre, 5 Ekim 2026) — yayın numarasının YANINDA "KOŞU 19".
@@ -11825,8 +11820,7 @@ function _petekGovdeYukle(cb) {
   _PETEK_GOVDE_YUK.bekleyen.push(cb);
   if (_PETEK_GOVDE_YUK.deneniyor) return;
   _PETEK_GOVDE_YUK.deneniyor = true;
-  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
-  var v = (damga.match(/v=(r\d+)/) || [])[1];
+  var v = window.SURUM;
   function bitti() {
     _PETEK_GOVDE_YUK.deneniyor = false;
     var b = _PETEK_GOVDE_YUK.bekleyen; _PETEK_GOVDE_YUK.bekleyen = [];
@@ -12537,8 +12531,7 @@ function ekOkumaMerakYukle(biterse) {
   if (EKOKUMA_DURUM.yuklendi) { if (biterse) biterse(); return; }
   if (EKOKUMA_DURUM.deneniyor) { if (biterse) _ekOkumaBekleyenler.push(biterse); return; }
   EKOKUMA_DURUM.deneniyor = true;
-  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
-  var v = (damga.match(/v=(r\d+)/) || [])[1];
+  var v = window.SURUM;
   var kalan = _EKOKUMA_DOSYA_ADLARI.length;
   var _bulunan = 0, _bulunmayan = 0;
   function biri(varMi) {

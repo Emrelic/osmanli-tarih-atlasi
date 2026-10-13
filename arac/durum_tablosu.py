@@ -748,7 +748,7 @@ def olc():
         o[ad] = (" ".join(mm.groups())).strip() if mm else "ölçülemedi"
 
     try:
-        o["surum"] = re.search(r"\?v=(r\d+)", _oku("index.html")).group(1)
+        o["surum"] = re.search(r'window\.SURUM\s*=\s*"(r\d+)"', _oku("index.html")).group(1)
     except Exception:
         o["surum"] = "?"
     try:

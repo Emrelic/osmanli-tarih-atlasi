@@ -83,7 +83,9 @@ def yerel_mi(yol):
 # İki ayrı soru sorulur — ikincisi daha değerlidir, çünkü commit'ten ÖNCE uyarır:
 #   1) geçmişte hangi commit damgayı unuttu (tarihsel, düzeltilemez)
 #   2) ŞU AN çalışma ağacında js/css değişmiş ama damga HEAD'dekiyle aynı mı
-DAMGA = re.compile(r"\?v=r(\d+)")
+SURUM_GENEL = re.compile(r'window\.SURUM\s*=\s*"r(\d+)"')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import surum_damgala as _sd          # dosya_damgasi(): damgayı üreten ve sınayan AYNI işlev
 
 
 def _git(*a):
@@ -96,11 +98,12 @@ def _git(*a):
 
 
 def _damga_no(metin):
-    """index.html içindeki en büyük ?v=rNN sayısı; yoksa None."""
+    """index.html içindeki GENEL damga (window.SURUM) sayısı; yoksa None.
+    (Eskiden en büyük ?v=rNN idi; etiket damgaları artık içerik özeti, sürüm numarası değil.)"""
     if metin is None:
         return None
-    n = [int(m) for m in DAMGA.findall(metin)]
-    return max(n) if n else None
+    m = SURUM_GENEL.search(metin)
+    return int(m.group(1)) if m else None
 
 
 def damga_denetimi(gecmis=30):
@@ -1567,12 +1570,31 @@ def main():
                         break
             print("      %-34s %s" % (y, _ac or "desen eşleşmesi (gerekçe yazılmamış)"))
 
-    # sürüm damgası tutarlılığı: hepsi aynı ?v=rNN taşımalı
-    damgalar = set(re.findall(r'\?v=(r\d+)', html))
-    durum3 = "✓" if len(damgalar) <= 1 else "✗"
-    print("%s  sürüm damgası: %s" % (durum3, ", ".join(sorted(damgalar)) or "yok"))
-    if len(damgalar) > 1:
-        print("     birden çok damga var — surum_damgala.py yarım kalmış olabilir")
+    # sürüm damgası tutarlılığı (DOSYA BAŞINA damga, 13 Ekim 2026 prototip):
+    #   ① GENEL damga `window.SURUM="rNNNN"` tam bir kez ·
+    #   ② her yerel js/css etiketinin ?v=si o DOSYANIN İÇERİĞİNDEN türeyen değere eşit
+    #      (eski "hepsi aynı damga" sınamasının yerine; r83 vakasını — kod değişti, damga
+    #      kaldı — DOĞRUDAN yakalar: bayat damga = içerikten türeyenle uyuşmayan damga)
+    _yh = _yorumsuz_html(html)
+    genel_damga = SURUM_GENEL.findall(_yh)
+    damga_bayat, damga_yok = [], []
+    for _m in re.finditer(r'(?:src|href)="((?:js|data|css)/[^"?]+\.(?:js|css))(?:\?v=(r\d+))?"', _yh):
+        _yol, _mevcut = _m.group(1), _m.group(2)
+        _olmasi = _sd.dosya_damgasi(_yol, KOK)
+        if _olmasi is None:
+            continue                       # dosya diskte yok — başka denetimler (yoklar) söyler
+        if _mevcut is None:
+            damga_yok.append(_yol)
+        elif _mevcut != _olmasi:
+            damga_bayat.append(_yol)
+    damga_tutarsiz = len(genel_damga) != 1 or bool(damga_bayat) or bool(damga_yok)
+    print("%s  sürüm damgası: genel %s · dosya damgası %d bayat, %d eksik" % (
+        "✗" if damga_tutarsiz else "✓", ",".join("r" + x for x in genel_damga) or "YOK",
+        len(damga_bayat), len(damga_yok)))
+    if len(genel_damga) != 1:
+        print("     `window.SURUM=\"rNNNN\"` %d kez var — tam 1 olmalı (surum_damgala.py --yayin)" % len(genel_damga))
+    for _y in (damga_bayat + damga_yok)[:8]:
+        print("     %s damgası içerikle uyuşmuyor → py arac/surum_damgala.py" % _y)
 
     # --- sürüm damgası ARTTI MI (r83 vakası) ---------------------------------
     gecmis_ihlal, simdi_ihlal = damga_denetimi(args.gecmis)
@@ -2027,7 +2049,7 @@ def main():
         _kapi_ihlali = True
         print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
-    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or damga_tutarsiz
             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
