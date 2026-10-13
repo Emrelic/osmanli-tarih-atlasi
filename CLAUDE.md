@@ -158,7 +158,10 @@ push kapısındaki rebase'de buluşur: farklı satırlar kendiliğinden birleşi
   oturumlar aynı index'i paylaşır: `git add -- <adlar>` + `git commit -F <mesaj-dosyası> -- <aynı adlar>`,
   sonra `git show --name-only` ile doğrula.
 - **`main`e push yalnız `py arac/push_kapisi.py --kim "<AD>"`** (`--kuru` = itmeden sına). Kapı:
-  kilit → fetch/rebase (çatışmada durur) → ayrı worktree'de `denetle` 0 (site dosyası değiştiyse
+  kilit (sıra gelene kadar BEKLER, `--bekle-dk`, varsayılan 120; ölü-süreç kuyruk kaydını temizler) →
+  fetch/rebase (üretilmiş `paket_*.js`/`paket_kunye.json`/`index.html` damga çatışmasını kendisi çözer,
+  `paketle yenile` + `surum_damgala` ile yeniden üretip amend eder; GERÇEK veri çatışmasında rebase'i
+  geri alır, kilidi bırakır, **çıkış 4**) → ayrı worktree'de `denetle` 0 (site dosyası değiştiyse
   `denetle_yayin` de 0) → push → geri okuma. Tuz dosyası `--tuz-onay`, motor çıktısı
   `--uretilen-onay` ister; > 95 MiB reddedilir. **Ölçülemedi (2) yalnız
   `--olculemedi-kabul "<gerekçe>"` ile geçer; ihlal (1) hiç geçmez.**

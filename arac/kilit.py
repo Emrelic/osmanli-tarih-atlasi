@@ -121,8 +121,8 @@ SURUM = 1
 BAYAT_SAAT = 6.0                  # yalnız RAPORLAMA eşiği
 SURE_DK = float(os.environ.get("KILIT_SURE_DK") or 60)   # son yazmadan bu kadar sonra düşer
 
-KOMUTLAR = ("al", "birak", "durum", "kimde", "birak-hepsi", "zorla-birak")
-BAYRAKLAR = ("--kim", "--gerekce", "--sessiz")
+KOMUTLAR = ("al", "birak", "durum", "kimde", "birak-hepsi", "zorla-birak", "olu-temizle")
+BAYRAKLAR = ("--kim", "--gerekce", "--sessiz", "--pid")
 
 
 # --------------------------------------------------------------------------
@@ -190,6 +190,10 @@ class Nobet(object):
 
     def __enter__(self):
         bitis = time.time() + self.sure
+        try:
+            os.makedirs(os.path.dirname(NOBET), exist_ok=True)   # taze klonda oturumlar/ yok
+        except OSError:
+            pass
         while True:
             try:
                 self.fd = os.open(NOBET, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
@@ -262,6 +266,46 @@ def zaman_asti(k):
     return y is not None and y * 60.0 >= SURE_DK
 
 
+def _yeni_sahip(yeni, t, sira):
+    """Sıradakini sahip yapar; sırada bırakılmış `pid` (varsa) sahip kaydına taşınır."""
+    k = {"sahip": yeni["kim"], "alindi": t, "son_yazma": t, "sira": sira}
+    if yeni.get("pid"):
+        k["pid"] = yeni["pid"]
+    return k
+
+
+def surec_canli_mi(pid):
+    """Bu makinede `pid` süreci yaşıyor mu. Yön kasıtlı: ÖLÇÜLEMEZSE canlı sayılır
+    (ölü saymak başkasının kaydını silerdi; canlı saymak yalnız bekletir)."""
+    try:
+        pid = int(pid)
+    except (TypeError, ValueError):
+        return True
+    if pid <= 0:
+        return True
+    if os.name == "nt":
+        try:
+            import ctypes
+            k32 = ctypes.WinDLL("kernel32", use_last_error=True)
+            k32.OpenProcess.restype = ctypes.c_void_p
+            h = k32.OpenProcess(0x1000, False, pid)   # PROCESS_QUERY_LIMITED_INFORMATION
+            if not h:
+                return ctypes.get_last_error() == 5   # erişim reddi = canlı; öteki = yok
+            kod = ctypes.c_ulong(0)
+            ok = k32.GetExitCodeProcess(ctypes.c_void_p(h), ctypes.byref(kod))
+            k32.CloseHandle(ctypes.c_void_p(h))
+            return (not ok) or kod.value == 259          # STILL_ACTIVE
+        except Exception:
+            return True
+    try:
+        os.kill(pid, 0)
+        return True
+    except ProcessLookupError:
+        return False
+    except Exception:
+        return True
+
+
 def bayat_dusur(d, anah):
     """Süresi aşmış kilidi düşürür: sırada biri varsa ona geçer, yoksa siler.
     Kayıt `sure_asimi_gecmis`e. → düşen sahibin adı ya da None. Nöbet ÇAĞIRANDA."""
@@ -274,7 +318,7 @@ def bayat_dusur(d, anah):
     sira = k.get("sira") or []
     if sira:
         yeni, t = sira.pop(0), simdi()
-        d["kilitler"][anah] = {"sahip": yeni["kim"], "alindi": t, "son_yazma": t, "sira": sira}
+        d["kilitler"][anah] = _yeni_sahip(yeni, t, sira)
     else:
         del d["kilitler"][anah]
     return k.get("sahip")
@@ -291,7 +335,7 @@ def yas_yazi(damga):
 # --------------------------------------------------------------------------
 # komutlar
 # --------------------------------------------------------------------------
-def k_al(yol, kim, sessiz=False):
+def k_al(yol, kim, sessiz=False, pid=None):
     anah = yol_anahtar(yol)
     with Nobet():
         d = yukle()
@@ -306,6 +350,8 @@ def k_al(yol, kim, sessiz=False):
         if k is None:
             t = simdi()
             d["kilitler"][anah] = {"sahip": kim, "alindi": t, "son_yazma": t, "sira": []}
+            if pid:
+                d["kilitler"][anah]["pid"] = pid
             kaydet(d)
             if not sessiz:
                 print("🟢 KİLİT SENDE — %s" % anah)
@@ -314,6 +360,8 @@ def k_al(yol, kim, sessiz=False):
             return 0
         if k["sahip"] == kim:
             k["son_yazma"] = simdi()
+            if pid:
+                k["pid"] = pid
             kaydet(d)
             if not sessiz:
                 print("🟢 KİLİT ZATEN SENDE — %s (%s önce aldın; süre tazelendi)"
@@ -323,8 +371,12 @@ def k_al(yol, kim, sessiz=False):
         sira = k.setdefault("sira", [])
         if any(s.get("kim") == kim for s in sira):
             yer = [s.get("kim") for s in sira].index(kim) + 1
+            if pid:
+                for s in sira:
+                    if s.get("kim") == kim:
+                        s["pid"] = pid
         else:
-            sira.append({"kim": kim, "girdi": simdi()})
+            sira.append({"kim": kim, "girdi": simdi(), **({"pid": pid} if pid else {})})
             yer = len(sira)
         kaydet(d)
         # 🔴 Emre'nin istediği CÜMLE — kelimeleri onun
@@ -363,7 +415,7 @@ def k_birak(yol, kim, sessiz=False):
         if sira:
             yeni = sira.pop(0)
             t = simdi()
-            d["kilitler"][anah] = {"sahip": yeni["kim"], "alindi": t, "son_yazma": t, "sira": sira}
+            d["kilitler"][anah] = _yeni_sahip(yeni, t, sira)
             kaydet(d)
             print("🟢 BIRAKTIN — %s" % anah)
             print("   ⇒ SIRADAKİ ALDI: %s  (%s beri bekliyordu)"
@@ -451,6 +503,45 @@ def k_birak_hepsi(kim):
     return 0
 
 
+def k_olu_temizle(yol, kim=None, sessiz=False):
+    """Süreci ÖLMÜŞ kayıtları temizler — YALNIZ `--pid` ile yazılmış kayıtlar (pid'siz kayıt
+    asla ölü sayılmaz) ve YALNIZ bu makinede ölü olduğu ölçülenler:
+      · sıradaki ölü kayıt silinir; · sahibin süreci ölmüşse (ve sahip `kim` değilse)
+      kilit sıradaki canlıya geçer / yoksa serbest kalır. Canlı kayda dokunulmaz.
+    Çıkış 0; temizlenenler `olu_temizlenen`e kaydolur."""
+    anah = yol_anahtar(yol)
+    sayac = 0
+    with Nobet():
+        d = yukle()
+        k = d["kilitler"].get(anah)
+        if k is None:
+            return 0
+        gecmis = d.setdefault("olu_temizlenen", [])
+        kalan = []
+        for s in (k.get("sira") or []):
+            if s.get("pid") and not surec_canli_mi(s["pid"]):
+                gecmis.append({"dosya": anah, "rol": "sira", "kim": s.get("kim"),
+                               "pid": s["pid"], "ne_zaman": simdi()})
+                sayac += 1
+            else:
+                kalan.append(s)
+        k["sira"] = kalan
+        if k.get("pid") and k.get("sahip") != kim and not surec_canli_mi(k["pid"]):
+            gecmis.append({"dosya": anah, "rol": "sahip", "kim": k.get("sahip"),
+                           "pid": k["pid"], "ne_zaman": simdi()})
+            sayac += 1
+            if kalan:
+                yeni = kalan.pop(0)
+                d["kilitler"][anah] = _yeni_sahip(yeni, simdi(), kalan)
+            else:
+                del d["kilitler"][anah]
+        if sayac:
+            kaydet(d)
+    if sayac and not sessiz:
+        print("🧹 %d ölü kayıt temizlendi — %s" % (sayac, anah))
+    return 0
+
+
 def k_zorla(yol, gerekce):
     """🔴 Yalnız koordinatör, ve YALNIZ ölçümden sonra (§7.2: 'takıldı' demeden
     önce ① teslim gelmiş mi ② nabız ③ ancak ikisi de hayırsa). Gerekçe
@@ -507,7 +598,7 @@ def main(argv):
             if not hedef or not kim:
                 print("🔴 al: <dosya> ve --kim ŞART", file=sys.stderr)
                 return 3
-            return k_al(hedef[0], kim, sessiz)
+            return k_al(hedef[0], kim, sessiz, g.get("--pid"))
         if komut == "birak":
             if not hedef or not kim:
                 print("🔴 birak: <dosya> ve --kim ŞART", file=sys.stderr)
@@ -520,6 +611,11 @@ def main(argv):
                 print("🔴 kimde: <dosya> ŞART", file=sys.stderr)
                 return 3
             return k_kimde(hedef[0])
+        if komut == "olu-temizle":
+            if not hedef:
+                print("🔴 olu-temizle: <dosya> ŞART", file=sys.stderr)
+                return 3
+            return k_olu_temizle(hedef[0], kim, sessiz)
         if komut == "birak-hepsi":
             if not kim:
                 print("🔴 birak-hepsi: --kim ŞART", file=sys.stderr)
