@@ -1245,6 +1245,15 @@ def main():
         "data/koridor_halka2.js":        "11 dugum + 10 kenar (Belgrad→Viyana); "
                                          "onkosul ARAYUZ (index.html satiri + "
                                          "app.js cizimi), renk/anlik goruntu DEGIL",
+        # ── 14 EKIM 2026 — SEHIR TARIHCESI (Emre karari, 13 Ekim) ─────────────
+        # KASITLI OLARAK yuklenmez: 1900 kat 1-3 sehirlerin ilk anilisi + sahiplik
+        # zinciri + kronolojisi ARASTIRMA BIRIKIMIDIR. MO tarih motorda henuz
+        # yazilamiyor (C4) ve yeni nokta zincirsiz eklenemiyor (Degismez 1);
+        # aktarim (yerlesimler s:/d:/kur:/bit: + olaylar) ayri istir.
+        # Sema VERI-YAPISI.md son bolum · denetci arac/sehir_tarihce.py.
+        "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
+                                         "onkosul AKTARIM (MO motor destegi C4 + "
+                                         "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",
         # ── 16 AGUSTOS GECE PARTISI — SEKIZ DOSYA, HEPSI AYNI ONKOSULDA ──
         # Sekiz oturum es zamanli calisti ve her biri KENDI dosyasina yazdi
         # (adlandirma: scratchpad UUID'inin ilk 6 hanesi — cakisma YAPISAL
