@@ -1,0 +1,1933 @@
+{
+ "tarih": "2026-10-13",
+ "olcut": "not alani < 200 karakter; sira: padisah/sadrazam once, sonra olay/kronoloji dosyalarinda ad gecis sayisi (azalan)",
+ "toplam_kisa_basta": 227,
+ "yapilan_parti_1": [
+  {
+   "id": "ali-pasa",
+   "ad": "Âlî Paşa",
+   "yeni_not_uzunluk": 669
+  },
+  {
+   "id": "kopruluzade-fazil-ahmed-pasa",
+   "ad": "Köprülüzâde Fâzıl Ahmed Paşa",
+   "yeni_not_uzunluk": 615
+  },
+  {
+   "id": "damad-ali-pasa",
+   "ad": "Damad Ali Paşa (Şehid)",
+   "yeni_not_uzunluk": 539
+  },
+  {
+   "id": "baltaci-mehmed-pasa",
+   "ad": "Baltacı Mehmed Paşa",
+   "yeni_not_uzunluk": 491
+  },
+  {
+   "id": "mahmud-pasa",
+   "ad": "Mahmud Paşa (Velî)",
+   "yeni_not_uzunluk": 641
+  },
+  {
+   "id": "kemankes-kara-mustafa-pasa",
+   "ad": "Kemankeş Kara Mustafa Paşa",
+   "yeni_not_uzunluk": 561
+  },
+  {
+   "id": "resid-mehmed-pasa",
+   "ad": "Reşid Mehmed Paşa",
+   "yeni_not_uzunluk": 476
+  },
+  {
+   "id": "koca-husrev-pasa",
+   "ad": "Koca Hüsrev Paşa",
+   "yeni_not_uzunluk": 594
+  },
+  {
+   "id": "candarli-halil-pasa",
+   "ad": "Çandarlı Halil Paşa",
+   "yeni_not_uzunluk": 643
+  },
+  {
+   "id": "amcazade-huseyin-pasa",
+   "ad": "Amcazâde Hüseyin Paşa",
+   "yeni_not_uzunluk": 482
+  },
+  {
+   "id": "atik-ali-pasa",
+   "ad": "Hadım Ali Paşa (Atik Ali Paşa, sadrazam)",
+   "yeni_not_uzunluk": 747
+  },
+  {
+   "id": "ivazzade-halil-pasa",
+   "ad": "İvazzâde Halil Paşa",
+   "yeni_not_uzunluk": 610
+  },
+  {
+   "id": "huseyin-avni-pasa",
+   "ad": "Hüseyin Avni Paşa",
+   "yeni_not_uzunluk": 675
+  },
+  {
+   "id": "said-efendi",
+   "ad": "Said Efendi (Yirmisekiz Çelebizâde)",
+   "yeni_not_uzunluk": 475
+  },
+  {
+   "id": "mutercim-rusdu-pasa",
+   "ad": "Mütercim Rüşdü Paşa",
+   "yeni_not_uzunluk": 588
+  },
+  {
+   "id": "mustafa-kemal-pasa",
+   "ad": "Mustafa Kemal Paşa (Atatürk)",
+   "yeni_not_uzunluk": 709
+  },
+  {
+   "id": "cem-sultan",
+   "ad": "Cem Sultan",
+   "yeni_not_uzunluk": 627
+  },
+  {
+   "id": "cihan-sah",
+   "ad": "Cihan Şah",
+   "yeni_not_uzunluk": 746
+  },
+  {
+   "id": "tahmasb",
+   "ad": "Şah Tahmasb",
+   "yeni_not_uzunluk": 524
+  },
+  {
+   "id": "seybani-han",
+   "ad": "Şeybânî Han",
+   "yeni_not_uzunluk": 496
+  },
+  {
+   "id": "biyikli-mehmed-pasa",
+   "ad": "Bıyıklı Mehmed Paşa",
+   "yeni_not_uzunluk": 604
+  },
+  {
+   "id": "abbas1",
+   "ad": "Şah I. Abbas",
+   "yeni_not_uzunluk": 732
+  },
+  {
+   "id": "serif-huseyin",
+   "ad": "Şerif Hüseyin",
+   "yeni_not_uzunluk": 664
+  },
+  {
+   "id": "kilic-ali-pasa",
+   "ad": "Kılıç Ali Paşa (Uluç)",
+   "yeni_not_uzunluk": 575
+  },
+  {
+   "id": "idris-i-bitlisi",
+   "ad": "İdrîs-i Bitlisî",
+   "yeni_not_uzunluk": 623
+  },
+  {
+   "id": "muhammed-ahmed",
+   "ad": "Muhammed Ahmed (Mehdî)",
+   "yeni_not_uzunluk": 432
+  },
+  {
+   "id": "lala-sahin-pasa",
+   "ad": "Lala Şâhin Paşa",
+   "yeni_not_uzunluk": 524
+  },
+  {
+   "id": "cuneyd-bey",
+   "ad": "Aydınoğlu Cüneyd Bey",
+   "yeni_not_uzunluk": 823
+  },
+  {
+   "id": "kazim-karabekir-pasa",
+   "ad": "Kâzım Karabekir Paşa",
+   "yeni_not_uzunluk": 614
+  },
+  {
+   "id": "enver-pasa",
+   "ad": "Enver Paşa",
+   "yeni_not_uzunluk": 797
+  }
+ ],
+ "kalan_kisa_kartlar_sirali": [
+  {
+   "sira": 1,
+   "id": "yedisekiz-hasan-pasa",
+   "tur": "komutan",
+   "ad": "Hasan Paşa (Yedi Sekiz)",
+   "not_uzunluk": 156,
+   "kronoloji_anma": 45,
+   "kaynak": "TDV: ali-suavi (müstakil madde yok)"
+  },
+  {
+   "sira": 2,
+   "id": "mircea",
+   "tur": "yabanci-hukumdar",
+   "ad": "Mircea (cel Bătrân)",
+   "not_uzunluk": 105,
+   "kronoloji_anma": 20,
+   "kaynak": "TDV: eflak (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 3,
+   "id": "patrona-halil",
+   "tur": "siyasi",
+   "ad": "Patrona Halil",
+   "not_uzunluk": 26,
+   "kronoloji_anma": 17,
+   "kaynak": "TDV: patrona-isyani (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 4,
+   "id": "ferdinand1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Ferdinand (Habsburg)",
+   "not_uzunluk": 139,
+   "kronoloji_anma": 13,
+   "kaynak": "TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 5,
+   "id": "tosun-pasa",
+   "tur": "komutan",
+   "ad": "Tosun Paşa",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 10,
+   "kaynak": "TDV: ibrahim-pasa-kavalali (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 6,
+   "id": "pachacuti",
+   "tur": "yabanci-hukumdar",
+   "ad": "Pachacuti",
+   "not_uzunluk": 93,
+   "kronoloji_anma": 9,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `peru` maddesi yok; okunan `amerika` — İnkalar anılır, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 7,
+   "id": "george-tupou1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. George Tupou",
+   "not_uzunluk": 32,
+   "kronoloji_anma": 9,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: Tonga maddesi yok (başlıkta yalnız adaş `tonga-alp-er`); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 8,
+   "id": "leopold1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Leopold",
+   "not_uzunluk": 119,
+   "kronoloji_anma": 8,
+   "kaynak": "TDV: viyana (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 9,
+   "id": "aleksandr1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Aleksandr",
+   "not_uzunluk": 78,
+   "kronoloji_anma": 8,
+   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 10,
+   "id": "kara-yorgi",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kara Yorgi (Đorđe Petrović)",
+   "not_uzunluk": 35,
+   "kronoloji_anma": 8,
+   "kaynak": "TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 11,
+   "id": "evrenos-bey",
+   "tur": "komutan",
+   "ad": "Evrenos Bey",
+   "not_uzunluk": 33,
+   "kronoloji_anma": 7,
+   "kaynak": "TDV: evrenosogullari (müstakil madde yok — `gazi-evrenos-bey` yalnız gönderme; ölüm 820/1417 kaynakta var, doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 12,
+   "id": "andrea-doria",
+   "tur": "yabanci-komutan",
+   "ad": "Andrea Doria",
+   "not_uzunluk": 25,
+   "kronoloji_anma": 7,
+   "kaynak": "TDV: preveze-deniz-muharebesi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 13,
+   "id": "ivan4",
+   "tur": "yabanci-hukumdar",
+   "ad": "IV. İvan (Korkunç)",
+   "not_uzunluk": 131,
+   "kronoloji_anma": 7,
+   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 14,
+   "id": "haci-giray",
+   "tur": "yabanci-hukumdar",
+   "ad": "Hacı Giray",
+   "not_uzunluk": 67,
+   "kronoloji_anma": 7,
+   "kaynak": "TDV: haci-giray-i"
+  },
+  {
+   "sira": 15,
+   "id": "halil-pasa",
+   "tur": "komutan",
+   "ad": "Halil Paşa (Kut)",
+   "not_uzunluk": 17,
+   "kronoloji_anma": 6,
+   "kaynak": "TDV: kutulamare (müstakil madde yok; doğum 1882 ve ölüm 1957 yılları kaynakta yok)"
+  },
+  {
+   "sira": 16,
+   "id": "yakub-bey-kasgar",
+   "tur": "yabanci-hukumdar",
+   "ad": "Yâkub Bey (Kaşgar)",
+   "not_uzunluk": 97,
+   "kronoloji_anma": 6,
+   "kaynak": "TDV: yakub-beg (`yakub-bey` slug'ı aynı adlı BAŞKA kişidir)"
+  },
+  {
+   "sira": 17,
+   "id": "sunni-ali",
+   "tur": "yabanci-hukumdar",
+   "ad": "Sünnî Ali",
+   "not_uzunluk": 64,
+   "kronoloji_anma": 6,
+   "kaynak": "TDV: mali (müstakil madde yok)"
+  },
+  {
+   "sira": 18,
+   "id": "seydi-ali-reis",
+   "tur": "denizci",
+   "ad": "Seydi Ali Reis",
+   "not_uzunluk": 109,
+   "kronoloji_anma": 6,
+   "kaynak": "TDV: seydi-ali-reis (doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 19,
+   "id": "gazi-osman-pasa",
+   "tur": "komutan",
+   "ad": "Gazi Osman Paşa",
+   "not_uzunluk": 16,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: gazi-osman-pasa"
+  },
+  {
+   "sira": 20,
+   "id": "fahreddin-pasa",
+   "tur": "komutan",
+   "ad": "Fahreddin Paşa (Çöl Kaplanı)",
+   "not_uzunluk": 16,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: fahreddin-pasa"
+  },
+  {
+   "sira": 21,
+   "id": "ismet-pasa",
+   "tur": "komutan",
+   "ad": "İsmet Paşa (İnönü)",
+   "not_uzunluk": 41,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: inonu-mustafa-ismet"
+  },
+  {
+   "sira": 22,
+   "id": "abdulmecid-efendi",
+   "tur": "hanedan",
+   "ad": "Abdülmecid Efendi",
+   "not_uzunluk": 22,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: abdulmecid-efendi"
+  },
+  {
+   "sira": 23,
+   "id": "don-juan",
+   "tur": "yabanci-komutan",
+   "ad": "Don Juan",
+   "not_uzunluk": 26,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: inebahti-deniz-savasi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 24,
+   "id": "eugen",
+   "tur": "yabanci-komutan",
+   "ad": "Prens Eugen",
+   "not_uzunluk": 22,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 25,
+   "id": "milos-obrenovic",
+   "tur": "siyasi",
+   "ad": "Miloš Obrenović",
+   "not_uzunluk": 29,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: sirbistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 26,
+   "id": "urabi-pasa",
+   "tur": "siyasi",
+   "ad": "Urâbî Paşa",
+   "not_uzunluk": 30,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: urabi-pasa"
+  },
+  {
+   "sira": 27,
+   "id": "elvend-bey",
+   "tur": "yabanci-hukumdar",
+   "ad": "Elvend Bey (Akkoyunlu)",
+   "not_uzunluk": 135,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: akkoyunlular (Elvend'in müstakil maddesi TDV'de bulunamadı — `elvend-bey` ve `elvend` sluglarının ikisi de 302)"
+  },
+  {
+   "sira": 28,
+   "id": "nikolay1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Nikolay",
+   "not_uzunluk": 56,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 29,
+   "id": "devlet-giray",
+   "tur": "yabanci-hukumdar",
+   "ad": "Devlet Giray",
+   "not_uzunluk": 35,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: devlet-giray"
+  },
+  {
+   "sira": 30,
+   "id": "joao1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. João (Nzinga a Nkuwu)",
+   "not_uzunluk": 62,
+   "kronoloji_anma": 5,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan joão, afonso, 'Kongo Krallığı'; okunan `kongo-demokratik-cumhuriyeti` — 1482 Portekiz teması var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 31,
+   "id": "jozef-pilsudski",
+   "tur": "siyasi",
+   "ad": "Józef Piłsudski",
+   "not_uzunluk": 67,
+   "kronoloji_anma": 5,
+   "kaynak": "TDV: polonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 32,
+   "id": "gazi-ahmed-muhtar-pasa",
+   "tur": "komutan",
+   "ad": "Gazi Ahmed Muhtar Paşa",
+   "not_uzunluk": 23,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: gazi-ahmed-muhtar-pasa"
+  },
+  {
+   "sira": 33,
+   "id": "davud-i-kayseri",
+   "tur": "alim",
+   "ad": "Dâvûd-i Kayserî",
+   "not_uzunluk": 37,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: davud-i-kayseri"
+  },
+  {
+   "sira": 34,
+   "id": "ismail-kamil-pasa",
+   "tur": "komutan",
+   "ad": "İsmâil Kâmil Paşa",
+   "not_uzunluk": 52,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: cealiyyun (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 35,
+   "id": "abdullah-b-suud",
+   "tur": "yabanci-hukumdar",
+   "ad": "Abdullah b. Suûd",
+   "not_uzunluk": 53,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: abdullah-b-suud"
+  },
+  {
+   "sira": 36,
+   "id": "hunyadi-yanos",
+   "tur": "yabanci-komutan",
+   "ad": "Hunyadi Yanoş",
+   "not_uzunluk": 38,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: kosova-savaslari (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 37,
+   "id": "kabakci-mustafa",
+   "tur": "siyasi",
+   "ad": "Kabakçı Mustafa",
+   "not_uzunluk": 26,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: kabakci-isyani (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 38,
+   "id": "ulug-muhammed",
+   "tur": "yabanci-hukumdar",
+   "ad": "Uluğ Muhammed",
+   "not_uzunluk": 43,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: kazan-hanligi (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 39,
+   "id": "ahmed-gran",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ahmed Gran (Ahmed b. İbrâhim el-Gâzî)",
+   "not_uzunluk": 115,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: ahmed-el-mucahid"
+  },
+  {
+   "sira": 40,
+   "id": "atahualpa",
+   "tur": "yabanci-hukumdar",
+   "ad": "Atahualpa",
+   "not_uzunluk": 66,
+   "kronoloji_anma": 4,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `peru` maddesi yok; okunan `amerika` — Pizarro'nun İnka seferi var, ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 41,
+   "id": "sedefkar-mehmed-aga",
+   "tur": "mimar",
+   "ad": "Sedefkâr Mehmed Ağa",
+   "not_uzunluk": 82,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: mehmed-aga-sedefkar"
+  },
+  {
+   "sira": 42,
+   "id": "agah-efendi",
+   "tur": "edebiyatci",
+   "ad": "Agâh Efendi",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 4,
+   "kaynak": "TDV: agah-efendi-capanzade"
+  },
+  {
+   "sira": 43,
+   "id": "fevzi-pasa",
+   "tur": "komutan",
+   "ad": "Fevzi Paşa (Çakmak)",
+   "not_uzunluk": 34,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: cakmak-fevzi"
+  },
+  {
+   "sira": 44,
+   "id": "muezzinzade-ali-pasa",
+   "tur": "denizci",
+   "ad": "Müezzinzâde Ali Paşa",
+   "not_uzunluk": 38,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: inebahti-deniz-savasi (müstakil madde yok; ölümü İnebahtı'da 1571 kaynakta var, doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 45,
+   "id": "hoca-sadeddin-efendi",
+   "tur": "alim",
+   "ad": "Hoca Sâdeddin Efendi",
+   "not_uzunluk": 41,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: hoca-sadeddin-efendi"
+  },
+  {
+   "sira": 46,
+   "id": "allenby",
+   "tur": "yabanci-komutan",
+   "ad": "General Allenby",
+   "not_uzunluk": 26,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: filistin (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 47,
+   "id": "rudolf2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Rudolf",
+   "not_uzunluk": 112,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 48,
+   "id": "louis16",
+   "tur": "yabanci-hukumdar",
+   "ad": "XVI. Louis",
+   "not_uzunluk": 109,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: fransa (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 49,
+   "id": "yahya-hamiduddin",
+   "tur": "yabanci-hukumdar",
+   "ad": "İmam Yahyâ Hamîdüddin",
+   "not_uzunluk": 71,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: mutevekkil-alellah-yahya-hamiduddin"
+  },
+  {
+   "sira": 50,
+   "id": "alexandru-ioan-cuza",
+   "tur": "yabanci-hukumdar",
+   "ad": "Alexandru Ioan Cuza",
+   "not_uzunluk": 86,
+   "kronoloji_anma": 3,
+   "kaynak": "TDV: eflak (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 51,
+   "id": "tiryaki-hasan-pasa",
+   "tur": "vezir-pasa",
+   "ad": "Tiryâki Hasan Paşa",
+   "not_uzunluk": 29,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: tiryaki-hasan-pasa"
+  },
+  {
+   "sira": 52,
+   "id": "edhem-pasa",
+   "tur": "komutan",
+   "ad": "Edhem Paşa",
+   "not_uzunluk": 18,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: gazi-edhem-pasa (`edhem-pasa-ibrahim` aynı adlı BAŞKA kişidir — sadrazam)"
+  },
+  {
+   "sira": 53,
+   "id": "seyh-edebali",
+   "tur": "alim",
+   "ad": "Şeyh Edebâli",
+   "not_uzunluk": 30,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: edebali"
+  },
+  {
+   "sira": 54,
+   "id": "layos2",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kral II. Layoş",
+   "not_uzunluk": 25,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: mohac-muharebesi (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 55,
+   "id": "hafiz-mehmed-pasa",
+   "tur": "vezir-pasa",
+   "ad": "Hafız Mehmed Paşa",
+   "not_uzunluk": 33,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: kavalali-mehmed-ali-pasa (müstakil madde yok; `hafiz-ahmed-pasa` aynı adlı BAŞKA kişidir)"
+  },
+  {
+   "sira": 56,
+   "id": "ahmed-fevzi-pasa",
+   "tur": "denizci",
+   "ad": "Ahmed Fevzi Paşa (Firârî)",
+   "not_uzunluk": 67,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: kavalali-mehmed-ali-pasa (müstakil madde yok)"
+  },
+  {
+   "sira": 57,
+   "id": "omer-mekrem",
+   "tur": "alim",
+   "ad": "Ömer Mekrem",
+   "not_uzunluk": 84,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: ezher (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 58,
+   "id": "helmuth-von-moltke",
+   "tur": "yabanci-komutan",
+   "ad": "Helmuth von Moltke",
+   "not_uzunluk": 49,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: moltke-helmuth-von"
+  },
+  {
+   "sira": 59,
+   "id": "palmerston",
+   "tur": "siyasi",
+   "ad": "Lord Palmerston",
+   "not_uzunluk": 65,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: ingiltere (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 60,
+   "id": "townshend",
+   "tur": "yabanci-komutan",
+   "ad": "General Townshend",
+   "not_uzunluk": 34,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: kutulamare (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 61,
+   "id": "kara-yusuf",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kara Yusuf",
+   "not_uzunluk": 95,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: karakoyunlular (müstakil madde yok)"
+  },
+  {
+   "sira": 62,
+   "id": "maria-theresia",
+   "tur": "yabanci-hukumdar",
+   "ad": "Maria Theresia",
+   "not_uzunluk": 96,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 63,
+   "id": "josef2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Josef",
+   "not_uzunluk": 65,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: avusturya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 64,
+   "id": "nadir-sah",
+   "tur": "yabanci-hukumdar",
+   "ad": "Nadir Şah",
+   "not_uzunluk": 152,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: nadir-sah--iran (`nadir-sah--afgan` aynı adlı BAŞKA kişidir)"
+  },
+  {
+   "sira": 65,
+   "id": "feth-ali-sah",
+   "tur": "yabanci-hukumdar",
+   "ad": "Feth Ali Şah",
+   "not_uzunluk": 82,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: feth-ali-sah"
+  },
+  {
+   "sira": 66,
+   "id": "ahmed-karamanli",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ahmed Karamanlı",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: karamanli (müstakil madde yok)"
+  },
+  {
+   "sira": 67,
+   "id": "ahmed-el-mansur",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ahmed el-Mansûr",
+   "not_uzunluk": 105,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: ahmed-el-mansur"
+  },
+  {
+   "sira": 68,
+   "id": "cuauhtemoc",
+   "tur": "yabanci-hukumdar",
+   "ad": "Cuauhtémoc",
+   "not_uzunluk": 67,
+   "kronoloji_anma": 2,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `meksika` maddesi yok; okunan `amerika` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 69,
+   "id": "miklos-horthy",
+   "tur": "siyasi",
+   "ad": "Miklós Horthy",
+   "not_uzunluk": 78,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: macaristan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 70,
+   "id": "mustafa-behcet-efendi",
+   "tur": "alim",
+   "ad": "Mustafa Behçet Efendi",
+   "not_uzunluk": 90,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: behcet-mustafa-efendi"
+  },
+  {
+   "sira": 71,
+   "id": "hoca-tahsin-efendi",
+   "tur": "alim",
+   "ad": "Hoca Tahsin Efendi",
+   "not_uzunluk": 55,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: hoca-tahsin"
+  },
+  {
+   "sira": 72,
+   "id": "ziya-pasa",
+   "tur": "edebiyatci",
+   "ad": "Ziya Paşa",
+   "not_uzunluk": 104,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: ziya-pasa--sair (`ziya-pasa--bestekar` aynı adlı BAŞKA kişidir)"
+  },
+  {
+   "sira": 73,
+   "id": "gercek-davud",
+   "tur": "alim",
+   "ad": "Gerçek Dâvud",
+   "not_uzunluk": 86,
+   "kronoloji_anma": 2,
+   "kaynak": "TDV: tulumbaci (müstakil madde yok)"
+  },
+  {
+   "sira": 74,
+   "id": "pasa-yigit-bey",
+   "tur": "komutan",
+   "ad": "Paşa Yiğit Bey",
+   "not_uzunluk": 15,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: uskup (müstakil madde yok; doğum ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 75,
+   "id": "turahanoglu-omer-bey",
+   "tur": "komutan",
+   "ad": "Turahanoğlu Ömer Bey",
+   "not_uzunluk": 16,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: turahan-bey (müstakil madde yok; doğum ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 76,
+   "id": "turhan-hatice-sultan",
+   "tur": "hanedan",
+   "ad": "Turhan Hatice Sultan",
+   "not_uzunluk": 56,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: turhan-sultan"
+  },
+  {
+   "sira": 77,
+   "id": "codrington",
+   "tur": "yabanci-komutan",
+   "ad": "Amiral Codrington",
+   "not_uzunluk": 69,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: navarin (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 78,
+   "id": "napier",
+   "tur": "yabanci-komutan",
+   "ad": "Commodore Napier",
+   "not_uzunluk": 45,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: kavalali-mehmed-ali-pasa (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 79,
+   "id": "hasan-tahsin",
+   "tur": "siyasi",
+   "ad": "Hasan Tahsin",
+   "not_uzunluk": 19,
+   "kronoloji_anma": 1,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan 'Hasan Tahsin', 'Osman Nevres'; okunan `izmir`, `kuva-yi-milliye`, `milli-mucadele`, `istiklal-harbi` — ad yok; `selanik`teki Vali Hasan Tahsin Paşa, `tahsin-efendi-hasan` (hattat), `banguoglu-hasan-tahsin` (dil âlimi) aynı adlı BAŞKA kişiler; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 80,
+   "id": "yakub-bey",
+   "tur": "yabanci-hukumdar",
+   "ad": "Yakub Bey (Akkoyunlu)",
+   "not_uzunluk": 194,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: akkoyunlular (müstakil madde yok; `yakub-bey` slug'ı aynı adlı BAŞKA kişidir — Germiyanoğulları kurucusu)"
+  },
+  {
+   "sira": 81,
+   "id": "franz2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Franz (I. Franz)",
+   "not_uzunluk": 77,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: almanya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 82,
+   "id": "nikolay2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Nikolay",
+   "not_uzunluk": 88,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 83,
+   "id": "francois1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. François",
+   "not_uzunluk": 111,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: fransa (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 84,
+   "id": "victoria",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kraliçe Victoria",
+   "not_uzunluk": 106,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: ingiltere (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 85,
+   "id": "tvrtko1",
+   "tur": "yabanci-hukumdar",
+   "ad": "Tvrtko I",
+   "not_uzunluk": 43,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: bosna-hersek (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 86,
+   "id": "vlad3",
+   "tur": "yabanci-hukumdar",
+   "ad": "III. Vlad (Kazıklı Voyvoda / Drakula)",
+   "not_uzunluk": 152,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: eflak (müstakil madde yok)"
+  },
+  {
+   "sira": 87,
+   "id": "muhammed-sah-kacar",
+   "tur": "yabanci-hukumdar",
+   "ad": "Muhammed Şah Kaçar",
+   "not_uzunluk": 89,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: muhammed-sah"
+  },
+  {
+   "sira": 88,
+   "id": "abdullah-et-teayisi",
+   "tur": "yabanci-hukumdar",
+   "ad": "Halife Abdullah et-Teâyişî",
+   "not_uzunluk": 94,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: abdullah-b-muhammed-et-teayisi"
+  },
+  {
+   "sira": 89,
+   "id": "menelik2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Menelik",
+   "not_uzunluk": 73,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: etiyopya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 90,
+   "id": "rama1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Rama (General Chakri)",
+   "not_uzunluk": 59,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: tayland (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 91,
+   "id": "kamehameha1",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kamehameha I",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 1,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan kamehameha, hawaii; okunan `amerika-birlesik-devletleri` — Hawaii yalnız ilhak bağlamında; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 92,
+   "id": "tomas-masaryk",
+   "tur": "siyasi",
+   "ad": "Tomáš Masaryk",
+   "not_uzunluk": 49,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: cekoslovakya (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 93,
+   "id": "liliuokalani",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kraliçe Liliuokalani",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 1,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `amerika-birlesik-devletleri` — 1893'te Hawaii'nin ele geçirilişi var, kraliçe adı yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 94,
+   "id": "garabet-balyan",
+   "tur": "mimar",
+   "ad": "Garabet Balyan",
+   "not_uzunluk": 85,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: dolmabahce-sarayi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 95,
+   "id": "nikogos-balyan",
+   "tur": "mimar",
+   "ad": "Nikoğos Balyan",
+   "not_uzunluk": 75,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: dolmabahce-sarayi (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 96,
+   "id": "huseyin-rifki-tamani",
+   "tur": "alim",
+   "ad": "Hüseyin Rıfkı Tamânî",
+   "not_uzunluk": 73,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: tamani-huseyin-rifki"
+  },
+  {
+   "sira": 97,
+   "id": "mehmed-namik-pasa",
+   "tur": "komutan",
+   "ad": "Mehmed Nâmık Paşa",
+   "not_uzunluk": 83,
+   "kronoloji_anma": 1,
+   "kaynak": "TDV: namik-pasa"
+  },
+  {
+   "sira": 98,
+   "id": "burak-reis",
+   "tur": "denizci",
+   "ad": "Burak Reis",
+   "not_uzunluk": 115,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kemal-reis (Burak Reis'in müstakil maddesi TDV'de bulunamadı — `burak-reis` slug'ı 302)"
+  },
+  {
+   "sira": 99,
+   "id": "janos-zapolya",
+   "tur": "yabanci-hukumdar",
+   "ad": "János Zápolya",
+   "not_uzunluk": 33,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: budin (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 100,
+   "id": "nelson",
+   "tur": "yabanci-komutan",
+   "ad": "Amiral Nelson",
+   "not_uzunluk": 14,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: ebukir (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 101,
+   "id": "t-e-lawrence",
+   "tur": "siyasi",
+   "ad": "T. E. Lawrence",
+   "not_uzunluk": 30,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: lawrence-thomas-edward"
+  },
+  {
+   "sira": 102,
+   "id": "abbas2",
+   "tur": "yabanci-hukumdar",
+   "ad": "Şah II. Abbas",
+   "not_uzunluk": 172,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: abbas-ii"
+  },
+  {
+   "sira": 103,
+   "id": "suleyman",
+   "tur": "yabanci-hukumdar",
+   "ad": "Şah Süleyman (Safî II)",
+   "not_uzunluk": 75,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: safeviler (müstakil madde yok; ölümü `huseyin-mirza` maddesinde (6 Ağustos 1694, oğlunun cülusu); doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 104,
+   "id": "sultan-huseyin",
+   "tur": "yabanci-hukumdar",
+   "ad": "Şah Sultan Hüseyin",
+   "not_uzunluk": 105,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: huseyin-mirza"
+  },
+  {
+   "sira": 105,
+   "id": "kara-yuluk-osman-bey",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kara Yülük Osman Bey",
+   "not_uzunluk": 87,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: akkoyunlular (müstakil madde yok)"
+  },
+  {
+   "sira": 106,
+   "id": "zahir-berkuk",
+   "tur": "yabanci-hukumdar",
+   "ad": "Zâhir Berkuk",
+   "not_uzunluk": 50,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: berkuk"
+  },
+  {
+   "sira": 107,
+   "id": "barsbay",
+   "tur": "yabanci-hukumdar",
+   "ad": "Sultan Barsbay",
+   "not_uzunluk": 91,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: barsbay"
+  },
+  {
+   "sira": 108,
+   "id": "kayitbay",
+   "tur": "yabanci-hukumdar",
+   "ad": "Sultan Kayıtbay",
+   "not_uzunluk": 85,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kayitbay"
+  },
+  {
+   "sira": 109,
+   "id": "matyas-corvinus",
+   "tur": "yabanci-hukumdar",
+   "ad": "Mátyás Corvinus",
+   "not_uzunluk": 91,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: macaristan (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 110,
+   "id": "zygmunt3",
+   "tur": "yabanci-hukumdar",
+   "ad": "III. (Vasa) Zygmunt",
+   "not_uzunluk": 59,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: polonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 111,
+   "id": "michal-korybut-wisniowiecki",
+   "tur": "yabanci-hukumdar",
+   "ad": "Michał Korybut Wiśniowiecki",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: polonya (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 112,
+   "id": "vladislav2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Vladislav (Jagellon)",
+   "not_uzunluk": 89,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: macaristan (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 113,
+   "id": "enrico-dandolo",
+   "tur": "yabanci-hukumdar",
+   "ad": "Enrico Dandolo",
+   "not_uzunluk": 91,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: haclilar (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 114,
+   "id": "mihail-fyodorovic",
+   "tur": "yabanci-hukumdar",
+   "ad": "Mihail Fyodoroviç",
+   "not_uzunluk": 80,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: rusya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 115,
+   "id": "mengli-giray1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Mengli Giray",
+   "not_uzunluk": 115,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: giray (müstakil madde yok)"
+  },
+  {
+   "sira": 116,
+   "id": "batu-han",
+   "tur": "yabanci-hukumdar",
+   "ad": "Batu Han",
+   "not_uzunluk": 45,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: batu-han"
+  },
+  {
+   "sira": 117,
+   "id": "kucum-han",
+   "tur": "yabanci-hukumdar",
+   "ad": "Küçüm Han",
+   "not_uzunluk": 82,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kucum-han"
+  },
+  {
+   "sira": 118,
+   "id": "edigu",
+   "tur": "yabanci-hukumdar",
+   "ad": "Edigü",
+   "not_uzunluk": 171,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: nogaylar — 'Mangıt boyundan Altın Orda emîri olan Edige'nin Nogay beylerinin atası sayıldığına' · 'Edige'nin (Edigü/İdigü) 823'te (1420) ölümünden sonra oğulları' · TDV: altin-orda-hanligi — 'Edige Mirza yönetimi ele geçirerek 1419'a kadar devleti idare etti'"
+  },
+  {
+   "sira": 119,
+   "id": "george5",
+   "tur": "yabanci-hukumdar",
+   "ad": "V. George",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: cihan-begum (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 120,
+   "id": "pius5",
+   "tur": "yabanci-hukumdar",
+   "ad": "Papa V. Pius",
+   "not_uzunluk": 64,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: nigbolu (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 121,
+   "id": "stefan-lazarevic",
+   "tur": "yabanci-hukumdar",
+   "ad": "Stefan Lazarević",
+   "not_uzunluk": 117,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: semendire (müstakil madde yok)"
+  },
+  {
+   "sira": 122,
+   "id": "djuradj-brankovic",
+   "tur": "yabanci-hukumdar",
+   "ad": "Đurađ Branković",
+   "not_uzunluk": 115,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: semendire (müstakil madde yok)"
+  },
+  {
+   "sira": 123,
+   "id": "ivan-sisman",
+   "tur": "yabanci-hukumdar",
+   "ad": "İvan Şişman",
+   "not_uzunluk": 98,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: bayezid-i (müstakil madde yok)"
+  },
+  {
+   "sira": 124,
+   "id": "basarab1",
+   "tur": "yabanci-hukumdar",
+   "ad": "Basarab I",
+   "not_uzunluk": 80,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: eflak (müstakil madde yok)"
+  },
+  {
+   "sira": 125,
+   "id": "bogdan1",
+   "tur": "yabanci-hukumdar",
+   "ad": "Bogdan I",
+   "not_uzunluk": 31,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: moldova (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 126,
+   "id": "stefan-cel-mare",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ştefan cel Mare",
+   "not_uzunluk": 96,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: bogdan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 127,
+   "id": "othon1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Othon (Otto)",
+   "not_uzunluk": 42,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: yunanistan (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 128,
+   "id": "aga-muhammed-han-kacar",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ağa Muhammed Han Kaçar",
+   "not_uzunluk": 80,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: aga-muhammed-sah"
+  },
+  {
+   "sira": 129,
+   "id": "nasiruddin-sah",
+   "tur": "yabanci-hukumdar",
+   "ad": "Nâsırüddin Şah",
+   "not_uzunluk": 45,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: nasiruddin-sah"
+  },
+  {
+   "sira": 130,
+   "id": "muhammed-bin-suud",
+   "tur": "yabanci-hukumdar",
+   "ad": "Muhammed bin Suûd",
+   "not_uzunluk": 93,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: muhammed-b-suud"
+  },
+  {
+   "sira": 131,
+   "id": "muhammed-bin-abdulvehhab",
+   "tur": "alim",
+   "ad": "Muhammed bin Abdülvehhâb",
+   "not_uzunluk": 106,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: muhammed-b-abdulvehhab"
+  },
+  {
+   "sira": 132,
+   "id": "suud-bin-abdulaziz",
+   "tur": "yabanci-hukumdar",
+   "ad": "Suûd bin Abdülazîz",
+   "not_uzunluk": 86,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: suud-b-abdulaziz"
+  },
+  {
+   "sira": 133,
+   "id": "turki-bin-abdullah",
+   "tur": "yabanci-hukumdar",
+   "ad": "Türkî bin Abdullah",
+   "not_uzunluk": 49,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: suudiler (müstakil madde yok)"
+  },
+  {
+   "sira": 134,
+   "id": "abdulaziz-bin-suud",
+   "tur": "yabanci-hukumdar",
+   "ad": "Abdülazîz bin Suûd (İbn Suûd)",
+   "not_uzunluk": 191,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: abdulaziz-b-suud"
+  },
+  {
+   "sira": 135,
+   "id": "muhammed-bin-resid",
+   "tur": "yabanci-hukumdar",
+   "ad": "Muhammed bin Reşid",
+   "not_uzunluk": 62,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: suudiler (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 136,
+   "id": "ahmed-bin-said",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ahmed bin Said (Âl Bû Saîd)",
+   "not_uzunluk": 87,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: bu-said-hanedani (müstakil madde yok)"
+  },
+  {
+   "sira": 137,
+   "id": "said-bin-sultan",
+   "tur": "yabanci-hukumdar",
+   "ad": "Said bin Sultan",
+   "not_uzunluk": 139,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: said-b-sultan"
+  },
+  {
+   "sira": 138,
+   "id": "huseyin-bin-ali",
+   "tur": "yabanci-hukumdar",
+   "ad": "Hüseyin bin Ali",
+   "not_uzunluk": 99,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: huseyin-pasa-tunus-beyi"
+  },
+  {
+   "sira": 139,
+   "id": "amara-dunkas",
+   "tur": "yabanci-hukumdar",
+   "ad": "Amara Dunkas",
+   "not_uzunluk": 37,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: func (müstakil madde yok)"
+  },
+  {
+   "sira": 140,
+   "id": "gelawdewos",
+   "tur": "yabanci-hukumdar",
+   "ad": "Gelawdewos",
+   "not_uzunluk": 77,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: etiyopya (müstakil madde yok)"
+  },
+  {
+   "sira": 141,
+   "id": "mevlay-muhammed",
+   "tur": "yabanci-hukumdar",
+   "ad": "Mevlây Muhammed",
+   "not_uzunluk": 93,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: hafsiler (müstakil madde yok; `mevlay-muhammed-*` başlıkları Fas hükümdarlarıdır, bu kişi değil)"
+  },
+  {
+   "sira": 142,
+   "id": "tarmasirin-han",
+   "tur": "yabanci-hukumdar",
+   "ad": "Tarmaşirin Han",
+   "not_uzunluk": 66,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: cagatay-hanligi (müstakil madde yok)"
+  },
+  {
+   "sira": 143,
+   "id": "ilbars-han",
+   "tur": "yabanci-hukumdar",
+   "ad": "İlbars Han",
+   "not_uzunluk": 73,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: ilbars-han"
+  },
+  {
+   "sira": 144,
+   "id": "kerey-han",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kerey Han",
+   "not_uzunluk": 32,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan 'Kerey Han', 'Kerey'; okunan `kazakistan`, `kazaklar`, `ebulhayr-han` — ilk Kazak birliği Burunduk/Kasım Han'a bağlanır, `ebulhayr-han`daki 'iki prens' adsızdır; 'Kerey' TDV'de yalnız boy adı; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 145,
+   "id": "kenesari-han",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kenesarı Han",
+   "not_uzunluk": 54,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kazakistan (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 146,
+   "id": "erdeni-batur",
+   "tur": "yabanci-hukumdar",
+   "ad": "Erdeni Batur",
+   "not_uzunluk": 55,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `kalmuklar` — Cungarya'da Oyrat hanlığını yeniden canlandıran babası Hara Hula'dır; Erdeni Batur adı geçmiyor; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 147,
+   "id": "tsevang-rabtan",
+   "tur": "yabanci-hukumdar",
+   "ad": "Tsevang Rabtan",
+   "not_uzunluk": 64,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kalmuklar (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 148,
+   "id": "kutbuddin-aybek",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kutbüddin Aybek",
+   "not_uzunluk": 59,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: aybeg-kutbuddin"
+  },
+  {
+   "sira": 149,
+   "id": "ibrahim-ludi",
+   "tur": "yabanci-hukumdar",
+   "ad": "İbrâhim Lûdî",
+   "not_uzunluk": 70,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: ibrahim-i-ludi"
+  },
+  {
+   "sira": 150,
+   "id": "bahadir-sah2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Bahadır Şah",
+   "not_uzunluk": 103,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: bahadir-sah-ii"
+  },
+  {
+   "sira": 151,
+   "id": "alaeddin-hasan-behmen-sah",
+   "tur": "yabanci-hukumdar",
+   "ad": "Alâeddin Hasan Behmen Şah",
+   "not_uzunluk": 66,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: behmeniler (müstakil madde yok; ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 152,
+   "id": "harihara1",
+   "tur": "yabanci-hukumdar",
+   "ad": "Harihara I",
+   "not_uzunluk": 71,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `behmeniler` (yalnız 'Vicayanagarlı II. Harihara' — BAŞKA kişi), `hindistan` ('Horihara racalıkları', kişi değil); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 153,
+   "id": "krisnadevaraya",
+   "tur": "yabanci-hukumdar",
+   "ad": "Krişnadevaraya",
+   "not_uzunluk": 54,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `hindistan`, `adilsahiler`, `behmeniler`, `delhi-sultanligi` — Vicayanagar anılır, bu hükümdar anılmaz; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 154,
+   "id": "sivaci",
+   "tur": "yabanci-hukumdar",
+   "ad": "Şivâcî",
+   "not_uzunluk": 71,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: adilsahiler (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 155,
+   "id": "rancit-singh",
+   "tur": "yabanci-hukumdar",
+   "ad": "Rançit Singh",
+   "not_uzunluk": 64,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: amritsar (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 156,
+   "id": "haydar-ali",
+   "tur": "yabanci-hukumdar",
+   "ad": "Haydar Ali",
+   "not_uzunluk": 72,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: haydar-ali-han"
+  },
+  {
+   "sira": 157,
+   "id": "zhao-kuangyin",
+   "tur": "yabanci-hukumdar",
+   "ad": "Zhao Kuangyin (Song Taizu)",
+   "not_uzunluk": 66,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `cin--ulke`, `asya` — Sung sülâlesinin kuruluşu anılır, kurucusu adlandırılmaz; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 158,
+   "id": "wanyan-aguda",
+   "tur": "yabanci-hukumdar",
+   "ad": "Wanyan Aguda",
+   "not_uzunluk": 60,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `karahitaylar`, `gurhan`, `mogollar` — yalnız 'Curcenler (Kin)' geçer; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 159,
+   "id": "zhu-yuanzhang",
+   "tur": "yabanci-hukumdar",
+   "ad": "Zhu Yuanzhang (Hongwu)",
+   "not_uzunluk": 82,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: cin--ulke (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 160,
+   "id": "sejong",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kral Sejong",
+   "not_uzunluk": 48,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `kore-cumhuriyeti` — Yi/Choson hânedanı (1392-1910) anılır, Sejong ve alfabe anılmaz; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 161,
+   "id": "gojong",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kral Gojong",
+   "not_uzunluk": 73,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kore-cumhuriyeti (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 162,
+   "id": "minamoto-no-yoritomo",
+   "tur": "yabanci-hukumdar",
+   "ad": "Minamoto no Yoritomo",
+   "not_uzunluk": 62,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: japonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 163,
+   "id": "tokugawa-ieyasu",
+   "tur": "yabanci-hukumdar",
+   "ad": "Tokugawa Ieyasu",
+   "not_uzunluk": 94,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: japonya (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 164,
+   "id": "meiji-imparatoru",
+   "tur": "yabanci-hukumdar",
+   "ad": "Meiji İmparatoru",
+   "not_uzunluk": 86,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: japonya (müstakil madde yok; doğum yılı kaynakta yok)"
+  },
+  {
+   "sira": 165,
+   "id": "dalai-lama5",
+   "tur": "yabanci-hukumdar",
+   "ad": "5. Dalai Lama",
+   "not_uzunluk": 84,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: tibet (müstakil madde yok)"
+  },
+  {
+   "sira": 166,
+   "id": "raden-wijaya",
+   "tur": "yabanci-hukumdar",
+   "ad": "Raden Wijaya",
+   "not_uzunluk": 74,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `cava`, `endonezya` — Macapahitler (1300-1525) anılır, kurucu ve Moğol seferi geçmez; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 167,
+   "id": "hayam-wuruk",
+   "tur": "yabanci-hukumdar",
+   "ad": "Hayam Wuruk",
+   "not_uzunluk": 67,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `cava`, `endonezya`, `malezya`, `singapur` — ad geçmiyor; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 168,
+   "id": "parameswara",
+   "tur": "yabanci-hukumdar",
+   "ad": "Parameswara",
+   "not_uzunluk": 65,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: malaka (müstakil madde yok)"
+  },
+  {
+   "sira": 169,
+   "id": "u-thong",
+   "tur": "yabanci-hukumdar",
+   "ad": "U Thong (I. Ramathibodi)",
+   "not_uzunluk": 44,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: tayland (müstakil madde yok)"
+  },
+  {
+   "sira": 170,
+   "id": "rama5",
+   "tur": "yabanci-hukumdar",
+   "ad": "V. Rama (Chulalongkorn)",
+   "not_uzunluk": 61,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: tayland (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 171,
+   "id": "le-loi",
+   "tur": "yabanci-hukumdar",
+   "ad": "Lê Lợi",
+   "not_uzunluk": 64,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `vietnam` maddesi yok (302, başlık araması 0); okunan `camlar` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 172,
+   "id": "nguyen-anh",
+   "tur": "yabanci-hukumdar",
+   "ad": "Nguyễn Ánh (Gia Long)",
+   "not_uzunluk": 65,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `vietnam` maddesi yok; aranan gia long, nguyen, tay son; okunan `camlar` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 173,
+   "id": "alaungpaya",
+   "tur": "yabanci-hukumdar",
+   "ad": "Alaungpaya",
+   "not_uzunluk": 63,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: myanmar (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 174,
+   "id": "thibaw",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kral Thibaw",
+   "not_uzunluk": 90,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan thibaw, thebaw, mandalay, birmanya; okunan `myanmar` — 1886-1889 İngiliz ilhakı anılır, kral adı yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 175,
+   "id": "agung",
+   "tur": "yabanci-hukumdar",
+   "ad": "Sultan Agung",
+   "not_uzunluk": 66,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: cava (müstakil madde yok)"
+  },
+  {
+   "sira": 176,
+   "id": "sundiata-keita",
+   "tur": "yabanci-hukumdar",
+   "ad": "Sundiata Keita",
+   "not_uzunluk": 68,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: mali (müstakil madde yok)"
+  },
+  {
+   "sira": 177,
+   "id": "askiya-muhammed",
+   "tur": "yabanci-hukumdar",
+   "ad": "Askiya Muhammed",
+   "not_uzunluk": 76,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: mali (müstakil madde yok)"
+  },
+  {
+   "sira": 178,
+   "id": "idris-alooma",
+   "tur": "yabanci-hukumdar",
+   "ad": "İdris Alooma",
+   "not_uzunluk": 85,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: bornu (müstakil madde yok)"
+  },
+  {
+   "sira": 179,
+   "id": "osman-dan-fodio",
+   "tur": "yabanci-hukumdar",
+   "ad": "Osman dan Fodio",
+   "not_uzunluk": 73,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: osman-b-fudi"
+  },
+  {
+   "sira": 180,
+   "id": "muhammed-bello",
+   "tur": "yabanci-hukumdar",
+   "ad": "Muhammed Bello",
+   "not_uzunluk": 80,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: muhammed-bello"
+  },
+  {
+   "sira": 181,
+   "id": "oba-ewuare",
+   "tur": "yabanci-hukumdar",
+   "ad": "Oba Ewuare",
+   "not_uzunluk": 55,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan ewuare, 'Benin Krallığı'; okunan `nijerya` (Benin Krallığı var, Ewuare yok), `benin` (bugünkü ülke, ilgisiz); W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 182,
+   "id": "nzinga",
+   "tur": "yabanci-hukumdar",
+   "ad": "Kraliçe Nzinga",
+   "not_uzunluk": 91,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `angola` maddesi yok; aranan nzinga, ndongo; okunan `afrika`, `portekiz` — ad yok; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 183,
+   "id": "shaka",
+   "tur": "yabanci-hukumdar",
+   "ad": "Shaka",
+   "not_uzunluk": 66,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan shaka, zulu; okunan `guney-afrika-cumhuriyeti`, `afrika` — Zulular yalnız Boer göçü ve 1906 ayaklanmasında geçer; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 184,
+   "id": "dom-pedro1",
+   "tur": "yabanci-hukumdar",
+   "ad": "I. Dom Pedro",
+   "not_uzunluk": 88,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: portekiz (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 185,
+   "id": "dom-pedro2",
+   "tur": "yabanci-hukumdar",
+   "ad": "II. Dom Pedro",
+   "not_uzunluk": 57,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: `brezilya` maddesi yok; okunan `portekiz` — yalnız I. Pedro geçer; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 186,
+   "id": "jean-jacques-dessalines",
+   "tur": "yabanci-hukumdar",
+   "ad": "Jean-Jacques Dessalines",
+   "not_uzunluk": 40,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); TDV kapsamı dışı: Haiti maddesi yok; okunan `amerika` — yalnız Hispaniola; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 187,
+   "id": "muhammed-davud-sah",
+   "tur": "yabanci-hukumdar",
+   "ad": "Muhammed Davud Şah",
+   "not_uzunluk": 54,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: ace (müstakil madde yok)"
+  },
+  {
+   "sira": 188,
+   "id": "serif-ul-hasim",
+   "tur": "yabanci-hukumdar",
+   "ad": "Şerif ül-Hâşim",
+   "not_uzunluk": 28,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: filipinler (müstakil madde yok)"
+  },
+  {
+   "sira": 189,
+   "id": "andrianampoinimerina",
+   "tur": "yabanci-hukumdar",
+   "ad": "Andrianampoinimerina",
+   "not_uzunluk": 56,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); okunan `madagaskar` — Merinaların XVIII. yüzyıl sonundaki birliği adsız anlatılır; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 190,
+   "id": "ranavalona3",
+   "tur": "yabanci-hukumdar",
+   "ad": "III. Ranavalona",
+   "not_uzunluk": 59,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: madagaskar (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 191,
+   "id": "sho-hashi",
+   "tur": "yabanci-hukumdar",
+   "ad": "Shō Hashi",
+   "not_uzunluk": 63,
+   "kronoloji_anma": 0,
+   "kaynak": "bulunamadı — TDV İslâm Ansiklopedisi, 5 Ekim 2026; arama: islamansiklopedisi.org.tr/arama (başlık + içerik, ad varyantlarıyla); aranan ryukyu, okinawa; okunan `japonya` — Ryukyu geçmiyor; W22 tam gövde çıkarıcısıyla (ARAC-TDV-CIKARICI-1006) yeniden denetlendi, sonuç değişmedi"
+  },
+  {
+   "sira": 192,
+   "id": "yagmurasen-b-zeyyan",
+   "tur": "yabanci-hukumdar",
+   "ad": "Yağmurasen b. Zeyyân",
+   "not_uzunluk": 45,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: abdulvadiler (müstakil madde yok)"
+  },
+  {
+   "sira": 193,
+   "id": "ebu-zekeriyya-yahya",
+   "tur": "yabanci-hukumdar",
+   "ad": "Ebû Zekeriyyâ Yahyâ",
+   "not_uzunluk": 67,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: hafsiler (müstakil madde yok)"
+  },
+  {
+   "sira": 194,
+   "id": "guy-de-lusignan",
+   "tur": "yabanci-hukumdar",
+   "ad": "Guy de Lusignan",
+   "not_uzunluk": 51,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kibris (müstakil madde yok)"
+  },
+  {
+   "sira": 195,
+   "id": "caterina-cornaro",
+   "tur": "yabanci-hukumdar",
+   "ad": "Caterina Cornaro",
+   "not_uzunluk": 71,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: kibris (müstakil madde yok; doğum yılı ve ölüm yılı kaynakta yok)"
+  },
+  {
+   "sira": 196,
+   "id": "hezarfen-ahmed-celebi",
+   "tur": "alim",
+   "ad": "Hezârfen Ahmed Çelebi",
+   "not_uzunluk": 120,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: hezarfen-ahmed-celebi"
+  },
+  {
+   "sira": 197,
+   "id": "hayrullah-efendi",
+   "tur": "alim",
+   "ad": "Hayrullah Efendi (İmâm-ı Sultânî)",
+   "not_uzunluk": 146,
+   "kronoloji_anma": 0,
+   "kaynak": "TDV: hayrullah-efendi-imam-i-sultani (`hayrullah-efendi` slug'ı aynı adlı BAŞKA kişidir — reîsületıbbâ)"
+  }
+ ],
+ "not": "Kaynaksiz (TDV'de mustakil madde yok) kartlar: kaynak alani 'mustakil madde yok' diyorsa akademik kaynak adi ile ya da 'bulunamadi' ile uzat; uydurma yok. TDV gövdeleri WebFetch ile okunur; ozet araci sayi vermeyebilir, soru acik sorulmali."
+}
