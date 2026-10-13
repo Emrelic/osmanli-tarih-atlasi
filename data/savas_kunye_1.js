@@ -280,6 +280,94 @@ window.SAVAS_KUNYE_1 = [
     { ad:"Osmanlı ordusu (kuşatma + Kahlenberg savunması)", devlet_id:"osmanli", komutan:"Sadrazam Merzifonlu Kara Mustafa Paşa", mevcut_toplam:"TDV'nin verdiği rakam 500.000 (350.000 muharip + 150.000 geri hizmet) — TDV bunun ABARTILI olduğunu belirtir, güvenilir bir alt sınır verilmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"19 kolunburna + yaklaşık 120 şâhî darbzen (kuşatma topçusu)", tufek:"bilinmiyor", gemi:"yok", kayip:"geri çekilirken yaklaşık 300 top ve 15.000'e yakın çadır terk edildi", notlar:"Terk edilen 300 top RAKAMI, savaş öncesi kullanılan topçu mevcuduyla AYNI SAYI DEĞİL — TDV ikisini ayrı verir." },
     { ad:"Kutsal İttifak kurtarma ordusu (Leh · Avusturya · Alman)", komutan:"Leh Kralı Jan (III.) Sobieski · Dük Charles von Lothringen", mevcut_toplam:"Leh kuvveti 100.000; Avusturya/Alman takviyesiyle birlikte 100.000'i aştı", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"Leh ordusunda yaklaşık 200 (irili ufaklı)", tufek:"bilinmiyor", gemi:"yok" }
   ],
-  kaynak:"TDV: merzifonlu-kara-mustafa-pasa", bag_ekokuma:null }
+  kaynak:"TDV: merzifonlu-kara-mustafa-pasa", bag_ekokuma:null },
+
+// ── 14 Ekim 2026 ek parti (SAVAS-KUNYE, 9 muharebe) ────────────────────────
+// ANT-KART'ın 20'sinde olmayan muharebeler. Her rakam TDV metninden tek tek
+// doğrulandı (scratchpad tdvk). Kaynakta olmayan alan "bilinmiyor"/hiç yazılmadı.
+
+{ id:"kunye-istanbul-1453", savas_ad:"İstanbul kuşatması", savas_t:"1453-05-29", tur:"kusatma",
+  baslik:"İstanbul'un fethi (kuşatma 6 Nisan - 29 Mayıs 1453)",
+  tarih_metin:"29 Mayıs 1453 (genel saldırı ve fetih)",
+  uyari:"savaslar.js'te aynı kuşatma iki kayıtla (t:1453-04-06 ve 1453-05-29) geçiyor; bu künye fetih gününe bağlandı.",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"II. Mehmed (Fâtih) · Zağanos Paşa (genel saldırı gününü belirleme yetkisi)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
+    { ad:"Bizans (savunma)", devlet_id:"bizans", komutan:"İmparator XI. Konstantinos · Giovanni Giustiniani Longo (savunma başkumandanı)", mevcut_toplam:"8-9.000 (tam kadro)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"3.000'i asıl faal kısım olan Latinlerdi." }
+  ],
+  kaynak:"TDV: mehmed-ii", bag_ekokuma:null },
+
+{ id:"kunye-otlukbeli-1473", savas_ad:"Otlukbeli", savas_t:"1473-08-11", tur:"meydan",
+  baslik:"Otlukbeli Savaşı (11 Ağustos 1473)",
+  tarih_metin:"11 Ağustos 1473",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Fâtih Sultan Mehmed (merkez) · Şehzade Bayezid ve Has Murad Paşa (sağ kol) · Şehzade Mustafa ve Anadolu beylerbeyi Koca Dâvud Paşa (sol kol)", mevcut_toplam:"70.000 ile 100.000 arası", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Akkoyunlu ordusu", devlet_id:"akkoyunlu", komutan:"Uzun Hasan (merkez) · Kör Zeynel Mirza (sağ kol) · Uğurlu Mehmed Mirza (sol kol)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:70000, top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Ordunun ana gücü 70.000 süvari: 40.000'i mızraklı ve zırhlı, 30.000'i diğer silâhlarla donanmıştı." }
+  ],
+  kaynak:"TDV: otlukbeli-savasi", bag_ekokuma:null },
+
+{ id:"kunye-i-viyana-1529", savas_ad:"I. Viyana kuşatması", savas_t:"1529-09-27", tur:"kusatma",
+  baslik:"I. Viyana kuşatması (1529)",
+  tarih_metin:"27 Eylül 1529 (kuşatmanın başlangıcı)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Kanûnî Sultan Süleyman · Vezîriâzam İbrâhim Paşa (seraskerlik unvanı 28 Mart 1529)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Habsburg savunması", komutan:"bulunamadı — okunan TDV maddesinde adı geçmiyor", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: suleyman-i", bag_ekokuma:null },
+
+{ id:"kunye-malta-1565", savas_ad:"Malta kuşatması", savas_t:"1565-05-18", tur:"kusatma",
+  baslik:"Malta kuşatması (1565)",
+  tarih_metin:"18 Mayıs 1565 (kuşatmanın başlangıcı)",
+  taraflar:[
+    { ad:"Osmanlı kuvvetleri", devlet_id:"osmanli", komutan:"Serdar Mustafa Paşa · kaptanıderyâ Piyâle Paşa · Trablusgarp beylerbeyi Turgut Paşa (23 Haziran 1565'te öldü) · Cezayir beylerbeyi Hasan Paşa", mevcut_toplam:"35.000 civarı kara askeri (yeniçeriler dahil)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yaklaşık 240" },
+    { ad:"Saint Jean (Malta) şövalyeleri", komutan:"Büyük üstat La Valette · yardım kuvveti: Sicilya Valisi Don Garcia", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"6 Eylül'de Sicilya'dan 8.000 kişilik yardım kuvveti adaya çıktı; savunma kuvvetinin sayısı TDV'de yok." }
+  ],
+  kaynak:"TDV: malta", bag_ekokuma:null },
+
+{ id:"kunye-hotin-1621", savas_ad:"Hotin kuşatması", savas_t:"1621-09-02", tur:"kusatma",
+  baslik:"Hotin kuşatması (1621)",
+  tarih_metin:"2 Eylül 1621",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sultan II. Osman (hücumlara bizzat katıldı) · Sadrazam Dilâver Paşa (17 Eylül 1621'den)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Leh-Kazak ordusu", komutan:"Jan Karol Chodkiewicz (Leh-Litvanya ordusunun başında) · Petro Konaševyč-Sahajdačnyj (Ukrayna kazakları)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: hotin · TDV: osman-ii", bag_ekokuma:null },
+
+{ id:"kunye-zenta-1697", savas_ad:"Zenta", savas_t:"1697-09-11", tur:"meydan",
+  baslik:"Zenta Muharebesi (11 Eylül 1697)",
+  tarih_metin:"11 Eylül 1697",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sultan II. Mustafa · Vezîriâzam Elmas Mehmed Paşa (çatışmada öldü)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"Avusturya kaynaklarında 30.000 civarı, bazı Osmanlı kaynaklarında 7-8.000; yaklaşık 4.000 esir" },
+    { ad:"Habsburg ordusu", devlet_id:"habsburg", komutan:"Savoyalı Prens Eugène · Prens Vaudemont (süvari) · Kont Rabutin", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: zenta", bag_ekokuma:null },
+
+{ id:"kunye-prut-1711", savas_ad:"Prut", savas_t:"1711-07-21", tur:"meydan",
+  baslik:"Prut Seferi ve Muharebesi (1711)",
+  tarih_metin:"21 Temmuz 1711",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sadrazam ve serdâr-ı ekrem Baltacı Mehmed Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Rus ordusu", komutan:"Çar I. Petro", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: baltaci-mehmed-pasa", bag_ekokuma:null },
+
+{ id:"kunye-cesme-1770", savas_ad:"Çeşme (deniz)", savas_t:"1770-07-06", tur:"deniz",
+  baslik:"Çeşme Deniz Muharebesi ve baskını (5-7 Temmuz 1770)",
+  tarih_metin:"6 Temmuz 1770 (Çeşme limanında Osmanlı donanmasının yakılması)",
+  uyari:"savaslar.js'te aynı gün iki kayıt var: 'Çeşme (deniz)' ve 'Çeşme baskını'; künye 'Çeşme (deniz)'e bağlandı.",
+  taraflar:[
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Hüsâmeddin Paşa · Cezayirli Hasan Bey (Paşa; sağ kanat) · Rodos beyi Câfer Bey", mevcut_toplam:"bilinmiyor", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"limanda otuz kadar gemi ateşe verildi; 5.000 civarı asker kaybedildi" },
+    { ad:"Rus donanması", komutan:"Amiral Spiridov · Aleksey Orlov · İngiliz amirali Elphinston", mevcut_toplam:"bilinmiyor", piyade:"yok (deniz muharebesi)", suvari:"yok (deniz muharebesi)", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: cesme-vakasi", bag_ekokuma:null },
+
+{ id:"kunye-plevne-1877", savas_ad:"93 Harbi (Plevne)", savas_t:"1877-04-24", tur:"kusatma",
+  baslik:"93 Harbi ve Plevne müdafaası (1877)",
+  tarih_metin:"24 Nisan 1877 (savaşın ilanı); Plevne'ye varış 7 Temmuz, çıkış denemesi 10 Aralık 1877",
+  uyari:"savaslar.js kaydı savaşın başlangıç gününü (24 Nisan) taşıyor; aşağıdaki kuvvet rakamları Plevne müdafaasının Temmuz-Aralık anlarına aittir.",
+  taraflar:[
+    { ad:"Osmanlı ordusu (Plevne)", devlet_id:"osmanli", komutan:"Gazi Osman Paşa (Vidin'den gelen kolordu)", mevcut_toplam:"25.000 (7 Temmuz 1877'de Plevne'ye ulaşan kolordu) · 40.000 (10 Aralık 1877'deki çıkışta ordusu)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Rus-Romen ordusu", komutan:"Aleksandr (TDV: 'bizzat kumanda ettiği' ordu) · General Schilder (8 Temmuz 1877 saldırısı)", mevcut_toplam:"125.000'e çıkarıldı", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: plevne · TDV: gazi-osman-pasa · TDV: doksanuc-harbi", bag_ekokuma:null }
 
 ];
