@@ -16639,6 +16639,10 @@ window.DEVLETLER = [
 { id:"mahra-sultanligi", ad:"Mahra Sultanlığı (Kışn ve Sokotra, İngiliz himayesi)", tur:"sultanlik", bolge:"arabistan", f:"1886-01-01", t:"1967-11-30", baskent:"Kışn", ozet:"Kışn ve Sokotra Mahra Sultanlığı 1886 antlaşmasıyla İngiliz himayesine girdi (Aden Himaye Bölgesi); 1967-11-30'da Güney Yemen'e katıldı. 1886 günü bulunamadı.", kaynak:"Encyclopaedia Britannica (Socotra, Mahra); Library of Congress Country Studies Yemen", kronoloji:[] },
 { id:"yemen-arap-cumhuriyeti", ad:"Yemen Arap Cumhuriyeti (Kuzey Yemen)", tur:"cumhuriyet", bolge:"arabistan", f:"1962-09-26", t:"1990-05-22", baskent:"Sana", ozet:"1962 darbesiyle Zeydi imamligi yerine kurulan cumhuriyet; 1990'da Guney Yemen ile birlesti.", kaynak:"Library of Congress Country Studies Yemen", kronoloji:[] },
 
+// =========== KAPSAM BOSLUGU DALGA idrisi EKLEMESI (13 Ekim 2026) — kronoloji:[] = doldurulacak ===========
+
+{ id:"idrisi-asir", ad:"Idrisi Asir Emirliği", tur:"emirlik", bolge:"arabistan", f:"1908-01-01", t:"1934-06-14", baskent:"Sabya", ozet:"Asir ve Ferasan'da Idrisi emirliği; 1926'da vassal, 1930'da Suudi iç idare, 1934 Taif Antlaşması ile ilhak. Başlangıç yılı kaynaklarda YAKLAŞIK (1908); gün bilinmiyor, YYYY-01-01 yıl düzeyidir.", kaynak:"Emirate of Asir; Qatar Digital Library Coll 6/4(1) Asir 1930 (Ibn Saud iç idareyi devraldı) — başlangıç yılı için ikinci kaynak aranacak (kaynak doğrulaması gerekli)", kronoloji:[] },
+
 ];
 
 ;
