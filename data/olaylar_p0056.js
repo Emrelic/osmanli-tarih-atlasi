@@ -23,9 +23,9 @@
 window.OLAYLAR_P0056 = [
 
 // ── 1739 · Münnich Boğdan'da ─────────────────────────────────────────
-{ t:"1739-08-28", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ t:"1739-08-17", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Stavuçani yenilgisi ve Hotin'in Ruslara teslimi (1736-1739 Osmanlı-Rus Savaşı)",
-  gun:"28 Ağustos 1739 (Jülyen 17 Ağustos)",
+  gun:"17 Ağustos 1739", ic_not_b:"KUTU-H6-1015: t 1739-08-28 (Gregoryen karşılık) → 1739-08-17, kaynağın Jülyen günü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Stavuçani, Hotin yakını — Boğdan",
   yer_id:"Hotin",
   // KUTU-D-1014 (0064/H-0006, Emre: "Stavuçani nerede haritada görünmüyor"): odak ve
@@ -40,9 +40,9 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1769 · Golitsin Dinyester'i geçiyor ──────────────────────────────
-{ t:"1769-04-26", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ t:"1769-04-15", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Dinyester'i geçerek Boğdan'a girmesi (1768-1774 Osmanlı-Rus Savaşı)",
-  gun:"26 Nisan 1769 (Jülyen 15 Nisan)",
+  gun:"15 Nisan 1769", ic_not_b:"KUTU-H6-1015: t 1769-04-26 (Gregoryen karşılık) → 1769-04-15, kaynağın Jülyen günü (m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Dinyester, Hotin önleri — Boğdan",
   yer_id:"Hotin",
   kisiler:"Prens A. M. Golitsin",
@@ -89,9 +89,9 @@ window.OLAYLAR_P0056 = [
   kaynak:"akkirman (TDV): '30 Kasım 1806 tarihinde Rus Prensi Kantakuzino tarafından ele geçirilmesi üzerine'",
   duygu:["😔"] },
 
-{ t:"1806-12-25", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ t:"1806-12-13", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Miloradoviç'in Bükreş'e girmesi — Eflak'ın Rus işgali",
-  gun:"25 Aralık 1806 (Jülyen 13 Aralık)",
+  gun:"13 Aralık 1806", ic_not_b:"KUTU-H6-1015: t 1806-12-25 (Gregoryen karşılık) → 1806-12-13, kaynağın Jülyen günü (m.28); Eflak'taki 15 işgal kaydı birlikte. Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Bükreş, Eflak",
   yer_id:"Bükreş",
   kisiler:"General Miloradoviç, Rusçuk muhafızı Mustafa Paşa",

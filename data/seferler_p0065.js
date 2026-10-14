@@ -46,8 +46,8 @@
 //     1769-74 savaşına Rus tarafında katıldıklarını söylüyor; ayrı bir kol ya da güzergâh bulunamadı
 window.SEFERLER_P0065 = [
 { id:"p0065-golitsin-toplanma-1769", ad:"Golitsın ordusunun Kiev'den Podolya'ya yürüyüşü (1769)", tur:"sefer", sonuc:"belirsiz", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1769-04-01", t:"1769-04-25",
-  tarih_hassasiyet:"f: AY (ESBE-TVR 'В конце марта' Jülyen ⇒ Gregoryen Nisan başı — gün yok) · t: GÜN (Dinyester harekâtının başı, 14 Nisan Jülyen; savaslar.js rus-golitsin-hotin-1769 ile aynı uç)",
+  f:"1769-03-01", t:"1769-04-14",
+  tarih_hassasiyet:"f: AY (ESBE-TVR 'В конце марта' Jülyen — Mart, gün yok) · t: GÜN (Dinyester harekâtının başı, 14 Nisan Jülyen; savaslar.js rus-golitsin-hotin-1769 ile aynı uç) · KUTU-H6-1015: f/t Gregoryen karşılıktan (04-01 / 04-25) Jülyen'e döndürüldü (m.28)",
   kaynak:"ESBE-TVR: \"главная, под начальством кн. Голицына (ок. 65 тыс.), собиралась у Киева\" · \"В конце марта войска главной армия стали сосредоточиваться у Старо-Константинова\" · KASH: \"главные силы 1-й армии А. М. Голицына сосредотачивались в лагере у деревень Минковцы и Антоновка в 40 км к северо-востоку от Каменца-Подольского\" · kamanice (TDV): \"Karlofça Antlaşması'ndan sonra Kamaniçe 1793'e kadar Polonya-Litvanya ittifakında kaldı\" — yol baştan sona Lehistan toprağından geçiyor",
   kesinlik:"Kiev toplanma noktası şehir merkezi; Kiev'den çıkış günü bulunamadı",
   yol:[[30.5238,50.45466],[27.20879,49.75616],[27.106,48.853]] },
