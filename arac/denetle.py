@@ -5214,7 +5214,16 @@ BEKLENEN_D8A = 1505   # 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/ma
 #      d1923-us-cu-guantanamo-2 · g4-bna-us-bati-1 (körlük defterine yazıldı).
 #      ⚠️ LAB "evrende 3" demişti; ÖLÇÜM 6 çıktı — işçinin sayısı kabul edilmeden ölçüldü.
 #   ⇒ 1574 bir ONAY değil DONDURMA: ölçülemeyen 6 hat kapandıkça sayı yine oynar.
-BEKLENEN_D8B = 82   # 84 → 82, 6 Ekim 2026 (§3.4③; D8A ile aynı ölçüm ve aynı ŞERH: main gövdesi).
+# 🔴 82 → 84, KOŞU 24, Emre 14 Ekim 2026 (karar HAVVA koşucu oturumunda Emre'nin
+#    kendi yazısıyla verildi, UMIT koordinasyon oturumuna aktarıldı). Ölçüm: KOŞU 24
+#    çıktısı, taban f39458eb (H0016 sonrası Osmanlı gövdesi, ufuk 2000). YENİ 9:
+#    Basra 1545-12-26 · Budin 1526-11-10 · Diyarbakır 1515-09-19 · Kahire 1517-01-24 ·
+#    Karahisâr-ı Şarkî 1473-08-11 · Kefe 1774-07-20 · Temeşvar 1552-07-27 ·
+#    Tiflis 1578-08-24 · Yaş 1877-05-08 (7 birim düştü, net +2).
+#    ⚠️ BEYANLI BORÇ, ÖLÇÜLMEDİ: yeni 9'un çoğu FETİH GÜNÜ — bölgenin Osmanlı'ya
+#    geçtiği gün yabancı gövde henüz çekilmemiş olabilir (kronoloji günü ↔ gövde
+#    kırılması). Düşen 7 ile KOŞU 23 kıyası yapılmadı; iyileşince tavan iner.
+BEKLENEN_D8B = 84   # 82 → 84, KOŞU 24, Emre 14 Ekim 2026 (önceki: 84 → 82, 6 Ekim 2026, §3.4③).
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,

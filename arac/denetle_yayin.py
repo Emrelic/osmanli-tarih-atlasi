@@ -1475,6 +1475,18 @@ def main():
     except Exception:                                       # noqa: BLE001
         pass
     dinamik_bulunan = []
+    # 🆕 14 Ekim 2026 (KOŞU 24 inişi, Emre): BEŞİNCİ kova — GITIGNORE'LU HAM ÇIKTI.
+    #   `data/ufuk_bantlari.js` (.gitignore) koşucunun ağacında DURUR ama hiçbir
+    #   zaman yayına gitmez ⇒ "yetim" değildir. Kanıt `git check-ignore`dan gelir
+    #   (izlenen dosyayı ASLA saymaz): `-f` ile zorla eklenmiş bir dosya izlenir ve
+    #   yine yetim öter. Push kapısının temiz ölçüm ağacında bu dosyalar zaten yok.
+    _yoksay = set()
+    _vd = os.path.join(KOK, "data")
+    if os.path.isdir(_vd):
+        _aday = ["data/" + f for f in os.listdir(_vd) if f.endswith(".js")]
+        _cik = _git("check-ignore", *_aday) if _aday else None
+        _yoksay = {s.strip().replace("\\", "/") for s in (_cik or "").splitlines() if s.strip()}
+    yoksay_bulunan = []
 
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
     ara_bulunan = []
@@ -1497,6 +1509,8 @@ def main():
                 ara_bulunan.append(yol)
             elif yol in _DINAMIK_ADLAR:
                 dinamik_bulunan.append(yol)
+            elif yol in _yoksay:
+                yoksay_bulunan.append(yol)
             else:
                 kayitsiz.append(yol)
 
@@ -1505,6 +1519,9 @@ def main():
           % (durum4, len(kayitsiz), len(diskte)))
     for y in kayitsiz:
         print("     %s   ← yayında yüklenmez; denetle.py sayar, kullanıcı görmez" % y)
+    if yoksay_bulunan:
+        print("  i %d dosya .gitignore'lu ham çıktı (yayına gitmez, yetim SAYILMAZ): %s"
+              % (len(yoksay_bulunan), " · ".join(y[5:] for y in yoksay_bulunan)))
     if dinamik_bulunan:
         print("  i %d dosya app.js _EKOKUMA_DOSYA_ADLARI / _KAYNAKLI_HALKA_DOSYA_ADLARI ile ÇALIŞMA ANINDA yükleniyor"
               " (adıyla, kanıtlı): %s" % (len(dinamik_bulunan),
