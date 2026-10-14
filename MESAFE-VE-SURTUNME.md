@@ -4,6 +4,10 @@
 > `ALTYAPI-DORT-MADDE.md` ①'in (topografya) ve ③'ün (bölge sınırları) **teorisi**
 > budur: orada *"ne yapılacak"* yazılı, burada *"hangi ölçüte göre"*.
 >
+> **Kısaltma — 5GSY = 5 günlük sürtünmeli yürüyüş** (Emre, kutu 0081/H-0022;
+> açılım `denetim/OLCULECEK-0930.md:60`). Motordaki karşılığı `MOTOR_YURUYUS`
+> yürüyüş bütçesidir.
+>
 > Kayıt gerekçesi Emre'nin kendi cümlesi: *"bu yazdığım noktaları bir yere
 > kaydedelim ki sonra başvurmak gerekirse diye."*
 

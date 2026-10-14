@@ -276,4 +276,12 @@ window.OLAYLAR_P0057 = [
   d:"Savoy'un Kasım 1792'de katılmasından sonra Fransız Ulusal Konvansiyonu, Sardinya Krallığı'na ait Nice Kontluğu'nun Fransa'ya katılmasını 31 Ocak 1793'te onayladı; bölge Alpes-Maritimes departmanı oldu. Nice, Napolyon'un yenilgisinden sonra 30 Mayıs 1814 tarihli I. Paris Antlaşması'yla Sardinya'ya geri döndü.",
   kaynak:"Digithèque MJP (d1793nice, traites/1814paris)" },
 
+{ t:"1922-04-29", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
+  b:"İtalyan birliklerinin Marmaris ve Kuşadası'ndan çekilişi",
+  gun:"24-29 Nisan 1922",
+  ic_not_gun:"ATAM Dergisi (atamdergi.gov.tr tam-metin/41): Kuşadası'ndaki İtalyan askerleri 24 Nisan'da, Marmaris'tekiler 27 Nisan'da çekilmeye başladı; çekilme 29 Nisan 1922'de tamamlandı. Başlangıçlar Mevlüt Çelebi, Belleten 233 (1998). Kuşadası'na ardından giren Yunan kuvvetlerinin bitiş günü bulunamadı — yazılmadı. KUTU-C-1014.",
+  yer:"Marmaris, Kuşadası", yer_id:"Marmaris", kisiler:"",
+  d:"Mayıs 1919'dan beri güneybatı Anadolu kıyılarında bulunan İtalyanlar, Ankara Hükümeti ile yakınlaşmanın ardından işgal bölgesini adım adım boşalttı. Antalya ve Bodrum 1921 yazında boşaltılmıştı; son İtalyan birlikleri Nisan 1922'nin sonunda Kuşadası ve Marmaris'ten de ayrıldı.",
+  kaynak:"Çelebi, Belleten 233 (1998) · ATAM Dergisi" },
+
 ];
