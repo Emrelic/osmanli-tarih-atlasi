@@ -1445,6 +1445,35 @@ def main():
                 re.findall(r'"(data/[A-Za-z0-9_]+\.js)"', _js))
     except Exception:                                       # noqa: BLE001
         pass
+    # 🆕 14 Ekim 2026 (BANT-BOLME-1014 ↔ KOŞU 24 inişi): DÖRDÜNCÜ yol — bölünmüş
+    # havuzun ek dilimleri. `app.js` `ufukYukle` ana parçadan sonra
+    # `"data/ufuk_bant_parcalar_" + k + ".js"` ile _2.._N'i yükler; ad kaynakta
+    # TAM geçmez, yalnız ÖNEKİ geçer ⇒ yukarıdaki tırnak ölçütü onları yetim
+    # sayıyordu (KOŞU 24: yetim 3/591, ikisi bu dilimler — alet boşluğu).
+    # ⚠️ KANIT ÜÇ ŞARTLI, desen muafiyeti DEĞİL: `data/X_N.js` dinamik sayılır
+    #   ancak ① JS kaynağında `"data/X_" +` yol kurucusu tırnak içinde geçiyor
+    #   ② ana dosya `data/X.js` zaten yükleniyor (istenen ya da dinamik)
+    #   ③ ana dosya `…_PARCA=M;` yazıyor ve N ≤ M. Fazla kalmış eski bir dilim
+    #   (N > M) ya da PARCA satırı silinmiş bir ana dosya ⇒ dilim YETİM öter.
+    try:
+        _onekler = set()
+        for _jy in _gg.glob(os.path.join(KOK, "js", "*.js")):
+            _js = io.open(_jy, encoding="utf-8", errors="replace").read()
+            _onekler |= set(re.findall(r'"(data/[A-Za-z0-9_]+_)"\s*\+', _js))
+        for _on in _onekler:
+            _ana = _on[:-1] + ".js"
+            if _ana not in istenen and _ana not in _DINAMIK_ADLAR:
+                continue
+            _ay = os.path.join(KOK, _ana)
+            if not os.path.isfile(_ay):
+                continue
+            _m = re.search(r"(?m)^window\.\w+_PARCA=(\d+);$",
+                           io.open(_ay, encoding="utf-8", errors="replace").read())
+            if _m:
+                _DINAMIK_ADLAR |= {"%s%d.js" % (_on, k)
+                                   for k in range(2, int(_m.group(1)) + 1)}
+    except Exception:                                       # noqa: BLE001
+        pass
     dinamik_bulunan = []
 
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
