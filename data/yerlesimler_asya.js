@@ -2212,6 +2212,35 @@ window.YERLESIMLER_ASYA = [
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
+// KUTU-F2-1014 (0052/H-0108): Hainan'da yalnız Qiongzhou (Haikou) vardı ⇒ bütün ada kuzey
+// kıyıdaki tek peteğe bağlanıyor, renk kıyıya oturmuyordu. Üç tarihî idare merkezi
+// eklendi (Ming/Qing dönemi Danzhou · Yazhou · Wanzhou; koordinat GeoNames, eski şehir
+// merkezleri Zhonghe · Yacheng · Wancheng). Zincir Qiongzhou kaydıyla BİREBİR —
+// ŞEHİR TANIKLIĞI DEĞİL, ankraj Qiongzhou. 🟡 Ming/Qing uçları Qiongzhou'nun kendi
+// uçlarıdır (Qiongzhou kaydı kaynak alanı taşımıyor); Hainan'ın kendi teslim günleri
+// kaynakla bağlanmadı — BEYANLI YAKLAŞIKLIK, ada bütünüyle aynı sahibe geçtiği için
+// petek renginde fark doğurmaz.
+{ ad:"Danzhou (Zhonghe)", tur:"sehir", lat:19.7428, lon:109.3449, g:0, k:3, d:[],
+  kaynak:"koordinat GeoNames 'Zhonghe' (Danzhou Shi) — tarihî Danzhou merkezi · zincir ankraj Qiongzhou (Haikou) — BEYANLI YAKLAŞIKLIK (KUTU-F2-1014)",
+  s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
+     {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
+     {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
+     {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti"}] },
+{ ad:"Yazhou (Yacheng)", tur:"sehir", lat:18.3759, lon:109.1647, g:0, k:3, d:[],
+  kaynak:"koordinat GeoNames 'Yacheng' (Sanya Shi) — tarihî Yazhou merkezi · zincir ankraj Qiongzhou (Haikou) — BEYANLI YAKLAŞIKLIK (KUTU-F2-1014)",
+  s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
+     {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
+     {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
+     {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti"}] },
+{ ad:"Wanzhou (Wancheng)", tur:"sehir", lat:18.7989, lon:110.3816, g:0, k:3, d:[],
+  kaynak:"koordinat GeoNames 'Wancheng Zhen' (Wanning Shi) — tarihî Wanzhou merkezi · zincir ankraj Qiongzhou (Haikou) — BEYANLI YAKLAŞIKLIK (KUTU-F2-1014)",
+  s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
+     {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
+     {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
+     {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1912-02-12", t:"1949-10-01", d:"cin-cumhuriyeti"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti"}] },
 
 { ad:"Wuzhou", tur:"liman", lat:23.4770, lon:111.2790, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},

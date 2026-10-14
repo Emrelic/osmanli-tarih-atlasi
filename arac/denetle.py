@@ -1429,8 +1429,10 @@ BEYAN_EDILEN_BOSLUK = {
     # ⇒ CİNS: `§11` sınavı — kaynak AÇIKÇA konuşuyor ("mahallî yönetim")
     # ama künye yok ⇒ `devletsiz` DEĞİL, "künye-yok". Kaynak susmuyor,
     # dizin susuyor.
-    # 🔜 BORÇ: `cizre-beyligi` künyesi (Bohtan) — yazılınca bu satır SİLİNİR.
-    ("Cizre", "1508-01-01", "1515-09-19"),
+    # 🟢 KAPANDI 14 Ekim 2026 (KUTU-F2-1014, 0043/H-0015): `cizre-botan` künyesi +
+    #   BOYALAR rengi (ed84e4343) geldi, Cizre'ye s:cizre-botan 1508-01-01→1515-09-19
+    #   yazıldı ⇒ ("Cizre", "1508-01-01", "1515-09-19") satırı SİLİNDİ (bayat beyan).
+    #   Yorum tarih için bırakıldı. Cibri ikizi aşağıda, üretilmiş dosyada — ayrı iş.
     # 🔴 Katar Yarımadası (iç, dolgu) 1670-1868 — 72.317 gün, ve NİÇİN BU GECE
     # DOĞDUĞU bu satırın en öğretici yanı.
     #
