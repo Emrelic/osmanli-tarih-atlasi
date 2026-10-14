@@ -3677,8 +3677,26 @@ _BANT_HAM = {b: [None] * len(PETEK_TAM) for b in _YR_BANT_UZAK} if MOTOR_YURUYUS
 #    aşamasında SAYIM DENETİMİ var: toplanan dönem sayısı, yayınlanan
 #    dönem sayısıyla tutmazsa bant dosyası YAZILMAZ ve sebep basılır.
 _BANT_AKTIF = []
+# 🔴 KIYI-KESIM-ONAR-1014 — KOŞU 24 bu satırda 9. dakikada DÜŞTÜ (HAVVA, 04:42):
+#    GEOSException: TopologyException: side location conflict at 12.8811 43.5898
+#    = "BOZUK KENAR [sade] Ancona ↔ San Marino (Monte Titano)" ilk köşesi.
+#    `coverage_simplify` sonrası 10 bozuk kenar (KOŞU 23b'de 6); yeni ikisi
+#    Ancona/San Marino ve Owerri/Bonny. Bozuk kenar bir HÜCREYİ GEÇERSİZ
+#    bırakabiliyor ve `intersection` ona çarpınca bütün koşu ölüyordu.
+# ÇARE (dar): kesim istisna verirse YALNIZ o hücre `temiz` (make_valid) ile
+#    onarılıp yeniden kesilir; geçerli hücreler bit bit AYNI kalır. Onarılan
+#    her hücre adıyla basılır — sessiz onarım yok. Onarım da düşerse koşu
+#    yine düşer (yanlış hücre çizmek, durmaktan kötüdür).
+_KIYI_ONARILAN = []
 for i, g in enumerate(PETEK_TAM):
-    kara_kesik = g.intersection(KARA)
+    try:
+        kara_kesik = g.intersection(KARA)
+    except shapely.errors.GEOSException as _e:
+        g = temiz(g)
+        PETEK_TAM[i] = g
+        kara_kesik = g.intersection(KARA)
+        _KIYI_ONARILAN.append(i)
+        print(f"  🩹 KIYI KESİMİ ONARILDI: {YERLER[i]['ad']} — {str(_e)[:80]}")
     a0 = kara_kesik.area
     if a0 > 0 and _BANT_HAM:
         for _b in _BANT_HAM:
@@ -3697,6 +3715,10 @@ for i, g in enumerate(PETEK_TAM):
             kara_kesik = kes
         # tavan hücreyi TAMAMEN yerse dokunma: nokta kendi peteğinden olmaz
     PETEK_D.append(poligonal(kara_kesik))
+# KIYI-KESIM-ONAR-1014 — boş kova da BASILIR (0 = onarım gerekmedi).
+print(f"  🩹 kıyı kesiminde onarılan geçersiz hücre: {len(_KIYI_ONARILAN)}"
+      + (f" ({', '.join(YERLER[i]['ad'] for i in _KIYI_ONARILAN[:10])})"
+         if _KIYI_ONARILAN else ""))
 print(f"  yarıçap tavanı: {len(_TV_BAGLI)} petek bağlandı "
       f"({100*len(_TV_BAGLI)/len(YERLER):.1f}%) · "
       f"KARA alanının {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}%'i kesildi")
