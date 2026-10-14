@@ -165,11 +165,11 @@ window.KRONOLOJI_INGILTERE = [
 
 // ═════════════ A) I. EDWARD — GALLER VE İSKOÇYA SAVAŞLARI (1284-1328) ═════════════
 
-{ t:"1284-03-19", b:"Rhuddlan Statüsü — Galler İngiliz hukuk sistemine bağlandı", tur:"toprak-kazanc",
+{ t:"1284-01-01", b:"Rhuddlan Statüsü — Galler İngiliz hukuk sistemine bağlandı", tur:"toprak-kazanc",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","idari","galler","ingiltere","konu-askeri","konu-idari","konu-hukuk"],
   yer_id:"",
   d:"I. Edward'ın 1277-1283 seferleriyle fethettiği Galler prensliği, Rhuddlan Statüsü ile İngiliz kraliyet idaresine ve common law'a bağlandı; Galler prensliği unvanı bundan böyle İngiliz veliahtlarına verilecekti. Bu, Galler'in bağımsız siyasî varlığının fiilen sona erdiği dönüm noktasıdır.",
-  kaynak:"el-kitabi", yer_kon:[53.288,-3.538] },
+  kaynak:"A Dictionary of British History (OUP), «Rhuddlan, statute of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-2900 — «Rhuddlan, statute of, 1284. Sometimes known as the statute of Wales» ; el-kitabi", yer_kon:[53.288,-3.538], ic_not_t:"gün yalnız güvensiz kaynakta: 1284-03-19; güvenilir kaynağın tarihi: 1284; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1290-07-18", b:"Yahudilerin İngiltere'den sürülmesi (Expulsion Fermanı)", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","sosyal","ingiltere","konu-din","konu-sosyal"],
@@ -177,17 +177,17 @@ window.KRONOLOJI_INGILTERE = [
   d:"I. Edward, borç ilişkileri ve artan dinî düşmanlık baskısı altında bütün Yahudi nüfusu krallıktan sürdü; İngiltere Avrupa'da Yahudileri resmen sınır dışı eden ilk krallık oldu. Yasak resmen 1656'ya kadar (Cromwell döneminde fiilen kaldırılana dek) yürürlükte kaldı.",
   kaynak:"Encyclopedia of the Middle Ages (James Clarke/Oxford Reference), «Expulsion of Jews» https://www.oxfordreference.com/display/10.1093/acref/9780227679319.001.0001/acref-9780227679319-e-999 — «they were condemned to exile (18 July 1290) with a respite of three months» ; el-kitabi" },
 
-{ t:"1295-11-13", b:"Model Parlamento toplandı", tur:"idari",
+{ t:"1295-01-01", b:"Model Parlamento toplandı", tur:"idari",
   onem:4, dunya:1, kapsam:"ic", etiket:["anayasa","idari","ingiltere","konu-idari","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
   d:"I. Edward, savaş masraflarını karşılamak için soyluları, din adamlarını ve şehir/kasaba temsilcilerini bir araya getiren geniş katılımlı bir meclis topladı. Sonraki İngiliz parlamentolarının bileşimi için model sayıldığından bu adı aldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"World Encyclopedia (OUP), «Model Parliament (November 1295)» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-7668 — «Model Parliament (November 1295) English Parliament summoned by Edward I» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1295-11-13; güvenilir kaynağın tarihi: 1295-11; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1296-03-30", b:"Berwick'in yağmalanması — İskoçya'yı fetih seferi başladı", tur:"savas",
+{ t:"1296-01-01", b:"Berwick'in yağmalanması — İskoçya'yı fetih seferi başladı", tur:"savas",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","iskocya","ingiltere","konu-askeri"],
   yer_id:"",
   d:"I. Edward, İskoç kralı John Balliol'un Fransa ile ittifak kurmasına karşılık İskoçya'ya girdi; Berwick şehrinin yağmalanması ve büyük bir katliamla başlayan sefer birkaç ay içinde Balliol'u tahttan indirdi. İskoç bağımsızlık savaşlarının (1296-1357) ilk perdesidir.",
-  kaynak:"el-kitabi", yer_kon:[55.7715,-2.0031] },
+  kaynak:"The Kings and Queens of Britain (OUP), «John Balliol» https://www.oxfordreference.com/display/10.1093/acref/9780199559220.001.0001/acref-9780199559220-e-47 — «Hostilities began in March 1296, but after Edward sacked Berwick» ; el-kitabi", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız güvensiz kaynakta: 1296-03-30; güvenilir kaynağın tarihi: 1296-03; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1297-09-11", b:"Stirling Köprüsü Savaşı — Wallace İngilizleri yendi", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","savas","iskocya","ingiltere","konu-askeri","konu-imar","konu-ulastirma"],
@@ -201,11 +201,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"I. Edward şahsen sevk ettiği orduyla Wallace'ın piyade birliklerini (schiltron) Galler okçularının desteğiyle bozguna uğrattı. Wallace naiplik görevinden çekildi, ama İskoç direnişi kırılmadı.",
   kaynak:"A Dictionary of British History (OUP), «Falkirk, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1306 — «on 22 July 1298 defeated William Wallace's men» ; el-kitabi", yer_kon:[55.9997,-3.783] },
 
-{ t:"1305-08-23", b:"William Wallace idam edildi", tur:"son",
+{ t:"1305-01-01", b:"William Wallace idam edildi", tur:"son",
   onem:5, dunya:1, kapsam:"dis", etiket:["askeri","iskocya","ingiltere","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"Londra",
   d:"Yakalanan Wallace, Londra'da vatana ihanetten yargılanıp asılarak, bağırsakları çıkarılarak ve parçalara ayrılarak idam edildi; parçaları uyarı amacıyla İskoçya ve Kuzey İngiltere'nin farklı şehirlerinde sergilendi. İdam, Wallace'ı İskoç millî hafızasında bir şehide dönüştürdü.",
-  kaynak:"el-kitabi" },
+  kaynak:"World Encyclopedia (OUP), «Wallace, Sir William» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-12287 — «was eventually captured (1305) and executed» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1305-08-23; güvenilir kaynağın tarihi: 1305; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1306-03-25", b:"Robert Bruce İskoç kralı olarak taç giydi", tur:"hukumdar",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","iskocya","konu-siyasi","konu-hanedan"],
@@ -219,10 +219,10 @@ window.KRONOLOJI_INGILTERE = [
   d:"II. Edward'ın büyük ordusu, Robert Bruce'un çok daha küçük İskoç kuvveti karşısında ağır bir bozguna uğradı; savaş, İskoç bağımsızlığının fiilen güvence altına alındığı dönüm noktası sayılır. Yenilgi II. Edward'ın iktidarını da derinden sarstı.",
   kaynak:"A Dictionary of World History (OUP), «Bannockburn, Battle of (24 June 1314)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-348 — «Bannockburn, Battle of (24 June 1314)» ; el-kitabi", yer_kon:[56.09,-3.91] },
 
-{ t:"1328-05-01", b:"Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı", tur:"antlasma",
+{ t:"1328-05-04", b:"Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı", tur:"antlasma",
   onem:5, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip","iskocya","ingiltere","konu-askeri","konu-diplomasi"],
   d:"III. Edward'ın naipliği döneminde imzalanan antlaşmayla İngiltere, Robert Bruce'u İskoçya kralı ve İskoçya'nın bağımsızlığını resmen tanıdı. Barış kısa sürdü; III. Edward reşit olduktan sonra antlaşmayı tanımayıp savaşı yeniden başlattı.",
-  kaynak:"el-kitabi", yer_id:"Edinburg" },
+  kaynak:"The Oxford Companion to British History (OUP), «Northampton, treaty of (1328)» https://www.oxfordreference.com/display/10.1093/acref/9780199677832.001.0001/acref-9780199677832-e-3107 — «On 4 May 1328 Edward III ... recognized Robert I (Bruce) as king» ; el-kitabi", yer_id:"Edinburg", ic_not_t:"eski gün 1328-05-01 yalnız güvensiz kaynakta (el-kitabi); Oxford Companion: 4 Mayıs 1328 (Northampton onayı; Edinburgh imzası 17 Mart 1328). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 
 // ═════════════ B) YÜZYIL SAVAŞLARI'NIN BAŞLANGICI (1327-1360) ═════════════
 
@@ -232,12 +232,12 @@ window.KRONOLOJI_INGILTERE = [
   d:"Kraliçe Isabella ve sevgilisi Roger Mortimer'ın öncülüğündeki bir darbeyle II. Edward tahttan indirildi ve birkaç ay sonra Berkeley Kalesi'nde öldürüldü; on dört yaşındaki oğlu III. Edward kral ilan edildi. III. Edward 1330'da Mortimer'ı devirip fiilî iktidarı ele alacaktı.",
   kaynak:"Encyclopedia of World Biography (Gale), «Edward III», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/edward-iii — «he succeeded to the throne on Jan. 25, 1327» ; el-kitabi" },
 
-{ t:"1337-10-01", b:"III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı", tur:"savas",
+{ t:"1337-01-01", b:"III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","toprak-kazanc","ingiltere","konu-askeri"],
   yer_id:"",
   odak_yer:["Londra","Paris"],
   d:"III. Edward, annesi üzerinden Fransız tahtına olan iddiasını ileri sürerek Fransa kralı unvanını kullanmaya başladı; bu, İngiltere ile Fransa arasında aralıklarla 1453'e kadar sürecek Yüzyıl Savaşları'nın başlangıcı oldu. Savaş, iki krallığın toprak, hanedan ve millî kimlik ekseninde yüzyıl boyunca çarpışmasına yol açtı.",
-  kaynak:"el-kitabi", kapsam_genis:true },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Hundred Years War» overview https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095950584 — «conflicts between England and France between 1337 and 1453» ; el-kitabi", kapsam_genis:true, ic_not_t:"gün yalnız güvensiz kaynakta: 1337-10-01; güvenilir kaynağın tarihi: 1337; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1340-06-24", b:"Sluys Deniz Savaşı — İngiliz donanma üstünlüğü", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
@@ -251,11 +251,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"III. Edward'ın sayıca çok daha küçük ordusu, Galli uzun yay okçularının yoğun ateşiyle Fransız şövalye süvarisini imha etti; savaş, Avrupa'da ağır süvari üstünlüğü inancını sarsan bir dönüm noktası sayılır. Zafer, İngiltere'nin Calais kuşatmasının önünü açtı.",
   kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Crécy, battle of (26 August 1346)» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-1611 — «Crécy, battle of (26 August 1346)» ; el-kitabi", yer_kon:[50.2591,1.8859] },
 
-{ t:"1348-06-01", b:"Kara Ölüm İngiltere'ye ulaştı", tur:"sosyal",
+{ t:"1348-01-01", b:"Kara Ölüm İngiltere'ye ulaştı", tur:"sosyal",
   onem:5, dunya:3, kapsam:"ic", etiket:["sosyal","salgin","ingiltere","konu-sosyal","afet","afet-salgin"],
   yer_id:"",
   d:"Veba salgını Melcombe (bugünkü Weymouth) limanından girip iki yıl içinde nüfusun yaklaşık üçte birini yok etti. Kitlesel ölüm, işgücü kıtlığı yoluyla feodal ilişkileri sarstı ve otuz üç yıl sonra Köylü Ayaklanması'nın toplumsal zeminini hazırladı.",
-  kaynak:"el-kitabi", yer_kon:[50.6151,-2.459] },
+  kaynak:"The Oxford Companion to British History (OUP), «Black Death», encyclopedia.com https://www.encyclopedia.com/medicine/diseases-and-conditions/pathology/black-death — «the Black Death first struck England in the summer of 1348» ; el-kitabi", yer_kon:[50.6151,-2.459], ic_not_t:"gün yalnız güvensiz kaynakta: 1348-06-01; güvenilir kaynağın tarihi: 1348 (yaz); 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1356-09-19", b:"Poitiers Savaşı — Fransız kralı esir alındı", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
@@ -263,32 +263,32 @@ window.KRONOLOJI_INGILTERE = [
   d:"Kara Prens Edward komutasındaki İngiliz kuvvetleri Fransız ordusunu bozguna uğratıp Kral II. Jean'ı esir aldı. Fransa'nın kralsız kalması ülkeyi derin bir siyasî krize sürükledi ve İngiltere'ye ağır bir fidye kazandırdı.",
   kaynak:"A Dictionary of World History (OUP), «Poitiers, Battle of (19 September 1356)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-2929 — «Poitiers, Battle of (19 September 1356)» ; el-kitabi" },
 
-{ t:"1360-05-08", b:"Brétigny Antlaşması", tur:"antlasma",
+{ t:"1360-01-01", b:"Brétigny Antlaşması", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","ingiltere","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"Fransa, ağır bir fidye karşılığında Akitanya başta olmak üzere geniş toprakları tam egemenlikle İngiltere'ye bıraktı ve III. Edward karşılığında Fransız tahtı iddiasından vazgeçti. Barış kısa sürdü; savaş 1369'da yeniden alevlendi.",
-  kaynak:"el-kitabi", yer_kon:[48.43,1.49] },
+  kaynak:"A Dictionary of British History (OUP), «Brétigny, treaty of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-498 — «negotiations commenced in May 1360 at Brétigny, near Chartres» ; el-kitabi", yer_kon:[48.43,1.49], ic_not_t:"gün yalnız güvensiz kaynakta: 1360-05-08; güvenilir kaynağın tarihi: 1360-05; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ═════════════ C) 14. YÜZYIL SONU BUHRANI (1376-1399) ═════════════
 
-{ t:"1376-04-28", b:"İyi Parlamento toplandı", tur:"idari",
+{ t:"1376-01-01", b:"İyi Parlamento toplandı", tur:"idari",
   onem:2, dunya:1, kapsam:"ic", etiket:["anayasa","idari","ingiltere","konu-idari","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
   d:"Yaşlanan III. Edward döneminde toplanan bu meclis, kraliyet sarayındaki yolsuzlukları soruşturup ilk kez birkaç danışmanı azletti (impeachment). Parlamentonun icra erkini denetleme yetkisinin ilk somut örneklerinden sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of British History (OUP), «Good Parliament» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1519 — «Good Parliament (1376). This Parliament saw the first use of impeachment» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1376-04-28; güvenilir kaynağın tarihi: 1376; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1381-06-13", b:"Köylü Ayaklanması — Wat Tyler Londra'ya girdi", tur:"isyan",
+{ t:"1381-01-01", b:"Köylü Ayaklanması — Wat Tyler Londra'ya girdi", tur:"isyan",
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","sosyal","ingiltere","konu-isyan","konu-sosyal"],
   yer_id:"Londra",
   d:"Kişi başı vergisi (poll tax) ve Kara Ölüm sonrası dayatılan işgücü kısıtlamalarına karşı patlak veren isyan, Wat Tyler önderliğinde Londra'yı ele geçirdi; genç II. Richard isyancılarla görüşmek zorunda kaldı. Tyler kısa süre sonra öldürüldü ve isyan bastırıldı, ama serflik sisteminin çözülüşünü hızlandırdı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of the Middle Ages (Oxford Reference), «Peasants' Revolt of 1381» https://www.oxfordreference.com/display/10.1093/acref/9780227679319.001.0001/acref-9780227679319-e-2147 — «the revolt of the English commons during the months of May and June in 1381» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1381-06-13; güvenilir kaynağın tarihi: 1381-06; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1387-01-01", b:"Chaucer'ın Canterbury Hikâyeleri'ni yazmaya başlaması", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["edebiyat","kultur","ingiltere","konu-kultur"],
   yer_id:"",
   odak_yer:["Londra"],
   d:"Geoffrey Chaucer, Canterbury'ye hac yolculuğuna çıkan farklı toplumsal kesimlerden hacıların anlattığı hikâyeleri derleyen eserini bu yıllarda kaleme almaya başladı. Orta İngilizce'nin edebî bir dil olarak itibar kazanmasında belirleyici eser sayılır.",
-  kaynak:"el-kitabi", kapsam_genis:true },
+  kaynak:"Brewer's Dictionary of Phrase & Fable (OUP), «Canterbury» https://www.oxfordreference.com/display/10.1093/acref/9780199990009.001.0001/acref-9780199990009-e-1912 — «Canterbury Tales In his verse tales (c. 1387)» ; el-kitabi", kapsam_genis:true },
 
 { t:"1399-09-30", b:"II. Richard tahttan indirildi, IV. Henry (Lancaster) kral oldu", tur:"hukumdar",
   onem:5, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","darbe-siyasi","konu-siyasi","konu-darbe","konu-hanedan"],
@@ -321,11 +321,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"Deli VI. Charles, kendi oğlunu mirastan dışlayarak V. Henry'yi Fransa tahtının vârisi ve naibi ilan etti; Henry ayrıca Charles'ın kızı Catherine ile evlendi. Antlaşma, İngiliz ve Fransız taçlarını fiilen tek bir hanedan altında birleştirmeyi öngörüyordu.",
   kaynak:"A Dictionary of British History (OUP), «Troyes, treaty of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-3477 — «By this Anglo-French treaty, ratified on 21 May, Henry V became heir» ; el-kitabi", yer_id:"Troyes" },
 
-{ t:"1422-08-31", b:"VI. Henry bebek yaşta kral oldu", tur:"hukumdar",
+{ t:"1422-09-01", b:"VI. Henry bebek yaşta kral oldu", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
   d:"V. Henry'nin ani ölümüyle dokuz aylık oğlu VI. Henry hem İngiltere hem (Troyes Antlaşması gereği) Fransa tahtına geçti; uzun bir naiplik dönemi başladı. Zayıf ve kararsız bir kral olarak büyüyecek Henry'nin dönemi, Fransa'daki kazanımların kaybedilişine ve nihayetinde Güller Savaşları'na zemin hazırlayacaktı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of World Biography (Gale), «Henry VI», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/henry-vi — «he succeeded to the throne on Sept. 1, 1422» ; el-kitabi", ic_not_t:"eski gün 1422-08-31 (V. Henry'nin ölüm günü) yalnız güvensiz kaynakta; güvenilir kaynak tahta geçişi 1 Eylül 1422 verir (saltanat yılı bu günden sayılır). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 
 { t:"1431-05-30", b:"Jeanne d'Arc İngiliz nüfuzundaki mahkemede yakılarak idam edildi", tur:"savas",
   onem:3, dunya:3, kapsam:"dis", etiket:["askeri","din","ingiltere","konu-askeri","konu-kisiler","konu-din","konu-hukuk"],
@@ -362,7 +362,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:3, kapsam:"ic", etiket:["teknoloji","kultur","ingiltere","imar","islahat","konu-bilim","konu-kultur","konu-imar","konu-islahat"],
   yer_id:"Londra",
   d:"William Caxton, Bruges'te öğrendiği matbaacılığı Westminster'a taşıyarak İngiltere'nin ilk basımevini kurdu; Chaucer'ın eserleri dâhil pek çok kitabı basıp yaygınlaştırdı. Matbaanın gelişi, İngilizce'nin standartlaşmasını ve okuryazarlığın yayılmasını hızlandırdı.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of British History (OUP), «Caxton, William» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-711 — «His press at Westminster, established in 1476, printed nearly 100 volumes» ; el-kitabi" },
 
 { t:"1483-06-26", b:"III. Richard kral oldu — Kule'deki Prensler'in kayboluşu", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
@@ -390,11 +390,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"VII. Henry'nin fermanıyla Bristol'dan yola çıkan Cenevizli denizci Giovanni Caboto (John Cabot), muhtemelen bugünkü Newfoundland kıyılarına ulaşarak İngiltere'nin Kuzey Amerika'daki ilk resmî toprak iddiasını başlattı. Sefer, sonraki yüzyıllarda İngiliz kolonizasyonunun ilk dayanağı sayılır.",
   kaynak:"Dictionary of Canadian Biography, R. A. Skelton, «CABOT, JOHN» https://www.biographi.ca/en/bio/cabot_john_1E.html — «The landfall was made on 24 June, St. John the Baptist's Day» ; el-kitabi" },
 
-{ t:"1509-04-22", b:"VIII. Henry kral oldu", tur:"hukumdar",
+{ t:"1509-04-21", b:"VIII. Henry kral oldu", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
   d:"VII. Henry'nin ölümüyle on yedi yaşındaki VIII. Henry tahta çıktı; kardeşinin dul eşi Katharina of Aragon ile evlendi. Otuz sekiz yıllık saltanatı, İngiltere'nin dinî ve siyasî yapısını kökten değiştirecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of World Biography (Gale), «Henry VIII», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/henry-viii — «On his father's death on April 21, 1509, Henry succeeded» ; el-kitabi", ic_not_t:"eski gün 1509-04-22 yalnız güvensiz kaynakta. Kaynaklar dağınık: EWB ve Renaissance & Reformation Reference Library 21 Nisan (babanın ölümü = tahta geçiş), Oxford «proclaimed king on 23 April 1509» (ilân), Europe 1450–1789 babanın ölümünü 22 Nisan verir. Tablodaki güvenilir kaynağın günü (21 Nisan, Jülyen; kaynak Batı takvimindedir) alındı; varyantlar burada beyan edildi. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 
 { t:"1516-01-01", b:"Thomas More'un Utopia'sı yayımlandı", tur:"kultur",
   onem:3, dunya:2, kapsam:"ic", etiket:["edebiyat","felsefe","ingiltere","konu-din","konu-kultur"],
@@ -403,11 +403,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"Kral danışmanı Thomas More, hayalî bir ada toplumunu betimleyerek dönemin İngiliz toplumsal ve siyasî düzenini eleştiren Utopia'yı Latince olarak Louvain'de (Leuven) yayımladı. Eser, Rönesans hümanizminin İngiltere'deki en etkili ürünlerinden biri ve modern ütopya edebiyatının kurucu metni sayılır.",
   kaynak:"el-kitabi · ORBi (Université de Liège) / Brepols: 'The First Edition of Thomas More's Utopia in Louvain, its Printer Dirk Martens…' (2021) — ilk baskı Louvain, Aralık 1516" },
 
-{ t:"1534-11-03", b:"Üstünlük Yasası — İngiltere Kilisesi kuruldu, Roma ile kopuş", tur:"din",
+{ t:"1534-01-01", b:"Üstünlük Yasası — İngiltere Kilisesi kuruldu, Roma ile kopuş", tur:"din",
   onem:5, dunya:4, kapsam:"ic", etiket:["din","reform","anayasa","ingiltere","konu-din","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
   d:"VIII. Henry'nin Katharina'dan boşanmasına Papa'nın izin vermemesi üzerine Parlamento, kralı İngiltere Kilisesi'nin yeryüzündeki tek başı ilan etti. Bu kopuş, İngiltere'yi Katolik Avrupa'dan ayırıp kendi millî kilisesini kuran bir devlet hâline getirdi.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of British History (OUP), «Supremacy, Act of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-3320 — «passed in the sixth session of the Reformation Parliament in November–December 1534» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1534-11-03; güvenilir kaynağın tarihi: 1534-11/12; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1535-07-06", b:"Thomas More idam edildi", tur:"son",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","siyaset","ingiltere","konu-siyasi","konu-kisiler","konu-din"],
@@ -418,12 +418,12 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1536-01-01", b:"Manastırların kapatılması başladı", tur:"reform",
   onem:5, dunya:2, kapsam:"ic", etiket:["din","ekonomi","reform","ingiltere","konu-ekonomi","konu-din","konu-islahat"],
   d:"Thomas Cromwell'in yürüttüğü politika ile küçük manastırlardan başlayıp 1541'e dek bütün manastır kurumları kapatıldı, malları kraliyet hazinesine ve yeni toprak sahibi sınıfına aktarıldı. Süreç, İngiltere'nin dinî coğrafyasını ve toprak mülkiyet yapısını kalıcı olarak değiştirdi.",
-  kaynak:"el-kitabi", yer_id:"Londra" },
+  kaynak:"The Oxford Dictionary of Local and Family History (OUP), «dissolution of the monasteries» https://www.oxfordreference.com/display/10.1093/acref/9780198600800.001.0001/acref-9780198600800-e-449 — «In the five years between 1536 and 1540 all 650 monasteries ... were dissolved» ; el-kitabi", yer_id:"Londra" },
 
-{ t:"1536-03-01", b:"Galler Yasası — Galler İngiltere ile idarî olarak birleşti", tur:"birlesme",
+{ t:"1536-01-01", b:"Galler Yasası — Galler İngiltere ile idarî olarak birleşti", tur:"birlesme",
   onem:5, dunya:1, kapsam:"dis", etiket:["idari","birlesme","galler","ingiltere","konu-siyasi","konu-idari"],
   d:"Parlamentodan geçen yasa, Galler'i tam olarak İngiliz hukuk ve idare sistemine dâhil etti; Galler Parlamentoya temsilci gönderme hakkı kazandı. 1543'teki ikinci yasayla süreç tamamlandı.",
-  kaynak:"el-kitabi", yer_id:"Londra" },
+  kaynak:"An Oxford Companion to the Romantic Age (OUP), «Religion» https://www.oxfordreference.com/display/10.1093/acref/9780199245437.001.0001/acref-9780199245437-e-591 — «when the principality became a part of the larger nation in 1536» ; el-kitabi", yer_id:"Londra", ic_not_t:"gün yalnız güvensiz kaynakta: 1536-03-01; güvenilir kaynağın tarihi: 1536; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1545-07-19", b:"Mary Rose gemisi Portsmouth açıklarında battı", tur:"kayip",
   onem:2, dunya:1, kapsam:"ic", etiket:["askeri","ingiltere","konu-askeri"],
@@ -439,10 +439,10 @@ window.KRONOLOJI_INGILTERE = [
   d:"VIII. Henry'nin ölümüyle dokuz yaşındaki oğlu VI. Edward tahta geçti; naipler yönetimindeki dönem, Protestan reformların hızlandığı bir çağ oldu. Edward on beş yaşında öldüğünde reform henüz tam yerleşmemişti.",
   kaynak:"Catholic Encyclopedia (1913), «Henry VIII» https://www.newadvent.org/cathen/07222a.htm — «King of England, born 28 June, 1491; died 28 January, 1547» ; el-kitabi" },
 
-{ t:"1549-01-21", b:"İlk Ortak Dua Kitabı dayatıldı, Dua Kitabı İsyanı çıktı", tur:"din",
+{ t:"1549-01-01", b:"İlk Ortak Dua Kitabı dayatıldı, Dua Kitabı İsyanı çıktı", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","isyan","ingiltere","konu-isyan","konu-din"],
   d:"Thomas Cranmer'in hazırladığı İngilizce ibadet kitabının Latince âyinin yerine zorunlu kılınması, özellikle Cornwall ve Devon'da geleneksel Katolik ibadete bağlı halkın silahlı isyanına yol açtı. İsyan kraliyet ordusunca kanlı biçimde bastırıldı.",
-  kaynak:"el-kitabi", yer_id:"Londra" },
+  kaynak:"A Dictionary of British History (OUP), «Book of Common Prayer» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-450 — «The Act of Uniformity (March 1549) ordered the exclusive use of the new Book» ; el-kitabi", yer_id:"Londra", ic_not_t:"eski gün 1549-01-21 yalnız güvensiz kaynakta (yasanın parlamentodan geçişi olabilir, teyitsiz). Güvenilir kaynak yalnız ay verir: Mart 1549 ⇒ ay düzeyi YYYY-01-01 + beyan (takvim kuralı). İsyan ayrı olaydır (Haziran 1549). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 
 { t:"1553-07-19", b:"I. Mary kraliçe oldu, Katolikliği yeniden tesis etti", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["din","hanedan","ingiltere","konu-hanedan","konu-din"],
@@ -474,7 +474,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:1, kapsam:"ic", etiket:["din","reform","ingiltere","konu-din","konu-islahat"],
   yer_id:"Londra",
   d:"Yeni Üstünlük ve İbadet Yasaları, İngiltere Kilisesi'ni Protestan öğretiyi büyük ölçüde koruyan ama Katolik ibadet biçimlerinin bir kısmını da barındıran orta yolu bir yapı olarak sağlamlaştırdı. Uzlaşı, on yıllardır süren dinî çalkantıya nispeten kalıcı bir çözüm getirdi.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Dictionary of Local and Family History (OUP), «Puritan» https://www.oxfordreference.com/display/10.1093/acref/9780198600800.001.0001/acref-9780198600800-e-1175 — «not content with the Elizabethan settlement of 1559» ; el-kitabi" },
 
 { t:"1568-05-16", b:"İskoç Kraliçesi Mary İngiltere'ye sığındı", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","iskocya","ingiltere","konu-siyasi"],
@@ -504,11 +504,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"Elizabeth'in fermanıyla kurulan Levant Company, Osmanlı topraklarıyla ticareti tekelinde toplayan bir kraliyet şirketiydi; şirket 1825'e kadar bölgedeki İngiliz ticaretini bu çerçevede yürütecekti. Kuruluşu, İngiliz-Osmanlı ilişkilerinin kurumsal bir ticaret ve diplomasi ağına dönüşmesini sağladı.",
   kaynak:"ingiltere (TDV)" },
 
-{ t:"1580-09-26", b:"Francis Drake dünya turunu tamamladı", tur:"kesif",
+{ t:"1580-01-01", b:"Francis Drake dünya turunu tamamladı", tur:"kesif",
   onem:4, dunya:2, kapsam:"dis", etiket:["kesif","askeri","ingiltere","konu-askeri","konu-kesif"],
   yer_id:"Plymouth",
   d:"Francis Drake, Golden Hind gemisiyle dünyayı dolaşan ilk İngiliz kaptan olarak Plymouth'a döndü; sefer boyunca İspanyol gemi ve limanlarına saldırılarla büyük bir ganimet topladı. Elizabeth, Drake'i gemisinin güvertesinde şövalye ilan etti.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Companion to British History (OUP), «Drake, Sir Francis», encyclopedia.com https://www.encyclopedia.com/people/history/explorers-travelers-and-conquerors-biographies/sir-francis-drake — «On the return of the 70-foot-long Golden Hind in 1580» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1580-09-26; güvenilir kaynağın tarihi: 1580; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1583-01-01", b:"Harborne Osmanlı sarayına daimî elçi olarak atandı", tur:"diplomasi",
   onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","ingiltere","konu-diplomasi","konu-imar"],
@@ -553,17 +553,17 @@ window.KRONOLOJI_INGILTERE = [
   d:"Guy Fawkes ve bir grup Katolik komplocu, Parlamento binasının altına yerleştirdikleri barutla kral ve meclisi havaya uçurmayı planladı; plan son anda ihbarla açığa çıktı. Olay, İngiliz Katoliklerine yönelik baskıyı artırdı ve her yıl 5 Kasım'da anılan bir millî geleneğe dönüştü.",
   kaynak:"World Encyclopedia (OUP), «Gunpowder Plot (November 1605)» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-4974 — «The plotters were arrested on November 5» ; el-kitabi" },
 
-{ t:"1607-05-14", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi", tur:"kesif",
+{ t:"1607-05-13", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi", tur:"kesif",
   onem:4, dunya:2, kapsam:"dis", etiket:["kesif","kurulus","ingiltere","konu-siyasi","konu-kesif"],
   gun:"14 Mayıs 1607 JÜLYEN (İngiliz eski takvimi; Gregoryen 24 Mayıs 1607)",
   d:"Virginia Company'nin gönderdiği yerleşimciler, Kuzey Amerika'daki ilk kalıcı İngiliz kolonisi olan Jamestown'ı kurdu. Koloni, çok zorlu ilk yıllara rağmen ayakta kaldı ve İngiliz Kuzey Amerika kolonizasyonunun başlangıç noktası oldu.",
-  kaynak:"el-kitabi", yer_id:"Jamestown" },
+  kaynak:"The Oxford Companion to United States History (OUP), «Jamestown» https://www.oxfordreference.com/display/10.1093/acref/9780195082098.001.0001/acref-9780195082098-e-0811 — «reaching Virginia on 26 April 1607 and founding Jamestown on 13 May» ; el-kitabi", yer_id:"Jamestown", ic_not_t:"eski gün 1607-05-14 (karaya çıkış olabilir) yalnız güvensiz kaynakta; Oxford Companion to US History ve Oxford Companion to American Literature 13 Mayıs 1607 (İngiliz eski takvimi) der. Jamestown yerleşiminin s:/kur: ucu birlikte kaydırıldı. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 
 { t:"1611-01-01", b:"King James İncili yayımlandı", tur:"kultur",
   onem:4, dunya:2, kapsam:"ic", etiket:["din","edebiyat","ingiltere","konu-din","konu-kultur"],
   yer_id:"Londra",
   d:"I. James'in emriyle elli kadar din bilgininin ortak çalışmasıyla hazırlanan yeni İngilizce İncil çevirisi yayımlandı. Metin, sadece dinî değil edebî açıdan da İngilizceyi derinden etkileyen bir başyapıt sayılır ve yüzyıllar boyunca standart çeviri olarak kullanıldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Illustrated History of the Bible (OUP), «The New Testament» https://www.oxfordreference.com/display/10.1093/acref/9780198601180.001.0001/acref-9780198601180-chapter-6 — «the translators of the Authorized Version worked, their edition appearing in 1611» ; el-kitabi" },
 
 { t:"1620-11-11", b:"Mayflower Yeni İngiltere'ye ulaştı — Plymouth Kolonisi kuruldu", tur:"kesif",
   onem:4, dunya:2, kapsam:"dis", etiket:["kesif","din","ingiltere","konu-din","konu-kesif"],
@@ -572,19 +572,19 @@ window.KRONOLOJI_INGILTERE = [
   d:"Dinî baskıdan kaçan Puritan ayrılıkçı bir grup (Pilgrim'ler), Mayflower gemisiyle Atlantik'i geçip bugünkü Massachusetts kıyısında Plymouth Kolonisi'ni kurdu. Gemide imzalanan Mayflower Sözleşmesi, kendi kendini yöneten bir topluluk kurma iradesinin erken bir örneği sayılır.",
   kaynak:"Oxford Reference overview, «Mayflower» https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100142371 — «It arrived at Cape Cod on 21 November 1620 after a voyage of sixty-six days» ; el-kitabi" },
 
-{ t:"1628-06-07", b:"Hak Dilekçesi kabul edildi", tur:"anayasa",
+{ t:"1628-01-01", b:"Hak Dilekçesi kabul edildi", tur:"anayasa",
   onem:4, dunya:1, kapsam:"ic", etiket:["anayasa","hukuk","ingiltere","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
-  gun:"7 Haziran 1628 JÜLYEN (İngiliz eski takvimi; Gregoryen 17 Haziran 1628)",
+  gun:"1628",
   d:"Parlamento, I. Charles'ı keyfî vergilendirme, yargısız tutuklama ve sıkıyönetim uygulamalarını sınırlayan bir belgeyi onaylamaya zorladı. Belge, Magna Carta'dan sonra İngiliz anayasal geleneğinin en önemli metinlerinden biri sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of British History (OUP), «petition of right» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-2710 — «petition of right, 1628. Charles I's levy of a forced loan» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1628-06-07 (gun: «7 Haziran 1628 JÜLYEN (İngiliz eski takvimi; Gregoryen 17 Haziran 1628)»); güvenilir kaynağın tarihi: 1628; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1629-03-10", b:"I. Charles Parlamentoyu feshedip Kişisel Yönetim'i başlattı", tur:"siyaset",
+{ t:"1629-01-01", b:"I. Charles Parlamentoyu feshedip Kişisel Yönetim'i başlattı", tur:"siyaset",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","kriz","ingiltere","konu-siyasi"],
   yer_id:"Londra",
-  gun:"10 Mart 1629 JÜLYEN (İngiliz eski takvimi; Gregoryen 20 Mart 1629) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1628/29)",
+  gun:"1629",
   d:"Parlamentoyla vergi ve din politikaları konusunda çatışan I. Charles, meclisi feshedip on bir yıl boyunca hiç Parlamento toplamadan, alternatif gelir kaynaklarına dayanarak yönetti. Bu dönem, kralla Parlamento arasındaki güvensizliği derinleştirerek İç Savaş'ın zeminini hazırladı.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Kings and Queens of Britain (OUP), «Charles I» https://www.oxfordreference.com/display/10.1093/acref/9780199559220.001.0001/acref-9780199559220-e-432 — «Charles dismissed his third Parliament in anger in 1629» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1629-03-10 (gun: «10 Mart 1629 JÜLYEN (İngiliz eski takvimi; Gregoryen 20 Mart 1629) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1628/29)»); güvenilir kaynağın tarihi: 1629; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1642-08-22", b:"İç Savaş başladı — I. Charles Nottingham'da sancağını dikti", tur:"savas",
   onem:5, dunya:3, kapsam:"ic", etiket:["askeri","savas","kriz","ingiltere","konu-askeri","konu-siyasi","konu-idari"],
@@ -607,12 +607,12 @@ window.KRONOLOJI_INGILTERE = [
   d:"Özel bir yüksek mahkeme tarafından vatana ihanetle suçlanan I. Charles, Whitehall'da halkın önünde idam edildi — bir İngiliz kralının yargılanıp infaz edildiği ilk ve tek örnek. İnfazın hemen ardından monarşi kaldırılıp Commonwealth (Cumhuriyet) ilan edildi.",
   kaynak:"The Oxford Companion to British History (OUP), «Charles I», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/charles-i-england — «beheaded, in front of the Banqueting House in Whitehall, on 30 January 1649» ; el-kitabi" },
 
-{ t:"1653-12-16", b:"Cromwell Lord Protektör oldu", tur:"hukumdar",
+{ t:"1653-01-01", b:"Cromwell Lord Protektör oldu", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
-  gun:"16 Aralık 1653 JÜLYEN (İngiliz eski takvimi; Gregoryen 26 Aralık 1653)",
+  gun:"1653",
   d:"İç Savaş'ın askerî lideri Oliver Cromwell, Rump Parlamentosunu dağıttıktan sonra yeni anayasal düzenleme ile Lord Protektör unvanıyla fiilen tek adam yönetimini üstlendi. Yönetimi, cumhuriyetçi görünümlü ama giderek askerî ve kişisel bir iktidara dönüştü.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of World Biography (Gale), «Oliver Cromwell», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/oliver-cromwell — «by which Cromwell became Protector in December 1653» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1653-12-16 (gun: «16 Aralık 1653 JÜLYEN (İngiliz eski takvimi; Gregoryen 26 Aralık 1653)»); güvenilir kaynağın tarihi: 1653-12; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1658-09-03", b:"Cromwell öldü", tur:"son",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","ingiltere","konu-siyasi","konu-kisiler"],
@@ -637,12 +637,12 @@ window.KRONOLOJI_INGILTERE = [
 
 // ═════════════ J) RESTORASYON'DAN ŞANLI DEVRİM'E (1665-1699) ═════════════
 
-{ t:"1665-06-01", b:"Büyük Londra Vebası", tur:"sosyal",
+{ t:"1665-01-01", b:"Büyük Londra Vebası", tur:"sosyal",
   onem:4, dunya:1, kapsam:"ic", etiket:["sosyal","salgin","ingiltere","konu-sosyal","afet","afet-salgin"],
   yer_id:"Londra",
-  gun:"Haziran 1665 (ay; gün yok)",
+  gun:"1665",
   d:"Veba salgını Londra'da bir yıl içinde şehir nüfusunun yaklaşık beşte birini öldürdü; kaçabilenler şehri terk etti, kraliyet sarayı bile taşındı. Salgın, ertesi yıl çıkan büyük yangınla birlikte Londra'nın toplumsal ve fiziksel dokusunu derinden etkiledi.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Companion to British History (OUP), «Plague», encyclopedia.com https://www.encyclopedia.com/medicine/diseases-and-conditions/pathology/plague — «The last 'Great Plague' in London in 1665, recorded in Pepys» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1665-06-01 (gun: «Haziran 1665 (ay; gün yok)»); güvenilir kaynağın tarihi: 1665; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1666-09-02", b:"Büyük Londra Yangını", tur:"felaket",
   onem:4, dunya:1, kapsam:"ic", etiket:["sosyal","ingiltere","konu-sosyal","afet","afet-yangin"],
@@ -683,7 +683,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:3, kapsam:"ic", etiket:["felsefe","ingiltere","konu-din","konu-kultur"],
   yer_id:"Londra",
   d:"John Locke, meşru siyasî otoritenin yönetilenlerin rızasına dayandığını savunan İki İnceleme'yi (Two Treatises of Government) yayımlayarak Şanlı Devrim'in felsefî gerekçesini ortaya koydu. Eser, sonraki yüzyılda Aydınlanma düşüncesini ve Amerikan/Fransız devrimlerinin siyasî dilini derinden etkiledi.",
-  kaynak:"el-kitabi" },
+  kaynak:"Internet Encyclopedia of Philosophy, «Locke, John: Political Philosophy» https://iep.utm.edu/locke-po/ — «They were first published in 1689» ; el-kitabi" },
 
 { t:"1689-12-16", b:"Haklar Bildirgesi (Bill of Rights) yürürlüğe girdi", tur:"anayasa",
   onem:5, dunya:2, kapsam:"ic", etiket:["anayasa","ingiltere","konu-islahat","konu-hukuk"],
@@ -708,12 +708,12 @@ window.KRONOLOJI_INGILTERE = [
 
 // ═════════════ K) BİRLİK YASASI VE ERKEN HANOVER DÖNEMİ (1701-1763) ═════════════
 
-{ t:"1701-06-12", b:"Yerleşim Yasası — Protestan veraseti güvenceye alındı", tur:"anayasa",
+{ t:"1701-01-01", b:"Yerleşim Yasası — Protestan veraseti güvenceye alındı", tur:"anayasa",
   onem:4, dunya:1, kapsam:"ic", etiket:["anayasa","ingiltere","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
-  gun:"12 Haziran 1701 JÜLYEN (İngiliz eski takvimi; Gregoryen 23 Haziran 1701)",
+  gun:"1701",
   d:"Çocuksuz kalan Kraliçe Anne'in ardından tahtın Katolik değil Protestan bir hatta (Hanover Evi) geçmesini öngören Yerleşim Yasası kabul edildi. Yasa ayrıca yargıç güvencesi gibi ilave anayasal sınırlamalar da getirdi.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Companion to British History (OUP), «Settlement, Act of», encyclopedia.com https://www.encyclopedia.com/social-sciences-and-law/sociology-and-social-reform/sociology-general-terms-and-concepts/act-settlement — «Settlement, Act of, 1701. This statute, 12 & 13 Wm. III c. 2» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1701-06-12 (gun: «12 Haziran 1701 JÜLYEN (İngiliz eski takvimi; Gregoryen 23 Haziran 1701)»); güvenilir kaynağın tarihi: 1701; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1702-03-08", b:"Kraliçe Anne tahta çıktı", tur:"hukumdar",
   onem:3, dunya:3, kapsam:"dis", etiket:["siyaset","savas","ingiltere","konu-askeri","konu-siyasi","konu-hanedan"],

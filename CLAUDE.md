@@ -125,6 +125,11 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 - **Hicrî yıl:** `YYYY-01-01` yanlış güne düşer ⇒ hicrî aralık ∩ kaynağın mîlâdî yılı ∩ (varsa)
   ay — **kesişimin ilk günü**; seçim `ic_not`ta hicrî aralıkla beyan edilir; öncül/ardıl ucuyla
   çakışma kontrolü zorunlu; iki kaynaklı uç arasındaki boşluk zorla kapatılmaz.
+- **Takvim (ay-güneş Çin/Kore/Japon · Jülyen/Gregoryen):** kaynak Batı karşılığını veriyorsa o gün;
+  vermiyorsa tabloyla çevir (NAOJ, Academia Sinica…) + `ic_not` beyanı; çevrilemezse yıl/ay
+  hassasiyeti (`YYYY-01-01` + beyan). *(Emre, 14 Ekim 2026)*
+- **Teyit kampanyası:** yalnız yıl teyitli madde sınıra bağlı değilse `YYYY-01-01`e iner; bağlıysa
+  "[yalnız yıl teyitli; gün teyitsiz]" notuyla kalır (`arac/teyit_uygula.py --yil-karari`).
 - Kaynakta kesin okunan "şu yer, şu tarihte, şu devletin" tanıklığı
   `data/kaynakli_halka_<kisaltma>.js`e yazılır; çıkarım ve atlas kaydı yazılmaz.
 - **TDV:** `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`. "TDV'de yok" demeden ara;

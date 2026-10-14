@@ -405,11 +405,12 @@ window.KRONOLOJI_BALKAN = [
   d:"1388-1389 kışında yürütülen Osmanlı seferi sırasında Şumnu, halkının kale anahtarlarını teslim etmesiyle çatışmasız ele geçirildi; kumandan Çandarlı Ali Paşa'ydı.", ic_not_d:"Tarih yerlesimler.js'teki Şumnu kaydıyla (s: bulgaristan biter 1388-01-01) örtüşüyor.",
   kaynak:"TDV `sumnu`: 790-791 (1388-1389) kışında şehrin kale anahtarlarının halk tarafından teslim edildiği, Çandarlı Ali Paşa'nın kaleyi savaşsız aldığı belirtiliyor." },
 
-{ t:"1393-07-17", b:"Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi", tur:"toprak-kayip",
+{ t:"1393-06-17", b:"Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi", tur:"toprak-kayip",
+  ic_not_t:"eski gün 1393-07-17 TDV'de yok; TDV «Tırnova (Bulgaristan)» ve «Bayezid I» (ham metin 14 Ekim 2026 okundu) 17 Haziran 1393 der — 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014), yerleşim uçlarıyla birlikte kaydırıldı.",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Tırnova",
   d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.", ic_not_d:"Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
-  kaynak:"TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
+  kaynak:"TDV İslâm Ansiklopedisi, «Tırnova (Bulgaristan)» https://islamansiklopedisi.org.tr/tirnova--bulgaristan — «şehri tekrar zaptetti (17 Haziran 1393)» ; TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
 
 { taraflar:["bulgar-carligi"], t:"1395-06-03", b:"Niğbolu kalesi Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],

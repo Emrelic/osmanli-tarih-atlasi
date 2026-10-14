@@ -3506,7 +3506,7 @@ window.KRONOLOJI_BIZANS = [
   onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Atina",
   d:"Halmyros'ta Frank ordusunu yenen kumpanya Atina'ya yerleşti ve yetmiş yıl orada kaldı. Yunanistan'ın parçalanmışlığı bir kat daha arttı.",
-  kaynak:"el-kitabi" },
+  kaynak:"A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «The external policy of Byzantium during the reigns of the Andronicoi» https://www.ellopos.net/elpenor/vasilief/external-policy-andronicoi.asp?pg=5 — «In the spring of 1311 there took place a battle in Boeotia» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
 { t:"1321-01-01", b:"Birinci iç savaş başladı — dede ile torun karşı karşıya", tur:"isyan",
   onem:5, dunya:2, kapsam:"ic", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -3526,17 +3526,18 @@ window.KRONOLOJI_BIZANS = [
   d:"Osman Gazi, Bursa'yı doğrudan hücumla almak yerine çevresine kaleler yaptırarak yıllarca sürecek bir ablukaya aldı. Bizans'ın Bitinya şehirlerini kaybetme biçimi budur: hızlı bir fetih değil, yardım gelmeyen şehirlerin yavaş yavaş tükenmesi.",
   kaynak:"el-kitabi" },
 
-{ t:"1328-05-24", b:"III. Andronikos tahta çıktı — iç savaş sona erdi", tur:"hukumdar",
+{ t:"1328-01-01", b:"III. Andronikos tahta çıktı — iç savaş sona erdi", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   yer_id:"İstanbul",
   d:"Torun dedesini tahttan indirerek başkente girdi. Yeni imparator Anadolu'yu kurtarmayı denedi ama elinde kalan kuvvet bunun için çoktan yetersizdi.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopaedia Britannica, «Andronicus III Palaeologus» https://www.britannica.com/biography/Andronicus-III-Palaeologus — «In May 1328, after forcing his grandfather to abdicate … he became sole ruler» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1328-05-24; güvenilir kaynağın tarihi: 1328-05; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1329-06-10", b:"Pelekanon bozgunu — Anadolu'yu kurtarma girişimi çöktü", tur:"savas",
+{ t:"1329-06-01", b:"Pelekanon bozgunu — Anadolu'yu kurtarma girişimi çöktü", tur:"savas",
   onem:5, dunya:2, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"İmparatorun bizzat kumanda ettiği ordu Orhan Gazi karşısında yenildi ve kendisi yaralandı. Bu, bir Bizans imparatorunun Osmanlılara karşı Anadolu'da yönettiği son sefer oldu; bundan sonra İznik ve İzmit yardımsız bırakıldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Orhan» https://islamansiklopedisi.org.tr/orhan — «Savaşın ilk günü (1 Haziran 1329) Orhan Gazi, Bizans ordusunu kendine çekmek için» ; el-kitabi",
+  ic_not_t:"eski gün 1329-06-10 yalnız güvensiz kaynakta (el-kitabi). TDV «Orhan» (ham metin 14 Ekim 2026 okundu): savaş 1 Haziran 1329'da başladı, imparatorun yaralandığı asıl çarpışma «savaşın ikinci günü»; TDV'nin yazdığı tek gün alındı. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); savaslar.js ve savas_kunye_1.js birlikte düzeltildi." },
 
 { t:"1331-03-01", b:"İZNİK DÜŞTÜ — sürgün başkenti Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","konu-demografi"],
@@ -3557,11 +3558,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Dokuz yaşındaki V. İoannis adına naiplik kavgası, Kantakuzenos ile saray partisi arasında altı yıl sürecek bir iç savaşa dönüştü. Bizans tarihyazımı bu savaşı imparatorluğun kendi kendini bitirdiği an sayar: iki taraf da Sırp, Türk ve Bulgar yardımcı kuvvetler çağırarak düşmanlarını ülkenin içine soktu.",
   kaynak:"Encyclopaedia Britannica, «Andronicus III Palaeologus» https://www.britannica.com/biography/Andronicus-III-Palaeologus — «died June 15, 1341, Constantinople» ; el-kitabi" },
 
-{ t:"1341-06-10", b:"Hesykhast tartışması sinoda taşındı", tur:"siyaset",
+{ t:"1341-01-01", b:"Hesykhast tartışması sinoda taşındı", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","kultur","konu-siyasi","konu-kultur"],
   yer_id:"İstanbul",
   d:"Gregorios Palamas'ın savunduğu münzevi dua geleneği ile Barlaam'ın temsil ettiği akılcı ilahiyat arasındaki tartışma resmî sinodlara taşındı. Tartışma iç savaşla iç içe geçti ve taraflar siyasî kamplara dönüştü.",
-  kaynak:"el-kitabi" },
+  kaynak:"Foundation of the Hellenic World, Chronos «Embroilment of hesychasm in the civil war» https://pegasos.fhw.gr/chronos/10/en/p/pb5/pb5a3.html — «the council of 1341 gave the victory to the hesychasts» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1341-06-10; güvenilir kaynağın tarihi: 1341; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1342-01-01", b:"Selanik'te Zelot yönetimi kuruldu", tur:"isyan",
   onem:4, dunya:1, kapsam:"ic", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
@@ -3569,17 +3570,18 @@ window.KRONOLOJI_BIZANS = [
   d:"İmparatorluğun ikinci şehrinde halk hareketi aristokrasiyi devirip yedi yıl süren kendi yönetimini kurdu. Bizans tarihinde eşi olmayan bu şehir cumhuriyeti, iç savaşın toplumsal derinliğini gösterir.",
   kaynak:"A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «Political and social conditions in the Empire» https://www.ellopos.net/elpenor/vasilief/political-social-conditions.asp?pg=7 — «the zealots who in 1342 expelled the nobles from the city» ; el-kitabi" },
 
-{ t:"1345-01-01", b:"Devlet iflası — taç mücevherleri Venedik'e rehin verildi", tur:"siyaset",
+{ t:"1343-01-01", b:"Devlet iflası — taç mücevherleri Venedik'e rehin verildi", tur:"siyaset",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"İstanbul",
   d:"Hazine tükendi ve imparatorluk mücevherleri karşılığında Venedik'ten borç alındı. Rehin bir daha geri alınamadı; 1347 taç giyme töreninde gerçek mücevher yerine cam taşlar kullanıldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"T. V. Kushch, «The Tunic of Christ and the Crown Jewels: Relics in the Byzantine Diplomacy of the Fourteenth Century», Science Journal of Volgograd State University. History 26/6 (2021), 161–170, doi:10.15688/jvolsu4.2021.6.14 — «In August 1343, the Senate of Venice gave credit of 30,000 gold ducats to the Empress» ; el-kitabi",
+  ic_not_t:"eski tarih 1345-01-01 yalnız güvensiz kaynakta (el-kitabi). Hakemli kaynak yalnız ay verir: Ağustos 1343 ⇒ ay düzeyi YYYY-01-01 + beyan (CLAUDE.md: «1343-08» yazılmaz). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014). Aynı gün (1345-01-01) Makedonya'daki bizans→sırp yerleşim uçları BAŞKA olaydır (Duşan fetihleri) — kaydırılmadı." },
 
-{ t:"1346-04-16", b:"Stefan Dušan 'Sırpların ve Rumların imparatoru' ilan edildi", tur:"toprak-kayip",
+{ t:"1346-01-01", b:"Stefan Dušan 'Sırpların ve Rumların imparatoru' ilan edildi", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Üsküp",
   d:"Sırp kralı, Bizans'ın Makedonya ve Epir topraklarını alarak imparator unvanını üstlendi. Balkanlar'da Bizans'ın yerini almaya aday yeni bir güç doğmuştu; ancak Dušan'ın 1355'teki ani ölümü bu devleti dağıtacaktı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopaedia Britannica, «Stefan Dušan» https://www.britannica.com/biography/Stefan-Dusan — «He was crowned emperor in April 1346.» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1346-04-16; güvenilir kaynağın tarihi: 1346-04; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1347-02-02", b:"Kantakuzenos başkente girdi — iç savaş bitti", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
@@ -3599,11 +3601,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Boğaz gümrüğünün neredeyse tamamını toplayan Galata kolonisine karşı girişilen denizcilik hamlesi yenilgiyle bitti. Bizans kaynaklarına göre Galata yılda İstanbul'un yedi katı gümrük geliri topluyordu: imparatorluk kendi boğazında kiracıydı.",
   kaynak:"el-kitabi" },
 
-{ t:"1351-05-28", b:"Blakhernai Sinodu — Palamas'ın öğretisi resmî akîde oldu", tur:"siyaset",
+{ t:"1351-01-01", b:"Blakhernai Sinodu — Palamas'ın öğretisi resmî akîde oldu", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","kultur","konu-siyasi","konu-kultur"],
   yer_id:"İstanbul",
   d:"Hesykhast öğretisi Ortodoks kilisesinin resmî öğretisi olarak kabul edildi. Bu karar, Ortodoks dünyasının Latin ilahiyatından düşünce olarak da ayrılmasını kesinleştirdi ve 1439 birliğinin niçin tutmadığını açıklayan zeminlerden biridir.",
-  kaynak:"el-kitabi" },
+  kaynak:"A. Papadakis, «Gregory Palamas at the Council of Blachernae, 1351», Greek, Roman, and Byzantine Studies 10/4 (1969) https://grbs.library.duke.edu/index.php/grbs/article/view/10431 — «Gregory Palamas at the Council of Blachernae, 1351» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1351-05-28; güvenilir kaynağın tarihi: 1351; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1352-01-01", b:"ÇİMPE KALESİ — Türkler Rumeli'de ilk kaleyi aldı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
@@ -3617,11 +3619,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Depremde surları yıkılan Gelibolu Süleyman Paşa tarafından zaptedildi ve Anadolu'dan getirilen nüfusla iskân edildi. Bizans tarihyazımında bu tarih, Osmanlıların Balkanlar'a geçişinin geri döndürülemez hâle geldiği gündür; imparatorluk artık iki yandan kuşatılmıştı.",
   kaynak:"bizans" },
 
-{ t:"1354-11-22", b:"VI. İoannis Kantakuzenos tahttan çekildi", tur:"son",
+{ t:"1354-01-01", b:"VI. İoannis Kantakuzenos tahttan çekildi", tur:"son",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"İstanbul",
   d:"Gelibolu'nun kaybının doğurduğu öfke üzerine imparator tahtı bırakıp keşiş oldu. Manastırda yazdığı tarih, dönemin en önemli birinci elden kaynağıdır.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopaedia Britannica, «John VI Cantacuzenus» https://www.britannica.com/biography/John-VI-Cantacuzenus — «succeeded in retaking Constantinople in 1354. Cantacuzenus was forced to abdicate» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1354-11-22; güvenilir kaynağın tarihi: 1354; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ═══════════ IV. TÂBİYET YILLARI (1355-1402) ═══════════
 { t:"1355-12-20", b:"Stefan Dušan öldü — Sırp imparatorluğu dağıldı", tur:"son",
@@ -3640,7 +3642,7 @@ window.KRONOLOJI_BIZANS = [
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Dimetoka",
   d:"Gelibolu'dan yayılan Osmanlı kuvvetleri Trakya'nın iç kesimlerini almaya başladı. Başkent kara yolundan Avrupa'daki topraklarına ulaşamaz hâle geliyordu.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «Dimetoka (Didymoteikhon) Kalesi zaptedildi (761/1360 veya 762/1361)» ; el-kitabi" },
 
 { t:"1363-01-01", b:"Filibe (Plovdiv) düştü — Meriç vadisi Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
@@ -3648,11 +3650,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Trakya'nın kuzeyindeki en önemli şehir alınarak Balkan içlerine giden yol açıldı. Bizans'ın Avrupa'daki toprakları başkentin çevresindeki dar bir şeride indi.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «1363'te Edirne ve Filibe'yi zaptettikten sonra Edirne'yi başşehir yapmak suretiyle» ; el-kitabi" },
 
-{ t:"1366-08-23", b:"Savoy'lu Amadeo Gelibolu'yu geri aldı — tek Batı yardımı", tur:"toprak-kazanc",
+{ t:"1366-01-01", b:"Savoy'lu Amadeo Gelibolu'yu geri aldı — tek Batı yardımı", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"],
   yer_id:"Gelibolu",
   d:"İmparatorun kuzeni olan Savoy kontu küçük bir haçlı filosuyla gelip Gelibolu'yu geri aldı ve Bulgarların elindeki imparatoru kurtardı. Bizans'ın Batı'dan gerçekten aldığı tek somut askerî yardım budur; kale 1376'da yeniden Osmanlılara verilecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «Gelibolu'yu aldı (Zilhicce 767 / Ağustos 1366)» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1366-08-23; güvenilir kaynağın tarihi: 1366-08; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1369-01-01", b:"Edirne Osmanlı başşehri oldu — Bizans kuşatıldı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
@@ -3660,11 +3662,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Osmanlı Devleti'nin merkezinin Rumeli'ye taşınması, Bizans'ın Trakya'daki varlığını fiilen bitirdi. Başkent artık Osmanlı toprağıyla çevrili bir ada gibiydi.", ic_not_d:"⚠️ Edirne'nin fetih yılı kaynaklarda 1361 ile 1369 arasında tartışmalıdır; burada başşehir oluşu esas alınmıştır.",
   kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «Edirne'de saray inşasını emretmiş, inşaat bitince oraya geçmişti (770/1369)» ; el-kitabi" },
 
-{ t:"1369-10-21", b:"V. İoannis Roma'da Katoliklige geçti — yardım gelmedi", tur:"diplomasi",
+{ t:"1369-01-01", b:"V. İoannis Roma'da Katoliklige geçti — yardım gelmedi", tur:"diplomasi",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"Roma",
   d:"İmparator Batı'dan yardım almak için şahsen Roma'ya gidip mezhep değiştirdi ama halkını ve kilisesini bağlamadı. Ne yardım geldi ne de birlik gerçekleşti; dönüş yolunda Venedik'te borcundan dolayı alıkonuldu.",
-  kaynak:"el-kitabi" },
+  kaynak:"A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «The conversion to Catholicism of Emperor John V» https://www.ellopos.net/elpenor/vasilief/conversion-john-v.asp?pg=2 — «In October 1369, in Rome, he solemnly read aloud his confession of faith» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1369-10-21; güvenilir kaynağın tarihi: 1369-10; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1371-09-26", b:"ÇİRMEN (Meriç) SAVAŞI — Sırp direnişi imha edildi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
@@ -3684,11 +3686,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Oğul, Ceneviz ve Osmanlı desteğiyle babasını hapsedip tahta çıktı ve karşılığında Gelibolu'yu Osmanlılara geri verdi. Bizans taht kavgaları artık sultanın hakemliğinde çözülüyordu.",
   kaynak:"Encyclopaedia Britannica, «Andronicus IV Palaeologus» https://www.britannica.com/biography/Andronicus-IV-Palaeologus — «he entered Constantinople on August 12, 1376, took his father prisoner» ; el-kitabi" },
 
-{ t:"1379-07-01", b:"V. İoannis tahtı geri aldı — bedeli yine toprak", tur:"hukumdar",
+{ t:"1379-01-01", b:"V. İoannis tahtı geri aldı — bedeli yine toprak", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   yer_id:"İstanbul",
   d:"Bu kez baba, Osmanlı ve Venedik desteğiyle tahtına döndü. Her taht değişikliği yeni bir ödün ve yeni bir toprak kaybı demekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopaedia Britannica, «John V Palaeologus» https://www.britannica.com/biography/John-V-Palaeologus — «the Turks helped him regain the throne (1379)» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1379-07-01; güvenilir kaynağın tarihi: 1379; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1381-08-08", b:"Torino Barışı — Tenedos boşaltıldı", tur:"antlasma",
   onem:3, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -3706,7 +3708,7 @@ window.KRONOLOJI_BIZANS = [
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Selanik",
   d:"Uzun kuşatmanın ardından Selanik Osmanlı idaresine girdi. Bizans'ın elinde başkent, Mora ve birkaç ada dışında neredeyse hiçbir şey kalmamıştı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Murad I» https://islamansiklopedisi.org.tr/murad-i — «1387 Nisanında düşmüştü» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
 { t:"1389-06-15", b:"I. Kosova — Balkan direnişi kırıldı", tur:"savas",
   onem:4, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
@@ -3714,11 +3716,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Sırp ordusunun yenilgisiyle Balkanlar'daki son ciddi direniş bloğu dağıldı ve Bizans'ın kara yoluyla Batı'ya ulaşma ihtimali kapandı. Muharebe hem Osmanlı hem Sırp hem de Bizans anlatısında bir dönemin kapanışı olarak okunur.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «15 Haziran 1389'da Türkler'in Rumeli'deki geleceğini tayin eden Kosova Savaşı» ; el-kitabi" },
 
-{ t:"1390-04-14", b:"VII. İoannis'in beş aylık gaspı", tur:"isyan",
+{ t:"1390-01-01", b:"VII. İoannis'in beş aylık gaspı", tur:"isyan",
   onem:2, dunya:1, kapsam:"ic", etiket:["isyan","konu-isyan"],
   yer_id:"İstanbul",
   d:"Torun, Osmanlı desteğiyle başkenti ele geçirdi ama beş ay sonra amcası tarafından çıkarıldı. Hanedan içi kavga imparatorluğun son yıllarında bile sürüyordu.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «Bizans İmparatoru VII. Johannes'in tahta çıkışını (1390) destekledi» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1390-04-14; güvenilir kaynağın tarihi: 1390; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1391-01-01", b:"YILDIRIM BAYEZİD İSTANBUL'U ABLUKAYA ALDI", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
@@ -3726,23 +3728,24 @@ window.KRONOLOJI_BIZANS = [
   d:"Sultan Bayezid başkenti aralıklarla on bir yıl sürecek bir ablukaya aldı. Şehir açlıkla boğuşurken imparator Manuel yardım aramak için Avrupa başkentlerini dolaştı; Bizans'ın ayakta kalması artık dışarıdan gelecek bir mucizeye bağlıydı.",
   kaynak:"bizans" },
 
-{ t:"1393-07-17", b:"Tırnova düştü — Bulgar Krallığı sona erdi", tur:"toprak-kayip",
+{ t:"1393-06-17", b:"Tırnova düştü — Bulgar Krallığı sona erdi", tur:"toprak-kayip",
   onem:3, dunya:3, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Tırnova",
   d:"Bulgaristan'ın başkenti alındı ve devlet ortadan kalktı. Bizans'ın kuzeyinde tampon işlevi görebilecek son Ortodoks krallık da haritadan silinmişti.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Tırnova (Bulgaristan)» https://islamansiklopedisi.org.tr/tirnova--bulgaristan — «Yıldırım Bayezid uzun ve şiddetli geçen bir kuşatmanın arkasından şehri tekrar zaptetti (17 Haziran 1393)» ; TDV «Bayezid I» aynı ; el-kitabi",
+  ic_not_t:"eski gün 1393-07-17 TDV'de yok; iki TDV maddesi (ham metin 14 Ekim 2026 okundu) 17 Haziran 1393 der. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); olaylar_ek, kronoloji_balkan, devletler.js bulgaristan ve Tırnova/Plevne dönem uçları birlikte kaydırıldı." },
 
-{ t:"1394-01-05", b:"Serez toplantısı — Hristiyan vasallar sultanın huzurunda", tur:"diplomasi",
+{ t:"1394-01-01", b:"Serez toplantısı — Hristiyan vasallar sultanın huzurunda", tur:"diplomasi",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"Serez",
   d:"Yıldırım Bayezid, Bizans imparatoru ve despotları dâhil bütün Hristiyan tâbilerini Serez'de huzuruna çağırdı. Bizans anlatısında bu toplantı, imparatorun bir sultanın maiyetinde saf tutmasının en açık ve en aşağılayıcı sahnesi olarak kayda geçer; dönüşte tâbiyetten kurtulma kararı alınacaktı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «1393-1394 kışında Bayezid bütün Balkan prenslerini ve Palaiologoslar'ı Serez'de toplantıya davet ederek» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1394-01-05; güvenilir kaynağın tarihi: 1393-1394 kışı; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1394-01-01", b:"Abluka sıkılaştı — Anadoluhisarı yaptırıldı", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Boğaz'ın Anadolu yakasına yaptırılan hisarla deniz yolu da denetim altına alındı. Şehir hem karadan hem denizden kuşatılmıştı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Bayezid I» https://islamansiklopedisi.org.tr/bayezid-i — «yedi yıldır abluka altında tuttuğu İstanbul'u 1394 ilkbaharında yeniden sıkı bir kuşatma altına aldı» · TDV İslâm Ansiklopedisi, «Anadoluhisarı» https://islamansiklopedisi.org.tr/anadoluhisari — «Nişancı Mehmed Paşa'ya göre ise burası 797'de (1394-95) yapılmıştır» ; el-kitabi" },
 
 { t:"1396-09-25", b:"NİĞBOLU — son büyük haçlı seferi bozguna uğradı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","konu-askeri"],
@@ -3750,11 +3753,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Bizans'ı kurtarmak için toplanan Avrupa ordusu Tuna kıyısında imha edildi. Batı'nın Bizans'ı askerî olarak kurtarabileceği fikri bu bozgunla birlikte fiilen sona erdi ve başkent yalnız kaldı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «25 Eylül 1396'da Niğbolu'da yapılan savaşta Yıldırım Bayezid'in kumandasındaki Türkler karşısında» ; el-kitabi" },
 
-{ t:"1399-12-10", b:"II. Manuel yardım aramak için Batı'ya gitti", tur:"diplomasi",
+{ t:"1399-01-01", b:"II. Manuel yardım aramak için Batı'ya gitti", tur:"diplomasi",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"İmparator Venedik, Paris ve Londra'yı dolaşarak üç yıl boyunca yardım aradı; bir Bizans imparatorunun İngiltere'ye gitmesi ilk ve son kez oldu. Nazik karşılamalar dışında somut bir sonuç alınamadı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «1399 yılı sonunda çıktığı ve üç yıl süren bu seyahati sırasında» · A. A. Vasiliev, History of the Byzantine Empire 324–1453, University of Wisconsin Press 1952, «Manuel II (1391-1425) and the Turks» https://www.ellopos.net/elpenor/vasilief/manuel-ii.asp?pg=6 — «Late in the year 1399 … Manuel and Boucicaut left the capital for Venice» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1399-12-10; güvenilir kaynağın tarihi: 1399 sonu; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1400-12-01", b:"II. Manuel Londra'da — bir Bizans imparatoru İngiltere'de", tur:"diplomasi",
   onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
@@ -3781,11 +3784,12 @@ window.KRONOLOJI_BIZANS = [
   d:"Despot Theodoros idaresinde Mora, imparatorluğun en canlı parçası hâline geldi ve Mistra bir düşünce merkezine dönüştü. Bizans'ın son kültürel parlaması başkentte değil burada yaşandı.",
   kaynak:"el-kitabi" },
 
-{ t:"1411-06-01", b:"Musa Çelebi İstanbul'u kuşattı", tur:"savas",
+{ t:"1411-01-01", b:"Musa Çelebi İstanbul'u kuşattı", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Fetret devrinin taraflarından Musa Çelebi, Bizans'ın kardeşine verdiği destek yüzünden başkenti kuşattı. İmparatorluk şehzadeler arasında taraf tutarak ayakta kalmaya çalışıyordu.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Mûsâ Çelebi» https://islamansiklopedisi.org.tr/musa-celebi — «Daha sonra 1411 sonbaharında ansızın İstanbul önlerine gelip şehri kuşattı» ; el-kitabi",
+  ic_not_t:"eski gün 1411-06-01 TDV'de yok; TDV (ham metin 14 Ekim 2026 okundu) yalnız «1411 sonbaharı» der — mevsim ay değildir ⇒ yıl düzeyi (1411-01-01). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); olaylar_ek3 ve savaslar.js birlikte düzeltildi." },
 
 { t:"1413-07-05", b:"Çelebi Mehmed birliği sağladı — Bizans'ın kazandığı alan daraldı", tur:"siyaset",
   onem:4, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
@@ -3805,11 +3809,12 @@ window.KRONOLOJI_BIZANS = [
   d:"Venedik filosu Osmanlı donanmasını ağır bir yenilgiye uğrattı ve Ege'de birkaç yıllık bir denge sağladı. Bizans bu zaferin tarafı değildi — kendi denizinde artık yalnız seyirciydi.",
   kaynak:"TDV İslâm Ansiklopedisi, «Mehmed I» https://islamansiklopedisi.org.tr/mehmed-i — «1 Rebîülâhir 819 / 29 Mayıs 1416» ; el-kitabi" },
 
-{ t:"1421-05-26", b:"II. Murad tahta çıktı — Bizans 'şehzade kozu'nu oynadı", tur:"siyaset",
+{ t:"1421-06-25", b:"II. Murad tahta çıktı — Bizans 'şehzade kozu'nu oynadı", tur:"siyaset",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","savas","konu-askeri","konu-siyasi","konu-hanedan"],
   yer_id:"Bursa",
   d:"Çelebi Mehmed'in ölümü üzerine Bizans, elinde tuttuğu Mustafa Çelebi'yi serbest bırakarak Osmanlı tahtına rakip çıkardı. Hesap tutmadı: Mustafa yenildi ve yeni sultan bir yıl sonra başkenti kuşatmaya geldi. Bizans tarihyazımında bu, imparatorluğun son diplomatik kozunu yanlış oynadığı an sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Murad II» https://islamansiklopedisi.org.tr/murad-ii — «Murad Osmanlı tahtına çıktı (23 Cemâziyelâhir 824 / 25 Haziran 1421)» ; TDV «Mehmed I»: «I. Mehmed 23 Cemâziyelâhir 824'te (25 Haziran 1421) Edirne'de vefat ettiğinde Murad Bursa'da tahta çıktı» ; el-kitabi",
+  ic_not_t:"eski gün 1421-05-26 TDV'de yok; iki TDV maddesi (ham metin 14 Ekim 2026 okundu) 23 Cemâziyelâhir 824 / 25 Haziran 1421 der (karşılık TDV'nin, çeviri yapılmadı). 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014); padisahlar.js I. Mehmed bitişi (1421-05 → 1421-06) birlikte düzeltildi." },
 
 { t:"1422-06-10", b:"II. MURAD İSTANBUL'U KUŞATTI", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
@@ -3822,7 +3827,7 @@ window.KRONOLOJI_BIZANS = [
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
   yer_id:"Selanik",
   d:"Despot Andronikos, savunamadığı şehri Venedik'e teslim etti. Bizans artık kendi şehirlerini koruyamadığı için başkalarına devrediyordu.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Selânik» https://islamansiklopedisi.org.tr/selanik — «Selânik'teki Venedik idaresini (1423-1430) şehrin tarihinde görülen en kederli dönem diye nitelemiştir» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
 { t:"1424-02-22", b:"Yeni tâbiyet antlaşması — haraç geri geldi", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","konu-diplomasi"],
@@ -3836,11 +3841,12 @@ window.KRONOLOJI_BIZANS = [
   d:"Elli yılını imparatorluğu ayakta tutmaya harcamış, Avrupa'yı dolaşmış ve yazdığı ilahiyat metinleriyle de tanınan imparator öldü. Oğluna bıraktığı öğüt kayıtlara geçti: Osmanlı'yla açık çatışmadan kaçın, birlik pazarlığını sürekli sürüncemede tut ama asla sonuçlandırma.",
   kaynak:"Encyclopaedia Britannica, «Manuel II Palaeologus» https://www.britannica.com/biography/Manuel-II-Palaeologus — «Manuel II Palaeologus (born July 27, 1350—died July 21, 1425)» ; el-kitabi" },
 
-{ t:"1428-01-01", b:"Mora'da son Latin toprakları geri alındı", tur:"toprak-kazanc",
+{ t:"1430-01-01", b:"Mora'da son Latin toprakları geri alındı", tur:"toprak-kazanc",
   onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   yer_id:"",
   d:"Despotlar Konstantinos ve Thomas, Frank prensliğinden kalan yerleri alarak Mora'yı neredeyse bütünüyle Bizans idaresinde birleştirdi. İmparatorluğun son toprak kazancı budur — ve başkentte değil, yarımadada gerçekleşti.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Mora» https://islamansiklopedisi.org.tr/mora — «1430'da Despot Konstantinos Patras'ı Franklar'dan geri aldı. Böylece Bizans'ın Mora'yı yeniden zaptı tamamlandı» ; el-kitabi",
+  ic_not_t:"eski yıl 1428 TDV'de yok; TDV «Mora» (ham metin 14 Ekim 2026 okundu): Glarentza 1427, Patras 1430 ve «yeniden zaptı tamamlandı» ⇒ madde (son Latin topraklarının alınışı) 1430'dur; gün yok ⇒ 1430-01-01. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)." },
 
 { t:"1430-03-29", b:"Selanik Osmanlı'ya düştü", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri"],
@@ -3848,11 +3854,11 @@ window.KRONOLOJI_BIZANS = [
   d:"Venedik idaresindeki şehir hücumla alındı. Ege'nin kuzeyinde Bizans ya da Latin bir varlık kalmadı.",
   kaynak:"TDV İslâm Ansiklopedisi, «Bizans» https://islamansiklopedisi.org.tr/bizans — «Sultan II. Murad şehri 29 Mart 1430'da bir hücumla aldı.» ; el-kitabi" },
 
-{ t:"1437-11-27", b:"VIII. İoannis birlik görüşmeleri için İtalya'ya gitti", tur:"diplomasi",
+{ t:"1437-01-01", b:"VIII. İoannis birlik görüşmeleri için İtalya'ya gitti", tur:"diplomasi",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"İmparator, patrik ve yedi yüz kişilik heyet, Batı yardımının şartı olan kilise birliğini görüşmek üzere yola çıktı. Heyetin içinde Bizans'ın son büyük bilginleri vardı ve İtalya'da bıraktıkları etki Rönesans'ı besleyecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopaedia Britannica, «John VIII Palaeologus» https://www.britannica.com/biography/John-VIII-Palaeologus — «In 1437 he went to Italy» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1437-11-27; güvenilir kaynağın tarihi: 1437; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1438-01-01", b:"Plethon ve Bessarion İtalya'da — Bizans bilgisinin Batı'ya geçişi", tur:"kurulus",
   onem:3, dunya:4, kapsam:"dis", etiket:["kultur","konu-siyasi","konu-kultur"],
@@ -3896,17 +3902,17 @@ window.KRONOLOJI_BIZANS = [
   d:"Genç sultanın tahta çıkışı başkentte önce bir rahatlama olarak karşılandı. Oysa yeni sultanın tek hedefi vardı ve iki yıl içinde bunu gerçekleştirecekti.",
   kaynak:"TDV İslâm Ansiklopedisi, «Mehmed II» https://islamansiklopedisi.org.tr/mehmed-ii — «Mehmed, 16 Muharrem 855'te (18 Şubat 1451) on dokuz yaşında ikinci defa Osmanlı tahtına çıktı» ; el-kitabi" },
 
-{ t:"1451-09-01", b:"Bizans 'Orhan kozu'nu oynadı — genç sultan tehdit edildi", tur:"diplomasi",
+{ t:"1451-01-01", b:"Bizans 'Orhan kozu'nu oynadı — genç sultan tehdit edildi", tur:"diplomasi",
   onem:5, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Başkent, elinde tuttuğu Osmanlı şehzadesi Orhan için ödenen ödeneğin artırılmasını istedi ve örtülü biçimde onu tahta rakip çıkarmakla tehdit etti. Bizans kaynaklarının da kabul ettiği üzere bu, kuşatmanın en doğrudan bahanesi oldu: elinde gücü kalmayan bir devletin blöf yapması, yıkımını hızlandırdı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Mehmed II» https://islamansiklopedisi.org.tr/mehmed-ii — «Akşehir'e geldiği zaman Bizans elçileri arkasından yetişerek Orhan Çelebi'yi serbest bırakmakla tehdit ettiler» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1451-09-01; güvenilir kaynağın tarihi: 1451 (Mayıs'ta başlayan Karaman seferi sırasında); 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1452-08-31", b:"Rumelihisarı tamamlandı — Boğaz kapandı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"İstanbul",
   d:"Boğaz'ın en dar yerine dört ayda inşa edilen hisar, Karadeniz'den gelecek tahılı ve yardımı kesti. Bizanslıların ona verdiği ad — \"Boğazkesen\" — hem boğazı hem de şehrin can damarını kesmesini anlatıyordu.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Mehmed II» https://islamansiklopedisi.org.tr/mehmed-ii — «Ağustos sonlarında tamamlanan Boğazkesen Hisarı» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
 { t:"1452-12-12", b:"Ayasofya'da birlik ilan edildi — halk kiliseyi terk etti", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-din"],
@@ -3942,15 +3948,15 @@ window.KRONOLOJI_BIZANS = [
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Başkentin düşüşünden yedi yıl sonra Palaiologos hanedanının elindeki son toprak da Osmanlı'ya katıldı.", ic_not_d:"⚠️ Bu madde dosyanın 1281-1453 kapsamının DIŞINDADIR; anlatı kapanmadan bitmesin diye epilog olarak kondu. Trabzon Rum İmparatorluğu (1461) AYRI bir künyedir ve bu dosyaya alınmadı.",
-  kaynak:"el-kitabi" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Mehmed II» https://islamansiklopedisi.org.tr/mehmed-ii — «Fâtih Sultan Mehmed, 864 (1460) Mora seferinde … bütün yarımadayı ele geçirdi» [yalnız yıl teyitli; gün teyitsiz] ; el-kitabi" },
 
 // ⚠️ KAPSAM DIŞI EPİLOG — 1281-1453'ün dışında, ama Bizans'ın devlet
 //    olarak değil KURUM olarak nasıl sürdüğünü göstermeden dosya kapanmaz.
-{ t:"1454-01-06", b:"Gennadios patrik oldu — patrikhane Osmanlı düzeninde sürdü", tur:"kurulus",
+{ t:"1454-01-01", b:"Gennadios patrik oldu — patrikhane Osmanlı düzeninde sürdü", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-din"],
   yer_id:"İstanbul",
   d:"Fâtih, birliğin en sert muhalifi Georgios Scholarios'u II. Gennadios adıyla patrik tayin etti ve Ortodoks cemaatinin kendi hukuku içinde yönetilmesinin yolunu açtı. Bizans devlet olarak sona erdi ama kilisesi kurum olarak yaşamayı sürdürdü; Ortodoks tarihyazımı bu yüzden 1453'ü bir yok oluş değil bir statü değişimi olarak da okur.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopaedia Britannica, «Gennadios II Scholarios» https://www.britannica.com/biography/Gennadios-II-Scholarios — «the first patriarch of Constantinople (1454–64) under Turkish rule» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1454-01-06; güvenilir kaynağın tarihi: 1454; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // --- PALAIOLOGOS RONESANSI · ILAHIYAT · BILIM ekseni (21 Agustos 2026) ---
 { t:"1292-01-01", b:"Maximos Planudes Hint rakamlarını Grekçeye tanıttı", tur:"bilim",

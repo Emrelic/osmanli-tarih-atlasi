@@ -6600,7 +6600,7 @@ window.ETIKET_YAMA = {
    },
    {
     "dosya": "kronoloji_ingiltere.js",
-    "t": "1348-06-01",
+    "t": "1348-01-01",
     "b": "Kara Ölüm İngiltere'ye ulaştı",
     "etiket_oneri": [
      "afet-salgin"
@@ -6608,7 +6608,7 @@ window.ETIKET_YAMA = {
    },
    {
     "dosya": "kronoloji_ingiltere.js",
-    "t": "1665-06-01",
+    "t": "1665-01-01",
     "b": "Büyük Londra Vebası",
     "etiket_oneri": [
      "afet-salgin"

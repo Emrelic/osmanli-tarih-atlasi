@@ -93,7 +93,7 @@ window.SAVASLAR = [
 // Kosmidion (Eyüp), İstanbul surları dışı
 { t:"1410-06-15", tur:"meydan", ad:"Kosmidion Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"belirsiz", seri:"ic", lat:41.05, lon:28.93, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: İstanbul
-{ t:"1411-06-01", tur:"kusatma", ad:"Mûsâ Çelebi'nin İstanbul kuşatması", taraf_metin:"Bizans – Emîr Süleyman", sonuc:"belirsiz", seri:"ic", lat:41.008, lon:28.98, taraf:["osmanli","bizans"] },
+{ t:"1411-01-01", tur:"kusatma", ad:"Mûsâ Çelebi'nin İstanbul kuşatması", taraf_metin:"Bizans – Emîr Süleyman", sonuc:"belirsiz", seri:"ic", lat:41.008, lon:28.98, taraf:["osmanli","bizans"], ic_not_t:"eski 1411-06-01; TDV «Mûsâ Çelebi» yalnız «1411 sonbaharı» der ⇒ yıl düzeyi — 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 // İnceğiz, Çatalca yakını
 { t:"1412-10-01", tur:"meydan", ad:"İnceğiz Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"yenilgi", seri:"ic", lat:41.2, lon:28.35, taraf:["osmanli"] },
 // Çamurlu, Samokov güneyi
@@ -176,7 +176,7 @@ window.SAVASLAR = [
 { t:"1400-08-26", ad:"Sivas kuşatması", taraf_metin:"Timur", sonuc:"yenilgi", galip:"timurlu", lat:39.75, lon:37.02, tur:"kusatma", taraf:["osmanli","timurlu"] },
 { t:"1385-09-18", ad:"Savra (Saurian) Ovası", taraf_metin:"Zeta — II. Balşa", sonuc:"zafer", galip:"osmanli", lat:40.94, lon:19.71, tur:"meydan", taraf:["osmanli","zeta"] },
 { t:"1302-07-27", tur:"meydan", ad:"Koyunhisar (Bapheus)",      taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.72, lon:29.85, taraf:["osmanli","bizans"], galip:"osmanli" },
-{ t:"1329-06-10", tur:"meydan", ad:"Pelekanon (Maltepe)",       taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.92, lon:29.15, taraf:["osmanli","bizans"], galip:"osmanli" },
+{ t:"1329-06-01", tur:"meydan", ad:"Pelekanon (Maltepe)",       taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.92, lon:29.15, taraf:["osmanli","bizans"], galip:"osmanli", ic_not_t:"eski 1329-06-10; TDV «Orhan»: savaşın ilk günü 1 Haziran 1329, asıl çarpışma ikinci gün — 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
 { t:"1364-07-01", tur:"meydan", ad:"Sırpsındığı",               taraf_metin:"Sırp-Macar ordusu", sonuc:"zafer",   seri:"hacli",   lat:41.55, lon:26.35, taraf:["osmanli","macaristan"], galip:"osmanli" },
 // Sırbistan 1364'te Nemanjić İmparatorluğu'nun dağılma döneminde; devletler.js'te
 // bu tarihe denk gelen bir Sırp devleti id'si yok (bkz. OTURUM-10-ILERLEME.md).
@@ -698,7 +698,7 @@ window.SEFERLER = [
 
 { ad:"Katalan Kumpanyası'nın Anadolu seferi (1303-1305)", tur:"sefer", sonuc:"belirsiz", f:"1303-09-01", t:"1305-06-01",
   yol:[[26.67,40.41],[27.20,40.42],[27.84,40.40],[28.52,38.35]] },
-{ ad:"Pelekanon (Maltepe) seferi (1329)", tur:"sefer", sonuc:"zafer", f:"1329-05-15", t:"1329-06-10",
+{ ad:"Pelekanon (Maltepe) seferi (1329)", tur:"sefer", sonuc:"zafer", f:"1329-05-15", t:"1329-06-01",
   yol:[[29.06,40.19],[29.20,40.43],[29.15,40.75],[29.15,40.92]] },
 // Edirne-Filibe-Köstendil-Üsküp: Murad'ın Kosova'ya inişi Vardar vadisini izler.
 { ad:"Kosova seferi (1389)", tur:"sefer", sonuc:"zafer",        f:"1389-03-01", t:"1389-08-01",

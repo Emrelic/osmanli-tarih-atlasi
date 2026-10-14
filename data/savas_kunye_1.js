@@ -76,6 +76,9 @@
 //   (d) "Pelekanon (Maltepe)" savaslar.js'te t:"1329-06-10", EKOKUMA_SAVAS3
 //       kartı "1 Haziran 1329 ve ertesi gün" diyor (t:"1329-06-01" civarı) —
 //       9 günlük fark, hangisinin kaynağa dayandığı bu oturumda ÖLÇÜLMEDİ.
+//       ✅ ÇÖZÜLDÜ 14 Ekim 2026 (TEYIT-KARAR-1014, Emre kararı): TDV «Orhan» ham
+//       metni «Savaşın ilk günü (1 Haziran 1329)» der; savaslar.js, kronoloji_bizans
+//       ve bu künye 1329-06-01'e çekildi.
 //   (e) "Kandiye kuşatması" savaslar.js'te yalnız t:"1648-05-01" (21 yıllık
 //       kuşatmanın BAŞLANGICI) taşıyor, `bitis:` alanı YOK. Bu künye 1669'daki
 //       teslim sayılarını (garnizon, tabya) taşıdığı için savas_t alanına
@@ -103,10 +106,10 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: osman-i (DİA)", bag_ekokuma:"savas-koyunhisar-bapheus-1302" },
 
-{ id:"kunye-pelekanon-1329", savas_ad:"Pelekanon (Maltepe)", savas_t:"1329-06-10", savas_t_ek:["1329-06-01"], tur:"meydan",
+{ id:"kunye-pelekanon-1329", savas_ad:"Pelekanon (Maltepe)", savas_t:"1329-06-01", tur:"meydan",
   baslik:"Pelekanon Savaşı (1329)",
   tarih_metin:"1 Haziran 1329 ve ertesi gün (Kantakuzenos'un hatıratına göre)",
-  uyari:"savaslar.js kaydı t:1329-06-10 taşıyor; EKOKUMA_SAVAS3 kartı '1 Haziran ve ertesi gün' diyor — 9 günlük fark bu oturumda çözülmedi, bkz. dosya başı ③(d).",
+  uyari:"14 Ekim 2026 (TEYIT-KARAR-1014): eski savaslar.js t:1329-06-10 TDV «Orhan»a göre 1329-06-01'e çekildi (savaşın ilk günü; asıl çarpışma ertesi gün) — bkz. dosya başı ③(d).",
   taraflar:[
     { ad:"Osmanlı Beyliği", devlet_id:"osmanli", komutan:"Orhan Bey · kardeşi Pazarlu", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"yok", tufek:"yok", gemi:"yok", notlar:"İlk gün yalnız 300 kişilik akıncı öncüsü kaynakta sayılı; ordunun toplamı verilmiyor." },
     { ad:"Bizans İmparatorluğu", devlet_id:"bizans", komutan:"III. Andronikos · Grandomestikos Yuannis Kantakuzenos", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"yok", tufek:"yok", gemi:"yok", notlar:"TDV Orhan maddesindeki '2000 askerden ibaretti' parantezinin hangi tarafa ait olduğu metinden kesin çıkmıyor; bu yüzden tarafa yazılmadı (EKOKUMA_SAVAS3'ün kendi tartışma notu)." }
