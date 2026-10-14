@@ -31108,20 +31108,14 @@ window.SEHIR_TARIHCE_OSM = [
    "Sarajevo"
   ],
   "ilk": {
-   "t": "1462-02-01",
-   "gun": "Şubat 1462 (866 Cemâziyelevvel)",
-   "nicelik": "kurulus",
-   "kesinlik": "ay",
-   "kaynak": "TDV SARAYBOSNA (M. Aruçi): İshak Bey vakfiyesi, 866 Cemâziyelevvel / Şubat 1462 (Mujezinović I, 17-18)",
-   "tanik": "Saraybosna tamamıyla Osmanlılar devrinde kurulan bir şehirdir"
+   "t": "1458-01-01",
+   "gun": "862 (1458)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV SARAYBOSNA (M. Aruçi) — ham metin okundu 14 Ekim 2026",
+   "tanik": "Hünkâr Camii ile (862/1458) yanında bir hamam yaptırdı"
   },
-  "kur": {
-   "t": "1462-02-01",
-   "gun": "Şubat 1462 (866 Cemâziyelevvel)",
-   "kesinlik": "ay",
-   "kaynak": "TDV SARAYBOSNA: 'Saray', Hünkâr Camii, hamam, köprü, Kolobara Hanı, bedesten — vakfiyede (Şubat 1462)",
-   "tanik": "1462 yılından önce ... ilk müslüman yerleşimi kuruldu"
-  },
+  "kur": null,
   "ark": null,
   "bit": null,
   "sahip": [],
@@ -31162,7 +31156,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV SARAYBOSNA"
    }
   ],
-  "ic_not": "Zincir boş: kuruluş (1462) atlas başlangıcından (1281-01-01, bosna) sonra. Atlas düzeltmesi önerisi: TDV'ye göre bu mevkide Osmanlı öncesi yalnız Brodec köyü ve Vrhbosna adlı küçük yerleşim vardı ('Saraybosna tamamıyla Osmanlılar devrinde kurulan bir şehirdir'); atlas noktası 1462'den (en erken Saray ovasının Osmanlı'ya geçtiği 852/1448'den) başlamalı. Vrhbosna için ayrı kayıt düşünülebilir (yeri kesin değil; Roma dönemine inen küçük iskân arkeolojik, tarihsiz). İlk anılış aralığı: 859/1455 tahririnde 'Saray ovası' yalnız bölge adı; Hünkâr Camii TDV'de 862/1458; 'ilk müslüman yerleşimi 1462 yılından önce' — güvenli uç vakfiye (Şubat 1462). Mesafe: atlas noktası parti noktasına 4,6 km (parti noktası batıdaki modern semtlerde); Başçarşı (Osmanlı çekirdeği, ~43.860 / 18.431) atlas noktasına ~1,5 km — atlas noktası tarihî çekirdeği temsil ediyor."
+  "ic_not": "Zincir boş: kuruluş (1462) atlas başlangıcından (1281-01-01, bosna) sonra. Atlas düzeltmesi önerisi: TDV'ye göre bu mevkide Osmanlı öncesi yalnız Brodec köyü ve Vrhbosna adlı küçük yerleşim vardı ('Saraybosna tamamıyla Osmanlılar devrinde kurulan bir şehirdir'); atlas noktası 1462'den (en erken Saray ovasının Osmanlı'ya geçtiği 852/1448'den) başlamalı. Vrhbosna için ayrı kayıt düşünülebilir (yeri kesin değil; Roma dönemine inen küçük iskân arkeolojik, tarihsiz). İlk anılış aralığı: 859/1455 tahririnde 'Saray ovası' yalnız bölge adı; Hünkâr Camii TDV'de 862/1458; 'ilk müslüman yerleşimi 1462 yılından önce' — güvenli uç vakfiye (Şubat 1462). Mesafe: atlas noktası parti noktasına 4,6 km (parti noktası batıdaki modern semtlerde); Başçarşı (Osmanlı çekirdeği, ~43.860 / 18.431) atlas noktasına ~1,5 km — atlas noktası tarihî çekirdeği temsil ediyor. · 14 Ekim 2026 düzeltme: parti 11 ilk tanığı 'kuruluş 1462-02 (vakfiye)' okumuştu. TDV ham metni: '1462 yılından önce burada … ilk müslüman yerleşimi kuruldu … Hünkâr Camii ile (862/1458)' ⇒ vakfiye kuruluş günü DEĞİL, mevcut yapıların vakıf belgesi; en erken tarihli tanık 1458 cami. Kuruluş günü bilinmiyor (kur yazılmadı). Önceki ilk: {\"t\": \"1462-02-01\", \"gun\": \"Şubat 1462 (866 Cemâziyelevvel)\", \"nicelik\": \"kurulus\", \"kesinlik\": \"ay\", \"kaynak\": \"TDV SARAYBOSNA (M. Aruçi): İshak Bey vakfiyesi, 866 Cemâziyelevvel / Şubat 1462 (Mujezinović I, 17-18)\", \"tanik\": \"Saraybosna tamamıyla Osmanlılar devrinde kurulan bir şehirdir\"}"
  },
  {
   "id": "sari",
